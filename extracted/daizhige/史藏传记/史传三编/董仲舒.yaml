@@ -1,0 +1,137 @@
+person:
+  qid: guji-董仲舒
+  name_zh: 董仲舒
+  names:
+    zh: 董仲舒
+    en: Dong Zhongshu
+  lifespan:
+    birth:
+      date: -0179
+      precision: year
+      is_circa: true
+      raw: 约前179年
+    death:
+      date: '-0104'
+      precision: year
+      is_circa: true
+      raw: 约前104年
+  birth_date: -0179
+  death_date: '-0104'
+  era: 西汉
+  reign_ref: 汉武帝
+  archetype: 名儒
+  dilemmas:
+  - 以春秋灾异谏君，欲以天戒警人主，却易被目为妖妄而罹死罪，言与不言两难
+  - 主张罢黜百家独尊儒术以一统纪，欲正人心而亦虑学术因一尊而趋窄
+  lesson: 承天意以从事，当以教化为本、法度为防，学术欲立一尊必归于六艺仁谊，正谊明道不计功利，灾异之说可用以警君而不可专恃
+  summary_first_person: 吾广川人也，少治春秋，下帷讲诵，三年不窥园，进退必以礼。武帝举贤良，吾三策陈天人阴阳、任德不任刑、兴太学、罢黜百家以一统纪，遂相江都、胶西二骄王，以礼义匡正。尝推灾异以言治乱几得死罪，自是不复言灾异，归而修学著书，明春秋大义以垂后世。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/史传三编.md
+  - https://ctext.org/wiki.pl?if=gb&res=688766
+endeavors:
+- id: guji-董仲舒-endeavor-1
+  title_zh: 罢黜百家独尊儒术与兴太学
+  description: 少治春秋公羊，下帷精研，应武帝贤良对策，陈天道刑德、养士兴学之议，请诸不在六艺者皆绝其道，遂开汉家独尊儒术、立太学养士之局
+  phases:
+  - key: brewing
+    name: 下帷治春秋
+    labels:
+      zh: 潜研
+    start_date: -0179
+    highlight_event_id: guji-董仲舒-event-birth
+  - key: breakthrough
+    name: 贤良三策
+    labels:
+      zh: 建言
+    start_date: '-0134'
+    highlight_event_id: guji-董仲舒-event-ce
+  - key: climax
+    name: 罢黜百家一统纪
+    labels:
+      zh: 定策
+    start_date: '-0134'
+    highlight_event_id: guji-董仲舒-event-ce
+  - key: closure
+    name: 兴太学养士
+    labels:
+      zh: 垂制
+    start_date: '-0124'
+    highlight_event_id: guji-董仲舒-event-taixue
+  decisions:
+  - date: '-0134'
+    title_zh: 对策请兴太学以养士
+    rationale: 不素养士而求贤如不瑑玉而求文采，请兴太学置明师数考问以尽其材，使王道不绝
+  - date: '-0134'
+    title_zh: 请罢黜百家独尊儒术
+    rationale: 师异道人异论法制数变，请诸不在六艺孔子之术者皆绝其道，使统纪可一法度可明
+- id: guji-董仲舒-endeavor-2
+  title_zh: 相骄王与春秋灾异致用
+  description: 两相江都易王、胶西王，以礼义匡正骄王，推春秋灾异、阴阳错行以求雨止雨、谏正时政，几以灾异获罪，遂归而著春秋繁露等书
+  phases:
+  - key: brewing
+    name: 初相江都
+    labels:
+      zh: 匡正
+    start_date: '-0134'
+    highlight_event_id: guji-董仲舒-event-jiangdu
+  - key: breakthrough
+    name: 论越无仁与正谊明道
+    labels:
+      zh: 辨义
+    start_date: '-0133'
+    highlight_event_id: guji-董仲舒-event-jiangdu
+  - key: climax
+    name: 灾异下狱几死
+    labels:
+      zh: 罹祸
+    start_date: '-0126'
+    highlight_event_id: guji-董仲舒-event-zaiyi
+  - key: closure
+    name: 相胶西病免归著书
+    labels:
+      zh: 归著
+    start_date: '-0110'
+    highlight_event_id: guji-董仲舒-event-jiaoxi
+  decisions:
+  - date: '-0133'
+    title_zh: 谏易王越非有仁
+    rationale: 引柳下惠伐国不问仁人、孔子羞称五伯，言仁人正谊不谋利明道不计功，以正骄王诈力之谋
+  - date: '-0126'
+    title_zh: 灾异求雨闭阳纵阴后绝口不言灾异
+    rationale: 推阴阳错行以政术求雨止雨既验，然主父偃窃稿以灾异陷罪几死，自是不敢复以灾异言事，专务著书明经
+events:
+- id: guji-董仲舒-event-birth
+  title_zh: 生于广川
+  date: -0179
+  year_of: -179
+  description: 董仲舒广川人，少治春秋，孝景时已为博士，下帷讲诵三年不窥园，弟子以久次相授业或莫见其面
+- id: guji-董仲舒-event-ce
+  title_zh: 武帝举贤良对策
+  date: '-0134'
+  year_of: -134
+  description: 武帝即位举贤良百数，仲舒对策陈天道阴阳阳为德阴为刑、任德教不任刑、承天意顺命明教化防欲、知仁谊重礼节，以及兴太学养士、罢黜百家独尊儒术以一法度，为汉定一尊之策
+- id: guji-董仲舒-event-jiangdu
+  title_zh: 为江都相匡正易王
+  date: '-0134'
+  year_of: -134
+  description: 对策毕拜江都相事易王，易王素骄好勇问越有三仁，仲舒对以越本无一仁，正谊不谋利明道不计功，治国以春秋灾异推阴阳错行，求雨闭阳纵阴止雨反是，行之一国未尝不得
+- id: guji-董仲舒-event-zaiyi
+  title_zh: 高庙灾异稿被窃下狱获赦
+  date: '-0126'
+  year_of: -126
+  description: 中废为中大夫，辽东高庙长陵高园殿灾，居家推说其意草稿未上，主父偃窃而奏之，诸儒以大愚诋，下吏当死，诏赦之，自是不敢复言灾异
+- id: guji-董仲舒-event-jiaoxi
+  title_zh: 相胶西王后病免归家著书
+  date: '-0115'
+  year_of: -115
+  description: 公孙弘希世用事忌之，言于上使相尤纵恣之胶西王，仲舒恐久获罪，正身率下数上疏谏争，病免归，终不问家产业，以修学著书为事，朝有大事使使及廷尉就问
+- id: guji-董仲舒-event-taixue
+  title_zh: 太学立而儒术定于一尊
+  date: '-0124'
+  year_of: -124
+  description: 其策见用，武帝兴太学置博士弟子，罢黜百家表章六经，儒术自此定于一尊，士皆尊师董仲舒之学
+- id: guji-董仲舒-event-death
+  title_zh: 卒于家
+  date: '-0104'
+  year_of: -104
+  description: 去位后居家著春秋繁露等书，明春秋大义与天人相与之旨，年约七十余卒

@@ -1,0 +1,139 @@
+person:
+  qid: guji-郑玄
+  name_zh: 郑玄
+  names:
+    zh: 郑玄
+    en: Zheng Xuan
+  lifespan:
+    birth:
+      date: '0127'
+      precision: year
+      is_circa: false
+      raw: 汉顺帝永建二年
+    death:
+      date: '0200'
+      precision: year
+      is_circa: false
+      raw: 汉献帝建安五年六月
+  birth_date: '0127'
+  death_date: '0200'
+  era: 东汉
+  reign_ref: 汉顺帝至汉献帝
+  archetype: 经学集大成者
+  dilemmas:
+  - 今文古文门户分立，当专守一家还是会通众说以求圣人本意
+  - 党锢兵乱征辟屡至，当出仕博取功名还是坚辞不就以著述传学保全
+  lesson: 治经贵在会通不执门户，守道贵在力行不徇时俗，承学当以注疏续绝学于乱世
+  summary_first_person: 吾少孤力学，游太学事张恭祖，复师马融三年，归则杜门注经，综会今古，笺毛诗注三礼注周易尚书论语，逢党锢之祸屡征不起，晚遭兵乱犹讲诵不辍，愿以残生托付典籍，使六艺微言不绝
+endeavors:
+- id: guji-郑玄-endeavor-1
+  title_zh: 会通今古遍注群经
+  summary_zh: 以古文为基兼采今文，遍注诗书三礼论语孝经，为汉代经学集大成
+  phases:
+  - key: brewing
+    name: 少孤游学
+    labels:
+      zh: 太学问道
+    start_date: 0138
+    highlight_event_id: guji-郑玄-event-study-taixue
+  - key: breakthrough
+    name: 从师马融
+    labels:
+      zh: 得通古今
+    start_date: '0151'
+    highlight_event_id: guji-郑玄-event-study-maruong
+  - key: climax
+    name: 杜门注经
+    labels:
+      zh: 笺注群经
+    start_date: 0168
+    highlight_event_id: guji-郑玄-event-annotate-classics
+  - key: closure
+    name: 郑学定型
+    labels:
+      zh: 刊定成一家
+    start_date: 0196
+    highlight_event_id: guji-郑玄-event-annotate-classics
+  decisions:
+  - date: '0151'
+    title_zh: 辞亲西行从马融受学
+    rationale: 欲兼通古今之学，非访大儒不能会通，虽役使三年亦甘之
+  - date: 0169
+    title_zh: 党锢起杜门谢宾客专事注解
+    rationale: 世路险巇出仕无益，不如闭门精究经义，以文字传道存汉学命脉
+- id: guji-郑玄-endeavor-2
+  title_zh: 拒辟守道授徒传学
+  summary_zh: 屡辞公府征辟，隐居传徒千人，乱世中保全经术使学统不坠
+  phases:
+  - key: brewing
+    name: 党锢见忌
+    labels:
+      zh: 遭禁锢
+    start_date: '0166'
+    highlight_event_id: guji-郑玄-event-danggu-yinju
+  - key: breakthrough
+    name: 教授东州
+    labels:
+      zh: 门徒盈千
+    start_date: 0168
+    highlight_event_id: guji-郑玄-event-teaching
+  - key: climax
+    name: 屡征不就
+    labels:
+      zh: 守道拒辟
+    start_date: 0189
+    highlight_event_id: guji-郑玄-event-refuse-office
+  - key: closure
+    name: 兵乱流离讲诵不辍
+    labels:
+      zh: 经学播南北
+    start_date: 0197
+    highlight_event_id: guji-郑玄-event-refuse-office
+  decisions:
+  - date: 0168
+    title_zh: 隐居不仕开门授徒
+    rationale: 以布衣传经功在百世，胜于一时官爵，且可远祸全身
+  - date: 0196
+    title_zh: 拒袁绍辟举与孔融举荐
+    rationale: 袁氏非社稷之寄，乱世当以经术自守，不以身徇霸术
+events:
+- id: guji-郑玄-event-birth
+  title_zh: 生于北海高密
+  date: '0127'
+  place_zh: 北海高密
+  description: 汉顺帝永建二年生于高密郑氏，少孤好学，十三诵五经
+- id: guji-郑玄-event-study-taixue
+  title_zh: 游太学受业
+  date: 0138
+  place_zh: 洛阳太学
+  description: 年十一游太学，从张恭祖受周官礼记等，为太学生所敬
+- id: guji-郑玄-event-study-maruong
+  title_zh: 师事马融得古文之学
+  date: '0151'
+  place_zh: 扶风
+  description: 西入关从大儒马融受古文经，尽传其业，兼通京氏易公羊春秋及算历图纬
+- id: guji-郑玄-event-danggu-yinju
+  title_zh: 党锢之祸杜门注经
+  date: '0166'
+  place_zh: 高密
+  description: 以党事禁锢，杜门不出，潜心注解，先后注毛诗笺周礼仪礼礼记等
+- id: guji-郑玄-event-annotate-classics
+  title_zh: 遍注群经成郑学
+  date: 0196
+  place_zh: 徐州
+  description: 完成毛诗笺三礼注论语注等数十万言，会通今古文，世称郑学为汉经正宗
+- id: guji-郑玄-event-teaching
+  title_zh: 教授生徒盈千
+  date: 0180
+  place_zh: 高密东莱
+  description: 教授弟子数千人，及门高第如国渊郜洪等，后多为大儒
+- id: guji-郑玄-event-refuse-office
+  title_zh: 屡辞征辟兵乱流离
+  date: 0197
+  place_zh: 徐州至袁绍营
+  description: 何进辟举袁绍强辟皆不就，黄巾乱及董卓乱中流寓徐州，仍讲诵不辍
+- id: guji-郑玄-event-death
+  title_zh: 卒于元城道中
+  date: 0200-06
+  place_zh: 元城
+  description: 建安五年随袁绍至元城，忧国疾作，六月卒，年七十四，遗命薄葬

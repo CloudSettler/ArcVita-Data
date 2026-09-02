@@ -1,0 +1,240 @@
+person:
+  qid: guji-刘向
+  name_zh: 刘向
+  names:
+    zh: 刘向
+    en: Liu Xiang
+  aliases:
+    - 刘更生
+    - 子政
+  lifespan:
+    birth:
+      date: -77
+      precision: year
+      is_circa: true
+      raw: 约-77
+    death:
+      date: -6
+      precision: year
+      is_circa: true
+      raw: 约-6
+  birth_date: 约-77
+  death_date: 约-6
+  birth_place: 沛郡丰邑
+  era: 西汉
+  reign_ref: reign-han-xuandi
+  role: 模范
+  archetype: 忠谏型
+  dilemmas:
+    - 骨肉疏远而忠言逆耳
+    - 灾异频仍与外戚专权
+    - 屡遭谗谤下狱
+  lesson: 以经术比附灾异、以忠诚直谏匡正君心，虽数被枉而不改其志。
+  summary_zh: 西汉经学家、目录学家，校中秘书，作洪范五行传论、列女传、新序说苑，封事数十上。
+  summary_first_person: 吾本楚元王之后，以经术事宣帝、元帝、成帝，三世更迭，外戚日盛，吾以春秋灾异推言得失，虽系狱免官，犹上封事不已。
+  source_urls:
+    - https://daizhige.org/史藏/传记/史传三编.html
+    - https://www.wikidata.org/wiki/guji-刘向
+  status: ai_filled
+  needs_review_reason: 待与汉书本传互校生卒年
+endeavors:
+  - id: guji-刘向-endeavor-1
+    person_qid: guji-刘向
+    title_zh: 校雠中秘书与洪范五行传论
+    titles:
+      zh: 校雠中秘书与洪范五行传论
+    domain: 文化/政治
+    domains:
+      - 文化
+      - 政治
+    start_date: -26
+    end_date: -6
+    places:
+      - 长安
+    places_ref:
+      - name_zh: 长安
+        qid: Q103
+    status: 完成
+    description_zh: 奉成帝诏领校中五经秘书，集上古至秦汉符瑞灾异，推迹行事，比类相从，著洪范五行传论十一篇奏之，欲以灾异感悟人主，抑制王氏外戚。
+    outcome: 洪范五行传论进御，列女传八篇、新序说苑五十篇相继奏御
+    lesson: 以经解灾、以史为鉴，虽不能夺权，亦为后世留一镜。
+    phases:
+      - key: brewing
+        name: 酝酿
+        labels:
+          zh: 酝酿
+          en: Brewing
+        start_date: -26
+        end_date: -20
+        place: 长安
+        highlight: 领校中秘书
+      - key: breakthrough
+        name: 破局
+        labels:
+          zh: 破局
+          en: Breakthrough
+        start_date: -20
+        end_date: -12
+        place: 长安
+        highlight: 洪范五行传论成
+        highlight_event_id: guji-刘向-event-3
+      - key: climax
+        name: 高潮
+        labels:
+          zh: 高潮
+        start_date: -12
+        end_date: -8
+        place: 长安
+        highlight: 列女传以戒天子
+      - key: closure
+        name: 收束
+        labels:
+          zh: 收束
+        start_date: -8
+        end_date: -6
+        place: 长安
+        highlight: 新序说苑进御
+    decisions:
+      - date: -20
+        title_zh: 以灾异立论抵王氏
+        titles:
+          zh: 以灾异立论抵王氏
+        rationale: 母党专政，必以天变人事动君心
+        alternatives:
+          - 缄默自保
+        place: 长安
+    dilemmas:
+      - 外戚日甚与宗室疏远
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    review_status: ai_filled
+  - id: guji-刘向-endeavor-2
+    person_qid: guji-刘向
+    title_zh: 三世直谏与下狱免官
+    domain: 政治
+    start_date: -56
+    end_date: -26
+    places:
+      - 长安
+    status: 未竟
+    description_zh: 宣帝时献金术获罪下狱，元帝时与萧望之周堪谋退许史恭显，反被谗下狱免为庶人，虽废十余年，复上封事论执狐疑、否泰之理。
+    outcome: 望之自杀，堪猛被逐，己废居十余年后复进
+    lesson: 正士消则政乱，持不断之意者开群枉之门。
+    phases:
+      - key: brewing
+        name: 酝酿
+        start_date: -56
+        end_date: -42
+        place: 长安
+        highlight: 更生献金术
+      - key: breakthrough
+        name: 破局
+        start_date: -42
+        end_date: -36
+        place: 长安
+        highlight: 谋退恭显
+      - key: closure
+        name: 收束
+        start_date: -36
+        end_date: -26
+        place: 长安
+        highlight: 上嫉风摘要救危世颂
+    decisions:
+      - date: -42
+        title_zh: 联萧望之谋退恭显
+        rationale: 宦官弄权必除
+        alternatives:
+          - 明哲保身
+        place: 长安
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    review_status: ai_filled
+events:
+  - id: guji-刘向-event-birth
+    person_qid: guji-刘向
+    date: 约-77
+    date_info:
+      date: -77
+      precision: year
+      is_circa: true
+      raw: 约-77
+    place_name: 沛郡丰邑
+    event_type: 出生
+    title_zh: 出生
+    titles:
+      zh: 出生
+    description_zh: 生于沛郡丰邑，楚元王交之四世孙
+    is_highlight: false
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
+  - id: guji-刘向-event-1
+    person_qid: guji-刘向
+    endeavor_id: guji-刘向-endeavor-2
+    date: -56
+    place_name: 长安
+    event_type: 任职
+    title_zh: 以父德任为辇郎
+    description_zh: 年十二以父德任为辇郎，既冠擢谏大夫
+    is_highlight: false
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
+  - id: guji-刘向-event-2
+    person_qid: guji-刘向
+    endeavor_id: guji-刘向-endeavor-2
+    date: -42
+    place_name: 长安
+    event_type: 下狱
+    title_zh: 谋退恭显下狱免官
+    description_zh: 与萧望之周堪谋退许史恭显，语泄下狱免为庶人
+    is_highlight: true
+    highlight_type: 决策
+    highlight_note: 骨肉忠直而遭谗
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
+  - id: guji-刘向-event-3
+    person_qid: guji-刘向
+    endeavor_id: guji-刘向-endeavor-1
+    date: -26
+    place_name: 长安
+    event_type: 创作
+    title_zh: 洪范五行传论成
+    description_zh: 领校中秘书，著洪范五行传论十一篇
+    is_highlight: true
+    highlight_type: 代表作
+    highlight_note: 集合符瑞灾异推迹行事
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
+  - id: guji-刘向-event-4
+    person_qid: guji-刘向
+    endeavor_id: guji-刘向-endeavor-1
+    date: -18
+    place_name: 长安
+    event_type: 创作
+    title_zh: 列女传八篇以戒天子
+    description_zh: 采诗书贤妃贞妇及孽嬖乱亡序次为列女传
+    is_highlight: true
+    highlight_type: 代表作
+    highlight_note: 王教由内及外
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
+  - id: guji-刘向-event-death
+    person_qid: guji-刘向
+    date: 约-6
+    date_info:
+      date: -6
+      precision: year
+      is_circa: true
+      raw: 约-6
+    place_name: 长安
+    event_type: 逝世
+    title_zh: 逝世
+    description_zh: 年七十二卒，居列大夫官三十余年
+    is_highlight: false
+    sources:
+      - https://daizhige.org/史藏/传记/史传三编.html
+    status: ai_filled
