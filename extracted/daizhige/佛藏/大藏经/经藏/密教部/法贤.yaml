@@ -3,115 +3,133 @@ person:
   name_zh: 法贤
   names:
     zh: 法贤
-    en: Dharmabhadra
+    en: Faxian Dharmabhadra
   lifespan:
     birth:
       date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约北宋初
+      raw: 生年未详中印度人
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 咸平四年卒
+      raw: 宋真宗咸平四年卒於汴京
   birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
-  archetype: 译经弘法者
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 西天译经三藏
   dilemmas:
-  - title_zh: 梵汉悬隔而义须确诂
-    description: 密教咒句音义难传需兼顾梵音与汉义
-  - title_zh: 显密会通而轨须不紊
-    description: 幻化网瑜伽繁复需立观想次第令行人可依
-  lesson: 以信解行证贯通显密依轨观想可调伏烦恼
-  summary_first_person: 吾本西天来华蒙诏译经以幻化网瑜伽十忿怒明王仪轨利益末世行人愿众生依明观想速成菩提
+  - 梵本奥密而华言未备如何取信译场
+  - 贼难怖畏当前而仪轨尚简如何普令安隐
+  lesson: 至诚转梵为华以陀罗尼息除怖畏即是护国安民
+  summary_first_person: 吾自中印度奉佛法而来蒙宋帝诏入译场赐名法贤以明教大师领译密部但愿以结界真言令众生离贼难而得安隐
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说幻化网大瑜伽教十忿怒明王大明观想仪轨经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说幻化网大瑜伽教十忿怒明王大明观想仪轨经.md
+  - https://cbetaonline.dila.edu.tw/zh/T1405_001
+  - https://kanripo.org/CBETA/T/T14/T1405
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 奉诏西天译经
-  description: 自西天入宋充译经三藏奉诏传译显密经论
+  title_zh: 西天入宋领译经院
+  summary_zh: 自中印度赴汴京应诏入译经院授朝散大夫试光禄卿明教大师主持梵汉对译
   phases:
   - key: brewing
-    name: 入华充译
+    name: 西天发足赴宋
     labels:
-      zh: 译场初入
-    start_date: 0973
-    highlight_event_id: guji-法贤-event-arrive
+      zh:
+      - 发心西来
+    start_date: 0976
+    highlight_event_id: guji-法贤-event-arrival
   - key: breakthrough
-    name: 奉诏开译
+    name: 奉诏赐名授职
     labels:
-      zh: 诏译正盛
+      zh:
+      - 译场授职
     start_date: 0982
+    highlight_event_id: guji-法贤-event-award
+  - key: climax
+    name: 领众对译密典
+    labels:
+      zh:
+      - 主译密部
+    start_date: 0985
     highlight_event_id: guji-法贤-event-translate
   - key: closure
-    name: 译业圆成
+    name: 译业成就示寂
     labels:
-      zh: 弘传付嘱
+      zh:
+      - 功圆示寂
     start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0980
-    title_zh: 应诏入译场专攻密教
-    rationale: 顺朝廷崇法之诏发挥西天所长以密教利众
-  - date: 0985
-    title_zh: 音义兼顾直译咒语仪轨
-    rationale: 存梵音威力又以汉文明观想次第令易修持
+  - date: 0976
+    title_zh: 随众东来应宋请
+    rationale: 感宋兴译场弘法之诚愿以梵本东传报佛恩
+  - date: 0982
+    title_zh: 受赐名法贤领译职
+    rationale: 承帝命以信义立译场正名定分以便传持
 - id: guji-法贤-endeavor-2
-  title_zh: 传弘幻化网十忿怒仪轨
-  description: 译说幻化网大瑜伽教十忿怒明王观想与大明
+  title_zh: 汉译息除贼难陀罗尼
+  summary_zh: 译出佛说息除贼难陀罗尼经传大轮结界陀罗尼及白线结法令遇贼难者得安隐
   phases:
   - key: brewing
-    name: 净光天启教
+    name: 观机抉择息灾法
     labels:
-      zh: 禀承教王
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-translate
+      zh:
+      - 抉择密法
+    start_date: 0983
+    highlight_event_id: guji-法贤-event-award
   - key: breakthrough
-    name: 十明王观想成立
+    name: 对译结界真言
     labels:
-      zh: 仪轨奠定
-    start_date: 0995
-    highlight_event_id: guji-法贤-event-sutra
+      zh:
+      - 对译真言
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-translate
   - key: climax
-    name: 持明成就流通
+    name: 宣说白线结法流布
     labels:
-      zh: 利乐行人
-    start_date: 0998
-    highlight_event_id: guji-法贤-event-sutra
+      zh:
+      - 宣说流布
+    start_date: 0986
+    highlight_event_id: guji-法贤-event-translate
+  - key: closure
+    name: 付嘱奉行安民
+    labels:
+      zh:
+      - 付嘱奉行
+    start_date: '1001'
+    highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0995
-    title_zh: 系统译出十忿怒明王名形印咒
-    rationale: 使焰鬘得迦无能胜等各有观想大明可依
-  - date: 0998
-    title_zh: 明示结界成就法与三摩地名
-    rationale: 令持明者得调伏除障速证菩提之实效
+  - date: 0985
+    title_zh: 举阿难遇贼缘起译经
+    rationale: 以阿难怖贼因缘显陀罗尼除难之用易生信心
+  - date: 0986
+    title_zh: 详译结界与线结二法
+    rationale: 使十二由旬结界与七结加持并行僧俗皆可受持
 events:
 - id: guji-法贤-event-birth
   date: 0950
   year_of: 950
-  title_zh: 诞生西天
-  description: 生于西天生年不详约十世纪中习梵典密教
-- id: guji-法贤-event-arrive
-  date: 0973
-  year_of: 973
-  title_zh: 入宋充译经
-  description: 随西天僧团入宋授朝散大夫试光禄卿明教大师充译经三藏
-- id: guji-法贤-event-translate
+  title_zh: 生於中印度
+  description: 中印度人幼习梵典精密教仪轨生年未详
+- id: guji-法贤-event-arrival
+  date: 0976
+  year_of: 976
+  title_zh: 太平兴国初至汴京
+  description: 随天竺僧众东来入宋太宗召入译经院参与对译
+- id: guji-法贤-event-award
   date: 0982
   year_of: 982
-  title_zh: 奉诏开译显密经
-  description: 奉诏于译经院译出多部密教经轨名重一时
-- id: guji-法贤-event-sutra
-  date: 0995
-  year_of: 995
-  title_zh: 译幻化网十忿怒仪轨经
-  description: 译佛说幻化网大瑜伽教十忿怒明王大明观想仪轨经立焰鬘得迦等十尊观想大明
+  title_zh: 赐名法贤授明教大师
+  description: 宋太宗赐名法贤授西天译经三藏朝散大夫试光禄卿明教大师
+- id: guji-法贤-event-translate
+  date: 0985
+  year_of: 985
+  title_zh: 译佛说息除贼难陀罗尼经
+  description: 於汴京译经院译出此经传佛在帝释岩为阿难说大轮结界陀罗尼及白线七结息贼难法
 - id: guji-法贤-event-death
   date: '1001'
   year_of: 1001
-  title_zh: 示寂
-  description: 咸平四年示寂译业付后世流通
+  title_zh: 咸平四年示寂
+  description: 宋真宗咸平四年卒於汴京一生译密部百余卷
