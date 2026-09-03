@@ -8,134 +8,143 @@ person:
     birth:
       date: '0344'
       precision: year
-      is_circa: false
-      raw: 晋永和十年生于龟兹
+      is_circa: true
+      raw: 约晋建元十年生于龟兹国
     death:
       date: '0413'
       precision: year
       is_circa: false
-      raw: 秦弘始十五年卒于长安
+      raw: 姚秦弘始十五年卒于长安
   birth_date: '0344'
   death_date: '0413'
-  era: 十六国后秦
-  reign_ref: 姚兴弘始年间
-  archetype: 译经护国师
+  era: 东晋十六国
+  reign_ref: 姚秦弘始
+  archetype: 弘译宗师
   dilemmas:
-  - title_zh: 西域弘化与中土请迎之抉择
-    description: 留龟兹化导旧众抑或东入长安广译群经以护国利民
-  - title_zh: 空宗妙义与世谛护国之张力
-    description: 如何以般若性空之理成就护佛果护国土之世谛功用而不堕两边
-  lesson: 以般若空慧为体以护国利生为用译经弘化方能久远
-  summary_first_person: 吾本龟兹子少随母出家游学西域悟龙树空义后入长安领译场译仁王般若诸经愿以空慧护佛果护国土令正法久住众生离苦
+  - title_zh: 小乘精熟而转趣大乘
+    description_zh: 罽宾学小乘已负盛名，闻沙勒大乘般若空义而回心，深恐背师别宗，终以实相无碍抉择而弘大乘
+  - title_zh: 留凉羁旅与入秦弘译
+    description_zh: 吕光留凉十七年，译事不行，若安于西土则名全而法不广，若入关则违旧恩而就弘业，终以利众生故应姚兴之请
+  lesson: 以空性不著为宗，重译校定，令般若弘轨可依可学
+  summary_first_person: 我生龟兹，七岁出家，遍学小乘而转悟大乘般若，长安逍遥园中重出小品，愿以胡文雅质朴正之译，令学者忘趣要终，不离般若而行
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/大乘般若部/仁王护国般若波罗蜜经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘般若部/仁王护国般若波罗蜜经.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%B0%8F%E5%93%81%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%B0%8F%E5%93%81%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E7%BB%8F.md
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  person_qid: guji-鸠摩罗什
-  title_zh: 西域求法扬名龟兹
-  summary: 幼随母出家游学罽宾沙勒精大小乘兼通三藏名振西域
+  title_zh: 西域问道兼学大小乘
+  summary_zh: 随母出家，罽宾专小乘，沙勒悟大乘般若，奠定后来弘译般若之正见
   phases:
   - key: brewing
-    name: 随母出家初学
+    name: 龟兹出家
     labels:
-      zh: 萌芽
+      zh:
+      - 幼年出家
+      - 诵习经论
     start_date: '0351'
     highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 西游罽宾悟入空宗
+    name: 罽宾学小
     labels:
-      zh: 转折
-    start_date: '0363'
-    highlight_event_id: guji-鸠摩罗什-event-study
+      zh:
+      - 小乘精通
+      - 声誉渐著
+    start_date: '0353'
+    highlight_event_id: guji-鸠摩罗什-event-shache
   - key: climax
-    name: 还归龟兹弘化四方
+    name: 沙勒转大
     labels:
-      zh: 高峰
-    start_date: 0380
-    highlight_event_id: guji-鸠摩罗什-event-study
+      zh:
+      - 般若顿悟
+      - 破执显空
+    start_date: '0356'
+    highlight_event_id: guji-鸠摩罗什-event-shache
   - key: closure
-    name: 名达东土被迎请
+    name: 西域名振
     labels:
-      zh: 收束
-    start_date: 0384
-    highlight_event_id: guji-鸠摩罗什-event-arrival
+      zh:
+      - 弘化西域
+      - 待时入关
+    start_date: 0380
+    highlight_event_id: guji-鸠摩罗什-event-changan
   decisions:
-  - date: '0363'
-    title_zh: 改学大乘般若空观
-    rationale: 遇须耶达多深悟龙树空义遂转小归大立中道本志
-  - date: 0380
-    title_zh: 住龟兹受请讲经
-    rationale: 不急东行先固西域法基令声名远播而后缘熟入秦
+  - date: '0356'
+    title_zh: 舍小趣大
+    rationale: 于沙勒遇须利耶苏摩，闻般若诸法实相，知小乘偏空未尽，决意弘大乘空慧
+  - date: 0384
+    title_zh: 安住凉州不绝讲学
+    rationale: 为吕光所留，不得东行，则随缘说法藏器待时，以存法种
 - id: guji-鸠摩罗什-endeavor-2
-  person_qid: guji-鸠摩罗什
-  title_zh: 长安译经护国弘般若
-  summary: 入长安领译场译仁王般若等经以般若护佛果护国土之说教化君王臣民
+  title_zh: 长安重译小品般若
+  summary_zh: 应秦太子之请，于弘始十年重出小品般若，校旧译之失，以朴正之文显空慧弘轨
   phases:
   - key: brewing
-    name: 入关礼敬立译场
+    name: 迎入关中
     labels:
-      zh: 筹划
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-arrival
+      zh:
+      - 姚兴敦请
+      - 逍遥园译场
+    start_date: '0401-12-20'
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 群经并译名重朝野
+    name: 太子请重译
     labels:
-      zh: 突破
-    start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-translation
+      zh:
+      - 玩味旧译
+      - 知失求真
+    start_date: '0408-02-06'
+    highlight_event_id: guji-鸠摩罗什-event-xiaopin
   - key: climax
-    name: 译仁王护国般若
+    name: 案本重出
     labels:
-      zh: 高潮
-    start_date: '0410'
-    highlight_event_id: guji-鸠摩罗什-event-translation
+      zh:
+      - 神授真文
+      - 芸除荒稼
+    start_date: '0408-02-06'
+    highlight_event_id: guji-鸠摩罗什-event-xiaopin
   - key: closure
-    name: 示寂舌根不坏
+    name: 校都讫定
     labels:
-      zh: 圆成
-    start_date: '0413'
-    highlight_event_id: guji-鸠摩罗什-event-death
+      zh:
+      - 四月校讫
+      - 十卷流通
+    start_date: '0408-04-30'
+    highlight_event_id: guji-鸠摩罗什-event-xiaopin
   decisions:
-  - date: '0401'
-    title_zh: 应姚兴请入长安译经
-    rationale: 以译经利生为本愿不恋故土安危遂东行以正法护国
-  - date: '0410'
-    title_zh: 重译仁王般若护国品
-    rationale: 国乱思安须以般若空慧摄君王正心故详译护佛果护十地义
+  - date: '0408-02-06'
+    title_zh: 应请重出小品
+    rationale: 旧译失旨如荒田之稼，太子准悟大品而请，真本犹存，不忍宝典晦昧，故令重译
+  - date: '0408-04-30'
+    title_zh: 案本直译存朴
+    rationale: 胡文雅质，宁存朴正不取丽巧，使般若穷理尽性之言不失，幸后贤略华取实
 events:
 - id: guji-鸠摩罗什-event-birth
-  person_qid: guji-鸠摩罗什
-  type: birth
+  title_zh: 生于龟兹国
   date: '0344'
   year_of: 344
-  title_zh: 生于龟兹
-  description: 晋永和十年生于龟兹父鸠摩罗炎母耆婆聪慧日诵千偈
-- id: guji-鸠摩罗什-event-study
-  person_qid: guji-鸠摩罗什
-  type: study
-  date: '0363'
-  year_of: 363
-  title_zh: 游罽宾悟大乘空义
-  description: 从盘头达多学小乘复从须耶达多受摩诃衍转弘般若空观
-- id: guji-鸠摩罗什-event-arrival
-  person_qid: guji-鸠摩罗什
-  type: move
-  date: '0401'
+  place_zh: 龟兹国
+  description_zh: 父天竺人鸠摩罗炎，母龟兹公主耆婆，七岁随母出家，奠定译经因缘
+- id: guji-鸠摩罗什-event-shache
+  title_zh: 沙勒悟大乘般若
+  date: '0356'
+  year_of: 356
+  place_zh: 沙勒国
+  description_zh: 十二岁随母返沙勒，从须利耶苏摩学大乘，闻诸法实相，遂回心大乘，精通般若中观
+- id: guji-鸠摩罗什-event-changan
+  title_zh: 入长安居逍遥园译经
+  date: '0401-12-20'
   year_of: 401
-  title_zh: 入长安领译场
-  description: 姚兴迎入长安居逍遥园率八百义学重译群经声振关中
-- id: guji-鸠摩罗什-event-translation
-  person_qid: guji-鸠摩罗什
-  type: translation
-  date: '0410'
-  year_of: 410
-  title_zh: 译仁王护国般若波罗蜜经
-  description: 译出仁王护国般若二卷明护佛果护十地护国土因缘以空慧摄护国之行
+  place_zh: 长安逍遥园
+  description_zh: 姚兴弘始三年迎入长安，国师礼遇，开译场，众聚三千，般若大品诸经次第重光
+- id: guji-鸠摩罗什-event-xiaopin
+  title_zh: 弘始十年重出小品般若
+  date: '0408-02-06'
+  year_of: 408
+  place_zh: 长安
+  description_zh: 秦太子请令重出，僧叡序云以弘始十年二月六日请令出之至四月三十日校都讫，考旧译如荒田芸稼，正文十卷流通
 - id: guji-鸠摩罗什-event-death
-  person_qid: guji-鸠摩罗什
-  type: death
+  title_zh: 卒于长安
   date: '0413'
   year_of: 413
-  title_zh: 卒于长安
-  description: 弘始十五年示寂于长安遗言所译不谬舌根不坏以验信实
+  place_zh: 长安
+  description_zh: 弘始十五年示寂，舌根不坏之瑞传世，所译大小乘经律论三百余卷永弘中土
