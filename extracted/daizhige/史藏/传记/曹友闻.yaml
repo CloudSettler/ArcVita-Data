@@ -1,0 +1,164 @@
+person:
+  qid: guji-曹友闻
+  name_zh: 曹友闻
+  names:
+    zh: 曹友闻
+    en: Cao Youwen
+  lifespan:
+    birth:
+      date: '1190'
+      precision: year
+      is_circa: true
+      raw: 约1190年
+    death:
+      date: '1236-09-28'
+      precision: day
+      is_circa: false
+      raw: 端平丙申九月二十八日
+  birth_date: '1190'
+  death_date: '1236-09-28'
+  era: 南宋
+  reign_ref: 端平
+  archetype: 忠勇武将
+  dilemmas:
+  - 沔州坚守与奉檄移屯大安之进退抉择
+  - 众寡悬殊下坚壁死守与出奇夜袭之战术抉择
+  - 身为文士教授与身先士卒遍身胆之身份抉择
+  lesson: 以孤军明大义，知不可为而为之，忠赤报国虽死不悔
+  summary_first_person: 吾本同庆栗里士人，中丙戌第为天水军教授，以功名自任，招忠义为总管，号遍身胆，每战胜辄分家赀赏士。丙申九月奉檄离沔赴大安，明知制司堕敌计、蜀必亡，犹设奇计守鸡冠山，亲率万人夜袭阳平关，破敌数十营，终以马伤矢尽步斗而死，与蜀俱亡，无憾矣。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/昭忠录.md
+  - https://daizhige.org/史藏/传记/昭忠录.html
+  - https://ctext.org/library.pl?if=gb&file=114258
+endeavors:
+- id: guji-曹友闻-endeavor-1
+  name_zh: 招集忠义经营蜀口
+  description: 由天水军教授应制司檄招两界亡命及回回西夏诸族为忠义军，转战秦陇，屡破元兵，以遍身胆为旗号，花石峡获捷，声震蜀口
+  phases:
+  - key: brewing
+    name: 教授招义
+    labels:
+      zh: 天水积势
+    start_date: '1226'
+    highlight_event_id: guji-曹友闻-event-zhaoyi
+  - key: breakthrough
+    name: 遍身胆扬威
+    labels:
+      zh: 花石峡捷
+    start_date: '1235'
+    highlight_event_id: guji-曹友闻-event-huashixia
+  - key: climax
+    name: 沔阳坚守
+    labels:
+      zh: 议守沔州
+    start_date: '1236-08-03'
+    highlight_event_id: guji-曹友闻-event-mianzhou
+  - key: closure
+    name: 奉命离沔
+    labels:
+      zh: 叹蜀必亡
+    start_date: '1236-09-09'
+    highlight_event_id: guji-曹友闻-event-limian
+  decisions:
+  - date: '1226'
+    title_zh: 应檄招忠义以功名自任
+    rationale: 以文士而任武事，收两界亡命及十八族不归附者为用，补官军不足，敌甚畏之
+  - date: '1236-08-03'
+    title_zh: 议坚守沔州不欲赴大安
+    rationale: 以为沔州主客势殊可制敌，大安平坦难守，制司掣肘必误蜀
+  - date: '1236-09-09'
+    title_zh: 不得已离沔赴大安叹蜀必亡
+    rationale: 督以军令不敢违，然知武休失机、沔阳又失，蜀与己俱将亡矣
+- id: guji-曹友闻-endeavor-2
+  name_zh: 鸡冠山阳平关死战殉国
+  description: 端平丙申九月屯大安，料敌必并兵至，以万人守鸡冠山，自率万人出敌背，设空关诱敌，冒暴雨夜袭阳平关内外夹击，杀敌十数万，终以援绝力尽殉国
+  phases:
+  - key: brewing
+    name: 设谋分兵
+    labels:
+      zh: 鸡冠分守
+    start_date: '1236-09-16'
+    highlight_event_id: guji-曹友闻-event-jiguan
+  - key: breakthrough
+    name: 空关诱敌
+    labels:
+      zh: 阳平示弱
+    start_date: '1236-09-21'
+    highlight_event_id: guji-曹友闻-event-kongguan
+  - key: climax
+    name: 暴雨夜袭
+    labels:
+      zh: 水牛岭破营
+    start_date: '1236-09-27'
+    highlight_event_id: guji-曹友闻-event-yexi
+  - key: closure
+    name: 步斗殉国
+    labels:
+      zh: 白骨山积
+    start_date: '1236-09-28'
+    highlight_event_id: guji-曹友闻-event-death
+  decisions:
+  - date: '1236-09-16'
+    title_zh: 定计分兵守鸡冠山以一万守堡一万出奇
+    rationale: 众寡不敌，惟鸡冠山可守，约守五日，以鼓声为号内外夹击
+  - date: '1236-09-21'
+    title_zh: 选精兵七千七百人夜渡江潜出敌背
+    rationale: 由大安渡江逆上三百里再渡，往来刘溪黑水谷道藏于敌后，以备不虞
+  - date: '1236-09-27'
+    title_zh: 冒暴雨决计夜袭不待天明
+    rationale: 鸡冠山无粮无水已守十八日逾约甚久，机不可失，虽风雨疲乏亦当死中求生，出敌不意
+events:
+- id: guji-曹友闻-event-birth
+  date: '1190'
+  year_of: '1190'
+  title_zh: 生于同庆栗里
+  description: 同庆栗里人，少有大志，后擢丙戌第为天水军教授
+  location: 同庆栗里
+- id: guji-曹友闻-event-zhaoyi
+  date: '1226'
+  year_of: '1226'
+  title_zh: 招忠义为总管号遍身胆
+  description: 制司命招忠义以为总管，所部皆两界亡命及回回西夏十八族，敌畏之称为短曹遍身胆，遂以遍身胆为旗号，每战胜分家赀赏士
+  location: 天水军
+- id: guji-曹友闻-event-huashixia
+  date: '1235'
+  year_of: '1235'
+  title_zh: 花石峡获捷
+  description: 与元兵战于花石峡大捷，制司旌其旗曰元戎却敌世间有教授提兵天下无
+  location: 花石峡
+- id: guji-曹友闻-event-mianzhou
+  date: '1236-08-03'
+  year_of: '1236'
+  title_zh: 议守沔州料敌诱我
+  description: 二太子及塔海以五十万元兵入大散关，友闻议坚守沔州，谓元兵月余不敢动乃欲诱我，制司已堕其术
+  location: 沔州
+- id: guji-曹友闻-event-limian
+  date: '1236-09-09'
+  year_of: '1236'
+  title_zh: 离沔赴大安叹蜀必亡
+  description: 不得已离沔州赴大安，叹曰武休出奇前既失机沔阳坚守今又掣肘以此误蜀蜀必亡吾与俱亡矣
+  location: 沔州至大安
+- id: guji-曹友闻-event-jiguan
+  date: '1236-09-21'
+  year_of: '1236'
+  title_zh: 入教场选精兵渡江潜伏
+  description: 于教场选忠义七千人两戎司兵七百人，夜一鼓后由大安渡江经七篙堤逆上三百余里复渡，潜伏刘溪黑水谷道出敌背
+  location: 大安江
+- id: guji-曹友闻-event-kongguan
+  date: '1236-09-22'
+  year_of: '1236'
+  title_zh: 大开阳平关诱敌环攻鸡冠山
+  description: 令大开阳平关不立旗帜炊烟不出，曹万刘孝全战关外自辰至未败元兵，万等敛兵驻鸡冠山，元兵环堡围之
+  location: 阳平关鸡冠山
+- id: guji-曹友闻-event-yexi
+  date: '1236-09-27'
+  year_of: '1236'
+  title_zh: 暴雨夜分三道袭阳平关破数十营
+  description: 探知元兵已掠大安，遂率万人冒暴雨由水牛岭分三道入北营转战至晚破数十营直入阳平关，鸡冠山兵闻鼓声出堡夹击杀死十数万
+  location: 阳平关水牛岭
+- id: guji-曹友闻-event-death
+  date: '1236-09-28'
+  year_of: '1236'
+  title_zh: 鸡冠山步斗殉国
+  description: 二十八日午未间马中数箭力战至酉戌时中流矢下马步斗死之，夏用等皆战死，曹万刘孝全次日战死于龙门，张宣中矢死，元兵搜得遍身胆旗及尸方入蜀，制司远遁不援三泉之下白骨山积
+  location: 阳平关回回寨
