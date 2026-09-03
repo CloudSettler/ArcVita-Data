@@ -9,124 +9,112 @@ person:
       date: '0231'
       precision: year
       is_circa: true
-      raw: 约魏嘉平三年生于大月氏
+      raw: 约魏嘉平三年生于敦煌月支家
     death:
       date: 0308
       precision: year
       is_circa: true
-      raw: 西晋永嘉二年卒于洛阳
+      raw: 约西晋永嘉二年卒于洛阳时年约七十八
   birth_date: '0231'
   death_date: 0308
   era: 西晋
-  reign_ref: 晋武帝至怀帝时
-  archetype: 译经弘法者
+  reign_ref: 晋武帝泰始至怀帝永嘉
+  archetype: 译经弘法型高僧
   dilemmas:
-  - 梵汉悬隔经义深广如何信达兼全
-  - 胎狱苦空难信难解如何令众厌离生死
-  lesson: 深观入胎众苦知身不净勤修梵行求脱
-  summary_first_person: 吾本月氏子游化中土毕世译经于舍卫祇园之会为难陀等说入胎次第愿众见苦思脱
+  - 梵本阙如而中土渴仰大乘当否西行求法
+  - 胡梵深义难晓当直译质朴还是润文以畅华俗
+  lesson: 广求梵本勤译不辍以信达传持令正法久住
+  summary_first_person: 吾本月支裔家于敦煌，八岁出家诵经日万言，泰始西游诸国得梵经携归，居长安洛阳设场译经凡百五十四部，唯愿华梵通达大乘流通，后值永嘉扰攘东下而终。
   source_urls:
-  - https://tripitaka.cbeta.org/T03n0317
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%A1%BB%E6%91%A9%E6%8F%90%E8%8F%A9%E8%90%A8%E7%BB%8F-%E8%A5%BF%E6%99%8B-%E7%AB%BA%E6%B3%95%E6%8A%A4.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%A1%BB%E6%91%A9%E6%8F%90%E8%8F%A9%E8%90%A8%E7%BB%8F-%E8%A5%BF%E6%99%8B-%E7%AB%BA%E6%B3%95%E6%8A%A4.html
 endeavors:
 - id: guji-竺法护-endeavor-1
-  title_zh: 西行求法入洛译经
-  summary: 携西域梵本游化敦煌洛阳立寺译经百余部
+  title_zh: 西域游学求经携梵本东归
+  summary_zh: 泰始中随师游历西域诸国遍学胡语梵文得大乘梵夹而归为后译经奠基
   phases:
   - key: brewing
-    name: 月氏出家游学
+    name: 敦煌出家诵习
     labels:
-      zh: 西域发轫
+      zh:
+      - 出家诵经
+      - 敦煌学法
     start_date: 0239
     highlight_event_id: guji-竺法护-event-birth
   - key: breakthrough
-    name: 携经东入敦煌
+    name: 西行得经
     labels:
-      zh: 携梵东行
+      zh:
+      - 西域求法
+      - 携经东归
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-enter-luoyang
-  - key: climax
-    name: 洛阳立寺广译
-    labels:
-      zh: 洛下弘译
-    start_date: 0280
-    highlight_event_id: guji-竺法护-event-translate-baotai
+    highlight_event_id: guji-竺法护-event-western
   - key: closure
-    name: 兵乱西归善终
+    name: 归洛奠译基
     labels:
-      zh: 永嘉西隐
-    start_date: '0305'
-    highlight_event_id: guji-竺法护-event-death
+      zh:
+      - 洛阳弘化
+    start_date: 0269
+    highlight_event_id: guji-竺法护-event-western
   decisions:
   - date: '0266'
-    title_zh: 决意东行弘化
-    rationale: 以华夏多士而乏梵本故携经东入以正法布中土
-  - date: 0280
-    title_zh: 驻锡洛阳专事翻译
-    rationale: 以洛为天下都会从学者众故就寺立馆召徒笔受
+    title_zh: 决意西游诸国求梵本
+    rationale: 中土大乘梵本阙少唯西行可得正本以广弘化
 - id: guji-竺法护-endeavor-2
-  title_zh: 宣说胞胎苦观化众
-  summary: 译说胞胎经明入胎三十八七日次第劝厌生死
+  title_zh: 长安洛阳设场广译大乘
+  summary_zh: 居敦煌长安洛阳青门外译场译出正法华光赞般若须摩提等百余部开西晋译经大局
   phases:
   - key: brewing
-    name: 祇园问胎发端
+    name: 初译先行诸经
     labels:
-      zh: 难陀请法
-    start_date: 0283
-    highlight_event_id: guji-竺法护-event-translate-baotai
-  - key: breakthrough
-    name: 详译入胎缘起
-    labels:
-      zh: 缘起和合
-    start_date: 0284
-    highlight_event_id: guji-竺法护-event-translate-baotai
+      zh:
+      - 初译弘始
+    start_date: 0269
+    highlight_event_id: guji-竺法护-event-western
   - key: climax
-    name: 具说七日转变
+    name: 太康盛译正法华须摩提
     labels:
-      zh: 胎分次第
-    start_date: 0285
-    highlight_event_id: guji-竺法护-event-preach-baotai
-  - key: closure
-    name: 结劝厌离梵行
-    labels:
-      zh: 见苦思脱
+      zh:
+      - 盛译大乘
+      - 须摩提经
     start_date: 0286
-    highlight_event_id: guji-竺法护-event-preach-baotai
+    highlight_event_id: guji-竺法护-event-xumoti
+  - key: closure
+    name: 永嘉避乱译业终成
+    labels:
+      zh:
+      - 乱世守法
+    start_date: '0307'
+    highlight_event_id: guji-竺法护-event-death
   decisions:
-  - date: 0284
-    title_zh: 以譬显入胎和合
-    rationale: 以酪成苏草生虫为喻明非即父母非离父母以破断常
-  - date: 0285
-    title_zh: 具译三十八七日相
-    rationale: 以胎相次第极苦令人生厌离不乐处胎勤修净行
+  - date: 0286
+    title_zh: 定以质直译风广出大乘
+    rationale: 宁存梵义质朴不失本旨使学徒得依文修四十事等菩萨行
+  - date: '0307'
+    title_zh: 永嘉乱起坚持东下护经
+    rationale: 乱世法灭可虞当护持经像使觉意不断
 events:
 - id: guji-竺法护-event-birth
-  title_zh: 生于大月氏
+  title_zh: 生于敦煌月支家八岁出家
   date: '0231'
   year_of: 231
-  place_zh: 大月氏国
-  description: 月氏居士家生八岁出家游学西域诸国诵经万偈
-- id: guji-竺法护-event-enter-luoyang
-  title_zh: 携梵本至敦煌洛阳
+  place_zh: 敦煌
+  description_zh: 月支裔家世居敦煌，八岁出家事竺高座，诵经日万言志在弘传。
+- id: guji-竺法护-event-western
+  title_zh: 泰始西游诸国得梵经东归
   date: '0266'
   year_of: 266
-  place_zh: 敦煌至洛阳
-  description: 携梵经百余夹东入敦煌转至洛阳从者受学译事渐兴
-- id: guji-竺法护-event-translate-baotai
-  title_zh: 译出佛说胞胎经
-  date: 0284
-  year_of: 284
-  place_zh: 洛阳
-  description: 于洛阳寺为众译说胞胎经明父母和合神入胎缘及四大成就
-- id: guji-竺法护-event-preach-baotai
-  title_zh: 广说胎内七日转变
-  date: 0285
-  year_of: 285
-  place_zh: 洛阳
-  description: 具说三十八七日胎相风名转变骨节脉孔成就及宿善恶报以劝厌离
+  place_zh: 西域至洛阳
+  description_zh: 泰始中游历西域三十六国，通三十六种胡语梵文，得大乘梵夹携归洛阳。
+- id: guji-竺法护-event-xumoti
+  title_zh: 太康年间译出佛说须摩提菩萨经
+  date: 0286
+  year_of: 286
+  place_zh: 长安
+  description_zh: 于长安译场译出佛说须摩提菩萨经，宣说菩萨四十事法及八岁女问法证金色瑞应，列入宝积部流通。
 - id: guji-竺法护-event-death
-  title_zh: 卒于洛阳乱中
+  title_zh: 永嘉二年卒于洛阳
   date: 0308
   year_of: 308
   place_zh: 洛阳
-  description: 永嘉之乱避地东还年七十八卒弟子送葬立塔存法
+  description_zh: 值永嘉之乱避乱东下，春秋七十有八卒，前后译经百五十四部三百九卷，塔立覆盆山南。
