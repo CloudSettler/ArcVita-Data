@@ -1,0 +1,144 @@
+person:
+  qid: guji-义净
+  name_zh: 义净
+  names:
+    zh: 义净
+    en: Yijing
+  lifespan:
+    birth:
+      date: '0635'
+      precision: year
+      is_circa: false
+      raw: 唐贞观九年齐州生
+    death:
+      date: '0713'
+      precision: year
+      is_circa: false
+      raw: 唐先天二年长安卒
+  birth_date: '0635'
+  death_date: '0713'
+  era: 唐
+  reign_ref: 唐高宗至唐玄宗
+  archetype: 西行求法译经高僧
+  dilemmas:
+  - 安居中土讲律与冒险西行求法之抉择
+  - 严持南海寄归传式戒律与中土习俗调和之两难
+  lesson: 生死无常如井中悬命当舍五欲勤求解脱
+  summary_first_person: 吾齐州义净幼慕出家西涉南海访求正法东归译经唯愿众生厌离生死同登解脱
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/本缘部/佛说譬喻经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/本缘部/佛说譬喻经.md
+endeavors:
+- id: guji-义净-endeavor-1
+  title_zh: 西行南海求法取经
+  summary_zh: 自长安经广州浮海至室利佛逝及那烂陀广学戒律兼探南海诸国风俗
+  phases:
+  - key: brewing
+    name: 齐州出家立志西行
+    labels:
+      zh: 立志求法
+    start_date: 0669
+    highlight_event_id: guji-义净-event-xixing
+  - key: breakthrough
+    name: 广州浮海至佛逝
+    labels:
+      zh: 浮海突破
+    start_date: '0671'
+    highlight_event_id: guji-义净-event-xixing
+  - key: climax
+    name: 那烂陀学法十年
+    labels:
+      zh: 那烂陀深造
+    start_date: 0680
+    highlight_event_id: guji-义净-event-nalanda
+  - key: closure
+    name: 携经返归广州
+    labels:
+      zh: 携经东归
+    start_date: 0689
+    highlight_event_id: guji-义净-event-huigui
+  decisions:
+  - date: '0671'
+    title_zh: 决意浮海西行不附陆路
+    rationale: 慕法显玄奘西行之志以海路直达南海求得根本说一切有部律典
+  - date: 0685
+    title_zh: 留居佛逝著述寄归传
+    rationale: 恐南海行迹湮没记录戒律仪轨以正中土传闻之失
+- id: guji-义净-endeavor-2
+  title_zh: 东归译经弘律
+  summary_zh: 奉武后及中宗睿宗之诏于洛阳长安译出譬喻经等五十六部并弘传南海戒律
+  phases:
+  - key: brewing
+    name: 武后迎请入京
+    labels:
+      zh: 入京受诏
+    start_date: 0695
+    highlight_event_id: guji-义净-event-huigui
+  - key: breakthrough
+    name: 洛阳译场开译
+    labels:
+      zh: 开场译经
+    start_date: '0700'
+    highlight_event_id: guji-义净-event-yijing
+  - key: climax
+    name: 譬喻经等律经并弘
+    labels:
+      zh: 译弘高峰
+    start_date: '0705'
+    highlight_event_id: guji-义净-event-yijing
+  - key: closure
+    name: 长安圆寂付嘱门人
+    labels:
+      zh: 圆寂付嘱
+    start_date: '0713'
+    highlight_event_id: guji-义净-event-death
+  decisions:
+  - date: '0700'
+    title_zh: 以义净为主译重校旧译
+    rationale: 见旧译律典多舛欲以亲历印度所闻正其文义令戒律可行
+  - date: 0708
+    title_zh: 译佛说譬喻经示生死怖畏
+    rationale: 借世尊告胜光王旷野恶象之喻令王臣厌离五欲信受奉行
+events:
+- id: guji-义净-event-birth
+  title_zh: 齐州诞生
+  date: '0635'
+  year_of: 635
+  event_type: birth
+  description_zh: 唐贞观九年生于齐州张氏幼而慕法出家
+  endeavor_ref: guji-义净-endeavor-1
+- id: guji-义净-event-xixing
+  title_zh: 广州浮海西行
+  date: '0671-11-01'
+  year_of: 671
+  event_type: endeavor
+  description_zh: 自广州浮海经室利佛逝前往印度求法历南海诸国
+  endeavor_ref: guji-义净-endeavor-1
+- id: guji-义净-event-nalanda
+  title_zh: 那烂陀从学十年
+  date: '0680-01-01'
+  year_of: 680
+  event_type: endeavor
+  description_zh: 居那烂陀寺亲承戒贤门下广学三藏尤精根本说一切有部律
+  endeavor_ref: guji-义净-endeavor-1
+- id: guji-义净-event-huigui
+  title_zh: 携经返至洛阳
+  date: '0695-05-01'
+  year_of: 695
+  event_type: endeavor
+  description_zh: 携梵本四百余部返国武后亲迎于洛阳授三藏之号
+  endeavor_ref: guji-义净-endeavor-2
+- id: guji-义净-event-yijing
+  title_zh: 译出佛说譬喻经
+  date: '0708-01-01'
+  year_of: 708
+  event_type: endeavor
+  description_zh: 于长安译出佛说譬喻经演世尊为胜光王说旷野井树生死之喻
+  endeavor_ref: guji-义净-endeavor-2
+- id: guji-义净-event-death
+  title_zh: 长安圆寂
+  date: '0713'
+  year_of: 713
+  event_type: death
+  description_zh: 唐先天二年卒于长安年七十九谥号鸿胪卿
+  endeavor_ref: guji-义净-endeavor-2

@@ -1,0 +1,151 @@
+person:
+  qid: guji-鹿母
+  name_zh: 鹿母
+  names:
+    zh: 鹿母
+    en: Deer Mother
+  lifespan:
+    birth:
+      date: -0500-01-01
+      precision: year
+      is_circa: true
+      raw: 昔者本生世林薮所生
+    death:
+      date: -0490-01-01
+      precision: year
+      is_circa: true
+      raw: 林薮善终传略未详
+  birth_date: -0500-01-01
+  death_date: -0490-01-01
+  era: 上古本生世
+  archetype: 慈母守信型
+  dilemmas:
+  - 留则子亡去则践誓独死之两难
+  - 背信偷生与守诚就死之两难
+  lesson: 至诚守信慈护幼小虽在畜身亦能感化止杀
+  summary_first_person: 吾为鹿母怀妊失群生二子堕猎弶中叩头求哀立誓暂还视子示以水草复还就死终感猎者放生举国止猎此即菩萨慈悲守信之本行
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T0182b
+  - https://daizhige.org
+endeavors:
+- id: guji-鹿母-endeavor-1
+  person_id: guji-鹿母
+  title_zh: 陷弶求哀暂还视子
+  summary_zh: 失侣生子堕弶被获以偈立誓求暂还乳子示以水草终得放归
+  phases:
+  - key: brewing
+    name: 逐草近邑失侣怀妊
+    labels:
+      zh: 流散怀妊
+    start_date: -0500-01-01
+    highlight_event_id: guji-鹿母-event-birth
+  - key: breakthrough
+    name: 堕弶悲鸣叩头求哀
+    labels:
+      zh: 陷弶立誓
+    start_date: -0499-05-01
+    highlight_event_id: guji-鹿母-event-trapped
+  - key: climax
+    name: 暂还乳子示以水草
+    labels:
+      zh: 慈示水草
+    start_date: -0499-05-02
+    highlight_event_id: guji-鹿母-event-nurse
+  - key: closure
+    name: 说无常毕罪舍去
+    labels:
+      zh: 别子赴信
+    start_date: -0499-05-02
+    highlight_event_id: guji-鹿母-event-nurse
+  decisions:
+  - date: -0499-05-01
+    title_zh: 堕弶不惜身但怜二子
+    rationale: 贱畜贪命不忍二子早孤愿以诚信换须臾乳子
+  - date: -0499-05-01
+    title_zh: 发重誓若不还罪过逆害
+    rationale: 以破僧破塔杀亲重罪自咒取信猎者全子性命
+- id: guji-鹿母-endeavor-2
+  person_id: guji-鹿母
+  title_zh: 赴信还死感化止猎
+  summary_zh: 守誓还就死地母子相寻猎者感悟放生以闻国王普令止杀
+  phases:
+  - key: brewing
+    name: 母还弶所子追相寻
+    labels:
+      zh: 赴信还死
+    start_date: -0499-05-02
+    highlight_event_id: guji-鹿母-event-return
+  - key: breakthrough
+    name: 长跪说偈感仁恩难忘
+    labels:
+      zh: 跪谢赴死
+    start_date: -0499-05-02
+    highlight_event_id: guji-鹿母-event-return
+  - key: climax
+    name: 猎者悚然稽首谢放
+    labels:
+      zh: 感信放生
+    start_date: -0499-05-03
+    highlight_event_id: guji-鹿母-event-released
+  - key: closure
+    name: 以闻国王普感止猎
+    labels:
+      zh: 止杀宁群
+    start_date: -0499-05-03
+    highlight_event_id: guji-鹿母-event-released
+  decisions:
+  - date: -0499-05-02
+    title_zh: 宁就诚信死不欺殆生
+    rationale: 制意离贪守信为安纵碎身糜朽不敢负恩
+  - date: -0499-05-03
+    title_zh: 得放鸣群啸侣各宁其所
+    rationale: 蒙宽惠全命当还林薮安群以报慈育
+events:
+- id: guji-鹿母-event-birth
+  person_id: guji-鹿母
+  title_zh: 鹿群逐草鹿母怀妊独逝
+  type: birth
+  date: -0500-01-01
+  year_of: -500
+  location_zh: 林薮近邑之地
+  description_zh: 数百为群随逐美草近人邑王猎分迸鹿母怀妊独逝生二子
+- id: guji-鹿母-event-trapped
+  person_id: guji-鹿母
+  title_zh: 舍行求食误堕猎弶求哀
+  type: career
+  date: -0499-05-01
+  year_of: -499
+  location_zh: 猎者弶所
+  description_zh: 茕悸失措堕弶悲鸣叩头求哀乞假须臾还视二子立誓旋来就死
+- id: guji-鹿母-event-nurse
+  person_id: guji-鹿母
+  title_zh: 还视二子示水草说无常
+  type: career
+  date: -0499-05-02
+  year_of: -499
+  location_zh: 二子栖止处
+  description_zh: 低头舐子说偈示无常别离将示水草垂泪教以建行毕罪努力自活
+- id: guji-鹿母-event-return
+  person_id: guji-鹿母
+  title_zh: 赴信还就死长跪觉猎者
+  type: career
+  date: -0499-05-02
+  year_of: -499
+  location_zh: 猎者树下弶所
+  description_zh: 母住弶前说偈还死二子追寻猎者惊起见其笃信死义慈行发中
+- id: guji-鹿母-event-released
+  person_id: guji-鹿母
+  title_zh: 猎者放生以闻王止杀猎
+  type: career
+  date: -0499-05-03
+  year_of: -499
+  location_zh: 国中林野
+  description_zh: 猎者稽首放鹿母子悲喜谢恩具以闻王国人普感为之止杀鹿还鸣群各宁其所
+- id: guji-鹿母-event-death
+  person_id: guji-鹿母
+  title_zh: 林薮善终示菩萨本行
+  type: death
+  date: -0490-01-01
+  year_of: -490
+  location_zh: 林薮
+  description_zh: 传谓鹿者即佛身是二子国王猎者各有所应菩萨虽在禽兽不忘权行导利
