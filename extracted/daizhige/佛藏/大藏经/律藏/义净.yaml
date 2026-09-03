@@ -18,155 +18,138 @@ person:
   birth_date: '0635'
   death_date: '0713'
   era: 唐
-  reign_ref: 唐高宗显庆至唐睿宗延和
-  archetype: 西行求法译律僧
+  reign_ref: 贞观至先天
+  archetype: 西行求法译经僧
   dilemmas:
-  - 冒海难求戒律与安居中土之间取舍
-  - 独精有部广律与兼弘显密之间权衡
-  lesson: 持戒为本西证明义东土译弘以续僧命
-  summary_first_person: 余齐州人也，仰法显玄奘之迹，自广州浮海至室利佛逝及那烂陀，专学根本说一切有部律，凡二十余年乃归，奉敕译经，以毗奈耶师范后学。
+  - 海路险远求法恐命殒异域与安住中土之抉择
+  - 律藏浩繁持守唯艰与译传普度之责任
+  lesson: 越海求真以律摄僧译典传灯则法久住
+  summary_first_person: 吾义净齐州人也咸亨西浮海至天竺那烂陀求法二十余年携梵本东归奉制译根本说一切有部律但愿别解脱戒半月长明僧伽和合清净久住
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/律藏/根本说一切有部毗奈耶颂.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/律藏/根本说一切有部毗奈耶颂.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E8%8B%BE%E8%8A%BB%E5%B0%BC%E6%88%92%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E8%8B%BE%E8%8A%BB%E5%B0%BC%E6%88%92%E7%BB%8F.md
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 泛海南行求法取律
-  summary: 自广州浮海经室利佛逝至印度那烂陀专学有部律凡二十四年而归
+  person_qid: guji-义净
+  title_zh: 南海西行求法
+  description: 咸亨二年自长安出发广州浮海历室利佛逝末罗瑜至中天竺那烂陀从师研习有部律论凡二十余年
   phases:
   - key: brewing
-    name: 发愿出海
+    name: 发愿出关
     labels:
       zh:
       - 发愿
-      - 出海
-    start_date: '0671'
-    highlight_event_id: guji-义净-event-671-departure
+      - 西行
+    start_date: '0667'
+    highlight_event_id: guji-义净-event-depart
   - key: breakthrough
-    name: 室利佛逝留学
+    name: 浮海至南海
     labels:
       zh:
-      - 留学
-      - 南海
-    start_date: '0672'
-    highlight_event_id: guji-义净-event-672-sribhoga
+      - 浮海
+      - 南海取经
+    start_date: '0671'
+    highlight_event_id: guji-义净-event-depart
   - key: climax
-    name: 那烂陀学律证义
+    name: 那烂陀学律
     labels:
       zh:
+      - 那烂陀
       - 学律
-      - 取经
-    start_date: '0677'
-    highlight_event_id: guji-义净-event-677-nalanda
+    start_date: 0680
+    highlight_event_id: guji-义净-event-return
   - key: closure
-    name: 携经归国
+    name: 携梵本东归
+    labels:
+      zh:
+      - 携经
+      - 东归
+    start_date: 0695
+    highlight_event_id: guji-义净-event-return
+  decisions:
+  - date: '0671'
+    title_zh: 决意浮海不取陆路
+    rationale: 陆路阻隔盗贼蜂起南海商舶可直达室利佛逝故舍近就海以全求法之愿
+  - date: 0685
+    title_zh: 留师那烂陀十年专攻律部
+    rationale: 中土律学纷歧须穷根本说一切有部源流方能正本清源故久住精研
+- id: guji-义净-endeavor-2
+  person_qid: guji-义净
+  title_zh: 东都奉制译律
+  description: 证圣归洛武后迎慰授三藏法师奉制于长安内道场及洛阳大福先寺译根本说一切有部律藏含苾刍尼戒经
+  phases:
+  - key: brewing
+    name: 归国献经
     labels:
       zh:
       - 归国
       - 献经
     start_date: 0695
-    highlight_event_id: guji-义净-event-695-return
-  decisions:
-  - date: '0671'
-    title_zh: 决意浮海西行
-    rationale: 慕法显玄奘之迹为求具足戒律不惮海难而往
-  - date: 0685
-    title_zh: 留室利佛逝著述寄归
-    rationale: 恐海道阻绝先录见闻南海寄归传以存律制
-- id: guji-义净-endeavor-2
-  title_zh: 奉敕译弘根本说一切有部律
-  summary: 归长安洛阳奉武后中宗之命译有部律藏及毗奈耶颂师范僧团
-  phases:
-  - key: brewing
-    name: 奉诏入内道场
-    labels:
-      zh:
-      - 奉诏
-      - 入京
-    start_date: 0699
-    highlight_event_id: guji-义净-event-695-return
+    highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 译出有部广律
+    name: 奉制开译
     labels:
       zh:
-      - 译律
-      - 开场
+      - 奉制
+      - 开译
     start_date: '0700'
-    highlight_event_id: guji-义净-event-700-translate
+    highlight_event_id: guji-义净-event-translate
   - key: climax
-    name: 译毗奈耶颂摄律要义
+    name: 定本尼戒经
     labels:
       zh:
-      - 译颂
-      - 摄要
-    start_date: '0705'
-    highlight_event_id: guji-义净-event-705-song
+      - 律藏
+      - 尼戒
+    start_date: '0703'
+    highlight_event_id: guji-义净-event-translate
   - key: closure
-    name: 制律范僧团垂后
+    name: 弘律遗付后学
     labels:
       zh:
-      - 制范
-      - 垂后
+      - 弘律
+      - 遗法
     start_date: '0710'
-    highlight_event_id: guji-义净-event-710-precept
+    highlight_event_id: guji-义净-event-death
   decisions:
   - date: '0700'
-    title_zh: 专宗有部律藏翻译
-    rationale: 见唐僧律仪不明故以有部正范匡持圣教
-  - date: '0705'
-    title_zh: 以颂摄律便后学记持
-    rationale: 愍懒惰少慧者怖广文故译毗舍佉颂为阶梯
+    title_zh: 先译律藏后译余部
+    rationale: 别解脱为僧命苾刍尼戒久缺全本当急译八重二十僧残诸法以全僧制
+  - date: '0703'
+    title_zh: 依梵本直译存尼众布萨仪轨
+    rationale: 半月诵戒关乎清净和合须存序文摄颂广分别相令后世可依行持
 events:
 - id: guji-义净-event-birth
-  title_zh: 生于齐州
+  person_qid: guji-义净
+  title_zh: 贞观九年生于齐州
   date: '0635'
   year_of: 635
-  type: birth
-  description: 唐贞观九年生于齐州范氏家
-- id: guji-义净-event-671-departure
-  title_zh: 自广州泛海西行
+  place_zh: 唐齐州历城
+  description: 唐贞观九年生少出家慕西域求法之志
+- id: guji-义净-event-depart
+  person_qid: guji-义净
+  title_zh: 咸亨二年广州浮海西行
   date: '0671'
   year_of: 671
-  type: career
-  description: 唐咸亨二年自广州浮海赴室利佛逝求法
-- id: guji-义净-event-672-sribhoga
-  title_zh: 止室利佛逝学律
-  date: '0672'
-  year_of: 672
-  type: career
-  description: 止室利佛逝六年学声明及有部律
-- id: guji-义净-event-677-nalanda
-  title_zh: 至那烂陀从师学律
-  date: '0677'
-  year_of: 677
-  type: career
-  description: 至中印度那烂陀寺从师研习根本说一切有部律藏
-- id: guji-义净-event-695-return
-  title_zh: 携经还抵洛阳
+  place_zh: 广州
+  description: 自长安南下广州乘商舶浮海经室利佛逝向天竺求法
+- id: guji-义净-event-return
+  person_qid: guji-义净
+  title_zh: 证圣元年携梵本归洛阳
   date: 0695
   year_of: 695
-  type: career
-  description: 武周证圣元年携梵本四百余部还抵洛阳奉敕安置
-- id: guji-义净-event-700-translate
-  title_zh: 奉敕始译有部律藏
-  date: '0700'
-  year_of: 700
-  type: career
-  description: 于长安洛阳两京奉敕译根本说一切有部毗奈耶等律典
-- id: guji-义净-event-705-song
-  title_zh: 译出毗奈耶颂
-  date: '0705'
-  year_of: 705
-  type: career
-  description: 译尊者毗舍佉造根本说一切有部毗奈耶颂以颂摄律便学
-- id: guji-义净-event-710-precept
-  title_zh: 师范僧团弘律
-  date: '0710'
-  year_of: 710
-  type: career
-  description: 以所译律制教授僧众明受近圆轨式及四他胜法
+  place_zh: 神都洛阳
+  description: 历二十余年携四百余部梵本归国武后亲迎礼为三藏
+- id: guji-义净-event-translate
+  person_qid: guji-义净
+  title_zh: 长安洛阳译出苾刍尼戒经
+  date: '0703'
+  year_of: 703
+  place_zh: 长安内道场
+  description: 奉制译根本说一切有部苾刍尼戒经明八波罗市迦二十僧伽伐尸沙诸法成尼众半月诵戒定本
 - id: guji-义净-event-death
-  title_zh: 卒于长安
+  person_qid: guji-义净
+  title_zh: 先天二年寂于长安
   date: '0713'
   year_of: 713
-  type: death
-  description: 唐先天二年卒于长安年七十九谥号鸿胪卿
+  place_zh: 长安
+  description: 先天二年寂享年七十九谥号鸿胪卿葬于奉先
