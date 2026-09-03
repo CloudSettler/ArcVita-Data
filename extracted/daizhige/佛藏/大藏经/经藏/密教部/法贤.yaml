@@ -6,129 +6,139 @@ person:
     en: Dharmabhadra
   lifespan:
     birth:
-      date: 0950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 西天人，生年不详，约十世纪中叶生
+      raw: 约十世纪中叶生于天竺
     death:
-      date: '1001'
+      date: 1001-01-01
       precision: year
-      is_circa: false
-      raw: 宋真宗咸平四年卒
-  birth_date: 0950
-  death_date: '1001'
+      is_circa: true
+      raw: 宋真宗咸平四年示寂
+  birth_date: 0950-01-01
+  death_date: 1001-01-01
   era: 北宋
-  reign_ref: 宋太祖至宋真宗太平兴国至咸平
+  reign_ref: 宋太宗至真宗
   archetype: 译经弘法者
   dilemmas:
-  - title_zh: 梵汉悬隔信解难通
-    description: 秘密之义浅识难信难解，译笔稍误即成谤法，如何令简易可持而义无谬误
-  - title_zh: 去留羁旅奉诏难违
-    description: 西天故土在远，东土诏命在近，西归旧里还是久住译场以毕残生
-  lesson: 以至诚译秘密，以简易利群生，能令难信者信即是弘法
-  summary_first_person: 吾法贤，西天人也，奉宋诏入译经院为三藏，译秘密八名陀罗尼等经，愿众生受持读诵，消无间业，不堕地狱，得生兜率，吾虽异域之人，得毕命于译场，幸矣
+  - title_zh: 梵汉悬隔如何信达
+    description_zh: 密咒重梵音实效与汉地易读易持之间须求平衡
+  - title_zh: 奉诏规程与弘化本怀
+    description_zh: 既遵译场参详审定之制又存利生流通之愿
+  lesson: 以音存真以义通俗令陀罗尼在汉地可诵可持
+  summary_first_person: 吾本天竺僧，随缘东来入宋译场，奉诏翻译众经，独愿以虚空藏菩萨陀罗尼利益汉土，令受持者福智增长，悉地现前。
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%98%E5%AF%86%E5%85%AB%E5%90%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%98%E5%AF%86%E5%85%AB%E5%90%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC.md
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 奉诏入院译传密藏
-  description: 自西天至东京，入译经院为三藏，专译金刚部等密教经典，成秘密八名陀罗尼经
+  person_qid: guji-法贤
+  title_zh: 入宋译场参译众经
+  summary_zh: 自太平兴国中入汴京译经院，与天息灾施护等共译显密经论，后授朝散大夫试光禄卿明教大师。
   phases:
   - key: brewing
-    name: 跋涉东来初居译院
+    name: 天竺习学发心东行
     labels:
-      zh: 酝酿
-    start_date: 0973
-    highlight_event_id: guji-法贤-event-arrive
+      zh: 发心东来
+    start_date: 0950-01-01
+    highlight_event_id: guji-法贤-event-birth
   - key: breakthrough
-    name: 试译梵汉突破悬隔
+    name: 入汴京译经院参译
     labels:
-      zh: 突破
-    start_date: 0976
-    highlight_event_id: guji-法贤-event-arrive
+      zh: 入场参译
+    start_date: 0980-01-01
+    highlight_event_id: guji-法贤-event-join
   - key: climax
-    name: 译出八名陀罗尼鼎盛
+    name: 授官明教大师主译事
     labels:
-      zh: 高潮
-    start_date: 0982
-    highlight_event_id: guji-法贤-event-translate-mimi
+      zh: 授职弘译
+    start_date: 0990-01-01
+    highlight_event_id: guji-法贤-event-award
   - key: closure
-    name: 进封明教刊定圆满
+    name: 译业圆满示寂宋土
     labels:
-      zh: 收束
-    start_date: 0991
-    highlight_event_id: guji-法贤-event-honor
-  decisions:
-  - date: 0976
-    title_zh: 应诏留住专任译经
-    rationale: 太平兴国设译经院，诏命难违，留住方能广利东土众生，故不归西域
-  - date: 0982
-    title_zh: 略说金刚部秘密八名
-    rationale: 众生根器狭劣难信难解，故略说象耳乃至妙色八名及陀罗尼，令易持易成
-- id: guji-法贤-endeavor-2
-  title_zh: 宣扬持诵功德教化
-  description: 弘传受持读诵秘密八名陀罗尼者消无间业退散魔众临终见佛之功德，令四众信受奉行
-  phases:
-  - key: brewing
-    name: 承金刚手请法酝酿
-    labels:
-      zh: 酝酿
-    start_date: 0980
-    highlight_event_id: guji-法贤-event-translate-mimi
-  - key: breakthrough
-    name: 宣说持诵得戒得定
-    labels:
-      zh: 突破
-    start_date: 0982
-    highlight_event_id: guji-法贤-event-translate-mimi
-  - key: climax
-    name: 四众欢喜信受广布
-    labels:
-      zh: 高潮
-    start_date: 0985
-    highlight_event_id: guji-法贤-event-honor
-  - key: closure
-    name: 以兜率往生嘱付来学
-    labels:
-      zh: 收束
-    start_date: '1001'
+      zh: 圆满示寂
+    start_date: 1001-01-01
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0982
-    title_zh: 直陈消业退魔功德
-    rationale: 欲令不持戒者得戒完具，非梵行者得成梵行，故明言八万四千魔众退散及七俱胝劫不堕地狱
-  - date: 0985
-    title_zh: 付嘱四众欢喜奉行
-    rationale: 经成之后唯信受奉行方能久住，故以金刚手等及天人阿修罗欢喜作结，令教化相续
+  - date: 0980-06-01
+    title_zh: 应诏入译经院协作校译
+    rationale: 藉朝廷译场证义校勘之制以保译文精审可信
+  - date: 0990-01-01
+    title_zh: 久住译场兼译显密
+    rationale: 不独显教並弘密教仪轨咒法以广利机
+- id: guji-法贤-endeavor-2
+  person_qid: guji-法贤
+  title_zh: 别译虚空藏菩萨陀罗尼
+  summary_zh: 奉诏别出虚空藏菩萨陀罗尼一卷，存梵咒音译兼明曼荼罗观行，流通密教持诵法门。
+  phases:
+  - key: brewing
+    name: 研习虚空藏法门
+    labels:
+      zh: 研习本法
+    start_date: 0985-01-01
+    highlight_event_id: guji-法贤-event-join
+  - key: breakthrough
+    name: 考定梵本拟定音译
+    labels:
+      zh: 定本拟音
+    start_date: 0995-01-01
+    highlight_event_id: guji-法贤-event-award
+  - key: climax
+    name: 奉诏译出陀罗尼
+    labels:
+      zh: 奉诏成译
+    start_date: 0999-01-01
+    highlight_event_id: guji-法贤-event-xukongzang
+  - key: closure
+    name: 流通受持功德圆满
+    labels:
+      zh: 流通圆满
+    start_date: 1001-01-01
+    highlight_event_id: guji-法贤-event-death
+  decisions:
+  - date: 0995-01-01
+    title_zh: 以音译存梵咒真形
+    rationale: 陀罗尼以音声为体须完整转写以存加持力
+  - date: 0999-01-01
+    title_zh: 奉诏署衔进呈流通
+    rationale: 托朝廷印可颁行令此法门得广布汉地
 events:
 - id: guji-法贤-event-birth
-  title_zh: 西天出生
-  date: 0950
+  person_qid: guji-法贤
+  date: 0950-01-01
   year_of: 950
-  place_zh: 西天
-  description: 生于西天，少习梵典，通持明藏，长而有志东传
-- id: guji-法贤-event-arrive
-  title_zh: 至宋入译经院
-  date: 0973
-  year_of: 973
-  place_zh: 东京
-  description: 随西域僧众至宋，太平兴国中入译经院，预奉诏译经之列
-- id: guji-法贤-event-translate-mimi
-  title_zh: 译秘密八名陀罗尼经
-  date: 0982
-  year_of: 982
-  place_zh: 东京译经院
-  description: 奉诏译出佛在舍卫国祇树给孤独园说金刚手秘密八名，自象耳至妙色，并传陀罗尼及持诵功德
-- id: guji-法贤-event-honor
-  title_zh: 加号明教大师试光禄卿
-  date: 0991
-  year_of: 991
-  place_zh: 东京
-  description: 以译经功加西天译经三藏朝散大夫试光禄卿明教大师，久住译场刊定梵汉
+  title_zh: 生于天竺
+  description_zh: 约十世纪中叶生于天竺，少习梵文及显密经论，尤精陀罗尼法。
+  place_zh: 天竺
+- id: guji-法贤-event-join
+  person_qid: guji-法贤
+  endeavor_id: guji-法贤-endeavor-1
+  date: 0980-01-01
+  year_of: 980
+  title_zh: 入宋译经院
+  description_zh: 东来汴京入译经院，与天息灾施护法天等共参翻译，习汉语文义。
+  place_zh: 汴京译经院
+- id: guji-法贤-event-award
+  person_qid: guji-法贤
+  endeavor_id: guji-法贤-endeavor-1
+  date: 0990-01-01
+  year_of: 990
+  title_zh: 授西天译经三藏明教大师
+  description_zh: 以译经功授朝散大夫试光禄卿明教大师，主持校译，声望渐著。
+  place_zh: 汴京
+- id: guji-法贤-event-xukongzang
+  person_qid: guji-法贤
+  endeavor_id: guji-法贤-endeavor-2
+  date: 0999-01-01
+  year_of: 999
+  title_zh: 奉诏译出佛说虚空藏菩萨陀罗尼
+  description_zh: 奉诏译出虚空藏菩萨陀罗尼一卷，具存归敬虚空藏及曼荼罗梵咒，署西天译经三藏朝散大夫试光禄卿明教大师臣法贤奉诏译。
+  place_zh: 汴京译经院
 - id: guji-法贤-event-death
-  title_zh: 咸平四年示寂
-  date: '1001'
+  person_qid: guji-法贤
+  date: 1001-01-01
   year_of: 1001
-  place_zh: 东京
-  description: 宋真宗咸平四年卒于译事，遗言受持此经者临终得见诸佛菩萨生兜率天
+  title_zh: 示寂于宋
+  description_zh: 宋真宗咸平年间示寂于汴京，所译显密经论及陀罗尼传行于世。
+  place_zh: 汴京
