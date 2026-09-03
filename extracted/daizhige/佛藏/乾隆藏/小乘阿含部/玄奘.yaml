@@ -1,0 +1,139 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年洛州缑氏
+    death:
+      date: '0664-03-07'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年二月五日玉华宫
+  birth_date: '0602'
+  death_date: '0664-03-07'
+  era: 唐
+  reign_ref: 唐太宗贞观至唐高宗麟德
+  archetype: 求法译师
+  dilemmas:
+  - 中土经论支离师说各异而欲求真解脱当何往
+  - 冒禁西行犯法而求法全忠全戒孰轻孰重
+  - 梵典浩繁而此生有限当广译众经还是专弘一乘
+  lesson: 依缘起观苦集灭道则能破无明而得解脱译经即弘法也
+  summary_first_person: 吾玄奘洛州缑氏人也幼慕释氏贞观初冒禁西行遍历五印就学那烂陀归而奉诏译经译出缘起经等大小乘经论以明无明缘行乃至老死之次第愿众生知此有故彼有而断苦集也
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E7%BC%98%E8%B5%B7%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E7%BC%98%E8%B5%B7%E7%BB%8F.md
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法遍访五印
+  summary: 贞观初冒禁出关西游十七年就学那烂陀精研瑜伽缘起以决中土众疑
+  phases:
+  - key: brewing
+    name: 长安问道萌西行志
+    labels:
+      zh: -问道 -立志
+    start_date: '0626'
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: breakthrough
+    name: 冒禁出关越碛西进
+    labels:
+      zh: -西行 -历险
+    start_date: '0629-08-01'
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: climax
+    name: 那烂陀受学曲女城会宗
+    labels:
+      zh: -求学 -扬名
+    start_date: '0633'
+    highlight_event_id: guji-玄奘-event-nalanda
+  - key: closure
+    name: 负梵箧东归奉诏入京
+    labels:
+      zh: -归国 -奉诏
+    start_date: '0643'
+    highlight_event_id: guji-玄奘-event-huigui
+  decisions:
+  - date: '0629-08-01'
+    title_zh: 冒禁私行出玉门关
+    rationale: 中土章疏不足决疑宁犯国禁而往印度求亲证真经以利群生
+  - date: '0633'
+    title_zh: 留学那烂陀师事戒贤
+    rationale: 欲穷瑜伽唯识与缘起深义必须久住正统学府亲承耆宿而后能弘
+- id: guji-玄奘-endeavor-2
+  title_zh: 翻译众经宣说缘起
+  summary: 归国后主持大慈恩寺等译场译经七十五部弘扬缘起性空以续佛慧命
+  phases:
+  - key: brewing
+    name: 设译场定规式
+    labels:
+      zh: -设场 -定式
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-huigui
+  - key: breakthrough
+    name: 大般若等巨译开端
+    labels:
+      zh: -巨译 -创制
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-yiqi
+  - key: climax
+    name: 译缘起经明十二支
+    labels:
+      zh: -译缘起 -明因果
+    start_date: '0650'
+    highlight_event_id: guji-玄奘-event-yiqi
+  - key: closure
+    name: 玉华示寂付嘱门人
+    labels:
+      zh: -示寂 -付嘱
+    start_date: '0664-02-01'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: '0645'
+    title_zh: 奉诏专事翻译不任朝职
+    rationale: 弘法利生莫大于译典当以余生正名显义使缘起正法流行中土
+  - date: '0650'
+    title_zh: 先译小乘缘起经以正因果
+    rationale: 大小虽异同依缘起欲破前后际内外业果之无知当先示十二支流转还灭之门
+events:
+- id: guji-玄奘-event-birth
+  date: '0602'
+  year_of: 602
+  title_zh: 生于洛州缑氏陈氏家
+  description: 隋仁寿二年生于洛州缑氏幼聪慧十三岁出家研摄论毗昙
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-xixing
+  date: '0629-08-01'
+  year_of: 629
+  title_zh: 自长安冒禁西行
+  description: 贞观三年潜出玉门关历高昌龟兹凌山葱岭赴印度求法
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-nalanda
+  date: '0633'
+  year_of: 633
+  title_zh: 就学那烂陀师事戒贤
+  description: 入中印度那烂陀寺从戒贤学瑜伽师地论兼通声明因明精究缘起
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-huigui
+  date: '0645-01-01'
+  year_of: 645
+  title_zh: 负经东归奉诏入京
+  description: 贞观十九年携梵本六百余部至长安太宗亲迎敕住弘福寺翻译
+  endeavor_ref: guji-玄奘-endeavor-2
+- id: guji-玄奘-event-yiqi
+  date: '0650'
+  year_of: 650
+  title_zh: 译出唐本缘起经一卷
+  description: 于大慈恩寺译出缘起经宣说室罗筏誓多林佛为苾刍说十二支缘起初差别义
+  endeavor_ref: guji-玄奘-endeavor-2
+- id: guji-玄奘-event-death
+  date: '0664-03-07'
+  year_of: 664
+  title_zh: 示寂于玉华宫肃成院
+  description: 麟德元年二月五日示寂于玉华宫遗命薄葬从简时年六十三
+  endeavor_ref: guji-玄奘-endeavor-2
