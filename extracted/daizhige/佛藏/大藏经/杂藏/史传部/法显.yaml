@@ -1,0 +1,152 @@
+person:
+  qid: guji-法显
+  name_zh: 法显
+  names:
+    zh: 法显
+    en: Faxian
+  lifespan:
+    birth:
+      date: '0337'
+      precision: year
+      is_circa: true
+      raw: 约晋康帝建元二年平阳人
+    death:
+      date: '0422'
+      precision: year
+      is_circa: false
+      raw: 刘宋永初三年建康
+  birth_date: '0337'
+  death_date: '0422'
+  era: 东晋
+  reign_ref: 弘始二年岁在己亥
+  archetype: 西行求法高僧
+  dilemmas:
+  - 长安律藏残缺难持净戒而欲远求全本
+  - 流沙雪山毒龙险绝生死莫测而道心不退
+  lesson: 慨律残缺而西行万里求法，东归译弘以利后学
+  summary_first_person: 吾昔在长安慨律藏残缺，遂以弘始二年与慧景道整等同契至天竺寻求戒律，度流沙越葱岭历三十余国，广求经律而归
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%B3%95%E6%98%BE%E4%BC%A0.html
+endeavors:
+- id: guji-法显-endeavor-1
+  title_zh: 西行天竺寻求戒律
+  summary: 自长安出发度陇越沙经西域诸国，度葱岭入北中天竺，遍礼圣迹广求经律
+  phases:
+  - key: brewing
+    name: 长安慨律同契西行
+    labels:
+      zh:
+      - 发愿
+      - 结伴
+    start_date: 0399
+    highlight_event_id: guji-法显-event-depart
+  - key: breakthrough
+    name: 度沙河越葱岭入胡印度
+    labels:
+      zh:
+      - 艰险
+      - 越岭
+    start_date: '0400'
+    highlight_event_id: guji-法显-event-congling
+  - key: climax
+    name: 中天竺观圣迹求经律
+    labels:
+      zh:
+      - 求律
+      - 朝圣
+    start_date: '0405'
+    highlight_event_id: guji-法显-event-central
+  - key: closure
+    name: 南天竺泛海取道东归
+    labels:
+      zh:
+      - 海路
+      - 东归
+    start_date: '0411'
+    highlight_event_id: guji-法显-event-return
+  decisions:
+  - date: 0399
+    title_zh: 以律藏残缺决意西行
+    rationale: 中土戒律阙略不足正行，须亲往天竺寻求全本
+  - date: '0403'
+    title_zh: 分伴独进那竭供养顶骨
+    rationale: 为供养佛顶骨齿影及广求律典，不惮离众独进
+- id: guji-法显-endeavor-2
+  title_zh: 归国译经著述弘律
+  summary: 自海道归青州南下建康，译出经律并自记游天竺事以传后世
+  phases:
+  - key: brewing
+    name: 青州登陆南下京师
+    labels:
+      zh:
+      - 归国
+      - 弘愿
+    start_date: '0413'
+    highlight_event_id: guji-法显-event-return
+  - key: breakthrough
+    name: 建康共佛驮跋陀译经
+    labels:
+      zh:
+      - 译经
+      - 传律
+    start_date: '0414'
+    highlight_event_id: guji-法显-event-translate
+  - key: climax
+    name: 译出大般泥洹摩诃僧祇律等
+    labels:
+      zh:
+      - 律典
+      - 大成
+    start_date: '0416'
+    highlight_event_id: guji-法显-event-translate
+  - key: closure
+    name: 自记游事成高僧法显传
+    labels:
+      zh:
+      - 著述
+      - 佛国记
+    start_date: 0419
+    highlight_event_id: guji-法显-event-death
+  decisions:
+  - date: '0414'
+    title_zh: 留建康道场寺出经律
+    rationale: 所得摩诃僧祇律等中土未备，宜亟译出以补阙略
+  - date: 0419
+    title_zh: 自记西行历程示后
+    rationale: 海陆万里圣迹仪法见闻难得，须笔录流传令后人识法
+events:
+- id: guji-法显-event-birth
+  date: '0337'
+  year_of: 337
+  title_zh: 平阳出生出家
+  description: 约晋康帝时生于平阳，三岁出家以沙弥应命，久居长安慨律藏残缺
+- id: guji-法显-event-depart
+  date: 0399
+  year_of: 399
+  title_zh: 弘始二年发迹长安
+  description: 与慧景道整慧应慧嵬等同契西行，度陇至干归张掖炖煌，度沙河十七日至鄯善
+- id: guji-法显-event-congling
+  date: '0400'
+  year_of: 400
+  title_zh: 度葱岭入北天竺
+  description: 逾于阗竭叉葱岭雪山，度新头河悬絙至乌长陀历，始入印度境访弥勒大像
+- id: guji-法显-event-central
+  date: '0405'
+  year_of: 405
+  title_zh: 中天竺广求经律礼圣迹
+  description: 南下经宿呵揵陀弗楼沙那竭拘萨罗舍卫迦维罗卫等国，供养顶骨齿影钵杖，寻求摩诃僧祇律等
+- id: guji-法显-event-return
+  date: '0413'
+  year_of: 413
+  title_zh: 泛南海归青州长广
+  description: 自南天竺师子国泛海经耶婆提广州，漂泊至青州长广郡牢山，凡历十五年归
+- id: guji-法显-event-translate
+  date: '0416'
+  year_of: 416
+  title_zh: 建康译出经律
+  description: 至建康道场寺与佛驮跋陀共译大般泥洹经摩诃僧祇律杂阿毗昙心等，补中土阙略
+- id: guji-法显-event-death
+  date: '0422'
+  year_of: 422
+  title_zh: 建康示寂传记流世
+  description: 自记游天竺事成一卷世称佛国记高僧法显传，永初三年示寂于建康
