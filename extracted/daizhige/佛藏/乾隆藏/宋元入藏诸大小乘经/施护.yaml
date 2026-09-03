@@ -3,94 +3,154 @@ person:
   name_zh: 施护
   names:
     zh: 施护
-    en: Danapala
+    en: Shihu Danapala
   lifespan:
     birth:
-      date: 950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中叶西天乌填曩人
+      raw: 约十世纪中生于于阗生年未详
     death:
-      date: 1017
+      date: 1017-01-01
       precision: year
-      is_circa: false
-      raw: 宋真宗天禧元年卒于东京
-  birth_date: 950
-  death_date: 1017
+      is_circa: true
+      raw: 宋真宗天禧元年卒
+  birth_date: 0950-01-01
+  death_date: 1017-01-01
   era: 北宋
   reign_ref: 宋太宗雍熙至宋真宗天禧
-  archetype: 西天传法译经三藏
+  archetype: 弘译持经者
   dilemmas:
-  - 佛身无相遍一切处与初机须依有相安像植福之两难
-  - 梵本仪轨繁广具足与中土持诵随力简便之两难
-  lesson: 以圆满有相摄初机植福终归无相法身令久修初机俱得成就
-  summary_first_person: 吾本西天乌填曩人远来入宋蒙诏传译惟愿以真言印坛仪轨安立圆满圣像令初发心众生植福发心久修者悟无相法身
+  - title_zh: 胡汉文字隔阂与义理忠实之难
+    description: 梵本精微译成华言既须信达又须契合般若空性深义稍有增损即失佛意
+  - title_zh: 奉诏译经与专修证悟之衡
+    description: 日居译场校雠笔受不辍而自修观行时稀如何在利他译业与自利修持间不偏废
+  lesson: 以信达传灯不增不减弘般若空慧当以平等摄受一切善法为怀
+  summary_first_person: 我是施护本出西域于阗慕华法盛入宋应诏居译经院试鸿胪少卿传法大师奉诏译出五十颂圣般若波罗蜜等经愿以般若方便平等摄受一切善法令学者速获正觉
   source_urls:
-  - https://tripitaka.cbeta.org/T1418
-  - https://daizhige.org/T1418-anxiang-sanmei-yigui
+  - https://tripitaka.cbeta.org/T0248
+  - https://daizhige.org/zh-hant/sutra/T0248
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入宋应诏专事传译
-  summary: 自西天来入宋译场授朝散大夫传法大师与天息灾法贤等共译显密经律百余卷立译经之业
+  person_qid: guji-施护
+  title_zh: 应诏入院译经传法
+  summary: 自于阗入宋居译经院与法天等同译大小乘经一百余部以信达为要
   phases:
   - key: brewing
-    name: 西天习学发心东来
+    name: 西域发心入华
     labels:
-      zh: 西天习学
-    start_date: 960
-    highlight_event_id: guji-施护-event-birth
-  - key: climax
-    name: 译场总持众经流通
-    labels:
-      zh: 译场译经
-    start_date: 984
-    highlight_event_id: guji-施护-event-translate
-  decisions:
-  - date: 984
-    title_zh: 应诏入译经院专事传译
-    rationale: 为令正法东流满众生愿故不辞跋涉专精梵汉对译利益中土
-- id: guji-施护-endeavor-2
-  title_zh: 传译安像三昧庆赞仪轨
-  summary: 奉诏译佛说一切如来安像三昧仪轨经具说法身无相与安像植福之权实并陈造像量度曼拏罗请召沐浴开眼护摩星历等法
-  phases:
+      zh:
+      - 酝酿
+    start_date: 0980-01-01
+    highlight_event_id: guji-施护-event-arrive
   - key: breakthrough
-    name: 厘定安像庆赞仪轨
+    name: 入院试译得授官
     labels:
-      zh: 安像仪轨
-    start_date: 1000
-    highlight_event_id: guji-施护-event-anxiang
+      zh:
+      - 突破
+    start_date: 0983-01-01
+    highlight_event_id: guji-施护-event-translate-start
+  - key: climax
+    name: 译场笔受弘宣
+    labels:
+      zh:
+      - 高潮
+    start_date: 0991-01-01
+    highlight_event_id: guji-施护-event-translate-fifty
   - key: closure
-    name: 付嘱流通护持获福
+    name: 校定流通功成
     labels:
-      zh: 流通护持
-    start_date: 1010
-    highlight_event_id: guji-施护-event-anxiang
+      zh:
+      - 收束
+    start_date: 1005-01-01
+    highlight_event_id: guji-施护-event-honor
   decisions:
-  - date: 1000
-    title_zh: 详译安像三昧仪轨以摄初机
-    rationale: 初发心未达法身无相须依圆满有相圣像植福故具译十种法则星历护摩等令仪轨周备
+  - date: 0983-01-01
+    title_zh: 决意留宋应诏译经
+    rationale: 见宋崇佛译场初开西域名僧汇聚留此可广利汉地学人故舍归计
+  - date: 0991-01-01
+    title_zh: 以直译存梵义不尚华饰
+    rationale: 般若空性义深涉有空诸门若饰文失质则误后学故宁质朴存真
+- id: guji-施护-endeavor-2
+  person_qid: guji-施护
+  title_zh: 弘宣五十颂般若平等法门
+  summary: 译出五十颂圣般若波罗蜜经宣说六度空性菩提分法平等摄受如一无异
+  phases:
+  - key: brewing
+    name: 受持般若深观
+    labels:
+      zh:
+      - 酝酿
+    start_date: 0985-01-01
+    highlight_event_id: guji-施护-event-translate-start
+  - key: breakthrough
+    name: 译出五十颂本
+    labels:
+      zh:
+      - 突破
+    start_date: 0990-01-01
+    highlight_event_id: guji-施护-event-translate-fifty
+  - key: climax
+    name: 王舍鹫峰法会宣演
+    labels:
+      zh:
+      - 高潮
+    start_date: 0991-01-01
+    highlight_event_id: guji-施护-event-translate-fifty
+  - key: closure
+    name: 付嘱受持流通
+    labels:
+      zh:
+      - 收束
+    start_date: 1005-01-01
+    highlight_event_id: guji-施护-event-honor
+  decisions:
+  - date: 0990-01-01
+    title_zh: 择要译出五十颂以摄大部般若
+    rationale: 大般若卷帙浩繁初机难入撮其纲要为五十颂易持易诵故普摄三乘
+  - date: 0991-06-01
+    title_zh: 明示平等摄受劝持读诵演说
+    rationale: 恐学者执大小乘别故明言声闻缘觉菩萨法及一切善法平等如一劝随喜受持速成菩提
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于西天乌填曩国
-  date: 950
+  person_qid: guji-施护
+  type: birth
+  date: 0950-01-01
   year_of: 950
-  place_zh: 西天乌填曩国
-  summary: 生于乌填曩少习三藏通达梵汉及密教真言印坛仪轨
-- id: guji-施护-event-translate
-  title_zh: 入宋授传法大师从事译经
-  date: 984
-  year_of: 984
-  place_zh: 东京译经院
-  summary: 宋太宗雍熙中入宋授朝散大夫传法大师居译经传法院与众共译经律百余卷
-- id: guji-施护-event-anxiang
-  title_zh: 奉诏译佛说一切如来安像三昧仪轨经
-  date: 1000
-  year_of: 1000
-  place_zh: 东京传法院
-  summary: 奉诏译出安像三昧仪轨一卷明造像圆满相度曼拏罗请召沐浴着衣开眼供养护摩择日选星之法并示法身无相为久修说安像植福为初机说
+  title_zh: 生于于阗
+  description: 约十世纪中生于西域于阗通梵汉文字少习三藏
+- id: guji-施护-event-arrive
+  person_qid: guji-施护
+  type: career
+  date: 0983-01-01
+  year_of: 983
+  title_zh: 随贡使入宋至京师
+  description: 雍熙年间随于阗贡使入宋朝觐应诏入译经院从事务翻译
+- id: guji-施护-event-translate-start
+  person_qid: guji-施护
+  type: career
+  date: 0985-01-01
+  year_of: 985
+  title_zh: 居译经院参译众经
+  description: 与法天等合作译出大乘庄严宝王等经渐以译业精审见称
+- id: guji-施护-event-translate-fifty
+  person_qid: guji-施护
+  type: career
+  date: 0991-01-01
+  year_of: 991
+  title_zh: 奉诏译出五十颂圣般若波罗蜜经
+  description: 于京师译场译出此经一卷明王舍鹫峰佛告须菩提般若具足方便平等摄受六度空性道品佛功德等一切善法
+- id: guji-施护-event-honor
+  person_qid: guji-施护
+  type: career
+  date: 1005-01-01
+  year_of: 1005
+  title_zh: 加授朝散大夫试鸿胪少卿传法大师
+  description: 以译经功多累加官阶赐传法大师号奉诏校定流通所译经典
 - id: guji-施护-event-death
-  title_zh: 卒于东京传法院
-  date: 1017
+  person_qid: guji-施护
+  type: death
+  date: 1017-01-01
   year_of: 1017
-  place_zh: 东京传法院
-  summary: 宋真宗天禧元年示寂于东京译业终结门人继传其所译仪轨流通供养
+  title_zh: 示寂于京师
+  description: 宋真宗天禧元年示寂译业凡百余部般若法门藉此流通后世

@@ -8,158 +8,131 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: true
-      raw: 唐神龙元年左右生于南天竺一带
+      is_circa: false
+      raw: 唐神龙元年
     death:
       date: '0774-06-15'
       precision: day
       is_circa: false
-      raw: 唐大历九年五月寂于长安大兴善寺
+      raw: 唐大历九年五月
   birth_date: '0705'
   death_date: '0774-06-15'
   era: 唐
-  reign_ref: 唐玄宗开元至唐代宗大历
-  archetype: 密教译经护国大师
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 密教译经弘法者
   dilemmas:
-  - title_zh: 梵汉音义参差如何取信
-    description: 西天贝叶与东夏旧译轻重不一须推校详定刊正讹略
-  - title_zh: 空慧修证与护国济世如何两全
-    description: 既以般若照见皆空又以神咒护国镇乾坤遏寇虐
-  lesson: 以般若空慧为体以三密持明为用译弘护国不二方能安众利生
-  summary_first_person: 吾不空西来师事金刚智泛杯南海赴师子国求法还京开坛灌顶译经五百余卷重译仁王护国般若愿以智慧舟济有海与黎蒸共臻实相
+  - 坚持梵本仪轨与顺应华夏行仪之间的取舍
+  - 专志持咒证解脱与广译弘传利群生之间的权衡
+  lesson: 业障深重可藉诚心发露忏悔而得清净，当合集众善回向无上菩提，勤行礼忏不令间断
+  summary_first_person: 吾名不空，自南天竺随金刚智三藏东来入唐，受具传密，广译显密经轨，译出三十五佛名礼忏文，劝勉六时礼忏以净业障，以密法辅国护持，终老长安
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BB%81%E7%8E%8B%E6%8A%A4%E5%9B%BD%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BB%81%E7%8E%8B%E6%8A%A4%E5%9B%BD%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E7%BB%8F.md
-  - https://cbetaonline.dila.edu.tw/zh/T0246
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%B8%89%E5%8D%81%E4%BA%94%E4%BD%9B%E5%90%8D%E7%A4%BC%E5%BF%8F%E6%96%87.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%B8%89%E5%8D%81%E4%BA%94%E4%BD%9B%E5%90%8D%E7%A4%BC%E5%BF%8F%E6%96%87.html
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 西来传习瑜伽密教东传
-  summary: 幼随金刚智东来受具传三密后泛海南行赴师子国广求梵本还京开坛建宗
+  title_zh: 翻译密教经典与三十五佛礼忏仪轨
+  description_zh: 承金刚智之传，校梵汉本，译出三十五佛名礼忏文等经轨，确立忏悔发露与回向发愿之仪，明示能净业障重罪之行法
   phases:
   - key: brewing
-    name: 随师东来初习声明
+    name: 随师东来初学梵汉
     labels:
-      zh: 酝酿
+      zh:
+      - 求法学经
     start_date: 0719
-    highlight_event_id: guji-不空-event-arrival
+    highlight_event_id: guji-不空-event-1
   - key: breakthrough
-    name: 泛海南行师子国求法
+    name: 受具传密通达仪轨
     labels:
-      zh: 突破
-    start_date: '0741'
-    highlight_event_id: guji-不空-event-seek
+      zh:
+      - 传密受法
+    start_date: '0731'
+    highlight_event_id: guji-不空-event-1
   - key: climax
-    name: 还京灌顶广弘三密
+    name: 译出三十五佛名礼忏文
     labels:
-      zh: 高潮
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-return
+      zh:
+      - 译经弘法
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-2
   - key: closure
-    name: 译经授徒密宗确立
+    name: 略记天竺六时礼忏行法
     labels:
-      zh: 收束
-    start_date: '0757'
-    highlight_event_id: guji-不空-event-teach
+      zh:
+      - 制仪传持
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-2
   decisions:
   - date: '0741'
-    title_zh: 决意泛海赴师子国求梵本
-    rationale: 中土密本未周为求瑜伽真本不惮海险远行求法
+    title_zh: 依乌波离所问经译出三十五佛名并忏悔法
+    rationale: 为令行者灭除五无间十不善等业障，须依梵本正定佛名次第与忏悔回向文
   - date: '0746'
-    title_zh: 还京开坛传法不入山隐
-    rationale: 感玄肃二宗崇奉发愿以密法护国安民广设道场
+    title_zh: 略记天竺六时礼忏以便华夏奉行
+    rationale: 天竺大乘行者常于六时礼忏不阙，虑文繁难持，故略记要行以利修持
 - id: guji-不空-endeavor-2
-  title_zh: 重译仁王护国般若弘化
-  summary: 奉代宗诏推校旧译于大明宫南桃园集义学详译护国般若以般若护国镇安社稷
+  title_zh: 弘传密法建坛行化辅国护持
+  description_zh: 于长安洛阳建曼荼罗道场，传授灌顶，教导禅定解脱与诸地修证，以护国息灾感动三朝，广开密教弘传之局
   phases:
   - key: brewing
-    name: 奉诏推校旧译参差
+    name: 奉诏入宫初弘密教
     labels:
-      zh: 酝酿
-    start_date: '0765'
-    highlight_event_id: guji-不空-event-edict
+      zh:
+      - 入朝弘化
+    start_date: '0742'
+    highlight_event_id: guji-不空-event-1
   - key: breakthrough
-    name: 南桃园集众详译定本
+    name: 建坛灌顶摄受四众
     labels:
-      zh: 突破
-    start_date: '0766'
-    highlight_event_id: guji-不空-event-retranslate
+      zh:
+      - 建坛传法
+    start_date: '0751'
+    highlight_event_id: guji-不空-event-2
   - key: climax
-    name: 进呈御制序广颁天下
+    name: 三朝礼遇护国修法
     labels:
-      zh: 高潮
-    start_date: '0767'
-    highlight_event_id: guji-不空-event-present
+      zh:
+      - 辅国护持
+    start_date: '0756'
+    highlight_event_id: guji-不空-event-2
   - key: closure
-    name: 依经设护国道场流通
+    name: 付嘱门人永传仪轨
     labels:
-      zh: 收束
-    start_date: 0768
-    highlight_event_id: guji-不空-event-protect
+      zh:
+      - 付嘱传承
+    start_date: '0774'
+    highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0766'
-    title_zh: 以新译正旧译语质未融之失
-    rationale: 旧译文字参差临文三覆故会良贲常衮等详定密严等经刊正讹略
-  - date: 0768
-    title_zh: 倡护国道场以般若镇国
-    rationale: 深信高张五忍永祛众难故令州府讲诵仁王以和风雨遏寇虐
+  - date: '0751'
+    title_zh: 开建曼荼罗广行灌顶
+    rationale: 为使禅定解脱及诸地位皆得满足，须以如法坛仪摄持身口意三密
+  - date: '0756'
+    title_zh: 应请修法祈护国安民
+    rationale: 值时局艰难，以密法功德回向国土，令君民同植菩提善根
 events:
 - id: guji-不空-event-birth
+  type: birth
+  title_zh: 诞生于南天竺
   date: '0705'
   year_of: 705
-  title_zh: 诞生南天竺
-  description: 生于南天竺婆罗门家幼失怙随叔东游
-  location: 南天竺
-- id: guji-不空-event-arrival
+  location_zh: 南天竺
+  description_zh: 唐神龙元年诞生于南天竺，幼年聪慧，后遇金刚智三藏而发心从学
+- id: guji-不空-event-1
+  type: career
+  title_zh: 随金刚智东来长安受具传密
   date: 0719
   year_of: 719
-  title_zh: 随金刚智至洛阳长安
-  description: 年十五随金刚智经南海至洛阳长安初习声明受具传大日密法
-  location: 洛阳
-- id: guji-不空-event-seek
+  location_zh: 长安
+  description_zh: 随金刚智三藏经南海抵洛阳长安，受具足戒，尽得密教仪轨传承，遂发译经弘法之愿
+- id: guji-不空-event-2
+  type: career
+  title_zh: 译出佛说三十五佛名礼忏文弘传六时礼忏
   date: '0741'
   year_of: 741
-  title_zh: 泛海赴师子国求法
-  description: 奉师遗命泛杯南海历诸国至师子国从普贤阿阇梨受瑜伽五部广得梵夹
-  location: 师子国
-- id: guji-不空-event-return
-  date: '0746'
-  year_of: 746
-  title_zh: 携梵本还京传教
-  description: 携五百余部梵本还长安止大兴善寺开坛灌顶玄宗肃宗皆受灌顶
-  location: 长安大兴善寺
-- id: guji-不空-event-teach
-  date: '0757'
-  year_of: 757
-  title_zh: 系统译经授徒立宗
-  description: 集弟子慧朗元皎等译金刚顶瑜伽等百余部奠定中土密宗
-  location: 长安
-- id: guji-不空-event-edict
-  date: '0765'
-  year_of: 765
-  title_zh: 奉代宗诏推校仁王旧译
-  description: 代宗以旧译语质未融诏不空推校详译未周部卷
-  location: 长安大明宫
-- id: guji-不空-event-retranslate
-  date: '0766'
-  year_of: 766
-  title_zh: 南桃园详译护国般若毕
-  description: 集京城义学大德良贲等翰林学士常衮等于大明宫南桃园详译护国般若二卷毕并更写定密严等经
-  location: 长安大明宫南桃园
-- id: guji-不空-event-present
-  date: '0767'
-  year_of: 767
-  title_zh: 进呈新翻经并御制序
-  description: 代宗制新翻护国仁王般若经序悬诸日月大烛昏衢颁行天下
-  location: 长安
-- id: guji-不空-event-protect
-  date: 0768
-  year_of: 768
-  title_zh: 设护国道场讲诵流通
-  description: 依新译仁王经立护国道场令天下讲诵以般若力护国息灾
-  location: 长安
+  location_zh: 长安
+  description_zh: 出乌波离所问经，译出三十五佛名并忏悔回向发愿之法，略记天竺六时礼忏行仪，劝勉净除业障回向无上正等菩提
 - id: guji-不空-event-death
+  type: death
+  title_zh: 圆寂于长安
   date: '0774-06-15'
   year_of: 774
-  title_zh: 示寂长安
-  description: 大历九年五月示寂于大兴善寺代宗辍朝三日赠司空谥大辩正广智三藏
-  location: 长安大兴善寺
+  location_zh: 长安
+  description_zh: 唐大历九年五月圆寂于长安，累朝礼遇，门人奉其仪轨永传不绝
