@@ -11,117 +11,134 @@ person:
       is_circa: false
       raw: 建隆元年
     death:
-      date: 1028
+      date: '1028'
       precision: year
       is_circa: false
       raw: 天圣六年
   birth_date: 0960
-  death_date: 1028
+  death_date: '1028'
   era: 宋
-  reign_ref: 宋真宗天禧
-  archetype: 传灯弘教者
+  reign_ref: 天圣
+  archetype: 天台弘教高僧
   dilemmas:
-  - 神根钝而数咨疑学勤不敢懈
-  - 恐先见失传而以不才抄录传世
-  lesson: 勤学咨疑以记先师之说刊正以待圆宗哲人
-  summary_first_person: 吾早年慕学投迹宝云遇授法师讲普门品神根钝而数咨疑蒙先师提耳粗记在心虑先见不益后昆故于天禧五年抄录成观音玄义记四卷以传于世
+  - 門徒競錄筆寄他手而辭多舛謬當因循舊錄或親撰記文以正本
+  - 覽者關情事相故實當徇俗書事相或直指理觀為益
+  lesson: 述而不作以正本清源唯以理觀為益方能傳燈久遠
+  summary_first_person: 吾四明沙門知禮先師寶雲嘗講金光明其徒競錄舛謬吾每臨文慨然近因講次憶領大義撰成記文兼采故實為裨助願覽者不以事相關情但思理觀為益
   source_urls:
-  - https://daizhige.org
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E9%87%91%E5%85%89%E6%98%8E%E7%BB%8F%E6%96%87%E5%8F%A5%E8%AE%B0.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E9%87%91%E5%85%89%E6%98%8E%E7%BB%8F%E6%96%87%E5%8F%A5%E8%AE%B0.html
 endeavors:
 - id: guji-知礼-endeavor-1
-  title_zh: 投迹宝云学普门教观
-  summary_zh: 早年投迹宝云遇授法师讲普门品数咨疑而粗记其义奠定天台传教之基
+  person_qid: guji-知礼
+  title_zh: 承嗣寶雲弘天台教觀
+  summary: 依寶雲義通學教住持延慶判教弘傳振興天台
   phases:
   - key: brewing
-    name: 慕学投迹
+    name: 依寶雲學教
     labels:
-      zh: 求学宝云
-    start_date: 0975
-    highlight_event_id: guji-知礼-event-study
+      zh:
+      - 學教
+    start_date: 0977
+    highlight_event_id: guji-知礼-event-1
   - key: breakthrough
-    name: 咨疑得解
+    name: 承嗣講席
     labels:
-      zh: 数咨先师
-    start_date: 0980
-    highlight_event_id: guji-知礼-event-study
+      zh:
+      - 承嗣
+    start_date: 0990
+    highlight_event_id: guji-知礼-event-1
   - key: climax
-    name: 粗记在心
+    name: 四明弘法
     labels:
-      zh: 记述所闻
-    start_date: 0985
-    highlight_event_id: guji-知礼-event-record
+      zh:
+      - 弘法
+    start_date: '1000'
+    highlight_event_id: guji-知礼-event-2
   - key: closure
-    name: 同闻衰朽思传后昆
+    name: 付囑傳燈
     labels:
-      zh: 萌念抄录
-    start_date: 1020
-    highlight_event_id: guji-知礼-event-write
+      zh:
+      - 傳燈
+    start_date: '1027'
+    highlight_event_id: guji-知礼-event-2
   decisions:
-  - date: 0975
-    title_zh: 投迹宝云慕学
-    rationale: 早年慕学求天台正传故投迹宝云亲近授法师
-  - date: 0980
-    title_zh: 数咨疑以求解
-    rationale: 神根钝而义未明故不辞数问赖先师提耳而粗记
+  - date: 0990
+    title_zh: 繼席寶雲不徇他宗
+    rationale: 為續天台正統須斥異說立四教三觀之正義
+  - date: '1017'
+    title_zh: 住持延慶專弘止觀
+    rationale: 以定慧弘道化俗須以教觀並舉令法久住
 - id: guji-知礼-endeavor-2
-  title_zh: 抄录观音玄义记四卷
-  summary_zh: 虑先见不益后昆勉以不才抄录普门玄义天禧五年八月绝笔以明人法普门之旨
+  person_qid: guji-知礼
+  title_zh: 撰金光明經文句記
+  summary: 因舊錄舛謬憶先師大義重撰文句記以理觀為益
   phases:
   - key: brewing
-    name: 念先见将失
+    name: 臨文慨然
     labels:
-      zh: 忧虑失传
-    start_date: 1020
-    highlight_event_id: guji-知礼-event-record
+      zh:
+      - 發憤
+    start_date: '1020'
+    highlight_event_id: guji-知礼-event-2
   - key: breakthrough
-    name: 勉力抄录
+    name: 講次憶領
     labels:
-      zh: 抄录成编
-    start_date: 1021
-    highlight_event_id: guji-知礼-event-write
+      zh:
+      - 領解
+    start_date: '1026'
+    highlight_event_id: guji-知礼-event-2
   - key: climax
-    name: 天禧绝笔
+    name: 撰記成文
     labels:
-      zh: 绝笔示众
-    start_date: 1021-08-01
-    highlight_event_id: guji-知礼-event-write
+      zh:
+      - 撰述
+    start_date: '1027'
+    highlight_event_id: guji-知礼-event-2
   - key: closure
-    name: 付刊正于哲人
+    name: 天聖記成流通
     labels:
-      zh: 求刊正
-    start_date: 1021-08-01
-    highlight_event_id: guji-知礼-event-write
+      zh:
+      - 流通
+    start_date: '1027-12-03'
+    highlight_event_id: guji-知礼-event-2
   decisions:
-  - date: 1021
-    title_zh: 抄录普门玄义传世
-    rationale: 同闻衰朽恐先师之见不益后昆故勉不才而录之
-  - date: 1021-08-01
-    title_zh: 绝笔而求刊正
-    rationale: 恐疑识暗谬有所传故属圆宗哲人刊正以全至理
+  - date: '1026'
+    title_zh: 棄舊錄而自撰記
+    rationale: 舊錄筆寄他手反羈曠遠之旨須親述大義以正視聽
+  - date: '1027-12-03'
+    title_zh: 采索隱故實為裨助
+    rationale: 覽者滯於事相須借俗書故實助顯理觀令得法益
 events:
 - id: guji-知礼-event-birth
+  person_qid: guji-知礼
+  type: birth
+  title_zh: 誕生四明
   date: 0960
   year_of: 960
-  title_zh: 诞生
-  description_zh: 宋建隆元年知礼诞生后为四明沙门兴复天台之教
-- id: guji-知礼-event-study
-  date: 0975
-  year_of: 975
-  title_zh: 投迹宝云遇授法师讲普门品
-  description_zh: 早年慕学投迹宝云遇授法师讲说普门品神根钝而数咨疑蒙先师提耳教诲
-- id: guji-知礼-event-record
-  date: 0985
-  year_of: 985
-  title_zh: 粗记所说义在心
-  description_zh: 先师念其学勤不辞提耳所说普门人法之义粗记在心与同闻共勉不忘
-- id: guji-知礼-event-write
-  date: 1021-08-01
-  year_of: 1021
-  title_zh: 天禧五年抄录观音玄义记绝笔
-  description_zh: 虑先见不益后昆抄录观音玄义记四卷以明天台智者普门玄义天禧五年辛酉八月一日绝笔为序求圆宗哲人刊正
+  place_zh: 明州四明
+  description: 宋建隆元年生於明州俗姓金
+- id: guji-知礼-event-1
+  person_qid: guji-知礼
+  type: endeavor
+  title_zh: 師從寶雲義通學天台教
+  date: 0988
+  year_of: 988
+  place_zh: 四明寶雲
+  description: 依寶雲義通習天台教觀承其講席之統
+- id: guji-知礼-event-2
+  person_qid: guji-知礼
+  type: endeavor
+  title_zh: 撰成金光明經文句記六卷
+  date: '1027-12-03'
+  year_of: 1027
+  place_zh: 四明延慶
+  description: 因講次憶先師大義撰文句記采孤山索隱故實以助理觀時天聖五年臘月三日記
 - id: guji-知礼-event-death
-  date: 1028
+  person_qid: guji-知礼
+  type: death
+  title_zh: 示寂四明
+  date: '1028'
   year_of: 1028
-  title_zh: 示寂
-  description_zh: 天圣六年知礼示寂世称四明尊者为宋代天台中兴之祖
+  place_zh: 四明延慶
+  description: 天聖六年示寂世壽六十九僧臘五十四
