@@ -1,0 +1,133 @@
+person:
+  qid: guji-百痴
+  name_zh: 百痴
+  names:
+    zh: 百痴元
+    en: Baichi Yuan
+  lifespan:
+    birth:
+      date: '1600'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约明末万历至天启间
+    death:
+      date: '1670'
+      precision: year
+      is_circa: true
+      raw: 卒年不详，顺治辛丑1661年时尚在世
+  birth_date: '1600'
+  death_date: '1670'
+  era: 明末清初
+  reign_ref: 崇祯至顺治
+  archetype: 禅宗宗师
+  dilemmas:
+  - 直截棒喝与慈悲接引之间如何权衡
+  - 住持弘化与屏迹潜修之间如何抉择
+  - 语心说法与离言绝虑之间如何统摄
+  lesson: 以赤身担荷之心直指本心，随缘开堂而无住无著。
+  summary_first_person: 我于本师费隐容老和尚棒下发明，掀倒禅床赤身担荷，历住莲峰宝峰金粟超果诸刹，但愿电激雷轰处令人回光自见，不辜曹溪血脉。
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%98%89%E5%85%B4%E8%97%8F/%E7%99%BE%E7%97%B4%E7%A6%85%E5%B8%88%E8%AF%AD%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%98%89%E5%85%B4%E8%97%8F/%E7%99%BE%E7%97%B4%E7%A6%85%E5%B8%88%E8%AF%AD%E5%BD%95.md
+endeavors:
+- id: guji-百痴-endeavor-1
+  title_zh: 福建建宁开堂弘法
+  summary: 崇祯辛巳至壬午受请住持莲峰宝峰，升座祝圣酬恩，举古发机确立宗风。
+  phases:
+  - key: brewing
+    name: 受请莲峰开堂
+    labels:
+      zh: 开堂
+    start_date: '1641-10-07'
+    highlight_event_id: guji-百痴-event-lianfeng
+  - key: breakthrough
+    name: 转住宝峰禅院
+    labels:
+      zh: 住持
+    start_date: '1642-02-18'
+    highlight_event_id: guji-百痴-event-baofeng
+  - key: closure
+    name: 退院过宝莲
+    labels:
+      zh: 退席
+    start_date: '1642-12-01'
+    highlight_event_id: guji-百痴-event-baofeng
+  decisions:
+  - date: '1641-10-07'
+    title_zh: 应绅衿请就莲峰开堂
+    rationale: 不负来机，借拄杖拂子直指第一义，展开鹫岭少林家风
+  - date: '1642-02-18'
+    title_zh: 入院住持宝峰
+    rationale: 承本师费隐之嘱，不可便休，勉强领众以了祖祢未了公案
+- id: guji-百痴-endeavor-2
+  title_zh: 江浙弘化与语录流通
+  summary: 历住杭嘉松兴诸刹，大弘临济宗风，门人编成三十卷语录流通于世。
+  phases:
+  - key: brewing
+    name: 浙西领众弘化
+    labels:
+      zh: 住持
+    start_date: '1650-01-01'
+    highlight_event_id: guji-百痴-event-jinsu
+  - key: climax
+    name: 金粟广慧大弘
+    labels:
+      zh: 宗匠
+    start_date: '1655-01-01'
+    highlight_event_id: guji-百痴-event-jinsu
+  - key: closure
+    name: 语录编成流通
+    labels:
+      zh: 著述
+    start_date: '1661-03-01'
+    highlight_event_id: guji-百痴-event-yulu
+  decisions:
+  - date: '1655-01-01'
+    title_zh: 住持金粟山广慧禅寺
+    rationale: 传曹溪正脉三十五世，炉锤学人，撑门拄户续济北宗枝
+  - date: '1661-03-01'
+    title_zh: 付嘱超宣等编录语录
+    rationale: 使千百年血脉流传于一语，不以一人一世事业文章自限
+events:
+- id: guji-百痴-event-birth
+  type: birth
+  date: '1600'
+  year_of: 1600
+  title_zh: 出生
+  description: 生于明末，生年不详，法名元，号百痴，后嗣法费隐通容
+  place: 中国
+- id: guji-百痴-event-lianfeng
+  type: career
+  date: '1641-10-07'
+  year_of: 1641
+  title_zh: 建宁莲峰禅院开堂
+  description: 崇祯辛巳年十月初七受众绅衿请就莲峰开堂，拈香祝圣酬本师恩，举宝寿三圣机缘示众
+  place: 福建建宁莲峰禅院
+- id: guji-百痴-event-baofeng
+  type: career
+  date: '1642-02-18'
+  year_of: 1642
+  title_zh: 入住建宁宝峰禅院
+  description: 崇祯壬午二月十八入院升座，明十方无壁四面无门旨，举法灯未了公案接引学人
+  place: 福建建宁宝峰禅院
+- id: guji-百痴-event-jinsu
+  type: career
+  date: '1655-01-01'
+  year_of: 1655
+  title_zh: 住持嘉兴金粟山广慧禅寺
+  description: 历住杭州太平长庆后住金粟广慧，又住松江明发超果兴化国欢，大弘宗风，弟子明觉等得法
+  place: 浙江嘉兴金粟山广慧禅寺
+- id: guji-百痴-event-yulu
+  type: career
+  date: '1661-03-01'
+  year_of: 1661
+  title_zh: 语录编成并序流通
+  description: 顺治辛丑谷雨法弟徐昌治等作序，嗣法门人超宣等编成三十卷语录，备载开堂小参拈古法语偈赞行实
+  place: 江南
+- id: guji-百痴-event-death
+  type: death
+  date: '1670'
+  year_of: 1670
+  title_zh: 示寂
+  description: 顺治辛丑后示寂，卒年不详，行实祭文附于语录卷二十九
+  place: 中国
