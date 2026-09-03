@@ -9,114 +9,124 @@ person:
       date: '0523'
       precision: year
       is_circa: true
-      raw: 约公元五二三年
+      raw: 约正光四年
     death:
       date: '0600'
       precision: year
       is_circa: true
-      raw: 约公元六百年
+      raw: 约开皇二十年
   birth_date: '0523'
   death_date: '0600'
   era: 隋代
   reign_ref: 隋文帝开皇
-  archetype: 译经弘法者
+  archetype: 译经三藏
   dilemmas:
-  - 异域弘法与安守故土之间的去留抉择
-  - 周武法难中避难还俗与坚守僧戒的生死抉择
-  - 声闻速证与回向无上菩提的大乘发心抉择
-  lesson: 得遇善友摄持并将一切善根回向遍智方成无上菩提
-  summary_first_person: 我是阇那崛多，生于犍陀罗，西来长安译经，历周武法难而不舍戒，逢隋兴佛法而开译场，我译大集譬喻王经，劝善家子莫证小果，当以善根回向阿耨多罗三藐三菩提。
+  - 梵本深广而华言难尽
+  - 世乱颠沛而译业不辍
+  lesson: 以译经持法令众生离邪见病苦发菩提心
+  summary_first_person: 我自犍陀罗远来东土，历北周入隋，唯以传译为命，译虚空孕菩萨经，显菩萨大悲方便，愿众生断恶忏悔趣向菩提。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/T0422.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/大集部/虚空孕菩萨经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/大集部/虚空孕菩萨经.html
 endeavors:
 - id: guji-阇那崛多-endeavor-1
-  title_zh: 西来入华历法难而坚守译业
-  summary: 幼年出家游学西域，入北周长安译经，逢武帝灭法南避弘法，隋兴复还长安重开译场。
+  title_zh: 西来入隋传译大集经典
+  summary: 自西域至长安，奉诏译出虚空孕菩萨经等大集部典籍
   phases:
   - key: brewing
-    name: 犍陀罗出生出家游学
+    name: 西域幼学三藏游化
     labels:
-      zh: 蕴酿
+      zh: 酝酿
     start_date: '0523'
     highlight_event_id: guji-阇那崛多-event-birth
   - key: breakthrough
-    name: 入长安初开译席
+    name: 至长安奉诏开译
     labels:
       zh: 突破
     start_date: 0559
-    highlight_event_id: guji-阇那崛多-event-1
+    highlight_event_id: guji-阇那崛多-event-arrive
   - key: climax
-    name: 法难南避坚守僧行
+    name: 隋代译出虚空孕菩萨经
     labels:
-      zh: 高潮
-    start_date: '0574'
-    highlight_event_id: guji-阇那崛多-event-1
-  - key: closure
-    name: 隋兴应诏还京
-    labels:
-      zh: 收束
-    start_date: 0581
-    highlight_event_id: guji-阇那崛多-event-2
-  decisions:
-  - date: 0559
-    title_zh: 决意西来长安弘法
-    rationale: 为令正法东流利益多众生故不恋故土而入华
-  - date: '0574'
-    title_zh: 法难中不舍戒而南行
-    rationale: 以善友摄持守戒存法种待时再兴译业
-- id: guji-阇那崛多-endeavor-2
-  title_zh: 隋代译场译出大集譬喻王经
-  summary: 居大兴善寺与达摩笈多等共译佛本行集经等三十余部，并译大集譬喻王经弘扬回向菩提。
-  phases:
-  - key: brewing
-    name: 大兴善寺集众立译场
-    labels:
-      zh: 蕴酿
-    start_date: 0581
-    highlight_event_id: guji-阇那崛多-event-2
-  - key: breakthrough
-    name: 定译语弘大乘回向义
-    labels:
-      zh: 突破
+      zh: 高峰
     start_date: 0585
-    highlight_event_id: guji-阇那崛多-event-2
-  - key: climax
-    name: 译成大集譬喻王经上下卷
-    labels:
-      zh: 高潮
-    start_date: 0590
-    highlight_event_id: guji-阇那崛多-event-3
+    highlight_event_id: guji-阇那崛多-event-translate
   - key: closure
-    name: 以译业付嘱后学而圆寂
+    name: 译业圆满遗化东土
     labels:
       zh: 收束
-    start_date: '0600'
+    start_date: 0595
     highlight_event_id: guji-阇那崛多-event-death
   decisions:
+  - date: 0559
+    title_zh: 应请留华不归西域
+    rationale: 见东土渴仰大乘，决意留长安专事翻译
   - date: 0585
-    title_zh: 专译大乘回向菩提诸经
-    rationale: 见声闻独觉同一法界而不具遍智故劝回向无上菩提
+    title_zh: 首译虚空孕悲愿方便
+    rationale: 愍众生堕邪见病苦，欲显菩萨救度法门
+- id: guji-阇那崛多-endeavor-2
+  title_zh: 弘宣忏悔持戒陀罗尼法
+  summary: 依经宣说五重罪相与烧香礼拜持咒除病满愿之行
+  phases:
+  - key: brewing
+    name: 深观刹利大臣五恶
+    labels:
+      zh: 酝酿
+    start_date: 0585
+    highlight_event_id: guji-阇那崛多-event-translate
+  - key: breakthrough
+    name: 敷演忏悔除罪方便
+    labels:
+      zh: 突破
+    start_date: 0588
+    highlight_event_id: guji-阇那崛多-event-teach
+  - key: climax
+    name: 授持咒礼拜满愿法
+    labels:
+      zh: 高峰
+    start_date: 0590
+    highlight_event_id: guji-阇那崛多-event-teach
+  - key: closure
+    name: 付嘱流通化导不息
+    labels:
+      zh: 收束
+    start_date: 0595
+    highlight_event_id: guji-阇那崛多-event-death
+  decisions:
+  - date: 0588
+    title_zh: 明五重罪劝令悔过
+    rationale: 见王臣夺三宝物谤法破僧造逆，须示忏悔出离
   - date: 0590
-    title_zh: 以譬喻宣说善友与回向
-    rationale: 以海雨摩尼须弥等喻令初发心菩萨乐欲不退遍智味
+    title_zh: 传烧香持咒礼虚空孕法
+    rationale: 为令病苦求愿众生得梦中现身除愈满愿
 events:
 - id: guji-阇那崛多-event-birth
-  title_zh: 诞生于犍陀罗国
+  title_zh: 生于犍陀罗
   date: '0523'
   year_of: 523
-- id: guji-阇那崛多-event-1
-  title_zh: 入北周长安逢法难南避
+  place_zh: 犍陀罗
+  description: 生于西域，少习三藏，精通梵文，立志东弘
+- id: guji-阇那崛多-event-arrive
+  title_zh: 至长安入译场
   date: 0559
   year_of: 559
-- id: guji-阇那崛多-event-2
-  title_zh: 应隋文帝诏入大兴善寺译经
-  date: 0581
-  year_of: 581
-- id: guji-阇那崛多-event-3
-  title_zh: 译出大集譬喻王经弘回向菩提
+  place_zh: 长安
+  description: 北周时抵长安，入译经之列，开始传译梵本
+- id: guji-阇那崛多-event-translate
+  title_zh: 译出虚空孕菩萨经
+  date: 0585
+  year_of: 585
+  place_zh: 长安
+  description: 隋开皇中译出此经，明虚空孕菩萨三昧神力与救度方便
+- id: guji-阇那崛多-event-teach
+  title_zh: 宣说五罪忏悔持咒法
   date: 0590
   year_of: 590
+  place_zh: 长安
+  description: 依经敷演王臣五重罪及烧香澡浴礼拜持咒满愿除病之行
 - id: guji-阇那崛多-event-death
-  title_zh: 圆寂于长安
+  title_zh: 示寂于隋
   date: '0600'
   year_of: 600
+  place_zh: 长安
+  description: 译业既成示寂，遗留众多译本流通后世
