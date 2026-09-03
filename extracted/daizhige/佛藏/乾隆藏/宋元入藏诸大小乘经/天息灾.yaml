@@ -6,117 +6,141 @@ person:
     en: Tian Xizai
   lifespan:
     birth:
-      date: 0950
+      date: '0950-01-01'
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于中印度
+      raw: 约宋初生于中印度
     death:
-      date: '1000'
+      date: '1000-06-01'
       precision: year
-      is_circa: false
-      raw: 宋咸平三年示寂
-  birth_date: 0950
-  death_date: '1000'
+      is_circa: true
+      raw: 宋咸平三年示寂于东京
+  birth_date: '0950-01-01'
+  death_date: '1000-06-01'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译经弘法者
+  archetype: 西来译经三藏
   dilemmas:
-  - 梵汉文义如何兼顾信实与通畅
-  - 异域初至如何取信朝廷与缁素
-  lesson: 不辞远行，以译经利生为己任，令正法久住中土
-  summary_first_person: 吾本中印度惹烂驮啰国沙门，远涉流沙入宋都，奉诏入译经院，专事梵汉对译，译大乘庄严宝王经四卷，弘扬观自在慈悲愿行，愿一切有情离苦得乐
+  - 贝叶梵本幽玄难解而中土藏教有缺当如何抉择传译
+  - 密咒兼涉息灾增益降伏怖畏当如何持慈悲心弘护而不伤生
+  lesson: 以慈愍入世译显密咒法护众生于道路水火盗贼王难之中令离怖畏得吉祥
+  summary_first_person: 吾本中印度沙门常持四忍早悟三乘蒙宋帝诏入华亲译大摩里支菩萨经七卷愿众生持名得隐身拥护离诸冤贼水火之难
   source_urls:
-  - https://cbeta.org/result/T1050
-  - https://daizhige.org/daizhigev20
+  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说大摩里支菩萨经.html
+  - https://tripitaka.cbeta.org/T12n1257
 endeavors:
 - id: guji-天息灾-endeavor-1
-  title_zh: 奉诏入宋开译场
-  summary_zh: 自中印度西行入宋都，入译经院专事梵汉对译
+  title_zh: 西天来华奉诏译经
+  summary_zh: 自中印度航海东来至宋阙奉太宗诏入译场译大摩里支等经
   phases:
   - key: brewing
-    name: 西土研习显密圣典
+    name: 中印度习学持明
     labels:
-      zh: 研习积累
-    start_date: 0965
+      zh:
+      - 习学持明
+    start_date: '0970-01-01'
     highlight_event_id: guji-天息灾-event-birth
   - key: breakthrough
-    name: 抵汴得诏入院
+    name: 太平兴国赴阙蒙诏
     labels:
-      zh: 入朝立足
-    start_date: 0982
+      zh:
+      - 赴阙奉诏
+    start_date: '0980-01-01'
     highlight_event_id: guji-天息灾-event-arrival
   - key: climax
-    name: 译场专译显密诸经
+    name: 译场开译摩里支七卷
     labels:
-      zh: 译经高峰
-    start_date: 0984
+      zh:
+      - 开译正经
+    start_date: '0984-01-01'
     highlight_event_id: guji-天息灾-event-translate
   - key: closure
-    name: 授号明教大师
+    name: 太宗制序颁行天下
     labels:
-      zh: 声名确立
-    start_date: 0990
-    highlight_event_id: guji-天息灾-event-translate
+      zh:
+      - 制序颁行
+    start_date: '0985-01-01'
+    highlight_event_id: guji-天息灾-event-preface
   decisions:
-  - date: 0982
-    title_zh: 应诏留汴入译经院
-    rationale: 为使正法东流，不辞远行，愿居译场利济群生
-  - date: 0984
-    title_zh: 坚持梵汉对校直译
-    rationale: 宁求信达不饰文藻，以存圣言本义
+  - date: '0980-06-01'
+    title_zh: 应诏入宋译场
+    rationale: 为续人天圣教令缺藏重兴故不辞远涉留华翻译
+  - date: '0984-03-01'
+    title_zh: 先译摩里支隐身护众法
+    rationale: 见众生道路王难水火盗贼怖畏故先弘速护之法以慈悲救疲羸
 - id: guji-天息灾-endeavor-2
-  title_zh: 译弘大乘庄严宝王经
-  summary_zh: 译出四卷宝王经，阐明观自在救度地狱饿鬼大威神力
+  title_zh: 传持咒印护国护众
+  summary_zh: 传摩里支陀罗尼手印观想护摩成就法以护道路行人及调伏冤兵
   phases:
   - key: brewing
-    name: 携梵本研读观音法门
+    name: 结毗卢印观日月光
     labels:
-      zh: 蕴酿发心
-    start_date: 0982
-    highlight_event_id: guji-天息灾-event-arrival
+      zh:
+      - 结印观想
+    start_date: '0984-01-01'
+    highlight_event_id: guji-天息灾-event-translate
   - key: breakthrough
-    name: 开译宝王经见光明瑞相
+    name: 授隐身拥护真言
     labels:
-      zh: 开译立宗
-    start_date: 0984
+      zh:
+      - 授咒护众
+    start_date: '0984-06-01'
     highlight_event_id: guji-天息灾-event-translate
   - key: climax
-    name: 详译观自在入冥救苦品
+    name: 立曼拏罗作护摩息灾
     labels:
-      zh: 弘愿高显
-    start_date: 0985
-    highlight_event_id: guji-天息灾-event-translate
+      zh:
+      - 护摩息灾
+    start_date: '0986-01-01'
+    highlight_event_id: guji-天息灾-event-rite
   - key: closure
-    name: 四卷成帙流通中土
+    name: 降伏冤兵护境安民
     labels:
-      zh: 流通圆满
-    start_date: 0988
-    highlight_event_id: guji-天息灾-event-translate
+      zh:
+      - 护国安民
+    start_date: '0990-01-01'
+    highlight_event_id: guji-天息灾-event-rite
   decisions:
-  - date: 0984
-    title_zh: 首译观自在救苦大愿
-    rationale: 念末法众生多苦，先弘大悲救度以启信心
-  - date: 0988
-    title_zh: 定为四卷通行本
-    rationale: 俾义类分明，便于讽诵受持流通
+  - date: '0984-08-01'
+    title_zh: 开示针线缝恶口眼之观
+    rationale: 为令持诵者于冤家前得不见不捉不缚故示慈悲方便之观
+  - date: '0986-02-01'
+    title_zh: 示白檀曼拏罗禁冤兵法
+    rationale: 为邻兵侵境大王发心护土故授斋戒护摩以息诤而不滥杀
 events:
 - id: guji-天息灾-event-birth
-  date: 0950
+  title_zh: 生于中印度
+  date: '0950-01-01'
   year_of: 950
-  title_zh: 诞生于中印度惹烂驮啰国
-  summary_zh: 生于西天中印度，出家研习三藏，精通梵典
+  place_zh: 西域中印度
+  description_zh: 约宋初生于中印度沙门家少习三乘兼持明咒法
 - id: guji-天息灾-event-arrival
-  date: 0982
-  year_of: 982
-  title_zh: 太平兴国七年抵宋都入译经院
-  summary_zh: 奉诏入开封译经院，与施护法天等共事翻译
+  title_zh: 太平兴国五年至阙下
+  date: '0980-01-01'
+  year_of: 980
+  place_zh: 东京开封
+  description_zh: 与施护法天等西来蒙太宗诏入译经院试光禄卿赐紫
 - id: guji-天息灾-event-translate
-  date: 0984
+  title_zh: 奉诏译大摩里支菩萨经七卷
+  date: '0984-01-01'
   year_of: 984
-  title_zh: 译出佛说大乘庄严宝王经四卷
-  summary_zh: 于舍卫国祇园法会始，详译观自在入阿鼻地狱及饿鬼城救苦之事
+  place_zh: 东京译经院
+  description_zh: 于舍卫祇园缘起下译隐身护众陀罗尼及成就护摩诸法
+- id: guji-天息灾-event-preface
+  title_zh: 太宗制宋译三藏圣教序
+  date: '0985-01-01'
+  year_of: 985
+  place_zh: 东京宫中
+  description_zh: 太宗嘉其续人天圣教亲制序文赞雪山贝叶重兴利益有情俱登觉岸
+- id: guji-天息灾-event-rite
+  title_zh: 传授护摩降伏仪则
+  date: '0986-01-01'
+  year_of: 986
+  place_zh: 道场曼拏罗中
+  description_zh: 立白檀曼拏罗献花香灯涂以酪蜜作护摩诵禁冤兵真言护境
 - id: guji-天息灾-event-death
-  date: '1000'
+  title_zh: 咸平年中示寂
+  date: '1000-06-01'
   year_of: 1000
-  title_zh: 宋咸平三年示寂
-  summary_zh: 住宋译经十余载，译经弘法功成，示寂于汴京
+  place_zh: 东京
+  description_zh: 译经垂世道无私而永泰示寂于宋真宗咸平之际后人奉其摩里支法流通不绝
