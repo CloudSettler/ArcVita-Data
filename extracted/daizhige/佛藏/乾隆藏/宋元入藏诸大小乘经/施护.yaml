@@ -7,147 +7,130 @@ person:
   lifespan:
     birth:
       date: 0950
-      precision: year
+      precision: century
       is_circa: true
-      raw: 生年不详约十世纪中叶生于乌填曩国
+      raw: 生年失载约十世纪中叶北印度人
     death:
       date: '1017'
       precision: year
-      is_circa: false
-      raw: 宋天禧元年卒于开封
+      is_circa: true
+      raw: 约宋真宗天禧元年卒
   birth_date: 0950
   death_date: '1017'
   era: 北宋
-  reign_ref: 宋太宗至真宗朝
+  reign_ref: 宋太宗至宋真宗
   archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔而奉诏传译当如何兼顾信达雅
-  - 仪轨繁密而众生病苦交迫当如何简易普利
-  lesson: 以清净心受持读诵广为流传依陀罗尼除难利生
-  summary_first_person: 我本乌填曩人远来中土奉诏入译经院竭诚传译愿以圣最胜陀罗尼护佑阎浮提众生离诸病苦灾难
+  - 安住故国与远涉中土弘法之抉择
+  - 恪守梵本直译与顺华言易晓之权衡
+  lesson: 宁舍身命不破戒律持戒为见佛生天成道之本
+  summary_first_person: 我本北印度人西来入宋蒙太宗真宗礼遇入译经院授朝散大夫试鸿胪少卿传法大师奉诏译出大乘戒经等经律但愿华梵流通戒香普熏令持戒者得安乐见佛
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E6%9C%80%E8%83%9C%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E6%9C%80%E8%83%9C%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E6%88%92%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E6%88%92%E7%BB%8F.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 太平兴国入华参预译场
-  summary: 自乌填曩西来入宋朝译经院与天息灾等共参传译奠定北宋译业
+  person_qid: guji-施护
+  title_zh: 西域来华入译经院
+  summary: 自北印度乌仗那一带来华于太平兴国中抵京师入译经院与天息灾法贤等共译显密经论
   phases:
   - key: brewing
-    name: 西域发心西来
+    name: 西土习学酝酿西行
     labels:
-      zh:
-      - 求法
-      - 西来东土
-    start_date: 0975
+      zh: 酝酿
+    start_date: 0950
     highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 抵京入译经院
+    name: 随侣东来初达京师
     labels:
-      zh:
-      - 奉诏
-      - 入院
+      zh: 突破
     start_date: 0980
-    highlight_event_id: guji-施护-event-arrive
+    highlight_event_id: guji-施护-event-1
   - key: climax
-    name: 朝散大夫传法大师
+    name: 入院授传法大师试衔
     labels:
-      zh:
-      - 授职
-      - 传法
+      zh: 高潮
     start_date: 0985
-    highlight_event_id: guji-施护-event-arrive
+    highlight_event_id: guji-施护-event-2
   - key: closure
-    name: 译场规模初成
+    name: 译业渐著朝野知名
     labels:
-      zh:
-      - 译场
-      - 奠基
+      zh: 收束
     start_date: 0990
-    highlight_event_id: guji-施护-event-translate
+    highlight_event_id: guji-施护-event-2
   decisions:
   - date: 0980
-    title_zh: 应诏入开封译经院
-    rationale: 感宋太宗崇法求经故舍故土而就译席以传梵本利中土
+    title_zh: 决意远涉中土
+    rationale: 为使正法东流不恋故土安逸随伴东行入宋求译
   - date: 0985
-    title_zh: 受朝散大夫试鸿胪少卿传法大师
-    rationale: 借官品以重译事使梵典传译取信于朝野
+    title_zh: 应诏入院专事翻译
+    rationale: 蒙宋太宗崇佛设译经院当以译经报国利生不负礼遇
 - id: guji-施护-endeavor-2
-  title_zh: 奉诏别译圣最胜陀罗尼经
-  summary: 依梵本译出圣最胜陀罗尼宣说文殊授法除病禳灾仪轨与受持功德
+  person_qid: guji-施护
+  title_zh: 奉诏译说大乘戒经弘律
+  summary: 授朝散大夫试鸿胪少卿传法大师奉诏译出佛说大乘戒经一卷盛弘持戒功德破戒过患
   phases:
   - key: brewing
-    name: 审定梵本仪轨
+    name: 参究律部酝酿译戒
     labels:
-      zh:
-      - 审梵
-      - 持戒
-    start_date: 0990
-    highlight_event_id: guji-施护-event-translate
+      zh: 酝酿
+    start_date: 0985
+    highlight_event_id: guji-施护-event-1
   - key: breakthrough
-    name: 译成陀罗尼正文
+    name: 考定梵本确定戒品纲目
     labels:
-      zh:
-      - 直译
-      - 存梵音
-    start_date: 0995
-    highlight_event_id: guji-施护-event-translate
+      zh: 突破
+    start_date: 0990
+    highlight_event_id: guji-施护-event-2
   - key: climax
-    name: 宣扬受持功德除难
+    name: 奉诏译成大乘戒经进呈
     labels:
-      zh:
-      - 弘通
-      - 除病禳灾
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-preach
+      zh: 高潮
+    start_date: 0990
+    highlight_event_id: guji-施护-event-2
   - key: closure
-    name: 流传国界城邑聚落
+    name: 流通戒法付嘱奉行
     labels:
-      zh:
-      - 流通
-      - 护国佑民
-    start_date: '1005'
-    highlight_event_id: guji-施护-event-preach
+      zh: 收束
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0995
-    title_zh: 以音译存陀罗尼密语兼以意译显义
-    rationale: 密语不翻方具明力而缘起功德须晓畅故双轨并行
-  - date: '1000'
-    title_zh: 详述五重读诵功德劝令流传
-    rationale: 欲令一经一咒即能自利利他由一身及一国故层层开示
+  - date: 0990
+    title_zh: 直承佛说严明戒律
+    rationale: 经中佛告苾刍宁舍身命不犯戒律破戒则百万生沉沦恶道当据实译出以警策学人
+  - date: 0990
+    title_zh: 以妙香庄严喻显持戒胜德
+    rationale: 戒为最上庄严妙香欢喜胜因如清冷水除热恼能生天见佛当令华言朗然流通
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌填曩国
+  person_qid: guji-施护
   type: birth
+  title_zh: 生于北印度乌仗那国
   date: 0950
   year_of: 950
-  place: 乌填曩国
-  description: 生于北印度乌填曩国少习梵典通三藏后发心东来弘法
-- id: guji-施护-event-arrive
-  title_zh: 太平兴国中抵京入译经院
+  place_zh: 北印度乌仗那国
+  description: 生年失载约十世纪中叶生于北印度精通梵典为后入宋译经之基
+- id: guji-施护-event-1
+  person_qid: guji-施护
   type: career
+  title_zh: 随伴东来抵宋京师
   date: 0980
   year_of: 980
-  place: 开封太平兴国寺译经院
-  description: 与天息灾等入院参译授传法大师朝散大夫试鸿胪少卿共襄译业
-- id: guji-施护-event-translate
-  title_zh: 奉诏译出圣最胜陀罗尼经一卷
+  place_zh: 宋东京开封
+  description: 太平兴国中与天息灾法天等自西域来华蒙宋太宗召接入内道场礼遇优厚
+- id: guji-施护-event-2
+  person_qid: guji-施护
   type: career
-  date: 0995
-  year_of: 995
-  place: 开封译经院
-  description: 译文殊授苾刍嚩野佉曩因缘及陀罗尼并七昼夜斋戒护摩受持仪则
-- id: guji-施护-event-preach
-  title_zh: 弘传受持功德劝令处处流转
-  type: career
-  date: '1005'
-  year_of: 1005
-  place: 开封及诸路州县
-  description: 宣说读诵一遍至五遍由自身愈病及眷属国土安乐劝勿轻慢令流通
+  title_zh: 入译经院奉诏译佛说大乘戒经
+  date: 0990
+  year_of: 990
+  place_zh: 宋东京译经院
+  description: 授朝散大夫试鸿胪少卿传法大师奉诏译出佛说大乘戒经一卷宣说持戒为最上庄严破戒如盲无足远离涅槃宁舍身命不犯戒律持戒得生天见佛苾刍菩萨欢喜奉行
 - id: guji-施护-event-death
-  title_zh: 天禧元年卒于开封
+  person_qid: guji-施护
   type: death
+  title_zh: 示寂于宋京师
   date: '1017'
   year_of: 1017
-  place: 开封
-  description: 久住译场译经百余部毕生以传译护国佑民终老于宋
+  place_zh: 宋东京开封
+  description: 约宋真宗天禧元年卒一生译出大小乘经律论百余卷戒香普熏终老译席
