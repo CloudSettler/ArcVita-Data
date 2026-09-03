@@ -8,162 +8,146 @@ person:
     birth:
       date: 0499
       precision: year
-      is_circa: true
-      raw: 梁天监十八年西天竺优禅尼国生
+      is_circa: false
+      raw: 梁武帝天监十八年西天竺优禅尼国生
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 陈太建元年南海示寂
+      raw: 陈太建元年正月示寂于广州
   birth_date: 0499
   death_date: 0569
-  era: 南北朝梁陈
-  reign_ref: 陈文帝天嘉
-  archetype: 弘法译师
+  era: 南北朝梁陈之际
+  reign_ref: 梁武帝大同至陈宣帝太建
+  archetype: 西来译经师
   dilemmas:
-  - 梁末纷梗避地东西垂二十载去留两难
-  - 梵音改易词理难会译文恐谬仍昼夜笔受
-  lesson: 避乱不废弘法再译治定以明经部正义
-  summary_first_person: 吾名俱罗那他中夏号真谛为弘法远游东土值梁室将倾避地东西至番禺蒙欧阳纥慧恺僧忍等请留于制旨寺翻讲俱舍涉年治定愿后生信顺同学共餐甘露
+  - 侯景乱起避难保身与坚守译场续法之间的两难
+  - 忠于梵本直译与顺应华俗易解之间的权衡
+  lesson: 乱世颠沛不辍译述以续慧命
+  summary_first_person: 吾名真谛西天竺优禅尼国人，怀法渡海至建康，逢侯景之乱辗转岭南，毕生译出随相论等群经，唯愿正法不绝于华土
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E4%BF%B1%E8%88%8D%E9%87%8A%E8%AE%BA.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E4%BF%B1%E8%88%8D%E9%87%8A%E8%AE%BA.html
+  - https://daizhige.org/fozang/qianlongzang/xiaochenglun/suixianglun.html
+  - https://tripitaka.cbeta.org/T32n1641_001
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 远游岭南弘法译经
-  summary_zh: 为弘法远游梁土避乱东西垂二十载至番禺译讲摄大乘等经论
+  title_zh: 渡海赴梁初弘译业
+  summary: 应梁武帝之请泛海至建康开译场讲授摄论唯识之学
   phases:
   - key: brewing
-    name: 远游东土
+    name: 西天习学
     labels:
       zh:
-      - 弘法
-      - 远游
-    start_date: 358
-    highlight_event_id: guji-真谛-event-arrive
+      - 习学
+      - 俱舍唯识
+    start_date: '0515'
+    highlight_event_id: guji-真谛-event-birth
   - key: breakthrough
-    name: 避地岭南
+    name: 泛海至南海
+    labels:
+      zh:
+      - 渡海
+      - 赴梁
+    start_date: '0546'
+    highlight_event_id: guji-真谛-event-arrival
+  - key: climax
+    name: 建康开译
+    labels:
+      zh:
+      - 开译
+      - 讲学
+    start_date: '0547'
+    highlight_event_id: guji-真谛-event-arrival
+  - key: closure
+    name: 逢乱辗转
     labels:
       zh:
       - 避乱
       - 存法
-    start_date: 364
-    highlight_event_id: guji-真谛-event-panyu
+    start_date: 0548
+    highlight_event_id: guji-真谛-event-refuge
+  decisions:
+  - date: '0546'
+    title_zh: 应请渡海赴建康
+    rationale: 梁武崇佛遣使迎请不忍违缘欲以大乘唯识之学弘于华土
+  - date: 0548
+    title_zh: 侯景乱起不归天竺转入富春避难
+    rationale: 若归则法种中断留华虽险犹可保经论梵本以待后译
+- id: guji-真谛-endeavor-2
+  title_zh: 岭南辗转译出随相论
+  summary: 于陈代依德慧本译出随相论二卷详辨十六谛以破执显正
+  phases:
+  - key: brewing
+    name: 富春潜译
+    labels:
+      zh:
+      - 潜译
+      - 集本
+    start_date: 0549
+    highlight_event_id: guji-真谛-event-refuge
+  - key: breakthrough
+    name: 得德慧梵本
+    labels:
+      zh:
+      - 得本
+      - 抉择
+    start_date: '0556'
+    highlight_event_id: guji-真谛-event-translate
   - key: climax
-    name: 番禺译讲摄大乘
+    name: 译出随相论
     labels:
       zh:
       - 译经
-      - 讲授
-    start_date: 369
-    highlight_event_id: guji-真谛-event-shedasheng
+      - 辨谛
+    start_date: 0559
+    highlight_event_id: guji-真谛-event-translate
   - key: closure
-    name: 欧阳纥请留不归
+    name: 广州示寂付嘱
     labels:
       zh:
-      - 请留
-      - 弘化
-    start_date: 370
-    highlight_event_id: guji-真谛-event-shedasheng
+      - 付嘱
+      - 示寂
+    start_date: 0569
+    highlight_event_id: guji-真谛-event-death
   decisions:
-  - date: 364
-    title_zh: 梁室倾覆避地东西
-    rationale: 时事纷梗保全身命以存法种待缘弘化
-  - date: 369
-    title_zh: 应慧恺请翻讲摄大乘
-    rationale: 南海有信士因缘成熟先明大乘纲要再弘对法
-  - date: 370
-    title_zh: 受欧阳纥请留不还天竺
-    rationale: 岭南贵门护法翻译有赖久住方能永传来世
-- id: guji-真谛-endeavor-2
-  title_zh: 翻译治定俱舍释论
-  summary_zh: 于制旨寺开阐俱舍释论历闰十月成二十二卷复重译治定至光大元年究竟
-  phases:
-  - key: brewing
-    name: 制旨寺开阐
-    labels:
-      zh:
-      - 发起
-      - 开讲
-    start_date: 0563-01-25
-    highlight_event_id: guji-真谛-event-preach
-  - key: breakthrough
-    name: 随定随书成二十二卷
-    labels:
-      zh:
-      - 笔受
-      - 初译
-    start_date: 0563-06-01
-    highlight_event_id: guji-真谛-event-first-done
-  - key: climax
-    name: 城内讲说温故
-    labels:
-      zh:
-      - 讲说
-      - 鉴定
-    start_date: 0564-02-02
-    highlight_event_id: guji-真谛-event-retranslate
-  - key: closure
-    name: 光大治定究竟
-    labels:
-      zh:
-      - 重译
-      - 治定
-    start_date: 0567-12-25
-    highlight_event_id: guji-真谛-event-finalize
-  decisions:
-  - date: 0563-01-25
-    title_zh: 应慧恺僧忍请翻讲俱舍
-    rationale: 此土唯有毗婆沙杂心成实未尽妙义须以经部破萨婆多乖违
-  - date: 0564-02-02
-    title_zh: 恐谬失再请重译
-    rationale: 梵音改易一句循环辩释始得相应故须再解义意温故知宗
-  - date: 0567-12-25
-    title_zh: 赖袁敬元友治定传世
-    rationale: 南中翻译悉赖贵门经始方希永传以为后生模式
+  - date: 0559
+    title_zh: 先译随相论明十六谛
+    rationale: 华人于苦集灭道多滞名相故依德慧造论先立正解为摄论阶梯
+  - date: 0568
+    title_zh: 病中发愿留骨华土不归西域
+    rationale: 以身殉法示无退转令门人重译业而轻乡土之思
 events:
 - id: guji-真谛-event-birth
+  type: birth
+  title_zh: 生于西天竺优禅尼国
   date: 0499
   year_of: 499
-  title_zh: 真谛生于西天竺优禅尼国
-  description_zh: 名俱罗那他聪敏强记才辩无竭硕学多闻该通内外后造论弘法名盖当世
-- id: guji-真谛-event-arrive
-  date: 358
+  place_zh: 西天竺优禅尼国
+  description: 生于婆罗门家少习大乘后精唯识俱舍之学名振天竺
+- id: guji-真谛-event-arrival
+  type: career
+  title_zh: 泛海至梁都建康
+  date: '0546'
   year_of: 546
-  title_zh: 为弘法远游梁土
-  description_zh: 三藏法师俱罗那他为弘法故远游此国值梁室将倾时事纷梗
-- id: guji-真谛-event-panyu
-  date: 365
-  year_of: 555
-  title_zh: 避地东西垂二十载至番禺
-  description_zh: 法师避地东西垂二十载欲还天竺来至番禺刺史欧阳纥尚仁贵道久申敬事
-- id: guji-真谛-event-shedasheng
-  date: 369
-  year_of: 561
-  title_zh: 翻讲摄大乘等论经涉二年毕
-  description_zh: 慧恺请翻讲摄大乘等论经涉二年文义方毕法师犹欲旋归复被请留
-- id: guji-真谛-event-preach
-  date: 0563-01-25
-  year_of: 563
-  title_zh: 陈天嘉四年制旨寺开阐俱舍
-  description_zh: 以天嘉四年正月二十五日于制旨寺始就开阐惑品未毕徙居南海续敷说凡不须度语直通音义
-- id: guji-真谛-event-first-done
-  date: 0563-10-10
-  year_of: 563
-  title_zh: 闰十月十日初译究竟
-  description_zh: 慧恺随定随书日夜无懈至闰十月十日文义究竟论文二十二卷论偈一卷义疏五十三卷
-- id: guji-真谛-event-retranslate
-  date: 0564-02-02
-  year_of: 564
-  title_zh: 天嘉五年重译论文再解义意
-  description_zh: 恐所翻不免谬失多有疑滞与僧忍等更请重译论文再解义意刺史请城内讲说温故识宗
-- id: guji-真谛-event-finalize
-  date: 0567-12-25
-  year_of: 567
-  title_zh: 光大元年治定前本究竟
-  description_zh: 至光大元年十二月二十五日治定前本始末究竟长史袁敬长子元友礼事经始以传后世
+  place_zh: 建康
+  description: 梁武帝大同十二年迎至建康敕住宝云殿将大弘梵典
+- id: guji-真谛-event-refuge
+  type: career
+  title_zh: 侯景乱起避地富春
+  date: 0548
+  year_of: 548
+  place_zh: 富春
+  description: 侯景陷台城译场中断携梵本避难富春及岭南诸郡犹讲译不辍
+- id: guji-真谛-event-translate
+  type: career
+  title_zh: 译出随相论二卷
+  date: 0559
+  year_of: 559
+  place_zh: 建康及广州译场
+  description: 依德慧法师本译出随相论详解苦集灭道十六谛兼辨种子缘起之理
 - id: guji-真谛-event-death
+  type: death
+  title_zh: 示寂于广州
   date: 0569
   year_of: 569
-  title_zh: 真谛示寂于南海
-  description_zh: 译讲俱舍摄大乘数十部盛行宗学后于陈太建元年示寂南中翻译永为模式
+  place_zh: 广州
+  description: 陈太建元年正月示寂门人收骨起塔所译五十余部百八十余卷流行于世
