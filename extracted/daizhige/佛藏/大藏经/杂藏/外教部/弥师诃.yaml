@@ -1,0 +1,130 @@
+person:
+  qid: guji-弥师诃
+  name_zh: 弥师诃
+  names:
+    zh: 弥师诃
+    en: Messiah Yishu
+  lifespan:
+    birth:
+      date: '-0004'
+      precision: year
+      is_circa: true
+      raw: 末艳感凉风怀任产移鼠约前四年
+    death:
+      date: '0030'
+      precision: year
+      is_circa: true
+      raw: 年过三十二后于讫句木上受死
+  birth_date: '-0004'
+  death_date: '0030'
+  era: 西汉末至新莽时拂林
+  reign_ref: 拂林大王毗罗都思时
+  archetype: 传道殉道圣者
+  dilemmas:
+  - 劝善反遭恶业众嫉恨是否退避
+  - 面对大王审问与恶众逼杀是否舍身代命
+  lesson: 舍身行善代众受死以明慈恩善道
+  summary_first_person: 吾奉天尊命感凉风而生入世劝善治病救人率十二弟子行化终代众生受死于木上以显善道
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T2142_001
+  - https://daizhige.org佛藏大藏经杂藏外教部序听迷诗所经.html
+endeavors:
+- id: guji-弥师诃-endeavor-1
+  title_zh: 巡世传道劝善治病
+  summary: 自汤谷受洗后率十二弟子劝善戒恶医病逐鬼令人休事伪神
+  phases:
+  - key: brewing
+    name: 汤谷受洗蒙命
+    labels:
+      zh: 受洗立命
+    start_date: 0008
+    highlight_event_id: guji-弥师诃-event-baptism
+  - key: breakthrough
+    name: 率徒说法行化
+    labels:
+      zh: 说法行化
+    start_date: 0018
+    highlight_event_id: guji-弥师诃-event-preaching
+  - key: climax
+    name: 恶众嫉谤欲杀
+    labels:
+      zh: 嫉谤加害
+    start_date: 0029
+    highlight_event_id: guji-弥师诃-event-preaching
+  - key: closure
+    name: 坚持不退被执
+    labels:
+      zh: 不退被执
+    start_date: '0030'
+    highlight_event_id: guji-弥师诃-event-death
+  decisions:
+  - date: 0008
+    title_zh: 入多难洗受天命传道
+    rationale: 既闻虚空中凉风宣命当舍隐修入世劝善令人休事伪神信向好业
+  - date: 0018
+    title_zh: 收十二弟子广行神迹
+    rationale: 以使瞎得眼病得差鬼被逐跛得起显天尊威力劝恶业众回向善道
+- id: guji-弥师诃-endeavor-2
+  title_zh: 舍身代命木上受死
+  summary: 被恶业众诬告于毗罗都思王前自愿以身施与代众生受死
+  phases:
+  - key: brewing
+    name: 被诬告至王前
+    labels:
+      zh: 被诬受审
+    start_date: '0030'
+    highlight_event_id: guji-弥师诃-event-death
+  - key: breakthrough
+    name: 王洗手不敢杀
+    labels:
+      zh: 王明无罪
+    start_date: '0030'
+    highlight_event_id: guji-弥师诃-event-death
+  - key: climax
+    name: 自施身代众命
+    labels:
+      zh: 舍身代命
+    start_date: '0030'
+    highlight_event_id: guji-弥师诃-event-death
+  - key: closure
+    name: 木上缚著天地变
+    labels:
+      zh: 木上受死
+    start_date: '0030'
+    highlight_event_id: guji-弥师诃-event-death
+  decisions:
+  - date: '0030'
+    title_zh: 不辩自全愿代众受死
+    rationale: 欲使世间人知人命如转烛以自身布施代命令人知罪思善
+  - date: '0030'
+    title_zh: 从容就缚不拒恶缘
+    rationale: 明知恶业众欲杀害仍以慈愍付之使信心清净者平章其义
+events:
+- id: guji-弥师诃-event-birth
+  title_zh: 末艳感凉风怀任产移鼠
+  date: '-0004'
+  year_of: -4
+  location_zh: 拂林园乌梨师城
+  description: 天尊使凉风入童女末艳腹内无男夫怀任产一男名移鼠辛星大如车轮明净显现
+  endeavor_ref: guji-弥师诃-endeavor-1
+- id: guji-弥师诃-event-baptism
+  title_zh: 年十二入汤谷多难中洗
+  date: 0008
+  year_of: 8
+  location_zh: 净处述难汤谷
+  description: 谷昏遣弥师诃入多难中洗出水即有凉风颜容似薄合坐其上虚空宣命众取进止
+  endeavor_ref: guji-弥师诃-endeavor-1
+- id: guji-弥师诃-event-preaching
+  title_zh: 率十二弟子说法治病
+  date: 0018
+  year_of: 18
+  location_zh: 世间各地
+  description: 年十二至三十二劝恶业众回向好业飞者作生瞎得眼病得差鬼被逐把迦沙皆差
+  endeavor_ref: guji-弥师诃-endeavor-1
+- id: guji-弥师诃-event-death
+  title_zh: 讫句木上缚著受死
+  date: '0030'
+  year_of: 30
+  location_zh: 讫句沐上枋枋处
+  description: 恶业众请于毗罗都思王王洗手不敢杀众执之木上缚著五时六日斋平明至日西地战山崩墓开死活
+  endeavor_ref: guji-弥师诃-endeavor-2
