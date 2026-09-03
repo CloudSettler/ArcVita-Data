@@ -1,0 +1,138 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年
+    death:
+      date: '0664-03-07'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年二月五日
+  birth_date: '0602'
+  death_date: '0664-03-07'
+  era: 唐
+  reign_ref: 唐贞观至麟德
+  archetype: 求法译经者
+  dilemmas:
+  - 中土经论歧义纷陈不往印度不足决疑
+  - 违禁私行犯法与持戒求法两难抉择
+  lesson: 为求真而忘生死为显正而兼通异学译经即是弘法
+  summary_first_person: 我少出家慨中土圣典未全遂西行十七载师戒贤于那烂陀归而奉诏译经并译慧月胜宗十句以明外道得失终老译场
+  source_urls:
+  - https://daizhige.org/胜宗十句义论.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/胜宗十句义论.md
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法取经
+  summary_zh: 为求瑜伽正法冒险西行历诸国师事戒贤
+  phases:
+  - key: brewing
+    name: 长安发愿
+    labels:
+      zh: 发愿求法
+    start_date: '0626'
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: breakthrough
+    name: 越岭入印度
+    labels:
+      zh: 万里跋涉
+    start_date: '0630'
+    highlight_event_id: guji-玄奘-event-nalanda
+  - key: climax
+    name: 那烂陀问道
+    labels:
+      zh: 学成扬名
+    start_date: '0636'
+    highlight_event_id: guji-玄奘-event-nalanda
+  - key: closure
+    name: 负经东归
+    labels:
+      zh: 归国弘法
+    start_date: '0643'
+    highlight_event_id: guji-玄奘-event-huigui
+  decisions:
+  - date: 0629-08
+    title_zh: 违禁私行出关西去
+    rationale: 中土经义分歧非亲印土不足决疑故冒死求真
+  - date: '0636'
+    title_zh: 留学那烂陀师戒贤
+    rationale: 欲穷瑜伽唯识根本故久住问道不急归国
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译经兼明外道
+  summary_zh: 归国主持大慈恩寺译场广译经论兼译胜宗十句
+  phases:
+  - key: brewing
+    name: 慈恩建场
+    labels:
+      zh: 建场筹备
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-huigui
+  - key: breakthrough
+    name: 初译大经
+    labels:
+      zh: 译经开端
+    start_date: '0646'
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: climax
+    name: 译胜宗十句义论
+    labels:
+      zh: 外教部译述
+    start_date: '0647'
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: closure
+    name: 译业圆满示寂
+    labels:
+      zh: 圆寂玉华
+    start_date: '0663'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: '0647'
+    title_zh: 译慧月胜宗十句义论
+    rationale: 欲使学人知外道实德业等十句之失故奉诏译出以助破邪
+  - date: 0648
+    title_zh: 专弘唯识不立门户
+    rationale: 以经论印证真理重译述轻门争故广译而不私立
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 生于洛州缑氏
+  date: '0602'
+  year_of: 602
+  location_zh: 隋洛州缑氏
+  description_zh: 俗姓陈名袆生于儒宦之家幼颖悟出家洛阳净土寺
+- id: guji-玄奘-event-xixing
+  title_zh: 违禁西行出关
+  date: 0629-08
+  year_of: 629
+  location_zh: 凉州玉门关外
+  description_zh: 贞观三年潜出玉门经高昌龟兹凌山而西往印度求法
+- id: guji-玄奘-event-nalanda
+  title_zh: 就学那烂陀
+  date: '0636'
+  year_of: 636
+  location_zh: 中印度那烂陀寺
+  description_zh: 师事戒贤学瑜伽师地论兼通大小乘及因明声明扬名五印
+- id: guji-玄奘-event-huigui
+  title_zh: 负经东归长安
+  date: 0645-02
+  year_of: 645
+  location_zh: 唐京师长安
+  description_zh: 贞观十九年归国献经像于太宗诏住弘福寺从事翻译
+- id: guji-玄奘-event-yijing
+  title_zh: 奉诏译胜宗十句义论
+  date: '0647'
+  year_of: 647
+  location_zh: 长安大慈恩寺译场
+  description_zh: 译慧月所造胜宗十句义论一卷明实德业同异和合等十句以显外道宗义
+- id: guji-玄奘-event-death
+  title_zh: 示寂玉华宫
+  date: '0664-03-07'
+  year_of: 664
+  location_zh: 唐玉华宫肃成院
+  description_zh: 麟德元年二月五日寂灭寿六十三葬浐东后迁樊川兴教寺
