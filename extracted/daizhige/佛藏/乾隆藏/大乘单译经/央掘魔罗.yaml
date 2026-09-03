@@ -1,0 +1,138 @@
+person:
+  qid: guji-央掘魔罗
+  name_zh: 央掘魔罗
+  names:
+    zh: 央掘魔罗
+    en: Angulimala
+  lifespan:
+    birth:
+      date: '-0500'
+      precision: century
+      is_circa: true
+      raw: 舍卫国萨那村生约公元前五世纪
+    death:
+      date: '-0420'
+      precision: century
+      is_circa: true
+      raw: 约公元前五世纪末入灭
+  birth_date: '-0500'
+  death_date: '-0420'
+  era: 古印度列国时代
+  reign_ref: 释迦牟尼住舍卫祇园时期
+  archetype: 误从邪命而翻然改悔者
+  dilemmas:
+  - 师命杀千人与持戒不杀之冲突
+  - 杀母凑数与孝养报恩之冲突
+  - 追佛取指与住戒闻法之抉择
+  lesson: 盲从邪师必造大恶，得遇明师闻正法则可翻恶为善，立地回头
+  summary_first_person: 我本名一切世间现，幼失父而从师摩尼跋陀罗学毗陀，守舍被诬，奉邪命杀千人取指为鬘，将杀母时幸遇世尊，闻住净戒住无生之教，遂弃剑悔过归正
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%A4%AE%E6%8E%98%E9%AD%94%E7%BD%97%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%A4%AE%E6%8E%98%E9%AD%94%E7%BD%97%E7%BB%8F.md
+endeavors:
+- id: guji-央掘魔罗-endeavor-1
+  title_zh: 受诬奉邪命杀人系指鬘
+  summary_zh: 从师受学因师妇诬谄奉命杀千人取指，杀九百九十九少一欲杀母凑数
+  phases:
+  - key: brewing
+    name: 萨那出生从师受学
+    labels:
+      zh: 幼学恭顺
+    start_date: -0488
+    highlight_event_id: guji-央掘魔罗-event-study
+  - key: breakthrough
+    name: 师妇生染诬以非法
+    labels:
+      zh: 被诬受命
+    start_date: -0485
+    highlight_event_id: guji-央掘魔罗-event-study
+  - key: climax
+    name: 杀九百九十九取指为鬘
+    labels:
+      zh: 指鬘将成
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-killing
+  - key: closure
+    name: 少一指候母欲杀凑数
+    labels:
+      zh: 恶极待返
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-killing
+  decisions:
+  - date: -0485
+    title_zh: 奉师命杀千人取指作鬘
+    rationale: 尊重师教欲成婆罗门得生天，虽知杀害非应仍奉命而行
+  - date: -0484
+    title_zh: 欲杀母以满千数
+    rationale: 所杀少一见母送食至，妄想杀母令其生天以凑满千数
+- id: guji-央掘魔罗-endeavor-2
+  title_zh: 林中遇佛弃剑闻法归正
+  summary_zh: 阿输迦林追佛不及时闻住净戒无生之教，悔改弃剑归依修行
+  phases:
+  - key: brewing
+    name: 母送食林中持剑待杀
+    labels:
+      zh: 杀机将发
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-killing
+  - key: breakthrough
+    name: 世尊如雁王至林示现避去
+    labels:
+      zh: 佛现林中
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-conversion
+  - key: climax
+    name: 追佛疲乏闻住净戒之偈
+    labels:
+      zh: 闻法止恶
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-conversion
+  - key: closure
+    name: 弃剑悔过归依修梵行
+    labels:
+      zh: 弃恶从善
+    start_date: -0484
+    highlight_event_id: guji-央掘魔罗-event-conversion
+  decisions:
+  - date: -0484
+    title_zh: 舍母转追杀佛取指
+    rationale: 见沙门至欲取一指满数，执剑疾往而追之不及心生疲乏
+  - date: -0484
+    title_zh: 闻佛住无生际教而弃剑悔改
+    rationale: 闻我住无生无作无为等际及善法水能除生死渴，了知等正觉而愿住净戒
+events:
+- id: guji-央掘魔罗-event-birth
+  title_zh: 生于萨那婆罗门家名一切世间现
+  kind: birth
+  date: '-0500'
+  year_of: -500
+  place_zh: 舍卫城北萨那村
+  description_zh: 贫穷婆罗门女跋陀罗所生，少失父，年十二色力具足聪明善说，生时刹利刀剑自拔坠地
+- id: guji-央掘魔罗-event-study
+  title_zh: 从摩尼跋陀罗受学守舍被诬
+  kind: career
+  date: -0485
+  year_of: -485
+  place_zh: 颇罗呵私村师舍
+  description_zh: 从师学四毗陀恭敬供养，师受王请留守舍，师妇生染不从反诬以非法，师令杀千人取指作鬘方可除罪成婆罗门
+- id: guji-央掘魔罗-event-killing
+  title_zh: 杀九百九十九人少一欲杀母
+  kind: career
+  date: -0484
+  year_of: -484
+  place_zh: 舍卫国十由旬外阿输迦树下
+  description_zh: 奉师命杀人取指冠首为鬘名央掘魔罗，杀至九百九十九少一，母持食送至即欲杀母凑数
+- id: guji-央掘魔罗-event-conversion
+  title_zh: 追佛闻偈弃剑归正
+  kind: career
+  date: -0484
+  year_of: -484
+  place_zh: 阿输迦林
+  description_zh: 世尊以一切智至林，央掘魔罗执剑追之不及，世尊说住净戒住无生实际无为等际偈，授无上善法水令除生死渴，遂止恶悔改
+- id: guji-央掘魔罗-event-death
+  title_zh: 归正后入灭
+  kind: death
+  date: '-0420'
+  year_of: -420
+  place_zh: 古印度
+  description_zh: 遇佛得度后持戒修行永离杀业，寿终入灭
