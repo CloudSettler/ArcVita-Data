@@ -8,131 +8,125 @@ person:
     birth:
       date: '0671'
       precision: year
-      is_circa: false
-      raw: 唐咸亨二年
+      is_circa: true
+      raw: 唐高宗咸亨二年约生于南天竺
     death:
       date: '0741'
       precision: year
       is_circa: false
-      raw: 唐开元二十九年
+      raw: 唐玄宗开元二十九年卒于洛阳
   birth_date: '0671'
   death_date: '0741'
   era: 唐
-  reign_ref: 开元
-  archetype: 弘法译师
+  reign_ref: 唐玄宗开元
+  archetype: 密教传灯译师
   dilemmas:
-  - 密教深秘难信显教盛行之时如何取信朝野
-  - 胡僧语言文字隔阂如何奉诏精译仪轨不失本义
-  lesson: 至诚持诵严净仪轨方能感通本尊护国利民
-  summary_first_person: 吾乃南天竺沙门金刚智，航海东来奉唐帝诏译密经，亲传不动使者陀罗尼秘密法，愿行人持明满愿护国息灾得证菩提
+  - 显教久修与密教速疾神验之间如何抉择
+  - 梵本秘密口授与中土文字传译之间如何权衡
+  lesson: 持佛秘密语须发菩提心依师口传建立坛场方得速疾大验
+  summary_first_person: 吾本南天竺人航海历师子国至大唐依瑜伽经译五大虚空藏秘密式为末法薄福比丘开速疾神验之道
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%B8%8D%E5%8A%A8%E4%BD%BF%E8%80%85%E9%99%80%E7%BD%97%E5%B0%BC%E7%A7%98%E5%AF%86%E6%B3%95.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%B8%8D%E5%8A%A8%E4%BD%BF%E8%80%85%E9%99%80%E7%BD%97%E5%B0%BC%E7%A7%98%E5%AF%86%E6%B3%95.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BA%94%E5%A4%A7%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%80%9F%E7%96%BE%E5%A4%A7%E7%A5%9E%E9%AA%8C%E7%A7%98%E5%AF%86%E5%BC%8F%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BA%94%E5%A4%A7%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%80%9F%E7%96%BE%E5%A4%A7%E7%A5%9E%E9%AA%8C%E7%A7%98%E5%AF%86%E5%BC%8F%E7%BB%8F.md
 endeavors:
 - id: guji-金刚智-endeavor-1
-  title_zh: 航海东来弘传密教
-  summary: 自南天竺经南海至洛阳长安奉诏弘密教授不空
+  title_zh: 南海求法传密
+  summary_zh: 自南天竺出家学律显密兼通航海至师子国从龙智学瑜伽密法后东至大唐传灯
   phases:
   - key: brewing
-    name: 南天竺出家兼学显密
+    name: 南竺出家学显
     labels:
-      zh:
-      - 求学
-    start_date: '0671'
+      zh: 出家求学
+    start_date: 0687
     highlight_event_id: guji-金刚智-event-birth
   - key: breakthrough
-    name: 航海经南海抵达广州
+    name: 师子国受瑜伽灌顶
     labels:
-      zh:
-      - 远行
-    start_date: 0719
+      zh: 密法亲承
+    start_date: '0710'
     highlight_event_id: guji-金刚智-event-arrival
   - key: climax
-    name: 洛阳长安奉诏弘法收徒
+    name: 航海至广州洛阳
     labels:
-      zh:
-      - 弘法
+      zh: 东来传灯
     start_date: '0720'
-    highlight_event_id: guji-金刚智-event-translation
+    highlight_event_id: guji-金刚智-event-arrival
   - key: closure
-    name: 寂于洛阳谥大弘教
+    name: 蒙玄宗敬礼入宫
     labels:
-      zh:
-      - 圆寂
-    start_date: '0741'
-    highlight_event_id: guji-金刚智-event-death
+      zh: 弘缘初就
+    start_date: '0721'
+    highlight_event_id: guji-金刚智-event-arrival
   decisions:
-  - date: 0719
-    title_zh: 决意航海赴唐
-    rationale: 感中土弘法缘熟不畏海难欲传密法利众
-  - date: '0720'
-    title_zh: 奉诏留京弘密收徒
-    rationale: 承帝命护国为怀择不空等传授灌顶以续法脉
+  - date: '0710'
+    title_zh: 决意南下师子国从龙智受法
+    rationale: 以显教难契速疾悉地故亲承瑜伽金刚顶秘密口授
+  - date: 0718
+    title_zh: 决意附舶东行至唐
+    rationale: 为化度中土众生不惧海难将密藏传于有缘
 - id: guji-金刚智-endeavor-2
-  title_zh: 奉诏译不动使者秘密法
-  summary: 于长安洛阳译出不动使者陀罗尼秘密法立仪轨印咒
+  title_zh: 长安洛阳译弘虚空藏
+  summary_zh: 在洛阳慈恩长安荐福等处与不空等译出虚空藏瑜伽諸经立秘密盘仪轨弘速疾神验法
   phases:
   - key: brewing
-    name: 精研不动毗卢遮那化身教法
+    name: 设坛择静处立盘
     labels:
-      zh:
-      - 研法
-    start_date: 0719
-    highlight_event_id: guji-金刚智-event-arrival
+      zh: 建立坛场
+    start_date: '0722'
+    highlight_event_id: guji-金刚智-event-translate
   - key: breakthrough
-    name: 奉诏开译立四种精进行
+    name: 译五大虚空藏秘密式经
     labels:
-      zh:
-      - 开译
-    start_date: '0720'
-    highlight_event_id: guji-金刚智-event-translation
+      zh: 译经立轨
+    start_date: '0724'
+    highlight_event_id: guji-金刚智-event-translate
   - key: climax
-    name: 广传画像护摩结界诸法
+    name: 授不空等灌顶传法
     labels:
-      zh:
-      - 传法
-    start_date: '0725'
-    highlight_event_id: guji-金刚智-event-translation
+      zh: 付法传持
+    start_date: '0730'
+    highlight_event_id: guji-金刚智-event-teach
   - key: closure
-    name: 法成流通后学奉行
+    name: 遗法付嘱示寂洛阳
     labels:
-      zh:
-      - 流通
+      zh: 示寂付嘱
     start_date: '0741'
     highlight_event_id: guji-金刚智-event-death
   decisions:
-  - date: '0720'
-    title_zh: 先定四行后诵根本咒
-    rationale: 欲令行人自约身心念不散速得证验满愿
-  - date: '0725'
-    title_zh: 详示画像印咒护摩仪
-    rationale: 恐咒功未成被损故立结界护身画像使役以摄机众
+  - date: '0724'
+    title_zh: 决依瑜伽经说出秘密盘式
+    rationale: 为像末薄福比丘福智不现前故显明极秘密法令得大智惠安乐
+  - date: '0730'
+    title_zh: 决择不空为传法弟子秘授口诀
+    rationale: 以繁文不记秘术恐轻慢故待器付嘱以续传灯
 events:
 - id: guji-金刚智-event-birth
-  type: birth
-  title_zh: 诞生南天竺
+  title_zh: 生于南天竺
   date: '0671'
   year_of: 671
   place_zh: 南天竺
-  description: 金刚智生于南印度婆罗门种后出家学律兼习密法
+  description_zh: 约唐高宗咸亨二年生于南天竺婆罗门种出家学显密
 - id: guji-金刚智-event-arrival
-  type: career
-  title_zh: 开元七年抵华弘密
-  date: 0719
-  year_of: 719
-  place_zh: 广州洛阳
-  description: 与不空航海至广州继至洛阳长安得玄宗礼遇弘传密教
-- id: guji-金刚智-event-translation
-  type: career
-  title_zh: 奉诏译不动使者陀罗尼秘密法
+  title_zh: 附舶至广州入洛阳
   date: '0720'
   year_of: 720
-  place_zh: 长安
-  description: 奉诏译一卷详明四种行根本咒画像护摩结界印法以利护国满愿
+  place_zh: 广州洛阳
+  description_zh: 经南海师子国至广州唐玄宗遣使迎入洛阳慈恩寺礼为国师
+- id: guji-金刚智-event-translate
+  title_zh: 译五大虚空藏菩萨速疾大神验秘密式经
+  date: '0724'
+  year_of: 724
+  place_zh: 洛阳长安
+  description_zh: 依瑜伽经译出五大虚空藏根本明五方咒印坛盘二十八宿仪轨及四十种祈愿护摩秘术
+- id: guji-金刚智-event-teach
+  title_zh: 授不空三藏瑜伽灌顶
+  date: '0730'
+  year_of: 730
+  place_zh: 长安荐福寺
+  description_zh: 与弟子不空等建立道场授金刚顶瑜伽法付嘱密教传持
 - id: guji-金刚智-event-death
-  type: death
-  title_zh: 寂于洛阳谥大弘教
+  title_zh: 示寂于洛阳
   date: '0741'
   year_of: 741
   place_zh: 洛阳
-  description: 开元二十九年寂于洛阳赠开府仪同三司谥大弘教三藏
+  description_zh: 唐玄宗开元二十九年示寂于洛阳谥国师葬龙门奉先寺

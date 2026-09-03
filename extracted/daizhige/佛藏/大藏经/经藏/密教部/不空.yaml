@@ -8,128 +8,130 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 唐神龙元年
     death:
-      date: '0774'
-      precision: year
+      date: 0774-06
+      precision: month
       is_circa: false
-      raw: 唐大历九年
+      raw: 唐大历九年六月
   birth_date: '0705'
-  death_date: '0774'
+  death_date: 0774-06
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 密教译经弘法者
+  reign_ref: 玄宗至代宗
+  archetype: 密教译经国师
   dilemmas:
-  - 密法深秘与普利群生之间如何权衡
-  - 奉诏译事繁重与专修传法之间如何兼顾
-  lesson: 以真言观行助显净土普摄三界同归无漏
-  summary_first_person: 我是不空奉诏译经住大兴善寺弘传密法宣说九品往生三摩地愿持咒称名者同生极乐永出火宅
+  - 秘密付嘱与普劝修习之间如何立信
+  - 严持坛仪与直心了义之间如何抉择
+  lesson: 依法不依人以直心精进修秘密三昧即凡夫身见成就佛身
+  summary_first_person: 吾奉诏译圣曼殊五字秘密法愿以此功德普觉群有离世网而入佛慧
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%B9%9D%E5%93%81%E5%BE%80%E7%94%9F%E9%98%BF%E5%BC%A5%E9%99%80%E4%B8%89%E6%91%A9%E5%9C%B0%E9%9B%86%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%B9%9D%E5%93%81%E5%BE%80%E7%94%9F%E9%98%BF%E5%BC%A5%E9%99%80%E4%B8%89%E6%91%A9%E5%9C%B0%E9%9B%86%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BA%94%E5%AD%97%E9%99%80%E7%BD%97%E5%B0%BC%E9%A2%82.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BA%94%E5%AD%97%E9%99%80%E7%BD%97%E5%B0%BC%E9%A2%82.md
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 奉诏译出九品往生经
-  summary: 奉诏译九品往生阿弥陀三摩地集陀罗尼经弘宣持咒往生法
+  title_zh: 随金刚智来华受瑜伽密法
+  summary_zh: 幼慕正觉随金刚智入唐受灌顶亲承瑜伽密教付嘱
   phases:
   - key: brewing
-    name: 随金刚智学密酝酿译愿
+    name: 天竺慕道
     labels:
-      zh:
-      - 学密酝酿
+      zh: 早年发心
+    start_date: '0705'
+    highlight_event_id: guji-不空-event-birth
+  - key: breakthrough
+    name: 随师东来
+    labels:
+      zh: 入唐求法
+    start_date: 0719
+    highlight_event_id: guji-不空-event-1
+  - key: climax
+    name: 亲承灌顶
+    labels:
+      zh: 传付密法
     start_date: '0720'
-    highlight_event_id: guji-不空-event-study
-  - key: breakthrough
-    name: 奉诏开译确立仪轨
-    labels:
-      zh:
-      - 奉诏开译
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-translate
-  - key: climax
-    name: 宣说九品净识十二光佛
-    labels:
-      zh:
-      - 宣说正宗
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-translate
+    highlight_event_id: guji-不空-event-1
   - key: closure
-    name: 译竟流通劝持读诵
+    name: 往师子国圆满传承
     labels:
-      zh:
-      - 流通劝持
-    start_date: '0747'
-    highlight_event_id: guji-不空-event-translate
+      zh: 求法圆满
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-2
   decisions:
-  - date: '0746'
-    title_zh: 决定译进九品往生法门
-    rationale: 为令众生依十二光佛号及真言得生九品净土故
-  - date: '0747'
-    title_zh: 决定附劝书写受持功德
-    rationale: 为增长福慧寿命消除业障普利人天故
+  - date: 0719
+    title_zh: 随金刚智入唐
+    rationale: 为求先觉亲近宝山不顾艰险随师东来学瑜伽密法
+  - date: '0741'
+    title_zh: 奉敕往师子国求法
+    rationale: 为补阙密藏广求梵本亲证传承以利弘化
 - id: guji-不空-endeavor-2
-  title_zh: 居大兴善寺弘传密法
-  summary: 居大兴善寺传授灌顶观行摄净土于三摩地
+  title_zh: 奉诏译弘五字陀罗尼曼殊密法
+  summary_zh: 居大兴善寺奉诏译经立坛灌顶弘圣曼殊五字秘密三昧
   phases:
   - key: brewing
-    name: 入长安住寺积集传法资粮
+    name: 还京发愿
     labels:
-      zh:
-      - 住寺积行
-    start_date: '0756'
-    highlight_event_id: guji-不空-event-daxingshansi
+      zh: 译弘之始
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-2
   - key: breakthrough
-    name: 开坛灌顶授三摩耶实相真言
+    name: 兴善立教
     labels:
-      zh:
-      - 开坛传法
-    start_date: 0758
-    highlight_event_id: guji-不空-event-daxingshansi
+      zh: 建坛传法
+    start_date: '0756'
+    highlight_event_id: guji-不空-event-2
   - key: climax
-    name: 融摄净土观行盛化朝野
+    name: 译五字颂
     labels:
-      zh:
-      - 化盛朝野
-    start_date: '0765'
-    highlight_event_id: guji-不空-event-daxingshansi
+      zh: 正译密颂
+    start_date: '0770'
+    highlight_event_id: guji-不空-event-3
   - key: closure
-    name: 付嘱弟子守护曼荼罗教法
+    name: 普觉群有
     labels:
-      zh:
-      - 付嘱守护
+      zh: 遗教流通
     start_date: '0774'
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0756'
-    title_zh: 决定以大兴善寺为传法本座
-    rationale: 为借国寺之力广传密教仪轨饶益人天故
-  - date: '0765'
-    title_zh: 决定融净土于密观并弘
-    rationale: 为摄念佛往生愿入无漏真如普接群机故
+  - date: '0746'
+    title_zh: 还京专事译弘
+    rationale: 以相应法印现成圣身为本愿一心依了义广译密经
+  - date: '0770'
+    title_zh: 译出五字陀罗尼颂
+    rationale: 悯众生性狭迷入三有故说最上乘秘密法令速获种智
 events:
 - id: guji-不空-event-birth
-  title_zh: 诞生
+  type: birth
+  title_zh: 生于南天竺婆罗门家
   date: '0705'
   year_of: 705
-  summary: 生于北天竺后至大唐
-- id: guji-不空-event-study
-  title_zh: 师事金刚智学密
-  date: '0720'
-  year_of: 720
-  summary: 随金刚智受学密法奠定译传之基
-- id: guji-不空-event-translate
-  title_zh: 奉诏译九品往生阿弥陀三摩地集陀罗尼经
+  place_zh: 南天竺
+  description: 婆罗门族出生幼慕正觉后随师东来
+- id: guji-不空-event-1
+  type: career
+  title_zh: 随金刚智至长安受灌顶
+  date: 0719
+  year_of: 719
+  place_zh: 长安
+  description: 随金刚智入唐从受瑜伽密法及灌顶传付
+- id: guji-不空-event-2
+  type: career
+  title_zh: 往师子国求法还京广译
   date: '0746'
   year_of: 746
-  summary: 译出九品净识十二光佛及真言劝日夜三时称名持咒
-- id: guji-不空-event-daxingshansi
-  title_zh: 居大兴善寺弘法
-  date: '0756'
-  year_of: 756
-  summary: 住大兴善寺传授灌顶弘宣三摩地门
+  place_zh: 长安大兴善寺
+  description: 奉敕往师子国求密法还京后奉诏译经弘化
+- id: guji-不空-event-3
+  type: career
+  title_zh: 奉诏译五字陀罗尼颂
+  date: '0770'
+  year_of: 770
+  place_zh: 长安大兴善寺
+  description: 译圣曼殊五字秘密法明坛仪手印及四种念诵三昧
 - id: guji-不空-event-death
-  title_zh: 示寂
-  date: '0774'
+  type: death
+  title_zh: 寂于长安
+  date: 0774-06
   year_of: 774
-  summary: 示寂于大兴善寺世寿七十
+  place_zh: 长安
+  description: 示寂赠司空谥大鉴正号大广智
