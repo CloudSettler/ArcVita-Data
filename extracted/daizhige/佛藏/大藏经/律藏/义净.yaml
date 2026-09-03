@@ -6,127 +6,136 @@ person:
     en: Yijing
   lifespan:
     birth:
-      date: 413
+      date: '0635'
       precision: year
       is_circa: false
-      raw: 唐贞观九年
+      raw: 唐贞观九年齐州历城
     death:
-      date: 459
+      date: '0713'
       precision: year
       is_circa: false
-      raw: 唐先天二年
-  birth_date: 413
-  death_date: 459
+      raw: 唐先天二年正月长安
+  birth_date: '0635'
+  death_date: '0713'
   era: 唐
   reign_ref: 唐高宗至唐睿宗
-  archetype: 求法译经高僧
+  archetype: 西行求法译律僧
   dilemmas:
-  - 海路险远生死难测与西行求律弘法之志如何权衡
-  - 梵本浩繁义理精微与中土急需戒律正范如何兼顾
-  lesson: 不惮海险求法取律以戒律整肃僧团令正法久住
-  summary_first_person: 我是义净，少年出家慕西行求法，咸亨二年浮海赴印度，于那烂陀究学有部律论，滞留二十余年携梵本东归，奉诏译出根本说一切有部诸律，愿以别解脱戒光显僧伽
+  - 浮海南渡险阻重重当止当行何以抉择
+  - 律藏浩繁中土阙略当略当广何以取舍
+  - 奉制翻译众望所归当速当慎何以持心
+  lesson: 历艰险而求律东归弘传以安僧利俗令正法久住
+  summary_first_person: 吾张氏子齐州历城人也幼慕出家志在西行浮海南渡留学那烂陀亲承有部律学归而奉制翻译愿令雨安居众得安乐住施主福增长如羯耻那衣所明十利八相皆欲昭示后学耳
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E6%88%92%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E6%88%92%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E6%AF%97%E5%A5%88%E8%80%B6%E7%BE%AF%E8%80%BB%E9%82%A3%E8%A1%A3%E4%BA%8B.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A0%B9%E6%9C%AC%E8%AF%B4%E4%B8%80%E5%88%87%E6%9C%89%E9%83%A8%E6%AF%97%E5%A5%88%E8%80%B6%E7%BE%AF%E8%80%BB%E9%82%A3%E8%A1%A3%E4%BA%8B.md
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 南海求法西行取经
-  description: 自广州浮海经室利佛逝赴印度究学有部律论历二十余年携梵本归国
+  title_zh: 浮海南行求法学律
+  goal_zh: 渡南海至印度求根本说一切有部律学归以补中土
   phases:
   - key: brewing
-    name: 少出家慕古西行
+    name: 齐州出家立志西行
     labels:
-      zh: 立志求法
-    start_date: 0648
+      zh:
+      - 立志出家
+    start_date: 0649
     highlight_event_id: guji-义净-event-birth
   - key: breakthrough
-    name: 广州登舟浮海
+    name: 广州浮海至室利佛逝
     labels:
-      zh: 海路启程
-    start_date: 441
-    highlight_event_id: guji-义净-event-voyage
+      zh:
+      - 浮海启程
+    start_date: '0671'
+    highlight_event_id: guji-义净-event-depart
   - key: climax
-    name: 那烂陀学律取经
+    name: 那烂陀留学究有部律
     labels:
-      zh: 印度学律
-    start_date: 443
+      zh:
+      - 留学悟律
+    start_date: '0676'
     highlight_event_id: guji-义净-event-study
   - key: closure
-    name: 携梵本东归洛阳
+    name: 室利佛逝著述东归
     labels:
-      zh: 负经东归
-    start_date: 0695
+      zh:
+      - 著述东归
+    start_date: 0685
     highlight_event_id: guji-义净-event-return
   decisions:
-  - date: 441
-    title_zh: 舍陆路从海道西行
-    rationale: 慕法显玄奘之迹因陆路阻隔故就广州商舶浮海以求速达印度
-  - date: 0685
-    title_zh: 暂留室利佛逝兼遣经归国
-    rationale: 为保梵本不失并筹译经之缘故托人赍经归国再返印度续学
+  - date: '0671'
+    title_zh: 决意自广州浮海西行
+    rationale: 陆路阻隔海路可通虽风涛险难而求律心坚故舍身西迈
+  - date: '0676'
+    title_zh: 留止那烂陀专学有部
+    rationale: 中土律部阙略有部未传故久住十年亲承师说穷源竟委
 - id: guji-义净-endeavor-2
-  title_zh: 奉诏译传有部律典
-  description: 还京后奉武后睿宗之命于洛阳长安译出根本说一切有部戒经等诸律
+  title_zh: 奉制译弘有部毗奈耶
+  goal_zh: 奉诏翻译有部律典定羯耻那衣等轨式以安僧伽
   phases:
   - key: brewing
-    name: 洛阳献经受礼
+    name: 洛阳受礼授三藏号
     labels:
-      zh: 朝廷礼迎
+      zh:
+      - 奉诏入京
     start_date: 0695
     highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 开场译有部戒经
+    name: 长安洛阳开译有部大律
     labels:
-      zh: 开译戒经
-    start_date: 448
+      zh:
+      - 开译大律
+    start_date: 0699
     highlight_event_id: guji-义净-event-translate
   - key: climax
-    name: 群译律藏光显僧伽
+    name: 译羯耻那衣事明张衣出衣
     labels:
-      zh: 广译律藏
-    start_date: 451
+      zh:
+      - 定迦絺那仪
+    start_date: '0703'
     highlight_event_id: guji-义净-event-translate
   - key: closure
-    name: 戒经流通教诫后学
+    name: 译业成就示寂建塔
     labels:
-      zh: 持律垂训
-    start_date: 456
+      zh:
+      - 圆寂建塔
+    start_date: '0713'
     highlight_event_id: guji-义净-event-death
   decisions:
-  - date: 448
-    title_zh: 先译根本说一切有部戒经
-    rationale: 以别解脱戒为僧团半月诵持根本急需定本故先出戒经以正轨则
-  - date: 451
-    title_zh: 依梵本直译存律原貌
-    rationale: 为免中土旧律混淆故严守有部原文详译四波罗市迦乃至众学以全律制
+  - date: 0699
+    title_zh: 先译根本说一切有部大律
+    rationale: 中土唯有四分诸部有部广律未弘故先举纲要以立轨范
+  - date: '0703'
+    title_zh: 别译羯耻那衣事一卷
+    rationale: 雨安居竟人间游行辛苦张衣有十利饶益出衣有八相差别故别行单卷以便受持
 events:
 - id: guji-义净-event-birth
-  date: 413
+  date: '0635'
   year_of: 635
-  title_zh: 出生于齐州
-  description: 唐贞观九年生于齐州俗姓张后出家名义净字文明
-- id: guji-义净-event-voyage
-  date: 441
+  title_zh: 诞生于齐州历城张氏
+  description_zh: 唐贞观九年生于齐州历城俗姓张字文明幼而颖悟慕法出家
+- id: guji-义净-event-depart
+  date: '0671'
   year_of: 671
-  title_zh: 自广州浮海赴印度
-  description: 唐咸亨二年自广州登商舶经林邑室利佛逝航向印度求法
+  title_zh: 自广州浮海赴印度求法
+  description_zh: 咸亨二年随舶南行经理室利佛逝末罗瑜历耽摩立底渐至东印度
 - id: guji-义净-event-study
-  date: 443
-  year_of: 673
-  title_zh: 抵印度究学有部律
-  description: 到耽摩立底转赴那烂陀从师究学根本说一切有部律论凡十余年
+  date: '0676'
+  year_of: 676
+  title_zh: 至那烂陀留学有部律学
+  description_zh: 止那烂陀寺十一年亲承师授究根本说一切有部毗奈耶并因明声明之学
 - id: guji-义净-event-return
   date: 0695
   year_of: 695
-  title_zh: 携梵本还抵洛阳
-  description: 证圣元年携梵本四百余部还抵洛阳武后亲迎奉敕主持译场
+  title_zh: 携梵本东归至洛阳受礼
+  description_zh: 经南海室利佛逝著南海寄归内法传等书归洛武后亲迎授三藏法师主持译场
 - id: guji-义净-event-translate
-  date: 448
-  year_of: 700
-  title_zh: 译出根本说一切有部戒经
-  description: 奉制于洛阳长安译出别解脱戒经详明四他胜十三僧残等半月诵持轨式
+  date: '0703'
+  year_of: 703
+  title_zh: 奉制译羯耻那衣事一卷
+  description_zh: 在长安洛阳两京译场奉制译出根本说一切有部毗奈耶羯耻那衣事明佛听张衣五胜利五饶益及差张衣人白羯磨并出衣八相决去乃至同心出
 - id: guji-义净-event-death
-  date: 459
+  date: '0713'
   year_of: 713
-  title_zh: 圆寂于长安
-  description: 唐先天二年圆寂于长安谥号鸿胪卿葬于奉先龙门北原
+  title_zh: 圆寂于长安追谥鸿胪卿
+  description_zh: 唐先天二年正月示寂于长安寿七十九译经五十六部二百三十卷建塔铭功
