@@ -6,133 +6,127 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
-      precision: year
-      is_circa: false
-      raw: 隋文帝仁寿二年生于洛州缑氏
+      date: '0602-04-06'
+      precision: day
+      is_circa: true
+      raw: 隋仁寿二年洛州缑氏
     death:
-      date: '0664-03-07'
+      date: '0664-02-05'
       precision: day
       is_circa: false
-      raw: 唐高宗麟德元年二月五日寂于长安玉华宫
-  birth_date: '0602'
-  death_date: '0664-03-07'
-  era: 唐
-  reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 西行求法译经高僧
+      raw: 唐麟德元年正月玉华宫
+  birth_date: '0602-04-06'
+  death_date: '0664-02-05'
+  era: 唐初
+  reign_ref: 唐太宗贞观至高宗麟德
+  archetype: 西行求法译经弘道型高僧
   dilemmas:
-  - 众说纷纭而正义难明，是安于中土旧疏还是冒死西行求本
-  - 外境实有还是唯识所现，是执极微和合为实还是立内色为所缘缘
-  lesson: 破外执以显唯识，立内境为所缘缘，令学人不逐外尘而返观识变
-  summary_first_person: 吾姓陈名祎，洛州人也。少出家，慨然有慕西法。贞观之初，杖锡西行，历流沙，越葱岭，至那烂陀，师事戒贤，尽穷瑜伽唯识之旨。归国之后，奉诏译经。此观所缘缘论者，陈那菩萨所造，破外色极微和合之执，立内色似外而现为五识所缘缘者也。吾敬承诏命，译而传之，愿学者不滞外境，了达识缘而已。
+  - 冒越禁令舍身西行与安住长安研习之间如何抉择
+  - 空有有无断常二边纷争之中如何以中道如实抉择翻译
+  lesson: 远离有无断常二边依中道修对治转虚妄分别证圆成实方契无上乘
+  summary_first_person: 吾洛州缑氏陈氏子也幼慕佛法贞观初冒禁西行遍历五印度求瑜伽唯识真义归国奉诏译经弘辩中边中道正义欲令有情离虚妄分别证清净法界此生以求法译经利生为任也
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘论/观所缘缘论.md
-  - https://daizhige.org/佛藏/乾隆藏/大乘论/观所缘缘论.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E8%BE%A9%E4%B8%AD%E8%BE%B9%E8%AE%BA%E9%A2%82.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E8%BE%A9%E4%B8%AD%E8%BE%B9%E8%AE%BA%E9%A2%82.html
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行求法取经
-  summary_zh: 贞观初年决意西行，遍历西域天竺，师事戒贤，研习瑜伽唯识因明，携经归国
+  title_zh: 西天取经求瑜伽唯识正义
+  goal_zh: 遍历五印求取瑜伽唯识经论决择空有中道以解汉地义诤
   phases:
   - key: brewing
-    name: 长安发愿
+    name: 长安研学起疑发愿
     labels:
-      zh: 发愿求法
-    start_date: '0627'
+      zh: 研学发愿
+    start_date: '0620-01-01'
+    highlight_event_id: guji-玄奘-event-birth
+  - key: breakthrough
+    name: 冒禁出关西行求法
+    labels:
+      zh: 西行突破
+    start_date: '0629-08-27'
     highlight_event_id: guji-玄奘-event-xixing
-  - key: breakthrough
-    name: 越漠度岭
-    labels:
-      zh: 艰难西进
-    start_date: 0628
-    highlight_event_id: guji-玄奘-event-qiujing
   - key: climax
-    name: 那烂陀问道
+    name: 那烂陀受学登峰
     labels:
-      zh: 师事戒贤
-    start_date: '0636'
-    highlight_event_id: guji-玄奘-event-qiujing
+      zh: 印土受学
+    start_date: '0636-01-01'
+    highlight_event_id: guji-玄奘-event-xixing
   - key: closure
-    name: 负经东归
+    name: 载经归国奉表献经
     labels:
-      zh: 载誉而归
-    start_date: '0643'
-    highlight_event_id: guji-玄奘-event-huigui
+      zh: 归国载誉
+    start_date: '0645-01-01'
+    highlight_event_id: guji-玄奘-event-huiguo
   decisions:
-  - date: '0627'
-    title_zh: 决计偷度西行
-    rationale: 中土经论残缺，诸师异说，欲求正义，非亲往天竺不可，虽禁关亦不顾
-  - date: '0636'
-    title_zh: 留学那烂陀
-    rationale: 戒贤年高德劭，瑜伽唯识传承具足，欲穷其奥，须久住听习，不急于归
+  - date: '0629-08-27'
+    title_zh: 冒禁偷渡出玉门关西行
+    rationale: 为求圆满正法了义宁舍身命不忍汉地缺典义诤未决故犯禁西行
+  - date: '0636-01-01'
+    title_zh: 留学那烂陀师事戒贤
+    rationale: 为穷瑜伽唯识深密坚实之义须依胜师久学方能决择中边故久住受学
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译观所缘缘论
-  summary_zh: 归国后奉太宗高宗诏，于长安弘福慈恩玉华等寺设译场，译出陈那观所缘缘论，明内境为所缘缘
+  title_zh: 奉诏译经弘辩中边中道正义
+  goal_zh: 系统翻译瑜伽唯识经论弘辩中边非空非不空之中道转染成净
   phases:
   - key: brewing
-    name: 敕建译场
+    name: 弘福寺创译筹备
     labels:
-      zh: 奉诏开译
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-huigui
+      zh: 创译筹备
+    start_date: '0645-02-01'
+    highlight_event_id: guji-玄奘-event-huiguo
   - key: breakthrough
-    name: 译传因明唯识
+    name: 慈恩大慈恩立译场
     labels:
-      zh: 译因明唯识
-    start_date: '0647'
+      zh: 译场奠基
+    start_date: '0648-01-01'
     highlight_event_id: guji-玄奘-event-yijing
   - key: climax
-    name: 译出观所缘缘论
+    name: 译出辩中边论颂阐中道
     labels:
-      zh: 译观所缘缘论
-    start_date: 0648
+      zh: 译弘中边
+    start_date: '0648-06-01'
     highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 流通阐释
+    name: 玉华宫正翻不辍示寂
     labels:
-      zh: 流通讲授
-    start_date: '0650'
-    highlight_event_id: guji-玄奘-event-yijing
+      zh: 译业圆成
+    start_date: '0663-01-01'
+    highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0648
-    title_zh: 首译观所缘缘论
-    rationale: 陈那破外色极微和合之失，立内色为所缘缘，最契唯识正义，当先译以正学人视听
-  - date: '0650'
-    title_zh: 存梵本义不徇旧说
-    rationale: 极微无相如眼根，和合无体如第二月，宁守梵文实义，不附会旧来外境实有之说
+  - date: '0648-06-01'
+    title_zh: 奉诏译出辩中边论颂一卷
+    rationale: 弥勒菩萨说中边深密义能破有无增减二边明虚妄分别与空性故首须传译以正汉地空有之诤
+  - date: '0659-01-01'
+    title_zh: 坚持直译兼顾义贯不曲徇时好
+    rationale: 为令后学得真如实际无相胜义之旨宁守质朴存梵义不以华饰失中实故立译场规式
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 出生于缑氏陈家
-  date: '0602'
+  title_zh: 玄奘生于洛州缑氏
+  date: '0602-04-06'
   year_of: 602
   place_zh: 洛州缑氏
-  summary_zh: 隋仁寿二年生，俗姓陈，早慧好学，十三岁出家
+  description_zh: 隋仁寿二年陈氏生子后出家洛阳净土寺研摄论涅槃师从严慧等
 - id: guji-玄奘-event-xixing
-  title_zh: 决意西行出长安
-  date: '0627-08-01'
-  year_of: 627
-  place_zh: 长安
-  summary_zh: 贞观元年，结伴西行，偷度玉门，独越流沙，开启西域求法之旅
-- id: guji-玄奘-event-qiujing
-  title_zh: 至那烂陀师事戒贤
-  date: '0636-02-01'
-  year_of: 636
-  place_zh: 天竺那烂陀寺
-  summary_zh: 抵那烂陀，谒戒贤论师，学瑜伽师地论唯识因明凡五年，尽得其传
-- id: guji-玄奘-event-huigui
-  title_zh: 负经归国蒙诏慰劳
+  title_zh: 冒禁西行出玉门关
+  date: '0629-08-27'
+  year_of: 629
+  place_zh: 长安至玉门关外
+  description_zh: 贞观三年冒越禁令偷渡出关历高昌龟兹凌山葱岭赴五印度求法
+- id: guji-玄奘-event-huiguo
+  title_zh: 载经归国献于长安
   date: '0645-01-25'
   year_of: 645
   place_zh: 长安弘福寺
-  summary_zh: 贞观十九年正月归长安，携经六百余部，太宗亲慰，敕住弘福翻译
+  description_zh: 贞观十九年携六百余部梵典归国太宗亲迎敕住弘福寺从事翻译
 - id: guji-玄奘-event-yijing
-  title_zh: 奉诏译观所缘缘论
+  title_zh: 奉诏译出辩中边论颂
   date: '0648-06-01'
   year_of: 648
-  place_zh: 长安慈恩寺
-  summary_zh: 奉诏译陈那菩萨观所缘缘论一卷，明破极微和合外执，立内色如外现为识所缘缘
+  place_zh: 长安大慈恩寺译场
+  description_zh: 弥勒菩萨说凡七品辩相障真实修对治修分位得果无上乘玄奘奉诏译为一卷弘虚妄分别有二空中道正义
 - id: guji-玄奘-event-death
-  title_zh: 寂于玉华宫
-  date: '0664-03-07'
+  title_zh: 示寂于玉华宫嘉寿殿
+  date: '0664-02-05'
   year_of: 664
-  place_zh: 凤翔玉华宫肃成院
-  summary_zh: 麟德元年二月五日寂，寿六十三，葬浐东白鹿原，谥大遍觉
+  place_zh: 坊州玉华宫
+  description_zh: 麟德元年正月译经不辍示寂寿六十三葬白鹿原后迁樊川兴教寺
