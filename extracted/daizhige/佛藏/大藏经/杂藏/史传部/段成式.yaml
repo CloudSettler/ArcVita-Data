@@ -1,0 +1,146 @@
+person:
+  qid: guji-段成式
+  name_zh: 段成式
+  names:
+    zh: 段成式
+    en: Duan Chengshi
+  lifespan:
+    birth:
+      date: 0803
+      precision: year
+      is_circa: true
+      raw: 唐元和八年左右
+    death:
+      date: 0863
+      precision: year
+      is_circa: false
+      raw: 唐咸通四年
+  birth_date: 0803
+  death_date: 0863
+  era: 唐
+  reign_ref: 唐穆宗至唐懿宗
+  archetype: 博闻好事的志怪史家
+  dilemmas:
+  - 秘省清闲考据与外任俗务牵扯之间如何取舍
+  - 寺塔图画塑像日渐堕坏剥落如何留其真形
+  lesson: 博访精记可使过眼繁华转为后世信史
+  summary_first_person: 吾东牟段成式字柯古，会昌三年与友人游大兴善寺，相约遍寻两街寺塔以补旧记之阙，后历职京洛出刺安成，大中七年归京刊整旧简成寺塔记两卷以传释子
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%AF%BA%E5%A1%94%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%AF%BA%E5%A1%94%E8%AE%B0.md
+endeavors:
+- id: guji-段成式-endeavor-1
+  title_zh: 秘省访寺编撰寺塔记
+  summary: 会昌初约友遍访长安两街寺院，记录塔像壁画兴废以补两京新记游目记之阙
+  phases:
+  - key: brewing
+    name: 大兴善寺起约
+    labels:
+      zh:
+      - 萌发
+    start_date: 0843
+    highlight_event_id: guji-段成式-event-visit
+  - key: breakthrough
+    name: 遍寻两街寺院
+    labels:
+      zh:
+      - 搜访
+    start_date: 0843
+    highlight_event_id: guji-段成式-event-visit
+  - key: climax
+    name: 游至慈恩中断
+    labels:
+      zh:
+      - 中辍
+    start_date: 0844
+    highlight_event_id: guji-段成式-event-cien
+  - key: closure
+    name: 归京刊整成书
+    labels:
+      zh:
+      - 成书
+    start_date: 0853
+    highlight_event_id: guji-段成式-event-complete
+  decisions:
+  - date: 0843
+    title_zh: 约定一旬寻访两街寺
+    rationale: 见旧记多所遗略故以街东兴善为首别录所不具
+  - date: 0853
+    title_zh: 整旧简成两卷传释子
+    rationale: 在外六年书籍损半恐乐事难追故刊整续蠹以存寺塔旧闻
+- id: guji-段成式-endeavor-2
+  title_zh: 出守州郡博采成杂俎
+  summary: 出京历职京洛吉州江州太常等处，博采异闻风土终成酉阳杂俎等书
+  phases:
+  - key: brewing
+    name: 出职京洛外任
+    labels:
+      zh:
+      - 外放
+    start_date: 0846
+    highlight_event_id: guji-段成式-event-govern
+  - key: breakthrough
+    name: 安成采风理政
+    labels:
+      zh:
+      - 采摭
+    start_date: 0847
+    highlight_event_id: guji-段成式-event-govern
+  - key: climax
+    name: 归京整理旧闻
+    labels:
+      zh:
+      - 积累
+    start_date: 0853
+    highlight_event_id: guji-段成式-event-complete
+  - key: closure
+    name: 晚年著述流传
+    labels:
+      zh:
+      - 流传
+    start_date: 0860
+    highlight_event_id: guji-段成式-event-death
+  decisions:
+  - date: 0846
+    title_zh: 受命出刺安成州郡
+    rationale: 久居秘署欲历外任以广见闻并验风土异事
+  - date: 0860
+    title_zh: 汇集见闻成杂俎家言
+    rationale: 以博闻强记之性不忍弃置故以小说杂俎存唐时风俗物产
+events:
+- id: guji-段成式-event-birth
+  title_zh: 生于东牟段氏高门
+  date: 0803
+  year_of: 803
+  type: birth
+  description: 唐元和八年左右生于东牟为段文昌之子字柯古少以博闻强记知名
+- id: guji-段成式-event-visit
+  title_zh: 会昌三年游大兴善寺
+  date: 0843
+  year_of: 843
+  type: career
+  description: 与张希复郑符等会暇游大兴善寺约一旬遍寻两街寺以补旧记之阙
+- id: guji-段成式-event-cien
+  title_zh: 访至慈恩官并寺而辍
+  date: 0844
+  year_of: 844
+  type: career
+  description: 游及慈恩见官将并寺僧众草草泛问塔下画迹此后访寺遂绝
+- id: guji-段成式-event-govern
+  title_zh: 历职京洛出刺安成
+  date: 0846
+  year_of: 846
+  type: career
+  description: 后三年职于京洛及出刺安成州郡在外累年博采风土异闻
+- id: guji-段成式-event-complete
+  title_zh: 大中七年归京成书
+  date: 0853
+  year_of: 853
+  type: career
+  description: 大中七年归京于故简中睹旧游记录刊整补缀成寺塔记两卷传诸释子
+- id: guji-段成式-event-death
+  title_zh: 咸通四年卒于官
+  date: 0863
+  year_of: 863
+  type: death
+  description: 唐咸通四年卒于江州刺史太常少卿任上平生著述以酉阳杂俎寺塔记最显

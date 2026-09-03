@@ -8,148 +8,151 @@ person:
     birth:
       date: '0602'
       precision: year
-      is_circa: false
-      raw: 隋仁寿二年河南缑氏陈氏第四子
+      is_circa: true
+      raw: 隋仁寿二年左右生于洛州缑氏
     death:
       date: '0664-02-05'
       precision: day
       is_circa: false
-      raw: 麟德元年正月五日
+      raw: 麟德元年圆寂于长安玉华宫
   birth_date: '0602'
   death_date: '0664-02-05'
-  era: 唐
-  reign_ref: 贞观
-  archetype: 西行求法者
+  era: 唐初
+  reign_ref: 唐太宗贞观
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 遍谒贤哲各擅宗途隐显有异莫知适从
-  - 陈表不许结侣咸退唯孤游誓向西而死不东归而生
-  - 高昌王固留不听西去绝食四日以明志
-  lesson: 宁向西而死不东归而生会宗贯通以利群生
-  summary_first_person: 吾俗姓陈名袆字玄奘少出家遍历蜀京质疑众师莫决适从遂誓游西方孤越流沙师事戒贤会大小宗归而翻译以流通圣教
+  - 正觉遗文未备，冒禁远险西行与安居东夏之间的抉择
+  - 学非沈秘而奉诏翻译弘宣，惧乖玄旨又恐蠹大猷的战栗
+  lesson: 凭恃国威以弘宣，竭诚上表以感圣，方使龙宫秘旨东被中洲，慧云遐布，法雨中外同沾
+  summary_first_person: 我是沙门玄奘，早预玄门，每恨正觉遗文未备，遂誓弘宣，远寻灵迹，历西域百三十八国，习梵言，览毗尼奥旨，窥多罗密藏，获梵本六百五十七部还献阙下，奉诏翻译，进大菩萨藏经等五十八卷及大唐西域记十二卷，屡表请圣制经序题经，蒙太宗制三藏圣教序，复请经论冠序流行，使迷生超尘，法无留滞
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T2052
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%AF%BA%E6%B2%99%E9%97%A8%E7%8E%84%E5%A5%98%E4%B8%8A%E8%A1%A8%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%AF%BA%E6%B2%99%E9%97%A8%E7%8E%84%E5%A5%98%E4%B8%8A%E8%A1%A8%E8%AE%B0.md
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 孤游西域求法取经
-  goal_zh: 往印度取瑜伽师地论等以释众疑继法显智严之志
-  roles:
-  - 求法沙门
+  title_zh: 西域求法取经还国
+  summary: 慨然怀愤誓弘宣，凭国威远寻灵迹，遍历殊方获梵本佛像舍利还国
   phases:
   - key: brewing
-    name: 少年受学遍访蜀京
+    name: 发愿求法
     labels:
-      zh: 发心受学
-    start_date: '0615'
-    highlight_event_id: guji-玄奘-event-study
-  - key: breakthrough
-    name: 冒禁西行夜出玉门
-    labels:
-      zh: 孤行出关
+      zh:
+      - 慨然怀慕
+      - 遍历殊方之愿
     start_date: 0629
-    highlight_event_id: guji-玄奘-event-west
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: breakthrough
+    name: 雪岫提河访圣迹
+    labels:
+      zh:
+      - 下雪岫泛提河
+      - 栖鹫岭陟王舍
+    start_date: '0630'
+    highlight_event_id: guji-玄奘-event-qiufa
   - key: climax
-    name: 那烂陀问道曲女显宗
+    name: 获梵本六百余部
     labels:
-      zh: 问道显宗
-    start_date: '0633'
-    highlight_event_id: guji-玄奘-event-nalanda
+      zh:
+      - 览毗尼奥旨
+      - 得经论像舍利
+    start_date: '0641'
+    highlight_event_id: guji-玄奘-event-huiguo
   - key: closure
-    name: 负经东归达于长安
+    name: 旋轫玉门返帝京
     labels:
-      zh: 东归取经
-    start_date: '0643'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 治装金地
+      - 忽将二纪还献
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-huiguo
   decisions:
   - date: 0629
-    title_zh: 表请不许仍决意孤游
-    rationale: 详考诸宗各擅宗途验之圣典莫知适从誓游西方以问所惑
-  - date: '0630'
-    title_zh: 拒高昌留请绝食明志
-    rationale: 以西行为本愿结母子兄弟之义换取放行递送之许
+    title_zh: 冒禁西行问道遐方
+    rationale: 正觉遗文未详备，慕异怀荒，上假皇灵，下资螾命，飘身迈迹，求遐自迩
+  - date: '0645-02-15'
+    title_zh: 携梵本归国奉进
+    rationale: 所获梵本经论一千帙六百五十七部及佛像舍利，祗奉纶言，载合翻译，故诣阙奉进
 - id: guji-玄奘-endeavor-2
-  title_zh: 长安翻译弘阐大乘
-  goal_zh: 译瑜伽显扬等六百余部造会宗制恶见垂义后裔
-  roles:
-  - 弘福寺译主
-  - 大慈恩寺译主
+  title_zh: 奉诏翻译进表弘宣
+  summary: 奉诏翻译，进经论西域记，屡请御制经序题经，并请流行天下
   phases:
   - key: brewing
-    name: 奉敕弘福开馆翻译
+    name: 开馆共证慧义
     labels:
-      zh: 奉敕翻译
+      zh:
+      - 爰召开士
+      - 研思翻译
     start_date: '0645'
-    highlight_event_id: guji-玄奘-event-return
+    highlight_event_id: guji-玄奘-event-jinjing
   - key: breakthrough
-    name: 进新翻经并西域记蒙制序
+    name: 进经论及西域记
     labels:
-      zh: 进经蒙序
-    start_date: '0646'
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 进五十八卷
+      - 进十二卷记
+    start_date: '0646-07-13'
+    highlight_event_id: guji-玄奘-event-jinjing
   - key: climax
-    name: 会宗破邪三身化王
+    name: 屡表请制经序
     labels:
-      zh: 会宗化俗
-    start_date: '0642'
-    highlight_event_id: guji-玄奘-event-debate
+      zh:
+      - 请作经序题经
+      - 谢敕重祈
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-qingxu
   - key: closure
-    name: 毕生译经垂范当今
+    name: 请经论冠序流行
     labels:
-      zh: 垂范后学
-    start_date: 0659
-    highlight_event_id: guji-玄奘-event-death
+      zh:
+      - 冠圣教序述圣记
+      - 大郡名州各施一本
+    start_date: 0649
+    highlight_event_id: guji-玄奘-event-liuxing
   decisions:
-  - date: '0642'
-    title_zh: 造会宗论制恶见论破小乘执
-    rationale: 圣人作论终不相违学者不通故会中百瑜伽之宗以显大乘
-  - date: '0645'
-    title_zh: 受象不受金钱还京翻译
-    rationale: 以流通正法为志不受厚施专心译经修西域记以报国恩
+  - date: '0646-07-13'
+    title_zh: 进新翻经论奉阙
+    rationale: 见绝笔者凡五十八卷，勒成八帙，及舍利像梵本，谨诣阙奉进，以副圣期重译之化
+  - date: 0648
+    title_zh: 请帝制序题经并请流行
+    rationale: 神力无方非神思不足诠其理，圣教玄远非圣藻何以序其源，愿冠御制宣布远近，使慧云布遐迩，法雨澍中外
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 生于河南缑氏陈氏
   date: '0602'
   year_of: 602
-  place_zh: 河南缑氏
-  description_zh: 俗姓陈汉大丘长仲弓之后高祖湛以下簪缨相继为第四子母梦白衣西去为求法先兆
-- id: guji-玄奘-event-study
-  title_zh: 蜀京受学究通诸部
-  date: 0618
-  year_of: 618
-  place_zh: 成都荆州长安
-  description_zh: 年十五升座覆述年二十一受具坐夏学律遍谒休淡岳诸师寻访异同各擅宗途莫知适从
-- id: guji-玄奘-event-west
-  title_zh: 贞观三年孤行出玉门
+  title_zh: 诞生洛州缑氏陈氏
+  description: 隋末生于洛州缑氏，早预玄门，业尚空疏而誓弘宣，终成西行求法之缘起
+- id: guji-玄奘-event-xixing
   date: 0629
   year_of: 629
-  place_zh: 玉门关流沙伊吾高昌
-  description_zh: 夜梦莲花生足登苏迷卢山遂行夜渡葫芦河独越八百流沙绝水五日夜梦神人策进得至伊吾高昌王迎留绝食乃放行
-- id: guji-玄奘-event-nalanda
-  title_zh: 至那烂陀师事戒贤
-  date: '0633'
-  year_of: 633
-  place_zh: 摩揭陀国那烂陀寺
-  description_zh: 合众迎入幼日王院听瑜伽三遍显扬因明等各一遍五年不舍昼夜又学胜军唯识诸论祷观自在三愿皆遂
-- id: guji-玄奘-event-debate
-  title_zh: 曲女城大会显大乘
-  date: '0642'
-  year_of: 642
-  place_zh: 曲女城
-  description_zh: 戒日王集五印度沙门婆罗门数千人升座标宗十八日无人敢问号大乘天解脱天作三身论化拘摩罗王
-- id: guji-玄奘-event-return
-  title_zh: 贞观十九年负经还长安
-  date: '0645-01-25'
+  title_zh: 誓愿西行出玉门
+  description: 贞观初凭恃国威远寻灵迹，出玉门，展转膜拜之乡，流离重译之外，往西域躬习梵言
+- id: guji-玄奘-event-qiufa
+  date: '0631'
+  year_of: 631
+  title_zh: 历百三十八国访圣迹
+  description: 下雪岫泛提河，援鹤林栖鹫岭，览毗尼奥旨，窥多罗密藏，考条支罽宾之实，时移岁积言返帝京忽将二纪
+- id: guji-玄奘-event-huiguo
+  date: '0645-02-15'
   year_of: 645
-  place_zh: 长安弘福寺
-  description_zh: 历三十余国携经六百五十七部像七躯舍利百五十粒至敦煌奉敕还京即于弘福翻译修西域记
-- id: guji-玄奘-event-translate
-  title_zh: 进新翻经蒙御制序
+  title_zh: 归国携梵本六百五十七部
+  description: 贞观十九年归长安，所获梵本经论总一千帙六百五十七部，佛像七躯，舍利一函，旋轫玉门还献紫宸
+- id: guji-玄奘-event-jinjing
   date: '0646-07-13'
   year_of: 646
-  place_zh: 长安
-  description_zh: 进新翻经并西域记请制经序蒙神笔报书褒扬泛宝舟登彼岸舒慈云朗惠日
+  title_zh: 进经论五十八卷及西域记十二卷
+  description: 贞观二十年七月十三日上进经论表，进大菩萨藏经等五部五十八卷，又缀大唐西域记十二卷，所闻所履百三十八国，缮写奉进
+- id: guji-玄奘-event-qingxu
+  date: 0648
+  year_of: 648
+  title_zh: 请太宗作经序谢敕重祈
+  description: 上表请大宗文皇帝作经序并题经，奉墨敕奖喻未许，复谢敕重祈，终蒙制三藏圣教序，复谢述圣记，感圣藻照宣
+- id: guji-玄奘-event-liuxing
+  date: 0649
+  year_of: 649
+  title_zh: 请经论冠序流行天下
+  description: 上请经论流行表及请经出流行启，请以御制圣教序及皇太子述圣记冠于译经之首，大郡名州各施一本，宣布远近咸使闻知
 - id: guji-玄奘-event-death
-  title_zh: 示寂于玉华宫
   date: '0664-02-05'
   year_of: 664
-  place_zh: 长安玉华宫
-  description_zh: 翻译不辍垂义来裔麟德元年正月五日圆寂一生以匡振颓纲苞挫殊俗为志
+  title_zh: 圆寂长安玉华宫
+  description: 麟德元年圆寂于玉华宫，译经论七十余部千余卷，建大慈恩寺塔藏经，蒙帝制碑文，慧日增晖，迷生悟道
