@@ -1,0 +1,132 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年
+    death:
+      date: '0664-03-07'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年二月五日
+  birth_date: '0602'
+  death_date: '0664-03-07'
+  era: 唐
+  reign_ref: 唐太宗贞观至唐高宗麟德
+  archetype: 求法译经师
+  dilemmas:
+  - 生死险途与求法宏愿之抉择
+  - 奉诏译经与专修证悟之牵制
+  lesson: 以戒为端严以慧为利剑以福为浮囊可渡生死
+  summary_first_person: 吾玄奘洛州缑氏人也幼慕释典西逾流沙远赴天竺取经归唐奉诏译经凡有咨请皆以正法对答愿汝等持戒知足修福断贪也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%A4%A9%E8%AF%B7%E9%97%AE%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%A4%A9%E8%AF%B7%E9%97%AE%E7%BB%8F.html
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法取经
+  description: 贞观初年私出玉门遍历西域天竺学法求经凡十七年方归
+  phases:
+  - key: brewing
+    name: 洛阳出家精研众经
+    labels:
+      zh: 出家学律
+    start_date: '0613'
+    highlight_event_id: guji-玄奘-event-birth
+  - key: breakthrough
+    name: 决意西行私出长安
+    labels:
+      zh: 发愿西行
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-westward
+  - key: climax
+    name: 天竺那烂陀问道受学
+    labels:
+      zh: 异域问道
+    start_date: '0630'
+    highlight_event_id: guji-玄奘-event-westward
+  - key: closure
+    name: 负经东归觐见太宗
+    labels:
+      zh: 负经东归
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-return
+  decisions:
+  - date: 0629
+    title_zh: 冒禁西行
+    rationale: 诸师章疏异同无以折中故宁就刑戮必往求法以决所疑
+  - date: '0636'
+    title_zh: 留学那烂陀从戒贤受瑜伽
+    rationale: 欲穷大乘瑜伽唯识根本故久住问道不急东归
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译经弘法
+  description: 归国后居弘福大慈恩寺奉诏译经兼译天请问经弘传正法
+  phases:
+  - key: brewing
+    name: 弘福开馆奉诏缀文
+    labels:
+      zh: 奉诏开译
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-return
+  - key: breakthrough
+    name: 大慈恩寺专心翻译
+    labels:
+      zh: 专心翻译
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-translate-tianqingwen
+  - key: climax
+    name: 译出天请问经示福慧因果
+    labels:
+      zh: 译传请问
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-translate-tianqingwen
+  - key: closure
+    name: 笔受既终圆寂玉华
+    labels:
+      zh: 圆寂玉华
+    start_date: '0664'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: '0645'
+    title_zh: 受诏译经不入朝为官
+    rationale: 愿以翻译利生报国不以荣禄废道故辞官而就译场
+  - date: 0648
+    title_zh: 先译小乘单译天请问经以劝福戒
+    rationale: 此经明施忍慧福罪因果简要易持可先化俗故亟译流通
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 出生洛州缑氏陈家
+  date: '0602'
+  year_of: 602
+  place_zh: 洛州缑氏
+  description: 隋仁寿二年生于洛州缑氏幼聪慧慕道
+- id: guji-玄奘-event-westward
+  title_zh: 贞观三年私出长安西行
+  date: 0629
+  year_of: 629
+  place_zh: 长安
+  description: 以求法大愿冒禁西出玉门遍历西域诸国
+- id: guji-玄奘-event-return
+  title_zh: 贞观十九年负经东归长安
+  date: '0645'
+  year_of: 645
+  place_zh: 长安弘福寺
+  description: 携经像归国觐见太宗奉诏入弘福寺从事翻译
+- id: guji-玄奘-event-translate-tianqingwen
+  title_zh: 奉诏译出天请问经一卷
+  date: 0648
+  year_of: 648
+  place_zh: 大慈恩寺译场
+  description: 奉诏译天请问经明天人问答以粗言为刀剑以施忍慧福劝世
+- id: guji-玄奘-event-death
+  title_zh: 麟德元年圆寂玉华寺
+  date: '0664-03-07'
+  year_of: 664
+  place_zh: 玉华寺
+  description: 唐麟德元年二月五日寂于玉华寺一生译经弘法功德圆满
