@@ -8,125 +8,119 @@ person:
     birth:
       date: '0572'
       precision: year
-      is_circa: false
-      raw: 陈天嘉三年颖川
+      is_circa: true
+      raw: 隋开皇十二年左右生于襄州陈氏
     death:
       date: '0640'
       precision: year
       is_circa: false
-      raw: 唐贞观十四年
+      raw: 唐贞观十四年卒于益州
   birth_date: '0572'
   death_date: '0640'
-  era: 隋唐
-  reign_ref: 唐太宗贞观
-  archetype: 护法卫教者
+  era: 隋末唐初
+  reign_ref: 唐高祖武德至唐太宗贞观
+  archetype: 护法论师
   dilemmas:
-  - 出世求道与报国酬恩之间如何两全
-  - 面对傅奕谤法废僧是隐忍自保还是犯颜直谏
-  lesson: 以文证理折邪显正卫教护国
-  summary_first_person: 吾俗姓陈颖川人也，晋司空群之后，少学三论长该众典，隋末隐青溪鬼谷十余载，见傅奕谤佛废僧，愤而撰破邪论以引儒道经史证佛为大圣，武德五年冒死上秦王与殿下，愿折邪见幢然正法炬而已。
+  - 守正护法与触犯权贵受谴流放之间如何抉择
+  - 博通儒道老庄与独尊佛法慈悲化物之间如何会通
+  lesson: 以慈悲愍盲瞽以文义破邪谤使佛日重晖法云广被
+  summary_first_person: 吾俗姓陈本颍川之后流寓襄州隋世入关从师请业内该三藏外综九流兼善诗赋章表愍李仲卿刘进喜等谤毁正法发大悲心制破邪论及辩正论八卷十二篇穷释老教源极品藻名理愿正法久住群生离苦
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%A0%B4%E9%82%AA%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%A0%B4%E9%82%AA%E8%AE%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E8%BE%A9%E6%AD%A3%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E8%BE%A9%E6%AD%A3%E8%AE%BA.html
 endeavors:
 - id: guji-法琳-endeavor-1
-  title_zh: 青溪潜修博通三教
-  summary_zh: 隋开皇末隐青溪山鬼谷洞，经行恬静十余年，遍览儒释道，撰青溪山记及三教系谱释老宗源等，为后卫教立论奠基。
+  title_zh: 入关求法博通三藏
+  summary_zh: 襄州流寓出身隋世入关从师遍习中观法华兼综儒道九流渐成一时开士栋梁
   phases:
   - key: brewing
-    name: 少学三论名闻朝野
+    name: 襄州流寓少蕴法华
     labels:
-      zh:
-      - 博学
-      - 三论
-    start_date: 0585
+      zh: 酿成
+    start_date: '0572'
     highlight_event_id: guji-法琳-event-birth
   - key: breakthrough
-    name: 隐栖青溪潜修著述
+    name: 隋世入关从师请业
     labels:
-      zh:
-      - 隐遁
-      - 著述
+      zh: 突破
+    start_date: 0585
+    highlight_event_id: guji-法琳-event-ruguan
+  - key: climax
+    name: 内外兼该名动京邑
+    labels:
+      zh: 高潮
     start_date: '0600'
-    highlight_event_id: guji-法琳-event-seclusion
-  - key: closure
-    name: 勒成三十卷行于世
-    labels:
-      zh:
-      - 集结
-      - 传布
-    start_date: '0620'
-    highlight_event_id: guji-法琳-event-memorial-qin
+    highlight_event_id: guji-法琳-event-ruguan
   decisions:
+  - date: 0585
+    title_zh: 隋世入关从师请业
+    rationale: 慕京邑法席广大欲遍习三藏及九流以成弘法之器故离襄州入关问道
   - date: '0600'
-    title_zh: 隋末隐青溪鬼谷洞
-    rationale: 避乱山林以全戒行，采芝饵术游八禅，观山川古迹以证道养望
-  - date: '0610'
-    title_zh: 广采诗赋碑志三教谱录成三十卷
-    rationale: 以文翰会通儒释道，存师敬佛之证，为破邪预设文据
+    title_zh: 兼习儒道老庄玄文
+    rationale: 欲会通内外穷释老教源故遍览庄老三洞灵宝之书以备后时破立之资
 - id: guji-法琳-endeavor-2
-  title_zh: 破邪卫教抗衡傅奕
-  summary_zh: 针对太史令傅奕减省寺塔废僧尼十一條，逐条弹箴并引孔老经史及汉魏史籍，武德五年连上秦王与殿下破邪论二卷，力陈废佛损国福田。
+  title_zh: 护法辩正著论破邪
+  summary_zh: 当李仲卿刘进喜谤法及傅奕废佛之议迭起发大悲心著破邪论及辩正论八卷十二篇鼓法海振词锋使邪说摧败
   phases:
   - key: brewing
-    name: 览傅奕奏五内分崩
+    name: 道士作庸文谤毁正法
     labels:
-      zh:
-      - 愤懑
-      - 发愿
-    start_date: '0621-06-20'
-    highlight_event_id: guji-法琳-event-fuyi-memorial
+      zh: 酿成
+    start_date: '0621'
+    highlight_event_id: guji-法琳-event-poxie
+  - key: breakthrough
+    name: 制破邪论三十余卷先声护教
+    labels:
+      zh: 突破
+    start_date: '0621'
+    highlight_event_id: guji-法琳-event-poxie
   - key: climax
-    name: 连启秦王与殿下上破邪论
+    name: 制辩正论八卷十二篇总破邪说
     labels:
-      zh:
-      - 直谏
-      - 卫教
-    start_date: '0622-01-12'
-    highlight_event_id: guji-法琳-event-memorial-qin
+      zh: 高潮
+    start_date: '0626'
+    highlight_event_id: guji-法琳-event-bianzheng
   - key: closure
-    name: 破邪论流布长世
+    name: 論成未布弟子陳子良注解流通
     labels:
-      zh:
-      - 流布
-      - 护法
-    start_date: '0622-01-27'
-    highlight_event_id: guji-法琳-event-memorial-crown
+      zh: 收束
+    start_date: '0630'
+    highlight_event_id: guji-法琳-event-bianzheng
   decisions:
-  - date: '0622-01-12'
-    title_zh: 上秦王启陈傅奕惑弄朝野
-    rationale: 情切声哀理正言直，恐蕃国谓华夏无识，冒死录奕害事逐条件答
-  - date: '0622-01-27'
-    title_zh: 上殿下破邪论二卷请折邪幢
-    rationale: 赖大唐中兴释门，愿殿下然正法炬津梁众生，不忍邪见损国福田
+  - date: '0621'
+    title_zh: 作破邪论以斥十异九迷
+    rationale: 愍俗士生邪信恐堕泥犁故以慧刀摧邪锋先作破邪论以救其弊
+  - date: '0626'
+    title_zh: 发大悲广制辩正论
+    rationale: 见三教治道十代奉佛之本未明佛道先后李师师资之谬未正故穷多年修述八卷以极品藻名理冀佛日重晖
 events:
 - id: guji-法琳-event-birth
+  title_zh: 生于襄州陈氏
   date: '0572'
   year_of: 572
-  title_zh: 诞生颖川陈氏
-  description_zh: 俗姓陈颖川人，晋司空陈群之后，自梁及陈世传缨冕，祖及伯累叶儒宗，少学三论名闻朝野。
-- id: guji-法琳-event-seclusion
-  date: '0600'
-  year_of: 600
-  title_zh: 隋开皇末隐青溪鬼谷洞
-  description_zh: 迥构岩崖蔽亏日月，饵松术披薜荔，经行恬静十有余年，撰青溪山记一卷见行于世。
-- id: guji-法琳-event-fuyi-memorial
-  date: '0621-06-20'
+  place_zh: 襄州
+  description_zh: 俗姓陈系汉太丘长仲弓之后远祖播迁江左近因流寓襄州而生
+- id: guji-法琳-event-ruguan
+  title_zh: 隋世入关从师请业
+  date: 0585
+  year_of: 585
+  place_zh: 关中
+  description_zh: 隋世入关从师请业玉移荆岫皎洁弥彰内该三藏外综九流善缘情工体物一时归仰如赴华阴之市
+- id: guji-法琳-event-poxie
+  title_zh: 著破邪论驳李仲卿等谤法
+  date: '0621'
   year_of: 621
-  title_zh: 傅奕上废僧尼事十一條
-  description_zh: 武德四年六月二十日太史令傅奕请胡佛退还天竺沙门放归桑梓，道俗览之五内分崩，法琳发愿逐条弹箴。
-- id: guji-法琳-event-memorial-qin
-  date: '0622-01-12'
-  year_of: 622
-  title_zh: 武德五年上秦王启陈破邪
-  description_zh: 济法寺沙门法琳冒死启秦王，引周书异记孔子列子及老子化胡等证佛为大圣，斥傅奕狂悖无识。
-- id: guji-法琳-event-memorial-crown
-  date: '0622-01-27'
-  year_of: 622
-  title_zh: 上殿下破邪论二卷
-  description_zh: 缅寻三元五运陈像教东流六百年，伏愿殿下折邪见幢然正法炬，尘黩威严以护国福田。
+  place_zh: 长安
+  description_zh: 道士李仲卿刘进喜等作庸文谤毁正法法琳愍其盲瞽作破邪论及诗赋碑诔章表大乘教法等三十余卷暂归慈定已破魔军
+- id: guji-法琳-event-bianzheng
+  title_zh: 修述辩正论八卷十二篇
+  date: '0626'
+  year_of: 626
+  place_zh: 长安
+  description_zh: 穷释老教源极品藻名理分三教治道十代奉佛佛道先后释李师资十喻九箴气为道本信毁交报品藻众书出道伪谬历世相承归心有地凡十二篇二百余纸修述多年弟子陈子良为之注解
 - id: guji-法琳-event-death
+  title_zh: 卒于益州
   date: '0640'
   year_of: 640
-  title_zh: 贞观十四年圆寂
-  description_zh: 终身卫教著述三十卷，诗赋碑志赞颂箴诫记传启论及三教系谱并行，释种梁栋人伦羽仪。
+  place_zh: 益州
+  description_zh: 以护法忤权谴流益州至唐贞观十四年示寂护法之诚始终不改
