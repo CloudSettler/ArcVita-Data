@@ -3,145 +3,170 @@ person:
   name_zh: 法贤
   names:
     zh: 法贤
-    en: Dharmabhadra
+    en: Faxian
   lifespan:
     birth:
-      date: 0935
-      precision: year
+      date: 0950
+      precision: century
       is_circa: true
-      raw: 生年不详约十世纪中叶西域人
+      raw: 约十世纪中生于中印度
     death:
       date: '1001'
       precision: year
-      is_circa: true
-      raw: 宋真宗咸平四年示寂
-  birth_date: 0935
+      is_circa: false
+      raw: 宋咸平四年示寂
+  birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太祖至宋真宗
-  archetype: 译经弘法者
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 译场弘法者
   dilemmas:
-  - 梵汉文义悬隔如何做到信达兼全
-  - 奉诏译经体制约束下如何坚持利生本怀
-  lesson: 以译经持咒令贫苦众生皆得吉祥安乐
-  summary_first_person: 我自西域来归中华蒙朝廷授明教大师奉诏译经惟愿以秘密章句饶益众生令饮食财宝悉皆具足
+  - 梵本义理深密而华言难尽达何以取信
+  - 陀罗尼持诵重在信心相续何以令众不退
+  lesson: 以信续译以愿传持则宿业可消宿命可知
+  summary_first_person: 我是法贤本出中印度奉宋帝诏入译经院一生以梵汉传译为业译出宿命智陀罗尼等经教人志心受持令千劫重罪消灭七世常知宿命
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说宝贤陀罗尼经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说宝贤陀罗尼经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%AE%BF%E5%91%BD%E6%99%BA%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%AE%BF%E5%91%BD%E6%99%BA%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 入宋译经馆奉诏译经
-  summary: 太平兴国以来入译经院与施护天息灾等共译大小乘经数十部授朝散大夫试光禄卿明教大师
+  person_id: guji-法贤
+  title_zh: 入宋译经院奉诏传译
+  summary_zh: 自中印度来华入太平兴国译经院与施护法天等共译显密经论终身不辍
   phases:
   - key: brewing
-    name: 西域来归
+    name: 西来发心
     labels:
-      zh: 来归中华
-    start_date: 0973
-    highlight_event_id: guji-法贤-event-come
+      zh:
+      - 求法
+      - 西来
+    start_date: 0980
+    highlight_event_id: guji-法贤-event-arrive
   - key: breakthrough
-    name: 入院参译
+    name: 赐名入院
     labels:
-      zh: 初参译席
+      zh:
+      - 奉诏
+      - 入院
     start_date: 0982
     highlight_event_id: guji-法贤-event-enter
   - key: climax
-    name: 奉诏主译
+    name: 群经并译
     labels:
-      zh: 主持译事
-    start_date: 0989
-    highlight_event_id: guji-法贤-event-peak
+      zh:
+      - 传译
+      - 弘化
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-translate
   - key: closure
-    name: 授官封大师
+    name: 授官明教
     labels:
-      zh: 功成受封
+      zh:
+      - 授官
+      - 明教
     start_date: 0991
     highlight_event_id: guji-法贤-event-honor
   decisions:
   - date: 0982
-    title_zh: 应诏入译经院
-    rationale: 顺朝廷崇佛之机借馆阁之力广传梵本
-  - date: 0989
-    title_zh: 坚持直译兼顾文义
-    rationale: 宁繁不略使密言章句存真便于持诵
+    title_zh: 受诏易名入院专译
+    rationale: 感帝崇法弃本名天息灾受赐法贤专任传译以副朝廷兴教之望
+  - date: 0985
+    title_zh: 显密兼译不舍小经
+    rationale: 以一卷陀罗尼亦能利众故大小并重令持诵易行者先得受持
 - id: guji-法贤-endeavor-2
-  title_zh: 传译宝贤陀罗尼利生
-  summary: 译出佛说宝贤陀罗尼经宣说宝贤夜叉主秘密心咒令持诵者得依怙吉祥财宝具足
+  person_id: guji-法贤
+  title_zh: 宣说宿命智陀罗尼持诵法门
+  summary_zh: 译传宿命智陀罗尼教众志心受持终身不间断以消千劫重罪得七世宿命智
   phases:
   - key: brewing
-    name: 请说因缘
+    name: 禀承佛嘱
     labels:
-      zh: 夜叉请法
-    start_date: 0998
-    highlight_event_id: guji-法贤-event-baodharani-brewing
+      zh:
+      - 禀教
+      - 持诵
+    start_date: 0995
+    highlight_event_id: guji-法贤-event-translate
   - key: breakthrough
-    name: 承旨敷译
+    name: 译出神咒
     labels:
-      zh: 梵汉敷译
-    start_date: 0999
-    highlight_event_id: guji-法贤-event-baodharani-translate
+      zh:
+      - 译咒
+      - 正音
+    start_date: 0998
+    highlight_event_id: guji-法贤-event-suming
   - key: climax
-    name: 咒句成就
+    name: 劝众受持
     labels:
-      zh: 咒义成就
+      zh:
+      - 劝持
+      - 消业
     start_date: 0999
-    highlight_event_id: guji-法贤-event-baodharani-translate
+    highlight_event_id: guji-法贤-event-suming
   - key: closure
-    name: 流通奉行
+    name: 阿难欢喜奉行
     labels:
-      zh: 信受奉行
+      zh:
+      - 信受
+      - 奉行
     start_date: '1000'
-    highlight_event_id: guji-法贤-event-baodharani-circulate
+    highlight_event_id: guji-法贤-event-suming
   decisions:
+  - date: 0998
+    title_zh: 定译宿命智陀罗尼一卷
+    rationale: 见众生业重不见宿因故特译此简要持诵法令终身行者速得宿命智
   - date: 0999
-    title_zh: 详译白月持诵仪轨
-    rationale: 使贫苦众生有可依之行七遍八千遍皆得胜利成就
-  - date: '1000'
-    title_zh: 明示除淫怒痴方许随意
-    rationale: 以戒摄持防贪求滥用令爱敬财宝不违正法
+    title_zh: 示终身不间断之行
+    rationale: 恐一曝十寒无功故强调志心相续以终身持诵成就七世常知宿命之益
 events:
 - id: guji-法贤-event-birth
-  date: 0935
-  year_of: 935
-  title_zh: 生于西域
-  description: 生于西域天竺一带少习梵文经论后发心东来中华
-- id: guji-法贤-event-come
-  date: 0973
-  year_of: 973
-  title_zh: 来归宋土
-  description: 随西域僧团东来至开封蒙宋朝礼遇渐通华言
+  person_id: guji-法贤
+  type: birth
+  date: 0950
+  year_of: 950
+  title_zh: 生于中印度
+  description_zh: 约十世纪中生于中印度后出家习梵本显密经论
+  is_circa: true
+- id: guji-法贤-event-arrive
+  person_id: guji-法贤
+  type: career
+  date: 0980
+  year_of: 980
+  title_zh: 随众东来至宋
+  description_zh: 太平兴国五年左右抵开封朝廷置译经院以延西域三藏
 - id: guji-法贤-event-enter
+  person_id: guji-法贤
+  type: career
   date: 0982
   year_of: 982
-  title_zh: 入译经院参译
-  description: 太平兴国雍熙间入译经院与施护等共参译事学成译式
-- id: guji-法贤-event-peak
-  date: 0989
-  year_of: 989
-  title_zh: 奉诏主译诸经
-  description: 端拱淳化间奉诏主译诸大小乘经声名渐著
+  title_zh: 赐名法贤入译经院
+  description_zh: 本名天息灾蒙宋太宗赐名法贤入译经院与施护法天等从事传译
+- id: guji-法贤-event-translate
+  person_id: guji-法贤
+  type: career
+  date: 0985
+  year_of: 985
+  title_zh: 群经传译不辍
+  description_zh: 先后译出庄严宝王经等大乘经论以梵汉精审见称于世
+  is_circa: true
 - id: guji-法贤-event-honor
+  person_id: guji-法贤
+  type: career
   date: 0991
   year_of: 991
   title_zh: 授朝散大夫明教大师
-  description: 以译经功授朝散大夫试光禄卿加号明教大师
-- id: guji-法贤-event-baodharani-brewing
+  description_zh: 以译经有功授朝散大夫试光禄卿加号明教大师奉诏续译
+- id: guji-法贤-event-suming
+  person_id: guji-法贤
+  type: career
   date: 0998
   year_of: 998
-  title_zh: 发心译宝贤陀罗尼
-  description: 感宝贤夜叉主为安乐贫苦众生请说秘密心陀罗尼之缘发心敷译
-- id: guji-法贤-event-baodharani-translate
-  date: 0999
-  year_of: 999
-  title_zh: 译出佛说宝贤陀罗尼经一卷
-  description: 于舍卫国祇园之说译为汉文具载持诵七遍及白月十五日八千遍得金银珍宝之法
-- id: guji-法贤-event-baodharani-circulate
-  date: '1000'
-  year_of: 1000
-  title_zh: 经成流通菩萨欢喜奉行
-  description: 经译既成众闻欢喜信受奉行流布汴洛
+  title_zh: 译佛说宿命智陀罗尼经
+  description_zh: 奉诏译出宿命智陀罗尼一卷宣说志心受持消千劫重罪得七世宿命之法阿难欢喜信受
+  is_circa: true
 - id: guji-法贤-event-death
+  person_id: guji-法贤
+  type: death
   date: '1001'
   year_of: 1001
-  title_zh: 示寂于汴京
-  description: 宋真宗咸平四年示寂于开封译业圆满茶毗供奉
+  title_zh: 咸平四年示寂
+  description_zh: 宋真宗咸平四年圆寂于开封一生所译数十部为宋初译场功臣
