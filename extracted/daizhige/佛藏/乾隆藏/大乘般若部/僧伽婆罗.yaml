@@ -1,0 +1,127 @@
+person:
+  qid: guji-僧伽婆罗
+  name_zh: 僧伽婆罗
+  names:
+    zh: 僧伽婆罗
+    en: Sanghabhara
+  lifespan:
+    birth:
+      date: '0460'
+      precision: year
+      is_circa: true
+      raw: 生年不详约当五世纪中叶生于扶南
+    death:
+      date: '0524'
+      precision: year
+      is_circa: true
+      raw: 梁普通初示寂于建康
+  birth_date: '0460'
+  death_date: '0524'
+  era: 南朝梁
+  reign_ref: 梁武帝天监
+  archetype: 跨海译经弘法者
+  dilemmas:
+  - 梵本精微与华言达意之間如何取舍
+  - 远来客僧与梁廷供养之间如何持戒守本
+  lesson: 不立名相直显空性译经弘法当舍得见而入无住
+  summary_first_person: 我自扶南海国航海来至建康承诏译经以华言开显般若无得之旨愿众生闻深法不惊不怖而行
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘般若部/文殊师利所说般若波罗蜜经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘般若部/文殊师利所说般若波罗蜜经.html
+endeavors:
+- id: guji-僧伽婆罗-endeavor-1
+  title_zh: 自扶南航海赴梁设译场
+  summary: 自扶南发心航海至建康应梁武帝请入译场从事经律翻译
+  phases:
+  - key: brewing
+    name: 发心离国
+    labels:
+      zh: 发心
+    start_date: '0500'
+    highlight_event_id: guji-僧伽婆罗-event-arrive-liang
+  - key: breakthrough
+    name: 入京受请
+    labels:
+      zh: 受请
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-arrive-liang
+  - key: climax
+    name: 开场译经
+    labels:
+      zh: 开译
+    start_date: 0508
+    highlight_event_id: guji-僧伽婆罗-event-translate-prajna
+  - key: closure
+    name: 译业成就
+    labels:
+      zh: 成就
+    start_date: '0521'
+    highlight_event_id: guji-僧伽婆罗-event-translate-prajna
+  decisions:
+  - date: '0506'
+    title_zh: 应梁诏入京译经
+    rationale: 为令华土得闻大乘不辞海路艰辛随缘入寿光译场
+  - date: 0508
+    title_zh: 定译以文质相兼为则
+    rationale: 梵义幽深华言易滞当直译空义不断凡圣两途
+- id: guji-僧伽婆罗-endeavor-2
+  title_zh: 译出文殊所说般若波罗蜜经
+  summary: 以文殊与佛及舍利弗问答显般若无住无得令闻者入无相慧
+  phases:
+  - key: brewing
+    name: 抉择梵本
+    labels:
+      zh: 抉择
+    start_date: '0510'
+    highlight_event_id: guji-僧伽婆罗-event-translate-prajna
+  - key: breakthrough
+    name: 文殊问答开显
+    labels:
+      zh: 开显
+    start_date: '0512'
+    highlight_event_id: guji-僧伽婆罗-event-translate-prajna
+  - key: climax
+    name: 无得宗义定文
+    labels:
+      zh: 定文
+    start_date: '0515'
+    highlight_event_id: guji-僧伽婆罗-event-preach-emptiness
+  - key: closure
+    name: 流通付嘱
+    labels:
+      zh: 流通
+    start_date: '0520'
+    highlight_event_id: guji-僧伽婆罗-event-preach-emptiness
+  decisions:
+  - date: '0512'
+    title_zh: 以无住无得为译经宗眼
+    rationale: 般若无住处无增减若存得见即非修般若故须显无得
+  - date: '0515'
+    title_zh: 存文殊舍利弗问答全格
+    rationale: 借声闻惊疑显大乘深信令新发意者不怖不退
+events:
+- id: guji-僧伽婆罗-event-birth
+  title_zh: 诞生于扶南国
+  date: '0460'
+  year_of: 460
+  summary: 生于南海扶南国少出家精律论兼通大乘般若
+- id: guji-僧伽婆罗-event-arrive-liang
+  title_zh: 航海至建康受请译经
+  date: '0506'
+  year_of: 506
+  summary: 梁天监中自扶南航海至建康武帝礼遇敕住译场从事翻译
+- id: guji-僧伽婆罗-event-translate-prajna
+  title_zh: 译文殊师利所说般若波罗蜜经一卷
+  date: '0512'
+  year_of: 512
+  summary: 于建康译出此经以文殊与佛舍利弗问答明般若无相无得众生界如佛界
+- id: guji-僧伽婆罗-event-preach-emptiness
+  title_zh: 开示无得修行流通般若
+  date: '0520'
+  year_of: 520
+  summary: 教众以不见垢净不见佛凡为修般若闻深法不惊怖者即近菩提
+- id: guji-僧伽婆罗-event-death
+  title_zh: 示寂于建康
+  date: '0524'
+  year_of: 524
+  summary: 译经凡十余部毕后示寂于梁弟子奉余绪流通般若
