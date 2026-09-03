@@ -1,0 +1,137 @@
+person:
+  qid: guji-智严
+  name_zh: 智严
+  names:
+    zh: 智严
+    en: Zhiyan
+  lifespan:
+    birth:
+      date: '0360'
+      precision: year
+      is_circa: true
+      raw: 东晋升平四年左右凉州张掖
+    death:
+      date: '0437'
+      precision: year
+      is_circa: true
+      raw: 刘宋元嘉十四年左右京师
+  birth_date: '0360'
+  death_date: '0437'
+  era: 刘宋
+  reign_ref: 宋文帝元嘉
+  archetype: 求法译经僧
+  dilemmas:
+  - 安住凉土讲习与冒险西行求律之抉择
+  - 梵汉悬隔难解与矢志精译传灯之坚忍
+  lesson: 西行求律东归传译以持戒守斋奉亲劝世
+  summary_first_person: 吾本凉州张掖赵氏子二十出家慕律西行历罽宾学法携梵本东归与宝云共译众经宣四天王伺察善恶劝持五戒六斋以报佛恩
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/小乘单译经/佛说四天王经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘单译经/佛说四天王经.md
+endeavors:
+- id: guji-智严-endeavor-1
+  title_zh: 西行罽宾求律取经
+  summary_zh: 自凉州出家后以律学未备发愿西行历流沙至罽宾师事高僧研习律藏并求得梵本而后东归
+  phases:
+  - key: brewing
+    name: 凉州出家立志求法
+    labels:
+      zh: 出家立志
+    start_date: 0380
+    highlight_event_id: guji-智严-event-birth
+  - key: breakthrough
+    name: 发足西行渡流沙
+    labels:
+      zh: 西行发足
+    start_date: '0400'
+    highlight_event_id: guji-智严-event-1
+  - key: climax
+    name: 罽宾学律得梵本
+    labels:
+      zh: 学律得本
+    start_date: '0405'
+    highlight_event_id: guji-智严-event-1
+  - key: closure
+    name: 携经东归至扬州
+    labels:
+      zh: 携经东归
+    start_date: '0412'
+    highlight_event_id: guji-智严-event-2
+  decisions:
+  - date: '0400'
+    title_zh: 决意西行求律
+    rationale: 见中土律藏未备欲亲往罽宾求取全本以正僧制
+  - date: '0412'
+    title_zh: 携梵本归宋传弘
+    rationale: 西土学成念故土未闻全法愿归扬以梵本利济众生
+- id: guji-智严-endeavor-2
+  title_zh: 归宋共译弘传斋戒
+  summary_zh: 归国后住京师道场寺与宝云共译众经译出四天王经宣说四王伺察持斋守戒奉亲行慈之法广化朝野
+  phases:
+  - key: brewing
+    name: 抵京住寺通好朝野
+    labels:
+      zh: 住寺弘化
+    start_date: '0415'
+    highlight_event_id: guji-智严-event-2
+  - key: breakthrough
+    name: 与宝云敷座开译
+    labels:
+      zh: 共译开筵
+    start_date: '0424'
+    highlight_event_id: guji-智严-event-3
+  - key: climax
+    name: 译出四天王经劝斋
+    labels:
+      zh: 译经劝善
+    start_date: '0424'
+    highlight_event_id: guji-智严-event-3
+  - key: closure
+    name: 弘化终老示寂京师
+    labels:
+      zh: 弘终示寂
+    start_date: '0430'
+    highlight_event_id: guji-智严-event-death
+  decisions:
+  - date: '0424'
+    title_zh: 与宝云共译四天王经
+    rationale: 欲以天王伺察斋日因果劝人持五戒行六斋故选译此经
+  - date: '0430'
+    title_zh: 以孝亲行慈劝俗守戒
+    rationale: 见世薄孝衰杀盗渐盛故力弘奉亲忠孝慈育以挽颓风
+events:
+- id: guji-智严-event-birth
+  title_zh: 生于凉州张掖赵氏
+  date: '0360'
+  year_of: 360
+  type: birth
+  summary_zh: 东晋升平年间生于凉州张掖赵氏少而好学二十出家精研禅律
+  place_zh: 凉州张掖
+- id: guji-智严-event-1
+  title_zh: 西行至罽宾求律学法
+  date: '0405'
+  year_of: 405
+  type: 求法
+  summary_zh: 发足西行历险至罽宾从名僧学律数载研习梵本深得戒律纲宗
+  place_zh: 罽宾
+- id: guji-智严-event-2
+  title_zh: 携梵本东归抵扬州
+  date: '0412'
+  year_of: 412
+  type: 归国
+  summary_zh: 携所得梵经由西域东还经流沙抵扬州深受僧俗迎敬
+  place_zh: 扬州
+- id: guji-智严-event-3
+  title_zh: 与宝云共译四天王经
+  date: '0424'
+  year_of: 424
+  type: 译经
+  summary_zh: 于京师道场寺与宝云同译宣说四天王月六斋日伺察善恶持斋获福犯戒致殃之义
+  place_zh: 京师道场寺
+- id: guji-智严-event-death
+  title_zh: 示寂于京师
+  date: '0437'
+  year_of: 437
+  type: death
+  summary_zh: 弘化数十载译经授戒功成于元嘉十四年左右示寂僧俗悲慕
+  place_zh: 京师

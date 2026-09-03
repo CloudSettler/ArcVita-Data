@@ -6,127 +6,130 @@ person:
     en: An Shigao
   lifespan:
     birth:
-      date: '0100'
+      date: 0100-01-01
       precision: year
       is_circa: true
-      raw: 安息国太子约东汉前期生
+      raw: 约二世纪初生于安息国王室
     death:
-      date: 0168
+      date: 0170-01-01
       precision: year
       is_circa: true
-      raw: 约东汉建宁年间卒于江南
-  birth_date: '0100'
-  death_date: 0168
+      raw: 约东汉建宁末卒于会稽
+  birth_date: 0100-01-01
+  death_date: 0170-01-01
   era: 东汉
-  reign_ref: 汉桓帝至汉灵帝
-  archetype: 译经弘法者
+  reign_ref: 汉桓帝至汉灵帝时
+  archetype: 舍王出家译经宗师
   dilemmas:
-  - 舍国王位与出家求法之抉择
-  - 留安息弘化与东来汉土译经之抉择
-  lesson: 舍荣位而弘正法以译经持戒利济后世
-  summary_first_person: 我本安息太子让位出家精通三藏东来洛阳译出家缘经明五戒因缘复传禅法南游教化愿以戒定慧度脱众生
+  - 王位继承与出家求道之舍得
+  - 胡语佛义与汉语传达之会通
+  - 因果冥报难信与教化劝善之坚持
+  lesson: 舍荣求道以译经化俗，明善恶因果使人迁善远罪
+  summary_first_person: 我本安息国太子，舍王位而出家，博晓经论，汉桓帝时来至洛阳，译出禅数因果诸经，宣说十八泥犁苦报，劝人知佛道而行善，后南游会稽以终。
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%87%BA%E5%AE%B6%E7%BC%98%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%87%BA%E5%AE%B6%E7%BC%98%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘单译经/佛说十八泥犁经.md
+  - https://daizhige.org/佛藏/乾隆藏/小乘单译经/佛说十八泥犁经.html
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 东来洛阳译出家缘经弘五戒
-  description_zh: 在王舍耆阇崛山因缘下译出佛为难提等说杀盗淫妄酒恶报弘扬优婆塞五戒
+  title_zh: 东来洛阳开创译场
+  summary_zh: 自安息避位东来，于洛阳敷设译场，口授胡汉，助译审定，开中土译经之先声。
   phases:
   - key: brewing
-    name: 让位出家精研三藏
+    name: 舍国出家博学三藏
     labels:
-      zh: 发心东行
-    start_date: '0147'
+      zh:
+      - 求法蓄德
+    start_date: 0130-01-01
+    highlight_event_id: guji-安世高-event-birth
+  - key: breakthrough
+    name: 建和初至洛阳立足
+    labels:
+      zh:
+      - 初译弘通
+    start_date: 0148-01-01
     highlight_event_id: guji-安世高-event-arrive-luoyang
-  - key: breakthrough
-    name: 初到洛阳开译出家缘经
-    labels:
-      zh: 首译戒经
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-translate-chujia
   - key: climax
-    name: 广说五戒十恶饮酒三十五恶
+    name: 二十年间译经不辍
     labels:
-      zh: 戒法大弘
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-translate-chujia
+      zh:
+      - 译经鼎盛
+    start_date: 0152-01-01
+    highlight_event_id: guji-安世高-event-translate-shiba-nili
   - key: closure
-    name: 难提五百居士受持奉行
+    name: 南游江东传法授徒
     labels:
-      zh: 信众受持
-    start_date: 0149
-    highlight_event_id: guji-安世高-event-translate-chan
-  decisions:
-  - date: '0147'
-    title_zh: 决意舍位东来汉土
-    rationale: 安息佛法已弘而汉土未闻当往洛阳译经布道
-  - date: 0148
-    title_zh: 首译出家缘经明因果
-    rationale: 居士多犯五戒当先明杀盗淫妄酒之恶报以立戒基
-- id: guji-安世高-endeavor-2
-  title_zh: 译禅数诸经南游弘化
-  description_zh: 继译安般守意阴持入等人本欲生等三十余部开中土禅学复南游豫章会稽传法度众
-  phases:
-  - key: brewing
-    name: 洛阳译经化众渐广
-    labels:
-      zh: 禅学奠基
-    start_date: '0150'
-    highlight_event_id: guji-安世高-event-translate-chan
-  - key: breakthrough
-    name: 译安般守意等禅经
-    labels:
-      zh: 弘传禅法
-    start_date: '0151'
-    highlight_event_id: guji-安世高-event-translate-chan
-  - key: climax
-    name: 南游豫章会稽说法度众
-    labels:
-      zh: 南方弘化
-    start_date: '0167'
-    highlight_event_id: guji-安世高-event-south
-  - key: closure
-    name: 示寂江南道化长存
-    labels:
-      zh: 圆寂传法
-    start_date: 0168
+      zh:
+      - 南化收束
+    start_date: 0168-01-01
     highlight_event_id: guji-安世高-event-death
   decisions:
-  - date: '0150'
-    title_zh: 决定兼弘禅数止观
-    rationale: 戒后须定当译禅经令人本欲生以安般守意摄心
-  - date: '0167'
-    title_zh: 决定南游吴越弘化
-    rationale: 北方经已粗定当往南方未化之地广度有缘
+  - date: 0148-01-01
+    title_zh: 舍安息王位东行汉土
+    rationale: 让国与叔，出家修道，为弘法故不惮远涉，选择汉地为教化之土
+  - date: 0150-01-01
+    title_zh: 定口授笔受译经体例
+    rationale: 胡语未通汉义难晓，故立译场分工，使义理不失而文辞可晓
+- id: guji-安世高-endeavor-2
+  title_zh: 译说十八泥犁明善恶报
+  summary_zh: 译出佛说十八泥犁经，详陈八火犁十寒犁之名状寿量苦毒，发明善多上天恶多入犁之理。
+  phases:
+  - key: brewing
+    name: 观汉俗淫杀不明因果
+    labels:
+      zh:
+      - 观察机缘
+    start_date: 0148-01-01
+    highlight_event_id: guji-安世高-event-arrive-luoyang
+  - key: breakthrough
+    name: 取泥犁本而敷陈业报
+    labels:
+      zh:
+      - 发起译述
+    start_date: 0152-01-01
+    highlight_event_id: guji-安世高-event-translate-shiba-nili
+  - key: climax
+    name: 备述十八犁苦寿倍增
+    labels:
+      zh:
+      - 详示苦报
+    start_date: 0153-01-01
+    highlight_event_id: guji-安世高-event-translate-shiba-nili
+  - key: closure
+    name: 劝知佛道迁善上天
+    labels:
+      zh:
+      - 劝善流通
+    start_date: 0155-01-01
+    highlight_event_id: guji-安世高-event-death
+  decisions:
+  - date: 0152-01-01
+    title_zh: 先译泥犁小经警世
+    rationale: 世人见日少不见日多，故先示地狱深浅迟速之报，使畏苦而修善
+  - date: 0153-01-01
+    title_zh: 存质直文示寿量倍数
+    rationale: 保留二十倍增苦、芥种量寿之说，令因果轻重可计量而易信受
 events:
 - id: guji-安世高-event-birth
   title_zh: 出生于安息国王室
-  date: '0100'
+  date: 0100-01-01
   year_of: 100
-  description_zh: 安息太子生聪敏好学让位叔父出家学道精通三藏
+  place_zh: 安息国
+  description: 安息国太子，清字世高，幼以孝行闻，博学群经，通晓三藏。
 - id: guji-安世高-event-arrive-luoyang
-  title_zh: 东来抵达洛阳
-  date: '0148-01-01'
+  title_zh: 建和年间抵达洛阳
+  date: 0148-01-01
   year_of: 148
-  description_zh: 汉桓帝时自安息东来洛阳通习汉语开始译经
-- id: guji-安世高-event-translate-chujia
-  title_zh: 译出佛说出家缘经
-  date: '0148-06-01'
-  year_of: 148
-  description_zh: 译佛在耆阇崛山为难提等五百优婆塞说五戒杀盗淫妄各十恶及饮酒三十五恶
-- id: guji-安世高-event-translate-chan
-  title_zh: 译安般守意等禅经
-  date: '0150-01-01'
-  year_of: 150
-  description_zh: 译大安般守意阴持入道地等人本欲生等开中土禅数之学
-- id: guji-安世高-event-south
-  title_zh: 南游豫章会稽弘法
-  date: '0167-01-01'
-  year_of: 167
-  description_zh: 南游豫章会稽宣讲戒定慧感化士俗神异甚多
+  place_zh: 洛阳
+  description: 汉桓帝建和二年左右至洛阳，敷演佛法，开始译经，二十余年译出数十部。
+- id: guji-安世高-event-translate-shiba-nili
+  title_zh: 译出佛说十八泥犁经
+  date: 0152-01-01
+  year_of: 152
+  place_zh: 洛阳
+  description: 译说八火泥犁先就至不卢都般呼，十寒泥犁乌竟都至沈莫，明善恶轻重入犁迟速之报。
 - id: guji-安世高-event-death
-  title_zh: 卒于江南弘化途中
-  date: '0168-01-01'
-  year_of: 168
-  description_zh: 建宁年间卒于豫章或会稽世寿不详道化永传
+  title_zh: 南游会稽示寂
+  date: 0170-01-01
+  year_of: 170
+  place_zh: 会稽
+  description: 译业既竟，南游吴会，宣化江东，终卒于会稽，灵异多传于世。
