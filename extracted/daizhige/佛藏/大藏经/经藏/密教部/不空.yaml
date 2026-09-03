@@ -8,131 +8,133 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: true
-      raw: 唐神龙元年生于狮子国
-    death:
-      date: '0774-06-15'
-      precision: day
       is_circa: false
-      raw: 唐大历九年六月十五卒于长安
+      raw: 唐神龙元年
+    death:
+      date: '0774'
+      precision: year
+      is_circa: false
+      raw: 唐大历九年
   birth_date: '0705'
-  death_date: '0774-06-15'
+  death_date: '0774'
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 密教传译护国法师
+  reign_ref: 唐玄宗至唐代宗朝
+  archetype: 密教译经祖师
   dilemmas:
-  - 梵汉悬隔如何使词质文梗转为妙言便利
-  - 密咒神力如何普被救难而不违悲智正道
-  lesson: 以精审翻译续贝叶之传，以慈悲护念息众生之苦
-  summary_first_person: 吾本异域之人来游震旦，承金刚智三藏之教，奉三朝之诏，于大明宫译佛母大金曜孔雀明王经三卷，综诸部梵本勘会详审，兼画像坛场轨式，愿此法灯常耀，法界清安
+  - 生老病死俱为怖畏而死怖最难对治当以何法愍济群生
+  - 身为胡僧受三朝殊礼当以何道会通显密护国利民
+  lesson: 以慈悲愿力集如来威神说延命陀罗尼转非命业增寿命色力护持众生远离夭死
+  summary_first_person: 我是不空幼入大唐师事金刚智与善无畏远赴狮子国求法归而奉诏译经今译此一切如来金刚寿命陀罗尼愿众生持诵增寿远离非命怖畏
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E6%AF%8D%E5%A4%A7%E5%AD%94%E9%9B%80%E6%98%8E%E7%8E%8B%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E6%AF%8D%E5%A4%A7%E5%AD%94%E9%9B%80%E6%98%8E%E7%8E%8B%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20
+  - https://cbeta.org/result/T1135
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 承师入唐传习密藏
-  summary: 幼遇金刚智东来入洛，习瑜伽总持，赴南海求法复归长安，奠定传译之基
+  title_zh: 师承双圣远求密法弘传两界
+  description: 十五岁拜金刚智为师继受善无畏灌顶泛海赴狮子国求得密典仪轨归唐弘传为三朝国师
   phases:
   - key: brewing
-    name: 随师东来入洛
+    name: 入唐拜师
     labels:
-      zh: 遇师入唐
+      zh:
+      - 求法学经
     start_date: 0719
-    highlight_event_id: guji-不空-event-arrive-luoyang
+    highlight_event_id: guji-不空-event-study
   - key: breakthrough
-    name: 亲承灌顶传法
+    name: 泛海求法
     labels:
-      zh: 亲承密法
-    start_date: '0720'
-    highlight_event_id: guji-不空-event-arrive-luoyang
+      zh:
+      - 取经得法
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-seek
   - key: climax
-    name: 南游求法得梵本
+    name: 归唐弘传
     labels:
-      zh: 南游求经
-    start_date: '0742'
-    highlight_event_id: guji-不空-event-seek-dharma
-  - key: closure
-    name: 复归长安弘传
-    labels:
-      zh: 复归弘传
+      zh:
+      - 弘法护国
     start_date: '0746'
-    highlight_event_id: guji-不空-event-seek-dharma
-  decisions:
-  - date: 0719
-    title_zh: 随侍金刚智入唐
-    rationale: 慕大乘密教总持速疾，舍乡国而从师，欲以真诠利震旦
-  - date: '0742'
-    title_zh: 赴狮子国广求梵本仪轨
-    rationale: 师灭法器未足，须亲诣南海诸国求梵本师授，方能精审传译
-- id: guji-不空-endeavor-2
-  title_zh: 奉诏译佛母大孔雀明王经
-  summary: 奉诏于大明宫综诸部梵本重译三卷，兼定读诵启请画像坛场，使灵符显而万障祛
-  phases:
-  - key: brewing
-    name: 综寻诸部梵本
-    labels:
-      zh: 勘会梵本
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-translate-mayura
-  - key: breakthrough
-    name: 大明宫奉诏开译
-    labels:
-      zh: 奉诏开译
-    start_date: '0747'
-    highlight_event_id: guji-不空-event-translate-mayura
-  - key: climax
-    name: 三卷勒成普流
-    labels:
-      zh: 译成弘布
-    start_date: '0750'
-    highlight_event_id: guji-不空-event-confer
+    highlight_event_id: guji-不空-event-return
   - key: closure
-    name: 付嘱护国利民
+    name: 兴善传灯
     labels:
-      zh: 护国付嘱
-    start_date: '0774'
+      zh:
+      - 传灯付法
+    start_date: '0760'
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0747'
-    title_zh: 重译孔雀明王经为三卷
-    rationale: 旧译词质文梗致神洲少布，须勘会委的更重详审，兼画像坛场以利诵持
-  - date: '0750'
-    title_zh: 制启请读诵仪以应众求
-    rationale: 末代多逢留难众邪为患，立启请结界称名之法，使求雨止雨息灾皆验
+  - date: '0720'
+    title_zh: 拜金刚智为师受具传密
+    rationale: 慕金刚顶殊胜舍俗从师奠定译经弘法之基
+  - date: '0741'
+    title_zh: 决意赴狮子国求阙法
+    rationale: 为补密典仪轨阙失不畏海途艰险广求灌顶传承
+- id: guji-不空-endeavor-2
+  title_zh: 奉诏译出寿命陀罗尼护国延命
+  description: 愍生老病死中死怖遍恼召集十方如来宣说金刚寿命陀罗尼并感四天王各说护世延命咒流通人间
+  phases:
+  - key: brewing
+    name: 悲愍缘起
+    labels:
+      zh:
+      - 缘起悲愍
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-return
+  - key: breakthrough
+    name: 集佛说咒
+    labels:
+      zh:
+      - 集佛说咒
+    start_date: '0770'
+    highlight_event_id: guji-不空-event-translate
+  - key: climax
+    name: 天王护世
+    labels:
+      zh:
+      - 护世延命
+    start_date: '0770'
+    highlight_event_id: guji-不空-event-translate
+  - key: closure
+    name: 流通功德
+    labels:
+      zh:
+      - 流通功德
+    start_date: '0771'
+    highlight_event_id: guji-不空-event-death
+  decisions:
+  - date: '0770'
+    title_zh: 奉诏译出寿命陀罗尼经
+    rationale: 以如来威神转众生非命业使增寿命色力无夭死怖
+  - date: '0771'
+    title_zh: 劝众日日受持流通
+    rationale: 令持诵者远离恶梦魇魅水火兵毒得佛菩萨摄受护念
 events:
 - id: guji-不空-event-birth
-  title_zh: 生于狮子国
+  title_zh: 生于北天竺婆罗门家
   date: '0705'
   year_of: 705
-  place_zh: 狮子国
-  description: 唐神龙元年约生异域，幼慧好学，后遇金刚智而从之
-- id: guji-不空-event-arrive-luoyang
-  title_zh: 随金刚智抵洛阳
-  date: 0719
-  year_of: 719
-  place_zh: 洛阳
-  description: 年十五随金刚智三藏经西域入洛，始习梵汉瑜伽密教
-- id: guji-不空-event-seek-dharma
-  title_zh: 南游狮子国求法东还
+  description: 唐神龙元年生幼失怙恃随叔父东来大唐
+- id: guji-不空-event-study
+  title_zh: 拜金刚智善无畏受学密法
+  date: '0720'
+  year_of: 720
+  description: 十五岁遇金刚智于长安拜为师受菩萨戒复从善无畏受胎藏法
+- id: guji-不空-event-seek
+  title_zh: 泛海赴狮子国求法
+  date: '0741'
+  year_of: 741
+  description: 奉师遗命与弟子泛海赴狮子国广求密典灌顶仪轨
+- id: guji-不空-event-return
+  title_zh: 携经归唐弘传密教
   date: '0746'
   year_of: 746
-  place_zh: 长安
-  description: 金刚智示寂后，南游南海诸国广得梵本仪轨，复归长安传授
-- id: guji-不空-event-translate-mayura
-  title_zh: 大明宫译佛母大孔雀明王经
-  date: '0747'
-  year_of: 747
-  place_zh: 大明宫
-  description: 奉诏于大明宫综寻梵本译佛母大金曜孔雀明王经三卷，并定启请读诵坛场之式
-- id: guji-不空-event-confer
-  title_zh: 封肃国公弘密护国
-  date: '0765'
-  year_of: 765
-  place_zh: 长安大兴善寺
-  description: 累朝礼遇加开府仪同三司特进试鸿胪卿封肃国公，住大兴善寺广弘密化祈福禳灾
+  description: 携五百余部密典归长安历玄宗肃宗代宗三朝礼为国师弘传两界大法
+- id: guji-不空-event-translate
+  title_zh: 奉诏译寿命陀罗尼经
+  date: '0770'
+  year_of: 770
+  description: 于殑伽河侧缘起奉诏译出一切如来金刚寿命陀罗尼及四天王护世神咒劝众受持延命
 - id: guji-不空-event-death
-  title_zh: 示寂于长安
-  date: '0774-06-15'
+  title_zh: 圆寂于大兴善寺
+  date: '0774'
   year_of: 774
-  place_zh: 长安
-  description: 唐大历九年六月十五示寂，赠司空谥大鉴正号大广智，塔于龙门
+  description: 唐大历九年六月圆寂于长安大兴善寺年七十赠司空谥大鉴大广智
