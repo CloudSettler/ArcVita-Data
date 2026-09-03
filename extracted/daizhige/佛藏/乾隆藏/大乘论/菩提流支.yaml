@@ -6,139 +6,101 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: 0490-01-01
+      date: 0480
       precision: year
       is_circa: true
       raw: 约五世纪末生于北天竺
     death:
-      date: 0527-01-01
+      date: '0527'
       precision: year
-      is_circa: true
-      raw: 约北魏孝昌年间卒于洛阳
-  birth_date: 0490-01-01
-  death_date: 0527-01-01
+      is_circa: false
+      raw: 北魏孝昌三年卒于洛阳
+  birth_date: 0480
+  death_date: '0527'
   era: 北魏
-  reign_ref: 北魏宣武孝明时
-  archetype: 译经三藏法师
+  reign_ref: 北魏宣武帝永平至孝明帝孝昌
+  archetype: 译场弘法者
   dilemmas:
-  - 梵本深密与华俗浅近之间如何取舍译语
-  - 大乘空有并弘时如何持中令法久住
-  lesson: 欲令法久住须敬法敬师不忘菩提心自利利他兼行
-  summary_first_person: 我是北天竺来洛之菩提流支永平入魏广译大乘论典释宝积十六相差别令正行久住中土
+  - 梵汉悬隔如何既忠实经义又通达华言
+  - 依王室译场如何不舍利众本愿不堕名利
+  lesson: 以深心摄持施戒慈悲方便般若八法不退菩提不取二乘速成萨婆若
+  summary_first_person: 吾自北天竺远来止于洛阳蒙敕令译梵典发深心行舍慈悲方便般若译弥勒所问七卷愿与众生同住欢喜地不退无上菩提
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/大乘论/大宝积经论.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘论/大宝积经论.md
+  - https://cbetaonline.dila.edu.tw/zh/T1525
+  - https://daizhige.org/弥勒菩萨所问经论.html
 endeavors:
 - id: guji-菩提流支-endeavor-1
-  title_zh: 赴洛弘译大乘经论
-  summary_zh: 永平入洛与勒那摩提等共译十地经论及诸般若法门奠定地论宗译业
+  title_zh: 应诏入洛建译场译大乘典
+  summary: 永平入华主持翻译三十余部立大乘义宗
   phases:
   - key: brewing
-    name: 初至洛阳
+    name: 初至洛阳习华言
     labels:
-      zh: 赴洛
-    start_date: 0508-01-01
+      zh:
+      - 初入华地
+    start_date: 0508
     highlight_event_id: guji-菩提流支-event-arrive
-  - key: breakthrough
-    name: 共译十地经论
-    labels:
-      zh: 突破
-    start_date: 0511-01-01
-    highlight_event_id: guji-菩提流支-event-shidi
   - key: climax
-    name: 广译大乘经论
+    name: 译场大开广出经论
     labels:
-      zh: 高峰
-    start_date: 0520-01-01
+      zh:
+      - 译经弘传
+    start_date: 0509
+    highlight_event_id: guji-菩提流支-event-translate
+  decisions:
+  - date: 0508
+    title_zh: 留止洛阳应诏翻译
+    rationale: 为令华土具足大乘经论不断佛种故依王命建译场
+  - date: 0509
+    title_zh: 先译十地等大部以立宗本
+    rationale: 不定聚菩萨须正因行故先示地行位次免堕二乘
+- id: guji-菩提流支-endeavor-2
+  title_zh: 译解弥勒所问弘八法不退
+  summary: 译七卷论释八法摄行令入初地住欢喜
+  phases:
+  - key: breakthrough
+    name: 敷演深心等八法
+    labels:
+      zh:
+      - 弥勒所问
+    start_date: '0511'
     highlight_event_id: guji-菩提流支-event-translate
   - key: closure
-    name: 译业圆满示寂
+    name: 流通付嘱住佛家
     labels:
-      zh: 收束
-    start_date: 0527-01-01
+      zh:
+      - 付嘱流通
+    start_date: '0520'
     highlight_event_id: guji-菩提流支-event-death
   decisions:
-  - date: 0508-01-01
-    title_zh: 应请赴洛阳译场
-    rationale: 为令大乘法久住中土不辞远来亲近魏室译场
-  - date: 0511-01-01
-    title_zh: 先译十地经论立宗本
-    rationale: 以十地行位摄大乘修证先立纲宗后释余经
-- id: guji-菩提流支-endeavor-2
-  title_zh: 释宝积经十六相宝积义
-  summary_zh: 释宝积经为大乘法宝总聚以二十二四句明邪正行退益劝发菩提心成大智
-  phases:
-  - key: brewing
-    name: 标宝积总名
-    labels:
-      zh: 酝酿
-    start_date: 0518-01-01
-    highlight_event_id: guji-菩提流支-event-translate
-  - key: breakthrough
-    name: 析十六相差别
-    labels:
-      zh: 立义
-    start_date: 0520-01-01
-    highlight_event_id: guji-菩提流支-event-preach
-  - key: climax
-    name: 示退智忘心之失
-    labels:
-      zh: 劝诫
-    start_date: 0522-01-01
-    highlight_event_id: guji-菩提流支-event-preach
-  - key: closure
-    name: 释成四智不忘心
-    labels:
-      zh: 成论
-    start_date: 0524-01-01
-    highlight_event_id: guji-菩提流支-event-translate
-  decisions:
-  - date: 0520-01-01
-    title_zh: 以十六相摄尽大乘法宝
-    rationale: 欲令学者一经尽览染净退益故立宝积聚义
-  - date: 0522-01-01
-    title_zh: 重说敬法敬师发菩提心
-    rationale: 以不敬吝法我慢为退智因以妄语谄曲为忘心因故须对治
+  - date: '0511'
+    title_zh: 译弥勒菩萨所问经论七卷
+    rationale: 为遮无因颠倒因示正因果令不定聚入正定聚故
+  - date: '0512'
+    title_zh: 以婆薮槃豆释义系经下
+    rationale: 以方便般若摄施戒修令菩萨行异于外道二乘故存论义
 events:
 - id: guji-菩提流支-event-birth
-  type: birth
-  title_zh: 诞生北天竺
-  date: 0490-01-01
-  year_of: 490
-  place_zh: 北天竺
-  summary_zh: 约五世纪末生于北天竺婆罗门家少通三藏善大乘
+  title_zh: 生于北天竺
+  date: 0480
+  year_of: 480
+  place: 北天竺
+  description: 生习梵典通三藏后发意东来弘化
 - id: guji-菩提流支-event-arrive
-  type: career
-  title_zh: 永平赴洛入译场
-  date: 0508-01-01
+  title_zh: 永平元年至洛阳
+  date: 0508
   year_of: 508
-  place_zh: 洛阳
-  summary_zh: 北魏宣武帝永平元年至洛阳入译场从此开魏室大乘译业
-- id: guji-菩提流支-event-shidi
-  type: career
-  title_zh: 共译十地经论
-  date: 0511-01-01
-  year_of: 511
-  place_zh: 洛阳
-  summary_zh: 与勒那摩提等共译十地经论弘阐菩萨地行奠定地论学统
+  place: 洛阳
+  description: 自北天竺至魏都宣武帝敕迎入译场习华言
 - id: guji-菩提流支-event-translate
-  type: career
-  title_zh: 译释大宝积经论
-  date: 0520-01-01
-  year_of: 520
-  place_zh: 洛阳
-  summary_zh: 译释大宝积经论四卷归命世间救庄严十六种真实微妙义明王舍集会缘起
-- id: guji-菩提流支-event-preach
-  type: career
-  title_zh: 宣说邪正行与菩提心
-  date: 0522-01-01
-  year_of: 522
-  place_zh: 洛阳
-  summary_zh: 依迦叶问明二十二四句邪行退智正行成智及四法忘失不忘菩提心
+  title_zh: 译弥勒菩萨所问经论
+  date: '0511'
+  year_of: 511
+  place: 洛阳译场
+  description: 译弥勒菩萨所问经论七卷明深心行心舍心等八法不退菩提
 - id: guji-菩提流支-event-death
-  type: death
-  title_zh: 示寂于洛阳
-  date: 0527-01-01
+  title_zh: 卒于洛阳
+  date: '0527'
   year_of: 527
-  place_zh: 洛阳
-  summary_zh: 约孝昌年间示寂于洛译经三十余部一百余卷法施不绝
+  place: 洛阳
+  description: 孝昌三年示寂译业凡三十余部百余卷弟子传持不绝
