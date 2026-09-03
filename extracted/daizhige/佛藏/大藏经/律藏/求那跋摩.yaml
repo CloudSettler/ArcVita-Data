@@ -6,133 +6,144 @@ person:
     en: Gunavarman
   lifespan:
     birth:
-      date: '0367'
+      date: 247
       precision: year
-      is_circa: false
-      raw: 晋太和二年
+      is_circa: true
+      raw: 约晋孝武帝太元十二年
     death:
-      date: '0431'
+      date: 281
       precision: year
       is_circa: false
-      raw: 宋元嘉八年
-  birth_date: '0367'
-  death_date: '0431'
-  era: 南北朝刘宋
+      raw: 宋文帝元嘉八年
+  birth_date: 247
+  death_date: 281
+  era: 刘宋
   reign_ref: 宋文帝元嘉
-  archetype: 弘律译经高僧
+  archetype: 译经弘律高僧
   dilemmas:
-  - 王族富贵与舍俗学律之间当舍位求法
-  - 语言隔阂与弘律济俗之间当随缘译经立制
-  lesson: 以戒为师持而不犯则成佛道犯而能悔尚可自济弘律方能利俗
-  summary_first_person: 我本罽宾王族舍位出家精通毗尼远化师子国复东入刘宋于建康译优婆塞五戒相经为净饭王请法之缘令优婆塞识杀盗淫妄酒轻重可悔持戒不犯以成佛道
+  - 坚持苦行持律与随方善巧化众之间如何权衡
+  - 安住西域利养供养与冒险东行弘法之间如何抉择
+  lesson: 以戒为师以译续慧命，弘法当持律精严而心怀慈济
+  summary_first_person: 我是求那跋摩，生于罽宾婆罗门家，少出家精律部，历锡兰爪哇弘化，后应宋文帝请至建康，译出菩萨善戒内戒等经，以菩萨戒接引道俗，不久示寂，愿以戒光长照末世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E4%BD%9B%E8%AF%B4%E4%BC%98%E5%A9%86%E5%A1%9E%E4%BA%94%E6%88%92%E7%9B%B8%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E4%BD%9B%E8%AF%B4%E4%BC%98%E5%A9%86%E5%A1%9E%E4%BA%94%E6%88%92%E7%9B%B8%E7%BB%8F.html
+  - https://daizhige.org佛藏大藏经律藏佛说菩萨内戒经.html
+  - https://cbetaonline.dila.edu.tw/zh/T1487
+  - https://github.com/daizhige-org/daizhigev20
 endeavors:
 - id: guji-求那跋摩-endeavor-1
-  title_zh: 罽宾学律师子国弘化
-  summary: 王族出家精通三藏律部远赴师子国弘化奠定译律之基
+  title_zh: 西域学律与南海弘化
+  description: 生于罽宾婆罗门家，出家通三藏，尤精律部，游锡兰爪哇讲律摄众，声名播于南海
   phases:
   - key: brewing
-    name: 王族出家学律
+    name: 罽宾出家学律
     labels:
-      zh: 舍俗学律
-    start_date: 0385
-    highlight_event_id: guji-求那跋摩-event-ordination
+      zh:
+      - 出家
+      - 学律
+    start_date: 0380
+    highlight_event_id: guji-求那跋摩-event-study
   - key: breakthrough
-    name: 精通毗尼三藏
+    name: 锡兰讲律扬名
     labels:
-      zh: 通达律藏
-    start_date: 0395
-    highlight_event_id: guji-求那跋摩-event-ordination
+      zh:
+      - 弘律
+    start_date: 256
+    highlight_event_id: guji-求那跋摩-event-study
   - key: climax
-    name: 师子国弘法
+    name: 爪哇摄众化俗
     labels:
-      zh: 海外弘律
-    start_date: 0418
-    highlight_event_id: guji-求那跋摩-event-srilanka
+      zh:
+      - 海外弘化
+    start_date: 272
+    highlight_event_id: guji-求那跋摩-event-sojourn
   - key: closure
-    name: 应请东行震旦
+    name: 应请决意东行
     labels:
-      zh: 发愿东渡
+      zh:
+      - 东行之志
     start_date: 0428
-    highlight_event_id: guji-求那跋摩-event-arrival
+    highlight_event_id: guji-求那跋摩-event-sojourn
   decisions:
-  - date: 0387
-    title_zh: 舍王位出家专学毗尼
-    rationale: 深信戒为成佛之本故舍富贵而求律学
-  - date: 0418
-    title_zh: 赴师子国弘化不恋本土
-    rationale: 为令正法久住异域故随缘远行教化四众
+  - date: 261
+    title_zh: 不恋国王利养坚持游化
+    rationale: 若贪供养则道业荒废，唯游化四方方能广利众生故舍名利而行
+  - date: 0428
+    title_zh: 应宋使之请东赴建康
+    rationale: 中土乐法渴仰戒律，机缘已熟，当冒海难东行以续慧命
 - id: guji-求那跋摩-endeavor-2
-  title_zh: 元嘉入宋译出五戒相经
-  summary: 宋文帝迎请住建康祇洹寺译出五戒相经等令优婆塞识可悔不可悔
+  title_zh: 建康译经与菩萨戒传授
+  description: 元嘉八年至建康祇洹寺，宋文帝及道俗迎请，译菩萨内戒经等，以十五日说戒十二时正戒开化道俗
   phases:
   - key: brewing
-    name: 泛海东至建康
+    name: 初至建康祇洹寺
     labels:
-      zh: 入宋弘化
-    start_date: '0431'
+      zh:
+      - 初至
+    start_date: 281
     highlight_event_id: guji-求那跋摩-event-arrival
   - key: breakthrough
-    name: 文帝迎请译经
+    name: 面见文帝深相敬信
     labels:
-      zh: 君臣崇法
-    start_date: '0431'
-    highlight_event_id: guji-求那跋摩-event-translation
+      zh:
+      - 王臣归信
+    start_date: 281
+    highlight_event_id: guji-求那跋摩-event-arrival
   - key: climax
-    name: 译出五戒相经
+    name: 译出菩萨内戒经
     labels:
-      zh: 分别轻重
-    start_date: '0431'
-    highlight_event_id: guji-求那跋摩-event-translation
+      zh:
+      - 译经
+      - 传戒
+    start_date: 281
+    highlight_event_id: guji-求那跋摩-event-translate
   - key: closure
-    name: 示寂建康
+    name: 示寂建康众咸悲慕
     labels:
-      zh: 戒身长存
-    start_date: '0431'
+      zh:
+      - 示寂
+    start_date: 281
     highlight_event_id: guji-求那跋摩-event-death
   decisions:
-  - date: '0431'
-    title_zh: 应宋请译律藏分别五戒
-    rationale: 净饭王请法在先优婆塞疑惑未除故须明犯戒轻重
-  - date: '0431'
-    title_zh: 详陈酒戒引莎伽陀降龙失仪
-    rationale: 圣人饮酒尚失威仪况凡夫故须制酒戒以全戒身
+  - date: 281
+    title_zh: 先传菩萨戒后译律论
+    rationale: 中土初机未堪广律，先以菩萨内戒四十七戒等摄心，令生信向再进大法
+  - date: 281
+    title_zh: 以文殊问佛因缘开演十二时戒
+    rationale: 借文殊大智启问，令戒法易入，使道俗皆得沤和拘舍罗方便故也
 events:
 - id: guji-求那跋摩-event-birth
-  title_zh: 出生于罽宾王家
-  date: '0367'
+  date: 247
   year_of: 367
+  title_zh: 诞生于罽宾婆罗门家
   place_zh: 罽宾
-  description: 晋太和二年生于罽宾王族少聪睿深乐佛法出家学道
-- id: guji-求那跋摩-event-ordination
-  title_zh: 出家受具精通律藏
-  date: 0387
-  year_of: 387
-  place_zh: 罽宾
-  description: 年二十受具足戒博通阿毗昙毗尼声名远播
-- id: guji-求那跋摩-event-srilanka
-  title_zh: 往师子国弘化
-  date: 0418
-  year_of: 418
+  description: 生于中天竺罽宾婆罗门种，幼而聪慧，十八出家，博通三藏尤精毗尼
+- id: guji-求那跋摩-event-study
+  date: 256
+  year_of: 400
+  title_zh: 锡兰讲律声名远播
   place_zh: 师子国
-  description: 泛海至师子国弘扬律藏教化四众数年声德益著
+  description: 往师子国讲律弘化，王民归信，学徒云集，律行精严为南海所宗
+- id: guji-求那跋摩-event-sojourn
+  date: 277
+  year_of: 425
+  title_zh: 住爪哇弘化应宋请
+  place_zh: 阇婆
+  description: 驻锡阇婆讲法化众，宋文帝遣使迎请，决意浮海东行赴建康
 - id: guji-求那跋摩-event-arrival
-  title_zh: 元嘉八年至建康
-  date: '0431'
+  date: 0431-06-01
   year_of: 431
+  title_zh: 抵达建康住祇洹寺
   place_zh: 建康
-  description: 宋文帝迎请至建康住祇洹寺朝野归敬始开译场
-- id: guji-求那跋摩-event-translation
-  title_zh: 译出优婆塞五戒相经
-  date: '0431'
+  description: 元嘉八年至建康，文帝郊迎，勅住祇洹寺，道俗归仰万人空巷
+- id: guji-求那跋摩-event-translate
+  date: 0431-08-01
   year_of: 431
+  title_zh: 译出佛说菩萨内戒经
   place_zh: 建康祇洹寺
-  description: 以净饭王请佛分别五戒为缘详明杀盗淫妄酒犯相轻重可悔不可悔并述莎伽陀因酒失仪以戒酒
+  description: 应文殊启问因缘，译出菩萨内戒经，明三归六度四十七戒及十二时正戒，开菩萨道要门
 - id: guji-求那跋摩-event-death
-  title_zh: 示寂于建康
-  date: '0431'
+  date: 281
   year_of: 431
+  title_zh: 示寂于建康
   place_zh: 建康
-  description: 元嘉八年九月示寂于建康春秋六十有五译业虽短弘律功深
+  description: 译经未竟，忽感疾而终，年六十有五，文帝百官哭送，葬于钟山
