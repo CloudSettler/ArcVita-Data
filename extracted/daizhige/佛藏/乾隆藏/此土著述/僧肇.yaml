@@ -9,120 +9,136 @@ person:
       date: 0384
       precision: year
       is_circa: true
-      raw: 晋孝武帝太元九年京兆人
+      raw: 晋太元九年约
     death:
       date: '0414'
       precision: year
       is_circa: false
-      raw: 晋安帝义熙十年长安示寂
+      raw: 后秦弘始十六年
   birth_date: 0384
   death_date: '0414'
-  era: 东晋
-  reign_ref: 晋孝武帝至晋安帝义熙年间
-  archetype: 般若空宗论师
+  era: 十六国后秦
+  reign_ref: 姚秦弘始
+  archetype: 义学注经僧
   dilemmas:
-  - 有无两见如何双遣而不堕断常
-  - 名教自然如何会通而不乖真俗
-  - 西来般若如何寄中土之言而显离微真一
-  lesson: 守真抱一，不取不舍，离染照微，空有双通，方契如如不動之道
-  summary_first_person: 吾僧肇京兆人也，少好老庄，披维摩而发悟，师事鸠摩罗什于长安，助译众经，造四论以通般若，又述宝藏广照空有离微体净，欲使学者息妄想，见真一，虽年三十而灭，此志無悔矣
+  - 言象难测渊玄而群生长寝非言莫晓
+  - 述而不作恐坠圣意而又须显不思议宗极
+  lesson: 因人弘道述而不作以言象显不二微远
+  summary_first_person: 余以闇短时预听次虽思乏参玄然粗得文意顺所闻为注解述而无作以弘不思议解脱
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%99%8B%E5%83%A7%E8%82%87%E6%B3%95%E5%B8%88%E5%AE%9D%E8%97%8F%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%99%8B%E5%83%A7%E8%82%87%E6%B3%95%E5%B8%88%E5%AE%9D%E8%97%8F%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E7%BB%B4%E6%91%A9%E8%AF%98%E6%89%80%E8%AF%B4%E7%BB%8F%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E7%BB%B4%E6%91%A9%E8%AF%98%E6%89%80%E8%AF%B4%E7%BB%8F%E6%B3%A8.md
 endeavors:
 - id: guji-僧肇-endeavor-1
-  title_zh: 师事罗什助译般若
-  summary: 少年出家，喜览老庄，读维摩经而悟道，姚秦弘始三年投鸠摩罗什门下，随入长安逍遥园助译大品维摩法华诸经，声名冠于时流
+  person_id: guji-僧肇
+  title_zh: 随什入关预译场听讲
+  summary_zh: 师事鸠摩罗什列席长安大寺千二百义学沙门虔听维摩重译
   phases:
   - key: brewing
-    name: 少习老庄初披维摩
+    name: 师事罗什
     labels:
-      zh: 博览转机
-    start_date: 0395
-    highlight_event_id: guji-僧肇-event-birth
-  - key: breakthrough
-    name: 仗剑远投罗什之门
-    labels:
-      zh: 师资相契
+      zh: 问道关中
     start_date: '0401'
-    highlight_event_id: guji-僧肇-event-meet-luoshi
+    highlight_event_id: guji-僧肇-event-follow-luoshi
+  - key: breakthrough
+    name: 预列译场
+    labels:
+      zh: 参预重译
+    start_date: '0406'
+    highlight_event_id: guji-僧肇-event-retranslate-406
   - key: climax
-    name: 长安助译声著关中
+    name: 一言三复
     labels:
-      zh: 译场扬名
-    start_date: '0404'
-    highlight_event_id: guji-僧肇-event-assist-translate
+      zh: 陶冶精求
+    start_date: '0406'
+    highlight_event_id: guji-僧肇-event-retranslate-406
   - key: closure
-    name: 三藏兼通老庄俱会
+    name: 粗得文意
     labels:
-      zh: 学贯华梵
-    start_date: 0408
-    highlight_event_id: guji-僧肇-event-assist-translate
+      zh: 存乎圣意
+    start_date: '0407'
+    highlight_event_id: guji-僧肇-event-annotate-weimo
   decisions:
-  - date: '0401'
-    title_zh: 弃故师投罗什
-    rationale: 以维摩一卷见性空之理，知旧学不契真一，故不顾道远，入关事什为师，求正般若
-  - date: '0404'
-    title_zh: 留译场助定经义
-    rationale: 以华梵兼通，为什门四杰之首，助详定文义，令般若空义明晓中土，不急自立门户
+  - date: '0406'
+    title_zh: 时预听次
+    rationale: 道不孤运弘之由人故以闇短亲承重译存圣意
+  - date: '0406'
+    title_zh: 陶冶精求务存圣意
+    rationale: 支竺旧出理滞于文恐玄宗坠于译人故虔虔三复
 - id: guji-僧肇-endeavor-2
-  title_zh: 造肇论宝藏弘明空有
-  summary: 融会有无，会通名教自然，造般若无知不真空物不迁涅槃无名四论，又述宝藏论广照空有离微体净二品，立中土般若学宗纲
+  person_id: guji-僧肇
+  title_zh: 注维摩诘经弘不二门
+  summary_zh: 顺所闻为注解十卷标不思议解脱以人名经因人弘道以法名经标榜旨归
   phases:
   - key: brewing
-    name: 答难析疑初著无知
+    name: 命意立名
     labels:
-      zh: 破执显空
-    start_date: '0405'
-    highlight_event_id: guji-僧肇-event-assist-translate
+      zh: 人法双标
+    start_date: '0406'
+    highlight_event_id: guji-僧肇-event-retranslate-406
   - key: breakthrough
-    name: 物不迁不真空成篇
+    name: 顺闻作注
     labels:
-      zh: 立宗肇论
-    start_date: '0410'
-    highlight_event_id: guji-僧肇-event-compose-zhaolun
+      zh: 述而不作
+    start_date: '0407'
+    highlight_event_id: guji-僧肇-event-annotate-weimo
   - key: climax
-    name: 宝藏二品明离微宗
+    name: 序宗极不二
     labels:
-      zh: 宝藏独耀
-    start_date: '0412'
-    highlight_event_id: guji-僧肇-event-compose-zhaolun
+      zh: 权智六度
+    start_date: '0407'
+    highlight_event_id: guji-僧肇-event-annotate-weimo
   - key: closure
-    name: 表论于秦王流布江左
+    name: 贻将来君子
     labels:
-      zh: 道行弘远
-    start_date: '0413'
-    highlight_event_id: guji-僧肇-event-compose-zhaolun
+      zh: 异世同闻
+    start_date: 0408
+    highlight_event_id: guji-僧肇-event-annotate-weimo
   decisions:
-  - date: '0410'
-    title_zh: 以四论通般若不滞言象
-    rationale: 以会道亡言见月亡指，破有无二见及生死存亡之惑，故立不迁不真无知无名之目，直显真一
-  - date: '0412'
-    title_zh: 更述宝藏明体用一如
-    rationale: 以离明体不与物合，微明用含藏万德，空有不乖，理事双通，补四论未尽之玄要，拯学者久功中止之失
+  - date: '0407'
+    title_zh: 略记成言述而无作
+    rationale: 旨渊玄非言象所测故述成言不自作以传信顺
+  - date: '0407'
+    title_zh: 以不二为门统万行
+    rationale: 统万行以权智为主树德本以六度为根语宗极以不二为门
 events:
 - id: guji-僧肇-event-birth
+  person_id: guji-僧肇
+  type: birth
+  title_zh: 出生
   date: 0384
   year_of: 384
-  title_zh: 诞生于京兆
-  description: 晋孝武帝太元九年前后生于京兆，家贫力学，初好老庄，为书生，兼善属文
-- id: guji-僧肇-event-meet-luoshi
+  place_zh: 京兆长安一带
+  description_zh: 晋太元九年约生后为后秦义学沙门
+- id: guji-僧肇-event-follow-luoshi
+  person_id: guji-僧肇
+  type: career
+  title_zh: 师事罗什
   date: '0401'
   year_of: 401
-  title_zh: 投鸠摩罗什门下
-  description: 姚秦弘始三年，罗什入长安，僧肇往投为弟子，年十八九即声誉卓著，为什门四圣之一
-- id: guji-僧肇-event-assist-translate
-  date: '0404'
-  year_of: 404
-  title_zh: 助译大品维摩诸经
-  description: 于逍遥园大寺助什译大品般若维摩法华诸经，参详义理，兼作注疏，刘遗民等江左名士皆遥相咨问
-- id: guji-僧肇-event-compose-zhaolun
-  date: '0413'
-  year_of: 413
-  title_zh: 肇论宝藏论成篇流布
-  description: 先后撰般若无知论不真空论物不迁论涅槃无名论，又作宝藏论分广照空有离微体净二品，表上秦王姚兴，远传庐山慧远，天下宗之
+  place_zh: 长安
+  description_zh: 罗什入关住长安逍遥园僧肇师事之精般若空宗
+- id: guji-僧肇-event-retranslate-406
+  person_id: guji-僧肇
+  type: career
+  title_zh: 长安大寺重译维摩会
+  date: '0406'
+  year_of: 406
+  place_zh: 长安大寺
+  description_zh: 弘始八年岁次鹑火与千二百义学沙门请罗什手执梵文口自宣译道俗虔虔一言三复僧肇时预听次
+- id: guji-僧肇-event-annotate-weimo
+  person_id: guji-僧肇
+  type: career
+  title_zh: 作注维摩诘经序成
+  date: '0407'
+  year_of: 407
+  place_zh: 长安
+  description_zh: 粗得文意顺所闻为注解十卷作序明不思议本迹述而无作庶将来君子异世同闻
 - id: guji-僧肇-event-death
+  person_id: guji-僧肇
+  type: death
+  title_zh: 圆寂
   date: '0414'
   year_of: 414
-  title_zh: 长安示寂
-  description: 晋安帝义熙十年人寂于长安，年三十一，传为姚兴所害，又传蚤夭，著述遂止而般若之风大行于世
+  place_zh: 长安
+  description_zh: 后秦弘始十六年寂享年约三十余为什门四圣之一
