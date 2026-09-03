@@ -1,0 +1,152 @@
+person:
+  qid: guji-圣坚
+  name_zh: 圣坚
+  names:
+    zh: 圣坚
+    en: Shengjian
+  lifespan:
+    birth:
+      date: '0370'
+      precision: year
+      is_circa: true
+      raw: 西秦前后约生
+    death:
+      date: '0430'
+      precision: year
+      is_circa: true
+      raw: 西秦末前后示寂
+  birth_date: '0370'
+  death_date: '0430'
+  era: 西秦
+  reign_ref: 乞伏氏西秦时
+  archetype: 译经沙门
+  dilemmas:
+  - title_zh: 梵汉悬隔如何传信
+    description: 梵本微妙难宣汉土未习当竭诚译出令无差谬
+  - title_zh: 总持深广如何弘持
+    description: 无崖际法门广大无边当以译演流通令众受持不忘
+  lesson: 以诚信译经流通总持普令众生离怖得护
+  summary_first_person: 我是西秦沙门圣坚蒙法恩译出无崖际总持法门愿众生总持不忘离诸恐怖
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说无崖际总持法门经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说无崖际总持法门经.md
+endeavors:
+- id: guji-圣坚-endeavor-1
+  title_zh: 译出无崖际总持法门经
+  summary: 于西秦时译出此经宣说无崖际总持及诸法门护持功德
+  phases:
+  - key: brewing
+    name: 研习梵本
+    labels:
+      zh: 研习
+    start_date: 0395
+    highlight_event_id: guji-圣坚-event-study
+  - key: breakthrough
+    name: 发译总持
+    labels:
+      zh: 起译
+    start_date: '0405'
+    highlight_event_id: guji-圣坚-event-translate
+  - key: climax
+    name: 宣说流通
+    labels:
+      zh: 弘宣
+    start_date: '0410'
+    highlight_event_id: guji-圣坚-event-preach
+  - key: closure
+    name: 译竟付持
+    labels:
+      zh: 竣译
+    start_date: '0415'
+    highlight_event_id: guji-圣坚-event-complete
+  decisions:
+  - date: '0405'
+    title_zh: 决定译出无崖际法门
+    rationale: 愍念汉土众生多怖多病欲以总持令得拥护解脱
+  - date: '0410'
+    title_zh: 详定名句令易持诵
+    rationale: 总持名句广大当使文义明了便于受持忆念
+- id: guji-圣坚-endeavor-2
+  title_zh: 沙门持戒弘化西秦
+  summary: 以沙门身份持净戒修禅定教化道俗令归敬三宝
+  phases:
+  - key: brewing
+    name: 出家学道
+    labels:
+      zh: 出家
+    start_date: 0385
+    highlight_event_id: guji-圣坚-event-birth
+  - key: breakthrough
+    name: 精修止观
+    labels:
+      zh: 修学
+    start_date: 0390
+    highlight_event_id: guji-圣坚-event-study
+  - key: climax
+    name: 教化道俗
+    labels:
+      zh: 教化
+    start_date: '0410'
+    highlight_event_id: guji-圣坚-event-preach
+  - key: closure
+    name: 功成示寂
+    labels:
+      zh: 圆寂
+    start_date: '0430'
+    highlight_event_id: guji-圣坚-event-death
+  decisions:
+  - date: 0390
+    title_zh: 安住净戒专心译业
+    rationale: 欲使所译诚谛无谬必先自净其心以戒定为本
+  - date: '0410'
+    title_zh: 普劝受持不辞劳勚
+    rationale: 见众生苦患恐怖故劝在家出家同诵总持同得护念
+events:
+- id: guji-圣坚-event-birth
+  title_zh: 约生于西秦境内
+  date: '0370'
+  year_of: 370
+  is_circa: true
+  kind: birth
+  place_zh: 西秦境内
+  description: 约生于西秦时后出家为沙门
+- id: guji-圣坚-event-study
+  title_zh: 研习梵本通晓三藏
+  date: 0395
+  year_of: 395
+  is_circa: true
+  kind: career
+  place_zh: 西秦境内
+  description: 研习梵汉文字通晓经律为译经奠定基础
+- id: guji-圣坚-event-translate
+  title_zh: 起译无崖际总持法门经
+  date: '0405'
+  year_of: 405
+  is_circa: true
+  kind: career
+  place_zh: 西秦都城
+  description: 发心译出无崖际总持法门详说胜怨菩萨请问及佛广说诸法门
+- id: guji-圣坚-event-preach
+  title_zh: 宣说总持功德流通
+  date: '0410'
+  year_of: 410
+  is_circa: true
+  kind: career
+  place_zh: 西秦境内
+  description: 宣说受持总持者离怖除病得诸天夜叉拥护流通教化
+- id: guji-圣坚-event-complete
+  title_zh: 译竟付嘱令持不忘
+  date: '0415'
+  year_of: 415
+  is_circa: true
+  kind: career
+  place_zh: 西秦都城
+  description: 译事既竟嘱令弟子受持讽诵执览在心而不忘失
+- id: guji-圣坚-event-death
+  title_zh: 示寂于西秦末年
+  date: '0430'
+  year_of: 430
+  is_circa: true
+  kind: death
+  place_zh: 西秦境内
+  description: 化缘既毕示寂于西秦末前后译本流传后世
