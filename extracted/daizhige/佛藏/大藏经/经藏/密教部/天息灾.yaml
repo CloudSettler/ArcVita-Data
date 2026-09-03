@@ -6,124 +6,137 @@ person:
     en: Devasanti
   lifespan:
     birth:
-      date: 0930-01-01
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 约五代末生于中印度惹烂驮罗国
+      raw: 西天人，生年不详，约十世纪中叶生
     death:
-      date: 1000-12-31
+      date: 1000-01-01
       precision: year
       is_circa: true
-      raw: 约宋咸平三年示寂于汴京
-  birth_date: 0930-01-01
-  death_date: 1000-12-31
+      raw: 约咸平三年卒于汴京
+  birth_date: 0950-01-01
+  death_date: 1000-01-01
   era: 北宋
-  reign_ref: 宋太祖开宝至宋真宗咸平
-  archetype: 奉诏译经三藏
+  reign_ref: 宋太宗至宋真宗
+  archetype: 弘法译师
   dilemmas:
-  - 梵汉音义悬隔而密言持名须精审
-  - 王命译场功名与出世弘愿之权衡
-  lesson: 以信达之译笔载圣观自在慈悲接引令闻名不堕恶趣
-  summary_first_person: 我自西天而来奉诏译经惟愿以圣观自在一百八名利益众生令得宿命智往生极乐
+  - 梵本义深而华言难达，如何令密咒仪轨不失其真又利中土众生
+  - 身为西域僧而奉中朝诏，如何在持戒传法与朝廷制度之间守正不渝
+  lesson: 以音声文字为舟筏，令甚深密藏普利人天，译经即是弘愿之行
+  summary_first_person: 吾自西天而来，奉宋帝诏入译经院，与法贤施护等共译显密经轨，愿以文殊根本仪轨利乐一切，令众生所愿圆满
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/圣观自在菩萨一百八名经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T1191.md
+  - https://daizhige.org/T1191.html
 endeavors:
 - id: guji-天息灾-endeavor-1
-  title_zh: 西来奉诏入宋译场
-  summary: 自惹烂驮罗国携梵本来华入译经院任明教大师
+  title_zh: 入宋奉诏参译经院
+  summary_zh: 自西天至汴京，授朝散大夫试鸿胪少卿明教大师，入译经院与法天施护共立译场
   phases:
   - key: brewing
-    name: 西天习学发心东来
+    name: 西天发心东来
     labels:
       zh:
-      - 酝酿发心
-    start_date: 0930-01-01
-    highlight_event_id: guji-天息灾-event-birth
+      - 求法
+      - 发愿东行
+    start_date: 0976-01-01
+    highlight_event_id: guji-天息灾-event-1
   - key: breakthrough
-    name: 抵汴得诏入院
+    name: 奉诏入院授职
     labels:
       zh:
-      - 初入译场
-    start_date: 0980-05-01
-    highlight_event_id: guji-天息灾-event-arrival
-  - key: climax
-    name: 参译显密诸经声名渐著
-    labels:
-      zh:
-      - 译业高峰
+      - 奉诏
+      - 授译经三藏
     start_date: 0982-01-01
-    highlight_event_id: guji-天息灾-event-translate-108
-  - key: closure
-    name: 译绩垂成化缘圆满
+    highlight_event_id: guji-天息灾-event-1
+  - key: climax
+    name: 译场分工传译
     labels:
       zh:
-      - 功德圆成
-    start_date: 0990-01-01
+      - 译场
+      - 合译
+    start_date: 0984-01-01
+    highlight_event_id: guji-天息灾-event-2
+  - key: closure
+    name: 译业成就安住
+    labels:
+      zh:
+      - 圆满
+      - 利他
+    start_date: 0998-01-01
     highlight_event_id: guji-天息灾-event-death
   decisions:
-  - date: 0980-05-01
-    title_zh: 应诏东来携梵本入宋
-    rationale: 为令正法东流不辞远涉愿以翻译报佛恩
   - date: 0982-01-01
-    title_zh: 就译经院专攻密教部
-    rationale: 见中土渴仰观音慈护故专译密部持名经典
+    title_zh: 应诏留住汴京译经
+    rationale: 为令正法东流，不辞远行之劳，愿住译经院以报佛恩国恩
+  - date: 0984-01-01
+    title_zh: 与法贤施护分任笔受证义
+    rationale: 梵华言音各有所长，分工合作方能义不舛谬，文质相兼
 - id: guji-天息灾-endeavor-2
-  title_zh: 宣演圣观自在一百八名
-  summary: 于补怛落迦会上宣说百八名秘密明劝受持读诵
+  title_zh: 传译文殊根本仪轨等密藏
+  summary_zh: 译出大方广菩萨藏文殊师利根本仪轨经等，宣说真言坛法灌顶护摩，令众生息灾增益
   phases:
   - key: brewing
-    name: 考订梵本筹译名号
+    name: 集梵本观机
     labels:
       zh:
-      - 校勘酝酿
+      - 集本
+      - 观机
     start_date: 0985-01-01
-    highlight_event_id: guji-天息灾-event-arrival
+    highlight_event_id: guji-天息灾-event-2
   - key: breakthrough
-    name: 译出百八名秘密明
+    name: 口授笔受成文
     labels:
       zh:
-      - 译经突破
-    start_date: 0986-06-01
-    highlight_event_id: guji-天息灾-event-translate-108
+      - 口授
+      - 笔受
+    start_date: 0990-01-01
+    highlight_event_id: guji-天息灾-event-2
   - key: climax
-    name: 演说受持功德劝化流通
+    name: 仪轨流通结坛
     labels:
       zh:
-      - 弘化高潮
-    start_date: 0986-07-01
-    highlight_event_id: guji-天息灾-event-translate-108
+      - 仪轨
+      - 流通
+    start_date: 0992-01-01
+    highlight_event_id: guji-天息灾-event-2
   - key: closure
-    name: 付嘱梵王帝释信受奉行
+    name: 付嘱后学护持
     labels:
       zh:
-      - 流通收束
-    start_date: 0987-01-01
+      - 付嘱
+      - 护持
+    start_date: 0999-01-01
     highlight_event_id: guji-天息灾-event-death
   decisions:
-  - date: 0986-06-01
-    title_zh: 以音译全存百八秘密明
-    rationale: 密言功德在声字故宁存梵音不妄意译以全悉地
-  - date: 0986-07-01
-    title_zh: 详陈受持福报劝流通
-    rationale: 欲令罪重恶业亦得消除故举五无间可灭西方可生以坚信心
+  - date: 0990-01-01
+    title_zh: 先译文殊根本仪轨以利末世
+    rationale: 文殊智慧真言能息贫病苦恼，令所愿圆满，最契中土所需故先译
+  - date: 0992-01-01
+    title_zh: 具存咒句坛法而不省文
+    rationale: 密教事相不可阙略，宁繁勿简，方能使后人如法结坛持诵得验
 events:
 - id: guji-天息灾-event-birth
-  date: 0930-01-01
-  year_of: 930
-  title_zh: 生于惹烂驮罗国
-  description: 约五代末生于中印度惹烂驮罗国出家习显密教法
-- id: guji-天息灾-event-arrival
-  date: 0980-05-01
-  year_of: 980
-  title_zh: 携梵本抵汴京入译经院
-  description: 太平兴国中奉诏入宋授明教大师三藏之号参译经事
-- id: guji-天息灾-event-translate-108
-  date: 0986-06-01
-  year_of: 986
-  title_zh: 译圣观自在菩萨一百八名经
-  description: 于汴京译场译出补怛落迦会上所说百八名秘密明及受持功德
+  title_zh: 生于西天
+  date: 0950-01-01
+  year_of: 950
+  place_zh: 天竺
+  description_zh: 西天人，出家学三藏，尤精密教仪轨，生年不详
+- id: guji-天息灾-event-1
+  title_zh: 至汴京入译经院
+  date: 0982-01-01
+  year_of: 982
+  place_zh: 汴京译经院
+  description_zh: 太平兴国中来华，奉诏授朝散大夫试鸿胪少卿明教大师，参译经事
+- id: guji-天息灾-event-2
+  title_zh: 译大方广菩萨藏文殊师利根本仪轨经
+  date: 0990-01-01
+  year_of: 990
+  place_zh: 汴京译经院
+  description_zh: 奉诏译出文殊根本仪轨，详说净光天集会，真言坛法灌顶心印，凡数十卷
 - id: guji-天息灾-event-death
-  date: 1000-12-31
+  title_zh: 卒于汴京
+  date: 1000-01-01
   year_of: 1000
-  title_zh: 示寂于汴京
-  description: 咸平前后示寂一生译经弘化功德归于观音海会流通
+  place_zh: 汴京
+  description_zh: 译经弘化十余年，示寂于宋真宗咸平年间，译本后世入藏流行
