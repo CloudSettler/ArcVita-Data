@@ -1,0 +1,169 @@
+person:
+  qid: guji-岳飞
+  name_zh: 岳飞
+  names:
+    zh: 岳飞
+    en: Yue Fei
+  lifespan:
+    birth:
+      date: '1103-03-24'
+      precision: day
+      is_circa: false
+      raw: 宋崇宁二年二月十五
+    death:
+      date: '1142-01-27'
+      precision: day
+      is_circa: false
+      raw: 宋绍兴十一年十二月二十九
+  birth_date: '1103-03-24'
+  death_date: '1142-01-27'
+  era: 宋
+  reign_ref: 宋高宗绍兴
+  archetype: 中兴名将·忠武
+  dilemmas:
+  - 恢复中原与朝廷主和掣肘之冲突
+  - 忠君体国与权相秦桧锻链构陷之困
+  lesson: 精忠报国不在成败，而在辨忠邪、守节义，后世当稽实录以雪寃诬
+  summary_first_person: 余汤阴布衣，少负气节，靖康播越遂委身行间。绍兴以来，奉诏收襄汉、平洞庭、援淮甸，三至宛叶、再抵颍昌，于郾城、朱仙镇屡破兀术大军，庶几长驱以复故疆。奈何和议既定，班师诏切，终以莫须有殒于风波。惟冀后人稽金佗之翰墨，辨天定之是非，使忠魂得昭于世而已。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%87%91%E4%BD%97%E7%A8%A1%E7%BC%96.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%87%91%E4%BD%97%E7%A8%A1%E7%BC%96.html
+  - https://github.com/kanripo
+endeavors:
+- id: guji-岳飞-endeavor-1
+  title_zh: 襄汉经营与中原北伐
+  summary: 自绍兴四年收复襄阳六郡始，据上游形胜，安辑百姓，继而平杨么、屯襄阳，绍兴十年大举北伐，郾城颍昌大捷进逼朱仙镇，图复京师
+  phases:
+  - key: brewing
+    name: 请复襄邓
+    labels:
+      zh: 建请上游
+    start_date: '1134-03-01'
+    highlight_event_id: guji-岳飞-event-xiangyang
+  - key: breakthrough
+    name: 宛叶夺险
+    labels:
+      zh: 深入敌境
+    start_date: '1136-11-01'
+    highlight_event_id: guji-岳飞-event-changshui
+  - key: climax
+    name: 郾城颍昌
+    labels:
+      zh: 北伐高潮
+    start_date: '1140-07-01'
+    highlight_event_id: guji-岳飞-event-yancheng
+  - key: closure
+    name: 朱仙镇班师
+    labels:
+      zh: 奉诏而还
+    start_date: '1140-07-15'
+    highlight_event_id: guji-岳飞-event-zhuxian
+  decisions:
+  - date: '1134-03-01'
+    title_zh: 奏请先复襄邓六郡以图中原
+    rationale: 不从议和深入，欲先据形胜使可守御，安辑百姓为恢复基址
+  - date: '1140-05-20'
+    title_zh: 遣张宪姚政援刘锜于顺昌
+    rationale: 分敌势、应顺昌孤军，联络河北以窥京师，乘机破敌
+  - date: '1140-06-10'
+    title_zh: 遣舟师屯九江为淮浙声援
+    rationale: 控制长江上流，防敌窥伺，使北伐无后顾
+- id: guji-岳飞-endeavor-2
+  title_zh: 忠谏辨诬与身后昭雪
+  summary: 面对秦桧主和屡陈敌情不可恃、建都当示恢复之向，淮西并军辞而不受，终以莫须有遇害，孝宗复爵谥武穆，孙岳珂汇宸翰行实为金佗稡编以辨诬
+  phases:
+  - key: brewing
+    name: 建都上游之议
+    labels:
+      zh: 忠言逆和
+    start_date: '1137-03-01'
+    highlight_event_id: guji-岳飞-event-jiandu
+  - key: breakthrough
+    name: 淮西辞军
+    labels:
+      zh: 不夺兵权
+    start_date: '1137-08-01'
+    highlight_event_id: guji-岳飞-event-huaixi
+  - key: climax
+    name: 风波罹难
+    labels:
+      zh: 以身殉义
+    start_date: '1141-11-01'
+    highlight_event_id: guji-岳飞-event-death
+  - key: closure
+    name: 天定昭雪
+    labels:
+      zh: 复爵显谥
+    start_date: '1162-07-01'
+    highlight_event_id: guji-岳飞-event-rehab
+  decisions:
+  - date: '1138-08-01'
+    title_zh: 入觐力言和好不可恃
+    rationale: 知金人必叛盟，和议贻后世讥，必饬边备常作不虞之戒
+  - date: '1137-09-15'
+    title_zh: 三乞解兵柄持余服
+    rationale: 明不自营得军，全将相和以安士心，虽忤督府亦不辞
+  - date: '1137-03-10'
+    title_zh: 请建都上游以瞰中原
+    rationale: 使敌人莫测、圣意有乡，以示恢复之决心
+events:
+- id: guji-岳飞-event-birth
+  title_zh: 生于相州汤阴
+  date: '1103-03-24'
+  year_of: 1103
+  location_zh: 相州汤阴永和乡
+  description: 宋崇宁二年二月十五生于相州汤阴，少负气节，靖康难作遂从戎
+- id: guji-岳飞-event-xiangyang
+  title_zh: 收复襄阳六郡
+  date: '1134-05-08'
+  year_of: 1134
+  location_zh: 襄阳
+  description: 绍兴四年春奏请先复襄邓，奉御札毋出李横界，五月进兵克襄阳，李成望风而退，朝廷嘉其纪律严明
+- id: guji-岳飞-event-changshui
+  title_zh: 下商虢至长水夺粮三捷
+  date: '1136-11-10'
+  year_of: 1136
+  location_zh: 商州长水、何家寨、白塔、牛蹄
+  description: 绍兴六年冬出师襄汉，下商虢至长水得粮十七万，败伪齐于何家寨、白塔、牛蹄，获甲马甚众，以功赐御札褒谕
+- id: guji-岳飞-event-jiandu
+  title_zh: 上奏请建都上游以图恢复
+  date: '1137-03-01'
+  year_of: 1137
+  location_zh: 武昌行营
+  description: 奏请建都上游以瞰中原，示圣意所向，朝廷以淮西事未遑亟举，赐御札令俟机便
+- id: guji-岳飞-event-huaixi
+  title_zh: 淮西并军之辞
+  date: '1137-09-01'
+  year_of: 1137
+  location_zh: 建康寝閤
+  description: 高宗欲以刘光世军委于岳飞，飞言张俊、王德不可付，恐致变，遂三上章乞解兵柄持余服，高宗封还元奏慰留，加眷倚
+- id: guji-岳飞-event-yangyao
+  title_zh: 平杨么湖湘悉定
+  date: '1135-06-15'
+  year_of: 1135
+  location_zh: 潭州、洞庭湖
+  description: 绍兴五年奉诏讨杨么，四月至长沙，六月大破贼众，湖湘悉平，诏褒威名冠世、恩威兼畅
+- id: guji-岳飞-event-yancheng
+  title_zh: 郾城颍昌大捷
+  date: '1140-07-10'
+  year_of: 1140
+  location_zh: 郾城、颍昌
+  description: 绍兴十年金人背盟大举入寇，飞遣张宪、姚政援顺昌，自率主力北伐，于郾城、颍昌大破兀术精骑，河南尽复
+- id: guji-岳飞-event-zhuxian
+  title_zh: 进抵朱仙镇奉诏班师
+  date: '1140-07-18'
+  year_of: 1140
+  location_zh: 朱仙镇
+  description: 大军进至朱仙镇距东京四十五里，中原响应，奉十二道金牌诏班师，飞愤惋泣下，十年之功废于一旦
+- id: guji-岳飞-event-death
+  title_zh: 风波亭遇害
+  date: '1142-01-27'
+  year_of: 1142
+  location_zh: 临安大理寺狱
+  description: 绍兴十一年以莫须有之狱为秦桧锻链构陷，与子岳云同死于狱，年三十九，天下冤之
+- id: guji-岳飞-event-rehab
+  title_zh: 孝宗昭雪复爵谥武穆
+  date: '1162-07-15'
+  year_of: 1162
+  location_zh: 临安
+  description: 孝宗受禅，诏赐坟庙复爵位，谥武穆，禄遗孤；孙岳珂汇高宗宸翰、行实、家集为金佗稡编二十八卷、续编三十卷以辨诬，成于嘉定戊寅、绍定戊子
