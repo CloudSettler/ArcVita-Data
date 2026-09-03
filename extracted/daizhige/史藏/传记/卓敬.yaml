@@ -1,0 +1,160 @@
+person:
+  qid: guji-卓敬
+  name_zh: 卓敬
+  names:
+    zh: 卓敬
+    en: Zhuo Jing
+  lifespan:
+    birth:
+      date: '1360'
+      precision: year
+      is_circa: true
+      raw: 元至正年间生于瑞安
+    death:
+      date: 1402-07
+      precision: month
+      is_circa: false
+      raw: 永乐元年七月被杀
+  birth_date: '1360'
+  death_date: 1402-07
+  era: 明
+  reign_ref: 洪武、建文
+  archetype: 忠贞殉节之臣
+  dilemmas:
+  - 忠君直谏与保身避祸之抉择
+  - 察燕藩雄略请徙南昌而君不能用之无奈
+  - 易代之际屈节求生与舍生取义之大节
+  lesson: 直道事人不计祸福，见萌察势防患于未然
+  summary_first_person: 余卓敬，字惟恭，温州瑞安人。洪武戊辰进士，由给事中历宗人府经历、户部侍郎。事太祖敢谏诸王服制逾僭，事建文密奏徙燕王于南昌以剪羽翼，不见用。靖难师入，余被执不屈，斥篡逆不臣，慷慨就戮，神色不変，夷三族而志不可夺。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/忠贞录.md
+  - https://zh.wikisource.org/wiki/忠貞錄_(四庫全書本)
+  - https://ctext.org/library.pl?if=gb&file=4412613&page=1
+endeavors:
+- id: guji-卓敬-endeavor-1
+  title_zh: 直谏匡制历任清要
+  description: 洪武中登第入谏垣，以直言著名，谏诸王服制僭拟太子，深为太祖器重，历宗人府经历至户部侍郎
+  phases:
+  - key: brewing
+    name: 戊辰登第初入谏垣
+    labels:
+      zh: 登第入仕
+    start_date: '1388'
+    highlight_event_id: guji-卓敬-event-jinshi
+  - key: breakthrough
+    name: 谏诸王服制逾僭
+    labels:
+      zh: 直言匡制
+    start_date: '1390'
+    highlight_event_id: guji-卓敬-event-jian-fuzhi
+  - key: climax
+    name: 历宗人府经历至户部侍郎
+    labels:
+      zh: 历任显要
+    start_date: '1395'
+    highlight_event_id: guji-卓敬-event-hubu
+  - key: closure
+    name: 建文初望重朝堂
+    labels:
+      zh: 望重
+    start_date: '1398'
+    highlight_event_id: guji-卓敬-event-hubu
+  decisions:
+  - date: '1390'
+    title_zh: 谏诸王禁中服饰拟太子
+    rationale: 京师天下视效，礼法纲纪当先，不可以亲王废礼，欲令朝廷正名定分
+  - date: '1392'
+    title_zh: 拒太刚则折之戒坚持直道
+    rationale: 官以谏为名，居其位则思直其道，虽死不可回，祸福非所计
+- id: guji-卓敬-endeavor-2
+  title_zh: 密谋徙藩与殉节成仁
+  description: 建文初察燕王雄略有不臣之志，密奏乘其未备徙封南昌以剪羽翼，不见用，终在靖难易代之际抗节不屈，成仁取义
+  phases:
+  - key: brewing
+    name: 察燕王智虑雄略非久下人
+    labels:
+      zh: 察变
+    start_date: '1398'
+    highlight_event_id: guji-卓敬-event-mizhi
+  - key: breakthrough
+    name: 密疏请徙燕于南昌
+    labels:
+      zh: 密谋削藩
+    start_date: '1399'
+    highlight_event_id: guji-卓敬-event-mizhi
+  - key: climax
+    name: 燕师渡江被执抗辞
+    labels:
+      zh: 被执不屈
+    start_date: 1402-06
+    highlight_event_id: guji-卓敬-event-capture
+  - key: closure
+    name: 从容就戮夷三族
+    labels:
+      zh: 殉节
+    start_date: 1402-07
+    highlight_event_id: guji-卓敬-event-death
+  decisions:
+  - date: '1399'
+    title_zh: 密奏徙燕王于南昌
+    rationale: 北平为天下都会，地方广邈士马精强，若羽翼既成建瓴南下势如瓦解，宜及未备徙之以易控制
+  - date: 1402-06
+    title_zh: 被执拒劝降不臣新朝
+    rationale: 人臣事君有死无二，先帝正朔无过，今以利欲篡逆，恨不得请上方剑斩之，岂可移忠再仕
+events:
+- id: guji-卓敬-event-birth
+  title_zh: 生于温州瑞安
+  date: '1360'
+  year_of: '1360'
+  precision: year
+  is_circa: true
+  location_zh: 温州瑞安
+  description: 生而资质秀敏颖悟绝人，性至孝，读书宝香山，有孝感黑虎传闻
+- id: guji-卓敬-event-jinshi
+  title_zh: 洪武戊辰登进士第
+  date: '1388'
+  year_of: '1388'
+  precision: year
+  is_circa: false
+  location_zh: 京师
+  description: 洪武二十一年戊辰科登进士，除给事中，时国初典则未备，始入谏垣
+- id: guji-卓敬-event-jian-fuzhi
+  title_zh: 谏诸王服制僭拟太子
+  date: '1390'
+  year_of: '1390'
+  precision: year
+  is_circa: true
+  location_zh: 京师奉天殿
+  description: 乘间白太祖诸王服饰拟太子无以令天下，帝笑纳之，由是益器重
+- id: guji-卓敬-event-hubu
+  title_zh: 升宗人府经历及户部侍郎
+  date: '1395'
+  year_of: '1395'
+  precision: year
+  is_circa: true
+  location_zh: 京师
+  description: 由给事中陞授宗人府经历，寻陞户部侍郎，位列清要
+- id: guji-卓敬-event-mizhi
+  title_zh: 密奏徙燕王封南昌
+  date: '1399'
+  year_of: '1399'
+  precision: year
+  is_circa: false
+  location_zh: 京师便殿
+  description: 建文登极后密奏燕王智虑绝人酷似先帝，北平险要宜乘未备徙封南昌以剪羽翼，帝惊而未用
+- id: guji-卓敬-event-capture
+  title_zh: 燕师入京被执抗辩
+  date: 1402-06
+  year_of: '1402'
+  precision: month
+  is_circa: false
+  location_zh: 南京
+  description: 靖难兵渡江被执，责以不迎乘舆，厉声抗拒曰先帝若依敬言殿下岂得至此，拒中使劝降引管仲魏徵为喻不屈
+- id: guji-卓敬-event-death
+  title_zh: 从容就戮夷三族
+  date: 1402-07
+  year_of: '1402'
+  precision: month
+  is_circa: false
+  location_zh: 南京
+  description: 太宗惜才欲生之，为姚广孝所谮遂决杀，临刑叹国家养兵三十年无措恨不为兵官以行其志，神色凛然被杀并夷三族
