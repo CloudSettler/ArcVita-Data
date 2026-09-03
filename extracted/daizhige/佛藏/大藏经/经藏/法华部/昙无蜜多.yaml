@@ -1,0 +1,167 @@
+person:
+  qid: guji-昙无蜜多
+  name_zh: 昙无蜜多
+  names:
+    zh: 昙无蜜多
+    en: Dharmamitra
+  lifespan:
+    birth:
+      date: '0356'
+      precision: year
+      is_circa: true
+      raw: 约东晋末生于西域
+    death:
+      date: '0442'
+      precision: year
+      is_circa: false
+      raw: 刘宋元嘉十九年卒于建康
+  birth_date: '0356'
+  death_date: '0442'
+  era: 刘宋
+  reign_ref: 宋文帝元嘉
+  archetype: 译经弘法僧
+  dilemmas:
+  - title_zh: 专修禅观与兼顾译经
+    description: 潜修自利与译经利他之间抉择以利未来
+  - title_zh: 异域风土与江左弘化
+    description: 语言习俗悬隔而坚持南行教化不辍
+  lesson: 禅教兼修以慈悲接引后学普入大行
+  summary_first_person: 我自西域东来唯以禅观译经接引众生共修普贤大行忏除六根罪障
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+  - https://tripitaka.cbeta.org/T0277
+endeavors:
+- id: guji-昙无蜜多-endeavor-1
+  title_zh: 西域习禅南游弘化
+  summary: 西域出家习禅诵大乘东经凉州南抵建康以定慧化导
+  phases:
+  - key: brewing
+    name: 西域学定
+    labels:
+      zh:
+      - 习禅
+      - 诵经
+    start_date: '0370'
+    highlight_event_id: guji-昙无蜜多-event-xiyu
+  - key: breakthrough
+    name: 凉州南下
+    labels:
+      zh:
+      - 游方
+      - 弘禅
+    start_date: '0415'
+    highlight_event_id: guji-昙无蜜多-event-nanxia
+  - key: climax
+    name: 建康领众
+    labels:
+      zh:
+      - 领众
+      - 弘化
+    start_date: '0424'
+    highlight_event_id: guji-昙无蜜多-event-jiangzuo
+  - key: closure
+    name: 安住钟山
+    labels:
+      zh:
+      - 安居
+      - 授学
+    start_date: 0428
+    highlight_event_id: guji-昙无蜜多-event-jiangzuo
+  decisions:
+  - date: '0415'
+    title_zh: 离凉州南行
+    rationale: 中原扰攘南方安稳欲以禅法惠及江左学人
+  - date: '0424'
+    title_zh: 应请住持弘禅
+    rationale: 建康众请讲习定学遂留住领众不归西土
+- id: guji-昙无蜜多-endeavor-2
+  title_zh: 杨州译出观普贤行法经
+  summary: 宋元嘉年于杨州译出观普贤菩萨行法经开忏悔观行之门
+  phases:
+  - key: brewing
+    name: 精究法华
+    labels:
+      zh:
+      - 研经
+      - 观行
+    start_date: 0428
+    highlight_event_id: guji-昙无蜜多-event-jiangzuo
+  - key: breakthrough
+    name: 发心翻译
+    labels:
+      zh:
+      - 发心
+      - 译经
+    start_date: '0431'
+    highlight_event_id: guji-昙无蜜多-event-translate
+  - key: climax
+    name: 译事告成
+    labels:
+      zh:
+      - 译成
+      - 流通
+    start_date: '0432'
+    highlight_event_id: guji-昙无蜜多-event-translate
+  - key: closure
+    name: 付嘱奉持
+    labels:
+      zh:
+      - 付嘱
+      - 奉持
+    start_date: '0440'
+    highlight_event_id: guji-昙无蜜多-event-fuzhu
+  decisions:
+  - date: '0431'
+    title_zh: 译出普贤观经
+    rationale: 愍念末世众生障重欲借普贤观行忏除六根罪业
+  - date: '0440'
+    title_zh: 劝众诵持流通
+    rationale: 大乘方等为诸佛眼嘱令静处诵念不令断绝
+events:
+- id: guji-昙无蜜多-event-birth
+  title_zh: 生于西域
+  date: '0356'
+  year_of: 356
+  location_zh: 西域罽宾一带
+  description: 生于西域少出家习禅兼诵大乘方等
+- id: guji-昙无蜜多-event-xiyu
+  title_zh: 西域习定诵经
+  date: '0370'
+  year_of: 370
+  location_zh: 西域
+  description: 习禅观诵大乘渐以定慧知名
+  endeavor_ref: guji-昙无蜜多-endeavor-1
+- id: guji-昙无蜜多-event-nanxia
+  title_zh: 经凉州南下
+  date: '0415'
+  year_of: 415
+  location_zh: 凉州至长江流域
+  description: 离西凉州南游历经艰辛抵达江南
+  endeavor_ref: guji-昙无蜜多-endeavor-1
+- id: guji-昙无蜜多-event-jiangzuo
+  title_zh: 抵建康弘禅
+  date: '0424'
+  year_of: 424
+  location_zh: 建康
+  description: 至建康领众习禅声誉益著为译经奠基
+  endeavor_ref: guji-昙无蜜多-endeavor-1
+- id: guji-昙无蜜多-event-translate
+  title_zh: 杨州译观普贤经
+  date: '0431'
+  year_of: 431
+  location_zh: 杨州
+  description: 宋元嘉年于杨州译出佛说观普贤菩萨行法经一卷
+  endeavor_ref: guji-昙无蜜多-endeavor-2
+- id: guji-昙无蜜多-event-fuzhu
+  title_zh: 劝持付嘱流通
+  date: '0440'
+  year_of: 440
+  location_zh: 建康钟山
+  description: 劝弟子静处诵持方等思第一义以续佛慧命
+  endeavor_ref: guji-昙无蜜多-endeavor-2
+- id: guji-昙无蜜多-event-death
+  title_zh: 卒于建康
+  date: '0442'
+  year_of: 442
+  location_zh: 建康
+  description: 元嘉十九年示寂众咸怀慕译本广行于世

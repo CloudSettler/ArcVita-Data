@@ -6,128 +6,156 @@ person:
     en: Shakyamuni
   lifespan:
     birth:
-      date: '-563'
-      precision: year
+      date: -563-04-08
+      precision: day
       is_circa: true
-      raw: 约公元前五六三年生于迦毗罗卫蓝毗尼园
+      raw: 相传周昭王二十四年四月八日生于蓝毗尼园
     death:
-      date: '-483'
-      precision: year
+      date: -483-02-15
+      precision: day
       is_circa: true
-      raw: 约公元前四八三年涅槃于拘尸那罗娑罗林
-  birth_date: '-563'
-  death_date: '-483'
-  era: 古印度列国时代
-  reign_ref: 迦毗罗卫净饭王治时期
-  archetype: 觉悟者与说法者
+      raw: 相传周穆王五十三年二月十五日入涅槃于拘尸那罗
+  birth_date: -563-04-08
+  death_date: -483-02-15
+  era: 先秦
+  reign_ref: 周昭王至周穆王之世
+  archetype: 忏悔成佛与护法教主
   dilemmas:
-  - 王宫安乐与世间生老病死苦恼之间的抉择
-  - 三乘方便引导与一乘真实不退之间的权实抉择
-  - 自入涅槃寂静与住世教化众生之间的去留抉择
-  lesson: 以善巧方便随顺下劣根机分别说三终令归入清净不退一乘
-  summary_first_person: 我本为释迦太子因见生老病死苦而逾城出家于菩提树下证悟后在舍卫祇园等处为文殊舍利弗阿难等众宣说三乘方便终归不退法轮令众生发菩提心住于一乘
+  - 昔为达摩比丘执空谤他与后世亲受多劫苦报之鉴
+  - 呵二说谤法堕恶与以大悲平等随信调伏之衡
+  lesson: 莫作二说谤正法师，敬一切法师如见佛，具修六度远离我慢嫉妒贪养，方能住持正法久住于世
+  summary_first_person: 我是释迦牟尼，昔于无垢焰称起王佛世曾为达摩比丘，以恶心谤持法净命而堕地狱畜生贫贱多劫，值香宝光佛方发菩提心渐得超升，今于五浊恶世成佛，于王舍城耆阇崛山说方广总持，诫众莫谤莫作二说
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E6%B3%95%E5%8D%8E%E9%83%A8/%E4%B8%8D%E9%80%80%E8%BD%AC%E6%B3%95%E8%BD%AE%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data
+  - https://daizhige.org/佛藏/大藏经/经藏/法华部/大乘方广总持经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/法华部/大乘方广总持经.md
 endeavors:
 - id: guji-释迦牟尼-endeavor-1
-  title_zh: 出家求道证得菩提
-  goal_zh: 寻求解脱生老病死之道成就无上正觉
+  person_qid: guji-释迦牟尼
+  title_zh: 达摩比丘时谤法堕落与历劫忏悔超升
+  summary_zh: 于无垢焰称起王佛世为达摩比丘，受持千部大乘得四禅而执空谤净命法师，命终堕地狱七十劫，又作畜生贫贱无舌，值香宝光佛发菩提心渐得解脱
   phases:
   - key: brewing
-    name: 王宫观苦萌厌离心
+    name: 空执养成
     labels:
-      zh: 萌发厌离
-    start_date: '-547'
-    highlight_event_id: guji-释迦牟尼-event-renunciation
+      zh:
+      - 执空轻他
+    start_date: -8000-01-01
+    highlight_event_id: guji-释迦牟尼-event-past-slander
   - key: breakthrough
-    name: 逾城出家遍访明师
+    name: 谤法堕落
     labels:
-      zh: 突破寻道
-    start_date: '-534'
-    highlight_event_id: guji-释迦牟尼-event-renunciation
+      zh:
+      - 谤法堕狱
+    start_date: -7999-01-01
+    highlight_event_id: guji-释迦牟尼-event-hell
   - key: climax
-    name: 菩提树下证悟正觉
+    name: 苦报值佛
     labels:
-      zh: 高潮证悟
-    start_date: '-528'
-    highlight_event_id: guji-释迦牟尼-event-enlightenment
+      zh:
+      - 值佛发心
+    start_date: -7900-01-01
+    highlight_event_id: guji-释迦牟尼-event-meet-fragrant-light
   - key: closure
-    name: 成道后观察机缘拟说法
+    name: 余报偿毕愿成佛道
     labels:
-      zh: 收束起教
-    start_date: '-528'
-    highlight_event_id: guji-释迦牟尼-event-enlightenment
+      zh:
+      - 余报偿毕
+    start_date: -7800-01-01
+    highlight_event_id: guji-释迦牟尼-event-preaching-vulture-peak
   decisions:
-  - date: '-534'
-    title_zh: 逾城出家
-    rationale: 目睹老病死苦及沙门寂静决意舍王位荣华寻求解脱
-  - date: '-528'
-    title_zh: 舍苦行修中道证悟
-    rationale: 悟知苦乐二边皆非解脱因而端坐菩提树下降伏烦恼成就正觉
+  - date: -8000-01-01
+    title_zh: 以方广空法化众而轻净命随欲说法
+    rationale: 执一切皆空为究竟，不解善方便随根施教，遂起我慢谤持法者为杂秽不净
+  - date: -7900-01-01
+    title_zh: 于香宝光佛所发菩提心求忏
+    rationale: 历地狱畜生苦已知谤法罪重，依佛威力发心改往，立愿护法利生以赎前愆
 - id: guji-释迦牟尼-endeavor-2
-  title_zh: 分别说三宣不退一乘
-  goal_zh: 以方便智引导下劣众生令入清净不退法轮
+  person_qid: guji-释迦牟尼
+  title_zh: 五浊成佛说方广总持呵二说护法
+  summary_zh: 以先世谤法业因处五浊世成佛，于王舍城耆阇崛山临涅槃时入定现瑞，为弥勒文殊等说方广总持，呵二说谤法之罪，劝敬法师具修六度
   phases:
   - key: brewing
-    name: 鹿野苑初转四谛法轮
+    name: 降生修行成道
     labels:
-      zh: 萌发教化
-    start_date: '-528'
-    highlight_event_id: guji-释迦牟尼-event-enlightenment
+      zh:
+      - 潜修成道
+    start_date: -563-04-08
+    highlight_event_id: guji-释迦牟尼-event-birth
   - key: breakthrough
-    name: 祇园现瑞集会四众
+    name: 临涅槃入定现瑞
     labels:
-      zh: 突破集会
-    start_date: '-500'
-    highlight_event_id: guji-释迦牟尼-event-nonretro-dharma
+      zh:
+      - 入定摄众
+    start_date: -483-01-01
+    highlight_event_id: guji-释迦牟尼-event-entering-samadhi
   - key: climax
-    name: 为文殊等说不退转法轮
+    name: 高座敷演总持
     labels:
-      zh: 高潮说一乘
-    start_date: '-500'
-    highlight_event_id: guji-释迦牟尼-event-nonretro-dharma
+      zh:
+      - 敷演护法
+    start_date: -483-01-15
+    highlight_event_id: guji-释迦牟尼-event-preaching-vulture-peak
   - key: closure
-    name: 嘱累护持正法不断佛种
+    name: 付嘱流通入灭
     labels:
-      zh: 收束嘱累
-    start_date: '-483'
+      zh:
+      - 付嘱入灭
+    start_date: -483-02-15
     highlight_event_id: guji-释迦牟尼-event-death
   decisions:
-  - date: '-500'
-    title_zh: 开三显一说不退法
-    rationale: 见娑婆众生心多下劣若直说一乘不能信解故以三乘方便引导令入一乘
-  - date: '-500'
-    title_zh: 印可文殊请问决疑
-    rationale: 借文殊舍利弗阿难问答决断信行法行四果疑网安慰生果想者令趣大乘
+  - date: -483-01-15
+    title_zh: 自述达摩本生诫众莫作二说
+    rationale: 以自身谤法受苦为证，令众知谤法师即谤佛，止息彼此是非，和合住持正法
+  - date: -483-01-15
+    title_zh: 广说六度具修破唯般若之执
+    rationale: 破偏执空与唯学般若之邪见，明布施持戒忍辱精进禅定智慧缺一不可，方成菩提
 events:
 - id: guji-释迦牟尼-event-birth
-  title_zh: 蓝毗尼园诞生
-  date: '-563'
+  person_qid: guji-释迦牟尼
+  title_zh: 降生蓝毗尼园
+  date: -563-04-08
   year_of: -563
-  place_zh: 迦毗罗卫蓝毗尼园
-  description_zh: 净饭王之子悉达多太子诞生具三十二相被预言当出家成佛
-- id: guji-释迦牟尼-event-renunciation
-  title_zh: 逾城出家求道
-  date: '-534'
-  year_of: -534
-  place_zh: 迦毗罗卫城外至摩揭陀国
-  description_zh: 夜半逾城出家舍王宫生活遍访外道师寻求解脱生死之道
-- id: guji-释迦牟尼-event-enlightenment
-  title_zh: 菩提树下成正觉
-  date: '-528'
-  year_of: -528
-  place_zh: 摩揭陀国菩提伽耶菩提树下
-  description_zh: 端坐思维缘起降伏魔军证得无上菩提号释迦牟尼佛
-- id: guji-释迦牟尼-event-nonretro-dharma
-  title_zh: 祇园宣说不退转法轮
-  date: '-500'
-  year_of: -500
-  place_zh: 舍卫国祇树给孤独园
-  description_zh: 中夜入定现莲华光明文殊舍利弗阿难等在会演说信行法行开三乘入一乘之不退法轮
-- id: guji-释迦牟尼-event-death
-  title_zh: 拘尸那罗娑罗林涅槃
-  date: '-483'
+  location_zh: 蓝毗尼园
+  description_zh: 相传周昭王世降生为悉达多太子，出家修行后于五浊恶世成等正觉，即今释迦如来
+- id: guji-释迦牟尼-event-past-slander
+  person_qid: guji-释迦牟尼
+  title_zh: 无垢焰称起王佛世作达摩比丘谤净命
+  date: -8000-01-01
+  year_of: -8000
+  location_zh: 跋陀城
+  description_zh: 为达摩比丘时受持千部大乘得四禅，唯说空寂，谤净命法师所说杂秽不净，诬其受用华香，我慢轻慢持法者
+- id: guji-释迦牟尼-event-hell
+  person_qid: guji-释迦牟尼
+  title_zh: 以谤法故堕地狱畜生受大苦恼
+  date: -7999-01-01
+  year_of: -7999
+  location_zh: 地狱畜生道
+  description_zh: 身坏命终堕地狱经七十劫具受众苦，复堕畜生过六十劫，后九万世犹生畜生中
+- id: guji-释迦牟尼-event-meet-fragrant-light
+  person_qid: guji-释迦牟尼
+  title_zh: 值香宝光佛发菩提心历贫贱余报
+  date: -7900-01-01
+  year_of: -7900
+  location_zh: 香宝光佛所
+  description_zh: 于香宝光佛法中发菩提心，后得生人中六万世贫穷下贱恒无舌根，以恶口谤发心人之余报
+- id: guji-释迦牟尼-event-entering-samadhi
+  person_qid: guji-释迦牟尼
+  title_zh: 王舍城夏安居已临涅槃入定现瑞
+  date: -483-01-01
   year_of: -483
-  place_zh: 拘尸那罗娑罗双树林
-  description_zh: 教化缘毕于娑罗林中入般涅槃嘱弟子以戒为师护持正法
+  location_zh: 王舍城耆阇崛山
+  description_zh: 与六万二千比丘八十亿菩萨等俱，入如法三昧，三千大千世界庄严，天龙八部云集，出广长舌遍覆大千，遍观大众如师子王
+- id: guji-释迦牟尼-event-preaching-vulture-peak
+  person_qid: guji-释迦牟尼
+  title_zh: 说大乘方广总持呵二说谤法
+  date: -483-01-15
+  year_of: -483
+  location_zh: 王舍城耆阇崛山
+  description_zh: 为弥勒文殊须菩提等说净命达摩本生，言过去达摩即我身，净命即阿弥陀佛，诫莫言是应学是不应学，劝敬法师如塔如佛，具修六度说四平等法
+- id: guji-释迦牟尼-event-death
+  person_qid: guji-释迦牟尼
+  title_zh: 付嘱流通入无余涅槃
+  date: -483-02-15
+  year_of: -483
+  location_zh: 拘尸那罗
+  description_zh: 说法已大众悲泣受持，三十恒河沙菩萨得无生忍，付嘱弥勒文殊护持流通，寻入涅槃，令法眼久住
