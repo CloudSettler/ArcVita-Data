@@ -6,122 +6,127 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
-      precision: year
-      is_circa: false
-      raw: 隋仁寿二年洛州缑氏
+      date: 0602-04-06
+      precision: day
+      is_circa: true
+      raw: 隋仁寿二年
     death:
-      date: '0664-02-05'
+      date: 0664-03-07
       precision: day
       is_circa: false
-      raw: 唐麟德元年正月大慈恩寺
-  birth_date: '0602'
-  death_date: '0664-02-05'
+      raw: 唐麟德元年二月五日
+  birth_date: 0602-04-06
+  death_date: 0664-03-07
   era: 唐
-  reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 西行求法译经僧
+  reign_ref: 唐太宗贞观至高宗麟德
+  archetype: 求法译经师
   dilemmas:
-  - 诸师所说不一而独发西行求法之愿
-  - 险阻禁令在前而坚守悲愿利乐有情之心
-  lesson: 发悲愿求正法勤受持广劝化则能拔苦难获胜乐
-  summary_first_person: 吾少出家感群师异说遂西行求法历险得经东归奉诏译经今说胜幢臂印神咒愿诸有情受持读诵永脱恶趣速证菩提
+  - 经义多歧而师说各异，安守旧章还是西行求证
+  - 密语威德难译，奉诏传经当存梵音本真还是顺俗易解
+  lesson: 以信为舟以行为证，疑则求真，得则普利怖畏众生
+  summary_first_person: 我姓陈名袆，洛州缑氏人，幼慕释门，感此土经阙义乖，贞观初冒禁西行，历万里至印求法，携梵本归唐，奉诏译经，愿以诸佛心陀罗尼饶益一切怖畏者
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/胜幢臂印陀罗尼经.md
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/胜幢臂印陀罗尼经.html
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/诸佛心陀罗尼经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/诸佛心陀罗尼经.md
 endeavors:
 - id: guji-玄奘-endeavor-1
   title_zh: 西行求法取经
-  summary: 感诸说不一立志西行历西域至天竺受学携经东归
+  description: 贞观初自长安西出，度流沙历西域，至中印那烂陀从戒贤学法，游历五印携梵本归唐
   phases:
   - key: brewing
-    name: 少年出家立志求法
+    name: 长安究学立志西行
     labels:
-      zh: 立志
-    start_date: '0611'
-    highlight_event_id: guji-玄奘-event-birth
+      zh: 究学立志
+    start_date: 0622-01-01
+    highlight_event_id: guji-玄奘-event-depart
   - key: breakthrough
-    name: 违禁偷渡出玉门
+    name: 偷渡玉门度碛西进
     labels:
-      zh: 出关
-    start_date: '0629-08-01'
-    highlight_event_id: guji-玄奘-event-westward
+      zh: 西出玉门
+    start_date: 0629-08-01
+    highlight_event_id: guji-玄奘-event-depart
   - key: climax
-    name: 天竺那烂陀受学
+    name: 那烂陀受学游历五印
     labels:
-      zh: 取经
-    start_date: '0631-01-01'
-    highlight_event_id: guji-玄奘-event-westward
+      zh: 印土受学
+    start_date: 0631-01-01
+    highlight_event_id: guji-玄奘-event-return
   - key: closure
-    name: 负经东归谒帝
+    name: 负梵本东归达长安
     labels:
-      zh: 东归
-    start_date: '0645-01-15'
+      zh: 东归献经
+    start_date: 0645-01-01
     highlight_event_id: guji-玄奘-event-return
   decisions:
-  - date: '0629-08-01'
-    title_zh: 违禁西行
-    rationale: 为求正法正视听不惧禁令艰险以全悲愿
-  - date: '0631-01-01'
-    title_zh: 留学那烂陀
-    rationale: 为穷究瑜伽唯识正义亲承戒贤广学群经
+  - date: 0629-08-01
+    title_zh: 冒禁私行西出
+    rationale: 中土义疏多歧，无可决疑，宁冒律令西求本真
+  - date: 0631-01-01
+    title_zh: 留学那烂陀从戒贤
+    rationale: 欲穷瑜伽唯识正义，须依印土耆宿面受亲承
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译经弘咒
-  summary: 奉唐太宗高宗诏住弘福大慈恩寺立译场译出胜幢臂印等经劝众受持
+  title_zh: 奉诏译经弘化
+  description: 归唐后居弘福大慈恩等寺，奉太宗高宗诏译出大般若等众经，含诸佛心陀罗尼经，兼传法授徒
   phases:
   - key: brewing
-    name: 奉诏入住弘福寺
+    name: 弘福创译承诏开局
     labels:
-      zh: 奉诏
-    start_date: '0645-02-01'
+      zh: 奉诏开译
+    start_date: 0645-02-01
     highlight_event_id: guji-玄奘-event-return
   - key: breakthrough
-    name: 大慈恩寺立译场
+    name: 大慈恩立馆精译不辍
     labels:
-      zh: 立场
-    start_date: '0648-01-01'
+      zh: 精译大经
+    start_date: 0648-01-01
     highlight_event_id: guji-玄奘-event-translate
   - key: climax
-    name: 译出胜幢臂印陀罗尼经
+    name: 译诸佛心陀罗尼普利怖畏
     labels:
-      zh: 译咒
-    start_date: '0654-01-01'
+      zh: 译持密咒
+    start_date: 0648-01-01
     highlight_event_id: guji-玄奘-event-translate
   - key: closure
-    name: 普劝受持流通
+    name: 玉华示寂译业圆成
     labels:
-      zh: 流通
-    start_date: '0664-01-01'
+      zh: 示寂圆成
+    start_date: 0664-01-01
     highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: '0645-02-01'
-    title_zh: 受诏专事翻译
-    rationale: 以译经利乐有情报国恩佛恩不复他务
-  - date: '0654-01-01'
-    title_zh: 译说胜幢臂印神咒
-    rationale: 愍念有情堕恶趣受剧苦以神咒善巧拔济令灭罪生善速证菩提
+  - date: 0648-01-01
+    title_zh: 奉诏译诸佛心陀罗尼
+    rationale: 愍念怖畏众生多苦难，宜宣布神咒令速脱苦速证菩提
+  - date: 0659-01-01
+    title_zh: 移馆玉华专译大般若
+    rationale: 大部深广须静地专精，舍繁就简以毕译经弘愿
 events:
 - id: guji-玄奘-event-birth
-  date: '0602'
+  type: birth
+  date: 0602-04-06
   year_of: 602
-  title_zh: 玄奘诞生
-  description: 隋仁寿二年生于洛州缑氏陈氏家
-- id: guji-玄奘-event-westward
-  date: '0629-08-01'
+  title_zh: 诞生于洛州缑氏
+  description: 隋仁寿二年诞生，俗姓陈，幼颖悟，十三岁出家入洛阳净土寺
+- id: guji-玄奘-event-depart
+  type: career
+  date: 0629-08-01
   year_of: 629
-  title_zh: 贞观西行
-  description: 唐贞观三年自长安出发偷渡玉门西往天竺求法
+  title_zh: 贞观初西行出发
+  description: 自长安出发西行，偷渡玉门关，度莫贺延碛，开启十七年求法之旅
 - id: guji-玄奘-event-return
-  date: '0645-01-15'
+  type: career
+  date: 0645-01-01
   year_of: 645
-  title_zh: 携经东归
-  description: 贞观十九年携六百余部经还长安谒太宗蒙礼敬
+  title_zh: 携梵本归抵长安
+  description: 贞观十九年正月归抵长安，献梵本六百余部，太宗亲迎，敕住弘福寺从事翻译
 - id: guji-玄奘-event-translate
-  date: '0654-01-01'
-  year_of: 654
-  title_zh: 译胜幢臂印陀罗尼经
-  description: 奉诏于大慈恩寺译出胜幢臂印陀罗尼经说灭罪拔苦神咒劝众受持
+  type: career
+  date: 0648-01-01
+  year_of: 648
+  title_zh: 奉诏译诸佛心陀罗尼经
+  description: 大唐三藏法师奉诏译诸佛心陀罗尼经，宣说诸佛同说神咒，能除怖畏疾疫魔障，速证无上菩提
 - id: guji-玄奘-event-death
-  date: '0664-02-05'
+  type: death
+  date: 0664-03-07
   year_of: 664
-  title_zh: 大慈恩寺示寂
-  description: 麟德元年正月寂于大慈恩寺翻经院世寿六十三
+  title_zh: 示寂于玉华宫
+  description: 麟德元年二月五日夜示寂于玉华宫肃成院，遗命薄葬，高宗罢朝三日谥大遍觉
