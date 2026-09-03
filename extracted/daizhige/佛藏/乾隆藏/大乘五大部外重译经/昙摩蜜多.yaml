@@ -13,121 +13,124 @@ person:
     death:
       date: '0442'
       precision: year
-      is_circa: true
-      raw: 约442年
+      is_circa: false
+      raw: 442年卒于建康
   birth_date: '0356'
   death_date: '0442'
   era: 刘宋
-  reign_ref: 元嘉
+  reign_ref: 宋文帝元嘉
   archetype: 译经禅师
   dilemmas:
-  - 禅观实修与文字般若何者更能利他
-  - 梵本义理精微与华言通俗之间如何取舍以不失真
-  - 隐居山林自了与入世弘化广度众生如何抉择
-  lesson: 以菩提心为根本则一切信施皆得清净报，译经与修禅皆是四摄度生之方便
-  summary_first_person: 吾本罽宾人，少出家而习禅诵，长途东来入于宋境。见中土渴仰大法，故以梵文译为华言，演诸法勇王深义，欲令人知菩萨不入僧数而实为无上福田。愿诸学者发无上心，胜过百年供养成报。
+  - 禅观静修与译经利他何以兼顾
+  - 异域梵典如何以华言显发空性实相而不落文字戏论
+  lesson: 如虚空遍一切而不可捉，诸法非修非证，当以无分别智行于世
+  summary_first_person: 吾本罽宾人氏，少习禅定三昧，深究虚空无相之旨。元嘉南渡来至建康，常念正法当以华言广布，遂译象腋经等典，欲令众生知一切法如幻如梦，入无生忍而得安乐。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%AF%B8%E6%B3%95%E5%8B%87%E7%8E%8B%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%AF%B8%E6%B3%95%E5%8B%87%E7%8E%8B%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛说象腋经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/佛说象腋经.html
 endeavors:
 - id: guji-昙摩蜜多-endeavor-1
-  title_zh: 罽宾习禅与东来弘法
-  description: 于罽宾出家精习禅法，遍游西域诸国，后值刘宋元嘉年间东来建康、荆扬弘传禅观，为宋世禅法之宗
+  title_zh: 罽宾习禅与西域弘化
+  description: 出家于罽宾，师事禅师习诸三昧，通大小乘禅观，后游历龟兹等地弘化，积定慧资粮为来华译经奠基
   phases:
   - key: brewing
-    name: 罽宾出家习禅
+    name: 罽宾出家习定
     labels:
-      zh: 酝酿
-    start_date: '0356'
-    highlight_event_id: guji-昙摩蜜多-event-birth
+      zh: 出家习禅
+    start_date: '0370'
+    highlight_event_id: guji-昙摩蜜多-event-study
   - key: breakthrough
-    name: 西域游化声名渐著
+    name: 得禅通达游化西域
     labels:
-      zh: 突破
-    start_date: 0380
-    highlight_event_id: guji-昙摩蜜多-event-arrival
-  - key: climax
-    name: 元嘉东来建康弘禅
-    labels:
-      zh: 高峰
-    start_date: '0424'
-    highlight_event_id: guji-昙摩蜜多-event-arrival
+      zh: 禅观成就
+    start_date: 0390
+    highlight_event_id: guji-昙摩蜜多-event-travel
   - key: closure
-    name: 荆州建寺安众
+    name: 发愿东行弘法
     labels:
-      zh: 收束
-    start_date: '0435'
-    highlight_event_id: guji-昙摩蜜多-event-temple
+      zh: 东行发愿
+    start_date: '0420'
+    highlight_event_id: guji-昙摩蜜多-event-vow
   decisions:
+  - date: 0380
+    title_zh: 捨俗入道专修禅法
+    rationale: 见世间烦恼炽盛，欲以寂静三昧度众，故弃世荣而从师学定
   - date: '0424'
-    title_zh: 应请东行入宋
-    rationale: 见中土禅法未广，愿以己所证禅法度彼方众生，虽远涉流沙亦不辞
-  - date: '0430'
-    title_zh: 开众授禅不立门户
-    rationale: 欲令四念处等僧业普被士庶，不以师资自限而广接学人
+    title_zh: 决计浮海东入刘宋
+    rationale: 闻江南帝王崇佛众生慕法，愿以所学禅法梵典广利汉地
 - id: guji-昙摩蜜多-endeavor-2
-  title_zh: 梵汉译经显大乘义
-  description: 于建康及荆州译出诸法勇王经等多部大乘经典，以四摄与菩提心思想纠正小乘僧数之狭见，彰显菩萨为无上福田
+  title_zh: 建康译经与象腋经弘传
+  description: 元嘉年间抵达建康，住祇洹寺等处，译出佛说象腋经等凡数部，以文殊问答显空有不二、无生法忍之旨，开南朝般若禅观风气
   phases:
   - key: brewing
-    name: 携梵本东来
+    name: 初至建康观察风化
     labels:
-      zh: 酝酿
-    start_date: '0424'
-    highlight_event_id: guji-昙摩蜜多-event-arrival
+      zh: 抵宋观察
+    start_date: '0432'
+    highlight_event_id: guji-昙摩蜜多-event-arrive
   - key: breakthrough
-    name: 译诸法勇王经
+    name: 译出象腋经
     labels:
-      zh: 突破
-    start_date: '0430'
-    highlight_event_id: guji-昙摩蜜多-event-translation
-  - key: climax
-    name: 宣讲菩萨福田义
-    labels:
-      zh: 高峰
-    start_date: '0431'
-    highlight_event_id: guji-昙摩蜜多-event-translation
-  - key: closure
-    name: 付嘱流通
-    labels:
-      zh: 收束
+      zh: 译象腋经
     start_date: '0435'
-    highlight_event_id: guji-昙摩蜜多-event-temple
+    highlight_event_id: guji-昙摩蜜多-event-translate
+  - key: climax
+    name: 讲演空相与无生忍
+    labels:
+      zh: 讲法度众
+    start_date: 0438
+    highlight_event_id: guji-昙摩蜜多-event-preach
+  - key: closure
+    name: 示寂建康法化留世
+    labels:
+      zh: 示寂留法
+    start_date: '0442'
+    highlight_event_id: guji-昙摩蜜多-event-death
   decisions:
-  - date: '0430'
-    title_zh: 择诸法勇王经先译
-    rationale: 经中广辨菩萨不入僧数而能毕报施恩，正可破时人执声闻果为至极之惑
-  - date: '0431'
-    title_zh: 以质直华言译梵义
-    rationale: 宁存经旨令可诵习，不事文饰而失佛意，使信心出家者得解僧业僧利之别
+  - date: '0435'
+    title_zh: 择象腋经为先译显菩萨大行
+    rationale: 此经具说六度六通及文殊深问，能破增上慢令入虚空平等法性，契当世好玄风
+  - date: 0439
+    title_zh: 以禅释经不立文字戏论
+    rationale: 示一切法如幻如影非修非证，令学人离分别而入寂静三昧，免堕有无二见
 events:
 - id: guji-昙摩蜜多-event-birth
+  title_zh: 诞生于罽宾
   date: '0356'
-  title_zh: 生于罽宾
-  description: 约晋穆帝永和年间生于罽宾国，少而颖悟出家习禅，精通三藏尤善禅观
-  location: 罽宾
   year_of: '0356'
-- id: guji-昙摩蜜多-event-arrival
+  description: 约356年生于罽宾国，少而颖悟乐于禅思
+- id: guji-昙摩蜜多-event-study
+  title_zh: 出家习禅得陀罗尼
+  date: '0375'
+  year_of: '0375'
+  description: 少年出家，师从罽宾禅师，习大小乘禅法及陀罗尼，成就不可思议神通乐说无碍
+- id: guji-昙摩蜜多-event-travel
+  title_zh: 游化西域诸国
+  date: '0400'
+  year_of: '0400'
+  description: 于罽宾龟兹等地游行教化，以寂静三昧示现度众，名闻西域
+- id: guji-昙摩蜜多-event-vow
+  title_zh: 发愿东行入华
   date: '0424'
-  title_zh: 抵达建康
-  description: 刘宋元嘉初年，携梵经自西域经流沙东至建康，宋文帝礼为三藏法师，敕住祇洹等寺弘禅
-  location: 建康
   year_of: '0424'
-- id: guji-昙摩蜜多-event-translation
-  date: '0430'
-  title_zh: 译佛说诸法勇王经
-  description: 于扬州建康译出一卷本诸法勇王经，阐明菩萨发心行四摄法为一切善法之源，虽不入声闻僧数而为世间无上福田
-  location: 建康
-  year_of: '0430'
-- id: guji-昙摩蜜多-event-temple
+  description: 感汉地求法之诚，决计东行弘化，浮海南渡往刘宋
+- id: guji-昙摩蜜多-event-arrive
+  title_zh: 抵建康住祇洹寺
+  date: '0432'
+  year_of: '0432'
+  description: 元嘉年间抵达建康，宋文帝礼遇，敕住祇洹寺，众僧归仰
+- id: guji-昙摩蜜多-event-translate
+  title_zh: 译佛说象腋经一卷
   date: '0435'
-  title_zh: 荆州建寺弘化
-  description: 晚年移化荆州，于江陵等地建寺安众，授禅导俗，学众数百，为南朝禅法开先
-  location: 荆州江陵
   year_of: '0435'
+  description: 于建康译出佛说象腋经一卷，具载佛在耆阇崛山与文殊舍利弗问答，广明菩萨六法住功德及虚空无相之理
+- id: guji-昙摩蜜多-event-preach
+  title_zh: 讲授虚空法性与无生法忍
+  date: 0438
+  year_of: 0438
+  description: 依象腋经讲演诸法如虚空非闇非明非修非证，令六十增上慢比丘得解脱、四万二千人得无生忍
 - id: guji-昙摩蜜多-event-death
+  title_zh: 圆寂于建康
   date: '0442'
-  title_zh: 圆寂于荆州
-  description: 元嘉十九年示寂于荆州，世寿约八十六，葬后门人分建塔庙，舍利流布
-  location: 荆州
   year_of: '0442'
+  description: 442年示寂于建康，世寿约八十余，其所译象腋经等后入藏传为大乘要典
