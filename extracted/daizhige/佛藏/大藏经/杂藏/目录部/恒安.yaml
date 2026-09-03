@@ -1,0 +1,132 @@
+person:
+  qid: guji-恒安
+  name_zh: 恒安
+  names:
+    zh: 恒安
+    en: Hengan
+  lifespan:
+    birth:
+      date: '0880-01-01'
+      precision: year
+      is_circa: true
+      raw: 唐末约生
+    death:
+      date: '0960-01-01'
+      precision: year
+      is_circa: true
+      raw: 南唐中后期约卒
+  birth_date: '0880-01-01'
+  death_date: '0960-01-01'
+  era: 南唐
+  reign_ref: 南唐升元至保大
+  archetype: 取经高僧
+  dilemmas:
+  - 江表贞元藏阙而立誓取经还国以资皇化
+  - 关右访得遗漏恐年月寖远复失故寄编补阙
+  lesson: 发愿取经以补藏阙编目传灯则法得久住
+  summary_first_person: 吾恒安南唐西都右街报恩禅院僧天祐南游江表历谒名山升元北礼五台关右抄写贞元藏经保大归阙奉敕编藏撰续贞元释教录以传后世
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/杂藏/目录部/续贞元释教录.md
+  - https://daizhige.org/佛藏/大藏经/杂藏/目录部/续贞元释教录.html
+endeavors:
+- id: guji-恒安-endeavor-1
+  title_zh: 江表历山发愿取经
+  goal: 历谒名山参寻知识问参之余看览藏经发愿取贞元藏还归上国
+  phases:
+  - key: brewing
+    name: 天祐南游江表
+    labels:
+      zh: 南游历谒
+    start_date: '0917-01-01'
+    highlight_event_id: guji-恒安-event-jiangbiao
+  - key: breakthrough
+    name: 与道友论藏立誓取经
+    labels:
+      zh: 立誓取经
+    start_date: '0930-01-01'
+    highlight_event_id: guji-恒安-event-jiangbiao
+  - key: climax
+    name: 升元北礼五台
+    labels:
+      zh: 北礼五台
+    start_date: '0938-01-01'
+    highlight_event_id: guji-恒安-event-wutai
+  - key: closure
+    name: 关右访求抄写得经
+    labels:
+      zh: 关右得经
+    start_date: '0939-01-01'
+    highlight_event_id: guji-恒安-event-wutai
+  decisions:
+  - date: '0917-01-01'
+    title_zh: 天祐赴江表历谒名山
+    rationale: 以问参之外看览藏经询贞元藏阙以启取经之愿
+  - date: '0938-01-01'
+    title_zh: 升元远游礼五台回关右抄写
+    rationale: 潜赖圣朝仰凭睿力冀资皇化永福邦家故远行求写
+- id: guji-恒安-endeavor-2
+  title_zh: 保大归阙编集续贞元释教录
+  goal: 将到经文奉敕写录编藏补千钵经品次录华严论撰续录进上流行
+  phases:
+  - key: brewing
+    name: 保大却回帝阙进经
+    labels:
+      zh: 归阙进经
+    start_date: '0945-01-01'
+    highlight_event_id: guji-恒安-event-baoda
+  - key: breakthrough
+    name: 蒙恩允写录施行编藏
+    labels:
+      zh: 奉敕编藏
+    start_date: '0945-06-01'
+    highlight_event_id: guji-恒安-event-baoda
+  - key: climax
+    name: 升元寺补得千钵经请编入藏
+    labels:
+      zh: 补阙千钵
+    start_date: '0945-10-01'
+    highlight_event_id: guji-恒安-event-baoda
+  - key: closure
+    name: 撰续贞元释教录一卷计数进上
+    labels:
+      zh: 撰录进上
+    start_date: '0945-12-01'
+    highlight_event_id: guji-恒安-event-baoda
+  decisions:
+  - date: '0945-01-01'
+    title_zh: 保大归阙进贞元藏经
+    rationale: 自贞元甲戌已一百五十二年宜进上国永编诸藏以广流行
+  - date: '0945-10-01'
+    title_zh: 请以千钵经寄编本部施行
+    rationale: 乃金刚智所译贞元目遗漏具事由上闻蒙允则无遗堕
+events:
+- id: guji-恒安-event-birth
+  title_zh: 降生
+  date: '0880-01-01'
+  year_of: 880
+  place: 中原
+  description: 唐末约生后出家为僧居西都右街报恩禅院为取经禅大德
+- id: guji-恒安-event-jiangbiao
+  title_zh: 天祐南游江表历谒名山
+  date: '0917-01-01'
+  year_of: 917
+  place: 江表名山
+  description: 天祐丁丑届于江表历谒名山参寻知识看览藏经与道友论贞元藏而立誓取经还国
+- id: guji-恒安-event-wutai
+  title_zh: 升元礼五台关右抄写贞元藏
+  date: '0938-01-01'
+  year_of: 938
+  place: 五台山及关右
+  description: 大唐升元二年远游礼五台回于关右写录得贞元录藏经律论等
+- id: guji-恒安-event-baoda
+  title_zh: 保大归阙进经奉敕编藏撰续录
+  date: '0945-01-01'
+  year_of: 945
+  place: 金陵阙下升元寺
+  description: 保大三年回帝阙进经蒙恩写录施行编藏乔匡舜制序贯经前又补千钵经品次录华严论撰续贞元释教录一卷计数一百四十部四百一十三卷
+- id: guji-恒安-event-death
+  title_zh: 示寂
+  date: '0960-01-01'
+  year_of: 960
+  place: 金陵
+  description: 续录既成流行于世后于南唐中后期示寂
