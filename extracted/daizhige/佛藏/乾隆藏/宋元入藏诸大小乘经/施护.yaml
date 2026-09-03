@@ -9,124 +9,134 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中北印度乌填曩国人
+      raw: 北印度乌仗那国约十世纪中生
     death:
       date: '1017'
       precision: year
       is_circa: false
-      raw: 宋天禧元年卒
+      raw: 宋真宗天禧元年卒
   birth_date: 0950
   death_date: '1017'
-  era: 北宋
-  reign_ref: 宋太宗至真宗朝
-  archetype: 译经弘法者
+  era: 宋
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 译经传法者
   dilemmas:
-  - 梵本奥深而华言未备如何取信达雅
-  - 祥瑞占相盛行而缘生正见难明如何善巧化导
-  lesson: 以诚信译经贯通梵汉以缘起正观破除吉凶迷执
-  summary_first_person: 吾自乌填曩国远来入宋蒙诏居译场毕生传译显密经论愿以缘生正法饶益众生
+  - 梵汉悬隔如何兼顾信达雅
+  - 密咒仪轨繁密如何取信中土
+  lesson: 以传译为报佛恩愿正法久住饶益有情
+  summary_first_person: 吾自北印度来归大宋奉诏入译经院与法天等共译显密经论百余部复出千转大明陀罗尼愿众生离怖得安
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%8D%81%E4%BA%8C%E7%BC%98%E7%94%9F%E7%A5%A5%E7%91%9E%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%8D%81%E4%BA%8C%E7%BC%98%E7%94%9F%E7%A5%A5%E7%91%9E%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%8D%83%E8%BD%AC%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%8D%83%E8%BD%AC%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入华居译场奉诏传译
-  summary_zh: 太平兴国中随天息灾入宋居译经院授三藏传法大师毕生译出显密经律百余卷
+  title_zh: 自乌仗那入宋参译经院
+  summary_zh: 太平兴国中与法天偕来奉诏入译经院赐号传法大师译显密经律
   phases:
   - key: brewing
-    name: 西来发轫
+    name: 乌仗那习学
     labels:
-      zh: 萌芽
-    start_date: 0980
-    highlight_event_id: guji-施护-event-arrive
+      zh:
+      - 西天求法
+      - 梵学本行
+    start_date: 0950
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 入院试译
+    name: 浮海东来抵汴
     labels:
-      zh: 突破
+      zh:
+      - 入华
+      - 奉诏
+    start_date: 0982
+    highlight_event_id: guji-施护-event-arrival
+  - key: climax
+    name: 译场传译百部
+    labels:
+      zh:
+      - 译经院
+      - 显密兼弘
     start_date: 0983
-    highlight_event_id: guji-施护-event-translate-start
-  - key: climax
-    name: 奉诏弘译
-    labels:
-      zh: 高峰
-    start_date: 0991
-    highlight_event_id: guji-施护-event-xiangrui
+    highlight_event_id: guji-施护-event-arrival
   - key: closure
-    name: 译业圆成
+    name: 授号传法大师
     labels:
-      zh: 收束
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
+      zh:
+      - 赐号
+      - 立业
+    start_date: 0990
+    highlight_event_id: guji-施护-event-qianzhuan
   decisions:
-  - date: 0980
-    title_zh: 随师东来入宋
-    rationale: 慕中土护法弘法因缘随天息灾远涉流沙入华求译
+  - date: 0982
+    title_zh: 决意东行入宋
+    rationale: 慕中土护法弘法因缘欲令正法东流广利众生
   - date: 0983
-    title_zh: 受诏居译经院
-    rationale: 愿以梵汉对译报佛恩国恩遂受三藏之命专务传译
+    title_zh: 就译场分工共译
+    rationale: 梵汉校雠须众缘和合故与法天法贤等分任显密以求信达
 - id: guji-施护-endeavor-2
-  title_zh: 译说十二缘生祥瑞经
-  summary_zh: 以十二支配十二月推演生时出行占候诸般祥瑞会归缘生正见以破虚妄颠倒
+  title_zh: 奉诏译弘千转大明陀罗尼
+  summary_zh: 于忉利说法缘起译出帝释所说千转大明具说除怖攘灾护国安民之法
   phases:
   - key: brewing
-    name: 审谛缘起
+    name: 抉择密部缘起
     labels:
-      zh: 酝酿
-    start_date: 0990
-    highlight_event_id: guji-施护-event-translate-start
+      zh:
+      - 密教
+      - 抉择
+    start_date: 0985
+    highlight_event_id: guji-施护-event-arrival
   - key: breakthrough
-    name: 译出上卷
+    name: 开译千转大明
     labels:
-      zh: 显化
-    start_date: 0995
-    highlight_event_id: guji-施护-event-xiangrui
+      zh:
+      - 开译
+      - 陀罗尼
+    start_date: 0990
+    highlight_event_id: guji-施护-event-qianzhuan
   - key: climax
-    name: 祥瑞广说
+    name: 宣说攘灾除怖法
     labels:
-      zh: 高潮
-    start_date: 0996
-    highlight_event_id: guji-施护-event-xiangrui
+      zh:
+      - 除怖
+      - 护世
+    start_date: 0990
+    highlight_event_id: guji-施护-event-qianzhuan
   - key: closure
-    name: 下卷流通
+    name: 流通结集归藏
     labels:
-      zh: 流通
-    start_date: 0997
-    highlight_event_id: guji-施护-event-xiangrui
+      zh:
+      - 流通
+      - 入藏
+    start_date: 0991
+    highlight_event_id: guji-施护-event-qianzhuan
   decisions:
-  - date: 0995
-    title_zh: 直译十二支占候
-    rationale: 随顺世间乐闻深法之请存其占验条目而不舍缘生本义
-  - date: 0996
-    title_zh: 会归缘生正见
-    rationale: 恐众执瑞为实故于首尾申明无明乃至老死轮转以显破妄意
+  - date: 0990
+    title_zh: 以帝释请法为缘起而译
+    rationale: 经以帝释请佛许说为序能摄天龙鬼神护世心故先显缘起以生信
+  - date: 0990
+    title_zh: 详存持验结坛之法
+    rationale: 末世众生薄福多怖故存取土作丸系衣角等易行之法以广饶益
 events:
 - id: guji-施护-event-birth
+  title_zh: 生于北印度乌仗那国
   date: 0950
   year_of: 950
-  title_zh: 生于乌填曩国
-  description_zh: 北印度乌填曩国生少习梵典精通显密
-  type: birth
-- id: guji-施护-event-arrive
-  date: 0980
-  year_of: 980
-  title_zh: 随天息灾至宋都
-  description_zh: 太平兴国五年随天息灾入中原旋入译经院参译
-  type: career
-- id: guji-施护-event-translate-start
-  date: 0983
-  year_of: 983
-  title_zh: 授传法大师居译场
-  description_zh: 授三藏传法大师奉诏译经译出佛说大乘庄严宝王经等百余卷
-  type: career
-- id: guji-施护-event-xiangrui
-  date: 0995
-  year_of: 995
-  title_zh: 奉诏译十二缘生祥瑞经二卷
-  description_zh: 演说十二缘生配十二月占察生时出行眸动乌鸣诸般祥瑞会归缘起
-  type: career
+  place_zh: 北印度乌仗那国
+  description_zh: 生年不详约十世纪中生于乌仗那习梵典密教
+- id: guji-施护-event-arrival
+  title_zh: 太平兴国七年抵开封入译经院
+  date: 0982
+  year_of: 982
+  place_zh: 开封译经院
+  description_zh: 与法天等至宋太宗召入译经院奉诏传译赐号三藏传法大师
+- id: guji-施护-event-qianzhuan
+  title_zh: 奉诏译出千转大明陀罗尼经一卷
+  date: 0990
+  year_of: 990
+  place_zh: 开封译经院
+  description_zh: 译帝释天主于忉利天请说千转大明具诸陀罗尼及除王难星变水火毒害等怖之法
 - id: guji-施护-event-death
+  title_zh: 宋真宗天禧元年示寂
   date: '1017'
   year_of: 1017
-  title_zh: 卒于宋都
-  description_zh: 天禧元年示寂于译场朝廷追念译功
-  type: death
+  place_zh: 开封
+  description_zh: 在译场传译三十余年译经百余部至天禧元年卒
