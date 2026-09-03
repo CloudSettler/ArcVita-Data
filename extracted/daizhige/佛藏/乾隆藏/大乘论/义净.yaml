@@ -9,146 +9,140 @@ person:
       date: '0635'
       precision: year
       is_circa: false
-      raw: 唐太宗贞观九年齐州生
+      raw: 唐贞观九年
     death:
       date: '0713'
       precision: year
       is_circa: false
-      raw: 唐玄宗先天二年洛阳卒
+      raw: 唐先天二年
   birth_date: '0635'
   death_date: '0713'
   era: 唐
-  reign_ref: 贞观至先天
-  archetype: 航海求法译经弘律高僧
+  reign_ref: 唐高宗至玄宗朝
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 幼慕法显玄奘西行壮志与航海艰险生死未卜之难
-  - 持律精严与兼弘唯识大乘义理之衡
-  lesson: 以身求法以译续慧不惮海陆艰险利生弘道
-  summary_first_person: 吾范阳张氏名文明髫年出家仰法显玄奘高风乃自广州航海往印度求律学经二十余年归国奉制译经弘律愿以余生续佛慧命
+  - title_zh: 海路险远与求法弘律之志
+    description_zh: 陆路阻远海涛生死未卜为求戒律原本甘冒风涛西行二十余年
+  - title_zh: 俗执实有与胜义假名之辨
+    description_zh: 世人执瓶衣绳蛇为实如何以假名唯识之理导俗向真断除烦恼
+  lesson: 执实则怖生了假则缚解随俗说有观真达空方能断惑
+  summary_first_person: 我是义净幼慕出家感中土律范缺如决意泛海西行历南海天竺二十余年携梵本归国奉制译经弘扬有部律兼传唯识假名之理愿后学不执实境永断烦恼
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/大乘论/成唯识宝生论.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘论/成唯识宝生论.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E6%8E%8C%E4%B8%AD%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E6%8E%8C%E4%B8%AD%E8%AE%BA.html
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 航海西行求法
-  summary: 自广州浮海历室利佛逝至印度那烂陀求律习经二十五年携梵本归国
+  title_zh: 泛海西行求法取经
+  summary_zh: 自广州浮海经室利佛逝至天竺那烂陀学法二十五年携梵本归国
   phases:
   - key: brewing
-    name: 萌志出家习律
+    name: 发愿西行
     labels:
       zh:
-      - 立志
-      - 习律
-    start_date: 0649
-    highlight_event_id: guji-义净-event-birth
-  - key: breakthrough
-    name: 广州登舟南渡
-    labels:
-      zh:
-      - 启程
-      - 航海
+      - 发愿
     start_date: '0671'
     highlight_event_id: guji-义净-event-departure
-  - key: climax
-    name: 那烂陀求学取经
+  - key: breakthrough
+    name: 南海天竺学法
     labels:
       zh:
       - 求法
-      - 学律
-    start_date: '0673'
+    start_date: 0680
     highlight_event_id: guji-义净-event-study
-  - key: closure
-    name: 携经归国复命
+  - key: climax
+    name: 携经归国
     labels:
       zh:
       - 归国
-      - 献经
     start_date: 0695
+    highlight_event_id: guji-义净-event-return
+  - key: closure
+    name: 著述寄归传
+    labels:
+      zh:
+      - 著述
+    start_date: 0698
     highlight_event_id: guji-义净-event-return
   decisions:
   - date: '0671'
-    title_zh: 决意航海西行
-    rationale: 慕法显玄奘高迹为求具足戒律与梵本不畏海途险远
-  - date: 0685
-    title_zh: 室利佛逝暂住著述
-    rationale: 候风撰南海寄归内法传大唐西域求法高僧传以资后学
+    title_zh: 舍陆就海西行
+    rationale: 陆路艰阻海路虽险能直达南海天竺为求律本不惜生死
+  - date: 0680
+    title_zh: 久住那烂陀专攻律学
+    rationale: 中土律范阙如须精研梵文深究根本说一切有部原本方能弘传
 - id: guji-义净-endeavor-2
-  title_zh: 奉制译场弘宣
-  summary: 归国后于洛阳长安奉制译经弘律兼宣唯识宝生论等大乘论典
+  title_zh: 奉制译经弘律传唯识
+  summary_zh: 归国后奉武后中宗玄宗制于东西京译出有部律及大乘论显假名唯识义
   phases:
   - key: brewing
-    name: 武后礼遇参译
+    name: 奉诏入京
     labels:
       zh:
-      - 礼遇
-      - 参译
+      - 奉诏
     start_date: 0695
     highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 长安立场译律
+    name: 主译毘奈耶
     labels:
       zh:
       - 译律
-      - 弘化
     start_date: '0700'
-    highlight_event_id: guji-义净-event-return
+    highlight_event_id: guji-义净-event-translate
   - key: climax
-    name: 景龙奉制译论
+    name: 译出掌中论
     labels:
       zh:
-      - 奉制
-      - 译论
-    start_date: '0710'
-    highlight_event_id: guji-义净-event-translate-baosheng
+      - 传法
+    start_date: 0708
+    highlight_event_id: guji-义净-event-translate
   - key: closure
-    name: 圆寂洛阳建塔
+    name: 弘传圆寂
     labels:
       zh:
       - 圆寂
-      - 建塔
     start_date: '0713'
     highlight_event_id: guji-义净-event-death
   decisions:
-  - date: 0699
-    title_zh: 专弘根本说一切有部律
-    rationale: 以南海所传律制匡正中土行事令僧团依律住持
-  - date: '0710'
-    title_zh: 奉制译成唯识宝生论
-    rationale: 为显大乘唯识正理成立三界唯识破外境执以助弘道
+  - date: '0700'
+    title_zh: 先译弘律再传大乘
+    rationale: 中土戒律未备须先立轨范再以唯识空理破实执方能解俗缚
+  - date: 0708
+    title_zh: 译陈那掌中论明假名
+    rationale: 以绳蛇喻极微析破三界实有执显三界唯假名妄识令智者断惑
 events:
 - id: guji-义净-event-birth
-  title_zh: 齐州诞生出家
+  title_zh: 诞生于齐州
   date: '0635'
   year_of: 635
   place_zh: 齐州
-  summary: 贞观九年生于齐州范阳张氏十四岁出家习律
+  description_zh: 唐贞观九年生俗姓张幼而慕法出家受具
 - id: guji-义净-event-departure
-  title_zh: 广州浮海西行
+  title_zh: 自广州泛海西行
   date: '0671'
   year_of: 671
   place_zh: 广州
-  summary: 咸亨二年自广州登舟经室利佛逝往印度求法
+  description_zh: 唐咸亨二年自广州浮海赴室利佛逝发愿西天求法
 - id: guji-义净-event-study
-  title_zh: 那烂陀学法取经
-  date: '0673'
-  year_of: 673
-  place_zh: 中印度那烂陀
-  summary: 至那烂陀从师习律学经研唯识方等留印十余年
+  title_zh: 那烂陀留学研律
+  date: 0680
+  year_of: 680
+  place_zh: 天竺那烂陀寺
+  description_zh: 至中天竺那烂陀研习梵文有部律论兼学唯识因明凡十余年
 - id: guji-义净-event-return
-  title_zh: 携经归国礼遇
+  title_zh: 携梵本归国
   date: 0695
   year_of: 695
   place_zh: 洛阳
-  summary: 携梵本四百余部归洛阳武后亲迎礼为三藏
-- id: guji-义净-event-translate-baosheng
-  title_zh: 奉制译成唯识宝生论
-  date: '0710'
-  year_of: 710
+  description_zh: 武周证圣元年携梵本四百余部归洛阳奉诏入京译经
+- id: guji-义净-event-translate
+  title_zh: 奉制译出掌中论
+  date: 0708
+  year_of: 708
   place_zh: 长安大荐福寺
-  summary: 景龙四年奉制译护法造成唯识宝生论五卷宣释梵本缀文正字
+  description_zh: 奉制译陈那菩萨造掌中论一卷明绳蛇喻破极微实有显三界但假名唯妄识
 - id: guji-义净-event-death
-  title_zh: 洛阳圆寂建塔
+  title_zh: 圆寂于长安
   date: '0713'
   year_of: 713
-  place_zh: 洛阳
-  summary: 先天二年卒于洛阳享年七十九谥号鸿胪卿建塔追福
+  place_zh: 长安大荐福寺
+  description_zh: 唐先天二年正月圆寂于长安享年七十九谥号鸿胪卿
