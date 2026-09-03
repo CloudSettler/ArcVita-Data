@@ -1,0 +1,132 @@
+person:
+  qid: guji-真谛
+  name_zh: 真谛
+  names:
+    zh: 真谛
+    en: Paramartha
+  lifespan:
+    birth:
+      date: 0499
+      precision: year
+      is_circa: true
+      raw: 天监八年
+    death:
+      date: 0569
+      precision: year
+      is_circa: false
+      raw: 陈太建元年
+  birth_date: 0499
+  death_date: 0569
+  era: 南北朝梁陈
+  reign_ref: 梁武帝至陈宣帝
+  archetype: 译经弘法者
+  dilemmas:
+  - 战乱流离中坚持译经还是避难保身
+  - 众部纷争中如何以大乘统摄声闻分判
+  lesson: 于离乱中守译场以存法脉于纷争中立判摄以明一味
+  summary_first_person: 吾自西域来梁陈逢乱离流转岭南昼夜翻经但愿正法久住以般若大乘统摄诸部令后学得坚固义
+  source_urls:
+  - https://daizhige.org/
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-真谛-endeavor-1
+  title_zh: 泛海东来建译场
+  summary_zh: 自天竺经扶南至广州梁末逢侯景之乱辗转始兴豫章而译经不辍
+  phases:
+  - key: brewing
+    name: 西国习学
+    labels:
+      zh: 酝酿
+    start_date: 0499
+    highlight_event_id: guji-真谛-event-birth
+  - key: breakthrough
+    name: 泛海至梁
+    labels:
+      zh: 突破
+    start_date: '0546'
+    highlight_event_id: guji-真谛-event-arrival
+  - key: climax
+    name: 乱中译经
+    labels:
+      zh: 高潮
+    start_date: 0548
+    highlight_event_id: guji-真谛-event-translate-shibabu
+  - key: closure
+    name: 岭南示寂
+    labels:
+      zh: 收束
+    start_date: 0569
+    highlight_event_id: guji-真谛-event-death
+  decisions:
+  - date: '0546'
+    title_zh: 应梁武帝请东行
+    rationale: 为令大乘正法流布东土不惮海路艰险
+  - date: '0550'
+    title_zh: 乱中留岭南译经
+    rationale: 避建康兵燹保全梵本藉偏安之地存译场
+- id: guji-真谛-endeavor-2
+  title_zh: 判摄诸部分弘大乘
+  summary_zh: 译十八部论等以般若大乘统摄二十部明三藏平等无高下
+  phases:
+  - key: brewing
+    name: 翻译部执旧说
+    labels:
+      zh: 酝酿
+    start_date: 0548
+    highlight_event_id: guji-真谛-event-translate-shibabu
+  - key: breakthrough
+    name: 证大乘出处
+    labels:
+      zh: 突破
+    start_date: '0555'
+    highlight_event_id: guji-真谛-event-translate-shibabu
+  - key: climax
+    name: 弘扬摄论唯识
+    labels:
+      zh: 高潮
+    start_date: '0562'
+    highlight_event_id: guji-真谛-event-translate-shelun
+  - key: closure
+    name: 以正教付后学
+    labels:
+      zh: 收束
+    start_date: 0569
+    highlight_event_id: guji-真谛-event-death
+  decisions:
+  - date: '0560'
+    title_zh: 译十八部论明部派
+    rationale: 以文殊问经分别部品为据正众部分判之失
+  - date: '0562'
+    title_zh: 专弘摄大乘扶大乘
+    rationale: 因小乘分诤不息须以般若为本示一味之旨
+events:
+- id: guji-真谛-event-birth
+  title_zh: 诞生优禅尼国
+  date: 0499
+  year_of: 499
+  place_zh: 西天竺优禅尼国
+  description_zh: 生于婆罗门种少习三藏兼通大乘后号拘那罗陀唐言真谛
+- id: guji-真谛-event-arrival
+  title_zh: 泛海至广州
+  date: '0546'
+  year_of: 546
+  place_zh: 广州
+  description_zh: 梁大同十二年泛海经扶南至广州梁武帝遣使迎接后入建康
+- id: guji-真谛-event-translate-shibabu
+  title_zh: 译出十八部论
+  date: '0555'
+  year_of: 555
+  place_zh: 豫章始兴
+  description_zh: 于豫章始兴等地译出十八部论明根本二部开出二十部皆从大乘般若出
+- id: guji-真谛-event-translate-shelun
+  title_zh: 译摄大乘论弘唯识
+  date: '0562'
+  year_of: 562
+  place_zh: 广州制止寺
+  description_zh: 译摄大乘论等弘扬唯识开中土摄论学派以大乘统摄声闻
+- id: guji-真谛-event-death
+  title_zh: 示寂于广州
+  date: 0569
+  year_of: 569
+  place_zh: 广州制止寺
+  description_zh: 陈太建元年二月示寂于广州制止寺世寿七十一
