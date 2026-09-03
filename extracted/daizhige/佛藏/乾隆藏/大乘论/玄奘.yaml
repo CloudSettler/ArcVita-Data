@@ -8,139 +8,133 @@ person:
     birth:
       date: '0602'
       precision: year
-      is_circa: false
-      raw: 隋仁寿二年生于洛州缑氏
+      is_circa: true
+      raw: 隋仁寿二年洛州缑氏
     death:
-      date: '0664-02-05'
+      date: '0664-03-07'
       precision: day
       is_circa: false
-      raw: 唐麟德元年二月五日寂于玉华宫
+      raw: 麟德元年二月五日长安玉华寺
   birth_date: '0602'
-  death_date: '0664-02-05'
+  death_date: '0664-03-07'
   era: 唐
-  reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 西行求法译经大师
+  reign_ref: 唐太宗贞观
+  archetype: 西行译经高僧
   dilemmas:
-  - 中土众师异义纷纭欲求瑜伽正传须冒禁西行
-  - 朝廷高官厚禄相邀与毕生译场弘法之间舍官就译
-  lesson: 以信解行证贯通知见以颂摄义文约义周利乐有情
-  summary_first_person: 我本缑氏陈氏子幼从兄出家长安受具见中土圣教阙文疑义难决遂冒禁西行遍历五天竺亲承戒贤瑜伽正法归国蒙诏译经将无著菩萨显扬圣教要义摄为颂文愿令后学易晓易持
+  - title_zh: 空假异解难决去留
+    description: 中土四谛一乘讹舛当安守旧说还是亲往天竺求真本
+  - title_zh: 独往遐方生死未卜
+    description: 越葱岭访迦维道远凶险当退守安稳还是发弘誓拯迷途
+  lesson: 亲证原本方能决疑译经当以信达兼全利济群生
+  summary_first_person: 吾本陈氏少悟空假期贞观西行十七载历百余国取六百余部梵本还奉诏译瑜伽师地论百卷以阐五乘奥旨愿正法久住迷途有归
   source_urls:
-  - https://daizhige.org/显扬圣教论颂.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/显扬圣教论颂.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E7%91%9C%E4%BC%BD%E5%B8%88%E5%9C%B0%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E7%91%9C%E4%BC%BD%E5%B8%88%E5%9C%B0%E8%AE%BA.html
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行五印求取瑜伽正法
-  summary_zh: 贞观初年偷关西出遍历西域天竺师事戒贤得瑜伽师地正传携梵本东归
+  title_zh: 裂裳西行历百余国求法
+  summary: 束发悟空假不惬旧译发弘誓西访迦维周游十七载罄写五财还以肉舍利佛像梵本归长安
   phases:
   - key: brewing
-    name: 长安问道发愿西行
+    name: 束发究典立志求真
     labels:
-      zh:
-      - 问道发愿
-    start_date: 0618
-    highlight_event_id: guji-玄奘-event-xixing
+      zh: 发愿
+    start_date: '0615'
+    highlight_event_id: guji-玄奘-event-birth
   - key: breakthrough
-    name: 偷渡玉门遍历西域
+    name: 偷渡出关越葱岭西行
     labels:
-      zh:
-      - 艰难西进
-    start_date: '0629-08-01'
-    highlight_event_id: guji-玄奘-event-xixing
+      zh: 出关
+    start_date: '0629-08-27'
+    highlight_event_id: guji-玄奘-event-depart
   - key: climax
-    name: 那烂陀受学瑜伽师地
+    name: 周游天竺访道取经
     labels:
-      zh:
-      - 受学证义
-    start_date: '0631-01-01'
-    highlight_event_id: guji-玄奘-event-qiufa
+      zh: 取经
+    start_date: '0630-01-01'
+    highlight_event_id: guji-玄奘-event-depart
   - key: closure
-    name: 负梵本东归长安
+    name: 贞观十九年还至长安
     labels:
-      zh:
-      - 载誉东归
-    start_date: '0643-01-01'
+      zh: 东归
+    start_date: '0645-02-25'
     highlight_event_id: guji-玄奘-event-return
   decisions:
-  - date: '0629-08-01'
-    title_zh: 冒禁偷关西行求法
-    rationale: 中土经阙疑义丛生不亲印土无以决疑宁触国禁不违本愿
-  - date: '0631-01-01'
-    title_zh: 久住那烂陀师从戒贤
-    rationale: 欲得瑜伽正传须依耆宿久学穷源故留住五年精研师地
+  - date: '0629-08-27'
+    title_zh: 裹足偷渡趣迦维
+    rationale: 鉴讹文于实相不忍迷途无归故冒禁越境亲寻正教
+  - date: '0645-02-25'
+    title_zh: 携六百余部梵本东归
+    rationale: 未译之经已毕写若诵若阅当奉归弘福共译利生故不留天竺
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译经弘显扬圣教
-  summary_zh: 归国后居弘福大慈恩玉华专事译经译显扬圣教论颂等以颂摄长行要义
+  title_zh: 奉诏译瑜伽师地论百卷
+  summary: 贞观二十一年肇译弥勒所述瑜伽师地论集二十余名僧分地缀文证梵正字二十二年绝笔成百卷
   phases:
   - key: brewing
-    name: 弘福开馆初创译场
+    name: 弘福安置供给译场
     labels:
-      zh:
-      - 开馆译经
-    start_date: '0645-02-01'
+      zh: 建场
+    start_date: '0645-03-01'
     highlight_event_id: guji-玄奘-event-return
   - key: breakthrough
-    name: 大慈恩立宗弘唯识
+    name: 肇译瑜伽四万颂
     labels:
-      zh:
-      - 立宗弘法
-    start_date: '0648-01-01'
-    highlight_event_id: guji-玄奘-event-translate
+      zh: 肇译
+    start_date: '0647-05-15'
+    highlight_event_id: guji-玄奘-event-translate-start
   - key: climax
-    name: 奉诏译显扬圣教论颂
+    name: 分地命众缀文证义
     labels:
-      zh:
-      - 摄义成颂
-    start_date: '0649-06-01'
-    highlight_event_id: guji-玄奘-event-translate
+      zh: 分译
+    start_date: '0647-06-01'
+    highlight_event_id: guji-玄奘-event-translate-start
   - key: closure
-    name: 玉华清修毕生译业
+    name: 绝笔总成一百卷奏上
     labels:
-      zh:
-      - 竭力译场
-    start_date: '0659-01-01'
-    highlight_event_id: guji-玄奘-event-death
+      zh: 成帙
+    start_date: '0648-05-15'
+    highlight_event_id: guji-玄奘-event-translate-finish
   decisions:
-  - date: '0645-02-01'
-    title_zh: 辞官不受坚持译经
-    rationale: 太宗劝仕不就愿以译经报国利生方为真报恩行
-  - date: '0649-06-01'
-    title_zh: 以颂体译显扬圣教要义
-    rationale: 长行浩博学者难周以颂摄事净义等十一品文约义周令易晓易持
+  - date: '0647-05-15'
+    title_zh: 首译瑜伽师地论
+    rationale: 斯为法门极地该三藏遗文能畅五乘奥旨故先译以立宗本
+  - date: '0647-06-01'
+    title_zh: 分五分十七地命众共译
+    rationale: 梵本浩博义门繁细非一人能竟故召内外兼通道业贞固者分地受旨缀文证义
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 诞生洛州缑氏陈家
+  title_zh: 出生洛州缑氏陈家
   date: '0602'
   year_of: 602
-  place_zh: 隋洛州缑氏
-  description_zh: 隋仁寿二年生幼聪慧随兄长捷入净土寺研习摄论毗昙
-- id: guji-玄奘-event-xixing
-  title_zh: 冒禁出关西行求法
-  date: '0629-08-01'
+  place_zh: 洛州缑氏
+  description: 隋仁寿二年生少聪慧束发即事抽簪悟空假研求四谛一乘
+- id: guji-玄奘-event-depart
+  title_zh: 裂裳裹足西行求法
+  date: '0629-08-27'
   year_of: 629
-  place_zh: 凉州玉门关外
-  description_zh: 贞观三年趁灾荒西出偷渡五烽履沙河经高昌龟兹凌雪岭入印度境
-- id: guji-玄奘-event-qiufa
-  title_zh: 那烂陀师事戒贤学瑜伽
-  date: '0631-01-01'
-  year_of: 631
-  place_zh: 中天竺那烂陀寺
-  description_zh: 亲承百岁戒贤授瑜伽师地论显扬圣教论等兼学因明声明遍历五印问学
+  place_zh: 长安至葱岭外
+  description: 值时康道泰远安迩肃发弘誓越葱岭趣迦维访道周游十有七载经途百余国
 - id: guji-玄奘-event-return
-  title_zh: 携梵本东归献于长安
-  date: '0645-02-01'
+  title_zh: 持舍利梵本还长安
+  date: '0645-02-25'
   year_of: 645
-  place_zh: 唐京师长安弘福寺
-  description_zh: 贞观十九年正月还至长安太宗亲迎敕住弘福寺翻译赍回梵本六百余部
-- id: guji-玄奘-event-translate
-  title_zh: 奉诏译显扬圣教论颂一卷
-  date: '0649-06-01'
-  year_of: 649
-  place_zh: 大慈恩寺翻经院
-  description_zh: 将无著菩萨造显扬圣教论要义摄为颂文分摄事摄净义等十一品慈悲显扬令文约义周
+  place_zh: 长安弘福寺
+  description: 以贞观十九年持肉舍利一百五十粒佛像七躯三藏要文六百五十七部还至长安奉安弘福寺
+- id: guji-玄奘-event-translate-start
+  title_zh: 肇译瑜伽师地论
+  date: '0647-05-15'
+  year_of: 647
+  place_zh: 长安弘福寺译场
+  description: 贞观二十一年五月十五日敬执梵文译为唐语集灵会灵雋智开等证义缀文宗明十七地
+- id: guji-玄奘-event-translate-finish
+  title_zh: 绝笔总成一百卷
+  date: '0648-05-15'
+  year_of: 648
+  place_zh: 长安
+  description: 贞观二十二年五月十五日绝笔总成一百卷许敬宗奉诏监阅奏上感宸衷亲裁鸿序
 - id: guji-玄奘-event-death
-  title_zh: 寂于玉华宫嘉寿寺
-  date: '0664-02-05'
+  title_zh: 圆寂玉华寺
+  date: '0664-03-07'
   year_of: 664
-  place_zh: 唐坊州玉华宫
-  description_zh: 麟德元年二月五日寂译经七十五部一千三百三十五卷门人窥基等传其唯识正法
+  place_zh: 长安玉华寺
+  description: 麟德元年二月五日寂译业既弘戒行圆深僧俗顶戴法流逾洁
