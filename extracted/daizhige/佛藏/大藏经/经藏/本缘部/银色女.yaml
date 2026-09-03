@@ -1,0 +1,151 @@
+person:
+  qid: guji-银色女
+  name_zh: 银色女
+  names:
+    zh: 银色女
+    en: Silver Lady
+  lifespan:
+    birth:
+      date: -5000-01-01
+      precision: year
+      is_circa: true
+      raw: 过去无量劫莲华王都生
+    death:
+      date: -4900-01-01
+      precision: year
+      is_circa: true
+      raw: 银色王治国无量岁后命终
+  birth_date: -5000-01-01
+  death_date: -4900-01-01
+  era: 过去无量劫
+  reign_ref: 莲华王都银色王
+  archetype: 割身布施求菩提者
+  dilemmas:
+  - 若将子携去则产妇命终，若不携去则童子被食，二命难全如何救济
+  - 自割二乳剧痛流血，能否心无悔恨成就檀波罗蜜
+  - 惜身命求安乐，或舍身命救众生取无上觉，应当何从
+  lesson: 布施无悔不求回报，以大悲救众生方为波罗蜜，直至成就无上菩提
+  summary_first_person: 我是往昔莲华王都银色女，见产妇饥困欲食其子，便自割二乳救其母子，发愿求无上菩提，誓无悔恨，乳复如本，又誓成男子，后为银色王劝行十善，复多生舍眼目身肉饲鸟兽饿虎，唯愿救一切众生得一切智
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T0179
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T0179.md
+endeavors:
+- id: guji-银色女-endeavor-1
+  title_zh: 割乳济难发菩提心
+  summary: 见饥母欲食子，自割二乳施之，发大悲愿求无上菩提，经帝释试心无悔，转女成男
+  phases:
+  - key: brewing
+    name: 见饥母产子欲食
+    labels:
+      zh: 见苦生悲
+    start_date: -4980-01-01
+    highlight_event_id: guji-银色女-event-cutting
+  - key: breakthrough
+    name: 割二乳救二命
+    labels:
+      zh: 舍身布施
+    start_date: -4980-02-01
+    highlight_event_id: guji-银色女-event-cutting
+  - key: climax
+    name: 誓无悔乳复如本
+    labels:
+      zh: 誓愿成就
+    start_date: -4980-03-01
+    highlight_event_id: guji-银色女-event-cutting
+  - key: closure
+    name: 帝释试心转男身
+    labels:
+      zh: 转女成男
+    start_date: -4979-01-01
+    highlight_event_id: guji-银色女-event-king
+  decisions:
+  - date: -4980-01-01
+    title_zh: 自割二乳施产妇
+    rationale: 以一身苦代二命死，发大悲心求无上菩提，不惜身肉救众生
+  - date: -4979-01-01
+    title_zh: 对帝释誓无悔愿成男子
+    rationale: 以求一切智心割乳实无悔恨，愿以此因缘成男子广行佛道
+- id: guji-银色女-endeavor-2
+  title_zh: 为王行十善多生舍身饲众生
+  summary: 为银色王劝国人行十善，命终后转生舍眼目饲鸟，复舍身饲饿虎，累生修檀波罗蜜
+  phases:
+  - key: brewing
+    name: 莲华王崩觅具相者
+    labels:
+      zh: 应王位
+    start_date: -4979-02-01
+    highlight_event_id: guji-银色女-event-king
+  - key: breakthrough
+    name: 登位劝行十善业道
+    labels:
+      zh: 以法治国
+    start_date: -4978-01-01
+    highlight_event_id: guji-银色女-event-king
+  - key: climax
+    name: 转生舍眼目饲鸟众
+    labels:
+      zh: 舍身饲鸟
+    start_date: -4970-01-01
+    highlight_event_id: guji-银色女-event-bird
+  - key: closure
+    name: 舍身饲饿虎发正觉愿
+    labels:
+      zh: 舍身饲虎
+    start_date: -4960-01-01
+    highlight_event_id: guji-银色女-event-tiger
+  decisions:
+  - date: -4978-01-01
+    title_zh: 以行十善为条件受王位
+    rationale: 若为王必如法治国，令臣民悉受十善业道，方能利众生
+  - date: -4960-01-01
+    title_zh: 自坏身施饿虎
+    rationale: 为利益众生行苦行，愿以舍身因缘必得无上菩提
+events:
+- id: guji-银色女-event-birth
+  title_zh: 诞生于莲华王都
+  type: birth
+  date: -5000-01-01
+  year_of: -5000
+  is_circa: true
+  place_zh: 莲华王都
+  description: 过去无量劫生于莲华王都，名银色，端正殊妙成就最上色身
+- id: guji-银色女-event-cutting
+  title_zh: 自割二乳救产妇母子
+  type: career
+  date: -4980-01-01
+  year_of: -4980
+  is_circa: true
+  place_zh: 莲华王都他舍
+  description: 见产妇饥困欲食新生子，即以利刀自割二乳与令食，流血遍身，发愿求无上菩提，誓无悔恨二乳复如本
+- id: guji-银色女-event-king
+  title_zh: 转男身登位为银色王
+  type: career
+  date: -4979-01-01
+  year_of: -4979
+  is_circa: true
+  place_zh: 莲华王都王宫
+  description: 帝释化婆罗门试心，誓愿成男子，遇莲华王崩无子，被大臣迎立，劝国人行十善，号银色王
+- id: guji-银色女-event-bird
+  title_zh: 尸陀林舍眼目身肉饲鸟
+  type: career
+  date: -4970-01-01
+  year_of: -4970
+  is_circa: true
+  place_zh: 莲华王都尸陀林
+  description: 转生为童子，往尸陀林以刀刺身涂血卧林中，施二眼及身肉与鸟众食尽唯存白骨
+- id: guji-银色女-event-tiger
+  title_zh: 山林舍身饲产后饿虎
+  type: career
+  date: -4960-01-01
+  year_of: -4960
+  is_circa: true
+  place_zh: 山林虎住处
+  description: 转生为摩那婆入山修行，见母虎产后饥困欲食子，即发愿求无上菩提，自坏身施饿虎
+- id: guji-银色女-event-death
+  title_zh: 银色王说无常偈命终
+  type: death
+  date: -4900-01-01
+  year_of: -4900
+  is_circa: true
+  place_zh: 莲华王都王宫
+  description: 治国无量百千岁后临终说一切皆无常合会必有离之偈，命终还生莲华王都续行菩萨行

@@ -1,0 +1,142 @@
+person:
+  qid: guji-长寿王
+  name_zh: 长寿王
+  names:
+    zh: 长寿王
+    en: King Changshou
+  lifespan:
+    birth:
+      date: -0700-01-01
+      precision: year
+      is_circa: true
+      raw: 昔有菩萨为大国王名曰长寿
+    death:
+      date: -0650-01-01
+      precision: year
+      is_circa: true
+      raw: 长寿王遂就烧死之诛
+  birth_date: -0700-01-01
+  death_date: -0650-01-01
+  era: 上古传说时
+  reign_ref: 长寿王治国时期
+  archetype: 仁慈布施之君
+  dilemmas:
+  - 战则伤民不战则失国应当何从
+  - 身命可舍慈教不可违应当何守
+  lesson: 以仁止杀以身布施终令怨亲和解共归于善
+  summary_first_person: 我昔为长寿王以仁法治国不加刀杖后贪王来攻我不忍诤国杀民遂委国入山后以身布施远来乞者又诫太子莫为我报怨终以慈心成就大道
+  source_urls:
+  - https://daizhige.org/longshouwangjing.html
+  - https://cbeta.org/T0161
+endeavors:
+- id: guji-长寿王-endeavor-1
+  title_zh: 仁政治国与委国避战
+  description_zh: 以政养民风雨时节五谷丰熟贪王来攻不忍交战伤民遂携太子逾城隐山
+  phases:
+  - key: brewing
+    name: 仁政养民
+    labels:
+      zh:
+      - 仁政
+      - 丰乐
+    start_date: -0700-01-01
+    highlight_event_id: guji-长寿王-event-birth
+  - key: breakthrough
+    name: 贪王兴兵
+    labels:
+      zh:
+      - 外侵
+      - 危难
+    start_date: -0660-01-01
+    highlight_event_id: guji-长寿王-event-rangguo
+  - key: climax
+    name: 群臣欲战
+    labels:
+      zh:
+      - 抉择
+      - 止杀
+    start_date: -0660-06-01
+    highlight_event_id: guji-长寿王-event-rangguo
+  - key: closure
+    name: 委国入山
+    labels:
+      zh:
+      - 让国
+      - 隐遁
+    start_date: -0659-01-01
+    highlight_event_id: guji-长寿王-event-rangguo
+  decisions:
+  - date: -0660-06-01
+    title_zh: 拒群臣迎战之请
+    rationale: 两敌相向必有缺伤爱民惜命不可害彼全我
+  - date: -0659-01-01
+    title_zh: 携太子委国亡去
+    rationale: 诤国杀民贤者不为宁失国土不伤生命
+- id: guji-长寿王-endeavor-2
+  title_zh: 舍头布施与遗教止怨
+  description_zh: 失国遇远方婆罗门来乞遂舍头相惠又临终遗教太子长生莫报怨终感贪王悔悟还国
+  phases:
+  - key: brewing
+    name: 道边遇乞
+    labels:
+      zh:
+      - 布施
+      - 慈悲
+    start_date: -0658-01-01
+    highlight_event_id: guji-长寿王-event-sheshen
+  - key: breakthrough
+    name: 自认舍头
+    labels:
+      zh:
+      - 舍身
+      - 满愿
+    start_date: -0657-01-01
+    highlight_event_id: guji-长寿王-event-sheshen
+  - key: climax
+    name: 就诛嘱子
+    labels:
+      zh:
+      - 殉道
+      - 诫怨
+    start_date: -0650-01-01
+    highlight_event_id: guji-长寿王-event-death
+  - key: closure
+    name: 太子守教和解
+    labels:
+      zh:
+      - 守教
+      - 和解
+    start_date: -0649-01-01
+    highlight_event_id: guji-长寿王-event-death
+  decisions:
+  - date: -0657-01-01
+    title_zh: 以头布施婆罗门
+    rationale: 人生皆当趣死愿以身相惠不令远来空去
+  - date: -0650-01-01
+    title_zh: 临刑诫子莫报怨
+    rationale: 为至孝当令父死无恨若杀他人即令父死有余恨
+events:
+- id: guji-长寿王-event-birth
+  title_zh: 长寿王诞生嗣位
+  date: -0700-01-01
+  year_of: -700
+  type: birth
+  description_zh: 昔有菩萨为大国王名曰长寿以政治国刀杖不加吏民风雨时节五谷丰熟
+- id: guji-长寿王-event-rangguo
+  title_zh: 贪王来攻委国入山
+  date: -0660-01-01
+  year_of: -660
+  type: endeavor
+  description_zh: 邻国贪王兴兵夺国群臣欲迎战长寿王不许携太子长生逾城隐于山间
+- id: guji-长寿王-event-sheshen
+  title_zh: 道边舍头惠施婆罗门
+  date: -0657-01-01
+  year_of: -657
+  type: endeavor
+  description_zh: 失国后遇远方婆罗门来乞遂随往城门外令缚以白贪王得赏遣还
+- id: guji-长寿王-event-death
+  title_zh: 被烧嘱子太子守教和解
+  date: -0650-01-01
+  year_of: -650
+  type: death
+  description_zh: 贪王烧杀长寿王于四衢道头临终嘱长生莫报怨后长生守父教弃剑和解两国交好
