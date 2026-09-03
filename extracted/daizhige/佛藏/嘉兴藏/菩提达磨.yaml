@@ -1,0 +1,128 @@
+person:
+  qid: guji-菩提达磨
+  name_zh: 菩提达磨
+  names:
+    zh: 菩提达磨
+    en: Bodhidharma
+  lifespan:
+    birth:
+      date: 0470-01-01
+      precision: year
+      is_circa: true
+      raw: 南天竺香至国王子约梁以前
+    death:
+      date: 0536-10-05
+      precision: year
+      is_circa: true
+      raw: 梁大同二年示寂嵩山
+  birth_date: 0470-01-01
+  death_date: 0536-10-05
+  era: 南北朝
+  reign_ref: 梁普通七年
+  archetype: 西来传法祖师
+  dilemmas:
+  - 金陵与梁武帝机不契去留抉择
+  - 少林面壁九年人莫之测坚守待机
+  lesson: 不立文字直指人心逢真机则付衣法以续慧命
+  summary_first_person: 吾受般若多罗嘱泛海入震旦金陵不契乃寓止少林面壁九年待慧可立雪断臂求安心遂付正法眼及袈裟以应一花开五叶之谶
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%98%89%E5%85%B4%E8%97%8F/%E7%89%A7%E4%BA%91%E5%92%8C%E5%B0%9A%E5%AE%97%E6%9C%AC%E6%8A%95%E6%9C%BA%E9%A2%82.html
+endeavors:
+- id: guji-菩提达磨-endeavor-1
+  title_zh: 奉嘱东来震旦弘化
+  description: 受二十七祖般若多罗付嘱于梁普通七年来震旦初至金陵与武帝机不契潜回江北
+  phases:
+  - key: brewing
+    name: 南天受嘱
+    labels:
+      zh: 受记东土
+    start_date: 0520-01-01
+    highlight_event_id: guji-菩提达磨-event-birth
+  - key: breakthrough
+    name: 泛海至金陵
+    labels:
+      zh: 初入震旦
+    start_date: 0526-01-01
+    highlight_event_id: guji-菩提达磨-event-arrive
+  - key: climax
+    name: 金陵机不契
+    labels:
+      zh: 不契而去
+    start_date: 0526-06-01
+    highlight_event_id: guji-菩提达磨-event-arrive
+  - key: closure
+    name: 潜回江北寓少林
+    labels:
+      zh: 寓止嵩山
+    start_date: 0527-01-01
+    highlight_event_id: guji-菩提达磨-event-wall
+  decisions:
+  - date: 0526-06-01
+    title_zh: 金陵不契决计北行
+    rationale: 武帝执有为功德不契直指之旨故不滞金陵而潜回江北以待真机
+- id: guji-菩提达磨-endeavor-2
+  title_zh: 少林面壁付法慧可
+  description: 寓止嵩山少林面壁九年人莫之测度慧可立雪断臂付衣法及一花开五叶偈
+  phases:
+  - key: brewing
+    name: 面壁而坐
+    labels:
+      zh: 九年壁观
+    start_date: 0527-01-01
+    highlight_event_id: guji-菩提达磨-event-wall
+  - key: breakthrough
+    name: 慧可立雪断臂求法
+    labels:
+      zh: 立雪求安心
+    start_date: 0532-12-01
+    highlight_event_id: guji-菩提达磨-event-transmit
+  - key: climax
+    name: 将心来与安心付髓
+    labels:
+      zh: 得髓传衣
+    start_date: 0535-01-01
+    highlight_event_id: guji-菩提达磨-event-transmit
+  - key: closure
+    name: 付一花开五叶偈嘱护持
+    labels:
+      zh: 拈偈付嘱
+    start_date: 0535-06-01
+    highlight_event_id: guji-菩提达磨-event-transmit
+  decisions:
+  - date: 0535-01-01
+    title_zh: 付慧可正法眼藏及袈裟
+    rationale: 慧可觅心了不可得已悟安心故堪付迦叶展转之正眼以续震旦慧命
+  - date: 0535-06-01
+    title_zh: 说一花开五叶结果自然成
+    rationale: 预记东土禅门五叶开花以定宗旨令后学护持不令断绝
+events:
+- id: guji-菩提达磨-event-birth
+  kind: birth
+  title_zh: 诞生南天竺
+  date: 0470-01-01
+  year_of: 470
+  description: 南印度香至国王子从般若多罗得法为震旦初祖
+- id: guji-菩提达磨-event-arrive
+  kind: career
+  title_zh: 梁普通七年至金陵机不契
+  date: 0526-01-01
+  year_of: 526
+  description: 初至金陵与武帝机不契潜回江北
+- id: guji-菩提达磨-event-wall
+  kind: career
+  title_zh: 寓止嵩山少林面壁
+  date: 0527-01-01
+  year_of: 527
+  description: 寓止嵩山少林寺面壁而坐人莫之测经九年
+- id: guji-菩提达磨-event-transmit
+  kind: career
+  title_zh: 付法慧可得髓传衣
+  date: 0535-01-01
+  year_of: 535
+  description: 慧可立雪断臂求安心祖曰与汝安心竟付正法眼及袈裟说偈一花开五叶
+- id: guji-菩提达磨-event-death
+  kind: death
+  title_zh: 示寂嵩山
+  date: 0536-10-05
+  year_of: 536
+  description: 时将至嘱门人护持正法眼藏后示寂
