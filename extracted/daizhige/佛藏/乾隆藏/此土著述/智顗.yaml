@@ -6,131 +6,133 @@ person:
     en: Zhiyi
   lifespan:
     birth:
-      date: 0538-01-01
+      date: 0538
       precision: year
       is_circa: false
       raw: 梁大同四年荆州华容生
     death:
-      date: 0597-11-24
+      date: 0597
       precision: year
       is_circa: false
-      raw: 隋开皇十七年示寂
-  birth_date: 0538-01-01
-  death_date: 0597-11-24
+      raw: 隋开皇十七年石城示寂
+  birth_date: 0538
+  death_date: 0597
   era: 隋
-  reign_ref: 隋文帝开皇
-  archetype: 天台开宗弘法高僧
+  reign_ref: 隋文帝
+  archetype: 开宗立教者
   dilemmas:
-  - 自求净土安身似舍众生是否违大悲障菩提
-  - 诸法体空无生与炽然求生西方是否乖理
-  lesson: 专系一境乘弥陀愿力以易行得不退再入生死救苦众生
-  summary_first_person: 吾荆州华容陈氏字德安少罹丧乱归心三宝依慧思受法华安乐行入天台弘止观开一念三千之教复说净土十疑劝专念弥陀同愿往生证忍还度
+  - 众经顿渐不定秘密异说纷纭如何会通为一
+  - 权实大小交杂如何使学者不滞文而得理
+  lesson: 依四悉檀赴缘立教以诠理化物终归一实
+  summary_first_person: 吾智顗生逢扰攘入道求禅后住天台立藏通别圆四教以通如来渐顿不定秘密之踪愿后学敬重佛言依法得解
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/此土著述/净土十疑論.html
-  - https://zh.wikisource.org/wiki/淨土十疑論
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E5%9B%9B%E6%95%99%E4%B9%89.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E5%9B%9B%E6%95%99%E4%B9%89.html
 endeavors:
 - id: guji-智顗-endeavor-1
-  title_zh: 天台开宗弘止观教
+  title_zh: 判立化法四教统摄渐顿
+  summary: 以三观四悉檀为据立三藏通别圆四教通释鹿苑至鹤林一切经教
   phases:
   - key: brewing
-    name: 荆州出家依慧思受学
+    name: 南岳习禅酝酿观教
     labels:
-      zh: 学定慧
-    start_date: 0552-01-01
-    highlight_event_id: guji-智顗-event-study
+      zh:
+      - 习禅
+      - 研教
+    start_date: '0555'
+    highlight_event_id: guji-智顗-event-birth
   - key: breakthrough
-    name: 入天台山安禅立教
+    name: 悟法华开权显实
     labels:
-      zh: 入山弘化
-    start_date: 0575-01-01
+      zh:
+      - 证悟
+      - 判教
+    start_date: '0575'
     highlight_event_id: guji-智顗-event-tiantai
   - key: climax
-    name: 金陵扬州讲法华被请弘化
+    name: 天台敷演四教正义
     labels:
-      zh: 敷扬教观
-    start_date: 0585-01-01
-    highlight_event_id: guji-智顗-event-jiangnan
+      zh:
+      - 立宗
+      - 化他
+    start_date: 0588
+    highlight_event_id: guji-智顗-event-siteachings
   - key: closure
-    name: 石城示寂付嘱后学
+    name: 以圆摄权归一佛乘
     labels:
-      zh: 示寂付法
-    start_date: 0597-01-01
+      zh:
+      - 会通
+      - 付嘱
+    start_date: 0594
     highlight_event_id: guji-智顗-event-death
   decisions:
-  - date: 0575-01-01
-    title_zh: 入天台山潜修弘止观
-    rationale: 恶世缘杂须依清净山林修定慧以立教本再化群机
-  - date: 0585-01-01
-    title_zh: 应请出山赴金陵弘法
-    rationale: 为报国恩化导在俗须以教观舟筏广接南北学流
+  - date: '0575'
+    title_zh: 入天台山修禅立宗
+    rationale: 避世专修以观心统教为后世立弘法本山
+  - date: 0588
+    title_zh: 以四教分判大小权实
+    rationale: 不取半满五味偏判改依三观四悉檀赴四种根性而说
 - id: guji-智顗-endeavor-2
-  title_zh: 说净土十疑论劝往生
+  title_zh: 住修禅寺撰述四教义弘传
+  summary: 住天台修禅寺撰四教义六卷开七重明教理行位以正末世轻经重论之弊
   phases:
   - key: brewing
-    name: 依经论研求念佛往生意
+    name: 讲摩诃止观积集文义
     labels:
-      zh: 研求净土
-    start_date: 0560-01-01
-    highlight_event_id: guji-智顗-event-study
+      zh:
+      - 讲经
+      - 著述
+    start_date: '0575'
+    highlight_event_id: guji-智顗-event-tiantai
   - key: breakthrough
-    name: 会通难易二道立他力义
+    name: 略撰四教门通渐顿踪
     labels:
-      zh: 立易行道
-    start_date: 0590-01-01
-    highlight_event_id: guji-智顗-event-composition
+      zh:
+      - 撰述
+      - 破执
+    start_date: 0585
+    highlight_event_id: guji-智顗-event-siteachings
   - key: climax
-    name: 次第释十疑劝厌离欣愿
+    name: 广明十六门料简诸宗
     labels:
-      zh: 释疑劝生
-    start_date: 0594-01-01
-    highlight_event_id: guji-智顗-event-composition
+      zh:
+      - 辨正
+      - 会通
+    start_date: 0590
+    highlight_event_id: guji-智顗-event-siteachings
   - key: closure
-    name: 付流通布接引末世众生
+    name: 嘱付学人敬重佛言
     labels:
-      zh: 流通净土
-    start_date: 0597-01-01
+      zh:
+      - 弘传
+      - 付嘱
+    start_date: 0597
     highlight_event_id: guji-智顗-event-death
   decisions:
-  - date: 0594-01-01
-    title_zh: 专劝偏念弥陀求生西方
-    rationale: 阎浮众生心多浊乱专系一境三昧易成乘四十八愿必得往生
-  - date: 0594-01-01
-    title_zh: 立厌离欣愿二行示种子
-    rationale: 凡夫五欲缠缚须观身不净生厌欣彼庄严发菩提愿生净土证忍度生
+  - date: 0585
+    title_zh: 开七重广释四教名理
+    rationale: 先释名核定引证料简再辨所诠使教能诠理化转物心
+  - date: 0590
+    title_zh: 评破四宗五宗六宗之阙
+    rationale: 以一教各具四门合十六门摄无量门显一家圆旨超诸师偏滞
 events:
 - id: guji-智顗-event-birth
-  title_zh: 诞生荆州华容陈氏
-  date: 0538-01-01
+  title_zh: 出生荆州华容
+  date: 0538
   year_of: 538
-  place_zh: 荆州华容
-  description: 梁大同四年诞生荆州华容陈氏少丧父母逢侯景之乱归心佛法
-- id: guji-智顗-event-study
-  title_zh: 从南岳慧思受法华安乐行
-  date: 0560-01-01
-  year_of: 560
-  place_zh: 光州大苏山
-  description: 往谒慧思受法华安乐行及禅法豁然开悟传受教观为入天台之本
+  description: 梁大同四年生于荆州华容俗姓陈字德安少丧怙恃志慕出尘
 - id: guji-智顗-event-tiantai
-  title_zh: 入天台山结庐弘止观
-  date: 0575-01-01
+  title_zh: 入天台山修禅弘道
+  date: '0575'
   year_of: 575
-  place_zh: 台州天台山
-  description: 携弟子入天台结庐修禅弘一念三千止观教法天台宗基由此立
-- id: guji-智顗-event-jiangnan
-  title_zh: 赴金陵扬州弘化被隋晋王请
-  date: 0585-01-01
-  year_of: 585
-  place_zh: 金陵扬州
-  description: 出山赴金陵扬州讲法华大苏诸典隋晋王杨广请受菩萨戒赐号智者
-- id: guji-智顗-event-composition
-  title_zh: 说净土十疑论释疑劝生
-  date: 0594-01-01
-  year_of: 594
-  place_zh: 荆扬之间
-  description: 援引圣言次第开决十疑明易行他力五缘不退厌离欣愿劝专念往生
+  description: 陈太建七年入天台山结庵修禅讲说大乘开天台一宗之基
+- id: guji-智顗-event-siteachings
+  title_zh: 修禅寺撰四教义六卷
+  date: 0588
+  year_of: 588
+  description: 隋开皇中住天台修禅寺撰四教义明藏通别圆四教名理门位权实以通方等般若法华涅槃诸经
 - id: guji-智顗-event-death
   title_zh: 示寂石城
-  date: 0597-11-24
+  date: 0597
   year_of: 597
-  place_zh: 石城
-  description: 隋开皇十七年十一月示寂于石城遗嘱依法不依人端坐念佛而逝
+  description: 隋开皇十七年十一月示寂于石城寺世寿六十僧腊四十
