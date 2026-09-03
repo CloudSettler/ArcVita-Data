@@ -9,148 +9,141 @@ person:
       date: 0480
       precision: year
       is_circa: true
-      raw: 约北魏宣武帝时生于中天竺婆罗门家
+      raw: 约四八〇年
     death:
       date: '0543'
       precision: year
       is_circa: true
-      raw: 约东魏兴和五年卒于邺都
+      raw: 约五四三年
   birth_date: 0480
   death_date: '0543'
-  era: 北魏
-  reign_ref: 北魏宣武帝至东魏孝静帝
-  archetype: 译师
+  era: 南北朝
+  reign_ref: 东魏兴和
+  archetype: 译经高僧
   dilemmas:
-  - 梵本义深汉地初传如何令声闻执果者信解菩萨一切智行胜于四果
-  - 身为婆罗门异域僧如何取信朝野而使大乘法久住中土
-  lesson: 菩萨为一切法所依发一切智心即是无上福田与无上供养能报三世诸佛之恩
-  summary_first_person: 吾姓瞿昙名般若流支本中天竺婆罗门东来洛邑逢元魏弘法之会竭诚译出一切法高王等经以明菩萨初发心已为天人福田愿诸闻者发无上菩提心续佛慧命
+  - 梵本精微与汉语文约如何两全而不失第一义
+  - 依仗高门护法与保持译场清净独立如何平衡
+  - 以幻化譬喻破执与令众生不堕断常如何权衡
+  lesson: 以四功质义存真，借方便劫烧喻显实相，译事当以敬慎校雠为本、以善巧破执为用
+  summary_first_person: 吾本中天竺波罗奈婆罗门瞿昙氏，少习梵典，渡流沙而至魏都洛邑。蒙高公笃敬佛法，博采梵文，命吾与沙门昙林同场翻译。兴和四年壬戌秋九月甲子，始换梵为汉，凡四功雠校，得五千五百七十六字，定名第一义法胜经。愿此髓中之法，令见闻者离分别戏论，趣无余涅槃。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/一切法高王经.md
-  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/一切法高王经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E7%AC%AC%E4%B8%80%E4%B9%89%E6%B3%95%E8%83%9C%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E7%AC%AC%E4%B8%80%E4%B9%89%E6%B3%95%E8%83%9C%E7%BB%8F.html
 endeavors:
 - id: guji-瞿昙般若流支-endeavor-1
-  title_zh: 重译弘传一切法高王经
-  description: 于元魏洛阳重译出一切法高王经一卷明辨僧义僧业僧利与菩萨一切智行之殊胜破小乘执果之疑显大乘为本
+  title_zh: 东魏译场重译第一义法胜经
+  desc_zh: 应魏尚书令仪同高公之请，主持梵汉对译，以昙林笔受，四功雠校，成五千余字，显第一义无字无说而假名众生之旨
   phases:
   - key: brewing
-    name: 西来求法
+    name: 入华习汉与博采梵本
     labels:
-      zh: 入魏
-    start_date: 0508
-    highlight_event_id: guji-瞿昙般若流支-event-arrive
+      zh: 酝酿
+    start_date: '0516'
+    highlight_event_id: guji-瞿昙般若流支-event-arrival
   - key: breakthrough
-    name: 参译决疑
+    name: 高公感题立场
     labels:
-      zh: 译定
-    start_date: '0520'
+      zh: 突破
+    start_date: '0541'
+    highlight_event_id: guji-瞿昙般若流支-event-prepare
+  - key: climax
+    name: 兴和四年换文定本
+    labels:
+      zh: 高潮
+    start_date: '0542-09-01'
+    highlight_event_id: guji-瞿昙般若流支-event-translate
+  - key: closure
+    name: 五千余字流通
+    labels:
+      zh: 收束
+    start_date: '0542-10-01'
+    highlight_event_id: guji-瞿昙般若流支-event-circulate
+  decisions:
+  - date: '0542-09-01'
+    title_zh: 四功质义乃定不急就章
+    rationale: 梵本髓义易失，宁经四度雠校而后定本，以存无字之实
+  - date: '0542-09-01'
+    title_zh: 直译无我无字兼存譬喻方便
+    rationale: 为破外道微细我执，保留劫烧、蟒呼、金火等喻，使中土易解第一义
+- id: guji-瞿昙般若流支-endeavor-2
+  title_zh: 辨外道见与显众生无实
+  desc_zh: 于经中假光明炬大仙六十劫行之问难，次第破自在天作、微细我量、劫烧实有等执，立缘起、空、无常正见
+  phases:
+  - key: brewing
+    name: 访诸仙林行积疑
+    labels:
+      zh: 酝酿
+    start_date: '0535'
+    highlight_event_id: guji-瞿昙般若流支-event-prepare
+  - key: breakthrough
+    name: 以缘起答众生所从来
+    labels:
+      zh: 突破
+    start_date: '0542-09-01'
     highlight_event_id: guji-瞿昙般若流支-event-translate
   - key: climax
-    name: 放光证信
+    name: 劫烧方便大辩
     labels:
-      zh: 流通
-    start_date: '0530'
-    highlight_event_id: guji-瞿昙般若流支-event-preach
+      zh: 高潮
+    start_date: '0542-09-15'
+    highlight_event_id: guji-瞿昙般若流支-event-translate
   - key: closure
-    name: 付嘱流通
+    name: 授记光明炬为毗婆尸佛
     labels:
-      zh: 付法
-    start_date: '0540'
-    highlight_event_id: guji-瞿昙般若流支-event-circulation
+      zh: 收束
+    start_date: '0542-09-30'
+    highlight_event_id: guji-瞿昙般若流支-event-circulate
   decisions:
-  - date: '0520'
-    title_zh: 定译以菩萨为无上福田
-    rationale: 经中佛言初发心菩萨即为声闻缘觉福田虽日食须弥抟食亦毕竟消施当如实译出以坚大乘信
-  - date: '0530'
-    title_zh: 以四河入海喻显菩萨出生一切法
-    rationale: 恐众生迷没故用阿那婆达多池出四河入四海为喻令知三有安乐皆依萨婆若智而生
-- id: guji-瞿昙般若流支-endeavor-2
-  title_zh: 弘扬菩萨四摄与佛菩提行
-  description: 依经中四摄法四念处等僧业与萨婆若智之教劝导四众修布施爱语利行同事发阿耨多罗三藐三菩提心以报佛恩
-  phases:
-  - key: brewing
-    name: 问道发心
-    labels:
-      zh: 发心
-    start_date: '0515'
-    highlight_event_id: guji-瞿昙般若流支-event-vow
-  - key: breakthrough
-    name: 开示福田
-    labels:
-      zh: 立宗
-    start_date: '0525'
-    highlight_event_id: guji-瞿昙般若流支-event-preach
-  - key: climax
-    name: 栴檀树喻
-    labels:
-      zh: 喻化
-    start_date: '0535'
-    highlight_event_id: guji-瞿昙般若流支-event-sandalwood
-  - key: closure
-    name: 劝发菩提
-    labels:
-      zh: 劝进
-    start_date: '0542'
-    highlight_event_id: guji-瞿昙般若流支-event-exhort
-  decisions:
-  - date: '0525'
-    title_zh: 判二种无上供养
-    rationale: 明漏尽阿罗汉与发菩提心菩萨同为供养如来之无上福田而发心供养更胜资生供养
-  - date: '0535'
-    title_zh: 广引栴檀全用喻菩萨始终利益
-    rationale: 以栴檀芽叶华果材舍皆有用喻菩萨初发心至舍利住持皆利益众生令生不退
+  - date: '0542-09-01'
+    title_zh: 不说微细我量以盲喻止戏论
+    rationale: 眼等念念不住、阴界无常皆无我可得，强说则增执，故以生盲不识白色为喻
+  - date: '0542-09-15'
+    title_zh: 立劫烧为如来摄化方便
+    rationale: 若不示无常劫烧则众生不识时节、不畏生死，故权现大火实无一众生被烧，以怖畏摄福
 events:
 - id: guji-瞿昙般若流支-event-birth
-  title_zh: 生于中天竺婆罗门家
+  title_zh: 诞生于中天竺波罗奈婆罗门瞿昙家
   date: 0480
   year_of: 0480
-  location: 中天竺
-  description: 瞿昙氏婆罗门种生于世家通梵典后归佛法出家学大乘
-- id: guji-瞿昙般若流支-event-arrive
-  title_zh: 抵洛阳入元魏译场
-  date: 0508
-  year_of: 0508
-  location: 洛阳
-  description: 宣武帝永平中自天竺来至洛阳与菩提流支等同参译事
+  precision: year
+  is_circa: true
+  location_zh: 天竺波罗奈
+  desc_zh: 生于婆罗门大姓，少习梵典吠陀，后出家慕大乘
+- id: guji-瞿昙般若流支-event-arrival
+  title_zh: 至北魏洛阳入译场
+  date: '0516'
+  year_of: '0516'
+  precision: year
+  is_circa: true
+  location_zh: 洛阳
+  desc_zh: 自天竺西来，止洛阳永宁寺等处，习华言，参预北魏译经事业
+- id: guji-瞿昙般若流支-event-prepare
+  title_zh: 应高公之请博采梵本筹立新译
+  date: '0541'
+  year_of: '0541'
+  precision: year
+  is_circa: true
+  location_zh: 邺都
+  desc_zh: 魏尚书令仪同高公重法心成，博采梵文，感题第一义法胜经，命昙林与般若流支共立译场
 - id: guji-瞿昙般若流支-event-translate
-  title_zh: 译出一切法高王经一卷
-  date: 0528
-  year_of: 0528
-  location: 洛阳
-  description: 以梵本重译一切法高王经明僧为四双八辈福田而菩萨摩诃萨为天人世间无上福田能毕竟消施
-- id: guji-瞿昙般若流支-event-vow
-  title_zh: 立愿弘大乘菩萨行
-  date: '0515'
-  year_of: '0515'
-  location: 洛阳
-  description: 自誓以四摄法摄众生显菩萨离三恶道畏如阿那婆达多龙王离三畏
-- id: guji-瞿昙般若流支-event-preach
-  title_zh: 宣讲菩萨无上福田与一切法所依
-  date: '0530'
-  year_of: '0530'
-  location: 邺都
-  description: 依经言一切刹利婆罗门长者转轮王乃至四果辟支佛皆从菩萨生依菩萨有劝众发心
-- id: guji-瞿昙般若流支-event-sandalwood
-  title_zh: 演栴檀树喻明菩萨始终全用
-  date: '0535'
-  year_of: '0535'
-  location: 邺都
-  description: 说阎浮栴檀自牙至果材舍皆能除病安乐喻菩萨自初发心至入无余涅槃舍利分身皆利益众生
-- id: guji-瞿昙般若流支-event-circulation
-  title_zh: 付嘱流通发心报恩
-  date: '0540'
-  year_of: '0540'
-  location: 邺都
-  description: 劝欲报过去未来现在十方诸佛恩者唯应发阿耨多罗三藐三菩提心是为无上供养无上报恩
-- id: guji-瞿昙般若流支-event-exhort
-  title_zh: 劝二种富伽罗供养如来
-  date: '0542'
+  title_zh: 兴和四年九月一日甲子换文译成第一义法胜经
+  date: '0542-09-01'
   year_of: '0542'
-  location: 邺都
-  description: 明漏尽阿罗汉与发菩提心菩萨为二种无上供养者劝众舍资生供养而取发心供养
+  precision: day
+  location_zh: 邺都译场
+  desc_zh: 与昙林等四功雠校，始末质义乃定，成五千五百七十六字，具载佛与光明炬仙论众生缘起、无我、劫烧方便、和合相貌等
+- id: guji-瞿昙般若流支-event-circulate
+  title_zh: 经成流通众会授记
+  date: '0542-09-30'
+  year_of: '0542'
+  precision: month
+  location_zh: 邺都
+  desc_zh: 经末记眉间放毗尼婆帝光、授光明炬未来于月光世界成毗婆尸佛，八万四千仙人得不退，诸天得法忍，法门遂广布
 - id: guji-瞿昙般若流支-event-death
   title_zh: 示寂于邺
   date: '0543'
   year_of: '0543'
-  location: 邺都
-  description: 译经弘法三十余年示寂后所译诸经盛行于世一切法高王经入大乘五大部外重译经流传至今
+  precision: year
+  is_circa: true
+  location_zh: 邺都
+  desc_zh: 译经既毕未久示寂，世寿约六十余，后世列为北朝重要译师之一
