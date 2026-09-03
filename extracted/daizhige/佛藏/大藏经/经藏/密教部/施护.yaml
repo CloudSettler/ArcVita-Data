@@ -6,129 +6,148 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 0960
       precision: year
       is_circa: true
-      raw: 生年未详约十世纪中叶生于乌仗那国
+      raw: 生年不详约十世纪中叶西天乌苌国人
     death:
       date: '1017'
       precision: year
-      is_circa: true
-      raw: 宋真宗天禧元年示寂
-  birth_date: 0950
+      is_circa: false
+      raw: 宋真宗天禧元年
+  birth_date: 0960
   death_date: '1017'
   era: 北宋
   reign_ref: 宋太宗至宋真宗
-  archetype: 译经弘法者
+  archetype: 西天译经弘法者
   dilemmas:
-  - title_zh: 梵汉悬隔如何信达
-    description_zh: 密咒音义难两全当存梵音持真还是意译便受持
-  - title_zh: 异域孤寄如何立信
-    description_zh: 远来东土初通华言当依译场群力还是独行弘化
-  lesson: 跨语弘法贵在诚信精勤能令钝根暗昧者亦得增慧明记不忘
-  summary_first_person: 吾自西天乌仗那来入宋奉诏入译经院与法贤等共译显密群经复译增慧陀罗尼愿钝根众生受持读诵书写供养皆得广大智慧
+  - 梵本密咒音义兼顾与华人易持诵之间如何权衡
+  - 异域僧人于华土译场如何取信协作以成传法
+  lesson: 不惮远来以忠实传译利他持咒护国兼济自他
+  summary_first_person: 我是施护西天来华译经者奉宋诏于译经院传译显密经论但愿梵义不失华言畅晓令众生受持得护
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A2%9E%E6%85%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A2%9E%E6%85%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A4%A7%E9%87%91%E5%88%9A%E5%A6%99%E9%AB%98%E5%B1%B1%E6%A5%BC%E9%98%81%E9%99%80%E7%BD%97%E5%B0%BC.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A4%A7%E9%87%91%E5%88%9A%E5%A6%99%E9%AB%98%E5%B1%B1%E6%A5%BC%E9%98%81%E9%99%80%E7%BD%97%E5%B0%BC.html
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入宋奉诏译经
-  summary_zh: 自西天来华入译经院奉诏传译显密群经授传法大师
+  title_zh: 奉诏入宋译经院译经
+  summary_zh: 随西天僧团东来入宋译经院与法贤等共参译事系统传译经律论
   phases:
   - key: brewing
-    name: 西天发足东来求法
+    name: 西天学法并东来
     labels:
-      zh: 求法东来
-    start_date: 0979
-    highlight_event_id: guji-施护-event-arrival
-  - key: breakthrough
-    name: 入译经院奉诏开译
-    labels:
-      zh: 奉诏开译
+      zh:
+      - 求法
+      - 远来
     start_date: 0980
     highlight_event_id: guji-施护-event-arrival
+  - key: breakthrough
+    name: 入译经院初译
+    labels:
+      zh:
+      - 译场
+      - 初译
+    start_date: 0983
+    highlight_event_id: guji-施护-event-first-translate
   - key: climax
-    name: 群经并译声名渐著
+    name: 奉诏广译群经
     labels:
-      zh: 群经并译
-    start_date: 0985
-    highlight_event_id: guji-施护-event-translate-zenghui
-  - key: closure
-    name: 授官传法大师长住译席
-    labels:
-      zh: 授官传法
+      zh:
+      - 广译
+      - 弘传
     start_date: 0991
-    highlight_event_id: guji-施护-event-confer
+    highlight_event_id: guji-施护-event-first-translate
+  - key: closure
+    name: 译业圆满示寂
+    labels:
+      zh:
+      - 圆满
+      - 示寂
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
   decisions:
   - date: 0980
-    title_zh: 应诏入译经院群译
-    rationale: 梵汉校雠非一人可成依译场分工乃能信达流通
-  - date: 0991
-    title_zh: 受朝散大夫传法大师号仍任译主
-    rationale: 藉朝命护持佛法久住中土不以官荣废译事
+    title_zh: 决意东行入宋
+    rationale: 慕华土护法弘法因缘愿以梵本正义流通东方
+  - date: 0983
+    title_zh: 就馆译经院协作
+    rationale: 依朝廷译经制度集众校勘以求文义周备信达兼全
 - id: guji-施护-endeavor-2
-  title_zh: 译传增慧陀罗尼
-  summary_zh: 于须弥山顶大慧菩萨宣说之缘起译出增慧陀罗尼并传持水饮诵之法
+  title_zh: 传译密教陀罗尼法门
+  summary_zh: 专精密部持明译出大金刚妙高山楼阁等陀罗尼令金刚护法镇护持诵者
   phases:
   - key: brewing
-    name: 集梵本审增慧法门
+    name: 研习金刚密轨
     labels:
-      zh: 集本审法
-    start_date: 0983
-    highlight_event_id: guji-施护-event-translate-zenghui
-  - key: breakthrough
-    name: 译定陀罗尼音义
-    labels:
-      zh: 译定真言
-    start_date: 0985
-    highlight_event_id: guji-施护-event-translate-zenghui
-  - key: climax
-    name: 宣演受持饮水增记之法
-    labels:
-      zh: 宣演持法
-    start_date: 0985
-    highlight_event_id: guji-施护-event-translate-zenghui
-  - key: closure
-    name: 书写供养流通天人信受
-    labels:
-      zh: 流通信受
+      zh:
+      - 密教
+      - 持明
     start_date: 0990
-    highlight_event_id: guji-施护-event-confer
+    highlight_event_id: guji-施护-event-first-translate
+  - key: breakthrough
+    name: 译金刚楼阁陀罗尼
+    labels:
+      zh:
+      - 陀罗尼
+      - 译密
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-dharani
+  - key: climax
+    name: 弘宣护国持诵
+    labels:
+      zh:
+      - 护国
+      - 持诵
+    start_date: '1005'
+    highlight_event_id: guji-施护-event-dharani
+  - key: closure
+    name: 以密法遗惠后学
+    labels:
+      zh:
+      - 遗法
+      - 利他
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0985
-    title_zh: 音译真言兼传意译行法
-    rationale: 真言以音为体故存梵音行法以利生为本故详示受持饮水时节
-  - date: 0985
-    title_zh: 明示钝根亦可增慧
-    rationale: 为少智忘失众生开方便门令发志诚心得广大记持
+  - date: '1000'
+    title_zh: 定意译出楼阁陀罗尼
+    rationale: 悯众生障难欲借金刚威神与总持功德令速得拥护
+  - date: '1005'
+    title_zh: 以音译保咒力兼加归敬
+    rationale: 咒语贵在声义相应故存梵音兼述归命以全信力
 events:
 - id: guji-施护-event-birth
-  date: 0950
-  year_of: 950
-  title_zh: 生于乌仗那国
-  description_zh: 生于北印度乌仗那国少习三藏精梵文密教
-  kind: birth
+  type: birth
+  title_zh: 诞生于西天乌苌
+  date: 0960
+  year_of: 960
+  place_zh: 西天乌苌国
+  description_zh: 生于西天习梵文三藏兼通密部持明为后东来译经奠基
 - id: guji-施护-event-arrival
+  type: career
+  title_zh: 抵宋入开封译经院
   date: 0980
   year_of: 980
-  title_zh: 抵宋入译经院
-  description_zh: 宋太平兴国五年抵汴京入译经院与法天法贤等奉诏译经
-  kind: career
-- id: guji-施护-event-translate-zenghui
-  date: 0985
-  year_of: 985
-  title_zh: 译增慧陀罗尼经
-  description_zh: 译出增慧陀罗尼经传大慧菩萨为童子相说真言及加持水卯时饮日记千颂之法
-  kind: career
-- id: guji-施护-event-confer
-  date: 0991
-  year_of: 991
-  title_zh: 授传法大师试鸿胪卿
-  description_zh: 以译经功授西天译经三藏朝散大夫试鸿胪卿传法大师
-  kind: career
+  place_zh: 开封
+  description_zh: 与天息灾法贤等西僧抵宋朝谒即蒙留馆译经院参预译事
+- id: guji-施护-event-first-translate
+  type: career
+  title_zh: 奉诏始译群经
+  date: 0983
+  year_of: 983
+  place_zh: 开封译经院
+  description_zh: 宋太宗置译经院诏施护等分职译证度语笔受润文陆续进呈经论
+- id: guji-施护-event-dharani
+  type: career
+  title_zh: 译出大金刚妙高山楼阁陀罗尼
+  date: '1000'
+  year_of: 1000
+  place_zh: 开封译经院
+  description_zh: 奉诏译大金刚妙高山楼阁陀罗尼具述归命金刚护法与持诵功德流通密部
 - id: guji-施护-event-death
+  type: death
+  title_zh: 示寂于宋真宗天禧年间
   date: '1017'
   year_of: 1017
-  title_zh: 示寂于汴京
-  description_zh: 宋真宗天禧元年示寂于译席一生所译显密经律凡百余部
-  kind: death
+  place_zh: 开封
+  description_zh: 久住译馆译经百余卷功成示寂朝廷追念译功厚加褒恤
