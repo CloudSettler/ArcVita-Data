@@ -1,0 +1,132 @@
+person:
+  qid: guji-慧超
+  name_zh: 慧超
+  names:
+    zh: 慧超
+    en: Hyecho
+  lifespan:
+    birth:
+      date: '0704'
+      precision: year
+      is_circa: true
+      raw: 景龙二年前后生于新罗
+    death:
+      date: '0744'
+      precision: year
+      is_circa: true
+      raw: 天宝三载寂于唐
+  birth_date: '0704'
+  death_date: '0744'
+  era: 唐玄宗开元天宝
+  reign_ref: 唐玄宗
+  archetype: 西行求法僧
+  dilemmas:
+  - title_zh: 安住传密与远游证真
+    description: 留长安从金刚智译经传密则安稳显名，远赴五天则山海险远生死难测，终以亲证圣迹为先而决意西行
+  - title_zh: 简直实录与粉饰奇观
+    description: 西域五天风俗殊异见闻纷繁，若粉饰奇观则失真，若直书简略又恐人不信，故守耳目实录以存信史
+  lesson: 不惮险远亲履其地，直书见闻以补史阙，方为求法实学
+  summary_first_person: 吾新罗僧慧超，渡海入唐从金刚智受密法，发愿遍礼五天竺圣迹，历安西吐火罗罽宾建驮迦湿弥罗五天波斯大食诸地，归而直记山川国俗佛法兴废，愿后人因吾简记而知西行实境
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%B8%B8%E6%96%B9%E8%AE%B0%E6%8A%84.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%B8%B8%E6%96%B9%E8%AE%B0%E6%8A%84.md
+endeavors:
+- id: guji-慧超-endeavor-1
+  title_zh: 入唐从师习密
+  description: 自新罗渡海入唐，于长安从金刚智学密教，兼亲近不空，为西行求法奠定教理与愿力
+  phases:
+  - key: brewing
+    name: 渡海入唐发心
+    labels:
+      zh: 发心入唐
+    start_date: '0721'
+    highlight_event_id: guji-慧超-event-study
+  - key: breakthrough
+    name: 师事金刚智得法
+    labels:
+      zh: 受密得法
+    start_date: '0722'
+    highlight_event_id: guji-慧超-event-study
+  - key: climax
+    name: 立誓西行求证
+    labels:
+      zh: 立誓西行
+    start_date: '0723'
+    highlight_event_id: guji-慧超-event-travel
+  - key: closure
+    name: 辞师出发安西
+    labels:
+      zh: 辞师出发
+    start_date: '0723'
+    highlight_event_id: guji-慧超-event-travel
+  decisions:
+  - date: '0721'
+    title_zh: 舍国渡海入唐
+    rationale: 慕唐佛法鼎盛兼密教初传，欲亲承金刚智以求速疾正解
+  - date: '0723'
+    title_zh: 不住京师决意远游
+    rationale: 安住译场虽稳，然不见圣迹真境不能断疑，故以行证补闻思
+- id: guji-慧超-endeavor-2
+  title_zh: 遍历五天竺归撰行记
+  description: 自安西出葱岭历小勃律吐火罗罽宾建驮乌长诸国，遍礼中西北南东五天竺及波斯大食，凡四年而归唐撰往五天竺国传
+  phases:
+  - key: brewing
+    name: 出葱岭入胡地
+    labels:
+      zh: 越葱岭
+    start_date: '0723'
+    highlight_event_id: guji-慧超-event-travel
+  - key: breakthrough
+    name: 深入五天瞻圣迹
+    labels:
+      zh: 礼圣迹
+    start_date: '0724'
+    highlight_event_id: guji-慧超-event-travel
+  - key: climax
+    name: 南天北天周咨风俗
+    labels:
+      zh: 周咨国俗
+    start_date: '0726'
+    highlight_event_id: guji-慧超-event-return
+  - key: closure
+    name: 归唐直笔成记
+    labels:
+      zh: 归国著记
+    start_date: '0727'
+    highlight_event_id: guji-慧超-event-return
+  decisions:
+  - date: '0724'
+    title_zh: 取道北天入中天
+    rationale: 不避雪山险道足贼，为先睹鹿野苑菩提伽耶等四大灵塔故
+  - date: '0727'
+    title_zh: 以简直之笔撰记
+    rationale: 山川道里国王象马衣食佛法兴废，但记实见不加粉饰，使后人可据而行
+events:
+- id: guji-慧超-event-birth
+  date: '0704'
+  year_of: 704
+  title_zh: 新罗诞生
+  description: 生于新罗，幼慕佛乘出家为僧，后发愿入唐求法
+- id: guji-慧超-event-study
+  date: '0721'
+  year_of: 721
+  title_zh: 入唐从金刚智学密
+  description: 渡海至唐长安，师事金刚智学密教，亲近不空同门受法
+  endeavor_ref: guji-慧超-endeavor-1
+- id: guji-慧超-event-travel
+  date: '0723'
+  year_of: 723
+  title_zh: 离长安西行求法
+  description: 自长安西出安西，越葱岭播蜜川，经吐火罗罽宾建驮迦湿弥罗入五天竺，遍礼舍卫毗耶离迦毗罗三道宝阶等圣迹
+  endeavor_ref: guji-慧超-endeavor-2
+- id: guji-慧超-event-return
+  date: '0727'
+  year_of: 727
+  title_zh: 归唐撰往五天竺国传
+  description: 历波斯大食安曹石米康等胡国东归，述五天及西域国土寒暖衣食象马佛法外道之实况，成往五天竺国传以传后世
+  endeavor_ref: guji-慧超-endeavor-2
+- id: guji-慧超-event-death
+  date: '0744'
+  year_of: 744
+  title_zh: 寂于唐
+  description: 久住唐土传法译学，至天宝三载示寂，行记后经圆照收入游方记抄而传

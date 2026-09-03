@@ -1,0 +1,146 @@
+person:
+  qid: guji-张孝嵩
+  name_zh: 张孝嵩
+  names:
+    zh: 张孝嵩
+    en: Zhang Xiaosong
+  lifespan:
+    birth:
+      date: '0660'
+      precision: year
+      is_circa: true
+      raw: 唐显庆年间左右
+    death:
+      date: '0730'
+      precision: year
+      is_circa: false
+      raw: 唐开元十八年
+  birth_date: '0660'
+  death_date: '0730'
+  era: 唐
+  reign_ref: 唐玄宗开元
+  archetype: 边塞经略型
+  dilemmas:
+  - 玉女泉旧俗以童男女祭湫神顺则保苗逆则损稼生民性命与岁时丰歉之两难
+  - 敬事鬼神以安众心与破除淫祀以正风化之两难
+  lesson: 为政当以生民为本遇淫祀之害当挺身破除边事当持重经略以安百姓
+  summary_first_person: 吾任沙州刺史时闻玉女泉岁祭童男女以祀湫神心甚悯之遂设坛于泉侧诱龙出水射其喉而斩之断绝淫祀后镇安西破敌开边但愿郡邑安宁生灵不罹其害
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%82%96%E7%85%8C%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%82%96%E7%85%8C%E5%BD%95.md
+endeavors:
+- id: guji-张孝嵩-endeavor-1
+  title_zh: 沙州刺史斩龙除淫祀
+  summary_zh: 神龙中任沙州刺史废玉女泉童男女之祭设坛斩龙进龙舌于朝赐号龙舌
+  phases:
+  - key: brewing
+    name: 下车求治访闻淫祀
+    labels:
+      zh:
+      - 体察民情
+      - 访俗
+    start_date: '0705'
+    highlight_event_id: guji-张孝嵩-event-shazhou
+  - key: breakthrough
+    name: 设坛泉侧诱神现形
+    labels:
+      zh:
+      - 设坛
+      - 除害
+    start_date: '0706'
+    highlight_event_id: guji-张孝嵩-event-shazhou
+  - key: climax
+    name: 射龙斩首亲诣阙进上
+    labels:
+      zh:
+      - 斩龙
+      - 进献
+    start_date: '0706'
+    highlight_event_id: guji-张孝嵩-event-shazhou
+  - key: closure
+    name: 玄宗嘉称赐号龙舌永绝童祭
+    labels:
+      zh:
+      - 褒嘉
+      - 罢祀
+    start_date: '0707'
+    highlight_event_id: guji-张孝嵩-event-shazhou
+  decisions:
+  - date: '0706'
+    title_zh: 不信妖怪害民生灵
+    rationale: 川源岂有妖怪可杀幼童以媚神当面质神以绝其害
+  - date: '0706'
+    title_zh: 设坛备牲亲往斩龙
+    rationale: 以身当险使郡人目睹邪不胜正永断淫祀根株
+- id: guji-张孝嵩-endeavor-2
+  title_zh: 经略安西威定西域
+  summary_zh: 开元初镇安西率军破突骑施收复碎叶抚定四镇保河西敦煌后路
+  phases:
+  - key: brewing
+    name: 出镇河西熟悉边要
+    labels:
+      zh:
+      - 镇守
+      - 边防
+    start_date: '0714'
+    highlight_event_id: guji-张孝嵩-event-anxi
+  - key: breakthrough
+    name: 长驱西进掩袭突骑施
+    labels:
+      zh:
+      - 进军
+      - 奇袭
+    start_date: '0715'
+    highlight_event_id: guji-张孝嵩-event-anxi
+  - key: climax
+    name: 复取碎叶威震四镇
+    labels:
+      zh:
+      - 收复
+      - 威服
+    start_date: '0716'
+    highlight_event_id: guji-张孝嵩-event-anxi
+  - key: closure
+    name: 分兵屯守保敦煌西道安宁
+    labels:
+      zh:
+      - 屯守
+      - 安边
+    start_date: 0718
+    highlight_event_id: guji-张孝嵩-event-anxi
+  decisions:
+  - date: '0715'
+    title_zh: 乘秋出师远袭苏禄
+    rationale: 趁敌不备出其不意以解西陲之围保丝路畅通
+  - date: '0716'
+    title_zh: 复碎叶而不穷追
+    rationale: 得险即守抚戎以信使四镇归附河西得以休养
+events:
+- id: guji-张孝嵩-event-birth
+  title_zh: 生于幽州蓟县
+  date: '0660'
+  year_of: 660
+  type: birth
+  summary_zh: 生于幽州蓟县少有节概尚气敢为习骑射通吏事
+  endeavor_ref: guji-张孝嵩-endeavor-1
+- id: guji-张孝嵩-event-shazhou
+  title_zh: 沙州斩玉女泉妖龙罢童祭
+  date: '0706'
+  year_of: 706
+  type: career
+  summary_zh: 神龙中为沙州刺史闻玉女泉岁祭童男女设坛泉侧龙出射杀之斩首进阙玄宗嘉之赐号龙舌
+  endeavor_ref: guji-张孝嵩-endeavor-1
+- id: guji-张孝嵩-event-anxi
+  title_zh: 安西破突骑施复碎叶
+  date: '0715'
+  year_of: 715
+  type: career
+  summary_zh: 开元中任安西副大都护率兵西征大破苏禄复碎叶城抚定四镇声振西域
+  endeavor_ref: guji-张孝嵩-endeavor-2
+- id: guji-张孝嵩-event-death
+  title_zh: 卒于幽州都督任上
+  date: '0730'
+  year_of: 730
+  type: death
+  summary_zh: 开元十八年卒于任以边功循绩编名简书沙州立祠旧事载于炖煌录
+  endeavor_ref: guji-张孝嵩-endeavor-2
