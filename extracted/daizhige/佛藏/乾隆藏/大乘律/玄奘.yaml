@@ -1,0 +1,132 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: 0602-04-06
+      precision: year
+      is_circa: true
+      raw: 隋仁寿二年
+    death:
+      date: 0664-02-05
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年
+  birth_date: 0602-04-06
+  death_date: 0664-02-05
+  era: 隋唐
+  reign_ref: 唐太宗贞观
+  archetype: 西行求法译经师
+  dilemmas:
+  - 西行犯禁与求法弘愿之间的抉择
+  - 持戒利他与护教方便之间的权衡
+  lesson: 以利他为胜持戒精进方可成就菩提资粮
+  summary_first_person: 我是玄奘为求圆满瑜伽菩萨戒法西行十七年归来奉诏译出菩萨戒本愿以此利乐一切有情
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%BE%8B/%E8%8F%A9%E8%90%A8%E6%88%92%E6%9C%AC.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%BE%8B/%E8%8F%A9%E8%90%A8%E6%88%92%E6%9C%AC.md
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行天竺求取瑜伽菩萨地法
+  description: 为寻求菩萨藏圆满教授发愿西行历经艰险至那烂陀受学瑜伽唯识
+  phases:
+  - key: brewing
+    name: 长安发愿
+    labels:
+      zh: 酝酿
+    start_date: 0626-01-01
+    highlight_event_id: guji-玄奘-event-1
+  - key: breakthrough
+    name: 偷渡出关
+    labels:
+      zh: 突破
+    start_date: 0629-01-01
+    highlight_event_id: guji-玄奘-event-1
+  - key: climax
+    name: 那烂陀受学
+    labels:
+      zh: 高潮
+    start_date: 0631-01-01
+    highlight_event_id: guji-玄奘-event-2
+  - key: closure
+    name: 携经东归
+    labels:
+      zh: 收束
+    start_date: 0643-01-01
+    highlight_event_id: guji-玄奘-event-2
+  decisions:
+  - date: 0629-01-01
+    title_zh: 违禁出关西行
+    rationale: 为求菩萨正法不惜身命以利他胜过自保安危
+  - date: 0631-01-01
+    title_zh: 留学那烂陀师事戒贤
+    rationale: 为通达瑜伽论菩萨地深义必须依止正师久学
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译出菩萨戒本弘扬大乘戒律
+  description: 归国后主持译场译出瑜伽论本地分菩萨地中菩萨戒本阐明四他胜处与菩萨学处
+  phases:
+  - key: brewing
+    name: 太宗礼迎筹建译场
+    labels:
+      zh: 酝酿
+    start_date: 0645-01-01
+    highlight_event_id: guji-玄奘-event-2
+  - key: breakthrough
+    name: 弘福寺开译
+    labels:
+      zh: 突破
+    start_date: 0648-01-01
+    highlight_event_id: guji-玄奘-event-3
+  - key: climax
+    name: 译出菩萨戒本
+    labels:
+      zh: 高潮
+    start_date: 0649-01-01
+    highlight_event_id: guji-玄奘-event-3
+  - key: closure
+    name: 传戒弘化
+    labels:
+      zh: 收束
+    start_date: 0650-01-01
+    highlight_event_id: guji-玄奘-event-3
+  decisions:
+  - date: 0648-06-01
+    title_zh: 以瑜伽菩萨地为本重译戒本
+    rationale: 为令菩萨净戒有所依止须依弥勒所说正本宣演开遮持犯
+  - date: 0649-03-01
+    title_zh: 制订译场仪轨兼顾声闻菩萨学处
+    rationale: 菩萨于声闻遮罪应等学于利他少欲处不共学故须分别宣说
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 诞生于洛州缑氏
+  date: 0602-04-06
+  year_of: 602
+  description: 隋仁寿二年生于官宦之家幼而聪慧早慕佛法
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-1
+  title_zh: 偷渡玉门关西行
+  date: 0629-08-01
+  year_of: 629
+  description: 贞观三年乘夜西行经凉州瓜州度流沙赴天竺求法
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-2
+  title_zh: 归国太宗迎见
+  date: 0645-01-01
+  year_of: 645
+  description: 贞观十九年携六百余部梵本东归太宗于洛阳礼见敕住弘福寺翻译
+  endeavor_ref: guji-玄奘-endeavor-1
+- id: guji-玄奘-event-3
+  title_zh: 译出菩萨戒本
+  date: 0649-05-01
+  year_of: 649
+  description: 出瑜伽论本地分菩萨地宣说四重他胜处及菩萨善权开遮利他之行
+  endeavor_ref: guji-玄奘-endeavor-2
+- id: guji-玄奘-event-death
+  title_zh: 圆寂于玉华宫
+  date: 0664-02-05
+  year_of: 664
+  description: 麟德元年正月寂于玉华宫嘉寿殿遗嘱朴葬时年六十三
+  endeavor_ref: guji-玄奘-endeavor-2

@@ -9,124 +9,137 @@ person:
       date: 0385
       precision: year
       is_circa: true
-      raw: 约东晋太元十年生于中天竺
+      raw: 约晋太元十年生于中天竺
     death:
       date: '0433'
       precision: year
       is_circa: false
-      raw: 北凉承和元年被害于西行途中
+      raw: 北凉义和元年卒于姑臧
   birth_date: 0385
   death_date: '0433'
-  era: 南北朝北凉
-  reign_ref: 沮渠蒙逊玄始至承和年间
-  archetype: 译经弘法者
+  era: 十六国北凉
+  reign_ref: 沮渠蒙逊玄始至义和年间
+  archetype: 西来译师
   dilemmas:
-  - 小乘旧学与大乘悲愿之间何去何从
-  - 安住姑臧译经与冒死西行求法之间如何抉择
-  lesson: 以持戒修悲摄化在家令大乘深入世间
-  summary_first_person: 我是昙无谶中天竺人也幼依师出家初习小乘后遇白头禅师得闻大乘深悟菩提悲心为本我西行求经东入姑臧为沮渠蒙逊所敬译涅槃悲华及优婆塞戒等经教在家持六重戒修六度令世间亦成福田我愿以此身弘律不惜身命也
+  - 小乘禅定旧业与大乘菩提新愿之间何去何从
+  - 依附凉王以存弘法之缘与守戒远祸以全法身之间如何权衡
+  - 速成译业以应急时之机与精审教义以垂久远之间如何兼顾
+  lesson: 依种性发心，以戒定慧为持，以利他为验，方能将异域佛法安立于中土。
+  summary_first_person: 吾本中天竺人，少习小乘禅法，后遇善友转入大乘，发求无上菩提之愿。西行至敦煌姑臧，应沮渠蒙逊之请，译大般涅槃经及菩萨地持经等，敷演菩萨戒行种性发心之道。虽处王庭权争之中，终以译经弘律为己任，愿后人依地持之行次第修学，疾成佛果。
   source_urls:
-  - https://daizhige.org/fo-zang/qian-long-zang/da-cheng-lv/you-po-sai-jie-jing.html
-  - https://tripitaka.cbeta.org/T24n1488
+  - https://daizhige.org/api/xuefo/canonical-buddhist-texts/
+  - https://cbetaonline.dila.edu.tw/zh/T1581
 endeavors:
 - id: guji-昙无谶-endeavor-1
-  title_zh: 姑臧译经弘律
-  summary: 入北凉姑臧主持译场译出涅槃集会大集等经奠定北凉大乘律学
+  title_zh: 天竺习禅转学大乘
+  summary_zh: 幼承家学，习小乘禅定，后值禅师开示，改宗大乘，遍学陀罗尼及菩萨藏，为西来弘化奠定种性与资粮。
   phases:
   - key: brewing
-    name: 天竺学律悟大乘
+    name: 少习小乘禅业
     labels:
-      zh: 沉潜求法
-    start_date: '0400'
+      zh: 习禅守戒
+    start_date: 0395
     highlight_event_id: guji-昙无谶-event-birth
   - key: breakthrough
-    name: 入凉建译场
+    name: 得遇善友转入大乘
     labels:
-      zh: 初弘凉土
-    start_date: '0412'
-    highlight_event_id: guji-昙无谶-event-arrival
+      zh: 改宗大乘
+    start_date: '0405'
+    highlight_event_id: guji-昙无谶-event-convert
   - key: climax
-    name: 涅槃大经广流布
+    name: 游学罽宾悟道弘化
     labels:
-      zh: 译经高峰
-    start_date: '0417'
-    highlight_event_id: guji-昙无谶-event-nirvana
+      zh: 游方弘化
+    start_date: 0408
+    highlight_event_id: guji-昙无谶-event-convert
   - key: closure
-    name: 律典略备化稍成
+    name: 携经西出启程东土
     labels:
-      zh: 回向在家
-    start_date: '0422'
-    highlight_event_id: guji-昙无谶-event-upasaka
+      zh: 负经东行
+    start_date: '0411'
+    highlight_event_id: guji-昙无谶-event-arrive-guzang
   decisions:
-  - date: '0412'
-    title_zh: 应沮渠蒙逊请入姑臧
-    rationale: 凉土求法心切可借王力建译场利济众生故舍西域而东入河西
-  - date: '0417'
-    title_zh: 先译大般涅槃经
-    rationale: 欲破小乘无常执显佛性常住先立大乘正见再谈戒行故以涅槃为宗
+  - date: '0405'
+    title_zh: 舍小乘学转修大乘
+    rationale: 见小乘但求自度不具二净，欲具足烦恼障智障二净以成无上菩提，故转学菩萨藏。
+  - date: '0411'
+    title_zh: 决意负经赴河西
+    rationale: 见西域缘薄而东方乐法，为护持正法令众生灭苦，愿东行弘化以续佛慧命。
 - id: guji-昙无谶-endeavor-2
-  title_zh: 授优婆塞戒化俗
-  summary: 为善生等在家众说优婆塞戒经立六重二十八失以悲心摄世间成菩萨行
+  title_zh: 姑臧译经授菩萨戒
+  summary_zh: 居北凉姑臧十余年，主译菩萨地持经大般涅槃经等，开演种性发心自他二利之行，为中土菩萨戒法与涅槃学之奠基。
   phases:
   - key: brewing
-    name: 观察在家恶缘
+    name: 初至姑臧观察机缘
     labels:
-      zh: 悲心缘起
-    start_date: '0424'
-    highlight_event_id: guji-昙无谶-event-nirvana
+      zh: 弘化凉土
+    start_date: '0412'
+    highlight_event_id: guji-昙无谶-event-arrive-guzang
   - key: breakthrough
-    name: 集会答善生问
+    name: 译菩萨地持经明菩萨行
     labels:
-      zh: 开演六方
-    start_date: '0426'
-    highlight_event_id: guji-昙无谶-event-upasaka
+      zh: 译地持经
+    start_date: '0414'
+    highlight_event_id: guji-昙无谶-event-translate-dichi
   - key: climax
-    name: 译授优婆塞戒经七卷
+    name: 重译大般涅槃经敷演佛性
     labels:
-      zh: 制戒化俗
-    start_date: '0426'
-    highlight_event_id: guji-昙无谶-event-upasaka
+      zh: 译涅槃经
+    start_date: '0421'
+    highlight_event_id: guji-昙无谶-event-translate-niepan
   - key: closure
-    name: 西行求法殉道
+    name: 法席既盛遭忌被害
     labels:
-      zh: 舍身求法
+      zh: 存法殉道
     start_date: '0433'
     highlight_event_id: guji-昙无谶-event-death
   decisions:
-  - date: '0426'
-    title_zh: 为在家说六波罗蜜为真六方
-    rationale: 外道礼六方求护我以六度配六方令在家不舍世业即修菩萨行故制优婆塞戒
-  - date: '0433'
-    title_zh: 决意西行再求遗经
-    rationale: 凉藏未备疑义尚存虽知蒙逊猜忌路险为全法藏宁舍身命西行
+  - date: '0414'
+    title_zh: 先译地持以立菩萨学则
+    rationale: 凉土初机未明菩萨种性持相与发心次第，须先立种性发心自他利之纲，方能受涅槃常住之说。
+  - date: '0421'
+    title_zh: 广译涅槃不避王庭猜忌
+    rationale: 为令正法久住及成熟众生，虽知权贵相争，仍以译经利他为急，不以身命之忧废弘法之愿。
 events:
 - id: guji-昙无谶-event-birth
-  title_zh: 诞生中天竺
+  title_zh: 生于中天竺婆罗门家
   date: 0385
   year_of: 385
+  kind: birth
   place_zh: 中天竺
-  summary: 约东晋太元年间生于中天竺婆罗门家幼年出家习小乘律论
-- id: guji-昙无谶-event-arrival
-  title_zh: 到姑臧建译
+  summary_zh: 约晋太元十年生，家世传习咒术典籍，少而聪慧，习小乘禅法，持戒精严。
+- id: guji-昙无谶-event-convert
+  title_zh: 值禅师开示转入大乘
+  date: '0405'
+  year_of: 405
+  kind: career
+  place_zh: 罽宾
+  summary_zh: 遇白头禅师诃小乘狭劣，授以菩萨戒及陀罗尼，遂发无上菩提心，学方等大乘，声誉渐著。
+- id: guji-昙无谶-event-arrive-guzang
+  title_zh: 至敦煌姑臧受凉王敬礼
   date: '0412'
   year_of: 412
+  kind: career
   place_zh: 姑臧
-  summary: 自鄯善经敦煌至北凉都姑臧为沮渠蒙逊迎请置译场始译大乘经典
-- id: guji-昙无谶-event-nirvana
-  title_zh: 译大般涅槃经
-  date: '0417'
-  year_of: 417
+  summary_zh: 自龟兹经鄯善至敦煌，沮渠蒙逊遣使迎入姑臧，尊为国师，安置译场，广聚学徒。
+- id: guji-昙无谶-event-translate-dichi
+  title_zh: 译出菩萨地持经八卷
+  date: '0414'
+  year_of: 414
+  kind: career
   place_zh: 姑臧
-  summary: 在姑臧译出大般涅槃经前分倡一切众生悉有佛性震动南北学界
-- id: guji-昙无谶-event-upasaka
-  title_zh: 译优婆塞戒经
-  date: '0426'
-  year_of: 426
+  summary_zh: 于姑臧译出菩萨地持经，具明持相种性发心自他利成熟众生等地行果，为中土菩萨地论之先声。
+- id: guji-昙无谶-event-translate-niepan
+  title_zh: 重译大般涅槃经北本
+  date: '0421'
+  year_of: 421
+  kind: career
   place_zh: 姑臧
-  summary: 为长者子善生宣说译出优婆塞戒经七卷立在家六重戒及修悲发心之道
+  summary_zh: 校合前译，广出涅槃经二十余卷，盛谈一切众生悉有佛性，风靡河西江南，奠定涅槃学宗。
 - id: guji-昙无谶-event-death
-  title_zh: 西行途中被害
+  title_zh: 被害于姑臧道中
   date: '0433'
   year_of: 433
-  place_zh: 河西西道
-  summary: 以求遗经辞凉西行沮渠蒙逊疑其去而不返遣刺客杀之于途中春秋四十有九
+  kind: death
+  place_zh: 姑臧
+  summary_zh: 以德望隆重为凉主所忌，又因魏主相邀不遣，北凉义和元年被害于途，时年四十有九，译籍遂传江南。
