@@ -1,0 +1,129 @@
+person:
+  qid: guji-昙谛
+  name_zh: 昙谛
+  names:
+    zh: 昙谛
+    en: Tan Di
+  lifespan:
+    birth:
+      date: '0210'
+      precision: year
+      is_circa: true
+      raw: 曹魏时人，生年不详
+    death:
+      date: '0260'
+      precision: year
+      is_circa: true
+      raw: 曹魏末示寂，卒年不详
+  birth_date: '0210'
+  death_date: '0260'
+  era: 曹魏
+  reign_ref: 曹魏
+  archetype: 弘律集羯磨者
+  dilemmas:
+  - title_zh: 律卷浩大作法易乖
+    description: 昙无德律文广事繁，僧众结界受戒忏悔无所适从，需撮要为羯磨
+  - title_zh: 译传未备轨范未立
+    description: 中土初传律学，羯磨白文散缺，需依律集成二卷以正僧制
+  lesson: 化繁为简，撮律成轨，令僧和合如法住持
+  summary_first_person: 吾乃曹魏沙门昙谛，研寻昙无德律，撮集羯磨二卷，明结界受戒除罪之法，愿诸比丘依此白唱，同住同说戒，和合无诤
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%BE%8B/%E7%BE%AF%E7%A3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%BE%8B/%E7%BE%AF%E7%A3%A8.md
+endeavors:
+- id: guji-昙谛-endeavor-1
+  title_zh: 撮集昙无德律羯磨二卷
+  description: 出昙无德律，集结界受戒除罪等诸羯磨白文，成二卷以便持行
+  phases:
+  - key: brewing
+    name: 研寻昙无德律
+    labels:
+      zh: 研律
+    start_date: '0245'
+    highlight_event_id: guji-昙谛-event-study
+  - key: breakthrough
+    name: 撮要成白文
+    labels:
+      zh: 撮要
+    start_date: 0249
+    highlight_event_id: guji-昙谛-event-compile
+  - key: climax
+    name: 羯磨二卷告成
+    labels:
+      zh: 告成
+    start_date: '0252'
+    highlight_event_id: guji-昙谛-event-compile
+  - key: closure
+    name: 付众受持
+    labels:
+      zh: 付持
+    start_date: '0253'
+    highlight_event_id: guji-昙谛-event-propagate
+  decisions:
+  - date: 0248
+    title_zh: 决意出律成羯磨
+    rationale: 律文浩繁僧作法多乖故决意撮要以便白唱
+  - date: '0250'
+    title_zh: 先结界后受戒次第
+    rationale: 依僧和合根本先立界相次明受戒除罪条理乃安
+- id: guji-昙谛-endeavor-2
+  title_zh: 弘宣结界受戒轨范
+  description: 示结界不失衣小界之法，兼度沙弥受具足及忏僧残舍堕之制
+  phases:
+  - key: brewing
+    name: 审定界相轨式
+    labels:
+      zh: 定界
+    start_date: '0250'
+    highlight_event_id: guji-昙谛-event-compile
+  - key: breakthrough
+    name: 制定受戒问难
+    labels:
+      zh: 制戒
+    start_date: '0251'
+    highlight_event_id: guji-昙谛-event-compile
+  - key: climax
+    name: 颁行僧中作法
+    labels:
+      zh: 颁行
+    start_date: '0253'
+    highlight_event_id: guji-昙谛-event-propagate
+  - key: closure
+    name: 律仪相承不绝
+    labels:
+      zh: 相承
+    start_date: '0255'
+    highlight_event_id: guji-昙谛-event-propagate
+  decisions:
+  - date: '0251'
+    title_zh: 详定十三难遮问
+    rationale: 为令具戒清净须详问边罪破僧等难滥入则法事不成
+  - date: '0253'
+    title_zh: 兼弘忏悔出罪
+    rationale: 犯僧残舍堕者须依覆藏摩那埵出罪方得清净共住故并弘之
+events:
+- id: guji-昙谛-event-birth
+  title_zh: 诞生
+  date: '0210'
+  year_of: 210
+  description: 生于曹魏境内，生年不详，此据活动年代约推，早年出家研律
+- id: guji-昙谛-event-study
+  title_zh: 研寻昙无德律
+  date: '0245'
+  year_of: 245
+  description: 研读昙无德律，考求结界受戒诸作法本源，为集羯磨奠基
+- id: guji-昙谛-event-compile
+  title_zh: 集出羯磨二卷
+  date: '0252'
+  year_of: 252
+  description: 出昙无德律，撮集结界法受戒法除罪法等，成羯磨卷上卷下二卷
+- id: guji-昙谛-event-propagate
+  title_zh: 颁行羯磨轨范
+  date: '0253'
+  year_of: 253
+  description: 以所集羯磨白文示僧，令结界受戒忏悔依文白唱，和合同住
+- id: guji-昙谛-event-death
+  title_zh: 示寂
+  date: '0260'
+  year_of: 260
+  description: 于曹魏末年示寂，卒年不详，此据传译既毕约推，所集羯磨传于后世
