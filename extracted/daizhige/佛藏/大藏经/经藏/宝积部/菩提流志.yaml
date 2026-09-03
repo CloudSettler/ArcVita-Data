@@ -1,0 +1,144 @@
+person:
+  qid: guji-菩提流志
+  name_zh: 菩提流志
+  names:
+    zh: 菩提流志
+    en: Bodhiruci
+  lifespan:
+    birth:
+      date: '0600'
+      precision: century
+      is_circa: true
+      raw: 南天竺生年不详
+    death:
+      date: '0727'
+      precision: year
+      is_circa: false
+      raw: 开元十五年卒
+  birth_date: '0600'
+  death_date: '0727'
+  era: 唐
+  reign_ref: 高宗永淳至玄宗开元
+  archetype: 译经弘法者
+  dilemmas:
+  - 外道博学而归心佛法之转向抉择
+  - 远离故土应诏东来之弘法担当
+  lesson: 知外法乖违悟释教深妙以译经利世为究竟志业
+  summary_first_person: 吾本南天竺净行婆罗门种年十二外道出家后归心释教遍游五天竺应唐诏东来译经终以弘法为任
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E5%A4%A7%E5%AE%9D%E7%A7%AF%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E5%A4%A7%E5%AE%9D%E7%A7%AF%E7%BB%8F.md
+endeavors:
+- id: guji-菩提流志-endeavor-1
+  title_zh: 由外道转向佛法遍游天竺求法
+  summary: 十二岁外道出家学声明僧佉等论年逾耳顺归心释教就耶舍瞿沙学经论遍游五天竺积习头陀
+  phases:
+  - key: brewing
+    name: 外道出家博学
+    labels:
+      zh: 外道求学
+    start_date: '0612'
+    highlight_event_id: guji-菩提流志-event-birth
+  - key: breakthrough
+    name: 归心释教参学
+    labels:
+      zh: 转向佛法
+    start_date: '0660'
+    highlight_event_id: guji-菩提流志-event-turn
+  - key: climax
+    name: 遍游五天竺
+    labels:
+      zh: 游方参学
+    start_date: '0670'
+    highlight_event_id: guji-菩提流志-event-turn
+  - key: closure
+    name: 名闻唐廷
+    labels:
+      zh: 声誉远播
+    start_date: 0682
+    highlight_event_id: guji-菩提流志-event-welcome
+  decisions:
+  - date: '0660'
+    title_zh: 舍外道归佛法
+    rationale: 知外法乖违悟释教深妙故隐居名岳积习头陀从耶舍瞿沙学经论
+  - date: 0683
+    title_zh: 应诏东来
+    rationale: 高宗闻远誉遣使迎接为弘法东夏故结束天竺游方东行
+- id: guji-菩提流志-endeavor-2
+  title_zh: 唐廷译经及大宝积经告成
+  summary: 永淳二年迎至东都居福先寺译佛境界等十一部神龙二年于崇福寺译大宝积经先天二年告成凡四十九会一百二十卷
+  phases:
+  - key: brewing
+    name: 东都福先译经
+    labels:
+      zh: 初译弘宣
+    start_date: 0683
+    highlight_event_id: guji-菩提流志-event-welcome
+  - key: breakthrough
+    name: 崇福寺启译宝积
+    labels:
+      zh: 奉诏新译
+    start_date: '0706'
+    highlight_event_id: guji-菩提流志-event-baoyi
+  - key: climax
+    name: 炎凉不懈寻绎故文
+    labels:
+      zh: 励勤翻译
+    start_date: '0710'
+    highlight_event_id: guji-菩提流志-event-baoyi
+  - key: closure
+    name: 先天进内功成
+    labels:
+      zh: 宝积告成
+    start_date: '0713-06-08'
+    highlight_event_id: guji-菩提流志-event-complete
+  decisions:
+  - date: '0706'
+    title_zh: 住崇福寺重译宝积
+    rationale: 循机履运承前旨会合旧翻新翻发挥新句以广莲花之旨
+  - date: '0713-06-08'
+    title_zh: 毕功进内
+    rationale: 旧翻新翻凡四十九会总一百二十卷成故遵前旨勖就斯编进于内廷
+events:
+- id: guji-菩提流志-event-birth
+  type: birth
+  title_zh: 南天竺出生
+  date: '0600'
+  year_of: 600
+  place: 南天竺
+  description: 南天竺国净行婆罗门种迦叶氏生十二岁外道出家事波罗奢罗
+- id: guji-菩提流志-event-turn
+  type: career
+  title_zh: 归心释教遍游五天竺
+  date: '0670'
+  year_of: 670
+  place: 五天竺
+  description: 悟释教深妙隐居积习头陀就耶舍瞿沙学经论后遍游五天竺
+- id: guji-菩提流志-event-welcome
+  type: career
+  title_zh: 永淳二年迎至东都译经
+  date: 0683
+  year_of: 683
+  place: 东都福先寺
+  description: 高宗闻远誉遣使迎接天后令住东都福先寺译佛境界宝雨花严等十一部
+- id: guji-菩提流志-event-baoyi
+  type: career
+  title_zh: 神龙二年崇福寺译大宝积经
+  date: '0706'
+  year_of: 706
+  place: 京下崇福寺
+  description: 中宗令住崇福寺翻译大宝积经法师寻绎故文发挥新句炎凉不懈
+- id: guji-菩提流志-event-complete
+  type: career
+  title_zh: 先天二年宝积毕功进内
+  date: '0713-06-08'
+  year_of: 713
+  place: 长安内廷
+  description: 旧翻新翻凡四十九会一百二十卷成以先天二年六月八日毕功进内
+- id: guji-菩提流志-event-death
+  type: death
+  title_zh: 开元十五年卒于唐
+  date: '0727'
+  year_of: 727
+  place: 唐京
+  description: 戒珠在握慧炬明心为法门栋梁开元十五年示寂终老唐土
