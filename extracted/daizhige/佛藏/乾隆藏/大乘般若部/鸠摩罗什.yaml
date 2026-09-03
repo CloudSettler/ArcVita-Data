@@ -1,0 +1,141 @@
+person:
+  qid: guji-鸠摩罗什
+  name_zh: 鸠摩罗什
+  names:
+    zh: 鸠摩罗什
+    en: Kumarajiva
+  lifespan:
+    birth:
+      date: '0344'
+      precision: year
+      is_circa: false
+      raw: 晋永和十年生于龟兹
+    death:
+      date: '0413'
+      precision: year
+      is_circa: false
+      raw: 秦弘始十五年卒于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国后秦
+  reign_ref: 姚兴弘始年间
+  archetype: 译经护国师
+  dilemmas:
+  - title_zh: 西域弘化与中土请迎之抉择
+    description: 留龟兹化导旧众抑或东入长安广译群经以护国利民
+  - title_zh: 空宗妙义与世谛护国之张力
+    description: 如何以般若性空之理成就护佛果护国土之世谛功用而不堕两边
+  lesson: 以般若空慧为体以护国利生为用译经弘化方能久远
+  summary_first_person: 吾本龟兹子少随母出家游学西域悟龙树空义后入长安领译场译仁王般若诸经愿以空慧护佛果护国土令正法久住众生离苦
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/大乘般若部/仁王护国般若波罗蜜经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘般若部/仁王护国般若波罗蜜经.md
+endeavors:
+- id: guji-鸠摩罗什-endeavor-1
+  person_qid: guji-鸠摩罗什
+  title_zh: 西域求法扬名龟兹
+  summary: 幼随母出家游学罽宾沙勒精大小乘兼通三藏名振西域
+  phases:
+  - key: brewing
+    name: 随母出家初学
+    labels:
+      zh: 萌芽
+    start_date: '0351'
+    highlight_event_id: guji-鸠摩罗什-event-birth
+  - key: breakthrough
+    name: 西游罽宾悟入空宗
+    labels:
+      zh: 转折
+    start_date: '0363'
+    highlight_event_id: guji-鸠摩罗什-event-study
+  - key: climax
+    name: 还归龟兹弘化四方
+    labels:
+      zh: 高峰
+    start_date: 0380
+    highlight_event_id: guji-鸠摩罗什-event-study
+  - key: closure
+    name: 名达东土被迎请
+    labels:
+      zh: 收束
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-arrival
+  decisions:
+  - date: '0363'
+    title_zh: 改学大乘般若空观
+    rationale: 遇须耶达多深悟龙树空义遂转小归大立中道本志
+  - date: 0380
+    title_zh: 住龟兹受请讲经
+    rationale: 不急东行先固西域法基令声名远播而后缘熟入秦
+- id: guji-鸠摩罗什-endeavor-2
+  person_qid: guji-鸠摩罗什
+  title_zh: 长安译经护国弘般若
+  summary: 入长安领译场译仁王般若等经以般若护佛果护国土之说教化君王臣民
+  phases:
+  - key: brewing
+    name: 入关礼敬立译场
+    labels:
+      zh: 筹划
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-arrival
+  - key: breakthrough
+    name: 群经并译名重朝野
+    labels:
+      zh: 突破
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-translation
+  - key: climax
+    name: 译仁王护国般若
+    labels:
+      zh: 高潮
+    start_date: '0410'
+    highlight_event_id: guji-鸠摩罗什-event-translation
+  - key: closure
+    name: 示寂舌根不坏
+    labels:
+      zh: 圆成
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
+  decisions:
+  - date: '0401'
+    title_zh: 应姚兴请入长安译经
+    rationale: 以译经利生为本愿不恋故土安危遂东行以正法护国
+  - date: '0410'
+    title_zh: 重译仁王般若护国品
+    rationale: 国乱思安须以般若空慧摄君王正心故详译护佛果护十地义
+events:
+- id: guji-鸠摩罗什-event-birth
+  person_qid: guji-鸠摩罗什
+  type: birth
+  date: '0344'
+  year_of: 344
+  title_zh: 生于龟兹
+  description: 晋永和十年生于龟兹父鸠摩罗炎母耆婆聪慧日诵千偈
+- id: guji-鸠摩罗什-event-study
+  person_qid: guji-鸠摩罗什
+  type: study
+  date: '0363'
+  year_of: 363
+  title_zh: 游罽宾悟大乘空义
+  description: 从盘头达多学小乘复从须耶达多受摩诃衍转弘般若空观
+- id: guji-鸠摩罗什-event-arrival
+  person_qid: guji-鸠摩罗什
+  type: move
+  date: '0401'
+  year_of: 401
+  title_zh: 入长安领译场
+  description: 姚兴迎入长安居逍遥园率八百义学重译群经声振关中
+- id: guji-鸠摩罗什-event-translation
+  person_qid: guji-鸠摩罗什
+  type: translation
+  date: '0410'
+  year_of: 410
+  title_zh: 译仁王护国般若波罗蜜经
+  description: 译出仁王护国般若二卷明护佛果护十地护国土因缘以空慧摄护国之行
+- id: guji-鸠摩罗什-event-death
+  person_qid: guji-鸠摩罗什
+  type: death
+  date: '0413'
+  year_of: 413
+  title_zh: 卒于长安
+  description: 弘始十五年示寂于长安遗言所译不谬舌根不坏以验信实

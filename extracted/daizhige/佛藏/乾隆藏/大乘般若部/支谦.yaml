@@ -1,0 +1,150 @@
+person:
+  qid: guji-支谦
+  name_zh: 支谦
+  names:
+    zh: 支谦
+    en: Zhi Qian
+  lifespan:
+    birth:
+      date: '0220'
+      precision: year
+      is_circa: true
+      raw: 约汉末建安中生
+    death:
+      date: '0257'
+      precision: year
+      is_circa: true
+      raw: 约吴建兴五年卒于建业
+  birth_date: '0220'
+  death_date: '0257'
+  era: 三国吴
+  reign_ref: 吴大帝孙权黄武至会稽王建兴年间
+  archetype: 译经弘法者
+  dilemmas:
+  - 梵本般若浩瀚玄远汉文初传当如何文质兼顾使人不惊不怖
+  - 以月支优婆塞寄身江东乱世当如何以译经立众生大悲弘誓
+  lesson: 不著不住不取不舍方能明度无极直趋一切智
+  summary_first_person: 吾以月支居士流寓武昌建业惟愿以汉文传般若空慧劝学道者学无所住行无所倚灭度无数而不见有人得灭度
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/大乘般若部/大明度无极经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘般若部/大明度无极经.md
+endeavors:
+- id: guji-支谦-endeavor-1
+  title_zh: 译出大明度无极经六卷开吴地般若之学
+  summary: 依梵本出大明度无极经六卷明菩萨明度无极空无所住不惊不怛为江东般若之始
+  phases:
+  - key: brewing
+    name: 博览梵汉酝酿译般若
+    labels:
+      zh:
+      - 学梵习汉
+      - 集本校义
+    start_date: '0225'
+    highlight_event_id: guji-支谦-event-birth
+  - key: breakthrough
+    name: 定名分品立大明度
+    labels:
+      zh:
+      - 上行天帝释问开宗
+      - 定六卷品目
+    start_date: '0231'
+    highlight_event_id: guji-支谦-event-translate-damingdu
+  - key: climax
+    name: 武昌建业译出流通
+    labels:
+      zh:
+      - 口授笔受
+      - 空慧弘宣
+    start_date: '0233'
+    highlight_event_id: guji-支谦-event-translate-damingdu
+  - key: closure
+    name: 付嘱奉持不退转行
+    labels:
+      zh:
+      - 劝学不懈
+      - 回向一切智
+    start_date: '0235'
+    highlight_event_id: guji-支谦-event-translate-damingdu
+  decisions:
+  - date: '0231'
+    title_zh: 以大明度名般若舍饰就质
+    rationale: 欲使吴人直解空慧不著文饰故取明度质朴译之不加雕华
+  - date: '0233'
+    title_zh: 首译上行天帝释问二品立宗
+    rationale: 先明菩萨无所住学一切智不惊不怖后方广说诸度故先出此经为般若纲要
+- id: guji-支谦-endeavor-2
+  title_zh: 广译大乘众经八十余部奠基江东佛法
+  summary: 先后译法句了本生维摩诘等众经兼注释义训使吴地僧俗有所依学
+  phases:
+  - key: brewing
+    name: 游学洛邑博通三藏
+    labels:
+      zh:
+      - 师承支亮
+      - 通梵达汉
+    start_date: '0222'
+    highlight_event_id: guji-支谦-event-birth
+  - key: breakthrough
+    name: 南渡归吴发愿译经
+    labels:
+      zh:
+      - 避乱江南
+      - 誓传大乘
+    start_date: 0229
+    highlight_event_id: guji-支谦-event-translate-multisutra
+  - key: climax
+    name: 建业译场连出众典
+    labels:
+      zh:
+      - 日夜笔受
+      - 弘化僧俗
+    start_date: '0247'
+    highlight_event_id: guji-支谦-event-translate-multisutra
+  - key: closure
+    name: 注解法句遗化后学
+    labels:
+      zh:
+      - 集注垂训
+      - 付托门人
+    start_date: '0253'
+    highlight_event_id: guji-支谦-event-death
+  decisions:
+  - date: 0229
+    title_zh: 弃北方名位南归吴会译经
+    rationale: 见中原扰攘吴地初定弘法需乘安土故南渡以译经安众生信心
+  - date: '0247'
+    title_zh: 先译浅近后出深般若相辅而行
+    rationale: 恐初机惊怖深空故以本生法句接引以维摩大明度策进使大小兼畅
+events:
+- id: guji-支谦-event-birth
+  person_qid: guji-支谦
+  type: birth
+  title_zh: 生于月支部族流寓汉土
+  date: '0220'
+  year_of: 220
+  place_zh: 洛阳
+  summary: 月支优婆塞之后幼聪慧博览梵汉通六国语
+- id: guji-支谦-event-translate-damingdu
+  person_qid: guji-支谦
+  type: career
+  title_zh: 于武昌建业译大明度无极经六卷
+  date: '0233'
+  year_of: 233
+  place_zh: 武昌至建业
+  summary: 出上行品天帝释问品以下明菩萨行明度无极不住五阴不住果证直趋一切智吴地般若自此始
+- id: guji-支谦-event-translate-multisutra
+  person_qid: guji-支谦
+  type: career
+  title_zh: 广译法句了本生维摩诘等八十余部
+  date: '0247'
+  year_of: 247
+  place_zh: 建业
+  summary: 相继出大乘小乘律经合八九十部并作法句注训导江东僧俗归心
+- id: guji-支谦-event-death
+  person_qid: guji-支谦
+  type: death
+  title_zh: 示寂于建业译场功成
+  date: '0257'
+  year_of: 257
+  place_zh: 建业
+  summary: 译经弘化三十余年示疾而终门人奉其译本流通吴蜀
