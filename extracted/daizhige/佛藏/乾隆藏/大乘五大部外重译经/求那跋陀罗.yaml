@@ -8,126 +8,129 @@ person:
     birth:
       date: 0394
       precision: year
-      is_circa: true
-      raw: 中天竺婆罗门种生时约元嘉前
+      is_circa: false
+      raw: 中天竺 394年
     death:
       date: 0468
       precision: year
       is_circa: false
-      raw: 刘宋泰始四年示寂世寿七十五
+      raw: 刘宋泰始四年 468年
   birth_date: 0394
   death_date: 0468
   era: 南北朝
-  reign_ref: 刘宋元嘉
-  archetype: 译经三藏
+  reign_ref: 刘宋 元嘉
+  archetype: 译经高僧
   dilemmas:
-  - 梵汉悬隔密咒当直译存真音抑意译便诵持
-  - 奉诏译经当迎合帝王期求抑坚守了义正法
-  - 显密并弘当以经教破执抑以持咒验相摄机
-  lesson: 密咒非徒音声仗信愿行相应方能拔业往生译经非徒文字贵在以正法安众心
-  summary_first_person: 吾求那跋陀罗中天竺人也少习韦陀博通三藏泛海东来越南海至广州蒙宋文帝迎礼建康奉诏译经凡数十部及元嘉末年重译拔一切业障根本得生净土神咒五十九字十五句传六时胡跪诵持之仪愿众生常得佛顶拥护现世安隐临终任运往生
+  - 梵本精严与华言通俗之间何以取舍以免失真
+  - 乱世朝替与译场安定之间何以自处以全法业
+  - 禅观实证与文字传译之间何以兼顾以不偏废
+  lesson: 离文字分别而直观自心所现，借言说而显无言之宗，不著有无断常以入如来自觉圣智
+  summary_first_person: 吾本中天竺人，少习杂阿含及大乘，承师命泛海东来，止于刘宋建康。见此土学人执名相而迷自心，遂以译经为方便，令眾得聞楞伽心法、了唯心所现、不生不灭之旨。虽华梵殊音、世事多艰，唯愿正法得住、学者自见其心。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E6%8B%94%E4%B8%80%E5%88%87%E4%B8%9A%E9%9A%9C%E6%A0%B9%E6%9C%AC%E5%BE%97%E7%94%9F%E5%87%80%E5%9C%9F%E7%A5%9E%E5%92%92.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E6%8B%94%E4%B8%80%E5%88%87%E4%B8%9A%E9%9A%9C%E6%A0%B9%E6%9C%AC%E5%BE%97%E7%94%9F%E5%87%80%E5%9C%9F%E7%A5%9E%E5%92%92.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/楞伽阿跋多罗宝经.md
+  - https://cbetaonline.dila.edu.tw/zh/T0670
 endeavors:
 - id: guji-求那跋陀罗-endeavor-1
-  title_zh: 奉诏译经宏传大乘
-  description: 自天竺经师受请东来于建康祇洹寺等处译出楞伽胜鬘等七十余部奠定刘宋译场大乘了义之基
+  title_zh: 楞伽译弘
+  summary: 于刘宋元嘉年间译出楞伽阿跋多罗宝经四卷，奠定如来藏唯心思想与後世禅宗心要之经典依据
   phases:
   - key: brewing
-    name: 天竺问道
+    name: 酝酿东来
     labels:
-      zh: 筹备
-    start_date: 0394
-    highlight_event_id: guji-求那跋陀罗-event-birth
+      zh: 酝酿
+    start_date: '0435'
+    highlight_event_id: guji-求那跋陀罗-event-arrival
   - key: breakthrough
-    name: 泛海抵宋获礼
+    name: 建康立场
     labels:
       zh: 突破
-    start_date: '0435'
-    highlight_event_id: guji-求那跋陀罗-event-arrive
+    start_date: '0436'
+    highlight_event_id: guji-求那跋陀罗-event-translate-start
   - key: climax
-    name: 建康译场正译
+    name: 楞伽成译
     labels:
       zh: 高潮
-    start_date: 0439
-    highlight_event_id: guji-求那跋陀罗-event-translate-curse
+    start_date: '0443'
+    highlight_event_id: guji-求那跋陀罗-event-lengqie
   - key: closure
-    name: 译本流布江南
+    name: 流通授学
     labels:
       zh: 收束
-    start_date: '0455'
-    highlight_event_id: guji-求那跋陀罗-event-promote
+    start_date: '0450'
+    highlight_event_id: guji-求那跋陀罗-event-teach
   decisions:
   - date: '0435'
-    title_zh: 应请泛海东来
-    rationale: 不恋天竺国师之誉欲以如来藏正法济东土疑滞故冒海道之险赴宋
-  - date: 0439
-    title_zh: 先译楞伽胜鬘等了义经
-    rationale: 见江南学人执空滞有故以了义经破偏显中开一乘正见为后世立宗本
+    title_zh: 应请东渡
+    rationale: 不惮海路艰险，承中土请法之诚，欲以大乘了义广布东土
+  - date: '0443'
+    title_zh: 定名楞伽阿跋多罗宝
+    rationale: 依梵本 Lankaavatara 突出佛语心与自觉圣智，拣别小乘名相，令学人直入唯心现量
+  - date: '0450'
+    title_zh: 以口授笔受广开译场
+    rationale: 恐梵义失真，故令弟子共参义笔，宁拙于文而求旨不谬
 - id: guji-求那跋陀罗-endeavor-2
-  title_zh: 重译往生咒开净土行
-  description: 于元嘉末年奉制校梵重译拔一切业障根本得生净土神咒定六时持诵仪轨示现世安隐临终往生之捷径
+  title_zh: 译场与禅观并行
+  summary: 兼译杂阿毘昙心论、胜鬘经等数十部，并以禅法教授南朝士庶，开刘宋译经与禅学之风
   phases:
   - key: brewing
-    name: 校梵考验
+    name: 初习禅数
     labels:
-      zh: 筹备
-    start_date: '0452'
-    highlight_event_id: guji-求那跋陀罗-event-translate-curse
+      zh: 酝酿
+    start_date: '0410'
+    highlight_event_id: guji-求那跋陀罗-event-birth
   - key: breakthrough
-    name: 奉诏重译定本
+    name: 十余部经并举
     labels:
       zh: 突破
-    start_date: '0453'
-    highlight_event_id: guji-求那跋陀罗-event-translate-curse
+    start_date: '0436'
+    highlight_event_id: guji-求那跋陀罗-event-translate-start
   - key: climax
-    name: 制授持诵仪轨
+    name: 京师盛弘
     labels:
       zh: 高潮
-    start_date: '0454'
-    highlight_event_id: guji-求那跋陀罗-event-promote
+    start_date: '0445'
+    highlight_event_id: guji-求那跋陀罗-event-lengqie
   - key: closure
-    name: 咒验感通流传
+    name: 示寂传付
     labels:
       zh: 收束
-    start_date: '0456'
-    highlight_event_id: guji-求那跋陀罗-event-promote
+    start_date: 0468
+    highlight_event_id: guji-求那跋陀罗-event-death
   decisions:
-  - date: '0453'
-    title_zh: 五十九字定梵音重译
-    rationale: 旧译音讹义舛不足仗持故据梵本重勘一十五句存密语真音令持者得佛顶护念
-  - date: '0454'
-    title_zh: 定日夜六时三七遍仪
-    rationale: 为令在家出家皆得次第行持灭四重五逆谤方等罪故立澡漱然香胡跪合掌之式
+  - date: '0436'
+    title_zh: 择建康道场而居
+    rationale: 京师学者众多，依朝廷护持可令译事不辍、禅学广被
+  - date: '0445'
+    title_zh: 兼译兼授不专一经
+    rationale: 知眾生根器各异，故以胜鬘明佛性、楞伽明唯心、杂心明毘昙，令大小兼通
 events:
 - id: guji-求那跋陀罗-event-birth
-  title_zh: 天竺诞生
+  title_zh: 生于中天竺
   date: 0394
   year_of: 0394
-  location: 中天竺
-  description: 婆罗门种少习韦陀及声明遍学三藏深通大乘后往师子国弘法
-- id: guji-求那跋陀罗-event-arrive
-  title_zh: 泛海抵宋获迎建康
+  description: 求那跋陀罗生于中天竺婆罗门家，少通五明，初学小乘杂阿毘昙，后转大乘，精通楞伽、华严等了义经
+- id: guji-求那跋陀罗-event-arrival
+  title_zh: 泛海至广州
   date: '0435'
   year_of: '0435'
-  location: 广州及建康
-  description: 元嘉十二年自师子国泛海至广州宋文帝遣使迎至建康礼居祇洹寺备译场奉诏译经
-- id: guji-求那跋陀罗-event-translate-curse
-  title_zh: 元嘉末年奉诏重译往生咒
-  date: '0453'
-  year_of: '0453'
-  location: 建康
-  description: 奉制据梵本重译拔一切业障根本得生净土神咒计五十九字一十五句出小无量寿经并述持验
-- id: guji-求那跋陀罗-event-promote
-  title_zh: 传授持诵仪轨示验相
-  date: '0454'
-  year_of: '0454'
-  location: 建康祇洹寺
-  description: 教授嚼杨枝澡豆漱口然香胡跪合掌日夜六时各诵三七遍满二十万遍感菩提芽生三十万遍得见阿弥陀佛
+  description: 刘宋元嘉十二年，乘舶泛海南下抵广州，刺史与僧众遣使迎请，后被诏入建康祇洹寺
+- id: guji-求那跋陀罗-event-translate-start
+  title_zh: 于建康创开译场
+  date: '0436'
+  year_of: '0436'
+  description: 居祇洹寺、瓦官寺开译场，先后译出杂阿毘昙心论、胜鬘狮子吼经等，名重京师
+- id: guji-求那跋陀罗-event-lengqie
+  title_zh: 译楞伽阿跋多罗宝经四卷
+  date: '0443'
+  year_of: '0443'
+  description: 于建康译出楞伽阿跋多罗宝经四卷，以一切佛语心品为首，广明五法三自性八识二无我如来自觉境界，为后世禅宗所重
+- id: guji-求那跋陀罗-event-teach
+  title_zh: 弘禅授徒
+  date: '0455'
+  year_of: '0455'
+  description: 于建康及荆州等地讲译兼弘禅观，士大夫与僧众问道者众，楞伽心要遂盛于南朝
 - id: guji-求那跋陀罗-event-death
-  title_zh: 建康示寂
+  title_zh: 示寂于建康
   date: 0468
   year_of: 0468
-  location: 建康
-  description: 刘宋泰始四年示寂春秋七十五一生译经五十二部或云七十八部一百余卷道声被于江南
+  description: 刘宋泰始四年示寂于建康，世寿七十五，译经凡百余卷，其楞伽译本与胜鬘等同为中土如来藏学要典
