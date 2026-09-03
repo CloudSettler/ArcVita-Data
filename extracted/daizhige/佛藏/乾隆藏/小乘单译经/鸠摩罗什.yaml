@@ -1,0 +1,165 @@
+person:
+  qid: guji-鸠摩罗什
+  name_zh: 鸠摩罗什
+  names:
+    zh: 鸠摩罗什
+    en: Kumarajiva
+  lifespan:
+    birth:
+      date: '0344'
+      precision: year
+      is_circa: true
+      raw: 约公元三四四年龟兹生
+    death:
+      date: '0413'
+      precision: year
+      is_circa: false
+      raw: 姚秦弘始十五年长安示寂
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国姚秦
+  reign_ref: 姚兴弘始
+  archetype: 译经宗师
+  dilemmas:
+  - 少习小乘后遇大乘当舍小向大还是兼弘不废
+  - 身入帝王逍遥园受供译经当顺俗应请还是坚守沙门远离
+  lesson: 系心一处制伏乱心大小兼通道俗两利方为甘露正法
+  summary_first_person: 我生龟兹少随母出家初习小乘后遇大乘师乃悟般若空慧入秦译经三百余卷复译禅秘要法授白骨不净系念之法愿后学专心一处莫逐六根
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E7%A6%85%E7%A7%98%E8%A6%81%E6%B3%95%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E7%A6%85%E7%A7%98%E8%A6%81%E6%B3%95%E7%BB%8F.md
+endeavors:
+- id: guji-鸠摩罗什-endeavor-1
+  title_zh: 西域问道转小向大
+  summary: 九岁随母出家游罽宾学小乘三藏后遇须利耶苏摩受大乘般若游历西域声名大振
+  phases:
+  - key: brewing
+    name: 龟兹出家初习毗昙
+    labels:
+      zh: 出家求学
+    start_date: '0353'
+    highlight_event_id: guji-鸠摩罗什-event-study
+  - key: breakthrough
+    name: 遇大乘师悟般若空
+    labels:
+      zh: 转向大乘
+    start_date: 0359
+    highlight_event_id: guji-鸠摩罗什-event-mahayana
+  - key: climax
+    name: 西域名振弘法龟兹
+    labels:
+      zh: 名振西域
+    start_date: 0382
+    highlight_event_id: guji-鸠摩罗什-event-fame
+  - key: closure
+    name: 吕光东迎留滞凉州
+    labels:
+      zh: 留滞弘化
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-liangzhou
+  decisions:
+  - date: 0359
+    title_zh: 舍小取大兼弘二乘
+    rationale: 以小乘为基以大乘空慧为归不滞小果故改宗般若
+  - date: 0384
+    title_zh: 凉州随缘弘法不违时节
+    rationale: 兵阻不得东进则安住弘化待秦运至再行大道
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 长安译经授禅系念
+  summary: 弘始三年入长安逍遥园领译场译般若法华维摩及禅秘要法等普授系念白骨不净观
+  phases:
+  - key: brewing
+    name: 姚兴迎入长安尊为国师
+    labels:
+      zh: 入秦尊礼
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-changan
+  - key: breakthrough
+    name: 开译场定新译体例
+    labels:
+      zh: 开场新译
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  - key: climax
+    name: 译禅秘要授系念观
+    labels:
+      zh: 授禅系念
+    start_date: '0405'
+    highlight_event_id: guji-鸠摩罗什-event-chanmi
+  - key: closure
+    name: 示寂逍遥舌根不坏
+    labels:
+      zh: 示寂证信
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
+  decisions:
+  - date: '0402'
+    title_zh: 义圆文赡重译众经
+    rationale: 旧译文质未融当以秦言达梵义使大小禅律流通天下
+  - date: '0405'
+    title_zh: 译禅秘要摄放逸众
+    rationale: 见秦众乱心多放逸故译系念白骨不净诸观以甘露法开八正道
+events:
+- id: guji-鸠摩罗什-event-birth
+  type: birth
+  date: '0344'
+  year_of: 344
+  title_zh: 生于龟兹国
+  description: 父鸠摩罗炎天竺国相之子母耆婆龟兹王妹生于龟兹聪慧多智
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
+- id: guji-鸠摩罗什-event-study
+  type: career
+  date: '0353'
+  year_of: 353
+  title_zh: 随母出家游罽宾学小乘
+  description: 九岁随母出家游学罽宾从槃头达多习四阿含毗昙诸论通三藏
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
+- id: guji-鸠摩罗什-event-mahayana
+  type: career
+  date: 0359
+  year_of: 359
+  title_zh: 从须利耶苏摩受大乘
+  description: 遇沙车王子须利耶苏摩受阿耨多罗系等大乘经悟般若空义转弘大乘
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
+- id: guji-鸠摩罗什-event-fame
+  type: career
+  date: 0382
+  year_of: 382
+  title_zh: 还龟兹弘法名振西域
+  description: 还龟兹王亲迎说法兼通外论四韦陀阴阳星算诸艺苻坚闻名思迎
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
+- id: guji-鸠摩罗什-event-liangzhou
+  type: career
+  date: 0384
+  year_of: 384
+  title_zh: 留滞凉州十七载
+  description: 吕光奉命迎师中路建凉留滞凉州弘法授徒待姚兴克定关中
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
+- id: guji-鸠摩罗什-event-changan
+  type: career
+  date: '0401'
+  year_of: 401
+  title_zh: 弘始三年入长安
+  description: 姚兴迎入长安待以国师礼居逍遥园集八百译众开译场
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
+- id: guji-鸠摩罗什-event-translate
+  type: career
+  date: '0402'
+  year_of: 402
+  title_zh: 领译大品法华维摩等
+  description: 重译大品般若妙法莲华维摩诘阿弥陀梵网诸经凡三百余卷新译体成
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
+- id: guji-鸠摩罗什-event-chanmi
+  type: career
+  date: '0405'
+  year_of: 405
+  title_zh: 译禅秘要法经授不净白骨观
+  description: 与众译禅秘要法三卷说迦絺罗难陀系念法授白骨白光膖胀不净诸观摄乱心众
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
+- id: guji-鸠摩罗什-event-death
+  type: death
+  date: '0413'
+  year_of: 413
+  title_zh: 示寂长安逍遥园
+  description: 弘始十五年疾甚示寂遗言所译无谬舌根不坏荼毗舌独不化众信新译
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
