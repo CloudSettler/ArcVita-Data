@@ -8,133 +8,134 @@ person:
     birth:
       date: '0344'
       precision: year
-      is_circa: true
-      raw: 龟兹生约344年
+      is_circa: false
+      raw: 344年
     death:
       date: '0413'
       precision: year
       is_circa: false
-      raw: 弘始十五年413年圆寂长安
+      raw: 413年
   birth_date: '0344'
   death_date: '0413'
-  era: 十六国
-  reign_ref: 姚秦姚兴弘始年间
-  archetype: 译经宗师
+  era: 姚秦
+  reign_ref: 弘始年间
+  archetype: 译师
   dilemmas:
-  - 忠于梵本义理与顺应华言文采之间的权衡
-  - 身陷政治俘虏而坚持弘法不辍的去留之择
-  - 大乘空观与当时关中旧学名相执着的破立之难
-  lesson: 以信实通译不饰文巧，令深法得入华土，诚心化众则舌根不坏
-  summary_first_person: 吾鸠摩罗什，龟兹人也，七岁随母出家，初学小乘后弘大乘。流滞凉州十七载，入长安始得大兴译务，译出华手等经数十部，惟愿所译无谬，令华人得闻实相。
+  - 忠于梵本原义与顺应华言达意之间的权衡
+  - 隐居修行与入世广译以利众生之间的取舍
+  - 持守戒律清净与随缘示现方便之间的张力
+  lesson: 以信达雅为衡，摄一切三昧于首楞严，使深法藉华言流通而不失实相
+  summary_first_person: 吾本龟兹人，少出家习大乘，游学天竺诸国，后为姚兴迎至长安，住逍遥园设译场，译佛说首楞严三昧经等三十余部，愿以文字般若开众生首楞严三昧
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%8D%8E%E6%89%8B%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%8D%8E%E6%89%8B%E7%BB%8F.md
-  - https://cbeta.online/T0657
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E9%A6%96%E6%A5%9E%E4%B8%A5%E4%B8%89%E6%98%A7%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E9%A6%96%E6%A5%9E%E4%B8%A5%E4%B8%89%E6%98%A7%E7%BB%8F.html
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  name_zh: 大乘佛典汉译
-  description: 于长安逍遥园主持译场，系统汉译中观般若及大乘单译经，使空宗深义行于华夏，华手经即其间所出十卷之作
+  title_zh: 长安译场主持与首楞严三昧经翻译
+  summary: 于姚秦弘始年间主持逍遥园译场，组织千僧校译，译出佛说首楞严三昧经三卷等大乘要典，奠定华言大乘经藏
   phases:
   - key: brewing
-    name: 西域学成
+    name: 西域学养积淀
     labels:
-      zh: 龟兹沙勒习经
-    start_date: '0353'
-    highlight_event_id: guji-鸠摩罗什-event-study
+      zh: 西域学养
+    start_date: '0344'
+    highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 凉州蕴蓄
+    name: 被迎入关主持译事
     labels:
-      zh: 吕光俘留讲授
-    start_date: 0384
-    highlight_event_id: guji-鸠摩罗什-event-capture
+      zh: 入关开译
+    start_date: 0401-12
+    highlight_event_id: guji-鸠摩罗什-event-enter-changan
   - key: climax
-    name: 长安译场
+    name: 首楞严三昧经译成
     labels:
-      zh: 逍遥园译华手经
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-huashou
+      zh: 译经高峰
+    start_date: 0409
+    highlight_event_id: guji-鸠摩罗什-event-translate-shoulengyan
   - key: closure
-    name: 遗嘱证信
+    name: 译业圆满示寂
     labels:
-      zh: 舌根不坏之誓
+      zh: 译业圆满
     start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: '0401'
-    title_zh: 应姚兴请入长安
-    rationale: 非为荣禄，欲得众智共译，取义不取文，使大法流通
-  - date: '0406'
-    title_zh: 定译华手经为摄诸善根经
-    rationale: 此经具摄一切法断疑法门，对治名相执着，故详为十卷广宣空相
+  - date: 0401-12
+    title_zh: 应姚兴之请入长安
+    rationale: 以长安为弘法中心，借帝王护持广开译场，使大乘深法速布华夏
+  - date: 0409
+    title_zh: 择译首楞严三昧经
+    rationale: 此三昧摄一切禅定解脱，为诸三昧王，能示现神变而不坏法性，当先译出以正众见
+  - date: '0402'
+    title_zh: 定译场规制广集硕学
+    rationale: 设校译、证义、润文诸职，令僧肇僧叡等参译，以保证信达并足
 - id: guji-鸠摩罗什-endeavor-2
-  name_zh: 关中弘法化众
-  description: 以师礼开讲中论大品，教化僧肇道生等三千门徒，奠定关中佛学正轨
+  title_zh: 中观般若义学弘扬与僧团教化
+  summary: 以译经为本，兼事讲学，宣演空观与首楞严三昧行门，培育僧肇等四哲，开华夏三论中观之风
   phases:
   - key: brewing
-    name: 少年辩才
+    name: 龟兹天竺问道
     labels:
-      zh: 日诵千偈
+      zh: 问道
     start_date: 0359
     highlight_event_id: guji-鸠摩罗什-event-study
   - key: breakthrough
-    name: 凉州讲学
+    name: 长安讲席开演
     labels:
-      zh: 为凉主说法人
-    start_date: 0384
-    highlight_event_id: guji-鸠摩罗什-event-capture
-  - key: climax
-    name: 长安讲筵
-    labels:
-      zh: 逍遥园敷演
+      zh: 开讲
     start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-changan
-  - key: closure
-    name: 以身证法
+    highlight_event_id: guji-鸠摩罗什-event-teach-start
+  - key: climax
+    name: 四哲成形学风大振
     labels:
-      zh: 荼毗舌不烂
+      zh: 学风大振
+    start_date: '0410'
+    highlight_event_id: guji-鸠摩罗什-event-teach-peak
+  - key: closure
+    name: 遗教付嘱
+    labels:
+      zh: 付嘱
     start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: 0384
-    title_zh: 留凉州不绝讲授
-    rationale: 虽为俘囚，借处安居广化羌胡，待时而动
   - date: '0402'
-    title_zh: 采用义译而非直译
-    rationale: 华人重文，若存梵质则义隔，故舍繁就简令易入空义
+    title_zh: 日讲大品般若与中论
+    rationale: 以空观破计有所得之见，使学者不滞小法而向大乘
+  - date: 0408
+    title_zh: 以首楞严三昧摄六度行门示众
+    rationale: 依经中百种功德次第开示檀戒忍进禅慧，使行者知三昧摄一切助菩提法
 events:
 - id: guji-鸠摩罗什-event-birth
-  title_zh: 生于龟兹
   date: '0344'
-  year_of: 344
-  place: 西域龟兹国
-  description: 父鸠摩罗炎天竺婆罗门，母耆婆龟兹王女，什生于龟兹，七岁随母出家
+  title_zh: 诞生龟兹
+  description: 生于龟兹国，父鸠摩罗炎为天竺婆罗门，母耆婆为龟兹王妹，自幼聪慧七岁出家
+  year_of: '0344'
 - id: guji-鸠摩罗什-event-study
-  title_zh: 随母出家转学大乘
-  date: '0353'
-  year_of: 353
-  place: 罽宾及沙勒
-  description: 九岁至罽宾从槃头达多学小乘，十二岁至沙勒遇须耶苏摩，改学大乘中观，日诵千偈名振西域
-- id: guji-鸠摩罗什-event-capture
-  title_zh: 为吕光所俘滞留凉州
-  date: 0384
-  year_of: 384
-  place: 凉州姑臧
-  description: 苻坚遣吕光伐龟兹得什，闻苻坚败遂留凉州十七年，虽处戎旅仍讲经授徒
-- id: guji-鸠摩罗什-event-changan
-  title_zh: 入长安主持逍遥园译场
-  date: '0401'
-  year_of: 401
-  place: 长安逍遥园西明阁
-  description: 姚兴灭后凉迎什入长安，集义学沙门八百余人，僧肇僧叡等执笔，始大译经
-- id: guji-鸠摩罗什-event-huashou
-  title_zh: 译出佛说华手经十卷
-  date: '0406'
-  year_of: 406
-  place: 长安大寺
-  description: 姚秦弘始年间译出佛说华手经亦名摄诸善根经十卷，显摄一切法断疑令入法海之义，与会菩萨比丘叹为希有
+  date: 0359
+  title_zh: 游学罽宾研习大乘
+  description: 年少游罽宾从槃头达多习小乘，后遇须耶利耶苏摩改学大乘，通三藏十二部
+  year_of: 0359
+- id: guji-鸠摩罗什-event-enter-changan
+  date: 0401-12
+  title_zh: 入长安居逍遥园
+  description: 姚秦弘始三年姚兴遣使迎至长安，礼为国师，居逍遥园，敕集义学沙门千人设译场
+  year_of: '0401'
+- id: guji-鸠摩罗什-event-teach-start
+  date: '0402'
+  title_zh: 开讲弘法
+  description: 于逍遥园及大寺讲说中观般若，听众常千人以上，僧肇僧叡道融等执笔参译兼受学
+  year_of: '0402'
+- id: guji-鸠摩罗什-event-translate-shoulengyan
+  date: 0409
+  title_zh: 译佛说首楞严三昧经三卷
+  description: 译出首楞严三昧经，具载坚意菩萨所问及佛说首楞严三昧百种功德与六度本事果报
+  year_of: 0409
+- id: guji-鸠摩罗什-event-teach-peak
+  date: '0410'
+  title_zh: 门徒三千学风鼎盛
+  description: 讲译并行，门下三千，四哲八俊成形，华夏空宗以此大兴
+  year_of: '0410'
 - id: guji-鸠摩罗什-event-death
-  title_zh: 圆寂长安舌根不坏
   date: '0413'
-  year_of: 413
-  place: 长安
-  description: 弘始十五年示疾圆寂，荼毗之日舌根不烂以证所译不谬，时年约七十，塔于逍遥园
+  title_zh: 示寂长安
+  description: 弘始十五年示寂于长安，临终发誓所译无谬则舌根不坏，后火化舌不焦烂
+  year_of: '0413'
