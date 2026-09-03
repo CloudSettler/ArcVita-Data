@@ -1,0 +1,138 @@
+person:
+  qid: guji-客舍主人
+  name_zh: 客舍主人
+  names:
+    zh: 客舍主人
+    en: Inn Master
+  lifespan:
+    birth:
+      date: '-0550'
+      precision: year
+      is_circa: true
+      raw: 佛世时生约当东周景王时
+    death:
+      date: '-0470'
+      precision: year
+      is_circa: true
+      raw: 得阿罗汉后端终约当东周敬王时
+  birth_date: '-0550'
+  death_date: '-0470'
+  era: 东周春秋末期
+  reign_ref: 佛在舍卫国给孤独园时
+  archetype: 弃邪归正的求道者
+  dilemmas:
+  - 久事三鬼神而财尽家病，是否舍弃旧祠改奉佛戒
+  - 初闻五戒功德心生厌离，是否即受三归五戒十善
+  - 赴舍卫途中亭宿见骸骨恐怖，是否退还安居还是坚持前行
+  lesson: 宁守净戒得天神护佑，悔过从善得遇本师，终能消灾证道
+  summary_first_person: 吾本为客舍主，久事三鬼神而家耗病多，遇舍卫持戒客见鬼神畏戒走避，遂诚心受三归五戒十善，立志往舍卫见佛，途中亭宿度啖人鬼妇，同还见佛，闻法出家得阿罗汉
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/小乘律/佛说戒消灾经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘律/佛说戒消灾经.md
+endeavors:
+- id: guji-客舍主人-endeavor-1
+  title_zh: 弃事鬼神受持佛戒
+  summary: 因舍卫客示戒德舍邪归正
+  phases:
+  - key: brewing
+    name: 久事鬼神而疲厌
+    labels:
+      zh: 积年供奉财空病臻
+    start_date: '-0505'
+    highlight_event_id: guji-客舍主人-event-refuge
+  - key: breakthrough
+    name: 见鬼畏戒心开
+    labels:
+      zh: 舍卫客至鬼神奔走
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-refuge
+  - key: climax
+    name: 受三归五戒十善
+    labels:
+      zh: 从客受戒精进不懈
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-refuge
+  - key: closure
+    name: 立志往见世尊
+    labels:
+      zh: 问佛所在欲往舍卫
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-refuge
+  decisions:
+  - date: '-0500'
+    title_zh: 舍鬼神受佛戒
+    rationale: 见鬼神得宝而畏持戒客，知佛戒威德胜邪祠，遂受三归五戒十善
+  - date: '-0500'
+    title_zh: 决意徒步赴舍卫
+    rationale: 欲亲见世尊听法，故不顾路远亭险而行
+- id: guji-客舍主人-endeavor-2
+  title_zh: 亭宿度众赴佛证果
+  summary: 瓮中重受五戒护妇同见佛得道
+  phases:
+  - key: brewing
+    name: 亭宿遇妇寄止
+    labels:
+      zh: 日暮寄亭妇劝急去
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-pavilion
+  - key: breakthrough
+    name: 见骸骨恐怖退还
+    labels:
+      zh: 晨见骨横心怖回还
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-pavilion
+  - key: climax
+    name: 瓮中闻戒重受
+    labels:
+      zh: 藏瓮闻鬼说五戒随受
+    start_date: '-0500'
+    highlight_event_id: guji-客舍主人-event-pavilion
+  - key: closure
+    name: 携众还佛出家证果
+    labels:
+      zh: 与妇及四百九十八人见佛得阿罗汉
+    start_date: -0499
+    highlight_event_id: guji-客舍主人-event-arhat
+  decisions:
+  - date: '-0500'
+    title_zh: 再宿亭舍不去
+    rationale: 初见骸骨生恶意退还，淫意迷惑失护，然妇藏护得闻戒复信
+  - date: -0499
+    title_zh: 偕妇及众还见世尊
+    rationale: 既蒙戒护得离啖人鬼，当以本师善友共解脱，故同行听经出家
+events:
+- id: guji-客舍主人-event-birth
+  type: birth
+  date: '-0550'
+  year_of: -550
+  title_zh: 客舍主人诞生
+  description: 生于他国客舍之家，后为舍主，久事三鬼神
+  location: 他国客舍家
+- id: guji-客舍主人-event-refuge
+  type: endeavor
+  date: '-0500'
+  year_of: -500
+  title_zh: 遇舍卫客受三归五戒
+  description: 主人设供鬼见舍卫持戒客奔走，主人问其功德，从客受三归五戒十善
+  location: 客舍家
+- id: guji-客舍主人-event-pavilion
+  type: endeavor
+  date: '-0500'
+  year_of: -500
+  title_zh: 亭宿瓮中重受五戒
+  description: 赴舍卫途中亭宿，见骸骨退还再宿，失护藏瓮，闻啖人鬼说五戒随受，天帝遣善神护二人鬼走
+  location: 中途亭舍
+- id: guji-客舍主人-event-arhat
+  type: endeavor
+  date: -0499
+  year_of: -499
+  title_zh: 携众见佛出家得阿罗汉
+  description: 与鬼妇偕行逢四百九十八人，俱还舍卫给孤独园见佛，闻法出家皆得阿罗汉
+  location: 舍卫国给孤独园
+- id: guji-客舍主人-event-death
+  type: death
+  date: '-0470'
+  year_of: -470
+  title_zh: 取般涅槃
+  description: 得阿罗汉后果上精进，寿终入灭
+  location: 舍卫国

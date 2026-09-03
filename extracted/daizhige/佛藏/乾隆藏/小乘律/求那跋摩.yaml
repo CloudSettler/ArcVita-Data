@@ -1,0 +1,132 @@
+person:
+  qid: guji-求那跋摩
+  name_zh: 求那跋摩
+  names:
+    zh: 求那跋摩
+    en: Gunavarman
+  lifespan:
+    birth:
+      date: '0367'
+      precision: year
+      is_circa: true
+      raw: 约三六七年生于罽宾王族
+    death:
+      date: '0431'
+      precision: year
+      is_circa: false
+      raw: 刘宋元嘉八年卒于建康
+  birth_date: '0367'
+  death_date: '0431'
+  era: 南北朝刘宋
+  reign_ref: 宋文帝元嘉年间
+  archetype: 译经弘律者
+  dilemmas:
+  - 异域弘化与王权礼遇之间如何持戒不染
+  - 居士渴求戒相与律文幽微之间如何令无疑惑
+  lesson: 分别五戒可悔不可悔，持而不犯以此因缘当成佛道
+  summary_first_person: 我自西域来至建康，承佛为净饭王分别五戒之缘，为优婆塞详说杀盗淫妄酒轻重可悔不可悔，令识戒相无复疑惑。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘律/佛说优婆塞五戒相经.md
+  - https://daizhige.org/佛藏/乾隆藏/小乘律/佛说优婆塞五戒相经.html
+endeavors:
+- id: guji-求那跋摩-endeavor-1
+  title_zh: 翻译分别优婆塞五戒相经
+  summary_zh: 依佛为净饭王说戒因缘，译出杀盗淫妄酒犯戒轻重可悔不可悔相
+  phases:
+  - key: brewing
+    name: 承请发心分别戒相
+    labels:
+      zh: 酝酿
+    start_date: '0430'
+    highlight_event_id: guji-求那跋摩-event-arrive
+  - key: breakthrough
+    name: 建康译场开译戒经
+    labels:
+      zh: 突破
+    start_date: '0431-03-01'
+    highlight_event_id: guji-求那跋摩-event-translate
+  - key: climax
+    name: 详判五戒持犯开遮
+    labels:
+      zh: 高潮
+    start_date: '0431-05-01'
+    highlight_event_id: guji-求那跋摩-event-translate
+  - key: closure
+    name: 成卷付嘱流通
+    labels:
+      zh: 收束
+    start_date: '0431-06-01'
+    highlight_event_id: guji-求那跋摩-event-translate
+  decisions:
+  - date: '0431-03-01'
+    title_zh: 应请直译戒相轻重
+    rationale: 居士于持犯生疑，若不分别可悔不可悔则难持故决定详译
+  - date: '0431-05-01'
+    title_zh: 以成佛堕落两缘劝持
+    rationale: 持而不犯可成佛道，犯而不悔常在三涂故以此劝勉策励
+- id: guji-求那跋摩-endeavor-2
+  title_zh: 建康弘律化导居士
+  summary_zh: 以迦维罗卫净饭王请法为式，开导建康居士受持五戒识相守禁
+  phases:
+  - key: brewing
+    name: 初至建康观察机缘
+    labels:
+      zh: 酝酿
+    start_date: '0431-02-01'
+    highlight_event_id: guji-求那跋摩-event-arrive
+  - key: breakthrough
+    name: 对众宣说犯戒因果
+    labels:
+      zh: 突破
+    start_date: '0431-04-01'
+    highlight_event_id: guji-求那跋摩-event-preach
+  - key: climax
+    name: 答疑断疑令无疑惑
+    labels:
+      zh: 高潮
+    start_date: '0431-05-15'
+    highlight_event_id: guji-求那跋摩-event-preach
+  - key: closure
+    name: 劝持遗化示寂
+    labels:
+      zh: 收束
+    start_date: '0431-07-01'
+    highlight_event_id: guji-求那跋摩-event-death
+  decisions:
+  - date: '0431-04-01'
+    title_zh: 先说杀生三方便判罪
+    rationale: 杀业为五戒之首，居士多疑自作教人遣使故先须明辨
+  - date: '0431-05-15'
+    title_zh: 广引误杀无心开缘
+    rationale: 狂乱失念与无心误伤不结重罪，为释疑故须举梁堕推石等喻
+events:
+- id: guji-求那跋摩-event-birth
+  title_zh: 生于罽宾王族
+  date: '0367'
+  year_of: 367
+  place_zh: 罽宾
+  summary_zh: 约三六七年生于罽宾，出家精通律藏三藏弘化西域
+- id: guji-求那跋摩-event-arrive
+  title_zh: 至建康弘化
+  date: '0431-02-01'
+  year_of: 431
+  place_zh: 建康
+  summary_zh: 刘宋元嘉八年至建康，宋文帝及众僧居士迎请住持译弘律乘
+- id: guji-求那跋摩-event-translate
+  title_zh: 译出佛说优婆塞五戒相经一卷
+  date: '0431-05-01'
+  year_of: 431
+  place_zh: 建康译场
+  summary_zh: 依佛为净饭王分别五戒因缘，译杀盗淫妄酒戒相，明自作教人遣使及可悔不可悔差别
+- id: guji-求那跋摩-event-preach
+  title_zh: 为居士分别戒相答疑
+  date: '0431-05-15'
+  year_of: 431
+  place_zh: 建康
+  summary_zh: 为优婆塞说误杀戏杀狂杀无罪有罪之别，及盗满五钱淫三处妄语大妄语等轻重，令无疑惑
+- id: guji-求那跋摩-event-death
+  title_zh: 卒于建康
+  date: '0431'
+  year_of: 431
+  place_zh: 建康
+  summary_zh: 刘宋元嘉八年示寂于建康，所译戒经流通后世为居士持戒准绳
