@@ -8,8 +8,8 @@ person:
     birth:
       date: '0671'
       precision: year
-      is_circa: false
-      raw: 唐高宗咸亨二年
+      is_circa: true
+      raw: 唐高宗咸亨二年左右
     death:
       date: '0741'
       precision: year
@@ -18,109 +18,115 @@ person:
   birth_date: '0671'
   death_date: '0741'
   era: 唐
-  reign_ref: 唐玄宗开元朝
-  archetype: 密教译师
+  reign_ref: 唐玄宗开元
+  archetype: 密教传法大师
   dilemmas:
-  - 梵音咒语以汉字存音存义难以两全
-  - 秘密曼荼罗法公开流传与择器传授之难
-  lesson: 以坛场印咒次第摄持修行令密法可修可传
-  summary_first_person: 我本南天竺人，泛海至唐，居长安洛阳，译金刚顶经及吽迦陀野仪轨，立曼荼罗护摩结界之制，令后学依轨修持。
+  - 护国密法广利群生与秘不妄传之间如何抉择
+  - 出家具戒不堪受拜与持法者须自礼诸天之间如何持律
+  lesson: 以大悲安镇家国须依轨清净图像护摩供养秘付得人方能息灾增福
+  summary_first_person: 吾金刚智于天竺大师所受得不动尊安镇家国等法入唐传译付与白衣行者王光愿以威德自在之身安镇宫室八方令国土无灾人民安乐
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%90%BD%E8%BF%A6%E9%99%80%E9%87%8E%E4%BB%AA%E8%BD%A8.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%90%BD%E8%BF%A6%E9%99%80%E9%87%8E%E4%BB%AA%E8%BD%A8.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E6%97%A0%E5%8A%A8%E5%B0%8A%E5%AE%89%E9%95%87%E5%AE%B6%E5%9B%BD%E7%AD%89%E6%B3%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E6%97%A0%E5%8A%A8%E5%B0%8A%E5%AE%89%E9%95%87%E5%AE%B6%E5%9B%BD%E7%AD%89%E6%B3%95.md
 endeavors:
 - id: guji-金刚智-endeavor-1
-  title_zh: 泛海来华传授密法
-  description: 自南天竺经南海至唐于两京授灌顶译经
+  title_zh: 入唐译传不动尊安镇法
+  summary: 自天竺受得毗卢遮那所示不动金刚明王威德法入唐敷演安镇家国仪轨
   phases:
   - key: brewing
-    name: 南天竺学法蕴酿
+    name: 天竺受法
     labels:
-      zh: 蕴酿
-    start_date: 0687
-    highlight_event_id: guji-金刚智-event-birth
+      zh: 酝酿求法
+    start_date: '0710'
+    highlight_event_id: guji-金刚智-event-1
   - key: breakthrough
-    name: 航海抵唐得礼遇
+    name: 入唐传译
     labels:
-      zh: 突破
+      zh: 突破传译
     start_date: '0720'
-    highlight_event_id: guji-金刚智-event-arrive
+    highlight_event_id: guji-金刚智-event-2
   - key: climax
-    name: 两京译经授法高峰
+    name: 建立安镇仪轨
     labels:
-      zh: 高潮
-    start_date: '0723'
-    highlight_event_id: guji-金刚智-event-translate
+      zh: 高潮建立
+    start_date: '0730'
+    highlight_event_id: guji-金刚智-event-3
   - key: closure
-    name: 付法弟子示寂收束
+    name: 图样护摩具足
     labels:
-      zh: 收束
-    start_date: '0735'
-    highlight_event_id: guji-金刚智-event-death
+      zh: 收束成轨
+    start_date: '0731'
+    highlight_event_id: guji-金刚智-event-3
   decisions:
   - date: '0720'
-    title_zh: 冒海东来不留天竺
-    rationale: 为令密教东传发愿渡海至唐弘化
-  - date: '0723'
-    title_zh: 先译根本经后立仪轨
-    rationale: 先立教理宗要后明行法次第令学人有依
+    title_zh: 应召入唐传密法
+    rationale: 为拔济三界苦海有情现威德光明安乐人天故不辞海路弘传
+  - date: '0730'
+    title_zh: 敷演八方安镇供养护摩
+    rationale: 国土多灾须依像设供养春秋护摩令天龙欢喜国界丰饶故立轨范
 - id: guji-金刚智-endeavor-2
-  title_zh: 译弘吽迦陀野仪轨
-  description: 译多闻宝藏吽迦陀野仪轨立八大曼荼罗护摩法
+  title_zh: 秘付白衣王光相承
+  summary: 以安镇秘法不许出家人行只许授与白衣故付行者王光令秘之又秘
   phases:
   - key: brewing
-    name: 观察毗沙门守护因缘
+    name: 观察付嘱对象
     labels:
-      zh: 蕴酿
-    start_date: '0723'
-    highlight_event_id: guji-金刚智-event-arrive
+      zh: 酝酿观察
+    start_date: '0730'
+    highlight_event_id: guji-金刚智-event-3
   - key: breakthrough
-    name: 定梵汉音写译出咒印
+    name: 付法王光
     labels:
-      zh: 突破
-    start_date: '0725'
-    highlight_event_id: guji-金刚智-event-translate
+      zh: 突破付授
+    start_date: '0731'
+    highlight_event_id: guji-金刚智-event-3
   - key: climax
-    name: 建八大曼荼罗成就道场
+    name: 严诫秘传白衣
     labels:
-      zh: 高潮
-    start_date: '0727'
-    highlight_event_id: guji-金刚智-event-translate
+      zh: 高潮立诫
+    start_date: '0731'
+    highlight_event_id: guji-金刚智-event-3
   - key: closure
-    name: 以护国守护流通后世
+    name: 西方相承继嗣
     labels:
-      zh: 收束
+      zh: 收束相承
     start_date: '0740'
-    highlight_event_id: guji-金刚智-event-death
+    highlight_event_id: guji-金刚智-event-4
   decisions:
-  - date: '0725'
-    title_zh: 以多闻天为中心立坛
-    rationale: 以守护佛法僧覆护众生为缘起摄诸天鬼神
-  - date: '0727'
-    title_zh: 详明结界洒净作坛之制
-    rationale: 令行者得清净如法道场故详定拣地作坛护身法
+  - date: '0731'
+    title_zh: 不传出家只授白衣
+    rationale: 出家具佛禁戒令人不安不敢受拜所求福德不成就违行犯大罪故制限
+  - date: '0731'
+    title_zh: 敕令秘藏勿令诸国知
+    rationale: 西方深重此法恐滥传生慢唯流尊样以为大护故令秘之又秘相承不绝
 events:
 - id: guji-金刚智-event-birth
-  type: birth
-  title_zh: 生于南天竺
   date: '0671'
   year_of: 671
-  description: 南天竺婆罗门种生后出家学显密诸部
-- id: guji-金刚智-event-arrive
-  type: career
-  title_zh: 泛海至唐谒玄宗
+  title_zh: 诞生天竺
+  description: 金刚智生于天竺南印度家世婆罗门后出家学密
+- id: guji-金刚智-event-1
+  date: '0710'
+  year_of: 710
+  title_zh: 天竺大师所受得安镇法
+  description: 于天竺大师所受得不动尊安镇家国等法并八方天王旗幡降怨真言
+- id: guji-金刚智-event-2
   date: '0720'
   year_of: 720
-  description: 开元八年携弟子不空至广州洛阳得玄宗礼遇
-- id: guji-金刚智-event-translate
-  type: career
-  title_zh: 译出吽迦陀野仪轨
-  date: '0725'
-  year_of: 725
-  description: 于长安洛阳译多闻宝藏吽迦陀野仪轨明咒印曼荼罗
+  title_zh: 入唐弘传密教护国法
+  description: 携不动明王图像曼荼罗护摩仪轨入唐译传演说王宫黎庶普安圣像诵五字心真言施残食
+- id: guji-金刚智-event-3
+  date: '0731'
+  year_of: 731
+  title_zh: 付行者王光此仪轨法
+  description: 以秘法不许出家人行只许白衣修行故受与行者王光令八家相承秘藏
+- id: guji-金刚智-event-4
+  date: '0740'
+  year_of: 740
+  title_zh: 安镇八方摧敌仪成
+  description: 备载东方帝释至东北伊舍那八旗八天眷属围绕设石像厌敌军陈摧他敌法成
 - id: guji-金刚智-event-death
-  type: death
-  title_zh: 圆寂于长安
   date: '0741'
   year_of: 741
-  description: 开元二十九年寂于长安追谥大弘教三藏国师
+  title_zh: 示寂于唐开元年间
+  description: 金刚智三藏于长安示寂所传不动尊安镇家国法由王光一系秘传不绝

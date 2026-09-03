@@ -6,133 +6,143 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0920
+      date: 0930
       precision: year
       is_circa: true
-      raw: 约十世纪初生于天竺
+      raw: 约十世纪前半生于中天竺
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒于开封
-  birth_date: 0920
+      raw: 宋咸平四年卒于东京开封
+  birth_date: 0930
   death_date: '1001'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译经弘法者
+  archetype: 西天译经三藏
   dilemmas:
-  - title_zh: 梵汉悬隔当存音或显义
-    description: 陀罗尼贵存梵音方具持诵功德若直译其义则失密意若纯存音则中土难解须音义兼顾以全信解行证
-  - title_zh: 奉诏入华当守西天师承或就中土机宜
-    description: 既为西天译经三藏又奉宋帝诏命既须严守戒律仪轨正其梵音又须令君臣士庶生信受持弘多罗救护法门
-  lesson: 以音声存真以慈悲摄物译场即是道场令水陆众生离黑暗得光明
-  summary_first_person: 吾法天西天人也蒙宋帝诏入译场授传教大师与天息灾等共译显密归命多罗大菩萨独译一百八名陀罗尼经愿以慈光普照十方令众生离怖得涅槃彼岸
+  - title_zh: 梵汉悬隔
+    description: 梵本幽深诏催急迫当求译文信达兼备
+  - title_zh: 显密并弘
+    description: 处显教译场而密法盛行当守正统兼传陀罗尼
+  lesson: 以信达译经弘法能除众生怖畏令得安乐
+  summary_first_person: 吾本西天僧奉诏入宋充译经三藏惟愿梵汉贯通令闻法者离怖得安
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/圣多罗菩萨一百八名陀罗尼经.html
-  - https://cbetaonline.dila.edu.tw/zh/T1105
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E6%97%A0%E8%83%BD%E8%83%9C%E9%87%91%E5%88%9A%E7%81%AB%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E6%97%A0%E8%83%BD%E8%83%9C%E9%87%91%E5%88%9A%E7%81%AB%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 随师入宋创立译场
-  summary: 太平兴国中随天息灾至开封授朝散大夫试鸿胪少卿传教大师入译经院合译显密经律奠定宋初译场规模
+  title_zh: 西天来华入译经院
+  summary: 自中天竺那烂陀东来入宋太宗译经院充传教大师译梵为汉
   phases:
   - key: brewing
-    name: 西天习学蓄德
+    name: 离乡东行
     labels:
       zh:
-      - 习三藏
-      - 精梵密
-    start_date: 0920
-    highlight_event_id: guji-法天-event-birth
+      - 求法东来
+    start_date: '973'
+    highlight_event_id: guji-法天-event-arrive
   - key: breakthrough
-    name: 奉诏入华登坛
+    name: 入院试译
     labels:
       zh:
-      - 入宋译场
-    start_date: '0976-01-01'
-    highlight_event_id: guji-法天-event-arrival
+      - 初充译主
+    start_date: '974'
+    highlight_event_id: guji-法天-event-enter Bureau
   - key: climax
-    name: 合译显密弘宣
+    name: 朝散试衔传教
     labels:
       zh:
-      - 共译众经
-    start_date: '0980-01-01'
-    highlight_event_id: guji-法天-event-translate-tara
+      - 授官弘译
+    start_date: '978'
+    highlight_event_id: guji-法天-event-award
   - key: closure
-    name: 制授圆成遗化
+    name: 译业有成
     labels:
       zh:
-      - 传灯中土
-    start_date: '1001'
-    highlight_event_id: guji-法天-event-death
+      - 立足东京
+    start_date: '981'
+    highlight_event_id: guji-法天-event-translate-fire
   decisions:
-  - date: '0976-01-01'
-    title_zh: 应诏东来入宋译场
-    rationale: 为令正法东流不辞远涉水陆随兄入华就开封译经院任事
-  - date: '0980-01-01'
-    title_zh: 守梵音兼设义解
-    rationale: 显教可义译密咒须存音以全持诵功德又附缘起功德令人生信
+  - date: '973'
+    title_zh: 应召赴宋
+    rationale: 为使正法东流不辞远涉愿入中华译场
+  - date: '974'
+    title_zh: 就院专译
+    rationale: 朝廷置院制度完备居此可集众参校成就信本
 - id: guji-法天-endeavor-2
-  title_zh: 独译圣多罗菩萨一百八名陀罗尼经
-  summary: 奉诏宣说多罗大菩萨往昔大陀罗尼及自在天王一百八名赞述光焰庄严如来说救护光明功德弘多罗慈救法门
+  title_zh: 传译密教陀罗尼
+  summary: 奉诏译圣无能胜金刚火陀罗尼经宣说金刚手威德调伏部多令众离怖
   phases:
   - key: brewing
-    name: 归命多罗发愿
+    name: 集会妙高山
     labels:
       zh:
-      - 归命庄严
-    start_date: '0982-01-01'
-    highlight_event_id: guji-法天-event-arrival
+      - 敷演缘起
+    start_date: '979'
+    highlight_event_id: guji-法天-event-translate-fire
   - key: breakthrough
-    name: 宣说大陀罗尼
+    name: 定说调伏法
     labels:
       zh:
-      - 译根本密咒
-    start_date: '0983-01-01'
-    highlight_event_id: guji-法天-event-translate-tara
+      - 金刚调伏
+    start_date: '980'
+    highlight_event_id: guji-法天-event-translate-fire
   - key: climax
-    name: 演自在天王赞
+    name: 宣说火陀罗尼
     labels:
       zh:
-      - 译一百八名
-      - 显救护功德
-    start_date: '0983-06-01'
-    highlight_event_id: guji-法天-event-translate-tara
+      - 宣说密咒
+    start_date: '980'
+    highlight_event_id: guji-法天-event-translate-fire
   - key: closure
-    name: 付嘱流通获益
+    name: 众喜奉行
     labels:
       zh:
-      - 普令受持
-    start_date: '0984-01-01'
-    highlight_event_id: guji-法天-event-translate-tara
+      - 信受流通
+    start_date: '981'
+    highlight_event_id: guji-法天-event-translate-fire
   decisions:
-  - date: '0983-01-01'
-    title_zh: 先译根本咒后译赞叹名
-    rationale: 根本陀罗尼为体能摄大威德一百八名为用能显慈悲救护体用具足方成流通
-  - date: '0983-06-01'
-    title_zh: 具述光焰如来证言
-    rationale: 引过去光焰种种庄严如来语证闻持功德令国王大臣长者居士悉生信受成就一切事业
+  - date: '980'
+    title_zh: 先显后密次第传授
+    rationale: 天龙怖畏须先以四谛十度安慰其心然后授以陀罗尼
+  - date: '980'
+    title_zh: 存梵音直译真言
+    rationale: 陀罗尼威德在音声故存梵音不意译令持诵得验
 events:
 - id: guji-法天-event-birth
-  date: 0920
-  year_of: 920
-  kind: birth
-  title_zh: 生于天竺
-  description: 约十世纪初生于西天天竺幼习三藏精通梵文及密部仪轨为后入华译经之本
-- id: guji-法天-event-arrival
-  date: '0976-01-01'
-  year_of: 976
-  kind: career
-  title_zh: 太平兴国间至宋入译场
-  description: 宋太宗太平兴国中随天息灾至开封奉诏入译经院授朝散大夫试鸿胪少卿传教大师参预合译
-- id: guji-法天-event-translate-tara
-  date: '0983-01-01'
-  year_of: 983
-  kind: career
-  title_zh: 奉诏译圣多罗菩萨一百八名陀罗尼经
-  description: 归命摩尼璎珞庄严多罗大菩萨译出往昔大陀罗尼及自在天王一百八名赞述于水陆众生作大救护于黑暗作大光明闻持受诵成就一切事业
+  title_zh: 生于中天竺
+  date: 0930
+  year_of: 930
+  location: 中天竺那烂陀一带
+  description: 约十世纪前半生于中天竺学通三藏兼习密轨
+- id: guji-法天-event-arrive
+  title_zh: 抵宋入译经院
+  date: '973'
+  year_of: 973
+  location: 东京开封
+  description: 与施护等西僧东来宋太宗置译经院于太平兴国寺迎入参译
+- id: guji-法天-event-enter Bureau
+  title_zh: 授职试译参校
+  date: '974'
+  year_of: 974
+  location: 开封译经院
+  description: 充译主笔受试鸿胪卿等衔与义学僧共参校梵汉
+- id: guji-法天-event-award
+  title_zh: 加朝散传教大师
+  date: '978'
+  year_of: 978
+  location: 开封
+  description: 以译业勤敏授朝散大夫试鸿胪少卿传教大师奉诏专译
+- id: guji-法天-event-translate-fire
+  title_zh: 奉诏译圣无能胜金刚火陀罗尼经
+  date: '980'
+  year_of: 980
+  location: 开封译经院
+  description: 译佛在妙高山说金刚手调伏天龙部多宣说无能胜金刚火大陀罗尼一卷
 - id: guji-法天-event-death
+  title_zh: 卒于开封
   date: '1001'
   year_of: 1001
-  kind: death
-  title_zh: 咸平四年示寂
-  description: 宋真宗咸平四年卒于开封译业既成多罗救护法门流布中土天龙鬼神欢喜顶礼
+  location: 东京开封
+  description: 宋真宗咸平四年示寂于开封译业凡百余卷行于世
