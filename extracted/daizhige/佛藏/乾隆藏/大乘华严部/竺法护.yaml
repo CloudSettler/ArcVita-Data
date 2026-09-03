@@ -1,132 +1,144 @@
 person:
-  qid: guji-竺法护
+  qid: guji-zhu-fahu
   name_zh: 竺法护
   names:
     zh: 竺法护
     en: Dharmaraksha
   lifespan:
     birth:
-      date: '0231'
+      date: '0233'
       precision: year
       is_circa: true
-      raw: 约231年
+      raw: 约西晋初二三三年生于敦煌
     death:
       date: '0316'
       precision: year
-      is_circa: false
-      raw: 316年
-  birth_date: '0231'
+      is_circa: true
+      raw: 约西晋末三一六年卒于长安
+  birth_date: '0233'
   death_date: '0316'
   era: 西晋
-  reign_ref: 西晋武帝至愍帝
-  archetype: 译经高僧
+  reign_ref: 西晋武帝泰始至愍帝建兴年间
+  archetype: 译经僧
   dilemmas:
-  - 梵本难得而汉地渴仰，当西行求经抑或就地讲说
-  - 胡梵幽深与汉语悬隔，当直译存真抑或意译便俗
-  lesson: 以译经为度世之筏，广设方便令正法久住
-  summary_first_person: 吾本月氏裔家于敦煌，八岁出家师事竺高座，遍通西域三十六胡语，携大乘梵本归于长安洛阳，值西晋之世立译场度弟子，一生译正法华、度世品等百五十余部，愿以文字般若普济群生入普贤行海
+  - 梵本零散西域路险，当如何遍历诸国广求大乘典籍
+  - 译文当质朴存真还是文饰易晓，胡汉之间如何取舍
+  - 永嘉乱离道场不宁，当坚留中原还是随缘化导以存法脉
+  lesson: 博求精译不畏艰险，方能使深法自西而东渐备众德
+  summary_first_person: 吾本月氏后裔家世居敦煌，八岁出家师事高僧，游历西域三十六国携梵本百五十部而还，于长安洛阳译正法华等经百余部，此渐备一切智德经亦吾所译，虽遭乱世犹以弘传为任
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%8E%E4%B8%A5%E9%83%A8/%E5%BA%A6%E4%B8%96%E5%93%81%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%8E%E4%B8%A5%E9%83%A8/%E5%BA%A6%E4%B8%96%E5%93%81%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%8E%E4%B8%A5%E9%83%A8/%E6%B8%90%E5%A4%87%E4%B8%80%E5%88%87%E6%99%BA%E5%BE%B7%E7%BB%8F.md
 endeavors:
-- id: guji-竺法护-endeavor-1
-  title_zh: 西行求本与大乘译经
-  description: 自敦煌西行求得华严般若诸部梵本，归于长安洛阳主持译场，译出度世品经六卷等百余部，奠定西晋大乘译业
+- id: guji-zhu-fahu-endeavor-1
+  title_zh: 西行求法搜集梵本
+  summary_zh: 自敦煌出发遍历于阗龟兹等西域诸国，搜求大乘梵本凡一百五十余部，为后世译经奠定本源
   phases:
   - key: brewing
-    name: 少游西域求梵本
+    name: 敦煌出家博览
     labels:
-      zh: 求法
-    start_date: '0260'
-    highlight_event_id: guji-竺法护-event-seek
+      zh: 萌发
+    start_date: '0241-01-01'
+    highlight_event_id: guji-zhu-fahu-event-birth
   - key: breakthrough
-    name: 归洛始译正法华
+    name: 西域求经
     labels:
-      zh: 初译
-    start_date: '0266'
-    highlight_event_id: guji-竺法护-event-translate-lotus
+      zh: 突破
+    start_date: '0265-01-01'
+    highlight_event_id: guji-zhu-fahu-event-west
   - key: climax
-    name: 长安译度世品经
+    name: 携经东归
     labels:
       zh: 高峰
-    start_date: 0286
-    highlight_event_id: guji-竺法护-event-dushi
+    start_date: '0266-01-01'
+    highlight_event_id: guji-zhu-fahu-event-return
   - key: closure
-    name: 乱世守译法脉西传
+    name: 梵本整理授徒
     labels:
-      zh: 传续
-    start_date: '0311'
-    highlight_event_id: guji-竺法护-event-death
+      zh: 收束
+    start_date: '0280-01-01'
+    highlight_event_id: guji-zhu-fahu-event-zhengfahua
   decisions:
-  - date: '0266'
-    title_zh: 定居长安设译场首译正法华经
-    rationale: 华严般若义广，先以正法华立大乘信基，再次第译华严诸品以广度世之教
-  - date: 0286
-    title_zh: 分品别译度世品经六卷
-    rationale: 度世品即华严世间品，广明普贤十事行愿，别译成部便于学人渐入普贤行海
-- id: guji-竺法护-endeavor-2
-  title_zh: 建译场授徒与译体制范
-  description: 招聚竺法首等笔受沙门，创胡汉对译、口授笔受、义理训释之译场制度，广授门徒使佛学自河西达中原
+  - date: '0265-03-01'
+    title_zh: 决意西行于阗求法
+    rationale: 中土梵本阙少，欲得深经必亲往西域访求，虽路险不辞
+  - date: '0266-09-01'
+    title_zh: 舍安就危携经归国
+    rationale: 所得梵本若留西域则中土无缘，宁冒艰辛东归以广流布
+- id: guji-zhu-fahu-endeavor-2
+  title_zh: 译经弘传渐备华严
+  summary_zh: 定居长安洛阳组织译场，译出正法华光赞般若渐备一切智德等大乘要经，开华严大乘译传之先河
   phases:
   - key: brewing
-    name: 招徒立众习梵汉
+    name: 长安立场初译
     labels:
-      zh: 立众
-    start_date: '0267'
-    highlight_event_id: guji-竺法护-event-translate-lotus
+      zh: 筹备
+    start_date: '0268-01-01'
+    highlight_event_id: guji-zhu-fahu-event-return
   - key: breakthrough
-    name: 译场制度化
+    name: 正法华经成
     labels:
-      zh: 建制
-    start_date: 0280
-    highlight_event_id: guji-竺法护-event-dushi
+      zh: 显名
+    start_date: '0286-01-01'
+    highlight_event_id: guji-zhu-fahu-event-zhengfahua
   - key: climax
-    name: 四方学徒云集讲译
+    name: 渐备一切智德经译成
     labels:
-      zh: 盛化
-    start_date: 0290
-    highlight_event_id: guji-竺法护-event-dushi
+      zh: 极盛
+    start_date: '0290-01-01'
+    highlight_event_id: guji-zhu-fahu-event-jianbei
   - key: closure
-    name: 避永嘉乱隐渑池
+    name: 永嘉避乱犹勤译事
     labels:
-      zh: 隐传
-    start_date: '0311'
-    highlight_event_id: guji-竺法护-event-death
+      zh: 坚守
+    start_date: '0304-01-01'
+    highlight_event_id: guji-zhu-fahu-event-avoidchaos
   decisions:
-  - date: 0280
-    title_zh: 施行胡梵对译兼义理解说
-    rationale: 梵胡文义与汉语悬隔，兼存音义与训释方能既保经真又令汉地通晓
-  - date: '0311'
-    title_zh: 永嘉乱中坚持存护经本
-    rationale: 干戈离散当以法施安众，护持已译经典使后世不绝
+  - date: '0286-10-01'
+    title_zh: 采用质朴古译体
+    rationale: 宁存梵义本色不饰华藻，使学人得窥原典深义
+  - date: '0290-06-01'
+    title_zh: 先译华严系渐备经
+    rationale: 十地渐修乃大乘阶次，欲令中土知菩萨次第故优先颁宣
 events:
-- id: guji-竺法护-event-birth
+- id: guji-zhu-fahu-event-birth
   title_zh: 生于敦煌
-  date: '0231'
-  year_of: '0231'
-  description: 月氏后裔生于敦煌，八岁出家事竺高座为师，少以博闻强记见称
-  location: 敦煌
-- id: guji-竺法护-event-seek
-  title_zh: 西行求法携梵本归
-  date: '0260'
-  year_of: '0260'
-  description: 游历西域诸国，通三十六胡语，求得大乘梵本多部携归中土
-  location: 西域
-- id: guji-竺法护-event-translate-lotus
-  title_zh: 于长安定译正法华经
+  date: '0233-01-01'
+  year_of: '0233'
+  location_zh: 敦煌
+  description_zh: 月氏后裔生于敦煌，八岁出家
+- id: guji-zhu-fahu-event-west
+  title_zh: 西行于阗搜求梵本
+  date: '0265-06-01'
+  year_of: '0265'
+  location_zh: 于阗
+  description_zh: 遍历西域三十六国，搜得大乘梵本百五十余部
+- id: guji-zhu-fahu-event-return
+  title_zh: 携经还归长安
+  date: '0266-10-01'
+  year_of: '0266'
+  location_zh: 长安
+  description_zh: 负梵本来归，始于长安立译场聚众授译
+- id: guji-zhu-fahu-event-zhengfahua
+  title_zh: 译出正法华经
   date: '0286-09-10'
   year_of: 0286
-  description: 于长安译正法华经十卷，声名大振，竺法首等为笔受，开西晋译经高峰
-  location: 长安
-- id: guji-竺法护-event-dushi
-  title_zh: 译度世品经六卷
-  date: 0290
+  location_zh: 长安
+  description_zh: 于长安译正法华经十卷，奠定大乘经典中译规模
+- id: guji-zhu-fahu-event-jianbei
+  title_zh: 译渐备一切智德经五卷
+  date: '0290-06-01'
   year_of: 0290
-  description: 译出大乘华严部度世品经六卷，即华严世间品，与华严经世间品同本，广明菩萨十事行及普贤行愿
-  location: 长安
-- id: guji-竺法护-event-death
-  title_zh: 示寂于渑池
-  date: '0316'
+  location_zh: 长安
+  description_zh: 译出渐备一切智德经五卷，敷演菩萨十地渐修成一切智之德，属华严部初传
+- id: guji-zhu-fahu-event-avoidchaos
+  title_zh: 永嘉之乱避地弘化
+  date: '0304-03-01'
+  year_of: '0304'
+  location_zh: 渑池
+  description_zh: 西晋末乱离流徙，仍挟经卷辗转弘化不废译讲
+- id: guji-zhu-fahu-event-death
+  title_zh: 示寂
+  date: '0316-01-01'
   year_of: '0316'
-  description: 永嘉之乱后避地渑池，春秋八十余而寂，一生译经一百五十余部，为西晋第一译师
-  location: 渑池
+  location_zh: 长安
+  description_zh: 约于建兴末年示寂于长安，世寿八十余，译经一百五十余部传世

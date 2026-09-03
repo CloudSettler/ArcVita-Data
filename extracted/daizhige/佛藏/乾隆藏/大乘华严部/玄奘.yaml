@@ -1,0 +1,148 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602-04-06'
+      precision: year
+      is_circa: true
+      raw: 隋仁寿二年
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年正月
+  birth_date: '0602-04-06'
+  death_date: '0664-02-05'
+  era: 唐
+  reign_ref: 贞观
+  archetype: 求法译经者
+  dilemmas:
+  - title_zh: 安住讲经与冒死求法
+    description: 留长安受供养安稳讲经，抑或冒禁穿绝域西行求真经以决众疑
+  - title_zh: 隐修自了与译经利世
+    description: 归国后可入山隐修自了，抑或奉诏主持译场以毕生译经利他
+  lesson: 真求法当以不畏生死为勇，以译经利世为归，方显无边佛土庄严功德
+  summary_first_person: 吾少慕佛法，见中土经论阙疑，遂冒禁西行十七载遍历天竺亲承戒贤，归来奉诏译经一千三百余卷，此显无边佛土功德经亦为劝令众生信向净土而译。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘华严部/显无边佛土功德经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘华严部/显无边佛土功德经.html
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法
+  title_en: Pilgrimage to India
+  description: 为求经论圆旨自长安私出玉门关，西行五万里遍历那烂陀等处学瑜伽唯识
+  phases:
+  - key: brewing
+    name: 发愿西行
+    labels:
+      zh: 发愿
+    start_date: '0626-01-01'
+    highlight_event_id: guji-玄奘-event-departure
+  - key: breakthrough
+    name: 穿越绝域
+    labels:
+      zh: 突破
+    start_date: '0629-08-01'
+    highlight_event_id: guji-玄奘-event-departure
+  - key: climax
+    name: 那烂陀受学
+    labels:
+      zh: 高峰
+    start_date: '0631-02-15'
+    highlight_event_id: guji-玄奘-event-nalanda
+  - key: closure
+    name: 载经东归
+    labels:
+      zh: 收束
+    start_date: '0643-01-01'
+    highlight_event_id: guji-玄奘-event-return
+  decisions:
+  - date: '0629-08-01'
+    title_zh: 决意私自出关西行
+    rationale: 中土诸师说法不一，唯亲问道天竺方能决疑得真传
+  - date: '0631-02-01'
+    title_zh: 依止戒贤专学瑜伽
+    rationale: 那烂陀为阎浮法源，亲承戒贤可得唯识究竟
+- id: guji-玄奘-endeavor-2
+  title_zh: 译经弘法
+  title_en: Translation and Propagation
+  description: 归唐后奉太宗高宗诏主持长安译场，译出瑜伽师地论大般若等并译显无边佛土功德经
+  phases:
+  - key: brewing
+    name: 奉诏立译场
+    labels:
+      zh: 筹备
+    start_date: '0645-03-01'
+    highlight_event_id: guji-玄奘-event-return
+  - key: breakthrough
+    name: 弘福寺首译
+    labels:
+      zh: 突破
+    start_date: '0646-01-01'
+    highlight_event_id: guji-玄奘-event-translation-start
+  - key: climax
+    name: 显无边佛土功德经译出
+    labels:
+      zh: 高峰
+    start_date: '0658-06-01'
+    highlight_event_id: guji-玄奘-event-xianwubian
+  - key: closure
+    name: 译业圆满示寂
+    labels:
+      zh: 圆满
+    start_date: '0663-10-01'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: '0645-04-01'
+    title_zh: 奏请建译场系统翻译
+    rationale: 所携梵本六百余部，唯立译场聚众助译方能广利中土
+  - date: '0658-05-01'
+    title_zh: 择译显无边佛土功德经
+    rationale: 欲显佛土时分庄严渐增及佛寿无量，令众生欢喜信受发愿往生
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 生于洛州缑氏
+  date: '0602-04-06'
+  year_of: '0602'
+  location: 洛州缑氏
+  description: 隋仁寿二年生于陈氏家，幼聪慧出家精研经论
+- id: guji-玄奘-event-departure
+  title_zh: 私出玉门关西行
+  date: '0629-08-01'
+  year_of: 0629
+  location: 凉州玉门关
+  description: 贞观三年潜出玉门关，历莫贺延碛等绝域艰难西行
+- id: guji-玄奘-event-nalanda
+  title_zh: 抵那烂陀依戒贤学法
+  date: '0631-02-15'
+  year_of: '0631'
+  location: 天竺那烂陀寺
+  description: 依止戒贤论师五年，尽学瑜伽师地论等大乘要典，声誉遍五印
+- id: guji-玄奘-event-return
+  title_zh: 载经归长安
+  date: '0645-01-24'
+  year_of: '0645'
+  location: 长安弘福寺
+  description: 携梵本六百五十七部归国，太宗遣房玄龄郊迎，敕住弘福寺
+- id: guji-玄奘-event-translation-start
+  title_zh: 弘福寺开译场
+  date: '0646-01-01'
+  year_of: '0646'
+  location: 长安弘福寺
+  description: 奉敕于弘福寺大慈恩寺组织译场，召证义笔受等众分工译经
+- id: guji-玄奘-event-xianwubian
+  title_zh: 奉诏译显无边佛土功德经
+  date: '0658-06-01'
+  year_of: 0658
+  location: 长安大慈恩寺
+  description: 奉诏译出此经，宣说索诃世界一劫为极乐世界一昼夜等十不可说佛土递增，劝众受持往生净土
+- id: guji-玄奘-event-death
+  title_zh: 示寂于玉华宫
+  date: '0664-02-05'
+  year_of: '0664'
+  location: 京兆玉华宫
+  description: 麟德元年译大般若经毕，翌日示寂，寿六十三，葬浐水东白鹿原
