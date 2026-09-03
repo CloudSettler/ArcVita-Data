@@ -9,119 +9,130 @@ person:
       date: '0705'
       precision: year
       is_circa: false
-      raw: 唐中宗神龙元年
+      raw: 唐神龙元年北天竺生
     death:
-      date: '0774'
-      precision: year
+      date: '0774-06-15'
+      precision: day
       is_circa: false
-      raw: 唐代宗大历九年六月
+      raw: 唐大历九年六月示寂长安
   birth_date: '0705'
-  death_date: '0774'
+  death_date: '0774-06-15'
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
+  reign_ref: 开元至大历
   archetype: 密教译师
   dilemmas:
-  - 历三大阿僧祇劫苦行与秘密瑜伽速成佛法之间的抉择
-  - 奉诏译经利国与住山摄众专修之间的权衡
-  lesson: 秘密瑜伽须依真实阿阇梨受灌顶住大菩提心以三密相应方速证等觉若舍菩提心则失悉地
-  summary_first_person: 吾不空愍念求等觉者不知秘密速成之法故于金刚顶百千颂中略出毗卢遮那自性成就金刚王菩萨念诵仪轨奉诏译于大兴善寺令行者依师灌顶住菩提大悲四时念诵而速证萨婆若智
+  - 显教旧义与密教速疾成佛之争当如何抉择
+  - 王命翻译与山林静修之愿当如何两全
+  lesson: 发菩提心为先以大乐不空之行利乐无余有情方为真成就
+  summary_first_person: 吾不空自西域来华依止金刚智受两部灌顶奉三朝诏命译金刚顶普贤瑜伽大教集大乐金刚萨埵一切时方成就仪愿众生发菩提心即身成萨埵体
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/金刚王菩萨秘密念诵仪轨.md
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/金刚王菩萨秘密念诵仪轨.html
+  - https://daizhige.org/T1121.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T1121.md
 endeavors:
 - id: guji-不空-endeavor-1
-  person_qid: guji-不空
-  title_zh: 奉诏译金刚王菩萨秘密仪轨
-  description: 于金刚顶百千颂中略出毗卢遮那金刚界流出金刚王菩萨三密念诵仪轨令真言行速证等觉
+  title_zh: 译传金刚顶普贤瑜伽大教
+  summary_zh: 自金刚智受梵本奉诏译出金刚顶大乐不空金刚萨埵成就仪轨
   phases:
   - key: brewing
-    name: 从师受瑜伽法
+    name: 西来依止
     labels:
-      zh: 师承求法
+      zh: 习梵学密
     start_date: '0720'
-    highlight_event_id: guji-不空-event-study
+    highlight_event_id: guji-不空-event-arrival
   - key: breakthrough
-    name: 奉诏开译密藏
+    name: 受职译场
     labels:
-      zh: 译经
-    start_date: '0746'
+      zh: 通达悉昙
+    start_date: '0732'
+    highlight_event_id: guji-不空-event-initiation
+  - key: climax
+    name: 译出大乐仪
+    labels:
+      zh: 制轨传持
+    start_date: '1746'
     highlight_event_id: guji-不空-event-translate
   - key: closure
-    name: 仪轨成卷流通
+    name: 青龙流通
     labels:
-      zh: 成书
-    start_date: '0770'
+      zh: 书写传写
+    start_date: '0768-09-11'
     highlight_event_id: guji-不空-event-translate
   decisions:
-  - date: '0746'
-    title_zh: 略出百千颂为一卷念诵仪轨
-    rationale: 愍念行者不知秘密速成久滞苦行故以三密大印令速证如来等觉
-  - date: '0770'
-    title_zh: 系以四印五智成身次第
-    rationale: 令后学不依空解皆须通达曼荼罗画像灌顶息灾等法方免坠失
+  - date: '0732'
+    title_zh: 继金刚智主持译事
+    rationale: 师殁付嘱在先为令密教不断故承诏入宫专译密部
+  - date: '1746'
+    title_zh: 先译大乐不空仪轨
+    rationale: 见末世根钝欲令行者一切时方依萨埵观速除障获乐故
 - id: guji-不空-endeavor-2
-  person_qid: guji-不空
-  title_zh: 建坛弘化授四时念诵
-  description: 建立道场安置尊像授五部持明灌顶教四时乃至二时念诵与三摩地相应调伏有情
+  title_zh: 设坛灌顶传普贤瑜伽
+  summary_zh: 建曼荼罗安立十六尊四摄引众入坛结印诵持授萨埵身
   phases:
   - key: brewing
-    name: 简择师资立道场
+    name: 观心发愿
     labels:
-      zh: 建坛
-    start_date: '0750'
-    highlight_event_id: guji-不空-event-spread
+      zh: 菩提胜义
+    start_date: '0735'
+    highlight_event_id: guji-不空-event-initiation
+  - key: breakthrough
+    name: 安立圣众
+    labels:
+      zh: 布坛观尊
+    start_date: '1750'
+    highlight_event_id: guji-不空-event-mandala
   - key: climax
-    name: 授灌顶传三密行
+    name: 灌顶授法
     labels:
-      zh: 传法
-    start_date: '0765'
-    highlight_event_id: guji-不空-event-spread
+      zh: 灌顶护摩
+    start_date: '1756'
+    highlight_event_id: guji-不空-event-mandala
   - key: closure
-    name: 以菩提心摄众不倦
+    name: 付嘱护戒
     labels:
-      zh: 摄众
+      zh: 护三昧耶
     start_date: '0772'
-    highlight_event_id: guji-不空-event-spread
+    highlight_event_id: guji-不空-event-mandala
   decisions:
-  - date: '0750'
-    title_zh: 先简择通达金刚顶阿阇梨求灌顶
-    rationale: 若不解简择则自坠失故令生如来出现想奉献资具而咨问决疑
-  - date: '0765'
-    title_zh: 立四时念诵必不可阙
-    rationale: 令行者常与适悦三摩地相应住大悲回向等觉方所求善愿成就
+  - date: '1750'
+    title_zh: 示一切时方成就
+    rationale: 为令行住坐卧皆成本尊不局道场时节故说自心安立自身为本尊
+  - date: '0772'
+    title_zh: 严诫三昧耶戒
+    rationale: 未入曼荼罗擅结印诵必获罪垢故须先发心受灌方许修习
 events:
 - id: guji-不空-event-birth
-  person_qid: guji-不空
-  type: birth
+  title_zh: 诞生北天竺
   date: '0705'
   year_of: 705
-  title_zh: 生于西域
-  description: 唐神龙元年生后东入大唐从金刚智三藏学瑜伽密教
-- id: guji-不空-event-study
-  person_qid: guji-不空
-  type: career
+  place_zh: 北天竺
+  description_zh: 唐神龙元年生于北天竺婆罗门家幼慕佛法西行求法
+- id: guji-不空-event-arrival
+  title_zh: 至长安师事金刚智
   date: '0720'
   year_of: 720
-  title_zh: 从金刚智受五部灌顶
-  description: 师事金刚智通达金刚顶瑜伽晓悟曼荼罗画像灌顶四印等法
+  place_zh: 长安
+  description_zh: 唐开元八年随金刚智至长安受梵学悉昙及两部大法
+- id: guji-不空-event-initiation
+  title_zh: 受灌顶继译席
+  date: '0732'
+  year_of: 732
+  place_zh: 长安大兴善寺
+  description_zh: 金刚智示寂后奉诏继主持译事广弘金刚顶瑜伽教
 - id: guji-不空-event-translate
-  person_qid: guji-不空
-  type: career
-  date: '0770'
-  year_of: 770
-  title_zh: 大兴善寺译金刚王菩萨仪轨
-  description: 奉诏为开府仪同三司大广智三藏于大兴善寺略出金刚顶百千颂成秘密念诵仪轨一卷
-- id: guji-不空-event-spread
-  person_qid: guji-不空
-  type: career
-  date: '0772'
-  year_of: 772
-  title_zh: 建道场授四时念诵
-  description: 建立道场教行者礼四方如来修四无量观月轮金刚杵结根本印持百字明而住菩提心
+  title_zh: 译大乐不空金刚萨埵成就仪
+  date: '1756'
+  year_of: 1756
+  place_zh: 长安
+  description_zh: 译出金刚顶普贤瑜伽大教王经大乐不空金刚萨埵一切时方成就仪明发心观尊印咒供养次第
+- id: guji-不空-event-mandala
+  title_zh: 建曼荼罗传法灌顶
+  date: '1768-09-11'
+  year_of: 1768
+  place_zh: 西京青龙寺
+  description_zh: 门人依仪设坛安立本尊十六尊四摄四门护摩诵持大历三年僧愿力书写梵汉仪轨流通
 - id: guji-不空-event-death
-  person_qid: guji-不空
-  type: death
-  date: '0774'
+  title_zh: 示寂长安
+  date: '0774-06-15'
   year_of: 774
-  title_zh: 示寂于长安
-  description: 唐大历九年六月示寂于长安赠司空谥大鉴正号大广智
+  place_zh: 长安
+  description_zh: 唐大历九年六月示寂于长安谥大辨正广智不空三藏
