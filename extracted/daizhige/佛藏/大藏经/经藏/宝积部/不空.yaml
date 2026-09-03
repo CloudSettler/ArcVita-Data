@@ -6,136 +6,146 @@ person:
     en: Amoghavajra
   lifespan:
     birth:
-      date: 453
+      date: '0705'
+      precision: year
+      is_circa: true
+      raw: 唐神龙元年生于北天竺
+    death:
+      date: '0774'
       precision: year
       is_circa: false
-      raw: 唐神龙元年
-    death:
-      date: 0774-07-19
-      precision: day
-      is_circa: false
-      raw: 唐大历九年六月十五日
-  birth_date: 453
-  death_date: 0774-07-19
+      raw: 唐大历九年卒于长安大兴善寺
+  birth_date: '0705'
+  death_date: '0774'
   era: 唐
-  reign_ref: 唐代宗
-  archetype: 译经弘法者
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 密教传弘高僧
   dilemmas:
-  - title_zh: 密法深奥难传与显教普化之抉择
-    description_zh: 如何在华土既严持密教仪轨嫡传又兼弘显教礼忏使群机普得度脱
-  - title_zh: 依国主护持与守沙门律仪之两难
-    description_zh: 既受玄宗肃宗代宗三朝礼遇主持道场又须持戒离俗不染权位名利
-  lesson: 以密教仪轨摄持身心以礼忏愿力净除业障则显密圆通护国利民
-  summary_first_person: 吾名不空幼随叔父至唐师事金刚智受两部大法灌顶后住大兴善寺奉诏译经百余卷又出乌波离所问经中三十五佛名并忏悔法劝人六时礼忏以净业障满足禅定解脱
+  - 密法深秘难传与普济群生之衡
+  - 朝廷倚重国师与山林专修之择
+  lesson: 以大悲为本以正译为务持密护国利乐有情
+  summary_first_person: 吾幼失怙随叔东来，得遇金刚智师亲授灌顶，远涉狮子国求法，归国奉诏译经弘密，一生唯愿庄严佛刹饶益有情，不负师恩与圣恩。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%B8%89%E5%8D%81%E4%BA%94%E4%BD%9B%E5%90%8D%E7%A4%BC%E5%BF%8F%E6%96%87.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%B8%89%E5%8D%81%E4%BA%94%E4%BD%9B%E5%90%8D%E7%A4%BC%E5%BF%8F%E6%96%87.html
+  - https://daizhige.org/daizhigev20/blob/data/佛刹功德庄严经.html
+  - https://zh.wikisource.org/wiki/大聖文殊師利菩薩佛剎功德莊嚴經
 endeavors:
 - id: guji-不空-endeavor-1
-  person_id: guji-不空
-  title_zh: 师承金刚智传持密教主持译场
-  description_zh: 自南天竺随师入唐受灌顶承付法继席大兴善寺奉三朝诏命译出密教经典建立灌顶道场护国祈福
+  title_zh: 承金刚智弘传密教
+  summary_zh: 少年随侍金刚智，受五部灌顶，赴狮子国求法，归国设坛灌顶，奠定唐密传弘之基。
   phases:
   - key: brewing
-    name: 随叔东来初见金刚智
+    name: 洛阳随侍
     labels:
-      zh: 入唐求法
+      zh: 随师学法
     start_date: 0719
-    highlight_event_id: guji-不空-event-arrival
+    highlight_event_id: guji-不空-event-0719
   - key: breakthrough
-    name: 受灌顶承付法继席
+    name: 受法灌顶
     labels:
-      zh: 密付嫡传
-    start_date: 481
-    highlight_event_id: guji-不空-event-initiation
+      zh: 得传密法
+    start_date: '0724'
+    highlight_event_id: guji-不空-event-0741
   - key: climax
-    name: 住大兴善寺开译场
+    name: 南海求法归国
     labels:
-      zh: 奉诏译经
-    start_date: 494
-    highlight_event_id: guji-不空-event-translation
+      zh: 求法弘化
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-0746
   - key: closure
-    name: 三朝国师功成示寂
+    name: 长安设坛传法
     labels:
-      zh: 护国利民
-    start_date: 0774-07-19
-    highlight_event_id: guji-不空-event-death
+      zh: 广度君臣
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-0746
   decisions:
-  - date: 481
-    title_zh: 决意留唐绍隆密法
-    rationale: 感金刚智示寂付嘱发愿不归南天以报师恩广利华土
-  - date: 494
-    title_zh: 乱后仍住京师译经祈福
-    rationale: 以密法护国镇难安抚人心故不避安史危难
+  - date: 0719
+    title_zh: 决意随金刚智东行学密
+    rationale: 见师德盛行愿深远，欲以密法利乐此土，故舍乡井从师入华。
+  - date: '0741'
+    title_zh: 决意泛海赴狮子国求法
+    rationale: 密藏未备传承须全，为绍隆师门故不惧风涛亲往取经受灌。
 - id: guji-不空-endeavor-2
-  person_id: guji-不空
-  title_zh: 译出三十五佛名礼忏文劝六时礼忏
-  description_zh: 依乌波离所问经出三十五佛名并忏悔法详陈自作教他随喜诸罪及偷盗三宝物五无间等皆须对佛诚心发露并以施食持戒梵行善根回向菩提
+  title_zh: 奉诏译经庄严佛刹
+  summary_zh: 历肃代两朝奉诏译经百余部，宣说菩萨净土庄严，成大圣文殊师利菩萨佛刹功德庄严经等，以正译导群迷。
   phases:
   - key: brewing
-    name: 研寻乌波离所问经本
+    name: 奉诏入宫译场
     labels:
-      zh: 探求忏法
-    start_date: 481
-    highlight_event_id: guji-不空-event-initiation
+      zh: 奉诏开译
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-0746
   - key: breakthrough
-    name: 奉诏定三十五佛名义
+    name: 大兴善寺开坛译经
     labels:
-      zh: 奉诏敷演
-    start_date: 0769
-    highlight_event_id: guji-不空-event-translation
+      zh: 专精传译
+    start_date: '0756'
+    highlight_event_id: guji-不空-event-0756
   - key: climax
-    name: 宣示六时礼忏功德
+    name: 译出文殊佛刹庄严经
     labels:
-      zh: 普劝礼忏
-    start_date: 0769
-    highlight_event_id: guji-不空-event-translation
+      zh: 弘宣净刹
+    start_date: '0770'
+    highlight_event_id: guji-不空-event-0770
   - key: closure
-    name: 略记天竺行法传后世
+    name: 付嘱门人护持教法
     labels:
-      zh: 垂范后学
-    start_date: 0774-07-19
+      zh: 付法示寂
+    start_date: '0774'
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: 0769
-    title_zh: 依天竺所行略记忏法
-    rationale: 以五天竺大乘人常于六时礼忏不阙功德广大故删繁撮要以便华人修持
-  - date: 0769
-    title_zh: 示现生满足禅定解脱之益
-    rationale: 令知能净业障重罪者现生所求皆能满足故劝一切至心归礼
+  - date: '0756'
+    title_zh: 决意于大兴善寺专场译经
+    rationale: 安史扰攘人心须安，唯正法住世可镇国安民，故立译场广出密典。
+  - date: '0770'
+    title_zh: 决意译弘文殊净刹功德
+    rationale: 悯念末世众生愿求净土，欲令知菩萨大悲本愿庄严，故详译佛刹功德流通十方。
 events:
 - id: guji-不空-event-birth
-  person_id: guji-不空
-  title_zh: 不空诞生于南天竺
-  date: 453
+  date: '0705'
   year_of: 705
-  place_zh: 南天竺
-  description_zh: 唐神龙元年生于南天竺婆罗门家幼失怙依叔父观军容使
-- id: guji-不空-event-arrival
-  person_id: guji-不空
-  title_zh: 随师金刚智入唐至长安
+  type: birth
+  title_zh: 生于北天竺豪族之家
+  place_zh: 北天竺
+  description_zh: 唐神龙元年约生，幼失父，随叔父至华，宿缘深厚志在求法。
+- id: guji-不空-event-0719
   date: 0719
   year_of: 719
-  place_zh: 长安
-  description_zh: 年十五随叔父至唐遇金刚智遂执弟子礼随侍学密
-- id: guji-不空-event-initiation
-  person_id: guji-不空
-  title_zh: 受两部灌顶承付法
-  date: 481
+  type: career
+  title_zh: 洛阳遇金刚智执弟子礼
+  place_zh: 洛阳
+  description_zh: 金刚智携弟子东来，十五岁即随侍左右，执役洒扫，始闻金刚乘教法。
+- id: guji-不空-event-0741
+  date: '0741'
   year_of: 741
-  place_zh: 洛阳广福寺
-  description_zh: 金刚智示寂前授以两部大法灌顶付以金刚界大曼荼罗继为密宗第六祖
-- id: guji-不空-event-translation
-  person_id: guji-不空
-  title_zh: 奉诏译三十五佛名礼忏文
-  date: 0769
-  year_of: 769
+  type: career
+  title_zh: 泛海赴狮子国求受灌顶
+  place_zh: 狮子国
+  description_zh: 师命南行取经，历南海诸国，亲近普贤阿阇梨，受一切如来大悲胎藏法，尽得密藏。
+- id: guji-不空-event-0746
+  date: '0746'
+  year_of: 746
+  type: career
+  title_zh: 归国奉玄宗诏弘化长安
+  place_zh: 长安
+  description_zh: 携经论至长安，奉诏止大兴善寺，设灌顶道场，为帝后臣民授法，唐密大兴。
+- id: guji-不空-event-0756
+  date: '0756'
+  year_of: 756
+  type: career
+  title_zh: 肃宗朝开译场广译密经
   place_zh: 长安大兴善寺
-  description_zh: 奉诏出乌波离所问经中三十五佛名自释迦牟尼佛至宝莲花妙住山王佛并具陈忏悔回向发愿仪轨
+  description_zh: 加号开府仪同三司，奉诏译经不辍，兼行息灾护国之法，安抚时艰。
+- id: guji-不空-event-0770
+  date: '0770'
+  year_of: 770
+  type: career
+  title_zh: 译出大圣文殊师利菩萨佛刹功德庄严经
+  place_zh: 长安
+  description_zh: 奉代宗诏译出此经，明文殊本愿与寂静调伏音声如来净刹庄严，流通宝积部中。
 - id: guji-不空-event-death
-  person_id: guji-不空
-  title_zh: 示寂于长安大兴善寺
-  date: 0774-07-19
+  date: '0774'
   year_of: 774
+  type: death
+  title_zh: 示寂于大兴善寺
   place_zh: 长安大兴善寺
-  description_zh: 唐大历九年六月十五日示寂年七十赠司空谥大鉴正号大广智
+  description_zh: 大历九年六月示寂，年七十，赠司空，谥大辩正广智，门人惠果等继弘密教。
