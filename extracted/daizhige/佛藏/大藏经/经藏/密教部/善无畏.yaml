@@ -6,149 +6,132 @@ person:
     en: Subhakarasimha
   lifespan:
     birth:
-      date: 0637-01-01
+      date: '0637'
       precision: year
       is_circa: false
-      raw: 贞观十一年
+      raw: 贞观十一年中天竺
     death:
-      date: 0735-12-01
-      precision: month
+      date: '0735'
+      precision: year
       is_circa: false
-      raw: 开元二十三年冬
-  birth_date: 0637-01-01
-  death_date: 0735-12-01
+      raw: 开元二十三年长安
+  birth_date: '0637'
+  death_date: '0735'
   era: 唐
   reign_ref: 唐玄宗开元
-  archetype: 传密译经高僧
+  archetype: 密教译经弘法师
   dilemmas:
-  - 舍王位而出家求无上道
-  - 密法宜秘传还是普化群生
-  - 异域弘法安身立命之艰
-  lesson: 以菩提心为因大悲为根方便为究竟持五字真言即转业障出三界
-  summary_first_person: 吾善无畏本中天竺王族子舍国出家遍学显密后奉诏入唐译大日经等开密教之宗弘五字真言愿一切众生破地狱转业障同证菩提
+  - 密法深奥难信须防小乘疑谤如何授受得宜
+  - 梵本浩繁当如何撮要摄入五字令人速证悉地
+  lesson: 以阿鑁览唅欠五字摄五部五藏持诵即破地狱转业障出三界
+  summary_first_person: 我是善无畏中天竺人奉诏入唐译大日经与尊胜心陀罗尼以五字真言开五藏曼荼罗愿持诵者同入总持出离三界
   source_urls:
-  - https://daizhige.org/三种悉地破地狱转业障出三界秘密陀罗尼法.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/三种悉地破地狱转业障出三界秘密陀罗尼法.md
+  - https://daizhige.org/CBETA/T0907.html
+  - https://github.com/daizhige-org/daizhigev20
 endeavors:
 - id: guji-善无畏-endeavor-1
-  title_zh: 天竺出家遍学瑜伽密法
-  summary: 舍王位出家于那烂陀及南印度从达摩掬多等学密历游乌苌奠定胎藏金刚两部传承
+  title_zh: 入唐译传密教经典
+  description: 开元初奉诏至洛阳长安译大毗卢遮那成佛神变加持经等奠定唐密根本
   phases:
   - key: brewing
-    name: 舍国出家初学
+    name: 中天竺学法
     labels:
-      zh: 出家求法
-    start_date: 0650-01-01
-    highlight_event_id: guji-善无畏-event-renunciation
+      zh: 酝酿
+    start_date: '0637'
+    highlight_event_id: guji-善无畏-event-birth
   - key: breakthrough
-    name: 南天学密得灌顶
+    name: 奉诏入唐
     labels:
-      zh: 学密受灌
-    start_date: 0668-01-01
-    highlight_event_id: guji-善无畏-event-study-mantra
+      zh: 突破
+    start_date: '0716'
+    highlight_event_id: guji-善无畏-event-arrival
   - key: climax
-    name: 游化西域声名显
+    name: 译大日经弘瑜伽
     labels:
-      zh: 游化弘化
-    start_date: 0705-01-01
-    highlight_event_id: guji-善无畏-event-west-travel
+      zh: 高潮
+    start_date: '0724'
+    highlight_event_id: guji-善无畏-event-translate-dari
   - key: closure
-    name: 应请东行发愿利汉土
+    name: 化毕示寂
     labels:
-      zh: 东行发愿
-    start_date: 0715-01-01
-    highlight_event_id: guji-善无畏-event-arrival-changan
-  decisions:
-  - date: 0650-01-01
-    title_zh: 让王位与弟出家学道
-    rationale: 厌世无常愿求解脱故舍俗荣入佛门
-  - date: 0668-01-01
-    title_zh: 亲近达摩掬多受密灌顶
-    rationale: 为得瑜伽真髓须依师传持三密相应
-- id: guji-善无畏-endeavor-2
-  title_zh: 入唐译经开立密宗弘五字法
-  summary: 开元四年抵长安蒙玄宗礼遇与一行等译大日经虚空藏经及三种悉地法弘阿鑁览唅欠五字观
-  phases:
-  - key: brewing
-    name: 抵达长安蒙礼
-    labels:
-      zh: 入唐
-    start_date: 0716-01-01
-    highlight_event_id: guji-善无畏-event-arrival-changan
-  - key: breakthrough
-    name: 译大日经建道场
-    labels:
-      zh: 译经
-    start_date: 0725-01-01
-    highlight_event_id: guji-善无畏-event-translate-vairocana
-  - key: climax
-    name: 传三种悉地五字真言
-    labels:
-      zh: 传法
-    start_date: 0728-01-01
-    highlight_event_id: guji-善无畏-event-translate-sanzhongxidi
-  - key: closure
-    name: 示寂荼毗建塔
-    labels:
-      zh: 示寂
-    start_date: 0735-01-01
+      zh: 收束
+    start_date: '0735'
     highlight_event_id: guji-善无畏-event-death
   decisions:
-  - date: 0716-01-01
-    title_zh: 应唐请入长安弘法
-    rationale: 为令密教东传满众生愿故不辞远涉
-  - date: 0725-01-01
-    title_zh: 与一行合译大毗卢遮那经
-    rationale: 以华梵兼通道俗方能建立曼荼罗行法
-  - date: 0728-01-01
-    title_zh: 译说三种悉地破地狱法
-    rationale: 欲令末世众生持五字真言转业障出三界故略述千条中要妙
+  - date: '0716'
+    title_zh: 应请东来传密法
+    rationale: 以毗卢遮那付嘱弘大悲胎藏令东土得闻秘密悉地
+  - date: '0724'
+    title_zh: 与一行共译大日经
+    rationale: 采集梵本要妙立理事具足之宗使后学有所依
+- id: guji-善无畏-endeavor-2
+  title_zh: 传佛顶尊胜心破地狱法
+  description: 译说五字秘密陀罗尼以阿鑁览唅欠配五部五佛五藏令诵者除殃益寿镇国安民
+  phases:
+  - key: brewing
+    name: 集毗卢遮那金刚顶要妙
+    labels:
+      zh: 酝酿
+    start_date: '0724'
+    highlight_event_id: guji-善无畏-event-translate-dari
+  - key: breakthrough
+    name: 说五字五部观
+    labels:
+      zh: 突破
+    start_date: '0725'
+    highlight_event_id: guji-善无畏-event-translate-zunsheng
+  - key: climax
+    name: 立三种悉地成就次第
+    labels:
+      zh: 高潮
+    start_date: '0725'
+    highlight_event_id: guji-善无畏-event-translate-zunsheng
+  - key: closure
+    name: 付嘱护国利民之用
+    labels:
+      zh: 收束
+    start_date: '0735'
+    highlight_event_id: guji-善无畏-event-death
+  decisions:
+  - date: '0725'
+    title_zh: 以五字摄四十万偈义
+    rationale: 使日诵一遍即同转藏经百万遍下根亦得大益
+  - date: '0725'
+    title_zh: 密付菩萨不妄示小乘
+    rationale: 恐不解运用反生疑谤故简器传授护其善根
 events:
 - id: guji-善无畏-event-birth
-  date: 0637-01-01
-  year_of: 637
-  title_zh: 生于中天竺王族
-  description: 生于中天竺刹帝利王族为太子
+  title_zh: 生于中天竺
+  date: '0637'
+  year_of: '0637'
+  type: birth
   place_zh: 中天竺
-- id: guji-善无畏-event-renunciation
-  date: 0650-01-01
-  year_of: 650
-  title_zh: 舍位出家
-  description: 让位于弟出家学佛遍参那烂陀诸师
-  place_zh: 那烂陀
-- id: guji-善无畏-event-study-mantra
-  date: 0668-01-01
-  year_of: 668
-  title_zh: 南印度受密法灌顶
-  description: 从达摩掬多受瑜伽密教胎藏法门
-  place_zh: 南天竺
-- id: guji-善无畏-event-west-travel
-  date: 0705-01-01
-  year_of: 705
-  title_zh: 历乌苌大弘密化
-  description: 经乌苌等地弘化声望遍西域
-  place_zh: 乌苌国
-- id: guji-善无畏-event-arrival-changan
-  date: 0716-01-01
-  year_of: 716
-  title_zh: 抵长安受玄宗礼遇
-  description: 开元四年至长安帝迎于南薰门置菩提院
-  place_zh: 长安
-- id: guji-善无畏-event-translate-vairocana
-  date: 0725-01-01
-  year_of: 725
-  title_zh: 译大毗卢遮那成佛神变加持经
-  description: 与一行等共译大日经确立密宗胎藏体系
+  description: 贞观十一年生于中天竺刹帝利种少出家学大小乘兼通密藏
+- id: guji-善无畏-event-arrival
+  title_zh: 开元初抵洛阳奉诏译经
+  date: '0716'
+  year_of: '0716'
+  type: career
+  place_zh: 洛阳长安
+  description: 开元四年至长安洛阳玄宗礼遇敕于南内译经弘化
+- id: guji-善无畏-event-translate-dari
+  title_zh: 与一行译大毗卢遮那经
+  date: '0724'
+  year_of: '0724'
+  type: career
   place_zh: 长安大荐福寺
-- id: guji-善无畏-event-translate-sanzhongxidi
-  date: 0728-01-01
-  year_of: 728
-  title_zh: 译三种悉地破地狱秘密陀罗尼法
-  description: 奉诏译出五字真言观门明五脏五轮破地狱出三界之旨
+  description: 与沙门一行等译大日经七卷确立胎藏金刚两部密法宗纲
+- id: guji-善无畏-event-translate-zunsheng
+  title_zh: 译佛顶尊胜心破地狱陀罗尼
+  date: '0725'
+  year_of: '0725'
+  type: career
   place_zh: 长安
+  description: 奉诏译出五字秘密陀罗尼明五部五佛五藏观及出入秘密三悉地兼示镇国息灾护民之法
 - id: guji-善无畏-event-death
-  date: 0735-12-01
-  year_of: 735
-  title_zh: 示寂于长安
-  description: 开元二十三年示寂年九十九赠鸿胪卿谥大弘教三藏
+  title_zh: 开元末示寂于长安
+  date: '0735'
+  year_of: '0735'
+  type: death
   place_zh: 长安
+  description: 开元二十三年十月寂于长安年九十九赠鸿胪卿谥大圣国师
