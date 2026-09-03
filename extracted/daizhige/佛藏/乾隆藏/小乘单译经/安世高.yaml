@@ -6,140 +6,127 @@ person:
     en: An Shigao
   lifespan:
     birth:
-      date: 0090
+      date: 0100-01-01
       precision: year
       is_circa: true
-      raw: 约一世纪前期生于安息国王族生年不详
+      raw: 约生于安息国王室后汉初年
     death:
-      date: 0168
+      date: 0168-01-01
       precision: year
       is_circa: true
-      raw: 约汉灵帝建宁元年卒于江南会稽
-  birth_date: 0090
-  death_date: 0168
-  era: 后汉
-  reign_ref: 汉桓帝永寿至汉灵帝建宁
-  archetype: 舍位求法的译经弘化者
+      raw: 约卒于会稽汉灵帝建宁年间
+  birth_date: 0100-01-01
+  death_date: 0168-01-01
+  era: 东汉
+  reign_ref: 汉桓帝至汉灵帝
+  archetype: 译经开创者
   dilemmas:
-  - 舍王位富贵而远赴异域弘法与安享国土之抉择
-  - 面对谤毁道根之浅伪轻薄言论以忍辱慈心化导与奋起争辩之抉择
-  lesson: 以忍为先持心如清水布施种福慎勿卜问邪疑福自归身
-  summary_first_person: 吾本安息王子舍国出家东来洛阳三十余年专译禅数之经宣说忍辱布施坚意之道愿众生罪灭福生正法久住
+  - 王位继承与出家求道之间的抉择
+  - 安息佛法深厚与震旦众生未闻法之间的牵挂
+  lesson: 舍弃王位而译经度人受尘之累皆由贪染当以觉照断除
+  summary_first_person: 吾本安息太子让国出家游学西域后泛海东来越岭入洛译出法受尘等经劝人远离色声香味细滑之染以求无上吉祥之道
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9D%9A%E6%84%8F%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9D%9A%E6%84%8F%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8F%97%E5%B0%98%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8F%97%E5%B0%98%E7%BB%8F.md
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 东来洛阳开创汉地译经
-  summary: 永寿年间抵达洛阳译出安般守意等禅数经典开汉地译经先河
+  title_zh: 东来洛阳首译小乘禅数经
+  summary: 自安息让国出家东游洛阳译出安般守意阴持入法受尘等经开汉地译经之先
   phases:
   - key: brewing
-    name: 舍国出家立志东弘
+    name: 让国出家游学
     labels:
-      zh:
-      - 舍位求法
-    start_date: 0148
+      zh: 安息让国
+    start_date: 0140-01-01
+    highlight_event_id: guji-安世高-event-birth
+  - key: breakthrough
+    name: 建和初至洛阳
+    labels:
+      zh: 初至洛阳
+    start_date: 0148-01-01
     highlight_event_id: guji-安世高-event-arrive
-  - key: breakthrough
-    name: 寄居洛阳初译禅经
-    labels:
-      zh:
-      - 初译立基
-    start_date: 0149
-    highlight_event_id: guji-安世高-event-translate
   - key: climax
-    name: 广译小乘经典化导华夏
+    name: 译出法受尘经
     labels:
-      zh:
-      - 译经弘化
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-jianyi
+      zh: 译法受尘
+    start_date: 0150-01-01
+    highlight_event_id: guji-安世高-event-translate
   - key: closure
-    name: 译业垂成南下传法
+    name: 译业初成流布
     labels:
-      zh:
-      - 南下继弘
-    start_date: '0167'
-    highlight_event_id: guji-安世高-event-south
+      zh: 初译流布
+    start_date: 0155-01-01
+    highlight_event_id: guji-安世高-event-translate
   decisions:
-  - date: 0148
-    title_zh: 让国出家远赴汉土
-    rationale: 不恋王位以弘法利生为先故航海东来寄居洛阳
-  - date: 0149
-    title_zh: 先译禅数安般之学
-    rationale: 华人初闻佛法当以数息禅观摄心故先译安般守意为入门
+  - date: 0147-01-01
+    title_zh: 舍太子位东行译经
+    rationale: 见震旦众生受尘自污欲以佛法觉照救度故不恋王位而远涉
+  - date: 0148-01-01
+    title_zh: 定居洛阳专事翻译
+    rationale: 洛阳为都下士人多未闻禅法当先译小乘切近之经以立根基
 - id: guji-安世高-endeavor-2
-  title_zh: 宣说坚意忍辱布施之道
-  summary: 译说坚意经教人以忍为先持心如水火帚布施种福不惑邪卜
+  title_zh: 传授安般禅观教化江淮
+  summary: 译经之余教授禅法南下传道豫扬会稽以身示范因果感应之事
   phases:
   - key: brewing
-    name: 观察世人谤毁道根
+    name: 洛阳教授禅法
     labels:
-      zh:
-      - 怜伤世人
-    start_date: '0150'
+      zh: 教授禅法
+    start_date: 0152-01-01
     highlight_event_id: guji-安世高-event-translate
   - key: breakthrough
-    name: 宣说忍辱如水火帚之喻
+    name: 避乱南下江淮
     labels:
-      zh:
-      - 忍辱化怨
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-jianyi
-  - key: climax
-    name: 劝行布施斋日设供然灯闻法
-    labels:
-      zh:
-      - 布施种福
-    start_date: '0155'
-    highlight_event_id: guji-安世高-event-preach
-  - key: closure
-    name: 嘱付受持读诵得福流通
-    labels:
-      zh:
-      - 流通得福
-    start_date: '0167'
+      zh: 南下避乱
+    start_date: 0166-01-01
     highlight_event_id: guji-安世高-event-south
+  - key: climax
+    name: 会稽传道感应
+    labels:
+      zh: 会稽传道
+    start_date: 0167-01-01
+    highlight_event_id: guji-安世高-event-south
+  - key: closure
+    name: 示寂会稽道化存续
+    labels:
+      zh: 示寂存化
+    start_date: 0168-01-01
+    highlight_event_id: guji-安世高-event-death
   decisions:
-  - date: '0152'
-    title_zh: 以忍辱慈心化谤不嗔
-    rationale: 杀谤笑坏皆不生嗔但以慈心正意令邪不入正万恶消烂
-  - date: '0155'
-    title_zh: 劝破悭布施斋日闻经
-    rationale: 种善得福如种谷随种而生布施然灯可攘祸灭怪终无怨恶
+  - date: 0166-01-01
+    title_zh: 值中原多事南迁传法
+    rationale: 中原多事难以久住当避乱南方随缘度众使法受不绝
+  - date: 0167-01-01
+    title_zh: 以神异明因果劝善
+    rationale: 南方信谶当显宿命因缘令知受尘之苦皆自业招以生敬信
 events:
 - id: guji-安世高-event-birth
-  title_zh: 生于安息王族
-  date: 0090
-  year_of: 90
-  description: 生于安息国王族为太子少好学博晓经术让国出家
+  title_zh: 诞生于安息国王室
+  date: 0100-01-01
+  year_of: 100
+  place_zh: 安息国
+  summary: 安息国太子生天性聪敏博通经论让国出家
 - id: guji-安世高-event-arrive
-  title_zh: 抵达洛阳
-  date: 0148
+  title_zh: 建和二年至洛阳
+  date: 0148-01-01
   year_of: 148
-  description: 汉桓帝永寿年间抵达洛阳寄居传译开始汉地译经事业
+  place_zh: 洛阳
+  summary: 汉桓帝建和二年至洛阳通习汉语首开译经之业
 - id: guji-安世高-event-translate
-  title_zh: 初译安般守意等经
-  date: 0149
-  year_of: 149
-  description: 在洛阳译出安般守意阴持入等经开禅数之学
-- id: guji-安世高-event-jianyi
-  title_zh: 译出佛说坚意经
-  date: '0152'
-  year_of: 152
-  description: 译出坚意经宣说佛在舍卫祇园告阿难以忍为先布施种福之法
-- id: guji-安世高-event-preach
-  title_zh: 劝化布施斋日闻法
-  date: '0155'
-  year_of: 155
-  description: 劝勉四辈白衣斋日设供请召贤者高座讲经烧香然灯光明达天
+  title_zh: 译出佛说法受尘经等
+  date: 0150-01-01
+  year_of: 150
+  place_zh: 洛阳
+  summary: 于洛阳译出法受尘经言男女相贪受尘自污当觉知远离以求无上吉祥众皆欢喜受行
 - id: guji-安世高-event-south
-  title_zh: 南下江南传法
-  date: '0167'
+  title_zh: 南下豫扬至会稽传法
+  date: 0167-01-01
   year_of: 167
-  description: 避汉末纷扰南下豫章会稽一带游化传法
+  place_zh: 会稽
+  summary: 避中原之乱南游传授禅法定慧度众显因果感应
 - id: guji-安世高-event-death
-  title_zh: 卒于会稽
-  date: 0168
+  title_zh: 示寂于会稽
+  date: 0168-01-01
   year_of: 168
-  description: 约汉灵帝建宁元年卒于会稽译经三十余载存经三十四部
+  place_zh: 会稽
+  summary: 卒于会稽译经三十余部道化存于江左
