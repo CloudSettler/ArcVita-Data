@@ -1,0 +1,138 @@
+person:
+  qid: guji-管仲
+  name_zh: 管仲
+  names:
+    zh: 管仲
+    en: Guan Zhong
+  lifespan:
+    birth:
+      date: '-0725'
+      precision: year
+      is_circa: true
+      raw: 约公元前725年
+    death:
+      date: '-0645'
+      precision: year
+      is_circa: false
+      raw: 公元前645年
+  birth_date: '-0725'
+  death_date: '-0645'
+  era: 春秋
+  reign_ref: 齐桓公
+  archetype: 霸辅名相
+  dilemmas:
+  - 射桓公中钩之后是以小节自拘还是以天下大功自显
+  - 尊王攘夷与务实富强之间如何兼顾礼义与功利
+  lesson: 治国当以安民为本，举贤不避仇，参国伍鄙，通货积财，方能一匡天下
+  summary_first_person: 吾少困穷，与鲍叔分财谋事，知我者鲍叔也；囚而见用于桓公，参其国伍其鄙，作内政寄军令，九合诸侯，一匡天下，不以小节易大名
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/春秋臣传.md
+  - https://ctext.org/person/guan-zhong
+endeavors:
+- id: guji-管仲-endeavor-1
+  title_zh: 辅桓定霸
+  summary_zh: 释私怨辅齐桓，尊王攘夷，九合诸侯成霸业
+  phases:
+  - key: brewing
+    name: 鲍叔举荐囚而待用
+    labels:
+      zh: 举贤
+    start_date: -0686
+    highlight_event_id: guji-管仲-event-release
+  - key: breakthrough
+    name: 堂阜三衅拜相号仲父
+    labels:
+      zh: 得位
+    start_date: -0685
+    highlight_event_id: guji-管仲-event-appointed
+  - key: climax
+    name: 葵丘会盟一匡天下
+    labels:
+      zh: 称霸
+    start_date: '-0651'
+    highlight_event_id: guji-管仲-event-kuiqiu
+  - key: closure
+    name: 霸业既成荐贤而退
+    labels:
+      zh: 托后
+    start_date: '-0646'
+    highlight_event_id: guji-管仲-event-kuiqiu
+  decisions:
+  - date: -0686
+    title_zh: 受桓公赦宥出仕
+    rationale: 不羞幽囚小节，以显名天下为耻，择明君以行大道
+  - date: '-0651'
+    title_zh: 劝桓公主盟以礼
+    rationale: 霸必假仁义，尊周王以令诸侯，名正方能长久
+- id: guji-管仲-endeavor-2
+  title_zh: 内政富国强兵
+  summary_zh: 参国伍鄙，寄军于政，修法令通货财以富民强国
+  phases:
+  - key: brewing
+    name: 参国伍鄙构想
+    labels:
+      zh: 设制
+    start_date: -0685
+    highlight_event_id: guji-管仲-event-reform
+  - key: breakthrough
+    name: 内政寄军令施行
+    labels:
+      zh: 施行
+    start_date: -0684
+    highlight_event_id: guji-管仲-event-reform
+  - key: climax
+    name: 通货积财四民归业
+    labels:
+      zh: 富国
+    start_date: -0680
+    highlight_event_id: guji-管仲-event-reform
+  - key: closure
+    name: 礼义教化渐立
+    labels:
+      zh: 成治
+    start_date: '-0650'
+    highlight_event_id: guji-管仲-event-reform
+  decisions:
+  - date: -0685
+    title_zh: 四民分居定业
+    rationale: 士就闲燕工商就市井农就田野，少习则心安定能成教
+  - date: -0684
+    title_zh: 作内政寄军令
+    rationale: 五家为轨十轨为里四里为连，寓兵于民，平时为民战时为兵
+events:
+- id: guji-管仲-event-birth
+  title_zh: 出生
+  date: '-0725'
+  year_of: '-0725'
+  description: 颍上人，姬姓管氏，名夷吾，字仲，后谥敬仲
+  place_zh: 颍上
+- id: guji-管仲-event-release
+  title_zh: 鲁囚归齐堂阜见释
+  date: -0686
+  year_of: -0686
+  description: 齐桓公请管仲于鲁，鲍叔受之及堂阜而税之，三衅三沐而进于桓公
+  place_zh: 堂阜
+- id: guji-管仲-event-appointed
+  title_zh: 拜相号仲父位居高国之上
+  date: -0685
+  year_of: -0685
+  description: 桓公亲逆于郊与之坐问治国，参国伍鄙之对深合其意，遂以国政属之
+  place_zh: 临淄
+- id: guji-管仲-event-reform
+  title_zh: 参国伍鄙寄军令
+  date: -0685
+  year_of: -0685
+  description: 制国五家为轨十轨为里四里为连十连为乡，五乡一帅，定民居成民事，谨用六柄
+  place_zh: 齐国
+- id: guji-管仲-event-kuiqiu
+  title_zh: 葵丘会盟一匡天下
+  date: '-0651'
+  year_of: '-0651'
+  description: 辅桓公九合诸侯，会于葵丘，尊王攘夷，修周室之职，霸业大成
+  place_zh: 葵丘
+- id: guji-管仲-event-death
+  title_zh: 病逝
+  date: '-0645'
+  year_of: '-0645'
+  description: 病笃，桓公问后，力荐隰朋不可用鲍叔之洁廉苛察，卒后桓公失辅
+  place_zh: 齐国
