@@ -1,0 +1,155 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年生于缑氏
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 麟德元年二月五日寂于长安
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐
+  reign_ref: 贞观
+  archetype: 求法译师
+  dilemmas:
+  - 众师异说明显有别而莫知适从是否当冒死西行以问所惑
+  - 莫贺延碛失道绝水东归可生西进必死是否当违背先誓而东还
+  - 高昌王厚留欲令终身供养讲授是否当屈从富贵而废止西游本愿
+  lesson: 为求无阙正法不惜身命以诚感通终使东土得沾甘露
+  summary_first_person: 吾姓陈名玄奘幼慕圣哲十三出家遍谒吴蜀京洛众师而义有隐显遂誓游西方贞观三年孤涉流沙历十七年穷百三十国取经六百五十七部归国蒙恩译于慈恩终身不懈以报佛恩
+  source_urls:
+  - https://zh.wikisource.org/wiki/大慈恩寺三藏法师传
+  - https://cbetaonline.dila.edu.tw/zh/T2053
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法
+  summary_zh: 贞观三年自长安出发偷渡玉门历莫贺延碛经高昌伊吾访学五天竺取瑜伽师地论等梵本而还
+  phases:
+  - key: brewing
+    name: 幼学质疑
+    labels:
+      zh:
+      - 遍谒
+      - 疑惑
+    start_date: '0615'
+    highlight_event_id: guji-玄奘-event-birth
+  - key: breakthrough
+    name: 孤涉流沙
+    labels:
+      zh:
+      - 发愿
+      - 艰险
+    start_date: 0629-08
+    highlight_event_id: guji-玄奘-event-westward
+  - key: climax
+    name: 天竺问道
+    labels:
+      zh:
+      - 访学
+      - 取经
+    start_date: '0631'
+    highlight_event_id: guji-玄奘-event-nalanda
+  - key: closure
+    name: 负经东归
+    labels:
+      zh:
+      - 载誉
+      - 还国
+    start_date: '0643'
+    highlight_event_id: guji-玄奘-event-return
+  decisions:
+  - date: 0629-08
+    title_zh: 违禁偷渡西行
+    rationale: 义有阙疑启访莫从纵死中途亦不东归一步故夜渡瓠芦河独入莫贺延碛
+  - date: 0630-01
+    title_zh: 拒高昌王厚留
+    rationale: 此行不为供养而来但为无上正法故虽一国供养亦不废西游本愿
+- id: guji-玄奘-endeavor-2
+  title_zh: 弘译慈恩
+  summary_zh: 贞观十九年归京蒙太宗恩礼住弘福慈恩两寺译出大般若瑜伽师地等七十余部创唯识宗风
+  phases:
+  - key: brewing
+    name: 归朝陈情
+    labels:
+      zh:
+      - 还京
+      - 献经
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-return
+  - key: breakthrough
+    name: 奉诏翻译
+    labels:
+      zh:
+      - 译经
+      - 弘福
+    start_date: 0645-06
+    highlight_event_id: guji-玄奘-event-return
+  - key: climax
+    name: 慈恩演教
+    labels:
+      zh:
+      - 慈恩
+      - 唯识
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-translate
+  - key: closure
+    name: 薪尽火灭
+    labels:
+      zh:
+      - 示寂
+      - 传灯
+    start_date: 0664-01
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: 0645-02
+    title_zh: 受诏专事翻译不受朝位
+    rationale: 欲令方等甘露尽沾东国故谢绝官荣栖心译场以毕余生
+  - date: 0648
+    title_zh: 造慈恩寺翻经院传授瑜伽唯识
+    rationale: 本国法义未周经教少阙故取十七地论以释众疑开一乘圆宗以轨将来
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 诞于缑氏
+  date: '0602'
+  year_of: 602
+  place_zh: 缑氏
+  description_zh: 隋仁寿二年生于陈留陈氏家为第四子幼而圭璋特达八岁授孝经即知避席之礼
+- id: guji-玄奘-event-westward
+  title_zh: 偷渡玉门独入流沙
+  date: 0629-08
+  year_of: 629
+  place_zh: 凉州瓜州莫贺延碛
+  description_zh: 贞观三年秋冒禁西行换老赤马夜渡瓠芦河经五烽绝水五日夜念观音得青草池而济达伊吾
+- id: guji-玄奘-event-nalanda
+  title_zh: 游学天竺访那烂陀
+  date: '0631'
+  year_of: 631
+  place_zh: 中天竺那烂陀寺
+  description_zh: 历百三十国访鹿野鹫山遗迹就戒贤等学瑜伽师地论扬皇威而摧异学获梵本六百五十七部
+- id: guji-玄奘-event-return
+  title_zh: 贞观十九年归于上京
+  date: 0645-01
+  year_of: 645
+  place_zh: 长安
+  description_zh: 蒙霜犯雪载经而还道俗迎之阗城溢郭谒见天子爰命有司宣译住弘福寺开译
+- id: guji-玄奘-event-translate
+  title_zh: 慈恩译经弘唯识
+  date: 0648
+  year_of: 648
+  place_zh: 大慈恩寺
+  description_zh: 居慈恩寺翻经院译大般若瑜伽师地等大小乘经律论七十余部慧立为之作传以贻终古
+- id: guji-玄奘-event-death
+  title_zh: 示寂于长安
+  date: '0664-02-05'
+  year_of: 664
+  place_zh: 长安
+  description_zh: 麟德元年二月五日息化归真同薪尽而火灭弟子奉全身以建塔于慈恩
