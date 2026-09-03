@@ -9,147 +9,155 @@ person:
       date: '0344'
       precision: year
       is_circa: true
-      raw: 龟兹建武十年
+      raw: 约344年龟兹生
     death:
       date: '0413'
       precision: year
-      is_circa: true
-      raw: 后秦弘始十五年长安
+      is_circa: false
+      raw: 弘始十五年约413年长安示寂
   birth_date: '0344'
   death_date: '0413'
-  era: 十六国姚秦
+  era: 十六国东晋
   reign_ref: 后秦姚兴弘始年间
   archetype: 译经宗师
   dilemmas:
-  - 梵本精严与秦言雅驯何以两全
-  - 戒律清净与帝王逼娶何以自处
-  - 空宗深理与护国咒术方便何以兼济
-  lesson: 译经当存实相不失文义以信达雅为要方能令众生昼夜安隐得护
-  summary_first_person: 吾本龟兹种七岁随母出家游学罽宾改习大乘后为吕光所留滞于凉州十七载弘始三年蒙姚兴迎至长安主持逍遥园译场与僧肇僧叡等译般若法华中论等三百余卷亦译此大金色孔雀王咒经令五方龙王八部护持结界禳毒愿所译不谬舌根不坏以证信于后世
+  - 小乘毗昙与大乘中观空宗之择法两难
+  - 被俘滞凉与入秦弘译之时势两难
+  - 持戒清净与方便随俗处世之行止两难
+  lesson: 译贵信达以令正法久住一乘得弘
+  summary_first_person: 吾生于龟兹鸠摩炎与耆婆之子七岁随母出家初学小乘毗昙后遇须利耶苏摩悟大乘空义历西域诸国声名远扬为吕光所执滞凉州十七载姚兴迎入长安住逍遥园领译场广译大乘与门人三千穷理尽文遂成秦译妙法莲华等诸经愿众生咸入一乘
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/大金色孔雀王咒经.md
-  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/大金色孔雀王咒经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E5%A6%99%E6%B3%95%E8%8E%B2%E5%8D%8E%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E5%A6%99%E6%B3%95%E8%8E%B2%E5%8D%8E%E7%BB%8F.html
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 弘始译场主持与般若中观系统翻译
-  description: 自弘始三年入长安居逍遥园大寺集义学沙门八百余人分工译出大品般若法华维摩中论百论十二门论等奠定中土般若与三论宗
+  title_zh: 西域求学贯通大小乘
+  goal_zh: 由小乘毗昙转入大乘中观筑译经义理根基
   phases:
   - key: brewing
-    name: 龟兹出家与罽宾游学
+    name: 龟兹幼学
     labels:
-      zh:
-      - 潜修
-      - 习诵
+      zh: 幼学小乘
     start_date: '0351'
-    highlight_event_id: guji-鸠摩罗什-event-study
+    highlight_event_id: guji-鸠摩罗什-event-study-hinayana
   - key: breakthrough
-    name: 凉州滞留声名西震
+    name: 遇苏摩转大乘
     labels:
-      zh:
-      - 困顿
-      - 扬名
-    start_date: 0386
-    highlight_event_id: guji-鸠摩罗什-event-liangzhou
+      zh: 转弘大乘
+    start_date: '0363'
+    highlight_event_id: guji-鸠摩罗什-event-turn-mahayana
   - key: climax
-    name: 长安逍遥园译场鼎盛
+    name: 游历西域扬名
     labels:
-      zh:
-      - 鼎盛
-      - 定译
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-changan-translation
+      zh: 西域扬名
+    start_date: '0375'
+    highlight_event_id: guji-鸠摩罗什-event-fame-west
   - key: closure
-    name: 译业圆成舌根不坏之誓
+    name: 凉州滞留养望
     labels:
-      zh:
-      - 圆成
-      - 验证
-    start_date: '0413'
-    highlight_event_id: guji-鸠摩罗什-event-death
+      zh: 凉州淹留
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-liangzhou
   decisions:
-  - date: '0401'
-    title_zh: 应姚兴迎请入长安
-    rationale: 借帝王护持广开官译场聚众分工校梵证义非一寺一僧所能成故虽违本愿亦往
-  - date: '0406'
-    title_zh: 定译风以存本而迎华
-    rationale: 直译则华人不晓饰过则失梵义故立译场令口译笔受缀文润色务求信而可解
+  - date: '0363'
+    title_zh: 弃小归大改学中观
+    rationale: 闻须利耶苏摩说大乘空义知小乘偏空遂回心依中论般若求一乘实相
+  - date: 0384
+    title_zh: 凉州随缘说法不废
+    rationale: 为吕光父子所留不得东行则随处讲说安众习汉语待时而动
 - id: guji-鸠摩罗什-endeavor-2
-  title_zh: 陀罗尼护国法门之译传
-  description: 于显教之外译出大金色孔雀王咒等护咒具载五方龙王结界八部鬼神拥护与坛场仪轨使治病除毒禳灾护国之法与空观并行
+  title_zh: 长安译场重译妙法莲华
+  goal_zh: 奉诏重译诸大乘经以秦语信达弘一乘妙法
   phases:
   - key: brewing
-    name: 兼习五明与陀罗尼
+    name: 迎入关中
     labels:
-      zh:
-      - 兼学
-      - 积咒
-    start_date: '0365'
-    highlight_event_id: guji-鸠摩罗什-event-study
+      zh: 入关
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-enter-changan
   - key: breakthrough
-    name: 译出孔雀王咒经
+    name: 逍遥园开译场
     labels:
-      zh:
-      - 初译
-      - 试行
+      zh: 开译
     start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-kongque-translation
+    highlight_event_id: guji-鸠摩罗什-event-translation-start
   - key: climax
-    name: 坛场仪轨广布施行
+    name: 重译法华成秦本
     labels:
-      zh:
-      - 设坛
-      - 护民
-    start_date: '0405'
-    highlight_event_id: guji-鸠摩罗什-event-kongque-translation
+      zh: 译出法华
+    start_date: '0406'
+    highlight_event_id: guji-鸠摩罗什-event-lotus-translation
   - key: closure
-    name: 显密并弘付嘱后学
+    name: 弘传付嘱
     labels:
-      zh:
-      - 融会
-      - 付嘱
-    start_date: '0412'
-    highlight_event_id: guji-鸠摩罗什-event-death
+      zh: 弘传
+    start_date: '0410'
+    highlight_event_id: guji-鸠摩罗什-event-preach-lotus
   decisions:
   - date: '0402'
-    title_zh: 拣译大金色孔雀王咒经
-    rationale: 时疫疠刀兵相仍众生以热病鬼魅为苦孔雀王能食毒龙其咒可结界护身故以此为入般若之方便
-  - date: '0405'
-    title_zh: 具存坛场法物不省
-    rationale: 咒力依牛屎涂地七色华幡镜刀箭瓨浆灯饼而显若略去则民无所依故具译坛法以存其用
+    title_zh: 集义学沙门参译校雠
+    rationale: 秦语失旨则众疑故召僧肇僧叡等八百余人共定名义务得佛旨
+  - date: '0406'
+    title_zh: 删繁撮要定七卷秦本
+    rationale: 西晋正法华文繁重沓乃依梵本重翻为妙法莲华七卷使文旨明畅为后世宗本
 events:
 - id: guji-鸠摩罗什-event-birth
   title_zh: 生于龟兹
   date: '0344'
   year_of: '0344'
-  location: 龟兹国
-  description: 父鸠摩罗炎天竺婆罗门母耆婆龟兹王妹七岁随母出家日诵千偈聪慧异常
-- id: guji-鸠摩罗什-event-study
-  title_zh: 游学罽宾师事槃头达多等
-  date: '0365'
-  year_of: '0365'
-  location: 罽宾
-  description: 初习小乘后从莎车王子苏利耶苏摩改学大乘受诵中论百论大品般若通达三藏
+  description: 鸠摩罗什生于西域龟兹父鸠摩炎天竺人母耆婆龟兹王妹七岁随母出家为沙弥
+  location_zh: 龟兹
+- id: guji-鸠摩罗什-event-study-hinayana
+  title_zh: 初学小乘毗昙
+  date: '0353'
+  year_of: '0353'
+  description: 九岁至罽宾从槃头达多学小乘阿毗昙日诵千偈声誉著西域
+  location_zh: 罽宾
+- id: guji-鸠摩罗什-event-turn-mahayana
+  title_zh: 师事须利耶苏摩转学大乘
+  date: '0363'
+  year_of: '0363'
+  description: 还龟兹遇沙门须利耶苏摩授以大乘中观般若遂回心大乘通达空宗
+  location_zh: 龟兹
+- id: guji-鸠摩罗什-event-fame-west
+  title_zh: 周游西域声名远播
+  date: 0379
+  year_of: 0379
+  description: 游历莎车等国讲说大乘名震西域前秦苻坚闻名遣使迎请未果
+  location_zh: 西域
 - id: guji-鸠摩罗什-event-liangzhou
   title_zh: 为吕光所执滞留凉州
-  date: 0386
-  year_of: 0386
-  location: 姑臧
-  description: 前秦骁骑吕光伐龟兹得师迎归凉州凡十七年姚苻屡请不至然名震关中
-- id: guji-鸠摩罗什-event-changan-translation
-  title_zh: 迎入长安主持逍遥园译场
-  date: '0401'
+  date: 0384
+  year_of: 0384
+  description: 前秦遣吕光伐龟兹得什执归至凉州闻苻坚败遂留凉州凡十七年
+  location_zh: 凉州
+- id: guji-鸠摩罗什-event-enter-changan
+  title_zh: 姚兴迎入长安
+  date: 0401-12
   year_of: '0401'
-  location: 长安逍遥园
-  description: 后秦姚兴遣姚硕德破后凉迎师以国师礼待集沙门八百余人从事翻译校梵证义
-- id: guji-鸠摩罗什-event-kongque-translation
-  title_zh: 译出大金色孔雀王咒经一卷
-  date: '0402'
+  description: 后秦姚兴破后凉迎什入长安待以国师礼迎至逍遥园
+  location_zh: 长安
+- id: guji-鸠摩罗什-event-translation-start
+  title_zh: 逍遥园开译场
+  date: 0402-01
   year_of: '0402'
-  location: 长安大寺
-  description: 以梵本为据译成一卷具载东方青帝南方赤帝等五方龙王结界四天王八大龙王护咒及昼安夜安等神咒与坛场幡灯仪轨
+  description: 姚兴敕集义学沙门八百余人敕什主持译场出大品般若等经
+  location_zh: 长安逍遥园
+- id: guji-鸠摩罗什-event-lotus-translation
+  title_zh: 重译妙法莲华经七卷
+  date: 0406-04
+  year_of: '0406'
+  description: 弘始八年奉诏重译妙法莲华经成七卷二十八品自序品至普贤劝发品文理重沓删定遂为历代弘传秦本
+  location_zh: 长安大寺
+- id: guji-鸠摩罗什-event-preach-lotus
+  title_zh: 讲演法华弘一乘妙旨
+  date: '0410'
+  year_of: '0410'
+  description: 于长安讲授妙法莲华敷陈会三归一开权显实化城系珠等譬门人僧肇等传录弘布
+  location_zh: 长安
 - id: guji-鸠摩罗什-event-death
-  title_zh: 圆寂于长安
+  title_zh: 示寂长安
   date: '0413'
   year_of: '0413'
-  location: 长安
-  description: 弘始十五年示疾而寂临终誓言所译经典若无谬误焚身后舌根不坏后果荼毗唯舌不烂
+  description: 弘始十五年示疾而寂于长安遗言译经无谬舌根不坏火化后果舌不烂时年约七十
+  location_zh: 长安

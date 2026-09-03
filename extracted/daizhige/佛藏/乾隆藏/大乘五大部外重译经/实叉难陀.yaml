@@ -9,130 +9,126 @@ person:
       date: '0652'
       precision: year
       is_circa: true
-      raw: 唐贞观二十六年于阗国
+      raw: 唐贞观二十六年
     death:
       date: '0710'
       precision: year
       is_circa: false
-      raw: 唐景龙四年示寂于长安大荐福寺
+      raw: 唐景龙四年
   birth_date: '0652'
   death_date: '0710'
   era: 唐
   reign_ref: 武周
   archetype: 译经高僧
   dilemmas:
-  - 三本异译取舍难定当如何折衷以存圣旨
-  - 帝王崇重与佛典实证之间如何不失本真
-  lesson: 讨本穷源以证自心，离言自证方为真译
-  summary_first_person: 吾于阗沙门实叉难陀，奉则天制诏入洛。尝与菩提流支等共译华严，后于久视元年三阳宫讨求梵本三部，参会要诠，成七卷新译入楞伽经，长安四年正月缮写告成，惟愿自证圣智之境普利群生。
+  - 梵本精严与汉文达雅之间的取舍
+  - 依仗帝王护法与保持译场独立的张力
+  - 宣说陀罗尼速效与导归正见修行的平衡
+  lesson: 译经贵在信达，弘法可假王力而心不随境转，以令众生离苦为归
+  summary_first_person: 吾于阗沙门实叉难陀也，少出家通大小乘及声明梵典，奉武后召入洛主持译场，重译华严八十卷，复译入楞伽妙臂印幢等经，惟愿众生持此得离恶道安乐
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/大乘入楞伽经.md
-  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/大乘入楞伽经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E5%A6%99%E8%87%82%E5%8D%B0%E5%B9%A2%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E5%A6%99%E8%87%82%E5%8D%B0%E5%B9%A2%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://tripitaka.cbeta.org/T1364
 endeavors:
 - id: guji-实叉难陀-endeavor-1
-  title_zh: 重译华严八十卷
-  goal_zh: 补足晋译六十华严之阙，成善财圆教
+  title_zh: 重译华严主持武周译场
+  summary: 应武后之召入洛，以于阗梵本为底重译大方广佛华严经八十卷，奠定华严宗经典基础
   phases:
   - key: brewing
-    name: 于阗学成应诏入华
+    name: 于阗出家精通梵汉
     labels:
-      zh: 筹备
-    start_date: 0693
-    highlight_event_id: guji-实叉难陀-event-huayan-start
+      zh: 酝酿
+    start_date: '0652'
+    highlight_event_id: guji-实叉难陀-event-birth
   - key: breakthrough
-    name: 于洛阳大遍空寺开译
+    name: 奉诏入洛参译场
     labels:
       zh: 突破
+    start_date: 0685
+    highlight_event_id: guji-实叉难陀-event-arrival
+  - key: climax
+    name: 主译华严八十卷
+    labels:
+      zh: 高潮
     start_date: 0695
-    highlight_event_id: guji-实叉难陀-event-huayan-start
-  - key: climax
-    name: 武后亲制序华严告成
-    labels:
-      zh: 高潮
-    start_date: 0699
-    highlight_event_id: guji-实叉难陀-event-huayan-complete
+    highlight_event_id: guji-实叉难陀-event-huayan
   - key: closure
-    name: 80卷定本流通天下
+    name: 进献新译功成暂归
     labels:
       zh: 收束
     start_date: '0700'
-    highlight_event_id: guji-实叉难陀-event-huayan-complete
+    highlight_event_id: guji-实叉难陀-event-huayan
   decisions:
+  - date: 0685
+    title_zh: 应诏东入舍于阗本位
+    rationale: 顺应中土求法之切与武后护法之诚，以译经利众生为先，不恋故土
   - date: 0695
-    title_zh: 应武后诏不辞西域入洛
-    rationale: 欲令华严圆教广行中土，虽远行不惮
-  - date: 0695
-    title_zh: 会菩提流支义净诸德共参梵本
-    rationale: 校讹补阙以求文义兼得不偏一译
+    title_zh: 以梵本校勘旧译重译华严
+    rationale: 旧译晋译六十华严多缺舛，据梵本补正以求信实，虽工繁亦不惜
 - id: guji-实叉难陀-endeavor-2
-  title_zh: 新译大乘入楞伽经七卷
-  goal_zh: 会宋译魏译唐译三本以显自证圣智
+  title_zh: 广译大乘密咒经典
+  summary: 于华严之外兼译入楞伽文殊授记妙臂印幢陀罗尼等十九部，弘显显密兼济之道
   phases:
   - key: brewing
-    name: 讨三本要诠
+    name: 兼习持明陀罗尼藏
     labels:
-      zh: 筹备
-    start_date: '0700'
-    highlight_event_id: guji-实叉难陀-event-lengqie-start
+      zh: 酝酿
+    start_date: 0680
+    highlight_event_id: guji-实叉难陀-event-arrival
   - key: breakthrough
-    name: 三阳宫奉制开译
+    name: 入楞伽等经首译
     labels:
       zh: 突破
-    start_date: '0700-06-01'
-    highlight_event_id: guji-实叉难陀-event-lengqie-start
+    start_date: 0698
+    highlight_event_id: guji-实叉难陀-event-huayan
   - key: climax
-    name: 合复礼等笔受成七卷了教
+    name: 译妙臂印幢陀罗尼经
     labels:
       zh: 高潮
-    start_date: '0703'
-    highlight_event_id: guji-实叉难陀-event-lengqie-complete
+    start_date: '0700'
+    highlight_event_id: guji-实叉难陀-event-miaobi
   - key: closure
-    name: 长安四年正月缮写进御
+    name: 以咒济世嘱流通
     labels:
       zh: 收束
-    start_date: '0704-01-15'
-    highlight_event_id: guji-实叉难陀-event-lengqie-complete
+    start_date: '0700'
+    highlight_event_id: guji-实叉难陀-event-miaobi
   decisions:
   - date: '0700'
-    title_zh: 择久视避暑三阳宫重出楞伽
-    rationale: 较元嘉跋陀与延昌流支二译舛略，欲成定本
-  - date: '0700'
-    title_zh: 与大福先寺僧复礼等共译
-    rationale: 集众长而正梵汉，令五法三性二无我之义昭然
+    title_zh: 译妙臂印幢陀罗尼普度恶道
+    rationale: 见众生造罪当堕地狱饿鬼，欲以易行陀罗尼令速灭五无间罪，故详译咒句与功德
+  - date: '0704'
+    title_zh: 辞归于阗复被召回
+    rationale: 思亲归国示无恋禄，及帝再召即返，以法事为重不以出处为碍
 events:
 - id: guji-实叉难陀-event-birth
   title_zh: 生于于阗国
   date: '0652'
-  year_of: '0652'
-  place_zh: 于阗国
-  description_zh: 于阗沙门种，少出家，通大小乘，学三藏
-- id: guji-实叉难陀-event-huayan-start
-  title_zh: 奉武则天诏至洛阳译华严
-  date: 0695
-  year_of: 0695
-  place_zh: 洛阳大遍空寺
-  description_zh: 证圣元年入京，与菩提流支等同译八十华严，武后亲制序
-- id: guji-实叉难陀-event-huayan-complete
-  title_zh: 八十华严译毕
+  year_of: 652
+  location: 于阗国
+  description: 于阗国王族或婆罗门家生，自幼出家，博通大小乘经论及五明梵典
+- id: guji-实叉难陀-event-arrival
+  title_zh: 奉诏入洛抵长安洛阳
+  date: 0685
+  year_of: 685
+  location: 洛阳
+  description: 唐永昌元年应武则天之请，与同行入内道场，预译务，名声渐显
+- id: guji-实叉难陀-event-huayan
+  title_zh: 主译大方广佛华严经八十卷成
   date: 0699
-  year_of: 0699
-  place_zh: 洛阳佛授记寺
-  description_zh: 华严大经八十卷成，为中土华严宗所依
-- id: guji-实叉难陀-event-lengqie-start
-  title_zh: 久视元年三阳宫奉制重译楞伽
-  date: '0700-06-01'
-  year_of: '0700'
-  place_zh: 三阳宫箕峰颖水
-  description_zh: 武后久视庚子避暑三阳宫，诏讨三本楞伽梵本，令实叉难陀新译
-- id: guji-实叉难陀-event-lengqie-complete
-  title_zh: 七卷新译入楞伽经缮写进呈
-  date: '0704-01-15'
-  year_of: '0704'
-  place_zh: 长安
-  description_zh: 长安四年正月十五日七卷了教缮写云毕，武后制序，列一百八义三十九门
+  year_of: 699
+  location: 洛阳大遍空寺
+  description: 与菩提流志义净等同场，于证圣元年至圣历二年间译出华严八十卷，进献武后，诏令流通
+- id: guji-实叉难陀-event-miaobi
+  title_zh: 译妙臂印幢陀罗尼经一卷
+  date: '0700'
+  year_of: 700
+  location: 洛阳
+  description: 于华严译毕前后，译出妙臂印幢陀罗尼经，宣说持此陀罗尼能除五无间罪、生富贵家、离恶道苦，即今所传一卷本
 - id: guji-实叉难陀-event-death
-  title_zh: 示寂于长安
+  title_zh: 圆寂于长安
   date: '0710'
-  year_of: '0710'
-  place_zh: 长安大荐福寺
-  description_zh: 景龙四年示寂，寿五十九，归葬于阗
+  year_of: 710
+  location: 长安
+  description: 景龙四年示寂于长安，年五十九，武后及中宗皆加礼敬，遗身归葬于阗，后世列为唐代四大译师之一
