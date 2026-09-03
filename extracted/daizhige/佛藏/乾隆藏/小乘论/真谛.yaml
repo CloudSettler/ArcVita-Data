@@ -8,125 +8,162 @@ person:
     birth:
       date: 0499
       precision: year
-      is_circa: false
-      raw: 梁天监八年
+      is_circa: true
+      raw: 梁天监十八年西天竺优禅尼国生
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 陈太建元年
+      raw: 陈太建元年南海示寂
   birth_date: 0499
   death_date: 0569
   era: 南北朝梁陈
-  reign_ref: 梁武帝至陈宣帝
-  archetype: 译场宗师
+  reign_ref: 陈文帝天嘉
+  archetype: 弘法译师
   dilemmas:
-  - 梁乱流离而坚持译经不断
-  - 小乘部执纷繁而须以理教抉择
-  lesson: 乱世不废传灯，依理教抉择部执，还归圣谛根本
-  summary_first_person: 我是真谛，西天竺优禅尼人，梁大同中泛海而来，流离岭南而译经不辍，译出部执异论等大小乘论，欲以中土语言显佛正教圣谛根本
+  - 梁末纷梗避地东西垂二十载去留两难
+  - 梵音改易词理难会译文恐谬仍昼夜笔受
+  lesson: 避乱不废弘法再译治定以明经部正义
+  summary_first_person: 吾名俱罗那他中夏号真谛为弘法远游东土值梁室将倾避地东西至番禺蒙欧阳纥慧恺僧忍等请留于制旨寺翻讲俱舍涉年治定愿后生信顺同学共餐甘露
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T2033
-  - https://daizhige.org/fozang/qianlongzang/xiaochenglun/buzhiyilun.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E4%BF%B1%E8%88%8D%E9%87%8A%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E4%BF%B1%E8%88%8D%E9%87%8A%E8%AE%BA.html
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 传译部执异论明小乘部分派
-  summary: 依天友菩萨本译出部执异论，具存十八部梵名，明大众上座分合与执义异同
+  title_zh: 远游岭南弘法译经
+  summary_zh: 为弘法远游梁土避乱东西垂二十载至番禺译讲摄大乘等经论
   phases:
   - key: brewing
-    name: 泛海至梁发愿传译
+    name: 远游东土
     labels:
-      zh: 发愿
-    start_date: '0546'
-    highlight_event_id: guji-真谛-event-arrival
+      zh:
+      - 弘法
+      - 远游
+    start_date: 358
+    highlight_event_id: guji-真谛-event-arrive
   - key: breakthrough
-    name: 岭南建业初译小乘论
+    name: 避地岭南
     labels:
-      zh: 初译
-    start_date: '0550'
-    highlight_event_id: guji-真谛-event-translate-buzhi
+      zh:
+      - 避乱
+      - 存法
+    start_date: 364
+    highlight_event_id: guji-真谛-event-panyu
   - key: climax
-    name: 校定部执异同成帙
+    name: 番禺译讲摄大乘
     labels:
-      zh: 校定
-    start_date: '0557'
-    highlight_event_id: guji-真谛-event-translate-buzhi
+      zh:
+      - 译经
+      - 讲授
+    start_date: 369
+    highlight_event_id: guji-真谛-event-shedasheng
   - key: closure
-    name: 留存天竺本名备考
+    name: 欧阳纥请留不归
     labels:
-      zh: 存本
-    start_date: 0558
-    highlight_event_id: guji-真谛-event-translate-buzhi
+      zh:
+      - 请留
+      - 弘化
+    start_date: 370
+    highlight_event_id: guji-真谛-event-shedasheng
   decisions:
-  - date: '0550'
-    title_zh: 直译存异不妄会通
-    rationale: 大众上座各有所执，须如实存其执义本末，不以一义掩众义
-  - date: '0557'
-    title_zh: 别存梵名以正旧讹
-    rationale: 旧经十八部音多讹异，故别存尼柯耶本名以待后考
+  - date: 364
+    title_zh: 梁室倾覆避地东西
+    rationale: 时事纷梗保全身命以存法种待缘弘化
+  - date: 369
+    title_zh: 应慧恺请翻讲摄大乘
+    rationale: 南海有信士因缘成熟先明大乘纲要再弘对法
+  - date: 370
+    title_zh: 受欧阳纥请留不还天竺
+    rationale: 岭南贵门护法翻译有赖久住方能永传来世
 - id: guji-真谛-endeavor-2
-  title_zh: 翻摄大乘论开唯识宗基
-  summary: 译摄大乘论释论等，立阿摩罗识等义，开岭南唯识传习
+  title_zh: 翻译治定俱舍释论
+  summary_zh: 于制旨寺开阐俱舍释论历闰十月成二十二卷复重译治定至光大元年究竟
   phases:
   - key: brewing
-    name: 富春潜居授徒讲习
+    name: 制旨寺开阐
     labels:
-      zh: 授徒
-    start_date: 0559
-    highlight_event_id: guji-真谛-event-translate-shelun
+      zh:
+      - 发起
+      - 开讲
+    start_date: 0563-01-25
+    highlight_event_id: guji-真谛-event-preach
   - key: breakthrough
-    name: 译摄大乘论释
+    name: 随定随书成二十二卷
     labels:
-      zh: 译摄论
-    start_date: '0562'
-    highlight_event_id: guji-真谛-event-translate-shelun
+      zh:
+      - 笔受
+      - 初译
+    start_date: 0563-06-01
+    highlight_event_id: guji-真谛-event-first-done
   - key: climax
-    name: 决了唯识宗义
+    name: 城内讲说温故
     labels:
-      zh: 立宗
-    start_date: '0563'
-    highlight_event_id: guji-真谛-event-translate-shelun
+      zh:
+      - 讲说
+      - 鉴定
+    start_date: 0564-02-02
+    highlight_event_id: guji-真谛-event-retranslate
   - key: closure
-    name: 南康示寂付嘱门人
+    name: 光大治定究竟
     labels:
-      zh: 示寂
-    start_date: 0569
-    highlight_event_id: guji-真谛-event-death
+      zh:
+      - 重译
+      - 治定
+    start_date: 0567-12-25
+    highlight_event_id: guji-真谛-event-finalize
   decisions:
-  - date: '0562'
-    title_zh: 依世亲释立阿摩罗识
-    rationale: 为通中土心性之惑，须明第九清净识以显转依
-  - date: 0568
-    title_zh: 乱中不辍译讲
-    rationale: 正法时艰，更当以译讲续慧命，不因侯景之乱而废
+  - date: 0563-01-25
+    title_zh: 应慧恺僧忍请翻讲俱舍
+    rationale: 此土唯有毗婆沙杂心成实未尽妙义须以经部破萨婆多乖违
+  - date: 0564-02-02
+    title_zh: 恐谬失再请重译
+    rationale: 梵音改易一句循环辩释始得相应故须再解义意温故知宗
+  - date: 0567-12-25
+    title_zh: 赖袁敬元友治定传世
+    rationale: 南中翻译悉赖贵门经始方希永传以为后生模式
 events:
 - id: guji-真谛-event-birth
-  title_zh: 生于西天竺优禅尼
   date: 0499
   year_of: 499
-  place_zh: 西天竺优禅尼国
-  summary: 真谛生于婆罗门家，遍学大小乘，日诵万言
-- id: guji-真谛-event-arrival
-  title_zh: 泛海至梁广州
-  date: '0546-09-20'
+  title_zh: 真谛生于西天竺优禅尼国
+  description_zh: 名俱罗那他聪敏强记才辩无竭硕学多闻该通内外后造论弘法名盖当世
+- id: guji-真谛-event-arrive
+  date: 358
   year_of: 546
-  place_zh: 广州
-  summary: 梁武帝遣使迎请，真谛携梵本泛海至番禺，敕住宝云殿
-- id: guji-真谛-event-translate-buzhi
-  title_zh: 译出部执异论一卷
-  date: '0557'
+  title_zh: 为弘法远游梁土
+  description_zh: 三藏法师俱罗那他为弘法故远游此国值梁室将倾时事纷梗
+- id: guji-真谛-event-panyu
+  date: 365
   year_of: 555
-  place_zh: 建业及豫章
-  summary: 于战乱流转中译天友菩萨部执异论，明佛灭后百年至四百年十八部分合
-- id: guji-真谛-event-translate-shelun
-  title_zh: 重译摄大乘论
-  date: '0562-06-15'
-  year_of: 562
-  place_zh: 豫章宝田寺
-  summary: 于豫章译摄大乘论释等十五部，奠定摄论宗学
+  title_zh: 避地东西垂二十载至番禺
+  description_zh: 法师避地东西垂二十载欲还天竺来至番禺刺史欧阳纥尚仁贵道久申敬事
+- id: guji-真谛-event-shedasheng
+  date: 369
+  year_of: 561
+  title_zh: 翻讲摄大乘等论经涉二年毕
+  description_zh: 慧恺请翻讲摄大乘等论经涉二年文义方毕法师犹欲旋归复被请留
+- id: guji-真谛-event-preach
+  date: 0563-01-25
+  year_of: 563
+  title_zh: 陈天嘉四年制旨寺开阐俱舍
+  description_zh: 以天嘉四年正月二十五日于制旨寺始就开阐惑品未毕徙居南海续敷说凡不须度语直通音义
+- id: guji-真谛-event-first-done
+  date: 0563-10-10
+  year_of: 563
+  title_zh: 闰十月十日初译究竟
+  description_zh: 慧恺随定随书日夜无懈至闰十月十日文义究竟论文二十二卷论偈一卷义疏五十三卷
+- id: guji-真谛-event-retranslate
+  date: 0564-02-02
+  year_of: 564
+  title_zh: 天嘉五年重译论文再解义意
+  description_zh: 恐所翻不免谬失多有疑滞与僧忍等更请重译论文再解义意刺史请城内讲说温故识宗
+- id: guji-真谛-event-finalize
+  date: 0567-12-25
+  year_of: 567
+  title_zh: 光大元年治定前本究竟
+  description_zh: 至光大元年十二月二十五日治定前本始末究竟长史袁敬长子元友礼事经始以传后世
 - id: guji-真谛-event-death
-  title_zh: 寂于南康
-  date: '0569-01-11'
+  date: 0569
   year_of: 569
-  place_zh: 南康
-  summary: 陈太建元年正月示寂，世寿七十一，门人慧恺等传其学
+  title_zh: 真谛示寂于南海
+  description_zh: 译讲俱舍摄大乘数十部盛行宗学后于陈太建元年示寂南中翻译永为模式
