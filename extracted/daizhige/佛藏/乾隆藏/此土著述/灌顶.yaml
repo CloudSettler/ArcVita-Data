@@ -8,131 +8,125 @@ person:
     birth:
       date: '0561'
       precision: year
-      is_circa: true
-      raw: 俗姓吴氏常州义兴人春秋七十二逆推
-    death:
-      date: '0632-08-07'
-      precision: day
       is_circa: false
-      raw: 唐贞观六年八月七日终国清寺
+      raw: 隋开皇元年章安吴氏生
+    death:
+      date: '0632'
+      precision: year
+      is_circa: false
+      raw: 唐贞观六年示寂
   birth_date: '0561'
-  death_date: '0632-08-07'
+  death_date: '0632'
   era: 隋唐
-  reign_ref: 唐太宗贞观六年
-  archetype: 天台疏主弘经高僧
+  reign_ref: 隋文帝开皇至唐太宗贞观
+  archetype: 传法述作型宗匠
   dilemmas:
-  - 以渺末之智能否尽述智者所说圆常秘藏
-  - 当海贼抄掠道俗奔散之际坚守讲座还是暂避
-  lesson: 勤息三惑以通经疏记令圆常秘藏不坠于地
-  summary_first_person: 吾乃章安灌顶吴氏子七岁依拯公出家二十七岁沐道天台亲侍智者能领能记后庐天台撰涅槃经疏于摄静讲说不惧海贼终老国清以记传灯
+  - 师殁教散何以结集遗教而不失本怀
+  - 三师乖违水乳杂糅何以立观心正导而匡末法
+  lesson: 不依四念处修道不依木叉而住则弘法反成破法唯问观心以慧导行方能自行化他
+  summary_first_person: 吾灌顶章安吴氏少依智者亲承音旨智者示寂吾结集文句止观诸部晚述观心论疏五卷斥法禅律三师十过劝依念处慧目木叉戒足普施平等种子以报白鸦之恩
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B6%85%E6%A7%83%E7%8E%84%E4%B9%89%E5%8F%91%E6%BA%90%E6%9C%BA%E8%A6%81.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B6%85%E6%A7%83%E7%8E%84%E4%B9%89%E5%8F%91%E6%BA%90%E6%9C%BA%E8%A6%81.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E8%A7%82%E5%BF%83%E8%AE%BA%E7%96%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E8%A7%82%E5%BF%83%E8%AE%BA%E7%96%8F.md
 endeavors:
 - id: guji-灌顶-endeavor-1
-  title_zh: 亲侍智者辑录天台教法
-  summary: 七岁依拯公出家弱冠受具至德元年沐道天台追随智者能领能记为法上将
+  title_zh: 亲侍智顗结集天台遗教
+  summary_zh: 少从智者出家具戒随侍讲筵记录法华文句摩诃止观等智者示寂后整理弘传使天台教观不坠
   phases:
   - key: brewing
-    name: 幼颖投师出家
+    name: 章安出家依止智者
     labels:
-      zh: 出家学业
-    start_date: '0567'
-    highlight_event_id: guji-灌顶-event-birth
+      zh: 依师受学
+    start_date: 0568
+    highlight_event_id: guji-灌顶-event-serve
   - key: breakthrough
-    name: 沐道天台亲侍
+    name: 随侍讲席笔录成帙
     labels:
-      zh: 追随智者
-    start_date: 0583
-    highlight_event_id: guji-灌顶-event-follow
+      zh: 笔录讲筵
+    start_date: '0575'
+    highlight_event_id: guji-灌顶-event-serve
   - key: climax
-    name: 能领能记为法上将
+    name: 智者示寂付嘱结集
     labels:
-      zh: 集录弘传
-    start_date: 0589
-    highlight_event_id: guji-灌顶-event-follow
-  - key: closure
-    name: 承付讲传不绝
-    labels:
-      zh: 绍继师说
+      zh: 付嘱结集
     start_date: 0597
-    highlight_event_id: guji-灌顶-event-compose
+    highlight_event_id: guji-灌顶-event-compile
+  - key: closure
+    name: 住国清弘传教观
+    labels:
+      zh: 住持弘传
+    start_date: '0600'
+    highlight_event_id: guji-灌顶-event-compile
   decisions:
-  - date: '0567'
-    title_zh: 七岁依拯公出家
-    rationale: 生甫三月能效佛法僧音才业日新故依摄静寺惠拯学玄儒并骛
-  - date: 0583
-    title_zh: 奔随智者为法上将
-    rationale: 智者辩才云行雨施能领能记唯师一人故方集奔随以集录为任
+  - date: '0575'
+    title_zh: 决意终身侍智者不别立门户
+    rationale: 以智者圆教难遇须藉笔录存其音旨故甘作侍者兼传法之任
+  - date: 0597
+    title_zh: 决意结集遗文对抗散佚
+    rationale: 师殁众无所依若不速加整理则文句止观将散故以报恩心为结集业
 - id: guji-灌顶-endeavor-2
-  title_zh: 撰涅槃经疏讲说感通
-  summary: 庐天台之南撰大般涅槃经疏安洲绝笔于章安摄静寺讲说贼至不惧感得兵旗曜日终国清寺
+  title_zh: 撰观心论疏匡正末法三师
+  summary_zh: 伤法禅律三师各有十过不依念处不依木叉遂疏解观心论立乘急戒急之说劝问观心以导闻思修及四三昧
   phases:
   - key: brewing
-    name: 庐隐天台发疏
+    name: 悲伤三师破法发心造论疏
     labels:
-      zh: 撰疏起笔
-    start_date: '0614'
+      zh: 悲伤发心
+    start_date: '0605'
     highlight_event_id: guji-灌顶-event-compose
   - key: breakthrough
-    name: 安洲绝笔成疏
+    name: 判序正流通释问答大意
     labels:
-      zh: 疏文告成
-    start_date: 0618
-    highlight_event_id: guji-灌顶-event-complete
+      zh: 判文释义
+    start_date: '0606'
+    highlight_event_id: guji-灌顶-event-compose
   - key: climax
-    name: 摄静讲经感通
+    name: 广斥三师十过立念处木叉十利
     labels:
-      zh: 讲说伏贼
-    start_date: 0619
-    highlight_event_id: guji-灌顶-event-preach
+      zh: 破邪显正
+    start_date: '0607'
+    highlight_event_id: guji-灌顶-event-compose
   - key: closure
-    name: 国清示寂留付
+    name: 观心论疏五卷流通示平等种子
     labels:
-      zh: 异香而终
-    start_date: '0632-08-07'
-    highlight_event_id: guji-灌顶-event-death
+      zh: 成疏流通
+    start_date: 0608
+    highlight_event_id: guji-灌顶-event-compose
   decisions:
-  - date: '0614'
-    title_zh: 庐天台撰涅槃经疏
-    rationale: 去圣逾远人根渐钝须用智者义趣演龙猛宗旨以申经意故鸠集文义解释
-  - date: 0619
-    title_zh: 贼至挝钟就讲不避
-    rationale: 以三德圆常化导群机道俗虽奔委师当以讲说摄众故颜无慑惧
+  - date: '0605'
+    title_zh: 决以观心导万行破无慧禅教
+    rationale: 见学人不修圆观念处则闻思修及忏悔断惑皆不成故必以问观心为众行之导
+  - date: '0607'
+    title_zh: 决举乘戒四句简真佛子
+    rationale: 乘缓戒缓则堕三途唯乘急戒急内有道外生人天故须明真子不乖慈父嘱
 events:
 - id: guji-灌顶-event-birth
-  type: birth
   date: '0561'
   year_of: 561
-  title_zh: 生于义兴吴氏
-  description: 俗姓吴氏常州义兴人祖避地东瓯遂为临海章安人母夜称佛法僧名即能效音清辩
-- id: guji-灌顶-event-follow
-  type: career
-  date: 0583
-  year_of: 583
-  title_zh: 陈至德元年沐道天台
-  description: 年二十七拯师厌世即陈至德元年沐道天台追随智者辩才云行雨施能领能记为法上将
+  title_zh: 章安吴氏诞生
+  description_zh: 隋开皇元年生于章安吴氏俗姓吴少颖悟慕道
+  endeavor_ref: guji-灌顶-endeavor-1
+- id: guji-灌顶-event-serve
+  date: '0575'
+  year_of: 575
+  title_zh: 依止智顗出家受具
+  description_zh: 年少投智者大师出家具戒随侍左右亲承法华玄义止观教旨
+  endeavor_ref: guji-灌顶-endeavor-1
+- id: guji-灌顶-event-compile
+  date: 0597
+  year_of: 597
+  title_zh: 智者示寂奉命结集
+  description_zh: 智顗于隋开皇十七年示寂灌顶奉遗旨整理文句止观等诸部使天台一宗粗具规模
+  endeavor_ref: guji-灌顶-endeavor-1
 - id: guji-灌顶-event-compose
-  type: career
-  date: '0614-10-01'
-  year_of: 614
-  title_zh: 隋大业十年庐天台撰疏
-  description: 隋大业十年十月庐于天台之南用智者义趣演龙猛宗旨撰大般涅槃经疏文
-- id: guji-灌顶-event-complete
-  type: career
-  date: 0618
-  year_of: 618
-  title_zh: 唐武德元年安洲绝笔
-  description: 越五年于安洲绝笔即唐武德元年疏成常于章安摄静寺讲说此经
-- id: guji-灌顶-event-preach
-  type: career
-  date: 0619
-  year_of: 619
-  title_zh: 摄静讲经贼徒惊散
-  description: 值海贼抄掠道俗奔委师挝钟就讲贼麾旛诣寺忽见兵旗曜日持弓执戟皆丈余群贼惊散
+  date: 0608
+  year_of: 608
+  title_zh: 撰成观心论疏五卷
+  description_zh: 依智者观心论广疏序正流通斥三师各十过明四念处木叉十利劝末代问观心成闻思修慧
+  endeavor_ref: guji-灌顶-endeavor-2
 - id: guji-灌顶-event-death
-  type: death
-  date: '0632-08-07'
+  date: '0632'
   year_of: 632
-  title_zh: 贞观六年终国清寺
-  description: 以唐贞观六年八月七日终国清寺春秋七十二将终身现微疾室有异香命弟子多烧香而去
+  title_zh: 示寂于国清寺
+  description_zh: 唐贞观六年示寂世寿七十二世称章安大师为天台二祖法泽绵远
+  endeavor_ref: guji-灌顶-endeavor-2
