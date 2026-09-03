@@ -1,0 +1,137 @@
+person:
+  qid: guji-梁武帝
+  name_zh: 梁武帝
+  names:
+    zh: 萧衍
+    en: Xiao Yan
+  lifespan:
+    birth:
+      date: '0464'
+      precision: year
+      is_circa: false
+      raw: 宋大明八年生于建康
+    death:
+      date: '0549-06-12'
+      precision: day
+      is_circa: false
+      raw: 太清三年五月崩于台城
+  birth_date: '0464'
+  death_date: '0549-06-12'
+  era: 南北朝梁
+  reign_ref: 梁天监元年至太清三年
+  archetype: 崇佛护法君主
+  dilemmas:
+  - 倾帑藏造寺阁祈福与国用民力耗竭之两难
+  - 晨夕讲议游幸寺门与勤理台城政务之冲突
+  lesson: 护法当以安民为本舍身表诚可嘉而治国须节用惜力
+  summary_first_person: 朕萧衍代齐建梁崇佛建寺于台城起同泰于独龙阜葬志公建开善舍身施财无年不幸以祈佛福然帑藏竭而国步危此朕之诚亦朕之鉴
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%A2%81%E4%BA%AC%E5%AF%BA%E8%AE%B0.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%A2%81%E4%BA%AC%E5%AF%BA%E8%AE%B0.html
+endeavors:
+- id: guji-梁武帝-endeavor-1
+  title_zh: 兴建京邑佛寺崇饰塔像
+  description: 天监以来于建业内外营建开善同泰宝林等寺葬志公造浮图弘宣佛法
+  phases:
+  - key: brewing
+    name: 独龙阜葬志公筹划
+    labels:
+      zh: 筹划
+    start_date: '0514'
+    highlight_event_id: guji-梁武帝-event-kaishan
+  - key: breakthrough
+    name: 塔前建开善寺
+    labels:
+      zh: 建置
+    start_date: '0515'
+    highlight_event_id: guji-梁武帝-event-kaishan
+  - key: climax
+    name: 台城内起同泰寺
+    labels:
+      zh: 极盛
+    start_date: '0527'
+    highlight_event_id: guji-梁武帝-event-tongtai
+  - key: closure
+    name: 寺阁经火而志不改
+    labels:
+      zh: 收束
+    start_date: '0549-06-12'
+    highlight_event_id: guji-梁武帝-event-death
+  decisions:
+  - date: '0514'
+    title_zh: 易地葬志公建塔
+    rationale: 敬重高僧以塔表德聚僧气以兴法运
+  - date: '0527'
+    title_zh: 别开大通门创同泰寺
+    rationale: 近宫讲议晨夕游幸以帝力护持佛法
+- id: guji-梁武帝-endeavor-2
+  title_zh: 舍身施财祈佛福佑
+  description: 穷竭帑藏造七层大佛阁舍身施财自大通以后无年不幸亲幸讲筵
+  phases:
+  - key: brewing
+    name: 改元崇佛立愿
+    labels:
+      zh: 发愿
+    start_date: '0527'
+    highlight_event_id: guji-梁武帝-event-tongtai
+  - key: breakthrough
+    name: 造七层大佛阁舍财
+    labels:
+      zh: 施舍
+    start_date: 0528
+    highlight_event_id: guji-梁武帝-event-tongtai
+  - key: climax
+    name: 无年不幸亲幸讲筵
+    labels:
+      zh: 亲奉
+    start_date: '0530'
+    highlight_event_id: guji-梁武帝-event-sermon
+  - key: closure
+    name: 阁焚国危而奉佛不辍
+    labels:
+      zh: 终守
+    start_date: '0549-06-12'
+    highlight_event_id: guji-梁武帝-event-death
+  decisions:
+  - date: 0528
+    title_zh: 穷帑藏造佛阁舍身
+    rationale: 以身财供养祈佛福佑国土以示天下向佛之诚
+  - date: '0530'
+    title_zh: 大通后无年不幸讲议
+    rationale: 以讲经弘法化民安众心借佛力以辅王化
+events:
+- id: guji-梁武帝-event-birth
+  type: birth
+  title_zh: 萧衍诞生
+  date: '0464'
+  year_of: 464
+  place_zh: 建康
+  description: 宋大明八年生后代齐建梁
+- id: guji-梁武帝-event-kaishan
+  type: career
+  title_zh: 葬志公建开善寺
+  date: '0515'
+  year_of: 515
+  place_zh: 钟山独龙阜
+  description: 天监十三年以钱二十万易地葬志公永定公主造五级浮图次年塔前建开善寺
+- id: guji-梁武帝-event-tongtai
+  type: career
+  title_zh: 台城内起同泰寺
+  date: '0527'
+  year_of: 527
+  place_zh: 台城内
+  description: 大通元年创同泰寺处宫后别开大通门穷竭帑藏造七层大佛阁帝晨夕讲议多游此门
+- id: guji-梁武帝-event-sermon
+  type: career
+  title_zh: 舍身施财无年不幸
+  date: '0530'
+  year_of: 530
+  place_zh: 同泰寺
+  description: 自大通以后无年不幸亲幸讲筵舍身施财以祈佛福
+- id: guji-梁武帝-event-death
+  type: death
+  title_zh: 崩于台城
+  date: '0549-06-12'
+  year_of: 549
+  place_zh: 台城
+  description: 太清三年国危身困崩于台城在位四十八年
