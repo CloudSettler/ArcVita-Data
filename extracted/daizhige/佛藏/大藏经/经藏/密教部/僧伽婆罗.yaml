@@ -1,0 +1,132 @@
+person:
+  qid: guji-僧伽婆罗
+  name_zh: 僧伽婆罗
+  names:
+    zh: 僧伽婆罗
+    en: Sanghapala
+  lifespan:
+    birth:
+      date: '0460'
+      precision: year
+      is_circa: true
+      raw: 扶南国人，生年失载，约宋末生
+    death:
+      date: 0518
+      precision: year
+      is_circa: true
+      raw: 梁普通前后卒于建康
+  birth_date: '0460'
+  death_date: 0518
+  era: 南北朝梁
+  reign_ref: 梁武帝天监
+  archetype: 扶南三藏译师
+  dilemmas:
+  - 华梵悬隔而咒句须存梵音，如何以梁言注音传持不失
+  - 毒病怖畏交迫，如何以孔雀明王慈护摄受安隐众生
+  lesson: 以慈悲持咒摄护，以信实翻译利世，令除毒怖得安隐
+  summary_first_person: 我是扶南僧伽婆罗，远航至梁，受诏在建康译经，我译此孔雀王咒经，愿诸神众听受拥护，令持咒者毒病消除昼夜安乐
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/孔雀王咒经-梁-僧伽婆罗.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/孔雀王咒经-梁-僧伽婆罗.html
+endeavors:
+- id: guji-僧伽婆罗-endeavor-1
+  title_zh: 扶南出家航海来华
+  summary: 于扶南出家精律，航海经广州至建康，应梁武帝诏入都翻经
+  phases:
+  - key: brewing
+    name: 扶南出家习律
+    labels:
+      zh: 学律
+    start_date: 0480
+    highlight_event_id: guji-僧伽婆罗-event-birth
+  - key: breakthrough
+    name: 航海至广州
+    labels:
+      zh: 远航
+    start_date: '0505'
+    highlight_event_id: guji-僧伽婆罗-event-arrive
+  - key: climax
+    name: 诏入建康住寺
+    labels:
+      zh: 入梁
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-arrive
+  - key: closure
+    name: 精通华言受诏译经
+    labels:
+      zh: 安住
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-translate
+  decisions:
+  - date: '0505'
+    title_zh: 舍本土远航东来
+    rationale: 为弘法利世，不惮海路艰险，求诣华土传持梵本
+  - date: '0506'
+    title_zh: 应诏入都翻经
+    rationale: 梁武崇佛诏延西僧，顺缘住持以译事为报佛恩
+- id: guji-僧伽婆罗-endeavor-2
+  title_zh: 建康译出孔雀王咒经
+  summary: 于建康以梵本译孔雀王咒经，加梁言音注，述佛说咒除蛇毒病苦护国护人
+  phases:
+  - key: brewing
+    name: 披览梵本审定咒句
+    labels:
+      zh: 审梵
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-translate
+  - key: breakthrough
+    name: 译出经文加梁言注音
+    labels:
+      zh: 翻译
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-translate
+  - key: climax
+    name: 宣说除毒结界护持法
+    labels:
+      zh: 弘咒
+    start_date: '0507'
+    highlight_event_id: guji-僧伽婆罗-event-preach
+  - key: closure
+    name: 流通护国安民
+    labels:
+      zh: 流通
+    start_date: '0507'
+    highlight_event_id: guji-僧伽婆罗-event-preach
+  decisions:
+  - date: '0506'
+    title_zh: 存梵音加梁言注
+    rationale: 咒贵声义不失，故存梵语音转，以梁言释其义类令可持诵
+  - date: '0507'
+    title_zh: 详述结界除病缘起
+    rationale: 因娑底比丘蛇啮垂危，阿难请救，故具说持咒除毒结界之法以利后世
+events:
+- id: guji-僧伽婆罗-event-birth
+  title_zh: 生于扶南
+  date: '0460'
+  year_of: 460
+  description: 扶南国人，生年失载，约当刘宋末年出家习律
+  type: birth
+- id: guji-僧伽婆罗-event-death
+  title_zh: 卒于建康
+  date: 0518
+  year_of: 518
+  description: 梁普通前后卒于建康正观寿光等寺，译业既成
+  type: death
+- id: guji-僧伽婆罗-event-arrive
+  title_zh: 航海至广州诏入建康
+  date: '0506'
+  year_of: 506
+  description: 航海至广州，梁天监五年诏至建康寿光殿翻经，时称扶南三藏
+  type: travel
+- id: guji-僧伽婆罗-event-translate
+  title_zh: 译孔雀王咒经
+  date: '0506'
+  year_of: 506
+  description: 于建康译出孔雀王咒经卷上，礼佛法僧说孔雀明王咒，具载梵咒梁言音义及除毒法
+  type: translate
+- id: guji-僧伽婆罗-event-preach
+  title_zh: 说阿难持咒救娑底缘起
+  date: '0507'
+  year_of: 507
+  description: 经中述佛在祇园，敕阿难持大孔雀王咒救蛇啮娑底比丘，并说结界护国四大天王拥护法
+  type: preach

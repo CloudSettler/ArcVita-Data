@@ -6,131 +6,134 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0930
+      date: 0960
       precision: year
       is_circa: true
-      raw: 宋初以前生于中印度摩伽陀国
+      raw: 约显德年间生于西域
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒
-  birth_date: 0930
+      raw: 宋真宗咸平四年示寂
+  birth_date: 0960
   death_date: '1001'
-  era: 宋
-  reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译经三藏
+  era: 北宋
+  reign_ref: 宋太祖开宝至宋真宗咸平
+  archetype: 西天译经三藏
   dilemmas:
-  - 梵汉音义悬隔而密咒持验须真
-  - 奉诏译场功急而法义证信须周
-  lesson: 以传教译经利众生即是以持明满愿除疾苦
-  summary_first_person: 我是法天本出中印度摩伽陀国那烂陀寺蒙赐紫沙门奉诏入宋译场传教译此圣虚空藏菩萨陀罗尼经愿众生离疾病部多之苦得闻持安隐
+  - 梵汉悬隔而密意深微当如何择词定句以全真言大义
+  - 持诵多障而人心疑慢当如何立师求伴择地修行以速成就
+  lesson: 远离邪见亲近胜师择净地修善法方能速获悉地
+  summary_first_person: 吾法天自西域来归宋阙奉诏译经译妙臂菩萨所问经二卷劝持诵人重师伴远八法离魔障以趣菩提
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E8%99%9A%E7%A9%BA%E8%97%8F%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/
+  - https://tripitaka.cbeta.org/T08n0896_001
 endeavors:
 - id: guji-法天-endeavor-1
-  person_id: guji-法天
-  title_zh: 入宋奉诏任三藏传教大师
-  summary: 自那烂陀寺入宋蒙赐紫沙门奉诏传教参预译场奠定译经之业
+  person_qid: guji-法天
+  title_zh: 奉诏译妙臂菩萨所问经
+  description_zh: 于译经院传译密教持明法门演说师伴胜处数珠护摩除障诸品
   phases:
   - key: brewing
-    name: 那烂陀习学三藏
+    name: 入院通梵汉
     labels:
-      zh: 蕴酿
-    start_date: 0950
-    highlight_event_id: guji-法天-event-birth
+      zh: 酝酿习学
+    start_date: 0973
+    highlight_event_id: guji-法天-event-enter-yijing
   - key: breakthrough
-    name: 入宋奉诏传教
+    name: 参译显密经轨
     labels:
-      zh: 突破
-    start_date: 0982
-    highlight_event_id: guji-法天-event-ru-song
+      zh: 突破参译
+    start_date: 0980
+    highlight_event_id: guji-法天-event-enter-yijing
   - key: climax
-    name: 赐紫授三藏大师
+    name: 独译妙臂所问二卷
     labels:
-      zh: 高潮
-    start_date: 0983
-    highlight_event_id: guji-法天-event-ru-song
+      zh: 高峰独译
+    start_date: 0984
+    highlight_event_id: guji-法天-event-translate-miaobi
   - key: closure
-    name: 常居译场传教终老
+    name: 进呈流通定本
     labels:
-      zh: 收束
-    start_date: '1001'
+      zh: 收束流通
+    start_date: 0986
+    highlight_event_id: guji-法天-event-translate-miaobi
+  decisions:
+  - date: 0980
+    title_zh: 应诏入译经院专攻密部
+    rationale: 欲以真言利后世故舍边地安逸就中土译场
+  - date: 0984
+    title_zh: 先译助伴胜处持心诸分
+    rationale: 持诵成就先须胜师胜处净器净食故先示方便后说深法
+- id: guji-法天-endeavor-2
+  person_qid: guji-法天
+  title_zh: 传授曼荼罗护摩除障法
+  description_zh: 示金刚杵量度材木分别频那夜迦四部作障因缘授甘露军荼利解脱法
+  phases:
+  - key: brewing
+    name: 集众示三昧耶
+    labels:
+      zh: 酝酿摄众
+    start_date: 0988
+    highlight_event_id: guji-法天-event-teach-mandala
+  - key: breakthrough
+    name: 说杵量选材
+    labels:
+      zh: 突破说法器
+    start_date: 0990
+    highlight_event_id: guji-法天-event-teach-mandala
+  - key: climax
+    name: 作坛灌顶解魔障
+    labels:
+      zh: 高峰除障
+    start_date: 0992
+    highlight_event_id: guji-法天-event-teach-mandala
+  - key: closure
+    name: 嘱累回向菩提
+    labels:
+      zh: 收束回向
+    start_date: 0998
     highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0982
-    title_zh: 应诏入宋译场
-    rationale: 为使西天教法东传满众生离苦之愿故不辞远涉奉诏传教
-  - date: 0983
-    title_zh: 受赐紫沙门专任传译
-    rationale: 以正名分定译准则保梵汉音义不谬故受任三藏传教大师
-- id: guji-法天-endeavor-2
-  person_id: guji-法天
-  title_zh: 译传圣虚空藏菩萨陀罗尼经
-  summary: 于喜乐山顶说法缘起下译出七如来及虚空藏所说除病遣部多陀罗尼并具宣持验功德
-  phases:
-  - key: brewing
-    name: 取梵本审缘起
-    labels:
-      zh: 蕴酿
-    start_date: 0983
-    highlight_event_id: guji-法天-event-ru-song
-  - key: breakthrough
-    name: 译七佛授明
-    labels:
-      zh: 突破
-    start_date: 0984
-    highlight_event_id: guji-法天-event-translate
-  - key: climax
-    name: 译释迦虚空藏心印成就法
-    labels:
-      zh: 高潮
-    start_date: 0984
-    highlight_event_id: guji-法天-event-translate
-  - key: closure
-    name: 流通供养持验
-    labels:
-      zh: 收束
-    start_date: 0985
-    highlight_event_id: guji-法天-event-translate
-  decisions:
-  - date: 0984
-    title_zh: 具译七如来陀罗尼及持验仪轨
-    rationale: 因见病苦部多恼众生故具存除病护摩带持之法令受持者得安隐
-  - date: 0984
-    title_zh: 并存虚空藏自说清净法界明
-    rationale: 为成就出世殊胜功德故兼传虚空藏自说之明使世出世法两全
+  - date: 0990
+    title_zh: 广说频那夜迦障难梦相
+    rationale: 行人多疑怖不知是魔故明相状授军荼利明王护身
+  - date: 0992
+    title_zh: 立五色曼荼罗以瓶水灌顶
+    rationale: 非独解脱魔障亦能灭罪增福故摄众入坛发菩提心
 events:
 - id: guji-法天-event-birth
-  person_id: guji-法天
-  title_zh: 生于中印度摩伽陀国
-  type: birth
-  date: 0930
-  year_of: 930
-  place_zh: 中印度摩伽陀国
-  description: 生于摩伽陀国后入那烂陀寺出家学习三藏教法
-- id: guji-法天-event-ru-song
-  person_id: guji-法天
-  title_zh: 奉诏入宋授三藏传教大师
-  type: career
-  date: 0982
-  year_of: 982
-  place_zh: 宋京师译经院
-  description: 自西天中印度来宋奉诏译经得赐紫沙门号授三藏传教大师
-- id: guji-法天-event-translate
-  person_id: guji-法天
-  title_zh: 译出圣虚空藏菩萨陀罗尼经
-  type: career
+  person_qid: guji-法天
+  title_zh: 西域诞生
+  date: 0960
+  year_of: 960
+  place_zh: 西域
+  description_zh: 约显德年间生于西域精通梵汉后随法西来
+- id: guji-法天-event-enter-yijing
+  person_qid: guji-法天
+  title_zh: 入宋译经院拜传教大师
+  date: 0980
+  year_of: 980
+  place_zh: 东京译经院
+  description_zh: 太平兴国中入译经院授朝散大夫试鸿胪少卿传教大师奉诏译经
+- id: guji-法天-event-translate-miaobi
+  person_qid: guji-法天
+  title_zh: 译妙臂菩萨所问经二卷
   date: 0984
   year_of: 984
-  place_zh: 宋译场
-  description: 译喜乐山顶释迦召集七如来为虚空藏说除疾病遣部多陀罗尼及虚空藏自说清净法界明具载持验护摩之法
+  place_zh: 东京译经院
+  description_zh: 译出得胜师助伴选求胜处数珠持心金刚杵频那夜迦悉地相等分
+- id: guji-法天-event-teach-mandala
+  person_qid: guji-法天
+  title_zh: 传授五色曼荼罗除障法
+  date: 0992
+  year_of: 992
+  place_zh: 山林池侧净处
+  description_zh: 教人作四肘曼荼罗安四瓶诵甘露军荼利百遍灌顶解频那夜迦障
 - id: guji-法天-event-death
-  person_id: guji-法天
-  title_zh: 卒于宋咸平四年
-  type: death
+  person_qid: guji-法天
+  title_zh: 咸平四年示寂
   date: '1001'
   year_of: 1001
-  place_zh: 宋京师
-  description: 译场传教毕卒于宋真宗咸平四年译业流通后世
+  place_zh: 东京
+  description_zh: 宋真宗咸平四年示寂毕生译经弘密功在后学
