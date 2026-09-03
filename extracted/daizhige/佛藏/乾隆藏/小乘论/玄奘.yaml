@@ -6,145 +6,143 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: 0602-04-06
+      date: '0602'
       precision: year
       is_circa: false
-      raw: 隋仁寿二年
+      raw: 隋仁寿二年生于缑氏
     death:
-      date: 0664-03-07
-      precision: year
+      date: '0664-03-07'
+      precision: day
       is_circa: false
-      raw: 唐麟德元年
-  birth_date: 0602-04-06
-  death_date: 0664-03-07
-  era: 隋唐
-  reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 求法译经师
+      raw: 唐麟德元年卒于玉华宫
+  birth_date: '0602'
+  death_date: '0664-03-07'
+  era: 唐
+  reign_ref: 贞观
+  archetype: 西行译经弘法者
   dilemmas:
-  - 中土经论众说纷纭留则惑不解西行则路远刑险
-  - 梵本浩繁译则力有未逮不译则正法难显
-  lesson: 以真切疑情发长途之行以精严考据成不朽之译
-  summary_first_person: 吾姓陈名袆洛州缑氏人也少出家慕法不惮远涉流沙至于天竺遍礼圣迹就学那烂陀归而设译场于慈恩遍翻经论晚更重译异部宗轮论以明佛灭后诸部分宗之异同愿后学采沙中之金择取真实
+  - title_zh: 违禁西行与安居守戒
+    description_zh: 为求圆满法门不顾禁令偷渡西行以全求法之愿
+  - title_zh: 大乘弘传与小乘胜宗兼译
+    description_zh: 既弘瑜伽唯识亦奉诏译胜宗十句义以存实德业等义利后学
+  lesson: 为法忘躯方能贯通大小乘而利后世
+  summary_first_person: 吾玄奘幼出家感中土经阙故西行万里取经归而奉诏译经连胜宗十句义论亦传译以明实德业同异等十句之旨
   source_urls:
-  - https://cbeta.org/result/normal/T32/T2031_001
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E8%83%9C%E5%AE%97%E5%8D%81%E5%8F%A5%E4%B9%89%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E8%83%9C%E5%AE%97%E5%8D%81%E5%8F%A5%E4%B9%89%E8%AE%BA.html
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行求法遍学印土
-  goal: 穷究瑜伽唯识以决中土疑网
+  title_zh: 西天取经求法
+  summary_zh: 贞观初年偷渡玉门西行历印度学瑜伽行派十七年而归
   phases:
   - key: brewing
-    name: 长安惑起
+    name: 长安发愿求法
     labels:
-      zh: 蓄势
-    start_date: 0622-01-01
-    highlight_event_id: guji-玄奘-event-depart
+      zh:
+      - 求法发愿
+    start_date: '0626'
+    highlight_event_id: guji-玄奘-event-xixing
   - key: breakthrough
-    name: 偷渡玉门
+    name: 偷渡出关西行
     labels:
-      zh: 突破
-    start_date: 0629-08-01
-    highlight_event_id: guji-玄奘-event-depart
+      zh:
+      - 西行突破
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 那烂陀问道
+    name: 那烂陀学法扬名
     labels:
-      zh: 高峰
-    start_date: 0633-01-01
-    highlight_event_id: guji-玄奘-event-study
+      zh:
+      - 印度学法
+    start_date: '0636'
+    highlight_event_id: guji-玄奘-event-qiufa
   - key: closure
-    name: 负经东归
+    name: 负经东归长安
     labels:
-      zh: 收束
-    start_date: 0643-01-01
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 载誉东归
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-huijing
   decisions:
-  - date: 0629-08-01
-    title_zh: 违禁西行
-    rationale: 义理未决与其空争不如亲就印师纵犯禁令亦往
-  - date: 0633-01-01
-    title_zh: 师事戒贤
-    rationale: 那烂陀戒贤深达瑜伽专心听受五年方尽其奥
-  - date: 0643-01-01
-    title_zh: 携经归国
-    rationale: 所获梵本六百余部不归则中土无所禀承故冒雪东还
+  - date: 0629
+    title_zh: 违禁偷渡出玉门关
+    rationale: 中土经阙唯识为求圆教不惜身命西行
+  - date: '0645'
+    title_zh: 携六百余部经归唐
+    rationale: 以译经利国为归宿应太宗迎请回京主持译场
 - id: guji-玄奘-endeavor-2
-  title_zh: 设场译经弘阐宗轮
-  goal: 正译梵本使圣教异部本末可考
+  title_zh: 奉诏译经传胜宗义
+  summary_zh: 归国后主持译场奉诏译出胜宗十句义论明十句义理
   phases:
   - key: brewing
-    name: 太宗礼迎
+    name: 太宗迎请入弘福寺
     labels:
-      zh: 蓄势
-    start_date: 0645-02-15
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 奉诏译经
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-huijing
   - key: breakthrough
-    name: 慈恩建场
+    name: 创译场定新译体例
     labels:
-      zh: 突破
-    start_date: 0648-01-01
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 译场创制
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-yishengzong
   - key: climax
-    name: 重译宗轮论
+    name: 译出胜宗十句义论
     labels:
-      zh: 高峰
-    start_date: 0658-06-01
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 胜宗译传
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-yishengzong
   - key: closure
-    name: 玉华示寂
+    name: 玉华著述守译业终
     labels:
-      zh: 收束
-    start_date: 0664-01-01
+      zh:
+      - 守业圆寂
+    start_date: 0659
     highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0648-01-01
-    title_zh: 敷设译场广召贤助
-    rationale: 大经非一人可办须证义笔受缀文分职方无谬
-  - date: 0658-06-01
-    title_zh: 备详梵本再译宗轮
-    rationale: 旧译部执多略世友造论条理分明当重翻以文惬义无谬
-  - date: 0660-01-01
-    title_zh: 守戒专译不预朝政
-    rationale: 译业未竟不敢以世务分心唯以经教为报国
+  - date: 0648
+    title_zh: 译胜者慧月胜宗十句义
+    rationale: 以十句实德业等明胜宗体系补中土因明量论之缺
+  - date: 0659
+    title_zh: 移玉华宫专心译述
+    rationale: 远朝扰专志译经以毕此生弘法之愿
 events:
 - id: guji-玄奘-event-birth
-  date: 0602-04-06
+  date: '0602'
   year_of: 602
   title_zh: 生于洛州缑氏
-  description: 隋仁寿二年生陈氏家幼颖悟十三出家于洛阳
-  place_zh: 洛州缑氏
-  type: birth
-- id: guji-玄奘-event-depart
-  date: 0629-08-01
+  description_zh: 隋仁寿二年生陈氏家幼颖悟出家洛阳净土寺
+  event_type: birth
+- id: guji-玄奘-event-xixing
+  date: '0629-08-01'
   year_of: 629
-  title_zh: 贞观三年西行出境
-  description: 自长安出发偷渡玉门度流沙经高昌龟兹至于天竺
-  place_zh: 玉门关外
-  type: career
-- id: guji-玄奘-event-study
-  date: 0633-01-01
-  year_of: 633
-  title_zh: 就学那烂陀
-  description: 师事戒贤学瑜伽师地论兼通异部宗义遍礼圣迹
-  place_zh: 中天竺那烂陀寺
-  type: career
-- id: guji-玄奘-event-return
-  date: 0645-02-15
+  title_zh: 西行出关
+  description_zh: 贞观三年自长安偷渡凉州玉门关西行求法
+  event_type: career
+- id: guji-玄奘-event-qiufa
+  date: '0636-01-01'
+  year_of: 636
+  title_zh: 那烂陀寺学法
+  description_zh: 抵摩竭陀那烂陀寺从戒贤学瑜伽唯识兼悉小乘胜宗实德业义
+  event_type: career
+- id: guji-玄奘-event-huijing
+  date: '0645-01-01'
   year_of: 645
-  title_zh: 贞观十九年归长安
-  description: 携梵本六百五十七部归国太宗遣使迎于郊外
-  place_zh: 长安
-  type: career
-- id: guji-玄奘-event-translate
-  date: 0658-06-01
-  year_of: 658
-  title_zh: 重译异部宗轮论
-  description: 备详众梵本再译世友菩萨所造宗轮论一卷述本末二十部同义异义毕而作颂以记之
-  place_zh: 长安慈恩寺
-  type: career
+  title_zh: 归京受迎请
+  description_zh: 贞观十九年归长安太宗迎于洛阳令住弘福寺主持译经
+  event_type: career
+- id: guji-玄奘-event-yishengzong
+  date: '0648-01-01'
+  year_of: 648
+  title_zh: 奉诏译胜宗十句义论
+  description_zh: 译胜者慧月所造胜宗十句义论明实德业同异和合能无能俱分无说十句
+  event_type: career
 - id: guji-玄奘-event-death
-  date: 0664-03-07
+  date: '0664-03-07'
   year_of: 664
-  title_zh: 示寂于玉华宫
-  description: 麟德元年正月译毕般若终而示疾二月初五寂于玉华宫刚业寺
-  place_zh: 玉华宫
-  type: death
+  title_zh: 卒于玉华宫
+  description_zh: 麟德元年二月卒于玉华宫嘉寿殿毕生译经七十五部
+  event_type: death
