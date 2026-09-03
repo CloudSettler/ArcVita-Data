@@ -1,0 +1,159 @@
+person:
+  qid: guji-义净
+  name_zh: 义净
+  names:
+    zh: 义净
+    en: Yijing
+  lifespan:
+    birth:
+      date: 413
+      precision: year
+      is_circa: false
+      raw: 唐贞观九年
+    death:
+      date: 459
+      precision: year
+      is_circa: false
+      raw: 唐先天二年
+  birth_date: 413
+  death_date: 459
+  era: 唐
+  reign_ref: 唐高宗至唐玄宗
+  archetype: 西行求法译律弘法高僧
+  dilemmas:
+  - 幼慕西游而海路险远亲老途遥，去留难决
+  - 梵本浩繁而中土律疏乖谬，专弘律部还是兼译显密
+  lesson: 以十年南海之艰换律制之正，以余生译场之勤报求法之恩
+  summary_first_person: 我是义净，范阳张氏子，七岁出家，慕法显玄奘之踪，咸亨二年浮海西行，那烂陀研律十余年，携梵本归洛，奉武后睿宗之诏专弘律部兼译显密，神龙元年于大福先寺译出一切功德庄严王经，愿以此经王饶益赡部洲众生
+  source_urls:
+  - https://daizhige.org/fozang/dazangjing/jingzang/mijiaobu.html
+  - https://tripitaka.cbeta.org/T1374
+endeavors:
+- id: guji-义净-endeavor-1
+  title_zh: 南海西行求法取律
+  summary: 咸亨二年自广州浮海，经室利佛逝至中天竺，于那烂陀及各地广学三藏，尤精律部，二十余年后携梵本四百余部归国
+  phases:
+  - key: brewing
+    name: 少小出家立志西游
+    labels:
+      zh:
+      - 立志
+    start_date: 0649
+    highlight_event_id: guji-义净-event-birth
+  - key: breakthrough
+    name: 浮海南渡出国门
+    labels:
+      zh:
+      - 首航
+    start_date: 441
+    highlight_event_id: guji-义净-event-depart
+  - key: climax
+    name: 那烂陀留学精律
+    labels:
+      zh:
+      - 深造
+    start_date: 446
+    highlight_event_id: guji-义净-event-nalanda
+  - key: closure
+    name: 携经东归达洛阳
+    labels:
+      zh:
+      - 归国
+    start_date: 0695
+    highlight_event_id: guji-义净-event-return
+  decisions:
+  - date: 441
+    title_zh: 决意浮海不候官船
+    rationale: 慕玄奘西行之志，恐年岁蹉跎，趁商舶南去即附船出洋，以速求正法
+  - date: 0685
+    title_zh: 久住印度精研有部律
+    rationale: 见中土律疏分歧，须于根本道场尽得梵本师承，方能归国定是非
+- id: guji-义净-endeavor-2
+  title_zh: 洛阳长安奉诏译经
+  summary: 归国后受武后礼遇为三藏，主持大福先寺等译场，译出根本说一切有部律及大乘显密经律五十六部二百三十卷
+  phases:
+  - key: brewing
+    name: 武后迎劳授三藏
+    labels:
+      zh:
+      - 礼遇
+    start_date: 0695
+    highlight_event_id: guji-义净-event-return
+  - key: breakthrough
+    name: 奉诏开场译律传
+    labels:
+      zh:
+      - 开译
+    start_date: 448
+    highlight_event_id: guji-义净-event-translate-start
+  - key: climax
+    name: 神龙译出庄严王经
+    labels:
+      zh:
+      - 盛译
+    start_date: 0705-07-15
+    highlight_event_id: guji-义净-event-zhuangyanwang
+  - key: closure
+    name: 圆寂终南留遗教
+    labels:
+      zh:
+      - 圆寂
+    start_date: 459
+    highlight_event_id: guji-义净-event-death
+  decisions:
+  - date: 0695
+    title_zh: 献梵本请立译场
+    rationale: 梵本不译则慧命不续，请求朝廷给译伴润文，速成律藏以正四众行持
+  - date: 0705-07-15
+    title_zh: 于大福先寺译功德庄严王经
+    rationale: 见赡部洲灾疫罪苦，须以经王陀罗尼令众生消障增福，故新译并缀文正字流通
+events:
+- id: guji-义净-event-birth
+  type: birth
+  title_zh: 范阳出生出家
+  date: 413
+  year_of: 635
+  place_zh: 范阳
+  summary: 唐贞观九年生于范阳张氏，七岁出家，十四受具，博览三藏
+- id: guji-义净-event-depart
+  type: career
+  title_zh: 广州浮海西行
+  date: 441
+  year_of: 671
+  place_zh: 广州
+  summary: 咸亨二年自广州附商舶南行，经室利佛逝留住数年，再向天竺
+- id: guji-义净-event-nalanda
+  type: career
+  title_zh: 那烂陀寺学律
+  date: 446
+  year_of: 676
+  place_zh: 那烂陀寺
+  summary: 抵中天竺那烂陀寺，师从宝思惟等，研习有部律论及大乘，兼学声明
+- id: guji-义净-event-return
+  type: career
+  title_zh: 携经归至洛阳
+  date: 0695
+  year_of: 695
+  place_zh: 洛阳
+  summary: 证圣元年携梵本四百余部及佛舍利归洛，武后亲迎于上东门，敕授三藏
+- id: guji-义净-event-translate-start
+  type: career
+  title_zh: 奉诏主持译场
+  date: 448
+  year_of: 700
+  place_zh: 洛阳大福先寺
+  summary: 久视以后领译经大任，与证义笔受润文诸德合作，专译有部广律及南海寄归传等
+- id: guji-义净-event-zhuangyanwang
+  type: career
+  title_zh: 新译功德庄严王经
+  date: 0705-07-15
+  year_of: 705
+  place_zh: 洛州大福先寺
+  summary: 大唐神龙元年七月十五日奉制译出佛说一切功德庄严王经一卷，宣说胜妙陀罗尼及护国消灾法
+- id: guji-义净-event-death
+  type: death
+  title_zh: 长安圆寂
+  date: 459
+  year_of: 713
+  place_zh: 长安
+  summary: 唐先天二年圆寂于长安，春秋七十九，谥号鸿胪卿，葬于终南，全 translation 功德永利后世
