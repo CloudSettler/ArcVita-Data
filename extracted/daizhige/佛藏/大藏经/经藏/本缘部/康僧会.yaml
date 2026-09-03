@@ -6,129 +6,134 @@ person:
     en: Kang Senghui
   lifespan:
     birth:
-      date: '0200'
+      date: 0195
       precision: year
       is_circa: true
-      raw: 生年不详约汉末康居世居天竺
+      raw: 生年不详约汉末生于交趾
     death:
       date: 0280
       precision: year
       is_circa: false
-      raw: 吴天纪四年卒于建业
-  birth_date: '0200'
+      raw: 晋太康元年卒于建业
+  birth_date: 0195
   death_date: 0280
-  era: 三国吴
-  reign_ref: 吴大帝孙权至末帝孙皓
-  archetype: 译经弘法者
+  era: 三国吴至西晋
+  reign_ref: 吴大帝孙权赤乌至晋武帝太康
+  archetype: 译经弘法高僧
   dilemmas:
-  - 异域沙门如何取信吴主而立佛法
-  - 乱世暴政之下如何以慈惠忍辱弘化不辍
-  lesson: 以布施慈惠为本忍辱精进弘化方能感通神人成就佛道
-  summary_first_person: 吾本康居世居天竺，因乱南渡入吴，蒙吴主召见以舍利感瑞立建初寺，译六度集经明布施持戒忍辱精进禅智之行，愿济众生共得泥洹
+  - 吴地初无佛法异域沙门孤立难信之困
+  - 以舍利感通取信帝王与持戒不妄语之衡
+  - 译梵为吴文质兼顾义不失真之难
+  lesson: 直信持戒以慈化俗感通不求而至译经立教功在万世
+  summary_first_person: 吾康僧会本康居之后世居天竺交趾出家入吴译旧杂譬喻与六度集等经感舍利建建初寺愿以五戒十善通道天下使后世知佛法至真无量
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/本缘部/六度集经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/本缘部/六度集经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/本缘部/旧杂譬喻经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/本缘部/旧杂譬喻经.html
+  - https://tripitaka.cbeta.org/T0206
 endeavors:
 - id: guji-康僧会-endeavor-1
-  title_zh: 入吴建业弘法立寺
-  summary_zh: 自交广入建业应孙权征求舍利感应建建初寺开江南佛法之基
+  title_zh: 译梵为吴述集譬喻
+  description: 于建业译出旧杂譬喻经六度集经等以浅喻弘深法开吴地佛典之先
   phases:
   - key: brewing
-    name: 随亲南迁少出家博学
+    name: 交趾出家博览三藏
     labels:
-      zh:
-      - 迁徙学道
-    start_date: '0240'
+      zh: 学法酝酿
+    start_date: '0215'
     highlight_event_id: guji-康僧会-event-birth
   - key: breakthrough
-    name: 赤乌入吴面见孙权
+    name: 入吴见俗无佛法立志翻译
     labels:
-      zh:
-      - 初入建业
+      zh: 立志译经
     start_date: '0247'
-    highlight_event_id: guji-康僧会-event-arrive
+    highlight_event_id: guji-康僧会-event-247-arrive
   - key: climax
-    name: 三七祈请舍利感瑞
+    name: 译旧杂譬喻弘五戒十善
     labels:
-      zh:
-      - 感瑞立信
-    start_date: '0247'
-    highlight_event_id: guji-康僧会-event-arrive
+      zh: 译经高潮
+    start_date: '0251'
+    highlight_event_id: guji-康僧会-event-251-translate
   - key: closure
-    name: 敕建建初寺度众弘化
+    name: 集经授徒法留在世
     labels:
-      zh:
-      - 建寺弘法
-    start_date: 0248
-    highlight_event_id: guji-康僧会-event-arrive
+      zh: 付嘱流通
+    start_date: '0252'
+    highlight_event_id: guji-康僧会-event-251-translate
   decisions:
   - date: '0247'
-    title_zh: 应召祈请舍利以实证化
-    rationale: 吴主好奇未信唯神异可开其心故发愿感通以立佛法
-  - date: 0248
-    title_zh: 受请留止建寺译经
-    rationale: 欲使江南有归依之所经像住世故承敕建寺聚众弘化
+    title_zh: 以譬喻入道先译浅近
+    rationale: 吴俗未闻佛法宜以本生譬喻劝五戒十善故先译旧杂譬喻
+  - date: '0251'
+    title_zh: 直译质朴不饰文藻
+    rationale: 恐失经义宁质不华使义理可信便于讽诵受持
 - id: guji-康僧会-endeavor-2
-  title_zh: 译集六度本生弘扬菩萨行
-  summary_zh: 采集本生因缘译出六度集经等以布施为首劝化君民行六度求佛
+  title_zh: 建业感舍利立教建寺
+  description: 赤乌中感得佛舍利化孙权建建初寺立僧伽开江南佛化之基
   phases:
   - key: brewing
-    name: 搜集群经本生因缘
+    name: 初至建业无人信向
     labels:
-      zh:
-      - 搜集整理
-    start_date: 0249
-    highlight_event_id: guji-康僧会-event-translate
+      zh: 弘化艰难
+    start_date: '0247'
+    highlight_event_id: guji-康僧会-event-247-arrive
   - key: breakthrough
-    name: 始译吴品杂譬喻开化
+    name: 立誓感舍利现灵瑞
     labels:
-      zh:
-      - 译经开化
-    start_date: '0251'
-    highlight_event_id: guji-康僧会-event-translate
+      zh: 舍利感通
+    start_date: 0249
+    highlight_event_id: guji-康僧会-event-249-relic
   - key: climax
-    name: 译成六度集经明六度无极
+    name: 孙权归信建建初寺
     labels:
-      zh:
-      - 六度集经
-    start_date: '0251'
-    highlight_event_id: guji-康僧会-event-translate
+      zh: 立寺弘化
+    start_date: '0250'
+    highlight_event_id: guji-康僧会-event-249-relic
   - key: closure
-    name: 讲演流通君民归戒
+    name: 皓代护法至晋圆寂
     labels:
-      zh:
-      - 讲演流通
-    start_date: '0270'
-    highlight_event_id: guji-康僧会-event-translate
+      zh: 守道善终
+    start_date: 0280
+    highlight_event_id: guji-康僧会-event-death
   decisions:
-  - date: '0251'
-    title_zh: 以布施度为首集成本生
-    rationale: 见世人悭贪国主暴虐故以布施济众感化为先导引六度
-  - date: '0270'
-    title_zh: 直谏孙皓守道不屈
-    rationale: 护法不畏王威宁以身殉道不违戒律故终感悟主悔过
+  - date: 0249
+    title_zh: 以三七日立限求舍利
+    rationale: 不以空言化帝王愿以戒行感圣迹使国主亲见乃信
+  - date: '0250'
+    title_zh: 受请建寺不受爵禄
+    rationale: 欲使佛法久住在僧伽清修不在荣贵故立建初寺以安众
 events:
 - id: guji-康僧会-event-birth
   type: birth
-  title_zh: 生于康居世居天竺
-  date: '0200'
-  year_of: 200
-  description: 康居国人世居天竺父为商贾少而博学出家究明三藏
-- id: guji-康僧会-event-arrive
-  type: career
-  title_zh: 赤乌十年至建业见孙权
+  date: 0195
+  year_of: 195
+  title_zh: 生于交趾康氏家
+  description: 先世康居人世居天竺后徙交趾父为丞相少出家博通三藏
+  place_zh: 交趾
+- id: guji-康僧会-event-247-arrive
+  type: endeavor
   date: '0247'
   year_of: 247
-  description: 初入吴都孙权召见求舍利三七日感得灵瑞遂敕建建初寺
-- id: guji-康僧会-event-translate
-  type: career
-  title_zh: 译出六度集经弘扬六度
+  title_zh: 入建业弘法
+  description: 赤乌年中初至吴都会稽建业吴地未有佛法独弘戒律譬喻之教
+  place_zh: 建业
+- id: guji-康僧会-event-249-relic
+  type: endeavor
+  date: 0249
+  year_of: 249
+  title_zh: 感得舍利孙权建寺
+  description: 对孙权立三七日期感得舍利瓶光色晃曜权大信悟为建建初寺度僧
+  place_zh: 建业宫中
+- id: guji-康僧会-event-251-translate
+  type: endeavor
   date: '0251'
   year_of: 251
-  description: 译六度集经八卷以布施章居首集菩萨本生明六度无极难逮高行
+  title_zh: 译旧杂譬喻经等
+  description: 与弟子译六度集经旧杂譬喻经吴品等以萨薄降鬼孔雀说法诸缘劝五戒十善
+  place_zh: 建初寺
 - id: guji-康僧会-event-death
   type: death
-  title_zh: 天纪四年示寂建业
   date: 0280
   year_of: 280
-  description: 历事三主弘化江南护法译经三十余载至吴亡之岁示寂建业
+  title_zh: 圆寂于建业
+  description: 历吴三主至晋太康元年示寂茶毗舍利江南僧俗追慕立塔供养
+  place_zh: 建业
