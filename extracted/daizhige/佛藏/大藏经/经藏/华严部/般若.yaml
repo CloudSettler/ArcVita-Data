@@ -1,0 +1,128 @@
+person:
+  qid: guji-般若
+  name_zh: 般若
+  names:
+    zh: 般若
+    en: Prajna
+  lifespan:
+    birth:
+      date: 0734-01-01
+      precision: year
+      is_circa: true
+      raw: 唐开元二十二年左右生于罽宾国
+    death:
+      date: 0810-01-01
+      precision: year
+      is_circa: true
+      raw: 唐元和五年左右卒于长安
+  birth_date: 0734-01-01
+  death_date: 0810-01-01
+  era: 唐
+  reign_ref: 唐德宗贞元
+  archetype: 取经译经三藏
+  dilemmas:
+  - 梵本义广文繁而华言易略，如何两存密意与易解
+  - 旧译华严已行于世，再译普贤行愿别品如何取信于众
+  lesson: 以重译补阙弘愿为业，不争先而补缺，终使普贤行愿广行中土
+  summary_first_person: 我是罽宾三藏般若，奉诏入唐，于贞元中重译华严入不思议解脱境界普贤行愿四十卷，愿以普贤行愿导归极乐，利乐无尽众生
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%8D%8E%E4%B8%A5%E9%83%A8/%E5%A4%A7%E6%96%B9%E5%B9%BF%E4%BD%9B%E5%8D%8E%E4%B8%A5%E7%BB%8F-%E5%94%90-%E8%88%AC%E8%8B%A5.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%8D%8E%E4%B8%A5%E9%83%A8/%E5%A4%A7%E6%96%B9%E5%B9%BF%E4%BD%9B%E5%8D%8E%E4%B8%A5%E7%BB%8F-%E5%94%90-%E8%88%AC%E8%8B%A5.html
+endeavors:
+- id: guji-般若-endeavor-1
+  title_zh: 罽宾习学西域求法入唐
+  summary: 自罽宾出家习三藏，历西域诸国求梵本，大历初抵长安入译场预翻经
+  phases:
+  - key: brewing
+    name: 罽宾出家习三藏
+    labels:
+      zh: 酝酿习学
+    start_date: 0734-01-01
+    highlight_event_id: guji-般若-event-birth
+  - key: breakthrough
+    name: 历游西域携梵本东来
+    labels:
+      zh: 突破远游
+    start_date: 0781-01-01
+    highlight_event_id: guji-般若-event-arrival
+  - key: closure
+    name: 入长安译场通华梵
+    labels:
+      zh: 收束入场
+    start_date: 0785-01-01
+    highlight_event_id: guji-般若-event-arrival
+  decisions:
+  - date: 0781-01-01
+    title_zh: 携梵本东赴大唐
+    rationale: 慕唐翻经宏备，愿以华严梵本弘传中土
+  - date: 0785-01-01
+    title_zh: 留住长安预译经润文
+    rationale: 通华梵而助译场，积缘待时别译华严
+- id: guji-般若-endeavor-2
+  title_zh: 奉诏重译华严四十卷
+  summary: 贞元中奉德宗诏于大崇福寺译出入不思议解脱境界普贤行愿品四十卷
+  phases:
+  - key: brewing
+    name: 奏请别译普贤行愿
+    labels:
+      zh: 酝酿奏请
+    start_date: 0796-01-01
+    highlight_event_id: guji-般若-event-translation-start
+  - key: climax
+    name: 大崇福寺开场传译
+    labels:
+      zh: 高潮传译
+    start_date: 0797-01-01
+    highlight_event_id: guji-般若-event-translation-start
+  - key: closure
+    name: 四十卷成进呈流通
+    labels:
+      zh: 收束流通
+    start_date: 0798-01-01
+    highlight_event_id: guji-般若-event-translation-complete
+  decisions:
+  - date: 0796-01-01
+    title_zh: 请译乌荼国进华严梵本后分
+    rationale: 旧译未摄普贤行愿广义，当补阙以全普贤愿海
+  - date: 0798-01-01
+    title_zh: 定名入不思议解脱境界普贤行愿品
+    rationale: 显此品为华严归宿，明入解脱以行愿为要
+events:
+- id: guji-般若-event-birth
+  title_zh: 生于罽宾国
+  date: 0734-01-01
+  year_of: 734
+  place_zh: 罽宾国
+  description: 罽宾国出家，研习三藏，兼通显密
+  is_circa: true
+  precision: year
+- id: guji-般若-event-arrival
+  title_zh: 抵长安入译场
+  date: 0781-01-01
+  year_of: 781
+  place_zh: 长安
+  description: 大历中携梵本至长安，预译场，习华言润色
+  is_circa: true
+  precision: year
+- id: guji-般若-event-translation-start
+  title_zh: 奉诏于大崇福寺译华严
+  date: 0796-01-01
+  year_of: 796
+  place_zh: 长安大崇福寺
+  description: 德宗贞元十二年奉诏开译华严入不思议解脱境界普贤行愿梵本
+  precision: year
+- id: guji-般若-event-translation-complete
+  title_zh: 华严四十卷译成进呈
+  date: 0798-01-01
+  year_of: 798
+  place_zh: 长安
+  description: 贞元十四年译成四十卷，广明普贤十大愿王导归极乐，盛行于世
+  precision: year
+- id: guji-般若-event-death
+  title_zh: 卒于长安
+  date: 0810-01-01
+  year_of: 810
+  place_zh: 长安
+  description: 译事既毕，住持弘化，不久圆寂，塔于中土
+  is_circa: true
+  precision: year

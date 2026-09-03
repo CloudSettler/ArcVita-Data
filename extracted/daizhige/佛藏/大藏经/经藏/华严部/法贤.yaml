@@ -1,0 +1,152 @@
+person:
+  qid: guji-法贤
+  name_zh: 法贤
+  names:
+    zh: 法贤
+    en: Faxian
+  lifespan:
+    birth:
+      date: '0950-01-01'
+      precision: year
+      is_circa: true
+      raw: 宋初约十世纪中生于天竺
+    death:
+      date: '1001-01-01'
+      precision: year
+      is_circa: false
+      raw: 宋真宗咸平四年卒
+  birth_date: '0950-01-01'
+  death_date: '1001-01-01'
+  era: 北宋
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 译师
+  dilemmas:
+  - 梵汉悬隔而译义须精当不失
+  - 奉诏译经而兼顾劝众受持弘通
+  lesson: 以精勤译述较量功德令人信受奉行
+  summary_first_person: 吾本天竺学人奉诏入宋译经院惟愿梵义不失华言畅达使众生闻佛刹功德而发菩提心
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%8D%8E%E4%B8%A5%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%BE%83%E9%87%8F%E4%B8%80%E5%88%87%E4%BD%9B%E5%88%B9%E5%8A%9F%E5%BE%B7%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%8D%8E%E4%B8%A5%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%BE%83%E9%87%8F%E4%B8%80%E5%88%87%E4%BD%9B%E5%88%B9%E5%8A%9F%E5%BE%B7%E7%BB%8F.md
+endeavors:
+- id: guji-法贤-endeavor-1
+  person_qid: guji-法贤
+  title_zh: 西天译经院奉诏译经
+  summary_zh: 入译经院与众共译显密诸经授朝散大夫试光禄卿明教大师
+  phases:
+  - key: brewing
+    name: 渡航入华习华言佛理
+    labels:
+      zh:
+      - 习语
+    start_date: '0980-01-01'
+    highlight_event_id: guji-法贤-event-translate-start
+  - key: breakthrough
+    name: 入译经院参译群经
+    labels:
+      zh:
+      - 正译
+    start_date: '0982-01-01'
+    highlight_event_id: guji-法贤-event-translate-start
+  - key: climax
+    name: 译出较量一切佛刹功德经
+    labels:
+      zh:
+      - 较量功德
+    start_date: '0990-01-01'
+    highlight_event_id: guji-法贤-event-jiaoliang
+  - key: closure
+    name: 译功圆满授官护典
+    labels:
+      zh:
+      - 授官
+    start_date: '0999-01-01'
+    highlight_event_id: guji-法贤-event-preach
+  decisions:
+  - date: '0982-01-01'
+    title_zh: 应诏入译经院参译
+    rationale: 欲使梵典东传义不阙失故就译场共成大业
+  - date: '0990-01-01'
+    title_zh: 译出较量一切佛刹功德经
+    rationale: 欲以劫时较量显佛刹功德难思劝众受持故特译此经
+- id: guji-法贤-endeavor-2
+  person_qid: guji-法贤-endeavor-2
+  title_zh: 弘宣佛刹功德劝众受持
+  summary_zh: 演说娑婆极乐诸刹时分较量劝众受持读诵为他解说
+  phases:
+  - key: brewing
+    name: 演说不思议光王所问
+    labels:
+      zh:
+      - 演说
+    start_date: '0990-01-01'
+    highlight_event_id: guji-法贤-event-jiaoliang
+  - key: breakthrough
+    name: 劝众受持读诵此经
+    labels:
+      zh:
+      - 劝持
+    start_date: '0995-01-01'
+    highlight_event_id: guji-法贤-event-preach
+  - key: climax
+    name: 示现十方诸佛现前满愿
+    labels:
+      zh:
+      - 满愿
+    start_date: '0995-06-01'
+    highlight_event_id: guji-法贤-event-preach
+  - key: closure
+    name: 大众欢喜信受奉行
+    labels:
+      zh:
+      - 奉行
+    start_date: '1001-01-01'
+    highlight_event_id: guji-法贤-event-death
+  decisions:
+  - date: '0995-01-01'
+    title_zh: 弘宣受持满愿功德
+    rationale: 欲令命终有情蒙十方佛现前满愿故劝受持解说
+  - date: '0999-01-01'
+    title_zh: 安住译场护持华严正法
+    rationale: 欲使华严部典久住中土故终身护典不辍
+events:
+- id: guji-法贤-event-birth
+  person_qid: guji-法贤
+  type: birth
+  title_zh: 法贤生于天竺
+  date: '0950-01-01'
+  year_of: 950
+  place_zh: 天竺那烂陀一带
+  summary_zh: 天竺学人少习三藏后渡航入华
+- id: guji-法贤-event-translate-start
+  person_qid: guji-法贤
+  type: career
+  title_zh: 奉诏入西天译经院参译
+  date: '0982-01-01'
+  year_of: 982
+  place_zh: 开封译经院
+  summary_zh: 与法天施护等共译显密诸经名列译经三藏
+- id: guji-法贤-event-jiaoliang
+  person_qid: guji-法贤
+  type: career
+  title_zh: 译出较量一切佛刹功德经
+  date: '0990-01-01'
+  year_of: 990
+  place_zh: 开封译经院
+  summary_zh: 奉诏译出不思议光王较量娑婆极乐乃至莲花吉祥诸刹时分功德之经
+- id: guji-法贤-event-preach
+  person_qid: guji-法贤
+  type: career
+  title_zh: 弘宣受持较量功德经
+  date: '0995-01-01'
+  year_of: 995
+  place_zh: 开封
+  summary_zh: 劝众受持读诵为他解说示命终蒙十方佛现前满愿
+- id: guji-法贤-event-death
+  person_qid: guji-法贤
+  type: death
+  title_zh: 法贤卒于宋真宗咸平年间
+  date: '1001-01-01'
+  year_of: 1001
+  place_zh: 开封
+  summary_zh: 译业圆满示寂大众信受其所译功德经奉行不辍

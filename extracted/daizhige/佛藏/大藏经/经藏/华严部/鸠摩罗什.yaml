@@ -6,128 +6,136 @@ person:
     en: Kumarajiva
   lifespan:
     birth:
-      date: 0344-01-01
+      date: '0344'
       precision: year
-      is_circa: false
-      raw: 东晋建元十年生于龟兹
+      is_circa: true
+      raw: 约秦建元十年生于龟兹
     death:
-      date: 0413-01-01
+      date: '0413'
       precision: year
       is_circa: false
-      raw: 姚秦弘始十五年卒于长安
-  birth_date: 0344-01-01
-  death_date: 0413-01-01
-  era: 东晋十六国
-  reign_ref: 姚秦姚兴弘始年间
-  archetype: 译经圣师
+      raw: 姚秦弘始十五年寂于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国姚秦
+  reign_ref: 姚兴弘始年间
+  archetype: 译经弘法高僧
   dilemmas:
-  - 小乘专精与大乘空观之间如何抉择转向
-  - 凉州久留不得东进时如何安忍待机
-  - 处王宫优礼与持戒译经之间如何自守弘法
-  lesson: 以空性正见摄持译业，不舍众生，信达雅兼而利世无穷
-  summary_first_person: 吾生龟兹，幼随母出家，先习小乘，后遇大乘而顿悟空性，虽羁凉州十七年，志在东弘，入长安领译场，译出众经，愿以此功德庄严菩提心，令众生皆得不退
+  - 小乘深固与转信大乘空慧之间的抉择
+  - 羁留凉州十余年守戒与待时弘法之间的忍耐
+  - 梵汉精严与信达流畅之间的权衡
+  lesson: 以大悲为首以智慧为导纵经劫难囚厄不舍弘传令十地法门深入汉土
+  summary_first_person: 我生龟兹幼随母出家初习小乘后契大乘空义滞留凉州十余载终入长安领译场译出十住等经唯愿众生入欢喜地渐具十地圆成佛道
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%8D%8E%E4%B8%A5%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%BA%84%E4%B8%A5%E8%8F%A9%E6%8F%90%E5%BF%83%E7%BB%8F.md
-  - https://cbeta.org/result/normal/T07/0307_001
+  - https://daizhige.org/十住经.html
+  - https://cbeta.org/result/T0286
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 西域问道由小转大
-  description_zh: 幼年随母出家，游学罽宾研小乘，后受大乘空观，名震西域诸国
+  title_zh: 西域求法转归大乘
+  summary: 幼年出家遍参西域名师由小乘转入大乘奠定译经义学之基
   phases:
   - key: brewing
-    name: 龟兹幼学
+    name: 幼年出家问道
     labels:
-      zh: 幼年出家
-    start_date: 0351-01-01
-    highlight_event_id: guji-鸠摩罗什-event-study
+      zh:
+      - 求法问道
+    start_date: '0353'
+    highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 罽宾转大
+    name: 转信大乘空宗
     labels:
-      zh: 空观顿悟
-    start_date: 0359-01-01
+      zh:
+      - 空宗觉悟
+    start_date: 0359
     highlight_event_id: guji-鸠摩罗什-event-study
   - key: climax
-    name: 西域名震
+    name: 龟兹弘化名振西域
     labels:
-      zh: 弘化西域
-    start_date: 0365-01-01
-    highlight_event_id: guji-鸠摩罗什-event-liangzhou
+      zh:
+      - 名振西域
+    start_date: 0382
+    highlight_event_id: guji-鸠摩罗什-event-study
   - key: closure
-    name: 东望弘传
+    name: 滞留凉州待时
     labels:
-      zh: 待机东行
-    start_date: 0382-01-01
-    highlight_event_id: guji-鸠摩罗什-event-liangzhou
+      zh:
+      - 待时守道
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-changan
   decisions:
-  - date: 0359-01-01
-    title_zh: 舍小乘专修大乘空观
-    rationale: 遇须耶利耶受摩诃衍，深悟诸法实相，故回小向大
-  - date: 0382-01-01
-    title_zh: 应秦请东行弘法
-    rationale: 顺苻坚吕光迎请因缘，欲以大法利东方众生
+  - date: 0359
+    title_zh: 舍小乘专弘大乘
+    rationale: 遇善师深观空性知小乘局促故发大悲转向方等
+  - date: 0384
+    title_zh: 凉州羁留安忍不退
+    rationale: 吕光劫留不违时缘而守心不改待秦主迎请以全弘法大愿
 - id: guji-鸠摩罗什-endeavor-2
-  title_zh: 长安译场庄严菩提
-  description_zh: 弘始三年入长安，领大译场，译佛说庄严菩提心经等三百余卷，开汉地大乘先河
+  title_zh: 长安译场译弘十住
+  summary: 应姚兴迎请入长安逍遥园领众译出十住等大乘要典
   phases:
   - key: brewing
-    name: 凉州安忍
+    name: 入关迎请
     labels:
-      zh: 留凉待时
-    start_date: 0384-01-01
-    highlight_event_id: guji-鸠摩罗什-event-liangzhou
+      zh:
+      - 译场肇始
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 长安迎请
+    name: 群聚译场参详义理
     labels:
-      zh: 入秦译经
-    start_date: 0401-01-01
+      zh:
+      - 规模初具
+    start_date: '0402'
     highlight_event_id: guji-鸠摩罗什-event-changan
   - key: climax
-    name: 译经高峰
+    name: 译出十住弘十地
     labels:
-      zh: 庄严菩提
-    start_date: 0402-01-01
-    highlight_event_id: guji-鸠摩罗什-event-changan
+      zh:
+      - 十地弘宣
+    start_date: '0405'
+    highlight_event_id: guji-鸠摩罗什-event-shizhu
   - key: closure
-    name: 舌根不坏
+    name: 示寂舌根不坏
     labels:
-      zh: 圆寂遗嘱
-    start_date: 0413-01-01
+      zh:
+      - 信史证验
+    start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: 0401-12-01
-    title_zh: 领八百义学重译众经
-    rationale: 秦主姚兴崇法，聚义学沙门，当重定旧译以显实义
-  - date: 0402-06-01
-    title_zh: 译出庄严菩提心经明十心十地
-    rationale: 为初发心菩萨示菩提心相与十地阶次，令得不退转故
+  - date: '0402'
+    title_zh: 立新译文体尚信达
+    rationale: 弃旧质朴务使义理流畅令十住十地易解易信
+  - date: '0405'
+    title_zh: 先译十住明十地次第
+    rationale: 众生乐小法而疑深法故以欢喜地为首渐次开演令入佛智
 events:
 - id: guji-鸠摩罗什-event-birth
-  date: 0344-01-01
+  date: '0344'
   year_of: 344
-  title_zh: 生于龟兹
-  location_zh: 西域龟兹国
-  description_zh: 父天竺鸠摩罗炎，母龟兹耆婆，生而聪慧，日诵千偈
+  title_zh: 出生龟兹
+  description: 父鸠摩罗炎母耆婆生于龟兹国自幼聪慧随母出家
+  place_zh: 龟兹国
 - id: guji-鸠摩罗什-event-study
-  date: 0353-01-01
-  year_of: 353
-  title_zh: 随母出家游学罽宾
-  location_zh: 罽宾国
-  description_zh: 七岁出家，游罽宾从槃头达多学小乘，后从须耶利耶学大乘空观
-- id: guji-鸠摩罗什-event-liangzhou
-  date: 0384-01-01
-  year_of: 384
-  title_zh: 留滞凉州十七年
-  location_zh: 凉州姑臧
-  description_zh: 吕光西征携归，淹留凉州，韬晦传法，姚秦屡请而不得东
+  date: 0382
+  year_of: 382
+  title_zh: 西行参学归返龟兹弘化
+  description: 遍学罽宾 Kashmir 名师转信大乘返龟兹弘扬方等名振西域
+  place_zh: 龟兹国
 - id: guji-鸠摩罗什-event-changan
-  date: 0402-01-01
-  year_of: 402
-  title_zh: 入长安译庄严菩提心经
-  location_zh: 长安大寺草堂
-  description_zh: 弘始中入长安，领译场译经，宣说菩萨十种发心与十地相，众得不退
+  date: '0401'
+  year_of: 401
+  title_zh: 应姚兴迎请入长安
+  description: 姚兴遣使迎入长安住逍遥园领八百人开译场之盛
+  place_zh: 长安逍遥园
+- id: guji-鸠摩罗什-event-shizhu
+  date: '0405'
+  year_of: 405
+  title_zh: 译出十住经弘十地法门
+  description: 以金刚藏说十地为本译十住经明欢喜地乃至法云地次第行相
+  place_zh: 长安大寺
 - id: guji-鸠摩罗什-event-death
-  date: 0413-01-01
+  date: '0413'
   year_of: 413
-  title_zh: 圆寂长安誓舌不坏
-  location_zh: 长安
-  description_zh: 弘始十五年卒，遗言所译无谬则舌不坏，荼毗后果舌如生
+  title_zh: 示寂长安
+  description: 弘始末年示寂于长安遗言所译无谬荼毗舌根不坏众咸信服
+  place_zh: 长安

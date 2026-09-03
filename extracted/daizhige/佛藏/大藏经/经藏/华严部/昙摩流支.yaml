@@ -1,0 +1,123 @@
+person:
+  qid: guji-昙摩流支
+  name_zh: 昙摩流支
+  names:
+    zh: 昙摩流支
+    en: Dharmaruci
+  lifespan:
+    birth:
+      date: 0480-01-01
+      precision: year
+      is_circa: true
+      raw: 生年失载约推北魏前期天竺
+    death:
+      date: 0535-01-01
+      precision: year
+      is_circa: true
+      raw: 卒年失载约推北魏末中土
+  birth_date: 0480-01-01
+  death_date: 0535-01-01
+  era: 北魏
+  reign_ref: 北魏孝明帝正光年间
+  archetype: 西来译师
+  dilemmas:
+  - 胡梵深义难译如何以汉言传达无差别空智
+  - 旅寄洛阳如何安住译场令众生得信力安隐
+  lesson: 以信为力融差别入无碍弘法在译言传心令自他安住初地
+  summary_first_person: 我是昙摩流支天竺三藏西来入元魏住洛阳译出信力入印法门经愿以信力引众入无差别智得大无畏安隐
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/华严部/信力入印法门经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/华严部/信力入印法门经.md
+endeavors:
+- id: guji-昙摩流支-endeavor-1
+  title_zh: 于洛阳译出信力入印法门经
+  description: 应文殊问佛说清净初欢喜地之法以五法复说无差别智译为华严部信力法门
+  phases:
+  - key: brewing
+    name: 西来入魏蕴酿译缘
+    labels:
+      zh:
+      - 蕴酿
+    start_date: 0515-01-01
+    highlight_event_id: guji-昙摩流支-event-arrival
+  - key: breakthrough
+    name: 开译信力入印法门
+    labels:
+      zh:
+      - 突破
+    start_date: 0520-01-01
+    highlight_event_id: guji-昙摩流支-event-translate
+  - key: closure
+    name: 译竟流通付嘱奉持
+    labels:
+      zh:
+      - 收束
+    start_date: 0524-01-01
+    highlight_event_id: guji-昙摩流支-event-translate
+  decisions:
+  - date: 0520-01-01
+    title_zh: 应请开译华严信力法门
+    rationale: 为令菩萨清净初地得无畏安隐故择文殊问答五法无差别智而译
+  - date: 0522-01-01
+    title_zh: 以空智贯通魔业佛业等差别相
+    rationale: 经旨即差别体即无差别故直译体即之句以显一切法无碍
+- id: guji-昙摩流支-endeavor-2
+  title_zh: 住持译场弘宣信力安隐道
+  description: 居洛阳白马寺一味增上恭敬欢喜摄众示魔佛不二世间即涅槃
+  phases:
+  - key: brewing
+    name: 安住洛阳结缘四众
+    labels:
+      zh:
+      - 蕴酿
+    start_date: 0515-01-01
+    highlight_event_id: guji-昙摩流支-event-arrival
+  - key: climax
+    name: 开示信力五法安隐
+    labels:
+      zh:
+      - 高潮
+    start_date: 0522-01-01
+    highlight_event_id: guji-昙摩流支-event-translate
+  - key: closure
+    name: 示寂付法住持佛法
+    labels:
+      zh:
+      - 收束
+    start_date: 0530-01-01
+    highlight_event_id: guji-昙摩流支-event-death
+  decisions:
+  - date: 0518-01-01
+    title_zh: 择洛阳译场安住弘化
+    rationale: 洛阳众集福德善根所成便以信力摄受初机故不急归天竺
+  - date: 0526-01-01
+    title_zh: 以自他安隐为弘法纲宗
+    rationale: 经说我已安隐令他安隐故以身心寂静正信直心化导四众
+events:
+- id: guji-昙摩流支-event-birth
+  title_zh: 诞生天竺
+  date: 0480-01-01
+  year_of: 480
+  place_zh: 天竺
+  description: 昙摩流支出身天竺习三藏通华严法门后发愿东行弘化
+- id: guji-昙摩流支-event-arrival
+  title_zh: 西来入魏至洛阳
+  date: 0515-01-01
+  year_of: 515
+  place_zh: 洛阳
+  description: 入元魏抵洛阳住译场以三藏学名重当时结译信力法门之缘
+  endeavor_ref: guji-昙摩流支-endeavor-1
+- id: guji-昙摩流支-event-translate
+  title_zh: 译出信力入印法门经
+  date: 0522-01-01
+  year_of: 522
+  place_zh: 洛阳白马寺
+  description: 于正光年间译信力入印法门经明文殊问佛答清净初欢喜地五法及种种无差别智
+  endeavor_ref: guji-昙摩流支-endeavor-1
+- id: guji-昙摩流支-event-death
+  title_zh: 示寂中土
+  date: 0535-01-01
+  year_of: 535
+  place_zh: 洛阳
+  description: 译弘既竟示寂于中土后世列其所译入华严部流通奉持
+  endeavor_ref: guji-昙摩流支-endeavor-2
