@@ -3,124 +3,140 @@ person:
   name_zh: 道泰
   names:
     zh: 道泰
-    en: Daotai
+    en: Dao Tai
   lifespan:
     birth:
-      date: 0390
+      date: 0380
       precision: year
       is_circa: true
-      raw: 北凉初年约生
+      raw: 约生于晋末凉地
     death:
       date: '0440'
       precision: year
       is_circa: true
-      raw: 北凉末年约卒
-  birth_date: 0390
+      raw: 约卒于北凉末
+  birth_date: 0380
   death_date: '0440'
   era: 北凉
-  reign_ref: 北凉沮渠氏时
-  archetype: 译经弘法沙门
+  reign_ref: 沮渠蒙逊
+  archetype: 译经沙门
   dilemmas:
-  - 小乘偏执谤大乘为魔说如何遮止
-  - 大乘义广众生根钝如何令得信入
-  lesson: 依法不依人以正理护持大乘不断三宝种
-  summary_first_person: 我是北凉沙门释道泰，译坚意菩萨所造入大乘论二卷，愿遮谤法之过，开示三乘一相，令众生入摩诃衍道。
+  - 经卷浩繁而时局动荡如何存续法脉
+  - 大悲施义深广难显如何以汉文传达普济之心
+  lesson: 以译经续慧命以悲施济群生悲智双运即是大丈夫行
+  summary_first_person: 我是北凉沙门道泰逢乱世而译大丈夫论愿以汉文弘大悲施门令众生皆发菩提心久住生死救济含识
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E5%85%A5%E5%A4%A7%E4%B9%98%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E5%85%A5%E5%A4%A7%E4%B9%98%E8%AE%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘论/大丈夫論.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘論/大丈夫論.html
 endeavors:
 - id: guji-道泰-endeavor-1
-  title_zh: 译出入大乘论二卷
-  summary: 受持坚意菩萨造论译为汉文以明入大乘义
+  title_zh: 翻译大丈夫论二卷
+  role_zh: 译经沙门
+  description: 于北凉凉州译出提婆罗菩萨所造大丈夫论阐扬大悲布施为菩提正因令施门晓畅于华土
   phases:
   - key: brewing
-    name: 发心受经
+    name: 研习论义
     labels:
-      zh: 发心受经
+      zh:
+      - 研习
+    start_date: '0410'
+    highlight_event_id: guji-道泰-event-study
+  - key: breakthrough
+    name: 发心翻译
+    labels:
+      zh:
+      - 立愿
+    start_date: '0420'
+    highlight_event_id: guji-道泰-event-translate
+  - key: climax
+    name: 译笔成就
+    labels:
+      zh:
+      - 译经
     start_date: '0425'
-    highlight_event_id: guji-道泰-event-1
-  - key: breakthrough
-    name: 草创翻译
-    labels:
-      zh: 初译义品
-    start_date: 0428
-    highlight_event_id: guji-道泰-event-1
-  - key: climax
-    name: 详译遮谤护法品
-    labels:
-      zh: 详译成帙
-    start_date: '0430'
-    highlight_event_id: guji-道泰-event-2
+    highlight_event_id: guji-道泰-event-translate
   - key: closure
-    name: 定本流通
+    name: 流通凉土
     labels:
-      zh: 定本流通
-    start_date: '0432'
-    highlight_event_id: guji-道泰-event-2
+      zh:
+      - 流通
+    start_date: 0428
+    highlight_event_id: guji-道泰-event-spread
   decisions:
-  - date: 0428
-    title_zh: 决定全译义品第一明三藏即大乘
-    rationale: 为破但以阿含毗尼为三藏之偏执故
-  - date: '0430'
-    title_zh: 决定具译十二因缘空性中道章句
-    rationale: 为令疑者因空解脱入菩萨十行故
+  - date: '0420'
+    title_zh: 抉择施门要典而译
+    rationale: 见世人悭贪偏重自利故选此弘大悲普施之论以救时弊
+  - date: '0425'
+    title_zh: 直译悲心施义不饰文藻
+    rationale: 为令凉土质朴之众易解施味故存其恳切晓畅之风
 - id: guji-道泰-endeavor-2
-  title_zh: 弘护大乘破斥谤法偏执
-  summary: 依论中法印比量遮止魔说之谤立大乘正义
+  title_zh: 凉州弘化劝修悲施
+  role_zh: 弘法沙门
+  description: 依大丈夫论劝勉四众修财施法施以悲心救贫济厄长养菩提不求独善涅槃
   phases:
   - key: brewing
-    name: 观察根性
+    name: 结众讲论
     labels:
-      zh: 观机设教
-    start_date: '0430'
-    highlight_event_id: guji-道泰-event-2
+      zh:
+      - 讲授
+    start_date: 0428
+    highlight_event_id: guji-道泰-event-spread
   - key: breakthrough
-    name: 开示三乘差别
+    name: 劝施济贫
     labels:
-      zh: 分别三乘
-    start_date: '0431'
-    highlight_event_id: guji-道泰-event-2
+      zh:
+      - 劝化
+    start_date: '0430'
+    highlight_event_id: guji-道泰-event-spread
   - key: climax
-    name: 广说菩萨十行闻思修
+    name: 悲施成风
     labels:
-      zh: 宣说十行
-    start_date: '0433'
-    highlight_event_id: guji-道泰-event-2
+      zh:
+      - 化俗
+    start_date: '0432'
+    highlight_event_id: guji-道泰-event-spread
   - key: closure
-    name: 付嘱流通绍三宝种
+    name: 付嘱后学
     labels:
-      zh: 付嘱流通
-    start_date: '0435'
-    highlight_event_id: guji-道泰-event-2
+      zh:
+      - 付嘱
+    start_date: 0438
+    highlight_event_id: guji-道泰-event-death
   decisions:
-  - date: '0431'
-    title_zh: 决定以法印印大乘为佛说
-    rationale: 以义入修多罗随顺毗尼不违法相故
-  - date: '0433'
-    title_zh: 决定劝修菩萨藏十法行
-    rationale: 为令上根众生离解脱行入菩萨行故
+  - date: '0430'
+    title_zh: 以施摄众不先谈玄
+    rationale: 众生贫苦逼迫先以财施安身而后以法施安心方契悲本
+  - date: '0435'
+    title_zh: 久住生死不急求证
+    rationale: 学菩萨以众生为伴以悲心为体愿处秽土救济不舍凡夫
 events:
 - id: guji-道泰-event-birth
-  title_zh: 出生
-  date: 0390
-  year_of: 390
-  place: 凉州
-  description: 约生于北凉境内，少出家为沙门，精勤诵习。
-- id: guji-道泰-event-1
-  title_zh: 发心翻译入大乘论
-  date: 0428
-  year_of: 428
-  place: 凉州
-  description: 得坚意菩萨造入大乘论梵本，发心译为汉文，首译义品第一，明菩萨藏为摩诃衍。
-- id: guji-道泰-event-2
-  title_zh: 译成入大乘论二卷流通
-  date: '0432'
-  year_of: 432
-  place: 凉州
-  description: 译成上下二卷，具明遮谤法过，显空无相无愿解脱门及菩萨十行，付嘱流通。
+  type: birth
+  date: 0380
+  year_of: 380
+  title_zh: 出生于凉地
+  description: 约生于晋末凉地少习佛典长而出家研习大乘论典
+- id: guji-道泰-event-study
+  type: career
+  date: '0410'
+  year_of: 410
+  title_zh: 研习大乘精通论义
+  description: 于凉州研习大乘经论通达布施般若悲智之旨为译经奠基
+- id: guji-道泰-event-translate
+  type: career
+  date: '0425'
+  year_of: 425
+  title_zh: 译出大丈夫论二卷
+  description: 于北凉译出提婆罗菩萨所造大丈夫论二卷明施胜施味悲心施主等十品弘大悲普施
+- id: guji-道泰-event-spread
+  type: career
+  date: '0430'
+  year_of: 430
+  title_zh: 讲论劝施弘化凉州
+  description: 流通所译之论讲说恭敬乞者舍悭修施劝众以悲心救济贫厄
 - id: guji-道泰-event-death
-  title_zh: 示寂
+  type: death
   date: '0440'
   year_of: 440
-  place: 凉州
-  description: 约卒于北凉末年，所译入大乘论后入乾隆藏大乘论部流传。
+  title_zh: 示寂于凉州
+  description: 弘译既毕约卒于北凉末以译弘之功归向无上菩提普济一切
