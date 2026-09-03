@@ -9,146 +9,130 @@ person:
       date: 0394
       precision: year
       is_circa: false
-      raw: 晋安帝义熙十年生于中天竺
+      raw: 生于中天竺
     death:
       date: 0468
       precision: year
       is_circa: false
-      raw: 刘宋大明十二年示寂于建康
+      raw: 卒于刘宋建康
   birth_date: 0394
   death_date: 0468
   era: 南北朝刘宋
-  reign_ref: 宋文帝元嘉
+  reign_ref: 宋文帝元嘉至宋明帝泰始
   archetype: 译经弘法者
   dilemmas:
-  - 梵本精深而华言未备，如何传信达雅而不失本义
-  - 禅观要妙而众根有利钝，如何契机授法而不致滥传
-  lesson: 以信为种以慧为耕，译经贵实，弘法贵正，精进不舍方至甘露。
-  summary_first_person: 吾本中天竺人，少学三藏，泛海东来至宋都建康，译杂阿含楞伽等经，敷演四意止安般禅要，唯愿眾生离苦得度，正法久住中土。
+  - 兼弘大乘而译小乘阿含如何会通大小
+  - 异域来华语言隔阂而义理传信之难
+  lesson: 当观五受阴无常苦空非我以生厌离而得心解脱
+  summary_first_person: 我自中天竺航海至宋，于建康译杂阿含五十卷，劝观色受想行识无常苦空非我，厌离喜贪尽而自证不受后有。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘阿含部/杂阿含经.md
-  - https://daizhige.org/佛藏/乾隆藏/小乘阿含部/杂阿含经.html
-  - https://zh.wikisource.org/wiki/雜阿含經（五十卷）
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E6%9D%82%E9%98%BF%E5%90%AB%E7%BB%8F%E4%BA%94%E5%8D%81%E5%8D%B7.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E6%9D%82%E9%98%BF%E5%90%AB%E7%BB%8F%E4%BA%94%E5%8D%81%E5%8D%B7.md
 endeavors:
 - id: guji-求那跋陀罗-endeavor-1
-  title_zh: 译传杂阿含经弘四谛正法
-  goal_zh: 以华言传梵典，令中土得闻四谛八正道四念处之要
+  title_zh: 译出杂阿含经五十卷
+  description: 于建康祇洹寺开译杂阿含，宣说五蕴无常正观厌离解脱之道。
   phases:
   - key: brewing
-    name: 泛海东来初至建康
+    name: 航海至宋酝酿译场
     labels:
-      zh:
-      - 初至
-      - 诵习梵本
-    start_date: 285
-    highlight_event_id: guji-求那跋陀罗-event-arrive
+      zh: 酝酿
+    start_date: '0435'
+    highlight_event_id: guji-求那跋陀罗-event-arrival
   - key: breakthrough
-    name: 奉诏译出杂阿含
+    name: 开译卷第一观蕴无常
     labels:
-      zh:
-      - 译经
-      - 杂阿含
-    start_date: 288
+      zh: 突破
+    start_date: '0436'
     highlight_event_id: guji-求那跋陀罗-event-translate
   - key: climax
-    name: 敷演四意止安般
+    name: 五十卷译毕摄颂流通
     labels:
-      zh:
-      - 弘法
-      - 禅要
-    start_date: 291
-    highlight_event_id: guji-求那跋陀罗-event-translate
+      zh: 高潮
+    start_date: '0443'
+    highlight_event_id: guji-求那跋陀罗-event-complete
   - key: closure
-    name: 经行流通后学守持
+    name: 付嘱奉行长夜安乐
     labels:
-      zh:
-      - 流通
-      - 守持
-    start_date: 304
-    highlight_event_id: guji-求那跋陀罗-event-death
+      zh: 收束
+    start_date: '0444'
+    highlight_event_id: guji-求那跋陀罗-event-complete
   decisions:
-  - date: 285
-    title_zh: 应宋请留都译经
-    rationale: 为令正法久住，不辞海路艰辛，留建康祇洹寺专事翻译
-  - date: 288
-    title_zh: 先译杂阿含以立根本
-    rationale: 阿含为佛法根本，四谛缘起具在其中，学道必先明此，故首译此经
+  - date: '0436'
+    title_zh: 先译五蕴无常相应
+    rationale: 以正观色受想行识无常苦空非我为入道根本故先出此品
+  - date: '0443'
+    title_zh: 以摄颂总持五十卷
+    rationale: 以无常苦空非我等颂摄经义令学者易持奉行不失
 - id: guji-求那跋陀罗-endeavor-2
-  title_zh: 传授楞伽禅要开大乘禅门
-  goal_zh: 传大乘禅法，授楞伽心要，接引慧解利根者
+  title_zh: 弘传禅观厌离解脱
+  description: 依阿含教比丘独处静修不放逸，断结缚不动越生老病死而证罗汉。
   phases:
   - key: brewing
-    name: 精通三藏兼学大乘
+    name: 开示随使取缚之理
     labels:
-      zh:
-      - 学法
-      - 三藏
-    start_date: 264
-    highlight_event_id: guji-求那跋陀罗-event-birth
+      zh: 酝酿
+    start_date: '0440'
+    highlight_event_id: guji-求那跋陀罗-event-translate
   - key: breakthrough
-    name: 译楞伽经授禅要
+    name: 略说广解教化异比丘
     labels:
-      zh:
-      - 楞伽
-      - 禅授
-    start_date: 291
+      zh: 突破
+    start_date: '0442'
     highlight_event_id: guji-求那跋陀罗-event-teach
   - key: climax
-    name: 道俗归仰禅风渐振
+    name: 弟子静修证阿罗汉
     labels:
-      zh:
-      - 化众
-      - 禅风
-    start_date: 296
+      zh: 高潮
+    start_date: '0445'
     highlight_event_id: guji-求那跋陀罗-event-teach
   - key: closure
-    name: 示寂建康遗教后世
+    name: 住持建康示寂传法
     labels:
-      zh:
-      - 示寂
-      - 遗教
+      zh: 收束
     start_date: 0468
     highlight_event_id: guji-求那跋陀罗-event-death
   decisions:
-  - date: 291
-    title_zh: 译楞伽四卷以显心宗
-    rationale: 见中土偏重小乘，欲以楞伽明佛心自觉之旨，开大乘禅门
-  - date: 296
-    title_zh: 择机授禅不滥传
-    rationale: 禅要深妙须观根授法，持戒精进者乃授，以防狂解不修
+  - date: '0442'
+    title_zh: 以略说法令广解义
+    rationale: 对机略说随使死取缚不动解脱，令学者自思惟广解而速断所应断
+  - date: '0445'
+    title_zh: 劝独处精勤不放逸
+    rationale: 闻法已当独一静处专精思惟，方能厌离五阴自知我生已尽不受后有
 events:
 - id: guji-求那跋陀罗-event-birth
-  title_zh: 诞生中天竺婆罗门家
+  title_zh: 诞生于中天竺
   date: 0394
-  year_of: 394
-  kind: birth
-  location_zh: 中天竺
-  description_zh: 生于婆罗门家，少聪慧，博通五明，精学三藏，兼通大乘。
-- id: guji-求那跋陀罗-event-arrive
-  title_zh: 泛海至刘宋建康
-  date: 285
-  year_of: 435
-  kind: career
-  location_zh: 建康
-  description_zh: 元嘉十二年泛海东来至建康，宋文帝迎请住祇洹寺，诏令翻译。
+  year_of: 0394
+  location: 中天竺
+  description: 求那跋陀罗生于中天竺，幼习杂阿含禅法，后发愿东行弘化。
+- id: guji-求那跋陀罗-event-arrival
+  title_zh: 航海到达刘宋建康
+  date: '0435'
+  year_of: '0435'
+  location: 建康祇洹寺
+  description: 元嘉十二年至建康，宋文帝迎请住祇洹寺，始建译场酝酿译经。
 - id: guji-求那跋陀罗-event-translate
-  title_zh: 译出杂阿含经五十卷
-  date: 288
-  year_of: 440
-  kind: career
-  location_zh: 建康祇洹寺
-  description_zh: 与宝云慧观等共译杂阿含经，宣说五蕴六处缘起四谛四念处安般守意之法，即今所传小乘阿含部根本。
+  title_zh: 开译杂阿含卷第一
+  date: '0436'
+  year_of: '0436'
+  location: 建康
+  description: 译出佛住舍卫祇树给孤独园说观色受想行识无常苦空非我，正观厌离喜贪尽心解脱。
+- id: guji-求那跋陀罗-event-complete
+  title_zh: 杂阿含五十卷译毕
+  date: '0443'
+  year_of: '0443'
+  location: 建康
+  description: 杂阿含五十卷译毕，以味患离及随使结缚动摇等品摄尽五受阴义，付众奉行。
 - id: guji-求那跋陀罗-event-teach
-  title_zh: 译楞伽经授禅法化众
-  date: 291
-  year_of: 443
-  kind: career
-  location_zh: 建康
-  description_zh: 译楞伽阿跋多罗宝经四卷及法鼓等经，敷演禅要，道俗归学，后世禅宗遥承其绪。
+  title_zh: 教化比丘证罗汉
+  date: '0445'
+  year_of: '0445'
+  location: 舍卫喻之静处
+  description: 依经教异比丘及劫波等独处精勤，不随使死不断结缚不动，心得解脱成阿罗汉。
 - id: guji-求那跋陀罗-event-death
   title_zh: 示寂于建康
   date: 0468
-  year_of: 468
-  kind: death
-  location_zh: 建康
-  description_zh: 大明十二年示寂，寿七十五，遗教以戒定慧为本，后人奉其所译杂阿含为修学要典。
+  year_of: 0468
+  location: 建康
+  description: 泰始四年示寂于建康，所译杂阿含五十卷流通江南，劝后学正观解脱。
