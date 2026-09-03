@@ -8,119 +8,132 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 唐神龙元年
     death:
       date: '0774-06-15'
       precision: day
       is_circa: false
-      raw: 唐大历九年五月
+      raw: 唐大历九年六月
   birth_date: '0705'
   death_date: '0774-06-15'
-  era: 唐代
-  reign_ref: 唐玄宗肃宗代宗朝
-  archetype: 密教译经祖师
+  era: 唐
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 密教译师
   dilemmas:
-  - 奉诏入世译经与静处修瑜伽守清净心如何两全
-  - 显教渐修与密教即身观行如何抉择次第以利群生
-  lesson: 以菩提大悲为本由观字义门证本来不生离妄分别
-  summary_first_person: 我自西域来唐师事金刚智奉诏译经传瑜伽观行愿诸有情觉自心本净远离分别速成菩提
+  - 坚持密法正传与朝野疑谤之间如何自处
+  - 以威怒调伏作障与以慈悲护生之间如何权衡
+  lesson: 以威怒为慈悲之用，以翻译为护国之本，调伏障难而不失悲心
+  summary_first_person: 吾是不空，自西土来华，师事金刚智，承金刚界大法，于大兴善寺弘传密教，译圣阎曼德迦威怒王立成大神验念诵法等百余部，愿以真言印坛护国安民，降伏恶障而终归于慈悲息灾
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E5%9C%A3%E8%A7%82%E8%87%AA%E5%9C%A8%E8%8F%A9%E8%90%A8%E5%BF%83%E7%9C%9F%E8%A8%80%E7%91%9C%E4%BC%BD%E8%A7%82%E8%A1%8C%E4%BB%AA%E8%BD%A8.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E5%9C%A3%E8%A7%82%E8%87%AA%E5%9C%A8%E8%8F%A9%E8%90%A8%E5%BF%83%E7%9C%9F%E8%A8%80%E7%91%9C%E4%BC%BD%E8%A7%82%E8%A1%8C%E4%BB%AA%E8%BD%A8.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E5%9C%A3%E9%98%8E%E6%9B%BC%E5%BE%B7%E8%BF%A6%E5%A8%81%E6%80%92%E7%8E%8B%E7%AB%8B%E6%88%90%E5%A4%A7%E7%A5%9E%E9%AA%8C%E5%BF%B5%E8%AF%B5%E6%B3%95.html
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 随师入唐传习瑜伽密法
-  summary: 少年随金刚智入唐受灌顶习瑜伽成密教付法传人
+  title_zh: 传译弘传密教经典
+  summary: 师事金刚智受具传法，历三朝译出百余部密典，建立大兴善寺道场
   phases:
   - key: brewing
-    name: 西域发心随师东来
+    name: 西土求法来华
     labels:
-      zh: 求法
+      zh:
+      - 求法
+      - 师承
     start_date: 0719
-    highlight_event_id: guji-不空-event-arrival
+    highlight_event_id: guji-不空-event-1
   - key: breakthrough
-    name: 长安受灌顶习毗卢遮那法
+    name: 承师付法开译
     labels:
-      zh: 受法
-    start_date: '0720'
-    highlight_event_id: guji-不空-event-arrival
+      zh:
+      - 付法
+      - 开译
+    start_date: '0723'
+    highlight_event_id: guji-不空-event-1
   - key: climax
-    name: 继席弘通金刚界大曼荼罗
+    name: 三朝弘译护国
     labels:
-      zh: 传法
-    start_date: '0741'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 译经
+      - 护国
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-2
   - key: closure
-    name: 付嘱门人续佛慧命
+    name: 示寂付嘱后学
     labels:
-      zh: 付嘱
-    start_date: '0774-06-01'
+      zh:
+      - 付嘱
+      - 圆寂
+    start_date: '0774-06-15'
     highlight_event_id: guji-不空-event-death
   decisions:
   - date: '0720'
-    title_zh: 决意随金刚智留唐学密
-    rationale: 为求无上瑜伽速证菩提故舍乡国亲缘专心事师
-  - date: '0741'
-    title_zh: 决意继承金刚智衣钵弘密
-    rationale: 以师嘱付法藏不可断绝发大悲愿传持密教济度有情
+    title_zh: 拜金刚智为师受灌顶
+    rationale: 欲得金刚界正传，不以年少辞劳，决心尽舍所学而从密师受法
+  - date: '0746'
+    title_zh: 于长安大兴善寺开坛译经
+    rationale: 欲令佛法久住世间，加持国王护持国界，故以翻译弘传为护国根本
 - id: guji-不空-endeavor-2
-  title_zh: 奉诏译出观自在心真言仪轨
-  summary: 出大毗卢遮那成道经立曼荼罗布字观心传观自在瑜伽观行
+  title_zh: 宣说阎曼德迦威怒王念诵法
+  summary: 依文殊所宣威怒王教，译出根本大心心中心印坛供养调伏息灾诸法
   phases:
   - key: brewing
-    name: 静处建坛澡浴发心
+    name: 观机说威怒教
     labels:
-      zh: 建坛
+      zh:
+      - 观机
+      - 立教
     start_date: '0746'
-    highlight_event_id: guji-不空-event-translate
+    highlight_event_id: guji-不空-event-2
   - key: breakthrough
-    name: 译定心真言及三昧耶法界生等印
+    name: 译出根本大心真言
     labels:
-      zh: 译定
-    start_date: '0747'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 真言
+      - 印契
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-2
   - key: climax
-    name: 开示布字观心与字义四门
+    name: 建立三角坛调伏息灾
     labels:
-      zh: 观行
+      zh:
+      - 建坛
+      - 调伏
     start_date: '0750'
-    highlight_event_id: guji-不空-event-translate
+    highlight_event_id: guji-不空-event-2
   - key: closure
-    name: 礼佛回向劝转大乘经行绕塔
+    name: 以慈悲心收摄威怒
     labels:
-      zh: 回向
-    start_date: '0770'
+      zh:
+      - 慈悲
+      - 息灾
+    start_date: '0774-06-15'
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0747'
-    title_zh: 决以菩提心为观行根本
-    rationale: 了自心本来不生空无自性愍念有情迷倒故发大悲精进
+  - date: '0746'
+    title_zh: 译出威怒王立成神验法
+    rationale: 见世间障难国界不安，须以猛利方便调伏恶人，故详录坛印真言供养次第
   - date: '0750'
-    title_zh: 决示阿啰攞迦四字义门
-    rationale: 令行者系心真言文字思下所诠本不生离尘等义得三摩地
+    title_zh: 制调伏后行息灾护摩
+    rationale: 恐行者久执怨害有违慈悲，故立法后须起悲愍作息灾护摩令彼复故
 events:
 - id: guji-不空-event-birth
-  title_zh: 不空诞生于北天竺
   date: '0705'
   year_of: 705
-  place_zh: 北天竺
-  summary: 唐神龙元年不空生于北天竺婆罗门家后发心求法
-- id: guji-不空-event-arrival
-  title_zh: 随金刚智泛海入唐求法
+  title_zh: 生于南天竺
+  description: 唐神龙元年生于南天竺，幼聪慧，好求密法，后随叔父至华
+- id: guji-不空-event-1
   date: '0720'
   year_of: 720
-  place_zh: 长安
-  summary: 年十五随金刚智至长安受灌顶传授瑜伽毗卢遮那大法
-- id: guji-不空-event-translate
-  title_zh: 奉诏译圣观自在心真言瑜伽观行仪轨
-  date: '0747'
-  year_of: 747
-  place_zh: 长安大兴善寺
-  summary: 出大毗卢遮那成道经译观自在心真言立曼荼罗布字观心次第
+  title_zh: 从金刚智受学得灌顶
+  description: 年十五拜金刚智三藏为师，受金刚界灌顶，尽得其法，继弘密教
+  endeavor_id: guji-不空-endeavor-1
+- id: guji-不空-event-2
+  date: '0746'
+  year_of: 746
+  title_zh: 译圣阎曼德迦威怒王念诵法
+  description: 于长安译出此法，具说根本大心心中心真言印契，三角坛调伏息灾，二十三种供养及护摩次第
+  endeavor_id: guji-不空-endeavor-2
 - id: guji-不空-event-death
-  title_zh: 不空示寂于长安
   date: '0774-06-15'
   year_of: 774
-  place_zh: 长安
-  summary: 唐大历九年五月示寂于长安追谥大辩正广智不空三藏
+  title_zh: 圆寂于大兴善寺
+  description: 唐大历九年六月示寂，代宗辍朝三日，赠司空，谥大辨正广智三藏
