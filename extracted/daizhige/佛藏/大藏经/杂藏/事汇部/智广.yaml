@@ -1,0 +1,131 @@
+person:
+  qid: guji-智广
+  name_zh: 智广
+  names:
+    zh: 智广
+    en: Zhiguang
+  lifespan:
+    birth:
+      date: '0700'
+      precision: year
+      is_circa: true
+      raw: 唐约生于山阴
+    death:
+      date: '0770'
+      precision: year
+      is_circa: true
+      raw: 唐约卒于山阴
+  birth_date: '0700'
+  death_date: '0770'
+  era: 唐
+  reign_ref: 唐玄宗开元天宝前后
+  archetype: 悉昙学僧
+  dilemmas:
+  - 陀罗尼音旨差舛持诵难真
+  - 南天中天龙宫诸文小异何所折衷
+  lesson: 考核源流以正梵音功少用要利后学者
+  summary_first_person: 吾乃大唐山阴沙门智广，尝诵陀罗尼访求音旨多舛，幸遇南天竺般若菩提受悉昙梵文，研审翻注撰成字记，愿学者信宿悬通梵音不失总持
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E4%BA%8B%E6%B1%87%E9%83%A8/%E6%82%89%E6%98%99%E5%AD%97%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E4%BA%8B%E6%B1%87%E9%83%A8/%E6%82%89%E6%98%99%E5%AD%97%E8%AE%B0.md
+  - https://cbeta.org/T2132
+endeavors:
+- id: guji-智广-endeavor-1
+  title_zh: 访求陀罗尼音旨从般若菩接受悉昙
+  summary_zh: 诵陀罗尼访求音旨遇南天竺般若菩提于五台山房亲受梵文兼详中天音韵
+  phases:
+  - key: brewing
+    name: 诵持访学
+    labels:
+      zh: 访求音旨
+    start_date: '0730'
+    highlight_event_id: guji-智广-event-meet
+  - key: breakthrough
+    name: 得遇梵僧亲受悉昙
+    labels:
+      zh: 师承受学
+    start_date: '0735'
+    highlight_event_id: guji-智广-event-meet
+  - key: climax
+    name: 兼详唐翻中天音韵考核源流
+    labels:
+      zh: 考校参详
+    start_date: '0736'
+    highlight_event_id: guji-智广-event-compose
+  - key: closure
+    name: 研审翻注有所归宿
+    labels:
+      zh: 研审有归
+    start_date: 0738
+    highlight_event_id: guji-智广-event-compose
+  decisions:
+  - date: '0735'
+    title_zh: 就五台山房从般若菩重置学悉昙
+    rationale: 旧翻差反须观本文方得详正故请其所出而受之
+  - date: '0736'
+    title_zh: 以唐书召梵语兼详中天南天之文
+    rationale: 南天承摩醯首罗中天兼龙宫纲骨必同须考核异同不尚诡异
+- id: guji-智广-endeavor-2
+  title_zh: 科判悉昙撰成字记利后学
+  summary_zh: 即其杼轴科以成章明十二韵三十五体文及十七章生字孤合之例凡七千余字
+  phases:
+  - key: brewing
+    name: 列悉昙十二韵体文三十五
+    labels:
+      zh: 立纲列目
+    start_date: 0738
+    highlight_event_id: guji-智广-event-compose
+  - key: breakthrough
+    name: 推演十七章生字七千
+    labels:
+      zh: 推演生字
+    start_date: 0739
+    highlight_event_id: guji-智广-event-compose
+  - key: climax
+    name: 明孤合连声及五天楚夏之辨
+    labels:
+      zh: 明例辨音
+    start_date: '0740'
+    highlight_event_id: guji-智广-event-compose
+  - key: closure
+    name: 书简成记传示后学
+    labels:
+      zh: 成书传示
+    start_date: '0740'
+    highlight_event_id: guji-智广-event-compose
+  decisions:
+  - date: 0739
+    title_zh: 即其杼轴科以成章效绝域之典
+    rationale: 使学者不逾信宿悬通梵音功少用要故总持一文理含众德
+  - date: '0740'
+    title_zh: 窃书简牍辨五天非胡以正名
+    rationale: 阎浮五天承梵王佛现其中雪山北始为胡土鱼鲁须辨故记遗文
+events:
+- id: guji-智广-event-birth
+  date: '0700'
+  year_of: 700
+  title_zh: 生于山阴
+  description_zh: 大唐山阴沙门约生于此前后出家为僧
+  place_zh: 山阴
+  event_type: birth
+- id: guji-智广-event-meet
+  date: '0735'
+  year_of: 735
+  title_zh: 五台山房遇般若菩提受悉昙
+  description_zh: 南天竺沙门般若菩提赍陀罗尼梵挟自南海谒五台寓山房因从受悉昙兼详中天音韵
+  place_zh: 五台山房
+  event_type: study
+- id: guji-智广-event-compose
+  date: '0740'
+  year_of: 740
+  title_zh: 撰成悉昙字记
+  description_zh: 研审翻注即其杼轴科以成章明十二韵三十五体文及十七章生字孤合之例凡七千余字
+  place_zh: 山阴
+  event_type: work
+- id: guji-智广-event-death
+  date: '0770'
+  year_of: 770
+  title_zh: 示寂
+  description_zh: 山阴传悉昙学后示寂
+  place_zh: 山阴
+  event_type: death
