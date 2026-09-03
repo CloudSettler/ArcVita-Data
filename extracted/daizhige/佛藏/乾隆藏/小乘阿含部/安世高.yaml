@@ -9,131 +9,118 @@ person:
       date: '0100'
       precision: year
       is_circa: true
-      raw: 约二世纪初生于安息国
+      raw: 后汉初约生于安息国
     death:
       date: 0168
       precision: year
       is_circa: true
-      raw: 约汉灵帝建宁年间卒于会稽
+      raw: 汉灵帝建宁末卒于会稽
   birth_date: '0100'
   death_date: 0168
   era: 后汉
-  reign_ref: 汉桓帝建和二年至汉灵帝建宁年间
-  archetype: 译经宗师
+  reign_ref: 汉桓帝建和
+  archetype: 译经祖师
   dilemmas:
-  - 王位荣华与出家求道之抉择
-  - 胡语梵典与汉土文义之贯通
-  lesson: 舍世荣以求道，译禅数以度人，持戒守意方得长寿闻道
-  summary_first_person: 吾本安息国王子，让国出家，博晓三藏，尤精禅数，汉建和二年抵洛阳，译七处三观等三十余部，弘安般禅法，劝人守意持戒，离贪恚痴，冀后人不堕横死，得闻正道
+  - 王位继承与出家求道之两难
+  - 胡语梵典与汉土文字隔阂之艰难
+  lesson: 舍王位而传正道以信解正见为立国之本
+  summary_first_person: 吾本安息太子让国出家东入洛阳译说八正道但愿学者以谛见谛念谛行自脱亦脱他人
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%B8%83%E5%A4%84%E4%B8%89%E8%A7%82%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E6%AD%A3%E9%81%93%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E6%AD%A3%E9%81%93%E7%BB%8F.html
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 让国东来洛阳开译
-  description_zh: 以安息王子让位出家，东游洛阳，逢汉室多译未备，立译场传经
+  title_zh: 让国东来洛阳创译
+  summary: 让安息王位东游洛阳开汉译佛经之先河
   phases:
   - key: brewing
-    name: 让位出家西域游学
+    name: 安息博学让国
     labels:
-      zh:
-      - 舍国求道
-    start_date: '0130'
+      zh: 让国求道
+    start_date: '0146'
     highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 建和抵洛
+    name: 初至洛阳通汉
     labels:
-      zh:
-      - 初至汉土
+      zh: 初到洛阳
     start_date: 0148
-    highlight_event_id: guji-安世高-event-arrive-luoyang
+    highlight_event_id: guji-安世高-event-arrival-luoyang
   - key: climax
-    name: 洛阳译经二十余年
+    name: 创译安般守意
     labels:
-      zh:
-      - 译场大兴
+      zh: 开译禅数
     start_date: 0149
-    highlight_event_id: guji-安世高-event-translate-qichu
+    highlight_event_id: guji-安世高-event-arrival-luoyang
   - key: closure
-    name: 南游会稽弘化终老
+    name: 奠定译风南行
     labels:
-      zh:
-      - 南土弘传
-    start_date: '0167'
-    highlight_event_id: guji-安世高-event-death
+      zh: 译风初成
+    start_date: '0152'
+    highlight_event_id: guji-安世高-event-translate-bazhengdao
   decisions:
+  - date: '0147'
+    title_zh: 让国出家不继承王位
+    rationale: 睹世无常发心出家以弘法利世为志
   - date: 0148
-    title_zh: 舍王位不就而入汉
-    rationale: 念世荣无常，唯道可度，故让国求法，东来汉土
-  - date: 0149
-    title_zh: 先译安般禅数小乘经
-    rationale: 汉人初闻大乘难信，先以七处三观四谛禅数接引，令守意断结
+    title_zh: 定居洛阳专事翻译
+    rationale: 因汉土未闻正法欲以信解通华夷之隔
 - id: guji-安世高-endeavor-2
-  title_zh: 译传七处三观禅观之学
-  description_zh: 于舍卫祇园旧说基础上译七处知三处观，明五阴六衰味苦出要，兼说九横二法，劝持戒守意
+  title_zh: 译说八正道弘化
+  summary: 译出八正道经分别邪正八行以正见领八正
   phases:
   - key: brewing
-    name: 集梵本审禅法
+    name: 舍卫说法酝酿
     labels:
-      zh:
-      - 审定经旨
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-arrive-luoyang
+      zh: 述佛本说
+    start_date: 0149
+    highlight_event_id: guji-安世高-event-arrival-luoyang
   - key: breakthrough
-    name: 译出七处三观上卷
+    name: 定八正名义
     labels:
-      zh:
-      - 禅数初传
+      zh: 分别邪正
     start_date: '0150'
-    highlight_event_id: guji-安世高-event-translate-qichu
+    highlight_event_id: guji-安世高-event-translate-bazhengdao
   - key: climax
-    name: 演说九横四谛清白法
+    name: 详释谛见谛念
     labels:
-      zh:
-      - 持戒守意
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-preach-nine
+      zh: 重显正见
+    start_date: '0151'
+    highlight_event_id: guji-安世高-event-translate-bazhengdao
   - key: closure
-    name: 付嘱门人流通后世
+    name: 众喜奉行流通
     labels:
-      zh:
-      - 付法流通
-    start_date: '0167'
+      zh: 流通江南
+    start_date: 0168
     highlight_event_id: guji-安世高-event-death
   decisions:
   - date: '0150'
-    title_zh: 以七处为知三处为观立修行次第
-    rationale: 五阴各有七事，合六衰成三观，令学者疾得道法脱结
-  - date: '0152'
-    title_zh: 兼说九横二难得警世
-    rationale: 人命多横夭，示不应饭不持戒近恶知识等九因，劝避横死以长寿闻道
+    title_zh: 先译八正道明邪正之辨
+    rationale: 学者多昧邪正故先示谛见为道本
+  - date: '0151'
+    title_zh: 以质朴汉文直译经义
+    rationale: 为使初机易解不尚文饰但存经旨
 events:
 - id: guji-安世高-event-birth
-  title_zh: 生于安息国王室
+  title_zh: 生于安息国
   date: '0100'
   year_of: 100
-  place_zh: 安息国
-  description_zh: 生于安息国王家，少好学，博晓经论，明禅数之学
-- id: guji-安世高-event-arrive-luoyang
-  title_zh: 建和二年抵洛阳开译
+  location_zh: 安息国
+  description_zh: 安息国太子博学多识让国出家
+- id: guji-安世高-event-arrival-luoyang
+  title_zh: 东至洛阳
   date: 0148
   year_of: 148
-  place_zh: 洛阳
-  description_zh: 汉桓帝建和二年至洛阳，通华言，宣梵典，始立汉土译场
-- id: guji-安世高-event-translate-qichu
-  title_zh: 译出佛说七处三观经
+  location_zh: 洛阳
+  description_zh: 汉桓帝建和二年至洛阳通达汉语始译经典
+- id: guji-安世高-event-translate-bazhengdao
+  title_zh: 译出佛说八正道经
   date: '0150'
   year_of: 150
-  place_zh: 洛阳
-  description_zh: 译七处三观经二卷，明色痛痒思想生死识七处知，观身观五阴观六衰为三观，劝断结证道
-- id: guji-安世高-event-preach-nine
-  title_zh: 说九横四行清白法
-  date: '0152'
-  year_of: 152
-  place_zh: 舍卫国祇树给孤独园旧义重宣于洛阳
-  description_zh: 说九横死因缘与愧惭清白法，劝护戒守意，不近恶知识，可避当避，以得长寿闻道
+  location_zh: 洛阳
+  description_zh: 于祇树给孤独园本说译分别八邪八正详明谛见八事
 - id: guji-安世高-event-death
-  title_zh: 南游会稽示寂
+  title_zh: 卒于会稽
   date: 0168
   year_of: 168
-  place_zh: 会稽
-  description_zh: 译经三十余部后南游吴会，弘化江南，示寂于会稽，门人传其禅数不绝
+  location_zh: 会稽
+  description_zh: 南游吴会弘化卒于会稽后人尊为汉译之祖
