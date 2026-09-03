@@ -8,139 +8,141 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: true
-      raw: 唐神龙元年左右生于西域
-    death:
-      date: '0774-06-15'
-      precision: day
       is_circa: false
-      raw: 唐大历九年六月十五圆寂
+      raw: 唐神龙元年
+    death:
+      date: '0774'
+      precision: year
+      is_circa: false
+      raw: 唐大历九年
   birth_date: '0705'
-  death_date: '0774-06-15'
+  death_date: '0774'
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 密教译经护国高僧
+  reign_ref: 唐玄宗开元至唐代宗大历
+  archetype: 密教译经弘法者
   dilemmas:
-  - title_zh: 密法深奥难显与普利群生之难
-    description_zh: 如何以秘密仪轨令常人得益而不失其深密
-  - title_zh: 异域沙门身份与辅佐王室护国之任
-    description_zh: 如何在持戒清净与随顺国政之间保持佛法本怀
-  lesson: 以清净身行方便密法普度群生终成菩提大道
-  summary_first_person: 吾名不空西域人也幼随金刚智三藏入唐受具传法后奉三朝诏命译金刚顶等多经设曼荼罗行灌顶护摩以密法护国利生今译此大方广曼殊室利经说观自在授记及多罗菩萨陀罗尼曼荼罗画像之法愿众生离苦速证无上菩提
+  - 显密兼弘与王难贼难逼迫之间如何护持众生免难
+  - 奉诏利世与出世修行之间如何以译经传灯圆融
+  lesson: 知名受持得护免难，译经传法利世最胜
+  summary_first_person: 吾是不空，西域人，幼随金刚智入唐出家受具，传习密法，奉诏住大兴善寺译经，译说摩利支天陀罗尼，愿末世众生受持得脱王难贼难水火等难
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说大方广曼殊室利经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说大方广曼殊室利经.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%91%A9%E5%88%A9%E6%94%AF%E5%A4%A9%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%91%A9%E5%88%A9%E6%94%AF%E5%A4%A9%E8%8F%A9%E8%90%A8%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 奉诏译说密教经典
-  summary_zh: 奉玄宗肃宗代宗三朝诏命于大兴善寺译出金刚顶经及此大方广曼殊室利经等百余部弘扬多罗观音密法
+  title_zh: 随师入唐求法传密
+  summary_zh: 年十五从金刚智出家，习瑜伽密法，南海师子国求法携经归国，开坛传灌弘密
   phases:
   - key: brewing
-    name: 幼随师入唐受学
+    name: 洛阳遇师出家
     labels:
-      zh: 筹备学法
-    start_date: '0720'
+      zh:
+      - 求法
+      - 出家
+    start_date: 0719
     highlight_event_id: guji-不空-event-study
   - key: breakthrough
-    name: 南海求法得传承
+    name: 受具习密通达瑜伽
     labels:
-      zh: 求法突破
-    start_date: '0741'
-    highlight_event_id: guji-不空-event-seek
+      zh:
+      - 受学
+      - 密法
+    start_date: '0720'
+    highlight_event_id: guji-不空-event-study
   - key: climax
-    name: 奉诏开坛盛译群经
+    name: 南海远行求法得经
     labels:
-      zh: 盛译高峰
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 求经
+      - 远行
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-quest
   - key: closure
-    name: 译竟流通付嘱后学
+    name: 携经归国传灯
     labels:
-      zh: 流通圆满
-    start_date: '0772'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 归国
+      - 传弘
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-quest
   decisions:
-  - date: '0720'
-    title_zh: 决意随金刚智东来受具
-    rationale: 慕大唐佛法弘盛愿舍本土亲缘以求无上密乘传承
-  - date: '0746'
-    title_zh: 决意奉诏留京专心译经
-    rationale: 以王命加持可广建道场速令密教仪轨中土流通护国利民
+  - date: 0719
+    title_zh: 年十五从金刚智出家
+    rationale: 感师化导，志求瑜伽密法，舍俗从师以明心续慧命
+  - date: '0741'
+    title_zh: 发心泛海赴师子国求法
+    rationale: 以本国有阙文，欲广求梵本仪轨，使密法完整传唐
 - id: guji-不空-endeavor-2
-  title_zh: 建曼荼罗行灌顶护摩护国利生
-  summary_zh: 依多罗观音法建四肘乃至十六肘曼荼罗设护摩炉行灌顶加持为帝后臣民禳灾祈福并传法授徒
+  title_zh: 奉诏译说摩利支天陀罗尼
+  summary_zh: 住大兴善寺奉诏译经，译出摩利支天菩萨陀罗尼，宣说隐形护身免难结界之法
   phases:
   - key: brewing
-    name: 择地筑坛定仪轨
+    name: 住持兴善奉诏译场
     labels:
-      zh: 筑坛筹划
-    start_date: '0746'
+      zh:
+      - 译场
+      - 奉诏
+    start_date: '0756'
     highlight_event_id: guji-不空-event-translate
   - key: breakthrough
-    name: 亲为代宗行灌顶护国
+    name: 宣说摩利支天名号神力
     labels:
-      zh: 灌顶护国
-    start_date: '0765'
-    highlight_event_id: guji-不空-event-consecration
+      zh:
+      - 宣说
+      - 护身
+    start_date: 0768
+    highlight_event_id: guji-不空-event-translate
   - key: climax
-    name: 广传多罗画像护摩感通
+    name: 译出神咒结界免难法
     labels:
-      zh: 感通显验
+      zh:
+      - 译咒
+      - 免难
     start_date: '0770'
     highlight_event_id: guji-不空-event-translate
   - key: closure
-    name: 付法弟子遗教圆寂
+    name: 付嘱四众受持流通
     labels:
-      zh: 付嘱圆寂
-    start_date: '0774-06-15'
-    highlight_event_id: guji-不空-event-death
+      zh:
+      - 付嘱
+      - 流通
+    start_date: '0772'
+    highlight_event_id: guji-不空-event-translate
   decisions:
-  - date: '0765'
-    title_zh: 决意以密法护国禳寇
-    rationale: 当安史未平之际愿以曼荼罗护摩真言力安邦定难满人天胜愿
+  - date: '0770'
+    title_zh: 译出摩利支天身咒及护身法
+    rationale: 悯末世众生多王难贼难水火之厄，以隐形不为怨害之法护国护民
   - date: '0772'
-    title_zh: 决意详示坛像禁忌以重传承
-    rationale: 恐后学轻慢圣众故立食宿履影等戒令行者敬慎持诵速获悉地
+    title_zh: 劝书写佩戴随身受持
+    rationale: 使不能诵者亦得结界护身，令一切诸恶退散，成就护持之用
 events:
 - id: guji-不空-event-birth
-  person_id: guji-不空
-  type: birth
+  title_zh: 诞生西域
   date: '0705'
   year_of: 705
-  title_zh: 生于狮子国
-  description_zh: 唐神龙年间生于南海狮子国一说北天竺婆罗门家幼而聪慧志慕佛法
+  place_zh: 北天竺一说撒马尔罕
+  description: 唐神龙元年生，长而聪慧，志慕佛法
 - id: guji-不空-event-study
-  person_id: guji-不空
-  type: study
-  date: '0720'
-  year_of: 720
-  title_zh: 随金刚智至长安受具学密
-  description_zh: 年十五随金刚智三藏经南海至洛阳长安受具足戒尽传金刚顶瑜伽密法
-- id: guji-不空-event-seek
-  person_id: guji-不空
-  type: seek
-  date: '0741'
-  year_of: 741
-  title_zh: 奉师生南取经返唐
-  description_zh: 金刚智圆寂后奉遗命往狮子国广求密典五年乃返携经论五百余部
+  title_zh: 洛阳从金刚智出家受学
+  date: 0719
+  year_of: 719
+  place_zh: 洛阳
+  description: 年十五随金刚智入唐，于洛阳出家，禀受瑜伽密法及梵文仪轨
+- id: guji-不空-event-quest
+  title_zh: 南海求法携经归国
+  date: '0746'
+  year_of: 746
+  place_zh: 师子国至长安
+  description: 开元末泛海赴师子国求得密典多部，携梵本归国，开坛传译弘化
 - id: guji-不空-event-translate
-  person_id: guji-不空
-  type: translate
-  date: '0772'
-  year_of: 772
-  title_zh: 于大兴善寺译大方广曼殊室利经
-  description_zh: 奉代宗诏于大兴善寺译出此经明观自在授记及多罗菩萨陀罗尼曼荼罗画像护摩之法
-- id: guji-不空-event-consecration
-  person_id: guji-不空
-  type: consecration
-  date: '0765'
-  year_of: 765
-  title_zh: 为代宗行灌顶护国道场
-  description_zh: 于内道场建多罗曼荼罗为帝行灌顶授法祈攘边寇国运渐安声望益隆
+  title_zh: 大兴善寺译说摩利支天陀罗尼经
+  date: '0770'
+  year_of: 770
+  place_zh: 长安大兴善寺
+  description: 奉诏译摩利支天菩萨陀罗尼经，宣说日前天隐形护身咒法，教晨起诵咒结水洒身入难无害
 - id: guji-不空-event-death
-  person_id: guji-不空
-  type: death
-  date: '0774-06-15'
+  title_zh: 长安圆寂
+  date: '0774'
   year_of: 774
-  title_zh: 圆寂于大兴善寺
-  description_zh: 大历九年六月十五示寂于长安大兴善寺世寿七十代宗辍朝三日谥大鉴正号大广智
+  place_zh: 长安
+  description: 唐大历九年示寂于长安，追谥大辩正广智三藏，密教传灯后世尊奉
