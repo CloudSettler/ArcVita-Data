@@ -1,0 +1,140 @@
+person:
+  qid: guji-道安
+  name_zh: 道安
+  names:
+    zh: 道安
+    en: Dao An
+  lifespan:
+    birth:
+      date: '0312'
+      precision: year
+      is_circa: false
+      raw: 晋建兴四年常山扶柳
+    death:
+      date: '0385-02-08'
+      precision: day
+      is_circa: false
+      raw: 前秦建元二十一年二月八日
+  birth_date: '0312'
+  death_date: '0385-02-08'
+  era: 东晋十六国
+  reign_ref: 前秦苻坚建元
+  archetype: 译场组织宗匠
+  dilemmas:
+  - 持律弘法如何兼顾而不偏废
+  - 经本阙漏散落如何考正以存信
+  lesson: 敬法护律考正精严则法得久住
+  summary_first_person: 吾为晋沙门道安，逢乱世而志在弘法，与法和共考增壹阿含，补录注得失，劝众护禁如律，使后学寻经有绪
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T0125.md
+  - https://cbeta.org/T12n0125
+endeavors:
+- id: guji-道安-endeavor-1
+  title_zh: 校正增壹阿含四十一卷
+  summary_zh: 秦建元二十年昙摩难提至长安出经，吾与法和考正，僧磐僧茂助校，四十日乃了，分为上下部
+  phases:
+  - key: brewing
+    name: 迎请出经
+    labels:
+      zh:
+      - 迎请
+    start_date: '0384-01-01'
+    highlight_event_id: guji-道安-event-translate-start
+  - key: breakthrough
+    name: 佛念译传昙嵩笔受
+    labels:
+      zh:
+      - 笔受
+    start_date: '0384-06-01'
+    highlight_event_id: guji-道安-event-translate-start
+  - key: climax
+    name: 与法和共考正
+    labels:
+      zh:
+      - 考正
+    start_date: '0384-08-01'
+    highlight_event_id: guji-道安-event-proofread-done
+  - key: closure
+    name: 分上下部定卷
+    labels:
+      zh:
+      - 定本
+    start_date: '0385-01-01'
+    highlight_event_id: guji-道安-event-proofread-done
+  decisions:
+  - date: '0384-08-01'
+    title_zh: 与法和共考正僧磐助校
+    rationale: 惧法久住遗逸散落，虽有阿城之役仍专精斯业以全二阿含
+  - date: '0385-01-01'
+    title_zh: 为二阿含各新录一卷
+    rationale: 全其故目注其得失，使见经寻之差易，护禁使与律同
+- id: guji-道安-endeavor-2
+  title_zh: 撰序明律劝护禁法
+  summary_zh: 撰增壹阿含序，明数法相次之义，多录禁律，诲学士护禁鸣鼓攻轻慢者
+  phases:
+  - key: brewing
+    name: 明四阿含同义
+    labels:
+      zh:
+      - 明义
+    start_date: '0384-08-01'
+    highlight_event_id: guji-道安-event-catalog-order
+  - key: breakthrough
+    name: 标增一以数相次
+    labels:
+      zh:
+      - 立序
+    start_date: '0384-09-01'
+    highlight_event_id: guji-道安-event-catalog-order
+  - key: climax
+    name: 诲护禁如律
+    labels:
+      zh:
+      - 护律
+    start_date: '0385-01-01'
+    highlight_event_id: guji-道安-event-catalog-order
+  - key: closure
+    name: 付后学共护
+    labels:
+      zh:
+      - 嘱累
+    start_date: '0385-02-01'
+    highlight_event_id: guji-道安-event-death
+  decisions:
+  - date: '0385-01-01'
+    title_zh: 示禁律为度世检括
+    rationale: 学士多咏味而不知护禁，故谆谆诲使与律同为兹邦之急
+  - date: '0385-02-01'
+    title_zh: 命同志鸣鼓攻轻慢
+    rationale: 轻忽禁经去取如中本起之失乃大鄙，故当著心有力乃见
+events:
+- id: guji-道安-event-birth
+  title_zh: 生于常山扶柳
+  date: '0312'
+  year_of: 312
+  place_zh: 常山扶柳
+  description_zh: 西晋末生，龆年出家，笃志经律， later 入关弘化
+- id: guji-道安-event-translate-start
+  title_zh: 武威请昙摩难提出增壹阿含
+  date: '0384-06-01'
+  year_of: 384
+  place_zh: 长安
+  description_zh: 秦建元二十年兜佉勒沙门昙摩难提诣长安，赵文业请出，佛念译传昙嵩笔受，甲申夏出至来年春讫
+- id: guji-道安-event-proofread-done
+  title_zh: 与法和考正四十日乃了
+  date: '0384-08-15'
+  year_of: 384
+  place_zh: 长安
+  description_zh: 上部二十六卷全无遗忘，下部十五卷失录偈，余与法和共考正，僧磐僧茂助校漏失
+- id: guji-道安-event-catalog-order
+  title_zh: 撰增壹阿含序注得失
+  date: '0385-01-01'
+  year_of: 385
+  place_zh: 长安
+  description_zh: 明增一以数相次，多录禁律绳墨切厉，为二阿含各新录一卷，全故目注得失，劝护禁同律
+- id: guji-道安-event-death
+  title_zh: 示寂于长安
+  date: '0385-02-08'
+  year_of: 385
+  place_zh: 长安
+  description_zh: 前秦建元二十一年二月八日迁化，留下经录序制，为出经之优者
