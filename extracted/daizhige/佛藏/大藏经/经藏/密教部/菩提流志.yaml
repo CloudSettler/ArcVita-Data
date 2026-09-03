@@ -6,126 +6,129 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: '0660'
+      date: 442
       precision: year
       is_circa: true
-      raw: 约唐显庆年间生于南天竺
+      raw: 约唐显庆年间生于南天竺婆罗门家
     death:
-      date: '0727'
+      date: 471
       precision: year
       is_circa: false
-      raw: 唐开元十五年卒于长安
-  birth_date: '0660'
-  death_date: '0727'
+      raw: 唐开元十五年寂于长安
+  birth_date: 442
+  death_date: 471
   era: 唐
-  reign_ref: 唐玄宗开元
-  archetype: 译经弘法者
+  reign_ref: 武周证圣至唐玄宗开元
+  archetype: 西来译经三藏
   dilemmas:
-  - 梵汉音义悬隔密咒难译当如何存真达信
-  - 奉诏译经系于王命与持戒利生当如何兼顾
-  lesson: 以不空慈悲摄持众生闻持咒心皆植善根不空过
-  summary_first_person: 吾自南天竺来华奉诏译经于布怛落迦道场说不空罥索咒心愿闻持者离怖得护速趣菩提
+  - title_zh: 梵汉悬隔而义须不失
+    description: 梵本浩繁华言有限，如何令密咒神变既存梵音又通华夏信解
+  - title_zh: 显密兼弘而时俗多疑
+    description: 处儒道并行之朝，如何令不空罥索观音大行而不起诤论
+  lesson: 以不空悲智普摄群生，译经不止文字对翻，贵在令闻者植根诵者得益
+  summary_first_person: 吾本南天竺婆罗门，远涉流沙而来东土，蒙武后玄宗敬礼，于崇福诸寺译大宝积及不空罥索神变真言，愿以观音罥索不空摄引，令一切有情闻即解脱持即安乐
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%B8%8D%E7%A9%BA%E7%BD%A5%E7%B4%A2%E5%92%92%E5%BF%83%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/不空罥索神变真言经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/不空罥索神变真言经.html
 endeavors:
 - id: guji-菩提流志-endeavor-1
-  person_qid: guji-菩提流志
-  title_zh: 奉诏译出不空罥索咒心经
-  description: 自南天竺入唐入译场奉诏译不空罥索咒心经弘布观自在慈悲密法
+  title_zh: 西来东土总译大宝积经
+  summary: 自南天竺至洛阳长安，统领译场译出大宝积经及诸显密经论，奠定唐密教典之基
   phases:
   - key: brewing
-    name: 入唐受请酝酿译场
+    name: 天竺学成发愿东行
     labels:
-      zh: 酝酿
+      zh: 南天竺研习
+    start_date: 442
+    highlight_event_id: guji-菩提流志-event-birth
+  - key: breakthrough
+    name: 抵洛得礼入译场
+    labels:
+      zh: 武周证圣抵洛
     start_date: 0693
-    highlight_event_id: guji-菩提流志-event-1
-  - key: breakthrough
-    name: 审梵定音突破咒句
-    labels:
-      zh: 突破
-    start_date: 0709
-    highlight_event_id: guji-菩提流志-event-2
+    highlight_event_id: guji-菩提流志-event-arrive
   - key: climax
-    name: 咒心弘布功德高显
+    name: 长安译出宝积大部
     labels:
-      zh: 高潮
-    start_date: 0709
-    highlight_event_id: guji-菩提流志-event-2
+      zh: 开元译宝积
+    start_date: 459
+    highlight_event_id: guji-菩提流志-event-ratnakuta
   - key: closure
-    name: 译业成就付嘱流通
+    name: 译业圆满付嘱门人
     labels:
-      zh: 收束
-    start_date: '0710'
-    highlight_event_id: guji-菩提流志-event-2
-  decisions:
-  - date: 0693
-    title_zh: 应诏入长安译场
-    rationale: 为使梵典东传不绝愿依王力建译场存真
-  - date: 0709
-    title_zh: 定意译出咒心流通
-    rationale: 观自在威神能除怖消业当令四众受持得护
-- id: guji-菩提流志-endeavor-2
-  person_qid: guji-菩提流志
-  title_zh: 开坛行法利生护国
-  description: 示持斋诵咒结界护身之法教四众以咒水咒灰咒线除病禳灾护都护宅
-  phases:
-  - key: brewing
-    name: 示斋戒诵持轨则
-    labels:
-      zh: 酝酿
-    start_date: 0709
-    highlight_event_id: guji-菩提流志-event-2
-  - key: breakthrough
-    name: 结界治病验效渐显
-    labels:
-      zh: 突破
-    start_date: '0710'
-    highlight_event_id: guji-菩提流志-event-2
-  - key: climax
-    name: 护国佑民愿满道场
-    labels:
-      zh: 高潮
-    start_date: '0712'
-    highlight_event_id: guji-菩提流志-event-2
-  - key: closure
-    name: 遗教付嘱临终往生
-    labels:
-      zh: 收束
-    start_date: '0727'
+      zh: 寂前付嘱
+    start_date: 469
     highlight_event_id: guji-菩提流志-event-death
   decisions:
-  - date: '0710'
-    title_zh: 开示二十利八法安心
-    rationale: 令持咒者现得安乐终得往生净土不舍善知识
-  - date: '0712'
-    title_zh: 立曼荼罗画像行法
-    rationale: 以像教接引未信者见光明生欢喜满愿成就
+  - date: 0693
+    title_zh: 应请东来不惮流沙
+    rationale: 为令大乘遍行华夏，舍安居天竺而就译场艰辛，以利他为先
+  - date: 459
+    title_zh: 先译宝积以立显教纲宗
+    rationale: 密法须依显教发心，须先明菩萨行愿，方堪受持罥索真言
+- id: guji-菩提流志-endeavor-2
+  title_zh: 弘传不空罥索观音密法
+  summary: 于补陀洛会义理启请之下译出不空罥索神变真言经，宣说持诵功德与忏罪灭障法门
+  phases:
+  - key: brewing
+    name: 承观音悲愿究密藏
+    labels:
+      zh: 天竺承密法
+    start_date: 0685
+    highlight_event_id: guji-菩提流志-event-arrive
+  - key: breakthrough
+    name: 启请译出罥索神变经
+    labels:
+      zh: 译不空罥索经
+    start_date: 455
+    highlight_event_id: guji-菩提流志-event-amogha
+  - key: climax
+    name: 广说持诵现世二十益临终八法
+    labels:
+      zh: 宣说功德胜利
+    start_date: 0708
+    highlight_event_id: guji-菩提流志-event-amogha
+  - key: closure
+    name: 流通舍利制多劝持
+    labels:
+      zh: 劝书写供养流通
+    start_date: 464
+    highlight_event_id: guji-菩提流志-event-death
+  decisions:
+  - date: 455
+    title_zh: 请以白月斋戒诵持仪轨译出
+    rationale: 使极恶重罪亦可忏悔轻受，令净信者现世安稳临终往生，故详定日斋香供遍数
+  - date: 0708
+    title_zh: 许邪见恶辈闻即植根
+    rationale: 依世间自在王如来威神及观音慈力，一经于耳即种善根，故不简机宜广令流通
 events:
 - id: guji-菩提流志-event-birth
-  person_qid: guji-菩提流志
-  date: '0660'
-  year_of: 660
-  title_zh: 生于南天竺
-  description: 约唐初生于南天竺婆罗门家少习梵典长通三藏
-  event_type: birth
-- id: guji-菩提流志-event-1
-  person_qid: guji-菩提流志
+  title_zh: 生于南天竺婆罗门家
+  date: 442
+  year_of: 672
+  place: 南天竺
+  description: 约唐显庆年间生于婆罗门种，少习梵典兼通道密藏，发愿东弘
+- id: guji-菩提流志-event-arrive
+  title_zh: 武周时抵洛阳入译
   date: 0693
   year_of: 693
-  title_zh: 至长安入译
-  description: 长寿二年至长安奉武后诏入译场始开译经事业
-  event_type: career
-- id: guji-菩提流志-event-2
-  person_qid: guji-菩提流志
-  date: 0709
-  year_of: 709
-  title_zh: 译不空罥索咒心经成
-  description: 奉诏译出不空罥索咒心经说观自在菩萨于布怛落迦山宣咒心功德及持验结界诸法
-  event_type: career
+  place: 东都洛阳
+  description: 证圣年间至洛阳，蒙武后敬礼，入译场从事传译，声名渐著
+- id: guji-菩提流志-event-amogha
+  title_zh: 译不空罥索神变真言经
+  date: 455
+  year_of: 707
+  place: 长安崇福寺
+  description: 译出不空罥索心王母陀罗尼真言三昧耶，具载补陀洛大会观音启请及持诵忏罪功德
+- id: guji-菩提流志-event-ratnakuta
+  title_zh: 译出大宝积经大部
+  date: 459
+  year_of: 713
+  place: 长安
+  description: 与菩提留支等共译大宝积经，统摄菩萨藏会，总持显密纲宗，为一生译业之盛
 - id: guji-菩提流志-event-death
-  person_qid: guji-菩提流志
-  date: '0727'
+  title_zh: 寂于长安
+  date: 471
   year_of: 727
-  title_zh: 卒于长安
-  description: 开元十五年卒于长安译业既成遗风被于密教四众
-  event_type: death
+  place: 长安
+  description: 开元十五年圆寂于长安，门人建塔供奉，译本盛行于世
