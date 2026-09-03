@@ -6,109 +6,134 @@ person:
     en: Vimoksasena
   lifespan:
     birth:
-      date: '0500-01-01'
+      date: 0490-01-01
       precision: year
       is_circa: true
-      raw: 约五世纪初生于乌苌国
+      raw: 烏苌國剎利王種生年失載約五世紀末
     death:
-      date: '0560-12-31'
+      date: 0555-01-01
       precision: year
       is_circa: true
-      raw: 约六世纪中叶入灭
-  birth_date: '0500-01-01'
-  death_date: '0560-12-31'
-  era: 元魏
-  reign_ref: 兴和三年
-  archetype: 译经三藏
+      raw: 卒年失載約六世紀中
+  birth_date: 0490-01-01
+  death_date: 0555-01-01
+  era: 東魏
+  reign_ref: 興和三年
+  archetype: 譯經三藏
   dilemmas:
-  - 梵汉义异如何会通以存大乘业义
-  - 身口意三业有作无作断常云何决断
-  lesson: 依圣言量立种子熏习以明业果不失终归成佛
-  summary_first_person: 我是乌苌国三藏毗目智仙，承高仲密诚请，于邺城金华寺与瞿昙流支等共译天亲菩萨所造业成就论，愿众生成佛
+  - 以空語遮空法世人疑無語不能遮當如何顯示因緣生語亦空而能遮
+  - 梵本六百頌舒盧迦三十二字文義深隱當如何與瞿曇流支共譯令中土信解
+  lesson: 依世諦說真諦因緣生法皆無自體空語亦能成遮護持中道
+  summary_first_person: 吾烏苌剎利種三藏毗目智仙來入大魏鄴都與瞿曇流支共在金華寺譯出龍樹回諍論述記時事願見聞者同崇翻譯證於空義
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E4%B8%9A%E6%88%90%E5%B0%B1%E8%AE%BA.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E4%B8%9A%E6%88%90%E5%B0%B1%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘論/回諍論.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘論/回諍論.html
 endeavors:
 - id: guji-毗目智仙-endeavor-1
-  title_zh: 邺城金华寺译业成就论
-  summary: 应请入寺与流支昙林等共译天亲造论以示太平
+  title_zh: 鄴城金華寺共譯佛典
+  summary_zh: 以烏苌三藏身份入鄴與天竺婆羅門瞿曇流支合作譯經受高仲密供養
   phases:
   - key: brewing
-    name: 承请赴邺
+    name: 烏苌習學成三藏
     labels:
-      zh: 发起
-    start_date: '0541-01-01'
-    highlight_event_id: guji-毗目智仙-event-meet
+      zh:
+      - 烏苌
+      - 剎利種
+      - 三藏學
+    start_date: 0490-01-01
+    highlight_event_id: guji-毗目智仙-event-birth
   - key: breakthrough
-    name: 共译决义
+    name: 至鄴入京華寺
     labels:
-      zh: 翻译
-    start_date: '0541-07-01'
+      zh:
+      - 入華
+      - 共譯
+    start_date: 0535-01-01
+    highlight_event_id: guji-毗目智仙-event-translate
+  - key: climax
+    name: 與流支對譯受筆
+    labels:
+      zh:
+      - 對譯
+      - 昙林筆受
+    start_date: 0541-04-12
     highlight_event_id: guji-毗目智仙-event-translate
   - key: closure
-    name: 成论流通
+    name: 得高仲密啟請供養
     labels:
-      zh: 完成
-    start_date: '0541-08-18'
-    highlight_event_id: guji-毗目智仙-event-translate
+      zh:
+      - 供養
+      - 章聞
+    start_date: 0541-05-05
+    highlight_event_id: guji-毗目智仙-event-preface
   decisions:
-  - date: '0541-07-01'
-    title_zh: 应高仲密请入寺开译
-    rationale: 法行有时寄必得人欲显大魏安固嘉兆故赴会
-  - date: '0541-08-18'
-    title_zh: 定阿梨耶种子熏习义
-    rationale: 为会通有作无作断常见依深密经立识藏不断故成业果
+  - date: 0541-04-12
+    title_zh: 選擇與瞿曇流支共譯
+    rationale: 天竺婆羅門明梵語我明大義共校可免訛失
+  - date: 0541-05-05
+    title_zh: 受高仲密供養記時事
+    rationale: 令樂法者見聞同崇翻譯有憑可考
 - id: guji-毗目智仙-endeavor-2
-  title_zh: 会通三业弘大乘业道
-  summary: 辨身口意善恶熏心以破过去未来有无之争
+  title_zh: 譯出龍樹回諍論護持空義
+  summary_zh: 譯龍樹回諍論六百頌傳中觀遮難之法述序記明翻譯緣起
   phases:
   - key: brewing
-    name: 研核三业
+    name: 承龍樹空宗本義
     labels:
-      zh: 研习
-    start_date: '0540-01-01'
-    highlight_event_id: guji-毗目智仙-event-meet
+      zh:
+      - 龍樹造論
+      - 一切法空
+    start_date: 0535-01-01
+    highlight_event_id: guji-毗目智仙-event-translate
+  - key: breakthrough
+    name: 興和三年起譯回諍
+    labels:
+      zh:
+      - 興和三年
+      - 建辰之月
+    start_date: 0541-04-12
+    highlight_event_id: guji-毗目智仙-event-translate
   - key: climax
-    name: 立熏习果报
+    name: 二十餘功成一萬一千餘字
     labels:
-      zh: 立义
-    start_date: '0541-08-18'
+      zh:
+      - 二十功
+      - 萬餘字成
+    start_date: 0541-05-05
     highlight_event_id: guji-毗目智仙-event-translate
   - key: closure
-    name: 劝愿成佛
+    name: 述序記流通後世
     labels:
-      zh: 回向
-    start_date: '0541-08-18'
-    highlight_event_id: guji-毗目智仙-event-translate
+      zh:
+      - 述序
+      - 流通
+    start_date: 0541-05-05
+    highlight_event_id: guji-毗目智仙-event-preface
   decisions:
-  - date: '0541-07-15'
-    title_zh: 以思熏藏识解业不失
-    rationale: 若执过去实有则成痈上疖子故以相续转变喻摩登伽花以显因果
-  - date: '0541-08-18'
-    title_zh: 依法义判三业成就
-    rationale: 为遮外难明身动风界心因为意杀盗等皆由思集故说福愿成佛
+  - date: 0541-04-12
+    title_zh: 決定全譯偈釋初上二分
+    rationale: 存問答正反以顯化人喻幻人喻破自性量論
+  - date: 0541-05-05
+    title_zh: 撰翻譯記自述
+    rationale: 明都邑年月日譯主筆受供養主以取信後人
 events:
 - id: guji-毗目智仙-event-birth
-  title_zh: 乌苌国诞生
-  date: '0500-01-01'
-  year_of: 500
-  place_zh: 乌苌国
-  summary: 约五世纪初生于乌苌国后出家习大乘论
-- id: guji-毗目智仙-event-meet
-  title_zh: 受请赴邺城金华寺
-  date: '0541-07-01'
-  year_of: 541
-  place_zh: 邺城金华寺
-  summary: 兴和三年承高仲密诚请与瞿昙流支释昙林等集寺准备开译
+  title_zh: 誕生於烏苌國剎利王種
+  date: 0490-01-01
+  year_of: 490
+  summary_zh: 生於烏苌國剎利種後學成三藏
 - id: guji-毗目智仙-event-translate
-  title_zh: 译毕业成就论一卷
-  date: '0541-08-18'
+  title_zh: 鄴城金華寺共譯回諍論
+  date: 0541-04-12
   year_of: 541
-  place_zh: 邺城金华寺
-  summary: 七月辛未朔二十五日共译四千八百七十二字明身口意业及阿梨耶识缘起
+  summary_zh: 興和三年建辰之月辛卯之日與瞿曇流支在鄴金華寺起譯費二十餘功成一萬一千九十八字昙林筆受
+- id: guji-毗目智仙-event-preface
+  title_zh: 述回諍論翻譯之記序
+  date: 0541-05-05
+  year_of: 541
+  summary_zh: 自述龍樹造論六百頌及譯場緣起得高仲密啟請供養以章時事
 - id: guji-毗目智仙-event-death
-  title_zh: 入灭
-  date: '0560-12-31'
-  year_of: 560
-  place_zh: 中土
-  summary: 译经弘法后约六世纪中叶入灭愿众生成佛
+  title_zh: 示寂
+  date: 0555-01-01
+  year_of: 555
+  summary_zh: 譯事既畢化緣已周卒年失載約六世紀中示寂
