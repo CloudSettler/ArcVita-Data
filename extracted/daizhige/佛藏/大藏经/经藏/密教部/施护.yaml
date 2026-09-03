@@ -6,124 +6,134 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 约0950
       precision: year
       is_circa: true
-      raw: 北天竺约十世纪中叶生年不详
+      raw: 约宋初生于西天乌填曩国
     death:
       date: '1017'
       precision: year
-      is_circa: true
-      raw: 宋真宗天禧元年圆寂
-  birth_date: 0950
+      is_circa: false
+      raw: 宋真宗天禧元年卒于开封
+  birth_date: 约0950
   death_date: '1017'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
-  archetype: 西天译经弘法者
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 译场弘传者
   dilemmas:
-  - title_zh: 梵义精微与华言通俗之衡
-    description: 持守梵本密语真实又须令中土信众得受持功德
-  - title_zh: 朝廷译场规制与弘法本愿之衡
-    description: 奉诏译经须合译场仪轨又不失利乐众生初心
-  lesson: 以恭敬供养与至诚持诵接引众生得眼耳鼻舌身意清净直至菩提
-  summary_first_person: 吾乃施护西天来华译经沙门奉诏于译经院传译显密经论译出莲华眼陀罗尼等经愿众生晨朝供养持诵百八遍罪障除灭五眼清净恒见佛闻法直至菩提道场
+  - 梵本义理深密与汉地通俗受持之间如何取舍
+  - 密教仪轨秘密传承与普利群生公开弘传之间如何持衡
+  - 译场群译求信达雅与个人道业精进之间如何兼顾
+  lesson: 以坚固信愿居译场，以般若空性摄密教，使深密法门得汉文广传
+  summary_first_person: 吾施护，西来应诏入宋译场，与天息灾法天等共译显密经律，独以金刚场庄严般若一分，会般若空性与金刚瑜伽，愿令汉地有情依正慧得清净住。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/T1411.md
-  - https://daizhige.org/T1411.html
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说金刚场庄严般若波罗蜜多教中一分.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说金刚场庄严般若波罗蜜多教中一分.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 译经院奉诏传译
-  description: 自西天入宋充译经三藏历事太宗真宗两朝于译经院传法译经
+  title_zh: 入宋译场系统传译显密经论
+  summary_zh: 自太平兴国中应诏入开封译经院，与法天等共事群译，历太宗真宗两朝译出般若宝生功德等经凡百余卷，确立北宋官方译场制度。
   phases:
   - key: brewing
-    name: 西天发足入华初参
+    name: 西土习学酝酿
     labels:
-      zh: 酝酿
-    start_date: 0980
-    highlight_event_id: guji-施护-event-arrive
+      zh: 酝酿习学
+    start_date: 约0960
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 授试鸿胪少卿传法大师
+    name: 奉诏入华初译
     labels:
-      zh: 突破
-    start_date: 0991
-    highlight_event_id: guji-施护-event-confer
+      zh: 初入译场
+    start_date: 0980
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 太宗真宗朝大量译出经论
+    name: 群译鼎盛多经并出
     labels:
-      zh: 高峰
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-lianhuayan
+      zh: 鼎盛多译
+    start_date: 0990
+    highlight_event_id: guji-施护-event-translate-many
   - key: closure
-    name: 天禧圆寂译业成就
+    name: 赐紫传法功成
     labels:
-      zh: 收束
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
+      zh: 功成赐号
+    start_date: '1005'
+    highlight_event_id: guji-施护-event-honor
   decisions:
   - date: 0980
-    title_zh: 随师入宋应诏译经
-    rationale: 为使正法东流不辞远涉愿入译场以梵汉传译利华夏众生
-  - date: 0991
-    title_zh: 受朝散大夫传法大师之职
-    rationale: 借朝廷护持建立译场规制令译经弘传久住
+    title_zh: 应诏东来就译
+    rationale: 为使西天正法广布东土，不辞远行入华，依朝廷译场群议共译以取信
+  - date: 0990
+    title_zh: 坚持直译兼畅义
+    rationale: 梵汉文体悬隔，须存密咒音义而以汉文明其理，令持诵解义两得
 - id: guji-施护-endeavor-2
-  title_zh: 莲华眼陀罗尼密法弘宣
-  description: 传译弘扬莲华眼陀罗尼教人晨朝供养持诵除罪清净身心
+  title_zh: 传译金刚场庄严般若密教法门
+  summary_zh: 于大部般若支流别行之中，择金刚场庄严一分译弘，以四念处乃至十八不共法配以大明真言，会显入密，令金刚瑜伽大秘密主法门在汉地有依可修。
   phases:
   - key: brewing
-    name: 密教观眼清净法门研习
+    name: 劝请因缘观察
     labels:
-      zh: 酝酿
-    start_date: 0985
-    highlight_event_id: guji-施护-event-confer
+      zh: 缘起观察
+    start_date: 0995
+    highlight_event_id: guji-施护-event-translate-many
   - key: breakthrough
-    name: 奉诏译出莲华眼陀罗尼经
+    name: 别行一分首译
     labels:
-      zh: 突破
+      zh: 别行首译
     start_date: '1000'
-    highlight_event_id: guji-施护-event-lianhuayan
+    highlight_event_id: guji-施护-event-translate-jingangchang
   - key: climax
-    name: 宣说晨朝百八持诵功德
+    name: 庄严道场广说仪轨
     labels:
-      zh: 高峰
-    start_date: '1001'
-    highlight_event_id: guji-施护-event-lianhuayan
+      zh: 广说庄严
+    start_date: '1002'
+    highlight_event_id: guji-施护-event-translate-jingangchang
   - key: closure
-    name: 以菩提道场圆满嘱累后学
+    name: 付嘱流通护念
     labels:
-      zh: 收束
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
+      zh: 流通护念
+    start_date: '1010'
+    highlight_event_id: guji-施护-event-honor
   decisions:
   - date: '1000'
-    title_zh: 译出百八遍持诵功德之说
-    rationale: 令在家出家皆可晨朝恭敬供养持诵得除罪眼清净之益
-  - date: '1001'
-    title_zh: 以见佛闻法直至菩提为归趣
-    rationale: 不止于治眼耳鼻舌身病更导归发菩提心圆满正觉
+    title_zh: 于大部中别行金刚场一分
+    rationale: 大般若广博难持，别出一分以金刚场摄三十七道品等地，便于观修持诵
+  - date: '1002'
+    title_zh: 以大明总持摄诸法门
+    rationale: 诸法门各付真言大明，使理事双运，显教义理藉密咒得护持成就
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于北天竺
-  date: 0950
+  date: 约0950
   year_of: 950
-  description: 约十世纪中叶生于北天竺幼习梵文显密经论
-- id: guji-施护-event-arrive
-  title_zh: 入宋充译经沙门
+  type: birth
+  title_zh: 生于西天乌填曩国
+  description_zh: 约宋初生于西域，幼习声明因明，兼通显密经论，为后入华译经奠基
+- id: guji-施护-event-arrival
   date: 0980
   year_of: 980
-  description: 随天息灾等入华至开封入译经院参预梵汉传译
-- id: guji-施护-event-confer
-  title_zh: 授传法大师试鸿胪少卿
-  date: 0991
-  year_of: 991
-  description: 以译经功授西天译经三藏朝散大夫试鸿胪少卿传法大师
-- id: guji-施护-event-lianhuayan
-  title_zh: 奉诏译佛说莲华眼陀罗尼经
+  type: career
+  title_zh: 随师东来入宋译经院
+  description_zh: 宋太宗太平兴国五年随天息灾入开封，充译经三藏试光禄卿，赐紫传法大师，参预官方群译
+- id: guji-施护-event-translate-many
+  date: 0990
+  year_of: 990
+  type: career
+  title_zh: 群译般若宝生等经百余卷
+  description_zh: 与法贤法天等共译佛说圣曜母等及般若诸经，译风信实，朝野推重，译场规模大备
+- id: guji-施护-event-translate-jingangchang
   date: '1000'
   year_of: 1000
-  description: 奉诏译出莲华眼陀罗尼宣说晨朝供养持诵百八遍乃至三七日得罪灭眼净见佛闻法之功德
+  type: career
+  title_zh: 译出佛说金刚场庄严般若波罗蜜多教中一分
+  description_zh: 以大毗卢遮那金刚瑜伽为主尊，译四念处至十八不共法诸品及大明句，阐明即显即密平等法门，十方如来称赞流通
+- id: guji-施护-event-honor
+  date: '1005'
+  year_of: 1005
+  type: career
+  title_zh: 朝廷褒显传法授徒
+  description_zh: 以译经功授朝奉大夫传法大师，领徒传授梵本仪轨，护念正法成熟有情，译业至此圆满
 - id: guji-施护-event-death
-  title_zh: 宋真宗天禧元年圆寂
   date: '1017'
   year_of: 1017
-  description: 译经弘法数十载后于开封圆寂译本流传后世
+  type: death
+  title_zh: 卒于开封译经院
+  description_zh: 宋真宗天禧元年示寂，朝廷厚赙荼毗，所译金刚场庄严一分与诸经并入大藏流行后世
