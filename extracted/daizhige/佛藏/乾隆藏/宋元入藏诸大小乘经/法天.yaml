@@ -6,122 +6,127 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0950
-      precision: century
-      is_circa: true
-      raw: 约十世纪中叶生于中印度摩揭陀国
-    death:
-      date: '1001'
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 约宋咸平四年示寂于开封
-  birth_date: 0950
-  death_date: '1001'
+      raw: 约宋初生于西印度摩揭陀国
+    death:
+      date: 1001-01-01
+      precision: year
+      is_circa: false
+      raw: 宋咸平四年卒于开封
+  birth_date: 0950-01-01
+  death_date: 1001-01-01
   era: 北宋
-  reign_ref: 宋太祖开宝至宋真宗咸平
-  archetype: 传译弘化型
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 译经传法大师
   dilemmas:
-  - 梵汉悬隔义难两全，须忠实传译又令华人得解
-  - 朝宠利养与梵行清净相违，须处荣宠而不染著
-  lesson: 以清净梵行承王命译经，令念处正法流行华土
-  summary_first_person: 吾本中印度摩揭陀国人，西来入宋，奉诏传译，专弘念处正行，愿众生离酒妄杀盗诸恶，修慈忍慧，趣向涅槃
+  - 梵汉文义悬隔而求信达兼顾
+  - 密法仪轨繁密而衡普传与秘传
+  lesson: 以译经为弘法不徇名闻但令金刚大乘普利群生
+  summary_first_person: 我是法天本为西域学僧奉宋帝诏入译经院译出最上大乘金刚大教宝王经等愿以金刚智令众生证无生忍尽涅槃界
   source_urls:
+  - https://cbeta.org/zh/T1128
   - https://github.com/daizhige-org/daizhigev20
-  - https://cbeta.org/result/T0722
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏译经传法
-  summary: 自西天入宋，入译经院共译显密经论，传译妙法圣念处经八卷
+  title_zh: 奉诏译出最上大乘金刚大教宝王经
+  summary: 承诏于译经院译梵为汉成二卷宝王经明金刚大乘摄一切乘
   phases:
   - key: brewing
-    name: 西土习学
+    name: 西来入华应诏
     labels:
-      zh: 摩揭陀修学
-    start_date: 0950
-    highlight_event_id: guji-法天-event-birth
+      zh: 入院习译
+    start_date: 0980-01-01
+    highlight_event_id: guji-法天-event-enter-yiyuan
   - key: breakthrough
-    name: 航海东来进经
+    name: 发心重译宝王经
     labels:
-      zh: 入宋进经
-    start_date: 0973
-    highlight_event_id: guji-法天-event-arrival
+      zh: 发心定纲
+    start_date: 0983-01-01
+    highlight_event_id: guji-法天-event-translate-baowangjing
   - key: climax
-    name: 奉诏开译念处
+    name: 二卷译成进呈
     labels:
-      zh: 开译妙法圣念处经
-    start_date: 0983
-    highlight_event_id: guji-法天-event-translate
+      zh: 译成进呈
+    start_date: 0984-01-01
+    highlight_event_id: guji-法天-event-translate-baowangjing
   - key: closure
-    name: 译业圆满流通
+    name: 授官传教大师
     labels:
-      zh: 流通后世
-    start_date: 0991
-    highlight_event_id: guji-法天-event-translate
+      zh: 受封弘传
+    start_date: 0985-01-01
+    highlight_event_id: guji-法天-event-preach-vajrayana
   decisions:
-  - date: 0973
-    title_zh: 随师西来入宋应诏
-    rationale: 慕华土弘法因缘，愿以梵本利乐东方，故不惮海陆艰辛东行
-  - date: 0983
-    title_zh: 专译念处系经示戒定慧
-    rationale: 见宋人多犯酒妄杀盗，轮回苦重，故择念处法门明因果劝善
+  - date: 0980-01-01
+    title_zh: 应诏入宋译经院
+    rationale: 慕中土弘法因缘以译经利生为己任故舍西域而来
+  - date: 0984-01-01
+    title_zh: 定名最上大乘宝王而译
+    rationale: 明金刚大乘即摄一切乘令末法众生得闻生信故不避繁难
 - id: guji-法天-endeavor-2
-  title_zh: 宣演戒善教化群生
-  summary: 依念处经广说十善远酒离妄，劝苾刍安住林野慈忍修观，化导在俗出家
+  title_zh: 弘传金刚大乘教法
+  summary: 依经演说慈悲喜舍及十八空开示承事阿阇梨轨则化导四众
   phases:
   - key: brewing
-    name: 观察宋俗弊病
+    name: 开演四乘分别
     labels:
-      zh: 观察风俗
-    start_date: 0976
-    highlight_event_id: guji-法天-event-arrival
+      zh: 开演四乘
+    start_date: 0985-01-01
+    highlight_event_id: guji-法天-event-preach-vajrayana
   - key: breakthrough
-    name: 开演酒妄过患
+    name: 广说灌顶三昧
     labels:
-      zh: 说戒止恶
-    start_date: 0983
-    highlight_event_id: guji-法天-event-preach
+      zh: 授灌顶法
+    start_date: 0990-01-01
+    highlight_event_id: guji-法天-event-preach-vajrayana
   - key: climax
-    name: 劝修念处梵行
+    name: 四众证忍弘化
     labels:
-      zh: 劝修梵行
-    start_date: 0985
-    highlight_event_id: guji-法天-event-preach
+      zh: 化众证忍
+    start_date: 0995-01-01
+    highlight_event_id: guji-法天-event-preach-vajrayana
   - key: closure
-    name: 付嘱流通安寂
+    name: 示寂付嘱后学
     labels:
-      zh: 付嘱圆寂
-    start_date: '1001'
+      zh: 示寂付嘱
+    start_date: 1001-01-01
     highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0983
-    title_zh: 广说酒有众多过失须远离
-    rationale: 酒能坏善根智慧增长地狱业，故详说众多过失令众永断
-  - date: 0985
-    title_zh: 劝苾刍林间一食修慈观
-    rationale: 愦闹放逸难成定慧，唯静处知足忍辱方证寂灭，故劝离聚落住林野
+  - date: 0990-01-01
+    title_zh: 普说金刚大乘而不秘吝
+    rationale: 念末法众生薄福无怙欲令随根得入三摩地故广演
+  - date: 0995-01-01
+    title_zh: 重申承事阿阇梨八法
+    rationale: 佛灭后以师为怙恐学众轻慢破三昧故立轨则以护法
 events:
 - id: guji-法天-event-birth
-  date: 0950
+  title_zh: 生于西印度摩揭陀国
+  date: 0950-01-01
   year_of: 950
-  title_zh: 生于中印度摩揭陀国
-  description: 生于摩揭陀佛法世家，幼习梵文声明因明，精通三藏
-- id: guji-法天-event-arrival
-  date: 0973
-  year_of: 973
-  title_zh: 随天息灾东来至开封进梵本
-  description: 宋太祖开宝年间携梵夹经本至开封，朝廷礼重，入译经院
-- id: guji-法天-event-translate
-  date: 0983
-  year_of: 983
-  title_zh: 奉诏译出妙法圣念处经八卷
-  description: 宋太宗朝奉诏于译经院译出妙法圣念处经，广明苾刍行十善地狱因果酒妄过患
-- id: guji-法天-event-preach
-  date: 0985
-  year_of: 985
-  title_zh: 宣说念处劝众远酒离妄修善
-  description: 依所译经为大众说酒失妄语地狱苦相，劝持戒修慈忍观，化导甚众
+  place_zh: 西印度摩揭陀国
+  description_zh: 法天约生于宋初西域学佛精梵汉后入中土
+- id: guji-法天-event-enter-yiyuan
+  title_zh: 入宋译经院奉诏译经
+  date: 0980-01-01
+  year_of: 980
+  place_zh: 开封译经院
+  description_zh: 太平兴国中应诏入院授朝散大夫试鸿胪卿传教大师同施护等共译显密诸经
+- id: guji-法天-event-translate-baowangjing
+  title_zh: 译出最上大乘金刚大教宝王经二卷
+  date: 0984-01-01
+  year_of: 984
+  place_zh: 开封译经院
+  description_zh: 译此经述广严城及过去日清净光明如来时金刚手菩萨六年演说金刚大乘并灌顶付嘱之事
+- id: guji-法天-event-preach-vajrayana
+  title_zh: 演说金刚大乘及承事轨则
+  date: 0995-01-01
+  year_of: 995
+  place_zh: 开封
+  description_zh: 依经宣说慈悲喜舍为菩萨性及十八空为真谛并弟子承事阿阇梨八法化导沙门婆罗门等
 - id: guji-法天-event-death
-  date: '1001'
+  title_zh: 卒于开封
+  date: 1001-01-01
   year_of: 1001
-  title_zh: 示寂于开封译经院
-  description: 至道咸平年间示寂，一生译经传法，梵行清净，为宋初三大译师之一
+  place_zh: 开封
+  description_zh: 宋咸平四年示寂译业既成学众追慕其所译宝王经入藏流行
