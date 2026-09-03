@@ -6,127 +6,135 @@ person:
     en: Daoshi
   lifespan:
     birth:
-      date: 0596
+      date: '0596-01-01'
       precision: year
       is_circa: true
-      raw: 隋末约开皇十六年
+      raw: 隋开皇十六年左右生于京兆
     death:
-      date: 0683
+      date: '0683-01-01'
       precision: year
-      is_circa: false
-      raw: 唐弘道元年
-  birth_date: 0596
-  death_date: 0683
+      is_circa: true
+      raw: 唐弘道元年左右寂于西明寺
+  birth_date: '0596-01-01'
+  death_date: '0683-01-01'
   era: 唐
-  reign_ref: 唐高宗总章元年
-  archetype: 弘法编纂高僧
+  reign_ref: 唐太宗贞观至唐高宗弘道
+  archetype: 类书编纂弘法高僧
   dilemmas:
-  - 卷轴繁伙条流深旷初学难于详览与博记之间的两难
-  - 文繁则情堕义略则寡闻之间如何折中取要
-  lesson: 以类编录义丰文约使探卷得意珠披文饮甘露
-  summary_first_person: 吾幼慕大乘具受戒律召居西明遍览三藏以类编录成法苑珠林百篇庶使轨正道者睹奥知微
+  - title_zh: 经文浩汗难寻对凡情闇短难解
+    description_zh: 大藏文句浩汗道俗卒难寻览须类聚要文以便依行
+  - title_zh: 持律护法繁重对著述宏大费时
+    description_zh: 兼顾西明寺弘护与十年读藏抄录精力分身两难
+  lesson: 以类聚经化繁为要使善恶业报易知易行传灯有据
+  summary_first_person: 吾道世居西明寺慨末代教沈道丧读一切经随要录出勒成诸经要集与法苑珠林冀道俗依行不迷
   source_urls:
-  - https://daizhige.org/法苑珠林.html
-  - https://zh.wikisource.org/wiki/法苑珠林
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E8%AF%B8%E7%BB%8F%E8%A6%81%E9%9B%86.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E8%AF%B8%E7%BB%8F%E8%A6%81%E9%9B%86.md
 endeavors:
 - id: guji-道世-endeavor-1
-  title_zh: 编纂法苑珠林百卷
-  summary: 搴文囿菁华嗅大义瞻卜以类编录总一百篇勒成十帙
+  title_zh: 显庆读藏编诸经要集
+  summary_zh: 于显庆年中遍读大藏随情逐要录善恶业报一千余条分三十篇成二十卷
   phases:
   - key: brewing
-    name: 博览三藏酝酿分类
+    name: 发愿读藏
     labels:
-      zh: 酝酿
-    start_date: '0656'
-    highlight_event_id: guji-道世-event-xming
+      zh: 显庆发心遍览大藏
+    start_date: '0656-01-01'
+    highlight_event_id: guji-道世-event-reading
   - key: breakthrough
-    name: 立类编录发端纂集
+    name: 随要抄录
     labels:
-      zh: 突破
-    start_date: '0660'
-    highlight_event_id: guji-道世-event-compile
+      zh: 录善恶业报千条
+    start_date: '0658-01-01'
+    highlight_event_id: guji-道世-event-yaoji
   - key: climax
-    name: 百篇既成分帙初具
+    name: 勒成两帙
     labels:
-      zh: 高潮
-    start_date: '0667'
-    highlight_event_id: guji-道世-event-compile
+      zh: 分三十篇成二十卷
+    start_date: '0660-01-01'
+    highlight_event_id: guji-道世-event-yaoji
   - key: closure
-    name: 总章元年三月毕功
+    name: 传灯有据
     labels:
-      zh: 收束
-    start_date: '0668-03-30'
-    highlight_event_id: guji-道世-event-complete
+      zh: 冀道俗依行
+    start_date: '0661-01-01'
+    highlight_event_id: guji-道世-event-yaoji
   decisions:
-  - date: '0660'
-    title_zh: 以类编录不虚构浮词
-    rationale: 古今制作虽多雅趣佳词无足博记故撮菁华以类相从使义丰文约
-  - date: '0668-03-30'
-    title_zh: 勒成百篇十帙流通
-    rationale: 欲使缉玄词者探卷得意轨正道者披文饮甘露故久览知要而毕集
+  - date: '0656-01-01'
+    title_zh: 立类聚体例
+    rationale: 文句浩汗卒难寻览故立三宝敬塔等三十门以类相从
+  - date: '0660-01-01'
+    title_zh: 先成要集以便行
+    rationale: 先录人堪行者善恶业报使道俗即得依行不待全藏遍通
 - id: guji-道世-endeavor-2
-  title_zh: 住持西明弘律护教
-  summary: 召居西明为释门领袖戒品圆明律义精晓爱慕大乘洞明实相
+  title_zh: 总章续成法苑珠林
+  summary_zh: 接续要集之志广搜群经律论成百卷法苑珠林备诸珍宝性具庄严
   phases:
   - key: brewing
-    name: 幼嶷聚砂落饰受具
+    name: 西明弘护积资
     labels:
-      zh: 酝酿
-    start_date: '0610'
-    highlight_event_id: guji-道世-event-birth
+      zh: 居西明寺弘律护教
+    start_date: '0662-01-01'
+    highlight_event_id: guji-道世-event-ximing
   - key: breakthrough
-    name: 英博召居西明寺
+    name: 广搜群典
     labels:
-      zh: 突破
-    start_date: 0658
-    highlight_event_id: guji-道世-event-xming
+      zh: 搜采经律论要文
+    start_date: '0664-01-01'
+    highlight_event_id: guji-道世-event-zhulin
   - key: climax
-    name: 领袖释门宣导法苑
+    name: 百卷告成
     labels:
-      zh: 高潮
-    start_date: '0668-03-30'
-    highlight_event_id: guji-道世-event-complete
+      zh: 总章元年成百卷
+    start_date: '0668-01-01'
+    highlight_event_id: guji-道世-event-zhulin
   - key: closure
-    name: 圆寂西明遗惠后学
+    name: 流通供养
     labels:
-      zh: 收束
-    start_date: 0683
-    highlight_event_id: guji-道世-event-death
+      zh: 扫塔涂地华香供养流通
+    start_date: '0669-01-01'
+    highlight_event_id: guji-道世-event-zhulin
   decisions:
-  - date: 0658
-    title_zh: 应召居西明弘宣
-    rationale: 玄教聿宣梵响遍都甸当以领袖之任住持正法广利区宇
-  - date: '0668-03-30'
-    title_zh: 以珠林轨正道化迷
-    rationale: 导迷生于欲海引穷子于慈室使前后际并契真如初心末心咸归正觉
+  - date: '0664-01-01'
+    title_zh: 扩要集为珠林
+    rationale: 要集三十篇犹略须广为百篇百卷网罗四生十恶地狱等以显因果
+  - date: '0668-01-01'
+    title_zh: 以报恩传通为归
+    rationale: 佛能诲示法是良药僧能传通为报恩护法令正法久住故不惜身命成书
 events:
 - id: guji-道世-event-birth
-  type: birth
-  title_zh: 出生于隋末
-  date: 0596
+  title_zh: 生于京兆韩氏
+  date: '0596-01-01'
   year_of: 596
-  description: 俗姓韩字玄恽幼嶷聚砂慈殷接蚁后落饰受具
-- id: guji-道世-event-xming
+  type: birth
+  description_zh: 隋开皇十六年左右生于京兆韩氏少怀出俗之志
+- id: guji-道世-event-reading
+  title_zh: 显庆读一切经
+  date: '0656-06-01'
+  year_of: 656
   type: career
-  title_zh: 召居西明寺
-  date: 0658
-  year_of: 658
-  description: 以英博召居西明为释门领袖遍览五部三藏
-- id: guji-道世-event-compile
-  type: career
-  title_zh: 发愿纂集法苑珠林
-  date: '0660'
+  description_zh: 唐高宗显庆年中遍读一切经慨教迹沦湑发愿随情逐要录出
+- id: guji-道世-event-yaoji
+  title_zh: 诸经要集成二十卷
+  date: '0660-01-01'
   year_of: 660
-  description: 以古今卷轴繁伙条流深旷难于详览故以类编录号曰法苑珠林
-- id: guji-道世-event-complete
   type: career
-  title_zh: 总章元年三月三十日成书
-  date: '0668-03-30'
+  description_zh: 录善恶业报千条分三宝敬塔摄念等三十篇勒成两帙二十卷名诸经要集
+- id: guji-道世-event-ximing
+  title_zh: 居西明寺弘化
+  date: '0662-01-01'
+  year_of: 662
+  type: career
+  description_zh: 居唐西明寺为沙门与道宣等弘律护教声名益著
+- id: guji-道世-event-zhulin
+  title_zh: 法苑珠林告成
+  date: '0668-01-01'
   year_of: 668
-  description: 总一百篇勒成十帙李俨作序庶使披览知要与环景齐照
+  type: career
+  description_zh: 唐总章元年广要集而成法苑珠林百卷详明业因受报为后世类书之祖
 - id: guji-道世-event-death
-  type: death
-  title_zh: 圆寂于西明寺
-  date: 0683
+  title_zh: 寂于西明寺
+  date: '0683-01-01'
   year_of: 683
-  description: 弘道元年示寂于西明所撰珠林流通后世为此土著述之要
+  type: death
+  description_zh: 唐弘道元年左右寂于西明寺世寿约八十余所著要集珠林盛行于世
