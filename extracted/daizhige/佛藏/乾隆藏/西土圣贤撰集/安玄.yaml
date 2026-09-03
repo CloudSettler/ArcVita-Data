@@ -1,0 +1,106 @@
+person:
+  qid: guji-安玄
+  name_zh: 安玄
+  names:
+    zh: 安玄
+    en: An Xuan
+  lifespan:
+    birth:
+      date: '0130'
+      precision: year
+      is_circa: true
+      raw: 约生于安息国
+    death:
+      date: 0185
+      precision: year
+      is_circa: true
+      raw: 约卒于洛阳
+  birth_date: '0130'
+  death_date: 0185
+  era: 后汉
+  reign_ref: 汉桓帝至汉灵帝时
+  archetype: 居士译师
+  dilemmas:
+  - title_zh: 以白衣居士身译经弘法之分际
+    description: 既居白衣不当僭师，又不忍正法不传，故以口解传译助道
+  - title_zh: 守安息本俗与从汉地道俗之衡
+    description: 远来洛阳语言风俗皆异，当随顺时俗以通经义又不失本义
+  lesson: 以白衣之身远来传法，知十二因缘断生死根，当先断身口意十恶以还灭五阴
+  summary_first_person: 吾本安息优婆塞，远来洛阳，与严佛调共译阿含口解，备说十二因缘内外流转与还灭，愿世人念苦舍习知尽行道以断生死
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/西土圣贤撰集/阿含口解十二因缘经.html
+  - https://tripitaka.cbeta.org/T15n1508_001
+endeavors:
+- id: guji-安玄-endeavor-1
+  title_zh: 远来洛阳以居士身助弘佛法
+  summary: 自安息来至洛阳，习汉言风俗，以优婆塞身份亲近道俗，奠定译经弘法之基
+  phases:
+  - key: brewing
+    name: 安息奉法立志东行
+    labels:
+      zh: 安息奉法
+    start_date: '0150'
+    highlight_event_id: guji-安玄-event-birth
+  - key: breakthrough
+    name: 到达洛阳通汉言
+    labels:
+      zh: 来华通言
+    start_date: 0168
+    highlight_event_id: guji-安玄-event-arrival
+  decisions:
+  - date: 0168
+    title_zh: 决意东行至洛阳
+    rationale: 不忍正法独在西土，愿以白衣身入汉地助弘大道
+  - date: 0169
+    title_zh: 安居洛阳学汉俗言
+    rationale: 欲使经义通于汉人，必先通其语言礼俗方能取信
+- id: guji-安玄-endeavor-2
+  title_zh: 口解阿含共译十二因缘经
+  summary: 与沙门严佛调合作，以口解说义笔受成文，译出阿含口解十二因缘经，明内外十二因缘与断十恶还灭之道
+  phases:
+  - key: brewing
+    name: 集阿含义理口授解说
+    labels:
+      zh: 口解酝酿
+    start_date: 0169
+    highlight_event_id: guji-安玄-event-arrival
+  - key: climax
+    name: 共严佛调译出经卷
+    labels:
+      zh: 共译成经
+    start_date: '0170'
+    highlight_event_id: guji-安玄-event-translation
+  - key: closure
+    name: 流布十二因缘断惑之教
+    labels:
+      zh: 流布化世
+    start_date: '0172'
+    highlight_event_id: guji-安玄-event-translation
+  decisions:
+  - date: '0170'
+    title_zh: 与严佛调合作分任口解笔受
+    rationale: 吾长于西土义理而汉文未精，借其笔受可使义达辞顺
+  - date: '0171'
+    title_zh: 以十二因缘配内外断十恶为纲
+    rationale: 欲使学者易持，当先断身口意十恶，便五阴灭而十二因缘灭
+events:
+- id: guji-安玄-event-birth
+  date: '0130'
+  year_of: 130
+  title_zh: 生于安息国
+  description: 约生于安息，为优婆塞，奉佛持戒学阿含义
+- id: guji-安玄-event-arrival
+  date: 0168
+  year_of: 168
+  title_zh: 至洛阳
+  description: 自安息东来至后汉洛阳，习汉言礼俗，结交道俗
+- id: guji-安玄-event-translation
+  date: '0170'
+  year_of: 170
+  title_zh: 共严佛调译阿含口解十二因缘经
+  description: 以口解十二因缘内外流转还灭之理，共译成一卷，明断生死根要断身十事
+- id: guji-安玄-event-death
+  date: 0185
+  year_of: 185
+  title_zh: 卒于洛阳前后
+  description: 译经弘法后卒，居士译业为后世白衣译经之先声
