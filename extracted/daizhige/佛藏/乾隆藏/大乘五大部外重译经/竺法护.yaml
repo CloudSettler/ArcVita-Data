@@ -6,186 +6,134 @@ person:
     en: Dharmaraksha
   lifespan:
     birth:
-      date: '0233'
+      date: '0231'
       precision: year
-      is_circa: true
-      raw: 约景元四年敦煌
+      is_circa: false
+      raw: 敦煌月氏家生
     death:
       date: 0308
       precision: year
-      is_circa: true
-      raw: 约永嘉二年
-  birth_date: '0233'
+      is_circa: false
+      raw: 西晋永嘉二年卒于长安
+  birth_date: '0231'
   death_date: 0308
   era: 西晋
-  reign_ref: 晋武帝至怀帝
-  archetype: 译经大士
+  reign_ref: 晋武帝泰始至怀帝永嘉
+  archetype: 译经宗师
   dilemmas:
-  - 梵本零散西行艰危与中土渴仰大乘之矛盾
-  - 直质译风遭文士讥朴与欲雅饰以畅达之取舍
-  lesson: 弘法以得本为要不以文饰害质使胡汉皆得闻大乘
-  summary_first_person: 吾本月支裔家敦煌八岁出家日诵万言志在广译西行三十六国得梵本百六十五部归洛译出一百五十余部此现宝藏经亦吾所译但愿正法流通不负西行之劳
+  - 梵本稀缺与中土渴法之衡
+  - 直译质朴与文藻润饰之择
+  - 游方求法与定居译场之进退
+  lesson: 不怀希望而行万行，了诸法如虚空幻梦则无所住而兴大悲
+  summary_first_person: 吾竺法护本名昙摩罗刹，月氏裔家于敦煌，八岁出家师事竺高座，通三十六胡语，西游三十六国携梵本百六十五部归，三十余年译大乘经百五十余部，愿以象步从容开示虚空无希望法门，令众生不着吾我而安隐得度
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛说文殊师利现宝藏经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E6%97%A0%E5%B8%8C%E6%9C%9B%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E6%97%A0%E5%B8%8C%E6%9C%9B%E7%BB%8F.html
+  - https://www.cbeta.org/result/T0813.htm
 endeavors:
 - id: guji-竺法护-endeavor-1
   title_zh: 西域求法携经东归
-  summary: 自敦煌西行历鄯善于阗龟兹等三十六国访求梵本搜得大乘方等经百余部为后世译场奠基
+  description: 遍历西域三十六国搜求大乘梵本，克服语言风土之艰，携百余部贝叶归敦煌长安，为中土大乘译业奠基
   phases:
   - key: brewing
-    name: 敦煌出家诵习
+    name: 敦煌出家习胡语
     labels:
-      zh: 诵习
-    start_date: '0241'
-    highlight_event_id: guji-竺法护-event-study
+      zh: 习梵
+    start_date: 0239
+    highlight_event_id: guji-竺法护-event-birth
   - key: breakthrough
-    name: 杖锡西行
+    name: 西行三十六国得梵本
     labels:
-      zh: 西行
-    start_date: '0260'
-    highlight_event_id: guji-竺法护-event-westseek
-  - key: climax
-    name: 得梵本百部
-    labels:
-      zh: 获本
-    start_date: '0265'
-    highlight_event_id: guji-竺法护-event-obtain
-  - key: closure
-    name: 携归河洛
-    labels:
-      zh: 东归
+      zh: 求法
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-return
+    highlight_event_id: guji-竺法护-event-seek-scriptures
+  - key: climax
+    name: 负经东归至敦煌
+    labels:
+      zh: 携经
+    start_date: 0269
+    highlight_event_id: guji-竺法护-event-seek-scriptures
+  - key: closure
+    name: 梵本集藏待译
+    labels:
+      zh: 奠基
+    start_date: '0273'
+    highlight_event_id: guji-竺法护-event-seek-scriptures
   decisions:
-  - date: '0260'
-    title_zh: 决计西行求梵本
-    rationale: 中土经阙大乘不备非亲往西域无以得真本故不惮流沙
   - date: '0266'
-    title_zh: 负经东归设译
-    rationale: 所得梵本不自秘惜当归洛翻译以利汉地
+    title_zh: 决意西游求梵本
+    rationale: 中土梵本稀缺大乘未广，遂发愿深入西域不惜身命以取真经，通三十六胡语广访名师
+  - date: '0273'
+    title_zh: 定居长安设译场
+    rationale: 为使梵本广传择天下之中长安立场，招集笔受度语，变游方为定译以利弘化
 - id: guji-竺法护-endeavor-2
-  title_zh: 洛阳长安开译场
-  summary: 于长安洛阳敦煌间立译场集弟子译胡为晋译出正法华光赞般若等一百五十四部含此现宝藏经
+  title_zh: 译场弘化广演大乘
+  description: 在敦煌长安洛阳三地主持译事三十余年，译出正法华光赞般若等一百五十余部，首倡以虚空无希望为宗的译风
   phases:
   - key: brewing
-    name: 泰始入洛初译
+    name: 初译小品开译风
     labels:
       zh: 初译
-    start_date: '0267'
-    highlight_event_id: guji-竺法护-event-first-trans
+    start_date: '0273'
+    highlight_event_id: guji-竺法护-event-translate-zhengfahuajing
   - key: breakthrough
-    name: 建译场授徒
+    name: 重译正法华经成名
     labels:
-      zh: 建场
-    start_date: 0280
-    highlight_event_id: guji-竺法护-event-school
+      zh: 成名
+    start_date: '0286-09-15'
+    highlight_event_id: guji-竺法护-event-translate-zhengfahuajing
   - key: climax
-    name: 译现宝藏等大乘经
+    name: 译无希望象步经宣虚空法门
     labels:
-      zh: 盛译
-    start_date: 0286
-    highlight_event_id: guji-竺法护-event-xianbaozang
+      zh: 宣空
+    start_date: '0303'
+    highlight_event_id: guji-竺法护-event-translate-wuxiwangjing
   - key: closure
-    name: 晋乱避地弘传
+    name: 永嘉避乱译业不辍
     labels:
-      zh: 弘传
+      zh: 终译
     start_date: '0304'
-    highlight_event_id: guji-竺法护-event-spread
+    highlight_event_id: guji-竺法护-event-translate-wuxiwangjing
   decisions:
-  - date: 0280
-    title_zh: 定质直译风
-    rationale: 宁存梵质不加藻饰使学人不失本义后人自可润色
-  - date: 0286
-    title_zh: 译文殊现宝藏经
-    rationale: 此经明菩萨为一切佛法器及智慧善权正宜破小执显大乘故亟译之
+  - date: '0286-09-15'
+    title_zh: 以质直重译法华
+    rationale: 旧译晦涩难以晓会，宁存胡本质朴不饰文藻，使中土初闻一乘真实义
+  - date: '0303'
+    title_zh: 译无希望经显无得宗
+    rationale: 为破众生希望执着，特显虚空无为法门，令学者知一切法如幻如梦不生希望而得安隐
 events:
 - id: guji-竺法护-event-birth
-  title_zh: 诞生敦煌月支家
-  date: '0233'
-  year_of: '0233'
-  precision: year
-  is_circa: true
-  raw: 约景元四年
-  description: 月支后裔家世居敦煌世奉佛法
-  location_zh: 敦煌
-- id: guji-竺法护-event-study
-  title_zh: 八岁出家日诵万言
-  date: '0241'
-  year_of: '0241'
-  precision: year
-  is_circa: true
-  raw: 约正始二年
-  description: 八岁出家事外国沙门竺高座博览经论日诵万言
-  location_zh: 敦煌
-- id: guji-竺法护-event-westseek
-  title_zh: 杖锡西行历三十六国
-  date: '0260'
-  year_of: '0260'
-  precision: year
-  is_circa: true
-  raw: 泰始年间
-  description: 携带弟子西游诸国遍访梵本通三十六国语言
-  location_zh: 西域
-- id: guji-竺法护-event-obtain
-  title_zh: 于阗等处得大乘梵本百六十五部
-  date: '0265'
-  year_of: '0265'
-  precision: year
-  is_circa: true
-  raw: 泰始末
-  description: 搜得方等大乘梵本百六十五部皆前所未见
-  location_zh: 于阗
-- id: guji-竺法护-event-return
-  title_zh: 负经还洛
-  date: '0266-01-01'
-  year_of: '0266'
-  precision: year
-  is_circa: true
-  raw: 泰始二年后
-  description: 携梵本东归居洛阳以胡本译晋
-  location_zh: 洛阳
-- id: guji-竺法护-event-first-trans
-  title_zh: 洛阳初译须真天子经
-  date: '0267'
-  year_of: '0267'
-  precision: year
-  is_circa: true
-  raw: 泰始三年
-  description: 在洛阳白马寺初开译筵译出须真天子经等
-  location_zh: 洛阳白马寺
-- id: guji-竺法护-event-school
-  title_zh: 长安立译场授弟子聂承远等
-  date: 0280
-  year_of: 0280
-  precision: year
-  is_circa: true
-  raw: 太康元年左右
-  description: 往来长安洛阳敦煌间聚徒译经分工传译笔受
-  location_zh: 长安
-- id: guji-竺法护-event-xianbaozang
-  title_zh: 译佛说文殊师利现宝藏经二卷
-  date: 0286
+  title_zh: 生于敦煌月氏之家
+  date: '0231'
+  year_of: 153
+  description: 月氏后裔家世居敦煌，八岁依竺高座出家，讽诵经籍日记万言，博通梵汉
+  location: 敦煌
+  type: birth
+- id: guji-竺法护-event-seek-scriptures
+  title_zh: 西游西域携梵本百六十五部归
+  date: '0266'
+  year_of: 182
+  description: 携弟子遍历西域三十六国通三十六胡语，得大乘梵本百六十五部负归敦煌，为后世译经奠基
+  location: 西域
+  type: career
+- id: guji-竺法护-event-translate-zhengfahuajing
+  title_zh: 长安译出正法华经十卷
+  date: '0286-09-15'
   year_of: 0286
-  precision: year
-  is_circa: true
-  raw: 太康七年左右
-  description: 以梵本译出此经演文殊与须菩提论佛法器及空寂平等义列于大乘五大部外重译经
-  location_zh: 长安
-- id: guji-竺法护-event-spread
-  title_zh: 避永嘉之乱弘法不辍
-  date: '0304'
-  year_of: '0304'
-  precision: year
-  is_circa: true
-  raw: 永兴元年
-  description: 西晋末乱避地陇右仍携经译讲不绝
-  location_zh: 敦煌
+  description: 于长安译出正法华经，此为妙法莲华经最早完整汉译，奠定一乘思想传播基础，时称月氏菩萨
+  location: 长安
+  type: career
+- id: guji-竺法护-event-translate-wuxiwangjing
+  title_zh: 译佛说无希望经一名象步经
+  date: '0303'
+  year_of: 195
+  description: 于长安译出无希望经，演说虚空无为无希望行，经文殊师利与舍利弗问答显无所得忍及六度功勋
+  location: 长安
+  type: career
 - id: guji-竺法护-event-death
-  title_zh: 示寂
+  title_zh: 卒于长安永嘉之乱中
   date: 0308
   year_of: 0308
-  precision: year
-  is_circa: true
-  raw: 永嘉二年左右
-  description: 年七十八示寂一生译经一百五十四部三百九卷为西晋第一译家
-  location_zh: 敦煌
+  description: 永嘉二年示寂于长安，世寿七十八，译经一百五十四部三百九卷，为西晋第一译师
+  location: 长安
+  type: death
