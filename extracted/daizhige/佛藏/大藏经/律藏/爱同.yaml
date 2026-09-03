@@ -1,0 +1,146 @@
+person:
+  qid: guji-爱同
+  name_zh: 爱同
+  names:
+    zh: 爱同
+    en: Aitong
+  lifespan:
+    birth:
+      date: '0700-01-01'
+      precision: year
+      is_circa: true
+      raw: 唐代约八世纪初生
+    death:
+      date: '0750-01-01'
+      precision: year
+      is_circa: true
+      raw: 唐代约八世纪中寂
+  birth_date: '0700-01-01'
+  death_date: '0750-01-01'
+  era: 唐
+  reign_ref: 唐玄宗开元前后
+  archetype: 持律述作僧
+  dilemmas:
+  - 羯磨尘沙繁广与日常行持简要如何兼顾
+  - 五分律制与四分诸部仪轨差异如何会通
+  lesson: 以十法总摄众务使僧法作持皆有轨可循
+  summary_first_person: 吾为大开业寺沙门爱同录弥沙塞五分羯磨以十法总诸务愿众和合如教办事
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/律藏/弥沙塞羯磨本.md
+  - https://daizhige.org/佛藏/大藏经/律藏/弥沙塞羯磨本.html
+endeavors:
+- id: guji-爱同-endeavor-1
+  title_zh: 录集弥沙塞羯磨本立十法
+  summary: 依弥沙塞五分律录作法缘起至住持杂法十门具列白二唱相轨仪
+  phases:
+  - key: brewing
+    name: 发起缘起
+    labels:
+      zh:
+      - 作法缘起
+      - 七缘
+    start_date: '0715-01-01'
+    highlight_event_id: guji-爱同-event-compile
+  - key: breakthrough
+    name: 结解诸界
+    labels:
+      zh:
+      - 摄僧界
+      - 摄衣界
+    start_date: '0718-01-01'
+    highlight_event_id: guji-爱同-event-compile
+  - key: climax
+    name: 十法具成
+    labels:
+      zh:
+      - 羯磨本成
+      - 十法总持
+    start_date: '0720-01-01'
+    highlight_event_id: guji-爱同-event-compile
+  - key: closure
+    name: 流通受持
+    labels:
+      zh:
+      - 住持杂法
+      - 流通
+    start_date: '0722-01-01'
+    highlight_event_id: guji-爱同-event-compile
+  decisions:
+  - date: '0715-01-01'
+    title_zh: 以十法总摄尘沙僧事
+    rationale: 羯磨浩博无总则难行故开十门以统诸务
+  - date: '0720-01-01'
+    title_zh: 依五分正文录白二唱相
+    rationale: 词句增减则非法故须具唱相白二使法成如教
+- id: guji-爱同-endeavor-2
+  title_zh: 住大开业寺弘律化众
+  summary: 住大开业寺教授受戒布萨安居自恣衣药忏悔等行法令僧众和合无别
+  phases:
+  - key: brewing
+    name: 住寺畜众
+    labels:
+      zh:
+      - 畜众
+      - 教授
+    start_date: '0722-01-01'
+    highlight_event_id: guji-爱同-event-temple
+  - key: breakthrough
+    name: 教授戒法
+    labels:
+      zh:
+      - 三归五戒
+      - 十戒具戒
+    start_date: '0725-01-01'
+    highlight_event_id: guji-爱同-event-temple
+  - key: climax
+    name: 布萨安居自恣
+    labels:
+      zh:
+      - 布萨
+      - 安居自恣
+    start_date: '0730-01-01'
+    highlight_event_id: guji-爱同-event-temple
+  - key: closure
+    name: 住持延续
+    labels:
+      zh:
+      - 忏悔
+      - 住持
+    start_date: '0740-01-01'
+    highlight_event_id: guji-爱同-event-temple
+  decisions:
+  - date: '0725-01-01'
+    title_zh: 先问遮难后授戒法
+    rationale: 器非则戒品不生故须简众是非具缘方授
+  - date: '0730-01-01'
+    title_zh: 以和合尽集摄僧防别众
+    rationale: 别众则羯磨不成故须界内尽集和合无别
+events:
+- id: guji-爱同-event-birth
+  title_zh: 降生
+  type: birth
+  date: '0700-01-01'
+  year_of: 700
+  place_zh: 中土
+  description: 约唐代八世纪初生后出家受具习弥沙塞部律
+- id: guji-爱同-event-compile
+  title_zh: 录成弥沙塞羯磨本十法
+  type: endeavor
+  date: '0720-01-01'
+  year_of: 720
+  place_zh: 大开业寺
+  description: 以作法缘起开端总诸界戒衣药布萨安居自恣施衣忏悔住持为十门录成羯磨本
+- id: guji-爱同-event-temple
+  title_zh: 住大开业寺弘传律仪
+  type: endeavor
+  date: '0730-01-01'
+  year_of: 730
+  place_zh: 大开业寺
+  description: 住寺教授七众戒法主持布萨安居自恣结解界法化众行持
+- id: guji-爱同-event-death
+  title_zh: 示寂
+  type: death
+  date: '0750-01-01'
+  year_of: 750
+  place_zh: 大开业寺
+  description: 约唐代八世纪中示寂羯磨本流通于世
