@@ -1,0 +1,144 @@
+person:
+  qid: guji-xuyou
+  name_zh: 许由
+  names:
+    zh: 许由
+    en: Xu You
+  lifespan:
+    birth:
+      date: '-2350'
+      precision: century
+      is_circa: true
+      raw: 尧时阳城槐里人
+    death:
+      date: '-2250'
+      precision: century
+      is_circa: true
+      raw: 葬箕山之巅世祀不绝
+  birth_date: '-2350'
+  death_date: '-2250'
+  era: 上古陶唐氏
+  reign_ref: 尧
+  archetype: 隐逸高士
+  dilemmas:
+  - 受天下之让与守一枝满腹之志的抉择
+  - 名为实宾与尸祝越俎的义利之辨
+  - 高岸深谷自晦与浮游求名的清浊之别
+  lesson: 名者实之宾，不以天下易其介，守志箕颍以厉贪竞
+  summary_first_person: 吾许由字武仲居沛泽箕颍之间，据义履方邪席不坐，尧以天下让吾，吾对以鹪鹩一枝偃鼠满腹不受而逃，复召为九州长则洗耳颍滨，遁耕中岳箕山之下，终身无经天下色，愿以一节激浊世
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%AB%98%E5%A3%AB%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%AB%98%E5%A3%AB%E4%BC%A0.md
+  - https://ctext.org/wiki.pl?if=gb&res=602141&remap=gb
+endeavors:
+- id: guji-xuyou-endeavor-1
+  title_zh: 箕颍隐耕守志
+  summary: 据义履方隐于沛泽，躬耕箕山颍水之阳，终身不仕以全其节
+  phases:
+  - key: brewing
+    name: 隐于沛泽
+    labels:
+      zh: 躬耕
+    start_date: '-2340'
+    highlight_event_id: guji-xuyou-event-birth
+  - key: breakthrough
+    name: 师友砥砺
+    labels:
+      zh: 明志
+    start_date: '-2325'
+    highlight_event_id: guji-xuyou-event-rangtianxia
+  - key: climax
+    name: 遁耕箕山
+    labels:
+      zh: 遁世
+    start_date: '-2317'
+    highlight_event_id: guji-xuyou-event-jishan
+  - key: closure
+    name: 箕山长往
+    labels:
+      zh: 配祀
+    start_date: '-2250'
+    highlight_event_id: guji-xuyou-event-death
+  decisions:
+  - date: '-2317'
+    title_zh: 遁耕中岳颍水之阳
+    rationale: 尧知贤人之利天下而不知其贼天下，远而避之以全道
+  - date: '-2317'
+    title_zh: 终身无经天下色
+    rationale: 不以庖代尸祝，守一枝满腹之分
+- id: guji-xuyou-endeavor-2
+  title_zh: 辞让天下洗耳
+  summary: 尧让天下及九州长皆固辞，洗耳颍滨以明不受之心，后世以为巢许高风
+  phases:
+  - key: brewing
+    name: 尧欲致天下
+    labels:
+      zh: 让德
+    start_date: '-2318'
+    highlight_event_id: guji-xuyou-event-rangtianxia
+  - key: breakthrough
+    name: 固辞不为名
+    labels:
+      zh: 辞让
+    start_date: '-2317'
+    highlight_event_id: guji-xuyou-event-rangtianxia
+  - key: climax
+    name: 洗耳颍水滨
+    labels:
+      zh: 洗耳
+    start_date: '-2317'
+    highlight_event_id: guji-xuyou-event-xier
+  - key: closure
+    name: 箕山公神
+    labels:
+      zh: 显节
+    start_date: '-2250'
+    highlight_event_id: guji-xuyou-event-death
+  decisions:
+  - date: '-2317'
+    title_zh: 辞让天下而逃去
+    rationale: 天下既治而代之将为名，名者实之宾不为宾而易实
+  - date: '-2317'
+    title_zh: 恶闻九州长而洗耳
+    rationale: 不欲闻召命之声，洗耳以自洁并示巢父
+events:
+- id: guji-xuyou-event-birth
+  person_id: guji-xuyou
+  title_zh: 生于阳城槐里
+  date: '-2350'
+  year_of: -2350
+  is_circa: true
+  location: 阳城槐里
+  description: 许由字武仲为人据义履方邪席不坐邪膳不食，后隐于沛泽之中
+- id: guji-xuyou-event-rangtianxia
+  person_id: guji-xuyou
+  title_zh: 尧让天下固辞
+  date: '-2317'
+  year_of: -2317
+  is_circa: true
+  location: 沛泽
+  description: 尧曰日月出而爝火不息请致天下，由曰鹪鹩巢林不过一枝偃鼠饮河不过满腹归休乎君不受而逃去
+- id: guji-xuyou-event-xier
+  person_id: guji-xuyou
+  title_zh: 洗耳颍水见巢父
+  date: '-2317'
+  year_of: -2317
+  is_circa: true
+  location: 颍水滨
+  description: 尧又召为九州长由不欲闻洗耳于颍水滨，友巢父牵犊上流饮之曰污吾犊口，遂终身不相见
+- id: guji-xuyou-event-jishan
+  person_id: guji-xuyou
+  title_zh: 遁耕箕山颍阳
+  date: '-2317'
+  year_of: -2317
+  is_circa: true
+  location: 中岳颍水之阳箕山之下
+  description: 由于是遁耕于中岳颍水之阳箕山之下，终身无经天下色
+- id: guji-xuyou-event-death
+  person_id: guji-xuyou
+  title_zh: 没葬箕山配祀五岳
+  date: '-2250'
+  year_of: -2250
+  is_circa: true
+  location: 箕山之巅许由山
+  description: 许由没葬箕山之巅亦名许由山在阳城南十余里，尧因就其墓号曰箕山公神以配食五岳世世奉祀至今不绝
