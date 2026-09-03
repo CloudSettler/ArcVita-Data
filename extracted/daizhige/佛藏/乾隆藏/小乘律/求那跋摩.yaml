@@ -9,124 +9,124 @@ person:
       date: '0367'
       precision: year
       is_circa: true
-      raw: 约三六七年生于罽宾王族
+      raw: 约晋太和二年生于罽宾
     death:
       date: '0431'
       precision: year
       is_circa: false
-      raw: 刘宋元嘉八年卒于建康
+      raw: 宋元嘉八年卒于建康
   birth_date: '0367'
   death_date: '0431'
-  era: 南北朝刘宋
-  reign_ref: 宋文帝元嘉年间
-  archetype: 译经弘律者
+  era: 刘宋
+  reign_ref: 宋文帝元嘉
+  archetype: 罽宾译经弘律僧
   dilemmas:
-  - 异域弘化与王权礼遇之间如何持戒不染
-  - 居士渴求戒相与律文幽微之间如何令无疑惑
-  lesson: 分别五戒可悔不可悔，持而不犯以此因缘当成佛道
-  summary_first_person: 我自西域来至建康，承佛为净饭王分别五戒之缘，为优婆塞详说杀盗淫妄酒轻重可悔不可悔，令识戒相无复疑惑。
+  - 远离本土弘化与安住故土守众之间抉择
+  - 严持律制与随方善巧摄众之间权衡
+  lesson: 以戒为师以译弘律结界摄僧方能令正法久住
+  summary_first_person: 吾是罽宾求那跋摩幼年出家精学律藏西行弘化后至刘宋建康译出四分比丘尼羯磨以结界受戒摄持尼众愿以羯磨正范令僧团和合清净
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘律/佛说优婆塞五戒相经.md
-  - https://daizhige.org/佛藏/乾隆藏/小乘律/佛说优婆塞五戒相经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%BE%8B/%E5%9B%9B%E5%88%86%E6%AF%94%E4%B8%98%E5%B0%BC%E7%BE%AF%E7%A3%A8%E6%B3%95.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%BE%8B/%E5%9B%9B%E5%88%86%E6%AF%94%E4%B8%98%E5%B0%BC%E7%BE%AF%E7%A3%A8%E6%B3%95.html
 endeavors:
 - id: guji-求那跋摩-endeavor-1
-  title_zh: 翻译分别优婆塞五戒相经
-  summary_zh: 依佛为净饭王说戒因缘，译出杀盗淫妄酒犯戒轻重可悔不可悔相
+  title_zh: 译出四分比丘尼羯磨法
+  summary_zh: 依四分律为比丘尼制结界受戒诸羯磨仪轨
   phases:
   - key: brewing
-    name: 承请发心分别戒相
+    name: 罽宾学律酝酿
     labels:
-      zh: 酝酿
+      zh: 学律守持
+    start_date: 0385
+    highlight_event_id: guji-求那跋摩-event-birth
+  - key: breakthrough
+    name: 南来建康译律突破
+    labels:
+      zh: 译律突破
     start_date: '0430'
     highlight_event_id: guji-求那跋摩-event-arrive
-  - key: breakthrough
-    name: 建康译场开译戒经
-    labels:
-      zh: 突破
-    start_date: '0431-03-01'
-    highlight_event_id: guji-求那跋摩-event-translate
   - key: climax
-    name: 详判五戒持犯开遮
+    name: 制立尼众羯磨正范
     labels:
-      zh: 高潮
-    start_date: '0431-05-01'
+      zh: 羯磨集成
+    start_date: '0430'
     highlight_event_id: guji-求那跋摩-event-translate
   - key: closure
-    name: 成卷付嘱流通
+    name: 律范付嘱流布
     labels:
-      zh: 收束
-    start_date: '0431-06-01'
+      zh: 流布守护
+    start_date: '0431'
     highlight_event_id: guji-求那跋摩-event-translate
   decisions:
-  - date: '0431-03-01'
-    title_zh: 应请直译戒相轻重
-    rationale: 居士于持犯生疑，若不分别可悔不可悔则难持故决定详译
-  - date: '0431-05-01'
-    title_zh: 以成佛堕落两缘劝持
-    rationale: 持而不犯可成佛道，犯而不悔常在三涂故以此劝勉策励
+  - date: '0430'
+    title_zh: 应请南下建康弘律
+    rationale: 南方尼众受戒结界无所依故不辞远行以弘律范
+  - date: '0430'
+    title_zh: 先译比丘尼羯磨结界受戒诸法
+    rationale: 结界摄僧受戒得体为尼团和合根本故先立仪轨
 - id: guji-求那跋摩-endeavor-2
-  title_zh: 建康弘律化导居士
-  summary_zh: 以迦维罗卫净饭王请法为式，开导建康居士受持五戒识相守禁
+  title_zh: 西行弘化教导持戒修定
+  summary_zh: 自罽宾西行经诸国以持戒禅定教化僧俗
   phases:
   - key: brewing
-    name: 初至建康观察机缘
+    name: 少出家精律定酝酿
     labels:
-      zh: 酝酿
-    start_date: '0431-02-01'
-    highlight_event_id: guji-求那跋摩-event-arrive
+      zh: 持戒修定
+    start_date: 0380
+    highlight_event_id: guji-求那跋摩-event-birth
   - key: breakthrough
-    name: 对众宣说犯戒因果
+    name: 游化诸国名闻突破
     labels:
-      zh: 突破
-    start_date: '0431-04-01'
+      zh: 游化弘道
+    start_date: '0420'
     highlight_event_id: guji-求那跋摩-event-preach
   - key: climax
-    name: 答疑断疑令无疑惑
+    name: 建康敷演戒定高峰
     labels:
-      zh: 高潮
-    start_date: '0431-05-15'
-    highlight_event_id: guji-求那跋摩-event-preach
+      zh: 建康敷演
+    start_date: '0430'
+    highlight_event_id: guji-求那跋摩-event-arrive
   - key: closure
-    name: 劝持遗化示寂
+    name: 以身弘道示寂收束
     labels:
-      zh: 收束
-    start_date: '0431-07-01'
+      zh: 示寂付嘱
+    start_date: '0431'
     highlight_event_id: guji-求那跋摩-event-death
   decisions:
-  - date: '0431-04-01'
-    title_zh: 先说杀生三方便判罪
-    rationale: 杀业为五戒之首，居士多疑自作教人遣使故先须明辨
-  - date: '0431-05-15'
-    title_zh: 广引误杀无心开缘
-    rationale: 狂乱失念与无心误伤不结重罪，为释疑故须举梁堕推石等喻
+  - date: '0425'
+    title_zh: 离罽宾游化弘法
+    rationale: 为令正法广布不恋故土愿以律行化导四方
+  - date: '0430'
+    title_zh: 在建康以戒定并弘摄众
+    rationale: 末俗多昧律仪故以羯磨止持以禅定安心令僧俗得度
 events:
 - id: guji-求那跋摩-event-birth
-  title_zh: 生于罽宾王族
+  title_zh: 生于罽宾
   date: '0367'
   year_of: 367
   place_zh: 罽宾
-  summary_zh: 约三六七年生于罽宾，出家精通律藏三藏弘化西域
-- id: guji-求那跋摩-event-arrive
-  title_zh: 至建康弘化
-  date: '0431-02-01'
-  year_of: 431
-  place_zh: 建康
-  summary_zh: 刘宋元嘉八年至建康，宋文帝及众僧居士迎请住持译弘律乘
-- id: guji-求那跋摩-event-translate
-  title_zh: 译出佛说优婆塞五戒相经一卷
-  date: '0431-05-01'
-  year_of: 431
-  place_zh: 建康译场
-  summary_zh: 依佛为净饭王分别五戒因缘，译杀盗淫妄酒戒相，明自作教人遣使及可悔不可悔差别
+  description_zh: 约晋太和二年生于罽宾幼年出家精学律藏
 - id: guji-求那跋摩-event-preach
-  title_zh: 为居士分别戒相答疑
-  date: '0431-05-15'
-  year_of: 431
+  title_zh: 游化诸国弘律
+  date: '0425'
+  year_of: 425
+  place_zh: 西域诸国
+  description_zh: 离罽宾游化诸国以律行禅观教化僧俗名闻渐著
+- id: guji-求那跋摩-event-arrive
+  title_zh: 至建康受请弘化
+  date: '0430'
+  year_of: 430
   place_zh: 建康
-  summary_zh: 为优婆塞说误杀戏杀狂杀无罪有罪之别，及盗满五钱淫三处妄语大妄语等轻重，令无疑惑
+  description_zh: 宋文帝元嘉七年至建康帝及僧俗敬奉请弘律法
+- id: guji-求那跋摩-event-translate
+  title_zh: 译四分比丘尼羯磨法
+  date: '0430'
+  year_of: 430
+  place_zh: 建康
+  description_zh: 在建康译出结界受大戒畜众学戒等比丘尼羯磨诸法一卷以正尼团仪轨
 - id: guji-求那跋摩-event-death
   title_zh: 卒于建康
   date: '0431'
   year_of: 431
   place_zh: 建康
-  summary_zh: 刘宋元嘉八年示寂于建康，所译戒经流通后世为居士持戒准绳
+  description_zh: 宋元嘉八年示寂于建康律范留世尼众得所依止
