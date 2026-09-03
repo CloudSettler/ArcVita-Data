@@ -6,117 +6,142 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950-01-01
+      date: 0950
       precision: year
       is_circa: true
-      raw: 生年未詳約十世紀中葉西天人
+      raw: 约十世纪中北印度乌填曩国
     death:
-      date: 1017-01-01
+      date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒於京師
-  birth_date: 0950-01-01
-  death_date: 1017-01-01
+      raw: 宋真宗天禧元年
+  birth_date: 0950
+  death_date: '1017'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
-  archetype: 譯經三藏
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 译经弘法者
   dilemmas:
-  - 梵漢懸隔而奉詔傳譯當存信達雅之衡
-  - 密教儀軌威猛有用當以慈悲息災為歸
-  lesson: 以信實傳譯利世不以神異自伐方為譯業正道
-  summary_first_person: 我是施护西天來人奉宋帝詔入譯經院譯顯密經律百餘部傳金剛香菩薩大明成就儀軌願以息災利生降伏為護世之用
+  - 异域弘法当留宋译场还是还归天竺
+  - 密教持明当重义理翻译还是重仪轨受持
+  lesson: 不谤正法勤持明王陀罗尼以译经造塔救度苦厄
+  summary_first_person: 吾施护本北印度乌填曩国帝释宫寺沙门奉诏入宋译经一生专译密教显教诸经愿以佛顶无垢光明陀罗尼救济天人恶道之苦
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T1170
-  - https://github.com/daizhige-org/daizhigev20/blob/data/T1170
+  - https://cbeta.org/result/T1025
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉詔入宋譯經
-  summary: 太平興國中攜梵本至京師充譯經證義後授朝散大夫試鴻臚卿傳法大師專主傳譯
+  title_zh: 奉诏入宋译经
+  summary_zh: 自乌填曩国至宋都入译经院赐紫传法译出密教显教数十部
   phases:
   - key: brewing
-    name: 西天習學攜經東來
+    name: 西来发轫
     labels:
-      zh: 初發
-    start_date: 0950-01-01
-    highlight_event_id: guji-施护-event-birth
+      zh:
+      - 求法
+      - 离乡
+    start_date: 0980
+    highlight_event_id: guji-施护-event-arrive
   - key: breakthrough
-    name: 入宋譯場充證義
+    name: 奉诏赐紫
     labels:
-      zh: 入彀
-    start_date: 0982-01-01
-    highlight_event_id: guji-施护-event-1
+      zh:
+      - 译场
+      - 诏译
+    start_date: 0982
+    highlight_event_id: guji-施护-event-arrive
   - key: climax
-    name: 授傳法大師主譯
+    name: 专译密部
     labels:
-      zh: 大譯
-    start_date: 0991-01-01
-    highlight_event_id: guji-施护-event-2
+      zh:
+      - 密教
+      - 陀罗尼
+    start_date: 0990
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 譯業圓滿示寂京師
+    name: 译经圆满
     labels:
-      zh: 圓寂
-    start_date: 1017-01-01
-    highlight_event_id: guji-施护-event-death
+      zh:
+      - 流通
+      - 护持
+    start_date: '1010'
+    highlight_event_id: guji-施护-event-translate
   decisions:
-  - date: 0982-01-01
-    title_zh: 隨天息災入華參譯
-    rationale: 承西天譯職攜梵夾東行依宋廷譯場分工共成譯業
-  - date: 0991-01-01
-    title_zh: 受傳法大師奉詔專譯
-    rationale: 以精梵漢及密教儀軌蒙恩授職獨立譯出顯密經律
+  - date: 0982
+    title_zh: 应诏留宋入译经院
+    rationale: 为令正法东流利益四洲众生故不还天竺
+  - date: 0990
+    title_zh: 专攻佛顶密教陀罗尼翻译
+    rationale: 见世人短命恶报多故以持明法门救济为急
 - id: guji-施护-endeavor-2
-  title_zh: 傳譯金剛香菩薩大明法
-  summary: 譯佛說金剛香菩薩大明成就儀軌經宣睹史多天會大明及息災增益敬愛降伏諸成就法
+  title_zh: 弘传佛顶无垢光明法门
+  summary_zh: 依睹史天宫说法缘起译弘此陀罗尼教人书写造塔六时念诵
   phases:
   - key: brewing
-    name: 請說大明除羅刹怖
+    name: 宣说缘起
     labels:
-      zh: 緣起
-    start_date: 0995-01-01
-    highlight_event_id: guji-施护-event-1
+      zh:
+      - 六度
+      - 天宫
+    start_date: 0995
+    highlight_event_id: guji-施护-event-translate
   - key: breakthrough
-    name: 定中化現忿怒說咒
+    name: 宣说神咒
     labels:
-      zh: 說明
-    start_date: 1000-01-01
-    highlight_event_id: guji-施护-event-2
+      zh:
+      - 持明
+      - 救苦
+    start_date: 0998
+    highlight_event_id: guji-施护-event-translate
   - key: climax
-    name: 詳定息災增益敬愛諸法
+    name: 教造塔供养
     labels:
-      zh: 立軌
-    start_date: 1000-06-01
-    highlight_event_id: guji-施护-event-2
+      zh:
+      - 造塔
+      - 仪轨
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-pagoda
   - key: closure
-    name: 成卷流通後世持誦
+    name: 见证得益
     labels:
-      zh: 流通
-    start_date: 1001-01-01
-    highlight_event_id: guji-施护-event-death
+      zh:
+      - 业净
+      - 长寿
+    start_date: '1005'
+    highlight_event_id: guji-施护-event-pagoda
   decisions:
-  - date: 1000-01-01
-    title_zh: 具譯大明種子章句
-    rationale: 存西天梵音以音寫傳持令持誦行人得威德降伏
-  - date: 1000-06-01
-    title_zh: 兼譯息災降伏護摩諸儀
-    rationale: 以慈濟為本詳載曼拏羅護摩觀想使後學依法成就
+  - date: '1000'
+    title_zh: 定造塔安置心明仪轨
+    rationale: 以舍利等同功德令见闻随喜者灭罪增寿故
+  - date: '1005'
+    title_zh: 劝六时念诵旋绕百八遍
+    rationale: 为令摩尼藏无垢之类恶业速灭自见三业清净故
 events:
 - id: guji-施护-event-birth
-  date: 0950-01-01
+  date: 0950
   year_of: 950
-  title_zh: 生於西天
-  description: 西天烏填曩國人幼出家通顯密經論習梵本持明
-- id: guji-施护-event-1
-  date: 0982-01-01
+  title_zh: 生于北印度乌填曩国
+  description_zh: 生于帝释宫寺一带出家为沙门习通三藏
+  place_zh: 乌填曩国帝释宫寺
+- id: guji-施护-event-arrive
+  date: 0982
   year_of: 982
-  title_zh: 至宋入譯經院
-  description: 宋太宗太平興國七年隨天息災攜梵本至京師充譯經證義筆受
-- id: guji-施护-event-2
-  date: 1000-01-01
+  title_zh: 至宋都入译经院奉诏译经
+  description_zh: 宋太宗太平兴国中至京师得赐紫沙门传法大师号开始译经事业
+  place_zh: 宋东京译经院
+- id: guji-施护-event-translate
+  date: 0998
+  year_of: 998
+  title_zh: 译佛顶放无垢光明入普门观察一切如来心陀罗尼经
+  description_zh: 依梵本译出上下二卷具说睹史天宫六波罗蜜摩尼藏无垢天子七日死难及陀罗尼救度功德
+  place_zh: 宋东京译经院
+- id: guji-施护-event-pagoda
+  date: '1000'
   year_of: 1000
-  title_zh: 譯金剛香菩薩大明成就儀軌經
-  description: 奉詔譯出睹史多天會所說金剛香大明及息災增益敬愛降伏成就法分上下卷
+  title_zh: 立造塔安置书诵仪轨
+  description_zh: 教人面东涂曼拏罗散华烧香顶礼百八遍书写心明安塔中六时念诵旋绕消业增寿
+  place_zh: 宋东京译经院
 - id: guji-施护-event-death
-  date: 1017-01-01
+  date: '1017'
   year_of: 1017
-  title_zh: 示寂於京師
-  description: 宋真宗天禧元年卒終於傳法大師任上譯業百餘部傳於世
+  title_zh: 示寂于宋
+  description_zh: 宋真宗天禧元年示寂译经事业终一生所译流传密教部中
+  place_zh: 宋东京
