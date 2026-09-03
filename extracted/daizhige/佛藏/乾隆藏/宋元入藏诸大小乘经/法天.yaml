@@ -6,141 +6,122 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0930
+      date: 0950
       precision: year
       is_circa: true
-      raw: 生年失载约十世纪中叶中天竺
+      raw: 约十世纪中叶生于中印度
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒于开封
-  birth_date: 0930
+      raw: 宋咸平四年圆寂
+  birth_date: 0950
   death_date: '1001'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译经弘法僧
+  archetype: 译经弘法者
   dilemmas:
-  - title_zh: 梵汉悬隔义如何传信
-    description: 梵本精微汉文难尽达须权衡文质令信达雅并立
-  - title_zh: 奉诏译事与修行自利如何兼顾
-    description: 居译经院日译不辍恐废观行故以译经即弘法续慧命自勉
-  lesson: 依佛智分别缘生令苦乐因果昭然译经即是续佛慧命
-  summary_first_person: 吾本中天竺僧随缘东来蒙宋帝诏入译经院赐号传教大师译分别缘生等经愿众生了知无明缘行乃至老死得解脱众苦
+  - 梵汉悬隔而圣义不可失当以忠信传译
+  - 异域入华当守戒行以取信于朝野
+  lesson: 以持戒忠译弘传圣教利乐众生为己任
+  summary_first_person: 吾法天本中印度人，宋初来华蒙诏入译经院，传译显密经轨劝人归命三宝持诵修行，愿以译业利生不虚此行
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%88%86%E5%88%AB%E7%BC%98%E7%94%9F%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%88%86%E5%88%AB%E7%BC%98%E7%94%9F%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%AE%9D%E8%97%8F%E7%A5%9E%E4%BB%AA%E8%BD%A8%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%AE%9D%E8%97%8F%E7%A5%9E%E4%BB%AA%E8%BD%A8%E7%BB%8F.md
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏入院译经弘法
-  summary: 自中天竺东来入宋蒙诏入译经院专事梵汉翻译授传教大师终身译经百余卷
+  title_zh: 入宋奉诏译经
+  summary: 自中印度来华入译经院专事梵汉传译弘传经教
   phases:
   - key: brewing
-    name: 西来入宋
+    name: 中印度习法
     labels:
-      zh: 求法东来
+      zh: 学法
+    start_date: 0950
+    highlight_event_id: guji-法天-event-birth
+  - key: breakthrough
+    name: 随缘东来抵汴
+    labels:
+      zh: 来华
     start_date: 0973
     highlight_event_id: guji-法天-event-arrival
-  - key: breakthrough
-    name: 入院试译
-    labels:
-      zh: 奉诏试译
-    start_date: 0983
-    highlight_event_id: guji-法天-event-enter
   - key: climax
-    name: 群经并译受封
+    name: 奉诏入院译经
     labels:
-      zh: 群经并译
-    start_date: 0991
-    highlight_event_id: guji-法天-event-honor
+      zh: 译经
+    start_date: 0976
+    highlight_event_id: guji-法天-event-translate
   - key: closure
-    name: 遗业圆寂
+    name: 赐号传教大师
     labels:
-      zh: 译业圆成
-    start_date: '1001'
-    highlight_event_id: guji-法天-event-death
+      zh: 褒显
+    start_date: 0986
+    highlight_event_id: guji-法天-event-honor
   decisions:
-  - date: 0983
-    title_zh: 应诏入译经院专事翻译
-    rationale: 感宋帝崇法之诚以译经续慧命为己任舍游方而就馆阁
-  - date: 0991
-    title_zh: 受朝奉大夫试鸿胪卿传教大师仍HF译事
-    rationale: 以官秩保障译场不以荣名废译务愿以余生毕力群经
+  - date: 0976
+    title_zh: 应诏入译经院
+    rationale: 感朝廷崇法为利群生故舍安逸专事艰辛译业
+  - date: 0986
+    title_zh: 受传教大师号仍勤译事
+    rationale: 以名位为弘法之助不以荣宠废译经本愿
 - id: guji-法天-endeavor-2
-  title_zh: 译弘分别缘生经
-  summary: 于乌卢尾螺菩提树下缘起拣译缘生要典明无明至老死十二支分别流转还灭
+  title_zh: 传译圣宝藏神仪轨护摩法
+  summary: 译说宝藏神广大仪轨及二十种供养曼拏罗护摩法则教人持诵求福
   phases:
   - key: brewing
-    name: 发愿拣译缘生要典
+    name: 思惟清净道场
     labels:
-      zh: 拣译发愿
-    start_date: 0983
-    highlight_event_id: guji-法天-event-enter
+      zh: 建坛
+    start_date: 0980
+    highlight_event_id: guji-法天-event-translate
   - key: breakthrough
-    name: 梵汉对勘立义
+    name: 定根本心外心真言印契
     labels:
-      zh: 对勘立义
-    start_date: 0985
+      zh: 立法
+    start_date: 0982
     highlight_event_id: guji-法天-event-translate
   - key: climax
-    name: 译成一卷进呈
+    name: 演说曼拏罗供养仪轨
     labels:
-      zh: 译成进呈
-    start_date: 0986
+      zh: 弘传
+    start_date: 0985
     highlight_event_id: guji-法天-event-translate
   - key: closure
-    name: 梵王请法流通
+    name: 付嘱依行成就
     labels:
-      zh: 流通后世
-    start_date: '1001'
-    highlight_event_id: guji-法天-event-death
+      zh: 付嘱
+    start_date: 0988
+    highlight_event_id: guji-法天-event-honor
   decisions:
   - date: 0985
-    title_zh: 首译分别缘生十二支详分别名色六处等
-    rationale: 见世人于苦乐不了知故详译无明缘行乃至生缘老死令因果昭然
-  - date: 0986
-    title_zh: 以直译存梵义不加华饰
-    rationale: 缘生法甚深恐增减失真故守文存义令后人可依修戒定慧
+    title_zh: 详译二十种供养仪则
+    rationale: 恐学者阙缘失仪故备载香花灯涂浴坛幢盖等使依行成就
+  - date: 0988
+    title_zh: 诫须受灌顶持斋戒慈忍而行
+    rationale: 防非法持诵反成魔事故先立归命三宝十善为本
 events:
 - id: guji-法天-event-birth
-  title_zh: 生于中天竺
-  type: birth
-  date: 0930
-  year_of: 930
-  place_zh: 中天竺
-  description: 生于中天竺生年失载约十世纪中叶少出家习梵典兼通因明
+  title_zh: 生于中印度
+  date: 0950
+  year_of: 950
+  summary: 约十世纪中叶生于中印度婆罗门种习梵典密法
 - id: guji-法天-event-arrival
-  title_zh: 随缘东来抵宋
-  type: career
-  date: 0973
-  year_of: 973
-  place_zh: 开封
-  description: 宋开宝六年左右与兄法贤等赍梵本来华抵开封上表献经蒙召见
-- id: guji-法天-event-enter
-  title_zh: 入译经院奉诏翻译
-  type: career
-  date: 0983
-  year_of: 983
-  place_zh: 开封译经院
-  description: 宋太平兴国八年入译经院与施护天息灾等同场翻译专主梵汉对译
+  title_zh: 太平兴国中抵宋
+  date: 0976
+  year_of: 976
+  summary: 太平兴国中自西天来华至开封谒朝蒙留入译经
 - id: guji-法天-event-translate
-  title_zh: 译出佛说分别缘生经一卷
-  type: career
+  title_zh: 奉诏译圣宝藏神仪轨经等
+  date: 0985
+  year_of: 985
+  summary: 奉诏译佛说圣宝藏神仪轨经二卷备述持诵护摩曼拏罗仪则
+- id: guji-法天-event-honor
+  title_zh: 赐号传教大师
   date: 0986
   year_of: 986
-  place_zh: 开封译经院
-  description: 奉诏译出佛说分别缘生经一卷明佛在菩提树下思惟苦乐及梵王请问十二缘生分别之法
-- id: guji-法天-event-honor
-  title_zh: 授朝奉大夫试鸿胪卿传教大师
-  type: career
-  date: 0991
-  year_of: 991
-  place_zh: 开封
-  description: 以译功授朝奉大夫试鸿胪卿传教大师之号赐紫衣仍领译经众务
+  summary: 以译经有功赐号西天中印度三藏传教大师
 - id: guji-法天-event-death
-  title_zh: 示寂于开封
-  type: death
+  title_zh: 咸平四年圆寂
   date: '1001'
   year_of: 1001
-  place_zh: 开封
-  description: 宋咸平四年示寂于开封译经之业由后学继之所译百余卷行于世
+  summary: 宋真宗咸平四年圆寂于京师译业终焉
