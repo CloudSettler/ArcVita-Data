@@ -1,0 +1,157 @@
+person:
+  qid: guji-长寿王
+  name_zh: 长寿王
+  names:
+    zh: 长寿王
+    en: King Changshou
+  lifespan:
+    birth:
+      date: -1020-01-01
+      precision: year
+      is_circa: true
+      raw: 传说上古印度
+    death:
+      date: -1000-01-01
+      precision: year
+      is_circa: true
+      raw: 传说上古为贪王烧杀
+  birth_date: -1020-01-01
+  death_date: -1000-01-01
+  era: 传说上古印度
+  reign_ref: 古代印度长寿王仁政治世
+  archetype: 仁君菩萨
+  dilemmas:
+  - 护国与护民冲突时是否应以战止侵
+  - 成全檀波罗蜜与保全色身之间的取舍
+  - 教子以慈悲不报怨与世俗孝道复仇观念的张力
+  lesson: 仁恕可以化怨，布施可以舍身，不报怨仇乃能止息轮回之恨
+  summary_first_person: 吾为长寿王时以仁政治国，不忍以干戈伤民，宁委国而去，隐于山林；值婆罗门远来求乞，遂以头布施成其所愿；临死嘱太子长生慎莫报怨，愿以慈悲止息怨憎。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E9%95%BF%E5%AF%BF%E7%8E%8B%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E9%95%BF%E5%AF%BF%E7%8E%8B%E7%BB%8F.html
+endeavors:
+- id: guji-长寿王-endeavor-1
+  title_zh: 仁政治国与不战弃国
+  goal_zh: 以政化民不加刀杖，遇贪王侵夺时不忍兴兵伤民
+  phases:
+  - key: brewing
+    name: 仁政化民
+    labels:
+      zh: 仁政
+    start_date: -1010-01-01
+    highlight_event_id: guji-长寿王-event-governance
+  - key: breakthrough
+    name: 贪王谋侵
+    labels:
+      zh: 外侵
+    start_date: -1002-01-01
+    highlight_event_id: guji-长寿王-event-invasion
+  - key: climax
+    name: 群臣请战王不许
+    labels:
+      zh: 不战
+    start_date: -1001-06-01
+    highlight_event_id: guji-长寿王-event-refuse-war
+  - key: closure
+    name: 父子逾城隐山
+    labels:
+      zh: 弃国
+    start_date: -1001-07-01
+    highlight_event_id: guji-长寿王-event-exile
+  decisions:
+  - date: -1001-06-15
+    title_zh: 决不与贪王交兵以免伤民
+    rationale: 诤国杀民非贤者所为，胜亦有死伤，不忍爱我害彼
+  - date: -1001-07-01
+    title_zh: 委国与太子长生共踰城亡去
+    rationale: 贪者在利不在民，留则必战，避位可全两国生灵
+- id: guji-长寿王-endeavor-2
+  title_zh: 舍身布施与诫子不报怨
+  goal_zh: 以头布施满婆罗门愿，成就檀波罗蜜，并以慈悲止息子嗣复仇
+  phases:
+  - key: brewing
+    name: 失国寄树下
+    labels:
+      zh: 失国
+    start_date: -1001-08-01
+    highlight_event_id: guji-长寿王-event-meet-brahmin
+  - key: breakthrough
+    name: 以头施婆罗门
+    labels:
+      zh: 布施
+    start_date: -1001-09-01
+    highlight_event_id: guji-长寿王-event-dana
+  - key: climax
+    name: 临刑诫子
+    labels:
+      zh: 诫子
+    start_date: -1001-09-10
+    highlight_event_id: guji-长寿王-event-admonish
+  - key: closure
+    name: 就烧成道
+    labels:
+      zh: 殉道
+    start_date: -1001-09-15
+    highlight_event_id: guji-长寿王-event-death
+  decisions:
+  - date: -1001-09-01
+    title_zh: 以头惠施婆罗门令得重赏
+    rationale: 人生皆当趣死，愿以身相惠满其远来乞愿，不令空归
+  - date: -1001-09-10
+    title_zh: 临死仰天诫太子莫报怨
+    rationale: 为至孝当使父死无恨，若违父言行杀即令父死有余恨，当以不怨成仁
+events:
+- id: guji-长寿王-event-birth
+  title_zh: 长寿王诞生
+  date: -1020-01-01
+  year_of: -1020
+  place_zh: 古代印度大国
+  description_zh: 菩萨本生为大国王，名曰长寿，以正法治国
+- id: guji-长寿王-event-governance
+  title_zh: 行仁政致丰乐
+  date: -1010-01-01
+  year_of: -1010
+  place_zh: 长寿王国
+  description_zh: 刀杖不加吏民，风雨时节五谷丰熟，国富民安无兵革之备
+- id: guji-长寿王-event-invasion
+  title_zh: 贪王闻丰乐兴兵来侵
+  date: -1002-03-01
+  year_of: -1002
+  place_zh: 长寿王国边境
+  description_zh: 邻国暴虐之王闻长寿国炽饶而无备，遂与傍臣议发兵攻夺
+- id: guji-长寿王-event-refuse-war
+  title_zh: 拒群臣请战议
+  date: -1001-06-15
+  year_of: -1001
+  place_zh: 王宫
+  description_zh: 界吏报贪王来侵，群臣请逆距，长寿王以胜亦伤民为由不许交战
+- id: guji-长寿王-event-exile
+  title_zh: 父子逾城隐山
+  date: -1001-07-01
+  year_of: -1001
+  place_zh: 山间幽隐
+  description_zh: 长寿王与太子长生共踰城而出，委国亡去，贪王遂入国募求长寿王赏
+- id: guji-长寿王-event-meet-brahmin
+  title_zh: 道边树下遇远来婆罗门
+  date: -1001-08-10
+  year_of: -1001
+  place_zh: 道边树下
+  description_zh: 失国后与贫鄙婆罗门同息树下，闻其远来欲乞布施周救贫羸
+- id: guji-长寿王-event-dana
+  title_zh: 以头布施婆罗门
+  date: -1001-09-01
+  year_of: -1001
+  place_zh: 城门外
+  description_zh: 自念无以相副，令婆罗门缚己以白贪王，使其得金千斤钱千万之赏
+- id: guji-长寿王-event-admonish
+  title_zh: 市前临死诫子不报怨
+  date: -1001-09-10
+  year_of: -1001
+  place_zh: 四街道头刑场
+  description_zh: 太子长生佯担樵至市前观父，父仰天太息嘱慎莫为父报怨
+- id: guji-长寿王-event-death
+  title_zh: 就烧而终
+  date: -1000-01-01
+  year_of: -1000
+  place_zh: 四街道头
+  description_zh: 贪王使人于四街道头烧杀长寿王，群臣具馔临之，人民莫不呼天，菩萨以无怨恚心成就佛道因缘
