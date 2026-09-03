@@ -6,127 +6,149 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
+      date: 386
       precision: year
       is_circa: false
-      raw: 隋文帝仁寿二年洛阳缑氏
+      raw: 隋仁寿二年
     death:
-      date: '0664-03-07'
-      precision: day
+      date: 436
+      precision: year
       is_circa: false
-      raw: 唐高宗麟德元年二月五日长安玉华宫
-  birth_date: '0602'
-  death_date: '0664-03-07'
+      raw: 唐麟德元年
+  birth_date: 386
+  death_date: 436
   era: 唐
-  reign_ref: 贞观至麟德奉诏译经
-  archetype: 西行求法译经弘法高僧
+  reign_ref: 唐太宗贞观至高宗麟德
+  archetype: 西行求法译经弘法者
   dilemmas:
-  - 无诏西行触犯禁令与求法弘愿之间两难
-  - 众说纷纭义理未决与亲赴天竺求证真义之间抉择
-  lesson: 以至诚弘愿履险求法，以译经持咒拔济众生苦难
-  summary_first_person: 吾本姓陈洛阳人氏，幼年出家慕求正法，冒禁西行万里至天竺，归国奉诏译经，译此拔济苦难陀罗尼，愿众生诵持灭罪往生净土
+  - 中土经义多阙而出境禁严，冒禁西行还是安守本分
+  - 印度异域留学期长而亲老国远，久学求解还是早归报国
+  - 帝王崇宠供养优厚而译场劳瘁，独修证果还是译经利世
+  lesson: 立志求真不避艰险，得法归来利济众生，方不负此生
+  summary_first_person: 吾姓陈名祎，洛州缑氏人也，少出家，感中土经阙，贞观初冒禁西行，历西域至印度那烂陀，从戒贤学瑜伽，游学十九年而归，蒙太宗高宗礼敬，于慈恩玉华专心译经，奉诏译出诸佛心陀罗尼等大乘经律，愿以真经饶益怖畏众生
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E6%8B%94%E6%B5%8E%E8%8B%A6%E9%9A%BE%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E6%8B%94%E6%B5%8E%E8%8B%A6%E9%9A%BE%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E8%AF%B8%E4%BD%9B%E5%BF%83%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E8%AF%B8%E4%BD%9B%E5%BF%83%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行天竺求法
-  summary: 贞观三年冒禁西行历西域至中天竺那烂陀求法学经十七年而归
+  title_zh: 西行求法取经
+  summary_zh: 贞观初冒禁出关，历西域诸国至印度，师事戒贤，广学显密经论，而后载经归唐
   phases:
   - key: brewing
-    name: 长安问道立志西行
+    name: 洛阳出家蕴志求法
     labels:
-      zh: 发愿
-    start_date: '0626'
-    highlight_event_id: guji-玄奘-event-departure
+      zh:
+      - 出家
+      - 发愿
+    start_date: 0619
+    highlight_event_id: guji-玄奘-event-birth
   - key: breakthrough
-    name: 偷渡玉门出西域
+    name: 冒禁出关西行
     labels:
-      zh: 启程
-    start_date: '0629-08-01'
-    highlight_event_id: guji-玄奘-event-departure
+      zh:
+      - 西行
+      - 突破
+    start_date: 407
+    highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 那烂陀受学问道
+    name: 那烂陀留学受学
     labels:
-      zh: 求法
-    start_date: '0633'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 留学
+      - 取经
+    start_date: 408
+    highlight_event_id: guji-玄奘-event-xixing
   - key: closure
-    name: 负经东归抵长安
+    name: 载经东归还朝
     labels:
-      zh: 东归
-    start_date: '0645-01-25'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 归国
+      - 献经
+    start_date: 421
+    highlight_event_id: guji-玄奘-event-huiguo
   decisions:
-  - date: '0629-08-01'
-    title_zh: 冒禁偷渡西行求法
-    rationale: 为求圆满经论了义虽触禁令亦以弘愿为先决意西行
-  - date: '0633'
-    title_zh: 留学那烂陀精研瑜伽
-    rationale: 为穷源究理师事戒贤学瑜伽唯识以正中土纷争
+  - date: 407
+    title_zh: 冒禁西行求法
+    rationale: 中土众经多阙义疑难决，誓往印度求取真本以正根本
+  - date: 408
+    title_zh: 驻锡那烂陀师事戒贤
+    rationale: 欲穷瑜伽唯识大义，须依正师久学方能通达
 - id: guji-玄奘-endeavor-2
   title_zh: 奉诏译经弘法
-  summary: 归国后居弘福大慈恩玉华宫奉诏译经译出拔济苦难陀罗尼经等利乐有情
+  summary_zh: 归国后蒙太宗高宗礼敬，住弘福慈恩玉华，组织译场译出大般若等众经，兼译诸佛心陀罗尼经以利怖畏众生
   phases:
   - key: brewing
-    name: 太宗迎接安置译场
+    name: 弘福创译发端
     labels:
-      zh: 建场
-    start_date: '0645-02-01'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 译场
+      - 筹备
+    start_date: 421
+    highlight_event_id: guji-玄奘-event-huiguo
   - key: breakthrough
-    name: 弘福开译大菩萨藏
+    name: 慈恩立宗译经日盛
     labels:
-      zh: 开译
-    start_date: '0646'
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 译经
+      - 弘法
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-yijing
   - key: climax
-    name: 译出拔济苦难陀罗尼经
+    name: 奉诏译诸佛心陀罗尼
     labels:
-      zh: 译经
-    start_date: '0650'
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 奉诏
+      - 密教
+    start_date: 424
+    highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 玉华移译圆寂利生
+    name: 玉华译毕示寂
     labels:
-      zh: 圆寂
-    start_date: '0664-02-05'
+      zh:
+      - 圆寂
+      - 传承
+    start_date: 436
     highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: '0645-02-01'
+  - date: 421
     title_zh: 受诏专心译经不就相位
-    rationale: 为利乐众生专志译经弘法谢绝朝命以译场为道场
-  - date: '0650'
-    title_zh: 译出不动灭恶趣陀罗尼
-    rationale: 为拔济堕恶趣受剧苦有情宣说持咒灭罪往生净土方便
+    rationale: 以译经利世为报国报佛恩，不以荣位易弘法大业
+  - date: 424
+    title_zh: 译出诸佛心陀罗尼普劝受持
+    rationale: 愍念怖畏苦难有情，宣布陀罗尼令脱苦难速证菩提
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 出生洛阳缑氏
-  date: '0602'
+  type: birth
+  title_zh: 出生于洛州缑氏
+  date: 386
   year_of: 602
-  place_zh: 洛阳缑氏
-  description: 隋文帝仁寿二年出生洛阳陈家幼慕佛法早年出家
-- id: guji-玄奘-event-departure
-  title_zh: 贞观西行赴天竺
-  date: '0629-08-01'
-  year_of: 629
-  place_zh: 长安至玉门关
-  description: 贞观三年秋冒禁离长安偷渡玉门关西行求法
-- id: guji-玄奘-event-return
-  title_zh: 负经东归抵长安
-  date: '0645-01-25'
+  place_zh: 隋洛州缑氏
+  description_zh: 隋仁寿二年生于缑氏陈氏，幼颖悟，十三岁出家洛阳净土寺
+- id: guji-玄奘-event-xixing
+  type: career
+  title_zh: 冒禁西行赴印度
+  date: 407
+  year_of: 627
+  place_zh: 长安至西域
+  description_zh: 贞观元年秋自长安出，偷渡玉门关，历高昌龟兹，越葱岭，赴印度求法
+- id: guji-玄奘-event-huiguo
+  type: career
+  title_zh: 载经归国蒙帝礼敬
+  date: 421
   year_of: 645
   place_zh: 长安弘福寺
-  description: 贞观十九年正月携六百余部梵本归国太宗亲迎安置弘福译经
-- id: guji-玄奘-event-translate
-  title_zh: 奉诏译拔济苦难陀罗尼经
-  date: '0650'
+  description_zh: 贞观十九年春携六百余部梵本还长安，太宗亲迎，住弘福寺组织译场
+- id: guji-玄奘-event-yijing
+  type: career
+  title_zh: 奉诏译诸佛心陀罗尼经
+  date: 424
   year_of: 650
-  place_zh: 长安大慈恩寺译场
-  description: 奉诏译出不动如来灭恶趣王如来陀罗尼宣说持咒灭五无间四重十恶罪临终往生净土
+  place_zh: 长安慈恩寺
+  description_zh: 奉诏译出一卷诸佛心陀罗尼经，宣说诸佛心大威德陀罗尼及受持功德
 - id: guji-玄奘-event-death
-  title_zh: 圆寂玉华宫
-  date: '0664-03-07'
+  type: death
+  title_zh: 示寂于玉华宫
+  date: 436
   year_of: 664
-  place_zh: 长安玉华宫
-  description: 麟德元年二月五日寂于玉华宫嘉寿寺朝野哀恸归葬白鹿原
+  place_zh: 唐坊州玉华宫
+  description_zh: 麟德元年二月五日寂于玉华宫肃成院，葬白鹿原，高宗罢朝举哀
