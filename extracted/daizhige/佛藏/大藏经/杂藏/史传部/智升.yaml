@@ -1,0 +1,147 @@
+person:
+  qid: guji-智升
+  name_zh: 智升
+  names:
+    zh: 智升
+    en: Zhisheng
+  lifespan:
+    birth:
+      date: '0675'
+      precision: year
+      is_circa: true
+      raw: 唐显庆末年约675年荥阳刘氏
+    death:
+      date: '0732'
+      precision: year
+      is_circa: true
+      raw: 唐开元二十年732年
+  birth_date: '0675'
+  death_date: '0732'
+  era: 唐
+  reign_ref: 唐玄宗开元
+  archetype: 目录考据型高僧
+  dilemmas:
+  - 佛典传译众说纷纭真伪难辨如何立目录以正视听
+  - 佛道二教源流争执千年如何考据年代以息诤论
+  lesson: 考据必求原本目录所以成信史论衡所以息邪诤
+  summary_first_person: 吾为西崇福寺沙门智升生逢盛唐佛法大兴目睹群录杂糅真伪相淆遂发愿检藏考译撰开元释教录以定群经又续古今佛道论衡引周书异记汉法本内传以明佛生灭年代及白马寺较法之事愿后学有所据依不为异说所惑
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/杂藏/史传部/续集古今佛道论衡.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/杂藏/史传部/续集古今佛道论衡.md
+endeavors:
+- id: guji-智升-endeavor-1
+  title_zh: 编纂开元释教录
+  description: 检阅大唐藏经考定译人时代卷轴存佚立目录以总持佛典
+  phases:
+  - key: brewing
+    name: 入寺习律博览群录
+    labels:
+      zh: 酝酿
+    start_date: '0700'
+    highlight_event_id: guji-智升-event-ruzhu
+  - key: breakthrough
+    name: 奉诏检藏发凡起例
+    labels:
+      zh: 突破
+    start_date: 0728
+    highlight_event_id: guji-智升-event-kaiyuanlu-start
+  - key: climax
+    name: 开元十八年录成二十卷
+    labels:
+      zh: 高潮
+    start_date: '0730'
+    highlight_event_id: guji-智升-event-kaiyuanlu-done
+  - key: closure
+    name: 略出付梓通行天下
+    labels:
+      zh: 收束
+    start_date: '0731'
+    highlight_event_id: guji-智升-event-luechu
+  decisions:
+  - date: 0728
+    title_zh: 立九例十科以断凡圣
+    rationale: 旧录杂糅不分真伪故立入藏录等九例以别大小乘真伪译失译
+  - date: '0730'
+    title_zh: 以开元入藏录为准绳
+    rationale: 欲使后代依录求经不致以伪乱真故详注译人存亡缺本
+- id: guji-智升-endeavor-2
+  title_zh: 续集古今佛道论衡考辨源流
+  description: 续道宣论衡引周书异记汉法本内传考佛诞涅槃年代记白马寺佛道较法
+  phases:
+  - key: brewing
+    name: 搜集周书异记汉法本
+    labels:
+      zh: 酝酿
+    start_date: '0730'
+    highlight_event_id: guji-智升-event-kaiyuanlu-done
+  - key: breakthrough
+    name: 考定佛生灭系年
+    labels:
+      zh: 突破
+    start_date: '0731'
+    highlight_event_id: guji-智升-event-lunheng-kaozheng
+  - key: climax
+    name: 详记永平较法度脱六百人
+    labels:
+      zh: 高潮
+    start_date: '0732'
+    highlight_event_id: guji-智升-event-lunheng-jiaofa
+  - key: closure
+    name: 一卷成书以息佛道之诤
+    labels:
+      zh: 收束
+    start_date: '0732'
+    highlight_event_id: guji-智升-event-lunheng-done
+  decisions:
+  - date: '0731'
+    title_zh: 以周昭穆系年定佛寿七十九
+    rationale: 统师所传孝王五年入灭谬误故推昭王二十四年诞穆王五十二年灭以正其失
+  - date: '0732'
+    title_zh: 具录白马寺焚经显验
+    rationale: 道士表请比校经从火化舍利放光故备载以显正法东渐之始
+events:
+- id: guji-智升-event-birth
+  title_zh: 出生
+  date: '0675'
+  year_of: 675
+  description: 约唐高宗显庆末年生于荥阳刘氏
+- id: guji-智升-event-ruzhu
+  title_zh: 住西崇福寺习律学教
+  date: '0700'
+  year_of: 700
+  description: 少出家长安西崇福寺博览经律专精目录之学
+- id: guji-智升-event-kaiyuanlu-start
+  title_zh: 奉诏检阅大藏发愿编录
+  date: 0728
+  year_of: 728
+  description: 开元十六年左右检校藏经立例编纂释教录
+- id: guji-智升-event-kaiyuanlu-done
+  title_zh: 开元释教录成二十卷
+  date: '0730'
+  year_of: 730
+  description: 开元十八年撰成开元释教录详载译经一千余人五千余卷
+- id: guji-智升-event-luechu
+  title_zh: 又撰释教录略出等
+  date: '0731'
+  year_of: 731
+  description: 续撰续古今译经图纪开元释教录略出以便检阅
+- id: guji-智升-event-lunheng-kaozheng
+  title_zh: 考佛诞涅槃年代
+  date: '0731'
+  year_of: 731
+  description: 引周书异记帝王世纪辨佛昭王二十四年四月八日生穆王五十二年二月十五日灭驳孝王五年之谬
+- id: guji-智升-event-lunheng-jiaofa
+  title_zh: 记汉明永平佛道较法
+  date: '0732'
+  year_of: 732
+  description: 据汉法本内传记永平十四年正月十五日白马寺焚经道士六百二十人出家立十寺事
+- id: guji-智升-event-lunheng-done
+  title_zh: 续集古今佛道论衡成
+  date: '0732'
+  year_of: 732
+  description: 续道宣论衡成一卷分西域天竺国事及传法记以传后世
+- id: guji-智升-event-death
+  title_zh: 示寂
+  date: '0732'
+  year_of: 732
+  description: 唐玄宗开元二十年示寂于西崇福寺世寿约五十八

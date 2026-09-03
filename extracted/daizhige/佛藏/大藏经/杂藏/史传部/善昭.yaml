@@ -1,0 +1,146 @@
+person:
+  qid: guji-善昭
+  name_zh: 善昭
+  names:
+    zh: 汾阳善昭
+    en: Fenyang Shanzhao
+  lifespan:
+    birth:
+      date: 0947
+      precision: year
+      is_circa: false
+      raw: 太原俞氏子生于947年
+    death:
+      date: '1024'
+      precision: year
+      is_circa: false
+      raw: 1024年停箸而逝于汾阳
+  birth_date: 0947
+  death_date: '1024'
+  era: 北宋
+  reign_ref: 宋仁宗天圣
+  archetype: 弘法宗师
+  dilemmas:
+  - 年十四孤苦厌俗而出家游方与随俗安身之抉择
+  - 八请名刹坚卧不答与荷担如来大法而出山之抉择
+  lesson: 放下身命处即是悟入处以三玄三要勘验学人住持三十年不越阃而化六大器
+  summary_first_person: 我太原俞氏子十四岁父母相继而亡遂剃发出家杖策游方历参七十一员至首山问百丈卷席而大悟后隐衡湘襄沔八请不赴及首山殁契聪相迎乃住汾阳太子院三十年足不越阃以三玄三要用中弘化
+  source_urls:
+  - https://daizhige.org/續傳燈錄.html
+endeavors:
+- id: guji-善昭-endeavor-1
+  person_ref: guji-善昭
+  title_zh: 游方参学至首山大悟
+  summary_zh: 少通文字十四出家游方历参七十一员至首山问答言下大悟得放身命处
+  phases:
+  - key: brewing
+    name: 孤苦出家
+    labels:
+      zh:
+      - 出家
+      - 游方
+    start_date: 0961
+    highlight_event_id: guji-善昭-event-birth
+  - key: breakthrough
+    name: 首山问答大悟
+    labels:
+      zh:
+      - 参究
+      - 大悟
+    start_date: 0988
+    highlight_event_id: guji-善昭-event-awakening
+  - key: climax
+    name: 万古碧潭自肯
+    labels:
+      zh:
+      - 自肯
+      - 传灯
+    start_date: 0988
+    highlight_event_id: guji-善昭-event-awakening
+  - key: closure
+    name: 衡湘潜养待缘
+    labels:
+      zh:
+      - 潜养
+      - 待缘
+    start_date: 0990
+    highlight_event_id: guji-善昭-event-settle-fenyang
+  decisions:
+  - date: 0961
+    title_zh: 年十四剃发出家
+    rationale: 父母相继而亡厌世俗尘劳为求出离而剃发受具游方参学
+  - date: 0988
+    title_zh: 首山座下出问直悟
+    rationale: 问百丈卷席意旨于龙袖象王语下见全体不疑老和尚舌头遂自肯承当
+- id: guji-善昭-endeavor-2
+  person_ref: guji-善昭
+  title_zh: 住持汾阳三十年弘三玄三要
+  summary_zh: 契聪排闼劝请而出住汾阳燕坐一榻三十年以三玄三要四转语验天下衲僧化六大士
+  phases:
+  - key: brewing
+    name: 八请坚卧
+    labels:
+      zh:
+      - 坚卧
+      - 却请
+    start_date: 0990
+    highlight_event_id: guji-善昭-event-awakening
+  - key: breakthrough
+    name: 契聪排闼劝请
+    labels:
+      zh:
+      - 劝请
+      - 荷担
+    start_date: 0994
+    highlight_event_id: guji-善昭-event-settle-fenyang
+  - key: climax
+    name: 汾阳三十年化众
+    labels:
+      zh:
+      - 住持
+      - 三玄三要
+    start_date: 0995
+    highlight_event_id: guji-善昭-event-settle-fenyang
+  - key: closure
+    name: 停箸而逝侍者立化
+    labels:
+      zh:
+      - 示寂
+      - 付嘱
+    start_date: '1024'
+    highlight_event_id: guji-善昭-event-death
+  decisions:
+  - date: 0994
+    title_zh: 应契聪请出住汾阳
+    rationale: 闻佛法大事靖退小节风穴应谶先师已逝有力荷担者当起而不安眠
+  - date: 0995
+    title_zh: 燕坐一榻足不越阃
+    rationale: 道俗同称汾阳而不敢名以三玄三要十智同真勘验接引自利利他续佛心灯
+events:
+- id: guji-善昭-event-birth
+  person_ref: guji-善昭
+  title_zh: 太原俞氏降生
+  date: 0947
+  year_of: 947
+  summary_zh: 太原俞氏子器识沉邃于一切文字不由师训自然通晓
+- id: guji-善昭-event-awakening
+  person_ref: guji-善昭
+  endeavor_ref: guji-善昭-endeavor-1
+  title_zh: 首山座下大悟
+  date: 0988
+  year_of: 988
+  summary_zh: 首山升座出问百丈卷席意旨闻龙袖拂开全体现象王行处绝狐踪言下大悟作万古碧潭偈自肯为放身命处
+- id: guji-善昭-event-settle-fenyang
+  person_ref: guji-善昭
+  endeavor_ref: guji-善昭-endeavor-2
+  title_zh: 住持汾阳太子院三十年
+  date: 0995
+  year_of: 995
+  summary_zh: 西河道俗遣契聪迎请闭关高枕排闼劝起遂至汾阳燕坐一榻足不越阃三十年以三玄三要化六大士
+- id: guji-善昭-event-death
+  person_ref: guji-善昭
+  endeavor_ref: guji-善昭-endeavor-2
+  title_zh: 承天寺请中停箸而逝
+  date: '1024'
+  year_of: 1024
+  summary_zh: 龙德府尹虚承天致之三反不赴使者以死请遂设馔告众问谁随得侍者云到处即到言讫停箸而逝侍者立化阇维收舍利起塔
