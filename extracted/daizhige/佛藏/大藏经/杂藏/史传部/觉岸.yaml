@@ -1,0 +1,141 @@
+person:
+  qid: guji-觉岸
+  name_zh: 觉岸
+  names:
+    zh: 觉岸
+    en: Juean
+  lifespan:
+    birth:
+      date: 1290
+      precision: year
+      is_circa: true
+      raw: 元初约生于吴兴
+    death:
+      date: 1360
+      precision: year
+      is_circa: true
+      raw: 元末约卒
+  birth_date: 1290
+  death_date: 1360
+  era: 元
+  reign_ref: 元顺帝至正
+  archetype: 史传高僧
+  dilemmas:
+  - 内典浩繁传记散失如何考订贯通
+  - 佛史纪年与正史国纪龃龉如何取舍折衷
+  lesson: 稽古以鉴今广闻以扶教劝戒来学
+  summary_first_person: 我是吴兴乌程宝相宝洲觉岸博学通古今先作稽古手鉴又广为释氏稽古略本之内典参之诸史旁及传记系年纪事以明名德行业塔庙兴废用扶植教门垂劝戒于后
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E9%87%8A%E6%B0%8F%E7%A8%BD%E5%8F%A4%E7%95%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E9%87%8A%E6%B0%8F%E7%A8%BD%E5%8F%A4%E7%95%A5.md
+endeavors:
+- id: guji-觉岸-endeavor-1
+  title_zh: 考传记作成稽古手鉴
+  goal_zh: 以年为经以国为纬汇集释氏事实为稽古之初基
+  phases:
+  - key: brewing
+    name: 博览内典诸史
+    labels:
+      zh: 博学积累
+    start_date: 1320
+    highlight_event_id: guji-觉岸-event-handmirror
+  - key: breakthrough
+    name: 年经国纬体例初定
+    labels:
+      zh: 体例创立
+    start_date: 1335
+    highlight_event_id: guji-觉岸-event-handmirror
+  - key: closure
+    name: 手鉴编成流通
+    labels:
+      zh: 初编告成
+    start_date: 1340
+    highlight_event_id: guji-觉岸-event-handmirror
+  decisions:
+  - date: 1335
+    title_zh: 立年经国纬之例
+    rationale: 佛史散漫无纪须以纪年统摄以国土别异方能考核先后无遗阙
+  - date: 1340
+    title_zh: 先成手鉴以待增广
+    rationale: 事实上下数千年遽难详备故先为简编以俟续补
+- id: guji-觉岸-endeavor-2
+  title_zh: 增广辑成释氏稽古略四卷
+  goal_zh: 广旧编而为略载名德行业塔庙兴坏僧侣众寡寓劝戒于历代际遇
+  phases:
+  - key: brewing
+    name: 因旧辑而广考
+    labels:
+      zh: 增广发愿
+    start_date: 1341
+    highlight_event_id: guji-觉岸-event-jigulue
+  - key: breakthrough
+    name: 参合内典正史传记
+    labels:
+      zh: 考核精审
+    start_date: 1350
+    highlight_event_id: guji-觉岸-event-jigulue
+  - key: climax
+    name: 四卷告成请序刊行
+    labels:
+      zh: 成书传世
+    start_date: 1354-09-01
+    highlight_event_id: guji-觉岸-event-jigulue
+  - key: closure
+    name: 松江宝洲名重一时
+    labels:
+      zh: 声教流布
+    start_date: 1355
+    highlight_event_id: guji-觉岸-event-fame
+  decisions:
+  - date: 1341
+    title_zh: 以略名书示谦
+    rationale: 自谦为略实则瞻详欲使学者睹教盛而知扶植有人
+  - date: 1354-09-01
+    title_zh: 持书请太原刘尧辅中山李桓作序
+    rationale: 借名公序文冠编首以侈历代际遇而广流通取信来学
+events:
+- id: guji-觉岸-event-birth
+  type: birth
+  title_zh: 生于吴兴乌程职里
+  date: 1290
+  year_of: 1290
+  precision: year
+  is_circa: true
+  place_zh: 吴兴乌程
+  summary_zh: 元初约生吴兴乌程出家宝相号宝洲博通古今
+- id: guji-觉岸-event-handmirror
+  type: endeavor
+  title_zh: 编成稽古手鉴一编
+  date: 1340
+  year_of: 1340
+  precision: year
+  is_circa: true
+  place_zh: 松江南禅
+  summary_zh: 考释氏事实上下数千载以年经国纬编成手鉴为稽古略之蓝本
+- id: guji-觉岸-event-jigulue
+  type: endeavor
+  title_zh: 广成释氏稽古略四卷
+  date: 1354-09-01
+  year_of: 1354
+  precision: day
+  is_circa: false
+  place_zh: 吴兴
+  summary_zh: 至正十四年秋九月因旧辑广为稽古略凡四帙自有佛以来名德行业塔庙兴坏靡不具载太原刘尧辅持书请序
+- id: guji-觉岸-event-fame
+  type: endeavor
+  title_zh: 宝洲名重松江洛阳题赞
+  date: 1355
+  year_of: 1355
+  precision: year
+  is_circa: true
+  place_zh: 松江
+  summary_zh: 时称松江南禅宝洲岸公博通古今洛阳崔思诚等推其慧性通彻深蕴佛奥学者以其心为心可至见性成佛
+- id: guji-觉岸-event-death
+  type: death
+  title_zh: 示寂于元末
+  date: 1360
+  year_of: 1360
+  precision: year
+  is_circa: true
+  place_zh: 江南
+  summary_zh: 元末约卒生平纂述表出英伟魁杰之扶植功后世重刊其书列于龙藏宝筏
