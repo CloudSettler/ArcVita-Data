@@ -9,146 +9,120 @@ person:
       date: 0683
       precision: year
       is_circa: false
-      raw: 唐弘道元年魏州昌乐
+      raw: 唐弘道元年
     death:
-      date: 471
+      date: '0727'
       precision: year
       is_circa: false
-      raw: 唐开元十五年华严寺
+      raw: 唐开元十五年
   birth_date: 0683
-  death_date: 471
+  death_date: '0727'
   era: 唐
   reign_ref: 唐玄宗开元
-  archetype: 精通天算兼弘密教之经世高僧
+  archetype: 融通显密兼明天文历算之高僧
   dilemmas:
-  - 出世修禅与入世经国之间何去何从
-  - 实测历数与宿曜占验之间如何会通
-  lesson: 以实测验天行以密法安人心儒佛兼通道术并用方能成大业
-  summary_first_person: 吾俗姓张名遂魏州人也弃科举而为僧师普寂善无畏潜心天算奉玄宗诏改历制大衍造游仪测九州译宿曜仪轨以通天人之际毕生但愿历正时和灾消民安而已
+  - 秘密口传与普利末世之间如何兼顾
+  - 敬爱增益与息灾调伏之间如何抉择
+  lesson: 以护摩为宗以一印一咒普摄群机密行显益并举
+  summary_first_person: 吾俗姓张名遂出家名一行遇善无畏等而传密法撰译焰曼德迦万爱秘术如意法明六面六臂像印咒坛法以利末世复助译大日经制大衍历而终
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%AE%BF%E6%9B%9C%E4%BB%AA%E8%BD%A8.md
-  - https://cbeta.org/result/T1304
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E6%9B%BC%E6%AE%8A%E5%AE%A4%E5%88%A9%E7%84%B0%E6%9B%BC%E5%BE%B7%E8%BF%A6%E4%B8%87%E7%88%B1%E7%A7%98%E6%9C%AF%E5%A6%82%E6%84%8F%E6%B3%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E6%9B%BC%E6%AE%8A%E5%AE%A4%E5%88%A9%E7%84%B0%E6%9B%BC%E5%BE%B7%E8%BF%A6%E4%B8%87%E7%88%B1%E7%A7%98%E6%9C%AF%E5%A6%82%E6%84%8F%E6%B3%95.md
 endeavors:
 - id: guji-一行-endeavor-1
-  title_zh: 实测天象改制大衍历
-  summary: 奉诏主持历议组织南宫说等全国测影造黄道游仪制大衍历以正天时
+  person_qid: guji-一行
+  title_zh: 撰译曼殊室利焰曼德迦万爱秘术如意法
+  summary: 明真言教源出于护摩传六面六臂六足乘水牛之像与一印真言及曼荼罗坛法普利末世敬爱增益
   phases:
   - key: brewing
-    name: 少通经史潜心算术
+    name: 发愿普利末世
     labels:
-      zh:
-      - 算学
-      - 经史
+      zh: 发心立愿
+    start_date: '0716'
+    highlight_event_id: guji-一行-event-1
+  - key: breakthrough
+    name: 得秘密口传
+    labels:
+      zh: 承师口诀
+    start_date: '0720'
+    highlight_event_id: guji-一行-event-1
+  - key: climax
+    name: 定像印咒坛法
+    labels:
+      zh: 撰定仪轨
+    start_date: '0723'
+    highlight_event_id: guji-一行-event-1
+  - key: closure
+    name: 流通万爱如意法
+    labels:
+      zh: 流通后世
+    start_date: '0725'
+    highlight_event_id: guji-一行-event-1
+  decisions:
+  - date: '0720'
+    title_zh: 以护摩为无上立宗
+    rationale: 真言教源自护摩为本故举爱法敬爱以摄末世众生
+  - date: '0723'
+    title_zh: 说一印一咒普摄四事
+    rationale: 为求末世敬爱增益息灾调伏皆可置轮修行故须简易而具足
+- id: guji-一行-endeavor-2
+  person_qid: guji-一行
+  title_zh: 助译大日经弘密并制大衍历
+  summary: 亲承善无畏金刚智助译毗卢遮那经疏释密义复奉诏改历制大衍历测晷影以显密兼通
+  phases:
+  - key: brewing
+    name: 嵩岳出家博学
+    labels:
+      zh: 出家问道
     start_date: 0698
     highlight_event_id: guji-一行-event-birth
   - key: breakthrough
-    name: 奉诏入局主持历议
+    name: 遇善无畏受灌顶
     labels:
-      zh:
-      - 改历
-      - 奉诏
-    start_date: 465
-    highlight_event_id: guji-一行-event-dayan
+      zh: 密法亲承
+    start_date: '0720'
+    highlight_event_id: guji-一行-event-2
   - key: climax
-    name: 造游仪测影颁大衍
+    name: 参译大经制新历
     labels:
-      zh:
-      - 测验
-      - 颁历
-    start_date: 468
-    highlight_event_id: guji-一行-event-ceying
+      zh: 译经造历
+    start_date: '0725'
+    highlight_event_id: guji-一行-event-2
   - key: closure
-    name: 历成行用泽被后世
+    name: 寂于新丰示寂
     labels:
-      zh:
-      - 大衍历
-      - 总结
-    start_date: 471
+      zh: 圆寂谥号
+    start_date: '0727'
     highlight_event_id: guji-一行-event-death
   decisions:
-  - date: 465
-    title_zh: 接受玄宗诏命改历
-    rationale: 麟德历失准日食不验唯有挺身任事方可正天时授民时
-  - date: 468
-    title_zh: 主张南下测影制游仪
-    rationale: 不立实测则争论不息须以九州测影数据定日影消长以成新历
-- id: guji-一行-endeavor-2
-  title_zh: 弘传密教译撰宿曜仪轨
-  summary: 从善无畏金刚智受密法译诸星曜真言仪轨撰宿曜仪轨会通天文与禳灾护国
-  phases:
-  - key: brewing
-    name: 嵩山从善无畏习密
-    labels:
-      zh:
-      - 密教
-      - 学法
-    start_date: 462
-    highlight_event_id: guji-一行-event-mijiao
-  - key: breakthrough
-    name: 助译毗卢遮那经等
-    labels:
-      zh:
-      - 译经
-      - 持诵
-    start_date: 467
-    highlight_event_id: guji-一行-event-mijiao
-  - key: climax
-    name: 撰宿曜仪轨立禳灾法
-    labels:
-      zh:
-      - 星宿
-      - 护摩
-    start_date: 469
-    highlight_event_id: guji-一行-event-suyao
-  - key: closure
-    name: 以星历护国利民
-    labels:
-      zh:
-      - 护国
-      - 传承
-    start_date: 471
-    highlight_event_id: guji-一行-event-suyao
-  decisions:
-  - date: 462
-    title_zh: 投善无畏学密法
-    rationale: 欲兼显密以济世须得胎藏真传方能立坛禳灾护国
-  - date: 469
-    title_zh: 会通九曜二十八宿撰仪轨
-    rationale: 中土星占与印度九执曜历各有所长当系以真言印契使灾厄可禳吉祥可致
+  - date: '0725'
+    title_zh: 助译大毗卢遮那经
+    rationale: 密教东传机缘已熟故笔受梵义助成疏记以传持
+  - date: '0726'
+    title_zh: 奉诏改撰大衍历
+    rationale: 旧历乖舛晷漏未精故以天文算术正时授事以利国民
 events:
 - id: guji-一行-event-birth
-  title_zh: 生于魏州昌乐张氏
+  person_qid: guji-一行
+  title_zh: 诞生于魏州昌乐张氏
   date: 0683
   year_of: 683
-  type: birth
-  description: 唐弘道元年生于魏州昌乐名张遂少博览经史尤精历象阴阳五行之学
-- id: guji-一行-event-mijiao
-  title_zh: 从善无畏受胎藏密法
-  date: 462
-  year_of: 716
-  type: career
-  description: 遁入嵩山从善无畏学密教后随金刚智助译毗卢遮那佛说要略念诵经等兼通梵历九曜之说
-- id: guji-一行-event-dayan
-  title_zh: 奉诏改历创制大衍历
-  date: 465
-  year_of: 722
-  type: career
-  description: 唐玄宗诏一行主持改历与南宫说等商订历法主张实测以定气朔盈缩开始编制大衍历
-- id: guji-一行-event-ceying
-  title_zh: 与梁令瓒造黄道游仪测影
-  date: 468
-  year_of: 724
-  type: career
-  description: 与梁令瓒造黄道游仪复古浑天组织十三处测影以步日月行度为大衍历奠定实测基础
-- id: guji-一行-event-suyao
-  title_zh: 撰宿曜仪轨传九曜息灾法
-  date: 469
+  description: 俗姓张名遂生于唐弘道元年少聪慧博览经史后出家嵩山名一行
+- id: guji-一行-event-1
+  person_qid: guji-一行
+  title_zh: 撰译焰曼德迦万爱秘术如意法
+  date: '0723'
+  year_of: 723
+  description: 述六面六臂六足乘水牛像传一印咒唵瑟底哩迦罗噜婆吽欠娑呵立圆坛置轮说内院明王外院八方童子及四十九日百万遍成就法
+- id: guji-一行-event-2
+  person_qid: guji-一行
+  title_zh: 从善无畏受法助译大日经并制大衍历
+  date: '0725'
   year_of: 725
-  type: career
-  description: 系印度九执曜二十八宿北斗本命之说以虚空藏文殊普贤延命等印言立息灾护摩延命之法撰成宿曜仪轨一卷
+  description: 亲承善无畏金刚智灌顶助译大毗卢遮那成佛神变加持经奉玄宗诏改历创大衍历法测子午晷影
 - id: guji-一行-event-death
-  title_zh: 示寂于长安华严寺
-  date: 471
+  person_qid: guji-一行
+  title_zh: 寂于长安新丰
+  date: '0727'
   year_of: 727
-  type: death
-  description: 开元十五年十月示寂于华严寺玄宗废朝三日谥曰大慧禅师大衍历后颁行天下用近三十年
+  description: 开元十五年示寂于新丰玄宗哭之甚恸谥曰大慧禅师塔于铜人原
