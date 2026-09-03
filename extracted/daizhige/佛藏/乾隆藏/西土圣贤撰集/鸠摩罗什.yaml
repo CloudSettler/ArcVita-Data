@@ -8,139 +8,126 @@ person:
     birth:
       date: '0344'
       precision: year
-      is_circa: true
-      raw: 晋穆帝永和十年生于龟兹
+      is_circa: false
+      raw: 生于龟兹
     death:
       date: '0413'
       precision: year
       is_circa: false
-      raw: 晋安帝义熙九年示寂于长安
+      raw: 卒于长安
   birth_date: '0344'
   death_date: '0413'
-  era: 东晋十六国
-  reign_ref: 姚秦弘始
-  archetype: 译经宗师
+  era: 十六国后秦
+  reign_ref: 后秦姚兴弘始年间
+  archetype: 译经高僧
   dilemmas:
-  - 身处乱世弘法与保全译业如何两全
-  - 禅观重实修与义学重解行如何会通
-  lesson: 以信解摄心以慈慧利生离欲得定方能久住正法
-  summary_first_person: 吾生于龟兹少习大乘后入长安主持译场译出禅法要解等经教人观不净修四禅发慈心断五盖以求解脱
+  - title_zh: 色欲系缚与慧命抉择
+    description: 女色如枷锁重患，当远离秽斥以全慧明
+  - title_zh: 西土弘传与信译抉择
+    description: 西土圣贤之言当弘译不失本义，普令行者得出牢狱
+  lesson: 远离女色枷锁，破锁脱狱，永得安吉
+  summary_first_person: 吾自龟兹入长安，主持译场，译西土圣贤诃色欲之法，劝行者弃女色枷锁毒害，守慧明而得安吉
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E7%A6%85%E6%B3%95%E8%A6%81%E8%A7%A3%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E7%A6%85%E6%B3%95%E8%A6%81%E8%A7%A3%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E8%8F%A9%E8%90%A8%E8%AF%83%E8%89%B2%E6%AC%B2%E6%B3%95.html
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 主持长安逍遥园译场广译大乘
-  summary_zh: 自弘始三年入关集合义学僧众重译般若中观净土诸经奠定中土大乘义理根基
+  person_qid: guji-鸠摩罗什
+  title_zh: 西域出家游学求法
+  summary: 幼随母出家，遍学大小乘，游历西域，声名大振
   phases:
   - key: brewing
-    name: 西域问道
+    name: 随母出家龟兹初学
     labels:
-      zh:
-      - 求法
-      - 大乘
-    start_date: 0359
+      zh: 初学
+    start_date: '0351'
     highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 入关迎请
+    name: 改学大乘广求义理
     labels:
-      zh:
-      - 迎请
-      - 入关
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-enter-changan
+      zh: 转学
+    start_date: 0383
+    highlight_event_id: guji-鸠摩罗什-event-1
   - key: climax
-    name: 群译经论
+    name: 西域名振号为法匠
     labels:
-      zh:
-      - 译经
-      - 弘法
-    start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-translate-chanfa
+      zh: 名振
+    start_date: 0395
+    highlight_event_id: guji-鸠摩罗什-event-1
   - key: closure
-    name: 遗嘱荼毗
+    name: 应请东行弘化中土
     labels:
-      zh:
-      - 圆寂
-      - 舌根不坏
+      zh: 东行
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-1
+  decisions:
+  - date: 0383
+    title_zh: 改宗大乘遍参西域
+    rationale: 为求第一义谛，不滞小乘，广访大乘师而通其旨
+  - date: '0401'
+    title_zh: 应姚兴请入关弘法
+    rationale: 为使大法东传，救中土众生出色欲牢狱，故不辞远行
+- id: guji-鸠摩罗什-endeavor-2
+  person_qid: guji-鸠摩罗什
+  title_zh: 长安主持译场弘译
+  summary: 居长安逍遥园译经，译出诃色欲法等经论，劝离衰祸
+  phases:
+  - key: brewing
+    name: 入关至长安受礼敬
+    labels:
+      zh: 入关
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-1
+  - key: breakthrough
+    name: 主持逍遥园译场
+    labels:
+      zh: 译场
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-1
+  - key: climax
+    name: 译出菩萨诃色欲法
+    labels:
+      zh: 译经
+    start_date: '0405'
+    highlight_event_id: guji-鸠摩罗什-event-2
+  - key: closure
+    name: 圆寂长安弘传终成
+    labels:
+      zh: 圆寂
     start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: '0401'
-    title_zh: 应姚兴请入长安
-    rationale: 以大译场聚众校义方能正本清源广利中土故不辞羁留而就弘业
   - date: '0402'
-    title_zh: 定新译体例直译义理
-    rationale: 秦地旧译多失本旨当以信达为要使禅教学人得依正教修行
-- id: guji-鸠摩罗什-endeavor-2
-  title_zh: 传译禅法要解弘扬禅观次第
-  summary_zh: 依西土圣贤撰集之禅要译为二卷示不净四禅四无量除五盖之道接引初机远离欲染
-  phases:
-  - key: brewing
-    name: 观察根机
-    labels:
-      zh:
-      - 观机
-      - 不净
-    start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-enter-changan
-  - key: breakthrough
-    name: 译出禅要
-    labels:
-      zh:
-      - 禅定
-      - 译经
-    start_date: '0407'
-    highlight_event_id: guji-鸠摩罗什-event-translate-chanfa
-  - key: climax
-    name: 广说四禅
-    labels:
-      zh:
-      - 四禅
-      - 慈心
-    start_date: 0408
-    highlight_event_id: guji-鸠摩罗什-event-translate-chanfa
-  - key: closure
-    name: 付嘱修证
-    labels:
-      zh:
-      - 付嘱
-      - 修证
-    start_date: '0412'
-    highlight_event_id: guji-鸠摩罗什-event-death
-  decisions:
-  - date: '0407'
-    title_zh: 先译不净四禅以对治欲染
-    rationale: 中土学人多着五欲当先示恶厌白骨及死尸观以息淫嗔再入初禅乃至四禅
-  - date: 0408
-    title_zh: 合说慈心无量以成大行
-    rationale: 独得禅乐易滞小果当以慈水遍覆十方众生发大悲愿方契摩诃衍本怀
+    title_zh: 定译例聚众校译
+    rationale: 为使西土圣贤之意信达中土，须集义学僧共参详定
+  - date: '0405'
+    title_zh: 先译诃色欲以戒行者
+    rationale: 因女色为世间枷锁重患，行者当先舍之，故急译此法以示诫
 events:
 - id: guji-鸠摩罗什-event-birth
+  person_qid: guji-鸠摩罗什
   title_zh: 生于龟兹
   date: '0344'
   year_of: 344
-  kind: birth
-  location_zh: 西域龟兹
-  description_zh: 父鸠摩罗炎母耆婆随母出家少习小乘后转学大乘名振西域
-- id: guji-鸠摩罗什-event-enter-changan
-  title_zh: 姚兴迎入长安
+  place_zh: 龟兹
+  description: 龟兹国生，后随母出家，少而聪慧
+- id: guji-鸠摩罗什-event-1
+  person_qid: guji-鸠摩罗什
+  title_zh: 入长安主持译事
   date: '0401'
   year_of: 401
-  kind: endeavor
-  location_zh: 长安逍遥园
-  description_zh: 姚秦弘始三年被迎至长安住逍遥园西明阁集八百僧众从事翻译
-- id: guji-鸠摩罗什-event-translate-chanfa
-  title_zh: 译出禅法要解经
-  date: '0407'
-  year_of: 407
-  kind: endeavor
-  location_zh: 长安大寺
-  description_zh: 译西土圣贤撰集禅法要解二卷明不净观除五盖次入四禅及修慈心无量之要
+  place_zh: 长安
+  description: 弘始三年入长安，姚兴礼为国师，居逍遥园主持译场
+- id: guji-鸠摩罗什-event-2
+  person_qid: guji-鸠摩罗什
+  title_zh: 译出菩萨诃色欲法
+  date: '0405'
+  year_of: 405
+  place_zh: 长安逍遥园
+  description: 译西土圣贤撰集之法，明女色如蜜如毒如蛟龙师子，劝行者破枷脱锁离衰祸
 - id: guji-鸠摩罗什-event-death
-  title_zh: 示寂于长安
+  person_qid: guji-鸠摩罗什
+  title_zh: 卒于长安
   date: '0413'
   year_of: 413
-  kind: death
-  location_zh: 长安
-  description_zh: 晋安帝义熙九年示寂荼毗舌根不坏以验弘法无谬众建塔供养
+  place_zh: 长安
+  description: 弘始末年圆寂于长安，译业既成，遗教诃色欲永传
