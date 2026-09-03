@@ -9,118 +9,136 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约宋初西域来华前
+      raw: 生年失载约十世纪中叶中天竺人
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋真宗咸平四年卒
+      raw: 宋真宗咸平四年
   birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
-  archetype: 译经三藏
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉音义悬隔而奉诏亟译须兼顾信达
-  - 密咒仪轨繁密而中土初传恐失持诵之准
-  lesson: 存梵音而达华言以信实传持金刚密法
-  summary_first_person: 我本西域沙门奉宋帝诏入译经院，与众共译大小乘经，译出圣金刚手百八名梵赞等典，愿以赞叹音声护持行人。
+  - 梵汉悬隔而须信达兼全不失密义
+  - 仪轨繁密而须化繁为简使中土易持
+  lesson: 以忠实传译接引群机，使甚深曼荼罗法普利三际众生
+  summary_first_person: 我本中天竺僧，随师入宋，蒙诏赐名法贤，授朝散大夫试光禄卿明教大师，毕生奉诏传译，敷演八大曼荼罗根本大明，愿持诵供养者灭五逆重罪，同证无上菩提
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%9C%A3%E9%87%91%E5%88%9A%E6%89%8B%E8%8F%A9%E8%90%A8%E4%B8%80%E7%99%BE%E5%85%AB%E5%90%8D%E6%A2%B5%E8%B5%9E.md
+  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/大乘八大曼拏罗经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/宋元入藏诸大小乘经/大乘八大曼拏罗经.md
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 奉诏入译经院共译众经
-  summary: 随西域三藏入宋参预译经院译大小乘经律
+  person_qid: guji-法贤
+  title_zh: 奉诏入译经院传译显密群经
+  summary_zh: 随天息灾入宋，习汉文，入译经院，奉诏译出数十部经律，位列宋初三大译师
   phases:
   - key: brewing
-    name: 西域学梵随师东来
+    name: 随师西来初入中土
     labels:
-      zh: 酝酿
+      zh: 蕴酿
+    start_date: 0973
+    highlight_event_id: guji-法贤-event-1
+  - key: breakthrough
+    name: 入译经院受诏开译
+    labels:
+      zh: 突破
     start_date: 0980
-    highlight_event_id: guji-法贤-event-980
-  - key: breakthrough
-    name: 奉诏入译经院充译主
-    labels:
-      zh: 突破
-    start_date: 0982
-    highlight_event_id: guji-法贤-event-982
+    highlight_event_id: guji-法贤-event-2
   - key: climax
-    name: 系统译出显密经典
+    name: 加号明教大师译业大盛
     labels:
       zh: 高潮
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-990
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-3
   - key: closure
-    name: 授三藏朝散大夫圆寂
+    name: 示寂咸平译灯付后学
     labels:
       zh: 收束
     start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0982
-    title_zh: 应诏入院共译
-    rationale: 以西域梵学副圣朝崇法之诏正诸方音义
-  - date: 0990
-    title_zh: 详定梵汉存音直译
-    rationale: 咒赞以音声为体宁存梵呗不以意改易
+  - date: 0980
+    title_zh: 应诏专任传译不归天竺
+    rationale: 感宋廷崇法护教，留住中土方能广利汉地众生
+  - date: 0991
+    title_zh: 以直译存梵音兼加汉释
+    rationale: 密咒义重音声，宁存梵式以全加持，复以汉文释其仪轨
 - id: guji-法贤-endeavor-2
-  title_zh: 传译圣金刚手百八名梵赞
-  summary: 译出二十会金刚手百八名梵赞开密教持名法门
+  person_qid: guji-法贤
+  title_zh: 敷演八大曼拏罗持诵仪轨
+  summary_zh: 依补陀落迦山会上所说，译出八大菩萨根本心大明，安立中央佛坛，教人依法受持供养
   phases:
   - key: brewing
-    name: 集金刚手瑜伽诸本
+    name: 咨问曼拏罗受持仪则
     labels:
-      zh: 酝酿
+      zh: 蕴酿
     start_date: 0982
-    highlight_event_id: guji-法贤-event-982
+    highlight_event_id: guji-法贤-event-2
   - key: breakthrough
-    name: 定二十会章句体例
+    name: 译定八菩萨根本大明
     labels:
       zh: 突破
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-990
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-2
   - key: climax
-    name: 译成百八名梵赞流通
+    name: 敷演灭罪成佛功德
     labels:
       zh: 高潮
     start_date: 0990
-    highlight_event_id: guji-法贤-event-990
+    highlight_event_id: guji-法贤-event-3
   - key: closure
-    name: 以赞叹法付嘱后学
+    name: 流通供养速证菩提
     labels:
       zh: 收束
     start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
+  - date: 0985
+    title_zh: 以佛心居中八菩萨围绕立坛
+    rationale: 显佛果为本，菩萨大悲为用，坛式简明易于中土修供
   - date: 0990
-    title_zh: 以二十会分摄百八名
-    rationale: 依梵本会次摄归便于持诵观想次第分明
-  - date: 0990
-    title_zh: 每会结以归命赞叹
-    rationale: 令行人称名即发菩提护持不忘归敬
+    title_zh: 强调持诵灭五逆重罪
+    rationale: 令钝根众生起信受持，以易行道趣入无上胜义
 events:
 - id: guji-法贤-event-birth
-  title_zh: 诞生于天竺乌仗那
+  person_qid: guji-法贤
+  type: birth
+  title_zh: 生于中天竺
   date: 0950
   year_of: 950
-  summary: 约宋初生于天竺精通梵典声明后随师东来
-- id: guji-法贤-event-980
-  title_zh: 随师至中土
-  date: 0980
-  year_of: 980
-  summary: 随西域三藏经由西州抵汴京以善梵呗见知
-- id: guji-法贤-event-982
-  title_zh: 奉诏入译经院
+  location_zh: 中天竺
+  description_zh: 生于中天竺婆罗门家，幼习梵文声明，后从天息灾学显密教法
+- id: guji-法贤-event-1
+  person_qid: guji-法贤
+  type: career
+  title_zh: 随师入宋入译经院
+  date: 0973
+  year_of: 973
+  location_zh: 开封
+  description_zh: 随天息灾东来，宋太宗太平兴国中至开封，习汉文，入译经院任译语
+- id: guji-法贤-event-2
+  person_qid: guji-法贤
+  type: career
+  title_zh: 奉诏译大乘八大曼拏罗经
   date: 0982
   year_of: 982
-  summary: 宋太宗太平兴国中诏入译经院与施护等参译众经
-- id: guji-法贤-event-990
-  title_zh: 译圣金刚手菩萨一百八名梵赞
-  date: 0990
-  year_of: 990
-  summary: 奉诏译出二十会百八名梵赞具载金刚萨埵等异名功德
+  location_zh: 开封译经院
+  description_zh: 奉诏译出此经，宣说宝藏月光请问，佛授八大菩萨根本心大明及曼拏罗供养法
+- id: guji-法贤-event-3
+  person_qid: guji-法贤
+  type: career
+  title_zh: 赐名法贤授明教大师
+  date: 0991
+  year_of: 991
+  location_zh: 开封
+  description_zh: 原名法天，蒙诏赐名法贤，授朝散大夫试光禄卿明教大师，领译经众事
 - id: guji-法贤-event-death
-  title_zh: 圆寂于汴京
+  person_qid: guji-法贤
+  type: death
+  title_zh: 示寂于宋真宗咸平四年
   date: '1001'
   year_of: 1001
-  summary: 宋真宗咸平四年卒赠后谥传译经院三藏法师
+  location_zh: 开封
+  description_zh: 示寂于开封，一生译经数十部，八大曼拏罗法流布中土
