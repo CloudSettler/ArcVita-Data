@@ -1,0 +1,134 @@
+person:
+  qid: guji-义操
+  name_zh: 义操
+  names:
+    zh: 义操
+    en: Yicao
+  lifespan:
+    birth:
+      date: 0780
+      precision: year
+      is_circa: true
+      raw: 唐大历年间约生
+    death:
+      date: 0840
+      precision: year
+      is_circa: true
+      raw: 唐开成前后示寂
+  birth_date: 0780
+  death_date: 0840
+  era: 唐朝
+  reign_ref: 唐德宗至唐文宗
+  archetype: 密教传持僧
+  dilemmas:
+  - title_zh: 梵音存真与汉文传易之两难
+    description_zh: 梵字真言重音声字形，若纯意译则失持诵之效，若只存梵书则后学难入
+  - title_zh: 内供奉职守与传法弘通之两难
+    description_zh: 居青龙寺东塔院供奉，宜谨守坛场，又欲书记流通令军荼利法久住
+  lesson: 以梵书记载存其真，以汉土道场传其用，密法久住在精严不改字声
+  summary_first_person: 吾义操，居大唐青龙寺东塔院，忝为内供奉传法灌顶阿阇梨，以梵书书记千臂军荼利陀罗尼真言，愿字声不谬，持者得护
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E8%87%82%E5%86%9B%E8%8D%BC%E5%88%A9%E6%A2%B5%E5%AD%97%E7%9C%9F%E8%A8%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E8%87%82%E5%86%9B%E8%8D%BC%E5%88%A9%E6%A2%B5%E5%AD%97%E7%9C%9F%E8%A8%80.md
+  - https://cbetaonline.dila.edu.tw/zh/T1213
+endeavors:
+- id: guji-义操-endeavor-1
+  title_zh: 青龙寺东塔院学法受职
+  summary_zh: 入青龙寺东塔院依止学密，习梵书悉昙，受传法灌顶，充内供奉
+  phases:
+  - key: brewing
+    name: 入寺习梵
+    labels:
+      zh: 发心学密
+    start_date: 0795
+    highlight_event_id: guji-义操-event-1
+  - key: breakthrough
+    name: 得传灌顶
+    labels:
+      zh: 受职传法
+    start_date: 0805
+    highlight_event_id: guji-义操-event-1
+  - key: climax
+    name: 供奉东塔院
+    labels:
+      zh: 住持坛场
+    start_date: 0810
+    highlight_event_id: guji-义操-event-1
+  - key: closure
+    name: 位列大阿阇梨
+    labels:
+      zh: 为后学师
+    start_date: 0815
+    highlight_event_id: guji-义操-event-2
+  decisions:
+  - date: 0795
+    title_zh: 依止青龙寺受学
+    rationale: 青龙寺为密教根本道场，欲得梵文真言正传故往依止
+  - date: 0805
+    title_zh: 受传法灌顶居供奉
+    rationale: 既得法已，当住坛场供奉持诵，以续师资相承
+- id: guji-义操-endeavor-2
+  title_zh: 书记千臂军荼利梵字真言
+  summary_zh: 以梵书记录千臂军荼利陀罗尼及真言，标明字种音读，流通后世
+  phases:
+  - key: brewing
+    name: 搜集军荼利法本
+    labels:
+      zh: 集本校雠
+    start_date: 0815
+    highlight_event_id: guji-义操-event-2
+  - key: breakthrough
+    name: 定梵字字形
+    labels:
+      zh: 正字存音
+    start_date: 0820
+    highlight_event_id: guji-义操-event-2
+  - key: climax
+    name: 成梵书记本
+    labels:
+      zh: 书写流通
+    start_date: 0820
+    highlight_event_id: guji-义操-event-2
+  - key: closure
+    name: 付嘱后学持诵
+    labels:
+      zh: 嘱累弘护
+    start_date: 0830
+    highlight_event_id: guji-义操-event-death
+  decisions:
+  - date: 0820
+    title_zh: 径以梵书存真言
+    rationale: 真言以声字为体，意译则失用，故存梵书以全其真
+  - date: 0830
+    title_zh: 署名流通不没所自
+    rationale: 明记青龙寺东塔院传法所出，使后人知承传有据
+events:
+- id: guji-义操-event-birth
+  title_zh: 诞生
+  type: birth
+  date: 0780
+  year_of: 780
+  description_zh: 约生于唐代宗大历年间，后出家学密
+- id: guji-义操-event-1
+  title_zh: 入青龙寺东塔院供奉学法
+  type: career
+  date: 0805
+  year_of: 805
+  endeavor_ref: guji-义操-endeavor-1
+  place_zh: 长安青龙寺东塔院
+  description_zh: 依止青龙寺受密法，受传法灌顶，充内供奉，精习梵书
+- id: guji-义操-event-2
+  title_zh: 书记千臂军荼利梵字真言陀罗尼
+  type: career
+  date: 0820
+  year_of: 820
+  endeavor_ref: guji-义操-endeavor-2
+  place_zh: 长安青龙寺东塔院
+  description_zh: 以梵书书记千臂军荼利真言及陀罗尼，题为大唐青龙寺东塔院内供奉传法灌顶大阿阇梨义操梵书记
+- id: guji-义操-event-death
+  title_zh: 示寂
+  type: death
+  date: 0840
+  year_of: 840
+  place_zh: 长安青龙寺
+  description_zh: 住持传法后示寂，后人称故大阿阇梨，所记梵字真言收入大藏

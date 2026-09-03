@@ -9,129 +9,138 @@ person:
       date: '0637'
       precision: year
       is_circa: false
-      raw: 贞观十一年中天竺
+      raw: 贞观十一年中天竺生
     death:
       date: '0735'
       precision: year
       is_circa: false
-      raw: 开元二十三年长安
+      raw: 开元二十三年洛阳示寂
   birth_date: '0637'
   death_date: '0735'
   era: 唐
   reign_ref: 唐玄宗开元
-  archetype: 密教译经弘法师
+  archetype: 开元三大士密教译经祖师
   dilemmas:
-  - 密法深奥难信须防小乘疑谤如何授受得宜
-  - 梵本浩繁当如何撮要摄入五字令人速证悉地
-  lesson: 以阿鑁览唅欠五字摄五部五藏持诵即破地狱转业障出三界
-  summary_first_person: 我是善无畏中天竺人奉诏入唐译大日经与尊胜心陀罗尼以五字真言开五藏曼荼罗愿持诵者同入总持出离三界
+  - 梵密深广与中土初机之间如何立次第而化导
+  - 持戒护密与奉诏普传之间如何权衡而不违本誓
+  lesson: 依师承次第庄严坛仪，以菩提心摄密行方能自利利他
+  summary_first_person: 我是善无畏，中天竺摩揭陀王族出身，十三岁嗣位让国出家，遍学显密后奉诏入唐，译大日经及千手观音仪轨，愿以造像仪轨次第接引众生入于大悲藏海
   source_urls:
-  - https://daizhige.org/CBETA/T0907.html
-  - https://github.com/daizhige-org/daizhigev20
+  - https://daizhige.org/千手观音造次第法仪轨.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/千手观音造次第法仪轨.md
 endeavors:
 - id: guji-善无畏-endeavor-1
-  title_zh: 入唐译传密教经典
-  description: 开元初奉诏至洛阳长安译大毗卢遮那成佛神变加持经等奠定唐密根本
+  person_id: guji-善无畏
+  title_zh: 入唐弘传胎藏大日密法
+  summary: 让国出家后游学那烂陀，携梵本东来长安洛阳，奉诏译传大日经系密法
   phases:
   - key: brewing
-    name: 中天竺学法
+    name: 王族让国出家求法
     labels:
-      zh: 酝酿
+      zh: 蓄势求法
     start_date: '0637'
     highlight_event_id: guji-善无畏-event-birth
   - key: breakthrough
-    name: 奉诏入唐
+    name: 航海东来抵达长安
     labels:
-      zh: 突破
+      zh: 入唐弘化
     start_date: '0716'
     highlight_event_id: guji-善无畏-event-arrival
   - key: climax
-    name: 译大日经弘瑜伽
+    name: 与一行合译大日经
     labels:
-      zh: 高潮
-    start_date: '0724'
-    highlight_event_id: guji-善无畏-event-translate-dari
+      zh: 译经鼎盛
+    start_date: '0725'
+    highlight_event_id: guji-善无畏-event-dari
   - key: closure
-    name: 化毕示寂
+    name: 洛阳示寂谥大弘教
     labels:
-      zh: 收束
+      zh: 圆寂付嘱
     start_date: '0735'
     highlight_event_id: guji-善无畏-event-death
   decisions:
   - date: '0716'
-    title_zh: 应请东来传密法
-    rationale: 以毗卢遮那付嘱弘大悲胎藏令东土得闻秘密悉地
-  - date: '0724'
-    title_zh: 与一行共译大日经
-    rationale: 采集梵本要妙立理事具足之宗使后学有所依
+    title_zh: 奉诏止于长安兴善寺而未即东归
+    rationale: 感玄宗敬礼及中土渴仰密法，决意留住以成译弘大业
+  - date: '0725'
+    title_zh: 择一行禅师笔受大日经
+    rationale: 一行精天文悉昙兼通道教义理，可调梵华文义使显密相通
 - id: guji-善无畏-endeavor-2
-  title_zh: 传佛顶尊胜心破地狱法
-  description: 译说五字秘密陀罗尼以阿鑁览唅欠配五部五佛五藏令诵者除殃益寿镇国安民
+  person_id: guji-善无畏
+  title_zh: 造述千手观音次第仪轨
+  summary: 依千手千眼观世音大悲心法，制次第仪轨明本尊形色眷属及二十八部众真言
   phases:
   - key: brewing
-    name: 集毗卢遮那金刚顶要妙
+    name: 那烂陀专学观音悲法
     labels:
-      zh: 酝酿
-    start_date: '0724'
-    highlight_event_id: guji-善无畏-event-translate-dari
+      zh: 观音修学
+    start_date: 0680
+    highlight_event_id: guji-善无畏-event-study
   - key: breakthrough
-    name: 说五字五部观
+    name: 奉诏开坛授灌顶
     labels:
-      zh: 突破
-    start_date: '0725'
-    highlight_event_id: guji-善无畏-event-translate-zunsheng
+      zh: 开坛授法
+    start_date: '0716'
+    highlight_event_id: guji-善无畏-event-arrival
   - key: climax
-    name: 立三种悉地成就次第
+    name: 译出千手观音造次第法仪轨
     labels:
-      zh: 高潮
-    start_date: '0725'
-    highlight_event_id: guji-善无畏-event-translate-zunsheng
+      zh: 制仪轨
+    start_date: '0727'
+    highlight_event_id: guji-善无畏-event-qianshou
   - key: closure
-    name: 付嘱护国利民之用
+    name: 付嘱弟子流通供养法
     labels:
-      zh: 收束
+      zh: 流通后世
     start_date: '0735'
     highlight_event_id: guji-善无畏-event-death
   decisions:
-  - date: '0725'
-    title_zh: 以五字摄四十万偈义
-    rationale: 使日诵一遍即同转藏经百万遍下根亦得大益
-  - date: '0725'
-    title_zh: 密付菩萨不妄示小乘
-    rationale: 恐不解运用反生疑谤故简器传授护其善根
+  - date: '0727'
+    title_zh: 以图绘形像先行定尊形眷属次第
+    rationale: 千手大身三部备具，若形色不审则观想难成，故先定黄色正体与五百面及二十八部众位次
+  - date: '0727'
+    title_zh: 具录二十八部众密语并誓句
+    rationale: 欲令持咒者得善神围绕守护，故不舍护世而显大悲普摄之义
 events:
 - id: guji-善无畏-event-birth
-  title_zh: 生于中天竺
+  person_id: guji-善无畏
+  title_zh: 中天竺王族诞生
   date: '0637'
-  year_of: '0637'
-  type: birth
-  place_zh: 中天竺
-  description: 贞观十一年生于中天竺刹帝利种少出家学大小乘兼通密藏
+  year_of: 637
+  place_zh: 中天竺摩揭陀
+  description: 贞观十一年生于王族，十三岁嗣位旋让位叔父出家学道
+- id: guji-善无畏-event-study
+  person_id: guji-善无畏
+  title_zh: 那烂陀从法称等学显密
+  date: 0680
+  year_of: 680
+  place_zh: 那烂陀寺
+  description: 遍学三藏及陀罗尼门，尤精虚空藏求闻持与观音大悲法门
 - id: guji-善无畏-event-arrival
-  title_zh: 开元初抵洛阳奉诏译经
+  person_id: guji-善无畏
+  title_zh: 开元四年抵达长安
   date: '0716'
-  year_of: '0716'
-  type: career
-  place_zh: 洛阳长安
-  description: 开元四年至长安洛阳玄宗礼遇敕于南内译经弘化
-- id: guji-善无畏-event-translate-dari
-  title_zh: 与一行译大毗卢遮那经
-  date: '0724'
-  year_of: '0724'
-  type: career
-  place_zh: 长安大荐福寺
-  description: 与沙门一行等译大日经七卷确立胎藏金刚两部密法宗纲
-- id: guji-善无畏-event-translate-zunsheng
-  title_zh: 译佛顶尊胜心破地狱陀罗尼
+  year_of: 716
+  place_zh: 长安兴善寺
+  description: 携梵本经论至长安，玄宗礼遇敕住兴善南院开始译场
+- id: guji-善无畏-event-dari
+  person_id: guji-善无畏
+  title_zh: 合译大毗卢遮那成佛经
   date: '0725'
-  year_of: '0725'
-  type: career
+  year_of: 725
+  place_zh: 洛阳大福先寺
+  description: 与一行笔受宝月证译，译出大日经为胎藏界根本所依
+- id: guji-善无畏-event-qianshou
+  person_id: guji-善无畏
+  title_zh: 译千手观音造次第法仪轨
+  date: '0727'
+  year_of: 727
   place_zh: 长安
-  description: 奉诏译出五字秘密陀罗尼明五部五佛五藏观及出入秘密三悉地兼示镇国息灾护民之法
+  description: 奉诏译出千手观音正体形色莲台眷属及二十八部众形色密语，建立造像修持次第
 - id: guji-善无畏-event-death
-  title_zh: 开元末示寂于长安
+  person_id: guji-善无畏
+  title_zh: 洛阳大福先寺示寂
   date: '0735'
-  year_of: '0735'
-  type: death
-  place_zh: 长安
-  description: 开元二十三年十月寂于长安年九十九赠鸿胪卿谥大圣国师
+  year_of: 735
+  place_zh: 洛阳大福先寺
+  description: 开元二十三年冬圆寂，寿九十九，谥大弘教三藏，建塔于龙门
