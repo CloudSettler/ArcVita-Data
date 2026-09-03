@@ -1,0 +1,139 @@
+person:
+  qid: guji-范蠡
+  name_zh: 范蠡
+  names:
+    zh: 范蠡
+    en: Fan Li
+  lifespan:
+    birth:
+      date: -350
+      precision: year
+      is_circa: true
+      raw: 约公元前536年
+    death:
+      date: -0448
+      precision: year
+      is_circa: true
+      raw: 约公元前448年
+  birth_date: -350
+  death_date: -0448
+  era: 春秋末期
+  reign_ref: 越王勾践
+  archetype: 谋略隐逸
+  dilemmas:
+  - 持盈待时与急于复仇之抉择
+  - 功成受封与急流勇退之抉择
+  - 治国与经商之道通变
+  lesson: 审时度势，知进退存亡，功成身退而保全
+  summary_first_person: 吾本居楚宛五户之墟，师事计倪而入越。佐越王句践卧薪尝胆，持盈定倾，审阴阳蓄积之要，终灭吴而霸。既成，念盛名难居，遂浮海出齐，变名陶朱公，三致千金而散之，知天道盈亏之理也。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/百越先贤志.md
+  - https://daizhige.org/史藏/传记/百越先贤志.html
+endeavors:
+- id: guji-范蠡-endeavor-1
+  title_zh: 辅越复国灭吴
+  description: 师事计倪，入越为上将军，谏阻轻伐，谋九术以敝吴，终助勾践灭吴称霸
+  phases:
+  - key: brewing
+    name: 入越为将
+    labels:
+      zh: 入越
+    start_date: -0497
+    highlight_event_id: guji-范蠡-event-advise
+  - key: breakthrough
+    name: 持盈定倾
+    labels:
+      zh: 谏阻伐吴
+    start_date: -0494
+    highlight_event_id: guji-范蠡-event-advise
+  - key: climax
+    name: 兴师灭吴
+    labels:
+      zh: 灭吴
+    start_date: -315
+    highlight_event_id: guji-范蠡-event-miewu
+  - key: closure
+    name: 辞荣浮海
+    labels:
+      zh: 辞越
+    start_date: -315
+    highlight_event_id: guji-范蠡-event-retire
+  decisions:
+  - date: -0494
+    title_zh: 三谏待时
+    rationale: 句践即位三问伐吴，审天时人事未至，力谏王姑待之，以持盈定倾之道蓄积国力
+  - date: -315
+    title_zh: 书辞请诛
+    rationale: 吴既灭，知勾践可与共患难不可共安乐，上书请从会稽之诛以试王心，遂决意去越
+- id: guji-范蠡-endeavor-2
+  title_zh: 陶朱经商隐逸
+  description: 浮海出齐，耕于海畔，为相复去，止于陶为陶朱公，治产经商，成天下巨富而散财
+  phases:
+  - key: brewing
+    name: 鸱夷浮海
+    labels:
+      zh: 浮海
+    start_date: -315
+    highlight_event_id: guji-范蠡-event-retire
+  - key: breakthrough
+    name: 耕陶为相
+    labels:
+      zh: 相齐
+    start_date: -312
+    highlight_event_id: guji-范蠡-event-tao
+  - key: climax
+    name: 陶朱治产
+    labels:
+      zh: 致富
+    start_date: -309
+    highlight_event_id: guji-范蠡-event-tao
+  - key: closure
+    name: 散财隐终
+    labels:
+      zh: 隐终
+    start_date: -0448
+    highlight_event_id: guji-范蠡-event-death
+  decisions:
+  - date: -312
+    title_zh: 变名鸱夷子皮
+    rationale: 恐勾践追害，且欲验经世之术于齐鲁，改名易姓，耕于海畔以观时变
+  - date: -309
+    title_zh: 去官止陶
+    rationale: 既为齐相，知久居尊位必罹祸，遂归相印，定居于陶，论计然之术治产，十九年三致千金而再分散
+events:
+- id: guji-范蠡-event-birth
+  title_zh: 生于楚宛
+  date: -350
+  year_of: -350
+  description: 生于楚国宛邑五户之墟，倜傥负俗，时人以为狂，独文种知其贤
+  location: 楚宛
+- id: guji-范蠡-event-advise
+  title_zh: 谏句践持盈待时
+  date: -0494
+  year_of: -0494
+  description: 越王即位三年欲伐吴，三问范蠡，蠡对以持盈定倾与天节地，谏王姑待之，王乃纳其言而蓄积
+  location: 会稽
+- id: guji-范蠡-event-miewu
+  title_zh: 助越灭吴
+  date: -315
+  year_of: -315
+  description: 勾践发习流三千教士四万人伐吴，吴师败，栖吴于姑苏山，范蠡与文种定计灭吴，禽夫差
+  location: 姑苏
+- id: guji-范蠡-event-retire
+  title_zh: 浮海辞越
+  date: -315
+  year_of: -315
+  description: 吴灭后作书辞越王请从会稽之诛，遂装轻宝珠玉乘舟浮海出齐，变姓名为鸱夷子皮
+  location: 会稽
+- id: guji-范蠡-event-tao
+  title_zh: 止陶为陶朱公
+  date: -309
+  year_of: -309
+  description: 间行止于陶，称陶朱公，治产十九年三致千金，以计倪之术审金木水火阴阳，遂为天下巨富
+  location: 陶
+- id: guji-范蠡-event-death
+  title_zh: 逝世
+  date: -0448
+  year_of: -0448
+  description: 越王命工以良金写其状而朝礼之，表会稽三百里为奉邑，后莫知所终，传言终于陶
+  location: 陶
