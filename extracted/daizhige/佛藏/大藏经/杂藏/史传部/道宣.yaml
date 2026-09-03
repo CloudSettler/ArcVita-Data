@@ -6,153 +6,142 @@ person:
     en: Daoxuan
   lifespan:
     birth:
-      date: 0596-01-01
+      date: 0596
       precision: year
       is_circa: false
-      raw: 隋开皇十六年荆州钱塘生
+      raw: 隋開皇十六年丹徒錢氏
     death:
-      date: 0667-10-14
-      precision: year
+      date: '0667-10-25'
+      precision: day
       is_circa: false
-      raw: 唐乾封二年终南山寂
-  birth_date: 0596-01-01
-  death_date: 0667-10-14
+      raw: 唐乾封二年九月圓寂於西明寺
+  birth_date: 0596
+  death_date: '0667-10-25'
   era: 唐
-  reign_ref: 唐贞观至乾封
-  archetype: 律宗祖师与佛教史地志家
+  reign_ref: 唐高宗龍朔
+  archetype: 南山律宗祖師護法史家
   dilemmas:
-  - 西域传录差互真伪难辨而圣迹不可不彰
-  - 持律精严与博涉译场史地如何兼顾
-  lesson: 以律摄心以志证圣核传闻以亲验定中边令后学有据
-  summary_first_person: 吾终南太一山释氏尝参贞观译席见前后西记差互乃撮纲为释迦方志八篇以明封疆统摄中边遗迹游履通局时住所愿圣化可征
+  - 佛道交爭真偽難辨當以史實衡定是非
+  - 戒律陵替宗風不振當以著述住持正法
+  lesson: 以律攝僧以史護法衡定佛道以正視聽
+  summary_first_person: 吾俗姓錢丹徒人也九歲誦經十五出家二十受具從智首學律後居終南弘宣戒律晚住西明實錄佛道論衡以顯正法願後覽者詳焉
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/杂藏/史传部/释迦方志.md
-  - https://daizhige.org/佛藏/大藏经/杂藏/史传部/释迦方志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏經/雜藏/史傳部/集古今佛道論衡.md
 endeavors:
 - id: guji-道宣-endeavor-1
-  person_qid: guji-道宣
-  title_zh: 编撰释迦方志八篇
-  description: 以索诃世界为封疆统摄大千以五义定中边以三道纪遗迹成一代佛教地理总志
+  title_zh: 終南弘律開宗立範
+  summary: 受具後專精四分律居終南創南山律宗著述律疏以範後學
   phases:
   - key: brewing
-    name: 搜集传录
+    name: 少誦經論歸心釋門
     labels:
       zh:
-      - 搜集
-      - 辨伪
-    start_date: 0645-01-01
-    highlight_event_id: guji-道宣-event-canyi
+      - 丹徒
+      - 誦經
+    start_date: '0605'
+    highlight_event_id: guji-道宣-event-birth
   - key: breakthrough
-    name: 参译得实
+    name: 受具習律師事智首
     labels:
       zh:
-      - 参译
-      - 核实
-    start_date: 0646-01-01
-    highlight_event_id: guji-道宣-event-canyi
+      - 受具
+      - 習律
+    start_date: '0616'
+    highlight_event_id: guji-道宣-event-ordination
   - key: climax
-    name: 撮纲成志
+    name: 居終南闡揚戒律
     labels:
       zh:
-      - 撰述
-      - 成书
-    start_date: 0648-01-01
-    highlight_event_id: guji-道宣-event-zhuanzhi
+      - 終南山
+      - 弘律
+    start_date: 0629
+    highlight_event_id: guji-道宣-event-zhongnan
   - key: closure
-    name: 序志贻后
+    name: 律疏垂成範式克定
+    labels:
+      zh:
+      - 律疏
+      - 立宗
+    start_date: '0655'
+    highlight_event_id: guji-道宣-event-zhongnan
+  decisions:
+  - date: '0616'
+    title_zh: 從智首受具專攻四分律
+    rationale: 捨眾藝而守一律以住持為己任故精究毗尼
+  - date: 0629
+    title_zh: 入終南山潛修著述
+    rationale: 避諠就靜以定慧資戒故結茅修撰垂範後昆
+- id: guji-道宣-endeavor-2
+  title_zh: 實錄論衡護法衡道
+  summary: 龍朔元年住西明寺集古今佛道論衡會漢明感夢吳主問教等事以正名教
+  phases:
+  - key: brewing
+    name: 搜覽史傳博考佛道交涉
+    labels:
+      zh:
+      - 史傳
+      - 考證
+    start_date: 0658
+    highlight_event_id: guji-道宣-event-zhongnan
+  - key: breakthrough
+    name: 住西明寺發願編衡
+    labels:
+      zh:
+      - 西明寺
+      - 立綱
+    start_date: '0661'
+    highlight_event_id: guji-道宣-event-lunheng
+  - key: climax
+    name: 集古今事成分甲乙四卷
+    labels:
+      zh:
+      - 論衡
+      - 護法
+    start_date: '0661'
+    highlight_event_id: guji-道宣-event-lunheng
+  - key: closure
+    name: 序成垂訓以俟來哲
     labels:
       zh:
       - 序文
-      - 传授
-    start_date: 0650-01-01
-    highlight_event_id: guji-道宣-event-zhuanzhi
+      - 流通
+    start_date: '0662'
+    highlight_event_id: guji-道宣-event-lunheng
   decisions:
-  - date: 0646-06-01
-    title_zh: 弃繁就纲略为一卷
-    rationale: 纸墨易繁阅镜难尽故撮纲猷以贻后学
-  - date: 0648-03-01
-    title_zh: 以五义定中边
-    rationale: 名里时水人五事可镜故立中天竺为中以正边执
-- id: guji-道宣-endeavor-2
-  person_qid: guji-道宣
-  title_zh: 弘律参译统摄释门
-  description: 居终南弘四分律参贞观元亨译场兼通显密为律宗南山祖
-  phases:
-  - key: brewing
-    name: 出家习律
-    labels:
-      zh:
-      - 出家
-      - 学律
-    start_date: 0615-01-01
-    highlight_event_id: guji-道宣-event-chujia
-  - key: breakthrough
-    name: 入终南精修
-    labels:
-      zh:
-      - 精修
-      - 撰疏
-    start_date: 0629-01-01
-    highlight_event_id: guji-道宣-event-chujia
-  - key: climax
-    name: 参译弘化
-    labels:
-      zh:
-      - 参译
-      - 弘化
-    start_date: 0645-01-01
-    highlight_event_id: guji-道宣-event-canyi
-  - key: closure
-    name: 律藏垂范
-    labels:
-      zh:
-      - 垂范
-      - 付嘱
-    start_date: 0664-01-01
-    highlight_event_id: guji-道宣-event-death
-  decisions:
-  - date: 0629-08-01
-    title_zh: 栖心终南
-    rationale: 终南寂静堪任定慧故结茅弘律以统释门
-  - date: 0645-02-01
-    title_zh: 参预译席傍出西记
-    rationale: 非躬睹不足信故就译场询行人以正方志
+  - date: '0661'
+    title_zh: 於西明寺總會佛道事跡
+    rationale: 以天竺震旦交論寔繫故商確由來銓衡敘列
+  - date: '0661'
+    title_zh: 詳錄漢明吳主曹植孫盛等事
+    rationale: 引漢明角試舍利顯聖吳主建塔等以證佛法靈驗破邪顯正
 events:
 - id: guji-道宣-event-birth
-  person_qid: guji-道宣
-  type: birth
-  date: 0596-01-01
+  title_zh: 誕生於丹徒錢氏
+  date: 0596
   year_of: 596
-  title_zh: 隋开皇十六年生于钱塘
-  description: 俗姓钱氏荆州钱塘人幼慕释门
-- id: guji-道宣-event-chujia
-  person_qid: guji-道宣
-  endeavor_id: guji-道宣-endeavor-2
+  type: birth
+  summary: 隋開皇十六年生於丹徒錢氏幼具圭璋好樂佛典
+- id: guji-道宣-event-ordination
+  title_zh: 受具足戒從智首學律
+  date: '0616'
+  year_of: 616
   type: career
-  date: 0615-03-01
-  year_of: 615
-  title_zh: 出家受具习四分律
-  description: 从智首律师受具研律疏钞渐为律匠
-- id: guji-道宣-event-canyi
-  person_qid: guji-道宣
-  endeavor_id: guji-道宣-endeavor-2
+  summary: 年二十受具足戒師事智首律師專精四分律兼通經論
+- id: guji-道宣-event-zhongnan
+  title_zh: 居終南山弘宣律學
+  date: 0629
+  year_of: 629
   type: career
-  date: 0645-02-01
-  year_of: 645
-  title_zh: 参贞观译经位席询西域方俗
-  description: 玄奘归国译经弘福余尝参席备尽观方见百余国归化
-- id: guji-道宣-event-zhuanzhi
-  person_qid: guji-道宣
-  endeavor_id: guji-道宣-endeavor-1
+  summary: 入終南山結茅修道撰四分律疏及諸律義開南山一宗
+- id: guji-道宣-event-lunheng
+  title_zh: 龍朔元年於西明寺撰論衡序
+  date: '0661'
+  year_of: 661
   type: career
-  date: 0648-05-01
-  year_of: 648
-  title_zh: 撰释迦方志分八篇
-  description: 立封疆统摄中边遗迹游履通局时住教相以定索诃世界与五天中土
+  summary: 唐龍朔元年住京師西明寺實錄集古今佛道論衡序分甲乙凡四卷衡定佛道優劣
 - id: guji-道宣-event-death
-  person_qid: guji-道宣
-  type: death
-  date: 0667-10-14
+  title_zh: 圓寂於西明寺
+  date: '0667-10-25'
   year_of: 667
-  title_zh: 唐乾封二年寂于终南
-  description: 世寿七十余著作垂世律宗由是大兴
+  type: death
+  summary: 唐乾封二年九月圓寂於西明寺世壽七十二戒臘五十餘付囑律範護法之業

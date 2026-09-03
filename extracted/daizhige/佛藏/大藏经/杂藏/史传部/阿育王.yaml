@@ -6,148 +6,132 @@ person:
     en: Ashoka
   lifespan:
     birth:
-      date: '-0304'
+      date: -196
       precision: year
       is_circa: true
-      raw: 约公元前三零四年
+      raw: 约公元前三零四年波吒利弗多城生
     death:
-      date: '-0232'
+      date: -154
       precision: year
       is_circa: true
-      raw: 约公元前二三二年
-  birth_date: '-0304'
-  death_date: '-0232'
-  era: 古印度孔雀王朝
-  reign_ref: 孔雀王朝之王在位约公元前二六八年至前二三二年
-  archetype: 以福德服四海之护法圣王
+      raw: 约公元前二三二年波吒利弗多城崩
+  birth_date: -196
+  death_date: -154
+  era: 孔雀王朝
+  reign_ref: 孔雀王朝阿育王
+  archetype: 由旃陀罗王转法王之护法转轮王
   dilemmas:
-  - 恃千乘万骑而龙王不出当以武力相加还是以福德相感
-  - 称量已知王像轻而龙像重当如何修福以转轻为重
-  lesson: 天下多力无过福德养老济贫护持经法方能使远者来服
-  summary_first_person: 吾统领诸国而海中龙王不至初兴兵耀武而彼寂然不动后从智臣言铸金双像称之自知福薄遂养老济贫兴祠供养三年再称而吾像转重龙王化作少年归附贡献珍宝乃知多力不如多福
+  - 以严刑峻法立威与以慈悲 Schen 恕安民之间如何取舍
+  - 夺嫡杀兄之宿罪如何借皈依建塔以忏除
+  lesson: 幼年以沙施佛发愿为伞地王，知小善遇胜田必得大果，舍暴恶皈三宝，广起舍利塔以利人天
+  summary_first_person: 我本阇耶小儿，以沙捧供世尊发愿为王，父为频头娑罗，母为婆罗门女，名阿输柯意为无忧。初征德叉尸罗得天助，夺嫡登位，严刑号旃陀阿输柯。后于狱中睹海比丘坐火不烧升空现变，方生信悔，皈依三宝，毁狱施无畏，取七塔舍利分八万四千函遍起宝塔，守护佛法，人称法阿育。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%A4%A9%E5%B0%8A%E8%AF%B4%E9%98%BF%E8%82%B2%E7%8E%8B%E8%AD%AC%E5%96%BB%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%A4%A9%E5%B0%8A%E8%AF%B4%E9%98%BF%E8%82%B2%E7%8E%8B%E8%AD%AC%E5%96%BB%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/杂藏/史传部/阿育王经.md
 endeavors:
 - id: guji-阿育王-endeavor-1
-  title_zh: 称像悟福求伏龙王
-  description_zh: 陈兵海边而不见龙出从智臣议铸王像龙像各重二斤称较轻重以知福德厚薄
+  title_zh: 施沙发愿夺嫡平叛统一阎浮提
+  summary_zh: 自前生沙施受记为王，经金殿相嗣、征德叉尸罗显威、群臣拥戴登位诛修私摩而得四分转轮位
   phases:
   - key: brewing
-    name: 耀兵海边
+    name: 沙施受记
     labels:
-      zh:
-      - 千乘万骑
-      - 龙王不出
+      zh: 幼年供佛发愿
+    start_date: -196
+    highlight_event_id: guji-阿育王-event-birth
+  - key: breakthrough
+    name: 金殿相嗣
+    labels:
+      zh: 相师密记当王
+    start_date: -0285
+    highlight_event_id: guji-阿育王-event-taksasila
+  - key: climax
+    name: 征罚德叉尸罗
+    labels:
+      zh: 地开器仗迎王
+    start_date: -187
+    highlight_event_id: guji-阿育王-event-taksasila
+  - key: closure
+    name: 登位定国
+    labels:
+      zh: 天冠自至诛叛臣
     start_date: -0268
-    highlight_event_id: guji-阿育王-event-sea
-  - key: breakthrough
-    name: 双像称较
-    labels:
-      zh:
-      - 铸金为像
-      - 龙重王轻
-    start_date: '-0267'
-    highlight_event_id: guji-阿育王-event-scale
-  - key: climax
-    name: 悟福修德
-    labels:
-      zh:
-      - 福德多少
-      - 心服欢喜
-    start_date: '-0267'
-    highlight_event_id: guji-阿育王-event-scale
-  - key: closure
-    name: 再称转胜
-    labels:
-      zh:
-      - 三年修福
-      - 王重龙轻
-    start_date: '-0264'
-    highlight_event_id: guji-阿育王-event-rescale
+    highlight_event_id: guji-阿育王-event-accession
   decisions:
-  - date: '-0267'
-    title_zh: 采纳智臣铸像称量
-    rationale: 不以兵威相强以金像轻重验福德厚薄方知龙王不服之由
-  - date: '-0267'
-    title_zh: 决意修福以增德重
-    rationale: 既知王像轻于龙像当养老济贫兴祠供养以积累福德待可伏而后动
+  - date: -187
+    title_zh: 无资仗而往征德叉尸罗
+    rationale: 信功德当王则器仗自出，遂感地开得兵甲，以德服人迎入国中
+  - date: -0268
+    title_zh: 东门设机关诛修私摩
+    rationale: 避其锋于北门，诱攻东门火坑机关，以成护之谋定王位，斩轻慢大臣以立威
 - id: guji-阿育王-endeavor-2
-  title_zh: 修福护法致龙归附
-  description_zh: 告天下侍养孤老周济贫乏兴立天尊祠供养舍利众三年德成再至海边受龙王朝贡
+  title_zh: 毁恶狱皈佛广起八万四千塔
+  summary_zh: 因造地狱杀戮无量号旃陀王，睹海比丘火中莲坐现十八变，忏悔皈依，坏狱施无畏，取舍利分函起塔护法
   phases:
   - key: brewing
-    name: 诏养孤老
+    name: 造狱行杀
     labels:
-      zh:
-      - 周穷济乏
-      - 兴立祠宇
-    start_date: '-0267'
-    highlight_event_id: guji-阿育王-event-support
+      zh: 旃陀罗王立威
+    start_date: -181
+    highlight_event_id: guji-阿育王-event-accession
   - key: breakthrough
-    name: 三年供养
+    name: 狱睹神变
     labels:
-      zh:
-      - 供养众僧
-      - 护持经法
-    start_date: '-0266'
-    highlight_event_id: guji-阿育王-event-support
+      zh: 海比丘火中悟道
+    start_date: -176
+    highlight_event_id: guji-阿育王-event-conversion
   - key: climax
-    name: 龙王化现归服
+    name: 忏悔皈依毁狱
     labels:
-      zh:
-      - 少年婆罗门
-      - 贡献珍宝
-    start_date: '-0264'
-    highlight_event_id: guji-阿育王-event-submit
+      zh: 焚狱主施无畏
+    start_date: -176
+    highlight_event_id: guji-阿育王-event-conversion
   - key: closure
-    name: 四海欢喜示后
+    name: 分舍利起塔
     labels:
-      zh:
-      - 率土欢喜
-      - 别载经文
-    start_date: '-0264'
-    highlight_event_id: guji-阿育王-event-submit
+      zh: 一日一念八万四千塔成
+    start_date: -168
+    highlight_event_id: guji-阿育王-event-stupa
   decisions:
-  - date: '-0267'
-    title_zh: 普诏养老济贫兴祠
-    rationale: 以福德感服胜于兵威当以养孤济乏供养舍利广培福基
-  - date: '-0264'
-    title_zh: 重设卤簿再至海边
-    rationale: 像重已转胜于龙时至可伏当以礼致之使海内归附以示后世
+  - date: -176
+    title_zh: 信比丘语毁地狱施无畏
+    rationale: 见镬汤不烂莲坐升空，知杀业如地狱因，遂焚狱主坏狱，满世尊广利之意
+  - date: -168
+    title_zh: 取七塔舍利分函遍起塔
+    rationale: 留罗摩村龙护一塔，其余取分八万四千宝函瓶盖，付夜叉遍大地大海起塔，一日俱成以印阎浮提
 events:
 - id: guji-阿育王-event-birth
-  date: '-0304'
+  title_zh: 生于波吒利弗多城
+  date: -196
   year_of: -304
-  title_zh: 阿育王诞生
-  description_zh: 约公元前三零四年诞生于华氏城为孔雀王朝王族后嗣
-- id: guji-阿育王-event-sea
+  place_zh: 波吒利弗多城王宫
+  description_zh: 频头娑罗王与婆罗门女所生，因生时王无忧故名阿输柯即阿育，体粗涩父不爱，次弟名毗多输柯
+- id: guji-阿育王-event-taksasila
+  title_zh: 征罚德叉尸罗显转轮相
+  date: -187
+  year_of: -273
+  place_zh: 德叉尸罗国
+  description_zh: 奉命无器仗资物而往，自言当王自出，果地开得仗，人民香水洒地迎之，佉师国闻天唱阿育当为四分转轮王不敢逆
+- id: guji-阿育王-event-accession
+  title_zh: 频头娑罗崩阿育登位诛修私摩
   date: -0268
   year_of: -268
-  title_zh: 陈兵海边召龙不出
-  description_zh: 率千乘万骑捶钟鸣鼓至海边呼龙王出而不应智臣言龙福德大故不归服
-- id: guji-阿育王-event-scale
-  date: '-0267'
-  year_of: -267
-  title_zh: 铸双金像称知轻重
-  description_zh: 各铸二斤金为王像龙像称之龙像重而王像轻乃知福德不及龙王
-- id: guji-阿育王-event-support
-  date: '-0266'
-  year_of: -266
-  title_zh: 养老济乏兴祠供养
-  description_zh: 告天下侍养孤老周穷济乏郡县兴立天尊祠置舍利供养历经三年
-- id: guji-阿育王-event-rescale
-  date: '-0264'
-  year_of: -264
-  title_zh: 再称双像王重龙轻
-  description_zh: 三年之后复取双像称之龙像转轻王像转重智臣言龙可伏矣
-- id: guji-阿育王-event-submit
-  date: '-0264'
-  year_of: -264
-  title_zh: 龙王化作少年归附
-  description_zh: 再设卤簿至海边龙王化作年少婆罗门长跪问讯贡献海中珍宝自称臣妾率土欢喜
+  place_zh: 波吒利弗多城东门
+  description_zh: 父病敕还修私摩，大臣涂黄姜示病拥阿育，天冠自至父见嗔崩，阿育登位，成护设东门火坑机关，修私摩攻之堕火死，斩五百轻慢大臣，复烧折花婇女号旃陀阿育
+- id: guji-阿育王-event-conversion
+  title_zh: 狱中睹海比丘神变忏悔皈依
+  date: -176
+  year_of: -260
+  place_zh: 波吒利弗多城地狱门
+  description_zh: 旃陀耆利柯造狱杀无量，商主子海比丘误入，七日精进得阿罗汉，置镬汤中坐莲不烧升空现十八变说佛记百年后阿育起八万四千塔，王合掌忏悔皈依佛法僧
+- id: guji-阿育王-event-stupa
+  title_zh: 取七塔舍利起八万四千塔
+  date: -168
+  year_of: -250
+  place_zh: 头楼那至阎浮提诸国
+  description_zh: 往阿阇世所起头楼那等七塔取舍利，罗摩村龙护留之，分八万四千宝函瓶盖付夜叉，德叉尸罗出金三十六千万两听除输金，一日一念俱成，人称法王
 - id: guji-阿育王-event-death
-  date: '-0232'
+  title_zh: 护法后崩于本国
+  date: -154
   year_of: -232
-  title_zh: 阿育王逝世
-  description_zh: 约公元前二三二年逝世以福德护法之治垂示后世
+  place_zh: 波吒利弗多城
+  description_zh: 起塔已守护佛法，往见优波笈多受教化，法名流布，寿终崩逝

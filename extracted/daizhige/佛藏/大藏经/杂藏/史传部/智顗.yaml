@@ -6,142 +6,162 @@ person:
     en: Zhiyi
   lifespan:
     birth:
-      date: 0538-07-01
-      precision: month
+      date: 0538
+      precision: 年
       is_circa: false
-      raw: 梁大同四年秋七月生于荆州华容
+      raw: 梁大同四年荆州华容诞生
     death:
       date: 0597-11-24
-      precision: day
+      precision: 日
       is_circa: false
-      raw: 隋开皇十七年十一月二十四日卒于天台山大石像前
-  birth_date: 0538-07-01
+      raw: 隋开皇十七年十一月二十四日示寂
+  birth_date: 0538
   death_date: 0597-11-24
   era: 梁陈隋
-  reign_ref: 梁大同至隋开皇
-  archetype: 弘教宗师
+  reign_ref: 隋文帝开皇
+  archetype: 天台开宗弘法高僧
   dilemmas:
-  - 林泽栖隐与王侯屡征之间进退难全
-  - 定慧双开摄众精粗杂处而是非易起
-  lesson: 依一心具万行之圆顿旨以定发慧弘法利生终归林泉
-  summary_first_person: 吾荆州华容陈氏子，十八出家，北学律仪，南投南岳而悟法华三昧，梦兆入天台，金陵讲论，扬州授晋王戒，玉泉建寺，终老台岳石像之前
+  - 深山自修与入世化导之间何去何从
+  - 帝王礼遇宠辱当前如何安守戒范
+  - 徒众多而得法少如何不负传灯付嘱
+  lesson: 以止观双修悲智双运随缘化导安忍不退方能绍隆佛种普利群生
+  summary_first_person: 吾俗姓陈名智顗字德安荆州华容人也少厌家狱誓作沙门北面慧思悟法华三昧弘法金陵八载复入天台开山建寺赎簄放生化导帝王蒙号智者毕生以止观传灯为己任也
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E4%B9%9D%E7%A5%96%E4%BC%A0.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E4%B9%9D%E7%A5%96%E4%BC%A0.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E6%9D%82%E8%97%8F/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E9%9A%8B%E5%A4%A9%E5%8F%B0%E6%99%BA%E8%80%85%E5%A4%A7%E5%B8%88%E5%88%AB%E4%BC%A0.html
+  - https://tripitaka.cbeta.org/T50n2050_001
 endeavors:
 - id: guji-智顗-endeavor-1
-  title_zh: 南岳承师悟法华三昧
-  summary: 年十八投果愿寺出家北诣慧旷学律后投大苏山慧思受心观诵药王品至是真精进处豁然开悟蒙印为义儿
+  title_zh: 师事慧思悟道弘法江南
+  summary_zh: 十八出家访慧思于大苏山悟法华三昧代讲受付嘱后至金陵瓦官弘法八载折伏群彦
   phases:
   - key: brewing
-    name: 果愿出家北度学律
+    name: 荆湘发愿出家求法
     labels:
-      zh: 出家求律
-    start_date: 0555-01-01
-    highlight_event_id: guji-智顗-event-ordination
+      zh:
+      - 发愿
+      - 出家
+    start_date: 362
+    highlight_event_id: guji-智顗-event-chujia
   - key: breakthrough
-    name: 大苏谒思诵经开悟
+    name: 大苏亲承悟法华三昧
     labels:
-      zh: 法华开悟
-    start_date: 0560-01-01
-    highlight_event_id: guji-智顗-event-nanyue-awakening
+      zh:
+      - 师承
+      - 证悟
+    start_date: 368
+    highlight_event_id: guji-智顗-event-dasu
   - key: climax
-    name: 代讲蒙印名闻遐迩
+    name: 金陵瓦官纵辩弘经
     labels:
-      zh: 师资印可
-    start_date: 0561-01-01
-    highlight_event_id: guji-智顗-event-nanyue-awakening
-  - key: closure
-    name: 辞师赴陈弘缘南国
-    labels:
-      zh: 南下弘缘
-    start_date: 0563-01-01
+      zh:
+      - 弘法
+      - 折伏
+    start_date: 0569
     highlight_event_id: guji-智顗-event-jinling
+  - key: closure
+    name: 辞众入天避喧求静
+    labels:
+      zh:
+      - 引退
+      - 入山
+    start_date: 0575-09-01
+    highlight_event_id: guji-智顗-event-tiantai
   decisions:
-  - date: 0556-01-01
-    title_zh: 舍慧旷而投南岳慧思
-    rationale: 横经已蒙指诲欲求心观正法故南往大苏受法华行法
-  - date: 0563-01-01
-    title_zh: 辞思南下赴陈国缘
-    rationale: 思言汝于陈国有缘往必利益故离山诣金陵弘化
+  - date: 366
+    title_zh: 投果愿寺出家受具
+    rationale: 感家国无常为报恩酬德谋道为先故从兄求去依止法绪慧旷学律诵经
+  - date: 368
+    title_zh: 越境往大苏山拜慧思
+    rationale: 仰慕南岳禅慧轻生重法涉险求诀得普贤道场四安乐行而证悟
+  - date: 0569
+    title_zh: 应请至金陵瓦官弘法
+    rationale: 奉南岳付嘱传灯化物不作断种人故就仁义渊薮弘法华智论调御大众
 - id: guji-智顗-endeavor-2
-  title_zh: 天台开山化导王侯
-  summary: 梦岩崖沧海僧挽上山遂率徒南征隐沦天台陈主七使征入讲智论金陵败后游荆湘隋晋王请授菩萨戒建玉泉一音寺终归台岳示寂
+  title_zh: 开山天台化导帝王立宗
+  summary_zh: 入天台建寺赎簄放生造国清玉泉受陈隋两代帝王归依传菩萨戒终成天台一宗
   phases:
   - key: brewing
-    name: 梦兆南征隐沦台岳
+    name: 游历天台卜居佛陇
     labels:
-      zh: 开山栖隐
-    start_date: 0575-01-01
+      zh:
+      - 入山
+      - 卜居
+    start_date: 0575-09-01
     highlight_event_id: guji-智顗-event-tiantai
   - key: breakthrough
-    name: 应征金陵讲智论
+    name: 头陀降魔悟一实谛
     labels:
-      zh: 建康弘法
-    start_date: 0568-01-01
-    highlight_event_id: guji-智顗-event-jinling
+      zh:
+      - 头陀
+      - 开悟
+    start_date: 382
+    highlight_event_id: guji-智顗-event-tiantai
   - key: climax
-    name: 扬州授戒玉泉建寺
+    name: 受晋王请授菩萨戒号智者
     labels:
-      zh: 王侯受戒
+      zh:
+      - 传戒
+      - 护国
     start_date: 0591-11-23
-    highlight_event_id: guji-智顗-event-yangzhou-precept
+    highlight_event_id: guji-智顗-event-shoujie
   - key: closure
-    name: 归岳行忏端坐示寂
+    name: 立玉泉弘止观示寂
     labels:
-      zh: 台岳圆寂
-    start_date: 0597-01-01
+      zh:
+      - 立寺
+      - 圆寂
+    start_date: 0593
     highlight_event_id: guji-智顗-event-death
   decisions:
-  - date: 0575-01-01
-    title_zh: 因梦率众入天台山
-    rationale: 梦岩崖万重沧海泓澄僧挽上山门人谓是天台故挟道南征以遂林泽之志
+  - date: 0575-09-01
+    title_zh: 定居天台佛陇建寺
+    rationale: 闻地记仙宫可息缘展平生之愿兼梦符昔相故创伽蓝引流绕砌安众修禅
+  - date: 0578
+    title_zh: 舍衣赎簄永为放生池
+    rationale: 悯渔捕滥杀水陆俱悲故运普悲赎梁舍施导合境改恶从善并请敕禁捕
   - date: 0591-11-23
-    title_zh: 扬州会中为晋王授菩萨戒后拂衣还山
-    rationale: 先有明约事无两违王命虽重不违故林故授戒即返渚宫玉泉以全道业
-  - date: 0597-01-01
-    title_zh: 立誓限余年归台终老
-    rationale: 若于三宝有益当限此余年若徒生愿速从化故更行金光明忏而卒于石像前
+    title_zh: 赴晋王请授菩萨戒
+    rationale: 以传灯报恩兼护国土虽三辞陈四愿自保终许总持而称智者回施悲敬田
 events:
 - id: guji-智顗-event-birth
-  title_zh: 诞生荆州华容
-  date: 0538-07-01
+  title_zh: 荆州华容诞生
+  date: 0538
   year_of: 538
-  place_zh: 荆州华容县
-  description: 梁大同四年秋七月生母梦香烟五彩及吞白鼠室内洞明二僧扣门言儿德所重必出家邻呼王道光道
-- id: guji-智顗-event-ordination
-  title_zh: 湘州出家北学律仪
-  date: 0555-01-01
-  year_of: 555
+  place_zh: 荆州华容
+  description: 梁大同四年母梦香烟五彩吞白鼠而诞夜现神光眼有重瞳小名王道光道
+- id: guji-智顗-event-chujia
+  title_zh: 长沙发愿湘州出家
+  date: 366
+  year_of: 556
   place_zh: 湘州果愿寺
-  description: 年十八投法绪出家授十戒道品后北诣慧旷律师横经具蒙指诲
-- id: guji-智顗-event-nanyue-awakening
-  title_zh: 大苏谒思悟法华三昧
-  date: 0560-01-01
+  description: 年十五值国破流徙于长沙像前发弘愿誓作沙门年十八投法绪出家受具诵三经修方等忏
+- id: guji-智顗-event-dasu
+  title_zh: 大苏山拜慧思证悟
+  date: 368
   year_of: 560
   place_zh: 光州大苏山
-  description: 从南岳慧思受业心观行法华三昧诵至药王品是真精进句解悟便发见灵鹫听法蒙思印可令代讲
+  description: 亲承慧思示普贤道场说四安乐行诵药王品豁然入法华三昧得初旋陀罗尼代讲受付嘱
 - id: guji-智顗-event-jinling
-  title_zh: 诣金陵讲智论
-  date: 0568-01-01
-  year_of: 568
-  place_zh: 建康太极殿东堂
-  description: 辞思赴陈绵历八周陈少主降敕七使征入迎入东堂请讲智论语默之际每思林泽
+  title_zh: 金陵瓦官开法折众
+  date: 0569
+  year_of: 569
+  place_zh: 金陵瓦官寺
+  description: 讲智论禅门折慧荣法朗等难徐陵沈君理归敬停瓦官八载调御大众南北弘风为盛
 - id: guji-智顗-event-tiantai
-  title_zh: 梦兆南征隐沦天台
-  date: 0575-01-01
+  title_zh: 入天台建寺放生
+  date: 0575-09-01
   year_of: 575
-  place_zh: 天台山
-  description: 梦岩崖万重云日半垂沧海泓澄僧挽上山与慧辩等二十余人南征隐沦斯岳
-- id: guji-智顗-event-yangzhou-precept
-  title_zh: 扬州授晋王菩萨戒建玉泉
+  place_zh: 天台佛陇
+  description: 太建七年秋入天台宿定光庵创伽蓝如梦华顶头陀降魔悟一实谛赎簄为放生池建国清
+- id: guji-智顗-event-shoujie
+  title_zh: 授晋王杨广菩萨戒
   date: 0591-11-23
   year_of: 591
-  place_zh: 扬州总管金城千僧会及荆州玉泉山
-  description: 开皇十一年十一月二十三日设千僧会为晋王授戒后上渚宫于当阳玉泉建一音寺著净名疏行金光明忏愈萧妃疾
+  place_zh: 扬州总管金城殿
+  description: 开皇十一年应晋王请设千僧会授孝名制止戒王号大师为智者回施檀嚫资国
 - id: guji-智顗-event-death
-  title_zh: 端坐示寂大石像前
+  title_zh: 荆州玉泉示寂
   date: 0597-11-24
   year_of: 597
-  place_zh: 天台山大石像前
-  description: 旋归台岳躬率禅门行忏立誓诫众默然而化春秋六十有七即开皇十七年十一月二十四日居山蕈感随采随出
+  place_zh: 荆州玉泉寺
+  description: 立玉泉一音弘止观化导不息开皇十七年十一月二十四日端坐示寂天台宗成
