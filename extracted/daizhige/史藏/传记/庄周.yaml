@@ -1,0 +1,105 @@
+person:
+  qid: guji-庄周
+  name_zh: 庄周
+  names:
+    zh: 庄周
+    en: Zhuang Zhou
+  lifespan:
+    birth:
+      date: -0369
+      precision: year
+      is_circa: true
+      raw: 战国宋国蒙地约前369年
+    death:
+      date: -0286
+      precision: year
+      is_circa: true
+      raw: 约前286年终老于蒙
+  birth_date: -0369
+  death_date: -0286
+  era: 战国
+  reign_ref: 魏惠王至魏安釐王时期
+  archetype: 隐逸贫士
+  dilemmas:
+  - 守贫全真与厚禄养身之抉择
+  - 逍遥无为与入仕经世之抉择
+  lesson: 宁守贫贱以全真性，不以利禄易操，知足逍遥而远祸
+  summary_first_person: 吾庄周宋之蒙人也，家贫往贷粟于监河侯，耻受三百金之夸许，以鲋鱼斗升之喻明志，愿为泥中曳尾之龟不为庙堂之牺，隐于漆园著内外篇以明逍遥齐物之道，终身不仕而全其真。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E8%B4%AB%E5%A3%AB%E4%BC%A0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E8%B4%AB%E5%A3%AB%E4%BC%A0.html
+endeavors:
+- id: guji-庄周-endeavor-1
+  title_zh: 贷粟守贫以喻明志
+  description: 家贫往贷于监河侯，不受三百金之许，以车辙鲋鱼需斗升之水为喻，见贫士不苟得之节
+  phases:
+  - key: brewing
+    name: 家贫贷粟
+    labels:
+      zh: 困贫
+    start_date: '-0310'
+    highlight_event_id: guji-庄周-event-lend
+  - key: climax
+    name: 忿辞夸金
+    labels:
+      zh: 守节
+    start_date: '-0310'
+    highlight_event_id: guji-庄周-event-lend
+  decisions:
+  - date: '-0310'
+    title_zh: 以鲋鱼之喻拒监河侯三百金
+    rationale: 斗升之水可活，夸许难济急，耻因贫而受侈诺以全贫士之操
+- id: guji-庄周-endeavor-2
+  title_zh: 隐居著书辞聘不仕
+  description: 隐于漆园，辞诸侯之聘，著内外篇阐逍遥齐物之道，终身不仕
+  phases:
+  - key: breakthrough
+    name: 漆园吏隐
+    labels:
+      zh: 隐逸
+    start_date: '-0300'
+    highlight_event_id: guji-庄周-event-refuse
+  - key: closure
+    name: 著书终老
+    labels:
+      zh: 著述
+    start_date: -0295
+    highlight_event_id: guji-庄周-event-author
+  decisions:
+  - date: -0318
+    title_zh: 辞楚威王千金聘相愿曳尾泥中
+    rationale: 庙堂牺牲虽荣不如泥中曳尾之乐，不以爵禄易真性
+  - date: -0295
+    title_zh: 著内外篇明道不求显达
+    rationale: 以文载道，养生全真，贫而乐道胜于富而累形
+events:
+- id: guji-庄周-event-birth
+  title_zh: 出生于宋之蒙
+  date: -0369
+  year_of: -0369
+  description: 庄周生于宋国蒙地，战国时人
+  era: 战国
+- id: guji-庄周-event-lend
+  title_zh: 贷粟监河侯以鲋鱼为喻
+  date: '-0310'
+  year_of: '-0310'
+  description: 家贫往贷粟于监河侯，侯许以三百金，庄周忿然以车辙鲋鱼需斗升之水为喻而辞其夸许
+  era: 战国
+- id: guji-庄周-event-refuse
+  title_zh: 辞楚聘愿为泥中曳尾之龟
+  date: -0318
+  year_of: -0318
+  description: 楚威王遣使持千金聘为相，庄周喻以庙堂牺牲与泥中之龟，固辞不就
+  era: 战国
+- id: guji-庄周-event-author
+  title_zh: 隐居漆园著内外篇
+  date: -0295
+  year_of: -0295
+  description: 隐于漆园不仕，著书内外篇阐逍遥齐物之道
+  era: 战国
+- id: guji-庄周-event-death
+  title_zh: 卒于蒙
+  date: -0286
+  year_of: -0286
+  description: 终身不仕，贫而著书，卒于宋蒙
+  era: 战国
