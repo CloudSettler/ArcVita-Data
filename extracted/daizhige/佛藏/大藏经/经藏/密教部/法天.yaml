@@ -9,143 +9,126 @@ person:
       date: 0930
       precision: year
       is_circa: true
-      raw: 约五代初生于西天中印度
+      raw: 约生于中印度摩伽陀国那烂陀寺一带
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒于开封
+      raw: 北宋咸平四年示寂
   birth_date: 0930
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译经弘法者
+  reign_ref: 宋太祖至宋真宗太平兴国咸平年间
+  archetype: 西天译经三藏法师
   dilemmas:
-  - 梵汉悬隔而欲兼顾信达雅正
-  - 宿曜恼害众生而欲以密法拥护
-  lesson: 慈愍为怀依法译持令众无灾满愿
-  summary_first_person: 吾自西天来华奉诏译经说圣曜母陀罗尼以阏伽供养星曜令持诵者富贵长寿所愿如意
+  - 梵汉悬隔奉诏传译当如何取信求真
+  - 陀罗尼音义难双全当如何令众生持诵得益
+  lesson: 志心书写受持供养无量寿陀罗尼则增寿免夭速证菩提
+  summary_first_person: 我本那烂陀传教沙门，奉诏入华译经，愿以无量寿决定光明王如来陀罗尼流布阎浮，令短命众生皆得长寿安乐。
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E6%9B%9C%E6%AF%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E6%9B%9C%E6%AF%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://www.cbeta.org/result/T0937.htm
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说大乘圣无量寿决定光明王如来陀罗尼经.html
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏入院译经显密兼弘
-  summary: 自西天至开封入译经院与施护等共译显密经论授朝散大夫试鸿胪卿传教大师
+  title_zh: 那烂陀传教入宋奉诏
+  summary: 于那烂陀寺习学显密后随兄法贤东来入宋奉诏为传教大师三藏
   phases:
   - key: brewing
-    name: 西天发心远涉来华
+    name: 西天习学
     labels:
-      zh: 发心西来
+      zh:
+      - 习学
+    start_date: 0930
+    highlight_event_id: guji-法天-event-birth
+  - key: breakthrough
+    name: 东来入华
+    labels:
+      zh:
+      - 入华
     start_date: 0973
     highlight_event_id: guji-法天-event-arrival
-  - key: breakthrough
-    name: 入译经院试译得授
-    labels:
-      zh: 初译授职
-    start_date: 0980
-    highlight_event_id: guji-法天-event-translate-start
   - key: climax
-    name: 奉诏译出圣曜母经
+    name: 奉诏传译
     labels:
-      zh: 译经高峰
-    start_date: 0983
-    highlight_event_id: guji-法天-event-shengyaomu
+      zh:
+      - 奉诏
+    start_date: 0982
+    highlight_event_id: guji-法天-event-translate
   - key: closure
-    name: 加号传教大师圆满
+    name: 赐紫弘护
     labels:
-      zh: 锡号圆成
-    start_date: 0991
-    highlight_event_id: guji-法天-event-honor
+      zh:
+      - 弘护
+    start_date: 0990
+    highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0980
-    title_zh: 应诏入译经院专事传译
-    rationale: 感宋廷崇法护教故舍乡入院以译经利生为己任
-  - date: 0983
-    title_zh: 先译宿曜供养及圣曜母咒
-    rationale: 悯众生为恶曜恼害故先出拥护息灾之法令得安乐
+  - date: 0973
+    title_zh: 随众入宋
+    rationale: 慕中土护法奉诏译经之缘携梵本东来以续传教慧命
+  - date: 0982
+    title_zh: 就译经院任职
+    rationale: 依朝廷制度集众参详以求信达令梵义不失持验有效
 - id: guji-法天-endeavor-2
-  title_zh: 弘传星曜拥护息灾满愿
-  summary: 依金刚手启请之缘传九曜真言与圣曜母陀罗尼教以香水曼拏罗阏伽供养持诵之法
+  title_zh: 译传无量寿决定光明王如来陀罗尼经
+  summary: 于舍卫国祇园法会缘起译出无量寿决定光明王如来名号陀罗尼及增寿功德
   phases:
   - key: brewing
-    name: 金刚手启请宿曜恼害
+    name: 披览梵本
     labels:
-      zh: 启请缘起
-    start_date: 0983
-    highlight_event_id: guji-法天-event-shengyaomu
+      zh:
+      - 披览
+    start_date: 0982
+    highlight_event_id: guji-法天-event-arrival
   - key: breakthrough
-    name: 佛说九曜真言供养法
+    name: 定名译咒
     labels:
-      zh: 说咒立法
-    start_date: 0983
-    highlight_event_id: guji-法天-event-shengyaomu
-  - key: climax
-    name: 宣说圣曜母陀罗尼满愿
-    labels:
-      zh: 母咒满愿
-    start_date: 0983
-    highlight_event_id: guji-法天-event-shengyaomu
-  - key: closure
-    name: 宿曜欢喜受持隐没护世
-    labels:
-      zh: 护世流通
+      zh:
+      - 译咒
     start_date: 0984
-    highlight_event_id: guji-法天-event-circulation
+    highlight_event_id: guji-法天-event-translate
+  - key: climax
+    name: 演说功德
+    labels:
+      zh:
+      - 演说
+    start_date: 0984
+    highlight_event_id: guji-法天-event-translate
+  - key: closure
+    name: 流通供养
+    labels:
+      zh:
+      - 流通
+    start_date: 0985
+    highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0983
-    title_zh: 以阏伽音乐供养恶曜令欢喜
-    rationale: 若供养加持令欢喜则灭除诸恶转害为护故立供养仪
   - date: 0984
-    title_zh: 教以八月斋戒诵持得长寿法
-    rationale: 为满长寿宿命智愿故制期限持诵仪轨令凡众可修可证
+    title_zh: 以音译存真言
+    rationale: 陀罗尼以音声为用故存梵音令称念一百八遍即增寿命
+  - date: 0984
+    title_zh: 详陈书写供养功德
+    rationale: 愍念阎浮人寿百岁多造业中夭故劝书写读诵安置高楼殿堂以延寿往生
 events:
 - id: guji-法天-event-birth
-  title_zh: 生于西天中印度
-  type: birth
+  title_zh: 生于摩伽陀国
   date: 0930
   year_of: 930
-  place_zh: 西天中印度摩揭陀
-  summary: 约五代初生于中印度习梵文声明及密教仪轨
+  place_zh: 中印度摩伽陀国那烂陀寺一带
+  description: 约生于摩伽陀国，后于那烂陀寺出家，习学显密经论，得传教大师之号。
 - id: guji-法天-event-arrival
-  title_zh: 随众来华至开封
-  type: career
+  title_zh: 入宋奉诏为三藏
   date: 0973
   year_of: 973
-  place_zh: 开封
-  summary: 宋初与天息灾等至中原宋廷置译经院以礼延请
-- id: guji-法天-event-translate-start
-  title_zh: 入译经院开始传译
-  type: career
-  date: 0980
-  year_of: 980
   place_zh: 开封译经院
-  summary: 宋太宗太平兴国年间入译经院同施护等参译显密经论
-- id: guji-法天-event-shengyaomu
-  title_zh: 译出佛说圣曜母陀罗尼经
-  type: career
-  date: 0983
-  year_of: 983
-  place_zh: 开封译经院
-  summary: 奉诏译出此经具载九曜真言曼拏罗供养及圣曜母陀罗尼持诵满愿之法
-- id: guji-法天-event-honor
-  title_zh: 授传教大师朝散大夫
-  type: career
-  date: 0991
-  year_of: 991
-  place_zh: 开封
-  summary: 以译经功授西天译经三藏朝散大夫试鸿胪卿传教大师
-- id: guji-法天-event-circulation
-  title_zh: 圣曜母法流通护世
-  type: career
+  description: 随法贤等入宋，奉宋太祖太宗诏入译经院，赐紫沙门，参译显密诸经。
+- id: guji-法天-event-translate
+  title_zh: 译出无量寿决定光明王如来陀罗尼经
   date: 0984
   year_of: 984
-  place_zh: 开封
-  summary: 教苾刍尼优婆塞夷以阏伽供养日日持诵宿曜欢喜拥护有情
+  place_zh: 开封太平兴国寺译经院
+  description: 译说世尊在舍卫国祇树给孤独园为妙吉祥说无量功德藏世界无量寿决定光明王如来一百八名陀罗尼，劝书写受持称念以增寿满百岁往生佛刹。
 - id: guji-法天-event-death
-  title_zh: 卒于开封
-  type: death
+  title_zh: 咸平四年示寂
   date: '1001'
   year_of: 1001
   place_zh: 开封
-  summary: 宋真宗咸平四年示寂于开封译业圆满后学追慕刊行其译本
+  description: 北宋咸平四年示寂，一生译经弘密，所传无量寿陀罗尼广行阎浮，令短命众生得长寿利益。
