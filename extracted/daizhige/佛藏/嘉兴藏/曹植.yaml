@@ -1,0 +1,104 @@
+person:
+  qid: guji-曹植
+  name_zh: 曹植
+  names:
+    zh: 曹植
+    en: Cao Zhi
+  lifespan:
+    birth:
+      date: '0192-01-01'
+      precision: year
+      is_circa: false
+      raw: 汉中平六年生于谯
+    death:
+      date: '0232-06-27'
+      precision: day
+      is_circa: false
+      raw: 魏太和六年五月薨于东阿
+  birth_date: '0192-01-01'
+  death_date: '0232-06-27'
+  era: 三国曹魏
+  reign_ref: 魏文帝黄初至明帝太和
+  archetype: 文章宗匠
+  dilemmas:
+  - 储位之争失意与寄情文章自全之抉择
+  - 慕求至道与辨斥仙道虚妄之求真
+  lesson: 身处患难不废学，以诗文梵呗传至道之宗极
+  summary_first_person: 吾乃子建，武帝第四子，自幼精通书艺，好读佛经，每有会心辄留连嗟叹，以为至道宗极，后游渔山闻梵响而制呗，又著论辨仙道之妄，虽困于世，愿以文声利世
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/嘉兴藏/解惑篇.md
+  - https://daizhige.org/佛藏/嘉兴藏/解惑篇.html
+endeavors:
+- id: guji-曹植-endeavor-1
+  title_zh: 渔山听梵创呗
+  summary: 游渔山闻空中梵天之响，清飏哀婉，仿其声作梵呗，垂为法事渔山梵
+  phases:
+  - key: brewing
+    name: 游渔山闻梵响
+    labels:
+      zh:
+      - 游历
+      - 听梵
+    start_date: '0222-01-01'
+    highlight_event_id: guji-曹植-event-yushan
+  - key: climax
+    name: 仿梵声制呗传世
+    labels:
+      zh:
+      - 梵呗
+      - 创作
+    start_date: '0222-06-01'
+    highlight_event_id: guji-曹植-event-yushan
+  decisions:
+  - date: '0222-06-01'
+    title_zh: 仿梵音作渔山呗
+    rationale: 以佛经为至道宗极，欲以梵声助弘法化
+- id: guji-曹植-endeavor-2
+  title_zh: 精研佛典辨道论
+  summary: 精读佛经嗟玩不已，著辩道论斥仙道虚妄，明至道之归
+  phases:
+  - key: brewing
+    name: 博览佛经嗟玩
+    labels:
+      zh:
+      - 读经
+      - 研义
+    start_date: '0220-01-01'
+    highlight_event_id: guji-曹植-event-biandao
+  - key: breakthrough
+    name: 著辩道论斥妄
+    labels:
+      zh:
+      - 著论
+      - 辨伪
+    start_date: '0225-01-01'
+    highlight_event_id: guji-曹植-event-biandao
+  decisions:
+  - date: '0225-01-01'
+    title_zh: 著辩道论言仙道虚妄
+    rationale: 见世人惑于神仙长生之术，故引至道以正其惑
+events:
+- id: guji-曹植-event-birth
+  title_zh: 出生于谯
+  date: '0192-01-01'
+  year_of: 192
+  place_zh: 谯县
+  summary: 汉中平六年生，为武帝第四子，字子建
+- id: guji-曹植-event-yushan
+  title_zh: 游渔山制梵呗
+  date: '0222-01-01'
+  year_of: 222
+  place_zh: 渔山
+  summary: 游渔山闻空中梵响，清飏哀婉，因仿其声写为梵呗，今法事有渔山梵即其余奏
+- id: guji-曹植-event-biandao
+  title_zh: 著辩道论
+  date: '0225-01-01'
+  year_of: 225
+  place_zh: 洛阳
+  summary: 精通书艺，尝读佛经以为至道宗极，著辩道论言仙道虚妄
+- id: guji-曹植-event-death
+  title_zh: 薨于东阿
+  date: '0232-06-27'
+  year_of: 232
+  place_zh: 东阿
+  summary: 魏太和六年五月薨，谥曰思，后世称为陈思王
