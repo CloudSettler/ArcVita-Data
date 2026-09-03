@@ -6,129 +6,132 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 生年未详约十世纪中叶生于乌苌国
+      raw: 约十世纪中叶生于北印度
     death:
-      date: '1017'
+      date: 1017-01-01
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒于开封
-  birth_date: 0950
-  death_date: '1017'
+      raw: 宋天禧元年卒于开封
+  birth_date: 0950-01-01
+  death_date: 1017-01-01
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗天禧
-  archetype: 译经弘法者
+  archetype: 西天译经三藏法师
   dilemmas:
-  - title_zh: 梵咒音义与华言晓畅如何两全
-    description: 宁舍文饰务存咒音令持诵护身之力不失复使义理可晓
-  - title_zh: 异域孤僧奉中朝诏命何以自处
-    description: 安住译经院数十年以传法利生为任始终精勤奉诏不怠
-  lesson: 以译经为护生之业跨越语言山海令慈悲守护遍及后世
-  summary_first_person: 我是施护本出西域奉诏入宋译经数十年译出圣庄严陀罗尼经愿以佛陀慈氏梵王及诸天龙所说守护之力护罗睺罗及未来一切众生昼夜安隐远离罗刹鬼神刀杖毒药之难
+  - 梵本密咒音韵难传当如何以汉字系音存其神验又令华人可诵持
+  - 奉诏译经当直存梵义还是广陈功德流通以令谤佛造罪者亦得利益
+  lesson: 以不空悲愿为怀译传流通即是普利片言咒句亦不空过
+  summary_first_person: 我是施护本北印度人入宋充西天译经三藏奉诏译经我于补陀落迦会上缘起中译出圣观自在菩萨不空王秘密心陀罗尼具陈二十功德八善相种种法用但愿闻者罪灭病除临终安隐随愿往生
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%BA%84%E4%B8%A5%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%BA%84%E4%B8%A5%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E8%A7%82%E8%87%AA%E5%9C%A8%E8%8F%A9%E8%90%A8%E4%B8%8D%E7%A9%BA%E7%8E%8B%E7%A7%98%E5%AF%86%E5%BF%83%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://tripitaka.cbeta.org/T10n1099_001
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入华奉诏入译经院译经
-  summary: 自乌苌来华入开封译经院与天息灾法天等共译显密经论数十年不辍
+  title_zh: 奉诏入宋译场译经
+  description: 随法天法贤入华太平兴国中充译经三藏久住开封译场译出显密众经数十部
   phases:
   - key: brewing
-    name: 西来发心
+    name: 西天习学初发中土
     labels:
-      zh: 初发译愿
-    start_date: 0980
+      zh: 通梵华言
+    start_date: 0980-01-01
     highlight_event_id: guji-施护-event-arrive
   - key: breakthrough
-    name: 初入译场
+    name: 充译经三藏预奉诏译场
     labels:
-      zh: 奉诏开译
-    start_date: 0982
-    highlight_event_id: guji-施护-event-arrive
+      zh: 入译场试译
+    start_date: 0983-01-01
+    highlight_event_id: guji-施护-event-translate
   - key: climax
-    name: 群经并译
+    name: 赐紫加号传法大师专译密教
     labels:
-      zh: 译业鼎盛
-    start_date: 0990
-    highlight_event_id: guji-施护-event-shengzhuangyan
+      zh: 赐紫弘传
+    start_date: 0991-01-01
+    highlight_event_id: guji-施护-event-honor
   - key: closure
-    name: 译绩垂成
+    name: 译业圆满示寂开封
     labels:
-      zh: 功成传法
-    start_date: '1010'
-    highlight_event_id: guji-施护-event-late
+      zh: 圆寂译席
+    start_date: 1017-01-01
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0980
-    title_zh: 应诏东来入宋
-    rationale: 为传佛法不辞险远愿入中土译场令正法流通
-  - date: 0982
-    title_zh: 安住译场专事传译
-    rationale: 以译经利生为己任持戒精勤校量梵汉务令信达
+  - date: 0980-01-01
+    title_zh: 应诏留宋专任译经
+    rationale: 以译场为道场留华传梵可利多人故舍归国而就译席
+  - date: 0983-01-01
+    title_zh: 音译密咒兼存义译
+    rationale: 密咒以声为体直译失验故以汉字系梵音存其神用复以华言释其功德
 - id: guji-施护-endeavor-2
-  title_zh: 译弘圣庄严陀罗尼护世利生
-  summary: 译出佛说圣庄严陀罗尼经述佛在无忧树园为护罗睺罗及未来众生说咒兼记慈氏梵王天龙鬼神各说自明之事
+  title_zh: 译弘不空王秘密心陀罗尼
+  description: 于补陀落迦会上缘起译出圣观自在不空王秘密心具陈持诵结界治病拥护国界本尊成就等法
   phases:
   - key: brewing
-    name: 睹众生怖
+    name: 得梵本发愿流通秘密心
     labels:
-      zh: 缘起护念
-    start_date: 0998
-    highlight_event_id: guji-施护-event-shengzhuangyan
+      zh: 得本发心
+    start_date: 0995-01-01
+    highlight_event_id: guji-施护-event-translate
   - key: breakthrough
-    name: 正译庄严
+    name: 译出长咒大小心等章句
     labels:
-      zh: 定本开译
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-shengzhuangyan
+      zh: 译出咒心
+    start_date: 1000-01-01
+    highlight_event_id: guji-施护-event-translate
   - key: climax
-    name: 诸天说咒
+    name: 广说二十功德八善相诸法用
     labels:
-      zh: 群明护世
-    start_date: '1001'
-    highlight_event_id: guji-施护-event-shengzhuangyan
+      zh: 阐扬功德法用
+    start_date: 1000-06-01
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 流通拥护
+    name: 流通后世白衣傍生皆得闻持
     labels:
-      zh: 持诵流通
-    start_date: '1005'
-    highlight_event_id: guji-施护-event-late
+      zh: 普劝流通
+    start_date: 1005-01-01
+    highlight_event_id: guji-施护-event-honor
   decisions:
-  - date: '1000'
-    title_zh: 详译大庄严与结界二咒
-    rationale: 令众生书戴持诵可于十由旬内远离罗刹鬼神刀杖毒药之害
-  - date: '1001'
-    title_zh: 具存慈氏梵王诸天自明
-    rationale: 存诸众护世本愿令后世行人随缘持念皆蒙拥护昼夜安隐
+  - date: 1000-01-01
+    title_zh: 具译结界治病护国诸法用
+    rationale: 末世众生多病多障多诤故不舍世间事业悉译沉香灰水线结护摩成就之法令得现益
+  - date: 1000-06-01
+    title_zh: 许谄诳白衣傍生亦得闻持
+    rationale: 不空悲愿普门示现轻笑戏闻亦熏善根故开听受书写读诵不简根性
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌苌国
-  date: 0950
+  title_zh: 生于北印度
+  date: 0950-01-01
   year_of: 950
-  place_zh: 乌苌国
-  description: 生年未详约十世纪中叶生于西域乌苌后习梵典精通显密
+  is_circa: true
+  place_zh: 北印度乌填曩国
+  description: 约十世纪中叶生于北印度婆罗门种少习五明通梵典密教
 - id: guji-施护-event-arrive
-  title_zh: 入宋就译经院
-  date: 0980
+  title_zh: 随兄入宋至开封
+  date: 0980-01-01
   year_of: 980
-  place_zh: 开封译经院
-  description: 太平兴国中自西天来华授朝散大夫试鸿胪少卿传法大师奉诏译经
-- id: guji-施护-event-shengzhuangyan
-  title_zh: 译出圣庄严陀罗尼经
-  date: '1000'
+  is_circa: true
+  place_zh: 开封
+  description: 宋太平兴国五年随兄法天至中土通华言入译经院习译
+- id: guji-施护-event-translate
+  title_zh: 译出圣观自在不空王秘密心陀罗尼经
+  date: 1000-01-01
   year_of: 1000
+  is_circa: true
   place_zh: 开封译经院
-  description: 奉诏译出佛说圣庄严陀罗尼经上下二卷记佛为罗睺罗及未来众生说大庄严陀罗尼及结界法并诸天护世诸明
-- id: guji-施护-event-late
-  title_zh: 晚年续译群经
-  date: '1010'
-  year_of: 1010
+  description: 奉诏译此经明补陀落迦会上观自在陈说不空王秘密心大心小心心中心等章句及二十功德八善相治病结界护国本尊成就法
+- id: guji-施护-event-honor
+  title_zh: 赐紫授传法大师试光禄卿
+  date: 1005-01-01
+  year_of: 1005
+  is_circa: true
   place_zh: 开封
-  description: 晚年续译显密经轨弘传持诵结界曼拏罗供养之法饶益众生
+  description: 以译经功赐紫衣授西天译经三藏朝奉大夫试光禄卿传法大师赐紫施护等奉诏译经
 - id: guji-施护-event-death
-  title_zh: 卒于开封
-  date: '1017'
+  title_zh: 卒于开封译席
+  date: 1017-01-01
   year_of: 1017
+  is_circa: false
   place_zh: 开封
-  description: 宋真宗天禧元年卒译业垂于后世所译圣庄严陀罗尼经流行护世
+  description: 宋真宗天禧元年示寂译业既终众经流通后世奉行
