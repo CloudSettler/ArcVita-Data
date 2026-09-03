@@ -1,0 +1,126 @@
+person:
+  qid: guji-宝唱
+  name_zh: 宝唱
+  names:
+    zh: 宝唱
+    en: Baochang
+  lifespan:
+    birth:
+      date: 304
+      precision: year
+      is_circa: true
+      raw: 生年失载约梁初前后
+    death:
+      date: 336
+      precision: year
+      is_circa: true
+      raw: 天监末年后卒
+  birth_date: 304
+  death_date: 336
+  era: 南北朝梁
+  reign_ref: 梁武帝天监七年至十五年
+  archetype: 类书编纂型高僧
+  dilemmas:
+  - 文句浩漫难究全藏与辞略意晓令览者易了之衡
+  - 象正浸末信乐渐衰与显证深文控会神宗之任
+  lesson: 散偈流章以类相从，钻求者可不劳而博，显证深文以启信乐
+  summary_first_person: 吾宝唱为梁沙门，奉武帝敕与僧旻僧豪法生等博综经籍，择采秘要，以类相从，成经律异相五十卷并目录，冀将来学者易了深文
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/杂藏/事汇部/经律异相.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/杂藏/事汇部/经律异相.md
+endeavors:
+- id: guji-宝唱-endeavor-1
+  title_zh: 奉敕钞经律要事成经律异相
+  summary: 以天监十五年敕为始，博综众经律，择采秘要异相，以类相从，分五十卷五秩
+  phases:
+  - key: brewing
+    name: 奉敕发端
+    labels:
+      zh: 酝酿受命
+    start_date: 334
+    highlight_event_id: guji-宝唱-event-516
+  - key: breakthrough
+    name: 博综择采
+    labels:
+      zh: 突破搜集
+    start_date: 334
+    highlight_event_id: guji-宝唱-event-516
+  - key: climax
+    name: 以类相从编成五十卷
+    labels:
+      zh: 高潮成书
+    start_date: 334
+    highlight_event_id: guji-宝唱-event-516
+  - key: closure
+    name: 目录五卷五秩告成
+    labels:
+      zh: 收束传学
+    start_date: 335
+    highlight_event_id: guji-宝唱-event-516
+  decisions:
+  - date: 334
+    title_zh: 皆使以类相从
+    rationale: 文句浩漫鲜能该洽，分类则览者易了，希有异相得以标显
+  - date: 334
+    title_zh: 会僧豪法生相助检读
+    rationale: 众典浩繁需博古旁采，取则成规上询神虑，方能辞略意晓
+- id: guji-宝唱-endeavor-2
+  title_zh: 参预备钞众典显证深文
+  summary: 天监七年敕僧旻等备钞众典，宝唱与僧旻同集，控会神宗，为后日异相之基
+  phases:
+  - key: brewing
+    name: 天监七年敕钞众典
+    labels:
+      zh: 酝酿协集
+    start_date: 0508
+    highlight_event_id: guji-宝唱-event-508
+  - key: breakthrough
+    name: 显证深文控会神宗
+    labels:
+      zh: 突破会通
+    start_date: 0508
+    highlight_event_id: guji-宝唱-event-508
+  - key: climax
+    name: 钻求者得太半之益
+    labels:
+      zh: 高潮利学
+    start_date: 328
+    highlight_event_id: guji-宝唱-event-508
+  - key: closure
+    name: 转入异相别钞
+    labels:
+      zh: 收束转进
+    start_date: 334
+    highlight_event_id: guji-宝唱-event-516
+  decisions:
+  - date: 0508
+    title_zh: 与僧旻同集会通三藏
+    rationale: 九部杂言未加区集，三藏奥典虽略周而难究，故备钞以显证
+  - date: 334
+    title_zh: 别出异相秘说标显
+    rationale: 但希有异相犹散众篇，难闻秘说未加标显，故另钞要事成帙
+events:
+- id: guji-宝唱-event-birth
+  date: 304
+  year_of: 460
+  title_zh: 出生
+  description: 生年失载，约梁初前后出家为沙门，博通经律
+  type: birth
+- id: guji-宝唱-event-508
+  date: 0508
+  year_of: 508
+  title_zh: 天监七年参钞众典
+  description: 梁武帝以天监七年敕僧旻等备钞众典，宝唱与僧旻同集，显证深文控会神宗
+  type: career
+- id: guji-宝唱-event-516
+  date: 334
+  year_of: 516
+  title_zh: 天监十五年成经律异相五十卷
+  description: 奉敕钞经律要事以类相从，与新安寺僧豪兴皇寺法生相助检读，成五十卷目录五卷分五秩名经律异相
+  type: career
+- id: guji-宝唱-event-death
+  date: 336
+  year_of: 520
+  title_zh: 示寂
+  description: 经律异相成后不久示寂，学者得不劳而博
+  type: death
