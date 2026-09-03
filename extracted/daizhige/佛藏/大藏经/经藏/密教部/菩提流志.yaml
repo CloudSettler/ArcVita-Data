@@ -6,149 +6,127 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: '0571'
+      date: '0572'
       precision: year
       is_circa: true
-      raw: 约隋开皇十一年生于南天竺
+      raw: 相传隋开皇十二年生于南天竺
     death:
       date: '0727'
       precision: year
       is_circa: false
-      raw: 唐开元十五年卒于洛阳
-  birth_date: '0571'
+      raw: 唐开元十五年卒于长安
+  birth_date: '0572'
   death_date: '0727'
   era: 唐
-  reign_ref: 武周长寿二年至唐玄宗开元十五年
-  archetype: 译经三藏
+  reign_ref: 唐高宗至唐玄宗
+  archetype: 西来译经弘法者
   dilemmas:
-  - 梵音密咒不可译与汉地信众求解义理之两难
-  - 持戒精严与随顺国王诏命广译流通之两难
-  lesson: 以译经持咒利生为业不以名位为怀则能久远流通
-  summary_first_person: 我是菩提流志南天竺人奉诏入唐译大宝积及五佛顶诸经愿以顶轮王密法护持汉地有情得安乐趣菩提
+  - 外域沙门如何取信唐廷并主持译场令梵汉契合
+  - 显密兼弘之际如何以戒行摄持神咒而不堕幻术利养
+  lesson: 以菩提心为印宗统群经持戒护心方能令密咒成悲智之用
+  summary_first_person: 我本南天竺沙门奉诏来唐敬顺唐言译出佛心大随求等陀罗尼愿以心中心慈悲摄尽苦难众生同归菩提
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/五佛頂三昧陀羅尼經.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/五佛頂三昧陀羅尼經.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E5%BF%83%E7%BB%8F%E5%93%81%E4%BA%A6%E9%80%9A%E5%A4%A7%E9%9A%8F%E6%B1%82%E9%99%80%E7%BD%97%E5%B0%BC.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E5%BF%83%E7%BB%8F%E5%93%81%E4%BA%A6%E9%80%9A%E5%A4%A7%E9%9A%8F%E6%B1%82%E9%99%80%E7%BD%97%E5%B0%BC.html
 endeavors:
 - id: guji-菩提流志-endeavor-1
-  title_zh: 奉诏译五佛顶三昧陀罗尼经
-  summary_zh: 于洛阳译出一字顶轮王白伞盖等五顶王咒及画像坛法弘扬密部顶法
+  title_zh: 奉诏西来主持译场
+  summary: 自南天竺至长安奉诏译出宝雨华严等大部弘传大乘
   phases:
   - key: brewing
-    name: 入唐受诏
+    name: 南天竺出家习学
     labels:
-      zh:
-      - 入唐
-      - 受诏
+      zh: 蕴育本行
+    start_date: '0572'
+    highlight_event_id: guji-菩提流志-event-birth
+  - key: breakthrough
+    name: 仪凤入唐得礼遇
+    labels:
+      zh: 入唐转机
+    start_date: '0673'
+    highlight_event_id: guji-菩提流志-event-arrive
+  - key: climax
+    name: 长安译场大译群经
+    labels:
+      zh: 译经高峰
     start_date: 0693
-    highlight_event_id: guji-菩提流志-event-arrival
-  - key: breakthrough
-    name: 开译顶轮王品
-    labels:
-      zh:
-      - 开译
-      - 密咒
-    start_date: '0703'
-    highlight_event_id: guji-菩提流志-event-wufoding-start
-  - key: climax
-    name: 五顶咒义成
-    labels:
-      zh:
-      - 五顶成就
-      - 流通
-    start_date: '0706'
-    highlight_event_id: guji-菩提流志-event-wufoding-done
+    highlight_event_id: guji-菩提流志-event-translate
   - key: closure
-    name: 画像坛法付嘱
+    name: 开元示寂付嘱后学
     labels:
-      zh:
-      - 画像法
-      - 付嘱
-    start_date: '0707'
-    highlight_event_id: guji-菩提流志-event-wufoding-done
-  decisions:
-  - date: '0703'
-    title_zh: 先诵佛眼后诵轮王之次第立制
-    rationale: 为抑光聚等咒威猛坏他咒力故立先后持诵仪则令学者得安隐
-  - date: '0706'
-    title_zh: 以雄黄书咒佩带流通
-    rationale: 为令国王军旅男女未解梵行者亦得护持故许书写佩顶臂流通
-- id: guji-菩提流志-endeavor-2
-  title_zh: 主译大宝积经等大部显密经论
-  summary_zh: 会同译场译出大宝积经大部及不空羂索等观音密法奠定唐密译经基础
-  phases:
-  - key: brewing
-    name: 结集译场
-    labels:
-      zh:
-      - 译场
-      - 集众
-    start_date: '0706'
-    highlight_event_id: guji-菩提流志-event-wufoding-done
-  - key: breakthrough
-    name: 大宝积会集
-    labels:
-      zh:
-      - 大宝积
-      - 会译
-    start_date: '0711'
-    highlight_event_id: guji-菩提流志-event-dabaoji
-  - key: climax
-    name: 百余卷进呈
-    labels:
-      zh:
-      - 进经
-      - 弘护
-    start_date: '0713'
-    highlight_event_id: guji-菩提流志-event-dabaoji
-  - key: closure
-    name: 洛阳示寂付法
-    labels:
-      zh:
-      - 示寂
-      - 付法
+      zh: 圆寂付嘱
     start_date: '0727'
     highlight_event_id: guji-菩提流志-event-death
   decisions:
-  - date: '0711'
-    title_zh: 会众译分品合大部
-    rationale: 为摄旧译散品成百二十卷完璧故集众分译校勘会归一藏
-  - date: '0713'
-    title_zh: 显密兼译不偏废
-    rationale: 为令大乘菩萨行愿与陀罗尼门相资故兼译宝积显教与羂索密教
+  - date: '0673'
+    title_zh: 应诏东来长安
+    rationale: 为顺唐土弘法因缘不辞海陆艰辛西来传法
+  - date: 0693
+    title_zh: 开场众译分工传译
+    rationale: 以信达为本设证义笔受等职令梵汉契合流通无碍
+- id: guji-菩提流志-endeavor-2
+  title_zh: 传持佛心中心密法
+  summary: 译传佛心经品大随求陀罗尼开示十持心戒与诸印契以慈心三昧救摄众生
+  phases:
+  - key: brewing
+    name: 观察末世悲愿酝酿
+    labels:
+      zh: 悲心酝酿
+    start_date: '0700'
+    highlight_event_id: guji-菩提流志-event-translate
+  - key: breakthrough
+    name: 宣说心中心陀罗尼
+    labels:
+      zh: 密法突破
+    start_date: '0706'
+    highlight_event_id: guji-菩提流志-event-preach
+  - key: climax
+    name: 十持印契广摄群机
+    labels:
+      zh: 摄化高峰
+    start_date: '0710'
+    highlight_event_id: guji-菩提流志-event-preach
+  - key: closure
+    name: 诫嘱秘重勿传非人
+    labels:
+      zh: 慎重付嘱
+    start_date: '0727'
+    highlight_event_id: guji-菩提流志-event-death
+  decisions:
+  - date: '0706'
+    title_zh: 以菩提心契护大众而说咒
+    rationale: 先令大众心不动再说一切佛心中心咒显即心即佛之义
+  - date: '0710'
+    title_zh: 立十种持为修持先行
+    rationale: 以持心持戒断恶为本防以神通利养滥用密印故重戒轻验
 events:
 - id: guji-菩提流志-event-birth
   title_zh: 生于南天竺
-  date: '0571'
-  year_of: 571
-  place_zh: 南天竺
-  description: 相传生于南天竺婆罗门族幼习五明通三藏 later 年高德劭发愿东来弘法
-- id: guji-菩提流志-event-arrival
-  title_zh: 长寿二年至洛阳受请入译
+  date: '0572'
+  year_of: 572
+  place_zh: 南天竺国
+  summary: 相传生于南天竺幼年出家精通三藏兼习陀罗尼门
+- id: guji-菩提流志-event-arrive
+  title_zh: 仪凤年间抵达长安
+  date: '0673'
+  year_of: 673
+  place_zh: 长安
+  summary: 奉诏入唐礼遇优厚于慈恩等寺参译经务渐主持译场
+- id: guji-菩提流志-event-translate
+  title_zh: 长安大译群经
   date: 0693
   year_of: 693
-  place_zh: 神都洛阳
-  description: 武周长寿二年抵洛阳奉敕住三阳宫等处开译场与实叉难陀等同译华严等经
-- id: guji-菩提流志-event-wufoding-start
-  title_zh: 开译五佛顶三昧陀罗尼经
-  date: '0703'
-  year_of: 703
-  place_zh: 洛阳佛授记寺译场
-  description: 奉诏译五佛顶王陀罗尼宣说一字顶轮王白伞盖光聚高顶胜顶五咒及佛眼母咒
-- id: guji-菩提流志-event-wufoding-done
-  title_zh: 五佛顶经成并授画像坛法
+  place_zh: 长安大荐福寺
+  summary: 与义净等共译宝雨经华严文殊授记等数十部凡百余卷
+- id: guji-菩提流志-event-preach
+  title_zh: 译传佛心经品大随求陀罗尼
   date: '0706'
   year_of: 706
-  place_zh: 长安洛阳两京
-  description: 译成三卷演画像法菩提树下轮王五顶围绕普贤弥勒观音金刚密迹等圣众庄严流通
-- id: guji-菩提流志-event-dabaoji
-  title_zh: 主译大宝积经毕进呈
-  date: '0713'
-  year_of: 713
   place_zh: 长安
-  description: 与众译就大宝积经百二十卷及宝雨等经进呈朝廷声名大振为一代译主
+  summary: 奉诏译出佛心经品宣说心中心咒十种持法与诸印契摄化四众
 - id: guji-菩提流志-event-death
-  title_zh: 开元十五年卒于洛阳
+  title_zh: 开元十五年示寂
   date: '0727'
   year_of: 727
-  place_zh: 洛阳
-  description: 开元十五年示寂于洛阳寿极高葬礼隆敕谥开府仪同三司鸿胪卿门徒奉舍利建塔供养
+  place_zh: 长安
+  summary: 以高寿示寂于长安门人建塔追谥译业弘传不绝
