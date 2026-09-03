@@ -1,0 +1,151 @@
+person:
+  qid: guji-高启
+  name_zh: 高启
+  names:
+    zh: 高启
+    en: Gao Qi
+  lifespan:
+    birth:
+      date: '1336'
+      precision: year
+      is_circa: false
+      raw: 元至元二年，生于长洲
+    death:
+      date: '1374'
+      precision: year
+      is_circa: false
+      raw: 洪武七年，年三十有九
+  birth_date: '1336'
+  death_date: '1374'
+  era: 明初
+  reign_ref: 明太祖洪武
+  archetype: poet_recluse
+  dilemmas:
+  - 才名显达与全身远祸之两难
+  - 出仕效用与隐居保节之抉择
+  lesson: 恃才矜名易以文贾祸，辞荣知止方能保节而传诗
+  summary_first_person: 余长洲人也，少以诗为饶介所称，遂隐青丘以自全。洪武初以史事被征，辞户部侍郎而归，终以魏观案牵连而卒，唯遗诗文在耳。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/续吴先贤赞.md
+  - https://daizhige.org/史藏/传记/续吴先贤赞.html
+  - ctp:wb147587
+endeavors:
+- id: guji-高启-endeavor-1
+  title_zh: 青丘诗学与吴中四杰之名
+  summary: 少负诗名，师事饶介而不附伪吴，隐居青丘授徒著述，与杨基张羽徐贲并称吴中四杰，开明初诗风沈淡精理之体
+  phases:
+  - key: brewing
+    name: 少时颍敏以诗见知
+    labels:
+      zh: 少负诗名
+    start_date: '1350'
+    highlight_event_id: guji-高启-event-meet-raojie
+  - key: breakthrough
+    name: 去伪吴隐青丘
+    labels:
+      zh: 青丘隐居
+    start_date: '1356'
+    highlight_event_id: guji-高启-event-reclusion
+  - key: climax
+    name: 诗名冠吴中列四杰
+    labels:
+      zh: 诗名大著
+    start_date: '1365'
+    highlight_event_id: guji-高启-event-fame
+  - key: closure
+    name: 鸣凫诸集传世
+    labels:
+      zh: 遗集传世
+    start_date: '1374'
+    highlight_event_id: guji-高启-event-death
+  decisions:
+  - date: '1356'
+    title_zh: 辞饶介厚意而去伪吴
+    rationale: 不欲以文学附割据之主，恐失节而累名，遂去之隐青丘以全素志
+  - date: '1360'
+    title_zh: 闭门著述不求显达
+    rationale: 以诗自适，精研沈淡桥举之体，欲以文章续前修而非以干禄
+- id: guji-高启-endeavor-2
+  title_zh: 洪武史馆征召与辞官归隐
+  summary: 洪武初以史才被征预修元史，授官教胄子，面授户部侍郎以不习吏事力辞，赐金归里，后为苏州知府魏观所累而得祸
+  phases:
+  - key: brewing
+    name: 洪武征召预修史事
+    labels:
+      zh: 史馆被征
+    start_date: '1368'
+    highlight_event_id: guji-高启-event-historiography
+  - key: breakthrough
+    name: 教胄子授侍郎力辞
+    labels:
+      zh: 辞官不受
+    start_date: '1369'
+    highlight_event_id: guji-高启-event-decline-office
+  - key: climax
+    name: 赐金归吴优游乡里
+    labels:
+      zh: 赐金归隐
+    start_date: '1370'
+    highlight_event_id: guji-高启-event-return
+  - key: closure
+    name: 坐魏观案牵连而卒
+    labels:
+      zh: 文字贾祸
+    start_date: '1374'
+    highlight_event_id: guji-高启-event-death
+  decisions:
+  - date: '1369'
+    title_zh: 力辞户部侍郎之授
+    rationale: 自以孤远不谙金谷钱谷重务，骤当寄任恐负国恩，且欲守拙以远权
+  - date: '1370'
+    title_zh: 受赐归而亲近魏观
+    rationale: 重魏观为宗臣安集吴中之礼遇，优游往还，遂以连坐见法而不悔
+events:
+- id: guji-高启-event-birth
+  title_zh: 生于长洲
+  date: '1336'
+  place: 长洲
+  description: 高启生于长洲，少颖敏，日能诵千言，以诗为时所称
+  event_type: birth
+- id: guji-高启-event-meet-raojie
+  title_zh: 少时为饶介所称
+  date: '1355'
+  place: 平江
+  description: 少时以诗为饶介所称，介在伪吴间喜文学，垂意甚厚
+  event_type: career
+- id: guji-高启-event-reclusion
+  title_zh: 去伪吴隐居青丘
+  date: '1356'
+  place: 青丘
+  description: 辞饶介厚意，去伪吴而隐青丘，闭门授徒著述，自号青丘子
+  event_type: career
+- id: guji-高启-event-historiography
+  title_zh: 洪武初以史事召预修元史
+  date: '1368'
+  place: 南京
+  description: 洪武初以史才被征，预执简修史，复命教胄子于国学
+  event_type: career
+- id: guji-高启-event-decline-office
+  title_zh: 面授户部侍郎力辞
+  date: '1369'
+  place: 南京
+  description: 上忽令与谢徽同对，面授户部侍郎，以不谙吏事且金谷重任力辞得罢，赐金遣归
+  event_type: career
+- id: guji-高启-event-fame
+  title_zh: 与杨基张羽徐贲并称四杰
+  date: '1370'
+  place: 苏州
+  description: 与杨基张羽徐贲同以诗名，时称吴中四杰，诗风沈淡精理加藻采，弘于前勋
+  event_type: career
+- id: guji-高启-event-return
+  title_zh: 归里与魏观相优礼
+  date: '1371'
+  place: 苏州
+  description: 归里后魏观为苏州守，相优礼甚厚，往来酬唱
+  event_type: career
+- id: guji-高启-event-death
+  title_zh: 坐魏观案卒年三十九
+  date: '1374'
+  place: 苏州
+  description: 魏观得罪，高启遂并坐，年三十有九卒，所著有鸣凫等集传世
+  event_type: death

@@ -1,0 +1,160 @@
+person:
+  qid: guji-常德
+  name_zh: 常德
+  names:
+    zh: 常德
+    en: Chang De
+  lifespan:
+    birth:
+      date: '1220'
+      precision: year
+      is_circa: true
+      raw: 约1220年
+    death:
+      date: '1280'
+      precision: year
+      is_circa: true
+      raw: 约1280年
+  birth_date: '1220'
+  death_date: '1280'
+  era: 元代
+  reign_ref: 元宪宗蒙哥
+  archetype: 奉使行人
+  dilemmas:
+  - 奉诏驰驿万里，欲据实直录异域见闻，又恐传闻失考而误后世地理
+  - 身处锡里库西征军中，既欲宣扬王师拓境之功，又不忍隐没所见民生疾苦与攻城屠戮之实
+  lesson: 万里亲历胜于坐考故籍，据实记录道里风物方能为后世考信西域
+  summary_first_person: 余常德，字仁卿，宪宗己未正月奉诏自和林驰驿西觐，随锡里库王师西行万五千里，出乌逊经瀚海、罕穆纳河、巴实伯里、伊玛、博啰、阿里玛图，历萨兰、塔实干、木剌夷穆锡山城，闻见布达、天房、密实勒及印毒诸国，往返凡十四月，归以所见口授刘郁成篇，冀存道里之实以备稽考。
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E8%A5%BF%E4%BD%BF%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E8%A5%BF%E4%BD%BF%E8%AE%B0.md
+  - https://ctext.org/library.pl?if=gb&file=128525
+endeavors:
+- id: guji-常德-endeavor-1
+  title_zh: 奉诏西觐万里道里考察
+  description: 己未正月奉宪宗命自和林驰驿西行，穿越瀚海诸河，历访西域三十余城，亲至锡里库军前，记录山川、城郭、风俗、物产与军政
+  phases:
+  - key: brewing
+    name: 受命筹行
+    labels:
+      zh: 受命
+    start_date: '1258-12-01'
+    highlight_event_id: guji-常德-event-departure
+  - key: breakthrough
+    name: 横渡瀚海大河
+    labels:
+      zh: 跋涉
+    start_date: '1259-02-01'
+    highlight_event_id: guji-常德-event-hanhai
+  - key: climax
+    name: 深入穆锡山城观攻伐
+    labels:
+      zh: 深入
+    start_date: '1259-03-29'
+    highlight_event_id: guji-常德-event-mushi
+  - key: closure
+    name: 抵行在述命而还
+    labels:
+      zh: 归述
+    start_date: '1259-07-01'
+    highlight_event_id: guji-常德-event-buda
+  decisions:
+  - date: '1259-01-31'
+    title_zh: 决计自和林出乌逊取道西北
+    rationale: 避循故道，欲验瀚海金山实地与汉民屯戍之状，直趋锡里库行在
+  - date: '1259-03-14'
+    title_zh: 随军观穆锡山城攻伐并详记刺客之俗
+    rationale: 木剌夷据险称霸四十年，剖析其蛊惑死士之术可为后鉴，不可略而不书
+  - date: '1259-04-10'
+    title_zh: 博采布达天房密实勒诸国传闻兼收物产药材
+    rationale: 西极诸国富庶悬绝，所产药物珠宝与中外典籍可相参证，宜广记以备考
+- id: guji-常德-endeavor-2
+  title_zh: 口授见闻成《西使记》以传后世
+  description: 西行归来将十四月见闻口授于真定刘郁，由刘郁笔录成《西使记》一卷，后为王恽收入玉堂杂记，至清代收入四库全书存录
+  phases:
+  - key: brewing
+    name: 归朝记忆整理
+    labels:
+      zh: 整理
+    start_date: '1260-01-01'
+    highlight_event_id: guji-常德-event-return
+  - key: breakthrough
+    name: 口授刘郁笔录
+    labels:
+      zh: 笔录
+    start_date: '1260-03-01'
+    highlight_event_id: guji-常德-event-dictation
+  - key: climax
+    name: 西使记传抄显行
+    labels:
+      zh: 显行
+    start_date: '1265-01-01'
+    highlight_event_id: guji-常德-event-dictation
+  - key: closure
+    name: 四库提要存录
+    labels:
+      zh: 存录
+    start_date: '1781-09-01'
+    highlight_event_id: guji-常德-event-return
+  decisions:
+  - date: '1260-03-01'
+    title_zh: 择刘郁据实笔录不加考证
+    rationale: 但据亲历见闻直书，存地理风俗之真，以待后人考证古今异同
+  - date: '1264-03-01'
+    title_zh: 允王恽转录以广流传
+    rationale: 玉堂杂记多藏掌故，藉其传抄可使西域道里不湮于时
+events:
+- id: guji-常德-event-birth
+  title_zh: 出生
+  date: '1220'
+  year_of: '1220'
+  description: 约1220年生，字仁卿，元代奉使行人
+  place: 和林路一带
+- id: guji-常德-event-departure
+  title_zh: 驰驿西觐自和林启行
+  date: '1259-01-31'
+  year_of: '1259'
+  description: 己未正月甲子奉诏驰驿西觐，自和林出乌逊中西北行二百余里入瀚海，开启十四月西行
+  place: 和林
+- id: guji-常德-event-hanhai
+  title_zh: 过瀚海渡罕穆纳河
+  date: '1259-02-10'
+  year_of: '1259'
+  description: 经瀚海地极高寒，西南七日过瀚海，渡阔数里之罕穆纳河，历龙骨河至巴实伯里
+  place: 瀚海、罕穆纳河
+- id: guji-常德-event-alimalik
+  title_zh: 至阿里玛图观汉回杂居
+  date: '1259-02-20'
+  year_of: '1259'
+  description: 出特穆尔彻辰关至阿里玛图，见城市井皆流水，回纥与汉民杂居，俗颇似中国
+  place: 阿里玛图
+- id: guji-常德-event-mushi
+  title_zh: 亲见王师克穆锡木剌夷山城
+  date: '1259-03-29'
+  year_of: '1259'
+  description: 至塔舒尔西南，见穆锡国三百五十山城皆下，奇塔卜孤峰峻绝，王师并进破之，详记刺客以药蛊惑死士之俗
+  place: 穆锡国奇塔卜山城
+- id: guji-常德-event-buda
+  title_zh: 闻见布达国与天房密实勒
+  date: '1259-04-10'
+  year_of: '1259'
+  description: 历奇拉尔、阿勒鼎，闻布达国哈里巴城破事及天房班巴尔、密实勒、富浪、印毒诸国风物珠宝
+  place: 布达国、天房
+- id: guji-常德-event-return
+  title_zh: 西行十四月归朝
+  date: '1260-03-01'
+  year_of: '1260'
+  description: 往返凡十四月归，述西域始自张骞，今所历瀚海即金山、印毒即身毒、密实勒即拂菻，土产风俗可相参证
+  place: 和林
+- id: guji-常德-event-dictation
+  title_zh: 口授刘郁成《西使记》
+  date: '1264-03-01'
+  year_of: '1264'
+  description: 归后口授真定刘郁笔录为《西使记》一卷，中统四年三月记，王恽录入玉堂杂记，后入四库全书
+  place: 真定
+- id: guji-常德-event-death
+  title_zh: 逝世
+  date: '1280'
+  year_of: '1280'
+  description: 归朝后事迹不详，约1280年卒
+  place: 中原
