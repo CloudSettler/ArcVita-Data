@@ -1,0 +1,122 @@
+person:
+  qid: guji-僧伽跋澄
+  name_zh: 僧伽跋澄
+  names:
+    zh: 僧伽跋澄
+    en: Sanghabhuti
+  lifespan:
+    birth:
+      date: '0340'
+      precision: year
+      is_circa: true
+      raw: 罽宾出生生年不详约四世纪中叶
+    death:
+      date: '0405'
+      precision: year
+      is_circa: true
+      raw: 弘始后西返卒年不详约五世纪初
+  birth_date: '0340'
+  death_date: '0405'
+  era: 十六国
+  reign_ref: 前秦建元后秦皇初弘始
+  archetype: 西域传译高僧
+  dilemmas:
+  - 三秦覆坠避地东周道途艰危而法志不辍
+  - 法句不全出曜未具慨然补阙以全法藏
+  lesson: 越葱岭流沙而东弘执梵本以补法阙使正法久存
+  summary_first_person: 我本罽宾沙门前秦建元十九年越葱岭涉流沙至长安值乱避地东周后秦皇初还辕伊洛与竺佛念共译出曜愿法句具足后学画然得解
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E5%87%BA%E6%9B%9C%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E5%87%BA%E6%9B%9C%E7%BB%8F.html
+endeavors:
+- id: guji-僧伽跋澄-endeavor-1
+  title_zh: 陟岭涉沙东入长安弘法
+  summary_zh: 以罽宾沙门不远万里入关值三秦覆坠避地东周终还伊洛以待传法之机
+  phases:
+  - key: brewing
+    name: 葱岭流沙万里东来
+    labels:
+      zh:
+      - 弘法
+      - 西域东来
+    start_date: 0383
+    highlight_event_id: guji-僧伽跋澄-event-arrive-changan
+  - key: climax
+    name: 避乱东周还辕伊洛
+    labels:
+      zh:
+      - 存法
+      - 避乱守志
+    start_date: 0397
+    highlight_event_id: guji-僧伽跋澄-event-return-yiluo
+  decisions:
+  - date: 0383
+    title_zh: 决意东行至长安
+    rationale: 闇识富博欲以法句譬喻广布东土故陟岭涉沙不辞万里
+  - date: 0384
+    title_zh: 三秦覆坠避地东周
+    rationale: 时乱难居守法身以待后缘不遽西返存出曜具解之望
+- id: guji-僧伽跋澄-endeavor-2
+  title_zh: 执梵本共译出曜经
+  summary_zh: 应姚旻之请执梵本与竺佛念宣译道嶷笔受皇初五年秋出至六年春讫使旧四卷增广为二十卷
+  phases:
+  - key: breakthrough
+    name: 应请开译
+    labels:
+      zh:
+      - 译经
+      - 出曜
+    start_date: '0398-08-01'
+    highlight_event_id: guji-僧伽跋澄-event-translate-start
+  - key: closure
+    name: 六年春译讫序行
+    labels:
+      zh:
+      - 功成
+      - 正法久存
+    start_date: '0399-03-01'
+    highlight_event_id: guji-僧伽跋澄-event-translate-done
+  decisions:
+  - date: '0398-08-01'
+    title_zh: 应姚旻请执梵本出曜
+    rationale: 恨法句不全出曜未具逢笃诚乐法之请遂以旧四卷为本增广具解
+  - date: '0399-03-01'
+    title_zh: 从本直译不加文饰
+    rationale: 时不有怙从本而已务使览者画然得解以全譬喻第六部之义
+events:
+- id: guji-僧伽跋澄-event-birth
+  date: '0340'
+  year_of: 340
+  title_zh: 出生于罽宾
+  description_zh: 罽宾沙门闇识富博生年不详约四世纪中叶生于罽宾
+  type: birth
+- id: guji-僧伽跋澄-event-arrive-changan
+  date: 0383
+  year_of: 383
+  title_zh: 建元十九年至长安
+  description_zh: 陟葱岭涉流沙不远万里至长安为先师器重数年上闻异要
+  type: career
+- id: guji-僧伽跋澄-event-return-yiluo
+  date: 0397
+  year_of: 397
+  title_zh: 皇初四年还辕伊洛
+  description_zh: 三秦覆坠避地东周后果秦皇初四年还辕伊洛望路致慨恨法句不全
+  type: career
+- id: guji-僧伽跋澄-event-translate-start
+  date: '0398-08-01'
+  year_of: 398
+  title_zh: 皇初五年秋请译出曜
+  description_zh: 太尉姚旻请令出之澄执梵本佛念宣译道嶷笔受开始增广旧四卷
+  type: career
+- id: guji-僧伽跋澄-event-translate-done
+  date: '0399-03-01'
+  year_of: 399
+  title_zh: 六年春译讫弘始序行
+  description_zh: 出曜译讫得此具解览之画然僧睿于弘始元年八月造序
+  type: career
+- id: guji-僧伽跋澄-event-death
+  date: '0405'
+  year_of: 405
+  title_zh: 弘始后西返示寂
+  description_zh: 译事既毕将返旧乡卒年不详约弘始后示寂
+  type: death
