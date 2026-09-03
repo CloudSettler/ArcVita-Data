@@ -8,130 +8,133 @@ person:
     birth:
       date: '0602'
       precision: year
-      is_circa: true
-      raw: 隋仁寿二年洛州缑氏
+      is_circa: false
+      raw: 隋文帝仁寿二年
     death:
       date: '0664-02-05'
       precision: day
       is_circa: false
-      raw: 唐麟德元年正月初九玉华宫
+      raw: 麟德元年二月五日
   birth_date: '0602'
   death_date: '0664-02-05'
-  era: 唐代
+  era: 唐
   reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 西行求法高僧
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 身居大唐而佛典阙略不全，欲求圆满瑜伽正法，当冒禁西行还是安守本分
-  - 弘传大乘菩萨戒律，欲利他普度，当严守声闻旧制还是开权显实善巧饶益
-  lesson: 为求圆满正法不惜生死远行，为利有情善权开合，持戒在心不在迹，译经传灯即是修行
-  summary_first_person: 吾俗姓陈名袆，洛州人也。隋末出家，感诸师异说难解，贞观初年私出玉门，西逾流沙，遍历五印求法十七年。归国蒙诏译经，译出瑜伽师地论及此菩萨戒本等七十余部，但愿正法久住，菩萨学处流行世间，利乐一切有情。
+  - 隋末群经紊译神理纰传是安守中土旧疏还是冒险西行质正本源
+  - 菩萨净戒为一乘彝伦是独善自修还是奉诏普译广利群生
+  lesson: 弘愿既发则虽越玉门历金河而不悔得具德师传授则当精译弘持以报佛恩
+  summary_first_person: 我是玄奘弱龄轶俗壮志游真悼中土灵章紊译故出玉门遐往摩揭陀亲承戒贤受菩萨律仪归来奉诏于大慈恩寺译菩萨戒羯磨文以弘一乘戒范
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E8%8F%A9%E8%90%A8%E6%88%92%E6%9C%AC-%E5%94%90-%E7%8E%84%E5%A5%98.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E8%8F%A9%E8%90%A8%E6%88%92%E6%9C%AC-%E5%94%90-%E7%8E%84%E5%A5%98.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E8%8F%A9%E8%90%A8%E6%88%92%E7%BE%AF%E7%A3%A8%E6%96%87.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E8%8F%A9%E8%90%A8%E6%88%92%E7%BE%AF%E7%A3%A8%E6%96%87.html
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行求法遍历五印
-  summary: 贞观初年冒禁西行，经西域入印度那烂陀学法，求得瑜伽唯识真传而归
+  title_zh: 西行求法亲承戒贤
+  summary: 为质正紊译西出玉门历诸国至摩揭陀从戒贤受菩萨律仪
   phases:
   - key: brewing
-    name: 长安问道疑团难解
+    name: 洛阳出家研习众经疑滞
     labels:
-      zh: 求法初愿
-    start_date: 0618
-    highlight_event_id: guji-玄奘-event-study
+      zh:
+      - 蓄愿求真
+    start_date: '0613'
+    highlight_event_id: guji-玄奘-event-birth
   - key: breakthrough
-    name: 冒禁出关西逾流沙
+    name: 贞观三年西出玉门孤征
     labels:
-      zh: 西行决意
-    start_date: 0629
-    highlight_event_id: guji-玄奘-event-departure
+      zh:
+      - 孤征西行
+    start_date: 0629-08
+    highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 那烂陀受学戒贤
+    name: 那烂陀钦承函杖受菩萨戒
     labels:
-      zh: 穷源得法
-    start_date: '0633'
-    highlight_event_id: guji-玄奘-event-nalanda
+      zh:
+      - 亲承戒贤
+    start_date: '0636'
+    highlight_event_id: guji-玄奘-event-shoujie
   - key: closure
-    name: 负经东归长安迎接
+    name: 携经东归弘愿克成
     labels:
-      zh: 载誉而归
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 载誉东归
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-yijing
   decisions:
-  - date: 0629
-    title_zh: 私出玉门冒禁西行
-    rationale: 诸师章疏异说纷纭，欲证圆满正法，非亲往印度求瑜伽本典不可，宁就刑戮不违初愿
-  - date: '0633'
-    title_zh: 留学那烂陀师事戒贤
-    rationale: 戒贤年高德劭深达瑜伽，欲穷唯识大义，须久住听受会通众说，不急游历以竟全功
+  - date: 0629-08
+    title_zh: 决意偷渡西行
+    rationale: 深惟蹄旨悟有余说中土译传多舛须亲往天竺取质本源
+  - date: '0636'
+    title_zh: 一稔三请受菩萨律仪
+    rationale: 菩萨净戒谅一乘彝伦授受为十地洪范必得具德戒贤传授方堪弘持
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译经弘传菩萨戒
-  summary: 归国后居弘福大慈恩玉华等寺主持译场，译出大般若瑜伽师地菩萨戒本等大乘经论
+  title_zh: 奉诏译经弘菩萨戒
+  summary: 贞观二十三年奉诏于大慈恩寺译出菩萨戒羯磨文开两轴流传
   phases:
   - key: brewing
-    name: 太宗诏住弘福筹建译场
+    name: 东归陈奏蒙恩设译场
     labels:
-      zh: 译场肇始
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 蒙恩设译
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-yijing
   - key: breakthrough
-    name: 大慈恩寺创制译经程式
+    name: 吟味瑜伽菩萨地拈出羯磨
     labels:
-      zh: 译经鼎盛
+      zh:
+      - 拈出戒本
     start_date: 0648
-    highlight_event_id: guji-玄奘-event-translation
+    highlight_event_id: guji-玄奘-event-yijing
   - key: climax
-    name: 译出瑜伽菩萨戒本颁行
+    name: 大慈恩寺奉诏译周羯磨戒本
     labels:
-      zh: 戒律弘传
-    start_date: 0649
-    highlight_event_id: guji-玄奘-event-translation
+      zh:
+      - 奉诏正译
+    start_date: 0649-01
+    highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 玉华宫译大般若示寂
+    name: 静迈证义笔受传焰后世
     labels:
-      zh: 灯传后学
-    start_date: '0663'
-    highlight_event_id: guji-玄奘-event-death
+      zh:
+      - 传焰不绝
+    start_date: 0649-02
+    highlight_event_id: guji-玄奘-event-yijing
   decisions:
-  - date: '0645'
-    title_zh: 受诏译经不居官爵
-    rationale: 西行本为弘法利生，不为名利，谢绝朝命而愿以译经报国，使菩萨学处流行中土
-  - date: 0649
-    title_zh: 先译瑜伽菩萨地戒本
-    rationale: 中土戒律偏重声闻别解脱，菩萨广大戒行未明，须先出菩萨戒本以立大乘正行纲宗
+  - date: 0649-01
+    title_zh: 特译菩萨戒羯磨文
+    rationale: 菩萨净戒为授受宏规匪替喉衿者不可须别开两轴以正轨仪
+  - date: 0649-02
+    title_zh: 命明琰等分司证义笔受
+    rationale: 教旨宏大非一人能办须集众智同资证文正字以备攸忘
 events:
 - id: guji-玄奘-event-birth
+  type: birth
   title_zh: 出生洛州缑氏
   date: '0602'
   year_of: 602
-  description: 隋仁寿二年生于洛州缑氏陈氏，少聪慧好读书，隋末入洛阳净土寺出家
-- id: guji-玄奘-event-study
-  title_zh: 长安蜀地从师问道
-  date: 0618
-  year_of: 618
-  description: 唐初遍访长安成都诸大德，学摄论俱舍涅槃等，而众说不一，遂发西行求法之愿
-- id: guji-玄奘-event-departure
-  title_zh: 贞观初年西出玉门
-  date: 0629
+  description: 隋文帝仁寿二年生于洛州缑氏弱龄轶俗凝神白云
+- id: guji-玄奘-event-xixing
+  type: achievement
+  title_zh: 出玉门西行求法
+  date: 0629-08
   year_of: 629
-  description: 贞观三年冒禁夜出玉门关，度莫贺延碛，经高昌龟兹凌山而往印度
-- id: guji-玄奘-event-nalanda
-  title_zh: 那烂陀师事戒贤学瑜伽
-  date: '0633'
-  year_of: 633
-  description: 至中印度那烂陀寺，师事百岁戒贤，受学瑜伽师地论唯识等，兼通五明诸论
-- id: guji-玄奘-event-return
-  title_zh: 负经东归长安
-  date: '0645-01-24'
-  year_of: 645
-  description: 贞观十九年正月归抵长安，携回梵本六百余部，太宗亲迎，诏住弘福寺从事翻译
-- id: guji-玄奘-event-translation
-  title_zh: 译出瑜伽菩萨戒本
-  date: 0649
+  description: 以炎隋季祀三聚创膺悼灵章紊译出玉门遐往戾金河殉妙
+- id: guji-玄奘-event-shoujie
+  type: achievement
+  title_zh: 从戒贤受菩萨律仪
+  date: '0636'
+  year_of: 636
+  description: 于摩揭陀国钦承函杖见所未见一稔三祈受菩萨律仪肇允殷望
+- id: guji-玄奘-event-yijing
+  type: achievement
+  title_zh: 大慈恩寺奉诏译菩萨戒羯磨文
+  date: 0649-01
   year_of: 649
-  description: 于大慈恩寺译出瑜伽论本地分中菩萨地所出菩萨戒本，弥勒菩萨说，奉诏译，明菩萨四重他胜及诸轻戒，开权显实弘传大乘戒行
+  description: 大唐贞观二十三年奉诏于大慈恩寺译周羯磨戒本爰开两轴为菩萨正地流澌
 - id: guji-玄奘-event-death
-  title_zh: 示寂玉华宫
+  type: death
+  title_zh: 圆寂长安玉华宫
   date: '0664-02-05'
   year_of: 664
-  description: 麟德元年正月初九寂于京兆玉华宫，高宗罢朝举哀，葬白鹿原，后迁樊川兴教寺塔
+  description: 麟德元年二月五日圆寂译经弘戒之业终传焰后世
