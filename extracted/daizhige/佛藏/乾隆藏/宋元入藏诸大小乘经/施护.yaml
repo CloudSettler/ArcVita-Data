@@ -6,129 +6,153 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: '0950-01-01'
+      date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于乌苌国
+      raw: 北印度乌填曩国人，生年未详，约十世纪中叶生
     death:
-      date: '1017-08-01'
+      date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒于东京
-  birth_date: '0950-01-01'
-  death_date: '1017-08-01'
+      raw: 宋真宗天禧元年卒于开封译经院
+  birth_date: 0950
+  death_date: '1017'
   era: 北宋
-  reign_ref: 宋太祖至宋真宗
-  archetype: 译经三藏
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 西天译经三藏
   dilemmas:
-  - title_zh: 梵繁华简如何取舍
-    description_zh: 忠实梵义与便于中土讽诵之间须权衡文质
-  - title_zh: 奉诏效力与专修度生之衡
-    description_zh: 受朝散大夫试鸿胪少卿之职既助王化又须不失出世本怀
-  lesson: 以无依止心行无量译业了知诸法如幻而利他不息
-  summary_first_person: 我本西域来华蒙宋帝授以传法之职毕生对校梵汉译显密群经惟愿以如幻三昧无量印门令众生速证菩提
+  - 梵汉悬隔，如何既存梵音密义又令华人可持可诵
+  - 身寄朝廷译场，如何在奉诏体制中不失出家梵行本怀
+  lesson: 一卷虽简，受持流通即种菩提，以至诚持名利他为报佛恩
+  summary_first_person: 我是施护，北印度人，宋初携梵本来华，隶译经院奉诏传译，译出宝生陀罗尼等经二百余卷，愿闻者受持供养永不失菩提心
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%A6%82%E5%B9%BB%E4%B8%89%E6%91%A9%E5%9C%B0%E6%97%A0%E9%87%8F%E5%8D%B0%E6%B3%95%E9%97%A8%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%A6%82%E5%B9%BB%E4%B8%89%E6%91%A9%E5%9C%B0%E6%97%A0%E9%87%8F%E5%8D%B0%E6%B3%95%E9%97%A8%E7%BB%8F.html
+  - https://daizhige.org/fozang/qianlongzang/songyuanrucang/baoshengtuoluonijing.html
+  - https://tripitaka.cbeta.org/T1412
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏入院系统译经
-  summary_zh: 太平兴国年间入宋译经院三十余年共译显密经律百余卷
+  person_id: guji-施护
+  title_zh: 西土东来入宋译场
+  summary_zh: 自乌填曩国远涉中土，于太平兴国五年抵阙，习华言，入译经院，授传法大师试鸿胪少卿，主持译事三十余年
   phases:
   - key: brewing
-    name: 西来赴阙
+    name: 西土学法
     labels:
-      zh: 初入中土
-    start_date: '0980-01-01'
-    highlight_event_id: guji-施护-event-arrive
+      zh: 北印度习显密
+    start_date: 0950
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 入院试译
+    name: 远涉东来
     labels:
-      zh: 奉诏试译
-    start_date: '0982-01-01'
-    highlight_event_id: guji-施护-event-translate-begin
+      zh: 太平兴国抵宋
+    start_date: 0980
+    highlight_event_id: guji-施护-event-980-arrival
   - key: climax
-    name: 授职传法大师
+    name: 隶籍译经院
     labels:
-      zh: 授职弘译
-    start_date: '0991-01-01'
-    highlight_event_id: guji-施护-event-ruhan-translation
+      zh: 与法天共参译务
+    start_date: 0982
+    highlight_event_id: guji-施护-event-982-translation-begin
   - key: closure
-    name: 译业付后
+    name: 授号传法
     labels:
-      zh: 遗典入藏
-    start_date: '1017-01-01'
-    highlight_event_id: guji-施护-event-death
+      zh: 赐传法大师
+    start_date: 0991
+    highlight_event_id: guji-施护-event-991-honor
   decisions:
-  - date: '0980-06-01'
-    title_zh: 应诏东来归化宋廷
-    rationale: 为使西域梵典广布东土不辞远涉入译场对校华梵
-  - date: '0991-01-01'
-    title_zh: 受朝散大夫试鸿胪少卿
-    rationale: 借朝品保障译场使译经得以长期持续流通
+  - date: 0980
+    title_zh: 决意携梵本东行
+    rationale: 西土法宝丰富而东土渴仰，借宋廷护法广布显密以续佛慧命
+  - date: 0982
+    title_zh: 先习华言再主笔译事
+    rationale: 不通华言则梵义难显，唯有精通两土语言方能传信达雅
 - id: guji-施护-endeavor-2
-  title_zh: 译弘如幻三摩地无量印法门
-  summary_zh: 以无依止无量印为纲译出三卷弘传如幻三昧度生之行
+  person_id: guji-施护
+  title_zh: 奉诏译弘宝生陀罗尼
+  summary_zh: 奉诏译出宝生陀罗尼经一卷，具载宝生如来陀罗尼名号及受持供养得转轮位具神通等十种功德，劝流通广远
   phases:
   - key: brewing
-    name: 请得梵本
+    name: 抉择法门
     labels:
-      zh: 得本发心
-    start_date: '0995-01-01'
-    highlight_event_id: guji-施护-event-translate-begin
+      zh: 拣宝生梵本
+    start_date: 0999
+    highlight_event_id: guji-施护-event-982-translation-begin
   - key: breakthrough
-    name: 草创华言上卷
+    name: 音译真言
     labels:
-      zh: 初译请法现通
-    start_date: '0998-01-01'
-    highlight_event_id: guji-施护-event-ruhan-translation
+      zh: 定陀罗尼梵音
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-1000-baosheng
   - key: climax
-    name: 三卷告成
+    name: 宣说功德
     labels:
-      zh: 全经流通
-    start_date: '1000-01-01'
-    highlight_event_id: guji-施护-event-ruhan-translation
+      zh: 明持诵现证利益
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-1000-baosheng
   - key: closure
-    name: 以幻喻付嘱受持
+    name: 入藏流通
     labels:
-      zh: 普劝受持
-    start_date: '1001-01-01'
-    highlight_event_id: guji-施护-event-ruhan-translation
+      zh: 宋元入藏传远
+    start_date: '1001'
+    highlight_event_id: guji-施护-event-1001-circulation
   decisions:
-  - date: '0998-01-01'
-    title_zh: 以无依止释入如幻三昧
-    rationale: 依经义立无依止正见为纲使学者易入无生无量
-  - date: '1000-05-01'
-    title_zh: 分三卷次第译出流通
-    rationale: 上卷明请法现通中卷显楼阁庄严下卷嘱持无量印故分卷以便讽持
+  - date: '1000'
+    title_zh: 真言全存梵音不翻
+    rationale: 陀罗尼以声音为体，存音方能摄持神效，意译则失密义
+  - date: '1000'
+    title_zh: 以小经劝大行流通
+    rationale: 经文虽简而摄生生转轮不入轮回不断菩提种诸胜，流通一人即灭无间罪故力劝传持
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌苌国
-  date: '0950-01-01'
+  person_id: guji-施护
+  title_zh: 生于北印度乌填曩国
+  date: 0950
   year_of: 950
-  place_zh: 西域乌苌国
-  description_zh: 生于婆罗门种家少习梵典精通三藏后发心东来弘法
-- id: guji-施护-event-arrive
-  title_zh: 至京入译经院
-  date: '0980-06-01'
+  place_zh: 北印度乌填曩国
+  summary_zh: 生于北印度，少出家，博习三藏显密经论，尤精陀罗尼法门
+- id: guji-施护-event-980-arrival
+  person_id: guji-施护
+  title_zh: 太平兴国五年抵开封
+  date: 0980
   year_of: 980
-  place_zh: 东京开封太平兴国寺
-  description_zh: 宋太宗太平兴国中随天息灾等来华入译经院习华言参预对校
-- id: guji-施护-event-translate-begin
-  title_zh: 奉诏参译显密群经
-  date: '0982-03-01'
+  place_zh: 开封
+  summary_zh: 携梵本经律至宋阙，太宗召见，留居译经院习华言参译事
+  endeavor_ref: guji-施护-endeavor-1
+- id: guji-施护-event-982-translation-begin
+  person_id: guji-施护
+  title_zh: 入译经院共译显密诸经
+  date: 0982
   year_of: 982
   place_zh: 开封译经院
-  description_zh: 与法天法贤等共译大乘庄严宝王等经渐主译席授明教大师
-- id: guji-施护-event-ruhan-translation
-  title_zh: 译出如幻三摩地无量印法门经三卷
-  date: '1000-05-01'
+  summary_zh: 与天息灾法天等同场传译，先后译出大乘庄严宝王经等二百余卷
+  endeavor_ref: guji-施护-endeavor-1
+- id: guji-施护-event-991-honor
+  person_id: guji-施护
+  title_zh: 授传法大师朝奉大夫
+  date: 0991
+  year_of: 991
+  place_zh: 开封
+  summary_zh: 以译功懋著授西天北印度三藏传法大师，赐朝奉大夫试鸿胪少卿
+  endeavor_ref: guji-施护-endeavor-1
+- id: guji-施护-event-1000-baosheng
+  person_id: guji-施护
+  title_zh: 译出佛说宝生陀罗尼经
+  date: '1000'
   year_of: 1000
-  place_zh: 开封传法院
-  description_zh: 奉诏译出本经具载鹿野园胜华藏请问观自在现通及师子游戏金光王会无量印法门
+  place_zh: 开封译经院
+  summary_zh: 奉诏译宝生陀罗尼经一卷，宣说受持宝生如来名号陀罗尼得转轮位具梵行神通，持诵七日得天眼清净，流通灭无间罪
+  endeavor_ref: guji-施护-endeavor-2
+- id: guji-施护-event-1001-circulation
+  person_id: guji-施护
+  title_zh: 宝生陀罗尼劝流通四方
+  date: '1001'
+  year_of: 1001
+  place_zh: 开封
+  summary_zh: 劝众受持供养宝生陀罗尼，传一人即除无间业障，闻已礼拜赞叹者生生口出妙香身光照曜如阿难陀胜利
+  endeavor_ref: guji-施护-endeavor-2
 - id: guji-施护-event-death
-  title_zh: 示寂于京师
-  date: '1017-08-01'
+  person_id: guji-施护
+  title_zh: 天禧元年卒于译场
+  date: '1017'
   year_of: 1017
-  place_zh: 东京开封
-  description_zh: 宋真宗天禧元年示寂所译百余卷入藏流行朝廷追念译功
+  place_zh: 开封
+  summary_zh: 真宗天禧元年示寂于开封，毕生译籍编入宋元入藏，宝生陀罗尼至今流通
