@@ -1,0 +1,157 @@
+person:
+  qid: guji-无垢优婆夷
+  name_zh: 无垢优婆夷
+  names:
+    zh: 无垢优婆夷
+    en: Wugou Upasika
+  lifespan:
+    birth:
+      date: '-0600'
+      precision: century
+      is_circa: true
+      raw: 舍卫国佛世时人
+    death:
+      date: '-0500'
+      precision: century
+      is_circa: true
+      raw: 未详
+  birth_date: '-0600'
+  death_date: '-0500'
+  era: 春秋
+  reign_ref: 释迦牟尼住舍卫寂静宫殿重阁讲堂时
+  archetype: 持戒修行者
+  dilemmas:
+  - 每日扫塔涂地散华烧香复修禅戒不知各得何等福报
+  - 闻说持戒修禅福无穷尽后得涅槃心生疑念未能即信
+  lesson: 精勤供塔持戒修禅皆得胜报以佛实语为证当离疑趣向涅槃
+  summary_first_person: 我为优婆夷常早起扫佛塔地涂治四处散华烧香然后入房修四梵行不离三归受持五戒我问佛此各得何福佛分别开示复以广长舌证实语不虚我疑心顿除欢喜赞叹
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E6%97%A0%E5%9E%A2%E4%BC%98%E5%A9%86%E5%A4%B7%E9%97%AE%E7%BB%8F.html
+endeavors:
+- id: guji-无垢优婆夷-endeavor-1
+  title_zh: 供塔涂治散华烧香
+  description: 早起扫佛塔地涂治四处散华烧香供养请问福报
+  phases:
+  - key: brewing
+    name: 早起扫涂
+    labels:
+      zh:
+      - 洒扫
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-sweep
+  - key: breakthrough
+    name: 涂形供养
+    labels:
+      zh:
+      - 涂治
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-offer
+  - key: climax
+    name: 请问福报
+    labels:
+      zh:
+      - 请法
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-ask
+  - key: closure
+    name: 得闻分别果报
+    labels:
+      zh:
+      - 领受
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-tongue
+  decisions:
+  - date: '-0550'
+    title_zh: 每日不懈扫塔涂地供养
+    rationale: 以身业清净供养令自他心净集端正业生善道天中
+  - date: '-0550'
+    title_zh: 诣佛请问诸行福报差别
+    rationale: 欲知扫地涂形散华烧香各得何等生处胜报
+- id: guji-无垢优婆夷-endeavor-2
+  title_zh: 受持三归五戒修禅证信
+  description: 入房修禅行四梵行不离三归受持五戒断疑证信
+  phases:
+  - key: brewing
+    name: 入房修禅持戒
+    labels:
+      zh:
+      - 持戒
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-keep
+  - key: breakthrough
+    name: 闻无尽涅槃生疑
+    labels:
+      zh:
+      - 生疑
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-ask
+  - key: climax
+    name: 见广长舌断疑
+    labels:
+      zh:
+      - 证信
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-tongue
+  - key: closure
+    name: 偈赞欢喜奉行
+    labels:
+      zh:
+      - 赞叹
+    start_date: '-0550'
+    highlight_event_id: guji-无垢优婆夷-event-praise
+  decisions:
+  - date: '-0550'
+    title_zh: 恒修四梵行不离三归五戒
+    rationale: 以戒禅集无量善根福报无尽后得涅槃解脱
+  - date: '-0550'
+    title_zh: 见舌相已离疑以偈赞佛
+    rationale: 知如来常实语故得广长舌应当信受胜法趣涅槃城
+events:
+- id: guji-无垢优婆夷-event-birth
+  title_zh: 出生于舍卫国
+  date: '-0600'
+  year_of: -600
+  description: 生于舍卫国后为贤善优婆夷
+  endeavor_ref: guji-无垢优婆夷-endeavor-1
+- id: guji-无垢优婆夷-event-sweep
+  title_zh: 早起扫佛塔地涂治四处
+  date: '-0550'
+  year_of: -550
+  description: 每日早起扫塔涂治四厢清净其地
+  endeavor_ref: guji-无垢优婆夷-endeavor-1
+- id: guji-无垢优婆夷-event-offer
+  title_zh: 散华烧香供养佛塔
+  date: '-0550'
+  year_of: -550
+  description: 涂已散华烧香如是供养然后入房
+  endeavor_ref: guji-无垢优婆夷-endeavor-1
+- id: guji-无垢优婆夷-event-keep
+  title_zh: 入禅修四梵行持三归五戒
+  date: '-0550'
+  year_of: -550
+  description: 入房修禅行慈悲喜舍不离三归受持五戒
+  endeavor_ref: guji-无垢优婆夷-endeavor-2
+- id: guji-无垢优婆夷-event-ask
+  title_zh: 往诣佛所请问诸行福报
+  date: '-0550'
+  year_of: -550
+  description: 与诸优婆夷礼佛退坐请问扫地涂治供养禅戒各得何报
+  endeavor_ref: guji-无垢优婆夷-endeavor-1
+- id: guji-无垢优婆夷-event-tongue
+  title_zh: 佛现广长舌证实语断疑
+  date: '-0550'
+  year_of: -550
+  description: 佛出广长舌遍覆面门虚空还摄以证常实语不虚
+  endeavor_ref: guji-无垢优婆夷-endeavor-2
+- id: guji-无垢优婆夷-event-praise
+  title_zh: 以偈赞佛得闻第一法
+  date: '-0550'
+  year_of: -550
+  description: 疑心顿除心生欢喜以偈赞叹世间灯蒙记入涅槃城
+  endeavor_ref: guji-无垢优婆夷-endeavor-2
+- id: guji-无垢优婆夷-event-death
+  title_zh: 命终归趣善道
+  date: '-0500'
+  year_of: -500
+  description: 依供塔持戒修禅善根命终生善道乃至趣向涅槃
+  endeavor_ref: guji-无垢优婆夷-endeavor-2
