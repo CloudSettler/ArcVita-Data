@@ -8,7 +8,7 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 唐神龙元年
     death:
       date: '0774-06-15'
@@ -18,118 +18,134 @@ person:
   birth_date: '0705'
   death_date: '0774-06-15'
   era: 唐
-  reign_ref: 唐玄宗开元至唐代宗大历
+  reign_ref: 玄宗至代宗
   archetype: 密教祖师
   dilemmas:
-  - 密法神验与显教义理如何会通而不相违
-  - 奉诏护国与山林潜修如何权衡以利众生
-  lesson: 以咒为方便以经为舟筏护国有术利生无倦方为密行正途
-  summary_first_person: 吾不空本自南天竺来入唐师事金刚智得五部灌顶奉玄宗肃宗代宗三朝诏命译佛母大孔雀明王经三卷宣孔雀明王陀罗尼以解毒除怖禳灾护国惟愿正法流通有情安隐
+  - 显密教义融通与密法独弘之抉择
+  - 依王权护国与持僧团清净独立之平衡
+  lesson: 弘法当以般若空性为体以陀罗尼方便为用显密圆融方能广摄众生速趣菩提
+  summary_first_person: 吾不空本北天竺人幼随叔父至长安师事金刚智受金刚界大法复往师子国求密藏归而荷玄宗肃宗代宗三朝护持译密经百余卷建道场行灌顶以出生无边门陀罗尼等法门导万姓入佛智海愿众生皆得无尽辩才与清净法身
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/佛母大孔雀明王经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛母大孔雀明王经.md
-  - https://cbetaonline.dila.edu.tw/zh/T0982
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/出生无边门陀罗尼经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/出生无边门陀罗尼经.html
+  - https://cbeta.online/T1009
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 重译密典弘传孔雀明王法
-  summary: 奉诏重译佛母大孔雀明王经以陀罗尼济毒难疫疠令众生皆得护持
+  title_zh: 密教经典翻译与陀罗尼弘传
+  goal_zh: 译出并弘传金刚界密法及诸陀罗尼令汉地具足受持仪轨
   phases:
   - key: brewing
-    name: 随师习密
+    name: 师承金刚智
+    labels:
+      zh: 承学
+    start_date: '0720'
+    highlight_event_id: guji-不空-event-720
+  - key: breakthrough
+    name: 师子国求法
     labels:
       zh: 求法
-    start_date: '0720'
-    highlight_event_id: guji-不空-event-follow-vajrabodhi
-  - key: breakthrough
-    name: 奉诏开译
-    labels:
-      zh: 开译
-    start_date: '0740'
-    highlight_event_id: guji-不空-event-translate-peacock
+    start_date: '0741'
+    highlight_event_id: guji-不空-event-741
   - key: climax
-    name: 三卷成典
+    name: 奉诏译经
     labels:
-      zh: 成典
+      zh: 译经
     start_date: '0746'
-    highlight_event_id: guji-不空-event-translate-peacock
+    highlight_event_id: guji-不空-event-746
   - key: closure
-    name: 流布持诵
+    name: 陀罗尼法门广布
     labels:
-      zh: 流布
-    start_date: '0750'
-    highlight_event_id: guji-不空-event-translate-peacock
+      zh: 弘布
+    start_date: '0756'
+    highlight_event_id: guji-不空-event-756
   decisions:
+  - date: '0741'
+    title_zh: 决意泛海赴师子国求密藏
+    rationale: 中土密典未备欲得究竟金刚界法须亲往南海师子国访阿阇梨普贤获真本
   - date: '0746'
-    title_zh: 定译佛母大孔雀明王经三卷
-    rationale: 旧译未尽密意当以新范重宣明王心咒令解毒除怖护国安民
-  - date: '0750'
-    title_zh: 撰启请仪轨附经前端
-    rationale: 令凡夫得持诵次第先请诸佛菩萨天龙八部后诵陀罗尼方获加护
+    title_zh: 译出生无边门陀罗尼经
+    rationale: 此经具显诸佛所行能破生死业障令菩萨速得四种清净无尽法门当先译出以利初学
+  - date: '0756'
+    title_zh: 确立译场规制与持诵仪轨
+    rationale: 密法重在坛场灌顶与持诵次第若无轨仪则陀罗尼难得受持故立仪轨令僧俗如法修学
 - id: guji-不空-endeavor-2
-  title_zh: 建坛持明护国禳灾
-  summary: 以孔雀明王及诸密法建坛祈雨止雨禳疫息灾为唐室护国
+  title_zh: 护国密坛与朝廷教化
+  goal_zh: 以密法为国家祈福禳灾建立大兴善寺等道场令密教成为护国之法
   phases:
   - key: brewing
-    name: 受灌顶传法
+    name: 玄宗朝入内供奉
     labels:
-      zh: 得法
-    start_date: '0742'
-    highlight_event_id: guji-不空-event-follow-vajrabodhi
+      zh: 入朝
+    start_date: '0746'
+    highlight_event_id: guji-不空-event-746
   - key: breakthrough
-    name: 入宫传密
+    name: 肃代二朝尊为国师
     labels:
-      zh: 入宫
+      zh: 尊崇
     start_date: '0756'
-    highlight_event_id: guji-不空-event-build-altar
+    highlight_event_id: guji-不空-event-756
   - key: climax
-    name: 护国大坛
+    name: 建大兴善寺传法灌顶
     labels:
-      zh: 护国
+      zh: 建坛
     start_date: '0765'
-    highlight_event_id: guji-不空-event-build-altar
+    highlight_event_id: guji-不空-event-765
   - key: closure
-    name: 付法利生
+    name: 示寂前付法弟子
     labels:
       zh: 付法
-    start_date: '0770'
+    start_date: '0774-06-01'
     highlight_event_id: guji-不空-event-death
   decisions:
   - date: '0756'
-    title_zh: 应请入内道场持孔雀明王法禳乱
-    rationale: 国难当前以密法为用咒力与慈心并运方能安众心而护社稷
+    title_zh: 应肃宗请入宫建护国道场
+    rationale: 安史之乱国难方殷以不空见菩萨等密法祈禳可安人心亦得朝廷护持佛法
   - date: '0765'
-    title_zh: 广设孔雀明王坛场为民祈福
-    rationale: 疫疠旱涝皆由毒龙恶曜当结界持诵令天龙欢喜风雨以时
+    title_zh: 奏请建立大兴善寺为译经传法院
+    rationale: 欲令密教长久住世须有根本道场集众翻译造坛灌顶培育后学
+  - date: '0774-06-01'
+    title_zh: 临终嘱弟子慧朗等续持密藏
+    rationale: 法不久住嘱付弟子守持坛仪与译本令出生无边门等陀罗尼不致断绝
 events:
 - id: guji-不空-event-birth
-  kind: birth
-  title_zh: 生于南天竺师子国
+  title_zh: 诞生于北天竺婆罗门家
   date: '0705'
-  year_of: '0705'
-  place: 南天竺
-  description: 不空生于南天竺师子国后航海至唐为开元三大士之一
-- id: guji-不空-event-follow-vajrabodhi
-  kind: career
-  title_zh: 师事金刚智受密法灌顶
+  year_of: 705
+  type: birth
+  description: 生于北天竺婆罗门族幼年随叔父经西域至长安以聪慧见称
+- id: guji-不空-event-720
+  title_zh: 师事金刚智受金刚界灌顶
   date: '0720'
-  year_of: '0720'
-  description: 年十五遇金刚智三藏随侍学密历南海诸国得五部瑜伽灌顶尽传密藏
-- id: guji-不空-event-translate-peacock
-  kind: career
-  title_zh: 奉诏译佛母大孔雀明王经三卷
+  year_of: 720
+  type: study
+  description: 年十五拜金刚智为师得受金刚界大曼荼罗灌顶尽得其密法
+- id: guji-不空-event-741
+  title_zh: 往师子国求得密藏梵本
+  date: '0741'
+  year_of: 741
+  type: travel
+  description: 奉师命泛海南行至师子国从普贤阿阇梨得金刚顶经等梵本数百部
+- id: guji-不空-event-746
+  title_zh: 归长安译出生无边门陀罗尼经
   date: '0746'
-  year_of: '0746'
-  description: 于长安大兴善寺奉玄宗诏译出此经以莎底苾刍为蛇所螫金曜孔雀王被缚得脱等缘起宣说孔雀明王陀罗尼护一切毒怖灾厄
-- id: guji-不空-event-build-altar
-  kind: career
-  title_zh: 建孔雀明王坛护国祈福
+  year_of: 746
+  type: translation
+  description: 奉玄宗诏于长安译出出生无边门陀罗尼经一卷宣说菩萨受持此陀罗尼得四种清净无尽法门之理
+- id: guji-不空-event-756
+  title_zh: 肃宗朝入内建护国密坛
+  date: '0756'
+  year_of: 756
+  type: court
+  description: 安史乱起应肃宗召入宫设坛持陀罗尼祈福禳灾为帝受灌顶封开府仪同三司
+- id: guji-不空-event-765
+  title_zh: 建大兴善寺广传密法
   date: '0765'
-  year_of: '0765'
-  description: 代宗朝屡设道场结界持诵孔雀明王经咒为国祈雨止雨禳疫护都城安宁
+  year_of: 765
+  type: establishment
+  description: 奏请于长安大兴善寺开译场集弟子含光慧朗等译经弘法行灌顶法会
 - id: guji-不空-event-death
-  kind: death
-  title_zh: 示寂于长安大兴善寺
+  title_zh: 示寂于长安
   date: '0774-06-15'
-  year_of: '0774'
-  place: 长安大兴善寺
-  description: 唐大历九年六月十五日示寂赠司空谥大辨正号大广智世称不空三藏
+  year_of: 774
+  type: death
+  description: 大历九年六月十五日示寂于长安代宗辍朝三日追谥大辩正广智不空三藏
