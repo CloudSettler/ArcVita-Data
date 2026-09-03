@@ -6,127 +6,137 @@ person:
     en: Amoghavajra
   lifespan:
     birth:
-      date: '0705'
-      precision: year
-      is_circa: true
-      raw: 唐神龙元年左右生于北天竺
-    death:
-      date: '0774'
+      date: 0705-01-01
       precision: year
       is_circa: false
-      raw: 唐大历九年示寂于长安
-  birth_date: '0705'
-  death_date: '0774'
+      raw: 唐神龙元年
+    death:
+      date: 0774-06-15
+      precision: day
+      is_circa: false
+      raw: 唐大历九年六月十五日
+  birth_date: 0705-01-01
+  death_date: 0774-06-15
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 密宗译经灌顶弘传者
+  reign_ref: 唐玄宗开元至唐代宗大历
+  archetype: 密教译经祖师
   dilemmas:
-  - 显密判教之间如何立顿证成佛而不坏三乘次第
-  - 异域密法如何取信于中土朝野并堪受灌顶付法
-  lesson: 以三十七三摩地智摄一切修证令见闻者顿集功德而归毗卢遮那遍照一身
-  summary_first_person: 吾不空本生西域随师金刚智入唐弘传金刚顶瑜伽略述圣位修证以三十七尊分位建立顿证法门愿见闻者同证遍照
+  - 梵本密咒深广难译当如何取舍存真又利汉地诵持
+  - 显密并弘朝野疑谤交至当坚守护法还是退隐保身
+  lesson: 以慈悲为怀传译密法，令真言利乐安稳众生即是报佛深恩
+  summary_first_person: 我是不空，本名智藏，幼随叔父入唐，从金刚智受密法，后奉诏译经弘密，所译诃利帝母真言法为护儿息灾安众之法，愿一切善男女离苦得安
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/西土圣贤撰集/略述金刚顶瑜伽分别圣位修证法门.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/西土圣贤撰集/略述金刚顶瑜伽分别圣位修证法门.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E8%AF%83%E5%88%A9%E5%B8%9D%E6%AF%8D%E7%9C%9F%E8%A8%80%E6%B3%95.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E8%A5%BF%E5%9C%9F%E5%9C%A3%E8%B4%A4%E6%92%B0%E9%9B%86/%E8%AF%83%E5%88%A9%E5%B8%9D%E6%AF%8D%E7%9C%9F%E8%A8%80%E6%B3%95.html
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 译述金刚顶瑜伽分别圣位修证法门
-  summary: 依毗卢遮那自受用智流出三十七尊次第译述圣位修证建立四身顿证体系
+  title_zh: 传译密典利生
+  summary_zh: 奉诏传译金刚智所授密典及诃利帝母真言法令汉地得闻持诵
   phases:
   - key: brewing
-    name: 随师入华初闻金刚界
+    name: 随叔入唐
     labels:
-      zh: 积缘学律
-    start_date: 0719
-    highlight_event_id: guji-不空-event-arrive
+      zh:
+      - 远行
+      - 发心
+    start_date: 0719-01-01
+    highlight_event_id: guji-不空-event-follow
   - key: breakthrough
-    name: 赴师子国咨受瑜伽
+    name: 承师传译
     labels:
-      zh: 求法得诀
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-seek
+      zh:
+      - 传承
+      - 译经
+    start_date: 0725-01-01
+    highlight_event_id: guji-不空-event-translate-hariti
   - key: climax
-    name: 在长安译出圣位修证法门
+    name: 奉诏弘译
     labels:
-      zh: 译经立教
-    start_date: '0756'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 弘传
+      - 利生
+    start_date: 0740-01-01
+    highlight_event_id: guji-不空-event-translate-hariti
   - key: closure
-    name: 以三十七智总摄四身果德流通
+    name: 译业圆成
     labels:
-      zh: 摄果流通
-    start_date: '0765'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 圆满
+      - 付嘱
+    start_date: 0771-01-01
+    highlight_event_id: guji-不空-event-translate-hariti
   decisions:
-  - date: '0746'
-    title_zh: 浮海赴师子国求金刚顶法
-    rationale: 欲补金刚界曼荼罗阙文必亲师受灌顶乃得真传
-  - date: '0756'
-    title_zh: 略述分别圣位以明顿证不碍次第
-    rationale: 以三十七三摩地智对三十七菩提分法令二乘次第与瑜伽顿证相会通
+  - date: 0720-01-01
+    title_zh: 决意从金刚智出家受密法
+    rationale: 见金刚智道风深信密法能速利群生故舍俗从师
+  - date: 0771-01-01
+    title_zh: 决意译出诃利帝母法
+    rationale: 悯念阎浮提妇女求子息灾之苦欲以真言满其所愿故不惮繁难译成此法
 - id: guji-不空-endeavor-2
-  title_zh: 建坛灌顶弘通真言陀罗尼宗
-  summary: 设金刚界道场为帝后臣民灌顶授戒以四摄羯磨利乐有情护国息灾
+  title_zh: 弘护密法安国佑民
+  summary_zh: 以护摩持诵祈福禳灾持戒劝善辅佐朝廷安定四方
   phases:
   - key: brewing
-    name: 承金刚智遗绪住持禅林
+    name: 受具弘学
     labels:
-      zh: 承绪住持
-    start_date: '0741'
-    highlight_event_id: guji-不空-event-arrive
+      zh:
+      - 持戒
+      - 精进
+    start_date: 0720-01-01
+    highlight_event_id: guji-不空-event-follow
   - key: breakthrough
-    name: 蒙玄宗肃宗礼遇入内立坛
+    name: 入宫传法
     labels:
-      zh: 入内建坛
-    start_date: '0747'
-    highlight_event_id: guji-不空-event-seek
+      zh:
+      - 护国
+      - 传法
+    start_date: 0742-01-01
+    highlight_event_id: guji-不空-event-translate-hariti
   - key: climax
-    name: 大兴善寺设金刚界大曼荼罗广度众
+    name: 设坛禳灾
     labels:
-      zh: 设坛普度
-    start_date: '0756'
-    highlight_event_id: guji-不空-event-translate
+      zh:
+      - 祈福
+      - 济世
+    start_date: 0755-01-01
+    highlight_event_id: guji-不空-event-translate-hariti
   - key: closure
-    name: 遗表付嘱以遍照摄众归信
+    name: 遗教利后
     labels:
-      zh: 付嘱护持
-    start_date: '0774'
+      zh:
+      - 付法
+      - 安众
+    start_date: 0774-06-15
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0747'
-    title_zh: 应诏入宫建道场受菩萨戒灌顶
-    rationale: 借朝廷护持令密教坛仪得正授而广行于世
-  - date: '0765'
-    title_zh: 以大悲愿返入生死广作供养护摩
-    rationale: 不舍有情方为金刚萨埵勇猛菩提心之实行
+  - date: 0742-01-01
+    title_zh: 决意以密法辅佐王室护国息灾
+    rationale: 感念国恩深重愿以真言护摩禳灾祈福安稳生民
+  - date: 0774-06-15
+    title_zh: 临终付嘱弟子守戒弘法
+    rationale: 恐后学懈怠失传故以菩提心戒与利生悲愿相付嘱
 events:
 - id: guji-不空-event-birth
-  type: birth
-  date: '0705'
+  title_zh: 诞生
+  date: 0705-01-01
   year_of: 705
-  title_zh: 生于北天竺
-  description: 生于北天竺婆罗门家幼失怙随叔父观光天竺诸国后遇金刚智
-- id: guji-不空-event-arrive
-  type: career
-  date: 0719
-  year_of: 719
-  title_zh: 随金刚智航海入唐至长安
-  description: 随师金刚智经南海至广州复至洛阳长安初传密教真言行法
-- id: guji-不空-event-seek
-  type: career
-  date: '0746'
-  year_of: 746
-  title_zh: 赴师子国咨受金刚顶瑜伽法
-  description: 奉诏与史元琮等赴师子国从普贤阿阇梨受金刚顶及诸瑜伽灌顶携梵本还
-- id: guji-不空-event-translate
-  type: career
-  date: '0756'
-  year_of: 756
-  title_zh: 译略述金刚顶瑜伽分别圣位修证法门
-  description: 在长安大兴善寺等译出金刚顶瑜伽三十七圣位三摩地智分别修证阐明顿证毗卢遮那身
+  place_zh: 北天竺
+  summary_zh: 唐神龙元年生于北天竺大族本名智藏幼年丧父
+- id: guji-不空-event-follow
+  title_zh: 从金刚智受法
+  date: 0720-01-01
+  year_of: 720
+  place_zh: 洛阳
+  summary_zh: 年十五拜金刚智为师受菩萨戒学密法兼通梵汉
+- id: guji-不空-event-translate-hariti
+  title_zh: 译诃利帝母真言法
+  date: 0771-01-01
+  year_of: 771
+  place_zh: 长安
+  summary_zh: 奉诏译出西土圣贤所集诃利帝母真言法详明画像坛法持诵护儿之轨
 - id: guji-不空-event-death
-  type: death
-  date: '0774'
+  title_zh: 示寂于长安
+  date: 0774-06-15
   year_of: 774
-  title_zh: 示寂于长安大兴善寺
-  description: 大历九年六月示寂代宗辍朝三日谥大慧正三藏追封肃国公
+  place_zh: 长安
+  summary_zh: 唐大历九年六月示寂世寿七十代宗辍朝三日追谥大广智三藏
