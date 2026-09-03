@@ -8,125 +8,138 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: false
-      raw: 唐神龙元年
+      is_circa: true
+      raw: 唐神龙元年左右生于南天竺
     death:
-      date: 0774-06
-      precision: month
+      date: '0774'
+      precision: year
       is_circa: false
-      raw: 唐大历九年六月
+      raw: 唐大历九年六月示寂于长安大兴善寺
   birth_date: '0705'
-  death_date: 0774-06
+  death_date: '0774'
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 译经弘密者
+  reign_ref: 唐玄宗开元至唐代宗大历
+  archetype: 译经护国高僧
   dilemmas:
-  - 密法弘传与显教纲纪如何相摄
-  - 身为胡僧如何取信朝野而广利生
-  lesson: 精严译经以立信，应机设护国利民之法
-  summary_first_person: 吾不空，西域而来入大唐，承师金刚智，译传密典，宣说末利支护国脱难之法，愿末世众生皆得覆护安隐
+  - title_zh: 梵音存真与华言易晓之衡
+    description_zh: 既欲存陀罗尼梵音功德，又欲令王臣庶民受持得益，故以消灾吉祥为方便显说
+  - title_zh: 奉诏护国与持律离俗之衡
+    description_zh: 既受诏建道场禳星护国，又守沙门清净本怀，故立结界供养仪轨以护生为护国
+  lesson: 至心依仪持诵则众灾消灭变灾为福，护国护家不离清净一心
+  summary_first_person: 我是不空，幼年来华，师事金刚智，奉三朝诏译密典，传炽盛光消灾法门，立坛结界，教人诵持百八遍乃至千遍，愿国安民吉，皆得吉祥
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说末利支提婆花鬘经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说末利支提婆花鬘经.md
+  - https://cbetaonline.dila.edu.tw/zh/T0963
+  - https://daizhige.org/fozang/qianlongzang/songyuanrucang
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 译传密部经典
-  summary: 承金刚智之学，系统译出密教仪轨经咒，奠定唐代密宗译经基础
+  title_zh: 奉诏传译炽盛光陀罗尼经
+  summary_zh: 奉诏将梵本译为汉文，宣说五星陵逼禳解之法，定百八遍乃至七日行法
   phases:
   - key: brewing
-    name: 从师受学
+    name: 师承习梵酝酿
     labels:
-      zh: 师承求法
+      zh:
+      - 习梵
+      - 受灌顶
     start_date: '0720'
     highlight_event_id: guji-不空-event-study
   - key: breakthrough
-    name: 奉诏译经
+    name: 奉诏开译突破
     labels:
-      zh: 开馆译场
-    start_date: '0740'
+      zh:
+      - 奉诏
+      - 开译
+    start_date: '0746'
     highlight_event_id: guji-不空-event-translate
   - key: climax
-    name: 译弘末利支法
+    name: 宣说消灾法门高峰
     labels:
-      zh: 宣说护国
+      zh:
+      - 宣说
+      - 利生
     start_date: '0750'
-    highlight_event_id: guji-不空-event-marici
+    highlight_event_id: guji-不空-event-translate
   - key: closure
-    name: 集成为藏
+    name: 著录流通圆成
     labels:
-      zh: 付嘱流通
-    start_date: '0770'
-    highlight_event_id: guji-不空-event-death
+      zh:
+      - 流通
+      - 护持
+    start_date: '0760'
+    highlight_event_id: guji-不空-event-protect
   decisions:
-  - date: '0740'
-    title_zh: 应请开坛译密经
-    rationale: 以正译破疑，使密法依经有据，便于流通
+  - date: '0746'
+    title_zh: 以音译存咒力以意译显功德
+    rationale: 为存陀罗尼神力故全存梵音，为令众生信受故详说消灾除难功德
   - date: '0750'
-    title_zh: 译出末利支花鬘经
-    rationale: 末世多难，须护国脱难之切要法门故特译出
+    title_zh: 制七日坛场百八遍行法
+    rationale: 使国王大臣庶民皆可依法受持，令灾难消灭不能为害
 - id: guji-不空-endeavor-2
-  title_zh: 弘扬末利支脱难法门
-  summary: 依经宣说持像持咒护身结界之行，令行旅朝野得脱王难贼难诸怖
+  title_zh: 建立护国消灾道场
+  summary_zh: 教令清净处置立道场，安置佛像结界供养，禳五星恶曜陵逼之灾
   phases:
   - key: brewing
-    name: 制像立仪
+    name: 观察星变酝酿
     labels:
-      zh: 造像结坛
-    start_date: '0750'
-    highlight_event_id: guji-不空-event-marici
-  - key: breakthrough
-    name: 教授持诵
-    labels:
-      zh: 持咒护身
+      zh:
+      - 观星
+      - 察灾
     start_date: '0755'
-    highlight_event_id: guji-不空-event-teach
+    highlight_event_id: guji-不空-event-protect
+  - key: breakthrough
+    name: 立坛结界突破
+    labels:
+      zh:
+      - 立坛
+      - 结界
+    start_date: '0760'
+    highlight_event_id: guji-不空-event-protect
   - key: climax
-    name: 普应军旅行人
+    name: 转灾为福高峰
     labels:
-      zh: 护国利民
-    start_date: 0758
-    highlight_event_id: guji-不空-event-teach
+      zh:
+      - 禳灾
+      - 获福
+    start_date: '0765'
+    highlight_event_id: guji-不空-event-protect
   - key: closure
-    name: 嘱累流通
+    name: 付嘱四众圆成
     labels:
-      zh: 结集付嘱
-    start_date: '0772'
-    highlight_event_id: guji-不空-event-death
+      zh:
+      - 付嘱
+      - 奉持
+    start_date: '0770'
+    highlight_event_id: guji-不空-event-protect
   decisions:
-  - date: '0755'
-    title_zh: 示现世护国之便行
-    rationale: 以行路王难逼切故，先示易行护身结界令得现验
-  - date: 0758
-    title_zh: 坚持斋戒仪轨不苟
-    rationale: 非净器不感，非精诚不验，故严坛像斋戒之制
+  - date: '0760'
+    title_zh: 令清净众如法建道场
+    rationale: 非清净则不感通，故请清净众香华灯烛供养结界护持
+  - date: '0765'
+    title_zh: 移灾忿怒像前加持禳解
+    rationale: 太白火星入南斗作障时，对忿怒像厉声持咒，移不顺之灾，护顺法之国
 events:
 - id: guji-不空-event-birth
+  title_zh: 诞生于南天竺
   date: '0705'
   year_of: 705
-  title_zh: 诞生于北天竺
-  description: 不空生于北天竺婆罗门家，幼失父，随叔父至大唐
+  summary_zh: 唐神龙元年左右生于南天竺狮子国，幼年丧父，随叔父来唐
 - id: guji-不空-event-study
+  title_zh: 师事金刚智受密法
   date: '0720'
   year_of: 720
-  title_zh: 师事金刚智受密法
-  description: 年十五师事金刚智，禀受瑜伽密教灌顶教法
+  summary_zh: 年十五师事金刚智三藏，受灌顶，习梵文密轨，尽得其法
 - id: guji-不空-event-translate
-  date: '0740'
-  year_of: 740
-  title_zh: 奉诏译经弘密
-  description: 承师遗绪，奉诏译金刚顶等经，设坛灌顶，声名渐著
-- id: guji-不空-event-marici
-  date: '0750'
-  year_of: 750
-  title_zh: 译佛说末利支提婆花鬘经
-  description: 于长安译出此经，详说末利支天形像印坛咒法及脱诸难之行
-- id: guji-不空-event-teach
-  date: 0758
-  year_of: 758
-  title_zh: 教授末利支护身脱难法
-  description: 教授比丘优婆塞持像持咒护身结界远行无畏之法
+  title_zh: 奉诏译炽盛光陀罗尼经
+  date: '0746'
+  year_of: 746
+  summary_zh: 以特进试鸿胪卿三藏沙门奉诏译出炽盛光大威德消灾吉祥陀罗尼经，详明禳灾仪轨
+- id: guji-不空-event-protect
+  title_zh: 建道场禳五星之灾
+  date: '0765'
+  year_of: 765
+  summary_zh: 教国王大臣于清净处立道场，诵持百八遍乃至千遍，七日行法，灾难消灭变灾为福
 - id: guji-不空-event-death
-  date: 0774-06
+  title_zh: 示寂于大兴善寺
+  date: '0774'
   year_of: 774
-  title_zh: 圆寂于长安
-  description: 大历九年六月圆寂于长安，代宗辍朝三日，赠司空谥大辨正
+  summary_zh: 唐大历九年六月示寂于长安，赠司空，谥大辨正广智三藏
