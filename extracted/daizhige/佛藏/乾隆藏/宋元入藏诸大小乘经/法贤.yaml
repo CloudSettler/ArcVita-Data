@@ -3,130 +3,130 @@ person:
   name_zh: 法贤
   names:
     zh: 法贤
-    en: Dharmabhadra
+    en: Dharmabhadra Faxian
   lifespan:
     birth:
       date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中叶
+      raw: 约北宋初生于中天竺摩揭陀
     death:
       date: '1001'
       precision: year
-      is_circa: false
-      raw: 宋咸平四年卒
+      is_circa: true
+      raw: 宋咸平四年卒于开封
   birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太祖至真宗朝
-  archetype: 译经弘法者
+  reign_ref: 宋太宗至宋真宗
+  archetype: 译经弘传者
   dilemmas:
-  - 梵本奥密而华言有限当如何传信达意
-  - 身居朝散大夫之职当如何不失沙门本怀
-  lesson: 不以官荣为念但以译经流通为报佛恩
-  summary_first_person: 我自西域来华蒙宋朝授以明教大师奉诏译经数十卷所愿众生持诵十八臂陀罗尼灭罪积福我之劳瘁不足道也
+  - 梵汉悬隔如何信达雅兼顾
+  - 密教仪轨繁密如何使中土信受奉行
+  lesson: 以信达传译利他令正法久住
+  summary_first_person: 我本天竺学僧奉法西来入宋译场蒙授明教大师之号译说圣多罗菩萨慈悲救度之法愿众生离怖得安乐
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/佛说十八臂陀罗尼经.html
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%A4%9A%E7%BD%97%E8%8F%A9%E8%90%A8%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%9C%A3%E5%A4%9A%E7%BD%97%E8%8F%A9%E8%90%A8%E7%BB%8F.html
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 奉诏译经
-  summary: 奉宋朝诏命于译场译出密教显教经典数十部
+  title_zh: 入宋译场系统传译显密经律
+  summary: 自天竺那烂陀来华入译经院与施护等共译大小乘经
   phases:
   - key: brewing
-    name: 入华习语初参译场
+    name: 西来发心
     labels:
-      zh: 入宋预备
-    start_date: 0980
+      zh: 求法发心
+    start_date: 0975
     highlight_event_id: guji-法贤-event-arrive
   - key: breakthrough
-    name: 授明教大师开译
+    name: 入院得授
     labels:
-      zh: 奉诏开译
+      zh: 译场突破
     start_date: 0982
-    highlight_event_id: guji-法贤-event-translate-shibabi
+    highlight_event_id: guji-法贤-event-enter
   - key: climax
-    name: 十八臂经成广流通
+    name: 群经并译
     labels:
-      zh: 译经高峰
+      zh: 译业高峰
     start_date: 0990
-    highlight_event_id: guji-法贤-event-translate-shibabi
+    highlight_event_id: guji-法贤-event-translate-tara
   - key: closure
-    name: 译业圆满付嘱后学
+    name: 授官旌德
     labels:
-      zh: 译业圆成
+      zh: 荣典收束
+    start_date: 0998
+    highlight_event_id: guji-法贤-event-death
+  decisions:
+  - date: 0980
+    title_zh: 决意渡海东来入宋
+    rationale: 为使正法东流不惮海陆艰辛应宋请赴译场
+  - date: 0982
+    title_zh: 改名法贤就馆译经
+    rationale: 感昭遇之恩易梵名从华号以便弘通取信于众
+- id: guji-法贤-endeavor-2
+  title_zh: 奉诏译弘圣多罗菩萨法门
+  summary: 译出圣多罗菩萨一百八名及陀罗尼开示持念观想供养之法
+  phases:
+  - key: brewing
+    name: 祈请酝酿
+    labels:
+      zh: 乾闼婆请法
+    start_date: 0995
+    highlight_event_id: guji-法贤-event-translate-tara
+  - key: breakthrough
+    name: 定名立义
+    labels:
+      zh: 慈心明王
+    start_date: 0997
+    highlight_event_id: guji-法贤-event-translate-tara
+  - key: climax
+    name: 宣说奉诏成经
+    labels:
+      zh: 一卷成经
+    start_date: 0999
+    highlight_event_id: guji-法贤-event-translate-tara
+  - key: closure
+    name: 流通受持
+    labels:
+      zh: 信受奉行
     start_date: '1000'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0982
-    title_zh: 应诏入译场定梵汉体例
-    rationale: 为使密咒音义两存须立对音与释义兼行之例
-  - date: 0990
-    title_zh: 先译观音密部安众生心
-    rationale: 见世间众生昧于实智故先译十八臂陀罗尼以灭罪集福
-- id: guji-法贤-endeavor-2
-  title_zh: 弘传观音慈悲法门
-  summary: 借译经弘扬观音菩萨大悲救苦之行愿
-  phases:
-  - key: brewing
-    name: 研习观音经典
-    labels:
-      zh: 研习观音
-    start_date: 0985
-    highlight_event_id: guji-法贤-event-arrive
-  - key: breakthrough
-    name: 宣说持诵功德
-    labels:
-      zh: 宣说功德
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-translate-shibabi
-  - key: climax
-    name: 教众持诵灭罪
-    labels:
-      zh: 劝持灭罪
-    start_date: 0995
-    highlight_event_id: guji-法贤-event-preach
-  - key: closure
-    name: 付法安众而逝
-    labels:
-      zh: 安众示寂
-    start_date: '1001'
-    highlight_event_id: guji-法贤-event-death
-  decisions:
-  - date: 0990
-    title_zh: 详说持诵灭四重罪
-    rationale: 依佛告阿难之语明示持诵能除根本罪业以启信心
-  - date: 0995
-    title_zh: 坚持显密并弘不偏废
-    rationale: 恐学人执空拨有故以陀罗尼摄持身口意三业
+  - date: 0999
+    title_zh: 以陀罗尼配名号双轨并弘
+    rationale: 显密兼顾令持诵观想皆有所依速得离怖吉祥
+  - date: '1000'
+    title_zh: 詳定仪轨受持法
+    rationale: 明示画供礼诵三时观行使中土四众易修易持
 events:
 - id: guji-法贤-event-birth
-  title_zh: 生於西域
+  title_zh: 生于中天竺
   date: 0950
   year_of: 950
-  place_zh: 天竺摩揭陀一带
-  description: 法贤生於西域后出家精通梵典为后来入宋译经之本
+  place: 中天竺摩揭陀那烂陀
+  description: 生于学僧之家少习三藏通晓梵本显密教法
 - id: guji-法贤-event-arrive
-  title_zh: 入宋参译场
+  title_zh: 抵华入宋
   date: 0980
   year_of: 980
-  place_zh: 宋京师
-  description: 随西域僧团东来入宋朝译场习华言蒙授朝散大夫试光禄卿明教大师
-- id: guji-法贤-event-translate-shibabi
-  title_zh: 译佛说十八臂陀罗尼经
-  date: 0990
-  year_of: 990
-  place_zh: 宋译经院
-  description: 奉诏译出佛说十八臂陀罗尼经一卷宣说持诵灭根本罪积无量福
-- id: guji-法贤-event-preach
-  title_zh: 宣讲观音持诵法
-  date: 0995
-  year_of: 995
-  place_zh: 京师道场
-  description: 教导缁素受持十八臂陀罗尼以忏四重罪修慈悲行
+  place: 开封
+  description: 自天竺西来应宋太宗之招赴阙求译群经
+- id: guji-法贤-event-enter
+  title_zh: 入译经院授明教大师
+  date: 0982
+  year_of: 982
+  place: 开封太平兴国寺译经院
+  description: 蒙授朝散大夫试光禄卿明教大师与施护等参译群经
+- id: guji-法贤-event-translate-tara
+  title_zh: 译出佛说圣多罗菩萨经一卷
+  date: 0999
+  year_of: 999
+  place: 开封译经院
+  description: 奉诏译香醉山会上世尊说多罗陀罗尼及一百八名开示画供持诵观想法
 - id: guji-法贤-event-death
-  title_zh: 示寂於宋
+  title_zh: 示寂于开封
   date: '1001'
   year_of: 1001
-  place_zh: 宋京师
-  description: 译经数十部后於咸平四年示寂译业由后学继承
+  place: 开封
+  description: 咸平四年示寂译业终毕门人继持其译本流通
