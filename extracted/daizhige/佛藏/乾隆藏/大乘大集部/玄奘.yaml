@@ -1,0 +1,147 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年洛州缑氏
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年二月五日长安玉华宫
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐
+  reign_ref: 唐太宗贞观至高宗麟德
+  archetype: 西行求法译经师
+  dilemmas:
+  - 生死轻置与求法重任之抉择
+  - 旧译纷执与梵本重校之辨正
+  - 声闻形与菩萨愿之权实会通
+  lesson: 轻一身性命以穷秘藏，竭诚译演以济末法，权实同归而不舍本愿。
+  summary_first_person: 我是玄奘，幼学东朝，疑经义纷执，冒禁西行，历数万艰难，穷龙宫秘藏，归蒙恩诏翻译，于永徽二年译出大乘大集地藏十轮经十卷，愿此末法之教久住成熟有情。
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/大乘大集部/大乘大集地藏十轮经.html
+  - https://zh.wikisource.org/wiki/大乘大集地藏十轮经
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西域访道求法
+  goal_zh: 穷究因明声论与瑜伽大义，索亡珠于溟渤龙宫
+  role_zh: 访道沙门
+  phases:
+  - key: brewing
+    name: 东朝学架生疑
+    labels:
+      zh: 蓄疑问道
+    start_date: '0613'
+    highlight_event_id: guji-玄奘-event-study
+  - key: breakthrough
+    name: 贞观初年偷关西出
+    labels:
+      zh: 冒禁西行
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-depart
+  - key: climax
+    name: 那烂陀穷研受学
+    labels:
+      zh: 穷研大乘
+    start_date: '0636'
+    highlight_event_id: guji-玄奘-event-study-india
+  - key: closure
+    name: 负梵本东归长安
+    labels:
+      zh: 负经东归
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-return
+  decisions:
+  - date: 0629
+    title_zh: 轻生西涉
+    rationale: 东土旧疏纷执难解，不亲梵文无以决疑，故宁蹈艰难而访道西域
+  - date: '0645'
+    title_zh: 奉表归国弘传
+    rationale: 已集如来所说菩萨所传，愿还转觉道以济群迷，故负经归朝待诏翻译
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译大乘大集地藏十轮经
+  goal_zh: 詳明旧本，明末法十轮教义，令三宝种性久住
+  role_zh: 奉诏译主
+  phases:
+  - key: brewing
+    name: 杜绝外虚详至释
+    labels:
+      zh: 染翰筹译
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-return
+  - key: breakthrough
+    name: 永徽二年重启梵文
+    labels:
+      zh: 重启梵夹
+    start_date: '0651-01-27'
+    highlight_event_id: guji-玄奘-event-translate-shilun
+  - key: climax
+    name: 八品十卷毕功处座抗谈
+    labels:
+      zh: 十卷毕功
+    start_date: '0651-12-31'
+    highlight_event_id: guji-玄奘-event-translate-shilun
+  - key: closure
+    name: 弘末法十轮永济来者
+    labels:
+      zh: 永济来者
+    start_date: '0652'
+    highlight_event_id: guji-玄奘-event-translate-shilun
+  decisions:
+  - date: '0651-01-27'
+    title_zh: 咨请重译十轮
+    rationale: 旧经谱第遗目傅人失记，旧本已有者更详明，旧本所无者具载，故请重启梵文以正末法药性
+  - date: '0651-12-31'
+    title_zh: 以十轮显护国三宝
+    rationale: 末法败根类石田臭身，当以十轮濯秽陶器，示声闻形化无惭，成三乘道果令正法久住
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 诞生洛州缑氏陈家
+  date: '0602'
+  year_of: 602
+  place_zh: 洛州缑氏
+  description_zh: 隋仁寿二年生，后为三藏法师，幼颖悟出家学经
+- id: guji-玄奘-event-study
+  title_zh: 长安从学究因明声论
+  date: '0613'
+  year_of: 613
+  place_zh: 长安
+  description_zh: 学架东朝，究立破之源穷字转之本，见旧译纷执遂生访道西域之志
+- id: guji-玄奘-event-depart
+  title_zh: 贞观三年西行出关
+  date: 0629
+  year_of: 629
+  place_zh: 凉州玉门关外
+  description_zh: 轻一生性命涉数万艰难，西涉流沙访道天竺
+- id: guji-玄奘-event-study-india
+  title_zh: 那烂陀受学瑜伽
+  date: '0636'
+  year_of: 636
+  place_zh: 中天竺那烂陀寺
+  description_zh: 从戒贤等受瑜伽唯识因明，吞法流于智海瓶泻无遗，备集大小乘秘藏
+- id: guji-玄奘-event-return
+  title_zh: 贞观十九年归长安奉诏译经
+  date: '0645'
+  year_of: 645
+  place_zh: 长安弘福寺
+  description_zh: 负梵本六百余部东归，太宗敕住弘福翻译，广开译场
+- id: guji-玄奘-event-translate-shilun
+  title_zh: 永徽二年译大乘大集地藏十轮经
+  date: '0651-01-27'
+  year_of: 651
+  place_zh: 长安
+  description_zh: 自正月乙未至十二月甲寅译毕，凡八品十卷，详明旧本以化末法，演地藏无量定力成熟有情
+- id: guji-玄奘-event-death
+  title_zh: 麟德元年寂于玉华宫
+  date: '0664-02-05'
+  year_of: 664
+  place_zh: 长安玉华宫
+  description_zh: 译经毕功后示寂，后贤传灯永济来者
