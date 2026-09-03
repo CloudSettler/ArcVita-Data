@@ -9,105 +9,130 @@ person:
       date: 0490
       precision: year
       is_circa: true
-      raw: 约四九〇年北天竺乌场国生
+      raw: 约490年北天竺生
     death:
       date: 0589
       precision: year
-      is_circa: true
-      raw: 隋开皇九年示寂
+      is_circa: false
+      raw: 隋开皇九年589年寂于洛阳
   birth_date: 0490
   death_date: 0589
-  era: 南北朝至隋
-  reign_ref: 北齐至隋文帝开皇
-  archetype: 弘法译师
+  era: 隋
+  reign_ref: 隋文帝开皇
+  archetype: 西来译经弘法者
   dilemmas:
-  - 胡汉语言悬隔而欲传大悲正法当如何译述达意
-  - 齐周隋代嬗战乱屡兴而欲护持佛眼不断当如何自处
-  lesson: 以业感缘起破除梵天造作之见以译经弘法续佛法眼令众生知诸行无常离苦得度
-  summary_first_person: 吾是北天竺乌场国比丘那连提耶舍，少出家通三藏，东入中土历齐周隋，于邺都译出大悲经等，示业所作化众生，付嘱护持佛眼不断。
+  - 天竺旧学与中土新机如何融通而不失本义
+  - 佛法付嘱久住与末世破戒扰乱之间如何坚持译弘
+  lesson: 不辞跋涉译经付法以令正法久住世间
+  summary_first_person: 吾本北天竺人幼出家精三藏慕东土弘法之缘远涉葱岭而来邺洛於北齐译经於隋译出莲华面经等法记佛将涅槃付嘱天龙护法及预示末世事唯愿碎身舍利所至众生皆种菩提善根
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E6%B6%85%E6%A7%83%E9%83%A8/%E5%A4%A7%E6%82%B2%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E6%B6%85%E6%A7%83%E9%83%A8/%E5%A4%A7%E6%82%B2%E7%BB%8F.md
+  - https://cbeta.org/T0386
+  - https://daizhige.org/lotus-face-sutra.html
 endeavors:
 - id: guji-那连提耶舍-endeavor-1
-  title_zh: 自西域东入中土弘法
-  summary: 自北天竺乌场出家学通三藏，西游诸国，东入中土，历齐邺都弘传大乘。
+  title_zh: 北齐入邺初弘译经
+  summary_zh: 自天竺西来应请东入邺都於北齐弘传三藏奠定译业根基
   phases:
   - key: brewing
-    name: 乌场出家学法
+    name: 天竺习学蓄德
     labels:
-      zh: 出家求学
+      zh: 蓄势
     start_date: 0490
     highlight_event_id: guji-那连提耶舍-event-birth
   - key: breakthrough
-    name: 西游东行至邺
+    name: 远涉东来入邺
     labels:
-      zh: 入华弘化
-    start_date: 0559
-    highlight_event_id: guji-那连提耶舍-event-arrive-ye
+      zh: 破局
+    start_date: '0557'
+    highlight_event_id: guji-那连提耶舍-event-arrival
+  - key: climax
+    name: 邺都开译化众
+    labels:
+      zh: 高潮
+    start_date: 0558
+    highlight_event_id: guji-那连提耶舍-event-ye-translate
   - key: closure
-    name: 安住邺都传法
+    name: 北周法难坚志南留
     labels:
-      zh: 安住传法
-    start_date: '0560'
-    highlight_event_id: guji-那连提耶舍-event-arrive-ye
+      zh: 收束
+    start_date: '0577'
+    highlight_event_id: guji-那连提耶舍-event-ye-translate
   decisions:
-  - date: 0559
-    title_zh: 决意东入邺都应请
-    rationale: 为令大乘正法东流，不惮道远，应齐室敬请入邺弘化
+  - date: '0557'
+    title_zh: 应请东入邺都
+    rationale: 为使大乘正法东流不惮山川险远随缘入华
+  - date: 0558
+    title_zh: 敷座开译三藏
+    rationale: 以译经为付法之本先立文字般若再谈修证
 - id: guji-那连提耶舍-endeavor-2
-  title_zh: 邺都译出大悲经弘传业感缘起
-  summary: 于高齐天竺三藏任上译出大悲经，宣说世界众生皆业所作所化，付嘱梵天护持佛眼。
+  title_zh: 隋代专译莲华面经付法
+  summary_zh: 入隋居洛专弘大乘译出莲华面经记佛付嘱天龙护法及末世因缘
   phases:
   - key: brewing
-    name: 奉诏筹备译场
+    name: 隋初徵召入洛
     labels:
-      zh: 筹备译场
-    start_date: '0560'
-    highlight_event_id: guji-那连提耶舍-event-arrive-ye
+      zh: 蓄势
+    start_date: 0581
+    highlight_event_id: guji-那连提耶舍-event-sui-summon
   - key: breakthrough
-    name: 译出大悲经梵天品商主品
+    name: 发心译莲华面经
     labels:
-      zh: 译经传法
-    start_date: '0573'
-    highlight_event_id: guji-那连提耶舍-event-translate-dabei
+      zh: 破局
+    start_date: 0586
+    highlight_event_id: guji-那连提耶舍-event-translate-lianhua
   - key: climax
-    name: 宣说业作世界弘传流布
+    name: 敷演涅槃付嘱正法久住
     labels:
-      zh: 弘传流布
-    start_date: '0573'
-    highlight_event_id: guji-那连提耶舍-event-translate-dabei
+      zh: 高潮
+    start_date: 0586
+    highlight_event_id: guji-那连提耶舍-event-translate-lianhua
   - key: closure
-    name: 隋初示寂付嘱后学
+    name: 译竟示寂留舍利之教
     labels:
-      zh: 示寂付嘱
+      zh: 收束
     start_date: 0589
     highlight_event_id: guji-那连提耶舍-event-death
   decisions:
-  - date: '0573'
-    title_zh: 决意译弘大悲经
-    rationale: 为破常见邪见立业感缘起，为续佛眼故译梵天受教商主请住之事
-  - date: 0589
-    title_zh: 以佛土付嘱护法
-    rationale: 法眼不断则佛眼不断，故以护持正法为报佛恩之要
+  - date: 0586
+    title_zh: 译出莲华面经上下二卷
+    rationale: 佛临涅槃三月付嘱帝释龙王夜叉护法并示舍利分流与末世破戒之相正宜此土亟须翻宣
+  - date: 0588
+    title_zh: 以碎身舍利供养因缘劝众发心
+    rationale: 依经中阿输迦造塔供养之义劝王臣起塔植福令见闻者种无上菩提声闻辟支善根
 events:
 - id: guji-那连提耶舍-event-birth
+  title_zh: 生於北天竺
   date: 0490
   year_of: 490
-  title_zh: 北天竺乌场国出生出家
-  description: 约四九〇年生于北天竺乌场国，少年出家，通学三藏律论大乘。
-- id: guji-那连提耶舍-event-arrive-ye
-  date: 0559
-  year_of: 5559
-  title_zh: 东入中土至邺都
-  description: 应高齐请入邺都为天竺三藏，住寺弘法，筹备译场。
-- id: guji-那连提耶舍-event-translate-dabei
-  date: '0573'
-  year_of: 573
-  title_zh: 译出大悲经
-  description: 于邺都译出大悲经，宣佛临涅槃教诫阿难，破梵天造作之见，立业作业化，记商主悲愍辟支佛事。
+  place_zh: 北天竺乌阇衍那
+  description_zh: 约490年生於北天竺幼年出家精研三藏通达大乘
+- id: guji-那连提耶舍-event-arrival
+  title_zh: 远涉而来至邺都
+  date: '0557'
+  year_of: 557
+  place_zh: 邺都
+  description_zh: 自天竺经西域远来於北齐天保末至邺都受到敬礼开始译经
+- id: guji-那连提耶舍-event-ye-translate
+  title_zh: 北齐邺都开译众经
+  date: '0560'
+  year_of: 560
+  place_zh: 邺都天平寺
+  description_zh: 於邺都译出大集月藏等经敷座讲授奠定名德历北周法难而不改其志
+- id: guji-那连提耶舍-event-sui-summon
+  title_zh: 入隋被召居洛
+  date: 0581
+  year_of: 581
+  place_zh: 洛阳
+  description_zh: 隋受禅徵召入洛居太兴善寺与达摩笈多等共参译事
+- id: guji-那连提耶舍-event-translate-lianhua
+  title_zh: 译出莲华面经
+  date: 0586
+  year_of: 586
+  place_zh: 洛阳
+  description_zh: 译出莲华面经上下二卷记佛於毗舍离至波波城示三月后涅槃分舍利向天龙夜叉阎浮提并付嘱帝释娑伽罗龙王四天王护法及预记末世破戒事
 - id: guji-那连提耶舍-event-death
+  title_zh: 寂於洛阳
   date: 0589
   year_of: 589
-  title_zh: 隋开皇中示寂
-  description: 历齐周入隋，隋开皇九年示寂于中土，译业流传后世。
+  place_zh: 洛阳
+  description_zh: 隋开皇九年寂於洛阳世寿约百岁译业既竟以付法久住之愿而终
