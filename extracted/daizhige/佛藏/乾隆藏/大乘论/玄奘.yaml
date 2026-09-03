@@ -9,117 +9,138 @@ person:
       date: '0602'
       precision: year
       is_circa: false
-      raw: 隋仁寿二年洛州缑氏生
+      raw: 隋仁寿二年生于洛州缑氏
     death:
-      date: '0664-02-14'
+      date: '0664-02-05'
       precision: day
       is_circa: false
-      raw: 唐麟德元年正月初九寂于玉华宫
+      raw: 唐麟德元年二月五日寂于玉华宫
   birth_date: '0602'
-  death_date: '0664-02-14'
+  death_date: '0664-02-05'
   era: 唐
   reign_ref: 唐太宗贞观至唐高宗麟德
-  archetype: 求法译经弘法者
+  archetype: 西行求法译经大师
   dilemmas:
-  - 冒禁西行求法与安居中土之抉择
-  - 显大乘体大为真佛语与简别声闻乘之抉择
-  lesson: 为利自他法久住，以十相殊胜总摄大乘要义，证大乘真是佛语
-  summary_first_person: 吾为穷究大乘体大，西行求法，归而奉诏译无性菩萨摄大乘论释，稽首大觉，略释摄大乘，令正法久住
+  - 中土众师异义纷纭欲求瑜伽正传须冒禁西行
+  - 朝廷高官厚禄相邀与毕生译场弘法之间舍官就译
+  lesson: 以信解行证贯通知见以颂摄义文约义周利乐有情
+  summary_first_person: 我本缑氏陈氏子幼从兄出家长安受具见中土圣教阙文疑义难决遂冒禁西行遍历五天竺亲承戒贤瑜伽正法归国蒙诏译经将无著菩萨显扬圣教要义摄为颂文愿令后学易晓易持
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E6%91%84%E5%A4%A7%E4%B9%98%E8%AE%BA%E9%87%8A.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E8%AE%BA/%E6%91%84%E5%A4%A7%E4%B9%98%E8%AE%BA%E9%87%8A.html
+  - https://daizhige.org/显扬圣教论颂.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/显扬圣教论颂.md
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行印度求法取经
+  title_zh: 西行五印求取瑜伽正法
+  summary_zh: 贞观初年偷关西出遍历西域天竺师事戒贤得瑜伽师地正传携梵本东归
   phases:
   - key: brewing
-    name: 长安究学发愿西行
+    name: 长安问道发愿西行
     labels:
-      zh: 酝酿
-    start_date: '0626'
+      zh:
+      - 问道发愿
+    start_date: 0618
     highlight_event_id: guji-玄奘-event-xixing
   - key: breakthrough
-    name: 偷渡玉门出西域
+    name: 偷渡玉门遍历西域
     labels:
-      zh: 突破
-    start_date: 0629
+      zh:
+      - 艰难西进
+    start_date: '0629-08-01'
     highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 那烂陀从戒贤学唯识
+    name: 那烂陀受学瑜伽师地
     labels:
-      zh: 高峰
-    start_date: '0633'
-    highlight_event_id: guji-玄奘-event-return
+      zh:
+      - 受学证义
+    start_date: '0631-01-01'
+    highlight_event_id: guji-玄奘-event-qiufa
   - key: closure
-    name: 负经东归达长安
+    name: 负梵本东归长安
     labels:
-      zh: 收束
-    start_date: '0643'
+      zh:
+      - 载誉东归
+    start_date: '0643-01-01'
     highlight_event_id: guji-玄奘-event-return
   decisions:
-  - date: 0629
-    title_zh: 冒禁西行
-    rationale: 为善入大乘究所知依阿赖耶识等义，不惧禁令，远赴印度求真法
-  - date: '0633'
-    title_zh: 师从戒贤学瑜伽唯识
-    rationale: 为通达所知相三种自性及唯识性，依止正师决择修学
+  - date: '0629-08-01'
+    title_zh: 冒禁偷关西行求法
+    rationale: 中土经阙疑义丛生不亲印土无以决疑宁触国禁不违本愿
+  - date: '0631-01-01'
+    title_zh: 久住那烂陀师从戒贤
+    rationale: 欲得瑜伽正传须依耆宿久学穷源故留住五年精研师地
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译释摄大乘论
+  title_zh: 奉诏译经弘显扬圣教
+  summary_zh: 归国后居弘福大慈恩玉华专事译经译显扬圣教论颂等以颂摄长行要义
   phases:
   - key: brewing
-    name: 太宗建译场立规制
+    name: 弘福开馆初创译场
     labels:
-      zh: 酝酿
-    start_date: '0645'
+      zh:
+      - 开馆译经
+    start_date: '0645-02-01'
     highlight_event_id: guji-玄奘-event-return
   - key: breakthrough
-    name: 开译无性摄大乘论释
+    name: 大慈恩立宗弘唯识
     labels:
-      zh: 突破
-    start_date: 0648
+      zh:
+      - 立宗弘法
+    start_date: '0648-01-01'
     highlight_event_id: guji-玄奘-event-translate
   - key: climax
-    name: 阐十相殊胜证真佛语
+    name: 奉诏译显扬圣教论颂
     labels:
-      zh: 高峰
-    start_date: '0648-06-01'
+      zh:
+      - 摄义成颂
+    start_date: '0649-06-01'
     highlight_event_id: guji-玄奘-event-translate
   - key: closure
-    name: 四十五卷成流通后世
+    name: 玉华清修毕生译业
     labels:
-      zh: 收束
-    start_date: 0649
-    highlight_event_id: guji-玄奘-event-translate
+      zh:
+      - 竭力译场
+    start_date: '0659-01-01'
+    highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0648
-    title_zh: 略释摄大乘以利自他
-    rationale: 稽首大觉诸如来，为利自他法久住，以十义总摄大乘所有要义
-  - date: 0648
-    title_zh: 奉诏直译无性释论
-    rationale: 为显大乘体大甚深高广，依阿毗达磨大乘经，遮声闻乘，立大乘真是佛语
+  - date: '0645-02-01'
+    title_zh: 辞官不受坚持译经
+    rationale: 太宗劝仕不就愿以译经报国利生方为真报恩行
+  - date: '0649-06-01'
+    title_zh: 以颂体译显扬圣教要义
+    rationale: 长行浩博学者难周以颂摄事净义等十一品文约义周令易晓易持
 events:
 - id: guji-玄奘-event-birth
+  title_zh: 诞生洛州缑氏陈家
   date: '0602'
   year_of: 602
-  title_zh: 诞生于洛州缑氏
-  description: 隋仁寿二年生于洛州缑氏，俗姓陈，少出家究摄论涅槃，立志西行求法
+  place_zh: 隋洛州缑氏
+  description_zh: 隋仁寿二年生幼聪慧随兄长捷入净土寺研习摄论毗昙
 - id: guji-玄奘-event-xixing
+  title_zh: 冒禁出关西行求法
   date: '0629-08-01'
   year_of: 629
-  title_zh: 冒禁西行出玉门
-  description: 唐贞观三年自长安西行，历凉州瓜州偷渡玉门，经西域赴印度求阿毗达磨大乘要义
+  place_zh: 凉州玉门关外
+  description_zh: 贞观三年趁灾荒西出偷渡五烽履沙河经高昌龟兹凌雪岭入印度境
+- id: guji-玄奘-event-qiufa
+  title_zh: 那烂陀师事戒贤学瑜伽
+  date: '0631-01-01'
+  year_of: 631
+  place_zh: 中天竺那烂陀寺
+  description_zh: 亲承百岁戒贤授瑜伽师地论显扬圣教论等兼学因明声明遍历五印问学
 - id: guji-玄奘-event-return
-  date: '0645-01-01'
+  title_zh: 携梵本东归献于长安
+  date: '0645-02-01'
   year_of: 645
-  title_zh: 负经东归至长安
-  description: 唐贞观十九年携六百余部经归长安，太宗亲迎，敕建大慈恩寺译场专事翻译
+  place_zh: 唐京师长安弘福寺
+  description_zh: 贞观十九年正月还至长安太宗亲迎敕住弘福寺翻译赍回梵本六百余部
 - id: guji-玄奘-event-translate
-  date: '0648-06-01'
-  year_of: 648
-  title_zh: 奉诏译摄大乘论释
-  description: 奉诏译无性菩萨造摄大乘论释，开释总标纲要，演所知依阿赖耶识，所知相三自性，唯识性，六波罗蜜，十地三学，无住涅槃三身，以十处显大乘异声闻最胜
+  title_zh: 奉诏译显扬圣教论颂一卷
+  date: '0649-06-01'
+  year_of: 649
+  place_zh: 大慈恩寺翻经院
+  description_zh: 将无著菩萨造显扬圣教论要义摄为颂文分摄事摄净义等十一品慈悲显扬令文约义周
 - id: guji-玄奘-event-death
-  date: '0664-02-14'
+  title_zh: 寂于玉华宫嘉寿寺
+  date: '0664-02-05'
   year_of: 664
-  title_zh: 寂于玉华宫嘉寿殿
-  description: 唐麟德元年正月初九寂于玉华宫，译经七十余部一千三百余卷，摄大乘论释流通后世
+  place_zh: 唐坊州玉华宫
+  description_zh: 麟德元年二月五日寂译经七十五部一千三百三十五卷门人窥基等传其唯识正法
