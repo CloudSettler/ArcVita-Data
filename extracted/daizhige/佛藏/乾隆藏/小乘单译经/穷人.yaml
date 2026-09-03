@@ -1,0 +1,147 @@
+person:
+  qid: guji-穷人
+  name_zh: 穷人
+  names:
+    zh: 穷人
+    en: Poor treasure seeker sheltered by sandalwood
+  lifespan:
+    birth:
+      date: -0620-01-01
+      precision: year
+      is_circa: true
+      raw: 佛世时生约前六世纪
+    death:
+      date: -0560-05-01
+      precision: year
+      is_circa: true
+      raw: 导伐栴檀时为树枝所杀
+  birth_date: -0620-01-01
+  death_date: -0560-05-01
+  era: 佛世
+  reign_ref: 释迦牟尼佛在维耶梨国时
+  archetype: 忘恩背誓受报者
+  dilemmas:
+  - 守不泄树名之誓以报活命恩还是泄香以求封侯富贵
+  - 思亲还乡宣扬树恩与缄口守密全身远害之间如何取舍
+  lesson: 背恩违誓贪赏泄密终受其殃罪福报应如影随形
+  summary_first_person: 我随五百人入海采宝还经深山因卧熟失伴遇雪困厄蒙栴檀树神留养三月得金还乡后因贪王重赏泄露树名导人伐树终为树枝所杀以肝血祠树方知违誓背恩必受报应
+  source_urls:
+  - https://daizhige.org/佛藏/乾隆藏/小乘单译经/佛说栴檀树经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/小乘单译经/佛说栴檀树经.md
+endeavors:
+- id: guji-穷人-endeavor-1
+  person_qid: guji-穷人
+  title_zh: 入海失伴蒙栴檀庇护还乡
+  description: 随众入海采宝步还经山失伴雪困蒙树神给衣食留至春受金还乡
+  phases:
+  - key: brewing
+    name: 随众采宝经山
+    labels:
+      zh:
+      - 采宝同行
+    start_date: -0561-10-01
+    highlight_event_id: guji-穷人-event-lost
+  - key: breakthrough
+    name: 失伴雪困遇神
+    labels:
+      zh:
+      - 穷厄呼天
+    start_date: -0561-12-15
+    highlight_event_id: guji-穷人-event-lost
+  - key: climax
+    name: 留树三月受养
+    labels:
+      zh:
+      - 蒙恩受养
+    start_date: -0561-12-20
+    highlight_event_id: guji-穷人-event-sheltered
+  - key: closure
+    name: 受金还乡团聚
+    labels:
+      zh:
+      - 还乡团聚
+    start_date: -0560-03-10
+    highlight_event_id: guji-穷人-event-sheltered
+  decisions:
+  - date: -0561-12-15
+    title_zh: 困厄留止树下
+    rationale: 失径穷厄无所归唯树神许给衣食至春故留以全身命
+  - date: -0560-03-10
+    title_zh: 启神受金还乡
+    rationale: 受恩三月思念二亲在土愿还故受金饼依言还乡
+- id: guji-穷人-endeavor-2
+  person_qid: guji-穷人
+  title_zh: 背誓泄香导伐受报丧命
+  description: 还乡后闻王病募香贪封侯尚主诣王泄露树名导使伐树终被树枝杀以肝血祠树
+  phases:
+  - key: brewing
+    name: 闻募贪赏
+    labels:
+      zh:
+      - 贪赏动心
+    start_date: -0560-04-01
+    highlight_event_id: guji-穷人-event-betray
+  - key: breakthrough
+    name: 泄名导伐
+    labels:
+      zh:
+      - 背誓泄密
+    start_date: -0560-04-20
+    highlight_event_id: guji-穷人-event-betray
+  - key: climax
+    name: 树倒被杀
+    labels:
+      zh:
+      - 以身受报
+    start_date: -0560-05-01
+    highlight_event_id: guji-穷人-event-death
+  - key: closure
+    name: 肝血祠树病愈
+    labels:
+      zh:
+      - 报应彰显
+    start_date: -0560-05-10
+    highlight_event_id: guji-穷人-event-death
+  decisions:
+  - date: -0560-04-01
+    title_zh: 诣王自言知香处
+    rationale: 闻得香者拜封侯妻小女贪禄重故违神重言誓而自陈
+  - date: -0560-04-20
+    title_zh: 引使至树泄名
+    rationale: 欲成伐取之功不顾树神不须道之诫终导使至栴檀所
+events:
+- id: guji-穷人-event-birth
+  person_qid: guji-穷人
+  title_zh: 穷人出生
+  date: -0620-01-01
+  year_of: -620
+  type: birth
+  description: 生于佛世时本土后为采宝谋生成为五百人中之一
+- id: guji-穷人-event-lost
+  person_qid: guji-穷人
+  title_zh: 失伴雪困山中
+  date: -0561-12-15
+  year_of: -561
+  type: career
+  description: 随五百人采宝还经深山日暮宿卧熟失辈遇雨雪失径穷厄啼哭呼天
+- id: guji-穷人-event-sheltered
+  person_qid: guji-穷人
+  title_zh: 蒙树神养三月受金还乡
+  date: -0560-03-10
+  year_of: -560
+  type: career
+  description: 蒙栴檀树神留给衣食至三月启神还乡得金一饼问树名神诫不须道而告以栴檀能治百病
+- id: guji-穷人-event-betray
+  person_qid: guji-穷人
+  title_zh: 贪赏泄露导伐
+  date: -0560-04-20
+  year_of: -560
+  type: career
+  description: 国王头痛募栴檀香许封侯尚主诣王自陈引近臣往伐违背树神誓言
+- id: guji-穷人-event-death
+  person_qid: guji-穷人
+  title_zh: 树倒被杀肝血祠树
+  date: -0560-05-01
+  year_of: -560
+  type: death
+  description: 使者伐树树倒枝杀穷人使者以其血肝肠祠树如神敕树复生王病得愈
