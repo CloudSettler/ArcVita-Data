@@ -9,98 +9,162 @@ person:
       date: 0415-01-01
       precision: year
       is_circa: true
-      raw: 约四一五年凉州生
+      raw: 約劉宋初年北涼王族
     death:
-      date: 0470-01-01
+      date: 0473-01-01
       precision: year
       is_circa: true
-      raw: 约四七〇年宋地卒
+      raw: 約劉宋泰始年間建康
   birth_date: 0415-01-01
-  death_date: 0470-01-01
-  era: 刘宋
+  death_date: 0473-01-01
+  era: 南北朝劉宋
   reign_ref: 宋文帝元嘉
-  archetype: 译经居士
+  archetype: 王子譯師
   dilemmas:
-  - 国破南渡何以安身立命
-  - 在俗居士何以弘法利世
-  lesson: 守孝慈施兼静寂博学以法施为最永度无穷
-  summary_first_person: 吾本凉州沮渠氏子，凉亡南渡寄居宋地为居士，常念静寂默定与博学讲论不可懈，译出佛说进学经一卷，劝行孝养父母，慈心不杀，惠施济乏，捐荣履道四雅行，兼弘饮食法施二施，愿自洗尘著并净他人，同至无为
+  - title_zh: 國破之後何去何從
+    description_zh: 北涼衰微之際是留戀故國王位還是南歸建康專心佛法
+  - title_zh: 譯經之時文質如何取捨
+    description_zh: 譯胡為漢之時是直存梵本質樸還是潤文適俗以勸信眾持戒
+  lesson: 持戒重在實行一日一夜清淨八關亦積無量福德
+  summary_first_person: 吾本涼州宗室子南歸入宋不戀王位惟願譯經弘戒以聖八關齋教人離殺盜淫妄酒齋高床歌舞一日一夜修慈愍行
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%BF%9B%E5%AD%A6%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%BF%9B%E5%AD%A6%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%85%AB%E5%85%B3%E6%96%8B%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E5%85%AB%E5%85%B3%E6%96%8B%E7%BB%8F.md
 endeavors:
 - id: guji-沮渠京声-endeavor-1
   person_id: guji-沮渠京声
-  title_zh: 南渡入宋习学佛法
+  title_zh: 南歸建康譯出八關齋經
+  summary_zh: 於元嘉年間在建康譯出八關齋經一卷明阿羅漢八行及一日一夜功德
   phases:
   - key: brewing
-    name: 凉亡南渡寄居建康
+    name: 王子南渡寄寓建康
     labels:
       zh:
-      - 流离自立
+      - 流離
+      - 發心
     start_date: 0439-01-01
-    highlight_event_id: guji-沮渠京声-event-1
+    highlight_event_id: guji-沮渠京声-event-nandu
   - key: breakthrough
-    name: 亲近译场兼修定学
+    name: 通曉胡漢留心律藏
     labels:
       zh:
-      - 学佛进修
-    start_date: 0445-01-01
-    highlight_event_id: guji-沮渠京声-event-1
+      - 習語
+      - 覽藏
+    start_date: 0442-01-01
+    highlight_event_id: guji-沮渠京声-event-start-translate
+  - key: climax
+    name: 譯定八關齋經流通
+    labels:
+      zh:
+      - 譯經
+      - 定本
+    start_date: 0449-01-01
+    highlight_event_id: guji-沮渠京声-event-translate-baguan
+  - key: closure
+    name: 付囑奉行歡喜流通
+    labels:
+      zh:
+      - 付囑
+      - 流通
+    start_date: 0450-01-01
+    highlight_event_id: guji-沮渠京声-event-translate-baguan
   decisions:
-  - date: 0439-01-01
-    title_zh: 舍凉土荣居宋地守戒
-    rationale: 国破不恋荣华愿以佛法安身立命守仁行慈
-  - date: 0445-01-01
-    title_zh: 兼修默定与讲论
-    rationale: 闲宴大众心行不懈静寂博学并进方能自净
+  - date: 0442-01-01
+    title_zh: 捨王位而專譯業
+    rationale: 國破家亡之後以譯經續慧命勝於戀位故留建康學佛
+  - date: 0449-01-01
+    title_zh: 先譯戒經以勸俗行
+    rationale: 世尊在祇園說聖八關齋功德不可限量故先譯此經令人日日可修
 - id: guji-沮渠京声-endeavor-2
   person_id: guji-沮渠京声
-  title_zh: 译弘进学经劝修雅行
+  title_zh: 弘傳齋戒教化士庶
+  summary_zh: 以八關齋一日一夜不殺不盜不淫不妄不酒不非時食不高床不歌舞教化南北士庶
   phases:
+  - key: brewing
+    name: 觀察時俗勸修齋法
+    labels:
+      zh:
+      - 觀察
+      - 立願
+    start_date: 0450-01-01
+    highlight_event_id: guji-沮渠京声-event-translate-baguan
+  - key: breakthrough
+    name: 開示五河喻顯福大
+    labels:
+      zh:
+      - 說法
+      - 喻顯
+    start_date: 0452-01-01
+    highlight_event_id: guji-沮渠京声-event-preach
   - key: climax
-    name: 译出进学经敷散经典
+    name: 士女受齋奉行日盛
     labels:
       zh:
-      - 译经弘法
+      - 受齋
+      - 教化
     start_date: 0455-01-01
-    highlight_event_id: guji-沮渠京声-event-2
+    highlight_event_id: guji-沮渠京声-event-preach
   - key: closure
-    name: 弘扬四雅行二施法施
+    name: 功成隱退以戒終老
     labels:
       zh:
-      - 劝善化俗
-    start_date: 0456-01-01
-    highlight_event_id: guji-沮渠京声-event-2
+      - 隱退
+      - 持戒
+    start_date: 0465-01-01
+    highlight_event_id: guji-沮渠京声-event-death
   decisions:
+  - date: 0452-01-01
+    title_zh: 以一日一夜攝眾入道
+    rationale: 在家男女難盡形持戒故教以一日一夜八關齋漸生慈心慚愧心
   - date: 0455-01-01
-    title_zh: 译佛说进学经一卷
-    rationale: 食施安身法施迁神以法施为最愿普令得闻
-  - date: 0456-01-01
-    title_zh: 劝行孝慈施道超俗崇寂
-    rationale: 四雅行乃智者所遵丈夫所修当普令受持永度无穷
+    title_zh: 不立宗派只勸奉行
+    rationale: 經末言聞佛所說歡喜奉行故不爭義理但勸實行以報佛恩
 events:
 - id: guji-沮渠京声-event-birth
   person_id: guji-沮渠京声
+  type: birth
+  title_zh: 生於涼州姑臧王族
   date: 0415-01-01
   year_of: 415
-  title_zh: 出生凉州沮渠氏
-  description_zh: 约四一五年出生于凉州卢水沮渠氏，为北凉宗室子弟，少习胡汉文字
-- id: guji-沮渠京声-event-1
+  location_zh: 涼州姑臧
+  description_zh: 生為北涼宗室子少習胡漢文字雅好佛法喜慈愍眾生
+- id: guji-沮渠京声-event-nandu
   person_id: guji-沮渠京声
+  type: career
+  title_zh: 北涼衰微南歸劉宋
   date: 0439-01-01
   year_of: 439
-  title_zh: 凉亡南渡至建康学佛
-  description_zh: 北凉沦丧后南渡入刘宋，寄居建康，亲近僧众，兼修贤圣默定与博学讲论
-- id: guji-沮渠京声-event-2
+  location_zh: 建康
+  description_zh: 北涼既衰南渡入宋寄寓建康專心研習佛典不求仕進
+- id: guji-沮渠京声-event-start-translate
   person_id: guji-沮渠京声
+  type: career
+  title_zh: 留心譯業通曉三語
+  date: 0442-01-01
+  year_of: 442
+  location_zh: 建康
+  description_zh: 精通胡漢語言遍覽經律留心戒行發願譯經利俗
+- id: guji-沮渠京声-event-translate-baguan
+  person_id: guji-沮渠京声
+  type: career
+  title_zh: 譯出八關齋經一卷
+  date: 0449-01-01
+  year_of: 449
+  location_zh: 建康
+  description_zh: 譯世尊在舍衛祇園說聖八關齋法明不殺不盜不淫不妄不酒不非時食不高床不歌舞香飾及五大河喻福德不可稱計
+- id: guji-沮渠京声-event-preach
+  person_id: guji-沮渠京声
+  type: career
+  title_zh: 開示齋法教化士女
   date: 0455-01-01
   year_of: 455
-  title_zh: 译出佛说进学经一卷
-  description_zh: 于宋地译出佛说进学经，宣说四雅行二法二施，言法施为最，众比丘欢喜受教
+  location_zh: 建康及江南
+  description_zh: 為信族姓子族姓女說受齋儀軌教以自稱名號效阿羅漢慈心愍物歡喜奉行者眾
 - id: guji-沮渠京声-event-death
   person_id: guji-沮渠京声
-  date: 0470-01-01
-  year_of: 470
-  title_zh: 示寂于宋地
-  description_zh: 约四七〇年示寂于刘宋境内，一生以居士身译经弘法，遗教在进学劝修
+  type: death
+  title_zh: 持戒終老於建康
+  date: 0473-01-01
+  year_of: 473
+  location_zh: 建康
+  description_zh: 晚年隱退持守齋戒以終所譯八關齋經一卷流傳後世收入小乘單譯經中
