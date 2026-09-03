@@ -1,0 +1,118 @@
+person:
+  qid: guji-大迦叶
+  name_zh: 大迦叶
+  names:
+    zh: 大迦叶
+    en: Mahakasyapa
+  lifespan:
+    birth:
+      date: '-0552'
+      precision: year
+      is_circa: true
+      raw: 约公元前五五二年
+    death:
+      date: '-0472'
+      precision: year
+      is_circa: true
+      raw: 约公元前四七二年
+  birth_date: '-0552'
+  death_date: '-0472'
+  era: 东周春秋
+  reign_ref: 周景王
+  archetype: 头陀传法者
+  dilemmas:
+  - 独修头陀与普度群生如何兼顾
+  - 严持净戒与慈愍破戒者如何平衡
+  lesson: 尊重佛法亲近善师远离谤法，以平等慈心集一切善根续佛慧命
+  summary_first_person: 吾乃大迦叶波，于王舍鹫峰从佛问正法，蒙示四法辨邪正明因果，后以头陀苦行统众结集，愿入鸡足待慈氏下生
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E8%BF%A6%E5%8F%B6%E9%97%AE%E5%A4%A7%E5%AE%9D%E7%A7%AF%E6%AD%A3%E6%B3%95%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E8%BF%A6%E5%8F%B6%E9%97%AE%E5%A4%A7%E5%AE%9D%E7%A7%AF%E6%AD%A3%E6%B3%95%E7%BB%8F.md
+endeavors:
+- id: guji-大迦叶-endeavor-1
+  title_zh: 鹫峰请问宝积正法
+  summary: 于王舍鹫峰请佛开示四法分别，辨坏慧与增慧迷障与出生菩提心之行
+  phases:
+  - key: brewing
+    name: 安住众中请问
+    labels:
+      zh: 请问发端
+    start_date: -0497
+    highlight_event_id: guji-大迦叶-event-wenfa
+  - key: breakthrough
+    name: 蒙佛广说四法
+    labels:
+      zh: 闻法受持
+    start_date: -0497
+    highlight_event_id: guji-大迦叶-event-wenfa
+  - key: closure
+    name: 依教奉行流布
+    labels:
+      zh: 持法弘传
+    start_date: -0496
+    highlight_event_id: guji-大迦叶-event-wenfa
+  decisions:
+  - date: -0497
+    title_zh: 于大众中咨问坏慧增慧之别
+    rationale: 愍念末世菩萨迷障菩提，故发问以显正邪令得抉择
+  - date: -0496
+    title_zh: 受持四藏四摄远离魔道
+    rationale: 欲集一切善根生无碍智，故依空无我悲愿而行
+- id: guji-大迦叶-endeavor-2
+  title_zh: 结集法藏续佛慧命
+  summary: 佛灭后召集众圣结集三藏，统领僧团以头陀戒德护持正法
+  phases:
+  - key: brewing
+    name: 佛灭悲恸召众
+    labels:
+      zh: 筹谋结集
+    start_date: -0483
+    highlight_event_id: guji-大迦叶-event-jieji
+  - key: climax
+    name: 王舍窟内结集
+    labels:
+      zh: 结集正法
+    start_date: -0483
+    highlight_event_id: guji-大迦叶-event-jieji
+  - key: closure
+    name: 入鸡足待慈氏
+    labels:
+      zh: 付嘱归隐
+    start_date: '-0472'
+    highlight_event_id: guji-大迦叶-event-death
+  decisions:
+  - date: -0483
+    title_zh: 决意结集经律论
+    rationale: 恐正法散失外道扰乱，故集阿难优波离等诵出法藏
+  - date: '-0472'
+    title_zh: 持衣入鸡足山定
+    rationale: 不入涅槃愿以神力持身待弥勒，以续佛嘱护持法脉
+events:
+- id: guji-大迦叶-event-birth
+  title_zh: 诞生于摩揭陀竹种
+  date: '-0552'
+  year_of: -362
+  type: birth
+  description: 相传生于摩揭陀国婆罗门家，具足威仪后出家从佛行头陀第一
+  endeavor_ref: guji-大迦叶-endeavor-1
+- id: guji-大迦叶-event-wenfa
+  title_zh: 鹫峰问宝积正法
+  date: -0497
+  year_of: -0497
+  type: career
+  description: 于王舍鹫峰请问四种坏慧增慧及菩萨违犯善友等法，佛广说譬喻开示
+  endeavor_ref: guji-大迦叶-endeavor-1
+- id: guji-大迦叶-event-jieji
+  title_zh: 王舍城结集法藏
+  date: -0483
+  year_of: -0483
+  type: career
+  description: 佛灭后召五百圣众于七叶窟结集，令阿难诵经优波离诵律
+  endeavor_ref: guji-大迦叶-endeavor-2
+- id: guji-大迦叶-event-death
+  title_zh: 入鸡足山示寂
+  date: '-0472'
+  year_of: -314
+  type: death
+  description: 以神通持迦裟入鸡足山入定，待弥勒下生传衣付嘱
+  endeavor_ref: guji-大迦叶-endeavor-2
