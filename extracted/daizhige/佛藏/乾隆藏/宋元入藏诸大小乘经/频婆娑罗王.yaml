@@ -6,135 +6,136 @@ person:
     en: Bimbisara
   lifespan:
     birth:
-      date: '-0543'
+      date: -355
       precision: year
       is_circa: true
-      raw: 约公元前543年
+      raw: 约公元前五四三年
     death:
       date: -0491
       precision: year
       is_circa: true
-      raw: 约公元前491年
-  birth_date: '-0543'
+      raw: 约公元前四九一年
+  birth_date: -355
   death_date: -0491
-  era: 东周景王至敬王时古印度摩揭陀国
-  reign_ref: 摩揭陀国哈良卡王朝君主
-  archetype: 护法圣王型初果圣者
+  era: 印度列国时代
+  reign_ref: 摩揭陀国王
+  archetype: 护法圣王
   dilemmas:
-  - 王位政务繁重与一心向佛奉僧如何兼顾不放逸
-  - 命终之后国中空廓所生何处果报如何无人能说
-  lesson: 深信微妙正法奉行不放逸虽处王位亦能证须陀洹不堕恶趣终向解脱
-  summary_first_person: 我是频婆娑罗王，一心向佛知法奉僧尽寿不忘，命终之后第七生转生毗沙门天宫名人仙，深信佛法证得须陀洹果当来证斯陀含果，特来为阿难说摩揭陀诸优婆塞去处。
+  - 王者威仪与求法谦卑如何抉择
+  - 五欲饮食之乐与涅槃寂静如何取舍
+  lesson: 舍慢求法方得法眼清净，终生护持成就弘化
+  summary_first_person: 我是摩揭陀国频婆娑罗王，亲往杖林山礼佛听法，得远尘离垢法眼清净，归依佛法僧受近事戒，并请佛入王舍城终生供养
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%BA%BA%E4%BB%99%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%BA%BA%E4%BB%99%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E9%A2%91%E5%A9%86%E5%A8%91%E7%BD%97%E7%8E%8B%E7%BB%8F.html
 endeavors:
 - id: guji-频婆娑罗王-endeavor-1
-  title_zh: 摩揭陀作法王护持正觉地
-  description_zh: 以摩揭陀国王身份归依佛法僧，护持佛陀成道之地，尽寿念佛不忘，被国人赞为法王。
+  title_zh: 嗣位摩揭陀建都王舍城
+  summary_zh: 继位摩揭陀国王，建都王舍城，统领群臣眷属，安国理民，为后日亲近佛法奠定国力
   phases:
   - key: brewing
-    name: 归依闻法
+    name: 生于王家嗣承大位
+    labels:
+      zh:
+      - 出身
+      - 嗣位
+    start_date: -355
+    highlight_event_id: guji-频婆娑罗王-event-birth
+  - key: breakthrough
+    name: 建都王舍威服列国
+    labels:
+      zh:
+      - 建都
+      - 理政
+    start_date: -336
+    highlight_event_id: guji-频婆娑罗王-event-visit
+  - key: climax
+    name: 国势鼎盛车驾万乘
+    labels:
+      zh:
+      - 盛世
+      - 威仪
+    start_date: -0528
+    highlight_event_id: guji-频婆娑罗王-event-visit
+  - key: closure
+    name: 以国力护持佛法僧
+    labels:
+      zh:
+      - 护国
+      - 护法
+    start_date: -0528
+    highlight_event_id: guji-频婆娑罗王-event-refuge
+  decisions:
+  - date: -336
+    title_zh: 定都王舍城安邦理民
+    rationale: 据险建都以安社稷，聚臣佐眷属以兴国力
+  - date: -0528
+    title_zh: 舍王者常仪轻驾听法
+    rationale: 闻佛住杖林山，不循常时严驾万乘亲往求法，以示敬重
+- id: guji-频婆娑罗王-endeavor-2
+  title_zh: 杖林听法归依请佛供养
+  summary_zh: 率臣民往杖林山灵塔礼佛，除王者相三自称名，听五蕴无我法得法眼净，受近事戒请佛入城终生供养
+  phases:
+  - key: brewing
+    name: 闻佛住杖林思往听法
+    labels:
+      zh:
+      - 闻法
+      - 发心
+    start_date: -0528
+    highlight_event_id: guji-频婆娑罗王-event-visit
+  - key: breakthrough
+    name: 除慢礼佛三称己名
+    labels:
+      zh:
+      - 礼佛
+      - 除慢
+    start_date: -0528
+    highlight_event_id: guji-频婆娑罗王-event-visit
+  - key: climax
+    name: 闻五蕴法得眼清净
+    labels:
+      zh:
+      - 闻法
+      - 得益
+    start_date: -0528
+    highlight_event_id: guji-频婆娑罗王-event-refuge
+  - key: closure
+    name: 受戒设请终生奉养
     labels:
       zh:
       - 归依
+      - 请供
     start_date: -0528
-    highlight_event_id: guji-频婆娑罗王-event-convert
-  - key: breakthrough
-    name: 深信证初果
-    labels:
-      zh:
-      - 证果
-    start_date: '-0525'
-    highlight_event_id: guji-频婆娑罗王-event-convert
-  - key: climax
-    name: 护国成胜地之主
-    labels:
-      zh:
-      - 护法
-    start_date: '-0520'
-    highlight_event_id: guji-频婆娑罗王-event-dharma-king
-  - key: closure
-    name: 命终国空
-    labels:
-      zh:
-      - 命终
-    start_date: -0491
-    highlight_event_id: guji-频婆娑罗王-event-death
+    highlight_event_id: guji-频婆娑罗王-event-refuge
   decisions:
   - date: -0528
-    title_zh: 一心向佛知法奉僧
-    rationale: 知佛法微妙最胜故尽寿命常念不忘护持三宝以安国人
-  - date: '-0520'
-    title_zh: 以胜地之主护持成佛之地
-    rationale: 摩揭陀乃佛成正觉地最胜无比为王当护使正法久住
-- id: guji-频婆娑罗王-endeavor-2
-  title_zh: 转生天宫名人仙传述法要
-  description_zh: 人间命终后展转七生至毗沙门天宫为天王子名人仙，受持国天王命往南方，忆持大梵天王胜会所说，来诣佛所为阿难说摩揭陀八万优婆塞往生果报及一乘法要。
-  phases:
-  - key: brewing
-    name: 七生展转生天
-    labels:
-      zh:
-      - 转生
-    start_date: -0491
-    highlight_event_id: guji-频婆娑罗王-event-death
-  - key: breakthrough
-    name: 天界闻持梵会
-    labels:
-      zh:
-      - 闻持
-    start_date: -0491
-    highlight_event_id: guji-频婆娑罗王-event-janasabha
-  - key: climax
-    name: 空中自称对佛说缘
-    labels:
-      zh:
-      - 显现
-    start_date: -0491
-    highlight_event_id: guji-频婆娑罗王-event-janasabha
-  - key: closure
-    name: 广说八万优婆塞生处
-    labels:
-      zh:
-      - 说法
-    start_date: -0491
-    highlight_event_id: guji-频婆娑罗王-event-janasabha
-  decisions:
-  - date: -0491
-    title_zh: 承佛威力如实宣说生处
-    rationale: 亲从父王毗沙门闻帝释宫梵王胜会忆持不忘正为解阿难所问摩揭陀王及诸优婆塞行愿果报而来
-  - date: -0491
-    title_zh: 自述唯以深信证初果当证二果
-    rationale: 别无他因唯知佛法微妙最胜深信奉行行无放逸故能了知寂静安乐句
+    title_zh: 除王者相偏袒合掌礼佛
+    rationale: 以谦卑舍自在之相，方堪领受正法，化导随从婆罗门长者
+  - date: -0528
+    title_zh: 归依三宝受近事戒请佛入城
+    rationale: 得大利法眼清净，当以衣服饮食卧具医药尽形供养，令正法久住王舍城
 events:
 - id: guji-频婆娑罗王-event-birth
-  title_zh: 降生摩揭陀王族
-  date: '-0543'
+  title_zh: 生于摩揭陀王家
+  date: -355
   year_of: -543
-  place_zh: 古印度摩揭陀国王舍城
-  description_zh: 生于摩揭陀王族，后绍王位为哈良卡王朝君主，主成佛胜地。
-- id: guji-频婆娑罗王-event-convert
-  title_zh: 王舍城归佛证须陀洹
+  place_zh: 摩揭陀国王舍城
+  description_zh: 频婆娑罗王生于摩揭陀王家，后嗣位为王
+- id: guji-频婆娑罗王-event-visit
+  title_zh: 率众往杖林山礼佛听法
   date: -0528
   year_of: -528
-  place_zh: 摩揭陀国王舍城
-  description_zh: 一心向佛知于正法及奉僧伽，深信微妙最胜奉行不懈，断三障证须陀洹果逆生死流。
-- id: guji-频婆娑罗王-event-dharma-king
-  title_zh: 尽寿护法国人赞为法王
-  date: '-0500'
-  year_of: -500
-  place_zh: 摩揭陀国
-  description_zh: 尽于寿命常念三宝不忘，护持正觉之地，国中人民咸赞王德称为法王愿其生善世获最胜乐。
+  place_zh: 王舍城杖林山灵塔处
+  description_zh: 闻佛与千阿罗汉住杖林山，率从车万二千乘眷属臣佐及婆罗门长者出城，到佛会除王者相，偏袒右肩合掌赞佛，三自称摩揭陀国频婆娑罗王，退坐一面听法，见迦叶现神通证师徒分际
+- id: guji-频婆娑罗王-event-refuge
+  title_zh: 得法眼净归依设请供养
+  date: -0528
+  year_of: -528
+  place_zh: 杖林山佛会
+  description_zh: 闻说色受想行识生灭无我法，远尘离垢法眼清净，与八万天人同得见道，即起座合掌归依佛法僧受近事戒誓不杀不饮酒，虔请佛及苾刍众还王舍城尽生承事供养，佛默然受请
 - id: guji-频婆娑罗王-event-death
-  title_zh: 人间命终展转生毗沙门宫
+  title_zh: 摩揭陀国王舍城崩逝
   date: -0491
   year_of: -491
   place_zh: 摩揭陀国王舍城
-  description_zh: 人间寿命终后摩揭陀空廓无人，自身第七生生毗沙门天宫为天王子亦名人仙，善知佛说微妙寂静安乐句当来证斯陀含果。
-- id: guji-频婆娑罗王-event-janasabha
-  title_zh: 那提迦空中现身说人仙经
-  date: -0491
-  year_of: -491
-  place_zh: 那提迦城昆左迦精舍虚空
-  description_zh: 受持国天王命往南方增长天王处，知佛观察摩揭陀王及诸优婆塞去处，空中自称人仙善逝即频婆娑罗王，对佛广述大梵天王于三十三天胜会所说四神足四念处八正道及摩揭陀八万优婆塞生他化自在天乃至人间刹帝利婆罗门长者家等果报，阿难及会众欢喜信受。
+  description_zh: 频婆娑罗王护法一生终逝于王舍城，结束摩揭陀盛世之治
