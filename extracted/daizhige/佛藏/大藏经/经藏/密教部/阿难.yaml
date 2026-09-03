@@ -2,148 +2,130 @@ person:
   qid: guji-阿难
   name_zh: 阿难
   names:
-    zh: 阿难
+    zh: 阿难陀
     en: Ananda
   lifespan:
     birth:
-      date: '-0530'
+      date: '-0505'
       precision: year
       is_circa: true
-      raw: 约公元前五三零年
+      raw: 约公元前五零五年
     death:
-      date: '-0475'
+      date: -0385
       precision: year
       is_circa: true
-      raw: 约公元前四七五年
-  birth_date: '-0530'
-  death_date: '-0475'
-  era: 古印度列国佛陀时代
-  reign_ref: 摩揭陀国频婆娑罗王至阿阇世王时期
-  archetype: 多闻侍者
+      raw: 约公元前三八五年
+  birth_date: '-0505'
+  death_date: -0385
+  era: 古印度列国时代
+  reign_ref: 释迦牟尼住世时期
+  archetype: 侍者闻法型
   dilemmas:
-  - title_zh: 咒术所收与戒定之守
-    description: 为旃陀梨女咒术所收时当以戒定守心还是惊怖求救
-  - title_zh: 多闻与实证之衡
-    description: 博闻强记之后如何将所闻法义转为自利利他的实修
-  lesson: 持戒多闻得佛护念危难之时受持正法即得安隐
-  summary_first_person: 我是阿难常随世尊左右多闻第一曾为旃陀梨女咒术所收蒙佛授我六字大陀罗尼而得解脱自此深信受持正法能破一切邪咒安隐四众
+  - 三日后命尽堕饿鬼道何以得免斯苦
+  - 恒河沙数饿鬼饮食何以充足普施
+  lesson: 以无量威德陀罗尼加持一食遍满法界普施离苦增寿证菩提
+  summary_first_person: 我独居静处念所受法夜三更见焰口饿鬼告我三日后命尽生饿鬼中我惊怖赴佛所求救蒙佛授无量威德陀罗尼加持施食普济群灵得增寿离苦
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%85%AD%E5%AD%97%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E5%92%92%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%85%AD%E5%AD%97%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E5%92%92%E7%BB%8F.md
+  - https://daizhige.org/瑜伽集要救阿难陀罗尼焰口轨仪经.html
 endeavors:
 - id: guji-阿难-endeavor-1
-  person_qid: guji-阿难
-  title_zh: 侍佛多闻结集正法
-  summary: 出家后常随侍佛博闻强记于王舍城等处听法后结集经藏为四众传持
+  title_zh: 随侍世尊多闻受法
+  summary: 久随佛侧专念受持为众围绕说法之听受者
   phases:
   - key: brewing
-    name: 释种出家亲近世尊
+    name: 释族出身从佛出家
     labels:
-      zh: 亲近
+      zh: 从佛出家
     start_date: '-0505'
     highlight_event_id: guji-阿难-event-birth
   - key: breakthrough
-    name: 立为侍者多闻第一
+    name: 立愿多闻随侍左右
     labels:
-      zh: 多闻
-    start_date: '-0500'
-    highlight_event_id: guji-阿难-event-serve
+      zh: 随侍多闻
+    start_date: -0485
+    highlight_event_id: guji-阿难-event-recite
   - key: climax
-    name: 随侍耆阇崛山听法
+    name: 迦罗城静处念法
     labels:
-      zh: 听法
-    start_date: -0490
-    highlight_event_id: guji-阿难-event-serve
+      zh: 静处念法
+    start_date: -0483
+    highlight_event_id: guji-阿难-event-recite
   - key: closure
-    name: 结集传持利益四众
+    name: 具足闻持为法器
     labels:
-      zh: 传持
+      zh: 闻法具足
+    start_date: -0483
+    highlight_event_id: guji-阿难-event-recite
+  decisions:
+  - date: -0485
+    title_zh: 发心随侍专志忆持
+    rationale: 为护持正法不忘所闻故常随佛侧谛听受持
+  - date: -0483
+    title_zh: 独居静处经行念法
+    rationale: 为温故所受法故于夜三更经行静处专念思维
+- id: guji-阿难-endeavor-2
+  title_zh: 遇焰口求救传持施食
+  summary: 夜见焰口预言死堕饿鬼赴佛求救受持陀罗尼广宣施食
+  phases:
+  - key: brewing
+    name: 夜见焰口惊怖
+    labels:
+      zh: 见鬼预死
+    start_date: -0483
+    highlight_event_id: guji-阿难-event-flame-mouth
+  - key: breakthrough
+    name: 赴佛陈情问免苦方
+    labels:
+      zh: 白佛求救
+    start_date: -0483
+    highlight_event_id: guji-阿难-event-flame-mouth
+  - key: climax
+    name: 受持无量威德陀罗尼
+    labels:
+      zh: 受持神咒
+    start_date: -0483
+    highlight_event_id: guji-阿难-event-dharani
+  - key: closure
+    name: 奉持流布救拔群鬼
+    labels:
+      zh: 流布施食
     start_date: -0483
     highlight_event_id: guji-阿难-event-dharani
   decisions:
-  - date: '-0505'
-    title_zh: 决心出家亲近佛陀
-    rationale: 仰慕佛德愿以净行亲近听法自利利他
-  - date: '-0500'
-    title_zh: 受任侍者博闻受持
-    rationale: 为令正法久住故发愿悉受持佛所说法义不忘失
-- id: guji-阿难-endeavor-2
-  person_qid: guji-阿难
-  title_zh: 蒙授六字大陀罗尼破邪咒难
-  summary: 在王舍城时为旃陀梨女咒术所收向佛求救蒙佛授六字大陀罗尼而得安隐并传持此咒护益四众
-  phases:
-  - key: brewing
-    name: 旃陀梨女咒术所收
-    labels:
-      zh: 遭难
-    start_date: -0490
-    highlight_event_id: guji-阿难-event-captured
-  - key: breakthrough
-    name: 向佛陈情求救护
-    labels:
-      zh: 求救
-    start_date: -0490
-    highlight_event_id: guji-阿难-event-captured
-  - key: climax
-    name: 蒙佛授六字大陀罗尼
-    labels:
-      zh: 受持
-    start_date: -0490
-    highlight_event_id: guji-阿难-event-dharani
-  - key: closure
-    name: 破邪咒术安隐弘传
-    labels:
-      zh: 弘传
-    start_date: -0489
-    highlight_event_id: guji-阿难-event-dharani
-  decisions:
-  - date: -0490
-    title_zh: 于惊怖中归向佛陀求护
-    rationale: 自力难敌邪咒唯有依止世尊正法方得解脱
-  - date: -0490
-    title_zh: 受持六字大陀罗尼并传持
-    rationale: 此咒能破邪咒起尸厌蛊能令四众安隐吉祥故当受持弘传
+  - date: -0483
+    title_zh: 问鬼何方便得免斯苦
+    rationale: 闻三日命尽生饿鬼心生惶怖故求解脱方便
+  - date: -0483
+    title_zh: 受持陀罗尼广宣流布
+    rationale: 蒙佛授加持施食法能令一食遍满法界故如法修行广宣令众增寿离苦
 events:
 - id: guji-阿难-event-birth
-  person_qid: guji-阿难
-  type: birth
-  title_zh: 释种诞生于迦毗罗卫
-  date: '-0530'
-  year_of: -530
+  title_zh: 降生释迦族中
+  date: '-0505'
+  year_of: -505
   location_zh: 迦毗罗卫
-  description: 释种出身与佛为堂弟后于佛成道后出家
-- id: guji-阿难-event-serve
-  person_qid: guji-阿难
-  endeavor_id: guji-阿难-endeavor-1
-  type: career
-  title_zh: 常随侍佛多闻第一
-  date: '-0500'
-  year_of: -500
-  location_zh: 王舍城耆阇崛山
-  description: 为佛侍者与大比丘众五百人俱会听法博闻强记
-- id: guji-阿难-event-captured
-  person_qid: guji-阿难
-  endeavor_id: guji-阿难-endeavor-2
-  type: career
-  title_zh: 为旃陀梨女咒术所收
-  date: -0490
-  year_of: -490
-  location_zh: 王舍城
-  description: 长老阿难为旃陀梨女咒术所收自言强为他收去而向佛求救
+  summary: 生于释迦族为佛堂弟后从佛出家
+- id: guji-阿难-event-recite
+  title_zh: 迦罗城静处念法
+  date: -0483
+  year_of: -483
+  location_zh: 迦罗城尼俱律那僧伽蓝
+  summary: 独居静处念所受法于夜三更经行思维
+- id: guji-阿难-event-flame-mouth
+  title_zh: 夜见焰口预言命尽
+  date: -0483
+  year_of: -483
+  location_zh: 迦罗城僧伽蓝静处
+  summary: 见焰口饿鬼形丑口燃告以三日后命尽生饿鬼中问以免苦方便得闻施食之要
 - id: guji-阿难-event-dharani
-  person_qid: guji-阿难
-  endeavor_id: guji-阿难-endeavor-2
-  type: career
-  title_zh: 蒙佛授六字大陀罗尼得解脱
-  date: -0490
-  year_of: -490
-  location_zh: 王舍城耆阇崛山
-  description: 佛告阿难受持六字大陀罗尼能消宿食除风热冷杂病破邪咒起尸厌蛊令四众安隐吉祥阿难闻已欢喜奉行
+  title_zh: 赴佛受无量威德陀罗尼
+  date: -0483
+  year_of: -483
+  location_zh: 迦罗城佛所
+  summary: 顶礼佛足陈说焰口之事蒙佛授无量威德自在光明如来陀罗尼加持施食普济饿鬼婆罗门仙等增寿离苦
 - id: guji-阿难-event-death
-  person_qid: guji-阿难
-  type: death
-  title_zh: 于摩揭陀入灭
-  date: '-0475'
-  year_of: -475
-  location_zh: 摩揭陀恒河中流
-  description: 结集经藏传持正法后于恒河中流示现入灭
+  title_zh: 功圆入灭离苦
+  date: -0385
+  year_of: -385
+  location_zh: 恒河中流
+  summary: 多闻第一结集正法后入灭得大解脱众人奉持施食法门不绝

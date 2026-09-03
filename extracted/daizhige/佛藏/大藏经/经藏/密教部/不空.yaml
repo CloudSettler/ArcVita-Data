@@ -6,128 +6,137 @@ person:
     en: Amoghavajra
   lifespan:
     birth:
-      date: '0705'
-      precision: year
-      is_circa: true
-      raw: 唐神龙元年左右生于南天竺
-    death:
-      date: '0774'
+      date: 0705-01-01
       precision: year
       is_circa: false
-      raw: 唐大历九年六月寂于长安
-  birth_date: '0705'
-  death_date: '0774'
+      raw: 唐神龙元年生于北天竺
+    death:
+      date: 0774-06-15
+      precision: month
+      is_circa: false
+      raw: 唐大历九年六月示寂于长安
+  birth_date: 0705-01-01
+  death_date: 0774-06-15
   era: 唐
-  reign_ref: 唐玄宗开元至唐代宗大历
-  archetype: 密教译经弘化型
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 密教译经弘法者
   dilemmas:
-  - 奉诏入朝译经利世与山林静修持咒之间的取舍
-  - 显教法华义理与密教曼荼罗仪轨如何会通证成的困惑
-  - 以威仪形色接引众生与恐流于着相之间的权衡
-  lesson: 以曼荼罗威仪形色显甚深法义即事而入理使众生现世证入初地
-  summary_first_person: 吾不空幼随叔父至唐师事金刚智受瑜伽灌顶奉三朝诏命居大兴善寺译密典百余卷述法华曼荼罗威仪形色使莲华经王与大日瑜伽会通令学者睹塔中二圣及八叶诸尊即得入法华三昧愿众生不舍威仪而证菩提
+  - title_zh: 密法严密与普济群机之衡
+    description: 既守瑜伽曼荼罗次第又欲令饿鬼幽魂咸得甘露法味故须集要为仪
+  - title_zh: 国师之尊与出世本怀之衡
+    description: 位居大兴善寺受帝王供养仍以不为自求福报唯愿众生同证菩提自持
+  lesson: 以菩提心摄咒印手印观行令施食供养皆成普利法界之行
+  summary_first_person: 吾不空承金刚智之传会瑜伽诸经之要集成焰口施食之仪愿与法界众生一时同得无上菩提
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T1001
-  - https://daizhige.org/fahua-mantuoluo-weiyi-xingse/index.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E7%91%9C%E4%BC%BD%E9%9B%86%E8%A6%81%E7%84%B0%E5%8F%A3%E6%96%BD%E9%A3%9F%E4%BB%AA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E7%91%9C%E4%BC%BD%E9%9B%86%E8%A6%81%E7%84%B0%E5%8F%A3%E6%96%BD%E9%A3%9F%E4%BB%AA.html
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 奉诏译密弘传瑜伽
-  summary_zh: 居长安大兴善寺奉玄宗肃宗代宗三朝诏译出瑜伽金刚顶等密典百余卷奠定唐密正统
+  title_zh: 集译瑜伽焰口施食仪轨
+  description: 会归破地狱召请施甘露开咽喉称七如来等经轨集成一夜普施之要
   phases:
   - key: brewing
-    name: 幼至长安师事金刚智
+    name: 随师受瑜伽传承
     labels:
-      zh: 依师学密
-    start_date: 0719
-    highlight_event_id: guji-不空-event-follow
+      zh:
+      - 受法学律
+    start_date: 0719-01-01
+    highlight_event_id: guji-不空-event-study
   - key: breakthrough
-    name: 受灌顶通达五部瑜伽
+    name: 译定焰口诸咒印
     labels:
-      zh: 堪能传法
-    start_date: '0723'
-    highlight_event_id: guji-不空-event-follow
+      zh:
+      - 译经定仪
+    start_date: 0740-01-01
+    highlight_event_id: guji-不空-event-translate
   - key: climax
-    name: 奉诏大兴善寺译经弘化
+    name: 集要成焰口施食仪
     labels:
-      zh: 奉诏译经
-    start_date: '0746'
+      zh:
+      - 集要成书
+    start_date: 0750-01-01
     highlight_event_id: guji-不空-event-translate
   - key: closure
-    name: 遗教付嘱寂于长安
+    name: 付嘱门人流通后世
     labels:
-      zh: 圆寂付嘱
-    start_date: '0774'
+      zh:
+      - 流通付嘱
+    start_date: 0770-01-01
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0720'
-    title_zh: 决意随金刚智出家受具
-    rationale: 见金刚智威仪殊胜欲绍隆密部不以异域为辞故舍俗从师
-  - date: '0746'
-    title_zh: 承诏居大兴善寺专事译经
-    rationale: 以朝命即是利生缘依法华方便与密教加持会通故以译经为弘法正业
+  - date: 0740-01-01
+    title_zh: 以开咽喉破地狱为核心立仪
+    rationale: 怜饿鬼针咽业火之苦先令通达无碍方能受甘露法味
+  - date: 0750-01-01
+    title_zh: 合七如来名号归依发心于一会
+    rationale: 令受食者先忏罪后受戒发菩提心得庄严法器究竟解脱
 - id: guji-不空-endeavor-2
-  title_zh: 建立法华曼荼罗威仪形色
-  summary_zh: 依莲华经王八叶宝塔涌现之义说三重方坛诸尊方位威仪形色使学者即色相入三昧
+  title_zh: 建坛弘法普济幽显
+  description: 依位敷坐召请三宝圣众及六道孤魂设甘露饮食行运心供养
   phases:
   - key: brewing
-    name: 观莲华经王涌塔之旨
+    name: 严饰道场归依发心
     labels:
-      zh: 会通法华
-    start_date: '0740'
+      zh:
+      - 建坛发心
+    start_date: 0746-01-01
     highlight_event_id: guji-不空-event-translate
   - key: breakthrough
-    name: 定三重方坛方位次第
+    name: 入观音定现坛仪
     labels:
-      zh: 定坛方位
-    start_date: '0746'
+      zh:
+      - 观行加持
+    start_date: 0752-01-01
     highlight_event_id: guji-不空-event-translate
   - key: climax
-    name: 宣说二圣八叶色相仪轨
+    name: 召请饿鬼施甘露食
     labels:
-      zh: 说色相仪轨
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-mandala
+      zh:
+      - 普施济度
+    start_date: 0758-01-01
+    highlight_event_id: guji-不空-event-rite
   - key: closure
-    name: 付嘱曼荼罗满愿大会成就
+    name: 回向众生同证菩提
     labels:
-      zh: 满愿流通
-    start_date: '0774'
+      zh:
+      - 普皆回向
+    start_date: 0774-01-01
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: '0746'
-    title_zh: 以八叶莲华摄八大菩萨立内院
-    rationale: 法华以莲华为喻故取八叶为王宫以弥勒为首右旋布列显平等大义
-  - date: '0746'
-    title_zh: 以威仪形色手印色相具说三重院
-    rationale: 众生乐着形色若但说空理难入故以金刚四众天龙围绕次第庄严令睹相即入观智
+  - date: 0746-01-01
+    title_zh: 定运心供养遍满虚空之式
+    rationale: 以志诚观想令水陆香花饮食悉皆成就胜妙供养
+  - date: 0758-01-01
+    title_zh: 定召罪摧罪定业次第
+    rationale: 先钩摄罪业次摧现行次转定业后灭种子令受施者身心清净
 events:
 - id: guji-不空-event-birth
-  date: '0705'
+  title_zh: 诞生于北天竺
+  date: 0705-01-01
   year_of: 705
-  title_zh: 诞生南天
-  description_zh: 生于南天竺婆罗门家幼聪慧随叔父至唐求法
-  endeavor_ref: guji-不空-endeavor-1
-- id: guji-不空-event-follow
-  date: 0719
+  type: birth
+  description: 唐神龙元年生后从金刚智西来学密
+- id: guji-不空-event-study
+  title_zh: 随金刚智受瑜伽密法
+  date: 0719-01-01
   year_of: 719
-  title_zh: 师事金刚智受瑜伽灌顶
-  description_zh: 金刚智抵长安即从受学通达梵文瑜伽教法随赴洛阳传法
-  endeavor_ref: guji-不空-endeavor-1
+  type: endeavor
+  description: 年十五随金刚智至长安受灌顶学瑜伽密教及诸陀罗尼
 - id: guji-不空-event-translate
-  date: '0746'
+  title_zh: 译定密经集成焰口施食仪
+  date: 0746-01-01
   year_of: 746
-  title_zh: 奉诏大兴善寺译经
-  description_zh: 奉诏居中京大兴善寺广译金刚顶瑜伽诸经兼述密部仪轨
-  endeavor_ref: guji-不空-endeavor-1
-- id: guji-不空-event-mandala
-  date: '0746'
-  year_of: 746
-  title_zh: 说法华曼荼罗威仪形色法
-  description_zh: 说证成妙法三重方坛释迦多宝同坐八叶八大菩萨围绕及金刚天众方位色相
-  endeavor_ref: guji-不空-endeavor-2
+  type: endeavor
+  description: 居大兴善寺译诸密经会破地狱施饿鬼等轨集成瑜伽集要焰口施食仪
+- id: guji-不空-event-rite
+  title_zh: 设焰口大会普施饿鬼
+  date: 0758-01-01
+  year_of: 758
+  type: endeavor
+  description: 设坛召请十方法界孤魂行破地狱开咽喉称七佛施甘露授归依
 - id: guji-不空-event-death
-  date: '0774'
+  title_zh: 示寂于长安
+  date: 0774-06-15
   year_of: 774
-  title_zh: 寂于长安大兴善寺
-  description_zh: 大历九年六月示寂于长安赠司空谥大辨正广智遗教付嘱满愿流通
-  endeavor_ref: guji-不空-endeavor-1
+  type: death
+  description: 唐大历九年六月示寂茶毗获舍利制塔谥大辩正广智不空三藏
