@@ -6,141 +6,155 @@ person:
     en: Subhakarasimha
   lifespan:
     birth:
-      date: '0637'
+      date: 0637-01-01
       precision: year
       is_circa: false
-      raw: 贞观十一年中天竺生
+      raw: 贞观十一年生于中天竺
     death:
-      date: '0735'
+      date: 0735-01-01
       precision: year
       is_circa: false
-      raw: 开元二十三年洛阳示寂
-  birth_date: '0637'
-  death_date: '0735'
+      raw: 开元二十三年寂于洛阳
+  birth_date: 0637-01-01
+  death_date: 0735-01-01
   era: 唐
   reign_ref: 唐玄宗开元
-  archetype: 开元三大士密教译经祖师
+  archetype: 密教传译者
   dilemmas:
-  - 梵密深广与中土初机之间如何立次第而化导
-  - 持戒护密与奉诏普传之间如何权衡而不违本誓
-  lesson: 依师承次第庄严坛仪，以菩提心摄密行方能自利利他
-  summary_first_person: 我是善无畏，中天竺摩揭陀王族出身，十三岁嗣位让国出家，遍学显密后奉诏入唐，译大日经及千手观音仪轨，愿以造像仪轨次第接引众生入于大悲藏海
+  - 显密兼弘与专传密咒之间的抉择
+  - 异域弘法中调和王命与戒律的难题
+  lesson: 以持地护生之愿摄受众生福业当以慈悲护世为归
+  summary_first_person: 吾为中天竺那烂陀寺僧奉诏入唐传密译经说坚牢地天护世仪轨愿众生具足衣食福德安稳修道
   source_urls:
-  - https://daizhige.org/千手观音造次第法仪轨.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/千手观音造次第法仪轨.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9D%9A%E7%89%A2%E5%9C%B0%E5%A4%A9%E4%BB%AA%E8%BD%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9D%9A%E7%89%A2%E5%9C%B0%E5%A4%A9%E4%BB%AA%E8%BD%A8.md
 endeavors:
 - id: guji-善无畏-endeavor-1
-  person_id: guji-善无畏
-  title_zh: 入唐弘传胎藏大日密法
-  summary: 让国出家后游学那烂陀，携梵本东来长安洛阳，奉诏译传大日经系密法
+  person_qid: guji-善无畏
+  title_zh: 入唐传密译经弘法
+  description: 自中天竺那烂陀携梵本入长安奉玄宗诏译大日经等开密教胎藏之宗
   phases:
   - key: brewing
-    name: 王族让国出家求法
+    name: 那烂陀学养积淀
     labels:
-      zh: 蓄势求法
-    start_date: '0637'
+      zh: 学养
+    start_date: 0637-01-01
     highlight_event_id: guji-善无畏-event-birth
   - key: breakthrough
-    name: 航海东来抵达长安
+    name: 奉诏入唐抵长安
     labels:
-      zh: 入唐弘化
-    start_date: '0716'
-    highlight_event_id: guji-善无畏-event-arrival
+      zh: 入唐
+    start_date: 0716-01-01
+    highlight_event_id: guji-善无畏-event-arrive-changan
   - key: climax
-    name: 与一行合译大日经
+    name: 译大日经授灌顶
     labels:
-      zh: 译经鼎盛
-    start_date: '0725'
-    highlight_event_id: guji-善无畏-event-dari
+      zh: 译经
+    start_date: 0725-01-01
+    highlight_event_id: guji-善无畏-event-translate-dari
   - key: closure
-    name: 洛阳示寂谥大弘教
+    name: 弘化洛阳示寂
     labels:
-      zh: 圆寂付嘱
-    start_date: '0735'
+      zh: 圆寂
+    start_date: 0735-01-01
     highlight_event_id: guji-善无畏-event-death
   decisions:
-  - date: '0716'
-    title_zh: 奉诏止于长安兴善寺而未即东归
-    rationale: 感玄宗敬礼及中土渴仰密法，决意留住以成译弘大业
-  - date: '0725'
-    title_zh: 择一行禅师笔受大日经
-    rationale: 一行精天文悉昙兼通道教义理，可调梵华文义使显密相通
+  - date: 0716-01-01
+    title_zh: 应请东行入唐
+    rationale: 为使密法东传不惜海陆艰险顺缘奉诏而行
+  - date: 0725-01-01
+    title_zh: 与一行合译大日经
+    rationale: 藉汉地通儒之力使梵密义理晓畅华夏摄机弘化
 - id: guji-善无畏-endeavor-2
-  person_id: guji-善无畏
-  title_zh: 造述千手观音次第仪轨
-  summary: 依千手千眼观世音大悲心法，制次第仪轨明本尊形色眷属及二十八部众真言
+  person_qid: guji-善无畏
+  title_zh: 宣说坚牢地天护世仪轨
+  description: 说地天心咒根本印及种种护摩成就法以地味资润衣食丰足护持四众修行
   phases:
   - key: brewing
-    name: 那烂陀专学观音悲法
+    name: 佛说地天护法缘起
     labels:
-      zh: 观音修学
-    start_date: 0680
-    highlight_event_id: guji-善无畏-event-study
+      zh: 缘起
+    start_date: 0720-01-01
+    highlight_event_id: guji-善无畏-event-ditian-origin
   - key: breakthrough
-    name: 奉诏开坛授灌顶
+    name: 授心真言根本印
     labels:
-      zh: 开坛授法
-    start_date: '0716'
-    highlight_event_id: guji-善无畏-event-arrival
+      zh: 授咒印
+    start_date: 0728-01-01
+    highlight_event_id: guji-善无畏-event-ditian-mantra
   - key: climax
-    name: 译出千手观音造次第法仪轨
+    name: 开示护摩富贵成就法
     labels:
-      zh: 制仪轨
-    start_date: '0727'
-    highlight_event_id: guji-善无畏-event-qianshou
+      zh: 护摩
+    start_date: 0729-01-01
+    highlight_event_id: guji-善无畏-event-ditian-homa
   - key: closure
-    name: 付嘱弟子流通供养法
+    name: 图像仪轨付嘱流通
     labels:
-      zh: 流通后世
-    start_date: '0735'
-    highlight_event_id: guji-善无畏-event-death
+      zh: 流通
+    start_date: 0730-01-01
+    highlight_event_id: guji-善无畏-event-ditian-image
   decisions:
-  - date: '0727'
-    title_zh: 以图绘形像先行定尊形眷属次第
-    rationale: 千手大身三部备具，若形色不审则观想难成，故先定黄色正体与五百面及二十八部众位次
-  - date: '0727'
-    title_zh: 具录二十八部众密语并誓句
-    rationale: 欲令持咒者得善神围绕守护，故不舍护世而显大悲普摄之义
+  - date: 0728-01-01
+    title_zh: 说地天心咒利生
+    rationale: 见四众衣食艰难故以咒印护摩令福德资生具足安心修道
+  - date: 0730-01-01
+    title_zh: 制像立法垂后
+    rationale: 立男天女天形像轨式使后世如法观想供养护持寺舍
 events:
 - id: guji-善无畏-event-birth
-  person_id: guji-善无畏
-  title_zh: 中天竺王族诞生
-  date: '0637'
+  person_qid: guji-善无畏
+  type: birth
+  date: 0637-01-01
   year_of: 637
-  place_zh: 中天竺摩揭陀
-  description: 贞观十一年生于王族，十三岁嗣位旋让位叔父出家学道
-- id: guji-善无畏-event-study
-  person_id: guji-善无畏
-  title_zh: 那烂陀从法称等学显密
-  date: 0680
-  year_of: 680
-  place_zh: 那烂陀寺
-  description: 遍学三藏及陀罗尼门，尤精虚空藏求闻持与观音大悲法门
-- id: guji-善无畏-event-arrival
-  person_id: guji-善无畏
-  title_zh: 开元四年抵达长安
-  date: '0716'
+  title_zh: 诞生于中天竺
+  description: 贞观十一年生于中天竺王族出家于那烂陀寺博通三藏
+- id: guji-善无畏-event-arrive-changan
+  person_qid: guji-善无畏
+  type: career
+  date: 0716-01-01
   year_of: 716
-  place_zh: 长安兴善寺
-  description: 携梵本经论至长安，玄宗礼遇敕住兴善南院开始译场
-- id: guji-善无畏-event-dari
-  person_id: guji-善无畏
-  title_zh: 合译大毗卢遮那成佛经
-  date: '0725'
+  title_zh: 抵达长安奉诏译经
+  description: 开元四年携梵本来华玄宗礼遇止兴善寺从事译经
+- id: guji-善无畏-event-translate-dari
+  person_qid: guji-善无畏
+  type: career
+  date: 0725-01-01
   year_of: 725
-  place_zh: 洛阳大福先寺
-  description: 与一行笔受宝月证译，译出大日经为胎藏界根本所依
-- id: guji-善无畏-event-qianshou
-  person_id: guji-善无畏
-  title_zh: 译千手观音造次第法仪轨
-  date: '0727'
-  year_of: 727
-  place_zh: 长安
-  description: 奉诏译出千手观音正体形色莲台眷属及二十八部众形色密语，建立造像修持次第
+  title_zh: 合译大毗卢遮那成佛经
+  description: 与一行禅师等译大日经并授灌顶开华夏密宗之源
+- id: guji-善无畏-event-ditian-origin
+  person_qid: guji-善无畏
+  type: career
+  date: 0728-01-01
+  year_of: 728
+  title_zh: 说坚牢地天护法缘起
+  description: 述地天功德天白佛护持摄根系念行者出地味增寿命福德之事
+- id: guji-善无畏-event-ditian-mantra
+  person_qid: guji-善无畏
+  type: career
+  date: 0728-06-01
+  year_of: 728
+  title_zh: 授地天心真言根本印
+  description: 说曩莫三曼多母驮南等心咒及合掌二头指叉掌等身印十万遍获富贵悉地
+- id: guji-善无畏-event-ditian-homa
+  person_qid: guji-善无畏
+  type: career
+  date: 0729-01-01
+  year_of: 729
+  title_zh: 开示护摩成就诸法
+  description: 说稻谷花粳米大小麦等护摩得五谷丰登无尽福德眷属资生之法
+- id: guji-善无畏-event-ditian-image
+  person_qid: guji-善无畏
+  type: career
+  date: 0730-01-01
+  year_of: 730
+  title_zh: 制坚牢地神图像法
+  description: 定男天肉色持花钵女天白肉色抱心股之像式以垂后世供养
 - id: guji-善无畏-event-death
-  person_id: guji-善无畏
-  title_zh: 洛阳大福先寺示寂
-  date: '0735'
+  person_qid: guji-善无畏
+  type: death
+  date: 0735-01-01
   year_of: 735
-  place_zh: 洛阳大福先寺
-  description: 开元二十三年冬圆寂，寿九十九，谥大弘教三藏，建塔于龙门
+  title_zh: 示寂于洛阳
+  description: 开元二十三年寂于洛阳葬龙门为开元三大士之一

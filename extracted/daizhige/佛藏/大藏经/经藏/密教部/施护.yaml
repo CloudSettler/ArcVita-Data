@@ -9,119 +9,126 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中叶乌仗那人
+      raw: 生年未详约十世纪中叶生于乌仗那国
     death:
       date: '1017'
       precision: year
-      is_circa: false
-      raw: 宋真宗天禧元年圆寂于开封
+      is_circa: true
+      raw: 宋真宗天禧元年示寂
   birth_date: 0950
   death_date: '1017'
-  era: 宋初
-  reign_ref: 宋太宗雍熙至宋真宗天禧
-  archetype: 译场传法大师
+  era: 北宋
+  reign_ref: 宋太宗至宋真宗
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔经义幽深如何既忠原本又令中土易解
-  - 身为西来梵僧当依朝廷译场体制还是随缘化导
-  lesson: 以大悲方便为桥令异域圣典归于中土利生
-  summary_first_person: 我是施护，本北天竺乌仗那人，奉佛法西来入宋，入译经院秉诏传法，译出圣观自在菩萨功德赞等密教圣典，愿以观音大悲救苦之门普济群生
+  - title_zh: 梵汉悬隔如何信达
+    description_zh: 密咒音义难两全当存梵音持真还是意译便受持
+  - title_zh: 异域孤寄如何立信
+    description_zh: 远来东土初通华言当依译场群力还是独行弘化
+  lesson: 跨语弘法贵在诚信精勤能令钝根暗昧者亦得增慧明记不忘
+  summary_first_person: 吾自西天乌仗那来入宋奉诏入译经院与法贤等共译显密群经复译增慧陀罗尼愿钝根众生受持读诵书写供养皆得广大智慧
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E8%A7%82%E8%87%AA%E5%9C%A8%E8%8F%A9%E8%90%A8%E5%8A%9F%E5%BE%B7%E8%B5%9E.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E8%A7%82%E8%87%AA%E5%9C%A8%E8%8F%A9%E8%90%A8%E5%8A%9F%E5%BE%B7%E8%B5%9E.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A2%9E%E6%85%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%A2%9E%E6%85%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏入院传译密教圣典
-  summary_zh: 自乌仗那西来入宋译经院与法贤法天等共译显密经论凡百余卷
+  title_zh: 入宋奉诏译经
+  summary_zh: 自西天来华入译经院奉诏传译显密群经授传法大师
   phases:
   - key: brewing
-    name: 西来发心
+    name: 西天发足东来求法
     labels:
-      zh: 筹备
-    start_date: '0970-01-01'
-    highlight_event_id: guji-施护-event-birth
+      zh: 求法东来
+    start_date: 0979
+    highlight_event_id: guji-施护-event-arrival
   - key: breakthrough
-    name: 抵宋入院
+    name: 入译经院奉诏开译
     labels:
-      zh: 突破
-    start_date: '0980-01-01'
+      zh: 奉诏开译
+    start_date: 0980
     highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 奉诏传译
+    name: 群经并译声名渐著
     labels:
-      zh: 高潮
-    start_date: '0985-01-01'
-    highlight_event_id: guji-施护-event-translate
+      zh: 群经并译
+    start_date: 0985
+    highlight_event_id: guji-施护-event-translate-zenghui
   - key: closure
-    name: 译业成就
+    name: 授官传法大师长住译席
     labels:
-      zh: 收束
-    start_date: '1010-01-01'
-    highlight_event_id: guji-施护-event-death
+      zh: 授官传法
+    start_date: 0991
+    highlight_event_id: guji-施护-event-confer
   decisions:
-  - date: '0980-01-01'
-    title_zh: 应诏入宋译经院
-    rationale: 感宋廷崇法护教故依译场体制以保圣典传译不谬
-  - date: '0985-01-01'
-    title_zh: 专译密教观音诸经
-    rationale: 见中土众生多苦故以大悲观音法门为急务先译
+  - date: 0980
+    title_zh: 应诏入译经院群译
+    rationale: 梵汉校雠非一人可成依译场分工乃能信达流通
+  - date: 0991
+    title_zh: 受朝散大夫传法大师号仍任译主
+    rationale: 藉朝命护持佛法久住中土不以官荣废译事
 - id: guji-施护-endeavor-2
-  title_zh: 弘扬观自在菩萨大悲功德
-  summary_zh: 译传圣观自在菩萨功德赞称扬莲华手救度六道功德劝众归命持名
+  title_zh: 译传增慧陀罗尼
+  summary_zh: 于须弥山顶大慧菩萨宣说之缘起译出增慧陀罗尼并传持水饮诵之法
   phases:
   - key: brewing
-    name: 观察机缘
+    name: 集梵本审增慧法门
     labels:
-      zh: 筹备
-    start_date: '0985-01-01'
-    highlight_event_id: guji-施护-event-arrival
+      zh: 集本审法
+    start_date: 0983
+    highlight_event_id: guji-施护-event-translate-zenghui
   - key: breakthrough
-    name: 译出功德赞
+    name: 译定陀罗尼音义
     labels:
-      zh: 突破
-    start_date: '0990-01-01'
-    highlight_event_id: guji-施护-event-translate
+      zh: 译定真言
+    start_date: 0985
+    highlight_event_id: guji-施护-event-translate-zenghui
   - key: climax
-    name: 开示六道救济
+    name: 宣演受持饮水增记之法
     labels:
-      zh: 高潮
-    start_date: '0995-01-01'
-    highlight_event_id: guji-施护-event-preach
+      zh: 宣演持法
+    start_date: 0985
+    highlight_event_id: guji-施护-event-translate-zenghui
   - key: closure
-    name: 付嘱流通
+    name: 书写供养流通天人信受
     labels:
-      zh: 收束
-    start_date: '1017-01-01'
-    highlight_event_id: guji-施护-event-death
+      zh: 流通信受
+    start_date: 0990
+    highlight_event_id: guji-施护-event-confer
   decisions:
-  - date: '0990-01-01'
-    title_zh: 以偈赞体译观音功德
-    rationale: 偈颂易持易诵故令称赞功德深入人心普摄群品
-  - date: '0995-01-01'
-    title_zh: 广说地狱饿鬼救度
-    rationale: 欲显菩萨慈悲遍入恶趣故详陈破狱施食令生信向
+  - date: 0985
+    title_zh: 音译真言兼传意译行法
+    rationale: 真言以音为体故存梵音行法以利生为本故详示受持饮水时节
+  - date: 0985
+    title_zh: 明示钝根亦可增慧
+    rationale: 为少智忘失众生开方便门令发志诚心得广大记持
 events:
 - id: guji-施护-event-birth
-  title_zh: 降生乌仗那国
-  date: '0950-01-01'
+  date: 0950
   year_of: 950
-  description_zh: 施护生于北天竺乌仗那国，自幼习梵文佛典精通显密
+  title_zh: 生于乌仗那国
+  description_zh: 生于北印度乌仗那国少习三藏精梵文密教
+  kind: birth
 - id: guji-施护-event-arrival
-  title_zh: 西来抵宋入译经院
-  date: '0980-01-01'
+  date: 0980
   year_of: 980
-  description_zh: 携梵本经筴至开封，入太平兴国寺译经院，授朝奉大夫试鸿胪卿传法大师
-- id: guji-施护-event-translate
-  title_zh: 奉诏译圣观自在菩萨功德赞
-  date: '0990-01-01'
-  year_of: 990
-  description_zh: 奉诏译出西方贤圣集圣观自在菩萨功德赞，称扬莲华手相好悲智及救度六道功德
-- id: guji-施护-event-preach
-  title_zh: 开示观音补陀落道场化导
-  date: '0995-01-01'
-  year_of: 995
-  description_zh: 依所译赞开示补陀落山庄严及菩萨现身天龙修罗饿鬼地狱普施无畏令众归依
+  title_zh: 抵宋入译经院
+  description_zh: 宋太平兴国五年抵汴京入译经院与法天法贤等奉诏译经
+  kind: career
+- id: guji-施护-event-translate-zenghui
+  date: 0985
+  year_of: 985
+  title_zh: 译增慧陀罗尼经
+  description_zh: 译出增慧陀罗尼经传大慧菩萨为童子相说真言及加持水卯时饮日记千颂之法
+  kind: career
+- id: guji-施护-event-confer
+  date: 0991
+  year_of: 991
+  title_zh: 授传法大师试鸿胪卿
+  description_zh: 以译经功授西天译经三藏朝散大夫试鸿胪卿传法大师
+  kind: career
 - id: guji-施护-event-death
-  title_zh: 圆寂于开封
-  date: '1017-01-01'
+  date: '1017'
   year_of: 1017
-  description_zh: 宋真宗天禧元年圆寂，毕生译经百余卷，观音功德赞遂流通中土
+  title_zh: 示寂于汴京
+  description_zh: 宋真宗天禧元年示寂于译席一生所译显密经律凡百余部
+  kind: death
