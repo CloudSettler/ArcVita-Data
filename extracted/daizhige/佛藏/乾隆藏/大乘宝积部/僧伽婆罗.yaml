@@ -6,98 +6,127 @@ person:
     en: Sanghapala
   lifespan:
     birth:
-      date: 0460-01-01
+      date: '0460'
       precision: year
       is_circa: true
-      raw: 约宋大明四年扶南生
+      raw: 约四六〇年生于扶南
     death:
-      date: 0524-01-01
+      date: '0524'
       precision: year
-      is_circa: false
-      raw: 梁普通五年寂于建康
-  birth_date: 0460-01-01
-  death_date: 0524-01-01
-  era: 南北朝梁
-  reign_ref: 梁武帝天监普通年间
-  archetype: 译经弘法者
+      is_circa: true
+      raw: 约五二四年示寂于梁建康
+  birth_date: '0460'
+  death_date: '0524'
+  era: 南朝梁
+  reign_ref: 梁武帝天监
+  archetype: 译经三藏法师
   dilemmas:
-  - 远邦沙门初至建康如何取信弘传
-  - 梵本奥义艰深如何兼顾信达以显大乘十法
-  lesson: 以忍辱精进荷负传译重任令大乘正法久住中土
-  summary_first_person: 我自扶南来至建康，蒙诏住正观寺译经，译大乘十法等经，愿众生以正信正行住于大乘不退菩提。
+  - 梵本微妙法身无相无说汉文如何传译而不失本旨
+  - 异域沙门初至建康如何取信帝王僧俗以开译场
+  lesson: 以心净见佛如琉璃现影不生不灭平等施教方能度一切诸佛境界
+  summary_first_person: 我是扶南僧伽婆罗，西来寄寓梁土，蒙武帝敕住正观寺译大乘宝积部，我译度一切诸佛境界智严经，明如来常住不生不灭随众生心现影说法，愿持此无相法身经者皆得菩提。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E5%8D%81%E6%B3%95%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%AE%9D%E7%A7%AF%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E5%8D%81%E6%B3%95%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%AE%9D%E7%A7%AF%E9%83%A8/%E5%BA%A6%E4%B8%80%E5%88%87%E8%AF%B8%E4%BD%9B%E5%A2%83%E7%95%8C%E6%99%BA%E4%B8%A5%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%AE%9D%E7%A7%AF%E9%83%A8/%E5%BA%A6%E4%B8%80%E5%88%87%E8%AF%B8%E4%BD%9B%E5%A2%83%E7%95%8C%E6%99%BA%E4%B8%A5%E7%BB%8F.md
 endeavors:
 - id: guji-僧伽婆罗-endeavor-1
-  title_zh: 泛海赴梁受诏弘法
-  description: 自扶南海路至建康住正观寺受梁武帝礼遇开译场
+  title_zh: 扶南西来梁朝开译
+  description_zh: 自扶南出家习三藏航海至建康逢梁武帝崇佛敕住正观寺开译场译阿育王经等大小乘经论
   phases:
   - key: brewing
-    name: 扶南出家究学三藏
+    name: 扶南习学
     labels:
-      zh:
-      - 筹备
-    start_date: 0475-01-01
+      zh: 扶南出家习三藏
+    start_date: 0480
     highlight_event_id: guji-僧伽婆罗-event-birth
   - key: breakthrough
-    name: 至建康得诏住寺
+    name: 航海至梁
     labels:
-      zh:
-      - 转折
-    start_date: 0506-01-01
+      zh: 天监初达建康
+    start_date: '0506'
     highlight_event_id: guji-僧伽婆罗-event-arrival
-  decisions:
-  - date: 0506-01-01
-    title_zh: 应诏住建康正观寺
-    rationale: 藉帝力建译场以利久住弘传
-- id: guji-僧伽婆罗-endeavor-2
-  title_zh: 译出大乘十法经等大乘经律
-  description: 与宝唱等笔受译出宝积部及摩诃僧祇律等令十法住世
-  phases:
   - key: climax
-    name: 译讲大乘十法开示住大乘义
+    name: 敕住译场
     labels:
-      zh:
-      - 高潮
-    start_date: 0517-01-01
-    highlight_event_id: guji-僧伽婆罗-event-translate
+      zh: 正观寺开译
+    start_date: 0508
+    highlight_event_id: guji-僧伽婆罗-event-translation-zhiyan
   - key: closure
-    name: 译业圆满遗教示寂
+    name: 译业弘布
     labels:
-      zh:
-      - 收束
-    start_date: 0524-01-01
-    highlight_event_id: guji-僧伽婆罗-event-death
+      zh: 经论流通梁土
+    start_date: '0517'
+    highlight_event_id: guji-僧伽婆罗-event-preach-dharmakaya
   decisions:
-  - date: 0517-01-01
-    title_zh: 先译大乘十法明菩萨住大乘相
-    rationale: 以正信正行摄众机先立大乘正因
-  - date: 0520-01-01
-    title_zh: 兼译律部以全僧制
-    rationale: 以戒为本令译经弘法有轨可依
+  - date: '0506'
+    title_zh: 应请赴梁不留扶南
+    rationale: 为使大乘流通东土故冒海路至建康应武帝弘护之请
+  - date: 0508
+    title_zh: 住正观寺集体参译
+    rationale: 以法身经义深微故与宝唱等共参梵汉详定文义令信解受持
+- id: guji-僧伽婆罗-endeavor-2
+  title_zh: 译演智严法身空教
+  description_zh: 译度一切诸佛境界智严经一卷于王舍城法界宫殿演文殊问无生无灭如来影现平等说法及受持功德
+  phases:
+  - key: brewing
+    name: 抉择宝积梵本
+    labels:
+      zh: 拣择宝积部本
+    start_date: 0509
+    highlight_event_id: guji-僧伽婆罗-event-arrival
+  - key: breakthrough
+    name: 译出智严经
+    labels:
+      zh: 度佛境界智严成
+    start_date: '0511'
+    highlight_event_id: guji-僧伽婆罗-event-translation-zhiyan
+  - key: climax
+    name: 阐明影喻法身
+    labels:
+      zh: 琉璃影喻无生灭
+    start_date: '0512'
+    highlight_event_id: guji-僧伽婆罗-event-preach-dharmakaya
+  - key: closure
+    name: 劝持流通
+    labels:
+      zh: 一偈胜无量施
+    start_date: '0517'
+    highlight_event_id: guji-僧伽婆罗-event-preach-dharmakaya
+  decisions:
+  - date: '0511'
+    title_zh: 先译智严明佛常住
+    rationale: 以众疑生灭故先示如来如琉璃地现宫殿影非有非无不生不灭
+  - date: '0512'
+    title_zh: 以日照海珠喻平等说法
+    rationale: 为破胜劣分别故说慧日先照菩萨如照高山及摩尼随愿现身令三乘善根依佛增长
 events:
 - id: guji-僧伽婆罗-event-birth
-  title_zh: 生于扶南国
-  date: 0460-01-01
+  date: '0460'
   year_of: 460
-  type: birth
-  description: 约宋时生于扶南少出家究大小乘三藏
+  title_zh: 生于扶南国
+  description_zh: 约五世纪中叶生于扶南少出家精律论兼通大乘三藏
+  location_zh: 扶南国
 - id: guji-僧伽婆罗-event-arrival
-  title_zh: 天监五年至建康
-  date: 0506-01-01
+  date: '0506'
   year_of: 506
-  type: career
-  description: 梁天监五年泛海至建康武帝迎礼诏住正观寺
-- id: guji-僧伽婆罗-event-translate
-  title_zh: 译佛说大乘十法经
-  date: 0517-01-01
+  title_zh: 天监初至建康
+  description_zh: 梁天监五年左右航海达建康见武帝以精梵汉敕与宝唱等住正观寺
+  location_zh: 建康正观寺
+- id: guji-僧伽婆罗-event-translation-zhiyan
+  date: '0511'
+  year_of: 511
+  title_zh: 译度一切诸佛境界智严经
+  description_zh: 于建康译出此经一卷属大乘宝积部演王舍城法界宫殿文殊问无生无灭法身义
+  location_zh: 建康
+- id: guji-僧伽婆罗-event-preach-dharmakaya
+  date: '0517'
   year_of: 517
-  type: career
-  description: 于建康译出此经明菩萨成就十法名住大乘及秘密语等义
+  title_zh: 弘法身平等受持功德
+  description_zh: 演如来如日照三界海珠满愿不断分别及闻经一偈胜供恒沙佛塔功德劝念诵书写供养
+  location_zh: 建康
 - id: guji-僧伽婆罗-event-death
-  title_zh: 普通五年寂于建康
-  date: 0524-01-01
+  date: '0524'
   year_of: 524
-  type: death
-  description: 译经凡十余部后示寂葬于建康弟子建塔供奉
+  title_zh: 示寂于梁
+  description_zh: 译经弘化十余年后示寂于梁建康译本后入乾隆藏大乘宝积部流通
+  location_zh: 建康
