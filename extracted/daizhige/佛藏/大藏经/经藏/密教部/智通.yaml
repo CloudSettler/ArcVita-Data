@@ -6,116 +6,140 @@ person:
     en: Zhitong
   lifespan:
     birth:
-      date: 408
+      date: '0620-01-01'
       precision: year
       is_circa: true
-      raw: 唐贞观四年左右
+      raw: 唐贞观前后
     death:
-      date: 448
+      date: '0680-01-01'
       precision: year
       is_circa: true
-      raw: 武周久视年间左右
-  birth_date: 408
-  death_date: 448
+      raw: 唐高宗末年左右
+  birth_date: '0620-01-01'
+  death_date: '0680-01-01'
   era: 唐
-  reign_ref: 唐高宗显庆至武后长安年间
-  archetype: 持咒译经沙门
+  reign_ref: 贞观至咸亨间
+  archetype: 持明译经沙门
   dilemmas:
-  - 密咒深义难译又须存梵音神力当如何取舍
-  - 仪轨繁密恐后学懈怠当如何简而不失恭敬
-  lesson: 以清净慈悲为本持咒结界利他方得成就
-  summary_first_person: 吾为大唐总持寺沙门智通受持观世音普贤陀罗尼译为唐言传结界奉请持诵之法愿一切众生速得清净法身
+  - 密咒普传与择器授受之衡
+  - 显教戒律与密法神验之融
+  lesson: 以慈悲为宗持咒利生，至诚专精方得随心成就
+  summary_first_person: 余智通，大总持寺沙门，承玄奘三藏所授，译观自在随心陀罗尼，传四十八印坛法，愿众生业障清净随心所愿皆得成就
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/清净观世音普贤陀罗尼经.md
-  - https://cbetaonline.dila.edu.tw/zh/T1038
+  - https://daizhige.org/fozang/dazangjing/jingzang/mijiaobu/guanzizaipusadahuaduolusuixintuoluonijing.html
 endeavors:
 - id: guji-智通-endeavor-1
-  title_zh: 译出清净观世音普贤陀罗尼经
-  summary: 于王舍耆阇崛山会之说译为唐言具存根本咒结界咒奉请咒及功德利益
+  person_qid: guji-智通
+  title_zh: 译传随心陀罗尼经
+  summary_zh: 于大总持寺译出观自在怛嚩多唎随心经，宣说多唎心咒功德与观想念诵之法
   phases:
   - key: brewing
-    name: 受持亲承
+    name: 承玄奘受印习密
     labels:
-      zh:
-      - 酝酿受持
-    start_date: 432
-    highlight_event_id: guji-智通-event-birth
+      zh: 学法
+    start_date: '0640-01-01'
+    highlight_event_id: guji-智通-event-study
   - key: breakthrough
-    name: 唐言译传
+    name: 发心翻译立宗
     labels:
-      zh:
-      - 翻译突破
-    start_date: 446
+      zh: 译经
+    start_date: '0655-01-01'
+    highlight_event_id: guji-智通-event-translate
+  - key: climax
+    name: 弘传持诵验相
+    labels:
+      zh: 弘传
+    start_date: '0658-01-01'
     highlight_event_id: guji-智通-event-translate
   - key: closure
-    name: 付嘱流通
+    name: 付嘱后学流通
     labels:
-      zh:
-      - 流通收束
-    start_date: 447
-    highlight_event_id: guji-智通-event-translate
+      zh: 付嘱
+    start_date: '0665-01-01'
+    highlight_event_id: guji-智通-event-seals
   decisions:
-  - date: 446
-    title_zh: 存梵音译唐言并存
-    rationale: 为存咒力神效不全意译以音译存其声以略译述其义
-  - date: 447
-    title_zh: 具录三咒与功德
-    rationale: 令后学知根本结界奉请次第并生信心受持
+  - date: '0655-01-01'
+    title_zh: 以随心自在为经宗
+    rationale: 以观音大悲随心普益为宗，令末世四众速成三昧积集福智
+  - date: '0658-01-01'
+    title_zh: 定三十万遍为成就期
+    rationale: 立量数以摄散心，令观月轮字轮声如摇铃，候梦中示现成就
 - id: guji-智通-endeavor-2
-  title_zh: 住持总持寺传授持诵仪轨
-  summary: 传授白月八日至十五日结坛香汤洗浴三时持诵造像设供现身满愿之行法
+  person_qid: guji-智通
+  title_zh: 传四十八印坛法利生
+  summary_zh: 传总摄召请护身结界息灾增益等四十八印，及疗病坛法救济众苦
   phases:
   - key: brewing
-    name: 结界立坛
+    name: 集诸印咒仪轨
     labels:
-      zh:
-      - 仪轨酝酿
-    start_date: 0678
-    highlight_event_id: guji-智通-event-ritual
+      zh: 集法
+    start_date: '0658-01-01'
+    highlight_event_id: guji-智通-event-seals
+  - key: breakthrough
+    name: 开示印咒对机
+    labels:
+      zh: 开示
+    start_date: '0660-01-01'
+    highlight_event_id: guji-智通-event-seals
   - key: climax
-    name: 七日精进行道
+    name: 以坛法治病除难
     labels:
-      zh:
-      - 行道高潮
-    start_date: 0680
-    highlight_event_id: guji-智通-event-ritual
+      zh: 利生
+    start_date: '0662-01-01'
+    highlight_event_id: guji-智通-event-heal
   - key: closure
-    name: 造像摄化
+    name: 诫嘱灌顶方传
     labels:
-      zh:
-      - 摄化收束
-    start_date: 0682
-    highlight_event_id: guji-智通-event-preach
+      zh: 诫嘱
+    start_date: '0666-01-01'
+    highlight_event_id: guji-智通-event-heal
   decisions:
-  - date: 0678
-    title_zh: 定白月八日至十五日行法
-    rationale: 依月光明净增信心以七日限期专精易得相应
-  - date: 0682
-    title_zh: 图绘释迦普贤观音三圣像
-    rationale: 以形像摄心令行者观瞻归敬得见庄严易入三昧
+  - date: '0660-01-01'
+    title_zh: 印咒并传对病施方
+    rationale: 以印助咒力，以咒成印用，水火风贼王难各有所对，普救苦厄
+  - date: '0666-01-01'
+    title_zh: 非同心未灌顶不妄传
+    rationale: 护持教法清净，恐轻慢生殃，须同行善知识乃可授受
 events:
 - id: guji-智通-event-birth
-  title_zh: 生于唐初
-  date: 408
-  year_of: 630
-  summary: 生于唐贞观年间少出家受具
+  person_qid: guji-智通
+  type: birth
+  date: '0620-01-01'
+  year_of: 620
+  title_zh: 诞生于唐初
+  description_zh: 约唐贞观前后诞生，后出家为沙门，居大总持寺
+- id: guji-智通-event-study
+  person_qid: guji-智通
+  type: career
+  date: '0640-06-01'
+  year_of: 640
+  title_zh: 承玄奘三藏受总摄印
+  description_zh: 于玄奘三藏处受得总摄印明，兼习梵音密法，为后译经传印之本
 - id: guji-智通-event-translate
-  title_zh: 译出清净观世音普贤陀罗尼经
-  date: 446
-  year_of: 676
-  summary: 于大唐总持寺译出此经具三咒及受持功德
-- id: guji-智通-event-ritual
-  title_zh: 传授结界奉请行法
-  date: 0680
-  year_of: 680
-  summary: 传授结界洒水奉请三时百八遍诵满愿现身之法
-- id: guji-智通-event-preach
-  title_zh: 教示造像设坛仪轨
-  date: 0682
-  year_of: 682
-  summary: 教示画释迦普贤观音像设五色坛十六供具之法
+  person_qid: guji-智通
+  type: career
+  date: '0655-03-01'
+  year_of: 655
+  title_zh: 译观自在随心陀罗尼经
+  description_zh: 译出多唎心真言及每日千八遍满三十万遍成就法，并说梦相示现之验
+- id: guji-智通-event-seals
+  person_qid: guji-智通
+  type: career
+  date: '0660-08-01'
+  year_of: 660
+  title_zh: 传四十八印法
+  description_zh: 次第传总摄身印乃至随心祈愿等印，及五眼清净真言，广明召请结界息灾之用
+- id: guji-智通-event-heal
+  person_qid: guji-智通
+  type: career
+  date: '0662-04-01'
+  year_of: 662
+  title_zh: 立疗病坛法济世
+  description_zh: 设三重坛安像供养，诵咒万遍治一切病苦，并传水火风难等护身法
 - id: guji-智通-event-death
-  title_zh: 示寂
-  date: 448
-  year_of: 700
-  summary: 住持译经弘化后示寂于总持寺
+  person_qid: guji-智通
+  type: death
+  date: '0680-12-01'
+  year_of: 680
+  title_zh: 示寂于长安
+  description_zh: 约高宗末年示寂，所译随心经及印法流通后世，行人依之祈愿多验
