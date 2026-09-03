@@ -3,154 +3,146 @@ person:
   name_zh: 施护
   names:
     zh: 施护
-    en: Shihu Danapala
+    en: Danapala
   lifespan:
     birth:
-      date: 0950-01-01
+      date: '0950-01-01'
       precision: year
       is_circa: true
-      raw: 约十世纪中生于于阗生年未详
+      raw: 约十世纪中叶生于西天
     death:
-      date: 1017-01-01
+      date: '1017-01-01'
       precision: year
-      is_circa: true
-      raw: 宋真宗天禧元年卒
-  birth_date: 0950-01-01
-  death_date: 1017-01-01
+      is_circa: false
+      raw: 北宋天禧元年卒于汴京
+  birth_date: '0950-01-01'
+  death_date: '1017-01-01'
   era: 北宋
-  reign_ref: 宋太宗雍熙至宋真宗天禧
-  archetype: 弘译持经者
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 西天译经传法者
   dilemmas:
-  - title_zh: 胡汉文字隔阂与义理忠实之难
-    description: 梵本精微译成华言既须信达又须契合般若空性深义稍有增损即失佛意
-  - title_zh: 奉诏译经与专修证悟之衡
-    description: 日居译场校雠笔受不辍而自修观行时稀如何在利他译业与自利修持间不偏废
-  lesson: 以信达传灯不增不减弘般若空慧当以平等摄受一切善法为怀
-  summary_first_person: 我是施护本出西域于阗慕华法盛入宋应诏居译经院试鸿胪少卿传法大师奉诏译出五十颂圣般若波罗蜜等经愿以般若方便平等摄受一切善法令学者速获正觉
+  - 梵汉悬隔而奉诏敦促速译当如何兼顾信达雅正
+  - 密教观想繁密而初机难入当如何次第开示心月莲华
+  lesson: 先发大菩提心依法观想使文字即入无我平等空性
+  summary_first_person: 我以西天人来华奉诏译经普为修出世最上悉地者宣说佛母般若大明观想开示心月提字莲华安布之法
   source_urls:
-  - https://tripitaka.cbeta.org/T0248
-  - https://daizhige.org/zh-hant/sutra/T0248
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%BD%9B%E6%AF%8D%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E5%A4%A7%E6%98%8E%E8%A7%82%E6%83%B3%E4%BB%AA%E8%BD%A8.md
+  - https://cbeta.org/result/T1152
 endeavors:
 - id: guji-施护-endeavor-1
-  person_qid: guji-施护
-  title_zh: 应诏入院译经传法
-  summary: 自于阗入宋居译经院与法天等同译大小乘经一百余部以信达为要
+  title_zh: 西天来华奉诏入译经院
+  summary: 太平兴国五年至汴京授朝奉大夫传法大师与法贤等共译显密经律百余部
   phases:
   - key: brewing
-    name: 西域发心入华
+    name: 发心西来求法
     labels:
       zh:
-      - 酝酿
-    start_date: 0980-01-01
-    highlight_event_id: guji-施护-event-arrive
+      - 发心
+      - 西行
+    start_date: '0975-01-01'
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 入院试译得授官
+    name: 抵宋入院得诏
     labels:
       zh:
-      - 突破
-    start_date: 0983-01-01
-    highlight_event_id: guji-施护-event-translate-start
+      - 奉诏
+      - 入院
+    start_date: '0980-01-01'
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 译场笔受弘宣
+    name: 协同译经弘化
     labels:
       zh:
-      - 高潮
-    start_date: 0991-01-01
-    highlight_event_id: guji-施护-event-translate-fifty
+      - 译经
+      - 弘化
+    start_date: '0983-01-01'
+    highlight_event_id: guji-施护-event-translation
   - key: closure
-    name: 校定流通功成
+    name: 译业圆满示寂
     labels:
       zh:
-      - 收束
-    start_date: 1005-01-01
-    highlight_event_id: guji-施护-event-honor
+      - 圆满
+      - 示寂
+    start_date: '1017-01-01'
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0983-01-01
-    title_zh: 决意留宋应诏译经
-    rationale: 见宋崇佛译场初开西域名僧汇聚留此可广利汉地学人故舍归计
-  - date: 0991-01-01
-    title_zh: 以直译存梵义不尚华饰
-    rationale: 般若空性义深涉有空诸门若饰文失质则误后学故宁质朴存真
+  - date: '0980-01-01'
+    title_zh: 应诏留华入译经院
+    rationale: 为使西天教法广布东土不辞悬隔专务信达
+  - date: '0983-01-01'
+    title_zh: 与法贤法天分工合译
+    rationale: 以众智校梵汉以速成大藏而无谬误
 - id: guji-施护-endeavor-2
-  person_qid: guji-施护
-  title_zh: 弘宣五十颂般若平等法门
-  summary: 译出五十颂圣般若波罗蜜经宣说六度空性菩提分法平等摄受如一无异
+  title_zh: 宣说佛母般若大明观想仪轨
+  summary: 为修最上悉地者宣说佛母般若大明授心月提字六臂金身及八叶莲华文字安布三时持诵之法
   phases:
   - key: brewing
-    name: 受持般若深观
+    name: 菩提心为先导
     labels:
       zh:
-      - 酝酿
-    start_date: 0985-01-01
-    highlight_event_id: guji-施护-event-translate-start
+      - 菩提心
+      - 净月轮
+    start_date: '0998-01-01'
+    highlight_event_id: guji-施护-event-translation
   - key: breakthrough
-    name: 译出五十颂本
+    name: 心月提字成本尊
     labels:
       zh:
-      - 突破
-    start_date: 0990-01-01
-    highlight_event_id: guji-施护-event-translate-fifty
+      - 观想
+      - 本尊
+    start_date: '1000-01-01'
+    highlight_event_id: guji-施护-event-prajna
   - key: climax
-    name: 王舍鹫峰法会宣演
+    name: 莲华八叶布大明
     labels:
       zh:
-      - 高潮
-    start_date: 0991-01-01
-    highlight_event_id: guji-施护-event-translate-fifty
+      - 曼荼罗
+      - 持诵
+    start_date: '1001-01-01'
+    highlight_event_id: guji-施护-event-prajna
   - key: closure
-    name: 付嘱受持流通
+    name: 付嘱闻持证空性
     labels:
       zh:
-      - 收束
-    start_date: 1005-01-01
-    highlight_event_id: guji-施护-event-honor
+      - 付嘱
+      - 空性
+    start_date: '1002-01-01'
+    highlight_event_id: guji-施护-event-prajna
   decisions:
-  - date: 0990-01-01
-    title_zh: 择要译出五十颂以摄大部般若
-    rationale: 大般若卷帙浩繁初机难入撮其纲要为五十颂易持易诵故普摄三乘
-  - date: 0991-06-01
-    title_zh: 明示平等摄受劝持读诵演说
-    rationale: 恐学者执大小乘别故明言声闻缘觉菩萨法及一切善法平等如一劝随喜受持速成菩提
+  - date: '1000-01-01'
+    title_zh: 以黄色提字为根本心字
+    rationale: 使行者易于缘念即字即观般若无我平等出生文字
+  - date: '1001-01-01'
+    title_zh: 立八叶莲华分位安布文字
+    rationale: 使大明方位不杂日三时布坛持诵百八至千八十遍速得胜悉地
 events:
 - id: guji-施护-event-birth
-  person_qid: guji-施护
-  type: birth
-  date: 0950-01-01
+  title_zh: 生于西天
+  date: '0950-01-01'
   year_of: 950
-  title_zh: 生于于阗
-  description: 约十世纪中生于西域于阗通梵汉文字少习三藏
-- id: guji-施护-event-arrive
-  person_qid: guji-施护
-  type: career
-  date: 0983-01-01
+  place_zh: 西天
+  description: 约十世纪中叶生于西天后习梵典通显密
+- id: guji-施护-event-arrival
+  title_zh: 太平兴国五年抵汴京入译经院
+  date: '0980-01-01'
+  year_of: 980
+  place_zh: 汴京译经院
+  description: 与天息灾法贤等来华授朝奉大夫传法大师奉诏译经
+- id: guji-施护-event-translation
+  title_zh: 奉诏合译经律百余部
+  date: '0983-01-01'
   year_of: 983
-  title_zh: 随贡使入宋至京师
-  description: 雍熙年间随于阗贡使入宋朝觐应诏入译经院从事务翻译
-- id: guji-施护-event-translate-start
-  person_qid: guji-施护
-  type: career
-  date: 0985-01-01
-  year_of: 985
-  title_zh: 居译经院参译众经
-  description: 与法天等合作译出大乘庄严宝王等经渐以译业精审见称
-- id: guji-施护-event-translate-fifty
-  person_qid: guji-施护
-  type: career
-  date: 0991-01-01
-  year_of: 991
-  title_zh: 奉诏译出五十颂圣般若波罗蜜经
-  description: 于京师译场译出此经一卷明王舍鹫峰佛告须菩提般若具足方便平等摄受六度空性道品佛功德等一切善法
-- id: guji-施护-event-honor
-  person_qid: guji-施护
-  type: career
-  date: 1005-01-01
-  year_of: 1005
-  title_zh: 加授朝散大夫试鸿胪少卿传法大师
-  description: 以译经功多累加官阶赐传法大师号奉诏校定流通所译经典
+  place_zh: 汴京传法院
+  description: 与法贤施护等参校梵汉广译大乘密教经典弘化南北
+- id: guji-施护-event-prajna
+  title_zh: 译佛说佛母般若波罗蜜多大明观想仪轨
+  date: '1000-01-01'
+  year_of: 1000
+  place_zh: 汴京
+  description: 宣说佛母般若大明观想法授心月提字六臂金身及八叶莲华安布持诵仪轨
 - id: guji-施护-event-death
-  person_qid: guji-施护
-  type: death
-  date: 1017-01-01
+  title_zh: 天禧元年卒于汴京
+  date: '1017-01-01'
   year_of: 1017
-  title_zh: 示寂于京师
-  description: 宋真宗天禧元年示寂译业凡百余部般若法门藉此流通后世
+  place_zh: 汴京
+  description: 译业圆满示寂朝廷赠恤后世入藏宋元入藏诸大小乘经
