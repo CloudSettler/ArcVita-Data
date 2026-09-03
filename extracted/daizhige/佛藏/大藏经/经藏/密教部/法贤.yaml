@@ -6,141 +6,125 @@ person:
     en: Faxian
   lifespan:
     birth:
-      date: 0950
-      precision: 年
+      date: 0930
+      precision: century
       is_circa: true
-      raw: 宋初约十世纪中叶生于西天
+      raw: 天竺人，生年不详，约十世纪前叶
     death:
       date: '1001'
-      precision: 年
+      precision: year
       is_circa: false
-      raw: 宋真宗咸平四年示寂
-  birth_date: 0950
+      raw: 宋咸平四年卒
+  birth_date: 0930
   death_date: '1001'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 奉诏译经大师
+  archetype: 译师
   dilemmas:
-  - 梵本幽深与华言晓畅如何兼顾不失真义
-  - 密咒威神与民间蝗虫饥馑之苦如何转為利他实效
-  lesson: 译经持咒皆以精熟诚敬成就利他方为本怀
-  summary_first_person: 我本西天来华蒙授译经三藏明教大师之职奉诏翻译显密诸经我见世间灾沴蝗虫毒虫伤稼成饥故宣说辟除诸恶陀罗尼愿持诵成就者自利利他令众生安隐
+  - 梵汉悬隔而奉诏译经，如何既存梵音神效又使华人可受持读诵
+  - 世间众生多造罪业堕恶趣，如何以陀罗尼辟除恶魔鬼神令得安隐
+  lesson: 以至诚译持弘宣陀罗尼，辟除障恼，安隐众生即是报佛恩
+  summary_first_person: 吾本天竺沙门，蒙诏来华入译经院，授西天译经三藏朝散大夫试光禄卿明教大师，译钵兰那赊嚩哩大陀罗尼等经，愿闻者受持供养，远离恶魔鬼神，灾害消除安隐快乐
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%BE%9F%E9%99%A4%E8%AF%B8%E6%81%B6%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%BE%9F%E9%99%A4%E8%AF%B8%E6%81%B6%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%92%B5%E5%85%B0%E9%82%A3%E8%B5%8A%E5%9A%A9%E5%93%A9%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%92%B5%E5%85%B0%E9%82%A3%E8%B5%8A%E5%9A%A9%E5%93%A9%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
 endeavors:
 - id: guji-法贤-endeavor-1
-  person_qid: guji-法贤
-  title_zh: 奉诏入宋译场译经
-  description: 以西天僧受朝散大夫试光禄卿明教大师封号奉诏入译场译出显密经论数十部
+  title_zh: 来华入院奉诏译经
+  summary: 自天竺来华，入宋译经院为三藏，译出显密经论数十部
   phases:
   - key: brewing
-    name: 西来入华酝酿
+    name: 天竺出家习梵本显密
     labels:
       zh: 酝酿
+    start_date: 0950
+    highlight_event_id: guji-法贤-event-birth
+  - key: breakthrough
+    name: 太平兴国入华授三藏
+    labels:
+      zh: 突破
     start_date: 0976
-    highlight_event_id: guji-法贤-event-appoint
-  - key: breakthrough
-    name: 奉诏开译突破
-    labels:
-      zh: 突破
-    start_date: 0980
-    highlight_event_id: guji-法贤-event-translate
+    highlight_event_id: guji-法贤-event-bureau
   - key: climax
-    name: 众经并出高潮
+    name: 译经院 systematized 译场
     labels:
       zh: 高潮
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-pichu
+    start_date: 0980
+    highlight_event_id: guji-法贤-event-bureau
   - key: closure
-    name: 译业圆满收束
+    name: 授朝散大夫明教大师
     labels:
       zh: 收束
-    start_date: '1001'
-    highlight_event_id: guji-法贤-event-death
+    start_date: 0990
+    highlight_event_id: guji-法贤-event-polan
   decisions:
-  - date: 0980
-    title_zh: 应诏入译场专事梵汉对译
-    rationale: 感朝廷护法之诚愿以梵学精义报国利民故不辞繁难
-  - date: 0990
-    title_zh: 兼重密部救灾利农
-    rationale: 见蝗虫毒虫蚊虻虎狼伤稼害民故择辟除诸恶等陀罗尼先译先弘
+  - date: 0976
+    title_zh: 应诏留华不归天竺
+    rationale: 感宋帝崇法建译经院，留华译经利济更广
+  - date: 0982
+    title_zh: 以音译存梵咒兼加义释
+    rationale: 陀罗尼以音声为用，须存梵音，又须略明功用使人生信
 - id: guji-法贤-endeavor-2
-  person_qid: guji-法贤
-  title_zh: 持诵辟除诸恶陀罗尼成就法流布
-  description: 宣说辟除诸恶陀罗尼教授十万遍精熟加持净沙散掷辟除毒虫之成就法
+  title_zh: 译传钵兰那赊嚩哩陀罗尼
+  summary: 译出辟除恶魔鬼神之大陀罗尼，付阿难宣流于世
   phases:
   - key: brewing
-    name: 观灾起心酝酿
+    name: 观察世间恶魔恼害
     labels:
       zh: 酝酿
-    start_date: 0988
-    highlight_event_id: guji-法贤-event-translate
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-bureau
   - key: breakthrough
-    name: 宣说神咒突破
+    name: 奉诏译出此陀罗尼
     labels:
       zh: 突破
     start_date: 0990
-    highlight_event_id: guji-法贤-event-pichu
+    highlight_event_id: guji-法贤-event-polan
   - key: climax
-    name: 加持净沙散掷高潮
+    name: 宣说明持诵功德安隐
     labels:
       zh: 高潮
-    start_date: 0991
-    highlight_event_id: guji-法贤-event-pichu
+    start_date: 0990
+    highlight_event_id: guji-法贤-event-polan
   - key: closure
-    name: 阿难信受流通收束
+    name: 付阿难顶受欢喜奉行
     labels:
       zh: 收束
-    start_date: 0992
-    highlight_event_id: guji-法贤-event-spread
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-polan
   decisions:
   - date: 0990
-    title_zh: 定十万遍持诵为成就之基
-    rationale: 非精熟则心散力微故先立洁净斋戒发诚谛心之轨则
-  - date: 0991
-    title_zh: 以八百遍加持沙土辟虫
-    rationale: 欲令凡俗易行不伤物命而能遍护苗稼菜果故用散沙之方便
+    title_zh: 详译长咒六十句不断章
+    rationale: 愍众生昼夜被恼，须具存辟除灾害之全咒以资持诵
+  - date: 0990
+    title_zh: 明示受持供养得安隐
+    rationale: 使闻者发至诚心受持读诵供养，恶魔远离无诸疾疫
 events:
 - id: guji-法贤-event-birth
-  person_qid: guji-法贤
+  title_zh: 降生天竺出家
   type: birth
-  date: 0950
-  year_of: 950
-  title_zh: 生于西天
-  description: 约十世纪中叶生于印度后西来入华习梵汉之学
-- id: guji-法贤-event-appoint
-  person_qid: guji-法贤
+  date: 0930
+  year_of: 930
+  place_zh: 天竺
+  description: 法贤生于天竺，出家习梵文显密经论，生年不详约十世纪前叶
+- id: guji-法贤-event-bureau
+  title_zh: 入宋译经院授职
   type: career
   date: 0976
   year_of: 976
-  title_zh: 入宋授西天译经三藏
-  description: 随译经高僧入华授朝散大夫试光禄卿明教大师奉诏入译场
-- id: guji-法贤-event-translate
-  person_qid: guji-法贤
-  type: career
-  date: 0980
-  year_of: 980
-  title_zh: 太平兴国后开译众经
-  description: 在译场主持对译梵本兼弘显密为宋初三大译家之一
-- id: guji-法贤-event-pichu
-  person_qid: guji-法贤
+  place_zh: 开封译经院
+  description: 宋太平兴国中来华，入译经院，授西天译经三藏朝散大夫试光禄卿明教大师，奉诏译经
+- id: guji-法贤-event-polan
+  title_zh: 译佛说钵兰那赊嚩哩大陀罗尼经
   type: career
   date: 0990
   year_of: 990
-  title_zh: 译出佛说辟除诸恶陀罗尼经
-  description: 对阿难宣说辟除灾沴陀罗尼教授斋戒持诵十万遍加持净沙八百遍散掷辟除毒虫之法
-- id: guji-法贤-event-spread
-  person_qid: guji-法贤
-  type: career
-  date: 0992
-  year_of: 992
-  title_zh: 密法信受流通
-  description: 阿难闻经欢喜信受礼佛而退陀罗尼法渐布民间护稼禳灾
+  place_zh: 开封译经院
+  description: 奉诏译出此经，载世尊为阿难说陀罗尼辟除恶魔恶鬼神，闻者受持读诵供养则灾害消除所住安隐，阿难顶受欢喜而退
 - id: guji-法贤-event-death
-  person_qid: guji-法贤
+  title_zh: 咸平四年示寂
   type: death
   date: '1001'
   year_of: 1001
-  title_zh: 咸平四年示寂
-  description: 译业圆满于宋真宗咸平四年示寂译本入藏流传至今
+  place_zh: 开封
+  description: 宋真宗咸平四年卒，一生译经数十部，密教陀罗尼为重
