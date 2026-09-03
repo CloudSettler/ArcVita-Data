@@ -6,122 +6,132 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: '0572'
+      date: '0571'
       precision: year
       is_circa: true
-      raw: 约隋开皇十二年生于南天竺
+      raw: 隋开皇十一年左右
     death:
       date: '0727'
       precision: year
       is_circa: false
-      raw: 唐开元十五年卒于长安
-  birth_date: '0572'
+      raw: 唐开元十五年
+  birth_date: '0571'
   death_date: '0727'
   era: 唐
-  reign_ref: 武周长寿二年至开元十五年
-  archetype: 译经弘法者
+  reign_ref: 武周至开元
+  archetype: 西域译经三藏
   dilemmas:
-  - 一为梵本义理精微难传，一为华言简易恐失真谛，如何兼顾信达
-  - 一为密咒仪轨繁严难持，一为众生根器浅薄易退，如何权巧化导
-  lesson: 以一生译经持咒示人，信解行证皆须依师依轨方能利己利他
-  summary_first_person: 吾南天竺比丘也，奉诏入唐译经，传文殊六字神咒，愿众生持咒成就，临终得见文殊，随愿受生
+  - 梵本精妙而华言难达，如何既存密语威神又令中土信受
+  - 末世众生薄福多障，如何以陀罗尼坛印摄护令得成就
+  lesson: 以大悲为怀专精译传，持戒清净方能成就密法
+  summary_first_person: 吾南天竺沙门也，远涉流沙入唐译经，传千手千眼姥陀罗尼，愿后世众生离苦得乐，不退菩提
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%85%AD%E5%AD%97%E7%A5%9E%E5%92%92%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%85%AD%E5%AD%97%E7%A5%9E%E5%92%92%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E6%89%8B%E5%8D%83%E7%9C%BC%E8%A7%82%E4%B8%96%E9%9F%B3%E8%8F%A9%E8%90%A8%E5%A7%A5%E9%99%80%E7%BD%97%E5%B0%BC%E8%BA%AB%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E6%89%8B%E5%8D%83%E7%9C%BC%E8%A7%82%E4%B8%96%E9%9F%B3%E8%8F%A9%E8%90%A8%E5%A7%A5%E9%99%80%E7%BD%97%E5%B0%BC%E8%BA%AB%E7%BB%8F.md
 endeavors:
 - id: guji-菩提流志-endeavor-1
-  title_zh: 奉诏译传六字神咒经
-  summary: 于寂静道场建坛画像，译出文殊六字咒功能仪轨，教人三时沐浴持咒六十万遍以求现见文殊
+  title_zh: 西来入唐译经弘法
+  summary_zh: 自南天竺至洛阳长安，蒙武后玄宗崇礼，译大宝积经等大部，立译场传梵本
   phases:
   - key: brewing
-    name: 建坛画像立轨
+    name: 南天竺习学三藏
     labels:
-      zh: 筹备仪轨
+      zh: 学养酝酿
+    start_date: '0571'
+    highlight_event_id: guji-菩提流志-event-birth
+  - key: breakthrough
+    name: 长寿二年抵洛阳得礼遇
+    labels:
+      zh: 入唐突破
     start_date: 0693
     highlight_event_id: guji-菩提流志-event-arrival
-  - key: breakthrough
-    name: 译咒传法
-    labels:
-      zh: 译传突破
-    start_date: '0705'
-    highlight_event_id: guji-菩提流志-event-liuzi
   - key: climax
-    name: 持验感通
+    name: 译场总持译出大部
     labels:
-      zh: 修证高峰
+      zh: 译经高峰
     start_date: '0706'
-    highlight_event_id: guji-菩提流志-event-liuzi
+    highlight_event_id: guji-菩提流志-event-translation
   - key: closure
-    name: 略说流通
-    labels:
-      zh: 收束流通
-    start_date: '0710'
-    highlight_event_id: guji-菩提流志-event-liuzi
-  decisions:
-  - date: '0705'
-    title_zh: 定三时沐浴持咒之制
-    rationale: 欲令业障清净感通文殊，故立三时洗浴净衣及六十万遍之数以为初承事
-  - date: '0706'
-    title_zh: 立画像坛场之法
-    rationale: 欲令行者有所归依观想，故详定文殊观音普贤像式及酥灯香华供养之仪
-- id: guji-菩提流志-endeavor-2
-  title_zh: 久住长安广译大部
-  summary: 长住洛阳长安译场，主译大宝积经等百余部，以显密兼弘利益华土众生
-  phases:
-  - key: brewing
-    name: 入华立馆
-    labels:
-      zh: 初入译场
-    start_date: 0693
-    highlight_event_id: guji-菩提流志-event-arrival
-  - key: breakthrough
-    name: 大部竞译
-    labels:
-      zh: 大部突破
-    start_date: '0706'
-    highlight_event_id: guji-菩提流志-event-dabaoji
-  - key: climax
-    name: 宝积告成
-    labels:
-      zh: 事业高峰
-    start_date: '0713'
-    highlight_event_id: guji-菩提流志-event-dabaoji
-  - key: closure
-    name: 示寂留范
+    name: 开元示寂茶毗建塔
     labels:
       zh: 圆寂收束
     start_date: '0727'
     highlight_event_id: guji-菩提流志-event-death
   decisions:
   - date: 0693
-    title_zh: 应诏入洛居译馆
-    rationale: 南天竺三藏欲弘法东土，故顺武周征召入洛阳佛授记寺从事译事
+    title_zh: 应诏入华不辞海路艰辛
+    rationale: 为令大乘正法流通东土，愿以残身承担译业
   - date: '0706'
-    title_zh: 显密并弘之方
-    rationale: 欲令华人解行并进，故于大宝积等显教大部之余兼传文殊密咒以摄利钝二机
+    title_zh: 坚持梵汉对校义存密语
+    rationale: 陀罗尼贵在音义俱存，不可意译失其神验
+- id: guji-菩提流志-endeavor-2
+  title_zh: 传授千手千眼姥陀罗尼法门
+  summary_zh: 译出姥陀罗尼身经，宣说十二印坛法，教后世持诵结界禳灾之轨
+  phases:
+  - key: brewing
+    name: 补陀落山受持陀罗尼
+    labels:
+      zh: 本门酝酿
+    start_date: 0680
+    highlight_event_id: guji-菩提流志-event-arrival
+  - key: breakthrough
+    name: 佛前译出大身咒印
+    labels:
+      zh: 译传突破
+    start_date: '0707'
+    highlight_event_id: guji-菩提流志-event-translation
+  - key: climax
+    name: 详示坛法印咒感应
+    labels:
+      zh: 教法弘宣
+    start_date: '0710'
+    highlight_event_id: guji-菩提流志-event-mandala
+  - key: closure
+    name: 付嘱后世持戒传持
+    labels:
+      zh: 付嘱收束
+    start_date: '0720'
+    highlight_event_id: guji-菩提流志-event-mandala
+  decisions:
+  - date: '0707'
+    title_zh: 详译十二印与画坛轨
+    rationale: 使末世钝根者有所依凭，依法持诵即得护念
+  - date: '0710'
+    title_zh: 严诫破戒妄传之失
+    rationale: 密法须净戒慈悲为本，防污道匮法故垂诫
 events:
 - id: guji-菩提流志-event-birth
-  date: '0572'
-  year_of: 572
-  title_zh: 生于南天竺婆罗门家
-  description: 相传十二岁出家，通三藏义，为南天竺国三藏法师
+  type: birth
+  title_zh: 南天竺诞生
+  date: '0571'
+  year_of: 571
+  place_zh: 南天竺
+  description_zh: 南天竺出家博通三藏，传说寿一百五十六岁
 - id: guji-菩提流志-event-arrival
+  type: career
+  title_zh: 长寿二年抵洛阳
   date: 0693
   year_of: 693
-  title_zh: 至洛阳奉诏译经
-  description: 武周长寿二年至洛阳，入佛授记寺译场，始大规模奉诏译经生涯
-- id: guji-菩提流志-event-liuzi
-  date: '0705'
-  year_of: 705
-  title_zh: 译出六字神咒经
-  description: 奉诏译文殊师利六字咒功能，详说三时浴衣画像设坛，然酥灯烧沉香，持满六十万遍得见文殊
-- id: guji-菩提流志-event-dabaoji
-  date: '0713'
-  year_of: 713
-  title_zh: 译成大宝积经
-  description: 与众共译大宝积经毕，弘显密二教，为一代译主之一
+  place_zh: 洛阳
+  description_zh: 奉诏入唐武后礼遇，入译场主持译事
+- id: guji-菩提流志-event-translation
+  type: career
+  title_zh: 译出姥陀罗尼身经
+  date: '0707'
+  year_of: 707
+  place_zh: 长安
+  description_zh: 译千手千眼观世音菩萨姥陀罗尼身经，具载大身咒及总摄身印等十二印
+- id: guji-菩提流志-event-mandala
+  type: career
+  title_zh: 宣说画坛结界法
+  date: '0710'
+  year_of: 710
+  place_zh: 长安
+  description_zh: 示四院曼荼罗画法，教祈雨愈病结界禳灾之验
 - id: guji-菩提流志-event-death
+  type: death
+  title_zh: 开元十五年示寂
   date: '0727'
   year_of: 727
-  title_zh: 卒于长安
-  description: 开元十五年示寂于长安，相传寿一百五十六岁，谥开元一切遍知三藏
+  place_zh: 长安
+  description_zh: 示寂于长安，茶毗建塔，谥号慈济
