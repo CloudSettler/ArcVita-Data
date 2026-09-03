@@ -1,5 +1,5 @@
 person:
-  qid: guji-支谦
+  qid: guji-zhiqian
   name_zh: 支谦
   names:
     zh: 支谦
@@ -11,147 +11,122 @@ person:
       is_circa: true
       raw: 约190年
     death:
-      date: '0252'
+      date: '0253'
       precision: year
       is_circa: true
-      raw: 约252年
-  birth_date: 约0190
-  death_date: 约0252
-  era: 三国吴
-  reign_ref: 孙权黄武至神凤年间
+      raw: 约253年
+  birth_date: 0190
+  death_date: '0253'
+  era: 三国·吴
+  reign_ref: 孙吴黄武至建兴年间
   archetype: 译经居士
   dilemmas:
-  - 忠于梵本与汉文雅俗之间的抉择
-  - 白衣居士弘法与出家僧团规范的张力
-  lesson: 守慈悲本怀而践信义，译经当以信达雅化导人心，方能使佛法广被
-  summary_first_person: 吾本月支后裔，字恭明，寄籍吴地。少好学，博通梵汉六国之语。入吴见旧译质朴难通，士庶难解，遂立志以雅正流丽之笔重译众经，使佛理明畅。虽为优婆塞不敢自专，唯愿以笔墨为法施，如九色鹿以身济溺，令慈悲信义之教流行东土。
+  - 梵汉文体悬隔而欲兼顾信实与雅驯之难
+  - 以优婆塞居士身份主持译场取信于僧俗之难
+  lesson: 译事贵在信达雅兼，以吴地文心传竺法深义，方使大乘广行
+  summary_first_person: 余本月氏裔，寓居吴会，以优婆塞之身博通梵汉，入建业译场三十余年，译出八吉祥神咒等经，欲使吴人持八佛名号得护持免难，速趣无上道
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛说九色鹿经.md
-  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/佛说九色鹿经.html
-  - https://cbetaonline.dila.edu.tw/zh/T0181b
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%85%AB%E5%90%89%E7%A5%A5%E7%A5%9E%E5%92%92%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%85%AB%E5%90%89%E7%A5%A5%E7%A5%9E%E5%92%92%E7%BB%8F.md
 endeavors:
-- id: guji-支谦-endeavor-1
-  title_zh: 吴地佛经翻译事业
-  title_en: Translation of Buddhist Scriptures in Eastern Wu
-  description: 自黄武初至神凤年间于建业译出《大明度经》《了本生死经》《佛说九色鹿经》等四十九部，创文丽雅正之译风，奠定江东佛教经典基础
+- id: guji-zhiqian-endeavor-1
+  title_zh: 吴地大乘经典汉译
+  summary_zh: 于建业主持译场，译出大明度经维摩诘经八吉祥神咒经等四十余部，奠定吴译雅驯文体
   phases:
   - key: brewing
-    name: 博通梵汉
+    name: 入吴习梵
     labels:
-      zh: 积学
-    start_date: '0220'
-    highlight_event_id: guji-支谦-event-study
-  - key: breakthrough
-    name: 始译大部
-    labels:
-      zh: 首译
+      zh: 博览定基
     start_date: '0223'
-    highlight_event_id: guji-支谦-event-first-translation
+    highlight_event_id: guji-zhiqian-event-move-wu
+  - key: breakthrough
+    name: 初译试笔
+    labels:
+      zh: 八吉祥成译
+    start_date: '0225'
+    highlight_event_id: guji-zhiqian-event-translate-bajixiang
   - key: climax
-    name: 译经鼎盛
+    name: 译场鼎盛
     labels:
-      zh: 鼎盛
-    start_date: '0235'
-    highlight_event_id: guji-支谦-event-jiuselu
-  - key: closure
-    name: 垂范后学
-    labels:
-      zh: 垂范
-    start_date: '0250'
-    highlight_event_id: guji-支谦-event-legacy
-  decisions:
-  - date: '0223'
-    title_zh: 决意以雅译代质译
-    rationale: 见前译文质义晦，士大夫难入，遂改以汉地雅正流丽之文出经，使义不失真而辞达易晓
-  - date: '0235'
-    title_zh: 择本生故事译九色鹿经
-    rationale: 取鹿王救溺而遭背恩之事，彰显菩萨慈悲与背信恶报，契吴地教化人心之需
-- id: guji-支谦-endeavor-2
-  title_zh: 居士弘法与义理本土化
-  title_en: Lay Propagation and Sinicization of Doctrine
-  description: 以优婆塞身份居吴弘法，辅导太子，讲学授徒，融通玄学与般若，引导士人信仰，影响支亮竺法护等后世译场
-  phases:
-  - key: brewing
-    name: 定居建业
-    labels:
-      zh: 立足
-    start_date: '0223'
-    highlight_event_id: guji-支谦-event-settle
-  - key: breakthrough
-    name: 士人讲学
-    labels:
-      zh: 讲学
+      zh: 般若大译
     start_date: '0230'
-    highlight_event_id: guji-支谦-event-teaching
-  - key: climax
-    name: 融译与释义
-    labels:
-      zh: 融通
-    start_date: '0240'
-    highlight_event_id: guji-支谦-event-commentary
+    highlight_event_id: guji-zhiqian-event-translate-damingdu
   - key: closure
-    name: 法脉东传
+    name: 遗译传后
     labels:
-      zh: 传承
-    start_date: '0252'
-    highlight_event_id: guji-支谦-event-influence
+      zh: 吴译收成
+    start_date: '0250'
+    highlight_event_id: guji-zhiqian-event-death
   decisions:
+  - date: '0225'
+    title_zh: 择雅驯文体译咒经
+    rationale: 恐质朴难行吴俗，故以文丽雅驯出之，使八佛名号易诵易持而广布
   - date: '0230'
-    title_zh: 坚持白衣身份不入僧籍
-    rationale: 以居士身亲近朝野，便于在吴地士大夫间弘通，避免僧团与政权隔阂，扩大佛法影响
-  - date: '0240'
-    title_zh: 以汉儒信义诠释因果
-    rationale: 借九色鹿报恩背恩之缘起，强调信义与慈悲，契合汉儒仁义观以促佛法本土化
+    title_zh: 以意译为主兼存梵音咒句
+    rationale: 欲存陀罗尼神力而令义理可解，故咒语存音经文意译以兼顾持验与解义
+- id: guji-zhiqian-endeavor-2
+  title_zh: 居士弘法与吴楚佛学奠基
+  summary_zh: 以优婆塞身份讲译结合，宣说持名护持与菩萨道，沟通胡汉培育吴地僧团
+  phases:
+  - key: brewing
+    name: 优婆塞立场
+    labels:
+      zh: 居士弘化
+    start_date: '0223'
+    highlight_event_id: guji-zhiqian-event-move-wu
+  - key: breakthrough
+    name: 依经演说八佛护持
+    labels:
+      zh: 持名免难
+    start_date: '0226'
+    highlight_event_id: guji-zhiqian-event-translate-bajixiang
+  - key: climax
+    name: 融通玄儒
+    labels:
+      zh: 文道会通
+    start_date: '0235'
+    highlight_event_id: guji-zhiqian-event-translate-damingdu
+  - key: closure
+    name: 吴学源流
+    labels:
+      zh: 开吴佛风
+    start_date: '0252'
+    highlight_event_id: guji-zhiqian-event-death
+  decisions:
+  - date: '0226'
+    title_zh: 广说受持八佛名号功德
+    rationale: 欲令未得度者以简易持名获四天王拥护，免堕恶道速得菩提
+  - date: 0238
+    title_zh: 不出家而主持译场
+    rationale: 守优婆塞戒而以译经为弘法正行，示在家亦可荷担如来家业以应吴地机宜
 events:
-- id: guji-支谦-event-birth
-  title_zh: 生于月支侨民之家
+- id: guji-zhiqian-event-birth
+  title_zh: 出生
   date: 0190
-  year_of: 0190
-  description: 约汉末约190年生于月支后裔之家，祖辈归化汉地，自幼通汉语与梵语，博览经籍
-  is_circa: true
-- id: guji-支谦-event-death
-  title_zh: 示寂于建业
-  date: '0252'
-  year_of: '0252'
-  description: 约吴神凤年间卒于建业，一生译经四十九部，奠定吴地译经典范，后学尊为江东译祖
-  is_circa: true
-- id: guji-支谦-event-study
-  title_zh: 博览梵汉六国语言
-  date: '0220'
-  year_of: '0220'
-  description: 少年博览经籍，精通梵语及六国语言，随家南渡，为日后雅译奠定根基
-- id: guji-支谦-event-settle
-  title_zh: 定居建业受孙权礼遇
+  year_of: 190
+  place_zh: 雒阳
+  description_zh: 祖本月氏后徙中原，支谦生于汉末，字恭明，少聪慧博览经籍兼通梵汉
+- id: guji-zhiqian-event-move-wu
+  title_zh: 寓居建业入吴译场
   date: '0223'
-  year_of: '0223'
-  description: 吴黄武二年至建业，孙权闻其才学，拜为博士，令辅导太子孙登，获安稳译场
-- id: guji-支谦-event-first-translation
-  title_zh: 初译了本生死经
-  date: '0223'
-  year_of: '0223'
-  description: 始从事佛典汉译，译出《了本生死经》等，开创文雅译风，士人争传诵
-- id: guji-支谦-event-teaching
-  title_zh: 建业讲学融通玄佛
-  date: '0230'
-  year_of: '0230'
-  description: 于建业为士人讲经，融通老庄玄理与般若空义，使佛理易为江东士族接受
-- id: guji-支谦-event-jiuselu
-  title_zh: 译出佛说九色鹿经
-  date: '0235'
-  year_of: '0235'
-  description: 译出本生故事《佛说九色鹿经》一卷，述九色鹿救溺人而遭背恩、终得王护、风雨以时之慈悲因果，弘菩萨本怀
-- id: guji-支谦-event-commentary
-  title_zh: 注释经义推行雅译
-  date: '0240'
-  year_of: '0240'
-  description: 对所译般若类经典加以注解阐发，推行信达雅译法，影响江东译经规范
-- id: guji-支谦-event-legacy
-  title_zh: 译业垂范影响后世
-  date: '0250'
-  year_of: '0250'
-  description: 晚年译业大成，所译四十九部广行于世，为支亮、康僧会、竺法护等后世译家所宗
-- id: guji-支谦-event-influence
-  title_zh: 法脉东传奠定吴地佛学
-  date: '0252'
-  year_of: '0252'
-  description: 示寂后其译本与译风在建业长久流传，江东佛教遂兴，成三国佛教中心之一
+  year_of: 223
+  place_zh: 建业
+  description_zh: 汉末扰乱随众南渡，止于吴会，受孙权礼遇，于建业设译场始事翻译
+- id: guji-zhiqian-event-translate-bajixiang
+  title_zh: 译出佛说八吉祥神咒经
+  date: '0226'
+  year_of: 226
+  place_zh: 建业译场
+  description_zh: 译出八吉祥神咒经，宣说东方八佛名号与国土，劝受持讽诵以得护持除愈疾病怖畏
+- id: guji-zhiqian-event-translate-damingdu
+  title_zh: 译大明度经等大乘经
+  date: '0233'
+  year_of: 233
+  place_zh: 建业
+  description_zh: 陆续译出大明度经维摩诘经等四十余部，以雅驯之笔奠定吴译风格，影响后世般若学
+- id: guji-zhiqian-event-death
+  title_zh: 示寂
+  date: '0253'
+  year_of: 253
+  place_zh: 建业
+  description_zh: 译事既广，年事渐高而终于吴地，后人列为三国四大译师之一，吴地佛学自此兴盛
