@@ -1,0 +1,106 @@
+person:
+  qid: guji-鸠摩罗什
+  name_zh: 鸠摩罗什
+  names:
+    zh: 鸠摩罗什
+    en: Kumarajiva
+  lifespan:
+    birth:
+      date: '0344'
+      precision: year
+      is_circa: true
+      raw: 晋永和十年生于龟兹
+    death:
+      date: '0413'
+      precision: year
+      is_circa: false
+      raw: 弘始十五年卒于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国
+  reign_ref: 后秦姚兴弘始
+  archetype: 译经宗师
+  dilemmas:
+  - 梵汉悬隔质文难兼如何既存真谛又令华人得解
+  - 身处乱世羁旅秦凉如何守住译场不染疑伪
+  lesson: 以众证定一本之真以信达雅会梵汉之旨乱世弘经不改其度
+  summary_first_person: 吾生龟兹少出家广习三藏后入长安蒙礼住逍遥园与僧睿等共译般若法华维摩诸经及大智度论平生以重勘定伪为务愿后人因目录之别不惑于疑伪
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E4%BC%97%E7%BB%8F%E7%9B%AE%E5%BD%95--.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E4%BC%97%E7%BB%8F%E7%9B%AE%E5%BD%95--.md
+endeavors:
+- id: guji-鸠摩罗什-endeavor-1
+  title_zh: 弘始长安译场主持大乘重校
+  phases:
+  - key: brewing
+    name: 龟兹受戒西游求法
+    labels:
+      zh: 求法奠基
+    start_date: '0355'
+    highlight_event_id: guji-鸠摩罗什-event-birth
+  - key: climax
+    name: 逍遥园开译众经
+    labels:
+      zh: 长安开译
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-arrive-changan
+  decisions:
+  - date: '0401'
+    title_zh: 应姚兴请入长安住逍遥园
+    rationale: 天下未定非大译场不能定群经是非故就关中众智共证梵本
+  - date: '0404'
+    title_zh: 重译法华以定秦晋两本
+    rationale: 正法华质朴难晓故以弘始新译会通文义使华人易解而不失本旨
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 论释并传匡正疑伪
+  phases:
+  - key: breakthrough
+    name: 大智度论传灯
+    labels:
+      zh: 论释并行
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-translate-dazhidu
+  - key: closure
+    name: 遗嘱以译本为准
+    labels:
+      zh: 以舌证信
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
+  decisions:
+  - date: '0402'
+    title_zh: 先译大智度论百卷以立义纲
+    rationale: 经多论少则学人昧于宗趣故以龙树释论开般若之钥
+  - date: '0413'
+    title_zh: 临终发舌不坏之誓
+    rationale: 若所传无谬愿阇维之后舌根不坏以绝后世疑谤
+events:
+- id: guji-鸠摩罗什-event-birth
+  type: birth
+  date: '0344'
+  year_of: 344
+  title_zh: 生于龟兹
+  description_zh: 晋永和年间生于龟兹少习三藏兼通大乘为后入关中奠基
+- id: guji-鸠摩罗什-event-arrive-changan
+  type: career
+  date: '0401'
+  year_of: 401
+  title_zh: 入长安住逍遥园开译
+  description_zh: 蒙后秦姚兴礼请入长安与僧睿僧肇等于逍遥园大寺共译众经
+- id: guji-鸠摩罗什-event-translate-dazhidu
+  type: career
+  date: '0402'
+  year_of: 402
+  title_zh: 译大智度论及摩诃般若
+  description_zh: 于长安译出大智度论百卷及摩诃般若后为众经目录单本重翻所著录
+- id: guji-鸠摩罗什-event-translate-fahua
+  type: career
+  date: '0404'
+  year_of: 404
+  title_zh: 重译妙法莲华维摩诸经
+  description_zh: 重译妙法莲华经七卷维摩诘所说经三卷与竺法护支谦旧译并为同本异译
+- id: guji-鸠摩罗什-event-death
+  type: death
+  date: '0413'
+  year_of: 413
+  title_zh: 卒于长安
+  description_zh: 弘始十五年卒于长安遗言所译不谬阇维舌根不坏

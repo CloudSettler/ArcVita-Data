@@ -1,0 +1,141 @@
+person:
+  qid: guji-法经
+  name_zh: 法经
+  names:
+    zh: 法经
+    en: Fajing
+  lifespan:
+    birth:
+      date: 0536-01-01
+      precision: year
+      is_circa: true
+      raw: 约北朝末隋初生
+    death:
+      date: 0594-12-01
+      precision: year
+      is_circa: true
+      raw: 隋开皇十四年后卒
+  birth_date: 0536-01-01
+  death_date: 0594-12-01
+  era: 隋
+  reign_ref: 隋文帝开皇
+  archetype: 译经编纂者
+  dilemmas:
+  - 群经浩繁真伪杂糅而难辨一译异译之别
+  - 旧录散佚卷品分摘独行而大本统绪不明
+  lesson: 详校同异以立六分之统使后学有所考信
+  summary_first_person: 我是隋翻经沙门法经，奉敕预译润文，与众共撰众经目录七卷，分为六分以录大乘修多罗等，辨一译异译别品之异，愿以此定群经之衡度。
+  source_urls:
+  - https://daizhige.org/众经目录.html
+endeavors:
+- id: guji-法经-endeavor-1
+  title_zh: 奉敕预译润文
+  description: 隋初奉敕入译场参与众经翻译润色详定文义
+  phases:
+  - key: brewing
+    name: 入场习律
+    labels:
+      zh:
+      - 译场
+      - 学律
+    start_date: 0580-01-01
+    highlight_event_id: guji-法经-event-translate
+  - key: breakthrough
+    name: 参译大乘
+    labels:
+      zh:
+      - 参译
+      - 润文
+    start_date: 0582-01-01
+    highlight_event_id: guji-法经-event-translate
+  - key: climax
+    name: 详定文义
+    labels:
+      zh:
+      - 详定
+      - 勘校
+    start_date: 0588-01-01
+    highlight_event_id: guji-法经-event-translate
+  - key: closure
+    name: 译事渐备
+    labels:
+      zh:
+      - 功成
+      - 待录
+    start_date: 0592-01-01
+    highlight_event_id: guji-法经-event-catalog
+  decisions:
+  - date: 0582-06-01
+    title_zh: 应召入京师译场
+    rationale: 欲通梵汉以利弘传故就译席而习润色
+  - date: 0588-03-01
+    title_zh: 主张直译兼存旧译
+    rationale: 恐失本义又重异译故两存以待详考
+- id: guji-法经-endeavor-2
+  title_zh: 编纂众经目录七卷
+  description: 与费长房等共撰众经目录以六分统摄辨一译异译别品殊译
+  phases:
+  - key: brewing
+    name: 搜访群经
+    labels:
+      zh:
+      - 搜访
+      - 采集
+    start_date: 0590-01-01
+    highlight_event_id: guji-法经-event-catalog
+  - key: breakthrough
+    name: 立六分例
+    labels:
+      zh:
+      - 立例
+      - 分类
+    start_date: 0592-01-01
+    highlight_event_id: guji-法经-event-catalog
+  - key: climax
+    name: 成七卷录
+    labels:
+      zh:
+      - 编录
+      - 成书
+    start_date: 0594-01-01
+    highlight_event_id: guji-法经-event-catalog
+  - key: closure
+    name: 奏上颁行
+    labels:
+      zh:
+      - 奏上
+      - 流通
+    start_date: 0594-08-01
+    highlight_event_id: guji-法经-event-catalog
+  decisions:
+  - date: 0592-01-01
+    title_zh: 定六分统摄之例
+    rationale: 经律论杂糅故分大乘修多罗等六分以便检寻
+  - date: 0594-01-01
+    title_zh: 别出一译异译别品
+    rationale: 大本无亏而卷品别行故分原本一译大本异译别品殊译以明同异
+events:
+- id: guji-法经-event-birth
+  title_zh: 出生出家
+  date: 0536-01-01
+  year_of: 536
+  type: birth
+  description: 约生于北朝末年，少出家为沙门，习经律而预译业
+- id: guji-法经-event-translate
+  title_zh: 奉敕参与翻经
+  date: 0582-06-01
+  year_of: 582
+  type: career
+  description: 隋开皇初奉敕入京译场，与众沙门共译大乘修多罗等，润色详定
+- id: guji-法经-event-catalog
+  title_zh: 撰成众经目录七卷
+  date: 0594-01-01
+  year_of: 594
+  type: career
+  description: 与费长房等共撰众经目录七卷，首卷录大乘修多罗六百四十五部，分一译异译别品，奏上于朝
+- id: guji-法经-event-death
+  title_zh: 示寂
+  date: 0594-12-01
+  year_of: 594
+  type: death
+  description: 开皇十四年目录成后不久示寂，遗录盛行于隋唐
