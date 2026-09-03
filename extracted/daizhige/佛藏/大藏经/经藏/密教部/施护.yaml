@@ -9,148 +9,119 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 宋初生于西天乌填曩国
+      raw: 约宋初生于北印度乌填曩国
     death:
       date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒于东京
+      raw: 宋真宗天禧元年示寂
   birth_date: 0950
   death_date: '1017'
   era: 北宋
-  reign_ref: 宋太祖开宝至宋真宗天禧
-  archetype: 西天译经三藏密教弘传者
+  reign_ref: 宋太宗至宋真宗朝
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔义密言微如何译得信达不失加持
-  - 奉诏传译体例严谨而仪轨繁细如何兼顾朝制与法本
-  lesson: 以信达清净传译令灭罪莲华法门普被群生
-  summary_first_person: 吾自西天乌填曩而来入宋奉诏译经传广大莲华庄严曼拏罗灭一切罪陀罗尼愿众生除障离恶趣安住菩提
+  - 梵汉文义悬隔如何既忠实又通达
+  - 奉诏译经与修行度众如何兼顾
+  - 密咒音义难传如何令众受持得益
+  lesson: 以诚敬译经持咒可息灾延命护国佑民
+  summary_first_person: 吾施护本北印度乌填曩国人蒙宋帝诏入译经院传法译经以陀罗尼救护中夭愿众生长寿安稳远离怖畏
   source_urls:
-  - https://daizhige.org/lotus-mandala-dharani.html
-  - https://tripitaka.cbeta.org/T11n1116
+  - https://daizhige.org/息除中夭陀罗尼经.html
+  - https://cbetaonline.dila.edu.tw/T/T1347
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏入译经院译传三藏
-  summary_zh: 自西天入宋隶译经院与法天法贤等共译显密经律论
+  title_zh: 北宋译经院奉诏译经
+  description_zh: 自西天来华入译经院奉诏传译显密经论弘法利生
   phases:
   - key: brewing
-    name: 西天习学发心东来
+    name: 西天发心来华
     labels:
-      zh:
-      - 西来发心
-      - 习学梵本
+      zh: 求法发心
     start_date: 0980
-    highlight_event_id: guji-施护-event-arrive
+    highlight_event_id: guji-施护-event-1
   - key: breakthrough
-    name: 应诏入院初参译事
+    name: 入院得度传译
     labels:
-      zh:
-      - 奉诏入院
-      - 初译
+      zh: 奉诏入院
     start_date: 0983
-    highlight_event_id: guji-施护-event-enter
+    highlight_event_id: guji-施护-event-1
   - key: climax
-    name: 授朝散大夫传法大师专主译经
+    name: 群经并译弘宣
     labels:
-      zh:
-      - 传法大师
-      - 专译
-    start_date: 0990
-    highlight_event_id: guji-施护-event-master
+      zh: 译经弘宣
+    start_date: 0991
+    highlight_event_id: guji-施护-event-2
   - key: closure
-    name: 译籍盈卷名著朝野
+    name: 功圆示寂流芳
     labels:
-      zh:
-      - 译功圆备
-      - 利济中夏
-    start_date: '1010'
-    highlight_event_id: guji-施护-event-master
+      zh: 功圆传承
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
   decisions:
+  - date: 0980
+    title_zh: 应诏入宋赴译场
+    rationale: 欲以梵本正法广利东土故不辞远涉奉诏而行
   - date: 0983
-    title_zh: 应诏入译经院专事传译
-    rationale: 感朝廷护法梵本难逢愿舍安逸共成译业
-  - date: 0990
-    title_zh: 受传法大师职仍守清净戒行
-    rationale: 恐名位损道故以戒为师令所译信实有据
+    title_zh: 安住传法院专事翻译
+    rationale: 朝廷护法因缘殊胜当专心译经以报国恩而利群生
 - id: guji-施护-endeavor-2
-  title_zh: 译传广大莲华庄严曼拏罗灭罪法门
-  summary_zh: 译出观自在菩萨广大莲华庄严曼拏罗灭一切罪陀罗尼并画像念诵仪轨
+  title_zh: 弘传息除中夭陀罗尼
+  description_zh: 宣说救护怖畏息除中夭之法令持诵者长寿无难离诸怖畏
   phases:
   - key: brewing
-    name: 讲述梵寿王头痛女身因缘
+    name: 观察中夭怖畏
     labels:
-      zh:
-      - 因果开示
-      - 大悲缘起
+      zh: 慈悲观察
     start_date: 0995
-    highlight_event_id: guji-施护-event-translate
+    highlight_event_id: guji-施护-event-2
   - key: breakthrough
-    name: 传观自在大悲心陀罗尼
+    name: 佛为四王说护法
     labels:
-      zh:
-      - 大悲真言
-      - 灭罪
+      zh: 请法立愿
     start_date: '1000'
-    highlight_event_id: guji-施护-event-translate
+    highlight_event_id: guji-施护-event-2
   - key: climax
-    name: 详说曼拏罗画像供养仪轨
+    name: 十方如来同说神咒
     labels:
-      zh:
-      - 曼拏罗
-      - 供养仪轨
-    start_date: '1002'
-    highlight_event_id: guji-施护-event-ritual
-  - key: closure
-    name: 劝护常住劝造寺舍流通正法
-    labels:
-      zh:
-      - 护常住
-      - 流通
+      zh: 同说神咒
     start_date: '1005'
-    highlight_event_id: guji-施护-event-ritual
+    highlight_event_id: guji-施护-event-2
+  - key: closure
+    name: 书写受持流通获福
+    labels:
+      zh: 流通获福
+    start_date: '1010'
+    highlight_event_id: guji-施护-event-death
   decisions:
   - date: '1000'
-    title_zh: 决定全译陀罗尼及曼拏罗仪轨
-    rationale: 见众生堕恶趣女身苦恼非空言可救须以行法为依
+    title_zh: 译出息除中夭陀罗尼经
+    rationale: 见世间中夭老病怖畏无尽当以秘密神咒救护有情令得长寿
   - date: '1005'
-    title_zh: 明破用常住重罪以警策护法
-    rationale: 恐后世轻夺三宝物故详陈果报令生敬畏护持
+    title_zh: 劝众书写受持流通
+    rationale: 经典所在诸佛菩萨集会拥护书写转读功德如造佛像故劝流通
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于西天乌填曩国
   date: 0950
   year_of: 950
-  is_circa: true
-  description_zh: 宋初生于西天乌填曩国少习三藏兼通密教
-- id: guji-施护-event-arrive
-  title_zh: 随表东来至宋都
+  title_zh: 生于乌填曩国
+  description_zh: 约宋初生于西天北印度乌填曩国帝释宫寺出家学法精通三藏
+  place_zh: 北印度乌填曩国
+- id: guji-施护-event-1
   date: 0980
   year_of: 980
-  is_circa: true
-  description_zh: 宋太祖开宝年间自西天来华至东京献梵本经夹
-- id: guji-施护-event-enter
-  title_zh: 入译经院参译经论
-  date: 0983
-  year_of: 983
-  description_zh: 宋太宗太平兴国八年入译经院与天息灾法贤共事传译
-- id: guji-施护-event-master
-  title_zh: 授试鸿胪少卿传法大师
-  date: 0990
-  year_of: 990
-  description_zh: 以译功授朝散大夫试鸿胪少卿传法大师专主译场
-- id: guji-施护-event-translate
-  title_zh: 译广大莲华庄严曼拏罗灭一切罪陀罗尼经
+  title_zh: 来华入译经院
+  description_zh: 自西天至宋都开封奉诏入译经院为传法大师赐紫沙门专事翻译
+  place_zh: 开封译经院
+- id: guji-施护-event-2
   date: '1000'
   year_of: 1000
-  is_circa: true
-  description_zh: 奉诏译出梵寿王酥钵哩野问答观自在说大悲陀罗尼缘起正法
-- id: guji-施护-event-ritual
-  title_zh: 传曼拏罗画像念诵莲华供养仪轨
-  date: '1002'
-  year_of: 1002
-  description_zh: 详传净帛画像莲华座二菩萨天龙供养八百莲华念诵仪则及护常住戒
+  title_zh: 译息除中夭陀罗尼经
+  description_zh: 于殑伽河边佛为四王说救护法之缘起奉诏译出宣说十方如来及四天王神咒劝众受持息除中夭
+  place_zh: 开封
 - id: guji-施护-event-death
-  title_zh: 示寂于东京译经院
   date: '1017'
   year_of: 1017
-  description_zh: 宋真宗天禧元年示寂译业圆满遗教流通后世
+  title_zh: 示寂于宋
+  description_zh: 宋真宗天禧元年示寂一生译经弘法功德圆满众咸敬仰
+  place_zh: 开封
