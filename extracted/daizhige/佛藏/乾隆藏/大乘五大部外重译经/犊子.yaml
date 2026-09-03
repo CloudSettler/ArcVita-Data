@@ -1,0 +1,143 @@
+person:
+  qid: guji-犊子
+  name_zh: 犊子
+  names:
+    zh: 犊子
+    en: Calf
+  lifespan:
+    birth:
+      date: '-0530'
+      precision: year
+      is_circa: true
+      raw: 约公元前530年
+    death:
+      date: -0529
+      precision: year
+      is_circa: true
+      raw: 约公元前529年
+  birth_date: '-0530'
+  death_date: -0529
+  era: 春秋
+  reign_ref: 释迦牟尼住世
+  archetype: 布施觉悟者
+  dilemmas:
+  - title_zh: 惜身食抑或尽施供佛
+    description: 母欲留后二乳养我，我当自食草水而尽以己分供养如来
+  - title_zh: 安于畜命抑或闻名发愿
+    description: 堕牛马十六劫，今闻佛名当发菩提求智慧成佛抑或随业流转
+  lesson: 愚痴不信堕畜多劫，闻名生信布施得福，畜生亦可发愿成佛
+  summary_first_person: 吾先世随恶知识不信佛经，堕牛马中经十六劫，今生为犊子于舍卫城外。闻阿难为佛乞乳，帝释化婆罗门取乳，吾在边闻佛名便生慈心，劝母尽以吾分乳供养如来，自食水草足活，愿后世得智慧如佛，蒙佛授记二十劫后当作乳光如来
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E7%8A%8A%E5%AD%90%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E7%8A%8A%E5%AD%90%E7%BB%8F.md
+endeavors:
+- id: guji-犊子-endeavor-1
+  title_zh: 宿业堕畜与闻名觉悟
+  description: 因不信佛经随恶知识堕牛马十六劫，生为犊子，闻佛名号顿生正信发起慈心
+  phases:
+  - key: brewing
+    name: 堕畜受报
+    labels:
+      zh: 宿业
+    start_date: '-0700'
+    highlight_event_id: guji-犊子-event-karma
+  - key: breakthrough
+    name: 闻佛名号
+    labels:
+      zh: 觉悟
+    start_date: -0530-06-01
+    highlight_event_id: guji-犊子-event-hear-buddha
+  - key: climax
+    name: 发慈施心
+    labels:
+      zh: 发心
+    start_date: -0530-06-01
+    highlight_event_id: guji-犊子-event-offer
+  - key: closure
+    name: 得佛开示
+    labels:
+      zh: 受记
+    start_date: -0530-06-02
+    highlight_event_id: guji-犊子-event-prophecy
+  decisions:
+  - date: -0530-06-01
+    title_zh: 闻佛名即劝母尽施
+    rationale: 自念十六劫畜身皆由不信，今难值大师，当舍己乳分供养以种菩提因
+- id: guji-犊子-endeavor-2
+  title_zh: 布施乳供与授记成佛
+  description: 以己所食乳分满器供养释迦，获授记死后供养幡盖持戒，二十劫后作乳光如来
+  phases:
+  - key: brewing
+    name: 母子议乳
+    labels:
+      zh: 慈议
+    start_date: -0530-06-01
+    highlight_event_id: guji-犊子-event-offer
+  - key: breakthrough
+    name: 满器奉佛
+    labels:
+      zh: 供养
+    start_date: -0530-06-01
+    highlight_event_id: guji-犊子-event-offer
+  - key: climax
+    name: 蒙佛授记
+    labels:
+      zh: 授记
+    start_date: -0530-06-02
+    highlight_event_id: guji-犊子-event-prophecy
+  - key: closure
+    name: 后世成佛
+    labels:
+      zh: 圆成
+    start_date: -0509
+    highlight_event_id: guji-犊子-event-buddhahood
+  decisions:
+  - date: -0530-06-01
+    title_zh: 自食水草尽让乳分
+    rationale: 己可食草饮水活命，佛值难遇，当舍己食以求无量福报与智慧
+  - date: -0529
+    title_zh: 死后供养持戒发愿
+    rationale: 以悬缯幡盖散华烧香受持经戒延续愿力趣向无上道
+events:
+- id: guji-犊子-event-birth
+  title_zh: 生为犊子
+  date: '-0530'
+  year_of: '-0530'
+  location: 舍卫国城外婆罗门牛群
+  description: 宿业未尽，生于富婆罗门家牛群中为犊子，与母牸牛同栏
+- id: guji-犊子-event-karma
+  title_zh: 宿因堕牛马十六劫
+  date: '-0700'
+  year_of: '-0700'
+  location: 阎浮提
+  description: 佛说其母子先世不信佛经随恶知识教，故堕牛马中经十六劫
+- id: guji-犊子-event-hear-buddha
+  title_zh: 犊闻佛名生信
+  date: -0530-06-01
+  year_of: '-0530'
+  location: 舍卫国婆罗门牛群
+  description: 阿难奉佛命乞乳，帝释化婆罗门取乳，犊在边立闻有佛名即生敬信
+- id: guji-犊子-event-offer
+  title_zh: 劝母尽乳供佛
+  date: -0530-06-01
+  year_of: '-0530'
+  location: 舍卫国牛群
+  description: 母言前两乳取去后两乳遗子，犊劝持己乳分尽与佛，自食草饮水足活，令阿难满器持还祇洹精舍
+- id: guji-犊子-event-prophecy
+  title_zh: 蒙佛授记乳光
+  date: -0530-06-02
+  year_of: '-0530'
+  location: 舍卫国祇洹阿那邠迟阿蓝精舍
+  description: 佛告阿难牛母子后世当为弥勒佛沙门弟子得大罗汉，犊子死后当为佛悬缯幡盖散华烧香受持经戒，二十劫后作佛名乳光如来
+- id: guji-犊子-event-buddhahood
+  title_zh: 未来成乳光如来
+  date: -0509
+  year_of: -0509
+  location: 未来佛土
+  description: 依佛授记经二十劫修行后当作佛号乳光如来度脱一切
+- id: guji-犊子-event-death
+  title_zh: 犊身命终
+  date: -0529
+  year_of: -0529
+  location: 舍卫国
+  description: 此期犊报命终，后世转生修供养持戒趣向解脱
