@@ -6,134 +6,143 @@ person:
     en: Dharmabhadra
   lifespan:
     birth:
-      date: 0950-01-01
+      date: 0950
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中西天人
+      raw: 北宋初生于西天生年不详
     death:
-      date: 1000-01-01
+      date: '1001'
       precision: year
-      is_circa: true
-      raw: 北宋咸平三年卒
-  birth_date: 0950-01-01
-  death_date: 1000-01-01
+      is_circa: false
+      raw: 宋真宗咸平四年卒
+  birth_date: 0950
+  death_date: '1001'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 译师
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔奉诏精译何以兼顾信达
-  - 密咒功德难思众生业重何以令信受持
-  lesson: 至诚读诵受持则重业得灭福聚广大所求成就
-  summary_first_person: 我本西天来华奉诏译经以栴檀香身陀罗尼劝人至诚受持令灭宿业得见菩萨所求成就
+  - 梵汉悬隔如何兼顾信实与通畅
+  - 陀罗尼功德深广如何令众信受持诵
+  lesson: 奉诏传译以密咒善巧令众灭罪集福
+  summary_first_person: 我自西天来华奉诏译经宣说洛叉陀罗尼愿持诵者灭无量重罪成大福聚
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说栴檀香身陀罗尼经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说栴檀香身陀罗尼经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说洛叉陀罗尼经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说洛叉陀罗尼经.md
 endeavors:
 - id: guji-法贤-endeavor-1
-  person_id: guji-法贤
-  title_zh: 奉诏西天译经
-  summary_zh: 太平兴国来华受朝散大夫试光禄卿明教大师号入译经院与施护等共译显密经论
+  person_qid: guji-法贤
+  title_zh: 奉诏入院传译经教
+  description: 自西天来华入译经院奉诏传译显密经论授朝散大夫明教大师
   phases:
   - key: brewing
-    name: 来华受诏
+    name: 西天习学发心来华
     labels:
-      zh: 酝酿
-    start_date: 0980-01-01
-    highlight_event_id: guji-法贤-event-arrive
+      zh:
+      - 西天习学
+    start_date: 0973
+    highlight_event_id: guji-法贤-event-973-arrival
   - key: breakthrough
-    name: 入院初译
+    name: 入译场初试传译
     labels:
-      zh: 突破
-    start_date: 0982-01-01
-    highlight_event_id: guji-法贤-event-translate
+      zh:
+      - 初入译场
+    start_date: 0983
+    highlight_event_id: guji-法贤-event-983-translate
   - key: climax
-    name: 译经宏博
+    name: 受封三藏弘化广盛
     labels:
-      zh: 高潮
-    start_date: 0990-01-01
-    highlight_event_id: guji-法贤-event-chantang
+      zh:
+      - 受封弘化
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-991-honor
   - key: closure
-    name: 功成示寂
+    name: 译业圆满安然示寂
     labels:
-      zh: 收束
-    start_date: 1000-01-01
+      zh:
+      - 示寂
+    start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0980-01-01
-    title_zh: 应召留京入译经院
-    rationale: 为报国恩弘法利生舍西归之念就汉梵之任
-  - date: 0982-01-01
-    title_zh: 与施护等分工合译
-    rationale: 梵本浩繁一人难兼众人参详可保信达以副圣旨
+  - date: 0983
+    title_zh: 应诏入译场专事传译
+    rationale: 感朝廷崇佛之诚愿以译经利国利生
+  - date: 0991
+    title_zh: 受明教大师号不废译事
+    rationale: 以名位为弘法助缘坚守来华本愿
 - id: guji-法贤-endeavor-2
-  person_id: guji-法贤
-  title_zh: 弘传栴檀香身陀罗尼
-  summary_zh: 宣说栴檀香身陀罗尼具大威力能消重业能见观自在能除癞病恶疮教以坛场持诵之法
+  person_qid: guji-法贤
+  title_zh: 宣说洛叉陀罗尼利生
+  description: 传译宣说洛叉陀罗尼劝众受持灭罪集福以咒缘广结善信
   phases:
   - key: brewing
-    name: 清净持诵
+    name: 研习密教章句
     labels:
-      zh: 酝酿
-    start_date: 0985-01-01
-    highlight_event_id: guji-法贤-event-translate
+      zh:
+      - 研习密咒
+    start_date: 0983
+    highlight_event_id: guji-法贤-event-983-translate
   - key: breakthrough
-    name: 坛场感通
+    name: 译出洛叉陀罗尼
     labels:
-      zh: 突破
-    start_date: 0990-01-01
-    highlight_event_id: guji-法贤-event-chantang
+      zh:
+      - 译出密咒
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-985-luozha
   - key: climax
-    name: 除病灭业
+    name: 宣说持诵功德
     labels:
-      zh: 高潮
-    start_date: 0992-01-01
-    highlight_event_id: guji-法贤-event-chantang
+      zh:
+      - 宣扬功德
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-991-honor
   - key: closure
-    name: 付嘱流通
+    name: 付嘱流通安然示寂
     labels:
-      zh: 收束
-    start_date: 0999-01-01
+      zh:
+      - 流通示寂
+    start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: 0990-01-01
-    title_zh: 详示见菩萨法
-    rationale: 欲令疑者生信故说白檀涂坛焚香献花八千诵满七日感现之仪
-  - date: 0992-01-01
-    title_zh: 开示除癞病法
-    rationale: 悯业报病苦者故说佛前三诵加持香泥涂身供养之方令速除瘥兼灭宿业
+  - date: 0985
+    title_zh: 决意传译洛叉陀罗尼
+    rationale: 见此咒难遇能灭重罪欲令众生同得福聚
+  - date: 0991
+    title_zh: 普劝受持流通不辍
+    rationale: 信受持诵功德如持洛叉佛故广劝结缘
 events:
 - id: guji-法贤-event-birth
-  person_id: guji-法贤
-  title_zh: 出生
-  type: birth
-  date: 0950-01-01
+  person_qid: guji-法贤
+  title_zh: 诞生于西天
+  date: 0950
   year_of: 950
-  description: 生于西天生年不详本名天息灾后赐名法贤
-- id: guji-法贤-event-arrive
-  person_id: guji-法贤
-  title_zh: 来华受诏授译经三藏
-  type: career
-  date: 0980-01-01
-  year_of: 980
-  description: 太平兴国五年至京师太宗召见赐名法贤授朝散大夫试光禄卿明教大师入译经院
-- id: guji-法贤-event-translate
-  person_id: guji-法贤
-  title_zh: 入院合译显密经论
-  type: career
-  date: 0982-01-01
-  year_of: 982
-  description: 与法天施护等设坛译经校梵证义润文成就众多翻译
-- id: guji-法贤-event-chantang
-  person_id: guji-法贤
-  title_zh: 译说栴檀香身陀罗尼经
-  type: career
-  date: 0990-01-01
-  year_of: 990
-  description: 奉诏译佛说栴檀香身陀罗尼经宣八千诵见菩萨及香泥除病之法阿难欢喜信受
+  description: 生于西天少习三藏兼通密教章句
+- id: guji-法贤-event-973-arrival
+  person_qid: guji-法贤
+  title_zh: 随师来华抵开封
+  date: 0973
+  year_of: 973
+  description: 自西天取经来华入宋都开封求附译场
+- id: guji-法贤-event-983-translate
+  person_qid: guji-法贤
+  title_zh: 奉诏入译经院传译
+  date: 0983
+  year_of: 983
+  description: 奉宋太宗诏入译经院与施护等共事传译
+- id: guji-法贤-event-985-luozha
+  person_qid: guji-法贤
+  title_zh: 译出佛说洛叉陀罗尼经
+  date: 0985
+  year_of: 985
+  description: 宣说洛叉陀罗尼谓受持功德如持洛叉佛能灭无量重罪
+- id: guji-法贤-event-991-honor
+  person_qid: guji-法贤
+  title_zh: 授朝散大夫明教大师
+  date: 0991
+  year_of: 991
+  description: 以译经功授朝散大夫试光禄卿明教大师号赐紫衣
 - id: guji-法贤-event-death
-  person_id: guji-法贤
-  title_zh: 示寂
-  type: death
-  date: 1000-01-01
-  year_of: 1000
-  description: 咸平三年示寂于京师译业既成遗法流通
+  person_qid: guji-法贤
+  title_zh: 示寂于开封
+  date: '1001'
+  year_of: 1001
+  description: 宋真宗咸平四年示寂译业圆满众咸追慕
