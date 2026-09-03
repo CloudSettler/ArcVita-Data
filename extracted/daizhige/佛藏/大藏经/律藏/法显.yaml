@@ -1,0 +1,158 @@
+person:
+  qid: guji-法显
+  name_zh: 法显
+  names:
+    zh: 法显
+    en: Faxian
+  lifespan:
+    birth:
+      date: '0337'
+      precision: year
+      is_circa: true
+      raw: 晋成帝咸康前后平阳武阳人
+    death:
+      date: '0422'
+      precision: year
+      is_circa: false
+      raw: 刘宋武帝永初三年荆州辛寺
+  birth_date: '0337'
+  death_date: '0422'
+  era: 东晋刘宋
+  reign_ref: 东晋隆安至刘宋永初
+  archetype: 西行求法高僧
+  dilemmas:
+  - 安坐中土诵习残律与冒死西行求取全律之抉择
+  - 梵本携归不易与华土共译弘传比丘尼戒之重任
+  lesson: 为求全戒不惜身命以持律弘化利及后学
+  summary_first_person: 余法显平阳人也幼而出家常慨律藏残缺与同志发愿西行遍历西域天竺求得萨婆多等律梵本泛海南归建康共译弘传于长干寺集出十诵比丘尼戒本并记佛国行迹以示后人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data 佛藏 大藏经 律藏 十诵比丘尼波罗提木叉戒本
+  - https://daizhige.org 佛藏 大藏经 律藏 十诵比丘尼波罗提木叉戒本
+endeavors:
+- id: guji-法显-endeavor-1
+  title_zh: 西行天竺求取律本
+  summary_zh: 隆安三年自长安结侣西行越流沙葱岭遍历西域北天竺中天竺于华氏城求得律梵本义熙八年海路东归建康
+  phases:
+  - key: brewing
+    name: 长安结侣发愿
+    labels:
+      zh:
+      - 发愿求律
+      - 结侣西行
+    start_date: 0399
+    highlight_event_id: guji-法显-event-departure
+  - key: breakthrough
+    name: 越葱岭入天竺
+    labels:
+      zh:
+      - 艰难跋涉
+      - 遍礼圣迹
+    start_date: '0402'
+    highlight_event_id: guji-法显-event-enter-india
+  - key: climax
+    name: 华氏城得律梵本
+    labels:
+      zh:
+      - 求得律本
+      - 留学研律
+    start_date: '0406'
+    highlight_event_id: guji-法显-event-obtain-vinaya
+  - key: closure
+    name: 海路东归建康
+    labels:
+      zh:
+      - 泛海东归
+      - 携经而返
+    start_date: '0411'
+    highlight_event_id: guji-法显-event-return
+  decisions:
+  - date: 0399
+    title_zh: 结伴西行求律
+    rationale: 中土律藏残缺受戒仪式难全故宁冒九死以求全本
+  - date: '0410'
+    title_zh: 泛海南归不留天竺
+    rationale: 誓以所得律本弘传故土虽海难险阻亦携梵本东归
+- id: guji-法显-endeavor-2
+  title_zh: 建康译律集出戒本
+  summary_zh: 归后住建康道场寺长干寺与佛驮跋陀罗等共译大般泥洹摩诃僧祇律等集出十诵比丘尼波罗提木叉戒本并著佛国记
+  phases:
+  - key: brewing
+    name: 道场寺共译大经
+    labels:
+      zh:
+      - 共译弘传
+      - 安住建康
+    start_date: '0413'
+    highlight_event_id: guji-法显-event-return
+  - key: breakthrough
+    name: 译出摩诃僧祇律
+    labels:
+      zh:
+      - 译律补阙
+      - 规范僧制
+    start_date: '0414'
+    highlight_event_id: guji-法显-event-translate-vinaya
+  - key: climax
+    name: 长干寺集出尼戒本
+    labels:
+      zh:
+      - 集出戒本
+      - 弘范尼众
+    start_date: '0415'
+    highlight_event_id: guji-法显-event-compile-bhikkhuni
+  - key: closure
+    name: 著佛国记示后
+    labels:
+      zh:
+      - 记述行迹
+      - 圆寂荆州
+    start_date: '0416'
+    highlight_event_id: guji-法显-event-death
+  decisions:
+  - date: '0414'
+    title_zh: 与佛驮跋陀罗共译律藏
+    rationale: 独译力薄梵汉悬隔故须众智共成以传全律
+  - date: '0415'
+    title_zh: 集出十诵比丘尼戒本
+    rationale: 尼众受持无依布萨难行故别集戒本以便半月诵持弘护
+events:
+- id: guji-法显-event-birth
+  title_zh: 平阳出生出家
+  date: '0337'
+  year_of: 337
+  description_zh: 约晋成帝咸康前后生平阳武阳幼年出家二十受具足常慨律藏不全
+- id: guji-法显-event-departure
+  title_zh: 自长安结侣西行
+  date: 0399
+  year_of: 399
+  description_zh: 晋安帝隆安三年与慧景道整等自长安出发西度流沙赴西域天竺求律
+- id: guji-法显-event-enter-india
+  title_zh: 越葱岭遍礼天竺
+  date: '0402'
+  year_of: 402
+  description_zh: 越葱岭入北天竺辗转中天竺遍礼佛陀圣迹研习梵语律仪
+- id: guji-法显-event-obtain-vinaya
+  title_zh: 华氏城求得律梵本
+  date: '0406'
+  year_of: 406
+  description_zh: 于中天竺巴连弗邑得萨婆多部律等梵本留止研习抄写立志东归弘传
+- id: guji-法显-event-return
+  title_zh: 海路归达建康
+  date: '0412'
+  year_of: 412
+  description_zh: 义熙八年自海路历尽艰险归达建康住道场寺青龙寺出所得梵本
+- id: guji-法显-event-translate-vinaya
+  title_zh: 道场寺共译经律
+  date: '0414'
+  year_of: 414
+  description_zh: 于建康道场寺与佛驮跋陀罗共译摩诃僧祇律大般泥洹经等弘传中土
+- id: guji-法显-event-compile-bhikkhuni
+  title_zh: 长干寺集出尼戒本
+  date: '0415'
+  year_of: 415
+  description_zh: 于宋长干寺集出十诵比丘尼波罗提木叉戒本详列八波罗夷十七僧残等以便尼众布萨诵持
+- id: guji-法显-event-death
+  title_zh: 荆州辛寺圆寂
+  date: '0422'
+  year_of: 422
+  description_zh: 刘宋武帝永初三年寂于荆州辛寺寿八十余所著佛国记传于后世

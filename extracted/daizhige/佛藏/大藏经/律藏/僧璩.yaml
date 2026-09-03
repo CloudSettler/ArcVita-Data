@@ -1,0 +1,126 @@
+person:
+  qid: guji-僧璩
+  name_zh: 僧璩
+  names:
+    zh: 僧璩
+    en: Sengqu
+  lifespan:
+    birth:
+      date: '0415'
+      precision: year
+      is_circa: true
+      raw: 刘宋初约生
+    death:
+      date: '0475'
+      precision: year
+      is_circa: true
+      raw: 刘宋末约卒
+  birth_date: '0415'
+  death_date: '0475'
+  era: 刘宋
+  reign_ref: 刘宋文帝元嘉
+  archetype: 持律撰集僧
+  dilemmas:
+  - 羯磨仪文繁广学人难持当如何略出要用而不失律意
+  - 比丘尼受戒次第繁复当如何依十诵成文定其轨式
+  lesson: 依律撮要使大众易持羯磨有据
+  summary_first_person: 我生逢刘宋于杨都中兴寺依十诵律撰出羯磨比丘要用以便大众持行
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/律藏/十诵羯磨比丘要用.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/律藏/十诵羯磨比丘要用.md
+endeavors:
+- id: guji-僧璩-endeavor-1
+  title_zh: 依十诵律撰出羯磨要用
+  summary_zh: 于杨都中兴寺依十诵律成文略出羯磨要用成一卷
+  phases:
+  - key: brewing
+    name: 集文考律
+    labels:
+      zh: 考律
+    start_date: '0440'
+    highlight_event_id: guji-僧璩-event-1
+  - key: breakthrough
+    name: 略出要用
+    labels:
+      zh: 撰集
+    start_date: '0450'
+    highlight_event_id: guji-僧璩-event-1
+  - key: climax
+    name: 定本流通
+    labels:
+      zh: 成书
+    start_date: '0455'
+    highlight_event_id: guji-僧璩-event-1
+  - key: closure
+    name: 付众持行
+    labels:
+      zh: 流通
+    start_date: 0458
+    highlight_event_id: guji-僧璩-event-2
+  decisions:
+  - date: '0450'
+    title_zh: 依成文略出要用
+    rationale: 羯磨随事众多故取成文要者以便唱白持行余归大本
+  - date: '0455'
+    title_zh: 先列三归五戒八戒沙弥戒为卷首
+    rationale: 白衣出家入门先须归戒故以受戒文冠于羯磨之首
+- id: guji-僧璩-endeavor-2
+  title_zh: 中兴寺弘律授戒轨范
+  summary_zh: 在中兴寺主持授戒正授三坛次第以范后学
+  phases:
+  - key: brewing
+    name: 住寺习律
+    labels:
+      zh: 住持
+    start_date: '0445'
+    highlight_event_id: guji-僧璩-event-2
+  - key: breakthrough
+    name: 建立戒场仪
+    labels:
+      zh: 建仪
+    start_date: '0452'
+    highlight_event_id: guji-僧璩-event-2
+  - key: climax
+    name: 授式叉摩尼及二部授戒
+    labels:
+      zh: 授戒
+    start_date: '0456'
+    highlight_event_id: guji-僧璩-event-2
+  - key: closure
+    name: 教授后学守律
+    labels:
+      zh: 教授
+    start_date: '0465'
+    highlight_event_id: guji-僧璩-event-death
+  decisions:
+  - date: '0452'
+    title_zh: 尼众二岁学戒后方授具足
+    rationale: 依佛制式叉摩尼学六法以验堪任方入大僧受具
+  - date: '0456'
+    title_zh: 尼先本众后入大僧两部和合
+    rationale: 顺十诵二部授戒制先尼寺作法即日将至大僧和合受具
+events:
+- id: guji-僧璩-event-birth
+  type: birth
+  date: '0415'
+  year_of: 415
+  title_zh: 生于刘宋初
+  description: 约生于刘宋初年后出家习律
+- id: guji-僧璩-event-1
+  type: career
+  date: '0455'
+  year_of: 455
+  title_zh: 撰出十诵羯磨比丘要用一卷
+  description: 于杨都中兴寺依律撰出略出要用自受三归五戒至具足坛凡七门
+- id: guji-僧璩-event-2
+  type: career
+  date: '0460'
+  year_of: 460
+  title_zh: 中兴寺弘律定授戒轨式
+  description: 住杨都中兴寺主持羯磨授戒详定沙弥尼六法及二部授具仪
+- id: guji-僧璩-event-death
+  type: death
+  date: '0475'
+  year_of: 475
+  title_zh: 卒于刘宋末
+  description: 化于江南所撰要用流行于世收入大藏
