@@ -9,118 +9,126 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于天竺，生年不详
+      raw: 西天人，生年不详，约十世纪中叶生
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒
+      raw: 宋真宗咸平四年卒
   birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
+  reign_ref: 宋太祖至宋真宗太平兴国至咸平
   archetype: 译经弘法者
   dilemmas:
-  - 梵汉语义悬隔当如何忠实传译而不失陀罗尼威力
-  - 身为西来梵僧当如何取信宋廷译场并安住弘化
-  lesson: 以至诚受持弘传陀罗尼，令造重罪者亦得灭障向善
-  summary_first_person: 吾本天竺那烂陀僧，远来入宋，蒙诏充译经三藏，授朝散大夫试光禄卿明教大师，奉诏译灭除五逆罪大陀罗尼，愿众生发至诚心顶戴受持，灭五逆重罪，获如持千佛功德。
+  - title_zh: 梵汉悬隔信解难通
+    description: 秘密之义浅识难信难解，译笔稍误即成谤法，如何令简易可持而义无谬误
+  - title_zh: 去留羁旅奉诏难违
+    description: 西天故土在远，东土诏命在近，西归旧里还是久住译场以毕残生
+  lesson: 以至诚译秘密，以简易利群生，能令难信者信即是弘法
+  summary_first_person: 吾法贤，西天人也，奉宋诏入译经院为三藏，译秘密八名陀罗尼等经，愿众生受持读诵，消无间业，不堕地狱，得生兜率，吾虽异域之人，得毕命于译场，幸矣
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%81%AD%E9%99%A4%E4%BA%94%E9%80%86%E7%BD%AA%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%81%AD%E9%99%A4%E4%BA%94%E9%80%86%E7%BD%AA%E5%A4%A7%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%98%E5%AF%86%E5%85%AB%E5%90%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%98%E5%AF%86%E5%85%AB%E5%90%8D%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-法贤-endeavor-1
-  title_zh: 西来入宋参预译场
-  summary: 自天竺那烂陀来华，入宋译经院为三藏，协译众经，受朝散大夫试光禄卿明教大师号。
+  title_zh: 奉诏入院译传密藏
+  description: 自西天至东京，入译经院为三藏，专译金刚部等密教经典，成秘密八名陀罗尼经
   phases:
   - key: brewing
-    name: 天竺习学发心东来
+    name: 跋涉东来初居译院
     labels:
-      zh: 筹备
-    start_date: 0976
-    highlight_event_id: guji-法贤-event-1
+      zh: 酝酿
+    start_date: 0973
+    highlight_event_id: guji-法贤-event-arrive
   - key: breakthrough
-    name: 随众抵宋投译经院
+    name: 试译梵汉突破悬隔
+    labels:
+      zh: 突破
+    start_date: 0976
+    highlight_event_id: guji-法贤-event-arrive
+  - key: climax
+    name: 译出八名陀罗尼鼎盛
+    labels:
+      zh: 高潮
+    start_date: 0982
+    highlight_event_id: guji-法贤-event-translate-mimi
+  - key: closure
+    name: 进封明教刊定圆满
+    labels:
+      zh: 收束
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-honor
+  decisions:
+  - date: 0976
+    title_zh: 应诏留住专任译经
+    rationale: 太平兴国设译经院，诏命难违，留住方能广利东土众生，故不归西域
+  - date: 0982
+    title_zh: 略说金刚部秘密八名
+    rationale: 众生根器狭劣难信难解，故略说象耳乃至妙色八名及陀罗尼，令易持易成
+- id: guji-法贤-endeavor-2
+  title_zh: 宣扬持诵功德教化
+  description: 弘传受持读诵秘密八名陀罗尼者消无间业退散魔众临终见佛之功德，令四众信受奉行
+  phases:
+  - key: brewing
+    name: 承金刚手请法酝酿
+    labels:
+      zh: 酝酿
+    start_date: 0980
+    highlight_event_id: guji-法贤-event-translate-mimi
+  - key: breakthrough
+    name: 宣说持诵得戒得定
     labels:
       zh: 突破
     start_date: 0982
-    highlight_event_id: guji-法贤-event-1
+    highlight_event_id: guji-法贤-event-translate-mimi
   - key: climax
-    name: 充译经三藏受官号
+    name: 四众欢喜信受广布
     labels:
       zh: 高潮
-    start_date: 0983
-    highlight_event_id: guji-法贤-event-1
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-honor
   - key: closure
-    name: 安住译场广参传译
+    name: 以兜率往生嘱付来学
     labels:
       zh: 收束
-    start_date: 0985
-    highlight_event_id: guji-法贤-event-1
+    start_date: '1001'
+    highlight_event_id: guji-法贤-event-death
   decisions:
   - date: 0982
-    title_zh: 入宋译经院任译职
-    rationale: 欲借宋廷护法广传梵本，故安住译场专事传译
-  - date: 0983
-    title_zh: 受朝散大夫等官号仍主译事
-    rationale: 以官号取信朝野，护持译场长久弘化
-- id: guji-法贤-endeavor-2
-  title_zh: 奉诏传译灭除五逆罪陀罗尼
-  summary: 奉诏译佛说灭除五逆罪大陀罗尼经，宣说具大威力能灭五逆重罪之陀罗尼，劝发至诚顶戴受持读诵。
-  phases:
-  - key: brewing
-    name: 考求密教陀罗尼梵本
-    labels:
-      zh: 筹备
-    start_date: 0988
-    highlight_event_id: guji-法贤-event-2
-  - key: breakthrough
-    name: 奉诏开译五逆罪经
-    labels:
-      zh: 突破
-    start_date: 0990
-    highlight_event_id: guji-法贤-event-2
-  - key: climax
-    name: 宣说陀罗尼付阿难弘传
-    labels:
-      zh: 高潮
-    start_date: 0991
-    highlight_event_id: guji-法贤-event-2
-  - key: closure
-    name: 流通受持获千佛功德
-    labels:
-      zh: 收束
-    start_date: 0995
-    highlight_event_id: guji-法贤-event-2
-  decisions:
-  - date: 0990
-    title_zh: 奉诏译灭除五逆罪大陀罗尼经
-    rationale: 悯重罪众生无所依怙，故以密咒方便令其灭障
-  - date: 0991
-    title_zh: 明示顶戴受持获千佛功德
-    rationale: 欲令闻者发至诚心尽形受持，故举大功德以劝信
+    title_zh: 直陈消业退魔功德
+    rationale: 欲令不持戒者得戒完具，非梵行者得成梵行，故明言八万四千魔众退散及七俱胝劫不堕地狱
+  - date: 0985
+    title_zh: 付嘱四众欢喜奉行
+    rationale: 经成之后唯信受奉行方能久住，故以金刚手等及天人阿修罗欢喜作结，令教化相续
 events:
 - id: guji-法贤-event-birth
-  title_zh: 生于天竺
-  type: birth
+  title_zh: 西天出生
   date: 0950
   year_of: 950
-  summary: 约十世纪中叶生于天竺那烂陀一带，幼习梵典声明，通密教章句
-- id: guji-法贤-event-1
-  title_zh: 入宋充译经三藏受官号
-  type: career
+  place_zh: 西天
+  description: 生于西天，少习梵典，通持明藏，长而有志东传
+- id: guji-法贤-event-arrive
+  title_zh: 至宋入译经院
+  date: 0973
+  year_of: 973
+  place_zh: 东京
+  description: 随西域僧众至宋，太平兴国中入译经院，预奉诏译经之列
+- id: guji-法贤-event-translate-mimi
+  title_zh: 译秘密八名陀罗尼经
   date: 0982
   year_of: 982
-  summary: 自西天来华，与法天等入宋译经院，充西天译经三藏，授朝散大夫试光禄卿明教大师
-- id: guji-法贤-event-2
-  title_zh: 奉诏译佛说灭除五逆罪大陀罗尼经
-  type: career
-  date: 0990
-  year_of: 990
-  summary: 奉诏译出此经，载世尊告阿难有大陀罗尼能灭五逆重罪，具说咒句，劝顶戴受持读诵，阿难欢喜礼佛而退
+  place_zh: 东京译经院
+  description: 奉诏译出佛在舍卫国祇树给孤独园说金刚手秘密八名，自象耳至妙色，并传陀罗尼及持诵功德
+- id: guji-法贤-event-honor
+  title_zh: 加号明教大师试光禄卿
+  date: 0991
+  year_of: 991
+  place_zh: 东京
+  description: 以译经功加西天译经三藏朝散大夫试光禄卿明教大师，久住译场刊定梵汉
 - id: guji-法贤-event-death
-  title_zh: 宋咸平四年示寂
-  type: death
+  title_zh: 咸平四年示寂
   date: '1001'
   year_of: 1001
-  summary: 在宋真宗咸平四年示寂，一生译经弘密，功在译场
+  place_zh: 东京
+  description: 宋真宗咸平四年卒于译事，遗言受持此经者临终得见诸佛菩萨生兜率天
