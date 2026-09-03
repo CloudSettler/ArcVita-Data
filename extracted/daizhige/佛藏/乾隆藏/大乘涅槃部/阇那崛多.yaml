@@ -1,0 +1,132 @@
+person:
+  qid: guji-阇那崛多
+  name_zh: 阇那崛多
+  names:
+    zh: 阇那崛多
+    en: Jnanagupta
+  lifespan:
+    birth:
+      date: 0523-01-01
+      precision: year
+      is_circa: true
+      raw: 约五二三年生于犍陀罗国
+    death:
+      date: 0600-01-01
+      precision: year
+      is_circa: true
+      raw: 约六百年卒于隋长安
+  birth_date: 0523-01-01
+  death_date: 0600-01-01
+  era: 北朝至隋
+  reign_ref: 隋文帝开皇年间
+  archetype: 译经弘法者
+  dilemmas:
+  - title_zh: 去国万里与弘愿难两全
+    description_zh: 离犍陀罗远涉葱岭于异域译经当如何安顿乡思与道心
+  - title_zh: 周隋鼎革与法难中守经
+    description_zh: 逢周武禁佛至隋复兴当如何保全译场令正法不断
+  lesson: 越山海而译经当以忍辱精进守护正法令东土得闻大乘
+  summary_first_person: 吾本犍陀罗人，少习三藏，远涉诸国入于中土，周隋之间译经数十，弘四童子三昧等大乘正法，愿以残生令佛种不断
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘涅槃部/四童子三昧经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘涅槃部/四童子三昧经.html
+endeavors:
+- id: guji-阇那崛多-endeavor-1
+  title_zh: 西域受学东行入华
+  summary_zh: 于犍陀罗受具持律习经，历诸国远涉葱岭，经突厥入北周长安，备历艰险立志译弘
+  phases:
+  - key: brewing
+    name: 犍陀罗受学持律
+    labels:
+      zh:
+      - 受戒
+      - 习经
+    start_date: 0523-01-01
+    highlight_event_id: guji-阇那崛多-event-birth
+  - key: breakthrough
+    name: 决意负经东行
+    labels:
+      zh:
+      - 远行
+      - 发愿
+    start_date: 0555-01-01
+    highlight_event_id: guji-阇那崛多-event-arrival
+  - key: climax
+    name: 抵长安入译场
+    labels:
+      zh:
+      - 入华
+      - 译场
+    start_date: 0559-01-01
+    highlight_event_id: guji-阇那崛多-event-arrival
+  decisions:
+  - date: 0555-01-01
+    title_zh: 决意东行入震旦
+    rationale: 见西土经阙东土渴仰故负梵本远涉沙漠欲令正法东流
+  - date: 0559-01-01
+    title_zh: 依止周隋译场
+    rationale: 初至长安逢时未顺且依众安居学华言以待弘译之机
+- id: guji-阇那崛多-endeavor-2
+  title_zh: 隋代弘译四童子三昧经
+  summary_zh: 隋文帝复兴佛教，开皇年间与弟子共译四童子三昧经三卷及诸大乘经，宣说佛涅槃大事与童子化生弘愿
+  phases:
+  - key: brewing
+    name: 开皇复法集众
+    labels:
+      zh:
+      - 复法
+      - 集众
+    start_date: 0581-01-01
+    highlight_event_id: guji-阇那崛多-event-translate
+  - key: breakthrough
+    name: 开译涅槃部诸经
+    labels:
+      zh:
+      - 译经
+      - 授义
+    start_date: 0590-01-01
+    highlight_event_id: guji-阇那崛多-event-translate
+  - key: closure
+    name: 译竟流通付嘱
+    labels:
+      zh:
+      - 流通
+      - 付嘱
+    start_date: 0595-01-01
+    highlight_event_id: guji-阇那崛多-event-death
+  decisions:
+  - date: 0590-01-01
+    title_zh: 首译四童子三昧经
+    rationale: 此经明佛临涅槃付嘱童子菩萨化生劝请故先译以示灭度大事不断佛种
+  - date: 0592-01-01
+    title_zh: 详校梵汉广令流通
+    rationale: 恐华梵乖舛误导后学故反复校勘令文义周足付弟子书写流通
+events:
+- id: guji-阇那崛多-event-birth
+  type: birth
+  title_zh: 生于犍陀罗国
+  date: 0523-01-01
+  year_of: 523
+  place_zh: 犍陀罗国
+  description_zh: 约五二三年生于北天竺犍陀罗，少出家受具精持律藏兼习大乘
+- id: guji-阇那崛多-event-arrival
+  type: career
+  title_zh: 历艰险入北周长安
+  date: 0559-01-01
+  year_of: 559
+  place_zh: 长安
+  description_zh: 负梵本经突厥远涉葱岭抵达长安，学华言习俗以待译经
+- id: guji-阇那崛多-event-translate
+  type: career
+  title_zh: 隋代译出四童子三昧经三卷
+  date: 0590-01-01
+  year_of: 590
+  place_zh: 隋长安大兴善寺
+  description_zh: 于开皇年间与弟子共译四童子三昧经，述佛于拘尸那双树间将入涅槃及善思义寂静转等童子化生请法之事
+- id: guji-阇那崛多-event-death
+  type: death
+  title_zh: 卒于隋长安
+  date: 0600-01-01
+  year_of: 600
+  place_zh: 长安
+  description_zh: 译经数十部后示寂于长安，门人继持译业令经教广行东土
