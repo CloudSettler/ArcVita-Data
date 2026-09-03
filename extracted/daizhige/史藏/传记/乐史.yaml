@@ -1,0 +1,147 @@
+person:
+  qid: guji-乐史
+  name_zh: 乐史
+  names:
+    zh: 乐史
+    en: Yue Shi
+  lifespan:
+    birth:
+      date: 0930
+      precision: year
+      is_circa: false
+      raw: 930年
+    death:
+      date: '1007'
+      precision: year
+      is_circa: false
+      raw: 1007年
+  birth_date: 0930
+  death_date: '1007'
+  era: 宋
+  reign_ref: 宋太宗
+  archetype: 史官·类书家
+  dilemmas:
+  - 续旧补阙与广采博搜之间如何取舍
+  - 馆阁修史与地方为政如何兼顾清望与实务
+  lesson: 积善之家必有余庆，见贤思齐可砺士风，纂集卓异以劝来者
+  summary_first_person: 余初入馆殿尝撰续唐卓异记三卷，后总汉魏以降至周世宗并唐事为一集，名曰广卓异记凡二十卷，欲使后进观累代簪缨功业而思齐
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/广卓异记.md
+  - https://daizhige.org/史藏/传记/广卓异记.html
+  - https://ctext.org/wiki.pl?if=gb&res=603481
+endeavors:
+- id: guji-乐史-endeavor-1
+  person_qid: guji-乐史
+  title_zh: 续广卓异记
+  title_en: Compiling Guang Zhuoyi Ji
+  summary: 继李翱卓异记三卷而续唐事，又广采汉魏至五代卓异事迹，总为二十卷进御，以明见贤思齐之义
+  phases:
+  - key: brewing
+    name: 入馆见阙
+    labels:
+      zh: 入馆
+    start_date: 0976
+    highlight_event_id: guji-乐史-event-1
+  - key: breakthrough
+    name: 续唐三卷进上
+    labels:
+      zh: 初撰
+    start_date: 0978
+    highlight_event_id: guji-乐史-event-2
+  - key: climax
+    name: 广成二十卷
+    labels:
+      zh: 成书
+    start_date: 0982
+    highlight_event_id: guji-乐史-event-2
+  - key: closure
+    name: 进御有序
+    labels:
+      zh: 进呈
+    start_date: 0983
+    highlight_event_id: guji-乐史-event-2
+  decisions:
+  - date: 0978
+    title_zh: 续李翱之作补唐阙遗
+    rationale: 见李翱所记事多漏落未为广博，欲尽录唐君臣超异之事以备观览
+  - date: 0982
+    title_zh: 断限汉魏至周世宗总为一集
+    rationale: 以圣贤卓异不独在唐，汉魏以降至五代亦多可法，故广搜以劝善惩躁竞
+- id: guji-乐史-endeavor-2
+  person_qid: guji-乐史
+  title_zh: 寰宇地理与总仙类书
+  title_en: Universal Geography and Immortals Compendium
+  summary: 奉诏编纂太平寰宇记二百卷及总仙记等大型类书，汇地理沿革与神仙事迹以资治道
+  phases:
+  - key: brewing
+    name: 直史馆奉诏
+    labels:
+      zh: 奉诏
+    start_date: 0976
+    highlight_event_id: guji-乐史-event-1
+  - key: breakthrough
+    name: 寰宇缉稿
+    labels:
+      zh: 缉稿
+    start_date: 0980
+    highlight_event_id: guji-乐史-event-3
+  - key: climax
+    name: 二百卷告成
+    labels:
+      zh: 告成
+    start_date: 0990
+    highlight_event_id: guji-乐史-event-3
+  - key: closure
+    name: 刊进藏馆
+    labels:
+      zh: 藏馆
+    start_date: 0991
+    highlight_event_id: guji-乐史-event-3
+  decisions:
+  - date: 0980
+    title_zh: 以州郡为纲系地理沿革
+    rationale: 欲使览者一观而知古今兴废，便于牧民与考镜得失
+  - date: 0985
+    title_zh: 兼采全家登仙等异事入类书
+    rationale: 显累代富贵与神仙殊异之同源，寄怀虚无以塞躁竞开清净之风
+events:
+- id: guji-乐史-event-birth
+  person_qid: guji-乐史
+  type: birth
+  title_zh: 诞生于抚州宜黄
+  date: 0930
+  year_of: 0930
+  location: 抚州宜黄
+  description: 宋乐史生于抚州宜黄，字子正，少好学，南唐时举进士
+- id: guji-乐史-event-1
+  person_qid: guji-乐史
+  type: career
+  title_zh: 太平兴国初直史馆
+  date: 0976
+  year_of: 0976
+  location: 开封
+  description: 宋太宗太平兴国初召为著作佐郎，直史馆，预修国史并献续唐卓异记
+- id: guji-乐史-event-2
+  person_qid: guji-乐史
+  type: work
+  title_zh: 进广卓异记二十卷并序
+  date: 0982
+  year_of: 0982
+  location: 开封
+  description: 自汉魏以降至周世宗并唐事总为一集，名曰广卓异记凡二十卷并目录二卷进上，序陈曹景宗读传思齐之义
+- id: guji-乐史-event-3
+  person_qid: guji-乐史
+  type: work
+  title_zh: 奉敕撰太平寰宇记成
+  date: 0990
+  year_of: 0990
+  location: 开封
+  description: 撰成地理总志太平寰宇记二百卷，考州郡沿革山川户口，备一代之典
+- id: guji-乐史-event-death
+  person_qid: guji-乐史
+  type: death
+  title_zh: 逝世
+  date: '1007'
+  year_of: '1007'
+  location: 开封
+  description: 终于官，咸平十年卒，年七十八，赠工部尚书
