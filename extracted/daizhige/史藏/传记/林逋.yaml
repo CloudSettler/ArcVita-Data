@@ -1,0 +1,150 @@
+person:
+  qid: guji-linbu
+  name_zh: 林逋
+  names:
+    zh: 林逋
+    en: Lin Bu
+  lifespan:
+    birth:
+      date: 0967
+      precision: year
+      is_circa: false
+      raw: 乾德五年
+    death:
+      date: '1028'
+      precision: year
+      is_circa: false
+      raw: 天圣六年
+  birth_date: 0967
+  death_date: '1028'
+  era: 宋
+  reign_ref: 宋真宗至仁宗
+  archetype: 隐逸诗人
+  dilemmas:
+  - 仕隐之择：应诏出仕还是坚守孤山林泉之志
+  - 名实之辨：诗文传世求名与自弃稿不欲取名于时的矛盾
+  lesson: 守志不迁以梅鹤自适方得身后清名
+  summary_first_person: 吾少孤力学，放游江淮归隐西湖孤山，不娶不仕，以梅为妻以鹤为子，真宗赐粟帛不就，二十年足迹不入城市，诗成辄弃，终老湖山而无愧，临终犹喜平生无封禅书以媚时。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%92%B1%E5%A1%98%E5%85%88%E8%B4%A4%E4%BC%A0%E8%B5%9E.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E9%92%B1%E5%A1%98%E5%85%88%E8%B4%A4%E4%BC%A0%E8%B5%9E.html
+endeavors:
+- id: guji-linbu-endeavor-1
+  title_zh: 孤山结庐隐居
+  description: 放游江淮后归钱塘，结庐西湖孤山，二十年不入城市，以隐操自守，朝廷屡旌而不仕
+  phases:
+  - key: brewing
+    name: 游学归隐
+    labels:
+      zh: 游历
+    start_date: 0985
+    highlight_event_id: guji-linbu-event-study
+  - key: breakthrough
+    name: 孤山定居
+    labels:
+      zh: 结庐
+    start_date: '1008'
+    highlight_event_id: guji-linbu-event-hermitage
+  - key: climax
+    name: 朝廷旌礼
+    labels:
+      zh: 赐帛
+    start_date: '1010'
+    highlight_event_id: guji-linbu-event-imperial_gift
+  - key: closure
+    name: 终老孤山
+    labels:
+      zh: 善终
+    start_date: '1028'
+    highlight_event_id: guji-linbu-event-death
+  decisions:
+  - date: '1008'
+    title_zh: 决不入仕坚守孤山
+    rationale: 真宗闻名赐粟帛诏州县岁时劳问，仍以林泉为志不就征辟以全隐节
+  - date: '1015'
+    title_zh: 不娶无子以梅鹤为伴
+    rationale: 恐家累妨志，托情梅鹤，绝欲守清，得以专一于诗道
+- id: guji-linbu-endeavor-2
+  title_zh: 诗学著述与弃稿
+  description: 善行草，为诗孤峭澄淡，稿就辄弃，耻于求名，后人辑为林和靖集，临终明志无封禅书
+  phases:
+  - key: brewing
+    name: 刻志为学
+    labels:
+      zh: 习学
+    start_date: 0980
+    highlight_event_id: guji-linbu-event-study
+  - key: breakthrough
+    name: 诗风形成
+    labels:
+      zh: 成风
+    start_date: '1015'
+    highlight_event_id: guji-linbu-event-poetry
+  - key: climax
+    name: 封禅遗议
+    labels:
+      zh: 遗诗
+    start_date: 1028-10
+    highlight_event_id: guji-linbu-event-final_poem
+  - key: closure
+    name: 身后谥和靖
+    labels:
+      zh: 易名
+    start_date: 1028-11
+    highlight_event_id: guji-linbu-event-posthumous
+  decisions:
+  - date: '1015'
+    title_zh: 作诗辄弃不录以传
+    rationale: 以终志林泉不欲取名于时更不欲求名于后世故藏拙守淡任其散佚
+  - date: 1028-10
+    title_zh: 临终明志无封禅书
+    rationale: 作诗言茂陵他日求遗草犹喜曾无封禅书示一生不媚权贵以清节自终
+events:
+- id: guji-linbu-event-birth
+  title_zh: 出生于钱塘
+  date: 0967
+  year_of: 0967
+  description: 生于钱塘，少孤刻志为学
+  place: 钱唐
+- id: guji-linbu-event-study
+  title_zh: 放游江淮归而力学
+  date: 0985
+  year_of: 0985
+  description: 少孤力学，放游江淮，归结庐于西湖之孤山前
+  place: 江淮
+- id: guji-linbu-event-hermitage
+  title_zh: 结庐孤山二十年不入城市
+  date: '1008'
+  year_of: '1008'
+  description: 归结庐于西湖之孤山，真有隐操，居二十年足迹不至城市
+  place: 西湖孤山
+- id: guji-linbu-event-imperial_gift
+  title_zh: 真宗赐粟帛诏劳问
+  date: '1010'
+  year_of: '1010'
+  description: 真宗闻其名赐粟帛诏州县长吏岁时劳问，终不仕
+  place: 西湖孤山
+- id: guji-linbu-event-poetry
+  title_zh: 以梅鹤自适诗风孤峭
+  date: '1015'
+  year_of: '1015'
+  description: 不娶无子，以梅为妻以鹤为子，善行草为诗孤峭澄淡稿就辄弃
+  place: 西湖孤山
+- id: guji-linbu-event-final_poem
+  title_zh: 临终作诗明志
+  date: 1028-10
+  year_of: '1028'
+  description: 将终有诗云湖上青山对结庐坟前修竹亦萧疏茂陵他日求遗草犹喜曾无封禅书
+  place: 西湖孤山
+- id: guji-linbu-event-death
+  title_zh: 卒于孤山
+  date: 1028-11
+  year_of: '1028'
+  description: 卒年六十一，不娶无子，葬于孤山舍侧
+  place: 西湖孤山
+- id: guji-linbu-event-posthumous
+  title_zh: 仁宗赐谥和靖
+  date: 1028-12
+  year_of: '1028'
+  description: 仁宗赐谥曰和靖先生，诗集行于世，绍兴中建四圣殿特存其墓加旌表
+  place: 西湖孤山
