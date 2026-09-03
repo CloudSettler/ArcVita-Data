@@ -9,133 +9,124 @@ person:
       date: '0613'
       precision: year
       is_circa: true
-      raw: 约613年
+      raw: 唐贞观七年约
     death:
-      date: 0687
-      precision: year
-      is_circa: false
-      raw: 687年
+      date: 0687-02
+      precision: month
+      is_circa: true
+      raw: 武周垂拱三年二月
   birth_date: '0613'
-  death_date: 0687
+  death_date: 0687-02
   era: 唐
-  reign_ref: 武周
+  reign_ref: 高宗仪凤至武周垂拱
   archetype: 译经高僧
   dilemmas:
-  - title_zh: 梵典精义与华言信达
-    description: 持梵本密咒音义俱严，如何在华言中兼顾音译准确与义理通达，使准提法门易持易信
-  - title_zh: 密法普传与戒律护持
-    description: 准提陀罗尼许在家出家皆得受持，如何令薄福众生速得摄受而仍不废菩萨律仪与出家净戒
-  lesson: 咒以信心为本，译以悲愿为桥，令无根器者亦得闻持而渐入菩提
-  summary_first_person: 吾名地婆诃罗，中天竺人，唐高宗仪凤年初入长安，武周时居洛阳广译大乘密典。愍未来众生薄福少善根，故译出七俱胝佛母心大准提陀罗尼，具说持咒功德与坛法除障、满愿、见圣之行，愿一切闻者速证无上菩提。
+  - 梵汉悬隔如何信达雅兼顾
+  - 奉诏译经与山林潜修之抉择
+  lesson: 福聚无量皆从大悲大智与最胜愿力所生当以善巧化导令众生种根成熟解脱
+  summary_first_person: 吾本中天竺人少出家精通三藏奉诏东来入唐译经惟愿以梵典光耀东土令众生知如来妙色身语威光皆由愿力善巧所成
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%B8%83%E4%BF%B1%E8%83%9D%E4%BD%9B%E6%AF%8D%E5%BF%83%E5%A4%A7%E5%87%86%E6%8F%90%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E4%B8%83%E4%BF%B1%E8%83%9D%E4%BD%9B%E6%AF%8D%E5%BF%83%E5%A4%A7%E5%87%86%E6%8F%90%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://zh.wikisource.org/wiki/%E4%BD%9B%E8%AA%AA%E4%B8%83%E4%BF%B1%E8%83%9D%E4%BD%9B%E6%AF%8D%E5%BF%83%E5%A4%A7%E5%87%86%E6%8F%90%E9%99%80%E7%BE%85%E5%B0%BC%E7%B6%93
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛说大乘百福庄严相经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/佛说大乘百福庄严相经.html
 endeavors:
 - id: guji-地婆诃罗-endeavor-1
-  title_zh: 入唐求法与武周译场建树
-  description: 自中天竺西行至唐，于长安洛阳两京主持译场，广译大乘显密经典，奠定武周新译规模
+  title_zh: 奉诏入华译经弘传
+  summary: 自中天竺携梵本东来于长安洛阳奉敕译出大乘百福庄严相经等十余部
   phases:
   - key: brewing
-    name: 中天竺出家学养
+    name: 中天竺习学蕴积
     labels:
       zh: 酝酿
-    start_date: '0613'
+    start_date: '0630'
     highlight_event_id: guji-地婆诃罗-event-birth
   - key: breakthrough
-    name: 仪凤入唐初译
+    name: 仪凤应诏入长安
     labels:
       zh: 突破
     start_date: '0676'
     highlight_event_id: guji-地婆诃罗-event-arrival
   - key: climax
-    name: 武周译场盛期
+    name: 奉敕译百福庄严相经
     labels:
       zh: 高峰
     start_date: 0680
-    highlight_event_id: guji-地婆诃罗-event-xianshi
+    highlight_event_id: guji-地婆诃罗-event-translation-baifu
   - key: closure
-    name: 示寂洛阳
-    labels:
-      zh: 收束
-    start_date: 0687
-    highlight_event_id: guji-地婆诃罗-event-death
-  decisions:
-  - date: '0676'
-    title_zh: 应诏东行入唐
-    rationale: 为令大乘密法广被东土，舍天竺故土远涉西域诸国入长安，依唐廷译制弘传
-  - date: 0680
-    title_zh: 主持官译广开译场
-    rationale: 与地婆诃罗挟梵本数部，依武周崇佛之势设立译场，分工证义、笔受、缀文，以速成众经
-- id: guji-地婆诃罗-endeavor-2
-  title_zh: 准提法门翻译与弘传
-  description: 译出佛说七俱胝佛母心大准提陀罗尼经，详说咒语、持验、坛法及随愿成就诸法，令在家出家皆得受持
-  phases:
-  - key: brewing
-    name: 承过去诸佛所说准提法
-    labels:
-      zh: 酝酿
-    start_date: 0680
-    highlight_event_id: guji-地婆诃罗-event-xianshi
-  - key: breakthrough
-    name: 定本译出准提陀罗尼
-    labels:
-      zh: 突破
-    start_date: 0682
-    highlight_event_id: guji-地婆诃罗-event-zhunti
-  - key: climax
-    name: 宣演持验与坛法
-    labels:
-      zh: 高峰
-    start_date: 0682
-    highlight_event_id: guji-地婆诃罗-event-zhunti
-  - key: closure
-    name: 付嘱流通利益未来
+    name: 译业圆满遗教付嘱
     labels:
       zh: 收束
     start_date: 0685
-    highlight_event_id: guji-地婆诃罗-event-fuzhu
+    highlight_event_id: guji-地婆诃罗-event-death
+  decisions:
+  - date: '0676'
+    title_zh: 应诏东来不辞远涉
+    rationale: 以佛典东传为最胜愿力虽路远艰难亦当赴阙
+  - date: 0680
+    title_zh: 重译百福庄严相经
+    rationale: 为破声闻辟支限量之见阐明如来福聚由悲智愿力所生不可思议
+- id: guji-地婆诃罗-endeavor-2
+  title_zh: 以二因缘化导众生
+  summary: 依经旨宣说愿力与善巧二因缘成就身语威光随类现身说法令众生种熟脱
+  phases:
+  - key: brewing
+    name: 观机随类设教
+    labels:
+      zh: 酝酿
+    start_date: '0676'
+    highlight_event_id: guji-地婆诃罗-event-arrival
+  - key: breakthrough
+    name: 宣说福聚校量次第
+    labels:
+      zh: 突破
+    start_date: 0680
+    highlight_event_id: guji-地婆诃罗-event-translation-baifu
+  - key: climax
+    name: 示现二因缘成就妙身
+    labels:
+      zh: 高峰
+    start_date: 0682
+    highlight_event_id: guji-地婆诃罗-event-teaching
+  - key: closure
+    name: 嘱累流通
+    labels:
+      zh: 收束
+    start_date: 0687-01
+    highlight_event_id: guji-地婆诃罗-event-death
   decisions:
   - date: 0682
-    title_zh: 以音义兼译定准提咒
-    rationale: 咒句南无飒哆喃三藐三勃陀俱胝喃等七句，依梵音直译并加长引标注，保存陀罗尼神力与持诵口传
-  - date: 0682
-    title_zh: 具载坛法与世间悉地
-    rationale: 详录涂坛结界、镜坛现像、治鬼病、除系缚、禳灾疫、求财敬爱等诸法，令薄福众生亦得现世安稳而渐入出世菩提
+    title_zh: 立二因缘为成佛纲要
+    rationale: 明示最胜愿力与化导善巧方能成就妙色身及音声威光
+  - date: 0685
+    title_zh: 随众生意乐现相说法
+    rationale: 顺若干种性愿乐差别现种种相好令调伏入佛法
 events:
 - id: guji-地婆诃罗-event-birth
-  title_zh: 诞生于中天竺
+  title_zh: 诞生中天竺
   date: '0613'
   year_of: '0613'
   location: 中天竺
-  description: 约613年生于中天竺婆罗门种姓，出家精通三藏及声明、咒法
+  description: 生于中印度婆罗门家少出家博通三藏精梵汉典
 - id: guji-地婆诃罗-event-arrival
-  title_zh: 仪凤年初抵达长安
+  title_zh: 仪凤年初奉诏入长安
   date: '0676'
   year_of: '0676'
   location: 长安
-  description: 唐高宗仪凤年间携梵本经论入唐，受到朝廷礼遇，入译场参与翻译
-- id: guji-地婆诃罗-event-xianshi
-  title_zh: 译出大乘显识经等
+  description: 唐高宗仪凤初年奉诏征召携梵本经论历西域至长安入译场
+- id: guji-地婆诃罗-event-translation-baifu
+  title_zh: 于洛阳译佛说大乘百福庄严相经
   date: 0680
   year_of: 0680
-  location: 洛阳
-  description: 于洛阳广译诸经，先后译出大乘显识经等十余部，确立武周新译体系
-- id: guji-地婆诃罗-event-zhunti
-  title_zh: 译出佛说七俱胝佛母心大准提陀罗尼经
+  location: 洛阳魏国寺
+  description: 与中天竺沙门等奉敕共译此经备述转轮王至摩醯首罗至如来毛孔随好大人相福聚校量
+- id: guji-地婆诃罗-event-teaching
+  title_zh: 宣讲二因缘化导善巧
   date: 0682
   year_of: 0682
   location: 洛阳
-  description: 于舍卫国祇树给孤独园缘起下译出准提陀罗尼一卷，具载七句根本咒、八十万遍灭五无间罪、十万二十万遍梦验吐黑饭白饭等持验，以及结坛、镜坛、治病、解缚、禳灾等诸法
-- id: guji-地婆诃罗-event-fuzhu
-  title_zh: 宣说准提为三世诸佛所说
-  date: 0685
-  year_of: 0685
-  location: 洛阳
-  description: 于经末付嘱此大准提陀罗尼为过去现在未来诸佛同说，忆持诵念者无量善根成就，速证阿耨多罗三藐三菩提，流通远广
+  description: 依经阐发如来身语威光说法皆由最胜愿力与化导善巧二因缘所成立令众生种熟脱
 - id: guji-地婆诃罗-event-death
-  title_zh: 示寂于洛阳
-  date: 0687
+  title_zh: 圆寂于洛阳
+  date: 0687-02
   year_of: 0687
   location: 洛阳
-  description: 武周天授年间示寂于洛阳，世寿约七十四，译籍凡十八部三十四卷，为武周四大译师之一
+  description: 武周垂拱三年二月示疾圆寂世寿约七十五春秋敕葬礼隆译经事业遂终
