@@ -7,115 +7,124 @@ person:
   lifespan:
     birth:
       date: -563-04-08
-      precision: year
+      precision: day
       is_circa: true
-      raw: 周昭王二十四年迦毗罗卫诞生
+      raw: 约公元前五六三年四月初八迦毗罗卫降生
     death:
       date: -483-02-15
-      precision: year
+      precision: day
       is_circa: true
-      raw: 周敬王三十七年拘尸那揭罗涅槃
+      raw: 约公元前四八三年二月十五拘尸那罗示灭
   birth_date: -563-04-08
   death_date: -483-02-15
-  era: 春秋末期
-  reign_ref: 周昭王至周敬王
+  era: 春秋
+  reign_ref: 周灵王
   archetype: 觉者导师
   dilemmas:
-  - 生老病死及求不得爱别离怨憎会五阴炽盛苦如何究竟解脱
-  - 六入六持爱著不舍习因相续苦轮如何断尽
-  lesson: 知苦断集证灭修道以八正道直见直行直定灭苦得安隐
-  summary_first_person: 吾在舍卫国祇树给孤独园告诸比丘开示四谛令具思惟见开分别发见又赞舍利弗目犍连如母生养能令人随道竟道当共承事问法同乐无他
+  - 四婆罗门具五通精进修善仍畏死求逃，我当如何令众知神通不敌业果无常
+  - 众生欲住空海山地以求不死，我当如何以天眼实证与偈言开示无逃之处
+  lesson: 非空非海非山石，无有地方可脱死，唯观无常正法可得解脱
+  summary_first_person: 我为婆伽婆，一时在舍卫城祇树给孤独园，我以清净天眼见四婆罗门仙人精进具五通而畏死，一入空一入海一入山腹一入地皆于彼命终，遂告诸比丘说偈言无有地方可脱不受死，令众知无常不可逃而欢喜奉行
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/小乘阿含部/佛说四谛经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A9%86%E7%BD%97%E9%97%A8%E9%81%BF%E6%AD%BB%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A9%86%E7%BD%97%E9%97%A8%E9%81%BF%E6%AD%BB%E7%BB%8F.html
 endeavors:
 - id: guji-释迦牟尼-endeavor-1
-  title_zh: 舍卫祇园开示四谛
-  summary: 在舍卫祇树给孤独园告比丘宣说苦习尽道四谛分别生老病死等苦相与爱习尽道之要
+  title_zh: 舍卫祇园观避死说无逃偈
+  summary: 在舍卫祇园以天眼见四婆罗门分逃空海山地皆命终，为比丘说非空非海偈，开示无处可脱死
   phases:
   - key: brewing
-    name: 观机舍卫
+    name: 住舍卫祇园观机
     labels:
-      zh: 酝酿
-    start_date: -528-01-01
+      zh: 住祇园
+    start_date: -491-05-01
+    highlight_event_id: guji-释迦牟尼-event-1
+  - key: breakthrough
+    name: 天眼见四仙避死命终
+    labels:
+      zh: 天眼见
+    start_date: -491-06-01
+    highlight_event_id: guji-释迦牟尼-event-1
+  - key: climax
+    name: 说非空非海无逃偈
+    labels:
+      zh: 说偈
+    start_date: -491-06-02
+    highlight_event_id: guji-释迦牟尼-event-2
+  - key: closure
+    name: 比丘闻法欢喜奉行
+    labels:
+      zh: 奉行
+    start_date: -491-06-03
+    highlight_event_id: guji-释迦牟尼-event-2
+  decisions:
+  - date: -491-06-01
+    title_zh: 以天眼观证示现业果
+    rationale: 不凭空论断，以实见四人分处四境皆死，破神通可避死之念
+  - date: -491-06-02
+    title_zh: 以偈总持说无逃处
+    rationale: 以简要偈言总摄无常，使比丘易持易传，断畏死外求之心
+- id: guji-释迦牟尼-endeavor-2
+  title_zh: 弘传无常四谛普度众生
+  summary: 自迦毗罗卫出家，菩提树下成道，鹿野苑转法轮后游化舍卫等地，以无常苦空教化令众离怖畏
+  phases:
+  - key: brewing
+    name: 出家求道观生老病死
+    labels:
+      zh: 出家
+    start_date: -534-01-01
     highlight_event_id: guji-释迦牟尼-event-birth
   - key: breakthrough
-    name: 正说四谛
+    name: 菩提树下成等正觉
     labels:
-      zh: 突破
-    start_date: -528-05-01
-    highlight_event_id: guji-释迦牟尼-event-jetavana
+      zh: 成道
+    start_date: -528-12-08
+    highlight_event_id: guji-释迦牟尼-event-1
   - key: climax
-    name: 广分别苦习尽道
+    name: 鹿野舍卫转法轮说法
     labels:
-      zh: 高潮
-    start_date: -528-05-02
-    highlight_event_id: guji-释迦牟尼-event-jetavana
+      zh: 说法
+    start_date: -528-06-01
+    highlight_event_id: guji-释迦牟尼-event-2
   - key: closure
-    name: 嘱受行灭苦
+    name: 拘尸那罗示灭嘱依法住
     labels:
-      zh: 收束
-    start_date: -528-05-03
-    highlight_event_id: guji-释迦牟尼-event-fuzhu
+      zh: 示灭
+    start_date: -483-02-15
+    highlight_event_id: guji-释迦牟尼-event-death
   decisions:
-  - date: -528-05-01
-    title_zh: 决定以四谛为正法说
-    rationale: 三世诸佛皆由此正说令弟子思惟见开分别发见故
-  - date: -528-05-02
-    title_zh: 决定详说八正道为灭苦行
-    rationale: 唯直见直治直语直行直业直方便直念直定能令爱尽苦尽故
-- id: guji-释迦牟尼-endeavor-2
-  title_zh: 赞付舍利弗目犍连续化
-  summary: 称叹舍利弗慧疾慧深能令人随道目犍连能令人竟道如母生养付嘱大众承事问法
-  phases:
-  - key: brewing
-    name: 称叹二贤
-    labels:
-      zh: 酝酿
-    start_date: -528-05-02
-    highlight_event_id: guji-释迦牟尼-event-jetavana
-  - key: breakthrough
-    name: 以法付嘱
-    labels:
-      zh: 突破
-    start_date: -528-05-03
-    highlight_event_id: guji-释迦牟尼-event-fuzhu
-  - key: climax
-    name: 令舍利弗广说四谛
-    labels:
-      zh: 高潮
-    start_date: -528-05-03
-    highlight_event_id: guji-释迦牟尼-event-fuzhu
-  - key: closure
-    name: 入室听受行
-    labels:
-      zh: 收束
-    start_date: -528-05-04
-    highlight_event_id: guji-释迦牟尼-event-fuzhu
-  decisions:
-  - date: -528-05-03
-    title_zh: 决定令舍利弗代说四谛
-    rationale: 舍利弗具珍宝慧能平说具说开解分别同学信乐故
-  - date: -528-05-03
-    title_zh: 决定以同学和合付嘱供养问法
-    rationale: 令舍利弗如母生目犍连如母养大众致乐念无他心得法久住故
+  - date: -528-06-01
+    title_zh: 初转法轮说四谛八正道
+    rationale: 众生畏死根在无明有爱，先示苦集灭道正轨以立解脱正见
+  - date: -491-06-02
+    title_zh: 于舍卫重示无常不可逃
+    rationale: 因婆罗门避死事缘，就机说无逃偈，令小乘行者深观无我无常
 events:
 - id: guji-释迦牟尼-event-birth
-  title_zh: 诞生迦毗罗卫
+  title_zh: 迦毗罗卫降生
   date: -563-04-08
   year_of: -563
-  summary: 释迦族迦毗罗卫太子诞生后逾城出家成正觉为天人师
-- id: guji-释迦牟尼-event-jetavana
-  title_zh: 祇园宣说四谛
-  date: -528-05-01
-  year_of: -528
-  summary: 在舍卫国祇树给孤独园告诸比丘说苦习尽道四谛令具思惟见开分别发见
-- id: guji-释迦牟尼-event-fuzhu
-  title_zh: 付嘱舍利弗目犍连
-  date: -528-05-03
-  year_of: -528
-  summary: 赞舍利弗慧利能令随道目犍连能令竟道令大众承事问法后入寺室由舍利弗广说四谛比丘受行
+  location_zh: 迦毗罗卫蓝毗尼园
+  description: 释迦族净饭王之子诞生，后感生老病死而出家求道
+  endeavor_ref: guji-释迦牟尼-endeavor-2
+- id: guji-释迦牟尼-event-1
+  title_zh: 祇园天眼见四婆罗门避死命终
+  date: -491-06-01
+  year_of: -491
+  location_zh: 舍卫城祇树给孤独园
+  description: 世尊以天眼见四精进具五通婆罗门，一处虚空一入大海一入山腹一入地，皆畏死而求不死，俱于彼处命过
+  endeavor_ref: guji-释迦牟尼-endeavor-1
+- id: guji-释迦牟尼-event-2
+  title_zh: 说非空非海无逃偈教比丘
+  date: -491-06-02
+  year_of: -491
+  location_zh: 舍卫城祇树给孤独园
+  description: 世尊告诸比丘说偈，非空非海中非入山石间无有地方所脱之不受死，比丘闻已欢喜奉行
+  endeavor_ref: guji-释迦牟尼-endeavor-1
 - id: guji-释迦牟尼-event-death
-  title_zh: 拘尸那揭罗涅槃
+  title_zh: 拘尸那罗般涅槃
   date: -483-02-15
   year_of: -483
-  summary: 化缘既毕于拘尸那揭罗娑罗双树间般涅槃留四谛八正道令弟子受行
+  location_zh: 拘尸那罗娑罗林
+  description: 化缘既毕，于娑罗双树间示现灭度，以无常身自证无逃之法，嘱众依法不依人
+  endeavor_ref: guji-释迦牟尼-endeavor-2
