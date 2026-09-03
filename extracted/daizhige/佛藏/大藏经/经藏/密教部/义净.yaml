@@ -6,135 +6,127 @@ person:
     en: Yijing
   lifespan:
     birth:
-      date: 413
+      date: '0635'
       precision: year
       is_circa: false
-      raw: 贞观九年齐州生
+      raw: 唐贞观九年齐州生
     death:
-      date: 459
+      date: '0713'
       precision: year
       is_circa: false
-      raw: 先天二年长安寂
-  birth_date: 413
-  death_date: 459
+      raw: 唐先天二年寂于长安
+  birth_date: '0635'
+  death_date: '0713'
   era: 唐
-  reign_ref: 高宗至玄宗
-  archetype: 西行求法译经僧
+  reign_ref: 唐高宗至唐玄宗
+  archetype: 西行求法译经高僧
   dilemmas:
-  - title_zh: 远涉南海求戒律全身与安住本土弘化的两难
-    description_zh: 欲亲证佛国律制须冒海路艰险离乡二十余年，欲安众济俗又须归国译经，未能两全
-  - title_zh: 显教戒行与密咒济疾的方便抉择
-    description_zh: 既持律范又以神咒疗痔病等身苦，于戒律清净与咒法救急之间立方便道
-  lesson: 以亲行求法为本，以翻译宣说为用，令远方圣教近济众生身心苦患
-  summary_first_person: 吾义净，齐州人，少慕西行，泛海至那烂陀求法习律，历南海诸国二十余年而归，奉制译经，宣说疗痔病经等咒法，愿众生离疾苦得安乐
+  - 海路艰险与求法弘愿如何两全
+  - 广译梵本与专精律学如何兼顾
+  lesson: 以弘法利生为怀蹈海求法以戒律为本译经报国
+  summary_first_person: 吾义净齐州人也幼慕法显玄奘之风浮海西行遍历南海印度研律取经归而奉制译经愿以称赞如来功德普利众生
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%96%97%E7%97%94%E7%97%85%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%96%97%E7%97%94%E7%97%85%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%B0%E8%B5%9E%E5%A6%82%E6%9D%A5%E5%8A%9F%E5%BE%B7%E7%A5%9E%E5%92%92%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A7%B0%E8%B5%9E%E5%A6%82%E6%9D%A5%E5%8A%9F%E5%BE%B7%E7%A5%9E%E5%92%92%E7%BB%8F.md
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 泛海南行求法习律
-  summary_zh: 自长安至广州泛海，经室利佛逝至印度那烂陀，习律学经十余年，复经南海归国，撰南海寄归内法传以传戒制
+  title_zh: 浮海西行求法取经
+  description: 自广州浮海赴室利佛逝及印度那烂陀研习律部携梵本五百余部而归
   phases:
   - key: brewing
-    name: 发愿西行
+    name: 齐州出家立志西行
     labels:
-      zh: 立志求法
-    start_date: 439
-    highlight_event_id: guji-义净-event-west
+      zh: 求法初愿
+    start_date: 0648
+    highlight_event_id: guji-义净-event-birth
   - key: breakthrough
-    name: 抵印习学
+    name: 广州浮海赴南海
     labels:
-      zh: 那烂陀受学
+      zh: 蹈海西行
+    start_date: '0671'
+    highlight_event_id: guji-义净-event-departure
+  - key: climax
+    name: 那烂陀研律取经
+    labels:
+      zh: 研律取经
     start_date: 0680
     highlight_event_id: guji-义净-event-study
-  - key: climax
-    name: 南海集撰
-    labels:
-      zh: 寄归传法
-    start_date: 0689
-    highlight_event_id: guji-义净-event-return
   - key: closure
-    name: 持典东归
+    name: 携梵本归国洛阳
     labels:
-      zh: 携经归唐
+      zh: 载誉而归
     start_date: 0695
     highlight_event_id: guji-义净-event-return
   decisions:
-  - date: 441
-    title_zh: 自广州泛海西行
-    rationale: 慕玄奘西行之风，欲亲证印度律制原本，故舍安就险由海道往天竺
-  - date: 0689
-    title_zh: 留室利佛逝著述寄归
-    rationale: 见南海道俗失律，欲以亲见传归中土，使后学知印度正制
+  - date: '0671'
+    title_zh: 决意浮海西行
+    rationale: 慕法显玄奘之风不畏海路艰险以求戒律梵本普利东土
+  - date: 0680
+    title_zh: 留学那烂陀兼录南海见闻
+    rationale: 以律为宗博览三藏兼记南海诸国风土以备后学
 - id: guji-义净-endeavor-2
-  title_zh: 奉制译经宣说疗痔病咒
-  summary_zh: 归洛阳长安后奉制主持译场，译出根本说一切有部律及密部诸经，于王舍城竹林因缘下宣说疗痔病经，以咒法疗风热等诸痔令众干燥除差
+  title_zh: 奉制译经弘扬密咒
+  description: 奉武后睿宗玄宗之制于洛阳长安译出律部密部显部五十六部译出称赞如来功德神咒经
   phases:
   - key: brewing
-    name: 入译场受诏
+    name: 奉诏入译经场
     labels:
-      zh: 奉制翻译
-    start_date: 0695
+      zh: 奉制译经
+    start_date: 0696
     highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 译律传戒
+    name: 长安洛阳开场传译
     labels:
-      zh: 根本说部
-    start_date: 448
+      zh: 开场传译
+    start_date: '0700'
     highlight_event_id: guji-义净-event-translate
   - key: climax
-    name: 说疗痔病经
+    name: 译称赞如来功德神咒经成一卷
     labels:
-      zh: 咒法疗疾
-    start_date: 453
+      zh: 译出神咒经
+    start_date: '0701'
     highlight_event_id: guji-义净-event-translate
   - key: closure
-    name: 流通受持
+    name: 示寂长安译业圆满
     labels:
-      zh: 劝诵受持
-    start_date: 456
-    highlight_event_id: guji-义净-event-translate
+      zh: 译业圆满
+    start_date: '0713'
+    highlight_event_id: guji-义净-event-death
   decisions:
-  - date: 0695
-    title_zh: 应诏入京主持译事
-    rationale: 以所携梵本甚多，欲报国恩弘律，故就洛阳长安译场专心传译
-  - date: 453
-    title_zh: 译出疗痔病经广宣神咒
-    rationale: 念王舍城多苾刍患痔羸瘦忧恼，承阿难请问因缘，说咒令风痔热痔等悉皆干燥堕落，兼得宿住智忆过去七生
+  - date: '0700'
+    title_zh: 专译律藏兼弘密部
+    rationale: 以律摄僧以咒利俗使持戒与持名并行以固佛法根本
+  - date: '0701'
+    title_zh: 译出称赞如来功德神咒经
+    rationale: 宣说十方佛名与功德神咒令人礼忏持名灭障生福不退菩提
 events:
 - id: guji-义净-event-birth
-  title_zh: 出生齐州
-  date: 413
+  date: '0635'
   year_of: 635
-  place_zh: 齐州
-  summary_zh: 贞观九年生于齐州，俗姓张，少出家习律，慕西行求法
-- id: guji-义净-event-west
-  title_zh: 广州泛海西行
-  date: 441
+  title_zh: 齐州诞生
+  description: 唐贞观九年生于齐州后出家受具慕西行求法
+- id: guji-义净-event-departure
+  date: '0671'
   year_of: 671
-  place_zh: 广州
-  summary_zh: 自长安至广州，乘舶泛海南行，历室利佛逝诸国，冒险赴印度求法
+  title_zh: 广州浮海西行
+  description: 唐咸亨二年自广州浮海赴室利佛逝次往印度求法
 - id: guji-义净-event-study
-  title_zh: 那烂陀习律学经
   date: 0680
   year_of: 680
-  place_zh: 中印度那烂陀
-  summary_zh: 居那烂陀十年，师从善无畏等，研律部梵本，通晓三藏
+  title_zh: 那烂陀研习律藏
+  description: 居那烂陀寺研习有部律典兼学大乘游历印度求得梵本五百余部
 - id: guji-义净-event-return
-  title_zh: 携经归国抵洛阳
   date: 0695
   year_of: 695
-  place_zh: 洛阳
-  summary_zh: 携梵本四百余部经南海归国，武后亲迎于洛阳，敕住佛授记寺译经
+  title_zh: 携经归洛阳
+  description: 武周证圣元年携梵本归洛阳奉敕主持译经
 - id: guji-义净-event-translate
-  title_zh: 译说疗痔病经
-  date: 453
-  year_of: 705
-  place_zh: 长安大荐福寺
-  summary_zh: 述佛在王舍大城竹林园应阿难所请，说疗风热等诸痔神咒，以雪山难胜莎罗华 khô 落为喻，令痔病干燥消灭，劝读诵受持广宣说
+  date: '0701'
+  year_of: 701
+  title_zh: 译称赞如来功德神咒经
+  description: 于长安洛阳奉制译出佛说称赞如来功德神咒经一卷宣十方佛名及陀罗尼功德
 - id: guji-义净-event-death
-  title_zh: 圆寂长安
-  date: 459
+  date: '0713'
   year_of: 713
-  place_zh: 长安
-  summary_zh: 先天二年寂于长安，谥鸿胪卿，译经百余部，密咒显律并传
+  title_zh: 寂于长安
+  description: 唐先天二年寂于长安谥鸿胪卿一生成就译经五十六部二百三十卷
