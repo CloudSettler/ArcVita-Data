@@ -3,124 +3,134 @@ person:
   name_zh: 法天
   names:
     zh: 法天
-    en: Dharmadeva
+    en: Fatian
   lifespan:
     birth:
       date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于中天竺摩竭陀国
+      raw: 生年不详约十世纪中叶生于中印度摩伽陀国
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒于开封译经院
+      raw: 宋咸平四年卒
   birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 西天传教译经三藏
+  reign_ref: 宋太宗至宋真宗
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔而诏命精译何以两全
-  - 密轨繁广而末世钝根何以普摄
-  lesson: 以诚敬译传密教正法降伏障碍普令众生皆得成就
-  summary_first_person: 我本中天竺人随兄入华蒙太宗赐名法天授传教大师住开封译经院译出金刚手降伏部多大教王等经愿末世持诵者无碍成就
+  - title_zh: 梵汉悬隔如何传信
+    description: 梵本义深华言悬隔译述六道业果须不失本旨又令华人易解
+  - title_zh: 奉诏译事与清修之衡
+    description: 久居译场应朝命日译众经须养道心而不染名利
+  lesson: 业果不虚善得安乐恶得苦恼当慎守身口意勤行布施持戒以趣解脱
+  summary_first_person: 吾自中印度摩伽陀国来华奉诏译经以六道伽陀开示业果令众知贪嗔痴为恶道本布施持戒为生善因愿众离苦得乐速成解脱
   source_urls:
-  - https://cbeta.org/result/T1129
-  - https://daizhige.org
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%85%AD%E9%81%93%E4%BC%BD%E9%99%80%E7%BB%8F.html
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏译出金刚手降伏部多大教王经
-  summary: 奉宋太宗诏入译经院精译梵本宣说金刚手降伏部多仪轨印咒成就法
+  title_zh: 奉诏来华译经
+  summary: 自西天摩伽陀来华入译场奉诏译出六道伽陀经等大小乘经
   phases:
   - key: brewing
-    name: 随兄入华初试译经
+    name: 摩伽陀出家习法
     labels:
-      zh: 入华试译
-    start_date: 0982
-    highlight_event_id: guji-法天-event-982-arrival
+      zh: 酝酿
+    start_date: 0950
+    highlight_event_id: guji-法天-event-birth
   - key: breakthrough
-    name: 受名法天参译密典
+    name: 来华入译场奉诏
     labels:
-      zh: 受名参译
-    start_date: 0985
-    highlight_event_id: guji-法天-event-985-translate
+      zh: 突破
+    start_date: 0983
+    highlight_event_id: guji-法天-event-arrive
   - key: climax
-    name: 三卷大教王经译成流通
+    name: 译出六道伽陀经
     labels:
-      zh: 译成流通
-    start_date: 0988
-    highlight_event_id: guji-法天-event-988-complete
-  - key: closure
-    name: 灾部仪轨付嘱护持
-    labels:
-      zh: 付嘱护持
-    start_date: 0990
-    highlight_event_id: guji-法天-event-988-complete
-  decisions:
-  - date: 0982
-    title_zh: 应诏入院受名法天
-    rationale: 感太宗崇法之诚舍旧名而受新命以明传教之志
-  - date: 0985
-    title_zh: 先译降伏部多根本咒印
-    rationale: 末世障碍炽盛须以金刚手威德摄伏群邪方能令后学成就
-- id: guji-法天-endeavor-2
-  title_zh: 住译经院传教弘化育僧
-  summary: 久住开封译经院与施护等共译经律传授梵汉义理护持正法久住
-  phases:
-  - key: brewing
-    name: 同院共译校勘梵汉
-    labels:
-      zh: 共译校勘
+      zh: 高潮
     start_date: 0985
-    highlight_event_id: guji-法天-event-985-translate
-  - key: breakthrough
-    name: 授徒传法立轨范
-    labels:
-      zh: 授徒立范
-    start_date: 0990
-    highlight_event_id: guji-法天-event-988-complete
+    highlight_event_id: guji-法天-event-translate
   - key: closure
-    name: 示寂译院遗化在经
+    name: 译业圆满遗教存世
     labels:
-      zh: 示寂留经
+      zh: 收束
     start_date: '1001'
     highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0990
-    title_zh: 坚持直译兼顾义畅
-    rationale: 密咒句义不可妄改宁守梵音以存加持兼以华言疏通其意
-  - date: 0995
-    title_zh: 留住译场不归天竺
-    rationale: 见中土好法深惜大法初传愿毕生译经以报国恩佛恩
+  - date: 0983
+    title_zh: 应诏入宋译场
+    rationale: 感宋帝崇法为利华人生善故舍故土而就译任
+  - date: 0985
+    title_zh: 拣译六道业果经
+    rationale: 见世人昧因果故先译六道轮回苦乐报应以正知见
+- id: guji-法天-endeavor-2
+  title_zh: 开示六道因果教化
+  summary: 以伽陀宣说地狱傍生饿鬼人修罗天六道苦乐及布施持戒生善之道
+  phases:
+  - key: brewing
+    name: 观察轮回业果
+    labels:
+      zh: 酝酿
+    start_date: 0984
+    highlight_event_id: guji-法天-event-arrive
+  - key: breakthrough
+    name: 宣说三恶道苦
+    labels:
+      zh: 突破
+    start_date: 0985
+    highlight_event_id: guji-法天-event-translate
+  - key: climax
+    name: 阐明人天善因
+    labels:
+      zh: 高潮
+    start_date: 0986
+    highlight_event_id: guji-法天-event-preach
+  - key: closure
+    name: 归结解脱劝修
+    labels:
+      zh: 收束
+    start_date: '1001'
+    highlight_event_id: guji-法天-event-death
+  decisions:
+  - date: 0985
+    title_zh: 以偈颂直陈恶业苦报
+    rationale: 偈颂易持故详陈八热地狱傍生饿鬼苦以令生怖畏止恶
+  - date: 0986
+    title_zh: 劝行施戒求生善趣
+    rationale: 众生乐求天人福故开示八斋布施持戒慈喜和颜以导向善
 events:
 - id: guji-法天-event-birth
+  title_zh: 诞生于中印度摩伽陀国
   date: 0950
   year_of: 950
-  title_zh: 生于中天竺
-  description: 约十世纪中叶生于中天竺摩竭陀国婆罗门种家少习梵典精声明咒学
-  place_zh: 中天竺摩竭陀国
-- id: guji-法天-event-982-arrival
-  date: 0982
-  year_of: 982
-  title_zh: 随兄至开封奉诏试译
-  description: 随兄法护远涉至开封太平兴国七年蒙太宗召见试译称旨赐紫衣赐名法天授朝散大夫传教大师入译经院
-  place_zh: 开封
-- id: guji-法天-event-985-translate
+  type: birth
+  description: 约十世纪中叶生于中印度摩伽陀国出家习三藏
+- id: guji-法天-event-arrive
+  title_zh: 来华入宋译场
+  date: 0983
+  year_of: 983
+  type: career
+  description: 随西天僧团东来入宋都译经院受三藏传教大师号奉诏译经
+  endeavor_ref: guji-法天-endeavor-1
+- id: guji-法天-event-translate
+  title_zh: 译出六道伽陀经一卷
   date: 0985
   year_of: 985
-  title_zh: 参译诸经专弘密教
-  description: 雍熙年间与天息灾施护等在译经院同译显密诸经敷演金刚手降伏一切部多仪轨印契真言
-  place_zh: 开封译经院
-- id: guji-法天-event-988-complete
-  date: 0988
-  year_of: 988
-  title_zh: 译成金刚手降伏部多大教王经三卷
-  description: 奉诏译出金刚手菩萨降伏一切部多大教王经三卷详明河岸尸陀林宫殿等成就处所八大部多女印咒及召请供养法
-  place_zh: 开封译经院
+  type: career
+  description: 奉诏译六道伽陀经以偈颂分述地狱傍生饿鬼人修罗天六道因果
+  endeavor_ref: guji-法天-endeavor-1
+- id: guji-法天-event-preach
+  title_zh: 宣说人天善因与布施功德
+  date: 0986
+  year_of: 986
+  type: career
+  description: 阐说持八斋戒行布施施食医药灯明等得富贵端严生天之报劝离淫杀妄
+  endeavor_ref: guji-法天-endeavor-2
 - id: guji-法天-event-death
+  title_zh: 咸平四年示寂
   date: '1001'
   year_of: 1001
-  title_zh: 咸平四年示寂译经院
-  description: 宋真宗咸平四年卒于开封译经院毕生译传大乘密教群经遗化在译本流通后世
-  place_zh: 开封译经院
+  type: death
+  description: 宋真宗咸平四年卒于译场译业存世遗教劝善远罪趣解脱
