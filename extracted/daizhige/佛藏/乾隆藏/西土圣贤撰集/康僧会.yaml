@@ -1,0 +1,137 @@
+person:
+  qid: guji-康僧会
+  name_zh: 康僧会
+  names:
+    zh: 康僧会
+    en: Kang Senghui
+  lifespan:
+    birth:
+      date: '0200'
+      precision: century
+      is_circa: true
+      raw: 生年不详约汉末三国初康居商贾之家
+    death:
+      date: 0280
+      precision: year
+      is_circa: false
+      raw: 晋太康元年卒于建业
+  birth_date: '0200'
+  death_date: 0280
+  era: 三国吴
+  reign_ref: 吴大帝孙权赤乌年间至孙皓天纪年间
+  archetype: 译经弘法型高僧
+  dilemmas:
+  - 异域沙门初入江东无信者如何取信君王以立佛法
+  - 华俗未晓佛经深义如何以譬喻故事劝行五戒十善
+  lesson: 以诚感立信以喻教化俗弘法当因机设教久久乃成
+  summary_first_person: 吾本康居人也世居天竺随父商于交趾年十余而孤出家励行博学三藏赤乌十年东入建业设像行道感得舍利建初立寺译六度集经及旧杂譬喻经以喻劝俗终身弘化于吴地
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/西土圣贤撰集/旧杂譬喻经.md
+  - https://daizhige.org/佛藏/乾隆藏/西土圣贤撰集/旧杂譬喻经.html
+endeavors:
+- id: guji-康僧会-endeavor-1
+  title_zh: 建业立寺弘法感化吴主
+  summary: 赤乌年间入建业设像行道以舍利瑞应取信孙权创立建初寺奠定江东佛法之基
+  phases:
+  - key: brewing
+    name: 交趾出家博学
+    labels:
+      zh: 酝酿
+    start_date: '0215'
+    highlight_event_id: guji-康僧会-event-birth
+  - key: breakthrough
+    name: 东入建业行道
+    labels:
+      zh: 突破
+    start_date: '0247'
+    highlight_event_id: guji-康僧会-event-247
+  - key: climax
+    name: 舍利感应建寺
+    labels:
+      zh: 高潮
+    start_date: 0248
+    highlight_event_id: guji-康僧会-event-248
+  - key: closure
+    name: 吴宫奉法流通
+    labels:
+      zh: 收束
+    start_date: '0252'
+    highlight_event_id: guji-康僧会-event-248
+  decisions:
+  - date: '0247'
+    title_zh: 赤乌十年决意东渡建业
+    rationale: 交趾虽有佛法江东未闻欲设像行道开化吴俗故不畏险远东行
+  - date: 0248
+    title_zh: 以舍利为期取信孙权
+    rationale: 吴主初疑佛法虚诞唯瑞应可服其心故立期求舍利以显至真
+- id: guji-康僧会-endeavor-2
+  title_zh: 译集经论以譬喻劝俗
+  summary: 译六度集经吴品及旧杂譬喻经集西土圣贤故事以五戒十善四谛因缘喻教华人
+  phases:
+  - key: brewing
+    name: 搜集西土旧义
+    labels:
+      zh: 酝酿
+    start_date: 0249
+    highlight_event_id: guji-康僧会-event-248
+  - key: breakthrough
+    name: 草创喻经译笔
+    labels:
+      zh: 突破
+    start_date: '0250'
+    highlight_event_id: guji-康僧会-event-250
+  - key: climax
+    name: 旧杂譬喻经成
+    labels:
+      zh: 高潮
+    start_date: '0251'
+    highlight_event_id: guji-康僧会-event-250
+  - key: closure
+    name: 喻教流布后世
+    labels:
+      zh: 收束
+    start_date: 0280
+    highlight_event_id: guji-康僧会-event-280
+  decisions:
+  - date: '0250'
+    title_zh: 以浅喻明深法
+    rationale: 吴人初信根浅难解空义故集萨薄降鬼孔雀说法等故事以因果劝行五戒
+  - date: '0255'
+    title_zh: 守译场质朴不饰
+    rationale: 恐失圣贤本旨宁存质直使罪福之理易晓故不尚文藻唯求达意
+events:
+- id: guji-康僧会-event-birth
+  type: birth
+  title_zh: 生于康居商贾之家随父居交趾
+  date: '0200'
+  year_of: 200
+  place_zh: 交趾
+  description: 祖本康居世居天竺父经商移交趾十余岁父母双亡遂出家励行
+- id: guji-康僧会-event-247
+  type: achievement
+  title_zh: 赤乌十年至建业设像行道
+  date: '0247'
+  year_of: 247
+  place_zh: 建业
+  description: 东入吴地于建业设像行道孙权召见问法要立期求舍利
+- id: guji-康僧会-event-248
+  type: achievement
+  title_zh: 感得舍利创建建初寺
+  date: 0248
+  year_of: 248
+  place_zh: 建业建初寺
+  description: 祈请得舍利放光孙权倾信创立建初寺为江东立寺之始僧众归集
+- id: guji-康僧会-event-250
+  type: achievement
+  title_zh: 译出六度集经及旧杂譬喻经
+  date: '0250'
+  year_of: 250
+  place_zh: 建业
+  description: 集西土圣贤撰集译萨薄本生孔雀王月女等譬喻以五戒十善化俗
+- id: guji-康僧会-event-280
+  type: death
+  title_zh: 卒于建业
+  date: 0280
+  year_of: 280
+  place_zh: 建业
+  description: 历孙权孙亮孙休孙皓四朝弘化三十余年晋太康元年示寂吴人追慕
