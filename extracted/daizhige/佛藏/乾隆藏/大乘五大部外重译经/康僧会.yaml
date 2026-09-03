@@ -1,0 +1,167 @@
+person:
+  qid: guji-康僧会
+  name_zh: 康僧会
+  names:
+    zh: 康僧会
+    en: Kang Senghui
+  lifespan:
+    birth:
+      date: 0180
+      precision: year
+      is_circa: true
+      raw: 约180年生于交趾
+    death:
+      date: 0280
+      precision: year
+      is_circa: false
+      raw: 280年寂于建业
+  birth_date: 0180
+  death_date: 0280
+  era: 三国·吴
+  reign_ref: 吴大帝孙权赤乌年间
+  archetype: 译经高僧
+  dilemmas:
+  - 康居后裔异域身份如何取信吴主与江东士人
+  - 译经当存胡本质朴还是润饰成华言雅训以利流通
+  - 显舍利神异摄众与依正法慈化人心的分寸
+  lesson: 以六度为舟筏布施为首 忍辱精进不移本愿 方能以译经建寺济度众生
+  summary_first_person: 吾先世康居 寄居天竺 生于交趾 后入建业 孙权初疑佛法 吾祈得舍利以显正法 遂建建初寺 译六度集经八卷 以布施持戒忍辱精进禅定智慧之行劝化时人 愿众生离盲冥之苦
+    早登泥洹
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/六度集经.md
+  - https://tripitaka.cbeta.org/T15n0152
+endeavors:
+- id: guji-康僧会-endeavor-1
+  name_zh: 译传六度集经弘宣六度
+  summary_zh: 于建业搜集整理本生故事 译出六度集经八卷 以布施等六度无极化导吴地
+  phases:
+  - key: brewing
+    name: 入吴求法
+    labels:
+      zh: 酝酿
+    start_date: '0247'
+    highlight_event_id: guji-康僧会-event-arrive-jianye
+  - key: breakthrough
+    name: 译成六度
+    labels:
+      zh: 突破
+    start_date: '0251'
+    highlight_event_id: guji-康僧会-event-translate-liudu
+  - key: climax
+    name: 流通讲说
+    labels:
+      zh: 高潮
+    start_date: '0252'
+    highlight_event_id: guji-康僧会-event-preach-liudu
+  - key: closure
+    name: 付嘱后学
+    labels:
+      zh: 收束
+    start_date: '0275'
+    highlight_event_id: guji-康僧会-event-death
+  decisions:
+  - date: '0251'
+    title_zh: 以本生故事明六度次第
+    rationale: 取舍本生譬喻编为布施持戒等六度 令初信者易解易行 故置布施度无极为卷首十章
+  - date: '0251'
+    title_zh: 译文从质存胡义而润以雅言
+    rationale: 既存梵本慈悲喜护之旨 又以中土典雅文辞传之 使士人乐读而义不失真
+- id: guji-康僧会-endeavor-2
+  name_zh: 建建初寺感化吴主
+  summary_zh: 以舍利感通孙权 得立建初寺与佛陀舍利塔 开江南佛化之基
+  phases:
+  - key: brewing
+    name: 初至被诘
+    labels:
+      zh: 酝酿
+    start_date: '0247'
+    highlight_event_id: guji-康僧会-event-arrive-jianye
+  - key: breakthrough
+    name: 祈得舍利
+    labels:
+      zh: 突破
+    start_date: 0248
+    highlight_event_id: guji-康僧会-event-relic-miracle
+  - key: climax
+    name: 建寺立塔
+    labels:
+      zh: 高潮
+    start_date: 0248
+    highlight_event_id: guji-康僧会-event-build-temple
+  - key: closure
+    name: 江东佛化
+    labels:
+      zh: 收束
+    start_date: 0249
+    highlight_event_id: guji-康僧会-event-preach-liudu
+  decisions:
+  - date: 0248
+    title_zh: 祈舍利三七日以证正法
+    rationale: 孙权以佛法虚诞相诘 若不显诚感难令王信 故斋戒祈请至诚感通
+  - date: 0248
+    title_zh: 劝吴主建寺而非独居显异
+    rationale: 舍利虽现 当托以寺塔僧团长久住持 方可令佛教根植江东而非一时奇观
+events:
+- id: guji-康僧会-event-birth
+  title_zh: 诞生于交趾
+  date: 0180
+  year_of: 0180
+  precision: year
+  is_circa: true
+  raw: 约180年
+  location_zh: 交趾
+  description_zh: 先世康居人 世居天竺 其父移交趾 僧会生于交趾 自幼明解三藏
+- id: guji-康僧会-event-arrive-jianye
+  title_zh: 入建业初见孙权
+  date: '0247'
+  year_of: '0247'
+  precision: year
+  is_circa: false
+  raw: 吴赤乌十年
+  location_zh: 建业
+  description_zh: 赤乌十年随商旅至建业 以佛法化导 孙权召见诘问佛法何以灵验
+- id: guji-康僧会-event-relic-miracle
+  title_zh: 祈得佛舍利感动吴主
+  date: '0248-02-15'
+  year_of: 0248
+  precision: day
+  is_circa: false
+  raw: 赤乌十一年春
+  location_zh: 建业宫中
+  description_zh: 斋戒祈请二十一日 铜瓶中现舍利五色光炎 孙权亲试以铁砧锤击而不碎 遂生敬信
+- id: guji-康僧会-event-build-temple
+  title_zh: 建建初寺与舍利塔
+  date: '0248-05-01'
+  year_of: 0248
+  precision: month
+  is_circa: false
+  raw: 赤乌十一年夏
+  location_zh: 建业建初里
+  description_zh: 孙权为舍利建塔立寺号建初寺 即江南第一寺度人出家 开江东僧团之始
+- id: guji-康僧会-event-translate-liudu
+  title_zh: 译出六度集经八卷
+  date: '0251'
+  year_of: '0251'
+  precision: year
+  is_circa: false
+  raw: 251年
+  location_zh: 建业建初寺
+  description_zh: 汇译诸本生经 以六度为纲编成八卷 首明布施度无极十章 具载须大拏萨波达舍身饲虎等故事
+- id: guji-康僧会-event-preach-liudu
+  title_zh: 讲演六度化导士庶
+  date: '0252'
+  year_of: '0252'
+  precision: year
+  is_circa: false
+  raw: 252年
+  location_zh: 建业
+  description_zh: 于建初寺敷演六度集经 以布施济众慈育群生之行劝化王臣黎民 吴地翕然向善
+- id: guji-康僧会-event-death
+  title_zh: 示寂于建业
+  date: 0280
+  year_of: 0280
+  precision: year
+  is_circa: false
+  raw: 280年
+  location_zh: 建业
+  description_zh: 吴天纪四年示寂 世寿约百岁 遗教以六度为津梁 所译六度集经与建初道场传于后世
