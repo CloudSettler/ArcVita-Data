@@ -1,0 +1,132 @@
+person:
+  qid: guji-玄觉
+  name_zh: 玄觉
+  names:
+    zh: 玄觉
+    en: Xuanjue
+  lifespan:
+    birth:
+      date: '0665'
+      precision: year
+      is_circa: true
+      raw: 唐显庆年间永嘉生
+    death:
+      date: '0713'
+      precision: year
+      is_circa: false
+      raw: 唐先天二年示寂
+  birth_date: '0665'
+  death_date: '0713'
+  era: 唐
+  reign_ref: 唐玄宗先天
+  archetype: 禅观弘道者
+  dilemmas:
+  - 定慧偏枯沈掉不均何以令寂照双融
+  - 独善潜修与悲他弘化何以兼顾不违
+  lesson: 息缘虑治昏散令寂寂惺惺不离一念即空不空以契真源
+  summary_first_person: 我俗姓戴永嘉人也少游心三藏长通大乘偏弘禅观昼夜精勤后集平生宣纪为十篇以劝来学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B0%B8%E5%98%89%E9%9B%86.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B0%B8%E5%98%89%E9%9B%86.html
+endeavors:
+- id: guji-玄觉-endeavor-1
+  title_zh: 永嘉潜修禅观与集十篇弘法
+  summary: 居永嘉精修止观检责三业发明奢摩他毗婆舍那优毕叉终集十篇以示渐次
+  phases:
+  - key: brewing
+    name: 慕道立志亲近善友
+    labels:
+      zh: 立志事师
+    start_date: 0680
+    highlight_event_id: guji-玄觉-event-study
+  - key: breakthrough
+    name: 境智双寂定慧双融
+    labels:
+      zh: 禅观发明
+    start_date: 0695
+    highlight_event_id: guji-玄觉-event-caoxi
+  - key: climax
+    name: 集十篇永嘉集流通
+    labels:
+      zh: 著述流通
+    start_date: '0710'
+    highlight_event_id: guji-玄觉-event-compilation
+  - key: closure
+    name: 示寂后遗文龛室存护
+    labels:
+      zh: 遗文存护
+    start_date: '0713'
+    highlight_event_id: guji-玄觉-event-death
+  decisions:
+  - date: 0685
+    title_zh: 布衣蔬食亡身为法
+    rationale: 愍伤含识忘身求道以少欲知足入贤圣道
+  - date: '0710'
+    title_zh: 总宣纪为十篇集一卷
+    rationale: 悲远学虚掷寸阴欲令得意忘言同归郢悟
+- id: guji-玄觉-endeavor-2
+  title_zh: 曹溪参六祖一宿觉证契
+  summary: 读维摩经发明心地携友玄策赴曹溪见惠能一宿即悟时称一宿觉
+  phases:
+  - key: brewing
+    name: 读维摩发明心地
+    labels:
+      zh: 阅经悟道
+    start_date: 0698
+    highlight_event_id: guji-玄觉-event-study
+  - key: breakthrough
+    name: 随玄策赴曹溪参谒
+    labels:
+      zh: 曹溪参师
+    start_date: '0705'
+    highlight_event_id: guji-玄觉-event-caoxi
+  - key: climax
+    name: 一宿觉名重当时
+    labels:
+      zh: 一宿印可
+    start_date: '0705'
+    highlight_event_id: guji-玄觉-event-caoxi
+  - key: closure
+    name: 还永嘉弘禅道扇方外
+    labels:
+      zh: 还乡弘化
+    start_date: '0706'
+    highlight_event_id: guji-玄觉-event-compilation
+  decisions:
+  - date: '0705'
+    title_zh: 不起灭定而赴曹溪
+    rationale: 为决心要验邪正故亲承印可不滞一隅
+  - date: '0706'
+    title_zh: 还永嘉而不久住曹溪
+    rationale: 顺凡同圣曲己推人以本土因缘弘化三吴八表
+events:
+- id: guji-玄觉-event-birth
+  type: birth
+  date: '0665'
+  year_of: 665
+  title_zh: 永嘉戴氏生玄觉
+  description: 俗姓戴氏永嘉人也少挺生知幼游心三藏
+- id: guji-玄觉-event-study
+  type: practice
+  date: 0685
+  year_of: 685
+  title_zh: 精修三业弘禅观
+  description: 三业精勤偏弘禅观境智俱寂定慧双融
+- id: guji-玄觉-event-caoxi
+  type: encounter
+  date: '0705'
+  year_of: 705
+  title_zh: 曹溪见惠能一宿觉
+  description: 与玄策同谒曹溪惠能一宿印可振锡而行名重当时
+- id: guji-玄觉-event-compilation
+  type: composition
+  date: '0710'
+  year_of: 710
+  title_zh: 集平生宣纪为永嘉集十篇
+  description: 自慕道志仪至发愿文凡十篇集为一卷劝友发愿普度一切
+- id: guji-玄觉-event-death
+  type: death
+  date: '0713'
+  year_of: 713
+  title_zh: 先天二年示寂永嘉
+  description: 遗文尚在龛室寂寥七众怆怀魏静为序以传

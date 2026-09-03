@@ -6,156 +6,165 @@ person:
     en: Zhiyi
   lifespan:
     birth:
-      date: 0538-01-01
+      date: 0538
       precision: year
       is_circa: false
-      raw: 梁大同四年荆州华容生
+      raw: 梁大同四年荆州华容
     death:
-      date: 0597-11-24
+      date: '0597-11-24'
       precision: day
       is_circa: false
-      raw: 隋开皇十七年十一月二十四日示寂
-  birth_date: 0538-01-01
-  death_date: 0597-11-24
-  era: 南朝梁至隋
+      raw: 隋开皇十七年十一月二十四日石城寺
+  birth_date: 0538
+  death_date: '0597-11-24'
+  era: 隋
   reign_ref: 隋文帝开皇
-  archetype: 创宗弘法型宗师
+  archetype: 立宗弘法者
   dilemmas:
-  - 渐次不定圆顿三观如何融通而示人
-  - 文字言说与寂灭无言如何不执两边而兼顾
-  lesson: 融摄众经归于一念心观以圆顿统摄渐次令解行同归实相
-  summary_first_person: 我是智顗荆州华容人幼慕佛法出家后师事南岳慧思悟法华三昧入天台开圆顿止观陈隋两代奉为帝师开皇十四年夏于荆州玉泉寺敷说摩诃止观由门人灌顶笔记成十卷以此自修化他同归常寂
+  - title_zh: 止观并重还是专弘法华
+    description: 既承南岳法华安乐行又弘止观三昧须以忏仪统摄理事令初机可入
+  - title_zh: 出山应请还是安居天台
+    description: 陈隋王侯迎请讲经与山中修禅弘道之间权衡利他与自修
+  lesson: 以法华统摄忏法观行理事双运开后世天台忏仪先河
+  summary_first_person: 吾智顗荆州人也早依慧思受法华安乐行后居天台弘止观应请瓦官采普贤观经及诸大乘经意撰法华三昧忏仪立十科行轨劝三七日一心精进愿众生六根清净入佛境界
   source_urls:
-  - https://daizhige.org/佛藏/乾隆藏/此土著述/摩诃止观.html
-  - https://zh.wikisource.org/wiki/摩訶止觀
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/此土著述/摩诃止观.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B3%95%E5%8D%8E%E4%B8%89%E6%98%A7%E5%BF%8F%E4%BB%AA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E6%AD%A4%E5%9C%9F%E8%91%97%E8%BF%B0/%E6%B3%95%E5%8D%8E%E4%B8%89%E6%98%A7%E5%BF%8F%E4%BB%AA.html
 endeavors:
 - id: guji-智顗-endeavor-1
-  title_zh: 师承南岳创天台圆顿教观
-  summary_zh: 承慧思付嘱入天台山修禅弘法华融会南北教义立一念三千圆顿止观统摄渐次不定
+  person_qid: guji-智顗
+  title_zh: 撰法华三昧忏仪立三七日行法
+  summary: 采法华普贤观经及诸大乘经意制十科行轨劝后五百岁众生修法华三昧得六根清净
   phases:
   - key: brewing
-    name: 荆州出家初习律藏
+    name: 瓦官采经酝酿
     labels:
       zh:
-      - 出家
-      - 持戒
-    start_date: 0555-01-01
-    highlight_event_id: guji-智顗-event-ordination
+      - 采经
+      - 观行
+    start_date: 0585
+    highlight_event_id: guji-智顗-event-waguan
   - key: breakthrough
-    name: 大苏山师事慧思证悟
+    name: 十科仪轨初成
     labels:
       zh:
-      - 师承
-      - 证悟
-    start_date: 0560-01-01
-    highlight_event_id: guji-智顗-event-meet-huisi
+      - 制仪
+      - 立轨
+    start_date: 0588
+    highlight_event_id: guji-智顗-event-waguan
   - key: climax
-    name: 入天台山建寺弘法华
+    name: 道场劝修流通
     labels:
       zh:
-      - 建寺
-      - 弘经
-    start_date: 0575-01-01
-    highlight_event_id: guji-智顗-event-enter-tiantai
+      - 劝修
+      - 流通
+    start_date: 0590
+    highlight_event_id: guji-智顗-event-fahua-chan
   - key: closure
-    name: 撰述教典奠定天台宗
+    name: 勘定传持后代
     labels:
       zh:
-      - 著述
-      - 立宗
-    start_date: 0590-01-01
-    highlight_event_id: guji-智顗-event-emperor-teacher
+      - 传持
+      - 护法
+    start_date: 0594
+    highlight_event_id: guji-智顗-event-fahua-chan
   decisions:
-  - date: 0560-01-01
-    title_zh: 弃小从大投南岳慧思
-    rationale: 深信法华圆旨不滞小乘故北面受学以求定慧双开
-  - date: 0575-01-01
-    title_zh: 入天台栖隐修观化众
-    rationale: 避世缘以专修止观借山林道场接引南北学人奠定一宗根基
+  - date: 0588
+    title_zh: 唯置法华经严净道场
+    rationale: 以法华秘密藏为所依令行者敬重专注感圣破障
+  - date: 0590
+    title_zh: 定三七日六时十法
+    rationale: 以事理二种一心摄礼忏行道诵经坐禅令初机久修皆得次第
 - id: guji-智顗-endeavor-2
-  title_zh: 玉泉敷演摩诃止观并膺帝师
-  summary_zh: 陈隋两国奉为国师开皇十四年夏于荆州玉泉寺敷说圆顿止观门人灌顶笔受成十卷流传
+  person_qid: guji-智顗
+  title_zh: 居天台弘止观立天台宗
+  summary: 承南岳慧思法华之教学摩诃止观开一念三千一实境界奠定天台宗
   phases:
   - key: brewing
-    name: 陈朝弘化报恩建寺
+    name: 依止慧思受法
     labels:
       zh:
-      - 弘化
-      - 建寺
-    start_date: 0585-01-01
-    highlight_event_id: guji-智顗-event-emperor-teacher
+      - 受法
+      - 学观
+    start_date: '0560'
+    highlight_event_id: guji-智顗-event-huisi
   - key: breakthrough
-    name: 晋王杨广受戒奉为智者
+    name: 入天台建寺弘禅
     labels:
       zh:
-      - 帝师
-      - 受戒
-    start_date: 0591-01-01
-    highlight_event_id: guji-智顗-event-emperor-teacher
+      - 建寺
+      - 弘禅
+    start_date: '0575'
+    highlight_event_id: guji-智顗-event-tiantai
   - key: climax
-    name: 玉泉一夏敷说摩诃止观
+    name: 金陵讲说声名大振
     labels:
       zh:
-      - 说法
-      - 笔录
-    start_date: 0594-04-26
-    highlight_event_id: guji-智顗-event-yuquan
+      - 讲经
+      - 化众
+    start_date: 0585
+    highlight_event_id: guji-智顗-event-waguan
   - key: closure
-    name: 灌顶成书付法安禅示寂
+    name: 付嘱门人护法不绝
     labels:
       zh:
-      - 成书
-      - 示寂
-    start_date: 0597-01-01
+      - 付嘱
+      - 护教
+    start_date: 0597
     highlight_event_id: guji-智顗-event-death
   decisions:
-  - date: 0591-01-01
-    title_zh: 受晋王请授菩萨戒为帝师
-    rationale: 借王力护法弘通大乘不染荣利以慈悲摄受王臣广开教门
-  - date: 0594-04-26
-    title_zh: 于玉泉寺开讲圆顿止观
-    rationale: 以一夏因缘和会渐不定归于圆顿令行人即心观实相故说至见境而止由灌顶补记流通
+  - date: '0575'
+    title_zh: 入天台山安居修观
+    rationale: 避世嚣弘止观三昧以山林清净成就一实境界
+  - date: 0585
+    title_zh: 应请出山入金陵瓦官
+    rationale: 为报国恩化王侯士民以法华止观广利群生
 events:
 - id: guji-智顗-event-birth
-  type: birth
-  title_zh: 荆州华容出生
-  date: 0538-01-01
+  person_qid: guji-智顗
+  kind: birth
+  title_zh: 生于荆州华容
+  date: 0538
   year_of: 538
-  description: 梁大同四年出生荆州华容俗姓陈传说光满室目现双瞳
-- id: guji-智顗-event-ordination
-  type: career
-  title_zh: 荆州出家修习律藏
-  date: 0555-01-01
-  year_of: 555
-  description: 年十八投荆州大明寺出家修习律藏兼学方等
-- id: guji-智顗-event-meet-huisi
-  type: career
-  title_zh: 从南岳慧思受学定慧
-  date: 0560-01-01
+  place_zh: 荆州华容
+  description: 梁大同四年诞生俗姓陈氏荆州华容人
+- id: guji-智顗-event-huisi
+  person_qid: guji-智顗
+  kind: career
+  title_zh: 投南岳慧思受法华安乐行
+  date: '0560'
   year_of: 560
-  description: 投大苏山师事慧思修法华三昧豁然开悟得付嘱付法
-- id: guji-智顗-event-enter-tiantai
-  type: career
-  title_zh: 入天台山弘法建寺
-  date: 0575-01-01
+  place_zh: 光州大苏山
+  description: 依止慧思受法华安乐行悟法华三昧获辩才
+- id: guji-智顗-event-tiantai
+  person_qid: guji-智顗
+  kind: career
+  title_zh: 入天台山建修禅寺
+  date: '0575'
   year_of: 575
-  description: 入天台山栖隐修观建寺弘法华经奠定天台一宗基业
-- id: guji-智顗-event-emperor-teacher
-  type: career
-  title_zh: 陈隋两代奉为帝师
-  date: 0591-01-01
-  year_of: 591
-  description: 陈隋两国宗为帝师为晋王杨广授菩萨戒赐号智者
-- id: guji-智顗-event-yuquan
-  type: career
-  title_zh: 玉泉寺敷说摩诃止观
-  date: 0594-04-26
-  year_of: 594
-  description: 开皇十四年四月二十六日于荆州玉泉寺一夏敷扬圆顿止观门人灌顶笔记为十卷
+  place_zh: 台州天台山
+  description: 居天台弘摩诃止观开一念三千之旨四方学徒云集
+- id: guji-智顗-event-waguan
+  person_qid: guji-智顗
+  kind: career
+  title_zh: 居瓦官寺讲法华撰忏仪
+  date: 0585
+  year_of: 585
+  place_zh: 金陵瓦官寺
+  description: 应陈后主之请居瓦官讲法华采普贤观经意撰法华三昧忏仪
+- id: guji-智顗-event-fahua-chan
+  person_qid: guji-智顗
+  kind: career
+  title_zh: 制三七日法华三昧行法流通
+  date: 0590
+  year_of: 590
+  place_zh: 扬州及荆襄道场
+  description: 立严净道场十科行轨劝六根忏悔思惟一实境界令行者破障入佛境界
 - id: guji-智顗-event-death
-  type: death
-  title_zh: 石城安禅示寂
-  date: 0597-11-24
+  person_qid: guji-智顗
+  kind: death
+  title_zh: 示寂于石城寺
+  date: '0597-11-24'
   year_of: 597
-  description: 开皇十七年十一月二十四日于石城安禅而化位居五品世称天台智者大师
+  place_zh: 台州石城寺
+  description: 隋开皇十七年十一月二十四日端坐示寂世寿六十僧腊四十
