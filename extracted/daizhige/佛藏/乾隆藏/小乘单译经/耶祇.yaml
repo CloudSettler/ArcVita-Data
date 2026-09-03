@@ -1,0 +1,140 @@
+person:
+  qid: guji-耶祇
+  name_zh: 耶祇
+  names:
+    zh: 耶祇
+    en: Yeqi
+  lifespan:
+    birth:
+      date: '-0500'
+      precision: century
+      is_circa: true
+      raw: 迦奈國婆羅門大富家生年不詳
+    death:
+      date: '-0400'
+      precision: century
+      is_circa: true
+      raw: 出家得阿羅漢後示寂不詳
+  birth_date: '-0500'
+  death_date: '-0400'
+  era: 春秋
+  reign_ref: 佛在迦奈國時
+  archetype: 迷途知返修行者
+  dilemmas:
+  - 持守五戒與五欲習氣牽引之苦
+  - 從俗還戒求自在與違教獲罪報之懼
+  lesson: 自作自得改過持戒修善可得度脫
+  summary_first_person: 我本迦奈國大富婆羅門久事外道以求福祐聞佛慈普濟而歸命受五戒旋為五欲所牽欲還戒蒙佛威神救度而悔改持齋供養終得須陀洹出家證阿羅漢
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%80%B6%E7%A5%87%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E8%80%B6%E7%A5%87%E7%BB%8F.md
+endeavors:
+- id: guji-耶祇-endeavor-1
+  title_zh: 捨外道歸佛受五戒
+  summary: 久事九十六種外道聞事佛得安隱度脫遂詣佛歸命受五戒三歸持齋而去
+  phases:
+  - key: brewing
+    name: 久事外道求福
+    labels:
+      zh: 事外道
+    start_date: '-0500'
+    highlight_event_id: guji-耶祇-event-birth
+  - key: breakthrough
+    name: 聞佛歸命詣佛
+    labels:
+      zh: 歸命
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-convert
+  - key: climax
+    name: 受五戒三自歸
+    labels:
+      zh: 受戒
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-convert
+  - key: closure
+    name: 繞佛持齋而去
+    labels:
+      zh: 持齋
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-convert
+  decisions:
+  - date: -0480
+    title_zh: 捨九十六種外道歸命於佛
+    rationale: 聞事佛得富貴長壽安隱度脫不入三惡道故捨濁行受清淨教
+  - date: -0480
+    title_zh: 長跪受五戒三自歸持齋七日
+    rationale: 願去濁穢行受佛清淨決言故止惡為善求安隱
+- id: guji-耶祇-endeavor-2
+  title_zh: 欲還戒遭報悔改證果
+  summary: 遊他國為五欲所動欲還戒感鬼神責罰蒙佛救度悔改重持戒齋供養得道出家
+  phases:
+  - key: brewing
+    name: 遊他國見欲心動
+    labels:
+      zh: 心動
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-retribution
+  - key: breakthrough
+    name: 欲還戒感鬼神責
+    labels:
+      zh: 受報
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-retribution
+  - key: climax
+    name: 佛救悔改重持戒
+    labels:
+      zh: 悔改
+    start_date: -0480
+    highlight_event_id: guji-耶祇-event-retribution
+  - key: closure
+    name: 得須陀洹出家證阿羅漢
+    labels:
+      zh: 證果
+    start_date: -0479
+    highlight_event_id: guji-耶祇-event-arhat
+  decisions:
+  - date: -0480
+    title_zh: 欲罷道還佛五戒
+    rationale: 以五戒多所禁害不得從本意心不安定故欲悔還
+  - date: -0480
+    title_zh: 改更奉持五戒齋月供養不再犯
+    rationale: 自知心中有五賊牽入惡自作自得故誓改修善求度脫
+  - date: -0479
+    title_zh: 敕家中大小受戒捨家作沙門
+    rationale: 心意開解得須陀洹歡喜故令家同善自出家求證
+events:
+- id: guji-耶祇-event-birth
+  type: birth
+  title_zh: 生於迦奈國婆羅門大富家
+  date: '-0500'
+  year_of: -500
+  location_zh: 迦奈國
+  description: 耶祇生於迦奈國婆羅門大富家本事九十六種外道以求福祐
+- id: guji-耶祇-event-convert
+  type: endeavor
+  title_zh: 詣佛歸命受五戒三歸
+  date: -0480
+  year_of: -480
+  location_zh: 迦奈國佛所
+  description: 聞事佛得安隱度脫遂詣佛頭面作禮長跪受五戒三自歸繞佛三匝持齋七日而去
+- id: guji-耶祇-event-retribution
+  type: endeavor
+  title_zh: 行他國欲還戒感鬼神燒身蒙佛救度悔改
+  date: -0480
+  year_of: -480
+  location_zh: 他國及佛所
+  description: 行至他國見殺盜淫妄酒心動欲還戒白佛時即感鬼神以鐵椎擊頭鐵鉤取舌洋銅沃口火燒其身求哀蒙佛放威神救穌息悔改重持五戒齋月供養
+- id: guji-耶祇-event-arhat
+  type: endeavor
+  title_zh: 心開得須陀洹敕家受戒出家得阿羅漢
+  date: -0479
+  year_of: -479
+  location_zh: 家中及佛所
+  description: 佛說經已心意開解得須陀洹道歸家敕大小詣佛受五戒持齋遂捨家剃鬚被袈裟從佛作沙門得阿羅漢道
+- id: guji-耶祇-event-death
+  type: death
+  title_zh: 得道後示寂
+  date: '-0400'
+  year_of: -400
+  location_zh: 迦奈國
+  description: 得阿羅漢道後安住修行終於世壽不詳
