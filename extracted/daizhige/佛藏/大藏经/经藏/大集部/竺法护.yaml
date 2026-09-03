@@ -1,0 +1,126 @@
+person:
+  qid: guji-竺法护
+  name_zh: 竺法护
+  names:
+    zh: 竺法护
+    en: Dharmaraksa
+  lifespan:
+    birth:
+      date: '0231'
+      precision: year
+      is_circa: true
+      raw: 约公元二三一年生于月氏
+    death:
+      date: 0308
+      precision: year
+      is_circa: false
+      raw: 西晋永嘉二年卒于洛阳
+  birth_date: '0231'
+  death_date: 0308
+  era: 西晋
+  reign_ref: 晋武帝至晋怀帝朝
+  archetype: 译经弘法者
+  dilemmas:
+  - 梵汉悬隔经义深广何以传信达意
+  - 世乱道衰弘愿难持何以大哀济众
+  lesson: 以大哀为怀不惮西行之劳以信达为要终成译业之盛
+  summary_first_person: 吾本月氏子八岁出家从师竺高座慕法西行遍历西域得大哀等梵本归于洛阳长安译经百五十余部愿以大哀普覆群生令入菩萨正行
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/大集部/大哀经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/大集部/大哀经.html
+endeavors:
+- id: guji-竺法护-endeavor-1
+  title_zh: 西行求经携梵归华
+  summary: 幼而出家游历西域诸国搜访梵本携归洛阳奠定译业之基
+  phases:
+  - key: brewing
+    name: 幼年出家从师受学
+    labels:
+      zh: 学道
+    start_date: 0239
+    highlight_event_id: guji-竺法护-event-birth
+  - key: breakthrough
+    name: 西游诸国搜访梵经
+    labels:
+      zh: 求法
+    start_date: '0265'
+    highlight_event_id: guji-竺法护-event-west-quest
+  - key: climax
+    name: 携经东归达于洛阳
+    labels:
+      zh: 归化
+    start_date: '0272'
+    highlight_event_id: guji-竺法护-event-west-quest
+  - key: closure
+    name: 藏经授徒启译宏愿
+    labels:
+      zh: 授业
+    start_date: 0280
+    highlight_event_id: guji-竺法护-event-translate-daai
+  decisions:
+  - date: '0265'
+    title_zh: 决意西行求梵本
+    rationale: 中土经阙欲得正本故冒艰险遍游西域三十六国
+  - date: '0272'
+    title_zh: 携梵本还洛设馆受徒
+    rationale: 独力难弘广译故聚徒立馆为长久译业之计
+- id: guji-竺法护-endeavor-2
+  title_zh: 译演大哀弘菩萨行
+  summary: 于洛阳长安译出大哀经演灵鹫大会菩萨庄严大哀法门
+  phases:
+  - key: brewing
+    name: 精通梵汉筹译大集
+    labels:
+      zh: 筹译
+    start_date: 0282
+    highlight_event_id: guji-竺法护-event-translate-daai
+  - key: breakthrough
+    name: 译出大哀演菩萨会
+    labels:
+      zh: 译经
+    start_date: 0284
+    highlight_event_id: guji-竺法护-event-translate-daai
+  - key: climax
+    name: 班宣无盖门显大哀德
+    labels:
+      zh: 弘法
+    start_date: 0286
+    highlight_event_id: guji-竺法护-event-translate-daai
+  - key: closure
+    name: 经行四方道化不绝
+    labels:
+      zh: 化成
+    start_date: 0290
+    highlight_event_id: guji-竺法护-event-death
+  decisions:
+  - date: 0284
+    title_zh: 首译大哀经显菩萨行
+    rationale: 悯众生苦欲以大哀大慈开菩萨道故先译此经
+  - date: 0286
+    title_zh: 坚持译场不避时乱
+    rationale: 知法难逢时难得故虽世乱犹昼夜译演以续慧命
+events:
+- id: guji-竺法护-event-birth
+  date: '0231'
+  year_of: 231
+  title_zh: 生于月氏
+  description: 月氏家生八岁出家从竺高座受学博览三藏
+  place_zh: 月氏
+- id: guji-竺法护-event-west-quest
+  date: '0265'
+  year_of: 265
+  title_zh: 西游求经携梵东归
+  description: 遍游西域三十六国得大哀等梵本携归洛阳长安
+  place_zh: 西域至洛阳
+- id: guji-竺法护-event-translate-daai
+  date: 0284
+  year_of: 284
+  title_zh: 译出大哀经
+  description: 于洛阳译大哀经演王舍灵鹫菩萨大会无盖法门大哀普覆之旨世称月氏三藏所译
+  place_zh: 洛阳
+- id: guji-竺法护-event-death
+  date: 0308
+  year_of: 308
+  title_zh: 卒于洛阳
+  description: 永嘉之乱译业既成示寂于洛阳享年七十余众共哀慕
+  place_zh: 洛阳
