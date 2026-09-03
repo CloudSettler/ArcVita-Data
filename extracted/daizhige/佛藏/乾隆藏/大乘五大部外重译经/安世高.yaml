@@ -9,163 +9,131 @@ person:
       date: '0100'
       precision: year
       is_circa: true
-      raw: 约2世纪初安息国
+      raw: 约100年
     death:
-      date: '0170'
+      date: 0168
       precision: year
       is_circa: true
-      raw: 约东汉建宁年间
+      raw: 约168年
   birth_date: '0100'
-  death_date: '0170'
-  era: 东汉
+  death_date: 0168
+  era: 后汉
   reign_ref: 汉桓帝至汉灵帝
-  archetype: 译经宗师
+  archetype: 译经僧
   dilemmas:
-  - 胡梵与华言隔阂，何以精准传译空义而不失本旨
-  - 小乘禅数与大乘法身空性并弘，何以会通不相违背
-  - 身为安息王子，当安居王位抑舍国弘法利众生
-  lesson: 诸法本际无得无依，借名教化而实无所住，信解法身空性方为宝积
-  summary_first_person: 吾本安息国太子名清，字世高，少习梵典明于禅数，舍王位而东游，汉桓帝时抵洛阳，研华言、译众经，以宝积三昧等法明法身不生不灭、离念即道之旨，愿后学持本际而无所著。
+  - 王位继承与出家求道的取舍
+  - 异域弘法与中土语言文化隔阂的克服
+  lesson: 舍王位而以法为师专精译经，示现自誓为证方能弘化不辍
+  summary_first_person: 吾本安息国太子，舍王位而出家，博通禅经，东来洛阳译安般守意自誓三昧等经，以禅观戒证导化中土，愿众生得自誓三昧而证道。
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%AE%9D%E7%A7%AF%E4%B8%89%E6%98%A7%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E8%8F%A9%E8%90%A8%E9%97%AE%E6%B3%95%E8%BA%AB%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E4%BA%94%E5%A4%A7%E9%83%A8%E5%A4%96%E9%87%8D%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%AE%9D%E7%A7%AF%E4%B8%89%E6%98%A7%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E8%8F%A9%E8%90%A8%E9%97%AE%E6%B3%95%E8%BA%AB%E7%BB%8F.md
-  - https://cbeta.online/T0356
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘五大部外重译经/佛说自誓三昧经.md
+  - https://daizhige.org/佛藏/乾隆藏/大乘五大部外重译经/佛说自誓三昧经.html
+  - https://cbetaonline.dila.edu.tw/zh/T0622
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 佛经汉译草创
-  summary: 后汉桓灵之际入洛，精研汉语，以质朴直译之风首开汉地译经，译出安般守意、阴持入等禅数经及宝积三昧文殊问法身等大乘经，奠定汉译佛典范式。
+  title_zh: 东来译经弘法
+  description: 自安息东来洛阳，译出安般守意自誓三昧等数十部经，奠定汉译佛典与禅观之基
   phases:
   - key: brewing
-    name: 抵洛研华
+    name: 舍位求法
     labels:
-      zh: 潜译
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-arrival
+      zh: 安息研习
+    start_date: '0120'
+    highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 首译禅经
+    name: 初至洛阳
     labels:
-      zh: 初译
+      zh: 洛阳立译
     start_date: 0148
-    highlight_event_id: guji-安世高-event-first-translation
+    highlight_event_id: guji-安世高-event-arrive
   - key: climax
-    name: 重译宝积
+    name: 译自誓三昧
     labels:
-      zh: 高峰
+      zh: 译经高峰
     start_date: '0150'
-    highlight_event_id: guji-安世高-event-baoji
+    highlight_event_id: guji-安世高-event-translate
   - key: closure
-    name: 译业南传
+    name: 译业垂范
     labels:
-      zh: 南弘
-    start_date: 0168
-    highlight_event_id: guji-安世高-event-south
-  decisions:
-  - date: 0148
-    title_zh: 舍安息王位东行入汉
-    rationale: 志在弘法而非王权，以译经利华夏为大业
-  - date: 0148
-    title_zh: 采用质直汉译体例
-    rationale: 宁存梵义之实不求文藻之华，使禅数与空义可为汉人所解
-  - date: '0150'
-    title_zh: 兼译大小乘不偏废
-    rationale: 以禅观为阶、以法身空义为极，显大小相摄同归一法身
-- id: guji-安世高-endeavor-2
-  title_zh: 禅法与法身空义弘宣
-  summary: 不仅译文，更以讲说化导，依宝积三昧阐明法身无生灭、无垢净、离念即道，破众生于五道生死之执，示本际无际、空无所依之金刚慧。
-  phases:
-  - key: brewing
-    name: 示三昧法门
-    labels:
-      zh: 开示
-    start_date: '0150'
-    highlight_event_id: guji-安世高-event-baoji
-  - key: breakthrough
-    name: 对问文殊法身
-    labels:
-      zh: 问答
-    start_date: '0150'
-    highlight_event_id: guji-安世高-event-baoji
-  - key: climax
-    name: 会众广说无得
-    labels:
-      zh: 广说
+      zh: 南行化导
     start_date: '0160'
-    highlight_event_id: guji-安世高-event-preaching
-  - key: closure
-    name: 付嘱流通
-    labels:
-      zh: 流通
-    start_date: 0168
     highlight_event_id: guji-安世高-event-south
   decisions:
+  - date: 0148
+    title_zh: 舍王位东行译经
+    rationale: 感念无常不恋王位，欲以佛法济度中土，故决意远涉洛阳专事译经
   - date: '0150'
-    title_zh: 以文殊问答显法身义
-    rationale: 借文殊师利与佛问答，显法身等同虚空、不可分别，使新学离文字执
-  - date: '0160'
-    title_zh: 强调离念为道无念为教
-    rationale: 淫怒痴无根、本际不可坏，以无所得法教化方能使闻者得印
-  - date: 0168
-    title_zh: 南游会稽避乱续化
-    rationale: 洛阳将乱，移锡江东，使译经与禅法得以存续不绝
+    title_zh: 择要译自誓三昧经
+    rationale: 欲显出家自誓与三昧证道之要，令汉地学者明戒证与禅观次第，故选译此经
+- id: guji-安世高-endeavor-2
+  title_zh: 禅观与戒律传持
+  description: 以安般禅数与自誓戒证为核心，教授门人，确立汉地早期禅法与出家规范
+  phases:
+  - key: brewing
+    name: 禅数积修
+    labels:
+      zh: 安息禅修
+    start_date: '0130'
+    highlight_event_id: guji-安世高-event-birth
+  - key: breakthrough
+    name: 安般教授
+    labels:
+      zh: 授禅门人
+    start_date: 0149
+    highlight_event_id: guji-安世高-event-teach
+  - key: climax
+    name: 自誓为证
+    labels:
+      zh: 宣说自誓
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-translate
+  - key: closure
+    name: 戒禅并弘
+    labels:
+      zh: 化行江南
+    start_date: '0165'
+    highlight_event_id: guji-安世高-event-south
+  decisions:
+  - date: 0149
+    title_zh: 以禅经先导而后显大乘
+    rationale: 汉地初识佛法根器未熟，宜先以安般守意调息观身再进大乘三昧
+  - date: '0165'
+    title_zh: 南游会稽避祸传法
+    rationale: 洛阳扰攘欲避争端而续法脉，遂南行广布禅观与戒律
 events:
 - id: guji-安世高-event-birth
-  title_zh: 诞生于安息国王室
+  title_zh: 生于安息王室
   date: '0100'
-  precision: year
-  is_circa: true
-  raw: 约2世纪初
-  location: 安息国
-  summary: 安息国太子，名清，字世高，少通经学尤明梵典与禅数。
-- id: guji-安世高-event-arrival
-  title_zh: 抵达洛阳始事翻译
+  year_of: '0100'
+  location_zh: 安息国
+  description: 安息国太子，生而聪慧，博学群典，明禅观与经义，后舍位出家
+- id: guji-安世高-event-arrive
+  title_zh: 抵达洛阳创译
   date: 0148
-  precision: year
-  is_circa: true
-  raw: 汉桓帝建和二年左右
-  location: 洛阳
-  summary: 舍国出家东游，至汉都洛阳，精习汉语，始开官方译场。
-  year_of: guji-安世高-endeavor-1
-- id: guji-安世高-event-first-translation
-  title_zh: 首译安般守意等禅数经
-  date: 0148
-  precision: year
-  is_circa: true
-  raw: 汉桓帝时
-  location: 洛阳
-  summary: 译出安般守意经、阴持入经等，奠定小乘禅观在汉地传播基础。
-  year_of: guji-安世高-endeavor-1
-- id: guji-安世高-event-baoji
-  title_zh: 译出宝积三昧文殊师利问法身经
+  year_of: 0148
+  location_zh: 洛阳
+  description: 汉桓帝建和二年抵洛阳，自此从事译经，译出安般守意经等，为汉译之始
+- id: guji-安世高-event-translate
+  title_zh: 译佛说自誓三昧经
   date: '0150'
-  precision: year
-  is_circa: true
-  raw: 汉桓帝延熹年间
-  location: 洛阳
-  summary: 以文殊与佛问答为框架，译阐宝积三昧、法身无生灭无垢净、本际无际、离念即道等大乘空义。
-  year_of: guji-安世高-endeavor-1
-- id: guji-安世高-event-preaching
-  title_zh: 于洛阳会众广说宝积法身义
-  date: '0160'
-  precision: year
-  is_circa: true
-  raw: 汉灵帝初年
-  location: 洛阳
-  summary: 据所译经广为讲说，以摩尼珠、海味、谷聚等喻明一法身摄一切法，化导舍利弗等声闻及文殊法众。
-  year_of: guji-安世高-endeavor-2
+  year_of: '0150'
+  location_zh: 洛阳
+  description: 译出佛说自誓三昧经，详述菩萨出家自誓净居为证戒证具足与三昧现前的次第
+- id: guji-安世高-event-teach
+  title_zh: 教授禅观门人
+  date: '0152'
+  year_of: '0152'
+  location_zh: 洛阳
+  description: 招集汉地学人教授安般守意及禅数法门，门下多得通习
 - id: guji-安世高-event-south
-  title_zh: 南游会稽弘传不辍
-  date: 0168
-  precision: year
-  is_circa: true
-  raw: 汉灵帝建宁年间
-  location: 会稽
-  summary: 中原将乱，南下会稽，继续译讲，译业与禅法由是传入江东。
-  year_of: guji-安世高-endeavor-2
+  title_zh: 南行会稽化导
+  date: '0165'
+  year_of: '0165'
+  location_zh: 会稽
+  description: 离洛阳南游江淮会稽一带避乱传法，弘扬禅观与戒律
 - id: guji-安世高-event-death
   title_zh: 示寂
-  date: '0170'
-  precision: year
-  is_circa: true
-  raw: 约汉灵帝熹平年间
-  location: 会稽
-  summary: 译讲一生，示寂江东，后世尊为汉地译经之鼻祖。
+  date: 0168
+  year_of: 0168
+  location_zh: 会稽
+  description: 于南方示寂，世寿约六十余，后世尊为汉地译经之祖
