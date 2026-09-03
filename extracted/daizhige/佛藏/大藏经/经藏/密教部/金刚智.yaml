@@ -8,125 +8,151 @@ person:
     birth:
       date: '0671'
       precision: year
-      is_circa: false
-      raw: 唐咸亨二年南天竺
+      is_circa: true
+      raw: 唐高宗咸亨二年南印度摩赖耶国生
     death:
       date: '0741'
       precision: year
       is_circa: false
-      raw: 唐开元二十九年洛阳
+      raw: 唐玄宗开元二十九年洛阳圆寂
   birth_date: '0671'
   death_date: '0741'
   era: 唐
   reign_ref: 唐玄宗开元
-  archetype: 密教译师
+  archetype: 密教传持译经者
   dilemmas:
-  - 密法深秘当广传利生还是择器付授以护三昧耶
-  - 远涉海道弘化中土当顺王化仪轨还是坚持瑜伽次第
-  lesson: 依灌顶三昧耶发菩提心，守清净戒行，方堪修瑜伽三密相应
-  summary_first_person: 吾南天竺人，依龙智学金刚顶瑜伽，泛海入唐，奉诏译青颈大悲王仪轨，教授三密瑜伽观行，令行者即身观自心满月莲华，证菩提心。
+  - 显密兼通而世多滞显，如何以陀罗尼直显般若空性
+  - 梵密东传言音隔阂，如何立坛灌顶印咒使人速得信解
+  lesson: 以密契显，以印持心，心净则般若现前
+  summary_first_person: 我是金刚智，南印度摩赖耶国人，少出家而游学西天，受密法于龙智，奉制东来，译金刚顶五字心陀罗尼，立坛灌顶，教人观阿啰跛者娜五字，入清净无生平等三摩地
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E9%87%91%E5%88%9A%E9%A1%B6%E7%91%9C%E4%BC%BD%E9%9D%92%E9%A2%88%E5%A4%A7%E6%82%B2%E7%8E%8B%E8%A7%82%E8%87%AA%E5%9C%A8%E5%BF%B5%E8%AF%B5%E4%BB%AA%E8%BD%A8.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E9%87%91%E5%88%9A%E9%A1%B6%E7%91%9C%E4%BC%BD%E9%9D%92%E9%A2%88%E5%A4%A7%E6%82%B2%E7%8E%8B%E8%A7%82%E8%87%AA%E5%9C%A8%E5%BF%B5%E8%AF%B5%E4%BB%AA%E8%BD%A8.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/金刚顶经曼殊室利菩萨五字心陀罗尼品.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/金刚顶经曼殊室利菩萨五字心陀罗尼品.md
 endeavors:
 - id: guji-金刚智-endeavor-1
-  title_zh: 南天竺出家从龙智受瑜伽密法
-  summary: 南天竺婆罗门种出家，游那烂陀广学显密，依龙智受金刚顶瑜伽付嘱，泛南海求法弘化。
+  title_zh: 南天出家游学受密法
+  summary: 南印度出家，遍学显密，师事龙智，受金刚顶瑜伽法，后发愿东行弘化
   phases:
   - key: brewing
-    name: 天竺诞育出家
+    name: 摩赖耶出家学律显
     labels:
-      zh: 出家求学
-    start_date: '0671'
-    highlight_event_id: guji-金刚智-event-birth
+      zh:
+      - 出家求法
+      - 遍学三藏
+    start_date: 0681
+    highlight_event_id: guji-金刚智-event-study
   - key: breakthrough
-    name: 那烂陀广学显密
+    name: 亲承龙智受灌顶
     labels:
-      zh: 学法
-    start_date: 0687
-    highlight_event_id: guji-金刚智-event-study
-  - key: climax
-    name: 依龙智受金刚顶灌顶
-    labels:
-      zh: 付法
+      zh:
+      - 密教付法
+      - 金刚顶瑜伽
     start_date: '0700'
-    highlight_event_id: guji-金刚智-event-study
-  - key: closure
-    name: 泛海南行弘化发愿东来
+    highlight_event_id: guji-金刚智-event-initiation
+  - key: climax
+    name: 泛海东行发弘愿
     labels:
-      zh: 发愿东行
-    start_date: 0718
-    highlight_event_id: guji-金刚智-event-arrival
+      zh:
+      - 西域南海道
+      - 东土弘密愿
+    start_date: '0710'
+    highlight_event_id: guji-金刚智-event-voyage
   decisions:
   - date: '0700'
-    title_zh: 依止龙智专修金刚顶瑜伽
-    rationale: 见显教渐修难摄钝根，欲以三密相应速令众生证菩提心故择密为归
-  - date: 0718
-    title_zh: 携弟子不空泛海赴唐
-    rationale: 感中土有缘乐密法，愿将瑜伽仪轨传于东方饶益一切故冒海难东行
+    title_zh: 师事龙智受金刚顶法
+    rationale: 欲速证般若，须依金刚顶曼荼罗灌顶印咒，直观菩提心
+  - date: '0710'
+    title_zh: 决意泛海赴唐弘法
+    rationale: 感中土有缘，愿以密教陀罗尼利未来有情，成就摩诃般若
 - id: guji-金刚智-endeavor-2
-  title_zh: 入唐奉诏译青颈观自在仪轨弘瑜伽观
-  summary: 开元中抵洛阳长安，奉诏与一行笔受，译金刚顶瑜伽青颈大悲王仪轨，建曼荼罗授灌顶，教授声念诵与三摩地念诵。
+  title_zh: 入唐译经立坛弘五字心
+  summary: 开元中抵洛长安，奉制译经，译五字心陀罗尼品，立坛灌顶授印，弘曼殊室利观行
   phases:
   - key: brewing
-    name: 抵洛奉诏入内道场
+    name: 初至南海洛阳谒帝
     labels:
-      zh: 入唐
-    start_date: '0720'
-    highlight_event_id: guji-金刚智-event-arrival
+      zh:
+      - 入唐
+      - 奉制翻译
+    start_date: 0719
+    highlight_event_id: guji-金刚智-event-arrive
   - key: breakthrough
-    name: 与一行笔受译青颈仪轨
+    name: 译出五字心陀罗尼品
     labels:
-      zh: 译经
+      zh:
+      - 译经
+      - 曼殊室利五字门
     start_date: '0723'
     highlight_event_id: guji-金刚智-event-translate
   - key: climax
-    name: 授灌顶教授观音瑜伽三摩地
+    name: 立坛灌顶授修持轨
     labels:
-      zh: 授法
-    start_date: '0725'
-    highlight_event_id: guji-金刚智-event-translate
+      zh:
+      - 灌顶曼荼罗
+      - 三摩地念诵
+    start_date: '0724'
+    highlight_event_id: guji-金刚智-event-preach
   - key: closure
-    name: 付嘱不空示寂洛阳
+    name: 洛阳示寂法付后学
     labels:
-      zh: 示寂
+      zh:
+      - 示寂
+      - 付法不空
     start_date: '0741'
     highlight_event_id: guji-金刚智-event-death
   decisions:
   - date: '0723'
-    title_zh: 先说入坛灌顶三昧耶方许修习
-    rationale: 若不入灌顶曼荼罗发大菩提心舍身命财，则三业不净三密不相应故立 strict 门槛
-  - date: '0725'
-    title_zh: 开声念诵与无记无数三摩地双轨
-    rationale: 为摄求解脱速出离者与常课持名者，令随力定数不减与观字义不断绝各得成就故
+    title_zh: 奉制译五字心陀罗尼品
+    rationale: 为利未来有情速成般若，故说阿啰跛者娜平等法门并修行仪轨
+  - date: '0724'
+    title_zh: 须入坛灌顶方授秘印
+    rationale: 此是诸佛秘密心要，恐轻说破三昧耶，故先筑坛供养灌顶后传
 events:
 - id: guji-金刚智-event-birth
-  title_zh: 诞生南天竺婆罗门家
+  title_zh: 诞生南印度摩赖耶国
   date: '0671'
   year_of: 671
-  place_zh: 南天竺
-  description: 唐咸亨二年生于南天竺，少出家游学，奠定瑜伽密教之基。
+  description: 咸亨二年生于南印度摩赖耶国婆罗门种，后出家学道
+  place_zh: 南印度摩赖耶国
 - id: guji-金刚智-event-study
-  title_zh: 那烂陀学法依龙智受瑜伽付嘱
+  title_zh: 少出家遍学显教三藏
+  date: 0681
+  year_of: 681
+  description: 十岁许出家，游学天竺诸国，通达律论般若，兼习声明
+  place_zh: 南天竺
+- id: guji-金刚智-event-initiation
+  title_zh: 师事龙智受金刚顶灌顶
   date: '0700'
   year_of: 700
-  place_zh: 那烂陀龙智门下
-  description: 广学因明声明显密经论，依龙智受金刚顶瑜伽灌顶，得莲华部达磨法要。
-- id: guji-金刚智-event-arrival
-  title_zh: 泛海南来抵洛阳奉诏弘化
-  date: '0720'
-  year_of: 720
+  description: 亲承龙智阿阇梨，受金刚顶瑜伽灌顶，得传五部心法与诸陀罗尼印
+  place_zh: 南印度
+- id: guji-金刚智-event-voyage
+  title_zh: 泛海南行发愿东来
+  date: '0710'
+  year_of: 710
+  description: 与弟子不空等泛海经师子国故林国诸地，历艰险发愿弘密于东土
+  place_zh: 海路东行
+- id: guji-金刚智-event-arrive
+  title_zh: 开元七年抵洛阳长安
+  date: 0719
+  year_of: 719
+  description: 開元七年至广州洛阳，玄宗迎礼，敕住慈恩荐福，奉制译经
   place_zh: 洛阳长安
-  description: 开元八年携弟子不空经南海至洛阳，得玄宗礼敬，入内道场弘瑜伽密法。
 - id: guji-金刚智-event-translate
-  title_zh: 译金刚顶瑜伽青颈大悲王观自在念诵仪轨
-  date: '0725'
-  year_of: 725
-  place_zh: 长安洛阳译场
-  description: 奉诏与一行笔受，依金刚顶经演说观自在王莲华法要，明结界召罪摧破布字三摩地次第，成密教部要典。
+  title_zh: 译金刚顶经曼殊五字心品
+  date: '0723'
+  year_of: 723
+  description: 于毗卢遮那前演曼殊室利五字心陀罗尼阿啰跛者娜，释无生清净平等之义，定满五十万遍成就仪则
+  place_zh: 长安
+- id: guji-金刚智-event-preach
+  title_zh: 立坛灌顶授曼殊观行
+  date: '0724'
+  year_of: 724
+  description: 筑圆坛画童子曼殊，授金刚缚秘印，教结界入智阖智观月剑变身等三昧，日四时念诵证初地行
+  place_zh: 长安洛阳道场
 - id: guji-金刚智-event-death
-  title_zh: 示寂洛阳龙门
+  title_zh: 开元二十九年示寂广福寺
   date: '0741'
   year_of: 741
-  place_zh: 洛阳
-  description: 开元二十九年示寂，葬龙门，谥国师，弟子不空继弘其学成开元三大士之一。
+  description: 开元二十九年正月圆寂于洛阳广福寺，谥国师，付法弟子不空继弘密教
+  place_zh: 洛阳广福寺
