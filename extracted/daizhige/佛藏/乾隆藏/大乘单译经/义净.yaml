@@ -6,156 +6,146 @@ person:
     en: Yijing
   lifespan:
     birth:
-      date: '0635-01-01'
+      date: '0635'
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 唐贞观九年
     death:
-      date: '0713-02-16'
-      precision: day
+      date: '0713'
+      precision: year
       is_circa: false
-      raw: 唐先天二年正月
-  birth_date: '0635-01-01'
-  death_date: '0713-02-16'
+      raw: 唐开元元年
+  birth_date: '0635'
+  death_date: '0713'
   era: 唐
-  reign_ref: 唐高宗至唐玄宗
-  archetype: 译经高僧
+  reign_ref: 武周
+  archetype: 求法译经高僧
   dilemmas:
-  - 航海求法舍身涉险与存身弘法之间的抉择
-  - 专弘毗尼律藏与兼译大乘经教之间的平衡
-  lesson: 以戒为师持律守本以译续灯则佛法得久住
-  summary_first_person: 吾齐州历城张氏子也少慕出尘精究毗尼慨律部未全遂决意浮海西行遍历南海诸国师事那烂陀诸师二十余年携梵本四百部归献阙廷蒙敕译经凡五十余部冀以此经此律饶益当来
+  - 安住中土弘律与冒死泛海求法的抉择
+  - 广求梵本与精译传世的取舍
+  lesson: 弘法利生当躬行求索不畏艰险以戒为师方能自利利他
+  summary_first_person: 吾齐州张氏子也幼慕出尘依律而住咸亨二年自广州浮海至于南海室利佛逝次入天竺那烂陀亲承梵本二十余年乃还奉敕译经于长安洛阳译出金光明根本有部律及善夜经等冀令正法久住众生离苦得乐耳
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/乾隆藏/大乘单译经/佛说一切法功德庄严王经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%96%84%E5%A4%9C%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%A4%A7%E4%B9%98%E5%8D%95%E8%AF%91%E7%BB%8F/%E4%BD%9B%E8%AF%B4%E5%96%84%E5%A4%9C%E7%BB%8F.html
+  - https://www.cbeta.org/result/T1362.htm
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 航海求法取经归国
-  description: 慕法显玄奘遗风自广州浮海西行经室利佛逝至印度那烂陀广参诸师研习三藏历二十余载携梵本东归
+  title_zh: 泛海南行求法天竺
+  description: 咸亨二年自广州出发经室利佛逝赴印度那烂陀研习三藏历二十余年广求梵本而还
   phases:
   - key: brewing
-    name: 立志浮海
+    name: 幼年出家研习律学
     labels:
-      zh: 立志
-    start_date: '0671-01-01'
-    highlight_event_id: guji-义净-event-depart
+      zh: 立志求法
+    start_date: 0649
+    highlight_event_id: guji-义净-event-ordination
   - key: breakthrough
-    name: 那烂陀留学
+    name: 浮海南行至室利佛逝
     labels:
-      zh: 留学
-    start_date: '0675-01-01'
-    highlight_event_id: guji-义净-event-study
+      zh: 初涉海道
+    start_date: '0671'
+    highlight_event_id: guji-义净-event-departure
   - key: climax
-    name: 携经东归
+    name: 那烂陀留学历经十载
     labels:
-      zh: 东归
-    start_date: '0685-01-01'
+      zh: 广求梵本
+    start_date: '0673'
+    highlight_event_id: guji-义净-event-nalanda
+  - key: closure
+    name: 携经东归抵达洛阳
+    labels:
+      zh: 载誉而归
+    start_date: 0695
     highlight_event_id: guji-义净-event-return
-  - key: closure
-    name: 献经受敕
-    labels:
-      zh: 献经
-    start_date: '0695-06-01'
-    highlight_event_id: guji-义净-event-offer
   decisions:
-  - date: '0671-08-01'
-    title_zh: 决计航海西行
-    rationale: 见中土律藏阙略欲求梵本补阙虽海路艰险亦当舍身求法
-  - date: '0695-06-15'
-    title_zh: 应敕入译场
-    rationale: 蒙武后礼遇当以毕生所得报国恩译布群经以济众生
+  - date: '0671'
+    title_zh: 决意自广州浮海西行
+    rationale: 不满足于中土章疏欲亲证梵本虽海道艰险仍毅然西行以求正法
+  - date: 0680
+    title_zh: 久留那烂陀精研有部律
+    rationale: 见印度律学弘盛欲穷其本末故久住学律为他日东土弘律奠基
 - id: guji-义净-endeavor-2
-  title_zh: 主持译场广译众经
-  description: 还朝后于洛阳长安两京译场主持译事译出根本说一切有部律及大乘单译经五十余部其中一卷即佛说一切法功德庄严王经
+  title_zh: 奉诏译经弘传律咒
+  description: 归国后奉武后及中宗睿宗玄宗之命于长安洛阳译场译出根本说一切有部律等五十六部并译善夜经等密咒经典著南海寄归传
   phases:
   - key: brewing
-    name: 筹建译场
+    name: 入译场校梵本
     labels:
-      zh: 筹备
-    start_date: '0699-01-01'
-    highlight_event_id: guji-义净-event-prepare
+      zh: 初入译场
+    start_date: 0695
+    highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 首译庄严王经
+    name: 译根本说一切有部律
     labels:
-      zh: 首译
-    start_date: '0700-01-01'
-    highlight_event_id: guji-义净-event-translate-zhuangyan
-  - key: climax
-    name: 广译毗奈耶
-    labels:
-      zh: 广译
-    start_date: '0703-01-01'
+      zh: 大译律藏
+    start_date: '0700'
     highlight_event_id: guji-义净-event-vinaya
-  - key: closure
-    name: 译业圆满
+  - key: climax
+    name: 译金光明最胜王经及善夜经
     labels:
-      zh: 圆满
-    start_date: '0710-01-01'
-    highlight_event_id: guji-义净-event-complete
+      zh: 经咒并弘
+    start_date: '0703'
+    highlight_event_id: guji-义净-event-shanyejing
+  - key: closure
+    name: 著述传法示寂长安
+    labels:
+      zh: 撰述示寂
+    start_date: '0710'
+    highlight_event_id: guji-义净-event-death
   decisions:
-  - date: '0700-03-01'
-    title_zh: 先译功德庄严王经劝信
-    rationale: 此经具大威德能销业障灭罪苦先令流通可坚众生信心易于奉持
-  - date: '0703-05-01'
-    title_zh: 以律为本兼弘大乘
-    rationale: 律为法寿大乘为化导二者并举方成住持正法之具足教
+  - date: '0700'
+    title_zh: 专译律藏以正轨范
+    rationale: 感中土律学纷歧欲以有部广律为绳墨故先译律藏以正僧制
+  - date: '0705'
+    title_zh: 译善夜经传陀罗尼护世法
+    rationale: 欲令众生离诸障恼得宿住智于长夜安隐故译善夜经及诸明咒以广拥护
 events:
 - id: guji-义净-event-birth
-  title_zh: 诞生于齐州历城
-  date: '0635-01-01'
+  title_zh: 生于齐州历城
+  date: '0635'
   year_of: '0635'
-  place_zh: 齐州历城
-  description: 唐贞观九年张氏子生后出家法名义净
-- id: guji-义净-event-depart
-  title_zh: 自广州搭舶西行
-  date: '0671-08-01'
+  description: 唐贞观九年生于齐州历城俗姓张
+  location: 齐州历城
+- id: guji-义净-event-ordination
+  title_zh: 十四岁出家
+  date: 0649
+  year_of: 0649
+  description: 年十四出家依律受具足戒研习三藏尤精律学
+  location: 齐州
+- id: guji-义净-event-departure
+  title_zh: 自广州泛海西行
+  date: '0671'
   year_of: '0671'
-  place_zh: 广州
-  description: 乘波斯舶经室利佛逝赴印度求法
-- id: guji-义净-event-study
-  title_zh: 抵那烂陀寺研习三藏
-  date: '0675-06-01'
-  year_of: '0675'
-  place_zh: 那烂陀
-  description: 师事诸大德尤精研根本说一切有部律及大乘经论
+  description: 唐咸亨二年自广州乘舶经室利佛逝赴印度求法
+  location: 广州
+- id: guji-义净-event-nalanda
+  title_zh: 抵那烂陀寺留学
+  date: '0673'
+  year_of: '0673'
+  description: 抵天竺那烂陀寺从师研习梵本广求大小乘经律论
+  location: 那烂陀寺
 - id: guji-义净-event-return
-  title_zh: 携梵本取海道东归
-  date: '0685-03-01'
-  year_of: 0685
-  place_zh: 南海
-  description: 携梵经四百余部金刚座真容及舍利分段航海备历艰辛
-- id: guji-义净-event-offer
-  title_zh: 还抵洛阳献经武后
-  date: '0695-06-15'
+  title_zh: 携梵本归国
+  date: 0695
   year_of: 0695
-  place_zh: 洛阳
-  description: 武则天亲迎于上东门敕住佛授记寺译经
-- id: guji-义净-event-prepare
-  title_zh: 入大福先寺译场筹备
-  date: '0699-01-01'
-  year_of: 0699
-  place_zh: 洛阳大福先寺
-  description: 召集译证笔受等众校勘梵汉为系统译经作备
-- id: guji-义净-event-translate-zhuangyan
-  title_zh: 译出佛说一切法功德庄严王经一卷
-  date: '0700-03-15'
-  year_of: '0700'
-  place_zh: 长安
-  description: 于译场译此经明持经功德及胜妙陀罗尼能除罪障增福寿
+  description: 证圣元年自室利佛逝载四百余部梵本还至洛阳奉敕入译场
+  location: 洛阳
 - id: guji-义净-event-vinaya
-  title_zh: 广译根本说一切有部毗奈耶
-  date: '0703-05-01'
-  year_of: '0703'
-  place_zh: 长安
-  description: 陆续译出毗奈耶等律典数十部奠定中土律学基础
-- id: guji-义净-event-complete
-  title_zh: 译业告成四众钦仰
-  date: '0710-01-01'
-  year_of: '0710'
-  place_zh: 长安
-  description: 所译凡五十六部二百三十余卷声名大振后学奉为律宗中兴祖
+  title_zh: 译根本说一切有部律
+  date: '0700'
+  year_of: '0700'
+  description: 于长安西明寺等处译出根本说一切有部毗奈耶等大律为中土律学奠基并著南海寄归内法传
+  location: 长安西明寺
+- id: guji-义净-event-shanyejing
+  title_zh: 奉制译佛说善夜经
+  date: '0705'
+  year_of: '0705'
+  description: 奉制译佛说善夜经宣说过去不追未来不求现在如法观察之善夜法门并传陀罗尼拥护众生
+  location: 长安
 - id: guji-义净-event-death
-  title_zh: 圆寂于长安
-  date: '0713-02-16'
+  title_zh: 示寂于长安
+  date: '0713'
   year_of: '0713'
-  place_zh: 长安
-  description: 唐先天二年正月示寂世寿七十九腊五十九葬于长安
+  description: 唐开元元年示寂于长安世寿七十九岁
+  location: 长安
