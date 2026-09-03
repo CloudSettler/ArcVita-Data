@@ -6,125 +6,129 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950-01-01
-      precision: year
+      date: 0960
+      precision: century
       is_circa: true
-      raw: 生年不详约十世纪中叶生于北印度乌荼国
+      raw: 生年不详约十世纪中叶生于乌仗那国
     death:
-      date: 1017-01-01
+      date: '1017'
       precision: year
-      is_circa: true
-      raw: 约宋真宗大中祥符十年卒
-  birth_date: 0950-01-01
-  death_date: 1017-01-01
+      is_circa: false
+      raw: 宋真宗天禧元年卒于汴京
+  birth_date: 0960
+  death_date: '1017'
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗大中祥符年间
-  archetype: 西天译经传法大师
+  reign_ref: 宋太祖至宋真宗天禧
+  archetype: 西天译经三藏
   dilemmas:
-  - 梵汉悬隔而密咒音义难传当如何存真
-  - 异域入华而朝廷体例森严当如何自处
-  lesson: 以译经持咒饶益世间降伏诸怖即是报佛深恩
-  summary_first_person: 我是施护本是北印度乌荼国人奉佛法西来入宋蒙诏为译经三藏于译经院传译显密经论后译出千转大明陀罗尼经愿以此陀罗尼守护众生令诸怖畏悉得解脱
+  - 梵汉悬隔圣言不可错译当如何取信朝野
+  - 真言密法重在持验当如何令四众离苦得乐
+  lesson: 越山海译传圣言以利乐群生长寿安隐为归
+  summary_first_person: 吾施护本西天乌仗那人蒙宋诏入译经院传法与众共译显密经教复说六字大明增寿法愿四众受持读诵远离众苦
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E8%BD%AC%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%8D%83%E8%BD%AC%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E5%85%AD%E5%AD%97%E5%A2%9E%E5%AF%BF%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E5%9C%A3%E5%85%AD%E5%AD%97%E5%A2%9E%E5%AF%BF%E5%A4%A7%E6%98%8E%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入宋译经传法
-  summary: 自西天携梵本入宋应诏入译经院与法天等共译显密经论
+  title_zh: 奉诏入院译经
+  summary_zh: 自乌仗那来华入宋译经院与法贤等共译显密经论传法授官
   phases:
   - key: brewing
-    name: 西天习法携经东来
+    name: 西土习学
     labels:
-      zh: 酝酿发心
-    start_date: 0975-01-01
-    highlight_event_id: guji-施护-event-enter-song
+      zh: 西土学法
+    start_date: 0960
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 抵汴京入译经院应诏
+    name: 渡海来华
     labels:
-      zh: 初入译场
-    start_date: 0980-01-01
-    highlight_event_id: guji-施护-event-enter-song
+      zh: 来华发心
+    start_date: 0980
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 朝散大夫传法大师译经不辍
+    name: 入院奉诏
     labels:
-      zh: 鼎盛译述
-    start_date: 0990-01-01
-    highlight_event_id: guji-施护-event-qianzhuan-translation
+      zh: 奉诏译经
+    start_date: 0982
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 译业圆满遗法后世
+    name: 译业圆满
     labels:
-      zh: 圆满示寂
-    start_date: 1015-01-01
+      zh: 示寂汴京
+    start_date: '1017'
     highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0980-01-01
-    title_zh: 应宋诏入译经院专事传译
-    rationale: 感念中土求法殷切愿以梵本利济东土故舍安逸而就译场繁难
-  - date: 0990-01-01
-    title_zh: 兼译显密以密教利济为重
-    rationale: 见末世众生薄福多怖故以陀罗尼等速效法门护国佑民
+  - date: 0980
+    title_zh: 应请东来入宋
+    rationale: 为使正法东流发心越山海赴汴京弘传
+  - date: 0982
+    title_zh: 就译经院任传法大师
+    rationale: 蒙朝廷授官奉诏专心译传以正梵汉取信四众
 - id: guji-施护-endeavor-2
-  title_zh: 译传千转大明陀罗尼经
-  summary: 译帝释天主于忉利天宣说千转大明安土镇宅除怖之法以护末世众生
+  title_zh: 弘传六字增寿大明法
+  summary_zh: 译传圣六字增寿大明陀罗尼说消灾增寿除病却鬼之验令四众受持
   phases:
   - key: brewing
-    name: 披览梵本审定缘起
+    name: 祇园缘起
     labels:
-      zh: 审定梵本
-    start_date: 0995-01-01
-    highlight_event_id: guji-施护-event-qianzhuan-translation
+      zh: 因病说咒
+    start_date: 0999
+    highlight_event_id: guji-施护-event-arrival
   - key: breakthrough
-    name: 译出帝释宣说千转大明咒句
+    name: 宣说章句
     labels:
-      zh: 初译咒心
-    start_date: 1000-01-01
-    highlight_event_id: guji-施护-event-qianzhuan-translation
+      zh: 说六字章句
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-translate
   - key: climax
-    name: 详译解脱诸怖及取土作丸之法
+    name: 持验广布
     labels:
-      zh: 弘宣功用
-    start_date: 1001-01-01
-    highlight_event_id: guji-施护-event-qianzhuan-translation
+      zh: 消灾增寿
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 经梵汉校勘流通供奉
+    name: 信受奉行
     labels:
-      zh: 流通守护
-    start_date: 1002-01-01
-    highlight_event_id: guji-施护-event-qianzhuan-translation
+      zh: 流通供养
+    start_date: '1001'
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 1000-01-01
-    title_zh: 奉诏直译密咒存梵音不妄改
-    rationale: 密语以音声为用若意译则失加持故宁存梵音以全其神效
-  - date: 1001-01-01
-    title_zh: 具译王怖星变水火毒害等解脱功用
-    rationale: 欲令末世薄福众生遇鬼神恼乱时有所依怙故详载取土七把诵持作丸之仪
+  - date: '1000'
+    title_zh: 译出六字大明陀罗尼经
+    rationale: 承七十七俱胝佛及六大威德师同说为众生消灾增寿故译传
+  - date: '1001'
+    title_zh: 劝四众受持读诵书写供养
+    rationale: 令闻者长寿无病受持者众恶不侵故广劝流通
 events:
 - id: guji-施护-event-birth
   type: birth
-  date: 0950-01-01
-  year_of: 950
-  title_zh: 生于北印度乌荼国
-  description: 家世不详幼习佛法精通梵文显密经论
-  place: 北印度乌荼国
-- id: guji-施护-event-enter-song
+  title_zh: 施护诞生于乌仗那
+  date: 0960
+  year_of: 960
+  place_zh: 乌仗那国
+  description_zh: 施护生于西天乌仗那国少习梵典精通显密后发心东来
+  endeavor_ref: guji-施护-endeavor-1
+- id: guji-施护-event-arrival
   type: career
-  date: 0980-01-01
+  title_zh: 来华入宋译经院
+  date: 0980
   year_of: 980
-  title_zh: 随天息灾法天等入宋抵汴京
-  description: 太平兴国年间携梵本东来入译经院蒙授朝散大夫试鸿胪少卿传法大师
-  place: 汴京译经院
-- id: guji-施护-event-qianzhuan-translation
+  place_zh: 汴京译经院
+  description_zh: 施护于宋太宗时抵汴京入译经院授朝散大夫试鸿胪卿传法大师奉诏译经
+  endeavor_ref: guji-施护-endeavor-1
+- id: guji-施护-event-translate
   type: career
-  date: 1000-01-01
+  title_zh: 奉诏译圣六字增寿大明陀罗尼经
+  date: '1000'
   year_of: 1000
-  title_zh: 奉诏译出千转大明陀罗尼经
-  description: 译帝释天主于忉利天波利质多罗树下宣说千转大明及取土作丸系衣角禳灾之法
-  place: 汴京译经院
+  place_zh: 汴京译经院
+  description_zh: 施护奉诏译出此经说佛为阿难说六字章句能消王难水火贼冤斗战恶曜除众病离鬼魅得长寿
+  endeavor_ref: guji-施护-endeavor-2
 - id: guji-施护-event-death
   type: death
-  date: 1017-01-01
+  title_zh: 施护卒于汴京
+  date: '1017'
   year_of: 1017
-  title_zh: 示寂于宋真宗朝
-  description: 译经数十部后示寂译业为宋初佛法中兴之助
-  place: 汴京
+  place_zh: 汴京
+  description_zh: 施护译经数十载于宋真宗天禧元年示寂译业圆满众所敬仰
+  endeavor_ref: guji-施护-endeavor-1
