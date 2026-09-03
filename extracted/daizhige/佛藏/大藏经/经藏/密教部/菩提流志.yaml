@@ -6,150 +6,103 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: 442
+      date: '0650'
       precision: year
       is_circa: true
-      raw: 约生南天竺
+      raw: 南天竺婆罗门种生年不详约显庆年间
     death:
-      date: 471
+      date: '0727'
       precision: year
       is_circa: false
-      raw: 唐玄宗开元十五年寂于长安
-  birth_date: 442
-  death_date: 471
+      raw: 唐开元十五年卒于长安
+  birth_date: '0650'
+  death_date: '0727'
   era: 唐
   reign_ref: 武周至开元
-  archetype: 译经三藏
+  archetype: 译经三藏弘法者
   dilemmas:
-  - title_zh: 梵本浩繁华言未通何以信达
-    description: 设译场以证义润文度语会通梵华务令信达雅正
-  - title_zh: 显密兼弘时俗多疑何以立信
-    description: 借金刚手启请护命因缘广说神咒功德令生正信晨起受持
-  lesson: 以译经为护命之业令有情离怖得寿速证菩提
-  summary_first_person: 我是菩提流志南天竺人应诏来华居长安译场译大宝积等百余部于菩提树下护命因缘为金刚手等说微妙神咒愿诸有情晨起受持得光明护念长寿无畏
+  - 梵汉悬隔而欲传密教深义如何信达雅兼顾
+  - 王命译场功业与清修弘道利生如何不相违
+  lesson: 以信达译经持咒利末世薄福众生不求名而法长存
+  summary_first_person: 吾本南天竺人慕大唐佛法之盛远涉而来居长安崇福寺译经译出文殊宝藏陀罗尼等愿末世众生离诸灾厄发菩提心吾毕生惟此一事
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/护命法门神咒经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/护命法门神咒经.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E5%AE%9D%E8%97%8F%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E5%AE%9D%E8%97%8F%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
 endeavors:
 - id: guji-菩提流志-endeavor-1
-  title_zh: 来华主持译场广译大乘
-  summary_zh: 自武周入华历中宗睿宗至玄宗主持大宝积等百余部译事
+  person_id: guji-菩提流志
+  title_zh: 入唐参译
+  desc_zh: 自南天竺远来长安入译场与实叉难陀义净等共译大乘经律奠定译业
   phases:
   - key: brewing
-    name: 发心入华
+    name: 南天竺习学蕴酿
     labels:
-      zh:
-      - 求法
-      - 入华
-    start_date: 0691
-    highlight_event_id: guji-菩提流志-event-arrival
+      zh: 蕴酿
+    start_date: '0650'
+    highlight_event_id: guji-菩提流志-event-birth
   - key: breakthrough
-    name: 初入译场
+    name: 长寿二年至长安入译场
     labels:
-      zh:
-      - 译场
-      - 证义
+      zh: 突破
     start_date: 0693
-    highlight_event_id: guji-菩提流志-event-arrival
-  - key: climax
-    name: 大宝积成
-    labels:
-      zh:
-      - 大宝积
-      - 会通
-    start_date: 459
-    highlight_event_id: guji-菩提流志-event-dabaoji
-  - key: closure
-    name: 译业圆满
-    labels:
-      zh:
-      - 圆寂
-      - 传承
-    start_date: 471
-    highlight_event_id: guji-菩提流志-event-death
+    highlight_event_id: guji-菩提流志-event-arrive
   decisions:
   - date: 0693
-    title_zh: 应诏入长安崇福寺译场
-    rationale: 顺护国弘法之请以译经利世安众
-  - date: 459
-    title_zh: 会合旧新译成大宝积经百二十卷
-    rationale: 摄诸会为一部俾菩萨大行次第分明流通后世
+    title_zh: 应诏远涉入唐
+    rationale: 慕东土护法弘法因缘愿以梵汉对译利乐众生故不惮远行
+  - date: '0700'
+    title_zh: 居崇福寺专事译经
+    rationale: 依译场仪轨集众证义笔受润文以保信达故安住译席
 - id: guji-菩提流志-endeavor-2
-  title_zh: 传持密咒演说护命法门
-  summary_zh: 应金刚手启请说护命善门陀罗尼及诸天护持神咒令晨起受持得二十功德
+  person_id: guji-菩提流志
+  title_zh: 译弘文殊宝藏陀罗尼
+  desc_zh: 译出文殊师利宝藏陀罗尼经传十八大陀罗尼及八字大威德心咒兼传画像坛法护国佑民
   phases:
-  - key: brewing
-    name: 金刚手启请
-    labels:
-      zh:
-      - 启请
-      - 护命
-    start_date: 453
-    highlight_event_id: guji-菩提流志-event-huming
-  - key: breakthrough
-    name: 佛说善门神咒
-    labels:
-      zh:
-      - 灌顶
-      - 长寿
-    start_date: 453
-    highlight_event_id: guji-菩提流志-event-huming
   - key: climax
-    name: 诸天各说拥护咒
+    name: 译出宝藏陀罗尼弘宣流布
     labels:
-      zh:
-      - 拥护
-      - 结界
-    start_date: 454
-    highlight_event_id: guji-菩提流志-event-huming
+      zh: 高潮
+    start_date: '0706'
+    highlight_event_id: guji-菩提流志-event-translate
   - key: closure
-    name: 付嘱流通
+    name: 付嘱金刚密迹广令受持
     labels:
-      zh:
-      - 受持
-      - 流通
-    start_date: 454
-    highlight_event_id: guji-菩提流志-event-dabaoji
+      zh: 收束
+    start_date: '0727'
+    highlight_event_id: guji-菩提流志-event-death
   decisions:
-  - date: 453
-    title_zh: 译出护命法门神咒经
-    rationale: 愍诸有情横夭怖畏以咒力作大光明覆护令得无畏长寿
-  - date: 454
-    title_zh: 劝晨朝读诵结界守护
-    rationale: 令善男子善女人行住坐卧皆得诸佛诸天药叉守护离刀毒恶障
+  - date: '0706'
+    title_zh: 译演文殊八字法门
+    rationale: 悯末世薄福多灾 advers 以陀罗尼画像护持能除罪生福成就事业故优先传出
+  - date: '0710'
+    title_zh: 詳示画像供养仪轨
+    rationale: 使在家迫迮不能广办供养者亦可依像咒水护宅持诵得益故立简便行法
 events:
 - id: guji-菩提流志-event-birth
-  type: birth
-  title_zh: 诞生南天竺
-  date: 442
-  year_of: 672
+  person_id: guji-菩提流志
+  title_zh: 诞生于南天竺
+  date: '0650'
+  year_of: 650
   place_zh: 南天竺
-  description: 约生南天竺出家通三藏兼习陀罗尼密法
-- id: guji-菩提流志-event-arrival
-  type: career
-  title_zh: 抵长安入译
+  description_zh: 婆罗门种出家习三藏通梵本显密教典
+- id: guji-菩提流志-event-arrive
+  person_id: guji-菩提流志
+  title_zh: 长寿二年至长安入译场
   date: 0693
   year_of: 693
+  place_zh: 长安
+  description_zh: 远涉而来武后礼遇居崇福寺与众共译大宝积等经
+- id: guji-菩提流志-event-translate
+  person_id: guji-菩提流志
+  title_zh: 译文殊师利宝藏陀罗尼经
+  date: '0706'
+  year_of: 706
   place_zh: 长安崇福寺
-  description: 武周长寿二年应请至长安与于阗实叉难陀等同译华严等经声名渐著
-- id: guji-菩提流志-event-huming
-  type: career
-  title_zh: 译护命法门神咒经
-  date: 453
-  year_of: 705
-  place_zh: 长安
-  description: 演菩提树下金刚手启请因缘译出善门长寿诸咒及梵天帝释四王等拥护神咒说晨诵二十功德
-- id: guji-菩提流志-event-dabaoji
-  type: career
-  title_zh: 大宝积经译毕
-  date: 459
-  year_of: 713
-  place_zh: 长安
-  description: 会合旧译新译成大宝积经百二十卷为一生译业之冠并译不空羂索等密部百余部
+  description_zh: 译出净居天宫所说十八大陀罗尼及文殊八字大威德心咒并画像坛印护国息灾之法
 - id: guji-菩提流志-event-death
-  type: death
-  title_zh: 圆寂长安
-  date: 471
+  person_id: guji-菩提流志
+  title_zh: 开元十五年卒于长安
+  date: '0727'
   year_of: 727
   place_zh: 长安
-  description: 开元十五年寂于长安弟子传其护命持诵之法流行后世
+  description_zh: 译经三十余载示寂译业付后世流布不绝
