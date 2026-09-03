@@ -1,0 +1,144 @@
+person:
+  qid: guji-鸠摩罗什
+  name_zh: 鸠摩罗什
+  names:
+    zh: 鸠摩罗什
+    en: Kumarajiva
+  lifespan:
+    birth:
+      date: '0344'
+      precision: year
+      is_circa: true
+      raw: 晋穆帝永和十年生于龟兹
+    death:
+      date: '0413'
+      precision: year
+      is_circa: false
+      raw: 姚秦弘始十五年卒于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国姚秦
+  reign_ref: 姚兴弘始
+  archetype: 译经宗师
+  dilemmas:
+  - 梵文深义忠实与华言通畅之间如何权衡取舍
+  - 身处乱世王权征召与守戒修行之间如何自处弘法
+  lesson: 以信达雅重译大乘经典使法华般若普行震旦
+  summary_first_person: 吾龟兹人也少随母出家游学天竺罽宾深通三藏后入长安逍遥园奉诏译经重翻妙法莲华弘扬一乘但愿所译无谬舌根不坏以利众生
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/法华部/妙法莲华经.html
+  - https://tripitaka.cbeta.org/T09n0272
+endeavors:
+- id: guji-鸠摩罗什-endeavor-1
+  title_zh: 西域游学通达三藏
+  summary_zh: 随母出家游罽宾沙勒遍学大小乘兼通外论奠定译经义学之基
+  phases:
+  - key: brewing
+    name: 龟兹出家
+    labels:
+      zh: 蒙养
+    start_date: '0351'
+    highlight_event_id: guji-鸠摩罗什-event-birth
+  - key: breakthrough
+    name: 罽宾学律
+    labels:
+      zh: 精进
+    start_date: 0359
+    highlight_event_id: guji-鸠摩罗什-event-study-kashmir
+  - key: climax
+    name: 沙勒悟大乘
+    labels:
+      zh: 转向
+    start_date: 0378
+    highlight_event_id: guji-鸠摩罗什-event-study-kashmir
+  - key: closure
+    name: 名振西域
+    labels:
+      zh: 扬名
+    start_date: 0382
+    highlight_event_id: guji-鸠摩罗什-event-detained-liangzhou
+  decisions:
+  - date: 0359
+    title_zh: 远赴罽宾从槃头达多学
+    rationale: 欲通毗婆沙律藏故不惮远行求师决疑
+  - date: 0378
+    title_zh: 从莎车王子须利耶苏摩改宗大乘
+    rationale: 感中论般若空义方等深广故回小向大兼弘并重
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 长安奉诏重译法华
+  summary_zh: 弘始三年入长安逍遥园领译场重翻妙法莲华等三百余卷确立法华一乘宗本
+  phases:
+  - key: brewing
+    name: 滞留凉州
+    labels:
+      zh: 待时
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-detained-liangzhou
+  - key: breakthrough
+    name: 入关迎请
+    labels:
+      zh: 入秦
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-arrive-changan
+  - key: climax
+    name: 逍遥译场
+    labels:
+      zh: 重译
+    start_date: '0406'
+    highlight_event_id: guji-鸠摩罗什-event-translate-lotus
+  - key: closure
+    name: 舌根不坏
+    labels:
+      zh: 证信
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
+  decisions:
+  - date: '0401'
+    title_zh: 应姚兴迎请入长安主持译场
+    rationale: 藉国力聚义学沙门八百广译以救讹谬弘传一乘
+  - date: '0406'
+    title_zh: 重翻正法华定名妙法莲华
+    rationale: 秦本独得其旨文理重沓互陈者当刊正会通以畅佛慧
+events:
+- id: guji-鸠摩罗什-event-birth
+  title_zh: 生于龟兹
+  date: '0344'
+  year_of: 344
+  place_zh: 西域龟兹国
+  kind: birth
+  summary_zh: 父鸠摩罗炎天竺人母耆婆龟兹王妹七岁随母出家
+- id: guji-鸠摩罗什-event-study-kashmir
+  title_zh: 游罽宾沙勒通三藏
+  date: 0359
+  year_of: 359
+  place_zh: 罽宾沙勒
+  kind: career
+  summary_zh: 师槃头达多习四阿含毗婆沙后从大乘师悟空宗兼通五明
+- id: guji-鸠摩罗什-event-detained-liangzhou
+  title_zh: 吕光劫留凉州
+  date: 0384
+  year_of: 384
+  place_zh: 凉州姑臧
+  kind: career
+  summary_zh: 苻坚遣吕纂迎请道阻留凉十七年通华言观时变
+- id: guji-鸠摩罗什-event-arrive-changan
+  title_zh: 入长安居逍遥园
+  date: '0401-12-20'
+  year_of: 401
+  place_zh: 长安逍遥园
+  kind: career
+  summary_zh: 姚兴弘始三年迎入长安待以国师礼集义学八百人设译场
+- id: guji-鸠摩罗什-event-translate-lotus
+  title_zh: 重译妙法莲华经
+  date: '0406-04-15'
+  year_of: 406
+  place_zh: 长安大寺
+  kind: career
+  summary_zh: 奉诏重翻法华七卷二十八品删繁刊谬弘传一乘妙旨后世宗尚秦本
+- id: guji-鸠摩罗什-event-death
+  title_zh: 卒于长安
+  date: '0413-04-13'
+  year_of: 413
+  place_zh: 长安
+  kind: death
+  summary_zh: 弘始十五年示寂誓言所译无谬舌根不坏荼毗后果舌不化
