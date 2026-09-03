@@ -1,0 +1,106 @@
+person:
+  qid: guji-不动
+  name_zh: 不动
+  names:
+    zh: 不动
+    en: Master Budong
+  lifespan:
+    birth:
+      date: '1005'
+      precision: year
+      is_circa: true
+      raw: 北宋真宗仁宗间约生
+    death:
+      date: '1075'
+      precision: year
+      is_circa: true
+      raw: 北宋后期约卒
+  birth_date: '1005'
+  death_date: '1075'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 密教弘法高僧
+  dilemmas:
+  - 西夏初弘密法与显教并行如何摄机
+  - 久住西夏与入蜀蒙山弘化何处利生
+  lesson: 以忏悔洗心以施食普济显密兼弘二利并行
+  summary_first_person: 我本西来依阿閦部行持先至西夏护国仁王寺弘法利生后以后唐不空所译三十五佛忏悔文为本前增五十三佛后缀普贤十大愿共成百八礼又迁蜀蒙山集施食仪以甘露济孤愿道俗同断烦恼同生净域
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/嘉兴藏/大忏悔文略解.md
+  - https://daizhige.org/佛藏/嘉兴藏/大忏悔文略解.html
+endeavors:
+- id: guji-不动-endeavor-1
+  title_zh: 增益忏法成百八礼
+  summary: 以不空三十五佛名经礼忏为本前增五十三佛后缀普贤行愿成大忏悔文
+  phases:
+  - key: brewing
+    name: 西夏弘法运心
+    labels:
+      zh:
+      - 弘法
+    start_date: '1032'
+    highlight_event_id: guji-不动-event-collect
+  - key: climax
+    name: 集忏悔文流通
+    labels:
+      zh:
+      - 集法
+    start_date: '1040'
+    highlight_event_id: guji-不动-event-collect
+  decisions:
+  - date: '1040'
+    title_zh: 前增五十三佛洪名
+    rationale: 缘起各别慈念众生令初心生信断百八烦恼
+  - date: '1040'
+    title_zh: 后缀普贤十大愿偈
+    rationale: 始赞礼终于发愿回向事理一贯劝同得菩提
+- id: guji-不动-endeavor-2
+  title_zh: 蒙山集施食称甘露
+  summary: 迁四川蒙山集施食仪轨为出生轨范以甘露度孤魂
+  phases:
+  - key: breakthrough
+    name: 入蜀蒙山结集
+    labels:
+      zh:
+      - 利生
+    start_date: '1050'
+    highlight_event_id: guji-不动-event-mengshan
+  - key: closure
+    name: 甘露施食流通
+    labels:
+      zh:
+      - 普济
+    start_date: '1055'
+    highlight_event_id: guji-不动-event-mengshan
+  decisions:
+  - date: '1050'
+    title_zh: 迁蒙山集施食仪
+    rationale: 慈悲普利群情令道俗男女皆得修学
+  - date: '1055'
+    title_zh: 以甘露度孤立轨范
+    rationale: 法中二利行用之要令丛林静室奉为课诵
+events:
+- id: guji-不动-event-birth
+  date: '1005'
+  year_of: 1005
+  type: birth
+  title_zh: 不动约生于西域来华前
+  description: 梵名阿閦撇初依阿閦部法行持后西来弘化
+- id: guji-不动-event-collect
+  date: '1040'
+  year_of: 1040
+  type: career
+  title_zh: 西夏护国仁王寺集大忏悔文
+  description: 住西夏护国仁王寺以护国仁王经祝国祐民集百八礼忏悔法
+- id: guji-不动-event-mengshan
+  date: '1055'
+  year_of: 1055
+  type: career
+  title_zh: 迁四川蒙山集施食仪
+  description: 后迁蒙山集施食仪文为出生轨范复称甘露法师世称蒙山施食
+- id: guji-不动-event-death
+  date: '1075'
+  year_of: 1075
+  type: death
+  title_zh: 不动约卒于宋
+  description: 生平神应备载别记忏法施食并行于世
