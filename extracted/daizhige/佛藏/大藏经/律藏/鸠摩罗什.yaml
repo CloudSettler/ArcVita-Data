@@ -8,133 +8,130 @@ person:
     birth:
       date: '0344'
       precision: year
-      is_circa: false
-      raw: 公元344年龟兹
+      is_circa: true
+      raw: 约公元三四四年生长于龟兹
     death:
       date: '0413'
       precision: year
       is_circa: false
-      raw: 公元413年长安
+      raw: 弘始十五年卒于长安
   birth_date: '0344'
   death_date: '0413'
   era: 后秦
-  reign_ref: 后秦姚兴弘始年间
-  archetype: 译经宗师
+  reign_ref: 姚秦弘始
+  archetype: 译经圣师
   dilemmas:
-  - 梵本浩繁华言难尽，如何与三千学士参定大小乘而不失本旨
-  - 心地玄微学者根浅，如何授菩萨戒使持诵流通不绝于后世
-  lesson: 以深信为宅以持诵为首，译弘并举授戒流通则正法可久
-  summary_first_person: 吾为龟兹三藏，少践大方诵持梵网心地以为心首，弘始三年入长安草堂与三千学士参定大小乘五十余部，梵网最后诵出授众菩萨十戒，书记八十一部流通后代，愿来劫不绝共见龙华
+  - 先习小乘已精熟复遇大乘空义当如何取舍
+  - 羁留凉州十余载身不由己如何不舍译经本愿
+  lesson: 以空性通达毗尼以大悲摄受众生不滞声闻小果方得清净
+  summary_first_person: 我本龟兹子随母出家先学小乘后悟大乘入长安主译场译出清净毗尼方广经愿以菩萨毗尼如大海普纳群生
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A2%B5%E7%BD%91%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E5%BE%8B%E8%97%8F/%E6%A2%B5%E7%BD%91%E7%BB%8F.md
+  - https://daizhige.org/佛藏/大藏经/律藏/清净毗尼方广经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/律藏/清净毗尼方广经.md
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 长安草堂参定译经
-  summary_zh: 弘始三年入长安草堂寺与三千学士手执梵文口翻解释参定大小乘五十余部奠定汉传译经规模
+  title_zh: 西域问道转弘大乘
+  summary_zh: 幼年随母出家遍学小乘后受大乘空宗转而弘化西域
   phases:
   - key: brewing
-    name: 弘始东来
+    name: 幼年出家习学小乘
     labels:
-      zh:
-      - 蓄势入关
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-arrival
+      zh: 酝酿
+    start_date: '0351'
+    highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 草堂开译
+    name: 受读中百论悟入空性
     labels:
-      zh:
-      - 参定众经
-    start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-caotang
+      zh: 突破
+    start_date: 0359
+    highlight_event_id: guji-鸠摩罗什-event-west
   - key: climax
-    name: 众部参定
+    name: 西域名振弘化大乘
     labels:
-      zh:
-      - 规模大成
-    start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-caotang
+      zh: 高潮
+    start_date: 0380
+    highlight_event_id: guji-鸠摩罗什-event-west
   - key: closure
-    name: 译业垂范
+    name: 应请东行留滞凉州
     labels:
-      zh:
-      - 范式确立
-    start_date: '0405'
-    highlight_event_id: guji-鸠摩罗什-event-fanwang
+      zh: 收束
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-changan
   decisions:
-  - date: '0401'
-    title_zh: 会三千学士于草堂参定
-    rationale: 秦主道契百王玄心大法，集义学沙门正梵汉之讹，使大小二乘得传信之本
-  - date: '0402'
-    title_zh: 手执梵文口翻解释
-    rationale: 不依旧译直承梵本，以信达为要使万行起于深信之宅
+  - date: 0359
+    title_zh: 舍小乘执专宗大乘
+    rationale: 因读中论百论悟诸法实相知声闻毗尼如牛迹故趣大乘
+  - date: 0384
+    title_zh: 安住凉州随缘说法
+    rationale: 虽为兵戈所阻不得东行仍坚持讲学不舍度生本愿
 - id: guji-鸠摩罗什-endeavor-2
-  title_zh: 诵出梵网授戒流通
-  summary_zh: 最后诵出梵网经中菩萨心地戒品第十，率道融道影三百人受菩萨十戒，书八十一部流通持诵
+  title_zh: 长安译场弘扬菩萨毗尼
+  summary_zh: 入长安主译场译出众经并译清净毗尼方广经阐明菩萨毗尼
   phases:
   - key: brewing
-    name: 诵持心首
+    name: 迎入长安立国师礼
     labels:
-      zh:
-      - 持品存诚
+      zh: 酝酿
     start_date: '0401'
-    highlight_event_id: guji-鸠摩罗什-event-caotang
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 最后诵出
+    name: 开译场定新译体例
     labels:
-      zh:
-      - 心地开演
-    start_date: '0405'
-    highlight_event_id: guji-鸠摩罗什-event-fanwang
+      zh: 突破
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: climax
-    name: 授戒三百
+    name: 译清净毗尼方广经
     labels:
-      zh:
-      - 戒众同持
-    start_date: '0405'
-    highlight_event_id: guji-鸠摩罗什-event-fanwang
-  - key: closure
-    name: 书部流通
-    labels:
-      zh:
-      - 久传后学
+      zh: 高潮
     start_date: '0406'
-    highlight_event_id: guji-鸠摩罗什-event-fanwang
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  - key: closure
+    name: 示寂长安付嘱译业
+    labels:
+      zh: 收束
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: '0405'
-    title_zh: 最后诵出梵网心地一品
-    rationale: 此经本百十二卷六十一品，先明众部后显心地，使行者阶道有指南之说
-  - date: '0405'
-    title_zh: 授三百人菩萨十戒令各诵持
-    rationale: 岂唯当时之益乃有累劫之津，人各诵此品以为心首则菩提可期
+  - date: '0402'
+    title_zh: 以义译为主兼存文藻
+    rationale: 为令秦人易解大乘深义故舍直译繁复而取晓畅流丽
+  - date: '0406'
+    title_zh: 译弘菩萨毗尼破声闻局执
+    rationale: 因大众渴仰文殊胜义故译此经明菩萨毗尼如大海普纳一切
 events:
 - id: guji-鸠摩罗什-event-birth
   type: birth
+  title_zh: 生于龟兹王族之家
   date: '0344'
   year_of: 344
-  title_zh: 龟兹降生
-  description_zh: 公元344年生于龟兹，后为三藏法师诵持大乘
-- id: guji-鸠摩罗什-event-arrival
+  place_zh: 龟兹
+  description: 父鸠摩罗炎母耆婆幼年随母出家聪慧日诵千偈
+- id: guji-鸠摩罗什-event-west
   type: career
-  date: '0401-12-20'
-  year_of: 401
-  title_zh: 奉诏入长安
-  description_zh: 弘始三年秦主姚兴迎入长安草堂寺，集三千学士参定经论
-- id: guji-鸠摩罗什-event-caotang
+  title_zh: 西域弘化名振葱岭
+  date: 0380
+  year_of: 380
+  place_zh: 龟兹
+  description: 精通三藏转弘大乘空宗四方学徒云集声名远播秦地
+- id: guji-鸠摩罗什-event-changan
   type: career
+  title_zh: 入长安主持译场
   date: '0401'
   year_of: 401
-  title_zh: 草堂参定五十余部
-  description_zh: 与众手执梵文口翻解释大小二乘五十余部，淳风东扇
-- id: guji-鸠摩罗什-event-fanwang
+  place_zh: 长安
+  description: 姚兴迎入长安逍遥园集八百义学重译众经开新译之风
+- id: guji-鸠摩罗什-event-translate
   type: career
-  date: '0405'
-  year_of: 405
-  title_zh: 最后诵出梵网授戒
-  description_zh: 梵网经最后诵出，道融道影三百人一时受菩萨十戒，各诵心地品以为心首，书八十一部流通
+  title_zh: 译出清净毗尼方广经
+  date: '0406'
+  year_of: 406
+  place_zh: 长安大寺
+  description: 以文殊师利答寂调伏音天子为中心阐明菩萨毗尼广大如海胜声闻牛迹
 - id: guji-鸠摩罗什-event-death
   type: death
+  title_zh: 示寂于长安
   date: '0413'
   year_of: 413
-  title_zh: 长安示寂
-  description_zh: 公元413年示寂于长安，译业既成遗范后学
+  place_zh: 长安
+  description: 弘始十五年示寂荼毗舌根不坏以证所译不虚
