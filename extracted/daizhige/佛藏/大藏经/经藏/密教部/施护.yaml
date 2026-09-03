@@ -9,138 +9,120 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于乌苌国
+      raw: 约十世纪中叶生於北印度乌填曩国
     death:
       date: '1017'
       precision: year
-      is_circa: true
-      raw: 约宋真宗天禧元年示寂于东京译经院
+      is_circa: false
+      raw: 宋真宗天禧元年卒於汴京
   birth_date: 0950
   death_date: '1017'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗天禧
-  archetype: 西天译经弘法者
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉文义如何两全，既存真言音韵又令中土易持易诵
-  - 异域弘法如何取信，既奉诏入院雠校又不失师承本怀
-  lesson: 远涉异域谨译一字一句，以总持拥护有情远离怖畏中夭
-  summary_first_person: 我是乌苌国沙门施护，奉诏入宋厕身译经院，与众共校梵汉，译出如意摩尼陀罗尼等百余部，但愿一切闻持者远离雷电怖畏而得安乐
+  - 安居故国受供与远涉异域弘法之抉择
+  - 密咒梵音难译与显义须达之两难
+  - 顺应诏命译经与持守师承仪轨之权衡
+  lesson: 跨越山海译经传灯以守护国土安乐众生
+  summary_first_person: 吾本西天北印度乌填曩国沙门蒙帝释宫寺传法奉诏入宋住太平兴国寺译经院终身译经以密教守护法门利益大千国土众生
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A6%82%E6%84%8F%E6%91%A9%E5%B0%BC%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E5%AF%86%E6%95%99%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A6%82%E6%84%8F%E6%91%A9%E5%B0%BC%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/佛说守护大千国土经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/佛说守护大千国土经.html
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏入宋厕身译经院
-  description: 自乌苌国西来东京，与天息灾法贤等同住译场，雠校梵汉，广译显密经律百余部
+  title_zh: 西天入宋住译经院译经
+  summary: 自乌填曩国随兄法天等入宋住汴京太平兴国寺译经院奉诏译经三十余年
   phases:
   - key: brewing
-    name: 西来发轫
+    name: 乌填曩出家学法
     labels:
-      zh:
-      - 乌苌出身
-      - 蕃汉会同
-    start_date: 0978
-    highlight_event_id: guji-施护-event-1
+      zh: 蕴酿
+    start_date: 0965
+    highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 赐号入院
+    name: 随众入宋抵汴
     labels:
-      zh:
-      - 朝散大夫
-      - 传法大师
-    start_date: 0982
-    highlight_event_id: guji-施护-event-1
+      zh: 突破
+    start_date: 0980
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 群译弘宣
+    name: 奉诏译守护大千国土经
     labels:
-      zh:
-      - 梵汉雠校
-      - 百部流通
-    start_date: 0990
-    highlight_event_id: guji-施护-event-2
-  - key: closure
-    name: 遗范译场
-    labels:
-      zh:
-      - 师范后学
-      - 示寂东京
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
-  decisions:
-  - date: 0982
-    title_zh: 受诏赐紫衣及传法大师号
-    rationale: 应朝廷崇法之诏入院专译，以正名分而信后世
-  - date: 0990
-    title_zh: 与众共议存梵音兼畅汉义
-    rationale: 恐真言音失则加持不灵，故宁繁不简以存其真
-- id: guji-施护-endeavor-2
-  title_zh: 译弘如意摩尼陀罗尼拥护法
-  description: 译出佛说如意摩尼陀罗尼经，具载四方雷电名号及诸圣拥护真言，令人书写受持以除怖畏中夭
-  phases:
-  - key: brewing
-    name: 请法舍卫
-    labels:
-      zh:
-      - 舍卫说法
-      - 阿难请持
-    start_date: 0995
-    highlight_event_id: guji-施护-event-2
-  - key: breakthrough
-    name: 四方雷电立名
-    labels:
-      zh:
-      - 雷电名号
-      - 方位拥护
-    start_date: 0998
-    highlight_event_id: guji-施护-event-2
-  - key: climax
-    name: 诸圣同说总持
-    labels:
-      zh:
-      - 观音金刚手
-      - 梵释龙王护世
+      zh: 高潮
     start_date: '1000'
-    highlight_event_id: guji-施护-event-2
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 结集流通
+    name: 赐紫授传法大师终老译场
     labels:
-      zh:
-      - 书写受持
-      - 信受奉行
+      zh: 收束
     start_date: '1005'
-    highlight_event_id: guji-施护-event-2
+    highlight_event_id: guji-施护-event-honor
+  decisions:
+  - date: 0980
+    title_zh: 决意远涉入宋传法
+    rationale: 为使正法东流利益东方众生不恋故土安乐随译经僧团东来
+  - date: 0982
+    title_zh: 安住译经院专事翻译
+    rationale: 宋廷设译经院制度完备可集众力校梵汉音义故终身不归
+- id: guji-施护-endeavor-2
+  title_zh: 弘传守护密法护国安民
+  summary: 以守护大千国土经等密教仪轨调伏药叉罗刹息灾护国教授后学
+  phases:
+  - key: brewing
+    name: 精研显密仪轨明咒
+    labels:
+      zh: 蕴酿
+    start_date: 0975
+    highlight_event_id: guji-施护-event-arrival
+  - key: breakthrough
+    name: 开演四天王降伏法门
+    labels:
+      zh: 突破
+    start_date: 0990
+    highlight_event_id: guji-施护-event-translate
+  - key: climax
+    name: 结界护国息灾行化
+    labels:
+      zh: 高潮
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-translate
+  - key: closure
+    name: 付法后学经典流通
+    labels:
+      zh: 收束
+    start_date: '1010'
+    highlight_event_id: guji-施护-event-honor
   decisions:
   - date: '1000'
-    title_zh: 具译诸圣拥护真言不省略
-    rationale: 使后人随一持诵皆得拥护，故诸家真言并存
-  - date: '1005'
-    title_zh: 劝书写供养雷电名号
-    rationale: 令不识梵音者亦可书写供养而免雷电之伤
+    title_zh: 译说守护大千陀罗尼
+    rationale: 见毗耶离灾疫鬼神恼害故以四天王神咒守护国土安乐四众
+  - date: '1010'
+    title_zh: 以显解密普利群机
+    rationale: 恐后学执咒昧义故兼陈因果业报劝持戒忏悔使密法不流於邪
 events:
 - id: guji-施护-event-birth
-  title_zh: 诞生于乌苌国
-  type: birth
   date: 0950
   year_of: 950
-  place_zh: 乌苌国
-  description: 约十世纪中叶生于乌苌国，自幼习梵典兼通总持，后发心东来弘法
-- id: guji-施护-event-1
-  title_zh: 太平兴国年间入宋译经
-  type: career
-  date: 0982
-  year_of: 982
-  place_zh: 东京译经院
-  description: 与天息灾法天等同住译经院，赐朝散大夫试鸿胪少卿传法大师，奉诏雠译梵经
-- id: guji-施护-event-2
-  title_zh: 译出佛说如意摩尼陀罗尼经
-  type: career
+  title_zh: 生於北印度乌填曩国
+  description: 约十世纪中叶生於乌填曩国帝释宫寺一带出家学通三藏
+- id: guji-施护-event-arrival
+  date: 0980
+  year_of: 980
+  title_zh: 太平兴国年间入宋抵汴
+  description: 随法天施护天息灾等入宋太宗朝住太平兴国寺译经院从事故译
+- id: guji-施护-event-translate
   date: '1000'
   year_of: 1000
-  place_zh: 东京译经院
-  description: 奉诏译出此经，载佛说四方雷电名号及观音金刚手梵释四王龙王所说拥护真言，劝书写受持以除雷电怖畏中夭罪业
+  title_zh: 奉诏译佛说守护大千国土经
+  description: 奉诏译出守护大千国土经上下卷宣说四天王神咒降伏药叉罗刹守护国土
+- id: guji-施护-event-honor
+  date: '1005'
+  year_of: 1005
+  title_zh: 赐紫授传法大师三藏沙门
+  description: 以译经功赐紫衣授西天传法大师三藏沙门号景德祥符间仍主译事
 - id: guji-施护-event-death
-  title_zh: 示寂于东京
-  type: death
   date: '1017'
   year_of: 1017
-  place_zh: 东京译经院
-  description: 约宋真宗天禧元年示寂，一生所译显密经律百余部流行于世
+  title_zh: 天禧元年卒於汴京
+  description: 宋真宗天禧元年圆寂於译经院一生译经百余卷密教部居多
