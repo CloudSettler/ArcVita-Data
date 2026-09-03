@@ -8,7 +8,7 @@ person:
     birth:
       date: '0705'
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 唐神龙元年
     death:
       date: '0774'
@@ -18,105 +18,113 @@ person:
   birth_date: '0705'
   death_date: '0774'
   era: 唐
-  reign_ref: 唐玄宗
-  archetype: 密教译经护国师
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 高僧
   dilemmas:
-  - 密法应秘密受持与普济有情离苦得乐之间如何权衡
-  - 世间护身满愿与出世禅定智慧之间如何次第接引
-  lesson: 以悲愍利生为本结印诵持不绝则世间灾障不侵出世菩提速证
-  summary_first_person: 吾不空奉诏于大兴善寺译摩利支菩萨略念诵法先授毗卢遮那佛印次授根本印加持五处次授心印观自身在菩萨心中诵真言得隐身免难世出世悉地皆成当秘密受持勿妄传授
+  - 密法甚深当拣择法器与普利一切有情之间如何权衡
+  - 持明护国匡护国界与不以小过作损害法之间如何持戒
+  lesson: 拣择净信法器建坛受戒弘传密教护持佛法安乐有情
+  summary_first_person: 我是不空奉诏译文殊师利菩萨根本大教王经金翅鸟王品建曼荼罗传金翅鸟王真言印拣择法器授三归菩提心戒令持诵者护国护民除毒降雨成就众事
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/摩利支菩萨略念诵法.md
-  - https://daizhige.org/佛藏/大藏经/经藏/密教部/摩利支菩萨略念诵法.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/密教部/文殊师利菩萨根本大教王经金翅鸟王品.md
+  - https://daizhige.org/佛藏/大藏经/经藏/密教部/文殊师利菩萨根本大教王经金翅鸟王品.html
 endeavors:
 - id: guji-不空-endeavor-1
-  title_zh: 奉诏译述摩利支略念诵法
-  description: 于大兴善寺奉诏译出摩利支菩萨略念诵法确立三印次第与根本心真言
+  title_zh: 奉诏译文殊根本大教王经金翅鸟王品
+  description_zh: 观净居天宫因缘译出金翅鸟王真言过去百种法及护摩事业轨则
   phases:
   - key: brewing
-    name: 随师学密奠基
+    name: 入唐承师学密
     labels:
-      zh: 学法奠基
+      zh:
+      - 求法学密
     start_date: '0720'
     highlight_event_id: guji-不空-event-birth
   - key: breakthrough
-    name: 奉诏开译密典
+    name: 奉诏开译大教王经
     labels:
-      zh: 奉诏开译
-    start_date: '0746'
-    highlight_event_id: guji-不空-event-1
-  - key: climax
-    name: 确立念诵轨则
-    labels:
-      zh: 轨则确立
-    start_date: '0757'
-    highlight_event_id: guji-不空-event-1
-  - key: closure
-    name: 流通嘱令秘传
-    labels:
-      zh: 秘传流通
-    start_date: '0770'
-    highlight_event_id: guji-不空-event-2
-  decisions:
-  - date: '0746'
-    title_zh: 决意系统译传密教念诵仪轨
-    rationale: 为令唐地行者得依梵本正轨修持故不惮繁难次第翻译
-  - date: '0757'
-    title_zh: 决以三印次第摄持全文
-    rationale: 先以毗卢遮那佛印净身次以根本印加持五处次以心印入观方得加持殊胜故立此简要次第
-- id: guji-不空-endeavor-2
-  title_zh: 传授心印护国利生
-  description: 以摩利支心印观行教授行者隐身免难除口舌息灾祸兼引世间悉地入出世菩提
-  phases:
-  - key: brewing
-    name: 观察时机的权衡
-    labels:
-      zh: 悲愿观察
-    start_date: '0750'
-    highlight_event_id: guji-不空-event-1
-  - key: breakthrough
-    name: 授以入拳观行
-    labels:
-      zh: 授观传印
-    start_date: 0758
-    highlight_event_id: guji-不空-event-2
-  - key: climax
-    name: 护身满愿广泛验效
-    labels:
-      zh: 护国验效
-    start_date: '0762'
-    highlight_event_id: guji-不空-event-2
-  - key: closure
-    name: 会归出世菩提
-    labels:
-      zh: 会归菩提
+      zh:
+      - 奉诏译经
     start_date: '0772'
+    highlight_event_id: guji-不空-event-translate
+  - key: climax
+    name: 宣说金翅鸟王真言百种法
+    labels:
+      zh:
+      - 宣说明印
+    start_date: '0772'
+    highlight_event_id: guji-不空-event-translate
+  - key: closure
+    name: 流通护持佛法遗教
+    labels:
+      zh:
+      - 流通护教
+    start_date: '0774'
     highlight_event_id: guji-不空-event-death
   decisions:
-  - date: 0758
-    title_zh: 决授左拳覆印观自身在菩萨心中
-    rationale: 欲令行者不断绝住于慈悲加持中即得不见于难故立此观
   - date: '0772'
-    title_zh: 决以秘密嘱付收摄流通
-    rationale: 密法若妄传则损三昧若悲传则利无边故须择器秘密教授
+    title_zh: 决定译出金翅鸟王根本真言及手印
+    rationale: 为令有情入三昧耶坛通达龙蛇语言成就世出世法故须明咒印
+  - date: '0772'
+    title_zh: 决定具载曼荼罗护摩事业以防滥用
+    rationale: 真言威力能召龙制毒损益怨亲若不立坛戒恐损生故详载轨则
+- id: guji-不空-endeavor-2
+  title_zh: 建立曼荼罗择器授法护国安民
+  description_zh: 立六肘曼荼罗拣择净信弟子授戒灌顶以金翅鸟法除毒降雨护国界
+  phases:
+  - key: brewing
+    name: 筹量坛场资具
+    labels:
+      zh:
+      - 建坛预备
+    start_date: '0773'
+    highlight_event_id: guji-不空-event-mandala
+  - key: breakthrough
+    name: 中坛外院画位请圣
+    labels:
+      zh:
+      - 立坛请圣
+    start_date: '0773'
+    highlight_event_id: guji-不空-event-mandala
+  - key: climax
+    name: 授戒掷花饮誓传法
+    labels:
+      zh:
+      - 授戒传付
+    start_date: '0773'
+    highlight_event_id: guji-不空-event-mandala
+  - key: closure
+    name: 以法护国示现悉地
+    labels:
+      zh:
+      - 护国成验
+    start_date: '0774'
+    highlight_event_id: guji-不空-event-death
+  decisions:
+  - date: '0773'
+    title_zh: 决定拣择法器方授此王法
+    rationale: 法器须净信三宝住菩提心孝亲忠君尊重师长深信真言方堪成就
+  - date: '0773'
+    title_zh: 决定立誓禁泄背恩者传法
+    rationale: 漏泄背恩必夭寿堕恶趣守誓则现生得悉地来生文殊宫故立重誓
 events:
 - id: guji-不空-event-birth
-  title_zh: 诞生
+  title_zh: 诞生西域南天
   date: '0705'
   year_of: 705
-  description: 不空生于唐神龙元年后从金刚智学密为密教付法传人
-- id: guji-不空-event-1
-  title_zh: 大兴善寺译出摩利支菩萨略念诵法
-  date: '0757'
-  year_of: 757
-  description: 奉诏于大兴善寺译此法备载毗卢遮那佛印根本印真言及加持五处之轨
-- id: guji-不空-event-2
-  title_zh: 传授摩利支心印观行
-  date: '0760'
-  year_of: 760
-  description: 授左手作拳右手覆上观自身入拳中即是菩萨心诵心真言得隐身免灾水火盗贼虎狼不侵口舌消除世出世愿皆谐
+  description_zh: 唐神龙元年生于南天竺后入大唐从金刚智受密法
+- id: guji-不空-event-translate
+  title_zh: 译文殊根本大教王经金翅鸟王品一卷
+  date: '0772'
+  year_of: 772
+  description_zh: 奉诏译出释迦告文殊金翅鸟王说根本真言过去百种召龙治毒护摩事业
+- id: guji-不空-event-mandala
+  title_zh: 建六肘曼荼罗授金翅鸟王法
+  date: '0773'
+  year_of: 773
+  description_zh: 于河岸建曼荼罗画佛文殊那罗延金翅鸟王等授三归菩提心戒传印咒事业
 - id: guji-不空-event-death
-  title_zh: 示寂长安
+  title_zh: 示寂于大兴善寺
   date: '0774'
   year_of: 774
-  description: 不空于唐代宗大历九年示寂于长安所译密典及念诵轨则后世流通不绝
+  description_zh: 唐大历九年示寂遗嘱以此王法于末法护持佛法拥护国王安乐有情
