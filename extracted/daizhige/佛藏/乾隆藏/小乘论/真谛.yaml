@@ -1,0 +1,134 @@
+person:
+  qid: guji-真谛
+  name_zh: 真谛
+  names:
+    zh: 真谛
+    en: Paramartha
+  lifespan:
+    birth:
+      date: 0499-01-01
+      precision: year
+      is_circa: false
+      raw: 公元四九九年生于西天竺优禅尼国
+    death:
+      date: 0569-02-01
+      precision: month
+      is_circa: false
+      raw: 陈太建元年正月卒于广州
+  birth_date: 0499-01-01
+  death_date: 0569-02-01
+  era: 南北朝梁陈之际
+  reign_ref: 梁武帝至陈宣帝
+  archetype: 弘法译师
+  dilemmas:
+  - 侯景之乱流离岭南是避难保身还是坚持译经
+  - 大小部派异执纷纭是调和众说还是依契经抉择真义
+  lesson: 乱世不废译业异论纷纭中依契经求坚固真义
+  summary_first_person: 吾本天竺优禅尼人应梁武帝之请泛海东来虽逢侯景之乱流离建业岭南犹坚持译场译出摄大乘论俱舍十八部论等愿以真谛利乐中土
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E5%8D%81%E5%85%AB%E9%83%A8%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%B0%8F%E4%B9%98%E8%AE%BA/%E5%8D%81%E5%85%AB%E9%83%A8%E8%AE%BA.md
+endeavors:
+- id: guji-真谛-endeavor-1
+  title_zh: 天竺修学应请东来
+  summary: 于天竺精通三藏应梁武帝之请泛海东来弘化
+  phases:
+  - key: brewing
+    name: 天竺修学精通三藏
+    labels:
+      zh:
+      - 修学
+    start_date: 0499-01-01
+    highlight_event_id: guji-真谛-event-birth
+  - key: breakthrough
+    name: 梁使迎请决意东行
+    labels:
+      zh:
+      - 发心
+    start_date: 0546-01-01
+    highlight_event_id: guji-真谛-event-east
+  - key: climax
+    name: 泛海至建业备受礼遇
+    labels:
+      zh:
+      - 东来
+    start_date: 0548-01-01
+    highlight_event_id: guji-真谛-event-east
+  - key: closure
+    name: 逢乱南迁岭南存法
+    labels:
+      zh:
+      - 存法
+    start_date: 0550-01-01
+    highlight_event_id: guji-真谛-event-translate
+  decisions:
+  - date: 0546-01-01
+    title_zh: 应梁武帝之请东来中土
+    rationale: 为令大乘真义流通东土不辞海路艰险
+  - date: 0550-01-01
+    title_zh: 侯景乱后南迁坚持译业
+    rationale: 世乱不可废法以存法护教为先
+- id: guji-真谛-endeavor-2
+  title_zh: 岭南译场译述部派圣典
+  summary: 于建业广州等地译出十八部论摄大乘论等阐明部派分化与大乘真义
+  phases:
+  - key: brewing
+    name: 建业初译安顿译场
+    labels:
+      zh:
+      - 安顿
+    start_date: 0548-01-01
+    highlight_event_id: guji-真谛-event-east
+  - key: breakthrough
+    name: 岭南开译摄论俱舍
+    labels:
+      zh:
+      - 开译
+    start_date: 0557-01-01
+    highlight_event_id: guji-真谛-event-translate
+  - key: climax
+    name: 译述十八部论明辨部派
+    labels:
+      zh:
+      - 译述
+    start_date: 0558-01-01
+    highlight_event_id: guji-真谛-event-translate
+  - key: closure
+    name: 示寂广州遗教不灭
+    labels:
+      zh:
+      - 圆寂
+    start_date: 0569-02-01
+    highlight_event_id: guji-真谛-event-death
+  decisions:
+  - date: 0557-01-01
+    title_zh: 于广州制止译出十八部论
+    rationale: 为令中土明了佛灭后二十部分化及根本中间异见
+  - date: 0562-01-01
+    title_zh: 专弘摄大乘以会通部执
+    rationale: 以大乘真谛摄小乘异论令学人求坚固义
+events:
+- id: guji-真谛-event-birth
+  title_zh: 诞生于西天竺优禅尼
+  date: 0499-01-01
+  year_of: 499
+  description: 真谛生于西天竺优禅尼国婆罗门家少精通三藏尤善大乘
+  endeavor_ref: guji-真谛-endeavor-1
+- id: guji-真谛-event-east
+  title_zh: 应请泛海抵达建业
+  date: 0548-01-01
+  year_of: 548
+  description: 梁武帝遣使迎请真谛泛海东来抵达建业备受礼遇旋逢侯景之乱
+  endeavor_ref: guji-真谛-endeavor-1
+- id: guji-真谛-event-translate
+  title_zh: 岭南译出十八部论等
+  date: 0557-06-01
+  year_of: 557
+  description: 于广州建业等地译出十八部论摄大乘论俱舍释论等阐明二十部根本见与中间见
+  endeavor_ref: guji-真谛-endeavor-2
+- id: guji-真谛-event-death
+  title_zh: 示寂于广州
+  date: 0569-02-01
+  year_of: 569
+  description: 陈太建元年正月真谛示寂于广州世寿七十一生平所译五十余部传于中土
+  endeavor_ref: guji-真谛-endeavor-2
