@@ -9,130 +9,142 @@ person:
       date: '0734'
       precision: year
       is_circa: true
-      raw: 唐开元年间生于罽宾国
+      raw: 唐开元二十二年约生于罽宾
     death:
       date: 0810
       precision: year
       is_circa: true
-      raw: 唐元和年间卒于长安
+      raw: 唐元和五年约卒于长安
   birth_date: '0734'
   death_date: 0810
   era: 唐
-  reign_ref: 唐德宗贞元至唐宪宗元和
-  archetype: 西域译经弘法型
+  reign_ref: 唐德宗贞元
+  archetype: 译场弘法者
   dilemmas:
-  - 梵本幽深华言难达，直存梵义还是顺俗意译以便群机
-  - 显密并弘易生惑著，广演神咒还是专弘心地孝亲以正本源
-  lesson: 观心为本地孝为基，译经当以利生为归，不逐神异不失本真
-  summary_first_person: 吾罽宾沙门般若，远涉流沙入大唐，蒙两朝护持，于醴泉寺与义学大德共译心地观经八卷，愿世人观自心地，孝养父母，报四恩而趣菩提
+  - title_zh: 梵汉悬隔而法义须真
+    description_zh: 梵本赜深华言简质，如何不失空性慈悲本怀又令中土易解
+  - title_zh: 护国密法与显教统合
+    description_zh: 陀罗尼护国神验易流于禳灾，如何归宗菩提心与大慈悲根本
+  lesson: 以菩提心为因大慈悲为本方便为究竟，方能转护国祈愿为普利众生之行
+  summary_first_person: 吾罽宾般若，远涉流沙入唐译经，与牟尼室利等共成守护国界主陀罗尼十卷，愿以无言三昧慈悲之教，安国护民普入菩提
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T0159
-  - https://daizhige.org/佛藏/乾隆藏/宋元入藏诸大小乘经/大乘本生心地观经.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%AE%88%E6%8A%A4%E5%9B%BD%E7%95%8C%E4%B8%BB%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%AE%88%E6%8A%A4%E5%9B%BD%E7%95%8C%E4%B8%BB%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-般若-endeavor-1
-  title_zh: 醴泉寺译出心地观经八卷
-  summary: 奉诏于醴泉寺开场，率八人译场译出大乘本生心地观经，立孝亲观心之宗
+  title_zh: 罽宾学成西行入唐
+  summary_zh: 生于罽宾，习三藏教观，循西域商道东行，贞元初抵长安，入译场预备译事
   phases:
   - key: brewing
-    name: 入唐求法
+    name: 罽宾诞生习梵
     labels:
-      zh: 入唐立志
-    start_date: 0782
-    highlight_event_id: guji-般若-event-arrive
+      zh:
+      - 出生
+      - 习梵
+    start_date: '0734'
+    highlight_event_id: guji-般若-event-birth
   - key: breakthrough
-    name: 奉诏开译
+    name: 那烂陀精研三藏
     labels:
-      zh: 奉诏开场
-    start_date: 0789
-    highlight_event_id: guji-般若-event-translate-start
+      zh:
+      - 求法
+      - 学成
+    start_date: '0755'
+    highlight_event_id: guji-般若-event-study
   - key: climax
-    name: 八卷告成
+    name: 抵达长安入译场
     labels:
-      zh: 译经圆满
-    start_date: 0791
-    highlight_event_id: guji-般若-event-translate-done
+      zh:
+      - 入唐
+      - 译场
+    start_date: 0782
+    highlight_event_id: guji-般若-event-arrival
   - key: closure
-    name: 御序流通
+    name: 安住京师待诏译经
     labels:
-      zh: 御制流通
-    start_date: 0810
-    highlight_event_id: guji-般若-event-death
+      zh:
+      - 安住
+      - 待诏
+    start_date: 0783
+    highlight_event_id: guji-般若-event-arrival
   decisions:
-  - date: 0789
-    title_zh: 奏请开译心地观门
-    rationale: 此经以孝亲观心为本，深契华夏伦常，能摄持出家在家二众，故请开场
-  - date: 0790
-    title_zh: 坚持八人共译润色
-    rationale: 梵夹秘奥恐独见有失，邀义学大德同参润色，以保信达雅正
+  - date: 0780
+    title_zh: 决意东行入唐
+    rationale: 西土虽盛，欲令大乘密教普被东土，故冒流沙险阻东来
+  - date: 0782
+    title_zh: 投附长安译场
+    rationale: 京师众缘具足，依朝廷护持方能广译梵本，不负所学
 - id: guji-般若-endeavor-2
-  title_zh: 译弘华严行愿兼传显密
-  summary: 参与译弘四十华严普贤行愿，并传译显密诸经，弘扬心地观门与普贤大行
+  title_zh: 共译守护国界主陀罗尼经
+  summary_zh: 与牟尼室利等同译十卷本，于伽耶菩提场会宣说无言三昧，发明菩提心慈悲为本护国为用
   phases:
   - key: brewing
-    name: 精通三藏
+    name: 发起护国译愿
     labels:
-      zh: 学养积聚
-    start_date: 0782
-    highlight_event_id: guji-般若-event-arrive
+      zh:
+      - 发愿
+      - 护国
+    start_date: 0784
+    highlight_event_id: guji-般若-event-arrival
   - key: breakthrough
-    name: 参译华严
+    name: 开译序品陀罗尼品
     labels:
-      zh: 华严结缘
-    start_date: 0798
-    highlight_event_id: guji-般若-event-huayan
+      zh:
+      - 开译
+      - 定本
+    start_date: 0787
+    highlight_event_id: guji-般若-event-translate
   - key: climax
-    name: 心地观门大弘
+    name: 十卷告成流通
     labels:
-      zh: 弘法高峰
-    start_date: 0791
-    highlight_event_id: guji-般若-event-translate-done
+      zh:
+      - 译成
+      - 流通
+    start_date: 0789
+    highlight_event_id: guji-般若-event-translate
   - key: closure
-    name: 遗教付嘱
+    name: 以慈悲菩提摄持后学
     labels:
-      zh: 示寂付嘱
-    start_date: 0810
+      zh:
+      - 付嘱
+      - 化后
+    start_date: 0790
     highlight_event_id: guji-般若-event-death
   decisions:
-  - date: 0798
-    title_zh: 协同重译入不思议品
-    rationale: 华严行愿与心地观门同归一心，故助成四十华严以广普贤大行
-  - date: 0800
-    title_zh: 以显摄密不尚神异
-    rationale: 恐众逐神通而忘心地，故演说多归观心孝亲，令密法不离菩提心
+  - date: 0787
+    title_zh: 以菩提心慈悲为纲译护国法
+    rationale: 经中明言三昧以菩提心为因慈悲为根本，须显其理以防徒求禳灾
+  - date: 0789
+    title_zh: 联合牟尼室利共译校定
+    rationale: 梵音广咒义理深玄，集众智互证方得文义周圆，护国大法不敢独断
 events:
 - id: guji-般若-event-birth
   title_zh: 生于罽宾国
   date: '0734'
   year_of: 734
   place_zh: 罽宾国
-  summary: 罽宾国出家，精通三藏，通达梵汉
-- id: guji-般若-event-arrive
-  title_zh: 建中年来达长安
+  description_zh: 约唐开元二十二年生于罽宾，自幼习梵书声明，渐通三藏
+- id: guji-般若-event-study
+  title_zh: 西域那烂陀系学法
+  date: '0760'
+  year_of: 760
+  place_zh: 中天竺
+  description_zh: 游学中天竺，精研般若华严及陀罗尼门，具三藏学称
+- id: guji-般若-event-arrival
+  title_zh: 抵长安入译场
   date: 0782
   year_of: 782
   place_zh: 长安
-  summary: 远涉流沙入唐，止京师弘宣梵典，见重于朝野
-- id: guji-般若-event-translate-start
-  title_zh: 醴泉寺开译心地观经
+  description_zh: 唐建中末贞元初抵长安，蒙朝廷礼遇，入译场参与译经事业
+- id: guji-般若-event-translate
+  title_zh: 共译守护国界主陀罗尼经十卷
   date: 0789
   year_of: 789
-  place_zh: 醴泉寺
-  summary: 奉诏与义学大德八人开译梵夹，孟简等润色其文
-- id: guji-般若-event-translate-done
-  title_zh: 心地观经八卷译成
-  date: 0791
-  year_of: 791
-  place_zh: 长安醴泉寺
-  summary: 八卷告成，立报四恩观心孝亲之宗，耆阇崛山一会重新昭示世间
-- id: guji-般若-event-huayan
-  title_zh: 参译四十华严行愿品
-  date: 0798
-  year_of: 798
-  place_zh: 长安
-  summary: 参与译出大方广佛华严经入不思议解脱境界普贤行愿品，弘扬普贤大行
+  place_zh: 长安西明寺
+  description_zh: 与牟尼室利等共译守护国界主陀罗尼经十卷，演伽耶菩提树下无言三昧，发明心性虚空菩提陀罗尼无二，慈悲为本护国安民
 - id: guji-般若-event-death
-  title_zh: 圆寂于长安
+  title_zh: 卒于长安
   date: 0810
   year_of: 810
   place_zh: 长安
-  summary: 示寂于长安，所译心地观经蒙宪宗御制序引，广行流通
+  description_zh: 约唐元和五年卒于长安，一生译经弘法，以护国陀罗尼及华严般若之学传后

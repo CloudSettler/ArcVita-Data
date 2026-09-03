@@ -7,123 +7,102 @@ person:
   lifespan:
     birth:
       date: 0950
-      precision: year
+      precision: century
       is_circa: true
-      raw: 约宋初生于乌仗那国
+      raw: 生年不详约十世纪中叶北印度
     death:
       date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒于汴京
+      raw: 宋真宗天禧元年卒
   birth_date: 0950
   death_date: '1017'
   era: 北宋
-  reign_ref: 宋太祖开宝至宋真宗天禧
-  archetype: 译场传法者
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 译经三藏
   dilemmas:
-  - 梵汉悬隔如何译得信达不失深义
-  - 异域孤寄如何久住译场初心不退
-  lesson: 穷观缘生无性不著两边，以信达之译令正见可传
-  summary_first_person: 吾自西天携梵本来华，奉诏入译经院三十余载，译舍黎娑担摩等经，愿令见缘生者即见法见佛
+  - 梵本幽密而华言须达如何兼全信雅
+  - 羁旅异域而久住宋译场如何立信安命
+  lesson: 以精严传译续佛慧命令密法久住中土
+  summary_first_person: 吾本北印度僧随缘东来入宋译场奉诏传梵惟愿华梵流通护念众生耳
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T0711
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%A4%A7%E9%87%91%E5%88%9A%E5%A6%99%E9%AB%98%E5%B1%B1%E6%A5%BC%E9%98%81%E9%99%80%E7%BD%97%E5%B0%BC.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E4%B9%BE%E9%9A%86%E8%97%8F/%E5%AE%8B%E5%85%83%E5%85%A5%E8%97%8F%E8%AF%B8%E5%A4%A7%E5%B0%8F%E4%B9%98%E7%BB%8F/%E5%A4%A7%E9%87%91%E5%88%9A%E5%A6%99%E9%AB%98%E5%B1%B1%E6%A5%BC%E9%98%81%E9%99%80%E7%BD%97%E5%B0%BC.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏译经
-  summary: 自开宝年来华入译经院，与法贤等共译大小乘经百余卷
+  title_zh: 西来入宋久住译场
+  summary: 自北印度来汴京入译经院授三藏传法大师久参传译
   phases:
   - key: brewing
-    name: 携梵本来华
+    name: 随缘东来抵汴
     labels:
-      zh: 赴华发心
+      zh: 初入中土
     start_date: 0980
     highlight_event_id: guji-施护-event-arrive
   - key: breakthrough
-    name: 入院试译得授传法大师
+    name: 充译主授三藏
     labels:
-      zh: 初入译场
+      zh: 得诏参译
     start_date: 0983
-    highlight_event_id: guji-施护-event-arrive
-  - key: climax
-    name: 奉诏译舍黎娑担摩经
-    labels:
-      zh: 译缘生法
-    start_date: 0999
-    highlight_event_id: guji-施护-event-translate
-  - key: closure
-    name: 译业圆满示寂
-    labels:
-      zh: 圆寂译场
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
+    highlight_event_id: guji-施护-event-office
   decisions:
   - date: 0980
-    title_zh: 决意携梵本东来
-    rationale: 西法东流因缘已至，愿以本国所学普润华夏
-  - date: 0999
-    title_zh: 抉择直译十二缘生内外二喻
-    rationale: 缘生深奥难解，须以外种芽内六界为喻令初学可入
+    title_zh: 留住汴京译经院
+    rationale: 为传梵本正法不辞羁旅愿依朝廷译制久住
+  - date: 0983
+    title_zh: 受命专主译事
+    rationale: 以精通梵汉蒙授传法大师当担译主以正名实
 - id: guji-施护-endeavor-2
-  title_zh: 阐扬缘生正观
-  summary: 借慈氏授舍利子之问答，明见缘生即见法身，破常断邪执
+  title_zh: 奉诏译大金刚妙高山楼阁陀罗尼
+  summary: 奉宋诏译出一卷密咒广宣金刚守护功德流通中土
   phases:
-  - key: brewing
-    name: 研寻缘生经论
-    labels:
-      zh: 穷究缘起
-    start_date: 0985
-    highlight_event_id: guji-施护-event-arrive
-  - key: breakthrough
-    name: 定慈氏问答译式
-    labels:
-      zh: 显正问答
-    start_date: 0999
-    highlight_event_id: guji-施护-event-translate
   - key: climax
-    name: 明见法即见佛义
+    name: 对梵定本出华言
     labels:
-      zh: 会法归佛
-    start_date: 0999
+      zh: 奉诏译密咒
+    start_date: 0990
     highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 付嘱流通后学
+    name: 进呈流通护持
     labels:
-      zh: 流通后世
-    start_date: '1017'
-    highlight_event_id: guji-施护-event-death
+      zh: 进本流通
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-translate
   decisions:
-  - date: 0999
-    title_zh: 以八正道释法以一切智释佛
-    rationale: 学者每惑法佛之名，须指归修证令不滞空言
-  - date: 0999
-    title_zh: 存内外因缘五义少因多果之说
-    rationale: 为破无因邪见，须明业果不亡相似相续
+  - date: 0990
+    title_zh: 音义兼存直译神咒
+    rationale: 陀罗尼以音为体当存梵音辅以华释令持诵不失
+  - date: '1000'
+    title_zh: 进本入藏流通
+    rationale: 奉诏所译当付梵本院刊定入藏以利将来
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌仗那国
+  title_zh: 生于北印度
   date: 0950
   year_of: 950
-  kind: birth
-  place: 乌仗那国
-  description: 约宋初生于北印度乌仗那国，自幼习梵文通三藏
+  place_zh: 北印度
+  summary: 约十世纪中叶生于北印度习梵典密教
 - id: guji-施护-event-arrive
-  title_zh: 携梵本来华入译经院
+  title_zh: 抵宋都入译经
   date: 0980
   year_of: 980
-  kind: career
-  place: 汴京译经院
-  description: 宋太祖开宝年间携梵本来华，入汴京译经院奉诏译经
+  place_zh: 汴京
+  summary: 随兄天息灾等东来抵汴京太平兴国中入译经院
+- id: guji-施护-event-office
+  title_zh: 授三藏传法大师
+  date: 0983
+  year_of: 983
+  place_zh: 汴京译经院
+  summary: 以精梵汉授西天北印度三藏传法大师充译主
 - id: guji-施护-event-translate
-  title_zh: 奉诏译大乘舍黎娑担摩经
-  date: 0999
-  year_of: 999
-  kind: career
-  place: 汴京译经院
-  description: 奉诏译出大乘舍黎娑担摩经一卷，明十二缘生内外因缘及见法即见佛之义
+  title_zh: 奉诏译大金刚妙高山楼阁陀罗尼一卷
+  date: 0990
+  year_of: 990
+  place_zh: 汴京
+  summary: 奉诏译出大金刚妙高山楼阁陀罗尼一卷题宋西天三藏施护奉诏译
 - id: guji-施护-event-death
   title_zh: 卒于汴京
   date: '1017'
   year_of: 1017
-  kind: death
-  place: 汴京
-  description: 宋真宗天禧元年卒于汴京，译经凡百余卷功在华夏
+  place_zh: 汴京
+  summary: 宋真宗天禧元年卒于汴久住译场三十余年译籍百余卷
