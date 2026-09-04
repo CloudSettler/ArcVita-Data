@@ -1,0 +1,130 @@
+person:
+  qid: guji-包诚
+  name_zh: 包诚
+  names:
+    zh: 包诚
+    en: Bao Cheng
+  lifespan:
+    birth:
+      date: 1820
+      precision: year
+      is_circa: true
+      raw: 道光年间泾县生人年未详
+    death:
+      date: 1885
+      precision: year
+      is_circa: true
+      raw: 光绪初卒年未详
+  birth_date: 1820
+  death_date: 1885
+  era: 清
+  reign_ref: 同治
+  archetype: 医家
+  dilemmas:
+  - 伤寒论篇次错乱注家异说纷起无可执中
+  - 黄氏悬解文奥义精闳富难记诵初学猝难辨晰
+  lesson: 钩元提要编制审证表以便温习惠及初学
+  summary_first_person: 予少游山左随宛邻师学医令校雠黄氏诸书于伤寒尤致力因作审证表钩元提要时时温习以备遗忘
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E5%AE%A1%E8%AF%81%E8%A1%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E5%AE%A1%E8%AF%81%E8%A1%A8.html
+endeavors:
+- id: guji-包诚-endeavor-1
+  title_zh: 随张宛邻学医校雠黄元御诸书
+  summary: 少游山左随师学医奉命校雠黄氏诸书于伤寒悬解尤为致力
+  phases:
+  - key: brewing
+    name: 山左从师
+    labels:
+      zh:
+      - 从师学医
+    start_date: 1845
+    highlight_event_id: guji-包诚-event-study
+  - key: breakthrough
+    name: 校雠黄书
+    labels:
+      zh:
+      - 校雠黄氏
+    start_date: 1855
+    highlight_event_id: guji-包诚-event-study
+  - key: closure
+    name: 专攻伤寒
+    labels:
+      zh:
+      - 专攻伤寒
+    start_date: 1865
+    highlight_event_id: guji-包诚-event-study
+  decisions:
+  - date: 1855
+    title_zh: 奉师命校雠黄氏
+    rationale: 以黄氏阐仲景经络脏腑阴阳顺逆必先厘正文本方可得其要
+- id: guji-包诚-endeavor-2
+  title_zh: 编撰伤寒审证表付梓
+  summary: 根据黄氏编第钩元提要作审证表一卷寓鄂成书请李瀚章序付梓
+  phases:
+  - key: brewing
+    name: 钩元提要
+    labels:
+      zh:
+      - 钩元提要
+    start_date: 1868
+    highlight_event_id: guji-包诚-event-compile
+  - key: breakthrough
+    name: 表成寓鄂
+    labels:
+      zh:
+      - 成书寓鄂
+    start_date: 1870-08-11
+    highlight_event_id: guji-包诚-event-compile
+  - key: climax
+    name: 求序付梓
+    labels:
+      zh:
+      - 求序刊行
+    start_date: 1870-12-22
+    highlight_event_id: guji-包诚-event-publish
+  - key: closure
+    name: 惠及同志
+    labels:
+      zh:
+      - 惠教同志
+    start_date: 1871
+    highlight_event_id: guji-包诚-event-publish
+  decisions:
+  - date: 1870-08-11
+    title_zh: 以黄氏编第作审证表
+    rationale: 原文列笺注闳富非攻医力学难辨故证状毕呈如掌以便记诵
+  - date: 1870-12-22
+    title_zh: 谒李瀚章请序付梓
+    rationale: 同志怂恿谓可为伤寒一助故请督楚使者序而传之并匡不逮
+events:
+- id: guji-包诚-event-birth
+  type: birth
+  date: 1820
+  year_of: 1820
+  title_zh: 生于泾县
+  description: 清道光年间生于安徽泾县司马家良于医
+- id: guji-包诚-event-death
+  type: death
+  date: 1885
+  year_of: 1885
+  title_zh: 卒年未详
+  description: 同治成书后事迹未详光绪初卒
+- id: guji-包诚-event-study
+  type: career
+  date: 1855
+  year_of: 1855
+  title_zh: 随张宛邻学医校雠黄书
+  description: 少游山左随张宛邻先生学医奉命校雠黄元御诸书于伤寒悬解尤致力
+- id: guji-包诚-event-compile
+  type: career
+  date: 1870-08-11
+  year_of: 1870
+  title_zh: 寓鄂撰成伤寒审证表
+  description: 同治九年七月望日书于鄂省寓中根据黄氏伤寒悬解编第钩元提要成一卷
+- id: guji-包诚-event-publish
+  type: career
+  date: 1870-12-22
+  year_of: 1870
+  title_zh: 李瀚章序表付梓
+  description: 同治九年冬十二月朔督楚使者合肥李瀚章序是表称证状毕呈如掌付剞劂以裨民用
