@@ -1,0 +1,122 @@
+person:
+  qid: guji-鄂善
+  name_zh: 鄂善
+  names:
+    zh: 鄂善
+    en: Eshan
+  lifespan:
+    birth:
+      date: 1700
+      precision: year
+      is_circa: true
+      raw: 生年不详，约康熙末年生人
+    death:
+      date: 1741
+      precision: year
+      is_circa: false
+      raw: 乾隆六年三月庚寅赐自尽
+  birth_date: 1700
+  death_date: 1741
+  era: 清乾隆朝
+  reign_ref: 乾隆六年
+  archetype: 负恩失足之倚用大臣
+  dilemmas:
+  - 受故旧请托收银千两照拂与守法报恩之抉择
+  - 御前抵饰图侥幸与直认以全国体之抉择
+  lesson: 一念徇私则累世恩遇俱毁，大臣当畏小利而存大节
+  summary_first_person: 吾蒙先帝今上深恩，忝任提督，一时为家人蒙蔽收银千两，初犹抵饰，及御前对质不能隐，乃直认以谢国恩，愿后人以吾为戒
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0139.md
+endeavors:
+- id: guji-鄂善-endeavor-1
+  title_zh: 提督任上受托徇私
+  summary_zh: 张鸣钧发掘银两案中经人说合，为俞长庚照拂受银酿祸
+  phases:
+  - key: brewing
+    name: 边镇倚重
+    labels:
+      zh:
+      - 倚用日深
+    start_date: 1735
+    highlight_event_id: guji-鄂善-event-career
+  - key: breakthrough
+    name: 说合受贿
+    labels:
+      zh:
+      - 一念徇私
+    start_date: 1741
+    highlight_event_id: guji-鄂善-event-bribe
+  - key: climax
+    name: 风闻参发
+    labels:
+      zh:
+      - 东窗事发
+    start_date: 1741
+    highlight_event_id: guji-鄂善-event-impeach
+  decisions:
+  - date: 1741
+    title_zh: 从家人手中得银一千两为俞姓照拂
+    rationale: 恃宠自宽，以为人情小事，不悟国法无私而自毁大节
+- id: guji-鄂善-endeavor-2
+  title_zh: 案发审谳御前伏法
+  summary_zh: 御史仲永檀参发，王大臣会审，御前自认，赐自尽以存国体
+  phases:
+  - key: brewing
+    name: 七臣会审
+    labels:
+      zh:
+      - 彻底清查
+    start_date: 1741
+    highlight_event_id: guji-鄂善-event-impeach
+  - key: climax
+    name: 御前自认
+    labels:
+      zh:
+      - 水落石出
+    start_date: 1741
+    highlight_event_id: guji-鄂善-event-confess
+  - key: closure
+    name: 赐令自处
+    labels:
+      zh:
+      - 礼全君臣
+    start_date: 1741
+    highlight_event_id: guji-鄂善-event-death
+  decisions:
+  - date: 1741
+    title_zh: 御前舍抵饰而直认千两是实
+    rationale: 家人过付俱已应承，难舍命自当，唯直陈以全君臣大义
+  - date: 1741
+    title_zh: 奉谕北面自裁以谢国法
+    rationale: 身为大臣负恩，按律当绞，蒙恩不使捽抑，宜自处以存体面
+events:
+- id: guji-鄂善-event-birth
+  title_zh: 出生
+  date: 1700
+  year_of: 1700
+  description_zh: 生年不详，约康熙末年出身，渐由行伍蒙任用
+- id: guji-鄂善-event-career
+  title_zh: 出任提督深蒙倚用
+  date: 1738
+  year_of: 1738
+  description_zh: 以满洲大臣出任提督，为高宗倚用之重臣，非新用小臣可比
+- id: guji-鄂善-event-bribe
+  title_zh: 张鸣钧案中受贿千两
+  date: 1741
+  year_of: 1741
+  description_zh: 张鸣钧发掘银两案内，俞长庚妻父孟鲁瞻转托范毓馪说合，送银属其照拂，家人过付后得银一千两是实
+- id: guji-鄂善-event-impeach
+  title_zh: 御史仲永檀风闻参奏
+  date: 1741
+  year_of: 1741
+  description_zh: 御史仲永檀密奏参其得俞姓银万两及侍郎吴家骐得银事，高宗特派怡亲王和亲王大学士鄂尔泰张廷玉等七人秉公查审
+- id: guji-鄂善-event-confess
+  title_zh: 召对御前直认受贿
+  date: 1741
+  year_of: 1741
+  description_zh: 和亲王鄂尔泰讷亲来保同进见，初犹抵饰，经开谕后熟思直认从家人手中得银一千两
+- id: guji-鄂善-event-death
+  title_zh: 赐自尽
+  date: 1741
+  year_of: 1741
+  description_zh: 乾隆六年三月庚寅，以婪赃负国按律当绞，高宗垂泪谕以礼待大臣，容其自尽，王大臣议无过刻，遂伏法
