@@ -6,114 +6,133 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: '0581-01-01'
+      date: '0541'
       precision: year
       is_circa: true
-      raw: 约隋开皇元年
+      raw: 隋开皇元年左右生于京兆华原
     death:
-      date: '0682-01-01'
+      date: 0682
       precision: year
       is_circa: true
-      raw: 唐永淳元年
-  birth_date: '0581-01-01'
-  death_date: '0682-01-01'
+      raw: 唐永淳元年卒
+  birth_date: '0541'
+  death_date: 0682
   era: 唐
-  reign_ref: 唐高宗永淳
-  archetype: 济世医圣
+  reign_ref: 唐高宗永徽
+  archetype: 医家
   dilemmas:
-  - 隐逸修道与应诏济世之间何去何从
-  - 临产慎戒习俗与安神调气医理如何权衡
-  lesson: 安神定虑顺其气血则胎安产顺躁扰惊动多致难产
-  summary_first_person: 我是孙思邈京兆华原人隐于太白太行之间博采方术以济苍生我撰备急千金要方特立产难论戒秽触喧视戒匆忙忧悒教人待时而动以全子母我愿以大医精诚传世使临产之家安详有法
+  - 妊娠恶阻救母与安胎两难
+  - 胎前峻药攻病与保胎两难
+  lesson: 养胎当以和脾胃通气血为本，顺月养胎慎药避忌
+  summary_first_person: 吾孙思邈，隐于太白，究阴阳变化，著千金方论妇人胎前恶阻养胎，立逐月养胎之法，教人节饮食慎起居和情性，以全母子之命
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%A6%87%E4%BA%BA%E4%B8%B4%E4%BA%A7%E9%97%A8.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%A6%87%E4%BA%BA%E8%83%8E%E5%89%8D%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%A6%87%E4%BA%BA%E8%83%8E%E5%89%8D%E9%97%A8.md
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 撰备急千金要方立产难论
+  title_zh: 撰千金方论胎前恶阻养胎
+  description: 论虚羸血气不足致恶阻，以半夏茯苓汤茯苓丸调脾化痰，兼论养胎食忌居处胎教
   phases:
   - key: brewing
-    name: 隐居博采积累妇产经验
+    name: 体察妊娠阻病
     labels:
       zh:
-      - 隐居
-      - 博采
-    start_date: '0620-01-01'
-    highlight_event_id: guji-孙思邈-event-birth
+      - 恶阻
+      - 脾胃
+    start_date: '0610'
+    highlight_event_id: guji-孙思邈-event-1
   - key: breakthrough
-    name: 撰成千金要方阐产难戒律
+    name: 立半夏茯苓法治阻
     labels:
       zh:
-      - 撰述
-      - 产难
-    start_date: '0652-01-01'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      - 化痰
+      - 安胎
+    start_date: '0640'
+    highlight_event_id: guji-孙思邈-event-1
+  - key: climax
+    name: 千金方妊娠门成
+    labels:
+      zh:
+      - 千金方
+      - 养胎
+    start_date: '0652'
+    highlight_event_id: guji-孙思邈-event-1
   - key: closure
-    name: 刊行千金垂训临产之家
+    name: 垂训食忌胎教
     labels:
       zh:
-      - 刊行
-      - 垂训
-    start_date: '0653-01-01'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      - 食忌
+      - 胎教
+    start_date: '0655'
+    highlight_event_id: guji-孙思邈-event-2
   decisions:
-  - date: '0652-01-01'
-    title_zh: 立产室清净避忌之法
-    rationale: 将痛未产已产并忌死丧污秽瞻视惟留二三人以防惊扰致难产伤儿
-  - date: '0652-06-01'
-    title_zh: 戒匆忙忧悒候时用力
-    rationale: 气顺则血和胎安则产顺腹痛眼中火生乃儿回转未生不可妄努须稳审待时
+  - date: '0652'
+    title_zh: 以半夏茯苓为主治恶阻
+    rationale: 胃怯停痰经血闭阻，健脾化痰则气顺能食以养胎
+  - date: '0655'
+    title_zh: 详列妊娠食忌居处
+    rationale: 食兔犬骡肉冰浆等损胎，避非常大小便以防半产
 - id: guji-孙思邈-endeavor-2
-  title_zh: 弘大医精诚行医济世
+  title_zh: 立徐之才逐月养胎十月方
+  description: 述一月始胚至十月受气足，配经脉养胎禁忌与安胎汤药，定胎前月养规范
   phases:
   - key: brewing
-    name: 通老庄医道养性修真
+    name: 承徐之才月养说
     labels:
       zh:
-      - 修道
-      - 养生
-    start_date: '0600-01-01'
-    highlight_event_id: guji-孙思邈-event-birth
+      - 月养
+      - 经脉
+    start_date: '0645'
+    highlight_event_id: guji-孙思邈-event-2
+  - key: breakthrough
+    name: 配十月汤方
+    labels:
+      zh:
+      - 乌雌鸡汤
+      - 艾叶汤
+    start_date: '0650'
+    highlight_event_id: guji-孙思邈-event-2
   - key: climax
-    name: 撰千金翼方补阙阐微
+    name: 十月养胎体系备
     labels:
       zh:
-      - 补阙
-      - 济世
-    start_date: '0680-01-01'
-    highlight_event_id: guji-孙思邈-event-yifang
+      - 逐月
+      - 保胎
+    start_date: '0652'
+    highlight_event_id: guji-孙思邈-event-2
   - key: closure
-    name: 德业隆盛谥为药王
+    name: 论脉法验胎
     labels:
       zh:
-      - 德业
-      - 药王
-    start_date: '0682-01-01'
-    highlight_event_id: guji-孙思邈-event-death
+      - 脉法
+      - 验胎
+    start_date: 0658
+    highlight_event_id: guji-孙思邈-event-1
   decisions:
-  - date: '0680-01-01'
-    title_zh: 再撰翼方以备临证
-    rationale: 要方既广更辑翼方使妇人保育临产诸法有据可依不致误治
-  - date: '0681-01-01'
-    title_zh: 坚持不仕以医全生
-    rationale: 以苍生疾苦为念不恋官禄惟以撰述行医全活子母为功
+  - date: '0650'
+    title_zh: 按月配经禁针灸
+    rationale: 一月厥阴二月少阳等各有所养，针灸犯之动胎故禁
+  - date: '0652'
+    title_zh: 倡三月胎教观善
+    rationale: 外象内感欲子良寿，须观犀象珠玉诵诗书和情性
 events:
 - id: guji-孙思邈-event-birth
-  date: '0581-01-01'
-  year_of: 581
-  title_zh: 隋开皇中生于京兆华原
-  description_zh: 约隋开皇元年生于京兆华原幼多疾博览医方立志济世
-- id: guji-孙思邈-event-qianjin
-  date: '0652-01-01'
+  title_zh: 诞生于京兆华原
+  date: '0541'
+  year_of: 541
+  description: 隋开皇左右生，少多病，立志学医
+- id: guji-孙思邈-event-1
+  title_zh: 著千金方论妊娠恶阻养胎
+  date: '0652'
   year_of: 652
-  title_zh: 撰成备急千金要方立产难论
-  description_zh: 于永徽年间撰成要方其中产难论言产妇将痛时忌多人瞻视忌匆忙忧悒须待儿逼产门方可坐草儿出忌问男女勿令母视秽污
-- id: guji-孙思邈-event-yifang
-  date: '0680-01-01'
-  year_of: 680
-  title_zh: 撰千金翼方阐妇人保育
-  description_zh: 晚年撰千金翼方三十卷补要方之阙于妇人妊娠临产调摄安养之法益加详明为后世妇人良方所本
+  description: 唐永徽中成备急千金要方，专论欲有胎恶阻脉理顺时，以半夏茯苓汤茯苓丸治之
+- id: guji-孙思邈-event-2
+  title_zh: 述逐月养胎十月方与胎教
+  date: '0655'
+  year_of: 655
+  description: 录徐之才逐月养胎方，自始胚至受气足，详饮食居处针灸禁忌及滑胎丹参膏
 - id: guji-孙思邈-event-death
-  date: '0682-01-01'
+  title_zh: 卒于唐长安
+  date: 0682
   year_of: 682
-  title_zh: 永淳元年卒于长安
-  description_zh: 唐永淳元年卒年约百余岁遗方论垂训后世尊为药王妇人临产门奉其产难论为要旨
+  description: 永淳元年卒，遗千金方翼传世，胎前之法为后世妇人良方所宗

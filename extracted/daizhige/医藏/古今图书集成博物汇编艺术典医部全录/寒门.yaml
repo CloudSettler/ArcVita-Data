@@ -1,0 +1,127 @@
+person:
+  qid: guji-寒门
+  name_zh: 寒门
+  names:
+    zh: 寒门
+    en: Hanmen
+  lifespan:
+    birth:
+      date: -0256-01-01
+      precision: year
+      is_circa: true
+      raw: 上古内经传说之世
+    death:
+      date: 1726-01-01
+      precision: year
+      is_circa: true
+      raw: 清雍正四年集成告成之际
+  birth_date: -0256-01-01
+  death_date: 1726-01-01
+  era: 上古至清
+  reign_ref: 清雍正
+  archetype: 医家
+  dilemmas:
+  - 阴盛亡阳卒急当用姜附峻药与世尚贵阴贱阳之歧
+  - 直中少阴难分经络当温散固里与误投清凉风药之险
+  lesson: 阳微阴盛之候当急回阳救逆善后平补不可缓投清凉以误生机
+  summary_first_person: 吾为寒毒直中之候由内经启端经仲景韩祇和王肯堂喻昌张介宾递相阐发以姜附回阳为要终汇入集成以示来者
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+  - https://daizhige.org
+endeavors:
+- id: guji-寒门-endeavor-1
+  title_zh: 中寒辨证温散体系
+  description: 汇内经伤寒中寒之辨立直中三阴温中散寒之法以理中姜附分轻重施治
+  phases:
+  - key: brewing
+    name: 内经启端酿义
+    labels:
+      zh:
+      - 中寒
+      - 阴盛内寒
+    start_date: -0256-01-01
+    highlight_event_id: guji-寒门-event-birth
+  - key: breakthrough
+    name: 准绳分经突破
+    labels:
+      zh:
+      - 中寒
+      - 温散
+    start_date: 1602-01-01
+    highlight_event_id: guji-寒门-event-zhonghan
+  - key: climax
+    name: 景岳温补成法
+    labels:
+      zh:
+      - 温中
+      - 固阳
+    start_date: 1624-01-01
+    highlight_event_id: guji-寒门-event-jingyue
+  decisions:
+  - date: 1602-01-01
+    title_zh: 轻重分治用苏合五积姜附
+    rationale: 中寒一定不移须先苏合开闭轻用五积重用姜附以回暖
+  - date: 1624-01-01
+    title_zh: 直中三阴禁用风药专温
+    rationale: 寒证多虚切不可再散其气当以理中四逆大温中饮急温其里
+- id: guji-寒门-endeavor-2
+  title_zh: 阴病回阳救逆体系
+  description: 继仲景卒病亡佚之旨立阴病论八难专主附子干姜坐镇真武以救卒中少阴
+  phases:
+  - key: brewing
+    name: 卒病散佚考索
+    labels:
+      zh:
+      - 卒病
+      - 阴病
+    start_date: 0164-01-01
+    highlight_event_id: guji-寒门-event-zhonghan
+  - key: breakthrough
+    name: 医门法律立论
+    labels:
+      zh:
+      - 回阳
+      - 真武
+    start_date: 1658-01-01
+    highlight_event_id: guji-寒门-event-yinbing
+  - key: closure
+    name: 集成收载告成
+    labels:
+      zh:
+      - 集成
+      - 全录
+    start_date: 1726-01-01
+    highlight_event_id: guji-寒门-event-death
+  decisions:
+  - date: 1658-01-01
+    title_zh: 陡进姜附加葱胆急救
+    rationale: 卒中少阴埋没微阳须飞骑突入不容渐投监制以破坚凝
+  - date: 1659-01-01
+    title_zh: 平补善后戒用寒凉
+    rationale: 重阴见睍之后须黄芪白术平补即有寒痰亦断不可妄投牛黄竹沥
+events:
+- id: guji-寒门-event-birth
+  title_zh: 内经启中寒之端
+  date: -0256-01-01
+  year_of: -256
+  description: 内经言阴盛生内寒血凝脉不通脉盛大以濇为后世中寒立纲
+- id: guji-寒门-event-zhonghan
+  title_zh: 证治准绳定中寒温法
+  date: 1602-01-01
+  year_of: 1602
+  description: 王肯堂辨中寒与伤寒之异定苏合五积姜附理中分经加减兼灸丹田
+- id: guji-寒门-event-yinbing
+  title_zh: 医门法律陈阴病八难
+  date: 1658-01-01
+  year_of: 1658
+  description: 喻昌拟仲景卒病之旨论真武坐镇详八难治法以附子干姜回阳救逆
+- id: guji-寒门-event-jingyue
+  title_zh: 景岳全书温补三阴
+  date: 1624-01-01
+  year_of: 1624
+  description: 张介宾言寒由外入由内生之别立理中四逆归气暖肝分治太阴阳明厥阴
+- id: guji-寒门-event-death
+  title_zh: 医部全录汇寒门告成
+  date: 1726-01-01
+  year_of: 1726
+  description: 古今图书集成医部全录卷二百三十汇王喻张诸家之说寒门之学遂成完帙
