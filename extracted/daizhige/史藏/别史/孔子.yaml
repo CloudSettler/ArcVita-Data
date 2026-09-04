@@ -1,0 +1,144 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: true
+      raw: 鲁襄公二十一年生于鲁国陬邑
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: true
+      raw: 鲁哀公十六年卒于鲁国
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 春秋
+  reign_ref: 鲁襄公至鲁哀公
+  archetype: 圣师
+  dilemmas:
+  - 礼崩乐坏而坚持复礼仁政之困
+  - 求仕行道与守道不苟之抉择
+  lesson: 守仁行教以传道后世
+  summary_first_person: 吾丘字仲尼鲁人也早孤好学问礼求道欲以仁礼救世虽困厄不改其志晚年删述以教弟子
+  source_urls:
+  - https://daizhige.org/史藏/别史/世本四種.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/世本四種.md
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 早年问学出仕鲁国
+  summary_zh: 幼年好礼广学问官问礼出任中都宰及大司寇行仁政
+  phases:
+  - key: brewing
+    name: 幼孤好学
+    labels:
+      zh: 好学不厌
+    start_date: -536-01-01
+    highlight_event_id: guji-孔子-event-study
+  - key: breakthrough
+    name: 问礼问道
+    labels:
+      zh: 问礼于老聃
+    start_date: -535-01-01
+    highlight_event_id: guji-孔子-event-study
+  - key: climax
+    name: 出仕行政
+    labels:
+      zh: 中都宰大司寇
+    start_date: -500-01-01
+    highlight_event_id: guji-孔子-event-office
+  - key: closure
+    name: 去鲁适卫
+    labels:
+      zh: 离鲁周游之始
+    start_date: -496-01-01
+    highlight_event_id: guji-孔子-event-travel
+  decisions:
+  - date: -535-01-01
+    title_zh: 适周问礼
+    rationale: 欲明周礼之源故访老聃郯子以正礼制
+  - date: -500-01-01
+    title_zh: 受任中都宰
+    rationale: 得君信任欲以仁政试验大道于鲁
+- id: guji-孔子-endeavor-2
+  title_zh: 周游列国晚年删述
+  summary_zh: 率弟子周游陈蔡卫宋而不遇晚年归鲁删诗书定礼乐作春秋诲人不倦
+  phases:
+  - key: brewing
+    name: 离鲁周游
+    labels:
+      zh: 周游列国
+    start_date: -496-01-01
+    highlight_event_id: guji-孔子-event-travel
+  - key: breakthrough
+    name: 厄困守道
+    labels:
+      zh: 陈蔡之厄
+    start_date: -489-01-01
+    highlight_event_id: guji-孔子-event-travel
+  - key: climax
+    name: 归鲁讲学
+    labels:
+      zh: 诲人不倦
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-teach
+  - key: closure
+    name: 删述遗教
+    labels:
+      zh: 删述六经
+    start_date: -482-01-01
+    highlight_event_id: guji-孔子-event-teach
+  decisions:
+  - date: -496-01-01
+    title_zh: 率弟子周游
+    rationale: 鲁政不容则求行道于诸侯虽困不止
+  - date: -484-01-01
+    title_zh: 归鲁删述讲学
+    rationale: 知道不行于时则托文教以传后世
+events:
+- id: guji-孔子-event-birth
+  title_zh: 诞生于陬邑
+  date: -551-09-28
+  year_of: -551
+  place_zh: 鲁国陬邑
+  kind: birth
+  summary_zh: 世本载伯夏生叔梁纥叔梁纥生仲尼是为孔子生于鲁襄公二十一年
+- id: guji-孔子-event-study
+  title_zh: 问礼求学
+  date: -535-01-01
+  year_of: -535
+  place_zh: 周都洛邑
+  kind: career
+  summary_zh: 适周问礼于老聃访郯子学官制博闻好学以明礼
+- id: guji-孔子-event-office
+  title_zh: 出任中都宰大司寇
+  date: -500-01-01
+  year_of: -500
+  place_zh: 鲁国
+  kind: career
+  summary_zh: 任中都宰治大司寇摄相事齐鲁夹谷之会显正义鲁大治
+- id: guji-孔子-event-travel
+  title_zh: 周游列国
+  date: -496-01-01
+  year_of: -496
+  place_zh: 卫宋陈蔡楚
+  kind: career
+  summary_zh: 去鲁适卫历宋郑陈蔡楚十四年席不暇暖虽厄不悔
+- id: guji-孔子-event-teach
+  title_zh: 归鲁删述讲学
+  date: -484-01-01
+  year_of: -484
+  place_zh: 鲁国阙里
+  kind: career
+  summary_zh: 归鲁删诗书定礼乐赞易作春秋教授弟子三千以传道统
+- id: guji-孔子-event-death
+  title_zh: 卒于鲁
+  date: -479-04-11
+  year_of: -479
+  place_zh: 鲁国
+  kind: death
+  summary_zh: 鲁哀公十六年四月己丑卒弟子服心丧如父
