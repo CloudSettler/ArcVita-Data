@@ -7,148 +7,111 @@ person:
   lifespan:
     birth:
       date: '0150-01-01'
-      precision: 年
+      precision: year
       is_circa: true
-      raw: 约公元一百五十年生于南阳涅阳
+      raw: 约汉桓帝永寿元年正月
     death:
       date: '0219-01-01'
-      precision: 年
+      precision: year
       is_circa: true
-      raw: 约建安二十四年卒
+      raw: 约汉献帝建安二十四年
   birth_date: '0150-01-01'
   death_date: '0219-01-01'
   era: 东汉末年
-  reign_ref: 汉献帝建安年间
-  archetype: 医圣
+  reign_ref: 汉灵帝至汉献帝建安
+  archetype: 坐堂济世之医圣
   dilemmas:
-  - 宗族疫亡过半，当隐居保身还是出仕行医救疫
-  - 世医只治已病，当见肝传脾先实脾治未病还是见病治病
-  lesson: 见肝之病知肝传脾当先实脾，治未病以防传变，辨证施治固本为要
-  summary_first_person: 我是南阳张机字仲景，生逢疫疠横行宗族衰亡，勤求古训博采众方，著伤寒杂病论辨伤寒与杂病，又明脏腑经络先后治未病之法，愿人养慎避邪见微知著
+  - 宗族夭横仕进难救时疫当弃虚文而亲诊汤药
+  - 古经散佚众方杂乱当立六经纲纪以统百病
+  lesson: 勤求古训博采众方审证求因然后施治方能全活苍生
+  summary_first_person: 余南阳人也感宗族多夭于伤寒遂勤求古训博采众方坐堂诊疾辨六经阴阳以著伤寒杂病之书愿后之医者按证施治勿失活人之心
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E8%A6%81%E7%95%A5%E6%96%B9%E8%AE%BA.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E8%A6%81%E7%95%A5%E6%96%B9%E8%AE%BA.html
+  - https://daizhige.org/医藏/钱氏秘传产科方书名试验录.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/钱氏秘传产科方书名试验录.md
 endeavors:
 - id: guji-张仲景-endeavor-1
-  title_zh: 勤求古训著伤寒杂病论
-  summary_zh: 博采众方辨伤寒与杂病，分经辨证立经方体系以救疫疠夭枉
+  title_zh: 坐堂行医创六经辨证
+  summary_zh: 以太守之身破吏不坐堂之俗亲诊伤寒立六经辨证之纲
   phases:
   - key: brewing
-    name: 南阳勤学奠基
+    name: 南阳博学勤求
     labels:
       zh:
       - 勤求古训
-      - 博采众方
-    start_date: '0168-01-01'
-    highlight_event_id: guji-张仲景-event-study
+    start_date: '0160-01-01'
+    highlight_event_id: guji-张仲景-event-birth
   - key: breakthrough
-    name: 长沙行医辨证
+    name: 长沙坐堂问疾
     labels:
       zh:
-      - 坐堂行医
-      - 辨证施治
+      - 坐堂济世
     start_date: '0196-01-01'
-    highlight_event_id: guji-张仲景-event-office
+    highlight_event_id: guji-张仲景-event-sit-hall
   - key: climax
-    name: 著论成书救世
+    name: 六经纲纪初定
     labels:
       zh:
-      - 著书立说
-      - 经方救疫
-    start_date: '0205-01-01'
-    highlight_event_id: guji-张仲景-event-book
-  - key: closure
-    name: 杂病金匮流传
-    labels:
-      zh:
-      - 金匮要略
-      - 杂病心法
-    start_date: '0210-01-01'
-    highlight_event_id: guji-张仲景-event-jinkui
+      - 六经辨证
+    start_date: '0200-01-01'
+    highlight_event_id: guji-张仲景-event-sit-hall
   decisions:
   - date: '0196-01-01'
-    title_zh: 出任长沙太守坐堂行医
-    rationale: 不以官废医使吏民皆得就诊，践行进则救世之志
-  - date: '0205-01-01'
-    title_zh: 融伤寒杂病为一论分别施治
-    rationale: 伤寒急暴杂病内损各异，当分经辨证立法处方使后学有法可依
+    title_zh: 破俗坐堂亲诊
+    rationale: 不忍百姓无医求治遂于月初望日坐堂诊疾以通医道
+  - date: '0200-01-01'
+    title_zh: 立六经以统伤寒
+    rationale: 见病证纷杂无纲遂以阴阳表里寒热虚实分六经以提纲挈领
 - id: guji-张仲景-endeavor-2
-  title_zh: 明脏腑经络先后倡治未病
-  summary_zh: 立见肝传脾先实脾之法，教人养慎导引以防邪入腠理
+  title_zh: 博采众方著伤寒杂病论
+  summary_zh: 采素问九卷八十一难阴阳大论及扁鹊仓公旧方著书传后
   phases:
   - key: brewing
-    name: 察色按脉知传变
+    name: 搜采旧经方论
     labels:
       zh:
-      - 望闻问切
-      - 四季藏象
-    start_date: '0196-01-01'
-    highlight_event_id: guji-张仲景-event-office
-  - key: breakthrough
-    name: 立治未病大法
-    labels:
-      zh:
-      - 见肝传脾
-      - 先实脾土
+      - 博采众方
     start_date: '0205-01-01'
-    highlight_event_id: guji-张仲景-event-book
-  - key: climax
-    name: 金匮杂病防微
-    labels:
-      zh:
-      - 痉湿百合
-      - 狐惑疟病
-    start_date: '0210-01-01'
-    highlight_event_id: guji-张仲景-event-jinkui
+    highlight_event_id: guji-张仲景-event-write
   - key: closure
-    name: 养慎遗训传后
+    name: 著书传世惠后
     labels:
       zh:
-      - 养慎避邪
-      - 导引吐纳
-    start_date: '0219-01-01'
-    highlight_event_id: guji-张仲景-event-death
+      - 著书立言
+    start_date: '0210-01-01'
+    highlight_event_id: guji-张仲景-event-write
   decisions:
   - date: '0205-01-01'
-    title_zh: 提出见肝之病当先实脾
-    rationale: 肝病传脾四季脾王不受邪，先固脾土则水火金木相生不乱
+    title_zh: 勤求古训合参今验
+    rationale: 恐古训散佚而时医守温不辨遂遍采经方以求是
   - date: '0210-01-01'
-    title_zh: 教导引吐纳针灸膏摩防病
-    rationale: 四肢重滞即治勿令九窍闭塞，适中经络未流传腑脏即医治之可免大病
+    title_zh: 分伤寒杂病系法
+    rationale: 为使学者易循遂分表里阴阳立法处方以垂法后世
 events:
 - id: guji-张仲景-event-birth
+  type: birth
   title_zh: 生于南阳涅阳
   date: '0150-01-01'
   year_of: 150
-  place_zh: 南阳涅阳
-  description_zh: 汉末生于南阳，少时好医，宗族疫亡促其立志学医
-- id: guji-张仲景-event-study
-  title_zh: 师事张伯祖勤求古训
-  date: '0168-01-01'
-  year_of: 168
-  place_zh: 南阳
-  description_zh: 从同郡张伯祖学医，博采众方勤求素问难经阴阳大论之旨
-- id: guji-张仲景-event-office
+  location_zh: 南阳郡涅阳县
+  summary_zh: 汉桓帝时生于南阳少颖悟好医方感宗族夭横立志学医
+- id: guji-张仲景-event-sit-hall
+  type: career
   title_zh: 出任长沙太守坐堂行医
-  date: '0196-01-01'
+  date: '0196-02-01'
   year_of: 196
-  place_zh: 长沙
-  description_zh: 建安初任长沙太守，不以官废医，坐堂诊病辨中风历节痉湿之证
-- id: guji-张仲景-event-book
-  title_zh: 著伤寒杂病论辨伤寒杂病
-  date: '0205-01-01'
-  year_of: 205
-  place_zh: 荆州
-  description_zh: 感宗族二百余口十居其七死于伤寒，著十六卷论伤寒六经与杂病辨证经方
-- id: guji-张仲景-event-jinkui
-  title_zh: 立金匮杂病脏腑经络先后法
+  location_zh: 长沙郡
+  summary_zh: 建安初为长沙太守不避吏不坐堂之俗每月初望坐堂诊疾全活甚众并悟六经辨证之要
+- id: guji-张仲景-event-write
+  type: career
+  title_zh: 撰成伤寒杂病论
   date: '0210-01-01'
   year_of: 210
-  place_zh: 荆州
-  description_zh: 论脏腑经络先后治未病，辨百合狐惑阴阳毒疟病中风历节，垂栝蒌桂枝葛根诸方
+  location_zh: 长沙南阳之间
+  summary_zh: 博采素问九卷八十一难扁鹊仓公之书结合坐堂亲验撰伤寒杂病论十六卷立方百余以垂后世钱氏产科亦遵其脉法书意
 - id: guji-张仲景-event-death
+  type: death
   title_zh: 卒于建安末年
   date: '0219-01-01'
   year_of: 219
-  place_zh: 南阳
-  description_zh: 建安末年逝世，经方医道由后学整理，金匮要略方论传于后世
+  location_zh: 荆州
+  summary_zh: 建安末年病卒其书经王叔和整理传世后世尊为医圣为女科伤寒之宗

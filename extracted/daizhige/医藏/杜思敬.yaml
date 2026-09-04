@@ -1,0 +1,143 @@
+person:
+  qid: guji-杜思敬
+  name_zh: 杜思敬
+  names:
+    zh: 杜思敬
+    en: Du Sijing
+  lifespan:
+    birth:
+      date: '1235'
+      precision: year
+      is_circa: true
+      raw: 元初约生
+    death:
+      date: '1315'
+      precision: year
+      is_circa: true
+      raw: 元大德后约卒
+  birth_date: '1235'
+  death_date: '1315'
+  era: 元
+  reign_ref: 元世祖至元至成宗大德间
+  archetype: 医书编纂者
+  dilemmas:
+  - title_zh: 灵枢浩博初学难入
+    description: 经文卷帙浩大义理散漫，欲存经旨又欲便于诵习，故决意删繁举要
+  - title_zh: 针下有风险守补泻之戒
+    description: 气血多少虚实各异，补虚泻实毫厘系命，故谨守部分经穴不敢妄施
+  lesson: 删繁就简，执简驭繁，守经达变以利后学
+  summary_first_person: 吾为元初医者，见灵枢针经义博难究，学者望洋，故节录十二经气血多少，是动所生诸病，以及各经井荥俞经合孔穴主治，成针经节要一编，愿后人按经取穴，调其气血，补虚泻实而全其生
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%92%88%E7%BB%8F%E8%8A%82%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%92%88%E7%BB%8F%E8%8A%82%E8%A6%81.html
+endeavors:
+- id: guji-杜思敬-endeavor-1
+  title_zh: 节录灵枢成针经节要
+  summary: 以总论明十二经气血，以是动病明经脉为病，以穴治证明细孔穴定位主治，使针灸有据可依
+  phases:
+  - key: brewing
+    name: 遍览灵枢酝酿节要
+    labels:
+      zh: 研经
+    start_date: '1270'
+    highlight_event_id: guji-杜思敬-event-study-ling Shu
+  - key: breakthrough
+    name: 立总论定气血纲领
+    labels:
+      zh: 立纲
+    start_date: '1280'
+    highlight_event_id: guji-杜思敬-event-zonglun
+  - key: climax
+    name: 列经病穴证成编
+    labels:
+      zh: 成编
+    start_date: '1285'
+    highlight_event_id: guji-杜思敬-event-compiling-zhenjing
+  - key: closure
+    name: 传抄授徒以利后学
+    labels:
+      zh: 流传
+    start_date: '1290'
+    highlight_event_id: guji-杜思敬-event-compiling-zhenjing
+  decisions:
+  - date: '1280'
+    title_zh: 以气血多少为总纲
+    rationale: 先明肝多血少气胃多气多血等差别，令学者用针前先知虚实
+  - date: '1285'
+    title_zh: 以是动所生分别气血病
+    rationale: 动则言气变，所生言血变，气血分途则病机清晰
+  - date: '1285'
+    title_zh: 以井荥俞经合系穴治
+    rationale: 每经举五输原穴并详刺灸分寸，执简而能驭繁
+- id: guji-杜思敬-endeavor-2
+  title_zh: 汇刊济生方书弘扬针道
+  summary: 不仅节针经，更汇集诸家方论，编济生拔萃，令针药并重，惠及民间
+  phases:
+  - key: brewing
+    name: 行医民间积累验案
+    labels:
+      zh: 行医
+    start_date: '1275'
+    highlight_event_id: guji-杜思敬-event-study-ling Shu
+  - key: breakthrough
+    name: 参合甄权诸家针法
+    labels:
+      zh: 参合
+    start_date: '1290'
+    highlight_event_id: guji-杜思敬-event-zonglun
+  - key: climax
+    name: 编刊济生拔萃
+    labels:
+      zh: 刊书
+    start_date: '1300'
+    highlight_event_id: guji-杜思敬-event-jishengbachui
+  - key: closure
+    name: 付梓流布后世宗之
+    labels:
+      zh: 刊行
+    start_date: '1305'
+    highlight_event_id: guji-杜思敬-event-jishengbachui
+  decisions:
+  - date: '1290'
+    title_zh: 引甄权成君绰等验案
+    rationale: 以喉闭三日一针即愈等实案证针效，坚后学信心
+  - date: '1300'
+    title_zh: 针药并载不偏废
+    rationale: 针主调气血，药主扶正祛邪，二者相济方能济生
+events:
+- id: guji-杜思敬-event-birth
+  date: '1235'
+  year_of: 1235
+  title_zh: 诞生于元初
+  description: 约生于元初北方，少习医经，长而专攻素问灵枢针法
+  related_endeavor_id: guji-杜思敬-endeavor-1
+- id: guji-杜思敬-event-study-ling Shu
+  date: '1270'
+  year_of: 1270
+  title_zh: 研读灵枢经脉孔穴
+  description: 遍览灵枢经水十二经诸篇，考溪谷远近气血多少，立志节要以便初学
+  related_endeavor_id: guji-杜思敬-endeavor-1
+- id: guji-杜思敬-event-zonglun
+  date: '1280'
+  year_of: 1280
+  title_zh: 草定总论气血多少
+  description: 先定肝少气多血肺少血多气胃多气多血等总论，为全书纲领
+  related_endeavor_id: guji-杜思敬-endeavor-1
+- id: guji-杜思敬-event-compiling-zhenjing
+  date: '1285'
+  year_of: 1285
+  title_zh: 编成针经节要
+  description: 依次列十二经是动所生之病，再列手太阴至少阴足三阴阳明诸经井荥俞经合穴位治证，书成传抄
+  related_endeavor_id: guji-杜思敬-endeavor-1
+- id: guji-杜思敬-event-jishengbachui
+  date: '1300'
+  year_of: 1300
+  title_zh: 编刊济生拔萃
+  description: 以针经节要为针灸门，更汇诸家方论成济生拔萃，刊行于世惠及后学
+  related_endeavor_id: guji-杜思敬-endeavor-2
+- id: guji-杜思敬-event-death
+  date: '1315'
+  year_of: 1315
+  title_zh: 卒于元大德后
+  description: 晚年以著述授徒终老，其节要之法为后世针灸蒙学所宗
+  related_endeavor_id: guji-杜思敬-endeavor-2
