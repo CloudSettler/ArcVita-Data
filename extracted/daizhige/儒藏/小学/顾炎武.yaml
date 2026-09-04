@@ -9,140 +9,118 @@ person:
       date: 1613-07-15
       precision: day
       is_circa: false
-      raw: 明万历四十一年六月二十八
+      raw: 明万历四十一年六月二十八日
     death:
       date: 1682-02-15
       precision: day
       is_circa: false
-      raw: 清康熙二十一年正月初九
+      raw: 清康熙二十一年正月初八日
   birth_date: 1613-07-15
   death_date: 1682-02-15
   era: 明末清初
   reign_ref: 清康熙
-  archetype: 考据经世宗师
+  archetype: 考据经学家
   dilemmas:
-  - 仕清保身与守节不仕之间坚守故国之节
-  - 训诂考据与经世致用之间求实学济天下
-  lesson: 博学于文行己有耻以实证求本音以经术济时艰
-  summary_first_person: 我是昆山顾炎武字宁人号亭林明亡后不仕遍游天下著书以明道考古音以正诗经之读撰日知录与利病书以经世自许守节终身
+  - 吴棫韵补合者半否者半当如何甄别取舍
+  - 世盛行陈子谦之书而不知出于吴才老当如何正本清源
+  lesson: 博采而精辨一以贯之方能复古音之旧
+  summary_first_person: 余为唐韵正已成书矣念考古之功实始于吴才老因假读其韵补月余一一注其合否名曰韵补正以附古音表之后愿与天下讲习六经之音以复三代之旧
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E8%AF%97%E6%9C%AC%E9%9F%B3.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E8%AF%97%E6%9C%AC%E9%9F%B3.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/小学/韵补正.md
+  - https://daizhige.org/儒藏/小学/韵补正.html
 endeavors:
 - id: guji-顾炎武-endeavor-1
-  title_zh: 音学五书与诗本音考据
-  summary: 主陈第诗无叶韵说参互经文证古本音
+  title_zh: 考定古音撰唐韵正与古音表
+  summary: 精别古音撰唐韵正及古音表为韵补正奠定衡准
   phases:
   - key: brewing
-    name: 遍览经传积累古韵材料
+    name: 遍考三代秦汉韵文
     labels:
-      zh:
-      - 积累
-      - 博览
+      zh: 酝酿
     start_date: 1645-01-01
-    highlight_event_id: guji-顾炎武-event-1
+    highlight_event_id: guji-顾炎武-event-birth
   - key: breakthrough
-    name: 立本经互证法破叶韵说
+    name: 完成唐韵正初稿
     labels:
-      zh:
-      - 考据
-      - 立法
-    start_date: 1655-01-01
-    highlight_event_id: guji-顾炎武-event-2
-  - key: climax
-    name: 诗本音十卷全列经文注音
-    labels:
-      zh:
-      - 著述
-      - 古音
+      zh: 突破
     start_date: 1660-01-01
-    highlight_event_id: guji-顾炎武-event-2
-  - key: closure
-    name: 音论唐韵正等五书互辅成体系
+    highlight_event_id: guji-顾炎武-event-tangyunzheng
+  - key: climax
+    name: 立古音表总纲
     labels:
-      zh:
-      - 成书
-      - 传世
+      zh: 高潮
     start_date: 1667-01-01
-    highlight_event_id: guji-顾炎武-event-2
+    highlight_event_id: guji-顾炎武-event-tangyunzheng
+  - key: closure
+    name: 以古音表衡吴棫之书
+    labels:
+      zh: 收束
+    start_date: 1666-11-20
+    highlight_event_id: guji-顾炎武-event-yunbuzheng
   decisions:
-  - date: 1655-01-01
-    title_zh: 宗陈第诗无叶韵而密之
-    rationale: 以本经之音互相参考证以他书明古原作是读非由迁就
   - date: 1660-01-01
-    title_zh: 每诗全录经文句下注音
-    rationale: 与今韵合者注广韵某部异者注古音以存本音条理
+    title_zh: 不袭吴棫旧说自立古音体系
+    rationale: 吴棫韵补泛滥无律一字数叶必须一以贯之甄别部居
+  - date: 1667-01-01
+    title_zh: 作古音表为衡准
+    rationale: 非有总表则采摭虽博终至荡弃绳墨故先立绳墨后衡诸家
 - id: guji-顾炎武-endeavor-2
-  title_zh: 经世致用游历著述
-  summary: 游历天下考利病撰日知录以明天下之治
+  title_zh: 假读吴棫韵补作韵补正一卷
+  summary: 过东莱假任唐臣藏本月余逐韵注合否疑与转用以正叶韵之失
   phases:
   - key: brewing
-    name: 昆山罹难发愤经世
+    name: 过东莱借得韵补全本
     labels:
-      zh:
-      - 气节
-      - 立志
-    start_date: 1645-01-01
-    highlight_event_id: guji-顾炎武-event-1
+      zh: 酝酿
+    start_date: 1666-10-01
+    highlight_event_id: guji-顾炎武-event-yunbuzheng
   - key: breakthrough
-    name: 北游三晋访俗考利病
+    name: 分合否疑转用五例注正
     labels:
-      zh:
-      - 游历
-      - 实测
-    start_date: 1657-01-01
-    highlight_event_id: guji-顾炎武-event-3
+      zh: 突破
+    start_date: 1666-11-01
+    highlight_event_id: guji-顾炎武-event-yunbuzheng
   - key: climax
-    name: 日知录天下郡国利病书渐成
+    name: 辨吴棫二书及朱子误会
     labels:
-      zh:
-      - 经世
-      - 巨著
-    start_date: 1662-01-01
-    highlight_event_id: guji-顾炎武-event-3
+      zh: 高潮
+    start_date: 1666-11-20
+    highlight_event_id: guji-顾炎武-event-yunbuzheng
   - key: closure
-    name: 拒征明史守节著述终身
+    name: 书成附于古音表之后
     labels:
-      zh:
-      - 守节
-      - 完成
-    start_date: 1679-01-01
-    highlight_event_id: guji-顾炎武-event-death
+      zh: 收束
+    start_date: 1666-11-20
+    highlight_event_id: guji-顾炎武-event-yunbuzheng
   decisions:
-  - date: 1657-01-01
-    title_zh: 决意北游足迹遍天下
-    rationale: 读万卷书行万里路合学问与山川风俗以求实用
-  - date: 1679-01-01
-    title_zh: 坚辞博学鸿词与明史馆之征
-    rationale: 不仕新朝以全故国之节保名教而续斯文
+  - date: 1666-11-01
+    title_zh: 合者存否者黜疑者阙
+    rationale: 其中合者半否者半疑者存其见于诗易者以示阙疑不敢强决
+  - date: 1666-11-20
+    title_zh: 明辨叶韵补音与韵补二书
+    rationale: 世人以五卷韵补冒十卷叶韵因诬朱子必须详检正名以免迷途
 events:
 - id: guji-顾炎武-event-birth
   title_zh: 生于昆山
   date: 1613-07-15
   year_of: 1613
-  place_zh: 南直隶苏州府昆山
-  description: 明万历四十一年六月二十八生顾氏名炎武字宁人
-- id: guji-顾炎武-event-1
-  title_zh: 昆山抗清母殉国发愤著述
-  date: 1645-08-01
-  year_of: 1645
-  place_zh: 昆山
-  description: 清兵下江南昆山陷继母王氏守节死炎武志复明转入著述经世
-- id: guji-顾炎武-event-2
-  title_zh: 音学五书诗本音成书
-  date: 1667-12-01
+  event_type: birth
+  description: 明万历四十一年生于南直隶昆山为一生考据经世之始
+- id: guji-顾炎武-event-tangyunzheng
+  title_zh: 撰成唐韵正
+  date: 1667-01-01
   year_of: 1667
-  place_zh: 山西陕西寓所
-  description: 以十年之功成音学五书诗本音十卷主诗无叶韵全列经文注其本音
-- id: guji-顾炎武-event-3
-  title_zh: 天下郡国利病书日知录奠基
-  date: 1662-01-01
-  year_of: 1662
-  place_zh: 北方各地
-  description: 北游考察山川形势吏治得失撰天下郡国利病书及日知录以经世
+  event_type: work
+  description: 精研古音撰成唐韵正并作古音表为衡准诸韵之纲
+- id: guji-顾炎武-event-yunbuzheng
+  title_zh: 作韵补正一卷
+  date: 1666-11-20
+  year_of: 1666
+  event_type: work
+  description: 丙午孟冬假东莱任唐臣藏吴棫韵补读一月余逐部注合否疑及转用成韵补正以附古音表后
 - id: guji-顾炎武-event-death
   title_zh: 卒于曲沃
   date: 1682-02-15
   year_of: 1682
-  place_zh: 山西曲沃
-  description: 清康熙二十一年正月初九以坠马伤卒于曲沃寓所年七十
+  event_type: death
+  description: 清康熙二十一年正月初八卒于山西曲沃其书后入四库列小学韵书之属
