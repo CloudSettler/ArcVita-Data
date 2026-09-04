@@ -9,126 +9,136 @@ person:
       date: '0652'
       precision: year
       is_circa: true
-      raw: 贞观二十六年生于于阗
+      raw: 唐贞观末生于阗国
     death:
-      date: '0710'
-      precision: year
+      date: '0710-10-13'
+      precision: day
       is_circa: false
-      raw: 景龙四年卒于长安
+      raw: 唐景龙四年九月寂于长安
   birth_date: '0652'
-  death_date: '0710'
+  death_date: '0710-10-13'
   era: 唐
-  reign_ref: 武周
-  archetype: 译经弘法者
+  reign_ref: 武周圣历至景龙
+  archetype: 译经三藏
   dilemmas:
-  - title_zh: 梵本浩繁而华梵悬隔何以取信
-    description: 华严梵本浩大须会通义理又令华言畅达
-  - title_zh: 朝廷崇重与山林本愿何以两全
-    description: 应诏入京主持译场名位隆重而初心在弘法利生
-  lesson: 心造善恶因果不虚当昼夜观察善法修习十善以为人天根本佛法大地
-  summary_first_person: 吾本于阗沙门蒙诏入唐主持译经以华严为重复译十善业道劝龙王及众生离十恶修十善令善法增长
+  - 梵本阙略与奉制期迫之间如何兼顾信达雅正
+  - 世人贪求绕塔福报如何导归出世般若正见
+  lesson: 右绕一匝本于敬信译经一句存乎诚敬福慧双修方证菩提
+  summary_first_person: 我生于阗慕道入唐奉制至洛重译华严复译右绕佛塔功德经愿以绕塔敬心令众生离八难具相好终成无漏圣果
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/十善业道经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/十善业道经.md
+  - https://daizhige.org/Right绕佛塔功德经.html
+  - https://tripitaka.cbeta.org/T07n0700
 endeavors:
 - id: guji-实叉难陀-endeavor-1
-  title_zh: 重译大方广佛华严经
-  summary: 应武周诏入洛阳组织译场重译八十华严奠定华严宗经本基础
+  person_qid: guji-实叉难陀
+  title_zh: 奉制入洛重译八十华严
+  summary: 应武后之请携梵本至洛阳与法藏等共译大方广佛华严经八十卷奠定华严宗译本基础
   phases:
   - key: brewing
-    name: 于阗学养
+    name: 于阗学成怀经东来
     labels:
-      zh: 于阗习学
-    start_date: '0652'
-    highlight_event_id: guji-实叉难陀-event-birth
+      zh: 蕴酿
+    start_date: 0685
+    highlight_event_id: guji-实叉难陀-event-luoyang
   - key: breakthrough
-    name: 应诏入洛
+    name: 洛阳佛授记寺开译
     labels:
-      zh: 入京开场
-    start_date: 0695
-    highlight_event_id: guji-实叉难陀-event-huayan-start
+      zh: 突破
+    start_date: 0691
+    highlight_event_id: guji-实叉难陀-event-luoyang
   - key: climax
-    name: 八十华严成
+    name: 华严八十卷译成进呈
     labels:
-      zh: 译场高峰
+      zh: 高潮
     start_date: 0699
-    highlight_event_id: guji-实叉难陀-event-huayan-done
+    highlight_event_id: guji-实叉难陀-event-huayan
   - key: closure
-    name: 弘传付嘱
+    name: 讲演流通付嘱法藏
     labels:
-      zh: 付嘱流通
+      zh: 收束
     start_date: '0700'
-    highlight_event_id: guji-实叉难陀-event-huayan-done
+    highlight_event_id: guji-实叉难陀-event-huayan
   decisions:
-  - date: 0695
-    title_zh: 应诏赴洛主持译场
-    rationale: 为令大方广法流通东土不辞远涉顺缘入京
+  - date: 0691
+    title_zh: 应诏赴洛携梵本东行
+    rationale: 以圣旨护持正教因缘译场具足故不辞远道以弘大乘
   - date: 0699
-    title_zh: 审定华严文义务令兼备
-    rationale: 梵本阙略处以义补之使理畅文顺取信后学
+    title_zh: 以法藏为笔受详定华严文义
+    rationale: 华严义广非深解者莫能定句故借贤首之智以就信达
 - id: guji-实叉难陀-endeavor-2
-  title_zh: 译传十善业道经
-  summary: 于龙宫说法缘起下译出十善业道详明离十恶得福果劝菩萨以施等庄严善业
+  person_qid: guji-实叉难陀
+  title_zh: 译弘右绕佛塔功德经
+  summary: 于长安译出右绕佛塔功德经明绕塔所得天人福报乃至独觉菩提以身语敬绕导俗归真
   phases:
   - key: brewing
-    name: 观察善法
+    name: 舍卫请问因缘观察
     labels:
-      zh: 思惟善法
-    start_date: 0695
-    highlight_event_id: guji-实叉难陀-event-huayan-start
+      zh: 蕴酿
+    start_date: 0699
+    highlight_event_id: guji-实叉难陀-event-huayan
   - key: breakthrough
-    name: 龙宫说法译定
+    name: 奉制译出绕塔功德偈
     labels:
-      zh: 译出十善
+      zh: 突破
     start_date: '0700'
-    highlight_event_id: guji-实叉难陀-event-shishan
+    highlight_event_id: guji-实叉难陀-event-raota
   - key: climax
-    name: 十善功德广宣
+    name: 广说绕塔离难成圣果
     labels:
-      zh: 广宣因果
-    start_date: '0701'
-    highlight_event_id: guji-实叉难陀-event-shishan
+      zh: 高潮
+    start_date: '0700'
+    highlight_event_id: guji-实叉难陀-event-raota
   - key: closure
-    name: 以十善为大地付众奉行
+    name: 众会欢喜信受奉行
     labels:
-      zh: 嘱累奉行
-    start_date: '0710'
-    highlight_event_id: guji-实叉难陀-event-death
+      zh: 收束
+    start_date: '0701'
+    highlight_event_id: guji-实叉难陀-event-raota
   decisions:
   - date: '0700'
-    title_zh: 举龙王为当机详说十善
-    rationale: 众生心想异故造业异须借龙王杂类彰显因果昭然
+    title_zh: 以偈体直译绕塔功德令易持诵
+    rationale: 偈颂句摄事理利钝兼收故存梵偈之体以便绕塔时称念
   - date: '0701'
-    title_zh: 以六度四摄庄严十善
-    rationale: 使十善不止人天福转为菩提根本摄尽一切佛法
+    title_zh: 以福德果报接引终归空性圣果
+    rationale: 先以欲钩牵后令入佛智故详陈人天妙果终说见诸行皆空
 events:
 - id: guji-实叉难陀-event-birth
-  title_zh: 生于于阗
+  person_qid: guji-实叉难陀
+  kind: birth
+  title_zh: 生于阗国出家学法
   date: '0652'
   year_of: 652
-  location: 于阗
-  description: 贞观末年生于于阗出家学大乘通三藏
-- id: guji-实叉难陀-event-huayan-start
-  title_zh: 入洛阳主持华严译场
-  date: 0695
-  year_of: 695
-  location: 洛阳大遍空寺
-  description: 武周证圣元年应请至洛与菩提流志义净等共译大方广佛华严经
-- id: guji-实叉难陀-event-huayan-done
-  title_zh: 八十华严译毕
+  place_zh: 于阗国
+  description: 生于阗王族之家幼出家博通大小乘及咒术围陀后怀道东渐
+- id: guji-实叉难陀-event-luoyang
+  person_qid: guji-实叉难陀
+  kind: career
+  title_zh: 奉武后诏至洛阳开译场
+  date: 0691
+  year_of: 691
+  place_zh: 东都洛阳佛授记寺
+  description: 武周遣使迎请至洛与法藏义净等同译华严楞伽等经声名大振
+- id: guji-实叉难陀-event-huayan
+  person_qid: guji-实叉难陀
+  kind: career
+  title_zh: 八十华严译成进呈御览
   date: 0699
   year_of: 699
-  location: 洛阳佛授记寺
-  description: 圣历二年译出八十卷华严武后亲制序文举朝迎重
-- id: guji-实叉难陀-event-shishan
-  title_zh: 奉制译十善业道经
+  place_zh: 洛阳大遍空寺
+  description: 圣历二年译毕大方广佛华严经八十卷武后亲制序文颁行天下
+- id: guji-实叉难陀-event-raota
+  person_qid: guji-实叉难陀
+  kind: career
+  title_zh: 译出右绕佛塔功德经
   date: '0700'
   year_of: 700
-  location: 长安
-  description: 述佛在娑竭罗龙宫告龙王之法明十善业道离恶得福回向菩提以十善大地喻显其为一切佛法所依
+  place_zh: 长安
+  description: 奉制译舍利弗请问绕塔果报之经明右绕佛塔远离八难具足相好终证菩提舍利弗等欢喜奉行
 - id: guji-实叉难陀-event-death
-  title_zh: 卒于长安
-  date: '0710'
+  person_qid: guji-实叉难陀
+  kind: death
+  title_zh: 示寂于长安荼毗起塔
+  date: '0710-10-13'
   year_of: 710
-  location: 长安大荐福寺
-  description: 景龙四年示寂于大荐福寺春秋五十九送归葬于阗
+  place_zh: 长安
+  description: 景龙四年九月示寂于长安寿五十九中宗令百官送葬荼毗于开远桥侧
