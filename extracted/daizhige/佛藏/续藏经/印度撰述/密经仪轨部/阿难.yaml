@@ -1,0 +1,129 @@
+person:
+  qid: guji-阿难
+  name_zh: 阿难
+  names:
+    zh: 阿难
+    en: Ananda
+  lifespan:
+    birth:
+      date: '-543'
+      precision: year
+      is_circa: true
+      raw: 约公元前五四三年
+    death:
+      date: '-463'
+      precision: year
+      is_circa: true
+      raw: 约公元前四六三年
+  birth_date: '-543'
+  death_date: '-463'
+  era: 古印度十六大国时期
+  reign_ref: 摩揭陀国阿阇世王时期
+  archetype: 持法侍者
+  dilemmas:
+  - 维耶离疫气炽盛死亡无数无所归趣当如何代众请法
+  - 得闻七鬼神名号神咒之后当如何受持流通以安万姓
+  lesson: 代众请法受持流通能却温疫安稳众生
+  summary_first_person: 我是阿难亲随世尊于王舍城竹林精舍见维耶离疫毒盛行代众长跪请法得闻七鬼神名号神咒愿受持流通令众离苦得安
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E5%8D%B0%E5%BA%A6%E6%92%B0%E8%BF%B0/%E5%AF%86%E7%BB%8F%E4%BB%AA%E8%BD%A8%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%8D%B4%E6%B8%A9%E9%BB%84%E7%A5%9E%E5%92%92%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E5%8D%B0%E5%BA%A6%E6%92%B0%E8%BF%B0/%E5%AF%86%E7%BB%8F%E4%BB%AA%E8%BD%A8%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%8D%B4%E6%B8%A9%E9%BB%84%E7%A5%9E%E5%92%92%E7%BB%8F.md
+endeavors:
+- id: guji-阿难-endeavor-1
+  title_zh: 王舍城代众请却温法
+  summary: 随侍世尊于竹林精舍见维耶离疫毒长跪请说圣术
+  phases:
+  - key: brewing
+    name: 目睹疫患
+    labels:
+      zh: 起请
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-qingfa
+  - key: breakthrough
+    name: 长跪请法
+    labels:
+      zh: 请法
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-qingfa
+  - key: climax
+    name: 蒙佛教诲
+    labels:
+      zh: 得法
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-qiwen
+  - key: closure
+    name: 发愿受持
+    labels:
+      zh: 受持
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-qiwen
+  decisions:
+  - date: '-483'
+    title_zh: 长跪合掌为维耶离请法
+    rationale: 见疫气猛盛赫赫如火死亡无数无方救疗故代四众求说圣术以令安稳离苦
+- id: guji-阿难-endeavor-2
+  title_zh: 受持流通却温神咒经
+  summary: 领受七鬼神名号神咒劝人书写读诵安门户以却温疫
+  phases:
+  - key: brewing
+    name: 领受咒名
+    labels:
+      zh: 领受
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-qiwen
+  - key: breakthrough
+    name: 请问经名
+    labels:
+      zh: 请名
+    start_date: '-483'
+    highlight_event_id: guji-阿难-event-chuanchi
+  - key: climax
+    name: 劝人书写受持
+    labels:
+      zh: 流通
+    start_date: '-482'
+    highlight_event_id: guji-阿难-event-chuanchi
+  - key: closure
+    name: 大众奉行
+    labels:
+      zh: 奉行
+    start_date: '-482'
+    highlight_event_id: guji-阿难-event-chuanchi
+  decisions:
+  - date: '-482'
+    title_zh: 劝请书写读诵流通
+    rationale: 令温鬼永断不过门户一身不染天行众生延年养寿大吉祥故专心劝持此经
+events:
+- id: guji-阿难-event-birth
+  type: birth
+  title_zh: 阿难诞生
+  date: '-543'
+  year_of: -543
+  description: 释迦族人于迦毗罗卫诞生后出家为佛侍者多闻第一
+- id: guji-阿难-event-qingfa
+  type: endeavor
+  title_zh: 竹林精舍请却温法
+  date: '-483'
+  year_of: -483
+  endeavor_ref: guji-阿难-endeavor-1
+  description: 王舍城竹林精舍与四部众俱会时长跪白佛维耶离疫毒求说圣术以却毒气
+- id: guji-阿难-event-qiwen
+  type: endeavor
+  title_zh: 得闻七鬼神咒名
+  date: '-483'
+  year_of: -483
+  endeavor_ref: guji-阿难-endeavor-1
+  description: 蒙佛说梦多难鬼等七鬼神名号及神咒并咒水与饮书名系门之法
+- id: guji-阿难-event-chuanchi
+  type: endeavor
+  title_zh: 劝持流通此经
+  date: '-482'
+  year_of: -482
+  endeavor_ref: guji-阿难-endeavor-2
+  description: 请问经名奉持劝人书写受持读诵斋戒不食熏辛以消殃却害
+- id: guji-阿难-event-death
+  type: death
+  title_zh: 阿难示寂
+  date: '-463'
+  year_of: -463
+  description: 结集经藏传持正法后于恒河中示寂令正法久住
