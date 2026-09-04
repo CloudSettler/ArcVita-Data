@@ -9,132 +9,138 @@ person:
       date: 0976
       precision: year
       is_circa: false
-      raw: 天禧五年自述行年四十六推得
+      raw: 宋建隆元年钱塘徐氏子
     death:
-      date: '1022'
-      precision: year
-      is_circa: true
-      raw: 世寿四十七示寂
+      date: '1022-02-08'
+      precision: day
+      is_circa: false
+      raw: 宋乾兴元年二月八日示寂于孤山
   birth_date: 0976
-  death_date: '1022'
+  death_date: '1022-02-08'
   era: 北宋
-  reign_ref: 宋真宗天禧五年
-  archetype: 天台宗匠与净土义疏者
+  reign_ref: 宋真宗大中祥符
+  archetype: 弘教注疏高僧
   dilemmas:
-  - title_zh: 卧疾与本誓难全
-    description: 七疏已成而卧疾经年，虑石火不久，扶羸续成三疏以填本誓
-  - title_zh: 折摄与欣厌难齐
-    description: 释迦现秽土以折伏，弥陀现净土以摄受，欲令群迷复明静之体
-  lesson: 以三观解净土，会事理以成信愿，令弱丧童蒙皆得欣求极乐而不退转
-  summary_first_person: 吾孤山沙门智圆，学天台之道，誓以三观法门撰十疏为法施，卧疾犹续成无量义普贤观及弥陀经疏，于天禧五年绝笔，愿以此为往生先容
+  - 斯文将丧而后学不知经疏之名当默默自守还是病中笔述以传后
+  - 山家山外论争并起当峻守一家教观还是融摄众说以开童蒙
+  lesson: 愍斯文一线之存因疾发愤约文敷义以明大旨而开后学
+  summary_first_person: 吾钱唐沙门智圆也幼出家而禀天台久住孤山而弘山家痛古疏之几息乃于病间作阐义钞二卷以申明请观音之大旨愿后之童蒙因钞而得入圆理
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%98%BF%E5%BC%A5%E9%99%80%E7%BB%8F%E7%96%8F-%E5%AE%8B-%E6%99%BA%E5%9C%86.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%98%BF%E5%BC%A5%E9%99%80%E7%BB%8F%E7%96%8F-%E5%AE%8B-%E6%99%BA%E5%9C%86.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E8%AF%B7%E8%A7%82%E9%9F%B3%E7%BB%8F%E7%96%8F%E9%98%90%E4%B9%89%E9%92%9E.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E8%AF%B7%E8%A7%82%E9%9F%B3%E7%BB%8F%E7%96%8F%E9%98%90%E4%B9%89%E9%92%9E.html
 endeavors:
 - id: guji-智圆-endeavor-1
-  title_zh: 立愿以天台三观撰十经义疏
-  summary: 誓用三观法门撰十疏以伸十经为法施之资，七疏成后卧疾续成其三以全本誓
+  title_zh: 孤山住持弘传天台山家教观
+  description: 钱唐出家从奉先源清学智者教晚居西湖孤山玛瑙院讲授著述力主山家正义
   phases:
   - key: brewing
-    name: 学天台立写法施愿
+    name: 幼龄出家受具
     labels:
       zh:
-      - 立愿
+      - 出家求学
+    start_date: 0983
+    highlight_event_id: guji-智圆-event-ordination
+  - key: breakthrough
+    name: 从源清研习天台
+    labels:
+      zh:
+      - 师承天台
+    start_date: 0990
+    highlight_event_id: guji-智圆-event-study
+  - key: climax
+    name: 孤山讲学领袖山家
+    labels:
+      zh:
+      - 弘法著述
     start_date: '1000'
-    highlight_event_id: guji-智圆-event-vow
-  - key: breakthrough
-    name: 七疏笔削初成
-    labels:
-      zh:
-      - 笔削
-    start_date: '1015'
-    highlight_event_id: guji-智圆-event-vow
-  - key: climax
-    name: 卧疾扶羸续三疏
-    labels:
-      zh:
-      - 续成
-    start_date: '1020'
-    highlight_event_id: guji-智圆-event-illness
+    highlight_event_id: guji-智圆-event-gushan
   - key: closure
-    name: 十疏既毕付后昆
+    name: 示寂孤山门人传业
     labels:
       zh:
-      - 圆愿
-    start_date: '1021-11-02'
-    highlight_event_id: guji-智圆-event-amituo-complete
+      - 示寂传灯
+    start_date: '1022-02-08'
+    highlight_event_id: guji-智圆-event-death
   decisions:
-  - date: '1020'
-    title_zh: 卧疾续成三疏
-    rationale: 虑石火不久过隙难留，有负畴昔之心，遂扶羸隐几续成无量义普贤观及弥陀经
-  - date: '1021-11-02'
-    title_zh: 以弥陀疏为往生先容
-    rationale: 辞理无取庶填本誓，且为往生之先容，空华之躯谷响之言于我何有
+  - date: 0990
+    title_zh: 决从奉先源清学天台教观
+    rationale: 慕智者大师教法精微欲以圆教正义化导末学故舍旁门而专宗天台
+  - date: '1000'
+    title_zh: 决居孤山玛瑙院讲授不入仕途
+    rationale: 见世风趋名而斯文将丧愿以山林讲学守道自修而庇后学故终身不就请召
 - id: guji-智圆-endeavor-2
-  title_zh: 撰佛说阿弥陀经义疏
-  summary: 约龙树之宗准智者之说，释题以五重玄义，分序正宗流通以显信愿净业与舍苦得乐
+  title_zh: 撰述请观音经疏阐义钞二卷
+  description: 悯智者请观音经疏章安所记古来无闻赞述因疾约文敷义作钞二卷以阐三谛圆理及感应宗用
   phases:
   - key: brewing
-    name: 约宗准说辨理
+    name: 披寻智者章安旧疏
     labels:
       zh:
-      - 依经辨理
-    start_date: '1021-10-01'
-    highlight_event_id: guji-智圆-event-amituo-complete
+      - 披阅旧疏
+    start_date: '1005'
+    highlight_event_id: guji-智圆-event-study
   - key: breakthrough
-    name: 五重玄义释题
+    name: 病间约文敷义成钞
     labels:
       zh:
-      - 释名辨体
-    start_date: '1021-10-15'
-    highlight_event_id: guji-智圆-event-amituo-complete
+      - 注疏阐义
+    start_date: '1008'
+    highlight_event_id: guji-智圆-event-chao
   - key: climax
-    name: 染毫绝笔成疏
+    name: 南塔上方作序标阐义之名
     labels:
       zh:
-      - 成疏
-    start_date: '1021-11-02'
-    highlight_event_id: guji-智圆-event-amituo-complete
+      - 作序立名
+    start_date: '1009-05-01'
+    highlight_event_id: guji-智圆-event-chao
   - key: closure
-    name: 义疏西资并行
+    name: 流通后学开发童蒙
     labels:
       zh:
-      - 流通
-    start_date: '1021-11-02'
-    highlight_event_id: guji-智圆-event-amituo-complete
+      - 流通化他
+    start_date: '1010'
+    highlight_event_id: guji-智圆-event-gushan
   decisions:
-  - date: '1021-11-02'
-    title_zh: 以信愿净业为经宗
-    rationale: 经云应当发愿生彼国土，闻说名号执持七日即得往生，故以信愿净业为宗要
-  - date: '1021-11-02'
-    title_zh: 判教为生苏方等大乘
-    rationale: 对告声闻非初乳顿说，谈众生作佛非酪味小乘，不说皆空不开会二乘，当属第三生苏
-  - date: '1021-11-02'
-    title_zh: 明无问自说存通阙别
-    rationale: 集众即知必请法，故如来无问自说，译者略发起而不叙，新译云为闻法故俱来会座
+  - date: '1008'
+    title_zh: 决因疾作钞以申明大旨
+    rationale: 见此疏自智者演说章安记录而传授道息后学多不知其名若默默不述则斯文遂绝故病中强笔为二卷
+  - date: '1009-05-01'
+    title_zh: 决名阐义而作序言其由
+    rationale: 欲使学 t者知疏含三番三义并归圆理不滞名相故标阐义之名而序于南塔上方病中
 events:
 - id: guji-智圆-event-birth
   date: 0976
   year_of: 976
-  title_zh: 出生
-  description: 推算生于宋乾德至开宝间，钱塘人，后号孤山沙门中庸子
-- id: guji-智圆-event-vow
-  date: '1008'
-  year_of: 1008
-  title_zh: 立愿撰十疏
-  description: 忝学天台之道，誓以三观法门撰十疏以伸十经为法施之资
-- id: guji-智圆-event-illness
-  date: '1020'
-  year_of: 1020
-  title_zh: 卧疾经年虑负本誓
-  description: 七疏已成而卧疾经年，虑石火不久，遂决意扶羸续成其三
-- id: guji-智圆-event-amituo-complete
-  date: '1021-11-02'
-  year_of: 1021
-  title_zh: 弥陀经疏染毫绝笔
-  description: 天禧五年辛酉十月晦染毫，十一月二日午后绝笔，时行年四十六，约龙树宗准智者说成义疏
+  title_zh: 生于钱塘徐氏
+  description: 宋建隆元年生于钱唐俗姓徐幼而颖悟慕道出尘
+  place_zh: 钱塘
+- id: guji-智圆-event-ordination
+  date: 0983
+  year_of: 983
+  title_zh: 幼龄出家受具习律
+  description: 八岁出家二十一岁受具足戒后从奉先源清学天台教观
+  place_zh: 钱塘
+- id: guji-智圆-event-study
+  date: 0990
+  year_of: 990
+  title_zh: 从源清研习智者教法
+  description: 从奉先源清传天台智者大师教观深究法华涅槃玄文为山家嫡传之基
+  place_zh: 杭州奉先
+- id: guji-智圆-event-gushan
+  date: '1000'
+  year_of: 1000
+  title_zh: 居孤山玛瑙院讲学著述
+  description: 晚居西湖孤山讲经授徒著闲居编及诸经疏记为山家领袖时称孤山法师
+  place_zh: 杭州孤山
+- id: guji-智圆-event-chao
+  date: '1009-05-01'
+  year_of: 1009
+  title_zh: 南塔病中作阐义钞序
+  description: 皇宋三叶登封明年岁次己酉孟夏于南塔上方病中作请观音经疏阐义钞二卷并序以开发童蒙
+  place_zh: 南塔上方
 - id: guji-智圆-event-death
-  date: '1022'
+  date: '1022-02-08'
   year_of: 1022
-  title_zh: 示寂
-  description: 十疏既毕不久示寂，世寿四十七，后人刻义疏并期西资钞并行
+  title_zh: 示寂于孤山
+  description: 宋乾兴元年二月八日示寂于孤山世寿四十七僧腊二十余门人奉全身葬于孤山
+  place_zh: 杭州孤山
