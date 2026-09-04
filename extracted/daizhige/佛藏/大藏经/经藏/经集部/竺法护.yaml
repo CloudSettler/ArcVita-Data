@@ -3,124 +3,139 @@ person:
   name_zh: 竺法护
   names:
     zh: 竺法护
-    en: Dharmaraksha
+    en: Dharmaraksa
   lifespan:
     birth:
       date: '0230'
       precision: year
       is_circa: true
-      raw: 约生于大月氏
+      raw: 约魏正始元年敦煌
     death:
       date: 0308
       precision: year
-      is_circa: false
-      raw: 永嘉二年卒于洛阳
+      is_circa: true
+      raw: 晋永嘉二年洛阳
   birth_date: '0230'
   death_date: 0308
   era: 西晋
   reign_ref: 晋武帝至晋怀帝
   archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔而大乘深义难传
-  - 永嘉战乱流离而译场难守
-  lesson: 不惮远行求本，不辞勤苦译传，以无极宝慧普度群生
-  summary_first_person: 吾本月氏，八岁出家，游历西域三十六国，求得梵本，归于晋土，终身译经弘化，愿以无极宝三昧开众生慧眼
+  - 胡梵汉译语义难传而志在通经弘道
+  - 战乱流离道场屡迁而守意精进不舍
+  - 身爱贪著淫嗔痴盛而观空无常以制心
+  lesson: 数息守意观身非常空无方得出离安隐泥洹
+  summary_first_person: 吾本月氏裔居敦煌幼而出家西行求法携经东归毕生译经弘道但愿众生守意数息观身无常离贪恚痴同趣泥洹
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/无极宝三昧经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/无极宝三昧经.md
+  - https://daizhige.org/佛藏/大藏经/经藏/经集部/法观经.html
+  - https://tripitaka.cbeta.org/T11n0611_001
 endeavors:
 - id: guji-竺法护-endeavor-1
-  title_zh: 西域游学历求梵本
-  summary: 自敦煌西行遍历西域诸国，搜求大乘梵夹，精通三十六种语言而携归中土
+  title_zh: 西域求法携经东归
+  summary: 幼出家立志弘法西游诸国搜访梵本携归中土为译经奠基
   phases:
   - key: brewing
-    name: 少小出家立志西行
+    name: 敦煌出家博览经论
     labels:
-      zh: 发意求法
+      zh:
+      - 出家立志
     start_date: 0238
-    highlight_event_id: guji-竺法护-event-birth
+    highlight_event_id: guji-竺法护-event-ordination
   - key: breakthrough
-    name: 遍游西域得梵夹
+    name: 西行诸国访求梵本
     labels:
-      zh: 得本
-    start_date: '0255'
-    highlight_event_id: guji-竺法护-event-seek-dharma
+      zh:
+      - 西行求法
+    start_date: '0260'
+    highlight_event_id: guji-竺法护-event-seek
   - key: climax
-    name: 携经东归达敦煌
+    name: 携经东归达洛阳长安
     labels:
-      zh: 归土
-    start_date: '0265'
-    highlight_event_id: guji-竺法护-event-seek-dharma
-  - key: closure
-    name: 入洛奠定译场之基
-    labels:
-      zh: 奠基
+      zh:
+      - 携经东归
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-seek-dharma
+    highlight_event_id: guji-竺法护-event-return
+  - key: closure
+    name: 召徒立场开启译业
+    labels:
+      zh:
+      - 立场授徒
+    start_date: 0268
+    highlight_event_id: guji-竺法护-event-return
   decisions:
-  - date: '0255'
-    title_zh: 决意西逾流沙求法
-    rationale: 见中土所传多小乘，欲求大乘深典，故不惮险远而西行
-  - date: '0265'
-    title_zh: 携梵本东归弘传
-    rationale: 以法付嘱不可自利，欲令东方见宝藏，故冒难东还
+  - date: '0260'
+    title_zh: 决意西行求法
+    rationale: 中土梵本阙少义理未备故冒艰远游访求大乘禅观经典
+  - date: '0266'
+    title_zh: 定居洛阳长安设译
+    rationale: 洛都人士乐法胡汉杂居宜设译场广授弟子以传梵义
 - id: guji-竺法护-endeavor-2
-  title_zh: 洛阳长安译传大乘
-  summary: 居洛阳白马寺及长安，译出无极宝三昧经等百余部，奠定般若方等 system
+  title_zh: 译经弘法宣扬禅观
+  summary: 毕生译出一百五十余部宣扬般若华严禅观尤重数息守意观身无常
   phases:
   - key: brewing
-    name: 初译正法华等开宗
+    name: 长安洛阳开设译场
     labels:
-      zh: 初译
+      zh:
+      - 开场译经
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-translate-wuji
+    highlight_event_id: guji-竺法护-event-return
   - key: breakthrough
-    name: 译出无极宝三昧经
+    name: 译正法华光赞般若
     labels:
-      zh: 宝三昧
+      zh:
+      - 大乘宏宣
     start_date: 0286
-    highlight_event_id: guji-竺法护-event-translate-wuji
+    highlight_event_id: guji-竺法护-event-faguan
   - key: climax
-    name: 百部竞出四众归仰
+    name: 译法观经授数息三定
     labels:
-      zh: 盛译
+      zh:
+      - 禅观教授
     start_date: 0290
-    highlight_event_id: guji-竺法护-event-translate-wuji
+    highlight_event_id: guji-竺法护-event-faguan
   - key: closure
-    name: 兵乱中守经至终
+    name: 避乱弘化终老关中
     labels:
-      zh: 守法
+      zh:
+      - 守道善终
     start_date: '0304'
     highlight_event_id: guji-竺法护-event-death
   decisions:
   - date: 0286
-    title_zh: 先译无极宝三昧明空慧
-    rationale: 欲以无作无住破有想之疑，故举宝来问佛九宝八直为津梁
-  - date: '0304'
-    title_zh: 永嘉之乱不辍译事
-    rationale: 知法宝不绝则慧命不断，故流离中犹护经卷教授门人
+    title_zh: 先译大部后传禅要
+    rationale: 欲使学人先明大乘空无非常之义后授数息守意之行以次第入道
+  - date: 0290
+    title_zh: 详译法观三定四要
+    rationale: 世人贪身意乱难止故须以数息三定观身三十二物破贪趣空直向泥洹
 events:
 - id: guji-竺法护-event-birth
-  title_zh: 生于大月氏家
   date: '0230'
   year_of: 230
-  place_zh: 大月氏
-  description: 约生于月氏，世居敦煌，八岁出家，从师诵经，日记万言
-- id: guji-竺法护-event-seek-dharma
-  title_zh: 游西域三十六国求梵本
-  date: '0265'
-  year_of: 265
-  place_zh: 西域至敦煌
-  description: 遍游西域，通三十六国语言文字，得大乘梵夹而归
-- id: guji-竺法护-event-translate-wuji
-  title_zh: 译出无极宝三昧经
-  date: 0286
-  year_of: 286
-  place_zh: 洛阳
-  description: 于竹园说法之会译宝如来三昧，演九宝八直及三十二宝，明诸法本空无住
+  title_zh: 诞生于敦煌月氏家
+  description: 月氏后裔生于敦煌自幼聪敏笃乐佛法
+- id: guji-竺法护-event-ordination
+  date: 0238
+  year_of: 238
+  title_zh: 八岁出家奉师诵经
+  description: 八岁出家从师诵习博览经论志在弘通大法
+- id: guji-竺法护-event-seek
+  date: '0260'
+  year_of: 260
+  title_zh: 西游诸国搜访梵本
+  description: 携弟子西游西域诸国遍访大乘梵本得正法华般若禅经等
+- id: guji-竺法护-event-return
+  date: '0266'
+  year_of: 266
+  title_zh: 携经归洛设馆译经
+  description: 携梵本东归洛阳长安召集众贤设馆翻译声誉大振从学者众
+- id: guji-竺法护-event-faguan
+  date: 0290
+  year_of: 290
+  title_zh: 译出法观经授禅法
+  description: 译出法观经宣说数息守意三定四要观身无常空无教人断贪趣定
 - id: guji-竺法护-event-death
-  title_zh: 卒于洛阳乱中
   date: 0308
   year_of: 308
-  place_zh: 洛阳
-  description: 永嘉二年，避乱而终，年约七十八，门人奉其译本流传后世
+  title_zh: 示寂于洛阳年七十八
+  description: 永嘉之乱前示寂于洛阳世寿七十八译经弘道功垂后世
