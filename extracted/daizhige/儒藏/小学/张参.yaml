@@ -1,0 +1,148 @@
+person:
+  qid: guji-张参
+  name_zh: 张参
+  names:
+    zh: 张参
+    en: Zhang Can
+  lifespan:
+    birth:
+      date: '0730'
+      precision: year
+      is_circa: true
+      raw: 里贯未详，大历十一年为国子司业，约开元末生人
+    death:
+      date: 0785
+      precision: year
+      is_circa: true
+      raw: 卒年未详，唐代宗时人
+  birth_date: '0730'
+  death_date: 0785
+  era: 唐
+  reign_ref: 唐代宗大历十一年
+  archetype: 校经儒者
+  dilemmas:
+  - 五经本文传写讹伪荡而无守
+  - 古今异文音非一读离合难并
+  lesson: 以六书为本，正经文于屋壁，以贻后学
+  summary_first_person: 吾承诏与诸儒分经钩考，互发字义更相难极，以说文石经字林为据，定一百六十部三千二百三十五字，刊于论堂之壁，冀后学有所归
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E4%BA%94%E7%BB%8F%E6%96%87%E5%AD%97.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E4%BA%94%E7%BB%8F%E6%96%87%E5%AD%97.md
+endeavors:
+- id: guji-张参-endeavor-1
+  title_zh: 奉诏勘校五经经本
+  summary: 大历十年奉诏与诸儒分经钩考，正五经文字讹误，送尚书省
+  phases:
+  - key: brewing
+    name: 职事陈病请校经本
+    labels:
+      zh:
+      - 请校
+      - 经本
+    start_date: '0775-06-01'
+    highlight_event_id: guji-张参-event-1
+  - key: breakthrough
+    name: 分经钩考互发难极
+    labels:
+      zh:
+      - 分经
+      - 钩考
+    start_date: '0775-07-01'
+    highlight_event_id: guji-张参-event-1
+  - key: climax
+    name: 以释文众家之学决当否
+    labels:
+      zh:
+      - 释文
+      - 正字
+    start_date: '0776-01-01'
+    highlight_event_id: guji-张参-event-2
+  - key: closure
+    name: 所刊书于屋壁以知所归
+    labels:
+      zh:
+      - 书壁
+      - 论堂
+    start_date: '0776-06-07'
+    highlight_event_id: guji-张参-event-2
+  decisions:
+  - date: '0775-06-01'
+    title_zh: 以陆氏释文正经典假借
+    rationale: 释文遍通众家分析音训特详，宜以此正假借通用之字
+  - date: '0776-01-01'
+    title_zh: 存疑则朱点其傍不强决
+    rationale: 学者传授义有所存，离合难并者且存其旧以俟后考
+- id: guji-张参-endeavor-2
+  title_zh: 编定五经文字三卷
+  summary: 集疑文互体受法师儒，以说文石经字林为据，定一百六十部三千二百三十五字
+  phases:
+  - key: brewing
+    name: 虑岁久官代失其本真
+    labels:
+      zh:
+      - 立例
+      - 守真
+    start_date: '0776-03-01'
+    highlight_event_id: guji-张参-event-2
+  - key: breakthrough
+    name: 命颜传经收集疑文互体
+    labels:
+      zh:
+      - 收集
+      - 疑文
+    start_date: '0776-04-01'
+    highlight_event_id: guji-张参-event-2
+  - key: climax
+    name: 依偏旁类聚说文石经字林
+    labels:
+      zh:
+      - 六书
+      - 部居
+    start_date: '0776-05-01'
+    highlight_event_id: guji-张参-event-3
+  - key: closure
+    name: 大历十一年六月七日序成
+    labels:
+      zh:
+      - 成书
+      - 三卷
+    start_date: '0776-06-07'
+    highlight_event_id: guji-张参-event-3
+  decisions:
+  - date: '0776-04-01'
+    title_zh: 古体通行者不必改从篆
+    rationale: 说文体包古今，先得六书之要，经典通行古体则存之
+  - date: '0776-05-01'
+    title_zh: 非常体者以朱字记证据
+    rationale: 字非常体偏有所合者详其证据，俾观省无至多惑
+events:
+- id: guji-张参-event-birth
+  title_zh: 出生
+  date: '0730'
+  year_of: 730
+  type: birth
+  summary: 生年里贯未详，约开元年间生人，后为国子司业
+- id: guji-张参-event-death
+  title_zh: 逝世
+  date: 0785
+  year_of: 785
+  type: death
+  summary: 卒年未详，唐代宗时人，尝定五经文字传于后
+- id: guji-张参-event-1
+  title_zh: 奉诏分经勘校五经
+  date: '0775-06-01'
+  year_of: 775
+  type: career
+  summary: 大历十年夏六月奉诏与二三儒者分经钩考，共决文字讹误
+- id: guji-张参-event-2
+  title_zh: 书定经于论堂东西壁
+  date: '0776-06-07'
+  year_of: 776
+  type: career
+  summary: 大历十一年六月七日序，刊所定经文于国学论堂壁，凡六十余万言之经悉归于正
+- id: guji-张参-event-3
+  title_zh: 成五经文字三卷
+  date: '0776-06-07'
+  year_of: 776
+  type: career
+  summary: 集疑文为一百六十部三千二百三十五字，分为三卷，以说文石经字林为据朱记非常体
