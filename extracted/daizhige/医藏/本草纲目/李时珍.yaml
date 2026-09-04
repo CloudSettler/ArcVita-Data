@@ -9,140 +9,136 @@ person:
       date: 1518-07-03
       precision: day
       is_circa: false
-      raw: 明正德十三年五月二十六日生于蕲州
+      raw: 明正德十三年五月二十六日蕲州生
     death:
       date: 1593
       precision: year
       is_circa: false
-      raw: 明万历二十一年卒于蕲州
+      raw: 明万历二十一年卒
   birth_date: 1518-07-03
   death_date: 1593
-  era: 明朝
-  reign_ref: 明世宗嘉靖至明神宗万历
-  archetype: 格物济世医圣
+  era: 明
+  reign_ref: 嘉靖万历间
+  archetype: 本草医家
   dilemmas:
-  - 三举不第仕途无望与承父业学医之间何去何从
-  - 旧本草讹误相承与亲履山野订正之艰险
-  - 太医院羁留京师与归野访采著书之取舍
-  lesson: 穷格亲验，辨讹补阙，以一生订一书，惠及万世
-  summary_first_person: 吾蕲州李时珍，字东璧，号濒湖山人，三举不第，承父言闻之业，行医亲尝，病旧本草之舛误，立志重修，历二十七载，遍访湖广江西直隶诸地，亲采亲验，成纲目五十二卷，又著脉学奇经，以正医药，愿后人识草木之真，得用药之当耳
+  - 科举功名与承家学行医之间抉择
+  - 旧本讹误相承与亲尝考证之艰辛
+  lesson: 格物穷理必亲验，辨毒正谬方能济世活人
+  summary_first_person: 吾蕲州李时珍，承父言闻，弃举业而攻医，历三十余年采访考证，辨大黄商陆诸毒草之气味主治，成纲目五十二卷以正旧谬，愿后人慎用毒药以全民生
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B714.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B714.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B717.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B717.html
 endeavors:
 - id: guji-李时珍-endeavor-1
-  title_zh: 发愤重修本草编纂本草纲目
-  summary_zh: 考订历代本草讹误，亲采亲验，以纲挈目，历二十七年成五十二卷，其中卷十四专论芳草当归芎藭蘼芜白芷之属
+  title_zh: 毒草辨证与慎用救验
+  summary_zh: 考大黄商陆附子乌头诸毒草，辨气分血分，定炮制服法，戒轻用妄用
   phases:
   - key: brewing
-    name: 立志重修本草
+    name: 蕲州行医初识毒性
     labels:
-      zh: 立志考订本草
-    start_date: 1552
-    highlight_event_id: guji-李时珍-event-start-bencao
-  - key: breakthrough
-    name: 访采亲验四方
-    labels:
-      zh: 四方访采亲验百草
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-taiyiyuan
-  - key: climax
-    name: 纲目初成五十二卷
-    labels:
-      zh: 纲目书成草部芳草考定
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-complete-bencao
-  - key: closure
-    name: 身后刊行惠世
-    labels:
-      zh: 身后刊行惠及医林
-    start_date: 1593
-    highlight_event_id: guji-李时珍-event-death
-  decisions:
-  - date: 1552
-    title_zh: 弃举业专攻医药立志重修本草
-    rationale: 旧本草品目混乱真伪莫辨，非亲验不能正，愿以一身任订正之责
-  - date: 1556
-    title_zh: 短任太医院判即归野采药
-    rationale: 宫禁羁身难广见闻，不如访民间单验及山野所产，方能得草木之真
-  - date: 1578
-    title_zh: 纲目初成仍三易其稿不急求刊
-    rationale: 芳草金石虫兽之名实尚须互证，宁缓刊以求真，不速成以传讹
-- id: guji-李时珍-endeavor-2
-  title_zh: 蕲州临证行医垂训脉学
-  summary_zh: 世医行诊蕲黄之间，活人无数，又著濒湖脉学奇经八脉考，示后学诊脉辨证之要
-  phases:
-  - key: brewing
-    name: 蕲州世医行诊
-    labels:
-      zh: 蕲州临证活人
-    start_date: 1538
+      zh: 行医识毒
+    start_date: 1538-01-01
     highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 脉学考订
+    name: 辨大黄血分气分之异
     labels:
-      zh: 考订脉学奇经
-    start_date: 1560
-    highlight_event_id: guji-李时珍-event-taiyiyuan
+      zh: 考证辨析
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-dahuang
   - key: climax
-    name: 濒湖脉学垂训
+    name: 定毒草炮制与禁例
     labels:
-      zh: 脉学垂训后学
-    start_date: 1564
-    highlight_event_id: guji-李时珍-event-complete-bencao
+      zh: 定法示戒
+    start_date: 1565-01-01
+    highlight_event_id: guji-李时珍-event-dahuang
   - key: closure
-    name: 医话医案散在乡里
+    name: 卷十七毒草类撰成
     labels:
-      zh: 医德惠泽乡里
-    start_date: 1593
-    highlight_event_id: guji-李时珍-event-death
+      zh: 撰述成篇
+    start_date: 1578-01-01
+    highlight_event_id: guji-李时珍-event-bencao
   decisions:
-  - date: 1538
-    title_zh: 承父言闻之教悬壶蕲州不慕荣利
-    rationale: 民疾为重，临证最能验药，行医即是格物，不必以京官为荣
-  - date: 1564
-    title_zh: 简述脉学奇经以贻初学
-    rationale: 脉理深奥而旧说纷纭，删繁就简作歌诀，使后学易记易用，诊先于药
+  - date: 1552-01-01
+    title_zh: 弃举业专攻医学
+    rationale: 科举屡失意，念父训医中悟禅，立志济世活人而攻本草
+  - date: 1565-01-01
+    title_zh: 明辨大黄气血分用
+    rationale: 病在五经血分宜用，在气分则诛伐无过，须酒制升降并戒气虚血虚妊娠产后轻用
+- id: guji-李时珍-endeavor-2
+  title_zh: 编纂本草纲目正谬补缺
+  summary_zh: 纠历代本草分合舛误，广收附方，历三十年成五十二卷
+  phases:
+  - key: brewing
+    name: 发愤纂修立纲列目
+    labels:
+      zh: 立纲发愿
+    start_date: 1552-01-01
+    highlight_event_id: guji-李时珍-event-practice
+  - key: breakthrough
+    name: 太医院阅方书考证
+    labels:
+      zh: 博览考证
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-taiyi
+  - key: climax
+    name: 万历六年全书初成
+    labels:
+      zh: 初成全稿
+    start_date: 1578-01-01
+    highlight_event_id: guji-李时珍-event-bencao
+  - key: closure
+    name: 三校付梓惠后世
+    labels:
+      zh: 校刊付梓
+    start_date: 1590-01-01
+    highlight_event_id: guji-李时珍-event-bencao
+  decisions:
+  - date: 1556-01-01
+    title_zh: 入太医院广阅秘籍
+    rationale: 欲正旧本之谬，须览天下方书，借太医院之藏以补见闻
+  - date: 1578-01-01
+    title_zh: 以毒草类独立成卷示慎
+    rationale: 毒药攻病效险并存，特列草之六毒草四十七种，详修治气味发明附方以全慎用之义
 events:
 - id: guji-李时珍-event-birth
+  type: birth
+  title_zh: 生于蕲州医家
   date: 1518-07-03
   year_of: 1518
-  type: birth
-  title_zh: 生于湖广蕲州
   place_zh: 湖广蕲州
-  summary_zh: 正德十三年五月二十六日生于世医之家，父言闻以医名世
+  summary_zh: 正德十三年五月二十六日生于世医之家，父言闻授以医学
 - id: guji-李时珍-event-practice
-  date: 1538
+  type: career
+  title_zh: 蕲州行医声著楚中
+  date: 1538-01-01
   year_of: 1538
-  type: career
-  title_zh: 蕲州行医声名渐起
   place_zh: 蕲州
-  summary_zh: 屡试不第后专攻医药，临证亲尝，治验甚多，益知本草之需正
-- id: guji-李时珍-event-start-bencao
-  date: 1552
-  year_of: 1552
+  summary_zh: 弃举业行医，治杂病救危急，始留意大黄商陆诸药真伪炮制
+- id: guji-李时珍-event-taiyi
   type: career
-  title_zh: 发愤辑修本草纲目
-  place_zh: 蕲州
-  summary_zh: 嘉靖三十一年始辑新本草，发凡起例，以纲挈目，遍览旧经别录诸家
-- id: guji-李时珍-event-taiyiyuan
-  date: 1556
+  title_zh: 任太医院判博览考证
+  date: 1556-01-01
   year_of: 1556
-  type: career
-  title_zh: 短任太医院判阅内府本草
   place_zh: 北京太医院
-  summary_zh: 入太医院任判，阅内府藏书，考订益博，岁余即归，益访四方
-- id: guji-李时珍-event-complete-bencao
-  date: 1578
-  year_of: 1578
+  summary_zh: 以医术征入太医院，阅览经史百家方书，为纂纲目积素材
+- id: guji-李时珍-event-dahuang
   type: career
-  title_zh: 本草纲目五十二卷初成
-  place_zh: 蕲州濒湖山
-  summary_zh: 万历六年书成，凡一百九十余万言，收药一千八百九十二种，附方一万余，卷十四草部芳草五十六种考订尤详
+  title_zh: 考定大黄气味主治发明
+  date: 1565-01-01
+  year_of: 1565
+  place_zh: 蕲州蕲艾堂
+  summary_zh: 参仲景泻心汤陷胸汤之用，明大黄为五经血分之药，辨生熟酒制之异，录姚僧垣用大黄故事以戒轻用
+- id: guji-李时珍-event-bencao
+  type: achievement
+  title_zh: 本草纲目初成卷十七毒草类定稿
+  date: 1578-01-01
+  year_of: 1578
+  place_zh: 蕲州
+  summary_zh: 万历六年全书初成，其中卷十七草之六收毒草四十七种，详大黄商陆修治发明附方
 - id: guji-李时珍-event-death
+  type: death
+  title_zh: 卒于蕲州
   date: 1593
   year_of: 1593
-  type: death
-  title_zh: 卒于蕲州书未刊行
   place_zh: 蕲州
-  summary_zh: 万历二十一年卒，年七十六，其子建元守志刊行，三年后金陵初刻惠世
+  summary_zh: 万历二十一年卒，享年七十六，纲目后三年刊行于世
