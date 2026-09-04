@@ -18,115 +18,125 @@ person:
   birth_date: 1667
   death_date: 1746
   era: 清
-  reign_ref: 乾隆
-  archetype: 良医
+  reign_ref: 康熙雍正乾隆
+  archetype: 名医
   dilemmas:
-  - 守古方之稳与创制新奇之方之险难以两全
-  - 日不暇给悉心救人与静心著述传学难以兼顾
-  lesson: 医国医人初无二理，须识学兼到，审病源明脉理，心小胆大，深求精义而不视为糟粕
-  summary_first_person: 吾生吴中叶氏岐黄之家，精通脉理，洞见病源，用药心小胆大，远近求治者日不暇给，每授汤丸多获效验，惟愿不为良相当为良医以救斯人之颠连
+  - 温邪忌表散而世习辛温发汗当从何辨
+  - 久病阴伤津涸而攻邪伤正当如何保胃存津
+  lesson: 温病治在肺胃存津保液轻清宣透勿妄汗下
+  summary_first_person: 吾少承家学遍访名师于温热别立卫气营血纲领临证重养胃存津以轻剂调治春温暑湿留眉寿堂方案以示后学
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AA%E5%88%BB%E6%9C%AC%E5%8F%B6%E6%B0%8F%E5%8C%BB%E6%A1%88.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AA%E5%88%BB%E6%9C%AC%E5%8F%B6%E6%B0%8F%E5%8C%BB%E6%A1%88.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%9C%89%E5%AF%BF%E5%A0%82%E6%96%B9%E6%A1%88%E9%80%89%E5%AD%98.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%9C%89%E5%AF%BF%E5%A0%82%E6%96%B9%E6%A1%88%E9%80%89%E5%AD%98.html
 endeavors:
 - id: guji-叶天士-endeavor-1
-  title_zh: 吴中辨证施治温病活人
-  description_zh: 承家学行医吴中，精通脉理洞见病源，心小胆大善用新奇汤丸，温病卫气营血辨治，金水同治肝胃同治，救疲癃生理残障
+  title_zh: 创立卫气营血辨证体系
+  summary: 区分伤寒足经与温病手经别温邪忌汗下立辛甘凉泄肺胃大法
   phases:
   - key: brewing
-    name: 家学启蒙博览
+    name: 家学研习访师
     labels:
-      zh: 家学渊源
+      zh: 苏州家学
     start_date: 1680
-    highlight_event_id: guji-叶天士-event-birth
+    highlight_event_id: guji-叶天士-event-study
   - key: breakthrough
-    name: 吴中开诊名满
+    name: 提出卫气营血
     labels:
-      zh: 应诊远近
+      zh: 温热论纲领
     start_date: 1700
-    highlight_event_id: guji-叶天士-event-1
+    highlight_event_id: guji-叶天士-event-wenrelun
   - key: climax
-    name: 心小胆大制方
+    name: 临证化裁桂枝白虎诸方
     labels:
-      zh: 辨证明确
-    start_date: 1730
-    highlight_event_id: guji-叶天士-event-2
+      zh: 临证圆机
+    start_date: 1720
+    highlight_event_id: guji-叶天士-event-clinic
   - key: closure
-    name: 温病经验留世
+    name: 门人辑录成书
     labels:
-      zh: 医名克副
+      zh: 传承成书
     start_date: 1746
     highlight_event_id: guji-叶天士-event-death
   decisions:
   - date: 1700
-    title_zh: 舍相业专为良医精研脉理
-    rationale: 不忍坐视斯人颠连，审病源虚实以调剂得平，明脉理精微以制治有要
-  - date: 1730
-    title_zh: 心小胆大创制新奇汤丸
-    rationale: 症多怪异不可拘泥古方，按症酌方各有因心之妙，方能转枢天心而获效验
+    title_zh: 舍伤寒六经另立手经治温
+    rationale: 温邪入手太阴肺忌辛温发散宜辛甘凉泄存津
+  - date: 1725
+    title_zh: 见斑疹不妄攻下先养胃
+    rationale: 糜粥濡胃甘温生津仿复脉汤救劫津伤阳之逆
 - id: guji-叶天士-endeavor-2
-  title_zh: 门人汇集医案授徒传学
-  description_zh: 许门人周仲升随侍汇集方案，顾其年一族转相抄录，未刻本流传有序，虽寻常门诊寥寥数语而处方精严可为后学旁通之资
+  title_zh: 眉寿堂方案临证选存春温暑湿
+  summary: 以轻清甘寒调治春温风温暑湿时疠重保肺胃津液
   phases:
   - key: brewing
-    name: 随侍观摩方案
+    name: 春温风温观察
     labels:
-      zh: 授徒观摩
-    start_date: 1720
-    highlight_event_id: guji-叶天士-event-1
+      zh: 春温初诊
+    start_date: 1715
+    highlight_event_id: guji-叶天士-event-chunwen
   - key: breakthrough
-    name: 汇集卷帙成册
+    name: 苇茎桂枝白虎通营卫
     labels:
-      zh: 汇集方案
-    start_date: 1735
-    highlight_event_id: guji-叶天士-event-2
+      zh: 清气通营
+    start_date: 1725
+    highlight_event_id: guji-叶天士-event-clinic
   - key: climax
-    name: 顾氏假本抄录
+    name: 暑湿三焦分治
     labels:
-      zh: 转相抄录
-    start_date: 1746
-    highlight_event_id: guji-叶天士-event-death
+      zh: 暑湿分治
+    start_date: 1735
+    highlight_event_id: guji-叶天士-event-shushi
   - key: closure
-    name: 存古堂作序流传
+    name: 方案选存授后学
     labels:
-      zh: 流传有序
-    start_date: 1769
-    highlight_event_id: guji-叶天士-event-3
+      zh: 方案授徒
+    start_date: 1740
+    highlight_event_id: guji-叶天士-event-meishoutang
   decisions:
-  - date: 1735
-    title_zh: 许门人汇集每见方案
-    rationale: 读书临症之余备以广博览，未始无旁通之益，后学可深求精义而不致毫厘千里之失
-  - date: 1740
-    title_zh: 垂训葆真静养缓图
-    rationale: 藏真不固血肉难克有形之阴，全赖自知利害屏除烦劳恼怒，切勿乱投药饵以保少阴
+  - date: 1730
+    title_zh: 风温得润而解不用苦寒通便
+    rationale: 手太阴至高之所宜桑杏麦冬甘寒清燥忌攻肠胃
+  - date: 1736
+    title_zh: 暑湿秽浊忌表散清凉
+    rationale: 口鼻膜原受邪宜通浊开窍养胃存阴防内闭外脱
 events:
 - id: guji-叶天士-event-birth
-  title_zh: 生于吴中叶氏医家
   date: 1667
   year_of: 1667
-  place_zh: 江苏苏州
-  description_zh: 康熙六年生于吴中，世叶岐黄，少承家学，博览医籍而精于脉理
-- id: guji-叶天士-event-1
-  title_zh: 吴中开诊远近求治
+  title_zh: 诞生于苏州吴县
+  description: 康熙六年生于世医之家祖父父皆精医少承家学
+- id: guji-叶天士-event-study
+  date: 1680
+  year_of: 1680
+  title_zh: 师事多师博采众长
+  description: 遍访江南名师谦访求教不耻下问兼通内难伤寒
+- id: guji-叶天士-event-wenrelun
   date: 1700
   year_of: 1700
-  place_zh: 江苏苏州
-  description_zh: 行医吴中，洞见病源，用药心小胆大，无远近染求治者日不暇给，每授汤丸无不效验
-- id: guji-叶天士-event-2
-  title_zh: 温病辨治大成门人汇方案
+  title_zh: 提出卫气营血辨证
+  description: 辨温病传变层次立辛凉解表甘寒生津治则成温热论纲领
+- id: guji-叶天士-event-chunwen
+  date: 1720
+  year_of: 1720
+  title_zh: 诊治春温风温咳喘寒热
+  description: 以桑杏苇茎桂枝白虎等轻剂清宣肺胃通达营卫治稚年风温昼轻夜重
+- id: guji-叶天士-event-clinic
+  date: 1730
+  year_of: 1730
+  title_zh: 临证救温邪误汗误下之逆
+  description: 见脉搐战舌燥斑隐呃逆主张先糜粥濡胃仿复脉汤甘温生津
+- id: guji-叶天士-event-shushi
   date: 1735
   year_of: 1735
-  place_zh: 江苏苏州
-  description_zh: 温病卫气营血辨治成熟，金水同治肝胃同治，门人周仲升日侍左右每见方案无不汇集
-- id: guji-叶天士-event-3
-  title_zh: 顾本重抄朱氏作序流传
-  date: 1769
-  year_of: 1769
-  place_zh: 江苏苏州
-  description_zh: 乾隆己丑顾氏子侄假叔父本重抄，朱周燮作序于存古堂邀月轩，未刻本叶氏医案流传有绪真确不疑
+  title_zh: 分治暑湿时疠三焦
+  description: 暑必夹湿湿温膜原秽浊闭窍主张通浊辟秽开窍养胃忌妄汗下
+- id: guji-叶天士-event-meishoutang
+  date: 1740
+  year_of: 1740
+  title_zh: 眉寿堂方案选存流传
+  description: 临证医案由门人辑为眉寿堂方案选存分春温时疠暑三门垂范后世
 - id: guji-叶天士-event-death
-  title_zh: 卒于苏州医名长存
   date: 1746
   year_of: 1746
-  place_zh: 江苏苏州
-  description_zh: 乾隆十一年卒，高年劳伤络瘀之治多所垂范，门诊医案虽寥寥数语而处方之妙远非他人所及
+  title_zh: 卒于苏州
+  description: 乾隆十一年卒年八十门人华岫等辑温热论等传世尊为温病大家之首

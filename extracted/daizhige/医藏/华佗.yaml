@@ -9,124 +9,149 @@ person:
       date: '0145'
       precision: year
       is_circa: true
-      raw: 约东汉永嘉元年
+      raw: 约汉永和元年生
     death:
       date: 0208
       precision: year
-      is_circa: false
-      raw: 建安十三年死于狱中
+      is_circa: true
+      raw: 汉建安十三年卒
   birth_date: '0145'
   death_date: 0208
-  era: 东汉末年
-  reign_ref: 汉献帝建安年间
-  archetype: 外科神医
+  era: 东汉末
+  reign_ref: 汉献帝建安
+  archetype: 济世神医
   dilemmas:
-  - 不慕权贵恬淡行医与曹操征召之间的冲突
-  - 秘方济世活人与保守不泄之间的权衡
-  lesson: 恃术济世不附权贵，存济世之心则秘方终不湮没
-  summary_first_person: 吾谯人也，性好恬淡，喜味方书，游名山遇异人授秘方，遂创麻沸散行刳肠湔胃之术，活人无算，虽终不免于操狱，而此心惟在活人耳
+  - title_zh: 出仕与行医
+    description: 举孝廉辟公府皆不就，坚持游行四方以医济世
+  - title_zh: 侍曹与保身
+    description: 不愿久为侍医系身，托妻病还乡终遭下狱殒命
+  lesson: 术精而心正，通经脉均气血，方为良医济世之道
+  summary_first_person: 吾少游学徐土，通经方针灸，制麻沸散，创五禽戏，行医江淮吴越，针起跛足，药除肠痈，虽终殒于许都，然针道已载歌赋传后世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8D%8E%E4%BD%97%E7%A5%9E%E6%96%B9.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8D%8E%E4%BD%97%E7%A5%9E%E6%96%B9.html
+  - https://daizhige.org/医藏/百家针灸歌赋.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/百家针灸歌赋.md
 endeavors:
 - id: guji-华佗-endeavor-1
-  title_zh: 创麻沸散行外科神术
-  description: 精方药针灸，制麻沸散与神膏，行刳破腹背抽割积聚之术，治疾发结于内者
+  title_zh: 针灸经方行医四方
+  summary: 精研针灸汤液，游行江淮吴越，以悬钟环跳诸穴起沉疴
   phases:
   - key: brewing
-    name: 游山求法
+    name: 徐土游学奠基
     labels:
-      zh: 游名山幽洞遇异人
+      zh:
+      - 游学
+      - 经方
     start_date: '0165'
-    highlight_event_id: guji-华佗-event-1
+    highlight_event_id: guji-华佗-event-study
   - key: breakthrough
-    name: 得秘方施验
+    name: 针刺跛足立行
     labels:
-      zh: 得石函秘方屡试神效
-    start_date: '0175'
-    highlight_event_id: guji-华佗-event-1
+      zh:
+      - 针灸
+      - 悬钟
+      - 环跳
+    start_date: 0190
+    highlight_event_id: guji-华佗-event-acu
   - key: climax
-    name: 麻沸刳腹名震四方
+    name: 三里却劳名满天下
     labels:
-      zh: 醉服麻沸散刳肠湔胃
-    start_date: 0195
-    highlight_event_id: guji-华佗-event-2
-  - key: closure
-    name: 术成名立
-    labels:
-      zh: 以神医见称于世
+      zh:
+      - 神医
+      - 足三里
     start_date: '0200'
-    highlight_event_id: guji-华佗-event-2
+    highlight_event_id: guji-华佗-event-fame
+  - key: closure
+    name: 针法载入歌赋
+    labels:
+      zh:
+      - 传承
+      - 歌赋引证
+    start_date: 0208
+    highlight_event_id: guji-华佗-event-death
   decisions:
-  - date: '0175'
-    title_zh: 立誓济世受秘方
-    rationale: 许以无贵贱贫富不务财贿矜老恤贫，方得脱祸而传术
+  - date: '0165'
+    title_zh: 不就仕途专心医道
+    rationale: 举孝廉辟公府皆辞，立志以针药活人
   - date: 0195
-    title_zh: 先醉后刳以刀补针药之穷
-    rationale: 疾结于内针药不及，故以酒服麻沸散而后抽割洗涤敷以神膏
+    title_zh: 以针代药通经接气
+    rationale: 头有病而足取之，取悬钟环跳阳陵诸穴驱运气血
 - id: guji-华佗-endeavor-2
-  title_zh: 手录藏书传方后世
-  description: 随时手录秘方佩于囊中，原书藏家，狱中焚书后家藏本经孙思邈整理复出于世
+  title_zh: 开创外科麻沸五禽
+  summary: 制麻沸散行剖腹手术，创五禽戏导引养生，开外科先河
   phases:
   - key: brewing
-    name: 随身录方
+    name: 研制麻沸散
     labels:
-      zh: 手录一编时时检索
-    start_date: 0185
-    highlight_event_id: guji-华佗-event-2
+      zh:
+      - 麻沸散
+      - 外科
+    start_date: 0195
+    highlight_event_id: guji-华佗-event-mwf
   - key: breakthrough
-    name: 为操治病思归
+    name: 剖腹祛疾
     labels:
-      zh: 治头风久不愈求还取方
-    start_date: '0207'
-    highlight_event_id: guji-华佗-event-3
+      zh:
+      - 手术
+      - 肠痈
+    start_date: '0200'
+    highlight_event_id: guji-华佗-event-fame
   - key: climax
-    name: 下狱焚书
+    name: 五禽戏养生
     labels:
-      zh: 临死以书付狱吏不果而烧之
-    start_date: 0208
-    highlight_event_id: guji-华佗-event-3
+      zh:
+      - 导引
+      - 养生
+    start_date: '0205'
+    highlight_event_id: guji-华佗-event-fame
   - key: closure
-    name: 家藏复出
+    name: 拒留许都殉道
     labels:
-      zh: 家藏本经孙真人排比复传
-    start_date: 0682
-    highlight_event_id: guji-华佗-event-4
+      zh:
+      - 曹操
+      - 殉道
+    start_date: 0208
+    highlight_event_id: guji-华佗-event-death
   decisions:
+  - date: 0198
+    title_zh: 醉麻剖腹决疑
+    rationale: 腹疾药不及者以麻沸散麻醉割治缝合
   - date: '0207'
-    title_zh: 托妻疾不返
-    rationale: 恃能厌事不欲久留操侧，故求还取方而数期不至
-  - date: 0208
-    title_zh: 狱中付书
-    rationale: 知必死欲以活人之术付狱吏，吏畏法不敢受则索火烧之
+    title_zh: 托妻病不归许都
+    rationale: 不愿终身为侍医羁身，期守游医济世之志
 events:
 - id: guji-华佗-event-birth
-  title_zh: 生于沛国谯县
+  title_zh: 诞生沛国谯县
   date: '0145'
   year_of: 145
-  description: 约生于东汉沛国谯县，少好恬淡，喜味方书
-- id: guji-华佗-event-1
-  title_zh: 公宜山古洞遇仙得秘方
-  date: '0175'
-  year_of: 175
-  description: 酒后息于公宜山古洞，闻论病法，拜二老得东洞石床书函，从兹施验靡不神效
-- id: guji-华佗-event-2
-  title_zh: 创麻沸散行刳腹术
+  place_zh: 沛国谯县
+  description: 约汉永和元年生，少而游学徐土通经方
+- id: guji-华佗-event-study
+  title_zh: 游学徐土通医道
+  date: '0165'
+  year_of: 165
+  place_zh: 徐州
+  description: 沛国举孝廉，太尉辟皆不就，专研经方针灸
+- id: guji-华佗-event-acu
+  title_zh: 针悬钟环跳起跛足
+  date: 0190
+  year_of: 190
+  place_zh: 江淮吴越之间
+  description: 刺悬钟环跳诸穴，通经接气，使跛足立行，载于针经标幽赋
+- id: guji-华佗-event-mwf
+  title_zh: 制麻沸散创外科
   date: 0198
   year_of: 198
-  description: 处剂不过数种，针灸不过数处，若疾结于内则以酒服麻沸散刳破腹背断截煎洗敷以神膏，一月平复
-- id: guji-华佗-event-3
-  title_zh: 为曹操治头风下狱死
-  date: 0208
-  year_of: 208
-  description: 为操治头风久不愈，求还取方托妻疾不返，操怒收付狱考验，荀彧请宥不从，竟杀之，临死焚书一卷
-- id: guji-华佗-event-4
-  title_zh: 家藏本经孙思邈整理复传
-  date: 0682
-  year_of: 682
-  description: 家藏本辗转数百年入孙思邈手，于终南山下排比分门补苴罅漏，永淳元年识之，后经姚氏徐大椿沈骧刊布于世
+  place_zh: 许都四方
+  description: 制麻沸散，醉麻而剖腹祛疾，兼创五禽戏导引
+- id: guji-华佗-event-fame
+  title_zh: 三里却劳名满天下
+  date: '0205'
+  year_of: 205
+  place_zh: 中原
+  description: 以足三里却五劳羸瘦，以针药活人无数，时称神医
 - id: guji-华佗-event-death
-  title_zh: 死于许昌狱中
+  title_zh: 遇害许都
   date: 0208
   year_of: 208
-  description: 建安十三年被曹操考验致死于狱中，秘方手录本焚毁，家藏本独存
+  place_zh: 许都狱中
+  description: 为曹操疗头风不欲久留，托辞还乡不归，操怒下狱瘐死狱中
