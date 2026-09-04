@@ -9,124 +9,134 @@ person:
       date: 1630
       precision: year
       is_circa: false
-      raw: 崇祯三年
+      raw: 明崇祯三年
     death:
       date: 1692
       precision: year
       is_circa: false
-      raw: 康熙三十一年
+      raw: 清康熙三十一年
   birth_date: 1630
   death_date: 1692
-  era: 清初
+  era: 清
   reign_ref: 康熙
-  archetype: 醇儒清官
+  archetype: 尊朱辟王之卫道理学家
   dilemmas:
-  - 持朱子之学而不空言诚敬必精核名物训诂典章
-  - 居官守正不阿权贵而甘罢归讲学以全名节
-  lesson: 深造务实不争名精经核史持论平恕方见醇儒造诣
-  summary_first_person: 吾陆陇其平湖人也少传朱子之学登康熙辛亥进士宰嘉定擢监察御史以直道罢归平生劄记为日抄甥陈济编成三鱼堂賸言十二卷经史皆求实据不为悬揣臆断之谈
+  - 阳明良知遍天下似孔孟似仁义当辨与不当辨
+  - 高顾救王偏主静坐仍堕范围当守程朱格物与否
+  - 明亡由于寇盗朋党抑由于学术当究其本与否
+  lesson: 立教之弊如源浊而流浊须守程朱格物穷理下学上达以正人心风俗
+  summary_first_person: 我是平湖陆陇其字稼书服膺考亭作学术辨三篇以明心性之辨辟阳明以知觉为性之禅实谓明亡不亡于寇盗朋党而亡于学术愿学者守敬穷理不为阳尊阴篡所蔽
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E4%B8%89%E9%B1%BC%E5%A0%82%E8%B3%B8%E8%A8%80.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E4%B8%89%E9%B1%BC%E5%A0%82%E8%B3%B8%E8%A8%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AD%A6%E6%9C%AF%E8%BE%A8.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AD%A6%E6%9C%AF%E8%BE%A8.html
 endeavors:
 - id: guji-陆陇其-endeavor-1
-  title_zh: 绍朱子之学著三鱼堂賸言
-  summary_zh: 穷经讲学传朱子之绪余日抄劄记十二卷精核名物以实据明是非
+  title_zh: 尊朱辟王作学术辨
+  summary_zh: 服膺考亭辨汉唐宋明学术源流指阳明以禅之实托儒之名阳尊阴篡致风俗坏作辨上中下以扶正学
   phases:
   - key: brewing
-    name: 少习朱子潜心经史
+    name: 早年服膺考亭潜心四书
     labels:
-      zh: 读书穷理
+      zh: 服膺朱子
     start_date: 1645
-    highlight_event_id: guji-陆陇其-event-birth
+    highlight_event_id: guji-陆陇其-event-study-zhu
   - key: breakthrough
-    name: 登第讲学以实学化民
+    name: 洞明心性之辨识禅病源
     labels:
-      zh: 以经化俗
-    start_date: 1671
-    highlight_event_id: guji-陆陇其-event-jinshi
+      zh: 明辨心性
+    start_date: 1675
+    highlight_event_id: guji-陆陇其-event-study-zhu
   - key: climax
-    name: 日抄成编论五经四书诸儒子史
+    name: 作学术辨三篇力排良知
     labels:
-      zh: 著述明道
-    start_date: 1685
-    highlight_event_id: guji-陆陇其-event-dismiss
+      zh: 著述辟邪
+    start_date: 1682
+    highlight_event_id: guji-陆陇其-event-write-xueshubian
   - key: closure
-    name: 追赠内阁学士从祀文庙
+    name: 问学录传世张伯行刊订表彰
     labels:
-      zh: 醇儒定论
+      zh: 正学显明
+    start_date: 1690
+    highlight_event_id: guji-陆陇其-event-write-xueshubian
+  decisions:
+  - date: 1682
+    title_zh: 作辨上明道统托名之弊
+    rationale: 自唐后异端托孔孟宋后托程朱必辨名同实异以遏阳尊阴篡
+  - date: 1683
+    title_zh: 作辨中直指知觉非性
+    rationale: 心是气之精英性是心具之理以知觉为性则彝伦仁义皆障故须格物穷理
+  - date: 1684
+    title_zh: 作辨下论天资学术胜负
+    rationale: 不因王门间有大贤而恕其学亦不因其学而弃其人以全正学人才之论
+- id: guji-陆陇其-endeavor-2
+  title_zh: 清官牧民守程朱遗规
+  summary_zh: 康熙九年进士历嘉定灵寿知县监察御史以正学施政事崇礼教恤民隐谥清献从祀孔庙
+  phases:
+  - key: brewing
+    name: 困勉苦学中进士
+    labels:
+      zh: 科第入仕
+    start_date: 1670
+    highlight_event_id: guji-陆陇其-event-jinshi
+  - key: breakthrough
+    name: 知嘉定县兴教化清刑政
+    labels:
+      zh: 牧嘉定
+    start_date: 1671
+    highlight_event_id: guji-陆陇其-event-magistrate-jiading
+  - key: climax
+    name: 调灵寿升御史直言守正
+    labels:
+      zh: 居台谏
+    start_date: 1676
+    highlight_event_id: guji-陆陇其-event-magistrate-jiading
+  - key: closure
+    name: 卒后谥清献从祀孔庙
+    labels:
+      zh: 身后哀荣
     start_date: 1692
     highlight_event_id: guji-陆陇其-event-death
   decisions:
   - date: 1671
-    title_zh: 不空言诚敬而精核汉注唐疏
-    rationale: 通儒持论必有本末屏弃诗书则无以得圣贤心法
-  - date: 1685
-    title_zh: 明朱陆异同而词气和平不分壁垒
-    rationale: 所得者深则务实有余所得者浅则争名不足
-- id: guji-陆陇其-endeavor-2
-  title_zh: 宰嘉定擢御史以清直济民
-  summary_zh: 知嘉定行荒政爱民擢监察御史直劾权贵罢归守清献之节
-  phases:
-  - key: brewing
-    name: 举乡试登进士
-    labels:
-      zh: 立朝之基
-    start_date: 1670
-    highlight_event_id: guji-陆陇其-event-jinshi
-  - key: breakthrough
-    name: 知嘉定县勤恤民隐
-    labels:
-      zh: 循吏爱民
-    start_date: 1671
-    highlight_event_id: guji-陆陇其-event-jiading
-  - key: climax
-    name: 擢监察御史直言劾权
-    labels:
-      zh: 直道事人
-    start_date: 1680
-    highlight_event_id: guji-陆陇其-event-yushi
-  - key: closure
-    name: 罢官归里讲学终老
-    labels:
-      zh: 全节归儒
-    start_date: 1690
-    highlight_event_id: guji-陆陇其-event-dismiss
-  decisions:
-  - date: 1671
-    title_zh: 宰嘉定务富民重本抑末
-    rationale: 治必先富然末富骄佚惟本富可安民风
-  - date: 1680
-    title_zh: 居台谏不隐国恶而存忠厚
-    rationale: 董狐良史与左氏讳国恶仁非一涂当直而不刻
+    title_zh: 赴嘉定不徇私恩兴学劝善
+    rationale: 以范纯仁潘良贵为法不牢笼士以术但愿进用正人以挽风俗
+  - date: 1676
+    title_zh: 持濂洛关闽清议不为调停
+    rationale: 惩乡愿混平等之顽钝亦戒矫激之偏以中道持风世渐导婉出
 events:
 - id: guji-陆陇其-event-birth
-  title_zh: 出生于浙江平湖
+  title_zh: 诞生于浙江平湖
   date: 1630
   year_of: 1630
-  description_zh: 崇祯三年生于浙江平湖少志圣学专宗朱子
+  place_zh: 浙江平湖
+  description_zh: 明崇祯三年生于平湖陆氏后字稼书号其终
+- id: guji-陆陇其-event-study-zhu
+  title_zh: 服膺考亭潜心程朱
+  date: 1660
+  year_of: 1660
+  place_zh: 江南
+  description_zh: 早年读四书讲义困勉录尊朱子集诸儒大成之功兼明尊德性道问学
 - id: guji-陆陇其-event-jinshi
-  title_zh: 康熙辛亥登进士第
+  title_zh: 康熙九年进士及第
+  date: 1670
+  year_of: 1670
+  place_zh: 北京
+  description_zh: 康熙庚戌科进士出身开启牧民居官之途
+- id: guji-陆陇其-event-magistrate-jiading
+  title_zh: 知嘉定灵寿县事
   date: 1671
   year_of: 1671
-  description_zh: 康熙九年举人十年成进士选授直隶嘉定知县
-- id: guji-陆陇其-event-jiading
-  title_zh: 宰嘉定行清惠之政
-  date: 1675
-  year_of: 1675
-  description_zh: 在嘉定勤政恤民清理逋赋兴学劝农以朱子之学化导士民
-- id: guji-陆陇其-event-yushi
-  title_zh: 擢监察御史直谏
-  date: 1680
-  year_of: 1680
-  description_zh: 擢授监察御史持论公正不附权贵以直道见称于时
-- id: guji-陆陇其-event-dismiss
-  title_zh: 罢归讲学日抄成三鱼堂賸言
-  date: 1690
-  year_of: 1690
-  description_zh: 罢官归里专意讲学平生劄记日抄经甥陈济排次成十二卷一至四卷说五经五六卷说四书七八卷说诸儒九至十二卷说子史
+  place_zh: 江南嘉定
+  description_zh: 历知嘉定灵寿崇礼教慎刑罚以程朱遗规施政事风俗为之一变
+- id: guji-陆陇其-event-write-xueshubian
+  title_zh: 著学术辨问学录
+  date: 1683
+  year_of: 1683
+  place_zh: 平湖
+  description_zh: 作学术辨上中下三篇辨王阳明良知无善无恶之非及高顾静坐之偏后汇为问学录
 - id: guji-陆陇其-event-death
-  title_zh: 卒于家后赠内阁学士
+  title_zh: 卒于官谥清献
   date: 1692
   year_of: 1692
-  description_zh: 康熙三十一年卒乾隆间赠内阁学士谥清献从祀文庙为国朝醇儒第一
+  place_zh: 北京
+  description_zh: 清康熙三十一年卒后谥清献乾隆间从祀孔庙为清初大儒
