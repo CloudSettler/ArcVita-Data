@@ -6,133 +6,136 @@ person:
     en: Miao Xiyong
   lifespan:
     birth:
-      date: '1546'
+      date: 1546-01-01
       precision: year
       is_circa: false
-      raw: 明嘉靖二十五年常熟
+      raw: 明嘉靖二十五年
     death:
-      date: '1627'
+      date: 1627-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 明天启七年
-  birth_date: '1546'
-  death_date: '1627'
+  birth_date: 1546-01-01
+  death_date: 1627-01-01
   era: 明
   reign_ref: 明嘉靖至天启
-  archetype: 济世良医
+  archetype: 医家
   dilemmas:
-  - 守仲景古法与因时因地变通之辨
-  - 江南多湿热内虚而世尚温补燥剂之误
-  lesson: 师仲景之意而不泥其法，因时因地寒凉清养以全人
-  summary_first_person: 余不事王侯，幽栖自遂以保天年，搜辑医方精求药道以存利济，随试效而藏之，好事者传抄获验，遂增益群方至四百余品，详其修事，又增伤寒温病时疫治法，冀穷乡舟次按方施治以瘳疾苦
+  - 科举屡试不第当弃儒就医还是继续求仕
+  - 守古炮炙繁法与从简便民之间如何取舍
+  - 金石毒烈当生用存性还是火炼求安之间如何决断
+  lesson: 炮炙得法则药性全水火失度则良药亦废医者当守法存真不惜繁劳
+  summary_first_person: 吾缪希雍字仲淳常熟人也少习举业无成转究岐黄详考水火土金石草木炮炙之宜疏解神农本草之旨著炮炙大法以示后学愿人得真药以全活也
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%88%E9%86%92%E6%96%8B%E5%B9%BF%E7%AC%94%E8%AE%B0.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%88%E9%86%92%E6%96%8B%E5%B9%BF%E7%AC%94%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/炮炙大法.md
+  - https://daizhige.org/医藏/炮炙大法.html
 endeavors:
 - id: guji-缪希雍-endeavor-1
-  title_zh: 增广先醒斋笔记成编
-  goal_zh: 使穷乡病者按方施治以济世
+  title_zh: 汇辑炮炙大法规范药工
+  summary: 博考水火土金石诸部炮炙之法订立修事水飞火煅酒浸蜜炙之程式以正药力
   phases:
   - key: brewing
-    name: 丁元荐集旧方
+    name: 弃儒习医博览炮炙见闻
     labels:
-      zh: 长兴丁长孺手集试效之方
-    start_date: '1615'
-    highlight_event_id: guji-缪希雍-event-compilation
+      zh:
+      - 习医
+      - 考水火
+    start_date: 1575-01-01
+    highlight_event_id: guji-缪希雍-event-practice
   - key: breakthrough
-    name: 增益群方本草
+    name: 辨别真伪确立修事准则
     labels:
-      zh: 增至四百余品详修事
-    start_date: '1620'
-    highlight_event_id: guji-缪希雍-event-expansion
+      zh:
+      - 辨真伪
+      - 立法度
+    start_date: 1600-01-01
+    highlight_event_id: guji-缪希雍-event-bencao
   - key: climax
-    name: 增入伤寒温疫治法
+    name: 分部著录成炮炙大法
     labels:
-      zh: 论时地变通仲景法
-    start_date: '1622'
-    highlight_event_id: guji-缪希雍-event-preface
-  - key: closure
-    name: 庄敛之镂板流行
-    labels:
-      zh: 旅泊金沙属梓传远迩
-    start_date: '1622-12-15'
-    highlight_event_id: guji-缪希雍-event-preface
+      zh:
+      - 分部
+      - 成书
+    start_date: 1622-01-01
+    highlight_event_id: guji-缪希雍-event-paozhi
   decisions:
-  - date: '1620'
-    title_zh: 兼采本草详修事
-    rationale: 穷乡僻邑乏明医，必详药性修事方能按方取验
-  - date: '1622-12-15'
-    title_zh: 自序明师意变法之义
-    rationale: 千余年风气浇人物脆南北地殊，故师仲景意而损益其方以从时地
+  - date: 1605-01-01
+    title_zh: 坚持生用朱砂力戒火炼
+    rationale: 朱砂一经火炼则杀人故宁万遍细研水飞以存真性不图省工
+  - date: 1622-01-01
+    title_zh: 以水火土金石草部分条详录
+    rationale: 药材性质各异非分部难明水火之宜故仿本草体例使学者易检易行
 - id: guji-缪希雍-endeavor-2
-  title_zh: 精辨江南中风伤寒活人
-  goal_zh: 以清养寒凉救内热暗风温疫
+  title_zh: 疏注本草广笔记以济世活人
+  summary: 疏解神农本草经旨撰先醒斋医学广笔记行医吴中以脉药并重救治危证
   phases:
   - key: brewing
-    name: 精求药道试效
+    name: 游学吴中行医积累验案
     labels:
-      zh: 搜辑医方随试随藏
-    start_date: '1570'
-    highlight_event_id: guji-缪希雍-event-compilation
+      zh:
+      - 行医
+      - 积累
+    start_date: 1580-01-01
+    highlight_event_id: guji-缪希雍-event-practice
   - key: breakthrough
-    name: 别真假中风内外风
+    name: 疏解本经阐发药性主治
     labels:
-      zh: 江南无刚猛风多湿热生痰
-    start_date: '1621'
-    highlight_event_id: guji-缪希雍-event-cure-zhu
-  - key: climax
-    name: 神医之名大显
-    labels:
-      zh: 苏子五钱立止膈病
-    start_date: '1621'
-    highlight_event_id: guji-缪希雍-event-cure-zhu
+      zh:
+      - 疏经
+      - 明性
+    start_date: 1612-01-01
+    highlight_event_id: guji-缪希雍-event-bencao
   - key: closure
-    name: 以法垂训后医
+    name: 笔记广传晚年托付后学
     labels:
-      zh: 熟读仲景即秘法戒妄汗下
-    start_date: '1622-12-15'
-    highlight_event_id: guji-缪希雍-event-preface
+      zh:
+      - 授徒
+      - 传书
+    start_date: 1625-01-01
+    highlight_event_id: guji-缪希雍-event-death
   decisions:
-  - date: '1621'
-    title_zh: 治膈病用苏子而不执成方
-    rationale: 内热生风痰壅气道，当清热顺气开痰养阴，最忌风燥之剂
-  - date: '1622'
-    title_zh: 温病用竹叶石膏而不用葛根升散
-    rationale: 阳明气逆呕渴热炽，石膏辛解肌镇坠下痰热，半夏温燥有毒非宜且呕家忌甘
+  - date: 1616-01-01
+    title_zh: 以经疏合参临床不泥古方
+    rationale: 本草经文简奥必结合时病情志疏解方能指导用药全活多人
+  - date: 1620-01-01
+    title_zh: 收录验案直书得失以教后人
+    rationale: 医道贵真故于广笔记中备载成败使后学者知所取舍不敢苟且
 events:
 - id: guji-缪希雍-event-birth
-  title_zh: 出生常熟字仲醇
-  date: '1546'
+  type: birth
+  title_zh: 常熟出生
+  date: 1546-01-01
   year_of: 1546
   place_zh: 常熟
-  summary_zh: 明嘉靖二十五年生于常熟，精于医理，后以神医名
-- id: guji-缪希雍-event-compilation
-  title_zh: 丁元荐集先醒斋笔记梓行
-  date: '1615'
-  year_of: 1615
-  place_zh: 长兴岩邑
-  summary_zh: 长兴丁元荐取所用之方裒为一编命曰先醒斋笔记梓行，板留岩邑未便流通
-- id: guji-缪希雍-event-expansion
-  title_zh: 增益群方本草至四百余品
-  date: '1620'
-  year_of: 1620
-  place_zh: 金沙
-  summary_zh: 旅泊金沙与庄敛之过从，增益群方兼采本草常用药详其修事
-- id: guji-缪希雍-event-cure-zhu
-  title_zh: 天启辛酉治朱国祯膈病
-  date: '1621'
-  year_of: 1621
-  place_zh: 京师
-  summary_zh: 朱国祯患膈病上下如分两截中痛甚，用苏子五钱即止，足见其技之工
-- id: guji-缪希雍-event-preface
-  title_zh: 天启壬戌自序广笔记
-  date: '1622-12-15'
+  description: 明嘉靖二十五年出生于常熟少习举子业后转究医学
+- id: guji-缪希雍-event-practice
+  type: career
+  title_zh: 行医吴中声名渐起
+  date: 1585-01-01
+  year_of: 1585
+  place_zh: 吴中
+  description: 屡试不第后专攻岐黄游学行医于吴中辨药论脉救治多人
+  related_endeavor_id: guji-缪希雍-endeavor-2
+- id: guji-缪希雍-event-bencao
+  type: career
+  title_zh: 疏注神农本草经
+  date: 1616-01-01
+  year_of: 1616
+  place_zh: 常熟
+  description: 考订本草药性撰成神农本草经疏阐发主治炮制大义
+  related_endeavor_id: guji-缪希雍-endeavor-2
+- id: guji-缪希雍-event-paozhi
+  type: career
+  title_zh: 编成炮炙大法
+  date: 1622-01-01
   year_of: 1622
-  place_zh: 金沙
-  summary_zh: 天启二年仲冬既望自序，增入伤寒温病时疫治法，属庄季镂板流行以补于世
+  place_zh: 常熟
+  description: 分水火土金石草诸部分条详录修事水飞火煅之法成炮炙大法一卷
+  related_endeavor_id: guji-缪希雍-endeavor-1
 - id: guji-缪希雍-event-death
-  title_zh: 逝世
-  date: '1627'
+  type: death
+  title_zh: 晚年逝世
+  date: 1627-01-01
   year_of: 1627
   place_zh: 常熟
-  summary_zh: 明天启七年卒，与张介宾同时，一守法度尚温补，一善变化颇用寒凉各有所得
+  description: 明天启七年逝世留下本草经疏广笔记炮炙大法等书传于后世

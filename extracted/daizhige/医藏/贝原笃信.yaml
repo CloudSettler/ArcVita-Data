@@ -1,0 +1,138 @@
+person:
+  qid: guji-贝原笃信
+  name_zh: 贝原笃信
+  names:
+    zh: 贝原笃信
+    en: Kaibara Ekken
+  lifespan:
+    birth:
+      date: 1630-12-17
+      precision: day
+      is_circa: false
+      raw: 宽永七年十一月十四日
+    death:
+      date: 1714-10-05
+      precision: day
+      is_circa: false
+      raw: 正德四年八月二十七日
+  birth_date: 1630-12-17
+  death_date: 1714-10-05
+  era: 江户时代
+  reign_ref: 元禄
+  archetype: 穷理劝学之儒医
+  dilemmas:
+  - 仕宦事功与林下著述之间如何取舍
+  - 本草名实传讹繁多如何辨正归真
+  lesson: 一草一木皆有理，辨名识真审炮炙方能安民全命
+  summary_first_person: 吾筑前后学，好穷物理，喜读本草，与中州诸家讨论辨疑，审名实正炮炙，以助医道
+  source_urls:
+  - https://daizhige.org/医藏/炮炙全书.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/炮炙全书.md
+endeavors:
+- id: guji-贝原笃信-endeavor-1
+  title_zh: 筑前仕儒与养身劝世
+  summary_zh: 出仕黑田藩而潜心朱子学，晚年著养身训以教庶民摄生穷理
+  phases:
+  - key: brewing
+    name: 幼学穷理
+    labels:
+      zh: 读书养志
+    start_date: 1637-01-01
+    highlight_event_id: guji-贝原笃信-event-birth
+  - key: breakthrough
+    name: 出仕劝学
+    labels:
+      zh: 仕学两立
+    start_date: 1650-01-01
+    highlight_event_id: guji-贝原笃信-event-service
+  - key: climax
+    name: 养身训世
+    labels:
+      zh: 劝民摄生
+    start_date: 1713-01-01
+    highlight_event_id: guji-贝原笃信-event-yojokun
+  - key: closure
+    name: 林下全归
+    labels:
+      zh: 著述遗惠
+    start_date: 1714-01-01
+    highlight_event_id: guji-贝原笃信-event-death
+  decisions:
+  - date: 1650-01-01
+    title_zh: 应藩召出仕而不断讲学
+    rationale: 欲以儒理经世，又不废穷理著述，故仕学并进
+  - date: 1713-01-01
+    title_zh: 作养身训以训庶民
+    rationale: 见世人不知摄生，故以俚言劝世，欲全民命
+- id: guji-贝原笃信-endeavor-2
+  title_zh: 本草穷理与炮炙作序
+  summary_zh: 旁搜草木辨名识真，为炮炙全书作序，后成大和本草以正名实
+  phases:
+  - key: brewing
+    name: 客游访草
+    labels:
+      zh: 访药识真
+    start_date: 1660-01-01
+    highlight_event_id: guji-贝原笃信-event-service
+  - key: breakthrough
+    name: 审订炮炙
+    labels:
+      zh: 辨伪审用
+    start_date: 1689-06-21
+    highlight_event_id: guji-贝原笃信-event-preface
+  - key: climax
+    name: 大和本草成
+    labels:
+      zh: 集成本草
+    start_date: 1709-01-01
+    highlight_event_id: guji-贝原笃信-event-yamato
+  - key: closure
+    name: 序惠后学
+    labels:
+      zh: 遗法后世
+    start_date: 1714-01-01
+    highlight_event_id: guji-贝原笃信-event-death
+  decisions:
+  - date: 1689-06-21
+    title_zh: 端午为炮炙全书作叙
+    rationale: 见其审炮炙辨真假可安危起死，故乐为序以广其传
+  - date: 1709-01-01
+    title_zh: 集诸说成大和本草
+    rationale: 悯古今名物传讹市肆饰伪，故断以己意撰次以正名实
+events:
+- id: guji-贝原笃信-event-birth
+  date: 1630-12-17
+  year_of: 1630
+  title_zh: 生于筑前福冈
+  description_zh: 筑前藩士之家诞生，幼而好学，喜穷物理
+  place_zh: 筑前福冈
+- id: guji-贝原笃信-event-service
+  date: 1650-01-01
+  year_of: 1650
+  title_zh: 出仕黑田藩勤学不辍
+  description_zh: 出仕藩府，旁搜群书，尤好本草，客游中州与诸家讨论辨疑
+  place_zh: 筑前
+- id: guji-贝原笃信-event-preface
+  date: 1689-06-21
+  year_of: 1689
+  title_zh: 元禄己巳端午为炮炙全书作叙
+  description_zh: 赞其正名称辨真假审炮炙采用之功，谓与良相燮理同功
+  place_zh: 筑前
+- id: guji-贝原笃信-event-yamato
+  date: 1709-01-01
+  year_of: 1709
+  title_zh: 大和本草成
+  description_zh: 博采众书及民间之说，攀缘深山辨草木名实，撰成以问世
+  place_zh: 京都
+- id: guji-贝原笃信-event-yojokun
+  date: 1713-01-01
+  year_of: 1713
+  title_zh: 作养身训
+  description_zh: 以平易之言训诫摄生之道，广惠庶民
+  place_zh: 筑前
+- id: guji-贝原笃信-event-death
+  date: 1714-10-05
+  year_of: 1714
+  title_zh: 卒于筑前
+  description_zh: 年八十五而终，遗书惠及后学
+  place_zh: 筑前
