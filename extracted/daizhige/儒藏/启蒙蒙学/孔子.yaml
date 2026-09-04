@@ -1,0 +1,130 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: true
+      raw: 魯襄公二十一年生於東魯
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: true
+      raw: 魯哀公十六年卒於魯
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 春秋
+  reign_ref: 東周景王敬王之世
+  archetype: 至聖先師
+  dilemmas:
+  - 周遊列國求用與退而講學育人之抉擇
+  - 述而不作守禮與筆削春秋寄褒貶之抉擇
+  lesson: 學而不厭誨人不倦以仁禮傳千古
+  summary_first_person: 吾生東魯尼山泗水之間設席講學以木鐸警眾定五經作春秋冀以仁禮匡世雖困而不改其志也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%B8%89%E5%AD%97%E9%89%B4.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%B8%89%E5%AD%97%E9%89%B4.html
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 尼山泗水設教傳道
+  summary: 尼山之際泗水之間設講席懸木鐸聚群弟子記善言成論語二十篇以仁禮教化傳千古
+  phases:
+  - key: brewing
+    name: 生東魯志於學
+    labels:
+      zh: 立志
+    start_date: -536-01-01
+    highlight_event_id: guji-孔子-event-birth
+  - key: breakthrough
+    name: 開講席聚學徒
+    labels:
+      zh: 開教
+    start_date: -522-01-01
+    highlight_event_id: guji-孔子-event-teaching
+  - key: climax
+    name: 群弟子記善言
+    labels:
+      zh: 授业
+    start_date: -500-01-01
+    highlight_event_id: guji-孔子-event-teaching
+  - key: closure
+    name: 論語傳千古
+    labels:
+      zh: 成書
+    start_date: -479-04-11
+    highlight_event_id: guji-孔子-event-death
+  decisions:
+  - date: -522-01-01
+    title_zh: 不仕而設教
+    rationale: 以木鐸代官位聚徒講學使仁禮下及庶人
+  - date: -500-01-01
+    title_zh: 以弟子記言傳道
+    rationale: 使群弟子錄善言為論語以存聖教於後世
+- id: guji-孔子-endeavor-2
+  title_zh: 定五經作春秋
+  summary: 定五經以存古制傳千古作春秋嚴筆削寓褒貶別善惡以寄王法於空言
+  phases:
+  - key: brewing
+    name: 觀禮制覽舊典
+    labels:
+      zh: 覽典
+    start_date: -517-01-01
+    highlight_event_id: guji-孔子-event-teaching
+  - key: breakthrough
+    name: 刪定詩書定禮樂
+    labels:
+      zh: 定經
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-compiling
+  - key: climax
+    name: 作春秋嚴筆削
+    labels:
+      zh: 筆削
+    start_date: -481-01-01
+    highlight_event_id: guji-孔子-event-compiling
+  - key: closure
+    name: 以褒貶別善惡傳後
+    labels:
+      zh: 垂訓
+    start_date: -479-04-11
+    highlight_event_id: guji-孔子-event-death
+  decisions:
+  - date: -484-01-01
+    title_zh: 述而不作而定五經
+    rationale: 尊古制而不自專因刪定以救禮壞樂崩之失
+  - date: -481-01-01
+    title_zh: 以春秋寓王法
+    rationale: 假筆削寄褒貶使亂臣賊子懼而善惡有別
+events:
+- id: guji-孔子-event-birth
+  type: birth
+  title_zh: 生於東魯
+  date: -551-09-28
+  year_of: -551
+  location: 魯國陬邑尼山之際
+  summary: 孔子生東魯為尼山泗水之人後為萬世師表
+- id: guji-孔子-event-teaching
+  type: achievement
+  title_zh: 尼山泗水設講席
+  date: -522-01-01
+  year_of: -522
+  location: 尼山泗水之間
+  summary: 設講席懸木鐸群弟子記善言為論語二十篇曾子作大學孔伋作中庸以傳其教
+- id: guji-孔子-event-compiling
+  type: achievement
+  title_zh: 定五經作春秋
+  date: -481-01-01
+  year_of: -481
+  location: 魯國
+  summary: 定五經傳千古作春秋嚴筆削寓褒貶別善惡以明王道
+- id: guji-孔子-event-death
+  type: death
+  title_zh: 卒於魯
+  date: -479-04-11
+  year_of: -479
+  location: 魯國
+  summary: 孔子卒其道由曾子子思孟子及左丘明等傳述不絕聖教垂於千古

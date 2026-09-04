@@ -1,0 +1,132 @@
+person:
+  qid: guji-秦始皇
+  name_zh: 秦始皇
+  names:
+    zh: 嬴政
+    en: Qin Shi Huang
+  lifespan:
+    birth:
+      date: -259-02-18
+      precision: day
+      is_circa: false
+      raw: 秦昭襄王四十八年正月生于邯郸
+    death:
+      date: -210-08-10
+      precision: day
+      is_circa: false
+      raw: 始皇三十七年七月丙寅崩于沙丘
+  birth_date: -259-02-18
+  death_date: -210-08-10
+  era: 战国末至秦朝
+  reign_ref: 秦王政至秦始皇帝
+  archetype: 一统开创之君
+  dilemmas:
+  - 急求一统与民力疲敝之两难
+  - 集权专断与儒生异议之冲突
+  lesson: 一统可成于威力而难守于苛政
+  summary_first_person: 朕继秦王而并六国为一统更号皇帝销兵焚书筑长城建阿房欲传万世而民困政苛以致二世即亡以此为鉴
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%BA%94%E5%AD%97%E9%89%B4.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%BA%94%E5%AD%97%E9%89%B4.html
+endeavors:
+- id: guji-秦始皇-endeavor-1
+  title_zh: 并吞六国一统天下
+  summary_zh: 继秦王位先后灭韩赵魏楚燕齐并国十三年而成一统更号皇帝称诏
+  phases:
+  - key: brewing
+    name: 即位蓄势整军经国
+    labels:
+      zh: 蓄势固本
+    start_date: -247-01-01
+    highlight_event_id: guji-秦始皇-event-birth
+  - key: breakthrough
+    name: 先灭韩赵魏打开局面
+    labels:
+      zh: 突破扩张
+    start_date: -230-01-01
+    highlight_event_id: guji-秦始皇-event-unify
+  - key: climax
+    name: 翦楚燕齐完成一统
+    labels:
+      zh: 决战一统
+    start_date: -225-01-01
+    highlight_event_id: guji-秦始皇-event-unify
+  - key: closure
+    name: 更号皇帝销兵定名
+    labels:
+      zh: 定号收功
+    start_date: -221-01-01
+    highlight_event_id: guji-秦始皇-event-unify
+  decisions:
+  - date: -230-01-01
+    title_zh: 定先弱后强灭国次序
+    rationale: 先取韩赵魏以断山东合纵再图强楚齐以收全功
+  - date: -221-01-01
+    title_zh: 更号皇帝自称诏令
+    rationale: 并吞为一国当显至尊以皇帝名号统一政令威仪
+- id: guji-秦始皇-endeavor-2
+  title_zh: 焚书设防营建宫边
+  summary_zh: 焚书坑儒以一天下思想北筑长城以防胡南修五岭西建阿房以极土木
+  phases:
+  - key: brewing
+    name: 郡县一统议制谋防
+    labels:
+      zh: 谋制
+    start_date: -221-06-01
+    highlight_event_id: guji-秦始皇-event-unify
+  - key: breakthrough
+    name: 焚书坑儒销兵黜儒风
+    labels:
+      zh: 齐俗归一
+    start_date: -213-01-01
+    highlight_event_id: guji-秦始皇-event-reform
+  - key: climax
+    name: 北筑长城南修五岭
+    labels:
+      zh: 边防经略
+    start_date: -214-01-01
+    highlight_event_id: guji-秦始皇-event-wall
+  - key: closure
+    name: 西建阿房东塞大海民困
+    labels:
+      zh: 奢建民疲
+    start_date: -212-01-01
+    highlight_event_id: guji-秦始皇-event-wall
+  decisions:
+  - date: -213-01-01
+    title_zh: 焚书坑儒欲灭儒风
+    rationale: 以法为教以吏为师欲使天下无异议而归一尊
+  - date: -214-01-01
+    title_zh: 北塞筑长城备胡
+    rationale: 销铄刀兵之后仍须边塞长城以御胡贼而竭民力在所不惜
+events:
+- id: guji-秦始皇-event-birth
+  title_zh: 出生于邯郸
+  date: -259-02-18
+  year_of: -259
+  type: birth
+  description_zh: 秦昭襄王四十八年生于赵都邯郸为庄襄王子楚之子名政
+- id: guji-秦始皇-event-unify
+  title_zh: 并吞六国称皇帝
+  date: -221-01-01
+  year_of: -221
+  type: unify
+  description_zh: 并国十三年灭韩赵魏楚燕齐更号皇帝言词称诏天下为一国
+- id: guji-秦始皇-event-reform
+  title_zh: 焚书坑儒士
+  date: -213-01-01
+  year_of: -213
+  type: reform
+  description_zh: 焚书坑儒士欲把儒风灭孔道被伤残而思想归一
+- id: guji-秦始皇-event-wall
+  title_zh: 筑长城建阿房修五岭
+  date: -214-01-01
+  year_of: -214
+  type: construction
+  description_zh: 北塞筑长城以防胡西建阿房势与天接南修五岭东塞大海竭力劳民
+- id: guji-秦始皇-event-death
+  title_zh: 崩于沙丘
+  date: -210-08-10
+  year_of: -210
+  type: death
+  description_zh: 自恃天下平巡游而天命一朝殂四海崩泄二世胡亥继而秦亡
