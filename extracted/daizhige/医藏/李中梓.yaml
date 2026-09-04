@@ -6,133 +6,127 @@ person:
     en: Li Zhongzi
   lifespan:
     birth:
-      date: '1587'
+      date: '1588'
       precision: year
       is_circa: false
-      raw: 万历十五年丁亥
+      raw: 明万历十六年
     death:
       date: '1655'
       precision: year
-      is_circa: true
-      raw: 清初约顺治十二年
-  birth_date: '1587'
+      is_circa: false
+      raw: 清顺治十二年
+  birth_date: '1588'
   death_date: '1655'
   era: 明末清初
   reign_ref: 明万历至清顺治
-  archetype: 医儒宗师
+  archetype: 脉学宗匠
   dilemmas:
-  - title_zh: 繁简之辨
-    description: 本草太多有望洋之苦药性太少有遗珠之忧如何删繁去复独存精要
-  - title_zh: 文医兼修之难
-    description: 学医者必先具文学水准而临症又须切用如何兼顾雅正与实用
-  lesson: 删繁存精以韵语便诵以医案证理论成后学之津梁
-  summary_first_person: 吾李中梓字仕材松江府南汇县人精医复精文授徒马元仪尤生州等中年草颐生微论复删补之崇祯十年成医宗必读十卷以本草征要列卷三卷四冀后学便于诵习临症切用
+  - 世医竞言七表八里九道而昧脉神胃气之本，我当剖明正眼以救误还是随俗缄默以免诤
+  - 鼎革之际出仕显荣与隐居行医之间，我当守医道以全节还是逐功名以显身
+  lesson: 脉即神之别名，贵有胃气有神，审病察脉当以胃气为本，以平旦调息求阴阳虚实之真
+  summary_first_person: 余李中梓字士材号念莪华亭人也，少研内经难经仲景之书，深慨世医不知脉为何物，久思而悟脉为神之别名，谷气充则血旺气强神昌，皆以脉为征兆，遂著诊家正眼以明气口寸关尺阴阳胃气之旨，又著医宗必读以诲后学，愿后之诊家具正眼而济苍生
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E5%BE%81%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%AF%8A%E5%AE%B6%E6%AD%A3%E7%9C%BC.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%AF%8A%E5%AE%B6%E6%AD%A3%E7%9C%BC.html
 endeavors:
 - id: guji-李中梓-endeavor-1
-  title_zh: 重著医宗必读创制本草征要
-  summary: 以纲目为主删繁去复创长短偶句药学体例风行一时
+  title_zh: 研经明脉著诊家正眼
+  summary: 遍考内经难经脉旨，参合扁鹊华佗滑伯仁诸说，悟脉为神之别名，以胃气立论，著诊家正眼以正世医之误
   phases:
   - key: brewing
-    name: 草创颐生微论
+    name: 少研内难蓄脉学之基
     labels:
-      zh: 撰述讲学
+      zh: 研经
+    start_date: '1608'
+    highlight_event_id: guji-李中梓-event-study
+  - key: breakthrough
+    name: 悟脉即神揭胃气之本
+    labels:
+      zh: 悟道
     start_date: '1630'
-    highlight_event_id: guji-李中梓-event-weilun
-  - key: breakthrough
-    name: 删补颐生微论成韵语药论
-    labels:
-      zh: 药学初成
-    start_date: '1635'
-    highlight_event_id: guji-李中梓-event-weilun
+    highlight_event_id: guji-李中梓-event-yizong
   - key: climax
-    name: 医宗必读十卷告成
+    name: 著成诊家正眼示正法
     labels:
-      zh: 本草征要
-    start_date: '1637'
-    highlight_event_id: guji-李中梓-event-yizong
+      zh: 著述
+    start_date: '1642'
+    highlight_event_id: guji-李中梓-event-zhenjia
   - key: closure
-    name: 征要单行风行大江南北
+    name: 校刊流布惠后之诊家
     labels:
-      zh: 传世成模
-    start_date: '1640'
-    highlight_event_id: guji-李中梓-event-yizong
+      zh: 刊布
+    start_date: '1643'
+    highlight_event_id: guji-李中梓-event-zhenjia
   decisions:
-  - date: '1635'
-    title_zh: 改写颐生微论为删补本
-    rationale: 自视不足谈药多编韵语以便初学诵习
-  - date: '1637'
-    title_zh: 重著医宗必读十卷以本草征要居卷三卷四
-    rationale: 以纲目为主采集名论附管窥详加注释便于诵读切于实用
+  - date: '1630'
+    title_zh: 断以脉为神之别名
+    rationale: 世医或谓脉为气血经隧皆未中的，惟神超乎气血之先为主宰，故表而出之以立正眼之纲
+  - date: '1642'
+    title_zh: 以内经为宗兼采扁鹊难经
+    rationale: 上古三部九候本兼手足头面，后世专泥寸关尺浮中沉之习，故折衷经文以明气口寸关尺分候三焦脏腑之定位
 - id: guji-李中梓-endeavor-2
-  title_zh: 江南讲学授徒育才
-  summary: 授徒众多以法乳传马元仪尤生州等嘉惠后学
+  title_zh: 悬壶济世著医宗必读传后学
+  summary: 明亡不仕隐以医隐，行医江南全活甚众，著医宗必读伤寒括要等书，开馆授徒以传仁术
   phases:
   - key: brewing
-    name: 松江临症授徒
+    name: 行医江南积累证验
     labels:
-      zh: 临症授徒
+      zh: 行医
     start_date: '1620'
-    highlight_event_id: guji-李中梓-event-shoutu
+    highlight_event_id: guji-李中梓-event-study
   - key: breakthrough
-    name: 文医兼授立论文为先
+    name: 著医宗必读立教人之范
     labels:
-      zh: 医论图说
+      zh: 立教
     start_date: '1637'
     highlight_event_id: guji-李中梓-event-yizong
   - key: climax
-    name: 门人杰出传法乳
+    name: 授徒讲脉阐诊家正眼
     labels:
-      zh: 薪火相传
-    start_date: '1645'
-    highlight_event_id: guji-李中梓-event-shoutu
+      zh: 授徒
+    start_date: '1642'
+    highlight_event_id: guji-李中梓-event-zhenjia
   - key: closure
-    name: 清代奉为习医模板
+    name: 晚年守节以医终老
     labels:
-      zh: 嘉惠后学
-    start_date: '1650'
-    highlight_event_id: guji-李中梓-event-shoutu
+      zh: 守节
+    start_date: '1645'
+    highlight_event_id: guji-李中梓-event-death
   decisions:
   - date: '1637'
-    title_zh: 卷一首列论文十三篇附骨度藏象图
-    rationale: 鉴于学医必先有文学水准以论文图说开宗明义
+    title_zh: 先著医宗必读以救时医
+    rationale: 时医昧伤寒温病虚劳之辨，误人性命，故先立必读之纲使学者有入门之径
   - date: '1645'
-    title_zh: 论述杂病后多附己之医案
-    rationale: 使深于医者与初学者两皆适用内容切实用便于学习
+    title_zh: 国变后隐医不仕
+    rationale: 国破家亡之际，惟医可济生全节，故守华亭悬壶授徒不就新朝之聘
 events:
 - id: guji-李中梓-event-birth
-  type: birth
-  title_zh: 生于松江府南汇县
-  date: '1587'
-  year_of: 1587
-  place_zh: 松江府南汇县
-  description: 明万历十五年丁亥生精于医复精于文
-- id: guji-李中梓-event-weilun
-  type: achievement
-  title_zh: 草创复删补颐生微论
-  date: '1635'
-  year_of: 1635
+  date: '1588'
+  year_of: 1588
+  title_zh: 生于华亭
+  description: 明万历十六年生于南直隶华亭，字士材号念莪，少聪敏嗜医经
+  place_zh: 华亭
+- id: guji-李中梓-event-study
+  date: '1608'
+  year_of: 1608
+  title_zh: 师承研习内经难经
+  description: 弱冠研读素问灵枢难经伤寒论，参滑伯仁诊法，调息察脉以上下来去至止辨阴阳虚实
   place_zh: 江南
-  description: 中年草颐生微论自视不足改写为删补本谈药多编韵语
 - id: guji-李中梓-event-yizong
-  type: achievement
-  title_zh: 成医宗必读十卷含本草征要
   date: '1637'
   year_of: 1637
-  place_zh: 江南
-  description: 崇祯十年重著医宗必读十卷卷三卷四为本草征要详注味性归经主治便于诵读
-- id: guji-李中梓-event-shoutu
-  type: achievement
-  title_zh: 广授门徒传法马元仪尤生州
-  date: '1645'
-  year_of: 1645
-  place_zh: 江南
-  description: 授徒众多马元仪尤生州等皆传其法乳清代大江南北习医奉为模板
+  title_zh: 著成医宗必读
+  description: 汇通经论著医宗必读十卷，发明仁义礼智信合于医理，行于世而学者宗之
+  place_zh: 华亭
+- id: guji-李中梓-event-zhenjia
+  date: '1642'
+  year_of: 1642
+  title_zh: 著成诊家正眼
+  description: 崇祯末著诊家正眼，明脉之名义气口独为五脏主至数五十营平旦寸关尺三焦重轻阴阳之旨，立脉即神别名有胃气则生之论
+  place_zh: 华亭
 - id: guji-李中梓-event-death
-  type: death
-  title_zh: 卒于清初
   date: '1655'
   year_of: 1655
-  place_zh: 江南
-  description: 明末江南医学教育家著作均着眼培养后进与临症切用传世杰作嘉惠后学
+  title_zh: 卒于华亭
+  description: 清顺治十二年卒于家，以脉学医教传于门人，诊家正眼与医宗必读并行于世
+  place_zh: 华亭
