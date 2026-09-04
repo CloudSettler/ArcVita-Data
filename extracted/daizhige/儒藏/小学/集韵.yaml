@@ -1,0 +1,132 @@
+person:
+  qid: guji-集韵
+  name_zh: 集韵
+  names:
+    zh: 集韵
+    en: Jiyun
+  lifespan:
+    birth:
+      date: '1037-01-01'
+      precision: year
+      is_circa: false
+      raw: 景祐四年奉诏修定
+    death:
+      date: '1067-12-31'
+      precision: year
+      is_circa: false
+      raw: 治平四年书成颁行
+  birth_date: '1037-01-01'
+  death_date: '1067-12-31'
+  era: 北宋
+  reign_ref: 宋仁宗景祐至宋英宗治平
+  archetype: 韵书集成者
+  dilemmas:
+  - 广韵多用旧文繁略失当如何刊益
+  - 审音辨体通用独用如何厘定
+  lesson: 总括诸家以审清浊，别通用独用以便检寻，音义并重而不泥谱牒
+  summary_first_person: 我承广韵之旧，奉诏增广至五万三千五百二十五字，分十卷以传，冀裨小学以正音读
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/小学/集韵.md
+  - https://daizhige.org/儒藏/小学/集韵.html
+endeavors:
+- id: guji-集韵-endeavor-1
+  person_id: guji-集韵
+  title_zh: 奉诏刊定广韵立例
+  summary: 因宋祁郑戬建言广韵失当，丁度李淑典领，贾昌朝王洙参定，立十二凡为韵例
+  phases:
+  - key: brewing
+    name: 建言修韵
+    labels:
+      zh: 筹议
+    start_date: '1037-01-01'
+    highlight_event_id: guji-集韵-event-birth
+  - key: breakthrough
+    name: 典领分职
+    labels:
+      zh: 修定
+    start_date: '1037-06-01'
+    highlight_event_id: guji-集韵-event-1
+  - key: climax
+    name: 参定经史立例
+    labels:
+      zh: 立例
+    start_date: '1038-01-01'
+    highlight_event_id: guji-集韵-event-1
+  - key: closure
+    name: 韵例初定
+    labels:
+      zh: 初定
+    start_date: '1039-01-01'
+    highlight_event_id: guji-集韵-event-1
+  decisions:
+  - date: '1037-01-01'
+    title_zh: 建言刊益广韵
+    rationale: 以旧文繁略失当故请重修以求该广
+  - date: '1038-01-01'
+    title_zh: 厘定体例删繁
+    rationale: 去姓望谱牒之赘，删互注之细文，先标本字以便检寻
+- id: guji-集韵-endeavor-2
+  person_id: guji-集韵
+  title_zh: 增字集韵成书颁行
+  summary: 增广至五万三千五百二十五字，分十卷，厘定通用独用，治平四年成书上进诏颁
+  phases:
+  - key: brewing
+    name: 广收经史小学
+    labels:
+      zh: 采集
+    start_date: '1040-01-01'
+    highlight_event_id: guji-集韵-event-1
+  - key: breakthrough
+    name: 增字并韵
+    labels:
+      zh: 增广
+    start_date: '1055-01-01'
+    highlight_event_id: guji-集韵-event-2
+  - key: climax
+    name: 书成上进
+    labels:
+      zh: 成编
+    start_date: '1067-01-01'
+    highlight_event_id: guji-集韵-event-2
+  - key: closure
+    name: 诏颁并行
+    labels:
+      zh: 颁行
+    start_date: '1067-12-01'
+    highlight_event_id: guji-集韵-event-death
+  decisions:
+  - date: '1050-01-01'
+    title_zh: 增字至五万三千
+    rationale: 广收经史诸子小学古文奇字以备检用
+  - date: '1067-01-01'
+    title_zh: 并韵通用酌定独用
+    rationale: 窄者许附近通用以协音读，改上下平为一二三四以便部居
+events:
+- id: guji-集韵-event-birth
+  person_id: guji-集韵
+  title_zh: 景祐四年奉诏萌始
+  date: '1037-01-01'
+  year_of: 1037
+  description: 宋祁郑戬建言彭年邱雍所定广韵繁略失当，诏加修定
+  type: birth
+- id: guji-集韵-event-1
+  person_id: guji-集韵
+  title_zh: 典领分职立韵例
+  date: '1038-01-01'
+  year_of: 1038
+  description: 丁度李淑典领，贾昌朝王洙参定经史小学，立十二凡为韵例
+  type: career
+- id: guji-集韵-event-2
+  person_id: guji-集韵
+  title_zh: 治平四年书成上进
+  date: '1067-01-01'
+  year_of: 1067
+  description: 司马光续纂成书凡十卷五万三千五百二十五字，诏颁天下
+  type: career
+- id: guji-集韵-event-death
+  person_id: guji-集韵
+  title_zh: 十卷定型与广韵并行
+  date: '1067-12-31'
+  year_of: 1067
+  description: 集韵厘定通用独用并合诸韵，后世与广韵并行莫能偏废
+  type: death
