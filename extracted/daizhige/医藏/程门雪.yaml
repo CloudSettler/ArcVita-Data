@@ -6,122 +6,109 @@ person:
     en: Cheng Menxue
   lifespan:
     birth:
-      date: 1908-01-01
+      date: 1890-01-01
       precision: year
-      is_circa: false
-      raw: 1908年
+      is_circa: true
+      raw: 婺源人十六七岁从医推算清末
     death:
-      date: 1972-01-01
+      date: 1932-01-01
       precision: year
-      is_circa: false
-      raw: 1972年
-  birth_date: 1908-01-01
-  death_date: 1972-01-01
-  era: 近现代
-  reign_ref: 民国至中华人民共和国
-  archetype: 经方医家
+      is_circa: true
+      raw: 民国初年遗稿未刊而卒
+  birth_date: 1890-01-01
+  death_date: 1932-01-01
+  era: 近代
+  reign_ref: 民国
+  archetype: 名医
   dilemmas:
-  - 泥于脏腑经络与但标病位之间何去何从
-  - 固守仲景经方与融汇时疫温病之间如何权衡
-  - 虚寒急证当温阳存阳与伏热实证当急下存阴之间如何明辨
-  lesson: 辨病位以统脉证，合学识经验以通经旨，不拘泥亦不穿凿，设六经以赅众病
-  summary_first_person: 余究心伤寒，谓素问六经是一病共具之六经，仲景六经是异病分部之六经，设六经以尽赅众病，辨表里寒热虚实而施桂麻柴承理中四逆诸法，愿后学朗若观星明如印月
+  - 温摄固脱与清热通因如何审症不误
+  - 补气升举与固涩收敛如何兼顾不致反助滑脱
+  lesson: 审病因而施治寒热并用补涩兼施则病无遁形
+  summary_first_person: 我是程门雪字九如婺源人少师汪莲石后从丁甘仁一九二一年毕业于上海中医专门学校融仲景与叶天士为一炉汇通中西遗有崩漏带下胎前诸篇愿以袖珍妇科之法裨益临证
   source_urls:
-  - https://daizhige.org/医藏/伤寒辨要笺记.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/伤寒辨要笺记.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%A8%8B%E9%97%A8%E9%9B%AA%E9%81%97%E7%A8%BF.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%A8%8B%E9%97%A8%E9%9B%AA%E9%81%97%E7%A8%BF.md
 endeavors:
 - id: guji-程门雪-endeavor-1
-  title_zh: 六经病位辨正
-  summary_zh: 会通东瀛诸家六经考，辨素问经络与仲景病位之同异，立异病分部之说
+  title_zh: 师承汪丁汇通古今中西
+  summary: 十六七岁师汪莲石后拜丁甘仁一九二一年毕业于上海中医专门学校融张仲景与叶天士为一炉
   phases:
   - key: brewing
-    name: 博览东瀛六经考
+    name: 少师汪莲石启蒙岐黄
     labels:
-      zh: 研读
-    start_date: 1930-01-01
-    highlight_event_id: guji-程门雪-event-liujing
+      zh: 求学
+    start_date: 1906-01-01
+    highlight_event_id: guji-程门雪-event-study
   - key: breakthrough
-    name: 拈出后条辨数语为纲
+    name: 拜丁甘仁入上海中医专门学校
+    labels:
+      zh: 深造
+    start_date: 1916-01-01
+    highlight_event_id: guji-程门雪-event-graduation
+  decisions:
+  - date: 1916-01-01
+    title_zh: 拜入丁甘仁门下
+    rationale: 欲贯通古今汇通中西故从新学以广见闻
+  - date: 1921-01-01
+    title_zh: 毕业上海中医专门学校
+    rationale: 学成而立志以仲景叶氏之法济世活人
+- id: guji-程门雪-endeavor-2
+  title_zh: 撰妇科遗稿明崩漏带下胎前
+  summary: 生前未刊八篇遗稿以崩漏带下胎前妊娠产后为要直可视为袖珍中医妇科学
+  phases:
+  - key: climax
+    name: 辨崩漏冲任阴阳肝脾瘀虚
     labels:
       zh: 立论
-    start_date: 1932-01-01
-    highlight_event_id: guji-程门雪-event-liujing
-  - key: climax
-    name: 断六经借标病位而兼合脏腑
-    labels:
-      zh: 辨正
-    start_date: 1934-01-01
-    highlight_event_id: guji-程门雪-event-bianyao
+    start_date: 1925-01-01
+    highlight_event_id: guji-程门雪-event-benglou
   - key: closure
-    name: 录浅田山田诸说以备考
-    labels:
-      zh: 成篇
-    start_date: 1936-01-01
-    highlight_event_id: guji-程门雪-event-bianyao
-  decisions:
-  - date: 1932-01-01
-    title_zh: 不尽废脏腑经络亦不拘泥
-    rationale: 六经病证与素问主病合者十九，当谓不必拘拘于脏腑经络则可，谓必不关脏腑则大谬
-  - date: 1934-01-01
-    title_zh: 宗程应旄异病分部之说
-    rationale: 素问是因热病而原及六经，仲景是设六经以尽赅众病，一以贯之则同异了然
-- id: guji-程门雪-endeavor-2
-  title_zh: 三阴三阳分证施治
-  summary_zh: 分辨太阳阳明少阳太阴少阴厥阴合病并病，定桂麻柴承理中四逆白通诸方正对之治
-  phases:
-  - key: brewing
-    name: 遍记太阳篇方治得失
-    labels:
-      zh: 整理
-    start_date: 1932-01-01
-    highlight_event_id: guji-程门雪-event-liujing
-  - key: breakthrough
-    name: 明大小青龙大小柴胡大小承气为三阳大小邪主方
-    labels:
-      zh: 提纲
-    start_date: 1934-01-01
-    highlight_event_id: guji-程门雪-event-bianyao
-  - key: climax
-    name: 析少阴寒热虚闭与厥阴阴尽阳生之机
-    labels:
-      zh: 辨治
-    start_date: 1935-01-01
-    highlight_event_id: guji-程门雪-event-bianyao
-  - key: closure
-    name: 撰成伤寒辨要笺记示学
+    name: 著带下胎前遗稿传世
     labels:
       zh: 著述
-    start_date: 1936-01-01
-    highlight_event_id: guji-程门雪-event-bianyao
+    start_date: 1930-01-01
+    highlight_event_id: guji-程门雪-event-daidai
   decisions:
-  - date: 1934-01-01
-    title_zh: 太阳正病重在大青龙传证
-    rationale: 麻黄外证而内见烦躁颇欲吐脉数急为传，来势鸱张当识正病副候之别
-  - date: 1935-01-01
-    title_zh: 少阴分寒闭虚寒急下存阴三途
-    rationale: 白通治寒闭无脉，四逆治虚寒脉微欲绝，大承气治少阴伏热自利清水心下痛，不可混同
-  - date: 1935-06-01
-    title_zh: 厥阴重在物极必反阴变阳
-    rationale: 先热后厥先厥后热当察厥热进退，热化则向愈，寒化则归少阴，不立空名而务实用
+  - date: 1925-01-01
+    title_zh: 分崩漏为阴阳虚实瘀滞立法
+    rationale: 因崩漏有脾虚热迫气虚瘀阻之异故须审因施治温清并进
+  - date: 1930-01-01
+    title_zh: 以虚实寒热论带下胎前
+    rationale: 因带下有内因外因虚实寒热之别故须温清通涩各依症施
 events:
 - id: guji-程门雪-event-birth
-  title_zh: 出生于江苏无锡
-  date: 1908-01-01
-  year_of: 1908
-  place_zh: 江苏无锡
-  description_zh: 程相字门雪，诞生于无锡，少习儒而究心医道
-- id: guji-程门雪-event-liujing
-  title_zh: 汇考东瀛六经病位诸说
+  title_zh: 出生于婺源
+  date: 1890-01-01
+  year_of: 1890
+  type: birth
+  description: 婺源程氏字九如别号壶公蒲石山房书种庐等
+- id: guji-程门雪-event-study
+  title_zh: 十六七岁师事汪莲石
+  date: 1906-01-01
+  year_of: 1906
+  type: career
+  description: 少时受业于名医汪莲石启蒙岐黄
+- id: guji-程门雪-event-graduation
+  title_zh: 毕业于上海中医专门学校
+  date: 1921-01-01
+  year_of: 1921
+  type: career
+  description: 拜入丁甘仁门下一九二一年毕业融仲景天士为一炉汇通中西
+- id: guji-程门雪-event-benglou
+  title_zh: 论崩漏冲任阴阳治法
+  date: 1925-01-01
+  year_of: 1925
+  type: career
+  description: 分冲任阴阳虚实定温摄清通补气祛瘀之法辨肝脾郁结寒热并用
+- id: guji-程门雪-event-daidai
+  title_zh: 论带下胎前妊娠诸法
+  date: 1930-01-01
+  year_of: 1930
+  type: career
+  description: 论带下虚实寒热风冷湿热释金匮妊娠产后杂病成袖珍妇科遗稿
+- id: guji-程门雪-event-death
+  title_zh: 逝世遗稿未刊传世
   date: 1932-01-01
   year_of: 1932
-  description_zh: 征引徐洄溪物茂仰贺屋恭藤本廉吉益猷浅田宗伯山田正珍诸家六经考，辨三阴三阳但假以分表里部位配脉证为统名之得失
-- id: guji-程门雪-event-bianyao
-  title_zh: 撰成伤寒辨要笺记
-  date: 1936-01-01
-  year_of: 1936
-  description_zh: 次第辨六经太阳阳明少阳太阴少阴厥阴及合病并病，详大小青龙柴胡承气理中四逆白通乌梅諸方，发明正病副候缓下急下之例
-- id: guji-程门雪-event-death
-  title_zh: 逝世
-  date: 1972-01-01
-  year_of: 1972
-  description_zh: 一代经方大家谢世，伤寒辨要笺记流传于世为后学所宗
+  type: death
+  description: 生前八篇遗稿未及发表后人录其崩漏带下胎前等篇以传
