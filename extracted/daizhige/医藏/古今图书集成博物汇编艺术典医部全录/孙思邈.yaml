@@ -9,7 +9,7 @@ person:
       date: '0541'
       precision: year
       is_circa: true
-      raw: 约隋开皇前生于京兆华原
+      raw: 约隋开皇元年华原降生
     death:
       date: 0682
       precision: year
@@ -17,116 +17,121 @@ person:
       raw: 唐永淳元年卒
   birth_date: '0541'
   death_date: 0682
-  era: 唐
+  era: 隋唐
   reign_ref: 唐贞观至永淳
-  archetype: 济世医圣
+  archetype: 隐逸医圣
   dilemmas:
-  - 正气虚则邪祟乘虚而入当以药治还是以禁咒安神
-  - 尸疰注易灭门当独救一人还是兼防传染旁人
-  lesson: 心正气充则百邪不侵药符兼施方能内外俱安
-  summary_first_person: 我生逢乱世立志济人撰千金方辨中恶尸疰鬼击之候主张先安神定志后以汤散祛邪愿后人正心养气不为邪乘
+  - title_zh: 出仕与隐逸之择
+    description: 太宗高宗屡征不就，守山林以全医道济世之志
+  - title_zh: 喉证寒热之辨
+    description: 脏热则肿塞腑寒则耿耿，不敢一概清火须依脏调治
+  lesson: 喉咙为脾胃之候，热则开之寒则通之，不热不寒依脏调之，以慈悲存心以精勤济世
+  summary_first_person: 吾隐居太白终南，博览经方，撰千金以救疾苦，论喉咙通利水谷往来神气，愿以医为济世之仁，不慕荣达，但愿生民少病
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E4%B8%AD%E6%81%B6%E9%97%A8.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E4%B8%AD%E6%81%B6%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/古今图书集成博物汇编艺术典医部全录/咽喉门.md
+  - https://daizhige.org/医藏/古今图书集成博物汇编艺术典医部全录/咽喉门.html
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 撰千金方立中恶尸疰论治
-  summary: 辨飞尸鬼疰五尸之变立法甘草瞿麦及诸疰汤散以救卒厥客忤
+  title_zh: 撰千金方立喉咙论
+  description: 博采经方撰备急千金要方，立喉咙论明十二两一尺二寸十二重之度，主通利水谷之道
   phases:
   - key: brewing
-    name: 隐居太白博采经方
+    name: 隐居博览
     labels:
-      zh: 酝酿采集
-    start_date: '0620'
-    highlight_event_id: guji-孙思邈-event-zhuji
+      zh:
+      - 积累
+    start_date: '0600'
+    highlight_event_id: guji-孙思邈-event-study
   - key: breakthrough
-    name: 总结尸疰鬼疰三十六至九十九种
+    name: 垂帘著述
     labels:
-      zh: 突破立论
+      zh:
+      - 撰述
     start_date: '0652'
     highlight_event_id: guji-孙思邈-event-qianjin
   - key: climax
-    name: 千金方中恶飞尸方药大成
+    name: 喉咙论成
     labels:
-      zh: 高潮成书
-    start_date: '0652'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh:
+      - 立论
+    start_date: 0659
+    highlight_event_id: guji-孙思邈-event-houlong
   - key: closure
-    name: 示人急疗防注易灭门
+    name: 刊行济世
     labels:
-      zh: 收束垂训
-    start_date: 0682
+      zh:
+      - 流布
+    start_date: 0680
     highlight_event_id: guji-孙思邈-event-death
   decisions:
   - date: '0652'
-    title_zh: 尸疰先服甘草汁后服瞿麦汤
-    rationale: 心腹痛服热药不动而气急者为尸疰先解毒后取下以宽结滞
-  - date: '0652'
-    title_zh: 鬼击卒忤参取诸方急救
-    rationale: 鬼击如刀刺绞痛吐衄须通治感忤不可拘于一法
+    title_zh: 发愿著千金要方
+    rationale: 以民多夭枉，独力搜集经方单验，欲使人人可按证施治
+  - date: 0659
+    title_zh: 以脾胃候喉咙立论
+    rationale: 见喉塞耿耿多系脏腑寒热，故立热开寒通不热不寒依脏调之之纲
 - id: guji-孙思邈-endeavor-2
-  title_zh: 炼备急丹散救卒死客忤
-  summary: 制太乙备急太乙神精等丹散以治客忤霍乱蛊疰温疟及辟瘴疫
+  title_zh: 山林行医济咽喉危证
+  description: 居京兆行医四方，治喉肿喉痹嗌干诸证，教人调神气慎风寒，活人无算
   phases:
   - key: brewing
-    name: 采集金石草木试炼丹剂
+    name: 采药行村
     labels:
-      zh: 酝酿试炼
-    start_date: '0640'
-    highlight_event_id: guji-孙思邈-event-zhuji
+      zh:
+      - 行医
+    start_date: '0610'
+    highlight_event_id: guji-孙思邈-event-study
   - key: breakthrough
-    name: 得太乙备急如汤沃雪之效
+    name: 拒征守道
     labels:
-      zh: 突破得效
-    start_date: '0652'
+      zh:
+      - 守志
+    start_date: '0630'
     highlight_event_id: guji-孙思邈-event-qianjin
   - key: climax
-    name: 神精丹飞化五色济众恶毒
+    name: 大医精诚化众
     labels:
-      zh: 高潮神验
-    start_date: '0660'
-    highlight_event_id: guji-孙思邈-event-dan
+      zh:
+      - 教化
+    start_date: 0659
+    highlight_event_id: guji-孙思邈-event-houlong
   - key: closure
-    name: 以绛囊系臂佩带辟邪传世
+    name: 百岁羽化
     labels:
-      zh: 收束传法
+      zh:
+      - 归真
     start_date: 0682
     highlight_event_id: guji-孙思邈-event-death
   decisions:
+  - date: '0630'
+    title_zh: 辞征不就
+    rationale: 恐宦途妨医，愿留山中为生民治病，不以荣禄易济世之心
   - date: '0660'
-    title_zh: 丹散秘贮非贤不传而广济急
-    rationale: 备急神精功峻力猛须密贮慎用又当普救卒死中恶之急
-  - date: '0660'
-    title_zh: 吐利汗衄随证验效
-    rationale: 病在上则吐在下则利在表则汗据经络定取效之途
+    title_zh: 以乌翣膏等治脏热喉塞
+    rationale: 脏热则气不通，须清热开结，腑寒则温通，不可妄用寒凉伤胃气
 events:
 - id: guji-孙思邈-event-birth
-  title_zh: 生于京兆华原
+  title_zh: 降生京兆华原
   date: '0541'
   year_of: 541
-  place: 京兆华原
-  description: 约隋开皇前出生幼多病立志学医博涉经史百家
-- id: guji-孙思邈-event-zhuji
-  title_zh: 隐居著述博采方术
-  date: '0620'
-  year_of: 620
-  place: 太白山
-  description: 隐居不仕精研医药搜集民间单验及禁咒移精变气之术
+  description: 隋开皇前后生于京兆华原，自幼多病遂发愤学医
+- id: guji-孙思邈-event-study
+  title_zh: 隐太白博览医经
+  date: '0600'
+  year_of: 600
+  description: 隐居太白山博览素问灵枢及诸家经方，究喉咽呼吸水谷之分
 - id: guji-孙思邈-event-qianjin
-  title_zh: 千金方论中恶飞尸鬼疰成
+  title_zh: 撰成备急千金要方
   date: '0652'
   year_of: 652
-  place: 长安
-  description: 于千金方立飞尸鬼疰鬼击卒忤论详三十六至九十九种候并录五疰桃奴还魂等方
-- id: guji-孙思邈-event-dan
-  title_zh: 炼太乙备急神精丹济急
-  date: '0660'
-  year_of: 660
-  place: 长安
-  description: 炼太乙备急散神精丹治客忤尸疰蛊毒温疟及卒死心下微暖者绛囊佩带以避瘴疫
+  description: 撰千金要方三十卷，兼及喉咙嗌喉痹痛诸方，传于世
+- id: guji-孙思邈-event-houlong
+  title_zh: 立喉咙脾胃之候论
+  date: 0659
+  year_of: 659
+  description: 明喉咙长一尺二寸广二寸十二重应十二时，若脏热则肿塞用乌翣膏，若腑寒则耿耿如物当温通
 - id: guji-孙思邈-event-death
-  title_zh: 卒于唐永淳元年
+  title_zh: 永淳元年羽化
   date: 0682
   year_of: 682
-  place: 长安
-  description: 以高寿卒后世尊为药王千金方垂范中恶邪祟内外兼治之法
+  description: 唐永淳元年卒，年百余岁，遗命薄葬，后世尊为药王
