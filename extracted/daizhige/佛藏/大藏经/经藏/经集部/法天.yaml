@@ -6,121 +6,135 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0950
+      date: 0930-01-01
       precision: year
       is_circa: true
-      raw: 生年不详约十世纪中叶生于天竺
+      raw: 约生于五代末中印度摩伽陀国
     death:
-      date: '1001'
+      date: 1001-01-01
       precision: year
       is_circa: false
-      raw: 宋真宗咸平四年卒于汴京
-  birth_date: 0950
-  death_date: '1001'
+      raw: 宋咸平四年卒
+  birth_date: 0930-01-01
+  death_date: 1001-01-01
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 西天译经三藏弘法者
+  reign_ref: 宋太宗太平兴国
+  archetype: 译经弘法者
   dilemmas:
-  - 梵本精妙而华言难达如何忠实传译不断圣教
-  - 众生爱别离忧火烧然如何以无常轮回之理令得解脱
-  lesson: 以甘露正法润泽群生断贪爱无明观无常而解忧恼证涅槃寂静
-  summary_first_person: 我本天竺沙门奉宋帝诏入译经院传译佛说解忧经宣说轮回无边无常平等之理开解世人爱别离苦劝学断轮回速求解脱
+  - title_zh: 去留抉择
+    description_zh: 安守那烂陀故土抑或远赴震旦弘法译经
+  - title_zh: 言传无常
+    description_zh: 以有限文字传无常深法如何令众信受奉行
+  lesson: 诸行迁流有生必灭当观无常勤求解脱
+  summary_first_person: 我本西天中印度摩伽陀国那烂陀寺僧奉诏入宋专事翻译以汉文传无常之教劝众知生灭怖畏精进奉行
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%A7%A3%E5%BF%A7%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%A7%A3%E5%BF%A7%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%AF%B8%E8%A1%8C%E6%9C%89%E4%B8%BA%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%AF%B8%E8%A1%8C%E6%9C%89%E4%B8%BA%E7%BB%8F.md
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏入宋译经院传译经典
-  description_zh: 自天竺携梵本至汴京授朝散大夫鸿胪卿传教大师号奉诏开译经律论弘宣中土
+  title_zh: 赴宋传教译经
+  description_zh: 自那烂陀东来入宋授三藏传教大师奉诏译经
   phases:
   - key: brewing
-    name: 西天发心携梵本来华
+    name: 那烂陀学法
     labels:
-      zh: 酝酿
-    start_date: 0976
-    highlight_event_id: guji-法天-event-1
+      zh:
+      - 学法
+      - 持律
+    start_date: 0950-01-01
+    highlight_event_id: guji-法天-event-birth
   - key: breakthrough
-    name: 奉诏入院授传教大师开译
+    name: 随众入宋
     labels:
-      zh: 突破
-    start_date: 0982
-    highlight_event_id: guji-法天-event-1
+      zh:
+      - 远行
+      - 入宋
+    start_date: 0973-01-01
+    highlight_event_id: guji-法天-event-arrive-song
   - key: climax
-    name: 译出大部经典盛行中土
+    name: 奉诏译经
     labels:
-      zh: 高潮
-    start_date: 0985
-    highlight_event_id: guji-法天-event-2
+      zh:
+      - 传教
+      - 译经
+    start_date: 0976-01-01
+    highlight_event_id: guji-法天-event-translate-zhuxing
   - key: closure
-    name: 译业圆满示寂汴京
+    name: 赐紫弘化
     labels:
-      zh: 收束
-    start_date: '1001'
+      zh:
+      - 弘化
+      - 圆成
+    start_date: 0980-01-01
     highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0982
-    title_zh: 应诏留华就列译经三藏
-    rationale: 为令中土法久住止息轮回故不归天竺专事传译
-  - date: 0985
-    title_zh: 直译弘宣保持梵本本义
-    rationale: 恐失圣意故忠实传译令信受奉行不断佛种
+  - date: 0973-01-01
+    title_zh: 随天息灾东来入宋
+    rationale: 慕震旦弘法机缘不惮远涉传播圣教
+  - date: 0976-01-01
+    title_zh: 就译馆受诏专事翻译
+    rationale: 承朝廷崇佛当专力译经使梵典成汉文流通
 - id: guji-法天-endeavor-2
-  title_zh: 译弘解忧经化导爱别离苦
-  description_zh: 译佛在舍卫国祇树给孤独园说轮回无边骨聚如山泪如海水劝观无常断贪爱而解忧恼
+  title_zh: 译传诸行有为说无常法
+  description_zh: 译佛说诸行有为经明一切行迁流生灭无免劝怖畏精进
   phases:
   - key: brewing
-    name: 观察众生忧苦轮回无边
+    name: 祇园请法
     labels:
-      zh: 酝酿
-    start_date: 0983
-    highlight_event_id: guji-法天-event-2
+      zh:
+      - 请法
+      - 集众
+    start_date: 0976-01-01
+    highlight_event_id: guji-法天-event-arrive-song
   - key: breakthrough
-    name: 抉择解忧法门立说无常
+    name: 开示迁流
     labels:
-      zh: 突破
-    start_date: 0985
-    highlight_event_id: guji-法天-event-2
+      zh:
+      - 无常
+      - 开示
+    start_date: 0978-01-01
+    highlight_event_id: guji-法天-event-translate-zhuxing
   - key: climax
-    name: 译成解忧经付嘱流通
+    name: 广陈天人亦无免
     labels:
-      zh: 高潮
-    start_date: 0985
-    highlight_event_id: guji-法天-event-2
+      zh:
+      - 轮回
+      - 警策
+    start_date: 0978-06-01
+    highlight_event_id: guji-法天-event-translate-zhuxing
   - key: closure
-    name: 劝学断轮回速求解脱功成
+    name: 偈颂流通信受
     labels:
-      zh: 收束
-    start_date: 0990
-    highlight_event_id: guji-法天-event-2
+      zh:
+      - 流通
+      - 信受
+    start_date: 0979-01-01
+    highlight_event_id: guji-法天-event-translate-zhuxing
   decisions:
-  - date: 0985
-    title_zh: 以无常平等破爱别离执
-    rationale: 三界大轮回无免无常者唯正等觉为真依仗故示过失利众生
-  - date: 0985
-    title_zh: 以譬喻明轮回劝断贪爱
-    rationale: 以泥丸父母骨如妙山泪如海水等喻令知苦真实为苦而证寂静
+  - date: 0978-01-01
+    title_zh: 择无常法门翻译弘宣
+    rationale: 众生贪著久住当以窑器果熟为喻令知必坏必落
+  - date: 0979-01-01
+    title_zh: 以偈总结流通
+    rationale: 摄长行之义为偈便于记持令苾刍欢喜奉行
 events:
 - id: guji-法天-event-birth
-  title_zh: 生于天竺
-  date: 0950
-  year_of: 950
-  place_zh: 天竺
-  description_zh: 约十世纪中叶生于天竺出家通达三藏后发心东来弘法
-- id: guji-法天-event-1
-  title_zh: 入宋至汴京入译经院
-  date: 0979
-  year_of: 979
-  place_zh: 汴京
-  description_zh: 宋太平兴国年间携梵本至汴京授西天译经三藏朝散大夫鸿胪卿传教大师号奉诏传译
-- id: guji-法天-event-2
-  title_zh: 译出佛说解忧经
-  date: 0985
-  year_of: 985
-  place_zh: 汴京译经院
-  description_zh: 译佛在舍卫国祇树给孤独园告苾刍说众生贪爱无明陷爱欲泥中轮回无边劝观无常断轮回求解脱末言世界未坏法亦久住信受奉行
+  date: 0930-01-01
+  year_of: 930
+  title_zh: 生于中印度摩伽陀国
+  description_zh: 生于摩伽陀国后出家于那烂陀寺习三藏教法
+- id: guji-法天-event-arrive-song
+  date: 0973-01-01
+  year_of: 973
+  title_zh: 随众抵宋受礼遇
+  description_zh: 随天息灾等至宋都太宗礼重置译场授传教大师赐紫沙门
+- id: guji-法天-event-translate-zhuxing
+  date: 0978-01-01
+  year_of: 978
+  title_zh: 奉诏译佛说诸行有为经
+  description_zh: 于舍卫国祇树给孤独园会说一切行如幻不实王仙天人乃至罗汉辟支如来身亦当弃舍并说无常偈令众信受
 - id: guji-法天-event-death
-  title_zh: 卒于汴京
-  date: '1001'
+  date: 1001-01-01
   year_of: 1001
-  place_zh: 汴京
-  description_zh: 宋真宗咸平四年示寂于汴京译场译业圆满荼毗供奉
+  title_zh: 咸平四年示寂
+  description_zh: 译经弘化数十载至咸平四年在宋示寂译业圆满
