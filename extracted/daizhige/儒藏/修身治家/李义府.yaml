@@ -1,0 +1,138 @@
+person:
+  qid: guji-李义府
+  name_zh: 李义府
+  names:
+    zh: 李义府
+    en: Li Yifu
+  lifespan:
+    birth:
+      date: 396
+      precision: year
+      is_circa: false
+      raw: 武德七年生于瀛州饶阳
+    death:
+      date: 438
+      precision: year
+      is_circa: false
+      raw: 乾封元年卒于巂州流所
+  birth_date: 396
+  death_date: 438
+  era: 唐
+  reign_ref: 唐高宗永徽至乾封
+  archetype: 权谋宰辅
+  dilemmas:
+  - 守正直言与窥意附势之间当从何道
+  - 才高位显而德薄众怨之时如何自全
+  lesson: 恃智度心可取一时之宠失德纵欲终致倾覆驭人之术不如修己之德
+  summary_first_person: 余起寒微以文辞进身历中书舍人窥高宗武后之意赞废王氏而立武氏遂拜中书令封河间郡公一时权倾朝野晚以贪纵卖官事发流放巂州而死平生好揣摩人心著度心术十篇言吏治御心之法至今自省术可察人而不可恃也
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E5%BA%A6%E5%BF%83%E6%9C%AF.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E5%BA%A6%E5%BF%83%E6%9C%AF.md
+endeavors:
+- id: guji-李义府-endeavor-1
+  title_zh: 佐高宗废王立武而拜相专政
+  summary: 自中书舍人窥测上意赞成废王皇后立武则天由是驟贵拜中书令封公专权用事后以赃罪败
+  phases:
+  - key: brewing
+    name: 中书窥意
+    labels:
+      zh: 察上心向
+    start_date: 0649
+    highlight_event_id: guji-李义府-event-liwu
+  - key: breakthrough
+    name: 定策立后
+    labels:
+      zh: 废王立武
+    start_date: 0655-11-01
+    highlight_event_id: guji-李义府-event-liwu
+  - key: climax
+    name: 拜相封公
+    labels:
+      zh: 权倾朝野
+    start_date: 0657-01-01
+    highlight_event_id: guji-李义府-event-zaixiang
+  - key: closure
+    name: 贪纵事败
+    labels:
+      zh: 除名流放
+    start_date: 0658-01-01
+    highlight_event_id: guji-李义府-event-liufang
+  decisions:
+  - date: 0655-06-01
+    title_zh: 赞废王氏立武氏
+    rationale: 度高宗厌王氏无子而宠武氏又忌顾命大臣故迎合上意以求速进
+  - date: 0657-01-01
+    title_zh: 居相位广树党纳贿卖官
+    rationale: 恃定策之功信度心御人之术以为众心可制而上下可欺故纵欲招权
+- id: guji-李义府-endeavor-2
+  title_zh: 撰度心术论吏治御心之法
+  summary: 以历年揣摩君臣吏民之心撰度心术十篇分度心御心擒心欺心纵心构心逆心夺心警心诛心以术言治
+  phases:
+  - key: brewing
+    name: 历官察吏
+    labels:
+      zh: 积阅人心
+    start_date: 0652-01-01
+    highlight_event_id: guji-李义府-event-zaixiang
+  - key: breakthrough
+    name: 得势验术
+    labels:
+      zh: 以术驭众
+    start_date: 0657-01-01
+    highlight_event_id: guji-李义府-event-zaixiang
+  - key: climax
+    name: 成书十篇
+    labels:
+      zh: 度心成篇
+    start_date: 0660-01-01
+    highlight_event_id: guji-李义府-event-zhushu
+  - key: closure
+    name: 以术自败
+    labels:
+      zh: 术穷身覆
+    start_date: 0666-01-01
+    highlight_event_id: guji-李义府-event-liufang
+  decisions:
+  - date: 0660-01-01
+    title_zh: 系吏治经验为度心术
+    rationale: 欲以度吏之心御臣之心擒纵欺构之法皆出而明哲保身传之后人
+  - date: 0663-01-01
+    title_zh: 复相仍恃术而不修德
+    rationale: 迷信诛心夺心之智轻仁厚士望终以众怨不积之言自验而败
+events:
+- id: guji-李义府-event-birth
+  title_zh: 生于瀛州饶阳
+  date: 396
+  year_of: 614
+  kind: birth
+  summary: 武德七年生于瀛州饶阳少聪敏善属文以科举进
+- id: guji-李义府-event-liwu
+  title_zh: 赞废王皇后立武则天
+  date: 0655-11-01
+  year_of: 655
+  kind: career
+  summary: 永徽六年赞高宗废王氏立武氏为后由中书舍人擢中书侍郎骤贵
+- id: guji-李义府-event-zaixiang
+  title_zh: 拜中书令封河间郡公
+  date: 0657-01-01
+  year_of: 657
+  kind: career
+  summary: 显庆二年拜中书令监修国史封河间郡公与许敬宗李勣等专政用事
+- id: guji-李义府-event-zhushu
+  title_zh: 著度心术十篇
+  date: 0660-03-01
+  year_of: 660
+  kind: career
+  summary: 显庆龙朔间撰度心术自分度心御心擒心欺心纵心构心逆心夺心警心诛心凡十篇论治吏治心之术
+- id: guji-李义府-event-liufang
+  title_zh: 事败除名流放巂州
+  date: 0666-01-01
+  year_of: 666
+  kind: career
+  summary: 乾封元年为李崇德等弹劾贪赃卖官除名长流巂州道病愤发
+- id: guji-李义府-event-death
+  title_zh: 卒于巂州流所
+  date: 438
+  year_of: 666
+  kind: death
+  summary: 乾封元年卒于巂州流放之地年五十三朝野以权谲败亡为戒
