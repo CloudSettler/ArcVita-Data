@@ -1,0 +1,160 @@
+person:
+  qid: guji-潘楫
+  name_zh: 潘楫
+  names:
+    zh: 潘楫
+    en: Pan Ji
+  lifespan:
+    birth:
+      date: 1604
+      precision: year
+      is_circa: true
+      raw: 万历壬子负笈时为童年约八岁推算
+    death:
+      date: 1677
+      precision: year
+      is_circa: true
+      raw: 寿七十四推算
+  birth_date: 1604
+  death_date: 1677
+  era: 明末清初
+  reign_ref: 清康熙初年
+  archetype: 医隐
+  dilemmas:
+  - title_zh: 幕府立功与事亲尽孝之抉择
+    description_zh: 见父母饮啖减乃舍粤东幕府功名还里守孝终丧
+  - title_zh: 章句功名与医道传灯之抉择
+    description_zh: 遭乱后绝意仕进以医隐终老授徒数百辈续师灯焰
+  lesson: 不忘师恩以医隐全孝以平实传灯则道寿俱隆
+  summary_first_person: 我名楫字硕甫号邓林武林人少以孝弟闻壮游粤佐幕后还里师事王绍隆尽得灵兰金匮之学晚以医隐授徒数百人因崔氏脉诀为张本注解师说附以方名医灯续焰以续师灯焰寿七十四终于家
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%81%AF%E7%BB%AD%E7%84%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%81%AF%E7%BB%AD%E7%84%B0.md
+endeavors:
+- id: guji-潘楫-endeavor-1
+  title_zh: 师事王绍隆尽得灵兰金匮之传
+  description_zh: 童年负笈王绍隆门下朝暮随从尽读灵素本经难经伤寒金匮脉经后游粤佐幕还里以医隐行道授徒数百辈
+  phases:
+  - key: brewing
+    name: 童年负笈朝暮随师
+    labels:
+      zh:
+      - 求学
+      - 随侍
+    start_date: 1612
+    highlight_event_id: guji-潘楫-event-apprentice
+  - key: breakthrough
+    name: 师殁道承自立门户
+    labels:
+      zh:
+      - 承师
+      - 行医
+    start_date: 1624
+    highlight_event_id: guji-潘楫-event-masterdeath
+  - key: climax
+    name: 游粤佐幕还里卖药隐居
+    labels:
+      zh:
+      - 佐幕
+      - 医隐
+    start_date: 1644
+    highlight_event_id: guji-潘楫-event-return
+  - key: closure
+    name: 城东潘氏之学大行
+    labels:
+      zh:
+      - 授徒
+      - 立门
+    start_date: 1650
+    highlight_event_id: guji-潘楫-event-teach
+  decisions:
+  - date: 1612
+    title_zh: 万历壬子负笈王绍隆门下
+    rationale: 相去仅百武风雨无阻先读灵素次第及脉经随读随讲以究根本
+  - date: 1644
+    title_zh: 舍幕府功名还里以医隐终老
+    rationale: 见事势多不可为且亲老病逝绝意仕进卖药都市与物无害与人无争
+- id: guji-潘楫-endeavor-2
+  title_zh: 注脉诀附方著医灯续焰传灯
+  description_zh: 以崔氏脉诀为张本下以先生平日所教注解而后附以方挑灯续焰不敢僭为己有春秋六十而书成门人讲习不倦
+  phases:
+  - key: brewing
+    name: 庚寅为门人讲崔氏脉诀
+    labels:
+      zh:
+      - 讲脉
+      - 发愿
+    start_date: 1650
+    highlight_event_id: guji-潘楫-event-teach
+  - key: breakthrough
+    name: 融会灵素仲景诸家折衷
+    labels:
+      zh:
+      - 会通
+      - 注解
+    start_date: 1652
+    highlight_event_id: guji-潘楫-event-teach
+  - key: climax
+    name: 春秋六十医灯告竣
+    labels:
+      zh:
+      - 成书
+      - 续焰
+    start_date: 1664
+    highlight_event_id: guji-潘楫-event-book
+  - key: closure
+    name: 叙原表师门人光大
+    labels:
+      zh:
+      - 表师
+      - 传后
+    start_date: 1677
+    highlight_event_id: guji-潘楫-event-death
+  decisions:
+  - date: 1650
+    title_zh: 以崔氏脉诀为张本注解师说
+    rationale: 欲述指授毕先生之志皆本先生胸臆不敢僭为己有故叙表于首以充作传
+  - date: 1664
+    title_zh: 名书医灯续焰普照后学
+    rationale: 意谓挑灯而续其焰因脉及证因证及方融会平实切近使读者见如指掌
+events:
+- id: guji-潘楫-event-birth
+  title_zh: 出生于武林
+  date: 1604
+  year_of: 1604
+  place_zh: 武林城东
+  description_zh: 先世三川人自中允扈建炎跸家武林十六世至楫父云乔子四举楫最后少以孝弟闻
+- id: guji-潘楫-event-apprentice
+  title_zh: 万历壬子负笈师事王绍隆
+  date: 1612
+  year_of: 1612
+  place_zh: 武林土桥
+  description_zh: 经同盟朱仲修相引朝暮随从王绍隆先命读灵素次本经难经伤寒金匮脉经随读随讲
+- id: guji-潘楫-event-masterdeath
+  title_zh: 受业师王绍隆西归
+  date: 1624-02-01
+  year_of: 1624
+  description_zh: 先生仅五十有九道大行楫终身不忘师恩诸弟子事楫如楫事先生
+- id: guji-潘楫-event-return
+  title_zh: 游粤佐张将军幕后还里医隐
+  date: 1644
+  year_of: 1644
+  place_zh: 粤东至武林
+  description_zh: 角巾乌衣指麾方略夺隘后父母同夕逝丧毕复游粤值流氛败没病还里门自拟清凉居士卖药都市掉头不仕
+- id: guji-潘楫-event-teach
+  title_zh: 设帐授徒讲崔氏脉诀
+  date: 1650
+  year_of: 1650
+  place_zh: 武林城东水竹间
+  description_zh: 座下数十辈率一时名流受业者数百辈讲灵素难经仲景叔和河间东垣丹溪折衷终取紫虚真人四言举要节解
+- id: guji-潘楫-event-book
+  title_zh: 医灯续焰告竣春秋六十
+  date: 1664
+  year_of: 1664
+  description_zh: 网罗群有剖析毫芒因脉及证因证及方陈朝辅与宗末之淇为序称其最精微最易简普照十方
+- id: guji-潘楫-event-death
+  title_zh: 寿七十四终于家
+  date: 1677
+  year_of: 1677
+  place_zh: 武林家
+  description_zh: 自壮及髦饮上池照不失尺寸三兄先死抚遗孤生分哺死归葬子杓灿苍与皆知名士没后三年门人益谨

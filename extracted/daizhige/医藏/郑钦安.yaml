@@ -6,93 +6,143 @@ person:
     en: Zheng Qinan
   lifespan:
     birth:
-      date: 1824
+      date: 1804-01-01
       precision: year
-      is_circa: false
-      raw: 道光四年
+      is_circa: true
+      raw: 清嘉庆九年左右生于四川临邛
     death:
-      date: 1911
+      date: 1870-12-31
       precision: year
-      is_circa: false
-      raw: 宣统三年
-  birth_date: 1824
-  death_date: 1911
+      is_circa: true
+      raw: 清同治末年左右卒于成都
+  birth_date: 1804-01-01
+  death_date: 1870-12-31
   era: 清
-  reign_ref: 光绪
-  archetype: 医家
+  reign_ref: 道光至同治
+  archetype: 扶阳良医
   dilemmas:
-  - 遵前贤旧注还是直发明圣意
-  - 拘时令用方还是按六经气化立法
-  lesson: 明气化辨阴阳守太阳提纲以扶阳救世
-  summary_first_person: 余乃临邛郑寿全字钦安，少研古训博采众方，悟太阳气化出入之机，逐条发明仲景原文，著伤寒恒论以补名贤之不逮，惟愿救世活人
+  - 用药易而识症难，识症易而识阴阳难，似是而非之间稍有不察即误人性命
+  - 世医见虚火上冲便滋阴降火，雪地加霜杀人无算，欲挽千古流弊而恐言之不信
+  lesson: 识得坎离一阳一阴之真，人身立命之根在先天真阳，扶阳抑阴方为活人之要
+  summary_first_person: 余蜀南临邛人也，迁居成都，学医于止唐刘太老夫子，沉潜内经易理仲景之法二十余载，始知阴阳合一之道，愿以扶阳之见补修园之未逮，志在活人
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%81%92%E8%AE%BA.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%81%92%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%90%86%E7%9C%9F%E4%BC%A0.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%90%86%E7%9C%9F%E4%BC%A0.html
 endeavors:
 - id: guji-郑钦安-endeavor-1
-  title_zh: 阐发扶阳医理
-  summary: 勤求古训博采众方立扶阳之说著医理真传与医法圆通
+  title_zh: 师事止唐潜心二十载，悟人身阴阳合一之道
+  summary_zh: 迁居成都师从刘止唐，得指示内经周易太极仲景立法之旨，博览医书七十余种，参酌陈修园十三书，专究坎离真阳真阴
   phases:
   - key: brewing
-    name: 四川行医研求
+    name: 临邛迁蓉师从止唐
     labels:
-      zh: 研求古训
-    start_date: 1850
-    highlight_event_id: guji-郑钦安-event-1
+      zh:
+      - 求师
+      - 迁居成都
+    start_date: 1824-01-01
+    highlight_event_id: guji-郑钦安-event-study
   - key: breakthrough
-    name: 扶阳立说成书
+    name: 沉潜仲景易理二十载
     labels:
-      zh: 扶阳立说
-    start_date: 1869
-    highlight_event_id: guji-郑钦安-event-1
-  decisions:
-  - date: 1869
-    title_zh: 著医理真传明阴阳
-    rationale: 感宗族伤寒夭亡多故立扶阳大法以救世
-  - date: 1873
-    title_zh: 著医法圆通通变化
-    rationale: 恐后学死守陈法故示桂枝汤通治太阳地面之法
-- id: guji-郑钦安-endeavor-2
-  title_zh: 逐条发明伤寒恒论
-  summary: 遵舒驰远分篇挨次发明太阳原文以恶寒提纲气化为眼目
-  phases:
+      zh:
+      - 读经
+      - 悟阴阳
+    start_date: 1825-01-01
+    highlight_event_id: guji-郑钦安-event-study
   - key: climax
-    name: 恒论发明太阳
+    name: 勘破虚火滋阴之误
     labels:
-      zh: 发明圣意
-    start_date: 1894
-    highlight_event_id: guji-郑钦安-event-2
+      zh:
+      - 辨阳虚
+      - 扶阳抑阴
+    start_date: 1845-01-01
+    highlight_event_id: guji-郑钦安-event-practice
   - key: closure
-    name: 光绪孟冬自序刊行
+    name: 化育龙潜水火之论初成
     labels:
-      zh: 刊行救世
-    start_date: 1894-11-01
-    highlight_event_id: guji-郑钦安-event-2
+      zh:
+      - 立宗
+      - 真龙坎离
+    start_date: 1860-01-01
+    highlight_event_id: guji-郑钦安-event-practice
   decisions:
-  - date: 1894
-    title_zh: 遵舒本分上下篇发明
-    rationale: 前后错乱而原文终在但论原文不论短长则得
-  - date: 1894-11-01
-    title_zh: 以恶寒气化定太阳提纲
-    rationale: 知恶寒二字不拘时令按太阳法治之方合经旨
+  - date: 1824-01-01
+    title_zh: 迁居成都学医于刘止唐
+    rationale: 欲得内经易理仲景真传，非明师指示太极立法之旨不可
+  - date: 1845-01-01
+    title_zh: 舍滋阴降火专主扶阳抑阴
+    rationale: 见虚火上冲实由君火弱阴气僭上，滋阴更助阴盛，惟桂附姜雄烈火方能消阴复阳
+- id: guji-郑钦安-endeavor-2
+  title_zh: 著医理真传补修园未逮，垂扶阳活人之法
+  summary_zh: 以管窥之见详言乾坤化育性命立极气机盈缩阴阳虚实，阐君相二火三焦五运，立辨认阳虚阴虚外感内伤诸篇，同治己巳菊月自序成书
+  phases:
+  - key: brewing
+    name: 酌古准今参修园十三书
+    labels:
+      zh:
+      - 博览
+      - 参校
+    start_date: 1860-01-01
+    highlight_event_id: guji-郑钦安-event-practice
+  - key: breakthrough
+    name: 分卷阐发乾坤坎离大旨
+    labels:
+      zh:
+      - 立论
+      - 坎离
+    start_date: 1868-01-01
+    highlight_event_id: guji-郑钦安-event-book
+  - key: climax
+    name: 同治己巳菊月自序成书
+    labels:
+      zh:
+      - 成书
+      - 自序
+    start_date: 1869-10-01
+    highlight_event_id: guji-郑钦安-event-book
+  - key: closure
+    name: 活人志传付后学刊行
+    labels:
+      zh:
+      - 刊行
+      - 活人
+    start_date: 1869-12-01
+    highlight_event_id: guji-郑钦安-event-book
+  decisions:
+  - date: 1868-01-01
+    title_zh: 决意著书明仲景苦心
+    rationale: 诸家言病不道其所以然，言方不探其所以妙，修园虽明透而略有未详，须详言以补其缺
+  - date: 1869-10-01
+    title_zh: 不揣鄙陋直陈扶阳之见
+    rationale: 因志在活人，虽知言妄而不敢隐，愿高明谅之以救庸手雪地加霜之祸
 events:
 - id: guji-郑钦安-event-birth
-  title_zh: 出生于四川邛崃
-  date: 1824
+  date: 1804-01-01
+  year_of: 1804
+  title_zh: 生于四川临邛
+  description_zh: 蜀南临邛郑氏，名寿全，字钦安，生于嘉庆年间
+  place_zh: 四川临邛
+- id: guji-郑钦安-event-study
+  date: 1824-01-01
   year_of: 1824
-  description: 道光四年诞生临邛郑氏少习方术
-- id: guji-郑钦安-event-1
-  title_zh: 著医理真传成扶阳一派
-  date: 1869
+  title_zh: 迁居成都师事止唐刘太老夫子
+  description_zh: 学医于止唐，得指示内经周易太极仲景立方立法之旨，沉潜二十余载
+  place_zh: 四川成都
+- id: guji-郑钦安-event-practice
+  date: 1845-01-01
+  year_of: 1845
+  title_zh: 行医成都专辨阴阳虚实
+  description_zh: 以扶阳抑阴治虚火上冲诸症，立辨认阳虚阴虚之法，批判滋阴降火之误
+  place_zh: 四川成都
+- id: guji-郑钦安-event-book
+  date: 1869-10-01
   year_of: 1869
-  description: 勤求素问难经阴阳大论博采众方阐明扶阳大法
-- id: guji-郑钦安-event-2
-  title_zh: 作伤寒恒论序于孟冬
-  date: 1894-11-01
-  year_of: 1894
-  description: 光绪二十年孟冬上浣逐条剖析太阳篇发明气化恶寒提纲
+  title_zh: 同治己巳菊月自序医理真传
+  description_zh: 撰成医理真传卷一诸篇，明乾坤坎离君相二火三焦五运外感内伤，补陈修园之未逮
+  place_zh: 四川成都
 - id: guji-郑钦安-event-death
-  title_zh: 逝世
-  date: 1911
-  year_of: 1911
-  description: 宣统三年辞世留下扶阳三书以惠后学
+  date: 1870-12-31
+  year_of: 1870
+  title_zh: 卒于成都
+  description_zh: 扶阳一脉托付后学，医法圆通伤寒恒论等相继刊行
+  place_zh: 四川成都
