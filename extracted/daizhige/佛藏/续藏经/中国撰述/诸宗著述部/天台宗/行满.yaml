@@ -1,0 +1,152 @@
+person:
+  qid: guji-行满
+  name_zh: 行满
+  names:
+    zh: 行满
+    en: Xingman
+  lifespan:
+    birth:
+      date: 0710-01-01
+      precision: year
+      is_circa: true
+      raw: 唐代生年不詳
+    death:
+      date: 0790-01-01
+      precision: year
+      is_circa: true
+      raw: 唐代示寂年不詳
+  birth_date: 0710-01-01
+  death_date: 0790-01-01
+  era: 唐
+  reign_ref: 唐中叶
+  archetype: 天台义解沙门
+  dilemmas:
+  - 即与六难兼顾，既恐执离又恐滥同
+  - 权实难会通，既欲端拱守理又须修途进位
+  lesson: 以即简离，以六简滥，理事圆融方契秘藏
+  summary_first_person: 吾行满，天台沙门，於国中述六即义，承智者五味四教之判，明圆教一念三谛即空即假即中，以六位显修证次第，令学者不迷权实，直趣宝所
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E8%AF%B8%E5%AE%97%E8%91%97%E8%BF%B0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E5%AE%97/%E5%85%AD%E5%8D%B3%E4%B9%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E8%AF%B8%E5%AE%97%E8%91%97%E8%BF%B0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E5%AE%97/%E5%85%AD%E5%8D%B3%E4%B9%89.md
+endeavors:
+- id: guji-行满-endeavor-1
+  person_qid: guji-行满
+  title_zh: 六即判释立义
+  summary: 依天台圆教释六即名义，以即简离，以六简滥，分理即至究竟即六位，会法华涅槃经义
+  phases:
+  - key: brewing
+    name: 承学酝酿
+    labels:
+      zh:
+      - 酝酿
+      - 天台判教
+    start_date: 0735-01-01
+    highlight_event_id: guji-行满-event-birth
+  - key: breakthrough
+    name: 立即简离突破
+    labels:
+      zh:
+      - 突破
+      - 立即
+    start_date: 0748-01-01
+    highlight_event_id: guji-行满-event-liuji
+  - key: climax
+    name: 六位圆释高峰
+    labels:
+      zh:
+      - 高峰
+      - 六位具足
+    start_date: 0750-01-01
+    highlight_event_id: guji-行满-event-liuji
+  - key: closure
+    name: 引归秘藏收束
+    labels:
+      zh:
+      - 收束
+      - 涅槃醍醐
+    start_date: 0752-01-01
+    highlight_event_id: guji-行满-event-guozhong
+  decisions:
+  - date: 0748-01-01
+    title_zh: 判前三教无即义
+    rationale: 通别巧拙不同，未圆融三谛具一切佛法，故唯圆教得名即
+  - date: 0750-01-01
+    title_zh: 以即简离以六简滥
+    rationale: 朱紫须分，修行识位，令因果体一而次位不乱
+- id: guji-行满-endeavor-2
+  person_qid: guji-行满
+  title_zh: 国中弘传著述
+  summary: 於国中述作弘法，承章安大师义意，开显法华会六即殊途，导学者修途进趣
+  phases:
+  - key: brewing
+    name: 国中弘缘酝酿
+    labels:
+      zh:
+      - 酝酿
+      - 国中弘法
+    start_date: 0745-01-01
+    highlight_event_id: guji-行满-event-birth
+  - key: breakthrough
+    name: 述义开显突破
+    labels:
+      zh:
+      - 突破
+      - 述作
+    start_date: 0750-01-01
+    highlight_event_id: guji-行满-event-liuji
+  - key: climax
+    name: 会法华涅槃高峰
+    labels:
+      zh:
+      - 高峰
+      - 会权归实
+    start_date: 0760-01-01
+    highlight_event_id: guji-行满-event-guozhong
+  - key: closure
+    name: 委明别记收束
+    labels:
+      zh:
+      - 收束
+      - 传承
+    start_date: 0770-01-01
+    highlight_event_id: guji-行满-event-guozhong
+  decisions:
+  - date: 0760-01-01
+    title_zh: 於国中述六即义
+    rationale: 散在诸文须师承开显，令修途不远宝所可期
+  - date: 0770-01-01
+    title_zh: 劝寻别记委明
+    rationale: 略述大猷而委明细行，防执实迷权端拱不动
+events:
+- id: guji-行满-event-birth
+  person_qid: guji-行满
+  type: birth
+  date: 0710-01-01
+  year_of: 710
+  title_zh: 降生
+  description: 唐代降生，出家入天台门下，习五味判经四教释义
+- id: guji-行满-event-liuji
+  person_qid: guji-行满
+  endeavor_id: guji-行满-endeavor-1
+  type: 著作
+  date: 0750-01-01
+  year_of: 750
+  title_zh: 述六即义
+  description: 依章安疏主用大师义意，释理即名字即观行即相似即分真即究竟即，引贫人金藏等喻证成
+  location: 国中
+- id: guji-行满-event-guozhong
+  person_qid: guji-行满
+  endeavor_id: guji-行满-endeavor-2
+  type: 弘法
+  date: 0760-01-01
+  year_of: 760
+  title_zh: 於国中开显法华会义
+  description: 於国中弘传圆教，开显法华会了六即殊途，涅槃醍醐归於秘藏，劝勉修途进趣
+  location: 国中
+- id: guji-行满-event-death
+  person_qid: guji-行满
+  type: death
+  date: 0790-01-01
+  year_of: 790
+  title_zh: 示寂
+  description: 唐代示寂，六即之说传於天台宗门，为后世判位修证所宗

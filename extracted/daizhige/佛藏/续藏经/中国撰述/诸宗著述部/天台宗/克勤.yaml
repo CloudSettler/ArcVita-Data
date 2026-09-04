@@ -1,0 +1,155 @@
+person:
+  qid: guji-克勤
+  name_zh: 克勤
+  names:
+    zh: 克勤
+    en: Keqin
+  lifespan:
+    birth:
+      date: '1320'
+      precision: year
+      is_circa: true
+      raw: 约元末生年不详
+    death:
+      date: '1385'
+      precision: year
+      is_circa: true
+      raw: 洪武后卒年不详
+  birth_date: '1320'
+  death_date: '1385'
+  era: 明
+  reign_ref: 洪武
+  archetype: 使命弘法僧
+  dilemmas:
+  - 佛制不通国使命与皇帝诏使不得不行
+  - 关西阻关密使难达与复命守信之责
+  - 中土教典亡于兵火与远求日本首刹补归
+  lesson: 持戒以奉使借宗门以济两国通好补教
+  summary_first_person: 吾克勤明天台僧住持南京瓦官教寺蒙太祖诏以天台耆宿复寺领众又于洪武五年与天宁祖阐奉密诏使日本欲禁寇通商修唐宋旧好兼访求亡失教典浮海抵博多滞留圣福乃致书延历堂上座主以明来意
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/续藏经/中国撰述/诸宗著述部/天台宗/书.md
+  - https://daizhige.org/佛藏/续藏经/中国撰述/诸宗著述部/天台宗/书.html
+endeavors:
+- id: guji-克勤-endeavor-1
+  title_zh: 复领瓦官中兴天台教寺
+  description_zh: 蒋山普度后白庵举荐复瓦官为天台教寺众推克勤住持领众守宗
+  phases:
+  - key: brewing
+    name: 蒋山普度白庵举荐
+    labels:
+      zh:
+      - 普度建会
+      - 召对经论
+    start_date: '1371-01-15'
+    highlight_event_id: guji-克勤-event-fuguan
+  - key: breakthrough
+    name: 复瓦官为教寺
+    labels:
+      zh:
+      - 复寺归宗
+    start_date: '1371-06-01'
+    highlight_event_id: guji-克勤-event-fuguan
+  - key: climax
+    name: 众推住持领寺
+    labels:
+      zh:
+      - 领众住持
+    start_date: '1371-08-01'
+    highlight_event_id: guji-克勤-event-fuguan
+  - key: closure
+    name: 守宗待使东行
+    labels:
+      zh:
+      - 守教待命
+    start_date: '1372-01-01'
+    highlight_event_id: guji-克勤-event-dongdu
+  decisions:
+  - date: '1371-08-01'
+    title_zh: 受众推住持瓦官
+    rationale: 白庵举荐称旨复寺归宗当领众以续法智中兴之业
+- id: guji-克勤-endeavor-2
+  title_zh: 奉洪武密诏使日本求好补典
+  description_zh: 与祖阐奉命往日本告国更主建号大明劝禁寇通商修旧好兼访天台首刹补亡失疏记
+  phases:
+  - key: brewing
+    name: 三遣使阻于关西
+    labels:
+      zh:
+      - 关禁不通
+      - 密使之议
+    start_date: '1371-01-01'
+    highlight_event_id: guji-克勤-event-dongdu
+  - key: breakthrough
+    name: 受诏赐衣配贰东行
+    labels:
+      zh:
+      - 受诏奉使
+      - 持戒而行
+    start_date: '1372-03-01'
+    highlight_event_id: guji-克勤-event-dongdu
+  - key: climax
+    name: 浮海抵博多滞留待命
+    labels:
+      zh:
+      - 浮海东渡
+      - 滞留待命
+    start_date: '1372-05-20'
+    highlight_event_id: guji-克勤-event-boduo
+  - key: closure
+    name: 致书延历堂求达国王
+    labels:
+      zh:
+      - 致书通好
+      - 开列亡典
+    start_date: '1372-09-01'
+    highlight_event_id: guji-克勤-event-zhishu
+  decisions:
+  - date: '1372-03-01'
+    title_zh: 以持戒为使不辞东行
+    rationale: 皇帝以可信而遣即持不妄劝禁寇即持不盗使商通民安即持不杀故为佛之使又欲询首刹补教藏兴后学
+  - date: '1372-09-01'
+    title_zh: 列亡典数目致书求访
+    rationale: 五代兵毁观师补残多有未备往询首刹主者奉归则兴复教藏之功可继
+events:
+- id: guji-克勤-event-birth
+  type: birth
+  title_zh: 克勤诞生
+  date: '1320'
+  year_of: 1320
+  location_zh: 中国
+  description_zh: 约元末生天台后学出家习教后嗣法传宗生年不详
+- id: guji-克勤-event-death
+  type: death
+  title_zh: 克勤圆寂
+  date: '1385'
+  year_of: 1385
+  location_zh: 南京瓦官寺
+  description_zh: 使日归后住持瓦官卒于洪武年间卒年不详嗣法有元璞
+- id: guji-克勤-event-fuguan
+  type: career
+  title_zh: 复瓦官为教寺领住持
+  date: '1371-08-01'
+  year_of: 1371
+  location_zh: 南京瓦官寺
+  description_zh: 蒋山普度白庵以宗耆宿召对称旨朝廷复瓦官为天台教寺众推克勤主之
+- id: guji-克勤-event-dongdu
+  type: career
+  title_zh: 奉密诏与祖阐东使
+  date: '1372-05-20'
+  year_of: 1372
+  location_zh: 四明
+  description_zh: 受命告日本国王中国更主建号大明改元洪武欲禁寇通商修旧好赐三衣净物以椿庭寿公权中巽公为贰命舟四明
+- id: guji-克勤-event-boduo
+  type: career
+  title_zh: 抵博多留圣福待命
+  date: '1372-06-01'
+  year_of: 1372
+  location_zh: 博多圣福
+  description_zh: 三日至五岛五日抵博多无惊风骸浪闻国命将收关西之地留抵圣福以衣贸食翘足待命百余日未报
+- id: guji-克勤-event-zhishu
+  type: career
+  title_zh: 致书延历堂上座主
+  date: '1372-09-01'
+  year_of: 1372
+  location_zh: 博多
+  description_zh: 九月一日载拜致书论道盛衰请念宗教盛衰达国王重臣引见复命并进天台圣像开具亡失教典数目求访归国
