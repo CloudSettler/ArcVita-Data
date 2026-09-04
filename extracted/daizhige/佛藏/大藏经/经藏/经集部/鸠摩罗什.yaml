@@ -2,150 +2,159 @@ person:
   qid: guji-鸠摩罗什
   name_zh: 鸠摩罗什
   names:
-    zh:
-    - 鸠摩罗什
-    - 罗什三藏
-    en:
-    - Kumarajiva
+    zh: 鸠摩罗什
+    en: Kumarajiva
   lifespan:
     birth:
-      date: 0344-01-01
+      date: '0344'
       precision: year
       is_circa: true
-      raw: 晋建元二年左右生于龟兹
+      raw: 约晋穆帝永和十年生于龟兹
     death:
-      date: 0413-01-01
+      date: '0413'
       precision: year
       is_circa: false
-      raw: 后秦弘始十五年卒于长安
-  birth_date: 0344-01-01
-  death_date: 0413-01-01
+      raw: 姚秦弘始十五年寂于长安
+  birth_date: '0344'
+  death_date: '0413'
   era: 十六国姚秦
-  reign_ref: 后秦姚兴弘始年间
-  archetype: 译经宗师
+  reign_ref: 姚兴弘始年间
+  archetype: 译经弘法宗师
   dilemmas:
-  - 小乘自度与大乘普度之间如何抉择弘传正道
-  - 王权重礼与持戒清修之间如何守心不染
-  lesson: 以定慧调伏乱想以慈悲普度众生译经弘法利在千秋
-  summary_first_person: 吾生于龟兹幼随母出家先习小乘后遇大乘师而转弘般若空宗后入长安领译场译出法华维摩金刚弥陀诸经并传思惟略要法教人观禅不净白骨念佛以入初禅愿众生离欲得定同登佛道
+  - 西域安住弘法与东入长安译经之间如何抉择
+  - 坚守小乘毗昙旧学与转弘大乘般若空义之间如何取舍
+  lesson: 离相无得方为菩提正路译经弘法当以大悲直心为本
+  summary_first_person: 吾生于龟兹幼随母出家先习小乘后转大乘般若滞留凉州十七载后入长安逍遥园译经三百余卷所译文殊师利问菩提经明菩提无相无得愿以此空慧慈悲利乐众生
   source_urls:
-  - https://cbeta.org/T0617
-  - https://daizhige.org/siwei-lueyao-fa.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E9%97%AE%E8%8F%A9%E6%8F%90%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E6%96%87%E6%AE%8A%E5%B8%88%E5%88%A9%E9%97%AE%E8%8F%A9%E6%8F%90%E7%BB%8F.html
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 西域出家遍学大小乘
-  summary: 幼随母出家先习小乘毗昙后转学大乘般若遍游罽宾疏勒奠定佛学根基
+  title_zh: 西域问道转小入大
+  summary: 幼年出家罽宾学阿毗昙后遇须耶摩等转习大乘般若奠定译经义学之本
   phases:
   - key: brewing
-    name: 龟兹随母出家
+    name: 龟兹出家初习小乘
     labels:
       zh:
-      - 求法
-      - 出家
-    start_date: 0351-01-01
+      - 蒙荫出家
+      - 初习毗昙
+    start_date: '0351'
     highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 罽宾受学小乘转大乘
+    name: 罽宾从师学毗昙
     labels:
       zh:
-      - 转宗
-      - 般若
-    start_date: 0360-01-01
-    highlight_event_id: guji-鸠摩罗什-event-west-study
+      - 罽宾求法
+      - 博通三藏
+    start_date: 0359
+    highlight_event_id: guji-鸠摩罗什-event-study
   - key: climax
-    name: 龟兹弘法声名西播
+    name: 受须耶摩点拨悟大乘空义
     labels:
       zh:
-      - 弘法
-      - 名扬
-    start_date: 0382-01-01
-    highlight_event_id: guji-鸠摩罗什-event-west-study
+      - 转小入大
+      - 悟入般若
+    start_date: '0364'
+    highlight_event_id: guji-鸠摩罗什-event-study
   - key: closure
-    name: 符坚姚苻迎请东行
+    name: 凉州滞留待时弘化
     labels:
       zh:
-      - 东行
-      - 缘起
-    start_date: 0383-01-01
-    highlight_event_id: guji-鸠摩罗什-event-changan
+      - 安忍待时
+      - 声名东播
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-liangzhou
   decisions:
-  - date: 0360-01-01
-    title_zh: 舍小乘转弘大乘
-    rationale: 感悟大乘普度宏愿不忍独善遂改宗空宗专弘利他
-  - date: 0382-01-01
-    title_zh: 留龟兹弘法育徒
-    rationale: 学成当报本土先化西域众生令根器成熟再待东缘
+  - date: 0359
+    title_zh: 舍小乘专学大乘般若
+    rationale: 因须耶摩示以空义深观诸法无相故决意改宗大乘以弘中观
+  - date: 0384
+    title_zh: 凉州安住不强求东归
+    rationale: 为吕光劫留则随缘说法学汉语待姚兴迎请再行译经大业
 - id: guji-鸠摩罗什-endeavor-2
-  title_zh: 长安译场译传思惟略要法
-  summary: 蒙姚兴礼迎入长安逍遥园领译场译出大品法华维摩诸经并传禅观要法
+  title_zh: 长安译经弘传菩提
+  summary: 应姚兴迎请入长安逍遥园率义学僧众译出文殊师利问菩提经等三百余卷弘大乘空慧
   phases:
   - key: brewing
-    name: 姚兴迎入长安
+    name: 姚兴迎请入关
     labels:
       zh:
-      - 入关
-      - 礼遇
-    start_date: 0401-12-01
+      - 应请入关
+      - 会聚义学
+    start_date: '0401'
     highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 逍遥园开译场
+    name: 逍遥园开译场定新译体
     labels:
       zh:
-      - 译经
-      - 弘传
-    start_date: 0402-01-01
-    highlight_event_id: guji-鸠摩罗什-event-translate-siwei
+      - 开场译经
+      - 详定文义
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: climax
-    name: 译出禅观般若众经
+    name: 译文殊师利问菩提经明无相菩提
     labels:
       zh:
-      - 禅观
-      - 般若
-    start_date: 0405-01-01
-    highlight_event_id: guji-鸠摩罗什-event-translate-siwei
+      - 译传菩提经
+      - 弘无相义
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-wenshu
   - key: closure
-    name: 示寂长安誓愿弘续
+    name: 群经毕译遗嘱弘传
     labels:
       zh:
-      - 圆寂
-      - 传续
-    start_date: 0413-01-01
+      - 群经具足
+      - 以舌不坏为验
+    start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: 0402-01-01
-    title_zh: 直译兼义译弘禅观
-    rationale: 西域禅法繁杂行者难入当以略要法摄四无量不净白骨念佛令易得初禅
-  - date: 0406-01-01
-    title_zh: 以众生忍法忍摄众
-    rationale: 末法众生障重当教慈悲喜舍与实相空观并行悲智双运以趣无生忍
+  - date: '0401'
+    title_zh: 应姚兴请入长安主译
+    rationale: 为使大乘正法广行汉地不辞关河之劳率八百僧共成译业
+  - date: '0402'
+    title_zh: 先译文殊问菩提等般若小经
+    rationale: 因菩提无相无得直心大悲为本欲先明发心正见再广译大部以利初机
 events:
 - id: guji-鸠摩罗什-event-birth
   type: birth
-  date: 0344-01-01
+  title_zh: 龟兹诞生
+  date: '0344'
   year_of: 344
-  title_zh: 生于龟兹国
-  description: 父为天竺国师鸠摩罗炎母为龟兹王妹耆婆生于西域龟兹国
-- id: guji-鸠摩罗什-event-west-study
-  type: study
-  date: 0360-01-01
-  year_of: 360
-  title_zh: 西域遍学转弘大乘
-  description: 幼出家游罽宾疏勒从槃头达多习小乘从须利耶苏摩习大乘般若名扬西域
+  place_zh: 龟兹
+  description: 鸠摩罗什生于龟兹父天竺国相鸠摩罗炎母龟兹王妹耆婆幼而颖悟为译经弘法之始
+- id: guji-鸠摩罗什-event-study
+  type: career
+  title_zh: 罽宾学法转入大乘
+  date: 0359
+  year_of: 359
+  place_zh: 罽宾
+  description: 随母至罽宾从槃头达多学阿毗昙后遇须耶摩习般若中论遂转小入大名震西域
+- id: guji-鸠摩罗什-event-liangzhou
+  type: career
+  title_zh: 吕光劫留凉州
+  date: 0384
+  year_of: 384
+  place_zh: 凉州
+  description: 苻坚遣吕光迎师竟为吕光劫留凉州十七年潜心学汉文待时而动
 - id: guji-鸠摩罗什-event-changan
-  type: move
-  date: 0401-12-01
+  type: career
+  title_zh: 姚兴迎入长安逍遥园
+  date: '0401'
   year_of: 401
-  title_zh: 入长安受姚兴礼遇
-  description: 姚兴遣姚硕德迎入长安待以国师之礼住逍遥园领八百余人开译场
-- id: guji-鸠摩罗什-event-translate-siwei
-  type: translate
-  date: 0402-06-01
+  place_zh: 长安逍遥园
+  description: 姚兴平凉迎师入长安尊为国师居逍遥园与义熙僧肇等详定译经开新译之风
+- id: guji-鸠摩罗什-event-wenshu
+  type: career
+  title_zh: 译文殊师利问菩提经
+  date: '0402'
   year_of: 402
-  title_zh: 译出思惟略要法
-  description: 于长安译出思惟略要法传四无量不净白骨观佛法身十方佛无量寿佛及法华三昧诸观教人入初禅
+  place_zh: 长安
+  description: 译出文殊师利问菩提经一名伽耶山顶经明菩提无形无相无得直心大悲六度为发心次第
 - id: guji-鸠摩罗什-event-death
   type: death
-  date: 0413-01-01
+  title_zh: 长安示寂
+  date: '0413'
   year_of: 413
-  title_zh: 卒于长安
-  description: 后秦弘始十五年示寂于长安临终发愿所译无谬舌根不坏火化舌不焦烂
+  place_zh: 长安
+  description: 弘始十五年寂于长安遗言所译无谬舌根不坏后启塔果然以验弘法功德
