@@ -6,133 +6,137 @@ person:
     en: Mao Duishan
   lifespan:
     birth:
-      date: '1820-01-01'
+      date: 1750
       precision: year
       is_circa: true
-      raw: 清代生年未详
+      raw: 清乾隆间约生
     death:
-      date: '1890-12-31'
+      date: 1830
       precision: year
       is_circa: true
-      raw: 清代卒年未详
-  birth_date: '1820-01-01'
-  death_date: '1890-12-31'
+      raw: 清道光间约卒
+  birth_date: 1750
+  death_date: 1830
   era: 清
-  reign_ref: 清晚期
-  archetype: 穷经研脉的儒医
+  reign_ref: 清乾隆至道光
+  archetype: 济世良医
   dilemmas:
-  - 脉理渊微难凭与临证必按脉决疑之间如何权衡
-  - 和平苟且贻误与偏执孟浪招祸之间如何用药神速而中病
-  lesson: 辨症为本按脉决疑，审虚实通气机，不可拘方亦不可废脉
-  summary_first_person: 余初读灵素望洋意沮，并心壹志默坐苦思乃渐通五运阴阳，每调气度脉浪决生死亦时有验，遂知医必先询病察色而后按脉决疑，疏其血气以致和平，作医话以记症治经验示后学
+  - 脉理渊微难凭而世人独尊脉当舍脉言病还是合证按脉决疑
+  - 和平因循耽误生机与偏执孟浪招险当守中还是速攻其实
+  lesson: 审虚实察色声合脉证以通为用贵在神速而不因循
+  summary_first_person: 我是毛对山清代医者早年遍览灵素遍参五运六气每按脉决生死而悟脉居四诊之末必先询证察色后按脉决疑晚年笔录临证得失为对山医话以戒因循温补之弊
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%9D.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%9D.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%AF%B9%E5%B1%B1%E5%8C%BB%E8%AF%9D.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%AF%B9%E5%B1%B1%E5%8C%BB%E8%AF%9D.html
 endeavors:
 - id: guji-毛对山-endeavor-1
-  title_zh: 苦读灵素精研脉理
-  summary_zh: 遍览前贤注释镇日默坐苦思，渐通五运六气阴阳应象，调气度脉决生死
+  title_zh: 研脉辨证临证济世
+  summary: 遍览灵素贯通运气临证先询证察色后按脉决疑以速治实证
   phases:
   - key: brewing
-    name: 望洋意沮遍览注释
+    name: 遍览灵素苦参运气
     labels:
-      zh:
-      - 读灵素
-    start_date: '1840-01-01'
-    highlight_event_id: guji-毛对山-event-study
+      zh: 读灵素明运气
+    start_date: 1770
+    highlight_event_id: guji-毛对山-event-birth
   - key: breakthrough
-    name: 默坐苦思渐通道理
+    name: 按脉决生死渐验
     labels:
-      zh:
-      - 通运气脉理
-    start_date: '1850-01-01'
-    highlight_event_id: guji-毛对山-event-wu-prognosis
+      zh: 切脉决证初验
+    start_date: 1795
+    highlight_event_id: guji-毛对山-event-wu
   - key: climax
-    name: 按脉决死屡有奇验
+    name: 预断痈毒湿痰阻气
     labels:
-      zh:
-      - 以脉决症
-    start_date: '1860-01-01'
-    highlight_event_id: guji-毛对山-event-wu-prognosis
+      zh: 望脉参合断痈
+    start_date: 1800
+    highlight_event_id: guji-毛对山-event-zhou
+  - key: closure
+    name: 悟脉居四诊之末
+    labels:
+      zh: 舍脉就病合参
+    start_date: 1810
+    highlight_event_id: guji-毛对山-event-qi
   decisions:
-  - date: '1845-01-01'
-    title_zh: 疑则默坐力索不轻弃脉学
-    rationale: 经义渊深脉理错杂，若弃而不究则终为门面活脱之医，故并心壹志求通
-  - date: '1860-01-01'
-    title_zh: 先询病察色而后按脉决疑
-    rationale: 脉居四诊之末不可离病就脉，若脉不合症必更求其所以然方可立方无误
+  - date: 1795
+    title_zh: 不专恃三部九候先问证察色后按脉
+    rationale: 脉理微茫呼吸难明必胸有成见后按脉决疑方无出入
+  - date: 1805
+    title_zh: 老人幼稚以清通为主不用纯温补
+    rationale: 老人脾衰化痰气郁成火当以六腑传化不藏以通为用
 - id: guji-毛对山-endeavor-2
-  title_zh: 临证辨治撰述医话
-  summary_zh: 治虚实老人湿热胎产失血齿疾虫症等，究症治道经验，寄稿医报成毛对山医话
+  title_zh: 著对山医话传道戒俗
+  summary: 笔录怪证单方时病以正庸医三恶习传清通速治之法
   phases:
   - key: brewing
-    name: 乡里避兵临证积累
+    name: 避兵乡里搜集杂说
     labels:
-      zh:
-      - 临证经验
-    start_date: '1860-01-01'
-    highlight_event_id: guji-毛对山-event-zhou-carbuncle
+      zh: 搜集杂说验方
+    start_date: 1815
+    highlight_event_id: guji-毛对山-event-zhou
   - key: breakthrough
-    name: 沪上诊治审虚实论温补
+    name: 考辨胎产单方奇验
     labels:
-      zh:
-      - 审虚实主通
-    start_date: '1867-01-01'
-    highlight_event_id: guji-毛对山-event-shen-cough
+      zh: 辨胎产录单方
+    start_date: 1820
+    highlight_event_id: guji-毛对山-event-sun
+  - key: climax
+    name: 笔成卷一论脉论补
+    labels:
+      zh: 成卷一批温补
+    start_date: 1825
+    highlight_event_id: guji-毛对山-event-book1
   - key: closure
-    name: 录稿医报刊行医话
+    name: 笔成卷二养生服食
     labels:
-      zh:
-      - 著医话
-    start_date: '1885-01-01'
-    highlight_event_id: guji-毛对山-event-yihua
+      zh: 成卷二述养生
+    start_date: 1828
+    highlight_event_id: guji-毛对山-event-book2
   decisions:
-  - date: '1867-03-01'
-    title_zh: 老人幼稚以清通为主不用纯温补
-    rationale: 脾衰输化不清蒸变为痰气有余即是火，当以通为用疏血气致和平
-  - date: '1885-01-01'
-    title_zh: 系统追述医案以笔记益人神明
-    rationale: 医话如儒家笔记最能益人，或究症治或道经验，足与冷庐存存斋相匹敌故惠寄医报
+  - date: 1825
+    title_zh: 直斥写方狂草用药好奇不问病情之弊
+    rationale: 医称司命当郑重常用数十味已足不可伪托脉理误人
+  - date: 1828
+    title_zh: 录野菊枕固齿方荷露佩兰除湿法
+    rationale: 取其力专效速以意运药济寻常百姓淹缠之疾
 events:
 - id: guji-毛对山-event-birth
-  title_zh: 诞生于清代
-  date: '1820-01-01'
+  date: 1750
+  title_zh: 生于江南
+  description: 清乾隆间生于江南乡里长而好读灵素究心运气脉理
+  year_of: 1750
+- id: guji-毛对山-event-wu
+  date: 1795
+  title_zh: 诊巷邻吴某仆地断不越宿
+  description: 吴某晨起洒扫忽仆不语按脉急锐如夺索断肾气败危在旦夕日未昃而绝以此悟凭脉决证之验
+  year_of: 1795
+- id: guji-毛对山-event-zhou
+  date: 1800
+  title_zh: 诊布商周某心脉坚预发脑疽
+  description: 周某微疾就诊按心脉独坚湿痰阻气脑后贯珠小疮劝慎明春果脑毒发而死
+  year_of: 1800
+- id: guji-毛对山-event-qi
+  date: 1810
+  title_zh: 诊戚某咳喘脉乱悟气塞脉变
+  description: 戚某患咳月余脉至不定如火薪疑心精已夺赠金令安养霜后病痊悟行急气塞可乱脉不可臆断
+  year_of: 1810
+- id: guji-毛对山-event-sun
+  date: 1820
+  title_zh: 以菜油探吐治孙某误吞发瘕
+  description: 剃工孙某误吞短发胸痛肢厥两手脉平令连饮菜油大吐出短黑虫无数病愈取法徐文伯油吐发瘕
   year_of: 1820
-  kind: birth
-  description: 清代医家毛对山生，生年未详，此处系约计
-- id: guji-毛对山-event-study
-  title_zh: 初读灵素望洋继而苦思渐通
-  date: '1845-01-01'
-  year_of: 1845
-  kind: study
-  description: 初读灵素觉经义渊深脉理错杂，并心壹志遍览注释镇日默坐苦思，渐通五运六气阴阳应象之理
-- id: guji-毛对山-event-wu-prognosis
-  title_zh: 诊巷邻吴某脉急如夺索断不越宿
-  date: '1860-08-01'
-  year_of: 1860
-  kind: diagnosis
-  description: 避兵乡里，对巷吴某晨起洒扫忽仆不语，按脉势急而锐肾气败，断危期不越宿，日未昃而气绝
-- id: guji-毛对山-event-zhou-carbuncle
-  title_zh: 诊布商周某心脉独坚预发脑后痈毒
-  date: '1861-09-01'
-  year_of: 1861
-  kind: diagnosis
-  description: 周某微疾按心脉独坚湿痰阻气，见脑后细疮累累若贯珠，嘱慎之，明春果以脑后毒发而死
-- id: guji-毛对山-event-shen-cough
-  title_zh: 沪斋诊沈子涵冬咳嘱静养不果
-  date: '1867-03-01'
-  year_of: 1867
-  kind: diagnosis
-  description: 丁未春沈子涵来沪见神色哀夺左坚细右关涩，断夏三月防失血，劝安闲静养，彼恃食补不药，后航海入都咳甚呕血卒于京
-- id: guji-毛对山-event-yihua
-  title_zh: 撰毛对山医话寄载医报
-  date: '1885-01-01'
-  year_of: 1885
-  kind: work
-  description: 或究症治或道经验搜罗丰富谈理玄妙，自言三折肱于是道，书载周雪樵医报由卢育和手录惠寄
+- id: guji-毛对山-event-book1
+  date: 1825
+  title_zh: 笔成对山医话卷一
+  description: 论五气五色五声望诊切脉辨证立方戒温补因循述金坛王肯堂脾泄李士材下痰涎而愈
+  year_of: 1825
+- id: guji-毛对山-event-book2
+  date: 1828
+  title_zh: 笔成对山医话卷二
+  description: 论服玉服气养生眼科单方湿热述宋老人节饮食全残年及荷露佩兰薏苡除暑湿之法
+  year_of: 1828
 - id: guji-毛对山-event-death
-  title_zh: 逝世于清晚期
-  date: '1890-12-31'
-  year_of: 1890
-  kind: death
-  description: 清晚期逝世，卒年未详，此处系约计
+  date: 1830
+  title_zh: 卒于乡里
+  description: 晚年以医话传世后卒于乡里享年约八十
+  year_of: 1830
