@@ -1,0 +1,130 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋文帝仁寿二年
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 唐高宗麟德元年二月五日
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐
+  reign_ref: 唐太宗贞观
+  archetype: 求法译经高僧
+  dilemmas:
+  - 西行路远艰险与求法弘愿如何抉择
+  - 检藏所得寿生因果与众生信解如何权衡
+  lesson: 西行检藏以证因果劝人早纳善因免横灾而得长寿安乐
+  summary_first_person: 吾乃玄奘贞观年间往西天求教检大藏经得寿生经一卷遂以因果寿生之说劝勉南赡部洲众生
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E5%8D%B0%E5%BA%A6%E6%92%B0%E8%BF%B0/%E7%BB%8F%E9%83%A8/%E6%96%B9%E7%AD%89%E9%83%A8/%E5%AF%BF%E7%94%9F%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E5%8D%B0%E5%BA%A6%E6%92%B0%E8%BF%B0/%E7%BB%8F%E9%83%A8/%E6%96%B9%E7%AD%89%E9%83%A8/%E5%AF%BF%E7%94%9F%E7%BB%8F.md
+endeavors:
+- id: guji-玄奘-endeavor-1
+  person_qid: guji-玄奘
+  title_zh: 西天求教检藏得经
+  goal: 往西天求教检阅大藏以弘寿生因果
+  phases:
+  - key: brewing
+    name: 发愿西行
+    labels:
+      zh: 发愿求法
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-1
+  - key: breakthrough
+    name: 到达西天检藏
+    labels:
+      zh: 检藏访教
+    start_date: 0639
+    highlight_event_id: guji-玄奘-event-1
+  - key: climax
+    name: 得见寿生经卷
+    labels:
+      zh: 得经明因
+    start_date: 0639
+    highlight_event_id: guji-玄奘-event-1
+  - key: closure
+    name: 携教东归传布
+    labels:
+      zh: 东归传教
+    start_date: '0641'
+    highlight_event_id: guji-玄奘-event-2
+  decisions:
+  - date: 0629
+    title_zh: 决意西行求法
+    rationale: 中土藏经未全愿往西天访求大教以利众生
+  - date: 0639
+    title_zh: 检大藏表彰寿生经
+    rationale: 见库藏空闲众生欠纳寿生钱多罹横灾故表出此经以劝交纳
+- id: guji-玄奘-endeavor-2
+  person_qid: guji-玄奘
+  title_zh: 宣说寿生弘化中土
+  goal: 宣说寿生钱因果劝善男女免灾延寿
+  phases:
+  - key: brewing
+    name: 咨问寿生业缘
+    labels:
+      zh: 咨问请法
+    start_date: 0639
+    highlight_event_id: guji-玄奘-event-1
+  - key: breakthrough
+    name: 敷演十八横灾
+    labels:
+      zh: 说灾示警
+    start_date: 0639
+    highlight_event_id: guji-玄奘-event-2
+  - key: climax
+    name: 劝纳寿生免祸
+    labels:
+      zh: 劝纳免灾
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-2
+  - key: closure
+    name: 付嘱信受奉行
+    labels:
+      zh: 信受奉行
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-2
+  decisions:
+  - date: 0639
+    title_zh: 详说漏贯交纳法
+    rationale: 众生多有大愿不能纳得故以金刚经寿生经力折本命钱
+  - date: '0645'
+    title_zh: 劝早烧寿生救亲
+    rationale: 愿百年命终七七以前烧经救度三世父母七代先亡皆得生天
+events:
+- id: guji-玄奘-event-birth
+  person_qid: guji-玄奘
+  title_zh: 玄奘诞生
+  date: '0602'
+  year_of: 602
+  summary: 隋仁寿二年诞生于洛州缑氏后出家究学经论
+- id: guji-玄奘-event-1
+  person_qid: guji-玄奘
+  endeavor_id: guji-玄奘-endeavor-1
+  title_zh: 贞观十三年西天检得寿生经
+  date: 0639
+  year_of: 639
+  summary: 贞观十三年往西天求教检大藏经见寿生经一卷具十二相属及冥司借贷寿生钱缘起
+- id: guji-玄奘-event-2
+  person_qid: guji-玄奘
+  endeavor_id: guji-玄奘-endeavor-2
+  title_zh: 宣说寿生钱免十八横灾
+  date: '0645'
+  year_of: 645
+  summary: 敷演阿难咨问世尊开示纳得寿生钱免路途水火血光劳病产难官事等一十八般横灾
+- id: guji-玄奘-event-death
+  person_qid: guji-玄奘
+  title_zh: 玄奘圆寂
+  date: '0664-02-05'
+  year_of: 664
+  summary: 麟德元年二月五日圆寂于长安玉华宫一生译经弘法功德圆满
