@@ -18,115 +18,126 @@ person:
   birth_date: '1487'
   death_date: '1559'
   era: 明
-  reign_ref: 明成化至嘉靖
-  archetype: 医者
+  reign_ref: 明嘉靖
+  archetype: 医家
   dilemmas:
-  - 温补扶正与寒凉攻伐之辨
-  - 守古方与从变症之难
-  lesson: 脾胃为后天之本命门为先天之根虚则补母治病求本慎用寒凉攻伐以保元气
-  summary_first_person: 吾号立斋吴郡人也承家学而宗东垣补土之旨历太医院见世人误以祛风寒凉治虚损内伤致夭枉者众故力倡温补脾肾补火生土著内科摘要以记医案愿后学以元气为本勿轻攻伐
+  - 寒凉消毒速效与补脾滋肾固本之辨
+  - 局部口齿肿痛与全身气血虚实之辨
+  lesson: 口齿虽小系于脾肾全身，审本察兼补化源则燥润肿消，妄用寒凉克伐反败元气
+  summary_first_person: 吾少承家学，究内经脾开于口肾主齿之旨，历太医院任，见世医遇口齿疮肿辄用清热消毒，耗伤生气，故集茧唇口疮齿痛舌症喉痹喉痛六门治验，专主补脾气生脾血滋肾水，著口齿类要以诏后学
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%86%85%E7%A7%91%E6%91%98%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%86%85%E7%A7%91%E6%91%98%E8%A6%81.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A3%E9%BD%BF%E7%B1%BB%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A3%E9%BD%BF%E7%B1%BB%E8%A6%81.html
 endeavors:
 - id: guji-薛己-endeavor-1
-  title_zh: 温补脾肾内科实践
-  summary: 宗李东垣补土学说以补中益气六味八味温补元气救治中风内伤劳倦等误治危症
+  title_zh: 编撰口齿类要分门立论
+  summary_zh: 分茧唇口疮齿痛舌症喉痹喉痛六门，引内经及徐用诚丹溪诸家，立虚实寒热辨治大法，主张补益脾肾化源
   phases:
   - key: brewing
-    name: 家学研习初窥补土
+    name: 少继承家究脾肾口齿之属
     labels:
-      zh: 家学研习
-    start_date: '1500'
-    highlight_event_id: guji-薛己-event-study
+      zh:
+      - 脾主口唇
+      - 肾主齿舌
+    start_date: '1505'
+    highlight_event_id: guji-薛己-event-birth
   - key: breakthrough
-    name: 太医院历练声名起
+    name: 任太医院博览临证穷虚实
     labels:
-      zh: 太医院任职
-    start_date: '1520'
-    highlight_event_id: guji-薛己-event-taiyiyuan
+      zh:
+      - 博采众方
+      - 临症制宜
+    start_date: '1530'
+    highlight_event_id: guji-薛己-event-1
   - key: climax
-    name: 内伤温补大验于世
+    name: 撰成六门治验戒寒凉克伐
     labels:
-      zh: 温补大成
-    start_date: '1529'
-    highlight_event_id: guji-薛己-event-neike
-  - key: closure
-    name: 晚年垂训保元气
-    labels:
-      zh: 垂训后学
-    start_date: '1550'
-    highlight_event_id: guji-薛己-event-late
-  decisions:
-  - date: '1529'
-    title_zh: 中风昏愦重用人参温补不用祛风寒凉
-    rationale: 真气虚而风邪乘用三生饮必加人参两许驾邪辅正否则徒败元气
-  - date: '1532'
-    title_zh: 命门火衰补火生土不用苦寒泻火
-    rationale: 饮食难化腹冷乃火衰不能生土当用八味丸壮火之源以消阴翳忌黄柏知母苦寒伤胃
-- id: guji-薛己-endeavor-2
-  title_zh: 著述医案传法后世
-  summary: 辑毕生医案为内科摘要外科枢要等书详记辨证用药以正时医攻伐之弊
-  phases:
-  - key: brewing
-    name: 搜集医案笔记累积
-    labels:
-      zh: 积累医案
-    start_date: '1525'
-    highlight_event_id: guji-薛己-event-taiyiyuan
-  - key: breakthrough
-    name: 内科摘要成书刊行
-    labels:
-      zh: 成书刊行
-    start_date: '1529'
-    highlight_event_id: guji-薛己-event-neike
-  - key: climax
-    name: 外科枢要续成广传
-    labels:
-      zh: 广传补土
+      zh:
+      - 六门分述
+      - 补益化源
     start_date: '1540'
-    highlight_event_id: guji-薛己-event-late
+    highlight_event_id: guji-薛己-event-2
   - key: closure
-    name: 校订全书托付后学
+    name: 门人附记刊行垂永久
     labels:
-      zh: 托付后学
-    start_date: '1555'
-    highlight_event_id: guji-薛己-event-late
+      zh:
+      - 附记刊行
+      - 垂训后学
+    start_date: '1547'
+    highlight_event_id: guji-薛己-event-3
   decisions:
-  - date: '1529'
-    title_zh: 以医案体例著内科摘要明辨虚实
-    rationale: 空谈经义易误后学惟据实案示补中益气六味八味之验方能使人信温补之功
   - date: '1540'
-    title_zh: 坚持温补立论不附和攻伐时习
-    rationale: 时医喜用搜风天麻愈风寒凉败毒致人夭枉必当力排众议独守扶正保元之道
+    title_zh: 决定以脾胃虚实统口齿诸症
+    rationale: 内经谓脾气开于口其荣在唇，齿为肾标，悟燥裂肿痛多因脾血亏肾水涸，故舍表热专补化源
+  - date: '1542'
+    title_zh: 决定尽录误治案例以示警
+    rationale: 见儒者妇人误服四物加黄柏知母及消毒流气而益甚甚至殁者，故存其失以明妄用寒凉之害
+- id: guji-薛己-endeavor-2
+  title_zh: 临证救治口齿喉舌危重
+  summary_zh: 以补中益气归脾六味八味加减治茧唇牙痛口疮喉闭舌肿，针刺泄毒配合内补，屡起沉疴
+  phases:
+  - key: brewing
+    name: 初诊茧唇审本察兼
+    labels:
+      zh:
+      - 茧唇出血水
+      - 补脾生血
+    start_date: '1532'
+    highlight_event_id: guji-薛己-event-1
+  - key: breakthrough
+    name: 温补治喉闭舌肿起垂殆
+    labels:
+      zh:
+      - 喉闭不省人事
+      - 舌肿刺血泄毒
+    start_date: '1536'
+    highlight_event_id: guji-薛己-event-2
+  - key: climax
+    name: 化裁古方救虚火上炎
+    labels:
+      zh:
+      - 无根之火
+      - 火归原
+    start_date: '1545'
+    highlight_event_id: guji-薛己-event-2
+  - key: closure
+    name: 嘉靖丁未治验得门人记述
+    labels:
+      zh:
+      - 牙痛应手而瘥
+      - 医录准则
+    start_date: '1547'
+    highlight_event_id: guji-薛己-event-3
+  decisions:
+  - date: '1536'
+    title_zh: 决定用补中益气加肉桂救喉闭
+    rationale: 儒者场毕咽喉肿闭不省人事脉浮大而数，辨为劳役无根虚火，故峻补元气引火归原而不降火
+  - date: '1545'
+    title_zh: 决定先刺舌泄毒后大补气血
+    rationale: 膏粱人舌肿势急，先刺舌尖两傍出紫黑血以救急，后用补中益气倍参归术以复真气，知邪去正伤必补
 events:
 - id: guji-薛己-event-birth
+  title_zh: 出生于吴县医家
   date: '1487'
   year_of: 1487
-  title_zh: 生于吴郡薛氏医家
-  description: 明成化二十三年生于南直隶吴县父薛铠精医传家学自幼习内经难经及东垣丹溪之书
-- id: guji-薛己-event-study
-  date: '1505'
-  year_of: 1505
-  title_zh: 承家学研习补土之法
-  description: 青年承父业博览李杲脾胃论朱震亨诸说渐悟脾胃亏损命门火衰为内伤百病之源
-- id: guji-薛己-event-taiyiyuan
-  date: '1520'
-  year_of: 1520
-  title_zh: 历任太医院治验日著
-  description: 以医征入京历太医院院判治车驾王用之卒中州判蒋大用中满等症皆以温补获效名重朝野
-- id: guji-薛己-event-neike
-  date: '1529'
-  year_of: 1529
-  title_zh: 撰成内科摘要阐发温补
-  description: 辑元气亏损饮食劳倦脾肾虚寒命门火衰诸门医案力陈补中益气八味地黄之用以救寒凉攻伐之弊
-- id: guji-薛己-event-late
-  date: '1550'
-  year_of: 1550
-  title_zh: 晚年订书垂训保元气
-  description: 晚年家居订正外科枢要女科撮要等书屡戒后学养气血节饮食远帏幕勿轻服搜风寒凉以预防中风
+  description_zh: 明成化年间生于江苏吴县，少承家学，究内经脾肾与口齿之系
+- id: guji-薛己-event-1
+  title_zh: 任太医院院使历练临证
+  date: '1530'
+  year_of: 1530
+  description_zh: 嘉靖初任太医院，治州守刘克新茧唇以济阴地黄丸年许而愈，治儒者唇疮以补中益气加茯苓半夏而愈，名著朝野
+- id: guji-薛己-event-2
+  title_zh: 撰成口齿类要六卷
+  date: '1540'
+  year_of: 1540
+  description_zh: 分茧唇口疮齿痛舌症喉痹喉痛六门，录秋官赵君口疮宗伯毛三江齿痛太守叶喉肿等治验，明补脾滋肾反对妄用寒凉
+- id: guji-薛己-event-3
+  title_zh: 嘉靖丁未牙痛治验被记
+  date: '1547-08-01'
+  year_of: 1547
+  description_zh: 仲秋治叔父芝岩先生齿根浮肿，以清胃散加山栀玄参一服应手而瘥，郁貌谨记梗概附于医录为后学准则
 - id: guji-薛己-event-death
+  title_zh: 逝世于嘉靖年间
   date: '1559'
   year_of: 1559
-  title_zh: 卒于嘉靖三十八年
-  description: 明嘉靖三十八年卒享年七十三遗书盛行后世尊为温补学派大家明代名医之冠
+  description_zh: 明嘉靖三十八年卒，一生以温补脾肾化源之法活人无算，口齿类要与门人附记并传于世

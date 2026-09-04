@@ -1,0 +1,138 @@
+person:
+  qid: guji-怀远
+  name_zh: 怀远
+  names:
+    zh: 怀远
+    en: Huai Yuan
+  lifespan:
+    birth:
+      date: 1755-01-01
+      precision: year
+      is_circa: true
+      raw: 清乾隆二十年左右
+    death:
+      date: 1815-01-01
+      precision: year
+      is_circa: true
+      raw: 清嘉庆二十年左右
+  birth_date: 1755-01-01
+  death_date: 1815-01-01
+  era: 清
+  reign_ref: 嘉庆
+  archetype: 医者
+  dilemmas:
+  - 不为相则为医，弃儒从医以全济世之志，抑守帖括以求仕进
+  - 伤寒汗下易误，遵古方而泥于成法，抑参虚实而变通以存津液
+  lesson: 医系性命，方不可执，法不可废，必审虚实表里而慎于汗下，方为活人之道。
+  summary_first_person: 吾少治儒术，壮岁弃去，承家学隐于医三十年，活人无算，乃著古今医彻，明伤寒虚实表里，辨传经直中两感，兼及杂症女科，愿慎汗下以全生民。
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%8C%BB%E5%BD%BB.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%8C%BB%E5%BD%BB.md
+endeavors:
+- id: guji-怀远-endeavor-1
+  title_zh: 弃儒习医济世活人
+  summary: 少治儒术，壮岁弃举业，承家学隐于医，历三十年救治伤寒杂症，慎用麻黄汗法，全活甚众。
+  phases:
+  - key: brewing
+    name: 弃儒承学
+    labels:
+      zh:
+      - 儒转医
+      - 家学
+    start_date: 1778-01-01
+    highlight_event_id: guji-怀远-event-1
+  - key: breakthrough
+    name: 慎汗活人
+    labels:
+      zh:
+      - 伤寒
+      - 虚实
+    start_date: 1788-01-01
+    highlight_event_id: guji-怀远-event-2
+  - key: climax
+    name: 隐医自全
+    labels:
+      zh:
+      - 济世
+      - 经验
+    start_date: 1798-01-01
+    highlight_event_id: guji-怀远-event-2
+  decisions:
+  - date: 1778-01-01
+    title_zh: 壮岁弃儒从医
+    rationale: 天下苦兵革，生齿疮痍，不忍以帖括自误，愿以医全己而济众。
+  - date: 1788-01-01
+    title_zh: 慎用麻黄大汗
+    rationale: 见妄发汗而亡阳竭液者多，故立不可轻汗大汗再汗误汗之戒，必审表里虚实。
+- id: guji-怀远-endeavor-2
+  title_zh: 撰著古今医彻
+  summary: 揣摩二十余载，举伤寒大纲，发明两感传经，兼论阳明少阳三阴三焦，附杂症女科医案而成一家言。
+  phases:
+  - key: brewing
+    name: 搜采先哲
+    labels:
+      zh:
+      - 仲景
+      - 东垣
+    start_date: 1795-01-01
+    highlight_event_id: guji-怀远-event-2
+  - key: breakthrough
+    name: 医彻初成
+    labels:
+      zh:
+      - 伤寒
+      - 著述
+    start_date: 1808-03-01
+    highlight_event_id: guji-怀远-event-3
+  - key: closure
+    name: 刊行问世
+    labels:
+      zh:
+      - 序跋
+      - 刊刻
+    start_date: 1808-08-01
+    highlight_event_id: guji-怀远-event-4
+  decisions:
+  - date: 1795-01-01
+    title_zh: 削繁举纲立凡例
+    rationale: 伤寒头绪最繁，独举大纲，先辨虚实，再别表里，使临症者约而可循。
+  - date: 1808-03-01
+    title_zh: 托序付梓公好于众
+    rationale: 施药利济不如垂言利济溥，故请王昶顾开雍序而行之，不敢私秘以贻后学。
+events:
+- id: guji-怀远-event-birth
+  type: birth
+  date: 1755-01-01
+  year_of: 1755
+  title_zh: 出生
+  description: 生于清乾隆间，少治儒术，习帖括。
+- id: guji-怀远-event-1
+  type: career
+  date: 1778-01-01
+  year_of: 1778
+  title_zh: 弃儒承家学行医
+  description: 壮岁弃去举业，承家学济世，隐于医以自全，活人无算。
+- id: guji-怀远-event-2
+  type: career
+  date: 1798-01-01
+  year_of: 1798
+  title_zh: 屡治误汗坏症有验
+  description: 治积劳误投麻黄致衄血坏症，以地黄生脉归脾葛根获愈，益信慎汗之要。
+- id: guji-怀远-event-3
+  type: career
+  date: 1808-03-01
+  year_of: 1808
+  title_zh: 古今医彻成王昶作序
+  description: 嘉庆戊辰季春，书成于青浦，王昶题序，称其管令人约可循，可告无罪于天下。
+- id: guji-怀远-event-4
+  type: career
+  date: 1808-08-01
+  year_of: 1808
+  title_zh: 顾开雍校订作序
+  description: 嘉庆十三年八月朔，同邑顾开雍讨论校订作序，论南北异禀参附流弊，刊行伤寒医彻及杂症女科。
+- id: guji-怀远-event-death
+  type: death
+  date: 1815-01-01
+  year_of: 1815
+  title_zh: 逝世
+  description: 嘉庆末年逝世，医彻杂症女科并行于世。
