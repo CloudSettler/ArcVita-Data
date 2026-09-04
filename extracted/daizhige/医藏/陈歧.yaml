@@ -1,0 +1,127 @@
+person:
+  qid: guji-陈歧
+  name_zh: 陈歧
+  names:
+    zh: 陈歧
+    en: Chen Qi
+  lifespan:
+    birth:
+      date: 1655-01-01
+      precision: year
+      is_circa: true
+      raw: 清初约生
+    death:
+      date: 1725-01-01
+      precision: year
+      is_circa: true
+      raw: 康熙末后约卒
+  birth_date: 1655-01-01
+  death_date: 1725-01-01
+  era: 清
+  reign_ref: 康熙
+  archetype: 传灯医者
+  dilemmas:
+  - 温饱举业与济世著述之两难
+  - 师传规矩与自悟贯通之两难
+  lesson: 博而后约由规矩以致贯通方能传灯济世
+  summary_first_person: 吾少失怙罹水患弃举业而择医访明师讲习数年遍览群书三十年临症参悟融会古今删述成编以传灯后学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AD%A6%E4%BC%A0%E7%81%AF.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AD%A6%E4%BC%A0%E7%81%AF.html
+endeavors:
+- id: guji-陈歧-endeavor-1
+  title_zh: 访师学医与临症贯通
+  summary_zh: 访投明师得规矩法律遍览群书三十年临症以理统症求贯通之巧
+  phases:
+  - key: brewing
+    name: 访投明师讲习规矩
+    labels:
+      zh:
+      - 求学
+      - 守规矩
+    start_date: 1675-01-01
+    highlight_event_id: guji-陈歧-event-study
+  - key: breakthrough
+    name: 遍览群书临症参悟
+    labels:
+      zh:
+      - 博览
+      - 临症
+    start_date: 1680-01-01
+    highlight_event_id: guji-陈歧-event-practice
+  - key: climax
+    name: 融会贯通以理统症
+    labels:
+      zh:
+      - 贯通
+      - 化巧
+    start_date: 1690-01-01
+    highlight_event_id: guji-陈歧-event-practice
+  decisions:
+  - date: 1675-01-01
+    title_zh: 弃举业择术于医
+    rationale: 稚年失怙叠罹水患难沉心举业欲以医温饱兼负删述纂修之责
+  - date: 1680-01-01
+    title_zh: 博览加临症互参
+    rationale: 规矩在师贯通在我不博无以为约必以理思症以症合理方敢下手
+- id: guji-陈歧-endeavor-2
+  title_zh: 删述纂修医学传灯
+  summary_zh: 纂集成编更订十数余次深入浅出言近指远康熙庚辰成书传灯
+  phases:
+  - key: brewing
+    name: 纂集成编塞责初稿
+    labels:
+      zh:
+      - 纂集
+      - 初编
+    start_date: 1690-01-01
+    highlight_event_id: guji-陈歧-event-practice
+  - key: breakthrough
+    name: 更订十数余次求浅出
+    labels:
+      zh:
+      - 更订
+      - 浅出
+    start_date: 1695-01-01
+    highlight_event_id: guji-陈歧-event-book
+  - key: closure
+    name: 康熙庚辰菊月自识成书
+    labels:
+      zh:
+      - 成书
+      - 传灯
+    start_date: 1700-09-01
+    highlight_event_id: guji-陈歧-event-book
+  decisions:
+  - date: 1695-01-01
+    title_zh: 深入浅出言近指远
+    rationale: 古今奥妙隐而未发者多必苦志更订使病机源流治法初终俱明
+  - date: 1700-09-01
+    title_zh: 立传灯之志期后学扩充
+    rationale: 不敢言医囊大备但明理路使后人由此扩充而入精微之地
+events:
+- id: guji-陈歧-event-birth
+  title_zh: 出生
+  date: 1655-01-01
+  year_of: 1655
+  description: 约生于清初名阀之家稚年失怙叠罹水患
+- id: guji-陈歧-event-study
+  title_zh: 访投明师讲习数年
+  date: 1675-01-01
+  year_of: 1675
+  description: 访投明师讲习数年得医学规矩法律临症仍觉少隔
+- id: guji-陈歧-event-practice
+  title_zh: 三十年阅历融会贯通
+  date: 1690-01-01
+  year_of: 1690
+  description: 遍览神农轩岐张朱李刘以至医统准绳三十年临症以理思症以症合理渐得融会
+- id: guji-陈歧-event-book
+  title_zh: 康熙庚辰撰成医学传灯
+  date: 1700-09-01
+  year_of: 1700
+  description: 苦志更订十数余次于尚友斋自识成书阐脾胃伤风中寒暑湿诸门
+- id: guji-陈歧-event-death
+  title_zh: 逝世
+  date: 1725-01-01
+  year_of: 1725
+  description: 约卒于康熙末后愿终伤寒女科素难本草注释未竟
