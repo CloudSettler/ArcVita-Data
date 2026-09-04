@@ -6,100 +6,139 @@ person:
     en: Chen Di
   lifespan:
     birth:
-      date: '1541'
+      date: 1541
       precision: year
       is_circa: false
       raw: 明嘉靖二十年
     death:
-      date: '1617'
+      date: 1617
       precision: year
       is_circa: false
       raw: 明万历四十五年
-  birth_date: '1541'
-  death_date: '1617'
+  birth_date: 1541
+  death_date: 1617
   era: 明
-  reign_ref: 明万历
-  archetype: 古音学家
+  reign_ref: 明嘉靖至万历
+  archetype: 文武兼备的古音学开创者
   dilemmas:
-  - 时人悉委古韵于叶音一字而古音晦而不明
-  - 楚辞注家率不论其音致声韵不谐而训诂亦乖
-  lesson: 稽往古合群书以求本音可破叶韵之陋而羽翼经义
-  summary_first_person: 吾少好楚辞尤好屈宋以古音读之声韵颇谐遂先成毛诗古音攷复取屈宋三十八篇推本音二百三十四字以明叶音之谬而羽翼毛诗也
+  - title_zh: 今音读古诗乖剌不入
+    description_zh: 以今之音读古之作则韵不谐，委之叶音则茫无定律
+  - title_zh: 武事与经术难兼
+    description_zh: 以诸生从军立功与独居海上考究三百篇之间抉择
+  lesson: 以经证经排比本证旁证，证明古今音异而古音截然不紊，不执今韵妄通古音
+  summary_first_person: 我字季立，闽连江人，少受诗于家庭，尝以诸生从军，晚独居海上，日夕读三百篇，排比经文参以群籍，列本证旁证以考古音，欲便于歌咏以复古人之声
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B1%88%E5%AE%8B%E5%8F%A4%E9%9F%B3%E4%B9%89.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B1%88%E5%AE%8B%E5%8F%A4%E9%9F%B3%E4%B9%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%AF%9B%E8%AF%97%E5%8F%A4%E9%9F%B3%E6%94%B7.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%AF%9B%E8%AF%97%E5%8F%A4%E9%9F%B3%E6%94%B7.html
 endeavors:
 - id: guji-陈第-endeavor-1
-  title_zh: 撰毛诗古音攷
-  summary: 考五百字本音以破叶音之说立古音学之基
+  title_zh: 以诸生从军历官游击
+  summary_zh: 以诸生从军御倭，历官至游击，晚归海上治经
   phases:
   - key: brewing
-    name: 少好古音遍稽群书
+    name: 少受诗书投笔从戎
     labels:
-      zh: 酝酿
-    start_date: '1570'
-    highlight_event_id: guji-陈第-event-maoshi-brewing
+      zh: 蓄势从军
+    start_date: 1562
+    highlight_event_id: guji-陈第-event-congjun
   - key: breakthrough
-    name: 毛诗古音攷灾木刊行
+    name: 从军御倭立功
     labels:
-      zh: 突破
-    start_date: '1603'
-    highlight_event_id: guji-陈第-event-maoshi-done
-  decisions:
-  - date: '1603'
-    title_zh: 以本音系联不从叶韵
-    rationale: 考诗易之音耿然不可易合群书以证上世之音
-- id: guji-陈第-endeavor-2
-  title_zh: 撰屈宋古音义
-  summary: 取屈宋三十八篇推二百三十四字本音以羽翼毛诗
-  phases:
+      zh: 武功初立
+    start_date: 1572
+    highlight_event_id: guji-陈第-event-youji
   - key: climax
-    name: 以韵为断集注三十八篇
+    name: 历官游击
     labels:
-      zh: 高潮
-    start_date: '1610'
-    highlight_event_id: guji-陈第-event-qusong-writing
+      zh: 位至游击
+    start_date: 1578
+    highlight_event_id: guji-陈第-event-youji
   - key: closure
-    name: 万历癸丑序成于东瓯江心寺
+    name: 解甲归里独居海上
     labels:
-      zh: 收束
-    start_date: '1613'
-    highlight_event_id: guji-陈第-event-qusong-done
+      zh: 归隐治经
+    start_date: 1588
+    highlight_event_id: guji-陈第-event-guyin
   decisions:
-  - date: '1613'
-    title_zh: 依朱熹集注参王逸章句而不取他本
-    rationale: 校雠援引已悉一以韵为断则开卷若指诸掌
-  - date: '1613'
-    title_zh: 本证明列旁证附注以发明古音
-    rationale: 毛诗所有者提本音注出处所无者旁引他书相质证
+  - date: 1562
+    title_zh: 以诸生从军
+    rationale: 感时御倭自效，不泥章句，欲立功海上
+  - date: 1588
+    title_zh: 庆吊尽废专治诗经
+    rationale: 晚独居海上律绝近体，取三百篇日夕读之以泄欣戚
+- id: guji-陈第-endeavor-2
+  title_zh: 排比经文考定毛诗古音
+  summary_zh: 立本证旁证考四百四十四字古音，开有清古韵学先路
+  phases:
+  - key: brewing
+    name: 留心古今音变
+    labels:
+      zh: 疑叶音之非
+    start_date: 1590
+    highlight_event_id: guji-陈第-event-guyin
+  - key: breakthrough
+    name: 列本证旁证钩稽
+    labels:
+      zh: 以经证经
+    start_date: 1600
+    highlight_event_id: guji-陈第-event-guyin
+  - key: climax
+    name: 毛诗古音攷成书刊刻
+    labels:
+      zh: 四卷四百四十四字
+    start_date: 1606
+    highlight_event_id: guji-陈第-event-guyin
+  - key: closure
+    name: 屈宋古音义相继传世
+    labels:
+      zh: 开顾炎武先路
+    start_date: 1610
+    highlight_event_id: guji-陈第-event-guyin
+  decisions:
+  - date: 1600
+    title_zh: 定本证旁证二条
+    rationale: 本证以诗自相证探古音之源，旁证采左国易象离骚秦碑汉赋以竟其委，不随意改读
+  - date: 1606
+    title_zh: 断叶音皆即本音
+    rationale: 母必读米马必读姥京必读疆福必读偪，矩律严于唐韵，非辗转牵就
 events:
 - id: guji-陈第-event-birth
-  date: '1541'
+  title_zh: 生于连江
+  type: birth
+  date: 1541
   year_of: 1541
-  title_zh: 生于福建连江
-  description: 明嘉靖二十年生于连江陈氏
-- id: guji-陈第-event-maoshi-brewing
-  date: '1575'
-  year_of: 1575
-  title_zh: 遍读楚辞汉赋题辞赋漫题
-  description: 读楚辞及两汉魏晋诸赋率题数语于后积为辞赋漫题
-- id: guji-陈第-event-maoshi-done
-  date: '1603'
-  year_of: 1603
-  title_zh: 毛诗古音攷刊成
-  description: 考定五百字古今异读之音已灾木刊行
-- id: guji-陈第-event-qusong-writing
-  date: '1610'
-  year_of: 1610
-  title_zh: 取屈宋三十八篇考其韵读
-  description: 除天问取离骚等二十四篇合宋玉高唐等十四篇共三十八篇得二百三十四字
-- id: guji-陈第-event-qusong-done
-  date: '1613'
-  year_of: 1613
-  title_zh: 屈宋古音义三卷序成
-  description: 万历癸丑除前一日书序于东瓯江心寺以羽翼毛诗
+  description_zh: 明嘉靖二十年生于福建连江，字季立
+  related_endeavor_ids:
+  - guji-陈第-endeavor-1
+- id: guji-陈第-event-congjun
+  title_zh: 以诸生从军御倭
+  type: career
+  date: 1562
+  year_of: 1562
+  description_zh: 以诸生从军御倭，开启武功之途
+  related_endeavor_ids:
+  - guji-陈第-endeavor-1
+- id: guji-陈第-event-youji
+  title_zh: 历官至游击
+  type: career
+  date: 1578
+  year_of: 1578
+  description_zh: 军功累升，历官至游击，后解甲归里
+  related_endeavor_ids:
+  - guji-陈第-endeavor-1
+- id: guji-陈第-event-guyin
+  title_zh: 撰成毛诗古音攷四卷
+  type: career
+  date: 1606
+  year_of: 1606
+  description_zh: 独居海上排比经文，列本证旁证考定四百四十四字古音，刊板旋佚后徐时作复刊
+  related_endeavor_ids:
+  - guji-陈第-endeavor-2
 - id: guji-陈第-event-death
-  date: '1617'
+  title_zh: 卒于万历间
+  type: death
+  date: 1617
   year_of: 1617
-  title_zh: 卒于明万历四十五年
-  description: 考据古音之学传于后世入四库小学韵书之属
+  description_zh: 明万历四十五年卒，为顾炎武诗本音江永古韵标准开先路
+  related_endeavor_ids:
+  - guji-陈第-endeavor-2
