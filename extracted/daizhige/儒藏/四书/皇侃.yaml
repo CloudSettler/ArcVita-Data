@@ -1,0 +1,142 @@
+person:
+  qid: guji-皇侃
+  name_zh: 皇侃
+  names:
+    zh: 皇侃
+    en: Huang Kan
+  lifespan:
+    birth:
+      date: 0488
+      precision: year
+      is_circa: true
+      raw: 约晋义熙四年吴郡生
+    death:
+      date: 357
+      precision: year
+      is_circa: false
+      raw: 梁大同十一年卒
+  birth_date: 0488
+  death_date: 357
+  era: 南朝梁
+  reign_ref: 梁武帝大同
+  archetype: 儒林经师
+  dilemmas:
+  - 何晏集解集诸家得失互见如何择善而从又下己意
+  - 江熙所集十三家与别有通儒异说如何兼采以示广闻而不淆
+  lesson: 守古择善述而不作方能存汉晋经学一线以待后世
+  summary_first_person: 吾吴郡皇侃为皇象九世孙武帝朝官国子助教拜散骑侍郎兼助教如故讲鲁论张侯论本先通何晏集解兼采江熙十三家及通儒善说以成论语义十卷又撰礼记义五十卷以尊圣师而垂万代
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD%E9%9B%86%E8%A7%A3%E4%B9%89%E7%96%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD%E9%9B%86%E8%A7%A3%E4%B9%89%E7%96%8F.md
+endeavors:
+- id: guji-皇侃-endeavor-1
+  title_zh: 国子助教讲授守经
+  description: 武帝朝为国子助教寻拜散骑侍郎兼助教如故以学而至尧曰相次教授
+  phases:
+  - key: brewing
+    name: 吴郡力学承家
+    labels:
+      zh:
+      - 力学
+      - 承家
+    start_date: 0488
+    highlight_event_id: guji-皇侃-event-birth
+  - key: breakthrough
+    name: 入国子为助教
+    labels:
+      zh:
+      - 入学
+      - 助教
+    start_date: 0518
+    highlight_event_id: guji-皇侃-event-teach
+  - key: climax
+    name: 兼官讲授不辍
+    labels:
+      zh:
+      - 讲授
+      - 守经
+    start_date: 341
+    highlight_event_id: guji-皇侃-event-teach
+  - key: closure
+    name: 门人传业成典
+    labels:
+      zh:
+      - 传业
+      - 成典
+    start_date: 357
+    highlight_event_id: guji-皇侃-event-death
+  decisions:
+  - date: 0518
+    title_zh: 就助教职专讲鲁论
+    rationale: 降圣以下皆须学成以学而为先故守张侯鲁论何晏集解为本
+  - date: 341
+    title_zh: 兼散骑仍兼助教
+    rationale: 以讲授为己任不以贵官废业故兼职如故以终经师之任
+- id: guji-皇侃-endeavor-2
+  title_zh: 集疏论语集解义疏
+  description: 先通何集若江熙十三家有可采者附而申之别有通儒善说亦引取以示广闻成十卷义疏
+  phases:
+  - key: brewing
+    name: 考三论篇章源流
+    labels:
+      zh:
+      - 考论
+      - 溯源
+    start_date: 336
+    highlight_event_id: guji-皇侃-event-teach
+  - key: breakthrough
+    name: 定以何晏集解为宗
+    labels:
+      zh:
+      - 宗何
+      - 择善
+    start_date: 0528
+    highlight_event_id: guji-皇侃-event-compile
+  - key: climax
+    name: 广采江熙诸家成疏
+    labels:
+      zh:
+      - 广采
+      - 成疏
+    start_date: 349
+    highlight_event_id: guji-皇侃-event-compile
+  - key: closure
+    name: 十卷义疏垂后
+    labels:
+      zh:
+      - 垂后
+      - 存古
+    start_date: 357
+    highlight_event_id: guji-皇侃-event-death
+  decisions:
+  - date: 0528
+    title_zh: 先通何集为讲本
+    rationale: 何集集马融郑玄苞咸周氏陈群王肃周生烈之善今日所讲即此故先通之
+  - date: 349
+    title_zh: 兼采江熙十三家及通儒
+    rationale: 若江熙集中卫瓘缪播栾肇郭象蔡谟袁宏江淳蔡系李充孙绰周坏范甯王珉有可采者附申之无好者别引通儒以广闻
+events:
+- id: guji-皇侃-event-birth
+  title_zh: 生于吴郡
+  date: 0488
+  year_of: 488
+  place: 吴郡
+  description: 青州刺史皇象九世孙生于吴郡力学承家
+- id: guji-皇侃-event-teach
+  title_zh: 官国子助教兼散骑侍郎
+  date: 0518
+  year_of: 518
+  place: 建康国子学
+  description: 梁武帝时官国子助教寻拜散骑侍郎兼助教如故讲授论语自学而至尧曰
+- id: guji-皇侃-event-compile
+  title_zh: 撰论语集解义疏十卷
+  date: 349
+  year_of: 535
+  place: 建康
+  description: 作序明论语为孔子没后弟子共撰录通何晏集解兼申江熙十三家及通儒说又撰礼记义五十卷
+- id: guji-皇侃-event-death
+  title_zh: 大同十一年卒
+  date: 357
+  year_of: 545
+  place: 建康
+  description: 大同十一年卒事迹具梁书儒林传其疏唐时流传海外后自日本归传中土
