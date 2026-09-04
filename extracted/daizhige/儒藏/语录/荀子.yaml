@@ -1,0 +1,115 @@
+person:
+  qid: guji-荀子
+  name_zh: 荀子
+  names:
+    zh: 荀况
+    en: Xunzi
+  lifespan:
+    birth:
+      date: '-0313'
+      precision: year
+      is_circa: true
+      raw: 约前三一三年生于赵
+    death:
+      date: -0238
+      precision: year
+      is_circa: true
+      raw: 约前二三八年卒于楚兰陵
+  birth_date: '-0313'
+  death_date: -0238
+  era: 战国晚期
+  reign_ref: 齐宣王至楚考烈王时
+  archetype: 崇礼劝学宗师
+  dilemmas:
+  - 性不可恃而教可恃，如何劝人舍性任学而归于礼义
+  - 当世申商苛虐孙吴变诈盛行，如何羽翼六经而存孔氏之道
+  lesson: 学不可以已，积善成德，化性起伪以归于礼
+  summary_first_person: 吾为赵人荀况，世称荀卿，游学稷下三为祭酒，后仕楚为兰陵令，春申君死而废居著书，明周孔之教，崇礼勤学，以性恶论劝人力学成德
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E8%8D%80%E5%AD%90.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E8%8D%80%E5%AD%90.md
+  - https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90
+endeavors:
+- id: guji-荀子-endeavor-1
+  title_zh: 稷下论道扬名
+  summary: 齐宣王时游稷下，与诸子辨难，三为祭酒，阐明礼学
+  phases:
+  - key: brewing
+    name: 初游稷下
+    labels:
+      zh: 游学
+    start_date: '-0264'
+    highlight_event_id: guji-荀子-event-jixia
+  - key: breakthrough
+    name: 三为祭酒
+    labels:
+      zh: 讲学
+    start_date: '-0255'
+    highlight_event_id: guji-荀子-event-jijiu
+  decisions:
+  - date: '-0264'
+    title_zh: 游学稷下与众家争鸣
+    rationale: 愍孔道几息，故入稷下以礼义正诸子之偏
+  - date: '-0255'
+    title_zh: 就祭酒之任领袖群儒
+    rationale: 借讲席敷陈王道，以正风俗而显学统
+- id: guji-荀子-endeavor-2
+  title_zh: 兰陵为令著书授徒
+  summary: 仕楚为兰陵令，春申君死而废，著书三十二篇授徒传道
+  phases:
+  - key: climax
+    name: 出守兰陵
+    labels:
+      zh: 出仕
+    start_date: '-0241'
+    highlight_event_id: guji-荀子-event-lanling
+  - key: closure
+    name: 废居著述
+    labels:
+      zh: 著书
+    start_date: '-0237'
+    highlight_event_id: guji-荀子-event-zhushu
+  decisions:
+  - date: '-0241'
+    title_zh: 应春申君辟守兰陵
+    rationale: 欲以礼义施政事，验王制富国之说于一方
+  - date: '-0237'
+    title_zh: 废居专心著书授徒
+    rationale: 时已不容用，唯以笔述存周孔之教，垂法后世
+events:
+- id: guji-荀子-event-birth
+  date: '-0313'
+  year_of: -313
+  title_zh: 生于赵国
+  place_zh: 赵国
+  description: 周末赵人荀况生，生卒年月已不可确考，约生于战国晚期
+- id: guji-荀子-event-jixia
+  date: '-0264'
+  year_of: -264
+  title_zh: 游学稷下
+  place_zh: 齐国稷下
+  description: 年五十始游齐，入稷下学宫与诸子论道，阐明周孔之教
+- id: guji-荀子-event-jijiu
+  date: '-0255'
+  year_of: -255
+  title_zh: 三为稷下祭酒
+  place_zh: 齐国稷下
+  description: 以大儒领袖群学，非十二子，正王道，名声大振
+- id: guji-荀子-event-lanling
+  date: '-0241'
+  year_of: -241
+  title_zh: 仕楚为兰陵令
+  place_zh: 楚国兰陵
+  description: 应春申君之辟，出守兰陵，施行礼义政教，勤于劝学
+- id: guji-荀子-event-zhushu
+  date: '-0237'
+  year_of: -237
+  title_zh: 废居著书三十二篇
+  place_zh: 楚国兰陵
+  description: 春申君死而废，家居著劝学修身性恶礼论等篇，授徒传道
+- id: guji-荀子-event-death
+  date: -0238
+  year_of: -238
+  title_zh: 卒于兰陵
+  place_zh: 楚国兰陵
+  description: 废后不久卒于兰陵，刘向校定其书为三十二篇，杨倞注为二十卷传世
