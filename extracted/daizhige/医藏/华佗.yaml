@@ -9,149 +9,129 @@ person:
       date: '0145'
       precision: year
       is_circa: true
-      raw: 约汉永和元年生
+      raw: 约汉永嘉元年
     death:
       date: 0208
       precision: year
-      is_circa: true
-      raw: 汉建安十三年卒
+      is_circa: false
+      raw: 汉建安十三年
   birth_date: '0145'
   death_date: 0208
   era: 东汉末
   reign_ref: 汉献帝建安
-  archetype: 济世神医
+  archetype: 外科神医
   dilemmas:
-  - title_zh: 出仕与行医
-    description: 举孝廉辟公府皆不就，坚持游行四方以医济世
-  - title_zh: 侍曹与保身
-    description: 不愿久为侍医系身，托妻病还乡终遭下狱殒命
-  lesson: 术精而心正，通经脉均气血，方为良医济世之道
-  summary_first_person: 吾少游学徐土，通经方针灸，制麻沸散，创五禽戏，行医江淮吴越，针起跛足，药除肠痈，虽终殒于许都，然针道已载歌赋传后世
+  - 内外毒邪当速治与守正待变之辨
+  - 奇方剖割济人与权贵猜忌之难
+  lesson: 医如用兵贵在早辨虚实内外夹攻以全性命
+  summary_first_person: 吾少游学徐土以方药济世创麻沸而剖背肠察痈疽五善七恶之证唯愿后人早治勿轻微疾
   source_urls:
-  - https://daizhige.org/医藏/百家针灸歌赋.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/百家针灸歌赋.md
+  - https://daizhige.org/醫藏/秘傳外科方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/醫藏/秘傳外科方.md
 endeavors:
 - id: guji-华佗-endeavor-1
-  title_zh: 针灸经方行医四方
-  summary: 精研针灸汤液，游行江淮吴越，以悬钟环跳诸穴起沉疴
+  title_zh: 外科痈疽疔毒辨治体系
+  summary_zh: 立五善七恶之候分虚实浅深倡速治托里排脓生肌为后世外科总纲
   phases:
   - key: brewing
-    name: 徐土游学奠基
+    name: 游学采方
     labels:
-      zh:
-      - 游学
-      - 经方
-    start_date: '0165'
-    highlight_event_id: guji-华佗-event-study
+      zh: 积累外科经验
+    start_date: '0155'
+    highlight_event_id: guji-华佗-event-birth
   - key: breakthrough
-    name: 针刺跛足立行
+    name: 立论痈疽
     labels:
-      zh:
-      - 针灸
-      - 悬钟
-      - 环跳
+      zh: 五善七恶成形
     start_date: 0190
-    highlight_event_id: guji-华佗-event-acu
+    highlight_event_id: guji-华佗-event-yongju
   - key: climax
-    name: 三里却劳名满天下
+    name: 剖割治背发
     labels:
-      zh:
-      - 神医
-      - 足三里
+      zh: 外治巅峰
     start_date: '0200'
-    highlight_event_id: guji-华佗-event-fame
+    highlight_event_id: guji-华佗-event-miaofei
   - key: closure
-    name: 针法载入歌赋
+    name: 青囊遗术
     labels:
-      zh:
-      - 传承
-      - 歌赋引证
+      zh: 医论传世
     start_date: 0208
     highlight_event_id: guji-华佗-event-death
   decisions:
-  - date: '0165'
-    title_zh: 不就仕途专心医道
-    rationale: 举孝廉辟公府皆辞，立志以针药活人
   - date: 0195
-    title_zh: 以针代药通经接气
-    rationale: 头有病而足取之，取悬钟环跳阳陵诸穴驱运气血
+    title_zh: 见微即治不待脓成
+    rationale: 痈疽初生至微轻之误死故如救火拯溺速用托里消散
+  - date: '0200'
+    title_zh: 按证定破坚软虚实为要
+    rationale: 按之牵强未脓半软有脓以别气血寒热防误针破血瘤
 - id: guji-华佗-endeavor-2
-  title_zh: 开创外科麻沸五禽
-  summary: 制麻沸散行剖腹手术，创五禽戏导引养生，开外科先河
+  title_zh: 麻沸散与全身麻醉开腹术
+  summary_zh: 配麻沸散使断肠剖腹缝合皆无痛开后世全身麻醉与外科手术先河
   phases:
   - key: brewing
-    name: 研制麻沸散
+    name: 试药制麻
     labels:
-      zh:
-      - 麻沸散
-      - 外科
-    start_date: 0195
-    highlight_event_id: guji-华佗-event-mwf
+      zh: 研制麻沸
+    start_date: 0185
+    highlight_event_id: guji-华佗-event-yongju
   - key: breakthrough
-    name: 剖腹祛疾
+    name: 麻醉剖腹成功
     labels:
-      zh:
-      - 手术
-      - 肠痈
-    start_date: '0200'
-    highlight_event_id: guji-华佗-event-fame
+      zh: 麻沸剖割
+    start_date: 0195
+    highlight_event_id: guji-华佗-event-miaofei
   - key: climax
-    name: 五禽戏养生
+    name: 五禽导引传世
     labels:
-      zh:
-      - 导引
-      - 养生
-    start_date: '0205'
-    highlight_event_id: guji-华佗-event-fame
+      zh: 外科康复兼养
+    start_date: '0202'
+    highlight_event_id: guji-华佗-event-wuqin
   - key: closure
-    name: 拒留许都殉道
+    name: 遇害术秘不传
     labels:
-      zh:
-      - 曹操
-      - 殉道
+      zh: 青囊被焚
     start_date: 0208
     highlight_event_id: guji-华佗-event-death
   decisions:
-  - date: 0198
-    title_zh: 醉麻剖腹决疑
-    rationale: 腹疾药不及者以麻沸散麻醉割治缝合
-  - date: '0207'
-    title_zh: 托妻病不归许都
-    rationale: 不愿终身为侍医羁身，期守游医济世之志
+  - date: 0195
+    title_zh: 施麻沸后剖腹去疾
+    rationale: 酒服麻沸昏醉无知因破腹取疾秽若在肠则断肠湔洗缝合敷膏
+  - date: '0205'
+    title_zh: 拒为曹操专侍坚持行医天下
+    rationale: 士为良医当济众不为权贵私留宁蹈险而不失医道本心
 events:
 - id: guji-华佗-event-birth
-  title_zh: 诞生沛国谯县
+  type: birth
+  title_zh: 诞生于沛国谯县
   date: '0145'
   year_of: 145
   place_zh: 沛国谯县
-  description: 约汉永和元年生，少而游学徐土通经方
-- id: guji-华佗-event-study
-  title_zh: 游学徐土通医道
-  date: '0165'
-  year_of: 165
-  place_zh: 徐州
-  description: 沛国举孝廉，太尉辟皆不就，专研经方针灸
-- id: guji-华佗-event-acu
-  title_zh: 针悬钟环跳起跛足
+  summary_zh: 约生于东汉桓帝永嘉年间少好方术游学徐土
+- id: guji-华佗-event-yongju
+  type: career
+  title_zh: 立痈疽五善七恶及内外托法
   date: 0190
   year_of: 190
-  place_zh: 江淮吴越之间
-  description: 刺悬钟环跳诸穴，通经接气，使跛足立行，载于针经标幽赋
-- id: guji-华佗-event-mwf
-  title_zh: 制麻沸散创外科
-  date: 0198
-  year_of: 198
-  place_zh: 许都四方
-  description: 制麻沸散，醉麻而剖腹祛疾，兼创五禽戏导引
-- id: guji-华佗-event-fame
-  title_zh: 三里却劳名满天下
-  date: '0205'
-  year_of: 205
-  place_zh: 中原
-  description: 以足三里却五劳羸瘦，以针药活人无数，时称神医
+  place_zh: 中原行医之地
+  summary_zh: 察募俞虚实立五善七恶之候倡追疔夺命托里消散之法为秘传外科方所引总论之源
+- id: guji-华佗-event-miaofei
+  type: career
+  title_zh: 创麻沸散行剖腹截肠术
+  date: 0195
+  year_of: 195
+  place_zh: 许昌谯县一带
+  summary_zh: 以酒服麻沸散昏醉剖背刮骨断肠湔洗开外科麻醉手术先河
+- id: guji-华佗-event-wuqin
+  type: career
+  title_zh: 创五禽戏导引养生
+  date: '0202'
+  year_of: 202
+  place_zh: 谯县
+  summary_zh: 法虎鹿熊猿鸟之动以导引气血助外科术后调养流传后世
 - id: guji-华佗-event-death
-  title_zh: 遇害许都
+  type: death
+  title_zh: 为曹操所杀卒于狱中
   date: 0208
   year_of: 208
-  place_zh: 许都狱中
-  description: 为曹操疗头风不欲久留，托辞还乡不归，操怒下狱瘐死狱中
+  place_zh: 许昌狱中
+  summary_zh: 以不为侍医忤曹操下狱考竟青囊书多佚唯外科要旨存于后世
