@@ -6,95 +6,145 @@ person:
     en: Li Rugui
   lifespan:
     birth:
-      date: '1150-01-01'
+      date: 约1160
       precision: year
       is_circa: true
-      raw: 南宋约十二世纪中叶生
+      raw: 生年不详，约宋绍兴末淳熙初，庐陵人
     death:
-      date: '1210-01-01'
+      date: 约1220
       precision: year
       is_circa: true
-      raw: 南宋约十三世纪初卒
-  birth_date: '1150-01-01'
-  death_date: '1210-01-01'
+      raw: 卒年不详，约宋宁宗初
+  birth_date: 约1160
+  death_date: 约1220
   era: 南宋
-  reign_ref: 宋孝宗至宋宁宗朝
-  archetype: 礼经考据学家
+  reign_ref: 南宋孝宗淳熙至光宗绍熙宁宗初
+  archetype: 礼经集释型经师
   dilemmas:
-  - 以空言说礼与据经考制之辨
-  - 从郑康成旧注与据聘礼乡饮酒等经证正旧说之难
-  lesson: 治礼当先明宫室之制据经记注疏以考登降进退之实
-  summary_first_person: 我是南宋李如圭，专治仪礼，既为集释以发明经义羽翼郑注，又考宫室名制为释宫，仿尔雅体例，本经稽注，辨房室堂序门庭之位，以为治仪礼者圭臬
+  - title_zh: 仪礼久废经注讹脱何以正
+    description_zh: 熙宁废罢仪礼，学者鲜治，经文并注往往讹脱，乾道张淳订讹之后，何以据古本校正补注
+  - title_zh: 郑注疏略贾疏未备何以补
+    description_zh: 全录郑康成注而旁征博引，出入经传，作纲目以别章句，作释宫以论宫室，发明前人未备
+  lesson: 穷探博采出入经传以补前人未备，周旋揖让皆天理流行，知礼废兴关乎化行俗美
+  summary_first_person: 我是庐陵李如圭，字宝之，习于礼者，淳熙中集释仪礼十七篇，全录郑注而旁征博引，又作纲目以别章句，作释宫以论宫室，绍熙癸丑登第，官至福建路抚干，曾与朱熹校定礼书，陈汶刻我书于桂林郡学以与同志共之
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/ritual/仪礼释宫.md
-  - https://daizhige.org/ritual/yili-shigong.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E4%BB%AA%E7%A4%BC%E9%9B%86%E9%87%8A.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E4%BB%AA%E7%A4%BC%E9%9B%86%E9%87%8A.html
 endeavors:
 - id: guji-李如圭-endeavor-1
-  title_zh: 集释仪礼发明经义
-  summary: 羽翼郑康成注，会通经记注疏以明仪礼大义
+  title_zh: 全录郑注集释仪礼十七篇
+  description_zh: 因仪礼既废学者不诵习，穷探博采出入经传，校经注脱讹衍字，证以唐石经释文张淳识误而成集释三十卷之业
   phases:
   - key: brewing
-    name: 博稽经记注疏
+    name: 病郑疏略博采经传
     labels:
       zh:
-      - 会通郑贾
-    start_date: '1170-01-01'
+      - 博采
+      - 病阙
+    start_date: 约1170
+    highlight_event_id: guji-李如圭-event-jishi
+  - key: breakthrough
+    name: 据古本石经校正经注
+    labels:
+      zh:
+      - 校勘
+      - 集释
+    start_date: 约1175
     highlight_event_id: guji-李如圭-event-jishi
   - key: climax
-    name: 集释成编示学
+    name: 淳熙中集释成书
     labels:
       zh:
-      - 发明经义
-    start_date: '1180-01-01'
+      - 集释
+      - 礼制
+    start_date: 约1180
     highlight_event_id: guji-李如圭-event-jishi
-  decisions:
-  - date: '1180-01-01'
-    title_zh: 以集释羽翼郑注而不以空言说礼
-    rationale: 去古既远礼经残阙，须本经稽注方能得登降之节进退之序
-- id: guji-李如圭-endeavor-2
-  title_zh: 撰仪礼释宫考论宫室之制
-  summary: 仿尔雅释宫，考宫庙堂房室序门庭碑之制以辅集释
-  phases:
-  - key: breakthrough
-    name: 考大夫士房室之制
-    labels:
-      zh:
-      - 订正旧说
-    start_date: '1185-01-01'
-    highlight_event_id: guji-李如圭-event-shigong
   - key: closure
-    name: 释宫成卷与集释相辅
+    name: 桂林刻学官传同志
     labels:
       zh:
-      - 治礼圭臬
-    start_date: '1190-01-01'
-    highlight_event_id: guji-李如圭-event-shigong
+      - 刊布
+      - 世教
+    start_date: 约1185
+    highlight_event_id: guji-李如圭-event-jiaoli
   decisions:
-  - date: '1190-01-01'
-    title_zh: 据聘礼乡饮酒少牢证大夫士亦有左右房
-    rationale: 旧谓大夫士东房西室而已，据宾馆负右房荐出自左房等文当订正，言左对右言东对西其义乃同
+  - date: 约1175
+    title_zh: 全录郑康成注旁征博引
+    rationale: 贾公彦疏有未备，据古本唐石经陆氏释文张淳识误及各本辩证脱讹衍
+  - date: 约1180
+    title_zh: 别作纲目释宫以发明
+    rationale: 分别章句之指以明礼意，考论宫室之制以实礼象，使学者玩而绎之
+- id: guji-李如圭-endeavor-2
+  title_zh: 登第仕宦佐朱熹校定礼书
+  description_zh: 由进士入仕官至福建路抚干，以习礼闻，与朱熹往还校定礼书，裨益世教
+  phases:
+  - key: brewing
+    name: 庐陵力学应进士举
+    labels:
+      zh:
+      - 科举
+      - 礼学
+    start_date: 约1188
+    highlight_event_id: guji-李如圭-event-dengdi
+  - key: breakthrough
+    name: 绍熙癸丑登第入仕
+    labels:
+      zh:
+      - 登第
+      - 入仕
+    start_date: 1193
+    highlight_event_id: guji-李如圭-event-dengdi
+  - key: climax
+    name: 与朱熹校定礼书
+    labels:
+      zh:
+      - 校礼
+      - 会友
+    start_date: 约1196
+    highlight_event_id: guji-李如圭-event-jiaoli
+  - key: closure
+    name: 官福建路抚干以礼致用
+    labels:
+      zh:
+      - 抚干
+      - 致用
+    start_date: 约1198
+    highlight_event_id: guji-李如圭-event-fugan
+  decisions:
+  - date: 1193
+    title_zh: 应进士举通经致用
+    rationale: 以礼学素养应举入仕，求以礼之大经大本施于政教
+  - date: 约1196
+    title_zh: 与朱熹往还共定礼书
+    rationale: 朱熹尝与之校定礼书，盖以其习于礼，可正仪礼之讹而明先王盛化
 events:
 - id: guji-李如圭-event-birth
-  title_zh: 生于南宋
-  date: '1150-01-01'
-  year_of: 1150
-  kind: birth
-  description: 南宋士人，生地未详，长而专治礼经
+  title_zh: 生于庐陵
+  date: 约1160
+  year_of: 1160
+  description_zh: 宋绍兴末淳熙初生于庐陵，字宝之，少习礼经
 - id: guji-李如圭-event-jishi
-  title_zh: 撰成仪礼集释
-  date: '1180-01-01'
+  title_zh: 淳熙中撰成仪礼集释
+  date: 约1180
   year_of: 1180
-  kind: career
-  description: 为仪礼作集释，发明经义，羽翼郑康成注，后经朱子校定礼书
-- id: guji-李如圭-event-shigong
-  title_zh: 撰成仪礼释宫一卷
-  date: '1190-01-01'
-  year_of: 1190
-  kind: career
-  description: 本经稽注考宫室名制，辨宫庙门堂楹阶房室奥窔宧屋漏阖阈塾宁碑庭陈之位，陈汶序而刻于桂林郡学舍
+  description_zh: 淳熙中为仪礼集释，出入经传，又为纲目以别章句，为释宫以论宫室，陈汶序而刻之桂林郡学
+- id: guji-李如圭-event-dengdi
+  title_zh: 绍熙癸丑登进士第
+  date: 1193
+  year_of: 1193
+  description_zh: 疑为绍熙癸丑进士，陈振孙马端临误作淳熙绍兴癸丑，考淳熙无癸丑，绍兴癸丑太早，当从四库提要作绍熙癸丑
+- id: guji-李如圭-event-jiaoli
+  title_zh: 与朱熹校定礼书
+  date: 约1196
+  year_of: 1196
+  description_zh: 朱熹晚岁校正仪礼，李如圭以习于礼与其校定，于世教大有裨补
+- id: guji-李如圭-event-fugan
+  title_zh: 官至福建路抚干
+  date: 约1198
+  year_of: 1198
+  description_zh: 入仕后官至福建路抚干，以经术饰吏事
 - id: guji-李如圭-event-death
-  title_zh: 卒于南宋
-  date: '1210-01-01'
-  year_of: 1210
-  kind: death
-  description: 卒于南宋初，其书赖永乐大典所录宋本得以流传，四库据以著录
+  title_zh: 卒于南宋宁宗初
+  date: 约1220
+  year_of: 1220
+  description_zh: 卒年不详，约卒于宋宁宗初，集释及纲目释宫传于后，四库自永乐大典录出排纂成三十卷
