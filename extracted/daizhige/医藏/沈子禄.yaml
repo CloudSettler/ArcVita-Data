@@ -1,0 +1,132 @@
+person:
+  qid: guji-沈子禄
+  name_zh: 沈子禄
+  names:
+    zh: 沈子禄
+    en: Shen Zilu
+  lifespan:
+    birth:
+      date: 1530
+      precision: year
+      is_circa: true
+      raw: 明嘉靖中前后生年未详约计
+    death:
+      date: 1571
+      precision: year
+      is_circa: true
+      raw: 嘉靖末北还后郁郁病卒万历初前
+  birth_date: 1530
+  death_date: 1571
+  era: 明
+  reign_ref: 明嘉靖末至万历初
+  archetype: 医家
+  dilemmas:
+  - 计偕北上求遇与归而著书立言之抉择
+  - 引证繁复补益太过与删繁就简务求精要之权衡
+  lesson: 治病必先寻经络以洞视脏腑，著书贵博而更贵精。
+  summary_first_person: 吾沈子禄，字承之，明人，博治医经，一本内经及诸大家之说而时参己见，自巅放趾编成经脉分野，嘉靖末以编托友徐师曾订而序之，继而计偕北上居京师岁余无所遇而还，郁郁病卒，所著经徐伯鲁删校续以经络枢要，更名经络全书以传。
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%BB%9C%E7%BB%9C%E5%85%A8%E4%B9%A6.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%BB%8F%E7%BB%9C%E5%85%A8%E4%B9%A6.md
+endeavors:
+- id: guji-沈子禄-endeavor-1
+  title_zh: 编撰经脉分野洞视脏腑经络
+  summary: 自巅放趾条析分野，一本内经及诸家说参以己见，成经脉分野原编。
+  phases:
+  - key: brewing
+    name: 博览内经诸家酝酿分野
+    labels:
+      zh: 酝酿
+    start_date: 1555
+    highlight_event_id: guji-沈子禄-event-birth
+  - key: breakthrough
+    name: 自巅放趾初成体系
+    labels:
+      zh: 突破
+    start_date: 1560
+    highlight_event_id: guji-沈子禄-event-book
+  - key: climax
+    name: 嘉靖末示书托友订正
+    labels:
+      zh: 高潮
+    start_date: 1565
+    highlight_event_id: guji-沈子禄-event-book
+  - key: closure
+    name: 原编既成待后删校成全书
+    labels:
+      zh: 收束
+    start_date: 1566
+    highlight_event_id: guji-沈子禄-event-quanshu
+  decisions:
+  - date: 1560
+    title_zh: 以内经为本兼采诸大家
+    rationale: 欲使脏腑经络筋脉皆可洞视，故博治而不专一说。
+  - date: 1565
+    title_zh: 持编示徐师曾请订序
+    rationale: 自知引证繁复补益太过，故托深于医者删校以传后学。
+- id: guji-沈子禄-endeavor-2
+  title_zh: 计偕北上求遇不果而还
+  summary: 从计偕士赴京师居岁余无所遇，郁郁南还病卒。
+  phases:
+  - key: brewing
+    name: 嘉靖末束装从计偕行
+    labels:
+      zh: 酝酿
+    start_date: 1565
+    highlight_event_id: guji-沈子禄-event-book
+  - key: breakthrough
+    name: 抵京师居留求遇
+    labels:
+      zh: 突破
+    start_date: 1566
+    highlight_event_id: guji-沈子禄-event-jingshi
+  - key: climax
+    name: 岁余无遇郁郁南还
+    labels:
+      zh: 高潮
+    start_date: 1567
+    highlight_event_id: guji-沈子禄-event-jingshi
+  - key: closure
+    name: 还后抱病以卒书托后人
+    labels:
+      zh: 收束
+    start_date: 1570
+    highlight_event_id: guji-沈子禄-event-death
+  decisions:
+  - date: 1566
+    title_zh: 从计偕赴京师求仕
+    rationale: 欲以所学遇于时，故随计吏北上以求展布。
+  - date: 1567
+    title_zh: 无遇即决然南归
+    rationale: 久留无益不欲虚耗，宁归守医道著述以待后。
+events:
+- id: guji-沈子禄-event-birth
+  type: birth
+  title_zh: 沈子禄生
+  date: 1530
+  year_of: 1530
+  description: 明嘉靖中前后出生，生年未详约推于此，博治经史而深于医。
+- id: guji-沈子禄-event-book
+  type: career
+  title_zh: 嘉靖末撰成经脉分野托徐师曾订序
+  date: 1565
+  year_of: 1565
+  description: 自巅放趾条析分明成经脉分野一编，手示友人徐师曾请订而序之。
+- id: guji-沈子禄-event-jingshi
+  type: career
+  title_zh: 计偕赴京师岁余无遇南还
+  date: 1566
+  year_of: 1566
+  description: 从计偕士赴京师居岁余竟无所遇，郁郁不得志而南还。
+- id: guji-沈子禄-event-death
+  type: death
+  title_zh: 南还后郁郁病卒
+  date: 1571
+  year_of: 1571
+  description: 北还后郁郁病发以卒，所著经脉分野原编留待徐师曾受书卒业。
+- id: guji-沈子禄-event-quanshu
+  type: career
+  title_zh: 徐师曾删校续枢要成经络全书
+  date: 1576-05-15
+  year_of: 1576
+  description: 万历四年丙子五月望日吴江徐师曾删校原编复续经络枢要，更名经络全书以酬托付并缵先绪。
