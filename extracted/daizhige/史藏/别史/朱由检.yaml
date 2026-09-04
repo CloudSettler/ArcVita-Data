@@ -9,138 +9,159 @@ person:
       date: 1611-02-06
       precision: day
       is_circa: false
-      raw: 明万历三十八年十二月二十四日
+      raw: 万历三十八年十二月二十四日
     death:
       date: 1644-04-25
       precision: day
       is_circa: false
-      raw: 崇祯十七年三月十九日煤山自缢
+      raw: 崇祯十七年三月十九日
   birth_date: 1611-02-06
   death_date: 1644-04-25
   era: 明末
   reign_ref: 崇祯
-  archetype: 勤政殉国之亡国君
+  archetype: 勤政图治而终致亡国的守成之君
   dilemmas:
-  - 励精图治而绍天启糜烂之局难挽回
-  - 猜忌多疑致忠良难安而阉党东林交争不息
-  - 内忧流寇外患建虏而国用空虚两线难顾
-  lesson: 勤而不明断而不恒则虽宵衣旰食亦难救亡
-  summary_first_person: 朕以藩王入继大统，宵衣旰食十七年，黜魏忠贤而欲澄清吏治，惜国已病入膏肓，内寇外虏交迫，至煤山自缢以谢祖宗，惟愿后人知守国之重不在勤劳而在得人任贤
+  - 起用东林与调停众议之间的党争抉择
+  - 宽恤加派与筹措边饷之间的财政两难
+  - 联虏御敌与坚拒市赏之间的边政策略
+  lesson: 独断寡恩而法令屡更虽励精亦难挽倾颓当信赏必罚而持重久任
+  summary_first_person: 朕光宗第五子嗣兄熹宗而立初封信王即位即磔魏忠贤而毁要典起废旧臣欲为中兴然边饷交困东虏西寇并起虽宵衣旰食平台召对终以更调屡易民困兵哗而至宗社倾覆愧对祖宗臣民
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E5%B4%87%E7%A5%AF%E5%AE%9E%E5%BD%95.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E5%B4%87%E7%A5%AF%E5%AE%9E%E5%BD%95.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%98%8E%E5%AE%9E%E5%BD%95%E5%B4%87%E7%A5%AF%E5%AE%9E%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%98%8E%E5%AE%9E%E5%BD%95%E5%B4%87%E7%A5%AF%E5%AE%9E%E5%BD%95.md
 endeavors:
 - id: guji-朱由检-endeavor-1
-  title_zh: 即位澄清诏狱黜阉党
-  summary_zh: 天启末入继大统，停刑慎狱，罢魏忠贤而安置凤阳，撤各边内臣，重开经筵日讲以求治
+  title_zh: 剪除阉党重建朝纲
+  summary_zh: 即位后罢斥魏忠贤余党追夺诰敕起用东林旧人毁三朝要典以正国是
   phases:
   - key: brewing
-    name: 潜邸继统
+    name: 信王入继大统
     labels:
       zh:
-      - 藩王入继
-      - 丧礼定分
-    start_date: 1627-09-30
-    highlight_event_id: guji-朱由检-event-ascend
-  - key: breakthrough
-    name: 停刑开讲
-    labels:
-      zh:
-      - 停刑恤狱
-      - 日讲经筵
+      - 入继
+      - 潜邸
     start_date: 1627-10-02
-    highlight_event_id: guji-朱由检-event-ascend
+    highlight_event_id: guji-朱由检-event-enthroned
+  - key: breakthrough
+    name: 磔忠贤戮客氏
+    labels:
+      zh:
+      - 铲阉
+      - 正法
+    start_date: 1628-01-01
+    highlight_event_id: guji-朱由检-event-purge-eunuch
   - key: climax
-    name: 安置魏忠贤
+    name: 毁要典起废籍
     labels:
       zh:
-      - 去恶务尽
-      - 澄清阉党
-    start_date: 1627-12-01
-    highlight_event_id: guji-朱由检-event-purge-wei
+      - 毁书
+      - 起废
+    start_date: 1628-05-01
+    highlight_event_id: guji-朱由检-event-destroy-yaodian
   - key: closure
-    name: 撤镇守内臣
+    name: 平台召对敕久任
     labels:
       zh:
-      - 撤边镇内臣
-      - 朝纲稍振
-    start_date: 1627-10-28
-    highlight_event_id: guji-朱由检-event-purge-wei
+      - 召对
+      - 久任
+    start_date: 1628-06-01
+    highlight_event_id: guji-朱由检-event-purge-eunuch
   decisions:
-  - date: 1627-10-02
-    title_zh: 谕停刑慎狱
-    rationale: 初御极嘉与士大夫臻平康，不许揣摩风影致生枝蔓，以安人心
   - date: 1627-12-01
-    title_zh: 安置魏忠贤于凤阳
-    rationale: 闻去恶务尽人臣无将，严绳大憝以正朝纲
-  - date: 1627-10-28
-    title_zh: 尽撤各边内臣
-    rationale: 以王之臣言内臣牵制，尽撤以专边帅事权
+    title_zh: 发帑安置忠贤田宅为策勋府以待功臣
+    rationale: 示不私阉产而收武臣之心以明赏罚大公
+  - date: 1628-02-01
+    title_zh: 命磔魏忠贤尸斩崔呈秀尸戮客氏以快天下
+    rationale: 借明刑以泄群愤而断阉党复起之根
+  - date: 1628-05-01
+    title_zh: 命毁三朝要典不复增史馆私书
+    rationale: 以魏氏私书不可乱信史而伸东林冤抑以定是非
 - id: guji-朱由检-endeavor-2
-  title_zh: 宵衣图治守国殉社稷
-  summary_zh: 在位十七年勤政忧劳，核饷练兵应对辽东建虏与西北流寇，终北京陷落煤山自缢殉国
+  title_zh: 经略辽东整饬九边
+  summary_zh: 罢王之臣用袁崇焕督师关门汰兵节饷抚赏蒙古诸部以御清兵插汉
   phases:
   - key: brewing
-    name: 核饷练兵
+    name: 罢旧帅谋新局
     labels:
       zh:
-      - 核算边饷
-      - 整饬辽防
-    start_date: 1627-10-10
-    highlight_event_id: guji-朱由检-event-ascend
+      - 易帅
+      - 辽事
+    start_date: 1628-03-01
+    highlight_event_id: guji-朱由检-event-yuan-chonghuan
   - key: breakthrough
-    name: 崇祯勤政
+    name: 平台期五年平辽
     labels:
       zh:
-      - 宵衣旰食
-      - 频繁易相
-    start_date: 1628-01-01
-    highlight_event_id: guji-朱由检-event-purge-wei
+      - 召对
+      - 五年期
+    start_date: 1628-07-01
+    highlight_event_id: guji-朱由检-event-yuan-chonghuan
   - key: climax
-    name: 内外交困
+    name: 发帑给饷定军哗
     labels:
       zh:
-      - 流寇蔓延
-      - 建虏压境
-    start_date: 1643-01-01
-    highlight_event_id: guji-朱由检-event-death
+      - 发饷
+      - 宁远哗
+    start_date: 1628-08-01
+    highlight_event_id: guji-朱由检-event-ningyuan-mutiny
   - key: closure
-    name: 煤山殉国
+    name: 议抚赏联络朵颜
     labels:
       zh:
-      - 守国殉社稷
-      - 明室告终
-    start_date: 1644-04-25
-    highlight_event_id: guji-朱由检-event-death
+      - 抚赏
+      - 联虏
+    start_date: 1628-09-01
+    highlight_event_id: guji-朱由检-event-ningyuan-mutiny
   decisions:
-  - date: 1628-01-01
-    title_zh: 励精图治罢祠费开言路
-    rationale: 欲挽明季颓风，重爵赏敦名义以课职业
-  - date: 1644-04-25
-    title_zh: 不南迁守京师殉社稷
-    rationale: 君王守国门，朕死无面目见祖宗于地下，自去冠冕以发覆面任贼分裂朕尸勿伤百姓
+  - date: 1628-03-01
+    title_zh: 罢王之臣以袁崇焕督师蓟辽登莱天津
+    rationale: 以新帅锐气整顿关宁而图尺寸恢复辽土
+  - date: 1628-07-01
+    title_zh: 平台慰劳袁崇焕赐尚方剑许五年肃清边陲
+    rationale: 借专剑以重事权而系中外望治之心
+  - date: 1628-08-01
+    title_zh: 发帑金二十万并鼓铸十万以给锦宁哗军
+    rationale: 先安内变而后图外攘恐效尤蔓延九边
 events:
 - id: guji-朱由检-event-birth
-  title_zh: 生于紫禁城
+  title_zh: 生于北京皇宫
+  type: birth
   date: 1611-02-06
   year_of: 1611
-  place_zh: 北京紫禁城
-  description_zh: 明光宗第五子，天启七年以信王入继大统
-- id: guji-朱由检-event-ascend
-  title_zh: 天启七年九月即皇帝位改元崇祯
+  description_zh: 光宗第五子熹宗之弟初封信王
+- id: guji-朱由检-event-enthroned
+  title_zh: 嗣兄即位改元崇祯
+  type: career
   date: 1627-10-02
   year_of: 1627
-  place_zh: 北京紫禁城
-  description_zh: 熹宗宾天，信王由检嗣位，册立周氏为皇后，开经筵日讲，谕停刑
-- id: guji-朱由检-event-purge-wei
-  title_zh: 安置魏忠贤于凤阳尽撤边镇内臣
-  date: 1627-12-01
-  year_of: 1627
-  place_zh: 北京
-  description_zh: 以去恶务尽安置魏忠贤凤阳，许辞爵夺祠额，撤各边内臣以专督师事权
+  description_zh: 熹宗无子以信王入继大统御皇极殿受朝
+- id: guji-朱由检-event-purge-eunuch
+  title_zh: 磔魏忠贤尸戮客氏
+  type: career
+  date: 1628-02-01
+  year_of: 1628
+  description_zh: 法司追论魏忠贤等命磔尸河间斩崔呈秀于蓟州天下快之
+- id: guji-朱由检-event-destroy-yaodian
+  title_zh: 毁三朝要典
+  type: career
+  date: 1628-05-15
+  year_of: 1628
+  description_zh: 纳倪元璐请命礼部会史馆详议毁魏氏私书所撰要典
+- id: guji-朱由检-event-yuan-chonghuan
+  title_zh: 召袁崇焕平台对五年平辽
+  type: career
+  date: 1628-07-14
+  year_of: 1628
+  description_zh: 召袁崇焕于平台问何日可定对以五年肃清边陲赐尚方剑
+- id: guji-朱由检-event-ningyuan-mutiny
+  title_zh: 宁远军以欠饷而哗
+  type: career
+  date: 1628-08-01
+  year_of: 1628
+  description_zh: 宁远军四月无粮执巡抚毕自肃索饷五万袁崇焕至斩首恶十六人乃定
 - id: guji-朱由检-event-death
   title_zh: 煤山自缢殉国
+  type: death
   date: 1644-04-25
   year_of: 1644
-  place_zh: 北京煤山
-  description_zh: 李自成陷北京，崇祯帝自缢煤山，明亡，庙号怀宗谥庄烈愍皇帝
+  description_zh: 李自成陷京师帝自缢于煤山明亡
