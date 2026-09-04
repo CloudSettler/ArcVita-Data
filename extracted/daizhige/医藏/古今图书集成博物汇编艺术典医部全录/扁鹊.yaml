@@ -1,0 +1,126 @@
+person:
+  qid: guji-扁鹊
+  name_zh: 扁鹊
+  names:
+    zh: 扁鹊
+    en: Bian Que
+  lifespan:
+    birth:
+      date: '-0407'
+      precision: year
+      is_circa: true
+      raw: 约前四〇七年生
+    death:
+      date: '-0310'
+      precision: year
+      is_circa: true
+      raw: 约前三一〇年卒
+  birth_date: '-0407'
+  death_date: '-0310'
+  era: 战国
+  reign_ref: 晋昭公至秦武王时
+  archetype: 神医
+  dilemmas:
+  - 以诊脉为名藏透视之能，隐与显之难
+  - 直陈君疾取祸与阿谀取容之难
+  lesson: 精究色脉经络，兼修望闻问切，活人济世不计利害，方为良医
+  summary_first_person: 吾姓秦名越人，渤海鄚人也，少为舍长，遇长桑君得禁方，饮上池水三十日而能见垣一方人，以此视病尽见五脏症结，周游齐赵虢秦，起虢太子于尸蹶，论赵简子之大梦，见秦武王而陈其疾，天下皆谓我能生死人
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%8C%BB%E6%9C%AF%E5%90%8D%E6%B5%81%E5%88%97%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%8C%BB%E6%9C%AF%E5%90%8D%E6%B5%81%E5%88%97%E4%BC%A0.md
+endeavors:
+- id: guji-扁鹊-endeavor-1
+  title_zh: 承长桑禁方游行列国奠定医名
+  summary: 谨事长桑君十余年得禁方书，饮药洞见五脏，或在齐或在赵，以诊脉为名行医天下
+  phases:
+  - key: brewing
+    name: 舍长谨遇长桑君
+    labels:
+      zh: 谨遇异人
+    start_date: '-0420'
+    highlight_event_id: guji-扁鹊-event-meet-changsang
+  - key: breakthrough
+    name: 饮药知物以诊脉名世
+    labels:
+      zh: 医术大成
+    start_date: '-0410'
+    highlight_event_id: guji-扁鹊-event-diagnose-zhaojianzi
+  - key: climax
+    name: 论赵简子大疾而中
+    labels:
+      zh: 名扬晋赵
+    start_date: '-0400'
+    highlight_event_id: guji-扁鹊-event-diagnose-zhaojianzi
+  decisions:
+  - date: '-0410'
+    title_zh: 受长桑禁方不泄
+    rationale: 知非常人授非常方，守约不泄以全师道而得真传
+  - date: '-0400'
+    title_zh: 以诊脉为名隐透视之能
+    rationale: 恐骇俗招忌，故托脉色以言病，使人信而可传
+- id: guji-扁鹊-endeavor-2
+  title_zh: 起虢太子尸蹶谏秦武王显医国之道
+  summary: 过虢救太子于既死，过秦见武王而陈耳目之疾，投石而去，天下尽以我为能生死人
+  phases:
+  - key: brewing
+    name: 过虢闻太子死
+    labels:
+      zh: 虢宫问疾
+    start_date: -0395
+    highlight_event_id: guji-扁鹊-event-revive-prince
+  - key: climax
+    name: 针熨并施太子复生
+    labels:
+      zh: 起死回生
+    start_date: -0395
+    highlight_event_id: guji-扁鹊-event-revive-prince
+  - key: closure
+    name: 见秦武王陈病投石而去
+    labels:
+      zh: 直谏而退
+    start_date: '-0311'
+    highlight_event_id: guji-扁鹊-event-remonstrate-qin
+  decisions:
+  - date: -0395
+    title_zh: 断太子为尸蹶而非真死
+    rationale: 察耳鸣鼻张股温之候，知阳入阴之闭，故敢言可生
+  - date: '-0311'
+    title_zh: 请屏左右而后言君疾
+    rationale: 君病在耳目之间，左右多不知医，恐败事，故请除左右，言不行则去以全道
+events:
+- id: guji-扁鹊-event-birth
+  type: birth
+  title_zh: 扁鹊诞生于渤海鄚
+  date: '-0407'
+  year_of: -407
+  description: 秦越人诞生于渤海郡鄚地，后以扁鹊名世
+- id: guji-扁鹊-event-meet-changsang
+  type: career
+  title_zh: 谨事长桑君得禁方
+  date: '-0420'
+  year_of: -420
+  description: 少时为人舍长，谨遇舍客长桑君十余年，私坐受禁方，饮怀中药以上池水三十日而能视见垣一方人
+- id: guji-扁鹊-event-diagnose-zhaojianzi
+  type: career
+  title_zh: 诊赵简子五日不省人之疾
+  date: '-0400'
+  year_of: -400
+  description: 赵简子疾五日不知人，吾言血脉治也，不出三日必间，引秦穆公七日寤事为证，简子寤而赐田四万亩
+- id: guji-扁鹊-event-revive-prince
+  type: career
+  title_zh: 过虢起太子尸蹶
+  date: -0395
+  year_of: -395
+  description: 过虢闻太子死，自鸡鸣至今，断为尸蹶未死，使子阳厉针取外三阳五会，子豹五分熨治两胁，太子苏起，服汤二旬复故
+- id: guji-扁鹊-event-remonstrate-qin
+  type: career
+  title_zh: 见秦武王请除左右言疾
+  date: '-0311'
+  year_of: -311
+  description: 见秦武王示其病，请除左右，言君病在耳之前目之下，左右败谋，怒而投石去，喻知政当与知者谋
+- id: guji-扁鹊-event-death
+  type: death
+  title_zh: 扁鹊卒
+  date: '-0310'
+  year_of: -310
+  description: 周游列国以医名天下，后为嫉者所害而卒，医术由弟子子阳子豹等传后世
