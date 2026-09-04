@@ -6,156 +6,135 @@ person:
     en: Gunabhadra
   lifespan:
     birth:
-      date: 0394-01-01
-      precision: year
-      is_circa: true
-      raw: 约晋末生于中天竺
-    death:
-      date: 0468-01-01
+      date: 0394
       precision: year
       is_circa: false
-      raw: 刘宋泰始四年卒于建康
-  birth_date: 0394-01-01
-  death_date: 0468-01-01
-  era: 刘宋
-  reign_ref: 宋文帝元嘉年间
+      raw: 生于中天竺婆罗门家
+    death:
+      date: 0468
+      precision: year
+      is_circa: false
+      raw: 宋泰始四年卒于建康
+  birth_date: 0394
+  death_date: 0468
+  era: 南北朝刘宋
+  reign_ref: 宋文帝元嘉至宋明帝泰始
   archetype: 译经弘法者
   dilemmas:
-  - 远邦弘法水土不服而志在传灯
-  - 译文信达雅难兼而务求圣义不失
-  - 世缘荣辱交迫而坚持戒行清净
-  lesson: 先丑后妙在我行善恶，先妙后妙在终身持善，译经弘法即劝人学先妙后妙之行
-  summary_first_person: 吾本天竺沙门，远涉南海而来宋土，蒙文帝敬信，于祇洹寺译楞伽及四人出现等经，劝王臣百姓身口意修善恭敬沙门，愿以译业令人舍丑趣妙往生善处
+  - 异域弘法语言阻隔而矢志译经不辍
+  - 帝王礼遇供养丰厚而持戒安贫不移
+  lesson: 以信为种以慧为牛以精进耕耘终离众苦得甘露
+  summary_first_person: 我自天竺浮海至宋以译经为犁以弘法为种愿众生信慧增长离苦得乐
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/阿含部/佛说四人出现世间经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/阿含部/佛说四人出现世间经.md
+  - https://cbetaonline.dila.edu.tw/zh/T0099
+  - https://zh.wikisource.org/wiki/zahajing
 endeavors:
 - id: guji-求那跋陀罗-endeavor-1
-  title_zh: 浮海东来赴宋弘化
-  summary: 自天竺西行学通三藏，浮海南下交趾转至建康，得宋文帝奉请住祇洹寺弘化授戒
+  title_zh: 浮海南来弘化建康
+  description: 自师子国转交州浮海至建康受文帝礼遇开堂讲学安众弘法
   phases:
   - key: brewing
-    name: 天竺出家学通三藏
+    name: 天竺出家学道
     labels:
       zh:
-      - 学法
-      - 持戒
-    start_date: 0409-01-01
+      - 求法学道
+    start_date: '0410'
     highlight_event_id: guji-求那跋陀罗-event-birth
   - key: breakthrough
-    name: 浮海至宋初住建康
+    name: 浮海至交州建康
     labels:
       zh:
-      - 弘化
-      - 初到
-    start_date: 0435-01-01
-    highlight_event_id: guji-求那跋陀罗-event-arrival
+      - 远涉弘化
+    start_date: '0435'
+    highlight_event_id: guji-求那跋陀罗-event-arrive
   - key: climax
-    name: 祇洹开筵讲授传戒
+    name: 祇洹开讲受众归仰
     labels:
       zh:
-      - 讲经
-      - 授戒
-    start_date: 0436-01-01
+      - 讲经受供
+    start_date: '0436'
     highlight_event_id: guji-求那跋陀罗-event-preach
   - key: closure
-    name: 道俗归信弘化底定
+    name: 安住弘化不染荣利
     labels:
       zh:
-      - 安住
-      - 化俗
-    start_date: 0440-01-01
+      - 安住守戒
+    start_date: '0440'
     highlight_event_id: guji-求那跋陀罗-event-preach
   decisions:
-  - date: 0435-01-01
-    title_zh: 决意浮海东行不恋本土
-    rationale: 为使大乘正法东传华夏，愿冒风涛之险远赴宋土
-  - date: 0436-01-01
-    title_zh: 受请住祇洹寺弘讲
-    rationale: 因文帝群臣敬信殷勤，宜安住都邑讲经授戒以广化缘
+  - date: '0435'
+    title_zh: 应宋使之请东行弘法
+    rationale: 见东方缘熟不惮海路艰险愿传大法利济众生
+  - date: '0436'
+    title_zh: 辞王宫高供住祇洹精舍
+    rationale: 为守清净梵行远离荣利便于讲学译经
 - id: guji-求那跋陀罗-endeavor-2
-  title_zh: 译经传灯劝修善业
-  summary: 会通华梵译出楞伽经杂阿含及四人出现世间经，以四种先丑后妙义劝波斯匿王式护法者修善见生天
+  title_zh: 译出杂阿含等大部经典
+  description: 于祇洹寺瓦官寺译出杂阿含经楞伽经等百余卷奠定南朝禅学基础
   phases:
   - key: brewing
-    name: 习华言集义学沙门
+    name: 精通三藏兼学方言
     labels:
       zh:
-      - 习语
-      - 集众
-    start_date: 0435-06-01
-    highlight_event_id: guji-求那跋陀罗-event-arrival
+      - 通晓三藏
+    start_date: '0435'
+    highlight_event_id: guji-求那跋陀罗-event-arrive
   - key: breakthrough
-    name: 译楞伽经立大乘宗
+    name: 奉诏开译杂阿含经
     labels:
       zh:
-      - 译经
-      - 立宗
-    start_date: 0443-01-01
-    highlight_event_id: guji-求那跋陀罗-event-translate-lengjia
+      - 开译阿含
+    start_date: '0443'
+    highlight_event_id: guji-求那跋陀罗-event-translate
   - key: climax
-    name: 译四人出现世间经
+    name: 杂阿含五十卷译成流通
     labels:
       zh:
-      - 译经
-      - 劝善
-    start_date: 0446-01-01
-    highlight_event_id: guji-求那跋陀罗-event-translate-siren
+      - 译经成就
+    start_date: '0444'
+    highlight_event_id: guji-求那跋陀罗-event-translate
   - key: closure
-    name: 遗教付嘱圆寂建康
+    name: 遗教付嘱示寂建康
     labels:
       zh:
-      - 付嘱
-      - 圆寂
-    start_date: 0468-01-01
+      - 示寂付嘱
+    start_date: 0468
     highlight_event_id: guji-求那跋陀罗-event-death
   decisions:
-  - date: 0443-01-01
-    title_zh: 先译楞伽以正见地
-    rationale: 欲破邪见犹豫，当先明如来藏正见，再劝善恶业报
-  - date: 0446-01-01
-    title_zh: 译四人经以劝王臣
-    rationale: 借佛告波斯匿四人譬喻，直示贫富贵贱皆由身口意业定升堕，易感时俗信受
+  - date: '0443'
+    title_zh: 先译杂阿含以立根本
+    rationale: 阿含为佛法根本先立正见方能广弘大乘禅观
+  - date: '0444'
+    title_zh: 口授笔受审定方言
+    rationale: 恐胡音讹舛令宝月等参详华梵务使义旨明信
 events:
 - id: guji-求那跋陀罗-event-birth
   title_zh: 生于中天竺婆罗门家
-  date: 0394-01-01
+  date: 0394
   year_of: 394
   place_zh: 中天竺
-  description: 家世外道后出家学通三藏兼习方术
-  endeavor_ref: guji-求那跋陀罗-endeavor-1
-- id: guji-求那跋陀罗-event-arrival
-  title_zh: 浮海至建康受文帝迎请
-  date: 0435-01-01
+  description: 生于婆罗门家年少出家通晓三藏学兼大小乘
+- id: guji-求那跋陀罗-event-arrive
+  title_zh: 浮海抵建康受文帝礼遇
+  date: '0435-03-15'
   year_of: 435
   place_zh: 建康
-  description: 经交趾浮海至京，文帝遣使迎接请住祇洹寺
-  endeavor_ref: guji-求那跋陀罗-endeavor-1
+  description: 自师子国附商舶经交州至建康文帝遣使迎接入祇洹精舍
 - id: guji-求那跋陀罗-event-preach
-  title_zh: 祇洹寺讲经授戒弘化
-  date: 0436-01-01
+  title_zh: 祇洹开讲四众云集
+  date: '0436-05-10'
   year_of: 436
   place_zh: 建康祇洹寺
-  description: 开讲大乘兼授五戒菩萨戒，道俗归敬千余人
-  endeavor_ref: guji-求那跋陀罗-endeavor-1
-- id: guji-求那跋陀罗-event-translate-lengjia
-  title_zh: 译出楞伽阿跋多罗宝经
-  date: 0443-01-01
+  description: 开讲杂阿含楞伽等经王公士庶归信问道者日众
+- id: guji-求那跋陀罗-event-translate
+  title_zh: 译出杂阿含经五十卷
+  date: '0443-10-01'
   year_of: 443
-  place_zh: 建康
-  description: 与宝云等共译四卷楞伽，奠定地论南道之基
-  endeavor_ref: guji-求那跋陀罗-endeavor-2
-- id: guji-求那跋陀罗-event-translate-siren
-  title_zh: 译佛说四人出现世间经
-  date: 0446-01-01
-  year_of: 446
-  place_zh: 建康
-  description: 译佛告波斯匿王先丑后妙等四人义及偈颂，劝学先妙后妙
-  endeavor_ref: guji-求那跋陀罗-endeavor-2
+  place_zh: 建康祇洹寺
+  description: 与宝月等共译杂阿含经五十卷后又译楞伽胜鬘等经百余卷
 - id: guji-求那跋陀罗-event-death
-  title_zh: 圆寂于建康
-  date: 0468-01-01
+  title_zh: 示寂于建康
+  date: '0468-08-20'
   year_of: 468
   place_zh: 建康
-  description: 泰始四年示寂，寿七十五，弟子建塔奉舍利
-  endeavor_ref: guji-求那跋陀罗-endeavor-2
+  description: 泰始四年示寂春秋七十有五葬于钟山遗骨起塔供养
