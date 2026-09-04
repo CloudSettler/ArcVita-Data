@@ -8,125 +8,114 @@ person:
     birth:
       date: 0359
       precision: year
-      is_circa: true
-      raw: 约东晋兴宁三年生于天竺迦毗罗卫
+      is_circa: false
+      raw: 晋穆帝永和十五年生于北天竺
     death:
       date: 0429
       precision: year
       is_circa: false
-      raw: 刘宋元嘉六年寂于荆州
+      raw: 宋文帝元嘉六年寂于建康
   birth_date: 0359
   death_date: 0429
   era: 东晋刘宋
-  reign_ref: 晋孝武帝至宋文帝
-  archetype: 传译禅师
+  reign_ref: 东晋义熙刘宋元嘉
+  archetype: 弘禅译经者
   dilemmas:
-  - 长安纷扰中坚守禅律还是南下弘化
-  - 梵本直译与华人易解之间如何取舍
-  lesson: 身内皆有如来藏除灭烦恼即显佛性当信受持莫自轻鄙
-  summary_first_person: 吾自天竺渡海东来遍历长安庐山建康荆州译出如来藏华严诸经但愿众生开敷莲华中之化佛永离萎花得见光明
+  - title_zh: 持净戒与处俗谤之难
+    description: 坚守清净禅律不徇利养故屡遭谗嫉而仍以寂默化众
+  - title_zh: 顿入与渐引之衡
+    description: 既宗达摩多罗图大成于未象又存佛大先澄源引流之渐故并译详略以利钝利
+  lesson: 以禅智照寂相济立慈戒安般不净为初门令退住者得升进解脱
+  summary_first_person: 我本北天竺人东来弘法于庐山建康译出达摩多罗禅经立慈心净戒安般为方便以照寂兼修 degree 众出退住之缚
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A7%E6%96%B9%E7%AD%89%E5%A6%82%E6%9D%A5%E8%97%8F%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A7%E6%96%B9%E7%AD%89%E5%A6%82%E6%9D%A5%E8%97%8F%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T0618.md
+  - https://daizhige.org/T0618.html
 endeavors:
 - id: guji-佛陀跋陀罗-endeavor-1
-  title_zh: 译弘大方等如来藏经
-  summary_zh: 以九喻开显一切众生悉有如来藏
+  title_zh: 译出达摩多罗禅经立禅数宗要
+  description: 会合达摩多罗阖众篇于同道与佛大先渐次引流之说译为二卷广明退住升进决定
   phases:
   - key: brewing
-    name: 天竺习禅发愿东行
+    name: 长安庐山蓄志译禅
     labels:
-      zh: 酝酿
-    start_date: 0359
-    highlight_event_id: guji-佛陀跋陀罗-event-birth
+      zh:
+      - 蓄势
+      - 结缘
+    start_date: 0408
+    highlight_event_id: guji-佛陀跋陀罗-event-lushan
   - key: breakthrough
-    name: 长安庐山弘禅遇谤南下
+    name: 庐山建康译经成帙
     labels:
-      zh: 突破
-    start_date: '0410'
-    highlight_event_id: guji-佛陀跋陀罗-event-arrive
-  - key: climax
-    name: 荆州道场译出如来藏经
-    labels:
-      zh: 高潮
-    start_date: '0420'
+      zh:
+      - 突破
+      - 成帙
+    start_date: '0411'
     highlight_event_id: guji-佛陀跋陀罗-event-translate
-  - key: closure
-    name: 付嘱流通功德无量
+  - key: climax
+    name: 禅经流通师范后学
     labels:
-      zh: 收束
-    start_date: '0420'
+      zh:
+      - 高峰
+      - 流通
+    start_date: '0412'
     highlight_event_id: guji-佛陀跋陀罗-event-translate
   decisions:
   - date: '0410'
-    title_zh: 离长安南下庐山荆州
-    rationale: 避谗远祸全戒弘禅择清净道场以利译事
-  - date: '0420'
-    title_zh: 首译如来藏九喻普告大众
-    rationale: 欲令众生除烦恼蜂开佛知见速成正觉
+    title_zh: 舍制胜之论顺不言之辩
+    rationale: 感鸠摩耆婆所宣马鸣之业为山一篑故誓被僧那以至寂为任而专译禅经
+  - date: '0411'
+    title_zh: 并存达摩多罗佛大先详略两体
+    rationale: 达摩多罗开微言而崇体佛大先始自二道开甘露门故兼存以利大小根器
 - id: guji-佛陀跋陀罗-endeavor-2
-  title_zh: 重译华严弘传禅观
-  summary_zh: 于道场寺译出六十华严并传授禅法
+  title_zh: 庐山建康弘禅导众修证
+  description: 依慈心净戒安般不净次第教授学人令离退减住缚增益升进究竟解脱
   phases:
   - key: brewing
-    name: 建康结众习定
+    name: 慈戒摄心开甘露门
     labels:
-      zh: 酝酿
+      zh:
+      - 筑基
+      - 摄心
     start_date: '0411'
-    highlight_event_id: guji-佛陀跋陀罗-event-arrive
-  - key: breakthrough
-    name: 应请入荆州道场寺
-    labels:
-      zh: 突破
-    start_date: 0418
-    highlight_event_id: guji-佛陀跋陀罗-event-huayan
-  - key: climax
-    name: 译出六十卷华严经
-    labels:
-      zh: 高潮
-    start_date: 0418
-    highlight_event_id: guji-佛陀跋陀罗-event-huayan
+    highlight_event_id: guji-佛陀跋陀罗-event-teach
   - key: closure
-    name: 示寂荆州遗化不灭
+    name: 以禅智照寂付嘱后学
     labels:
-      zh: 收束
-    start_date: 0429
-    highlight_event_id: guji-佛陀跋陀罗-event-death
+      zh:
+      - 收束
+      - 付嘱
+    start_date: '0425'
+    highlight_event_id: guji-佛陀跋陀罗-event-teach
   decisions:
-  - date: 0418
-    title_zh: 受邀主持华严翻译
-    rationale: 补旧译之阙显毗卢法界缘起以利大乘根器
-  - date: '0425'
-    title_zh: 专弘禅数息观不缀
-    rationale: 以定资慧破烦恼摸令如来藏金像显现
+  - date: '0412'
+    title_zh: 先慈心后尸罗三昧次第教授
+    rationale: 三业之兴以禅智为宗机在摄会故先习慈息嗔次净戒生定以免驰乱退减
+  - date: '0420'
+    title_zh: 守清净律不徇众请
+    rationale: 味著现法利养能覆禅慧故宁失利养不坏尸罗以全升进解脱之道
 events:
 - id: guji-佛陀跋陀罗-event-birth
   date: 0359
   year_of: 359
-  title_zh: 生于天竺迦毗罗卫
-  description_zh: 东晋兴宁年间生于北天竺少出家习禅律通三藏
-  location_zh: 天竺迦毗罗卫
-- id: guji-佛陀跋陀罗-event-arrive
-  date: '0405'
-  year_of: 405
-  title_zh: 泛海至长安弘化
-  description_zh: 与智严宝云等东来至长安后与鸠摩罗什译场小异南下庐山受慧远敬礼
-  location_zh: 长安
-- id: guji-佛陀跋陀罗-event-huayan
-  date: 0418
-  year_of: 418
-  title_zh: 荆州译出大方广佛华严经
-  description_zh: 于荆州道场寺译出六十卷华严为后世法界宗所依
-  location_zh: 荆州道场寺
+  title_zh: 生于北天竺迦毗罗卫
+  description: 生于释种之家少出家博通三藏尤精禅律
+- id: guji-佛陀跋陀罗-event-lushan
+  date: 0408
+  year_of: 408
+  title_zh: 至庐山与慧远结缘弘禅
+  description: 自长安南下庐山为远公所敬众仰其禅德请译禅经
 - id: guji-佛陀跋陀罗-event-translate
-  date: '0420'
-  year_of: 420
-  title_zh: 译出大方等如来藏经
-  description_zh: 于扬州荆州间译出如来藏经演莲华萎变蜂蜜粳糠真金宝藏庵罗金像贫女怀子铸像九喻明众生皆有佛性
-  location_zh: 荆州
+  date: '0411'
+  year_of: 411
+  title_zh: 译出达摩多罗禅经上下二卷
+  description: 于庐山建康译出此经明二甘露门方便胜道及退住升进决定之相
+- id: guji-佛陀跋陀罗-event-teach
+  date: '0415'
+  year_of: 415
+  title_zh: 建康教授安般不净导众升进
+  description: 教众系心鼻端觉知冷暖轻重等触历十六胜行入无尽法门
 - id: guji-佛陀跋陀罗-event-death
   date: 0429
   year_of: 429
-  title_zh: 寂于荆州
-  description_zh: 刘宋元嘉六年示寂世寿七十一译经垂范禅教并行
-  location_zh: 荆州
+  title_zh: 圆寂于建康
+  description: 以禅智化世既毕终于建康禅众传其慧灯次第授受
