@@ -8,126 +8,131 @@ person:
     birth:
       date: '0711'
       precision: year
-      is_circa: false
-      raw: 唐景云二年江陵诞生
+      is_circa: true
+      raw: 以建中三年春秋七十二逆推约开元十九年生于晋陵荆溪
     death:
-      date: 0782
-      precision: year
+      date: '0782-02-05'
+      precision: day
       is_circa: false
-      raw: 唐建中三年国清示寂
+      raw: 唐建中三年二月五日云灭于佛陇道场
   birth_date: '0711'
-  death_date: 0782
+  death_date: '0782-02-05'
   era: 唐
-  reign_ref: 唐玄宗至唐代宗
-  archetype: 弘教宗师
+  reign_ref: 建中
+  archetype: 祖述弘法型
   dilemmas:
-  - 身危法丧之间当奉法全身还是徇法忘身
-  - 玄记博深后进难窥当繁述还是略举
-  - 先德已详大科不举与诸生未达小疑必疏如何权衡
-  lesson: 因签以释思逸功倍，观象得意俾昏作明，善继其宗方能永代不朽
-  summary_first_person: 吾荆溪湛然，孩提秀发，志学名成，渊解得于自心，博赡振于先达，从左溪而悟天台，居国清毗坛而弘一乘，昔于台岭随问签录，晚还毗坛添饰管见，述闻兼寻经论，愿后进因签得窥玄记之深，不忘于本以天台命家
+  - 广疏旨远辞繁初学难入与不失旧则之间如何取舍
+  - 笔削宗典恐乖师心与策励后昆之间如何决断
+  lesson: 祖述贵在存义翦繁带义必存言繁则翦则简要流行而冥契先旨
+  summary_first_person: 吾姓戚氏世居晋陵荆溪二十余从左溪受经天宝初登戒后居天台敷演止观晚以智者广疏繁广削净辞为十轴与旧偕行冀后学离谬
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/论藏/经疏部/法华玄义释签.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/论藏/经疏部/法华玄义释签.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E7%BB%B4%E6%91%A9%E7%BB%8F%E7%95%A5%E7%96%8F%E5%9E%82%E8%A3%95%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E7%BB%B4%E6%91%A9%E7%BB%8F%E7%95%A5%E7%96%8F%E5%9E%82%E8%A3%95%E8%AE%B0.md
 endeavors:
 - id: guji-湛然-endeavor-1
-  title_zh: 中兴天台弘传一乘
-  summary: 依止左溪玄朗，继承智者大师，居国清弘定慧，避乱传法不辍
+  title_zh: 纂承天台敷演止观
+  summary_zh: 承智者法胤内澄观照外阐训辞居天台佛陇化导四方辑纂教法决前疑开后滞
   phases:
   - key: brewing
-    name: 孩提志学从师访道
+    name: 荆溪从学
     labels:
-      zh: 求学问道
-    start_date: 0719
-    highlight_event_id: guji-湛然-event-study
-  - key: breakthrough
-    name: 依止玄朗得天台宗旨
-    labels:
-      zh: 承宗悟解
+      zh: 受经左溪
     start_date: '0731'
     highlight_event_id: guji-湛然-event-study
+  - key: breakthrough
+    name: 登戒禀律
+    labels:
+      zh: 天宝登僧籍禀律昙一
+    start_date: '0742'
+    highlight_event_id: guji-湛然-event-ordination
   - key: climax
-    name: 居国清毗坛盛弘定慧
+    name: 居台敷化
     labels:
-      zh: 弘法盛席
-    start_date: '0751'
-    highlight_event_id: guji-湛然-event-preach
+      zh: 居天台修禅讲止观
+    start_date: '0750'
+    highlight_event_id: guji-湛然-event-teach
   - key: closure
-    name: 海山避难犹请益悦随
+    name: 佛陇示寂
     labels:
-      zh: 患难传灯
-    start_date: 0759
-    highlight_event_id: guji-湛然-event-preach
+      zh: 建中示寂塔院传法
+    start_date: '0782-02-05'
+    highlight_event_id: guji-湛然-event-death
   decisions:
-  - date: '0731'
-    title_zh: 年二十依左溪玄朗学天台
-    rationale: 无适不可以虚受人，欲得自心渊解振先达博赡，故往从玄朗咨决一乘
-  - date: '0751'
-    title_zh: 住国清弘法开众讲演
-    rationale: 十子既往幽赞在人，惟三转一乘载导，故盛席弘宣令从者如云
+  - date: '0742'
+    title_zh: 依律登戒专宗天台
+    rationale: 以戒为基以止观为宗方能内照澄明外训来蒙故辞征不就安居弘道
+  - date: '0750'
+    title_zh: 居佛陇敷行止观
+    rationale: 智者道场因缘殊胜居此讲演最能续法胤而利群机故终老台山
 - id: guji-湛然-endeavor-2
-  title_zh: 台岭签录毗坛释玄
-  summary: 台岭随问签下所录，晚还毗坛添饰成十卷释签，以释智者玄义本迹奥旨
+  title_zh: 删繁翦芜成净名略疏
+  summary_zh: 愍缁素病广疏繁广带义必存言繁则翦削净辞合十轴与前部偕行求征坟堂而后成书
   phases:
   - key: brewing
-    name: 台岭随问签下初录
+    name: 愍众病繁
     labels:
-      zh: 随问签记
-    start_date: 0759
-    highlight_event_id: guji-湛然-event-compose
+      zh: 缁素倾慕咸病繁广
+    start_date: '0760'
+    highlight_event_id: guji-湛然-event-teach
   - key: breakthrough
-    name: 晚还毗坛添饰管见
+    name: 发心删略
     labels:
-      zh: 寻究补述
-    start_date: '0766'
-    highlight_event_id: guji-湛然-event-compose
+      zh: 因旧就之伸教存要
+    start_date: '0763'
+    highlight_event_id: guji-湛然-event-compile
   - key: climax
-    name: 十卷释签顺学成书
+    name: 略疏告成
     labels:
-      zh: 释签解玄
-    start_date: 0768
-    highlight_event_id: guji-湛然-event-compose
+      zh: 甲辰夏归佛陇疏成十轴
+    start_date: '0764'
+    highlight_event_id: guji-湛然-event-compile
   - key: closure
-    name: 呈露后贤劝信传授
+    name: 偕行利后
     labels:
-      zh: 传付后进
-    start_date: '0770'
-    highlight_event_id: guji-湛然-event-compose
+      zh: 广略偕行垂裕后昆
+    start_date: '0764'
+    highlight_event_id: guji-湛然-event-compile
   decisions:
-  - date: '0766'
-    title_zh: 还毗坛寻究文势生起细分节句逗
-    rationale: 初录不暇寻究，后进难窥蒙求尚壅，故辄添肤饰裨以管见令思逸功倍
-  - date: 0768
-    title_zh: 以天台命家善继其宗立十卷释签
-    rationale: 先德虽详大科不举，诸生未达小疑必疏，故不忘于本顺学释签令昏作明
+  - date: '0763'
+    title_zh: 削取净辞别为略本
+    rationale: 嗜简者病繁玩精者遗粗故存旧则而翦繁辞使好略者从新好广者寻旧
+  - date: '0763'
+    title_zh: 坟堂求征以准师心
+    rationale: 自视识闇才短恐失元规故诣塔所求征无留碍则知冥符先旨方敢速终以杜谤励后
 events:
 - id: guji-湛然-event-birth
-  title_zh: 江陵诞生
+  title_zh: 生于晋陵荆溪戚氏
   date: '0711'
   year_of: 711
-  description: 唐景云二年生于荆州江陵，孩提秀发志学名成
-  location_zh: 江陵
+  place_zh: 常州晋陵荆溪
+  description_zh: 姓戚氏世居晋陵之荆溪以建中三年春秋七十二逆推约开元十九年生
 - id: guji-湛然-event-study
-  title_zh: 从左溪玄朗受天台教
+  title_zh: 二十余受经于左溪
   date: '0731'
   year_of: 731
-  description: 年二十依止左溪玄朗，渊解自心博赡振先达，尽得天台定慧之旨
-  location_zh: 左溪
-- id: guji-湛然-event-preach
-  title_zh: 居国清毗坛弘法
-  date: '0751'
-  year_of: 751
-  description: 自毗坛至于国清其从如云，昼夜流泻弘宣佛乘，岛夷作难犹徇法岩宇不辍请益
-  location_zh: 天台国清
-- id: guji-湛然-event-compose
-  title_zh: 台岭签录毗坛成释签十卷
-  date: 0768
-  year_of: 768
-  description: 昔于台岭随问签录，晚还毗坛添饰而成法华玄义释签十卷，以释本迹十妙奥旨
-  location_zh: 毗坛
+  place_zh: 左溪
+  description_zh: 以处士从道学二十余受经于左溪悦随学众得天台旨趣
+- id: guji-湛然-event-ordination
+  title_zh: 天宝初登僧籍禀律
+  date: '0742'
+  year_of: 742
+  place_zh: 会稽
+  description_zh: 时年三十七方登僧籍遂禀律于会稽昙一律师始居吴郡晋陵中诣五台后居天台
+- id: guji-湛然-event-teach
+  title_zh: 居天台佛陇敷演止观
+  date: '0755'
+  year_of: 755
+  place_zh: 天台佛陇修禅寺
+  description_zh: 纂智者法胤探毗耶妙赜外阐其训内澄其照学者望涯如归辑纂教法明决前疑
+- id: guji-湛然-event-compile
+  title_zh: 削广疏成净名略疏十轴
+  date: '0764'
+  year_of: 764
+  place_zh: 天台佛陇
+  description_zh: 甲辰岁自晋陵归佛陇之夏削其净辞合为十轴不失旧则其义惟明与前部偕行号净名略疏
 - id: guji-湛然-event-death
-  title_zh: 国清示寂
-  date: 0782
+  title_zh: 示寂于佛陇道场
+  date: '0782-02-05'
   year_of: 782
-  description: 唐建中三年寂于天台国清，临终示相灭后应验，具如别传所载
-  location_zh: 天台国清
+  place_zh: 天台佛陇道场
+  description_zh: 以唐建中三年二月五日云灭于佛陇道场春秋七十二法腊三十四
