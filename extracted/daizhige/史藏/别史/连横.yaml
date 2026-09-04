@@ -1,0 +1,138 @@
+person:
+  qid: guji-连横
+  name_zh: 连横
+  names:
+    zh: 连横
+    en: Lian Heng
+  lifespan:
+    birth:
+      date: '1878-02-17'
+      precision: day
+      is_circa: false
+      raw: 光绪四年正月十五
+    death:
+      date: '1936-06-28'
+      precision: day
+      is_circa: false
+      raw: 民国二十五年六月二十八日
+  birth_date: '1878-02-17'
+  death_date: '1936-06-28'
+  era: 清末民国
+  reign_ref: 光绪至民国
+  archetype: 史家
+  dilemmas:
+  - 失地之后以笔存史或缄默自全之抉择
+  - 孤史无前例而宁详毋略或宁略存体之权衡
+  lesson: 土地虽失而文化不灭则民族复兴可期
+  summary_first_person: 吾以台湾遗民自任网罗旧籍博采遗闻成通史八十八篇以存千二百年文献
+  source_urls:
+  - https://daizhige.org/史藏/別史/台灣通史.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/別史/台灣通史.md
+endeavors:
+- id: guji-连横-endeavor-1
+  title_zh: 纂修台湾通史
+  summary: 始隋大业终清光绪网罗旧籍旁及西书以纪志传存台湾文献
+  phases:
+  - key: brewing
+    name: 搜罗文献
+    labels:
+      zh: 酝酿
+    start_date: '1908-01-01'
+    highlight_event_id: guji-连横-event-collect
+  - key: breakthrough
+    name: 发凡起例
+    labels:
+      zh: 突破
+    start_date: '1915-01-01'
+    highlight_event_id: guji-连横-event-start
+  - key: climax
+    name: 全稿告成
+    labels:
+      zh: 高潮
+    start_date: '1918-01-01'
+    highlight_event_id: guji-连横-event-complete
+  - key: closure
+    name: 刊行传世
+    labels:
+      zh: 收束
+    start_date: '1920-01-01'
+    highlight_event_id: guji-连横-event-publish
+  decisions:
+  - date: '1915-01-01'
+    title_zh: 断限隋大业至清光绪作通史
+    rationale: 追溯秦汉而以千二百九十年为纲以成通贯之局
+  - date: '1918-01-01'
+    title_zh: 仿龙门纪志传而详民生
+    rationale: 以民为邦本于民事特详宁详毋略宁取毋弃
+- id: guji-连横-endeavor-2
+  title_zh: 办报著述存民族文化
+  summary: 办报执论撰台湾诗乘语典以诗文语言存民族精神
+  phases:
+  - key: brewing
+    name: 执笔报界
+    labels:
+      zh: 酝酿
+    start_date: '1905-01-01'
+    highlight_event_id: guji-连横-event-collect
+  - key: breakthrough
+    name: 诗文并作
+    labels:
+      zh: 突破
+    start_date: '1921-01-01'
+    highlight_event_id: guji-连横-event-complete
+  - key: climax
+    name: 语典诗乘并刊
+    labels:
+      zh: 高潮
+    start_date: '1933-01-01'
+    highlight_event_id: guji-连横-event-publish
+  - key: closure
+    name: 遣子内渡效命宗邦
+    labels:
+      zh: 收束
+    start_date: '1933-01-01'
+    highlight_event_id: guji-连横-event-publish
+  decisions:
+  - date: '1905-01-01'
+    title_zh: 入报馆以言论启民智
+    rationale: 失地之后欲以文论存故国之思激发正气
+  - date: '1933-01-01'
+    title_zh: 命子震东回国效命
+    rationale: 不欲其永居异域长为化外之民当效命宗邦
+events:
+- id: guji-连横-event-birth
+  title_zh: 出生于台南
+  date: '1878-02-17'
+  year_of: 1878
+  description: 光绪四年正月十五生于台湾府宁南坊马兵营故号雅堂
+  type: birth
+- id: guji-连横-event-collect
+  title_zh: 搜采岛中文献档案
+  date: '1908-01-01'
+  year_of: 1908
+  description: 历十余年网罗旧籍博采遗闻旁及西书参以档案为通史备料
+  endeavor_ref: guji-连横-endeavor-1
+- id: guji-连横-event-start
+  title_zh: 发凡起例着手纂史
+  date: '1915-01-01'
+  year_of: 1915
+  description: 定纪四志二十四传六十之例始隋大业元年以迄光绪二十一年
+  endeavor_ref: guji-连横-endeavor-1
+- id: guji-连横-event-complete
+  title_zh: 台湾通史全稿告成
+  date: '1918-01-01'
+  year_of: 1918
+  description: 凡千二百九十年之事具于八十八篇巨细毕举无漏无蔓
+  endeavor_ref: guji-连横-endeavor-1
+- id: guji-连横-event-publish
+  title_zh: 台湾通史刊行
+  date: '1920-01-01'
+  year_of: 1920
+  description: 初刊于台湾章炳麟徐珂等为序以子长孟坚之识为船山亭林之文称之
+  endeavor_ref: guji-连横-endeavor-1
+- id: guji-连横-event-death
+  title_zh: 病逝于上海
+  date: '1936-06-28'
+  year_of: 1936
+  description: 民国二十五年六月二十八日卒不及见台湾重光其作随乡邦重光而重刊
+  type: death
