@@ -1,0 +1,136 @@
+person:
+  qid: guji-李光地
+  name_zh: 李光地
+  names:
+    zh: 李光地
+    en: Li Guangdi
+  lifespan:
+    birth:
+      date: 1642
+      precision: year
+      is_circa: false
+      raw: 崇祯十五年
+    death:
+      date: 1718
+      precision: year
+      is_circa: false
+      raw: 康熙五十七年
+  birth_date: 1642
+  death_date: 1718
+  era: 清
+  reign_ref: 康熙
+  archetype: 以朱子学辅政之儒臣
+  dilemmas:
+  - 朱子说礼参差散见文集语类猝不得端绪如何分类纂集使秩然有理
+  - 古经残阙时制沿革失意如何会通古今删修节文以成可行之教
+  lesson: 会通散见之说以明礼之统贯提其要以及其详使贫贱者亦得具其大节
+  summary_first_person: 我服膺朱子于其仪礼经传通解家礼二书之外遍搜文集语类说礼之条分为总论冠昏丧祭杂仪五目纂为五卷冀使散见之言缕析条分秩然有理以助学者践履以备朝廷制作之资
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E6%9C%B1%E5%AD%90%E7%A4%BC%E7%BA%82.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E6%9C%B1%E5%AD%90%E7%A4%BC%E7%BA%82.html
+endeavors:
+- id: guji-李光地-endeavor-1
+  title_zh: 纂集朱子礼纂五卷
+  summary_zh: 于朱子仪礼经传通解家礼二书外采文集语类说礼之条分为总论冠昏丧祭杂仪缕析条分具有统贯
+  phases:
+  - key: brewing
+    name: 遍搜文集语类散条
+    labels:
+      zh:
+      - 蒐集散见
+    start_date: 1690
+    highlight_event_id: guji-李光地-event-1
+  - key: breakthrough
+    name: 定总论冠昏丧祭杂仪五目
+    labels:
+      zh:
+      - 分类立纲
+    start_date: 1700
+    highlight_event_id: guji-李光地-event-1
+  - key: climax
+    name: 缕析条分成五卷进呈
+    labels:
+      zh:
+      - 纂成进呈
+    start_date: 1705
+    highlight_event_id: guji-李光地-event-1
+  - key: closure
+    name: 列入四库杂礼书之属垂久
+    labels:
+      zh:
+      - 垂之永久
+    start_date: 1710
+    highlight_event_id: guji-李光地-event-1
+  decisions:
+  - date: 1700
+    title_zh: 于通解家礼外别为纂集
+    rationale: 朱子说礼参差散见欲类聚区分使学者得其端绪
+  - date: 1705
+    title_zh: 分五目举纲张目
+    rationale: 使览者得提其要以及其详行者虽贫贱亦得具大节
+- id: guji-李光地-endeavor-2
+  title_zh: 以理学事康熙朝官至大学士
+  summary_zh: 康熙九年成进士入翰林以程朱实学备经筵顾问参赞机务推明礼乐制作兴废
+  phases:
+  - key: brewing
+    name: 登进士入翰林讲学
+    labels:
+      zh:
+      - 立朝讲学
+    start_date: 1670
+    highlight_event_id: guji-李光地-event-2
+  - key: breakthrough
+    name: 以朱子学正宗陈奏经筵
+    labels:
+      zh:
+      - 明道正宗
+    start_date: 1681
+    highlight_event_id: guji-李光地-event-2
+  - key: climax
+    name: 拜大学士以礼经辅政
+    labels:
+      zh:
+      - 辅政经世
+    start_date: 1705
+    highlight_event_id: guji-李光地-event-1
+  - key: closure
+    name: 身后谥文贞配享孔庙
+    labels:
+      zh:
+      - 盖棺定论
+    start_date: 1718
+    highlight_event_id: guji-李光地-event-death
+  decisions:
+  - date: 1681
+    title_zh: 持程朱正学以事君
+    rationale: 欲以实学兴废坠为圣朝制作之助
+  - date: 1705
+    title_zh: 以礼纂之学备顾问
+    rationale: 朝廷制作需稽古礼故述朱子成说以献
+events:
+- id: guji-李光地-event-birth
+  date: 1642
+  year_of: 1642
+  title_zh: 生于福建安溪
+  kind: birth
+  description_zh: 崇祯十五年生于闽中安溪李氏幼承家学服膺程朱
+- id: guji-李光地-event-2
+  date: 1670
+  year_of: 1670
+  title_zh: 康熙九年成进士入仕
+  kind: career
+  description_zh: 登进士入翰林后以理学受知康熙备经筵讲官渐跻卿贰
+  related_endeavor_id: guji-李光地-endeavor-2
+- id: guji-李光地-event-1
+  date: 1705
+  year_of: 1705
+  title_zh: 纂成朱子礼纂五卷
+  kind: career
+  description_zh: 国朝李光地撰于通解家礼二书外采文集语类说礼之条分为总论冠昏丧祭杂仪大学士李光地撰以进
+  related_endeavor_id: guji-李光地-endeavor-1
+- id: guji-李光地-event-death
+  date: 1718
+  year_of: 1718
+  title_zh: 卒于京师谥文贞
+  kind: death
+  description_zh: 康熙五十七年卒于官后以理学名臣配享孔庙所纂礼书列入四库
