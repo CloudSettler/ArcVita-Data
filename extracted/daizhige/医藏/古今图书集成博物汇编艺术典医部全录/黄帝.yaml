@@ -6,124 +6,123 @@ person:
     en: Huangdi
   lifespan:
     birth:
-      date: '-2697'
+      date: -2697
       precision: year
       is_circa: true
-      raw: 约公元前二千六百九十七年生于姬水
+      raw: 约公元前二六九七年有熊诞生
     death:
-      date: '-2598'
+      date: -2599
       precision: year
       is_circa: true
-      raw: 约公元前二千五百九十八年崩
-  birth_date: '-2697'
-  death_date: '-2598'
-  era: 上古五帝
-  reign_ref: 黄帝有熊氏
-  archetype: 圣王求道者
+      raw: 约公元前二五九九年葬桥山
+  birth_date: -2697
+  death_date: -2599
+  era: 上古
+  reign_ref: 轩辕有熊氏
+  archetype: 开创圣王
   dilemmas:
-  - 天道高远如迎浮云若视深渊何以得闻六六之节盛衰之时
-  - 天地胜复不形于诊何以候运气之变而保民生化各全天命
-  lesson: 因天之序移光定位顺五运六气之纪以和阴阳济苍生
-  summary_first_person: 吾坐明堂始正天纲临观八极考建五常请天师岐伯鬼臾区而问五运六气上下左右之道欲通天地阴阳使民苛疾不起各保天命
+  - 子万民收租税而民多疾病当何以救济
+  - 毒药砭石峻烈伤正当何以通经调气
+  - 经脉逆顺出入之会幽微难明当何以立法传后
+  lesson: 哀民生疾以微针通经调气立经纪明补泻以传后世
+  summary_first_person: 余子万民养百姓哀其不给而有疾病欲勿使被毒药无用砭石以微针通经脉调血气营逆顺出入之会先立针经传于后世
   source_urls:
-  - https://daizhige.org/医藏/古今图书集成博物汇编艺术典医部全录/运气门.html
+  - https://daizhige.org/黄帝灵枢经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/黄帝灵枢经.md
 endeavors:
 - id: guji-黄帝-endeavor-1
-  title_zh: 坐明堂考建五运六气
-  summary_zh: 正天纲观八极问五运行大论定司天在泉上下左右之纪
+  title_zh: 养民收税哀疾立经
+  summary: 子万民养百姓因疾病不能力田而欲立微针之法传后世
   phases:
   - key: brewing
-    name: 坐明堂正天纲
+    name: 设井制亩养民
     labels:
-      zh:
-      - 明堂问道
-    start_date: '-2650'
-    highlight_event_id: guji-黄帝-event-1
+      zh: 养民
+    start_date: -2697
+    highlight_event_id: guji-黄帝-event-birth
   - key: breakthrough
-    name: 得闻太始天元册
+    name: 哀疾欲废毒药砭石
     labels:
-      zh:
-      - 天象推运
-    start_date: '-2649'
-    highlight_event_id: guji-黄帝-event-1
+      zh: 哀疾
+    start_date: -2690
+    highlight_event_id: guji-黄帝-event-ask-qibo
   - key: climax
-    name: 明上下左右之纪
+    name: 问岐伯先立针经
     labels:
-      zh:
-      - 六气定位
-    start_date: '-2648'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 立经
+    start_date: -2690
+    highlight_event_id: guji-黄帝-event-ask-qibo
   - key: closure
-    name: 定胜复候民病之法
+    name: 明经纪终而不灭
     labels:
-      zh:
-      - 垂法全录
-    start_date: '-2647'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 传后
+    start_date: -2689
+    highlight_event_id: guji-黄帝-event-nine-needles
   decisions:
-  - date: '-2650'
-    title_zh: 请天师问动静之纪
-    rationale: 天地之动静神明为纪欲考五常先正度数八极以立其本
-  - date: '-2648'
-    title_zh: 复问上下左右间气
-    rationale: 司天在泉左右间气纪步不通则不能言死生逆顺故再咨岐伯
+  - date: -2690
+    title_zh: 勿使被毒药无用砭石
+    rationale: 毒药攻疾砭石泄邪皆攻泻伤正故欲以微针调养血气
+  - date: -2690
+    title_zh: 先立针经异章别表里
+    rationale: 必明为法令易用难忘久而不绝故经纪终始各有形
 - id: guji-黄帝-endeavor-2
-  title_zh: 询六微旨以合民病养生
-  summary_zh: 问六六之节盛衰之时合五方五气五脏于人民万物以治病养生
+  title_zh: 推九针明虚实补泻
+  summary: 推小针之要守神守机明九针形用别五腧逆顺以行补泻
   phases:
   - key: brewing
-    name: 叹天道远而难测
+    name: 询小针易陈难入
     labels:
-      zh:
-      - 忧思天道
-    start_date: '-2646'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 问道
+    start_date: -2690
+    highlight_event_id: guji-黄帝-event-ask-qibo
   - key: breakthrough
-    name: 闻因天之序盛衰之时
+    name: 得粗守形上守神之旨
     labels:
-      zh:
-      - 六微受旨
-    start_date: '-2645'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 守神
+    start_date: -2689
+    highlight_event_id: guji-黄帝-event-nine-needles
   - key: climax
-    name: 合五气于五脏五味
+    name: 制九针各不同形各任所宜
     labels:
-      zh:
-      - 五气生化
-    start_date: '-2644'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 九针
+    start_date: -2689
+    highlight_event_id: guji-黄帝-event-nine-needles
   - key: closure
-    name: 诏主岁太过不及之制
+    name: 定五脏六腑五腧之制
     labels:
-      zh:
-      - 制化垂宪
-    start_date: '-2643'
-    highlight_event_id: guji-黄帝-event-2
+      zh: 腧穴
+    start_date: -2688
+    highlight_event_id: guji-黄帝-event-five-shu
   decisions:
-  - date: '-2646'
-    title_zh: 稽首问六微旨大论
-    rationale: 浮云难迎深渊可测欲尽闻天道久而不绝故溢志尽言以求之
-  - date: '-2644'
-    title_zh: 推五气合人以立法
-    rationale: 东风南风湿燥寒分主五脏欲使人顺四时之正气避非位之邪贼
+  - date: -2689
+    title_zh: 虚则实之满则泄之
+    rationale: 气口虚实为补泻之纲徐疾为实虚之机故以九针各有所宜
+  - date: -2688
+    title_zh: 问五脏六腑所出之处
+    rationale: 欲明井荣输经合二十七气所行故定五五二十五腧六六三十六腧
 events:
 - id: guji-黄帝-event-birth
-  title_zh: 诞生于姬水
-  date: '-2697'
+  title_zh: 黄帝诞生于有熊
+  date: -2697
   year_of: -2697
-  description_zh: 黄帝生于姬水为有熊国君少典之子受国于有熊故号有熊氏
-- id: guji-黄帝-event-1
-  title_zh: 坐明堂问五运行大论
-  date: '-2650'
-  year_of: -2650
-  description_zh: 黄帝坐明堂始正天纲临观八极考建五常请天师岐伯鬼臾区论五运相合六气主岁上下左右之位
-- id: guji-黄帝-event-2
-  title_zh: 问六微旨及五气合人化生
-  date: '-2646'
-  year_of: -2646
-  description_zh: 黄帝叹天道远问六六之节盛衰之时得闻南面定位之法复问寒暑燥湿风火在人合之奈何万物何以化生岐伯以五方生风热湿燥寒合五脏五味对之
+  description: 轩辕生于有熊继神农而作经土设井以养万民
+- id: guji-黄帝-event-ask-qibo
+  title_zh: 问岐伯欲以微针通经脉
+  date: -2690
+  year_of: -2690
+  description: 黄帝问于岐伯言子万民收租税哀疾病欲立针经传后世岐伯推而次之始于一终于九
+- id: guji-黄帝-event-nine-needles
+  title_zh: 定九针之名形功用
+  date: -2689
+  year_of: -2689
+  description: 立镵员鍉锋铍员利毫长大九针各不同形去泻阳气揩摩分间以取痹脓水气
+- id: guji-黄帝-event-five-shu
+  title_zh: 明五脏六腑井荣输经合
+  date: -2688
+  year_of: -2688
+  description: 问五脏六腑所出之处定五五二十五腧六六三十六腧经脉十二络脉十五凡二十七气皆行于五腧
 - id: guji-黄帝-event-death
-  title_zh: 崩于荆山之阳
-  date: '-2598'
-  year_of: -2598
-  description_zh: 黄帝在位百年垂衣裳明天运以治民疾后崩葬桥山万民追慕之
+  title_zh: 黄帝崩葬桥山
+  date: -2599
+  year_of: -2599
+  description: 在位百年立法垂宪针经既立功成而崩葬于桥山

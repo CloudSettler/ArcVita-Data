@@ -6,127 +6,137 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: '0541'
+      date: 0541-01-01
       precision: year
       is_circa: true
-      raw: 隋开皇元年生于京兆华原
+      raw: 约隋开皇元年京兆华原
     death:
-      date: 0682
+      date: 0682-01-01
       precision: year
       is_circa: false
-      raw: 唐永淳元年卒
-  birth_date: '0541'
-  death_date: 0682
+      raw: 唐永淳元年逝世
+  birth_date: 0541-01-01
+  death_date: 0682-01-01
   era: 唐
-  reign_ref: 唐高宗永淳
-  archetype: 药王济世医者
+  reign_ref: 唐太宗至唐高宗时
+  archetype: 济世养生者
   dilemmas:
-  - 积阴沉而伏聚阳浮而动何以别知以施补泻
-  - 积病有形不可专恃灸刺汤药何以导引药并行而愈
-  lesson: 辨阴阳脏腑察所痛知所应毋逆天时导引汤药兼行
-  summary_first_person: 吾少嗜医籍博览素问灵枢难经诸论于积聚之别积属五脏阴沉有常处聚属六腑阳浮无定止撰千金以明证脉兼导引服药以全其治愿后人补泻得宜不逆天时
+  - 名利声色难去而欲求遐年难老
+  - 专恃服饵金丹与兼修百行德行孰为养生根本
+  lesson: 德行周备则虽绝药饵足以遐年，善养性者治未病之病
+  summary_first_person: 余观时俗放逸殒亡，叹数息之间人生短促，述养性篇以奖人伦，主兼百行去五难，不专恃药饵而求遐年
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E7%A7%AF%E8%81%9A%E9%97%A8.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E7%A7%AF%E8%81%9A%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E9%A2%90%E5%85%BB%E8%A1%A5%E7%9B%8A%E9%97%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E9%A2%90%E5%85%BB%E8%A1%A5%E7%9B%8A%E9%97%A8.html
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 撰千金方辨积聚阴阳
-  summary: 承素问难经之说立积阴聚阳之纲明五积六聚证脉以正后世诊治
+  title_zh: 纂千金要方立养性大经
+  summary: 以数息摄养为念，论名利喜怒为害，立百行兼修治未病之宗
   phases:
   - key: brewing
-    name: 博览素灵难经酝酿
+    name: 观世叹逝思摄养
     labels:
       zh:
-      - 积聚溯源
-      - 博览群经
-    start_date: '0541'
-    highlight_event_id: guji-孙思邈-event-study
+      - 养性
+      - 观察时俗
+    start_date: 0600-01-01
+    highlight_event_id: guji-孙思邈-event-birth
   - key: breakthrough
-    name: 立阴阳别积聚成说
+    name: 悟百行周备可遐年
     labels:
       zh:
-      - 阴阳辨证
-      - 五脏六腑
-    start_date: '0652'
+      - 养性
+      - 立宗
+    start_date: 0640-01-01
+    highlight_event_id: guji-孙思邈-event-qianjin
+  - key: climax
+    name: 成养性序奖人伦
+    labels:
+      zh:
+      - 千金方
+      - 养性序
+    start_date: 0652-01-01
     highlight_event_id: guji-孙思邈-event-qianjin
   - key: closure
-    name: 千金成书垂训后世
+    name: 以德行济世垂训
     labels:
       zh:
-      - 著书立说
-      - 证分阴阳
-    start_date: 0659
-    highlight_event_id: guji-孙思邈-event-qianjin
+      - 治未病
+      - 垂训
+    start_date: 0660-01-01
+    highlight_event_id: guji-孙思邈-event-wunantalk
   decisions:
-  - date: '0652'
-    title_zh: 以积为脏病聚为腑病立纲
-    rationale: 素问言血病为积难经言积阴伏聚阳动故当以阴阳脏腑分常处与无常处以定补泻
-  - date: 0659
-    title_zh: 录证分阴阳于千金方
-    rationale: 欲使学者先别积聚再察脉色故备载五积形状脉色病候以传后世
+  - date: 0652-01-01
+    title_zh: 以兼百行代专恃药饵
+    rationale: 德行不充纵服玉液金丹未能延寿，故以百行周备为养生大经
+  - date: 0660-01-01
+    title_zh: 以治未病为养性要义
+    rationale: 祸乱灾害无由作则内外百病不生，故倡善养性者治未病之病
 - id: guji-孙思邈-endeavor-2
-  title_zh: 行医济世倡导引药并行
-  summary: 法素问奇病论导引服药不可独治之训劝人调和气血寒温有节以散留聚
+  title_zh: 弘颐养补益明五难之旨
+  summary: 承黄帝岐伯四时调神之论，述嵇康五难，戒声色滋味房室之失
   phases:
   - key: brewing
-    name: 隐居太白山行医采药
+    name: 承素问四气调神
     labels:
       zh:
-      - 隐居行医
-      - 采药济人
-    start_date: '0555'
-    highlight_event_id: guji-孙思邈-event-study
+      - 颐养
+      - 法阴阳
+    start_date: 0630-01-01
+    highlight_event_id: guji-孙思邈-event-qianjin
+  - key: breakthrough
+    name: 引嵇康仲长统论情欲害生
+    labels:
+      zh:
+      - 五难
+      - 节欲
+    start_date: 0650-01-01
+    highlight_event_id: guji-孙思邈-event-wunantalk
   - key: climax
-    name: 倡导引调和佐汤药
+    name: 明五难去留定寿夭
     labels:
       zh:
-      - 导引服药
-      - 调和气血
-    start_date: '0660'
-    highlight_event_id: guji-孙思邈-event-practice
+      - 补益
+      - 养性
+    start_date: 0655-01-01
+    highlight_event_id: guji-孙思邈-event-wunantalk
   - key: closure
-    name: 德业隆盛号为药王
+    name: 归恬憺虚无以终天年
     labels:
       zh:
-      - 济世活人
-      - 药王之名
-    start_date: 0682
+      - 颐养
+      - 归真
+    start_date: 0680-01-01
     highlight_event_id: guji-孙思邈-event-death
   decisions:
-  - date: '0660'
-    title_zh: 劝积病导引与药并用
-    rationale: 息积二三岁不已药不能独治故须日用导引之功与调和之药二者并行斯病可愈
-  - date: '0670'
-    title_zh: 拒仕专医以全民生
-    rationale: 朝廷屡征而不就愿以医道活人勝于荣禄故终身以治病著书为事
+  - date: 0655-01-01
+    title_zh: 黜驰骋六情追名逐利
+    rationale: 一日一夜万三千余息，百年不过三十六万时，故当于名利于非名利若存若亡
+  - date: 0665-01-01
+    title_zh: 守恬憺虚无安神气
+    rationale: 喜怒不除神虑精散则操回年夭，去五难则信顺日跻道德日全不求寿而自延
 events:
 - id: guji-孙思邈-event-birth
-  date: '0541'
+  title_zh: 出生于京兆华原
+  date: 0541-01-01
   year_of: 541
-  type: birth
-  title_zh: 诞生于京兆华原
-  description: 隋开皇元年左右诞生自幼好学博涉经史尤精医道
-- id: guji-孙思邈-event-study
-  date: '0555'
-  year_of: 555
-  type: career
-  title_zh: 隐居学医博览素难
-  description: 隐居太白山研读黄帝素问灵枢扁鹊难经究积聚肥气伏梁痞气息贲贲豚之说
+  place_zh: 京兆华原
+  summary: 约隋开皇前后出生，少聪慧，博涉经史，笃好医道养生
 - id: guji-孙思邈-event-qianjin
-  date: 0659
-  year_of: 659
-  type: career
-  title_zh: 成备急千金要方明积聚
-  description: 于千金方中立证分阴阳详录积者阴沉而伏聚者阳浮而动五脏所生六腑所成之辨
-- id: guji-孙思邈-event-practice
-  date: '0665'
-  year_of: 665
-  type: career
-  title_zh: 行医关中倡导引药治
-  description: 诊治腹中积聚教人察所痛知所应补泻兼行导引服药毋逆天时活人无数
+  title_zh: 纂千金要方述养性序
+  date: 0652-01-01
+  year_of: 652
+  place_zh: 长安
+  summary: 论昼夜百刻万三千息人生短促，立养性欲习成性内外百病不生之论
+- id: guji-孙思邈-event-wunantalk
+  title_zh: 阐五难论治未病
+  date: 0655-01-01
+  year_of: 655
+  place_zh: 终南山
+  summary: 引嵇康名利喜怒声色滋味神散五难，谓去之则道德全而遐年自延
 - id: guji-孙思邈-event-death
-  date: 0682
+  title_zh: 逝世于长安
+  date: 0682-01-01
   year_of: 682
-  type: death
-  title_zh: 卒于唐永淳元年
-  description: 以高寿卒后世尊为药王千金方所载积聚论为医部全录所采
+  place_zh: 长安
+  summary: 唐永淳元年寿终，遗颐养补益养性之训，后世尊为药王
