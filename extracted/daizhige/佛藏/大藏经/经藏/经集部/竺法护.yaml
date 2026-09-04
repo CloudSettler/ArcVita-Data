@@ -9,127 +9,134 @@ person:
       date: '0231'
       precision: year
       is_circa: true
-      raw: 约魏太和五年世居敦煌
+      raw: 约魏太和五年出生于敦煌
     death:
       date: 0308
       precision: year
       is_circa: true
-      raw: 晋怀帝永嘉二年示寂渑池
+      raw: 约晋怀帝永嘉二年示寂于洛阳
   birth_date: '0231'
   death_date: 0308
   era: 西晋
-  reign_ref: 晋武帝泰始至怀帝永嘉
-  archetype: 译经弘法者
+  reign_ref: 西晋武帝至怀帝
+  archetype: 西行求法译经弘化者
   dilemmas:
-  - title_zh: 梵汉悬隔何以传信
-    description: 通晓西域诸语而忧义失本真故发愿游学求正法
-  - title_zh: 世乱弘法何以自持
-    description: 值西晋末乱而坚持译经以十方佛名安护众生
-  lesson: 以译经灭众生恐惧弘法当以慈护为本
-  summary_first_person: 吾本月氏寓居敦煌，八岁出家，师事竺高座，游历西域，通晓梵语，归化洛阳长安，译经百五十余部，传灭十方冥之法，愿众生归命十方佛无复恐惧
+  - 胡梵与晋文隔阂而欲传大乘深义当如何会通文质令众得解
+  - 战乱流离道场不固而欲长久译传当如何坚持弘化不舍众生
+  lesson: 以平等精进破除魔事执著不厌生死不舍大哀弘传正法
+  summary_first_person: 吾乃竺法护本月氏裔家于敦煌八岁出家游历西域得梵本万轴归于中原译传晋文凡百余部宣说空无平等精进之道唯愿众生离魔网证佛慧
   source_urls:
-  - https://daizhige.org/佛说灭十方冥经.html
-  - https://github.com/daizhige-org/daizhigev20
-  - https://cbeta.org/result/T0435
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%AD%94%E9%80%86%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%AD%94%E9%80%86%E7%BB%8F.html
 endeavors:
 - id: guji-竺法护-endeavor-1
-  person_qid: guji-竺法护
-  title_zh: 西域游学历法通语奠基
-  summary: 八岁出家后随师游历西域通三十六国语言携梵本归中土为译经奠基
+  title_zh: 西行求法大规模译经弘化
+  summary: 出家后游西域诸国搜集梵本归洛阳长安组织译场译经百余部奠定大乘经典基础
   phases:
   - key: brewing
-    name: 敦煌出家初发心
+    name: 敦煌出家西行求法
     labels:
-      zh: 出家求法
+      zh:
+      - 求法
+      - 西域
     start_date: 0239
-    highlight_event_id: guji-竺法护-event-birth
+    highlight_event_id: guji-竺法护-event-seek
   - key: breakthrough
-    name: 师事高座游西域
+    name: 携梵本归国开设译场
     labels:
-      zh: 游学通经
-    start_date: 0259
-    highlight_event_id: guji-竺法护-event-study
-  - key: climax
-    name: 携梵本归洛阳
-    labels:
-      zh: 携经东归
+      zh:
+      - 译场
+      - 归化
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-study
-  - key: closure
-    name: 精通梵汉立译志
+    highlight_event_id: guji-竺法护-event-seek
+  - key: climax
+    name: 洛阳长安百部译传
     labels:
-      zh: 立志传译
-    start_date: '0270'
-    highlight_event_id: guji-竺法护-event-study
+      zh:
+      - 译经
+      - 弘化
+    start_date: 0284
+    highlight_event_id: guji-竺法护-event-translate-moni
+  - key: closure
+    name: 门徒承继法脉西传
+    labels:
+      zh:
+      - 传承
+      - 圆满
+    start_date: '0305'
+    highlight_event_id: guji-竺法护-event-death
   decisions:
-  - date: 0259
-    title_zh: 负经西行求梵本
-    rationale: 恐中土旧译失真故亲历西域求取本经广通语言
-  - date: '0270'
-    title_zh: 定居洛阳长安设译场
-    rationale: 为使正法久住中土召集笔受广开译席
+  - date: '0266'
+    title_zh: 决意西行三十六国求梵本
+    rationale: 以中原旧译不足欲得原本广传大乘故冒艰险西求万轴梵本
+  - date: 0280
+    title_zh: 定居洛阳组织胡汉共译
+    rationale: 以一人之力难通梵晋故延请通人笔受口授会通文质使义理畅达
 - id: guji-竺法护-endeavor-2
-  person_qid: guji-竺法护
-  title_zh: 中土译弘灭十方冥经
-  summary: 于长安洛阳译出灭十方冥经宣说十方佛名拥护行人令无恐惧
+  title_zh: 译宣佛说魔逆经阐明平等精进
+  summary: 翻译宣演佛说魔逆经借文殊大光问答及魔作佛事之喻阐明空无相愿与二十魔事二十功德
   phases:
   - key: brewing
-    name: 应面善悦问起译缘
+    name: 得魔逆梵本研读义理
     labels:
-      zh: 感问发译
-    start_date: 0284
-    highlight_event_id: guji-竺法护-event-translate
+      zh:
+      - 研读
+      - 空慧
+    start_date: 0282
+    highlight_event_id: guji-竺法护-event-translate-moni
   - key: breakthrough
-    name: 定梵本出十方佛名
+    name: 晋文译出魔逆经
     labels:
-      zh: 译出佛名
-    start_date: 0286
-    highlight_event_id: guji-竺法护-event-translate
+      zh:
+      - 翻译
+      - 魔事
+    start_date: 0284
+    highlight_event_id: guji-竺法护-event-translate-moni
   - key: climax
-    name: 宣说拥护灭冥法
+    name: 讲演平等精进化导魔众
     labels:
-      zh: 弘护流通
-    start_date: 0287
-    highlight_event_id: guji-竺法护-event-translate
+      zh:
+      - 讲演
+      - 降魔
+    start_date: 0286
+    highlight_event_id: guji-竺法护-event-translate-moni
   - key: closure
-    name: 付嘱阿难持经护世
+    name: 以二十功德劝持流通
     labels:
-      zh: 付嘱流通
+      zh:
+      - 流通
+      - 劝持
     start_date: 0290
-    highlight_event_id: guji-竺法护-event-translate
+    highlight_event_id: guji-竺法护-event-translate-moni
   decisions:
+  - date: 0284
+    title_zh: 抉择译出魔逆深典
+    rationale: 以众生执精进为魔事不识平等故须译此分别佛法与魔事之经
   - date: 0286
-    title_zh: 译灭十方冥一卷传十方拥护法
-    rationale: 悯众生行险遇非人恐怖故译十方佛名令归命持念即得安隐
-  - date: 0290
-    title_zh: 劝持讽诵书写流通
-    rationale: 使受持读诵为他说者具足供养蒙天龙拥护速成所愿
+    title_zh: 弘扬空无相愿不断生死
+    rationale: 以声闻厌离与菩萨执著皆是魔业故倡不舍众生平等精进摄化之道
 events:
 - id: guji-竺法护-event-birth
-  person_qid: guji-竺法护
-  title_zh: 诞生于月氏寓居敦煌
+  title_zh: 生于敦煌月氏之家
   date: '0231'
   year_of: 231
-  place_zh: 敦煌
-  summary: 月氏国人本姓支世居敦煌约魏太和年间诞生
-- id: guji-竺法护-event-study
-  person_qid: guji-竺法护
-  title_zh: 师事竺高座游历西域通语言
-  date: 0259
-  year_of: 259
-  place_zh: 西域至洛阳
-  summary: 八岁出家师事竺高座游历西域通三十六国语言携梵本东归
-- id: guji-竺法护-event-translate
-  person_qid: guji-竺法护
-  title_zh: 译出佛说灭十方冥经一卷
-  date: 0286
-  year_of: 286
-  place_zh: 长安洛阳
-  summary: 译佛为面善悦说十方佛名拥护法东方等行如来乃至上方消冥等超王如来皆令归命无畏
+  kind: birth
+  summary: 约魏太和年间生于敦煌月氏信佛之家八岁出家从师诵习
+- id: guji-竺法护-event-seek
+  title_zh: 西游诸国搜集梵本归国
+  date: '0266'
+  year_of: 266
+  kind: career
+  summary: 游历西域三十六国得大乘梵本万轴携归中原于洛阳设馆译传
+- id: guji-竺法护-event-translate-moni
+  title_zh: 译出佛说魔逆经宣平等精进
+  date: 0284
+  year_of: 284
+  kind: career
+  summary: 于洛阳译出佛说魔逆经述文殊师利与大光天子论平等精进魔波旬化佛说法二十魔事与二十功德
 - id: guji-竺法护-event-death
-  person_qid: guji-竺法护
-  title_zh: 示寂于渑池
+  title_zh: 示寂于洛阳终年约七十八
   date: 0308
   year_of: 308
-  place_zh: 渑池
-  summary: 永嘉二年值乱避居渑池示寂译经百五十余部道化广布
+  kind: death
+  summary: 永嘉之乱前示寂于洛阳门人承其译业法化流传关中江左
