@@ -9,124 +9,140 @@ person:
       date: 1487
       precision: year
       is_circa: false
-      raw: 明成化二十三年
+      raw: 明成化二十三年生于吴县
     death:
       date: 1559
       precision: year
       is_circa: false
-      raw: 明嘉靖三十八年
+      raw: 明嘉靖三十八年卒
   birth_date: 1487
   death_date: 1559
-  era: 明
-  reign_ref: 弘治至嘉靖
-  archetype: 良医
+  era: 明代
+  reign_ref: 明成化至嘉靖年间
+  archetype: 托里补派外科宗师
   dilemmas:
-  - 攻毒与托补之辨，庸医概用寒凉试方误人，当先辨有余不足主客缓急
-  - 疮疡有形而本在气血营卫，须分经络虚实老弱时令，不可干扰余经
-  lesson: 审虚实补气血为主，以托里消毒补接全生，慎用寒凉攻伐，推己及物以济穷乡
-  summary_first_person: 吾薛己，号立斋，吴县人，承父铠家学精内外科，历任南京太医院判及太医院使，集治验分症成外科发挥，力主辨虚实托补而戒概用寒凉，愿锓梓以传穷乡下邑，措天下于仁寿之域
+  - 世讥执泥补法与坚持助胃托里之争
+  - 寒凉攻伐速效与温补固本收敛之择
+  lesson: 治疡当助胃壮气固本，辨标本虚实而托里，不可妄用寒凉攻伐
+  summary_first_person: 吾立斋，吴人也，少承家学，究心疡科，见世人妄用寒凉克伐，遂倡补胃托里，使根本坚固，脓溃收敛皆有据，著枢要以指南后学
   source_urls:
-  - https://daizhige.org/医藏/外科发挥.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/外科发挥.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%9E%A2%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%9E%A2%E8%A6%81.md
 endeavors:
 - id: guji-薛己-endeavor-1
-  title_zh: 集验成外科发挥刊传济众
-  summary: 承先君意萃随治验方，分症详辨虚实主客，成八卷外科发挥，锓梓以便穷乡无名医者
+  title_zh: 倡托里补法革新外科诊治
+  summary: 辨五善七恶本末虚实，反对寒凉敷贴汗下误治，以纯补胃气为主
   phases:
   - key: brewing
-    name: 承家学业医
+    name: 少时承家学观疡疾虚实
     labels:
-      zh: 家学酝酿
-    start_date: 1487
-    highlight_event_id: guji-薛己-event-birth
+      zh:
+      - 家学渊源
+      - 明辨虚实
+    start_date: 1502
+    highlight_event_id: guji-薛己-event-practice
   - key: breakthrough
-    name: 判院临证悟托补
+    name: 以补胃托里治背疽腹痈获效
     labels:
-      zh: 临证突破
-    start_date: 1515
-    highlight_event_id: guji-薛己-event-nanjing
+      zh:
+      - 托里消毒
+      - 助胃壮气
+    start_date: 1525
+    highlight_event_id: guji-薛己-event-cure
   - key: climax
-    name: 外科发挥成书
+    name: 系统论述汗下围药针法禁宜
     labels:
-      zh: 成书高潮
-    start_date: 1528-08-01
-    highlight_event_id: guji-薛己-event-waikefahui
+      zh:
+      - 汗下宜忌
+      - 针法补托
+    start_date: 1540
+    highlight_event_id: guji-薛己-event-theory
   - key: closure
-    name: 锓梓流传穷乡
+    name: 补法体系为时医所宗而亦被訾
     labels:
-      zh: 刊行收束
-    start_date: 1528-08-01
-    highlight_event_id: guji-薛己-event-waikefahui
+      zh:
+      - 补派成宗
+      - 世议执泥
+    start_date: 1555
+    highlight_event_id: guji-薛己-event-death
   decisions:
-  - date: 1528
-    title_zh: 分症录既验专辨虚实
-    rationale: 庸医未尝读书明理以方试人，故只录既验者，尤致详于虚实主客之宜
-  - date: 1528
-    title_zh: 立托里表散补接为主
-    rationale: 血脉喜温恶寒，肿疡内外皆壅宜托里表散，溃疡内外皆虚宜补接，不可概用寒凉大黄香散
-- id: guji-薛己-endeavor-2
-  title_zh: 历任太医以补气血全生
-  summary: 任南京太医院判及太医院使，以补脾胃气血治内外疮疡杂证，校订内科摘要外科枢要诸书
-  phases:
-  - key: brewing
-    name: 随父诊视习方脉
-    labels:
-      zh: 随诊积学
-    start_date: 1500
-    highlight_event_id: guji-薛己-event-nanjing
-  - key: breakthrough
-    name: 南京判院扶困起废
-    labels:
-      zh: 判院立名
-    start_date: 1520
-    highlight_event_id: guji-薛己-event-nanjing
-  - key: climax
-    name: 太医院使参调护
-    labels:
-      zh: 入院鼎盛
-    start_date: 1535
-    highlight_event_id: guji-薛己-event-taiyiyuan
-  - key: closure
-    name: 著述校理传后学
-    labels:
-      zh: 著述善后
-    start_date: 1550
-    highlight_event_id: guji-薛己-event-taiyiyuan
-  decisions:
-  - date: 1535
-    title_zh: 舍时从证权宜治热毒
-    rationale: 证有主末治有权宜，热毒内蓄虽值季冬亦舍时用清解，不泥守常以免病势危甚
+  - date: 1525
+    title_zh: 舍寒凉攻伐而用参归术托里
+    rationale: 漫肿微痛脓清稀者元气已虚，寒凉则凝滞气血，补胃方能起发收敛
   - date: 1540
-    title_zh: 脓成急针佐温补托里
-    rationale: 脓熟不行针刺则毒蚀难疗，老弱紧要之处一有脓即针之，更以托里使气血平复免变证
+    title_zh: 脓成先补后针虚者禁妄泄
+    rationale: 气血虚者针泄则气无依附，先补脾胃脓出自退，保全生气
+- id: guji-薛己-endeavor-2
+  title_zh: 撰述外科枢要垂范后学
+  summary: 补陶节庵齐院令之缺，论脉论呕痛生肌去腐，附治验以示指南
+  phases:
+  - key: brewing
+    name: 手钞笥袭广集疡书治验
+    labels:
+      zh:
+      - 博采医案
+      - 手钞积累
+    start_date: 1515
+    highlight_event_id: guji-薛己-event-practice
+  - key: breakthrough
+    name: 著内外科心法发挥补法要旨
+    labels:
+      zh:
+      - 著书立说
+      - 发明补义
+    start_date: 1535
+    highlight_event_id: guji-薛己-event-theory
+  - key: climax
+    name: 成外科枢要十论并治验
+    labels:
+      zh:
+      - 枢要举要
+      - 疡家指南
+    start_date: 1550
+    highlight_event_id: guji-薛己-event-book
+  - key: closure
+    name: 从子师颜守家学雠订刊行
+    labels:
+      zh:
+      - 世家传承
+      - 刊刻流布
+    start_date: 1571
+    highlight_event_id: guji-薛己-event-book
+  decisions:
+  - date: 1550
+    title_zh: 以胃气立论统摄生肌收敛去腐
+    rationale: 肌肉脾胃所主，脓溃敛皆由胃气腐化荣养，纯补脾胃胜泛敷生肌
+  - date: 1550
+    title_zh: 详补五善七恶治法方药
+    rationale: 宋齐陶氏有状无因有方未悉，故备人参黄汤十全大补等以全真气
 events:
 - id: guji-薛己-event-birth
+  title_zh: 出生于苏州吴县薛氏医家
   date: 1487
   year_of: 1487
-  title_zh: 生于吴县医家
-  description: 明成化二十三年生于苏州府吴县，父薛铠精医，少承家学兼通内外小儿诸科
-  place: 吴县
-- id: guji-薛己-event-nanjing
-  date: 1520
-  year_of: 1520
-  title_zh: 任南京太医院判临证著心法
-  description: 任南京太医院判，以外科心法精当切要扶困起废，临证详辨脉证虚实用托补消毒
-  place: 南京
-- id: guji-薛己-event-waikefahui
-  date: 1528-08-01
-  year_of: 1528
-  title_zh: 外科发挥成书叙传
-  description: 嘉靖戊子秋集随治验方成外科发挥八卷，张淮叙之，少宰李公标名，详肿疡溃疡虚实治法并附方锓梓以传
-  place: 南京
-- id: guji-薛己-event-taiyiyuan
-  date: 1535
-  year_of: 1535
-  title_zh: 升太医院使校理诸书
-  description: 升任太医院使，以补中益气十全大补调补气血治疮疡杂证，校理内科摘要外科枢要等书传于世
-  place: 北京
+  description: 明成化二十三年生，字新甫，号立斋，少承父薛铠家学
+- id: guji-薛己-event-practice
+  title_zh: 行医江浙以托里补法名著
+  date: 1525
+  year_of: 1525
+  description: 治进士张德泓背疽钱南郭腹痈翟石门子耳疽，皆以六君补中益气托里而愈
+- id: guji-薛己-event-cure
+  title_zh: 力辨补法不合变之冤力倡助胃
+  date: 1540
+  year_of: 1540
+  description: 论疮疡当明本末虚实，肿高者解毒，漫肿者托里，反对妄汗妄下寒凉围药
+- id: guji-薛己-event-theory
+  title_zh: 系统论述二十六脉五善七恶针法
+  date: 1550
+  year_of: 1550
+  description: 撰外科枢要卷一诸论，辨脉病相应，定呕痛生肌去腐之法，附治验
+- id: guji-薛己-event-book
+  title_zh: 外科枢要经师颜雠订刊行流传
+  date: 1571
+  year_of: 1571
+  description: 隆庆辛未李沈序，从子薛师颜以手编示人补诸刻未备，遂并刻为疡家指南
 - id: guji-薛己-event-death
+  title_zh: 卒于京师太医院任上
   date: 1559
   year_of: 1559
-  title_zh: 殁于嘉靖三十八年
-  description: 明嘉靖三十八年殁，一生以孝亲仁物为心，遗书广传穷乡下邑，医林奉为立斋先生
-  place: 吴县
+  description: 明嘉靖三十八年卒，历任太医院使，医宗补胃，人多訾执泥而后世宗之
