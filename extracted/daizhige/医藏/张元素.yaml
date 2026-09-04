@@ -1,0 +1,127 @@
+person:
+  qid: guji-张元素
+  name_zh: 张元素
+  names:
+    zh: 张元素
+    en: Zhang Yuansu
+  lifespan:
+    birth:
+      date: '1151'
+      precision: year
+      is_circa: true
+      raw: 金大定年间生于易水
+    death:
+      date: '1234'
+      precision: year
+      is_circa: true
+      raw: 约金天兴年间卒
+  birth_date: '1151'
+  death_date: '1234'
+  era: 金代
+  reign_ref: 金世宗至金哀宗
+  archetype: 易水医宗
+  dilemmas:
+  - 二十七岁经义登科犯庙讳落第仕进无门何去何从
+  - 古方与新病不相宜当泥古守方还是随证处方
+  lesson: 不用古方自从病处方辨证论治方为医道
+  summary_first_person: 我本易水书生八岁试童经二十七岁登科犯讳而落遂弃仕潜心医学二十余年夜梦凿心纳书而洞彻轩岐不守古方随证处方愈刘守真伤寒而名满天下辑医学启源以教门生
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AD%A6%E5%90%AF%E6%BA%90.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AD%A6%E5%90%AF%E6%BA%90.md
+endeavors:
+- id: guji-张元素-endeavor-1
+  title_zh: 弃儒习医开易水一派
+  description: 因避章庙讳落第而怠仕进潜心医学二十余年梦悟开窍后传道轩岐指挥秦越
+  phases:
+  - key: brewing
+    name: 落第潜医
+    labels:
+      zh: 潜心博记
+    start_date: '1178'
+    highlight_event_id: guji-张元素-event-exam
+  - key: breakthrough
+    name: 梦悟洞彻
+    labels:
+      zh: 开窍传道
+    start_date: '1190'
+    highlight_event_id: guji-张元素-event-exam
+  - key: climax
+    name: 起死守真
+    labels:
+      zh: 神医名满
+    start_date: '1198'
+    highlight_event_id: guji-张元素-event-cure-liu
+  - key: closure
+    name: 易水立宗
+    labels:
+      zh: 不守古方
+    start_date: '1200'
+    highlight_event_id: guji-张元素-event-cure-liu
+  decisions:
+  - date: '1178'
+    title_zh: 落第弃仕转习医学
+    rationale: 仕进已绝不如穷轩岐之学以济世立身
+  - date: '1198'
+    title_zh: 不用古方随证处方
+    rationale: 古方新病不相宜反害人当自从病处方刻期见效
+- id: guji-张元素-endeavor-2
+  title_zh: 辑书立教传医学启源
+  description: 暇日辑素问运气内经治要本草药性为医学启源并著医方三十卷以教门生
+  phases:
+  - key: brewing
+    name: 博采素问本草
+    labels:
+      zh: 辑集运气
+    start_date: '1200'
+    highlight_event_id: guji-张元素-event-cure-liu
+  - key: breakthrough
+    name: 造医学启源
+    labels:
+      zh: 著书立教
+    start_date: '1205'
+    highlight_event_id: guji-张元素-event-book
+  - key: climax
+    name: 教授门生
+    labels:
+      zh: 真定授徒
+    start_date: '1210'
+    highlight_event_id: guji-张元素-event-book
+  - key: closure
+    name: 医方传世
+    labels:
+      zh: 启源独存
+    start_date: '1220'
+    highlight_event_id: guji-张元素-event-book
+  decisions:
+  - date: '1205'
+    title_zh: 辑医学启源教门生
+    rationale: 五运六气治要药性散在群书当会通一编以启后学
+  - date: '1210'
+    title_zh: 授李明之等高弟传业
+    rationale: 道不可独得当付托得人使易水之学不绝
+events:
+- id: guji-张元素-event-birth
+  title_zh: 生于易水
+  date: '1151'
+  year_of: 1151
+  description: 张元素字洁古生于易州金大定年间幼聪慧八岁试童经
+- id: guji-张元素-event-exam
+  title_zh: 经义登科犯讳落第弃仕习医
+  date: '1178'
+  year_of: 1178
+  description: 二十七岁经义登科犯章庙讳而落遂怠仕进潜心医学二十余年夜梦柯斧凿心纳内经主治备要而悟
+- id: guji-张元素-event-cure-liu
+  title_zh: 诊愈刘守真伤寒误下名满天下
+  date: '1198'
+  year_of: 1198
+  description: 河间刘守真病伤寒八日误下头疼脉紧呕恶不食洁古诊脉知犯寒凉下降之误投剂一服而愈守真大服其能
+- id: guji-张元素-event-book
+  title_zh: 辑成医学启源教授门生
+  date: '1205'
+  year_of: 1205
+  description: 辑素问五运六气内经治要本草药性名曰医学启源以教门生又著医方三十卷真定李明之为高弟
+- id: guji-张元素-event-death
+  title_zh: 卒
+  date: '1234'
+  year_of: 1234
+  description: 金末卒于北方易水之学经李明之李东垣而大显于世所存者惟医学启源
