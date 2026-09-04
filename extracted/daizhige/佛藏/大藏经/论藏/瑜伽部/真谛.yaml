@@ -8,131 +8,119 @@ person:
     birth:
       date: 0499
       precision: year
-      is_circa: false
-      raw: 生于南天竺优禅尼国婆罗门种
+      is_circa: true
+      raw: 梁天监八年约生于西印度优禅尼国
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 陈太建元年示寂于广州
+      raw: 陈太建元年卒于建康正观寺
   birth_date: 0499
   death_date: 0569
-  era: 南北朝梁陈之际
-  reign_ref: 梁太清二年
-  archetype: 西来译经弘法师
+  era: 南北朝梁陈
+  reign_ref: 梁武帝萧衍
+  archetype: 西来译师与摄论唯识奠基者
   dilemmas:
-  - 梁季混淆避地东西而欲振玄宗于他域去留两难
-  - 翻译文质难兼欲质而得义不使文而失旨取舍两难
-  lesson: 乱世续慧命以质取义以译传灯大乘宗极赖弘护而存
-  summary_first_person: 吾是优禅尼婆罗门姓颇罗堕名拘罗那他此土号亲依少习外典后贯三藏以身许道梁太清二年至建业值梁季乱离转徙九江五岭闽越得阳山公欧阳頠父子请留于广州制旨寺与慧恺等译出摄大乘论本释及疏愿以无分别智照实法相
+  - 梁末侯景战乱流离岭南而译场不辍之难
+  - 旧部小乘学统与大乘唯识新义取舍之难
+  lesson: 乱世亦不废传译，以内尘为境破外境实执
+  summary_first_person: 吾本西天优禅尼僧，渡海入梁逢乱，流寓南海，犹口授译出无相思尘论等，开中土唯识之先
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E6%91%84%E5%A4%A7%E4%B9%98%E8%AE%BA%E9%87%8A-%E9%99%88-%E7%9C%9F%E8%B0%9B.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E6%91%84%E5%A4%A7%E4%B9%98%E8%AE%BA%E9%87%8A-%E9%99%88-%E7%9C%9F%E8%B0%9B.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E6%97%A0%E7%9B%B8%E6%80%9D%E5%B0%98%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E6%97%A0%E7%9B%B8%E6%80%9D%E5%B0%98%E8%AE%BA.md
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 万里东来避乱弘法
-  summary: 自优禅尼历事众师通达三藏欲启法门于未悟梁太清二年至建业逢侯景乱转徙岭南不绝敷说
+  title_zh: 渡海入梁开设译场
+  summary_zh: 应梁武帝请渡南海至建康，值侯景乱流转岭南，聚徒口授，奠定译业
   phases:
   - key: brewing
-    name: 少游诸国博综坟籍
+    name: 西天受学发愿东行
     labels:
-      zh:
-      - 学法
-      - 游方
-    start_date: 0499
+      zh: 博通三藏
+    start_date: '0533'
     highlight_event_id: guji-真谛-event-birth
   - key: breakthrough
-    name: 航海至建业值乱
+    name: 航海达梁得帝迎礼
     labels:
-      zh:
-      - 东来
-      - 逢乱
-    start_date: 0548
-    highlight_event_id: guji-真谛-event-arrival
+      zh: 初入建康
+    start_date: '0546'
+    highlight_event_id: guji-真谛-event-arrive
   - key: climax
-    name: 避地九江五岭闽越敷说
+    name: 逢乱流离犹聚徒授学
     labels:
-      zh:
-      - 避地
-      - 弘化
-    start_date: 0549
-    highlight_event_id: guji-真谛-event-arrival
-  - key: closure
-    name: 达蕃禺得欧阳氏护持
-    labels:
-      zh:
-      - 安顿
-      - 护法
-    start_date: 363
-    highlight_event_id: guji-真谛-event-translation
+      zh: 岭南存法
+    start_date: 0548
+    highlight_event_id: guji-真谛-event-exile
   decisions:
+  - date: '0546'
+    title_zh: 应请登舟赴梁
+    rationale: 为弘大乘不惮海险，顺梁武崇佛之缘东行
   - date: 0548
-    title_zh: 值梁季混淆避地东南
-    rationale: 横流荐及大法拥而不畅为存法种避地九江五岭以待机缘
-  - date: 363
-    title_zh: 受欧阳頠父子请留广州
-    rationale: 钦其高行奉为菩萨戒师兼欲旋反旧国受阻遂安住翻译以济时
+    title_zh: 乱中南徙不还西天
+    rationale: 中土请法未毕，宁流寓传灯不中辍弘愿
 - id: guji-真谛-endeavor-2
-  title_zh: 广州制旨寺译摄大乘论释
-  summary: 于广州制旨寺与慧恺慧智等合作译出摄大乘论本三卷释论十二卷义疏八卷阐明十胜相唯识三性
+  title_zh: 传译摄论唯识破外境执
+  summary_zh: 译出无相思尘论与摄大乘论等，以内尘为识境，立中土唯识宗本
   phases:
   - key: brewing
-    name: 妙解声论善识方言席间函丈
+    name: 精究陈那因明唯识
     labels:
-      zh:
-      - 译场
-      - 筹备
-    start_date: 365
-    highlight_event_id: guji-真谛-event-translation
+      zh: 宗承无相唯识
+    start_date: '0556'
+    highlight_event_id: guji-真谛-event-exile
   - key: breakthrough
-    name: 衡州刺史欧阳纥为请主开译
+    name: 译出无相思尘论
     labels:
-      zh:
-      - 发起
-      - 翻译
-    start_date: 366
-    highlight_event_id: guji-真谛-event-translation
-  - key: climax
-    name: 慧恺笔受随出随书研核文义
-    labels:
-      zh:
-      - 笔受
-      - 研核
-    start_date: 366
-    highlight_event_id: guji-真谛-event-translation
+      zh: 破邻虚实有
+    start_date: 0558
+    highlight_event_id: guji-真谛-event-translate
   - key: closure
-    name: 树檀之月文义俱竟共二十三卷
+    name: 讲摄论付嘱门人
     labels:
-      zh:
-      - 竣工
-      - 传弘
-    start_date: 366
-    highlight_event_id: guji-真谛-event-translation
+      zh: 弘传岭南建康
+    start_date: '0562'
+    highlight_event_id: guji-真谛-event-preach
   decisions:
-  - date: 366
-    title_zh: 立质义为先文质相半
-    rationale: 翻译事殊难一字参差理趣胡越宁质而得义不文而失旨
-  - date: 366
-    title_zh: 先释义竟方乃著文并造义疏
-    rationale: 一章一句备尽研核令聪慧人下心起敬怖大文海者得入
+  - date: 0558
+    title_zh: 首译陈那无相思尘论
+    rationale: 以邻虚聚非境明外尘本空，须立内尘为缘缘
+  - date: '0562'
+    title_zh: 专弘摄大乘论义
+    rationale: 摄论总摄唯识学统，可接引梁陈旧学入新宗
 events:
 - id: guji-真谛-event-birth
+  title_zh: 生于西印度优禅尼
   date: 0499
   year_of: 499
-  title_zh: 诞生于优禅尼婆罗门家
-  description: 南身毒优禅尼国婆罗门种姓颇罗堕名拘罗那他少习四韦驮六论后学穷三藏贯练五部研究大乘
-- id: guji-真谛-event-arrival
+  place_zh: 西印度优禅尼国
+  description_zh: 婆罗门种出家，博学三藏，尤精唯识因明
+- id: guji-真谛-event-arrive
+  title_zh: 航海至建康受梁武迎礼
+  date: '0546'
+  year_of: 546
+  place_zh: 建康
+  description_zh: 梁大同十二年抵南海，入建康，敕住宝云殿从事翻译
+- id: guji-真谛-event-exile
+  title_zh: 侯景乱起流寓岭南
   date: 0548
   year_of: 548
-  title_zh: 梁太清二年至建业
-  description: 以法济时来仪建业属梁季将溃侯景之乱避地东西至九江游五岭适闽越敷说不少欲旋旧国遂达蕃禺
-- id: guji-真谛-event-translation
-  date: 366
-  year_of: 5556
-  title_zh: 广州制旨寺译摄大乘论释
-  description: 得广州刺史欧阳頠及世子欧阳纥礼请以慧恺传语笔受僧忍等禀学译本论三卷释论十二卷义疏八卷合二十三卷明依止胜相等十胜相
+  place_zh: 南越广州
+  description_zh: 台城陷后辗转豫章南海，收徒慧恺等，口授梵本不辍
+- id: guji-真谛-event-translate
+  title_zh: 译出陈那造无相思尘论
+  date: 0558
+  year_of: 5558
+  place_zh: 广州制旨寺
+  description_zh: 以陈那颂文破邻虚及和聚为实境，立内相为识缘缘
+- id: guji-真谛-event-preach
+  title_zh: 讲授摄大乘论弘唯识
+  date: '0562'
+  year_of: 562
+  place_zh: 建康正观寺
+  description_zh: 重讲摄论十七卷，门下慧恺法泰等传其学，为地论摄论分宗之始
 - id: guji-真谛-event-death
+  title_zh: 卒于建康正观寺
   date: 0569
   year_of: 569
-  title_zh: 示寂于广州
-  description: 久住岭南译经弘化凡所翻译敷说甚多陈太建元年示寂摄论宗风由门人慧恺道基等传于江南
+  place_zh: 建康正观寺
+  description_zh: 陈太建元年示寂，世寿七十一，所译经论四十九部传于世
