@@ -1,0 +1,130 @@
+person:
+  qid: guji-祈愿文
+  name_zh: 祈愿文
+  names:
+    zh: 祈愿文
+    en: Qiyuanwen Supplicant
+  lifespan:
+    birth:
+      date: '0900-01-01'
+      precision: year
+      is_circa: true
+      raw: 约九世纪末生于敦煌
+    death:
+      date: '0932-01-01'
+      precision: year
+      is_circa: true
+      raw: 长兴后约卒于敦煌
+  birth_date: '0900-01-01'
+  death_date: '0932-01-01'
+  era: 五代后唐明宗时
+  reign_ref: 长兴二年
+  archetype: 边镇祈福者
+  dilemmas:
+  - title_zh: 边患未息而求静塞
+    description: 处敦煌边镇欲以结坛转经供僧燃灯换取安民静塞
+  - title_zh: 旧岁将除而忧灾疫
+    description: 恐旧岁凶灾相随故祈嘉瑞嘉祥降临合宅田亩
+  lesson: 乱世以供养唱佛凝聚合宅人心祈国安家泰五稼丰登
+  summary_first_person: 我于长兴二年十二月在敦煌结坛五日供僧散食燃灯唱佛舍施愿帝主归京大王保位公主夫人安泰郎君娘子成长五稼丰登边情早息
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E7%A5%88%E6%84%BF%E6%96%87.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E7%A5%88%E6%84%BF%E6%96%87.md
+endeavors:
+- id: guji-祈愿文-endeavor-1
+  title_zh: 结坛五日转经供僧
+  description: 处结坛五日每坛供僧散食燃灯逐夜唱佛布施舍施以申祈愿
+  phases:
+  - key: brewing
+    name: 筹设坛场
+    labels:
+      zh: 筹备结坛
+    start_date: '0931-12-21'
+    highlight_event_id: guji-祈愿文-event-1
+  - key: breakthrough
+    name: 转经唱佛燃灯
+    labels:
+      zh: 转经燃灯
+    start_date: '0931-12-22'
+    highlight_event_id: guji-祈愿文-event-1
+  - key: climax
+    name: 舍施散食布施
+    labels:
+      zh: 舍施散食
+    start_date: '0931-12-24'
+    highlight_event_id: guji-祈愿文-event-1
+  - key: closure
+    name: 坛散具文回向
+    labels:
+      zh: 坛散回向
+    start_date: '0931-12-26'
+    highlight_event_id: guji-祈愿文-event-2
+  decisions:
+  - date: '0931-12-21'
+    title_zh: 定五日结坛供僧之期
+    rationale: 以五日为期广设供养燃灯唱佛凝聚善缘
+  - date: '0931-12-24'
+    title_zh: 以布驼皮纸施众
+    rationale: 倾财舍施成就坛功祈龙天八部护卫敦煌
+- id: guji-祈愿文-endeavor-2
+  title_zh: 祝圣保位合宅求安
+  description: 祈帝主归京大王保位公主夫人安泰郎君娘子成长田祥五稼丰登边使早达
+  phases:
+  - key: brewing
+    name: 祝帝主大王
+    labels:
+      zh: 祝圣保位
+    start_date: '0931-12-26'
+    highlight_event_id: guji-祈愿文-event-2
+  - key: breakthrough
+    name: 祈合宅枝罗纳庆
+    labels:
+      zh: 合宅纳庆
+    start_date: '0931-12-26'
+    highlight_event_id: guji-祈愿文-event-2
+  - key: climax
+    name: 愿田祥五稼丰收
+    labels:
+      zh: 田祥丰登
+    start_date: '0931-12-26'
+    highlight_event_id: guji-祈愿文-event-2
+  - key: closure
+    name: 祈边情息使早还
+    labels:
+      zh: 边宁使达
+    start_date: '0931-12-26'
+    highlight_event_id: guji-祈愿文-event-2
+  decisions:
+  - date: '0931-12-26'
+    title_zh: 上文愿帝主归京八表献款
+    rationale: 托坛功回向朝廷以求静塞安民
+  - date: '0931-12-26'
+    title_zh: 并祈合宅五稼朝使三事
+    rationale: 由家及野由近及远次第祈愿以全坛散功德
+events:
+- id: guji-祈愿文-event-birth
+  title_zh: 约生于敦煌归义军治下
+  date: '0900-01-01'
+  year_of: 900
+  type: birth
+  description: 约九世纪末生于敦煌归义军治下军民之家
+- id: guji-祈愿文-event-1
+  title_zh: 结坛五日供僧燃灯唱佛
+  date: '0931-12-21'
+  year_of: 931
+  type: career
+  description: 处结坛五日每坛供僧散食燃灯逐夜唱佛布施舍施
+  endeavor_ref: guji-祈愿文-endeavor-1
+- id: guji-祈愿文-event-2
+  title_zh: 长兴二年十二月二十六日上祈愿文
+  date: '0931-12-26'
+  year_of: 931
+  type: career
+  description: 具文祈龙天八部护卫敦煌愿帝主归京大王保位合宅安泰五稼丰登边使早拜天颜三尊回向
+  endeavor_ref: guji-祈愿文-endeavor-2
+- id: guji-祈愿文-event-death
+  title_zh: 长兴后约卒于敦煌
+  date: '0932-01-01'
+  year_of: 932
+  type: death
+  description: 坛散回向后不久约卒于敦煌
