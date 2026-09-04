@@ -1,0 +1,129 @@
+person:
+  qid: guji-俞弁
+  name_zh: 俞弁
+  names:
+    zh: 俞弁
+    en: Yu Bian
+  lifespan:
+    birth:
+      date: 1485
+      precision: year
+      is_circa: true
+      raw: 明弘治前后吴中
+    death:
+      date: 1545
+      precision: year
+      is_circa: true
+      raw: 明嘉靖中后期
+  birth_date: 1485
+  death_date: 1545
+  era: 明
+  reign_ref: 明世宗嘉靖
+  archetype: 儒医纂述者
+  dilemmas:
+  - title_zh: 博繁与简核之抉择
+    description: 积久成帙至十卷病其繁故略节取要以便家塾讲习
+  - title_zh: 守经与权变之平衡
+    description: 述古法今事酌中随时通变不专一方一论以明其宜
+  lesson: 述古法今时博而归约简而核方能究之施行以全司命之托
+  summary_first_person: 吾俞弁字子容自附守约吴人癖于论医或闻师友讲谈或披阅诸史百家凡会于心辄手抄备忘积久成帙十卷名曰续医说先经始事后经终义系以经脉辩症症辩剂系以余得前烈参时贤系以某人以示无专无私无掩略节取要讲于家塾愿与好事者共之
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%BB%AD%E5%8C%BB%E8%AF%B4.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%BB%AD%E5%8C%BB%E8%AF%B4.html
+endeavors:
+- id: guji-俞弁-endeavor-1
+  title_zh: 纂集续医说十卷
+  summary_zh: 披阅诸史百家手抄会心之言述古法今事积有岁月得理与意纂载不遗成书十卷
+  phases:
+  - key: brewing
+    name: 手抄备忘积累
+    labels:
+      zh: 积累
+    start_date: 1505
+    highlight_event_id: guji-俞弁-event-birth
+  - key: breakthrough
+    name: 会心成帙自叙
+    labels:
+      zh: 成帙
+    start_date: 1522-08-06
+    highlight_event_id: guji-俞弁-event-compile
+  - key: climax
+    name: 略节取要讲习
+    labels:
+      zh: 简核
+    start_date: 1534
+    highlight_event_id: guji-俞弁-event-preface-wu
+  - key: closure
+    name: 缙绅作序行世
+    labels:
+      zh: 传世
+    start_date: 1537-04-05
+    highlight_event_id: guji-俞弁-event-preface-lu
+  decisions:
+  - date: 1522-08-06
+    title_zh: 自定凡例示无专私掩
+    rationale: 先经始事后经终义系以经以示无专脉辩症症辩剂系以余以示无私得前烈参时贤系以某人以示无掩以清源别流
+  - date: 1534
+    title_zh: 病繁略节以便家塾
+    rationale: 原帙繁重故节取精要博而归约简而核迹其所到可究施行不敢肆然轻司命
+- id: guji-俞弁-endeavor-2
+  title_zh: 家塾讲医辨正时失
+  summary_zh: 以续医说讲于家塾原医明道论医书得失参伍权变以通时宜
+  phases:
+  - key: brewing
+    name: 原医明道
+    labels:
+      zh: 原道
+    start_date: 1522-08-06
+    highlight_event_id: guji-俞弁-event-compile
+  - key: breakthrough
+    name: 辨正医书方论
+    labels:
+      zh: 辨正
+    start_date: 1534
+    highlight_event_id: guji-俞弁-event-preface-wu
+  - key: climax
+    name: 采录古今名医验案
+    labels:
+      zh: 征验
+    start_date: 1537-04-05
+    highlight_event_id: guji-俞弁-event-preface-lu
+  - key: closure
+    name: 酌中随时以传后学
+    labels:
+      zh: 授学
+    start_date: 1537-04-05
+    highlight_event_id: guji-俞弁-event-preface-lu
+  decisions:
+  - date: 1534
+    title_zh: 酌中随时不泥常方
+    rationale: 药贵合宜法当应变泥常则参反杀人通变则乌头活命须随时增损视时盛衰而用攻补
+  - date: 1537-04-05
+    title_zh: 博采众议拾遗探奥
+    rationale: 不专一方一论于先正钜伪有取析同异极变化决嫌疑定可治以拾四子之遗探三圣之奥
+events:
+- id: guji-俞弁-event-birth
+  title_zh: 出生吴中
+  date: 1485
+  year_of: 1485
+  description: 俞弁字子容号守约生于吴中后以翁约斋号自附守约癖于论医
+- id: guji-俞弁-event-compile
+  title_zh: 手抄成帙自叙续医说
+  date: 1522-08-06
+  year_of: 1522
+  description: 壬午七月望日自叙闻师友讲谈披阅诸史百家手抄备忘积久成十卷名曰续医说匪敢颉顽与好事者共之
+- id: guji-俞弁-event-preface-wu
+  title_zh: 吴恩为续医说作序
+  date: 1534
+  year_of: 1534
+  description: 嘉靖甲午卿贡进士吴恩序称其得理与意纂载不遗博而要辩而精简而核可究施行
+- id: guji-俞弁-event-preface-lu
+  title_zh: 陆师道为续医说作序
+  date: 1537-04-05
+  year_of: 1537
+  description: 嘉靖丁酉春三月既望陆师道叙称其拾四子之遗探三圣之奥析同异极变化决嫌疑定可治表籍身验及近世名人文集杂纪有裨于医者
+- id: guji-俞弁-event-death
+  title_zh: 逝世
+  date: 1545
+  year_of: 1545
+  description: 嘉靖中后期卒于吴中续医说已行世为后学楷范
