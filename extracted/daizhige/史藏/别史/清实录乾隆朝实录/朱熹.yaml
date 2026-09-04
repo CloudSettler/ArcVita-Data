@@ -1,0 +1,135 @@
+person:
+  qid: guji-朱熹
+  name_zh: 朱熹
+  names:
+    zh: 朱熹
+    en: Zhu Xi
+  lifespan:
+    birth:
+      date: 1130-10-22
+      precision: day
+      is_circa: false
+      raw: 建炎四年九月十五日
+    death:
+      date: 1200-04-23
+      precision: day
+      is_circa: false
+      raw: 庆元六年三月初九日
+  birth_date: 1130-10-22
+  death_date: 1200-04-23
+  era: 南宋
+  reign_ref: 宋高宗建炎至宋宁宗庆元
+  archetype: 理学宗师
+  dilemmas:
+  - 出仕行道与退藏讲学之间进退两难
+  - 持守道统正脉与调和时俗政务之间义利难全
+  lesson: 持敬穷理格物致知以明人伦而淑人心
+  summary_first_person: 吾少承父训中进士而不乐仕进师李侗而悟静中体道一生集注四书重建白鹿洞以讲学育人晚虽罹党禁而讲道不辍愿以百世经师之心明圣贤之统
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70068.html
+endeavors:
+- id: guji-朱熹-endeavor-1
+  title_zh: 集注四书集成理学体系
+  summary: 师承二程潜心义理以四书章句集注明道统持敬穷理建构理学大成之业
+  phases:
+  - key: brewing
+    name: 延平问道潜心圣学
+    labels:
+      zh: 求道
+    start_date: 1153-06-01
+    highlight_event_id: guji-朱熹-event-jinshi
+  - key: breakthrough
+    name: 著述论孟初立规模
+    labels:
+      zh: 立言
+    start_date: 1172-01-01
+    highlight_event_id: guji-朱熹-event-sishu
+  - key: climax
+    name: 四书集注阐明道统
+    labels:
+      zh: 集大成
+    start_date: 1182-10-01
+    highlight_event_id: guji-朱熹-event-sishu
+  - key: closure
+    name: 晚年定论垂训后世
+    labels:
+      zh: 垂训
+    start_date: 1196-01-01
+    highlight_event_id: guji-朱熹-event-dangjin
+  decisions:
+  - date: 1160-03-01
+    title_zh: 师事李侗专心为己之学
+    rationale: 不逐科举词章而求圣贤本心以静中体验为入道之基
+  - date: 1182-10-01
+    title_zh: 先成论孟集注以立四书规模
+    rationale: 以大学中庸为纲领以语孟为阶梯使学者有次第可循
+- id: guji-朱熹-endeavor-2
+  title_zh: 重建白鹿洞书院讲学经世
+  summary: 知南康军兴复白鹿洞定学规以化民成俗讲学浙东而以社仓荒政经世济民
+  phases:
+  - key: brewing
+    name: 初仕同安敷陈治道
+    labels:
+      zh: 试政
+    start_date: 1153-06-01
+    highlight_event_id: guji-朱熹-event-jinshi
+  - key: breakthrough
+    name: 知南康重建白鹿洞
+    labels:
+      zh: 兴学
+    start_date: 1179-04-01
+    highlight_event_id: guji-朱熹-event-bailudong
+  - key: climax
+    name: 鹅湖论辩明辨义利
+    labels:
+      zh: 论道
+    start_date: 1175-06-01
+    highlight_event_id: guji-朱熹-event-bailudong
+  - key: closure
+    name: 党禁落职讲学不辍
+    labels:
+      zh: 守道
+    start_date: 1196-01-01
+    highlight_event_id: guji-朱熹-event-dangjin
+  decisions:
+  - date: 1180-03-01
+    title_zh: 奏复白鹿洞颁定学规
+    rationale: 以明人伦敬业乐群为教使士知为己而风俗可厚
+  - date: 1196-01-01
+    title_zh: 庆元党禁后闭门著述授徒
+    rationale: 不以毁誉动心而以传道为任保全斯文命脉于厄运之中
+events:
+- id: guji-朱熹-event-birth
+  title_zh: 出生于尤溪
+  date: 1130-10-22
+  year_of: 1130
+  description: 建炎四年九月十五日生于南剑州尤溪父松钟爱而期以圣贤
+- id: guji-朱熹-event-jinshi
+  title_zh: 登绍兴进士第
+  date: 1148-04-15
+  year_of: 1148
+  description: 年十九登进士第授泉州同安主簿始留意经世而志在圣学
+  endeavor_ref: guji-朱熹-endeavor-2
+- id: guji-朱熹-event-bailudong
+  title_zh: 知南康军重建白鹿洞书院
+  date: 1180-03-15
+  year_of: 1180
+  description: 奏复白鹿洞书院延聘学者讲学其中颁白鹿洞规以立教法一时风化大行
+  endeavor_ref: guji-朱熹-endeavor-2
+- id: guji-朱熹-event-sishu
+  title_zh: 四书章句集注初成
+  date: 1182-10-01
+  year_of: 1182
+  description: 论语孟子集注相继成帙以大学中庸章句配之确立四书规模为后世取士立学之本
+  endeavor_ref: guji-朱熹-endeavor-1
+- id: guji-朱熹-event-dangjin
+  title_zh: 庆元党禁落职罢祠
+  date: 1196-02-01
+  year_of: 1196
+  description: 韩侂胄擅政指道学为伪学落职罢祠门人禁锢而著述讲学益坚不为所屈
+  endeavor_ref: guji-朱熹-endeavor-1
+- id: guji-朱熹-event-death
+  title_zh: 逝世于建阳考亭
+  date: 1200-04-23
+  year_of: 1200
+  description: 庆元六年三月初九日卒于考亭门人私谥文公后世御书百世经师以崇其庙
