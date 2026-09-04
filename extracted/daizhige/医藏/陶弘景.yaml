@@ -9,132 +9,124 @@ person:
       date: '0456'
       precision: year
       is_circa: false
-      raw: 宋孝建三年丹阳秣陵
+      raw: 孝建三年
     death:
       date: '0536'
       precision: year
       is_circa: false
-      raw: 梁大同二年茅山
+      raw: 大同二年
   birth_date: '0456'
   death_date: '0536'
   era: 南北朝
-  reign_ref: 南朝宋齐梁
-  archetype: 隐逸道士
+  reign_ref: 宋孝建至梁大同
+  archetype: 山中宰相式隐医
   dilemmas:
-  - 出仕辅政显达与辞官入山求道之间的进退两难
-  - 服饵丹药求长生与啬神爱气节饮食之间的损益权衡
-  lesson: 游心虚静啬神爱气，节饮食慎起居导引，以道守生方能延命济物。
-  summary_first_person: 我少好道术博学多识，仕宋齐为诸王侍读奉朝请而心在林泉，遂辞官隐居茅山自号华阳隐居，承上清经法撰真诰与真灵位业图，梁武帝信重而书问参决国事，晚年披览养生要集删繁取要而成养性延命录，又集注本草以疗疾济世，但愿形神相守不以外物戕生。
+  - 出仕济世与入山保全之抉择
+  - 通儒道佛炼丹服饵与守正济人之平衡
+  lesson: 隐而不废世用以医药著述济人传后
+  summary_first_person: 吾本秣陵书生少好书方术早游仕途后见世浊挂冠栖茅山华阳究本草辨经传炼丹明道愿以药石活人以著述惠后
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%BB%E6%80%A7%E5%BB%B6%E5%91%BD%E5%BD%95.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%BB%E6%80%A7%E5%BB%B6%E5%91%BD%E5%BD%95.md
+  - https://daizhige.org/医藏/名医别录.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/名医别录.md
 endeavors:
 - id: guji-陶弘景-endeavor-1
-  title_zh: 辞官隐茅山统合上清道脉
-  summary: 由奉朝请转而栖隐茅山华阳，整理上清经法，奠定茅山宗规制，兼以山中宰相参决梁室机要。
+  title_zh: 集注本草别录成体系
+  summary: 以神农本经为纲增补名医别录厘清三品以朱墨分辨经纬成七卷开后世本草之先
   phases:
   - key: brewing
-    name: 博学仕齐心在林泉
+    name: 入山搜药访方
     labels:
-      zh:
-      - 出仕博学
-    start_date: 0478
-    highlight_event_id: guji-陶弘景-event-resign
-  - key: breakthrough
-    name: 永明辞官栖隐茅山
-    labels:
-      zh:
-      - 辞官栖隐
+      zh: 酝酿搜集
     start_date: 0492
-    highlight_event_id: guji-陶弘景-event-resign
-  - key: climax
-    name: 梁武书问山中宰相
+    highlight_event_id: guji-陶弘景-event-seclusion
+  - key: breakthrough
+    name: 朱墨分书辨经别录
     labels:
-      zh:
-      - 隐而参政
-    start_date: '0502'
+      zh: 突破体例
+    start_date: '0500'
+    highlight_event_id: guji-陶弘景-event-bencao
+  - key: climax
+    name: 本草经集注七卷告成
+    labels:
+      zh: 高峰成书
+    start_date: '0505'
+    highlight_event_id: guji-陶弘景-event-bencao
+  - key: closure
+    name: 授徒传本草惠后学
+    labels:
+      zh: 收束传授
+    start_date: '0515'
+    highlight_event_id: guji-陶弘景-event-counsel
+  decisions:
+  - date: 0499
+    title_zh: 以朱墨别经文与别录
+    rationale: 经传混杂难辨古义故朱书经墨书纬使学者一目了然不致误用
+  - date: '0505'
+    title_zh: 增药三百余种定为三品
+    rationale: 古方新药日增若不补录则医无所据故采名医别录以广见闻全体系
+- id: guji-陶弘景-endeavor-2
+  title_zh: 茅山隐修遥赞梁政
+  summary: 永明辞官栖华阳洞服饵炼丹注道经兼以医药济世梁武屡聘不就而书问参决时称山中宰相
+  phases:
+  - key: brewing
+    name: 挂冠入茅山
+    labels:
+      zh: 酝酿隐栖
+    start_date: 0492
+    highlight_event_id: guji-陶弘景-event-seclusion
+  - key: breakthrough
+    name: 立馆炼丹明道
+    labels:
+      zh: 突破修持
+    start_date: 0495
+    highlight_event_id: guji-陶弘景-event-bencao
+  - key: climax
+    name: 书问密参朝政
+    labels:
+      zh: 高峰赞政
+    start_date: '0514'
     highlight_event_id: guji-陶弘景-event-counsel
   - key: closure
-    name: 真灵位业垂范后学
+    name: 羽化茅山遗风在道
     labels:
-      zh:
-      - 立教垂范
-    start_date: '0520'
+      zh: 收束羽化
+    start_date: '0536'
     highlight_event_id: guji-陶弘景-event-death
   decisions:
   - date: 0492
-    title_zh: 上表辞官隐居茅山
-    rationale: 不欲以声色富贵劳神损形，欲游心虚静以全道守生，故舍显职而就山林。
-  - date: '0502'
-    title_zh: 虽隐仍以书疏决国事
-    rationale: 梁武雅相信重，隐居亦可济物护生，故以道佐时而不累其心。
-- id: guji-陶弘景-endeavor-2
-  title_zh: 集养生医药著述济世延命
-  summary: 披览张湛翟平等养生要集，删繁取要类聚成养性延命录，又集注神农本草经，阐啬神爱气导引饮食之要。
-  phases:
-  - key: brewing
-    name: 止观之暇披览要集
-    labels:
-      zh:
-      - 博览养生
-    start_date: 0495
-    highlight_event_id: guji-陶弘景-event-resign
-  - key: breakthrough
-    name: 集注本草辨明药性
-    labels:
-      zh:
-      - 本草集注
-    start_date: '0500'
-    highlight_event_id: guji-陶弘景-event-compile
-  - key: climax
-    name: 类聚成书养性延命录
-    labels:
-      zh:
-      - 著书延命
-    start_date: '0515'
-    highlight_event_id: guji-陶弘景-event-compile
-  - key: closure
-    name: 教戒流传补助于有缘
-    labels:
-      zh:
-      - 济物垂训
-    start_date: '0530'
-    highlight_event_id: guji-陶弘景-event-death
-  decisions:
-  - date: '0500'
-    title_zh: 先注本草后谈养生
-    rationale: 服饵虽能延年，若不知养性之术亦难长生，故必形神药食兼摄。
-  - date: '0515'
-    title_zh: 删弃繁芜类聚篇题
-    rationale: 前彦所集卷帙浩繁，取其有益养生无损后患者为教戒食戒等篇，以济有缘。
+    title_zh: 上表辞禄隐茅山
+    rationale: 见齐室昏乱仕途难展不如保形全真以道术医术自全而济人
+  - date: '0514'
+    title_zh: 不就征召而以书陈事
+    rationale: 既已入道不宜复蹈尘网但感梁武礼意故遥陈治道与养生之要两全出处
 events:
 - id: guji-陶弘景-event-birth
-  title_zh: 生于丹阳秣陵
   date: '0456'
   year_of: 456
+  title_zh: 生于丹阳秣陵
+  description: 宋孝建三年生于丹阳秣陵幼聪慧喜读书好养生方术
   place_zh: 丹阳秣陵
-  description: 宋孝建三年生，少聪敏博学，好道术养生，涉猎经史百家。
-- id: guji-陶弘景-event-resign
-  title_zh: 辞奉朝请隐居茅山
+- id: guji-陶弘景-event-seclusion
   date: 0492
   year_of: 492
-  place_zh: 茅山华阳
-  description: 齐永明十年上表辞官，隐居茅山，自号华阳隐居，修上清道法，行导引服饵。
-- id: guji-陶弘景-event-counsel
-  title_zh: 梁武帝礼敬参决国事
-  date: '0502'
-  year_of: 502
-  place_zh: 茅山与建康
-  description: 梁代禅后，武帝屡以书问咨访朝政军国大事，时人称为山中宰相，虽隐而心系苍生。
-- id: guji-陶弘景-event-compile
-  title_zh: 编成养性延命录与本草集注
-  date: '0515'
-  year_of: 515
+  title_zh: 辞官隐居茅山
+  description: 永明十年上表辞侍读之职栖茅山华阳洞自号华阳隐居搜药访道
+  place_zh: 茅山华阳洞
+- id: guji-陶弘景-event-bencao
+  date: '0505'
+  year_of: 505
+  title_zh: 本草经集注成书
+  description: 会神农本经与名医别录以朱墨分辨增补新药七百余种成七卷垂范后世
   place_zh: 茅山
-  description: 披览养生要集，略取要法分为教戒食戒等篇，号为养性延命录，又成神农本草经集注真诰真灵位业图等，以补助于有缘。
+- id: guji-陶弘景-event-counsel
+  date: '0514'
+  year_of: 514
+  title_zh: 梁武礼聘遥参政事
+  description: 梁武帝礼敬有加每有大事书问弘景密表定策时人谓山中宰相兼以丹方救人
+  place_zh: 茅山
 - id: guji-陶弘景-event-death
-  title_zh: 卒于茅山谥贞白先生
   date: '0536'
   year_of: 536
+  title_zh: 羽化于茅山
+  description: 大同二年羽化于茅山年八十一谥贞白先生遗著本草真诰等传世
   place_zh: 茅山
-  description: 梁大同二年羽化于茅山，遗命薄葬，朝廷谥贞白先生，其养生啬神爱气之说流传后世。
