@@ -1,0 +1,118 @@
+person:
+  qid: guji-僧伽跋澄
+  name_zh: 僧伽跋澄
+  names:
+    zh: 僧伽跋澄
+    en: Sanghabhuti
+  lifespan:
+    birth:
+      date: '0320'
+      precision: year
+      is_circa: true
+      raw: 罽宾约四世纪初生
+    death:
+      date: 0385
+      precision: year
+      is_circa: true
+      raw: 前秦建元末寂于长安
+  birth_date: '0320'
+  death_date: 0385
+  era: 十六国前秦
+  reign_ref: 苻坚建元
+  archetype: 译经弘法者
+  dilemmas:
+  - 梵义精微而秦语未备，如何传译不失毗昙宗要
+  - 毗昙广博而初学厌繁，如何立章立门令人得入
+  lesson: 燃阿毗昙灯破无明闇，以章门次第接引初学，渡出生死河
+  summary_first_person: 我是罽宾三藏僧伽跋澄，奉法东入长安，译出鞞婆沙论，愿以分别法相之慧，开示无我，饶益后学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/鞞婆沙论.md
+  - https://daizhige.org/鞞婆沙论.html
+endeavors:
+- id: guji-僧伽跋澄-endeavor-1
+  title_zh: 罽宾学法东入长安弘化
+  summary: 罽宾出家精通三藏，东入前秦长安，弘宣毗昙，敷演法相
+  phases:
+  - key: brewing
+    name: 罽宾受学
+    labels:
+      zh: 求法学毗昙
+    start_date: '0320'
+    highlight_event_id: guji-僧伽跋澄-event-birth
+  - key: breakthrough
+    name: 入秦至长安
+    labels:
+      zh: 入秦弘化
+    start_date: '0370'
+    highlight_event_id: guji-僧伽跋澄-event-changan
+  decisions:
+  - date: '0370'
+    title_zh: 应请东行入秦
+    rationale: 为饶益东方众生，令得闻思毗昙正法，故冒险东行
+  - date: '0371'
+    title_zh: 止住长安敷演三藏
+    rationale: 长安为弘法都会，亲近道俗，方能久住流布，故决定安住
+- id: guji-僧伽跋澄-endeavor-2
+  title_zh: 译出鞞婆沙论阐扬八揵度
+  summary: 手执阿毗昙灯，译出尸陀槃尼所撰鞞婆沙论，立章立门，释杂结使智行等八揵度
+  phases:
+  - key: climax
+    name: 开译鞞婆沙
+    labels:
+      zh: 立章释义
+    start_date: '0375'
+    highlight_event_id: guji-僧伽跋澄-event-translate
+  - key: closure
+    name: 传授流通
+    labels:
+      zh: 饶益后学
+    start_date: 0380
+    highlight_event_id: guji-僧伽跋澄-event-death
+  decisions:
+  - date: '0375'
+    title_zh: 先作章后立门而译
+    rationale: 欲现佛经无量义，令初学有次第可入，故依治地基法先章后门
+  - date: 0378
+    title_zh: 详释三结九十八使
+    rationale: 为断无明见无我像，令行者知缚系杂毒之义，故广分别结使
+events:
+- id: guji-僧伽跋澄-event-birth
+  type: birth
+  title_zh: 生于罽宾
+  date: '0320'
+  year_of: 320
+  precision: year
+  is_circa: true
+  raw: 罽宾约四世纪初
+  location_zh: 罽宾
+  description: 罽宾出生出家，幼学三藏，尤精阿毗昙
+- id: guji-僧伽跋澄-event-changan
+  type: career
+  title_zh: 抵达长安弘法
+  date: '0370'
+  year_of: 370
+  precision: year
+  is_circa: true
+  raw: 前秦建元六年前后至长安
+  location_zh: 长安
+  description: 应前秦之请，东入长安，为时人敷演毗昙法相
+- id: guji-僧伽跋澄-event-translate
+  type: career
+  title_zh: 译出鞞婆沙论
+  date: '0375'
+  year_of: 375
+  precision: year
+  is_circa: true
+  raw: 建元中译鞞婆沙
+  location_zh: 长安
+  description: 译尸陀槃尼所撰鞞婆沙论，释迦旃延子八揵度，立杂结使智行四大根定见等章门
+- id: guji-僧伽跋澄-event-death
+  type: death
+  title_zh: 寂于长安
+  date: 0385
+  year_of: 385
+  precision: year
+  is_circa: true
+  raw: 前秦建元末寂
+  location_zh: 长安
+  description: 译经弘法既竟，示寂于长安，毗昙之学遂流通关中
