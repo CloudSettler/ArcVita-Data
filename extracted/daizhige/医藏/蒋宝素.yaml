@@ -1,0 +1,129 @@
+person:
+  qid: guji-蒋宝素
+  name_zh: 蒋宝素
+  names:
+    zh: 蒋宝素
+    en: Jiang Baosu
+  lifespan:
+    birth:
+      date: 1805-01-01
+      precision: year
+      is_circa: true
+      raw: 清嘉庆年间生于镇江京口十四岁始识字推算
+    death:
+      date: 1870-01-01
+      precision: year
+      is_circa: true
+      raw: 道光后有声大江南北卒年不详约清同治年间
+  birth_date: 1805-01-01
+  death_date: 1870-01-01
+  era: 清
+  reign_ref: 道光
+  archetype: 家学师承型良医
+  dilemmas:
+  - title_zh: 幼贫失学与究心经籍
+    description: 幼极贫十四始识字，唯承父椿田家传并师王九峰秘授，以勤补拙深研灵枢素问
+  - title_zh: 守经义与折衷诸家
+    description: 原本经术参仲景东垣诸家，芟芜荟精，既守表里阴阳虚实之辨又因时制宜
+  lesson: 为医等于为相，固护正气为先，辨伏邪审形神，方能济世全人
+  summary_first_person: 我是镇江京口蒋宝素，父为椿田老人，师为王九峰，幼贫十四始识字，承家学师传锐志岐黄，有声大江南北，因家君医话业师医案著医略八十一卷，先刻六淫门十三卷以问世，愿天下明哲惠而教我
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/医略.md
+  - https://daizhige.org/医藏/医略.html
+endeavors:
+- id: guji-蒋宝素-endeavor-1
+  title_zh: 承家学师授精研岐黄成名江南
+  description: 述父椿田老人家学，从里中良医王九峰游尽得其传，不数年声华藉甚，所至病若失
+  phases:
+  - key: brewing
+    name: 幼贫失学承家学
+    labels:
+      zh:
+      - 家学
+      - 苦学
+    start_date: 1819-01-01
+    highlight_event_id: guji-蒋宝素-event-study
+  - key: breakthrough
+    name: 师授秘传洞见症结
+    labels:
+      zh:
+      - 师承
+      - 诊脉
+    start_date: 1825-01-01
+    highlight_event_id: guji-蒋宝素-event-study
+  - key: climax
+    name: 声誉骤起大江南北
+    labels:
+      zh:
+      - 成名
+      - 济世
+    start_date: 1835-01-01
+    highlight_event_id: guji-蒋宝素-event-fame
+  decisions:
+  - date: 1820-01-01
+    title_zh: 述父学从师王九峰
+    rationale: 幼贫失学唯家学可依，兼得九峰秘授以补经籍之不足
+  - date: 1830-01-01
+    title_zh: 以玉屏风升麻葛根加减治真中风
+    rationale: 邪之所凑其气必虚，辅正散风兼顾脾肾，防呃逆鼾呼大汗之变
+- id: guji-蒋宝素-endeavor-2
+  title_zh: 本经义著医略济世传世
+  description: 本之经术邃于方剂，旁及素问仲景东垣，著医略八十一卷，先刻六淫门十三卷，得潘世恩阮元卓秉恬周之琦李承霖诸公作序
+  phases:
+  - key: brewing
+    name: 折衷三折肱诸家说
+    labels:
+      zh:
+      - 著述
+      - 经义
+    start_date: 1838-01-01
+    highlight_event_id: guji-蒋宝素-event-book
+  - key: breakthrough
+    name: 快志堂自序问世
+    labels:
+      zh:
+      - 自序
+      - 问世
+    start_date: 1840-12-21
+    highlight_event_id: guji-蒋宝素-event-book
+  - key: closure
+    name: 诸名公作序征信于时
+    labels:
+      zh:
+      - 推崇
+      - 传世
+    start_date: 1848-03-01
+    highlight_event_id: guji-蒋宝素-event-fame
+  decisions:
+  - date: 1840-12-21
+    title_zh: 先刻六淫门十三卷以问世
+    rationale: 天下疾病蕃变明哲难得，先以伏邪关格人迎等要旨示人，求天下明哲惠教
+  - date: 1848-03-01
+    title_zh: 以李雨人导意请序征信
+    rationale: 方家刀圭可通宰辅鼎鼐，借台省名公序文使济世之书得传
+events:
+- id: guji-蒋宝素-event-birth
+  title_zh: 生于镇江京口蒋氏
+  date: 1805-01-01
+  year_of: 1805
+  description: 京口蒋椿田老人之哲嗣，幼极贫失学，延陵大郡会镇江人
+- id: guji-蒋宝素-event-study
+  title_zh: 十四识字承家学师王九峰
+  date: 1820-01-01
+  year_of: 1820
+  description: 年十四始识字，述乃翁家学，从里中良医王九峰游尽得其传，未几声誉骤起
+- id: guji-蒋宝素-event-book
+  title_zh: 快志堂自序医略八十一卷
+  date: 1840-12-21
+  year_of: 1840
+  description: 道光二十年庚子冬至自序，因家君医话业师医案著医略八十一卷，先刻六淫门十三卷，详真中风三方及伏邪关格人迎之辨
+- id: guji-蒋宝素-event-fame
+  title_zh: 得阮元潘世恩等诸公作序盛赞
+  date: 1848-03-01
+  year_of: 1848
+  description: 道光二十八年扬州阮元吴县潘世恩成都卓秉恬中州周之琦同里李承霖等作序，称济世传世之书，扁鹊仓公复生无出其右
+- id: guji-蒋宝素-event-death
+  title_zh: 卒于镇江京口
+  date: 1870-01-01
+  year_of: 1870
+  description: 体羸而神明殊胜，晚年患怔忡，卒年不详，遗医略十三篇行世
