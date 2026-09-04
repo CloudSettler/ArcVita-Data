@@ -1,0 +1,138 @@
+person:
+  qid: guji-沈棐
+  name_zh: 沈棐
+  names:
+    zh: 沈棐
+    en: Shen Fei
+  lifespan:
+    birth:
+      date: '1120'
+      precision: year
+      is_circa: true
+      raw: 南宋初约生
+    death:
+      date: '1190'
+      precision: year
+      is_circa: true
+      raw: 孝宗淳熙后卒
+  birth_date: '1120'
+  death_date: '1190'
+  era: 南宋
+  reign_ref: 宋孝宗
+  archetype: 经学家
+  dilemmas:
+  - 姓名归属异说并存
+  - 舍传独考恐难中的
+  lesson: 即经类事见始末以明圣人经世之志
+  summary_first_person: 我为湖州文伯曾任婺州校官以文辞称即经类次春秋始末撰成总论蒙陈亮易名比事锓木以传愿舍传独考而见圣人之志
+  source_urls:
+  - https://daizhige.org/儒藏/春秋/春秋比事.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/春秋比事.md
+endeavors:
+- id: guji-沈棐-endeavor-1
+  title_zh: 编撰春秋总论后更名比事
+  summary: 以诸国类次前以事迹比例为说凡二十卷
+  phases:
+  - key: brewing
+    name: 即经类次萌志
+    labels:
+      zh: 类经
+    start_date: '1160'
+    highlight_event_id: guji-沈棐-event-jiaoguan
+  - key: breakthrough
+    name: 总论初成
+    labels:
+      zh: 成书
+    start_date: '1175'
+    highlight_event_id: guji-沈棐-event-zonglun
+  - key: climax
+    name: 陈亮更名作序
+    labels:
+      zh: 更名
+    start_date: '1185'
+    highlight_event_id: guji-沈棐-event-bishi
+  - key: closure
+    name: 金华刊行传世
+    labels:
+      zh: 刊行
+    start_date: '1345'
+    highlight_event_id: guji-沈棐-event-kanxing
+  decisions:
+  - date: '1175'
+    title_zh: 以传考经不如以经考事
+    rationale: 读书患难通欲抱遗经见圣人之志故类事见始末
+  - date: '1185'
+    title_zh: 受陈亮易名春秋比事
+    rationale: 原名总论未切属辞比事之义故从更名以与同志共之
+- id: guji-沈棐-endeavor-2
+  title_zh: 任婺州校官教授
+  summary: 以文辞称于浙东教授诸生兼治经学
+  phases:
+  - key: brewing
+    name: 湖州力学
+    labels:
+      zh: 出身
+    start_date: '1140'
+    highlight_event_id: guji-沈棐-event-birth
+  - key: breakthrough
+    name: 出为婺州教官
+    labels:
+      zh: 任官
+    start_date: '1160'
+    highlight_event_id: guji-沈棐-event-jiaoguan
+  - key: climax
+    name: 以文辞称不以经称
+    labels:
+      zh: 声名
+    start_date: '1170'
+    highlight_event_id: guji-沈棐-event-zonglun
+  - key: closure
+    name: 归老著述传疑
+    labels:
+      zh: 归隐
+    start_date: '1190'
+    highlight_event_id: guji-沈棐-event-death
+  decisions:
+  - date: '1160'
+    title_zh: 就婺学以淑后进
+    rationale: 身为校官当以经义启学者舍传独考之法授同志
+  - date: '1170'
+    title_zh: 勤于著述不求经名
+    rationale: 惜勤而卒不见名亦不计但愿此书可传以明褒贬
+events:
+- id: guji-沈棐-event-birth
+  type: birth
+  date: '1120'
+  year_of: 1120
+  title_zh: 生于湖州
+  description: 字文伯湖州人南宋初约生
+- id: guji-沈棐-event-jiaoguan
+  type: career
+  date: '1160'
+  year_of: 1160
+  title_zh: 任婺州校官
+  description: 尝为婺之校官以文辞称教授诸生
+- id: guji-沈棐-event-zonglun
+  type: career
+  date: '1175'
+  year_of: 1175
+  title_zh: 撰成春秋总论二十卷
+  description: 前以诸国类次后以朝聘征伐会盟比例为说持论平允
+- id: guji-沈棐-event-bishi
+  type: career
+  date: '1185'
+  year_of: 1185
+  title_zh: 陈亮序而更名春秋比事
+  description: 陈亮读之洒然有当易名锓木以与同志共之
+- id: guji-沈棐-event-kanxing
+  type: career
+  date: '1345'
+  year_of: 1345
+  title_zh: 元至正中刊于金华
+  description: 元至正中刊于金华其本久燬赖传录本存四库收录
+- id: guji-沈棐-event-death
+  type: death
+  date: '1190'
+  year_of: 1190
+  title_zh: 卒于南宋孝宗时
+  description: 始末无可考约卒于淳熙后归老而终
