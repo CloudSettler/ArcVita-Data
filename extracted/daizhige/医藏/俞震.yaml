@@ -1,0 +1,126 @@
+person:
+  qid: guji-俞震
+  name_zh: 俞震
+  names:
+    zh: 俞震
+    en: Yu Zhen
+  lifespan:
+    birth:
+      date: 1709
+      precision: year
+      is_circa: true
+      raw: 乾隆四十三年戊戌春年已七十推算约康熙四十八年
+    death:
+      date: 1788
+      precision: year
+      is_circa: true
+      raw: 七十成书后事迹未详约卒于乾隆末年
+  birth_date: 1709
+  death_date: 1788
+  era: 清
+  reign_ref: 乾隆
+  archetype: 医案编纂者
+  dilemmas:
+  - 法有尽病变无尽如何去取以传巧
+  - 巧久成规矩如何加按以防执巧成拙
+  lesson: 即规矩求巧辨真伪别是非表青出于蓝
+  summary_first_person: 余年七十阅历既多自甲午冬至戊戌春汇选名医成案随选随录随录随按以附举隅质之海内同志
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%8C%BB%E6%A1%88%E6%8C%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%8C%BB%E6%A1%88%E6%8C%89.md
+endeavors:
+- id: guji-俞震-endeavor-1
+  title_zh: 汇选古今医案成十卷
+  description: 自甲午冬起博采史传说部及江氏类案等择精当有发明者列十卷分门类以便查阅
+  phases:
+  - key: brewing
+    name: 捉笔发端
+    labels:
+      zh: 立例去取
+    start_date: 1774-12-01
+    highlight_event_id: guji-俞震-event-start
+  - key: breakthrough
+    name: 博采精择
+    labels:
+      zh: 择精删庸
+    start_date: 1775-06-01
+    highlight_event_id: guji-俞震-event-start
+  - key: climax
+    name: 连类编次
+    labels:
+      zh: 按年代病情连类
+    start_date: 1777-01-01
+    highlight_event_id: guji-俞震-event-complete
+  - key: closure
+    name: 蒇事付梓
+    labels:
+      zh: 质之海内同志
+    start_date: 1778-03-01
+    highlight_event_id: guji-俞震-event-complete
+  decisions:
+  - date: 1774-12-01
+    title_zh: 定选案必载脉证方论之例
+    rationale: 治病难在识病识病难在识脉无脉则无从效法故非辨证明治新者不取
+  - date: 1777-06-01
+    title_zh: 以病情相似连类不拘年代先后
+    rationale: 为便览会心闻一知十故颠倒年代以类相从
+- id: guji-俞震-endeavor-2
+  title_zh: 随案加按发明用法之巧
+  description: 每条下据鄙见按断辨真伪别是非或综数事括大略或补旧说新说以防执巧成拙
+  phases:
+  - key: brewing
+    name: 审巧为规矩
+    labels:
+      zh: 悟法有尽巧无尽
+    start_date: 1774-12-01
+    highlight_event_id: guji-俞震-event-start
+  - key: breakthrough
+    name: 按断真伪是非
+    labels:
+      zh: 辨证论治得失
+    start_date: 1775-12-01
+    highlight_event_id: guji-俞震-event-start
+  - key: climax
+    name: 综案括略补说
+    labels:
+      zh: 表青出于蓝
+    start_date: 1777-06-01
+    highlight_event_id: guji-俞震-event-complete
+  - key: closure
+    name: 酌古堂书自叙凡例
+    labels:
+      zh: 付剞劂以俟教正
+    start_date: 1778-03-01
+    highlight_event_id: guji-俞震-event-complete
+  decisions:
+  - date: 1775-12-01
+    title_zh: 削鄙俚矜夸存脉证方论
+    rationale: 只存认病之法条达其辞以便观览而不窜改其意
+  - date: 1778-03-01
+    title_zh: 自按不加密点以俟教正
+    rationale: 成案妙义加密点自按不敢置点恐载籍博见闻有限以免斫而小之之讥
+events:
+- id: guji-俞震-event-birth
+  title_zh: 出生
+  date: 1709
+  year_of: 1709
+  description: 推算约生于康熙四十八年乾隆四十三年时年已七十
+  related_endeavor_id: guji-俞震-endeavor-1
+- id: guji-俞震-event-start
+  title_zh: 甲午冬月始选医案
+  date: 1774-12-01
+  year_of: 1774
+  description: 自甲午冬月为捉笔之始汇选名医成案定凡例七则
+  related_endeavor_id: guji-俞震-endeavor-1
+- id: guji-俞震-event-complete
+  title_zh: 戊戌春成书于酌古堂
+  date: 1778-03-01
+  year_of: 1778
+  description: 至戊戌春月得蒇事列十卷乾隆四十三年月既望书自叙于酌古堂
+  related_endeavor_id: guji-俞震-endeavor-2
+- id: guji-俞震-event-death
+  title_zh: 逝世
+  date: 1788
+  year_of: 1788
+  description: 七十成书后事迹未详约卒于乾隆末年
+  related_endeavor_id: guji-俞震-endeavor-2

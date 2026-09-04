@@ -6,122 +6,144 @@ person:
     en: Luo Mei
   lifespan:
     birth:
-      date: '1645'
+      date: 1660-01-01
       precision: year
       is_circa: true
-      raw: 清初总角郡中游学
+      raw: 清初康熙间新安人约生于是时
     death:
-      date: '1715'
+      date: 1735-01-01
       precision: year
       is_circa: true
-      raw: 康熙末后卒
-  birth_date: '1645'
-  death_date: '1715'
+      raw: 清雍正末乾隆初卒年不详
+  birth_date: 1660-01-01
+  death_date: 1735-01-01
   era: 清
-  reign_ref: 康熙
-  archetype: 儒医
+  reign_ref: 康熙至雍正
+  archetype: 汇纂型医家
   dilemmas:
-  - 儒者无用等木石有用缀职司之间如何卓然自命不溷君王不委草莽
-  - 运气之学众盲摸象粗守陋置高阁之间如何明三合为治以验人身
-  lesson: 儒必读书而后通医医必本阴阳三气五行六气而后能活法应变三合为治
-  summary_first_person: 吾罗美字淡生晚号东逸清初郡人少研经史旁及古文本学隐见烟雨蓬茨三十年读书乐道沉潜内经作博议以明天道运气三才三合立儒医之宗
+  - 执古法以治今病将生人反杀人当如何因时制宜
+  - 寒凉清补与温固真阳相争当如何辨命门水火根本
+  lesson: 拆旧料盖新房，临证如临敌，选药如选将，求其至当而后已
+  summary_first_person: 余新安罗美字东逸，咀啜近代精华，辑古今名医汇粹，欲为后学津梁，使不言轩岐而经旨悉具，因时制宜以救夭枉
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%86%85%E7%BB%8F%E5%8D%9A%E8%AE%AE.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%86%85%E7%BB%8F%E5%8D%9A%E8%AE%AE.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/古今名医汇粹.md
+  - https://daizhige.org/医藏/古今名医汇粹.html
+  - https://ctext.org/library.pl?if=gb&res=wb99273
 endeavors:
 - id: guji-罗美-endeavor-1
-  title_zh: 沉潜内经博议天道运气
-  summary: 明其生五其气三三才体用六节五制五运六气司天在泉以三合为治
+  title_zh: 辑撰古今名医汇粹
+  summary: 博采素难汉唐及近代名贤之说，汇论集方治，以近代精华补轩岐金匮千金之遗，为后学津梁
   phases:
   - key: brewing
-    name: 总角研经
+    name: 博览近代精华
     labels:
-      zh: 研经史古文
-    start_date: '1660'
-    highlight_event_id: guji-罗美-event-youth
+      zh:
+      - 博采
+      - 论集
+    start_date: 1685-01-01
+    highlight_event_id: guji-罗美-event-study
   - key: breakthrough
-    name: 隐居悟道
+    name: 立汇粹体例
     labels:
-      zh: 三气三才
-    start_date: '1680'
-    highlight_event_id: guji-罗美-event-seclusion
+      zh:
+      - 体例
+      - 折衷
+    start_date: 1695-01-01
+    highlight_event_id: guji-罗美-event-compile
   - key: climax
-    name: 发愤著博议
+    name: 成书八卷
     labels:
-      zh: 天道部大论
-    start_date: '1700'
-    highlight_event_id: guji-罗美-event-book
+      zh:
+      - 成书
+      - 金针
+    start_date: 1705-01-01
+    highlight_event_id: guji-罗美-event-compile
   - key: closure
-    name: 博议诸书传世
+    name: 抄本流传
     labels:
-      zh: 垂教后学
-    start_date: '1710'
-    highlight_event_id: guji-罗美-event-book
+      zh:
+      - 流传
+      - 抄录
+    start_date: 1720-01-01
+    highlight_event_id: guji-罗美-event-circulation
   decisions:
-  - date: '1685'
-    title_zh: 以三气立三才之本
-    rationale: 动静各一所以能动静又一合三方能布五而成天地人故标一阴一阳合一之用
-  - date: '1700'
-    title_zh: 以六节五制正运气
-    rationale: 天以六为节地以五为制天施地生主客加临必三合为治不可执铃法印板
+  - date: 1690-01-01
+    title_zh: 不言轩岐而经旨悉具
+    rationale: 方宜老壮山居城市不同，气运时代升降，故咀啜近代精华而不泥古篇目
+  - date: 1700-01-01
+    title_zh: 收录景岳养葵嘉言诸论
+    rationale: 真阳真阴命门水火秋燥诸说切于时用，故首列论集以正本原
 - id: guji-罗美-endeavor-2
-  title_zh: 以儒通医倡国医读书
-  summary: 论儒无用有用之辨谓岐黄须知阴阳死生草木性情古今异宜非读书不可
+  title_zh: 新安行医济世
+  summary: 以因时制宜临证济世，调和子和守真东垣丹溪之偏，主温固真阳兼壮水配火，不执寒凉以伐生气
   phases:
   - key: brewing
-    name: 郡中交游
+    name: 辨四子之偏
     labels:
-      zh: 经史衮衮
-    start_date: '1660'
-    highlight_event_id: guji-罗美-event-youth
+      zh:
+      - 辨证
+      - 因时
+    start_date: 1690-01-01
+    highlight_event_id: guji-罗美-event-study
   - key: breakthrough
-    name: 陵谷隐见
+    name: 临证如临敌
     labels:
-      zh: 烟雨乐道
-    start_date: '1680'
-    highlight_event_id: guji-罗美-event-seclusion
+      zh:
+      - 临证
+      - 选药
+    start_date: 1710-01-01
+    highlight_event_id: guji-罗美-event-practice
   - key: climax
-    name: 儒医立言
+    name: 保真阳活人
     labels:
-      zh: 岐黄不易
-    start_date: '1700'
-    highlight_event_id: guji-罗美-event-book
+      zh:
+      - 命门
+      - 真阳
+    start_date: 1715-01-01
+    highlight_event_id: guji-罗美-event-practice
   - key: closure
-    name: 友朋题辞表彰
+    name: 诲后学守根本
     labels:
-      zh: 百岁千古
-    start_date: '1710'
-    highlight_event_id: guji-罗美-event-book
+      zh:
+      - 教化
+      - 守本
+    start_date: 1725-01-01
+    highlight_event_id: guji-罗美-event-circulation
   decisions:
-  - date: '1700'
-    title_zh: 宗五经四子二十一史为医
-    rationale: 五经为宗旨史传成败为证据杂俎为饮食药石宰相国医皆须读书人
-  - date: '1710'
-    title_zh: 托友题辞以传其学
-    rationale: 与赵汝揆东逸同时讨论使后之欲求东逸者因博议诸书而足千古
+  - date: 1710-01-01
+    title_zh: 舍苦寒而温养命门
+    rationale: 黄柏知母直灭真火暗损寿元，故壮水制阳益火消翳以固生气
+  - date: 1715-01-01
+    title_zh: 选药如选将求至当
+    rationale: 膏粱藜藿禀赋浓薄不同，运用在一心，不执古方以施治
 events:
 - id: guji-罗美-event-birth
-  date: '1645'
-  year_of: 1645
-  title_zh: 出生
-  description: 清初生于郡中总角研经史古文与赵汝揆相知号淡生晚号东逸
-- id: guji-罗美-event-youth
-  date: '1660'
+  title_zh: 生于新安
+  date: 1660-01-01
   year_of: 1660
-  title_zh: 总角郡中交游研经
-  description: 总角时郡中得交研经史衮衮可听旁及古文本学知为非常人
-- id: guji-罗美-event-seclusion
-  date: '1680'
-  year_of: 1680
-  title_zh: 陵谷变迁隐居乐道
-  description: 陵谷变迁隐见烟雨蓬茨之下三十年读书乐道沉潜内经欲明造物生天生地生人生物之本
-- id: guji-罗美-event-book
-  date: '1705'
+  summary: 清初生于徽州新安歙县罗氏，字东逸，少习儒而究心医学
+- id: guji-罗美-event-study
+  title_zh: 博览素难汉唐及近代诸家
+  date: 1685-01-01
+  year_of: 1685
+  summary: 研读素问难经金匮千金及子和守真东垣丹溪景岳养葵诸说，悟因时制宜之旨
+- id: guji-罗美-event-compile
+  title_zh: 辑成古今名医汇粹
+  date: 1705-01-01
   year_of: 1705
-  title_zh: 著成内经博议天道部
-  description: 发愤著内经博议卷一天道部论天地阴阳其气三六节五制正六气五运司天以三合为治赵汝揆题辞表之
+  summary: 汇辑近代精华成古今名医汇粹八卷，卷首列大宝真阴命门火为先天诸论
+- id: guji-罗美-event-practice
+  title_zh: 新安临证活人
+  date: 1710-01-01
+  year_of: 1710
+  summary: 于新安行医，以温固命门调和水火活人，戒执寒凉攻伐之弊
+- id: guji-罗美-event-circulation
+  title_zh: 抄本传于后学
+  date: 1720-01-01
+  year_of: 1720
+  summary: 书无刊本，抄录相沿传于后学，嘉庆道光间苕溪善本校订付梓以广其传
 - id: guji-罗美-event-death
-  date: '1715'
-  year_of: 1715
-  title_zh: 逝世
-  description: 清康熙末后卒博议诸书传世后学因之尚有东逸足垂千古
+  title_zh: 卒于新安
+  date: 1735-01-01
+  year_of: 1735
+  summary: 晚年卒于新安，汇粹抄本留世，后人盛新甫道光癸未为之作序刊行
