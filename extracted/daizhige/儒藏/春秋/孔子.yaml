@@ -1,0 +1,146 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -0551-09-28
+      precision: day
+      is_circa: true
+      raw: 鲁襄公二十二年
+    death:
+      date: -0479-04-11
+      precision: day
+      is_circa: true
+      raw: 鲁哀公十六年
+  birth_date: -0551-09-28
+  death_date: -0479-04-11
+  era: 春秋晚期
+  reign_ref: 鲁定公哀公之世
+  archetype: 因史立教之圣人
+  dilemmas:
+  - 因鲁史旧文与乘以新义之间如何寓褒贬而不失实
+  - 伤王迹熄与明乱极必治之间如何终以获麟寄望
+  lesson: 因旧乘新正例削谬以特笔明王道振人纪乱极必治王者之迹终不熄
+  summary_first_person: 吾因鲁史旧文乘以新义正例笔常削谬别汇特笔以寄微显之防终获麟而见王者之迹不熄
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%80%9A%E4%B9%89.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%80%9A%E4%B9%89.html
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 因旧修经立特笔
+  summary: 因鲁史旧文乘新义正例削谬别汇特笔以寓劝善惩恶
+  phases:
+  - key: brewing
+    name: 考见鲁史旧文
+    labels:
+      zh:
+      - 考史
+      - 因旧
+    start_date: -0515-01-01
+    highlight_event_id: guji-孔子-event-revise
+  - key: breakthrough
+    name: 乘新义正例削谬
+    labels:
+      zh:
+      - 正例
+      - 削谬
+    start_date: -0484-01-01
+    highlight_event_id: guji-孔子-event-revise
+  - key: climax
+    name: 别汇特笔寓褒贬
+    labels:
+      zh:
+      - 特笔
+      - 褒贬
+    start_date: -0482-01-01
+    highlight_event_id: guji-孔子-event-revise
+  - key: closure
+    name: 微显志晦成章
+    labels:
+      zh:
+      - 微显
+      - 成章
+    start_date: -0481-01-01
+    highlight_event_id: guji-孔子-event-lin
+  decisions:
+  - date: -0484-01-01
+    title_zh: 因旧文乘新义
+    rationale: 时非一世史非一官须因旧载而寓新裁方能防辞正义
+  - date: -0482-01-01
+    title_zh: 别汇特笔以正缪戾
+    rationale: 常事则正例笔之削之有缪戾乖刺然后正之以明王道振人纪
+- id: guji-孔子-endeavor-2
+  title_zh: 获麟绝笔明天道
+  summary: 感麟至不时而应圣人终二百四十二年以明乱极必治
+  phases:
+  - key: brewing
+    name: 伤周室微王迹熄
+    labels:
+      zh:
+      - 伤周
+      - 王迹
+    start_date: -0483-01-01
+    highlight_event_id: guji-孔子-event-revise
+  - key: breakthrough
+    name: 感麟至应圣人
+    labels:
+      zh:
+      - 感麟
+      - 应圣
+    start_date: -0481-02-01
+    highlight_event_id: guji-孔子-event-lin
+  - key: climax
+    name: 终经于西狩获麟
+    labels:
+      zh:
+      - 获麟
+      - 绝笔
+    start_date: -0481-03-01
+    highlight_event_id: guji-孔子-event-lin
+  - key: closure
+    name: 明乱极必治寄治
+    labels:
+      zh:
+      - 乱治
+      - 寄望
+    start_date: -0480-01-01
+    highlight_event_id: guji-孔子-event-lin
+  decisions:
+  - date: -0481-03-01
+    title_zh: 以获麟终春秋
+    rationale: 当敬王哀公之世人纪将绝故以麟至之瑞应孔子之生而寄治
+  - date: -0480-01-01
+    title_zh: 明王者之迹不熄
+    rationale: 二百四十二年终以获麟虽乱极必示治道人心不绝
+events:
+- id: guji-孔子-event-birth
+  title_zh: 孔子生于鲁
+  date: -0551-09-28
+  year_of: -551
+  kind: birth
+  description: 鲁襄公二十二年生于陬邑后为修春秋之圣人
+  place: 鲁国陬邑
+- id: guji-孔子-event-revise
+  title_zh: 因鲁史修春秋
+  date: -0481-01-01
+  year_of: -481
+  kind: career
+  description: 因鲁史旧文乘以新义正例削谬别汇特笔以寓褒贬
+  place: 鲁国
+- id: guji-孔子-event-lin
+  title_zh: 西狩获麟绝笔
+  date: -0481-03-01
+  year_of: -481
+  kind: career
+  description: 鲁哀公十四年春西狩获麟遂终春秋以明乱极必治
+  place: 鲁国西野
+- id: guji-孔子-event-death
+  title_zh: 孔子卒于鲁
+  date: -0479-04-11
+  year_of: -479
+  kind: death
+  description: 鲁哀公十六年卒后世以春秋特笔奉为经教
+  place: 鲁国曲阜
