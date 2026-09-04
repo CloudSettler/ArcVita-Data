@@ -6,121 +6,116 @@ person:
     en: Wang Kentang
   lifespan:
     birth:
-      date: 1549
+      date: 1549-01-01
       precision: year
       is_circa: false
       raw: 明嘉靖二十八年
     death:
-      date: 1613
+      date: 1613-01-01
       precision: year
-      is_circa: true
-      raw: 明万历四十一年前后
-  birth_date: 1549
-  death_date: 1613
-  era: 明
-  reign_ref: 万历
-  archetype: 融内外的著述良医
+      is_circa: false
+      raw: 明万历四十一年
+  birth_date: 1549-01-01
+  death_date: 1613-01-01
+  era: 明朝
+  reign_ref: 明嘉靖至万历
+  archetype: 儒医济世者
   dilemmas:
-  - 世重内轻外疡医见轻是否仍以活人为心专治外科
-  - 还山支俸受之不安辞之立异当如何处禄以成书济世
-  lesson: 不精内不能治外辨阴阳经络补托为先戒攻伐耗散
-  summary_first_person: 余童而习岐黄弱冠治女弟乳疡虞翁附骨疡皆起白骨而肉之欲得有志者授以疡医而不可得乃集先代方论融以独得成是编还山以俸付梓以便世用
+  - 仕宦尽职与归隐行医之抉择
+  - 博采众方与折衷归一之权衡
+  lesson: 以儒通医以诚济世明辨证治不执一方
+  summary_first_person: 吾金坛王肯堂登进士而官刑曹悯病者误治遂博览医籍折衷百家撰证治准绳类方以明证治惟愿后学活用方药济世活人
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%AF%81%E6%B2%BB%E5%87%86%E7%BB%B3%E7%96%A1%E5%8C%BB.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%AF%81%E6%B2%BB%E5%87%86%E7%BB%B3%E7%96%A1%E5%8C%BB.html
+  - https://daizhige.org/医藏/证治准绳类方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/证治准绳类方.md
 endeavors:
 - id: guji-王肯堂-endeavor-1
-  title_zh: 童习岐黄弱冠治疡
-  summary_zh: 童习岐黄弱冠自治乳疡附骨疡悟内外相通
+  title_zh: 进士入仕究心医学
+  summary: 登进士历刑曹以泉州推官告归转而究心医学
   phases:
   - key: brewing
-    name: 童习岐黄
+    name: 金坛问学奠基
     labels:
-      zh: 早习医术
-    start_date: 1556
+      zh: 儒学养正
+    start_date: 1549-01-01
     highlight_event_id: guji-王肯堂-event-birth
   - key: breakthrough
-    name: 弱冠治疡
+    name: 登第入仕见病
     labels:
-      zh: 起白骨肉之
-    start_date: 1569
-    highlight_event_id: guji-王肯堂-event-cure
-  - key: climax
-    name: 悟外科非易
-    labels:
-      zh: 求师不得
-    start_date: 1570
-    highlight_event_id: guji-王肯堂-event-cure
+      zh: 仕宦省悟
+    start_date: 1589-01-01
+    highlight_event_id: guji-王肯堂-event-jinshi
   - key: closure
-    name: 立志集论
+    name: 告归究医
     labels:
-      zh: 活人为心
-    start_date: 1572
-    highlight_event_id: guji-王肯堂-event-cure
+      zh: 弃官习医
+    start_date: 1592-01-01
+    highlight_event_id: guji-王肯堂-event-jinshi
   decisions:
-  - date: 1569
-    title_zh: 不待师自治乳疡附骨疡
-    rationale: 以活人为心验不精内不能治外起白骨而肉之
-  - date: 1570
-    title_zh: 欲求有志者授以疡医而不可得
-    rationale: 见世疡医不明经络嗜利轻命故欲自集方论以救其弊
+  - date: 1589-06-01
+    title_zh: 登第后仍博览医籍
+    rationale: 目击误治故以余力通医不废儒业
+  - date: 1592-01-01
+    title_zh: 告病归里专治医
+    rationale: 欲全心整理医籍以济世故舍官守而就医道
 - id: guji-王肯堂-endeavor-2
-  title_zh: 集论编纂疡医准绳
-  summary_zh: 集先代名医方论融以独得付梓成疡医准绳
+  title_zh: 编纂证治准绳类方
+  summary: 折衷历代医论杂病与方药编成准绳以类方收录卒中中风诸方
   phases:
   - key: brewing
-    name: 便差还故山
+    name: 博采群书
     labels:
-      zh: 还山编葺
-    start_date: 1605
-    highlight_event_id: guji-王肯堂-event-compile
+      zh: 采集方论
+    start_date: 1592-01-01
+    highlight_event_id: guji-王肯堂-event-jinshi
   - key: breakthrough
-    name: 集先代方论
+    name: 准绳初成
     labels:
-      zh: 融以独得
-    start_date: 1606
-    highlight_event_id: guji-王肯堂-event-compile
+      zh: 体系初立
+    start_date: 1602-01-01
+    highlight_event_id: guji-王肯堂-event-zhunsheng
   - key: climax
-    name: 付梓疡医编
+    name: 类方汇编刊行
     labels:
-      zh: 付梓竣事
-    start_date: 1608
-    highlight_event_id: guji-王肯堂-event-compile
+      zh: 类方济世
+    start_date: 1607-01-01
+    highlight_event_id: guji-王肯堂-event-leifang
   - key: closure
-    name: 诸科略备
+    name: 垂训后学
     labels:
-      zh: 归功圣主
-    start_date: 1608
+      zh: 遗惠后世
+    start_date: 1613-01-01
     highlight_event_id: guji-王肯堂-event-death
   decisions:
-  - date: 1608
-    title_zh: 融独得以成疡医编
-    rationale: 与图人形刊方药诧秘传者不侔务使熟玩神明可名世
-  - date: 1608
-    title_zh: 以支俸付梓人逾期竣事
-    rationale: 受俸不安辞俸立异故以俸资成诸科分证用药之书略备
+  - date: 1602-01-01
+    title_zh: 立证治准绳体系
+    rationale: 以证为纲以治为目使杂病有绳可准
+  - date: 1607-01-01
+    title_zh: 以类方附证治之后
+    rationale: 明方从证出收苏合香丸小续命汤诸方以便临证检用
 events:
 - id: guji-王肯堂-event-birth
-  title_zh: 生于金坛
-  date: 1549
+  date: 1549-01-01
   year_of: 1549
-  type: birth
-  description_zh: 明嘉靖二十八年生于金坛童而习岐黄之术
-- id: guji-王肯堂-event-cure
-  title_zh: 弱冠治乳疡附骨疡
-  date: 1569
-  year_of: 1569
-  type: career
-  description_zh: 弱冠治女弟乳疡虞翁附骨疡皆起白骨而肉之以为外科易易欲得聪明有志者指授之而竟无有
-- id: guji-王肯堂-event-compile
-  title_zh: 书疡医自序付梓
-  date: 1608-08-07
-  year_of: 1608
-  type: career
-  description_zh: 万历三十六年戊申七夕书自序于奢懒轩集先代方论成疡医准绳以俸付梓人逾期竣事
+  title_zh: 出生于金坛
+  description: 明嘉靖二十八年生于江苏金坛王氏书香之家
+- id: guji-王肯堂-event-jinshi
+  date: 1589-01-01
+  year_of: 1589
+  title_zh: 登进士第入仕
+  description: 万历十七年登进士第历大理评事泉州推官等职
+- id: guji-王肯堂-event-zhunsheng
+  date: 1602-01-01
+  year_of: 1602
+  title_zh: 编成证治准绳
+  description: 博览内经难经伤寒诸家折衷编成证治准绳医论杂病诸卷
+- id: guji-王肯堂-event-leifang
+  date: 1607-01-01
+  year_of: 1607
+  title_zh: 类方汇编成书
+  description: 以类方汇卒中中风等证诸方详录苏合香丸三生饮小续命汤用法以便检用
 - id: guji-王肯堂-event-death
-  title_zh: 卒于万历末
-  date: 1613
+  date: 1613-01-01
   year_of: 1613
-  type: death
-  description_zh: 万历四十年前后卒留证治准绳诸科以行于世
+  title_zh: 逝世
+  description: 万历四十一年逝世遗书惠及后世医者
