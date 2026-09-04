@@ -1,0 +1,157 @@
+person:
+  qid: guji-孔丘
+  name_zh: 孔丘
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: true
+      raw: 鲁襄公二十二年八月庚子
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: true
+      raw: 鲁哀公十六年四月己丑
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 春秋
+  reign_ref: 鲁襄公至鲁哀公
+  archetype: 万世师表
+  dilemmas:
+  - 道不行于列国，是浮海居夷还是栖栖守道以待时
+  - 出仕从政以行仁，是尽礼事人还是直道事人不顾毁誉
+  - 富贵贫贱之间，是以道取舍还是以利取舍
+  lesson: 以仁为本，以礼为节，忠恕一贯，学思并进，述而不作而化万世
+  summary_first_person: 吾丘也，鲁鄹人也，十五而志于学，三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲不逾矩，一生述而不作，信而好古，以仁礼教人，老安少怀，欲以道济天下也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD.html
+  - https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E
+  - https://ctext.org/analects
+endeavors:
+- id: guji-孔丘-endeavor-1
+  title_zh: 杏坛设教以仁礼育贤
+  summary: 在鲁设教，有教无类，授诗书礼乐，以忠恕贯通一仁，成德达才之士甚众
+  phases:
+  - key: brewing
+    name: 志学好古
+    labels:
+      zh:
+      - 立志
+      - 好学
+    start_date: -536-01-01
+    highlight_event_id: guji-孔丘-event-birth
+  - key: breakthrough
+    name: 杏坛开讲
+    labels:
+      zh:
+      - 讲学
+      - 育才
+    start_date: -522-01-01
+    highlight_event_id: guji-孔丘-event-teach
+  - key: climax
+    name: 以仁论孝悌忠信
+    labels:
+      zh:
+      - 仁教
+      - 礼治
+    start_date: -500-01-01
+    highlight_event_id: guji-孔丘-event-teach
+  - key: closure
+    name: 删述六经传后
+    labels:
+      zh:
+      - 整理
+      - 传道
+    start_date: -484-01-01
+    highlight_event_id: guji-孔丘-event-compile
+  decisions:
+  - date: -522-01-01
+    title_zh: 有教无类广收弟子
+    rationale: 唯仁可化民成俗，不论贵贱，皆以诗书礼乐教之，以成君子之德
+  - date: -484-01-01
+    title_zh: 述而不作删述诗书
+    rationale: 道不行于时，则托空文以传后，使仁礼之道不坠于后世
+- id: guji-孔丘-endeavor-2
+  title_zh: 周游列国以道匡时
+  summary: 仕鲁摄政而后去鲁适卫齐陈蔡宋楚，历说诸侯，虽困厄而不改其道，反鲁以终讲学
+  phases:
+  - key: brewing
+    name: 仕鲁行道
+    labels:
+      zh:
+      - 从政
+      - 行义
+    start_date: -501-01-01
+    highlight_event_id: guji-孔丘-event-serve
+  - key: breakthrough
+    name: 去鲁周游
+    labels:
+      zh:
+      - 周游
+      - 弘道
+    start_date: -497-01-01
+    highlight_event_id: guji-孔丘-event-travel
+  - key: climax
+    name: 陈蔡厄困守仁
+    labels:
+      zh:
+      - 守道
+      - 安命
+    start_date: -489-01-01
+    highlight_event_id: guji-孔丘-event-travel
+  - key: closure
+    name: 反鲁讲学以终
+    labels:
+      zh:
+      - 归鲁
+      - 成教
+    start_date: -484-01-01
+    highlight_event_id: guji-孔丘-event-compile
+  decisions:
+  - date: -497-01-01
+    title_zh: 去鲁而周游列国
+    rationale: 鲁政不从，君臣失礼，不义而富贵如浮云，不如求仁得仁以明道于天下
+  - date: -489-01-01
+    title_zh: 厄困而不改其乐
+    rationale: 君子固穷，小人穷斯滥，朝闻道夕死可矣，守仁安命以显天命之德
+events:
+- id: guji-孔丘-event-birth
+  title_zh: 生于鲁之鄹邑
+  date: -551-09-28
+  year_of: -551
+  place_zh: 鲁国鄹邑
+  summary: 鲁襄公二十二年生，好礼好学，少而贫贱，志于道艺
+- id: guji-孔丘-event-teach
+  title_zh: 杏坛设教论仁孝
+  date: -522-01-01
+  year_of: -522
+  place_zh: 鲁国杏坛
+  summary: 广收弟子，论孝弟为仁之本，教温故知新，学思忠信，成颜回仲弓子路子贡等贤才
+- id: guji-孔丘-event-serve
+  title_zh: 仕鲁从政行礼
+  date: -501-01-01
+  year_of: -501
+  place_zh: 鲁国中都
+  summary: 为中都宰及司寇，临之以庄，举直错枉，欲以德礼齐民，使民有耻且格
+- id: guji-孔丘-event-travel
+  title_zh: 周游列国明道
+  date: -497-01-01
+  year_of: -497
+  place_zh: 卫齐陈蔡宋楚之间
+  summary: 历说诸侯，见南子，过匡畏于匡，在陈绝粮，从者病莫能兴而不改其道，知天生德于予
+- id: guji-孔丘-event-compile
+  title_zh: 反鲁删述定礼乐
+  date: -484-01-01
+  year_of: -484
+  place_zh: 鲁国
+  summary: 反鲁讲学，删诗书，定礼乐，赞周易，修春秋，以文行忠信为四教，传道于后世
+- id: guji-孔丘-event-death
+  title_zh: 卒于鲁
+  date: -479-04-11
+  year_of: -479
+  place_zh: 鲁国
+  summary: 鲁哀公十六年卒，弟子服心丧，天下奉为木铎万世师表

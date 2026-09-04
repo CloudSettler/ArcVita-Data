@@ -6,133 +6,125 @@ person:
     en: Jin Luxiang
   lifespan:
     birth:
-      date: '1232'
+      date: 1232
       precision: year
       is_circa: false
-      raw: 宋绍定五年
+      raw: 南宋绍定五年
     death:
-      date: '1303'
+      date: 1303
       precision: year
       is_circa: false
       raw: 元大德七年
-  birth_date: '1232'
-  death_date: '1303'
+  birth_date: 1232
+  death_date: 1303
   era: 宋末元初
-  reign_ref: 元成宗
-  archetype: 经师
+  reign_ref: 南宋理宗至元成宗
+  archetype: 理学家
   dilemmas:
-  - 朱学章句或问屡遭疑难当随俗改说还是据经疏解以守其真
-  - 宋亡国变当出仕新朝博功名还是隐居仁山以讲学存道统
-  lesson: 明其明德必先格物致知，守本厚伦而后可推以及人
-  summary_first_person: 吾兰溪金履祥，字吉父，号仁山，少师王柏复从何基得朱子遗绪，宋亡不仕，隐居著述，以大学疏义畅朱子章句或问之旨，愿后学因疏知经因经明道
+  - 宋亡之后应否出仕与坚守遗民之节
+  - 尊崇朱子集注与补正阙误之间如何守忠而不陷门户之见
+  lesson: 守经尊注而能考实补阙，不苟同不苟异，方能明圣贤之道
+  summary_first_person: 我金履祥字吉父，兰溪人也，早师王柏何基以承朱子之学，宋亡不仕，隐居仁山著书讲学，作论语孟子集注考证以疏通集注疑难，望后学由注达经由经悟道
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E5%A4%A7%E5%AD%A6%E7%96%8F%E4%B9%89.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E5%A4%A7%E5%AD%A6%E7%96%8F%E4%B9%89.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E5%AD%9F%E9%9B%86%E6%B3%A8%E8%80%83%E8%AF%81.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E5%AD%9F%E9%9B%86%E6%B3%A8%E8%80%83%E8%AF%81.html
 endeavors:
 - id: guji-金履祥-endeavor-1
-  title_zh: 师承王柏何基疏解大学以传朱学
-  summary: 随章第作疏义畅其文，又申指义以统其纲，融会章句或问，阐发明明德新民止至善之旨
+  title_zh: 撰述论孟集注考证疏通朱子集注
   phases:
   - key: brewing
-    name: 少师王柏初闻朱学
+    name: 承学朱子
     labels:
-      zh: 求学兰溪
-    start_date: '1251'
+      zh: 求学
+    start_date: 1249
     highlight_event_id: guji-金履祥-event-study
   - key: breakthrough
-    name: 再从何基得道统之传
+    name: 发疑立志考证
     labels:
-      zh: 问学金华
-    start_date: '1260'
-    highlight_event_id: guji-金履祥-event-study
+      zh: 立志
+    start_date: 1279
+    highlight_event_id: guji-金履祥-event-kaozheng-start
   - key: climax
-    name: 随章作大学疏义
+    name: 成书十七卷
     labels:
-      zh: 著述疏义
-    start_date: '1285'
-    highlight_event_id: guji-金履祥-event-writing
+      zh: 著述
+    start_date: 1290
+    highlight_event_id: guji-金履祥-event-kaozheng-done
   - key: closure
-    name: 指义统纲柳贯为序
+    name: 自跋付徒传布
     labels:
-      zh: 成书流传
-    start_date: '1295'
-    highlight_event_id: guji-金履祥-event-writing
+      zh: 传布
+    start_date: 1298
+    highlight_event_id: guji-金履祥-event-preach
   decisions:
-  - date: '1260'
-    title_zh: 决从何基穷朱子之遗绪
-    rationale: 王柏之后复从何基，欲得朱子相传本末，不随俗儒记诵辞章而直探明德之体
-  - date: '1285'
-    title_zh: 决依章句次序作疏义而申指义
-    rationale: 朱子改易旧说学者多疑，故随章疏解以畅其文，又统以指义，使纲领条目融贯亲切
+  - date: 1279
+    title_zh: 宋亡不仕隐居著述
+    rationale: 国亡不忍事二姓，愿以经术明道守身，以著述续斯文
+  - date: 1290
+    title_zh: 不名疏而名考证
+    rationale: 已有纂疏故避疏名，专表疑难如经典释文之例，不敢赘述详明之义
 - id: guji-金履祥-endeavor-2
-  title_zh: 宋亡隐居仁山讲学以存道统
-  summary: 国变不仕，居仁山之下收徒讲授，注述经史，化乡闾而续婺学一脉
+  title_zh: 隐居仁山讲学授徒传道
   phases:
   - key: brewing
-    name: 宋末观时不求仕进
+    name: 兰溪授徒
     labels:
-      zh: 守身待变
-    start_date: '1270'
-    highlight_event_id: guji-金履祥-event-reclusion
+      zh: 讲学
+    start_date: 1280
+    highlight_event_id: guji-金履祥-event-kaozheng-start
   - key: breakthrough
-    name: 宋亡杜门不出
+    name: 仁山聚徒
     labels:
-      zh: 遗民自守
-    start_date: '1279'
-    highlight_event_id: guji-金履祥-event-reclusion
+      zh: 授徒
+    start_date: 1290
+    highlight_event_id: guji-金履祥-event-kaozheng-done
   - key: climax
-    name: 仁山讲学四方从游
+    name: 许谦等入室传业
     labels:
-      zh: 讲学授徒
-    start_date: '1285'
-    highlight_event_id: guji-金履祥-event-teaching
+      zh: 传道
+    start_date: 1298
+    highlight_event_id: guji-金履祥-event-preach
   - key: closure
-    name: 论著成编付后学
+    name: 以朱子之学终其身
     labels:
-      zh: 托文传道
-    start_date: '1300'
-    highlight_event_id: guji-金履祥-event-teaching
+      zh: 守道
+    start_date: 1303
+    highlight_event_id: guji-金履祥-event-death
   decisions:
-  - date: '1279'
-    title_zh: 决不仕元隐居讲学
-    rationale: 故国已亡，不以功名易节，愿以明德新民之学化乡人，使道在民间而不坠
-  - date: '1285'
-    title_zh: 决以经术教人先修身为本
-    rationale: 自天子至庶人皆以修身为本，故授徒必先格物诚意，不尚智谋功利躐等之习
+  - date: 1284
+    title_zh: 拒元徵辟终身讲学
+    rationale: 遗民守节不仕二朝，惟以讲明道学培养后进为报国
+  - date: 1298
+    title_zh: 命许谦雠校藏诸家
+    rationale: 悯世人不善学朱子，令门人校订传布使孔孟之道章章乎人心
 events:
 - id: guji-金履祥-event-birth
-  title_zh: 生于婺州兰溪
-  date: '1232'
+  title_zh: 出生于婺州兰溪
+  date: 1232
   year_of: 1232
-  place_zh: 婺州兰溪
-  description: 宋绍定五年诞生，字吉父，后以所居号仁山先生
+  description_zh: 南宋绍定五年出生于婺州兰溪，金氏世家，少力学承朱子余绪
 - id: guji-金履祥-event-study
-  title_zh: 师事王柏何基得朱学之传
-  date: '1251'
-  year_of: 1251
-  place_zh: 金华兰溪
-  description: 少师同郡王柏，后又从何基，儒者谓其得朱子遗绪
-- id: guji-金履祥-event-reclusion
-  title_zh: 宋亡隐居仁山不仕
-  date: '1279'
+  title_zh: 师事王柏何基承朱子之学
+  date: 1249
+  year_of: 1249
+  description_zh: 少从王柏游，又师何基，得朱子再传之学，专治四书及经史
+- id: guji-金履祥-event-kaozheng-start
+  title_zh: 宋亡隐居仁山发愿考证集注
+  date: 1279
   year_of: 1279
-  place_zh: 兰溪仁山
-  description: 宋亡之后杜门守志，不求仕于元，居仁山讲学著述
-- id: guji-金履祥-event-writing
-  title_zh: 撰大学疏义以畅朱子章句或问
-  date: '1285'
-  year_of: 1285
-  place_zh: 兰溪仁山
-  description: 随大学章第作疏义一卷，又申指义一篇，依文诠解，缕析明德新民止至善格致诚正修齐治平之旨
-- id: guji-金履祥-event-teaching
-  title_zh: 讲学授徒续婺学道脉
-  date: '1290'
+  description_zh: 宋亡不仕，隐居仁山，闵读集注者得其粗而不能悉其义，始櫽括演绎补正名物事迹
+- id: guji-金履祥-event-kaozheng-done
+  title_zh: 论语集注考证十卷孟子集注考证七卷成
+  date: 1290
   year_of: 1290
-  place_zh: 婺州
-  description: 四方学者从游，授以修身为本之学，门人多传其业，事迹载元史儒林传
+  description_zh: 折衷朱子未定之说，辨订事迹典故，成十七卷，用经典释文例表其疑难者疏之
+- id: guji-金履祥-event-preach
+  title_zh: 授徒许谦雠校传布
+  date: 1298
+  year_of: 1298
+  description_zh: 命门人许谦翻阅羣书雠校考证之书，藏诸家传诸其徒，许谦为之序
 - id: guji-金履祥-event-death
   title_zh: 卒于家
-  date: '1303'
+  date: 1303
   year_of: 1303
-  place_zh: 兰溪
-  description: 元大德七年卒，后裔梓行疏义，金氏旧本赖以存，柳贯尝序之，清四库馆臣称为朱子功臣
+  description_zh: 元大德七年卒，私谥仁山先生，学统由许谦等传于四方
