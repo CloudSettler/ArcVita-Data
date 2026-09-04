@@ -1,0 +1,138 @@
+person:
+  qid: guji-张机
+  name_zh: 张机
+  names:
+    zh: 张机
+    en: Zhang Zhongjing
+  lifespan:
+    birth:
+      date: 104
+      precision: year
+      is_circa: true
+      raw: 约汉桓帝时生于南阳
+    death:
+      date: 0219
+      precision: year
+      is_circa: true
+      raw: 建安二十四年卒
+  birth_date: 104
+  death_date: 0219
+  era: 东汉末
+  reign_ref: 建安
+  archetype: 医圣
+  dilemmas:
+  - 举世竞逐荣势崇饰其末而轻生弃本与留神医药精究方术以上疗君亲下救贫贱中保身全生之抉择
+  - 自恃才秀天赋难企与宿尚方术多闻博识勤求古训博采众方以精究之的进路
+  lesson: 不竞荣势浮华而固根本，勤求古训博采众方，见病知源，方能济世全生
+  summary_first_person: 余南阳张机，字仲景，宿尚方术，师事张伯祖，举孝廉，出守长沙，感建安以来宗族死亡三分有二伤寒居其七，伤横夭莫救，乃勤求古训博采众方，撰用素问九卷八十一难阴阳大论胎胪药录平脉辨证，合为伤寒杂病论十六卷，庶几见病知源，思过半矣
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/伤寒论辑义.md
+  - https://daizhige.org/医藏/伤寒论辑义.html
+endeavors:
+- id: guji-张机-endeavor-1
+  title_zh: 勤求古训撰伤寒杂病论
+  summary: 感宗族疫亡博采素问难经阴阳大论胎胪药录平脉辨证撰成十六卷以见病知源
+  phases:
+  - key: brewing
+    name: 宿尚方术师承博采
+    labels:
+      zh: 师承博采
+    start_date: 0168
+    highlight_event_id: guji-张机-event-study
+  - key: breakthrough
+    name: 建安疫丧发愤著述
+    labels:
+      zh: 疫丧发愤
+    start_date: 0196
+    highlight_event_id: guji-张机-event-write
+  - key: climax
+    name: 合撰伤寒杂病十六卷
+    labels:
+      zh: 撰述成书
+    start_date: 136
+    highlight_event_id: guji-张机-event-write
+  - key: closure
+    name: 思过半垂法后世
+    labels:
+      zh: 垂法后世
+    start_date: 0219
+    highlight_event_id: guji-张机-event-death
+  decisions:
+  - date: 0196
+    title_zh: 勤求古训博采众方
+    rationale: 感往昔沦丧伤横夭莫救，不由古训无以承源，故广采素问九卷八十一难阴阳大论胎胪药录平脉辨证以立论
+  - date: 136
+    title_zh: 合伤寒杂病为十六卷
+    rationale: 虽未能尽愈诸病，庶可使后人寻集思过半，见病知源，故不计毁誉而撰用成书
+- id: guji-张机-endeavor-2
+  title_zh: 出守长沙坐堂济世精诊
+  summary: 举孝廉至长沙太守，受术精微过师，望色知病，批判凡医坐堂行医以救时弊
+  phases:
+  - key: brewing
+    name: 举孝廉受术精微
+    labels:
+      zh: 举孝廉学医
+    start_date: 0188
+    highlight_event_id: guji-张机-event-magistrate
+  - key: breakthrough
+    name: 望王仲宣知眉落之疾
+    labels:
+      zh: 望诊知病
+    start_date: 123
+    highlight_event_id: guji-张机-event-diagnose
+  - key: climax
+    name: 守长沙批判凡医
+    labels:
+      zh: 守土行医
+    start_date: 0208
+    highlight_event_id: guji-张机-event-magistrate
+  - key: closure
+    name: 垂妙定方为医圣
+    labels:
+      zh: 垂妙定方
+    start_date: 0219
+    highlight_event_id: guji-张机-event-death
+  decisions:
+  - date: 123
+    title_zh: 直言王仲宣四十眉落之病令服五石汤
+    rationale: 观其色候知病在腠理，若早服汤可免，惜其嫌言忤而不服，终如言而死，故知精诊贵在信医早治
+  - date: 0208
+    title_zh: 不竞荣势而留神医药坐堂断诊
+    rationale: 痛凡医不念经旨按寸不及尺握手不及足相对斯须便处汤药，故以太守之身亲诊九候明堂阙庭以全生民
+events:
+- id: guji-张机-event-birth
+  date: 104
+  year_of: 150
+  title_zh: 生于南阳
+  description: 南阳人，名机，字仲景，生于东汉桓帝时南阳
+  place_zh: 南阳
+- id: guji-张机-event-study
+  date: 0168
+  year_of: 168
+  title_zh: 师事同郡张伯祖
+  description: 始受术于同郡张伯祖，识用精微过其师，宿尚方术，请事多闻博识之语
+  place_zh: 南阳
+- id: guji-张机-event-diagnose
+  date: 123
+  year_of: 173
+  title_zh: 望侍中王仲宣知其病
+  description: 年二十余见王仲宣，谓君有病四十当眉落半年而死，令服五石汤可免，仲宣不服，后果如言
+  place_zh: 京师
+- id: guji-张机-event-magistrate
+  date: 0208
+  year_of: 208
+  title_zh: 举孝廉官至长沙太守
+  description: 举孝廉，官至长沙太守，建安中坐堂行医，疗君亲之疾，救贫贱之厄，保身长全
+  place_zh: 长沙
+- id: guji-张机-event-write
+  date: 136
+  year_of: 210
+  title_zh: 撰成伤寒杂病论十六卷
+  description: 以建安纪年以来宗族死亡三分有二伤寒居七为痛，撰用素问九卷八十一难阴阳大论胎胪药录平脉辨证合十六卷
+  place_zh: 长沙
+- id: guji-张机-event-death
+  date: 0219
+  year_of: 219
+  title_zh: 卒于建安二十四年
+  description: 生而勤学垂妙定方，开胸纳饼之术见称于晋，仲景之法传于后世，为医圣
+  place_zh: 长沙
