@@ -1,0 +1,120 @@
+person:
+  qid: guji-增广贤文
+  name_zh: 增广贤文
+  names:
+    zh: 增广贤文
+    en: Zengguang Xianwen
+  lifespan:
+    birth:
+      date: '1573'
+      precision: year
+      is_circa: true
+      raw: 明万历前后昔时贤文已流传
+    death:
+      date: '1874'
+      precision: year
+      is_circa: true
+      raw: 清同治甲戌重刊定型流传
+  birth_date: '1573'
+  death_date: '1874'
+  era: 明清
+  reign_ref: 明万历至清同治
+  archetype: 蒙学劝世典籍
+  dilemmas:
+  - 雅俗之间如何兼收俚谚与经训以垂训蒙学
+  - 劝世之间如何兼顾安分知足与勤学进取以化人心
+  lesson: 观今宜鉴古，知足守分，勤读力行，但行好事莫问前程
+  summary_first_person: 吾为增广贤文，本名昔时贤文，采集群言而成于明人，增广于后人，重刊定型于清同治，句句劝人识人情物理，守本分，勤读书，重仁义，愿后学多见多闻，修身处世，不枉度春
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%A2%9E%E5%B9%BF%E8%B4%A4%E6%96%87.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%A2%9E%E5%B9%BF%E8%B4%A4%E6%96%87.md
+endeavors:
+- id: guji-增广贤文-endeavor-1
+  title_zh: 采集古训编成昔时贤文以启蒙
+  summary: 集韵增文，多见多闻，采经史子集与民间谚语，编成通俗韵语，教人知己知彼，将心比心，明人伦物理
+  phases:
+  - key: brewing
+    name: 采集群言酝酿
+    labels:
+      zh: 酝酿
+    start_date: '1573'
+    highlight_event_id: guji-增广贤文-event-birth
+  - key: breakthrough
+    name: 昔时贤文初编成帙
+    labels:
+      zh: 突破
+    start_date: '1580'
+    highlight_event_id: guji-增广贤文-event-xishi
+  - key: climax
+    name: 增广改编通行乡塾
+    labels:
+      zh: 高潮
+    start_date: '1640'
+    highlight_event_id: guji-增广贤文-event-zengguang
+  decisions:
+  - date: '1580'
+    title_zh: 以韵语集古训便记诵
+    rationale: 茫茫四海人无数，蒙童难读经史，故取易涨易退山溪水，路遥知马力之类明白语，使诲汝谆谆，易记易传
+  - date: '1640'
+    title_zh: 增旧文广新义以应时变
+    rationale: 世事如棋局局新，旧文不足尽人情，故增贫居闹市无人问，富在深山有远亲等句，使观今宜鉴古，无古不成今
+- id: guji-增广贤文-endeavor-2
+  title_zh: 重刊定型流传教化以劝世
+  summary: 历清重刊校订，定型为今日通行本，以孝义为先，以读书为高，劝人忍让积善，勤俭持家，流传塾馆家训
+  phases:
+  - key: brewing
+    name: 清初坊刻传抄
+    labels:
+      zh: 酝酿
+    start_date: '1650'
+    highlight_event_id: guji-增广贤文-event-zengguang
+  - key: breakthrough
+    name: 同治甲戌周希陶重订
+    labels:
+      zh: 突破
+    start_date: '1874'
+    highlight_event_id: guji-增广贤文-event-chongkan
+  - key: closure
+    name: 定型为蒙学通行读本
+    labels:
+      zh: 收束
+    start_date: '1874'
+    highlight_event_id: guji-增广贤文-event-death
+  decisions:
+  - date: '1874'
+    title_zh: 参订增广古训分别雅俗
+    rationale: 善恶到头终有报，是非只为多开口，须删繁就简，留羊有跪乳之恩，鸦有反哺之义等正言，使学者如禾如稻，劝善化俗
+  - date: '1874'
+    title_zh: 明示读书孝义为立身本
+    rationale: 世上万般皆下品，思量唯有读书高，千经万典孝义为先，故以积金千两不如明解经书作结，使后学但行好事，守己安分
+events:
+- id: guji-增广贤文-event-birth
+  type: birth
+  date: '1573'
+  year_of: 1573
+  title_zh: 昔时贤文雏形问世
+  description: 明万历前后，民间采集群谚古训，以昔时贤文诲汝谆谆为首，集韵增文，多见多闻，通行于塾馆
+- id: guji-增广贤文-event-xishi
+  type: career
+  date: '1580'
+  year_of: 1580
+  title_zh: 昔时贤文编成劝人处世
+  description: 初编劝人知己知彼，相识满天下知心能几人，戒易反易覆小人心，教逢人且说三分话，路遥知马力事久见人心
+- id: guji-增广贤文-event-zengguang
+  type: career
+  date: '1640'
+  year_of: 1640
+  title_zh: 增广改编通行天下
+  description: 明末清初增入新语，长江后浪推前浪，光阴似箭日月如梭，命里有时终须有，一年之计在于春，渐成今本规模
+- id: guji-增广贤文-event-chongkan
+  type: career
+  date: '1874'
+  year_of: 1874
+  title_zh: 清同治甲戌重刊校订
+  description: 周希陶重订增广贤文，增益善有善报恶有恶报，但存方寸土留与子孙耕之句，体例完备，刊行全国
+- id: guji-增广贤文-event-death
+  type: death
+  date: '1874'
+  year_of: 1874
+  title_zh: 定型流传为蒙学经典
+  description: 重刊之后通行不衰，入儒藏启蒙蒙学，与三字经百家姓并传，奉劝君子各宜守己，只此程式万无一失

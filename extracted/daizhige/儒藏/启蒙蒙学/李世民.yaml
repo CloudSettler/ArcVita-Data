@@ -1,0 +1,141 @@
+person:
+  qid: guji-李世民
+  name_zh: 李世民
+  names:
+    zh: 李世民
+    en: Li Shimin
+  lifespan:
+    birth:
+      date: 0598-01-28
+      precision: day
+      is_circa: false
+      raw: 隋开皇十七年十二月戊午生于武功别馆
+    death:
+      date: 0649-07-10
+      precision: day
+      is_circa: false
+      raw: 唐贞观二十三年五月己巳崩于含风殿
+  birth_date: 0598-01-28
+  death_date: 0649-07-10
+  era: 唐初
+  reign_ref: 贞观
+  archetype: 拨乱守成的共治明君
+  dilemmas:
+  - 骨肉相争与社稷安危之间的取舍
+  - 武功开国与文治守成之间的平衡
+  - 兼听纳谏与君主独断之间的分寸
+  lesson: 以民为本兼听纳谏除乱致治方能长治久安
+  summary_first_person: 吾起自晋阳随父举兵，戎马 years 削平群雄，玄武定嗣而承大位，开馆延才与房杜魏徵等协恭共治，除乱致治以成贞观之业
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%9B%9B%E5%AD%97%E9%89%B4%E7%95%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%9B%9B%E5%AD%97%E9%89%B4%E7%95%A5.md
+endeavors:
+- id: guji-李世民-endeavor-1
+  title_zh: 从晋阳起兵到一统天下
+  summary: 随高祖举兵晋地，六年之中南征北战削平群雄奠定唐室一统
+  phases:
+  - key: brewing
+    name: 太原筹谋举兵
+    labels:
+      zh:
+      - 晋阳筹谋
+    start_date: 0617-06-01
+    highlight_event_id: guji-李世民-event-conquest
+  - key: breakthrough
+    name: 率军削平割据
+    labels:
+      zh:
+      - 南征北战
+    start_date: 0618-11-01
+    highlight_event_id: guji-李世民-event-conquest
+  - key: climax
+    name: 玄武门定嗣位
+    labels:
+      zh:
+      - 玄武定局
+    start_date: 0626-07-02
+    highlight_event_id: guji-李世民-event-xuanwu
+  - key: closure
+    name: 受禅即位安邦
+    labels:
+      zh:
+      - 即位安邦
+    start_date: 0626-09-04
+    highlight_event_id: guji-李世民-event-ascend
+  decisions:
+  - date: 0617-06-01
+    title_zh: 力劝高祖举兵晋阳
+    rationale: 隋乱已极天下离心，若坐守太原则祸至无日，不如顺民心举大义以图天下
+  - date: 0626-07-02
+    title_zh: 玄武门先发制人
+    rationale: 太子齐王猜忌日迫，退让则身死国乱，先发则可定嗣安邦，故决意一击
+- id: guji-李世民-endeavor-2
+  title_zh: 开馆纳谏共致贞观之治
+  summary: 即位后除乱致治，开馆延才虚心纳谏，与群贤协恭共成清明政治
+  phases:
+  - key: brewing
+    name: 初即位求贤图治
+    labels:
+      zh:
+      - 求贤图治
+    start_date: 0626-09-04
+    highlight_event_id: guji-李世民-event-ascend
+  - key: breakthrough
+    name: 开馆延才纳谏
+    labels:
+      zh:
+      - 延才纳谏
+    start_date: 0627-01-01
+    highlight_event_id: guji-李世民-event-ascend
+  - key: climax
+    name: 君臣协恭致治
+    labels:
+      zh:
+      - 贞观之治
+    start_date: 0628-01-01
+    highlight_event_id: guji-李世民-event-ascend
+  - key: closure
+    name: 功德兼隆守成
+    labels:
+      zh:
+      - 守成化民
+    start_date: 0640-01-01
+    highlight_event_id: guji-李世民-event-death
+  decisions:
+  - date: 0627-01-01
+    title_zh: 开馆延揽房杜魏徵等群贤
+    rationale: 治国须得人，房杜善断马周切理魏徵刚直，皆可倚任以成治功
+  - date: 0628-01-01
+    title_zh: 虚心纳谏以兼听为治
+    rationale: 偏听则蔽兼听则明，纳直谏虽逆耳而利于行，故以人为镜以谏为师
+events:
+- id: guji-李世民-event-birth
+  date: 0598-01-28
+  year_of: 598
+  type: birth
+  title_zh: 生于武功别馆
+  description: 隋开皇十七年十二月生于武功别馆为唐高祖次子
+- id: guji-李世民-event-conquest
+  date: 0617-06-01
+  year_of: 617
+  type: career
+  title_zh: 从高祖举兵晋地平定天下
+  description: 随高祖举兵自晋地起六年之中海内咸服削平群雄奠定唐业
+- id: guji-李世民-event-xuanwu
+  date: 0626-07-02
+  year_of: 626
+  type: career
+  title_zh: 玄武门之变定嗣
+  description: 武德九年六月玄武门先发平定内争遂被立为太子
+- id: guji-李世民-event-ascend
+  date: 0626-09-04
+  year_of: 626
+  type: career
+  title_zh: 即位改元贞观开馆纳谏
+  description: 受高祖禅即皇帝位改元贞观开馆延才房杜魏徵等协恭除乱致治功德兼隆
+- id: guji-李世民-event-death
+  date: 0649-07-10
+  year_of: 649
+  type: death
+  title_zh: 崩于含风殿
+  description: 贞观二十三年五月崩于翠微宫含风殿庙号太宗葬昭陵

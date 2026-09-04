@@ -1,0 +1,146 @@
+person:
+  qid: guji-汉文帝
+  name_zh: 汉文帝
+  names:
+    zh: 刘恒
+    en: Emperor Wen of Han
+  lifespan:
+    birth:
+      date: -203
+      precision: year
+      is_circa: true
+      raw: 汉高祖四年生于薄姬
+    death:
+      date: -157-07-06
+      precision: day
+      is_circa: false
+      raw: 汉文帝后元七年六月己亥崩于未央宫
+  birth_date: -203
+  death_date: -157-07-06
+  era: 西汉
+  reign_ref: 文帝前元至后元
+  archetype: 孝治守成之君
+  dilemmas:
+  - 侍母尝药尽孝与日理万机如何兼顾
+  - 笃行宽仁省刑与持守法度如何两全
+  lesson: 以孝为本薄赋省刑仁守天下则民安亲安
+  summary_first_person: 吾为代王侍母薄太后尝药不离口即位后以孝治天下轻徭薄赋省刑慎罚愿后人记吾孝亲之心
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%9B%9B%E5%AD%97%E7%BB%8F.html
+  - https://ctext.org/wiki.pl?if=gb&res=603372
+endeavors:
+- id: guji-汉文帝-endeavor-1
+  title_zh: 代邸侍亲亲尝汤药
+  summary: 代王时奉养薄太后母病三年目不交睫衣不解带汤药必亲尝而后进
+  phases:
+  - key: brewing
+    name: 代邸奉养
+    labels:
+      zh:
+      - 侍亲
+    start_date: -196
+    highlight_event_id: guji-汉文帝-event-serve-mother
+  - key: breakthrough
+    name: 尝药尽孝
+    labels:
+      zh:
+      - 尝药
+    start_date: -194
+    highlight_event_id: guji-汉文帝-event-taste-medicine
+  - key: climax
+    name: 孝名远播
+    labels:
+      zh:
+      - 纯孝
+    start_date: -182
+    highlight_event_id: guji-汉文帝-event-taste-medicine
+  - key: closure
+    name: 以孝承统
+    labels:
+      zh:
+      - 承统
+    start_date: -180
+    highlight_event_id: guji-汉文帝-event-ascend
+  decisions:
+  - date: -194
+    title_zh: 母病亲侍汤药
+    rationale: 母病忧毒伤身必亲尝以验冷热毒性方敢进御
+  - date: -180
+    title_zh: 不辞代邸入继大统
+    rationale: 以宗室贤孝被迎立愿以孝道推及天下奉宗庙安百姓
+- id: guji-汉文帝-endeavor-2
+  title_zh: 即位孝治轻徭省刑
+  summary: 即位后尊养太后以孝化民薄赋除租省刑废肉刑开文景之治基业
+  phases:
+  - key: brewing
+    name: 初登大宝
+    labels:
+      zh:
+      - 即位
+    start_date: -180
+    highlight_event_id: guji-汉文帝-event-ascend
+  - key: breakthrough
+    name: 诏行孝悌
+    labels:
+      zh:
+      - 孝治
+    start_date: -179
+    highlight_event_id: guji-汉文帝-event-filial-edict
+  - key: climax
+    name: 薄赋省刑
+    labels:
+      zh:
+      - 仁政
+    start_date: -167
+    highlight_event_id: guji-汉文帝-event-filial-edict
+  - key: closure
+    name: 遗诏薄葬
+    labels:
+      zh:
+      - 薄葬
+    start_date: -157
+    highlight_event_id: guji-汉文帝-event-death
+  decisions:
+  - date: -179
+    title_zh: 尊母为皇太后诏举孝廉
+    rationale: 欲以孝悌化天下故首尊亲而后劝民孝立孝廉之科
+  - date: -167
+    title_zh: 废除肉刑减笞省罚
+    rationale: 念刑者民之残不忍以严刑伤孝子之身故宽刑以全民命
+events:
+- id: guji-汉文帝-event-birth
+  type: birth
+  date: -203
+  year_of: -203
+  title_zh: 生于汉高祖四年
+  description: 高祖中子薄姬所生封为代王居晋阳侍母至孝
+- id: guji-汉文帝-event-serve-mother
+  type: serve
+  date: -196
+  year_of: -196
+  title_zh: 就国代邸奉养薄太后
+  description: 就国代地日夜侍奉薄太后衣不解带谨视汤药
+- id: guji-汉文帝-event-taste-medicine
+  type: endeavor
+  date: -190
+  year_of: -190
+  title_zh: 母病三年亲尝汤药
+  description: 薄太后病困三年文帝目不交睫汤药非口尝不进四字经称文帝尝药怕毒伤亲
+- id: guji-汉文帝-event-ascend
+  type: ascend
+  date: -180-11-14
+  year_of: -180
+  title_zh: 迎立为皇帝
+  description: 吕后崩大臣迎代王入长安即皇帝位改元前元以孝治天下
+- id: guji-汉文帝-event-filial-edict
+  type: endeavor
+  date: -179
+  year_of: -179
+  title_zh: 下诏崇孝薄赋省刑
+  description: 诏举孝廉恤孤寡除收孥相坐减田租除肉刑以孝悌之道化民
+- id: guji-汉文帝-event-death
+  type: death
+  date: -157-07-06
+  year_of: -157
+  title_zh: 崩于未央宫遗诏薄葬
+  description: 在位二十三年崩于未央宫遗诏薄葬不扰百姓谥曰孝文皇帝
