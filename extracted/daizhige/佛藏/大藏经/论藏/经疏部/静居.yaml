@@ -1,0 +1,128 @@
+person:
+  qid: guji-静居
+  name_zh: 静居
+  names:
+    zh: 静居
+    en: Jingju
+  lifespan:
+    birth:
+      date: '0740'
+      precision: year
+      is_circa: true
+      raw: 唐中期约开元末天宝初
+    death:
+      date: 0800
+      precision: year
+      is_circa: true
+      raw: 贞元以后不详
+  birth_date: '0740'
+  death_date: 0800
+  era: 唐
+  reign_ref: 唐德宗贞元
+  archetype: 华严义解沙门
+  dilemmas:
+  - 文义弘深难可备陈而须随分见闻滥为称赞
+  - 经卷浩博七处九会八十卷而须提纲分品以便信解
+  lesson: 以愿行之华严法身之果摄用归体随分见闻利益群品
+  summary_first_person: 我是静居大安国寺沙门贞元八年降诞日于麟德殿讲大方广佛华严经玄义以七处九会三十九品统摄八十卷愿一句一偈与理相应上资圣寿
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E7%9A%87%E5%B8%9D%E9%99%8D%E8%AF%9E%E6%97%A5%E4%BA%8E%E9%BA%9F%E5%BE%B7%E6%AE%BF%E8%AE%B2%E5%A4%A7%E6%96%B9%E5%B9%BF%E4%BD%9B%E5%8D%8E%E4%B8%A5%E7%BB%8F%E7%8E%84%E4%B9%89%E4%B8%80%E9%83%A8.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%BB%8F%E7%96%8F%E9%83%A8/%E7%9A%87%E5%B8%9D%E9%99%8D%E8%AF%9E%E6%97%A5%E4%BA%8E%E9%BA%9F%E5%BE%B7%E6%AE%BF%E8%AE%B2%E5%A4%A7%E6%96%B9%E5%B9%BF%E4%BD%9B%E5%8D%8E%E4%B8%A5%E7%BB%8F%E7%8E%84%E4%B9%89%E4%B8%80%E9%83%A8.html
+endeavors:
+- id: guji-静居-endeavor-1
+  title_zh: 麟德殿降诞日讲华严玄义
+  role_zh: 大安国寺沙门讲主
+  goal_zh: 以七处九会统释八十华严为圣寿祝厘
+  phases:
+  - key: brewing
+    name: 研阅八十卷华严
+    labels:
+      zh: 蓄积研读
+    start_date: 0780
+    highlight_event_id: guji-静居-event-huayan-comp
+  - key: breakthrough
+    name: 立七处九会科判
+    labels:
+      zh: 科判初成
+    start_date: 0791
+    highlight_event_id: guji-静居-event-huayan-comp
+  - key: climax
+    name: 麟德殿奉诏敷演
+    labels:
+      zh: 御前敷演
+    start_date: '0792-04-21'
+    highlight_event_id: guji-静居-event-jinshang
+  - key: closure
+    name: 进上玄义一部祝圣
+    labels:
+      zh: 进上祝厘
+    start_date: '0792-04-21'
+    highlight_event_id: guji-静居-event-jinshang
+  decisions:
+  - date: 0791
+    title_zh: 以体遍用周释大方广
+    rationale: 依体起用摄用归体以明所传教法
+  - date: '0792-04-21'
+    title_zh: 以佛华严摄因果人法进上
+    rationale: 以法成人以人传法愿一句一偈相应上资圣寿
+- id: guji-静居-endeavor-2
+  title_zh: 住大安国寺传持华严
+  role_zh: 大安国寺沙门义解师
+  goal_zh: 弘阐华严信解行愿令众生入法界
+  phases:
+  - key: brewing
+    name: 安国寺出家受具
+    labels:
+      zh: 出家熏修
+    start_date: '0740'
+    highlight_event_id: guji-静居-event-birth
+  - key: breakthrough
+    name: 专攻华严普贤行愿
+    labels:
+      zh: 专宗华严
+    start_date: 0780
+    highlight_event_id: guji-静居-event-huayan-comp
+  - key: climax
+    name: 敷演三贤十圣因果
+    labels:
+      zh: 弘法化众
+    start_date: '0792-04-21'
+    highlight_event_id: guji-静居-event-jinshang
+  - key: closure
+    name: 以经卷传后广饶益众生
+    labels:
+      zh: 传灯后世
+    start_date: 0800
+    highlight_event_id: guji-静居-event-death
+  decisions:
+  - date: 0780
+    title_zh: 依八十经立信解行证次第
+    rationale: 初会举所信佛末会明能成佛人中七会明佛因为阶降
+  - date: '0792-04-21'
+    title_zh: 谨上玄义不尚繁辞
+    rationale: 文义深远难备陈随分见闻称赞以便 beginners 信入
+events:
+- id: guji-静居-event-birth
+  title_zh: 降诞出家
+  date: '0740'
+  year_of: 740
+  place_zh: 不详
+  description: 唐中期降诞后出家住大安国寺专修华严
+- id: guji-静居-event-huayan-comp
+  title_zh: 撰成华严玄义分判七处九会
+  date: 0791
+  year_of: 791
+  place_zh: 大安国寺
+  description: 将八十卷三十九品判为七处九会自菩提场至逝多林入法界以大方广释法以佛华严释人
+- id: guji-静居-event-jinshang
+  title_zh: 贞元八年四月二十一日麟德殿讲经进上
+  date: '0792-04-21'
+  year_of: 792
+  place_zh: 长安麟德殿
+  description: 皇帝降诞日于麟德殿讲大方广佛华严经玄义一部谨上祝福祐无疆上资圣寿
+- id: guji-静居-event-death
+  title_zh: 示寂
+  date: 0800
+  year_of: 800
+  place_zh: 不详
+  description: 贞元以后示寂玄义一部经后世传抄流行
