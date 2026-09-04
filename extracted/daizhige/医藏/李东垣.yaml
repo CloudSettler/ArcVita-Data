@@ -9,116 +9,125 @@ person:
       date: 1180
       precision: year
       is_circa: false
-      raw: 金大定二十年生于真定
+      raw: 金大定二十年
     death:
       date: 1251
       precision: year
       is_circa: false
-      raw: 蒙古宪宗元年卒年七十二
+      raw: 蒙古宪宗元年
   birth_date: 1180
   death_date: 1251
   era: 金元
-  reign_ref: 金世宗大定至蒙古宪宗
-  archetype: 补土医宗
+  reign_ref: 金世宗大定
+  archetype: 补土医圣
   dilemmas:
-  - 外感学盛行内伤被视为外感，如何辨内伤外感以正治
-  - 世医峻下耗损元气暗折人寿，如何补养胃气以保天年
-  lesson: 内伤脾胃百病由生，甘温补养胃气上升元气自固
-  summary_first_person: 我是李东垣，真定人，师承张洁古，目睹世医峻下耗气误人，遂立脾胃内伤之论，著脾胃论兰室秘藏，教人补养胃气以安谷全神
+  - 外感伤寒与内伤脾胃杂病如何分辨施治
+  - 寒凉攻伐盛行之时是否敢以温补脾胃立论
+  - 药性寒热温平错杂如何使后学易知易用
+  lesson: 脾胃为后天之本，内伤当以补益为先，养正方能祛邪，明标本缓急方能司人命
+  summary_first_person: 吾乃真定李杲，号东垣老人，师事张元素，目睹战乱饥疫多归内伤，遂倡脾胃为元气之本，著脾胃论以补土救时，复分寒热温平以明药性，愿后学知标本缓急而善用之
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%B0%E5%AE%A4%E7%A7%98%E8%97%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%B0%E5%AE%A4%E7%A7%98%E8%97%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%8F%8D%E7%8F%A0%E5%9B%8A%E8%A1%A5%E9%81%97%E8%8D%AF%E6%80%A7%E8%B5%8B.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%8F%8D%E7%8F%A0%E5%9B%8A%E8%A1%A5%E9%81%97%E8%8D%AF%E6%80%A7%E8%B5%8B.html
 endeavors:
 - id: guji-李东垣-endeavor-1
-  title_zh: 创立脾胃内伤学说
-  goal_zh: 明辨内伤外感补养脾胃元气以治未病已病
+  title_zh: 开创脾胃内伤学派
+  description_zh: 师承张元素，辨外感内伤，立补土温补之法，著脾胃论垂教后世
   phases:
   - key: brewing
-    name: 师承易水积累
+    name: 少从张元素习医
     labels:
-      zh:
-      - 师承
-      - 易水
+      zh: 尽得洁古之学
     start_date: 1196
     highlight_event_id: guji-李东垣-event-1
   - key: breakthrough
-    name: 壬辰疫乱辨治
+    name: 壬辰战乱悟内伤
     labels:
-      zh:
-      - 疫乱
-      - 辨证
+      zh: 饥疫内伤之辨
     start_date: 1232
     highlight_event_id: guji-李东垣-event-2
   - key: climax
-    name: 著论立补土法
+    name: 脾胃论成书立说
     labels:
-      zh:
-      - 立论
-      - 补土
+      zh: 元气脾胃之论
     start_date: 1249
     highlight_event_id: guji-李东垣-event-3
+  - key: closure
+    name: 授徒传道守正
+    labels:
+      zh: 罗谦甫等传业
+    start_date: 1250
+    highlight_event_id: guji-李东垣-event-4
   decisions:
   - date: 1232
-    title_zh: 乱疫中不用峻下而用补中
-    rationale: 兵荒疫流行人多内伤不足，峻下必损元气，故以甘温补养胃气使阳生阴长
+    title_zh: 舍伤寒专论而主内伤脾胃
+    rationale: 战后饥疫身热心烦多非外感，误用寒凉则殁，故以补益脾胃另立一途
   - date: 1249
-    title_zh: 著脾胃论兰室秘藏传法
-    rationale: 恐后人妄用峻利重伤元气，故著书明塞因塞用因曲为直之理
+    title_zh: 以升阳益气立补中益气诸方
+    rationale: 脾胃虚则元气不足，温升甘补可使清阳上升，阴火自降
 - id: guji-李东垣-endeavor-2
-  title_zh: 行医授徒济世活人
-  goal_zh: 以平淡甘温之剂活人无数并授徒传补土之法
+  title_zh: 分经明性撰珍珠囊药赋
+  description_zh: 按寒热温平分药性，参图经方书，立引经报使与升降浮沉之纲
   phases:
   - key: brewing
-    name: 真定设帐行医
+    name: 博采本草图经
     labels:
-      zh:
-      - 行医
-      - 活人
-    start_date: 1205
-    highlight_event_id: guji-李东垣-event-1
+      zh: 考药性之寒热
+    start_date: 1235
+    highlight_event_id: guji-李东垣-event-2
+  - key: breakthrough
+    name: 四性分类初定
+    labels:
+      zh: 寒热温平总括
+    start_date: 1247
+    highlight_event_id: guji-李东垣-event-4
   - key: climax
-    name: 授徒整理秘藏
+    name: 珍珠囊药性赋撰成
     labels:
-      zh:
-      - 授徒
-      - 传书
+      zh: 引经标本之法
     start_date: 1250
-    highlight_event_id: guji-李东垣-event-3
+    highlight_event_id: guji-李东垣-event-4
+  - key: closure
+    name: 门人补遗流传
+    labels:
+      zh: 补遗药性之赋
+    start_date: 1251
+    highlight_event_id: guji-李东垣-event-death
   decisions:
-  - date: 1205
-    title_zh: 家赀济人而不计利
-    rationale: 怜贫病无依故散财施药以养胃气全活为心
+  - date: 1247
+    title_zh: 以四气五味升降浮沉统药
+    rationale: 药有阴阳升降之能，分经用药方能使君臣佐使各归其经
   - date: 1250
-    title_zh: 命门人辑兰室秘藏
-    rationale: 晚年精力已衰恐经验散佚故令弟子类辑方论以传后世
+    title_zh: 以赋体总括药性使易诵习
+    rationale: 后学精神日月有限，知其概而付之专精者，故作简要药性赋以便记诵
 events:
 - id: guji-李东垣-event-birth
-  title_zh: 生于真定
   date: 1180
   year_of: 1180
-  place_zh: 真定
-  description: 金大定二十年生于真定李氏富家，幼敦厚好医
+  title_zh: 诞生于真定
+  description_zh: 金大定二十年生于真定，名杲字明之，晚号东垣老人
 - id: guji-李东垣-event-1
-  title_zh: 师事张洁古
   date: 1196
   year_of: 1196
-  place_zh: 易水
-  description: 闻张元素善医捐千金师之尽得其法益以发挥脾胃之论
+  title_zh: 师事张元素
+  description_zh: 捐千金从张洁古学医，尽得其术，兼通春秋礼记诸书
 - id: guji-李东垣-event-2
-  title_zh: 壬辰京师大疫施治
   date: 1232
   year_of: 1232
-  place_zh: 汴京
-  description: 蒙古围汴疫气大行，辨为内伤劳倦而非尽外感，以补中调胃活人甚众
+  title_zh: 战乱后辨内伤外感
+  description_zh: 壬辰汴京陷后饥疫并作，悟多系饮食劳倦内伤脾胃，非尽外感伤寒
 - id: guji-李东垣-event-3
-  title_zh: 著成脾胃论兰室秘藏
   date: 1249
   year_of: 1249
-  place_zh: 真定
-  description: 集平生经验著脾胃论，门人辑兰室秘藏，明饮食劳倦伤脾胃及中满腹胀治法
+  title_zh: 脾胃论成书
+  description_zh: 著脾胃论三卷，发明元气不足皆由脾胃，创补中益气等名方
+- id: guji-李东垣-event-4
+  date: 1250
+  year_of: 1250
+  title_zh: 珍珠囊药性分类垂世
+  description_zh: 分寒热温平四赋以明药性，又论标本阴阳升降，门人补遗为珍珠囊补遗药性赋
 - id: guji-李东垣-event-death
-  title_zh: 卒于故里
   date: 1251
   year_of: 1251
-  place_zh: 真定
-  description: 蒙古宪宗元年卒年七十二，门人罗天益等传其补土之学
+  title_zh: 卒于元初
+  description_zh: 蒙古宪宗元年卒，年七十二，罗谦甫等传其补土之学
