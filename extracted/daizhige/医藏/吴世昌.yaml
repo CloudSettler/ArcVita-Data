@@ -1,0 +1,138 @@
+person:
+  qid: guji-吴世昌
+  name_zh: 吴世昌
+  names:
+    zh: 吴世昌
+    en: Wu Shichang
+  lifespan:
+    birth:
+      date: '1650'
+      precision: year
+      is_circa: true
+      raw: 清初约生于江夏
+    death:
+      date: '1725'
+      precision: year
+      is_circa: true
+      raw: 康熙末后卒
+  birth_date: '1650'
+  death_date: '1725'
+  era: 清
+  reign_ref: 康熙
+  archetype: 良医
+  dilemmas:
+  - 方书广行与药性取舍之难
+  - 秘藏自珍与公诸天下之择
+  lesson: 不为良相则为良医以济人为主公方于世
+  summary_first_person: 吾江夏吴世昌手录奇方自头至足男女内外备列得鹾使鄂公赏识付梓以公天下惟愿得者参而行之以全济人之心
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A5%87%E6%96%B9%E7%B1%BB%E7%BC%96.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A5%87%E6%96%B9%E7%B1%BB%E7%BC%96.html
+endeavors:
+- id: guji-吴世昌-endeavor-1
+  title_zh: 手录类编奇方
+  summary_zh: 自头至足男女小儿内外诸证以及六畜昆虫备列成行笈善本
+  phases:
+  - key: brewing
+    name: 博采搜集
+    labels:
+      zh: 积累
+    start_date: '1700'
+    highlight_event_id: guji-吴世昌-event-shoulu
+  - key: breakthrough
+    name: 分类成编
+    labels:
+      zh: 编纂
+    start_date: '1718-04-01'
+    highlight_event_id: guji-吴世昌-event-shoulu
+  - key: climax
+    name: 携书示人
+    labels:
+      zh: 呈示
+    start_date: '1718-05-01'
+    highlight_event_id: guji-吴世昌-event-jianeyue
+  - key: closure
+    name: 定为善本
+    labels:
+      zh: 定本
+    start_date: '1718-06-01'
+    highlight_event_id: guji-吴世昌-event-jianeyue
+  decisions:
+  - date: '1718-05-01'
+    title_zh: 携手录晋谒鹾使
+    rationale: 以行笈善本示人求广济之机不秘自珍
+  - date: '1718-06-01'
+    title_zh: 守不妄加减之戒
+    rationale: 自认非善医者不罔为加减参订惟期后人参而行之
+- id: guji-吴世昌-endeavor-2
+  title_zh: 付梓公方济世
+  summary_zh: 得鄂公倡议付剞劂登梨枣刷印流通体利济之心公诸天下
+  phases:
+  - key: brewing
+    name: 鄂公见喜倡刻
+    labels:
+      zh: 倡议
+    start_date: '1718-06-01'
+    highlight_event_id: guji-吴世昌-event-jianeyue
+  - key: breakthrough
+    name: 付剞劂登梨枣
+    labels:
+      zh: 刊刻
+    start_date: '1718-07-01'
+    highlight_event_id: guji-吴世昌-event-kanke
+  - key: climax
+    name: 不日告成刷印
+    labels:
+      zh: 告成
+    start_date: '1719-04-01'
+    highlight_event_id: guji-吴世昌-event-kanke
+  - key: closure
+    name: 授板久行天下
+    labels:
+      zh: 流通
+    start_date: '1719-06-01'
+    highlight_event_id: guji-吴世昌-event-liutong
+  decisions:
+  - date: '1718-06-01'
+    title_zh: 应鄂公付梓公天下
+    rationale: 古人不为良相则为良医广行方书得救人普
+  - date: '1719-06-01'
+    title_zh: 受板体刻书之心久行
+    rationale: 鄂公任满带板入京恐秘而勿刻故受托久而行之以仰体利济
+events:
+- id: guji-吴世昌-event-birth
+  date: '1650'
+  year_of: 1650
+  title_zh: 出生
+  description_zh: 约生于清初江夏吴氏
+  endeavor_ref: guji-吴世昌-endeavor-1
+- id: guji-吴世昌-event-shoulu
+  date: '1718-05-01'
+  year_of: 1718
+  title_zh: 手录奇方成编
+  description_zh: 初夏携手录奇方类编自头至足男女小儿内外诸证及六畜昆虫无不备列
+  endeavor_ref: guji-吴世昌-endeavor-1
+- id: guji-吴世昌-event-jianeyue
+  date: '1718-06-01'
+  year_of: 1718
+  title_zh: 晋谒鹾使鄂公
+  description_zh: 得晤东海徐成霞并谒鹾使鄂公鄂公见手录而喜倡付梓以公天下
+  endeavor_ref: guji-吴世昌-endeavor-2
+- id: guji-吴世昌-event-kanke
+  date: '1719-04-01'
+  year_of: 1719
+  title_zh: 付剞劂告成
+  description_zh: 付剞劂氏登梨枣不日月告成刷印如千以流通
+  endeavor_ref: guji-吴世昌-endeavor-2
+- id: guji-吴世昌-event-liutong
+  date: '1719-06-01'
+  year_of: 1719
+  title_zh: 受板久行济人
+  description_zh: 康熙己亥初夏受鄂公之板体刻书济人之心久而行之钱塘孙元龙序于渊藻堂
+  endeavor_ref: guji-吴世昌-endeavor-2
+- id: guji-吴世昌-event-death
+  date: '1725'
+  year_of: 1725
+  title_zh: 逝世
+  description_zh: 康熙末后卒于桑梓以利济之心公方于世
+  endeavor_ref: guji-吴世昌-endeavor-2
