@@ -1,0 +1,132 @@
+person:
+  qid: guji-陈深
+  name_zh: 陈深
+  names:
+    zh: 陈深
+    en: Chen Shen
+  lifespan:
+    birth:
+      date: 1260
+      precision: year
+      is_circa: true
+      raw: 开庆景定间生于平江
+    death:
+      date: 1330
+      precision: year
+      is_circa: true
+      raw: 天历间尚存后不详
+  birth_date: 1260
+  death_date: 1330
+  era: 宋末元初
+  reign_ref: 宋理宗开庆至元文宗天历
+  archetype: 隐逸经师
+  dilemmas:
+  - 宋亡之后出仕与守节之抉择
+  - 空言说春秋与考据左氏事实之取舍
+  lesson: 考据事实不为虚辞废传守节闭门以笃实传经
+  summary_first_person: 余平江人字子深号清全弱冠逢宋亡遂笃志古学闭门著书以胡氏为宗兼采左氏事实著读春秋编十二卷天历间以能书见荐吾潜匿不出惟求为笃实君子而已
+  source_urls:
+  - https://daizhige.org/儒藏/春秋/读春秋编.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/读春秋编.md
+endeavors:
+- id: guji-陈深-endeavor-1
+  title_zh: 闭门治经著读春秋编
+  summary: 宋亡后闭门治古学以胡传为宗兼采左氏考据事实著成十二卷
+  phases:
+  - key: brewing
+    name: 宋亡立志古学
+    labels:
+      zh: 闭门养志
+    start_date: 1279
+    highlight_event_id: guji-陈深-event-dingzhi
+  - key: breakthrough
+    name: 以胡氏为宗兼采左氏
+    labels:
+      zh: 考据事实
+    start_date: 1290
+    highlight_event_id: guji-陈深-event-zhushu
+  - key: climax
+    name: 著成读春秋编十二卷
+    labels:
+      zh: 春秋成编
+    start_date: 1320
+    highlight_event_id: guji-陈深-event-zhushu
+  - key: closure
+    name: 四库仅存春秋一编
+    labels:
+      zh: 笃实传世
+    start_date: 1325
+    highlight_event_id: guji-陈深-event-zhushu
+  decisions:
+  - date: 1290
+    title_zh: 宗胡兼采左氏
+    rationale: 左氏身为鲁史言必有据非公谷传闻疑似之比故考据事实不废传求经
+  - date: 1320
+    title_zh: 别无新异专务笃实
+    rationale: 不喜宋人空言说经宁为平近笃实以正名分典礼垂训后世
+- id: guji-陈深-endeavor-2
+  title_zh: 守节隐逸拒天历之荐
+  summary: 自题清全斋为号天历间奎章阁臣以能书荐潜匿不出以全晚节
+  phases:
+  - key: brewing
+    name: 弱冠逢宋亡
+    labels:
+      zh: 国变养晦
+    start_date: 1279
+    highlight_event_id: guji-陈深-event-dingzhi
+  - key: breakthrough
+    name: 题居清全斋
+    labels:
+      zh: 以号明志
+    start_date: 1300
+    highlight_event_id: guji-陈深-event-qingquan
+  - key: climax
+    name: 天历以能书见荐
+    labels:
+      zh: 荐辟至门
+    start_date: 1328
+    highlight_event_id: guji-陈深-event-jujian
+  - key: closure
+    name: 潜匿不出终老吴中
+    labels:
+      zh: 潜匿全节
+    start_date: 1329
+    highlight_event_id: guji-陈深-event-jujian
+  decisions:
+  - date: 1300
+    title_zh: 题斋清全自誓
+    rationale: 宋亡之后不复求仕以清全自号明保身守志之心
+  - date: 1328
+    title_zh: 拒奎章阁之荐
+    rationale: 国亡遗民不当以书艺进身元朝潜匿不出以避征辟全出处之义
+events:
+- id: guji-陈深-event-birth
+  date: 1260
+  year_of: 1260
+  title_zh: 生于平江
+  description: 开庆景定间生于平江字子深后以清全斋为号生当宋季弱冠逢宋亡
+- id: guji-陈深-event-dingzhi
+  date: 1279
+  year_of: 1279
+  title_zh: 宋亡笃志古学
+  description: 宋亡之时仅及弱冠遂笃志古学闭门著书不复求仕
+- id: guji-陈深-event-qingquan
+  date: 1300
+  year_of: 1300
+  title_zh: 题居曰清全斋
+  description: 题所居曰清全斋因以为号隐居吴中治读易读诗读春秋諸编
+- id: guji-陈深-event-zhushu
+  date: 1320
+  year_of: 1320
+  title_zh: 著读春秋编十二卷
+  description: 大抵以胡氏为宗而兼采左氏考据事实不为虚辞高论今读易读诗已佚惟此书仅存
+- id: guji-陈深-event-jujian
+  date: 1328
+  year_of: 1328
+  title_zh: 天历间荐辟潜匿
+  description: 天历间奎章阁臣以能书荐潜匿不出郑元祐侨吴集次子植墓志可证其时尚存
+- id: guji-陈深-event-death
+  date: 1330
+  year_of: 1330
+  title_zh: 卒于吴中
+  description: 天历后卒年不详次子植至正二十二年卒年七十可推其家世前后闭门终老

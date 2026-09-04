@@ -1,0 +1,110 @@
+person:
+  qid: guji-鄭玄
+  name_zh: 鄭玄
+  names:
+    zh: 鄭玄
+    en: Zheng Xuan
+  lifespan:
+    birth:
+      date: 87
+      precision: year
+      is_circa: false
+      raw: 漢順帝永建二年
+    death:
+      date: 128
+      precision: year
+      is_circa: false
+      raw: 漢獻帝建安五年
+  birth_date: 87
+  death_date: 128
+  era: 東漢
+  reign_ref: 順帝永建至獻帝建安
+  archetype: 通經衛道之大儒
+  dilemmas:
+  - title_zh: 公羊獨盛與穀梁將廢
+    description: 何休墨守公羊多抑穀梁吾若默然則微言遂絕故當起廢疾以辨之
+  - title_zh: 亂世出仕與守道著述
+    description: 黨錮袁曹相劫皆欲致吾吾寧閉門注經以傳後學不以禍福易志
+  lesson: 守正以通經辨謬以起廢學在致用不在空言
+  summary_first_person: 吾鄭玄字康成北海高密人也少嗜學西師馬融盡得其傳見何休廢穀梁故作起廢疾以正之晚年遍注群經以授門人願以經術存世道人心
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E8%B5%B7%E5%BA%9F%E7%96%BE.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E8%B5%B7%E5%BA%9F%E7%96%BE.html
+endeavors:
+- id: guji-鄭玄-endeavor-1
+  title_zh: 駁何休作起廢疾以存穀梁
+  summary: 針對何休難穀梁諸條一一釋之明理道通塞以起廢疾
+  phases:
+  - key: brewing
+    name: 遊學通經見公穀異同
+    labels:
+      zh: 醞釀
+    start_date: 0159
+    highlight_event_id: guji-鄭玄-event-study
+  - key: climax
+    name: 條辨何休著起廢疾
+    labels:
+      zh: 高潮
+    start_date: 0192
+    highlight_event_id: guji-鄭玄-event-qifeiji
+  decisions:
+  - date: 0192
+    title_zh: 決意為穀梁作辯
+    rationale: 何休以日與不日遠近異詞等說抑穀梁義多不通若不辨則經義遂乖故舉其謬而釋之
+  - date: 0192
+    title_zh: 以經證經不為黨爭
+    rationale: 直據盟會戰伐葬祭本事明褒貶所在使理自見不徒逞口舌
+- id: guji-鄭玄-endeavor-2
+  title_zh: 遍注群經教授後學
+  summary: 隱居不仕遍注詩書禮易論語等以傳聖學弟子盈門
+  phases:
+  - key: brewing
+    name: 黨錮歸隱閉門注經
+    labels:
+      zh: 醞釀
+    start_date: 124
+    highlight_event_id: guji-鄭玄-event-zhujing
+  - key: closure
+    name: 學成四方從遊門盈
+    labels:
+      zh: 收束
+    start_date: 128
+    highlight_event_id: guji-鄭玄-event-death
+  decisions:
+  - date: 124
+    title_zh: 謝病歸里專事著述
+    rationale: 朝政昏亂徵辟不就唯以注經講學為己任使後世有所據依
+  - date: 0197
+    title_zh: 拒袁紹劫請守道不屈
+    rationale: 袁紹強致隨軍吾不附逆不背義病卒以全節傳學不絕
+events:
+- id: guji-鄭玄-event-birth
+  date: 87
+  year_of: 87
+  type: birth
+  title_zh: 誕生於北海高密
+  description: 漢順帝永建二年生於北海高密少好學博通經籍
+- id: guji-鄭玄-event-study
+  date: 0159
+  year_of: 0159
+  type: career
+  title_zh: 西入關師事馬融
+  description: 往洛陽從第五元起等遊又師馬融三年盡得其傳歸而教授
+- id: guji-鄭玄-event-zhujing
+  date: 124
+  year_of: 124
+  type: career
+  title_zh: 閉門注經傳學後世
+  description: 黨錮既起隱居著述遍注毛詩周禮儀禮禮記論語孝經等弟子盈門
+- id: guji-鄭玄-event-qifeiji
+  date: 0192
+  year_of: 0192
+  type: career
+  title_zh: 作起廢疾駁何休扶穀梁
+  description: 感何休墨守公羊抑黜穀梁乃條其理道不通者而釋之以起廢疾
+- id: guji-鄭玄-event-death
+  date: 128
+  year_of: 128
+  type: death
+  title_zh: 卒於建安五年
+  description: 為袁紹劫請隨軍憂病卒於途中年七十四門人共諡文貞
