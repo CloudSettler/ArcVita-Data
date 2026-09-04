@@ -1,0 +1,126 @@
+person:
+  qid: guji-王怀隐
+  name_zh: 王怀隐
+  names:
+    zh: 王怀隐
+    en: Wang Huaiyin
+  lifespan:
+    birth:
+      date: 0930-01-01
+      precision: year
+      is_circa: true
+      raw: 约后晋天福五年
+    death:
+      date: 0985-01-01
+      precision: year
+      is_circa: true
+      raw: 约宋太平兴国十年
+  birth_date: 0930-01-01
+  death_date: 0985-01-01
+  era: 北宋初
+  reign_ref: 宋太宗太平兴国
+  archetype: 尚药医官
+  dilemmas:
+  - 万方浩繁而真伪杂糅，如何校勘去取以保施用无误
+  - 经络幽微而证候万变，如何以意通医而不泥于成方
+  lesson: 穷源考证集众方而立准绳，方能普济群生跻于寿域
+  summary_first_person: 吾怀隐忝居尚药，奉诏与诸医取家传应效万余道校勘编类，昼夜不怠，务使论证明品药皆有条贯，愿溥天之下各保遐年，此吾之志也
+  source_urls:
+  - https://daizhige.org/医藏/太平圣惠方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/太平圣惠方.md
+endeavors:
+- id: guji-王怀隐-endeavor-1
+  title_zh: 奉诏编纂太平圣惠方
+  description: 会同陈昭遇等取翰林医官院家传应效方合万余道，校勘编类为百卷
+  phases:
+  - key: brewing
+    name: 搜集万方
+    labels:
+      zh: 受诏取方
+    start_date: 0976-01-01
+    highlight_event_id: guji-王怀隐-event-978
+  - key: breakthrough
+    name: 考订论证
+    labels:
+      zh: 辨证品药
+    start_date: 0978-06-01
+    highlight_event_id: guji-王怀隐-event-978
+  - key: climax
+    name: 编勒百卷
+    labels:
+      zh: 分门编类
+    start_date: 0980-01-01
+    highlight_event_id: guji-王怀隐-event-982
+  - key: closure
+    name: 进御刊施
+    labels:
+      zh: 雕版遍施
+    start_date: 0982-01-01
+    highlight_event_id: guji-王怀隐-event-982
+  decisions:
+  - date: 0978-01-01
+    title_zh: 定凡例先辨虚实表里
+    rationale: 候疾深浅不明则用药无准，故先立诊候纲领以统万方
+  - date: 0980-03-01
+    title_zh: 以论证统方以品药载效
+    rationale: 诸家方论散乱，故以病证为纲药物功效为目，使检用必得
+- id: guji-王怀隐-endeavor-2
+  title_zh: 尚药奉御行医济世
+  description: 久任尚药奉御，精诊脉察色，守上医疗未病之训以护君民
+  phases:
+  - key: brewing
+    name: 谙习素问本草
+    labels:
+      zh: 穷究医经
+    start_date: 0950-01-01
+    highlight_event_id: guji-王怀隐-event-birth
+  - key: breakthrough
+    name: 明脉理通针药
+    labels:
+      zh: 洞明物理
+    start_date: 0960-01-01
+    highlight_event_id: guji-王怀隐-event-978
+  - key: climax
+    name: 居尚药拯疾苦
+    labels:
+      zh: 救民疾苦
+    start_date: 0976-01-01
+    highlight_event_id: guji-王怀隐-event-978
+  - key: closure
+    name: 垂训叙医诊脉
+    labels:
+      zh: 立法垂后
+    start_date: 0982-01-01
+    highlight_event_id: guji-王怀隐-event-982
+  decisions:
+  - date: 0976-06-01
+    title_zh: 守医者意也而不用庸见
+    rationale: 病生于内药调于外，非精微消详则证候难晓，故务以意参详变易
+  - date: 0982-01-01
+    title_zh: 首卷详述诊脉分寸关尺
+    rationale: 脉为医之大业，不深究其道何以为医，故备载七表八里以诏后学
+events:
+- id: guji-王怀隐-event-birth
+  type: birth
+  title_zh: 出生
+  date: 0930-01-01
+  year_of: 930
+  description: 王怀隐约生于后晋时，少习医经本草，涉猎诗书释老
+- id: guji-王怀隐-event-978
+  type: career
+  title_zh: 受诏校勘编类医方
+  date: 0978-01-01
+  year_of: 978
+  description: 宋太宗命尚药奉御王怀隐等四人取翰林医官院家传应效方合万余道校勘编类，凡论证品药悉载其内
+- id: guji-王怀隐-event-982
+  type: career
+  title_zh: 圣惠方百卷初具规模
+  date: 0982-01-01
+  year_of: 982
+  description: 与陈昭遇等分门编勒，首卷叙为医诊脉，次及诸科论证处方，奠定百卷之基，后成太平圣惠方
+- id: guji-王怀隐-event-death
+  type: death
+  title_zh: 卒于任上
+  date: 0985-01-01
+  year_of: 985
+  description: 王怀隐卒于尚药任上，其所订方论由后人续成雕版遍施华夷
