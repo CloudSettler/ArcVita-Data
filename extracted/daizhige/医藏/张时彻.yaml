@@ -1,0 +1,140 @@
+person:
+  qid: guji-张时彻
+  name_zh: 张时彻
+  names:
+    zh: 张时彻
+    en: Zhang Shiche
+  lifespan:
+    birth:
+      date: '1503'
+      precision: year
+      is_circa: true
+      raw: 明弘治十六年左右
+    death:
+      date: '1587'
+      precision: year
+      is_circa: true
+      raw: 明万历十五年左右
+  birth_date: '1503'
+  death_date: '1587'
+  era: 明
+  reign_ref: 嘉靖
+  archetype: 恤民济世的儒臣医家
+  dilemmas:
+  - 王政多缺而荒村窭户无医可迎当守官常还是推方济众
+  - 时师误人反剂杀人而病家不敢讼言当缄默自保还是直陈救弊
+  - 家藏验方屡试屡验当秘为家珍还是付梓广传黔细
+  lesson: 以平易可致之药传简便可施之法使贫僻之人亦得自救此仁孝之实学也
+  summary_first_person: 吾四明芝园主人张时彻也少举进士历官中外睹荒村病者待毙而京师多聚佳药遂以随身急救方附益新得删其讹舛付梓以传愿天下爱身及亲者得此一方免束手待毙之苦
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%80%A5%E6%95%91%E8%89%AF%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%80%A5%E6%95%91%E8%89%AF%E6%96%B9.html
+endeavors:
+- id: guji-张时彻-endeavor-1
+  person_qid: guji-张时彻
+  title_zh: 嘉靖入仕历官中外
+  description: 嘉靖二年登进士历官中外终至南京兵部尚书目睹王政缺而民多夭札遂生济世之志
+  phases:
+  - key: brewing
+    name: 登第初仕
+    labels:
+      zh: 科举入仕
+    start_date: '1523'
+    highlight_event_id: guji-张时彻-event-jinshi
+  - key: breakthrough
+    name: 历官观风
+    labels:
+      zh: 宦历见闻
+    start_date: '1540'
+    highlight_event_id: guji-张时彻-event-office
+  - key: climax
+    name: 高位恤民
+    labels:
+      zh: 高位存心
+    start_date: '1546'
+    highlight_event_id: guji-张时彻-event-office
+  - key: closure
+    name: 归隐芝园
+    labels:
+      zh: 归里著述
+    start_date: '1567'
+    highlight_event_id: guji-张时彻-event-death
+  decisions:
+  - date: '1523'
+    title_zh: 应嘉靖癸未科举登进士
+    rationale: 以儒术致君泽民由科第入仕以观政体得失
+  - date: '1545'
+    title_zh: 留心民间疾苦搜集验方
+    rationale: 见廛市富室可迎医而荒村窭户待毙故随身携方以自治治人
+- id: guji-张时彻-endeavor-2
+  person_qid: guji-张时彻
+  title_zh: 编纂急救良方济世
+  description: 以旧得急救方一本为底附益新得删黜讹舛付梓刊行使贫僻之家用土药自救
+  phases:
+  - key: brewing
+    name: 得方自随
+    labels:
+      zh: 搜集验方
+    start_date: '1540'
+    highlight_event_id: guji-张时彻-event-jinshi
+  - key: breakthrough
+    name: 附益新得
+    labels:
+      zh: 增补删正
+    start_date: '1548'
+    highlight_event_id: guji-张时彻-event-compile
+  - key: climax
+    name: 嘉靖庚戌付梓
+    labels:
+      zh: 刊刻广传
+    start_date: '1550-07-29'
+    highlight_event_id: guji-张时彻-event-compile
+  - key: closure
+    name: 嘉惠黔细
+    labels:
+      zh: 流传救急
+    start_date: '1550-07-29'
+    highlight_event_id: guji-张时彻-event-compile
+  decisions:
+  - date: '1548'
+    title_zh: 以类附益新得验方
+    rationale: 旧方虽验尚有未备故随得随附以土草易致之物为主使穷乡可求
+  - date: '1550-07-29'
+    title_zh: 删讹付梓不荐隆富
+    rationale: 删舛无验者使不误人明言此方为济黔细万一不为富羡文饰
+events:
+- id: guji-张时彻-event-birth
+  person_qid: guji-张时彻
+  date: '1503'
+  year_of: 1503
+  type: birth
+  title_zh: 生于宁波府鄞县
+  description: 明弘治十六年左右生于四明鄞县张氏
+- id: guji-张时彻-event-jinshi
+  person_qid: guji-张时彻
+  date: '1523'
+  year_of: 1523
+  type: career
+  title_zh: 嘉靖二年登进士第
+  description: 嘉靖癸未科登进士入仕历官中外
+- id: guji-张时彻-event-office
+  person_qid: guji-张时彻
+  date: '1546'
+  year_of: 1546
+  type: career
+  title_zh: 历官中外目睹民疾
+  description: 历官中外见荒村窭户无医京师独聚佳药时师反剂杀人遂发心搜集简易方
+- id: guji-张时彻-event-compile
+  person_qid: guji-张时彻
+  date: '1550-07-29'
+  year_of: 1550
+  type: career
+  title_zh: 嘉靖庚戌夏六月望成急救良方
+  description: 以旧急救方为底附益新得删黜讹舛付梓以传明言专为济黔细万一
+- id: guji-张时彻-event-death
+  person_qid: guji-张时彻
+  date: '1587'
+  year_of: 1587
+  type: death
+  title_zh: 卒于故里
+  description: 明万历十五年左右卒于鄞县芝园所传急救良方行于世
