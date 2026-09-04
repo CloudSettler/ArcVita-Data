@@ -1,0 +1,140 @@
+person:
+  qid: guji-法贤
+  name_zh: 法贤
+  names:
+    zh: 法贤
+    en: Faxian
+  lifespan:
+    birth:
+      date: 0950
+      precision: year
+      is_circa: true
+      raw: 生年不详约十世纪中叶生于中印度
+    death:
+      date: '1000'
+      precision: year
+      is_circa: true
+      raw: 约咸平三年卒于开封
+  birth_date: 0950
+  death_date: '1000'
+  era: 北宋
+  reign_ref: 宋太宗太平兴国至宋真宗咸平
+  archetype: 译经三藏
+  dilemmas:
+  - title_zh: 梵音难写汉文难尽
+    description: 梵赞音韵连声转读精微须以汉字对音存其梵声又令汉僧可诵
+  - title_zh: 诏命译经与义理精审之衡
+    description: 奉诏大量译出须快速进呈又须审定三身法义不失密意
+  lesson: 以存梵补汉摄深义于短赞令三身法门可诵可持可传
+  summary_first_person: 吾法贤本中印度摩揭陀国人奉佛法西来入宋蒙太宗赐名授明教大师与施护等同译于译经院译三身梵赞等以梵汉双存利后学愿众生因赞观身悟入法界
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%B8%89%E8%BA%AB%E6%A2%B5%E8%B5%9E.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%B8%89%E8%BA%AB%E6%A2%B5%E8%B5%9E.html
+endeavors:
+- id: guji-法贤-endeavor-1
+  title_zh: 奉诏入院译经
+  summary: 太平兴国初年来华蒙赐名法贤授朝散大夫试光禄卿明教大师与施护等共译于译经院
+  phases:
+  - key: brewing
+    name: 西天习法
+    labels:
+      zh:
+      - 习法
+    start_date: 0960
+    highlight_event_id: guji-法贤-event-birth
+  - key: breakthrough
+    name: 来华蒙诏
+    labels:
+      zh:
+      - 入宋
+    start_date: 0976
+    highlight_event_id: guji-法贤-event-1
+  - key: climax
+    name: 译院宏译
+    labels:
+      zh:
+      - 宏译
+    start_date: 0983
+    highlight_event_id: guji-法贤-event-2
+  - key: closure
+    name: 示寂留教
+    labels:
+      zh:
+      - 圆寂
+    start_date: '1000'
+    highlight_event_id: guji-法贤-event-death
+  decisions:
+  - date: 0976
+    title_zh: 应诏留宋译经
+    rationale: 为使西来教法广被汉地决意留居译经院承诏翻译
+  - date: 0983
+    title_zh: 与施护分工合译
+    rationale: 为保译文精审决定分科合参梵本互校汉义
+- id: guji-法贤-endeavor-2
+  title_zh: 梵汉双存传三身赞
+  summary: 译三身梵赞以汉字对写梵音存三十三颂赞法报化三身令汉僧可诵持
+  phases:
+  - key: brewing
+    name: 持诵梵本
+    labels:
+      zh:
+      - 持梵
+    start_date: 0976
+    highlight_event_id: guji-法贤-event-1
+  - key: breakthrough
+    name: 对音创式
+    labels:
+      zh:
+      - 对音
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-1
+  - key: climax
+    name: 三身赞成
+    labels:
+      zh:
+      - 成赞
+    start_date: 0990
+    highlight_event_id: guji-法贤-event-2
+  - key: closure
+    name: 付众受持
+    labels:
+      zh:
+      - 流通
+    start_date: 0995
+    highlight_event_id: guji-法贤-event-2
+  decisions:
+  - date: 0990
+    title_zh: 存梵音不唯意译
+    rationale: 为存梵呗加持力决定以汉字系梵音全文对写
+  - date: 0995
+    title_zh: 以短赞摄三身义
+    rationale: 为摄初机决定以三十三颂总持法报化功德便于忆持
+events:
+- id: guji-法贤-event-birth
+  title_zh: 生于中印度摩揭陀国
+  date: 0950
+  year_of: 950
+  place_zh: 中印度摩揭陀国
+  description: 法贤生于中印度幼习佛法精通梵文声明为后日来华译经奠基
+  endeavor_ref: guji-法贤-endeavor-1
+- id: guji-法贤-event-1
+  title_zh: 太平兴国来华奉诏译经
+  date: 0976
+  year_of: 976
+  place_zh: 开封译经院
+  description: 太平兴国初年抵宋蒙太宗赐名法贤授朝散大夫试光禄卿明教大师入译经院与施护等合译
+  endeavor_ref: guji-法贤-endeavor-1
+- id: guji-法贤-event-2
+  title_zh: 译出三身梵赞三十三颂
+  date: 0990
+  year_of: 990
+  place_zh: 开封译经院
+  description: 奉诏译三身梵赞以汉字对音存梵文三十三颂赞叹法身报身化身功德
+  endeavor_ref: guji-法贤-endeavor-2
+- id: guji-法贤-event-death
+  title_zh: 咸平年间示寂
+  date: '1000'
+  year_of: 1000
+  place_zh: 开封
+  description: 咸平年间圆寂于开封所译梵赞经论流行后世
+  endeavor_ref: guji-法贤-endeavor-1
