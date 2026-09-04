@@ -1,0 +1,127 @@
+person:
+  qid: guji-杜预
+  name_zh: 杜预
+  names:
+    zh: 杜预
+    en: Du Yu
+  lifespan:
+    birth:
+      date: '0222'
+      precision: year
+      is_circa: false
+      raw: 魏文帝黄初三年
+    death:
+      date: 0285
+      precision: year
+      is_circa: false
+      raw: 晋武帝太康五年
+  birth_date: '0222'
+  death_date: 0285
+  era: 西晋
+  reign_ref: 晋武帝
+  archetype: 通儒名将
+  dilemmas:
+  - 经义繁杂而旧注简奥如何使学者易明
+  - 朝议多言平吴未可如何坚持伐吴大计
+  lesson: 通经致用以明义理建功立业以验所学
+  summary_first_person: 我是杜预字元凯专修丘明之传以释经作经传集解又都督荆州力主伐吴而成一统之功
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E5%B7%A6%E4%BC%A0%E6%9D%9C%E6%9E%97%E5%90%88%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E5%B7%A6%E4%BC%A0%E6%9D%9C%E6%9E%97%E5%90%88%E6%B3%A8.md
+endeavors:
+- id: guji-杜预-endeavor-1
+  title_zh: 集解春秋经传
+  summary: 举刘贾许颍之违以见同异分经传之年而解之成经传集解释例以明丘明之志
+  phases:
+  - key: brewing
+    name: 博览研经
+    labels:
+      zh:
+      - 研经
+      - 博览
+    start_date: '0255'
+    highlight_event_id: guji-杜预-event-1
+  - key: breakthrough
+    name: 专修丘明
+    labels:
+      zh:
+      - 集解
+      - 释例
+    start_date: '0265'
+    highlight_event_id: guji-杜预-event-2
+  - key: closure
+    name: 经传集解成
+    labels:
+      zh:
+      - 注疏
+      - 垂法
+    start_date: '0275'
+    highlight_event_id: guji-杜预-event-2
+  decisions:
+  - date: '0265'
+    title_zh: 专修丘明之传以释经
+    rationale: 以经之条贯必出于传舍二传异端以守丘明旧义
+  - date: '0275'
+    title_zh: 分经传之年附比义类
+    rationale: 使学者观其所聚随例而发原始要终寻其枝叶
+- id: guji-杜预-endeavor-2
+  title_zh: 都督荆州平吴
+  summary: 拜镇南大将军都督荆州练兵造船力排众议上表伐吴遂成一统
+  phases:
+  - key: brewing
+    name: 镇守荆州
+    labels:
+      zh:
+      - 镇南
+      - 备边
+    start_date: '0270'
+    highlight_event_id: guji-杜预-event-2
+  - key: climax
+    name: 力主伐吴
+    labels:
+      zh:
+      - 伐吴
+      - 一统
+    start_date: 0279
+    highlight_event_id: guji-杜预-event-3
+  - key: closure
+    name: 太康一统
+    labels:
+      zh:
+      - 灭吴
+      - 安邦
+    start_date: 0280
+    highlight_event_id: guji-杜预-event-3
+  decisions:
+  - date: 0279
+    title_zh: 上表力谏伐吴
+    rationale: 以吴主昏暴兵力可克时不可失当速进以成王业
+  - date: 0280
+    title_zh: 指麾诸军并进
+    rationale: 以水陆并举顺流而下直取建业以全一统之功
+events:
+- id: guji-杜预-event-birth
+  date: '0222'
+  year_of: 222
+  title_zh: 杜预生
+  description: 杜预生于京兆杜陵名门博学多通尤明经传
+- id: guji-杜预-event-1
+  date: '0263'
+  year_of: 263
+  title_zh: 随军伐蜀任镇西长史
+  description: 从司马昭伐蜀为镇西长史明于军谋又研经注为后日集解之基
+- id: guji-杜预-event-2
+  date: '0270'
+  year_of: 270
+  title_zh: 拜镇南大将军都督荆州
+  description: 出镇襄阳练兵屯田造船备边注经传集解释例大成
+- id: guji-杜预-event-3
+  date: 0280
+  year_of: 280
+  title_zh: 太康灭吴成一统
+  description: 受诏调度诸军王濬顺流而下平定东吴天下始归于晋
+- id: guji-杜预-event-death
+  date: 0285
+  year_of: 285
+  title_zh: 杜预卒
+  description: 太康五年卒于襄阳追赠征南大将军所注左传盛行于世
