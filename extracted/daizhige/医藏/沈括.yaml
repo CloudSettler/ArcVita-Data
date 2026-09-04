@@ -1,0 +1,158 @@
+person:
+  qid: guji-沈括
+  name_zh: 沈括
+  names:
+    zh: 沈括
+    en: Shen Kuo
+  lifespan:
+    birth:
+      date: '1031'
+      precision: year
+      is_circa: false
+      raw: 宋天圣九年
+    death:
+      date: '1095'
+      precision: year
+      is_circa: false
+      raw: 宋绍圣二年
+  birth_date: '1031'
+  death_date: '1095'
+  era: 北宋
+  reign_ref: 宋仁宗至宋哲宗朝
+  archetype: 博闻格物济世士
+  dilemmas:
+  - 五难精微言不能宣书不能载而庸医易言医道之难
+  - 一验即谓良如刻舟求剑恐误后人之疑
+  lesson: 必目验始著详录病状随得随注以俟偶值不尚溢言
+  summary_first_person: 予存中平生格物旁通医药尝论治病有五难辨疾治疾饮药处方别药皆难唯目睹其验者始著于篇闻不预也详著其状于方尾以待相似者偶值云尔
+  source_urls:
+  - https://daizhige.org/蘇沈良方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/醫藏/蘇沈良方.md
+endeavors:
+- id: guji-沈括-endeavor-1
+  title_zh: 撰述沈氏良方论五难
+  summary: 久治方论辨疾治疾饮药处方别药五难目验始录以成良方
+  phases:
+  - key: brewing
+    name: 久治积验采药辨药
+    labels:
+      zh:
+      - 采药
+      - 辨疾
+    start_date: '1054'
+    highlight_event_id: guji-沈括-event-early
+  - key: breakthrough
+    name: 五难立说正汤散丸
+    labels:
+      zh:
+      - 处方
+      - 君臣
+    start_date: '1074'
+    highlight_event_id: guji-沈括-event-theory
+  - key: climax
+    name: 良方成篇随得随注
+    labels:
+      zh:
+      - 目验
+      - 著状
+    start_date: '1076'
+    highlight_event_id: guji-沈括-event-complete
+  - key: closure
+    name: 补刻原叙流传济世
+    labels:
+      zh:
+      - 刊行
+      - 济世
+    start_date: '1091'
+    highlight_event_id: guji-沈括-event-spread
+  decisions:
+  - date: '1074'
+    title_zh: 立五难而去溢言
+    rationale: 千金肘后多溢言不敢复信故立五难以明医之难
+  - date: '1076'
+    title_zh: 目睹始著闻不预
+    rationale: 一验即良如刻舟求剑故详著病状于方尾以俟偶值
+- id: guji-沈括-endeavor-2
+  title_zh: 历官经世梦溪格物
+  summary: 出仕察访经略鄜延晚年退居润州梦溪著书格物
+  phases:
+  - key: brewing
+    name: 初仕察访习吏事
+    labels:
+      zh:
+      - 入仕
+      - 访察
+    start_date: '1063'
+    highlight_event_id: guji-沈括-event-early
+  - key: breakthrough
+    name: 经略鄜延治边事
+    labels:
+      zh:
+      - 边防
+      - 经略
+    start_date: '1080'
+    highlight_event_id: guji-沈括-event-bianfang
+  - key: climax
+    name: 退居梦溪穷格物
+    labels:
+      zh:
+      - 退居
+      - 格物
+    start_date: '1088'
+    highlight_event_id: guji-沈括-event-mengxi
+  - key: closure
+    name: 笔谈良方并传后世
+    labels:
+      zh:
+      - 著述
+      - 传世
+    start_date: '1093'
+    highlight_event_id: guji-沈括-event-death
+  decisions:
+  - date: '1080'
+    title_zh: 请经略鄜延御边
+    rationale: 知边事要害愿以格物之智经画疆事报国
+  - date: '1088'
+    title_zh: 退居梦溪专著述
+    rationale: 世事已倦当录平生见闻医药天文历律以补后世
+events:
+- id: guji-沈括-event-birth
+  date: '1031'
+  year_of: 1031
+  title_zh: 降生钱塘沈氏
+  description: 宋天圣九年生于钱塘官宦之家少好读书博闻
+- id: guji-沈括-event-early
+  date: '1063'
+  year_of: 1063
+  title_zh: 初仕编校昭文
+  description: 以荫入仕编校昭文馆书籍始留意天文方志医药
+- id: guji-沈括-event-theory
+  date: '1074'
+  year_of: 1074
+  title_zh: 论治病五难
+  description: 论辨疾治疾饮药处方别药五难辨汤散丸君臣采时以正药性
+- id: guji-沈括-event-complete
+  date: '1076'
+  year_of: 1076
+  title_zh: 良方随得随注成篇
+  description: 凡目验之方辄疏之详著病状于方尾篇无次序随得随注
+- id: guji-沈括-event-bianfang
+  date: '1080'
+  year_of: 1080
+  title_zh: 经略鄜延戍边
+  description: 出为鄜延路经略安抚使经画边备后以事贬谪
+- id: guji-沈括-event-mengxi
+  date: '1088'
+  year_of: 1088
+  title_zh: 退居润州梦溪园
+  description: 卜居润州梦溪园潜心格物著梦溪笔谈兼理医药诸说
+- id: guji-沈括-event-spread
+  date: '1091'
+  year_of: 1091
+  title_zh: 良方流传益以苏说
+  description: 后人益以苏轼诸说合为苏沈良方刊行济世与益氏方并传
+- id: guji-沈括-event-death
+  date: '1095'
+  year_of: 1095
+  title_zh: 卒于梦溪
+  description: 宋绍圣二年卒于润州梦溪园享年六十五著述传于后世
