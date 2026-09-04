@@ -8,112 +8,132 @@ person:
     birth:
       date: 1689
       precision: year
-      is_circa: false
-      raw: 康熙二十八年
+      is_circa: true
+      raw: 康熙二十八年左右
     death:
-      date: 1748
+      date: 1784
       precision: year
-      is_circa: false
-      raw: 乾隆十三年
+      is_circa: true
+      raw: 乾隆四十九年左右
   birth_date: 1689
-  death_date: 1748
+  death_date: 1784
   era: 清
   reign_ref: 乾隆
-  archetype: 医者
+  archetype: 御医纂修者
   dilemmas:
-  - 医籍浩繁传授失真，如何删繁就简使初学有门径可守
-  - 五轮八廓旧说脏腑混淆，如何厘清轮属脏廓属腑使临证有据
-  lesson: 以简驭繁，以歌传心，轮廓分属，方证相应，惠及后学
-  summary_first_person: 吾乃吴谦，歙县人，官太医院判，奉诏总修医宗金鉴，亲定眼科心法要诀，明目睛原始，立五轮八廓，分内障外障，作歌注方，愿后学按轮廓察病守正施治
+  - 遵古经文与变通次第之间如何启发后学
+  - 博采百家注释与删繁就简之间如何裨益实用
+  - 正误改补与存疑备考之间如何不没人善
+  lesson: 博集众注采其精粹，正其错讹补其阙漏，以简易明显阐发微言，足裨实用
+  summary_first_person: 吾吴谦，歙县人，供奉太医院，奉敕纂修医宗金鉴，复合伤寒金匮为仲景全书，以仲景全书为准参校众本，仍方有执条辨而变通次第，首经文次注释次集注次方药，于错简遗误详辨于本条之下，难解者别汇正误存疑二帙，务使大法微言昭于万世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%9C%BC%E7%A7%91%E5%BF%83%E6%B3%95%E8%A6%81%E8%AF%80.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%9C%BC%E7%A7%91%E5%BF%83%E6%B3%95%E8%A6%81%E8%AF%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%AE%A2%E6%AD%A3%E4%BB%B2%E6%99%AF%E5%85%A8%E4%B9%A6%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%AE%A2%E6%AD%A3%E4%BB%B2%E6%99%AF%E5%85%A8%E4%B9%A6%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.html
 endeavors:
 - id: guji-吴谦-endeavor-1
-  title_zh: 奉诏总修医宗金鉴
-  summary_zh: 任太医院判，总理编局，统筹体例，分科纂修，成九十卷进呈颁行
+  title_zh: 奉敕纂修医宗金鉴
+  description: 任太医院判奉乾隆敕主持编纂医宗金鉴九十卷，统摄伤寒金匮儿科外科诸门，颁行天下以为医门法程
   phases:
   - key: brewing
-    name: 奉诏开馆立纲
+    name: 供奉太医院积验
     labels:
-      zh:
-      - 筹备立馆
+      zh: 太医院历练
+    start_date: 1725
+    highlight_event_id: guji-吴谦-event-taiyiyuan
+  - key: breakthrough
+    name: 开馆纂修定体例
+    labels:
+      zh: 开馆定例
     start_date: 1739
-    highlight_event_id: guji-吴谦-event-kaiguan
+    highlight_event_id: guji-吴谦-event-jinjian-start
   - key: climax
-    name: 全书告成颁行
+    name: 金鉴告成颁行天下
     labels:
-      zh:
-      - 编纂告成
+      zh: 金鉴告成
     start_date: 1742
-    highlight_event_id: guji-吴谦-event-jinjian
+    highlight_event_id: guji-吴谦-event-jinjian-done
+  - key: closure
+    name: 训迪后学广为流布
+    labels:
+      zh: 垂训后学
+    start_date: 1743
+    highlight_event_id: guji-吴谦-event-jinjian-done
   decisions:
   - date: 1739
-    title_zh: 定删繁就简体例
-    rationale: 医经浩繁，初学难入，故以歌诀总纲加注疏方药，令便于诵习临证
-  - date: 1741
-    title_zh: 分科专人校订
-    rationale: 诸科病证方药各异，须分门纂修互相参校，方能义例一贯少有舛误
+    title_zh: 以仲景全书为准参校众本
+    rationale: 旧本字有增减节有分合正误不一，须立善本为准参众家以昭画一
+  - date: 1742
+    title_zh: 别立正误存疑附卷末备考
+    rationale: 全节文义不符难强解者另汇正误存疑，既不牵强注经又不没可采之句
 - id: guji-吴谦-endeavor-2
-  title_zh: 厘定眼科心法要诀
-  summary_zh: 明目睛原始，立五轮八廓，辨内障外障，定五风诸翳歌注方治
+  title_zh: 订正伤寒论注阐发经旨
+  description: 复林亿分二书为一书，首六经次合病并病次坏病温病诸篇，注文简易明显，每方详君臣佐使煎服之宜，为群方之冠立通治百病之法
   phases:
   - key: brewing
-    name: 搜辑眼科旧说
+    name: 博集伤寒注家精粹
     labels:
-      zh:
-      - 搜辑整理
-    start_date: 1740
-    highlight_event_id: guji-吴谦-event-taiyi
+      zh: 博采注家
+    start_date: 1739
+    highlight_event_id: guji-吴谦-event-jinjian-start
   - key: breakthrough
-    name: 厘清轮廓分属
+    name: 分经列证出方立法
     labels:
-      zh:
-      - 立论创新
-    start_date: 1741
-    highlight_event_id: guji-吴谦-event-yanke
+      zh: 分经立法
+    start_date: 1740
+    highlight_event_id: guji-吴谦-event-shanghan-zhu
   - key: climax
-    name: 眼科要诀成篇
+    name: 桂枝麻黄青龙发明纲领
     labels:
-      zh:
-      - 著述成书
+      zh: 发明纲领
     start_date: 1742
-    highlight_event_id: guji-吴谦-event-yanke
+    highlight_event_id: guji-吴谦-event-shanghan-zhu
+  - key: closure
+    name: 方解集解详煎服助药力法
+    labels:
+      zh: 方解垂法
+    start_date: 1743
+    highlight_event_id: guji-吴谦-event-jinjian-done
   decisions:
-  - date: 1741
-    title_zh: 改定轮脏廓腑
-    rationale: 旧以五轮八廓混属脏腑无所适从，故定五轮主脏配五行，八廓主腑配八卦，使部位病机了然
-  - date: 1741
-    title_zh: 以歌括统方治
-    rationale: 眼证名目繁多虚实相兼，故以内外因立论，以歌诀统证候方药，使学人易记易用
+  - date: 1740
+    title_zh: 仍方有执条辨而变通先后次序
+    rationale: 千载遗书位置无常难以为法，不拘泥前人惟在启发后学融会贯通
+  - date: 1742
+    title_zh: 每方必解立方主治与服法
+    rationale: 上古有法无方自仲景始有法有方，水火煎渍服之频顿各有适病之宜，前人置而不论者必备录详解
 events:
 - id: guji-吴谦-event-birth
+  title_zh: 生于安徽歙县
   date: 1689
   year_of: 1689
-  title_zh: 出生
-  description_zh: 清康熙二十八年生于安徽歙县，少习儒兼通医学
-- id: guji-吴谦-event-taiyi
-  date: 1736
-  year_of: 1736
-  title_zh: 供奉太医院
-  description_zh: 以医术精良供奉内廷，擢太医院右院判，总理医事阅历眼目诸疾
-- id: guji-吴谦-event-kaiguan
+  event_type: birth
+  description: 吴谦生于歙县，字六吉，少习岐黄，后供奉京师
+- id: guji-吴谦-event-taiyiyuan
+  title_zh: 供奉太医院擢院判
+  date: 1735
+  year_of: 1735
+  event_type: career
+  description: 雍正乾隆之际供奉太医院，以医术精勤擢太医院判，总理院务
+- id: guji-吴谦-event-jinjian-start
+  title_zh: 奉敕开馆纂修医宗金鉴
   date: 1739
   year_of: 1739
-  title_zh: 奉诏开馆修书
-  description_zh: 乾隆四年奉诏设医宗金鉴馆，命为总修官，统筹规划全书体例分工
-- id: guji-吴谦-event-yanke
-  date: 1741
-  year_of: 1741
-  title_zh: 厘定眼科纲目
-  description_zh: 审定目睛原始五轮八廓诸歌，辨内障五风圆冰滑涩等二十四证，注方治以成眼科心法要诀
-- id: guji-吴谦-event-jinjian
+  event_type: career
+  description: 奉乾隆敕与刘裕铎等会同纂修，定凡例九条，以仲景全书为准，分经列门，博采注家
+- id: guji-吴谦-event-shanghan-zhu
+  title_zh: 订正仲景全书伤寒论注成
   date: 1742
   year_of: 1742
-  title_zh: 医宗金鉴告成
-  description_zh: 乾隆七年九十卷告成进呈，得旨颁行，医学正宗由此大明，眼科卷列其中
+  event_type: career
+  description: 伤寒论注卷一至卷末告成，首揭太阳提纲，发明桂枝汤解肌调和营卫为群方之冠，辨脉论愈，别正误存疑
+- id: guji-吴谦-event-jinjian-done
+  title_zh: 医宗金鉴告成颁行天下
+  date: 1742
+  year_of: 1742
+  event_type: career
+  description: 医宗金鉴九十卷成，乾隆御制序文颁行，订正仲景全书通行海内，启万世法程
 - id: guji-吴谦-event-death
-  date: 1748
-  year_of: 1748
-  title_zh: 逝世
-  description_zh: 清乾隆十三年卒，遗书医宗金鉴行于世，眼科心法要诀为后世眼科圭臬
+  title_zh: 卒于京师
+  date: 1784
+  year_of: 1784
+  event_type: death
+  description: 晚年训迪后学，医著广布，卒于乾隆四十九年左右

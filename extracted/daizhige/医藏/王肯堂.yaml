@@ -19,135 +19,144 @@ person:
   death_date: 1613
   era: 明
   reign_ref: 明嘉靖至万历
-  archetype: 医儒考订者
+  archetype: 良医著述者
   dilemmas:
-  - 胎毒内伏与外感时疫孰为痘疹主因之辨
-  - 汗下温补攻守之间虚实误投恐夭人命之慎
-  lesson: 内伏外感相搏成病须审表里虚实以平为期不可执一论治
-  summary_first_person: 吾王肯堂金坛人也究心痘疹源流以胎毒为本外感为成论起足太阳辨汗下虚实立预防凉血之方又考订望色芤脉人参犀角以著肯堂医论贻后
+  - 先君严戒妨废举业与锐志学医救母济世之冲突
+  - 守死句求活人与以准绳为心目须心目明之警惕
+  - 储相之志不振与著书传天下万世以济物之抉择
+  lesson: 准绳所以取平直而能用准绳者在心目明不可守死句求活人当辨脉因病证书治寒温攻补得其平
+  summary_first_person: 余发始燥闻范文正公愿为良医嘉靖丙寅母病阽危诸医言人人殊遂锐志学医起亡妹于垂死举乡试成进士备员史馆请急归养取岐黄家言肆力焉采取古今方论命高隐次第录之先成杂病论方各八巨袠名曰证治准绳后补伤寒疡医幼科女科以成全书愿后人因证检书得治法而勿以准绳为心目
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/肯堂医论.md
-  - https://daizhige.org/医藏/肯堂医论.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/证治准绳.md
+  - https://daizhige.org/医藏/证治准绳.html
 endeavors:
 - id: guji-王肯堂-endeavor-1
-  title_zh: 痘疹源流防治体系创立
-  summary: 以胎毒为本外感为成论痘起足太阳辨汗下虚实立预防凉血方成痘疹发微
+  title_zh: 弃举业而学医以济乡曲沉疴
+  summary_zh: 因母病医言殊异而锐志学医虽妨举业被戒仍起妹于垂死归养后闻见益广乡曲叩阍求方无弗立应
   phases:
   - key: brewing
-    name: 溯源立论
+    name: 母病陋医锐志学医
     labels:
       zh:
-      - 胎毒
-      - 外感
-      - 足太阳
-    start_date: 1575
-    highlight_event_id: guji-王肯堂-event-douyuan
+      - 孝亲
+      - 疑医
+      - 立志
+    start_date: 1566
+    highlight_event_id: guji-王肯堂-event-study-medicine
   - key: breakthrough
-    name: 预防立法
+    name: 起妹垂死名闻求诊
     labels:
       zh:
-      - 预防
-      - 凉血
-      - 代天宣化丸
-    start_date: 1590
-    highlight_event_id: guji-王肯堂-event-yufang
+      - 岐黄夙契
+      - 活人渐众
+    start_date: 1570
+    highlight_event_id: guji-王肯堂-event-study-medicine
   - key: climax
-    name: 汗下虚实辨治
+    name: 归养肆力岐黄艺精
     labels:
       zh:
-      - 汗下
-      - 虚实
-      - 惊风
+      - 归隐
+      - 行医全活
+    start_date: 1593
+    highlight_event_id: guji-王肯堂-event-jinshi
+  - key: closure
+    name: 推一方之济为著书之愿
+    labels:
+      zh:
+      - 济一方
+      - 济天下
     start_date: 1600
-    highlight_event_id: guji-王肯堂-event-hanxia
-  - key: closure
-    name: 痘疹发微卷上告成
-    labels:
-      zh:
-      - 著述
-      - 定论
-    start_date: 1608
-    highlight_event_id: guji-王肯堂-event-hanxia
+    highlight_event_id: guji-王肯堂-event-zabing-publish
   decisions:
-  - date: 1590
-    title_zh: 主内染外感相搏说不执胎毒一端
-    rationale: 伤寒有不患再患者而痘人人免不得一出永不再出故以内伏触动外感传染立论
-  - date: 1600
-    title_zh: 疑似之间禁妄汗下虚实分治
-    rationale: 妄汗虚表难成浆妄下虚里易倒陷须在表宜汗在里宜下补偏救弊转危为安
+  - date: 1566
+    title_zh: 锐志学医
+    rationale: 母病延医言人人殊罕得要领心陋之故学医以求要领
+  - date: 1593
+    title_zh: 请急归养重拾医业
+    rationale: 备员史馆被口语终不振念二亲笃老善病乃复取岐黄家言肆力以尽定省全活之责
 - id: guji-王肯堂-endeavor-2
-  title_zh: 脉色药性临床考订汇编
-  summary: 论望色明晦辨芤脉形考人参沙参阴阳论犀角水旱并记惊风误治以成卷中
+  title_zh: 编撰证治准绳百二十卷成医家圭臬
+  summary_zh: 先成杂病证治准绳八册分十三门附类方万历壬寅刊行后补伤寒疡医幼科女科仍以证治准绳为总名该博精详世竞传之
   phases:
   - key: brewing
-    name: 望色芤脉考订
+    name: 采古今方论命高隐录次
     labels:
       zh:
-      - 望色
-      - 芤脉
-    start_date: 1585
-    highlight_event_id: guji-王肯堂-event-materia
+      - 采摭繁富
+      - 参以鄙见
+    start_date: 1600
+    highlight_event_id: guji-王肯堂-event-zabing-publish
   - key: breakthrough
-    name: 人参沙参阴阳辨
+    name: 杂病八册壬寅助刻行世
     labels:
       zh:
-      - 人参
-      - 沙参
-      - 补气
-    start_date: 1595
-    highlight_event_id: guji-王肯堂-event-materia
+      - 证治详明
+      - 因证检治
+    start_date: 1602
+    highlight_event_id: guji-王肯堂-event-zabing-publish
   - key: climax
-    name: 犀角惊风论治
+    name: 补伤寒疡医幼科女科
     labels:
       zh:
-      - 犀角
-      - 惊风
-      - 杂记
-    start_date: 1605
-    highlight_event_id: guji-王肯堂-event-materia
+      - 补前未备
+      - 五科七事
+    start_date: 1604
+    highlight_event_id: guji-王肯堂-event-complete-quanshu
   - key: closure
-    name: 肯堂医论卷中告成
+    name: 该博精详为医家圭臬
     labels:
       zh:
-      - 著述
-      - 医论
-    start_date: 1608
-    highlight_event_id: guji-王肯堂-event-materia
+      - 条理端委
+      - 寒温攻补得平
+    start_date: 1607
+    highlight_event_id: guji-王肯堂-event-complete-quanshu
   decisions:
-  - date: 1595
-    title_zh: 用参必佐陈皮行气不杂温补
-    rationale: 世人徒知参补不知壅塞不流通富贵之家杂入温补反致危殆故一钱参必加陈皮一分
-  - date: 1605
-    title_zh: 惊风忌妄投金石以清解安神为先
-    rationale: 小儿搐掣多系热痰风郁非尽惊恐妄用附子全蝎脑麝反增他症故以导赤五苓宽气治之
+  - date: 1602
+    title_zh: 命书为证治准绳
+    rationale: 医有五科七事脉因病证治派析支分时师皆失故详证治使不知医不能脉者因证检书得治法以准绳取平直
+  - date: 1604
+    title_zh: 补撰四科以全书系
+    rationale: 前书专论杂证未备伤寒疮疡幼科女科故续成以补阙仍总名证治准绳使体例相贯
 events:
 - id: guji-王肯堂-event-birth
-  title_zh: 诞生于南直隶金坛
+  kind: birth
+  title_zh: 王肯堂生于金坛
   date: 1549
   year_of: 1549
-  description: 明嘉靖二十八年诞生于金坛王氏幼博览经史旁通医学
-- id: guji-王肯堂-event-douyuan
-  title_zh: 论痘疹溯源起于足太阳
-  date: 1585
-  year_of: 1585
-  description: 考痘疹不见先秦而著于建武以后以胎毒为本疫厉为成断其自足太阳传变以欠嚏惊悸腮赤为候
-- id: guji-王肯堂-event-yufang
-  title_zh: 制代天宣化丸论预防
-  date: 1595
-  year_of: 1595
-  description: 值天时不正痘疫盛发行于冬至修合以五运取君臣佐使预服凉血降火以减泄伏毒
-- id: guji-王肯堂-event-hanxia
-  title_zh: 论汗下虚实与惊风治法
+  place_zh: 南直隶金坛
+  description_zh: 明嘉靖二十八年王肯堂生字宇泰号念西居士好读书尤精于医
+- id: guji-王肯堂-event-study-medicine
+  kind: study
+  title_zh: 嘉靖丙寅因母病锐志学医
+  date: 1566
+  year_of: 1566
+  place_zh: 金坛
+  description_zh: 母病阽危诸医言殊心陋之遂学岐黄起亡妹于垂死渐为人知延诊求方户屣恒满
+- id: guji-王肯堂-event-jinshi
+  kind: office
+  title_zh: 成进士备员史馆请急归养
+  date: 1589
+  year_of: 1589
+  place_zh: 北京翰林
+  description_zh: 举于乡十年成进士选读中秘书备员史馆四年请急归旋被口语不振遂归养肆力医业
+- id: guji-王肯堂-event-zabing-publish
+  kind: publish
+  title_zh: 万历壬寅杂病证治准绳刊行
   date: 1602
   year_of: 1602
-  description: 立疑似禁妄汗下之戒以不食气促腹胀吐利为里虚以便秘喘渴谵狂为里实又斥惊风妄用金石之弊
-- id: guji-王肯堂-event-materia
-  title_zh: 论望色芤脉人参犀角成篇
-  date: 1608
-  year_of: 1608
-  description: 论望色贵黄润明莹辨芤脉两头有中间无考人参补阳沙参补阴辨水犀为上并采梦溪笔谈杂记以成医论
+  place_zh: 金坛
+  description_zh: 采取古今方论命高隐录次先成杂病论方各八巨袠周鹤阳助成万历三十年壬寅行于世
+- id: guji-王肯堂-event-complete-quanshu
+  kind: publish
+  title_zh: 补成伤寒疡医幼科女科全书
+  date: 1607
+  year_of: 1607
+  place_zh: 金坛
+  description_zh: 伤寒疡医成于甲辰幼科女科成于丁未以补前书未备仍以证治准绳为总名凡百二十卷
 - id: guji-王肯堂-event-death
-  title_zh: 逝世
+  kind: death
+  title_zh: 王肯堂卒
   date: 1613
   year_of: 1613
-  description: 明万历四十一年逝世遗肯堂医论证治准绳等惠后学
+  place_zh: 金坛
+  description_zh: 明万历四十一年卒所著证治准绳郁冈斋笔麈传世为医家圭臬
