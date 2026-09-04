@@ -1,0 +1,138 @@
+person:
+  qid: guji-刘涓子
+  name_zh: 刘涓子
+  names:
+    zh: 刘涓子
+    en: Liu Juanzi
+  lifespan:
+    birth:
+      date: 0375-01-01
+      precision: year
+      is_circa: true
+      raw: 晋末丹阳人，生年不详
+    death:
+      date: 0425-01-01
+      precision: year
+      is_circa: true
+      raw: 卒年不详，宋初尚存
+  birth_date: 0375-01-01
+  death_date: 0425-01-01
+  era: 东晋末刘宋初
+  reign_ref: 晋安帝义熙至宋武帝永初之际
+  archetype: 军中医者
+  dilemmas:
+  - title_zh: 神方自珍还是济世
+    description: 得黄父鬼遗痈疽秘方，家世能治而不传，须择得人方付
+  - title_zh: 军旅试方系命之险
+    description: 从宋武北征以新得异方治金疮痈疽，效验关乎将士生死
+  lesson: 天授异方不私藏，军旅验证其神验，传付得人方能久济世人
+  summary_first_person: 吾乃刘涓子，晋末居丹阳，郊外夜射得黄父鬼遗痈疽方一卷并药一臼，从宋武北征以法治金疮痈疽千无一失，后寄书与姊传于龚氏，愿此方流布乡曲以活众人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%88%98%E6%B6%93%E5%AD%90%E9%AC%BC%E9%81%97%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%88%98%E6%B6%93%E5%AD%90%E9%AC%BC%E9%81%97%E6%96%B9.html
+endeavors:
+- id: guji-刘涓子-endeavor-1
+  title_zh: 丹阳射鬼获痈疽秘方
+  description: 晋末丹阳郊外射中高二丈异物，诘旦追踪遇小儿引见黄父鬼，收得遗下痈疽方一卷并药一臼
+  start_date: 0405-01-01
+  end_date: 0412-12-31
+  phases:
+  - key: brewing
+    name: 丹阳郊外夜射
+    labels:
+      zh: 夜射遇异
+    start_date: 0405-01-01
+    highlight_event_id: guji-刘涓子-event-shoot-ghost
+  - key: breakthrough
+    name: 追踪得见黄父鬼
+    labels:
+      zh: 追踪见鬼
+    start_date: 0405-06-01
+    highlight_event_id: guji-刘涓子-event-shoot-ghost
+  - key: climax
+    name: 收得鬼遗方药
+    labels:
+      zh: 鬼遗方药
+    start_date: 0405-06-02
+    highlight_event_id: guji-刘涓子-event-shoot-ghost
+  - key: closure
+    name: 宝藏其方以待验
+    labels:
+      zh: 藏方待验
+    start_date: 0406-01-01
+    highlight_event_id: guji-刘涓子-event-send-book
+  decisions:
+  - date: 0405-06-01
+    title_zh: 诘旦率徒追踪
+    rationale: 夜射中异物声如雷电风雨，不甘弃置，故率门徒子弟寻踪至山下以究其竟
+  - date: 0405-06-02
+    title_zh: 收存遗方药臼
+    rationale: 三鬼齐走遗下方卷药臼，知为天授异方，故谨藏以待后用
+- id: guji-刘涓子-endeavor-2
+  title_zh: 从宋武北征以方治疮
+  description: 从宋武北征，以鬼遗方治金疮痈疽皆愈，遂寄书与姊传于龚氏，开启方书流布之绪
+  start_date: 0416-01-01
+  end_date: 0418-12-31
+  phases:
+  - key: brewing
+    name: 随军北征
+    labels:
+      zh: 从军北伐
+    start_date: 0416-01-01
+    highlight_event_id: guji-刘涓子-event-conquest-heal
+  - key: breakthrough
+    name: 以方治疮皆愈
+    labels:
+      zh: 军中试方
+    start_date: 0416-08-01
+    highlight_event_id: guji-刘涓子-event-conquest-heal
+  - key: climax
+    name: 寄姊书传秘方
+    labels:
+      zh: 寄书传方
+    start_date: 0417-01-01
+    highlight_event_id: guji-刘涓子-event-send-book
+  - key: closure
+    name: 龚氏世守其方
+    labels:
+      zh: 世守流布
+    start_date: 0418-01-01
+    highlight_event_id: guji-刘涓子-event-send-book
+  decisions:
+  - date: 0416-08-01
+    title_zh: 军中用鬼方治疮
+    rationale: 北征多被疮者，常规难治，故试用鬼遗方药，果得千无一失
+  - date: 0417-01-01
+    title_zh: 寄姊书具叙本末
+    rationale: 姊适龚家从叔祖，恐神方湮没，故具书并方一卷相寄，托家族世守传治
+events:
+- id: guji-刘涓子-event-birth
+  title_zh: 出生于丹阳一带
+  date: 0375-01-01
+  year_of: 375
+  description: 晋末生于丹阳一带，少长习射，后居丹阳
+  place_zh: 丹阳
+- id: guji-刘涓子-event-shoot-ghost
+  title_zh: 丹阳郊外射鬼得方
+  date: 0405-06-01
+  year_of: 405
+  description: 晋末丹阳郊外夜射中高二丈异物，诘旦追至山下遇提罐小儿，自称主为黄父鬼，至其门闻捣药声，三鬼走遗痈疽方一卷并药一臼
+  place_zh: 丹阳郊外
+- id: guji-刘涓子-event-conquest-heal
+  title_zh: 从宋武北征以方治疮
+  date: 0416-08-01
+  year_of: 416
+  description: 从宋武北征，军中有被疮者，以鬼遗方药涂治即愈，用方为治千无一失，时论谓天授
+  place_zh: 北征军中
+- id: guji-刘涓子-event-send-book
+  title_zh: 寄姊书传鬼遗方
+  date: 0417-01-01
+  year_of: 417
+  description: 寄姊书具叙射鬼得方本末，并附丹阳白薄纸本方一卷，姊家世能为治方，后经道庆传于龚庆宣
+  place_zh: 军中寄丹阳龚家
+- id: guji-刘涓子-event-death
+  title_zh: 逝世
+  date: 0425-01-01
+  year_of: 425
+  description: 宋初逝世，具体年月不详，其方经龚家祖考相承，齐永元元年由龚庆宣编次流布
+  place_zh: 丹阳
