@@ -6,126 +6,147 @@ person:
     en: Kasyapa Matanga
   lifespan:
     birth:
-      date: '0020'
+      date: '0030'
       precision: year
       is_circa: true
-      raw: 中天竺人，生年不详
+      raw: 中天竺人，生年未详，传称善解大小乘经
     death:
       date: '0073'
       precision: year
       is_circa: true
-      raw: 永平年间卒于洛阳
-  birth_date: '0020'
+      raw: 汉明帝永平末卒于雒阳
+  birth_date: '0030'
   death_date: '0073'
   era: 东汉
   reign_ref: 汉明帝永平
-  archetype: 西来弘法开山祖师
+  archetype: 开创弘化型高僧
   dilemmas:
-  - 远离本土化行诸国与安住天竺修道之抉择
-  - 携经像东入汉土应验帝梦与风险未卜之担当
-  lesson: 感应道交，随缘东来，以经像证信，开东土佛法之源
-  summary_first_person: 吾本中天竺人，化行诸国颇有灵应，闻汉明帝夜梦金人飞空，与竺法兰携经像东来，蒙帝礼接于洛阳，自此东土大兴教法，愿毕生译经弘化以报佛恩。
+  - 以忘身赴难劝和交兵两国还是明哲保身独善其身
+  - 冒涉流沙远赴汉地弘通还是安居天竺故土游化
+  lesson: 以经护国，以身弘道，不惮流沙而开汉地沙门之始
+  summary_first_person: 余本中天竺游化僧，善解大小乘经，昔于附庸小国讲金光明经，以护国之誓冒难劝和交兵二国，后应汉使蔡愔秦景之要，誓志弘通，冒涉流沙至雒邑，蒙明帝赏接，立精舍而开汉地沙门之始
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E6%9D%82%E4%BC%A0/%E9%87%8A%E6%B0%8F%E8%92%99%E6%B1%82.html
+  - https://daizhige.org/fo-zang/xu-zang-jing/zhong-guo-zhuan-shu/shi-zhuan-bu/za-zhuan/gao-seng-zhai-yao.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/fo-zang/xu-zang-jing/zhong-guo-zhuan-shu/shi-zhuan-bu/za-zhuan/gao-seng-zhai-yao.md
 endeavors:
 - id: guji-摄摩腾-endeavor-1
-  title_zh: 应梦入汉开教
-  summary: 与竺法兰携经像西来，东迎汉使入洛，证汉明帝金人飞空之梦
+  person_id: guji-摄摩腾
+  title_zh: 天竺讲经劝和二国
+  summary: 于天竺附庸小国讲金光明经，会值敌国侵境，以经中地神护国安乐之义，誓以忘身往和，遂使二国交欢，显誉远闻
   phases:
   - key: brewing
-    name: 天竺化行积缘
+    name: 游化讲经
     labels:
       zh:
-      - 化彼诸国
-      - 广有灵应
-    start_date: '0040'
+      - 善解大小乘
+      - 游化为任
+    start_date: '0050'
     highlight_event_id: guji-摄摩腾-event-birth
   - key: breakthrough
-    name: 汉使相遇同回
+    name: 金光明立誓
     labels:
       zh:
-      - 明帝梦金人
-      - 蔡愔秦景访法
-    start_date: '0067'
-    highlight_event_id: guji-摄摩腾-event-meet-han
+      - 金光明经
+      - 护国安乐
+    start_date: '0060'
+    highlight_event_id: guji-摄摩腾-event-reconcile
   - key: climax
-    name: 洛阳礼接兴教
+    name: 忘身往和
     labels:
       zh:
-      - 深加礼接
-      - 东土兴教之始
-    start_date: 0068
-    highlight_event_id: guji-摄摩腾-event-arrive-luoyang
+      - 躬往和劝
+      - 二国交欢
+    start_date: '0061'
+    highlight_event_id: guji-摄摩腾-event-reconcile
+  - key: closure
+    name: 显誉天竺
+    labels:
+      zh:
+      - 显誉远播
+      - 弘通之基
+    start_date: '0062'
+    highlight_event_id: guji-摄摩腾-event-reconcile
   decisions:
-  - date: '0067'
-    title_zh: 决意携经像东行
-    rationale: 感汉帝求法之诚，不辞远涉，以经像为信证佛法东传
-  - date: 0068
-    title_zh: 安住洛阳弘化
-    rationale: 蒙帝礼重，知东土机缘已至，留洛译经立教为先
+  - date: '0060'
+    title_zh: 誓以忘身往和
+    rationale: 信经言能说此法为地神所护使所居安乐，锋镝方始，若不践行则为无益，故冒难劝和以证法力
 - id: guji-摄摩腾-endeavor-2
-  title_zh: 洛阳译经立寺弘法
-  summary: 居洛阳译出四十二章经，立白马寺之基，奠定汉地僧制经教
+  person_id: guji-摄摩腾
+  title_zh: 应汉使西来开基雒邑
+  summary: 汉明帝永平中夜梦金人飞空，遣蔡愔秦景往天竺寻访佛法，遇摩腾要还汉地，腾誓志弘通不惮疲苦，冒涉流沙至雒邑，得帝赏接，于城西门外立精舍，始开汉地沙门
   phases:
   - key: brewing
-    name: 安顿译场
+    name: 汉梦西域
     labels:
       zh:
-      - 居止洛阳
-      - 通译筹备
-    start_date: 0068
-    highlight_event_id: guji-摄摩腾-event-arrive-luoyang
+      - 夜梦金人
+      - 遣使寻法
+    start_date: '0064'
+    highlight_event_id: guji-摄摩腾-event-journey
   - key: breakthrough
-    name: 共译经典
+    name: 天竺相遇
     labels:
       zh:
-      - 四十二章经
-      - 开译经之端
-    start_date: 0069
-    highlight_event_id: guji-摄摩腾-event-translate
+      - 蔡愔秦景至天竺
+      - 要还汉地
+    start_date: '0067'
+    highlight_event_id: guji-摄摩腾-event-journey
+  - key: climax
+    name: 冒沙至雒
+    labels:
+      zh:
+      - 冒涉流沙
+      - 誓志弘通
+    start_date: '0067'
+    highlight_event_id: guji-摄摩腾-event-journey
   - key: closure
-    name: 示寂洛阳
+    name: 立舍开僧源
     labels:
       zh:
-      - 教法大兴
-      - 遗化东土
-    start_date: '0073'
-    highlight_event_id: guji-摄摩腾-event-death
+      - 城西立精舍
+      - 汉地沙门始
+    start_date: 0068
+    highlight_event_id: guji-摄摩腾-event-vihara
   decisions:
-  - date: 0069
-    title_zh: 与竺法兰共译佛经
-    rationale: 欲使汉地识佛言教，非译经立言不足以传信后世
-  - date: '0070'
-    title_zh: 以身范立僧伽之制
-    rationale: 初来异服多疑，须持戒安居以示正法威仪取信朝野
+  - date: '0067'
+    title_zh: 誓志弘通随使东行
+    rationale: 以弘通为任，不惮疲苦流沙之险，欲使大法东被，故随汉使还雒
+  - date: 0068
+    title_zh: 居城西精舍安众传法
+    rationale: 初至汉地，语言风土殊异，须依帝力立所安居，方能存僧形、传经教，开后学之源
 events:
 - id: guji-摄摩腾-event-birth
+  person_id: guji-摄摩腾
   title_zh: 生于中天竺
-  date: '0020'
-  year_of: 20
-  type: birth
-  description: 本中天竺人，化行彼诸国广有灵应，幼通佛理长习经教
-- id: guji-摄摩腾-event-meet-han
-  title_zh: 中途遇汉使蔡愔秦景
+  date: '0030'
+  year_of: 30
+  place_zh: 中天竺
+  summary: 本中天竺人，善解大小乘经，常游化为任，生年未详
+- id: guji-摄摩腾-event-reconcile
+  person_id: guji-摄摩腾
+  title_zh: 讲金光明经劝和二国
+  date: '0061'
+  year_of: 61
+  place_zh: 天竺附庸小国
+  summary: 往附庸小国讲金光明经，会敌国侵境，乃誓忘身躬往和劝，遂二国交欢，由是显誉
+- id: guji-摄摩腾-event-journey
+  person_id: guji-摄摩腾
+  title_zh: 随汉使冒沙至雒邑
   date: '0067'
   year_of: 67
-  type: career
-  description: 明帝梦金人飞空，遣郎中蔡愔博士秦景往天竺访法，途中遇腾与竺法兰携经像而来遂同回洛阳
-- id: guji-摄摩腾-event-arrive-luoyang
-  title_zh: 入洛阳蒙明帝礼接
+  place_zh: 自天竺至雒邑
+  summary: 汉明帝永平中梦金人飞空，遣郎中蔡愔博士弟子秦景往天竺寻法，遇摩腾要还汉地，遂冒涉流沙至雒邑
+- id: guji-摄摩腾-event-vihara
+  person_id: guji-摄摩腾
+  title_zh: 城西立精舍开沙门始
   date: 0068
   year_of: 68
-  type: career
-  description: 至洛阳深蒙明帝礼接，东土大兴教法自腾为始，安住弘化
-- id: guji-摄摩腾-event-translate
-  title_zh: 共译经立教弘化
-  date: 0069
-  year_of: 69
-  type: career
-  description: 与竺法兰同译经本，树下安禅讲说，奠汉地佛法经教之源
+  place_zh: 雒邑城西门外
+  summary: 明帝甚加赏接，于城西门外立精舍以处之，汉地有沙门之始
 - id: guji-摄摩腾-event-death
-  title_zh: 卒于洛阳
+  person_id: guji-摄摩腾
+  title_zh: 卒于雒邑
   date: '0073'
   year_of: 73
-  type: death
-  description: 弘化洛阳数载，教法大行，示寂于洛阳，东土追仰为开教祖师
+  place_zh: 雒邑
+  summary: 永平末卒于雒邑精舍，毕生弘通，为东土开基之始
