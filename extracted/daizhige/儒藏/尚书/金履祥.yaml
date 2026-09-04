@@ -1,0 +1,133 @@
+person:
+  qid: guji-金履祥
+  name_zh: 金履祥
+  names:
+    zh: 金履祥
+    en: Jin Luxiang
+  lifespan:
+    birth:
+      date: '1232'
+      precision: year
+      is_circa: false
+      raw: 宋绍定五年
+    death:
+      date: '1303'
+      precision: year
+      is_circa: false
+      raw: 元大德七年
+  birth_date: '1232'
+  death_date: '1303'
+  era: 宋元之际
+  reign_ref: 宋理宗至元成宗
+  archetype: 隐居经师
+  dilemmas:
+  - 出仕修史与守义不仕之择
+  - 从蔡沈集传与独抱遗经求是之择
+  lesson: 摆脱众说独抱遗经得其纲要则精详可自得
+  summary_first_person: 吾金履祥字吉父号仁山婺州兰溪人少从王柏游得朱子之传德祐召为史馆编修不赴入元隐居教授晚年复读尚书正句画段作表注二卷以明圣贤君臣之心
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E5%B0%9A%E4%B9%A6%E8%A1%A8%E6%B3%A8.html
+endeavors:
+- id: guji-金履祥-endeavor-1
+  title_zh: 撰述尚书表注
+  role_zh: 注经者
+  summary_zh: 早岁作章释句解晚年摆脱众说复读玩味正句画段定表注二卷折衷旧说辨古今文异同
+  phases:
+  - key: brewing
+    name: 早岁章释句解
+    labels:
+      zh: 研经积累
+    start_date: '1250'
+    highlight_event_id: guji-金履祥-event-study
+  - key: breakthrough
+    name: 摆脱众说独抱遗经
+    labels:
+      zh: 复读玩味
+    start_date: '1285'
+    highlight_event_id: guji-金履祥-event-biaozhu
+  - key: closure
+    name: 表注二卷定本
+    labels:
+      zh: 正句画段
+    start_date: '1295'
+    highlight_event_id: guji-金履祥-event-biaozhu
+  decisions:
+  - date: '1285'
+    title_zh: 别立表注体不袭集传
+    rationale: 以为集传成于朱子既殁之后犹有遗漏故表章指于四栏之外以得纲要
+  - date: '1295'
+    title_zh: 本胡宏皇王大纪考定作书岁月
+    rationale: 为求事迹之实考论先后不为无据之说
+- id: guji-金履祥-endeavor-2
+  title_zh: 隐居婺州授徒传道
+  role_zh: 山中师儒
+  summary_zh: 德祐初召而不赴入元隐居兰溪教授以终传朱子之学于许谦诸生
+  phases:
+  - key: brewing
+    name: 从王柏问学
+    labels:
+      zh: 师承朱学
+    start_date: '1250'
+    highlight_event_id: guji-金履祥-event-study
+  - key: climax
+    name: 辞史馆之召隐居
+    labels:
+      zh: 守义不仕
+    start_date: '1276'
+    highlight_event_id: guji-金履祥-event-refuse
+  - key: closure
+    name: 终身教授
+    labels:
+      zh: 授徒传经
+    start_date: '1280'
+    highlight_event_id: guji-金履祥-event-teach
+  decisions:
+  - date: '1276'
+    title_zh: 辞史馆编修之召
+    rationale: 宋室既亡不忍北仕愿以教授存斯文于东南
+  - date: '1280'
+    title_zh: 专以讲学注经为业
+    rationale: 以为用世在明道不在居官故著书授徒以待自得者
+events:
+- id: guji-金履祥-event-birth
+  date: '1232'
+  year_of: 1232
+  title_zh: 生于婺州兰溪
+  type: birth
+  description_zh: 宋绍定五年出生于婺州兰溪
+  place_zh: 婺州兰溪
+- id: guji-金履祥-event-study
+  date: '1250'
+  year_of: 1250
+  title_zh: 从学于王柏
+  type: study
+  description_zh: 少从王柏游得闻朱子之学遂专意经术
+  place_zh: 婺州
+- id: guji-金履祥-event-refuse
+  date: '1276'
+  year_of: 1276
+  title_zh: 德祐初召为史馆编修不赴
+  type: career
+  description_zh: 宋德祐初以史馆编修召不赴宋亡遂隐居不仕
+  place_zh: 临安
+- id: guji-金履祥-event-teach
+  date: '1280'
+  year_of: 1280
+  title_zh: 隐居兰溪教授生徒
+  type: career
+  description_zh: 入元隐居兰溪授徒讲学传道授业以终其身
+  place_zh: 兰溪仁山
+- id: guji-金履祥-event-biaozhu
+  date: '1295'
+  year_of: 1295
+  title_zh: 定尚书表注二卷
+  type: career
+  description_zh: 晚年摆脱众说复读遗经正句画段提章指成尚书表注定本
+  place_zh: 兰溪
+- id: guji-金履祥-event-death
+  date: '1303'
+  year_of: 1303
+  title_zh: 卒于隐居讲学中
+  type: death
+  description_zh: 元大德七年卒于家事迹具元史儒学传
+  place_zh: 兰溪
