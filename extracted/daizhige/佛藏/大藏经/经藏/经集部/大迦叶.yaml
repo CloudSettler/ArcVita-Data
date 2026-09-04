@@ -1,0 +1,132 @@
+person:
+  qid: guji-大迦叶
+  name_zh: 大迦叶
+  names:
+    zh: 大迦叶
+    en: Mahakasyapa
+  lifespan:
+    birth:
+      date: -0532-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前五三二年摩揭陀婆罗门家
+    death:
+      date: -0478-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前四七八年入灭
+  birth_date: -0532-01-01
+  death_date: -0478-01-01
+  era: 春秋末期
+  reign_ref: 摩揭陀频婆娑罗王时
+  archetype: 头陀第一苦行持法者
+  dilemmas:
+  - 豪富安乐与出家梵行如何取舍
+  - 敬信师承与自心狐疑如何决断
+  lesson: 舍盛富而就淡泊以月喻自净其心以地水火风平等忍辱方能荷担正法
+  summary_first_person: 我本名毕拨生于王舍城婆罗门豪富之家舍金宝犁牛弃绝妻室往多子祠下求阿罗汉道夜见世尊光明即往亲觐闻法得眼受具足戒蒙授月喻地喻等行敷座奉衣取水侍左右愿以头陀守道不负圣恩
+  source_urls:
+  - https://cbeta.org/T/T49/T0496
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-大迦叶-endeavor-1
+  title_zh: 舍富求道林间遇佛
+  description: 舍弃家财妻室往神祠求道夜睹佛光往观闻法证果
+  phases:
+  - key: brewing
+    name: 豪富舍宅
+    labels:
+      zh: 舍金宝妻室求罗汉道
+    start_date: -0502-01-01
+    highlight_event_id: guji-大迦叶-event-encounter
+  - key: breakthrough
+    name: 林间见佛
+    labels:
+      zh: 夜见光明亲觐世尊
+    start_date: -0501-01-01
+    highlight_event_id: guji-大迦叶-event-encounter
+  - key: climax
+    name: 闻法得眼
+    labels:
+      zh: 坐上远尘离垢得法眼净
+    start_date: -0501-06-01
+    highlight_event_id: guji-大迦叶-event-ordination
+  - key: closure
+    name: 受具足戒
+    labels:
+      zh: 蒙佛许度为平等无忧第一
+    start_date: -0501-06-15
+    highlight_event_id: guji-大迦叶-event-ordination
+  decisions:
+  - date: -0502-01-01
+    title_zh: 舍六十佉梨金宝千具犁牛捐妻出家
+    rationale: 念世间无常欲趣阿罗汉学净修梵行故舍俗荣利
+  - date: -0501-01-01
+    title_zh: 见光即往丛树亲觐世尊
+    rationale: 观三十二相必是转轮圣王或佛出世不容错过故往观礼
+- id: guji-大迦叶-endeavor-2
+  title_zh: 禀受喻行侍佛持法
+  description: 受月喻蜂喻地水火风喻观身不净敷座奉衣取水侍佛成头陀行
+  phases:
+  - key: brewing
+    name: 受月日喻
+    labels:
+      zh: 制心修行如月日普照
+    start_date: -0501-07-01
+    highlight_event_id: guji-大迦叶-event-service
+  - key: breakthrough
+    name: 受地水火风喻
+    labels:
+      zh: 得净不喜得秽不忧平等忍辱
+    start_date: -0501-07-15
+    highlight_event_id: guji-大迦叶-event-service
+  - key: climax
+    name: 敷座奉衣
+    labels:
+      zh: 为佛敷座奉柔软法衣蒙赞纳衣
+    start_date: -0501-08-01
+    highlight_event_id: guji-大迦叶-event-service
+  - key: closure
+    name: 取水侍佛
+    labels:
+      zh: 承命取水奉佛答比丘问缘
+    start_date: -0501-08-15
+    highlight_event_id: guji-大迦叶-event-service
+  decisions:
+  - date: -0501-07-01
+    title_zh: 受持月喻蜂喻截角牛喻等行
+    rationale: 欲以无贪平等不著四事自净其心故依佛教讽诵奉行
+  - date: -0501-08-01
+    title_zh: 敷座奉衣愿佛哀受
+    rationale: 见佛背痛地细软妙好故以己法衣奉上表敬师心
+events:
+- id: guji-大迦叶-event-birth
+  title_zh: 诞生王舍城婆罗门尼拘类家
+  date: -0532-01-01
+  year_of: -532
+  description: 父名尼拘类号无恚家有金银七宝田宅牛马我名毕拨为其子
+  related_endeavor_id: guji-大迦叶-endeavor-1
+- id: guji-大迦叶-event-encounter
+  title_zh: 多子祠夜见佛光丛树亲觐
+  date: -0501-01-01
+  year_of: -501
+  description: 于药树下啖果夜见丛树光明远照往观见佛三十二相端严而坐
+  related_endeavor_id: guji-大迦叶-endeavor-1
+- id: guji-大迦叶-event-ordination
+  title_zh: 闻法得眼受具足戒
+  date: -0501-06-01
+  year_of: -501
+  description: 佛说布施持戒苦习尽道即于座上远尘离垢得法眼净蒙许具足为第一成就
+  related_endeavor_id: guji-大迦叶-endeavor-1
+- id: guji-大迦叶-event-service
+  title_zh: 敷座奉衣取水侍佛禀喻行
+  date: -0501-08-01
+  year_of: -501
+  description: 受月喻蜜蜂喻地水火风扫帚铁釜等喻为佛敷座奉衣取水答比丘本缘
+  related_endeavor_id: guji-大迦叶-endeavor-2
+- id: guji-大迦叶-event-death
+  title_zh: 入灭鸡足山前付嘱正法
+  date: -0478-01-01
+  year_of: -478
+  description: 佛灭后结集法藏住持头陀后入灭以全身护法待弥勒下生
+  related_endeavor_id: guji-大迦叶-endeavor-2
