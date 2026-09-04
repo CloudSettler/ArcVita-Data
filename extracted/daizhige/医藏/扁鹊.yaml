@@ -18,127 +18,131 @@ person:
   birth_date: '-0407'
   death_date: '-0310'
   era: 战国
-  reign_ref: 周显王至赧王
-  archetype: 名医
+  reign_ref: 周安王至周赧王时
+  archetype: 神医圣手
   dilemmas:
-  - 望闻问切新法与巫祝守旧之争如何抉择
-  - 周游列国活人济世与著书立说传道如何兼顾
-  lesson: 洞察脉理根本以决生死，医者当以生气胃气为本通变守常
-  summary_first_person: 吾秦越人世称扁鹊，周游列国以脉诊决生死，论十二经脉奇经八脉，作八十一难阐经络诊法，愿后人以胃气为本守生气之原
+  - 以布衣行医周游列国济世活人与权贵猜忌之间的两难
+  - 以针砭药石治已病与以望色闻声治未病之间的取舍
+  - 真传托名玉龙歌以显神应与后世附会失真之间的隐忧
+  lesson: 望闻问切四诊合参治未病补泻分明方为良医
+  summary_first_person: 吾本渤海秦越人世号扁鹊周游列国以望色诊病以针灸活人授玉龙歌一百二十穴愿后人精心习之使伛者伸患者起
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%AB%E5%8D%81%E4%B8%80%E9%9A%BE%E7%BB%8F.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%AB%E5%8D%81%E4%B8%80%E9%9A%BE%E7%BB%8F.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%89%81%E9%B9%8A%E7%A5%9E%E5%BA%94%E9%92%88%E7%81%B8%E7%8E%89%E9%BE%99%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%89%81%E9%B9%8A%E7%A5%9E%E5%BA%94%E9%92%88%E7%81%B8%E7%8E%89%E9%BE%99%E7%BB%8F.md
 endeavors:
 - id: guji-扁鹊-endeavor-1
-  title_zh: 周游列国行医创四诊法
-  summary: 以望闻问切诊赵魏齐秦诸国公卿庶民，决生死于寸口
+  name_zh: 周游列国望闻问切行医
+  summary_zh: 自赵至虢至齐至秦以望色脉诊治公卿庶民活人无数立神医之名
   phases:
   - key: brewing
-    name: 学医长桑君
+    name: 渤海学医长桑授术
     labels:
-      zh: 学医启蒙
-    start_date: -0380
-    highlight_event_id: guji-扁鹊-event-study
+      zh: 学医
+    start_date: -0387
+    highlight_event_id: guji-扁鹊-event-brew
   - key: breakthrough
-    name: 名闻赵国为妇科医
+    name: 赵简子昏厥诊苏
     labels:
-      zh: 初露锋芒
-    start_date: '-0355'
+      zh: 成名
+    start_date: '-0352'
     highlight_event_id: guji-扁鹊-event-zhao
   - key: climax
-    name: 虢国起死回生
+    name: 虢太子尸厥复生
     labels:
-      zh: 起死回生
-    start_date: '-0330'
+      zh: 神应
+    start_date: '-0335'
     highlight_event_id: guji-扁鹊-event-guo
   - key: closure
-    name: 秦医被害传名天下
+    name: 齐侯望色辞归入秦
     labels:
-      zh: 名垂医史
-    start_date: '-0311'
-    highlight_event_id: guji-扁鹊-event-death
+      zh: 治未病
+    start_date: -0318
+    highlight_event_id: guji-扁鹊-event-qi
   decisions:
-  - date: '-0355'
-    title_zh: 弃舍人就医道
-    rationale: 见病家苦于巫祝，立志以脉诊通阴阳活人济世
-  - date: '-0330'
-    title_zh: 以望色切脉并用救虢太子
-    rationale: 形病脉不病则生，审察生气之原不拘一方
+  - date: '-0352'
+    title_zh: 断赵简子为尸厥而非死投砭而苏
+    rationale: 望其色脉尚温据经判断血脉壅闭当下针通阳而不从众殓
+  - date: -0318
+    title_zh: 见齐侯病在腠理屡谏不听则速去
+    rationale: 病入骨髓司命无奈不恋名利全身以存医道传承
 - id: guji-扁鹊-endeavor-2
-  title_zh: 论脉著难经阐经络
-  summary: 论十二经脉络奇经八脉寸口诊法，作八十一难传后世
+  name_zh: 授玉龙歌传神应针灸
+  summary_zh: 托一百二十穴歌诀明补泻分毫传后世王国瑞元时集为玉龙经
   phases:
   - key: brewing
-    name: 考十二经长短根本
+    name: 总结针穴补泻心法
     labels:
-      zh: 经脉溯源
-    start_date: '-0345'
-    highlight_event_id: guji-扁鹊-event-zhao
+      zh: 授诀
+    start_date: '-0330'
+    highlight_event_id: guji-扁鹊-event-yulong
   - key: breakthrough
-    name: 立寸口大会诊法
+    name: 玉龙一试沉疴立起
     labels:
-      zh: 寸口决生死
-    start_date: '-0335'
-    highlight_event_id: guji-扁鹊-event-cunkou
+      zh: 神效
+    start_date: '-0325'
+    highlight_event_id: guji-扁鹊-event-yulong-use
   - key: climax
-    name: 述八十一难成书
+    name: 中风口眼头风诸验广传
     labels:
-      zh: 难经成书
+      zh: 广传
     start_date: '-0320'
-    highlight_event_id: guji-扁鹊-event-nanjing
+    highlight_event_id: guji-扁鹊-event-yulong-use
   - key: closure
-    name: 授弟子传医经
+    name: 元代王国瑞集为玉龙经传世
     labels:
-      zh: 传道后学
-    start_date: '-0312'
-    highlight_event_id: guji-扁鹊-event-death
+      zh: 成书
+    start_date: '1339'
+    highlight_event_id: guji-扁鹊-event-yulong-book
   decisions:
-  - date: '-0335'
-    title_zh: 独取寸口决五脏吉凶
-    rationale: 寸口为脉大会手太阴之动，五十度复会于此最能候生气
-  - date: '-0320'
-    title_zh: 以问答难经体统摄脉学
-    rationale: 离圣久远各是其法，设八十一难以别内外证正逆顺
+  - date: '-0330'
+    title_zh: 作玉龙歌以一百二十穴统全身诸疾
+    rationale: 针法贵简要明补泻使时人易记易行伛者立伸患者起
+  - date: '1339'
+    title_zh: 托名扁鹊集歌为经以神应显效
+    rationale: 借神医之重使金针之法不坠精心习之以济湖海沉疴
 events:
 - id: guji-扁鹊-event-birth
-  kind: birth
-  title_zh: 扁鹊诞生
   date: '-0407'
   year_of: -407
-  description: 秦越人诞生于渤海郡郑地，约战国初年
-- id: guji-扁鹊-event-study
-  kind: career
-  title_zh: 师事长桑君学医
-  date: -0380
-  year_of: -380
-  description: 为舍人时遇长桑君，怀药授之，始通脉诊禁方
+  title_zh: 生于渤海郡郑地本名秦越人
+  description_zh: 约战国初生于渤海少为舍长得长桑君禁方传上池之水遂精望色脉诊
+- id: guji-扁鹊-event-brew
+  date: -0387
+  year_of: -387
+  title_zh: 从长桑君学医尽得禁方
+  description_zh: 饮上池之水能视垣一方人以此尽见五藏症结特以诊脉为名
 - id: guji-扁鹊-event-zhao
-  kind: career
-  title_zh: 赵国行医名扁鹊
-  date: '-0355'
-  year_of: -355
-  description: 游赵为带下医，闻秦越人如黄帝时扁鹊，遂以扁鹊名世
-- id: guji-扁鹊-event-cunkou
-  kind: career
-  title_zh: 立寸口脉法决生死
+  date: '-0352'
+  year_of: -352
+  title_zh: 诊赵简子五日昏睡投针即苏
+  description_zh: 言其血脉治也非死针取三阳五会而醒国人惊为神
+- id: guji-扁鹊-event-guo
   date: '-0335'
   year_of: -335
-  description: 论十二经皆有动脉独取寸口，寸口为五脏六腑终始
-- id: guji-扁鹊-event-guo
-  kind: career
-  title_zh: 虢国诊太子尸厥复生
+  title_zh: 治虢太子尸厥以针砥熨复生
+  description_zh: 取三阳五会砥针厉之而复苏天下闻而为神医
+- id: guji-扁鹊-event-qi
+  date: -0318
+  year_of: -318
+  title_zh: 望齐侯之色四见而逃秦
+  description_zh: 言疾在腠理血脉肠胃骨髓不及治而逃后齐侯果病死遂奔秦
+- id: guji-扁鹊-event-yulong
   date: '-0330'
   year_of: -330
-  description: 切脉望色断太子为尸厥，以砭针熨贴复苏，天下言为起死回生
-- id: guji-扁鹊-event-nanjing
-  kind: career
-  title_zh: 作八十一难经成书
-  date: '-0320'
-  year_of: -320
-  description: 以问答体论经脉经络脏腑奇经八脉四时脉生死要会，成八十一难
+  title_zh: 授玉龙歌一百二十穴明补泻
+  description_zh: 传顶门百会地仓颊车神庭合谷诸穴曲池补人中泻风池补绝骨泻为后世玉龙经之源
+- id: guji-扁鹊-event-yulong-use
+  date: '-0325'
+  year_of: -325
+  title_zh: 玉龙针行中风头风痰嗽立效
+  description_zh: 以金针补泻治中风不语口眼歪斜头风呕吐痰嗽喘急伛者立伸名驰湖海
+- id: guji-扁鹊-event-yulong-book
+  date: '1339'
+  year_of: 1339
+  title_zh: 元王国瑞集扁鹊神应针灸玉龙经
+  description_zh: 元代王国瑞集玉龙歌一百二十穴注穴位针灸补泻成书传世今见医藏本
 - id: guji-扁鹊-event-death
-  kind: death
-  title_zh: 扁鹊卒于秦
   date: '-0310'
   year_of: -310
-  description: 入秦见秦武王，遭秦太医李醯嫉害，殁于咸阳途中
+  title_zh: 为秦太医李醯所杀殁于咸阳
+  description_zh: 秦武王好砭扁鹊入秦遭太医嫉妒使人刺杀于崤道弟子子阳等传其术
