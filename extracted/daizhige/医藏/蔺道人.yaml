@@ -1,0 +1,148 @@
+person:
+  qid: guji-蔺道人
+  name_zh: 蔺道人
+  names:
+    zh: 蔺道人
+    en: Lin Daoren
+  lifespan:
+    birth:
+      date: 0697-01-01
+      precision: year
+      is_circa: true
+      raw: 约开元前后生于长安
+    death:
+      date: 0846-12-31
+      precision: year
+      is_circa: true
+      raw: 会昌后仙去失踪
+  birth_date: 0697-01-01
+  death_date: 0846-12-31
+  era: 唐
+  reign_ref: 唐武宗会昌年间
+  archetype: 隐逸医僧
+  dilemmas:
+  - 济世活人与厌烦求者而闭门避世之两难
+  - 秘方济众与恐苟取轻售传非人之两难
+  lesson: 医乃仁术，授必得人，守誓重诺方能济世长久
+  summary_first_person: 吾本长安人，姓蔺，会昌间结草庵于宜春钟村，种粟自给，年百四五十，偶治彭叟之子坠木折颈挫肱而愈，遂以理伤续断秘方授彭氏，立誓无苟取轻售传非人，后与邓先生载酒高歌，终飘然仙去，惟留椰瓢与书卷于世
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BB%99%E6%8E%88%E7%90%86%E4%BC%A4%E7%BB%AD%E6%96%AD%E7%A7%98%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BB%99%E6%8E%88%E7%90%86%E4%BC%A4%E7%BB%AD%E6%96%AD%E7%A7%98%E6%96%B9.md
+endeavors:
+- id: guji-蔺道人-endeavor-1
+  person_qid: guji-蔺道人
+  title_zh: 宜春结庵治损济世
+  summary: 会昌间结庵钟村，以续断接骨之术治彭子坠伤，名闻袁州，治损者宗之
+  phases:
+  - key: brewing
+    name: 结庵种粟隐居
+    labels:
+      zh:
+      - 隐居
+      - 农耕
+    start_date: 0800-01-01
+    highlight_event_id: guji-蔺道人-event-birth
+  - key: breakthrough
+    name: 治愈彭子折颈
+    labels:
+      zh:
+      - 正骨
+      - 理伤
+    start_date: 0842-04-01
+    highlight_event_id: guji-蔺道人-event-heal
+  - key: climax
+    name: 求医益众名显
+    labels:
+      zh:
+      - 声名
+      - 济世
+    start_date: 0842-06-01
+    highlight_event_id: guji-蔺道人-event-heal
+  - key: closure
+    name: 厌烦授方立誓
+    labels:
+      zh:
+      - 授徒
+      - 立誓
+    start_date: 0843-06-01
+    highlight_event_id: guji-蔺道人-event-teach
+  decisions:
+  - date: 0842-04-01
+    title_zh: 亲视彭子坠伤亲制药饵
+    rationale: 见村氓急难，不忍坐视，以试平生接骨之效
+  - date: 0843-06-01
+    title_zh: 取方授彭立三誓
+    rationale: 求者益众而厌烦扰，择朴诚之人授之，使无苟取轻售传非人，以保仁术不滥
+- id: guji-蔺道人-endeavor-2
+  person_qid: guji-蔺道人
+  title_zh: 著书传世仙授秘方
+  summary: 留书数篇，以最后一卷授彭氏，详载洗拔伸捺贴夹缚服药次第及黑龙散风流散诸方，江西观察使易村为巩以传之
+  phases:
+  - key: brewing
+    name: 与邓先生载酒论道
+    labels:
+      zh:
+      - 交游
+      - 逍遥
+    start_date: 0840-01-01
+    highlight_event_id: guji-蔺道人-event-heal
+  - key: breakthrough
+    name: 整理补接次第口诀
+    labels:
+      zh:
+      - 著述
+      - 正骨法
+    start_date: 0843-06-01
+    highlight_event_id: guji-蔺道人-event-teach
+  - key: climax
+    name: 传授最后一卷秘方
+    labels:
+      zh:
+      - 传方
+      - 医藏
+    start_date: 0844-01-01
+    highlight_event_id: guji-蔺道人-event-teach
+  - key: closure
+    name: 飘然仙去惟瓢存
+    labels:
+      zh:
+      - 仙去
+      - 遗泽
+    start_date: 0846-12-31
+    highlight_event_id: guji-蔺道人-event-death
+  decisions:
+  - date: 0844-01-01
+    title_zh: 以最后一卷授彭不授全书
+    rationale: 察彭氏可托而世人未可尽托，留精要以治损，藏玄妙以待缘
+  - date: 0846-01-01
+    title_zh: 拒观察使之邀飘然而去
+    rationale: 久慕山中之乐不恋经世之荣，功成身退，全其高洁
+events:
+- id: guji-蔺道人-event-birth
+  person_qid: guji-蔺道人
+  type: birth
+  title_zh: 生于长安
+  date: 0697-01-01
+  year_of: 697
+  description: 约开元前后生于长安，自称蔺道者，后为头陀，年寿百四五十而风采不改
+- id: guji-蔺道人-event-heal
+  person_qid: guji-蔺道人
+  type: career
+  title_zh: 治愈彭子坠木折颈挫肱
+  date: 0842-04-01
+  year_of: 842
+  description: 会昌间彭叟之子升木伐条坠地折颈挫肱，请视之，命买数品药亲制以饵，俄而痛定，数日如平时，始知能医
+- id: guji-蔺道人-event-teach
+  person_qid: guji-蔺道人
+  type: career
+  title_zh: 授理伤续断秘方于彭氏
+  date: 0843-06-01
+  year_of: 843
+  description: 取方授彭，使自制者，且誓以无苟取毋轻售毋传非人，由是治损者宗彭氏，并传医治整理补接次第口诀及诸散丸丹方
+- id: guji-蔺道人-event-death
+  person_qid: guji-蔺道人
+  type: death
+  title_zh: 仙去失踪惟瓢存庵
+  date: 0846-12-31
+  year_of: 846
+  description: 邓先生不至后自言已仙去，江西观察使遣人同彭叟邀之，至则行矣，惟椰瓢存壁间，廉使易其村曰巩以旌之
