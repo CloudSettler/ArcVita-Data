@@ -1,0 +1,127 @@
+person:
+  qid: guji-朱熹
+  name_zh: 朱熹
+  names:
+    zh: 朱熹
+    en: Zhu Xi
+  lifespan:
+    birth:
+      date: 1130-10-18
+      precision: day
+      is_circa: false
+      raw: 建炎四年九月十五
+    death:
+      date: 1200-04-23
+      precision: day
+      is_circa: false
+      raw: 庆元六年三月初九
+  birth_date: 1130-10-18
+  death_date: 1200-04-23
+  era: 南宋
+  reign_ref: 淳熙
+  archetype: 辨伪复经的理学家
+  dilemmas:
+  - 改经僭妄与复经旧观之间的进退
+  - 信古传诵与精审读书之间的取舍
+  lesson: 读书当精审察疑以复圣言全体不可苟从旧说
+  summary_first_person: 我朱熹字元晦晚居云台取古文孝经合经为一章传为十四章删旧文二百余字以复经文之旧愿学者不以文害意而得圣言大义
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%AD%9D%E7%BB%8F/%E5%AD%9D%E7%BB%8F%E5%88%8B%E8%AF%AF.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%AD%9D%E7%BB%8F/%E5%AD%9D%E7%BB%8F%E5%88%8B%E8%AF%AF.html
+endeavors:
+- id: guji-朱熹-endeavor-1
+  title_zh: 孝经刊误分经传
+  summary: 取古文孝经合经为一章传为十四章删伪字以复旧观
+  phases:
+  - key: brewing
+    name: 衡山疑经
+    labels:
+      zh: 酝酿生疑
+    start_date: 1165-01-01
+    highlight_event_id: guji-朱熹-event-doubt
+  - key: breakthrough
+    name: 质书沙随
+    labels:
+      zh: 求证得据
+    start_date: 1175-01-01
+    highlight_event_id: guji-朱熹-event-consult
+  - key: climax
+    name: 云台刊定
+    labels:
+      zh: 刊误成书
+    start_date: 1186-01-01
+    highlight_event_id: guji-朱熹-event-kanwu
+  - key: closure
+    name: 自记成篇
+    labels:
+      zh: 记述始末
+    start_date: 1186-08-12
+    highlight_event_id: guji-朱熹-event-kanwu
+  decisions:
+  - date: 1186-01-01
+    title_zh: 合六七章为一章
+    rationale: 首尾相应脉络通贯不容妄分故合经文删子曰引诗书六十一字
+  - date: 1186-08-12
+    title_zh: 存传阙疑删傅会
+    rationale: 传文多傅会引左传季文子等语不相应则删之存格言系正义
+- id: guji-朱熹-endeavor-2
+  title_zh: 传文次第与伪书考辨
+  summary: 考定传文次第删傅会文字兼辨孔丛子西京杂记之伪
+  phases:
+  - key: brewing
+    name: 察传文傅会
+    labels:
+      zh: 考传生疑
+    start_date: 1175-01-01
+    highlight_event_id: guji-朱熹-event-consult
+  - key: breakthrough
+    name: 别经传定次第
+    labels:
+      zh: 分章定次
+    start_date: 1186-01-01
+    highlight_event_id: guji-朱熹-event-kanwu
+  - key: climax
+    name: 删左传杂入之语
+    labels:
+      zh: 删伪存真
+    start_date: 1186-06-01
+    highlight_event_id: guji-朱熹-event-kanwu
+  - key: closure
+    name: 记孔丛子之伪
+    labels:
+      zh: 推类辨伪
+    start_date: 1186-08-12
+    highlight_event_id: guji-朱熹-event-kanwu
+  decisions:
+  - date: 1186-06-01
+    title_zh: 删子产季文子杂语九十余字
+    rationale: 传文袭左传而文势不贯当存格言去傅会以明本义
+  - date: 1186-08-12
+    title_zh: 断孔丛子为伪书
+    rationale: 其词气卑近叙事失实与西京杂记同类故记于刊误之后以俟别论
+events:
+- id: guji-朱熹-event-birth
+  title_zh: 出生
+  date: 1130-10-18
+  year_of: 1130
+  description: 建炎四年九月十五生于尤溪
+- id: guji-朱熹-event-doubt
+  title_zh: 读胡宏说疑孝经
+  date: 1165-01-01
+  year_of: 1165
+  description: 见衡山胡侍郎论语说疑孝经引诗非经本文始悟孝经可疑者不止此
+- id: guji-朱熹-event-consult
+  title_zh: 质书程迥
+  date: 1175-01-01
+  year_of: 1175
+  description: 以书质沙随程可久得玉山汪端明亦谓此书多出后人附会之说遂得因述免于凿空之罪
+- id: guji-朱熹-event-kanwu
+  title_zh: 云台刊误成书
+  date: 1186-08-12
+  year_of: 1186
+  description: 淳熙十三年主管华州云台观时取古文孝经分经一章传十四章删旧文二百二十三字而自记其事
+- id: guji-朱熹-event-death
+  title_zh: 逝世
+  date: 1200-04-23
+  year_of: 1200
+  description: 庆元六年三月初九卒后世注孝经者多用刊误本
