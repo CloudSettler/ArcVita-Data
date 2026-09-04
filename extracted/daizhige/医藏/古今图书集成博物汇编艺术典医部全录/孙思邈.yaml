@@ -9,123 +9,120 @@ person:
       date: 0581
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右生于京兆华原
+      raw: 隋开皇元年左右
     death:
       date: 0682
       precision: year
-      is_circa: false
-      raw: 唐永淳元年卒
+      is_circa: true
+      raw: 唐永淳元年
   birth_date: 0581
   death_date: 0682
-  era: 隋唐
-  reign_ref: 唐贞观至永淳
-  archetype: 药王医圣
+  era: 唐
+  reign_ref: 隋末至唐高宗永淳
+  archetype: 药王济世医者
   dilemmas:
-  - 隐居修道保身与应诏入京济世救人如何取舍
-  - 噎塞反胃寒热虚实错杂时当温补还是清润如何决断
-  lesson: 大医精诚调和阴阳以通塞降逆为要
-  summary_first_person: 吾家京兆华原少好医方隐于太白博采群经晚应诏入京以千金两方传世於噎塞反胃详辨五噎气忧劳食思但以通和为本不敢妄投燥热以伤阴血
+  - 隐居修道与出仕济世之抉择
+  - 寒凉折火与顾护元气之权衡
+  lesson: 大医精诚慈悲济众以活人为心
+  summary_first_person: 吾自幼多疾而志于医，隐太白终南以求道，采古方著千金，愿以精诚大慈救人苦难
   source_urls:
-  - https://daizhige.org/yi-cang/gu-jin-tu-shu-ji-cheng-ye-ge-fan-wei-men.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/古今图书集成博物汇编艺术典医部全录/外科热疮痤痱汤火灸冻漆疮门.md
+  - https://daizhige.org/医藏/古今图书集成博物汇编艺术典医部全录/外科热疮痤痱汤火灸冻漆疮门.html
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  person_qid: guji-孙思邈
-  title_zh: 编纂备急千金要方
-  summary: 隐居博采立大医精诚之旨集成方论三十卷以救急备穷
+  title_zh: 著千金要方立外科热疮汤火论
+  summary_zh: 集唐前医方论热疮痱子火疮治法以传后世
   phases:
   - key: brewing
-    name: 隐居太白博采众方
+    name: 少时多病习医经
     labels:
-      zh: 酝酿
-    start_date: '0600'
-    highlight_event_id: guji-孙思邈-event-birth
+      zh: 习医积累
+    start_date: 0595
+    highlight_event_id: guji-孙思邈-event-1
   - key: breakthrough
-    name: 贞观入京声名大振
+    name: 隐居采方著要方
     labels:
-      zh: 突破
-    start_date: '0630'
-    highlight_event_id: guji-孙思邈-event-rujing
-  - key: climax
-    name: 千金要方勒成传世
-    labels:
-      zh: 高潮
+      zh: 著书立说
     start_date: '0652'
-    highlight_event_id: guji-孙思邈-event-qianjin
-  - key: closure
-    name: 翼方补阙以终大业
+    highlight_event_id: guji-孙思邈-event-1
+  - key: climax
+    name: 要方成书传外科法
     labels:
-      zh: 收束
+      zh: 成书济世
+    start_date: 0659
+    highlight_event_id: guji-孙思邈-event-2
+  - key: closure
+    name: 翼方补遗垂后学
+    labels:
+      zh: 补遗传承
     start_date: 0680
-    highlight_event_id: guji-孙思邈-event-death
+    highlight_event_id: guji-孙思邈-event-2
   decisions:
-  - date: '0630'
-    title_zh: 辞官不受坚守民间医道
-    rationale: 恐居官牵绊不能遍采民间疾苦故守隐以全医志
   - date: '0652'
-    title_zh: 以大医精诚冠于卷首
-    rationale: 欲正医德先立慈悲喜舍之心再谈方药故首重医道
+    title_zh: 发愿集方著千金要方
+    rationale: 以世俗方杂乱而立系统大方救人疾苦
+  - date: 0659
+    title_zh: 于要方中专论热疮火疮慎冷洗宜向火
+    rationale: 以火疮得冷热入筋骨故示向火解毒与蜜饮护元之法
 - id: guji-孙思邈-endeavor-2
-  person_qid: guji-孙思邈-endeavor-2
-  title_zh: 阐发噎塞反胃治法
-  summary: 承内经三阳结谓之膈之旨辨五噎反胃虚寒热结以养阴润燥和胃降逆立法
+  title_zh: 修道养生行大医精诚之教
+  summary_zh: 以慈悲精诚行医兼谈养生济世活人
   phases:
   - key: brewing
-    name: 考究内经难经关格之论
+    name: 太白隐居求道养性
     labels:
-      zh: 酝酿
+      zh: 修道养性
     start_date: '0610'
-    highlight_event_id: guji-孙思邈-event-birth
+    highlight_event_id: guji-孙思邈-event-1
   - key: breakthrough
-    name: 立噎塞反胃专论
+    name: 贞观受召议政却官
     labels:
-      zh: 突破
-    start_date: '0652'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh: 辞官行医
+    start_date: '0635'
+    highlight_event_id: guji-孙思邈-event-2
   - key: climax
-    name: 谆诫勿妄投燥热
+    name: 大医精诚垂训后世
     labels:
-      zh: 高潮
-    start_date: '0655'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh: 立医德典范
+    start_date: '0652'
+    highlight_event_id: guji-孙思邈-event-2
   - key: closure
-    name: 翼方申明养阴通便之法
+    name: 百岁羽化称药王
     labels:
-      zh: 收束
-    start_date: 0680
+      zh: 羽化崇祀
+    start_date: 0682
     highlight_event_id: guji-孙思邈-event-death
   decisions:
+  - date: '0635'
+    title_zh: 辞谢征召不仕而行医
+    rationale: 以保全真养性济世活人胜于荣官
   - date: '0652'
-    title_zh: 分五噎为气忧劳食思以别治
-    rationale: 因情志饮食劳倦皆可结于胸膈故须分因论治不执一方
-  - date: '0655'
-    title_zh: 反胃专主滋润忌香燥
-    rationale: 见胃反多由阴血枯燥三阳结热若再投姜桂附乌必增结塞故以濡润通降为要
+    title_zh: 首倡大医精诚论医德
+    rationale: 以凡大医须先发大慈恻隐誓愿普救含灵之苦
 events:
 - id: guji-孙思邈-event-birth
-  person_qid: guji-孙思邈
+  type: birth
+  title_zh: 孙思邈诞生于京兆华原
   date: 0581
   year_of: 581
-  title_zh: 诞生于京兆华原
-  description: 隋开皇左右生于华原少聪慧好老庄及医方之学
-  type: birth
-- id: guji-孙思邈-event-rujing
-  person_qid: guji-孙思邈
-  date: '0630'
-  year_of: 630
-  title_zh: 贞观征召入京述医
-  description: 唐太宗召见叹其道高辞官不受仍隐民间采药论方
+  description: 隋开皇前后生于华原少多病而聪慧好学通百家
+- id: guji-孙思邈-event-1
   type: career
-- id: guji-孙思邈-event-qianjin
-  person_qid: guji-孙思邈
-  date: '0652'
-  year_of: 652
-  title_zh: 著成备急千金要方论噎塞反胃
-  description: 集成三十卷于卷中立噎塞反胃之论辨寸紧尺涩趺阳浮涩之脉传世
+  title_zh: 隐太白山著述行医
+  date: '0610'
+  year_of: 610
+  description: 隐居太白终南采药行医声名远播论外科疮疡养生之法
+  related_endeavor_id: guji-孙思邈-endeavor-2
+- id: guji-孙思邈-event-2
   type: career
+  title_zh: 编成备急千金要方论热疮火疮
+  date: 0659
+  year_of: 659
+  description: 要方成书其中论热疮白脓肥疮瘑疮及火烧慎勿冷洗急向火炙以新尿蜜饮救闷绝
+  related_endeavor_id: guji-孙思邈-endeavor-1
 - id: guji-孙思邈-event-death
-  person_qid: guji-孙思邈
+  type: death
+  title_zh: 孙思邈逝世后世尊为药王
   date: 0682
   year_of: 682
-  title_zh: 卒于唐永淳元年
-  description: 年逾百岁而终遗千金翼方三十卷以补要方之未备
-  type: death
+  description: 永淳元年逝世享年百余岁遗千金翼方三十卷后世祀为药王
