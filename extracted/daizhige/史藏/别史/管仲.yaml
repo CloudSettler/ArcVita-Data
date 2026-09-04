@@ -1,0 +1,124 @@
+person:
+  qid: guji-管仲
+  name_zh: 管仲
+  names:
+    zh: 管仲
+    en: Guan Zhong
+  lifespan:
+    birth:
+      date: '-0725'
+      precision: year
+      is_circa: true
+      raw: 约前七二五年颍上生
+    death:
+      date: '-0645'
+      precision: year
+      is_circa: false
+      raw: 前六四五年卒于齐
+  birth_date: '-0725'
+  death_date: '-0645'
+  era: 春秋
+  reign_ref: 齐桓公
+  archetype: 经世相臣
+  dilemmas:
+  - 舍纠从桓忍一时之辱以存社稷大计
+  - 行霸尊王用权术取信而守礼义之本
+  lesson: 事君以社稷为重先内修而后外攘以信立霸业
+  summary_first_person: 吾名夷吾少困与鲍叔交深舍纠而相小白修内政连五家通鱼盐之利劝桓守柯盟之信九合诸侯一匡天下虽辱身而利齐国
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%98%A5%E7%A7%8B%E5%88%AB%E5%85%B8.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%98%A5%E7%A7%8B%E5%88%AB%E5%85%B8.html
+endeavors:
+- id: guji-管仲-endeavor-1
+  title_zh: 舍纠相桓转危为安
+  phases:
+  - key: brewing
+    name: 分辅两公子以待天命
+    labels:
+      zh: 潜伏观变
+    start_date: -0686
+    highlight_event_id: guji-管仲-event-birth
+  - key: breakthrough
+    name: 鲁槛送齐堂阜脱桎
+    labels:
+      zh: 起死回生
+    start_date: -0685
+    highlight_event_id: guji-管仲-event-xiangqi
+  - key: climax
+    name: 鲍叔力荐桓公任仲父
+    labels:
+      zh: 得君专任
+    start_date: -0685
+    highlight_event_id: guji-管仲-event-xiangqi
+  - key: closure
+    name: 西面荐祖专断国政
+    labels:
+      zh: 奠定相位
+    start_date: -0684
+    highlight_event_id: guji-管仲-event-xiangqi
+  decisions:
+  - date: -0685
+    title_zh: 不殉公子纠而求生入齐
+    rationale: 社稷未定而死无益存身以利齐国乃成大名
+  - date: -0685
+    title_zh: 托鲍叔以明心请往入齐
+    rationale: 借知己之言解桓公杀心以求用而展经纶
+- id: guji-管仲-endeavor-2
+  title_zh: 修政兴齐会盟图霸
+  phases:
+  - key: brewing
+    name: 连五家设鱼盐赡贫禄贤
+    labels:
+      zh: 富国安民
+    start_date: -0684
+    highlight_event_id: guji-管仲-event-xiangqi
+  - key: breakthrough
+    name: 柯盟许汶阳田以示信
+    labels:
+      zh: 取信诸侯
+    start_date: -0681
+    highlight_event_id: guji-管仲-event-kemeng
+  - key: climax
+    name: 九合诸侯尊王攘夷定中原
+    labels:
+      zh: 霸业大成
+    start_date: -0680
+    highlight_event_id: guji-管仲-event-kemeng
+  - key: closure
+    name: 筑三归台以自伤明分守
+    labels:
+      zh: 功成守正
+    start_date: '-0646'
+    highlight_event_id: guji-管仲-event-death
+  decisions:
+  - date: -0681
+    title_zh: 劝桓公许曹刿请汶阳田不倍盟
+    rationale: 以四百里之地见信于天下霸业所基在信不在地
+  - date: -0684
+    title_zh: 先爱四封先定卿大夫而后伐不服
+    rationale: 内修而后外攘置利而后去害乃长久之道
+events:
+- id: guji-管仲-event-birth
+  title_zh: 颍上出生少困遇鲍叔知
+  date: '-0725'
+  year_of: -725
+  kind: birth
+  description_zh: 管夷吾生于颍上早年困穷与鲍叔牙交善鲍叔知其贤而不以贫贱弃之分财让功始终相知
+- id: guji-管仲-event-xiangqi
+  title_zh: 鲁槛送齐鲍叔荐为相
+  date: -0685
+  year_of: -685
+  kind: career
+  description_zh: 桓公立后鲍叔牙力言非管夷吾不可桓公佯召而实欲用之管仲自鲁至堂阜脱桎齐祓见桓公遂拜上卿为仲父修国政
+- id: guji-管仲-event-kemeng
+  title_zh: 柯之盟劝桓守信归汶阳
+  date: -0681
+  year_of: -681
+  kind: career
+  description_zh: 齐桓与鲁庄为柯之盟曹刿劫盟请汶阳田管仲劝桓公许而不倍以信服诸侯翕然归齐霸业自此兴
+- id: guji-管仲-event-death
+  title_zh: 病卒于齐桓公四十一年
+  date: '-0645'
+  year_of: -645
+  kind: death
+  description_zh: 管仲相齐历年兴鱼盐通商旅定国政助桓公成霸业至前六四五年卒桓公悲之失左右手
