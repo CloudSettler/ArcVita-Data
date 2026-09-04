@@ -9,109 +9,96 @@ person:
       date: 0581
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右生于京兆华原
+      raw: 隋开皇元年左右
     death:
       date: 0682
       precision: year
-      is_circa: true
-      raw: 唐永淳元年卒
+      is_circa: false
+      raw: 唐永淳元年
   birth_date: 0581
   death_date: 0682
   era: 唐
-  reign_ref: 贞观永徽之间
-  archetype: 药王济世之医者
+  reign_ref: 唐太宗至高宗时
+  archetype: 济世著述医家
   dilemmas:
-  - 鬼神致病与乳哺失调当从何辨证
-  - 峻下驱邪与顾护小儿胃气如何两全
-  lesson: 审乳哺之源以治子疾勿惑于鬼神当以和缓扶正为本
-  summary_first_person: 吾孙思邈华原人也少婴疾而慕医博采经方著千金要方论小儿鬾病谓妊娠恶神妒嫉及饮鬾乳所致以龙胆汤白藓皮汤治之愿后人重乳哺调养慎药轻下以全稚子之命
+  - 外来秽恶惊触难防与婴孺神气怯弱易伤
+  - 客忤急变需速刺速下与顾护小儿脾胃元气
+  lesson: 防重于治急则祛邪缓则养正摄慎乳哺洁净居室方保婴孺
+  summary_first_person: 吾幼多疾长慕医道见婴孺客忤吐痢变色甚或夭折遂于千金要方详论外人气息牛马秽气惊触所致之病立法刺破悬痈龙胆下之又戒醉乳房劳哺儿烧牛屎辟秽勿露衣被愿后人防于未然救于仓卒
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%B0%8F%E5%84%BF%E6%9D%82%E7%97%85%E9%97%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%B0%8F%E5%84%BF%E8%AF%B8%E5%8D%92%E7%94%B3%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%B0%8F%E5%84%BF%E8%AF%B8%E5%8D%92%E7%94%B3%E9%97%A8.md
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 博采经方编成千金要方
-  summary: 遍览经史百家医方立千金要方三十卷以惠生民其中收小儿杂病专论
+  title_zh: 撰千金方立婴孺客忤论
+  description: 于备急千金要方详论少小客忤病因证脉定龙胆汤下法与悬痈刺血救急之式
   phases:
   - key: brewing
-    name: 隐居太白博览医籍
+    name: 博采经方积累儿科见闻
     labels:
-      zh:
-      - 博览
-      - 隐居
-    start_date: '0600'
+      zh: 博采积累
+    start_date: 392
     highlight_event_id: guji-孙思邈-event-birth
   - key: breakthrough
-    name: 贞观受召著书济世
+    name: 系统论述客忤吐痢腹痛证治
     labels:
-      zh:
-      - 著书
-      - 千金方
-    start_date: '0652'
+      zh: 客忤立论
+    start_date: 426
     highlight_event_id: guji-孙思邈-event-qianjin
-  - key: closure
-    name: 千金成书颁行天下
+  - key: climax
+    name: 刊定千金方传行于世
     labels:
-      zh:
-      - 成书
-      - 流传
-    start_date: '0653'
+      zh: 刊定传世
+    start_date: 426
     highlight_event_id: guji-孙思邈-event-qianjin
   decisions:
-  - date: '0652'
-    title_zh: 立千金要方以贱贵同治
-    rationale: 人命至重贵贱一同故不分贵贱广收单验以备急需
-  - date: '0653'
-    title_zh: 别立小儿方以全稚幼
-    rationale: 小儿易虚易实不可概同成人故别论杂病以保婴幼
+  - date: 426
+    title_zh: 以龙胆汤加参归下客忤
+    rationale: 客忤吐下青黄腹痛脉急数者邪盛宜先杀毒后下故立下法
+  - date: 426
+    title_zh: 急视悬痈刺溃去血
+    rationale: 口中悬痈青黑肿核为客忤外候速刺溃之则邪有出路故决断用针
 - id: guji-孙思邈-endeavor-2
-  title_zh: 辨小儿鬾病立法龙胆白藓
-  summary: 论妊娠恶神导胎及饮鬾乳致儿羸瘦发落壮热以龙胆汤白藓皮汤主之
+  title_zh: 倡导防忤摄养与辟秽护儿
+  description: 戒醉乳房劳哺儿马汗秽触夜露衣被教人避外客烧牛屎辟邪以防未病
   phases:
   - key: brewing
-    name: 观察乳哺继胎致病
+    name: 察访民间婴孺夭折之由
     labels:
-      zh:
-      - 鬾病
-      - 乳哺
-    start_date: 0649
-    highlight_event_id: guji-孙思邈-event-huibing
-  - key: climax
-    name: 立龙胆汤白藓皮汤法
+      zh: 察因访病
+    start_date: 400
+    highlight_event_id: guji-孙思邈-event-qianjin
+  - key: closure
+    name: 垂训养儿避忌保全之法
     labels:
-      zh:
-      - 立法
-      - 小儿杂病
-    start_date: '0652'
-    highlight_event_id: guji-孙思邈-event-huibing
+      zh: 防忤保全
+    start_date: 426
+    highlight_event_id: guji-孙思邈-event-fanghu
   decisions:
-  - date: '0652'
-    title_zh: 以龙胆汤清热驱鬾
-    rationale: 鬾病微微下痢寒热毫毛不悦乃邪热扰儿故以龙胆清泻
-  - date: '0652'
-    title_zh: 以白藓皮汤治客鬾挟实
-    rationale: 客鬾挟实宜下不宜单纯补养故用白藓大黄逐实安儿
+  - date: 426
+    title_zh: 戒外人异气猝触婴孺
+    rationale: 少小阳气在外血脉嫩弱外来气息皆能为忤故令避见以养正
+  - date: 426
+    title_zh: 禁醉劳哺乳与马气熏触
+    rationale: 乳母醉及房劳喘后乳儿最剧马汗鸣叫亦能中忤故特加禁慎
 events:
 - id: guji-孙思邈-event-birth
+  title_zh: 诞生于隋地
   date: 0581
   year_of: 581
-  title_zh: 生于京兆华原
-  description: 隋开皇左右生于京兆华原因少病而志于医
-  type: birth
+  description: 隋开皇前后生于京兆华原少小多疾遂喜医药
 - id: guji-孙思邈-event-qianjin
-  date: '0652'
+  title_zh: 撰成千金要方论小儿客忤
+  date: 426
   year_of: 652
-  title_zh: 著成备急千金要方
-  description: 博采前经及诸家方论编成千金要方其中卷五论小儿客忤鬾病
-  type: achievement
-- id: guji-孙思邈-event-huibing
-  date: '0652'
+  description: 于备急千金要方卷五详论婴孺客忤病因脉证定龙胆汤及刺悬痈法
+- id: guji-孙思邈-event-fanghu
+  title_zh: 立防忤辟秽护儿诸法
+  date: 426
   year_of: 652
-  title_zh: 论小儿鬾病设龙胆白藓二方
-  description: 谓妇人怀娠恶神导胎及母孕使儿饮乳致黄瘦骨立发落壮热宜服龙胆汤客鬾挟实用白藓皮汤
-  type: achievement
+  description: 提出避外客烧牛屎置户前戒醉乳马气夜露衣被以防姑获客忤之害
 - id: guji-孙思邈-event-death
+  title_zh: 逝世于唐长安
   date: 0682
   year_of: 682
-  title_zh: 卒于唐永淳元年
-  description: 以高寿卒后世尊为药王千金方传于后代婴童百问等引其鬾病之说
-  type: death
+  description: 唐永淳元年逝世百余岁遗千金方翼行世为后世儿科客忤所宗
