@@ -8,128 +8,127 @@ person:
     birth:
       date: 0499
       precision: year
-      is_circa: true
-      raw: 约499年
+      is_circa: false
+      raw: 天监十八年诞生西土
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 569年
+      raw: 陈光大二年正月示寂
   birth_date: 0499
   death_date: 0569
-  era: 南北朝
+  era: 南北朝梁陈
   reign_ref: 梁武帝至陈文帝
-  archetype: 译经论师
+  archetype: 弘法译师
   dilemmas:
-  - 以西域僧逢梁末陈初战乱而坚持译场不辍
-  - 以三性三无性会通空有破除人法二执
-  lesson: 以无相无生无性显如如于乱世立正法弘传不绝
-  summary_first_person: 我本西天竺人远来华夏逢侯景乱流寓岭南于广州制旨寺译三无性论立三性说三无性以显人空法空
+  - 战乱流离中坚持译经还是避世保身
+  - 依世亲唯识立阿赖耶正义还是随旧说妥协
+  lesson: 以决定藏明心意识根本虽遭艰难不辍翻译以利后学
+  summary_first_person: 我是西天竺优禅尼国人真谛奉敕来梁逢侯景之乱流转岭南仍竭力传译摄论唯识之旨所译决定藏论为开示阿赖耶识根本欲令众生断惑证真
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/论藏/瑜伽部/三无性论.md
-  - https://daizhige.org/佛藏/大藏经/论藏/瑜伽部/三无性论.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%86%B3%E5%AE%9A%E8%97%8F%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%86%B3%E5%AE%9A%E8%97%8F%E8%AE%BA.html
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 广州制旨寺译经
-  summary_zh: 于岭南主持译场译出三无性论等弘传唯识中观
+  title_zh: 奉敕来华流转弘法
+  summary: 梁武帝遣使迎请泛海至建康逢侯景乱流转岭南坚持译经授学
   phases:
   - key: brewing
-    name: 西来发愿
+    name: 西天究学
     labels:
       zh:
-      - 酝酿
+      - 求法
+    start_date: 0519
+    highlight_event_id: guji-真谛-event-birth
+  - key: breakthrough
+    name: 泛海至梁
+    labels:
+      zh:
+      - 弘化
     start_date: '0546'
     highlight_event_id: guji-真谛-event-arrival
-  - key: breakthrough
-    name: 岭南安住
-    labels:
-      zh:
-      - 突破
-    start_date: '0550'
-    highlight_event_id: guji-真谛-event-arrival
   - key: climax
-    name: 制旨译论
+    name: 乱中坚持译场
     labels:
       zh:
-      - 高峰
+      - 坚忍
+    start_date: 0548
+    highlight_event_id: guji-真谛-event-arrival
+  - key: closure
+    name: 岭南授徒成宗
+    labels:
+      zh:
+      - 传灯
     start_date: 0558
     highlight_event_id: guji-真谛-event-translate
-  - key: closure
-    name: 论成流通
-    labels:
-      zh:
-      - 收束
-    start_date: '0563'
-    highlight_event_id: guji-真谛-event-translate
   decisions:
-  - date: 0558
-    title_zh: 择三无性论阐发法空
-    rationale: 为补空品未立之法空通除智障烦恼障故立三性说三无性
-  - date: '0560'
-    title_zh: 坚持口授笔受广译论藏
-    rationale: 乱中无援唯以传法续慧命故不辍译事
+  - date: '0546'
+    title_zh: 应梁使南行传法
+    rationale: 为报佛恩不辞海险欲以大乘唯识利益东土
+  - date: '0550'
+    title_zh: 侯景乱中不归坚持留华译经
+    rationale: 以法付嘱为重乱世众生更需正法住持
 - id: guji-真谛-endeavor-2
-  title_zh: 开摄论宗弘唯识学
-  summary_zh: 译摄大乘论等开创摄论宗奠定汉地唯识基础
+  title_zh: 译决定藏论立阿赖耶识义
+  summary: 依世亲论本译决定藏论广辨心意识及阿赖耶识为诸法种本以破倒见疑
   phases:
   - key: brewing
-    name: 深究瑜伽
+    name: 集梵本研义
     labels:
       zh:
-      - 酝酿
-    start_date: '0547'
+      - 研义
+    start_date: '0557'
     highlight_event_id: guji-真谛-event-arrival
   - key: breakthrough
-    name: 讲授摄论
+    name: 草创译文
     labels:
       zh:
-      - 突破
-    start_date: '0552'
-    highlight_event_id: guji-真谛-event-teach
-  - key: climax
-    name: 四方学徒云集
-    labels:
-      zh:
-      - 高峰
+      - 创译
     start_date: 0559
-    highlight_event_id: guji-真谛-event-teach
-  - key: closure
-    name: 示寂岭南法绪绵延
+    highlight_event_id: guji-真谛-event-translate
+  - key: climax
+    name: 广辨阿赖耶识
     labels:
       zh:
-      - 收束
-    start_date: 0569
+      - 立宗
+    start_date: '0560'
+    highlight_event_id: guji-真谛-event-translate
+  - key: closure
+    name: 付嘱流通
+    labels:
+      zh:
+      - 流通
+    start_date: '0563'
     highlight_event_id: guji-真谛-event-death
   decisions:
-  - date: '0552'
-    title_zh: 以二空破三虚妄论
-    rationale: 为除斗诤多闻正行偏执故先明人空次明法空
-  - date: '0565'
-    title_zh: 留住岭南不归西域
-    rationale: 以华夏缘熟学人需教故安住传法至终
+  - date: '0560'
+    title_zh: 定名决定藏论直显藏义
+    rationale: 以决定藏为总持根本欲令学者于心地品得决定智
+  - date: '0562'
+    title_zh: 详说阿赖耶与阿摩罗对治
+    rationale: 为明凡圣转依以修善断惑证真如开摄论宗风
 events:
 - id: guji-真谛-event-birth
   title_zh: 诞生于西天竺优禅尼国
   date: 0499
   year_of: 499
-  description_zh: 约499年生于西天竺优禅尼国婆罗门家博通内外学大乘
+  kind: birth
+  description: 真谛生于西天竺优禅尼婆罗门家少习大乘博通三藏
 - id: guji-真谛-event-arrival
-  title_zh: 泛海赴梁抵达建康
-  date: '0546-09-15'
+  title_zh: 奉请泛海至建康
+  date: '0546'
   year_of: 546
-  description_zh: 梁武帝迎请经扶南泛海至建康逢侯景乱转往岭南
+  kind: career
+  description: 梁武帝大同二年遣使迎请真谛携梵本泛海至建康住宝云殿从事翻译
 - id: guji-真谛-event-translate
-  title_zh: 广州制旨寺译三无性论
-  date: '0558-01-01'
-  year_of: 558
-  description_zh: 于广州制旨寺翻译陈译三无性论出无相论立三性明三无性
-- id: guji-真谛-event-teach
-  title_zh: 讲授摄大乘论弘法岭南
-  date: '0562-01-01'
-  year_of: 562
-  description_zh: 讲译摄大乘论等门人慧恺等传习后世称摄论宗
+  title_zh: 于岭南译出决定藏论
+  date: '0560'
+  year_of: 560
+  kind: career
+  description: 于广州制旨寺等处译决定藏论上下二卷广释心意识及阿赖耶识为种本义
 - id: guji-真谛-event-death
   title_zh: 示寂于广州
-  date: '0569-01-01'
+  date: 0569
   year_of: 569
-  description_zh: 569年示寂于广州世寿七十一译经四十九部百余卷
+  kind: death
+  description: 陈光大二年正月示寂于广州世寿七十一荼毗得舍利
