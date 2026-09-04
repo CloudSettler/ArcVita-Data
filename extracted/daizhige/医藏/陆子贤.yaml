@@ -1,0 +1,126 @@
+person:
+  qid: guji-陆子贤
+  name_zh: 陆子贤
+  names:
+    zh: 陆延珍
+    en: Lu Zixian
+  lifespan:
+    birth:
+      date: 1750-01-01
+      precision: year
+      is_circa: true
+      raw: 清代崇明人，生年不详，暂系乾隆中叶
+    death:
+      date: 1820-01-01
+      precision: year
+      is_circa: true
+      raw: 清代，卒年不详，暂系道光初年
+  birth_date: 1750-01-01
+  death_date: 1820-01-01
+  era: 清
+  reign_ref: 乾嘉
+  archetype: 医家
+  dilemmas:
+  - 温为寒伏与精亏之争，当从藏精立论还是从伏邪立论
+  - 初起似伤寒，当用辛温升散还是辛凉清解
+  lesson: 藏精以御温，辛凉清解而预顾阴液
+  summary_first_person: 吾为崇明陆延珍，字子贤，体冬藏之旨，辨春温六因，列三十条以示同道，戒辛温升散，主辛凉清解而顾阴液
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%AD%E5%9B%A0%E6%9D%A1%E8%BE%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%AD%E5%9B%A0%E6%9D%A1%E8%BE%A8.html
+endeavors:
+- id: guji-陆子贤-endeavor-1
+  title_zh: 撰述春温条辨三十条
+  description: 辨冬不藏精春必病温，立辛凉清解纲领，分营卫气血论治春温
+  phases:
+  - key: brewing
+    name: 体察冬藏立论
+    labels:
+      zh: 藏精御温
+    start_date: 1780-01-01
+    highlight_event_id: guji-陆子贤-event-chunwen
+  - key: breakthrough
+    name: 区分温寒营卫
+    labels:
+      zh: 辨温非伤寒
+    start_date: 1790-01-01
+    highlight_event_id: guji-陆子贤-event-chunwen
+  - key: climax
+    name: 列条分治成篇
+    labels:
+      zh: 三十条成
+    start_date: 1800-01-01
+    highlight_event_id: guji-陆子贤-event-chunwen
+  - key: closure
+    name: 垂戒辛温顾阴
+    labels:
+      zh: 辛凉顾液
+    start_date: 1801-01-01
+    highlight_event_id: guji-陆子贤-event-chunwen
+  decisions:
+  - date: 1790-01-01
+    title_zh: 弃伏寒邪说从藏精说
+    rationale: 肾为生命之本，寒为杀厉中即病，不可伏至春发，故以精亏化火解春温
+  - date: 1800-01-01
+    title_zh: 初起用辛凉清解不用羌柴升散
+    rationale: 木火炙中微寒袭外，宜葛根薄荷大力透表合芩连清里，断太阳入阳明之路
+- id: guji-陆子贤-endeavor-2
+  title_zh: 构建六因体系付校刊行
+  description: 以六因统春温伏暑诸证，撰卷上下，经理校重订以传同道
+  phases:
+  - key: brewing
+    name: 统摄六因纲要
+    labels:
+      zh: 六因统病
+    start_date: 1800-01-01
+    highlight_event_id: guji-陆子贤-event-liuyin
+  - key: breakthrough
+    name: 参合伏暑湿温
+    labels:
+      zh: 推及伏暑
+    start_date: 1805-01-01
+    highlight_event_id: guji-陆子贤-event-liuyin
+  - key: climax
+    name: 著成六因条辨
+    labels:
+      zh: 全书告成
+    start_date: 1810-01-01
+    highlight_event_id: guji-陆子贤-event-liuyin
+  - key: closure
+    name: 付表诗新昀重校
+    labels:
+      zh: 校刊流传
+    start_date: 1815-01-01
+    highlight_event_id: guji-陆子贤-event-liuyin
+  decisions:
+  - date: 1805-01-01
+    title_zh: 以藏精奉时贯通四时五脏
+    rationale: 奉藏则生长收藏递运无偏，故春温伏暑皆责藏精疏泄，立法在固密
+  - date: 1810-01-01
+    title_zh: 不揣谫陋列条公世
+    rationale: 临症制宜对症发药方不愧司命，故请同道订正罪我以存司命之心
+events:
+- id: guji-陆子贤-event-birth
+  type: birth
+  title_zh: 崇明出生
+  date: 1750-01-01
+  year_of: 1750
+  summary: 清乾隆中叶生于崇明陆氏，名延珍，字子贤
+- id: guji-陆子贤-event-death
+  type: death
+  title_zh: 清代逝世
+  date: 1820-01-01
+  year_of: 1820
+  summary: 清道光初年逝世，生平以医著传世
+- id: guji-陆子贤-event-chunwen
+  type: achievement
+  title_zh: 撰成春温条辨三十条
+  date: 1800-01-01
+  year_of: 1800
+  summary: 论冬不藏精春必病温，列春温初起至蓄血热入血室三十条，主辛凉清解顾阴
+- id: guji-陆子贤-event-liuyin
+  type: achievement
+  title_zh: 著成六因条辨付校刊行
+  date: 1810-01-01
+  year_of: 1810
+  summary: 以六因统摄春温诸证成书上下卷，经绍兴表诗新昀重校流传
