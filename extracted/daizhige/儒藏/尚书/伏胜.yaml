@@ -1,0 +1,126 @@
+person:
+  qid: guji-伏胜
+  name_zh: 伏胜
+  names:
+    zh: 伏胜
+    en: Fu Sheng
+  lifespan:
+    birth:
+      date: -0268
+      precision: year
+      is_circa: true
+      raw: 约前二六八年生于济南
+    death:
+      date: -0178
+      precision: year
+      is_circa: true
+      raw: 约前一七八年卒
+  birth_date: -0268
+  death_date: -0178
+  era: 秦汉之际
+  reign_ref: 汉文帝
+  archetype: 守经传道之师
+  dilemmas:
+  - 秦火之后经文多亡口诵相传恐失其真
+  - 年且百岁言不可晓托女转授恐授受有差
+  lesson: 以残守真以口续经使绝学复传于世
+  summary_first_person: 吾本济南秦博士亲见焚书之厄藏经于壁晚逢汉兴年且百岁口授晁错二十八篇又作大传四十一篇以明章句之外大义惟愿斯文不绝于秦火之后
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E5%B0%9A%E4%B9%A6%E5%A4%A7%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E5%B0%9A%E4%B9%A6%E5%A4%A7%E4%BC%A0.md
+endeavors:
+- id: guji-伏胜-endeavor-1
+  title_zh: 口授尚书二十八篇复传经业
+  summary: 秦焚书后伏胜壁藏尚书汉文帝时诏晁错往受使其女诵传二十八篇遂为汉尚书之始
+  phases:
+  - key: brewing
+    name: 秦为博士壁藏尚书
+    labels:
+      zh:
+      - 守藏
+      - 潜伏
+    start_date: -145
+    highlight_event_id: guji-伏胜-event-birth
+  - key: breakthrough
+    name: 文帝求书晁错往受
+    labels:
+      zh:
+      - 口授
+      - 复传
+    start_date: -0179
+    highlight_event_id: guji-伏胜-event-shoujing
+  - key: closure
+    name: 二十八篇传于欧阳夏侯
+    labels:
+      zh:
+      - 授徒
+      - 分传
+    start_date: -0178
+    highlight_event_id: guji-伏胜-event-shoujing
+  decisions:
+  - date: -0179
+    title_zh: 令女诵经授晁错
+    rationale: 年老言不可晓借女声转达以存经文之真
+  - date: -0178
+    title_zh: 以所传授同郡张生
+    rationale: 恐口授孤悬故托张生递传欧阳以广其传
+- id: guji-伏胜-endeavor-2
+  title_zh: 创制尚书大传四十一篇
+  summary: 于章句之外别撰大义以通天地阴阳人事凡四十一篇后经郑玄铨次传为三卷残本
+  phases:
+  - key: brewing
+    name: 因经属指明其大义
+    labels:
+      zh:
+      - 释经
+      - 明道
+    start_date: -0179
+    highlight_event_id: guji-伏胜-event-shoujing
+  - key: climax
+    name: 作大传四十一篇授张生
+    labels:
+      zh:
+      - 著述
+      - 立传
+    start_date: -0178
+    highlight_event_id: guji-伏胜-event-dazhuan
+  - key: closure
+    name: 刘向校书得而上之
+    labels:
+      zh:
+      - 上献
+      - 流传
+    start_date: -22
+    highlight_event_id: guji-伏胜-event-dazhuan
+  decisions:
+  - date: -0178
+    title_zh: 别撰大义不止章句
+    rationale: 经文简奥非传不明故推演唐虞夏商之变以通其用
+  - date: -0178
+    title_zh: 以传授张生欧阳一系
+    rationale: 欲使家法相承世世守之不致散佚
+events:
+- id: guji-伏胜-event-birth
+  title_zh: 生于济南
+  date: -0268
+  year_of: -268
+  type: birth
+  summary: 约秦昭王时生于济南长为秦博士習尚书
+- id: guji-伏胜-event-shoujing
+  title_zh: 口授晁错二十八篇
+  date: -0179
+  year_of: -179
+  type: career
+  summary: 汉文帝诏太常使晁错往受伏胜年百岁使其女诵尧典等二十八篇口授之
+- id: guji-伏胜-event-dazhuan
+  title_zh: 作尚书大传四十一篇
+  date: -0178
+  year_of: -178
+  type: career
+  summary: 创大传四十一篇授同郡张生转授欧阳生以明经外大义
+- id: guji-伏胜-event-death
+  title_zh: 卒于汉初
+  date: -0178
+  year_of: -178
+  type: death
+  summary: 传经授传之后卒年约九十余后学分欧阳大小夏侯三家并立

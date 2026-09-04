@@ -1,0 +1,154 @@
+person:
+  qid: guji-王樵
+  name_zh: 王樵
+  names:
+    zh: 王樵
+    en: Wang Qiao
+  lifespan:
+    birth:
+      date: '1524'
+      precision: year
+      is_circa: true
+      raw: 明嘉靖三年前后金坛
+    death:
+      date: '1599'
+      precision: year
+      is_circa: true
+      raw: 明万历后期
+  birth_date: '1524'
+  death_date: '1599'
+  era: 明代
+  reign_ref: 明世宗嘉靖至明神宗万历
+  archetype: 经学名臣
+  dilemmas:
+  - 古义时义之分如何斟酌古今而得其通
+  - 举业为学与经术发明如何兼顾切己可用
+  lesson: 以今事通古事以古文叙今事读其书如身在其时论其世如事在己身
+  summary_first_person: 吾金坛王樵字明逸嘉靖丁未进士官至南京右都御史平生以尚书教授子弟援横渠劄记之法日久成帙为尚书日记以羽翼蔡传晚年手自增删以贻学者
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E5%B0%9A%E4%B9%A6%E6%97%A5%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E5%B0%9A%E4%B9%A6%E6%97%A5%E8%AE%B0.md
+endeavors:
+- id: guji-王樵-endeavor-1
+  title_zh: 尚书日记注经
+  summary_zh: 以蔡传为宗采旧说补制度名物采金氏通鉴前编考事迹晚年增删与书帷日记参证
+  phases:
+  - key: brewing
+    name: 家世业经为子弟说经
+    labels:
+      zh:
+      - 教授子弟
+      - 羽翼蔡传
+    start_date: '1547'
+    highlight_event_id: guji-王樵-event-jinshi
+  - key: breakthrough
+    name: 山东乞归劄记成帙
+    labels:
+      zh:
+      - 劄记自验
+      - 采补旧说
+    start_date: '1575'
+    highlight_event_id: guji-王樵-event-retire
+  - key: climax
+    name: 万历乙未编次作序
+    labels:
+      zh:
+      - 编次成书
+      - 斟酌古今
+    start_date: '1595-03-01'
+    highlight_event_id: guji-王樵-event-shangshu
+  - key: closure
+    name: 晚年增删别记附入
+    labels:
+      zh:
+      - 手自增删
+      - 书帷参证
+    start_date: '1596'
+    highlight_event_id: guji-王樵-event-shangshu
+  decisions:
+  - date: '1575'
+    title_zh: 山东乞归后专意劄记
+    rationale: 使人如见庶有所入不为空言故以日记自验所进
+  - date: '1595-03-01'
+    title_zh: 定以蔡传为宗兼采众说
+    rationale: 讨论贵求其是采辑不厌于广折衷精当以发明经义切己可用
+- id: guji-王樵-endeavor-2
+  title_zh: 入仕历官至南右都御史
+  summary_zh: 嘉靖丁未进士历官中外以恭简持身晚归讲学经世致用谥恭简
+  phases:
+  - key: brewing
+    name: 登第入仕
+    labels:
+      zh:
+      - 丁未进士
+      - 初入仕途
+    start_date: '1547'
+    highlight_event_id: guji-王樵-event-jinshi
+  - key: breakthrough
+    name: 外任山东乞归
+    labels:
+      zh:
+      - 外任历练
+      - 乞归讲学
+    start_date: '1575'
+    highlight_event_id: guji-王樵-event-retire
+  - key: climax
+    name: 官至南京右都御史
+    labels:
+      zh:
+      - 南都风宪
+      - 恭简持身
+    start_date: '1590'
+    highlight_event_id: guji-王樵-event-governor
+  - key: closure
+    name: 致仕归老谥恭简
+    labels:
+      zh:
+      - 致仕归里
+      - 身后易名
+    start_date: '1599'
+    highlight_event_id: guji-王樵-event-death
+  decisions:
+  - date: '1575'
+    title_zh: 山东任上乞归养志著书
+    rationale: 居千载之下可仰而求有不求未有求而无得者故归而求之
+  - date: '1590'
+    title_zh: 以经术持风宪不废讲授
+    rationale: 修齐治平本于敬明以经中之义理通当世之政事故达顺而守正
+events:
+- id: guji-王樵-event-birth
+  date: '1524'
+  year_of: 1524
+  title_zh: 生于直隶金坛
+  description_zh: 王樵生于金坛家世业尚书经自幼习闻
+  endeavor_ref: guji-王樵-endeavor-2
+- id: guji-王樵-event-jinshi
+  date: '1547'
+  year_of: 1547
+  title_zh: 嘉靖丁未进士及第
+  description_zh: 嘉靖二十六年丁未科登进士第入仕途
+  endeavor_ref: guji-王樵-endeavor-2
+- id: guji-王樵-event-retire
+  date: '1575'
+  year_of: 1575
+  title_zh: 自山东乞归著述
+  description_zh: 自山东乞归时作尚书日记以劄记法自验所进日久成帙
+  endeavor_ref: guji-王樵-endeavor-1
+- id: guji-王樵-event-governor
+  date: '1590'
+  year_of: 1590
+  title_zh: 历官至南京右都御史
+  description_zh: 累迁中外官至南京右都御史以清正恭简闻
+  endeavor_ref: guji-王樵-endeavor-2
+- id: guji-王樵-event-shangshu
+  date: '1595-03-01'
+  year_of: 1595
+  title_zh: 尚书日记编次作序
+  description_zh: 万历乙未春三月编次尚书日记十六卷作原序并列凡例晚年复手自增删以别记附入
+  endeavor_ref: guji-王樵-endeavor-1
+- id: guji-王樵-event-death
+  date: '1599'
+  year_of: 1599
+  title_zh: 卒于家谥恭简
+  description_zh: 卒于金坛里第朝廷谥恭简所著尚书日记及书帷日记并行于世
+  endeavor_ref: guji-王樵-endeavor-2
