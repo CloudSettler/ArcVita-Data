@@ -6,110 +6,127 @@ person:
     en: Lu Ji
   lifespan:
     birth:
-      date: '0250'
-      precision: century
+      date: '0210'
+      precision: year
       is_circa: true
-      raw: 吴郡人，生年不详，约三国中期
+      raw: 约三国吴初生于吴郡
     death:
       date: 0280
-      precision: century
+      precision: year
       is_circa: true
-      raw: 卒年不详，约吴末晋初
-  birth_date: '0250'
+      raw: 约西晋初卒
+  birth_date: '0210'
   death_date: 0280
-  era: 三国吴
-  reign_ref: 孙皓朝前后
-  archetype: 博物经师
+  era: 三国吴至西晋
+  reign_ref: 吴大帝孙权至晋武帝司马炎时
+  archetype: 博物训诂学者
   dilemmas:
-  - 以今草木虫鱼验古诗，古今异名易致传疑
-  - 原书久佚唯赖诗正义辑录，采摭未周易生阙漏
-  lesson: 多识鸟兽草木之名方能通诗，博物考据为经学根基
-  summary_first_person: 吾乃吴郡陆玑，字元恪，曾任吴太子中庶子与乌程令，久察江东草木鸟兽虫鱼，以目验物证毛诗二卷，愿后学因物通经不失古真
+  - 经义空疏与名物失传之困须亲验草木以证诗
+  - 吴亡入晋之际守吴学旧疏不媚新朝
+  lesson: 考诗当以博物实证为本亲见审名方能通经意
+  summary_first_person: 吾生江东习见陂泽草木鸟兽虫鱼之状因毛诗多托物起兴而传注失实遂博采尔雅本草方言亲验形态撰为诗疏二卷以正名物使后之诵诗者有据可依
   source_urls:
-  - https://daizhige.org/儒藏/诗经/毛诗草木鸟兽虫鱼疏.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/诗经/毛诗草木鸟兽虫鱼疏.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E9%99%86%E6%B0%8F%E8%AF%97%E7%96%8F%E5%B9%BF%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E9%99%86%E6%B0%8F%E8%AF%97%E7%96%8F%E5%B9%BF%E8%A6%81.md
 endeavors:
 - id: guji-陆玑-endeavor-1
-  title_zh: 撰毛诗草木鸟兽虫鱼疏二卷
-  description: 以江东见闻与方言物候证毛诗草木鸟兽虫鱼之名
+  title_zh: 撰述毛诗草木鸟兽虫鱼疏
+  summary: 以江东亲见考定诗经名物撰成二卷诗疏
   phases:
   - key: brewing
-    name: 遍察吴地物产
+    name: 江东积累见闻
     labels:
-      zh: 酝酿
-    start_date: '0260'
-    highlight_event_id: guji-陆玑-event-zhongshuzi
+      zh: 蕴酿
+    start_date: '0230'
+    highlight_event_id: guji-陆玑-event-study
   - key: breakthrough
-    name: 出守乌程亲验山泽
+    name: 以尔雅证诗得法
     labels:
       zh: 突破
-    start_date: '0270'
-    highlight_event_id: guji-陆玑-event-wucheng
+    start_date: '0250'
+    highlight_event_id: guji-陆玑-event-shu-complete
   - key: climax
-    name: 以物证诗成疏二卷
+    name: 诗疏二卷流布
     labels:
       zh: 高潮
-    start_date: '0275'
-    highlight_event_id: guji-陆玑-event-compose
+    start_date: '0260'
+    highlight_event_id: guji-陆玑-event-shu-complete
+  - key: closure
+    name: 吴学博物垂范
+    labels:
+      zh: 收束
+    start_date: '0270'
+    highlight_event_id: guji-陆玑-event-shu-complete
   decisions:
-  - date: '0270'
-    title_zh: 以今语方言验古名
-    rationale: 亲见江东荆扬幽兖方言与宫苑种植，可正传闻之失
-  - date: '0275'
-    title_zh: 参合尔雅旧注成疏
-    rationale: 宗樊光旧说，详记形色气味与可食可药之用，使后学因物通诗
+  - date: '0250'
+    title_zh: 决意亲验草木不从空言
+    rationale: 荇菜卷耳芣苢蒌蘩蕨薇苹藻诸物非目验难辨故遍历陂泽山野审形辨味
+  - date: '0260'
+    title_zh: 定以尔雅本草互证体例
+    rationale: 诗传毛郑多略故引尔雅郭注本草方言以定名实使异同有考
 - id: guji-陆玑-endeavor-2
-  title_zh: 出仕吴朝历官中庶子乌程令
-  description: 历吴太子中庶子与乌程令，以官守博览兼察民物
+  title_zh: 守吴学传注以博物化俗
+  summary: 仕吴讲学传授诗经名物之学吴亡后不改旧说
   phases:
   - key: brewing
-    name: 生于吴郡长于江东
+    name: 吴中讲授诗经
     labels:
-      zh: 酝酿
-    start_date: '0250'
-    highlight_event_id: guji-陆玑-event-birth
+      zh: 蕴酿
+    start_date: '0245'
+    highlight_event_id: guji-陆玑-event-study
+  - key: breakthrough
+    name: 正河北相传之误
+    labels:
+      zh: 突破
+    start_date: '0255'
+    highlight_event_id: guji-陆玑-event-correct
   - key: climax
-    name: 出为乌程令守土察物
+    name: 名物之学为人所宗
     labels:
       zh: 高潮
-    start_date: '0270'
-    highlight_event_id: guji-陆玑-event-wucheng
+    start_date: '0265'
+    highlight_event_id: guji-陆玑-event-correct
   - key: closure
-    name: 易代之际以述作存身
+    name: 旧疏存于晋世
     labels:
       zh: 收束
     start_date: 0280
     highlight_event_id: guji-陆玑-event-death
   decisions:
-  - date: '0260'
-    title_zh: 就太子中庶子博览经籍
-    rationale: 居宫僚近经籍，便于会通毛诗训诂与博物之学
-  - date: '0270'
-    title_zh: 出守乌程察山泽民物
-    rationale: 乌程吴郡山水饶草木禽鱼，可目验耳闻以补书传阙漏
+  - date: '0255'
+    title_zh: 面斥河北以苋为荇之误
+    rationale: 河北俗不识水荇博士误以参差为苋当据江东所见正之以存经实
+  - date: '0275'
+    title_zh: 吴亡后仍守旧疏不改
+    rationale: 学贵征实不随世变故存吴时所撰二卷以待后之言言征实者
 events:
 - id: guji-陆玑-event-birth
-  title_zh: 出生于吴郡
-  date: 约0250
-  year_of: 250
-  description: 吴郡人，字元恪，生年不详，约三国中期生于江东
-- id: guji-陆玑-event-zhongshuzi
-  title_zh: 任吴太子中庶子
-  date: 约0260
+  title_zh: 生于吴郡
+  date: '0210'
+  year_of: 210
+  place_zh: 吴郡
+  description: 三国吴初生于吴郡生长江东习见水陆草木为后日疏诗奠基
+- id: guji-陆玑-event-study
+  title_zh: 博览尔雅本草考诗名物
+  date: '0245'
+  year_of: 245
+  place_zh: 江东
+  description: 览尔雅郭注毛郑传笺及本草方言采荇菜卷耳芣苢蒌等以亲验参定
+- id: guji-陆玑-event-shu-complete
+  title_zh: 撰成陆氏诗疏二卷
+  date: '0260'
   year_of: 260
-  description: 出仕东吴，为太子中庶子，博览经籍，积累诗学训诂
-- id: guji-陆玑-event-wucheng
-  title_zh: 出任乌程令
-  date: 约0270
-  year_of: 270
-  description: 出守乌程，察吴郡山泽草木鸟兽虫鱼，目验物候方言
-- id: guji-陆玑-event-compose
-  title_zh: 撰成毛诗草木鸟兽虫鱼疏二卷
-  date: 约0275
-  year_of: 275
-  description: 以所见所闻证毛诗，记形色气味功用，成疏二卷，后为诗正义全用
+  place_zh: 吴地
+  description: 考毛诗草木鸟兽虫鱼撰成二卷每卷又分二子卷详荇菜参差卷耳苍耳芣苢车前之属
+- id: guji-陆玑-event-correct
+  title_zh: 辨正相传名物讹误
+  date: '0265'
+  year_of: 265
+  place_zh: 江东
+  description: 正河北以苋为荇以紫綦为蕨以木李为芣苢等误别苹萍之异藻之沉浮匏瓠之甘苦
 - id: guji-陆玑-event-death
-  title_zh: 卒于吴末晋初之际
-  date: 约0280
+  title_zh: 卒于西晋初
+  date: 0280
   year_of: 280
-  description: 卒年不详，原书久佚，后人多从诗正义中辑出，犹为最古博物经说
+  place_zh: 吴地
+  description: 历吴亡入晋后卒旧疏二卷流传后世明毛晋广为四卷广要言言征实

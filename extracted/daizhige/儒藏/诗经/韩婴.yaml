@@ -1,0 +1,148 @@
+person:
+  qid: guji-韩婴
+  name_zh: 韩婴
+  names:
+    zh: 韩婴
+    en: Han Ying
+  lifespan:
+    birth:
+      date: '-200'
+      precision: year
+      is_circa: true
+      raw: 约公元前二百年燕地
+    death:
+      date: '-130'
+      precision: year
+      is_circa: true
+      raw: 约公元前一百三十年
+  birth_date: '-200'
+  death_date: '-130'
+  era: 西汉
+  reign_ref: 汉文帝至汉景帝
+  archetype: 守经传道之经师
+  dilemmas:
+  - 守古训与合时用之间如何取舍
+  - 事君谏王与保身传学之间如何两全
+  lesson: 推诗明义以养性化人，不择地而守道，不降志而辱身
+  summary_first_person: 吾韩婴，燕人也，少治诗，文帝朝为博士，景帝朝傅常山王，推诗之意作内外传以明风谏，愿以礼义化天下
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E9%9F%A9%E8%AF%97%E5%A4%96%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E9%9F%A9%E8%AF%97%E5%A4%96%E4%BC%A0.md
+endeavors:
+- id: guji-韩婴-endeavor-1
+  name_zh: 文帝朝为博士传韩诗
+  summary: 燕地治诗入长安，列于博士，明诗训以教化公卿弟子，开韩诗一派
+  phases:
+  - key: brewing
+    name: 燕地治诗
+    labels:
+      zh:
+      - 治经
+      - 养志
+    start_date: '-195'
+    highlight_event_id: guji-韩婴-event-birth
+  - key: breakthrough
+    name: 召为博士
+    labels:
+      zh:
+      - 立学
+      - 授徒
+    start_date: '-180'
+    highlight_event_id: guji-韩婴-event-boshi
+  - key: climax
+    name: 韩诗名家
+    labels:
+      zh:
+      - 传经
+      - 化人
+    start_date: '-170'
+    highlight_event_id: guji-韩婴-event-boshi
+  - key: closure
+    name: 学成传系
+    labels:
+      zh:
+      - 守正
+      - 延续
+    start_date: '-160'
+    highlight_event_id: guji-韩婴-event-boshi
+  decisions:
+  - date: '-180'
+    title_zh: 应召入朝为博士
+    rationale: 家贫亲老不择官而仕，以礼义显功名，不以利害易其守
+  - date: '-170'
+    title_zh: 专明韩诗以授弟子
+    rationale: 信礼由义则达，不由礼则乱，故以诗切磋孝悌忠信之道
+- id: guji-韩婴-endeavor-2
+  name_zh: 傅常山王著诗内外传
+  summary: 景帝朝傅常山王，匡正辅导，推诗之意著内外传，讽谏君臣以存顺去逆
+  phases:
+  - key: brewing
+    name: 受命傅王
+    labels:
+      zh:
+      - 辅导
+      - 匡正
+    start_date: '-145'
+    highlight_event_id: guji-韩婴-event-fuwang
+  - key: breakthrough
+    name: 以诗谏王
+    labels:
+      zh:
+      - 讽谏
+      - 存顺
+    start_date: '-143'
+    highlight_event_id: guji-韩婴-event-fuwang
+  - key: climax
+    name: 撰述内外传
+    labels:
+      zh:
+      - 著述
+      - 明义
+    start_date: '-140'
+    highlight_event_id: guji-韩婴-event-zhushu
+  - key: closure
+    name: 外传流布天下
+    labels:
+      zh:
+      - 立言
+      - 垂后
+    start_date: '-135'
+    highlight_event_id: guji-韩婴-event-zhushu
+  decisions:
+  - date: '-145'
+    title_zh: 就任常山王太傅
+    rationale: 任重道远不择地而息，以忠信扶君，以礼义正国
+  - date: '-140'
+    title_zh: 推诗意作内外传
+    rationale: 举忠举信举廉以显名教，假风谣比兴以绝无道防淫佚
+events:
+- id: guji-韩婴-event-birth
+  title_zh: 生于燕地
+  date: '-200'
+  year_of: -200
+  kind: birth
+  description: 约汉初生于燕，少治诗，长于礼义之学
+- id: guji-韩婴-event-boshi
+  title_zh: 文帝朝为博士
+  date: '-180'
+  year_of: -180
+  kind: 任官
+  description: 孝文时为博士，传韩诗，弟子众多，韩诗遂列于学官
+- id: guji-韩婴-event-fuwang
+  title_zh: 景帝朝傅常山王
+  date: '-145'
+  year_of: -145
+  kind: 辅导
+  description: 孝景时为常山王太傅，以诗书礼义辅导匡正，务存顺诛逆之义
+- id: guji-韩婴-event-zhushu
+  title_zh: 著韩诗内外传
+  date: '-140'
+  year_of: -140
+  kind: 著述
+  description: 推诗之意作内外传数万言，采古事风谣以明诗，淮南王亦嗜之
+- id: guji-韩婴-event-death
+  title_zh: 卒于汉
+  date: '-130'
+  year_of: -130
+  kind: death
+  description: 晚年卒，韩诗之学传于后世，外传十卷流传以化人
