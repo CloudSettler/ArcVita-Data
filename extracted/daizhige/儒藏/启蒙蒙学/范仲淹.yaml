@@ -1,0 +1,127 @@
+person:
+  qid: guji-范仲淹
+  name_zh: 范仲淹
+  names:
+    zh: 范仲淹
+    en: Fan Zhongyan
+  lifespan:
+    birth:
+      date: 0989-08-29
+      precision: day
+      is_circa: false
+      raw: 宋太宗端拱二年七月二十九日
+    death:
+      date: 1052-05-20
+      precision: day
+      is_circa: false
+      raw: 宋仁宗皇祐四年四月二十九日
+  birth_date: 0989-08-29
+  death_date: 1052-05-20
+  era: 北宋
+  reign_ref: 宋仁宗庆历
+  archetype: 勤学忧乐名臣
+  dilemmas:
+  - 刻苦自厉与家贫亲老之艰
+  - 先忧后乐与贬谪阻力之难
+  lesson: 少时帐顶灯烟以勤学立身，终身以先忧后乐经世报国
+  summary_first_person: 我少时多延贤士昼夜肄业帐中，灯烟熏黑帐顶，后以勤学登第，愿以先忧后乐之志报国利民
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E8%AF%BB%E4%B9%A6%E8%AE%AD.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E8%AF%BB%E4%B9%A6%E8%AE%AD.md
+endeavors:
+- id: guji-范仲淹-endeavor-1
+  title_zh: 应天苦读立志
+  summary: 延胡瑗孙复石介李觏为友，昼夜肄业，帐顶熏墨
+  phases:
+  - key: brewing
+    name: 延贤结友
+    labels:
+      zh: 立志亲贤
+    start_date: 1002-01-01
+    highlight_event_id: guji-范仲淹-event-study
+  - key: breakthrough
+    name: 昼夜肄业
+    labels:
+      zh: 勤学不寝
+    start_date: 1004-01-01
+    highlight_event_id: guji-范仲淹-event-study
+  - key: climax
+    name: 帐顶如墨
+    labels:
+      zh: 灯烟见志
+    start_date: 1007-01-01
+    highlight_event_id: guji-范仲淹-event-study
+  - key: closure
+    name: 登第入仕
+    labels:
+      zh: 学成致用
+    start_date: 1015-03-01
+    highlight_event_id: guji-范仲淹-event-jinshi
+  decisions:
+  - date: 1004-01-01
+    title_zh: 延贤士夜读不寝
+    rationale: 以贤友砥砺学业，昼夜肄业以补家贫之不足
+  - date: 1015-03-01
+    title_zh: 应举登进士第
+    rationale: 以所学求用于世，由苦读转向经世
+- id: guji-范仲淹-endeavor-2
+  title_zh: 庆历经世忧乐
+  summary: 以先忧后乐自任，兴学变法，虽贬不改其志
+  phases:
+  - key: brewing
+    name: 历州任事
+    labels:
+      zh: 积累政声
+    start_date: 1015-03-01
+    highlight_event_id: guji-范仲淹-event-jinshi
+  - key: breakthrough
+    name: 上书言事
+    labels:
+      zh: 直言进谏
+    start_date: 1043-09-01
+    highlight_event_id: guji-范仲淹-event-xinzheng
+  - key: climax
+    name: 庆历新政
+    labels:
+      zh: 革新图治
+    start_date: 1043-10-01
+    highlight_event_id: guji-范仲淹-event-xinzheng
+  - key: closure
+    name: 贬谪守边作记
+    labels:
+      zh: 忧乐不渝
+    start_date: 1045-01-01
+    highlight_event_id: guji-范仲淹-event-xinzheng
+  decisions:
+  - date: 1043-09-01
+    title_zh: 陈十事行新政
+    rationale: 以平生勤学所得救时弊，虽触旧党不避
+  - date: 1045-01-01
+    title_zh: 贬谪而不改忧乐之志
+    rationale: 处江湖庙堂皆忧国爱民，以文章明先忧后乐之道
+events:
+- id: guji-范仲淹-event-birth
+  date: 0989-08-29
+  year_of: 989
+  title_zh: 生于徐州
+  description: 宋太宗端拱二年生于徐州范氏，后随母长于长山
+- id: guji-范仲淹-event-study
+  date: 1004-01-01
+  year_of: 1004
+  title_zh: 昼夜肄业帐顶如墨
+  description: 少时多延胡瑗孙复石介李觏之徒与游，昼夜肄业帐中夜分不寝，夫人收帐顶如墨色以示诸子
+- id: guji-范仲淹-event-jinshi
+  date: 1015-03-01
+  year_of: 1015
+  title_zh: 登进士第入仕
+  description: 大中祥符八年登进士第，由勤学转入仕途经世
+- id: guji-范仲淹-event-xinzheng
+  date: 1043-09-01
+  year_of: 1043
+  title_zh: 主持庆历新政
+  description: 庆历三年参知政事陈十事兴学变法，后贬谪仍持先忧后乐之志
+- id: guji-范仲淹-event-death
+  date: 1052-05-20
+  year_of: 1052
+  title_zh: 卒于徐州谥文正
+  description: 皇祐四年病卒于徐州，谥文正，世称范文正公
