@@ -6,155 +6,122 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
+      date: 386
       precision: year
       is_circa: false
       raw: 隋仁寿二年
     death:
-      date: '0664-02-05'
+      date: 0664-02-05
       precision: day
       is_circa: false
-      raw: 唐高宗麟德元年
-  birth_date: '0602'
-  death_date: '0664-02-05'
-  era: 唐代
+      raw: 麟德元年二月五日
+  birth_date: 386
+  death_date: 0664-02-05
+  era: 唐
   reign_ref: 贞观至麟德
   archetype: 西行求法译经高僧
   dilemmas:
-  - 为法忘躯远涉流沙弱水与安住中土之抉择
-  - 默持心要自保行途与译显流通利他之抉择
-  lesson: 至诚受持般若心要能化厄为祥，依教而行必超觉际
-  summary_first_person: 我是玄奘，为求正法远游天竺，途中蒙观自在授以三世诸佛心要，赖此保全行途，取经还唐，译传流通，以报佛恩
+  - 负违诏出关之罪而坚持西行求法
+  - 面对梵本浩瀚而抉择全译大般若以正法眼
+  lesson: 弘法当以求真为本译经当以全正为要
+  summary_first_person: 吾幼慕法门西行十七载求梵本归唐奉诏译大般若六百卷愿以般若慧光普照群生
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%94%90%E6%A2%B5%E9%A3%9C%E5%AF%B9%E5%AD%97%E9%9F%B3%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E5%BF%83%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%94%90%E6%A2%B5%E9%A3%9C%E5%AF%B9%E5%AD%97%E9%9F%B3%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E5%BF%83%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%A4%A7%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E7%BB%8F.html
+  - https://zh.wikisource.org/wiki/%E5%A4%A7%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BE%85%E8%9C%9C%E5%A4%9A%E7%B6%93
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西天求法保全行途
-  summary: 益州遇疾僧受三世诸佛心要，途中持诵化险为夷，抵那烂陀再遇显圣为观音
+  title_zh: 西行天竺求法取经
+  summary_zh: 自长安私出玉门遍历西域天竺学戒学瑜伽取梵本而归
   phases:
   - key: brewing
-    name: 益州空慧寺遇僧授法
+    name: 长安究学萌西行志
     labels:
-      zh:
-      - 发愿西行
-      - 口授心要
-    start_date: 0629
-    highlight_event_id: guji-玄奘-event-meet-monk
+      zh: 酿志
+    start_date: 0618
+    highlight_event_id: guji-玄奘-event-xixing
   - key: breakthrough
-    name: 流沙雪岭持诵得护
+    name: 偷渡玉门出西域
     labels:
-      zh:
-      - 持诵感应
-      - 化人指路
-    start_date: '0630'
-    highlight_event_id: guji-玄奘-event-chant-protect
+      zh: 破关
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 那烂陀旋绕经藏显圣
+    name: 那烂陀学法取瑜伽
     labels:
-      zh:
-      - 再遇前僧
-      - 显为观音
-    start_date: '0643'
-    highlight_event_id: guji-玄奘-event-nalanda-vision
+      zh: 取经
+    start_date: 414
+    highlight_event_id: guji-玄奘-event-huigui
   - key: closure
-    name: 取经圆满验证功验
+    name: 负经东归抵长安
     labels:
-      zh:
-      - 取经
-      - 验证
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-return
+      zh: 归国
+    start_date: 421
+    highlight_event_id: guji-玄奘-event-huigui
   decisions:
   - date: 0629
-    title_zh: 受持心要决意西行
-    rationale: 虽五天路远艰险，为法忘躯，受持心要以保来往
-  - date: '0630'
-    title_zh: 厄难当头虔诵四十九遍
-    rationale: 失路思食皆诚祈持诵，仗此获得指引与供养
+    title_zh: 违诏私行出关
+    rationale: 中土经阙义舛唯西行亲证方可决疑故冒禁偷渡
+  - date: 421
+    title_zh: 携梵本归唐受诏译经
+    rationale: 求法为传法归国弘宣方能利众故应诏入弘福寺译场
 - id: guji-玄奘-endeavor-2
-  title_zh: 译传般若心经
-  summary: 还唐译出梵本心经，亲授观自在所传本，流通受持以超觉际
+  title_zh: 奉诏译大般若波罗蜜多经
+  summary_zh: 于玉华宫等处历四年译出大般若六百卷总摄十六会般若要义
   phases:
   - key: brewing
-    name: 携梵本还唐
+    name: 设译场理梵本定例
     labels:
-      zh:
-      - 携经
-      - 还国
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-return
+      zh: 筹译
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-huigui
   - key: breakthrough
-    name: 译出般若多心经
+    name: 玉华宫开译大般若初会
     labels:
-      zh:
-      - 翻译
-      - 传授
-    start_date: 0649
-    highlight_event_id: guji-玄奘-event-translate-heart-sutra
+      zh: 开译
+    start_date: 432
+    highlight_event_id: guji-玄奘-event-yijing
   - key: climax
-    name: 弘传受持功验
+    name: 鹫峰瑞相显般若正说
     labels:
-      zh:
-      - 弘传
-      - 持诵
-    start_date: '0650'
-    highlight_event_id: guji-玄奘-event-translate-heart-sutra
+      zh: 正说
+    start_date: 434
+    highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 示寂留法
+    name: 六百卷竟成就全宝
     labels:
-      zh:
-      - 圆寂
-      - 留法
-    start_date: '0664-02-05'
-    highlight_event_id: guji-玄奘-event-death
+      zh: 成典
+    start_date: 435
+    highlight_event_id: guji-玄奘-event-yijing
   decisions:
-  - date: 0649
-    title_zh: 直译梵本不加润色
-    rationale: 尊重观自在亲授原本，保持对音忠实以存圣枢
-  - date: '0650'
-    title_zh: 劝人虔诚受持勤行
-    rationale: 信般若为圣枢，能销三障超觉际，须体理勤修
+  - date: 432
+    title_zh: 先译大般若全本不删削
+    rationale: 般若为诸分之本前古未传若裁削则伤手故必全译以握全宝
+  - date: 435
+    title_zh: 以玉华终卷付嘱门人传持
+    rationale: 身老病侵恐无常至故速竟大经以了弘愿
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 诞生
-  date: '0602'
+  date: 386
   year_of: 602
-  place: 洛州缑氏
-  description: 隋仁寿二年生于洛州缑氏，后出家号玄奘
-- id: guji-玄奘-event-meet-monk
-  title_zh: 益州空慧寺遇疾僧授三世诸佛心要
+  title_zh: 诞生于洛州缑氏
+  description_zh: 隋仁寿二年生姓陈氏幼聪慧早慕佛法
+- id: guji-玄奘-event-xixing
   date: 0629
   year_of: 629
-  place: 益州空慧寺道场
-  description: 西行路次益州宿空慧寺，遇疾僧问行止，口授三世诸佛心要法门，至晓失其僧
-- id: guji-玄奘-event-chant-protect
-  title_zh: 途中持诵四十九遍化险为夷
-  date: '0630'
-  year_of: 630
-  place: 流沙雪岭葱岭鹫峰道中
-  description: 途经厄难失路思食之时忆念持诵四十九遍，即得化人指引现珍馐供养，皆获护佑
-- id: guji-玄奘-event-nalanda-vision
-  title_zh: 那烂陀寺再遇前僧显为观音
-  date: '0643'
-  year_of: 643
-  place: 中天竺磨竭陀国那烂陀寺经藏
-  description: 旋绕经藏再见前僧，相谓赖支那所传心要保全行途，取经满愿，自言是观音菩萨，言讫冲空
-- id: guji-玄奘-event-return
-  title_zh: 取经还唐
-  date: '0645'
+  title_zh: 自长安西行出玉门
+  description_zh: 贞观三年私出长安偷渡玉门遍历高昌龟兹赴天竺求法
+- id: guji-玄奘-event-huigui
+  date: 421
   year_of: 645
-  place: 长安
-  description: 经历艰险取经还唐，验证心要法门至验，为般若圣枢
-- id: guji-玄奘-event-translate-heart-sutra
-  title_zh: 译出般若波罗蜜多心经
-  date: 0649
-  year_of: 649
-  place: 长安
-  description: 以观自在亲授梵本译出心经，不加润色，劝人虔诚受持以销三障超觉际
+  title_zh: 携梵本归抵长安
+  description_zh: 贞观十九年归国献梵本六百余部太宗敕住弘福寺翻译
+- id: guji-玄奘-event-yijing
+  date: 432
+  year_of: 660
+  title_zh: 于玉华宫译大般若经
+  description_zh: 显庆五年起于玉华宫寺历四年译出大般若波罗蜜多经六百卷八十五品说鹫峰缘起放光现瑞
 - id: guji-玄奘-event-death
-  title_zh: 示寂
-  date: '0664-02-05'
+  date: 0664-02-05
   year_of: 664
-  place: 长安玉华宫
-  description: 唐高宗麟德元年寂于玉华宫，世寿六十三，一生以译传正法为业
+  title_zh: 示寂于玉华宫
+  description_zh: 麟德元年二月五日寂 translation功成遗嘱薄葬高宗哀悼罢朝
