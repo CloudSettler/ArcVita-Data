@@ -1,0 +1,146 @@
+person:
+  qid: guji-王堉
+  name_zh: 王堉
+  names:
+    zh: 王堉
+    en: Wang Yu
+  lifespan:
+    birth:
+      date: 1820-01-01
+      precision: year
+      is_circa: true
+      raw: 清嘉庆末约生
+    death:
+      date: 1870-01-01
+      precision: year
+      is_circa: true
+      raw: 清同治后卒年不详
+  birth_date: 1820-01-01
+  death_date: 1870-01-01
+  era: 清
+  reign_ref: 道光咸丰
+  archetype: 儒医
+  dilemmas:
+  - 博览群书与执一取方之困
+  - 寒热虚实补泻真假难辨之困
+  - 畏药如毒不敢峻下之困
+  lesson: 辨证求本壮水制阳健脾化痰不执成见方能活人
+  summary_first_person: 余少读内经仲景及河间东垣丹溪四大家言又熟钦定医宗金鉴在京供职之暇为人诊视务究虚实寒热之本不拘一方以活人为心晚辑平生验案为醉花窗医案以戒后学执一之误
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/醉花窗医案.md
+  - https://daizhige.org/医藏/醉花窗医案.html
+endeavors:
+- id: guji-王堉-endeavor-1
+  title_zh: 汇通诸家著论明医道
+  summary_zh: 熟读内经仲景四大家及金鉴论医书得失立辨证求本之旨
+  phases:
+  - key: brewing
+    name: 熟读内经金鉴博极群书
+    labels:
+      zh: 酝酿
+    start_date: 1820-01-01
+    highlight_event_id: guji-王堉-event-birth
+  - key: breakthrough
+    name: 论文四大家得失正源穷变
+    labels:
+      zh: 突破
+    start_date: 1840-01-01
+    highlight_event_id: guji-王堉-event-book
+  - key: climax
+    name: 书论垂训戒执一求方
+    labels:
+      zh: 高潮
+    start_date: 1860-01-01
+    highlight_event_id: guji-王堉-event-book
+  - key: closure
+    name: 辑验案成醉花窗医案
+    labels:
+      zh: 收束
+    start_date: 1862-01-01
+    highlight_event_id: guji-王堉-event-book
+  decisions:
+  - date: 1840-01-01
+    title_zh: 本仲景参河间法东垣遵丹溪
+    rationale: 卷帙浩繁须正源穷变兼集众长方能左右逢源得意忘言
+  - date: 1862-01-01
+    title_zh: 辑亲验诸案以示后学
+    rationale: 见乡人执寿世保元景岳类经而胸无头绪手下歧误故录实案以明虚实寒热
+- id: guji-王堉-endeavor-2
+  title_zh: 京师临床辨证活人
+  summary_zh: 在京供职行医以脉证合参治痰结阴虚脾虚等危重宿疾多获奇效
+  phases:
+  - key: brewing
+    name: 初诊目痛阴热悟虚实
+    labels:
+      zh: 酝酿
+    start_date: 1844-06-01
+    highlight_event_id: guji-王堉-event-yinre-mutong
+  - key: breakthrough
+    name: 碾石滚痰愈杨星臣宿喘
+    labels:
+      zh: 突破
+    start_date: 1846-01-01
+    highlight_event_id: guji-王堉-event-tanjie-chuan
+  - key: climax
+    name: 健脾化痰愈相国头晕臂痛
+    labels:
+      zh: 高潮
+    start_date: 1850-01-01
+    highlight_event_id: guji-王堉-event-pishi-tanyun
+  - key: closure
+    name: 四君提气通便悟塞因寒用
+    labels:
+      zh: 收束
+    start_date: 1852-06-01
+    highlight_event_id: guji-王堉-event-pixu-bianbi
+  decisions:
+  - date: 1846-01-01
+    title_zh: 用礞石滚痰丸下顽痰
+    rationale: 右寸关坚凝而滑为痰结肺胃汤剂难疗畏如砒毒者误也先贤留方必有深意
+  - date: 1850-01-01
+    title_zh: 用香砂六君燥湿祛痰治晕
+    rationale: 脉右滑缓带弦脾湿停痰治痰不理脾胃非其治也健脾则痰消晕止
+  - date: 1852-06-01
+    title_zh: 重用潞参以四君平胃通便
+    rationale: 六脉微弱右关尤甚为脾虚失运依塞因寒用以提中气而转运自复
+events:
+- id: guji-王堉-event-birth
+  title_zh: 出生
+  date: 1820-01-01
+  year_of: 1820
+  description_zh: 生于清嘉庆末少习儒业兼通医理后在京供职
+- id: guji-王堉-event-yinre-mutong
+  title_zh: 治郭鹤轩阴热目痛
+  date: 1844-06-01
+  year_of: 1844
+  description_zh: 甲辰夏郭昌年自用黄连栀菊而剧诊沉数细弱黑珠起红点断为阴虚血热郁肝以杞菊地黄易生地三服而愈并论眼疾内外虚实之分
+- id: guji-王堉-event-tanjie-chuan
+  title_zh: 治杨星臣痰结肺胃咳喘晕绝
+  date: 1846-03-01
+  year_of: 1846
+  description_zh: 杨星臣喘咳廿年服滋补罔效诊右寸关坚凝而滑断为顽痰结肺胃以礞石滚痰丸三钱下黑秽数碗宿疾若失雪阴亏不白之冤
+- id: guji-王堉-event-yinxu-fare
+  title_zh: 治星槎女阴虚内热身面皆赤
+  date: 1835-06-01
+  year_of: 1835
+  description_zh: 乙卯夏侍御女发热身面皆赤众作瘟疫暑郁实火治不效问知午后转甚眼黑耳鸣口干断为阴虚内热以大剂归芍地黄加生地蝉蜕二服而愈
+- id: guji-王堉-event-pishi-tanyun
+  title_zh: 治祁寿阳相国脾湿痰晕
+  date: 1850-08-01
+  year_of: 1850
+  description_zh: 相国头晕呕逆旋转久服参芪不去诊右滑缓带弦左寸独虚断为脾湿停痰以香砂六君加益智泽泻五服晕除后又以羌活胜湿治其冒风臂痛三进而安
+- id: guji-王堉-event-pixu-bianbi
+  title_zh: 治薛鹤亭夫人脾虚便闭
+  date: 1852-06-01
+  year_of: 1852
+  description_zh: 甲寅夏夫人便闭投承气火麻平胃不效诊六脉微弱右关尤甚断为脾虚失运以四君平胃重用潞参一两一服即通释塞因寒用之义
+- id: guji-王堉-event-book
+  title_zh: 辑成醉花窗医案
+  date: 1862-01-01
+  year_of: 1862
+  description_zh: 录书论及阴热痰结脾湿脾劳疟痧霍乱食积等验案成醉花窗医案以明辨证活人之旨
+- id: guji-王堉-event-death
+  title_zh: 去世
+  date: 1870-01-01
+  year_of: 1870
+  description_zh: 内艰归家后与旧交函札往来卒年不详后世以医案传其学

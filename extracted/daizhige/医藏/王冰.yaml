@@ -6,127 +6,143 @@ person:
     en: Wang Bing
   lifespan:
     birth:
-      date: '0710'
+      date: 0710-01-01
       precision: year
       is_circa: true
-      raw: 约唐开元前后
+      raw: 唐开元年间约七一零年生
     death:
-      date: 0804
+      date: 0805-01-01
       precision: year
       is_circa: true
-      raw: 约唐贞元末前后
-  birth_date: '0710'
-  death_date: 0804
-  era: 唐代
-  reign_ref: 唐玄宗至唐德宗宝应宝历间
-  archetype: 栖道注经之医者
+      raw: 唐贞元末约八零五年卒
+  birth_date: 0710-01-01
+  death_date: 0805-01-01
+  era: 唐
+  reign_ref: 宝应
+  archetype: 注经传道型医家
   dilemmas:
-  - 少精儒业而忧短景无依欲究真筌而虑流年不久
-  - 得玄珠密授百年一人之诫逢志求无人不敢隐没圣言亦不敢妄泄
-  lesson: 顺五行六气之化则延生逆罚夭之机则早亡医者当执天行补弱罚强以全正祛邪
-  summary_first_person: 余少精吾道后退志休儒栖心至道得遇玄珠子而师事之自号启玄子直书密语五本藏于五岳以待志求奇人能顺大五行六气者可尽天年
+  - 世本纰缪篇目重迭若不厘正则至道晻昧难行若妄改则混淆圣旨获罪先圣
+  - 师氏秘藏第七一卷若私匿则绝彼师资若公传则恐散于末学难全师意
+  lesson: 敬畏圣经以朱墨别今古以考据定去取方能使至道流行而徽音累属
+  summary_first_person: 余弱龄慕道夙好养生幸遇真经而世本重迭文义悬隔乃精勤博访历十二年于郭子斋堂得先师张公秘本群疑冰释遂朱书次注合八十一篇二十四卷别撰玄珠以畅其道愿工徒勿误学者惟明俾寿域同跻
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/素问六气玄珠密语.md
-  - https://daizhige.org/医藏/素问六气玄珠密语.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%87%8D%E5%B9%BF%E8%A1%A5%E6%B3%A8%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E7%B4%A0%E9%97%AE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%87%8D%E5%B9%BF%E8%A1%A5%E6%B3%A8%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E7%B4%A0%E9%97%AE.md
 endeavors:
 - id: guji-王冰-endeavor-1
-  title_zh: 校次注解黄帝内经素问
-  summary: 栖心道要博求古本以运气补正素问次注二十四卷上进朝廷使隐奥之言直申于世
+  title_zh: 次注素问补合八十一篇
+  summary: 历十二年博访参详以张公秘本为据辨重出并吞错简朱书加字补第七亡卷勒成二十四卷以传不朽
   phases:
   - key: brewing
-    name: 休儒栖道博访真筌
+    name: 博访稽考辨乱
     labels:
-      zh: 则天后退志求道
-    start_date: '0740'
-    highlight_event_id: guji-王冰-event-seek-dao
+      zh:
+      - 访书
+      - 考订
+    start_date: 0750-01-01
+    highlight_event_id: guji-王冰-event-birth
   - key: breakthrough
-    name: 考校素问订补亡篇
+    name: 得秘本群疑释
     labels:
-      zh: 宝应间进素问注
-    start_date: '0762'
-    highlight_event_id: guji-王冰-event-annotate-suwen
+      zh:
+      - 得本
+      - 参详
+    start_date: 0760-01-01
+    highlight_event_id: guji-王冰-event-secret
   - key: climax
-    name: 以运气七篇发明经旨
+    name: 朱书次注成编
     labels:
-      zh: 发明天元纪等大论
-    start_date: '0762'
-    highlight_event_id: guji-王冰-event-annotate-suwen
+      zh:
+      - 次注
+      - 朱书
+    start_date: 0761-01-01
+    highlight_event_id: guji-王冰-event-complete
   - key: closure
-    name: 素问注行于天下
+    name: 宝应作序付传
     labels:
-      zh: 启玄注本独行
-    start_date: 0780
-    highlight_event_id: guji-王冰-event-xuanzhu-miyu
+      zh:
+      - 作序
+      - 传世
+    start_date: 0762-01-01
+    highlight_event_id: guji-王冰-event-complete
   decisions:
-  - date: '0762'
-    title_zh: 表进重广补注素问
-    rationale: 惧圣言隐没经文错简故补亡篇发明运气以资群生
-  - date: 0780
-    title_zh: 守玄珠之诫不妄传经外密旨
-    rationale: 师诫百年授一人非奇人不可轻授故别为密语以待后人
+  - date: 0760-01-01
+    title_zh: 以张公秘本参详群经
+    rationale: 文字昭晰义理环周群疑冰释须以秘本为准不敢臆断以全其真
+  - date: 0762-01-01
+    title_zh: 凡加字皆朱书以别今古
+    rationale: 使今古必分字不杂糅以存三皇遗文旧貌昭彰圣旨而不混后学
 - id: guji-王冰-endeavor-2
-  title_zh: 撰述素问六气玄珠密语
-  summary: 承玄珠子口授直书五本每本十卷论五运元通迎随补泻以明天生天杀延生逃杀之道
+  title_zh: 别撰玄珠阐发运气至道
+  summary: 以经文辞理秘密难粗论述乃别撰玄珠以陈其道兼明运气养生以济羸劣而拯黎元
   phases:
   - key: brewing
-    name: 师事玄珠渐穷渊源
+    name: 研精探微索隐
     labels:
-      zh: 数年未敢询太玄
-    start_date: '0750'
-    highlight_event_id: guji-王冰-event-seek-dao
+      zh:
+      - 养生
+      - 研经
+    start_date: 0755-01-01
+    highlight_event_id: guji-王冰-event-secret
   - key: breakthrough
-    name: 得授百年一人妙旨
+    name: 悟天人阴阳纲纪
     labels:
-      zh: 启问玄珠自号启玄
-    start_date: '0760'
-    highlight_event_id: guji-王冰-event-seek-dao
+      zh:
+      - 阴阳
+      - 运气
+    start_date: 0761-01-01
+    highlight_event_id: guji-王冰-event-complete
   - key: climax
-    name: 直书五本玄珠密语
+    name: 别撰玄珠成帙
     labels:
-      zh: 论运气胜复补泻
-    start_date: '0770'
-    highlight_event_id: guji-王冰-event-xuanzhu-miyu
+      zh:
+      - 著述
+      - 立言
+    start_date: 0762-06-01
+    highlight_event_id: guji-王冰-event-xuanzhu
   - key: closure
-    name: 飨神藏书五岳深洞
+    name: 敷畅玄言惠后
     labels:
-      zh: 待志求者遇之珍重
-    start_date: 0780
-    highlight_event_id: guji-王冰-event-xuanzhu-miyu
+      zh:
+      - 传道
+      - 济世
+    start_date: 0763-01-01
+    highlight_event_id: guji-王冰-event-death
   decisions:
-  - date: '0770'
-    title_zh: 直书密语发明罚强补弱
-    rationale: 素问隐奥难明故以迎取化源针药补泻示人祛邪全正之法
-  - date: 0780
-    title_zh: 藏书五岳先飨山神
-    rationale: 未逢志求之士不敢隐没亦不敢妄传故藏洞以俟奇人
+  - date: 0762-06-01
+    title_zh: 别撰玄珠而不杂经文
+    rationale: 辞理秘密难粗论述若杂入经则乱圣文故别帙以畅玄言而存经体之洁
+  - date: 0762-01-01
+    title_zh: 迁移经论以补脱简而明言补处
+    rationale: 简脱文断义不相接则搜经论所有以补其处量意加字以昭其义不敢隐没使学者寻注会经
 events:
 - id: guji-王冰-event-birth
-  title_zh: 出生于唐
-  date: '0710'
+  title_zh: 出生于唐开元年间
+  date: 0710-01-01
   year_of: 710
-  kind: birth
-  summary: 约唐开元前后生少精儒业三冬九夏不倦
-- id: guji-王冰-event-seek-dao
-  title_zh: 退志休儒师事玄珠子
-  date: '0750'
-  year_of: 750
-  kind: 问道
-  summary: 则天后退志优游栖心至道执志求贤得遇玄珠子渐闻妙旨自号启玄子
-- id: guji-王冰-event-annotate-suwen
-  title_zh: 重广补注素问上进
-  date: '0762'
+  is_circa: true
+  description: 弱龄慕道夙好养生始志于全真导气之学
+- id: guji-王冰-event-secret
+  title_zh: 得先师张公秘本
+  date: 0760-01-01
+  year_of: 760
+  is_circa: true
+  description: 于郭子斋堂受得先师张公秘本文字昭晰义理环周一以参详群疑冰释
+- id: guji-王冰-event-complete
+  title_zh: 宝应元年次注素问成
+  date: 0762-01-01
   year_of: 762
-  kind: 注经
-  summary: 宝应初校次素问二十四卷补亡篇发明五运六气表进朝廷
-- id: guji-王冰-event-xuanzhu-miyu
-  title_zh: 书成玄珠密语藏于五岳
-  date: 0780
-  year_of: 780
-  kind: 著述
-  summary: 直书玄珠密语五本五十卷论运符迎随补泻藏于五岳深洞以待后之志求者
+  is_circa: false
+  description: 合旧藏之卷成八十一篇二十四卷朱书加字分别今古作序于宝应壬寅岁
+- id: guji-王冰-event-xuanzhu
+  title_zh: 别撰玄珠以陈其道
+  date: 0762-06-01
+  year_of: 762
+  is_circa: true
+  description: 以经文秘密难述别撰玄珠敷畅玄言如列宿高悬深泉净滢以宣至理
 - id: guji-王冰-event-death
   title_zh: 逝世
-  date: 0804
-  year_of: 804
-  kind: death
-  summary: 约贞元末殁注本与密语行世后人尊为启玄子
+  date: 0805-01-01
+  year_of: 805
+  is_circa: true
+  description: 身后次注本经嘉祐校正奉为官本重广补注而行于世陶一世之民同跻寿域
