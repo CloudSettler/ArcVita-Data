@@ -8,124 +8,142 @@ person:
     birth:
       date: -551-09-28
       precision: day
-      is_circa: true
-      raw: 魯襄公二十二年
+      is_circa: false
+      raw: 鲁襄公二十二年九月二十八日
     death:
       date: -479-04-11
       precision: day
       is_circa: true
-      raw: 魯哀公十六年
+      raw: 鲁哀公十六年四月十一日
   birth_date: -551-09-28
   death_date: -479-04-11
-  era: 春秋末期
-  reign_ref: 魯定公哀公之世
-  archetype: 立教垂訓之聖人
+  era: 春秋晚期
+  reign_ref: 鲁襄公至鲁哀公
+  archetype: 万世师表之儒宗导师
   dilemmas:
-  - 大道既隱天下為家禮崩樂壞當以何道救世
-  - 禮文品節繁雜眾人執迹昧本如何顯明禮即道一以貫之
-  - 魯郊禘僭禮君臣失序直言則犯時忌隱默則道益晦
-  lesson: 道一以貫禮本於天循禮即可復性天下為公始於正心
-  summary_first_person: 吾生於禮壞之世為魯司寇與於蠟賓喟然歎大道之不行述大同小康之義考夏殷之禮源以明禮本於天道一而已欲使天下後世由禮以復道也
+  - 好学不厌而大道不行，守道待时之困
+  - 事亲尽孝与犯颜谏争之辨
+  - 周游求用与安贫乐道之择
+  lesson: 学以立身，孝以立家，仁以立政，生无所息，阖棺乃止
+  summary_first_person: 吾少而好学，晚而闻道，修成康之道，述周公之训，以教七十子，劝人以终身之学，立身以全归之孝，虽道不行于天下，亦诲人不倦，死而后已
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%85%88%E5%9C%A3%E5%A4%A7%E8%AE%AD.html
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%85%88%E5%9C%A3%E5%A4%A7%E8%AE%AD.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AD%94%E5%AD%90%E9%9B%86%E8%AF%AD.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AD%94%E5%AD%90%E9%9B%86%E8%AF%AD.html
 endeavors:
 - id: guji-孔子-endeavor-1
-  title_zh: 為魯司寇歎禮運明大同小康
+  title_zh: 私学授徒劝学立教
+  summary: 设教于鲁，以诗书礼乐诲弟子，好学不厌，诲人不倦，开平民为学之先
   phases:
   - key: brewing
-    name: 出仕於魯蓄志通道
+    name: 少好学发愤忘食
     labels:
-      zh: 出仕蓄志
-    start_date: -501
-    highlight_event_id: guji-孔子-event-birth
+      zh:
+      - 劝学
+      - 修身
+    start_date: -536-01-01
+    highlight_event_id: guji-孔子-event-teach
   - key: breakthrough
-    name: 與蠟賓出游於觀喟然歎道
+    name: 开私学有教无类
     labels:
-      zh: 蠟賓歎道
-    start_date: -500
-    highlight_event_id: guji-孔子-event-sikou
+      zh:
+      - 授徒
+      - 诲人
+    start_date: -521-01-01
+    highlight_event_id: guji-孔子-event-teach
   - key: climax
-    name: 告子游大同小康禮之大義
+    name: 教成七十贤者并兴
     labels:
-      zh: 明大同義
-    start_date: -499
-    highlight_event_id: guji-孔子-event-lunli
+      zh:
+      - 育才
+      - 传道
+    start_date: -501-01-01
+    highlight_event_id: guji-孔子-event-teach
   - key: closure
-    name: 垂訓定分以禮安君治政
+    name: 晚年删述以教来者
     labels:
-      zh: 垂訓安邦
-    start_date: -498
-    highlight_event_id: guji-孔子-event-lunli
+      zh:
+      - 述作
+      - 遗教
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-compile
   decisions:
-  - date: -500
-    title_zh: 不歎魯而歎道不行
-    rationale: 明吾道一以貫歎道不行非為魯一國之失立大義以正人心
-  - date: -499
-    title_zh: 對子游極言禮本於天
-    rationale: 痛掃疑禮無與天地之惑明禮即道之見於品節使人因禮復性
+  - date: -521-01-01
+    title_zh: 设私学收徒讲学
+    rationale: 以学可以开四方昭诸侯，不论族姓出身，唯以好学立身，遂开万世师表之业
+  - date: -501-01-01
+    title_zh: 以学行并重取弟子
+    rationale: 远有光者饰也，近逾明者学也，故重假物博见，劝子路诸生受学重问以顺成其德
 - id: guji-孔子-endeavor-2
-  title_zh: 之杞之宋觀夏殷考禮本源
+  title_zh: 明孝悌仁政周游传道
+  summary: 述孝本论政，事亲以全归，事君以争臣，周游列国以求仁政之行
   phases:
   - key: brewing
-    name: 欲觀夏殷之道發問徵文獻
+    name: 论孝本立身之始
     labels:
-      zh: 發願觀禮
-    start_date: -498
-    highlight_event_id: guji-孔子-event-sikou
+      zh:
+      - 孝本
+      - 立身
+    start_date: -518-01-01
+    highlight_event_id: guji-孔子-event-travel
   - key: breakthrough
-    name: 之杞得夏時之宋得坤乾
+    name: 周游列国陈仁政
     labels:
-      zh: 杞宋得書
-    start_date: -497
-    highlight_event_id: guji-孔子-event-kaoli
+      zh:
+      - 周游
+      - 论政
+    start_date: -497-01-01
+    highlight_event_id: guji-孔子-event-travel
   - key: climax
-    name: 溯禮始於飲食燔黍抔飲明敬本
+    name: 明争臣之义辨孝贞
     labels:
-      zh: 溯禮之初
-    start_date: -496
-    highlight_event_id: guji-孔子-event-kaoli
+      zh:
+      - 谏争
+      - 臣术
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-compile
   - key: closure
-    name: 參證群記會通天地鬼神為一
+    name: 归鲁系麟书以诏后
     labels:
-      zh: 會通歸一
-    start_date: -495
-    highlight_event_id: guji-孔子-event-lunli
+      zh:
+      - 传道
+      - 守道
+    start_date: -479-01-01
+    highlight_event_id: guji-孔子-event-compile
   decisions:
-  - date: -497
-    title_zh: 之杞之宋求徵而不泥於徵
-    rationale: 文獻不足徵則以義通之以夏時坤乾觀等倫一貫之妙
-  - date: -496
-    title_zh: 尊玄酒薄厚味存古初之敬
-    rationale: 不忘古始以止逐味去道之失使養生送死皆從其朔復本心之敬
+  - date: -497-01-01
+    title_zh: 周游列国不息于行
+    rationale: 知生无所息，阖棺乃止，故虽不用，仍以仁义说诸侯，冀天下有行道之机
+  - date: -484-01-01
+    title_zh: 辨父子君臣从义不从命
+    rationale: 子从父奚子孝，臣从君奚臣贞，审其所以从之谓孝贞，故立争子争臣之教以全宗庙社稷
 events:
 - id: guji-孔子-event-birth
-  title_zh: 誕生於魯
+  type: birth
+  title_zh: 诞生于鲁国陬邑
   date: -551-09-28
   year_of: -551
-  place_zh: 魯國陬邑
-  summary_zh: 襄公二十二年生後為先聖述禮明道之本
-- id: guji-孔子-event-sikou
-  title_zh: 為魯司寇與蠟賓喟然歎大道
-  date: -500
-  year_of: -500
-  place_zh: 魯國
-  summary_zh: 為魯司寇與於蠟賓事畢出游於觀之上喟然而歎言大道之行天下為公今大道既隱天下為家明大同小康之辨
-- id: guji-孔子-event-kaoli
-  title_zh: 之杞之宋觀夏殷之道
-  date: -497
+  description: 春秋鲁襄公二十二年生于鲁，少而好学，晚而闻道，以博学闻于天下
+- id: guji-孔子-event-teach
+  type: career
+  title_zh: 设私学教七十子
+  date: -521-01-01
+  year_of: -521
+  description: 修成康之道，述周公之训，使服衣冠修篇籍，劝弟子终身为学，好学不厌，好教不倦
+- id: guji-孔子-event-travel
+  type: career
+  title_zh: 周游列国论孝论政
+  date: -497-01-01
   year_of: -497
-  place_zh: 杞宋
-  summary_zh: 欲觀夏道之杞而不足徵得夏時欲觀殷道之宋而不足徵得坤乾以是觀禮之等倫義無不通
-- id: guji-孔子-event-lunli
-  title_zh: 與子游論禮本於天地鬼神
-  date: -496
-  year_of: -496
-  place_zh: 魯國
-  summary_zh: 答子游極言禮必本於天殽於地列於鬼神達於喪祭射御冠婚朝聘明天地人一貫又言人者天地之心五行之端
+  description: 历说列国，论孝本五性六艺主德臣术交道论人论政之旨，门人归养亲者甚众，儒风大导
+- id: guji-孔子-event-compile
+  type: career
+  title_zh: 晚年删述修六经以诏来者
+  date: -484-01-01
+  year_of: -484
+  description: 归鲁之后，综诗书礼乐，修春秋，微言大义藉子史传注以存，集语流传羽仪经业
 - id: guji-孔子-event-death
-  title_zh: 卒於魯
+  type: death
+  title_zh: 卒于鲁国
   date: -479-04-11
   year_of: -479
-  place_zh: 魯國
-  summary_zh: 哀公十六年卒後弟子傳其言楊簡等輯為先聖大訓以傳道統
+  description: 鲁哀公十六年卒，弟子如丧亲，望其圹皋如填如鬲如而知所息，君子息焉，儒者之学遂生焉
