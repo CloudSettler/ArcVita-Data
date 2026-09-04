@@ -6,127 +6,135 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: 0541-01-01
+      date: 0581
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右
+      raw: 隋开皇元年左右生于京兆华原
     death:
-      date: 0682-01-01
+      date: 0682
       precision: year
       is_circa: false
-      raw: 唐永淳元年
-  birth_date: 0541-01-01
-  death_date: 0682-01-01
-  era: 隋唐
-  reign_ref: 唐贞观至永淳
-  archetype: 药王济世医家
+      raw: 唐永淳元年卒
+  birth_date: 0581
+  death_date: 0682
+  era: 唐
+  reign_ref: 唐太宗贞观至高宗永淳
+  archetype: 药王医圣
   dilemmas:
-  - 攻下逐积与固护胃气之间如何权衡
-  - 良药苦口与病家骄恣不肯早服之间如何劝勉
-  lesson: 痢本积滞当先通后补并以慎口将息为大经久下当温补脾肾
-  summary_first_person: 余立身以来三遭热痢一经冷痢皆日夜百余行乃至移床就厕而率意自治寻手皆愈遂知此疾天下易治惟须对证服药苦己慎口以瘥为限
+  - 纵欲求子反伤神气与葆精啬神以全真之辨
+  - 择吉迎福与妄作招殃之辨
+  lesson: 法阴阳之和，慎房帏之节，择王相之时，避淫邪之忌，以召福德之嗣
+  summary_first_person: 我生于华原，隐于太白，著千金方以济世，于种子门中立房中吉日王相月宿杂忌之法，欲使交会如法则福德大智来托，不如法则薄福愚痴来托，愿后人葆精避忌以全子嗣
   source_urls:
-  - https://daizhige.org/医藏/古今图书集成博物汇编艺术典医部全录/滞下门.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/古今图书集成博物汇编艺术典医部全录/滞下门.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E7%A7%8D%E5%AD%90%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E7%A7%8D%E5%AD%90%E9%97%A8.md
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 千金方著论分冷热疳蛊四痢
-  summary: 据亲历与古今方分痢为冷热疳蛊并撮陟厘乌梅松皮等效方以通利为主
+  title_zh: 撰千金方立房中求子正法
+  description: 集房中吉日王相月宿之法，辨干道成男坤道成女之候，以人事副造化
   phases:
   - key: brewing
-    name: 亲患热冷痢而自试
+    name: 隐居习道博采养生
     labels:
-      zh: 酝酿
-    start_date: 0630-01-01
-    highlight_event_id: guji-孙思邈-event-self-healing
+      zh:
+      - 习道
+      - 养生
+    start_date: '0620'
+    highlight_event_id: guji-孙思邈-event-qianjin
   - key: breakthrough
-    name: 立四种分证与主对方药
+    name: 定房中交会吉日
     labels:
-      zh: 突破
-    start_date: 0652-01-01
-    highlight_event_id: guji-孙思邈-event-qianjin-zhili
+      zh:
+      - 房中
+      - 择吉
+    start_date: '0652'
+    highlight_event_id: guji-孙思邈-event-fangzhong
   - key: climax
-    name: 撮效方七八以惠天下
+    name: 明王相月宿以期男女
     labels:
-      zh: 高潮
-    start_date: 0652-06-01
-    highlight_event_id: guji-孙思邈-event-qianjin-zhili
+      zh:
+      - 王相
+      - 月宿
+    start_date: '0653'
+    highlight_event_id: guji-孙思邈-event-fangzhong
   - key: closure
-    name: 示初服反剧但服以愈
+    name: 著千金方垂种子门
     labels:
-      zh: 收束
-    start_date: 0653-01-01
-    highlight_event_id: guji-孙思邈-event-qianjin-zhili
+      zh:
+      - 著书
+      - 种子
+    start_date: '0655'
+    highlight_event_id: guji-孙思邈-event-qianjin
   decisions:
-  - date: 0652-01-01
-    title_zh: 冷白热赤疳杂蛊瘀分治
-    rationale: 冷热虚实不同须去干姜益黄连或加温热吹灌各随其宜方能主对相当
-  - date: 0652-06-01
-    title_zh: 暴痢用陟厘乌梅松皮速治
-    rationale: 暴痢积滞未深以通利宣荡为要故撮效方使人速服无致迁延胃弱
+  - date: '0652'
+    title_zh: 避丙丁弦望晦朔风雨晦冥以交会
+    rationale: 交会不如法则损男百倍令女得病，有子多癫痴短寿，如法则福德大智来托
+  - date: '0653'
+    title_zh: 取月经绝后单日为男双日为女
+    rationale: 经绝后一三五日王相生气时施泻多男而贤明高爵，二四六日多女，过六日勿施
 - id: guji-孙思邈-endeavor-2
-  title_zh: 温脾建脾治久痢并倡慎口将息
-  summary: 主久下温补先下后补并严忌生冷酢滑定百日一月将息之限
+  title_zh: 申杂忌优生以全福德家道
+  description: 戒怒气忍溲远行劳乏月事未绝水银脂腻之害，以全父母子嗣之气血
   phases:
   - key: brewing
-    name: 见久痢胃弱心力俱微
+    name: 察人事失中致病
     labels:
-      zh: 酝酿
-    start_date: 0655-01-01
-    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
+      zh:
+      - 察病
+      - 杂忌
+    start_date: '0653'
+    highlight_event_id: guji-孙思邈-event-zaji
   - key: breakthrough
-    name: 先温脾汤下后建脾丸补
+    name: 立杂忌以防痈疽淋浊
     labels:
-      zh: 突破
-    start_date: 0659-01-01
-    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
+      zh:
+      - 房劳
+      - 避忌
+    start_date: '0654'
+    highlight_event_id: guji-孙思邈-event-zaji
   - key: climax
-    name: 立将息大经以防复发
+    name: 推福善祸淫之家道感应
     labels:
-      zh: 高潮
-    start_date: 0659-06-01
-    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
-  - key: closure
-    name: 叹骄恣不慎而至难治
-    labels:
-      zh: 收束
-    start_date: 0660-01-01
-    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
+      zh:
+      - 优生
+      - 福善
+    start_date: '0655'
+    highlight_event_id: guji-孙思邈-event-zaji
   decisions:
-  - date: 0659-01-01
-    title_zh: 久冷积痢先下后补
-    rationale: 久痢脾虚积滞胶结非温下不去非补养不复故以下开其闭以补实其本
-  - date: 0659-06-01
-    title_zh: 严忌生冷并定将息期限
-    rationale: 食饮失节则胃气复伤痢必再发故重者慎口百日次者一月皆须大熟烂勿伤饱
+  - date: '0654'
+    title_zh: 有怒血气未定忍小便远行疲乏勿入房
+    rationale: 怒合令人发痈疽，忍溲令人淋茎痛失血色，劳乏入房致五劳虚损少子
+  - date: '0655'
+    title_zh: 避神庙佛寺井灶厕侧冢墓星火之下
+    rationale: 不洁不敬之地交合伤神召戾，如法则性行调顺家道日隆，不如法则家道日否殃咎屡至
 events:
 - id: guji-孙思邈-event-birth
   type: birth
-  title_zh: 出生于京兆华原
-  date: 0541-01-01
-  year_of: 541
-  description: 隋时生于京兆华原少时聪慧博涉经史百家并好医方
-- id: guji-孙思邈-event-self-healing
+  title_zh: 诞生于京兆华原
+  date: 0581
+  year_of: 0581
+  description: 隋开皇元年左右生，自幼多病，立志学医，博涉经史百家
+- id: guji-孙思邈-event-qianjin
   type: career
-  title_zh: 三遭热痢一经冷痢自治而愈
-  date: 0630-01-01
-  year_of: 630
-  description: 日夜百余行移床就厕率意自治寻手皆愈遂悟痢为易治之证
-- id: guji-孙思邈-event-qianjin-zhili
+  title_zh: 著备急千金要方成书
+  date: '0652'
+  year_of: '0652'
+  description: 隐于太白山中，集唐以前医方，成千金方三十卷，内列房中补益诸法
+- id: guji-孙思邈-event-fangzhong
   type: career
-  title_zh: 成千金方热冷疳蚀诸痢论
-  date: 0652-01-01
-  year_of: 652
-  description: 分痢为冷热疳蛊四种定黄连干姜温凉吹灌蛊毒诸法并撮陟厘乌梅松皮等效方
-- id: guji-孙思邈-event-wenbu-jiuzhi
+  title_zh: 立房中吉日王相月宿之法
+  date: '0653'
+  year_of: '0653'
+  description: 定交会当避丙丁弦望晦朔风雨雷电之日，取月经绝后王相贵宿生气时以求子，单日多男双日多女
+- id: guji-孙思邈-event-zaji
   type: career
-  title_zh: 立温脾汤下建脾丸补治久痢
-  date: 0659-01-01
-  year_of: 659
-  description: 积久冷痢先以温脾汤下讫后以建脾丸补之并立慎口味重者百日次者一月之将息大经
+  title_zh: 申杂忌优生垂训后世
+  date: '0655'
+  year_of: '0655'
+  description: 戒怒合忍溲劳合经行合，远水银鹿猪脂害阴，避神庙井灶冢墓不洁之地，明祸福如影响以全家道
 - id: guji-孙思邈-event-death
   type: death
-  title_zh: 逝世于长安
-  date: 0682-01-01
-  year_of: 682
-  description: 唐永淳元年逝世遗千金要方三十卷以垂后世
+  title_zh: 卒于唐京师
+  date: 0682
+  year_of: 0682
+  description: 唐永淳元年卒，遗命薄葬，不藏明器，时人尊为药王，种子房中之说并入医部全录
