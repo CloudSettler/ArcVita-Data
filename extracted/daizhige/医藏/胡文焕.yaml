@@ -6,123 +6,112 @@ person:
     en: Hu Wenhuan
   lifespan:
     birth:
-      date: 1550-01-01
+      date: '1548'
       precision: year
       is_circa: true
-      raw: 明嘉靖二十九年左右
+      raw: 明嘉靖末约生于钱塘
     death:
-      date: 1615-01-01
+      date: '1625'
       precision: year
       is_circa: true
-      raw: 明万历四十三年左右
-  birth_date: 1550-01-01
-  death_date: 1615-01-01
+      raw: 明天启初约卒
+  birth_date: '1548'
+  death_date: '1625'
   era: 明
-  reign_ref: 明神宗万历年间
-  archetype: 编纂者
+  reign_ref: 万历
+  archetype: 类书编纂者
   dilemmas:
-  - title_zh: 古籍散佚难全
-    description: 明末藏书分散，欲存绝学须广搜博采，耗费心力而难尽全
-  - title_zh: 医道雅俗之辨
-    description: 导引之术杂于方技，欲以雅正文字传养生之道，须去荒诞而存实用
-  lesson: 汇集群书则绝学可传，录导引之法则身心可养，存书即所以存人
-  summary_first_person: 吾胡文焕，明人也，好藏书，汇刻格致丛书二百余种，又辑养生导引法，述中风风痹导引行气之要，愿后人因书得养，因养得寿
+  - 搜罗浩繁而去取难决
+  - 养生方术杂伪难辨真源
+  lesson: 删繁举要分类编次以存古养生导引之全貌
+  summary_first_person: 余钱塘胡文焕号全庵，博采医藏道经，辑养生导引秘籍，述教诫食诫杂诫，愿后人慎饮食节嗜欲，导引行气以延年。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E5%AF%BC%E5%BC%95%E6%B3%95.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E5%AF%BC%E5%BC%95%E6%B3%95.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E5%AF%BC%E5%BC%95%E7%A7%98%E7%B1%8D.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E5%AF%BC%E5%BC%95%E7%A7%98%E7%B1%8D.md
 endeavors:
 - id: guji-胡文焕-endeavor-1
-  title_zh: 汇刻格致丛书
-  summary: 广搜经史子集医卜方技，汇刻成丛书二百余种，以存明代以前绝学
+  title_zh: 编纂格致丛书
+  role_zh: 主编
+  summary: 博采经史子集医道养生诸书，分门别类编成格致丛书
   phases:
   - key: brewing
-    name: 搜罗群书
+    name: 博采群书
     labels:
       zh: 搜集
-    start_date: 1585-01-01
-    highlight_event_id: guji-胡文焕-event-compilation
+    start_date: '1585'
+    highlight_event_id: guji-胡文焕-event-collect
   - key: breakthrough
     name: 分类编次
     labels:
       zh: 编次
-    start_date: 1592-01-01
-    highlight_event_id: guji-胡文焕-event-compilation
-  - key: climax
-    name: 开雕刊行
-    labels:
-      zh: 刊刻
-    start_date: 1597-01-01
-    highlight_event_id: guji-胡文焕-event-compilation
+    start_date: '1595'
+    highlight_event_id: guji-胡文焕-event-gezhi
   - key: closure
-    name: 补续流传
+    name: 刊刻流布
     labels:
-      zh: 流传
-    start_date: 1602-01-01
-    highlight_event_id: guji-胡文焕-event-yangsheng
+      zh: 刊行
+    start_date: '1603'
+    highlight_event_id: guji-胡文焕-event-gezhi
   decisions:
-  - date: 1592-01-01
-    title_zh: 决定汇刻百家为丛书
-    rationale: 孤本易散，汇刻成丛书则绝学可传，学者易得
-  - date: 1597-01-01
-    title_zh: 先刻医卜养生之类
-    rationale: 世人重养生却罕良本，先传医书可惠众生
+  - date: '1590'
+    title_zh: 决定兼收雅俗以存实用
+    rationale: 恐古养生医方散佚，故广收博采不废小说方技
+  - date: '1595'
+    title_zh: 决定分部类编以便检寻
+    rationale: 书目浩繁无纲难用，故以类相从首尾相属
 - id: guji-胡文焕-endeavor-2
-  title_zh: 辑撰养生导引法
-  summary: 取诸病源候论千金要方等导引旧法，分中风风痹等门，系以原文解说，以传行气养生
+  title_zh: 辑编养生导引秘籍
+  role_zh: 辑述
+  summary: 辑养性延命录教诫食诫杂诫，兼采导引行气之法成编
   phases:
   - key: brewing
-    name: 搜集导引旧文
+    name: 辑录养性延命诸篇
     labels:
-      zh: 搜集
-    start_date: 1598-01-01
-    highlight_event_id: guji-胡文焕-event-yangsheng
-  - key: breakthrough
-    name: 分门别类系说
-    labels:
-      zh: 整理
-    start_date: 1600-01-01
+      zh: 辑录
+    start_date: '1597'
     highlight_event_id: guji-胡文焕-event-yangsheng
   - key: climax
-    name: 详述行气要领
-    labels:
-      zh: 阐发
-    start_date: 1603-01-01
-    highlight_event_id: guji-胡文焕-event-yangsheng
-  - key: closure
-    name: 成书惠世
+    name: 成书养生导引秘籍
     labels:
       zh: 成书
-    start_date: 1605-01-01
+    start_date: '1600'
+    highlight_event_id: guji-胡文焕-event-yangsheng
+  - key: closure
+    name: 垂诫后学
+    labels:
+      zh: 垂训
+    start_date: '1605'
     highlight_event_id: guji-胡文焕-event-yangsheng
   decisions:
-  - date: 1600-01-01
-    title_zh: 以中风风痹为首篇
-    rationale: 中风偏枯风痹最苦众人，导引行气于康复最有益，当先述之
-  - date: 1603-01-01
-    title_zh: 原文之下各系解说
-    rationale: 古法文字简奥，加解说发明不息纳气引气之法，则学者易行
+  - date: '1597'
+    title_zh: 决定以养性延命录为纲
+    rationale: 摄生大要在于啬神爱气养形导引，故以陶弘景旧文为本
+  - date: '1600'
+    title_zh: 决定详载饮食忌禳以警俗
+    rationale: 百病多由饮食嗜欲，故备列食诫杂诫使人易行
 events:
 - id: guji-胡文焕-event-birth
-  title_zh: 诞生于明嘉靖年间
-  date: 1550-01-01
-  year_of: 1550
-  type: birth
-  description: 明嘉靖二十九年左右生于钱塘，自幼好学，喜藏书
-- id: guji-胡文焕-event-compilation
-  title_zh: 汇刻格致丛书
-  date: 1597-01-01
-  year_of: 1597
-  type: career
-  description: 万历二十五年左右，广搜旧本，汇刻格致丛书，收书二百余种
+  title_zh: 生于钱塘
+  date: '1548'
+  year_of: '1548'
+  description: 约明嘉靖末生于浙江钱塘，字德甫号全庵
+- id: guji-胡文焕-event-collect
+  title_zh: 博采医藏道经
+  date: '1590'
+  year_of: '1590'
+  description: 万历中搜集医藏道经养生方技，为类书编纂积稿
+- id: guji-胡文焕-event-gezhi
+  title_zh: 编成格致丛书
+  date: '1603'
+  year_of: '1603'
+  description: 分门别类编成格致丛书，养生医道多收入其中刊行于世
 - id: guji-胡文焕-event-yangsheng
-  title_zh: 辑成养生导引法
-  date: 1605-01-01
-  year_of: 1605
-  type: career
-  description: 万历三十三年左右，辑诸家导引旧法，成养生导引法，首述中风风痹行气之法
+  title_zh: 辑成养生导引秘籍
+  date: '1600'
+  year_of: '1600'
+  description: 辑养性延命录教诫食诫杂诫三篇，成养生导引秘籍，详述导引服气饮食起居之忌
 - id: guji-胡文焕-event-death
-  title_zh: 卒于万历末年
-  date: 1615-01-01
-  year_of: 1615
-  type: death
-  description: 明万历四十三年左右辞世，藏书刻本流传后世
+  title_zh: 卒于明末
+  date: '1625'
+  year_of: '1625'
+  description: 约明天启初卒，所辑养生诸书流传后世
