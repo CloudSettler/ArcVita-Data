@@ -1,0 +1,137 @@
+person:
+  qid: guji-李旦
+  name_zh: 李旦
+  names:
+    zh: 李旦
+    en: Li Dan
+  lifespan:
+    birth:
+      date: 0395
+      precision: year
+      is_circa: true
+      raw: 广陵人元嘉三年时已以孝谨闻乡里
+    death:
+      date: '0435'
+      precision: year
+      is_circa: true
+      raw: 元嘉六年再苏之后终卒年不详
+  birth_date: 0395
+  death_date: '0435'
+  era: 南朝宋
+  reign_ref: 宋文帝元嘉
+  archetype: 冥报见证者
+  dilemmas:
+  - 既见冥狱苦报当直言传世还是缄口自保
+  - 本为道家祭酒当固守旧录还是兼劝八关斋戒
+  lesson: 幽显报应如响宜修斋戒善行以免横祸地狱
+  summary_first_person: 吾乃广陵李旦字世则以孝谨质素闻于乡里元嘉三年暴死随使入冥遍观地狱蒙放得还六年再死传罪福疾疠之诫劝人作八关斋不敢隐没所见
+  source_urls:
+  - https://daizhige.org/佛藏/续藏经/中国撰述/史传部/杂传/冥报记辑书.html
+endeavors:
+- id: guji-李旦-endeavor-1
+  title_zh: 初死入冥观狱得还
+  summary: 元嘉三年正月暴死随信幡使者北行见宫阙府君及地狱苦报蒙敕放还苏醒传述
+  phases:
+  - key: brewing
+    name: 暴死被召
+    labels:
+      zh: 府君呼召
+    start_date: '0426-01-14'
+    highlight_event_id: guji-李旦-event-first-death
+  - key: breakthrough
+    name: 遍观诸狱
+    labels:
+      zh: 目睹苦报
+    start_date: '0426-01-14'
+    highlight_event_id: guji-李旦-event-first-death
+  - key: climax
+    name: 蒙信放还
+    labels:
+      zh: 敕令还生
+    start_date: '0426-01-21'
+    highlight_event_id: guji-李旦-event-first-death
+  - key: closure
+    name: 苏醒传见
+    labels:
+      zh: 述说冥见
+    start_date: '0426-01-21'
+    highlight_event_id: guji-李旦-event-first-death
+  decisions:
+  - date: '0426-01-14'
+    title_zh: 随使北行赴府君召
+    rationale: 既被教唤不容违拒且欲明死生之故
+  - date: '0426-01-21'
+    title_zh: 还阳具述地狱惨状
+    rationale: 欲使世人知惧而不敢隐没冥诫
+- id: guji-李旦-endeavor-2
+  title_zh: 再死传诫劝作斋戒
+  summary: 元嘉六年正月复死详传罪囚寄语及甲申疾疠之期劝化八关斋兼行道佛
+  phases:
+  - key: brewing
+    name: 复死入冥
+    labels:
+      zh: 再被迎召
+    start_date: '0429-01-01'
+    highlight_event_id: guji-李旦-event-second-death
+  - key: breakthrough
+    name: 受托传语
+    labels:
+      zh: 罪囚寄语
+    start_date: '0429-01-01'
+    highlight_event_id: guji-李旦-event-second-death
+  - key: climax
+    name: 预言疾疠
+    labels:
+      zh: 警示恶报
+    start_date: '0429-01-07'
+    highlight_event_id: guji-李旦-event-second-death
+  - key: closure
+    name: 劝化斋戒
+    labels:
+      zh: 双劝道俗
+    start_date: '0429-01-07'
+    highlight_event_id: guji-李旦-event-second-death
+  decisions:
+  - date: '0429-01-07'
+    title_zh: 遍访亲识验证寄语
+    rationale: 取信于人必先核实姓名乡伍方能劝化
+  - date: '0429-01-07'
+    title_zh: 劝人作八关斋欲弃道录
+    rationale: 见佛弟子持斋可免疾疠故欲转心向善虽被道民谏止仍两事劝化
+events:
+- id: guji-李旦-event-birth
+  title_zh: 广陵诞生
+  type: birth
+  date: 0395
+  year_of: 395
+  precision: year
+  is_circa: true
+  location: 广陵
+  description: 广陵李旦字世则生于晋末宋初之家以孝谨质素渐闻于乡里
+- id: guji-李旦-event-first-death
+  title_zh: 元嘉三年初死观狱
+  type: career
+  date: '0426-01-14'
+  year_of: 426
+  precision: day
+  is_circa: false
+  location: 冥府城阙地狱
+  description: 元嘉三年正月十四日暴死心下不冷七日而苏自云随信幡使者北行至城阁见三十人列坐及府君示以诸狱群罪人受苦呻吟蒙传教放还
+- id: guji-李旦-event-second-death
+  title_zh: 元嘉六年复死传诫
+  type: career
+  date: '0429-01-01'
+  year_of: 429
+  precision: year
+  is_circa: true
+  location: 冥府
+  description: 元嘉六年正月复死七日又活述所见略如先传罪囚寄语报家及甲申年当行疾疠杀恶人惟作八关斋修心善行可免遂劝化乡里
+- id: guji-李旦-event-death
+  title_zh: 元嘉后终卒
+  type: death
+  date: '0435'
+  year_of: 435
+  precision: year
+  is_circa: true
+  location: 广陵
+  description: 再苏之后兼奉道佛常劝八关斋年寿既尽终于家乡冥报之说流传于世

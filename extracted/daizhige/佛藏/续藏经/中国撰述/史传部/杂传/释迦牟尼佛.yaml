@@ -1,0 +1,159 @@
+person:
+  qid: guji-释迦牟尼佛
+  name_zh: 释迦牟尼佛
+  names:
+    zh: 释迦牟尼佛
+    en: Shakyamuni Buddha
+  lifespan:
+    birth:
+      date: -563-04-08
+      precision: day
+      is_circa: true
+      raw: 周昭王二十四年四月初八蓝毗尼降生
+    death:
+      date: -483-02-15
+      precision: day
+      is_circa: true
+      raw: 周穆王五十三年二月十五拘尸那入灭
+  birth_date: -563-04-08
+  death_date: -483-02-15
+  era: 先秦西周
+  reign_ref: 周昭王至周穆王
+  archetype: 开教立宗型
+  dilemmas:
+  - 四门睹生老病死何以解脱
+  - 舍国出家与嗣位安邦何去何从
+  - 苦行炼身与中道正觉何者为真
+  lesson: 法本无法中道实证自觉觉他即是心灯相续
+  summary_first_person: 吾本迦毗罗卫太子悉达多，因睹生老病死而逾城出家，参访诸师苦行六年，舍苦行取中道，于菩提树下证悟，鹿野苑初转法轮，住世说法四十九年，以无法之法付嘱迦叶而入涅槃。
+  source_urls:
+  - https://daizhige.org/佛藏/续藏经/中国撰述/史传部/杂传/佛祖心灯.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/续藏经/中国撰述/史传部/杂传/佛祖心灯.md
+endeavors:
+- id: guji-释迦牟尼佛-endeavor-1
+  title_zh: 逾城出家雪山证悟
+  summary: 舍王位而出家，参访外道学定，雪山苦行六年，悟苦行非道，受乳糜修中道，菩提树下证无上觉。
+  phases:
+  - key: brewing
+    name: 四门游观逾城出家
+    labels:
+      zh:
+      - 出家萌志
+    start_date: -534-02-08
+    highlight_event_id: guji-释迦牟尼佛-event-renounce
+  - key: breakthrough
+    name: 参访诸师雪山苦行
+    labels:
+      zh:
+      - 求道参学
+    start_date: -533-03-01
+    highlight_event_id: guji-释迦牟尼佛-event-austerity
+  - key: climax
+    name: 菩提树下夜睹明星
+    labels:
+      zh:
+      - 证悟菩提
+    start_date: -528-12-08
+    highlight_event_id: guji-释迦牟尼佛-event-enlightenment
+  - key: closure
+    name: 七七日受法乐观机
+    labels:
+      zh:
+      - 安住观机
+    start_date: -528-12-09
+    highlight_event_id: guji-释迦牟尼佛-event-enlightenment
+  decisions:
+  - date: -534-02-08
+    title_zh: 逾城出家
+    rationale: 睹生老病死苦迫無常，知王位富貴難抵老死，唯出家求道可求解脫，故夜別親眷逾城而去。
+  - date: -528-05-01
+    title_zh: 舍苦行取中道
+    rationale: 知苦行徒困身心如緊弦將斷，非解脫正因，故受牧女乳糜，發願菩提樹下不證不起名。
+- id: guji-释迦牟尼佛-endeavor-2
+  title_zh: 鹿野转轮传灯付嘱
+  summary: 成道後觀機赴鹿野苑，度五比丘初轉法輪，住世四十九年說法教化，付無法之法於摩訶迦葉，拘尸那入滅。
+  phases:
+  - key: brewing
+    name: 梵天勸請起座說法
+    labels:
+      zh:
+      - 勸請說法
+    start_date: -528-12-16
+    highlight_event_id: guji-释迦牟尼佛-event-first-sermon
+  - key: breakthrough
+    name: 鹿野苑度五比丘
+    labels:
+      zh:
+      - 初轉法輪
+    start_date: -527-06-15
+    highlight_event_id: guji-释迦牟尼佛-event-first-sermon
+  - key: climax
+    name: 住世四十九年化導
+    labels:
+      zh:
+      - 廣度群品
+    start_date: -527-07-01
+    highlight_event_id: guji-释迦牟尼佛-event-first-sermon
+  - key: closure
+    name: 付法迦葉雙林入滅
+    labels:
+      zh:
+      - 傳燈入滅
+    start_date: -483-02-10
+    highlight_event_id: guji-释迦牟尼佛-event-death
+  decisions:
+  - date: -527-06-15
+    title_zh: 鹿野苑初轉法輪
+    rationale: 觀五比丘機緣已熟，先度舊侶說四諦八正道，立僧團以住持正法，令心燈初燃。
+  - date: -483-02-15
+    title_zh: 拈花付法於迦葉
+    rationale: 吾無法可說付無法之法，以正法眼藏涅槃妙心付摩訶迦葉，令佛祖心燈代代相續而入涅槃。
+events:
+- id: guji-释迦牟尼佛-event-birth
+  type: birth
+  title_zh: 藍毗尼園降生
+  date: -563-04-08
+  year_of: -563
+  location_zh: 藍毗尼園
+  endeavor_ref: guji-释迦牟尼佛-endeavor-1
+  summary: 摩耶夫人夢白象而孕，於藍毗尼園無憂樹下誕太子悉達多。
+- id: guji-释迦牟尼佛-event-renounce
+  type: career
+  title_zh: 逾城出家
+  date: -534-02-08
+  year_of: -534
+  location_zh: 迦毗羅衛城外
+  endeavor_ref: guji-释迦牟尼佛-endeavor-1
+  summary: 夜睹宮女睡態悟無常，別耶輸羅及羅睺羅，乘犍陟逾城出家。
+- id: guji-释迦牟尼佛-event-austerity
+  type: career
+  title_zh: 雪山六年苦行
+  date: -533-03-01
+  year_of: -533
+  location_zh: 尼連禪河苦行林
+  endeavor_ref: guji-释迦牟尼佛-endeavor-1
+  summary: 參鬱頭藍弗等不得解脫，日食一麻一麥修苦行，形枯而志堅。
+- id: guji-释迦牟尼佛-event-enlightenment
+  type: career
+  title_zh: 菩提樹下證悟
+  date: -528-12-08
+  year_of: -528
+  location_zh: 菩提伽耶菩提樹下
+  endeavor_ref: guji-释迦牟尼佛-endeavor-1
+  summary: 受乳糜浴尼連禪，坐菩提樹降魔，夜睹明星大悟，證無上正等覺，說法本法無法之偈。
+- id: guji-释迦牟尼佛-event-first-sermon
+  type: career
+  title_zh: 鹿野苑初轉法輪
+  date: -527-06-15
+  year_of: -527
+  location_zh: 波羅奈鹿野苑
+  endeavor_ref: guji-释迦牟尼佛-endeavor-2
+  summary: 度憍陳如等五比丘，說四聖諦八正道，成立三寶僧團，開佛祖傳燈之始。
+- id: guji-释迦牟尼佛-event-death
+  type: death
+  title_zh: 拘尸那雙林入滅
+  date: -483-02-15
+  year_of: -483
+  location_zh: 拘尸那娑羅雙樹間
+  endeavor_ref: guji-释迦牟尼佛-endeavor-2
+  summary: 度須跋陀羅為最後弟子，付正法眼藏於摩訶迦葉，說法法何曾法而入般涅槃。
