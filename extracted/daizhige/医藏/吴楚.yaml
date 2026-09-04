@@ -1,0 +1,109 @@
+person:
+  qid: guji-吴楚
+  name_zh: 吴楚
+  names:
+    zh: 吴楚
+    en: Wu Chu
+  lifespan:
+    birth:
+      date: 1630-01-01
+      precision: year
+      is_circa: true
+      raw: 清初约崇祯末生
+    death:
+      date: 1705-01-01
+      precision: year
+      is_circa: true
+      raw: 约康熙末卒
+  birth_date: 1630-01-01
+  death_date: 1705-01-01
+  era: 清
+  reign_ref: 顺治至康熙
+  archetype: 仁医针砭者
+  dilemmas:
+  - 心存济人还是心专利己
+  - 博览穷理求真还是守一成之规趋时
+  - 特立独行救人还是曲顺人情保名获利
+  lesson: 欲医人先医医，心端方术精，博学穷理审脉辩症方能生人，舍人利己则十病丛生终伤阴骘
+  summary_first_person: 我是吴楚，字天士，号畹庵，乃吴昆侄孙，以医名于顺治康熙年间。我谓人有病医亦有病，欲医人先医医，医病止在一心，心存济人则诸病不起，心专利己则诸病丛生。我遍读灵素以下诸书，审脉辩症，力戒不学无术与时套保名之弊，作医医十病以苦口之剂荡涤邪秽，愿广救生灵世受福报，不以蝇营狗苟病其心邀名图利。
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%8C%BB%E5%8D%81%E7%97%85.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%8C%BB%E5%8D%81%E7%97%85.md
+endeavors:
+- id: guji-吴楚-endeavor-1
+  person_qid: guji-吴楚
+  title_zh: 顺治康熙年间以医名世
+  description: 承家学而不守一成之规，博览灵素及历代诸书，审脉辩症，以活人术行于顺治康熙之际
+  phases:
+  - key: brewing
+    name: 博览穷源
+    labels:
+      zh: 酝酿
+    start_date: 1650-01-01
+    highlight_event_id: guji-吴楚-event-fame
+  - key: breakthrough
+    name: 以医名世
+    labels:
+      zh: 突破
+    start_date: 1662-01-01
+    highlight_event_id: guji-吴楚-event-fame
+  decisions:
+  - date: 1655-01-01
+    title_zh: 不守师传口语遍读群书
+    rationale: 仅恃倾耳听受必得偏失全得浅失深，须探讨灵素以下诸书悟其奥义方识高理透
+  - date: 1662-01-01
+    title_zh: 审脉辩寒热虚实再用药
+    rationale: 审脉明则认症真认症真则用药当，可防大寒似热大虚似实反掌杀人之误
+- id: guji-吴楚-endeavor-2
+  person_qid: guji-吴楚
+  title_zh: 撰述医医十病针砭医弊
+  description: 忧医家心病丛生，作十病之论，陈不学无术脉症罔辩轻忽人命遵守时套药似对症曲顺人情轻药保名吝惜药料等弊，以广救生灵
+  phases:
+  - key: climax
+    name: 十病成论
+    labels:
+      zh: 高潮
+    start_date: 1680-01-01
+    highlight_event_id: guji-吴楚-event-book
+  - key: closure
+    name: 广救期报
+    labels:
+      zh: 收束
+    start_date: 1685-01-01
+    highlight_event_id: guji-吴楚-event-book
+  decisions:
+  - date: 1680-01-01
+    title_zh: 直陈十病不畏苦口暝眩
+    rationale: 医病根于舍人利己之心，非细咀猛吞良剂荡涤邪秽不能超脱尘凡
+  - date: 1685-01-01
+    title_zh: 劝特立独行不曲顺人情
+    rationale: 认症真用药当实能起沉疴救危命，何必随风倒舵唯唯诺诺以图主顾希荐举避谗谤
+events:
+- id: guji-吴楚-event-birth
+  person_qid: guji-吴楚
+  type: birth
+  date: 1630-01-01
+  year_of: 1630
+  title_zh: 出生于清初医家之族
+  description: 约生于清初，为明代医家吴昆侄孙，字天士，号畹庵，少承家学留心医道
+- id: guji-吴楚-event-fame
+  person_qid: guji-吴楚
+  type: career
+  date: 1662-01-01
+  year_of: 1662
+  title_zh: 以医名于顺治康熙年间
+  description: 博览灵素以下诸书，审脉辩症，不守时套，不用轻药应付，以起死回生之术名于顺治康熙之际，与徐灵胎张璐玉为同时代名医
+- id: guji-吴楚-event-book
+  person_qid: guji-吴楚
+  type: career
+  date: 1680-01-01
+  year_of: 1680
+  title_zh: 作医医十病序并成书
+  description: 感医家利欲熏心轻忽人命遵守时套之害，作序立论，历陈不学无术脉症罔辩轻忽人命遵守时套药似对症曲顺人情轻药保名吝惜药料妒忌谗谤十病，以医医自警并广救生灵
+- id: guji-吴楚-event-death
+  person_qid: guji-吴楚
+  type: death
+  date: 1705-01-01
+  year_of: 1705
+  title_zh: 卒于康熙年间
+  description: 行医著述之后卒于康熙年间，其医医十病之论与徐灵胎诸病源流论并称高妙，流传以广见闻

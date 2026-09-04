@@ -1,0 +1,138 @@
+person:
+  qid: guji-王好古
+  name_zh: 王好古
+  names:
+    zh: 王好古
+    en: Wang Haogu
+  lifespan:
+    birth:
+      date: 1200-01-01
+      precision: year
+      is_circa: false
+      raw: 金章宗承安五年赵州
+    death:
+      date: 1264-01-01
+      precision: year
+      is_circa: false
+      raw: 元世祖至元元年
+  birth_date: 1200-01-01
+  death_date: 1264-01-01
+  era: 金末元初
+  reign_ref: 元世祖至元
+  archetype: 医者
+  dilemmas:
+  - 受业张完素又私淑李杲，两家师承不同，如何融会易水与东垣之法
+  - 金元鼎革旧稿散失，杜门养拙之际，如何凭记忆重缉十二卷以存医统
+  lesson: 良医用药当如临阵用兵，须以成法统之，察标本轻重，守汗吐下之禁，斟酌变通而慎行
+  summary_first_person: 吾赵州王好古，字进之，受业洁古老人，复从东垣李明之游，官本州教授，金末初成医垒元戎十二卷，丁酉岁被人阴取元稿，复杜门追记十得七八，统十二经伤寒杂证，以兵法喻药法，愿后人不以卤莽应仓卒
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%9E%92%E5%85%83%E6%88%8E.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%9E%92%E5%85%83%E6%88%8E.md
+endeavors:
+- id: guji-王好古-endeavor-1
+  title_zh: 承易水东垣之学守赵州教授之职
+  summary: 受业张完素，复学于李杲，融长沙伤寒与易水东垣之法，职州庠以医教并行
+  phases:
+  - key: brewing
+    name: 赵州从学
+    labels:
+      zh: 酝酿从师
+    start_date: 1215-01-01
+    highlight_event_id: guji-王好古-event-teacher
+  - key: breakthrough
+    name: 融会两家
+    labels:
+      zh: 突破融会
+    start_date: 1225-01-01
+    highlight_event_id: guji-王好古-event-professor
+  - key: climax
+    name: 职掌州庠
+    labels:
+      zh: 高峰任职
+    start_date: 1240-01-01
+    highlight_event_id: guji-王好古-event-professor
+  - key: closure
+    name: 杜门养拙
+    labels:
+      zh: 收束存道
+    start_date: 1237-09-29
+    highlight_event_id: guji-王好古-event-recompile
+  decisions:
+  - date: 1220-01-01
+    title_zh: 既师洁古复从东垣
+    rationale: 洁古为先师，东垣为时师，如同共受一经而互参，取长沙绪论而以易水之法通之
+  - date: 1240-01-01
+    title_zh: 居州教授不废医事
+    rationale: 职在州庠而心在活人，虀盐之暇追述旧业，使医道不因鼎革而绝
+- id: guji-王好古-endeavor-2
+  title_zh: 撰述医垒元戎以兵法统药法
+  summary: 以十二经为纲，首伤寒附杂证，录桂麻禁例与和剂变通，初成于辛卯，重缉于丁酉
+  phases:
+  - key: brewing
+    name: 河南历患难察脉定方
+    labels:
+      zh: 酝酿历练
+    start_date: 1228-01-01
+    highlight_event_id: guji-王好古-event-first
+  - key: breakthrough
+    name: 辛卯初成十二卷
+    labels:
+      zh: 突破初成
+    start_date: 1231-01-01
+    highlight_event_id: guji-王好古-event-first
+  - key: climax
+    name: 元稿散失追记复完
+    labels:
+      zh: 高峰重缉
+    start_date: 1237-09-29
+    highlight_event_id: guji-王好古-event-recompile
+  - key: closure
+    name: 自序元戎传后
+    labels:
+      zh: 收束传世
+    start_date: 1237-09-29
+    highlight_event_id: guji-王好古-event-recompile
+  decisions:
+  - date: 1231-01-01
+    title_zh: 立十二经纲统伤寒杂证
+    rationale: 患多藏于细微，若无妙算深谋成法统之则倒戈败绩，故以经为纲门类品目具设
+  - date: 1237-09-29
+    title_zh: 散稿后凭记忆重缉
+    rationale: 丁酉春稿被人阴取绝无余本，想像始终十得七八，试书首尾仅得复完，以存十万精锐之志
+events:
+- id: guji-王好古-event-birth
+  title_zh: 赵州出生
+  date: 1200-01-01
+  year_of: 1200
+  place_zh: 赵州
+  description: 金章宗承安五年，王好古生于赵州，字进之，号海藏
+- id: guji-王好古-event-teacher
+  title_zh: 受业洁古从学东垣
+  date: 1220-01-01
+  year_of: 1220
+  place_zh: 河南及赵州
+  description: 受业张完素洁古老人，复从李杲东垣先生游，会长沙伤寒与易水之法
+- id: guji-王好古-event-first
+  title_zh: 辛卯初成医垒元戎
+  date: 1231-01-01
+  year_of: 1231
+  place_zh: 赵州
+  description: 金哀宗正大八年辛卯，初成医垒元戎十二卷，以十二经为纲论伤寒杂证
+- id: guji-王好古-event-recompile
+  title_zh: 丁酉重缉并作自序
+  date: 1237-09-29
+  year_of: 1237
+  place_zh: 赵州
+  description: 丁酉九月二十九日，元稿散失后杜门追记复完，作原序喻良医用药如临阵用兵
+- id: guji-王好古-event-professor
+  title_zh: 任赵州教授
+  date: 1240-01-01
+  year_of: 1240
+  place_zh: 赵州
+  description: 入元后职掌州庠为本州教授，虀盐之暇养拙存道，兼治内伤阴证诸疾
+- id: guji-王好古-event-death
+  title_zh: 逝世
+  date: 1264-01-01
+  year_of: 1264
+  place_zh: 赵州
+  description: 元世祖至元元年卒，遗有此事难知与阴证论诸书并行于世
