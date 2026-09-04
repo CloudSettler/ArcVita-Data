@@ -6,115 +6,141 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: 0581
+      date: '0541'
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右
+      raw: 隋大统七年左右
     death:
       date: 0682
       precision: year
       is_circa: false
       raw: 唐永淳元年
-  birth_date: 0581
+  birth_date: '0541'
   death_date: 0682
-  era: 隋唐
-  reign_ref: 唐太宗贞观至唐高宗显庆
-  archetype: 隐逸医圣
+  era: 唐
+  reign_ref: 贞观至永淳
+  archetype: 药王济世医圣
   dilemmas:
-  - 辞征辟隐太白与出仕济世之抉择
-  - 贵贱兼收与简验廉便之权衡
-  lesson: 大医精诚人命至重当以简验廉便普济含灵并节欲保和以养生全真
-  summary_first_person: 吾孙思邈京兆华原人也幼多疾博览百家隐于太白著千金要方复留海上方愿以一草一土可愈贫苦之疾以养生之铭劝人节欲保和而已
+  - 节欲固精以延年与情欲易纵难持之间的张力
+  - 补益遣疾以养生与贪淫伐命速祸之间的界限
+  lesson: 知房中在节不在淫固精养气加以补药方能愈疾延年
+  summary_first_person: 吾少好学博涉百家以医济世悟得人年四十气衰当识房中之术非为淫佚但求节欲补益以遣疾愿以闭固采气之法勖将来
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%AD%99%E7%9C%9F%E4%BA%BA%E6%B5%B7%E4%B8%8A%E6%96%B9.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%AD%99%E7%9C%9F%E4%BA%BA%E6%B5%B7%E4%B8%8A%E6%96%B9.html
+  - https://daizhige.org/房中補益.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/房中補益.md
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  person_id: guji-孙思邈
-  title_zh: 编撰千金要方集成医典
-  summary: 隐居太白博采经方结合临床撰成千金要方立大医精诚之训以普济众生
+  title_zh: 编撰千金方集成唐代医藏
+  summary_zh: 隐居行医博采古今方论撰成备急千金要方与千金翼方以救世疾苦
   phases:
   - key: brewing
-    name: 隐居博采
+    name: 幼少好学博涉经史百家
     labels:
-      zh: 博览积累
-    start_date: '0610'
-    highlight_event_id: guji-孙思邈-event-birth
+      zh:
+      - 立志学医
+    start_date: '0555'
+    highlight_event_id: guji-孙思邈-event-study
   - key: breakthrough
-    name: 临证验证
+    name: 隐居太白山行医采药
     labels:
-      zh: 临证化裁
-    start_date: '0650'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh:
+      - 行医济世
+    start_date: '0610'
+    highlight_event_id: guji-孙思邈-event-practice
   - key: climax
-    name: 千金成书
+    name: 撰成千金要方三十卷
     labels:
-      zh: 集成大成
-    start_date: 0659
+      zh:
+      - 著书立说
+    start_date: '0652'
     highlight_event_id: guji-孙思邈-event-qianjin
+  - key: closure
+    name: 晚年续撰翼方以补阙遗
+    labels:
+      zh:
+      - 晚年成书
+    start_date: 0680
+    highlight_event_id: guji-孙思邈-event-death
   decisions:
+  - date: '0610'
+    title_zh: 辞征辟隐居山林行医
+    rationale: 不慕仕进愿采药治病以医药济苍生
   - date: '0652'
-    title_zh: 辞征辟坚隐太白
-    rationale: 不慕官爵以保全真专心著书方能兼济众生故辞朝廷之召
-  - date: 0659
-    title_zh: 立大医精诚收贫富方
-    rationale: 人命至重贵贱同医故兼收南北经方与民间单验不分贵贱皆治
+    title_zh: 发愿集方撰千金要方
+    rationale: 念人命至重贵于千金欲传经方以救将来
 - id: guji-孙思邈-endeavor-2
-  person_id: guji-孙思邈
-  title_zh: 传留海上方简便验廉
-  summary: 晚年搜集海上仙方以歌诀传百余证皆取易得之药并传养生铭以劝世
+  title_zh: 立房中补益之论以节欲养生
+  summary_zh: 论四十当识房中阐闭固采气施泻还补之法明禁忌求子之度以广养生
   phases:
   - key: brewing
-    name: 搜集海上验方
+    name: 年四十觉气衰悟养生之要
     labels:
-      zh: 简验搜集
-    start_date: '0665'
+      zh:
+      - 悟道养生
+    start_date: '0610'
+    highlight_event_id: guji-孙思邈-event-practice
+  - key: breakthrough
+    name: 阐闭固采气数交一泻之法
+    labels:
+      zh:
+      - 阐说房中
+    start_date: '0652'
     highlight_event_id: guji-孙思邈-event-qianjin
   - key: climax
-    name: 海上方流传
+    name: 论还精补脑禁忌求子之度
     labels:
-      zh: 普济便民
-    start_date: 0680
-    highlight_event_id: guji-孙思邈-event-haishang
+      zh:
+      - 明法垂诫
+    start_date: '0630'
+    highlight_event_id: guji-孙思邈-event-admonish
   - key: closure
-    name: 养生铭示人
+    name: 以野老纵欲早亡诫将来
     labels:
-      zh: 养生全真
-    start_date: 0681
-    highlight_event_id: guji-孙思邈-event-haishang
+      zh:
+      - 以案示戒
+    start_date: '0630'
+    highlight_event_id: guji-孙思邈-event-admonish
   decisions:
-  - date: '0670'
-    title_zh: 取简廉草土之药
-    rationale: 贫苦者难以备参茸故取车轮土砖青虾蟆衣等易得之物以应急患
-  - date: 0680
-    title_zh: 以歌诀传方并传养生
-    rationale: 方多难记故作七言歌诀列病于首并附枕上记养生铭使人易览易守
+  - date: '0640'
+    title_zh: 戒四十以前不言房中
+    rationale: 少年欲心未止兼饵补药必精髓枯竭故须慎之
+  - date: '0652'
+    title_zh: 立节欲补益不淫佚之旨
+    rationale: 房中本为遣疾延年非为快意纵情故务存节欲闭固采气
 events:
 - id: guji-孙思邈-event-birth
-  person_id: guji-孙思邈
+  title_zh: 出生于京兆华原
+  date: '0541'
+  year_of: 541
   type: birth
-  date: 0581
-  year_of: 581
-  title_zh: 生于京兆华原
-  description: 隋开皇元年左右生于京兆华原幼多病遂发愤学医博览经史百家
+  description_zh: 隋大统年间生于京兆华原少时聪慧好学
+- id: guji-孙思邈-event-study
+  title_zh: 少年好学博涉经史百家
+  date: '0555'
+  year_of: 555
+  type: career
+  description_zh: 幼少好学博涉经史百家立志以医济世
+- id: guji-孙思邈-event-practice
+  title_zh: 隐居太白山行医采药
+  date: '0610'
+  year_of: 610
+  type: career
+  description_zh: 辞征辟隐居山林采药治病声名远播
+- id: guji-孙思邈-event-admonish
+  title_zh: 贞观初诫野老膏火将竭
+  date: '0630'
+  year_of: 630
+  type: career
+  description_zh: 贞观初有七十野老春情猛发余以膏火将竭喻之令闭精息欲后果四旬发病而死遂疏其事以勖将来
 - id: guji-孙思邈-event-qianjin
-  person_id: guji-孙思邈
-  type: achievement
-  date: 0659
-  year_of: 659
-  title_zh: 撰成备急千金要方
-  description: 隐居太白山中博采群经并临床验方撰成三十卷千金要方立大医精诚之训
-- id: guji-孙思邈-event-haishang
-  person_id: guji-孙思邈
-  type: achievement
-  date: 0680
-  year_of: 680
-  title_zh: 传留海上方与养生铭
-  description: 晚年以简验廉便之海上仙方及枕上记养生铭传世治暑热伤寒疮毒产难等百余证皆一味易得之药
+  title_zh: 撰成千金要方及房中补益论
+  date: '0652'
+  year_of: 652
+  type: career
+  description_zh: 集古今方书撰成备急千金要方其中房中补益专论节欲固精采气施泻禁忌求子之法
 - id: guji-孙思邈-event-death
-  person_id: guji-孙思邈
-  type: death
+  title_zh: 卒于唐永淳元年
   date: 0682
   year_of: 682
-  title_zh: 卒于长安享年百余岁
-  description: 唐永淳元年卒遗命薄葬唐廷追赠后世尊为药王真人祀于药王山
+  type: death
+  description_zh: 永淳元年卒享年百余岁遗方书垂后世尊为药王

@@ -18,115 +18,119 @@ person:
   birth_date: 1693
   death_date: 1771
   era: 清
-  reign_ref: 康熙至乾隆
+  reign_ref: 乾隆
   archetype: 名医
   dilemmas:
-  - 博通经史而深疾时医苟且，如何以著述溯源正流以救其弊
-  - 妇人经候胎产虚实寒热错杂，如何审冲任脾胃心肝而不妄投温凉补泻
-  lesson: 调经必先去病，审冲任胞胎之本，扶元理湿，随寒热虚瘀痰湿风气而权变
-  summary_first_person: 吾吴江徐大椿，字灵胎，号洄溪，少通经史而弃举业专究医，尝谓冲为血海任主胞胎，女子以经候为本，故分经候种子胎前三门而撰女科指要，主以四物调经，随血热血寒血瘀血枯而清温破润，愿后学审脉辨证以全妇人之生
+  - title_zh: 守古法与徇时俗
+    description: 世医废古书而专用温补，我若直言痛斥则孤立难容，若沉默则坐视枉死
+  - title_zh: 救人与醒世
+    description: 临证所救不过一人一时，著书立说方能挽回风气而绵斯道于一线
+  lesson: 由浅入深守定法，对症用药驱邪为先，慎用温补以保生民之寿
+  summary_first_person: 我弱冠时家多疾病，因翻阅家藏医书而入医门，十余年上追灵素下沿汉唐，注难经，注本草，作医学源流论与伤寒类方，批阅千卷泛览万卷，目击庸医以参附熟地误人，悲悯填胸而作慎疾刍言，愿以敬慎寡过以明哲保身
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A5%B3%E7%A7%91%E6%8C%87%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A5%B3%E7%A7%91%E6%8C%87%E8%A6%81.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%85%8E%E7%96%BE%E5%88%8D%E8%A8%80.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%85%8E%E7%96%BE%E5%88%8D%E8%A8%80.html
 endeavors:
 - id: guji-徐大椿-endeavor-1
-  title_zh: 会通医经著述立说
-  description: 潜心经史本草，著难经经释医学源流论兰台轨范等以正时医之失
+  person_id: guji-徐大椿
+  title_zh: 穷经注书明医学源流
+  summary: 半生攻苦博览经方，注难经本草，作源流论与伤寒类方以正根源
   phases:
   - key: brewing
-    name: 弃举业而究医经
+    name: 弱冠翻阅家藏渐入医门
     labels:
-      zh: 潜心经史本草
-    start_date: 1710
-    highlight_event_id: guji-徐大椿-event-study
+      zh:
+      - 积学
+      - 溯源
+    start_date: 1713
+    highlight_event_id: guji-徐大椿-event-zhujing
   - key: breakthrough
-    name: 释难经著源流论
+    name: 注难经本草成一家言
     labels:
-      zh: 源流论成
-    start_date: 1757
-    highlight_event_id: guji-徐大椿-event-yuanliulun
-  - key: climax
-    name: 编兰台轨范辑良方
-    labels:
-      zh: 方书医案并行
-    start_date: 1764
-    highlight_event_id: guji-徐大椿-event-lantai
+      zh:
+      - 注经
+      - 明理
+    start_date: 1733
+    highlight_event_id: guji-徐大椿-event-yuanliu
   - key: closure
-    name: 医著汇刊惠后学
+    name: 源流伤寒类方并传于世
     labels:
-      zh: 著述成家
-    start_date: 1770
-    highlight_event_id: guji-徐大椿-event-death
+      zh:
+      - 立论
+      - 传道
+    start_date: 1753
+    highlight_event_id: guji-徐大椿-event-yuanliu
   decisions:
-  - date: 1757
-    title_zh: 著医学源流论以论病家用药之失
-    rationale: 时医不通经义妄投寒热，故欲溯源正流，使病家知医而择术不误
-  - date: 1764
-    title_zh: 编兰台轨范以辑先贤可信良方
-    rationale: 方虽古而法可今用，采其确有见效者以便临床检用而去附会之弊
+  - date: 1733
+    title_zh: 先注难经以立根基
+    rationale: 学必由浅入深，不明经络本义则方无所据，故十年注经不求速效
+  - date: 1753
+    title_zh: 作源流论以统谈医学
+    rationale: 世医各执一说莫能一致，须上追灵素下沿汉唐以辨源流得失
 - id: guji-徐大椿-endeavor-2
-  title_zh: 专论女科撰指要以济妇人
-  description: 分经候种子胎前三门，论经闭痛经潮热鼻衄带下崩漏恶阻胎动，以四物逍遥为主随证加减
+  person_id: guji-徐大椿
+  title_zh: 作慎疾刍言痛斥温补之弊
+  summary: 抠心挖骨剖悉时弊，戒补剂误人，详论中风咳嗽吐血暑痢胎产小儿外科治法
   phases:
   - key: brewing
-    name: 审冲任胞胎之本
+    name: 目击枉死心伤积愤
     labels:
-      zh: 经候为先
-    start_date: 1750
-    highlight_event_id: guji-徐大椿-event-yuanliulun
-  - key: breakthrough
-    name: 立经闭痛经潮热鼻衄带下诸门
-    labels:
-      zh: 经候门立
+      zh:
+      - 悯世
+      - 察弊
     start_date: 1760
-    highlight_event_id: guji-徐大椿-event-nvke
+    highlight_event_id: guji-徐大椿-event-chuyan
   - key: climax
-    name: 明种子胎前恶阻胎动之治
+    name: 乾隆丁亥成慎疾刍言
     labels:
-      zh: 种子胎前成
-    start_date: 1762
-    highlight_event_id: guji-徐大椿-event-nvke
+      zh:
+      - 醒世
+      - 戒补
+    start_date: 1767
+    highlight_event_id: guji-徐大椿-event-chuyan
   - key: closure
-    name: 女科指要刊行训后学
+    name: 付刊流传冀遇信从
     labels:
-      zh: 指要告成
-    start_date: 1765
-    highlight_event_id: guji-徐大椿-event-lantai
+      zh:
+      - 流传
+      - 保身
+    start_date: 1767
+    highlight_event_id: guji-徐大椿-event-chuyan
   decisions:
-  - date: 1760
-    title_zh: 以四物为调经主方随寒热虚瘀加减
-    rationale: 血热宜清凉以利血脉，血寒宜温热以资化源，血瘀宜破宜消，血枯宜润宜补，故先去病而后调经
-  - date: 1762
-    title_zh: 分经候种子胎前三卷以次施治
-    rationale: 经调而后可孕，孕而后可保胎，故循冲为血海任主胞胎之序，使旧血去而新血生
+  - date: 1767
+    title_zh: 增订刍言为慎疾刍言
+    rationale: 统谈医学无惊心动魄之语不足开悟，须痛快剖悉补住外邪之害以令人豁然
+  - date: 1767
+    title_zh: 力主散邪清热反对蛮补
+    rationale: 外感总以散热为治，邪补住则永不复出，故立浅近定法以救中风痨嗽胎产之死
 events:
 - id: guji-徐大椿-event-birth
+  person_id: guji-徐大椿
+  title_zh: 出生于吴江
   date: 1693
   year_of: 1693
-  title_zh: 生于江苏吴江
-  description: 康熙三十二年生于吴江世家，名大业，字灵胎，晚号洄溪老人
-- id: guji-徐大椿-event-study
-  date: 1727
-  year_of: 1727
-  title_zh: 注难经潜心医经
-  description: 少通经史不就科举，专究内难伤寒本草，释难经以明经络脏腑之源
-- id: guji-徐大椿-event-yuanliulun
+  description: 康熙三十二年生于江苏吴江，字灵胎号洄溪
+- id: guji-徐大椿-event-zhujing
+  person_id: guji-徐大椿
+  title_zh: 注难经本草
+  date: 1743
+  year_of: 1743
+  description: 弱冠后十余年注难经，又十余年注本草，批阅千卷泛览万卷而学以年进
+- id: guji-徐大椿-event-yuanliu
+  person_id: guji-徐大椿
+  title_zh: 作医学源流论伤寒类方
   date: 1757
   year_of: 1757
-  title_zh: 著医学源流论进呈
-  description: 论病家用药之得失，辨经络脏腑脉医药治之源流，名动京师而征议太医院事
-- id: guji-徐大椿-event-nvke
-  date: 1762
-  year_of: 1762
-  title_zh: 撰女科指要分三门论治
-  description: 分卷一经候门论经闭痛经潮热鼻衄带下崩漏，卷二种子门，卷三胎前门论恶阻胎动漏胎，主四物逍遥二陈二术随证化裁
-- id: guji-徐大椿-event-lantai
-  date: 1764
-  year_of: 1764
-  title_zh: 编兰台轨范辑先贤良方
-  description: 辑古今可信方治以便习用，并著洄溪医案记平生验案，与女科指要相表里而广传
+  description: 作医学源流论以统论得失，五年后著伤寒类方以明仲景制方之义
+- id: guji-徐大椿-event-chuyan
+  person_id: guji-徐大椿
+  title_zh: 乾隆丁亥成慎疾刍言
+  date: 1767
+  year_of: 1767
+  description: 秋七月自识成慎疾刍言，详辨补剂用药中风咳嗽吐血暑痢及妇人小儿外科之误
 - id: guji-徐大椿-event-death
+  person_id: guji-徐大椿
+  title_zh: 逝世
   date: 1771
   year_of: 1771
-  title_zh: 卒于乾隆三十六年
-  description: 年七十九而终，遗著汇刊为洄溪医书，女科指要为后世妇科调经种子安胎之要
+  description: 乾隆三十六年卒，一生以正医法活人无算，遗书由曾孙校刊流传

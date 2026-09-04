@@ -1,0 +1,138 @@
+person:
+  qid: guji-窦材
+  name_zh: 窦材
+  names:
+    zh: 窦材
+    en: Dou Cai
+  lifespan:
+    birth:
+      date: '1083'
+      precision: year
+      is_circa: true
+      raw: 约北宋元祐末生于河朔真定
+    death:
+      date: '1150'
+      precision: year
+      is_circa: true
+      raw: 南宋绍兴末后卒
+  birth_date: '1083'
+  death_date: '1150'
+  era: 南宋
+  reign_ref: 宋高宗绍兴
+  archetype: 扶阳圣医
+  dilemmas:
+  - 小疾百发百中而大病百无二三何以起沉疴回生
+  - 秘法自珍恐失传招忌与尽传心法救苍生之抉择
+  lesson: 保扶阳气为本以灸艾丹附挽真阳方能救大病延寿
+  summary_first_person: 余河朔真定寒士业医四世初博众家方书治小疾效而临大病不救后师关中老医三年尽得岐黄扶阳灸艾之法参合灵素百发百中五十余年行医四方集成扁鹊心书以救万世夭枉
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%89%81%E9%B9%8A%E5%BF%83%E4%B9%A6.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%89%81%E9%B9%8A%E5%BF%83%E4%B9%A6.md
+endeavors:
+- id: guji-窦材-endeavor-1
+  title_zh: 师老医得岐黄扶阳灸艾正法
+  summary: 初习诸家方书不效于大病后师关中老医尽得灸艾丹附扶阳之法行医四方屡起沉疴自命第三扁鹊
+  phases:
+  - key: brewing
+    name: 初博六子书而困于大病
+    labels:
+      zh: 业医四世博采众方
+    start_date: '1100'
+    highlight_event_id: guji-窦材-event-study
+  - key: breakthrough
+    name: 师关中老医尽得真传
+    labels:
+      zh: 尽弃小技得扶阳正脉
+    start_date: '1120'
+    highlight_event_id: guji-窦材-event-learn
+  - key: climax
+    name: 四方治验衢州救肿妇
+    labels:
+      zh: 灸艾丹药起大病百发百中
+    start_date: '1140'
+    highlight_event_id: guji-窦材-event-quzhou
+  - key: closure
+    name: 参合灵素洞贯其理
+    labels:
+      zh: 以灸艾第一丹药第二附子第三立法
+    start_date: '1145'
+    highlight_event_id: guji-窦材-event-quzhou
+  decisions:
+  - date: '1120'
+    title_zh: 弃小技而师关中老医
+    rationale: 自知所学非岐黄正派只能调小疾不能起大病故追随三年求正法
+  - date: '1140'
+    title_zh: 专主扶阳灸艾丹附
+    rationale: 真气壮则人强真气脱则人死故以灼艾补接真气以丹附保元阳禁寒凉转下
+- id: guji-窦材-endeavor-2
+  title_zh: 集成扁鹊心书奏进颁行天下
+  summary: 恐身填沟壑书失传遂集四十余年治验成书奏玉帝进朝廷愿颁行天下以救君亲济斯民
+  phases:
+  - key: brewing
+    name: 追随先师积累治验
+    labels:
+      zh: 五十余年消息正道
+    start_date: '1123'
+    highlight_event_id: guji-窦材-event-learn
+  - key: breakthrough
+    name: 因母病悟仲景法之不足
+    labels:
+      zh: 精究内经默授灵验
+    start_date: '1130'
+    highlight_event_id: guji-窦材-event-quzhou
+  - key: climax
+    name: 集成医流正道成书
+    labels:
+      zh: 明经络识扶阳戒寒凉
+    start_date: '1146'
+    highlight_event_id: guji-窦材-event-writing
+  - key: closure
+    name: 奏表进书愿广其传
+    labels:
+      zh: 刊刻流传救万世夭枉
+    start_date: '1146'
+    highlight_event_id: guji-窦材-event-writing
+  decisions:
+  - date: '1146'
+    title_zh: 不敢自私刊刻流传
+    rationale: 恐遭天谴且虑身后失传故奏启上帝进表朝廷以求颁行天下
+  - date: '1146'
+    title_zh: 立重誓以质上帝
+    rationale: 若一言不实甘受天殃若果益后世愿神天护佑广传以明救世婆心
+events:
+- id: guji-窦材-event-birth
+  title_zh: 生于河朔真定医门世家
+  date: '1083'
+  year_of: 1083
+  type: birth
+  description: 河朔真定寒士世祖隶传医学内舍相传业医四世
+- id: guji-窦材-event-study
+  title_zh: 初学医博六子之书
+  date: '1100'
+  year_of: 1100
+  type: career
+  description: 尽博仲景叔和思邈等书调小疾百发百中临大病百无二三怅己术不精
+- id: guji-窦材-event-learn
+  title_zh: 师关中老医得扶阳正法
+  date: '1120'
+  year_of: 1120
+  type: career
+  description: 遇关中老医笑其非岐黄正派遂师之三年尽授灸艾丹附之法反复参详遂与内经合旨
+- id: guji-窦材-event-quzhou
+  title_zh: 路过衢州野店救浮肿妇
+  date: '1140'
+  year_of: 1140
+  type: career
+  description: 以保命延寿丹及灸左命关二百壮治愈遍身浮肿妇人世称为扁鹊再生自任第三扁鹊
+- id: guji-窦材-event-writing
+  title_zh: 绍兴十六年序书奏进扁鹊心书
+  date: '1146'
+  year_of: 1146
+  type: career
+  description: 以武翼郎前开州巡检作序奏玉帝青辞进医书表集成心法刊刻流传愿颁行天下救苍生夭横
+- id: guji-窦材-event-death
+  title_zh: 绍兴末后卒
+  date: '1150'
+  year_of: 1150
+  type: death
+  description: 年过耳顺后常灸关元命门服保命延寿丹老年康健后卒书传于世
