@@ -8,119 +8,136 @@ person:
     birth:
       date: 1798
       precision: year
-      is_circa: false
-      raw: 嘉庆三年
+      is_circa: true
+      raw: 清嘉庆年间生于无锡
     death:
       date: 1862
       precision: year
-      is_circa: false
-      raw: 同治元年
+      is_circa: true
+      raw: 同治初年卒享高寿
   birth_date: 1798
   death_date: 1862
   era: 清
-  reign_ref: 嘉庆至同治
-  archetype: 良医方书家
+  reign_ref: 道光咸丰
+  archetype: 宗仲圣而熔古化新的类方歌注大家
   dilemmas:
-  - 方书浩繁初学难记难用
-  - 时疫杂病多变守方拘泥易误
-  lesson: 以歌括载方以辨证活法执简驭繁记而能用
-  summary_first_person: 吾泰林浙江瑞安人也少习岐黄行医江浙见古方浩博初学难入门故增订歌诀分门载方兼注辨证明理欲使后学记诵不忘临证有据
+  - 宗仲圣古方为宗与博采后世诸家之长之间如何审慎去取
+  - 毕生勤著与晚年散佚无嗣传承之间如何保全医道不坠
+  lesson: 以仲圣方为宗而不拘泥一家集古今之长方能应变无穷
+  summary_first_person: 我名泰林字旭高晚号退思居士无锡人也上自轩岐下迄清季无不精心研求以灵胎伤寒类方化裁为退思集类方歌注兼及金匮后世方分为二十四类虽享名苏浙而晚年著述多散佚惟愿此残编得传以广医道
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A2%9E%E8%AE%A2%E5%8C%BB%E6%96%B9%E6%AD%8C%E8%AF%80.html
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A2%9E%E8%AE%A2%E5%8C%BB%E6%96%B9%E6%AD%8C%E8%AF%80.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%80%80%E6%80%9D%E9%9B%86%E7%B1%BB%E6%96%B9%E6%AD%8C%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%80%80%E6%80%9D%E9%9B%86%E7%B1%BB%E6%96%B9%E6%AD%8C%E6%B3%A8.md
 endeavors:
 - id: guji-王泰林-endeavor-1
-  title_zh: 临证行医辨证明理
-  goal_zh: 诊治时疫杂病救治危重
+  title_zh: 化裁类方编著退思集类方歌注
+  summary: 本徐灵胎伤寒类方附以金匮及后世方分二十四类作歌注遵徐书而博采群书间附自制方以仲圣为宗而熔古化新
   phases:
   - key: brewing
-    name: 少习岐黄博览方书
+    name: 博览研求奠基
     labels:
       zh:
-      - 习医
-      - 博览
-    start_date: 1813
-    highlight_event_id: guji-王泰林-event-practice
+      - 遍读轩岐
+      - 研求古训
+    start_date: 1818
+    highlight_event_id: guji-王泰林-event-fame
   - key: breakthrough
-    name: 行医江浙辨证活法
+    name: 化裁徐氏类方
     labels:
       zh:
-      - 临证
-      - 辨证
-    start_date: 1828
-    highlight_event_id: guji-王泰林-event-practice
-  - key: climax
-    name: 养阴轻清自成家法
-    labels:
-      zh:
-      - 养阴
-      - 轻清
+      - 类方编辑
+      - 歌诀注疏
     start_date: 1840
-    highlight_event_id: guji-王泰林-event-practice
-  decisions:
-  - date: 1828
-    title_zh: 不泥成方随证化裁
-    rationale: 时疫杂病证多兼夹须随脉证加减方能应变
-  - date: 1840
-    title_zh: 宗养阴而用轻清
-    rationale: 江浙多湿热阴虚之体滋腻碍胃轻清养阴方能护津保肺
-- id: guji-王泰林-endeavor-2
-  title_zh: 增订医方歌诀成书
-  goal_zh: 分门歌括便初学记诵临证
-  phases:
-  - key: brewing
-    name: 搜集诸家方论
-    labels:
-      zh:
-      - 搜方
-      - 校注
-    start_date: 1845
-    highlight_event_id: guji-王泰林-event-compile
-  - key: breakthrough
-    name: 分门编歌增订旧诀
-    labels:
-      zh:
-      - 编歌
-      - 增订
-    start_date: 1852
     highlight_event_id: guji-王泰林-event-compile
   - key: climax
-    name: 补益发汗攻下和解等门告成
+    name: 二十四类歌注初成
     labels:
       zh:
-      - 成书
-      - 传学
-    start_date: 1860
+      - 分科别类
+      - 明白注释
+    start_date: 1850
+    highlight_event_id: guji-王泰林-event-compile
+  - key: closure
+    name: 残稿沉水仅存
+    labels:
+      zh:
+      - 残缺未定
+      - 惜佚存真
+    start_date: 1862
     highlight_event_id: guji-王泰林-event-compile
   decisions:
+  - date: 1840
+    title_zh: 以伤寒类方为纲附金匮后世方
+    rationale: 从流溯源使人知熔古化新之妙应变无穷
+  - date: 1850
+    title_zh: 作歌注而去取审慎不泥一家
+    rationale: 虽宗仲圣而集仲圣以下医方之长注释明白便学人熟读精思
+- id: guji-王泰林-endeavor-2
+  title_zh: 苏浙行医授徒并著夜话录医案
+  summary: 道咸之间享名苏浙以治案验方学临证撰西溪书屋夜话录环溪草堂医案医方歌诀串解等授门弟子惜无嗣而多散佚
+  phases:
+  - key: brewing
+    name: 苏浙临证行医
+    labels:
+      zh:
+      - 临证诊治
+      - 验案积累
+    start_date: 1825
+    highlight_event_id: guji-王泰林-event-fame
+  - key: breakthrough
+    name: 道咸享名授徒
+    labels:
+      zh:
+      - 名重苏浙
+      - 门人传业
+    start_date: 1835
+    highlight_event_id: guji-王泰林-event-fame
+  - key: climax
+    name: 夜话录医案撰述
+    labels:
+      zh:
+      - 著述立说
+      - 辨疑析似
+    start_date: 1852
+    highlight_event_id: guji-王泰林-event-teach
+  - key: closure
+    name: 著述散佚医案选刊独传
+    labels:
+      zh:
+      - 沉水散佚
+      - 选刊流传
+    start_date: 1908
+    highlight_event_id: guji-王泰林-event-teach
+  decisions:
+  - date: 1835
+    title_zh: 坚持研古训而分别疑似不拘泥一家言
+    rationale: 于古书研求古训于后人书分别疑似以治案验证方论
   - date: 1852
-    title_zh: 以歌诀载方注中兼明经义
-    rationale: 方多难记以韵语括之注中发明仲景金匮要旨使记而能悟
-  - date: 1860
-    title_zh: 增订而不废旧存阙以俟考
-    rationale: 旧本舛错无副本可勘宁存其旧以俟后贤订正不敢臆改
+    title_zh: 撰夜话录歌括及湿热论歌诀以训后学
+    rationale: 以歌诀串解便记诵以夜话录明医理使医学要旨不湮没
 events:
 - id: guji-王泰林-event-birth
-  title_zh: 出生
   date: 1798
   year_of: 1798
-  place_zh: 浙江瑞安
-  description_zh: 嘉庆三年生于浙江瑞安少聪慧有志于医
-- id: guji-王泰林-event-practice
-  title_zh: 行医江浙名重一时
-  date: 1828
-  year_of: 1828
-  place_zh: 江浙
-  description_zh: 游历江浙临证诊治时疫杂病以养阴轻清活法救人甚众
+  title_zh: 生于江苏无锡
+  description: 清嘉庆年间生于无锡王氏昆季五人中最少自幼读书留心医学
+- id: guji-王泰林-event-fame
+  date: 1835
+  year_of: 1835
+  title_zh: 道咸之间享名苏浙
+  description: 上自轩岐下迄清季精心灌注临证精切道咸之间享名于苏浙
 - id: guji-王泰林-event-compile
-  title_zh: 增订医方歌诀成书
-  date: 1860
-  year_of: 1860
-  place_zh: 江南
-  description_zh: 分补益发汗攻下和解诸门以歌括载方兼注辨证精义以便初学记诵
+  date: 1850
+  year_of: 1850
+  title_zh: 编成退思集类方歌注
+  description: 本徐灵胎伤寒类方化裁兼料金匮后世方分二十四类作歌注间附新注自制方尚非定本多批改删并之语
+- id: guji-王泰林-event-teach
+  date: 1855
+  year_of: 1855
+  title_zh: 著夜话录授门弟子
+  description: 著西溪书屋夜话录医方歌诀串解环溪草堂医案等授徒各走一方晚年著述多经散佚
 - id: guji-王泰林-event-death
-  title_zh: 逝世
   date: 1862
   year_of: 1862
-  place_zh: 浙江
-  description_zh: 同治元年卒平生方论歌诀流传后世为医门便览
+  title_zh: 高寿而卒无嗣
+  description: 享高寿而卒无嗣门弟子散去著述六十年来散佚殆尽仅沉水残稿二种存世

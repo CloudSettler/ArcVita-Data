@@ -11,129 +11,136 @@ person:
       is_circa: true
       raw: 康熙二十八年左右
     death:
-      date: 1784
+      date: 1748
       precision: year
       is_circa: true
-      raw: 乾隆四十九年左右
+      raw: 乾隆十三年左右
   birth_date: 1689
-  death_date: 1784
+  death_date: 1748
   era: 清
   reign_ref: 乾隆
-  archetype: 御医纂修者
+  archetype: 医官汇纂者
   dilemmas:
-  - 遵古经文与变通次第之间如何启发后学
-  - 博采百家注释与删繁就简之间如何裨益实用
-  - 正误改补与存疑备考之间如何不没人善
-  lesson: 博集众注采其精粹，正其错讹补其阙漏，以简易明显阐发微言，足裨实用
-  summary_first_person: 吾吴谦，歙县人，供奉太医院，奉敕纂修医宗金鉴，复合伤寒金匮为仲景全书，以仲景全书为准参校众本，仍方有执条辨而变通次第，首经文次注释次集注次方药，于错简遗误详辨于本条之下，难解者别汇正误存疑二帙，务使大法微言昭于万世
+  - 内经运气奥博难明与初学难入之衡
+  - 奉敕限期成书与精校医理不敢苟且之衡
+  lesson: 化繁为简以歌诀图说明运气大纲，先得其要再求全经精义
+  summary_first_person: 吾吴谦，奉诏总裁医宗金鉴，取内经运气要语编为歌诀列图于前，愿学人一览即明大纲，再遍求全经而有所得
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%AE%A2%E6%AD%A3%E4%BB%B2%E6%99%AF%E5%85%A8%E4%B9%A6%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%AE%A2%E6%AD%A3%E4%BB%B2%E6%99%AF%E5%85%A8%E4%B9%A6%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%BF%90%E6%B0%94%E8%A6%81%E8%AF%80.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%BF%90%E6%B0%94%E8%A6%81%E8%AF%80.html
 endeavors:
 - id: guji-吴谦-endeavor-1
-  title_zh: 奉敕纂修医宗金鉴
-  description: 任太医院判奉乾隆敕主持编纂医宗金鉴九十卷，统摄伤寒金匮儿科外科诸门，颁行天下以为医门法程
+  title_zh: 奉敕总裁医宗金鉴
+  summary: 乾隆初奉诏汇集太医院众医分门纂修医宗金鉴九十卷以正医道惠天下
   phases:
   - key: brewing
-    name: 供奉太医院积验
+    name: 征召入馆
     labels:
-      zh: 太医院历练
-    start_date: 1725
-    highlight_event_id: guji-吴谦-event-taiyiyuan
-  - key: breakthrough
-    name: 开馆纂修定体例
-    labels:
-      zh: 开馆定例
+      zh:
+      - 筹备
     start_date: 1739
     highlight_event_id: guji-吴谦-event-jinjian-start
-  - key: climax
-    name: 金鉴告成颁行天下
+  - key: breakthrough
+    name: 分门纂修
     labels:
-      zh: 金鉴告成
+      zh:
+      - 编纂
+    start_date: 1740
+    highlight_event_id: guji-吴谦-event-jinjian-compile
+  - key: climax
+    name: 告成进呈
+    labels:
+      zh:
+      - 成书
     start_date: 1742
     highlight_event_id: guji-吴谦-event-jinjian-done
   - key: closure
-    name: 训迪后学广为流布
+    name: 刊行颁布
     labels:
-      zh: 垂训后学
+      zh:
+      - 流布
     start_date: 1743
     highlight_event_id: guji-吴谦-event-jinjian-done
   decisions:
   - date: 1739
-    title_zh: 以仲景全书为准参校众本
-    rationale: 旧本字有增减节有分合正误不一，须立善本为准参众家以昭画一
-  - date: 1742
-    title_zh: 别立正误存疑附卷末备考
-    rationale: 全节文义不符难强解者另汇正误存疑，既不牵强注经又不没可采之句
+    title_zh: 以图说歌诀体统摄各科
+    rationale: 医籍浩繁业医者难得其要，故立删繁就简分科列图以便诵习
+  - date: 1741
+    title_zh: 坚持校勘内经原文不苟从旧注
+    rationale: 恐讹传误人，必稽核经文注证明确方定稿
 - id: guji-吴谦-endeavor-2
-  title_zh: 订正伤寒论注阐发经旨
-  description: 复林亿分二书为一书，首六经次合病并病次坏病温病诸篇，注文简易明显，每方详君臣佐使煎服之宜，为群方之冠立通治百病之法
+  title_zh: 编运气要诀歌括
+  summary: 取内经运气要语编成歌诀并列图于前使学人一览即明大纲旨要所在
   phases:
   - key: brewing
-    name: 博集伤寒注家精粹
+    name: 推演太虚阴阳五行
     labels:
-      zh: 博采注家
-    start_date: 1739
-    highlight_event_id: guji-吴谦-event-jinjian-start
-  - key: breakthrough
-    name: 分经列证出方立法
-    labels:
-      zh: 分经立法
+      zh:
+      - 立论
     start_date: 1740
-    highlight_event_id: guji-吴谦-event-shanghan-zhu
+    highlight_event_id: guji-吴谦-event-yunqi-theory
+  - key: breakthrough
+    name: 歌括主客运气
+    labels:
+      zh:
+      - 编歌
+    start_date: 1741
+    highlight_event_id: guji-吴谦-event-yunqi-theory
   - key: climax
-    name: 桂枝麻黄青龙发明纲领
+    name: 图说司天在泉
     labels:
-      zh: 发明纲领
+      zh:
+      - 制图
     start_date: 1742
-    highlight_event_id: guji-吴谦-event-shanghan-zhu
+    highlight_event_id: guji-吴谦-event-jinjian-done
   - key: closure
-    name: 方解集解详煎服助药力法
+    name: 示人先纲后经
     labels:
-      zh: 方解垂法
-    start_date: 1743
+      zh:
+      - 垂训
+    start_date: 1742
     highlight_event_id: guji-吴谦-event-jinjian-done
   decisions:
-  - date: 1740
-    title_zh: 仍方有执条辨而变通先后次序
-    rationale: 千载遗书位置无常难以为法，不拘泥前人惟在启发后学融会贯通
+  - date: 1741
+    title_zh: 以歌诀统摄运气要语
+    rationale: 运气经文散见难记，故编太虚阴阳五行主客运气诸歌以便记诵
   - date: 1742
-    title_zh: 每方必解立方主治与服法
-    rationale: 上古有法无方自仲景始有法有方，水火煎渍服之频顿各有适病之宜，前人置而不论者必备录详解
+    title_zh: 列图于前先明大纲
+    rationale: 图象直观一览即明，使初学得其纲要然后遍求全经精义
 events:
 - id: guji-吴谦-event-birth
-  title_zh: 生于安徽歙县
+  kind: birth
+  title_zh: 出生于徽州歙县
   date: 1689
   year_of: 1689
-  event_type: birth
-  description: 吴谦生于歙县，字六吉，少习岐黄，后供奉京师
-- id: guji-吴谦-event-taiyiyuan
-  title_zh: 供奉太医院擢院判
-  date: 1735
-  year_of: 1735
-  event_type: career
-  description: 雍正乾隆之际供奉太医院，以医术精勤擢太医院判，总理院务
+  description: 生于徽州歙县，少习儒而究心于医，精于内经运气之学
 - id: guji-吴谦-event-jinjian-start
-  title_zh: 奉敕开馆纂修医宗金鉴
+  kind: career
+  title_zh: 奉诏入太医院总裁金鉴
   date: 1739
   year_of: 1739
-  event_type: career
-  description: 奉乾隆敕与刘裕铎等会同纂修，定凡例九条，以仲景全书为准，分经列门，博采注家
-- id: guji-吴谦-event-shanghan-zhu
-  title_zh: 订正仲景全书伤寒论注成
-  date: 1742
-  year_of: 1742
-  event_type: career
-  description: 伤寒论注卷一至卷末告成，首揭太阳提纲，发明桂枝汤解肌调和营卫为群方之冠，辨脉论愈，别正误存疑
+  description: 乾隆四年奉诏以太医院院判充医宗金鉴总裁，汇众医分科修书
+- id: guji-吴谦-event-jinjian-compile
+  kind: career
+  title_zh: 分纂诸科并著运气要诀
+  date: 1741
+  year_of: 1741
+  description: 统纂内外妇儿针灸诸科，亲撰运气要诀诸歌诀注文明五运六气之理
+- id: guji-吴谦-event-yunqi-theory
+  kind: career
+  title_zh: 明太虚理气生克制化
+  date: 1741
+  year_of: 1741
+  description: 论太虚理气天地阴阳五行生克亢害承制之理以立运气之本
 - id: guji-吴谦-event-jinjian-done
-  title_zh: 医宗金鉴告成颁行天下
+  kind: career
+  title_zh: 医宗金鉴告成进呈
   date: 1742
   year_of: 1742
-  event_type: career
-  description: 医宗金鉴九十卷成，乾隆御制序文颁行，订正仲景全书通行海内，启万世法程
+  description: 医宗金鉴九十卷成书进呈，得旨刊行，运气要诀列为卷首之一
 - id: guji-吴谦-event-death
+  kind: death
   title_zh: 卒于京师
-  date: 1784
-  year_of: 1784
-  event_type: death
-  description: 晚年训迪后学，医著广布，卒于乾隆四十九年左右
+  date: 1748
+  year_of: 1748
+  description: 卒于京师，遗书颁行天下，惠及后学
