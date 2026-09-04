@@ -1,0 +1,145 @@
+person:
+  qid: guji-羊祜
+  name_zh: 羊祜
+  names:
+    zh: 羊祜
+    en: Yang Hu
+  lifespan:
+    birth:
+      date: '0221'
+      precision: year
+      is_circa: false
+      raw: 魏黄初二年生
+    death:
+      date: 0278
+      precision: year
+      is_circa: false
+      raw: 晋咸宁四年卒
+  birth_date: '0221'
+  death_date: 0278
+  era: 魏晋
+  reign_ref: 晋武帝泰始至咸宁
+  archetype: 举贤谋国的儒将
+  dilemmas:
+  - 大才可用与志大者侈不可专任之议何所从
+  - 伐吴远图与朝议持重求安之衡何所守
+  lesson: 举善任才不疑大志，以孝立身以远图报国
+  summary_first_person: 吾年十五而孤，事伯母蔡氏以孝闻，后都督荆州镇襄阳，怀平吴之志而树基址，擢王濬委以巴峡，时人疑其志大侈而不可专任，吾谓有大才必可用，识者谓我知人则哲，虽殁而伐吴之策终成，吾心无憾矣
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E4%B8%89%E5%8D%81%E5%9B%BD%E6%98%A5%E7%A7%8B%E8%BE%91%E6%9C%AC.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E4%B8%89%E5%8D%81%E5%9B%BD%E6%98%A5%E7%A7%8B%E8%BE%91%E6%9C%AC.md
+endeavors:
+- id: guji-羊祜-endeavor-1
+  title_zh: 荆州镇守伐吴奠基
+  goal_zh: 镇襄阳树基址举王濬以图平吴
+  phases:
+  - key: brewing
+    name: 都督荆州镇襄阳
+    labels:
+      zh:
+      - 荆州经略
+    start_date: 0269-02
+    highlight_event_id: guji-羊祜-event-jingzhou
+  - key: breakthrough
+    name: 擢王濬委巴峡
+    labels:
+      zh:
+      - 知人举善
+    start_date: 0269
+    highlight_event_id: guji-羊祜-event-recommend
+  - key: climax
+    name: 力排侈论信大才
+    labels:
+      zh:
+      - 力排众议
+    start_date: '0270'
+    highlight_event_id: guji-羊祜-event-recommend
+  - key: closure
+    name: 遗策启一统
+    labels:
+      zh:
+      - 伐吴奠基
+    start_date: 0278
+    highlight_event_id: guji-羊祜-event-death
+  decisions:
+  - date: 0269-02
+    title_zh: 受任都督荆州镇襄阳
+    rationale: 欲成平吴之志必先树基址于荆州故受重任而经略上游
+  - date: 0269
+    title_zh: 擢王濬为巴郡太守委巴峡之任
+    rationale: 有大才必可用不以志大侈而弃之故排侈论而举之
+- id: guji-羊祜-endeavor-2
+  title_zh: 孝养立身清德垂世
+  goal_zh: 事伯母以孝闻立清德以服众心
+  phases:
+  - key: brewing
+    name: 年十五而孤事伯母
+    labels:
+      zh:
+      - 孝养立身
+    start_date: '0236'
+    highlight_event_id: guji-羊祜-event-filial
+  - key: breakthrough
+    name: 以孝闻得时誉
+    labels:
+      zh:
+      - 孝德彰闻
+    start_date: '0250'
+    highlight_event_id: guji-羊祜-event-filial
+  - key: climax
+    name: 以清德镇荆州
+    labels:
+      zh:
+      - 德信服众
+    start_date: 0269-02
+    highlight_event_id: guji-羊祜-event-jingzhou
+  - key: closure
+    name: 殁后见思于人
+    labels:
+      zh:
+      - 身后见思
+    start_date: 0278
+    highlight_event_id: guji-羊祜-event-death
+  decisions:
+  - date: '0236'
+    title_zh: 孤而尽孝事伯母蔡氏
+    rationale: 少孤无怙当以孝养立身故尽心奉伯母以成能养之名
+  - date: 0269-02
+    title_zh: 以德信怀吴人而不专威略
+    rationale: 欲平吴必先得人心故以清德示信而树长久之基
+events:
+- id: guji-羊祜-event-birth
+  type: birth
+  title_zh: 羊祜出生
+  date: '0221'
+  year_of: 221
+  place_zh: 泰山南城
+  description_zh: 魏黄初二年羊祜生于泰山南城士族年十五而孤
+- id: guji-羊祜-event-filial
+  type: career
+  title_zh: 事伯母以孝闻
+  date: '0236'
+  year_of: 236
+  place_zh: 泰山
+  description_zh: 年十五而孤事伯母蔡氏以孝闻蔡氏叹其能养比于颜叔子
+- id: guji-羊祜-event-jingzhou
+  type: career
+  title_zh: 都督荆州镇襄阳
+  date: 0269-02
+  year_of: 269
+  place_zh: 襄阳
+  description_zh: 泰始五年二月以羊祜都督荆州镇襄阳怀平吴之志方树基址
+- id: guji-羊祜-event-recommend
+  type: career
+  title_zh: 擢王濬委巴峡之任
+  date: 0269
+  year_of: 269
+  place_zh: 襄阳
+  description_zh: 擢王濬为巴郡太守将委以巴峡之任兄子暨谓濬志大侈不可专任祜谓有大才必可用识者谓能举善知人则哲
+- id: guji-羊祜-event-death
+  type: death
+  title_zh: 羊祜卒
+  date: 0278
+  year_of: 278
+  place_zh: 襄阳
+  description_zh: 咸宁四年羊祜卒伐吴奠基之功成于身后
