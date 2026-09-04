@@ -9,106 +9,114 @@ person:
       date: '0222'
       precision: year
       is_circa: false
-      raw: 魏文帝黄初三年
+      raw: 魏黄初三年
     death:
-      date: 0284
+      date: 0285
       precision: year
       is_circa: false
-      raw: 晋武帝太康五年
+      raw: 晋太康五年
   birth_date: '0222'
-  death_date: 0284
+  death_date: 0285
   era: 西晋
   reign_ref: 晋武帝
-  archetype: 经世致用之儒将
+  archetype: 儒将经学家
   dilemmas:
-  - 专宗左氏还是兼采公羊谷梁以释春秋
-  - 伐吴当速发还是安民积粮以待可胜
-  lesson: 以胶投漆以解经，以全谋全功以定天下，学问功业可以相济。
-  summary_first_person: 吾幼承家学，博览经籍，深感左氏义略而事详，遂专取丘明之传以释孔氏之经，名为经传集解。后镇襄阳，修水利，造舆图，力主伐吴而成一统之功。愿后人读经知事，通权识务，不以浮文害理。
+  - 以武功定天下与以经学垂后世何者为重
+  - 守左氏旧章与立一家新义如何两全
+  lesson: 穷经以致用立例以统传文武兼备方能垂久
+  summary_first_person: 吾少好学博览多通镇荆州而图吴平江表而混一晚乃集解左传作释例长历以羽翼经传愿以凡例通圣人之志耳
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B7%A6%E4%BC%A0%E6%B3%A8%E7%96%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B7%A6%E4%BC%A0%E6%B3%A8%E7%96%8F.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%87%8A%E4%BE%8B.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%87%8A%E4%BE%8B.md
 endeavors:
 - id: guji-杜预-endeavor-1
-  title_zh: 集解左氏春秋
-  description_zh: 专取丘明之传以释孔氏之经，分年相附，随而解之，世称左氏功臣。
+  title_zh: 镇荆灭吴混一天下
+  summary_zh: 镇荆州练兵积谷力主伐吴顺流而下平孙吴混一南北
   phases:
   - key: brewing
-    name: 博览三传
+    name: 镇荆州措置军食
     labels:
-      zh: 酝酿
-    start_date: '0235'
-    highlight_event_id: guji-杜预-event-birth
-  - key: breakthrough
-    name: 顿悟丘明大意
-    labels:
-      zh: 突破
-    start_date: '0263'
-    highlight_event_id: guji-杜预-event-annotation
-  - key: closure
-    name: 经传集解成书
-    labels:
-      zh: 收束
-    start_date: '0270'
-    highlight_event_id: guji-杜预-event-annotation
-  decisions:
-  - date: '0263'
-    title_zh: 弃杂取公羊谷梁以释左氏之法
-    rationale: 以冠双屦将丝综麻不可入，必子应乎母以胶投漆，方能曲畅经传本意。
-  - date: '0270'
-    title_zh: 分年相附别集诸例
-    rationale: 经传 mixed 难读则分年解之，异同之说则作释例详之，使后学有所据依。
-- id: guji-杜预-endeavor-2
-  title_zh: 镇襄阳谋平吴
-  description_zh: 都督荆州，抚民修备，造平吴舆图，力主伐吴，成一统之业。
-  phases:
-  - key: brewing
-    name: 出镇襄阳
-    labels:
-      zh: 酝酿
-    start_date: '0273'
+      zh: 酝酿积势
+    start_date: 0278
     highlight_event_id: guji-杜预-event-pingwu
-  - key: climax
-    name: 上表力主伐吴
+  - key: breakthrough
+    name: 上疏力排众议主伐
     labels:
-      zh: 高潮
+      zh: 突破建言
     start_date: 0279
     highlight_event_id: guji-杜预-event-pingwu
-  - key: closure
-    name: 王濬顺流东下吴平
+  - key: climax
+    name: 分军破吴直下建业
     labels:
-      zh: 收束
+      zh: 高潮平吴
+    start_date: 0280
+    highlight_event_id: guji-杜预-event-pingwu
+  - key: closure
+    name: 封当阳县侯持节安南
+    labels:
+      zh: 收束论功
     start_date: 0280
     highlight_event_id: guji-杜预-event-pingwu
   decisions:
-  - date: '0273'
-    title_zh: 到镇安民修水利
-    rationale: 欲取江东必先固荆襄，仓廪实而军可久，民安而师有名。
   - date: 0279
-    title_zh: 力排众议请速伐吴
-    rationale: 吴主昏虐天时已至，失今不伐必滋后患，国之大事不可坐失机宜。
+    title_zh: 力主伐吴
+    rationale: 时不可失机不可缓朝议多疑故备陈利害以决大计
+  - date: 0280
+    title_zh: 径进建业不待来年
+    rationale: 兵威已振吴人胆破乘势而下可一举定江东故不中止
+- id: guji-杜预-endeavor-2
+  title_zh: 集解左传撰释例长历
+  summary_zh: 平吴后从容著书作经传集解又考谱第地名历数作释例以羽翼经传
+  phases:
+  - key: brewing
+    name: 博采众家网罗旧说
+    labels:
+      zh: 酝酿搜集
+    start_date: 0280
+    highlight_event_id: guji-杜预-event-shili
+  - key: breakthrough
+    name: 成经传集解一经一纬
+    labels:
+      zh: 突破集解
+    start_date: 0282
+    highlight_event_id: guji-杜预-event-shili
+  - key: climax
+    name: 作释例盟会图长历
+    labels:
+      zh: 高潮释例
+    start_date: 0284
+    highlight_event_id: guji-杜预-event-shili
+  - key: closure
+    name: 比老乃成备一家学
+    labels:
+      zh: 收束成书
+    start_date: 0284
+    highlight_event_id: guji-杜预-event-shili
+  decisions:
+  - date: 0282
+    title_zh: 以凡统例以例通经
+    rationale: 经之条贯必出于传传之义例总归于凡故别集诸例以包通其余
+  - date: 0284
+    title_zh: 图地谱族考历明天时
+    rationale: 据郡国山川附列盟会地名参泰始图籍与刘向世本以实释例
 events:
 - id: guji-杜预-event-birth
-  title_zh: 出生于京兆杜陵
   date: '0222'
   year_of: 222
-  place_zh: 京兆杜陵
-  description_zh: 魏文帝黄初三年生于京兆杜氏，少有大志，博学多闻。
-- id: guji-杜预-event-annotation
-  title_zh: 撰成春秋左氏经传集解
-  date: '0270'
-  year_of: 270
-  place_zh: 洛阳
-  description_zh: 考校左氏传，专取丘明之传以释春秋之经，分年相附而成集解三十卷，后又作释例以明凡例。
+  title_zh: 生于京兆杜陵
+  description_zh: 魏黄初三年生于京兆名门少好学博涉多通
 - id: guji-杜预-event-pingwu
-  title_zh: 镇荆州策平吴
   date: 0280
   year_of: 280
-  place_zh: 襄阳
-  description_zh: 都督荆州诸军事，镇襄阳，修备安民，累陈伐吴之策，至太康元年吴平，封当阳县侯。
-- id: guji-杜预-event-death
-  title_zh: 卒于京师
+  title_zh: 谋画平吴混一天下
+  description_zh: 咸宁末镇荆州上表伐吴太康元年顺流而下平定江表
+- id: guji-杜预-event-shili
   date: 0284
   year_of: 284
-  place_zh: 洛阳
-  description_zh: 晋武帝太康五年卒，谥曰成，追赠征南大将军，所注左传与孔颖达疏并行于学官。
+  title_zh: 成集解及春秋释例
+  description_zh: 平吴后从容无事著经传集解又作释例十五卷及盟会图长历
+- id: guji-杜预-event-death
+  date: 0285
+  year_of: 285
+  title_zh: 卒于京师谥曰成
+  description_zh: 晋太康五年卒追赠征南大将军开府仪同三司谥成
