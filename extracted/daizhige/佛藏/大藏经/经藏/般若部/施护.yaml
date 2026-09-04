@@ -1,0 +1,147 @@
+person:
+  qid: guji-施护
+  name_zh: 施护
+  names:
+    zh: 施护
+    en: Danapala
+  lifespan:
+    birth:
+      date: 0950
+      precision: year
+      is_circa: true
+      raw: 约十世纪中叶生于北印度
+    death:
+      date: '1017'
+      precision: year
+      is_circa: false
+      raw: 宋天禧元年卒于开封
+  birth_date: 0950
+  death_date: '1017'
+  era: 北宋
+  reign_ref: 宋太宗至宋真宗
+  archetype: 西天译经传法者
+  dilemmas:
+  - title_zh: 梵义精微与华言通达之抉择
+    description: 存梵本实义与顺华俗易解之间如何离相取中以显了义
+  - title_zh: 名相分别与般若空性之安立
+    description: 如何引导菩萨离能所施受之相而圆满六度万行
+  lesson: 离一切相如实了知诸法住无所住方能圆满般若相应胜行
+  summary_first_person: 吾施护自西天来华奉诏译经愿以了义般若令菩萨离相修行圆满一切智智
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BA%86%E4%B9%89%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BA%86%E4%B9%89%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E7%BB%8F.md
+endeavors:
+- id: guji-施护-endeavor-1
+  title_zh: 奉诏入译经院译经
+  summary: 受朝奉大夫试鸿胪卿传法大师之职译出了义般若等百余卷
+  phases:
+  - key: brewing
+    name: 随兄发心东来
+    labels:
+      zh:
+      - 发愿入华
+    start_date: 0980
+    highlight_event_id: guji-施护-event-arrive
+  - key: breakthrough
+    name: 入院奉诏开译
+    labels:
+      zh:
+      - 奉诏开译
+    start_date: 0984
+    highlight_event_id: guji-施护-event-translate-liaoyi
+  - key: climax
+    name: 广译般若显了义
+    labels:
+      zh:
+      - 广译般若
+    start_date: 0995
+    highlight_event_id: guji-施护-event-translate-liaoyi
+  - key: closure
+    name: 译业圆满示寂
+    labels:
+      zh:
+      - 译业圆满
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
+  decisions:
+  - date: 0984
+    title_zh: 应诏入译经院专事翻译
+    rationale: 为使华夏得闻正法舍安逸而就译场艰辛
+  - date: 0995
+    title_zh: 先译了义般若以明离相之宗
+    rationale: 欲令菩萨了知诸法住无所住先明般若纲要
+- id: guji-施护-endeavor-2
+  title_zh: 弘传般若相应离相胜行
+  summary: 依了义经教授布施持戒忍辱精进禅定及三十七道品等相应行
+  phases:
+  - key: brewing
+    name: 深究空无相无愿三昧
+    labels:
+      zh:
+      - 体究空性
+    start_date: 0984
+    highlight_event_id: guji-施护-event-arrive
+  - key: breakthrough
+    name: 开演六度无所得行
+    labels:
+      zh:
+      - 开演六度
+    start_date: 0995
+    highlight_event_id: guji-施护-event-preach-prajna
+  - key: climax
+    name: 教授断除十疑观法皆空
+    labels:
+      zh:
+      - 断疑显空
+    start_date: '1000'
+    highlight_event_id: guji-施护-event-preach-prajna
+  - key: closure
+    name: 以一切智智导归圆满
+    labels:
+      zh:
+      - 导归一切智
+    start_date: '1010'
+    highlight_event_id: guji-施护-event-death
+  decisions:
+  - date: 0995
+    title_zh: 以离相说六度以破能所见
+    rationale: 若存能施所施及持犯得失则不名波罗蜜多故须遮遣
+  - date: '1000'
+    title_zh: 以十疑对治令观色等皆空
+    rationale: 色受想行识自性不生不灭须断有性无性等疑乃契无所观
+events:
+- id: guji-施护-event-birth
+  title_zh: 生于北印度
+  type: birth
+  date: 0950
+  year_of: 950
+  place_zh: 北印度乌仗那
+  description: 约十世纪中叶生于北印度婆罗门种家少习梵典长通三藏
+- id: guji-施护-event-arrive
+  title_zh: 随兄入宋至开封
+  type: career
+  date: 0980
+  year_of: 980
+  place_zh: 开封
+  description: 随兄法天东来入宋太宗朝授传法大师入译经院奉诏译经
+- id: guji-施护-event-translate-liaoyi
+  title_zh: 译佛说了义般若波罗蜜多经
+  type: career
+  date: 0995
+  year_of: 995
+  place_zh: 开封译经院
+  description: 奉诏译出了义般若明菩萨离一切相当于诸法如实了知圆满六度及道品三昧等行
+- id: guji-施护-event-preach-prajna
+  title_zh: 开演断十疑无所观法门
+  type: career
+  date: '1000'
+  year_of: 1000
+  place_zh: 开封
+  description: 依经教授断有性无性差别等十疑观色受想行识自性空离三际住无所住
+- id: guji-施护-event-death
+  title_zh: 示寂于开封
+  type: death
+  date: '1017'
+  year_of: 1017
+  place_zh: 开封
+  description: 宋天禧元年示寂于开封译经之业垂于后世所译了义般若编入大藏般若部
