@@ -1,0 +1,139 @@
+person:
+  qid: guji-新菩萨
+  name_zh: 新菩萨
+  names:
+    zh: 新菩萨
+    en: Xin Pusa
+  lifespan:
+    birth:
+      date: '0410-01-01'
+      precision: year
+      is_circa: true
+      raw: 西凉州示经前后，未详确年
+    death:
+      date: '0499-12-31'
+      precision: year
+      is_circa: true
+      raw: 法身常住，未言示灭，权系传经后
+  birth_date: '0410-01-01'
+  death_date: '0499-12-31'
+  era: 五胡十六国
+  reign_ref: 西凉
+  archetype: 示石出经救苦菩萨
+  dilemmas:
+  - title_zh: 灾厄竞起而众生不信
+    description: 六种横死与禾豆不收交迫，劝写经免难而闻者多疑，若强说则近胁迫，若不说则众生灭门
+  - title_zh: 写经免难而恐沦功利
+    description: 以写一通免身二通免家三通免村劝善，虽能广传，若执数量免灾则失慈悲本怀
+  lesson: 以抄写转读存善念，以劝善存村社，灾厄时不失慈悲
+  summary_first_person: 我是新菩萨，见末世多患死卒死产坐死不持斋肠热自绞之厄，又逢禾豆不收之岁，故于西凉州城东门示雷雨石破见经，令人写经转读，一通免身，二通免家，三通免村，闻而不写则自灭，转示长安，愿众生得福无量，皆度苦难
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E7%96%91%E4%BC%BC%E9%83%A8/%E6%96%B0%E8%8F%A9%E8%90%A8%E7%BB%8F%E4%B9%8B%E4%BA%8C.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E7%96%91%E4%BC%BC%E9%83%A8/%E6%96%B0%E8%8F%A9%E8%90%A8%E7%BB%8F%E4%B9%8B%E4%BA%8C.md
+endeavors:
+- id: guji-新菩萨-endeavor-1
+  title_zh: 西凉州石破示经
+  description: 于西凉州县城东门口示雷鸣雨下，斗大之石破为两片而见此经，示六死之患与抄写免难之法
+  phases:
+  - key: brewing
+    name: 灾象酝酿
+    labels:
+      zh: 酝酿
+    start_date: '0410-01-01'
+    highlight_event_id: guji-新菩萨-event-1
+  - key: breakthrough
+    name: 石破见经
+    labels:
+      zh: 突破
+    start_date: '0412-04-01'
+    highlight_event_id: guji-新菩萨-event-1
+  - key: climax
+    name: 晓示抄写免难
+    labels:
+      zh: 高潮
+    start_date: '0412-05-01'
+    highlight_event_id: guji-新菩萨-event-2
+  - key: closure
+    name: 付嘱转示
+    labels:
+      zh: 收束
+    start_date: '0412-06-01'
+    highlight_event_id: guji-新菩萨-event-2
+  decisions:
+  - date: '0412-04-01'
+    title_zh: 以石破雷雨示经取信
+    rationale: 众生敬远瑞而疑近言，故示天雷碎石，使见者生信
+  - date: '0412-05-01'
+    title_zh: 定写经数量免灾之格
+    rationale: 以一通免身二通免家三通免村为阶，使好信者能量力劝写，广及一村
+- id: guji-新菩萨-endeavor-2
+  title_zh: 长安传经劝转读
+  description: 经自西土传至长安，劝闻者抄写转读，信者度苦难，不信不写则身灭，兼警禾豆不收之荒
+  phases:
+  - key: brewing
+    name: 经来长安
+    labels:
+      zh: 酝酿
+    start_date: '0413-01-01'
+    highlight_event_id: guji-新菩萨-event-3
+  - key: breakthrough
+    name: 劝写转读
+    labels:
+      zh: 突破
+    start_date: '0413-02-01'
+    highlight_event_id: guji-新菩萨-event-3
+  - key: climax
+    name: 信灭两途
+    labels:
+      zh: 高潮
+    start_date: '0413-03-01'
+    highlight_event_id: guji-新菩萨-event-3
+  - key: closure
+    name: 得福度难
+    labels:
+      zh: 收束
+    start_date: '0413-04-01'
+    highlight_event_id: guji-新菩萨-event-3
+  decisions:
+  - date: '0413-02-01'
+    title_zh: 立闻经必写之戒
+    rationale: 若闻不写即灭门，以重罚止轻慢，使人不敢徒闻而不行
+  - date: '0413-03-01'
+    title_zh: 许转读皆度苦难
+    rationale: 不独自写，凡转读示人者皆得度，使一经转示无量，得福无量
+events:
+- id: guji-新菩萨-event-birth
+  title_zh: 示现降诞
+  date: '0410-01-01'
+  year_of: 410
+  place_zh: 西凉州
+  description: 权系西凉示经之前，菩萨为救六死之厄示现于世
+  endeavor_ref: guji-新菩萨-endeavor-1
+- id: guji-新菩萨-event-1
+  title_zh: 城东门雷雨石破见经
+  date: '0412-04-01'
+  year_of: 412
+  place_zh: 西凉州县城东门口
+  description: 四出雷鸣雨下，斗大之石破为两片，遂见此经，众传为菩萨示现
+  endeavor_ref: guji-新菩萨-endeavor-1
+- id: guji-新菩萨-event-2
+  title_zh: 晓示六死与写经免难
+  date: '0412-05-01'
+  year_of: 412
+  place_zh: 西凉州
+  description: 说第一患死至第六自绞死，又言禾豆熟恐无收，定写一通免身二通免家三通免村之法
+  endeavor_ref: guji-新菩萨-endeavor-1
+- id: guji-新菩萨-event-3
+  title_zh: 长安传示得福无量
+  date: '0413-04-15'
+  year_of: 413
+  place_zh: 长安
+  description: 经从西凉传至长安，告以转读此经皆度苦难，不信不写即身灭，得福无量
+  endeavor_ref: guji-新菩萨-endeavor-2
+- id: guji-新菩萨-event-death
+  title_zh: 法身常住无示灭
+  date: '0499-12-31'
+  year_of: 499
+  place_zh: 法界
+  description: 传经事毕，不言示灭，权系法身常住，永护持经转读者
+  endeavor_ref: guji-新菩萨-endeavor-2
