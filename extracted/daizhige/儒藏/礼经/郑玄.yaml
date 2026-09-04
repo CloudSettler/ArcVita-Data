@@ -9,138 +9,143 @@ person:
       date: '0127'
       precision: year
       is_circa: false
-      raw: 汉顺帝永建二年生于北海高密
+      raw: 汉顺帝永建二年
     death:
       date: '0200'
       precision: year
       is_circa: false
-      raw: 汉献帝建安五年逝于元城
+      raw: 汉献帝建安五年
   birth_date: '0127'
   death_date: '0200'
   era: 东汉
   reign_ref: 汉顺帝至汉献帝
-  archetype: 经学集大成者
+  archetype: 汉代经学集大成者
   dilemmas:
-  - title_zh: 师古与创新之衡
-    description: 遍注群经既尊古文又兼采今文如何在守郑学与通大义间取舍
-  - title_zh: 出仕与隐逸之择
-    description: 党锢之世征辟屡至是委身于乱世权门还是闭门注经以存礼教
-  lesson: 穷经以明礼守正以待时以注疏存周公之制于乱世
-  summary_first_person: 吾郑玄字康成北海南高密人也少好学西入关从马融游归而党事禁锢杜门注经以仪礼周礼礼记为本兼注易诗书论语孝经期以礼义存国于后世虽屡征不起而心在明道
+  - 古今文纷争之中如何兼采众长而守古文正法
+  - 党锢祸起之时出仕显名与退隐保身之间抉择
+  - 乱世屡征之际守道不仕与济世救民之间权衡
+  lesson: 守经述圣以立身，乱世不仕以全节，遍注群经以传后
+  summary_first_person: 吾北海高密人也，少好学，游太学，师事马融尽得古文经法，遭党禁归里注经授徒，遍注易诗书礼乐孝经论语，三礼尤详，屡征不就，终以经学传后，愿后学者守正解经，勿以强说诬圣
   source_urls:
-  - https://daizhige.org/ru-zang/li-jing/yi-li-zhu-shu.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/ru-zang/li-jing/yi-li-zhu-shu.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E7%A4%BC%E8%AE%B0%E6%B3%A8%E7%96%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E7%A4%BC%E8%AE%B0%E6%B3%A8%E7%96%8F.md
 endeavors:
 - id: guji-郑玄-endeavor-1
-  title_zh: 西州游学师事马融
-  summary: 自幼习经少年游太学后西入关从大儒马融受古文经三年尽得其传
+  title_zh: 游学受经遍注群经
   phases:
   - key: brewing
-    name: 少习经学游太学
+    name: 少好学游太学
     labels:
-      zh: 发愤力学
-    start_date: '0135'
+      zh:
+      - 游学
+    start_date: '0127'
     highlight_event_id: guji-郑玄-event-birth
   - key: breakthrough
-    name: 入关拜马融
+    name: 师事马融得古文法
     labels:
-      zh: 得通古文
+      zh:
+      - 受业
     start_date: 0159
-    highlight_event_id: guji-郑玄-event-study
+    highlight_event_id: guji-郑玄-event-congshi
   - key: climax
-    name: 尽传融学东归讲授
+    name: 党锢归里注经授徒
     labels:
-      zh: 名动州郡
-    start_date: '0166'
-    highlight_event_id: guji-郑玄-event-return
-  - key: closure
-    name: 遭党锢杜门谢客
-    labels:
-      zh: 隐居待时
+      zh:
+      - 注经
     start_date: 0169
-    highlight_event_id: guji-郑玄-event-seclusion
+    highlight_event_id: guji-郑玄-event-danggu
+  - key: closure
+    name: 礼注告成郑学行世
+    labels:
+      zh:
+      - 集大成
+    start_date: 0191
+    highlight_event_id: guji-郑玄-event-zhujing
   decisions:
   - date: 0159
-    title_zh: 西行从融
-    rationale: 以京师诸儒未通古文故远赴扶风就学马融以竟大义
+    title_zh: 负笈西入关师事马融
+    rationale: 欲求圣人之真法必就当世通儒，故不辞劳远从融学，尽得古今文义
   - date: 0169
-    title_zh: 党锢不仕闭门授徒
-    rationale: 以世乱道污不欲以经术媚权贵故谢征辟以教授存礼
+    title_zh: 党祸禁锢杜门注经
+    rationale: 时路险塞不可出仕，莫若闭户著书以述圣义传后，故注经授徒以待后世
 - id: guji-郑玄-endeavor-2
-  title_zh: 遍注群经注仪礼为本
-  summary: 以周礼仪礼为本礼之根本先注仪礼周礼次及礼记诸经凡著三礼及易诗书论语等垂一家之法
+  title_zh: 乱世守道屡征不就
   phases:
   - key: brewing
-    name: 发愤著述草创义例
+    name: 禁锢家居养志著述
     labels:
-      zh: 考文定例
+      zh:
+      - 隐居
     start_date: 0169
-    highlight_event_id: guji-郑玄-event-seclusion
+    highlight_event_id: guji-郑玄-event-danggu
   - key: breakthrough
-    name: 注仪礼周礼成一家言
+    name: 经解盛行名重海内
     labels:
-      zh: 礼学奠基
-    start_date: '0175'
-    highlight_event_id: guji-郑玄-event-annotate
+      zh:
+      - 成名
+    start_date: 0191
+    highlight_event_id: guji-郑玄-event-zhujing
   - key: climax
-    name: 遍注群经三礼七十二篇成
+    name: 袁曹徐州交辟不就
     labels:
-      zh: 集古文大成
-    start_date: 0185
-    highlight_event_id: guji-郑玄-event-complete
+      zh:
+      - 全节
+    start_date: 0197
+    highlight_event_id: guji-郑玄-event-zhengbi
   - key: closure
-    name: 经学传于后世为唐疏所宗
+    name: 病卒元城以经终身
     labels:
-      zh: 郑学独行
+      zh:
+      - 考终
     start_date: '0200'
     highlight_event_id: guji-郑玄-event-death
   decisions:
-  - date: '0175'
-    title_zh: 以仪礼为本先注仪礼
-    rationale: 以仪礼为履践之礼难明而周礼为末故先注难者以立礼本
-  - date: 0185
-    title_zh: 兼采今古不立门户之偏
-    rationale: 以经义贵通故古文为主兼取今文择善而从以存大义
+  - date: 0191
+    title_zh: 注解礼记明体履之别
+    rationale: 礼经残缺世多昧于体履，故依卢马之本注礼记以正名分，使三百三千之义复明
+  - date: 0197
+    title_zh: 辞袁绍辟及大司农征
+    rationale: 黄巾乱后道不可行，出仕则违素志，故守正不屈以全节，用经学保身传道
 events:
 - id: guji-郑玄-event-birth
   title_zh: 生于北海高密
   date: '0127'
   year_of: 127
+  kind: birth
   place_zh: 北海高密
-  summary: 汉顺帝永建二年生郑崇之后也少好学有大志
-- id: guji-郑玄-event-study
-  title_zh: 西入关师事马融
+  description_zh: 汉顺帝永建二年生，为前汉仆射郑崇八世孙
+- id: guji-郑玄-event-congshi
+  title_zh: 师事扶风马融
   date: 0159
   year_of: 159
+  kind: career
   place_zh: 扶风
-  summary: 从马融受古文经居三年未尝一见融而融深奇之尽传其学
-- id: guji-郑玄-event-return
-  title_zh: 东归讲学名震山东
-  date: '0166'
-  year_of: 166
-  place_zh: 北海
-  summary: 归教授生徒至数百人州郡征辟皆不就
-- id: guji-郑玄-event-seclusion
-  title_zh: 党事起隐居注经
+  description_zh: 西入关从马融学古文经，三年不窥园，尽得其传而归
+- id: guji-郑玄-event-danggu
+  title_zh: 党锢归里授徒
   date: 0169
   year_of: 169
+  kind: career
   place_zh: 高密
-  summary: 以党锢禁锢杜门不出潜心注礼发愤著述
-- id: guji-郑玄-event-annotate
-  title_zh: 注仪礼周礼成
-  date: '0175'
-  year_of: 175
+  description_zh: 建宁党祸起，禁锢归里，杜门注经，开门授徒，海内从学者众
+- id: guji-郑玄-event-zhujing
+  title_zh: 遍注群经礼注成
+  date: 0191
+  year_of: 191
+  kind: career
   place_zh: 高密
-  summary: 先成仪礼周礼注以仪礼冠婚丧祭之仪为周公摄政太平之本后郑独注仪礼自此始
-- id: guji-郑玄-event-complete
-  title_zh: 遍注群经成三礼之学
-  date: 0185
-  year_of: 185
+  description_zh: 注易诗书礼乐孝经论语，尤详三礼，郑氏注遂为后世礼学宗本
+- id: guji-郑玄-event-zhengbi
+  title_zh: 屡辞征辟守道不仕
+  date: 0197
+  year_of: 197
+  kind: career
   place_zh: 徐州
-  summary: 先后注易诗书礼记论语孝经凡七十二篇号为郑学
+  description_zh: 徐州袁绍屡辟不就，汉廷征为大司农亦以疾辞，乱世全身以经自守
 - id: guji-郑玄-event-death
-  title_zh: 病逝于元城
+  title_zh: 卒于元城
   date: '0200'
   year_of: 200
+  kind: death
   place_zh: 元城
-  summary: 建安五年随袁绍至元城病笃卒年七十四遗命薄葬后贾公彦为仪礼作疏宗其注
+  description_zh: 汉献帝建安五年卒，年七十四，海内经学咸宗郑氏
