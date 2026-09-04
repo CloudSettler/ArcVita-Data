@@ -9,7 +9,7 @@ person:
       date: 1518-07-03
       precision: day
       is_circa: false
-      raw: 明正德十三年五月二十六日
+      raw: 明正德十三年五月二十六
     death:
       date: 1593
       precision: year
@@ -17,129 +17,135 @@ person:
       raw: 明万历二十一年
   birth_date: 1518-07-03
   death_date: 1593
-  era: 明代
+  era: 明
   reign_ref: 明嘉靖至万历
-  archetype: 本草学家
+  archetype: 求实医者
   dilemmas:
-  - 弃科举而从医道，恐负父望与仕进之途
-  - 订正旧本草之讹误，惧药误人命与世俗非议
-  lesson: 格物穷理，亲验方为医道之本
-  summary_first_person: 吾蕲州李时珍，弃举业而习医，历三十余年采访四方，考证本草，著纲目以惠后世
+  - 以人骨肉入药虽效而伤仁义当去留两难
+  - 旧本讹误相承而考据需遍历山野当抉择安逸与跋涉
+  lesson: 格物穷理以仁守正考据必求实录用药必守人伦
+  summary_first_person: 吾蕲州李时珍也幼习儒而转岐黄遍历山野采药访方三十余年成纲目五十二卷于人部独申仁义凡残忍邪秽则略而辟之愿后人重人命而轻奇效也
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B750.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B752.html
 endeavors:
 - id: guji-李时珍-endeavor-1
   title_zh: 编纂本草纲目
-  summary: 考证历代本草，亲采广访，历三十年成纲目五十二卷
+  summary: 考订历代本草访采四方三十余年集成五十二卷
   phases:
   - key: brewing
-    name: 发愿考证
+    name: 立志重修
     labels:
-      zh:
-      - 酝酿
+      zh: 立志考据
     start_date: 1552
-    highlight_event_id: guji-李时珍-event-start-bencao
+    highlight_event_id: guji-李时珍-event-startcompile
   - key: breakthrough
-    name: 四方采药
+    name: 访采四方
     labels:
-      zh:
-      - 突破
+      zh: 实地访采
     start_date: 1556
-    highlight_event_id: guji-李时珍-event-travel
+    highlight_event_id: guji-李时珍-event-fieldwork
   - key: climax
     name: 纲目初成
     labels:
-      zh:
-      - 高潮
+      zh: 著述初成
     start_date: 1578
-    highlight_event_id: guji-李时珍-event-draft
+    highlight_event_id: guji-李时珍-event-complete
   - key: closure
-    name: 校订刊行
+    name: 刊行传世
     labels:
-      zh:
-      - 收束
-    start_date: 1593
-    highlight_event_id: guji-李时珍-event-death
+      zh: 身后刊行
+    start_date: 1596
+    highlight_event_id: guji-李时珍-event-publish
   decisions:
   - date: 1552
-    title_zh: 立志重修本草
-    rationale: 见旧本草讹误遗漏甚多，遂发愿亲验重订
+    title_zh: 弃举业而专岐黄
+    rationale: 见旧本舛谬贻误人命故立志重修以求实济世
   - date: 1578
-    title_zh: 定稿本草纲目
-    rationale: 考证既成，纲举目张，坚持三易其稿以求确核
+    title_zh: 定纲目体例以纲统目
+    rationale: 以纲挈目分十六部六十类使散乱药性有所统属便于考索
 - id: guji-李时珍-endeavor-2
-  title_zh: 悬壶行医济世
-  summary: 承家学行医楚中，任太医院判，归乡设诊著书
+  title_zh: 立人部仁义体例
+  summary: 于人部三十五种详无害于义者略惨忍邪秽者并加辟断
   phases:
   - key: brewing
-    name: 弃儒习医
+    name: 审视人药旧文
     labels:
-      zh:
-      - 酝酿
-    start_date: 1540
-    highlight_event_id: guji-李时珍-event-practice
+      zh: 审视旧文
+    start_date: 1570
+    highlight_event_id: guji-李时珍-event-reviewren
   - key: breakthrough
-    name: 楚府就医
+    name: 辨发髲乱发之名
     labels:
-      zh:
-      - 突破
-    start_date: 1551
-    highlight_event_id: guji-李时珍-event-practice
+      zh: 正名考据
+    start_date: 1575
+    highlight_event_id: guji-李时珍-event-faji
   - key: climax
-    name: 太医院任职
+    name: 书人部序例立义
     labels:
-      zh:
-      - 高潮
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-travel
+      zh: 立义序例
+    start_date: 1578
+    highlight_event_id: guji-李时珍-event-renpreface
   - key: closure
-    name: 归蕲著述
+    name: 附方存验戒滥用
     labels:
-      zh:
-      - 收束
-    start_date: 1560
-    highlight_event_id: guji-李时珍-event-draft
+      zh: 存方示戒
+    start_date: 1580
+    highlight_event_id: guji-李时珍-event-fufang
   decisions:
-  - date: 1540
-    title_zh: 三试不第弃举业医
-    rationale: 体弱多病感医药未精，承父命习医以活人
-  - date: 1556
-    title_zh: 辞太医院归乡
-    rationale: 不恋官职，欲专心采药著书以成大业
+  - date: 1578
+    title_zh: 详无害略惨忍并加辟断
+    rationale: 人骨肉胆血虽称药而甚不仁惟守义者详之残忍者略之以全仁心
+  - date: 1575
+    title_zh: 正发髲为剪髢下发
+    rationale: 据说文玉篇及周礼诗传考订驳童男陈发诸说以正名实
 events:
 - id: guji-李时珍-event-birth
-  title_zh: 出生于蕲州
+  title_zh: 生于蕲州
   date: 1518-07-03
   year_of: 1518
-  place: 湖广蕲州
-  description: 李时珍生于医药世家，父李言闻授以医学
-- id: guji-李时珍-event-practice
-  title_zh: 弃儒从医行医乡里
-  date: 1540
-  year_of: 1540
-  place: 蕲州
-  description: 屡试不第后承父业行医，声名渐起
-- id: guji-李时珍-event-start-bencao
-  title_zh: 发愿重修本草
+  description: 生于湖广蕲州医官之家幼多病而好医
+- id: guji-李时珍-event-startcompile
+  title_zh: 立志重修本草
   date: 1552
   year_of: 1552
-  place: 蕲州
-  description: 因读旧本草多误，立志亲采考证重纂
-- id: guji-李时珍-event-travel
-  title_zh: 四方采访考证
+  description: 因旧本舛谬遂弃举业立志访采重修本草
+- id: guji-李时珍-event-fieldwork
+  title_zh: 访采四方药材
   date: 1556
   year_of: 1556
-  place: 湖广江西江苏诸山
-  description: 历太医院及楚王府，遍访名山药材并询方于渔樵
-- id: guji-李时珍-event-draft
-  title_zh: 本草纲目初稿完成
+  description: 遍历湖广江西诸山采集标本咨访渔樵医农
+- id: guji-李时珍-event-reviewren
+  title_zh: 审视人部旧文
+  date: 1570
+  year_of: 1570
+  description: 检阅人骨肉血胆旧方叹其不仁思立去取之例
+- id: guji-李时珍-event-faji
+  title_zh: 考订发髲乱发
+  date: 1575
+  year_of: 1575
+  description: 据说文玉篇正发髲为剪髢下发辨乱发为梳栉下发
+- id: guji-李时珍-event-complete
+  title_zh: 纲目初稿告成
   date: 1578
   year_of: 1578
-  place: 蕲州蕲艾堂
-  description: 历二十七年三易其稿，完成纲目五十二卷濒湖脉学等
+  description: 历二十余年纲目五十二卷初成凡一百九十万言
+- id: guji-李时珍-event-renpreface
+  title_zh: 书人部序例
+  date: 1578
+  year_of: 1578
+  description: 于人部序明言详无害于义者略惨忍邪秽者凡三十五种
+- id: guji-李时珍-event-fufang
+  title_zh: 辑人部附方
+  date: 1580
+  year_of: 1580
+  description: 辑发髲乱发头垢等附方存验效而戒残忍滥用
 - id: guji-李时珍-event-death
-  title_zh: 逝世于蕲州
+  title_zh: 卒于蕲州
   date: 1593
   year_of: 1593
-  place: 蕲州
-  description: 卒于故里，纲目未刊，三年后其子建元刊行于金陵
+  description: 卒于蕲州纲目未刊而仁义之例已定
+- id: guji-李时珍-event-publish
+  title_zh: 纲目南京刊行
+  date: 1596
+  year_of: 1596
+  description: 子建元携稿赴南京刊行纲目传世人部体例大显
