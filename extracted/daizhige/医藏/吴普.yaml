@@ -1,0 +1,134 @@
+person:
+  qid: guji-吴普
+  name_zh: 吴普
+  names:
+    zh: 吴普
+    en: Wu Pu
+  lifespan:
+    birth:
+      date: 0190
+      precision: year
+      is_circa: true
+      raw: 约东汉末中平年间生
+    death:
+      date: '0250'
+      precision: year
+      is_circa: true
+      raw: 约曹魏正始年间卒
+  birth_date: 0190
+  death_date: '0250'
+  era: 三国魏至西晋
+  reign_ref: 魏文帝黄初至晋武帝泰始
+  archetype: 本草医家
+  dilemmas:
+  - 众说异辞如何折衷神农岐伯雷公扁鹊之论而存其真
+  - 师承华佗之术当重养生却病还是重方药济世
+  lesson: 博采诸家以核药性，详记形态产地以利后人辨用
+  summary_first_person: 吾乃广陵吴普，少从华佗学医，习五禽之戏，究方药之性，惧本草散佚众说淆乱，故采神农黄帝岐伯雷公桐君扁鹊及李氏诸家之言，按玉石草木虫兽果菜米食分别部居，记其气味形态产地采时，以成一家之本草，愿后之医者得有所据而不惑于药
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%90%B4%E6%99%AE%E6%9C%AC%E8%8D%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%90%B4%E6%99%AE%E6%9C%AC%E8%8D%89.md
+endeavors:
+- id: guji-吴普-endeavor-1
+  title_zh: 师从华佗习医行五禽戏
+  summary: 少年从华佗学，精方药，习五禽戏以养生，年九十余而耳目聪明
+  phases:
+  - key: brewing
+    name: 广陵从师
+    labels:
+      zh:
+      - 求学
+      - 华佗门下
+    start_date: '0200'
+    highlight_event_id: guji-吴普-event-study
+  - key: breakthrough
+    name: 得传五禽戏
+    labels:
+      zh:
+      - 养生
+      - 五禽戏
+    start_date: 0208
+    highlight_event_id: guji-吴普-event-study
+  - key: climax
+    name: 以医行世
+    labels:
+      zh:
+      - 行医
+      - 养生传播
+    start_date: '0215'
+    highlight_event_id: guji-吴普-event-study
+  decisions:
+  - date: '0200'
+    title_zh: 拜华佗为师
+    rationale: 慕华佗精于方药针灸，欲得其养生治人之要，故往从学而不辞劳苦
+  - date: 0208
+    title_zh: 日习五禽戏
+    rationale: 信虎鹿熊猿鸟之戏能通气血却病延年，故坚持修习并以教人
+- id: guji-吴普-endeavor-2
+  title_zh: 博采诸家撰吴普本草
+  summary: 采集神农黄帝岐伯雷公桐君扁鹊李氏等众家药论，分玉石草木等部，详记气味形态产地采收，以成六卷本草
+  phases:
+  - key: brewing
+    name: 遍览本经别说
+    labels:
+      zh:
+      - 本草
+      - 收集
+    start_date: '0220'
+    highlight_event_id: guji-吴普-event-bencao
+  - key: breakthrough
+    name: 分部著录药性
+    labels:
+      zh:
+      - 分类
+      - 药性
+    start_date: '0225'
+    highlight_event_id: guji-吴普-event-bencao
+  - key: climax
+    name: 吴普本草成书
+    labels:
+      zh:
+      - 成书
+      - 传世
+    start_date: '0232'
+    highlight_event_id: guji-吴普-event-bencao
+  - key: closure
+    name: 后世传抄援引
+    labels:
+      zh:
+      - 传抄
+      - 太平御览引
+    start_date: 0983
+    highlight_event_id: guji-吴普-event-bencao
+  decisions:
+  - date: '0220'
+    title_zh: 立志辑录众家本草
+    rationale: 见世传药论各执一词真伪难辨，欲并存神农岐黄诸家之言以便考证，故发愿辑录
+  - date: '0225'
+    title_zh: 以类相从详记形产
+    rationale: 药之真伪系于形态产地采时，若不明记则误用害人，故于每药详书形状产地采收禁忌
+events:
+- id: guji-吴普-event-birth
+  title_zh: 出生于广陵
+  date: 0190
+  year_of: 190
+  place_zh: 广陵
+  description: 约东汉末生于广陵，后从华佗学医
+- id: guji-吴普-event-study
+  title_zh: 从华佗学医得五禽戏
+  date: '0200'
+  year_of: 200
+  place_zh: 许昌一带
+  description: 拜华佗为师，习方药针灸，尤精五禽戏，年九十余仍耳目聪明
+- id: guji-吴普-event-bencao
+  title_zh: 撰成吴普本草六卷
+  date: '0232'
+  year_of: 232
+  place_zh: 魏都洛阳一带
+  description: 博采神农黄帝岐伯雷公桐君扁鹊李氏等言，分玉石草木虫兽果菜米食诸部，记气味形态产地采时而成书
+- id: guji-吴普-event-death
+  title_zh: 卒于魏晋之际
+  date: '0250'
+  year_of: 250
+  place_zh: 中原
+  description: 约卒于曹魏后期，其书经后世传抄，多存于太平御览北堂书钞等类书引文中
