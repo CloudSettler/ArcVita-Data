@@ -1,0 +1,140 @@
+person:
+  qid: guji-白居易
+  name_zh: 白居易
+  names:
+    zh: 白居易
+    en: Bai Juyi
+  lifespan:
+    birth:
+      date: '0772-02-28'
+      precision: day
+      is_circa: false
+      raw: 唐大历七年正月二十日
+    death:
+      date: '0846-09-08'
+      precision: day
+      is_circa: false
+      raw: 唐会昌六年八月十四日
+  birth_date: '0772-02-28'
+  death_date: '0846-09-08'
+  era: 唐
+  reign_ref: 唐文宗太和
+  archetype: 文士
+  dilemmas:
+  - title_zh: 直谏与保身之难
+    description: 欲以讽谕匡时又惧谗谤远谪
+  - title_zh: 儒本与释道之会
+    description: 以儒立身又通释老欲三教并弘而不失其宗
+  lesson: 会通三教以守中济俗直言未必显达而诚敬可传后世
+  summary_first_person: 余白居易字乐天以儒起家历谏官刺史秘书监晚参禅问道太和元年奉诏入麟德殿与释道二宗论三教同异以四科六义对十二部但愿文章补时政教化安人心而已
+  source_urls:
+  - https://daizhige.org/佛藏/续藏经/中国撰述/史传部/感应神异传/神异典二氏部汇考.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/续藏经/中国撰述/史传部/感应神异传/神异典二氏部汇考.md
+endeavors:
+- id: guji-白居易-endeavor-1
+  title_zh: 讽谕诗文匡时济俗
+  summary: 以诗补政以文劝善历谏官郡守而志在澄源
+  phases:
+  - key: brewing
+    name: 少力学文
+    labels:
+      zh:
+      - 进士
+      - 校书郎
+    start_date: '0788-01-01'
+    highlight_event_id: guji-白居易-event-jinshi
+  - key: breakthrough
+    name: 谏官讽谏
+    labels:
+      zh:
+      - 左拾遗
+      - 讽谕
+    start_date: '0806-01-01'
+    highlight_event_id: guji-白居易-event-jinshi
+  - key: climax
+    name: 牧守劝课
+    labels:
+      zh:
+      - 杭州
+      - 苏州
+    start_date: '0822-01-01'
+    highlight_event_id: guji-白居易-event-linde
+  - key: closure
+    name: 庐山归老
+    labels:
+      zh:
+      - 香山
+      - 醉吟
+    start_date: '0842-01-01'
+    highlight_event_id: guji-白居易-event-death
+  decisions:
+  - date: '0800-01-01'
+    title_zh: 登进士第求直谏之路
+    rationale: 以儒门正途发愤陈事欲以文章开导愚迷
+  - date: '0815-01-01'
+    title_zh: 被谪江州转而弘佛
+    rationale: 直言触忌则退求香火因缘以诗酒禅悦安身
+- id: guji-白居易-endeavor-2
+  title_zh: 麟德殿会通三教
+  summary: 太和降诞日应诏入殿与义休弘元问难明儒释道同归教化
+  phases:
+  - key: brewing
+    name: 兼通内外
+    labels:
+      zh:
+      - 毛诗六义
+      - 十二部经
+    start_date: '0820-01-01'
+    highlight_event_id: guji-白居易-event-linde
+  - key: breakthrough
+    name: 秘书监登筵
+    labels:
+      zh:
+      - 麟德殿
+      - 三教谈论
+    start_date: '0827-10-01'
+    highlight_event_id: guji-白居易-event-linde
+  - key: climax
+    name: 四科六义对十二部
+    labels:
+      zh:
+      - 问答
+      - 会通
+    start_date: '0827-10-15'
+    highlight_event_id: guji-白居易-event-linde
+  - key: closure
+    name: 庆诞赞圣
+    labels:
+      zh:
+      - 弘护
+      - 定式
+    start_date: '0828-01-01'
+    highlight_event_id: guji-白居易-event-linde
+  decisions:
+  - date: '0827-10-15'
+    title_zh: 以四科六义比方十二部
+    rationale: 借佛家义例解儒家名数使圣听晓然三教不相妨碍
+  - date: '0827-10-15'
+    title_zh: 略赞不繁演三教
+    rationale: 圣心饱知故但序庆诞赞休明以全君臣敬顺之义
+events:
+- id: guji-白居易-event-birth
+  title_zh: 生于新郑
+  date: '0772-02-28'
+  year_of: 772
+  description: 唐大历七年正月二十日生于河南新郑
+- id: guji-白居易-event-jinshi
+  title_zh: 贞元十六年登进士第
+  date: '0800-01-01'
+  year_of: 800
+  description: 登进士第授秘书省校书郎始以讽谕诗名于时
+- id: guji-白居易-event-linde
+  title_zh: 太和元年入麟德殿论三教
+  date: '0827-10-15'
+  year_of: 827
+  description: 太和元年十月降诞日奉敕召入麟德殿与沙门义休道士杨弘元对御问难陈四科六义以对
+- id: guji-白居易-event-death
+  title_zh: 会昌六年卒于洛阳
+  date: '0846-09-08'
+  year_of: 846
+  description: 会昌六年八月十四日卒于洛阳香山葬于香山
