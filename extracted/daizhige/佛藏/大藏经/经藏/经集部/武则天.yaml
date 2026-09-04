@@ -1,0 +1,154 @@
+person:
+  qid: guji-武则天
+  name_zh: 武则天
+  names:
+    zh: 武则天
+    en: Wu Zetian
+  lifespan:
+    birth:
+      date: 0624-02-17
+      precision: day
+      is_circa: false
+      raw: 武德七年正月生于长安
+    death:
+      date: 0705-12-16
+      precision: day
+      is_circa: false
+      raw: 神龙元年十一月崩于上阳宫
+  birth_date: 0624-02-17
+  death_date: 0705-12-16
+  era: 唐
+  reign_ref: 武周圣神皇帝
+  archetype: 女主摄政护法者
+  dilemmas:
+  - 女身自在主与五障正统之碍
+  - 赤子养育与威刑肃政之衡
+  - 崇佛建塔与安国制衡之择
+  lesson: 以慈育为政以法施为教，女身亦能住持正法安乐有情
+  summary_first_person: 吾承宝雨授记为月净光，现女身主摩诃支那，多岁正法治化养育如赤子，建塔供僧护持正法，寿终愿诣兜率奉事慈氏
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%AE%9D%E9%9B%A8%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%AE%9D%E9%9B%A8%E7%BB%8F.md
+endeavors:
+- id: guji-武则天-endeavor-1
+  title_zh: 女身自在主临朝养育
+  summary: 应宝雨经东北方摩诃支那女主流化之记，由才人皇后而登极，多岁正法养育如赤子，致安隐丰乐
+  phases:
+  - key: brewing
+    name: 入宫承运
+    labels:
+      zh:
+      - 韬晦
+      - 积望
+    start_date: 0637-11-01
+    highlight_event_id: guji-武则天-event-655
+  - key: breakthrough
+    name: 立后参政
+    labels:
+      zh:
+      - 转进
+      - 摄政
+    start_date: 0655-10-01
+    highlight_event_id: guji-武则天-event-655
+  - key: climax
+    name: 登极武周
+    labels:
+      zh:
+      - 登极
+      - 养育
+    start_date: 0690-09-01
+    highlight_event_id: guji-武则天-event-690
+  - key: closure
+    name: 神龙归政
+    labels:
+      zh:
+      - 收束
+      - 传位
+    start_date: 0705-02-01
+    highlight_event_id: guji-武则天-event-death
+  decisions:
+  - date: 0655-10-13
+    title_zh: 决意正位中宫
+    rationale: 以正位摄六宫进而参决朝政，为后日临朝养育立基
+  - date: 0690-09-09
+    title_zh: 决意改唐为周称圣神皇帝
+    rationale: 应自在主治化之缘，以女身行王法，施无畏令丰乐住持
+- id: guji-武则天-endeavor-2
+  title_zh: 护持正法敕译宝雨
+  summary: 令修十善建立塔寺，供养沙门常修梵行，敕达摩流支出译宝雨经，以证月净光之名
+  phases:
+  - key: brewing
+    name: 崇佛诏令
+    labels:
+      zh:
+      - 崇护
+      - 集议
+    start_date: 0685-01-01
+    highlight_event_id: guji-武则天-event-690
+  - key: breakthrough
+    name: 敕译宝雨经
+    labels:
+      zh:
+      - 译经
+      - 显记
+    start_date: 0693-01-01
+    highlight_event_id: guji-武则天-event-693
+  - key: climax
+    name: 建塔供僧
+    labels:
+      zh:
+      - 建塔
+      - 布施
+    start_date: 0694-01-01
+    highlight_event_id: guji-武则天-event-693
+  - key: closure
+    name: 归心兜率
+    labels:
+      zh:
+      - 回向
+      - 付托
+    start_date: 0704-01-01
+    highlight_event_id: guji-武则天-event-death
+  decisions:
+  - date: 0693-03-01
+    title_zh: 决意敕达摩流支译宝雨经
+    rationale: 以经中月净光女身主国之说自证因缘，令天下信受护法
+  - date: 0694-06-01
+    title_zh: 决意广建塔寺供养三宝
+    rationale: 以衣服饮食卧具汤药供养沙门，以福业摄受人心住持我法
+events:
+- id: guji-武则天-event-birth
+  title_zh: 诞生于长安
+  date: 0624-02-17
+  year_of: 624
+  kind: birth
+  summary: 武德七年正月生于长安，父士彟母杨氏
+  endeavor_ref: guji-武则天-endeavor-1
+- id: guji-武则天-event-655
+  title_zh: 立为皇后参决政事
+  date: 0655-10-13
+  year_of: 655
+  kind: career
+  summary: 永徽六年立为皇后，协助高宗决断国政，垂帘之势渐成
+  endeavor_ref: guji-武则天-endeavor-1
+- id: guji-武则天-event-690
+  title_zh: 登极改国号为周
+  date: 0690-09-09
+  year_of: 690
+  kind: career
+  summary: 天授元年即皇帝位，国号周，安隐丰乐，正法治化如经所记自在主
+  endeavor_ref: guji-武则天-endeavor-1
+- id: guji-武则天-event-693
+  title_zh: 敕译佛说宝雨经显月净光记
+  date: 0693-05-01
+  year_of: 693
+  kind: career
+  summary: 敕天竺三藏达摩流支于洛阳译出宝雨经，明东北方摩诃支那月净光女身主国护法之授记
+  endeavor_ref: guji-武则天-endeavor-2
+- id: guji-武则天-event-death
+  title_zh: 崩于上阳宫
+  date: 0705-12-16
+  year_of: 705
+  kind: death
+  summary: 神龙元年十一月崩，去帝号称则天大圣皇后，遗命祔乾陵归心弥勒之愿
+  endeavor_ref: guji-武则天-endeavor-2
