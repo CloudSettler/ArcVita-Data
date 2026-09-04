@@ -3,132 +3,142 @@ person:
   name_zh: 施护
   names:
     zh: 施护
-    en: Shi Hu
+    en: Danapala
   lifespan:
     birth:
       date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中叶西域
+      raw: 约十世纪中生于乌仗那国
     death:
       date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年
+      raw: 宋真宗天禧元年卒
   birth_date: 0950
   death_date: '1017'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
-  archetype: 译经弘法者
+  reign_ref: 宋太宗太平兴国至宋真宗天禧
+  archetype: 西天译经传法者
   dilemmas:
-  - title_zh: 梵汉悬隔而义须不失
-    description: 西天梵本入中土，如何令律义灭诤之法信达雅兼顾
-  - title_zh: 众诤方兴而法须息灭
-    description: 外道斗诤损减善法，如何以七灭诤六和敬安众止诤
-  lesson: 不尚胜负，但息诤根，以恭敬师法和合众心止苦恼
-  summary_first_person: 吾奉诏译经，传西天之法于中土，译息诤因缘一经，说明诤本七灭六和，愿众生离忿恨执著，同住安乐。
+  - 梵汉悬隔义理毫厘不差当如何存真达意
+  - 寄身异域弘法任重当如何安心传灯不负本愿
+  lesson: 以空性为印摄一切法住平等见离诸著方为真实见
+  summary_first_person: 吾施护本西天人奉诏入宋译经常住译经院后传法弘化于舍卫之会宣说圣法印以空无想无作三解脱门接引群品
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%81%AF%E8%AF%A4%E5%9B%A0%E7%BC%98%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%81%AF%E8%AF%A4%E5%9B%A0%E7%BC%98%E7%BB%8F.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8D%B0%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8D%B0%E7%BB%8F.html
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 奉诏西天译经
-  summary: 以三藏传法大师之任，奉诏译梵为汉，译出息诤因缘经等，弘传律制与止诤之道。
+  title_zh: 入华译经传法
+  summary_zh: 自乌仗那赴汴京入译经院受传法大师号译经弘化三十余年
   phases:
   - key: brewing
-    name: 西来入宋
+    name: 西天习学
     labels:
-      zh: 酝酿
+      zh: 蕴育
+    start_date: 0950
+    highlight_event_id: guji-施护-event-birth
+  - key: breakthrough
+    name: 赴宋入院
+    labels:
+      zh: 转折
     start_date: 0980
-    highlight_event_id: guji-施护-event-1
-  - key: breakthrough
-    name: 应诏开译
-    labels:
-      zh: 突破
-    start_date: 0990
-    highlight_event_id: guji-施护-event-2
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 译成息诤
+    name: 奉诏传译
     labels:
-      zh: 高潮
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-2
+      zh: 高峰
+    start_date: 0991
+    highlight_event_id: guji-施护-event-fayin
   - key: closure
-    name: 流通守成
+    name: 圆寂示寂
     labels:
       zh: 收束
-    start_date: '1010'
+    start_date: '1017'
     highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0990
-    title_zh: 应诏就译经三藏之职
-    rationale: 以精通梵汉欲正译典，使中土得闻正法故受诏
-  - date: '1000'
-    title_zh: 择译息诤因缘经
-    rationale: 见众生多诤损减善法，欲以灭诤和敬之法安定僧众故译此经
+  - date: 0980
+    title_zh: 决意西来入宋
+    rationale: 为使正法东流不辞跋涉投身译场以报佛恩
+  - date: 0991
+    title_zh: 受命专心传译
+    rationale: 既膺朝命授传法之号当以精严译笔守护圣言
 - id: guji-施护-endeavor-2
-  title_zh: 弘宣灭诤和敬法门
-  summary: 依经宣说斗诤根本七灭诤法六和敬法，教苾刍离忿恨覆诳等过，同修慈和。
+  title_zh: 宣演圣法印
+  summary_zh: 译说佛说法印经以空性及三解脱门示平等正见
   phases:
   - key: brewing
-    name: 观察诤本
+    name: 观察蕴空
     labels:
-      zh: 酝酿
+      zh: 蕴育
     start_date: 0995
-    highlight_event_id: guji-施护-event-2
+    highlight_event_id: guji-施护-event-fayin-brewing
   - key: breakthrough
-    name: 敷演七灭
+    name: 开显三门
     labels:
-      zh: 突破
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-3
+      zh: 转折
+    start_date: 0998
+    highlight_event_id: guji-施护-event-fayin
   - key: climax
-    name: 并弘六和
+    name: 会归法印
     labels:
-      zh: 高潮
-    start_date: '1005'
-    highlight_event_id: guji-施护-event-3
+      zh: 高峰
+    start_date: 0998
+    highlight_event_id: guji-施护-event-fayin
   - key: closure
-    name: 嘱累流通
+    name: 信受流通
     labels:
       zh: 收束
-    start_date: '1010'
-    highlight_event_id: guji-施护-event-death
+    start_date: 0998
+    highlight_event_id: guji-施护-event-fayin-spread
   decisions:
-  - date: '1000'
-    title_zh: 详译七种灭诤法
-    rationale: 未起已起诤事皆须现前忆念不痴等法息灭，故具译无省略
-  - date: '1005'
-    title_zh: 合说六种和敬法
-    rationale: 欲令大众身语意慈和利戒见同，故以和敬巩固灭诤之果
+  - date: 0998
+    title_zh: 以空性为印摄法
+    rationale: 空性无所有离知见能摄一切法令住平等见故首标为印
+  - date: 0998
+    title_zh: 详说空无想无作三门
+    rationale: 欲令行者依次厌离灭想离作得知见清净故分别演说
 events:
 - id: guji-施护-event-birth
-  title_zh: 施护诞生
+  type: birth
   date: 0950
   year_of: 950
-  place: 西域
-  summary: 约十世纪中叶生于西域，后入中土为译经僧。
-- id: guji-施护-event-1
-  title_zh: 入宋充译经三藏
+  title_zh: 生于乌仗那国
+  place_zh: 乌仗那国
+  description_zh: 约十世纪中生于西天乌仗那幼习梵典精通三藏
+- id: guji-施护-event-arrival
+  type: career
   date: 0980
   year_of: 980
-  place: 东京开宝寺译经院
-  summary: 随佛法西来入宋，充西天译经三藏朝奉大夫传法大师，奉诏译经。
-- id: guji-施护-event-2
-  title_zh: 译佛说息诤因缘经
-  date: '1000'
-  year_of: 1000
-  place: 东京传法院
-  summary: 据梵本译出息诤因缘经一卷，明尼乾子兴诤缘起，阿难请问，佛说诤本与对治。
-- id: guji-施护-event-3
-  title_zh: 宣演七灭诤六和敬
-  date: '1005'
-  year_of: 1005
-  place: 东京
-  summary: 依所译经弘宣现前毗尼等七灭诤法，身语意利戒见六和敬法，教众息诤安乐。
+  title_zh: 赴宋入译经院
+  place_zh: 汴京译经院
+  description_zh: 宋太宗太平兴国五年抵汴京入译经院与法天等共事翻译
+- id: guji-施护-event-fayin-brewing
+  type: career
+  date: 0995
+  year_of: 995
+  title_zh: 林间观蕴准备说法
+  place_zh: 汴京
+  description_zh: 如实观察五蕴是苦是空是无常生厌离住平等见为说印之基
+- id: guji-施护-event-fayin
+  type: career
+  date: 0998
+  year_of: 998
+  title_zh: 奉诏译佛说法印经
+  place_zh: 舍卫国会下
+  description_zh: 宣说圣法印谓空性无所有无生灭离知见即三解脱门为佛眼所归
+- id: guji-施护-event-fayin-spread
+  type: career
+  date: 0998
+  year_of: 998
+  title_zh: 众闻法欢喜信受
+  place_zh: 舍卫国会下
+  description_zh: 诸苾刍闻法皆大欢喜顶礼信受法印流通
 - id: guji-施护-event-death
-  title_zh: 施护圆寂
+  type: death
   date: '1017'
   year_of: 1017
-  place: 东京
-  summary: 宋真宗天禧元年示寂，一生译经弘法事毕。
+  title_zh: 示寂于宋
+  place_zh: 汴京
+  description_zh: 宋真宗天禧元年卒毕生译经弘法以空印传持后世
