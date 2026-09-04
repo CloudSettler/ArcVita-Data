@@ -8,8 +8,8 @@ person:
     birth:
       date: '0613'
       precision: year
-      is_circa: true
-      raw: 隋末唐初约贞观前后
+      is_circa: false
+      raw: 隋大业九年
     death:
       date: 0681
       precision: year
@@ -18,110 +18,122 @@ person:
   birth_date: '0613'
   death_date: 0681
   era: 唐
-  reign_ref: 贞观至永隆
-  archetype: 净土弘化祖师
+  reign_ref: 唐高宗永隆
+  archetype: 净土弘愿师
   dilemmas:
-  - 定心观像与散心称名如何普摄群机
-  - 专修念佛与杂行兼修何者决定往生
-  - 现身见佛境界当说不说如何持戒护定
-  lesson: 一心专念弥陀相好现生灭罪护念临终必得往生
-  summary_first_person: 吾系念西方昼夜观想弥陀真金色身相海专劝行人一向称名同愿往生极乐
+  - title_zh: 专杂二修何以抉择
+    description: 专称名号易得往生杂善回向亦可往生如何劝人专精而不谤杂善
+  - title_zh: 秽土修持何以厌欣
+    description: 身处娑婆火宅众苦逼迫如何令众厌离三界欣求极乐而心不退转
+  lesson: 一心专念弥陀名号兼行礼忏转经行道即得乘佛愿力往生净土
+  summary_first_person: 吾善导生逢隋唐之际深愍众生轮回六道故专弘念佛往生一门集转经行道法事以导群迷同归极乐
   source_urls:
-  - https://daizhige.org/fo-zang/da-zang-jing/lun-zang/zhu-zong-bu.html
-  - https://tripitaka.cbeta.org/T47n1959_001
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AF%B8%E5%AE%97%E9%83%A8/%E8%BD%AC%E7%BB%8F%E8%A1%8C%E9%81%93%E6%84%BF%E5%BE%80%E7%94%9F%E5%87%80%E5%9C%9F%E6%B3%95%E4%BA%8B%E8%B5%9E.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AF%B8%E5%AE%97%E9%83%A8/%E8%BD%AC%E7%BB%8F%E8%A1%8C%E9%81%93%E6%84%BF%E5%BE%80%E7%94%9F%E5%87%80%E5%9C%9F%E6%B3%95%E4%BA%8B%E8%B5%9E.md
 endeavors:
 - id: guji-善导-endeavor-1
-  title_zh: 集记观佛三昧相海观法
-  summary_zh: 依观经观佛三昧海经详明从顶髻至足轮具足观想弥陀色身华座宝地功德
+  title_zh: 入长安专弘念佛往生净业
+  summary: 参问道绰而专修念佛入长安普劝士庶称名往生
   phases:
   - key: brewing
-    name: 依观经研习止观
+    name: 悟入佛心
     labels:
-      zh: 观佛三昧
-    start_date: '0641'
-    highlight_event_id: guji-善导-event-guanfo
+      zh: 参问道绰
+    start_date: '0633'
+    highlight_event_id: guji-善导-event-1
   - key: breakthrough
-    name: 定相海十六遍观法
+    name: 长安弘化
     labels:
-      zh: 相海庄严
-    start_date: '0653'
-    highlight_event_id: guji-善导-event-guanfo
+      zh: 普劝念佛
+    start_date: 0648
+    highlight_event_id: guji-善导-event-2
   - key: climax
-    name: 住心白毫成三昧
+    name: 撰疏立宗
     labels:
-      zh: 白毫定心
-    start_date: '0655'
-    highlight_event_id: guji-善导-event-guanfo
-  - key: closure
-    name: 集记成书普劝持戒诵经
-    labels:
-      zh: 集记流通
-    start_date: 0658
-    highlight_event_id: guji-善导-event-guanfo
-  decisions:
-  - date: '0653'
-    title_zh: 决取顺观具足观身
-    rationale: 从顶至足一一系心方能灭罪成定故立十六遍顺观之制
-  - date: '0655'
-    title_zh: 决主白毫收心立行
-    rationale: 八万四千相好难遍缘唯住眉间白毫极令明了则众相自现
-- id: guji-善导-endeavor-2
-  title_zh: 弘扬般舟道场与五缘往生义
-  summary_zh: 依般舟三昧经立七日道场专念法兼明灭罪护念见佛摄生证生五种增上缘
-  phases:
-  - key: brewing
-    name: 考据般舟立念义理
-    labels:
-      zh: 般舟三昧
-    start_date: 0659
-    highlight_event_id: guji-善导-event-daochang
-  - key: breakthrough
-    name: 制定七日道场仪轨
-    labels:
-      zh: 道场仪轨
-    start_date: '0662'
-    highlight_event_id: guji-善导-event-daochang
-  - key: climax
-    name: 广说五缘劝信往生
-    labels:
-      zh: 五缘增上
+      zh: 注解观经
     start_date: '0665'
-    highlight_event_id: guji-善导-event-daochang
+    highlight_event_id: guji-善导-event-3
   - key: closure
-    name: 立临终助念看病法
+    name: 化导成就
     labels:
-      zh: 助念往生
-    start_date: '0670'
-    highlight_event_id: guji-善导-event-daochang
+      zh: 满城断肉
+    start_date: 0680
+    highlight_event_id: guji-善导-event-death
   decisions:
-  - date: '0662'
-    title_zh: 立唯坐唯立不眠专念
-    rationale: 断诸杂念一期专心则十方诸佛悉在前立故制昼夜相续不行余法
+  - date: 0648
+    title_zh: 舍杂归专入长安弘化
+    rationale: 见道绰九品道场深悟唯念佛蒙光摄故决意专弘称名往生
   - date: '0665'
-    title_zh: 别明专杂得失立五缘
-    rationale: 为令凡夫深信专念必蒙摄护延年灭罪故引六经证成增上利益
+    title_zh: 楷定古今撰观经四帖疏
+    rationale: 纠正诸师误解扶正念佛正行使专杂得失分明群疑冰释
+- id: guji-善导-endeavor-2
+  title_zh: 集转经行道往生礼赞仪轨
+  summary: 集记转经行道愿往生净土法事赞立法事行道仪制
+  phases:
+  - key: brewing
+    name: 严饰道场
+    labels:
+      zh: 奉请圣众
+    start_date: 0668
+    highlight_event_id: guji-善导-event-3
+  - key: breakthrough
+    name: 行道散华
+    labels:
+      zh: 转经礼忏
+    start_date: '0670'
+    highlight_event_id: guji-善导-event-3
+  - key: climax
+    name: 愿生净土
+    labels:
+      zh: 回向极乐
+    start_date: '0675'
+    highlight_event_id: guji-善导-event-3
+  - key: closure
+    name: 普备含灵
+    labels:
+      zh: 齐临彼国
+    start_date: 0680
+    highlight_event_id: guji-善导-event-death
+  decisions:
+  - date: '0670'
+    title_zh: 制行道七遍散华礼赞法
+    rationale: 为令凡夫乱想有所寄托故以香华梵呗绕佛行道摄心归净
+  - date: '0675'
+    title_zh: 集记法事赞流通后世
+    rationale: 欲令识彼庄严厌斯苦事使自他道俗依文修持毕命往生
 events:
 - id: guji-善导-event-birth
-  title_zh: 诞生泗州出家修行
+  type: birth
+  title_zh: 善导诞生泗州
   date: '0613'
   year_of: 613
   place_zh: 泗州
-  description_zh: 隋末生于泗州少出家习经律后归心净土专修观想念佛
-- id: guji-善导-event-guanfo
-  title_zh: 集记观佛三昧功德法门
-  date: '0655'
-  year_of: 655
-  place_zh: 长安
-  description_zh: 依观经明观佛三昧法从佛顶蠃髻毛孔光明乃至足下轮相华台宝地层层系心复劝日诵弥陀经专念万声回向往生
-- id: guji-善导-event-daochang
-  title_zh: 立般舟七日道场与五缘义
-  date: '0665'
-  year_of: 665
+  summary: 隋大业九年生于泗州少出家究习妙法
+- id: guji-善导-event-1
+  type: career
+  title_zh: 参问道绰悟净土法
+  date: '0633'
+  year_of: 633
+  place_zh: 山西玄中寺
+  summary: 往谒道绰亲观九品道场喜得往生津梁遂专修念佛
+- id: guji-善导-event-2
+  type: career
+  title_zh: 入长安弘传念佛
+  date: 0648
+  year_of: 648
   place_zh: 长安光明寺
-  description_zh: 依般舟经立一日至七日道场束心称名不见余缘兼述灭罪护念见佛摄生证生五种增上缘并制临终面向西方助念忏悔之法
+  summary: 入长安大弘净土劝人专称名号满城士庶归化断肉斋戒
+- id: guji-善导-event-3
+  type: career
+  title_zh: 撰观经疏集法事赞
+  date: '0670'
+  year_of: 670
+  place_zh: 长安
+  summary: 撰观无量寿佛经疏及转经行道愿往生净土法事赞立法事行道仪制导人礼忏转经
 - id: guji-善导-event-death
+  type: death
   title_zh: 示寂长安
   date: 0681
   year_of: 681
   place_zh: 长安
-  description_zh: 久弘净土劝人念佛临终正念往生后世尊为净土宗开宗祖师
+  summary: 唐永隆二年示寂于长安后世尊为净土宗二祖
