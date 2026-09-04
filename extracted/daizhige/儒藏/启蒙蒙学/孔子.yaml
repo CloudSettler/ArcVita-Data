@@ -9,122 +9,144 @@ person:
       date: -551-09-28
       precision: day
       is_circa: true
-      raw: 魯襄公二十一年生於東魯
+      raw: 鲁襄公二十二年八月庚子生于陬邑
     death:
       date: -479-04-11
       precision: day
       is_circa: true
-      raw: 魯哀公十六年卒於魯
+      raw: 鲁哀公十六年四月己丑卒于鲁
   birth_date: -551-09-28
   death_date: -479-04-11
   era: 春秋
-  reign_ref: 東周景王敬王之世
-  archetype: 至聖先師
+  reign_ref: 鲁襄公至鲁哀公
+  archetype: 万世师表
   dilemmas:
-  - 周遊列國求用與退而講學育人之抉擇
-  - 述而不作守禮與筆削春秋寄褒貶之抉擇
-  lesson: 學而不厭誨人不倦以仁禮傳千古
-  summary_first_person: 吾生東魯尼山泗水之間設席講學以木鐸警眾定五經作春秋冀以仁禮匡世雖困而不改其志也
+  - 道不行于当世而坚守仁礼不改
+  - 出仕行道与退守讲学删述之间抉择
+  lesson: 以仁为本以礼为节困厄不改其道以有教无类化成天下
+  summary_first_person: 吾名丘字仲尼鲁国陬邑人也少贱好学祖述尧舜宪章文武以仁礼为教周游列国而道不行退而诲弟子三千删诗书定礼乐赞周易作春秋以待后世君子
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%B8%89%E5%AD%97%E9%89%B4.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E4%B8%89%E5%AD%97%E9%89%B4.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%AD%94%E5%AD%90%E5%AE%B6%E8%AF%AD.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%AD%94%E5%AD%90%E5%AE%B6%E8%AF%AD.md
 endeavors:
 - id: guji-孔子-endeavor-1
-  title_zh: 尼山泗水設教傳道
-  summary: 尼山之際泗水之間設講席懸木鐸聚群弟子記善言成論語二十篇以仁禮教化傳千古
+  title_zh: 杏坛设教整理典籍
+  summary_zh: 以有教无类广收弟子以诗书礼乐传道晚年删述六经以承三代之文
   phases:
   - key: brewing
-    name: 生東魯志於學
+    name: 少习礼乐博学求道
     labels:
-      zh: 立志
+      zh:
+      - 求学立志
     start_date: -536-01-01
-    highlight_event_id: guji-孔子-event-birth
+    highlight_event_id: guji-孔子-event-study
   - key: breakthrough
-    name: 開講席聚學徒
+    name: 开杏坛收徒讲学
     labels:
-      zh: 開教
-    start_date: -522-01-01
-    highlight_event_id: guji-孔子-event-teaching
+      zh:
+      - 讲学授徒
+    start_date: -521-01-01
+    highlight_event_id: guji-孔子-event-teach
   - key: climax
-    name: 群弟子記善言
+    name: 晚年删诗定礼赞易作春秋
     labels:
-      zh: 授业
-    start_date: -500-01-01
-    highlight_event_id: guji-孔子-event-teaching
+      zh:
+      - 删述六经
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-edit
   - key: closure
-    name: 論語傳千古
+    name: 以文传道寄望后学
     labels:
-      zh: 成書
-    start_date: -479-04-11
-    highlight_event_id: guji-孔子-event-death
+      zh:
+      - 成业传后
+    start_date: -481-01-01
+    highlight_event_id: guji-孔子-event-edit
   decisions:
-  - date: -522-01-01
-    title_zh: 不仕而設教
-    rationale: 以木鐸代官位聚徒講學使仁禮下及庶人
-  - date: -500-01-01
-    title_zh: 以弟子記言傳道
-    rationale: 使群弟子錄善言為論語以存聖教於後世
+  - date: -521-01-01
+    title_zh: 有教无类广收弟子
+    rationale: 欲以仁礼化天下故不问贵贱皆可受业以兴文教
+  - date: -484-01-01
+    title_zh: 退而删述不复求仕
+    rationale: 见道不行于当时故托诗书礼乐春秋以待后世君子
 - id: guji-孔子-endeavor-2
-  title_zh: 定五經作春秋
-  summary: 定五經以存古制傳千古作春秋嚴筆削寓褒貶別善惡以寄王法於空言
+  title_zh: 出仕鲁国周游列国
+  summary_zh: 仕鲁行道而后历卫陈蔡宋楚诸国虽困于匡蒲陈蔡而不改其仁
   phases:
   - key: brewing
-    name: 觀禮制覽舊典
+    name: 仕鲁为吏渐显其道
     labels:
-      zh: 覽典
-    start_date: -517-01-01
-    highlight_event_id: guji-孔子-event-teaching
+      zh:
+      - 出仕试道
+    start_date: -501-01-01
+    highlight_event_id: guji-孔子-event-office
   - key: breakthrough
-    name: 刪定詩書定禮樂
+    name: 为鲁司寇行摄相事
     labels:
-      zh: 定經
-    start_date: -484-01-01
-    highlight_event_id: guji-孔子-event-compiling
+      zh:
+      - 辅政行礼
+    start_date: -496-01-01
+    highlight_event_id: guji-孔子-event-office
   - key: climax
-    name: 作春秋嚴筆削
+    name: 周游列国历说诸侯
     labels:
-      zh: 筆削
-    start_date: -481-01-01
-    highlight_event_id: guji-孔子-event-compiling
+      zh:
+      - 周游弘道
+    start_date: -493-01-01
+    highlight_event_id: guji-孔子-event-travel
   - key: closure
-    name: 以褒貶別善惡傳後
+    name: 返鲁归老专意授徒
     labels:
-      zh: 垂訓
-    start_date: -479-04-11
-    highlight_event_id: guji-孔子-event-death
+      zh:
+      - 归鲁授徒
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-edit
   decisions:
-  - date: -484-01-01
-    title_zh: 述而不作而定五經
-    rationale: 尊古制而不自專因刪定以救禮壞樂崩之失
-  - date: -481-01-01
-    title_zh: 以春秋寓王法
-    rationale: 假筆削寄褒貶使亂臣賊子懼而善惡有別
+  - date: -496-01-01
+    title_zh: 受鲁任用而正礼法
+    rationale: 得君用则行吾道故正名分堕三都以复周礼
+  - date: -493-01-01
+    title_zh: 去鲁周游而不止
+    rationale: 鲁政不从则求明君于天下虽困厄而不舍仁道
 events:
 - id: guji-孔子-event-birth
-  type: birth
-  title_zh: 生於東魯
   date: -551-09-28
   year_of: -551
-  location: 魯國陬邑尼山之際
-  summary: 孔子生東魯為尼山泗水之人後為萬世師表
-- id: guji-孔子-event-teaching
-  type: achievement
-  title_zh: 尼山泗水設講席
-  date: -522-01-01
-  year_of: -522
-  location: 尼山泗水之間
-  summary: 設講席懸木鐸群弟子記善言為論語二十篇曾子作大學孔伋作中庸以傳其教
-- id: guji-孔子-event-compiling
-  type: achievement
-  title_zh: 定五經作春秋
-  date: -481-01-01
-  year_of: -481
-  location: 魯國
-  summary: 定五經傳千古作春秋嚴筆削寓褒貶別善惡以明王道
+  title_zh: 生于鲁国陬邑
+  place_zh: 鲁国陬邑
+  description_zh: 鲁襄公二十二年而生名丘字仲尼为叔梁纥之子
+- id: guji-孔子-event-study
+  date: -536-01-01
+  year_of: -536
+  title_zh: 少好礼学无常师
+  place_zh: 鲁国
+  description_zh: 年十五而志于学问礼于老聃习乐于苌弘博习三代典章
+- id: guji-孔子-event-teach
+  date: -521-01-01
+  year_of: -521
+  title_zh: 设杏坛广收弟子
+  place_zh: 鲁国杏坛
+  description_zh: 以有教无类为训弟子进益颜回闵损子夏子贡之属皆由此出
+- id: guji-孔子-event-office
+  date: -496-01-01
+  year_of: -496
+  title_zh: 仕鲁为司寇摄相
+  place_zh: 鲁国都城
+  description_zh: 由中都宰而升司空司寇摄相事三月而鲁大治齐人惧而归田
+- id: guji-孔子-event-travel
+  date: -493-01-01
+  year_of: -493
+  title_zh: 周游列国弘道
+  place_zh: 卫陈蔡宋楚之间
+  description_zh: 历说卫灵陈惠蔡昭楚昭诸君困于匡蒲围于陈蔡弦歌不辍
+- id: guji-孔子-event-edit
+  date: -484-01-01
+  year_of: -484
+  title_zh: 归鲁删述诗书礼乐
+  place_zh: 鲁国
+  description_zh: 返鲁不复求仕删诗定书系易作春秋以授弟子子夏传易曾参传道
 - id: guji-孔子-event-death
-  type: death
-  title_zh: 卒於魯
   date: -479-04-11
   year_of: -479
-  location: 魯國
-  summary: 孔子卒其道由曾子子思孟子及左丘明等傳述不絕聖教垂於千古
+  title_zh: 卒于鲁国
+  place_zh: 鲁国
+  description_zh: 鲁哀公十六年四月己丑而卒弟子服心丧如父葬于鲁城北泗上
