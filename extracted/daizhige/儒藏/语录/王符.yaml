@@ -1,0 +1,134 @@
+person:
+  qid: guji-王符
+  name_zh: 王符
+  names:
+    zh: 王符
+    en: Wang Fu
+  lifespan:
+    birth:
+      date: 0082
+      precision: year
+      is_circa: true
+      raw: 约建初七年安定临泾
+    death:
+      date: '0167'
+      precision: year
+      is_circa: true
+      raw: 约延熹十年
+  birth_date: 0082
+  death_date: '0167'
+  era: 东汉
+  reign_ref: 顺帝桓帝之际
+  archetype: 隐逸劝学之儒
+  dilemmas:
+  - 穷守隐居著书与出仕济世之间难以两全
+  - 直言讽谏针砭时弊与全身避祸保名之间进退维谷
+  lesson: 学以致道托经显志穷而不废精勤可济
+  summary_first_person: 吾王符字节信安定临泾人也少力学博通知经传隐居不仕自号潜夫著论三十六篇首篇赞学劝人就师读书以明智成德虽举孝廉不就贫阨而不改其志也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%BD%9C%E5%A4%AB%E8%AE%BA%E7%AC%BA%E6%A0%A1%E6%AD%A3.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%BD%9C%E5%A4%AB%E8%AE%BA%E7%AC%BA%E6%A0%A1%E6%AD%A3.html
+endeavors:
+- id: guji-王符-endeavor-1
+  title_zh: 隐居著述潜夫论
+  summary: 隐居安定博览经传托号潜夫著三十六篇以赞学劝学首篇明道藏书之要
+  phases:
+  - key: brewing
+    name: 少力学博通经传
+    labels:
+      zh:
+      - 博学
+    start_date: 0095
+    highlight_event_id: guji-王符-event-birth
+  - key: breakthrough
+    name: 举孝廉不就归隐
+    labels:
+      zh:
+      - 归隐
+    start_date: '0125'
+    highlight_event_id: guji-王符-event-1
+  - key: climax
+    name: 著潜夫论赞学劝学
+    labels:
+      zh:
+      - 著述
+    start_date: '0145'
+    highlight_event_id: guji-王符-event-2
+  - key: closure
+    name: 书成传世潜夫垂名
+    labels:
+      zh:
+      - 传世
+    start_date: '0160'
+    highlight_event_id: guji-王符-event-death
+  decisions:
+  - date: '0125'
+    title_zh: 辞孝廉不仕守隐
+    rationale: 见时政衰贵戚奢纵故不慕禄守道以著书明志
+  - date: '0145'
+    title_zh: 发愤著潜夫论
+    rationale: 以道成于学而藏于书故托先圣典经以自彰劝学振俗
+- id: guji-王符-endeavor-2
+  title_zh: 交游讽谏砭时弊
+  summary: 游洛阳交马融窦章刘恺诸贤上书陈得失讥奢淫贵农劝学以正风俗
+  phases:
+  - key: brewing
+    name: 游学洛阳交名士
+    labels:
+      zh:
+      - 交游
+    start_date: '0110'
+    highlight_event_id: guji-王符-event-1
+  - key: breakthrough
+    name: 依窦章陈时政得失
+    labels:
+      zh:
+      - 讽谏
+    start_date: '0130'
+    highlight_event_id: guji-王符-event-1
+  - key: climax
+    name: 直指贵戚奢靡抑末贵本
+    labels:
+      zh:
+      - 针砭
+    start_date: '0150'
+    highlight_event_id: guji-王符-event-2
+  - key: closure
+    name: 穷守道不移其志
+    labels:
+      zh:
+      - 守道
+    start_date: '0165'
+    highlight_event_id: guji-王符-event-death
+  decisions:
+  - date: '0130'
+    title_zh: 与贤交通不求显达
+    rationale: 欲以良朋明师相摄不以贿玷精故结心夫子遗训
+  - date: '0150'
+    title_zh: 直言贵粟贱商劝学
+    rationale: 伤风俗淫奢学士废业故以赞学明智救世显父母述祖考
+events:
+- id: guji-王符-event-birth
+  title_zh: 诞生于安定临泾
+  date: 0082
+  year_of: 82
+  place_zh: 安定临泾
+  summary: 汉章帝建初前后王符生于安定临泾少好学博通知经传
+- id: guji-王符-event-1
+  title_zh: 被举孝廉辞不就隐居
+  date: '0125'
+  year_of: 125
+  place_zh: 洛阳安定之间
+  summary: 顺帝时刘恺等举其博学以时政浊而辞不仕归隐自托潜夫
+- id: guji-王符-event-2
+  title_zh: 著成潜夫论首篇赞学
+  date: '0150'
+  year_of: 150
+  place_zh: 安定隐庐
+  summary: 发愤著潜夫论三十六篇首赞学引黄帝至孔子就师之事喻学如琢玉假舟楫以致千里劝世读书明道
+- id: guji-王符-event-death
+  title_zh: 守穷而卒于隐居
+  date: '0167'
+  year_of: 167
+  place_zh: 安定临泾
+  summary: 桓帝延熹末年穷守道而卒潜夫论传于后世
