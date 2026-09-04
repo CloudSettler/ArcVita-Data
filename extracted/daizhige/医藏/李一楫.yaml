@@ -1,0 +1,122 @@
+person:
+  qid: guji-李一楫
+  name_zh: 李一楫
+  names:
+    zh: 李一楫
+    en: Li Yiji
+  lifespan:
+    birth:
+      date: 1570
+      precision: year
+      is_circa: true
+      raw: 明隆万间粤人生年不详约计
+    death:
+      date: 1630
+      precision: year
+      is_circa: true
+      raw: 万历己未刊书后卒年不详约计
+  birth_date: 1570
+  death_date: 1630
+  era: 明
+  reign_ref: 明神宗万历
+  archetype: 博洽辑佚者
+  dilemmas:
+  - 吕览悬国门千金不增一字之说当信当疑
+  - 月令广义通考繁博重大难与编户齐民共之如何扼要争奇
+  lesson: 扼要争奇以补吕览之阙使贤愚皆得对时育物免犯非时妄作
+  summary_first_person: 吾粤人司训晋江博采群书汇为月令采奇分季分月分日附以五行生旺调摄占候以便民日用
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/月令采奇.md
+  - https://daizhige.org/医藏/月令采奇.html
+endeavors:
+- id: guji-李一楫-endeavor-1
+  title_zh: 司教晋江训士三载
+  description: 粤人来司教晋江县学以道禔躬诲人不倦表帅多士
+  phases:
+  - key: brewing
+    name: 随众论学
+    labels:
+      zh:
+      - 论学
+      - 讲学
+    start_date: 1600
+    highlight_event_id: guji-李一楫-event-jiaoxue
+  - key: climax
+    name: 司训晋江
+    labels:
+      zh:
+      - 训士
+      - 表帅
+    start_date: 1605
+    highlight_event_id: guji-李一楫-event-jiaoxue
+  decisions:
+  - date: 1605
+    title_zh: 就任晋江县学司训
+    rationale: 以蓝田规二南训诱进多士使知时习对时育物
+- id: guji-李一楫-endeavor-2
+  title_zh: 博采群书编成月令采奇
+  description: 本月令纪候之意博采群书岁分季月分日附五行生旺调摄占候以补吕览未备
+  phases:
+  - key: breakthrough
+    name: 博采汇集
+    labels:
+      zh:
+      - 采奇
+      - 纪候
+      - 调摄
+    start_date: 1615
+    highlight_event_id: guji-李一楫-event-bianzuan
+  - key: closure
+    name: 己未刊行
+    labels:
+      zh:
+      - 刊刻
+      - 占候
+    start_date: 1619
+    highlight_event_id: guji-李一楫-event-kanxing
+  decisions:
+  - date: 1615
+    title_zh: 立意采奇补吕览
+    rationale: 破千金不增减一字之说揭十二令逐日杂记以便览尽天道民故
+  - date: 1619
+    title_zh: 付梓万历己未刊本
+    rationale: 简要详而不烦使贤知昭昭修德愚者不至冥冥举事
+events:
+- id: guji-李一楫-event-birth
+  type: birth
+  title_zh: 粤地诞生
+  date: 1570
+  year_of: 1570
+  is_circa: true
+  description: 明隆万间生于粤蚤岁治博士家言喜观古人书
+  place_zh: 广东
+- id: guji-李一楫-event-jiaoxue
+  type: career
+  title_zh: 司训晋江县学
+  date: 1605
+  year_of: 1605
+  is_circa: true
+  description: 来司教吾泉照追随讲学末席者三年诱进多士诲人不倦
+  place_zh: 晋江县学
+- id: guji-李一楫-event-bianzuan
+  type: career
+  title_zh: 纂成月令采奇四卷
+  date: 1619
+  year_of: 1619
+  description: 岁分季季有总叙月有月令日有杂记附五行生旺调摄占候都鄙俚言肘后简方毕具
+  place_zh: 晋江
+- id: guji-李一楫-event-kanxing
+  type: career
+  title_zh: 万历己未刊行问世
+  date: 1619-12-22
+  year_of: 1619
+  description: 万历己未冬至李光缙郑维岳黄文照各为序跋日本内阁文库藏明万历己未刊本流传
+  place_zh: 晋江
+- id: guji-李一楫-event-death
+  type: death
+  title_zh: 刊后谢世
+  date: 1630
+  year_of: 1630
+  is_circa: true
+  description: 刊成之后行事不详灵心爽性博学宏词以道终
+  place_zh: 广东
