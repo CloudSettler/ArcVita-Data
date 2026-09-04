@@ -3,140 +3,123 @@ person:
   name_zh: 竺法护
   names:
     zh: 竺法护
-    en: Dharmaraksha
+    en: Dharmaraksa
   lifespan:
     birth:
-      date: '0231'
+      date: '0233'
       precision: year
       is_circa: true
-      raw: 约魏太和五年出生于敦煌
+      raw: 约景元四年敦煌
     death:
-      date: 0308
+      date: '0310'
       precision: year
       is_circa: true
-      raw: 约晋怀帝永嘉二年示寂于洛阳
-  birth_date: '0231'
-  death_date: 0308
+      raw: 永嘉四年洛阳
+  birth_date: '0233'
+  death_date: '0310'
   era: 西晋
-  reign_ref: 西晋武帝至怀帝
-  archetype: 西行求法译经弘化者
+  reign_ref: 晋武帝至怀帝
+  archetype: 译经沙门
   dilemmas:
-  - 胡梵与晋文隔阂而欲传大乘深义当如何会通文质令众得解
-  - 战乱流离道场不固而欲长久译传当如何坚持弘化不舍众生
-  lesson: 以平等精进破除魔事执著不厌生死不舍大哀弘传正法
-  summary_first_person: 吾乃竺法护本月氏裔家于敦煌八岁出家游历西域得梵本万轴归于中原译传晋文凡百余部宣说空无平等精进之道唯愿众生离魔网证佛慧
+  - 梵汉文义悬隔，如何传信达雅而不失禅观本意
+  - 世乱流离译场艰辛，如何坚持弘化不懈
+  lesson: 总众经大较，建易进径路，专精禅数，体空归无，方离众患
+  summary_first_person: 吾幼居敦煌，八岁出家，随师游西域，通三十六国语，归中夏译经弘化，钞众经要作修行径路，愿后贤精进至甘露
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%AD%94%E9%80%86%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E9%AD%94%E9%80%86%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BF%AE%E8%A1%8C%E9%81%93%E5%9C%B0%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BF%AE%E8%A1%8C%E9%81%93%E5%9C%B0%E7%BB%8F.html
 endeavors:
 - id: guji-竺法护-endeavor-1
-  title_zh: 西行求法大规模译经弘化
-  summary: 出家后游西域诸国搜集梵本归洛阳长安组织译场译经百余部奠定大乘经典基础
+  title_zh: 西域游学通译
+  description: 幼学大典，游历西域三十六国，习梵语胡书，博通法藏十二部
   phases:
   - key: brewing
-    name: 敦煌出家西行求法
+    name: 幼学敦煌
     labels:
-      zh:
-      - 求法
-      - 西域
-    start_date: 0239
-    highlight_event_id: guji-竺法护-event-seek
+      zh: 出家习学
+    start_date: '0241'
+    highlight_event_id: guji-竺法护-event-birth
   - key: breakthrough
-    name: 携梵本归国开设译场
+    name: 西行求经
     labels:
-      zh:
-      - 译场
-      - 归化
-    start_date: '0266'
-    highlight_event_id: guji-竺法护-event-seek
+      zh: 游学通语
+    start_date: '0255'
+    highlight_event_id: guji-竺法护-event-travel
   - key: climax
-    name: 洛阳长安百部译传
+    name: 携经东归
     labels:
-      zh:
-      - 译经
-      - 弘化
+      zh: 归化弘始
+    start_date: '0266'
+    highlight_event_id: guji-竺法护-event-return
+  decisions:
+  - date: '0255'
+    title_zh: 决意西行师事求法
+    rationale: 欲通梵本原义，非亲历西土习语不可，故遍游西域习三十六国言
+  - date: '0266'
+    title_zh: 决意东归洛阳设译场
+    rationale: 中夏慕法而无本，愿以所获梵夹归译，以益众生
+- id: guji-竺法护-endeavor-2
+  title_zh: 译弘修行道地
+  description: 总众经大较，译出修行道地经等百余部，建禅数寂观易进径路
+  phases:
+  - key: brewing
+    name: 草创译场
+    labels:
+      zh: 译经初创
+    start_date: 0268
+    highlight_event_id: guji-竺法护-event-return
+  - key: breakthrough
+    name: 译出道地经
+    labels:
+      zh: 寂观成典
     start_date: 0284
-    highlight_event_id: guji-竺法护-event-translate-moni
+    highlight_event_id: guji-竺法护-event-translate
   - key: closure
-    name: 门徒承继法脉西传
+    name: 弘化圆满
     labels:
-      zh:
-      - 传承
-      - 圆满
+      zh: 慈济遗化
     start_date: '0305'
     highlight_event_id: guji-竺法护-event-death
   decisions:
-  - date: '0266'
-    title_zh: 决意西行三十六国求梵本
-    rationale: 以中原旧译不足欲得原本广传大乘故冒艰险西求万轴梵本
-  - date: 0280
-    title_zh: 定居洛阳组织胡汉共译
-    rationale: 以一人之力难通梵晋故延请通人笔受口授会通文质使义理畅达
-- id: guji-竺法护-endeavor-2
-  title_zh: 译宣佛说魔逆经阐明平等精进
-  summary: 翻译宣演佛说魔逆经借文殊大光问答及魔作佛事之喻阐明空无相愿与二十魔事二十功德
-  phases:
-  - key: brewing
-    name: 得魔逆梵本研读义理
-    labels:
-      zh:
-      - 研读
-      - 空慧
-    start_date: 0282
-    highlight_event_id: guji-竺法护-event-translate-moni
-  - key: breakthrough
-    name: 晋文译出魔逆经
-    labels:
-      zh:
-      - 翻译
-      - 魔事
-    start_date: 0284
-    highlight_event_id: guji-竺法护-event-translate-moni
-  - key: climax
-    name: 讲演平等精进化导魔众
-    labels:
-      zh:
-      - 讲演
-      - 降魔
-    start_date: 0286
-    highlight_event_id: guji-竺法护-event-translate-moni
-  - key: closure
-    name: 以二十功德劝持流通
-    labels:
-      zh:
-      - 流通
-      - 劝持
-    start_date: 0290
-    highlight_event_id: guji-竺法护-event-translate-moni
-  decisions:
   - date: 0284
-    title_zh: 抉择译出魔逆深典
-    rationale: 以众生执精进为魔事不识平等故须译此分别佛法与魔事之经
-  - date: 0286
-    title_zh: 弘扬空无相愿不断生死
-    rationale: 以声闻厌离与菩萨执著皆是魔业故倡不舍众生平等精进摄化之道
+    title_zh: 决定译出修行道地
+    rationale: 愍后贤力劣不能自前，故总五阴禅数要义作易进径路
+  - date: 0290
+    title_zh: 坚持专精禅数弘化
+    rationale: 以三昧禅数为务，解空归无为宗，令学者离患至寂
 events:
 - id: guji-竺法护-event-birth
-  title_zh: 生于敦煌月氏之家
-  date: '0231'
-  year_of: 231
-  kind: birth
-  summary: 约魏太和年间生于敦煌月氏信佛之家八岁出家从师诵习
-- id: guji-竺法护-event-seek
-  title_zh: 西游诸国搜集梵本归国
+  type: birth
+  title_zh: 敦煌诞生
+  date: '0233'
+  year_of: 233
+  place_zh: 敦煌
+  description: 约景元四年，生于敦煌竺氏，八岁出家从师
+- id: guji-竺法护-event-travel
+  type: career
+  title_zh: 西游诸国习语
+  date: '0255'
+  year_of: 255
+  place_zh: 西域
+  description: 游历西域三十六国，习梵语胡书，通法藏十二部
+- id: guji-竺法护-event-return
+  type: career
+  title_zh: 携经归洛设译
   date: '0266'
   year_of: 266
-  kind: career
-  summary: 游历西域三十六国得大乘梵本万轴携归中原于洛阳设馆译传
-- id: guji-竺法护-event-translate-moni
-  title_zh: 译出佛说魔逆经宣平等精进
+  place_zh: 洛阳
+  description: 泰始年间归洛，始建译场，广译众经
+- id: guji-竺法护-event-translate
+  type: career
+  title_zh: 译出修行道地经
   date: 0284
   year_of: 284
-  kind: career
-  summary: 于洛阳译出佛说魔逆经述文殊师利与大光天子论平等精进魔波旬化佛说法二十魔事与二十功德
+  place_zh: 洛阳
+  description: 钞众经要，总五阴禅数寂观，译修行道地经七卷示易进径路
 - id: guji-竺法护-event-death
-  title_zh: 示寂于洛阳终年约七十八
-  date: 0308
-  year_of: 308
-  kind: death
-  summary: 永嘉之乱前示寂于洛阳门人承其译业法化流传关中江左
+  type: death
+  title_zh: 洛阳示寂
+  date: '0310'
+  year_of: 310
+  place_zh: 洛阳
+  description: 永嘉四年示寂，世寿约七十八，遗化在禅观译典

@@ -6,135 +6,123 @@ person:
     en: Bodhiruci
   lifespan:
     birth:
-      date: '0460'
+      date: 0480-01-01
       precision: year
       is_circa: true
-      raw: 约四六零年北天竺生
+      raw: 约北魏太和四年出生北天竺
     death:
-      date: '0527'
+      date: 0527-01-01
       precision: year
-      is_circa: true
-      raw: 约五二七年洛阳卒
-  birth_date: '0460'
-  death_date: '0527'
+      is_circa: false
+      raw: 北魏孝昌三年圆寂洛阳
+  birth_date: 0480-01-01
+  death_date: 0527-01-01
   era: 北魏
-  reign_ref: 北魏宣武帝孝明帝时
+  reign_ref: 北魏宣武帝至孝明帝
   archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔义理精微如何传译不失本旨
-  - 身依王命译场如何守持佛心不附权势
-  lesson: 以译经为弘法不立名闻但令正法住世流布中土
-  summary_first_person: 吾本北天竺人西来洛阳蒙魏帝敬信与勒那摩提佛陀扇多等共译大乘经论三十余部百余卷但愿汉土众生因文字得入法界实相不负来华本愿
+  - 梵汉悬隔义理微妙如何传译不失本怀
+  - 外道声闻执见深固如何以自心现量破妄显真
+  lesson: 离分别心证自内身智以无生忍利乐群生
+  summary_first_person: 我是菩提流支北天竺比丘入魏居洛阳译出入楞伽等经以自心如来藏破外道妄分别愿众生离心意识入如实行
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/佛说法集经.html
-  - https://cbetaonline.dila.edu.tw/zh/T0761
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%85%A5%E6%A5%9E%E4%BC%BD%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%85%A5%E6%A5%9E%E4%BC%BD%E7%BB%8F.html
 endeavors:
 - id: guji-菩提流支-endeavor-1
-  title_zh: 洛阳译场主持译经
-  summary: 永平正光间住洛阳嵩山等处奉诏译出法集经十地经论金刚般若等凡三十余部
+  person_id: guji-菩提流支
+  title_zh: 入魏开场广译大乘经论
+  description: 自北天竺至洛阳依王室护持译出数十部大乘经论奠定地论学统
   phases:
   - key: brewing
-    name: 发愿西来
+    name: 西域学法发心东行
     labels:
-      zh:
-      - 筹备启程
-    start_date: 0508
-    highlight_event_id: guji-菩提流支-event-arrive
+      zh: 酝酿发心
+    start_date: 0480-01-01
+    highlight_event_id: guji-菩提流支-event-birth
   - key: breakthrough
-    name: 永平开译
+    name: 初至洛阳开译场
     labels:
-      zh:
-      - 初译立信
-    start_date: '0511'
-    highlight_event_id: guji-菩提流支-event-fajijing
+      zh: 初到开译
+    start_date: 0508-01-01
+    highlight_event_id: guji-菩提流支-event-arrive-luoyang
   - key: climax
-    name: 广译经论
+    name: 群经并译名重京邑
     labels:
-      zh:
-      - 弘法高峰
-    start_date: '0513'
-    highlight_event_id: guji-菩提流支-event-shidijinglun
+      zh: 盛译弘宣
+    start_date: 0510-01-01
+    highlight_event_id: guji-菩提流支-event-translate-rulengqie
   - key: closure
-    name: 译业付嘱
+    name: 译业圆满化行不息
     labels:
-      zh:
-      - 流通圆满
-    start_date: '0525'
+      zh: 圆满住持
+    start_date: 0520-01-01
     highlight_event_id: guji-菩提流支-event-death
   decisions:
-  - date: '0511'
-    title_zh: 应诏入译场定梵汉体例
-    rationale: 为免义失本真立质直兼文饰之体以存法集十种法行本义
-  - date: '0513'
-    title_zh: 先译法集后译论释
-    rationale: 先立大乘法集纲要后以十地经论等广释行证使解行相资
+  - date: 0508-01-01
+    title_zh: 应请入洛专事传译
+    rationale: 为令中土得闻大乘正法不辞远涉专以译经为报佛恩行
+  - date: 0510-01-01
+    title_zh: 先译深密后传楞伽
+    rationale: 以如来藏自心现量为宗先立阶梯后显究竟离妄心法
 - id: guji-菩提流支-endeavor-2
-  title_zh: 敷演法集大乘法义
-  summary: 依佛说法集经宣说如来生身法身常住涅槃十种佛及唯依言辞说法之义教化中土
+  person_id: guji-菩提流支
+  title_zh: 译出十卷入楞伽经传心要
+  description: 于洛阳译出十卷入楞伽经明五法三自性八识二无我及如来藏内证智
   phases:
   - key: brewing
-    name: 观察机缘
+    name: 罗婆那请法缘起研梵本
     labels:
-      zh:
-      - 契机审察
-    start_date: 0508
-    highlight_event_id: guji-菩提流支-event-arrive
+      zh: 缘起校本
+    start_date: 0511-01-01
+    highlight_event_id: guji-菩提流支-event-arrive-luoyang
   - key: breakthrough
-    name: 说十种法行
+    name: 开笔译楞伽立自心宗
     labels:
-      zh:
-      - 法义奠基
-    start_date: '0511'
-    highlight_event_id: guji-菩提流支-event-fajijing
+      zh: 开译立宗
+    start_date: 0513-01-01
+    highlight_event_id: guji-菩提流支-event-translate-rulengqie
   - key: climax
-    name: 明十种佛空义
+    name: 十卷告成流通内外
     labels:
-      zh:
-      - 义理融通
-    start_date: '0513'
-    highlight_event_id: guji-菩提流支-event-shidijinglun
+      zh: 译成流通
+    start_date: 0514-01-01
+    highlight_event_id: guji-菩提流支-event-translate-rulengqie
   - key: closure
-    name: 劝信流通
+    name: 以楞伽印心付嘱后学
     labels:
-      zh:
-      - 付法后人
-    start_date: '0525'
+      zh: 付嘱后学
+    start_date: 0525-01-01
     highlight_event_id: guji-菩提流支-event-death
   decisions:
-  - date: '0512'
-    title_zh: 以譬喻相应摄化众生
-    rationale: 日空树药桥梁等十喻平等普照令上中下根皆得信入
-  - date: '0514'
-    title_zh: 示唯名言辞而不著法相
-    rationale: 阴界入众生业生老死涅槃皆唯名言为破执有执无引入第一义
+  - date: 0513-01-01
+    title_zh: 详译请佛问答二品
+    rationale: 以大慧百八问摄尽外道二乘邪见须以圣智内证答断疑网
+  - date: 0514-01-01
+    title_zh: 存梵义存质直辞
+    rationale: 宁存梵语本义不以华藻失真令学者可依文观心入如实地
 events:
 - id: guji-菩提流支-event-birth
-  title_zh: 生于北天竺
-  date: '0460'
-  year_of: 460
-  place_zh: 北天竺
-  summary: 约五世纪中叶生于北天竺婆罗门家少出家通三藏兼习声论
-- id: guji-菩提流支-event-arrive
-  title_zh: 至洛阳受敬信
-  date: 0508
+  person_id: guji-菩提流支
+  title_zh: 出生北天竺
+  date: 0480-01-01
+  year_of: 480
+  description: 约北魏太和年间出生北天竺出家学通三藏兼善咒术
+- id: guji-菩提流支-event-arrive-luoyang
+  person_id: guji-菩提流支
+  title_zh: 初至洛阳开译场
+  date: 0508-01-01
   year_of: 508
-  place_zh: 洛阳
-  summary: 永平初至洛阳宣武帝敬礼供养敕住永宁寺等处与勒那摩提共参译事
-- id: guji-菩提流支-event-fajijing
-  title_zh: 译佛说法集经
-  date: '0512'
-  year_of: 512
-  place_zh: 洛阳
-  summary: 于洛阳译出佛说法集经六卷明入一切修行次第十种法行十种佛及空义
-- id: guji-菩提流支-event-shidijinglun
-  title_zh: 广译十地经论等
-  date: 0518
-  year_of: 518
-  place_zh: 洛阳嵩山
-  summary: 译十地经论金刚般若经法华论大宝积经等奠定地论学派之基
+  description: 永平元年至洛阳得宣武帝崇重于崇立寺等处开场译经
+- id: guji-菩提流支-event-translate-rulengqie
+  person_id: guji-菩提流支
+  title_zh: 译出十卷入楞伽经
+  date: 0513-01-01
+  year_of: 513
+  description: 于洛阳译出元魏本入楞伽经十卷明楞伽城说自内身圣智证法
 - id: guji-菩提流支-event-death
-  title_zh: 卒于洛阳
-  date: '0527'
+  person_id: guji-菩提流支
+  title_zh: 圆寂于洛阳
+  date: 0527-01-01
   year_of: 527
-  place_zh: 洛阳
-  summary: 正光末天亲般若诸经译毕示寂于洛阳世寿约六十余译业凡三十部百余卷
+  description: 孝昌三年圆寂洛阳一生译经三十余部一百余卷行化中土
