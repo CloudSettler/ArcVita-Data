@@ -6,125 +6,134 @@ person:
     en: Li Shizhen
   lifespan:
     birth:
-      date: 1518
-      precision: year
+      date: 1518-07-03
+      precision: day
       is_circa: false
-      raw: 明正德十三年
+      raw: 明正德十三年五月二十六
     death:
-      date: 1593
+      date: 1593-01-01
       precision: year
       is_circa: false
       raw: 明万历二十一年
-  birth_date: 1518
-  death_date: 1593
-  era: 明
-  reign_ref: 明世宗嘉靖至明神宗万历间
-  archetype: 格物济世医者
+  birth_date: 1518-07-03
+  death_date: 1593-01-01
+  era: 明代
+  reign_ref: 明嘉靖至万历
+  archetype: 格物求真医者
   dilemmas:
-  - 弃儒从医违背家训科举正途之抉择
-  - 旧本草品目杂乱真伪混淆而重立纲目亲验之艰难
-  lesson: 格物必亲尝博访验审确切方能辨药活人
-  summary_first_person: 吾蕲州李时珍幼承家学弃儒从医遍历山野访采亲尝三十余年重修本草卷二十四谷部菽豆诸品黑豆属水入肾黄豆宽中下气赤小豆行津利水皆吾考订性味主治以正旧误愿后人用药有据不为虚文所误
+  - 承家学行医济世还是应科举入仕光耀门楣
+  - 沿袭旧本草陈说还是亲验实测重考百草菜石
+  lesson: 穷格物亲尝远访考证异同方能辨真成书惠人
+  summary_first_person: 吾蕲州李时珍幼承医训三试不第遂弃举业专攻本草三十余年上山采药亲尝远访考释名集解正气味主治成纲目五十二卷以菜之菠薐蕹菜荠苜蓿之属皆详录之愿以实效济世
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B724.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B724.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B727.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B727.md
 endeavors:
 - id: guji-李时珍-endeavor-1
-  title_zh: 重修本草纲目辨穀豆
-  summary: 以纲为纲以目为目考订谷部菽豆诸品正旧本舛误
+  person_qid: guji-李时珍
+  title_zh: 重修本草编纂纲目
+  summary: 博览旧本立志重修亲验考证历三十年成五十二卷
   phases:
   - key: brewing
-    name: 蕲州家学酝酿
+    name: 博览旧本立志重修
     labels:
-      zh: 酝酿
-    start_date: 1531
-    highlight_event_id: guji-李时珍-event-birth
+      zh: 酝酿立志
+    start_date: 1552-01-01
+    highlight_event_id: guji-李时珍-event-vow
   - key: breakthrough
-    name: 立志重修本草
+    name: 亲尝远访考证异同
     labels:
-      zh: 突破
-    start_date: 1552
-    highlight_event_id: guji-李时珍-event-1552
+      zh: 考证突破
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-survey
   - key: climax
-    name: 太医院阅方考证
+    name: 纲目初稿告成
     labels:
-      zh: 高潮
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-1556
+      zh: 高峰成书
+    start_date: 1578-01-01
+    highlight_event_id: guji-李时珍-event-complete
   - key: closure
-    name: 纲目初成订谷部
+    name: 校刊传世惠人
     labels:
-      zh: 收束
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-1578
+      zh: 收束刊传
+    start_date: 1593-01-01
+    highlight_event_id: guji-李时珍-event-death
   decisions:
-  - date: 1531
-    title_zh: 弃举业从医
-    rationale: 见庸医误人立志习医以活人济世为本
-  - date: 1552
-    title_zh: 以纲目体例统摄旧本草
-    rationale: 旧本草品目杂乱须以部为纲以类为目纲举目张
-  - date: 1578
-    title_zh: 谷部分黑黄赤豆性味归经
-    rationale: 亲验黑豆入肾治水黄豆宽中赤小豆利水各从其性不容混同
+  - date: 1552-01-01
+    title_zh: 弃举业专攻本草
+    rationale: 旧本纷杂谬误害人不如穷格物实学济世
+  - date: 1578-01-01
+    title_zh: 以纲摄目定五十二卷体例
+    rationale: 以部为纲以类为目释名集解气味主治发明附方贯通便于检用
 - id: guji-李时珍-endeavor-2
-  title_zh: 临床行医验方济世
-  summary: 以豆谷诸方治风毒水肿解毒活血行于临床
+  person_qid: guji-李时珍
+  title_zh: 行医辨菜药两用济世
+  summary: 以柔滑菜蔬入药食养结合辨菠薐荠苜蓿等功用治人
   phases:
   - key: brewing
-    name: 乡里诊疗积累
+    name: 承家学坐堂行医
     labels:
-      zh: 酝酿
-    start_date: 1540
-    highlight_event_id: guji-李时珍-event-1552
+      zh: 酝酿行医
+    start_date: 1541-01-01
+    highlight_event_id: guji-李时珍-event-vow
   - key: breakthrough
-    name: 楚王府奉祀良效
+    name: 菜药同源辨滑利之用
     labels:
-      zh: 突破
-    start_date: 1551
-    highlight_event_id: guji-李时珍-event-1552
+      zh: 突破辨用
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-survey
   - key: climax
-    name: 太医院辨药毒验解法
+    name: 以菠薐葵菜养窍通利示人
     labels:
-      zh: 高潮
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-1556
+      zh: 高峰施治
+    start_date: 1578-01-01
+    highlight_event_id: guji-李时珍-event-complete
   - key: closure
-    name: 晚年蕲州施药著方
+    name: 著附方授经验于后
     labels:
-      zh: 收束
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-1578
+      zh: 收束授方
+    start_date: 1593-01-01
+    highlight_event_id: guji-李时珍-event-death
   decisions:
-  - date: 1551
-    title_zh: 以黑豆甘草解百药毒
-    rationale: 古称大豆解百毒独用不验加甘草乃奇当亲试存真
-  - date: 1556
-    title_zh: 留太医院一年即归
-    rationale: 不恋官爵唯求遍览医籍验方以成书济远
+  - date: 1556-01-01
+    title_zh: 以食为药录菜部柔滑类
+    rationale: 菠薐蕹菜菾菜荠等皆能通利养窍解毒当详其性味以便民用
+  - date: 1578-01-01
+    title_zh: 存附方标时珍出以验示人
+    rationale: 久病便涩产难目翳等皆附实方使读有据行有法
 events:
 - id: guji-李时珍-event-birth
-  date: 1518
+  person_qid: guji-李时珍
+  title_zh: 出生蕲州医家
+  date: 1518-07-03
   year_of: 1518
-  title_zh: 生于蕲州医官之家
-  description: 明正德十三年生于湖广蕲州父李言闻授以医学经典奠定家学根基
-- id: guji-李时珍-event-1552
-  date: 1552
+  place_zh: 湖广蕲州
+  description: 正德十三年生于医门幼多病承父李言闻训读本草
+- id: guji-李时珍-event-vow
+  person_qid: guji-李时珍
+  title_zh: 立志重修本草
+  date: 1552-01-01
   year_of: 1552
-  title_zh: 发愤重修本草发凡起例
-  description: 明嘉靖三十一年以宋唐旧本草舛误遂立纲目体例遍访山野亲尝考订谷部菽豆即其一例
-- id: guji-李时珍-event-1556
-  date: 1556
+  place_zh: 蕲州
+  description: 嘉靖三十一年以旧本舛谬发愿遍览上古至当代诸家本草重加考证
+- id: guji-李时珍-event-survey
+  person_qid: guji-李时珍
+  title_zh: 亲尝远访考菜药
+  date: 1556-06-01
   year_of: 1556
-  title_zh: 任太医院判博览验方
-  description: 明嘉靖三十五年入太医院阅览宫藏医籍考订药毒解法如黑豆煮汁解诸毒加甘草验奇皆此时参验所得
-- id: guji-李时珍-event-1578
-  date: 1578
+  place_zh: 太和山及湖广江右
+  description: 访猎樵渔辨菠薐蕹菜荠繁缕苜蓿等形态气味如卷二十七所录时珍曰考订
+- id: guji-李时珍-event-complete
+  person_qid: guji-李时珍
+  title_zh: 本草纲目初稿成
+  date: 1578-01-01
   year_of: 1578
-  title_zh: 本草纲目初成谷部考定
-  description: 明万历六年书成五十二卷卷二十四谷部菽豆类定黑大豆黄大豆赤小豆性味主治附方百余以正旧误
+  place_zh: 蕲州蕲春
+  description: 万历六年成五十二卷约二百万言菜部分三卷柔滑类四十一种皆具释名集解
 - id: guji-李时珍-event-death
-  date: 1593
+  person_qid: guji-李时珍
+  title_zh: 病逝蕲州书未刊
+  date: 1593-01-01
   year_of: 1593
-  title_zh: 卒于蕲州书未刊行
-  description: 明万历二十一年卒于故里纲目未及刊布后其子李建元进呈刊行惠及后世
+  place_zh: 湖广蕲州
+  description: 万历二十一年逝世三年后金陵刊行本草纲目传世
