@@ -6,106 +6,133 @@ person:
     en: Wang Tailin
   lifespan:
     birth:
-      date: 1798
+      date: 1798-01-01
       precision: year
       is_circa: false
-      raw: 清嘉庆三年生于无锡
+      raw: 嘉庆三年
     death:
-      date: 1862
+      date: 1862-01-01
       precision: year
-      is_circa: false
-      raw: 清同治元年卒
-  birth_date: 1798
-  death_date: 1862
+      is_circa: true
+      raw: 同治元年左右
+  birth_date: 1798-01-01
+  death_date: 1862-01-01
   era: 清
-  reign_ref: 道光咸丰
-  archetype: 良医
+  reign_ref: 嘉庆至同治
+  archetype: 仁医
   dilemmas:
-  - 伤寒温病门户分立临证当如何融通
-  - 古方繁浩初学难记当以何法提挈
-  lesson: 以歌诀统方药执简驭繁使初学易记临证易检以济世活人
-  summary_first_person: 余名泰林字旭高无锡人也少习举业转究岐黄博览伤寒金匮温病诸书惧初学难记故以七言歌括撮方药主治及加减之要虽不敢言发明聊以便记诵资临证耳
+  - 通治方雖便亦當細切病情不得籠統施用
+  - 滋陰苦寒久服反傷陰氣須權衡平補與清瀉
+  lesson: 治病須細辨陰陽虛實寒熱不可執一法以概萬變
+  summary_first_person: 余名泰林字旭高吳中為醫博採仲景東垣丹溪諸家之說以歌括匯通治諸方欲使學者易記而臨證不惑也
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%96%B9%E6%AD%8C%E6%8B%AC.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%96%B9%E6%AD%8C%E6%8B%AC.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%96%B9%E8%AF%81%E6%B2%BB%E6%B1%87%E7%BC%96%E6%AD%8C%E8%AF%80.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%96%B9%E8%AF%81%E6%B2%BB%E6%B1%87%E7%BC%96%E6%AD%8C%E8%AF%80.html
 endeavors:
 - id: guji-王泰林-endeavor-1
-  title_zh: 编纂医方歌括
-  summary_zh: 撮素问金匮千金外台诸方以七言韵语括其主治药物加减以便记诵
+  title_zh: 匯編通治平補歌訣
+  summary: 以六味地黃腎氣為綱匯通治諸方並加按語以明陰陽平補之義
   phases:
   - key: brewing
-    name: 博览经方时方
+    name: 醞釀通治之綱
     labels:
       zh:
-      - 博览
-      - 伤寒温病
-    start_date: 1820
-    highlight_event_id: guji-王泰林-event-study
-  - key: climax
-    name: 著成医方歌括刊行
-    labels:
-      zh:
-      - 歌括
-      - 成书
-    start_date: 1851
-    highlight_event_id: guji-王泰林-event-guaokuochengshu
-  decisions:
-  - date: 1835
-    title_zh: 弃举业专攻医
-    rationale: 欲以医活人故专究岐黄博览经方时方
-  - date: 1851
-    title_zh: 以歌诀体统摄众方
-    rationale: 方药繁浩非韵难记故撮其要为七言以便初学诵习
-- id: guji-王泰林-endeavor-2
-  title_zh: 西溪书屋论医讲学
-  summary_zh: 设帐授徒论寒温统一之旨著夜话录等以诏后学兼行医活人
-  phases:
+      - 研讀金匱
+      - 平補三陰
+    start_date: 1820-01-01
+    highlight_event_id: guji-王泰林-event-1
   - key: breakthrough
-    name: 寒温融通立论
+    name: 參悟腎氣六味
     labels:
       zh:
-      - 寒温统一
-      - 讲学
-    start_date: 1840
-    highlight_event_id: guji-王泰林-event-jiangxue
+      - 益火消翳
+      - 滋水制陽
+    start_date: 1835-01-01
+    highlight_event_id: guji-王泰林-event-1
+  - key: climax
+    name: 成書通治卷
+    labels:
+      zh:
+      - 六味加減
+      - 都氣還少
+    start_date: 1845-01-01
+    highlight_event_id: guji-王泰林-event-1
   - key: closure
-    name: 晚年行医著述垂训
+    name: 垂訓慎用通治
     labels:
       zh:
-      - 行医
-      - 垂训
-    start_date: 1860
+      - 細切病情
+      - 不得籠統
+    start_date: 1850-01-01
+    highlight_event_id: guji-王泰林-event-2
+  decisions:
+  - date: 1835-06-01
+    title_zh: 宗仲景腎氣定通治之祖
+    rationale: 腎為先天根本故以腎氣六味為通治綱領而加減化裁以應變
+  - date: 1845-03-01
+    title_zh: 以歌訣括方義
+    rationale: 方多證繁非韻難記故作七言歌括並附按語以明藥性病機
+- id: guji-王泰林-endeavor-2
+  title_zh: 闡發脾腎同治資生
+  summary: 論脾腎相資提出補脾補腎分治之要並評資生健脾諸方
+  phases:
+  - key: brewing
+    name: 博覽脾胃諸論
+    labels:
+      zh:
+      - 四君六君
+      - 補中益氣
+    start_date: 1830-01-01
+    highlight_event_id: guji-王泰林-event-2
+  - key: breakthrough
+    name: 悟脾腎相關
+    labels:
+      zh:
+      - 崇土制火
+      - 滋水涵木
+    start_date: 1840-01-01
+    highlight_event_id: guji-王泰林-event-2
+  - key: climax
+    name: 評丹溪補陰之偏
+    labels:
+      zh:
+      - 苦寒傷陰
+      - 平補為貴
+    start_date: 1852-01-01
+    highlight_event_id: guji-王泰林-event-2
+  - key: closure
+    name: 示人久病調治法
+    labels:
+      zh:
+      - 胸痞補脾
+      - 無痞補腎
+    start_date: 1860-01-01
     highlight_event_id: guji-王泰林-event-death
   decisions:
-  - date: 1840
-    title_zh: 主寒温统一不主门户
-    rationale: 伤寒温病同为外感理法可通故不偏执以误人
-  - date: 1860
-    title_zh: 以平生经验诏示门人
-    rationale: 恐学医者空谈理论故举临证得失以垂教
+  - date: 1840-08-01
+    title_zh: 立久病分治要訣
+    rationale: 久病虛羸胸無痞滿宜補腎胸有痞滿宜補脾以分清先後緩急
+  - date: 1852-05-01
+    title_zh: 糾丹溪偏於苦寒之弊
+    rationale: 陽常有餘陰常不足之說易致濫用知柏故當以平補固本為正
 events:
 - id: guji-王泰林-event-birth
-  date: 1798
+  title_zh: 誕生於吳下
+  date: 1798-01-01
   year_of: 1798
-  title_zh: 生于江苏无锡
-  description_zh: 清嘉庆三年生于江苏无锡少习举业后转究医学
-- id: guji-王泰林-event-study
-  date: 1820
-  year_of: 1820
-  title_zh: 博览医经专究岐黄
-  description_zh: 博览素问伤寒金匮千金外台及温病诸家之说融会寒温
-- id: guji-王泰林-event-guaokuochengshu
-  date: 1851
-  year_of: 1851
-  title_zh: 著成医方歌括
-  description_zh: 以七言歌诀撮半夏秫米汤防己地黄汤葶苈大枣泻肺汤等众方主治与加减刊行以便初学
-- id: guji-王泰林-event-jiangxue
-  date: 1840
-  year_of: 1840
-  title_zh: 西溪书屋讲学论医
-  description_zh: 开门授徒论寒温统一之旨后成西溪书屋夜话录等
+  summary: 嘉慶三年生於江蘇吳縣少習儒而歸於醫
+- id: guji-王泰林-event-1
+  title_zh: 撰通治方歌括
+  date: 1845-06-01
+  year_of: 1845
+  summary: 以六味地黃腎氣丸為首列通治諸方並詳注加減主治以便記誦
+- id: guji-王泰林-event-2
+  title_zh: 論脾腎資生闡發歌訣
+  date: 1852-10-01
+  year_of: 1852
+  summary: 匯四君參苓資生諸方論脾胃生化之源評大補陰丸苦寒之偏倡平補之法
 - id: guji-王泰林-event-death
-  date: 1862
+  title_zh: 逝世
+  date: 1862-01-01
   year_of: 1862
-  title_zh: 卒于同治元年
-  description_zh: 清同治元年卒平生所著歌括夜话录等行于世
+  summary: 同治初年卒於吳下其醫方證治匯編歌訣通行於世為方歌要籍
