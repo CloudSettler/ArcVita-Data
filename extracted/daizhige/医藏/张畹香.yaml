@@ -6,145 +6,143 @@ person:
     en: Zhang Wanxiang
   lifespan:
     birth:
-      date: '1795-01-01'
+      date: 1800-01-01
       precision: year
       is_circa: true
-      raw: 推约嘉庆初生，包越瑚幼时见其白发童颜年近古稀
+      raw: 清代生年不详
     death:
-      date: '1872-01-01'
+      date: 1880-12-31
       precision: year
       is_circa: true
-      raw: 同治丙寅后尚在，约同治末卒于绍兴
-  birth_date: '1795-01-01'
-  death_date: '1872-01-01'
+      raw: 清代卒年不详
+  birth_date: 1800-01-01
+  death_date: 1880-12-31
   era: 清
-  reign_ref: 道光至同治
-  archetype: 儒医
+  reign_ref: 清代
+  archetype: 名医
   dilemmas:
-  - 衷古而不泥古，温邪盛行时守辛凉还是从众用承气攻下
-  - 胎产患病时以胎产为本还是以见病治病
-  lesson: 观舌合脉辨经络，简要精湛少许胜人多许
-  summary_first_person: 吾居绍城洗马池，读书喜医博览群书，中年应诊辄效，录伤寒温邪风温热入血室痢疾诸案数十则以资后学
+  - 温邪夹湿传变多端当从经辨证与从症辨证两难
+  - 外感引动肝风血虚筋痛当苦寒清热与甘寒滋液两难
+  lesson: 学医须多读书多看各家书胸有准绳滋液托邪调肝养阴为要
+  summary_first_person: 余治冬温暑湿疟痢咳喘诸证以增液托邪清养肺阴舒肝平木为法录案成编以示后学
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%97%85%E7%AE%80%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E7%97%85%E7%AE%80%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%BC%A0%E7%95%B9%E9%A6%99%E5%8C%BB%E6%A1%88.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%BC%A0%E7%95%B9%E9%A6%99%E5%8C%BB%E6%A1%88.md
 endeavors:
 - id: guji-张畹香-endeavor-1
-  title_zh: 绍城行医辨治外感温疫
-  summary: 以舌定解期，分伤寒温邪风温伏暑施治，救治城乡温疫软脚瘟诸危证
+  title_zh: 临证辨治冬温暑湿温邪
+  summary_zh: 以三焦肺卫为纲增液托邪开肺透表兼顾湿热肝风
   phases:
   - key: brewing
-    name: 博览习医
+    name: 初诊冬温邪减津伤
     labels:
-      zh: 读书喜医
-    start_date: '1815-01-01'
-    highlight_event_id: guji-张畹香-event-birth
+      zh:
+      - 冬温
+      - 养阴托邪
+    start_date: 1860-01-10
+    highlight_event_id: guji-张畹香-event-dongwen
   - key: breakthrough
-    name: 温邪大治
+    name: 增液托邪出汗而解
     labels:
-      zh: 道光己酉治验
-    start_date: '1849-03-01'
-    highlight_event_id: guji-张畹香-event-wenxie-1849
+      zh:
+      - 增液
+      - 透表
+    start_date: 1860-01-14
+    highlight_event_id: guji-张畹香-event-dongwen
   - key: climax
-    name: 疫荒继治
+    name: 暑湿热入血室双解
     labels:
-      zh: 庚戌奇荒温疫
-    start_date: '1850-06-01'
-    highlight_event_id: guji-张畹香-event-wenyi-1850
+      zh:
+      - 暑湿
+      - 热入血室
+    start_date: 1865-07-20
+    highlight_event_id: guji-张畹香-event-xueshi
   - key: closure
-    name: 经验成法
+    name: 清养收功益阴固本
     labels:
-      zh: 分门治案
-    start_date: '1866-03-01'
-    highlight_event_id: guji-张畹香-event-chan-1866
+      zh:
+      - 益阴
+      - 调理
+    start_date: 1865-08-01
+    highlight_event_id: guji-张畹香-event-xueshi
   decisions:
-  - date: '1849-04-01'
-    title_zh: 用吴氏条辨辛凉治温邪不用承气攻下
-    rationale: 温邪犯上焦心肺，攻下误治致陷，辛凉领邪外出方能战汗而解
-  - date: '1861-08-01'
-    title_zh: 直中太阴用附子理中不从众用消导
-    rationale: 水泻神愤脉空大属太阴，误用消导必殆，温中方为对证
+  - date: 1860-01-10
+    title_zh: 冬温十四日用甘寒增液不投苦寒燥津
+    rationale: 身似凉脉大数久按无力舌滑润灰黄首存津液故用玉竹沙参麦冬白薇丹皮贝母定惊凉血
+  - date: 1865-07-20
+    title_zh: 热入血室用逍遥散合暑法内外双解
+    rationale: 暑湿入肝经事适至梦多谵语口苦似疟非疟恐缠绵变幻故不用峻攻而用柴胡当归白芍楝子元胡益元杏仁连翘银花
 - id: guji-张畹香-endeavor-2
-  title_zh: 录要撰述医病简要
-  summary: 集一生绍兴经验，论舌苔伤寒温邪风温热入血室痢暑诸证以传后学
+  title_zh: 调肝养血治咳喘疟痢产后诸证
+  summary_zh: 以肝为枢清金平木滋补肝肾阴血治久咳失血疟后湿困产后血虚
   phases:
   - key: brewing
-    name: 拟撰医针
+    name: 久咳失红肝风妨肺
     labels:
-      zh: 六经分说
-    start_date: '1861-09-01'
-    highlight_event_id: guji-张畹香-event-shanghan-1861
+      zh:
+      - 久咳
+      - 平木
+    start_date: 1868-05-12
+    highlight_event_id: guji-张畹香-event-jiuke
   - key: breakthrough
-    name: 热入血室悟法
+    name: 清金平木甘寒润肺
     labels:
-      zh: 胎产为本
-    start_date: '1862-01-01'
-    highlight_event_id: guji-张畹香-event-xueshi-1862
+      zh:
+      - 清金
+      - 甘寒
+    start_date: 1868-05-20
+    highlight_event_id: guji-张畹香-event-jiuke
   - key: climax
-    name: 痢疾分肝脾
+    name: 录案成编垂示后学
     labels:
-      zh: 肝法脾法
-    start_date: '1864-02-01'
-    highlight_event_id: guji-张畹香-event-liji-1864
+      zh:
+      - 医案
+      - 传承
+    start_date: 1870-10-01
+    highlight_event_id: guji-张畹香-event-book
   - key: closure
-    name: 手著付孙
+    name: 嘱多读书胸有准绳
     labels:
-      zh: 简要传家
-    start_date: '1872-01-01'
-    highlight_event_id: guji-张畹香-event-death
+      zh:
+      - 读书
+      - 准绳
+    start_date: 1870-12-01
+    highlight_event_id: guji-张畹香-event-book
   decisions:
-  - date: '1866-03-01'
-    title_zh: 瘄疹轻者不药病中经至慎治
-    rationale: 发疹大便水泻不必服药，病中经至当从血泻，妄攻致不救
-  - date: '1866-05-01'
-    title_zh: 了了数十则务简要不尚繁芜
-    rationale: 世刊医案多方药少证论，少许胜人多许方资模范
+  - date: 1868-05-12
+    title_zh: 十八龄咳血寒热用清金平木不用少阳柴胡法
+    rationale: 暑风湿热久传入厥阴肋痛腹痛泻舌黄脉浮弦数故用杏仁桔梗贝母牡蛎青蒿鳖甲六一散薏苡通草
+  - date: 1870-10-01
+    title_zh: 汇集平生验案成张畹香医案卷上
+    rationale: 病中走经变幻丛生非逍遥滋肺托邪前后调治不能全解特录的方以使后学腹中渊博有所持循
 events:
 - id: guji-张畹香-event-birth
-  title_zh: 生于绍兴洗马池
-  date: '1795-01-01'
-  year_of: 1795
-  place_zh: 绍兴洗马池
-  summary: 出生于迁绍二百余年张氏，读书喜医博览群书
-- id: guji-张畹香-event-wenxie-1849
-  title_zh: 道光己酉治城乡温邪
-  date: '1849-04-01'
-  year_of: 1849
-  place_zh: 绍兴锦鳞桥
-  summary: 范合家三十余人染温邪，一手治愈，预制紫雪丹早截心包之变
-- id: guji-张畹香-event-wenyi-1850
-  title_zh: 庚戌潦荒后治温疫
-  date: '1850-06-01'
-  year_of: 1850
-  place_zh: 绍兴城乡
-  summary: 连岁大潦奇荒后温疫尤盛，昼夜赴救，益信饱腹不病之说
-- id: guji-张畹香-event-shanghan-1861
-  title_zh: 咸丰辛酉治暑湿伤寒
-  date: '1861-08-01'
-  year_of: 1861
-  place_zh: 阳嘉龙孙系
-  summary: 治暑湿斥时医概用承气滚痰速死之弊，辨沿海川陕杭绍用药宜忌
-- id: guji-张畹香-event-xueshi-1862
-  title_zh: 论热入血室胎产为本
-  date: '1862-06-01'
-  year_of: 1862
-  place_zh: 绍兴
-  summary: 妇人温邪适逢经至用凉血通血辛凉解肺，戒温药止经致死
-- id: guji-张畹香-event-liji-1864
-  title_zh: 分肝脾治休息痢
-  date: '1864-02-01'
-  year_of: 1864
-  place_zh: 绍兴
-  summary: 休息痢四载约春分前后治之，以祛湿热升补气舒肝补肝肾取效
-- id: guji-张畹香-event-chan-1866
-  title_zh: 同治丙寅全家病瘄有悟
-  date: '1866-03-01'
-  year_of: 1866
-  place_zh: 绍兴
-  summary: 全家病瘄多轻不药，女病中经至经断致喘，悟经血与瘄疹之要
+  title_zh: 出生
+  date: 1800-01-01
+  year_of: 1800
+  description: 清代出生生平不详长而业医
+- id: guji-张畹香-event-dongwen
+  title_zh: 治冬温十四日增液托邪案
+  date: 1860-01-10
+  year_of: 1860
+  description: 冬温身凉脉大数舌灰黄用玉竹沙参麦冬白薇丹皮贝母继用清燥汤沙参麦冬生地白芍知母花粉贝母谷芽羚羊角元参桑叶出汗而解
+- id: guji-张畹香-event-xueshi
+  title_zh: 治暑湿热入血室逍遥双解案
+  date: 1865-07-20
+  year_of: 1865
+  description: 暑湿入肝胸痛呕去后经至发寒热汗渴气急舌黄梦多谵语口苦用柴胡薄荷当归白芍楝子元胡益元杏仁麦冬连翘银花内外双解
+- id: guji-张畹香-event-jiuke
+  title_zh: 治十八龄咳嗽失红清金平木案
+  date: 1868-05-12
+  year_of: 1868
+  description: 两年咳嗽失红十月寒热舌黄肋痛腹痛泻脉浮弦小数用杏仁桔梗贝母牡蛎砂仁青蒿鳖甲六一散桑叶薏苡通草竹叶清金平木
+- id: guji-张畹香-event-book
+  title_zh: 撰成张畹香医案
+  date: 1870-10-01
+  year_of: 1870
+  description: 汇冬温暑湿疟痢咳喘产后耳衄诸案发明滋肺托邪调肝养阴之法付梓成卷上以示门人
 - id: guji-张畹香-event-death
-  title_zh: 卒于绍兴手著传孙
-  date: '1872-01-01'
-  year_of: 1872
-  place_zh: 绍兴
-  summary: 老病不复出诊，手著简要并附医案两卷付孙，后经包越瑚题序传世
+  title_zh: 逝世
+  date: 1880-12-31
+  year_of: 1880
+  description: 清代逝世医案流传后世收入医藏

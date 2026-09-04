@@ -6,130 +6,132 @@ person:
     en: Zhang Lu
   lifespan:
     birth:
-      date: 1617
+      date: '1617'
       precision: year
-      is_circa: true
-      raw: 明万历四十五年约生
+      is_circa: false
+      raw: 明万历丁巳
     death:
-      date: 1699
+      date: '1699'
       precision: year
       is_circa: true
-      raw: 康熙三十八年约卒
-  birth_date: 1617
-  death_date: 1699
-  era: 清
-  reign_ref: 康熙
-  archetype: 医家
+      raw: 清康熙三十八年左右
+  birth_date: '1617'
+  death_date: '1699'
+  era: 明末清初
+  reign_ref: 万历至康熙
+  archetype: 著述名医
   dilemmas:
-  - 仲景章句篇帙散紊王成漫次叔和混编致本意久晦
-  - 风寒营卫不分温热条例错杂学人奉指南而终昧其奥
-  lesson: 本仲景之书别为次第合百家精严采择辨风寒营卫以彰明久晦之本意
-  summary_first_person: 吾以三十年学力本仲景伤寒之书别为次第合古今百家之言精严采择分辨风寒营卫在经在腑作缵绪二论以明三阳三阴之大义愿晦者不终晦而后学有所守
+  - 专科混厕与医风三变难挽
+  - 博采众论与由博返约难兼
+  lesson: 通变而不失准绳，由博返约，临证审宜而用
+  summary_first_person: 吾生万历丁巳，历甲申播迁，寄迹十余载以医药自娱，己亥归园辑医归，稿凡十易，补辑目科痘疹，定名医通十六卷，以挽医风之弊
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%BC%B5%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%BC%B5%E8%AE%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%BC%A0%E6%B0%8F%E5%8C%BB%E9%80%9A.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%BC%A0%E6%B0%8F%E5%8C%BB%E9%80%9A.html
 endeavors:
 - id: guji-张璐-endeavor-1
-  title_zh: 缵述伤寒辨营卫
-  summary_zh: 本仲景之书别为次第不仍叔和之旧不混尚论之例分辨太阳风伤卫寒伤营及营卫俱伤各立篇目以正本清源
+  title_zh: 编纂张氏医通十六卷
+  description: 自甲申至癸酉，汇灵素金匮，参近代名言，十易其稿，由医归而定名医通
   phases:
   - key: brewing
-    name: 三十年研习积累
+    name: 甲申播迁寄迹著书
     labels:
-      zh:
-      - 积累
-    start_date: 1634
-    highlight_event_id: guji-张璐-event-study
+      zh: 流离著述
+    start_date: '1644'
+    highlight_event_id: guji-张璐-event-jiashen
   - key: breakthrough
-    name: 缵绪二论初成
+    name: 己亥归园草创医归
     labels:
-      zh:
-      - 辨释
-    start_date: 1664
-    highlight_event_id: guji-张璐-event-zuanlun
+      zh: 归园辑稿
+    start_date: '1659'
+    highlight_event_id: guji-张璐-event-jihai
   - key: climax
-    name: 携书过娄东质正
+    name: 癸酉十易成十六卷
     labels:
-      zh:
-      - 质正
-    start_date: 1664
-    highlight_event_id: guji-张璐-event-zuanlun
+      zh: 十易成编
+    start_date: '1693'
+    highlight_event_id: guji-张璐-event-guiyou
   - key: closure
-    name: 胡周作叙付梓
+    name: 乙亥定名医通告成
     labels:
-      zh:
-      - 成书
-    start_date: 1665
-    highlight_event_id: guji-张璐-event-preface
+      zh: 定名刊行
+    start_date: '1695'
+    highlight_event_id: guji-张璐-event-yihai
   decisions:
-  - date: 1664
-    title_zh: 别为次第立三阳三阴篇
-    rationale: 仲景章句散紊诸注颠倒傅会故不仍旧次第以风寒营卫在经在腑为纲重加编次
-  - date: 1664
-    title_zh: 合古今百家精严采择
-    rationale: 全生蕴要准绳等书未能推衍其奥故取喻嘉言尚论之意而更加辨证务使毫发无憾
+  - date: '1659'
+    title_zh: 以近代名言易往古晦义
+    rationale: 往古传习多不能畅发其义，故以近代明畅之论代之，使吻合准绳而可施用
+  - date: '1695'
+    title_zh: 命子补辑目科痘疹足成全编
+    rationale: 目科痘疹散失残编难行世，故命倬儿柔儿补辑，以全十六卷而通名
 - id: guji-张璐-endeavor-2
-  title_zh: 会通医理惠后学
-  summary_zh: 以伤寒经方为纲推及杂病温热兼顾营卫气血津液立桂枝麻黄青龙建中等法禁例以救误治之失
+  title_zh: 论中风汇通火气痰虚
+  description: 首列灵素病机金匮治例，汇河间东垣丹溪喻嘉言诸说，辨真中类中内外虚实，立治按为法
   phases:
   - key: brewing
-    name: 临证体认桂麻禁例
+    name: 研读灵素金匮立准绳
     labels:
-      zh:
-      - 临证
-    start_date: 1644
-    highlight_event_id: guji-张璐-event-study
+      zh: 溯源立纲
+    start_date: '1644'
+    highlight_event_id: guji-张璐-event-jiashen
   - key: breakthrough
-    name: 明桂枝三禁麻黄发汗之宜
+    name: 伤寒缵绪二论先行问世
     labels:
-      zh:
-      - 立法
-    start_date: 1664
-    highlight_event_id: guji-张璐-event-zuanlun
+      zh: 先行问世
+    start_date: '1660'
+    highlight_event_id: guji-张璐-event-shanghan
   - key: climax
-    name: 辨大青龙小青龙真武救逆
+    name: 中风门汇通诸家立论例治按
     labels:
-      zh:
-      - 救误
-    start_date: 1664
-    highlight_event_id: guji-张璐-event-zuanlun
+      zh: 汇通立论
+    start_date: '1693'
+    highlight_event_id: guji-张璐-event-guiyou
   - key: closure
-    name: 数十万言嘉惠后学
+    name: 医通告成示由博返约
     labels:
-      zh:
-      - 传世
-    start_date: 1665
-    highlight_event_id: guji-张璐-event-preface
+      zh: 由博返约
+    start_date: '1695'
+    highlight_event_id: guji-张璐-event-yihai
   decisions:
-  - date: 1664
-    title_zh: 严分桂枝麻黄青龙主治
-    rationale: 风伤卫宜桂枝解肌寒伤营宜麻黄发汗营卫俱伤审烦躁身痛定大青龙小青龙以防误汗误下致变
-  - date: 1665
-    title_zh: 付剞劂以广济世
-    rationale: 岐黄之教久失其真周官疾医无专职故不私其学愿与天下共开生民之统
+  - date: '1660'
+    title_zh: 以伤寒缵绪二论先行问世
+    rationale: 草创未惬难以示人，先以伤寒二论问世以就正宇内，俟稿十易再成全编
+  - date: '1693'
+    title_zh: 详注灵素金匮冠诸论附治按为法
+    rationale: 近世视素问迂远伤寒难用，从古立言止就一端，非详究治验不能识治法之奥
 events:
 - id: guji-张璐-event-birth
-  title_zh: 出生
-  date: 1617
+  title_zh: 出生于万历丁巳
+  date: '1617'
   year_of: 1617
-  description_zh: 明万历四十五年约生于吴中长而专攻仲景伤寒之学
-- id: guji-张璐-event-study
-  title_zh: 三十年研习百家
-  date: 1634
-  year_of: 1634
-  description_zh: 覃思三十年遍览王成活人准绳蕴要及喻嘉言尚论诸说体认风寒营卫之异
-- id: guji-张璐-event-zuanlun
-  title_zh: 携缵绪二论过娄东
-  date: 1664
-  year_of: 1664
-  description_zh: 甲辰秋携所著缵绪二论过娄东示胡周大要本仲景之书别为次第合古今百家精严采择
-- id: guji-张璐-event-preface
-  title_zh: 胡周题叙于娄东
-  date: 1665
-  year_of: 1665
-  description_zh: 康熙乙巳春王胡周为伤寒缵论题叙称其章句篇帙有伦仲景久晦之意益彰明较著
+  description: 生于万历丁巳，时风俗虽漓古道未泯，业医者各擅专科
+- id: guji-张璐-event-jiashen
+  title_zh: 甲申世变播迁寄迹著书
+  date: '1644'
+  year_of: 1644
+  description: 甲申世变黎庶奔亡，托迹灵威丈人故墟，赖医药种树之书消磨岁月，循十余载
+- id: guji-张璐-event-jihai
+  title_zh: 己亥赋归故园辑成医归
+  date: '1659'
+  year_of: 1659
+  description: 己亥赋归故园，箧中辑得方书一通，因名医归，草创甫成
+- id: guji-张璐-event-shanghan
+  title_zh: 伤寒缵绪二论先行问世
+  date: '1660'
+  year_of: 1660
+  description: 自揣草创未惬难以示人，仅以伤寒缵绪二论先行问世，颇蒙宇内许之
+- id: guji-张璐-event-guiyou
+  title_zh: 癸酉十易其稿成十六卷
+  date: '1693'
+  year_of: 1693
+  description: 肇始甲申迄今癸酉岁逾五甲，稿凡十易，勒成一十六卷，务在由博返约
+- id: guji-张璐-event-yihai
+  title_zh: 乙亥季夏定名医通自序
+  date: '1695'
+  year_of: 1695
+  description: 补辑目科痘疹足成全编，易以通名，康熙乙亥季夏自序，时年七十有九
 - id: guji-张璐-event-death
   title_zh: 逝世
-  date: 1699
+  date: '1699'
   year_of: 1699
-  description_zh: 康熙三十八年约卒著有张氏医通本经逢原伤寒缵论等数十万言行于世
+  description: 乙亥定名医通后不久逝世，享年八十余，遗医通行世以挽医风之弊
