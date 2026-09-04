@@ -9,144 +9,124 @@ person:
       date: 1689
       precision: year
       is_circa: true
-      raw: 清康熙二十八年
+      raw: 康熙二十八年左右
     death:
       date: 1748
       precision: year
       is_circa: true
-      raw: 清乾隆十三年
+      raw: 乾隆十三年左右
   birth_date: 1689
   death_date: 1748
   era: 清
   reign_ref: 乾隆
-  archetype: 医家
+  archetype: 御医汇纂者
   dilemmas:
-  - 博采众方与折衷一是之难
-  - 针灸简明切用与守经审穴之衡
-  lesson: 辑医典以惠后学，刺灸之要在明经络穴法而守正知变
-  summary_first_person: 余吴谦，字文吉，歙县人也，官太医院判，奉敕总修医宗金鉴，复定刺灸心法要诀，溯九针之原，明十二经井荥俞经合原络之法，欲使后学简明得要，针下有据耳
+  - 伤寒金匮分合之间如何复仲景旧观
+  - 简易明显与阐发微言之间如何兼顾
+  lesson: 博采众方而守简易，以启后学而裨实用
+  summary_first_person: 余吴谦奉敕汇纂医宗金鉴，订正仲景全书，正错简补阙漏，期以简易明显之注启发后学
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%88%BA%E7%81%B8%E5%BF%83%E6%B3%95%E8%A6%81%E8%AF%80.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%88%BA%E7%81%B8%E5%BF%83%E6%B3%95%E8%A6%81%E8%AF%80.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AE%97%E9%87%91%E9%89%B4.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E5%AE%97%E9%87%91%E9%89%B4.md
 endeavors:
 - id: guji-吴谦-endeavor-1
-  person_qid: guji-吴谦
-  title_zh: 奉敕总修医宗金鉴
-  summary: 以太医院判领衔汇辑历代医籍，分科立卷，正讹补缺，成御纂医典
+  title_zh: 奉敕编纂医宗金鉴
+  summary: 会诸医订正仲景全书，分经列证，注证明确，附正误存疑以昭画一
   phases:
   - key: brewing
-    name: 久任太医院研习经方
+    name: 奉敕聚医立纲
     labels:
-      zh:
-      - 行医
-      - 研经
-    start_date: 1720
-    highlight_event_id: guji-吴谦-event-1
-  - key: breakthrough
-    name: 奉旨开馆纂修
-    labels:
-      zh:
-      - 奉敕
-      - 开馆
+      zh: 酝酿
     start_date: 1739
-    highlight_event_id: guji-吴谦-event-1
-  - key: climax
-    name: 全书告成进御
-    labels:
-      zh:
-      - 成书
-      - 进御
-    start_date: 1742
-    highlight_event_id: guji-吴谦-event-2
-  - key: closure
-    name: 刊行颁布惠及医林
-    labels:
-      zh:
-      - 刊刻
-      - 颁行
-    start_date: 1742
-    highlight_event_id: guji-吴谦-event-2
-  decisions:
-  - date: 1739
-    title_zh: 奏定体例分科纂辑
-    rationale: 以圣济总录为蓝本，分十五种九十卷，使理法方药条贯分明，便于诵习
-  - date: 1741
-    title_zh: 删繁正讹存要去伪
-    rationale: 恐方论庞杂误后学，故考订经旨，删其重复，注其心法，务求简明切用
-- id: guji-吴谦-endeavor-2
-  person_qid: guji-吴谦
-  title_zh: 编定刺灸心法要诀
-  summary: 取灵枢九针素难经络之旨，合十二经原络主病，歌诀注图并行，以明针灸法要
-  phases:
-  - key: brewing
-    name: 考稽灵枢九针经旨
-    labels:
-      zh:
-      - 考经
-      - 明针
-    start_date: 1739
-    highlight_event_id: guji-吴谦-event-1
+    highlight_event_id: guji-吴谦-event-fengchi
   - key: breakthrough
-    name: 立九针式图与手法十二歌
+    name: 分经合编伤寒金匮
     labels:
-      zh:
-      - 制图
-      - 立法
+      zh: 突破
     start_date: 1740
-    highlight_event_id: guji-吴谦-event-2
+    highlight_event_id: guji-吴谦-event-hebian
   - key: climax
-    name: 详定十二经井荥俞原经合歌注
+    name: 注解方解告成进呈
     labels:
-      zh:
-      - 定穴
-      - 注歌
-    start_date: 1741
-    highlight_event_id: guji-吴谦-event-2
-  - key: closure
-    name: 配图刊入医宗金鉴
-    labels:
-      zh:
-      - 配图
-      - 成卷
+      zh: 高潮
     start_date: 1742
-    highlight_event_id: guji-吴谦-event-2
+    highlight_event_id: guji-吴谦-event-jincheng
+  - key: closure
+    name: 刊行天下垂为医宗
+    labels:
+      zh: 收束
+    start_date: 1742
+    highlight_event_id: guji-吴谦-event-jincheng
   decisions:
   - date: 1740
-    title_zh: 以歌括统针法穴法
-    rationale: 针式主治及行针次第繁多，作歌加注，使初学易记，临证有守
+    title_zh: 合伤寒金匮为一书
+    rationale: 林亿分二殊失先贤之意，故复其旧使后学知伤寒杂证原非有二
   - date: 1741
-    title_zh: 主张原络表里兼刺
-    rationale: 据难经五脏有病皆取原之说，表里原络并刺，以调荣卫通经络
+    title_zh: 立简易明显为注例
+    rationale: 不事华辞支离，惟发挥经旨旁参互证，以启发后学足裨实用
+- id: guji-吴谦-endeavor-2
+  title_zh: 太医院供奉施治垂训
+  summary: 官太医院判，审立方理君臣佐使，详煎服宜忌，以调和荣卫救时济世
+  phases:
+  - key: brewing
+    name: 入太医院习方术
+    labels:
+      zh: 酝酿
+    start_date: 1720
+    highlight_event_id: guji-吴谦-event-birth
+  - key: breakthrough
+    name: 以桂枝麻黄诸法显名
+    labels:
+      zh: 突破
+    start_date: 1730
+    highlight_event_id: guji-吴谦-event-hebian
+  - key: climax
+    name: 统领群医纂修成鉴
+    labels:
+      zh: 高潮
+    start_date: 1742
+    highlight_event_id: guji-吴谦-event-jincheng
+  - key: closure
+    name: 以建中桂枝诸变通治百病
+    labels:
+      zh: 收束
+    start_date: 1747
+    highlight_event_id: guji-吴谦-event-shishi
+  decisions:
+  - date: 1730
+    title_zh: 明桂枝为群方之冠
+    rationale: 解肌发汗调和荣卫，见一二证即是，不必悉具，可通治百病
+  - date: 1741
+    title_zh: 删去皮二字存桂枝全功
+    rationale: 桂枝气味辛甘全在皮，去皮则如枯木无解肌发汗之功
 events:
 - id: guji-吴谦-event-birth
-  person_qid: guji-吴谦
-  title_zh: 出生于安徽歙县
-  type: birth
+  title_zh: 出生
   date: 1689
   year_of: 1689
-  place_zh: 安徽歙县
-  description: 吴谦生于清康熙间歙县，少习儒而究心医学，尤精针灸脉法
-- id: guji-吴谦-event-1
-  person_qid: guji-吴谦
-  title_zh: 任太医院判奉命编书
-  type: career
+  description: 吴谦生于康熙年间，字六吉，后入太医院
+- id: guji-吴谦-event-fengchi
+  title_zh: 奉敕编书
   date: 1739
   year_of: 1739
-  place_zh: 北京
-  description: 以太医院判奉乾隆敕命，会刘裕铎等开馆纂修医宗金鉴，总其成
-- id: guji-吴谦-event-2
-  person_qid: guji-吴谦
-  title_zh: 医宗金鉴及刺灸心法要诀刊成
-  type: career
-  date: 1742
+  description: 乾隆初奉敕会同太医院众医编纂医宗金鉴
+- id: guji-吴谦-event-hebian
+  title_zh: 订正仲景全书
+  date: 1740
+  year_of: 1740
+  description: 以仲景全书为准参各家，正错简辨正误，分六经次第以启后学
+- id: guji-吴谦-event-jincheng
+  title_zh: 医宗金鉴告成进呈
+  date: 1742-08-16
   year_of: 1742
-  place_zh: 北京
-  description: 全书九十卷告成，其中刺灸心法要诀两卷，备九针形制主治，十二经原络歌注，图文并茂，颁行天下
+  description: 全书九十卷成，首列伤寒论注金匮要略，详方解集注进呈刊行
+- id: guji-吴谦-event-shishi
+  title_zh: 垂训施治
+  date: 1747
+  year_of: 1747
+  description: 以桂枝新加小建中黄耆建中诸变方治荣卫里虚诸证，垂训后学
 - id: guji-吴谦-event-death
-  person_qid: guji-吴谦
-  title_zh: 卒于京师
-  type: death
+  title_zh: 逝世
   date: 1748
   year_of: 1748
-  place_zh: 北京
-  description: 书成后数年卒，医典盛行于世，后学奉为圭臬
+  description: 卒于乾隆十三年左右，遗书医宗金鉴行于天下
