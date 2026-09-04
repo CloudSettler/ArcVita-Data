@@ -6,131 +6,148 @@ person:
     en: Kumarajiva
   lifespan:
     birth:
-      date: '0344-01-01'
+      date: '0344'
       precision: year
       is_circa: true
-      raw: 约晋穆帝永和十年生于龟兹
+      raw: 约建元十年生于龟兹国
     death:
-      date: '0413-01-01'
+      date: '0413'
       precision: year
-      is_circa: true
-      raw: 后秦弘始十五年卒于长安
-  birth_date: '0344-01-01'
-  death_date: '0413-01-01'
-  era: 十六国后秦
-  reign_ref: 后秦姚兴弘始年间
-  archetype: 译经弘法圣僧
+      is_circa: false
+      raw: 弘始十五年卒于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国姚秦
+  reign_ref: 姚兴弘始年间
+  archetype: 译经弘法者
   dilemmas:
-  - 幼习小乘后转弘大乘空义之取舍
-  - 乱世持戒弘法与东入关中译经之两难
-  lesson: 看破女色如枷锁毒害，远离衰祸以全慧明，精勤译弘以利众生
-  summary_first_person: 吾生于龟兹，七岁随母出家，初学小乘，后弘大乘空观，东入长安译经说法，诃色欲为世间枷锁重患，愿众生破枷脱锁出牢狱而得安吉
+  - 小乘毗尼持律与大乘空观会通之难
+  - 独处静修与入城聚落广利众生之难
+  lesson: 信解诸法一相空无相无作离憎爱平量疾得一切种智
+  summary_first_person: 我幼生龟兹随母出家游学西域深解空无相无作一相法门后入长安译经说法劝人莫平量他人常念一相速灭业障
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E8%8F%A9%E8%90%A8%E8%AF%83%E8%89%B2%E6%AC%B2%E6%B3%95%E7%BB%8F.html
-  - https://cbetaonline.dila.edu.tw/zh/T0615
+  - https://daizhige.org/zhufa-wuxing-jing.html
+  - https://github.com/daizhige-org/daizhigev20
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 龟兹出家转弘大乘
+  title_zh: 西域出家遍学大乘
+  summary_zh: 幼随母出家游历疏勒月氏天竺师事大乘师匠通达中百等论奠定空宗译经之基
   phases:
   - key: brewing
-    name: 幼年随母出家习小乘
+    name: 龟兹诞育随母出家
     labels:
       zh:
-      - 求学奠基
-    start_date: '0351-01-01'
-    highlight_event_id: guji-鸠摩罗什-event-ordination
+      - 出家
+      - 求法
+    start_date: '0344'
+    highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 改宗大乘研般若空义
+    name: 西行游学转习大乘
     labels:
       zh:
-      - 转向大乘
-    start_date: '0359-01-01'
-    highlight_event_id: guji-鸠摩罗什-event-mahayana
+      - 大乘
+      - 空观
+    start_date: '0356'
+    highlight_event_id: guji-鸠摩罗什-event-youxue
   - key: climax
-    name: 西域弘化声名远播
+    name: 名振西域善解一相
     labels:
       zh:
-      - 西域弘化
-    start_date: '0380-01-01'
-    highlight_event_id: guji-鸠摩罗什-event-mahayana
+      - 弘法
+      - 辩才
+    start_date: '0365'
+    highlight_event_id: guji-鸠摩罗什-event-youxue
+  - key: closure
+    name: 留滞凉州待机入秦
+    labels:
+      zh:
+      - 安忍
+      - 待时
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-youxue
   decisions:
-  - date: '0351-01-01'
-    title_zh: 随母出家学道
-    rationale: 慕佛法清净，舍世俗荣华，以求解脱慧明
-  - date: '0359-01-01'
-    title_zh: 舍小乘弘大乘空观
-    rationale: 悟小乘偏空不究竟，愿以般若大利众生故转弘大乘
+  - date: '0351'
+    title_zh: 七岁随母出家
+    rationale: 舍俗亲近三宝奠定出世修学之基
+  - date: '0362'
+    title_zh: 改习大乘空义
+    rationale: 信解诸法无生一相方能广度众生不滞小乘
 - id: guji-鸠摩罗什-endeavor-2
-  title_zh: 入关长安译经诃欲
+  title_zh: 长安译经弘说一相
+  summary_zh: 弘始三年迎入长安住逍遥园率义学沙门译出诸法无行等经宣说贪欲即道烦恼性空
   phases:
   - key: brewing
-    name: 应请东行入长安
+    name: 迎入关中礼敬国师
     labels:
       zh:
-      - 入关弘始
-    start_date: '0401-12-01'
+      - 入秦
+      - 礼遇
+    start_date: '0401'
     highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 主持译场译菩萨诃色欲法经
+    name: 开译群经会通义理
     labels:
       zh:
-      - 译经诃欲
-    start_date: '0404-01-01'
-    highlight_event_id: guji-鸠摩罗什-event-translate
+      - 译经
+      - 会通
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-yijing
+  - key: climax
+    name: 宣说无行教化菩萨
+    labels:
+      zh:
+      - 说法
+      - 空性
+    start_date: '0405'
+    highlight_event_id: guji-鸠摩罗什-event-yijing
   - key: closure
-    name: 译业圆满遗诫弘戒
+    name: 舌根不坏示信后人
     labels:
       zh:
-      - 圆满示寂
-    start_date: '0413-01-01'
+      - 圆寂
+      - 证信
+    start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: '0401-12-01'
-    title_zh: 留长安主持译场
-    rationale: 顺后秦弘护之请，以译经利世为任，不恋西域故土
-  - date: '0404-01-01'
-    title_zh: 译出诃色欲法警世
-    rationale: 悯凡夫恋色如狱似狂，须以诃欲破枷脱锁令得安吉
+  - date: '0401'
+    title_zh: 应姚兴之请入长安
+    rationale: 借国力聚众译经令大乘广布中土利乐无量众生
+  - date: '0402'
+    title_zh: 直译实相兼设方便
+    rationale: 随众生信解方便说法而自信一相空无相无作不坏戒定慧
 events:
 - id: guji-鸠摩罗什-event-birth
   type: birth
-  title_zh: 生于龟兹
-  date: '0344-01-01'
+  title_zh: 生于龟兹国
+  date: '0344'
   year_of: 344
-  place_zh: 西域龟兹
-  description: 约晋穆帝永和十年生于龟兹，为龟兹国师鸠摩罗炎之子
-- id: guji-鸠摩罗什-event-ordination
+  place_zh: 龟兹国
+  description_zh: 父出天竺母为龟兹王妹七岁随母出家显聪慧之相
+- id: guji-鸠摩罗什-event-youxue
   type: career
-  title_zh: 七岁随母出家
-  date: '0351-01-01'
-  year_of: 351
-  place_zh: 罽宾
-  description: 随母耆婆出家，游学罽宾，初习小乘毗昙，日诵千偈
-- id: guji-鸠摩罗什-event-mahayana
-  type: career
-  title_zh: 转弘大乘空宗
-  date: '0359-01-01'
-  year_of: 359
-  place_zh: 沙勒龟兹
-  description: 遇须耶利苏摩等大乘师，研般若中观，回龟兹弘大乘，名震西域
+  title_zh: 游学西域通达大乘
+  date: '0360'
+  year_of: 360
+  place_zh: 疏勒大月氏
+  description_zh: 师事槃头达多等遍学小大乘经论尤精般若中观深解一相无碍
 - id: guji-鸠摩罗什-event-changan
   type: career
-  title_zh: 弘始三年入长安
-  date: '0401-12-01'
+  title_zh: 迎入长安住逍遥园
+  date: '0401'
   year_of: 401
-  place_zh: 长安逍遥园
-  description: 后秦姚兴迎至长安，居逍遥园西明阁，率义学僧译经讲学
-- id: guji-鸠摩罗什-event-translate
+  place_zh: 长安
+  description_zh: 姚兴敦请入关待以国师之礼集义学八百人共相翻译
+- id: guji-鸠摩罗什-event-yijing
   type: career
-  title_zh: 译菩萨诃色欲法经
-  date: '0404-06-01'
-  year_of: 404
+  title_zh: 译出诸法无行经等
+  date: 0408
+  year_of: 408
   place_zh: 长安大寺
-  description: 于长安译出菩萨诃色欲法经，明女色如枷锁毒害，诫行者远离衰祸
+  description_zh: 译说诸法无行无相无生劝菩萨信解空见不谤不嗔速成佛道
 - id: guji-鸠摩罗什-event-death
   type: death
-  title_zh: 卒于长安
-  date: '0413-01-01'
+  title_zh: 圆寂于长安
+  date: '0413'
   year_of: 413
   place_zh: 长安
-  description: 后秦弘始十五年示寂于长安，遗言所译无谬，荼毗舌根不坏
+  description_zh: 弘始十五年示寂遗言译经无谬舌根不坏以证实相所说不虚
