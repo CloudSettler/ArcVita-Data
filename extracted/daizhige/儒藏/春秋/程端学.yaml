@@ -8,136 +8,125 @@ person:
     birth:
       date: 1278-01-01
       precision: year
-      is_circa: true
-      raw: 至元十五年前后生于庆元鄞县
+      is_circa: false
+      raw: 至元十五年
     death:
-      date: 1342-01-01
+      date: 1334-01-01
       precision: year
-      is_circa: true
-      raw: 至正二年前后卒
+      is_circa: false
+      raw: 元统二年
   birth_date: 1278-01-01
-  death_date: 1342-01-01
+  death_date: 1334-01-01
   era: 元代
-  reign_ref: 至治泰定间
-  archetype: 经学集成之儒
+  reign_ref: 元仁宗延祐至元顺帝元统
+  archetype: 经学辨说型
   dilemmas:
-  - 三传穿凿附会与圣人明白正大经义之间如何抉择
-  - 博采一百七十六家众说与断以本义己意之间如何权衡
-  lesson: 属辞比事平易其心以明克己复礼则常道粲然而鉴戒昭矣
-  summary_first_person: 吾程端学字时叔号积斋庆元鄞人至治元年登进士第二授国子助教迁翰林国史院编修官在国学二十年采三传而下一百七十六家合于经者为春秋本义三十卷复作辨疑或问通论问答纲领以订异同持常事不书有贬无褒之防欲使人知非常而复礼
+  - 屈经从传与废传说经之间的权衡
+  - 夏时周月之辨中坚守天时人事之常
+  lesson: 取诸家之长而知其短，奉若天道以读春秋，防民之欲而约于义理
+  summary_first_person: 吾程端学，鄞人也，延祐进士，辑春秋本义，复作或问十卷，明去取之意，主夏时正朔以斥周正之误，欲使后人知礼之所在而克己复礼
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E6%9C%AC%E4%B9%89.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E6%9C%AC%E4%B9%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E7%A8%8B%E6%B0%8F%E6%98%A5%E7%A7%8B%E6%88%96%E9%97%AE.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E7%A8%8B%E6%B0%8F%E6%98%A5%E7%A7%8B%E6%88%96%E9%97%AE.html
 endeavors:
 - id: guji-程端学-endeavor-1
-  title_zh: 在国学纂修春秋本义三十卷
-  summary: 病三传泥字遗事积习生常采辑百七十六家合于经者间附己意廿年始就以明礼义正名分
+  title_zh: 辑春秋本义以立褒贬之法
+  summary: 削鲁史之合于礼者笔其不合于礼者以训后世
   phases:
   - key: brewing
-    name: 病三家穿凿立志扫陋习
+    name: 潜心三传博采诸儒
     labels:
       zh:
-      - 积学
-      - 立志
-    start_date: 1305-01-01
+      - 潜心
+      - 博采
+    start_date: 1310-01-01
     highlight_event_id: guji-程端学-event-jinshi
   - key: breakthrough
-    name: 登第入国学得观中秘
+    name: 辑成本义明笔削大义
     labels:
       zh:
-      - 登第
-      - 入学
-    start_date: 1321-01-01
-    highlight_event_id: guji-程端学-event-jinshi
-  - key: climax
-    name: 泰定丁卯序成书三十卷
+      - 辑述
+      - 立教
+    start_date: 1325-01-01
+    highlight_event_id: guji-程端学-event-benyi
+  - key: closure
+    name: 本义或问相辅而行
     labels:
       zh:
-      - 纂述
       - 成书
-    start_date: 1327-04-01
-    highlight_event_id: guji-程端学-event-benyi
-  - key: closure
-    name: 列通论问答纲领传于后世
-    labels:
-      zh:
       - 垂训
-      - 传世
-    start_date: 1328-01-01
-    highlight_event_id: guji-程端学-event-benyi
+    start_date: 1330-01-01
+    highlight_event_id: guji-程端学-event-huowen
   decisions:
-  - date: 1321-01-01
-    title_zh: 以本义为名采辑众说
-    rationale: 圣人经世之志久泯须类次群言使二百四十二年事义首尾相应
-  - date: 1327-04-01
-    title_zh: 持常事不书有贬无褒为大防
-    rationale: 直书其事善恶自见不以日月爵氏名字妄施褒贬方得董子正谊明道之旨
+  - date: 1325-01-01
+    title_zh: 断以事立教不在年月时日之间
+    rationale: 年月所以次先后而已，立教在其事，防欲约于义理之中
+  - date: 1328-01-01
+    title_zh: 取杜氏鲁史本号说削余家命名训诂
+    rationale: 古人简质即物取名，何必研精覃思转相训诂
 - id: guji-程端学-endeavor-2
-  title_zh: 任国子助教迁翰林史馆编修
-  summary: 至治元年举进士第二官国子助教迁翰林国史院编修官以经术教胄子以史笔助信史事附韩性传
+  title_zh: 作春秋或问以辨诸家得失
+  summary: 历举张洽左氏诸说之得失，明夏时冠月之志
   phases:
   - key: brewing
-    name: 庆元力学举进士第二
+    name: 考平王之终辨春秋之始
     labels:
       zh:
-      - 苦学
-      - 科第
-    start_date: 1315-01-01
-    highlight_event_id: guji-程端学-event-jinshi
-  - key: breakthrough
-    name: 除授国子助教居讲席
-    labels:
-      zh:
-      - 师儒
-      - 讲学
-    start_date: 1321-06-01
-    highlight_event_id: guji-程端学-event-jinshi
+      - 考始
+      - 明义
+    start_date: 1326-01-01
+    highlight_event_id: guji-程端学-event-benyi
   - key: climax
-    name: 迁翰林国史院编修官
+    name: 力主夏时痛斥周正改时易月
     labels:
       zh:
-      - 史馆
-      - 编修
-    start_date: 1328-01-01
-    highlight_event_id: guji-程端学-event-bianxiu
+      - 夏时
+      - 正朔
+    start_date: 1330-01-01
+    highlight_event_id: guji-程端学-event-huowen
   - key: closure
-    name: 事迹附载儒学韩性传
+    name: 或问十卷分经传十公而传世
     labels:
       zh:
-      - 立传
-      - 垂范
-    start_date: 1342-01-01
-    highlight_event_id: guji-程端学-event-death
+      - 辨正
+      - 传世
+    start_date: 1332-01-01
+    highlight_event_id: guji-程端学-event-huowen
   decisions:
-  - date: 1321-06-01
-    title_zh: 安于国学讲席以经明行修为教
-    rationale: 周纲既堕须自庠序正名分防微慎始使胄子知克己复礼
-  - date: 1328-01-01
-    title_zh: 入史馆仍以春秋书法持史笔
-    rationale: 春秋天子之事是非定犹豫存亡继绝须谨名分重兵权以杜贼乱于未然
+  - date: 1330-01-01
+    title_zh: 坚主夏时冠周月说不从左氏王周正
+    rationale: 天时无迁改之理，变易四时则分至启闭皆舛，故以夏正数月为断
+  - date: 1331-01-01
+    title_zh: 掊击张洽之传及左氏伪撰事实
+    rationale: 伸己说必废传以说经，然取其长知其短方为正大
 events:
 - id: guji-程端学-event-birth
   title_zh: 生于庆元鄞县
   date: 1278-01-01
   year_of: 1278
-  description: 宋末元初生于庆元路鄞县字时叔号积斋少力学于经
+  place_zh: 庆元路鄞县
+  description: 至元十五年生，字时叔，笃志经学
 - id: guji-程端学-event-jinshi
-  title_zh: 至治元年举进士第二授国子助教
-  date: 1321-01-01
-  year_of: 1321
-  description: 至治元年登进士第列第二除授国子助教居国学讲席
+  title_zh: 延祐五年登进士第
+  date: 1318-01-01
+  year_of: 1318
+  place_zh: 大都
+  description: 登第授国史院编修，迁国子助教，太常博士，专治春秋
 - id: guji-程端学-event-benyi
-  title_zh: 泰定丁卯序春秋本义成书
-  date: 1327-04-01
-  year_of: 1327
-  description: 在国学采三传而下一百七十六家作春秋本义三十卷首列纲领通论问答自序于四明
-- id: guji-程端学-event-bianxiu
-  title_zh: 迁翰林国史院编修官
-  date: 1328-01-01
-  year_of: 1328
-  description: 由国子助教迁翰林国史院编修官参修国史以经术持史笔
+  title_zh: 辑春秋本义
+  date: 1325-01-01
+  year_of: 1325
+  place_zh: 鄞县
+  description: 辑春秋本义，明笔削褒贬之义，为或问之本
+- id: guji-程端学-event-huowen
+  title_zh: 成春秋或问十卷
+  date: 1330-01-01
+  year_of: 1330
+  place_zh: 鄞县
+  description: 自隐公至哀公分卷设为或问，辨夏时周正，攻张洽左氏之失，与本义相辅而行
 - id: guji-程端学-event-death
-  title_zh: 卒于元季事附韩性传
-  date: 1342-01-01
-  year_of: 1342
-  description: 卒于至正初年事迹附载元史儒学传韩性传中所著本义为四库采录备考
+  title_zh: 卒于元统二年
+  date: 1334-01-01
+  year_of: 1334
+  place_zh: 鄞县
+  description: 卒后或问与本义并传，四库列于经部春秋类，纪昀等称其持论多正大
