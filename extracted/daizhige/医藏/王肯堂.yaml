@@ -13,150 +13,114 @@ person:
     death:
       date: 1613
       precision: year
-      is_circa: false
-      raw: 明万历四十一年
+      is_circa: true
+      raw: 明万历四十一年前后
   birth_date: 1549
   death_date: 1613
   era: 明
-  reign_ref: 明嘉靖至万历
-  archetype: 良医著述者
+  reign_ref: 万历
+  archetype: 融内外的著述良医
   dilemmas:
-  - 先君严戒妨废举业与锐志学医救母济世之冲突
-  - 守死句求活人与以准绳为心目须心目明之警惕
-  - 储相之志不振与著书传天下万世以济物之抉择
-  lesson: 准绳所以取平直而能用准绳者在心目明不可守死句求活人当辨脉因病证书治寒温攻补得其平
-  summary_first_person: 余发始燥闻范文正公愿为良医嘉靖丙寅母病阽危诸医言人人殊遂锐志学医起亡妹于垂死举乡试成进士备员史馆请急归养取岐黄家言肆力焉采取古今方论命高隐次第录之先成杂病论方各八巨袠名曰证治准绳后补伤寒疡医幼科女科以成全书愿后人因证检书得治法而勿以准绳为心目
+  - 世重内轻外疡医见轻是否仍以活人为心专治外科
+  - 还山支俸受之不安辞之立异当如何处禄以成书济世
+  lesson: 不精内不能治外辨阴阳经络补托为先戒攻伐耗散
+  summary_first_person: 余童而习岐黄弱冠治女弟乳疡虞翁附骨疡皆起白骨而肉之欲得有志者授以疡医而不可得乃集先代方论融以独得成是编还山以俸付梓以便世用
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/证治准绳.md
-  - https://daizhige.org/医藏/证治准绳.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%AF%81%E6%B2%BB%E5%87%86%E7%BB%B3%E7%96%A1%E5%8C%BB.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%AF%81%E6%B2%BB%E5%87%86%E7%BB%B3%E7%96%A1%E5%8C%BB.html
 endeavors:
 - id: guji-王肯堂-endeavor-1
-  title_zh: 弃举业而学医以济乡曲沉疴
-  summary_zh: 因母病医言殊异而锐志学医虽妨举业被戒仍起妹于垂死归养后闻见益广乡曲叩阍求方无弗立应
+  title_zh: 童习岐黄弱冠治疡
+  summary_zh: 童习岐黄弱冠自治乳疡附骨疡悟内外相通
   phases:
   - key: brewing
-    name: 母病陋医锐志学医
+    name: 童习岐黄
     labels:
-      zh:
-      - 孝亲
-      - 疑医
-      - 立志
-    start_date: 1566
-    highlight_event_id: guji-王肯堂-event-study-medicine
+      zh: 早习医术
+    start_date: 1556
+    highlight_event_id: guji-王肯堂-event-birth
   - key: breakthrough
-    name: 起妹垂死名闻求诊
+    name: 弱冠治疡
     labels:
-      zh:
-      - 岐黄夙契
-      - 活人渐众
+      zh: 起白骨肉之
+    start_date: 1569
+    highlight_event_id: guji-王肯堂-event-cure
+  - key: climax
+    name: 悟外科非易
+    labels:
+      zh: 求师不得
     start_date: 1570
-    highlight_event_id: guji-王肯堂-event-study-medicine
-  - key: climax
-    name: 归养肆力岐黄艺精
-    labels:
-      zh:
-      - 归隐
-      - 行医全活
-    start_date: 1593
-    highlight_event_id: guji-王肯堂-event-jinshi
+    highlight_event_id: guji-王肯堂-event-cure
   - key: closure
-    name: 推一方之济为著书之愿
+    name: 立志集论
     labels:
-      zh:
-      - 济一方
-      - 济天下
-    start_date: 1600
-    highlight_event_id: guji-王肯堂-event-zabing-publish
+      zh: 活人为心
+    start_date: 1572
+    highlight_event_id: guji-王肯堂-event-cure
   decisions:
-  - date: 1566
-    title_zh: 锐志学医
-    rationale: 母病延医言人人殊罕得要领心陋之故学医以求要领
-  - date: 1593
-    title_zh: 请急归养重拾医业
-    rationale: 备员史馆被口语终不振念二亲笃老善病乃复取岐黄家言肆力以尽定省全活之责
+  - date: 1569
+    title_zh: 不待师自治乳疡附骨疡
+    rationale: 以活人为心验不精内不能治外起白骨而肉之
+  - date: 1570
+    title_zh: 欲求有志者授以疡医而不可得
+    rationale: 见世疡医不明经络嗜利轻命故欲自集方论以救其弊
 - id: guji-王肯堂-endeavor-2
-  title_zh: 编撰证治准绳百二十卷成医家圭臬
-  summary_zh: 先成杂病证治准绳八册分十三门附类方万历壬寅刊行后补伤寒疡医幼科女科仍以证治准绳为总名该博精详世竞传之
+  title_zh: 集论编纂疡医准绳
+  summary_zh: 集先代名医方论融以独得付梓成疡医准绳
   phases:
   - key: brewing
-    name: 采古今方论命高隐录次
+    name: 便差还故山
     labels:
-      zh:
-      - 采摭繁富
-      - 参以鄙见
-    start_date: 1600
-    highlight_event_id: guji-王肯堂-event-zabing-publish
+      zh: 还山编葺
+    start_date: 1605
+    highlight_event_id: guji-王肯堂-event-compile
   - key: breakthrough
-    name: 杂病八册壬寅助刻行世
+    name: 集先代方论
     labels:
-      zh:
-      - 证治详明
-      - 因证检治
-    start_date: 1602
-    highlight_event_id: guji-王肯堂-event-zabing-publish
+      zh: 融以独得
+    start_date: 1606
+    highlight_event_id: guji-王肯堂-event-compile
   - key: climax
-    name: 补伤寒疡医幼科女科
+    name: 付梓疡医编
     labels:
-      zh:
-      - 补前未备
-      - 五科七事
-    start_date: 1604
-    highlight_event_id: guji-王肯堂-event-complete-quanshu
+      zh: 付梓竣事
+    start_date: 1608
+    highlight_event_id: guji-王肯堂-event-compile
   - key: closure
-    name: 该博精详为医家圭臬
+    name: 诸科略备
     labels:
-      zh:
-      - 条理端委
-      - 寒温攻补得平
-    start_date: 1607
-    highlight_event_id: guji-王肯堂-event-complete-quanshu
+      zh: 归功圣主
+    start_date: 1608
+    highlight_event_id: guji-王肯堂-event-death
   decisions:
-  - date: 1602
-    title_zh: 命书为证治准绳
-    rationale: 医有五科七事脉因病证治派析支分时师皆失故详证治使不知医不能脉者因证检书得治法以准绳取平直
-  - date: 1604
-    title_zh: 补撰四科以全书系
-    rationale: 前书专论杂证未备伤寒疮疡幼科女科故续成以补阙仍总名证治准绳使体例相贯
+  - date: 1608
+    title_zh: 融独得以成疡医编
+    rationale: 与图人形刊方药诧秘传者不侔务使熟玩神明可名世
+  - date: 1608
+    title_zh: 以支俸付梓人逾期竣事
+    rationale: 受俸不安辞俸立异故以俸资成诸科分证用药之书略备
 events:
 - id: guji-王肯堂-event-birth
-  kind: birth
-  title_zh: 王肯堂生于金坛
+  title_zh: 生于金坛
   date: 1549
   year_of: 1549
-  place_zh: 南直隶金坛
-  description_zh: 明嘉靖二十八年王肯堂生字宇泰号念西居士好读书尤精于医
-- id: guji-王肯堂-event-study-medicine
-  kind: study
-  title_zh: 嘉靖丙寅因母病锐志学医
-  date: 1566
-  year_of: 1566
-  place_zh: 金坛
-  description_zh: 母病阽危诸医言殊心陋之遂学岐黄起亡妹于垂死渐为人知延诊求方户屣恒满
-- id: guji-王肯堂-event-jinshi
-  kind: office
-  title_zh: 成进士备员史馆请急归养
-  date: 1589
-  year_of: 1589
-  place_zh: 北京翰林
-  description_zh: 举于乡十年成进士选读中秘书备员史馆四年请急归旋被口语不振遂归养肆力医业
-- id: guji-王肯堂-event-zabing-publish
-  kind: publish
-  title_zh: 万历壬寅杂病证治准绳刊行
-  date: 1602
-  year_of: 1602
-  place_zh: 金坛
-  description_zh: 采取古今方论命高隐录次先成杂病论方各八巨袠周鹤阳助成万历三十年壬寅行于世
-- id: guji-王肯堂-event-complete-quanshu
-  kind: publish
-  title_zh: 补成伤寒疡医幼科女科全书
-  date: 1607
-  year_of: 1607
-  place_zh: 金坛
-  description_zh: 伤寒疡医成于甲辰幼科女科成于丁未以补前书未备仍以证治准绳为总名凡百二十卷
+  type: birth
+  description_zh: 明嘉靖二十八年生于金坛童而习岐黄之术
+- id: guji-王肯堂-event-cure
+  title_zh: 弱冠治乳疡附骨疡
+  date: 1569
+  year_of: 1569
+  type: career
+  description_zh: 弱冠治女弟乳疡虞翁附骨疡皆起白骨而肉之以为外科易易欲得聪明有志者指授之而竟无有
+- id: guji-王肯堂-event-compile
+  title_zh: 书疡医自序付梓
+  date: 1608-08-07
+  year_of: 1608
+  type: career
+  description_zh: 万历三十六年戊申七夕书自序于奢懒轩集先代方论成疡医准绳以俸付梓人逾期竣事
 - id: guji-王肯堂-event-death
-  kind: death
-  title_zh: 王肯堂卒
+  title_zh: 卒于万历末
   date: 1613
   year_of: 1613
-  place_zh: 金坛
-  description_zh: 明万历四十一年卒所著证治准绳郁冈斋笔麈传世为医家圭臬
+  type: death
+  description_zh: 万历四十年前后卒留证治准绳诸科以行于世
