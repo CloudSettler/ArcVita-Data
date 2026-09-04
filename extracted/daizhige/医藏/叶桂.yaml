@@ -6,117 +6,151 @@ person:
     en: Ye Gui
   lifespan:
     birth:
-      date: 1667
+      date: 1666
       precision: year
       is_circa: false
-      raw: 康熙六年
+      raw: 清康熙五年
     death:
-      date: 1746
+      date: 1745
       precision: year
       is_circa: false
-      raw: 乾隆十一年
-  birth_date: 1667
-  death_date: 1746
+      raw: 清乾隆十年
+  birth_date: 1666
+  death_date: 1745
   era: 清
   reign_ref: 康熙至乾隆
-  archetype: 儒医
+  archetype: 温病大家
   dilemmas:
-  - 本草浩繁记诵维艰而承讹袭谬当删繁撮要还是因陋就简
-  - 医易相通当穷义理抉所以然还是仅守名物治已病
-  lesson: 撮要钩玄以易通医明其当然必抉其所以然方能纲举目张
-  summary_first_person: 吾吴郡叶桂字天士邃于易而善医以盈虚消息通缓急轻重删本经为一百七十四种作本草经解以授后学
+  - 温邪化热最速而伤寒留恋在表治法大异何以抉择
+  - 湿热蒙蔽清窍而香燥劫津何以两全
+  lesson: 辨营卫气血察舌验齿辨斑疹随证变法为温病纲领
+  summary_first_person: 吾吴县叶桂字天士幼承家学遍师江南见温邪上受首先犯肺立卫气营血四层以辨顺逆传变用辛凉轻剂甘淡驱湿以救时弊也
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BB%8F%E8%A7%A3.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BB%8F%E8%A7%A3.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B8%A9%E7%83%AD%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B8%A9%E7%83%AD%E8%AE%BA.md
 endeavors:
 - id: guji-叶桂-endeavor-1
-  title_zh: 研易悟医吴中行医
-  summary_zh: 少承家学邃于易著易经象训以易之盈虚通剂之缓急吴中活人无数
+  title_zh: 创立卫气营血辨证纲领
+  summary_zh: 以卫气营血四层候温病传变分顺传逆传定汗清透凉法
   phases:
   - key: brewing
-    name: 家学奠基
+    name: 家学博采遍师名家
     labels:
-      zh: 博览习医
-    start_date: 1667
-    highlight_event_id: guji-叶桂-event-birth
+      zh: 幼承家学博览群书
+    start_date: 1680
+    highlight_event_id: guji-叶桂-event-study
   - key: breakthrough
-    name: 以易悟医
+    name: 提出上受犯肺逆传心包
     labels:
-      zh: 贯通义理
-    start_date: 1685
-    highlight_event_id: guji-叶桂-event-practice
-  - key: climax
-    name: 吴中临证
-    labels:
-      zh: 活人济世
-    start_date: 1689
-    highlight_event_id: guji-叶桂-event-practice
-  - key: closure
-    name: 授徒传术
-    labels:
-      zh: 授受心法
+      zh: 温邪上受首先犯肺
     start_date: 1710
+    highlight_event_id: guji-叶桂-event-weiqi
+  - key: climax
+    name: 确立分层论治大法
+    labels:
+      zh: 在卫汗之到气清气入营透热入血凉血
+    start_date: 1725
     highlight_event_id: guji-叶桂-event-practice
+  - key: closure
+    name: 门人整理温热论刊行
+    labels:
+      zh: 顾景文整理成书垂范后世
+    start_date: 1746
+    highlight_event_id: guji-叶桂-event-book
   decisions:
-  - date: 1685
-    title_zh: 以易通医不泥名物
-    rationale: 宋贤略名物而穷义理斯道始朗医当抉所以然方能补泻得所当然
-  - date: 1689
-    title_zh: 设帐吴中临证济人
-    rationale: 畏繁重而承讹袭谬者众须亲诊验方以证所学全活为心
+  - date: 1710
+    title_zh: 舍伤寒辛温而用辛凉轻剂
+    rationale: 温邪化热最速肺合皮毛故透风于热外渗湿于热下不与热相抟
+  - date: 1725
+    title_zh: 立顺传逆传与透营转气之法
+    rationale: 营分受热血液受劫仍可犀角元参透热转气直入于血则凉血散血
 - id: guji-叶桂-endeavor-2
-  title_zh: 删繁撮要撰述本草经解
-  summary_zh: 于本经三百六十五种损益为一百七十四种缕析气味归经制方斟酌尽善
+  title_zh: 完善察舌验齿辨斑疹与三焦治法
+  summary_zh: 以舌齿斑疹白㿬验病深浅以分消走泄治三焦湿热留连
   phases:
   - key: brewing
-    name: 慨叹繁赜
+    name: 吴中湿邪为患留心舌诊
     labels:
-      zh: 立言之难
-    start_date: 1705
+      zh: 白苔黄苔绛舌紫舌细辨
+    start_date: 1715
     highlight_event_id: guji-叶桂-event-practice
   - key: breakthrough
-    name: 撮要钩玄
+    name: 验齿辨斑疹定营血深浅
     labels:
-      zh: 损益本经
-    start_date: 1720
-    highlight_event_id: guji-叶桂-event-bencao
+      zh: 齿为肾余龈为胃络斑疹外露
+    start_date: 1730
+    highlight_event_id: guji-叶桂-event-toothspot
   - key: climax
-    name: 诠释制方
+    name: 三焦分消上下里结阳明轻下
     labels:
-      zh: 洁静精微
-    start_date: 1724
-    highlight_event_id: guji-叶桂-event-bencao
+      zh: 邪留三焦分消走泄阳明里结轻下
+    start_date: 1735
+    highlight_event_id: guji-叶桂-event-sanjiao
   - key: closure
-    name: 序刊广传
+    name: 妇人胎产经水温病另议
     labels:
-      zh: 刊布指南
-    start_date: 1724-06-01
-    highlight_event_id: guji-叶桂-event-bencao
+      zh: 胎前护胎产后慎下血室通络
+    start_date: 1740
+    highlight_event_id: guji-叶桂-event-women
   decisions:
-  - date: 1720
-    title_zh: 损益本经择要品而释
-    rationale: 纲目淹博记诵维艰择汤液中要品得其精方能纲举目张
-  - date: 1724
-    title_zh: 付梓刊行以公后学
-    rationale: 独秘不如公世杨公王氏劝锲以补子惠难周掖斯人于耆艾
+  - date: 1730
+    title_zh: 看舌之后必验齿辨斑疹
+    rationale: 舌绛营热齿结瓣辨阴阳血斑宜见不宜多见须神清方为外解里和
+  - date: 1735
+    title_zh: 三焦留连用分消阳明里结用轻下
+    rationale: 伤寒猛下劫津湿温轻下逐秽必验舌黄浊断纹方下恐湿聚太阴误攻
 events:
 - id: guji-叶桂-event-birth
-  title_zh: 生于吴县
-  date: 1667
-  year_of: 1667
-  summary_zh: 康熙六年生于江苏吴县世医之家
+  date: 1666
+  year_of: 1666
+  title_zh: 出生江南吴县医学世家
+  place_zh: 江苏苏州吴县
+  description: 清康熙五年出生祖父父皆精医幼聪慧承家学
+- id: guji-叶桂-event-study
+  date: 1680
+  year_of: 1680
+  title_zh: 遍师江南博采众长
+  place_zh: 江南
+  description: 先后师事多位名医博览伤寒杂病兼通诸家潜心岐黄
+- id: guji-叶桂-event-weiqi
+  date: 1710
+  year_of: 1710
+  title_zh: 提出卫气营血辨证
+  place_zh: 苏州
+  description: 言温邪上受首先犯肺逆传心包立卫气营血四层为温病辨证纲领
 - id: guji-叶桂-event-practice
-  title_zh: 吴中行医授徒
-  date: 1689
-  year_of: 1689
-  summary_zh: 以易通医行医吴中兼授锡山王悦田等门人活人之术
-- id: guji-叶桂-event-bencao
-  title_zh: 撰成刊刻本草经解
-  date: 1724-06-01
-  year_of: 1724
-  summary_zh: 于本经三百六十五种损益为一百七十四种缕析详明雍正甲辰杨缉祖王云锦序而刊行
+  date: 1725
+  year_of: 1725
+  title_zh: 临证流连气分与战汗透邪
+  place_zh: 苏州
+  description: 主张气分流连益胃待战汗透邪解后安卧养阳辨虚脱与气脱之异
+- id: guji-叶桂-event-toothspot
+  date: 1730
+  year_of: 1730
+  title_zh: 详察舌验齿辨斑疹白㿬
+  place_zh: 苏州
+  description: 辨白黄绛紫淡红黑苔验齿结瓣辨斑疹白㿬以断营血深浅生死
+- id: guji-叶桂-event-sanjiao
+  date: 1735
+  year_of: 1735
+  title_zh: 治邪留三焦与阳明里结
+  place_zh: 苏州
+  description: 邪留三焦分消上下如杏朴苓温胆之属里结阳明则轻下逐秽验舌定下
+- id: guji-叶桂-event-women
+  date: 1740
+  year_of: 1740
+  title_zh: 论妇人胎产经水温病
+  place_zh: 苏州
+  description: 言胎前护胎产后慎犯下焦经水适断热陷血室当通络去邪辨别阳明
 - id: guji-叶桂-event-death
-  title_zh: 卒于吴县
+  date: 1745
+  year_of: 1745
+  title_zh: 卒于苏州门人刊温热论
+  place_zh: 江苏苏州
+  description: 乾隆十年卒年八十门人顾景文等整理遗论刊行温热论传于后世
+- id: guji-叶桂-event-book
   date: 1746
   year_of: 1746
-  summary_zh: 乾隆十一年卒著书等身温病诸论并传于世
+  title_zh: 温热论刊行天下奉为圭臬
+  place_zh: 苏州
+  description: 顾景文等辑叶氏口授证治刊为温热论十二章后世温病学派奉为宗

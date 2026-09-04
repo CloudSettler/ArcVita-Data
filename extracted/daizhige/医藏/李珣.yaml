@@ -1,0 +1,122 @@
+person:
+  qid: guji-李珣
+  name_zh: 李珣
+  names:
+    zh: 李珣
+    en: Li Xun
+  lifespan:
+    birth:
+      date: 0900
+      precision: century
+      is_circa: true
+      raw: 五代初约
+    death:
+      date: 0960
+      precision: century
+      is_circa: true
+      raw: 五代末约
+  birth_date: 0900
+  death_date: 0960
+  era: 五代
+  reign_ref: 前蜀
+  archetype: 博物药学家
+  dilemmas:
+  - 中土本草阙载南海舶药辨真伪难
+  - 波斯大秦昆仑传闻杂糅取舍难
+  lesson: 博采舶闻方志以补中土本草之阙重验试
+  summary_first_person: 吾生前蜀之际，见南海舶药纷至而世罕辨识，遂采广州记南州记广志及舶人亲验，别立海药三卷以补旧经，辨玉石草木真伪及服饵之法。
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B5%B7%E8%8D%AF%E6%9C%AC%E8%8D%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B5%B7%E8%8D%AF%E6%9C%AC%E8%8D%89.md
+endeavors:
+- id: guji-李珣-endeavor-1
+  title_zh: 撰述海药本草三卷
+  summary: 别立海药部门汇玉石草木舶药补旧本草阙载
+  phases:
+  - key: brewing
+    name: 岭南采风集方
+    labels:
+      zh: 博采舶闻
+    start_date: 0920
+    highlight_event_id: guji-李珣-event-survey
+  - key: breakthrough
+    name: 别立海药纲目
+    labels:
+      zh: 立纲别录
+    start_date: 0935
+    highlight_event_id: guji-李珣-event-compile
+  - key: climax
+    name: 玉石草木成帙
+    labels:
+      zh: 三卷初成
+    start_date: 0940
+    highlight_event_id: guji-李珣-event-compile
+  - key: closure
+    name: 后世征引流传
+    labels:
+      zh: 大观政目征引
+    start_date: 0960
+    highlight_event_id: guji-李珣-event-death
+  decisions:
+  - date: 0935
+    title_zh: 不附旧经别立海药
+    rationale: 唐本草不载舶来药物故别部门以补阙
+  - date: 0940
+    title_zh: 引广州记南州记广志为据
+    rationale: 以岭表亲验订正传闻贵有征信
+- id: guji-李珣-endeavor-2
+  title_zh: 考验舶药真伪服饵
+  summary: 验金银玉屑琥珀沉香丁香等真伪主治及煎服合剂法
+  phases:
+  - key: brewing
+    name: 访市舶辨形色
+    labels:
+      zh: 目验形质
+    start_date: 0925
+    highlight_event_id: guji-李珣-event-survey
+  - key: breakthrough
+    name: 试服订主治
+    labels:
+      zh: 订验主治
+    start_date: 0935
+    highlight_event_id: guji-李珣-event-compile
+  - key: climax
+    name: 定煎合辟忌法
+    labels:
+      zh: 定法辟误
+    start_date: 0940
+    highlight_event_id: guji-李珣-event-compile
+  - key: closure
+    name: 示人丸散膏浴用
+    labels:
+      zh: 垂法济世
+    start_date: 0945
+    highlight_event_id: guji-李珣-event-compile
+  decisions:
+  - date: 0932
+    title_zh: 以手心热磨吸芥验琥珀
+    rationale: 真伪杂见须简易验法以辨舶赝
+  - date: 0938
+    title_zh: 金银入薄入丸散共麦冬煎服
+    rationale: 生金有毒熟可用配伍以滋养制毒
+events:
+- id: guji-李珣-event-birth
+  date: 0900
+  year_of: 900
+  title_zh: 诞生于前蜀世家
+  description: 生于五代前蜀之际，家习诗文博物，长游岭南广地，习闻南海市舶药物。
+- id: guji-李珣-event-survey
+  date: 0930
+  year_of: 930
+  title_zh: 岭南南海访舶药
+  description: 历广州交广诸番，访金线矾波斯白矾人参荜茇肉豆蔻沉香丁香诸舶药，采广州记南州记广志及胡人采验之说。
+- id: guji-李珣-event-compile
+  date: 0940
+  year_of: 940
+  title_zh: 撰成海药本草
+  description: 别分玉石部草部木部三卷，载玉屑车渠金屑银屑琥珀沉香返魂香等，详形态性味主治验伪服法，是为海药本草。
+- id: guji-李珣-event-death
+  date: 0960
+  year_of: 960
+  title_zh: 逝世后世征引
+  description: 殁后其书多为大观政和本草及纲目征引，玉屑车渠沉香丁香诸条列为舶药典据流传。
