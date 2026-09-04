@@ -9,132 +9,122 @@ person:
       date: '1140'
       precision: year
       is_circa: true
-      raw: 约宋绍兴十年生于信安
+      raw: 南宋绍兴年间左右生于衢州信安
     death:
       date: '1195'
       precision: year
       is_circa: true
-      raw: 约宋庆元元年卒
+      raw: 南宋绍熙年间后卒
   birth_date: '1140'
   death_date: '1195'
   era: 南宋
-  reign_ref: 孝宗乾道至宁宗庆元
-  archetype: 廉明循吏
+  reign_ref: 宋孝宗乾道淳熙年间
+  archetype: 循吏
   dilemmas:
-  - title_zh: 性禀不同如何致和
-    description: 父子兄弟性或宽缓褊急刚暴柔懦不同，互欲同于己则争论不胜，须通情仰承，和颜几谏以致和协
-  - title_zh: 慈宽严峻如何得中
-    description: 慈父多败子，遇强则避遇弱则肆，须以他人不肖喻己，慈爱与孝敬相济，不偏胜而无纵暴
-  lesson: 反求自省，随事解忍，先下气和众，均平公心，则家道可久，讼争不兴
-  summary_first_person: 吾袁采字君载，信安人，登进士第，宰乐清政和剧邑，以廉明刚直自持，后监登闻检院，见末俗父子兄弟夫妇多乖争破家，故作训俗三门，名曰世范，愿人人诚笃忍让，均平勤业，以全天伦
+  - 性禀宽褊刚柔不同而强求其合则父子兄弟言行相乖争论不已当以通情几谏和协处之
+  - 同居贫富厚薄不齐而设心不公计较私藏则骨肉交争破家当以怀公均平宽容忍让处之
+  lesson: 以慈孝为本以宽忍处争以均公析财以诚学教子则家道久昌
+  summary_first_person: 余袁采字君载衢州信安人孝宗时知乐清县在官以德化民归而推睦亲之道著袁氏世范卷上专言父子兄弟夫妇之和谓性不可强合贵反思慈孝宽容不辩曲直善处忍先下气奉承家长顺适老人诚笃尽孝均爱诸子使有业勤学早教以全骨肉之恩垂训后世
   source_urls:
-  - https://daizhige.org/ru-zang/xiu-shen-zhi-jia/shi-fan.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/ru-zang/xiu-shen-zhi-jia/shi-fan.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E8%A2%81%E6%B0%8F%E4%B8%96%E8%8C%83.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E8%A2%81%E6%B0%8F%E4%B8%96%E8%8C%83.html
 endeavors:
 - id: guji-袁采-endeavor-1
-  title_zh: 宰乐清训俗著世范
-  summary: 在乐清修县志十卷，察民间争财失欢之由，分睦亲处己治家三门作训俗，后更名世范，以砥砺末俗
+  title_zh: 知乐清县以德化民
+  summary_zh: 乾道淳熙间知乐清县事兴学劝善以孝悌睦姻任恤之教化民息讼为著书积累政验
   phases:
   - key: brewing
-    name: 登第宰剧邑
+    name: 筮仕积养
     labels:
-      zh: 廉明刚直
+      zh: 积养
+    start_date: '1165'
+    highlight_event_id: guji-袁采-event-birth
+  - key: breakthrough
+    name: 莅任乐清
+    labels:
+      zh: 莅任
     start_date: '1172'
     highlight_event_id: guji-袁采-event-leqing
-  - key: breakthrough
-    name: 修志察俗
-    labels:
-      zh: 睦亲处己
-    start_date: '1176'
-    highlight_event_id: guji-袁采-event-leqing
   - key: climax
-    name: 作训俗三卷
+    name: 德化息讼
     labels:
-      zh: 治家教化
+      zh: 化民
+    start_date: '1175'
+    highlight_event_id: guji-袁采-event-leqing
+  - key: closure
+    name: 政成垂训
+    labels:
+      zh: 垂训
+    start_date: '1177'
+    highlight_event_id: guji-袁采-event-shifan
+  decisions:
+  - date: '1172'
+    title_zh: 以孝悌训俗而不专任刑罚
+    rationale: 目击民间父子兄弟争财失欢故以家训先导使民知反思慈孝忍让
+  - date: '1175'
+    title_zh: 劝民子弟有业勤学以远非僻
+    rationale: 富贵子弟无业则耽酒博破家贫贱有业则免饥寒故劝业学并重
+- id: guji-袁采-endeavor-2
+  title_zh: 著袁氏世范垂训后世
+  summary_zh: 集历代治家得失与亲见亲闻撰袁氏世范三卷卷上专言睦亲以宽公诚恕立家法
+  phases:
+  - key: brewing
+    name: 采摭旧闻
+    labels:
+      zh: 采摭
+    start_date: '1173'
+    highlight_event_id: guji-袁采-event-leqing
+  - key: breakthrough
+    name: 草创睦亲
+    labels:
+      zh: 草创
+    start_date: '1176'
+    highlight_event_id: guji-袁采-event-shifan
+  - key: climax
+    name: 世范成书
+    labels:
+      zh: 成书
     start_date: '1178'
     highlight_event_id: guji-袁采-event-shifan
   - key: closure
-    name: 刘镇序名世范
+    name: 流传劝世
     labels:
-      zh: 流传天下
-    start_date: '1179'
-    highlight_event_id: guji-袁采-event-shifan
+      zh: 流传
+    start_date: '1190'
+    highlight_event_id: guji-袁采-event-death
   decisions:
   - date: '1176'
-    title_zh: 修乐清县志十卷
-    rationale: 宰剧邑欲知风俗利病，故修志以考镜得失，为训俗立实据
+    title_zh: 首立睦亲以性异不合为不和根源
+    rationale: 见世人强合其性互争是非故阐明父兄通情子弟仰承几谏不违之要术
   - date: '1178'
-    title_zh: 立睦亲处己治家三门
-    rationale: 人伦不和根于性异财争，若不详尽反复示以忍让均平之道，则览者不知所从，故详为训诫求通俗易行
-- id: guji-袁采-endeavor-2
-  title_zh: 宰政和监登闻持正
-  summary: 宰政和著政和杂志县令小录，以刚直廉明称，后监登闻检院，持法平允，不以贵势夺理
-  phases:
-  - key: brewing
-    name: 移宰政和
-    labels:
-      zh: 勤谨爱民
-    start_date: '1185'
-    highlight_event_id: guji-袁采-event-zhenghe
-  - key: breakthrough
-    name: 著杂志小录
-    labels:
-      zh: 循吏经验
-    start_date: '1188'
-    highlight_event_id: guji-袁采-event-zhenghe
-  - key: climax
-    name: 以廉明刚直称
-    labels:
-      zh: 不阿权贵
-    start_date: '1190'
-    highlight_event_id: guji-袁采-event-zhenghe
-  - key: closure
-    name: 监登闻检院
-    labels:
-      zh: 达情察冤
-    start_date: '1193'
-    highlight_event_id: guji-袁采-event-jian院
-  decisions:
-  - date: '1188'
-    title_zh: 著政和杂志示后
-    rationale: 邑务繁杂易生奸弊，欲以亲历政事教后之君子，使知防微杜渐，不陷刑辟
-  - date: '1193'
-    title_zh: 监登闻持平进言
-    rationale: 登闻达下情，若不刚直廉明则冤抑不伸，故守正不徇，以全朝廷恤民之意
+    title_zh: 详言同居分析当怀公心均平
+    rationale: 见兄弟子侄因毫末私取启争破荡故戒私藏金宝戒计较分业以息讼保家
 events:
 - id: guji-袁采-event-birth
-  title_zh: 生于信安
+  title_zh: 生于衢州信安袁氏
   date: '1140'
   year_of: 1140
   place_zh: 衢州信安
-  summary: 约宋绍兴年间生于衢州信安袁氏，字君载，少力学登进士第
+  description_zh: 南宋绍兴年间左右生于衢州信安袁氏少力学长以儒业筮仕
+  kind: birth
 - id: guji-袁采-event-leqing
-  title_zh: 宰乐清修志
-  date: '1176'
-  year_of: 1176
+  title_zh: 知乐清县事以德化民
+  date: '1172'
+  year_of: 1172
   place_zh: 温州乐清
-  summary: 宰乐清剧邑，以廉明刚直称，修乐清县志十卷，察民情而为训俗之备
+  description_zh: 孝宗乾道淳熙间知乐清县在官留意民风以睦亲孝悌劝谕乡里多所全活
+  kind: career
 - id: guji-袁采-event-shifan
-  title_zh: 作训俗更名世范
+  title_zh: 袁氏世范成书垂睦亲家法
   date: '1178'
   year_of: 1178
-  place_zh: 乐清县治
-  summary: 分睦亲处己治家三门作训俗，府判刘镇序之，更名世范，词旨明白切要，易知易从
-- id: guji-袁采-event-zhenghe
-  title_zh: 令政和著杂志
-  date: '1188'
-  year_of: 1188
-  place_zh: 政和县治
-  summary: 宰政和，著政和杂志县令小录，教子弟有业读书，戒狱讼阴谋，以存厚德
-- id: guji-袁采-event-jian院
-  title_zh: 监登闻检院
-  date: '1193'
-  year_of: 1193
-  place_zh: 临安登闻检院
-  summary: 仕至监登闻检院，持廉明刚直，达民冤抑，不避贵势，时论称美
+  place_zh: 衢州
+  description_zh: 淳熙五年左右著成袁氏世范卷上专言睦亲谓处家贵宽容能处忍均爱教子同居怀公以训子孙
+  kind: career
 - id: guji-袁采-event-death
-  title_zh: 卒于官守之后
+  title_zh: 卒于南宋绍熙年间后
   date: '1195'
   year_of: 1195
-  place_zh: 信安故里
-  summary: 约宋庆元元年卒，世范三卷赖永乐大典宋本流传，为颜氏家训之亚
+  place_zh: 衢州信安
+  description_zh: 致仕归里后卒其书流传后世为修身治家之典
+  kind: death
