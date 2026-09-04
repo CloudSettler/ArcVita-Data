@@ -9,127 +9,142 @@ person:
       date: 0780
       precision: year
       is_circa: false
-      raw: 唐建中元年
+      raw: 唐建中元年四川生
     death:
-      date: 0841
-      precision: year
+      date: '0841-02-01'
+      precision: day
       is_circa: false
-      raw: 唐会昌元年
+      raw: 唐会昌元年正月示寂
   birth_date: 0780
-  death_date: 0841
+  death_date: '0841-02-01'
   era: 唐
   reign_ref: 唐德宗至唐武宗
   archetype: 会通者
   dilemmas:
-  - 儒道以气命自然为本与佛法以业识真心为本如何会通
-  - 权教惩恶劝善与实教穷理尽性如何兼顾不执一偏
-  lesson: 推万法穷理尽性至本源方能会偏令圆弃末归本
-  summary_first_person: 吾少习儒典博考内外以原人身斥儒道自然元气天命之迷破人天小乘法相破相之偏浅直显本觉真心会通本末以示返本还源之路
+  - 禅讲相斥顿渐相违如何以佛语统会而不立门户
+  - 得意忘言与文合于经如何兼顾玄通与楷定邪正
+  lesson: 局之则皆非会之则皆是当取信于佛取证于本法以圆教印诸宗令同归智海
+  summary_first_person: 我是圭峰宗密自未解脱欲解他缚为法忘躯愍人切切别撰经律论疏大开戒定慧门舍众入山习定均慧前后十年因了自心辨诸教因辨诸教解修心以三教印三宗集百家禅述为禅源诸诠集而都序之愿禅教一味情遣解生
   source_urls:
-  - https://daizhige.org/yuanrenlun.html
-  - https://cbetaonline.cn/zh/T1886
+  - https://daizhige.org/佛藏/大藏经/论藏/诸宗部/禅源诸诠集都序.html
+  - https://zh.wikisource.org/wiki/禪源諸詮集
 endeavors:
 - id: guji-宗密-endeavor-1
-  title_zh: 撰原人论究人本源
-  summary_zh: 由儒道斥迷经五教斥偏浅直至显性会通华严禅教成原人四篇
+  title_zh: 会通禅教会集禅源诸诠
+  summary_zh: 以如来三种教义印禅宗三种法门融瓶盘钗钏为一金会江西荷泽北秀南侁等十室为三宗而都序之
   phases:
   - key: brewing
-    name: 少习儒道博考内外
+    name: 入山习定辨心宗
     labels:
       zh:
-      - 求道
-    start_date: 0780
-    highlight_event_id: guji-宗密-event-birth
+      - 习定
+      - 均慧
+      - 穷理
+    start_date: 0811
+    highlight_event_id: guji-宗密-event-xishan
   - key: breakthrough
-    name: 遇道圆出家研华严
+    name: 判三教配三宗
     labels:
       zh:
-      - 转向
-    start_date: 0808
-    highlight_event_id: guji-宗密-event-ordination
-  - key: climax
-    name: 判五教成原人四篇
-    labels:
-      zh:
-      - 立论
-    start_date: 0832
-    highlight_event_id: guji-宗密-event-yuanren
-  - key: closure
-    name: 会本末示返本还源
-    labels:
-      zh:
-      - 圆成
-    start_date: 0835
-    highlight_event_id: guji-宗密-event-yuanren
-  decisions:
-  - date: 0810
-    title_zh: 依澄观习华严兼弘荷泽禅
-    rationale: 欲以教印禅以禅扶教破禅教对峙故兼承二宗
-  - date: 0832
-    title_zh: 以五教统摄儒道佛立原人论
-    rationale: 欲斥滞令通会偏令圆由浅至深直显真性为身本故立四篇
-- id: guji-宗密-endeavor-2
-  title_zh: 住草堂弘禅教调和
-  summary_zh: 居终南草堂寺弘华严性教调和禅教接引士庶护持正法
-  phases:
-  - key: brewing
-    name: 从遂州道圆剃度受具
-    labels:
-      zh:
-      - 出家
-    start_date: 0808
-    highlight_event_id: guji-宗密-event-ordination
-  - key: breakthrough
-    name: 师澄观得华严法要
-    labels:
-      zh:
-      - 深造
-    start_date: 0810
-    highlight_event_id: guji-宗密-event-huayan
-  - key: climax
-    name: 居草堂应诏弘法注经
-    labels:
-      zh:
-      - 弘化
+      - 判教
+      - 会宗
     start_date: 0820
-    highlight_event_id: guji-宗密-event-huayan
-  - key: closure
-    name: 示寂终南付嘱后学
+    highlight_event_id: guji-宗密-event-panjiao
+  - key: climax
+    name: 纂集百家作都序
     labels:
       zh:
-      - 圆寂
-    start_date: 0841
+      - 集诠
+      - 都序
+      - 作图示心
+    start_date: 0823
+    highlight_event_id: guji-宗密-event-jiyao
+  - key: closure
+    name: 图文并传化导群迷
+    labels:
+      zh:
+      - 流通
+      - 化导
+    start_date: 0825
+    highlight_event_id: guji-宗密-event-jiyao
+  decisions:
+  - date: 0823
+    title_zh: 以佛经权实印定诸禅是非
+    rationale: 师有本末经如绳墨须依了义以教照心以心解教方知宗趣不乖佛意
+  - date: 0824
+    title_zh: 俱存其法俱遣其病会为一味
+    rationale: 人多随情互执至道归一精义无二不应两存不应单取故会令圆妙
+- id: guji-宗密-endeavor-2
+  title_zh: 弘华严注疏兼修定慧
+  summary_zh: 别撰经律论疏大开戒定慧门显顿悟资于渐修证师说符于佛意注华严圆觉弘菩萨万行之源心地
+  phases:
+  - key: brewing
+    name: 遇道圆悟圆觉
+    labels:
+      zh:
+      - 逢师
+      - 悟经
+    start_date: 0807
+    highlight_event_id: guji-宗密-event-xishan
+  - key: breakthrough
+    name: 别撰疏论开戒定慧
+    labels:
+      zh:
+      - 注疏
+      - 开宗
+    start_date: 0815
+    highlight_event_id: guji-宗密-event-panjiao
+  - key: climax
+    name: 圭峰弘法化徒
+    labels:
+      zh:
+      - 弘法
+      - 利生
+    start_date: 0828
+    highlight_event_id: guji-宗密-event-jiyao
+  - key: closure
+    name: 以定发慧遗教后学
+    labels:
+      zh:
+      - 修证
+      - 遗教
+    start_date: 0840
     highlight_event_id: guji-宗密-event-death
   decisions:
-  - date: 0810
-    title_zh: 尊澄观为师深研起信华严
-    rationale: 欲得圆教正义以断凡习显灵性故依贤首宗匠
-  - date: 0820
-    title_zh: 住终南草堂不废禅教并弘
-    rationale: 欲令学士洞明粗细本末返照心源故守山弘化著述不辍
+  - date: 0815
+    title_zh: 顿悟资于渐修定慧双运
+    rationale: 真性不垢不净而禅有浅深若不修证则狂慧守默故须依解修心渐得百千三昧
+  - date: 0828
+    title_zh: 不立门户专弘圆教心地
+    rationale: 万法之源名法性迷悟之源名藏识万德之源名佛性万行之源名心地故以华严摄禅
 events:
 - id: guji-宗密-event-birth
+  title_zh: 生于四川
   date: 0780
   year_of: 780
-  title_zh: 生于果州西充宗氏
-  description_zh: 唐建中元年生于西充少通儒典博览内外志求圣道
-- id: guji-宗密-event-ordination
-  date: 0808
-  year_of: 808
-  title_zh: 遇遂州道圆出家受具
-  description_zh: 赴遂州从道圆禅师剃度受具研习禅法顿有所悟
-- id: guji-宗密-event-huayan
-  date: 0810
-  year_of: 810
-  title_zh: 参澄观咨决华严大义
-  description_zh: 往长安谒华严大师澄观咨决疑义兼通大乘性相之教
-- id: guji-宗密-event-yuanren
-  date: 0832
-  year_of: 832
-  title_zh: 述原人论四篇会通三教
-  description_zh: 在终南草堂述原人论斥儒道迷执破权教偏浅直显真源会通本末
+  place_zh: 唐剑南西川
+  description_zh: 唐建中元年生于四川宗族后出家受具大弘禅教华严
+- id: guji-宗密-event-xishan
+  title_zh: 逢道圆悟圆觉入山习定
+  date: 0807
+  year_of: 807
+  place_zh: 遂州
+  description_zh: 从道圆学圆觉经顿悟玄旨遂入山习定均慧前后息虑相计十年微细习情彰于静慧差别法义列于空心
+- id: guji-宗密-event-panjiao
+  title_zh: 判一藏为三教配禅门三宗
+  date: 0820
+  year_of: 820
+  place_zh: 圭峰草堂
+  description_zh: 判经论大小权实了义不了义以三种教义印禅三种法门江汉殊流同归智海酥酪醍醐同一味
+- id: guji-宗密-event-jiyao
+  title_zh: 集禅源诸诠集作都序并图
+  date: 0823
+  year_of: 823
+  place_zh: 圭峰山
+  description_zh: 写录诸家句偈诠表禅门根源集为一藏提纲举要旁行图朱墨志染净十重令文合于经意符于佛
 - id: guji-宗密-event-death
-  date: 0841
+  title_zh: 会昌示寂
+  date: '0841-02-01'
   year_of: 841
-  title_zh: 示寂于终南草堂寺
-  description_zh: 唐会昌元年正月示寂世寿六十二遗命茶毘起塔后谥定慧禅师
+  place_zh: 圭峰
+  description_zh: 唐会昌元年正月示寂世寿六十二以会教之功毕一代时教能事后裴休述叙推为会教之人
