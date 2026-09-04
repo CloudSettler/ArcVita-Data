@@ -1,0 +1,154 @@
+person:
+  qid: guji-周公旦
+  name_zh: 周公旦
+  names:
+    zh: 周公旦
+    en: Duke Zhou Dan
+  lifespan:
+    birth:
+      date: -1100
+      precision: year
+      is_circa: true
+      raw: 约前1100年
+    death:
+      date: -1032
+      precision: year
+      is_circa: true
+      raw: 约前1032年
+  birth_date: -1100
+  death_date: -1032
+  era: 西周
+  reign_ref: 周成王
+  archetype: 摄政制礼圣人
+  dilemmas:
+  - 摄政称王与忠诚避嫌之难
+  - 亲亲之爱与诛管蔡大义灭亲之难
+  - 革商命与因旧俗安天下之难
+  lesson: 以礼经邦以制治民摄政而不有其功乃可长久
+  summary_first_person: 吾姬旦佐武王克商辅成王摄政东征定乱营洛邑制礼作乐建六典以经邦国望后世守礼以和民
+  source_urls:
+  - https://ctext.org/rites-of-zhou
+  - https://github.com/daizhige-org/daizhigev20
+  - https://zh.wikisource.org/wiki/周礼
+endeavors:
+- id: guji-周公旦-endeavor-1
+  person_id: guji-周公旦
+  title_zh: 摄政辅成平定三监
+  summary: 武王崩成王幼吾摄政听政平定管蔡武庚之乱奠定周室
+  phases:
+  - key: brewing
+    name: 武王崩成王立
+    labels:
+      zh: 托孤辅幼
+    start_date: -1043
+    highlight_event_id: guji-周公旦-event-regency
+  - key: breakthrough
+    name: 摄政听政治国
+    labels:
+      zh: 摄政守节
+    start_date: -1042
+    highlight_event_id: guji-周公旦-event-regency
+  - key: climax
+    name: 东征三年平叛
+    labels:
+      zh: 东征定乱
+    start_date: -1040
+    highlight_event_id: guji-周公旦-event-eastern
+  - key: closure
+    name: 还政成王告多士
+    labels:
+      zh: 还政守成
+    start_date: -1037
+    highlight_event_id: guji-周公旦-event-return
+  decisions:
+  - date: -1042
+    title_zh: 决意摄政称王听政
+    rationale: 成王幼冲天下未定不得不权摄以安邦国虽招流言不避
+  - date: -1040
+    title_zh: 决意东征诛管蔡武庚
+    rationale: 亲亲虽重然叛乱危社稷必大义灭亲以正法纪
+  - date: -1037
+    title_zh: 决意还政成王
+    rationale: 摄政为守成非为有天下功成则退以明臣节
+- id: guji-周公旦-endeavor-2
+  person_id: guji-周公旦
+  title_zh: 营洛制礼作乐经国
+  summary: 营建洛邑以居天下之中建六典分六官制礼作乐以经邦治民
+  phases:
+  - key: brewing
+    name: 体国经野之思
+    labels:
+      zh: 经野设想
+    start_date: -1041
+    highlight_event_id: guji-周公旦-event-regency
+  - key: breakthrough
+    name: 营建洛邑成周
+    labels:
+      zh: 营洛居中
+    start_date: -1038
+    highlight_event_id: guji-周公旦-event-rites
+  - key: climax
+    name: 建六典分六官
+    labels:
+      zh: 制礼六典
+    start_date: -1036
+    highlight_event_id: guji-周公旦-event-rites
+  - key: closure
+    name: 成周礼垂后世
+    labels:
+      zh: 礼成垂训
+    start_date: -1034
+    highlight_event_id: guji-周公旦-event-rites
+  decisions:
+  - date: -1038
+    title_zh: 决意营洛邑以会诸侯
+    rationale: 天下初定须居中以驭四方迁殷顽民以化新俗
+  - date: -1036
+    title_zh: 决意建六典以治官府
+    rationale: 惟王建国设官分职以为民极必以治教礼政刑事典经之
+  - date: -1034
+    title_zh: 决意制礼作乐以和民
+    rationale: 礼以和邦国谐万民乐以侑食祭祀必详文备物乃可长治
+events:
+- id: guji-周公旦-event-birth
+  person_id: guji-周公旦
+  title_zh: 生于岐周王室
+  date: -1100
+  year_of: -1100
+  place_zh: 岐周
+  summary: 文王之子武王之弟生于岐周早佐文武定天下大业
+- id: guji-周公旦-event-regency
+  person_id: guji-周公旦
+  title_zh: 摄政听政辅成王
+  date: -1042
+  year_of: -1042
+  place_zh: 镐京
+  summary: 武王崩成王幼吾摄政称王听政以安邦国致管蔡流言而不顾
+- id: guji-周公旦-event-eastern
+  person_id: guji-周公旦
+  title_zh: 东征平定三监武庚
+  date: -1040
+  year_of: -1040
+  place_zh: 东方殷旧地
+  summary: 举兵东征三年诛管叔杀武庚放蔡叔定殷乱奠周室
+- id: guji-周公旦-event-return
+  person_id: guji-周公旦
+  title_zh: 还政成王居东守成
+  date: -1037
+  year_of: -1037
+  place_zh: 镐京
+  summary: 乱定之后还政成王不有天下以明臣节天下乃服
+- id: guji-周公旦-event-rites
+  person_id: guji-周公旦
+  title_zh: 营洛邑制周礼六典
+  date: -1036
+  year_of: -1036
+  place_zh: 洛邑成周
+  summary: 营建洛邑立天官冢宰等六官建六典八法八则以经邦国
+- id: guji-周公旦-event-death
+  person_id: guji-周公旦
+  title_zh: 薨于镐京谥文公
+  date: -1032
+  year_of: -1032
+  place_zh: 镐京
+  summary: 功成身退薨于王室成王葬以王礼配祀文王以彰其德
