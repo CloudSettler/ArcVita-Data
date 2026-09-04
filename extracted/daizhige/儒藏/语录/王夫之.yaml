@@ -9,124 +9,136 @@ person:
       date: 1619-10-07
       precision: day
       is_circa: false
-      raw: 明万历四十七年九月初一衡阳出生
+      raw: 明万历四十七年九月初一
     death:
       date: 1692-02-18
       precision: day
       is_circa: false
-      raw: 清康熙三十一年正月初二衡阳仙逝
+      raw: 清康熙三十一年正月初二
   birth_date: 1619-10-07
   death_date: 1692-02-18
   era: 明末清初
-  reign_ref: 清康熙
-  archetype: 遗民经师
+  reign_ref: 崇祯至康熙
+  archetype: 遗民大儒
   dilemmas:
-  - 仕清保身与守节明室之间何以自处
-  - 诗为心声与格律死法之间何以取舍
-  lesson: 以意为主以心为帅涵泳性情不立门庭方得兴观群怨之真
-  summary_first_person: 余自束发受经义十六学韵语阅古今诗文十余万乘船山孤寂点定得失论诗以意为主不囿死法庚午叙此永日绪论以迪来学
+  - title_zh: 仕隐之择
+    description_zh: 明亡之后坚不仕清隐居著述以存华夏学术之统
+  - title_zh: 辟异之任
+    description_zh: 以太和气本辟浮屠老庄虚无之说正童蒙圣功之始
+  lesson: 以太和实气立中道贞生死尽人道始正而后圣功可成
+  summary_first_person: 我生衡阳逢明清鼎革不忍仕清隐于石船山下注六经及张子正蒙以太和气本辟佛老明生死屈伸之故欲使学者养蒙以正而可希圣
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%95%E5%A0%82%E6%B0%B8%E6%97%A5%E7%BB%AA%E8%AE%BA.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%95%E5%A0%82%E6%B0%B8%E6%97%A5%E7%BB%AA%E8%AE%BA.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%BC%A0%E5%AD%90%E6%AD%A3%E8%92%99%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%BC%A0%E5%AD%90%E6%AD%A3%E8%92%99%E6%B3%A8.md
 endeavors:
 - id: guji-王夫之-endeavor-1
-  title_zh: 抗清守节船山隐居
-  summary_zh: 明亡起兵事败隐居衡阳石船山著书自守终身不仕清
+  title_zh: 注张子正蒙明太和道体
+  summary_zh: 以太和气本解正蒙辟佛老虚无立养蒙圣功之正始
   phases:
   - key: brewing
-    name: 束发受业中举明朝
+    name: 衡阳潜心研易
     labels:
       zh:
-      - 求学
-      - 科举
-    start_date: 1633-01-01
-    highlight_event_id: guji-王夫之-event-juren
+      - 研读周易
+      - 会通张子
+    start_date: 1651-01-01
+    highlight_event_id: guji-王夫之-event-yinju
   - key: breakthrough
-    name: 南明抗清颠沛流离
+    name: 太和气本立论
     labels:
       zh:
-      - 抗清
-      - 颠沛
-    start_date: 1648-01-01
-    highlight_event_id: guji-王夫之-event-resist
+      - 太和为道
+      - 气聚散不灭
+    start_date: 1660-01-01
+    highlight_event_id: guji-王夫之-event-zhengmengzhu
+  - key: climax
+    name: 正蒙注序论成篇
+    labels:
+      zh:
+      - 养蒙以正
+      - 辟佛补朱
+    start_date: 1675-01-01
+    highlight_event_id: guji-王夫之-event-zhengmengzhu
   - key: closure
-    name: 船山隐居终身著述
+    name: 以易纲维三才
     labels:
       zh:
-      - 隐逸
-      - 著述
-    start_date: 1659-01-01
+      - 存神尽性
+      - 贞生安死
+    start_date: 1680-01-01
+    highlight_event_id: guji-王夫之-event-zhengmengzhu
+  decisions:
+  - date: 1660-06-01
+    title_zh: 以气言太虚不言无生有
+    rationale: 恐堕老氏虚生气自然之论故主虚空即气有无混一
+  - date: 1675-03-01
+    title_zh: 作序论明大学与正蒙之异
+    rationale: 欲奖大心者希圣正童蒙之始不为训诂所溺
+- id: guji-王夫之-endeavor-2
+  title_zh: 隐居船山著书存统
+  summary_zh: 明亡不仕隐于湘西讲学著述以续孔孟周张之传
+  phases:
+  - key: brewing
+    name: 国变毁家起兵
+    labels:
+      zh:
+      - 抗清复明
+      - 颠沛岭南
+    start_date: 1644-01-01
+    highlight_event_id: guji-王夫之-event-yinju
+  - key: breakthrough
+    name: 决意不仕归隐
+    labels:
+      zh:
+      - 衡阳归隐
+      - 拒绝征辟
+    start_date: 1651-01-01
+    highlight_event_id: guji-王夫之-event-yinju
+  - key: climax
+    name: 船山讲学著述
+    labels:
+      zh:
+      - 日夕著书
+      - 门人传业
+    start_date: 1665-01-01
+    highlight_event_id: guji-王夫之-event-zhengmengzhu
+  - key: closure
+    name: 全归合于太虚
+    labels:
+      zh:
+      - 存顺没宁
+      - 文正流传
+    start_date: 1690-01-01
     highlight_event_id: guji-王夫之-event-death
   decisions:
-  - date: 1648-05-01
-    title_zh: 举兵抗清不附新朝
-    rationale: 国变君亡士当以身殉道不忍薙发屈节故从瞿式耜起兵衡湘
-  - date: 1659-01-01
-    title_zh: 隐居船山不仕清廷
-    rationale: 世教沦夷乐崩于俗唯守孤寂著书明道可全性情故终身岩栖
-- id: guji-王夫之-endeavor-2
-  title_zh: 诗教论述夕堂永日绪论撰成
-  summary_zh: 积诗文阅历数十万首于孤寂中点定论诗以意帅神理情景终成内编外编绪论
-  phases:
-  - key: brewing
-    name: 十六学韵阅诗十万
-    labels:
-      zh:
-      - 诗学
-      - 涵泳
-    start_date: 1634-01-01
-    highlight_event_id: guji-王夫之-event-juren
-  - key: breakthrough
-    name: 山中点定悟以意为主
-    labels:
-      zh:
-      - 点定
-      - 立论
-    start_date: 1665-01-01
-    highlight_event_id: guji-王夫之-event-xitang
-  - key: climax
-    name: 庚午叙成永日绪论
-    labels:
-      zh:
-      - 成书
-      - 诗教
-    start_date: 1690-01-01
-    highlight_event_id: guji-王夫之-event-xitang
-  decisions:
-  - date: 1690-06-01
-    title_zh: 论诗以意为主破死法
-    rationale: 皎然高棅茅鹿门诸家画地成牢陷人才性故倡情景神理破起承转收门庭之见
-  - date: 1690-06-01
-    title_zh: 标兴观群怨定雅俗
-    rationale: 经义诗篇皆乐语之流唯随触皆可方为至者故黜许浑宋人支离独推十九首李杜陶谢
+  - date: 1651-09-01
+    title_zh: 归衡阳筑草堂不仕清
+    rationale: 以全发肤以全学术明夷夏大经守华夏学术之统
+  - date: 1665-05-01
+    title_zh: 专力注经不求闻达
+    rationale: 以著述为性命使后来学者有绳墨彀率可守
 events:
 - id: guji-王夫之-event-birth
   title_zh: 生于衡阳
   date: 1619-10-07
   year_of: 1619
-  kind: birth
-  description: 明万历四十七年九月初一生于湖广衡州府衡阳县
-- id: guji-王夫之-event-juren
-  title_zh: 崇祯年间中举受业经义韵语
-  date: 1642-09-01
-  year_of: 1642
-  kind: career
-  description: 束发受业经义十六学韵语崇祯十五年中举阅古今诗文为后日论诗之基
-- id: guji-王夫之-event-resist
-  title_zh: 南明抗清辗转湖广两广
-  date: 1648-05-01
-  year_of: 1648
-  kind: career
-  description: 国变后从瞿式耜永历朝廷举兵抗清事败流亡多年后归衡阳
-- id: guji-王夫之-event-xitang
-  title_zh: 庚午船山叙成夕堂永日绪论
-  date: 1690-05-05
-  year_of: 1690
-  kind: career
-  description: 乘山中孤寂点定古今诗文庚午补天穿日自叙内编兴观群怨成一家诗教
+  place_zh: 湖广衡州府衡阳县
+  summary_zh: 万历末年生于衡阳士族少负大志研经救世
+- id: guji-王夫之-event-yinju
+  title_zh: 明亡隐居著述始
+  date: 1651-03-01
+  year_of: 1651
+  place_zh: 衡阳石船山下
+  summary_zh: 永历既败归衡阳隐居筑庐讲学注经不仕清廷
+- id: guji-王夫之-event-zhengmengzhu
+  title_zh: 注张子正蒙成书
+  date: 1675-08-01
+  year_of: 1675
+  place_zh: 衡阳草堂
+  summary_zh: 发明太和絪缊聚散屈伸之旨作序论及太和篇注以正人心辟佛老
 - id: guji-王夫之-event-death
-  title_zh: 卒于船山
+  title_zh: 卒于衡阳草堂
   date: 1692-02-18
   year_of: 1692
-  kind: death
-  description: 清康熙三十一年正月初二卒于衡阳石船山享年七十三
+  place_zh: 湖南衡阳石船山草堂
+  summary_zh: 全而归之遗书三百余卷后人谥文正从祀孔庙
