@@ -1,0 +1,131 @@
+person:
+  qid: guji-道通
+  name_zh: 道通
+  names:
+    zh: 道通
+    en: Daotong
+  lifespan:
+    birth:
+      date: 1020-01-01
+      precision: 朝代
+      is_circa: true
+      raw: 宋代生年不详
+    death:
+      date: 1100-01-01
+      precision: 朝代
+      is_circa: true
+      raw: 宋代卒年不详
+  birth_date: 1020-01-01
+  death_date: 1100-01-01
+  era: 宋代
+  reign_ref: 宋代
+  archetype: 华严讲师
+  dilemmas:
+  - 华严文浩博义渊微道宏大如何令志劣者不怠智浅者不瞢器狭者不骇
+  - 广说一句演为万言约说一品摄为数句如何无一增语亦无一缺义
+  lesson: 不系文句取成於心以约摄广即繁即约方能吞海
+  summary_first_person: 吾道通夙附真乘穷居讲肆请问十年开演三遍屡经患难筑室庐山得华严三昧编吞海以贻晚俊使品品见无尽经尘尘明华藏海
+  source_urls:
+  - https://daizhige.org/華嚴經吞海集.html
+endeavors:
+- id: guji-道通-endeavor-1
+  title_zh: 华严讲肆开演弘化
+  summary: 穷居讲肆请问十年得华严三昧开演华严三遍筑室庐山授徒
+  phases:
+  - key: brewing
+    name: 穷居讲肆请问受学
+    labels:
+      zh: 受学於师论听宣益
+    start_date: 1040-01-01
+    highlight_event_id: guji-道通-event-study
+  - key: breakthrough
+    name: 取成於心得三昧
+    labels:
+      zh: 取成其心游戏文句
+    start_date: 1050-01-01
+    highlight_event_id: guji-道通-event-study
+  - key: climax
+    name: 开演华严凡三遍
+    labels:
+      zh: 开演三遍屡经患难
+    start_date: 1060-01-01
+    highlight_event_id: guji-道通-event-lecture
+  - key: closure
+    name: 筑室庐山授徒
+    labels:
+      zh: 筑室庐山学者相叩
+    start_date: 1070-01-01
+    highlight_event_id: guji-道通-event-lecture
+  decisions:
+  - date: 1040-01-01
+    title_zh: 夙附真乘穷居讲肆
+    rationale: 为通华严渊微之义须附真乘久居讲肆请问受学
+  - date: 1060-01-01
+    title_zh: 开演华严凡经三遍
+    rationale: 为裨后学不惭先哲以演说磨练使信解行证相资
+- id: guji-道通-endeavor-2
+  title_zh: 编撰华严经吞海集
+  summary: 阅旧箧法义以广摄约以约摄广编万数千言名曰吞海
+  phases:
+  - key: brewing
+    name: 阅旧箧得法义
+    labels:
+      zh: 因阅旧箧整理法义
+    start_date: 1075-01-01
+    highlight_event_id: guji-道通-event-compile
+  - key: breakthrough
+    name: 以约摄广立法门
+    labels:
+      zh: 广说演万言约说摄数句
+    start_date: 1078-01-01
+    highlight_event_id: guji-道通-event-compile
+  - key: climax
+    name: 编成吞海集上下卷
+    labels:
+      zh: 品品见无尽经尘尘明华藏
+    start_date: 1080-01-01
+    highlight_event_id: guji-道通-event-compile
+  - key: closure
+    name: 传世贻示晚俊
+    labels:
+      zh: 用贻晚俊传於世间
+    start_date: 1082-01-01
+    highlight_event_id: guji-道通-event-compile
+  decisions:
+  - date: 1080-01-01
+    title_zh: 以吞海名约说传世
+    rationale: 为使学者於一毛端见广博不系文句而发挥在文句之表
+  - date: 1082-01-01
+    title_zh: 自述不学而贻晚俊
+    rationale: 为退惭先哲无裨后学故托同心之士共明华藏海
+events:
+- id: guji-道通-event-birth
+  kind: birth
+  title_zh: 生於河朔平原
+  date: 1020-01-01
+  year_of: 1020
+  summary: 宋代生於河朔平原出家为嗣祖比丘
+- id: guji-道通-event-study
+  kind: 受学
+  title_zh: 穷居讲肆请问十年
+  date: 1040-01-01
+  year_of: 1040
+  summary: 附真乘居讲肆论听宣益经传妙空受学於师取成其心得华严三昧
+- id: guji-道通-event-lecture
+  kind: 弘化
+  title_zh: 开演华严凡三遍
+  date: 1060-01-01
+  year_of: 1060
+  summary: 请问十年开演华严三遍屡经患难后筑室庐山学者犹以是经相叩兼讲楞严唯识起信
+- id: guji-道通-event-compile
+  kind: 撰述
+  title_zh: 筑室庐山编成吞海集
+  date: 1080-01-01
+  year_of: 1080
+  summary: 阅旧箧得所编法义编成吞海集万数千言以一句演万言以一品摄数句陶恺为之作序
+- id: guji-道通-event-death
+  kind: death
+  title_zh: 示寂
+  date: 1100-01-01
+  year_of: 1100
+  summary: 宋代示寂吞海集传於世续藏经收为华严部疏
