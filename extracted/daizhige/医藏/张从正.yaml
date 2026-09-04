@@ -6,122 +6,146 @@ person:
     en: Zhang Congzheng
   lifespan:
     birth:
-      date: '1156'
+      date: 1156
       precision: year
-      is_circa: false
-      raw: 金贞元四年
+      is_circa: true
+      raw: 金贞元四年约生于睢州考城
     death:
-      date: '1228'
+      date: 1228
       precision: year
       is_circa: false
-      raw: 金正大五年
-  birth_date: '1156'
-  death_date: '1228'
+      raw: 金正大五年卒
+  birth_date: 1156
+  death_date: 1228
   era: 金代
-  reign_ref: 金世宗大定至金哀宗正大
-  archetype: 攻邪医宗
+  reign_ref: 金世宗至金哀宗
+  archetype: 攻邪大家
   dilemmas:
-  - 伤寒初觉疑似之间解表恐伤里攻里恐伤表当如何表里双解
-  - 攻里当用寒凉发表当用热世人拘泥寒热当从病还是从司气时令
-  - 汗法只知桂枝麻黄为热汗凉药亦能发汗当守温发还是用凉发
-  lesson: 邪去则正安攻邪即所以扶正当审病机而汗吐下并施不拘寒热常法
-  summary_first_person: 吾张从正字子和号戴人睢州考城人也师守真而主攻邪世畏寒凉而吾独以汗吐下祛邪为要作双解散法及伤寒心镜别集以明表里寒热之变愿后学穷理知几勿为人侮而后受制
+  - zh: 补泻偏废之争，当守温补旧习还是执攻邪新法
+  - zh: 宫廷太医之荣与直言忤旨被黜之险
+  - zh: 汗吐下峻法救急速效与惧伤正气之谤
+  lesson: 虚实为纲邪去正安，不可偏补偏攻
+  summary_first_person: 吾张从正字子和号戴人，睢州考城人也，承刘河间之学，究内经之旨，立汗吐下三法以攻邪，谓邪去则正安，斥世俗滥用姜附温补之弊，行医陈睢，口授弟子成儒门事亲十五卷，愿后之医者辨虚实而施补泻，无使民枉死于偏也
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/伤寒心境别集.md
-  - https://daizhige.org/医藏/伤寒心境别集.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%84%92%E9%97%A8%E4%BA%8B%E4%BA%B2.html
 endeavors:
 - id: guji-张从正-endeavor-1
-  title_zh: 演双解散倡汗吐下攻邪
-  summary_zh: 承刘完素双解散而增探吐酸辣投汗之法明凉药亦能发汗攻里必用寒凉以行攻邪三法
+  title_zh: 立攻邪学说行汗吐下法
+  summary_zh: 师法刘河间，阐发内经身半上下三才之理，以汗吐下攻邪为要，治风痹痿厥多获奇效
   phases:
   - key: brewing
-    name: 师守真研习寒凉通圣益元
+    name: 师承河间研读内经伤寒
     labels:
-      zh: 酝酿
-    start_date: '1190'
-    highlight_event_id: guji-张从正-event-birth
+      zh: 求学奠基
+    start_date: 1175
+    highlight_event_id: guji-张从正-event-study
   - key: breakthrough
-    name: 演双解煎饮半吐风痰半覆汗
+    name: 陈睢行医以吐下治风痫骨痹
     labels:
-      zh: 突破
-    start_date: '1205'
-    highlight_event_id: guji-张从正-event-practice
+      zh: 攻邪扬名
+    start_date: 1195
+    highlight_event_id: guji-张从正-event-cure
   - key: climax
-    name: 立论凉药发汗百无一损
+    name: 保举入宫为太医直言论病
     labels:
-      zh: 高潮
-    start_date: '1215'
-    highlight_event_id: guji-张从正-event-book
+      zh: 入宫忤旨
+    start_date: 1215
+    highlight_event_id: guji-张从正-event-court
   - key: closure
-    name: 示人桂枝承气随病俱出
+    name: 黜归民间授徒传法
     labels:
-      zh: 收束
-    start_date: '1225'
-    highlight_event_id: guji-张从正-event-book
+      zh: 归野授徒
+    start_date: 1217
+    highlight_event_id: guji-张从正-event-teach
   decisions:
-  - date: '1205'
-    title_zh: 增双解散为半饮探吐法
-    rationale: 双解表里齐解而间有不解故先吐风痰再以酸辣近火覆汗以尽八九分之效
-  - date: '1215'
-    title_zh: 改温发为凉发辛甘发散
-    rationale: 热药汗不出反益病凉药益元薄荷白粥葱食皆能汗故用凉发以全无损
+  - date: 1195
+    title_zh: 不守温补专主攻邪
+    rationale: 见世医喜温畏寒滥用姜附，致实证不解，故以大黄芒硝瓜蒂涌泄，推陈致新
+  - date: 1215
+    title_zh: 入宫直陈病机不阿权贵
+    rationale: 念医道当明天道辩虚实，不可为荣禄而隐讳，故忤旨亦不悔
 - id: guji-张从正-endeavor-2
-  title_zh: 考六经传变著心镜别集
-  summary_zh: 辨伤寒只传足六经之逆传引阴阳杂合论及六气顺逆释攻里不远寒发表不远热并论挦衣撮空与亢害承制
+  title_zh: 口授弟子著成儒门事亲
+  summary_zh: 晚年寓居陈州归德，与马宗素常仲明等论医，订七方十剂，辨风痹痿厥，成书以训事亲者
   phases:
   - key: brewing
-    name: 疑庞安常足经相生贼邪之凿
+    name: 订七方十剂明宣通补泻
     labels:
-      zh: 酝酿
-    start_date: '1208'
-    highlight_event_id: guji-张从正-event-practice
+      zh: 理法奠基
+    start_date: 1218
+    highlight_event_id: guji-张从正-event-teach
   - key: breakthrough
-    name: 引杂合论证太阳至少阴逆传
+    name: 详论风痹痿厥指近世之误
     labels:
-      zh: 突破
-    start_date: '1218'
+      zh: 立论辨误
+    start_date: 1220
     highlight_event_id: guji-张从正-event-book
   - key: climax
-    name: 撰别集七节论传经攻发
+    name: 弟子笔录整理成十五卷
     labels:
-      zh: 高潮
-    start_date: '1222'
+      zh: 成书传世
+    start_date: 1224
     highlight_event_id: guji-张从正-event-book
   - key: closure
-    name: 以亢害承制诫人自侮受侮
+    name: 以儒明医以孝事亲垂训后世
     labels:
-      zh: 收束
-    start_date: '1226'
+      zh: 儒医垂训
+    start_date: 1228
     highlight_event_id: guji-张从正-event-death
   decisions:
-  - date: '1218'
-    title_zh: 断伤寒逆传足六经
-    rationale: 伤寒中风得之于阴又合厥阴至少阳六气逆序故不传手经而正传足经阴中之阴阳中之阴
-  - date: '1222'
-    title_zh: 释不远寒热为不远司气
-    rationale: 严寒用寒药盛暑用热药不畏天时只问当攻当发以破世人疑攻里用寒发表用热之似是而非
+  - date: 1220
+    title_zh: 以儒名医以事亲为旨
+    rationale: 念医家奥旨非儒不能明，药品酒食非孝不能备，故为人子者不可不知医
+  - date: 1224
+    title_zh: 令弟子直笔记言不文饰
+    rationale: 欲存临床真验，使汗吐下之法可按证而施，不为一家之言所蔽
 events:
 - id: guji-张从正-event-birth
-  title_zh: 生于睢州考城
-  date: '1156'
+  type: birth
+  date: 1156
   year_of: 1156
-  place_zh: 睢州考城
-  summary_zh: 金贞元四年生于睢州考城后字子和号戴人
-- id: guji-张从正-event-practice
-  title_zh: 行医陈睢以攻邪闻名
-  date: '1210'
-  year_of: 1210
-  place_zh: 陈州睢州之间
-  summary_zh: 行医陈睢善用汗吐下三法攻邪治病声名大起从学者众
+  title_zh: 生于睢州考城戴人里
+  description: 金贞元年间生于睢州考城，自号戴人，少习儒而后精医
+  location_zh: 睢州考城
+- id: guji-张从正-event-study
+  type: career
+  date: 1185
+  year_of: 1185
+  title_zh: 师法刘完素精研内经
+  description: 承刘河间寒凉之学，究素问气交变五郁之法，得汗吐下三法之秘
+  location_zh: 河间一带
+- id: guji-张从正-event-cure
+  type: career
+  date: 1205
+  year_of: 1205
+  title_zh: 涌泄治验风痫骨痹痿证
+  description: 先涌寒痰三四升，次以导水禹功泄二十余行，再以通圣散调之，项开完颜氏风搐、魏德新骨痹、宋子玉痿证皆瘥，攻邪之名大振
+  location_zh: 陈州睢州
+- id: guji-张从正-event-court
+  type: career
+  date: 1215
+  year_of: 1215
+  title_zh: 保举入宫为太医
+  description: 以医名被保举入宫，论病不阿，直言虚实补泻，忤旨被黜归民间
+  location_zh: 金中都
+- id: guji-张从正-event-teach
+  type: career
+  date: 1218
+  year_of: 1218
+  title_zh: 寓居陈睢授徒论医
+  description: 黜后寓陈州归德行医，弟子马宗素常仲明侍侧，日记言论，订七方十剂
+  location_zh: 陈州
 - id: guji-张从正-event-book
-  title_zh: 撰伤寒心镜别集阐双解六经
-  date: '1222'
-  year_of: 1222
-  place_zh: 中原医席
-  summary_zh: 撰伤寒心镜别集七节论双解散发汗攻里发表传足经挦衣撮空及亢害承制以立攻邪之说
+  type: work
+  date: 1224
+  year_of: 1224
+  title_zh: 儒门事亲十五卷成书
+  description: 弟子笔录其论议调摄之法，辨风痹痿厥之误，发明三法并传，以儒门事亲名书
+  location_zh: 陈州
 - id: guji-张从正-event-death
-  title_zh: 卒于金正大年间
-  date: '1228'
+  type: death
+  date: 1228
   year_of: 1228
-  place_zh: 金都
-  summary_zh: 金正大五年卒年七十三著儒门事亲等传后与刘完素李东垣朱震亨并称金元四大家
+  title_zh: 卒于金正大五年
+  description: 晚年以医济世授徒既毕，卒于正大五年，与刘完素李东垣朱震亨并称金元四大家之首
+  location_zh: 陈州

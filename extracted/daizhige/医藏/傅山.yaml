@@ -6,106 +6,127 @@ person:
     en: Fu Shan
   lifespan:
     birth:
-      date: 1607-08-11
-      precision: day
+      date: '1607'
+      precision: year
       is_circa: false
-      raw: 明万历三十五年六月十九
+      raw: 明万历三十五年生于阳曲
     death:
-      date: 1684-08-09
-      precision: day
+      date: '1684'
+      precision: year
       is_circa: false
-      raw: 清康熙二十三年六月二十八
-  birth_date: 1607-08-11
-  death_date: 1684-08-09
+      raw: 清康熙二十三年卒
+  birth_date: '1607'
+  death_date: '1684'
   era: 明末清初
-  reign_ref: 清康熙
-  archetype: 遗民医儒
+  reign_ref: 崇祯至康熙
+  archetype: 遗民良医
   dilemmas:
-  - 明亡不仕清与养家活命之两难
-  - 坚守气节与悬壶济世之抉择
-  lesson: 守节不渝而以医活人，学问终归济世
-  summary_first_person: 吾傅山字青主，阳曲人，明亡不仕，以医自寄，辨带下崩漏调经种子妊娠产后之症，著女科上下卷以活妇人，愿后人辨证参酌而用之
+  - 知己蒙难则伏阙讼冤不避死，异代征聘则称病坚辞不为官
+  - 国破家窭则安贫乐道不问田产，病者踵门则贵贱一视救死扶伤
+  lesson: 穷则独善守节，达则以医兼善，忠孝诚实可通于岐黄
+  summary_first_person: 吾傅山字青主阳曲人也，少受知于袁临候师，丙子徒步伏阙白师冤而义声闻天下，明亡弃青衿为黄冠号石道人，精岐黄通儒义以医活人，著女科方论传世，康熙征聘授内阁中书得放归，澹泊以终
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E7%94%B7%E7%A7%91%E9%87%8D%E7%BC%96%E8%80%83%E9%87%8A.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E7%94%B7%E7%A7%91%E9%87%8D%E7%BC%96%E8%80%83%E9%87%8A.html
 endeavors:
 - id: guji-傅山-endeavor-1
-  title_zh: 明遗民守节不仕
-  summary: 明亡后坚持故国之节，三藩及清廷征召皆坚辞不就，以布衣终老
+  title_zh: 伏阙讼师坚节不仕
+  summary_zh: 年十四入庠受知袁继咸，崇祯丙子徒步千里伏阙讼师冤，明亡绝意进取为道士，康熙博学宏词征聘坚辞授官放归
   phases:
   - key: brewing
-    name: 太原抗节蒙难
+    name: 三立受知
     labels:
-      zh:
-      - 守节
-      - 抗清
-    start_date: 1644-01-01
-    highlight_event_id: guji-傅山-event-antiqing
-  - key: climax
-    name: 辞征守节终老
-    labels:
-      zh:
-      - 遗民
-      - 不仕
-    start_date: 1678-03-01
-    highlight_event_id: guji-傅山-event-refuse
-  decisions:
-  - date: 1645-01-01
-    title_zh: 太原艰难存活不附新朝
-    rationale: 国变后以气节自持，不以富贵易初心
-  - date: 1678-03-01
-    title_zh: 以病坚辞博学鸿词之征
-    rationale: 不为新朝用以全故国遗民之节
-- id: guji-傅山-endeavor-2
-  title_zh: 撰著傅青主女科济世
-  summary: 辨五带崩漏调经种子妊娠小产难产正产产后诸症，立完带汤易黄汤固本止崩汤等方以活妇人
-  phases:
-  - key: brewing
-    name: 积累妇科辨证经验
-    labels:
-      zh:
-      - 带下
-      - 调经
-    start_date: 1650-01-01
-    highlight_event_id: guji-傅山-event-nvke
+      zh: 入庠受知
+    start_date: '1628'
+    highlight_event_id: guji-傅山-event-birth
   - key: breakthrough
-    name: 女科上下卷成书传世
+    name: 伏阙讼冤
     labels:
-      zh:
-      - 种子
-      - 产后
-    start_date: 1672-01-01
-    highlight_event_id: guji-傅山-event-nvke
+      zh: 讼冤扬名
+    start_date: '1636'
+    highlight_event_id: guji-傅山-event-songyuan
+  - key: climax
+    name: 国变隐沦
+    labels:
+      zh: 弃儒入道
+    start_date: '1644'
+    highlight_event_id: guji-傅山-event-yinlun
+  - key: closure
+    name: 辞聘放归
+    labels:
+      zh: 辞荣全节
+    start_date: '1678'
+    highlight_event_id: guji-傅山-event-zhengpin
   decisions:
-  - date: 1660-01-01
-    title_zh: 立脾胃肝三经同治完带汤
-    rationale: 白带本于脾虚肝郁湿陷，当补脾舒肝升提而不徒止涩
-  - date: 1672-01-01
-    title_zh: 分上下卷系统论治妇科
-    rationale: 妇科难于辨症，须明病原分带下血崩调经种子妊娠产后以立法
+  - date: '1636'
+    title_zh: 徒步伏阙讼袁师冤
+    rationale: 师恩如父受诬下狱，转徙自匿百折不回，以忠义明师生大伦
+  - date: '1678'
+    title_zh: 称病拒试受官即归
+    rationale: 已心寄长林丰草不以青紫为荣，卧邸不赴试以全遗民之节
+- id: guji-傅山-endeavor-2
+  title_zh: 精医著述兼善天下
+  summary_zh: 精岐黄邃脉理通以儒义，踵门求医贵贱一视，著女科大小诸证方论杂症方论，门人后学编为男科流传救世
+  phases:
+  - key: brewing
+    name: 邃于脉理
+    labels:
+      zh: 儒医会通
+    start_date: '1644'
+    highlight_event_id: guji-傅山-event-yinlun
+  - key: breakthrough
+    name: 活人无算
+    labels:
+      zh: 行医济世
+    start_date: '1650'
+    highlight_event_id: guji-傅山-event-yinlun
+  - key: climax
+    name: 方论传世
+    labels:
+      zh: 女科男科
+    start_date: '1660'
+    highlight_event_id: guji-傅山-event-zhengpin
+  - key: closure
+    name: 校刊广传
+    labels:
+      zh: 户藏一编
+    start_date: '1863'
+    highlight_event_id: guji-傅山-event-zhengpin
+  decisions:
+  - date: '1650'
+    title_zh: 以医为兼善之柄
+    rationale: 生当丧乱无治国之柄，愿以良医培养元气救民于呼吸间
+  - date: '1660'
+    title_zh: 只言病形不玄脉理
+    rationale: 使人一望即知寒热虚实，深入显出以便世人持方救世传世
 events:
 - id: guji-傅山-event-birth
-  date: 1607-08-11
+  title_zh: 生于阳曲傅氏
+  date: '1607'
   year_of: 1607
-  title_zh: 生于太原阳曲
-  description_zh: 明万历三十五年六月十九生于山西太原阳曲傅氏家
-- id: guji-傅山-event-antiqing
-  date: 1645-01-01
-  year_of: 1645
-  title_zh: 明亡后太原抗节蒙难
-  description_zh: 国变后坚持气节，艰难存活不附新朝，以遗民自处
-- id: guji-傅山-event-nvke
-  date: 1672-01-01
-  year_of: 1672
-  title_zh: 傅青主女科上下卷成书
-  description_zh: 手著女科上卷三十八条下卷三十九条，详辨白青黄黑赤五带及血崩调经种子妊娠产后诸症与方
-- id: guji-傅山-event-refuse
-  date: 1678-03-01
+  place_zh: 太原阳曲
+  summary_zh: 祖霖官参议父之谟授徒，生而颖异十行并下，十四岁督学拔入庠受知袁继咸
+- id: guji-傅山-event-songyuan
+  title_zh: 伏阙讼袁继咸冤
+  date: '1636'
+  year_of: 1636
+  place_zh: 京师阙下
+  summary_zh: 袁继咸被诬下狱，徒步走千里伏阙上书，敝衣转徙百折不回，冤得白义声闻天下
+- id: guji-傅山-event-yinlun
+  title_zh: 明亡为黄冠行医
+  date: '1644'
+  year_of: 1644
+  place_zh: 平定祁汾之间
+  summary_zh: 李自成犯阙庄烈殉国，绝意进取弃青衿为黄冠号石道人，工诗文书画精岐黄踵门求医者满
+- id: guji-傅山-event-zhengpin
+  title_zh: 征聘入都授官放归
+  date: '1678'
   year_of: 1678
-  title_zh: 坚辞博学鸿词之征
-  description_zh: 清廷以博学鸿词征召，以病坚辞，不仕而归，全遗民之节
+  place_zh: 京师至阳曲
+  summary_zh: 康熙戊午诏举博学宏词，肩舆入都卧邸不赴试，明年授内阁中书存问放归，愈澹泊居远村
 - id: guji-傅山-event-death
-  date: 1684-08-09
+  title_zh: 卒于家远近会葬
+  date: '1684'
   year_of: 1684
-  title_zh: 卒于太原
-  description_zh: 清康熙二十三年六月二十八卒于太原，享年七十八，以遗民医儒传世
+  place_zh: 阳曲
+  summary_zh: 放归六年卒，远近会葬者数千百人，所著性史十三经字区周易偶释等及女科男科方论传世
