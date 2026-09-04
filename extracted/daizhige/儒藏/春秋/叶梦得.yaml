@@ -6,128 +6,123 @@ person:
     en: Ye Mengde
   lifespan:
     birth:
-      date: 1077
+      date: 1077-01-01
       precision: year
       is_circa: false
-      raw: 宋神宗熙宁十年吴县
+      raw: 宋神宗熙宁十年
     death:
-      date: 1148
+      date: 1148-01-01
       precision: year
       is_circa: false
       raw: 宋高宗绍兴十八年
-  birth_date: 1077
-  death_date: 1148
-  era: 两宋之际
-  reign_ref: 宋徽宗至宋高宗朝
-  archetype: 通经致用之文苑名臣
+  birth_date: 1077-01-01
+  death_date: 1148-01-01
+  era: 宋
+  reign_ref: 宋神宗至宋高宗
+  archetype: 信经驳传的经学家
   dilemmas:
-  - 废传从经还是考三传以求经
-  - 不得于事则考于义还是不得于义则考于事
-  - 南渡板荡退隐石林还是受命守建康御敌
-  lesson: 事义更相发明以明天理王法庶几得春秋代天子行法之意
-  summary_first_person: 吾酌三家求史与经试为春秋之传以明天下一王之法俟后君子择其中
+  - 信经还是信传以经为正或是兼存传义
+  - 直斥先儒之失或是曲全经师体面
+  - 纵横辨博成文章之豪或是谨守凡例求精确
+  lesson: 以经正传可破依附之蔽但须考据精确方免澜翻过甚之病
+  summary_first_person: 我少蕴以经治春秋不为三传所囿抉摘左氏公羊谷梁是非成三传谳三十卷虽散佚尚存大较愿后学以经为断不轻徇传
   source_urls:
-  - https://daizhige.org/儒藏/春秋/叶氏春秋传.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/叶氏春秋传.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E4%B8%89%E4%BC%A0%E8%B0%B3.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E4%B8%89%E4%BC%A0%E8%B0%B3.md
 endeavors:
 - id: guji-叶梦得-endeavor-1
-  title_zh: 考三传作叶氏春秋传二十卷
-  summary: 以孙复尊王发微苏轼从左废传皆有弊故考事考义更相发明而成传
+  title_zh: 撰春秋三传谳主信经不信传
+  description_zh: 沿啖助孙复余波抉摘三传是非左传四百余条公羊三百余条谷梁四百余条以经断传于隐公经传多所驳正
   phases:
   - key: brewing
-    name: 少蕴治经遍览三传
+    name: 酝酿信经之旨
     labels:
-      zh: 博览起疑
-    start_date: 1097
-    highlight_event_id: guji-叶梦得-event-jinshi
+      zh: 酝酿
+    start_date: 1133-01-01
+    highlight_event_id: guji-叶梦得-event-tuiju
   - key: breakthrough
-    name: 立事义互考之法
+    name: 三传条谳成书
     labels:
-      zh: 立法求经
-    start_date: 1127
-    highlight_event_id: guji-叶梦得-event-jiangkang
+      zh: 突破
+    start_date: 1140-01-01
+    highlight_event_id: guji-叶梦得-event-zhushu
   - key: climax
-    name: 断十二公备四时以法天
+    name: 辨难三传成一家言
     labels:
-      zh: 笔削成传
-    start_date: 1140
-    highlight_event_id: guji-叶梦得-event-zhuancheng
+      zh: 高潮
+    start_date: 1143-01-01
+    highlight_event_id: guji-叶梦得-event-zhushu
   - key: closure
-    name: 示后世俟君子择中
+    name: 永乐大典存佚厘为二十二卷
     labels:
-      zh: 付刊传世
-    start_date: 1148
-    highlight_event_id: guji-叶梦得-event-death
+      zh: 收束
+    start_date: 1781-09-01
+    highlight_event_id: guji-叶梦得-event-zhushu
   decisions:
-  - date: 1115
-    title_zh: 不专主左氏亦不专废公谷
-    rationale: 三传各得一偏惟兼考事义方能核实察当
-  - date: 1140
-    title_zh: 以传考证实以谳掊击以例编凡例
-    rationale: 音义事实是非凡例各有归方成一家之学
+  - date: 1140-01-01
+    title_zh: 立信经不信传为例
+    rationale: 以经为鲁史正文传为后儒记闻凡传违经者皆据经以正之
+  - date: 1143-01-01
+    title_zh: 兼驳左氏公羊谷梁
+    rationale: 左氏亦战国时人不尽可据公羊谷梁日月褒贬之例多不可通故并加推鞫
 - id: guji-叶梦得-endeavor-2
-  title_zh: 南渡受命守建康任枢要
-  summary: 绍圣进士历州县入朝南渡后守建康户部尚书终崇信军节度使
+  title_zh: 历官南北石林退居著述
+  description_zh: 进士出身历翰林学士户部尚书南渡后退居吴下号石林居士著石林燕语诸书兼治经史
   phases:
   - key: brewing
-    name: 绍圣进士历任州县
+    name: 北宋入仕历馆阁
     labels:
-      zh: 初入仕途
-    start_date: 1097
-    highlight_event_id: guji-叶梦得-event-jinshi
+      zh: 酝酿
+    start_date: 1097-01-01
+    highlight_event_id: guji-叶梦得-event-chushi
   - key: breakthrough
-    name: 建炎守建康御敌
+    name: 南渡任用主财计
     labels:
-      zh: 危城受任
-    start_date: 1129
-    highlight_event_id: guji-叶梦得-event-jiangkang
+      zh: 突破
+    start_date: 1127-01-01
+    highlight_event_id: guji-叶梦得-event-chushi
   - key: climax
-    name: 入朝参预政务论恢复
+    name: 退居石林专意著述
     labels:
-      zh: 枢要论事
-    start_date: 1131
-    highlight_event_id: guji-叶梦得-event-jiangkang
+      zh: 高潮
+    start_date: 1133-01-01
+    highlight_event_id: guji-叶梦得-event-tuiju
   - key: closure
-    name: 退居石林专心著述
+    name: 晚年成书授后学
     labels:
-      zh: 退隐著书
-    start_date: 1140
-    highlight_event_id: guji-叶梦得-event-zhuancheng
+      zh: 收束
+    start_date: 1145-01-01
+    highlight_event_id: guji-叶梦得-event-zhushu
   decisions:
-  - date: 1129
-    title_zh: 受命知建康府缮守御
-    rationale: 江左要冲不可失守当以身任保障行在
-  - date: 1133
-    title_zh: 去位不废春秋大义
-    rationale: 政可黜而经不可废故退而以著述补世教
+  - date: 1133-01-01
+    title_zh: 退居湖州石林
+    rationale: 时事多艰不欲久居要路愿以著述存经术人心
+  - date: 1140-01-01
+    title_zh: 以文章豪气治经
+    rationale: 投所向无不如志欲以辨博自喜之笔发千载疑义
 events:
 - id: guji-叶梦得-event-birth
-  title_zh: 生于吴县叶氏
-  date: 1077
+  title_zh: 生于吴县
+  date: 1077-01-01
   year_of: 1077
-  place_zh: 吴县
-  description: 宋神宗熙宁十年生字少蕴后号石林
-- id: guji-叶梦得-event-jinshi
-  title_zh: 绍圣四年进士及第入仕
-  date: 1097
+  description_zh: 宋神宗熙宁十年生于苏州吴县字少蕴后号石林居士
+- id: guji-叶梦得-event-chushi
+  title_zh: 进士及第入仕
+  date: 1097-01-01
   year_of: 1097
-  place_zh: 汴京
-  description: 登进士第始历州县后入朝为文苑名臣
-- id: guji-叶梦得-event-jiangkang
-  title_zh: 南渡守建康兼理军政
-  date: 1129
-  year_of: 1129
-  place_zh: 建康
-  description: 建炎南渡受命守建康缮城御敌后历户部尚书等职
-- id: guji-叶梦得-event-zhuancheng
-  title_zh: 撰成春秋传二十篇并考谳例
-  date: 1140
+  description_zh: 登进士第历官馆阁北宋末至翰林学士南渡后官至户部尚书
+- id: guji-叶梦得-event-tuiju
+  title_zh: 退居石林
+  date: 1133-01-01
+  year_of: 1133
+  description_zh: 退居湖州卞山石林自号石林居士专事讲学著述
+- id: guji-叶梦得-event-zhushu
+  title_zh: 撰成春秋三传谳
+  date: 1140-01-01
   year_of: 1140
-  place_zh: 石林
-  description: 酌三家求史与经成春秋传自谓为天下后世而作其孙筠刊于南剑州
+  description_zh: 抉摘左传公羊谷梁是非原三十卷左传四百四十二条公羊三百四十条谷梁四百四十条后存二十二卷
 - id: guji-叶梦得-event-death
-  title_zh: 卒于绍兴十八年赠官
-  date: 1148
+  title_zh: 卒于湖州
+  date: 1148-01-01
   year_of: 1148
-  place_zh: 湖州
-  description: 官至崇信军节度使卒后春秋传独为完书传于世
+  description_zh: 宋高宗绍兴十八年卒谥文定追论经学以信经之说传于后世
