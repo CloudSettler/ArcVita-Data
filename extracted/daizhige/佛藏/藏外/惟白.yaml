@@ -1,0 +1,96 @@
+person:
+  qid: guji-惟白
+  name_zh: 惟白
+  names:
+    zh: 惟白
+    en: Weibai
+  lifespan:
+    birth:
+      date: 1050
+      precision: year
+      is_circa: true
+      raw: 北宋中期约生
+    death:
+      date: 1110
+      precision: year
+      is_circa: true
+      raw: 建中靖国后示寂
+  birth_date: 1050
+  death_date: 1110
+  era: 北宋
+  reign_ref: 宋徽宗建中靖国
+  archetype: 传灯编纂型高僧
+  dilemmas:
+  - 宗门灯录散佚失次如何补续
+  - 奉敕编书与直指心要如何两全
+  lesson: 继灯续焰正宗承学以启后昆
+  summary_first_person: 吾住东京法云奉敕续灯分正宗对机拈古颂古以接来学
+  source_urls:
+  - https://daizhige.org/佛藏/藏外/建中靖国续灯录.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/藏外/建中靖国续灯录.md
+endeavors:
+- id: guji-惟白-endeavor-1
+  title_zh: 住持东京法云禅寺弘法
+  summary: 得法后住持法云敷唱宗猷接引学人
+  phases:
+  - key: brewing
+    name: 得法受请
+    labels:
+      zh: 法云得法
+    start_date: 1085
+    highlight_event_id: guji-惟白-event-1
+  - key: climax
+    name: 法云敷唱
+    labels:
+      zh: 住持弘化
+    start_date: 1095
+    highlight_event_id: guji-惟白-event-1
+  decisions:
+  - date: 1095
+    title_zh: 受请住持法云
+    rationale: 以一寺纲纪系一方法脉故就请弘化
+- id: guji-惟白-endeavor-2
+  title_zh: 奉敕编集建中靖国续灯录
+  summary: 奉敕采集西天此土至宋初机缘分五门成三卷续灯
+  phases:
+  - key: breakthrough
+    name: 奉敕采集
+    labels:
+      zh: 奉敕搜访
+    start_date: 1100
+    highlight_event_id: guji-惟白-event-2
+  - key: closure
+    name: 成书进呈
+    labels:
+      zh: 续灯成书
+    start_date: 1101
+    highlight_event_id: guji-惟白-event-2
+  decisions:
+  - date: 1101
+    title_zh: 立五门以续灯
+    rationale: 以正宗对机拈古颂古偈颂纲摄群机使渊奥有规
+events:
+- id: guji-惟白-event-birth
+  type: birth
+  date: 1050
+  year_of: 1050
+  title_zh: 降生
+  description: 北宋中期约生后出家得法
+- id: guji-惟白-event-1
+  type: career
+  date: 1095
+  year_of: 1095
+  title_zh: 住持东京法云禅寺
+  description: 住持法云传法号佛国禅师敷演宗乘
+- id: guji-惟白-event-2
+  type: career
+  date: 1101
+  year_of: 1101
+  title_zh: 奉敕集建中靖国续灯录
+  description: 奉敕集五十一祖及两宗下机缘分上帙下帙成书
+- id: guji-惟白-event-death
+  type: death
+  date: 1110
+  year_of: 1110
+  title_zh: 示寂
+  description: 建中靖国后示寂于法云一脉由续灯而传
