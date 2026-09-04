@@ -9,137 +9,142 @@ person:
       date: 1281
       precision: year
       is_circa: false
-      raw: 元至元十八年金华出生
+      raw: 至元十八年
     death:
       date: 1358
       precision: year
       is_circa: false
-      raw: 元至正十八年卒
+      raw: 至正十八年
   birth_date: 1281
   death_date: 1358
   era: 元
-  reign_ref: 元至正
-  archetype: 儒医宗师
+  reign_ref: 至正
+  archetype: 济世良医
   dilemmas:
-  - 局方成法流行而新病难值，守旧方恐杀人，弃成方则无所据
-  - 世医喜温燥恶寒凉而病多阴亏火炽，立补阴之论恐遭群起而攻
-  lesson: 阳常有余阴常不足，节饮食寡色欲以养阴，治病必求其本
-  summary_first_person: 我名震亨字彦脩金华人，早从许谦闻道，手抄大观诸方而悟其弊，十谒罗知悌尽得刘守真之学，归以滋阴降火济世，著格致余论以明医乃儒者格物致知之余事
+  - title_zh: 儒医抉择
+    description: 年少习儒仕途不显当弃儒习医否
+  - title_zh: 攻邪补虚之辨
+    description: 时医滥用温补当直言滋阴降火否
+  lesson: 阳常有余阴常不足养阴保命活法贵在变通
+  summary_first_person: 吾本儒生后师罗知悌习医悟得阳有余而阴不足之理行医婺州以滋阴降火救人无数晚年述活法机要以传后世愿学者守常而达变也
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%A0%BC%E8%87%B4%E4%BD%99%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%A0%BC%E8%87%B4%E4%BD%99%E8%AE%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B4%BB%E6%B3%95%E6%9C%BA%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B4%BB%E6%B3%95%E6%9C%BA%E8%A6%81.html
 endeavors:
 - id: guji-朱震亨-endeavor-1
-  title_zh: 弃局方寻师得内经真传
-  summary: 抄习陈裴大观二百九十七方而悟故方难值新病，渡浙走吴宛陵南徐建业寻师，立罗知悌门终日不动，尽得三家经旨而归
+  title_zh: 弃儒习医创滋阴说
+  summary: 三十余岁师事罗知悌尽得其传后行医江浙倡阳有余阴不足创丹溪学派
   phases:
   - key: brewing
-    name: 抄习局方省悟
+    name: 儒生习文
     labels:
       zh:
-      - 习方省悟
-    start_date: 1301
-    highlight_event_id: guji-朱震亨-event-abandon-formula
+      - 习儒
+      - 母病悟医
+    start_date: 1281
+    highlight_event_id: guji-朱震亨-event-birth
   - key: breakthrough
-    name: 渡浙寻师十谒罗门
+    name: 师事罗知悌
     labels:
       zh:
-      - 访师求道
-    start_date: 1310
-    highlight_event_id: guji-朱震亨-event-meet-luo
+      - 拜师
+      - 尽得其传
+    start_date: 1311
+    highlight_event_id: guji-朱震亨-event-study
   - key: climax
-    name: 尽得经旨学成而归
+    name: 行医江浙名扬四方
     labels:
       zh:
-      - 学成而归
-    start_date: 1314
-    highlight_event_id: guji-朱震亨-event-return-home
-  - key: closure
-    name: 乡医大服翕然尊事
-    labels:
-      zh:
-      - 立信乡里
-    start_date: 1318
-    highlight_event_id: guji-朱震亨-event-return-home
-  decisions:
-  - date: 1308
-    title_zh: 尽弃大观成方
-    rationale: 故方新病难相值，泥方杀人，故求阴阳五行升降之理
-  - date: 1311
-    title_zh: 立罗知悌门终日不动
-    rationale: 十往返不得通，唯以志诚动之，终得刘守真荆山浮屠一脉真传
-- id: guji-朱震亨-endeavor-2
-  title_zh: 立补阴论著格致余论济世
-  summary: 见人多酗酒纵欲精竭火炽复用刚剂而毙，创阳常有余阴常不足之论，立补阴诸丸，著格致余论以箴饮食色欲
-  phases:
-  - key: brewing
-    name: 察承平酗酒纵欲之弊
-    labels:
-      zh:
-      - 察病救时
+      - 行医
+      - 滋阴学说
     start_date: 1325
-    highlight_event_id: guji-朱震亨-event-yin-theory
-  - key: breakthrough
-    name: 创滋阴降火之论
-    labels:
-      zh:
-      - 补阴创论
-    start_date: 1330
-    highlight_event_id: guji-朱震亨-event-yin-theory
-  - key: climax
-    name: 著格致余论成书
-    labels:
-      zh:
-      - 著书垂教
-    start_date: 1345
-    highlight_event_id: guji-朱震亨-event-book
+    highlight_event_id: guji-朱震亨-event-practice
   - key: closure
-    name: 宋濂序引与三家并传
+    name: 学派既成弟子传道
     labels:
       zh:
-      - 并传于世
+      - 传道
+      - 丹溪学派
     start_date: 1347
-    highlight_event_id: guji-朱震亨-event-book
+    highlight_event_id: guji-朱震亨-event-writing
   decisions:
-  - date: 1332
-    title_zh: 独重滋阴降火
-    rationale: 阳易动阴易亏，相火妄动则精走，故补阴以配阳，救刚剂杀人之弊
+  - date: 1311
+    title_zh: 弃儒从医
+    rationale: 母病无良医遂发愿学医以救世
+  - date: 1325
+    title_zh: 主张滋阴降火
+    rationale: 见时医滥用辛温燥剂耗伤阴血故立阳有余阴不足之论
+- id: guji-朱震亨-endeavor-2
+  title_zh: 总结临证著活法机要
+  summary: 晚年撮述平生临证经验著活法机要分论泄痢疠风破伤风胎产等诸证传活法以惠后学
+  phases:
+  - key: brewing
+    name: 积累医案
+    labels:
+      zh:
+      - 医案
+      - 临证
+    start_date: 1325
+    highlight_event_id: guji-朱震亨-event-practice
+  - key: breakthrough
+    name: 撰格致余论等
+    labels:
+      zh:
+      - 著述
+      - 立论
+    start_date: 1347
+    highlight_event_id: guji-朱震亨-event-writing
+  - key: climax
+    name: 成活法机要
+    labels:
+      zh:
+      - 活法
+      - 机要
+    start_date: 1350
+    highlight_event_id: guji-朱震亨-event-huofa
+  - key: closure
+    name: 刊传后世
+    labels:
+      zh:
+      - 传世
+      - 惠人
+    start_date: 1358
+    highlight_event_id: guji-朱震亨-event-death
+  decisions:
   - date: 1347
-    title_zh: 应门人请著书名格致余论
-    rationale: 医为儒者格物致知之一事，明其理以垂教生民，戒饮食色欲
+    title_zh: 著书辟局方之偏
+    rationale: 见局方多用温燥故作局方发挥以正其失
+  - date: 1350
+    title_zh: 撮要成活法机要
+    rationale: 恐初学拘方不通变故举诸证要法示人以活法圆机
 events:
 - id: guji-朱震亨-event-birth
-  title_zh: 出生于婺州乌伤
+  title_zh: 出生于义乌
   date: 1281
   year_of: 1281
-  description: 金华人，名震亨字彦脩，早从许文懿公许谦游而闻道
-- id: guji-朱震亨-event-abandon-formula
-  title_zh: 抄习局方而尽弃去
-  date: 1308
-  year_of: 1308
-  description: 手抄陈师文裴宗元大观二百九十七方昼夜习之，既而悟故方新病难值，尽弃去渡浙寻师
-- id: guji-朱震亨-event-meet-luo
-  title_zh: 十谒罗知悌得授其学
+  description: 至元十八年生于婺州义乌赤岸朱氏儒家
+- id: guji-朱震亨-event-study
+  title_zh: 师事罗知悌学医
   date: 1311
   year_of: 1311
-  description: 还杭拜太无罗知悌，十往返不得通，立其门终日不动，怜其志敷畅三家之旨，越数年悉受刘守真之学
-- id: guji-朱震亨-event-return-home
-  title_zh: 学成归乡群医大服
-  date: 1315
-  year_of: 1315
-  description: 以所学归乡，群医方泥陈裴之学，闻言大惊已而大服，翕然共尊事之
-- id: guji-朱震亨-event-yin-theory
-  title_zh: 创阳常有余阴常不足论
-  date: 1330
-  year_of: 1330
-  description: 谓天阳为气地阴为血，阴难成易亏，相火易动，立补阴诸丸，多有奇效
-- id: guji-朱震亨-event-book
-  title_zh: 格致余论成宋濂为序
-  date: 1347-11-01
+  description: 年逾三十往钱塘师事名医罗知悌尽得其术
+- id: guji-朱震亨-event-practice
+  title_zh: 行医婺州倡滋阴说
+  date: 1325
+  year_of: 1325
+  description: 归乡行医以滋阴降火治温热杂病名震江浙
+- id: guji-朱震亨-event-writing
+  title_zh: 撰格致余论局方发挥
+  date: 1347
   year_of: 1347
-  description: 徇门人张翼等请著书若干篇名格致余论，宋濂受而读之，至正七年冬南至书传学用功之所自于篇端
+  description: 著格致余论发明阳有余阴不足奠定丹溪学派
+- id: guji-朱震亨-event-huofa
+  title_zh: 著活法机要
+  date: 1350
+  year_of: 1350
+  description: 撮述泄痢疟疮疡胎产带下等诸证治法成活法机要一卷
 - id: guji-朱震亨-event-death
-  title_zh: 卒于金华
+  title_zh: 逝世
   date: 1358
   year_of: 1358
-  description: 年既高所见益粹精，年七十八卒，医特其一事而以医名，戴良为作丹溪翁传叙其始末
+  description: 至正十八年卒于故里享年七十八门人私谥丹溪先生

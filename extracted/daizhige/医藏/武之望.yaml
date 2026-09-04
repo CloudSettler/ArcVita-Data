@@ -1,0 +1,154 @@
+person:
+  qid: guji-武之望
+  name_zh: 武之望
+  names:
+    zh: 武之望
+    en: Wu Zhiwang
+  lifespan:
+    birth:
+      date: '1552'
+      precision: year
+      is_circa: true
+      raw: 明嘉靖三十一年生于陕西临潼
+    death:
+      date: '1629'
+      precision: year
+      is_circa: true
+      raw: 明崇祯二年卒
+  birth_date: '1552'
+  death_date: '1629'
+  era: 明
+  reign_ref: 万历
+  archetype: 儒医编纂者
+  dilemmas:
+  - 男子妇人杂病同而经血胎产独异庸医操一二方治众病不应则技穷当专汇妇人所独者以备其变
+  - 女科准绳广搜博采而杂病概收分条不整序次无伦当汰去杂证门分类别纲下系目使览者因论识病因病取方
+  lesson: 汰杂存专纲举目张因论识病因病取方而又神明变通不执方以尽术
+  summary_first_person: 余究心妇科有年见准绳博而无统杂证混入难得其要故于公事之暇手为搜集专取经血胎产所独者门分类别纲下系目名曰济阴纲目庶使庸工亦可展卷提掌随手取效然医者意也愿学者神明变通以致斫轮承蜩之妙
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B5%8E%E9%98%B4%E7%BA%B2%E7%9B%AE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B5%8E%E9%98%B4%E7%BA%B2%E7%9B%AE.md
+endeavors:
+- id: guji-武之望-endeavor-1
+  title_zh: 编纂济阴纲目专明妇人经血胎产
+  summary_zh: 汰去杂证专汇妇人所独有分门别类纲下系目初刊于万历四十八年
+  phases:
+  - key: brewing
+    name: 究心兹术搜集诸书
+    labels:
+      zh:
+      - 调经
+      - 经闭血崩
+      - 带下虚劳
+    start_date: '1600'
+    highlight_event_id: guji-武之望-event-study
+  - key: breakthrough
+    name: 汰杂存专立纲目体例
+    labels:
+      zh:
+      - 积聚求子
+      - 胎前临产
+    start_date: '1615'
+    highlight_event_id: guji-武之望-event-compiling
+  - key: climax
+    name: 初刊五卷本问世
+    labels:
+      zh:
+      - 产后乳病
+      - 保生保婴
+    start_date: '1620'
+    highlight_event_id: guji-武之望-event-publish
+  - key: closure
+    name: 重刻流传为后世通行妇科要书
+    labels:
+      zh:
+      - 重刻
+      - 流传
+    start_date: '1621'
+    highlight_event_id: guji-武之望-event-reprint
+  decisions:
+  - date: '1615'
+    title_zh: 汰去杂证专取妇人所独
+    rationale: 薛氏王氏诸书杂病概收骈枝赘疣故专以经血胎产汇为一书以明其情尽其变
+  - date: '1620'
+    title_zh: 门分类别纲下系目
+    rationale: 分条不整序次无伦则卒观莫得其要故一病三致意一方细详释使展卷犁然提掌
+- id: guji-武之望-endeavor-2
+  title_zh: 以儒通医宦海济世
+  summary_zh: 万历进士历官究心医术以济阴扶阳自任欲以仁术传婆心
+  phases:
+  - key: brewing
+    name: 少习儒业兼通医理
+    labels:
+      zh:
+      - 儒医
+      - 脉理经络
+    start_date: '1570'
+    highlight_event_id: guji-武之望-event-study
+  - key: breakthrough
+    name: 登第服官公暇辑医
+    labels:
+      zh:
+      - 服官
+      - 辑医
+    start_date: '1595'
+    highlight_event_id: guji-武之望-event-office
+  - key: climax
+    name: 以济阴扶阳阐发医道能事
+    labels:
+      zh:
+      - 济阴
+      - 扶阳
+    start_date: '1620'
+    highlight_event_id: guji-武之望-event-publish
+  - key: closure
+    name: 遗书重订广仁人之心
+    labels:
+      zh:
+      - 重订
+      - 济世
+    start_date: '1621'
+    highlight_event_id: guji-武之望-event-reprint
+  decisions:
+  - date: '1595'
+    title_zh: 公事之暇手为搜集
+    rationale: 妇人隐微难见医者妄意揣度杀机甚于活人故借公余究心兹术以广仁人之心
+  - date: '1620'
+    title_zh: 明济阴所以扶阳
+    rationale: 无阳则阴无以生无阴则阳无以化故虽曰济阴实以扶阳而成阳施阴化之功
+events:
+- id: guji-武之望-event-birth
+  date: '1552'
+  year_of: 1552
+  title_zh: 生于陕西临潼
+  description_zh: 明嘉靖三十一年生于陕西临潼武氏少习儒业兼究医术
+- id: guji-武之望-event-study
+  date: '1600'
+  year_of: 1600
+  title_zh: 究心妇科搜集诸书
+  description_zh: 究心女科参校产宝大全薛氏医案王宇泰女科准绳诸书病源脉症方药
+- id: guji-武之望-event-office
+  date: '1595'
+  year_of: 1595
+  title_zh: 万历登第历官辑医
+  description_zh: 万历中进士历官之余手辑妇人独有诸证为济阴纲目奠基
+- id: guji-武之望-event-compiling
+  date: '1615'
+  year_of: 1615
+  title_zh: 立纲目体例成编
+  description_zh: 汰去诸杂证门分类别纲下系目论寒热虚实标本浅深方尽温凉补泻缓急轻重
+- id: guji-武之望-event-publish
+  date: '1620'
+  year_of: 1620
+  title_zh: 万历四十八年初刊济阴纲目五卷
+  description_zh: 自调经始历经闭崩带虚劳积聚求子浮肿胎前临产产后乳病首揭纲目体例
+- id: guji-武之望-event-reprint
+  date: '1621'
+  year_of: 1621
+  title_zh: 次年重刻流传
+  description_zh: 五卷本重刻行世后经汪淇笺择重订为十四卷本大量刊行遂成通行本
+- id: guji-武之望-event-death
+  date: '1629'
+  year_of: 1629
+  title_zh: 卒于明崇祯二年
+  description_zh: 以儒医名世遗书济阴纲目后为汪淇增批刊行福庇坤元
