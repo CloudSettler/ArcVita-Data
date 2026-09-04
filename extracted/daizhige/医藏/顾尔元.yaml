@@ -1,0 +1,154 @@
+person:
+  qid: guji-顾尔元
+  name_zh: 顾尔元
+  names:
+    zh: 顾尔元
+    en: Gu Eryuan
+  lifespan:
+    birth:
+      date: 1790
+      precision: year
+      is_circa: true
+      raw: 由同治癸亥序年七十四推算约乾隆末生
+    death:
+      date: 1865
+      precision: year
+      is_circa: true
+      raw: 同治癸亥作序之后卒年未详
+  birth_date: 1790
+  death_date: 1865
+  era: 清
+  reign_ref: 同治
+  archetype: 实证济世医家
+  dilemmas:
+  - 守旧日成法以表里双解治暑热与据验变法以辛凉轻扬外越之间如何抉择
+  - 沿俗称以瘅疟名伤暑与正名实分伏邪瘅疟为二说之间如何权衡
+  lesson: 医贵手实验，有得于心方能垂示于人，识症真辨证明方能提邪外达
+  summary_first_person: 我梁溪顾尔元，号雅亭，字仪卿，世业医半生，于夏至后暑湿瘅疟屡验旧法不效，乃参前贤以辛凉轻清提邪外越，创葛升汤，又明辨产后房劳与蓐劳之异，著为医中一得，时年七十有四
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/医中一得.md
+  - https://daizhige.org/医藏/医中一得.html
+endeavors:
+- id: guji-顾尔元-endeavor-1
+  title_zh: 辨伤暑瘅疟创葛升汤
+  summary: 以暑湿蕴脾立论，主辛凉解表提邪外越，创葛升汤治午后大热有汗不解之瘅疟
+  phases:
+  - key: brewing
+    name: 半生业医蓄疑
+    labels:
+      zh:
+      - 久病缠绵
+      - 旧法不效
+    start_date: 1820
+    highlight_event_id: guji-顾尔元-event-birth
+  - key: breakthrough
+    name: 悟脾肺胃外达之机
+    labels:
+      zh:
+      - 暑湿蕴脾
+      - 火郁发之
+    start_date: 1860
+    highlight_event_id: guji-顾尔元-event-gesheng
+  - key: climax
+    name: 拟葛升汤三五剂验效
+    labels:
+      zh:
+      - 葛升汤
+      - 升麻提清
+    start_date: 1863
+    highlight_event_id: guji-顾尔元-event-gesheng
+  - key: closure
+    name: 与吴俯恬往复论定
+    labels:
+      zh:
+      - 答问印证
+      - 传之后学
+    start_date: 1863
+    highlight_event_id: guji-顾尔元-event-wenda
+  decisions:
+  - date: 1863
+    title_zh: 纯用辛凉解表不用里下
+    rationale: 脾为坤土气本升，若早用重浊下降则邪由表入里，必提邪外越勿使引邪入里
+  - date: 1863
+    title_zh: 必用升麻佐六一散葛根
+    rationale: 升麻升脾家清气助葛根凉散阳明，暑湿方能外达肺胃，无升麻则难奏效
+- id: guji-顾尔元-endeavor-2
+  title_zh: 辨产后房劳蓐劳立新方
+  summary: 发千古不发之蕴，明辨产后房劳与蓐劳之异，以补气通血立法贫富皆可用
+  phases:
+  - key: brewing
+    name: 临证见产后误治
+    labels:
+      zh:
+      - 产后房劳
+      - 蓐劳相混
+    start_date: 1830
+    highlight_event_id: guji-顾尔元-event-birth
+  - key: breakthrough
+    name: 悟补气通血关键
+    labels:
+      zh:
+      - 补气通血
+      - 全实半虚
+    start_date: 1860
+    highlight_event_id: guji-顾尔元-event-chanhou
+  - key: climax
+    name: 定两方治全实半虚
+    labels:
+      zh:
+      - 定方验效
+      - 鸡冠用药
+    start_date: 1863
+    highlight_event_id: guji-顾尔元-event-chanhou
+  - key: closure
+    name: 入医中一得垂世
+    labels:
+      zh:
+      - 著书济世
+      - 癸亥作序
+    start_date: 1863-03
+    highlight_event_id: guji-顾尔元-event-preface
+  decisions:
+  - date: 1863
+    title_zh: 房劳蓐劳分型论治
+    rationale: 二症名近源异，一治全实一治半虚半实，不辨则补泻倒施贻误深
+  - date: 1863
+    title_zh: 以补气通血为万世规
+    rationale: 脾胃居中为营血之源，产后气血两伤须补气以通血，方能贫富皆宜
+events:
+- id: guji-顾尔元-event-birth
+  type: birth
+  title_zh: 生于梁溪顾氏医家
+  date: 1790
+  year_of: 1790
+  summary: 推算约生于乾隆末年，梁溪七世家医出身，字仪卿号雅亭
+- id: guji-顾尔元-event-gesheng
+  type: achievement
+  title_zh: 作瘅疟浅说创葛升汤
+  date: 1863
+  year_of: 1863
+  summary: 论午后大热懊恼舌黄脉洪之暑湿瘅疟，创葛升汤以葛根升麻为君轻扬外越
+- id: guji-顾尔元-event-chanhou
+  type: achievement
+  title_zh: 明产后房劳蓐劳之异
+  date: 1863
+  year_of: 1863
+  summary: 辨产后房劳与蓐劳异同，立补气通血两方，吴俯恬称为医中暗室一灯
+- id: guji-顾尔元-event-wenda
+  type: exchange
+  title_zh: 与澄江吴俯恬书问往复
+  date: 1863
+  year_of: 1863
+  summary: 就瘅疟即伤暑与否、越婢即发越脾气、大青龙石膏为君等说反复答辩
+- id: guji-顾尔元-event-preface
+  type: publication
+  title_zh: 癸亥仲春作医中一得序
+  date: 1863-03
+  year_of: 1863
+  summary: 年七十有四自序医中一得，裘吉生假录于曹炳章以裨益医林
+- id: guji-顾尔元-event-death
+  type: death
+  title_zh: 序后逝世
+  date: 1865
+  year_of: 1865
+  summary: 同治癸亥作序之后逝世，具体卒年未详
