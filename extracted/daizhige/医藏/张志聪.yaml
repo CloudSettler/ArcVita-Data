@@ -6,128 +6,117 @@ person:
     en: Zhang Zhicong
   lifespan:
     birth:
-      date: 1610-01-01
-      precision: year
-      is_circa: true
-      raw: 明万历末年钱塘生人
-    death:
-      date: 1674-01-01
+      date: 1616
       precision: year
       is_circa: false
-      raw: 清康熙十三年卒
-  birth_date: 1610-01-01
-  death_date: 1674-01-01
-  era: 明末清初
+      raw: 明万历四十四年
+    death:
+      date: 1674
+      precision: year
+      is_circa: false
+      raw: 清康熙十三年
+  birth_date: 1616
+  death_date: 1674
+  era: 清初
   reign_ref: 康熙
-  archetype: 运气明性之医经注家
+  archetype: 医经集注者
   dilemmas:
-  - 只言治病袭其用与穷原明性知其体之辨
-  - 遵神农本经运气正理与从后人臆说逐末之择
-  - 补泻寒热升降皆归五运六气还是但凭经验试药之疑
-  lesson: 知其性而用之则用之有本神变无方，袭其用而用之则窒碍难通
-  summary_first_person: 余名志聪号隐庵钱塘人也，生于晚明长于鼎革，少习儒而转究岐黄，仰观天之六气俯察地之五行，惧后人不明本经但言某药治某病，遂集注素问灵枢伤寒金匮，又诠释神农本经著为崇原一书，端本五运六气辨五行五方五时五色五臭五味，以明寒热升降补泻之理，愿学人会悟格物致知三才合一之道
+  - 经传而经亡，精义失于粗守，后学沿习针传而昧理，救经当从本原诠释
+  - 素问主病所由生以谨防其流，灵枢主病所由治以通其源，二者须贯通三才而不可偏废
+  lesson: 以理会针，因针悟证，察阴阳血气之逆顺出入，合天地人三才之道，方能使圣经不灭而惠世长存
+  summary_first_person: 余钱塘张志聪，字隐庵，悯圣经失传，惧后学沿习，殚心研虑，先成素问注疏，复藉同学举灵枢而诠释之，鸡鸣风雨未敢少休，愿后人读素问而严病所起，读灵枢而识病所瘳
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/本草崇原.md
-  - https://daizhige.org/医藏/本草崇原.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E7%81%B5%E6%9E%A2%E9%9B%86%E6%B3%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E7%81%B5%E6%9E%A2%E9%9B%86%E6%B3%A8.html
 endeavors:
 - id: guji-张志聪-endeavor-1
-  title_zh: 集注内经伤寒奠定运气医理
-  summary: 会通素问灵枢伤寒金匮诸书，以五运六气三阴三阳为纲，删繁正讹，为后学立穷理尽性之基
+  title_zh: 集注素问以明病所由生
+  summary_zh: 考阴阳寒暑饮食居处五运六气之本，谨制病源，维持民生，为灵枢诠释奠定经义基础
   phases:
   - key: brewing
-    name: 钱塘习儒转医
+    name: 隐居钱塘研读素问
     labels:
-      zh: 求道
-    start_date: 1630-01-01
-    highlight_event_id: guji-张志聪-event-xueyi
+      zh: 酝酿
+    start_date: 1644
+    highlight_event_id: guji-张志聪-event-birth
   - key: breakthrough
-    name: 参悟运气合参脏腑经脉
+    name: 会同学辨经旨层折
     labels:
-      zh: 悟道
-    start_date: 1655-01-01
-    highlight_event_id: guji-张志聪-event-neijing
+      zh: 突破
+    start_date: 1660
+    highlight_event_id: guji-张志聪-event-suwen
   - key: climax
-    name: 集注素问灵枢刊行于世
+    name: 素问注疏告竣
     labels:
-      zh: 立言
-    start_date: 1669-01-01
-    highlight_event_id: guji-张志聪-event-neijing
+      zh: 高潮
+    start_date: 1669
+    highlight_event_id: guji-张志聪-event-suwen
   - key: closure
-    name: 注伤寒金匮以全经方之学
+    name: 以素问严病起之源
     labels:
-      zh: 传道
-    start_date: 1670-01-01
-    highlight_event_id: guji-张志聪-event-neijing
+      zh: 收束
+    start_date: 1669
+    highlight_event_id: guji-张志聪-event-suwen
   decisions:
-  - date: 1655-01-01
-    title_zh: 舍举业而专攻岐黄
-    rationale: 以天下病苦为念，欲以医明天地人身合一之理，不逐科名
-  - date: 1669-01-01
-    title_zh: 以运气为纲集注内经
-    rationale: 以五运六气统摄脏腑经脉寒热虚实，使古奥之言了如指掌
+  - date: 1660
+    title_zh: 先灵枢后素问之辨转为先成素问注疏
+    rationale: 以素问示人维持防流，生患既微，方可藉灵枢通源开导，惠世之泽方长
+  - date: 1669
+    title_zh: 藉同学诸公共成疏义
+    rationale: 经意深微一字一理，独力难穷三才之备，众研方能确有指归
 - id: guji-张志聪-endeavor-2
-  title_zh: 诠释本经著本草崇原以明药性
-  summary: 阐发神农本草经三百六十五种上中下品之义，以五运六气辨药性之原，纠后世只言治病不探其原之弊
+  title_zh: 集注灵枢以识病所由瘳
+  summary_zh: 诠释九针十二原营卫经脉之道路，起黄钟之数，合河图洛书，因九针悟证，使脏腑贯通经脉出入
   phases:
   - key: brewing
-    name: 辨白术苍术考产地气味
+    name: 悯甲乙针经昧理而发愿重诠
     labels:
-      zh: 格物
-    start_date: 1668-01-01
-    highlight_event_id: guji-张志聪-event-bencao
+      zh: 酝酿
+    start_date: 1669
+    highlight_event_id: guji-张志聪-event-suwen
   - key: breakthrough
-    name: 立五运六气辨性纲领
+    name: 以理会针因针悟证研九针小针
     labels:
-      zh: 明理
-    start_date: 1670-01-01
-    highlight_event_id: guji-张志聪-event-bencao
+      zh: 突破
+    start_date: 1670
+    highlight_event_id: guji-张志聪-event-lingshu
   - key: climax
-    name: 逐味诠释上品以人参甘草为首
+    name: 灵枢集注成书作序西泠怡堂
     labels:
-      zh: 阐微
-    start_date: 1672-01-01
-    highlight_event_id: guji-张志聪-event-bencao
+      zh: 高潮
+    start_date: 1672
+    highlight_event_id: guji-张志聪-event-lingshu
   - key: closure
-    name: 成崇原一书屏斥讹谬臆说
+    name: 示三才九针同法以传后世
     labels:
-      zh: 正源
-    start_date: 1673-01-01
-    highlight_event_id: guji-张志聪-event-bencao
+      zh: 收束
+    start_date: 1672
+    highlight_event_id: guji-张志聪-event-lingshu
   decisions:
-  - date: 1670-01-01
-    title_zh: 端本五运六气诠释本经
-    rationale: 天地万物不外五行五方五时五色五臭五味，非此不能明升降补泻
-  - date: 1672-01-01
-    title_zh: 概置后人逐末忘本臆说不录
-    rationale: 后世但言某药治某病是药用非药性，当存其原而屏其谬
+  - date: 1670
+    title_zh: 驳专言针而昧理复立经纪终始
+    rationale: 后世指灵枢为针传而忽之，经几为赘旒，必明为法令终不灭，易用难忘
+  - date: 1672
+    title_zh: 以八十一篇应九九合三才立九针小针之法
+    rationale: 人与天地相参日月相应，始于一终于九以起黄钟之数，方能修身治国平天下
 events:
 - id: guji-张志聪-event-birth
-  date: 1610-01-01
-  year_of: 1610
+  date: 1616
+  year_of: 1616
   title_zh: 生于钱塘
-  description: 明万历末年生于浙江钱塘，张氏望族，少聪慧习儒
-  place: 钱塘
-- id: guji-张志聪-event-xueyi
-  date: 1645-01-01
-  year_of: 1645
-  title_zh: 鼎革后专志于医
-  description: 明亡之后绝意仕进，究心黄帝内经神农本草，交游高士，考辨药物产地气味
-  place: 杭州
-- id: guji-张志聪-event-neijing
-  date: 1669-01-01
+  description_zh: 明万历四十四年生于浙江钱塘，名骥，字隐庵，后隐居著述精于医经
+- id: guji-张志聪-event-suwen
+  date: 1669
   year_of: 1669
-  title_zh: 黄帝内经集注成书
-  description: 集注素问九卷灵枢九卷成书，以运气统六气三阴三阳，以五行统脏腑经脉，为清初医经注疏之宗
-  place: 杭州
-- id: guji-张志聪-event-bencao
-  date: 1672-01-01
+  title_zh: 素问注疏告竣
+  description_zh: 与同学辨析阴阳寒暑五运六气，成黄帝内经素问集注，严病之所以起
+- id: guji-张志聪-event-lingshu
+  date: 1672
   year_of: 1672
-  title_zh: 本草崇原诠释本经药性
-  description: 诠释神农本草经，以人参甘草黄芪白术山药石斛等上品为首倡，明五运六气寒热温凉补泻之原，辨苍术白术之分，正酸枣仁气味之讹
-  place: 杭州
+  title_zh: 灵枢集注作序于西泠怡堂
+  description_zh: 康熙壬子葵夏成黄帝内经灵枢集注八十一篇，论九针十二原营卫血气，明病之所以瘳
 - id: guji-张志聪-event-death
-  date: 1674-01-01
+  date: 1674
   year_of: 1674
-  title_zh: 卒于康熙十三年
-  description: 注述既成，门人吕子宫等传其学，隐庵之学遂为浙派运气之源
-  place: 杭州
+  title_zh: 卒于清康熙十三年
+  description_zh: 以医经注疏惠及后学，门人高士宗等续传其学，集注素问灵枢并行于世

@@ -1,0 +1,127 @@
+person:
+  qid: guji-杨上善
+  name_zh: 杨上善
+  names:
+    zh: 杨上善
+    en: Yang Shangshan
+  lifespan:
+    birth:
+      date: 0585
+      precision: year
+      is_circa: true
+      raw: 约隋开皇末
+    death:
+      date: '0670'
+      precision: year
+      is_circa: true
+      raw: 约唐高宗咸亨初
+  birth_date: 0585
+  death_date: '0670'
+  era: 唐
+  reign_ref: 唐太宗贞观至唐高宗显庆
+  archetype: 医经注疏者
+  dilemmas:
+  - 旧经散乱而师传心藏不著于方当立文字以传后世
+  - 胃肠寒热相逆而骄恣从欲顺之加病逆之生怒当先语道而后调形
+  lesson: 顺四时阴阳以养未病假文字注疏以存真经
+  summary_first_person: 我生逢隋唐之际少习医经久任朝列奉唐主之命取素问灵枢甲乙诸书编为太素三十卷复加注疏于摄生顺养六气九气之旨尤加详说愿后人藏而行之春夏养阳秋冬养阴不治已病治未病
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E5%A4%AA%E7%B4%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E5%A4%AA%E7%B4%A0.md
+endeavors:
+- id: guji-杨上善-endeavor-1
+  title_zh: 奉敕编撰黄帝内经太素
+  description_zh: 会通素问灵枢甲乙诸书分别部居编为太素三十卷以存先师心藏之学
+  phases:
+  - key: brewing
+    name: 搜集校勘素问灵枢旧本
+    labels:
+      zh: 搜集校勘
+    start_date: '0640'
+    highlight_event_id: guji-杨上善-event-collect
+  - key: breakthrough
+    name: 立太素纲目分摄生阴阳等类
+    labels:
+      zh: 立纲分卷
+    start_date: '0656'
+    highlight_event_id: guji-杨上善-event-taisu
+  - key: climax
+    name: 成太素三十卷进呈朝廷
+    labels:
+      zh: 成书进呈
+    start_date: 0659
+    highlight_event_id: guji-杨上善-event-taisu
+  - key: closure
+    name: 传抄流布以贻后世
+    labels:
+      zh: 传抄流布
+    start_date: '0660'
+    highlight_event_id: guji-杨上善-event-teach
+  decisions:
+  - date: '0656'
+    title_zh: 以太素总摄众经而不另立一方
+    rationale: 先师心藏如斫轮之巧不著于方非文不传故取诸经旧文分门编次而加注疏
+  - date: 0659
+    title_zh: 存异文而录平按校记
+    rationale: 素问灵枢甲乙文字多有异同故并存别本以明真相使后人得考其源
+- id: guji-杨上善-endeavor-2
+  title_zh: 注疏摄生顺时养生之道
+  description_zh: 释顺养六气九气四时调神之旨明春夏养阳秋冬养阴之法
+  phases:
+  - key: brewing
+    name: 研习四时调神决气举痛诸篇
+    labels:
+      zh: 研习经旨
+    start_date: '0645'
+    highlight_event_id: guji-杨上善-event-collect
+  - key: breakthrough
+    name: 释顺养标本寒热调和之法
+    labels:
+      zh: 释义调和
+    start_date: '0657'
+    highlight_event_id: guji-杨上善-event-taisu
+  - key: climax
+    name: 详注春生夏长秋收冬藏摄生之序
+    labels:
+      zh: 详注摄生
+    start_date: 0659
+    highlight_event_id: guji-杨上善-event-teach
+  - key: closure
+    name: 以不治已病治未病之训诲人
+    labels:
+      zh: 垂训后学
+    start_date: '0665'
+    highlight_event_id: guji-杨上善-event-teach
+  decisions:
+  - date: '0657'
+    title_zh: 先语道而后调寒热标本
+    rationale: 人情恶死乐生故当告以所便开以所苦春夏先治标秋冬先治本
+  - date: 0659
+    title_zh: 以顺为治国治身之要
+    rationale: 治民治身治国治家未有逆而能治者故以顺阴阳四时为得道之门
+events:
+- id: guji-杨上善-event-birth
+  title_zh: 出生于隋末
+  date: 0585
+  year_of: 585
+  description_zh: 约隋开皇末年生少习经方尤精黄帝内经之学
+- id: guji-杨上善-event-collect
+  title_zh: 历仕隋唐搜集医经旧本
+  date: '0640'
+  year_of: 640
+  description_zh: 贞观年间任职朝列搜集素问灵枢甲乙诸书校其异同
+- id: guji-杨上善-event-taisu
+  title_zh: 奉敕撰成黄帝内经太素
+  date: 0659
+  year_of: 659
+  description_zh: 显庆年间奉敕编撰太素三十卷分摄生阴阳等类并加注疏
+- id: guji-杨上善-event-teach
+  title_zh: 传授摄生顺养之道
+  date: '0665'
+  year_of: 665
+  description_zh: 以春夏养阳秋冬养阴不治已病治未病之旨传示后学
+- id: guji-杨上善-event-death
+  title_zh: 逝世
+  date: '0670'
+  year_of: 670
+  description_zh: 约高宗咸亨初年逝世太素传抄流布于世
