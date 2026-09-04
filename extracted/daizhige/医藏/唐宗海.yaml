@@ -6,128 +6,138 @@ person:
     en: Tang Zonghai
   lifespan:
     birth:
-      date: 1846
+      date: '1862'
       precision: year
       is_circa: false
-      raw: 道光二十六年生于四川彭县
+      raw: 清同治元年
     death:
-      date: 1897
+      date: '1918'
       precision: year
       is_circa: false
-      raw: 光绪二十三年卒
-  birth_date: 1846
-  death_date: 1897
-  era: 清
+      raw: 民国七年
+  birth_date: '1862'
+  death_date: '1918'
+  era: 清末民初
   reign_ref: 光绪
-  archetype: 医家
+  archetype: 汇通医家
   dilemmas:
-  - 中法艰奥难为初学所用而浅俗验方又源流未澈如何取舍
-  - 西医东渐当拒当融如何不舍近求远不废正道而汇通
-  - 久病投剂不中阴阳混乱如何使不知医者临证查对了然
-  lesson: 医贵简明求实究源审阴阳别脏腑使初学一见能用以济世
-  summary_first_person: 吾唐宗海字容川蜀之彭县人也感病家穷于医又穷于书故著血证论发明气血水火又著中西汇通医书五种及医学见能四卷专为初学与不知医者设见痛苦即查得分经辨证方必录验愿人子人父母各手一编以助生成
+  - 中西医理剖视与气化之争难折中
+  - 本草注泛滥穿凿与古圣经旨刺谬难辨正
+  lesson: 原物所生以定性参合黄炎仲景与西说折衷至当以救流弊
+  summary_first_person: 余天彭容川也游粤得遇伯龙以本草缺略相属乃参西医合黄炎仲景发明药性揭南北水火血气大义以教来者
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/医学见能.md
-  - https://daizhige.org/医学见能.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E9%97%AE%E7%AD%94.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E9%97%AE%E7%AD%94.md
 endeavors:
 - id: guji-唐宗海-endeavor-1
-  title_zh: 血证论与中西汇通
-  summary_zh: 以血证立论通调水火气血著血证论复成中西汇通医书五种贯通今古
+  title_zh: 汇通中西医理著述
+  summary: 以血证论起家中西汇通医经精义贯通内经仲景与西医剖视试验之说
   phases:
   - key: brewing
-    name: 早年习儒究医
+    name: 临证究心血病
     labels:
-      zh: 酝酿
-    start_date: 1862
-    highlight_event_id: guji-唐宗海-event-birth
+      zh:
+      - 临证
+      - 血证
+    start_date: '1880'
+    highlight_event_id: guji-唐宗海-event-xuezhenglun
   - key: breakthrough
-    name: 血证论成书
+    name: 血证论成名噪一时
     labels:
-      zh: 突破
-    start_date: 1884
+      zh:
+      - 成书
+      - 血证
+    start_date: '1884'
     highlight_event_id: guji-唐宗海-event-xuezhenglun
   - key: climax
-    name: 中西汇通五种刊行
+    name: 中西汇通医经精义折衷
     labels:
-      zh: 高峰
-    start_date: 1892
-    highlight_event_id: guji-唐宗海-event-huitong
+      zh:
+      - 汇通
+      - 医经
+    start_date: '1892'
+    highlight_event_id: guji-唐宗海-event-yijingjingyi
   - key: closure
-    name: 晚年定论传世
+    name: 游粤讲贯传授医理
     labels:
-      zh: 收束
-    start_date: 1897
-    highlight_event_id: guji-唐宗海-event-death
+      zh:
+      - 讲学
+      - 传承
+    start_date: '1892'
+    highlight_event_id: guji-唐宗海-event-yijingjingyi
   decisions:
-  - date: 1884
-    title_zh: 专论血证究气血水火
-    rationale: 见世医治血混乱阴阳颠倒寒热故首明脏腑经络气血之源以正其本
-  - date: 1892
-    title_zh: 会通中西不废正道
-    rationale: 西说渐入不取新奇废正以中学摄西学使近道实用奉为圭臬
+  - date: '1884'
+    title_zh: 著血证论专明血病治法
+    rationale: 以血为病多端而古论未备故专书辨析以补缺略
+  - date: '1892'
+    title_zh: 著中西汇通医经精义参合西说
+    rationale: 西医剖视试验有长而昧气化故参合内经仲景以折衷至当
 - id: guji-唐宗海-endeavor-2
-  title_zh: 医学见能普济初学
-  summary_zh: 为不知医者设书见痛苦即入某门分部分类附歌括便记诵济急扶危
+  title_zh: 本草问答发明药性
+  summary: 应伯龙之请以问答体原物所生辨形色气味性归经以正本草流弊
   phases:
   - key: brewing
-    name: 感病家无书可用
+    name: 粤中邂逅伯龙问难
     labels:
-      zh: 酝酿
-    start_date: 1886
-    highlight_event_id: guji-唐宗海-event-xuezhenglun
+      zh:
+      - 问答
+      - 粤游
+    start_date: '1892'
+    highlight_event_id: guji-唐宗海-event-bencao
   - key: breakthrough
-    name: 医学见能四卷初成
+    name: 立南北水火血气大义
     labels:
-      zh: 突破
-    start_date: 1891
-    highlight_event_id: guji-唐宗海-event-jianneng
+      zh:
+      - 药性
+      - 南北水火
+    start_date: 1893-02
+    highlight_event_id: guji-唐宗海-event-bencao
   - key: climax
-    name: 秦伯未校阅附方广传
+    name: 本草问答卷上成编
     labels:
-      zh: 高峰
-    start_date: 1924
-    highlight_event_id: guji-唐宗海-event-jianneng
+      zh:
+      - 本草
+      - 问答
+    start_date: 1893-03
+    highlight_event_id: guji-唐宗海-event-bencao
   - key: closure
-    name: 简效普及家置一编
+    name: 举一反三垂教后学
     labels:
-      zh: 收束
-    start_date: 1897
-    highlight_event_id: guji-唐宗海-event-death
+      zh:
+      - 垂教
+      - 反三
+    start_date: 1893-03
+    highlight_event_id: guji-唐宗海-event-bencao
   decisions:
-  - date: 1891
-    title_zh: 不标证名按部位痛苦分类
-    rationale: 恐初学见证名生迷眩故按背头耳目唇口等分门最便查阅对证即得
-  - date: 1891
-    title_zh: 每证必究源并衍歌括附急救
-    rationale: 虽简略必审阴阳别脏腑以灵验又作绝句便记诵附疮伤跌打救绝以备急
+  - date: 1893-02
+    title_zh: 应请发明本草揭大义
+    rationale: 诸家本草泛滥穿凿刺谬经旨西说攻弊故须辨正以救流弊
+  - date: 1893-03
+    title_zh: 以问答体论人参朱砂黄芪肉桂等
+    rationale: 原所生之地时形色气味以定性分气血以归经使见目尝口可推例知性
 events:
 - id: guji-唐宗海-event-birth
-  date: 1846
-  year_of: 1846
-  type: birth
+  date: '1862'
+  year_of: 1862
   title_zh: 生于四川彭县
-  description_zh: 道光二十六年生于蜀之天彭少习儒而究心医学格物穷理
+  description: 清同治元年生于蜀天彭唐氏名宗海字容川
 - id: guji-唐宗海-event-xuezhenglun
-  date: 1884
+  date: '1884'
   year_of: 1884
-  type: achievement
-  title_zh: 血证论成书
-  description_zh: 光绪年间成血证论发明心肝脾肺肾气血水火之理为治血总纲
-- id: guji-唐宗海-event-huitong
-  date: 1892
+  title_zh: 著成血证论
+  description: 专论血病源流治法名重一时奠定医名
+- id: guji-唐宗海-event-yijingjingyi
+  date: '1892'
   year_of: 1892
-  type: achievement
-  title_zh: 中西汇通医书五种刊行
-  description_zh: 学通今古识超凡俦刊中西汇通医书五种不趋新奇不废正道为学人奉为圭臬
-- id: guji-唐宗海-event-jianneng
-  date: 1891
-  year_of: 1891
-  type: achievement
-  title_zh: 医学见能四卷成书
-  description_zh: 为初学及不知医者作医学见能四卷首列诊法望闻问切次分卷论治辞简理周方必录验并衍绝句以便记诵
+  title_zh: 著中西汇通医经精义
+  description: 参合西医剖视试验与黄帝内经仲景之说折衷病源治法
+- id: guji-唐宗海-event-bencao
+  date: 1893-03
+  year_of: 1893
+  title_zh: 粤中叙著本草问答
+  description: 去冬游粤遇张伯龙以问答发明本草南北水火血气之理癸巳仲春叙于粤
 - id: guji-唐宗海-event-death
-  date: 1897
-  year_of: 1897
-  type: death
-  title_zh: 卒于光绪二十三年
-  description_zh: 清光绪二十三年卒平生著述以济世为怀医学见能后经秦之济校阅付梓广传
+  date: '1918'
+  year_of: 1918
+  title_zh: 卒于民国初年
+  description: 毕生汇通中西辨正本草而卒
