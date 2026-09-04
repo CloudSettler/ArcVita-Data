@@ -17,97 +17,122 @@ person:
       raw: 元至正十八年
   birth_date: 1281
   death_date: 1358
-  era: 元
-  reign_ref: 泰定至至正
-  archetype: 儒医宗师
+  era: 元代
+  reign_ref: 自元世祖至元至元顺帝至正
+  archetype: 济世医宗
   dilemmas:
-  - 局方定法与无穷之疾如何相通
-  - 攻伐峻猛与养阴保真如何权衡
-  lesson: 穷经以明理，集大成以活人，守正而不泥方
-  summary_first_person: 吾因母病而志于医，遍游访道，得刘张李之传，悟阴阳运气之旨，辟局方之偏，愿以活法拯人夭枉
+  - 尊崇古法与自创新论之间如何抉择
+  - 寒凉滋阴与温热扶阳之间如何权衡
+  - 穷究医理与躬亲济世之间如何兼顾
+  lesson: 阳常有余阴常不足，养阴以全天真，求心不泥迹，方能继往开来
+  summary_first_person: 吾乃婺州丹溪翁朱震亨，壮年访师罗知悌而悟医道，中年倡阳有余阴不足之论，晚年删定平生心法为治法心要，愿后人得吾心而善其用，共跻斯民于仁寿之域
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%B9%E6%BA%AA%E5%BF%83%E6%B3%95.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%B9%E6%BA%AA%E5%BF%83%E6%B3%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%B9%E6%BA%AA%E6%B2%BB%E6%B3%95%E5%BF%83%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%B9%E6%BA%AA%E6%B2%BB%E6%B3%95%E5%BF%83%E8%A6%81.html
 endeavors:
 - id: guji-朱震亨-endeavor-1
-  title_zh: 游学问道集张刘李大成
+  title_zh: 创滋阴学说别开医宗
+  summary: 师事罗知悌，参悟刘完素朱肱之学，倡阳有余阴不足，创滋阴降火大法，与刘完素张从正李东垣并称金元四大家
   phases:
   - key: brewing
-    name: 因母脾病刻志学医
+    name: 壮年南游访师
     labels:
-      zh: 孝亲立志
-    start_date: 1310
+      zh: 访道学医
+    start_date: 1311
     highlight_event_id: guji-朱震亨-event-study
   - key: breakthrough
-    name: 杭城拜罗太无得传
+    name: 悟立相火论
     labels:
-      zh: 得道相传
-    start_date: 1325
-    highlight_event_id: guji-朱震亨-event-study
+      zh: 立论滋阴
+    start_date: 1315
+    highlight_event_id: guji-朱震亨-event-theory
   - key: climax
-    name: 穷研素问洞参运气
+    name: 行道江浙名重一时
     labels:
-      zh: 融会贯通
-    start_date: 1330
-    highlight_event_id: guji-朱震亨-event-writing
-  decisions:
-  - date: 1325
-    title_zh: 还杭拜师罗太无
-    rationale: 遍游无遇，唯罗氏深得刘张李之学，当虚心受业以求活法
-  - date: 1330
-    title_zh: 辟局方之非守活法
-    rationale: 定方难应无穷之病，当以运气脉证为本而不泥专方
-- id: guji-朱震亨-endeavor-2
-  title_zh: 著书授徒传丹溪心法
-  phases:
-  - key: brewing
-    name: 作局方发挥格致余论
-    labels:
-      zh: 著述明道
-    start_date: 1347
-    highlight_event_id: guji-朱震亨-event-writing
-  - key: climax
-    name: 门人翼道心法流布
+      zh: 济世行医
+    start_date: 1320
+    highlight_event_id: guji-朱震亨-event-practice
+  - key: closure
+    name: 学说大成门人广传
     labels:
       zh: 传道授业
-    start_date: 1350
-    highlight_event_id: guji-朱震亨-event-teaching
-  - key: closure
-    name: 丹溪之学垂法无穷
+    start_date: 1340
+    highlight_event_id: guji-朱震亨-event-teach
+  decisions:
+  - date: 1311
+    title_zh: 弃举子业南游从罗知悌学医
+    rationale: 母病求医有感，知经方不足恃，遂访名师穷究医理以明相火之秘
+  - date: 1315
+    title_zh: 倡阳有余阴不足专主滋阴降火
+    rationale: 鉴世人多用辛温燥热耗伤真阴，故以养阴保真为大法，纠时医之偏
+- id: guji-朱震亨-endeavor-2
+  title_zh: 晚年删定治法心要垂范后世
+  summary: 取格致余论局方发挥心法医要所未尽者，斟酌损益成定本，详论中风伤寒火郁等证，垂丹溪精神心术之微
+  phases:
+  - key: brewing
+    name: 早年著述积累
     labels:
-      zh: 功成身退
-    start_date: 1358
-    highlight_event_id: guji-朱震亨-event-death
+      zh: 著述积累
+    start_date: 1330
+    highlight_event_id: guji-朱震亨-event-practice
+  - key: breakthrough
+    name: 厘定心法医要得失
+    labels:
+      zh: 厘定旧说
+    start_date: 1347
+    highlight_event_id: guji-朱震亨-event-teach
+  - key: climax
+    name: 撰成治法心要定本
+    labels:
+      zh: 定本心要
+    start_date: 1355
+    highlight_event_id: guji-朱震亨-event-book
+  - key: closure
+    name: 高氏校刻流传海内
+    labels:
+      zh: 刊刻流传
+    start_date: 1529
+    highlight_event_id: guji-朱震亨-event-book
   decisions:
   - date: 1347
-    title_zh: 撰书辨阴阳标本
-    rationale: 世医专读局方试人以药，当著论别阴阳辨虚实以正其误
-  - date: 1350
-    title_zh: 授赵戴诸徒传心法
-    rationale: 道不可独得，当使徒众翼其说家传人诵以济苍生
+    title_zh: 取心法医要所未尽者另成心要
+    rationale: 以二书尚有出入未备，欲存平生精神心术之微，使后人可求吾心而善其用
+  - date: 1355
+    title_zh: 以补阴降火贯通诸证治法
+    rationale: 认诸病多因阴虚火动痰郁所致，故以养血清火化痰开郁为纲，垂万世法
 events:
 - id: guji-朱震亨-event-birth
-  title_zh: 生于婺州乌伤
   date: 1281
   year_of: 1281
-  description: 婺之乌伤人，名震亨字彦修，元钜儒许文懿公高第弟子
+  title_zh: 生于婺州义乌赤岸
+  description: 元至元十八年生于儒医世家，幼习举子业，聪慧笃学，志在圣贤之道
 - id: guji-朱震亨-event-study
-  title_zh: 拜罗太无得刘张李之学
-  date: 1325
-  year_of: 1325
-  description: 因母病脾刻志于医，遍游江湖无遇，还杭拜罗太无而得东垣河间之传以归
-- id: guji-朱震亨-event-writing
-  title_zh: 著局方发挥格致余论
+  date: 1311
+  year_of: 1311
+  title_zh: 南游从罗知悌受医
+  description: 年三十一弃举业南游，拜太无子罗知悌为师，尽得刘完素朱肱之传，医道大进
+- id: guji-朱震亨-event-theory
+  date: 1315
+  year_of: 1315
+  title_zh: 倡阳有余阴不足之论
+  description: 作格致余论阐相火易动真阴难成之义，创滋阴降火大法，别开医宗
+- id: guji-朱震亨-event-practice
+  date: 1320
+  year_of: 1320
+  title_zh: 行医江浙声名大振
+  description: 归乡悬壶，治中风痨瘵郁火等证屡获奇效，四方求治者日众，门人戴思恭等尽得其传
+- id: guji-朱震亨-event-teach
   date: 1347
   year_of: 1347
-  description: 穷研素问洞参运气，辟局方之非，悟戴人攻击之法，辨阴阳标本虚实
-- id: guji-朱震亨-event-teaching
-  title_zh: 授徒传道心法成书
-  date: 1350
-  year_of: 1350
-  description: 门人赵以德刘叔渊戴元礼翼其道，遗书传播，后人集为丹溪心法
+  title_zh: 著述讲学门人日盛
+  description: 先后著格致余论局方发挥伤寒辨疑等，授徒讲学，丹溪之学盛行江南
+- id: guji-朱震亨-event-book
+  date: 1355
+  year_of: 1355
+  title_zh: 晚年定治法心要之本
+  description: 暮年取平生所著心法医要未尽者斟酌损益，成治法心要定本，为丹溪心术精备之作
 - id: guji-朱震亨-event-death
-  title_zh: 逝世
   date: 1358
   year_of: 1358
-  description: 没后其传稍泯，近世儒者始好之，陕蜀相继刊行以广海内
+  title_zh: 卒于故里
+  description: 元至正十八年卒，年七十八，遗书经后人校刻流传，尊为滋阴派祖师
