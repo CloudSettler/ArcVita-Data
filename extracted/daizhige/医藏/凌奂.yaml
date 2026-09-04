@@ -1,0 +1,135 @@
+person:
+  qid: guji-凌奂
+  name_zh: 凌奂
+  names:
+    zh: 凌奂
+    en: Ling Huan
+  lifespan:
+    birth:
+      date: 1820-01-01
+      precision: year
+      is_circa: true
+      raw: 清吴郡人约十九世纪初生
+    death:
+      date: 1895-12-31
+      precision: year
+      is_circa: true
+      raw: 清末卒具体年月不详
+  birth_date: 1820-01-01
+  death_date: 1895-12-31
+  era: 清
+  reign_ref: 清
+  archetype: 外科实证良医
+  dilemmas:
+  - 守秘则绝技湮没与公开则济众活人之抉择
+  - 冗于诊务救治眼前与抽暇著述惠及后世之两难
+  lesson: 学理以研究而愈明方剂以试用而的知开诚布公方能济世长存
+  summary_first_person: 余凌奂字晓五吴郡人也家藏医书万卷熟读精思舍短取长为人治病辄多奇效虽冗于诊务仍萃一生经验为方外奇方愿后之用者自知其妙
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%96%B9%E5%A4%96%E5%A5%87%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%96%B9%E5%A4%96%E5%A5%87%E6%96%B9.md
+endeavors:
+- id: guji-凌奂-endeavor-1
+  title_zh: 升降灵药研炼与方外奇方集成
+  summary: 研炼红升白降围药锭散萃一生外科经验成书
+  phases:
+  - key: brewing
+    name: 博览精思
+    labels:
+      zh:
+      - 博览
+      - 研炼
+    start_date: 1845-01-01
+    highlight_event_id: guji-凌奂-event-1
+  - key: breakthrough
+    name: 炼丹得法
+    labels:
+      zh:
+      - 升降丹
+    start_date: 1860-01-01
+    highlight_event_id: guji-凌奂-event-1
+  - key: climax
+    name: 奇效累验
+    labels:
+      zh:
+      - 拔毒生肌
+    start_date: 1875-01-01
+    highlight_event_id: guji-凌奂-event-2
+  - key: closure
+    name: 集成奇方
+    labels:
+      zh:
+      - 方外奇方
+    start_date: 1885-01-01
+    highlight_event_id: guji-凌奂-event-2
+  decisions:
+  - date: 1860-01-01
+    title_zh: 不守秘而累试升降火候
+    rationale: 升降稍有绿烟走炉即无用惟屡试火候方能得洁白如霜之丹
+  - date: 1885-01-01
+    title_zh: 萃经验为方外奇方
+    rationale: 恐妙法神技终归湮没故以一生经验列方传世
+- id: guji-凌奂-endeavor-2
+  title_zh: 万卷舍短取长与临证著述薪传
+  summary: 家藏万卷熟读临证多效著述薪传惠后
+  phases:
+  - key: brewing
+    name: 万卷熟读
+    labels:
+      zh:
+      - 万卷
+    start_date: 1840-01-01
+    highlight_event_id: guji-凌奂-event-1
+  - key: breakthrough
+    name: 临证奇效
+    labels:
+      zh:
+      - 临证
+    start_date: 1855-01-01
+    highlight_event_id: guji-凌奂-event-1
+  - key: climax
+    name: 薪传集方
+    labels:
+      zh:
+      - 薪传
+    start_date: 1870-01-01
+    highlight_event_id: guji-凌奂-event-2
+  - key: closure
+    name: 流传后世
+    labels:
+      zh:
+      - 流传
+    start_date: 1924-04-01
+    highlight_event_id: guji-凌奂-event-2
+  decisions:
+  - date: 1855-01-01
+    title_zh: 舍短取长为人治病
+    rationale: 遍读家藏舍短取长故临证辄多奇效
+  - date: 1870-01-01
+    title_zh: 冗务中仍著述薪传
+    rationale: 冗于诊务乏暇仍作医学薪传饲鹤亭集方凌临灵方本草害利等以惠后人
+events:
+- id: guji-凌奂-event-birth
+  date: 1820-01-01
+  year_of: 1820
+  title_zh: 生于吴郡
+  description: 清代吴郡出生家学渊博藏书万卷之基
+  is_circa: true
+- id: guji-凌奂-event-1
+  date: 1860-01-01
+  year_of: 1860
+  title_zh: 研成大小红升白降诸丹
+  description: 以阳城罐百眼炉三炷香文武火炼成红升白降拔毒去腐生肌长肉
+  endeavor_ref: guji-凌奂-endeavor-1
+- id: guji-凌奂-event-2
+  date: 1885-01-01
+  year_of: 1885
+  title_zh: 萃成方外奇方凌临灵方等书
+  description: 萃一生经验成方外奇方及医学薪传饲鹤亭集方等冗于诊务仅成数种
+  endeavor_ref: guji-凌奂-endeavor-1
+- id: guji-凌奂-event-death
+  date: 1895-12-31
+  year_of: 1895
+  title_zh: 清末卒于吴郡
+  description: 清末卒后哲嗣合刊薪传集方民国三三医书及珍本集成重刊方外奇方流传
+  is_circa: true

@@ -1,0 +1,142 @@
+person:
+  qid: guji-申斗垣
+  name_zh: 申斗垣
+  names:
+    zh: 申斗垣
+    en: Shen Dougeng
+  lifespan:
+    birth:
+      date: 1540
+      precision: year
+      is_circa: true
+      raw: 明嘉靖末约生以万历甲辰已至桑榆推算
+    death:
+      date: 1615
+      precision: year
+      is_circa: true
+      raw: 万历后卒年不详约计
+  birth_date: 1540
+  death_date: 1615
+  era: 明
+  reign_ref: 明神宗万历
+  archetype: 由儒入医的仁心外科大家
+  dilemmas:
+  - 少从儒弗获一第改业医学何以立身立言
+  - 异方秘藏肘后与公诸天下济众何以抉择
+  lesson: 穷理得意不即方不离方以仁心启外科之玄而登斯民于仁寿
+  summary_first_person: 吾姓申讳拱宸字子极别号斗垣少从儒弗第乃究心医学游侠江湖遍访异人异方积十余星霜撰外科启玄十二卷并附痘科及伤寒视舌之法愿以内托外治针灸刀烙诸法济天下疮疡婴幼咸登寿域
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E5%90%AF%E7%8E%84.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E5%90%AF%E7%8E%84.md
+endeavors:
+- id: guji-申斗垣-endeavor-1
+  person_id: guji-申斗垣
+  title_zh: 撰述外科启玄十二卷
+  summary: 由儒转医游侠访方剪繁去冗图经络察色脉成外科启玄十二卷论百余篇毒发二百余种方千余目
+  phases:
+  - key: brewing
+    name: 弃儒习医
+    labels:
+      zh: 从儒究医
+    start_date: 1560
+    highlight_event_id: guji-申斗垣-event-study
+  - key: breakthrough
+    name: 建康访异得方
+    labels:
+      zh: 游侠访方
+    start_date: 1575
+    highlight_event_id: guji-申斗垣-event-study
+  - key: climax
+    name: 编次十二卷
+    labels:
+      zh: 著述成帙
+    start_date: 1600
+    highlight_event_id: guji-申斗垣-event-book
+  - key: closure
+    name: 甲辰刊行传世
+    labels:
+      zh: 刊刻行世
+    start_date: 1604
+    highlight_event_id: guji-申斗垣-event-book
+  decisions:
+  - date: 1565
+    title_zh: 弃举业专攻医
+    rationale: 少从儒弗获第而疮患颇多夭阏可惜乃以仁心转业岐黄尤精外科
+  - date: 1604
+    title_zh: 聚资剞劂广传
+    rationale: 不欲针藏肘后欲登世世于寿域故图形容症明经络以启前人不尽之玄
+- id: guji-申斗垣-endeavor-2
+  person_id: guji-申斗垣
+  title_zh: 行医济世兼治痘疹伤寒
+  summary: 以外科行世兼明痘疹三因预识逆顺及伤寒视舌之法全活甚众而得申时行储以忠等序引
+  phases:
+  - key: brewing
+    name: 江湖行医
+    labels:
+      zh: 济人初行
+    start_date: 1575
+    highlight_event_id: guji-申斗垣-event-study
+  - key: breakthrough
+    name: 精于疮痘诊治
+    labels:
+      zh: 外痘兼精
+    start_date: 1590
+    highlight_event_id: guji-申斗垣-event-practice
+  - key: climax
+    name: 附痘科伤寒行世
+    labels:
+      zh: 幼科伤寒
+    start_date: 1604
+    highlight_event_id: guji-申斗垣-event-practice
+  - key: closure
+    name: 万口延誉耆年济众
+    labels:
+      zh: 仁声远播
+    start_date: 1610
+    highlight_event_id: guji-申斗垣-event-practice
+  decisions:
+  - date: 1595
+    title_zh: 外科内附痘科
+    rationale: 钱氏后论说烦杂难便后学且今禀受与古不同故立三因逆顺百句歌以保婴幼
+  - date: 1604
+    title_zh: 执方而穷理得意
+    rationale: 与其师心毋宁执方与其执方毋宁穷理不即方不离方妙在得意是谓玄道
+events:
+- id: guji-申斗垣-event-birth
+  person_id: guji-申斗垣
+  type: birth
+  date: 1540
+  year_of: 1540
+  title_zh: 嘉靖末约生
+  description: 约生于明嘉靖末年姓申讳拱宸字子极别号斗垣少而从儒
+- id: guji-申斗垣-event-study
+  person_id: guji-申斗垣
+  endeavor_id: guji-申斗垣-endeavor-1
+  type: career
+  date: 1575
+  year_of: 1575
+  title_zh: 游侠建康访异人授异方
+  description: 早岁游侠建康历牛首燕矶栖霞茅君洞天多遇异人授异方尤精外科方藏肘后试病辄效
+- id: guji-申斗垣-event-book
+  person_id: guji-申斗垣
+  endeavor_id: guji-申斗垣-endeavor-1
+  type: career
+  date: 1604
+  year_of: 1604
+  title_zh: 外科启玄十二卷成书刊刻
+  description: 万历甲辰春集隐玄堂成书十二卷论百二十余篇毒发二百三十余种方千余目得大学士申时行给事中储以忠序而寿梓
+- id: guji-申斗垣-event-practice
+  person_id: guji-申斗垣
+  endeavor_id: guji-申斗垣-endeavor-2
+  type: career
+  date: 1604-09-15
+  year_of: 1604
+  title_zh: 附痘科伤寒济世显名
+  description: 于外科外另撰伤寒视舌及外科启玄附痘科卷十明痘三因四时逆顺部位形色及保元汤加减百句歌全活婴幼无算都人士延誉
+- id: guji-申斗垣-event-death
+  person_id: guji-申斗垣
+  type: death
+  date: 1615
+  year_of: 1615
+  title_zh: 万历后耆年而卒
+  description: 万历甲辰后年近耆以良医闻于世卒年不详后人以启玄痘科传之
