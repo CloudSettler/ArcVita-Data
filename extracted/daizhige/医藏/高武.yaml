@@ -1,0 +1,135 @@
+person:
+  qid: guji-高武
+  name_zh: 高武
+  names:
+    zh: 高武
+    en: Gao Wu
+  lifespan:
+    birth:
+      date: 1485
+      precision: year
+      is_circa: true
+      raw: 明中期约生于四明
+    death:
+      date: 1560
+      precision: year
+      is_circa: true
+      raw: 明嘉靖后约卒
+  birth_date: 1485
+  death_date: 1560
+  era: 明
+  reign_ref: 明世宗嘉靖
+  archetype: 医家
+  dilemmas:
+  - 伤寒热入血室与闪挫诸疾非药饵可愈当弃针灸还是针药并施
+  - 诸家针赋变法日繁似易乱易当守素难古法还是从俗变法
+  lesson: 治病如对垒攻守奇正并用，溯原穷流，以素难折衷诸家，方能去取得宜以收十全之功
+  summary_first_person: 我是四明梅孤子高武，见医者弃针灸不讲遇刺疾则束手无策，遂研精素问难经旁究诸家，先集节要一书，后于嘉靖己丑纂成针灸聚英，以经络腧穴病证类聚，折衷古今，使司命者知所去取
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%92%88%E7%81%B8%E8%81%9A%E8%8B%B1.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%92%88%E7%81%B8%E8%81%9A%E8%8B%B1.html
+endeavors:
+- id: guji-高武-endeavor-1
+  title_zh: 研精素难纂集节要
+  description: 以素问难经为鼻祖研精旁究为聚英奠基
+  phases:
+  - key: brewing
+    name: 遍求针师悟针药并重
+    labels:
+      zh:
+      - 求师
+      - 研读
+    start_date: 1520
+    highlight_event_id: guji-高武-event-study
+  - key: breakthrough
+    name: 研精素难辨诸家得失
+    labels:
+      zh:
+      - 考订
+      - 折衷
+    start_date: 1525
+    highlight_event_id: guji-高武-event-jieyao
+  - key: closure
+    name: 先成节要一书
+    labels:
+      zh:
+      - 纂集
+      - 成书
+    start_date: 1528
+    highlight_event_id: guji-高武-event-jieyao
+  decisions:
+  - date: 1525
+    title_zh: 以素难为宗不从俗变
+    rationale: 素难垂万世无弊不可言穷，诸家变法如以钱起卦似易乱易，故须溯原立法
+  - date: 1528
+    title_zh: 先纂节要再图聚英
+    rationale: 不溯原则昧立法之善，不穷流则不知变法之弊，故先节要后聚英以相济
+- id: guji-高武-endeavor-2
+  title_zh: 纂成针灸聚英
+  description: 类聚经络腧穴病证针艾歌赋折衷素难成针灸大成
+  phases:
+  - key: brewing
+    name: 穷流审弊立凡例
+    labels:
+      zh:
+      - 立纲
+      - 辨弊
+    start_date: 1528
+    highlight_event_id: guji-高武-event-jieyao
+  - key: breakthrough
+    name: 经络腧穴主病类聚
+    labels:
+      zh:
+      - 编纂
+      - 类聚
+    start_date: 1529
+    highlight_event_id: guji-高武-event-juying
+  - key: climax
+    name: 嘉靖己丑夏自序成书
+    labels:
+      zh:
+      - 成书
+      - 自序
+    start_date: 1529-06-06
+    highlight_event_id: guji-高武-event-juying
+  - key: closure
+    name: 绘图补辑传世授学
+    labels:
+      zh:
+      - 刊定
+      - 传世
+    start_date: 1529-06-06
+    highlight_event_id: guji-高武-event-juying
+  decisions:
+  - date: 1529
+    title_zh: 取同议异名曰聚英
+    rationale: 诸书于素难多异少同，取其同议其异，方能存古法而正流弊
+  - date: 1529-06-06
+    title_zh: 以素难折衷续编诸家
+    rationale: 不学古医不变今俗不能收十全之功，故续编折衷使知去取
+events:
+- id: guji-高武-event-birth
+  title_zh: 出生
+  date: 1485
+  year_of: 1485
+  description: 约生于明中期四明之地，自号梅孤子
+- id: guji-高武-event-study
+  title_zh: 悟针药并重遍求师指
+  date: 1520
+  year_of: 1520
+  description: 遇伤寒热入血室闪挫诸疾非药可愈而束手，悟治病如对垒须针灸药并施，遍求远近针者而艰其人
+- id: guji-高武-event-jieyao
+  title_zh: 研精素难先集群节要
+  date: 1528
+  year_of: 1528
+  description: 取素问难经研精之，旁究标幽玉龙肘后流注诸家，尝集节要一书以溯其原
+- id: guji-高武-event-juying
+  title_zh: 嘉靖己丑纂成针灸聚英
+  date: 1529-06-06
+  year_of: 1529
+  description: 于嘉靖己丑夏六月六日自序成书，以经络腧穴病证针艾歌赋为四卷，绘图补辑，折衷素难，辨变法之弊
+- id: guji-高武-event-death
+  title_zh: 逝世
+  date: 1560
+  year_of: 1560
+  description: 约卒于明嘉靖之后，针灸聚英传于世为后世针科宗本

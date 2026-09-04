@@ -9,7 +9,7 @@ person:
       date: '0215'
       precision: year
       is_circa: false
-      raw: 黄初六年
+      raw: 建安二十年
     death:
       date: 0282
       precision: year
@@ -17,111 +17,118 @@ person:
       raw: 太康三年
   birth_date: '0215'
   death_date: 0282
-  era: 西晋
-  reign_ref: 晋武帝
-  archetype: 高士医家
+  era: 魏晋
+  reign_ref: 曹魏甘露至西晋太康
+  archetype: 沉静寡欲的儒医著述者
   dilemmas:
-  - 身患风痹苦聋而三部医经重复错互当忍病整理以利后世否
-  - 屡被征辟当守高士隐节还是出仕以展抱负
-  lesson: 事类相从则条理可寻删繁举要则医道可传
-  summary_first_person: 吾安定朝那人幼贫力学甘露中病风苦聋乃裒素问针经明堂三部删浮除复为十二卷又著高士传以明守身之义虽卧病不敢忽医以济人
+  - title_zh: 出仕与守志
+    description_zh: 屡征不就守志著述以全高尚之节
+  - title_zh: 博综与精要
+    description_zh: 三部同归文多重复错互删浮辞除重复事类相从以求精要
+  lesson: 受先人之体而不知医为游魂精通医道方能济君父赤子
+  summary_first_person: 吾幼名静晚号玄晏沉静寡欲博综典籍得风痹加苦聋而学医取素问针经明堂三部之书删浮辞除重复撰为针灸甲乙经十二卷庶几聚以观天地之情
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%8D%BC%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%8D%BC%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F.md
+  - https://daizhige.org/医藏/针灸甲乙经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/针灸甲乙经.md
 endeavors:
 - id: guji-皇甫谧-endeavor-1
-  title_zh: 裒集三部撰成针灸甲乙经
-  summary: 以素问针经明堂孔穴针灸治要为本删浮辞除重复使事类相从成十二卷一百二十八篇
+  title_zh: 撰集针灸甲乙经
+  summary_zh: 取黄帝素问针经明堂三部之书删浮辞除重复事类相从成十二卷
   phases:
   - key: brewing
-    name: 甘露病风有感医经散乱
+    name: 得风痹习览经方
     labels:
-      zh: 酝酿
+      zh: 学医览方
     start_date: '0256'
-    highlight_event_id: guji-皇甫谧-event-ganlu-ill
+    highlight_event_id: guji-皇甫谧-event-fengbi
   - key: breakthrough
-    name: 定例裒合三部使类从
+    name: 参校三部同归
     labels:
-      zh: 突破
+      zh: 校雠比按
     start_date: '0257'
-    highlight_event_id: guji-皇甫谧-event-ganlu-ill
+    highlight_event_id: guji-皇甫谧-event-fengbi
   - key: climax
-    name: 成十二卷分经络孔穴治要
+    name: 撰成甲乙经十二卷
     labels:
-      zh: 高潮
+      zh: 撰集聚义
     start_date: 0259
-    highlight_event_id: guji-皇甫谧-event-jia-yi-complete
+    highlight_event_id: guji-皇甫谧-event-jiayijing
   - key: closure
-    name: 序明聚义以传后学
+    name: 序例垂教流传
     labels:
-      zh: 收束
-    start_date: 0259
-    highlight_event_id: guji-皇甫谧-event-jia-yi-complete
+      zh: 垂教后学
+    start_date: '0260'
+    highlight_event_id: guji-皇甫谧-event-jiayijing
   decisions:
   - date: '0257'
-    title_zh: 删浮词除重复存精要
-    rationale: 三部同归文多重复错互非一故须事类相从以便寻检
+    title_zh: 以事类相从删重复
+    rationale: 三部同归文多重复错互故删浮辞除重复论其精要
   - date: 0259
-    title_zh: 以十二卷统摄诸篇
-    rationale: 节解章分条理易明可与内经并行垂于后世
+    title_zh: 存本论有理之文
+    rationale: 本论文有理虽不切近事亦不甚删以存圣贤精思极论之理
 - id: guji-皇甫谧-endeavor-2
-  title_zh: 著高士传守隐逸之节
-  summary: 慕古高义采逸人事迹为传屡征不就以明守身全道之义
+  title_zh: 守志不仕潜心著述
+  summary_zh: 沉静寡欲有高尚之志屡辞征辟博综典籍百家之言以著述终身
   phases:
   - key: brewing
-    name: 少贫力学慕古高义
+    name: 少时博综典籍
     labels:
-      zh: 酝酿
-    start_date: '0235'
+      zh: 博学沉静
+    start_date: '0230'
     highlight_event_id: guji-皇甫谧-event-birth
   - key: breakthrough
-    name: 采摭古逸立传体例
+    name: 得病深悟医道
     labels:
-      zh: 突破
-    start_date: '0260'
-    highlight_event_id: guji-皇甫谧-event-gaoshi
+      zh: 以病入医
+    start_date: '0256'
+    highlight_event_id: guji-皇甫谧-event-fengbi
   - key: climax
-    name: 高士传成风节流布
+    name: 高尚辞辟不就
     labels:
-      zh: 高潮
-    start_date: '0265'
-    highlight_event_id: guji-皇甫谧-event-gaoshi
+      zh: 辞征守志
+    start_date: 0268
+    highlight_event_id: guji-皇甫谧-event-cizheng
   - key: closure
-    name: 屡辞征辟终全隐节
+    name: 玄晏终老著述
     labels:
-      zh: 收束
+      zh: 潜心垂世
     start_date: 0280
     highlight_event_id: guji-皇甫谧-event-death
   decisions:
-  - date: '0265'
-    title_zh: 著传表彰隐逸
-    rationale: 游魂不知医事不足济世守身著述亦可垂教
-  - date: '0272'
-    title_zh: 坚辞征辟不就
-    rationale: 病躯不任驱使愿以著述明道守高士之志
+  - date: 0268
+    title_zh: 辞征辟守高尚
+    rationale: 以沉静寡欲全节不以官爵易著述济世之志
+  - date: 0280
+    title_zh: 以著述为教经
+    rationale: 医道久远切事为要当核精要以为后学教经
 events:
 - id: guji-皇甫谧-event-birth
-  title_zh: 出生于安定朝那
   date: '0215'
   year_of: 215
-  description: 生于安定朝那幼贫力学笃志忘寝
-- id: guji-皇甫谧-event-ganlu-ill
-  title_zh: 甘露中患风苦聋发愤纂集
-  date: '0257'
-  year_of: 257
-  description: 甘露中病风加苦聋百日方治感三部医经重复错互乃发愤裒集
-- id: guji-皇甫谧-event-jia-yi-complete
-  title_zh: 撰成针灸甲乙经十二卷
+  type: birth
+  title_zh: 诞生于安定朝那
+  description_zh: 建安二十年生于安定朝那幼名静字士安
+- id: guji-皇甫谧-event-fengbi
+  date: '0256'
+  year_of: 256
+  type: illness
+  title_zh: 得风痹苦聋学医
+  description_zh: 甘露中病风加苦聋百日方治遂习览经方前臻至妙
+- id: guji-皇甫谧-event-jiayijing
   date: 0259
   year_of: 259
-  description: 合素问针经明堂三部删浮除复使事类相从成十二卷以传针灸之道
-- id: guji-皇甫谧-event-gaoshi
-  title_zh: 撰高士传明隐逸之志
-  date: '0265'
-  year_of: 265
-  description: 采古高士事迹为传屡征不就守身著述
+  type: work
+  title_zh: 撰成针灸甲乙经十二卷
+  description_zh: 取素问针经明堂三部之书事类相从删浮辞除重复而成十二卷
+- id: guji-皇甫谧-event-cizheng
+  date: 0268
+  year_of: 268
+  type: reclusion
+  title_zh: 屡辞征辟守志
+  description_zh: 晋武帝屡征不就号玄晏先生潜心著述
 - id: guji-皇甫谧-event-death
-  title_zh: 逝世
   date: 0282
   year_of: 282
-  description: 卒于西晋太康三年平生著述以甲乙经与高士传并重后世奉为针灸之宗
+  type: death
+  title_zh: 卒于西晋太康三年
+  description_zh: 以六十八岁卒留下甲乙经及玄晏春秋等垂于后世
