@@ -1,0 +1,132 @@
+person:
+  qid: guji-达摩
+  name_zh: 达摩
+  names:
+    zh: 菩提达摩
+    en: Bodhidharma
+  lifespan:
+    birth:
+      date: '0470'
+      precision: year
+      is_circa: true
+      raw: 南印度香枝国王三太子约五世纪生
+    death:
+      date: '0536'
+      precision: year
+      is_circa: true
+      raw: 熊耳山示寂
+  birth_date: '0470'
+  death_date: '0536'
+  era: 南北朝梁
+  reign_ref: 梁武帝
+  archetype: 西来初祖渡化型
+  dilemmas:
+  - 不尚文字只传心印与众生执著经卷之矛盾
+  - 度武帝神光皆遭打击而忍辱不舍之抉择
+  lesson: 见性不在文字须向一字无处究生死了脱方能超阎君
+  summary_first_person: 吾本南印度香枝国三太子不恋王位承般若多罗心印为西天二十八祖悲东土众生困红尘遂渡海而来初见梁武帝不契次遇神光讲经不悟吾含齿血忍辱踏芦过江隐熊耳以待回心者单传无字真经续东林道统
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E8%BE%BE%E6%91%A9%E5%AE%9D%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E8%BE%BE%E6%91%A9%E5%AE%9D%E4%BC%A0.md
+endeavors:
+- id: guji-达摩-endeavor-1
+  title_zh: 西天承统证二十八祖
+  summary: 南印度王子看破荣华承释迦一脉至般若多罗付法为西天二十八祖金莲宝座不恋圣境发愿东行
+  phases:
+  - key: brewing
+    name: 王宫看破
+    labels:
+      zh: 酝酿
+    start_date: '0470'
+    highlight_event_id: guji-达摩-event-birth
+  - key: breakthrough
+    name: 得付心印
+    labels:
+      zh: 突破
+    start_date: '0500'
+    highlight_event_id: guji-达摩-event-xitian
+  - key: climax
+    name: 位登廿八祖
+    labels:
+      zh: 高潮
+    start_date: '0510'
+    highlight_event_id: guji-达摩-event-xitian
+  - key: closure
+    name: 发愿东土
+    labels:
+      zh: 收束
+    start_date: '0520'
+    highlight_event_id: guji-达摩-event-duliangwu
+  decisions:
+  - date: 0490
+    title_zh: 舍王位求道
+    rationale: 荣华困红尘不如求返本还源了脱生死
+  - date: '0510'
+    title_zh: 承接道统东行
+    rationale: 天界命传空妙不尚文字须口传心授度东林
+- id: guji-达摩-endeavor-2
+  title_zh: 东土传灯度武帝神光
+  summary: 落梁武帝金殿问答不契遭逐叹无缘往王舍城点化神光被打落齿含血西去化阎君点醒神光追悔踏芦过江熊耳待之传无字真经
+  phases:
+  - key: brewing
+    name: 金殿问法
+    labels:
+      zh: 酝酿
+    start_date: '0527'
+    highlight_event_id: guji-达摩-event-duliangwu
+  - key: breakthrough
+    name: 王舍点化神光
+    labels:
+      zh: 突破
+    start_date: 0528
+    highlight_event_id: guji-达摩-event-dushenguang
+  - key: climax
+    name: 踏芦过江隐熊耳
+    labels:
+      zh: 高潮
+    start_date: 0529
+    highlight_event_id: guji-达摩-event-guojiang
+  - key: closure
+    name: 续灯有传
+    labels:
+      zh: 收束
+    start_date: '0532'
+    highlight_event_id: guji-达摩-event-guojiang
+  decisions:
+  - date: '0527'
+    title_zh: 武帝不悟即拂袖去
+    rationale: 见性一转三千卷武帝执有为功德不识无字经不强留恐折其福
+  - date: 0528
+    title_zh: 含齿血忍辱化阎君再点神光
+    rationale: 神光讲经四十九年未了生死须以死惧激其低心求真传不弃有缘
+events:
+- id: guji-达摩-event-birth
+  date: '0470'
+  year_of: 470
+  title_zh: 南印度降生为香枝国三太子
+  description: 西城南印度香枝国王三太子不恋王位看破荣华出家修证
+- id: guji-达摩-event-xitian
+  date: '0510'
+  year_of: 510
+  title_zh: 承般若多罗付嘱为西天二十八祖
+  description: 承释迦一脉世世相续作东林初代道统之尊得心印大觉金禅
+- id: guji-达摩-event-duliangwu
+  date: '0527'
+  year_of: 527
+  title_zh: 金銮殿度梁武帝不契被逐
+  description: 落梁武帝殿答九世为人十世足等八句讲无字真经历四十八卷莲台不言说法被玉棍逐出叹无缘预言饿死台城
+- id: guji-达摩-event-dushenguang
+  date: 0528
+  year_of: 528
+  title_zh: 王舍城度神光被打落门牙
+  description: 指神光纸上佛法不能了生死说须弥为笔难写一字神光怒以铁素珠打落二齿含血西去度胭脂留芒鞋偈化尸而去
+- id: guji-达摩-event-guojiang
+  date: 0529
+  year_of: 529
+  title_zh: 化十殿阎君醒神光踏芦过江居熊耳
+  description: 取数珠化阎君钩魂惊醒神光踏倒莲台追悔掘墓唯见单只芒鞋追至江边化渔翁渡之熊耳山面壁待其参驾
+- id: guji-达摩-event-death
+  date: '0536'
+  year_of: 536
+  title_zh: 熊耳山示寂
+  description: 培体养牙传灯神光后示寂东土初祖道统有续留一花五叶收圆定凭
