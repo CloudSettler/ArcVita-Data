@@ -1,0 +1,138 @@
+person:
+  qid: guji-名贤集
+  name_zh: 名贤集
+  names:
+    zh: 名贤集
+    en: Mingxian Ji
+  lifespan:
+    birth:
+      date: 1240-01-01
+      precision: year
+      is_circa: true
+      raw: 南宋前后民间始编
+    death:
+      date: 1912-01-01
+      precision: year
+      is_circa: true
+      raw: 清末民初仍在增补刊行
+  birth_date: 1240-01-01
+  death_date: 1912-01-01
+  era: 宋至近现代
+  reign_ref: 南宋至清
+  archetype: 劝善启蒙蒙学汇编
+  dilemmas:
+  - 积善余庆与命定浮生之间如何坚守行善
+  - 刚直守道与屋檐低头之间如何进退取舍
+  lesson: 但行好事莫问前程，与人方便自己方便，久敬良友克己守法
+  summary_first_person: 我是蒙馆乡塾代代相传的格言总集，不记帝王功业，只记日用伦常，我劝人积善让忍，择邻交友，戒酒除花莫赌钱，但愿后生贫而无怨富而不骄，长存君子道。
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%90%8D%E8%B4%A4%E9%9B%86.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%90%8D%E8%B4%A4%E9%9B%86.md
+endeavors:
+- id: guji-名贤集-endeavor-1
+  title_zh: 劝善立身格言汇编
+  summary: 以儒家伦理为纲，采辑民间俚谚，劝积善忍让勤学，成蒙学日用规范
+  phases:
+  - key: brewing
+    name: 民间俚谚采辑
+    labels:
+      zh:
+      - 采辑
+      - 劝善
+    start_date: 1240-01-01
+    highlight_event_id: guji-名贤集-event-compile
+  - key: breakthrough
+    name: 四言五言韵语定型
+    labels:
+      zh:
+      - 定型
+      - 成诵
+    start_date: 1368-01-01
+    highlight_event_id: guji-名贤集-event-compile
+  - key: climax
+    name: 蒙馆通行成诵
+    labels:
+      zh:
+      - 蒙学
+      - 教化
+    start_date: 1600-01-01
+    highlight_event_id: guji-名贤集-event-spread
+  - key: closure
+    name: 刊本流传乡塾
+    labels:
+      zh:
+      - 刊行
+      - 流传
+    start_date: 1800-01-01
+    highlight_event_id: guji-名贤集-event-spread
+  decisions:
+  - date: 1240-01-01
+    title_zh: 以儒家伦理为纲收录
+    rationale: 欲以孔圣之书周公之礼正人心，故取孝悌忠信勤俭之语
+  - date: 1600-01-01
+    title_zh: 取浅近韵语以便记诵
+    rationale: 蒙童易忘深奥，故用四言五言七言俚语，使朗朗上口
+- id: guji-名贤集-endeavor-2
+  title_zh: 处世治家教化流传
+  summary: 示贫富荣辱进退之道，劝忍让和睦，戒争讼赌博，使家安身安
+  phases:
+  - key: brewing
+    name: 贫富命理劝解
+    labels:
+      zh:
+      - 安命
+      - 知足
+    start_date: 1240-01-01
+    highlight_event_id: guji-名贤集-event-compile
+  - key: breakthrough
+    name: 因果报应劝善
+    labels:
+      zh:
+      - 因果
+      - 积善
+    start_date: 1368-01-01
+    highlight_event_id: guji-名贤集-event-spread
+  - key: climax
+    name: 乡塾家训合流
+    labels:
+      zh:
+      - 家训
+      - 乡约
+    start_date: 1600-01-01
+    highlight_event_id: guji-名贤集-event-spread
+  - key: closure
+    name: 口碑刊本并行不坠
+    labels:
+      zh:
+      - 口碑
+      - 善书
+    start_date: 1900-01-01
+    highlight_event_id: guji-名贤集-event-death
+  decisions:
+  - date: 1368-01-01
+    title_zh: 明言善恶到头终有报
+    rationale: 世人见利不见害，故以报应早晚之说止亏心侥幸之事
+  - date: 1600-01-01
+    title_zh: 劝忍让和亲不劝争讼
+    rationale: 相争告人万种无益，饶人不是痴，故教休争闲气以全家道
+events:
+- id: guji-名贤集-event-birth
+  title_zh: 南宋民间始编
+  date: 1240-01-01
+  year_of: 1240
+  summary: 南宋前后，塾师采辑古语格言，以劝善启蒙为宗，名贤集初具雏形
+- id: guji-名贤集-event-compile
+  title_zh: 元明韵语增补定型
+  date: 1368-01-01
+  year_of: 1368
+  summary: 元明之际增入贫居闹市无人问等七言叹世语及戒酒除花莫赌钱等训，体式渐定
+- id: guji-名贤集-event-spread
+  title_zh: 明清蒙馆通行刊行
+  date: 1600-01-01
+  year_of: 1600
+  summary: 明清蒙馆以之作日用训蒙书，与增广贤文三字经并行，刊本广布乡塾
+- id: guji-名贤集-event-death
+  title_zh: 近现代仍诵而不坠
+  date: 1912-01-01
+  year_of: 1912
+  summary: 清末民初学制虽改，民间仍以但行好事莫问前程等语教子弟，其义长存

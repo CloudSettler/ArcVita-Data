@@ -1,0 +1,160 @@
+person:
+  qid: guji-刘备
+  name_zh: 刘备
+  names:
+    zh: 刘备
+    en: Liu Bei
+  lifespan:
+    birth:
+      date: '0161'
+      precision: year
+      is_circa: false
+      raw: 汉桓帝延熹四年涿郡
+    death:
+      date: '0223-06-10'
+      precision: day
+      is_circa: false
+      raw: 蜀汉章武三年四月永安宫
+  birth_date: '0161'
+  death_date: '0223-06-10'
+  era: 东汉末至三国
+  reign_ref: 蜀汉章武
+  archetype: 仁义创业君主
+  dilemmas:
+  - 信义与功利如何取舍
+  - 兄弟情义与战略大局如何平衡
+  - 复汉理想与荆益现实如何兼顾
+  lesson: 以信义收人心，以托付保基业，逞小忿则大业难继
+  summary_first_person: 余起布衣，自言中山靖王之后，颠沛半生，赖卧龙关张赵黄之助，借荆取益，方成鼎足，荆州既失，猇亭大败，白帝托孤而终，愿后人守仁义，不以私怒废大事
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+  - https://ctext.org/library.pl?if=gb&res=229747
+endeavors:
+- id: guji-刘备-endeavor-1
+  title_zh: 颠沛结义三分定
+  summary: 自涿郡起兵，依公孙附陶谦投刘表，三顾得孔明，联吴抗曹，赤壁一战成鼎足之势
+  phases:
+  - key: brewing
+    name: 织席贩履结义奔走
+    labels:
+      zh:
+      - 流离
+      - 结义
+    start_date: 0184
+    highlight_event_id: guji-刘备-event-birth
+  - key: breakthrough
+    name: 三顾茅庐得谋主
+    labels:
+      zh:
+      - 求贤
+      - 隆中策
+    start_date: '0207'
+    highlight_event_id: guji-刘备-event-sangu
+  - key: climax
+    name: 联吴赤壁破强曹
+    labels:
+      zh:
+      - 联盟
+      - 以少胜多
+    start_date: 0208
+    highlight_event_id: guji-刘备-event-chibi
+  - key: closure
+    name: 借荆立足图三分
+    labels:
+      zh:
+      - 借地
+      - 鼎足
+    start_date: 0209
+    highlight_event_id: guji-刘备-event-chibi
+  decisions:
+  - date: '0207'
+    title_zh: 三顾茅庐聘孔明
+    rationale: 不问出身，委以军师，定三分隆中之策，以信义得人心
+  - date: 0208
+    title_zh: 联吴抗曹守信义
+    rationale: 不背刘表，不弃百姓，借江东之力共破强敌，保全立足之本
+  - date: 0209
+    title_zh: 从吴借荆州为家
+    rationale: 暂屈求全，以荆州为根本，再图益州，以成鼎足之形
+- id: guji-刘备-endeavor-2
+  title_zh: 荆益经营与白帝托孤
+  summary: 西取益州，北争汉中，荆州失去，章武称帝，猇亭大败，白帝托孤以保蜀业
+  phases:
+  - key: brewing
+    name: 入蜀袭璋取益州
+    labels:
+      zh:
+      - 取益
+      - 立基
+    start_date: '0211'
+    highlight_event_id: guji-刘备-event-yizhou
+  - key: breakthrough
+    name: 汉中称王业 adhesion
+    labels:
+      zh:
+      - 称王
+      - 鼎盛
+    start_date: 0219
+    highlight_event_id: guji-刘备-event-yizhou
+  - key: climax
+    name: 为献发丧章武称帝
+    labels:
+      zh:
+      - 称帝
+      - 大义
+    start_date: '0221-05-15'
+    highlight_event_id: guji-刘备-event-chengdi
+  - key: closure
+    name: 猇亭败绩白帝托孤
+    labels:
+      zh:
+      - 败亡
+      - 托孤
+    start_date: 0222-08
+    highlight_event_id: guji-刘备-event-yiling
+  decisions:
+  - date: '0214'
+    title_zh: 夺刘璋据成都
+    rationale: 以大义取益州为根本，虽失信义之名，必得一方以图中原
+  - date: '0221-05-15'
+    title_zh: 闻曹丕篡汉即帝位
+    rationale: 为汉献帝发丧，承汉统于武担，以正名收蜀吴人心
+  - date: 0223-02
+    title_zh: 永安托孤于诸葛亮
+    rationale: 自知伐吴失计，国事付贤相，保幼主不坠，以存汉祀
+events:
+- id: guji-刘备-event-birth
+  date: '0161'
+  year_of: 161
+  title_zh: 生于涿郡
+  description: 汉景帝子中山靖王之后，少孤织席贩履，有大志，喜交豪杰
+- id: guji-刘备-event-sangu
+  date: '0207'
+  year_of: 207
+  title_zh: 三顾茅庐聘孔明
+  description: 亲往隆中三顾，得诸葛亮为军师，定三分天下之策，关张谊深同气
+- id: guji-刘备-event-chibi
+  date: 0208-12
+  year_of: 208
+  title_zh: 联吴赤壁破曹操
+  description: 与孙权合纵，借东风火攻，大破曹军于赤壁，遂有荆扬之地，鼎足势成
+- id: guji-刘备-event-yizhou
+  date: '0214'
+  year_of: 214
+  title_zh: 袭璋取益州定成都
+  description: 自荆州入蜀，袭刘璋而取益州，又夺曹操汉中，赵云黄忠效力，事业极盛
+- id: guji-刘备-event-chengdi
+  date: '0221-05-15'
+  year_of: 221
+  title_zh: 武担称帝号蜀汉
+  description: 闻曹丕篡汉，为献帝发丧，即帝位于武担，改元章武，以续汉统
+- id: guji-刘备-event-yiling
+  date: 0222-08
+  year_of: 222
+  title_zh: 兴师伐吴败猇亭
+  description: 为关羽报仇兼复荆州，东征孙权，败绩于猇亭，退守永安白帝城
+- id: guji-刘备-event-death
+  date: '0223-06-10'
+  year_of: 223
+  title_zh: 崩于永安托丞相
+  description: 章武三年四月崩于永安宫，顾命诸葛亮辅后主刘禅，享年六十三，在位三年

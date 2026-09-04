@@ -1,0 +1,140 @@
+person:
+  qid: guji-方逢辰
+  name_zh: 方逢辰
+  names:
+    zh: 方逢辰
+    en: Fang Fengchen
+  lifespan:
+    birth:
+      date: '1221'
+      precision: year
+      is_circa: false
+      raw: 宋宁宗嘉定十四年
+    death:
+      date: '1290'
+      precision: year
+      is_circa: true
+      raw: 约元世祖至元二十七年
+  birth_date: '1221'
+  death_date: '1290'
+  era: 南宋
+  reign_ref: 宋理宗淳祐
+  archetype: 守正劝学之儒
+  dilemmas:
+  - 直言忤权与保全晚节之难
+  - 出仕致君与归里淑人之择
+  lesson: 抑阴崇阳守正不阿以名物之学淑后进以质朴之风化流俗
+  summary_first_person: 吾方逢辰字君锡号蛟峰歙县人也少力学登淳祐进士立朝敢言不阿权贵晚归里以名物训诂启蒙后学著有是编欲使学者由名识物由物明理也
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%90%8D%E7%89%A9%E8%92%99%E6%B1%82.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%90%8D%E7%89%A9%E8%92%99%E6%B1%82.md
+endeavors:
+- id: guji-方逢辰-endeavor-1
+  person_qid: guji-方逢辰
+  title_zh: 登第立朝直言守正
+  summary: 由歙县举进士入朝论事不避权贵以维持三纲匡君救时为任
+  phases:
+  - key: brewing
+    name: 歙县力学养气
+    labels:
+      zh:
+      - 力学
+      - 养正
+    start_date: '1235'
+    highlight_event_id: guji-方逢辰-event-birth
+  - key: breakthrough
+    name: 淳祐登第入仕
+    labels:
+      zh:
+      - 登第
+      - 入仕
+    start_date: '1250'
+    highlight_event_id: guji-方逢辰-event-jinshi
+  - key: climax
+    name: 立朝论谏守正
+    labels:
+      zh:
+      - 敢言
+      - 守正
+    start_date: '1255'
+    highlight_event_id: guji-方逢辰-event-jinshi
+  - key: closure
+    name: 去国归里授徒
+    labels:
+      zh:
+      - 归隐
+      - 授徒
+    start_date: '1270'
+    highlight_event_id: guji-方逢辰-event-mengqiu
+  decisions:
+  - date: '1250'
+    title_zh: 对策陈三纲五典之说
+    rationale: 以秩序五典维持三纲为治本欲由之者王以救时弊也
+  - date: '1260'
+    title_zh: 不附权门归里讲学
+    rationale: 见险不如德地不如人故全节而退以淑乡里也
+- id: guji-方逢辰-endeavor-2
+  person_qid: guji-方逢辰
+  title_zh: 撰述名物蒙求启蒙后学
+  summary: 采集天地人物草木器用之名物以韵语训释为蒙学启蒙之书
+  phases:
+  - key: brewing
+    name: 搜集名物训诂
+    labels:
+      zh:
+      - 搜集
+      - 训诂
+    start_date: '1258'
+    highlight_event_id: guji-方逢辰-event-jinshi
+  - key: breakthrough
+    name: 成编授诸蒙士
+    labels:
+      zh:
+      - 成书
+      - 启蒙
+    start_date: '1265'
+    highlight_event_id: guji-方逢辰-event-mengqiu
+  - key: closure
+    name: 流传乡塾为则
+    labels:
+      zh:
+      - 流传
+      - 化俗
+    start_date: '1280'
+    highlight_event_id: guji-方逢辰-event-mengqiu
+  decisions:
+  - date: '1265'
+    title_zh: 以韵语括名物大义
+    rationale: 人生而群不可无教故欲使蒙士由名识物易记易诵也
+  - date: '1275'
+    title_zh: 参以劝戒寓抑阴崇阳之义
+    rationale: 圣人抑阴崇阳故于天文地理伦常物性皆寓正俗之心也
+events:
+- id: guji-方逢辰-event-birth
+  person_qid: guji-方逢辰
+  kind: birth
+  title_zh: 生于徽州歙县
+  date: '1221'
+  year_of: 1221
+  description: 宋宁宗嘉定十四年生于徽州歙县少聪颖力学于经史训诂
+- id: guji-方逢辰-event-jinshi
+  person_qid: guji-方逢辰
+  kind: career
+  title_zh: 淳祐十年登进士第
+  date: '1250'
+  year_of: 1250
+  description: 宋理宗淳祐十年登进士第入朝为官论事守正不阿维持纲常
+- id: guji-方逢辰-event-mengqiu
+  person_qid: guji-方逢辰
+  kind: career
+  title_zh: 著成名物蒙求授学
+  date: '1265'
+  year_of: 1265
+  description: 归里讲学采集天地山川人物草木鸟兽器用之属撰为名物蒙求以启蒙后进
+- id: guji-方逢辰-event-death
+  person_qid: guji-方逢辰
+  kind: death
+  title_zh: 入元不仕卒于里第
+  date: '1290'
+  year_of: 1290
+  description: 宋亡入元不仕隐居歙县以著述终约卒于至元年间归命于质朴之教
