@@ -1,0 +1,153 @@
+person:
+  qid: guji-汪讱庵
+  name_zh: 汪讱庵
+  names:
+    zh: 汪讱庵
+    en: Wang Ji An
+  lifespan:
+    birth:
+      date: 1615
+      precision: year
+      is_circa: false
+      raw: 明万历四十三年生于徽州休宁
+    death:
+      date: 1694
+      precision: year
+      is_circa: false
+      raw: 清康熙三十三年卒
+  birth_date: 1615
+  death_date: 1694
+  era: 清初
+  reign_ref: 康熙
+  archetype: 济世本草家
+  dilemmas:
+  - 本草卷帙太繁滥而难读与初学无从诵记之难
+  - 峻猛大剂速效而多害与轻淡小方无过而少功之择
+  lesson: 不求有功只求无过，方药相须，简便切病乃可寿世
+  summary_first_person: 余生当明清鼎革，目见药品日增而性味未研，师心自用贻害无穷，乃折衷纲目，敛句成编，附精方于各药之下，使人因症查方，因方知性，虽不敢言有功，但愿终身无愧，以备亿兆疾痛之需
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/本草易读.md
+  - https://daizhige.org/医藏/本草易读.html
+endeavors:
+- id: guji-汪讱庵-endeavor-1
+  title_zh: 折衷纲目诠次本草易读
+  summary_zh: 以李氏纲目为折衷，合本经与诸家增补为一体，稍敛句法以便诵读
+  phases:
+  - key: brewing
+    name: 遍览诸家本草
+    labels:
+      zh:
+      - 陶氏别录
+      - 唐宋补注
+      - 李氏纲目
+    start_date: 1660
+    highlight_event_id: guji-汪讱庵-event-bencao
+  - key: breakthrough
+    name: 定折衷纲目之例
+    labels:
+      zh:
+      - 辨真赝
+      - 正名实
+      - 考土产
+    start_date: 1680
+    highlight_event_id: guji-汪讱庵-event-bencao
+  - key: climax
+    name: 敛句成编便诵
+    labels:
+      zh:
+      - 合为一体
+      - 稍敛句法
+      - 以当胪言
+    start_date: 1688
+    highlight_event_id: guji-汪讱庵-event-yidu
+  - key: closure
+    name: 秘本流传后经审定
+    labels:
+      zh:
+      - 居闲怀济世
+      - 成阴骘之书
+    start_date: 1694
+    highlight_event_id: guji-汪讱庵-event-yidu
+  decisions:
+  - date: 1680
+    title_zh: 悉折衷于纲目
+    rationale: 卷帙虽繁而指谬独赖此存，吴越一家虽难割分，然真赝谬误非此不能定
+  - date: 1688
+    title_zh: 稍敛句法以便诵读
+    rationale: 医家本草不读则药性不明，旋读旋忘虽读如无读，约精便于记诵方能因症用药
+- id: guji-汪讱庵-endeavor-2
+  title_zh: 附方于药以方证性寿世济人
+  summary_zh: 于千万方中去险峻取轻淡，附真实简便之剂于每味之下，使因症查方即知药性
+  phases:
+  - key: brewing
+    name: 博采古今验方
+    labels:
+      zh:
+      - 证类收方
+      - 纲目增广
+      - 加意去取
+    start_date: 1675
+    highlight_event_id: guji-汪讱庵-event-bencao
+  - key: breakthrough
+    name: 立轻淡无过之宗
+    labels:
+      zh:
+      - 小方加倍收
+      - 大剂约略举
+      - 只求无过
+    start_date: 1682
+    highlight_event_id: guji-汪讱庵-event-bencao
+  - key: climax
+    name: 按门查方药方相辅
+    labels:
+      zh:
+      - 因症查方
+      - 方即药性所在
+      - 寒热虚实合观
+    start_date: 1688
+    highlight_event_id: guji-汪讱庵-event-yidu
+  - key: closure
+    name: 示人查目录用单方
+    labels:
+      zh:
+      - 备缓急之需
+      - 山僻贫寒亦可用
+      - 不小效亦无大咎
+    start_date: 1690
+    highlight_event_id: guji-汪讱庵-event-yidu
+  decisions:
+  - date: 1682
+    title_zh: 弃险危峻猛存轻淡简便
+    rationale: 以峻猛治病十愈六而四必损，以轻淡治病十愈四而六无恙，纵无大功亦无大过
+  - date: 1688
+    title_zh: 贵重遐僻不录习见详收
+    rationale: 贵重多伪费资浓，遐僻渝色失常性，习见习知多真实无伪，切病缓攻方为寿世无穷之利
+events:
+- id: guji-汪讱庵-event-birth
+  type: birth
+  title_zh: 生于徽州休宁汪氏
+  date: 1615
+  year_of: 1615
+  place_zh: 安徽休宁
+  summary_zh: 明万历四十三年生，字讱庵，号鹿亭，少逢明末乱离，留心医药
+- id: guji-汪讱庵-event-bencao
+  type: achievement
+  title_zh: 先成医方集解本草备要
+  date: 1682
+  year_of: 1682
+  place_zh: 徽州
+  summary_zh: 祖洁古东垣之学，成汤头医方之书，为本草易读奠定折衷体例
+- id: guji-汪讱庵-event-yidu
+  type: achievement
+  title_zh: 诠次本草易读附方于药
+  date: 1688
+  year_of: 1688
+  place_zh: 徽州
+  summary_zh: 即素日所珍诠次成编，折衷纲目，敛句便诵，精选轻淡切病之方附于各药之下，备亿兆疾痛之需
+- id: guji-汪讱庵-event-death
+  type: death
+  title_zh: 卒于康熙年间秘本后传
+  date: 1694
+  year_of: 1694
+  place_zh: 安徽休宁
+  summary_zh: 清康熙三十三年卒，所著易读以秘本流传，后经清御医吴谦审定刊行

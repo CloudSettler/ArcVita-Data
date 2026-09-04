@@ -9,117 +9,138 @@ person:
       date: 1627
       precision: year
       is_circa: false
-      raw: 明天启七年
+      raw: 明崇祯元年生于浙江山阴
     death:
       date: 1707
       precision: year
       is_circa: true
-      raw: 清康熙四十六年左右
+      raw: 清康熙四十六年卒
   birth_date: 1627
   death_date: 1707
-  era: 清初
+  era: 清
   reign_ref: 康熙
-  archetype: 医者
+  archetype: 仁医著述家
   dilemmas:
-  - 阐发岐黄幽微而托言岐伯问答，如何使俗医信而好学
-  - 论红铅天癸近于方术，如何辨慎欲延寿与纵欲丧躯
-  lesson: 顺逆互根，水火相济，守神保精为主，通郁健脾为要，修德以回天命
-  summary_first_person: 吾乃山阴陈士铎，字敬之，号远公，早年多病而留心岐黄，托岐伯问答撰外经微言诸书，辨阴阳颠倒顺逆之原，明生育天癸救母之法，欲使世人节欲保精，调水火而全天命
+  - 本草传疑传信竞尚阴寒杀人草木中是否当翻前人旧案折衷至正
+  - 抱可著作之才而晚年不遇是自伤湮没还是著书以老救万世
+  lesson: 医救一世功近救万世功远须穷理虚怀攻补兼施慎用寒凉方为良医
+  summary_first_person: 吾山阴陈士铎字敬之号远公晚号朱华子少好游遍历名山大川躬阅患难疾病考订草木禽兽晚逢异人于燕市得岐伯仲景纯阳之传先著石室秘录内经六气再删繁就简著本草新编辨功用真赝权损益补多于攻以救万世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%BB%8F%E5%BE%AE%E8%A8%80.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%BB%8F%E5%BE%AE%E8%A8%80.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E6%96%B0%E7%BC%96.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E6%96%B0%E7%BC%96.md
 endeavors:
 - id: guji-陈士铎-endeavor-1
-  title_zh: 托岐伯问答撰外经微言
-  summary: 以黄帝岐伯伯高雷公等问答，探阴阳颠倒顺逆之原，立五行生克水火既济之旨
+  title_zh: 撰述本草新编折衷至正
+  summary: 继内经六气之后考纲目经疏删繁就简辨功用真赝权损益以补多于攻救济生人
   phases:
   - key: brewing
-    name: 博览内经留心命根
+    name: 壮游博览咨询考订
     labels:
       zh:
-      - 积学岐黄
+      - 游历博览
     start_date: 1650
-    highlight_event_id: guji-陈士铎-event-study
+    highlight_event_id: guji-陈士铎-event-travel
   - key: breakthrough
-    name: 悟得颠倒顺逆之旨
+    name: 燕市逢异人得传秘旨
     labels:
       zh:
-      - 立论阴阳
-    start_date: 1675
-    highlight_event_id: guji-陈士铎-event-waijing
-  - key: closure
-    name: 勒成外经微言九卷
-    labels:
-      zh:
-      - 成书传世
+      - 燕市遇异
     start_date: 1687
-    highlight_event_id: guji-陈士铎-event-waijing
+    highlight_event_id: guji-陈士铎-event-yanshi
+  - key: climax
+    name: 先著内经六气再著本草
+    labels:
+      zh:
+      - 著述本草
+    start_date: 1689
+    highlight_event_id: guji-陈士铎-event-bencao
+  - key: closure
+    name: 付梓刊行以救万世
+    labels:
+      zh:
+      - 刊行济世
+    start_date: 1691
+    highlight_event_id: guji-陈士铎-event-publish
   decisions:
-  - date: 1675
-    title_zh: 以帝师问答体发微
-    rationale: 内经奥义难明，托黄帝问而岐伯答，使至道易入，臣工共闻
-  - date: 1687
-    title_zh: 首揭颠倒回天生育救母
-    rationale: 世人顺生不知逆生，男女无子半由人事，故先论命根天癸以回天命
+  - date: 1689
+    title_zh: 删繁就简辨本草功用真赝
+    rationale: 神农以来数经兵燹秦火传疑传信竞尚阴寒杀人草木中故须折衷至正悉功用权损益通经脏补火水
+  - date: 1691
+    title_zh: 以补多于攻详人所略救今病
+    rationale: 气运日迁人多柔弱古攻方不可治今病故登诸品补多于攻慎寒凉殷勤告诫以救生人
 - id: guji-陈士铎-endeavor-2
-  title_zh: 临床辨治调水火济世活人
-  summary: 以温补脾肾通肝解郁为纲，治男子九病女子十病及经闭无子诸疾，兼戒红铅纵欲
+  title_zh: 行医穷理劝医济世
+  summary: 以天人合一之理拨盲起疲阐七方十剂作劝医六则以仁心垂训后学
   phases:
   - key: brewing
-    name: 行医江浙验方存心
+    name: 跋涉山川实践求真
     labels:
       zh:
-      - 临证积累
-    start_date: 1660
-    highlight_event_id: guji-陈士铎-event-practice
+      - 实践求真
+    start_date: 1650
+    highlight_event_id: guji-陈士铎-event-travel
+  - key: breakthrough
+    name: 石室秘录拨盲起疲
+    labels:
+      zh:
+      - 医术显验
+    start_date: 1687
+    highlight_event_id: guji-陈士铎-event-yanshi
   - key: climax
-    name: 辨天癸经闭救母活人
+    name: 阐七方十剂穷理用药
     labels:
       zh:
-      - 救母保婴
-    start_date: 1680
-    highlight_event_id: guji-陈士铎-event-jiumu
+      - 阐扬医理
+    start_date: 1689
+    highlight_event_id: guji-陈士铎-event-bencao
+  - key: closure
+    name: 作劝医六则垂训立心
+    labels:
+      zh:
+      - 劝医立训
+    start_date: 1691
+    highlight_event_id: guji-陈士铎-event-publish
   decisions:
-  - date: 1680
-    title_zh: 治经闭重通肝胆不徒补血
-    rationale: 经闭乃肾气郁闭关乎心肝脾，徒补则郁不宣，徒散则气益微，故主疏肝解郁
-  - date: 1685
-    title_zh: 辨红铅慎欲延寿纵欲丧躯
-    rationale: 首经全阴阳之气可益男而损女，必戒纵欲方士之采，方能接命而不害命
+  - date: 1691
+    title_zh: 攻补兼施毋求速效劫药
+    rationale: 病成非一日愈岂在一朝轻粉劫药取快须臾毒发病生故宜损益并用去邪反正虽迟而终身受惠
+  - date: 1691
+    title_zh: 学医务穷理尚虚怀集议
+    rationale: 不穷理则阴阳未识攻补茫然人非我是则我见不化故须明阴阳识经络守经达权博采广谘佐识见
 events:
 - id: guji-陈士铎-event-birth
+  title_zh: 山阴出生幼读六籍
   date: 1627
   year_of: 1627
-  title_zh: 生于山阴
-  description: 明末生于浙江绍兴府山阴陈氏，字敬之，号远公，幼多疾而志于医
-  type: birth
-- id: guji-陈士铎-event-study
+  place_zh: 浙江山阴
+  description: 明崇祯元年生山阴幼读六籍少喜浪游探奇名山胜地
+- id: guji-陈士铎-event-travel
+  title_zh: 壮游宇内考订草木
   date: 1650
   year_of: 1650
-  title_zh: 博览内经探命根养生
-  description: 入清以后博览内经，究心精气神与水火既济，悟抱神以静保精之要
-  type: career
-- id: guji-陈士铎-event-practice
-  date: 1660
-  year_of: 1660
-  title_zh: 行医江浙辨生育诸病
-  description: 往来江浙行医，辨男子九不生子之病，女子十不生子之病，以温脾肾通肝郁取效
-  type: career
-- id: guji-陈士铎-event-jiumu
-  date: 1680
-  year_of: 1680
-  title_zh: 立救母论辨天癸经闭
-  description: 论天癸壬癸水火，辨经水非血乃肾气所化，揭肝胆郁闭致经断之机，以解郁救万世之母
-  type: career
-- id: guji-陈士铎-event-waijing
+  place_zh: 五岳四渎名山大川
+  description: 遍历名山大川躬阅兵戈患难疾病咨询土人见琪花瑶草异兽珍禽昆虫介属必考订备志
+- id: guji-陈士铎-event-yanshi
+  title_zh: 燕市逢异人得传秘旨
   date: 1687
   year_of: 1687
-  title_zh: 撰成外经微言九卷
-  description: 托黄帝岐伯伯高雷公容成问答，成阴阳颠倒顺逆探原回天生育诸篇，勒为外经微言传世
-  type: career
+  place_zh: 燕市
+  description: 丁卯失意肆志轩岐逢岐伯天师纯阳吕公长沙张机得碧落文六气诸书晨夕研求几废寝食
+- id: guji-陈士铎-event-bencao
+  title_zh: 著内经六气后著本草新编
+  date: 1689
+  year_of: 1689
+  place_zh: 大江之南舟中
+  description: 先成石室秘录内经灵枢六气客舟观江涛云峦畅抒独得著本草新编略人所详详人所略辨疑发微
+- id: guji-陈士铎-event-publish
+  title_zh: 本草新编付梓刊行
+  date: 1691
+  year_of: 1691
+  place_zh: 上元
+  description: 康熙辛未金以谋序而梓行删神农原本十之三采名医增入十之二陈七方十剂劝医六则补多于攻
 - id: guji-陈士铎-event-death
+  title_zh: 逝世遗书救万世
   date: 1707
   year_of: 1707
-  title_zh: 卒于康熙年间
-  description: 晚年以医著行世，撰述既成，卒于清康熙四十六年前后，遗书惠及后学
-  type: death
+  place_zh: 浙江山阴
+  description: 晚年著述颇富发明灵素秘奥家贫愿损资剞劂以副异人托后逝世其书为万世法
