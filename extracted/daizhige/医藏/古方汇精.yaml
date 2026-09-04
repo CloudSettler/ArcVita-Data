@@ -1,0 +1,125 @@
+person:
+  qid: guji-古方汇精
+  name_zh: 古方汇精
+  names:
+    zh: 古方汇精
+    en: Gufang Huijing
+  lifespan:
+    birth:
+      date: 1760
+      precision: year
+      is_circa: true
+      raw: 清乾隆间约生
+    death:
+      date: 1820
+      precision: year
+      is_circa: true
+      raw: 清道光初约卒
+  birth_date: 1760
+  death_date: 1820
+  era: 清
+  reign_ref: 嘉庆
+  archetype: 医者
+  dilemmas:
+  - 古方流播而精义不阐粗存精亡
+  - 古今元气不同攻补通利难辨
+  lesson: 汇古人之精而得精，固养元气，简验以济远僻
+  summary_first_person: 余号爱虚老人，慨青囊未传肘后未得，古方虽播而精难阐，乃参考诸书择屡效屡验善本，分内外妇儿奇急诸门，详列形症以固养元气为本，於嘉庆九年甲子三月付京江尊仁堂刊送，愿村居僻处客旅舟车皆得所济
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E6%96%B9%E6%B1%87%E7%B2%BE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E6%96%B9%E6%B1%87%E7%B2%BE.md
+endeavors:
+- id: guji-古方汇精-endeavor-1
+  person_id: guji-古方汇精
+  title_zh: 汇辑内外妇儿奇急诸方
+  description: 参考诸书择善本详加校订分门汇精
+  phases:
+  - key: brewing
+    name: 博采屡验
+    labels:
+      zh: 博采
+    start_date: 1800
+    highlight_event_id: guji-古方汇精-event-compile
+  - key: breakthrough
+    name: 以固元为纲
+    labels:
+      zh: 立纲
+    start_date: 1803
+    highlight_event_id: guji-古方汇精-event-compile
+  - key: climax
+    name: 分门成编
+    labels:
+      zh: 成编
+    start_date: 1803
+    highlight_event_id: guji-古方汇精-event-compile
+  decisions:
+  - date: 1803
+    title_zh: 择屡效屡验者入编
+    rationale: 方书汗牛当取屡效者分内外妇儿四门奇急另列以尽周急之义
+  - date: 1803
+    title_zh: 详列形症不及脉理
+    rationale: 脉理难言形症易晓使村居僻处便於对症取用
+- id: guji-古方汇精-endeavor-2
+  person_id: guji-古方汇精
+  title_zh: 刊送尊仁堂广济
+  description: 京江尊仁堂刊送便於携带施药不如刊方
+  phases:
+  - key: brewing
+    name: 校订善本
+    labels:
+      zh: 校订
+    start_date: 1803
+    highlight_event_id: guji-古方汇精-event-publish
+  - key: climax
+    name: 尊仁堂刊行
+    labels:
+      zh: 刊行
+    start_date: 1804-03
+    highlight_event_id: guji-古方汇精-event-publish
+  - key: closure
+    name: 流济远僻
+    labels:
+      zh: 流济
+    start_date: 1804-03
+    highlight_event_id: guji-古方汇精-event-publish
+  decisions:
+  - date: 1804-03
+    title_zh: 付京江尊仁堂刊送
+    rationale: 施药功小刊方流济功大简册无多便於客旅携带以济医远难求
+events:
+- id: guji-古方汇精-event-birth
+  person_id: guji-古方汇精
+  type: birth
+  date: 1760
+  year_of: 1760
+  precision: year
+  is_circa: true
+  title_zh: 约生於乾隆间
+  description: 爱虚老人约生於清乾隆中期，习阴阳气化究物性人性
+- id: guji-古方汇精-event-compile
+  person_id: guji-古方汇精
+  type: career
+  date: 1803
+  year_of: 1803
+  precision: year
+  is_circa: false
+  title_zh: 参考诸书汇精成编
+  description: 择六味八珍补中归脾等善本，分内症妇儿奇急，详列形症，以固养元气为主
+- id: guji-古方汇精-event-publish
+  person_id: guji-古方汇精
+  type: career
+  date: 1804-03
+  year_of: 1804
+  precision: month
+  is_circa: false
+  title_zh: 嘉庆九年甲子三月京江尊仁堂刊送
+  description: 是编颜曰汇精，合古人之精而得精，简册经验以济村僻客旅
+- id: guji-古方汇精-event-death
+  person_id: guji-古方汇精
+  type: death
+  date: 1820
+  year_of: 1820
+  precision: year
+  is_circa: true
+  title_zh: 约卒於道光初
+  description: 刊行之后方书流传后世获济甚多，老人约卒於道光初
