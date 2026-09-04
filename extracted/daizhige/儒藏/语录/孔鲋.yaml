@@ -1,0 +1,139 @@
+person:
+  qid: guji-孔鲋
+  name_zh: 孔鲋
+  names:
+    zh: 孔鲋
+    en: Kong Fu
+  lifespan:
+    birth:
+      date: '-264'
+      precision: year
+      is_circa: true
+      raw: 约战国末前二六四年
+    death:
+      date: '-208'
+      precision: year
+      is_circa: false
+      raw: 秦二世元年前二〇八年卒于陈
+  birth_date: '-264'
+  death_date: '-208'
+  era: 秦末
+  reign_ref: 秦二世元年
+  archetype: 传经守道者
+  dilemmas:
+  - 乱世守圣道与应时出仕之抉择
+  - 家学大义与名物训诂之权衡
+  lesson: 正名训诂以明名物守先圣之道以续斯文
+  summary_first_person: 吾为孔子八世孙生逢秦末礼崩学废讲学陈地传道授徒训释名物著小尔雅以正名守文死而不悔
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%B0%8F%E5%B0%94%E9%9B%85.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%B0%8F%E5%B0%94%E9%9B%85.md
+endeavors:
+- id: guji-孔鲋-endeavor-1
+  person_qid: guji-孔鲋
+  title_zh: 讲学传道承续家学
+  summary: 陈地讲学授徒传孔子家学应陈胜召为博士守礼不阿
+  phases:
+  - key: brewing
+    name: 家学涵养
+    labels:
+      zh: 传道
+    start_date: '-244'
+    highlight_event_id: guji-孔鲋-event-birth
+  - key: breakthrough
+    name: 陈地设教
+    labels:
+      zh: 讲学
+    start_date: '-224'
+    highlight_event_id: guji-孔鲋-event-teach
+  - key: climax
+    name: 应召为博士
+    labels:
+      zh: 出仕
+    start_date: '-209'
+    highlight_event_id: guji-孔鲋-event-boshi
+  - key: closure
+    name: 殉道于陈
+    labels:
+      zh: 守节
+    start_date: '-208'
+    highlight_event_id: guji-孔鲋-event-death
+  decisions:
+  - date: '-224'
+    title_zh: 陈地讲学不仕秦
+    rationale: 秦废诗书不愿附暴政故以讲学存斯文
+  - date: '-209'
+    title_zh: 应陈胜召为博士
+    rationale: 欲因时复礼匡救乱世故暂就博士以行其道
+- id: guji-孔鲋-endeavor-2
+  person_qid: guji-孔鲋
+  title_zh: 训诂名物著小尔雅
+  summary: 广采尔雅遗义训释名物度量分广诂广言等十三篇以便初学
+  phases:
+  - key: brewing
+    name: 收集名物
+    labels:
+      zh: 积累
+    start_date: '-230'
+    highlight_event_id: guji-孔鲋-event-teach
+  - key: breakthrough
+    name: 发凡起例
+    labels:
+      zh: 立纲
+    start_date: '-215'
+    highlight_event_id: guji-孔鲋-event-xiaoerya
+  - key: climax
+    name: 著成十三篇
+    labels:
+      zh: 成书
+    start_date: '-210'
+    highlight_event_id: guji-孔鲋-event-xiaoerya
+  - key: closure
+    name: 传本于后
+    labels:
+      zh: 流传
+    start_date: '-208'
+    highlight_event_id: guji-孔鲋-event-death
+  decisions:
+  - date: '-215'
+    title_zh: 以简易训诂补尔雅
+    rationale: 尔雅深奥初学难通故取要义别为小尔雅以便诵习
+  - date: '-210'
+    title_zh: 详度量衡服器
+    rationale: 名物制度不明则礼难行故详广服广器广度广量广衡诸篇
+events:
+- id: guji-孔鲋-event-birth
+  person_qid: guji-孔鲋
+  kind: birth
+  title_zh: 生于陈
+  date: '-264'
+  year_of: -264
+  description: 孔子八世孙生于陈承家学治诗书礼义
+- id: guji-孔鲋-event-teach
+  person_qid: guji-孔鲋
+  kind: career
+  title_zh: 陈地讲学授徒
+  date: '-224'
+  year_of: -224
+  description: 居陈讲学教授弟子传先圣之道名闻诸国
+- id: guji-孔鲋-event-boshi
+  person_qid: guji-孔鲋
+  kind: career
+  title_zh: 为陈王博士
+  date: '-209'
+  year_of: -209
+  description: 陈胜称王召为博士与议政事守正不阿
+- id: guji-孔鲋-event-xiaoerya
+  person_qid: guji-孔鲋
+  kind: career
+  title_zh: 著成小尔雅
+  date: '-210'
+  year_of: -210
+  description: 分广诂广言广训等十三篇训释名物度量以补尔雅
+- id: guji-孔鲋-event-death
+  person_qid: guji-孔鲋
+  kind: death
+  title_zh: 卒于陈下
+  date: '-208'
+  year_of: -208
+  description: 陈败卒于陈下鲁人为孔子立庙奉祀不绝

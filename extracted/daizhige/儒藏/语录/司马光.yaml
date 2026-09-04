@@ -1,0 +1,145 @@
+person:
+  qid: guji-司马光
+  name_zh: 司马光
+  names:
+    zh: 司马光
+    en: Sima Guang
+  lifespan:
+    birth:
+      date: 1019-11-17
+      precision: day
+      is_circa: false
+      raw: 天禧三年十月十八生于光州光山
+    death:
+      date: 1086-10-11
+      precision: day
+      is_circa: false
+      raw: 元祐元年九月朔卒于京师
+  birth_date: 1019-11-17
+  death_date: 1086-10-11
+  era: 北宋
+  reign_ref: 仁宗至哲宗
+  archetype: 史鉴宰辅
+  dilemmas:
+  - 守经持正与变法趋新之间如何不失其直
+  - 修史求实与事君尽忠之间如何两全其义
+  lesson: 正家以正天下以俭忍礼让保族方能长久
+  summary_first_person: 吾以修身齐家为本以修史济世为任编通鉴以鉴君臣作家范以训子孙愿后人以诚敬俭忍持家以忠厚正直报国
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AE%B6%E8%8C%83.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%AE%B6%E8%8C%83.md
+endeavors:
+- id: guji-司马光-endeavor-1
+  title_zh: 奉敕编修资治通鉴
+  summary_zh: 自通志而至通鉴历十九年成二百九十四卷以鉴君臣得失
+  phases:
+  - key: brewing
+    name: 奏设书局
+    labels:
+      zh:
+      - 立局筹备
+    start_date: 1064-06-01
+    highlight_event_id: guji-司马光-event-compile-start
+  - key: breakthrough
+    name: 进呈通志赐名
+    labels:
+      zh:
+      - 进书得名
+    start_date: 1067-01-01
+    highlight_event_id: guji-司马光-event-compile-start
+  - key: climax
+    name: 洛阳专修成书
+    labels:
+      zh:
+      - 专修成书
+    start_date: 1071-01-01
+    highlight_event_id: guji-司马光-event-tongjian-complete
+  - key: closure
+    name: 进呈通鉴正名
+    labels:
+      zh:
+      - 进呈定稿
+    start_date: 1084-12-01
+    highlight_event_id: guji-司马光-event-tongjian-complete
+  decisions:
+  - date: 1064-06-01
+    title_zh: 请设书局众修通志
+    rationale: 一人之力不足周览群书须众手成大业方能详实可信
+  - date: 1071-01-01
+    title_zh: 退居洛阳独任专修
+    rationale: 政见不合不欲苟容专心著史以存鉴戒胜于空争朝堂
+- id: guji-司马光-endeavor-2
+  title_zh: 撰作家范垂训治家
+  summary_zh: 采经史家法自治家至乳母凡十九篇以礼义训子孙
+  phases:
+  - key: brewing
+    name: 居洛采摭家法
+    labels:
+      zh:
+      - 采摭旧闻
+    start_date: 1071-01-01
+    highlight_event_id: guji-司马光-event-jiafan
+  - key: breakthrough
+    name: 准经立治家之礼
+    labels:
+      zh:
+      - 明礼别嫌
+    start_date: 1075-01-01
+    highlight_event_id: guji-司马光-event-jiafan
+  - key: climax
+    name: 成家范十卷示后
+    labels:
+      zh:
+      - 成书示后
+    start_date: 1080-01-01
+    highlight_event_id: guji-司马光-event-jiafan
+  - key: closure
+    name: 以俭忍慈孝传家
+    labels:
+      zh:
+      - 传家垂训
+    start_date: 1085-01-01
+    highlight_event_id: guji-司马光-event-death
+  decisions:
+  - date: 1075-01-01
+    title_zh: 取仁杰旧名别加甄辑
+    rationale: 颜氏家训词泛不本经训当准经采史立简明可行的家法
+  - date: 1080-01-01
+    title_zh: 以德礼遗子孙不以货财
+    rationale: 多藏适以长恶唯丰德泽明礼法方能保家八百如周室
+events:
+- id: guji-司马光-event-birth
+  title_zh: 生于光州光山
+  type: birth
+  date: 1019-11-17
+  year_of: 1019
+  place_zh: 光州光山
+  description: 天禧三年十月十八生于任所自幼庄重如成人
+- id: guji-司马光-event-compile-start
+  title_zh: 奉敕修历代君臣事迹
+  type: career
+  date: 1064-06-01
+  year_of: 1064
+  place_zh: 京师史馆
+  description: 英宗命编历代君臣事迹设书局置官属始修通志
+- id: guji-司马光-event-jiafan
+  title_zh: 退居洛阳撰作家范
+  type: career
+  date: 1080-01-01
+  year_of: 1080
+  place_zh: 洛阳独乐园
+  description: 居洛十五年采经史可为法者成家范十卷首载家人卦大学孝经以正家道
+- id: guji-司马光-event-tongjian-complete
+  title_zh: 资治通鉴成书进呈
+  type: career
+  date: 1084-12-01
+  year_of: 1084
+  place_zh: 京师
+  description: 通鉴二百九十四卷并考异目录成书神宗亲为制序赐名
+- id: guji-司马光-event-death
+  title_zh: 卒于京师相位
+  type: death
+  date: 1086-10-11
+  year_of: 1086
+  place_zh: 京师
+  description: 元祐更化拜门下侍郎未及大展而病卒京师士民罢市吊哭
