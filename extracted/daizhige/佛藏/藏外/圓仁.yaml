@@ -1,0 +1,160 @@
+person:
+  qid: guji-圓仁
+  name_zh: 圓仁
+  names:
+    zh: 圓仁
+    en: Ennin
+  lifespan:
+    birth:
+      date: 0794
+      precision: year
+      is_circa: false
+      raw: 延曆十三年生於下野國
+    death:
+      date: 0864-02-24
+      precision: day
+      is_circa: false
+      raw: 貞觀六年正月十四日寂於比叡山
+  birth_date: 0794
+  death_date: 0864-02-24
+  era: 平安時代前期
+  reign_ref: 仁明天皇承和五年入唐
+  archetype: 求法巡禮僧
+  dilemmas:
+  - 國制嚴而求法切，留唐違制與負命即歸兩難
+  - 風濤破船痢疾困頓與巡禮台州決疑大願相持
+  - 外國人不得濫入寺制與畫像供養結緣之願相礙
+  lesson: 萬里求法在誓願不退，漂危患病皆成行記資糧，持戒巡禮方能傳燈不絕
+  summary_first_person: 吾圓仁為決天台法華之疑，隨遣唐使渡海，漂破至揚州海陵，雖患痢困於開元寺，誓往台州國清尋師，後歸叡山傳燈，並直錄巡禮見聞以示後人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E5%85%A5%E5%94%90%E6%B1%82%E6%B3%95%E5%B7%A1%E7%A4%BC%E8%A1%8C%E8%AE%B0.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E5%85%A5%E5%94%90%E6%B1%82%E6%B3%95%E5%B7%A1%E7%A4%BC%E8%A1%8C%E8%AE%B0.html
+endeavors:
+- id: guji-圓仁-endeavor-1
+  title_zh: 入唐求法巡禮
+  goal_zh: 渡唐尋天台師決疑求法並巡禮聖地
+  phases:
+  - key: brewing
+    name: 隨使渡海漂揚州
+    labels:
+      zh: 渡海漂流
+    start_date: 0838-06-13
+    highlight_event_id: guji-圓仁-event-arrive-yangzhou
+  - key: breakthrough
+    name: 上牒請往台州
+    labels:
+      zh: 請往台州
+    start_date: 0838-08-01
+    highlight_event_id: guji-圓仁-event-request-taizhou
+  - key: climax
+    name: 寓開元待詔設供
+    labels:
+      zh: 待詔設供
+    start_date: 0838-08-24
+    highlight_event_id: guji-圓仁-event-stay-kaiyuan
+  - key: closure
+    name: 得牒待命展開巡禮
+    labels:
+      zh: 巡禮展開
+    start_date: 0838-10-20
+    highlight_event_id: guji-圓仁-event-permission-tour
+  decisions:
+  - date: 0838-07-02
+    title_zh: 漂後隨眾就守捉安置靜待州縣迎問
+    rationale: 船破物濕人力疲，先保國信僧眾性命再圖求法
+  - date: 0838-08-01
+    title_zh: 上牒請往台州國清寺尋師
+    rationale: 揚州無天台決疑之師，須赴台州國清本山訪法
+  - date: 0838-08-26
+    title_zh: 獻沙金設空飯結緣開元眾僧
+    rationale: 感萬里再生暫住因緣，以供養換取住寺學法之助
+- id: guji-圓仁-endeavor-2
+  title_zh: 歸國傳燈撰述行記
+  goal_zh: 攜將來法寶歸叡山傳持並撰行記貽後
+  phases:
+  - key: brewing
+    name: 九載巡禮功滿擬歸
+    labels:
+      zh: 功滿擬歸
+    start_date: 0847-01-01
+    highlight_event_id: guji-圓仁-event-return-japan
+  - key: breakthrough
+    name: 撰巡禮行記垂後
+    labels:
+      zh: 撰述行記
+    start_date: 0848-01-01
+    highlight_event_id: guji-圓仁-event-compile-record
+  - key: climax
+    name: 歸叡傳持天台密法
+    labels:
+      zh: 歸山傳法
+    start_date: 0854-01-01
+    highlight_event_id: guji-圓仁-event-transmit-tendai
+  - key: closure
+    name: 比叡圓寂慈覺垂範
+    labels:
+      zh: 圓寂垂範
+    start_date: 0864-01-01
+    highlight_event_id: guji-圓仁-event-death
+  decisions:
+  - date: 0847-09-01
+    title_zh: 決意攜經像法具歸國不留唐終老
+    rationale: 本願在傳法東土，使日本眾生得聞正法故須歸
+  - date: 0848-01-01
+    title_zh: 以日記體直錄見聞撰入唐求法巡禮行記
+    rationale: 海路州縣風俗佛法盛衰皆須實錄，方能為後求法者龜鑑
+events:
+- id: guji-圓仁-event-birth
+  date: 0794
+  year_of: 794
+  title_zh: 生於下野國
+  place_zh: 下野國都賀郡
+  description_zh: 延曆十三年生，後入比叡山從最澄學天台
+- id: guji-圓仁-event-arrive-yangzhou
+  date: 0838-07-02
+  year_of: 838
+  title_zh: 漂著揚州海陵白潮鎮
+  place_zh: 唐揚州海陵縣白潮鎮東梁豐村
+  description_zh: 承和五年六月發船遇風破船，七月二日漂至大江口登岸，暫住國清寺延海村
+- id: guji-圓仁-event-request-taizhou
+  date: 0838-08-01
+  year_of: 838
+  title_zh: 上牒請往台州國清寺
+  place_zh: 揚州府衙
+  description_zh: 偕惟正惟曉等請往台州國清尋師決疑，兼請水手充求法使役
+- id: guji-圓仁-event-stay-kaiyuan
+  date: 0838-08-24
+  year_of: 838
+  title_zh: 移住揚州開元寺待詔
+  place_zh: 揚州開元寺東塔北廊
+  description_zh: 奉節度使李德裕牒住開元寺，獻沙金設空飯供百餘僧，候入京奏許赴台州
+- id: guji-圓仁-event-permission-tour
+  date: 0838-10-20
+  year_of: 838
+  title_zh: 得牒待表章許巡禮
+  place_zh: 揚州開元寺
+  description_zh: 相公牒稱奉詔朝貢僧赴台州須待本國表章到方許，遂留揚廣究律論待入京使還報
+- id: guji-圓仁-event-return-japan
+  date: 0847-09-01
+  year_of: 847
+  title_zh: 求法九載歸日本
+  place_zh: 博多津至比叡山
+  description_zh: 承和十四年攜五台天台密教經像歸國，後住東塔傳持
+- id: guji-圓仁-event-compile-record
+  date: 0848-01-01
+  year_of: 848
+  title_zh: 撰入唐求法巡禮行記四卷
+  place_zh: 比叡山延曆寺
+  description_zh: 以日記體錄渡海州縣佛寺風俗及五台巡禮見聞，成求法史要籍
+- id: guji-圓仁-event-transmit-tendai
+  date: 0854-01-01
+  year_of: 854
+  title_zh: 住東塔傳持顯密並弘
+  place_zh: 比叡山延曆寺東塔
+  description_zh: 傳天台法華及將來密法，開山門派弘化之基
+- id: guji-圓仁-event-death
+  date: 0864-02-24
+  year_of: 864
+  title_zh: 圓寂於比叡山
+  place_zh: 比叡山延曆寺
+  description_zh: 貞觀六年正月十四日示寂，諡慈覺大師，為天台山門派之祖
