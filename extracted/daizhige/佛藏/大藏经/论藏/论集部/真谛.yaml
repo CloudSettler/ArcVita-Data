@@ -9,119 +9,140 @@ person:
       date: 0499
       precision: year
       is_circa: false
-      raw: 499年
+      raw: 扶南优禅尼国生
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 569年
+      raw: 陈太建元年寂于建康
   birth_date: 0499
   death_date: 0569
-  era: 南北朝梁
-  reign_ref: 梁武帝承圣
-  archetype: 译经弘法者
+  era: 南北朝梁陈
+  reign_ref: 梁武帝至陈宣帝
+  archetype: 西来译师
   dilemmas:
-  - 战乱流离欲还反与应请留住弘大乘之间两难
-  - 西域久蕴秘典未传东夏与宣译有时因缘未具之间两难
-  lesson: 正因虽具须藉外缘因缘具足方能起信弘法
-  summary_first_person: 我是真谛西天竺优禅尼人少小博采偏洞大乘应梁武皇帝聘泛舟来华值侯景侵扰流离岭南于大梁承圣三年衡州建兴寺译出大乘起信论一卷以明一心二门如来藏缘起正义令众生离苦得乐起大乘正信
+  - 战乱流离颠沛而译经不辍何以安忍坚持
+  - 空性解脱与王法治化如何以信智贯通
+  lesson: 以信持法以智证真乱世不舍译弘终成菩提资粮
+  summary_first_person: 吾本西天竺优禅尼国人泛海东来梁陈虽逢侯景之乱流转岭南而昼夜译经愿以正法流注法器令众生先得安乐后得解脱
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/论藏/论集部/大乘起信论-梁-真谛.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E5%AE%9D%E8%A1%8C%E7%8E%8B%E6%AD%A3%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E5%AE%9D%E8%A1%8C%E7%8E%8B%E6%AD%A3%E8%AE%BA.md
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 应梁武聘泛舟东来弘法
+  title_zh: 泛海东来梁陈译经
+  summary: 自天竺至扶南再至建康岭南乱中弘译唯识中观数十部
   phases:
   - key: brewing
-    name: 少习大乘偏洞深远
+    name: 天竺问道习大小乘
     labels:
-      zh: 学养
+      zh:
+      - 求法
+      - 习论
     start_date: 0499
     highlight_event_id: guji-真谛-event-birth
   - key: breakthrough
-    name: 应聘移遣泛舟来朝
+    name: 梁大同泛海至建康
     labels:
-      zh: 西来
+      zh:
+      - 来华
+      - 弘愿
     start_date: '0546'
-    highlight_event_id: guji-真谛-event-arrival
+    highlight_event_id: guji-真谛-event-arrive
   - key: climax
-    name: 值乱拥流含珠未吐
+    name: 侯景乱中转徙译经
     labels:
-      zh: 存法
-    start_date: 0548
-    highlight_event_id: guji-真谛-event-arrival
+      zh:
+      - 乱中译经
+      - 唯识
+    start_date: '0553'
+    highlight_event_id: guji-真谛-event-translate
   - key: closure
-    name: 岭南留住待时宣译
+    name: 岭南建康示寂流通
     labels:
-      zh: 安住
-    start_date: '0554-09-10'
-    highlight_event_id: guji-真谛-event-qixinlun
+      zh:
+      - 圆寂
+      - 付嘱
+    start_date: 0569
+    highlight_event_id: guji-真谛-event-death
   decisions:
   - date: '0546'
-    title_zh: 苦辞不免应请东行
-    rationale: 为令大乘正典东传不忍拒请以弘法为念泛舟携像来朝
-  - date: 0548
-    title_zh: 值侯景乱不即还反
-    rationale: 慧日暂停秀采拥流为存法种嘱值英贤留待因缘宣译
+    title_zh: 应梁武帝请泛海东行
+    rationale: 为令东土得闻正法不畏海难发心弘传
+  - date: '0553'
+    title_zh: 乱离不辍译事栖止制旨
+    rationale: 以法为先安众生心于无常中坚持译场不断
 - id: guji-真谛-endeavor-2
-  title_zh: 衡州建兴寺译起信论
+  title_zh: 译弘宝行王正论劝王行法
+  summary: 为爱法大王说安乐解脱先乐因后解脱以信智为根劝王以正法治化
   phases:
   - key: brewing
-    name: 京邑英贤敬请敷演
+    name: 研习龙树宝行正义
     labels:
-      zh: 启请
-    start_date: '0554-09-10'
-    highlight_event_id: guji-真谛-event-qixinlun
-  - key: breakthrough
-    name: 建兴寺开演大乘秘典
-    labels:
-      zh: 翻译
-    start_date: '0554-09-10'
-    highlight_event_id: guji-真谛-event-qixinlun
-  - key: climax
-    name: 明一心二门真如生灭义
-    labels:
-      zh: 显理
+      zh:
+      - 中观
+      - 王法
     start_date: '0555'
-    highlight_event_id: guji-真谛-event-qixinlun
-  - key: closure
-    name: 首尾二年论旨更曜
+    highlight_event_id: guji-真谛-event-translate
+  - key: breakthrough
+    name: 受请译论集部诸论
     labels:
-      zh: 流通
-    start_date: '0556'
-    highlight_event_id: guji-真谛-event-qixinlun
+      zh:
+      - 受请
+      - 发愿
+    start_date: '0557'
+    highlight_event_id: guji-真谛-event-translate
+  - key: climax
+    name: 译出宝行王正论一卷
+    labels:
+      zh:
+      - 译论
+      - 劝王
+    start_date: '0560'
+    highlight_event_id: guji-真谛-event-baohang
+  - key: closure
+    name: 以法付嘱流注法器
+    labels:
+      zh:
+      - 流通
+      - 利生
+    start_date: 0568
+    highlight_event_id: guji-真谛-event-death
   decisions:
-  - date: '0554-09-10'
-    title_zh: 于衡州始兴郡建兴寺译论
-    rationale: 为示如理缘起令众生除疑舍邪起大乘正信佛种不断
-  - date: '0556'
-    title_zh: 以总摄广法少文摄多义
-    rationale: 愍众生根行不等乐总持故立因缘立义解释修信劝修五分
+  - date: '0560'
+    title_zh: 先说乐因后辩解脱分品译出
+    rationale: 令王先信因果持十善后以空慧除我见得解脱
+  - date: '0563'
+    title_zh: 以王法合佛法劝行四摄
+    rationale: 唯法是正治因法天下爱故劝王舍诳行施爱语
 events:
 - id: guji-真谛-event-birth
-  type: birth
+  title_zh: 诞生于西天竺优禅尼
   date: 0499
   year_of: 499
-  title_zh: 生于西天竺摩伽陀优禅尼国
-  place_zh: 西天竺优禅尼
-  summary_zh: 少小博采备览诸经于大乘偏洞深远具拘兰难陀三藏之学
-- id: guji-真谛-event-arrival
-  type: career
+  place_zh: 西天竺优禅尼国
+  summary: 扶南国婆罗门种少习三藏博通大小乘为国师
+- id: guji-真谛-event-arrive
+  title_zh: 梁大同十二年泛海至建康
   date: '0546'
   year_of: 546
-  title_zh: 应梁武帝聘泛舟来华值侯景乱
-  place_zh: 南海衡州
-  summary_zh: 与瞿昙等并送苏合佛像来朝未旬值侯景侵扰秀采拥流欲还反而不果
-- id: guji-真谛-event-qixinlun
-  type: career
-  date: '0554-09-10'
-  year_of: 554
-  title_zh: 衡州建兴寺译大乘起信论一卷
-  place_zh: 衡州始兴郡建兴寺
-  summary_zh: 大梁承圣三年九月十日应慧显智恺等请敷演大乘传语月支首那执笔智恺等首尾二年方讫盛隆三宝重兴佛日
+  place_zh: 建康
+  summary: 梁武帝遣使迎接馆于宝云殿欲兴译事未果逢侯景乱
+- id: guji-真谛-event-translate
+  title_zh: 岭南转徙译经弘唯识
+  date: 0558
+  year_of: 5558
+  place_zh: 豫章南海
+  summary: 于制旨寺等地译摄大乘论俱舍论等开中土唯识之宗
+- id: guji-真谛-event-baohang
+  title_zh: 陈天嘉年间译宝行王正论
+  date: '0560'
+  year_of: 560
+  place_zh: 建康广州
+  summary: 译龙树宝行王正论一卷分安乐解脱杂及菩提资粮三品劝王以法化世
 - id: guji-真谛-event-death
-  type: death
+  title_zh: 陈太建元年寂于建康
   date: 0569
   year_of: 569
-  title_zh: 示寂于建康岭南之间
-  place_zh: 岭南
-  summary_zh: 一生译大乘起信论摄大乘论等弘一心如来藏义后示寂译业长存
+  place_zh: 建康正观寺
+  summary: 疾中立愿弘法译经六十余卷示寂荼毗舍利流传
