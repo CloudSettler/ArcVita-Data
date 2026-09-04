@@ -6,110 +6,156 @@ person:
     en: Zhu Xi
   lifespan:
     birth:
-      date: '1130-10-22'
+      date: 1130-10-18
       precision: day
       is_circa: false
-      raw: 建炎四年九月十五
+      raw: 宋建炎四年九月十五生于婺源
     death:
-      date: '1200-04-23'
+      date: 1200-04-23
       precision: day
       is_circa: false
-      raw: 庆元六年三月初九
-  birth_date: '1130-10-22'
-  death_date: '1200-04-23'
+      raw: 宋庆元六年三月初九卒于建阳
+  birth_date: 1130-10-18
+  death_date: 1200-04-23
   era: 南宋
   reign_ref: 宋高宗建炎至宋宁宗庆元
   archetype: 理学集大成者
   dilemmas:
-  - 早年出入佛老与圣贤之学的取舍之难
-  - 鹅湖辩后朱陆异同与维护道统纯粹的坚守之难
-  - 庆元党禁下明哲保身与直道事君的进退之难
-  lesson: 穷理以致知反躬以践实由下学而上达以敬贯始终
-  summary_first_person: 吾少承父训长师李侗穷经讲学五十余年集注四书以绍孔孟周程之绪重兴书院以明小学大学之序一生所作不过明此天理遏此人欲使后学者有所持循而已
+  - 早晚年持论异同与门人记录增损之取舍
+  - 博文约礼与切己践履之权衡
+  - 与陆子静心学异同之是非辨
+  lesson: 切己穷理居敬格物方能明明德以超凡入圣
+  summary_first_person: 吾一生潜心圣贤之学以明明德为归以格物致知诚意正心为枢纽著述讲学以淑后人愿学者抖擞精神切己用功莫负此生
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%BE%A1%E7%BA%82%E6%9C%B1%E5%AD%90%E5%85%A8%E4%B9%A6.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%BE%A1%E7%BA%82%E6%9C%B1%E5%AD%90%E5%85%A8%E4%B9%A6.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%9C%B1%E5%AD%90%E6%8A%84%E9%87%8A.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%9C%B1%E5%AD%90%E6%8A%84%E9%87%8A.md
 endeavors:
 - id: guji-朱熹-endeavor-1
-  title_zh: 集注四书绍明道统
-  summary_zh: 以大学论孟中庸为序训释发明绍述孔孟周程开理学一贯之规
-  start_date: '1155-01-01'
-  highlight_event_id: guji-朱熹-event-ehu
+  person_qid: guji-朱熹
+  title_zh: 四书集注与格物穷理
+  summary_zh: 以大学为最初用工以格物致知为枢纽注大学中庸论孟以定圣学规模
   phases:
   - key: brewing
-    name: 师事李侗潜心求道
+    name: 少力学经
     labels:
-      zh: 求道养心
-    start_date: '1153-01-01'
-    highlight_event_id: guji-朱熹-event-birth
+      zh:
+      - 筑基穷经
+    start_date: 1148-01-01
+    highlight_event_id: guji-朱熹-event-keju
   - key: breakthrough
-    name: 中和旧说悟已发未发之旨
+    name: 中和悟入
     labels:
-      zh: 格物致知
-    start_date: '1169-01-01'
-    highlight_event_id: guji-朱熹-event-ehu
+      zh:
+      - 体认天理
+    start_date: 1169-01-01
+    highlight_event_id: guji-朱熹-event-zhonghe
   - key: climax
-    name: 四书集注成编道统确立
+    name: 集注大成
     labels:
-      zh: 立言传道
-    start_date: '1182-01-01'
-    highlight_event_id: guji-朱熹-event-bailudong
-  decisions:
-  - date: '1175-06-15'
-    title_zh: 赴鹅湖与陆氏辩论
-    rationale: 明辨义利王霸之分以定学术趋向不使后学惑于多岐
-  - date: '1190-01-01'
-    title_zh: 完成四书集注付梓授徒
-    rationale: 以次第分明之文本为入圣阶梯使六籍津梁有所依归
-- id: guji-朱熹-endeavor-2
-  title_zh: 讲学闽岳重兴书院
-  summary_zh: 主白鹿洞岳麓寒泉精舍讲席论小学大学之教化育英才
-  start_date: '1179-01-01'
-  highlight_event_id: guji-朱熹-event-bailudong
-  phases:
-  - key: brewing
-    name: 归隐武夷寒泉著述授徒
-    labels:
-      zh: 退藏讲学
-    start_date: '1170-01-01'
-    highlight_event_id: guji-朱熹-event-ehu
-  - key: breakthrough
-    name: 知南康奏复白鹿洞书院
-    labels:
-      zh: 兴学育才
-    start_date: '1180-03-01'
-    highlight_event_id: guji-朱熹-event-bailudong
+      zh:
+      - 立教垂统
+    start_date: 1182-01-01
+    highlight_event_id: guji-朱熹-event-jizhu
   - key: closure
-    name: 晚年考亭讲学党禁不辍
+    name: 大学绝笔
     labels:
-      zh: 坚守师道
-    start_date: '1196-01-01'
+      zh:
+      - 慎终追远
+    start_date: 1200-03-01
     highlight_event_id: guji-朱熹-event-death
   decisions:
-  - date: '1180-03-01'
-    title_zh: 奏请复兴白鹿洞书院
-    rationale: 立学规明义利以救科举词章之弊使士知为己之学
-  - date: '1194-01-01'
-    title_zh: 庆元党禁后闭门著述
-    rationale: 以存养讲论终其身不以用舍废道统之传
+  - date: 1182-06-01
+    title_zh: 先看大学次语孟次中庸
+    rationale: 以切己涵泳为要一生受用不尽故定读书次第以先立规模
+  - date: 1190-01-01
+    title_zh: 格物为梦觉关诚意为善恶关
+    rationale: 以物格知至为生死路头分别人与禽兽之异故力主即物穷理
+- id: guji-朱熹-endeavor-2
+  person_qid: guji-朱熹
+  title_zh: 讲学授徒与语类传灯
+  summary_zh: 与门人讲论无所不尽辨陆学近禅以谨是非讲敬恕忠信以变化气质
+  phases:
+  - key: brewing
+    name: 师友切磋
+    labels:
+      zh:
+      - 求师问道
+    start_date: 1160-01-01
+    highlight_event_id: guji-朱熹-event-keju
+  - key: breakthrough
+    name: 鹅湖论学
+    labels:
+      zh:
+      - 辨异明宗
+    start_date: 1175-06-01
+    highlight_event_id: guji-朱熹-event-ehu
+  - key: climax
+    name: 精舍讲席
+    labels:
+      zh:
+      - 育才传道
+    start_date: 1183-01-01
+    highlight_event_id: guji-朱熹-event-jizhu
+  - key: closure
+    name: 语类流传
+    labels:
+      zh:
+      - 嘉惠后学
+    start_date: 1200-03-01
+    highlight_event_id: guji-朱熹-event-death
+  decisions:
+  - date: 1175-06-01
+    title_zh: 辨陆氏终近禅
+    rationale: 为明儒佛之别守下学上达之正故于论学见解处谨严是非之辨
+  - date: 1185-01-01
+    title_zh: 以敬立志以恕求仁
+    rationale: 以主一无适涵养未发以格物致知察于日用故教人变化气质以入圣
 events:
 - id: guji-朱熹-event-birth
-  title_zh: 出生尤溪
-  date: '1130-10-22'
+  person_qid: guji-朱熹
+  type: birth
+  date: 1130-10-18
   year_of: 1130
-  summary_zh: 建炎四年九月十五生于尤溪父朱松命名熹字元晦
+  title_zh: 婺源诞生
+  description_zh: 宋建炎四年九月十五生于徽州婺源朱松家
+  location_zh: 徽州婺源
+- id: guji-朱熹-event-keju
+  person_qid: guji-朱熹
+  type: career
+  date: 1148-01-01
+  year_of: 1148
+  title_zh: 登进士第入仕问道
+  description_zh: 年十九登绍兴十八年进士师事李侗潜心圣贤切己为学
+  location_zh: 建州
+- id: guji-朱熹-event-zhonghe
+  person_qid: guji-朱熹
+  type: career
+  date: 1169-01-01
+  year_of: 1169
+  title_zh: 中和旧说悟入敬义
+  description_zh: 反复体认未发已发以敬立志以格物穷理始定宗旨
+  location_zh: 闽中
 - id: guji-朱熹-event-ehu
-  title_zh: 鹅湖之会辩论义理
-  date: '1175-06-15'
+  person_qid: guji-朱熹
+  type: career
+  date: 1175-06-01
   year_of: 1175
-  summary_zh: 会陆九渊兄弟于信州鹅湖寺论为学工夫判朱陆两派分野
-- id: guji-朱熹-event-bailudong
-  title_zh: 重兴白鹿洞书院颁学规
-  date: '1180-03-01'
-  year_of: 1180
-  summary_zh: 知南康军奏复白鹿洞书院立学规聚徒讲学阐明小学大学之序
+  title_zh: 鹅湖之会论学
+  description_zh: 与陆九渊兄弟会于鹅湖辨无极太极与心即理之异明下学上达之别
+  location_zh: 信州鹅湖
+- id: guji-朱熹-event-jizhu
+  person_qid: guji-朱熹
+  type: career
+  date: 1182-01-01
+  year_of: 1182
+  title_zh: 四书集注告成讲学白鹿
+  description_zh: 成四书章句集注主白鹿洞岳麓书院讲席门人记录语录日盛
+  location_zh: 白鹿洞
 - id: guji-朱熹-event-death
-  title_zh: 逝世建阳考亭
-  date: '1200-04-23'
+  person_qid: guji-朱熹
+  type: death
+  date: 1200-04-23
   year_of: 1200
-  summary_zh: 庆元六年三月初九卒于建阳考亭后谥文追封徽国公从祀孔庙
+  title_zh: 建阳考终
+  description_zh: 庆元六年三月初九卒于建阳前月犹修大学以绝笔为托
+  location_zh: 建阳
