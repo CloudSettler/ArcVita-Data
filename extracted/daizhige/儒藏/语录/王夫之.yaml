@@ -9,137 +9,124 @@ person:
       date: 1619-10-07
       precision: day
       is_circa: false
-      raw: 明万历四十七年九月初一
+      raw: 明万历四十七年九月初一衡阳出生
     death:
       date: 1692-02-18
       precision: day
       is_circa: false
-      raw: 清康熙三十一年正月初二
+      raw: 清康熙三十一年正月初二衡阳仙逝
   birth_date: 1619-10-07
   death_date: 1692-02-18
   era: 明末清初
   reign_ref: 清康熙
-  archetype: 隐逸经世之儒
+  archetype: 遗民经师
   dilemmas:
-  - 故国已亡出处何从
-  - 空言补敝俟解后人
-  - 欲苏民死而力不能行
-  lesson: 因时极敝而补之不违中和大端以待后圣
-  summary_first_person: 吾衡阳王夫之老而隐于船山因时之敝作噩梦思问录以言井田赋役驿递军卫之法惟此心在天壤间以俟天苏人死而解其狂
+  - 仕清保身与守节明室之间何以自处
+  - 诗为心声与格律死法之间何以取舍
+  lesson: 以意为主以心为帅涵泳性情不立门庭方得兴观群怨之真
+  summary_first_person: 余自束发受经义十六学韵语阅古今诗文十余万乘船山孤寂点定得失论诗以意为主不囿死法庚午叙此永日绪论以迪来学
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%99%A9%E6%A2%A6%E4%BF%9F%E8%A7%A3%E6%80%9D%E9%97%AE%E5%BD%95%E7%BB%8F%E4%B9%89.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%99%A9%E6%A2%A6%E4%BF%9F%E8%A7%A3%E6%80%9D%E9%97%AE%E5%BD%95%E7%BB%8F%E4%B9%89.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%95%E5%A0%82%E6%B0%B8%E6%97%A5%E7%BB%AA%E8%AE%BA.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%95%E5%A0%82%E6%B0%B8%E6%97%A5%E7%BB%AA%E8%AE%BA.html
 endeavors:
 - id: guji-王夫之-endeavor-1
-  person_id: guji-王夫之
-  title_zh: 隐居衡湘著书明道
-  summary: 明亡之后不仕清朝隐于石船山下穷经著述以存斯文以待来者
+  title_zh: 抗清守节船山隐居
+  summary_zh: 明亡起兵事败隐居衡阳石船山著书自守终身不仕清
   phases:
   - key: brewing
-    name: 国变存志
+    name: 束发受业中举明朝
     labels:
-      zh: 国变隐逸
+      zh:
+      - 求学
+      - 科举
+    start_date: 1633-01-01
+    highlight_event_id: guji-王夫之-event-juren
+  - key: breakthrough
+    name: 南明抗清颠沛流离
+    labels:
+      zh:
+      - 抗清
+      - 颠沛
     start_date: 1648-01-01
-    highlight_event_id: guji-王夫之-event-resistance
-  - key: breakthrough
-    name: 船山著书
-    labels:
-      zh: 隐居著述
-    start_date: 1657-01-01
-    highlight_event_id: guji-王夫之-event-seclusion
-  - key: climax
-    name: 思问录经义大成
-    labels:
-      zh: 经学大成
-    start_date: 1682-12-01
-    highlight_event_id: guji-王夫之-event-emeng
+    highlight_event_id: guji-王夫之-event-resist
   - key: closure
-    name: 以文托道俟后
+    name: 船山隐居终身著述
     labels:
-      zh: 以文托道
-    start_date: 1690-01-01
+      zh:
+      - 隐逸
+      - 著述
+    start_date: 1659-01-01
     highlight_event_id: guji-王夫之-event-death
   decisions:
-  - date: 1650-01-01
-    title_zh: 决计终身不仕
-    rationale: 以不事二姓全气节愿以穷经著述存华夏礼义于乱世
-  - date: 1682-12-01
-    title_zh: 作噩梦自名以俟解
-    rationale: 自叹老矣无人授此故托噩梦之名述补敝之法以待后圣
+  - date: 1648-05-01
+    title_zh: 举兵抗清不附新朝
+    rationale: 国变君亡士当以身殉道不忍薙发屈节故从瞿式耜起兵衡湘
+  - date: 1659-01-01
+    title_zh: 隐居船山不仕清廷
+    rationale: 世教沦夷乐崩于俗唯守孤寂著书明道可全性情故终身岩栖
 - id: guji-王夫之-endeavor-2
-  person_id: guji-王夫之
-  title_zh: 经世补敝陈治道
-  summary: 论井田取民驿递公费赋税军卫盐马之法纠三代以下之失以为立国之纲
+  title_zh: 诗教论述夕堂永日绪论撰成
+  summary_zh: 积诗文阅历数十万首于孤寂中点定论诗以意帅神理情景终成内编外编绪论
   phases:
   - key: brewing
-    name: 考井田取民之制
+    name: 十六学韵阅诗十万
     labels:
-      zh: 井田赋役
-    start_date: 1660-01-01
-    highlight_event_id: guji-王夫之-event-seclusion
+      zh:
+      - 诗学
+      - 涵泳
+    start_date: 1634-01-01
+    highlight_event_id: guji-王夫之-event-juren
   - key: breakthrough
-    name: 论驿递公费国用
+    name: 山中点定悟以意为主
     labels:
-      zh: 国用丰约
-    start_date: 1675-01-01
-    highlight_event_id: guji-王夫之-event-emeng
+      zh:
+      - 点定
+      - 立论
+    start_date: 1665-01-01
+    highlight_event_id: guji-王夫之-event-xitang
   - key: climax
-    name: 噩梦陈策成篇
+    name: 庚午叙成永日绪论
     labels:
-      zh: 经世陈策
-    start_date: 1682-12-01
-    highlight_event_id: guji-王夫之-event-emeng
-  - key: closure
-    name: 思问录经义垂后
-    labels:
-      zh: 垂法后世
+      zh:
+      - 成书
+      - 诗教
     start_date: 1690-01-01
-    highlight_event_id: guji-王夫之-event-death
+    highlight_event_id: guji-王夫之-event-xitang
   decisions:
-  - date: 1680-01-01
-    title_zh: 主以夫定税不以田定赋
-    rationale: 以为舍人从土则民以存田为祸唯因版籍定户口乃可劝耕而绝兼并
-  - date: 1682-12-01
-    title_zh: 主丰国用以宽民力
-    rationale: 以为立法之始当处于有余勿以考成督逋负致激成大变
+  - date: 1690-06-01
+    title_zh: 论诗以意为主破死法
+    rationale: 皎然高棅茅鹿门诸家画地成牢陷人才性故倡情景神理破起承转收门庭之见
+  - date: 1690-06-01
+    title_zh: 标兴观群怨定雅俗
+    rationale: 经义诗篇皆乐语之流唯随触皆可方为至者故黜许浑宋人支离独推十九首李杜陶谢
 events:
 - id: guji-王夫之-event-birth
-  person_id: guji-王夫之
-  kind: birth
   title_zh: 生于衡阳
   date: 1619-10-07
   year_of: 1619
-  place_zh: 湖广衡州府衡阳
-  description: 明万历四十七年九月初一生于衡阳士人之家
-- id: guji-王夫之-event-resistance
-  person_id: guji-王夫之
+  kind: birth
+  description: 明万历四十七年九月初一生于湖广衡州府衡阳县
+- id: guji-王夫之-event-juren
+  title_zh: 崇祯年间中举受业经义韵语
+  date: 1642-09-01
+  year_of: 1642
   kind: career
-  title_zh: 国变起兵存明
-  date: 1648-06-01
+  description: 束发受业经义十六学韵语崇祯十五年中举阅古今诗文为后日论诗之基
+- id: guji-王夫之-event-resist
+  title_zh: 南明抗清辗转湖广两广
+  date: 1648-05-01
   year_of: 1648
-  place_zh: 衡湘桂林之间
-  description: 南明永历间起兵抗清事败走避以存气节不复出仕
-- id: guji-王夫之-event-seclusion
-  person_id: guji-王夫之
   kind: career
-  title_zh: 隐居石船山著述
-  date: 1657-03-01
-  year_of: 1657
-  place_zh: 衡阳石船山
-  description: 隐居船山著读通鉴论尚书引义周易内外传等以明道存文
-- id: guji-王夫之-event-emeng
-  person_id: guji-王夫之
+  description: 国变后从瞿式耜永历朝廷举兵抗清事败流亡多年后归衡阳
+- id: guji-王夫之-event-xitang
+  title_zh: 庚午船山叙成夕堂永日绪论
+  date: 1690-05-05
+  year_of: 1690
   kind: career
-  title_zh: 作噩梦思问录经义
-  date: 1682-12-01
-  year_of: 1682
-  place_zh: 衡阳船山
-  description: 以壬戌岁阳月朔旦作噩梦序论井田赋税驿递军卫盐马之法以俟后解
+  description: 乘山中孤寂点定古今诗文庚午补天穿日自叙内编兴观群怨成一家诗教
 - id: guji-王夫之-event-death
-  person_id: guji-王夫之
-  kind: death
-  title_zh: 卒于湘西草堂
+  title_zh: 卒于船山
   date: 1692-02-18
   year_of: 1692
-  place_zh: 衡阳
-  description: 清康熙三十一年正月初二卒于衡阳隐所著述垂于后世
+  kind: death
+  description: 清康熙三十一年正月初二卒于衡阳石船山享年七十三
