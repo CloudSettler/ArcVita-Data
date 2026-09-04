@@ -1,0 +1,149 @@
+person:
+  qid: guji-陈梦雷
+  name_zh: 陈梦雷
+  names:
+    zh: 陈梦雷
+    en: Chen Menglei
+  lifespan:
+    birth:
+      date: 1650
+      precision: year
+      is_circa: false
+      raw: 顺治七年生于福建闽侯
+    death:
+      date: 1741
+      precision: year
+      is_circa: false
+      raw: 乾隆六年卒于狱中
+  birth_date: 1650
+  death_date: 1741
+  era: 清
+  reign_ref: 康熙雍正乾隆之际
+  archetype: 直臣编纂者
+  dilemmas:
+  - title_zh: 直道与保身之抉择
+    description: 性直忠耿授编修后得罪权贵被诬入狱十年当守直还是求全
+  - title_zh: 汇籍与避祸之两难
+    description: 释放归家搜罗世纪以前医籍编成巨帙雍正初复罹系当著述还是退隐
+  lesson: 以直心任事易罹祸以恒心聚书可传世汇集之功超越一身荣辱
+  summary_first_person: 吾乃闽侯陈梦雷康熙进士授编修以直获罪系狱十年得出归里搜集历代医籍主编医部全录约千万字集医经诊断诸科艺文列传之大成雍正初复被系卒于狱中愿此全录济世利人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95%E7%9B%AE%E5%BD%95.md
+endeavors:
+- id: guji-陈梦雷-endeavor-1
+  title_zh: 搜罗医籍主编医部全录
+  summary: 自由在外时搜集世纪以前全部医学文献主编我国最大医学类书约千万字含医经注释诊断各科理论艺文记事名医列传
+  phases:
+  - key: brewing
+    name: 归里搜集医籍立志汇编
+    labels:
+      zh: 搜集立志
+    start_date: 1692
+    highlight_event_id: guji-陈梦雷-event-release
+  - key: breakthrough
+    name: 总括素问灵枢难经脉法诸部
+    labels:
+      zh: 总括分类
+    start_date: 1701
+    highlight_event_id: guji-陈梦雷-event-collect
+  - key: climax
+    name: 编成医部全录卷帙浩繁
+    labels:
+      zh: 编成巨帙
+    start_date: 1726
+    highlight_event_id: guji-陈梦雷-event-complete
+  - key: closure
+    name: 全录归入古今图书集成传世
+    labels:
+      zh: 集成传世
+    start_date: 1726
+    highlight_event_id: guji-陈梦雷-event-complete
+  decisions:
+  - date: 1692
+    title_zh: 决意遍搜历代医书不遗艺文列传
+    rationale: 世纪以前文献散佚甚多非汇编不足以存医道全貌
+  - date: 1705
+    title_zh: 以类书体例统摄医经脉法证治
+    rationale: 医经注释诊断各科理论经验庞杂必分类统系方可检用济世
+- id: guji-陈梦雷-endeavor-2
+  title_zh: 直臣仕途屡罹牢狱
+  summary: 康熙进士授编修以直爽忠耿得罪权贵被诬入狱十年释放归家雍正初复被系卒于狱中
+  phases:
+  - key: brewing
+    name: 登第授编修直道任事
+    labels:
+      zh: 登第任职
+    start_date: 1670
+    highlight_event_id: guji-陈梦雷-event-jinshi
+  - key: breakthrough
+    name: 被诬系狱十年官司
+    labels:
+      zh: 蒙冤系狱
+    start_date: 1682
+    highlight_event_id: guji-陈梦雷-event-imprison
+  - key: climax
+    name: 获释归里自以为太平
+    labels:
+      zh: 获释归里
+    start_date: 1692
+    highlight_event_id: guji-陈梦雷-event-release
+  - key: closure
+    name: 雍正初复被系卒于狱中
+    labels:
+      zh: 复系而卒
+    start_date: 1723
+    highlight_event_id: guji-陈梦雷-event-death
+  decisions:
+  - date: 1675
+    title_zh: 守直忠耿不附权贵
+    rationale: 为编修当守正直之道不肯曲从以全名节
+  - date: 1692
+    title_zh: 出狱后归家著述不复求进
+    rationale: 历十年官司看透宦海转以编书存世为志
+events:
+- id: guji-陈梦雷-event-birth
+  title_zh: 生于福建闽侯
+  date: 1650
+  year_of: 1650
+  description: 顺治七年生于福建闽侯
+  place: 福建闽侯
+- id: guji-陈梦雷-event-jinshi
+  title_zh: 康熙年间中进士授编修
+  date: 1670
+  year_of: 1670
+  description: 康熙九年中进士授翰林院编修等职以直爽忠耿任事
+  place: 京师
+  endeavor_ref: guji-陈梦雷-endeavor-2
+- id: guji-陈梦雷-event-imprison
+  title_zh: 被诬入狱吃十年官司
+  date: 1682
+  year_of: 1682
+  description: 得罪权贵被诬告入狱历十年官司备尝艰辛
+  place: 京师
+  endeavor_ref: guji-陈梦雷-endeavor-2
+- id: guji-陈梦雷-event-release
+  title_zh: 获释归家搜集医籍
+  date: 1692
+  year_of: 1692
+  description: 释放回家自以为太平无事遂搜集世纪以前全部医学文献
+  place: 福建
+  endeavor_ref: guji-陈梦雷-endeavor-1
+- id: guji-陈梦雷-event-collect
+  title_zh: 主编医部全录总括医经脉法
+  date: 1701
+  year_of: 1701
+  description: 自由在外时汇集黄帝素问灵枢难经脉法等及各科疾病理论经验
+  endeavor_ref: guji-陈梦雷-endeavor-1
+- id: guji-陈梦雷-event-complete
+  title_zh: 医部全录编成归入集成
+  date: 1726
+  year_of: 1726
+  description: 编成约千万字最大医学类书含医经诊断艺文记事名医列传归入古今图书集成
+  endeavor_ref: guji-陈梦雷-endeavor-1
+- id: guji-陈梦雷-event-death
+  title_zh: 雍正初复被系死于狱中
+  date: 1741
+  year_of: 1741
+  description: 雍正初莫名被捉复入牢狱最后死于狱中
+  place: 京师
+  endeavor_ref: guji-陈梦雷-endeavor-2
