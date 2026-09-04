@@ -9,7 +9,7 @@ person:
       date: 1683
       precision: year
       is_circa: true
-      raw: 康熙二十二年左右
+      raw: 康熙二十二年
     death:
       date: 1755
       precision: year
@@ -17,121 +17,94 @@ person:
       raw: 乾隆二十年
   birth_date: 1683
   death_date: 1755
-  era: 清乾隆朝
-  reign_ref: 乾隆十年乙丑
-  archetype: 经世督抚
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 治河赈济干臣
   dilemmas:
-  - 沿海营房易圮与经费民力之权衡
-  - 畿辅麦歉密筹接济与不致市价腾贵之两难
-  lesson: 因地制宜预筹于先方能固边靖民
-  summary_first_person: 吾督直隶逢夏旱麦薄既因海潮淋浸改建汛房为土草之制又密筹平粜协购东豫之麦兼饬蝗蝻以安畿辅
+  - 蠲赈加厚与国课仓储不足之间如何权衡
+  - 查灾宜速与核实防冒之间如何兼顾
+  lesson: 民食为重，预筹早办，查勘务实，方能不误国计民生
+  summary_first_person: 吾乃高斌，久任河务，兼理直隶，乾隆十年直隶春夏少雨，二麦歉收，吾奏请酌借籽种口粮，复请缓徵新旧钱粮，庆云成灾则拨漕米赈借，务使灾民不致失所
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70240.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70245.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70245.html
 endeavors:
 - id: guji-高斌-endeavor-1
-  title_zh: 畿东海汛营房经画
-  summary_zh: 天津静海沧州等处沿海设汛改建营房
+  title_zh: 直隶百余州县旱歉借种缓徵
+  summary_zh: 乾隆十年直隶大旱，奏报百十二州县厅借给籽种口粮，俟秋收勘分办理蠲赈
   phases:
   - key: brewing
-    name: 察勘沿海淋浸
+    name: 春夏察旱酌借
     labels:
       zh:
-      - 海防
-      - 察勘
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-haifang
-  - key: breakthrough
-    name: 疏陈改建土房
-    labels:
-      zh:
-      - 营制
-      - 因地制宜
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-haifang
+      - 查灾
+      - 借种
+    start_date: 1745-08-01
+    highlight_event_id: guji-高斌-event-1
   - key: climax
-    name: 部议准建营房告示房马棚
+    name: 秋收前缓徵待勘
     labels:
       zh:
-      - 会部
-      - 核准
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-haifang
-  - key: closure
-    name: 外委衙署依例裁止
-    labels:
-      zh:
-      - 节制
-      - 定制
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-haifang
+      - 缓徵
+      - 待勘
+    start_date: 1745-08-02
+    highlight_event_id: guji-高斌-event-2
   decisions:
-  - date: 1745-05
-    title_zh: 疏请建墩台营房马棚衙署
-    rationale: 沿海雨水海潮淋浸难久须近村建置以固汛守
-  - date: 1745-05
-    title_zh: 请以外委把总改给土房不建衙署
-    rationale: 遵向无建造衙署之例以节糜费而便守汛
+  - date: 1745-08-01
+    title_zh: 请借籽种口粮并及时布种秋禾
+    rationale: 二麦被旱兼雹伤，若不借种口粮则秋禾失时，来岁接济更难
+  - date: 1745-08-02
+    title_zh: 请宛平等六十四州县厅缓徵新旧钱粮
+    rationale: 六月未得透雨，八月开徵在即，先缓徵以安民心，俟秋收再分别办理
 - id: guji-高斌-endeavor-2
-  title_zh: 畿辅荒政协济筹储
-  summary_zh: 京畿雨泽愆期密筹平粜协购东豫麦石防蝗
+  title_zh: 畿辅庆云成灾赈借与预筹接济
+  summary_zh: 庆云旱象已成，委道府查勘拨漕米赈借，会商在京王大臣预筹借赈平粜之法
   phases:
-  - key: brewing
-    name: 入夏察雨麦收
-    labels:
-      zh:
-      - 农政
-      - 察收
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-jiji
   - key: breakthrough
-    name: 奉谕密筹平粜接济
+    name: 庆云拨漕赈借
     labels:
       zh:
-      - 奉谕
-      - 筹赈
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-jiji
-  - key: climax
-    name: 商议东豫采买存贮
-    labels:
-      zh:
-      - 协济
-      - 采买
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-jiji
+      - 赈借
+      - 漕米
+    start_date: 1745-08-02
+    highlight_event_id: guji-高斌-event-2
   - key: closure
-    name: 转饬州县防蝗缉麴
+    name: 会商预筹借赈平粜
     labels:
       zh:
-      - 防蝗
-      - 地方治理
-    start_date: 1745-05
-    highlight_event_id: guji-高斌-event-jiji
+      - 预筹
+      - 平粜
+    start_date: 1745-08-05
+    highlight_event_id: guji-高斌-event-2
   decisions:
-  - date: 1745-05
-    title_zh: 暗中筹画平粜接济具奏
-    rationale: 麦收歉薄恐民乏食当预筹于未显之时而不声张
-  - date: 1745-05
-    title_zh: 商东豫于丰收处采买麦石存贮
-    rationale: 趁收获酌量发银买贮以备接济直隶而不使粮价昂贵
+  - date: 1745-08-02
+    title_zh: 庆云拨领漕米作赈借之用
+    rationale: 庆云旱象已成，不可拘泥秋后勘分，须即拨漕米救急以防流离
+  - date: 1745-08-05
+    title_zh: 会同王大臣那苏图预筹接济方略
+    rationale: 畿辅雨泽不匀，或借或赈或平粜宜预定，运密云古北粮石就近办理最速
 events:
 - id: guji-高斌-event-birth
-  title_zh: 诞生
+  title_zh: 出生
   date: 1683
   year_of: 1683
-  description_zh: 高斌生于康熙年间后以内务府出身累擢至直隶总督
-- id: guji-高斌-event-haifang
-  title_zh: 疏议天津等处海汛营房
-  date: 1745-05
-  year_of: 1745
-  description_zh: 乾隆十年五月直隶总督高斌疏天津静海沧州盐山庆云南皮六州县沿海汛拨墩台营房烟墩及四党口守备把总衙署改建事部议准建营房告示房马棚外委不准建衙署
-- id: guji-高斌-event-jiji
-  title_zh: 奉谕筹备直隶接济防蝗
-  date: 1745-05
-  year_of: 1745
-  description_zh: 乾隆十年五月因京师雨泽愆期麦收歉薄谕令高斌密筹平粜接济协商山东河南采买麦石存贮并转饬州县防范蝗蝻
+  place_zh: 奉天
+  description_zh: 康熙二十二年生，内务府出身，后以治河干练历任要职
 - id: guji-高斌-event-death
   title_zh: 逝世
   date: 1755
   year_of: 1755
-  description_zh: 高斌卒于乾隆二十年累官文渊阁大学士总督直隶江南河道以勤敏干济称
+  place_zh: 京师
+  description_zh: 乾隆二十年卒，谥文定，终身以河务赈务著称
+- id: guji-高斌-event-1
+  title_zh: 疏报直属百十二州县厅旱歉借种
+  date: 1745-08-01
+  year_of: 1745
+  place_zh: 直隶
+  description_zh: 升任直隶总督任内疏称文安河间等百十二州县厅春夏愆雨二麦歉收兼雹伤，酌借籽种口粮令布种秋禾，加赈蠲免俟秋获勘分办理
+- id: guji-高斌-event-2
+  title_zh: 疏报宛平等州县缓徵庆云赈借
+  date: 1745-08-02
+  year_of: 1745
+  place_zh: 直隶庆云
+  description_zh: 疏称宛平等六十四州县厅六月未得透雨请缓徵新旧钱粮，庆云旱象已成委道府查勘拨漕米赈借，奉旨加意抚绥毋致失所
