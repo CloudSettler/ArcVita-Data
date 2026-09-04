@@ -1,0 +1,138 @@
+person:
+  qid: guji-净柱
+  name_zh: 净柱
+  names:
+    zh: 净柱
+    en: Jingzhu
+  lifespan:
+    birth:
+      date: '1600'
+      precision: year
+      is_circa: true
+      raw: 明末生年未详
+    death:
+      date: '1650'
+      precision: year
+      is_circa: true
+      raw: 清初示寂年未详
+  birth_date: '1600'
+  death_date: '1650'
+  era: 明末清初
+  reign_ref: 崇祯
+  archetype: 禅门史家
+  dilemmas:
+  - 灯录浩繁而湮没日甚，续作恐招僭越之讥
+  - 世乱藏书散佚，秉笔与避世之间难两全
+  lesson: 惧慧命湮紊而发心续灯，去似存真以待后贤扩充
+  summary_first_person: 吾号远门，嗣祖于支提，见五灯会元止于宋元，洞济散行而名实将湮，故自崇祯壬午载笔，历甲申成续略四册，藏之石室以俟真孙
+  source_urls:
+  - https://daizhige.org/
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-净柱-endeavor-1
+  title_zh: 纂修五灯会元续略
+  summary_zh: 缵大川老人之绪，旁搜博采，芟繁选要，成洞上临下续略四卷
+  phases:
+  - key: brewing
+    name: 罗辑多年旁搜博采
+    labels:
+      zh: 搜集酝酿
+    start_date: '1642'
+    highlight_event_id: guji-净柱-event-compile-start
+  - key: breakthrough
+    name: 壬午载笔从事
+    labels:
+      zh: 开局撰述
+    start_date: '1642'
+    highlight_event_id: guji-净柱-event-compile-start
+  - key: climax
+    name: 甲申冬季烂然成编
+    labels:
+      zh: 成编高峰
+    start_date: '1644'
+    highlight_event_id: guji-净柱-event-compile-done
+  - key: closure
+    name: 藏之石室附先师末后语
+    labels:
+      zh: 收藏待刊
+    start_date: '1648'
+    highlight_event_id: guji-净柱-event-store-stone
+  decisions:
+  - date: '1642'
+    title_zh: 决意续大川会元
+    rationale: 恐世久名湮脉紊，授受不明，故取豫而续作
+  - date: '1644'
+    title_zh: 暂藏石室不行
+    rationale: 四方多故，不敢通行，待时而出以全书
+- id: guji-净柱-endeavor-2
+  title_zh: 住持支提接续法脉
+  summary_zh: 以嗣祖沙门身份住持弘化，辨洞宗源流正派，护持云门寿昌少室三叶
+  phases:
+  - key: brewing
+    name: 登少室探求行实遗言
+    labels:
+      zh: 访道求法
+    start_date: '1640'
+    highlight_event_id: guji-净柱-event-visit-shaoshi
+  - key: breakthrough
+    name: 嗣法支提列名住持
+    labels:
+      zh: 得法承嗣
+    start_date: '1642'
+    highlight_event_id: guji-净柱-event-visit-shaoshi
+  - key: climax
+    name: 正弁山源流之误
+    labels:
+      zh: 辨正宗派
+    start_date: '1644'
+    highlight_event_id: guji-净柱-event-compile-done
+  - key: closure
+    name: 以续略付后学俟巨手扩充
+    labels:
+      zh: 付嘱后贤
+    start_date: '1648'
+    highlight_event_id: guji-净柱-event-store-stone
+  decisions:
+  - date: '1640'
+    title_zh: 亲登少室搜抄本语略
+    rationale: 清凉以上宗支无从考核，须按塔铭刻会核实
+  - date: '1648'
+    title_zh: 附石雨和尚末后语入编
+    rationale: 遘先师示寂，取续经书孔丘卒之义以志绝续
+events:
+- id: guji-净柱-event-birth
+  title_zh: 降生
+  date: '1600'
+  year_of: 1600
+  place_zh: 未详
+  description_zh: 明末降生，少出家，号远门，后嗣法于支提山
+- id: guji-净柱-event-visit-shaoshi
+  title_zh: 登少室访洞宗遗书
+  date: '1640'
+  year_of: 1640
+  place_zh: 少室
+  description_zh: 登少室探求行实遗言，得抄本语略二十余篇，核以塔铭行实
+- id: guji-净柱-event-compile-start
+  title_zh: 崇祯壬午始笔续略
+  date: '1642'
+  year_of: 1642
+  place_zh: 支提山
+  description_zh: 罗辑多年，自壬午载笔从事，立凡例分洞上临下先后之次
+- id: guji-净柱-event-compile-done
+  title_zh: 甲申佛成道日成编
+  date: '1644'
+  year_of: 1644
+  place_zh: 支提山
+  description_zh: 甲申冬季烂然成编四册，洞宗居首，临济踵后，谨序以志岁月
+- id: guji-净柱-event-store-stone
+  title_zh: 藏书石室待时刊行
+  date: '1648'
+  year_of: 1648
+  place_zh: 石室
+  description_zh: 会四方多故藏之石室，更历四载附先师石雨示寂末后语，戊子漫书凡例以俟后师
+- id: guji-净柱-event-death
+  title_zh: 示寂
+  date: '1650'
+  year_of: 1650
+  place_zh: 未详
+  description_zh: 清初示寂，续略后由门人付梓，千灯互映之愿寄于后贤
