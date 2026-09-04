@@ -9,129 +9,135 @@ person:
       date: '0100'
       precision: year
       is_circa: true
-      raw: 约生于安息国王室为太子时
+      raw: 安息国太子生年不详约二世纪初
     death:
       date: 0168
       precision: year
       is_circa: true
-      raw: 约卒于会稽
+      raw: 约汉灵帝建宁元年卒于江南会稽
   birth_date: '0100'
   death_date: 0168
   era: 东汉
   reign_ref: 汉桓帝至汉灵帝
-  archetype: 舍国译经弘法者
+  archetype: 译经祖师
   dilemmas:
-  - 王位继承与出家求法之抉择
-  - 肉身供养与正信化导之抉择
-  lesson: 负亲千年犹难报恩唯以信戒闻施慧导父母得安隐方为真报
-  summary_first_person: 吾本安息太子让国出家来入洛阳译经弘禅吾观父母乳哺长养恩重难报虽右肩负父左肩负母经历千年便利背上犹不足报唯教父母生信持戒多闻好施黠慧归依佛法众得现身获果安隐方为真报故译此父母恩难报经以劝世人
+  - title_zh: 王位与出家
+    description: 舍安息王位出家修道远赴汉土弘法
+  - title_zh: 梵汉会通之难
+    description: 以弹指间喻勉汉地初机信受禅观三十七品
+  lesson: 弹指亦可精进三十七道品贵在念行不忘不愚痴食人施
+  summary_first_person: 吾本安息太子舍国出家东来洛阳惟译禅数宣说三十七品弹指不空即是道场
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%88%B6%E6%AF%8D%E6%81%A9%E9%9A%BE%E6%8A%A5%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%88%B6%E6%AF%8D%E6%81%A9%E9%9A%BE%E6%8A%A5%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A6%85%E8%A1%8C%E4%B8%89%E5%8D%81%E4%B8%83%E5%93%81%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%A6%85%E8%A1%8C%E4%B8%89%E5%8D%81%E4%B8%83%E5%93%81%E7%BB%8F.md
+  - https://cbetaonline.dila.edu.tw/zh/T0604
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 让国东来洛阳创译
-  summary_zh: 以安息太子身份让国出家精通禅数律藏东汉桓帝时抵洛阳设馆译经三十余部奠定汉译基础
+  title_zh: 让国出家洛阳译经
+  summary: 安息太子让位出家汉桓帝时至洛阳译出禅数诸经开汉地译经之先
   phases:
   - key: brewing
-    name: 安息让国出家习禅
+    name: 安息让国习禅
     labels:
-      zh: 弃位求法
-    start_date: '0130'
+      zh:
+      - 太子出家
+    start_date: '0140'
     highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 建和初抵洛阳
+    name: 远涉洛阳
     labels:
-      zh: 西来东土
+      zh:
+      - 初至汉土
     start_date: 0148
-    highlight_event_id: guji-安世高-event-luoyang
+    highlight_event_id: guji-安世高-event-arrive-luoyang
   - key: climax
-    name: 译出禅数经法
+    name: 译经授禅
     labels:
-      zh: 创译奠基
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-fumu
+      zh:
+      - 译场开创
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: closure
-    name: 译业成就南下化导
+    name: 南游化导
     labels:
-      zh: 南行弘化
-    start_date: '0165'
-    highlight_event_id: guji-安世高-event-jiangnan
+      zh:
+      - 江南弘化
+    start_date: '0167'
+    highlight_event_id: guji-安世高-event-south
   decisions:
-  - date: '0140'
-    title_zh: 让位叔父出家修道
-    rationale: 厌王位无常慕出世安隐故舍国求法以全慧命
   - date: 0148
-    title_zh: 定居洛阳专事译经
-    rationale: 见汉地未闻禅法故以译经授禅为报佛恩之正行
+    title_zh: 舍安息王位东赴洛阳
+    rationale: 不恋国土欲以禅法饶益东方令汉人得闻正教
+  - date: '0150'
+    title_zh: 先译禅行安般等经
+    rationale: 汉地初机散乱当以数息四念处摄心故先示禅要
 - id: guji-安世高-endeavor-2
-  title_zh: 译弘父母恩难报经阐扬孝道
-  summary_zh: 于洛阳译出佛说父母恩难报经明父母乳哺大益纵负行千年犹不足报须以信戒闻施慧导亲归三宝方得安隐
+  title_zh: 宣说禅行三十七品
+  summary: 于舍卫祇园之教寄佛口宣说四念处至八正道以弹指精进劝念行
   phases:
   - key: brewing
-    name: 观察汉俗孝养之惑
+    name: 示四意止断
     labels:
-      zh: 观机酝酿
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-luoyang
+      zh:
+      - 四念处四正勤
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: breakthrough
-    name: 译出父母恩难报经
+    name: 示神足根力
     labels:
-      zh: 译经明孝
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-fumu
+      zh:
+      - 神足根力
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: climax
-    name: 以五事教亲获安隐
+    name: 示七觉八道
     labels:
-      zh: 正信报恩
-    start_date: '0155'
-    highlight_event_id: guji-安世高-event-jiangnan
+      zh:
+      - 觉意正道
+    start_date: '0151'
+    highlight_event_id: guji-安世高-event-preach-37
   - key: closure
-    name: 南土嘱累奉行流通
+    name: 结欢喜受持
     labels:
-      zh: 流通奉行
-    start_date: 0168
-    highlight_event_id: guji-安世高-event-death
+      zh:
+      - 信受奉行
+    start_date: '0151'
+    highlight_event_id: guji-安世高-event-preach-37
   decisions:
-  - date: '0152'
-    title_zh: 拣译父母恩难报经
-    rationale: 欲破但知形养不知法养之偏故举佛在祇园诲比丘之说以立正报
-  - date: '0155'
-    title_zh: 以信戒闻施慧为报恩纲
-    rationale: 以财养有限以法养无量故劝子以出法味令父母归佛法众得福田安隐
+  - date: '0151'
+    title_zh: 以弹指间为喻摄三十七品之要
+    rationale: 欲破懈怠令知少行亦胜愚痴食施何况多行故撮要劝修
+  - date: '0151'
+    title_zh: 依佛语次第具说七科
+    rationale: 四止四断四神足五根五力七觉八道次第增上不可缺略故具演
 events:
 - id: guji-安世高-event-birth
-  title_zh: 生于安息国王室为太子
-  type: birth
   date: '0100'
   year_of: 100
-  place_zh: 安息国
-  summary_zh: 生于安息国王族少好学博通经术明禅慧而让国于叔出家修道
-- id: guji-安世高-event-luoyang
-  title_zh: 抵洛阳设馆译经
-  type: career
+  title_zh: 生于安息国王家
+  description: 安息国太子名清字世高少习梵典通禅观让位出家
+- id: guji-安世高-event-arrive-luoyang
   date: 0148
   year_of: 148
-  place_zh: 洛阳
-  summary_zh: 汉桓帝建和二年抵洛阳通达华言设馆译经兼授禅数后世称译经始祖
-- id: guji-安世高-event-fumu
-  title_zh: 译出佛说父母恩难报经
-  type: career
-  date: '0152'
-  year_of: 152
-  place_zh: 洛阳
-  summary_zh: 译佛在舍卫祇园告比丘之说明负父母千年犹不足报须教信戒闻施慧皈三宝获安隐诸比丘欢喜奉行
-- id: guji-安世高-event-jiangnan
-  title_zh: 南下会稽荆扬化导
-  type: career
-  date: '0165'
-  year_of: 165
-  place_zh: 会稽
-  summary_zh: 中原渐乱南下会稽豫章宣讲译经劝以慈孝正信化导士庶
+  title_zh: 至洛阳遇汉桓帝时
+  description: 永寿年间远来洛阳精通汉语文辞通达众经开始译经
+- id: guji-安世高-event-translate-chanxing
+  date: '0150'
+  year_of: 150
+  title_zh: 译出佛说禅行三十七品经
+  description: 游舍卫祇园佛告比丘弹指惟行身痛意法止观乃至八正道皆当念行译文撮要劝精进
+- id: guji-安世高-event-preach-37
+  date: '0151'
+  year_of: 151
+  title_zh: 开演七科道品禅要
+  description: 次第敷演四意止四意断四神足五根五力七觉意八正道示弹指功德劝多行者
+- id: guji-安世高-event-south
+  date: '0167'
+  year_of: 167
+  title_zh: 南游江南化导
+  description: 避乱南下至会稽广陵弘禅译经济度众生
 - id: guji-安世高-event-death
-  title_zh: 示寂于会稽
-  type: death
   date: 0168
   year_of: 168
-  place_zh: 会稽
-  summary_zh: 弘化江南后示寂于会稽世传其神异灵迹译典流通后世奉为安侯
+  title_zh: 卒于江南
+  description: 化缘既毕示寂于江南后人尊为汉地译经之祖
