@@ -1,0 +1,132 @@
+person:
+  qid: guji-顏元孫
+  name_zh: 顏元孫
+  names:
+    zh: 顏元孫
+    en: Yan Yuansun
+  lifespan:
+    birth:
+      date: '0652'
+      precision: year
+      is_circa: true
+      raw: 唐高宗永徽年間約生於長安
+    death:
+      date: '0714'
+      precision: year
+      is_circa: true
+      raw: 唐玄宗開元二年卒
+  birth_date: '0652'
+  death_date: '0714'
+  era: 唐
+  reign_ref: 唐玄宗開元
+  archetype: 學者
+  dilemmas:
+  - 科舉取士重文辭而字體淆亂當守正還是從俗
+  - 家學經術衰微當仕進求榮還是著書傳後
+  lesson: 辨正俗通以存經義守家學以傳字法
+  summary_first_person: 吾顏元孫承顏師古家學仕唐為太子舍人中郎將觀時俗字體淆亂取捨無準遂以平上去入四聲編次辨俗通正三體撰干祿字書以供干祿應舉者取正去聲一部凡三百九十一字皆吾心血所繫願後學守正不阿
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B9%B2%E7%A6%84%E5%AD%97%E4%B9%A6/%E5%8E%BB%E5%A3%B0.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B9%B2%E7%A6%84%E5%AD%97%E4%B9%A6/%E5%8E%BB%E5%A3%B0.html
+endeavors:
+- id: guji-顏元孫-endeavor-1
+  title_zh: 編撰干祿字書辨正俗通
+  summary: 以四聲編次辨俗通正三體成干祿字書去聲部共三百九十一字
+  phases:
+  - key: brewing
+    name: 蒐集經籍俗字
+    labels:
+      zh:
+      - 蒐集
+      - 考校
+    start_date: '0705'
+    highlight_event_id: guji-顏元孫-event-compile
+  - key: breakthrough
+    name: 立俗通正三體例
+    labels:
+      zh:
+      - 立例
+    start_date: '0710'
+    highlight_event_id: guji-顏元孫-event-compile
+  - key: climax
+    name: 撰成干祿字書上表
+    labels:
+      zh:
+      - 撰述
+      - 去聲
+    start_date: '0713'
+    highlight_event_id: guji-顏元孫-event-compile
+  - key: closure
+    name: 傳鈔刊刻流布
+    labels:
+      zh:
+      - 流布
+    start_date: '0714'
+    highlight_event_id: guji-顏元孫-event-compile
+  decisions:
+  - date: '0710'
+    title_zh: 以平上去入四聲分部編字
+    rationale: 便於干祿應舉檢尋兼存音韻條理
+  - date: '0713'
+    title_zh: 去聲部並列俗正如凍涷義譬等
+    rationale: 示上俗下正使學者知取捨而不惑於俗體
+- id: guji-顏元孫-endeavor-2
+  title_zh: 承顏氏家學授經仕唐
+  summary: 承顏師古訓詁之學仕為左衛中郎將太子舍人教授經史
+  phases:
+  - key: brewing
+    name: 少承家學誦經習字
+    labels:
+      zh:
+      - 家學
+    start_date: '0660'
+    highlight_event_id: guji-顏元孫-event-birth
+  - key: breakthrough
+    name: 出仕講授經義
+    labels:
+      zh:
+      - 出仕
+    start_date: '0700'
+    highlight_event_id: guji-顏元孫-event-teach
+  - key: climax
+    name: 任太子舍人授書東宮
+    labels:
+      zh:
+      - 授經
+    start_date: '0710'
+    highlight_event_id: guji-顏元孫-event-teach
+  - key: closure
+    name: 以字書遺惠後學
+    labels:
+      zh:
+      - 傳後
+    start_date: '0714'
+    highlight_event_id: guji-顏元孫-event-death
+  decisions:
+  - date: '0700'
+    title_zh: 不逐詞章浮華專治訓詁字學
+    rationale: 念經義存亡繫於文字正俗故守小學以衛大經
+  - date: '0710'
+    title_zh: 以正字之法教導東宮僚屬
+    rationale: 欲使儲君左右文辭典正以端國本
+events:
+- id: guji-顏元孫-event-birth
+  date: '0652'
+  year_of: 652
+  title_zh: 生於雍州長安顏氏
+  description: 顏師古族孫生於書香門第少承訓詁家法
+- id: guji-顏元孫-event-teach
+  date: '0710'
+  year_of: 710
+  title_zh: 任太子舍人左衛中郎將
+  description: 侍奉東宮教授經籍以字學端正文辭
+- id: guji-顏元孫-event-compile
+  date: '0713'
+  year_of: 713
+  title_zh: 撰成干祿字書去聲部
+  description: 以平上去入編次去聲收凍涷夢瓮甕義譬戲備寐等三百九十一字辨俗通正並上俗下正
+- id: guji-顏元孫-event-death
+  date: '0714'
+  year_of: 714
+  title_zh: 卒於開元二年
+  description: 書成未久即卒其書傳鈔於世為後世字樣之宗
