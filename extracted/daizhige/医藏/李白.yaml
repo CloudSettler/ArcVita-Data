@@ -1,0 +1,138 @@
+person:
+  qid: guji-李白
+  name_zh: 李白
+  names:
+    zh: 李白
+    en: Li Bai
+  lifespan:
+    birth:
+      date: '0701'
+      precision: year
+      is_circa: false
+      raw: 唐长安元年
+    death:
+      date: '0762'
+      precision: year
+      is_circa: false
+      raw: 唐宝应元年
+  birth_date: '0701'
+  death_date: '0762'
+  era: 唐
+  reign_ref: 玄宗开元
+  archetype: 诗仙济世
+  dilemmas:
+  - 才高纵逸与仕途失意之两难
+  - 醉吟风月与乩坛救人之身份之变
+  lesson: 诗可言志，仙方可活人，风雅亦能济世
+  summary_first_person: 吾乃青莲，少时仗剑远游，醉中百篇诗成，后以乩仙之名再临阳曲，与诸仙共传济世良方
+  source_urls:
+  - https://daizhige.org/医藏/神仙济世良方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/神仙济世良方.md
+endeavors:
+- id: guji-李白-endeavor-1
+  title_zh: 诗酒游历成就青莲诗仙
+  summary: 少入蜀学道，仗剑出川，供奉翰林，醉酒赋诗，名动天下
+  phases:
+  - key: brewing
+    name: 蜀中发轫
+    labels:
+      zh: 求学游历
+    start_date: '0715'
+    highlight_event_id: guji-李白-event-study
+  - key: breakthrough
+    name: 长安供奉
+    labels:
+      zh: 诗名天下
+    start_date: '0742'
+    highlight_event_id: guji-李白-event-hanlin
+  - key: climax
+    name: 醉别权贵
+    labels:
+      zh: 纵逸山水
+    start_date: '0744'
+    highlight_event_id: guji-李白-event-leave
+  decisions:
+  - date: '0742'
+    title_zh: 受诏入京供奉翰林
+    rationale: 以诗才近天子，欲展经纶，后见权贵擅朝乃决意远引
+  - date: '0744'
+    title_zh: 醉酒离京浪迹江湖
+    rationale: 不愿摧眉折腰，保全雅洁之志，以山水诗酒全其天真
+- id: guji-李白-endeavor-2
+  title_zh: 嘉庆乩坛显圣共传医方
+  summary: 嘉庆元年冬月爱鹤亭等雅洁，频降乩联吟题赞，嘉庆二年共成神仙济世良方
+  phases:
+  - key: brewing
+    name: 阳曲请乩
+    labels:
+      zh: 乩坛初降
+    start_date: '1796-12-01'
+    highlight_event_id: guji-李白-event-ji1796
+  - key: breakthrough
+    name: 联吟题赞
+    labels:
+      zh: 仙诗证道
+    start_date: '1797-01-01'
+    highlight_event_id: guji-李白-event-praise
+  - key: closure
+    name: 良方告成
+    labels:
+      zh: 济世成书
+    start_date: '1797-03-01'
+    highlight_event_id: guji-李白-event-bookdone
+  decisions:
+  - date: '1796-12-01'
+    title_zh: 爱雅频降阳曲官舍
+    rationale: 嘉庆元年冬月鹤亭等三人常请乩仙，爱其雅故频降机与之联吟
+  - date: '1797-03-01'
+    title_zh: 题赞钟离曹仙共证济世
+    rationale: 以醉学士青莲之名题赞诸仙，助南极老人序书，使医方借仙名广传
+events:
+- id: guji-李白-event-birth
+  date: '0701'
+  year_of: 701
+  title_zh: 李白诞生
+  description: 唐长安元年诞生，后随父迁居蜀中彰明
+  place_zh: 碎叶
+- id: guji-李白-event-study
+  date: '0715'
+  year_of: 715
+  title_zh: 蜀中读书学道
+  description: 少时在蜀读书，学剑学道，喜纵横术，始有逸仙之志
+  place_zh: 蜀中
+- id: guji-李白-event-hanlin
+  date: '0742'
+  year_of: 742
+  title_zh: 供奉翰林
+  description: 以诗才召入长安供奉翰林，赋诗饮酒，名动京师
+  place_zh: 长安
+- id: guji-李白-event-leave
+  date: '0744'
+  year_of: 744
+  title_zh: 离京漫游
+  description: 被赐金放还，浪迹梁宋齐鲁，与杜甫等交游，诗风益豪
+  place_zh: 梁宋
+- id: guji-李白-event-ji1796
+  date: '1796-12-01'
+  year_of: 1796
+  title_zh: 嘉庆元年冬月降乩阳曲
+  description: 鹤亭等三人常请乩仙，自称醉学士青莲，爱其雅频降机联吟
+  place_zh: 阳曲尉官舍
+- id: guji-李白-event-praise
+  date: '1797-01-01'
+  year_of: 1797
+  title_zh: 题赞钟离曹仙诸作
+  description: 以李白青莲居士之名题钟离逍遥蓬莱句及曹仙白云深处句，列于卷首
+  place_zh: 阳曲
+- id: guji-李白-event-bookdone
+  date: '1797-03-01'
+  year_of: 1797
+  title_zh: 神仙济世良方告成
+  description: 与寿星南极老人吕祖诸仙共传方论，鹤等以书告成请序于寿星
+  place_zh: 阳曲
+- id: guji-李白-event-death
+  date: '0762'
+  year_of: 762
+  title_zh: 病逝当涂
+  description: 唐宝应元年病逝于当涂，后世尊为诗仙，托名醉学士再显乩坛
+  place_zh: 当涂

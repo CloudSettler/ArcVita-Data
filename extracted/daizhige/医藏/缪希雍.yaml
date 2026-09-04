@@ -8,7 +8,7 @@ person:
     birth:
       date: 1546-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 明嘉靖二十五年
     death:
       date: 1627-01-01
@@ -19,123 +19,108 @@ person:
   death_date: 1627-01-01
   era: 明
   reign_ref: 明嘉靖至天启
-  archetype: 医家
+  archetype: 医家名医
   dilemmas:
-  - 科举屡试不第当弃儒就医还是继续求仕
-  - 守古炮炙繁法与从简便民之间如何取舍
-  - 金石毒烈当生用存性还是火炼求安之间如何决断
-  lesson: 炮炙得法则药性全水火失度则良药亦废医者当守法存真不惜繁劳
-  summary_first_person: 吾缪希雍字仲淳常熟人也少习举业无成转究岐黄详考水火土金石草木炮炙之宜疏解神农本草之旨著炮炙大法以示后学愿人得真药以全活也
+  - 药禀偏至之气用违其性则害至当兼述功过以慎其始
+  - 本草品类浩繁真伪混杂当详辨种类移正部分以防误服
+  lesson: 据经疏义缘义致用明药之利亦明药之害以全司命之责
+  summary_first_person: 我是缪希雍字仲淳常熟人少善病而长嗜方技僻耽药妙据神农本经疏义致用参互长短简误防失撰成三十卷愿后学因疏通经使药物利而无害
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/炮炙大法.md
-  - https://daizhige.org/医藏/炮炙大法.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F%E7%96%8F.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%96%8F.html
 endeavors:
 - id: guji-缪希雍-endeavor-1
-  title_zh: 汇辑炮炙大法规范药工
-  summary: 博考水火土金石诸部炮炙之法订立修事水飞火煅酒浸蜜炙之程式以正药力
+  title_zh: 疏解神农本草经
+  summary_zh: 据经疏义缘义致用参互尽长简误防失撰成神农本草经疏三十卷
   phases:
   - key: brewing
-    name: 弃儒习医博览炮炙见闻
+    name: 少善病嗜方技
     labels:
-      zh:
-      - 习医
-      - 考水火
-    start_date: 1575-01-01
-    highlight_event_id: guji-缪希雍-event-practice
+      zh: 酿研读
+    start_date: 1560-01-01
+    highlight_event_id: guji-缪希雍-event-study
   - key: breakthrough
-    name: 辨别真伪确立修事准则
+    name: 据经疏义立例
     labels:
-      zh:
-      - 辨真伪
-      - 立法度
+      zh: 立例撰疏
     start_date: 1600-01-01
-    highlight_event_id: guji-缪希雍-event-bencao
+    highlight_event_id: guji-缪希雍-event-study
   - key: climax
-    name: 分部著录成炮炙大法
+    name: 定稿三十卷
     labels:
-      zh:
-      - 分部
-      - 成书
-    start_date: 1622-01-01
-    highlight_event_id: guji-缪希雍-event-paozhi
+      zh: 定稿成书
+    start_date: 1625-06-11
+    highlight_event_id: guji-缪希雍-event-book
+  - key: closure
+    name: 门人校刊流传
+    labels:
+      zh: 校刊流传
+    start_date: 1625-06-11
+    highlight_event_id: guji-缪希雍-event-book
   decisions:
-  - date: 1605-01-01
-    title_zh: 坚持生用朱砂力戒火炼
-    rationale: 朱砂一经火炼则杀人故宁万遍细研水飞以存真性不图省工
-  - date: 1622-01-01
-    title_zh: 以水火土金石草部分条详录
-    rationale: 药材性质各异非分部难明水火之宜故仿本草体例使学者易检易行
+  - date: 1600-01-01
+    title_zh: 据经疏义缘义致用
+    rationale: 三坟之书言其然而不言所以然故须疏义以通经契往使晦而复明
+  - date: 1625-06-11
+    title_zh: 详列病忌药忌简误防失
+    rationale: 药禀天地偏至之气用违则偏重为害故条析应病分门并著简误以防误用
 - id: guji-缪希雍-endeavor-2
-  title_zh: 疏注本草广笔记以济世活人
-  summary: 疏解神农本草经旨撰先醒斋医学广笔记行医吴中以脉药并重救治危证
+  title_zh: 精于脉理行医济世
+  summary_zh: 以医为司命精脉理审病机蓄药护短长以苏凋瘵起沉疴
   phases:
   - key: brewing
-    name: 游学吴中行医积累验案
+    name: 研精殚思通药性
     labels:
-      zh:
-      - 行医
-      - 积累
-    start_date: 1580-01-01
-    highlight_event_id: guji-缪希雍-event-practice
+      zh: 研药性
+    start_date: 1570-01-01
+    highlight_event_id: guji-缪希雍-event-study
   - key: breakthrough
-    name: 疏解本经阐发药性主治
+    name: 以药攻邪著主治防互
     labels:
-      zh:
-      - 疏经
-      - 明性
-    start_date: 1612-01-01
-    highlight_event_id: guji-缪希雍-event-bencao
+      zh: 明防互
+    start_date: 1600-01-01
+    highlight_event_id: guji-缪希雍-event-study
+  - key: climax
+    name: 七方十剂定法畅神
+    labels:
+      zh: 定法度
+    start_date: 1625-06-11
+    highlight_event_id: guji-缪希雍-event-book
   - key: closure
-    name: 笔记广传晚年托付后学
+    name: 遗稿付刊广来学
     labels:
-      zh:
-      - 授徒
-      - 传书
-    start_date: 1625-01-01
-    highlight_event_id: guji-缪希雍-event-death
+      zh: 广来学
+    start_date: 1625-06-11
+    highlight_event_id: guji-缪希雍-event-book
   decisions:
-  - date: 1616-01-01
-    title_zh: 以经疏合参临床不泥古方
-    rationale: 本草经文简奥必结合时病情志疏解方能指导用药全活多人
-  - date: 1620-01-01
-    title_zh: 收录验案直书得失以教后人
-    rationale: 医道贵真故于广笔记中备载成败使后学者知所取舍不敢苟且
+  - date: 1570-01-01
+    title_zh: 耽药妙济群生
+    rationale: 自念禀薄多病又感仙人道士由药道济群生故立志以医为司命
+  - date: 1600-01-01
+    title_zh: 合众药之长护其所短
+    rationale: 今时七情五欲交固病情殊古须防互旁通彼此兼济方无乖刺败坏之弊
 events:
 - id: guji-缪希雍-event-birth
+  title_zh: 出生于常熟
   type: birth
-  title_zh: 常熟出生
   date: 1546-01-01
   year_of: 1546
-  place_zh: 常熟
-  description: 明嘉靖二十五年出生于常熟少习举子业后转究医学
-- id: guji-缪希雍-event-practice
-  type: career
-  title_zh: 行医吴中声名渐起
-  date: 1585-01-01
-  year_of: 1585
-  place_zh: 吴中
-  description: 屡试不第后专攻岐黄游学行医于吴中辨药论脉救治多人
-  related_endeavor_id: guji-缪希雍-endeavor-2
-- id: guji-缪希雍-event-bencao
-  type: career
-  title_zh: 疏注神农本草经
-  date: 1616-01-01
-  year_of: 1616
-  place_zh: 常熟
-  description: 考订本草药性撰成神农本草经疏阐发主治炮制大义
-  related_endeavor_id: guji-缪希雍-endeavor-2
-- id: guji-缪希雍-event-paozhi
-  type: career
-  title_zh: 编成炮炙大法
-  date: 1622-01-01
-  year_of: 1622
-  place_zh: 常熟
-  description: 分水火土金石草诸部分条详录修事水飞火煅之法成炮炙大法一卷
-  related_endeavor_id: guji-缪希雍-endeavor-1
+  summary_zh: 明嘉靖二十五年出生于常熟字仲淳
+- id: guji-缪希雍-event-study
+  title_zh: 少善病嗜方技研药
+  type: study
+  date: 1570-01-01
+  year_of: 1570
+  summary_zh: 少善病长嗜方技僻耽药妙研精药性气味生成与主治防互
+- id: guji-缪希雍-event-book
+  title_zh: 神农本草经疏定稿
+  type: book
+  date: 1625-06-11
+  year_of: 1625
+  summary_zh: 天启五年乙丑六月十一日定本续序例二卷药四百九十味门人参录付刊
 - id: guji-缪希雍-event-death
+  title_zh: 逝世
   type: death
-  title_zh: 晚年逝世
   date: 1627-01-01
   year_of: 1627
-  place_zh: 常熟
-  description: 明天启七年逝世留下本草经疏广笔记炮炙大法等书传于后世
+  summary_zh: 明天启七年逝世遗稿由门人李季虬等参录流传

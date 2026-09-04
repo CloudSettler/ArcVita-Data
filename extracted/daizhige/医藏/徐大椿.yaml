@@ -6,131 +6,137 @@ person:
     en: Xu Dachun
   lifespan:
     birth:
-      date: 1693
+      date: '1693'
       precision: year
       is_circa: false
       raw: 康熙三十二年
     death:
-      date: 1771
+      date: '1771'
       precision: year
       is_circa: false
       raw: 乾隆三十六年
-  birth_date: 1693
-  death_date: 1771
+  birth_date: '1693'
+  death_date: '1771'
   era: 清
   reign_ref: 乾隆
-  archetype: 名医
+  archetype: 医家
   dilemmas:
-  - title_zh: 守古法与徇时俗
-    description: 世医废古书而专用温补，我若直言痛斥则孤立难容，若沉默则坐视枉死
-  - title_zh: 救人与醒世
-    description: 临证所救不过一人一时，著书立说方能挽回风气而绵斯道于一线
-  lesson: 由浅入深守定法，对症用药驱邪为先，慎用温补以保生民之寿
-  summary_first_person: 我弱冠时家多疾病，因翻阅家藏医书而入医门，十余年上追灵素下沿汉唐，注难经，注本草，作医学源流论与伤寒类方，批阅千卷泛览万卷，目击庸医以参附熟地误人，悲悯填胸而作慎疾刍言，愿以敬慎寡过以明哲保身
+  - 择习见百种探本溯原恐挂漏与尽解全经恐昧心诬圣之间两难
+  - 补虚扶正以救人与攻邪祛病当审慎用人参之间两难
+  lesson: 明药之所以然方能制方治病不可执药治病以偏概全
+  summary_first_person: 余松陵徐大椿也感本经不讲方不成方乃择习见百种审形辨味探其所以然以明古圣立方治病之心而阙其所疑以俟后之君子
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%85%8E%E7%96%BE%E5%88%8D%E8%A8%80.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%85%8E%E7%96%BE%E5%88%8D%E8%A8%80.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F%E7%99%BE%E7%A7%8D%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F%E7%99%BE%E7%A7%8D%E5%BD%95.md
 endeavors:
 - id: guji-徐大椿-endeavor-1
-  person_id: guji-徐大椿
-  title_zh: 穷经注书明医学源流
-  summary: 半生攻苦博览经方，注难经本草，作源流论与伤寒类方以正根源
+  title_zh: 择百种辨药性著神农本草经百种录
+  summary: 就市中所见审形辨味以合经义取色形质气味之偏胜阐发百种药性之所以然
   phases:
   - key: brewing
-    name: 弱冠翻阅家藏渐入医门
+    name: 考白字本经别名实审土产
     labels:
       zh:
-      - 积学
-      - 溯源
-    start_date: 1713
-    highlight_event_id: guji-徐大椿-event-zhujing
+      - 考据
+      - 本草
+    start_date: '1730'
+    highlight_event_id: guji-徐大椿-event-1
   - key: breakthrough
-    name: 注难经本草成一家言
+    name: 以色形质味立说悟药性偏胜
     labels:
       zh:
-      - 注经
-      - 明理
-    start_date: 1733
-    highlight_event_id: guji-徐大椿-event-yuanliu
+      - 药性
+      - 义蕴
+    start_date: '1734'
+    highlight_event_id: guji-徐大椿-event-1
+  - key: climax
+    name: 舟次扬子江题序成百种录
+    labels:
+      zh:
+      - 著述
+      - 百种录
+    start_date: '1736'
+    highlight_event_id: guji-徐大椿-event-1
   - key: closure
-    name: 源流伤寒类方并传于世
+    name: 阙疑存慎以俟后君子悟全经
+    labels:
+      zh:
+      - 阙疑
+      - 传承
+    start_date: '1736'
+    highlight_event_id: guji-徐大椿-event-1
+  decisions:
+  - date: '1736'
+    title_zh: 但择习见不疑者共得百种
+    rationale: 耳目所及无多古今名实互异若必尽解全经不免昧心诬圣故阙疑而阐其所以然
+  - date: '1736'
+    title_zh: 依明重刻宋大观本白字本经为据
+    rationale: 取其古胜于近刻以存朱书神农本经之旧而详辨药性主治之精微妙义
+- id: guji-徐大椿-endeavor-2
+  title_zh: 论医源流正时弊以医济世
+  summary: 通经史精医理著医学源流论兰台轨范洄溪医案等纠人参熟地滥用之失以复仲景经方之义
+  phases:
+  - key: brewing
+    name: 博极经史兼通天文历算
+    labels:
+      zh:
+      - 博学
+      - 养望
+    start_date: '1710'
+    highlight_event_id: guji-徐大椿-event-2
+  - key: breakthrough
+    name: 辨人参补泻分合斥滥补杀人
+    labels:
+      zh:
+      - 临床
+      - 辨证
+    start_date: '1750'
+    highlight_event_id: guji-徐大椿-event-2
+  - key: climax
+    name: 著医学源流论成一家之言
     labels:
       zh:
       - 立论
-      - 传道
-    start_date: 1753
-    highlight_event_id: guji-徐大椿-event-yuanliu
-  decisions:
-  - date: 1733
-    title_zh: 先注难经以立根基
-    rationale: 学必由浅入深，不明经络本义则方无所据，故十年注经不求速效
-  - date: 1753
-    title_zh: 作源流论以统谈医学
-    rationale: 世医各执一说莫能一致，须上追灵素下沿汉唐以辨源流得失
-- id: guji-徐大椿-endeavor-2
-  person_id: guji-徐大椿
-  title_zh: 作慎疾刍言痛斥温补之弊
-  summary: 抠心挖骨剖悉时弊，戒补剂误人，详论中风咳嗽吐血暑痢胎产小儿外科治法
-  phases:
-  - key: brewing
-    name: 目击枉死心伤积愤
-    labels:
-      zh:
-      - 悯世
-      - 察弊
-    start_date: 1760
-    highlight_event_id: guji-徐大椿-event-chuyan
-  - key: climax
-    name: 乾隆丁亥成慎疾刍言
-    labels:
-      zh:
-      - 醒世
-      - 戒补
-    start_date: 1767
-    highlight_event_id: guji-徐大椿-event-chuyan
+      - 济世
+    start_date: '1757'
+    highlight_event_id: guji-徐大椿-event-2
   - key: closure
-    name: 付刊流传冀遇信从
+    name: 晚年医名著洄溪医案以垂范
     labels:
       zh:
-      - 流传
-      - 保身
-    start_date: 1767
-    highlight_event_id: guji-徐大椿-event-chuyan
+      - 医案
+      - 垂训
+    start_date: '1765'
+    highlight_event_id: guji-徐大椿-event-death
   decisions:
-  - date: 1767
-    title_zh: 增订刍言为慎疾刍言
-    rationale: 统谈医学无惊心动魄之语不足开悟，须痛快剖悉补住外邪之害以令人豁然
-  - date: 1767
-    title_zh: 力主散邪清热反对蛮补
-    rationale: 外感总以散热为治，邪补住则永不复出，故立浅近定法以救中风痨嗽胎产之死
+  - date: '1757'
+    title_zh: 著论详辨虚实分合用人参法
+    rationale: 病未去而用参则病根遂固故当分邪正相离者补虚以托邪合者专于攻散不可借参塞责
+  - date: '1760'
+    title_zh: 不就征召守隐士之节以著述济世
+    rationale: 深求造化之微非通达者不可轻试故以笔代仕匡正宋元以来师心自用之谬
 events:
 - id: guji-徐大椿-event-birth
-  person_id: guji-徐大椿
-  title_zh: 出生于吴江
-  date: 1693
+  type: birth
+  title_zh: 生于吴江松陵
+  date: '1693'
   year_of: 1693
-  description: 康熙三十二年生于江苏吴江，字灵胎号洄溪
-- id: guji-徐大椿-event-zhujing
-  person_id: guji-徐大椿
-  title_zh: 注难经本草
-  date: 1743
-  year_of: 1743
-  description: 弱冠后十余年注难经，又十余年注本草，批阅千卷泛览万卷而学以年进
-- id: guji-徐大椿-event-yuanliu
-  person_id: guji-徐大椿
-  title_zh: 作医学源流论伤寒类方
-  date: 1757
+  description: 康熙三十二年生于江苏吴江字灵胎号洄溪
+- id: guji-徐大椿-event-1
+  type: achievement
+  title_zh: 题序神农本草经百种录于扬子江舟次
+  date: '1736'
+  year_of: 1736
+  description: 乾隆元年柔兆执徐余月上弦成百种录探本溯原发所以然之义
+- id: guji-徐大椿-event-2
+  type: achievement
+  title_zh: 著成医学源流论正时医之失
+  date: '1757'
   year_of: 1757
-  description: 作医学源流论以统论得失，五年后著伤寒类方以明仲景制方之义
-- id: guji-徐大椿-event-chuyan
-  person_id: guji-徐大椿
-  title_zh: 乾隆丁亥成慎疾刍言
-  date: 1767
-  year_of: 1767
-  description: 秋七月自识成慎疾刍言，详辨补剂用药中风咳嗽吐血暑痢及妇人小儿外科之误
+  description: 乾隆二十二年著论辨病之分合论人参加减之宜斥滥用补剂之弊名动海内
 - id: guji-徐大椿-event-death
-  person_id: guji-徐大椿
-  title_zh: 逝世
-  date: 1771
+  type: death
+  title_zh: 卒于吴江
+  date: '1771'
   year_of: 1771
-  description: 乾隆三十六年卒，一生以正医法活人无算，遗书由曾孙校刊流传
+  description: 乾隆三十六年卒留下兰台轨范医贯砭洄溪医案等垂惠后学

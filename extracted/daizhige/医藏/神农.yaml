@@ -1,0 +1,144 @@
+person:
+  qid: guji-神农
+  name_zh: 神农
+  names:
+    zh: 神农
+    en: Shennong
+  lifespan:
+    birth:
+      date: '-2737'
+      precision: year
+      is_circa: true
+      raw: 约公元前二七三七年
+    death:
+      date: '-2698'
+      precision: year
+      is_circa: true
+      raw: 约公元前二六九八年
+  birth_date: '-2737'
+  death_date: '-2698'
+  era: 上古传说
+  archetype: 医药农耕始祖
+  dilemmas:
+  - 以身试毒辨别百草寒温之性与保全自身性命之两难
+  - 定君臣佐使三品分类以便后人施用与草石真伪陈新难辨之困
+  - 教民稼穑定居养命与旧俗逐水草游猎之冲突
+  lesson: 亲尝躬验以利天下立法度以传后世当不辞身险
+  summary_first_person: 吾为神农见民多疾而食谷不康乃亲尝百草辨五味四气定上中下三品与君臣佐使之法又教民稼穑以养命愿后人察病之源用药有节久服不伤
+  source_urls:
+  - https://daizhige.org/神农本草经.html
+  - https://ctext.org/wiki.pl?if=gb&res=603559
+endeavors:
+- id: guji-神农-endeavor-1
+  title_zh: 尝百草辨药性定本草
+  phases:
+  - key: brewing
+    name: 察民疾苦萌念尝草
+    labels:
+      zh:
+      - 体察民瘼
+    start_date: '-2730'
+    highlight_event_id: guji-神农-event-taste
+  - key: breakthrough
+    name: 辨五味四气有毒无毒
+    labels:
+      zh:
+      - 辨性识毒
+    start_date: '-2725'
+    highlight_event_id: guji-神农-event-three-grades
+  - key: climax
+    name: 定三品三百六十五种
+    labels:
+      zh:
+      - 分类成书
+    start_date: '-2720'
+    highlight_event_id: guji-神农-event-three-grades
+  - key: closure
+    name: 传君臣佐使七情合和之法
+    labels:
+      zh:
+      - 立法垂后
+    start_date: '-2715'
+    highlight_event_id: guji-神农-event-teach-use
+  decisions:
+  - date: '-2725'
+    title_zh: 以身试毒定寒热温凉
+    rationale: 欲知药性非口尝身验不可得虽遇毒亦制而记之以明宜忌
+  - date: '-2720'
+    title_zh: 分上中下三品应天地人
+    rationale: 上药养命无毒可久服中药养性斟酌其宜下药治病多毒不可久服故分君臣以相宣摄
+- id: guji-神农-endeavor-2
+  title_zh: 教民稼穑兴农耕医药
+  phases:
+  - key: brewing
+    name: 观谷可食教民播种
+    labels:
+      zh:
+      - 始兴农耕
+    start_date: '-2728'
+    highlight_event_id: guji-神农-event-farming
+  - key: breakthrough
+    name: 制耒耜辨五谷时日
+    labels:
+      zh:
+      - 制器授时
+    start_date: '-2724'
+    highlight_event_id: guji-神农-event-farming
+  - key: climax
+    name: 以饮食养民以医药治疾
+    labels:
+      zh:
+      - 农医并举
+    start_date: '-2718'
+    highlight_event_id: guji-神农-event-teach-use
+  - key: closure
+    name: 遗法后世本草相传
+    labels:
+      zh:
+      - 泽被后世
+    start_date: '-2700'
+    highlight_event_id: guji-神农-event-teach-use
+  decisions:
+  - date: '-2724'
+    title_zh: 弃游猎而劝稼穑定居
+    rationale: 谷食能养命而有节猎食不继且多疾故当教民树艺以安五脏
+  - date: '-2718'
+    title_zh: 察病之源先候病机而后用药
+    rationale: 五脏未虚六腑未竭服药必活病已成可得半愈故当先察其源各随其宜
+events:
+- id: guji-神农-event-birth
+  title_zh: 神农诞生
+  date: '-2737'
+  year_of: -2737
+  kind: birth
+  description: 传说炎帝神农生于姜水体察民瘼立志养命利民
+- id: guji-神农-event-taste
+  title_zh: 亲尝百草辨寒温五味
+  date: '-2730'
+  year_of: -2730
+  kind: endeavor
+  description: 遍尝草石骨肉辨酸咸甘苦辛五味寒热温凉四气及有毒无毒阴干暴干采治之法
+- id: guji-神农-event-three-grades
+  title_zh: 定上中下三品三百六十五种
+  date: '-2720'
+  year_of: -2720
+  kind: endeavor
+  description: 定上药一百二十种为君主养命下药一百二十种主治病中药一百二十种为臣主养性合三百六十五种以应岁
+- id: guji-神农-event-farming
+  title_zh: 教民稼穑始兴农事
+  date: '-2724'
+  year_of: -2724
+  kind: endeavor
+  description: 教民播种五谷制耒耜别土宜占时日使民有粒食而体渐康
+- id: guji-神农-event-teach-use
+  title_zh: 传君臣佐使服食之节
+  date: '-2715'
+  year_of: -2715
+  kind: endeavor
+  description: 传药有君臣佐使七情和合病在上者先食后服在下者先服后食毒药先起如黍粟病去即止之法
+- id: guji-神农-event-death
+  title_zh: 神农逝世
+  date: '-2698'
+  year_of: -2698
+  kind: death
+  description: 传说因尝百草遇毒而逝其法载于本草后人孙星衍等辑为神农本草经传世
