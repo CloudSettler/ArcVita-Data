@@ -1,0 +1,154 @@
+person:
+  qid: guji-沙图穆苏
+  name_zh: 沙图穆苏
+  names:
+    zh: 沙图穆苏
+    en: Shatumusu
+  lifespan:
+    birth:
+      date: 1270
+      precision: year
+      is_circa: true
+      raw: 元初至元年间前后
+    death:
+      date: 1335
+      precision: year
+      is_circa: true
+      raw: 元文宗至顺以后
+  birth_date: 1270
+  death_date: 1335
+  era: 元
+  reign_ref: 元仁宗延祐至元文宗至顺间
+  archetype: 循吏医家
+  dilemmas:
+  - title_zh: 良相与良医之抉择
+    description: 以仁心济世当由相业施政还是医道活人两途皆不忍舍
+  - title_zh: 南北药性之权衡
+    description: 北人气禀壮实方多峻利南人柔弱当随宜消息而不拘成法
+  lesson: 以一点仁心贯通吏治与医道政药兼施方能泽被万姓
+  summary_first_person: 余字谦斋尝历风宪出守建昌退而考订名医方书分门别类集成瑞竹堂经验方以惠斯世愿以良相之志行良医之仁
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+  - https://ctext.org
+endeavors:
+- id: guji-沙图穆苏-endeavor-1
+  person_qid: guji-沙图穆苏
+  title_zh: 历仕风宪出守建昌
+  summary: 由御史历风宪民社以绣衣直指摧奸贪拯生民后出守建昌行龚黄之政
+  phases:
+  - key: brewing
+    name: 历仕风宪
+    labels:
+      zh:
+      - 风宪
+      - 爱人
+    start_date: 1305
+    highlight_event_id: guji-沙图穆苏-event-yushi
+  - key: breakthrough
+    name: 出守建昌
+    labels:
+      zh:
+      - 建昌
+      - 良相之志
+    start_date: 1320
+    highlight_event_id: guji-沙图穆苏-event-jianchang
+  - key: closure
+    name: 郡政惠民
+    labels:
+      zh:
+      - 仁政
+      - 泽被四方
+    start_date: 1325
+    highlight_event_id: guji-沙图穆苏-event-jianchang
+  decisions:
+  - date: 1320
+    title_zh: 以御史出守建昌小试龚黄
+    rationale: 由柏垣登薇府后愿以仁心亲民便于推行利民实政
+  - date: 1325
+    title_zh: 莅官余暇留意医药
+    rationale: 见世间医方繁而验少欲以善药补善政之不及
+- id: guji-沙图穆苏-endeavor-2
+  person_qid: guji-沙图穆苏
+  title_zh: 搜验编刊瑞竹堂经验方
+  summary: 搜藏王公贵人隐逸高人异方屡试屡验进医流订正分门别类成十五卷锓梓郡庠
+  phases:
+  - key: brewing
+    name: 搜藏异方
+    labels:
+      zh:
+      - 搜方
+      - 谨藏谨试
+    start_date: 1322
+    highlight_event_id: guji-沙图穆苏-event-collect
+  - key: breakthrough
+    name: 订正成书
+    labels:
+      zh:
+      - 订正
+      - 分门别类
+    start_date: 1328
+    highlight_event_id: guji-沙图穆苏-event-book
+  - key: climax
+    name: 锓梓惠世
+    labels:
+      zh:
+      - 刊刻
+      - 利济
+    start_date: 1330
+    highlight_event_id: guji-沙图穆苏-event-book
+  decisions:
+  - date: 1328
+    title_zh: 进医流相与订正常验之方
+    rationale: 所藏异方多和剂三因易简所未载屡试屡验需订正以去伪存真
+  - date: 1330
+    title_zh: 分十五卷锓梓郡庠以瑞竹堂名书
+    rationale: 插竹为樊竹再生根以为瑞欲以此瑞广施爱人之仁使人人可诵习
+events:
+- id: guji-沙图穆苏-event-birth
+  person_qid: guji-沙图穆苏
+  type: birth
+  title_zh: 出生
+  date: 1270
+  year_of: 1270
+  is_circa: true
+  description: 约生于元初少志范文正良相良医之学亦名萨德弥实
+- id: guji-沙图穆苏-event-yushi
+  person_qid: guji-沙图穆苏
+  type: career
+  title_zh: 历仕风宪任御史
+  date: 1310
+  year_of: 1310
+  is_circa: true
+  description: 历仕风宪民社轻车埋轮绣文直指所至摧奸贪拯生民由柏垣登薇府
+- id: guji-沙图穆苏-event-jianchang
+  person_qid: guji-沙图穆苏
+  type: career
+  title_zh: 出为建昌太守
+  date: 1320
+  year_of: 1320
+  is_circa: true
+  description: 出守建昌小试龚黄之事莅官余暇注意医药方书之事
+- id: guji-沙图穆苏-event-collect
+  person_qid: guji-沙图穆苏
+  type: career
+  title_zh: 搜藏屡试异方
+  date: 1325
+  year_of: 1325
+  is_circa: true
+  description: 于王公贵人隐逸高人之手得异方率谨藏之遇疾谨试之屡试屡验积久弥富
+- id: guji-沙图穆苏-event-book
+  person_qid: guji-沙图穆苏
+  type: career
+  title_zh: 编刊瑞竹堂经验方
+  date: 1330
+  year_of: 1330
+  is_circa: true
+  description: 在郡进医流订正分门别类为十五卷锓梓郡庠以瑞竹名堂吴澄王都中为序
+- id: guji-沙图穆苏-event-death
+  person_qid: guji-沙图穆苏
+  type: death
+  title_zh: 逝世
+  date: 1335
+  year_of: 1335
+  is_circa: true
+  description: 书成刊行后不久逝世原帙十五卷后散佚永乐大典尚存其多
