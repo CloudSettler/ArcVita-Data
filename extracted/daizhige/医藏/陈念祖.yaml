@@ -9,7 +9,7 @@ person:
       date: 1753
       precision: year
       is_circa: false
-      raw: 乾隆十八年福建长乐
+      raw: 乾隆十八年
     death:
       date: 1823
       precision: year
@@ -19,125 +19,136 @@ person:
   death_date: 1823
   era: 清
   reign_ref: 乾隆至道光
-  archetype: 经方传道医家
+  archetype: 儒医经方家
   dilemmas:
-  - 伤寒注家支离学人眩于似是而非难得要旨
-  - 汗下失宜伤阴阳从阴从阳传变不一难救
-  - 经旨深奥难普及浅俗又失仲景本意
-  lesson: 即浅注端绪推寻纲领抉剔疑似以活人活国
-  summary_first_person: 吾长乐陈念祖号修园曩集伤寒浅注三百九十七法犹虑学人未能融会故晚年综贯衍绎作医诀串解以桂枝麻黄为太阳纲以枢转开阖明传变愿后学不眩似是而非以此活人
+  - 时医守方浅陋而灵素仲景经旨晦而不明
+  - 女科难言易谬而室女经闭多转为劳瘵
+  lesson: 医者意也，以脾胃统摄血海之信，温通调平以复其常
+  summary_first_person: 吾长乐陈念祖字修园，幼读岐黄，穷时医之非而归于至正，以科举出宰邑境，以四诊佐抚字，不秘活人方，手刊群书，晚年殚精于女科，以脾胃论月信之信，独推金匮温经汤为调经神剂，遗命子孙付梓以利世人
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E5%8C%BB%E8%AF%80%E4%B8%B2%E8%A7%A3.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E5%8C%BB%E8%AF%80%E4%B8%B2%E8%A7%A3.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A5%B3%E7%A7%91%E8%A6%81%E6%97%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A5%B3%E7%A7%91%E8%A6%81%E6%97%A8.html
 endeavors:
 - id: guji-陈念祖-endeavor-1
-  title_zh: 浅注伤寒普及经方
-  summary_zh: 以三百九十七法作伤寒浅注复著南雅堂诸书期于明白易晓
+  title_zh: 调经立信撰女科要旨
+  summary: 以任通冲盛月信有时为纲，专主脾胃统血，参以阴阳虚实寒热，分调经种子胎前产后杂病，精选古今方而独尊温经汤
   phases:
   - key: brewing
-    name: 长乐习医博览仲景
+    name: 幼读岐黄穷时医之非
     labels:
       zh:
-      - 酝酿
-      - 习医
+      - 儒医
+      - 穷非归正
+    start_date: 1765
+    highlight_event_id: guji-陈念祖-event-birth
+  - key: breakthrough
+    name: 以脾胃释月信得悟调经大法
+    labels:
+      zh:
+      - 月信
+      - 脾胃
+    start_date: 1790
+    highlight_event_id: guji-陈念祖-event-serve
+  - key: climax
+    name: 讲学井上草堂阐发温经汤妙用
+    labels:
+      zh:
+      - 温经汤
+      - 女科讲学
+    start_date: 1805
+    highlight_event_id: guji-陈念祖-event-teach
+  - key: closure
+    name: 遗稿授子孙校刻女科要旨
+    labels:
+      zh:
+      - 女科要旨
+      - 付梓济世
+    start_date: 1820
+    highlight_event_id: guji-陈念祖-event-compile
+  decisions:
+  - date: 1790
+    title_zh: 以信字括月事立脾胃为统主
+    rationale: 心生血肝藏血而生化在水谷，故虚实用六君平胃，阴阳偏胜以四物加减为纲
+  - date: 1805
+    title_zh: 独尊金匮温经汤通治闭崩带下
+    rationale: 阳明为主寒燥并调，无逐瘀之品而能通能止能育，故不论虚实老少皆可化裁
+  - date: 1820
+    title_zh: 删繁精选仅存十九方示学人
+    rationale: 内经伤寒金匮方始可称方，浅陋之方徒汇药品，故取习用而精炼以复神农伊圣之法
+- id: guji-陈念祖-endeavor-2
+  title_zh: 注疏伤寒金匮惠泽后学
+  summary: 命子侄分注伤寒论浅注金匮要略浅注，剖晰详明，又手刊诸书广行于世，以四诊活人于燕南赵北
+  phases:
+  - key: brewing
+    name: 由儒入医兼通科举吏治
+    labels:
+      zh:
+      - 儒而为医
+      - 科举
     start_date: 1775
     highlight_event_id: guji-陈念祖-event-birth
   - key: breakthrough
-    name: 编成伤寒浅注
+    name: 出宰邑境以四诊佐抚字
     labels:
       zh:
-      - 突破
-      - 浅注
-    start_date: 1805
-    highlight_event_id: guji-陈念祖-event-works-qianzhu
+      - 抚字
+      - 四诊活人
+    start_date: 1791
+    highlight_event_id: guji-陈念祖-event-serve
   - key: climax
-    name: 南雅堂诸书风行
+    name: 命子侄分注伤寒金匮示来者
     labels:
       zh:
-      - 高峰
-      - 传道
-    start_date: 1810
-    highlight_event_id: guji-陈念祖-event-works-qianzhu
+      - 伤寒论浅注
+      - 金匮要略浅注
+    start_date: 1800
+    highlight_event_id: guji-陈念祖-event-teach
   - key: closure
-    name: 启后学融会之基
+    name: 手刊群书遗属尽刻所著
     labels:
       zh:
-      - 收束
-      - 垂范
-    start_date: 1818
-    highlight_event_id: guji-陈念祖-event-works-qianzhu
+      - 刊书济人
+      - 家学相承
+    start_date: 1815
+    highlight_event_id: guji-陈念祖-event-compile
   decisions:
-  - date: 1805
-    title_zh: 舍繁注而作浅注
-    rationale: 根据法条晰期于明白易晓使学人不眩于注家纷纭
-  - date: 1810
-    title_zh: 以桂枝麻黄立太阳纲
-    rationale: 辨脉缓自汗与脉浮紧无汗分虚邪实邪使一剂可愈有规可循
-- id: guji-陈念祖-endeavor-2
-  title_zh: 晚年综贯作医诀串解
-  summary_zh: 虑浅注未能融会贯通复综贯衍绎抉剔疑似细微成串解六篇
-  phases:
-  - key: brewing
-    name: 忧学人未得要旨
-    labels:
-      zh:
-      - 酝酿
-      - 立志
-    start_date: 1819
-    highlight_event_id: guji-陈念祖-event-works-qianzhu
-  - key: breakthrough
-    name: 综贯衍绎抉剔疑似
-    labels:
-      zh:
-      - 突破
-      - 串解
-    start_date: 1821
-    highlight_event_id: guji-陈念祖-event-works-chuanjie
-  - key: climax
-    name: 串解六篇编成五篇
-    labels:
-      zh:
-      - 高峰
-      - 成书
-    start_date: 1822
-    highlight_event_id: guji-陈念祖-event-works-chuanjie
-  - key: closure
-    name: 门人补缺后世雠刊
-    labels:
-      zh:
-      - 收束
-      - 传世
-    start_date: 1823
-    highlight_event_id: guji-陈念祖-event-death
-  decisions:
-  - date: 1821
-    title_zh: 复作串解补浅注未备
-    rationale: 浅注虽晰犹虑未能融会故综贯纲领明开阖枢转与传变权变斡旋之法
-  - date: 1822
-    title_zh: 以少阳枢转达太阳
-    rationale: 邪留本经或侵他经必藉少阳枢转外出故以小柴胡为太阳篇要剂
+  - date: 1791
+    title_zh: 以医道佐吏治不秘活人方
+    rationale: 儒者以济人为心，若独知俯视则济人不广，故刊书传方令世利赖
+  - date: 1800
+    title_zh: 令伯父叔父分任伤寒金匮注疏
+    rationale: 伤寒为前集金匮为后集，剖晰详明方能正时医之失而开后学之蒙
+  - date: 1815
+    title_zh: 嘱后人次第刊行存心济人
+    rationale: 先志未竟则为子孙之责，校付攻木以成善承家学之功
 events:
 - id: guji-陈念祖-event-birth
-  title_zh: 生于福建长乐
+  title_zh: 出生于福建长乐
   date: 1753
   year_of: 1753
   place_zh: 福建长乐
-  description_zh: 乾隆十八年生于长乐后名念祖号修园
-- id: guji-陈念祖-event-works-qianzhu
-  title_zh: 集伤寒浅注三百九十七法
+  note_zh: 乾隆十八年生，字修园，幼读岐黄即精其理
+- id: guji-陈念祖-event-serve
+  title_zh: 科举出身出宰以医佐政
+  date: 1791
+  year_of: 1791
+  place_zh: 直隶及州县任所
+  note_zh: 由科举出为邑宰，以四诊法佐抚字，燕南赵北人犹颂之
+- id: guji-陈念祖-event-teach
+  title_zh: 讲学嵩山井上草堂论女科
   date: 1805
   year_of: 1805
-  place_zh: 福建
-  description_zh: 根据法条晰作伤寒浅注期于明白易晓复著南雅堂十一种医书
-- id: guji-陈念祖-event-works-chuanjie
-  title_zh: 晚年编伤寒医诀串解
-  date: 1822
-  year_of: 1822
-  place_zh: 福建长乐
-  description_zh: 自言修园老矣复为综贯衍绎名曰串解于疑似细微处抉剔详辨成五篇缺一
+  place_zh: 嵩山井上草堂
+  note_zh: 与诸生论调经种子诸法，辨丹参益母诸俗方之失，发明温经汤寒热并调之妙
+- id: guji-陈念祖-event-compile
+  title_zh: 成女科要旨遗稿授子孙
+  date: 1820
+  year_of: 1820
+  place_zh: 家塾
+  note_zh: 殚精成女科要旨四卷，命先君韵拟未及付梓，遗属尽刻所著以裨于世
 - id: guji-陈念祖-event-death
-  title_zh: 卒于道光初年
+  title_zh: 逝世
   date: 1823
   year_of: 1823
-  place_zh: 福建长乐
-  description_zh: 道光三年卒门人犹子陈道著续一篇补缺合成六篇后经雠校传世
+  place_zh: 福建
+  note_zh: 道光三年卒，后长孙心典校付梓人以传家学
