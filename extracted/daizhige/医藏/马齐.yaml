@@ -6,139 +6,129 @@ person:
     en: Ma Qi
   lifespan:
     birth:
-      date: '1652'
+      date: 1652
       precision: year
-      is_circa: false
-      raw: 清顺治九年
+      is_circa: true
+      raw: 以乾隆四年薨年八十有八推算约康熙初
     death:
-      date: '1739'
+      date: 1739
       precision: year
       is_circa: false
-      raw: 清乾隆四年
-  birth_date: '1652'
-  death_date: '1739'
+      raw: 乾隆四年薨
+  birth_date: 1652
+  death_date: 1739
   era: 清
-  reign_ref: 康熙
-  archetype: 养生家
+  reign_ref: 康熙至乾隆
+  archetype: 宰辅养生家
   dilemmas:
-  - 仕宦劳形役心与保身全寿难两全
-  - 嗜欲耗精损气与固本惜精难抉择
-  lesson: 戒怒欲醉节饮食惜精保气全神乃延年之本
-  summary_first_person: 吾马齐历仕清朝目睹劳欲伤生故集卫生歌惜精论六字诀等以戒三戒节五辛调息养神劝人保精全寿
+  - 朝堂鞅掌与保身养寿如何兼得
+  - 家传秘方不轻传与广传济世如何抉择
+  lesson: 淡食节欲守中行善乃多寿少病延年之本
+  summary_first_person: 吾富察马齐历事三朝位至保和殿大学士家传养生四世多寿吾以淡食搓涂运睛叩齿諸术却病延年雍正四年序陆地仙经以传同调愿共守勿间断同登寿域
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E7%A7%98%E6%97%A8.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%BB%E7%94%9F%E7%A7%98%E6%97%A8.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%99%86%E5%9C%B0%E4%BB%99%E7%BB%8F.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%99%86%E5%9C%B0%E4%BB%99%E7%BB%8F.html
 endeavors:
 - id: guji-马齐-endeavor-1
-  title_zh: 历仕体悟卫生保身
-  summary_zh: 久历官场观劳欲致病遂以戒怒嗔节饮食防风寒为养生之基
+  person_qid: guji-马齐
+  title_zh: 三朝宰辅历事
+  description: 由荫生授员外郎累迁内阁学士河督尚书武英殿保和殿大学士进太保封二等伯谥文穆
   phases:
   - key: brewing
-    name: 早年入仕观身
+    name: 荫生入仕
     labels:
-      zh: 入仕养正
-    start_date: '1680'
-    highlight_event_id: guji-马齐-event-office
+      zh: 荫生员外郎
+    start_date: 1669
+    highlight_event_id: guji-马齐-event-office-start
   - key: breakthrough
-    name: 省悟三戒之害
+    name: 历部院督河
     labels:
-      zh: 戒怒欲醉
-    start_date: '1700'
-    highlight_event_id: guji-马齐-event-sanji
+      zh: 内阁学士尚书
+    start_date: 1700
+    highlight_event_id: guji-马齐-event-grand-secretary
   - key: climax
-    name: 践行起居调摄
+    name: 保和殿辅政
     labels:
-      zh: 调摄起居
-    start_date: '1715'
-    highlight_event_id: guji-马齐-event-tiaoshe
+      zh: 保和殿大学士太保
+    start_date: 1716
+    highlight_event_id: guji-马齐-event-grand-secretary
   - key: closure
-    name: 总结卫生之道
+    name: 封伯谥穆善终
     labels:
-      zh: 总结卫生
-    start_date: '1730'
-    highlight_event_id: guji-马齐-event-tiaoshe
+      zh: 二等伯文穆
+    start_date: 1730
+    highlight_event_id: guji-马齐-event-death
   decisions:
-  - date: '1700'
-    title_zh: 立三戒以卫生
-    rationale: 大怒大欲大醉最损元气故首立戒以保真元
-  - date: '1715'
-    title_zh: 节饮食调起居
-    rationale: 饱伤脾饥伤胃风入致病故节食防风以全身
+  - date: 1716
+    title_zh: 居保和殿总理事务持重守成
+    rationale: 历康熙晚年纷争以持重保全家国并全养生之道
+  - date: 1726
+    title_zh: 槐荫堂自序注养生以明志
+    rationale: 以宰辅之重表章家法劝同调守淡食节欲之常
 - id: guji-马齐-endeavor-2
-  title_zh: 辑著养生秘旨传世
-  summary_zh: 汇孙真人歌长生诀精气神论六字治病诀成养生秘旨一卷
+  person_qid: guji-马齐
+  title_zh: 传家养生著陆地仙经
+  description: 承先祖遇张仙师得却病延年法集四世验为十六条总论并治眼九法以传姻戚同调
   phases:
   - key: brewing
-    name: 搜集前修格言
+    name: 四世多寿家风
     labels:
-      zh: 采集格言
-    start_date: '1720'
-    highlight_event_id: guji-马齐-event-zhushu
+      zh: 家传多寿少病
+    start_date: 1652
+    highlight_event_id: guji-马齐-event-birth
   - key: breakthrough
-    name: 阐明惜精主旨
+    name: 得仙师却病方
     labels:
-      zh: 惜精立论
-    start_date: '1725'
-    highlight_event_id: guji-马齐-event-zhushu
+      zh: 山岚遇仙得丸
+    start_date: 1700
+    highlight_event_id: guji-马齐-event-office-start
   - key: climax
-    name: 详定调息治病诀
+    name: 集成十六条总论
     labels:
-      zh: 定调息诀
-    start_date: '1728'
-    highlight_event_id: guji-马齐-event-liuzi
+      zh: 淡食固元行善
+    start_date: 1726
+    highlight_event_id: guji-马齐-event-book-preface
   - key: closure
-    name: 成书示人延寿
+    name: 付梓广传同调
     labels:
-      zh: 成书传世
-    start_date: '1732'
-    highlight_event_id: guji-马齐-event-liuzi
+      zh: 槐荫堂珍书传世
+    start_date: 1726
+    highlight_event_id: guji-马齐-event-book-preface
   decisions:
-  - date: '1725'
-    title_zh: 以惜精为第一义
-    rationale: 元精元气元神为三宝精固则气壮神全故专论惜精
-  - date: '1728'
-    title_zh: 录六字神水法
-    rationale: 呵呼呬吹嘻嘘可泻补五脏神水可滋养故录以却病
+  - date: 1726
+    title_zh: 启仙师手笔付吴陈冯刘裴诸公
+    rationale: 应同调屡求独善不如兼济以广仙师仁人之意
+  - date: 1726
+    title_zh: 定名陆地仙经以多寿少病为验
+    rationale: 不言飞升而言延寿十纪使人人可遵而行之
 events:
 - id: guji-马齐-event-birth
-  type: birth
-  title_zh: 诞生
-  date: '1652'
+  person_qid: guji-马齐
+  title_zh: 出生于满洲镶黄旗富察氏
+  date: 1652
   year_of: 1652
-  description_zh: 清顺治九年生于富察氏家世居盛京后入仕清朝
-- id: guji-马齐-event-office
-  type: career
-  title_zh: 入仕历官体悟劳生
-  date: '1680'
-  year_of: 1680
-  description_zh: 入仕后历繁剧观官场劳形役心嗜欲伤生始悟卫生保身之要
-- id: guji-马齐-event-sanji
-  type: career
-  title_zh: 悟三戒节五辛
-  date: '1700'
-  year_of: 1700
-  description_zh: 体悟大怒大欲大醉损元气节五辛调四时饮食起居以养体
-- id: guji-马齐-event-tiaoshe
-  type: career
-  title_zh: 践行调息却病法
-  date: '1715'
-  year_of: 1715
-  description_zh: 践行静坐调息却病十法察十不治之由以养神惜气
-- id: guji-马齐-event-zhushu
-  type: career
-  title_zh: 辑养生秘旨论惜精
-  date: '1725'
-  year_of: 1725
-  description_zh: 汇卫生歌可惜歌长生歌及钟离吕祖诸真格言论元精产药以惜精为长生本
-- id: guji-马齐-event-liuzi
-  type: career
-  title_zh: 定六字神水法
-  date: '1728'
-  year_of: 1728
-  description_zh: 定呵呼呬吹嘻嘘治五脏法与神水滋养法潮候以传却病延年
+  description: 一等敏果公米思翰之次子生于清顺康之际
+- id: guji-马齐-event-office-start
+  person_qid: guji-马齐
+  title_zh: 由荫生授员外郎入仕
+  date: 1669
+  year_of: 1669
+  description: 初入部务渐迁内阁学士河督尚书
+- id: guji-马齐-event-grand-secretary
+  person_qid: guji-马齐
+  title_zh: 拜武英殿保和殿大学士兼户部尚书总理事务
+  date: 1716
+  year_of: 1716
+  description: 历康雍之际位极人臣进太保封二等伯
+- id: guji-马齐-event-book-preface
+  person_qid: guji-马齐
+  title_zh: 槐荫堂序注陆地仙经
+  date: 1726
+  year_of: 1726
+  description: 雍正四年丙午夏六月望日雨后序十六条总论并注以传同调
 - id: guji-马齐-event-death
-  type: death
-  title_zh: 寿终
-  date: '1739'
+  person_qid: guji-马齐
+  title_zh: 薨于京师谥文穆
+  date: 1739
   year_of: 1739
-  description_zh: 清乾隆四年卒享寿八十余以养生秘旨一卷传世
+  description: 以乾隆四年薨年八十有八赠太傅

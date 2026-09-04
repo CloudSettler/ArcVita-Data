@@ -9,138 +9,118 @@ person:
       date: 1808
       precision: year
       is_circa: false
-      raw: 清嘉庆十三年生于浙江钱塘
+      raw: 清嘉庆十三年生于杭州
     death:
       date: 1866
       precision: year
       is_circa: false
-      raw: 清同治五年卒于杭州
+      raw: 清同治五年卒
   birth_date: 1808
   death_date: 1866
   era: 清
-  reign_ref: 道光
+  reign_ref: 同治
   archetype: 济世良医
   dilemmas:
-  - 温补盛行而温热为害当力救其偏还是明哲保身以全身名
-  - 医案编次欲人深思自得当详注脉义方药还是略点以待自悟
-  lesson: 随证制方丝丝入扣不执效方始能救人活命
-  summary_first_person: 吾王士雄字孟英别号潜斋半痴梦影浙之钱塘人也研医宗喻氏嘉言著温热经纬及王氏五种留医案十一卷愿后人融会贯通随证制方不执死方以困活人
+  - 时医偏执温补误治热性霍乱而致死者甚众
+  - 旧板已毁避乱流离中是否重订旧作以救时疫
+  lesson: 霍乱有寒热之分热化为常当宣郁清解不可妄投燥热温补
+  summary_first_person: 余随息居士生长杭垣幼失怙而潜心医学尝草霍乱论于天台后避乱上海见霍乱大行司命者罔知所措故重订旧论首病情次治法次医案次药方以辨寒热救苍生
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%8E%8B%E6%B0%8F%E5%8C%BB%E6%A1%88%E7%BB%8E%E6%B3%A8.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%8E%8B%E6%B0%8F%E5%8C%BB%E6%A1%88%E7%BB%8E%E6%B3%A8.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%9A%8F%E6%81%AF%E5%B1%85%E9%87%8D%E8%AE%A2%E9%9C%8D%E4%B9%B1%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%9A%8F%E6%81%AF%E5%B1%85%E9%87%8D%E8%AE%A2%E9%9C%8D%E4%B9%B1%E8%AE%BA.md
 endeavors:
 - id: guji-王士雄-endeavor-1
-  person_qid: guji-王士雄
-  title_zh: 温热经纬著述纠温补之偏
-  summary: 研喻氏嘉言之学著温热经纬及王氏五种以救温补流弊
+  title_zh: 道光间草创霍乱论辨明寒热
+  summary_zh: 于天台道上草霍乱论由张柳吟阅定王仲安梓行以纠偏执温补之弊
   phases:
   - key: brewing
-    name: 潜心研读伤寒温病
+    name: 杭垣学医潜心温热
     labels:
-      zh: 博览研喻氏医门法律
-    start_date: 1828
-    highlight_event_id: guji-王士雄-event-study
+      zh: 酝酿
+    start_date: 1825
+    highlight_event_id: guji-王士雄-event-birth
   - key: breakthrough
-    name: 悟随证制方不执效方
+    name: 天台道上草成霍乱论
     labels:
-      zh: 示梦影不执方义
-    start_date: 1838
-    highlight_event_id: guji-王士雄-event-wenre
+      zh: 突破
+    start_date: 1839
+    highlight_event_id: guji-王士雄-event-caogao
   - key: climax
-    name: 温热经纬行世
+    name: 阅定付梓行于世
     labels:
-      zh: 著述行世救偏
-    start_date: 1852
-    highlight_event_id: guji-王士雄-event-wenre
-  - key: closure
-    name: 王氏五种汇刊流传
-    labels:
-      zh: 五种合刊惠后学
-    start_date: 1862
-    highlight_event_id: guji-王士雄-event-complete
-  decisions:
-  - date: 1852
-    title_zh: 著温热经纬明温热纲纪
-    rationale: 温补杀人甚于时疫当宗仲景喻氏以正其源
-  - date: 1862
-    title_zh: 汇王氏五种以全其学
-    rationale: 使后人兼读融会不至偏执缓读
-- id: guji-王士雄-endeavor-2
-  person_qid: guji-王士雄
-  title_zh: 临证医案十一卷济世活人
-  summary: 随证制方丝丝入扣起沉疴救危急留案十一卷
-  phases:
-  - key: brewing
-    name: 临诊辨在气在血
-    labels:
-      zh: 把脉辨证详察病情
-    start_date: 1830
-    highlight_event_id: guji-王士雄-event-practice
-  - key: breakthrough
-    name: 急证急治偏证偏治著效
-    labels:
-      zh: 霍乱中毒疟痢起死回生
+      zh: 高潮
     start_date: 1840
-    highlight_event_id: guji-王士雄-event-practice
-  - key: climax
-    name: 医案十一卷编次成帙
-    labels:
-      zh: 编案苦心欲人深思自得
-    start_date: 1855
-    highlight_event_id: guji-王士雄-event-complete
+    highlight_event_id: guji-王士雄-event-caogao
   - key: closure
-    name: 后学绎注指掌流传
+    name: 板存杭会二十余年
     labels:
-      zh: 任氏绎注成中医指掌
-    start_date: 1865
-    highlight_event_id: guji-王士雄-event-complete
+      zh: 收束
+    start_date: 1850
+    highlight_event_id: guji-王士雄-event-caogao
   decisions:
-  - date: 1845
-    title_zh: 坚持随证制方不用成方执药
-    rationale: 药因证异效方亦须化裁方能丝丝入扣
-  - date: 1855
-    title_zh: 编案或详脉证或略方铢以启思
-    rationale: 欲令学者深思自得不执死书困活人
+  - date: 1839
+    title_zh: 草霍乱论于天台道上
+    rationale: 见霍乱热化居多而世医多执风冷温补故立论发明热证治法
+  - date: 1840
+    title_zh: 付张柳吟阅定梓行
+    rationale: 借名家审定刊刻以广流传正偏执一方之弊
+- id: guji-王士雄-endeavor-2
+  title_zh: 同治避乱上海重订霍乱论
+  summary_zh: 避兵燹至上海见霍乱臭毒盛行应金逸斋之请重订旧论分病情治法医案药方四篇以救时
+  phases:
+  - key: brewing
+    name: 别弟携家栖濮院避地
+    labels:
+      zh: 酝酿
+    start_date: 1860
+    highlight_event_id: guji-王士雄-event-chongding
+  - key: breakthrough
+    name: 避地申江见疫大行
+    labels:
+      zh: 突破
+    start_date: 1862-06-01
+    highlight_event_id: guji-王士雄-event-chongding
+  - key: climax
+    name: 应请重订分四篇成书
+    labels:
+      zh: 高潮
+    start_date: 1862-09-01
+    highlight_event_id: guji-王士雄-event-chongding
+  - key: closure
+    name: 题名重订霍乱论付梓
+    labels:
+      zh: 收束
+    start_date: 1862-10-01
+    highlight_event_id: guji-王士雄-event-chongding
+  decisions:
+  - date: 1862-06-01
+    title_zh: 避乱上海不忘医事
+    rationale: 杭垣再陷赁屋黄歇浦仍以随息居为号存济世之心
+  - date: 1862-09-01
+    title_zh: 应金逸斋请重订旧论
+    rationale: 旧板已毁坊间无书而死者日众故详病情治法以拨乱救亡
 events:
 - id: guji-王士雄-event-birth
-  person_qid: guji-王士雄
-  type: birth
+  title_zh: 生于杭州
   date: 1808
   year_of: 1808
-  title_zh: 生于浙江钱塘
-  description: 清嘉庆十三年生于浙江钱塘世代业医少研经方
-- id: guji-王士雄-event-study
-  person_qid: guji-王士雄
-  type: study
-  date: 1828
-  year_of: 1828
-  title_zh: 深得力于喻氏嘉言研温热
-  description: 潜心喻子嘉言医门法律兼通仲景伤寒温病之辨
-- id: guji-王士雄-event-practice
-  person_qid: guji-王士雄
-  type: practice
-  date: 1840
-  year_of: 1840
-  title_zh: 临证救危急随证制方
-  description: 道光年间临证治暑疟霍乱中毒肿胀等急证偏证屡起沉疴
-- id: guji-王士雄-event-wenre
-  person_qid: guji-王士雄
-  type: writing
-  date: 1852
-  year_of: 1852
-  title_zh: 著温热经纬行世
-  description: 咸丰年间著温热经纬发明温热纲纪以救温补之弊
-- id: guji-王士雄-event-complete
-  person_qid: guji-王士雄
-  type: writing
-  date: 1862
+  place_zh: 杭州
+  summary_zh: 清嘉庆十三年生于杭垣幼失怙潜心医学
+- id: guji-王士雄-event-caogao
+  title_zh: 草霍乱论于天台道上付梓
+  date: 1839
+  year_of: 1839
+  place_zh: 天台道上
+  summary_zh: 道光间草霍乱论经张柳吟阅定王仲安梓行世二十余年
+- id: guji-王士雄-event-chongding
+  title_zh: 避乱上海重订霍乱论
+  date: 1862-09-24
   year_of: 1862
-  title_zh: 王氏五种及医案十一卷成帙
-  description: 晚年汇王氏五种及医案十一卷编次苦心以惠后学
+  place_zh: 上海黄歇浦西随息居
+  summary_zh: 同治壬戌闰月避地申江应请重订旧论分病情治法医案药方四篇
 - id: guji-王士雄-event-death
-  person_qid: guji-王士雄
-  type: death
+  title_zh: 卒于同治年间
   date: 1866
   year_of: 1866
-  title_zh: 卒于同治五年
-  description: 清同治五年卒于杭州年五十九遗书行世后学宗之
+  place_zh: 浙江
+  summary_zh: 以温热名家终老著述甚丰重订霍乱论为其代表
