@@ -1,0 +1,148 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年洛州缑氏生
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年正月五日寂于长安玉华宫
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐代
+  reign_ref: 唐太宗贞观至唐高宗麟德
+  archetype: 西行求法译经师
+  dilemmas:
+  - 违禁偷渡出关西行与安守本国讲习之间的抉择
+  - 兼弘大小乘对法诸部与专宗一派之间的权衡
+  lesson: 立弘法利生之愿而不畏艰险，依戒定慧贯通经律论，令正法久住以济群生
+  summary_first_person: 吾玄奘洛州缑氏陈氏子，幼慕释教，长而讲习众经，慨然有求法之志，贞观西行遍历西域天竺，受学那烂陀，归国奉诏译经，愿令阿毗达磨法相海流入中土，助学者拔除法相愚闇，同趣解脱
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E6%AF%97%E6%98%99%E9%83%A8/%E5%85%A5%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E6%AF%97%E6%98%99%E9%83%A8/%E5%85%A5%E9%98%BF%E6%AF%97%E8%BE%BE%E7%A3%A8%E8%AE%BA.md
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 西行求法遍历西域天竺
+  summary: 贞观初年立志西行，偷渡出关，遍历西域诸国，至天竺那烂陀受学，尽得瑜伽对法之旨，载经东归
+  phases:
+  - key: brewing
+    name: 长安讲习萌求法心
+    labels:
+      zh:
+      - 讲习
+      - 发愿
+    start_date: '0626'
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: breakthrough
+    name: 偷渡出关越西域
+    labels:
+      zh:
+      - 西行
+      - 越险
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: climax
+    name: 那烂陀受学究对法
+    labels:
+      zh:
+      - 受学
+      - 对法
+    start_date: '0636'
+    highlight_event_id: guji-玄奘-event-donggui
+  - key: closure
+    name: 负经东归献于朝廷
+    labels:
+      zh:
+      - 东归
+      - 献经
+    start_date: '0643'
+    highlight_event_id: guji-玄奘-event-donggui
+  decisions:
+  - date: 0629
+    title_zh: 贞观三年决意偷渡西行
+    rationale: 慨诸师所说不一，欲亲往天竺求瑜伽对法真旨，虽禁令不许亦不改其志
+  - date: '0636'
+    title_zh: 留学那烂陀师从戒贤
+    rationale: 欲穷究瑜伽唯识与阿毗达磨法相，故久住讲习，遍学大小乘论
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译经弘扬对法
+  summary: 贞观十九年归国后奉诏主持译场，译出大般若瑜伽师地入阿毗达磨论等七十余部，建慈恩寺以弘法相唯识
+  phases:
+  - key: brewing
+    name: 归国奉诏立译场
+    labels:
+      zh:
+      - 奉诏
+      - 立场
+    start_date: '0645'
+    highlight_event_id: guji-玄奘-event-donggui
+  - key: breakthrough
+    name: 弘福寺首译大论
+    labels:
+      zh:
+      - 译经
+      - 创译
+    start_date: '0646'
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: climax
+    name: 慈恩玉华盛译对法
+    labels:
+      zh:
+      - 盛译
+      - 对法
+    start_date: '0654'
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: closure
+    name: 译业圆满示寂玉华
+    labels:
+      zh:
+      - 圆满
+      - 示寂
+    start_date: '0663'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: '0645'
+    title_zh: 受诏专事翻译不就宰辅
+    rationale: 以弘法利生为己任，谢绝朝位，愿以译经拔除中土法相愚闇
+  - date: '0654'
+    title_zh: 译出入阿毗达磨论以利初学
+    rationale: 悯劣慧者闻对法名义稠林生怖畏，欲令于法相海易入，故译塞建陀罗所造略论以示纲要
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 生于洛州缑氏陈氏
+  date: '0602'
+  year_of: 602
+  place_zh: 洛州缑氏
+  description: 隋仁寿二年生，俗姓陈，幼聪慧，十三岁出家，博览众经
+- id: guji-玄奘-event-xixing
+  title_zh: 偷渡出关西行求法
+  date: 0629
+  year_of: 629
+  place_zh: 长安至凉州出玉门关
+  description: 唐贞观三年自长安西行，偷渡出关，遍历高昌龟兹疏勒等地，越葱岭入印度境
+- id: guji-玄奘-event-donggui
+  title_zh: 载经东归谒唐太宗
+  date: '0645'
+  year_of: 645
+  place_zh: 长安弘福寺
+  description: 唐贞观十九年携经论六百余部归长安，太宗亲迎，敕住弘福寺翻译
+- id: guji-玄奘-event-yijing
+  title_zh: 奉诏译入阿毗达磨论
+  date: '0654'
+  year_of: 654
+  place_zh: 长安慈恩寺
+  description: 奉诏译塞建陀罗所造入阿毗达磨论，略摄八句义色受想行等法相，以利初学易入对法海
+- id: guji-玄奘-event-death
+  title_zh: 寂于玉华宫嘉寿殿
+  date: '0664-02-05'
+  year_of: 664
+  place_zh: 坊州玉华宫
+  description: 唐麟德元年正月五日寂，寿六十二，遗命薄葬，高宗罢朝三日，葬于浐东
