@@ -8,120 +8,142 @@ person:
     birth:
       date: 1495
       precision: year
-      is_circa: true
-      raw: 明弘治八年左右
+      is_circa: false
+      raw: 明弘治八年乙卯生于罗田
     death:
       date: 1580
       precision: year
-      is_circa: true
-      raw: 明万历八年左右
+      is_circa: false
+      raw: 明万历八年庚辰卒
   birth_date: 1495
   death_date: 1580
   era: 明
-  reign_ref: 明嘉靖
-  archetype: 仁心良医
+  reign_ref: 明弘治至万历
+  archetype: 良医
   dilemmas:
-  - 纵欲求嗣反伤精血早衰与寡欲固本广嗣之间的取舍
-  - 醇酒膏粱养人亦伤人与饮食有节之间的权衡
-  lesson: 寡欲慎动法时却疾以固根本
-  summary_first_person: 吾乃罗田万全，承家学而精医道，见世人纵欲嗜酒早衰多病，故撰养生四要，以寡欲慎动法时却疾劝世，但愿人能节欲养正以尽天年
+  - 八股功名与青囊济世之抉择
+  - 家传秘方藏私与公世救人之权衡
+  - 外科勾割速效与调治固本之辨
+  lesson: 弃虚名而求实行以仁术传世则泽被久远
+  summary_first_person: 吾乃罗田万全别字密斋早为邑廪生不得志于八股遂弃儒习医承杏城菊轩家学集散补缺著育婴家秘及外科心法等数十卷惟愿后人辨虚实阴阳善读善用以全民命
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%87%E6%B0%8F%E5%AE%B6%E4%BC%A0%E5%85%BB%E7%94%9F%E5%9B%9B%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%87%E6%B0%8F%E5%AE%B6%E4%BC%A0%E5%85%BB%E7%94%9F%E5%9B%9B%E8%A6%81.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%87%E6%B0%8F%E7%A7%98%E4%BC%A0%E5%A4%96%E7%A7%91%E5%BF%83%E6%B3%95.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%87%E6%B0%8F%E7%A7%98%E4%BC%A0%E5%A4%96%E7%A7%91%E5%BF%83%E6%B3%95.html
 endeavors:
 - id: guji-万全-endeavor-1
-  title_zh: 撰养生四要立寡欲慎动之纲
-  summary: 以寡欲慎动法时却疾为纲，撰成养生四要，劝节饮食男女以全真
+  title_zh: 承家学而集幼科大成
+  description: 继杏城菊轩二世幼科之绪访名师而明医理集散补缺删繁订误成育婴家秘诸书使万氏小儿科行于荆襄吴越
   phases:
   - key: brewing
-    name: 承家学研内经
+    name: 弃儒习医承家业
     labels:
-      zh: 蓄养
+      zh:
+      - 求学
+      - 承家
     start_date: 1515
-    highlight_event_id: guji-万全-event-study
+    highlight_event_id: guji-万全-event-birth
   - key: breakthrough
-    name: 集广嗣纪要悟寡欲
+    name: 辑成育婴家秘
     labels:
-      zh: 悟道
-    start_date: 1535
-    highlight_event_id: guji-万全-event-guangsi
-  - key: climax
-    name: 撰成养生四要
-    labels:
-      zh: 成书
+      zh:
+      - 著述
+      - 幼科
     start_date: 1549
-    highlight_event_id: guji-万全-event-yangsheng
-  - key: closure
-    name: 家传刊行惠后学
+    highlight_event_id: guji-万全-event-yuying
+  - key: climax
+    name: 幼科痘疹风行海内
     labels:
-      zh: 流传
-    start_date: 1550
-    highlight_event_id: guji-万全-event-yangsheng
+      zh:
+      - 行医
+      - 声名
+    start_date: 1560
+    highlight_event_id: guji-万全-event-kanxing
+  - key: closure
+    name: 付梓公世泽被后人
+    labels:
+      zh:
+      - 刊刻
+      - 传世
+    start_date: 1579
+    highlight_event_id: guji-万全-event-kanxing
   decisions:
-  - date: 1535
-    title_zh: 先集广嗣再言养生
-    rationale: 不先明嗣续之本，则寡欲之说易被误为绝欲，故先明修德寡欲以广嗣
+  - date: 1525
+    title_zh: 弃八股专青囊
+    rationale: 感八股不得志而幼科不鸣不行恐斩家泽故从张玉泉胡柳溪游明理而后专精岐黄
   - date: 1549
-    title_zh: 以四要统摄养生
-    rationale: 坚忍其性保定其气和于阴阳慎于医药四者兼备，方能根枝不坏而不犯邪毒
+    title_zh: 不授诸子而公其书
+    rationale: 恐诸子不能明不能行而使泽斩故遗书子孙兼流传荆襄闽洛吴越以授受得人
 - id: guji-万全-endeavor-2
-  title_zh: 精幼科妇科惠民济世
-  summary: 以儿科痘疹妇科调经见长，行医罗田，著书救幼保产以全民命
+  title_zh: 明外科大法而济痈疽
+  description: 穷通性理识别阴阳撰外科心法十二卷辨痈疽疔发虚实阴阳创千金托里凉膈败毒诸方及太乙万灵膏以救外科庸误
   phases:
   - key: brewing
-    name: 随父行医识民疾
+    name: 目击庸医之误
     labels:
-      zh: 历练
-    start_date: 1515
-    highlight_event_id: guji-万全-event-study
+      zh:
+      - 观察
+      - 立志
+    start_date: 1555
+    highlight_event_id: guji-万全-event-yuying
   - key: breakthrough
-    name: 专攻幼科妇科
+    name: 立总论大法辨善恶
     labels:
-      zh: 专精
-    start_date: 1530
-    highlight_event_id: guji-万全-event-guangsi
+      zh:
+      - 立法
+      - 辨证
+    start_date: 1571
+    highlight_event_id: guji-万全-event-waike
   - key: climax
-    name: 养生却疾相济
+    name: 撰图形方诀制万灵膏
     labels:
-      zh: 济世
-    start_date: 1549
-    highlight_event_id: guji-万全-event-yangsheng
+      zh:
+      - 著述
+      - 制方
+    start_date: 1572
+    highlight_event_id: guji-万全-event-waike
   - key: closure
-    name: 医名远播泽后世
+    name: 十八卷付梓赖孙保存
     labels:
-      zh: 归成
-    start_date: 1570
-    highlight_event_id: guji-万全-event-death
+      zh:
+      - 刊刻
+      - 保存
+    start_date: 1579
+    highlight_event_id: guji-万全-event-kanxing
   decisions:
-  - date: 1530
-    title_zh: 专注幼妇而非方仙
-    rationale: 方士绝谷休妻不近人情，惟保婴护产调理气血最切民生，故弃仙方而务实用
-  - date: 1549
-    title_zh: 以食治药治并重
-    rationale: 饮食男女为大欲，节之则气血和平，佐以八羔七损诸方，方能标本兼治
+  - date: 1571
+    title_zh: 先托里后攻毒不妄勾割
+    rationale: 见针发背者专行勾割去筋膜败肉益痛非仁术故主内攻宣热解毒定痛排脓生肌敛口为正道
+  - date: 1572
+    title_zh: 秘方不秘辑膏传世
+    rationale: 悯病家付性命于乡巷庸徒之手故纂疡科方脉载九十六味太乙万灵膏以补目未见耳未闻
 events:
 - id: guji-万全-event-birth
-  title_zh: 生于罗田医家
+  type: birth
   date: 1495
   year_of: 1495
-  summary: 明弘治年间生于罗田万氏世代医家，自幼承庭训
-- id: guji-万全-event-study
-  title_zh: 承家学精研内经易理
-  date: 1515
-  year_of: 1515
-  summary: 青年承父业，博读内经易学，研气血阴阳，奠定医理根基
-- id: guji-万全-event-guangsi
-  title_zh: 集广嗣纪要论修德寡欲
-  date: 1535
-  year_of: 1535
-  summary: 有感世人纵欲多嗣夭，集广嗣纪要，以修德寡欲为延龄广嗣大要
-- id: guji-万全-event-yangsheng
-  title_zh: 撰成家传养生四要
+  title_zh: 生于罗田万氏医家
+  description: 明弘治八年乙卯生于罗田先祖杏城翁以幼科鸣先考菊轩翁客罗娶陈氏而家焉
+- id: guji-万全-event-yuying
+  type: career
   date: 1549
   year_of: 1549
-  summary: 以寡欲慎动法时却疾为纲撰成四卷，详论男女精血饮食酒病及调治诸方
+  title_zh: 辑成育婴家秘传幼科三世
+  description: 自求家世相传之绪散失者集之缺略者补之书成名育婴家秘以遗子孙流传荆襄闽洛吴越
+- id: guji-万全-event-waike
+  type: career
+  date: 1571
+  year_of: 1571
+  title_zh: 撰成外科心法立痈疽大法
+  description: 撰总论大法辨痈疽疔发虚实阴阳五善七恶定托里解毒排脓定痛之序兼载太乙万灵膏九十六味
+- id: guji-万全-event-kanxing
+  type: career
+  date: 1579
+  year_of: 1579
+  title_zh: 樵川太守付梓纸贵三湘
+  description: 成数十卷先为樵川太守李公付梓一时纸贵三湘后板毁于兵燹赖五世孙藏帖于墙壁得存
 - id: guji-万全-event-death
-  title_zh: 卒于罗田享高寿
+  type: death
   date: 1580
   year_of: 1580
-  summary: 晚年医名大著，著述宏富，卒于家乡，享年八十余，惠泽后学
+  title_zh: 卒于罗田享年八十六
+  description: 明万历八年庚辰卒平生业辄精屡效以效志编邑人称密斋万生歧黄名手噪闻隆万年间
