@@ -1,0 +1,133 @@
+person:
+  qid: guji-公羊高
+  name_zh: 公羊高
+  names:
+    zh: 公羊高
+    en: Gongyang Gao
+  lifespan:
+    birth:
+      date: '-0420'
+      precision: year
+      is_circa: true
+      raw: 约战国初生于齐国
+    death:
+      date: '-0340'
+      precision: year
+      is_circa: true
+      raw: 约战国中期卒于齐确年不详
+  birth_date: '-0420'
+  death_date: '-0340'
+  era: 战国
+  reign_ref: 战国齐
+  archetype: 传经宗师
+  dilemmas:
+  - 口传心授易散而无竹帛凭据何以久存大义
+  - 三传竞立师说纷歧何以守大一统褒贬之旨
+  lesson: 以设问发微言以三世明褒贬口授虽简而大义可久
+  summary_first_person: 吾为齐之公羊高，承子夏春秋之学，口授相传，设问答以明天子一统与褒贬之例，愿后世得闻微言大义
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/春秋公羊传.md
+  - https://daizhige.org/儒藏/春秋/春秋公羊传.html
+endeavors:
+- id: guji-公羊高-endeavor-1
+  title_zh: 师承子夏受春秋义
+  summary: 齐地从子夏游，得闻春秋微言，为口授公羊学奠基
+  phases:
+  - key: brewing
+    name: 齐地问道
+    labels:
+      zh:
+      - 求学
+    start_date: '-0410'
+    highlight_event_id: guji-公羊高-event-study
+  - key: breakthrough
+    name: 得闻三世说
+    labels:
+      zh:
+      - 传承
+    start_date: '-0400'
+    highlight_event_id: guji-公羊高-event-study
+  - key: closure
+    name: 守师说归齐
+    labels:
+      zh:
+      - 立宗
+    start_date: -0390
+    highlight_event_id: guji-公羊高-event-teach
+  decisions:
+  - date: '-0405'
+    title_zh: 执礼从子夏受春秋
+    rationale: 欲求孔子微言须从亲传弟子，故舍齐游而往师事之
+  - date: -0390
+    title_zh: 归齐守口传不著竹帛
+    rationale: 师以口耳授受为重，恐文字拘而义散，故以诵授持其真
+- id: guji-公羊高-endeavor-2
+  title_zh: 口授传承开公羊学
+  summary: 以问答体口授门人，传子平子，奠定公羊传大一统与褒贬体系
+  phases:
+  - key: brewing
+    name: 聚徒授业
+    labels:
+      zh:
+      - 授徒
+    start_date: -0385
+    highlight_event_id: guji-公羊高-event-teach
+  - key: breakthrough
+    name: 问答发义
+    labels:
+      zh:
+      - 释经
+    start_date: '-0375'
+    highlight_event_id: guji-公羊高-event-teach
+  - key: climax
+    name: 大一统义成
+    labels:
+      zh:
+      - 立义
+    start_date: '-0365'
+    highlight_event_id: guji-公羊高-event-dictate
+  - key: closure
+    name: 授子付托后学
+    labels:
+      zh:
+      - 付托
+    start_date: '-0350'
+    highlight_event_id: guji-公羊高-event-dictate
+  decisions:
+  - date: '-0375'
+    title_zh: 设何言乎以发问答
+    rationale: 经文简奥非问难不能显，故立问答以发所见所闻所传闻之例
+  - date: '-0350'
+    title_zh: 选子平子为嗣传其说
+    rationale: 欲使微言不绝须得笃信传人，故择谨厚者付以口诀世世相授
+events:
+- id: guji-公羊高-event-birth
+  title_zh: 生于齐国
+  date: '-0420'
+  year_of: -420
+  place_zh: 齐国
+  description: 战国初生于齐，为子夏门人，齐之经师
+- id: guji-公羊高-event-study
+  title_zh: 从子夏受春秋
+  date: '-0405'
+  year_of: -405
+  place_zh: 魏西河
+  description: 往从子夏游，得闻春秋褒贬与三世之说
+- id: guji-公羊高-event-teach
+  title_zh: 归齐聚徒口授春秋
+  date: -0385
+  year_of: -385
+  place_zh: 齐国
+  description: 归齐授徒，以口传心授讲元年王正月大一统之义
+- id: guji-公羊高-event-dictate
+  title_zh: 口授传子平子成公羊学统
+  date: '-0350'
+  year_of: -350
+  place_zh: 齐国
+  description: 以问答体授公羊平，传五世至景帝胡母生，遂有今之公羊传
+- id: guji-公羊高-event-death
+  title_zh: 卒于齐
+  date: '-0340'
+  year_of: -340
+  place_zh: 齐国
+  description: 卒于齐，传学已付后嗣，卒年不详后人追尊为传经之祖

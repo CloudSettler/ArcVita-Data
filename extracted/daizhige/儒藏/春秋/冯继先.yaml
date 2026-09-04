@@ -1,0 +1,118 @@
+person:
+  qid: guji-冯继先
+  name_zh: 冯继先
+  names:
+    zh: 冯继先
+    en: Feng Jixian
+  lifespan:
+    birth:
+      date: '0900-01-01'
+      precision: year
+      is_circa: true
+      raw: 五代初约生于蜀
+    death:
+      date: '0960-01-01'
+      precision: year
+      is_circa: true
+      raw: 宋初约卒
+  birth_date: '0900-01-01'
+  death_date: '0960-01-01'
+  era: 五代十国
+  reign_ref: 后蜀
+  archetype: 表谱考据学者
+  dilemmas:
+  - 春秋经传列国君臣名字纷错多至四五初学病其难记当如何归一
+  - 同名异人异名同人前后互见若合为一或析为二当如何辨别不误
+  lesson: 异称归一始于敬畏文本表谱之学功在初学
+  summary_first_person: 我生于五代蜀地见左氏传春秋列国君臣名字不一其称初学病其纷错遂集其同者为一百六十篇以官谥名字裒附初名之左作春秋名号归一图列国分篇冀览图即得其人也
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%90%8D%E5%8F%B7%E5%BD%92%E4%B8%80%E5%9B%BE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%90%8D%E5%8F%B7%E5%BD%92%E4%B8%80%E5%9B%BE.md
+endeavors:
+- id: guji-冯继先-endeavor-1
+  title_zh: 裒集异称作归一图
+  summary: 遍览春秋经传裒集列国君臣异呼以初名为纲作一百六十篇归一图
+  phases:
+  - key: brewing
+    name: 遍览经传发凡
+    labels:
+      zh: 酝酿发凡
+    start_date: '0930-01-01'
+    highlight_event_id: guji-冯继先-event-compile
+  - key: breakthrough
+    name: 旁行表谱成篇
+    labels:
+      zh: 突破成篇
+    start_date: '0940-01-01'
+    highlight_event_id: guji-冯继先-event-complete
+  - key: closure
+    name: 列国分篇定稿
+    labels:
+      zh: 定稿垂成
+    start_date: '0945-01-01'
+    highlight_event_id: guji-冯继先-event-complete
+  decisions:
+  - date: '0935-01-01'
+    title_zh: 以初名为纲裒附官谥名字
+    rationale: 经传异呼纷错必以初名为纲始可统摄使初学易记
+  - date: '0940-01-01'
+    title_zh: 旁行如表谱分国列篇
+    rationale: 周鲁齐晋楚郑卫秦宋以下分国胪列旁行成表方能一目了然
+- id: guji-冯继先-endeavor-2
+  title_zh: 列国分篇垂教后学
+  summary: 以周为首下及鲁齐晋楚诸国与杂小国辨同异正疑误以便后学考据
+  phases:
+  - key: brewing
+    name: 考订国名世系
+    labels:
+      zh: 考订酝酿
+    start_date: '0932-01-01'
+    highlight_event_id: guji-冯继先-event-compile
+  - key: climax
+    name: 辨同异显归一
+    labels:
+      zh: 高潮显学
+    start_date: '0942-01-01'
+    highlight_event_id: guji-冯继先-event-complete
+  - key: closure
+    name: 流传蜀本启后人
+    labels:
+      zh: 流传收束
+    start_date: '0950-01-01'
+    highlight_event_id: guji-冯继先-event-complete
+  decisions:
+  - date: '0942-01-01'
+    title_zh: 从国别不从人名混同
+    rationale: 自某国适他国者前后互见必系本国方不淆乱
+  - date: '0948-01-01'
+    title_zh: 存疑不强合以待后校
+    rationale: 氏名异同疑非一人者宁存其旧以俟岳珂诸家参校订正
+events:
+- id: guji-冯继先-event-birth
+  title_zh: 生于蜀地
+  date: '0900-01-01'
+  year_of: 900
+  description: 五代初约生于蜀地长而治春秋经传之学
+- id: guji-冯继先-event-compile
+  title_zh: 遍览经传裒集异称
+  date: '0935-01-01'
+  year_of: 935
+  description: 览春秋经传见列国君臣名字纷错始裒集同者以官谥名字附初名之左
+  endeavor_ref: guji-冯继先-endeavor-1
+- id: guji-冯继先-event-complete
+  title_zh: 归一图一百六十篇成
+  date: '0945-01-01'
+  year_of: 945
+  description: 春秋名号归一图二卷成列周鲁齐晋楚郑卫秦宋陈蔡曹吴以下至杂小国凡一百六十篇
+  endeavor_ref: guji-冯继先-endeavor-1
+- id: guji-冯继先-event-teach
+  title_zh: 蜀本流传后学宗之
+  date: '0950-01-01'
+  year_of: 950
+  description: 其书流传于蜀后世陈振孙李焘岳珂皆引而参校之以便初学记诵
+  endeavor_ref: guji-冯继先-endeavor-2
+- id: guji-冯继先-event-death
+  title_zh: 卒于蜀宋之际
+  date: '0960-01-01'
+  year_of: 960
+  description: 宋初约卒于蜀其书经后人刊定分行以见别然归一之法不废
