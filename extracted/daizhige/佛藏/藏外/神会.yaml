@@ -8,133 +8,140 @@ person:
     birth:
       date: 0684
       precision: year
-      is_circa: false
-      raw: 唐睿宗文明元年襄阳生
+      is_circa: true
+      raw: 唐文明元年襄阳生
     death:
       date: 0758
       precision: year
       is_circa: false
-      raw: 唐肃宗乾元元年洛阳荷泽寺寂
+      raw: 唐肃宗乾元元年寂
   birth_date: 0684
   death_date: 0758
   era: 唐
-  reign_ref: 唐玄宗至唐肃宗
-  archetype: 顿教弘护者
+  reign_ref: 唐玄宗至肃宗时
+  archetype: 弘法辩道型
   dilemmas:
-  - 顿悟直指人心与渐修持戒之间的张力如何抉择
-  - 护持南宗正统与不与物竞之间的进退如何持守
-  lesson: 直了自性无住心为本兼护戒定慧等持方能顿悟解脱并续佛慧命
-  summary_first_person: 吾襄阳神会早参曹溪六祖得无念顿教后於滑台大云寺设无遮大会定南北宗是非晚以荷泽弘法护国但愿学人离妄知无住即同佛知见
+  - 顿悟不由阶渐，如何令学者一念相应而不落空缚定缚
+  - 佛性本有而为烦恼所覆，如何说本有今无而不失常住之本
+  lesson: 见无念即见实相，本性空寂而恒沙功德一时等备，无住而生其心即得解脱
+  summary_first_person: 我是荷泽神会，嗣曹溪慧能，主南宗顿旨，破北宗凝心看净，以无念为宗，一行三昧为门，明佛性常住本有，滑台定是非，洛阳弘般若，愿众生即心是道，一念相应便成正觉
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E7%A5%9E%E4%BC%9A%E7%A6%85%E8%AF%9D%E5%BD%95.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E7%A5%9E%E4%BC%9A%E7%A6%85%E8%AF%9D%E5%BD%95.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E8%8D%B7%E6%B3%BD%E7%A5%9E%E4%BC%9A%E7%A6%85%E5%B8%88%E8%AF%AD%E5%BD%95.html
 endeavors:
 - id: guji-神会-endeavor-1
-  title_zh: 曹溪承法弘南宗顿教
-  summary: 少年问道曹溪亲承慧能无念为宗后以解脱禅门直了性普示学人
+  person_id: guji-神会
+  title_zh: 滑台定宗旨显南顿北渐
+  summary_zh: 承慧能南宗正脉，破凝心入定住心看净之渐法，立顿悟无念，楷定南北是非
   phases:
   - key: brewing
-    name: 襄阳问道持戒学禅
+    name: 曹溪参学酿顿义
     labels:
       zh:
-      - 求法持戒
-    start_date: 0698
+      - 参学
+      - 顿悟
+    start_date: '0704'
     highlight_event_id: guji-神会-event-birth
   - key: breakthrough
-    name: 曹溪参礼悟无念宗
+    name: 滑台大会破渐执
     labels:
       zh:
-      - 顿悟传心
-    start_date: '0704'
-    highlight_event_id: guji-神会-event-caoxi
-  - key: climax
-    name: 南阳普说了性坛语
-    labels:
-      zh:
-      - 直了成佛
-    start_date: '0720'
-    highlight_event_id: guji-神会-event-huatai
-  - key: closure
-    name: 荷泽付法续慧命
-    labels:
-      zh:
-      - 付嘱流通
-    start_date: '0750'
-    highlight_event_id: guji-神会-event-death
-  decisions:
-  - date: '0704'
-    title_zh: 不惮远行投曹溪参六祖
-    rationale: 为求无上菩提直了佛性须亲近真正善知识得无住心印
-  - date: '0720'
-    title_zh: 立无念为宗普说顿教
-    rationale: 为破住空住定法缚令学人离相无住即戒定慧一时齐等
-- id: guji-神会-endeavor-2
-  title_zh: 滑台定是非护国弘道
-  summary: 滑台设无遮大会辨南北邪正定达摩南宗正统安史难中募财助军护法护国
-  phases:
-  - key: brewing
-    name: 观南北分歧起护法心
-    labels:
-      zh:
-      - 辨邪正
-    start_date: 0728
-    highlight_event_id: guji-神会-event-caoxi
-  - key: breakthrough
-    name: 滑台大云寺立宗旨
-    labels:
-      zh:
-      - 定是非
+      - 论辩
+      - 定宗
     start_date: '0732'
-    highlight_event_id: guji-神会-event-huatai
+    highlight_event_id: guji-神会-event-dingzong
   - key: climax
-    name: 洛阳聚众募缘助军
+    name: 南北是非大明
     labels:
       zh:
-      - 护国济难
-    start_date: '0756'
-    highlight_event_id: guji-神会-event-junzi
+      - 南宗
+      - 正统
+    start_date: '0734'
+    highlight_event_id: guji-神会-event-dingzong
   - key: closure
-    name: 荷泽示寂正法重兴
+    name: 顿旨付嘱后学
     labels:
       zh:
-      - 遗化不灭
-    start_date: 0758
-    highlight_event_id: guji-神会-event-death
+      - 付嘱
+      - 传灯
+    start_date: '0750'
+    highlight_event_id: guji-神会-event-heze
   decisions:
   - date: '0732'
-    title_zh: 滑台设无遮大会辩崇远
-    rationale: 为天下学道者定宗旨辨是非明达摩六代相承南宗为正
-  - date: '0756'
-    title_zh: 应请聚财佐国平乱
-    rationale: 以平等说法摄众济难令佛法不绝国难可平即是不尽有为
+    title_zh: 滑台大云寺当众定宗旨
+    rationale: 为救学者住空住定之缚，须明辨顿渐，立南宗无念为正，以般若直指本性
+  - date: '0733'
+    title_zh: 判北宗普寂为渐法非究竟
+    rationale: 北宗凝心看净起心外照皆有所得系缚，不见本性空寂，故须楷定以显顿门
+- id: guji-神会-endeavor-2
+  person_id: guji-神会
+  title_zh: 弘无念一行三昧度众
+  summary_zh: 居南阳洛阳荷泽寺，以金刚般若开示无住无念，教人见本性成佛道
+  phases:
+  - key: brewing
+    name: 研涅槃般若酝本有义
+    labels:
+      zh:
+      - 佛性
+      - 般若
+    start_date: '0720'
+    highlight_event_id: guji-神会-event-dingzong
+  - key: breakthrough
+    name: 荷泽开堂说无念
+    labels:
+      zh:
+      - 无念
+      - 开示
+    start_date: '0745'
+    highlight_event_id: guji-神会-event-heze
+  - key: climax
+    name: 一行三昧普被道俗
+    labels:
+      zh:
+      - 一行三昧
+      - 无住
+    start_date: '0746'
+    highlight_event_id: guji-神会-event-heze
+  - key: closure
+    name: 语录结集示后世
+    labels:
+      zh:
+      - 语录
+      - 化导
+    start_date: '0757'
+    highlight_event_id: guji-神会-event-death
+  decisions:
+  - date: '0745'
+    title_zh: 直指无念为宗不立阶次
+    rationale: 本性从本来空寂无所得，若立缘起次第即成系缚，故令见念不起空无所有即定慧等
+  - date: '0746'
+    title_zh: 教持金刚经入一行三昧
+    rationale: 不取于相如如即无念，无念即般若，能生一切法摄一切法，故劝受持读诵为人演说
 events:
 - id: guji-神会-event-birth
+  person_id: guji-神会
+  kind: birth
   date: 0684
   year_of: 684
-  type: birth
-  title_zh: 襄阳诞生
-  description: 唐睿宗文明元年生於襄阳俗姓高自幼好佛慕道持戒精严
-- id: guji-神会-event-caoxi
-  date: '0704'
-  year_of: 704
-  type: career
-  title_zh: 曹溪参慧能得顿教印
-  description: 少年往曹溪参礼六祖慧能闻无念顿教契悟本性空寂得心传付嘱
-- id: guji-神会-event-huatai
+  title_zh: 生于襄阳
+  summary_zh: 唐文明元年生于襄阳，少习经论，后参曹溪慧能，得顿悟无念之旨
+- id: guji-神会-event-dingzong
+  person_id: guji-神会
+  kind: career
   date: '0732'
   year_of: 732
-  type: career
-  title_zh: 滑台大云寺无遮定宗
-  description: 开元二十年正月十五滑台大云寺升座论对崇远宣说达摩至慧能六代传承定南宗顿门为正
-- id: guji-神会-event-junzi
-  date: '0756'
-  year_of: 756
-  type: career
-  title_zh: 洛阳弘法募财佐军
-  description: 安史之乱起聚众说法劝捐香资以佐军用护国护教示不舍道法而现凡夫事
+  title_zh: 滑台大云寺定宗旨
+  summary_zh: 开元二十年滑台设大会，当众论难，破北宗渐修，立南宗顿教为正统，明佛性常住本有
+- id: guji-神会-event-heze
+  person_id: guji-神会
+  kind: career
+  date: '0745'
+  year_of: 745
+  title_zh: 居洛阳荷泽寺弘无念法
+  summary_zh: 居荷泽寺开示三车一乘、无住解脱、一行三昧，答王公尚书道俗问难，广说本有今无常义定慧等
 - id: guji-神会-event-death
+  person_id: guji-神会
+  kind: death
   date: 0758
   year_of: 758
-  type: death
-  title_zh: 洛阳荷泽寺示寂
-  description: 唐肃宗乾元元年寂於洛阳荷泽寺世寿七十五荷泽一宗由是广行天下
+  title_zh: 寂于洛阳荷泽寺
+  summary_zh: 乾元元年寂，世寿七十余，谥真宗，后世尊为荷泽宗师，南宗顿教大行
