@@ -8,131 +8,108 @@ person:
     birth:
       date: 1662
       precision: year
-      is_circa: false
-      raw: 康熙元年生于浙江慈溪
+      is_circa: true
+      raw: 康熙元年
     death:
       date: 1735
       precision: year
-      is_circa: false
-      raw: 雍正十三年卒
+      is_circa: true
+      raw: 雍正十三年
   birth_date: 1662
   death_date: 1735
   era: 清
-  reign_ref: 康熙至雍正
-  archetype: 经方诠释者
+  reign_ref: 雍正
+  archetype: 经方注疏之医家
   dilemmas:
-  - 伤寒诸家聚讼纷纭当从仲景原文还是从后世发挥
-  - 经方传世而法乱当守规矩还是重圆机活法
-  lesson: 读仲景书须合脉证病机与方证一体观之守经而不泥经方为活法之祖
-  summary_first_person: 吾柯琴字韵伯号似峰浙江慈溪人也少读伤寒病论慨然有志于经方壮年行医江浙间验方证之相应晚年闭户注经撰成来苏一集以苏仲景之微言又作附翼以广其用愿后学者因方以求证因证以求机勿为俗说所惑
+  - 伤寒旧注随文敷衍黑白不辨当刊误发明以显真面
+  - 叔和编次已非原篇阙讹倒衍杂伪并存当校正分篇以存心法
+  lesson: 胸中无尘目中无尘方可注古凝神定志逐条研审令作者精神见于言外
+  summary_first_person: 吾慈水柯琴字韵伯平生校内经而后注伤寒分篇汇论证因类聚辨讹改正以羽翼仲景冀后学有所指归
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%9D%A5%E8%8B%8F%E9%9B%86.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%9D%A5%E8%8B%8F%E9%9B%86.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E6%B3%A8.html
 endeavors:
 - id: guji-柯琴-endeavor-1
-  title_zh: 注解伤寒论撰伤寒来苏集
-  summary: 以合方合证合脉之法重释仲景六经辨证成来苏集三卷以正传经之谬
+  title_zh: 校正内经奠基医理
+  goal_zh: 通岐黄大义为注伤寒立本
   phases:
   - key: brewing
-    name: 少读伤寒蓄疑
+    name: 遍览注家疑义蓄志校经
     labels:
-      zh: 酝酿
-    start_date: 1675
-    highlight_event_id: guji-柯琴-event-study
+      zh:
+      - 汇览
+      - 质疑
+    start_date: 1700
+    highlight_event_id: guji-柯琴-event-birth
   - key: breakthrough
-    name: 合方证脉以立法
+    name: 丙午秋内经校正始成
     labels:
-      zh: 突破
-    start_date: 1695
-    highlight_event_id: guji-柯琴-event-study
-  - key: climax
-    name: 来苏集刊行
-    labels:
-      zh: 高潮
-    start_date: 1706
-    highlight_event_id: guji-柯琴-event-laisu
-  - key: closure
-    name: 附翼成书以收全功
-    labels:
-      zh: 收束
-    start_date: 1730
-    highlight_event_id: guji-柯琴-event-fuyi
+      zh:
+      - 校勘
+      - 立纲
+    start_date: 1726
+    highlight_event_id: guji-柯琴-event-neijing
   decisions:
-  - date: 1700
-    title_zh: 斥日传一经之说立自受本经之论
-    rationale: 因太阳头痛至七日自愈条悟行经与传经之别不使学者误以经络相传求仲景
-  - date: 1706
-    title_zh: 以方证脉互参定桂枝麻黄之界
-    rationale: 因风寒脉证相近惟据汗出与否及浮缓浮紧以别方使临床有据不堕空谈
+  - date: 1726
+    title_zh: 内经校成暂不出世转治伤寒
+    rationale: 以伤寒为世所重先成大本俟时而行转注仲景以救时弊
 - id: guji-柯琴-endeavor-2
-  title_zh: 行医江浙阐发经方活法
-  summary: 以经方治杂病强调有是证用是方倡胃气存亡之要垂训后学
+  title_zh: 分篇汇论注疏伤寒
+  goal_zh: 辨仲景叔和之笔显仲景心法
   phases:
-  - key: brewing
-    name: 游医江浙验证
-    labels:
-      zh: 酝酿
-    start_date: 1685
-    highlight_event_id: guji-柯琴-event-practice
   - key: breakthrough
-    name: 重胃气存津液之悟
+    name: 以症名篇汇集六经诸论
     labels:
-      zh: 突破
-    start_date: 1698
-    highlight_event_id: guji-柯琴-event-practice
+      zh:
+      - 分篇
+      - 汇论
+    start_date: 1726
+    highlight_event_id: guji-柯琴-event-neijing
   - key: climax
-    name: 经方活用于杂病
+    name: 辨讹改正发挥隐旨
     labels:
-      zh: 高潮
-    start_date: 1715
-    highlight_event_id: guji-柯琴-event-fuyi
+      zh:
+      - 辨伪
+      - 发微
+    start_date: 1729
+    highlight_event_id: guji-柯琴-event-shanghan
   - key: closure
-    name: 训后学守仲景规矩
+    name: 己酉初夏集成论注一帙
     labels:
-      zh: 收束
-    start_date: 1732
-    highlight_event_id: guji-柯琴-event-death
+      zh:
+      - 成书
+      - 就正
+    start_date: 1729
+    highlight_event_id: guji-柯琴-event-shanghan
   decisions:
-  - date: 1698
-    title_zh: 见汗下失度者主调胃存津不主攻邪
-    rationale: 因太阳病汗下后表里俱虚之变悟妄汗亡阳妄下竭阴故以和为贵
-  - date: 1715
-    title_zh: 持六经皆有温病之说不拘冬寒春温
-    rationale: 因见太阳温病不恶寒而渴知四时六经皆可病温以破拘泥伏寒之论
+  - date: 1729
+    title_zh: 不守旧注数目经络传经之说
+    rationale: 凝神定志逐条细勘指破脱落倒句讹衍令真面目见于文本
+  - date: 1729
+    title_zh: 立总纲证因类聚方附带之
+    rationale: 开卷明得失大局以症为主类从使茅塞顿开通人人可入
 events:
 - id: guji-柯琴-event-birth
-  type: birth
   date: 1662
   year_of: 1662
-  title_zh: 生于浙江慈溪
-  description: 康熙元年生于浙江慈溪柯氏少而好读医经尤嗜仲景书
-- id: guji-柯琴-event-study
-  type: career
-  date: 1680
-  year_of: 1680
-  title_zh: 潜心伤寒病论考订六经脉证
-  description: 青年遍览诸家伤寒注说疑传经之谬遂以六经病机合参脉证发合病并病转属之旨
-- id: guji-柯琴-event-practice
-  type: career
-  date: 1685
-  year_of: 1685
-  title_zh: 行医江浙以经方验证
-  description: 游医江浙间以桂枝麻黄青龙承气诸方治表里寒热诸证验胃气存亡为生死之关
-- id: guji-柯琴-event-laisu
-  type: career
-  date: 1706
-  year_of: 1706
-  title_zh: 伤寒来苏集刊行
-  description: 晚年撰成伤寒来苏集三卷发明总论脉证桂枝诸法辨太阳阳明少阳三阳及三阴受病之机刊行于世
-- id: guji-柯琴-event-fuyi
-  type: career
-  date: 1730
-  year_of: 1730
-  title_zh: 撰伤寒附翼阐发杂病活法
-  description: 继来苏集之后撰伤寒附翼发挥温病湿痹风温诸变及杂病用经方之法以全仲景之用
+  kind: birth
+  title_zh: 生于慈水
+  description_zh: 康熙元年生于浙江慈溪字韵伯号似峰
+- id: guji-柯琴-event-neijing
+  date: 1726
+  year_of: 1726
+  kind: career
+  title_zh: 丙午秋校正内经始成
+  description_zh: 校正内经始成尚未出而问世遂转治伤寒为世所重者
+- id: guji-柯琴-event-shanghan
+  date: 1729
+  year_of: 1729
+  kind: career
+  title_zh: 己酉初夏成伤寒论注自序
+  description_zh: 将仲景书校正注疏分篇汇论证因类聚集成一帙名论注
 - id: guji-柯琴-event-death
-  type: death
   date: 1735
   year_of: 1735
-  title_zh: 卒于雍正年间
-  description: 雍正十三年卒享年七十余所著来苏集附翼并行后世尊为仲景之功臣经方之津梁
+  kind: death
+  title_zh: 卒于雍正十三年
+  description_zh: 一生羽翼仲景之业成后学奉为伤寒大家
