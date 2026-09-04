@@ -6,163 +6,117 @@ person:
     en: Xu Dachun
   lifespan:
     birth:
-      date: '1693'
+      date: 1693
       precision: year
       is_circa: false
       raw: 康熙三十二年
     death:
-      date: '1771'
+      date: 1771
       precision: year
       is_circa: false
       raw: 乾隆三十六年
-  birth_date: '1693'
-  death_date: '1771'
-  era: 清代
+  birth_date: 1693
+  death_date: 1771
+  era: 清
   reign_ref: 乾隆
-  archetype: 经方梳理型医家
+  archetype: 名医
   dilemmas:
-  - 后人纷争错简愈更愈乱当何从
-  - 循经求症与按症求方孰便学者
-  lesson: 方有定而病无定从流溯源以方统证可为津梁
-  summary_first_person: 吾吴江徐大椿字灵胎号洄溪探求伤寒三十年悟其为救误之书不类经而类方七年五易其稿成伤寒类方十二类一百一十三方愿后学者按症求方应用不爽
+  - 经方失传而时医尚浮泛笼统何以正之
+  - 信古方而又好奇服食金石何以戒偏蔽
+  lesson: 溯内经仲景以立定法辨病名主方主药而后变化在我
+  summary_first_person: 吾吴江徐大椿号洄溪深悯世医不识病名妄试通治遂探内经难经金匮伤寒及隋唐诸方撰兰台轨范八卷以存古圣治病之法
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%B1%BB%E6%96%B9.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%B1%BB%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%85%B0%E5%8F%B0%E8%BD%A8%E8%8C%83.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%85%B0%E5%8F%B0%E8%BD%A8%E8%8C%83.md
 endeavors:
 - id: guji-徐大椿-endeavor-1
-  person_qid: guji-徐大椿
-  title_zh: 不类经而类方重编伤寒
-  description: 悟伤寒论为救误之书削除阴阳六经门目分十二类以方统症注明精思妙用
+  title_zh: 编撰兰台轨范复兴经方
+  summary_zh: 以内经探源以金匮伤寒求治参隋唐方书成八卷轨范以正宋元以后之失
   phases:
   - key: brewing
-    name: 三十年探求悟随症立方本无定序
+    name: 悯时医而立志
     labels:
-      zh:
-      - 搜采旧论
-      - 明辨救误
-    start_date: '1729'
-    highlight_event_id: guji-徐大椿-event-study
+      zh: 溯本穷源
+    start_date: 1740
+    highlight_event_id: guji-徐大椿-event-1
   - key: breakthrough
-    name: 初定十二类以同类诸方附主方
+    name: 考论源流
     labels:
-      zh:
-      - 方以类从
-      - 症随方证
-    start_date: '1752'
-    highlight_event_id: guji-徐大椿-event-compile
+      zh: 医学源流
+    start_date: 1757
+    highlight_event_id: guji-徐大椿-event-1
   - key: climax
-    name: 七年五易其稿成一百一十三方
+    name: 轨范告成
     labels:
-      zh:
-      - 条分缕析
-      - 发明所以然
-    start_date: '1759-10-01'
-    highlight_event_id: guji-徐大椿-event-preface
+      zh: 经方为祖
+    start_date: 1764-04
+    highlight_event_id: guji-徐大椿-event-2
   - key: closure
-    name: 入四库医家类得精到之评
+    name: 四库著录流传
     labels:
-      zh:
-      - 芟除葛藤
-      - 津梁后学
-    start_date: '1777-03-01'
-    highlight_event_id: guji-徐大椿-event-siku
+      zh: 去取谨严
+    start_date: 1779
+    highlight_event_id: guji-徐大椿-event-2
   decisions:
-  - date: '1752'
-    title_zh: 削除六经门目但使方以类从
-    rationale: 病变迁无定方治有定按症求方不必循经求症
-  - date: '1759-10-01'
-    title_zh: 每类先定主方注明加减法度
-    rationale: 使读者于病情药性一目显然见症施治与仲景意合
+  - date: 1757
+    title_zh: 先著医学源流论以清源流
+    rationale: 不明源流则方论无据故先辨经方时方之得失而后立轨范
+  - date: 1764-04
+    title_zh: 断以仲景为宗止录隋唐而下取宋后之效者
+    rationale: 唐以前方多精切可原本内经宋后多阴阳气血笼统之谈故严去取以存定法
 - id: guji-徐大椿-endeavor-2
-  person_qid: guji-徐大椿
-  title_zh: 弘通医道广著医书垂训
-  description: 著书发明医理附六经脉注别证变症刺法以正时医之失
+  title_zh: 辨疑似而诫误用以全民生
+  summary_zh: 于每方下附注配合施用之宜标举耳食误用之戒使病者医者对症考证
   phases:
   - key: brewing
-    name: 弃举子业博通而专精岐黄
+    name: 目击误治
     labels:
-      zh:
-      - 博学
-      - 专精
-    start_date: '1713'
-    highlight_event_id: guji-徐大椿-event-study
+      zh: 耳食为戒
+    start_date: 1750
+    highlight_event_id: guji-徐大椿-event-1
   - key: breakthrough
-    name: 撰医学源流论砭俗医聚讼之失
+    name: 详注主治
     labels:
-      zh:
-      - 正本
-      - 清源
-    start_date: '1757'
-    highlight_event_id: guji-徐大椿-event-compile
+      zh: 主方主药
+    start_date: 1764-04
+    highlight_event_id: guji-徐大椿-event-2
   - key: climax
-    name: 附六经脉注刺法别证变症有源委可寻
+    name: 示人持循
     labels:
-      zh:
-      - 脉注
-      - 刺法
-    start_date: '1759-10-01'
-    highlight_event_id: guji-徐大椿-event-preface
+      zh: 通治亦须切情
+    start_date: 1764-04
+    highlight_event_id: guji-徐大椿-event-2
   - key: closure
-    name: 医书多部采入四库子部医家
+    name: 垂训后学
     labels:
-      zh:
-      - 垂训
-      - 入库
-    start_date: '1777-03-01'
-    highlight_event_id: guji-徐大椿-event-siku
+      zh: 融会贯通
+    start_date: 1771
+    highlight_event_id: guji-徐大椿-event-death
   decisions:
-  - date: '1757'
-    title_zh: 著书立说发明药性病情之故
-    rationale: 汇方而无发明不得要领必条分缕悉方能利人
-  - date: '1759-10-01'
-    title_zh: 正症外附别证变症及刺法
-    rationale: 救误之后变症错杂当有源委可寻使病无遁形
+  - date: 1764-04
+    title_zh: 每病先叙病原每方必著主病
+    rationale: 病必有主方方必有主药若但云主治某症而不言所以然则如雾里看花故详辨疑似出入
+  - date: 1764-04
+    title_zh: 凡例屏除秘传难识违禁之方
+    rationale: 学务穷经志切师古不尚奇功只求实效故飞炼禁咒大药重剂一概不录
 events:
 - id: guji-徐大椿-event-birth
-  person_qid: guji-徐大椿
-  type: birth
-  date: '1693'
+  title_zh: 生于吴江
+  date: 1693
   year_of: 1693
-  title_zh: 生于江苏吴江
-  description: 康熙三十二年生于吴江徐氏后字灵胎号洄溪
-  location_zh: 吴江
-- id: guji-徐大椿-event-study
-  person_qid: guji-徐大椿
-  type: study
-  date: '1729'
-  year_of: 1729
-  title_zh: 探求伤寒三十年悟救误之旨
-  description: 疑伤寒论错乱探求三十年悟其非依经立方乃随症立方救误之书
-  location_zh: 吴江
-- id: guji-徐大椿-event-compile
-  person_qid: guji-徐大椿
-  type: compile
-  date: '1752'
-  year_of: 1752
-  title_zh: 纂集十二类方初具规模
-  description: 细分桂枝麻黄葛根柴胡栀子承气等十二类每类先定主方以同类附焉
-  location_zh: 吴江
-- id: guji-徐大椿-event-preface
-  person_qid: guji-徐大椿
-  type: achievement
-  date: '1759-10-01'
-  year_of: 1759
-  title_zh: 七年五易稿成自序伤寒类方
-  description: 乾隆二十四年阳月上浣自序凡一百一十三方末附六经脉注刺法别证变症
-  location_zh: 吴江
-- id: guji-徐大椿-event-siku
-  person_qid: guji-徐大椿
-  type: honor
-  date: '1777-03-01'
-  year_of: 1777
-  title_zh: 四库全书收录称辨证精到
-  description: 乾隆四十二年三月校上总纂纪昀等称其芟除葛藤源委可寻
-  location_zh: 北京
+  summary_zh: 康熙三十二年生于江苏吴江名大椿字灵胎号洄溪
+- id: guji-徐大椿-event-1
+  title_zh: 撰成医学源流论
+  date: 1757
+  year_of: 1757
+  summary_zh: 乾隆二十二年论经方时方之源流为撰兰台轨范奠定宗旨
+- id: guji-徐大椿-event-2
+  title_zh: 兰台轨范成书自序于吴山
+  date: 1764-04
+  year_of: 1764
+  summary_zh: 乾隆二十九年四月书序于吴山半松书屋八卷告成以张机所传为主溯内经而广以隋唐方
 - id: guji-徐大椿-event-death
-  person_qid: guji-徐大椿
-  type: death
-  date: '1771'
-  year_of: 1771
   title_zh: 卒于乾隆三十六年
-  description: 卒年七十九遗书多入四库子部医家类
-  location_zh: 吴江
+  date: 1771
+  year_of: 1771
+  summary_zh: 乾隆三十六年卒享年七十九其书后经四库馆臣恭校著录
