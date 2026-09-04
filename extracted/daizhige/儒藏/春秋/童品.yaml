@@ -1,0 +1,100 @@
+person:
+  qid: guji-童品
+  name_zh: 童品
+  names:
+    zh: 童品
+    en: Tong Pin
+  lifespan:
+    birth:
+      date: 1445
+      precision: 年
+      is_circa: true
+      raw: 明中期约生于兰溪
+    death:
+      date: 1505
+      precision: 年
+      is_circa: true
+      raw: 弘治后卒年不详
+  birth_date: 1445
+  death_date: 1505
+  era: 明
+  reign_ref: 成化至弘治
+  archetype: 经学家
+  dilemmas:
+  - 三传异同从违难决
+  - 因传生疑如何还经求是
+  lesson: 因传考经事实因经别传真伪舍椟取珠
+  summary_first_person: 我抱夫子遗经究时事终始因先儒之疑每读有得不敢蓄而笔之愿辨传疑以补圣经
+  source_urls:
+  - https://daizhige.org/儒藏/春秋/春秋经传辨疑.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/春秋经传辨疑.md
+endeavors:
+- id: guji-童品-endeavor-1
+  title_zh: 研经辨疑撰成一卷
+  summary: 究春秋大经大法辨左氏附会公谷穿凿论九十三条主左驳公谷
+  phases:
+  - key: brewing
+    name: 抱经穷究
+    labels:
+      zh:
+      - 研经
+    start_date: 1465
+    highlight_event_id: guji-童品-event-birth
+  - key: breakthrough
+    name: 积疑成帙
+    labels:
+      zh:
+      - 辨疑
+    start_date: 1478-11-01
+    highlight_event_id: guji-童品-event-preface
+  decisions:
+  - date: 1478-11-01
+    title_zh: 题序辨疑俟知者
+    rationale: 不执异同为笔削取珠还椟恕其狂瞽
+- id: guji-童品-endeavor-2
+  title_zh: 教授陆氏刻梓存经
+  summary: 以儒学生教授陆震汝亨家成帙二十五年后刻梓识之幸入四库存
+  phases:
+  - key: climax
+    name: 教授成书
+    labels:
+      zh:
+      - 教授
+    start_date: 1478-11-01
+    highlight_event_id: guji-童品-event-preface
+  - key: closure
+    name: 刻梓识跋
+    labels:
+      zh:
+      - 刻书
+    start_date: 1502-02-01
+    highlight_event_id: guji-童品-event-engrave
+  decisions:
+  - date: 1502-02-01
+    title_zh: 刻梓识学不进自警
+    rationale: 齿长学不进聪明不及前道德负初心故识而传之
+events:
+- id: guji-童品-event-birth
+  title_zh: 生于兰溪
+  date: 1445
+  year_of: 1445
+  type: birth
+  summary: 明中期约生兰溪为儒学生事迹无考
+- id: guji-童品-event-preface
+  title_zh: 成化戊戌冬作自序
+  date: 1478-11-01
+  year_of: 1478
+  type: 成书
+  summary: 教授陆家成春秋经传辨疑一帙题序于长至日
+- id: guji-童品-event-engrave
+  title_zh: 弘治壬戌春刻梓识跋
+  date: 1502-02-01
+  year_of: 1502
+  type: 刻书
+  summary: 距成书二十五年刻于梓自叹学不进而识之
+- id: guji-童品-event-death
+  title_zh: 弘治后卒
+  date: 1505
+  year_of: 1505
+  type: death
+  summary: 老儒卒年不详四库据旧钞本录存
