@@ -1,0 +1,115 @@
+person:
+  qid: guji-师成子
+  name_zh: 师成子
+  names:
+    zh: 师成子
+    en: Shi Chengzi
+  lifespan:
+    birth:
+      date: 1650
+      precision: year
+      is_circa: true
+      raw: 蒲东方士康熙时人幼习群书长爱羲皇
+    death:
+      date: 1725
+      precision: year
+      is_circa: true
+      raw: 康熙戊戌后壶中卖药云游未详卒年
+  birth_date: 1650
+  death_date: 1725
+  era: 清
+  reign_ref: 康熙
+  archetype: 方士医者
+  dilemmas:
+  - 道成而功行不足如何圆满三千功行八百果行
+  - 灵药秘惜过甚与广济苍生如何两全
+  lesson: 医道可通仙道以灵药普济苍生而成己功行
+  summary_first_person: 吾蒲东师成子幼习群书长爱羲皇好仙问道云游四海历访名山卒遇明师尽弃前学从事金丹大旨恐功行不足遂寄迹江湖卖药壶中广益世人著灵药秘方四十八方以待后学者
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%81%B5%E8%8D%AF%E7%A7%98%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%81%B5%E8%8D%AF%E7%A7%98%E6%96%B9.md
+endeavors:
+- id: guji-师成子-endeavor-1
+  title_zh: 云游访道求金丹大旨
+  summary: 幼习群书讲究五金八石云游四海访白鹿真人苍牛道士遇明师而悔前非从事金丹大旨
+  phases:
+  - key: brewing
+    name: 幼习群书讲究金石
+    labels:
+      zh: 习书炼志
+    start_date: 1665
+    highlight_event_id: guji-师成子-event-birth
+  - key: breakthrough
+    name: 云游四海访仙求药
+    labels:
+      zh: 访道求药
+    start_date: 1690
+    highlight_event_id: guji-师成子-event-quest
+  - key: climax
+    name: 遇明师得金丹大旨
+    labels:
+      zh: 得师顿悟
+    start_date: 1705
+    highlight_event_id: guji-师成子-event-master
+  decisions:
+  - date: 1690
+    title_zh: 离乡云游历访名山
+    rationale: 草木之药不足回天欲求灵药金石之事须访真人道士
+  - date: 1705
+    title_zh: 尽弃前学从金丹大旨
+    rationale: 未遇明师方不灵术不精悔前非而求大道以全功行
+- id: guji-师成子-endeavor-2
+  title_zh: 壶中卖药著灵药秘方
+  summary: 道成而功行不足寄迹江湖卖药壶中广益世人著灵药秘方四十八方分量隐语以待后学
+  phases:
+  - key: breakthrough
+    name: 壶中卖药广济苍生
+    labels:
+      zh: 卖药济世
+    start_date: 1710
+    highlight_event_id: guji-师成子-event-master
+  - key: climax
+    name: 著成灵药秘方四十八方
+    labels:
+      zh: 著书传方
+    start_date: 1718
+    highlight_event_id: guji-师成子-event-book
+  - key: closure
+    name: 手卷传世方氏得之
+    labels:
+      zh: 传方后世
+    start_date: 1720
+    highlight_event_id: guji-师成子-event-book
+  decisions:
+  - date: 1710
+    title_zh: 寄迹江湖卖药济世
+    rationale: 功行不足以延登仙伴须三千行满八百功成故广益世人
+  - date: 1718
+    title_zh: 著灵药秘方分量隐语
+    rationale: 奇方秘论世医未闻既欲普济又恐轻泄故以隐语书分量
+events:
+- id: guji-师成子-event-birth
+  title_zh: 降生蒲东
+  date: 1650
+  year_of: 1650
+  description: 蒲东方士幼习群书长爱羲皇讲究五金八石冀得天传
+- id: guji-师成子-event-quest
+  title_zh: 云游四海访仙求药
+  date: 1690
+  year_of: 1690
+  description: 历访名山观寻白鹿真人苍牛道士习炉火服食之事
+- id: guji-师成子-event-master
+  title_zh: 遇明师悟金丹大旨
+  date: 1705
+  year_of: 1705
+  description: 逮遇关西夫子东角先生始悔前非尽弃所学从事金丹大旨
+- id: guji-师成子-event-book
+  title_zh: 康熙戊戌著灵药秘方
+  date: 1718
+  year_of: 1718
+  description: 春正月人日识于广陵精舍著灵药秘方一卷四十八方普济苍生
+- id: guji-师成子-event-death
+  title_zh: 云游卖药后卒
+  date: 1725
+  year_of: 1725
+  description: 寄迹江湖浪游城市卖药壶中后手卷为方氏所得乾隆间刊行

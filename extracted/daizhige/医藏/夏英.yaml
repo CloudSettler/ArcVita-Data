@@ -1,0 +1,101 @@
+person:
+  qid: guji-夏英
+  name_zh: 夏英
+  names:
+    zh: 夏英
+    en: Xia Ying
+  lifespan:
+    birth:
+      date: 1460-01-01
+      precision: year
+      is_circa: true
+      raw: 明中叶约景泰天顺间
+    death:
+      date: 1522-01-01
+      precision: year
+      is_circa: true
+      raw: 弘治后约正德嘉靖之际
+  birth_date: 1460-01-01
+  death_date: 1522-01-01
+  era: 明
+  reign_ref: 弘治
+  archetype: 医家
+  dilemmas:
+  - title_zh: 灵枢古奥错简难明
+    description: 灵枢言深兼有错简易置后世失其真初学无所凭据当如何演绎羽翼
+  - title_zh: 家学恐久而散失
+    description: 先大父先人绪余服膺三十年若不辑录寿梓恐久而散失
+  lesson: 明经脉流注以察病源述前贤以惠初学守家法而不泥旧说
+  summary_first_person: 吾夏英字时彦仁和人也世以医业儒自孩提得先大父先人讲论服膺三十年取正四方参合诸书乃取祖遗诸秘演为歌括疏灵枢本文附滑氏注分图列穴以成经脉翼之书以羽翼灵枢而惠初学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%81%B5%E6%9E%A2%E7%BB%8F%E8%84%89%E7%BF%BC.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%81%B5%E6%9E%A2%E7%BB%8F%E8%84%89%E7%BF%BC.html
+endeavors:
+- id: guji-夏英-endeavor-1
+  title_zh: 承家学研习经脉三十年
+  description: 自孩提录先人绪余阅三十年遇高明取正参诸书归于正
+  phases:
+  - key: brewing
+    name: 孩提服膺家学
+    labels:
+      zh: 研习积学
+    start_date: 1467-01-01
+    highlight_event_id: guji-夏英-event-study
+  - key: breakthrough
+    name: 取正四方参合诸书
+    labels:
+      zh: 取正辨异
+    start_date: 1485-01-01
+    highlight_event_id: guji-夏英-event-study
+  decisions:
+  - date: 1485-01-01
+    title_zh: 旁遘诸书去异归正
+    rationale: 参其所同去其所异必归于正但求理平顺不计工拙
+- id: guji-夏英-endeavor-2
+  title_zh: 编著灵枢经脉翼以惠初学
+  description: 杂取窦太师诸家韵语演为歌括疏灵枢本文附滑注列图分类名曰经脉翼
+  phases:
+  - key: climax
+    name: 演绎歌括疏注成编
+    labels:
+      zh: 著述成书
+    start_date: 1495-01-01
+    highlight_event_id: guji-夏英-event-book
+  - key: closure
+    name: 寿梓刊行传示初学
+    labels:
+      zh: 刊刻流传
+    start_date: 1497-12-22
+    highlight_event_id: guji-夏英-event-book
+  decisions:
+  - date: 1497-12-22
+    title_zh: 以灵枢为主辨证滑氏
+    rationale: 滑氏折载有详略今一以灵枢为主分截改正颠倒互释以明流注次第
+  - date: 1497-12-22
+    title_zh: 列图分类便初学记诵
+    rationale: 大书歌括分疏经文列图分类粲然昭明以便于初学察病识源
+events:
+- id: guji-夏英-event-birth
+  date: 1460-01-01
+  year_of: 1460
+  type: birth
+  title_zh: 夏英生于仁和
+  description: 仁和夏氏世医之家英生而承家学业儒读书明理
+- id: guji-夏英-event-study
+  date: 1485-01-01
+  year_of: 1485
+  type: study
+  title_zh: 服膺家学取正四方
+  description: 自孩提录先大父先人绪余阅三十年遇四方高明取正旁参诸书
+- id: guji-夏英-event-book
+  date: 1497-12-22
+  year_of: 1497
+  type: achievement
+  title_zh: 弘治丁巳成灵枢经脉翼
+  description: 古杭杏花春晓亭谨识成书上中下卷列十二经歌括经文滑注图穴并附奇经八脉求序刊梓
+- id: guji-夏英-event-death
+  date: 1522-01-01
+  year_of: 1522
+  type: death
+  title_zh: 夏英卒
+  description: 弘治后卒于仁和其书羽翼灵枢大有功于医道活人之德不浅
