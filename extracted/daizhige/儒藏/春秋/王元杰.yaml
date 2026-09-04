@@ -1,0 +1,127 @@
+person:
+  qid: guji-王元杰
+  name_zh: 王元杰
+  names:
+    zh: 王元杰
+    en: Wang Yuanjie
+  lifespan:
+    birth:
+      date: '1320'
+      precision: year
+      is_circa: true
+      raw: 吴江人至正间领荐生年未详约元中后期
+    death:
+      date: '1370'
+      precision: year
+      is_circa: true
+      raw: 元末兵兴教授乡里卒年未详
+  birth_date: '1320'
+  death_date: '1370'
+  era: 元末
+  reign_ref: 元惠宗至正
+  archetype: 墨守师说笃实经师
+  dilemmas:
+  - 墨守程朱一字不敢芟削难免重儓之诮
+  - 未见叶梦得春秋谳而名相复论断不及梦得之精
+  lesson: 守一先生之言不逾尺寸虽见浅而学笃胜无师瞽说
+  summary_first_person: 吾家世业儒有志经学放求程朱绪言证以胡氏历二十载成春秋谳义以尊王贱霸明纲常
+  source_urls:
+  - https://daizhige.org/儒藏/春秋/春秋谳义.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/春秋/春秋谳义.md
+endeavors:
+- id: guji-王元杰-endeavor-1
+  title_zh: 辑程朱胡氏撰春秋谳义
+  description: 辑程朱绪言分缀经文删掇胡安国传三家末别标已意曰谳成十二卷
+  phases:
+  - key: brewing
+    name: 放求四书易诗礼诸说旁搜取证
+    labels:
+      zh:
+      - 辑佚穷经
+      - 尊朱别胡
+    start_date: '1330'
+    highlight_event_id: guji-王元杰-event-compiling
+  - key: breakthrough
+    name: 分经缀言删掇胡传别标谳义
+    labels:
+      zh:
+      - 分经缀说
+      - 别标谳断
+    start_date: '1345'
+    highlight_event_id: guji-王元杰-event-complete
+  - key: climax
+    name: 干文传序成书十二卷传于乡校
+    labels:
+      zh:
+      - 成书立说
+      - 尊王明伦
+    start_date: '1350'
+    highlight_event_id: guji-王元杰-event-complete
+  decisions:
+  - date: '1345'
+    title_zh: 以胡安国说列朱子后不以时代为序
+    rationale: 欲别所尊崇朱为宗故不拘时代先后
+  - date: '1350'
+    title_zh: 于朱子一无异词遇程说未安则委曲恕纪
+    rationale: 墨守前说不敢芟削而于纪侯大去条存已见以全忠恕
+- id: guji-王元杰-endeavor-2
+  title_zh: 至正领荐兵兴不仕教授乡里
+  description: 至正间领荐值兵兴不仕教授吴江守经传学
+  phases:
+  - key: brewing
+    name: 家世业儒至正领荐
+    labels:
+      zh:
+      - 世业儒学
+      - 领荐辞仕
+    start_date: '1341'
+    highlight_event_id: guji-王元杰-event-recommended
+  - key: closure
+    name: 兵兴教授乡里守道终身
+    labels:
+      zh:
+      - 不仕全节
+      - 教授乡里
+    start_date: '1355'
+    highlight_event_id: guji-王元杰-event-teaching
+  decisions:
+  - date: '1355'
+    title_zh: 兵兴不仕教授于乡
+    rationale: 纲沦法斁之际守圣经贤传并行之志不苟就禄以明臣道
+events:
+- id: guji-王元杰-event-birth
+  title_zh: 生于吴江
+  kind: birth
+  date: '1320'
+  year_of: 1320
+  description: 中吴王氏家世业儒生于吴江字子英生年未详约估
+- id: guji-王元杰-event-recommended
+  title_zh: 至正间领荐
+  kind: career
+  date: '1341'
+  year_of: 1341
+  description: 至正年间领乡荐值元末未仕
+- id: guji-王元杰-event-compiling
+  title_zh: 辑集程朱胡说逾二十载
+  kind: career
+  date: '1330'
+  year_of: 1330
+  description: 放求易经本义诗传四书集注语录旁搜取证竭虑穷思逾二十载
+- id: guji-王元杰-event-complete
+  title_zh: 至正十年春秋谳义成书干文传作序
+  kind: career
+  date: '1350-06-01'
+  year_of: 1350
+  description: 至正十年庚寅仲夏成春秋谳义十二卷嘉议大夫礼部尚书致仕干文传序之
+- id: guji-王元杰-event-teaching
+  title_zh: 兵兴不仕教授乡里
+  kind: career
+  date: '1355'
+  year_of: 1355
+  description: 兵兴不仕教授于其乡守程朱宗防以终
+- id: guji-王元杰-event-death
+  title_zh: 卒于乡里
+  kind: death
+  date: '1370'
+  year_of: 1370
+  description: 元末明初卒于吴江乡里卒年未详约估
