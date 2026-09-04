@@ -1,0 +1,141 @@
+person:
+  qid: guji-琉璃王
+  name_zh: 琉璃王
+  names:
+    zh: 琉璃王
+    en: Virudhaka
+  lifespan:
+    birth:
+      date: '-0530'
+      precision: year
+      is_circa: true
+      raw: 产育之初与琉璃宝俱因以为号
+    death:
+      date: -0485
+      precision: year
+      is_circa: true
+      raw: 灭释后七日乘船入海遇自然火烧死
+  birth_date: '-0530'
+  death_date: -0485
+  era: 古印度列国时代当中国春秋之末
+  reign_ref: 憍萨罗舍卫国王
+  archetype: 含恨复仇暴君
+  dilemmas:
+  - 幼时讲堂受辱立誓诛释与亲缘外氏之情
+  - 逼宫篡逆夺取王位与背负不孝逆罪之谤
+  - 屠灭释种泄一时之忿与宿世罪业现世受报
+  lesson: 怀毒抱恚肆意残害终以现世火烧受报因果不爽
+  summary_first_person: 我名维楼黎，生而与琉璃宝俱。幼往外氏讲堂小憩，受释种辱骂逐出，遂誓为王必报。后果趁父波斯匿听法，夺军逼宫称制。又兴四种兵伐迦维罗卫，屠戮释种三万，虽快一时，七日之后入海避报，仍为自然火烧，灰灭海中。
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%90%89%E7%92%83%E7%8E%8B%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E7%90%89%E7%92%83%E7%8E%8B%E7%BB%8F.md
+endeavors:
+- id: guji-琉璃王-endeavor-1
+  title_zh: 含恨忍辱逼宫篡位
+  summary: 讲堂受辱命太史记仇，趁父王诣祇园听法率卫夺军，闭门逐父，自称制为舍卫王。
+  phases:
+  - key: brewing
+    name: 讲堂受辱含毒
+    labels:
+      zh:
+      - 受辱怀恨
+    start_date: '-0500'
+    highlight_event_id: guji-琉璃王-event-humiliation
+  - key: breakthrough
+    name: 趁听法夺权
+    labels:
+      zh:
+      - 乘虚逼宫
+    start_date: -0486
+    highlight_event_id: guji-琉璃王-event-usurpation
+  - key: climax
+    name: 闭门逐父称制
+    labels:
+      zh:
+      - 篡逆称王
+    start_date: -0486
+    highlight_event_id: guji-琉璃王-event-usurpation
+  - key: closure
+    name: 波斯匿薨位定
+    labels:
+      zh:
+      - 父薨位固
+    start_date: -0486
+    highlight_event_id: guji-琉璃王-event-usurpation
+  decisions:
+  - date: '-0500'
+    title_zh: 敕太史书辱立誓为王必诛
+    rationale: 以释种面骂逐出刬去足迹为奇耻，欲留铁证待日后复仇
+  - date: -0486
+    title_zh: 趁父王后诣佛所率军夷灭近臣
+    rationale: 见王出宫听法侍卫空虚，可一举夺其冠帻盖剑仪仗控制城门
+- id: guji-琉璃王-endeavor-2
+  title_zh: 三遇佛还四征灭释
+  summary: 出带中旧书证恶，兴四种兵伐迦维罗卫，三值佛坐枯树而还，第四进军破城，埋戮释种，后遭海火烧死。
+  phases:
+  - key: brewing
+    name: 出带书兴师
+    labels:
+      zh:
+      - 举旧仇兴兵
+    start_date: -0485
+    highlight_event_id: guji-琉璃王-event-massacre
+  - key: breakthrough
+    name: 三值世尊还军
+    labels:
+      zh:
+      - 遇佛暂退
+    start_date: -0485
+    highlight_event_id: guji-琉璃王-event-massacre
+  - key: climax
+    name: 破城屠戮释种
+    labels:
+      zh:
+      - 屠城灭族
+    start_date: -0485
+    highlight_event_id: guji-琉璃王-event-massacre
+  - key: closure
+    name: 入海避谶火烧
+    labels:
+      zh:
+      - 避罪就戮
+    start_date: -0485
+    highlight_event_id: guji-琉璃王-event-death
+  decisions:
+  - date: -0485
+    title_zh: 用太史谏舍夷奉戒不杀可并力扑讨
+    rationale: 见释种箭但恐人不害命，知其慈仁不杀可欺，遂催军破城
+  - date: -0485
+    title_zh: 乘船入海欲免七日地狱火
+    rationale: 闻佛记七日火烧杀己，又与太史奏谶同，惧现世受报欲以水避火
+events:
+- id: guji-琉璃王-event-birth
+  title_zh: 舍卫诞生与宝俱生
+  date: '-0530'
+  year_of: -530
+  location_zh: 舍卫国王宫
+  description_zh: 波斯匿太子维楼黎产育之初与琉璃宝俱，因以为号。
+- id: guji-琉璃王-event-humiliation
+  title_zh: 讲堂憩凉受辱立誓
+  date: '-0500'
+  year_of: -500
+  location_zh: 迦维罗卫释氏讲堂
+  description_zh: 领卫省外氏登讲堂息凉，被贵姓骂辱逐出刬去足迹贸易宝阶，敕太史阿萨陀书状藏带誓为王必诛。
+- id: guji-琉璃王-event-usurpation
+  title_zh: 祇园外逼宫称制为王
+  date: -0486
+  year_of: -486
+  location_zh: 祇树园至舍卫城门
+  description_zh: 趁父王末利诣佛听法，率所领夷灭近臣五百，夺冠帻仪仗闭门不纳，父后出奔食萝卜薨，遂称制为王。
+- id: guji-琉璃王-event-massacre
+  title_zh: 四征迦维罗卫屠释
+  date: -0485
+  year_of: -485
+  location_zh: 迦维罗卫城
+  description_zh: 三遇佛坐枯树哀愍亲族而还军，第四征破城，生缚贵姓三万埋地驱象蹈杀驾犁耕首，杀戮惨酷，释摩男投池自沉。
+- id: guji-琉璃王-event-death
+  title_zh: 海中七日期尽火烧灰灭
+  date: -0485
+  year_of: -485
+  location_zh: 大海船上
+  description_zh: 佛记现世作罪现世受七日有地狱火烧杀，乘船入海冀免，期尽水中自然火出烧船及王一時灰灭。
