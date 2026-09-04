@@ -3,7 +3,7 @@ person:
   name_zh: 弘历
   names:
     zh: 弘历
-    en: Hongli Qianlong
+    en: Hongli
   lifespan:
     birth:
       date: 1711-09-25
@@ -18,98 +18,151 @@ person:
   birth_date: 1711-09-25
   death_date: 1799-02-07
   era: 清朝乾隆朝
-  reign_ref: 乾隆八年
-  archetype: 有为君主
+  reign_ref: 乾隆八年癸亥
+  archetype: 守成有为之君
   dilemmas:
-  - 江淮积歉之后蠲税恤商与国用常供之间如何权衡
-  - 荒年劝谕富户出粜与勒令强夺伤风之间如何化导
-  - 远谒奉天祖陵与京师政务不致稽迟之间如何委任
-  lesson: 恤民须通有无之源远行须托得人之重方能恩泽下究而根本不摇
-  summary_first_person: 朕即位八年江淮徐海屡被水灾商贩不通民力艰难故宽免二十三州县旧欠杂税豁免临清铜补商补又以川米接济江南截留江西并饬化导富户乐输严惩抢夺朕恭奉皇太后谒奉天祖陵命宗王大学士在京总理缮写列朝实录尊藏盛京皆所以敬天法祖而安苍生也
+  - 追远谒陵隆礼与轸念民力之间的权衡
+  - 限田均贫之名与滋扰无补之实如何抉择
+  - 灾年恤刑弭灾与防诱民犯法之间如何把握
+  lesson: 名虽正而难行之事须审实效，不以虚文扰民，方能保全治体
+  summary_first_person: 朕以眇躬缵承大统，秋奉皇太后东巡谒陵，瞻仰桥山，锡宴盛京，颁恩诏以覃敷德泽，驳限田以免滋扰，饬恤刑以防纵弛，惟愿恪遵祖烈，养育兵民，永保淳朴之风
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/history/qing-shilu-qianlong/0193.md
-  - https://daizhige.org/history/qing-shilu-qianlong/0193.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70201.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 江淮蠲税通粜安民
-  summary_zh: 乾隆八年五月因江淮扬徐海积歉贸易稀少宽免杂税截留川米并饬劝谕富户以通商惠民
+  person_id: guji-弘历
+  title_zh: 东巡恭谒祖陵锡宴颁恩
+  summary_zh: 奉皇太后东巡，依次大飨永陵福陵昭陵，莅盛京受贺锡宴，作世德舞辞，颁恩诏覃惠旗民
   phases:
   - key: brewing
-    name: 积歉贸易稀少
+    name: 启銮东巡
     labels:
-      zh: 勘灾
-    start_date: 1743-06-01
-    highlight_event_id: guji-弘历-event-kuanmian
+      zh:
+      - 出巡
+      - 奉太后
+    start_date: 1743-10-17
+    highlight_event_id: guji-弘历-event-yongling
   - key: breakthrough
-    name: 宽免杂税米税
+    name: 三陵大飨
     labels:
-      zh: 蠲恤
-    start_date: 1743-06-23
-    highlight_event_id: guji-弘历-event-kuanmian
+      zh:
+      - 谒陵
+      - 大飨礼
+    start_date: 1743-10-18
+    highlight_event_id: guji-弘历-event-yongling
   - key: climax
-    name: 截米化导通有无
+    name: 盛京受贺锡宴
     labels:
-      zh: 通粜
-    start_date: 1743-07-05
-    highlight_event_id: guji-弘历-event-quancui
+      zh:
+      - 盛京
+      - 筵宴
+    start_date: 1743-10-26
+    highlight_event_id: guji-弘历-event-shengjing
+  - key: closure
+    name: 颁诏覃恩
+    labels:
+      zh:
+      - 恩诏
+      - 宽免
+    start_date: 1743-10-27
+    highlight_event_id: guji-弘历-event-shengjing
   decisions:
-  - date: 1743-06-23
-    title_zh: 宽免二十三州县乾隆七年未完杂税
-    rationale: 积歉之余新旧并征民力艰难须体恤商民使商贩流通地方有起色
-  - date: 1743-07-05
-    title_zh: 饬各省化导富户劝粜严惩抢夺
-    rationale: 周急出于义举不可勒令视为官法致长刁风当劝谕乐从而尽法惩强暴
+  - date: 1743-10-26
+    title_zh: 作世德舞辞赐宴盛京群臣
+    rationale: 追述祖烈以系人心，示守成之志
+  - date: 1743-10-27
+    title_zh: 颁东巡恩诏宽免奉天赋税罪罚
+    rationale: 报本覃恩，惠养旗民，巩固根本之地
 - id: guji-弘历-endeavor-2
-  title_zh: 恭谒奉天敬守发祥之地
-  summary_zh: 乾隆八年七月恭奉皇太后谒盛京三陵预命留京总理缮写实录尊藏并慎安銮驾
+  person_id: guji-弘历
+  title_zh: 驳限田议饬恤刑典
+  summary_zh: 否决顾琮三十顷限田之请，晓谕停止试行，批饬陈大受灾区减刑之谬，重申恤刑本意
   phases:
   - key: brewing
-    name: 预定谒陵留京总理
+    name: 顾琮奏请限田
     labels:
-      zh: 筹备
-    start_date: 1743-06-28
-    highlight_event_id: guji-弘历-event-yeling
+      zh:
+      - 限田
+      - 奏议
+    start_date: 1743-10-18
+    highlight_event_id: guji-弘历-event-xiantian
+  - key: breakthrough
+    name: 谕止限田试行
+    labels:
+      zh:
+      - 停止
+      - 晓谕
+    start_date: 1743-10-19
+    highlight_event_id: guji-弘历-event-xiantian
+  - key: climax
+    name: 批饬减刑之请
+    labels:
+      zh:
+      - 恤刑
+      - 训饬
+    start_date: 1743-10-20
+    highlight_event_id: guji-弘历-event-xuxing
   - key: closure
-    name: 实录尊藏銮驾安奉
+    name: 通谕督抚明恤刑本意
     labels:
-      zh: 尊藏
-    start_date: 1743-06-30
-    highlight_event_id: guji-弘历-event-yeling
+      zh:
+      - 通谕
+      - 弭灾
+    start_date: 1743-10-21
+    highlight_event_id: guji-弘历-event-xuxing
   decisions:
-  - date: 1743-06-28
-    title_zh: 命履亲王平郡王鄂尔泰张廷玉在京总理诸务
-    rationale: 往来约计四月文武大选验看等事不可稽迟须重臣留京即行办理
-  - date: 1743-06-30
-    title_zh: 命缮写满汉文列朝实录送奉天尊藏
-    rationale: 奉天为发祥之地列朝实录俱应尊藏以昭敬守之意
+  - date: 1743-10-19
+    title_zh: 断止顾琮限田之法不准试行
+    rationale: 名虽正而难行，分户析产即可规避，查对滋扰且于贫民无补
+  - date: 1743-10-20
+    title_zh: 饬陈大受错会恤刑之意
+    rationale: 赦非善政，明定期限减刑必诱民为非，须慎守感召天和本意
 events:
 - id: guji-弘历-event-birth
+  person_id: guji-弘历
+  type: birth
+  title_zh: 弘历诞生
   date: 1711-09-25
   year_of: 1711
-  kind: birth
-  title_zh: 弘历出生
-  description_zh: 康熙五十年八月十三日生于雍亲王府后即位为高宗乾隆皇帝
-- id: guji-弘历-event-kuanmian
-  date: 1743-06-23
-  year_of: 1743
-  kind: career
-  title_zh: 谕免江淮二十三州县杂税及临清铜补商补
-  description_zh: 己亥谕以江淮扬徐海被灾贸易稀少宽免山阳清河泰州沛县海州等二十三州县乾隆七年未完牙行杂税又豁免山东临清关铜补商补船料以示体恤商民
-- id: guji-弘历-event-quancui
-  date: 1743-07-05
-  year_of: 1743
-  kind: career
-  title_zh: 谕化导富户出粜并截留川米济江西
-  description_zh: 以湖北湖南江西福建广东多有勒令蠲粜强夺之案寄谕督抚密饬化导劝谕欣然乐从违者尽法严惩又允尹继善截留川米十万石济江西
-- id: guji-弘历-event-yeling
-  date: 1743-06-30
-  year_of: 1743
-  kind: career
-  title_zh: 部署恭谒盛京三陵及实录尊藏
-  description_zh: 定本年七月恭奉皇太后往奉天叩谒祖陵命履亲王平郡王鄂尔泰张廷玉在京总理命缮满汉文实录送奉天尊藏并议銮驾安放大清门内楼上
+  location_zh: 北京雍亲王府
+  description_zh: 康熙五十年八月十三日生，为雍亲王胤禛第四子
 - id: guji-弘历-event-death
+  person_id: guji-弘历
+  type: death
+  title_zh: 弘历驾崩
   date: 1799-02-07
   year_of: 1799
-  kind: death
-  title_zh: 弘历去世
-  description_zh: 嘉庆四年正月初三日崩于养心殿谥法天隆运至诚先觉体元立极敷文奋武孝慈神圣纯皇帝
+  location_zh: 北京紫禁城养心殿
+  description_zh: 嘉庆四年正月初三日崩，寿八十九岁
+- id: guji-弘历-event-yongling
+  person_id: guji-弘历
+  type: career
+  title_zh: 恭谒三陵行大飨礼
+  date: 1743-10-18
+  year_of: 1743
+  location_zh: 盛京永陵福陵昭陵
+  description_zh: 奉皇太后东巡，亲诣永陵福陵昭陵行大飨礼，奠克勤郡王及功臣坟墓
+- id: guji-弘历-event-shengjing
+  person_id: guji-弘历
+  type: career
+  title_zh: 盛京受贺作世德舞辞颁恩诏
+  date: 1743-10-26
+  year_of: 1743
+  location_zh: 盛京崇政殿大政殿
+  description_zh: 以谒陵礼成受贺锡宴，作世德舞辞十章，颁诏宽免奉天赋税赏赉官兵宗室
+- id: guji-弘历-event-xiantian
+  person_id: guji-弘历
+  type: career
+  title_zh: 否决顾琮限田之议
+  date: 1743-10-19
+  year_of: 1743
+  location_zh: 行在
+  description_zh: 前漕运总督顾琮请以三十顷为限行限田法，下谕以滋扰无补断然停止
+- id: guji-弘历-event-xuxing
+  person_id: guji-弘历
+  type: career
+  title_zh: 训饬陈大受减刑之谬
+  date: 1743-10-20
+  year_of: 1743
+  location_zh: 行在
+  description_zh: 江南海州被灾请定期减刑，批其卑谬诱民为非，通谕各省明恤刑本意
