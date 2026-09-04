@@ -8,125 +8,121 @@ person:
     birth:
       date: 0499
       precision: year
-      is_circa: true
-      raw: 公元499年生于西天竺优禅尼国
+      is_circa: false
+      raw: 西天竺优禅尼国生约499年
     death:
       date: 0569
       precision: year
       is_circa: false
-      raw: 陈太建元年圆寂于广州制止寺
+      raw: 陈太建元年569年广州示寂
   birth_date: 0499
   death_date: 0569
-  era: 南北朝
-  reign_ref: 梁武帝至陈宣帝时
-  archetype: 译经弘法者
+  era: 南北朝梁陈
+  reign_ref: 梁武帝大同至陈宣帝太建
+  archetype: 西来译匠与摄论宗祖
   dilemmas:
-  - 侯景乱离流转岭南之际保身还乡与留华译经弘法之抉择
-  - 随顺世俗假名说有与依真简择显三界唯识无外境之张力
-  lesson: 三界唯假名乱识所现智人不违世俗而依真观察方能除惑解脱
-  summary_first_person: 吾本西天竺优禅尼国人本名拘那罗陀梁武帝迎请浮海至建康值侯景之乱流转南海豫章虽屡经艰危不敢废译以陈那解卷论等显三界唯言名假立内外皆空随俗说有依真观察助众生如见藤除蛇怖般断欲等妄惑
+  - title_zh: 梁末乱世去留之抉
+    description: 梁武帝崩侯景乱起，归国路绝，留则颠沛，归则负弘法本愿，进退两难
+  - title_zh: 有相空性会通之难
+    description: 中土空有争衡，欲以阿梨耶识转识之说立唯识正义，又恐学者执识为实，故须境识俱泯
+  lesson: 乱世不辍译业，以转识之智转境界为修行，终使唯识种子植于中土
+  summary_first_person: 吾本西天竺优禅尼人，名拘那罗陀，中土号真谛，奉梁武帝请来华，值侯景之乱颠沛岭南，犹发愿译经弘法，以转识摄论开唯识之门，愿学者离境识之执，同证无所得智
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E8%A7%A3%E5%8D%B7%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E8%A7%A3%E5%8D%B7%E8%AE%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/论藏/瑜伽部/转识论.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E8%BD%AC%E8%AF%86%E8%AE%BA.html
 endeavors:
 - id: guji-真谛-endeavor-1
-  title_zh: 浮海东来梁陈流转译经弘法
-  description: 应梁武帝请自扶南浮海至建康建宝云译场逢侯景之乱转徙岭南豫章坚持传译开岭南风气
+  title_zh: 应请来华梁陈颠沛译经
+  summary: 自天竺泛海至梁，值梁末丧乱，流转岭南建康豫章等地，坚持译经弘法，奠定摄论宗基础
   phases:
   - key: brewing
-    name: 初至建康建译场
+    name: 西土受学发愿东行
     labels:
-      zh: 筹备来华
-    start_date: '0546'
-    highlight_event_id: guji-真谛-event-arrival
+      zh: 天竺受学
+    start_date: 0499
+    highlight_event_id: guji-真谛-event-birth
   - key: breakthrough
-    name: 乱中转徙不废译事
+    name: 泛海至粤初见梁武
     labels:
-      zh: 乱中坚守
-    start_date: 0548
-    highlight_event_id: guji-真谛-event-refuge
+      zh: 来华初至
+    start_date: 358
+    highlight_event_id: guji-真谛-event-arrive
   - key: climax
-    name: 陈初南海系统传译
+    name: 乱中流转坚持传译
     labels:
-      zh: 南海弘传
-    start_date: '0557'
-    highlight_event_id: guji-真谛-event-translate-jiejuan
+      zh: 乱世译业
+    start_date: 360
+    highlight_event_id: guji-真谛-event-translate
   - key: closure
-    name: 制止寺圆寂付嘱
+    name: 广州示寂遗教岭南
     labels:
-      zh: 示寂付嘱
+      zh: 示寂岭南
     start_date: 0569
     highlight_event_id: guji-真谛-event-death
   decisions:
-  - date: '0546'
-    title_zh: 决意留华不归天竺
-    rationale: 中土求法心切虽语言风土殊异愿随俗弘传以报请法之诚
-  - date: 0548
-    title_zh: 侯景乱起不辍译讲
-    rationale: 世乱更显众生颠倒唯以正法简择方能安定人心故流离亦坚持译经
+  - date: 358
+    title_zh: 应梁使请泛海东行
+    rationale: 为报佛恩弘大乘于东土，不惮海途艰险，愿以译业续慧命
+  - date: 360
+    title_zh: 侯景乱后留华不归
+    rationale: 归路已绝而中土请法殷切，宁忍饥寒颠沛，亦不舍译经本愿
 - id: guji-真谛-endeavor-2
-  title_zh: 传译陈那解卷论显唯识空义
-  description: 译解卷论一卷明三界唯言名藤蛇之喻析假名从他起无自性令学者依真观察除惑
+  title_zh: 译传转识论立唯识正义
+  summary: 从无相论出转识论，发明三识转似尘境，立唯识无境之义，会通三性三无性，开中土唯识先声
   phases:
   - key: brewing
-    name: 研习陈那因明唯识
+    name: 研习瑜伽摄大乘义
     labels:
-      zh: 研习论义
-    start_date: '0546'
-    highlight_event_id: guji-真谛-event-arrival
+      zh: 瑜伽研习
+    start_date: 358
+    highlight_event_id: guji-真谛-event-arrive
   - key: breakthrough
-    name: 译摄大乘论立唯识宗本
+    name: 重译摄论显识诸论
     labels:
-      zh: 立宗奠基
-    start_date: 0558
-    highlight_event_id: guji-真谛-event-refuge
+      zh: 摄论先声
+    start_date: 366
+    highlight_event_id: guji-真谛-event-translate
   - key: climax
-    name: 译解卷论明藤蛇假名
+    name: 译出转识论明境识俱泯
     labels:
-      zh: 译显空义
-    start_date: 0559
-    highlight_event_id: guji-真谛-event-translate-jiejuan
+      zh: 转识立义
+    start_date: 367
+    highlight_event_id: guji-真谛-event-translate
   - key: closure
-    name: 遗教结集岭南学脉
+    name: 以无所得智付嘱后学
     labels:
-      zh: 结集传灯
+      zh: 付嘱后学
     start_date: 0569
     highlight_event_id: guji-真谛-event-death
   decisions:
-  - date: 0559
-    title_zh: 择译解卷论以简择自性
-    rationale: 瓶衣人等粗执易破微细俗心难遣须以分分分析显唯乱识无外尘以生不颠倒智
-  - date: 0559
-    title_zh: 随俗说有依真观察并举
-    rationale: 智人不违世间假名而求解脱须依真理观察方能现起惑灭未起不生
+  - date: 367
+    title_zh: 先遣境后遣心立唯识
+    rationale: 为遣凡夫执境为实，先立唯识遣境，终明境无识亦无，方显阿摩罗实性
+  - date: 0558
+    title_zh: 以三识三性判摄诸法
+    rationale: 以果报执尘三识摄能缘，以分别依他真实三性摄所知，令学者知转依在转识
 events:
 - id: guji-真谛-event-birth
+  title_zh: 诞生西天竺优禅尼国
   type: birth
   date: 0499
   year_of: 499
-  title_zh: 生于西天竺优禅尼国
-  description: 公元499年生于西天竺优禅尼国本名拘那罗陀幼通三藏尤精唯识因明
-- id: guji-真谛-event-arrival
-  type: achievement
-  date: '0546'
+  description: 真谛生于西天竺优禅尼国婆罗门家，遍学大小乘，尤精瑜伽唯识，后受梁武帝请
+- id: guji-真谛-event-arrive
+  title_zh: 泛海至广州复至建康
+  type: career
+  date: 358
   year_of: 546
-  title_zh: 浮海至建康建宝云译场
-  description: 梁中大同元年应请经扶南浮海至建康住宝云殿开始译经弘传西天竺义学
-- id: guji-真谛-event-refuge
-  type: achievement
-  date: 0548
-  year_of: 548
-  title_zh: 侯景乱起转徙岭南豫章
-  description: 侯景之乱建康扰攘携经论转徙豫章南海流离艰危之中仍坚持译讲不辍
-- id: guji-真谛-event-translate-jiejuan
-  type: achievement
-  date: 0559
-  year_of: 559
-  title_zh: 译陈那造解卷论一卷
-  description: 于陈文帝世译出陈那菩萨造解卷论以藤蛇邻虚为喻明三界唯言名假立简择自性显法空以助灭欲等惑障
+  description: 梁中大同元年至广州，次年至建康见梁武帝，奉敕传译，未几侯景乱作，流转各地
+- id: guji-真谛-event-translate
+  title_zh: 岭南译出转识论等
+  type: career
+  date: 367
+  year_of: 5557
+  description: 陈永定太建间于建康豫章广州等地译摄大乘论转识论显识论等，发明本识执识尘识三转，明唯识无境之旨
 - id: guji-真谛-event-death
+  title_zh: 广州圆寂
   type: death
   date: 0569
   year_of: 569
-  title_zh: 圆寂于广州制止寺
-  description: 陈太建元年圆寂于广州制止寺一生译经论五十余部奠定摄论学派与岭南译经之风
+  description: 陈太建元年九月示寂于广州，年七十一，遗身岭南，摄论学派奉为宗祖
