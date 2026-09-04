@@ -1,0 +1,137 @@
+person:
+  qid: guji-般若
+  name_zh: 般若
+  names:
+    zh: 般若
+    en: Prajna
+  lifespan:
+    birth:
+      date: '0734'
+      precision: year
+      is_circa: true
+      raw: 约生于唐玄宗时罽宾国
+    death:
+      date: 0810
+      precision: year
+      is_circa: true
+      raw: 约卒于唐宪宗时
+  birth_date: '0734'
+  death_date: 0810
+  era: 唐
+  reign_ref: 唐德宗贞元
+  archetype: 译经三藏
+  dilemmas:
+  - 梵文久秘泻瓶未启，如何以华言传信而不失真谛
+  - 众生贫穷孤露无依，如何以六度津梁导归法身涅槃
+  lesson: 以诚证法身以外施大悲，乘理悟入护持正法久住
+  summary_first_person: 吾自罽宾来仪，奉诏于西明寺与利言等译理趣六波罗蜜多十卷，唯愿众生归依佛法僧，乘六度津梁证清净法身
+  source_urls:
+  - https://cbeta.org/result/T0261
+  - https://daizhige.org/text
+endeavors:
+- id: guji-般若-endeavor-1
+  title_zh: 奉诏西明寺译理趣六度
+  summary: 受旨宣扬与利言对译，会道液等证义，于贞元四年译成十卷上进
+  phases:
+  - key: brewing
+    name: 受旨宣扬
+    labels:
+      zh: 受旨
+    start_date: '0787-01-01'
+    highlight_event_id: guji-般若-event-translate-start
+  - key: breakthrough
+    name: 会众对译
+    labels:
+      zh: 合译
+    start_date: '0788-01-01'
+    highlight_event_id: guji-般若-event-translate-start
+  - key: climax
+    name: 十卷译成上进
+    labels:
+      zh: 进经
+    start_date: '0788-11-28'
+    highlight_event_id: guji-般若-event-translate-complete
+  - key: closure
+    name: 御制序文流通
+    labels:
+      zh: 流通
+    start_date: '0789-01-01'
+    highlight_event_id: guji-般若-event-translate-complete
+  decisions:
+  - date: '0787-01-01'
+    title_zh: 应诏与利言合作传译
+    rationale: 梵汉兼通道俗相资，取信于众而微言得显
+  - date: '0788-11-28'
+    title_zh: 十卷成即于西明寺上进
+    rationale: 以流布为先凭皇极护持，令真筌永济浮俗
+- id: guji-般若-endeavor-2
+  title_zh: 开演归依三宝与六度理趣
+  summary: 依慈氏咨问敷演佛法僧三宝，显般若为母摄前五度之旨
+  phases:
+  - key: brewing
+    name: 慈氏咨问
+    labels:
+      zh: 发问
+    start_date: '0788-01-01'
+    highlight_event_id: guji-般若-event-translate-start
+  - key: breakthrough
+    name: 敷演三身三宝
+    labels:
+      zh: 演教
+    start_date: '0788-11-28'
+    highlight_event_id: guji-般若-event-translate-complete
+  - key: climax
+    name: 明六度以般若为母
+    labels:
+      zh: 明宗
+    start_date: '0789-01-01'
+    highlight_event_id: guji-般若-event-preach
+  - key: closure
+    name: 劝归无为法宝
+    labels:
+      zh: 归劝
+    start_date: '0790-01-01'
+    highlight_event_id: guji-般若-event-preach
+  decisions:
+  - date: '0788-11-28'
+    title_zh: 立归清净法身之说
+    rationale: 应化迁变唯法身常住，可为三界众生真归依处
+  - date: '0789-01-01'
+    title_zh: 以五藏配五味劝持总持
+    rationale: 为重罪难持者开速脱门，令速证涅槃安乐法身
+events:
+- id: guji-般若-event-birth
+  title_zh: 生于罽宾国
+  date: '0734'
+  year_of: 734
+  type: birth
+  place: 罽宾国
+  description: 约生于罽宾，出家精通梵文般若，后游学入唐
+- id: guji-般若-event-translate-start
+  title_zh: 奉旨于光宅西明从事翻译
+  date: '0787-01-01'
+  year_of: 787
+  type: 事业
+  place: 长安光宅寺
+  description: 罽宾沙门般若受旨宣扬，与利言及道液等会译理趣经
+- id: guji-般若-event-translate-complete
+  title_zh: 西明寺译成十卷上进
+  date: '0788-11-28'
+  year_of: 788
+  type: 事业
+  place: 长安西明寺
+  description: 贞元四年十一月二十八日，一部十卷译成上进，获御制序
+- id: guji-般若-event-preach
+  title_zh: 敷演归依与六波罗蜜多
+  date: '0789-01-01'
+  year_of: 789
+  type: 事业
+  place: 长安
+  description: 演慈氏所问，示归依法身及般若摄五度，劝闭恶趣开涅槃路
+- id: guji-般若-event-death
+  title_zh: 示寂
+  date: 0810
+  year_of: 810
+  type: death
+  place: 长安
+  description: 译弘既毕约示寂于唐，理趣弘传后世不绝

@@ -6,133 +6,138 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于乌苌国
+      raw: 约十世纪中叶生于乌仗那国
     death:
-      date: '1017'
+      date: 1017-01-01
       precision: year
-      is_circa: false
-      raw: 宋真宗天禧元年圆寂
-  birth_date: 0950
-  death_date: '1017'
+      is_circa: true
+      raw: 宋真宗天禧元年卒于开封
+  birth_date: 0950-01-01
+  death_date: 1017-01-01
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗天禧
-  archetype: 西天译经传法者
+  archetype: 西天译经三藏弘法者
   dilemmas:
-  - 梵文密义深广而华言须显浅易持
-  - 身为客僧而欲立信于朝野弘传般若
-  lesson: 以清净遍照之心译经弘法则自性空寂而万行自成
-  summary_first_person: 吾本乌苌国僧，携梵本东来，蒙宋帝授以传法大师之号，毕生译经弘法，愿以遍照般若令众生皆入清净菩提。
+  - 梵本义理精严与汉文易晓之间如何取舍而不失真实圆义
+  - 般若深慧显说了义与陀罗尼秘密章句之间如何兼顾弘传
+  lesson: 以信实译述续佛慧命，令般若深义摄于一百八名与陀罗尼中普利群机
+  summary_first_person: 我是施护，西天乌仗那国人，奉佛法西来之愿入宋居开封译场，历事太宗真宗两朝，与天息灾法贤等共译显密经论，我略集八千颂般若要义为一百八名，又传真实圆义陀罗尼，愿持诵者销灭众罪，为诸佛菩萨所护念
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/般若部/佛说遍照般若波罗蜜经.html
-  - https://tripitaka.cbeta.org/T0242
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%9C%A3%E5%85%AB%E5%8D%83%E9%A2%82%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E4%B8%80%E7%99%BE%E5%85%AB%E5%90%8D%E7%9C%9F%E5%AE%9E%E5%9C%86%E4%B9%89%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E8%88%AC%E8%8B%A5%E9%83%A8/%E5%9C%A3%E5%85%AB%E5%8D%83%E9%A2%82%E8%88%AC%E8%8B%A5%E6%B3%A2%E7%BD%97%E8%9C%9C%E5%A4%9A%E4%B8%80%E7%99%BE%E5%85%AB%E5%90%8D%E7%9C%9F%E5%AE%9E%E5%9C%86%E4%B9%89%E9%99%80%E7%BD%97%E5%B0%BC%E7%BB%8F.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 西天入宋创立译场
-  summary_zh: 太平兴国中携梵本至汴京，奉诏入译经院，与天息灾法天等共开新译，授朝散大夫试鸿胪卿传法大师。
+  title_zh: 入宋居译场系统传译显密经论
+  summary: 自太平兴国初年来华，久住开封译场，奉诏与众共译般若显教及陀罗尼密教诸经，授传法大师赐紫，历三十余年不辍
   phases:
   - key: brewing
-    name: 乌苌习学蕴种
+    name: 西土习学发愿东来
     labels:
-      zh: 西土习梵
-    start_date: 0950
+      zh:
+      - 习学三藏
+      - 发愿弘法
+    start_date: 0950-01-01
     highlight_event_id: guji-施护-event-birth
   - key: breakthrough
-    name: 奉诏入院得信
+    name: 抵开封入译场得授使
     labels:
-      zh: 初入汴京
-    start_date: 0982
-    highlight_event_id: guji-施护-event-982-arrival
+      zh:
+      - 初入译场
+      - 奉诏试译
+    start_date: 0980-01-01
+    highlight_event_id: guji-施护-event-arrival
   - key: climax
-    name: 译经院群译大兴
+    name: 授传法大师专任翻译
     labels:
-      zh: 群经并译
-    start_date: 0985
-    highlight_event_id: guji-施护-event-985-translate
+      zh:
+      - 传法大师
+      - 专主译事
+    start_date: 0982-01-01
+    highlight_event_id: guji-施护-event-confer
   - key: closure
-    name: 传法大师名位既定
+    name: 老于译事以译终身
     labels:
-      zh: 名位成就
-    start_date: 0990
-    highlight_event_id: guji-施护-event-990-pianzhao
-  decisions:
-  - date: 0982
-    title_zh: 决意携梵本来华
-    rationale: 为使大乘密教般若东传，愿舍故土依中国护法弘化
-  - date: 0984
-    title_zh: 应诏入译经院共译
-    rationale: 借朝廷之力定梵汉体例，使译文信达雅兼备
-- id: guji-施护-endeavor-2
-  title_zh: 译弘遍照般若波罗蜜
-  summary_zh: 奉诏译出遍照般若波罗蜜经，宣说一切法自性清净及秘密真言法门，劝众受持读诵以速证菩提。
-  phases:
-  - key: brewing
-    name: 抉择般若清净宗要
-    labels:
-      zh: 抉择宗要
-    start_date: 0988
-    highlight_event_id: guji-施护-event-985-translate
-  - key: breakthrough
-    name: 遍照一经译成
-    labels:
-      zh: 译成遍照经
-    start_date: 0990
-    highlight_event_id: guji-施护-event-990-pianzhao
-  - key: climax
-    name: 演说持诵功德流通
-    labels:
-      zh: 弘传流通
-    start_date: 0995
-    highlight_event_id: guji-施护-event-995-circulate
-  - key: closure
-    name: 以经塔供养结缘来世
-    labels:
-      zh: 结缘后世
-    start_date: '1017'
+      zh:
+      - 久住译场
+      - 以译圆寂
+    start_date: 1010-01-01
     highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0990
-    title_zh: 以密咒摄显义译遍照经
-    rationale: 依金刚手所问以吽盎等秘密字摄尽一切法令易持易证
-  - date: 0995
-    title_zh: 力劝书写供养流通
-    rationale: 使持经之处如佛塔庙令天人卫护众生速入佛果
+  - date: 0980-06-01
+    title_zh: 应诏留宋不归西土
+    rationale: 为令梵本广布汉地，舍归国之便，安住译场 соот众共事翻译
+  - date: 0982-03-01
+    title_zh: 受朝奉传法之命专攻译业
+    rationale: 借朝廷译经制度之力，保译文刊定流通，使般若密咒并行于世
+- id: guji-施护-endeavor-2
+  title_zh: 略集般若一百八名并传圆义陀罗尼
+  summary: 依八千颂般若及须菩提所说，略集最胜般若等一百八名，集出真实圆义陀罗尼秘密章句，劝常持诵获无量功德
+  phases:
+  - key: brewing
+    name: 广阅般若八千颂本
+    labels:
+      zh:
+      - 研读般若
+      - 抉择要义
+    start_date: 0985-01-01
+    highlight_event_id: guji-施护-event-confer
+  - key: breakthrough
+    name: 立一百八名总摄深义
+    labels:
+      zh:
+      - 立名摄义
+      - 空性次第
+    start_date: 0995-01-01
+    highlight_event_id: guji-施护-event-dharani
+  - key: climax
+    name: 奉诏译出陀罗尼经
+    labels:
+      zh:
+      - 奉诏译经
+      - 显密双彰
+    start_date: 1000-01-01
+    highlight_event_id: guji-施护-event-dharani
+  - key: closure
+    name: 劝持诵明功德流通
+    labels:
+      zh:
+      - 劝持流通
+      - 护念获益
+    start_date: 1005-01-01
+    highlight_event_id: guji-施护-event-dharani
+  decisions:
+  - date: 0995-01-01
+    title_zh: 以一百八名略摄八千颂广文
+    rationale: 广文难持故以名号总持，使一切智乃至一切法同一味易于忆念受持
+  - date: 1000-01-01
+    title_zh: 显说加秘密神咒双付流通
+    rationale: 显义开解悟门，密句摄护持之力，令销罪称赞卫护之益速得成就
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌苌国
-  date: 0950
+  title_zh: 生于乌仗那国
+  date: 0950-01-01
   year_of: 950
-  place_zh: 乌苌国
-  summary_zh: 约十世纪中叶生于乌苌国，自幼习梵文显密经论。
-- id: guji-施护-event-982-arrival
-  title_zh: 携梵本至汴京奉诏译经
-  date: 0982
+  description: 约十世纪中叶生于西天乌仗那国，自幼习梵文三藏，通般若及陀罗尼法门
+- id: guji-施护-event-arrival
+  title_zh: 太平兴国初年抵开封入译场
+  date: 0980-01-01
+  year_of: 980
+  description: 宋太宗太平兴国年间携梵本来华抵开封，与天息灾等同入译经院奉诏试译
+- id: guji-施护-event-confer
+  title_zh: 授传法大师赐紫专主译事
+  date: 0982-01-01
   year_of: 982
-  place_zh: 汴京
-  summary_zh: 太平兴国七年携梵本而来，太宗赐名施护，敕入译经院。
-- id: guji-施护-event-985-translate
-  title_zh: 入译经院群译大乘经律
-  date: 0985
-  year_of: 985
-  place_zh: 汴京译经院
-  summary_zh: 与法天等共译大乘诸经，渐定新译体例，声名大著。
-- id: guji-施护-event-990-pianzhao
-  title_zh: 奉诏译出遍照般若波罗蜜经
-  date: 0990
-  year_of: 990
-  place_zh: 汴京
-  summary_zh: 奉诏译遍照般若波罗蜜经，明一切法自性清净及二十五秘密法门。
-- id: guji-施护-event-995-circulate
-  title_zh: 劝众受持流通般若
-  date: 0995
-  year_of: 995
-  place_zh: 汴京
-  summary_zh: 演说受持读诵功德，劝书写供养流通，言持经处如佛塔庙。
+  description: 以译业精勤授西天译经三藏传法大师赐紫，任朝奉大夫试光禄卿，长住译场刊定梵汉
+- id: guji-施护-event-dharani
+  title_zh: 译出圣八千颂般若一百八名真实圆义陀罗尼经
+  date: 1000-01-01
+  year_of: 1000
+  description: 略集般若波罗蜜多一百八名，自最胜般若乃至一切法同一味，集出陀罗尼秘密章句二十六句，劝常忆念受持读诵
 - id: guji-施护-event-death
-  title_zh: 圆寂于汴京
-  date: '1017'
+  title_zh: 卒于开封译场
+  date: 1017-01-01
   year_of: 1017
-  place_zh: 汴京
-  summary_zh: 天禧元年圆寂，一生所译凡百余部，般若密教并弘。
+  description: 宋真宗天禧元年卒于开封，一生译经百余部，般若密咒之译尤为后世持诵所重
