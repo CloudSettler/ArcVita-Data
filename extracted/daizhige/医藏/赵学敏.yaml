@@ -18,78 +18,133 @@ person:
   birth_date: 1719
   death_date: 1805
   era: 清
-  reign_ref: 乾隆至嘉庆
-  archetype: 医家
+  reign_ref: 乾隆
+  archetype: 本草学家
   dilemmas:
-  - 走方见贱而效捷当录不当录
-  - 秘方眩异当存当芟当别雅俗
-  lesson: 化俗为雅存真去伪以济世为归
-  summary_first_person: 我幼嗜岐黄旁及道藏铜人伤寒本草遇柏云得走方顶串截禁之法重加芟订存可济世者为串雅又补本草纲目之遗愿后之习者不为庸俗所诋而得近道
+  - title_zh: 拾遗是否骈疣之赘
+    description: 世谓濒湖博极无遗，余当论物生渐繁土产日变，非继者不能宏其用
+  - title_zh: 新物土俗当信古还是从今
+    description: 霍山石斛于潜白术已变，烟草燕窝强水并至，当亲验色味方敢书之
+  lesson: 物久则种繁，医者贵在拾遗补阙，审土俗察色味以救人
+  summary_first_person: 余钱塘赵学敏，字恕轩，感濒湖之书虽博而近产日增，故发愿拾遗，延医询俗，辨水火土金诸品，成纲目拾遗十卷以贻后人
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%B2%E9%9B%85%E5%86%85%E5%A4%96%E7%BC%96.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%B2%E9%9B%85%E5%86%85%E5%A4%96%E7%BC%96.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE%E6%8B%BE%E9%81%97.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE%E6%8B%BE%E9%81%97.html
 endeavors:
 - id: guji-赵学敏-endeavor-1
-  title_zh: 补辑本草纲目拾遗
-  summary: 博采民间草药补纲目之遗以广药源
+  title_zh: 编纂本草纲目拾遗十卷
+  description: 以纲目为经，增水火诸部三百余种，详色味主治兼载按语，乾隆乙酉题序于双砚草堂
   phases:
   - key: brewing
-    name: 嗜读灵素本草立志补遗
+    name: 酝酿立志
     labels:
-      zh: 博览群书
-    start_date: 1740
-    highlight_event_id: guji-赵学敏-event-bencao
-  - key: climax
-    name: 拾遗十卷告成广收新药
-    labels:
-      zh: 补遗告成
-    start_date: 1765
-    highlight_event_id: guji-赵学敏-event-bencao
-  decisions:
-  - date: 1765
-    title_zh: 兼收草医僻药详考性味
-    rationale: 纲目尚有未备民间多效验当存以济世
-- id: guji-赵学敏-endeavor-2
-  title_zh: 整理走方术纂串雅
-  summary: 遇柏云得顶串截禁诸法芟繁归雅以传后学
-  phases:
-  - key: brewing
-    name: 航海归遇柏云谈艺得法
-    labels:
-      zh: 得遇名师
-    start_date: 1758
-    highlight_event_id: guji-赵学敏-event-chuanya
+      zh:
+      - 诵读纲目
+      - 质疑问遗
+    start_date: 1745
+    highlight_event_id: guji-赵学敏-event-start
   - key: breakthrough
-    name: 芟订眩异部居别白成编
+    name: 搜集考证
     labels:
-      zh: 芟繁归雅
-    start_date: 1759
-    highlight_event_id: guji-赵学敏-event-chuanya
+      zh:
+      - 询访土俗
+      - 征引稗乘
+    start_date: 1755
+    highlight_event_id: guji-赵学敏-event-collect
+  - key: climax
+    name: 成书题序
+    labels:
+      zh:
+      - 分部著录
+      - 弁言答客
+    start_date: 1765-08
+    highlight_event_id: guji-赵学敏-event-preface
+  - key: closure
+    name: 刊传惠世
+    labels:
+      zh:
+      - 校刊流布
+      - 惠及医林
+    start_date: 1775
+    highlight_event_id: guji-赵学敏-event-publish
   decisions:
-  - date: 1759
-    title_zh: 删巫觋变病种毒留根诸法
-    rationale: 术虽捷而害深当述大概使人知免不启奸渔利
-  - date: 1759
-    title_zh: 以法统方不以症类聚
-    rationale: 顶串截各有治法从法集方方能各存妙用不紊成法
+  - date: 1755
+    title_zh: 立拾遗之例不袭纲目
+    rationale: 物生既久种类愈繁，近变之产过时罔识，故另立水火诸部以补其阙
+  - date: 1765-08
+    title_zh: 以答客问为小序
+    rationale: 明濒湖虽博犹有可补，烟草燕窝简误之功可证，以塞骈疣之讥
+- id: guji-赵学敏-endeavor-2
+  title_zh: 博采土俗西法验方
+  description: 收春水天萝水诸水，阳火阴火强水刀创水诸火，及诸药露蒸取之法，皆亲询试验乃录
+  phases:
+  - key: brewing
+    name: 遍询土俗
+    labels:
+      zh:
+      - 问医访俗
+      - 穷僻探产
+    start_date: 1750
+    highlight_event_id: guji-赵学敏-event-start
+  - key: breakthrough
+    name: 试验药露
+    labels:
+      zh:
+      - 蒸取药露
+      - 辨别色气
+    start_date: 1760
+    highlight_event_id: guji-赵学敏-event-collect
+  - key: climax
+    name: 汇通中西
+    labels:
+      zh:
+      - 录西洋强水
+      - 订燕窝烟草
+    start_date: 1765-08
+    highlight_event_id: guji-赵学敏-event-preface
+  - key: closure
+    name: 按语明理
+    labels:
+      zh:
+      - 加敏按发明
+      - 悟物理爱人
+    start_date: 1775
+    highlight_event_id: guji-赵学敏-event-publish
+  decisions:
+  - date: 1760
+    title_zh: 外来之物验后乃收
+    rationale: 强水鼻冲水刀创水虽出西洋，确有拔疔敛创发汗之效，故取其气用以广识
+  - date: 1765-08
+    title_zh: 凡敏按必究物理
+    rationale: 如春水鸣涸扶正，天萝水治肺痈，皆原于土为母露为阴，以明生害必生救之理
 events:
 - id: guji-赵学敏-event-birth
-  title_zh: 出生于钱塘
   date: 1719
   year_of: 1719
-  summary: 清康熙五十八年生于浙江钱塘字恕轩幼嗜岐黄家言
-- id: guji-赵学敏-event-chuanya
-  title_zh: 遇柏云得走方术纂串雅
-  date: 1758
-  year_of: 1758
-  summary: 戊寅柏云航海归相谈艺得顶串截禁之奥录授重加芟订名曰串雅
-- id: guji-赵学敏-event-bencao
-  title_zh: 本草纲目拾遗成书
-  date: 1765
+  title_zh: 生于钱塘
+  description: 清康熙五十八年，生于浙江钱塘，双砚草堂后之主人
+- id: guji-赵学敏-event-start
+  date: 1750
+  year_of: 1750
+  title_zh: 发愿拾遗询访土俗
+  description: 延天下医流，遍询土俗，远穷僻壤之产，险探仙麓之华，积十余年
+- id: guji-赵学敏-event-collect
+  date: 1760
+  year_of: 1760
+  title_zh: 搜得春水天萝诸品
+  description: 得鹤庆春水祛疾，丝瓜天萝水治蛾消痰，及金银薄荷玫瑰诸露蒸法，皆验录之
+- id: guji-赵学敏-event-preface
+  date: 1765-08
   year_of: 1765
-  summary: 乾隆三十年补辑本草纲目拾遗十卷广收民间新药行于世
+  title_zh: 题小序于双砚草堂
+  description: 乾隆乙酉八月，以答客问为序，论丁藤吉利禽虫汤液皆待后人补，明拾遗非赘
+- id: guji-赵学敏-event-publish
+  date: 1775
+  year_of: 1775
+  title_zh: 拾遗十卷刊传医林
+  description: 水火土金诸部分卷著录，附敏按发明，缪氏经疏简误之功并显，医家奉为圭臬
 - id: guji-赵学敏-event-death
-  title_zh: 逝世
   date: 1805
   year_of: 1805
-  summary: 嘉庆十年卒平生以济世为怀串雅后经许增吴庚生补注刊行
+  title_zh: 卒于嘉庆年间
+  description: 嘉庆十年前后卒，一生拾遗补阙之志，垂惠后世本草学
