@@ -1,0 +1,127 @@
+person:
+  qid: guji-张仲景
+  name_zh: 张仲景
+  names:
+    zh: 张仲景
+    en: Zhang Zhongjing
+  lifespan:
+    birth:
+      date: '0150'
+      precision: year
+      is_circa: true
+      raw: 东汉和平元年左右生于南阳
+    death:
+      date: 0219
+      precision: year
+      is_circa: true
+      raw: 建安二十四年左右卒
+  birth_date: '0150'
+  death_date: 0219
+  era: 东汉末
+  reign_ref: 建安
+  archetype: 医圣
+  dilemmas:
+  - 宗族大半沦丧当竞逐荣势还是勤求古训以救横夭
+  - 医家各承家技顺旧当守旧还是思求经旨以演所知
+  lesson: 上以疗君亲下以救贫贱中以保身长全方为立身之本
+  summary_first_person: 余南阳张机感建安以来宗族死亡三分有二乃勤求古训博采众方撰伤寒杂病论十六卷以见病知源
+  source_urls:
+  - https://daizhige.org/医藏/伤寒杂病论桂林古本.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/伤寒杂病论桂林古本.md
+endeavors:
+- id: guji-张仲景-endeavor-1
+  title_zh: 勤求古训撰伤寒杂病论
+  summary: 感往昔沦丧合素问九卷八十一难阴阳大论胎胪药录并平脉辨证为十六卷
+  phases:
+  - key: brewing
+    name: 建安初感宗族死亡立志求方
+    labels:
+      zh: 立志
+    start_date: 0196
+    highlight_event_id: guji-张仲景-event-grief
+  - key: breakthrough
+    name: 博采众方会通经络府俞阴阳
+    labels:
+      zh: 求法
+    start_date: '0200'
+    highlight_event_id: guji-张仲景-event-serve
+  - key: climax
+    name: 撰成伤寒杂病论合十六卷
+    labels:
+      zh: 成书
+    start_date: '0210'
+    highlight_event_id: guji-张仲景-event-compose
+  - key: closure
+    name: 传抄诸稿以贻后世贤人
+    labels:
+      zh: 传世
+    start_date: 0219
+    highlight_event_id: guji-张仲景-event-death
+  decisions:
+  - date: 0196
+    title_zh: 舍荣势而精究方术
+    rationale: 见世人华外悴内卒遭邪风束手受败故欲上疗君亲下救贫贱
+  - date: '0205'
+    title_zh: 合伤寒杂病为一论并首立平脉法
+    rationale: 为使学者见病知源思过半矣故不分汗吐下别卷而谨严立法
+- id: guji-张仲景-endeavor-2
+  title_zh: 守长沙太守以医济世
+  summary: 居长沙太守位而不以医名而以针药活人以全生养命
+  phases:
+  - key: brewing
+    name: 出守长沙体察民间疾厄
+    labels:
+      zh: 出仕
+    start_date: 0198
+    highlight_event_id: guji-张仲景-event-serve
+  - key: breakthrough
+    name: 省疾问病参三部九候明堂阙庭
+    labels:
+      zh: 诊法
+    start_date: '0202'
+    highlight_event_id: guji-张仲景-event-serve
+  - key: climax
+    name: 以经方救伤寒活人无数
+    labels:
+      zh: 活人
+    start_date: 0208
+    highlight_event_id: guji-张仲景-event-compose
+  - key: closure
+    name: 以序训后学戒巫祝付凡医之失
+    labels:
+      zh: 垂训
+    start_date: 0219
+    highlight_event_id: guji-张仲景-event-death
+  decisions:
+  - date: 0198
+    title_zh: 不辞郡守而兼行医道
+    rationale: 以保身长全养其生为中道故居官亦留神医药不竞浮华
+  - date: '0210'
+    title_zh: 作序明生知学知多闻博识之次
+    rationale: 欲举世觉悟爱人知人爱身知己故宿尚方术以示后人
+events:
+- id: guji-张仲景-event-birth
+  date: '0150'
+  year_of: 150
+  title_zh: 生于南阳
+  description: 东汉和平年间生于南阳郡名机字仲景少好方术
+- id: guji-张仲景-event-grief
+  date: 0196
+  year_of: 196
+  title_zh: 建安以来感宗族沦丧
+  description: 自建安纪元未及十稔宗族死亡三分有二伤寒十居其七遂勤求古训
+- id: guji-张仲景-event-serve
+  date: '0200'
+  year_of: 200
+  title_zh: 出任长沙太守
+  description: 以南阳人出守长沙仍精研医理察色观脉以救民疾
+- id: guji-张仲景-event-compose
+  date: '0210'
+  year_of: 210
+  title_zh: 撰成伤寒杂病论十六卷
+  description: 撰用素问九卷八十一难阴阳大论胎胪药录并平脉辨证合为十六卷
+- id: guji-张仲景-event-death
+  date: 0219
+  year_of: 219
+  title_zh: 卒于建安末年
+  description: 建安二十四年左右卒后原稿传抄凡十三稿第十二稿藏于后裔家

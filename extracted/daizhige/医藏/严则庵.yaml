@@ -1,0 +1,142 @@
+person:
+  qid: guji-严则庵
+  name_zh: 严则庵
+  names:
+    zh: 严则庵
+    en: Yan Zean
+  lifespan:
+    birth:
+      date: 1675-01-01
+      precision: year
+      is_circa: true
+      raw: 清康熙年间前后
+    death:
+      date: 1750-12-31
+      precision: year
+      is_circa: true
+      raw: 清乾隆年间前后
+  birth_date: 1675-01-01
+  death_date: 1750-12-31
+  era: 清
+  reign_ref: 清康熙至乾隆
+  archetype: 汇通伤寒津梁后学之医家
+  dilemmas:
+  - 伤寒诸书充栋各执所见问津者恒苦
+  - 注释未详粗浅者流奉行故事不审证源委立方分寸
+  lesson: 酿花为蜜集腋成裘不漏不支以成后学津梁
+  summary_first_person: 吾上自黄帝素问下及仲景河间东垣丹溪无不研究沉潜既久恍然自得乃以足六经分经论治通其义立歌诀集腋成裘令三阳三阴脉络分明一诵了然以惠后学
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%8D%B7%E8%AF%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E6%8D%B7%E8%AF%80.md
+endeavors:
+- id: guji-严则庵-endeavor-1
+  title_zh: 穷研素问仲景河间东垣丹溪汇通伤寒
+  summary: 上自素问下及仲景诸家无不研究悟殊途同归百虑一致定汗吐下和温补之大法
+  phases:
+  - key: brewing
+    name: 遍览素问仲景诸家
+    labels:
+      zh:
+      - 素问分经
+      - 仲景立法垂方
+    start_date: 1695-01-01
+    highlight_event_id: guji-严则庵-event-research
+  - key: breakthrough
+    name: 悟热病内伤同归之旨
+    labels:
+      zh:
+      - 河间热病
+      - 东垣内伤
+    start_date: 1710-01-01
+    highlight_event_id: guji-严则庵-event-research
+  - key: climax
+    name: 定三阳三阴传经直中之辨
+    labels:
+      zh:
+      - 三阳传经
+      - 三阴传经直中
+    start_date: 1720-01-01
+    highlight_event_id: guji-严则庵-event-compile
+  decisions:
+  - date: 1710-01-01
+    title_zh: 以足六经分经论治兼通其义
+    rationale: 素问分经未尝不通义仲景三百九十六法可询而诀故分经而不泥经
+  - date: 1720-01-01
+    title_zh: 分传经热症直中寒症两途施治
+    rationale: 传经脉沉数而烦热当下直中脉沉细而清凉当温不可混治
+- id: guji-严则庵-endeavor-2
+  title_zh: 作歌成诀参疏节解津梁后学
+  summary: 不漏不支作歌成诀以三阳三阴编次捷简更参前贤章疏节解务使分证立方如指诸掌
+  phases:
+  - key: brewing
+    name: 酿花为蜜集腋成裘作歌
+    labels:
+      zh:
+      - 总论识症
+      - 歌诀捷简
+    start_date: 1725-01-01
+    highlight_event_id: guji-严则庵-event-compile
+  - key: climax
+    name: 三阳三阴分经编诀加注
+    labels:
+      zh:
+      - 太阳阳明少阳
+      - 太阴少阴厥阴
+    start_date: 1730-01-01
+    highlight_event_id: guji-严则庵-event-compile
+  - key: closure
+    name: 参疏节解刊惠后学
+    labels:
+      zh:
+      - 结胸痞气
+      - 发黄发狂发斑
+    start_date: 1740-01-01
+    highlight_event_id: guji-严则庵-event-annotate
+  decisions:
+  - date: 1730-01-01
+    title_zh: 以三阳三阴编诀从简令一诵了然
+    rationale: 仲景诀汗漫初学如涉海问津故以三阳三阴捷简脉络分明
+  - date: 1740-01-01
+    title_zh: 参前贤章疏节解详注分证立方
+    rationale: 恐后学奉行故事不审源委分寸故详注脉理方药使如指诸掌
+events:
+- id: guji-严则庵-event-birth
+  type: birth
+  date: 1675-01-01
+  year_of: 1675
+  title_zh: 严则庵生于清康熙年间
+  description: 生于医门之家后以宫方则公名于时潜心素问仲景之学
+  is_circa: true
+  raw: 清康熙年间前后
+- id: guji-严则庵-event-research
+  type: career
+  date: 1710-06-01
+  year_of: 1710
+  title_zh: 沉潜诸家恍然自得
+  description: 上自黄帝素问下及仲景河间东垣丹溪无不研究悟伤寒热病内伤殊途同归
+  is_circa: true
+  raw: 清康熙末年研治有得
+- id: guji-严则庵-event-compile
+  type: career
+  date: 1730-03-01
+  year_of: 1730
+  title_zh: 纂辑伤寒捷诀成歌诀
+  description: 分太阳阳明少阳太阴少阴厥阴编总论及各经歌诀定麻黄桂枝柴胡承气等大法兼论结胸痞气肠垢溏瘀并发黄发狂发斑筋惕肉瞤亡阳等变
+  is_circa: true
+  raw: 清雍乾年间成书
+- id: guji-严则庵-event-annotate
+  type: career
+  date: 1740-09-01
+  year_of: 1740
+  title_zh: 参疏节解注释流通
+  description: 参前贤章疏节解为各经加注辨传经直中辨在经在腑辨协寒协热务使分证立方之妙如指诸掌与裘庆元等辑刊以惠后学
+  is_circa: true
+  raw: 清乾隆初年注释刊行
+- id: guji-严则庵-event-death
+  type: death
+  date: 1750-12-31
+  year_of: 1750
+  title_zh: 严则庵卒于清乾隆年间
+  description: 以伤寒捷诀一书为后学津梁其法垂于医藏后世奉为捷径
+  is_circa: true
+  raw: 清乾隆年间前后
