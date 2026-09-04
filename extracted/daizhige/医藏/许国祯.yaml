@@ -1,0 +1,132 @@
+person:
+  qid: guji-许国祯
+  name_zh: 许国祯
+  names:
+    zh: 许国祯
+    en: Xu Guozhen
+  lifespan:
+    birth:
+      date: '1225'
+      precision: year
+      is_circa: true
+      raw: 约生于元初
+    death:
+      date: '1290'
+      precision: year
+      is_circa: true
+      raw: 约卒于至元末
+  birth_date: '1225'
+  death_date: '1290'
+  era: 元
+  reign_ref: 元世祖至元
+  archetype: 太医仁寿者
+  dilemmas:
+  - 医政在守周制旧法与加详立新制之间如何持择
+  - 方书在宝藏秘效与宏肆流传济众之间如何取舍
+  lesson: 集诸家之善而增损持择以公于世方为良医之功
+  summary_first_person: 吾许国祯忝任太医提点与二三僚友取御药院壬寅旧板正其讹补其缺求其遗亡而附益之愿域民于仁寿使人人得前人之效方
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%BE%A1%E8%8D%AF%E9%99%A2%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%BE%A1%E8%8D%AF%E9%99%A2%E6%96%B9.html
+endeavors:
+- id: guji-许国祯-endeavor-1
+  title_zh: 执掌太医政令
+  summary: 以三代相生养之道掌医之政令如周制而加详立医师以域民于仁寿
+  phases:
+  - key: brewing
+    name: 早年习医入太医
+    labels:
+      zh: 蕴育
+    start_date: '1255'
+    highlight_event_id: guji-许国祯-event-birth
+  - key: breakthrough
+    name: 升任太医提点荣禄
+    labels:
+      zh: 擢任
+    start_date: '1260'
+    highlight_event_id: guji-许国祯-event-appoint
+  - key: climax
+    name: 掌医政令详于周制
+    labels:
+      zh: 鼎盛
+    start_date: '1264'
+    highlight_event_id: guji-许国祯-event-appoint
+  - key: closure
+    name: 医政既成惠及血气之属
+    labels:
+      zh: 收成
+    start_date: '1267'
+    highlight_event_id: guji-许国祯-event-publish
+  decisions:
+  - date: '1260'
+    title_zh: 受任太医提点
+    rationale: 圣朝立医师掌政令需得前人宝藏之效方以济病故毅然任事
+  - date: '1264'
+    title_zh: 详定医政如周制加详
+    rationale: 血气之属不能无病唯详其政令方能域民于仁寿故参酌周制而加详
+- id: guji-许国祯-endeavor-2
+  title_zh: 重刊增补御药院方
+  summary: 取壬寅所刊方书板正讹补缺求遗附益褒集诸家增损持择而成大备之书
+  phases:
+  - key: brewing
+    name: 取壬寅旧板审其得失
+    labels:
+      zh: 发端
+    start_date: '1265'
+    highlight_event_id: guji-许国祯-event-revise
+  - key: breakthrough
+    name: 正讹补缺求遗附益
+    labels:
+      zh: 刊正
+    start_date: '1266'
+    highlight_event_id: guji-许国祯-event-revise
+  - key: climax
+    name: 褒集诸家汤液齐和
+    labels:
+      zh: 大备
+    start_date: '1267'
+    highlight_event_id: guji-许国祯-event-publish
+  - key: closure
+    name: 请高鸣序宏肆流传
+    labels:
+      zh: 流传
+    start_date: '1267-08-09'
+    highlight_event_id: guji-许国祯-event-publish
+  decisions:
+  - date: '1265'
+    title_zh: 取旧板重刊而不另作
+    rationale: 壬寅旧板已称大备但有讹缺遗亡与其另作不如正补附益以存旧功
+  - date: '1267'
+    title_zh: 宏肆流传俾人人得之
+    rationale: 已效之方为前人所宝藏者尤难得唯公于世方与黄帝内外经扁鹊八十一难相表里
+events:
+- id: guji-许国祯-event-birth
+  date: '1225'
+  year_of: 1225
+  title_zh: 诞生于元初
+  description: 许国祯约生于元初早年习医药终入太医
+  type: birth
+- id: guji-许国祯-event-appoint
+  date: '1260'
+  year_of: 1260
+  title_zh: 任太医提点荣禄
+  description: 许国祯暨二三僚友任太医提点荣禄掌医之政令
+  type: career
+- id: guji-许国祯-event-revise
+  date: '1266'
+  year_of: 1266
+  title_zh: 取壬寅旧板正讹补缺
+  description: 取御药院壬寅所刊方书板正其讹补其缺求其遗亡而附益之
+  type: career
+- id: guji-许国祯-event-publish
+  date: '1267-08-09'
+  year_of: 1267
+  title_zh: 至元丁卯序刊御药院方
+  description: 至元丁卯八月九日翰林直学士河东高鸣序御药院方号称大备而宏肆流传
+  type: career
+- id: guji-许国祯-event-death
+  date: '1290'
+  year_of: 1290
+  title_zh: 约卒于至元末
+  description: 许国祯于御药院方刊行后约卒于至元末其书流传济世不绝
+  type: death
