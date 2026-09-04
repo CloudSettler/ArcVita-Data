@@ -6,134 +6,155 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: 0602-04-06
+      date: '0602'
       precision: year
-      is_circa: false
-      raw: 隋仁寿二年洛州缑氏
+      is_circa: true
+      raw: 隋仁寿二年河南缑氏
     death:
-      date: 0664-03-07
-      precision: year
+      date: '0664-02-05'
+      precision: day
       is_circa: false
-      raw: 唐麟德元年长安玉华宫
-  birth_date: 0602-04-06
-  death_date: 0664-03-07
+      raw: 唐麟德元年玉华宫
+  birth_date: '0602'
+  death_date: '0664-02-05'
   era: 唐
   reign_ref: 唐太宗贞观至唐高宗麟德
   archetype: 西行求法译经师
   dilemmas:
-  - 违禁偷渡西行求法与安守中土讲习之抉择
-  - 有宗空宗众说纷纭与会通瑜伽唯识正义之抉择
-  - 暮年多病衰耗与勤勉不辍奉诏译经之抉择
-  lesson: 以亲证求真会通群典，明业果相续不在表色而在思熏本识，利他传灯乃为成业
-  summary_first_person: 我本洛州缑氏陈氏子，幼而慕法，长而疑经义多歧，遂偷渡西行万里取经，归国奉诏译经弘法，译出大乘成业论，发明身语表业无实，唯思熏阿赖耶识持种感果，愿后学因果不昧
+  - title_zh: 冒禁偷渡与奉法守律
+    description: 中土唯识经论不全，欲西行求瑜伽全本，然贞观禁边，唯偷渡可达天竺，守国律与成求法愿两难
+  - title_zh: 广开译场与专修证悟
+    description: 归国后帝命宏译，译业浩繁昼夜不辍，欲广利群生则难专修，欲自证则有负众望
+  lesson: 总摄五位百法以显补特伽罗无我法无我，求法当不畏险难，译经当以简摄广，学理终归实修
+  summary_first_person: 吾幼慕释教，慨中土经义残缺，冒禁西行十七载，师事戒贤于那烂陀，携梵本归唐，设译场于弘福慈恩，先译百法明门总摄心法心所色法不相应无为，以明一切法无我，愿后学由此入门唯识
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%A4%A7%E4%B9%98%E6%88%90%E4%B8%9A%E8%AE%BA.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%A4%A7%E4%B9%98%E6%88%90%E4%B8%9A%E8%AE%BA.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%A4%A7%E4%B9%98%E7%99%BE%E6%B3%95%E6%98%8E%E9%97%A8%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E7%91%9C%E4%BC%BD%E9%83%A8/%E5%A4%A7%E4%B9%98%E7%99%BE%E6%B3%95%E6%98%8E%E9%97%A8%E8%AE%BA.md
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行印度求法取经
-  summary: 自长安出发历西域至那烂陀，师戒贤学瑜伽唯识，遍礼圣迹，携梵本归国
+  title_zh: 西行求法取经
+  summary: 自贞观三年偷渡出关，历西域天竺十七年，从戒贤学瑜伽唯识，携梵本归国
   phases:
   - key: brewing
-    name: 长安究学发愿西行
+    name: 长安研学立志西行
     labels:
-      zh: 发愿究学
-    start_date: 0620-01-01
-    highlight_event_id: guji-玄奘-event-qiufa
+      zh:
+      - 研学
+      - 发愿
+    start_date: '0620'
+    highlight_event_id: guji-玄奘-event-xixing
   - key: breakthrough
-    name: 偷渡玉门历险西域
+    name: 偷渡玉门问道西域
     labels:
-      zh: 历险突破
-    start_date: 0629-08-01
-    highlight_event_id: guji-玄奘-event-qiufa
+      zh:
+      - 偷渡
+      - 西行
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-nalanda
   - key: climax
-    name: 那烂陀问道戒贤
+    name: 那烂陀穷究瑜伽
     labels:
-      zh: 问道成学
-    start_date: 0631-01-01
-    highlight_event_id: guji-玄奘-event-qiudao
+      zh:
+      - 留学
+      - 唯识
+    start_date: '0633'
+    highlight_event_id: guji-玄奘-event-donggui
   - key: closure
-    name: 负梵本东归长安
+    name: 载梵本启程东归
     labels:
-      zh: 取经归国
-    start_date: 0643-01-01
+      zh:
+      - 取经
+      - 东归
+    start_date: '0643'
     highlight_event_id: guji-玄奘-event-guiguo
   decisions:
-  - date: 0629-08-01
-    title_zh: 违禁偷渡出关
-    rationale: 中土经论残缺义多乖违，不亲证印度本义无以决疑，故宁冒禁令西行
-  - date: 0631-02-01
+  - date: 0629
+    title_zh: 冒禁偷渡出敦煌玉门
+    rationale: 中土摄论地持残缺，唯西天有瑜伽全本，不历险难不得真经
+  - date: '0633'
     title_zh: 留学那烂陀师事戒贤
-    rationale: 欲会通空有决择业识之义，须依瑜伽行正统，故久住听受解深密瑜伽等教
+    rationale: 戒贤为瑜伽正统耆宿，欲穷唯识源流必依止亲学
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译经弘传成业义
-  summary: 归国后主持弘福会昌玉华等译场，译出大乘成业论等唯识典籍，发明无身实表业唯思熏本识感果
+  title_zh: 归国译经弘唯识
+  summary: 贞观十九年归长安，主持弘福慈恩译场，先译百法明门摄五位百法，奠定法相宗基
   phases:
   - key: brewing
-    name: 奉诏设译场筹备
+    name: 奉诏住弘福筹组译场
     labels:
-      zh: 设场筹备
-    start_date: 0645-03-01
+      zh:
+      - 奉诏
+      - 筹译
+    start_date: '0645'
     highlight_event_id: guji-玄奘-event-guiguo
   - key: breakthrough
-    name: 首译瑜伽解深密奠基
+    name: 首译百法明门摄一切法
     labels:
-      zh: 奠基立宗
-    start_date: 0646-01-01
-    highlight_event_id: guji-玄奘-event-yijing
+      zh:
+      - 译经
+      - 百法
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-baifa
   - key: climax
-    name: 译出大乘成业论明业果
+    name: 慈恩玉华广译大乘
     labels:
-      zh: 明业成论
-    start_date: 0648-06-01
-    highlight_event_id: guji-玄奘-event-yijing
+      zh:
+      - 宏译
+      - 弘法
+    start_date: '0650'
+    highlight_event_id: guji-玄奘-event-hongfu
   - key: closure
-    name: 玉华守译传付弟子
+    name: 玉华宫译毕示寂
     labels:
-      zh: 守译传付
-    start_date: 0660-01-01
+      zh:
+      - 圆寂
+      - 传承
+    start_date: '0664'
     highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0648-06-01
-    title_zh: 译传世亲大乘成业论
-    rationale: 身语表业形色行动诸执皆不成立，当显思熏阿赖耶识持种感果，以正业果相续，故亟须传译
-  - date: 0660-05-01
-    title_zh: 移席玉华专心译经
-    rationale: 京师酬对纷扰妨碍译业，欲毕余生完成大般若等巨译，故谢绝朝请专功翰墨
+  - date: '0645'
+    title_zh: 受诏主持弘福寺译场
+    rationale: 将西来梵本转为华言，方能广利中土群生，不负取经本愿
+  - date: 0648
+    title_zh: 先译百法明门总摄五位
+    rationale: 百法摄心法八种心所五十一种色法十一不相应二十四无为六种，最宜作唯识入门
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 出生洛州缑氏
-  date: 0602-04-06
+  date: '0602'
   year_of: 602
-  place_zh: 洛州缑氏
-  description: 陈氏第四子，幼颖悟，十三岁出家，习摄论涅槃等经
-- id: guji-玄奘-event-qiufa
-  title_zh: 偷渡西行求法
-  date: 0629-08-01
+  title_zh: 诞生于河南缑氏陈家
+  description: 隋仁寿二年生于缑氏，幼聪慧，十三岁出家，研摄论毗昙立志求全经
+- id: guji-玄奘-event-xixing
+  date: 0629
   year_of: 629
-  place_zh: 长安至玉门关外
-  description: 贞观初年冒禁西行，历凉州瓜州沙漠，涉流沙至西域
-- id: guji-玄奘-event-qiudao
-  title_zh: 那烂陀问道
-  date: 0631-11-01
-  year_of: 631
-  place_zh: 中印度那烂陀寺
-  description: 师事戒贤听受瑜伽师地论等，究唯识业识种子相续之义
+  title_zh: 贞观三年偷渡西行
+  description: 贞观三年自长安出发，偷渡敦煌玉门，越大漠历西域诸国西往天竺
+- id: guji-玄奘-event-nalanda
+  date: '0633'
+  year_of: 633
+  title_zh: 抵那烂陀师事戒贤
+  description: 抵中天竺那烂陀寺，从戒贤论师学瑜伽师地论唯识诸论凡五年
+- id: guji-玄奘-event-donggui
+  date: '0643'
+  year_of: 643
+  title_zh: 取梵本启程东归
+  description: 于天竺取瑜伽百法等梵本六百余部，辞王启程，经西域东归长安
 - id: guji-玄奘-event-guiguo
-  title_zh: 携经归国奉诏
-  date: 0645-02-15
+  date: '0645'
   year_of: 645
-  place_zh: 长安弘福寺
-  description: 贞观十九年归长安，太宗亲迎，敕住弘福寺主持译经
-- id: guji-玄奘-event-yijing
-  title_zh: 译出大乘成业论
-  date: 0648-06-01
+  title_zh: 贞观十九年归抵长安
+  description: 正月归抵长安，太宗亲迎，诏住弘福寺，组织译场，弟子云集
+- id: guji-玄奘-event-baifa
+  date: 0648
   year_of: 648
-  place_zh: 长安大慈恩寺译场
-  description: 译世亲造大乘成业论一卷，破形色行动为身表之执，立思熏阿赖耶识感爱非爱果
+  title_zh: 译出大乘百法明门论
+  description: 弘福寺译出天亲造百法明门论，明五位百法与补特伽罗无我法无我，为法相入门
+- id: guji-玄奘-event-hongfu
+  date: 0659
+  year_of: 659
+  title_zh: 慈恩玉华广译大乘经论
+  description: 迁慈恩寺玉华宫，译大般若成唯识等七十余部，以百法为纲弘传唯识
 - id: guji-玄奘-event-death
-  title_zh: 示寂玉华宫
-  date: 0664-03-07
+  date: '0664-02-05'
   year_of: 664
-  place_zh: 同州玉华宫肃成院
-  description: 译大般若毕，端坐示寂，葬浐东白鹿原，高宗罢朝悼惜
+  title_zh: 寂于玉华宫嘉寿殿
+  description: 麟德元年正月寂于玉华宫，高宗罢朝悼念，葬浐东，唯识译业由窥基传持
