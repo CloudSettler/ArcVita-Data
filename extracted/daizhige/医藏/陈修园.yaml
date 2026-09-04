@@ -19,109 +19,77 @@ person:
   death_date: 1823
   era: 清
   reign_ref: 乾隆至道光
-  archetype: 阐经济世之医
+  archetype: 良医
   dilemmas:
-  - 众说掩经义当从古圣还是随时俗
-  - 温补盛行当守甘寒本旨还是附和时好
-  lesson: 读经须究所以然以古证今方能去泛滥而守专长
-  summary_first_person: 余少负长沙之志老而读神农本经欲为医林立一金针使后学知药有专长而不为杂说所夺
+  - 仕宦活人与归里著书如何兼顾济世与传道
+  - 经旨古奥难解与后学茫无涯际如何以浅注明通达
+  lesson: 明医理以济世利物，阐前人旨为后学津梁，勿误人于生死之交
+  summary_first_person: 余福建长乐陈修园，以孝廉宰畿辅，晚归里中，精岐黄术，在官在乡活人无数，刊医书数十种，复作金匮要略浅注十卷以明仲景之旨
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/神农本草经读.md
-  - https://daizhige.org/医藏/神农本草经读.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E8%A6%81%E7%95%A5%E6%B5%85%E6%B3%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E8%A6%81%E7%95%A5%E6%B5%85%E6%B3%A8.html
 endeavors:
 - id: guji-陈修园-endeavor-1
-  title_zh: 注解神农本草经正药性之源
-  summary_zh: 以内经伤寒金匮之旨逐字疏解本经先成六卷本草经注后删为四卷本草经读
+  title_zh: 以孝廉宰畿辅以医活人
+  summary: 以名孝廉出宰畿辅，在官在乡用岐黄术活人岁以千百计
   phases:
   - key: brewing
-    name: 遍览诸家本草而疑其泛滥
+    name: 早年精研岐黄
     labels:
-      zh: 酝酿质疑
-    start_date: 1785
-    highlight_event_id: guji-陈修园-event-note
-  - key: breakthrough
-    name: 著本草经注六卷明甘寒专长
-    labels:
-      zh: 突破立说
-    start_date: 1800
-    highlight_event_id: guji-陈修园-event-note
+      zh: 习医济世
+    start_date: 1753
+    highlight_event_id: guji-陈修园-event-birth
   - key: climax
-    name: 回籍读礼删定为本草经读四卷
+    name: 宰官行医活人
     labels:
-      zh: 高峰删定
-    start_date: 1803
-    highlight_event_id: guji-陈修园-event-read
-  - key: closure
-    name: 蒋庆龄序刊行垂训医林
-    labels:
-      zh: 收束刊行
-    start_date: 1803
-    highlight_event_id: guji-陈修园-event-read
+      zh: 宰官行医
+    start_date: 1792
+    highlight_event_id: guji-陈修园-event-office
   decisions:
-  - date: 1800
-    title_zh: 痛斥纲目杂说独尊本经
-    rationale: 纲目泛引无当反掩经旨欲使学人焚去杂书方与言医
-  - date: 1803
-    title_zh: 遴选常用百余种从所以然发挥
-    rationale: 上品多服食之品攻邪须取专长故阙不常用者以便切用
+  - date: 1792
+    title_zh: 出宰畿辅不废医事
+    rationale: 以医佐政，在官在乡皆以活人为心，不为官废医
 - id: guji-陈修园-endeavor-2
-  title_zh: 注释伤寒金匮以经方证本经
-  summary_zh: 以仲景百十三方用药之义悉遵本经融会内经难经垂教后学
+  title_zh: 归里著书阐金匮要略
+  summary: 晚归里中，刊医书数十种，作金匮要略浅注十卷以明通达
   phases:
-  - key: brewing
-    name: 研读伤寒金匮疑唐宋臆说
-    labels:
-      zh: 酝酿穷经
-    start_date: 1790
-    highlight_event_id: guji-陈修园-event-shanghan
   - key: breakthrough
-    name: 以本经解仲景救阴回阳之法
+    name: 归里刊书授徒
     labels:
-      zh: 突破贯通
-    start_date: 1805
-    highlight_event_id: guji-陈修园-event-shanghan
-  - key: climax
-    name: 重订柯注活人百问及金匮浅注
-    labels:
-      zh: 高峰著述
-    start_date: 1810
-    highlight_event_id: guji-陈修园-event-shanghan
+      zh: 归里著述
+    start_date: 1800
+    highlight_event_id: guji-陈修园-event-office
   - key: closure
-    name: 伤寒读金匮读医约医诀成一家言
+    name: 浅注明仲景旨
     labels:
-      zh: 收束成书
-    start_date: 1815
-    highlight_event_id: guji-陈修园-event-death
+      zh: 浅注金匮
+    start_date: 1821
+    highlight_event_id: guji-陈修园-event-annotation
   decisions:
-  - date: 1805
-    title_zh: 坚持仲景用药悉遵本经
-    rationale: 近世以朱张王李杂说愈疾误人故以经方验本经专长
-  - date: 1810
-    title_zh: 附会张隐庵叶天士而正其失
-    rationale: 隐庵蹈虚天士肤浅取其精实超脱以补己所不敏
+  - date: 1821
+    title_zh: 作金匮要略浅注十卷
+    rationale: 叹后学检方茫无涯际，故以浅注明通达，阐五行虚实传变，令业医者有津梁
+  - date: 1823
+    title_zh: 命子传业并作歌括
+    rationale: 遵庭训以韵语便记诵，附行于世，成济世利物之志
 events:
 - id: guji-陈修园-event-birth
-  title_zh: 生于福建长乐
   date: 1753
   year_of: 1753
-  description_zh: 乾隆十八年生少立志于医精研岐黄自负长沙后身
-- id: guji-陈修园-event-note
-  title_zh: 著神农本草经注六卷
-  date: 1800
-  year_of: 1800
-  description_zh: 以经解经斥宋元温补之说明人参甘寒救阴等药专长
-- id: guji-陈修园-event-read
-  title_zh: 删定为神农本草经读四卷
-  date: 1803
-  year_of: 1803
-  description_zh: 回籍读礼闭门谢客遴常用百余种附别录蒋庆龄为序
-- id: guji-陈修园-event-shanghan
-  title_zh: 重订注释伤寒金匮诸书
-  date: 1810
-  year_of: 1810
-  description_zh: 成伤寒论注金匮浅注伤寒论读金匮读等与本草经读相发明
+  title_zh: 生于福建长乐
+  description: 乾隆十八年生，名念祖，字修园，福建长乐人
+- id: guji-陈修园-event-office
+  date: 1792
+  year_of: 1792
+  title_zh: 以孝廉宰直隶威县
+  description: 以名孝廉宰畿辅，在官用医术活人，与里中结真率会
+- id: guji-陈修园-event-annotation
+  date: 1821
+  year_of: 1821
+  title_zh: 撰成金匮要略浅注十卷
+  description: 晚归里中撰浅注十卷，明显通达如指诸掌，已传海内，子灵石遵训作歌括六卷
 - id: guji-陈修园-event-death
-  title_zh: 卒于道光初年
   date: 1823
   year_of: 1823
-  description_zh: 道光三年卒平生著述宏富为清代扶正经方之宗
+  title_zh: 卒于里第
+  description: 道光三年卒，捐馆数年后林则徐为浅注作序，推其在官在乡活人功大
