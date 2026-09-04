@@ -1,0 +1,134 @@
+person:
+  qid: guji-汪琥
+  name_zh: 汪琥
+  names:
+    zh: 汪琥
+    en: Wang Hu
+  lifespan:
+    birth:
+      date: '1630'
+      precision: year
+      is_circa: true
+      raw: 明末清初约生于长洲
+    death:
+      date: '1695'
+      precision: year
+      is_circa: true
+      raw: 康熙末约卒于苏州
+  birth_date: '1630'
+  death_date: '1695'
+  era: 清
+  reign_ref: 康熙
+  archetype: 医家
+  dilemmas:
+  - title_zh: 从简还是从繁
+    description_zh: 世医徒取节庵一编乐其简，我宁惮烦而补阙略订讹谬，务使每条解明不致医药有误
+  - title_zh: 尊旧还是乱旧
+    description_zh: 既尊仲景本于内经热论经脉，又不敢倒乱叔和六经旧次，存羊爱礼而以附例重出例疏通
+  lesson: 伤寒名寒实热皆传经之热病，惟真寒入三阴者十仅一二当别论，须审脉证随时气汗下泄热，不可执名投热剂而毫芒误命
+  summary_first_person: 我是长洲汪琥，字苓友，康熙间业医，痛世医乐简轻命，遂溯内经热论灵枢经脉为本，归正叔和错简，补成无己未发，草伤寒论辨证广注十四卷，立伤寒非寒之论，别真寒为中寒另编，愿后人读是书而疗变证有法
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E8%BE%A9%E8%AF%81%E5%B9%BF%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E8%BE%A9%E8%AF%81%E5%B9%BF%E6%B3%A8.md
+endeavors:
+- id: guji-汪琥-endeavor-1
+  person_qid: guji-汪琥
+  title_zh: 辨证广注伤寒论归正补注
+  summary_zh: 以内经热论经脉为本，归正叔和错简，补成无己未发明者，成广注十四卷
+  phases:
+  - key: brewing
+    name: 溯源轩岐
+    labels:
+      zh: 研读热论经脉
+    start_date: '1665'
+    highlight_event_id: guji-汪琥-event-birth
+  - key: breakthrough
+    name: 归正六经
+    labels:
+      zh: 辨叔和仲景之旧
+    start_date: '1675'
+    highlight_event_id: guji-汪琥-event-preface
+  - key: climax
+    name: 草成广注
+    labels:
+      zh: 自序广注立义
+    start_date: '1680-10-02'
+    highlight_event_id: guji-汪琥-event-preface
+  - key: closure
+    name: 刊行成书
+    labels:
+      zh: 付梓流传救误
+    start_date: '1684'
+    highlight_event_id: guji-汪琥-event-publish
+  decisions:
+  - date: '1675'
+    title_zh: 不倒乱六经旧次
+    rationale: 存羊爱礼恐新编尽失仲景妙义，只以附例重出例附后例疏通前后，不效方喻程倒乱原文
+  - date: '1680'
+    title_zh: 以愚按或问补成注
+    rationale: 成注创始功大而时有自相矛盾，采方喻程及诸家必标姓氏，大半以鄙意补桂枝麻黄青龙等未发明者
+- id: guji-汪琥-endeavor-2
+  person_qid: guji-汪琥
+  title_zh: 立伤寒非寒别中寒真寒论
+  summary_zh: 主伤寒名寒实热皆传经，标出混入三阴之真寒另作中寒三卷，详四时气节针刺
+  phases:
+  - key: brewing
+    name: 疑寒热错乱
+    labels:
+      zh: 考热病传经之状
+    start_date: '1670'
+    highlight_event_id: guji-汪琥-event-preface
+  - key: breakthrough
+    name: 提出非寒说
+    labels:
+      zh: 伤寒非寒病论
+    start_date: '1680-10-02'
+    highlight_event_id: guji-汪琥-event-preface
+  - key: climax
+    name: 别编中寒
+    labels:
+      zh: 真寒另立专卷
+    start_date: '1682'
+    highlight_event_id: guji-汪琥-event-publish
+  - key: closure
+    name: 备录时令针法
+    labels:
+      zh: 四时针穴并重
+    start_date: '1684'
+    highlight_event_id: guji-汪琥-event-publish
+  decisions:
+  - date: '1680-10-02'
+    title_zh: 标出真寒不入热例
+    rationale: 感真寒深入三阴特十之一二，证皆寒与热迥异，以重圈别记另作上中下三卷，使寒热阴阳判然
+  - date: '1682'
+    title_zh: 首卷列四时经脉五十九穴
+    rationale: 病多由时气必传经络，详释八节二十四气七十二候兼图手足十二经，备录热病针穴以全汗下之外法
+events:
+- id: guji-汪琥-event-birth
+  person_qid: guji-汪琥
+  kind: birth
+  date: '1630'
+  year_of: 1630
+  title_zh: 生于长洲
+  description_zh: 明末清初生于苏州长洲，字苓友，后业医宗轩岐仲景之学
+- id: guji-汪琥-event-preface
+  person_qid: guji-汪琥
+  kind: career
+  date: '1680-10-02'
+  year_of: 1680
+  title_zh: 康熙庚申重九自序广注
+  description_zh: 自序伤寒论辨证广注，发明伤寒非寒皆热传经，痛斥世医乐简误杀，立补前人未补发前人未发之志
+- id: guji-汪琥-event-publish
+  person_qid: guji-汪琥
+  kind: career
+  date: '1684'
+  year_of: 1684
+  title_zh: 广注成书刊行
+  description_zh: 成书十四卷，首列热论经脉图注，归正三阳三阴错简，补注汤方，附中寒真寒别编，备录针刺时令
+- id: guji-汪琥-event-death
+  person_qid: guji-汪琥
+  kind: death
+  date: '1695'
+  year_of: 1695
+  title_zh: 卒于康熙末
+  description_zh: 卒于苏州，遗书流传为仲景功臣，与方中行喻嘉言程郊倩并称发明
