@@ -8,7 +8,7 @@ person:
     birth:
       date: 1717
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 康熙五十六年
     death:
       date: 1776
@@ -19,89 +19,109 @@ person:
   death_date: 1776
   era: 清
   reign_ref: 乾隆
-  archetype: 融会伤寒的集证医者
+  archetype: 医者
   dilemmas:
-  - 百家各执一说繁冗驳杂白首无据与空空无识之间如何抉择
-  - 独尊仲景原文与兼采后世发明之间如何寻流溯源
-  lesson: 以仲景为纲以诸家精语为目循经析款方能晓然于仲景之旨取之无尽
-  summary_first_person: 吾廿年来专读伤寒书至百余家不胜繁冗驳杂之虑乃循六经之次析各款之繁以仲景论为纲以历代精语为目成纲目一书庶览者寻流溯源而晓仲景之旨
+  - 妇女深居隐曲难达，翕忽之脉难凭，当何以取准而不贻祸
+  - 医书聚讼纷繁，识见不卓则无把持，当何以抉择而归于一是
+  lesson: 量病当如玉尺划寸，坚久不磨，按脉切症，调养气血，不妄揣攻伐，方得幽私隐曲之的当
+  summary_first_person: 余无锡沈金鳌，字芊绿，号汲门老人，悯妇女情志郁结，隐曲难言，医多妄凭脉以测，遂参稽前贤，著妇科玉尺六卷，务求按脉切症，的当不磨，以为后世取准之尺
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E7%BA%B2%E7%9B%AE.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E7%BA%B2%E7%9B%AE.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A6%87%E7%A7%91%E7%8E%89%E5%B0%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A6%87%E7%A7%91%E7%8E%89%E5%B0%BA.md
 endeavors:
 - id: guji-沈金鳌-endeavor-1
-  title_zh: 专读百家编纂伤寒论纲目
-  summary_zh: 廿年专读伤寒百余家循六经析款以仲景为纲以诸家为目成书以明大法
+  title_zh: 参稽著述妇科玉尺
+  summary: 察妇女经产崩带诸病，参稽诸家，著六卷九门，按脉切症，采录至精至粹之方，以玉尺取准为纲
   phases:
   - key: brewing
-    name: 专读酝酿
+    name: 无锡行医察妇女郁结难诊
     labels:
-      zh:
-      - 研读
-    start_date: 1754
-    highlight_event_id: guji-沈金鳌-event-reading
-  - key: climax
-    name: 纲目告成
-    labels:
-      zh:
-      - 著述
-    start_date: 1774-11-15
-    highlight_event_id: guji-沈金鳌-event-preface
-  decisions:
-  - date: 1774-11-15
-    title_zh: 以仲景为纲诸家为目
-    rationale: 白首无据不如循经析款寻流溯源使读者一览易晓不为空言文谬
-  - date: 1774-11-15
-    title_zh: 据柯本分隶六经
-    rationale: 叔和窜乱后注释各以意为前后独柯氏分隶颇有理据故据以定纲目
-- id: guji-沈金鳌-endeavor-2
-  title_zh: 参稽集成发明仲景旨要
-  summary_zh: 假得图书集成艺术部遍览奇宝参合脉症总论六经主症以阐阴阳表里传变
-  phases:
+      zh: 酝酿
+    start_date: 1760
+    highlight_event_id: guji-沈金鳌-event-practice
   - key: breakthrough
-    name: 参稽集成
+    name: 立玉尺取准按脉切症之法
     labels:
-      zh:
-      - 参证
-    start_date: 1773-03-01
-    highlight_event_id: guji-沈金鳌-event-jicheng
+      zh: 突破
+    start_date: 1770
+    highlight_event_id: guji-沈金鳌-event-rhizhu
+  - key: climax
+    name: 分经闭崩带胎产九门成书六卷
+    labels:
+      zh: 高潮
+    start_date: 1773
+    highlight_event_id: guji-沈金鳌-event-yuchi
   - key: closure
-    name: 卷首总论冠前
+    name: 乾隆甲午清明自序刊行
     labels:
-      zh:
-      - 统摄
-    start_date: 1774-11-15
-    highlight_event_id: guji-沈金鳌-event-preface
+      zh: 收束
+    start_date: 1774-04-03
+    highlight_event_id: guji-沈金鳌-event-yuchi
   decisions:
-  - date: 1773-03-01
-    title_zh: 采叔和以下精当诸家为目
-    rationale: 说者千百或偏或驳或浅或庸独摘尤精且当者以发明仲景不以世代远近为拘
-  - date: 1774-11-15
-    title_zh: 辑总论冠于卷首
-    rationale: 有不得分属六经者故辑脉症总论六经主症阴阳表里传变愈解六篇冠前以统全书
+  - date: 1770
+    title_zh: 以仓公鱼际诊女为法立玉尺之名
+    rationale: 妇女幽私掩蔽难达，独凭脉则毫厘千里，故借玉尺坚久不磨为喻，强调分寸的当
+  - date: 1774
+    title_zh: 正文后采录前人至精之论及验效之方
+    rationale: 医书聚讼须识精见卓确有把持，必再四考订性味分量，针对不爽方敢载笔，以免矛盾贻误
+- id: guji-沈金鳌-endeavor-2
+  title_zh: 汇通杂病源流以惠后学
+  summary: 由妇科推及杂病，溯源流，别虚实，著杂病源流犀烛三十卷，与妇科玉尺互为表里，垂训乡里后进
+  phases:
+  - key: brewing
+    name: 乡里诊治积累杂病经验
+    labels:
+      zh: 酝酿
+    start_date: 1760
+    highlight_event_id: guji-沈金鳌-event-practice
+  - key: breakthrough
+    name: 以源流为纲贯通内外妇儿
+    labels:
+      zh: 突破
+    start_date: 1771
+    highlight_event_id: guji-沈金鳌-event-rhizhu
+  - key: climax
+    name: 杂病源流犀烛三十卷告成
+    labels:
+      zh: 高潮
+    start_date: 1773
+    highlight_event_id: guji-沈金鳌-event-rhizhu
+  - key: closure
+    name: 以妇科续补杂病之缺垂训后世
+    labels:
+      zh: 收束
+    start_date: 1774-04-03
+    highlight_event_id: guji-沈金鳌-event-yuchi
+  decisions:
+  - date: 1773
+    title_zh: 先成杂病源流再专精妇科
+    rationale: 妇女病倍多于男子而原不外经产崩带，须先明杂病源流，方能充类至尽统摄妇科诸变
+  - date: 1774
+    title_zh: 谆嘱临时裁度不可拘泥成方
+    rationale: 病变无方，运用之妙存乎一心，故凡例明言因势酌方，调养脾胃气血为本，不专事攻伐
 events:
 - id: guji-沈金鳌-event-birth
-  title_zh: 出生
   date: 1717
   year_of: 1717
-  description: 清康熙五十六年出生于无锡后以字芊绿号汭霖行医著述
-- id: guji-沈金鳌-event-reading
-  title_zh: 廿年专读伤寒百余家
-  date: 1754
-  year_of: 1754
-  description: 廿年来专读伤寒书至百余家人各一说不胜繁冗驳杂遂萌编纲目之志
-- id: guji-沈金鳌-event-jicheng
-  title_zh: 假得图书集成参读
-  date: 1773-03-01
+  title_zh: 出生于江苏无锡
+  description: 康熙五十六年生于无锡，字芊绿，号汲门老人，少力学医，尤精内妇诸科
+- id: guji-沈金鳌-event-practice
+  date: 1760
+  year_of: 1760
+  title_zh: 无锡行医察妇女病
+  description: 久诊乡里，见妇女情不畅识不开，忧思怨怒致气血乖争，又隐曲掩蔽难达，遂思以玉尺量准之法诊治
+- id: guji-沈金鳌-event-rhizhu
+  date: 1773
   year_of: 1773
-  description: 癸巳春从邑中嵇氏假得钦定古今图书集成艺术部按次详读如入龙宫海藏遍赏奇宝
-- id: guji-沈金鳌-event-preface
-  title_zh: 自序伤寒论纲目告成
-  date: 1774-11-15
+  title_zh: 撰成杂病源流犀烛
+  description: 汇通杂病源流，著书三十卷，溯病源，辨脉症，垂为医门津梁，与后之妇科著述相表里
+- id: guji-沈金鳌-event-yuchi
+  date: 1774-04-03
   year_of: 1774
-  description: 乾隆三十九年甲午十一月中浣自序于无锡明仲景分阴阳析六经立方治之旨以纲目示学者寻流溯源
+  title_zh: 自序妇科玉尺六卷
+  description: 乾隆甲午清明前二日自书序，成妇科玉尺六卷九门，论月经崩带胎产诸症，按脉切症，采录精粹效方，刊行于世
 - id: guji-沈金鳌-event-death
-  title_zh: 逝世
   date: 1776
   year_of: 1776
-  description: 乾隆四十一年前后逝世留杂病源流犀烛等医书及纲目以传后学
+  title_zh: 逝世于无锡
+  description: 乾隆四十一年卒于里第，所著妇科玉尺与杂病源流犀烛并行于世，为清代妇科要籍

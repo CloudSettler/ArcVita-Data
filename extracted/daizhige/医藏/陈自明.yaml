@@ -9,138 +9,131 @@ person:
       date: '1190'
       precision: year
       is_circa: true
-      raw: 宋庆元六年左右
+      raw: 南宋嘉定前后生于临川
     death:
       date: '1270'
       precision: year
       is_circa: true
-      raw: 宋咸淳六年左右
+      raw: 南宋末年卒年约八十
   birth_date: '1190'
   death_date: '1270'
   era: 南宋
-  reign_ref: 宋理宗嘉熙元年
-  archetype: 济世医者
+  reign_ref: 宋宁宗至宋度宗朝
+  archetype: 济世医家
   dilemmas:
-  - 纲领散漫而节目未备，医者束手还是博采群书会其全
-  - 贵贱贫富用药之别，惟贵贱还是惟其效
-  lesson: 补偏会全，聚散敛约，惟效是取，不以人废言
-  summary_first_person: 吾临川陈自明，三世学医，遍行东南，采摭诸家附以家传，成妇人大全良方八门二百六十余论，期病者随索随见随试随愈
+  - 妇科散方难求全而临证误治多如何集大成以传后
+  - 世医重男轻女而经带胎产易被忽视如何立调经为首以正本
+  lesson: 调气血固脾胃为妇科大本集方验以济世
+  summary_first_person: 吾乃临川陈自明字良甫建安行医专治妇科外科集古今方论成妇人大全良方与外科精要愿调经养血以全妇人性命
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/yi-cang/furen-daquan-liangfang.md
-  - https://daizhige.org/yi-cang/furen-daquan-liangfang.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A6%87%E4%BA%BA%E8%89%AF%E6%96%B9%E9%9B%86%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A6%87%E4%BA%BA%E8%89%AF%E6%96%B9%E9%9B%86%E8%A6%81.md
 endeavors:
 - id: guji-陈自明-endeavor-1
-  title_zh: 编纂妇人大全良方
-  summary: 自调经讫产后凡八门二百六十余论，补偏会全
+  person_qid: guji-陈自明
+  title_zh: 编撰妇人大全良方集调经胎产之大成
+  summary_zh: 以调经为首博采产宝诸家之方加愚按治验成二十四卷妇科全书
   phases:
   - key: brewing
-    name: 三世家学与东南访方
+    name: 临川习医建安行医
     labels:
-      zh:
-      - 家藏医书
-      - 东南访方
+      zh: 临证积累
     start_date: '1210'
-    highlight_event_id: guji-陈自明-event-travel
+    highlight_event_id: guji-陈自明-event-practice
   - key: breakthrough
-    name: 闭关涵泳采摭诸善
+    name: 博采妇方立调经门
     labels:
-      zh:
-      - 调经
-      - 妇产
-    start_date: '1235'
-    highlight_event_id: guji-陈自明-event-compile
+      zh: 博采立纲
+    start_date: '1230'
+    highlight_event_id: guji-陈自明-event-furen
   - key: climax
-    name: 嘉熙元年建康成书作序
+    name: 妇人大全良方成书
     labels:
-      zh:
-      - 成书
-      - 作序
-    start_date: '1237-08-01'
-    highlight_event_id: guji-陈自明-event-preface
+      zh: 成书刊行
+    start_date: '1237'
+    highlight_event_id: guji-陈自明-event-furen
   - key: closure
-    name: 八门刊行惠及病者
+    name: 节要流传后世节录为集要
     labels:
-      zh:
-      - 刊行
-      - 惠民
-    start_date: '1237-08-01'
-    highlight_event_id: guji-陈自明-event-preface
+      zh: 节要流传
+    start_date: '1240'
+    highlight_event_id: guji-陈自明-event-furen
   decisions:
-  - date: '1235-01-01'
-    title_zh: 以调经为首补偏会全
-    rationale: 纲领散漫无统故始自调经讫于产后立八门统摄诸体
-  - date: '1237-08-01'
-    title_zh: 论后附药惟效是取
-    rationale: 不计贵贱贫富，药惟其效，使随索随见随试随愈
+  - date: '1230'
+    title_zh: 以调经为首立论
+    rationale: 妇人以血为本先调经而后胎产可保故首立调经门
+  - date: '1237'
+    title_zh: 博采众方加愚按治验
+    rationale: 古方散漫易误治故采王子亨产宝诸家并附己验以明补脾养血之法
 - id: guji-陈自明-endeavor-2
-  title_zh: 建康医谕与药物法度
-  summary: 任明道书院医谕，备识别修制药物法度以正炮制
+  person_qid: guji-陈自明
+  title_zh: 建安临证兼治外科成外科精要
+  summary_zh: 久居建安诊治外科疮疡结合内治外治之法着外科精要以补外科之缺
   phases:
   - key: brewing
-    name: 任建康府明道书院医谕
+    name: 建安开业诊治杂病
     labels:
-      zh:
-      - 医谕
-      - 建康
-    start_date: '1237-01-01'
-    highlight_event_id: guji-陈自明-event-preface
+      zh: 行医建安
+    start_date: '1215'
+    highlight_event_id: guji-陈自明-event-practice
   - key: breakthrough
-    name: 立药物修制通则
+    name: 辨疮疡内外治法
     labels:
-      zh:
-      - 炮制
-      - 药性
-    start_date: '1237-01-01'
-    highlight_event_id: guji-陈自明-event-materia
+      zh: 外科辨证
+    start_date: '1250'
+    highlight_event_id: guji-陈自明-event-waike
+  - key: climax
+    name: 外科精要成书
+    labels:
+      zh: 外科成书
+    start_date: '1263'
+    highlight_event_id: guji-陈自明-event-waike
   - key: closure
-    name: 垂训贪利代药之弊
+    name: 医名远播弟子传业
     labels:
-      zh:
-      - 正方
-      - 戒贪
-    start_date: '1237-08-01'
-    highlight_event_id: guji-陈自明-event-materia
+      zh: 传业济世
+    start_date: '1268'
+    highlight_event_id: guji-陈自明-event-death
   decisions:
-  - date: '1237-01-01'
-    title_zh: 备载宜火宜酒去皮去芦诸法于卷首
-    rationale: 药有宜火宜酒别研后入各各不同，无复更注逐方之下以免误用
-  - date: '1237-08-01'
-    title_zh: 辨真伪贵贱以效为衡
-    rationale: 矫富贵鄙贱贫乏惮贵贪利代贵之失，明世无难治病药无难代品
+  - date: '1250'
+    title_zh: 内外兼治不专恃刀针
+    rationale: 外症多由气血内虚所致故以内补托里为主外治为辅以保全性命
+  - date: '1263'
+    title_zh: 着外科精要以示后学
+    rationale: 外科方书杂乱故撮要立论使后学有所守而不妄攻伐
 events:
 - id: guji-陈自明-event-birth
-  title_zh: 生于临川医家
+  person_qid: guji-陈自明
+  title_zh: 出生于临川
   date: '1190'
   year_of: 1190
-  place_zh: 临川
-  summary: 出生三世学医之家，家藏医书若干卷
-- id: guji-陈自明-event-travel
-  title_zh: 遍行东南尽索方书
-  date: '1220'
-  year_of: 1220
-  place_zh: 东南
-  summary: 所至尽索方书以观，暇时闭关净室翻阅涵泳究极未合
-- id: guji-陈自明-event-preface
-  title_zh: 嘉熙元年建康作序成书
-  date: '1237-08-01'
+  summary_zh: 南宋嘉定前后生于抚州临川陈氏习儒兼通医
+  kind: birth
+- id: guji-陈自明-event-practice
+  person_qid: guji-陈自明
+  title_zh: 建安行医声名渐起
+  date: '1215'
+  year_of: 1215
+  summary_zh: 居建安以医为业精妇科外科临证重视脾胃气血诊治妇人经闭崩漏多验
+  kind: career
+- id: guji-陈自明-event-furen
+  person_qid: guji-陈自明
+  title_zh: 妇人大全良方成书
+  date: '1237'
   year_of: 1237
-  place_zh: 建康府明道书院
-  summary: 以医谕身份自序妇人大全良方，凡八门二百六十余论始调经讫产后
-- id: guji-陈自明-event-materia
-  title_zh: 制定识别修制药物法度
-  date: '1237-08-01'
-  year_of: 1237
-  place_zh: 建康
-  summary: 详定辰砂雄黄诸石火煅醋淬，草木去芦削皮炮炙诸则冠于卷首
-- id: guji-陈自明-event-compile
-  title_zh: 采摭诸家附家传经验成编
-  date: '1237-08-01'
-  year_of: 1237
-  place_zh: 建康
-  summary: 采摭诸家之善附以家传经验方，论后有药惟效是取
+  summary_zh: 博采前代妇方分调经众疾胎前产后等门加愚按而成二十四卷后世节为妇人良方集要
+  kind: career
+- id: guji-陈自明-event-waike
+  person_qid: guji-陈自明
+  title_zh: 外科精要成书
+  date: '1263'
+  year_of: 1263
+  summary_zh: 总结外科临证着外科精要三卷明辨阴阳虚实倡以内治托里为要
+  kind: career
 - id: guji-陈自明-event-death
-  title_zh: 卒于南宋末年
+  person_qid: guji-陈自明
+  title_zh: 逝世
   date: '1270'
   year_of: 1270
-  place_zh: 临川
-  summary: 卒后妇人大全良方盛行，后世奉为妇科宗匠
+  summary_zh: 晚年卒于宋末享年约八十医书盛行于元明为妇科外科圭臬
+  kind: death
