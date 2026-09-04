@@ -18,105 +18,119 @@ person:
   birth_date: 1522
   death_date: 1619
   era: 明
-  reign_ref: 万历
-  archetype: 良医济世
+  reign_ref: 嘉靖至万历
+  archetype: 医家纂述者
   dilemmas:
-  - title_zh: 良相与良医之辨
-    description_zh: 少有志佐君调元不售遂承父业以医寿苍生显晦虽异春生之心则一
-  - title_zh: 秘术自守与广传之虑
-    description_zh: 历代方书浩瀚精微执滞者反误膏盲欲删繁撮要使初学按类随索又恐浅陋见笑高明
-  lesson: 上医医国其次及人以仁存心以简惠众则万病可回春
-  summary_first_person: 吾金溪龚廷贤也世承医业自幼习轩岐之学游大梁值疫以方救活甚众乃集古今医鉴种杏仙方又苦心十载集成万病回春八卷愿家传户晓使四海皆春
+  - 宫廷秘方当藏或当传
+  - 家学旧法当守或当变
+  - 妇科隐疾难言又须明言
+  lesson: 秘传经验须公开刊布方能广济苍生
+  summary_first_person: 吾乃龚廷贤，字子才，号云林，江西金溪人，幼承父信家学，继入太医院供职，目见妇人经带胎产诸疾苦楚无诉，遂集内府秘传与平生经验，撰为女科诸论，又以寿世保元等书广传于世，惟愿后之医者不秘不藏，共全人命而已
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%87%E7%97%85%E5%9B%9E%E6%98%A5.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%87%E7%97%85%E5%9B%9E%E6%98%A5.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%86%85%E5%BA%9C%E7%A7%98%E4%BC%A0%E7%BB%8F%E9%AA%8C%E5%A5%B3%E7%A7%91.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%86%85%E5%BA%9C%E7%A7%98%E4%BC%A0%E7%BB%8F%E9%AA%8C%E5%A5%B3%E7%A7%91.md
 endeavors:
 - id: guji-龚廷贤-endeavor-1
-  title_zh: 承家学游大梁治疫
-  summary_zh: 承父西园公衣钵游学大梁遇疫流行以法调治多获全活诸医敬服声在荐绅
+  title_zh: 承家学纂群书以寿世
+  summary: 继承父龚信古今医鉴之学，博采内府民间方论，晚年刊刻寿世保元万病回春等书，务使人人可读，家家可守
   phases:
   - key: brewing
-    name: 金溪承学
+    name: 幼承家学
     labels:
-      zh: 家传习医
-    start_date: 1540
+      zh:
+      - 家学启蒙
+    start_date: 1530
     highlight_event_id: guji-龚廷贤-event-birth
   - key: breakthrough
-    name: 大梁抗疫
+    name: 入太医院历练
     labels:
-      zh: 治疫扬名
-    start_date: 1570
-    highlight_event_id: guji-龚廷贤-event-daliang
+      zh:
+      - 宫廷历练
+    start_date: 1552
+    highlight_event_id: guji-龚廷贤-event-taiyiyuan
+  - key: climax
+    name: 刊刻寿世保元
+    labels:
+      zh:
+      - 著述刊刻
+    start_date: 1615
+    highlight_event_id: guji-龚廷贤-event-shoushi
   - key: closure
-    name: 声著士林
+    name: 医书广传民间
     labels:
-      zh: 荐绅推重
-    start_date: 1587
-    highlight_event_id: guji-龚廷贤-event-yijian
+      zh:
+      - 流传济世
+    start_date: 1619
+    highlight_event_id: guji-龚廷贤-event-death
   decisions:
-  - date: 1570
-    title_zh: 赴梁救疫
-    rationale: 疫甚诸医束手不忍坐视以家传方药对证投剂务使沉疴顿起
-  - date: 1587
-    title_zh: 以医显晦自任
-    rationale: 数奇不售为良相则愿为良医以寿苍生显晦不同春生均一
+  - date: 1560
+    title_zh: 定志辑录内府民间验方
+    rationale: 内府秘方藏之深宫则及人者寡，民间验方散而无统则传之不远，故当兼收并蓄以备刊布
+  - date: 1615
+    title_zh: 刊刻寿世保元等医书
+    rationale: 年事已高，惧平生所学随身而没，不如付梓以寿世，使后学有所依据
 - id: guji-龚廷贤-endeavor-2
-  title_zh: 删繁撮要著万病回春
-  summary_zh: 鉴于医书浩瀚难窥肯綮先刊古今医鉴种杏仙方继苦心十祀集成万病回春八卷使初学有指南
+  title_zh: 专女科集经验以传内府秘法
+  summary: 以妇人经带胎产为专务，分卷论述月经调经安胎产后诸症，撰成内府秘传经验女科，详脉法方药加减，垂为女科绳墨
   phases:
   - key: brewing
-    name: 著医鉴仙方
+    name: 留心妇人诸疾
     labels:
-      zh: 初刊成书
-    start_date: 1577
-    highlight_event_id: guji-龚廷贤-event-yijian
+      zh:
+      - 女科留心
+    start_date: 1555
+    highlight_event_id: guji-龚廷贤-event-taiyiyuan
   - key: breakthrough
-    name: 参验增益
+    name: 总结调经安胎心法
     labels:
-      zh: 历验增新
-    start_date: 1587
-    highlight_event_id: guji-龚廷贤-event-yijian
+      zh:
+      - 调经安胎
+    start_date: 1570
+    highlight_event_id: guji-龚廷贤-event-nvke
   - key: climax
-    name: 万病回春成书
+    name: 撰成内府秘传经验女科
     labels:
-      zh: 集大成刊布
-    start_date: 1615
-    highlight_event_id: guji-龚廷贤-event-huichun
+      zh:
+      - 女科成书
+    start_date: 1587
+    highlight_event_id: guji-龚廷贤-event-nvke
+  - key: closure
+    name: 女科方论传习后世
+    labels:
+      zh:
+      - 传习后学
+    start_date: 1619
+    highlight_event_id: guji-龚廷贤-event-death
   decisions:
-  - date: 1577
-    title_zh: 先刊医鉴仙方
-    rationale: 惩方书执滞投非反重之弊先集经验刊布以卫生众
-  - date: 1615
-    title_zh: 集成回春付梓
-    rationale: 祖轩岐宗仓越法刘张朱李参以己验详审精密不忍自秘付梓以广济
+  - date: 1575
+    title_zh: 以女科单列成书
+    rationale: 妇人以血为本，经带胎产各有专治，若附于杂病则隐微难明，故当专卷详论以便检用
+  - date: 1587
+    title_zh: 直书脉症方药不隐秘传
+    rationale: 内府经验本为宫中所重，然妇疾多羞于启齿，医者不明则误人性命，不如和盘托出以全活为心
 events:
 - id: guji-龚廷贤-event-birth
+  title_zh: 出生于江西金溪医家
   date: 1522
   year_of: 1522
-  kind: birth
-  title_zh: 生于金溪医家
-  description_zh: 江西金溪云林龚氏父西园公以医学鸣世廷贤承其传
-- id: guji-龚廷贤-event-daliang
-  date: 1570
-  year_of: 1570
-  kind: career
-  title_zh: 游大梁治疫
-  description_zh: 行游大梁值疫甚合境诸医俯首出其下声在荐绅
-- id: guji-龚廷贤-event-yijian
-  date: 1577
-  year_of: 1577
-  kind: career
-  title_zh: 刊古今医鉴种杏仙方
-  description_zh: 丁丑岁集古今医鉴种杏仙方刊行稍稍传播卫生有取
-- id: guji-龚廷贤-event-huichun
+  description: 明嘉靖元年左右生于江西金溪，父龚信为名医，著古今医鉴，幼而习医
+- id: guji-龚廷贤-event-taiyiyuan
+  title_zh: 入太医院任吏目
+  date: 1552
+  year_of: 1552
+  description: 承家学入太医院供职为吏目，博观内府方籍，兼治内外妇儿诸科，尤精女科
+- id: guji-龚廷贤-event-nvke
+  title_zh: 撰成内府秘传经验女科
+  date: 1587
+  year_of: 1587
+  description: 集月经经闭崩漏带下安胎恶阻产后诸论及脉法方药，撰成内府秘传经验女科三卷以传世
+- id: guji-龚廷贤-event-shoushi
+  title_zh: 刊刻寿世保元等书
   date: 1615
   year_of: 1615
-  kind: career
-  title_zh: 万病回春成书付梓
-  description_zh: 万历乙卯夏苦心十祀祖轩岐法历代名家集成八卷名曰万病回春茅坤舒化为序
+  description: 晚年刊刻寿世保元万病回春等巨著，将平生内外妇儿各科经验汇为完书，风行海内
 - id: guji-龚廷贤-event-death
+  title_zh: 寿终
   date: 1619
   year_of: 1619
-  kind: death
-  title_zh: 卒
-  description_zh: 晚年以医济众寿终医案家训附传于后
+  description: 明万历年间寿终，一生以纂述济世为业，遗书多为后世医家所宗
