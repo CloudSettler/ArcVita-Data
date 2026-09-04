@@ -1,0 +1,100 @@
+person:
+  qid: guji-李翰
+  name_zh: 李翰
+  names:
+    zh: 李翰
+    en: Li Han
+  lifespan:
+    birth:
+      date: '0715'
+      precision: year
+      is_circa: true
+      raw: 唐开元年间约公元七一五年
+    death:
+      date: '0775'
+      precision: year
+      is_circa: true
+      raw: 唐大历年间约公元七七五年
+  birth_date: '0715'
+  death_date: '0775'
+  era: 唐
+  reign_ref: 唐玄宗至唐代宗
+  archetype: 蒙学集大成者
+  dilemmas:
+  - 如何以简短韵语囊括经史群贤以启童蒙
+  - 古文凋敝之际如何以典实存风教
+  lesson: 芟繁摭华以启后学使万古事理可诵可知
+  summary_first_person: 吾翰生逢盛唐文弊思以四言韵语集古圣贤嘉言懿行作蒙求以授童蒙冀尔曹勉旃以继万古之学
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E8%92%99%E6%B1%82.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E8%92%99%E6%B1%82.md
+endeavors:
+- id: guji-李翰-endeavor-1
+  title_zh: 编纂蒙求以启童蒙
+  summary: 博采经史子集贤哲典故以四言韵语编成蒙求为蒙学范本
+  phases:
+  - key: brewing
+    name: 博览经史采摭典实
+    labels:
+      zh:
+      - 博采群书
+    start_date: 0738
+    highlight_event_id: guji-李翰-event-mengqiu
+  - key: climax
+    name: 蒙求成书授徒诵习
+    labels:
+      zh:
+      - 启蒙成书
+    start_date: '0746'
+    highlight_event_id: guji-李翰-event-mengqiu
+  decisions:
+  - date: '0746'
+    title_zh: 断以四言对句体例总括古人
+    rationale: 童蒙难读经史故以韵语对偶便诵便记以存风教
+- id: guji-李翰-endeavor-2
+  title_zh: 倡导古文表彰忠烈
+  summary: 天宝安史之际上表论文推尊张巡姚訚忠义以古文存国史
+  phases:
+  - key: breakthrough
+    name: 入朝观风上书论文
+    labels:
+      zh:
+      - 古文倡导
+    start_date: '0750'
+    highlight_event_id: guji-李翰-event-prose
+  - key: closure
+    name: 记述忠烈垂范后世
+    labels:
+      zh:
+      - 表彰忠义
+    start_date: '0757'
+    highlight_event_id: guji-李翰-event-prose
+  decisions:
+  - date: '0757'
+    title_zh: 为张巡作传进表朝廷
+    rationale: 睢阳死守关乎江淮存亡不可无文以纪其烈故直书其事
+events:
+- id: guji-李翰-event-birth
+  date: '0715'
+  year_of: 715
+  title_zh: 生于唐开元年间
+  description: 李翰生于盛唐博涉经史长于古文
+  place_zh: 唐京兆一带
+- id: guji-李翰-event-mengqiu
+  date: '0746'
+  year_of: 746
+  title_zh: 蒙求编成
+  description: 集王戎孔明匡衡孙敬等数百典故以四言韵语成蒙求授童蒙讽诵
+  place_zh: 长安
+- id: guji-李翰-event-prose
+  date: '0757'
+  year_of: 757
+  title_zh: 进表彰张巡姚訚之功
+  description: 安史乱后上书纪睢阳忠烈推明古文之用以正国史
+  place_zh: 长安
+- id: guji-李翰-event-death
+  date: '0775'
+  year_of: 775
+  title_zh: 卒于唐代宗朝
+  description: 晚年以文名重一时所作蒙求盛传蒙馆乡塾至今诵之
+  place_zh: 长安
