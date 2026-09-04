@@ -2,143 +2,137 @@ person:
   qid: guji-钱乙
   name_zh: 钱乙
   names:
-    zh: 钱乙
+    zh: 钱乙仲阳
     en: Qian Yi
   lifespan:
     birth:
       date: 1032
       precision: year
-      is_circa: true
-      raw: 宋仁宗明道元年左右生于郓州
+      is_circa: false
+      raw: 北宋明道元年
     death:
       date: 1113
       precision: year
-      is_circa: true
-      raw: 宋徽宗政和三年左右卒
+      is_circa: false
+      raw: 北宋政和三年
   birth_date: 1032
   death_date: 1113
   era: 北宋
-  reign_ref: 仁宗至徽宗
-  archetype: 儿科医圣
+  reign_ref: 宋仁宗至宋徽宗
+  archetype: 医者
   dilemmas:
-  - 幼年孤苦寻父尽孝与发愤学医立身之难
-  - 小儿脉微难凭外证多变与简易精审辨虚实之难
-  - 晚年秘方不轻传与博爱幼幼广惠后世之择
-  lesson: 幼幼存仁，辨脏腑虚实寒热，简易精审，不妄汗下攻伐，以保全小儿生气
-  summary_first_person: 余钱乙字仲阳，幼孤养于吕氏，学医以自立，五六返寻父迎归奉养，始以颅囟方著山东，后入翰林为医学，专治小儿惊疳吐泻疮疹，括古今而多自得，晚年授方于亲旧，愿幼者免横夭之苦
+  - 幼科惊风旧说荒诞当正本清源
+  - 小儿纯阳易虚易实投药稍差遗害无穷
+  lesson: 辨表里寒热虚实六字为纲不以惊风塞责务求实用
+  summary_first_person: 吾幼承家学长究幼科参指纹脉法以望闻切正惊风之妄专尚实用以活婴幼
   source_urls:
-  - https://daizhige.org/医藏/小儿药证直诀.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/小儿药证直诀.md
+  - https://daizhige.org/幼科概论.html
+  - https://ctext.org/wiki.pl?if=gb&res=290247
 endeavors:
 - id: guji-钱乙-endeavor-1
-  title_zh: 开创小儿辨证体系传小儿药证直诀
-  summary: 以五脏辨证立纲，创五脏补泻方剂，使儿科自颅囟经验成独立体系，经阎季忠集录传世
+  title_zh: 立指纹三关诊法正幼科纲纪
+  summary_zh: 以食指寅卯辰三关候风气命辨表里寒热虚实破人惊畜惊妄说
   phases:
   - key: brewing
-    name: 幼孤从吕习医
+    name: 幼承家学究内经脉理
     labels:
-      zh:
-      - 学医启蒙
-      - 颅囟经验
+      zh: 酝酿
     start_date: 1040
-    highlight_event_id: guji-钱乙-event-birth
+    highlight_event_id: guji-钱乙-event-study
   - key: breakthrough
-    name: 以颅囟方著山东
+    name: 立三关风气命轻重之诀
     labels:
-      zh:
-      - 儿科成名
-      - 五脏立说
+      zh: 突破
     start_date: 1065
-    highlight_event_id: guji-钱乙-event-yingfu
+    highlight_event_id: guji-钱乙-event-sanguan
   - key: climax
-    name: 宫廷取效名动京师
+    name: 临证四十载验纹色浮沉
     labels:
-      zh:
-      - 翰林医学
-      - 简易精审
-    start_date: 1082
-    highlight_event_id: guji-钱乙-event-hanlin
+      zh: 高潮
+    start_date: 1080
+    highlight_event_id: guji-钱乙-event-service
   - key: closure
-    name: 晚年授方集成直诀
+    name: 传仲阳三关法于后世幼科
     labels:
-      zh:
-      - 授徒传方
-      - 直诀成书
+      zh: 收束
     start_date: 1110
-    highlight_event_id: guji-钱乙-event-wannian
-  decisions:
-  - date: 1060
-    title_zh: 舍成人针砭专攻小儿
-    rationale: 目见庸医妄施方药杀儿十常四五，欲以简易精审之法保全幼小
-  - date: 1110
-    title_zh: 晚年始传说证杂方
-    rationale: 年老技益妙，不忍秘藏，欲广博爱幼幼之惠，使后学有纪律可据
-- id: guji-钱乙-endeavor-2
-  title_zh: 寻父尽孝行医活人立身
-  summary: 三岁失怙，三十余五六返寻父迎归，事生母之姑与吕君如亲，丧葬祭享尽礼，以孝义行医取信天下
-  phases:
-  - key: brewing
-    name: 孤儿依姑问医
-    labels:
-      zh:
-      - 收养为子
-      - 读书问医
-    start_date: 1035
-    highlight_event_id: guji-钱乙-event-birth
-  - key: breakthrough
-    name: 五六返海上寻父
-    labels:
-      zh:
-      - 号泣返迹
-      - 迎父归养
-    start_date: 1062
-    highlight_event_id: guji-钱乙-event-yingfu
-  - key: climax
-    name: 治长公主女有功赐绯
-    labels:
-      zh:
-      - 太医丞
-      - 活人无数
-    start_date: 1082
-    highlight_event_id: guji-钱乙-event-hanlin
-  - key: closure
-    name: 葬父事吕善终
-    labels:
-      zh:
-      - 丧葬如礼
-      - 岁时祭享
-    start_date: 1072
-    highlight_event_id: guji-钱乙-event-death
+    highlight_event_id: guji-钱乙-event-book
   decisions:
   - date: 1065
-    title_zh: 积岁迎父归郓奉养
-    rationale: 父匿名东游海上不返，虽幼失养，必返迹迎归以全人子之道
-  - date: 1082
-    title_zh: 受诏治贵主不恃禁方妄下
-    rationale: 小儿脏腑柔弱易虚易实，须凭外证辨寒热虚实，不可因贵而峻攻
+    title_zh: 分寅卯辰三关候邪浅深
+    rationale: 位自下而上邪自浅而深证自轻而重以辨可治难治之机
+  - date: 1080
+    title_zh: 以浮沉红紫淡滞定六纲
+    rationale: 浮沉分表里红紫辨寒热淡滞定虚实舍怪诞惊名求实用
+- id: guji-钱乙-endeavor-2
+  title_zh: 治惊风痰火木侮分虚实著书
+  summary_zh: 揭急惊为痰火闭慢惊为木侮土传小儿药证直诀惠后学
+  phases:
+  - key: brewing
+    name: 体察乳婴成童异治
+    labels:
+      zh: 酝酿
+    start_date: 1050
+    highlight_event_id: guji-钱乙-event-study
+  - key: breakthrough
+    name: 辨急惊痰火慢惊脾虚
+    labels:
+      zh: 突破
+    start_date: 1075
+    highlight_event_id: guji-钱乙-event-service
+  - key: climax
+    name: 太医丞活婴幼名重京师
+    labels:
+      zh: 高潮
+    start_date: 1095
+    highlight_event_id: guji-钱乙-event-service
+  - key: closure
+    name: 门人集小儿药证直诀成书
+    labels:
+      zh: 收束
+    start_date: 1119
+    highlight_event_id: guji-钱乙-event-book
+  decisions:
+  - date: 1075
+    title_zh: 揭非惊之说分痰火木侮
+    rationale: 急惊实火闭当清火降痰慢惊虚寒当补脾回阳不可混治
+  - date: 1095
+    title_zh: 守温平轻剂禁猛烈攻伐
+    rationale: 小儿形质未成易虚易实护中气保胃气以求安效
 events:
 - id: guji-钱乙-event-birth
+  title_zh: 诞生于钱塘
   date: 1032
   year_of: 1032
-  title_zh: 生于郓州钱塘钱氏
-  description: 上世钱塘人与吴越王有属随北家郓，三岁母亡依姑于医吕氏
-- id: guji-钱乙-event-yingfu
+  place_zh: 钱塘
+  summary_zh: 北宋明道元年诞生幼习医于姑丈吕氏
+- id: guji-钱乙-event-study
+  title_zh: 精研内经仲景究幼科脉法
+  date: 1050
+  year_of: 1050
+  place_zh: 东京开封
+  summary_zh: 博采诸家研大小缓急浮沉迟数及指纹旁支交通营卫之理
+- id: guji-钱乙-event-sanguan
+  title_zh: 创食指三关浮沉寒热虚实法
   date: 1065
   year_of: 1065
-  title_zh: 五六返寻父迎归奉养
-  description: 年三十余得父所在海上，积岁迎归，乡人感泣赋诗，后七年父寿终丧葬如礼
-- id: guji-钱乙-event-hanlin
-  date: 1082
-  year_of: 1082
-  title_zh: 治长公主女授翰林医学赐绯
-  description: 元丰中长公主女有疾召视有功，奏授翰林医学，以小儿脉证治法名于时
-- id: guji-钱乙-event-wannian
-  date: 1110
-  year_of: 1110
-  title_zh: 晚年传方阎季忠参校集成
-  description: 大观前后说证数十条杂方渐传，阎季忠次先后削重复正讹谬，分上中下三卷成小儿药证直诀
+  place_zh: 开封
+  summary_zh: 立寅为风关卯为气关辰为命关以纹现部位浮沉红紫定表里寒热虚实
+- id: guji-钱乙-event-service
+  title_zh: 以幼科神效拜太医丞
+  date: 1095
+  year_of: 1095
+  place_zh: 东京太医院
+  summary_zh: 治痘疹惊疳吐泻活人无数辨外热内热内解外解不尚虚文专尚实用
+- id: guji-钱乙-event-book
+  title_zh: 传小儿药证直诀惠后世
+  date: 1119
+  year_of: 1119
+  place_zh: 开封
+  summary_zh: 门人阎季忠集其方论成小儿药证直诀为幼科开宗立派之书
 - id: guji-钱乙-event-death
+  title_zh: 卒于京师
   date: 1113
   year_of: 1113
-  title_zh: 寿终传术无穷
-  description: 以儿科圣手终，吕君无嗣为收葬嫁孤女岁时祭享，遗书惠及幼小
+  place_zh: 开封
+  summary_zh: 政和三年卒享年八十二幼科指纹脉学永传
