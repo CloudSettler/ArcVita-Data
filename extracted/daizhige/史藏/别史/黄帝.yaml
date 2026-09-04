@@ -1,0 +1,146 @@
+person:
+  qid: guji-黄帝
+  name_zh: 黄帝
+  names:
+    zh: 黄帝
+    en: Huangdi
+  lifespan:
+    birth:
+      date: -2697
+      precision: year
+      is_circa: true
+      raw: 寿丘生于姬水感大电而孕二十四月
+    death:
+      date: -2599
+      precision: year
+      is_circa: true
+      raw: 崩葬桥山
+  birth_date: -2697
+  death_date: -2599
+  era: 上古五帝之首
+  reign_ref: 尚史卷二轩辕本纪
+  archetype: 开创圣王
+  dilemmas:
+  - 修德怀远与兴兵征不享之间如何取舍
+  - 融合炎帝蚩尤部族与安定万国之间如何兼顾
+  lesson: 以修德为本以制度为用方能平乱开治垂范万世
+  summary_first_person: 我生于寿丘长于姬水起于有熊见神农世衰蚩尤作乱乃修德振兵战于阪泉诛蚩尤于涿鹿遂为天子画野分州制宫室舟车书契礼乐以安天下终葬桥山
+  source_urls:
+  - https://daizhige.org/史藏/别史/尚史.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/尚史.md
+endeavors:
+- id: guji-黄帝-endeavor-1
+  title_zh: 阪泉涿鹿定天下
+  summary: 修德振兵先服炎帝再诛蚩尤遂代神农为天子
+  phases:
+  - key: brewing
+    name: 神农世衰习兵待时
+    labels:
+      zh:
+      - 积蓄
+    start_date: -2700
+    highlight_event_id: guji-黄帝-event-banquan
+  - key: breakthrough
+    name: 阪泉三战得志
+    labels:
+      zh:
+      - 突破
+    start_date: -2695
+    highlight_event_id: guji-黄帝-event-banquan
+  - key: climax
+    name: 涿鹿擒杀蚩尤
+    labels:
+      zh:
+      - 决战
+    start_date: -2690
+    highlight_event_id: guji-黄帝-event-zhulu
+  - key: closure
+    name: 诸侯尊奉代神农立
+    labels:
+      zh:
+      - 收束
+    start_date: -2689
+    highlight_event_id: guji-黄帝-event-fushan
+  decisions:
+  - date: -2695
+    title_zh: 与炎帝战于阪泉
+    rationale: 炎帝欲侵陵诸侯诸侯归附唯修德振兵以正天下
+  - date: -2690
+    title_zh: 征师诸侯诛蚩尤于涿鹿
+    rationale: 蚩尤作乱不用帝命若不征伐则万民不安故作指南车而擒杀之
+- id: guji-黄帝-endeavor-2
+  title_zh: 画野分州创制安民
+  summary: 伐木构材作宫室舟车书契正度量和五音以治万民
+  phases:
+  - key: brewing
+    name: 披山通道察访四方
+    labels:
+      zh:
+      - 巡察
+    start_date: -2688
+    highlight_event_id: guji-黄帝-event-fushan
+  - key: breakthrough
+    name: 以云纪官任贤分职
+    labels:
+      zh:
+      - 建制
+    start_date: -2687
+    highlight_event_id: guji-黄帝-event-fushan
+  - key: climax
+    name: 作宫室舟车书契咸池
+    labels:
+      zh:
+      - 创物
+    start_date: -2686
+    highlight_event_id: guji-黄帝-event-zhizuo
+  - key: closure
+    name: 获宝鼎迎日推策守成
+    labels:
+      zh:
+      - 守成
+    start_date: -2685
+    highlight_event_id: guji-黄帝-event-zhizuo
+  decisions:
+  - date: -2687
+    title_zh: 以云命官举风后力牧
+    rationale: 法天象以统百官取合己者治四方则不谋而亲不约而成功
+  - date: -2686
+    title_zh: 作舟车宫室书契服冕
+    rationale: 民野居穴处不通不济故构材通变以利民生以载大道
+events:
+- id: guji-黄帝-event-birth
+  title_zh: 生于寿丘
+  date: -2697
+  year_of: -2697
+  place_zh: 寿丘姬水有熊
+  description: 少典之子母附宝感大电孕二十四月而生受国于有熊居轩辕之丘
+- id: guji-黄帝-event-banquan
+  title_zh: 阪泉服炎帝
+  date: -2695
+  year_of: -2695
+  place_zh: 阪泉之野
+  description: 修德振兵教熊罴貔貅三战然后得志诸侯咸来宾从
+- id: guji-黄帝-event-zhulu
+  title_zh: 涿鹿诛蚩尤
+  date: -2690
+  year_of: -2690
+  place_zh: 涿鹿之野
+  description: 蚩尤作乱作指南车以示四方征师诸侯遂禽杀蚩尤尊为天子
+- id: guji-黄帝-event-fushan
+  title_zh: 合符釜山邑涿鹿
+  date: -2689
+  year_of: -2689
+  place_zh: 釜山涿鹿之阿
+  description: 北逐荤粥东登岱宗西登空峒合符釜山画野分州万国和
+- id: guji-黄帝-event-zhizuo
+  title_zh: 制器作乐治万民
+  date: -2686
+  year_of: -2686
+  place_zh: 合宫涿鹿
+  description: 始作宫室舟车书契铸十二钟奏咸池举风后力牧以治民
+- id: guji-黄帝-event-death
+  title_zh: 崩葬桥山
+  date: -2599
+  year_of: -2599
+  place_zh: 桥山
+  description: 在位百年天下大治崩葬桥山民思其德

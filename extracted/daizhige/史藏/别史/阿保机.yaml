@@ -1,0 +1,137 @@
+person:
+  qid: guji-阿保机
+  name_zh: 阿保机
+  names:
+    zh: 耶律亿阿保机
+    en: Yelu Abaoji
+  lifespan:
+    birth:
+      date: 0872
+      precision: year
+      is_circa: true
+      raw: 唐咸通十三年生
+    death:
+      date: '0926-09-06'
+      precision: month
+      is_circa: false
+      raw: 天赞五年秋七月崩于夫余城
+  birth_date: 0872
+  death_date: '0926-09-06'
+  era: 唐末五代辽初
+  reign_ref: 辽神册元年至天赞五年
+  archetype: 草原开国君主
+  dilemmas:
+  - 部落选汗旧制与帝制世袭之冲突
+  - 游牧旧俗与农耕汉制之调和
+  lesson: 审时乘乱而起善用汉谋兼并部族终成帝业然废旧制而立私家国祚之争已伏
+  summary_first_person: 吾生于契丹八部分治之时奋勇骑射得众推戴并七部为一部建牙筑城用韩延徽之谋南伐燕晋东灭渤海制契丹大字立四楼而居天下既定而崩于东征之途
+  source_urls:
+  - https://daizhige.org/zh-hans/史藏/别史/契丹国志.html
+endeavors:
+- id: guji-阿保机-endeavor-1
+  title_zh: 并八部建契丹称天皇王
+  summary: 以迭剌部夷离巾起家借汉人农耕筑城之法聚众并吞七部终建国称帝
+  phases:
+  - key: brewing
+    name: 被推为汗蓄力
+    labels:
+      zh: 部落推戴
+    start_date: 0901
+    highlight_event_id: guji-阿保机-event-unify-907
+  - key: breakthrough
+    name: 并七部为一部
+    labels:
+      zh: 兼并统一
+    start_date: 0912
+    highlight_event_id: guji-阿保机-event-unify-907
+  - key: climax
+    name: 神册称帝建元
+    labels:
+      zh: 开国称帝
+    start_date: 0916
+    highlight_event_id: guji-阿保机-event-enthronement-916
+  - key: closure
+    name: 置百官定都制
+    labels:
+      zh: 制度初立
+    start_date: 0917
+    highlight_event_id: guji-阿保机-event-enthronement-916
+  decisions:
+  - date: 0912
+    title_zh: 留汉种守古汉城自为一部
+    rationale: 以守边为名独领精兵汉众避七部猜忌待时并吞
+  - date: 0916
+    title_zh: 自称皇帝建元神册
+    rationale: 八部已并汉人归附乘梁晋相争中原无主之机正名立统以定君臣
+- id: guji-阿保机-endeavor-2
+  title_zh: 南扰燕晋东灭渤海拓疆
+  summary: 西取突厥故地北伐室韦女真南围幽州东取辽东灭渤海改东丹国
+  phases:
+  - key: brewing
+    name: 招韩延徽建牙筑城
+    labels:
+      zh: 汉法养国
+    start_date: 0910
+    highlight_event_id: guji-阿保机-event-youzhou-917
+  - key: breakthrough
+    name: 围幽州战晋王
+    labels:
+      zh: 南下争燕
+    start_date: 0917
+    highlight_event_id: guji-阿保机-event-youzhou-917
+  - key: climax
+    name: 亲征渤海拔夫余
+    labels:
+      zh: 东灭渤海
+    start_date: 0925
+    highlight_event_id: guji-阿保机-event-bohai-926
+  - key: closure
+    name: 立东丹王镇辽东
+    labels:
+      zh: 经略辽东
+    start_date: 0926
+    highlight_event_id: guji-阿保机-event-bohai-926
+  decisions:
+  - date: 0925
+    title_zh: 先灭渤海后图南下
+    rationale: 恐南征之时渤海掎角于后故先绝后患再争燕云
+  - date: 0926
+    title_zh: 命长子突欲镇东丹国
+    rationale: 以皇子守新附辽东之地存渤海旧俗而系以帝室以安众心
+events:
+- id: guji-阿保机-event-birth
+  title_zh: 生于迭剌部
+  date: 0872
+  year_of: 872
+  description: 斡里之子生而拓落多智好骑射能洞厚铁寝有光异
+  related_endeavor_id: guji-阿保机-endeavor-1
+- id: guji-阿保机-event-unify-907
+  title_zh: 并七部契丹始大
+  date: 0907
+  year_of: 907
+  description: 传旗鼓自领一部继而击灭七部复并为一北伐室韦女真西取突厥故地
+  related_endeavor_id: guji-阿保机-endeavor-1
+- id: guji-阿保机-event-enthronement-916
+  title_zh: 神册元年称天皇王
+  date: 0916
+  year_of: 916
+  description: 丙子岁自称皇帝国号契丹以述律氏为皇后置百官建元神册筑城郭立市里
+  related_endeavor_id: guji-阿保机-endeavor-1
+- id: guji-阿保机-event-youzhou-917
+  title_zh: 帅众围幽州战晋军
+  date: 0917
+  year_of: 917
+  description: 以卢文进为导帅众围幽州二百日与李存勖李嗣源战于易州幽州北山败归
+  related_endeavor_id: guji-阿保机-endeavor-2
+- id: guji-阿保机-event-bohai-926
+  title_zh: 平渤海改东丹国
+  date: 0926-02
+  year_of: 926
+  description: 攻渤海拔夫余城掳其主命长子突欲镇之号人皇王制契丹大字置天雄寺
+  related_endeavor_id: guji-阿保机-endeavor-2
+- id: guji-阿保机-event-death
+  title_zh: 崩于夫余城葬木叶山
+  date: '0926-09-06'
+  year_of: 926
+  description: 秋七月崩于夫余城九月葬木叶山谥大圣皇帝庙号太祖置祖州以奉陵
+  related_endeavor_id: guji-阿保机-endeavor-2
