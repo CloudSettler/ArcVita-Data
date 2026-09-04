@@ -1,0 +1,138 @@
+person:
+  qid: guji-毛对山
+  name_zh: 毛对山
+  names:
+    zh: 毛对山
+    en: Mao Duishan
+  lifespan:
+    birth:
+      date: '1820-01-01'
+      precision: year
+      is_circa: true
+      raw: 清代生年未详
+    death:
+      date: '1890-12-31'
+      precision: year
+      is_circa: true
+      raw: 清代卒年未详
+  birth_date: '1820-01-01'
+  death_date: '1890-12-31'
+  era: 清
+  reign_ref: 清晚期
+  archetype: 穷经研脉的儒医
+  dilemmas:
+  - 脉理渊微难凭与临证必按脉决疑之间如何权衡
+  - 和平苟且贻误与偏执孟浪招祸之间如何用药神速而中病
+  lesson: 辨症为本按脉决疑，审虚实通气机，不可拘方亦不可废脉
+  summary_first_person: 余初读灵素望洋意沮，并心壹志默坐苦思乃渐通五运阴阳，每调气度脉浪决生死亦时有验，遂知医必先询病察色而后按脉决疑，疏其血气以致和平，作医话以记症治经验示后学
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%9D.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%9D.md
+endeavors:
+- id: guji-毛对山-endeavor-1
+  title_zh: 苦读灵素精研脉理
+  summary_zh: 遍览前贤注释镇日默坐苦思，渐通五运六气阴阳应象，调气度脉决生死
+  phases:
+  - key: brewing
+    name: 望洋意沮遍览注释
+    labels:
+      zh:
+      - 读灵素
+    start_date: '1840-01-01'
+    highlight_event_id: guji-毛对山-event-study
+  - key: breakthrough
+    name: 默坐苦思渐通道理
+    labels:
+      zh:
+      - 通运气脉理
+    start_date: '1850-01-01'
+    highlight_event_id: guji-毛对山-event-wu-prognosis
+  - key: climax
+    name: 按脉决死屡有奇验
+    labels:
+      zh:
+      - 以脉决症
+    start_date: '1860-01-01'
+    highlight_event_id: guji-毛对山-event-wu-prognosis
+  decisions:
+  - date: '1845-01-01'
+    title_zh: 疑则默坐力索不轻弃脉学
+    rationale: 经义渊深脉理错杂，若弃而不究则终为门面活脱之医，故并心壹志求通
+  - date: '1860-01-01'
+    title_zh: 先询病察色而后按脉决疑
+    rationale: 脉居四诊之末不可离病就脉，若脉不合症必更求其所以然方可立方无误
+- id: guji-毛对山-endeavor-2
+  title_zh: 临证辨治撰述医话
+  summary_zh: 治虚实老人湿热胎产失血齿疾虫症等，究症治道经验，寄稿医报成毛对山医话
+  phases:
+  - key: brewing
+    name: 乡里避兵临证积累
+    labels:
+      zh:
+      - 临证经验
+    start_date: '1860-01-01'
+    highlight_event_id: guji-毛对山-event-zhou-carbuncle
+  - key: breakthrough
+    name: 沪上诊治审虚实论温补
+    labels:
+      zh:
+      - 审虚实主通
+    start_date: '1867-01-01'
+    highlight_event_id: guji-毛对山-event-shen-cough
+  - key: closure
+    name: 录稿医报刊行医话
+    labels:
+      zh:
+      - 著医话
+    start_date: '1885-01-01'
+    highlight_event_id: guji-毛对山-event-yihua
+  decisions:
+  - date: '1867-03-01'
+    title_zh: 老人幼稚以清通为主不用纯温补
+    rationale: 脾衰输化不清蒸变为痰气有余即是火，当以通为用疏血气致和平
+  - date: '1885-01-01'
+    title_zh: 系统追述医案以笔记益人神明
+    rationale: 医话如儒家笔记最能益人，或究症治或道经验，足与冷庐存存斋相匹敌故惠寄医报
+events:
+- id: guji-毛对山-event-birth
+  title_zh: 诞生于清代
+  date: '1820-01-01'
+  year_of: 1820
+  kind: birth
+  description: 清代医家毛对山生，生年未详，此处系约计
+- id: guji-毛对山-event-study
+  title_zh: 初读灵素望洋继而苦思渐通
+  date: '1845-01-01'
+  year_of: 1845
+  kind: study
+  description: 初读灵素觉经义渊深脉理错杂，并心壹志遍览注释镇日默坐苦思，渐通五运六气阴阳应象之理
+- id: guji-毛对山-event-wu-prognosis
+  title_zh: 诊巷邻吴某脉急如夺索断不越宿
+  date: '1860-08-01'
+  year_of: 1860
+  kind: diagnosis
+  description: 避兵乡里，对巷吴某晨起洒扫忽仆不语，按脉势急而锐肾气败，断危期不越宿，日未昃而气绝
+- id: guji-毛对山-event-zhou-carbuncle
+  title_zh: 诊布商周某心脉独坚预发脑后痈毒
+  date: '1861-09-01'
+  year_of: 1861
+  kind: diagnosis
+  description: 周某微疾按心脉独坚湿痰阻气，见脑后细疮累累若贯珠，嘱慎之，明春果以脑后毒发而死
+- id: guji-毛对山-event-shen-cough
+  title_zh: 沪斋诊沈子涵冬咳嘱静养不果
+  date: '1867-03-01'
+  year_of: 1867
+  kind: diagnosis
+  description: 丁未春沈子涵来沪见神色哀夺左坚细右关涩，断夏三月防失血，劝安闲静养，彼恃食补不药，后航海入都咳甚呕血卒于京
+- id: guji-毛对山-event-yihua
+  title_zh: 撰毛对山医话寄载医报
+  date: '1885-01-01'
+  year_of: 1885
+  kind: work
+  description: 或究症治或道经验搜罗丰富谈理玄妙，自言三折肱于是道，书载周雪樵医报由卢育和手录惠寄
+- id: guji-毛对山-event-death
+  title_zh: 逝世于清晚期
+  date: '1890-12-31'
+  year_of: 1890
+  kind: death
+  description: 清晚期逝世，卒年未详，此处系约计

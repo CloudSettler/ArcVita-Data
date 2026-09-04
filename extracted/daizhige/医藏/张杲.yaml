@@ -1,0 +1,110 @@
+person:
+  qid: guji-张杲
+  name_zh: 张杲
+  names:
+    zh: 张杲
+    en: Zhang Gao
+  lifespan:
+    birth:
+      date: 1140-01-01
+      precision: year
+      is_circa: true
+      raw: 南宋绍兴年间约生
+    death:
+      date: 1215-01-01
+      precision: year
+      is_circa: true
+      raw: 南宋嘉定年间约卒
+  birth_date: 1140-01-01
+  death_date: 1215-01-01
+  era: 南宋
+  reign_ref: 绍兴至嘉定
+  archetype: 三世业医集说传道者
+  dilemmas:
+  - 家学秘藏自守与刊布共众之抉择
+  - 博采众书兼收与精择去取之权衡
+  lesson: 三世之医不私其得博采千事以济沉疴存心公溥乃可传远
+  summary_first_person: 吾张杲字季明里中人也伯祖子充以医显京洛受学范忠宣祖与父继之吾善观书凡书及医者必记名曰医说欲满千事传诸人不敢以纸上得为己私分也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%B4.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E8%AF%B4.html
+endeavors:
+- id: guji-张杲-endeavor-1
+  title_zh: 博览群书辑集医说
+  description: 承三世家学善观书凡及医者必记立满千事之志分类成编
+  phases:
+  - key: brewing
+    name: 承家嗜读博览
+    labels:
+      zh: 酝酿积累
+    start_date: 1155-01-01
+    highlight_event_id: guji-张杲-event-collect
+  - key: breakthrough
+    name: 立记述之法始见又见
+    labels:
+      zh: 立志发端
+    start_date: 1175-01-01
+    highlight_event_id: guji-张杲-event-collect
+  - key: climax
+    name: 续得数百事渐成部帙
+    labels:
+      zh: 积渐成书
+    start_date: 1185-01-01
+    highlight_event_id: guji-张杲-event-preface
+  decisions:
+  - date: 1175-01-01
+    title_zh: 凡及医者必记
+    rationale: 以素问灵枢难经本草之外尚有背水之奇不可使散佚故随见随录
+  - date: 1185-01-01
+    title_zh: 欲满千事传人
+    rationale: 逮事其祖多异闻不以得自纸上者为己私分愿出与人共之
+- id: guji-张杲-endeavor-2
+  title_zh: 携稿谒请先梓传世
+  description: 书虽未成携过郢州请罗顼序引盛年肯出与人共之遂先梓行
+  phases:
+  - key: brewing
+    name: 携书过郢恳请作序
+    labels:
+      zh: 求序机缘
+    start_date: 1189-01-01
+    highlight_event_id: guji-张杲-event-preface
+  - key: climax
+    name: 罗顼嘉其存心作序冠首
+    labels:
+      zh: 得序增重
+    start_date: 1189-10-06
+    highlight_event_id: guji-张杲-event-preface
+  - key: closure
+    name: 未满千事先梓以勉后续
+    labels:
+      zh: 先梓传布
+    start_date: 1189-11-01
+    highlight_event_id: guji-张杲-event-preface
+  decisions:
+  - date: 1189-01-01
+    title_zh: 书未成而请先梓
+    rationale: 勉杲所未及之意早使有益于医不待满千而后传
+  - date: 1189-10-06
+    title_zh: 以三世源流质诸罗顼
+    rationale: 伯祖子充祖父相继源流深远藉当路显者一言以信于世
+events:
+- id: guji-张杲-event-birth
+  date: 1140-01-01
+  year_of: 1140
+  title_zh: 生于里中三世医家
+  description: 生于南宋绍兴年间伯祖子充以医显京洛祖父相继为三世之医
+- id: guji-张杲-event-collect
+  date: 1175-06-01
+  year_of: 1175
+  title_zh: 始辑医说随得随记
+  description: 善观书五经凡及医者必记始见云已得几事复见云近又得几事立满千事之志
+- id: guji-张杲-event-preface
+  date: 1189-11-04
+  year_of: 1189
+  title_zh: 携书谒罗顼得序先梓
+  description: 己酉岁十月携未成之书过郢州罗顼嘉其盛年著书肯与人共之遂书以冠医说之首而先梓之
+- id: guji-张杲-event-death
+  date: 1215-01-01
+  year_of: 1215
+  title_zh: 嘉定年间约卒
+  description: 卒于南宋嘉定年间所辑医说卷帙传行备载三皇历代名医与诸家效方
