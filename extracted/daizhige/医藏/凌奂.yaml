@@ -6,130 +6,129 @@ person:
     en: Ling Huan
   lifespan:
     birth:
-      date: 1820-01-01
+      date: 1805
       precision: year
       is_circa: true
-      raw: 清吴郡人约十九世纪初生
+      raw: 清嘉慶年間生
     death:
-      date: 1895-12-31
+      date: 1875
       precision: year
       is_circa: true
-      raw: 清末卒具体年月不详
-  birth_date: 1820-01-01
-  death_date: 1895-12-31
+      raw: 清同治後卒
+  birth_date: 1805
+  death_date: 1875
   era: 清
-  reign_ref: 清
-  archetype: 外科实证良医
+  reign_ref: 咸豐
+  archetype: 醫家
   dilemmas:
-  - 守秘则绝技湮没与公开则济众活人之抉择
-  - 冗于诊务救治眼前与抽暇著述惠及后世之两难
-  lesson: 学理以研究而愈明方剂以试用而的知开诚布公方能济世长存
-  summary_first_person: 余凌奂字晓五吴郡人也家藏医书万卷熟读精思舍短取长为人治病辄多奇效虽冗于诊务仍萃一生经验为方外奇方愿后之用者自知其妙
+  - title_zh: 知利不知害
+    description: 世醫但知某藥能除某病而不知閉邪歛邪之害恐失之毫釐謬以千里
+  - title_zh: 粗略信手與審慎辨證
+    description: 不先望聞問切而聽病家自述即寫藥數味與慎思明辨然後下筆之抉擇
+  lesson: 藥有利必有害必辨證明經絡虛實寒熱而後用君臣佐使方能起死回生
+  summary_first_person: 余吳興凌奂字曉五幼而體弱多病因閱方書棄諸子業從吳古年夫子游讀破萬卷講論錯謬業醫二十餘年慎思明辨補偏救弊集古今名醫之說撰成本草害利以明害利公諸同好
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%96%B9%E5%A4%96%E5%A5%87%E6%96%B9.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%96%E7%A7%91%E6%96%B9%E5%A4%96%E5%A5%87%E6%96%B9.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E5%AE%B3%E5%88%A9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E5%AE%B3%E5%88%A9.html
 endeavors:
 - id: guji-凌奂-endeavor-1
-  title_zh: 升降灵药研炼与方外奇方集成
-  summary: 研炼红升白降围药锭散萃一生外科经验成书
+  title_zh: 棄舉從醫師從吳古年
+  summary: 自書賈得烏鎮逸林僧遺書通閱軒岐仲聖注論後從吳古年研經臨症得用藥如用兵分隊之法
   phases:
   - key: brewing
-    name: 博览精思
+    name: 體弱閱方購得遺書
     labels:
-      zh:
-      - 博览
-      - 研炼
-    start_date: 1845-01-01
-    highlight_event_id: guji-凌奂-event-1
+      zh: 醞釀
+    start_date: 1820
+    highlight_event_id: guji-凌奂-event-birth
   - key: breakthrough
-    name: 炼丹得法
+    name: 棄諸子業從吳古年游
     labels:
-      zh:
-      - 升降丹
-    start_date: 1860-01-01
-    highlight_event_id: guji-凌奂-event-1
+      zh: 突破
+    start_date: 1835
+    highlight_event_id: guji-凌奂-event-study
   - key: climax
-    name: 奇效累验
+    name: 歷症二十年慎思明辨
     labels:
-      zh:
-      - 拔毒生肌
-    start_date: 1875-01-01
-    highlight_event_id: guji-凌奂-event-2
+      zh: 高峰
+    start_date: 1840
+    highlight_event_id: guji-凌奂-event-practice
   - key: closure
-    name: 集成奇方
+    name: 悟得分隊布陣用藥之道
     labels:
-      zh:
-      - 方外奇方
-    start_date: 1885-01-01
-    highlight_event_id: guji-凌奂-event-2
+      zh: 收束
+    start_date: 1860
+    highlight_event_id: guji-凌奂-event-practice
   decisions:
-  - date: 1860-01-01
-    title_zh: 不守秘而累试升降火候
-    rationale: 升降稍有绿烟走炉即无用惟屡试火候方能得洁白如霜之丹
-  - date: 1885-01-01
-    title_zh: 萃经验为方外奇方
-    rationale: 恐妙法神技终归湮没故以一生经验列方传世
+  - date: 1835
+    title_zh: 棄諸子業從吳古年游
+    rationale: 欲探本窮源讀破萬卷隨時就正恐苟且誤人性命故專師名醫講論達旦
+  - date: 1840
+    title_zh: 臨症必四診辨經用藥
+    rationale: 觀氣色聽聲音問病源切浮沉遲數以明虛實表裏寒熱然後定君臣佐使
 - id: guji-凌奂-endeavor-2
-  title_zh: 万卷舍短取长与临证著述薪传
-  summary: 家藏万卷熟读临证多效著述薪传惠后
+  title_zh: 集注本草害利成書
+  summary: 補吳氏分隊未刊之缺集各家本草補入藥之害於病者逐一加注更名本草害利於咸豐壬戌付梓
   phases:
   - key: brewing
-    name: 万卷熟读
+    name: 親嘗審識防偽充誤人
     labels:
-      zh:
-      - 万卷
-    start_date: 1840-01-01
-    highlight_event_id: guji-凌奂-event-1
+      zh: 醞釀
+    start_date: 1845
+    highlight_event_id: guji-凌奂-event-practice
   - key: breakthrough
-    name: 临证奇效
+    name: 得吳氏本草分隊稿本
     labels:
-      zh:
-      - 临证
-    start_date: 1855-01-01
-    highlight_event_id: guji-凌奂-event-1
+      zh: 突破
+    start_date: 1860
+    highlight_event_id: guji-凌奂-event-practice
   - key: climax
-    name: 薪传集方
+    name: 刪繁就簡撰述害利
     labels:
-      zh:
-      - 薪传
-    start_date: 1870-01-01
-    highlight_event_id: guji-凌奂-event-2
+      zh: 高峰
+    start_date: 1861
+    highlight_event_id: guji-凌奂-event-book
   - key: closure
-    name: 流传后世
+    name: 咸豐壬戌自序付剞劂
     labels:
-      zh:
-      - 流传
-    start_date: 1924-04-01
-    highlight_event_id: guji-凌奂-event-2
+      zh: 收束
+    start_date: 1862
+    highlight_event_id: guji-凌奂-event-book
   decisions:
-  - date: 1855-01-01
-    title_zh: 舍短取长为人治病
-    rationale: 遍读家藏舍短取长故临证辄多奇效
-  - date: 1870-01-01
-    title_zh: 冗务中仍著述薪传
-    rationale: 冗于诊务乏暇仍作医学薪传饲鹤亭集方凌临灵方本草害利等以惠后人
+  - date: 1861
+    title_zh: 補害更名為本草害利
+    rationale: 凡藥有利必有害但知其利如衝鋒罔顧其後故補害於病者以戒粗知大略信手下筆
+  - date: 1862
+    title_zh: 付梓公諸同好就正海內
+    rationale: 欲求同道知斷不可辨證不明枉折人命亦為慎疾之一端故不揣固陋刊行
 events:
 - id: guji-凌奂-event-birth
-  date: 1820-01-01
-  year_of: 1820
-  title_zh: 生于吴郡
-  description: 清代吴郡出生家学渊博藏书万卷之基
-  is_circa: true
-- id: guji-凌奂-event-1
-  date: 1860-01-01
-  year_of: 1860
-  title_zh: 研成大小红升白降诸丹
-  description: 以阳城罐百眼炉三炷香文武火炼成红升白降拔毒去腐生肌长肉
-  endeavor_ref: guji-凌奂-endeavor-1
-- id: guji-凌奂-event-2
-  date: 1885-01-01
-  year_of: 1885
-  title_zh: 萃成方外奇方凌临灵方等书
-  description: 萃一生经验成方外奇方及医学薪传饲鹤亭集方等冗于诊务仅成数种
-  endeavor_ref: guji-凌奂-endeavor-1
+  type: birth
+  title_zh: 吳興出生幼而體弱
+  date: 1805
+  year_of: 1805
+  description: 清嘉慶年間生於吳興自幼體弱多病因而思閱方書啟從醫之緣
+- id: guji-凌奂-event-study
+  type: career
+  title_zh: 從吳古年夫子游學
+  date: 1835
+  year_of: 1835
+  description: 棄諸子業從本郡吳古年游歷代名醫著述探本窮源昏黃達旦講論辨證之法
+- id: guji-凌奂-event-practice
+  type: career
+  title_zh: 業醫二十年慎思明辨
+  date: 1840
+  year_of: 1840
+  description: 臨症審脈辨證親嘗出產形狀氣味補偏救弊得臟腑如地理處方如布陣用藥如用兵之旨
+- id: guji-凌奂-event-book
+  type: career
+  title_zh: 咸豐壬戌撰成本草害利
+  date: 1862
+  year_of: 1862
+  description: 集古今名醫之說刪繁就簡於心肝脾肺腎分隊逐藥注害利修治咸豐壬戌自序刊行
 - id: guji-凌奂-event-death
-  date: 1895-12-31
-  year_of: 1895
-  title_zh: 清末卒于吴郡
-  description: 清末卒后哲嗣合刊薪传集方民国三三医书及珍本集成重刊方外奇方流传
-  is_circa: true
+  type: death
+  title_zh: 同治後卒
+  date: 1875
+  year_of: 1875
+  description: 刊本草害利後卒於清同治年間遺書以戒後學慎疾辨藥
