@@ -6,132 +6,158 @@ person:
     en: Huang Kaijun
   lifespan:
     birth:
-      date: 1753
+      date: 1820-01-01
       precision: year
       is_circa: true
-      raw: 嘉庆十七年壬申自记行医垂四十载年十九弃举业逆推
+      raw: 清嘉庆道光间嘉善人号退庵
     death:
-      date: 1820
+      date: 1890-01-01
       precision: year
       is_circa: true
-      raw: 生平止于甲戌序后卒年不详暂系嘉庆末道光初
-  birth_date: 1753
-  death_date: 1820
+      raw: 清光绪初
+  birth_date: 1820-01-01
+  death_date: 1890-01-01
   era: 清
-  reign_ref: 嘉庆
-  archetype: 隐逸良医
+  reign_ref: 道光咸丰同治光绪
+  archetype: 儒医辨药者
   dilemmas:
-  - 弃举业从岐黄功名与活人之辨
-  - 偏知著书覆瓿之讥与济世之志
-  lesson: 摄生以不伤为本医以究本穷源为要偏知亦可不误人
-  summary_first_person: 我少多疾十九岁先君辞世弃举业而习岐黄每遇难症翻书至夜必得要领初以药调治母疾得效家人多霍然遐迩来就岁无虚日垂四十载自问不误人乃辑医话八卷以摄生为首愿学人有所裨益知我罪我任之而已
+  - 参芪为上药有时亦能流弊蛇床为下品用当亦擅其长当如何权衡短长
+  - 时人倾资浪服贵参反致浮肿无济当如何劝其用的确当
+  lesson: 药如人才各有短长用当则少亦有功浪服则多亦无益
+  summary_first_person: 吾乃嘉善退庵黄凯钧也览神农本草至时珍纲目药味浩繁而性味所主学者昧于取舍故或据前人已言或本心得所辨参芪术草之宜忌辑为药笼小品冀汇通其意以助措手
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/友渔斋医话.md
-  - https://daizhige.org/医藏/友渔斋医话.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%8D%AF%E7%AC%BC%E5%B0%8F%E5%93%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%8D%AF%E7%AC%BC%E5%B0%8F%E5%93%81.html
 endeavors:
 - id: guji-黄凯钧-endeavor-1
-  title_zh: 弃举从医四十年临证活人
-  summary_zh: 年十九因父丧弃举业立志为医夜读穷源调治母疾取效遐迩延请垂四十载
+  person_id: guji-黄凯钧
+  title_zh: 辑著药笼小品辨群药性味
+  summary: 博览本草纲目辨参芪术草升降补泻之宜忌以贱显贵以偏补全成一家辨药之学
   phases:
   - key: brewing
-    name: 弃举涉猎岐黄
+    name: 蓄疑览本草
     labels:
-      zh: 立志
-    start_date: 1772
-    highlight_event_id: guji-黄凯钧-event-study-med
+      zh:
+      - 读神农本草
+      - 览纲目
+      - 蓄短长疑
+    start_date: 1850-01-01
+    highlight_event_id: guji-黄凯钧-event-zhuzuo
   - key: breakthrough
-    name: 调治母病奏效
+    name: 辨参芪得要
     labels:
-      zh: 初效
-    start_date: 1780
-    highlight_event_id: guji-黄凯钧-event-cure-mother
+      zh:
+      - 辨人参
+      - 辨黄芪白术
+      - 悟补土生金
+    start_date: 1860-01-01
+    highlight_event_id: guji-黄凯钧-event-zhuzuo
   - key: climax
-    name: 遐迩延就岁无虚日
+    name: 辑成药笼小品
     labels:
-      zh: 大信
-    start_date: 1790
-    highlight_event_id: guji-黄凯钧-event-famous
+      zh:
+      - 辑各论
+      - 明宜忌
+      - 付圈校
+    start_date: 1865-01-01
+    highlight_event_id: guji-黄凯钧-event-zhuzuo
   - key: closure
-    name: 垂四十载自问不误人
+    name: 付校流传
     labels:
-      zh: 自信
-    start_date: 1812
-    highlight_event_id: guji-黄凯钧-event-selfnote
+      zh:
+      - 鄞县圈校
+      - 序以传意
+      - 惠后学
+    start_date: 1870-01-01
+    highlight_event_id: guji-黄凯钧-event-zhuzuo
   decisions:
-  - date: 1772
-    title_zh: 弃举业习医
-    rationale: 慨世医养奸诛伐无过立志为医以活人
-  - date: 1780
-    title_zh: 以药物调治母疾
-    rationale: 择药所宜审虚实用药务求奏效以尽孝养
+  - date: 1860-06-01
+    title_zh: 以人才喻药性立辨药纲领
+    rationale: 尧舜善治而不如童子驱羊秦武举鼎而有绝脰之患故参芪虽贵不可滥恃蛇床虽贱用当则长当详辨宜忌以正浪服之弊
+  - date: 1865-03-01
+    title_zh: 详书人参产价变迁以戒虚耗
+    rationale: 国初大参易得今则价十倍而力薄见倾资服参反肿无济故备书记时价参力倡少用的当续以西党代之之法
 - id: guji-黄凯钧-endeavor-2
-  title_zh: 辑著友渔斋医话八卷
-  summary_zh: 集平生见闻成一览延龄橘旁杂论上池涓滴肘后偶钞证治指要药笼短剧六种八卷兼刻诗集十卷
+  person_id: guji-黄凯钧
+  title_zh: 临证治肺咳哮喘立三参玉屏之法
+  summary: 以补土生金固表之理治肺虚久咳哮喘创三参饮与玉屏风合异功为丸之验方
   phases:
   - key: brewing
-    name: 集见闻汇方论
+    name: 临证察肺虚
     labels:
-      zh: 积累
-    start_date: 1790
-    highlight_event_id: guji-黄凯钧-event-famous
+      zh:
+      - 察肺虚咳嗽
+      - 究补土生金
+      - 试异功散意
+    start_date: 1868-01-01
+    highlight_event_id: guji-黄凯钧-event-sancan
   - key: breakthrough
-    name: 以摄生为首成纲
+    name: 创三参饮获效
     labels:
-      zh: 立纲
-    start_date: 1810
-    highlight_event_id: guji-黄凯钧-event-selfnote
+      zh:
+      - 用党参元参北沙参
+      - 兼降气消痰
+      - 多获效
+    start_date: 1870-01-01
+    highlight_event_id: guji-黄凯钧-event-sancan
   - key: climax
-    name: 壬申花朝自记成书
+    name: 玉屏防哮复发
     labels:
-      zh: 成书
-    start_date: 1812
-    highlight_event_id: guji-黄凯钧-event-selfnote
+      zh:
+      - 玉屏风固表
+      - 合异功加杏苏
+      - 为丸令服
+    start_date: 1872-01-01
+    highlight_event_id: guji-黄凯钧-event-yuping
   - key: closure
-    name: 甲戌刘嗣绾序刊行
+    name: 笔之小品示人
     labels:
-      zh: 刊行
-    start_date: 1814
-    highlight_event_id: guji-黄凯钧-event-preface
+      zh:
+      - 记验于药条
+      - 示肺邪忌补
+      - 传后防发
+    start_date: 1875-01-01
+    highlight_event_id: guji-黄凯钧-event-yuping
   decisions:
-  - date: 1812
-    title_zh: 首辑摄生延龄
-    rationale: 凡人以摄生为第一故首述调摄胎育胎教以立命为原
-  - date: 1812
-    title_zh: 坚持刊布不惧讪诮
-    rationale: 知我者不至覆瓿不知者任其讪诮但求有裨学人不误后人
+  - date: 1870-08-01
+    title_zh: 定三参饮治肺虚咳嗽
+    rationale: 肺虚宜淡补忌邪滞用人参党参元参北沙参轻清润补兼降气消痰则土旺金生咳可平故立为常法并戒肺邪未清者勿施
+  - date: 1872-10-01
+    title_zh: 定玉屏合异功丸防哮喘
+    rationale: 哮喘愈后表虚易发用黄芪白术防风固表合异功补土加杏仁苏子降气为丸久服多致不发故以防为治示固本之意
 events:
 - id: guji-黄凯钧-event-birth
-  date: 1753
-  year_of: 1753
-  title_zh: 出生
-  description_zh: 约生于乾隆十八年前后阳湖人黄氏少多疾
-- id: guji-黄凯钧-event-study-med
-  date: 1772
-  year_of: 1772
-  title_zh: 父丧弃举学医
-  description_zh: 年十九先君辞世弃举业涉猎岐黄遇难症翻书至夜必得要领
-- id: guji-黄凯钧-event-cure-mother
-  date: 1785
-  year_of: 1785
-  title_zh: 治母疾奏效
-  description_zh: 母氏年衰择药调治奏效家人不适处方多霍然
-- id: guji-黄凯钧-event-famous
-  date: 1795
-  year_of: 1795
-  title_zh: 遐迩延请
-  description_zh: 遐迩延就岁无虚日推原究本渐有所获垂四十载
-- id: guji-黄凯钧-event-selfnote
-  date: 1812
-  year_of: 1812
-  title_zh: 壬申花朝自记成医话八卷
-  description_zh: 嘉庆十七年壬申花朝自记著医话六种八卷斋名仍旧并及诗集十卷
-- id: guji-黄凯钧-event-preface
-  date: 1814
-  year_of: 1814
-  title_zh: 刘嗣绾甲戌作序
-  description_zh: 甲戌春仲侄刘嗣绾为友渔斋医话作序称其艺通乎神良医良相
-- id: guji-黄凯钧-event-death
-  date: 1820
+  person_id: guji-黄凯钧
+  type: birth
+  date: 1820-01-01
   year_of: 1820
-  title_zh: 逝世
-  description_zh: 甲戌刊行后行迹不详约卒于嘉庆末道光初
+  title_zh: 生于嘉善
+  description: 清嘉庆道光间生于嘉善字号退庵少习儒而究心医药
+- id: guji-黄凯钧-event-zhuzuo
+  person_id: guji-黄凯钧
+  type: career
+  date: 1865-01-01
+  year_of: 1865
+  title_zh: 辑著药笼小品
+  description: 感纲目药繁用昧取舍乃辨人参党参芪术苍桔以迄地丁诸味之性味宜忌作序发明药如人才之意辑成药笼小品鄞县曹炳章圈校
+- id: guji-黄凯钧-event-sancan
+  person_id: guji-黄凯钧
+  type: career
+  date: 1870-06-01
+  year_of: 1870
+  title_zh: 创三参饮治肺虚咳
+  description: 治肺虚咳嗽用党参元参北沙参或加降气消痰名三参饮获效甚多并明天麻非真中风忌用元麦滞邪之戒
+- id: guji-黄凯钧-event-yuping
+  person_id: guji-黄凯钧
+  type: career
+  date: 1872-10-01
+  year_of: 1872
+  title_zh: 用玉屏风丸防哮喘复发
+  description: 哮喘愈后必用玉屏风合异功加杏仁苏子为丸令服多致不发发明黄芪补气固表兼补血及白术补土生金之义
+- id: guji-黄凯钧-event-death
+  person_id: guji-黄凯钧
+  type: death
+  date: 1890-01-01
+  year_of: 1890
+  title_zh: 卒于清光绪初
+  description: 既成药笼小品以辨药济世之志终卒后其书流传医藏为后人所取法
