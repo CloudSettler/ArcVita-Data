@@ -6,139 +6,123 @@ person:
     en: Cao Duan
   lifespan:
     birth:
-      date: '1376'
+      date: 1376
       precision: year
       is_circa: false
-      raw: 明洪武九年渑池
+      raw: 洪武九年
     death:
-      date: '1434'
+      date: 1434
       precision: year
       is_circa: false
-      raw: 明宣德九年
-  birth_date: '1376'
-  death_date: '1434'
+      raw: 宣德九年
+  birth_date: 1376
+  death_date: 1434
   era: 明
-  reign_ref: 明永乐至宣德
-  archetype: 静存躬行之醇儒
+  reign_ref: 永乐
+  archetype: 穷理笃行之儒
   dilemmas:
-  - 科举縻身与潜心玩理之取舍
-  - 从朱子注解成书与从语录仓卒应答之辨别
-  lesson: 以静存立体以躬行达用，守朱子成书辨语录之讹以正道传
-  summary_first_person: 我是渑池曹端，字正夫，号月川，成童业农弱而学儒，困于科举二十余年而后潜心玩理，以静存为要，读周子太极图说通书西铭而知道在是，讲授之际大书周说分布朱解以便初学，又辨语录太极动静之戾以归至当，愿后学不雷同附和而躬行实践以立人极
+  - 西铭文约义广初学难窥理一分殊之际
+  - 出仕设教与潜心著述难以两全
+  lesson: 以事亲之孝事天以存养之敬践形终至参赞化育
+  summary_first_person: 吾渑池曹端也分经布注以解西铭欲使初学者由分殊以达理一存心养性敬畏事天终身不敢懈也
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%AA%E6%9E%81%E5%9B%BE%E8%AF%B4%E8%BF%B0%E8%A7%A3.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E5%A4%AA%E6%9E%81%E5%9B%BE%E8%AF%B4%E8%BF%B0%E8%A7%A3.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E8%A5%BF%E9%93%AD%E8%BF%B0%E8%A7%A3.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E8%A5%BF%E9%93%AD%E8%BF%B0%E8%A7%A3.html
 endeavors:
 - id: guji-曹端-endeavor-1
-  title_zh: 静存躬行开明初理学
-  summary_zh: 由业农学儒脱流俗，经永乐举人授霍州蒲州学正，以静存为要教诸生，开薛瑄胡居仁之先
+  title_zh: 分经布注述解西铭
+  summary: 以理一分殊为纲分经布注发明乾父坤母民胞物与之义以阶初学
   phases:
   - key: brewing
-    name: 业农学儒脱流俗
+    name: 研读横渠考亭注说
     labels:
-      zh:
-      - 业农
-      - 学儒
-      - 潜心玩理
-    start_date: '1376'
+      zh: 酝酿
+    start_date: 1408
+    highlight_event_id: guji-曹端-event-juren
+  - key: breakthrough
+    name: 立理一分殊之纲
+    labels:
+      zh: 突破
+    start_date: 1425
+    highlight_event_id: guji-曹端-event-ximing
+  - key: climax
+    name: 分经布注述解成书
+    labels:
+      zh: 高潮
+    start_date: 1432
+    highlight_event_id: guji-曹端-event-ximing
+  - key: closure
+    name: 绪论流传后学刊梓
+    labels:
+      zh: 收束
+    start_date: 1434
+    highlight_event_id: guji-曹端-event-death
+  decisions:
+  - date: 1425
+    title_zh: 不依简奥旧说另为分经布注
+    rationale: 悯初学者不得朱注之说欲条分缕析以发所未发
+  - date: 1432
+    title_zh: 以孝子事亲比事天立说
+    rationale: 明尽性践形穷神知化皆归于敬畏存养以全归所受
+- id: guji-曹端-endeavor-2
+  title_zh: 霍州设教讲学明道
+  summary: 举人授霍州学正以太极图说西铭教士著述讲论传承濂洛关闽之学
+  phases:
+  - key: brewing
+    name: 渑池潜修穷理
+    labels:
+      zh: 酝酿
+    start_date: 1400
     highlight_event_id: guji-曹端-event-birth
   - key: breakthrough
-    name: 永乐举人授学正
+    name: 永乐举人授霍州学正
     labels:
-      zh:
-      - 举人
-      - 学正
-    start_date: '1408'
+      zh: 突破
+    start_date: 1408
     highlight_event_id: guji-曹端-event-juren
   - key: climax
-    name: 霍蒲讲授主静存
+    name: 霍州讲席大盛著述日富
     labels:
-      zh:
-      - 静存
-      - 躬行实践
-    start_date: '1415'
-    highlight_event_id: guji-曹端-event-teach
+      zh: 高潮
+    start_date: 1415
+    highlight_event_id: guji-曹端-event-juren
   - key: closure
-    name: 醇儒开先垂范
+    name: 学行传于乡里殁后从祀
     labels:
-      zh:
-      - 醇儒
-      - 开先
-    start_date: '1434'
+      zh: 收束
+    start_date: 1434
     highlight_event_id: guji-曹端-event-death
   decisions:
-  - date: '1408'
-    title_zh: 不溺科举潜心玩理
-    rationale: 縻于科举二十余年，自强后因故所学潜心玩理，坐下砖皆穿以求实践
-  - date: '1415'
-    title_zh: 以静存为要教诸生
-    rationale: 学务躬行实践，非此心寂然无欲而静则无以酬酢万变，故主敬存养以立人极
-- id: guji-曹端-endeavor-2
-  title_zh: 述解三书尊朱辨戾
-  summary_zh: 大书周说分布朱解作太极图说通书西铭述解，取注解舍语录，附辨戾诗赞以正传
-  phases:
-  - key: brewing
-    name: 得图说知晓道在是
-    labels:
-      zh:
-      - 太极图说
-      - 通书西铭
-    start_date: '1415'
-    highlight_event_id: guji-曹端-event-teach
-  - key: breakthrough
-    name: 讲授分布朱解
-    labels:
-      zh:
-      - 述解
-      - 便初学
-    start_date: '1425'
-    highlight_event_id: guji-曹端-event-teach
-  - key: climax
-    name: 宣德序书辨语录之戾
-    labels:
-      zh:
-      - 尊注解
-      - 辨语录
-    start_date: '1428'
-    highlight_event_id: guji-曹端-event-zhushu
-  - key: closure
-    name: 合刻三书垂后学
-    labels:
-      zh:
-      - 述解
-      - 正传
-    start_date: '1434'
-    highlight_event_id: guji-曹端-event-death
-  decisions:
-  - date: '1428'
-    title_zh: 舍语录而守注解
-    rationale: 注解出朱子之手为成书至当归一，语录乃门人所记讲究未定仓卒应答百得一失，故弃顽石取良玉
-  - date: '1428'
-    title_zh: 作序附辨戾诗赞
-    rationale: 太极不自生动静一段语录与注解互异，恐后学雷同附和，故考定其说附于卷末以就有道
+  - date: 1408
+    title_zh: 就霍州学正不求显宦
+    rationale: 欲以师道设教化导士子守穷理笃行之志
+  - date: 1415
+    title_zh: 以月川语录太极诸说并进而教
+    rationale: 欲使学者眼界空阔而功夫精到由西铭达于中和位育
 events:
 - id: guji-曹端-event-birth
-  date: '1376'
+  title_zh: 生于河南渑池
+  date: 1376
   year_of: 1376
-  title_zh: 生于渑池
-  description_zh: 明洪武九年生于渑池，字正夫，号月川，成童业农弱而学儒
+  type: birth
+  description: 洪武九年生于渑池曹氏家世业儒少即笃志圣贤之学
 - id: guji-曹端-event-juren
-  date: '1408'
+  title_zh: 永乐举人授霍州学正
+  date: 1408
   year_of: 1408
-  title_zh: 永乐戊子举人
-  description_zh: 永乐六年戊子举于乡，授霍州学正，后改蒲州学正，事迹具明史儒林传
-- id: guji-曹端-event-teach
-  date: '1415'
-  year_of: 1415
-  title_zh: 霍蒲讲授倡静存
-  description_zh: 在霍州蒲州讲授太极图说通书西铭，以躬行实践静存为要，学者称月川先生
-- id: guji-曹端-event-zhushu
-  date: '1428'
-  year_of: 1428
-  title_zh: 宣德戊申作述解序
-  description_zh: 宣德三年三月作太极图说述解原序，大书周说分布朱解，附辨戾一条及诗赞于卷末，论无极太极理气不离不杂
+  type: career
+  description: 永乐六年举于乡授山西霍州学正设教讲学以理学化导士子
+  endeavor_ref: guji-曹端-endeavor-2
+- id: guji-曹端-event-ximing
+  title_zh: 述解西铭成书
+  date: 1432
+  year_of: 1432
+  type: career
+  description: 分经布注发明乾称父坤称母民胞物与践形知化穷神继志之义以明理一分殊
+  endeavor_ref: guji-曹端-endeavor-1
 - id: guji-曹端-event-death
-  date: '1434'
+  title_zh: 卒于霍州任上
+  date: 1434
   year_of: 1434
-  title_zh: 卒为明初醇儒之首
-  description_zh: 明宣德九年卒，明代醇儒以曹端胡居仁薛瑄为最而端开二人之先，后张燝合刻三书黎尧卿作跋传世
+  type: death
+  description: 宣德九年卒于官门人私谥后学刊其西铭述解以传

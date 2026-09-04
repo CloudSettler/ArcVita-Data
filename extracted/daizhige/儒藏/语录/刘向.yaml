@@ -6,134 +6,127 @@ person:
     en: Liu Xiang
   lifespan:
     birth:
-      date: '-77'
+      date: '-0077'
       precision: year
       is_circa: true
-      raw: 汉昭帝元凤年间约前七十七年
+      raw: 约前77年
     death:
-      date: '-6'
+      date: '-0006'
       precision: year
       is_circa: false
-      raw: 汉哀帝建平元年前六年
-  birth_date: '-77'
-  death_date: '-6'
+      raw: 前6年
+  birth_date: '-0077'
+  death_date: '-0006'
   era: 西汉
-  reign_ref: 汉成帝
-  archetype: 校书直谏之博学大儒
+  reign_ref: 汉宣帝至汉成帝
+  archetype: 校书鸿儒与匡君谏臣
   dilemmas:
-  - 直谏犯讳而冀君悟道
-  - 校书守正而对俗学流言
-  lesson: 采集古事以明劝戒，守忠秉直以传信后世
-  summary_first_person: 吾少好诵诗读书，典校中书，览传记行事，采善恶成败，著新序以劝戒人君，愿后世知忠孝仁义之可法也
+  - 直谏尽忠则身陷危狱，缄默保身则负经术与宗室之责
+  - 校书守真则功缓而多阻，迎合权贵则速显而失大道
+  lesson: 以校雠明道，以讽谏存君，守敬慎忠信以成一家之言
+  summary_first_person: 吾本楚元王之后，少好文辞，通谷梁春秋，由谏大夫历中垒校尉，领校中秘书，校经传诸子诗赋，著别录以辨章学术，又集古圣贤嘉言善行撰新序说苑列女传以劝戒人君，愿明君道之体要也
   source_urls:
-  - https://ctext.org/wiki.pl?if=gb&res=603372
-  - https://daizhige.org/儒藏/语录/新序.html
+  - https://daizhige.org/儒藏/语录/说苑.html
+  - https://ctext.org/shuo-yuan
 endeavors:
 - id: guji-刘向-endeavor-1
-  title_zh: 典校中秘书撰别录
-  summary_zh: 奉诏校理中秘书，分别部居，撰成别录，开目录学之先
+  title_zh: 领校中秘书辨章学术
+  summary: 河平受诏领校秘书，与子歆等校雠经传诸子诗赋，著别录七略之基，以正文字去伪存真
   phases:
   - key: brewing
-    name: 少好学问博通经术
+    name: 少好经术博览群书
     labels:
-      zh:
-      - 求学
-    start_date: '-60'
-    highlight_event_id: guji-刘向-event-birth
+      zh: 好学
+    start_date: '-0060'
+    highlight_event_id: guji-刘向-event-jianyi
   - key: breakthrough
-    name: 奉诏校书中秘
+    name: 受诏领校中秘书
     labels:
-      zh:
-      - 校书
-    start_date: '-26'
-    highlight_event_id: guji-刘向-event-collate
+      zh: 校书
+    start_date: '-0026'
+    highlight_event_id: guji-刘向-event-jiaoshu
   - key: climax
-    name: 别录成书部居分明
+    name: 校定经传著别录
     labels:
-      zh:
-      - 成书
-    start_date: '-25'
-    highlight_event_id: guji-刘向-event-collate
+      zh: 定典
+    start_date: '-0023'
+    highlight_event_id: guji-刘向-event-jiaoshu
   - key: closure
-    name: 七略体系奠基后学
+    name: 学成一家垂法后世
     labels:
-      zh:
-      - 传承
-    start_date: '-23'
-    highlight_event_id: guji-刘向-event-xinxu
+      zh: 传学
+    start_date: '-0006'
+    highlight_event_id: guji-刘向-event-death
   decisions:
-  - date: '-26'
-    title_zh: 受诏专心校雠不避劳怨
-    rationale: 中秘散乱非校理不明学术，故甘守寂寞以正典籍
+  - date: '-0026'
+    title_zh: 上别录以辨章学术
+    rationale: 中秘散乱文字谬误，欲正经传去伪存真以明大道之统
+  - date: '-0023'
+    title_zh: 条奏经义立学官议
+    rationale: 以校雠得失考古今之变，欲尊经重道以定治国之本
 - id: guji-刘向-endeavor-2
-  title_zh: 采传记著新序讽谏
-  summary_zh: 采集经传行事，分类为杂事义理，以古兴亡讽谏成帝
+  title_zh: 忠谏匡君编撰说苑
+  summary: 以宗室谏臣上封事论灾异得失，又集经传贤臣事迹撰说苑新序以讽谏，使人君观览得失
   phases:
   - key: brewing
-    name: 采集古事分类纂辑
+    name: 为谏大夫上封事
     labels:
-      zh:
-      - 纂辑
-    start_date: '-26'
-    highlight_event_id: guji-刘向-event-collate
+      zh: 谏诤
+    start_date: -0048
+    highlight_event_id: guji-刘向-event-jianyi
   - key: breakthrough
-    name: 新序成篇奏御
+    name: 下狱免官复进用
     labels:
-      zh:
-      - 奏书
-    start_date: '-24'
-    highlight_event_id: guji-刘向-event-xinxu
+      zh: 守节
+    start_date: '-0033'
+    highlight_event_id: guji-刘向-event-jiaoshu
   - key: climax
-    name: 以舜孝祁奚公谏君德
+    name: 集古事成说苑进上
     labels:
-      zh:
-      - 讽谏
-    start_date: '-20'
-    highlight_event_id: guji-刘向-event-admonish
+      zh: 成书
+    start_date: '-0017'
+    highlight_event_id: guji-刘向-event-shuoyuan
   - key: closure
-    name: 说苑列女相继传世
+    name: 以讽谏之书托后王
     labels:
-      zh:
-      - 传世
-    start_date: '-18'
-    highlight_event_id: guji-刘向-event-admonish
+      zh: 垂戒
+    start_date: '-0006'
+    highlight_event_id: guji-刘向-event-death
   decisions:
-  - date: '-24'
-    title_zh: 以古劝今直陈得失
-    rationale: 人君不闻其过则几于亡，故引舜禹汤文之事以明忠孝
+  - date: -0048
+    title_zh: 上谏论灾异封事
+    rationale: 见汉政失德灾异屡见，欲以天戒匡正君心使改过从善
+  - date: '-0017'
+    title_zh: 集古事撰说苑以讽谏
+    rationale: 取经传贤臣嘉言善行分类编次，使人君便览得失而不逆耳
 events:
 - id: guji-刘向-event-birth
-  type: birth
-  title_zh: 刘向诞生
-  date: '-77'
+  title_zh: 出生于沛郡丰邑
+  date: '-0077'
   year_of: -77
-  place_zh: 沛郡丰邑
-  description_zh: 汉宗室楚元王之后，字子政，本名更生，少好学问
-- id: guji-刘向-event-collate
-  type: career
-  title_zh: 奉诏校理中秘书
-  date: '-26'
+  kind: birth
+  description: 楚元王刘交之后，约生于汉昭帝年间，少好文辞通谷梁春秋
+- id: guji-刘向-event-jianyi
+  title_zh: 为谏大夫上封事论政
+  date: -0048
+  year_of: -48
+  kind: career
+  description: 以宗室才学为谏大夫给事中，上封事论灾异得失赏罚之要，极言君道在任贤纳谏
+- id: guji-刘向-event-jiaoshu
+  title_zh: 领校中秘书校雠群书
+  date: '-0026'
   year_of: -26
-  place_zh: 长安天禄阁
-  description_zh: 与陈农刘歆等校经传诸子诗赋，刊正脱误，撰别录
-- id: guji-刘向-event-xinxu
-  type: career
-  title_zh: 撰成新序三十篇奏上
-  date: '-24'
-  year_of: -24
-  place_zh: 长安
-  description_zh: 采集史游之事，分为杂事刺戒节士义礼善谋等章，以讽戒成帝
-- id: guji-刘向-event-admonish
-  type: career
-  title_zh: 上封事论灾异明得失
-  date: '-18'
-  year_of: -18
-  place_zh: 长安
-  description_zh: 屡引古兴亡论外戚专权，言至道不明则国危，冀君觉悟
+  kind: career
+  description: 汉成帝河平三年领校中秘书，与歆等校经传诸子诗赋，著别录以辨章学术考镜源流
+- id: guji-刘向-event-shuoyuan
+  title_zh: 编成说苑新序进上
+  date: '-0017'
+  year_of: -17
+  kind: career
+  description: 取传记古事分类编次成新序说苑列女传等凡数十篇，进上以备览观劝戒，明君道治乱之迹
 - id: guji-刘向-event-death
-  type: death
-  title_zh: 刘向卒于任上
-  date: '-6'
+  title_zh: 卒于长安
+  date: '-0006'
   year_of: -6
-  place_zh: 长安
-  description_zh: 终任中垒校尉，一生校书著述，子歆继成七略
+  kind: death
+  description: 卒于任上，所校群书所撰讽谏之书为汉学目录之宗，垂法后世
