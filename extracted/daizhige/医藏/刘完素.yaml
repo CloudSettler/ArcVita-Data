@@ -2,151 +2,116 @@ person:
   qid: guji-刘完素
   name_zh: 刘完素
   names:
-    zh: 刘守真
+    zh: 刘完素
     en: Liu Wansu
   lifespan:
     birth:
       date: '1110'
       precision: year
       is_circa: true
-      raw: 约1110年
+      raw: 大观四年左右河间
     death:
-      date: '1193'
+      date: '1200'
       precision: year
       is_circa: true
-      raw: 约1193年
+      raw: 承安五年左右
   birth_date: '1110'
-  death_date: '1193'
+  death_date: '1200'
   era: 金代
   reign_ref: 金世宗大定
-  archetype: 寒凉开宗之医师
+  archetype: 寒凉派宗师
   dilemmas:
-  - 众医崇尚温燥而时病多火热当从寒解还是从俗用温
-  - 立运气新说易遭非议当独守真见还是隐忍不言
-  lesson: 审病机察标本以寒凉救时弊执一方必害人
-  summary_first_person: 吾乃河间刘守真也深研素问运气倡火热之论以寒凉救世著书传心愿后人识标本而活人无算
+  - 伤寒当从火热通论还是寒热分论
+  - 尊仲景而如何正活人书以阴阳为寒热之误
+  - 世人喜温恶寒而力主寒凉是否招疑谤
+  lesson: 明六气火热为本以寒凉汗下救世革温补之偏
+  summary_first_person: 吾守真河间人也深明素问造化阴阳之理谓伤寒六经自浅至深皆是热证前三日汗之后三日下之著直格宣明以正医流之惑虽世喜温恶寒吾不忍无言
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20
-  - https://ctext.org
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%9B%B4%E6%A0%BC%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E7%9B%B4%E6%A0%BC%E6%96%B9.html
+  - https://kanripo.org/text/KR3e0049/WYG
 endeavors:
 - id: guji-刘完素-endeavor-1
-  title_zh: 开创河间寒凉学派
-  summary_zh: 研运气倡主火论革温燥旧习以寒凉治热病
+  title_zh: 阐发素问开寒凉一派
+  summary_zh: 研素问运气之学立六气皆从火化之说主伤寒皆热以寒凉为治
   phases:
   - key: brewing
-    name: 少习儒业转研医经
+    name: 研读素问明阴阳造化
     labels:
-      zh:
-      - 运气酝酿
-    start_date: '1135'
-    highlight_event_id: guji-刘完素-event-study
+      zh: 读经明理
+    start_date: '1140'
+    highlight_event_id: guji-刘完素-event-theory
   - key: breakthrough
-    name: 悟主火论名噪河间
+    name: 立火热论破温补旧说
     labels:
-      zh:
-      - 寒凉初立
-    start_date: '1162'
-    highlight_event_id: guji-刘完素-event-practice
-  - key: climax
-    name: 宗气运授徒传法
-    labels:
-      zh:
-      - 宗派大显
-    start_date: '1172'
-    highlight_event_id: guji-刘完素-event-teach
-  - key: closure
-    name: 学说垂范后世
-    labels:
-      zh:
-      - 影响深远
-    start_date: '1190'
-    highlight_event_id: guji-刘完素-event-death
-  decisions:
-  - date: '1155'
-    title_zh: 弃儒习医专攻素问
-    rationale: 见运气之理可推病机欲以医济世故转业
-  - date: '1165'
-    title_zh: 弃温从凉力倡寒凉
-    rationale: 见时医滥用温燥致热病益甚故主以清凉折热
-- id: guji-刘完素-endeavor-2
-  title_zh: 著述伤寒标本心法类萃济世
-  summary_zh: 类萃伤寒标本诸证推行双解通圣平和之法
-  phases:
-  - key: brewing
-    name: 博览仲景伤寒诸家
-    labels:
-      zh:
-      - 蒐集类纂
+      zh: 立论破惑
     start_date: '1168'
-    highlight_event_id: guji-刘完素-event-practice
-  - key: breakthrough
-    name: 制双解通圣等新方
-    labels:
-      zh:
-      - 制方创新
-    start_date: '1175'
-    highlight_event_id: guji-刘完素-event-formula
+    highlight_event_id: guji-刘完素-event-theory
   - key: climax
-    name: 撰成心法类萃成书
+    name: 河间行医寒凉取效
     labels:
-      zh:
-      - 著书立言
-    start_date: '1182'
-    highlight_event_id: guji-刘完素-event-writing
-  - key: closure
-    name: 书行天下后学宗之
-    labels:
-      zh:
-      - 传布天下
-    start_date: '1190'
-    highlight_event_id: guji-刘完素-event-death
+      zh: 临床验证
+    start_date: '1175'
+    highlight_event_id: guji-刘完素-event-practice
   decisions:
+  - date: '1168'
+    title_zh: 断伤寒六经皆热不用温补
+    rationale: 经言人伤于寒则为病热六经传受自浅至深皆热证非有阴寒故舍温从凉
   - date: '1175'
-    title_zh: 以双解散通治表里
-    rationale: 为免桂麻误用伤正故立平和通解以全表里
-  - date: '1182'
-    title_zh: 以标本心法类萃众证
-    rationale: 欲使后人一展卷而表里寒热了然故分门类萃
+    title_zh: 以汗下寒凉分治表里
+    rationale: 前三日在表汗之则愈后三日入里下之则痊表里缓急分明则生死可全
+- id: guji-刘完素-endeavor-2
+  title_zh: 编撰宣明直格传伤寒心法
+  summary_zh: 集伤寒杂病脉证方论为宣明论直格方标本心法以诏后学
+  phases:
+  - key: brewing
+    name: 集医方精要分类脉证
+    labels:
+      zh: 采集方论
+    start_date: '1172'
+    highlight_event_id: guji-刘完素-event-book
+  - key: breakthrough
+    name: 著宣明论伤寒二卷
+    labels:
+      zh: 著书立说
+    start_date: '1186'
+    highlight_event_id: guji-刘完素-event-book
+  - key: closure
+    name: 直格心法经后人编传广行
+    labels:
+      zh: 流传后世
+    start_date: '1196'
+    highlight_event_id: guji-刘完素-event-book
+  decisions:
+  - date: '1186'
+    title_zh: 集切要药方六十道分六门名直格
+    rationale: 欲使习医者执简驭繁临证有格故以方配运气病机直截痛快
+  - date: '1196'
+    title_zh: 托书坊刊梓以广其传
+    rationale: 恐论者不详反生疑谤故借明灯巨火喻直格使聪明博雅者原始反终
 events:
 - id: guji-刘完素-event-birth
-  title_zh: 出生于河间
+  title_zh: 生于河间
   date: '1110'
   year_of: 1110
-  place_zh: 河间
-  description: 刘完素生于河间世家少聪慧好医经为后世寒凉宗祖
-- id: guji-刘完素-event-study
-  title_zh: 研习素问运气之学
-  date: '1150'
-  year_of: 1150
-  place_zh: 河间
-  description: 潜心素问玄机运气病机五运六气之理悟火热为病之本
+  description_zh: 大观年间生于河间自幼聪慧慕素问灵枢之学后以字守真行世
+- id: guji-刘完素-event-theory
+  title_zh: 悟伤寒皆热阐六气病机
+  date: '1168'
+  year_of: 1168
+  description_zh: 深明素问造化阴阳谓朱肱活人书以阴阳为寒热失仲景本意力言伤寒为大热之病六经皆热
 - id: guji-刘完素-event-practice
-  title_zh: 行医河间以寒凉获效
-  date: '1165'
-  year_of: 1165
-  place_zh: 河间
-  description: 以白虎凉膈天水等寒凉之剂治伤寒温热大效名声大振
-- id: guji-刘完素-event-formula
-  title_zh: 创制防风通圣双解等方
+  title_zh: 河间行医寒凉活人
   date: '1175'
   year_of: 1175
-  place_zh: 河间
-  description: 融表里之法治伤风伤寒暑湿创作通圣双解行于世
-- id: guji-刘完素-event-teach
-  title_zh: 授徒讲运气主火之旨
-  date: '1178'
-  year_of: 1178
-  place_zh: 河间
-  description: 聚徒讲论素问病机气宜保命全形等篇门人多有传述
-- id: guji-刘完素-event-writing
-  title_zh: 撰成伤寒标本心法类萃
-  date: '1185'
-  year_of: 1185
-  place_zh: 河间
-  description: 分伤风伤寒暑湿表里汗下诸门类萃成编并传素问玄机原病式等
+  description_zh: 于河间以双解散益元散等寒凉之剂治表里热证辨表里缓急全活甚众遂称刘河间
+- id: guji-刘完素-event-book
+  title_zh: 成宣明论直格伤寒心法
+  date: '1186'
+  year_of: 1186
+  description_zh: 集平生经验成素问病机气宜保命集宣明论方及伤寒直格方标本心法类萃授门人葛雍辈编次刊行
 - id: guji-刘完素-event-death
-  title_zh: 逝世
-  date: '1193'
-  year_of: 1193
-  place_zh: 河间
-  description: 年逾八旬而终门人私谥河间先生寒凉之教垂于后世
+  title_zh: 卒于金承安年间
+  date: '1200'
+  year_of: 1200
+  description_zh: 晚年德望益隆学者云集卒后寒凉之学经张从正李东垣传扬为金元四大家之首
