@@ -1,0 +1,129 @@
+person:
+  qid: guji-周兴嗣
+  name_zh: 周兴嗣
+  names:
+    zh: 周兴嗣
+    en: Zhou Xingsi
+  lifespan:
+    birth:
+      date: 312
+      precision: year
+      is_circa: true
+      raw: 南朝宋泰始六年左右生于陈郡项
+    death:
+      date: 337
+      precision: year
+      is_circa: false
+      raw: 梁普通二年卒
+  birth_date: 312
+  death_date: 337
+  era: 南朝梁
+  reign_ref: 梁武帝萧衍时
+  archetype: 宫廷文翰启蒙之士
+  dilemmas:
+  - 一夜奉敕次韵以成千字文耗竭心力与恪尽臣职之间两难
+  - 寒门跻身华要守真安分与进取显达之间两难
+  lesson: 秉勤慎之心成启蒙之业则一字一句皆可泽被千载
+  summary_first_person: 吾周兴嗣字思纂陈郡项人也少善属文梁武帝朝供奉文翰奉敕次王羲之书为千字文一夕而成须发尽白后历给事中等职领著作以勤慎终吾愿以文字启童蒙以德义正人心也
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%8D%83%E5%AD%97%E6%96%87.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E5%8D%83%E5%AD%97%E6%96%87.md
+endeavors:
+- id: guji-周兴嗣-endeavor-1
+  title_zh: 奉敕编次千字文
+  summary: 摘王羲之书千字次韵成文以启蒙学
+  phases:
+  - key: brewing
+    name: 积学供奉内廷
+    labels:
+      zh: 文翰积累
+    start_date: 320
+    highlight_event_id: guji-周兴嗣-event-service
+  - key: breakthrough
+    name: 受命次韵千字
+    labels:
+      zh: 奉敕创制
+    start_date: 324
+    highlight_event_id: guji-周兴嗣-event-qianziwen
+  - key: climax
+    name: 一夕成文须发尽白
+    labels:
+      zh: 竭力成书
+    start_date: 324
+    highlight_event_id: guji-周兴嗣-event-qianziwen
+  - key: closure
+    name: 千字文传诵天下
+    labels:
+      zh: 蒙学定型
+    start_date: 325
+    highlight_event_id: guji-周兴嗣-event-qianziwen
+  decisions:
+  - date: 324
+    title_zh: 奉敕不辞劳瘁一夕次韵
+    rationale: 武帝命次王书以训童蒙不敢稽延故竭精毕力以成其体
+- id: guji-周兴嗣-endeavor-2
+  title_zh: 历官梁廷修史著文
+  summary: 历散骑著作等职参与国史编修以文显名
+  phases:
+  - key: brewing
+    name: 早年力学善属文
+    labels:
+      zh: 寒门力学
+    start_date: 0485
+    highlight_event_id: guji-周兴嗣-event-birth
+  - key: breakthrough
+    name: 入梁供奉文翰
+    labels:
+      zh: 入仕梁廷
+    start_date: 322
+    highlight_event_id: guji-周兴嗣-event-service
+  - key: climax
+    name: 领著作撰梁史著文集
+    labels:
+      zh: 史馆著述
+    start_date: 328
+    highlight_event_id: guji-周兴嗣-event-history
+  - key: closure
+    name: 以清白勤慎终于官
+    labels:
+      zh: 善终全名
+    start_date: 337
+    highlight_event_id: guji-周兴嗣-event-death
+  decisions:
+  - date: 328
+    title_zh: 安于著作潜心修史
+    rationale: 不慕权要愿以笔墨存一代典章故守史馆尽心编次
+  - date: 0518
+    title_zh: 病中仍以劝学为念
+    rationale: 深知蒙学养正关系风俗故以千字文流传为慰不求荣利
+events:
+- id: guji-周兴嗣-event-birth
+  date: 312
+  year_of: 470
+  type: birth
+  title_zh: 生于陈郡项
+  description: 南朝宋泰始年间生于陈郡项少聪敏好学善属文
+- id: guji-周兴嗣-event-qianziwen
+  date: 324
+  year_of: 504
+  type: achievement
+  title_zh: 奉敕编次千字文成
+  description: 梁武帝取王羲之书千字命次韵为文一夕而成须发皆白遂为童蒙传诵之经典
+- id: guji-周兴嗣-event-service
+  date: 326
+  year_of: 506
+  type: appointment
+  title_zh: 历任给事中散骑侍郎
+  description: 以文才见知历员外散骑侍郎给事中通直散骑侍郎等职供奉文翰
+- id: guji-周兴嗣-event-history
+  date: 328
+  year_of: 510
+  type: achievement
+  title_zh: 领著作修史著文
+  description: 领著作郎参修国史著有文集及千字文等传于世以清勤见称
+- id: guji-周兴嗣-event-death
+  date: 337
+  year_of: 521
+  type: death
+  title_zh: 卒于梁普通二年
+  description: 以勤慎供职终于梁普通二年时人惜其才学以千字文永怀之

@@ -1,0 +1,126 @@
+person:
+  qid: guji-王令
+  name_zh: 王令
+  names:
+    zh: 王令
+    en: Wang Ling
+  lifespan:
+    birth:
+      date: '1032'
+      precision: year
+      is_circa: false
+      raw: 宋仁宗明道元年
+    death:
+      date: '1059'
+      precision: year
+      is_circa: false
+      raw: 宋仁宗嘉祐四年
+  birth_date: '1032'
+  death_date: '1059'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 孤介才士
+  dilemmas:
+  - 才高志大而身弱命短求立言以不朽
+  - 师从荆公而耻为附庸求自立以明道
+  lesson: 以简驭繁使蒙童可知劝戒以志养气使短生亦能立言垂后
+  summary_first_person: 吾少孤力学从叔父荆公治经不求闻达惟以史义淑人作十七史蒙求以四言韵语括历代忠贤善恶兴亡之迹欲使童子诵之即知向背也
+  source_urls:
+  - https://daizhige.org/儒藏/启蒙蒙学/十七史蒙求.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/启蒙蒙学/十七史蒙求.md
+endeavors:
+- id: guji-王令-endeavor-1
+  title_zh: 从学荆公治经求道
+  summary: 少年孤贫依王安石力学经史诗文自立不肯随俗干禄
+  phases:
+  - key: brewing
+    name: 孤贫力学
+    labels:
+      zh: 发愤读书
+    start_date: '1040'
+    highlight_event_id: guji-王令-event-birth
+  - key: breakthrough
+    name: 从荆公学
+    labels:
+      zh: 师友讲摩
+    start_date: '1050'
+    highlight_event_id: guji-王令-event-study
+  - key: climax
+    name: 诗文自立
+    labels:
+      zh: 名动京洛
+    start_date: '1055'
+    highlight_event_id: guji-王令-event-compose
+  - key: closure
+    name: 守道不仕
+    labels:
+      zh: 安贫乐道
+    start_date: '1058'
+    highlight_event_id: guji-王令-event-death
+  decisions:
+  - date: '1050'
+    title_zh: 决意从王安石治经
+    rationale: 不慕科举虚文欲明圣贤大义以经术自立
+  - date: '1058'
+    title_zh: 辞聘不仕专意著述
+    rationale: 身弱多病不堪吏事不如以文章训蒙垂教于后
+- id: guji-王令-endeavor-2
+  title_zh: 撰述十七史蒙求
+  summary: 取十七史人物善恶事迹编为四言韵语以便蒙童诵习知史
+  phases:
+  - key: brewing
+    name: 博览十七史
+    labels:
+      zh: 通贯史籍
+    start_date: '1050'
+    highlight_event_id: guji-王令-event-study
+  - key: breakthrough
+    name: 立意训蒙
+    labels:
+      zh: 以韵括史
+    start_date: '1054'
+    highlight_event_id: guji-王令-event-compose
+  - key: climax
+    name: 成书十六卷
+    labels:
+      zh: 蒙求告成
+    start_date: '1056'
+    highlight_event_id: guji-王令-event-compose
+  - key: closure
+    name: 流传后学
+    labels:
+      zh: 启蒙垂范
+    start_date: '1059'
+    highlight_event_id: guji-王令-event-death
+  decisions:
+  - date: '1054'
+    title_zh: 决以四言对偶括史事
+    rationale: 蒙童难读长史欲以简语韵语使之易诵易记即知劝戒
+  - date: '1056'
+    title_zh: 兼采善恶以示褒贬
+    rationale: 史不徒记事欲使童子知忠奸贤否之辨立心有则
+events:
+- id: guji-王令-event-birth
+  date: '1032'
+  year_of: 1032
+  title_zh: 生于广陵
+  description: 宋仁宗明道元年生少孤贫依叔父生活力学自奋
+  type: birth
+- id: guji-王令-event-study
+  date: '1050'
+  year_of: 1050
+  title_zh: 从王安石治经
+  description: 往从王安石受学讨论经义诗文大进名声始显于士林
+  type: career
+- id: guji-王令-event-compose
+  date: '1056'
+  year_of: 1056
+  title_zh: 撰成十七史蒙求
+  description: 采十七史人物事迹编为四言韵语凡十六卷以训蒙童
+  type: career
+- id: guji-王令-event-death
+  date: '1059'
+  year_of: 1059
+  title_zh: 卒于京师
+  description: 宋仁宗嘉祐四年卒年二十八著述存广陵集及蒙求行于世
+  type: death
