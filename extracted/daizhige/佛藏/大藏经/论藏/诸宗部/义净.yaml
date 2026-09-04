@@ -9,119 +9,157 @@ person:
       date: '0635'
       precision: year
       is_circa: false
-      raw: 唐贞观九年生于齐州历城
+      raw: 唐贞观九年
     death:
       date: '0713'
       precision: year
       is_circa: false
-      raw: 唐开元元年圆寂于长安
+      raw: 唐先天二年
   birth_date: '0635'
   death_date: '0713'
-  era: 唐代
-  reign_ref: 唐高宗至唐玄宗时
-  archetype: 西行求法译经律师
+  era: 唐
+  reign_ref: 贞观至先天
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 持律精严与中土习俗简略难合
-  - 口腹一时之便与长劫业报难择
-  lesson: 护律在微细三水净触不可忽善护浮囊防其微隙
-  summary_first_person: 吾义净幼慕西游历南海二十余年亲见三水净法归而译律著书愿与行人共护圣教令佛法久住
+  - title_zh: 陆路阻隔与海路风险
+    description: 西行求法陆路艰阻海路更险当以身殉法抑或安守东夏
+  - title_zh: 戒律细行与中土习俗
+    description: 滤水护生为佛制要仪中土久废当直言匡正抑或随俗而默
+  lesson: 以慈悲护生为根本律仪细行亦当极致殷勤躬行教习方为报佛
+  summary_first_person: 吾义净齐州张氏子也幼慕出家泛海西行二十余载亲承那烂陀律学归而译经弘律复因中土不知滤水放生之器故作护命放生轨仪法劝四百余城僧俗细罗细察自利利物
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/论藏/诸宗部/受用三水要行法.html
-  - https://cbetaonline.dila.edu.tw/T1902
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AF%B8%E5%AE%97%E9%83%A8/%E6%8A%A4%E5%91%BD%E6%94%BE%E7%94%9F%E8%BD%A8%E4%BB%AA%E6%B3%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AF%B8%E5%AE%97%E9%83%A8/%E6%8A%A4%E5%91%BD%E6%94%BE%E7%94%9F%E8%BD%A8%E4%BB%AA%E6%B3%95.md
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 西行南海求法
-  summary: 自广州附舶历室利佛逝那烂陀研习有部律二十余年而归
+  title_zh: 泛海西行求法学律
+  summary: 自广州浮海赴南海及印度那烂陀亲学律藏二十五年携梵本归国
+  roles:
+  - 求法僧
   phases:
   - key: brewing
-    name: 齐州出家发西游愿
+    name: 齐州出家立志西行
     labels:
-      zh: 发愿求法
-    start_date: '0660'
-    highlight_event_id: guji-义净-event-birth
+      zh:
+      - 出家立志
+    start_date: 0649
+    highlight_event_id: guji-义净-event-ordain
   - key: breakthrough
-    name: 附商舶自广州启程
+    name: 广州泛海始发
     labels:
-      zh: 泛海西行
+      zh:
+      - 泛海西行
     start_date: '0671'
-    highlight_event_id: guji-义净-event-westward
+    highlight_event_id: guji-义净-event-voyage
   - key: climax
-    name: 那烂陀研律亲证三水行法
+    name: 那烂陀专习律藏
     labels:
-      zh: 研律证行
+      zh:
+      - 留学那烂陀
     start_date: 0680
-    highlight_event_id: guji-义净-event-westward
+    highlight_event_id: guji-义净-event-study
   - key: closure
-    name: 携贝叶经归国至洛阳
+    name: 携经归国抵洛阳
     labels:
-      zh: 归国献经
+      zh:
+      - 携经归国
     start_date: 0695
     highlight_event_id: guji-义净-event-return
   decisions:
   - date: '0671'
-    title_zh: 决意附舶南海西行
-    rationale: 舍近求远亲证圣教律制不以海难为惧
+    title_zh: 舍陆就海泛舶西行
+    rationale: 陆路阻绝海路虽险可直达南海求法因缘故决意登舶
   - date: 0680
-    title_zh: 留那烂陀专攻有部律
-    rationale: 非亲承梵本无以正中土净触之失
+    title_zh: 留驻那烂陀专攻律部
+    rationale: 见西国持律精严欲正东夏所阙故久住学律兼习梵语
 - id: guji-义净-endeavor-2
-  title_zh: 译经制律弘传
-  summary: 受诏翻经译出根本说一切有部律别撰三水要行法以正饮用
+  title_zh: 洛阳译经弘律制护生仪
+  summary: 归国后奉敕译经著南海寄归内法传及护命放生轨仪法详陈滤水放生之器以正时弊
+  roles:
+  - 译经三藏
   phases:
   - key: brewing
-    name: 归朝受礼入翻经院
+    name: 奉敕入译场开译
     labels:
-      zh: 受诏入京
+      zh:
+      - 奉敕译经
     start_date: 0695
     highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 大规模翻译有部律典
+    name: 撰寄归传述西国律仪
     labels:
-      zh: 翻译律藏
-    start_date: '0700'
-    highlight_event_id: guji-义净-event-three-waters
+      zh:
+      - 述律仪
+    start_date: 0698
+    highlight_event_id: guji-义净-event-return
   - key: climax
-    name: 撰受用三水要行法
+    name: 造护命放生轨仪法
     labels:
-      zh: 明辨净触
-    start_date: '0705'
-    highlight_event_id: guji-义净-event-three-waters
+      zh:
+      - 制护生仪
+    start_date: '0700'
+    highlight_event_id: guji-义净-event-huming
   - key: closure
-    name: 长安示寂律风留世
+    name: 劝化递习圆寂长安
     labels:
-      zh: 示寂留法
-    start_date: '0713'
+      zh:
+      - 劝化圆寂
+    start_date: '0710'
     highlight_event_id: guji-义净-event-death
   decisions:
   - date: '0700'
-    title_zh: 受诏译律不辞劳
-    rationale: 以译场补中土律阙使僧众得依梵本持行
+    title_zh: 详陈放生器造仪劝行
+    rationale: 见神州僧俗不知滤水致日杀万生故具陈铜罐绳钩滤罗之法冀递相教习
   - date: '0705'
-    title_zh: 别撰三水要行法
-    rationale: 一咽经宿罪逾千数不得不辨净触以护斋戒
+    title_zh: 以性遮开显杀生最重
+    rationale: 杀生为性罪之首放生即长寿净土之因故虽学通三藏亦须先护生命
 events:
 - id: guji-义净-event-birth
+  type: birth
+  title_zh: 齐州诞生张氏子
   date: '0635'
   year_of: 635
-  title_zh: 诞生于齐州历城
-  description_zh: 唐贞观九年生张氏家幼而颖悟出家受具
-- id: guji-义净-event-westward
-  date: '0671'
+  place_zh: 齐州
+  description: 唐贞观九年诞生俗姓张后为三藏法师义净
+- id: guji-义净-event-ordain
+  type: career
+  title_zh: 齐州出家受具
+  date: 0649
+  year_of: 649
+  place_zh: 齐州
+  description: 幼慕出家习律立志西行求法
+- id: guji-义净-event-voyage
+  type: career
+  title_zh: 广州泛海西行
+  date: '0671-11-01'
   year_of: 671
-  title_zh: 自广州附舶西行
-  description_zh: 咸亨二年自广州附商舶经室利佛逝趣印度求法
+  place_zh: 广州
+  description: 咸亨二年自广州登舶浮海南行赴室利佛逝及印度
+- id: guji-义净-event-study
+  type: career
+  title_zh: 那烂陀留学学律
+  date: 0680
+  year_of: 680
+  place_zh: 那烂陀
+  description: 居那烂陀专习律藏兼学梵语凡二十余年
 - id: guji-义净-event-return
+  type: career
+  title_zh: 携经归国至洛阳
   date: 0695
   year_of: 695
-  title_zh: 归国至洛阳献经
-  description_zh: 历二十余年携梵本四百余部至洛阳著南海寄归内法传
-- id: guji-义净-event-three-waters
-  date: '0705'
-  year_of: 705
-  title_zh: 撰受用三水要行法
-  description_zh: 准依圣教及西方现行分辨时水非时水触用水明净触饮用之法
+  place_zh: 洛阳
+  description: 证圣元年携梵本四百余部归国奉敕主持译场
+- id: guji-义净-event-huming
+  type: career
+  title_zh: 撰护命放生轨仪法
+  date: '0700'
+  year_of: 700
+  place_zh: 洛阳
+  description: 详陈铁铜瓦木放生器绳钩滤罗取水放虫之仪劝行护生
 - id: guji-义净-event-death
+  type: death
+  title_zh: 长安圆寂
   date: '0713'
   year_of: 713
-  title_zh: 圆寂于长安
-  description_zh: 开元元年圆寂于长安谥号鸿胪卿葬事优隆
+  place_zh: 长安
+  description: 先天二年圆寂世寿七十九译经弘律功在护生
