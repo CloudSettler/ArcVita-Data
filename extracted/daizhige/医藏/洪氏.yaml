@@ -1,0 +1,139 @@
+person:
+  qid: guji-洪氏
+  name_zh: 洪氏
+  names:
+    zh: 洪氏
+    en: Hong Shi
+  lifespan:
+    birth:
+      date: '1120-01-01'
+      precision: year
+      is_circa: true
+      raw: 宋绍兴初约生
+    death:
+      date: '1185-01-01'
+      precision: year
+      is_circa: true
+      raw: 宋淳熙末约卒
+  birth_date: '1120-01-01'
+  death_date: '1185-01-01'
+  era: 宋
+  reign_ref: 宋高宗绍兴至宋孝宗淳熙
+  archetype: 医者
+  dilemmas:
+  - 伤寒时疫暴行方书散漫欲汇集验以便仓猝救治
+  - 贵价姜桂人参难求欲以苦参青葙苦酒贱药解毒救急
+  lesson: 采众家已验之方以贱简苦酢解毒为要使人人可得而用
+  summary_first_person: 吾为宋人洪氏，见伤寒温疫天行杀人最速，贫家求贵药不及，故遍采外台肘后医心方等书，集成验方两卷，专明伤寒劳复禁忌与卒厥救急，愿此简贱之方广济众生。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%9B%86%E9%AA%8C%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%9B%86%E9%AA%8C%E6%96%B9.html
+endeavors:
+- id: guji-洪氏-endeavor-1
+  person_id: guji-洪氏
+  title_zh: 汇编伤寒温疫集验方
+  summary_zh: 采外台医心方肘后方等书成卷一伤寒温疫天行诸方
+  phases:
+  - key: brewing
+    name: 博采众方
+    labels:
+      zh: 搜集伤寒方
+    start_date: '1150-01-01'
+    highlight_event_id: guji-洪氏-event-collect
+  - key: breakthrough
+    name: 初定伤寒诸法
+    labels:
+      zh: 温疫初起
+    start_date: '1160-01-01'
+    highlight_event_id: guji-洪氏-event-compile
+  - key: climax
+    name: 刊定卷一
+    labels:
+      zh: 伤寒成书
+    start_date: '1165-01-01'
+    highlight_event_id: guji-洪氏-event-compile
+  - key: closure
+    name: 颁行济众
+    labels:
+      zh: 流传救治
+    start_date: '1170-01-01'
+    highlight_event_id: guji-洪氏-event-compile
+  decisions:
+  - date: '1160-01-01'
+    title_zh: 以苦醋解毒为宗
+    rationale: 热盛非苦醋不解贱药所在皆有胜于贵价姜桂
+  - date: '1165-01-01'
+    title_zh: 遍引外台医心为据
+    rationale: 取前贤已验之方注出处使人信而敢用
+- id: guji-洪氏-endeavor-2
+  person_id: guji-洪氏
+  title_zh: 明劳复禁忌与卒厥救急
+  summary_zh: 阐劳复食复禁忌辟温法及卒死尸厥魇魅救治
+  phases:
+  - key: brewing
+    name: 察劳复致死
+    labels:
+      zh: 劳复禁忌
+    start_date: '1162-01-01'
+    highlight_event_id: guji-洪氏-event-teach
+  - key: breakthrough
+    name: 悟房劳猪肉之戒
+    labels:
+      zh: 瘥后将息
+    start_date: '1166-01-01'
+    highlight_event_id: guji-洪氏-event-teach
+  - key: climax
+    name: 定卒厥救急法
+    labels:
+      zh: 卒死救治
+    start_date: '1168-01-01'
+    highlight_event_id: guji-洪氏-event-teach
+  - key: closure
+    name: 垂训后人
+    labels:
+      zh: 辟温济世
+    start_date: '1172-01-01'
+    highlight_event_id: guji-洪氏-event-teach
+  decisions:
+  - date: '1166-01-01'
+    title_zh: 严定瘥后食禁房戒
+    rationale: 新瘥胃虚多坐食猪肉房劳而死不可不慎
+  - date: '1168-01-01'
+    title_zh: 收录葱熏灸吹等卒厥法
+    rationale: 卒死中恶呼吸未绝急救可活故存简易之术
+events:
+- id: guji-洪氏-event-birth
+  person_id: guji-洪氏
+  title_zh: 出生于宋
+  date: '1120-01-01'
+  year_of: 1120
+  type: birth
+  description_zh: 洪氏生于两宋之际江南医家承家学留意方书
+- id: guji-洪氏-event-collect
+  person_id: guji-洪氏
+  title_zh: 博采外台肘后诸方
+  date: '1150-06-01'
+  year_of: 1150
+  type: career
+  description_zh: 绍兴年间遍览外台秘要肘后方医心方等书抄录伤寒天行诸方
+- id: guji-洪氏-event-compile
+  person_id: guji-洪氏
+  title_zh: 编成集验方两卷
+  date: '1165-03-01'
+  year_of: 1165
+  type: career
+  description_zh: 以桂枝汤丹砂枳实栀子等方为纲集成伤寒温病劳复用药大体成书
+- id: guji-洪氏-event-teach
+  person_id: guji-洪氏
+  title_zh: 垂劳复辟温卒厥之训
+  date: '1168-08-01'
+  year_of: 1168
+  type: career
+  description_zh: 明新瘥忌猪肉房劳及断温辟温粉身之法并载葱刺灸膻中等卒厥救急
+- id: guji-洪氏-event-death
+  person_id: guji-洪氏
+  title_zh: 逝世
+  date: '1185-01-01'
+  year_of: 1185
+  type: death
+  description_zh: 淳熙末年卒所集验方流传后世救治伤寒时疫甚众
