@@ -6,110 +6,121 @@ person:
     en: Wang Ang
   lifespan:
     birth:
-      date: '1615'
+      date: 1615
       precision: year
-      is_circa: true
-      raw: 明万历四十三年以康熙甲戌自题八十老人推算
+      is_circa: false
+      raw: 明万历四十三年
     death:
-      date: '1695'
+      date: 1694
       precision: year
-      is_circa: true
-      raw: 康熙甲戌之后卒年未详约康熙三十四年后
-  birth_date: '1615'
-  death_date: '1695'
-  era: 明末清初
-  reign_ref: 清康熙甲戌
-  archetype: 医籍纂述者
+      is_circa: false
+      raw: 清康熙三十三年
+  birth_date: 1615
+  death_date: 1694
+  era: 清初
+  reign_ref: 康熙
+  archetype: 医经纂注者
   dilemmas:
-  - 古方浩繁而时医不辨证候不用汤头当何以立纲纪垂楷则
-  - 汤名药味拘于平仄难叶而义须赅明当何以兼易知简从与理法兼备
-  lesson: 以简驭繁提纲挈领门分义悉使初学易诵而临证触类旁通不失规矩
-  summary_first_person: 吾休宁汪昂晚号庵老人少罹丧乱留意医籍见旧本汤头歌诀辞鄙义晦时医率意无法乃网罗前贤方论先成医方集解复束为歌诀二百首分二十门括病证治法于歌中以便行旅缓急之用愿后学神而明之变而通之以应无穷之变
+  - 全书浩衍难读与删节失真之虑
+  - 宗承旧注与参以己见之衡
+  lesson: 化繁为约以便观览使经旨简明而济世寿民
+  summary_first_person: 我是汪昂衡泌之人见素问灵枢浩衍难观故比类分九参酌王马吴诸注阅三十余年而成类纂约注以就正有道
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E5%A4%B4%E6%AD%8C%E8%AF%80.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E5%A4%B4%E6%AD%8C%E8%AF%80.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%B4%A0%E9%97%AE%E7%81%B5%E6%9E%A2%E7%B1%BB%E7%BA%82%E7%BA%A6%E6%B3%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%B4%A0%E9%97%AE%E7%81%B5%E6%9E%A2%E7%B1%BB%E7%BA%82%E7%BA%A6%E6%B3%A8.html
 endeavors:
 - id: guji-汪昂-endeavor-1
-  title_zh: 网罗方论编著医方集解
-  summary_zh: 汇集仲景以降诸家名方推明君臣佐使从治正治之义为汤头歌诀奠定理法基础
+  title_zh: 比类分次类纂两经
+  description: 以素问为主灵枢为副除针灸不录分为九类存旧段落注出处
   phases:
   - key: brewing
-    name: 习医览方
+    name: 衡泌养志见钞启思
     labels:
-      zh: 醖釀积累
-    start_date: '1645'
-    highlight_event_id: guji-汪昂-event-study
+      zh: 立志
+    start_date: 1655
+    highlight_event_id: guji-汪昂-event-compiling
   - key: breakthrough
-    name: 集解初成
+    name: 定九类纲目统摄病证脉候
     labels:
-      zh: 突破成编
-    start_date: '1683'
-    highlight_event_id: guji-汪昂-event-yifangjijie
+      zh: 定纲
+    start_date: 1665
+    highlight_event_id: guji-汪昂-event-compiling
+  - key: climax
+    name: 分缀编次素问灵枢相从
+    labels:
+      zh: 编缀
+    start_date: 1675
+    highlight_event_id: guji-汪昂-event-compiling
   - key: closure
-    name: 刊行惠世
+    name: 康熙己巳夏定稿作序
     labels:
-      zh: 收束刊布
-    start_date: '1684'
-    highlight_event_id: guji-汪昂-event-yifangjijie
+      zh: 定稿
+    start_date: 1689
+    highlight_event_id: guji-汪昂-event-preface
   decisions:
-  - date: '1683'
-    title_zh: 以集解网罗方论不厌卷繁
-    rationale: 卷帙虽繁方论不备则用药无据故先博采以立体用之全
-  - date: '1684'
-    title_zh: 决意束繁为简另编歌诀
-    rationale: 集解不便携带行旅缓急难用故思以歌诀提纲挈领使易知易从
+  - date: 1655
+    title_zh: 以九类统两经而存旧段
+    rationale: 随问条答茫无津涯故以类相从用便观览而不失原书面目
+  - date: 1680
+    title_zh: 素问为主灵枢为副删针灸
+    rationale: 素问兼诸法说理详灵枢重针灸与医药不同故主素问而副灵枢
 - id: guji-汪昂-endeavor-2
-  title_zh: 重编汤头歌诀分门括证
-  summary_zh: 废旧本鄙率之辞重为编辑得歌二百首正附方三百余分二十门括主治病证与加减于歌后注释之中
+  title_zh: 参酌众注约注阐微
+  description: 遵王马吴诸注十之七增鄙见十之三务令语简义明以启后学
   phases:
   - key: brewing
-    name: 病证门分谋篇
+    name: 博览王马吴注辨得失
     labels:
-      zh: 醖釀谋篇
-    start_date: '1690'
-    highlight_event_id: guji-汪昂-event-yifangjijie
+      zh: 博览
+    start_date: 1658
+    highlight_event_id: guji-汪昂-event-compiling
+  - key: breakthrough
+    name: 参酌取舍节繁辨谬
+    labels:
+      zh: 参酌
+    start_date: 1670
+    highlight_event_id: guji-汪昂-event-compiling
   - key: climax
-    name: 歌诀二百首告成
+    name: 增注畅义详所未悉
     labels:
-      zh: 高潮告成
-    start_date: '1694-07-01'
-    highlight_event_id: guji-汪昂-event-tangtou-preface
+      zh: 阐义
+    start_date: 1680
+    highlight_event_id: guji-汪昂-event-compiling
   - key: closure
-    name: 附本草末以便行旅
+    name: 阅三十余年约注始就
     labels:
-      zh: 收束附刊
-    start_date: '1694-08-01'
-    highlight_event_id: guji-汪昂-event-tangtou-preface
+      zh: 告成
+    start_date: 1689
+    highlight_event_id: guji-汪昂-event-preface
   decisions:
-  - date: '1692'
-    title_zh: 废旧歌另作按沈韵分二十门
-    rationale: 旧歌不分门类搜索殆遍且辞鄙义晦故分补益发表攻里等二十门使某病某汤举目易了
-  - date: '1694-07-01'
-    title_zh: 歌中兼括病证歌后详注制方本义
-    rationale: 不以病名病而以药合证明乎因病施药故方后训释推明古人配合恰当之义使服习者有所根据
+  - date: 1670
+    title_zh: 遵七增三务令简明
+    rationale: 旧注各有得失舛谬敷衍改经臆解皆不可从故节繁辨谬以明经旨
+  - date: 1685
+    title_zh: 存段落旧文注出处不敢参错
+    rationale: 恐割裂穿贯疑误后学获罪先圣故虽删节而段落仍旧以取反约之意
 events:
 - id: guji-汪昂-event-birth
-  date: '1615'
-  year_of: 1615
+  type: birth
   title_zh: 生于徽州休宁
-  description_zh: 明万历四十三年生于休宁汪氏少经明清鼎革留意经方医术
-- id: guji-汪昂-event-study
-  date: '1645'
-  year_of: 1645
-  title_zh: 壮年习医博览方书
-  description_zh: 览仲景伤寒论及后世局方入门东垣诸书究君臣奇偶大小之制慨时医废准绳无法乃立志纂述
-- id: guji-汪昂-event-yifangjijie
-  date: '1683'
-  year_of: 1683
-  title_zh: 医方集解成编
-  description_zh: 网罗前贤方论推明佐使从治意义卷帙稍繁为后日束为歌诀之蓝本
-- id: guji-汪昂-event-tangtou-preface
-  date: '1694-07-01'
-  year_of: 1694
-  title_zh: 汤头歌诀自序于康熙甲戌夏月
-  description_zh: 以八十老人自题明因病施药以药合证之旨量取便用者得歌二百首正附方三百余分为二十门附于本草之末
+  date: 1615
+  year_of: 1615
+  description: 明万历四十三年生衡泌之人后专研岐黄济世寿民
+- id: guji-汪昂-event-compiling
+  type: career
+  title_zh: 发愤比类分次纂经
+  date: 1655
+  year_of: 1655
+  description: 见素问灵枢浩衍难观滑氏素问钞凌躐错杂遂立志比类分九阅三十余年
+- id: guji-汪昂-event-preface
+  type: career
+  title_zh: 康熙己巳夏作序定稿
+  date: 1689
+  year_of: 1689
+  description: 于延禧堂题序发明医术与礼乐刑政表里及纂要约注凡例以就正有道
 - id: guji-汪昂-event-death
-  date: '1695'
-  year_of: 1695
-  title_zh: 卒于清康熙年间
-  description_zh: 汤头既成后不久即世其书与本草备要并行成为医门正宗活人彀率
+  type: death
+  title_zh: 卒于康熙三十三年
+  date: 1694
+  year_of: 1694
+  description: 毕生以简明启后学类纂约注行世寿中而终
