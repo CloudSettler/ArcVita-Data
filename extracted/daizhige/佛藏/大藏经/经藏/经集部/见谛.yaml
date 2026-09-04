@@ -1,0 +1,138 @@
+person:
+  qid: guji-见谛
+  name_zh: 见谛
+  names:
+    zh: 见谛
+    en: Jiandi
+  lifespan:
+    birth:
+      date: -336
+      precision: year
+      is_circa: true
+      raw: 佛世时阎浮贤者家生
+    death:
+      date: -0480
+      precision: year
+      is_circa: true
+      raw: 复生后延算二十年寿终
+  birth_date: -336
+  death_date: -0480
+  era: 佛世
+  reign_ref: 释迦牟尼在祇树给孤独园时
+  archetype: 改邪归正的清信优婆塞
+  dilemmas:
+  - 奉外道祷祠杀生与奉佛戒善之间的取舍
+  - 临终嘱亲停尸待苏与俗常急殡之间的冲突
+  lesson: 舍邪入正持戒精进则冥狱不拘福神来迎
+  summary_first_person: 我本奉外道后遇善师入佛道受五戒行十善病死神至铁狱蒙狱王敬放得苏复生诣佛闻法方知善护身中二十事乃得解脱
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%BC%9F%E5%AD%90%E6%AD%BB%E5%A4%8D%E7%94%9F%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%BC%9F%E5%AD%90%E6%AD%BB%E5%A4%8D%E7%94%9F%E7%BB%8F.md
+endeavors:
+- id: guji-见谛-endeavor-1
+  title_zh: 厌外道入正法奉戒修善
+  description: 本奉外九十六种道厌苦委舍遇善师入佛受五戒行十善精进诵经布施忍辱慈心
+  phases:
+  - key: brewing
+    name: 奉外道厌祷祠
+    labels:
+      zh: 奉外道
+    start_date: -328
+    highlight_event_id: guji-见谛-event-convert
+  - key: breakthrough
+    name: 遇善师入佛道
+    labels:
+      zh: 入正法
+    start_date: -325
+    highlight_event_id: guji-见谛-event-convert
+  - key: climax
+    name: 奉五戒行十善
+    labels:
+      zh: 持戒精进
+    start_date: -325
+    highlight_event_id: guji-见谛-event-convert
+  - key: closure
+    name: 暴病嘱亲停尸
+    labels:
+      zh: 嘱停尸
+    start_date: -320
+    highlight_event_id: guji-见谛-event-hell
+  decisions:
+  - date: -325
+    title_zh: 委舍外道入佛道
+    rationale: 厌苦祷祠杀生取利为恶得遇善师牵引入道见沙门受戒故舍邪从正
+  - date: -320
+    title_zh: 临终嘱停尸七日
+    rationale: 自信持戒有护命未应尽故嘱父母亲属莫殡敛以待复苏证信愿
+- id: guji-见谛-endeavor-2
+  title_zh: 死历冥狱复生见佛得度
+  description: 病死神至铁城大狱见狱王论罪以清信弟子得敬放还生十日复苏诣祇洹见佛闻法名见谛
+  phases:
+  - key: brewing
+    name: 吏兵引入铁狱
+    labels:
+      zh: 入冥狱
+    start_date: -320
+    highlight_event_id: guji-见谛-event-hell
+  - key: breakthrough
+    name: 狱王敬清信放还
+    labels:
+      zh: 王敬放
+    start_date: -320
+    highlight_event_id: guji-见谛-event-hell
+  - key: climax
+    name: 十日开眼起坐说见
+    labels:
+      zh: 死复生
+    start_date: -320
+    highlight_event_id: guji-见谛-event-revive
+  - key: closure
+    name: 载诣祇洹见佛闻法
+    labels:
+      zh: 见佛得度
+    start_date: -320
+    highlight_event_id: guji-见谛-event-meet-buddha
+  decisions:
+  - date: -320
+    title_zh: 狱前自陈改恶向善
+    rationale: 明少小惑于恶奉外杀生祠祀饮酒取利后奉五戒行十善不复犯恶以求哀恕
+  - date: -320
+    title_zh: 苏后诣佛陈说所见
+    rationale: 父母以车载诣祇洹以冥中所见所闻白佛印证明信劝众精进故不隐
+events:
+- id: guji-见谛-event-birth
+  title_zh: 贤者家生
+  date: -336
+  year_of: -520
+  place: 阎浮提
+  description: 生为贤者后奉外九十六种道
+- id: guji-见谛-event-convert
+  title_zh: 舍外道受五戒行十善
+  date: -325
+  year_of: -505
+  place: 祇洹外
+  description: 厌苦祷祠遇善师牵引入佛道见沙门受五戒奉行十善精进诵经布施忍辱慈心
+- id: guji-见谛-event-hell
+  title_zh: 病死神至铁狱见王得放
+  date: -320
+  year_of: -500
+  place: 大铁城狱
+  description: 暴病命过吏兵将来至铁城黑狱见大火刀割之苦王问罪知是佛弟子寿命未尽余算二十遂敕吏送还
+- id: guji-见谛-event-revive
+  title_zh: 停尸十日开眼复生
+  date: -320
+  year_of: -500
+  place: 本家
+  description: 父母如嘱停尸不殡至八日至十日不胀臭忽开眼起坐善语说吏兵狱王六度六情三毒五阴之事众人踊跃守视
+- id: guji-见谛-event-meet-buddha
+  title_zh: 诣祇洹见佛名见谛
+  date: -320
+  year_of: -500
+  place: 祇树给孤独园
+  description: 父母以车载诣祇洹白佛佛问答所见笑放五色光为阿难说五逆恶世持戒功德及身中二十事父母诸家得阿罗汉死者名见谛得不退转
+- id: guji-见谛-event-death
+  title_zh: 延算二十年后寿终
+  date: -0480
+  year_of: -480
+  place: 阎浮提
+  description: 蒙狱王案录延余算二十精进不懈后寿尽命终不堕三恶趣
