@@ -1,0 +1,132 @@
+person:
+  qid: guji-朱倬
+  name_zh: 朱倬
+  names:
+    zh: 朱倬
+    en: Zhu Zhuo
+  lifespan:
+    birth:
+      date: '1315'
+      precision: year
+      is_circa: true
+      raw: 生年失载约推至正二年前二十余年
+    death:
+      date: '1356'
+      precision: year
+      is_circa: true
+      raw: 寇焚遂安廨舍赴水死
+  birth_date: '1315'
+  death_date: '1356'
+  era: 元末
+  reign_ref: 元顺帝至正
+  archetype: 忠节经儒
+  dilemmas:
+  - 有问无答是阙疑待思还是传写佚脱
+  - 寇至吏散是独坐待尽还是避祸求生
+  lesson: 学贵深思自得仕以守节为归
+  summary_first_person: 吾建昌新城人字孟章至正二年进士令遂安略举诗大义发问为诗疑问七卷寇至不去廨焚赴水而终
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E8%AF%97%E7%BB%8F%E7%96%91%E9%97%AE.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E8%AF%97%E7%BB%8F%E7%96%91%E9%97%AE.html
+endeavors:
+- id: guji-朱倬-endeavor-1
+  title_zh: 著诗疑问发问解经
+  summary: 略举诗篇大指发问注于下以待学者深思自得
+  phases:
+  - key: brewing
+    name: 博习三百篇
+    labels:
+      zh: 积学
+    start_date: '1335'
+    highlight_event_id: guji-朱倬-event-jinshi
+  - key: breakthrough
+    name: 发问立义
+    labels:
+      zh: 问难
+    start_date: '1342'
+    highlight_event_id: guji-朱倬-event-book
+  - key: climax
+    name: 七卷初成
+    labels:
+      zh: 成书
+    start_date: '1348'
+    highlight_event_id: guji-朱倬-event-book
+  - key: closure
+    name: 锦文论定流传
+    labels:
+      zh: 传布
+    start_date: '1350'
+    highlight_event_id: guji-朱倬-event-book
+  decisions:
+  - date: '1342'
+    title_zh: 以问领注不强解
+    rationale: 有问无答阙疑以待深思自得不妄断经义
+  - date: '1348'
+    title_zh: 存旧号阙无考
+    rationale: 邶鄘音异无确考者宁阙不凿空欺人
+- id: guji-朱倬-endeavor-2
+  title_zh: 令遂安独坐殉节
+  summary: 寇至吏卒逃散独坐公所待尽廨焚赴水死
+  phases:
+  - key: brewing
+    name: 进士受令
+    labels:
+      zh: 出仕
+    start_date: '1342'
+    highlight_event_id: guji-朱倬-event-suian
+  - key: breakthrough
+    name: 蒞任遂安
+    labels:
+      zh: 守土
+    start_date: '1345'
+    highlight_event_id: guji-朱倬-event-suian
+  - key: climax
+    name: 寇至不去
+    labels:
+      zh: 坚守
+    start_date: '1356'
+    highlight_event_id: guji-朱倬-event-death
+  - key: closure
+    name: 焚廨赴水
+    labels:
+      zh: 殉节
+    start_date: '1356'
+    highlight_event_id: guji-朱倬-event-death
+  decisions:
+  - date: '1356'
+    title_zh: 独坐公所待尽
+    rationale: 吏卒逃散守土有责不忍弃城而去
+  - date: '1356'
+    title_zh: 廨焚赴水不辱
+    rationale: 城陷舍毁以死明志全忠节之义
+events:
+- id: guji-朱倬-event-birth
+  title_zh: 出生建昌新城
+  date: '1315'
+  year_of: 1315
+  place_zh: 建昌新城
+  description: 朱倬字孟章生于建昌新城生年失载约推
+- id: guji-朱倬-event-jinshi
+  title_zh: 至正二年进士
+  date: '1342'
+  year_of: 1342
+  place_zh: 大都
+  description: 至正二年登进士第由是入仕治经
+- id: guji-朱倬-event-suian
+  title_zh: 出知遂安县
+  date: '1345'
+  year_of: 1345
+  place_zh: 遂安
+  description: 官遂安县尹在任守职抚民
+- id: guji-朱倬-event-book
+  title_zh: 撰成诗疑问七卷
+  date: '1348'
+  year_of: 1348
+  place_zh: 遂安
+  description: 略举诗国风大小雅颂大指发问注于下后经刘锦文论定附赵悳诗辨说流传
+- id: guji-朱倬-event-death
+  title_zh: 寇焚廨舍赴水死
+  date: '1356'
+  year_of: 1356
+  place_zh: 遂安县廨
+  description: 寇至吏卒逃散独坐公所待尽及寇焚廨舍乃赴水死元史失载赖汪叡哀词纳喇性德序表章
