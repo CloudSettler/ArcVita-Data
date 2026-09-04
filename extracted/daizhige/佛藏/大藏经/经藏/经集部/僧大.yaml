@@ -1,0 +1,126 @@
+person:
+  qid: guji-僧大
+  name_zh: 僧大
+  names:
+    zh: 僧大
+    en: Sengda
+  lifespan:
+    birth:
+      date: '-0520'
+      precision: year
+      is_circa: true
+      raw: 王舍国富者厉次子佛世时生
+    death:
+      date: -0490
+      precision: year
+      is_circa: true
+      raw: 王舍国山中为贼所害而殁
+  birth_date: '-0520'
+  death_date: -0490
+  era: 古印度佛世摩揭陀王舍国时
+  reign_ref: 佛在王舍国说法时
+  archetype: 持戒清净殉道证圣者
+  dilemmas:
+  - 家亲恩爱与出离清净道相违何去何从
+  - 临难求活与守戒念佛证果何轻何重
+  lesson: 淫乱如火守戒则安忍辱念佛虽断肢体亦得圣果
+  summary_first_person: 吾是王舍富者厉之次子幼而仁孝亲近沙门辞兄入山依师受戒独居求定后为贼所害临难念师教证须陀洹至应真以血书诫兄而逝
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/经集部/佛说佛大僧大经.html
+  - https://cbetaonline.dila.edu.tw/zh/T0541
+endeavors:
+- id: guji-僧大-endeavor-1
+  title_zh: 离俗入山依师出家求道
+  summary: 幼禀仁孝亲近沙门辞兄入山依止年少应真师受沙门戒学山居储积观星候时之法
+  phases:
+  - key: brewing
+    name: 在家亲道
+    labels:
+      zh: 亲近沙门诵戒知足
+    start_date: '-0505'
+    highlight_event_id: guji-僧大-event-birth
+  - key: breakthrough
+    name: 辞兄出家
+    labels:
+      zh: 辞亲入山依师
+    start_date: -0492
+    highlight_event_id: guji-僧大-event-leave
+  - key: climax
+    name: 受戒学法
+    labels:
+      zh: 受沙门戒学山居法
+    start_date: -0491
+    highlight_event_id: guji-僧大-event-retreat
+  - key: closure
+    name: 独居入山
+    labels:
+      zh: 独入深山禅定求真
+    start_date: -0490
+    highlight_event_id: guji-僧大-event-retreat
+  decisions:
+  - date: -0492
+    title_zh: 坚持出家不娶
+    rationale: 宿愿清净不恋俗缘兄虽以伪诈娉妻试我我志在沙门故直辞入山
+  - date: -0491
+    title_zh: 依师学山居难处法
+    rationale: 山中盗贼索水火麨蜜夜半问时当学星宿储积顺忍以全戒命
+- id: guji-僧大-endeavor-2
+  title_zh: 临难守戒忍辱证四沙门果
+  summary: 山中遇兄雇贼索命不畏怖牢持心念佛无常断髀断手次第证须陀洹斯陀含阿那含阿罗汉血书诫兄
+  phases:
+  - key: brewing
+    name: 贼至索命
+    labels:
+      zh: 贼夜索头求哀乞活
+    start_date: -0490
+    highlight_event_id: guji-僧大-event-retreat
+  - key: breakthrough
+    name: 念教师诫
+    labels:
+      zh: 断髀证须陀洹频来
+    start_date: -0490
+    highlight_event_id: guji-僧大-event-death
+  - key: climax
+    name: 断手证不还应真
+    labels:
+      zh: 断手念戒得不还应真
+    start_date: -0490
+    highlight_event_id: guji-僧大-event-death
+  - key: closure
+    name: 血书遗诫
+    labels:
+      zh: 刺血书皮诫兄立塔
+    start_date: -0490
+    highlight_event_id: guji-僧大-event-death
+  decisions:
+  - date: -0490
+    title_zh: 不以宝赎命唯乞期得道
+    rationale: 与世无争学道日浅愿乞岁月修道不愿以兄财宝苟活
+  - date: -0490
+    title_zh: 临刑念佛守戒不惧
+    rationale: 天地须弥尚坏小躯何惜唯念无常盛衰离合故次第证果无畏生死
+events:
+- id: guji-僧大-event-birth
+  title_zh: 王舍富家生为次子名僧大
+  date: '-0520'
+  year_of: -520
+  place_zh: 王舍国厉家
+  description: 父厉奉佛一载后复生贤男字僧大禀性仁爱孝心清白诵戒亲近沙门
+- id: guji-僧大-event-leave
+  title_zh: 辞兄入山依应真师出家
+  date: -0492
+  year_of: -492
+  place_zh: 王舍国山间树下
+  description: 兄以快见娉弟弟以宿愿辞兄入山见年少端正应真沙门闻淫如火烧手蜜刀枯骨之喻长跪求戒
+- id: guji-僧大-event-retreat
+  title_zh: 受戒学候时独入深山禅定
+  date: -0491
+  year_of: -491
+  place_zh: 深山寂静处
+  description: 侍师数月受沙门戒学星宿候时储水火麨蜜给贼之法奉教独入山间寂定禅息求应真道
+- id: guji-僧大-event-death
+  title_zh: 山中遇贼断肢证果血书而逝
+  date: -0490
+  year_of: -490
+  place_zh: 王舍国山中
+  description: 兄因贪嫂快见雇贼杀弟贼断髀断手弟念师戒次第得须陀洹斯陀含阿那含应真刺血书皮诫兄不孝不仁延颈受斩国人为立塔供养
