@@ -6,126 +6,98 @@ person:
     en: Yue Zhongqi
   lifespan:
     birth:
-      date: 1686
-      precision: year
+      date: 1686-11-08
+      precision: day
       is_circa: false
-      raw: 康熙二十五年
+      raw: 康熙二十五年十月初四
     death:
-      date: 1754
-      precision: year
+      date: 1754-03-09
+      precision: day
       is_circa: false
-      raw: 乾隆十九年
-  birth_date: 1686
-  death_date: 1754
-  era: 清
+      raw: 乾隆十九年二月十六
+  birth_date: 1686-11-08
+  death_date: 1754-03-09
+  era: 清代
   reign_ref: 乾隆
-  archetype: 持重老将
+  archetype: 经略武臣
   dilemmas:
-  - 与总督张广泗同办军务，直陈兵少碉坚则恐掣肘，缄默则误大事
-  - 汉兵不满千人土兵怯懦难用，欲裁土兵调楚兵又恐动摇番情
-  lesson: 用兵贵精不贵多，奇正并用，直捣贼巢方能溃其坚碉
-  summary_first_person: 吾以罪废再起，领兵党坝，目击兵单运艰碉坚难拔，唯据实奏陈兵数道里奇正之策，以求速平金川安靖边疆
+  - 以三万五千精兵直捣勒乌围速决与分兵十路持重旷日之抉择
+  - 投诚番民重赏招徕与明刑正法以孤贼势之抉择
+  lesson: 审地形严纪律信赏罚合众心而后可奏肤功
+  summary_first_person: 余起自陇西再起于废籍受命金川军前自请以三万五千精兵由党坝水陆并进直捣勒乌围期以一年荡平虽时议未尽行而鞠躬尽瘁不敢自惜
   source_urls:
-  - https://zh.wikisource.org/wiki/清實錄/大清高宗純皇帝實錄/卷之三百二十二
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0325.md
 endeavors:
 - id: guji-岳钟琪-endeavor-1
-  person_qid: guji-岳钟琪
-  title_zh: 党坝单路力攻勒乌围
-  summary: 领兵党坝直面勒乌围贼巢，运道皆贼出没之所，兵止七千余，请并兵合力速捣巢穴
+  title_zh: 党坝直捣勒乌围之策
   phases:
   - key: brewing
-    name: 驻守党坝查明贼势
+    name: 审势条奏
     labels:
       zh:
-      - 查勘地形
-      - 兵单运艰
-    start_date: 1748-03-01
-    highlight_event_id: guji-岳钟琪-event-dangba
-  - key: breakthrough
-    name: 攻夺水泉插入贼地
-    labels:
-      zh:
-      - 夺泉立营
-      - 孤军深入
-    start_date: 1748-07-01
-    highlight_event_id: guji-岳钟琪-event-dangba
-  - key: climax
-    name: 请并四路夹攻巢穴
-    labels:
-      zh:
-      - 请增楚兵
-      - 首尾夹攻
-    start_date: 1748-08-01
-    highlight_event_id: guji-岳钟琪-event-dangba
-  decisions:
-  - date: 1748-09-01
-    title_zh: 奏请增兵三千并归党坝
-    rationale: 党坝至勒乌围仅五六十里，破康八达即可直捣，分兵刮耳崖则延误时日纵贼远逃
-  - date: 1748-09-01
-    title_zh: 请遣回唐古忒兵另募新兵
-    rationale: 唐古忒兵但长驰射不宜涉险，留之糜饷无益，不如以其饷就近募勇
-- id: guji-岳钟琪-endeavor-2
-  person_qid: guji-岳钟琪
-  title_zh: 条陈汉土兵制与出奇之策
-  summary: 历陈各路土兵怯懦无用及小金川良尔吉通贼之患，请裁土兵万余调湖广官兵并出奇兵捣勒乌围
-  phases:
-  - key: brewing
-    name: 历验各路土兵优劣
-    labels:
-      zh:
-      - 辨别忠怯
-      - 察访内奸
-    start_date: 1747-06-01
-    highlight_event_id: guji-岳钟琪-event-tubing
-  - key: breakthrough
-    name: 密陈良尔吉通贼当诛
-    labels:
-      zh:
-      - 揭发通贼
-      - 请绝内患
-    start_date: 1748-08-01
-    highlight_event_id: guji-岳钟琪-event-tubing
-  - key: closure
-    name: 请裁土兵行奇正之道
-    labels:
-      zh:
-      - 裁汰老弱
-      - 奇兵捣巢
+      - 审势
+      - 条奏
     start_date: 1748-09-01
-    highlight_event_id: guji-岳钟琪-event-tubing
+    highlight_event_id: guji-岳钟琪-event-1
+  - key: breakthrough
+    name: 水陆并进定议
+    labels:
+      zh:
+      - 定议
+      - 会商
+    start_date: 1748-10-01
+    highlight_event_id: guji-岳钟琪-event-2
   decisions:
-  - date: 1748-09-01
-    title_zh: 请裁土兵一万调湖广官兵
-    rationale: 新旧土兵二万惟革布什咱沃日可用，余皆怯懦疲猾，减彻无用之众方可收实效
-  - date: 1748-09-01
-    title_zh: 请由卡里山固噶沟出奇兵
-    rationale: 刮耳崖地险碉多难攻，勒乌围路径甚多路不甚险，破勒乌围则四路自溃
+  - date: 1748-09-20
+    title_zh: 请以三万五千人分路进剿
+    rationale: 集中精兵由党坝直达逆巢以免分兵十路力薄旷日
+  - date: 1748-10-05
+    title_zh: 议留兵护粮扼卡撒防郎卡
+    rationale: 先破勒乌围再夹击刮耳崖以擒郎卡使贼首无所遁
+- id: guji-岳钟琪-endeavor-2
+  title_zh: 申明纪律体恤奖拔
+  phases:
+  - key: climax
+    name: 陈明伤亡奖罚
+    labels:
+      zh:
+      - 体恤
+      - 奖拔
+    start_date: 1748-09-15
+    highlight_event_id: guji-岳钟琪-event-1
+  - key: closure
+    name: 会商调度善后
+    labels:
+      zh:
+      - 调度
+      - 善后
+    start_date: 1748-10-10
+    highlight_event_id: guji-岳钟琪-event-2
+  decisions:
+  - date: 1748-09-18
+    title_zh: 陈打碉伤亡多请体恤调补
+    rationale: 带伤至四五处者应令调治另调精壮以作士气
+  - date: 1748-10-08
+    title_zh: 议赏投顺番户以孤贼势
+    rationale: 藉招徕离散贼党惟须节制银布勿以利购泛滥
 events:
 - id: guji-岳钟琪-event-birth
-  person_qid: guji-岳钟琪
-  title_zh: 生于成都将门
-  date: 1686
+  title_zh: 生于甘肃庄浪
+  date: 1686-11-08
   year_of: 1686
-  type: birth
-  description: 康熙二十五年出生，为岳飞后裔，少习韬略后从军西陲累立战功
-- id: guji-岳钟琪-event-dangba
-  person_qid: guji-岳钟琪
-  title_zh: 奏陈党坝兵单运艰情形
-  date: 1748-09-01
+  description: 康熙二十五年十月生于西陲将门世家
+- id: guji-岳钟琪-event-1
+  title_zh: 上奏三万五千人进剿方略
+  date: 1748-09-20
   year_of: 1748
-  type: 军务
-  description: 乾隆十三年八月奏党坝东西横亘三十余里营卡百余处汉兵不满千人请增兵并路直捣勒乌围
-- id: guji-岳钟琪-event-tubing
-  person_qid: guji-岳钟琪
-  title_zh: 奏陈汉土官兵怯懦与奇兵之策
-  date: 1748-09-02
+  description: 乾隆十三年秋奏请以一万由党坝水陆并进直捣勒乌围一万由甲索夺马牙冈会师河边并分兵守卡撒正地护粮期一年成功
+- id: guji-岳钟琪-event-2
+  title_zh: 奉旨会同傅尔丹班第定议
+  date: 1748-10-10
   year_of: 1748
-  type: 军务
-  description: 乾隆十三年八月再奏征勦年余未克系土兵怯懦及良尔吉通贼请裁土兵调楚兵由卡里山出奇
+  description: 乾隆十三年九月奉旨令会同傅尔丹班第细审党坝甲索卡撒马奈形势筹定进兵运饷舟楫并核奏军前兵力不敷之故
 - id: guji-岳钟琪-event-death
-  person_qid: guji-岳钟琪
-  title_zh: 病卒于成都
-  date: 1754
+  title_zh: 卒于乾隆十九年
+  date: 1754-03-09
   year_of: 1754
-  type: death
-  description: 乾隆十九年病卒，历康雍乾三朝，晚年复起督兵金川，以老成持重称
+  description: 乾隆十九年二月卒于位历事三朝功过相兼以忠勤终
