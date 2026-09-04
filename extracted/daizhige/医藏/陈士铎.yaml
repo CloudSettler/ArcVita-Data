@@ -8,141 +8,125 @@ person:
     birth:
       date: 1627
       precision: year
-      is_circa: true
-      raw: 明末崇祯年间生于山阴
+      is_circa: false
+      raw: 明天启七年
     death:
       date: 1707
       precision: year
-      is_circa: true
-      raw: 清康熙四十六年卒
+      is_circa: false
+      raw: 清康熙四十六年
   birth_date: 1627
   death_date: 1707
-  era: 清
-  reign_ref: 清初顺治至康熙
-  archetype: 阐微济世之良医
+  era: 明末清初
+  reign_ref: 康熙
+  archetype: 医者
   dilemmas:
-  - 脉理精微而世医不察，用药寡效，何以使人人易知而深入
-  - 脏腑兼病而切脉难兼顾，独言五脏可否统摄七腑而治
-  lesson: 守约以御繁，辨脏以统腑，察脉合症，乃可起死回生
-  summary_first_person: 吾山阴陈士铎，字敬之，号远公，遇异人于燕市，得脉诀之约传，惟愿以三十八字之简，括万病之变，使后学不迷于繁而得其神也
+  - 脉理精微而世传简略当从约以统博还是从博以求精
+  - 脏腑兼病而切脉难兼当独重五脏还是遍察七腑
+  lesson: 舍繁从约以脏统腑使浅近易知而深入精微
+  summary_first_person: 吾山阴陈士铎字敬之号远公燕市遇云中逸老得鬼真君脉诀以三十八字括脉理以兼见统万变专切五脏以统七腑著脉诀阐微以诏后学
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%84%89%E5%AD%A6%E9%98%90%E5%BE%AE.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%84%89%E5%AD%A6%E9%98%90%E5%BE%AE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%84%89%E8%AF%80%E9%98%90%E5%BE%AE.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%84%89%E8%AF%80%E9%98%90%E5%BE%AE.html
 endeavors:
 - id: guji-陈士铎-endeavor-1
-  title_zh: 阐发鬼真君脉诀成脉学阐微
-  summary: 以五脏统七腑，以三十八字括脉变，兼论兼见之脉
+  title_zh: 燕市得传阐发脉诀
+  summary_zh: 遇云中逸老得鬼真君脉诀以三十八字定总纲以兼见七脉统万变成脉诀阐微三篇
   phases:
   - key: brewing
-    name: 燕市遇师得法
+    name: 燕市遇师
     labels:
-      zh:
-      - 求道
-      - 得诀
-    start_date: 1650
+      zh: 求道得传
+    start_date: 1657
     highlight_event_id: guji-陈士铎-event-meet-master
   - key: breakthrough
-    name: 会通灵素约言脏脉
+    name: 悟约统博
     labels:
-      zh:
-      - 会通
-      - 立约
+      zh: 以脏统腑
     start_date: 1680
-    highlight_event_id: guji-陈士铎-event-write-maixue
-  - key: climax
-    name: 三篇阐微兼见七脉
-    labels:
-      zh:
-      - 著述
-      - 阐微
-    start_date: 1689
-    highlight_event_id: guji-陈士铎-event-write-maixue
+    highlight_event_id: guji-陈士铎-event-write-maijue
   - key: closure
-    name: 题识文笔峰传示后学
+    name: 定稿阐微
     labels:
-      zh:
-      - 传世
-      - 垂训
-    start_date: 1690
-    highlight_event_id: guji-陈士铎-event-write-maixue
+      zh: 著书诏世
+    start_date: 1685
+    highlight_event_id: guji-陈士铎-event-write-maijue
   decisions:
   - date: 1680
     title_zh: 专言五脏不详七腑
-    rationale: 脏可包腑，腑不可包脏，守约则病情无遁
-  - date: 1689
-    title_zh: 以三十八字为纲七脉兼见为纬
-    rationale: 诀贵在少而足以包万病，恐繁则晦故举纲以类推
+    rationale: 脏可包腑腑不可包脏专切五脏论五行生克则病情无遁
+  - date: 1685
+    title_zh: 以三十八字加兼见示人
+    rationale: 诀贵在少以少胜多举浮沉迟数涩滑濡为纲余脉类推使人易知深入
 - id: guji-陈士铎-endeavor-2
-  title_zh: 撰述医书济世活人
-  summary: 著石室秘录辨证录本草新编等，辨阴阳虚实，救危亡于临床
+  title_zh: 传岐天师之道广著医书
+  summary_zh: 备传岐天师方法著石室秘录本草新编辨证录外经微言等以脏腑生克和解救人
   phases:
   - key: brewing
-    name: 壮年习岐黄究灵素
+    name: 早年学医
     labels:
-      zh:
-      - 习医
-      - 穷经
-    start_date: 1647
-    highlight_event_id: guji-陈士铎-event-birth
-  - key: breakthrough
-    name: 临床辨证屡起沉疴
-    labels:
-      zh:
-      - 临床
-      - 辨证
-    start_date: 1665
-    highlight_event_id: guji-陈士铎-event-practice
+      zh: 博览灵素
+    start_date: 1645
+    highlight_event_id: guji-陈士铎-event-study-medicine
   - key: climax
-    name: 秘录辨证诸书并出
+    name: 广著济世
     labels:
-      zh:
-      - 著述
-      - 济世
-    start_date: 1685
-    highlight_event_id: guji-陈士铎-event-practice
+      zh: 著书立说
+    start_date: 1681
+    highlight_event_id: guji-陈士铎-event-write-books
   - key: closure
-    name: 晚年付梓以惠后世
+    name: 文笔峰题书
     labels:
-      zh:
-      - 付梓
-      - 惠后
-    start_date: 1700
-    highlight_event_id: guji-陈士铎-event-death
+      zh: 归隐述作
+    start_date: 1690
+    highlight_event_id: guji-陈士铎-event-write-books
   decisions:
-  - date: 1665
-    title_zh: 切脉必合问症观神
-    rationale: 脉随人异，症可印脉，脉症合参乃见有神无神
-  - date: 1685
-    title_zh: 倾囊传方不秘
-    rationale: 医者仁心，方贵活人，藏私则道绝，公开则泽长
+  - date: 1681
+    title_zh: 述而不作传录天师法
+    rationale: 病分脏腑治在调停生克和解败亡不可拘执一端当垂成法以救世
+  - date: 1690
+    title_zh: 隐于文笔峰小琅琊整理旧稿
+    rationale: 医道易晦浅近方能深入使后学了然于胸中起死回生
 events:
 - id: guji-陈士铎-event-birth
+  kind: birth
   title_zh: 生于山阴
   date: 1627
   year_of: 1627
   place_zh: 浙江山阴
-  description: 明末生于山阴陈氏，字敬之，号远公
+  summary_zh: 明天启七年生于浙江山阴字敬之号远公
 - id: guji-陈士铎-event-meet-master
-  title_zh: 燕市遇云中逸老传法
-  date: 1655
-  year_of: 1655
+  kind: career
+  title_zh: 燕市遇云中逸老得鬼真君脉诀
+  date: 1657
+  year_of: 1657
   place_zh: 燕市
-  description: 于燕市遇云中逸老，得鬼真君脉诀之传，悟脏脉统腑之旨
-- id: guji-陈士铎-event-write-maixue
-  title_zh: 成书脉学阐微
-  date: 1689
-  year_of: 1689
+  summary_zh: 于燕市遇云中逸老经鬼真君臾区授切脉之法得传脉诀五篇之约
+- id: guji-陈士铎-event-study-medicine
+  kind: career
+  title_zh: 研习灵素备传岐天师方法
+  date: 1670
+  year_of: 1670
+  place_zh: 京师
+  summary_zh: 研习素问灵枢备传岐天师方法悟脏可统腑之旨
+- id: guji-陈士铎-event-write-maijue
+  kind: career
+  title_zh: 著脉诀阐微题于文笔峰小琅琊
+  date: 1685
+  year_of: 1685
   place_zh: 文笔峰小琅琊
-  description: 分三篇阐三十八字脉理及七脉兼见，题识于文笔峰
-- id: guji-陈士铎-event-practice
-  title_zh: 行医著述石室秘录等
-  date: 1687
-  year_of: 1687
-  place_zh: 江南
-  description: 行医救人，撰石室秘录辨证录本草新编等，名重一时
+  summary_zh: 以三十八字总论加浮沉迟数涩滑濡兼见分三篇阐微专言五脏统七腑
+- id: guji-陈士铎-event-write-books
+  kind: career
+  title_zh: 广著石室秘录本草新编等书
+  date: 1690
+  year_of: 1690
+  place_zh: 山阴
+  summary_zh: 先后著石室秘录本草新编辨证录外经微言洞天奥旨等发明脏腑生克之理
 - id: guji-陈士铎-event-death
-  title_zh: 卒于康熙年间
+  kind: death
+  title_zh: 卒于清康熙年间
   date: 1707
   year_of: 1707
-  place_zh: 山阴
-  description: 晚年付梓诸书后卒，后世尊为清初临床大家
+  place_zh: 浙江山阴
+  summary_zh: 清康熙四十六年卒医法垂于后世

@@ -6,127 +6,140 @@ person:
     en: Dong Ji
   lifespan:
     birth:
-      date: '1080'
+      date: 1040
       precision: year
       is_circa: true
-      raw: 宋代
+      raw: 约景祐年间生于东平
     death:
-      date: '1150'
+      date: 1100
       precision: year
       is_circa: true
-      raw: 宋代
-  birth_date: '1080'
-  death_date: '1150'
-  era: 宋
-  reign_ref: 北宋末南宋初
-  archetype: 医家
+      raw: 约元符后卒
+  birth_date: 1040
+  death_date: 1100
+  era: 北宋
+  reign_ref: 熙宁至元祐
+  archetype: 久病成良医
   dilemmas:
-  - 宦游南北触冒猝病仓卒无药与济世救急之责
-  - 古专门禁方用则神验求理难解与证详法略务实用之取舍
-  lesson: 推农黄济世之心以简切经效之方备旅途仓卒证详法略晓然可用
-  summary_first_person: 汲少小多病因习医药念世人荣辱奔驰饮食不节道途冒触疾起不测仓卒无药乃收经效奇方百余道编为旅舍备要方一卷庶几道途疾病治疗有归不敢私隐
+  - 风多湿少与湿多风少用药消息之难一概用药则难克奇效
+  - 肾虚当补与风湿邪盛壅喘之难一向补益则秘结喘满一向疏下则藏虚酸削
+  - 方药繁多求索难得与临病有据济众之愿
+  lesson: 三折肱为良医循证按四时寒暑虚实治之轻者亦重得理者重亦轻
+  summary_first_person: 我字及之东平人自少小病脚气约十余年熙宁年行大雪中为寒湿所乘十年凡七八发一旬之内变证不等遂博采素问灵枢甲乙太素巢氏千金外台圣惠小品删繁金匮玉函本草苏恭方论及针艾淋煠蒸熨导引食饮之宜分为一十九门名曰脚气治法总要不敢私隐庶几临病有所证据
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%97%85%E8%88%8D%E5%A4%87%E8%A6%81%E6%96%B9.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%97%85%E8%88%8D%E5%A4%87%E8%A6%81%E6%96%B9.html
+  - https://daizhige.org/脚气治法总要.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/脚气治法总要.md
 endeavors:
 - id: guji-董汲-endeavor-1
-  title_zh: 编撰旅舍备要方备旅途猝病
-  summary: 少服儒术嗜阅医经收经效奇方百余道分十二类以治触寒心痛中暑霍乱蚰蜒入耳中药蛊毒杂伤诸急
+  title_zh: 久病穷源博采成书
+  summary: 以身患脚气十年为基博求古方采摘要法集成十九门总要上卷论十二篇下卷方四十六首
   phases:
   - key: brewing
-    name: 少小多病习医收方
+    name: 雪行感疾屡发究源
     labels:
-      zh: 习医收方
-    start_date: '1100'
-    highlight_event_id: guji-董汲-event-practice
+      zh:
+      - 久病自察
+      - 变证斟酌
+    start_date: 1068
+    highlight_event_id: guji-董汲-event-ill
   - key: breakthrough
-    name: 洞彻简切立备猝之旨
+    name: 博采群书究极脉证
     labels:
-      zh: 立备猝旨
-    start_date: '1115'
-    highlight_event_id: guji-董汲-event-collect
-  - key: climax
-    name: 编目成集号旅舍备要方
-    labels:
-      zh: 编目成集
-    start_date: '1125'
+      zh:
+      - 采摭经方
+      - 藏府脉辨
+    start_date: 1078
     highlight_event_id: guji-董汲-event-compile
   - key: closure
-    name: 孟震作引镂板广传永乐收掇
+    name: 集成十九门总要成帙
     labels:
-      zh: 刊传收掇
-    start_date: '1130'
+      zh:
+      - 删繁就简
+      - 四时条法
+    start_date: 1086
     highlight_event_id: guji-董汲-event-compile
   decisions:
-  - date: '1115'
-    title_zh: 以旅舍应猝为纲收方百余
-    rationale: 宦游南北客涉道途冒触居多邪气易入方药备急尤当究心故证详法略使览者晓然可用
-  - date: '1125'
-    title_zh: 分十二类详证略法不用深奥
-    rationale: 推圣人蠲疴济世之心取经效简易之方如小半夏汤五苓散无比香薷散皆切于仓卒救急
+  - date: 1078
+    title_zh: 遍采素问灵枢千金外台而不专一家
+    rationale: 脚气有干湿阴阳虚实冷热之别非一家之学可尽故凡古有是说者无不究极
+  - date: 1086
+    title_zh: 以四时月令统摄方药针灸淋煠
+    rationale: 春夏宜汗利秋冬宜小补高卑老壮男女各异故谨序月令条法使服食有常而不发
 - id: guji-董汲-endeavor-2
-  title_zh: 究小儿斑疹脚气及杂病医法
-  summary: 撰小儿斑疹论脚气治法与产科小儿疮科杂伤诸方兼参钱乙诸家以凉药攻本以简方救急
+  title_zh: 以身试方四时调治济人
+  summary: 先以自疗验效次以及崔直文思诸人分风湿虚实阴阳施治并重外治针灸淋煠
   phases:
   - key: brewing
-    name: 业医临证究斑疹惊疳
+    name: 自疗肿胀入腹危证
     labels:
-      zh: 临证究斑疹
-    start_date: '1105'
-    highlight_event_id: guji-董汲-event-practice
-  - key: breakthrough
-    name: 撰小儿斑疹论脚气治法
-    labels:
-      zh: 撰斑疹脚气论
-    start_date: '1120'
-    highlight_event_id: guji-董汲-event-pediatric
+      zh:
+      - 亲尝汤散
+      - 救急入腹
+    start_date: 1070
+    highlight_event_id: guji-董汲-event-selfcure
   - key: climax
-    name: 参钱乙法制惊痫痘疹方
+    name: 以天门冬大煎愈人取效
     labels:
-      zh: 制惊痫痘疹方
-    start_date: '1125'
-    highlight_event_id: guji-董汲-event-pediatric
+      zh:
+      - 通治虚实
+      - 四时不阙
+    start_date: 1075
+    highlight_event_id: guji-董汲-event-curecui
   - key: closure
-    name: 载入幼幼新书宋志著录
+    name: 以食前后丸金牙酒善后防发
     labels:
-      zh: 著录传世
-    start_date: '1135'
-    highlight_event_id: guji-董汲-event-pediatric
+      zh:
+      - 善后防复
+      - 针药并施
+    start_date: 1080
+    highlight_event_id: guji-董汲-event-curewen
   decisions:
-  - date: '1120'
-    title_zh: 专论小儿斑疹痘疹伏热
-    rationale: 小儿肠胃柔脆斑疹惊疳喉痹走马急疳多由胃热毒入故制神仙紫雪利毒丸救生散以清热解毒
-  - date: '1125'
-    title_zh: 杂伤火毒不用冷沃以散救痛
-    rationale: 火气本阳得水则阴薄内溃难痂故以救痛散涂贴背指散护疮口以御外风防痓厥
+  - date: 1070
+    title_zh: 肿气入腹心烦便闭急用防榔牵牛分服利水
+    rationale: 毒势内攻入腹闷乱喘促不速下凑毒之药则三焦荣卫不通故以童便姜汁调末大利而消
+  - date: 1075
+    title_zh: 遇虚劳挛肿者用天门冬大煎通治而不惮品繁
+    rationale: 此方通四时括众证虚实寒热率皆主对世人惮其难得而不修故详陈以劝有力者四时服之
 events:
 - id: guji-董汲-event-birth
-  date: '1080'
+  title_zh: 生于东平
+  date: 1040
+  year_of: 1040
+  place_zh: 东平
+  description: 字及之东平人始末未详钱乙尝序其防疹论
+- id: guji-董汲-event-ill
+  title_zh: 熙宁雪行感寒湿患脚气
+  date: 1068
+  year_of: 1068
+  place_zh: 中原道途
+  description: 熙宁年因行大雪中为寒湿冷气相乘遂成兹疾十年之间七八发动至春两脚赤肿疼痛痿弱不能行
+- id: guji-董汲-event-selfcure
+  title_zh: 自疗肿及通身入腹危证得差
+  date: 1070
+  year_of: 1070
+  place_zh: 东平汶上间
+  description: 自脚及通身肿气上入腹心烦腹满气促便闭以防榔诃子生牵牛童便姜汁分服大利而消后以天麻丸乌蛇丸陈元膏疗疮以木瓜丸食前后丸金牙酒复力
+- id: guji-董汲-event-curecui
+  title_zh: 以天门冬大煎愈崔直脚气肿弱
+  date: 1075
+  year_of: 1075
+  place_zh: 须城沂州间
+  description: 熙宁年间济南崔郎中直自川中病风经夏涉蒸湿脚肿弱挛痛作天门冬大煎服之即差永不发
+- id: guji-董汲-event-curewen
+  title_zh: 以食前后丸愈董文思以海桐皮散等愈梁吴冯诸家
+  date: 1080
   year_of: 1080
-  title_zh: 出生
-  description: 宋代出生少小多病因而习医药少服儒术嗜阅医经
-- id: guji-董汲-event-practice
-  date: '1105'
-  year_of: 1105
-  title_zh: 业医收经效奇方
-  description: 自业医以来收经效奇方计百余道念触寒心痛冒热中暍厥风涎潮伏暑霍乱亟需急治
-- id: guji-董汲-event-collect
-  date: '1115'
-  year_of: 1115
-  title_zh: 立备旅舍应猝之法
-  description: 思宦游南北客涉道途邪气易入定证详法略之体取小半夏汤治湿痰五苓散通行利水无比香薷散治霍乱转筋
-- id: guji-董汲-event-pediatric
-  date: '1120'
-  year_of: 1120
-  title_zh: 撰小儿斑疹论及脚气治法
-  description: 撰小儿斑疹论脚气治法见载于陈振孙书录解题与钱乙药证直诀相出入后多载入幼幼新书
+  place_zh: 汶上
+  description: 董文思驻泊汶上两脚赤肿以食前丸食后丸即差冬令作金牙酒并淋煠不复作又经验梁子谅吴琯冯宅女等案
 - id: guji-董汲-event-compile
-  date: '1125'
-  year_of: 1125
-  title_zh: 编成旅舍备要方一卷
-  description: 编目成集共一卷号旅舍备要方分斑疹痰证霍乱腰痛眼耳齿中毒妇人小儿疮科杂伤十二类孟震为之序宋史艺文志著录后入永乐大典四库收掇存方近五十
+  title_zh: 元丰元祐间撰成脚气治法总要十九门
+  date: 1086
+  year_of: 1086
+  place_zh: 东平
+  description: 博采素问九墟灵枢甲乙太素巢元千金外台圣惠诸家分为一十九门通为一卷上卷论十二篇下卷方四十六首并针灸淋煠蒸熨月令条法
 - id: guji-董汲-event-death
-  date: '1150'
-  year_of: 1150
-  title_zh: 逝世
-  description: 宋代逝世原本久佚清乾隆四十六年据永乐大典收掇排纂仍旧目分为十二类
+  title_zh: 约卒于哲徽之际
+  date: 1100
+  year_of: 1100
+  place_zh: 东平
+  description: 书录解题作一卷宋史艺文志亦同久无传本赖永乐大典所载排纂成帙传于后世

@@ -9,141 +9,123 @@ person:
       date: 1151
       precision: year
       is_circa: true
-      raw: 约金皇统末易州生
+      raw: 约金贞元三年生于易州
     death:
       date: 1234
       precision: year
       is_circa: true
-      raw: 约金天兴末卒
+      raw: 约金天兴三年卒
   birth_date: 1151
   death_date: 1234
   era: 金代
-  reign_ref: 金世宗大定至金哀宗天兴
-  archetype: 儒医宗师
+  reign_ref: 金世宗至金哀宗
+  archetype: 易水医宗
   dilemmas:
-  - 年少举业受挫后是固守儒途还是转而学医济世
-  - 面对托名附会之风是借重权威还是坚持自成一家阐发真理
-  lesson: 舍举业而专医道，审标本察病机，以清凉制风热，以寒胜热，著书立说以保命全生
-  summary_first_person: 吾张元素，字洁古，易州人，八岁应童子举，二十七试进士以犯庙讳下第，乃去而学医，精研内经仲景之旨，抒平生心得撰保命集三卷三十二门，首原道原脉摄生阴阳，次病机本草处方用药，欲使后之医者审病机无失气宜，保命全生
+  - 守仲景古方与立新法运气归经之间如何取舍
+  - 治标治本缓急先后之间如何不误虚实寒热
+  lesson: 治病必求标本虚实寒热各归脏腑以引经报使定补泻方为万世法
+  summary_first_person: 吾乃易州张元素字洁古览素问难经运气之旨伤时医执方而不知脏腑标本遂立寒热虚实用药式以五味四气配脏腑经络授李杲王好古以续医道
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%97%85%E6%9C%BA%E6%B0%94%E5%AE%9C%E4%BF%9D%E5%91%BD%E9%9B%86.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%97%85%E6%9C%BA%E6%B0%94%E5%AE%9C%E4%BF%9D%E5%91%BD%E9%9B%86.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%84%8F%E8%85%91%E8%99%9A%E5%AE%9E%E6%A0%87%E6%9C%AC%E7%94%A8%E8%8D%AF%E5%BC%8F.html
 endeavors:
 - id: guji-张元素-endeavor-1
-  title_zh: 弃儒习医自成一家
-  summary_zh: 八岁应童子举，二十七试进士下第后转学医，精通医术，以治刘完素伤寒而显名
+  title_zh: 创制脏腑虚实标本用药式
+  summary_zh: 以标本阴阳升降浮沉为纲分五脏六腑三焦命门定虚实补泻寒热法并系以药味归经而成医学启源珍珠囊之体系
   phases:
   - key: brewing
-    name: 幼年应举
+    name: 易州习医究难经运气
     labels:
-      zh:
-      - 童子举
-      - 儒业
-    start_date: 1159
-    highlight_event_id: guji-张元素-event-child-exam
+      zh: 习医
+    start_date: 1170
+    highlight_event_id: guji-张元素-event-study
   - key: breakthrough
-    name: 下第转医
+    name: 悟标本补泻立引经报使
     labels:
-      zh:
-      - 犯庙讳下第
-      - 弃儒学医
-    start_date: 1178
-    highlight_event_id: guji-张元素-event-turn-medicine
-  - key: climax
-    name: 治愈完素显名
-    labels:
-      zh:
-      - 伤寒
-      - 料病如神
+      zh: 立法
     start_date: 1195
-    highlight_event_id: guji-张元素-event-cure-liu
-  - key: closure
-    name: 以医道闻于金中叶
+    highlight_event_id: guji-张元素-event-formula
+  - key: climax
+    name: 撰医学启源用药式成书
     labels:
-      zh:
-      - 精通医术
-      - 自成一家
-    start_date: 1200
-    highlight_event_id: guji-张元素-event-cure-liu
+      zh: 成书
+    start_date: 1205
+    highlight_event_id: guji-张元素-event-formula
+  - key: closure
+    name: 法式流行北方医家宗之
+    labels:
+      zh: 传法
+    start_date: 1220
+    highlight_event_id: guji-张元素-event-teach
   decisions:
-  - date: 1178
-    title_zh: 犯讳下第后去而学医
-    rationale: 进士路断，不慕虚名，转求活人之术，以医明道济世
   - date: 1195
-    title_zh: 往候刘完素伤寒并处方取效
-    rationale: 审脉辨证知标本，不拘常法，以对证之药挽危证，遂立声名
+    title_zh: 舍守古方专究脏腑标本
+    rationale: 以身体内外阴阳分标本以先后传变为标本先治其本后治其标急则治标定泻子补母之则
+  - date: 1205
+    title_zh: 以气味厚薄定升降浮沉补泻
+    rationale: 以味薄升气薄降气厚浮味厚沉配四时肝心肺肾分辛甘酸苦咸归经使药各有所引
 - id: guji-张元素-endeavor-2
-  title_zh: 撰述保命集阐发病机气宜
-  summary_zh: 抒平生心得撰保命集三卷三十二门，原道原脉摄生阴阳在前，病机本草处方君臣佐使在后，金末由杨威刊行
+  title_zh: 开易水学派授徒李杲王好古
+  summary_zh: 居易水授李杲王好古以脾胃脏腑之学李杲成补土派王好古增辑汤液本草开金元医风之先
   phases:
   - key: brewing
-    name: 原道原脉立本
+    name: 行医燕赵名闻北方
     labels:
-      zh:
-      - 原道
-      - 原脉
-      - 摄生阴阳
-    start_date: 1200
-    highlight_event_id: guji-张元素-event-book
+      zh: 行医
+    start_date: 1185
+    highlight_event_id: guji-张元素-event-study
   - key: breakthrough
-    name: 病机气宜立法
+    name: 收李杲为弟子授内经运气
     labels:
-      zh:
-      - 病机十九条
-      - 气宜
-      - 伤寒六经标本
-    start_date: 1205
-    highlight_event_id: guji-张元素-event-book
+      zh: 收徒
+    start_date: 1200
+    highlight_event_id: guji-张元素-event-teach
   - key: climax
-    name: 成书三十二门
+    name: 李杲王好古分传师法
     labels:
-      zh:
-      - 处方用药
-      - 君臣佐使
-      - 加减次第
-    start_date: 1208
-    highlight_event_id: guji-张元素-event-book
+      zh: 授业
+    start_date: 1210
+    highlight_event_id: guji-张元素-event-teach
   - key: closure
-    name: 金末刊行传世
+    name: 易水学派成金元显学
     labels:
-      zh:
-      - 杨威校刊
-      - 辨伪归真
-    start_date: 1232
-    highlight_event_id: guji-张元素-event-publish
+      zh: 立派
+    start_date: 1225
+    highlight_event_id: guji-张元素-event-teach
   decisions:
-  - date: 1205
-    title_zh: 摭内经之要分门立论
-    rationale: 以原道明性命，以原脉决生死，以病机统百病之本，使理法方药相贯
-  - date: 1208
-    title_zh: 制双解通圣辛凉之剂不专峻用辛温
-    rationale: 察五运六气世态居民之变，发表不远热攻里不远寒，免辛热致衂血发斑之祸
+  - date: 1200
+    title_zh: 收李杲授以洁古家珍
+    rationale: 见李杲颖悟可传运气脏腑之奥不私其术倾囊相授以广医道
+  - date: 1212
+    title_zh: 命王好古辑汤液本草以载法
+    rationale: 恐口授易散令门人笔录药性归经使后学有所据依
 events:
 - id: guji-张元素-event-birth
+  title_zh: 诞生于易州
   date: 1151
-  title_zh: 生于易州
-  description_zh: 金皇统末生于易州，字洁古，幼颖悟，八岁即应童子举
-- id: guji-张元素-event-child-exam
-  date: 1159
-  title_zh: 八岁应童子举
-  description_zh: 幼年应童子举，稍长试进士，研习儒业，为转医前之积累
-- id: guji-张元素-event-turn-medicine
-  date: 1178
-  title_zh: 二十七试进士犯讳下第去而学医
-  description_zh: 二十七岁试进士以犯庙讳下第，乃去而学医，精通其术，遂以医显
-- id: guji-张元素-event-cure-liu
-  date: 1195
-  title_zh: 治刘完素伤寒八日而愈遂显名
-  description_zh: 刘完素病伤寒八日头痛脉紧呕逆不食， elements往候令服某药，大服如其言遂愈，自此显名，足以自成一家
-- id: guji-张元素-event-book
-  date: 1208
-  title_zh: 撰成保命集三卷三十二门
-  description_zh: 抒平生心得述为保命集，首原道原脉摄生阴阳察色伤寒病机诸论，次本草处方君臣佐使加减之法，于医理精蕴阐发深至
-- id: guji-张元素-event-publish
-  date: 1232
-  title_zh: 金末杨威得本刊行后世辨归元素
-  description_zh: 书初罕传播，金末杨威得其本于东原长清王庆先家刊行，初误题刘完素著，明初沿误并伪撰序，至李时珍作本草纲目始纠谬定为元素所作，四库特为改正并删伪序
+  year_of: 1151
+  place_zh: 易州
+  description_zh: 金贞元年间生于易州自幼习医究素问难经及运气之学
+- id: guji-张元素-event-study
+  title_zh: 游学燕赵精运气脏腑之学
+  date: 1185
+  year_of: 1185
+  place_zh: 燕赵
+  description_zh: 行医燕赵间精研五运六气深究药物气味厚薄升降浮沉之理
+- id: guji-张元素-event-formula
+  title_zh: 撰成脏腑虚实标本用药式
+  date: 1205
+  year_of: 1205
+  place_zh: 易水
+  description_zh: 分肝心脾肺肾命门三焦胆胃大小肠膀胱辨本病标病定补母泻子寒热温凉法撰为用药式后并入医学启源
+- id: guji-张元素-event-teach
+  title_zh: 授李杲王好古开易水一派
+  date: 1210
+  year_of: 1210
+  place_zh: 易州
+  description_zh: 授李杲以脾胃论之先导授王好古以药性汤液二弟子分阐师说易水学派遂兴
 - id: guji-张元素-event-death
-  date: 1234
   title_zh: 卒于金末
-  description_zh: 金天兴末卒，一生以医明道，其洁古之学经后人传述大行于世
+  date: 1234
+  year_of: 1234
+  place_zh: 易州
+  description_zh: 金天兴年间卒所著医学启源珍珠囊脏腑用药式传于门人行于世
