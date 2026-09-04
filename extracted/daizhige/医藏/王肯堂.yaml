@@ -6,116 +6,136 @@ person:
     en: Wang Kentang
   lifespan:
     birth:
-      date: 1549-01-01
+      date: 1549
       precision: year
       is_circa: false
       raw: 明嘉靖二十八年
     death:
-      date: 1613-01-01
+      date: 1613
       precision: year
       is_circa: false
       raw: 明万历四十一年
-  birth_date: 1549-01-01
-  death_date: 1613-01-01
-  era: 明朝
+  birth_date: 1549
+  death_date: 1613
+  era: 明
   reign_ref: 明嘉靖至万历
   archetype: 儒医济世者
   dilemmas:
-  - 仕宦尽职与归隐行医之抉择
-  - 博采众方与折衷归一之权衡
-  lesson: 以儒通医以诚济世明辨证治不执一方
-  summary_first_person: 吾金坛王肯堂登进士而官刑曹悯病者误治遂博览医籍折衷百家撰证治准绳类方以明证治惟愿后学活用方药济世活人
+  - 翰苑功名与济物医道之间何去何从
+  - 守丹溪旧法与重加选择订正之间如何取舍
+  - 执方治病与因病变通圆机活法之间如何权衡
+  lesson: 医乃活人之学必博综经史明师承源流不泥成方审虚实寒热圆机变通以补虚固本为要方能济世全人
+  summary_first_person: 余发始燥慕范文正存心济物之志少好方书博探素难金匮甲乙以下诸家吴中自王光庵得戴元礼之秘医道大振余乃访求朱氏原本重加选择订正灵兰要览欲使证治有准后学有承不以秘帐中而以广济宇内
   source_urls:
-  - https://daizhige.org/医藏/证治准绳类方.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/证治准绳类方.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%87%8D%E8%AE%A2%E7%81%B5%E5%85%B0%E8%A6%81%E8%A7%88.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%87%8D%E8%AE%A2%E7%81%B5%E5%85%B0%E8%A6%81%E8%A7%88.md
 endeavors:
 - id: guji-王肯堂-endeavor-1
-  title_zh: 进士入仕究心医学
-  summary: 登进士历刑曹以泉州推官告归转而究心医学
+  person_qid: guji-王肯堂
+  title_zh: 由儒入医博综经史立济世之志
+  summary: 飞声翰苑而少好方书自素难金匮甲乙下逮诸子莫不精探渊奥以范文正存心济物为志转儒术为医道
   phases:
   - key: brewing
-    name: 金坛问学奠基
+    name: 少好方书博览群经
     labels:
-      zh: 儒学养正
-    start_date: 1549-01-01
+      zh: 博综启志
+    start_date: 1560
     highlight_event_id: guji-王肯堂-event-birth
   - key: breakthrough
-    name: 登第入仕见病
+    name: 登进士入翰苑而不忘医
     labels:
-      zh: 仕宦省悟
-    start_date: 1589-01-01
+      zh: 儒医兼修
+    start_date: 1589
     highlight_event_id: guji-王肯堂-event-jinshi
+  - key: climax
+    name: 得吴中医派正脉究心证治
+    labels:
+      zh: 得承正脉
+    start_date: 1595
+    highlight_event_id: guji-王肯堂-event-study
   - key: closure
-    name: 告归究医
+    name: 以医济世名重吴中
     labels:
-      zh: 弃官习医
-    start_date: 1592-01-01
-    highlight_event_id: guji-王肯堂-event-jinshi
+      zh: 以医显名
+    start_date: 1600
+    highlight_event_id: guji-王肯堂-event-study
   decisions:
-  - date: 1589-06-01
-    title_zh: 登第后仍博览医籍
-    rationale: 目击误治故以余力通医不废儒业
-  - date: 1592-01-01
-    title_zh: 告病归里专治医
-    rationale: 欲全心整理医籍以济世故舍官守而就医道
+  - date: 1589
+    title_zh: 不以翰苑自限兼究医经
+    rationale: 以医重民生通天地阴阳之理须儒者博极方可穷其颐故兼治经史与方书
+  - date: 1595
+    title_zh: 宗王光庵戴元礼吴中正脉
+    rationale: 见吴中自得元礼之秘再传启东诸贤医道大振故求师承原委不为卤莽无师之医
 - id: guji-王肯堂-endeavor-2
-  title_zh: 编纂证治准绳类方
-  summary: 折衷历代医论杂病与方药编成准绳以类方收录卒中中风诸方
+  person_qid: guji-王肯堂
+  title_zh: 重订灵兰要览选录证治以启后学
+  summary: 鉴丹溪纂要非出丹溪手笔谬于选择乃命访求朱氏原本重订于中风疟痰喘诸门详辨虚实补泻以正时师执方之误
   phases:
   - key: brewing
-    name: 博采群书
+    name: 病丹溪纂要谬选发重订之议
     labels:
-      zh: 采集方论
-    start_date: 1592-01-01
-    highlight_event_id: guji-王肯堂-event-jinshi
+      zh: 辨伪发愿
+    start_date: 1602
+    highlight_event_id: guji-王肯堂-event-study
   - key: breakthrough
-    name: 准绳初成
+    name: 访求朱氏原本斫轮游刃
     labels:
-      zh: 体系初立
-    start_date: 1602-01-01
-    highlight_event_id: guji-王肯堂-event-zhunsheng
+      zh: 访求原本
+    start_date: 1606
+    highlight_event_id: guji-王肯堂-event-compiling
   - key: climax
-    name: 类方汇编刊行
+    name: 分门选录证治详论虚实
     labels:
-      zh: 类方济世
-    start_date: 1607-01-01
-    highlight_event_id: guji-王肯堂-event-leifang
+      zh: 分门证治
+    start_date: 1610
+    highlight_event_id: guji-王肯堂-event-compiling
   - key: closure
-    name: 垂训后学
+    name: 书成刊布广济宇内
     labels:
-      zh: 遗惠后世
-    start_date: 1613-01-01
-    highlight_event_id: guji-王肯堂-event-death
+      zh: 刊布济世
+    start_date: 1612
+    highlight_event_id: guji-王肯堂-event-book
   decisions:
-  - date: 1602-01-01
-    title_zh: 立证治准绳体系
-    rationale: 以证为纲以治为目使杂病有绳可准
-  - date: 1607-01-01
-    title_zh: 以类方附证治之后
-    rationale: 明方从证出收苏合香丸小续命汤诸方以便临证检用
+  - date: 1606
+    title_zh: 访求朱氏原本而重订
+    rationale: 以现行纂要选择失当不足为法须得原本而后斫轮游刃臻妙如江海波澜山岳岭峰可为标帜
+  - date: 1610
+    title_zh: 详辨闭脱虚实不用执方
+    rationale: 见时师以顺气疏风及南星半夏等执方治中风痰疟多致误故力主辨闭脱补真元以参术竹沥等变通治之
 events:
 - id: guji-王肯堂-event-birth
-  date: 1549-01-01
+  person_qid: guji-王肯堂
+  date: 1549
   year_of: 1549
-  title_zh: 出生于金坛
-  description: 明嘉靖二十八年生于江苏金坛王氏书香之家
+  title_zh: 出生于南直隶金坛
+  description: 明嘉靖二十八年出生于金坛王氏字宇泰号损庵少即博综经史好读方书
 - id: guji-王肯堂-event-jinshi
-  date: 1589-01-01
+  person_qid: guji-王肯堂
+  date: 1589
   year_of: 1589
-  title_zh: 登进士第入仕
-  description: 万历十七年登进士第历大理评事泉州推官等职
-- id: guji-王肯堂-event-zhunsheng
-  date: 1602-01-01
-  year_of: 1602
-  title_zh: 编成证治准绳
-  description: 博览内经难经伤寒诸家折衷编成证治准绳医论杂病诸卷
-- id: guji-王肯堂-event-leifang
-  date: 1607-01-01
-  year_of: 1607
-  title_zh: 类方汇编成书
-  description: 以类方汇卒中中风等证诸方详录苏合香丸三生饮小续命汤用法以便检用
+  title_zh: 万历十七年进士选翰林检讨
+  description: 登进士第飞声翰苑与携李李谦所相契以存心济物自励不秘医论于帐中
+- id: guji-王肯堂-event-study
+  person_qid: guji-王肯堂
+  date: 1595
+  year_of: 1595
+  title_zh: 究吴中医派正脉精研医经
+  description: 考王光庵启钥于戴元礼再传启东诸贤之脉络精探素难金匮甲乙及诸子临证尤重辨中风闭脱与痰饮虚实
+- id: guji-王肯堂-event-compiling
+  person_qid: guji-王肯堂
+  date: 1606
+  year_of: 1606
+  title_zh: 访求丹溪原本重订灵兰
+  description: 以丹溪纂要诸书非丹溪手笔谬于选择命高生访求原本于中风疟疾痰喘等门重加删订发明补虚化痰之法
+- id: guji-王肯堂-event-book
+  person_qid: guji-王肯堂
+  date: 1612
+  year_of: 1612
+  title_zh: 重订灵兰要览成书刊行
+  description: 书成卷分上下详录风论疟论痰论治方加减携李殷仲春为序谓其如舟楫帆樯壁垒标帜为证治诸书之选录
 - id: guji-王肯堂-event-death
-  date: 1613-01-01
+  person_qid: guji-王肯堂
+  date: 1613
   year_of: 1613
-  title_zh: 逝世
-  description: 万历四十一年逝世遗书惠及后世医者
+  title_zh: 卒于万历四十一年
+  description: 晚年以证治准绳医灯续焰等书传世卒后医名重于江南为明代儒医宗匠
