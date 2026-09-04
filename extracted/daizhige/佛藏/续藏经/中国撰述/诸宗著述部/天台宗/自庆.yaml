@@ -1,0 +1,134 @@
+person:
+  qid: guji-自庆
+  name_zh: 自庆
+  names:
+    zh: 自庆
+    en: Ziqing
+  lifespan:
+    birth:
+      date: '1300'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约元初
+    death:
+      date: '1352'
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约至正后期
+  birth_date: '1300'
+  death_date: '1352'
+  era: 元
+  reign_ref: 至正
+  archetype: 编纂者
+  dilemmas:
+  - 以律持定慧还是安于苟简流于俗习
+  - 恪守白云堂旧本还是折中禅律随时损益
+  - 究心教观自修还是垂意威仪节文兼化他
+  lesson: 以律辅教，以规摄众，内外相养，方续慧命
+  summary_first_person: 吾自庆，号云外，住天竺大圆觉教寺，惧教苑清规久废，取旧藏本重加诠次，参考禅律，厘为十门，以匡持山家之教
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E8%AF%B8%E5%AE%97%E8%91%97%E8%BF%B0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E5%AE%97/%E5%A2%9E%E4%BF%AE%E6%95%99%E8%8B%91%E6%B8%85%E8%A7%84.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E8%AF%B8%E5%AE%97%E8%91%97%E8%BF%B0%E9%83%A8/%E5%A4%A9%E5%8F%B0%E5%AE%97/%E5%A2%9E%E4%BF%AE%E6%95%99%E8%8B%91%E6%B8%85%E8%A7%84.md
+endeavors:
+- id: guji-自庆-endeavor-1
+  person_id: guji-自庆
+  title_zh: 增修教苑清规
+  summary: 取白云堂旧本，正舛误补阙轶，参考禅律，厘为十类复刻以传后学
+  phases:
+  - key: brewing
+    name: 惧废拾旧
+    labels:
+      zh: 酝酿
+    start_date: '1340'
+    highlight_event_id: guji-自庆-event-collect
+  - key: breakthrough
+    name: 诠次折中
+    labels:
+      zh: 突破
+    start_date: '1345'
+    highlight_event_id: guji-自庆-event-collect
+  - key: climax
+    name: 厘为十门
+    labels:
+      zh: 高潮
+    start_date: '1346'
+    highlight_event_id: guji-自庆-event-collect
+  - key: closure
+    name: 请序复刻
+    labels:
+      zh: 收束
+    start_date: '1347-07-07'
+    highlight_event_id: guji-自庆-event-print
+  decisions:
+  - date: '1345'
+    title_zh: 取旧藏本重加诠次
+    rationale: 旧刻毁于白云堂，恐久废坠，故正舛误补阙轶以存教苑家法
+  - date: '1346'
+    title_zh: 参考禅律折中古今
+    rationale: 律仪如经礼，清规如家礼，须通变以时措之，方能匡持其教
+- id: guji-自庆-endeavor-2
+  person_id: guji-自庆
+  title_zh: 住持圆觉弘律化众
+  summary: 住天竺大圆觉教寺，究心律业，以威仪节文摄众，阴翊王化以报国恩
+  phases:
+  - key: brewing
+    name: 领众守律
+    labels:
+      zh: 酝酿
+    start_date: '1340'
+    highlight_event_id: guji-自庆-event-abbot
+  - key: climax
+    name: 祝赞祈禳报本
+    labels:
+      zh: 高潮
+    start_date: '1347-03-01'
+    highlight_event_id: guji-自庆-event-abbot
+  - key: closure
+    name: 内外交养
+    labels:
+      zh: 收束
+    start_date: '1347-07-07'
+    highlight_event_id: guji-自庆-event-print
+  decisions:
+  - date: '1347-03-01'
+    title_zh: 立祝赞祈禳报本之制
+    rationale: 以盛演宗猷阴翊王化为职，尽臣僧之分，故详定圣节斋日祈祷之仪
+  - date: '1347-07-07'
+    title_zh: 托黄溍大安作序刊行
+    rationale: 善业所在，须藉名德表章，使后学取法，续慧命之种
+events:
+- id: guji-自庆-event-birth
+  person_id: guji-自庆
+  type: birth
+  title_zh: 降生
+  date: '1300'
+  year_of: 1300
+  description: 生年不详，约元初降生，后出家受天台教观
+- id: guji-自庆-event-collect
+  person_id: guji-自庆
+  type: endeavor
+  title_zh: 取旧本诠次教苑清规
+  date: '1346'
+  year_of: 1346
+  description: 取故所藏白云堂旧本，正舛误补阙轶，参考禅律异同，厘为十类
+- id: guji-自庆-event-print
+  person_id: guji-自庆
+  type: endeavor
+  title_zh: 复刻清规成书
+  date: '1347-07-07'
+  year_of: 1347
+  description: 至正七年请黄溍为序，大安张雨补书，增修教苑清规上下卷刊行
+- id: guji-自庆-event-abbot
+  person_id: guji-自庆
+  type: endeavor
+  title_zh: 住持大圆觉教寺
+  date: '1347-03-01'
+  year_of: 1347
+  description: 住天竺大圆觉教寺，究心律业，领众行祝赞安居诫劝之制
+- id: guji-自庆-event-death
+  person_id: guji-自庆
+  type: death
+  title_zh: 示寂
+  date: '1352'
+  year_of: 1352
+  description: 卒年不详，约至正后期示寂，归真入塔如制
