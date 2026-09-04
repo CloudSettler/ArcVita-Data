@@ -6,135 +6,126 @@ person:
     en: Li Wei
   lifespan:
     birth:
-      date: 1688
-      precision: year
-      is_circa: false
-      raw: 康熙二十七年生
-    death:
-      date: 1738-10-25
+      date: 1688-02-02
       precision: day
       is_circa: true
-      raw: 乾隆三年秋冬卒于任
-  birth_date: 1688
-  death_date: 1738-10-25
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 封疆能臣
+      raw: 康熙二十七年正月
+    death:
+      date: 1738-12-03
+      precision: day
+      is_circa: false
+      raw: 乾隆三年十月
+  birth_date: 1688-02-02
+  death_date: 1738-12-03
+  era: 清朝
+  reign_ref: 雍正至乾隆
+  archetype: 干练廉能之封疆吏
   dilemmas:
-  - 赈济欲速达穷民又防有司回护欺隐
-  - 治河欲核实功效又虑大臣支吾粉饰
-  - 清赋欲轻民负又须顾全国计仓储
-  lesson: 亲查实核严饬属吏方能使恩泽下逮穷民
-  summary_first_person: 我是李卫，历督浙江直隶，以精明强干治封疆，乾隆三年在直隶查水灾赈济，清屯田粮额，参劾河臣朱藻，务使穷民得沾实惠。
+  - 重法整顿与体恤民隐之间如何权衡
+  - 整饬盐政缉私与稳定商民生计之间如何兼顾
+  lesson: 以实心任事以严法除弊方能安民足国
+  summary_first_person: 吾起家寒微以员外郎入仕历任浙直封疆惟以清介勤敏为心治水缉私赈荒保甲不敢有负所托
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0076.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70082.md
 endeavors:
 - id: guji-李卫-endeavor-1
-  title_zh: 畿辅水灾赈济与民食安辑
-  summary: 乾隆三年畿辅雨水多，天津九河下游田禾被淹，奉旨确查户口，兼禁烧锅，停米税，通口外米路，以济艰食。
+  title_zh: 浙江治水清盐缉私
+  summary_zh: 抚浙督浙期间整顿盐政缉拿私枭修筑海塘疏浚河道以靖地方
   phases:
   - key: brewing
-    name: 天津查赈受命
+    name: 初抚浙江
     labels:
-      zh:
-      - 查赈
-    start_date: 1738-10-15
-    highlight_event_id: guji-李卫-event-zhenji
+      zh: 浙江巡抚
+    start_date: 1725-01-01
+    highlight_event_id: guji-李卫-event-1
   - key: breakthrough
-    name: 停税通粮济民食
+    name: 兼管盐政
     labels:
-      zh:
-      - 通商
-    start_date: 1738-10-18
-    highlight_event_id: guji-李卫-event-mishui
+      zh: 查私整盐
+    start_date: 1726-01-01
+    highlight_event_id: guji-李卫-event-1
   - key: climax
-    name: 严饬禁烧锅保谷
+    name: 总督浙闽治水
     labels:
-      zh:
-      - 节糜
-    start_date: 1738-10-20
-    highlight_event_id: guji-李卫-event-zhenji
+      zh: 海塘河工
+    start_date: 1727-01-01
+    highlight_event_id: guji-李卫-event-1
   - key: closure
-    name: 穷民均沾恩泽
+    name: 浙政告成
     labels:
-      zh:
-      - 安辑
-    start_date: 1738-10-25
-    highlight_event_id: guji-李卫-event-zhenji
+      zh: 升任直隶
+    start_date: 1732-01-01
+    highlight_event_id: guji-李卫-event-2
   decisions:
-  - date: 1738-10-15
-    title_zh: 严饬地方妥办天津赈济
-    rationale: 有地之家易查，无业穷民易漏，必留心确查方不失所
-  - date: 1738-10-20
-    title_zh: 转饬所属严禁烧锅酒贩
-    rationale: 歉岁储谷裕民，烧锅耗米，禁之可平谷价濟饥
+  - date: 1726-06-01
+    title_zh: 严缉私盐杖枷示惩
+    rationale: 私枭横行蚀课殃民须重法惩创方能肃盐政安商民
+  - date: 1727-08-01
+    title_zh: 请修海塘疏河救旱涝
+    rationale: 浙省水患频仍塘工河道关系民生漕运宜预修预疏以防患
 - id: guji-李卫-endeavor-2
-  title_zh: 直隶屯田清赋与纠劾河臣
-  summary: 奏请比照民粮科则减免直属屯田重额，又参奏总河朱藻挟诈欺公贪残虐民，请革职治罪以整河务。
+  title_zh: 直隶总督保甲赈济
+  summary_zh: 督直期间清查保甲缉盗安民赈恤灾荒保举人才以固畿辅
   phases:
   - key: brewing
-    name: 屯田粮额过重请减
+    name: 初督畿辅
     labels:
-      zh:
-      - 清赋
-    start_date: 1738-10-16
-    highlight_event_id: guji-李卫-event-tuntian
+      zh: 直隶总督
+    start_date: 1732-01-01
+    highlight_event_id: guji-李卫-event-2
   - key: breakthrough
-    name: 造册送部核议减免
+    name: 整顿保甲缉盗
     labels:
-      zh:
-      - 核议
-    start_date: 1738-10-17
-    highlight_event_id: guji-李卫-event-tuntian
+      zh: 保甲缉捕
+    start_date: 1733-01-01
+    highlight_event_id: guji-李卫-event-2
   - key: climax
-    name: 参奏朱藻欺公虐民
+    name: 赈荒保举贤才
     labels:
-      zh:
-      - 纠劾
-    start_date: 1738-10-25
-    highlight_event_id: guji-李卫-event-canzou
+      zh: 赈济举贤
+    start_date: 1738-01-01
+    highlight_event_id: guji-李卫-event-3
   - key: closure
-    name: 朱藻解任候审整饬河工
+    name: 病逝赐恤易名
     labels:
-      zh:
-      - 整饬
-    start_date: 1738-10-26
-    highlight_event_id: guji-李卫-event-canzou
+      zh: 赐谥敏达
+    start_date: 1738-12-01
+    highlight_event_id: guji-李卫-event-death
   decisions:
-  - date: 1738-10-16
-    title_zh: 请按民粮科则酌减屯田钱粮
-    rationale: 宣化永平蓟协屯赋重于民田，减之以苏民困而便耕
-  - date: 1738-10-25
-    title_zh: 列款参劾总河朱藻
-    rationale: 河工关乎民生，见其欺公虐民，不劾则贻患地方
+  - date: 1733-05-01
+    title_zh: 严饬保甲清查流民盗案
+    rationale: 畿辅重地盗窃多发须落实保甲连坐严缉方能靖地方
+  - date: 1738-09-01
+    title_zh: 保举孝廉方正以备任使
+    rationale: 留心人才访举高应遴等以孝廉方正上进为国储贤
 events:
 - id: guji-李卫-event-birth
-  title_zh: 生于江南铜山
-  date: 1688
+  title_zh: 生于江南丰多
+  date: 1688-02-02
   year_of: 1688
-  description: 康熙二十七年生于江苏丰沛间，家以捐纳入仕，勇敏任事
-- id: guji-李卫-event-tuntian
-  title_zh: 奏请减免直属屯田粮额
-  date: 1738-10-16
+  kind: birth
+  description_zh: 康熙二十七年正月生于江南以捐员外郎入仕
+- id: guji-李卫-event-1
+  title_zh: 巡抚浙江兼理盐政
+  date: 1725-03-01
+  year_of: 1725
+  kind: career
+  description_zh: 雍正三年任浙江巡抚后署理浙江总督整顿盐政修塘治水
+- id: guji-李卫-event-2
+  title_zh: 授直隶总督总理畿辅
+  date: 1732-06-01
+  year_of: 1732
+  kind: career
+  description_zh: 雍正十年授直隶总督整饬保甲缉盗赈灾安民
+- id: guji-李卫-event-3
+  title_zh: 保举孝廉方正三员
+  date: 1738-11-01
   year_of: 1738
-  description: 奏称宣化永平蓟协屯田编徵重于民田，请分别科则造册送部核议减免，得旨依议速行
-- id: guji-李卫-event-zhenji
-  title_zh: 奉命严查天津水灾赈济
-  date: 1738-10-15
-  year_of: 1738
-  description: 天津居九河下游，雨水多田禾被淹，上谕以有司奉行不善，命李卫留心确查，使被水户口及无业贫民均沾恩泽
-- id: guji-李卫-event-mishui
-  title_zh: 覆奏米税开徵与停徵事
-  date: 1738-10-18
-  year_of: 1738
-  description: 前因米价昂宽免临清天津诸处米税，后麦收复徵，今沿河被水米价复昂，仍暂停徵收以鼓舞商贩济畿辅民食
-- id: guji-李卫-event-canzou
-  title_zh: 参奏总河朱藻革职候审
-  date: 1738-10-25
-  year_of: 1738
-  description: 参奏总河朱藻挟诈欺公贪残虐民各款，请革职治罪，得旨朱藻解任，命讷亲孙嘉淦往审，总河印务由顾琮管理
+  kind: career
+  description_zh: 以原任直隶总督保举高应遴潘志潜宗高举引见分别以知县教谕训导用
 - id: guji-李卫-event-death
-  title_zh: 卒于直隶总督任上
-  date: 1738-10-25
+  title_zh: 卒于任赐祭谥敏达
+  date: 1738-12-03
   year_of: 1738
-  description: 在直隶总督任上经理赈济清赋河务后病卒，乾隆加恩优恤，谥敏达
+  kind: death
+  description_zh: 乾隆三年十月卒予祭一次造坟立碑谥敏达
