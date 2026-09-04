@@ -1,0 +1,108 @@
+person:
+  qid: guji-砺堂氏
+  name_zh: 砺堂氏
+  names:
+    zh: 砺堂氏
+    en: Litangshi
+  lifespan:
+    birth:
+      date: '1730'
+      precision: year
+      is_circa: true
+      raw: 清乾隆初年左右
+    death:
+      date: '1795'
+      precision: year
+      is_circa: true
+      raw: 清乾隆末年左右
+  birth_date: '1730'
+  death_date: '1795'
+  era: 清
+  reign_ref: 乾隆
+  archetype: 医家
+  dilemmas:
+  - 博而弗精约而未尽之旧书何以取舍以免茫然失据
+  - 薪传失实贻误堪虞而荒陬僻壤难觅良医何以济众
+  lesson: 悯世艰忘己拙合刊胎产调治使家执是编体察阴阳无失传贻误之忧
+  summary_first_person: 仆居耶溪月田悯胎产为居家恒有而昏夜仓皇难求药饵又病妇科旧书传信传疑故辑上卷调经种子中卷生化汤下卷经验良方颜曰宁坤秘笈愿未孕欲孕按治胎元临产即产得所调理
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%AE%81%E5%9D%A4%E7%A7%98%E7%AC%88.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%AE%81%E5%9D%A4%E7%A7%98%E7%AC%88.html
+endeavors:
+- id: guji-砺堂氏-endeavor-1
+  name_zh: 编纂上卷调经种子胎前临产
+  description: 会萃昔人潜寓之说述调经种子胎前临产症治方书了如指掌
+  phases:
+  - key: brewing
+    name: 搜集调经种子方论
+    labels:
+      zh: 调经种子
+    start_date: '1780'
+    highlight_event_id: guji-砺堂氏-event-compile
+  - key: climax
+    name: 上卷九十一症七十九方成编
+    labels:
+      zh: 胎前临产
+    start_date: '1786-08-15'
+    highlight_event_id: guji-砺堂氏-event-preface
+  decisions:
+  - date: '1786-08-15'
+    title_zh: 弃传疑存可据以脉理通明为断
+    rationale: 旧书非博而弗精即约而未尽致传信传疑故须通明脉理广大见识
+  - date: '1786-08-15'
+    title_zh: 首立调经种子胎前临产为纲
+    rationale: 胎产为居家恒有荒陬僻壤安能尽觅良医故先示根本
+- id: guji-砺堂氏-endeavor-2
+  name_zh: 刊行中下卷生化汤经验良方
+  description: 独宗生化汤按症加减详临产产后调理兼刻叶老倪氏诸方公世
+  phases:
+  - key: breakthrough
+    name: 独宗生化汤按症加减
+    labels:
+      zh: 生化汤主方
+    start_date: '1786-08-15'
+    highlight_event_id: guji-砺堂氏-event-publish
+  - key: closure
+    name: 合刊宁坤秘笈经验良方公世
+    labels:
+      zh: 经验良方
+    start_date: '1786-08-15'
+    highlight_event_id: guji-砺堂氏-event-publish
+  decisions:
+  - date: '1786-08-15'
+    title_zh: 中卷独宗生化汤为主按症加减
+    rationale: 临产及产后调理毫无遗义须有一主方以统诸症
+  - date: '1786-08-15'
+    title_zh: 下卷附刻阴阳仙枣胎息及痢疟永效方
+    rationale: 珍藏经验方吉光片羽先公世以待续刻共观全豹
+events:
+- id: guji-砺堂氏-event-birth
+  type: birth
+  date: '1730'
+  year_of: 1730
+  title_zh: 生于清代
+  description: 生于清乾隆初年左右籍居耶溪月田
+- id: guji-砺堂氏-event-compile
+  type: compilation
+  date: '1780'
+  year_of: 1780
+  title_zh: 搜集妇科证治汇为调经种子诸方
+  description: 悯世艰搜集调经种子胎前临产症治上卷九十一症七十九方
+- id: guji-砺堂氏-event-preface
+  type: publication
+  date: '1786-08-15'
+  year_of: 1786
+  title_zh: 乾隆丙午孟秋闰月中浣题序宁坤秘笈
+  description: 于耶溪月田题序颜其目曰宁坤秘笈末直书曰经验良方
+- id: guji-砺堂氏-event-publish
+  type: publication
+  date: '1786-08-15'
+  year_of: 1786
+  title_zh: 合刊上下卷生化汤经验良方公世
+  description: 中卷宗生化汤详临产产后下卷类及叶老调经仙枣胎息诸方一并公世
+- id: guji-砺堂氏-event-death
+  type: death
+  date: '1795'
+  year_of: 1795
+  title_zh: 卒于乾隆末年左右
+  description: 续刻全豹之愿俟后人成之
