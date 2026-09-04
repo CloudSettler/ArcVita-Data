@@ -1,0 +1,138 @@
+person:
+  qid: guji-菩提达摩
+  name_zh: 菩提达摩
+  names:
+    zh: 菩提达摩
+    en: Bodhidharma
+  lifespan:
+    birth:
+      date: 0482
+      precision: year
+      is_circa: true
+      raw: 南天竺国王第三子约五世纪末生
+    death:
+      date: '0536'
+      precision: year
+      is_circa: true
+      raw: 梁时示寂于嵩山少林寺
+  birth_date: 0482
+  death_date: '0536'
+  era: 南北朝梁
+  reign_ref: 梁武帝
+  archetype: 西来传灯祖师
+  dilemmas:
+  - 震旦罕知自觉圣智当以何方便令其返躬自觉
+  - 真宗微密离言说文字当付何人堪舍身命求法
+  lesson: 真法离言说文字须以心传心得人乃付广开佛知见
+  summary_first_person: 吾本南天竺国王第三子自觉圣智成就已航海来震旦为人天开佛知见唯惠可宿心潜会断臂求法吾密以方便开发付以心印愿尽未来不断传灯
+  source_urls:
+  - https://daizhige.org/传法宝纪.html
+  - https://cbeta.org/T2838
+endeavors:
+- id: guji-菩提达摩-endeavor-1
+  title_zh: 航海东来开佛知见
+  summary: 自南天竺航海越重山来震旦为人天开自觉圣智指真境令返躬
+  phases:
+  - key: brewing
+    name: 天竺成就自觉
+    labels:
+      zh:
+      - 酝酿
+    start_date: 0482
+    highlight_event_id: guji-菩提达摩-event-birth
+  - key: breakthrough
+    name: 发愿船海东行
+    labels:
+      zh:
+      - 突破
+    start_date: '0520'
+    highlight_event_id: guji-菩提达摩-event-arrive
+  - key: climax
+    name: 震旦开示返躬
+    labels:
+      zh:
+      - 高潮
+    start_date: '0527'
+    highlight_event_id: guji-菩提达摩-event-arrive
+  - key: closure
+    name: 住止嵩山待机
+    labels:
+      zh:
+      - 收束
+    start_date: 0529
+    highlight_event_id: guji-菩提达摩-event-teach
+  decisions:
+  - date: '0520'
+    title_zh: 决定航海传法震旦
+    rationale: 为震旦有胜惠者故不惮海险欲广开佛知见
+  - date: '0527'
+    title_zh: 不立文字直指本心
+    rationale: 真如离言说名字相唯证心自觉可传故不系句义
+- id: guji-菩提达摩-endeavor-2
+  title_zh: 少林授法传灯惠可
+  summary: 住嵩山少林察惠可舍身求法密以方便开发师资相传不断
+  phases:
+  - key: brewing
+    name: 少林静住观察
+    labels:
+      zh:
+      - 酝酿
+    start_date: 0529
+    highlight_event_id: guji-菩提达摩-event-arrive
+  - key: breakthrough
+    name: 惠可断臂验诚
+    labels:
+      zh:
+      - 突破
+    start_date: '0532'
+    highlight_event_id: guji-菩提达摩-event-teach
+  - key: climax
+    name: 密付心印开发
+    labels:
+      zh:
+      - 高潮
+    start_date: '0532'
+    highlight_event_id: guji-菩提达摩-event-teach
+  - key: closure
+    name: 传灯有续示寂
+    labels:
+      zh:
+      - 收束
+    start_date: '0536'
+    highlight_event_id: guji-菩提达摩-event-death
+  decisions:
+  - date: '0532'
+    title_zh: 以身命验诚而后传
+    rationale: 斯道微密罕得其门非舍身命求之者不堪付嘱
+  - date: '0532'
+    title_zh: 密以方便取证于心
+    rationale: 随所发言略无系说令自得胜道远离妄想趣自觉地
+events:
+- id: guji-菩提达摩-event-birth
+  title_zh: 生于南天竺王家
+  date: 0482
+  year_of: 482
+  type: birth
+  place_zh: 南天竺
+  description: 大婆罗门种南天竺国王第三子机神超晤传自觉圣智
+- id: guji-菩提达摩-event-arrive
+  title_zh: 船海来震旦开化
+  date: '0527'
+  year_of: 527
+  type: career
+  place_zh: 震旦梁土嵩山
+  description: 为震旦国人故船海越山广为人天开佛知见时罕有知者唯道昱慧可宿心潜会
+- id: guji-菩提达摩-event-teach
+  title_zh: 少林授法于惠可
+  date: '0532'
+  year_of: 532
+  type: career
+  place_zh: 嵩山少林寺
+  description: 惠可精竭求之六年断臂以验诚恳大师从容密以方便开发便成师资相传
+- id: guji-菩提达摩-event-death
+  title_zh: 示寂于少林传灯有续
+  date: '0536'
+  year_of: 536
+  type: death
+  place_zh: 嵩山少林寺
+  description: 自达摩之后师资开道善以方便取证于心惠可承传灯不坠于地
