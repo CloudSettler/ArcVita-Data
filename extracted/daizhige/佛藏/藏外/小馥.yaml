@@ -1,0 +1,132 @@
+person:
+  qid: guji-小馥
+  name_zh: 小馥
+  names:
+    zh: 小馥
+    en: Xiaofu
+  lifespan:
+    birth:
+      date: '1890'
+      precision: year
+      is_circa: true
+      raw: 宣統元年年不過二九外逆推約生
+    death:
+      date: '1915'
+      precision: year
+      is_circa: true
+      raw: 獄後失載約計佚亡
+  birth_date: '1890'
+  death_date: '1915'
+  era: 清末
+  reign_ref: 宣統元年
+  archetype: 蒙冤比丘尼
+  dilemmas:
+  - 外出唪經三日歸庵即被不問情由繫獄
+  - 同庵姦殺棄屍大案牽連疑獄定讞難雪
+  lesson: 官憑臆見以疑為讞則清修亦罹覆盆，處是非之地當遠避以自全
+  summary_first_person: 我本蘇州鳳池庵小尼，應招往臨頓路唪經三日，經畢歸庵即被縣差繫去，於殺客事茫然不知，刑威之下唯嘤嘤而泣，竟與真兇同罪，冤哉何訴
+  source_urls:
+  - https://daizhige.org/佛藏/藏外/梵門綺語錄三種.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/藏外/梵門綺語錄三種.md
+endeavors:
+- id: guji-小馥-endeavor-1
+  title_zh: 鳳池清修應赴經懺
+  summary_zh: 自幼居泮環巷鳳池庵清修，應他庵招赴臨頓路新喪家唪經三日
+  phases:
+  - key: brewing
+    name: 棲身鳳池
+    labels:
+      zh:
+      - 清修
+    start_date: '1898'
+    highlight_event_id: guji-小馥-event-birth
+  - key: breakthrough
+    name: 應招唪經
+    labels:
+      zh:
+      - 經懺
+    start_date: '1909-09-01'
+    highlight_event_id: guji-小馥-event-chant
+  - key: closure
+    name: 經畢歸庵
+    labels:
+      zh:
+      - 牽連
+    start_date: '1909-09-15'
+    highlight_event_id: guji-小馥-event-arrest
+  decisions:
+  - date: '1909-09-01'
+    title_zh: 應臨頓路新喪家之招往唪經
+    rationale: 承乏助念三日以結緣並資道糧
+  - date: '1909-09-15'
+    title_zh: 經畢即歸本庵不作逗留
+    rationale: 本庵為常住所繫不敢久離
+- id: guji-小馥-endeavor-2
+  title_zh: 蒙冤繫獄待判
+  summary_zh: 歸庵適逢兇案發被不分皂白繫案，官以疑為讞遂與織機者同罪籍沒庵產
+  phases:
+  - key: brewing
+    name: 兇案驟發
+    labels:
+      zh:
+      - 飛禍
+    start_date: '1909-09-14'
+    highlight_event_id: guji-小馥-event-murder
+  - key: climax
+    name: 分押受審
+    labels:
+      zh:
+      - 蒙冤
+    start_date: '1909-09-15'
+    highlight_event_id: guji-小馥-event-arrest
+  - key: closure
+    name: 疑定為讞
+    labels:
+      zh:
+      - 覆盆
+    start_date: '1909-10-01'
+    highlight_event_id: guji-小馥-event-trial
+  decisions:
+  - date: '1909-09-15'
+    title_zh: 被拘時唯啜泣默然未能力辯
+    rationale: 刑具森然官勢可畏且於案情一無所知
+  - date: '1909-10-01'
+    title_zh: 與一干人分別管押禁交通
+    rationale: 身繫囹圄無從通音問亦無從明底蘊
+events:
+- id: guji-小馥-event-birth
+  title_zh: 出生入庵
+  date: '1890'
+  year_of: 1890
+  place_zh: 蘇州盤門泮環巷鳳池庵
+  summary_zh: 約生於光緒年間後入鳳池庵為尼體態苗條豐神韶秀
+- id: guji-小馥-event-chant
+  title_zh: 赴臨頓路唪經
+  date: '1909-09-01'
+  year_of: 1909
+  place_zh: 蘇州臨頓路新喪家
+  summary_zh: 應他庵之招為城中臨頓路新喪家唪經往承其乏三日不歸
+- id: guji-小馥-event-murder
+  title_zh: 鳳池庵殺客棄屍
+  date: '1909-09-14'
+  year_of: 1909
+  place_zh: 蘇州鳳池庵及庵後窪水
+  summary_zh: 中年尼與織機者醉殺常熟客盡取其財呼小販棄屍庵後窪水中織機者當夜走
+- id: guji-小馥-event-arrest
+  title_zh: 歸庵被拘繫案
+  date: '1909-09-15'
+  year_of: 1909
+  place_zh: 蘇州鳳池庵門首
+  summary_zh: 經畢歸來縣差已在門首不分皂白與庵中尼共縶到案唯嘤嘤而泣
+- id: guji-小馥-event-trial
+  title_zh: 疑獄定讞加罪
+  date: '1909-10-01'
+  year_of: 1909
+  place_zh: 蘇州縣衙
+  summary_zh: 官錄織機者扳誣之供以年相若為據逐庵中尼籍沒庵產定織機者罪並加罪小馥
+- id: guji-小馥-event-death
+  title_zh: 獄後佚亡
+  date: '1915'
+  year_of: 1915
+  place_zh: 蘇州
+  summary_zh: 案後與一干人分別管押禁交通底蘊至死不明遂佚亡年月失載
