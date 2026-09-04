@@ -1,0 +1,128 @@
+person:
+  qid: guji-佛母
+  name_zh: 佛母
+  names:
+    zh: 佛母
+    en: Mahamaya
+  lifespan:
+    birth:
+      date: -0580
+      precision: year
+      is_circa: true
+      raw: 约公元前五八〇年
+    death:
+      date: -371
+      precision: year
+      is_circa: true
+      raw: 太子诞生七日后
+  birth_date: -0580
+  death_date: -371
+  era: 春秋时古印度
+  archetype: 慈母圣母
+  dilemmas:
+  - 子在人间成佛而母居天上不得朝夕相见之憾
+  - 忽闻爱子入灭欲奔丧与安住天宫之间的两难
+  lesson: 恩爱会有别离苦空无常唯寂灭为乐
+  summary_first_person: 吾为佛母居忉利天闻子入般涅槃悲痛奔丧至娑罗双树绕棺请法得寂灭偈而心喜
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E7%96%91%E4%BC%BC%E9%83%A8/%E4%BD%9B%E6%AF%8D%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E7%96%91%E4%BC%BC%E9%83%A8/%E4%BD%9B%E6%AF%8D%E7%BB%8F.md
+endeavors:
+- id: guji-佛母-endeavor-1
+  title_zh: 诞育太子为佛之母
+  description: 宿缘生太子七日而逝升忉利天为天母
+  phases:
+  - key: brewing
+    name: 结缘怀孕
+    labels:
+      zh: 孕育
+    start_date: -372
+    highlight_event_id: guji-佛母-event-birth-prince
+  - key: breakthrough
+    name: 诞生太子
+    labels:
+      zh: 诞育
+    start_date: -0563-04-08
+    highlight_event_id: guji-佛母-event-birth-prince
+  - key: climax
+    name: 七日而逝
+    labels:
+      zh: 离别
+    start_date: -0563-04-15
+    highlight_event_id: guji-佛母-event-death
+  - key: closure
+    name: 升居忉利
+    labels:
+      zh: 升天
+    start_date: -0563-04-15
+    highlight_event_id: guji-佛母-event-death
+  decisions:
+  - date: -0563-04-15
+    title_zh: 舍寿早逝以全太子福德
+    rationale: 以母子宿缘促成佛出世不恋人寿而归天上
+- id: guji-佛母-endeavor-2
+  title_zh: 闻讣奔丧金棺听法
+  description: 中夜恶梦忧波梨报丧下忉利天绕棺请法得寂灭偈
+  phases:
+  - key: brewing
+    name: 中夜六梦
+    labels:
+      zh: 预兆
+    start_date: -0483-02-14
+    highlight_event_id: guji-佛母-event-dream
+  - key: breakthrough
+    name: 忧波梨报丧
+    labels:
+      zh: 闻讣
+    start_date: -0483-02-15
+    highlight_event_id: guji-佛母-event-dream
+  - key: climax
+    name: 下天奔丧绕棺请法
+    labels:
+      zh: 奔丧
+    start_date: -0483-02-15
+    highlight_event_id: guji-佛母-event-mourning
+  - key: closure
+    name: 闻寂灭偈心喜还天
+    labels:
+      zh: 得法
+    start_date: -0483-02-15
+    highlight_event_id: guji-佛母-event-mourning
+  decisions:
+  - date: -0483-02-15
+    title_zh: 率徒众即下娑罗双树奔丧
+    rationale: 举身疼痛亦愿早来礼敬三宝见子最后一面
+  - date: -0483-02-15
+    title_zh: 绕棺三匝请半偈之法
+    rationale: 以母子之情唤金棺开而留法利后世
+events:
+- id: guji-佛母-event-birth
+  title_zh: 佛母降生
+  date: -0580
+  year_of: -580
+  description: 佛母生于古印度列国时代后为净饭王妃
+  related_endeavor_id: guji-佛母-endeavor-1
+- id: guji-佛母-event-birth-prince
+  title_zh: 诞育太子
+  date: -0563-04-08
+  year_of: -563
+  description: 于蓝毗尼园诞育悉达多太子即后之世尊
+  related_endeavor_id: guji-佛母-endeavor-1
+- id: guji-佛母-event-death
+  title_zh: 产后七日逝而升忉利天
+  date: -0563-04-15
+  year_of: -563
+  description: 太子生后七日佛母命终升忉利天为天母
+  related_endeavor_id: guji-佛母-endeavor-1
+- id: guji-佛母-event-dream
+  title_zh: 中夜六种恶梦并闻忧波梨报丧
+  date: -0483-02-14
+  year_of: -483
+  description: 中夜梦见珍山崩四海竭五月霜幡摧火烧乳流忧波梨从空来报世尊子时入般涅槃
+  related_endeavor_id: guji-佛母-endeavor-2
+- id: guji-佛母-event-mourning
+  title_zh: 下忉利天至娑罗双树绕棺得偈
+  date: -0483-02-15
+  year_of: -483
+  description: 将诸徒众下至娑罗双树见殡敛已讫绕棺三匝请法金棺自开世尊坐莲台说世间苦空诸行无常偈母闻法欢喜还归本天途中慈悲大哭天地震动
+  related_endeavor_id: guji-佛母-endeavor-2
