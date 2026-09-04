@@ -1,0 +1,149 @@
+person:
+  qid: guji-程林
+  name_zh: 程林
+  names:
+    zh: 程林
+    en: Cheng Lin
+  lifespan:
+    birth:
+      date: 1635
+      precision: year
+      is_circa: true
+      raw: 清初约生于新安
+    death:
+      date: 1700
+      precision: year
+      is_circa: true
+      raw: 康熙末卒年不详
+  birth_date: 1635
+  death_date: 1700
+  era: 清
+  reign_ref: 康熙
+  archetype: 医者
+  dilemmas:
+  - 忙为名医与暇以成医之辨
+  - 述而不作与纵论天地物理之辨
+  - 专治疾疢与兼通道儒释道之辨
+  lesson: 医必以暇、以静、以理持之，通天地性命物理而后能臻妙
+  summary_first_person: 我是新安程林，字云来，清初寓吴门一带行医，研治金匮，辑即得方，又于医暇著卮言二卷，欲以性命物理之学通医道，不以忙为功而以暇为治
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%9A%87%E5%8D%AE%E8%A8%80.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8C%BB%E6%9A%87%E5%8D%AE%E8%A8%80.html
+endeavors:
+- id: guji-程林-endeavor-1
+  title_zh: 研治金匮辑即得方济世
+  summary_zh: 通金匮秘文，家藏圣济总录，日夕津涉，辑即得方以引流润物
+  phases:
+  - key: brewing
+    name: 新安习医津涉金匮
+    labels:
+      zh:
+      - 习岐黄
+      - 研金匮
+    start_date: 1655
+    highlight_event_id: guji-程林-event-birth
+  - key: breakthrough
+    name: 通金匮著银丸得名
+    labels:
+      zh:
+      - 通秘文
+      - 名动诸侯
+    start_date: 1668
+    highlight_event_id: guji-程林-event-jidefang
+  - key: climax
+    name: 辑即得方刊行吴门
+    labels:
+      zh:
+      - 述而不作
+      - 泽天下
+    start_date: 1672
+    highlight_event_id: guji-程林-event-jidefang
+  - key: closure
+    name: 以暇为医守静全真
+    labels:
+      zh:
+      - 以暇成医
+      - 十全为上
+    start_date: 1676
+    highlight_event_id: guji-程林-event-jidefang
+  decisions:
+  - date: 1670
+    title_zh: 不注金匮而先辑即得方
+    rationale: 意之所解不可言传，先述而不作，使禾黍资茂蠡勺可挹
+  - date: 1672
+    title_zh: 请尤侗作序而行即得方
+    rationale: 借吴门名士表章，使沟浍之流达于病家，成济世之实
+- id: guji-程林-endeavor-2
+  title_zh: 医暇著卮言通性命物理
+  summary_zh: 于医暇笼天地罗万物，论天文易理丹道医理，虽不言医而医道寓焉
+  phases:
+  - key: brewing
+    name: 耽炙性命物理之学
+    labels:
+      zh:
+      - 观物
+      - 穷理
+    start_date: 1665
+    highlight_event_id: guji-程林-event-jidefang
+  - key: breakthrough
+    name: 假卮言寓意于医
+    labels:
+      zh:
+      - 笼天地
+      - 罗万物
+    start_date: 1674
+    highlight_event_id: guji-程林-event-zhiyan
+  - key: climax
+    name: 成医暇卮言二卷示友
+    labels:
+      zh:
+      - 坚白同异
+      - 问难思过
+    start_date: 1676
+    highlight_event_id: guji-程林-event-zhiyan
+  - key: closure
+    name: 三序并传不朽在卮言
+    labels:
+      zh:
+      - 吴绮作序
+      - 尤薛继序
+    start_date: 1677
+    highlight_event_id: guji-程林-event-zhiyan
+  decisions:
+  - date: 1675
+    title_zh: 以卮言发医意不直注经
+    rationale: 医者意也，斫轮解牛之旨通于读古，观卮言则问难思过半矣
+  - date: 1676
+    title_zh: 索序吴绮尤侗薛珩以传
+    rationale: 道在秕稗瓦砾，借三家序发明暇以成医之义，使传之不朽不仅以医
+events:
+- id: guji-程林-event-birth
+  type: birth
+  title_zh: 生于新安程氏
+  date: 1635
+  year_of: 1635
+  location_zh: 新安
+  description_zh: 清初生于徽州新安，后以医名于江左吴门
+  is_circa: true
+- id: guji-程林-event-jidefang
+  type: career
+  title_zh: 研金匮辑即得方刊行
+  date: 1672
+  year_of: 1672
+  location_zh: 吴门
+  description_zh: 通金匮秘文，家藏宋徽宗圣济总录，辑即得方，尤侗序而行之
+- id: guji-程林-event-zhiyan
+  type: career
+  title_zh: 撰成医暇卮言二卷
+  date: 1676-03-01
+  year_of: 1676
+  location_zh: 吴门
+  description_zh: 于医暇成卮言二卷，包举二仪周罗万象，得吴绮尤侗序，次年薛珩再序
+- id: guji-程林-event-death
+  type: death
+  title_zh: 卒于吴门寓所
+  date: 1700
+  year_of: 1700
+  location_zh: 吴门
+  description_zh: 康熙末卒，具体年月不详，以卮言即得方传于世
+  is_circa: true
