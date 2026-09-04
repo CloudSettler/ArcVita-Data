@@ -9,130 +9,133 @@ person:
       date: 1032-01-01
       precision: year
       is_circa: false
-      raw: 宋明道元年生于洛阳
+      raw: 宋明道元年
     death:
-      date: 1085-07-09
+      date: 1085-06-01
       precision: year
       is_circa: false
-      raw: 宋元丰八年卒于洛阳
+      raw: 宋元丰八年
   birth_date: 1032-01-01
-  death_date: 1085-07-09
+  death_date: 1085-06-01
   era: 北宋
-  reign_ref: 仁宗明道至神宗元丰
-  archetype: 以诚立本的理学宗师
+  reign_ref: 宋仁宗至宋神宗
+  archetype: 洛学宗师
   dilemmas:
-  - 立德进德孰先孰后之辨
-  - 克己复礼即道还是离道之惑
-  - 空言讲习与实学修业之分
-  lesson: 主敬立本穷理进知修辞立诚以复天然完足之性
-  summary_first_person: 吾生洛阳少学于周敦颐以识仁为宗终日干干以忠信进德以敬养心愿与学者共复天德之全
+  - 道在己还是道外求道若外求则离道若内求又须克己复礼方能体道
+  - 出仕行道还是归洛化人以法把持易以道治难直谏见黜则当以讲学修礼续其志
+  - 辞章传道还是立诚传道修辞立诚方为实业空言讲习无益须敬直义方以进德
+  lesson: 道即性也敬以直内义以方外存养熟后自然简易明白而易行
+  summary_first_person: 吾乃河南程颢字伯淳与叔子同阐道学尝谓道即性也天德完足若有污坏则敬以治之使复如旧论仁曰得道不忧即为仁论学曰圣贤千言只欲人收放心而上达平生黜佛老之幻守孔孟之实出仕则以忠信开牖归洛则以礼教合族庶几以道治天下
   source_urls:
-  - https://daizhige.org
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%B2%B3%E5%8D%97%E7%A8%8B%E6%B0%8F%E9%81%97%E4%B9%A6.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%B2%B3%E5%8D%97%E7%A8%8B%E6%B0%8F%E9%81%97%E4%B9%A6.html
 endeavors:
 - id: guji-程颢-endeavor-1
-  title_zh: 洛中讲道立诚明理
-  summary_zh: 与弟程颐在洛讲学论仁论性门人追记为遗书卷一端伯传师说及洛阳议论之本
+  title_zh: 明道立教阐发性理
+  summary_zh: 以道即性立宗辨仁义礼乐倡敬义夹持开洛学以斥佛老之幻
   phases:
   - key: brewing
-    name: 少日访道
+    name: 早年求道讲习经传
     labels:
-      zh: 访道
-    start_date: 1046-01-01
-    highlight_event_id: guji-程颢-event-study
+      zh:
+      - 求道
+    start_date: 1045-01-01
+    highlight_event_id: guji-程颢-event-jinshi
   - key: breakthrough
-    name: 洛阳会讲
+    name: 辨道斥幻明性善
     labels:
-      zh: 会讲
-    start_date: 1072-01-01
-    highlight_event_id: guji-程颢-event-luoyang
+      zh:
+      - 明道
+    start_date: 1060-01-01
+    highlight_event_id: guji-程颢-event-yushi
   - key: climax
-    name: 明诚定论
+    name: 洛中讲学语录广传
     labels:
-      zh: 立诚
-    start_date: 1077-01-01
-    highlight_event_id: guji-程颢-event-luoyang
+      zh:
+      - 立教
+    start_date: 1082-01-01
+    highlight_event_id: guji-程颢-event-luoxue
   - key: closure
-    name: 门人追记成编
+    name: 遗书集成门人追记
     labels:
-      zh: 追记
-    start_date: 1086-01-01
+      zh:
+      - 成书
+    start_date: 1085-06-01
     highlight_event_id: guji-程颢-event-death
   decisions:
-  - date: 1072-01-01
-    title_zh: 以修辞立诚为下手处
-    rationale: 空言讲习无益故以立诚居业敬直内义方外为实学
-  - date: 1077-01-01
-    title_zh: 断克己复礼即是道
-    rationale: 道己不离非外求故须克己复礼以体道全天然之性
+  - date: 1060-01-01
+    title_zh: 以道即性立论不外求
+    rationale: 道外寻性便不是故直指天德完足敬以治之使复如旧
+  - date: 1082-01-01
+    title_zh: 以识仁主敬教人存养
+    rationale: 圣贤千言只欲人收放心故终日对越敬直义方以进德
 - id: guji-程颢-endeavor-2
-  title_zh: 历仕济民行道于政
-  summary_zh: 举进士历鄠县晋城扶沟等令以道治民以礼化俗后召为监察御史论新法不合去位
+  title_zh: 出仕守正匡救时政
+  summary_zh: 登进士历主簿御史以忠信进德论新法不合讲求以道治天下
   phases:
   - key: brewing
-    name: 进士入仕
+    name: 进士及第初入仕途
     labels:
-      zh: 入仕
+      zh:
+      - 入仕
     start_date: 1057-01-01
     highlight_event_id: guji-程颢-event-jinshi
   - key: breakthrough
-    name: 晋城为政
+    name: 监察论事直言得失
     labels:
-      zh: 为政
+      zh:
+      - 谏诤
     start_date: 1069-01-01
-    highlight_event_id: guji-程颢-event-jincheng
-  - key: climax
-    name: 台谏论道
-    labels:
-      zh: 论道
-    start_date: 1085-01-01
     highlight_event_id: guji-程颢-event-yushi
-  - key: closure
-    name: 罢归洛阳
+  - key: climax
+    name: 论王介甫塔中求道
     labels:
-      zh: 归洛
-    start_date: 1085-03-01
-    highlight_event_id: guji-程颢-event-death
+      zh:
+      - 论道
+    start_date: 1070-01-01
+    highlight_event_id: guji-程颢-event-lunzheng
+  - key: closure
+    name: 罢归洛阳专事讲学
+    labels:
+      zh:
+      - 归洛
+    start_date: 1082-01-01
+    highlight_event_id: guji-程颢-event-luoxue
   decisions:
   - date: 1069-01-01
-    title_zh: 以养民化俗为先
-    rationale: 天地生人各足其分故尽用人才明分守以兴教化
-  - date: 1085-01-01
-    title_zh: 论新法不徇时好
-    rationale: 以道治天下非以法把持故守正议虽忤亦不苟从
+    title_zh: 任御史直论时政得失
+    rationale: 以道治天下非以法把持故不畏权贵以忠信开纳约自牖
+  - date: 1082-01-01
+    title_zh: 去位不恋专注化人
+    rationale: 天地生一世人足一世事故以教化合族修礼为实业
 events:
 - id: guji-程颢-event-birth
+  title_zh: 生于黄陂
   date: 1032-01-01
   year_of: 1032
-  title_zh: 出生于洛阳
-  description: 宋明道元年生字伯淳后谥明道为程珦长子
-- id: guji-程颢-event-study
-  date: 1046-01-01
-  year_of: 1046
-  title_zh: 从周敦颐学识仁
-  description: 少时与弟颐从周敦颐学得识仁一体之要以诚敬为本
+  description_zh: 宋明道元年生于河南后随父宦游幼即颖悟究心经传
 - id: guji-程颢-event-jinshi
+  title_zh: 嘉祐进士及第
   date: 1057-01-01
   year_of: 1057
-  title_zh: 登进士第
-  description: 嘉祐二年登第调鄠县主簿以道佐政兴学养士
-- id: guji-程颢-event-jincheng
+  description_zh: 嘉祐二年登进士第调鄠县主簿上元主簿以诚敬治民立教化之基
+- id: guji-程颢-event-yushi
+  title_zh: 任监察御史论新法
   date: 1069-01-01
   year_of: 1069
-  title_zh: 知晋城扶沟以礼治民
-  description: 熙宁中历知晋城扶沟立乡校明伦序政教大行
-- id: guji-程颢-event-luoyang
-  date: 1077-01-01
-  year_of: 1077
-  title_zh: 洛阳讲学议论
-  description: 归洛与横渠张载及弟颐议论性道诸生追记为遗书洛阳议论及师训诸篇之源
-- id: guji-程颢-event-yushi
-  date: 1085-01-01
-  year_of: 1085
-  title_zh: 召为监察御史
-  description: 元丰末召为御史以正论时政旋以疾请归
+  description_zh: 熙宁初为监察御史里行上疏论王安石新法不便务以忠信恕道匡救时弊
+- id: guji-程颢-event-lunzheng
+  title_zh: 与王介甫论道塔喻
+  date: 1070-01-01
+  year_of: 1070
+  description_zh: 语王安石谈道如望塔相轮自言直入塔中攀登而上渐近相轮以讥离道言道之失
+- id: guji-程颢-event-luoxue
+  title_zh: 归洛讲学开洛学一脉
+  date: 1082-01-01
+  year_of: 1082
+  description_zh: 罢官归洛与弟颐讲学授徒论仁论性论敬论礼门人录为河南程氏遗书
 - id: guji-程颢-event-death
-  date: 1085-07-09
-  year_of: 1085
   title_zh: 卒于洛阳
-  description: 元丰八年六月卒门人朱光庭等述行状伊川作墓表朱子后编入遗书附录
+  date: 1085-06-01
+  year_of: 1085
+  description_zh: 元丰八年卒于洛阳门人追思其明道气象遗语由吕与叔等编次传世
