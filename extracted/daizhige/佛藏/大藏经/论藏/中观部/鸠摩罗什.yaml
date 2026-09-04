@@ -6,121 +6,121 @@ person:
     en: Kumarajiva
   lifespan:
     birth:
-      date: 228
+      date: '0344'
       precision: year
-      is_circa: false
-      raw: 前秦建元十年生于龟兹
+      is_circa: true
+      raw: 建元二年生于龟兹
     death:
-      date: 267
+      date: '0413'
       precision: year
       is_circa: false
-      raw: 姚秦弘始十五年寂于长安
-  birth_date: 228
-  death_date: 267
-  era: 东晋十六国
-  reign_ref: 姚兴弘始年间
-  archetype: 译经宗师
+      raw: 弘始十五年示寂于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国后秦
+  reign_ref: 姚秦弘始
+  archetype: 译经弘法者
   dilemmas:
-  - 梵义精微与华言达意之间如何两全
-  - 空宗深观与世俗信解之间如何善巧开示
-  lesson: 以信解深法而忘怀得失，专精译传，使中道正观流通华土
-  summary_first_person: 我生于龟兹，幼慕佛法，西行求学，及入长安，主持译场，译出中论等诸般若中观圣典，愿以中道破邪显正，令学者泯二际而悟实相
+  - 方言未融而思寻者踌躇于谬文
+  - 邪辩逼真而圣教陵迟群迷纵惑
+  lesson: 陶练覆疏务存论旨使质而不野简而必诣以明宗极
+  summary_first_person: 我常味咏百论以为心要亲译之后复与众考校正本以通圣心开真谛
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E4%B8%AD%E8%A7%82%E9%83%A8/%E4%B8%AD%E8%AE%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E4%B8%AD%E8%A7%82%E9%83%A8/%E4%B8%AD%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E4%B8%AD%E8%A7%82%E9%83%A8/%E7%99%BE%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E4%B8%AD%E8%A7%82%E9%83%A8/%E7%99%BE%E8%AE%BA.md
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 长安译场主持群经翻译
-  summary: 应姚秦之请入关，在长安逍遥园设译场，率众译出般若中观等大部，奠定华文佛典规模
+  title_zh: 在长安校译百论
+  summary: 亲译百论而方言未融遂于弘始六年集众考校以定正本
   phases:
   - key: brewing
-    name: 西域出家求学
+    name: 钻仰味咏
     labels:
-      zh: 酝酿
-    start_date: 228
+      zh: 研读
+    start_date: 0394
+    highlight_event_id: guji-鸠摩罗什-event-changan
+  - key: breakthrough
+    name: 亲译初成
+    labels:
+      zh: 初译
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-changan
+  - key: climax
+    name: 集众考校
+    labels:
+      zh: 校定
+    start_date: '0404'
+    highlight_event_id: guji-鸠摩罗什-event-bailun
+  - key: closure
+    name: 正本流布
+    labels:
+      zh: 流布
+    start_date: '0405'
+    highlight_event_id: guji-鸠摩罗什-event-bailun
+  decisions:
+  - date: '0404'
+    title_zh: 集理味沙门考校正本
+    rationale: 方言未融致标位乖迕故当陶练覆疏务存论旨
+  - date: '0404'
+    title_zh: 与姚嵩共定质简之体
+    rationale: 使质而不野简而必诣宗致尽显无间然
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 据译场弘通大乘
+  summary: 依中观破邪显正以助道化令正化隆而邪道替
+  phases:
+  - key: brewing
+    name: 西域学游
+    labels:
+      zh: 学法
+    start_date: '0353'
     highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 入关抵达长安
+    name: 入关长安
     labels:
-      zh: 突破
-    start_date: 257
+      zh: 入秦
+    start_date: '0401'
     highlight_event_id: guji-鸠摩罗什-event-changan
   - key: climax
-    name: 译场群经并出
+    name: 主持译场
     labels:
-      zh: 高潮
-    start_date: 0409
-    highlight_event_id: guji-鸠摩罗什-event-zhonglun
+      zh: 译经
+    start_date: '0404'
+    highlight_event_id: guji-鸠摩罗什-event-bailun
   - key: closure
-    name: 译业圆成示寂
+    name: 付嘱来叶
     labels:
-      zh: 收束
-    start_date: 267
+      zh: 传承
+    start_date: '0412'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
-  - date: 257
-    title_zh: 应请入关长安弘法
-    rationale: 以西域所学契合中土渴仰，愿借秦地护持弘传大乘，不惮道途艰远而西入关中
-  - date: 262
-    title_zh: 开设译场重校梵汉
-    rationale: 以旧译文质多失，须集义学僧众共参梵本华言，裁繁补阙，使经通理尽而文义畅达
-- id: guji-鸠摩罗什-endeavor-2
-  title_zh: 中观空宗译传与中论弘宣
-  summary: 依梵志青目释本译出龙树中论五百偈，宣说八不中道破邪显正，与百论十二门大智论相表里
-  phases:
-  - key: brewing
-    name: 深究龙树中观本义
-    labels:
-      zh: 酝酿
-    start_date: 257
-    highlight_event_id: guji-鸠摩罗什-event-changan
-  - key: breakthrough
-    name: 发心译出中论
-    labels:
-      zh: 突破
-    start_date: 0408
-    highlight_event_id: guji-鸠摩罗什-event-zhonglun
-  - key: climax
-    name: 中论译成开示八不
-    labels:
-      zh: 高潮
-    start_date: 0409
-    highlight_event_id: guji-鸠摩罗什-event-zhonglun
-  - key: closure
-    name: 僧睿作序流通华土
-    labels:
-      zh: 收束
-    start_date: 267
-    highlight_event_id: guji-鸠摩罗什-event-death
-  decisions:
-  - date: 0409
-    title_zh: 抉择龙树青目本译出中论
-    rationale: 以中土学者滞于名相深著诸法，须以不生不灭八不缘起破断常邪见，故首译此论以祛内滞
-  - date: 0409
-    title_zh: 保留偈颂体裁兼融释义
-    rationale: 以中为名照实，以论为称尽言，存梵志青目释义而裁其烦重，使辞达理诣便于玩味受持
+  - date: '0401'
+    title_zh: 应请入关居于长安
+    rationale: 器量渊弘俊神超邈可使风味宣流被于来叶
+  - date: '0412'
+    title_zh: 以空无相无作示人
+    rationale: 防正闲邪大明宗极远拯沉沦返本还源
 events:
 - id: guji-鸠摩罗什-event-birth
-  date: 228
+  title_zh: 生于龟兹
+  type: birth
+  date: '0344'
   year_of: 344
-  title_zh: 出生龟兹
-  description: 生于西域龟兹国，家世显贵，幼年随母出家，聪慧博达
-  endeavor_ref: guji-鸠摩罗什-endeavor-1
+  summary: 龟兹生而器量渊弘少好大道钻仰累年
 - id: guji-鸠摩罗什-event-changan
-  date: 257
+  title_zh: 入关至长安
+  type: endeavor
+  date: '0401'
   year_of: 401
-  title_zh: 入关抵长安
-  description: 应姚兴迎请抵达长安，入逍遥园主持译事，四方义学云集
-  endeavor_ref: guji-鸠摩罗什-endeavor-1
-- id: guji-鸠摩罗什-event-zhonglun
-  date: 0409
-  year_of: 409
-  title_zh: 译出中论
-  description: 依青目释译出龙树中论，宣说不生不灭不一不异八不中道，僧睿为之作序
-  endeavor_ref: guji-鸠摩罗什-endeavor-2
+  summary: 弘始三年至长安主持译事味咏百论以为心要
+- id: guji-鸠摩罗什-event-bailun
+  title_zh: 弘始六年校定百论
+  type: endeavor
+  date: '0404'
+  year_of: 404
+  summary: 与姚嵩集理味沙门考校正本陶练覆疏论凡二十品
 - id: guji-鸠摩罗什-event-death
-  date: 267
+  title_zh: 示寂于长安
+  type: death
+  date: '0413'
   year_of: 413
-  title_zh: 示寂长安
-  description: 寂于长安，译业圆成，遗嘱所译不谬，弟子分传其法，流光余惠被于后世
-  endeavor_ref: guji-鸠摩罗什-endeavor-1
+  summary: 弘始十五年示寂译业既成宗涂易晓
