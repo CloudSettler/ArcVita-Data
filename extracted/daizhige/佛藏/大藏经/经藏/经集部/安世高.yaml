@@ -6,136 +6,144 @@ person:
     en: An Shigao
   lifespan:
     birth:
-      date: ~0100
+      date: '0100'
       precision: year
       is_circa: true
-      raw: 约汉顺帝时生于安息国王家
+      raw: 约后汉初生于安息国王家
     death:
-      date: ~0168
+      date: '0170'
       precision: year
       is_circa: true
-      raw: 约汉灵帝初卒于广州
-  birth_date: ~0100
-  death_date: ~0168
-  era: 东汉
+      raw: 约汉灵帝时卒于江南
+  birth_date: '0100'
+  death_date: '0170'
+  era: 后汉
   reign_ref: 汉桓帝建和至汉灵帝建宁
-  archetype: 译经弘法者
+  archetype: 舍国译经开创者
   dilemmas:
-  - 舍弃安息王位继承与安逸，抉择出家远行弘法
-  - 华梵悬隔文义难通，抉择质朴直译以存经义
-  lesson: 弹指思惟死想亦是精进，舍位译经以续慧命
-  summary_first_person: 吾本安息太子，舍国出家，博通三藏，汉桓帝建和二年至洛阳，译禅行法想等经，教人弹指间观死无常不净以断放逸，后南游会稽广州偿宿业而终
+  - 让国出家与嗣位荣华之抉择
+  - 梵胡深义与汉文质朴之贯通难题
+  - 止观对治与汉地初学根机之契合难题
+  lesson: 舍荣弘法，首启汉译，以无常苦空非身观照五阴
+  summary_first_person: 我本安息太子让国出家，东游洛阳，译阴持入经等三十余部，阐五阴十八持十二入，以四谛三十七品止观化众
   source_urls:
-  - https://daizhige.org/zh-hans/fozang/dazangjing/jingzang/jingjibu/chanxingfaxiangjing.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/fozang/dazangjing/jingzang/jingjibu/chanxingfaxiangjing.md
-  - https://cbetaonline.dila.edu.tw/T0605
+  - https://cbeta.org/result/T0603
+  - https://daizhige.org
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 洛阳开创汉译佛典
-  summary: 建和二年来洛阳，二十余年译出安般守意阴持入等人事诸经，奠定汉地译经体例
+  title_zh: 让国出家东来洛阳
+  summary: 安息太子舍位出家，精通三藏，于桓帝时东来洛阳弘化
   phases:
   - key: brewing
-    name: 安息王族出家学三藏
+    name: 安息王家学法
     labels:
       zh:
-      - 修学
-    start_date: ~0120
+      - 王子
+      - 出家
+    start_date: '0100'
     highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 建和二年抵达洛阳
+    name: 让国西行求法
     labels:
       zh:
-      - 东来
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-arrive-luoyang
+      - 让国
+      - 求法
+    start_date: '0140'
+    highlight_event_id: guji-安世高-event-arrival
   - key: climax
-    name: 洛阳译经二十余年
+    name: 初至洛阳弘化
+    labels:
+      zh:
+      - 洛阳
+      - 弘化
+    start_date: 0148
+    highlight_event_id: guji-安世高-event-arrival
+  - key: closure
+    name: 安顿译场授徒
+    labels:
+      zh:
+      - 译场
+      - 授徒
+    start_date: 0149
+    highlight_event_id: guji-安世高-event-translation
+  decisions:
+  - date: '0140'
+    title_zh: 舍王位出家
+    rationale: 厌世无常，愿以法利人，故让国与叔父而出家学道
+  - date: 0148
+    title_zh: 决意东来洛阳
+    rationale: 汉地初闻佛法而乏译传，愿东行以经法饶益汉土
+- id: guji-安世高-endeavor-2
+  title_zh: 译阐阴持入经弘扬禅数
+  summary: 在洛阳译出阴持入经安般守意等，奠定汉地禅数与义理之基
+  phases:
+  - key: brewing
+    name: 通习三藏义理
+    labels:
+      zh:
+      - 三藏
+      - 义理
+    start_date: 0148
+    highlight_event_id: guji-安世高-event-arrival
+  - key: breakthrough
+    name: 首译阴持入经
     labels:
       zh:
       - 译经
-    start_date: 0149
-    highlight_event_id: guji-安世高-event-translate-chanxing
+      - 阴持入经
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-translation
+  - key: climax
+    name: 广译禅经授徒讲习
+    labels:
+      zh:
+      - 禅数
+      - 授徒
+    start_date: '0160'
+    highlight_event_id: guji-安世高-event-teaching
   - key: closure
-    name: 关洛纷扰发心南游
+    name: 南行化导终老
     labels:
       zh:
       - 南游
-    start_date: ~0165
-    highlight_event_id: guji-安世高-event-go-south
+      - 化导
+    start_date: 0168
+    highlight_event_id: guji-安世高-event-death
   decisions:
-  - date: 0148
-    title_zh: 舍王位东来汉地
-    rationale: 为避王位争夺延续法命，愿以译经弘法报佛恩
-  - date: 0149
-    title_zh: 采取质朴直译体例
-    rationale: 为存梵义不失经旨，宁辞质而义全，不饰文而害义
-- id: guji-安世高-endeavor-2
-  title_zh: 传授禅数观想法门
-  summary: 译传禅行法想经等，教导弹指间思惟死想无常不净空无我，开启汉地小乘禅观之源
-  phases:
-  - key: brewing
-    name: 精研安般数息禅法
-    labels:
-      zh:
-      - 禅修
-    start_date: ~0135
-    highlight_event_id: guji-安世高-event-birth
-  - key: breakthrough
-    name: 译出禅行法想经
-    labels:
-      zh:
-      - 传禅
-    start_date: ~0150
-    highlight_event_id: guji-安世高-event-translate-chanxing
-  - key: climax
-    name: 舍卫祇园开示弹指精进
-    labels:
-      zh:
-      - 弘法
-    start_date: ~0152
-    highlight_event_id: guji-安世高-event-translate-chanxing
-  - key: closure
-    name: 南土化度偿业示现因果
-    labels:
-      zh:
-      - 示现
-    start_date: ~0166
-    highlight_event_id: guji-安世高-event-go-south
-  decisions:
-  - date: ~0150
-    title_zh: 先译禅观小经接引初机
-    rationale: 汉人初闻大法难信，先以死想无常等易行之观令生厌离
-  - date: ~0166
-    title_zh: 知宿怨在广州仍决然南行
-    rationale: 明了因果不昧，愿亲身偿宿债以示业报不爽
+  - date: '0150'
+    title_zh: 先译阴持入经明五阴要义
+    rationale: 汉人未达蕴处界空义，先译此经立无常苦空非身之本
+  - date: '0160'
+    title_zh: 以止观双药对治爱痴
+    rationale: 见汉地众生具爱痴二病，故以止治爱以观治痴而设教
 events:
 - id: guji-安世高-event-birth
-  title_zh: 生于安息国王家
-  date: ~0100
+  title_zh: 生于安息国
+  date: '0100'
   year_of: 100
   place_zh: 安息国
-  summary: 安息国太子，名清，字世高，幼聪慧，博通典籍与三藏
-- id: guji-安世高-event-arrive-luoyang
-  title_zh: 建和二年至洛阳
+  summary: 安息国太子，名清字世高，生于王家，天资聪敏
+- id: guji-安世高-event-arrival
+  title_zh: 东来至洛阳
   date: 0148
   year_of: 148
   place_zh: 洛阳
-  summary: 汉桓帝建和二年抵洛阳，通华言，开始译经弘法
-- id: guji-安世高-event-translate-chanxing
-  title_zh: 译出禅行法想经
-  date: ~0150
+  summary: 汉桓帝建和二年左右抵达洛阳，开始译经弘法
+- id: guji-安世高-event-translation
+  title_zh: 译出阴持入经
+  date: '0150'
   year_of: 150
   place_zh: 洛阳
-  summary: 译出禅行法想经，宣说弹指间思惟死想不净无常苦空无我等为精进行禅
-- id: guji-安世高-event-go-south
-  title_zh: 避乱南游会稽广州
-  date: ~0166
-  year_of: 166
-  place_zh: 会稽
-  summary: 关洛扰乱，南游会稽广州弘化，随缘度众
+  summary: 译出阴持入经，详说五阴六本十二入四谛三十七品，为汉地首部系统义理经
+- id: guji-安世高-event-teaching
+  title_zh: 弘阐禅数授徒
+  date: '0160'
+  year_of: 160
+  place_zh: 洛阳
+  summary: 译安般守意等禅经，教授止观，以不净苦非常非身对治四倒
 - id: guji-安世高-event-death
-  title_zh: 卒于广州
-  date: ~0168
-  year_of: 168
-  place_zh: 广州
-  summary: 于广州遇前世怨家，坦然偿宿业，示现因果而卒
+  title_zh: 卒于江南
+  date: '0170'
+  year_of: 170
+  place_zh: 江南
+  summary: 灵帝末南游化导，卒于江南，世传其神异灵迹
