@@ -3,128 +3,131 @@ person:
   name_zh: 张机
   names:
     zh: 张机
-    en: Zhang Zhongjing
+    en: Zhang Ji
   lifespan:
     birth:
       date: 0150-01-01
       precision: year
       is_circa: true
-      raw: 东汉建和初约生于南阳涅阳
+      raw: 东汉和平元年左右
     death:
       date: 0219-01-01
       precision: year
       is_circa: true
-      raw: 东汉建安末约卒
+      raw: 东汉建安二十四年左右
   birth_date: 0150-01-01
   death_date: 0219-01-01
-  era: 东汉
+  era: 东汉末年
   reign_ref: 汉献帝建安年间
-  archetype: 医圣济世者
+  archetype: 济世医圣
   dilemmas:
-  - 宗族伤寒亡故十居其七当避世自保还是著书救世
-  - 烦为肺热躁为肾寒阴阳交错当清热还是温阳
-  lesson: 烦躁须辨阴阳虚实水饮瘀血不可一概清火当以经方救偏
-  summary_first_person: 吾少习医逢建安疫疠族人夭亡乃博采经方辨伤寒烦躁水气虚实著论以传后世
+  - 外感伤寒盛行而虚劳沉痼难辨当先表还是先里
+  - 补益恐助邪攻伐恐伤正当补泻如何权衡
+  lesson: 辨脉审虚实以建中调和阴阳虚劳当补养里气兼顾气血
+  summary_first_person: 吾张机南阳人也见族人伤亡叹经方失传乃博采众方撰伤寒杂病论于虚劳立脉法以小建中黄芪建中薯蓣酸枣肾气大黄虫丸分治里急不足风烦腰痛干血愿后人守虚劳调养之法
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/fanzaomen.md
-  - https://daizhige.org/fanzaomen.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E8%99%9A%E5%8A%B3%E9%97%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E8%99%9A%E5%8A%B3%E9%97%A8.md
 endeavors:
 - id: guji-张机-endeavor-1
-  name_zh: 博采经方撰伤寒论
-  summary: 统伤寒六经辨太阳少阴烦躁以解表里阴阳
+  title_zh: 虚劳脉法与建中立法
   phases:
   - key: brewing
-    name: 南阳习医察疫疠流行
+    name: 南阳习医博采经方
     labels:
-      zh: 习医察疫
-    start_date: 0165-01-01
-    highlight_event_id: guji-张机-event-1
+      zh:
+      - 习医
+    start_date: 0168-01-01
+    highlight_event_id: guji-张机-event-birth
   - key: breakthrough
-    name: 任长沙守大行经方
+    name: 立男子平人脉大为劳之纲
     labels:
-      zh: 临证悟经
-    start_date: 0196-01-01
-    highlight_event_id: guji-张机-event-1
+      zh:
+      - 辨脉
+    start_date: 0198-01-01
+    highlight_event_id: guji-张机-event-maifa
   - key: climax
-    name: 撰伤寒杂病论成体系
+    name: 制小建中黄芪建中分治里急不足
     labels:
-      zh: 著论集成
+      zh:
+      - 立方
     start_date: 0205-01-01
-    highlight_event_id: guji-张机-event-2
+    highlight_event_id: guji-张机-event-jianzhong
   - key: closure
-    name: 论传后世惠及烦躁证治
+    name: 列薯蓣酸枣肾气大黄虫丸成体系
     labels:
-      zh: 传世惠人
+      zh:
+      - 成书
     start_date: 0210-01-01
-    highlight_event_id: guji-张机-event-2
+    highlight_event_id: guji-张机-event-jianzhong
   decisions:
-  - date: 0196-01-01
-    title_zh: 出仕长沙坐堂行医
-    rationale: 以官身便民就诊广验伤寒烦躁诸证
+  - date: 0200-01-01
+    title_zh: 以脉辨劳舍浮大革芤细微之别
+    rationale: 脉大为劳极虚亦为劳须审浮弱弦芤迟涩以别亡血失精脱气
   - date: 0205-01-01
-    title_zh: 决意博采众方著书立论
-    rationale: 感宗族夭亡欲存活人法不使经方散佚
+    title_zh: 以建中温补守里急虚寒
+    rationale: 虚劳里急悸衄腹痛梦遗当甘温调和营卫故用小建中黄芪建中
 - id: guji-张机-endeavor-2
-  name_zh: 立金匮烦躁水饮瘀血诸法
-  summary: 于杂病中辨肺胀水气虚劳瘀血诸烦躁别清温吐下
+  title_zh: 五劳虚极干血救治
   phases:
   - key: brewing
-    name: 察肺胀咳喘烦躁水气
+    name: 察羸瘦腹满不能饮食之困
     labels:
-      zh: 察水气烦
-    start_date: 0200-01-01
-    highlight_event_id: guji-张机-event-2
+      zh:
+      - 察病
+    start_date: 0202-01-01
+    highlight_event_id: guji-张机-event-maifa
   - key: breakthrough
-    name: 悟心下有水用小青龙加石膏
+    name: 识经络荣卫气伤内有干血
     labels:
-      zh: 立水饮法
-    start_date: 0205-01-01
-    highlight_event_id: guji-张机-event-2
+      zh:
+      - 识证
+    start_date: 0206-01-01
+    highlight_event_id: guji-张机-event-ganxue
   - key: climax
-    name: 别虚烦瘀血栀豉酸枣诸方
+    name: 制大黄虫丸缓中补虚
     labels:
-      zh: 别虚实瘀
+      zh:
+      - 破瘀
     start_date: 0208-01-01
-    highlight_event_id: guji-张机-event-3
+    highlight_event_id: guji-张机-event-ganxue
   - key: closure
-    name: 金匮要略烦躁门法后世宗之
+    name: 别腰痛便难风烦失眠分方施治
     labels:
-      zh: 金匮传法
-    start_date: 0210-01-01
-    highlight_event_id: guji-张机-event-3
+      zh:
+      - 分治
+    start_date: 0212-01-01
+    highlight_event_id: guji-张机-event-jianzhong
   decisions:
-  - date: 0205-01-01
-    title_zh: 肺胀烦躁喘脉浮者主水不主火
-    rationale: 见心下有水胁痛倚息故加石膏于小青龙以清兼散水
   - date: 0208-01-01
-    title_zh: 虚烦瘀血当别治不妄汗下
-    rationale: 下利后虚烦用栀子豉汤阴伏瘀血当下以防重虚致死
+    title_zh: 虚极兼瘀当虫剂通补并行
+    rationale: 肌肤甲错两目黯黑乃干血在内纯补不去故以大黄虫丸缓中补虚
+  - date: 0212-01-01
+    title_zh: 按兼证分投肾气薯蓣酸枣
+    rationale: 腰痛少腹拘急用八味肾气风气百疾用薯蓣虚烦不眠用酸枣各从其虚
 events:
 - id: guji-张机-event-birth
-  title_zh: 生于南阳涅阳
+  title_zh: 诞生南阳涅阳
   date: 0150-01-01
   year_of: 150
-  description: 东汉建和初生于南阳少习医术博采经方
-- id: guji-张机-event-1
-  title_zh: 任长沙太守坐堂行医
-  date: 0196-01-01
-  year_of: 196
-  description: 建安初任长沙守每月初晦坐堂诊视辨伤寒六经烦躁
-  endeavor_ref: guji-张机-endeavor-1
-- id: guji-张机-event-2
-  title_zh: 撰伤寒杂病论辨烦躁水气
+  description: 东汉和平年间生于南阳少习医术博采经方
+- id: guji-张机-event-maifa
+  title_zh: 立虚劳脉法
+  date: 0198-01-01
+  year_of: 198
+  description: 论男子平人脉大为劳脉虚沉弦短气里急面白目瞑衄满脉浮弱涩无子脉沉小迟脱气喘喝逆寒溏泄
+- id: guji-张机-event-jianzhong
+  title_zh: 制建中诸方治虚劳里急不足
   date: 0205-01-01
   year_of: 205
-  description: 博采素问难经汤液经方撰论十六卷立小青龙加石膏栀子豉酸枣诸法
-  endeavor_ref: guji-张机-endeavor-1
-- id: guji-张机-event-3
-  title_zh: 立虚劳瘀血虚烦别治
+  description: 以小建中主虚寒里急悸衄腹痛梦遗四肢酸疼烦热咽干黄芪建中主诸不足八味肾气主腰痛拘急便难薯蓣主风气百疾酸枣主虚烦不眠
+- id: guji-张机-event-ganxue
+  title_zh: 制大黄虫丸治五劳虚极干血
   date: 0208-01-01
   year_of: 208
-  description: 于虚劳虚烦不得眠用酸枣汤瘀血如热烦满用下法别阴阳虚实
-  endeavor_ref: guji-张机-endeavor-2
+  description: 治羸瘦腹满不食食忧饮房饥劳伤荣卫内有干血肌肤甲错目黯以缓中补虚
 - id: guji-张机-event-death
-  title_zh: 卒于建安末年
+  title_zh: 建安年间逝世
   date: 0219-01-01
   year_of: 219
-  description: 建安末卒于任上伤寒杂病论经晋代整理传世后世尊为医圣
+  description: 东汉建安末年逝世伤寒杂病论传世虚劳证治为后世所宗
