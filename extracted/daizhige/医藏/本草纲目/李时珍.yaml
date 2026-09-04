@@ -17,116 +17,132 @@ person:
       raw: 明万历二十一年卒于蕲州
   birth_date: 1518-07-03
   death_date: 1593
-  era: 明代
-  reign_ref: 嘉靖至万历
-  archetype: 良医
+  era: 明朝
+  reign_ref: 明世宗嘉靖至明神宗万历
+  archetype: 格物济世医圣
   dilemmas:
-  - 旧本草品类错杂名实相乱而临床误用害人当如何正名
-  - 金石虽具毒性而能济国却病当如何辨性制用以存利去害
-  lesson: 穷究物性以正名辨毒方能济世活人
-  summary_first_person: 吾生蕲州医门少习经史三举不第转志医学尝走湖广访采躬试百药历二十余载订旧修新成纲目一部金石分四类以明体用欲使医者不惑病者得安
+  - 三举不第仕途无望与承父业学医之间何去何从
+  - 旧本草讹误相承与亲履山野订正之艰险
+  - 太医院羁留京师与归野访采著书之取舍
+  lesson: 穷格亲验，辨讹补阙，以一生订一书，惠及万世
+  summary_first_person: 吾蕲州李时珍，字东璧，号濒湖山人，三举不第，承父言闻之业，行医亲尝，病旧本草之舛误，立志重修，历二十七载，遍访湖广江西直隶诸地，亲采亲验，成纲目五十二卷，又著脉学奇经，以正医药，愿后人识草木之真，得用药之当耳
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B708.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B708.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B714.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B714.md
 endeavors:
 - id: guji-李时珍-endeavor-1
-  title_zh: 立志重修本草纲目
-  summary: 鉴于旧本草分合无绪名实相淆立志遍览群书实地访采历时二十余年编定纲目十六部以正药学
+  title_zh: 发愤重修本草编纂本草纲目
+  summary_zh: 考订历代本草讹误，亲采亲验，以纲挈目，历二十七年成五十二卷，其中卷十四专论芳草当归芎藭蘼芜白芷之属
   phases:
   - key: brewing
-    name: 家学行医见旧本讹误
+    name: 立志重修本草
     labels:
-      zh: 家学酝酿
-    start_date: 1538
-    highlight_event_id: guji-李时珍-event-practice
-  - key: breakthrough
-    name: 嘉靖三十一年发愿重修
-    labels:
-      zh: 立志突破
+      zh: 立志考订本草
     start_date: 1552
-    highlight_event_id: guji-李时珍-event-vow
+    highlight_event_id: guji-李时珍-event-start-bencao
+  - key: breakthrough
+    name: 访采亲验四方
+    labels:
+      zh: 四方访采亲验百草
+    start_date: 1556
+    highlight_event_id: guji-李时珍-event-taiyiyuan
   - key: climax
-    name: 万历六年纲目初稿告成
+    name: 纲目初成五十二卷
     labels:
-      zh: 著述高峰
+      zh: 纲目书成草部芳草考定
     start_date: 1578
-    highlight_event_id: guji-李时珍-event-complete
+    highlight_event_id: guji-李时珍-event-complete-bencao
   - key: closure
-    name: 晚年校订付梓传世
+    name: 身后刊行惠世
     labels:
-      zh: 定稿传世
-    start_date: 1590
+      zh: 身后刊行惠及医林
+    start_date: 1593
     highlight_event_id: guji-李时珍-event-death
   decisions:
   - date: 1552
-    title_zh: 弃科举而专医药重修本草
-    rationale: 亲见旧本草纲目不举真伪莫辨惟有穷经考物实证方能活人
+    title_zh: 弃举业专攻医药立志重修本草
+    rationale: 旧本草品目混乱真伪莫辨，非亲验不能正，愿以一身任订正之责
+  - date: 1556
+    title_zh: 短任太医院判即归野采药
+    rationale: 宫禁羁身难广见闻，不如访民间单验及山野所产，方能得草木之真
   - date: 1578
-    title_zh: 定十六部纲领收金石百余种
-    rationale: 以部为纲以类为目使金玉石灰卤各从其族便于检用不致混淆
+    title_zh: 纲目初成仍三易其稿不急求刊
+    rationale: 芳草金石虫兽之名实尚须互证，宁缓刊以求真，不速成以传讹
 - id: guji-李时珍-endeavor-2
-  title_zh: 考订金石部济国却病
-  summary: 取金石顽物中可济国疗疾者一百六十一种分金玉石灰卤详集解修治气味主治以辨毒性制法
+  title_zh: 蕲州临证行医垂训脉学
+  summary_zh: 世医行诊蕲黄之间，活人无数，又著濒湖脉学奇经八脉考，示后学诊脉辨证之要
   phases:
   - key: brewing
-    name: 楚蜀矿冶访察金石产状
+    name: 蕲州世医行诊
     labels:
-      zh: 访采酝酿
-    start_date: 1555
-    highlight_event_id: guji-李时珍-event-vow
+      zh: 蕲州临证活人
+    start_date: 1538
+    highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 辨生金生银真伪毒性
+    name: 脉学考订
     labels:
-      zh: 辨伪突破
-    start_date: 1565
-    highlight_event_id: guji-李时珍-event-complete
+      zh: 考订脉学奇经
+    start_date: 1560
+    highlight_event_id: guji-李时珍-event-taiyiyuan
   - key: climax
-    name: 卷八金石部类例确立
+    name: 濒湖脉学垂训
     labels:
-      zh: 分类高峰
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-complete
+      zh: 脉学垂训后学
+    start_date: 1564
+    highlight_event_id: guji-李时珍-event-complete-bencao
   - key: closure
-    name: 附方增补以利临床
+    name: 医话医案散在乡里
     labels:
-      zh: 附方收束
-    start_date: 1590
+      zh: 医德惠泽乡里
+    start_date: 1593
     highlight_event_id: guji-李时珍-event-death
   decisions:
-  - date: 1565
-    title_zh: 别真假银而明毒自他物来
-    rationale: 生银天真本无毒熔炼杂铜铅汞则毒生故须辨矿炼之法以定入药之宜
-  - date: 1578
-    title_zh: 存自然铜接骨而戒常服火毒
-    rationale: 自然铜确有散血续筋之功然火毒金毒未去不可久服当佐理气活血即止
+  - date: 1538
+    title_zh: 承父言闻之教悬壶蕲州不慕荣利
+    rationale: 民疾为重，临证最能验药，行医即是格物，不必以京官为荣
+  - date: 1564
+    title_zh: 简述脉学奇经以贻初学
+    rationale: 脉理深奥而旧说纷纭，删繁就简作歌诀，使后学易记易用，诊先于药
 events:
 - id: guji-李时珍-event-birth
-  title_zh: 出生蕲州医官世家
   date: 1518-07-03
   year_of: 1518
+  type: birth
+  title_zh: 生于湖广蕲州
   place_zh: 湖广蕲州
-  description: 正德十三年生于世医之家父李言闻授以经史医学奠定后日志于本草之基
+  summary_zh: 正德十三年五月二十六日生于世医之家，父言闻以医名世
 - id: guji-李时珍-event-practice
-  title_zh: 蕲州行医积累验案
-  date: 1541
-  year_of: 1541
+  date: 1538
+  year_of: 1538
+  type: career
+  title_zh: 蕲州行医声名渐起
   place_zh: 蕲州
-  description: 嘉靖年间开业行医诊治杂病深感旧本草释名不明集解疏略误人性命遂生重修之志
-- id: guji-李时珍-event-vow
-  title_zh: 发愿重修本草访采四方
+  summary_zh: 屡试不第后专攻医药，临证亲尝，治验甚多，益知本草之需正
+- id: guji-李时珍-event-start-bencao
   date: 1552
   year_of: 1552
-  place_zh: 湖广至蜀中矿冶
-  description: 嘉靖三十一年始辑本草携子遍访名医渔樵察金石矿坑辨银铜铅铁产状集诸家炮炙修治之法
-- id: guji-李时珍-event-complete
-  title_zh: 纲目初成金石部分四类
+  type: career
+  title_zh: 发愤辑修本草纲目
+  place_zh: 蕲州
+  summary_zh: 嘉靖三十一年始辑新本草，发凡起例，以纲挈目，遍览旧经别录诸家
+- id: guji-李时珍-event-taiyiyuan
+  date: 1556
+  year_of: 1556
+  type: career
+  title_zh: 短任太医院判阅内府本草
+  place_zh: 北京太医院
+  summary_zh: 入太医院任判，阅内府藏书，考订益博，岁余即归，益访四方
+- id: guji-李时珍-event-complete-bencao
   date: 1578
   year_of: 1578
-  place_zh: 蕲州蕲春堂
-  description: 万历六年纲目草稿告成凡五十二卷金石部列金玉石卤四类共一百六十一种详释名集解发明附新旧方
+  type: career
+  title_zh: 本草纲目五十二卷初成
+  place_zh: 蕲州濒湖山
+  summary_zh: 万历六年书成，凡一百九十余万言，收药一千八百九十二种，附方一万余，卷十四草部芳草五十六种考订尤详
 - id: guji-李时珍-event-death
-  title_zh: 卒于蕲州书未刊而传
   date: 1593
   year_of: 1593
+  type: death
+  title_zh: 卒于蕲州书未刊行
   place_zh: 蕲州
-  description: 万历二十一年卒三年后金陵初刻本草纲目行世金石诸论始大显于医林
+  summary_zh: 万历二十一年卒，年七十六，其子建元守志刊行，三年后金陵初刻惠世
