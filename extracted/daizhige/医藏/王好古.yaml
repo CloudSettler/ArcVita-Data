@@ -6,117 +6,127 @@ person:
     en: Wang Haogu
   lifespan:
     birth:
-      date: 1200
+      date: 1200-01-01
       precision: year
       is_circa: true
-      raw: 约一二零零年生于赵州
+      raw: 金承安五年
     death:
-      date: 1264
+      date: 1264-12-31
       precision: year
       is_circa: true
-      raw: 约一二六四年卒
-  birth_date: 1200
-  death_date: 1264
+      raw: 元中统五年
+  birth_date: 1200-01-01
+  death_date: 1264-12-31
   era: 金末元初
-  reign_ref: 元中统
-  archetype: 医家
+  reign_ref: 元世祖中统
+  archetype: 穷经济世之名医
   dilemmas:
-  - 守长沙仲景古方与分经创新之间何去何从
-  - 承洁古珍珠囊旧说与立汤液新法之间如何权衡
-  lesson: 本草必归经，汤液必有法，守经达权方能济世全人
-  summary_first_person: 吾王好古号海藏，受业东垣，集汤液本草，以十二经分药品主病，欲使后学病不误药不误，全寿域而续神农伊尹仲景之统
+  - 阴阳疑似难辨易误人命
+  - 寒温偏执互诋当守中和
+  lesson: 辨阴阳于毫厘守中和以济生
+  summary_first_person: 吾本赵人早通经举进士晚喜言医从东垣李明之尽传其学精研轩岐积思十余年考自岐伯迄洁古摄其精要附以己说成阴证略例三十余条愿后学详辨阴阳勿失以免横夭
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E6%B6%B2%E6%9C%AC%E8%8D%89.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E6%B6%B2%E6%9C%AC%E8%8D%89.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%98%B4%E8%AF%81%E7%95%A5%E4%BE%8B.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%98%B4%E8%AF%81%E7%95%A5%E4%BE%8B.html
 endeavors:
 - id: guji-王好古-endeavor-1
-  name_zh: 师承东垣绍述洁古医学
-  summary: 金末往师李东垣，尽得张元素张璧李杲之学，守伊尹仲景汤液正脉
+  title_zh: 师承东垣传承医学
+  summary_zh: 早通经晚喜医从李东垣尽传所学驰骋轩岐诸家
   phases:
   - key: brewing
-    name: 赵州习医
+    name: 通经举进士
     labels:
-      zh: 习医
-    start_date: 1220
-    highlight_event_id: guji-王好古-event-study
+      zh:
+      - 通经
+      - 入仕
+    start_date: 1215-01-01
+    highlight_event_id: guji-王好古-event-apprentice
   - key: breakthrough
-    name: 受业东垣
+    name: 师从东垣尽传其学
     labels:
-      zh: 从师
-    start_date: 1232
-    highlight_event_id: guji-王好古-event-study
+      zh:
+      - 师承
+      - 脾胃
+    start_date: 1220-01-01
+    highlight_event_id: guji-王好古-event-apprentice
   - key: climax
-    name: 尽得真传
+    name: 精研轩岐驰骋千载
     labels:
-      zh: 传承
-    start_date: 1240
-    highlight_event_id: guji-王好古-event-study
-  - key: closure
-    name: 行医北方
-    labels:
-      zh: 行医
-    start_date: 1242
-    highlight_event_id: guji-王好古-event-study
+      zh:
+      - 研经
+      - 融会
+    start_date: 1225-01-01
+    highlight_event_id: guji-王好古-event-shangdang
   decisions:
-  - date: 1232
-    title_zh: 往师东垣老人李杲
-    rationale: 欲求仲景汤液不传之妙，舍东垣别无真传，故受业尽学
-  - date: 1240
-    title_zh: 以洁古珍珠囊为宗守经达权
-    rationale: 百载惟三老得长沙真意，当祖述而不泥古，方能变易治杂病
+  - date: 1220-01-01
+    title_zh: 弃儒从医师事李明之
+    rationale: 慕道者气和志定欲得圣人公恕中和之学以济生
+  - date: 1225-01-01
+    title_zh: 遍考岐伯以来诸家书
+    rationale: 恐阴阳偏蔽杀人求至当以通经致中和之道
 - id: guji-王好古-endeavor-2
-  name_zh: 编撰汤液本草分经论药
-  summary: 以本草正条从三阴三阳十二经为纲，以主病为君佐使为次，统伤寒杂病为一书
+  title_zh: 撰述阴证略例济世
+  summary_zh: 积思十余年考岐伯迄洁古摄精要附己说厘三十余条传后学
   phases:
   - key: brewing
-    name: 采集珍珠囊诸书
+    name: 忧阴证难辨积思十年
     labels:
-      zh: 采集
-    start_date: 1242
-    highlight_event_id: guji-王好古-event-tangye
+      zh:
+      - 忧患
+      - 考究
+    start_date: 1222-01-01
+    highlight_event_id: guji-王好古-event-writing
   - key: breakthrough
-    name: 立十二经分药之法
+    name: 摄精要附己说成编
     labels:
-      zh: 立法
-    start_date: 1244
-    highlight_event_id: guji-王好古-event-tangye
-  - key: climax
-    name: 汤液本草成书
-    labels:
-      zh: 成书
-    start_date: 1246
-    highlight_event_id: guji-王好古-event-tangye
+      zh:
+      - 著述
+      - 辨证
+    start_date: 1231-11-01
+    highlight_event_id: guji-王好古-event-writing
   - key: closure
-    name: 以汤变散丸传后学
+    name: 锓传共卫生君子
     labels:
-      zh: 流传
-    start_date: 1250
-    highlight_event_id: guji-王好古-event-tangye
+      zh:
+      - 刊行
+      - 传承
+    start_date: 1232-04-10
+    highlight_event_id: guji-王好古-event-writing
   decisions:
-  - date: 1244
-    title_zh: 不从玉石草木虫鱼分类改从十二经分类
-    rationale: 欲使药品归经主病分明，临证便检，故破上中下三品旧例
-  - date: 1246
-    title_zh: 以伤寒剂改治杂病以汤为散丸
-    rationale: 仲景本伊尹神农之法，变易百端而不越其源，故杂附金匮祖方以便权宜
+  - date: 1232-04-10
+    title_zh: 厘为三十余条有证有药有论有辨
+    rationale: 阴候寒盛外热多脉鼓击难辨恐误故次第比类使黑白分明
+  - date: 1232-04-10
+    title_zh: 祭神应王锓传以诏后学
+    rationale: 怜夭横冤枉愿医者不动声色蠲疾皆康宁得寿
 events:
 - id: guji-王好古-event-birth
-  date: 1200
+  title_zh: 生于赵地
+  date: 1200-01-01
   year_of: 1200
-  title_zh: 生于赵州
-  description: 约一二零零年生于赵州，后号海藏老人
-- id: guji-王好古-event-study
-  date: 1232
+  place_zh: 赵州
+  description_zh: 家世赵人早以通经举进士
+- id: guji-王好古-event-apprentice
+  title_zh: 师从东垣李明之
+  date: 1220-01-01
+  year_of: 1220
+  place_zh: 东垣
+  description_zh: 晚独喜言医始从东垣尽传其所学后精研轩岐诸家书
+- id: guji-王好古-event-shangdang
+  title_zh: 过上党疗阴疾奇中
+  date: 1231-11-15
+  year_of: 1231
+  place_zh: 上党
+  description_zh: 过上党疗数阴疾尤奇中皆书中所见以证阴证之辨
+- id: guji-王好古-event-writing
+  title_zh: 著成阴证略例
+  date: 1232-04-10
   year_of: 1232
-  title_zh: 受业于东垣老人
-  description: 往师李杲明之，尽得洁古云岐东垣三老之学
-- id: guji-王好古-event-tangye
-  date: 1246
-  year_of: 1246
-  title_zh: 编成汤液本草
-  description: 集医垒元戎阴证略例诸书，以十二经统药品，以主病为元首而成书
+  place_zh: 晋州
+  description_zh: 积思十余年考自岐伯迄洁古摄精要附己说厘三十余条有证有药有论有辨麻革题序
 - id: guji-王好古-event-death
-  date: 1264
+  title_zh: 逝世
+  date: 1264-12-31
   year_of: 1264
-  title_zh: 卒
-  description: 约一二六四年卒，一生绍仲景汤液，功在分经论药
+  place_zh: 赵州
+  description_zh: 海藏老人终以医济世之功传于后学阴证略例行于世

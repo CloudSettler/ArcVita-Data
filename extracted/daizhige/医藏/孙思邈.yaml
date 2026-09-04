@@ -6,129 +6,141 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: '0541'
+      date: 0581
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右京兆华原
+      raw: 隋开皇元年华原
     death:
       date: 0682
       precision: year
       is_circa: false
-      raw: 唐高宗永淳元年
-  birth_date: '0541'
+      raw: 唐永淳元年长安
+  birth_date: 0581
   death_date: 0682
   era: 隋唐
-  reign_ref: 唐太宗贞观高宗永徽
-  archetype: 药王医圣
+  reign_ref: 唐贞观至永淳朝
+  archetype: 药王济世医者
   dilemmas:
-  - 隐居保真修道与应诏出仕济世之间两难，一则全己之真，一则全苍生之命
-  - 重汤药调形与重针祝摄神之间两难，形神俱病则当以诚敬定神为先
-  lesson: 医患两相喜悦诚敬，定神正色祷神而后针，则百邪不侵而金针有灵
-  summary_first_person: 吾乃孙思邈，京兆华原人也，幼多病而笃志于医，隐太白终南以求道，唐主屡召不仕，惟以千金方传世，临针必先愉悦定神，正色祷神，书符念咒，呵气咒针，愿从吾针后病不许复
+  - 隐居修道保身与出仕行医济世之间如何取舍
+  - 眼疾多生于热宜清心凉肝与世俗专恃点洗针割之间如何决断
+  lesson: 眼为五脏精华，治以清心凉肝调血顺气为先，退翳先去障后清热，静坐澄神节欲惜目，不可轻用针割凉洗
+  summary_first_person: 吾孙思邈，京兆华原人，幼善病而志于医，隐太白终南采药行医，集古今方成千金要翼，论五轮八廓七十二症，传银海精微以明眼科正法，愿人澄神息虑调食平药以全光明
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%92%88%E9%82%AA%E5%AF%86%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%92%88%E9%82%AA%E5%AF%86%E8%A6%81.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%93%B6%E6%B5%B7%E7%B2%BE%E5%BE%AE.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%93%B6%E6%B5%B7%E7%B2%BE%E5%BE%AE.html
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 撰千金要方以济苍生
-  summary: 隐居博采经方，撰备急千金要方三十卷，兼摄养生食治，以大医精诚立训
+  title_zh: 编著千金备急济世
+  description: 隐居采药行医，集唐前医方食治养生，成备急千金要方及翼方以救急济众
   phases:
   - key: brewing
-    name: 少病笃志学医
+    name: 华原习医隐太白
     labels:
-      zh: 发端求道
-    start_date: '0541'
+      zh:
+      - 习医
+      - 隐居
+    start_date: '0600'
     highlight_event_id: guji-孙思邈-event-birth
   - key: breakthrough
-    name: 隐居太白博采
+    name: 行医采药悟养生
     labels:
-      zh: 采方积累
-    start_date: '0600'
-    highlight_event_id: guji-孙思邈-event-qianjinfang
+      zh:
+      - 行医
+      - 养生
+    start_date: '620'
+    highlight_event_id: guji-孙思邈-event-qianjin
   - key: climax
-    name: 千金要方成书
+    name: 千金要方成书传世
     labels:
-      zh: 济世成书
-    start_date: '0652'
-    highlight_event_id: guji-孙思邈-event-qianjinfang
+      zh:
+      - 著述
+      - 济世
+    start_date: '652'
+    highlight_event_id: guji-孙思邈-event-qianjin
   - key: closure
-    name: 千金翼方补阙
+    name: 翼方补阙养老食治
     labels:
-      zh: 晚年补述
-    start_date: 0680
-    highlight_event_id: guji-孙思邈-event-zhenxie
+      zh:
+      - 补阙
+      - 养老
+    start_date: '670'
+    highlight_event_id: guji-孙思邈-event-yinhai
   decisions:
-  - date: '0627'
-    title_zh: 辞征不仕隐终南
-    rationale: 恐贪货财失医德，宁隐山著书以全真济世
-  - date: '0652'
-    title_zh: 立大医精诚以训后
-    rationale: 医患须两相喜悦诚敬，无信不治，无慈不医
+  - date: '652'
+    title_zh: 不恋仕途以书代仕
+    rationale: 恐古方失传疾苦无告，愿以著书传法代一时之官，利及后世
+  - date: '670'
+    title_zh: 食治养生并重药石
+    rationale: 见人穷役耗神嗜欲伤脏，故立食治养老调和之法以防病于先
 - id: guji-孙思邈-endeavor-2
-  title_zh: 传针邪祝由以伏百邪
-  summary: 承神农黄帝针法，参孙韦真人道术，立愉悦定神正色祷神咒针之次第，以针合符咒治狂邪鬼祟
+  title_zh: 立五轮八廓传银海眼科
+  description: 以五脏配五轮八卦配八廓，辨风热气血虚实七十二症，定清心凉肝退翳点洗节度之法
   phases:
   - key: brewing
-    name: 存想神农黄帝
+    name: 察目善病究五脏应
     labels:
-      zh: 祷神溯源
-    start_date: '0630'
-    highlight_event_id: guji-孙思邈-event-qianjinfang
+      zh:
+      - 眼科
+      - 五轮
+    start_date: '630'
+    highlight_event_id: guji-孙思邈-event-qianjin
   - key: breakthrough
-    name: 定神正色立法
+    name: 分风热气眼立纲宗
     labels:
-      zh: 立法定神
-    start_date: '0660'
-    highlight_event_id: guji-孙思邈-event-zhenxie
+      zh:
+      - 辨证
+      - 八廓
+    start_date: '655'
+    highlight_event_id: guji-孙思邈-event-yinhai
   - key: climax
-    name: 书符咒针伏邪
+    name: 银海精微图像答问成
     labels:
-      zh: 针咒并施
-    start_date: 0680
-    highlight_event_id: guji-孙思邈-event-zhenxie
+      zh:
+      - 传法
+      - 退翳
+    start_date: '675'
+    highlight_event_id: guji-孙思邈-event-yinhai
   - key: closure
-    name: 密要传后不复
+    name: 劝人澄神惜目全明
     labels:
-      zh: 遗训密传
-    start_date: 0682
+      zh:
+      - 养生
+      - 惜目
+    start_date: '682'
     highlight_event_id: guji-孙思邈-event-death
   decisions:
-  - date: '0660'
-    title_zh: 先愉悦定神而后刺
-    rationale: 神不定勿刺，主恶砭石不可言治，必敬信诚心邪鬼方除
-  - date: 0680
-    title_zh: 以太乙灵符天罡咒佐针
-    rationale: 飞虫精灵妖孽狂鬼非独针石可驱，须朱砂书符酒服房贴，呵气咒针以接经络龙虎
+  - date: '655'
+    title_zh: 先退翳后退热不冰血
+    rationale: 热极生翳若先去赤热则血冰翳不去，故先散障后清热以保瞳神
+  - date: '675'
+    title_zh: 慎针割节凉洗重调养
+    rationale: 眼为轻膜裹水不可拘拘点洗，妄用针刀钩割多成终身之患，故以调血顺气静养为本
 events:
 - id: guji-孙思邈-event-birth
+  title_zh: 出生京兆华原
   type: birth
-  title_zh: 出生于京兆华原
-  date: '0541'
-  year_of: 541
+  date: 0581
+  year_of: 581
   place_zh: 京兆华原
-  description: 隋开皇左右出生，幼聪慧多病，遂笃志学医
-  endeavor_ref: guji-孙思邈-endeavor-1
-- id: guji-孙思邈-event-qianjinfang
-  type: career
+  description: 隋开皇元年生于华原，幼多病，聪慧好学，志于医事
+- id: guji-孙思邈-event-qianjin
   title_zh: 备急千金要方成书
-  date: '0652'
+  type: achievement
+  date: '652'
   year_of: 652
-  place_zh: 终南山
-  description: 隐居博采经方，撰成备急千金要方三十卷，立大医精诚训
-  endeavor_ref: guji-孙思邈-endeavor-1
-- id: guji-孙思邈-event-zhenxie
-  type: career
-  title_zh: 传针邪密要针祝之法
-  date: 0680
-  year_of: 680
-  place_zh: 长安
-  description: 述愉悦书符念咒定神正色祷神咒针之法，呵气徐入，布气玄真，以治歌笑哭吟妄行见鬼之百邪
-  endeavor_ref: guji-孙思邈-endeavor-2
+  place_zh: 太白山中
+  description: 隐居行医采药，集古今方论养生食治养老，成千金要方以备急济众
+- id: guji-孙思邈-event-yinhai
+  title_zh: 传银海精微眼科体系
+  type: achievement
+  date: '675'
+  year_of: 675
+  place_zh: 终南长安一带
+  description: 立五轮八廓总论，图七十二症，辨风眼热眼气眼虚实，定泻心凉肝退翳点吹之法
 - id: guji-孙思邈-event-death
+  title_zh: 卒于长安
   type: death
-  title_zh: 羽化于长安
   date: 0682
   year_of: 682
   place_zh: 长安
-  description: 唐高宗永淳元年逝世，遗言薄葬，后世尊为药王孙真人
-  endeavor_ref: guji-孙思邈-endeavor-2
+  description: 唐永淳元年卒，遗方书图像答问传世，后人尊为药王，眼科奉为宗匠
