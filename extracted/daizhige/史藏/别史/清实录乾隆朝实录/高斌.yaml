@@ -8,7 +8,7 @@ person:
     birth:
       date: 1683
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 康熙二十二年
     death:
       date: 1755
@@ -17,94 +17,112 @@ person:
       raw: 乾隆二十年
   birth_date: 1683
   death_date: 1755
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 治河赈济干臣
+  era: 清朝乾隆朝
+  reign_ref: 乾隆十一年
+  archetype: 治河赈济能臣
   dilemmas:
-  - 蠲赈加厚与国课仓储不足之间如何权衡
-  - 查灾宜速与核实防冒之间如何兼顾
-  lesson: 民食为重，预筹早办，查勘务实，方能不误国计民生
-  summary_first_person: 吾乃高斌，久任河务，兼理直隶，乾隆十年直隶春夏少雨，二麦歉收，吾奏请酌借籽种口粮，复请缓徵新旧钱粮，庆云成灾则拨漕米赈借，务使灾民不致失所
+  - 揭参河臣白钟山既要开诚布公又恐伤同僚体面
+  - 直隶春旱赈济既要速办接济又要核实防冒滥
+  lesson: 治河如治心先事绸缪临事果断善后周密方不误国误民
+  summary_first_person: 我高斌起自内务府久任河务直隶总督协办大学士以查勘陈家浦漫口直陈得失以赈济直隶灾黎为念但愿不避嫌怨以实心行实政耳
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70245.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70245.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0262.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0262.md
 endeavors:
 - id: guji-高斌-endeavor-1
-  title_zh: 直隶百余州县旱歉借种缓徵
-  summary_zh: 乾隆十年直隶大旱，奏报百十二州县厅借给籽种口粮，俟秋收勘分办理蠲赈
+  title_zh: 查勘陈家浦漫口参劾河臣
+  summary: 奉命南下查勘江南陈家浦漫口核实白钟山办理失当据实参奏并议赔补虚费钱粮
   phases:
   - key: brewing
-    name: 春夏察旱酌借
+    name: 奉命南下查勘
     labels:
-      zh:
-      - 查灾
-      - 借种
-    start_date: 1745-08-01
-    highlight_event_id: guji-高斌-event-1
-  - key: climax
-    name: 秋收前缓徵待勘
-    labels:
-      zh:
-      - 缓徵
-      - 待勘
-    start_date: 1745-08-02
-    highlight_event_id: guji-高斌-event-2
-  decisions:
-  - date: 1745-08-01
-    title_zh: 请借籽种口粮并及时布种秋禾
-    rationale: 二麦被旱兼雹伤，若不借种口粮则秋禾失时，来岁接济更难
-  - date: 1745-08-02
-    title_zh: 请宛平等六十四州县厅缓徵新旧钱粮
-    rationale: 六月未得透雨，八月开徵在即，先缓徵以安民心，俟秋收再分别办理
-- id: guji-高斌-endeavor-2
-  title_zh: 畿辅庆云成灾赈借与预筹接济
-  summary_zh: 庆云旱象已成，委道府查勘拨漕米赈借，会商在京王大臣预筹借赈平粜之法
-  phases:
+      zh: 奉命查勘
+    start_date: 1746-03-01
+    highlight_event_id: guji-高斌-event-chenjiapu
   - key: breakthrough
-    name: 庆云拨漕赈借
+    name: 勘得冲刷淹毙实情
     labels:
-      zh:
-      - 赈借
-      - 漕米
-    start_date: 1745-08-02
-    highlight_event_id: guji-高斌-event-2
+      zh: 核实灾情
+    start_date: 1746-04-01
+    highlight_event_id: guji-高斌-event-chenjiapu
+  - key: climax
+    name: 会同尹继善据实参奏
+    labels:
+      zh: 据实参劾
+    start_date: 1746-05-01
+    highlight_event_id: guji-高斌-event-chenjiapu
   - key: closure
-    name: 会商预筹借赈平粜
+    name: 白钟山解任赔补议处
     labels:
-      zh:
-      - 预筹
-      - 平粜
-    start_date: 1745-08-05
-    highlight_event_id: guji-高斌-event-2
+      zh: 解任赔补
+    start_date: 1746-05-10
+    highlight_event_id: guji-高斌-event-chenjiapu
   decisions:
-  - date: 1745-08-02
-    title_zh: 庆云拨领漕米作赈借之用
-    rationale: 庆云旱象已成，不可拘泥秋后勘分，须即拨漕米救急以防流离
-  - date: 1745-08-05
-    title_zh: 会同王大臣那苏图预筹接济方略
-    rationale: 畿辅雨泽不匀，或借或赈或平粜宜预定，运密云古北粮石就近办理最速
+  - date: 1746-05-01
+    title_zh: 会奏陈家浦冲刷丈数与淹毙人口
+    rationale: 开诚布公不讳言灾方能明事理以善后若讳饰则真灾也
+  - date: 1746-05-10
+    title_zh: 另摺直陈白钟山三失请解任
+    rationale: 先事无绸缪临事无措画善后无机宜舆论不服不应仍留总河之任
+- id: guji-高斌-endeavor-2
+  title_zh: 经理直隶春荒赈济河渠
+  summary: 协理直隶赈恤庆云盐山疏浚以工代赈筹画豫东麦接济直省
+  phases:
+  - key: brewing
+    name: 直隶春旱麦收可忧
+    labels:
+      zh: 预筹接济
+    start_date: 1746-03-15
+    highlight_event_id: guji-高斌-event-zhili
+  - key: breakthrough
+    name: 议复庆云盐山疏浚六条
+    labels:
+      zh: 疏浚沥水
+    start_date: 1746-04-01
+    highlight_event_id: guji-高斌-event-zhili
+  - key: climax
+    name: 速奏赈务三日内覆旨
+    labels:
+      zh: 速办赈务
+    start_date: 1746-04-10
+    highlight_event_id: guji-高斌-event-zhili
+  - key: closure
+    name: 交代顾琮暂管总河讲论明晰
+    labels:
+      zh: 交代河务
+    start_date: 1746-05-10
+    highlight_event_id: guji-高斌-event-zhili
+  decisions:
+  - date: 1746-03-20
+    title_zh: 请豫东各备麦十万石接济直省
+    rationale: 直省春雨不匀麦布种少豫东雨雪沾足麦收较早宜豫为接济以备借粜
+  - date: 1746-04-10
+    title_zh: 庆云盐山河渠给工价兴工
+    rationale: 瘠土积荒民力不敷给工价以工代赈既宣洩积潦又济贫民
 events:
 - id: guji-高斌-event-birth
+  person_id: guji-高斌
   title_zh: 出生
   date: 1683
   year_of: 1683
-  place_zh: 奉天
-  description_zh: 康熙二十二年生，内务府出身，后以治河干练历任要职
+  summary: 生于内务府镶黄旗高氏家
+- id: guji-高斌-event-zhili
+  person_id: guji-高斌
+  endeavor_id: guji-高斌-endeavor-2
+  title_zh: 筹办直隶赈济疏浚
+  date: 1746-04-01
+  year_of: 1746
+  summary: 议准庆云盐山疏浚六条并筹豫东麦接济直省赈务限三日覆奏
+- id: guji-高斌-event-chenjiapu
+  person_id: guji-高斌
+  endeavor_id: guji-高斌-endeavor-1
+  title_zh: 查勘陈家浦漫口奏结
+  date: 1746-05-10
+  year_of: 1746
+  summary: 勘得白钟山任令塌卸二百余丈虚费帑银九千余两奏请解任赔补
 - id: guji-高斌-event-death
+  person_id: guji-高斌
   title_zh: 逝世
   date: 1755
   year_of: 1755
-  place_zh: 京师
-  description_zh: 乾隆二十年卒，谥文定，终身以河务赈务著称
-- id: guji-高斌-event-1
-  title_zh: 疏报直属百十二州县厅旱歉借种
-  date: 1745-08-01
-  year_of: 1745
-  place_zh: 直隶
-  description_zh: 升任直隶总督任内疏称文安河间等百十二州县厅春夏愆雨二麦歉收兼雹伤，酌借籽种口粮令布种秋禾，加赈蠲免俟秋获勘分办理
-- id: guji-高斌-event-2
-  title_zh: 疏报宛平等州县缓徵庆云赈借
-  date: 1745-08-02
-  year_of: 1745
-  place_zh: 直隶庆云
-  description_zh: 疏称宛平等六十四州县厅六月未得透雨请缓徵新旧钱粮，庆云旱象已成委道府查勘拨漕米赈借，奉旨加意抚绥毋致失所
+  summary: 卒于乾隆二十年谥文定
