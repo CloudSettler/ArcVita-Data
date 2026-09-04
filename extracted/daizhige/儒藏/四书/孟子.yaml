@@ -2,131 +2,146 @@ person:
   qid: guji-孟子
   name_zh: 孟子
   names:
-    zh: 孟軻
+    zh: 孟轲
     en: Mencius
   lifespan:
     birth:
-      date: -250
-      precision: year
+      date: -372-04-02
+      precision: day
       is_circa: true
-      raw: 周烈王四年
+      raw: 周定王三十七年四月二日今之二月年八十四
     death:
-      date: -0289
-      precision: year
+      date: -289-01-15
+      precision: day
       is_circa: true
-      raw: 周赧王二十六年
-  birth_date: -250
-  death_date: -0289
-  era: 戰國中期
-  reign_ref: 周顯王至周赧王時
-  archetype: 以仁義遏利欲之亞聖
+      raw: 周赧王二十六年正月十五日今十一月
+  birth_date: -372-04-02
+  death_date: -289-01-15
+  era: 战国
+  reign_ref: 周显王至周赧王梁惠王齐宣王之世
+  archetype: 仁义之师
   dilemmas:
-  - 梁惠齊宣皆好利好戰言仁義王道多不見用當去當留
-  - 楊墨縱橫惑世人心陷溺當力闢還是闕疑存厚
-  lesson: 王何必曰利亦有仁義而已以養民教民為王道之始窮則著書以明道
-  summary_first_person: 吾鄒人也受業於子思之門以仁義之說遊於齊梁見梁惠王首言何必曰利見齊宣王勸行王政雖時君不能用而吾闢楊墨辯義利著七篇以詔後世欲使天下知王道在得民心而已
+  - 王道与功利之辨时君尚功利而我执仁义
+  - 去就与行道之难道不行则去留之间进退维谷
+  lesson: 以仁义为本破利欲之蔽养浩然之气以接三代之统
+  summary_first_person: 我以仁义游列国欲罢兵息杀以安民本性善养浩然时君虽不用我亦讲学著书以明道
   source_urls:
-  - https://daizhige.org/孟子傳梁惠王章句上
-  - https://github.com/daizhige-org/daizhigev20
+  - https://daizhige.org/rucang/sishu/mengzishishuo.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/r ranking/mengzishishuo.md
 endeavors:
 - id: guji-孟子-endeavor-1
-  title_zh: 遊說齊梁行王道
-  summary: 歷梁惠王齊宣王滕文公魯平公等以仁義遏利欲以省刑薄斂養民教民勸行王政
+  title_zh: 游说列国行王道
+  summary_zh: 见梁惠襄论不违农时罢兵息民适齐论王霸之辨欲复三代之治
   phases:
   - key: brewing
-    name: 鄒魯受道養氣
+    name: 见梁论仁义
     labels:
-      zh: 師承守道
-    start_date: -234
-    highlight_event_id: guji-孟子-event-birth
-  - key: breakthrough
-    name: 見梁惠論義利
-    labels:
-      zh: 首倡仁義
-    start_date: -219
+      zh:
+      - 仁义
+      - 恤民
+      - 罢兵
+    start_date: '-335'
     highlight_event_id: guji-孟子-event-liang
-  - key: climax
-    name: 對齊宣論王政
+  - key: breakthrough
+    name: 当路于齐欲行道
     labels:
-      zh: 王道勸君
-    start_date: -0319
+      zh:
+      - 王道
+      - 辅政
+    start_date: '-320'
     highlight_event_id: guji-孟子-event-qi
-  - key: closure
-    name: 去齊返鄒述志
+  - key: climax
+    name: 论伐燕辨王霸
     labels:
-      zh: 不遇而去
-    start_date: -202
+      zh:
+      - 王霸之辨
+      - 仁政
+    start_date: '-318'
+    highlight_event_id: guji-孟子-event-yan
+  - key: closure
+    name: 去齐而讲学
+    labels:
+      zh:
+      - 去就
+      - 守道
+    start_date: '-312'
     highlight_event_id: guji-孟子-event-qi
   decisions:
-  - date: -219
-    title_zh: 見梁惠首言何必曰利
-    rationale: 當時君臣上下交征利故直破利心示以仁義以遏攘奪兵戈之禍
-  - date: -0319
-    title_zh: 對齊宣就好樂好貨引君向善
-    rationale: 因其好樂好貨與民同之則可為王故不逆其情而導之以與民偕樂
+  - date: '-335'
+    title_zh: 见梁惠王首言仁义
+    rationale: 天下溺于利欲必以仁义整顿乾坤不然遗亲后君而人纪坠
+  - date: '-320'
+    title_zh: 当路于齐欲复三代
+    rationale: 齐势强盛可借以行道若得行则秦不得志而圣王之统可续
 - id: guji-孟子-endeavor-2
-  title_zh: 著書闢楊墨明道統
-  summary: 退居鄒魯與弟子萬章公孫丑等筆錄七篇辨王霸義利闢楊墨以正人心承三代之統
+  title_zh: 讲学著书养浩然
+  summary_zh: 明性善集义养气知言以辟杨墨告子传仁义之学于后世
   phases:
   - key: brewing
-    name: 收集門人問答
+    name: 示不忍人心论性善
     labels:
-      zh: 立言之基
-    start_date: -202
-    highlight_event_id: guji-孟子-event-qi
+      zh:
+      - 性善
+      - 恻隐
+    start_date: '-318'
+    highlight_event_id: guji-孟子-event-haoran
   - key: breakthrough
-    name: 系統論養生送死王道之始
+    name: 发浩然集义之旨
     labels:
-      zh: 王道體系
-    start_date: -197
-    highlight_event_id: guji-孟子-event-writing
-  - key: climax
-    name: 闢楊墨息邪說
-    labels:
-      zh: 正人心息邪
-    start_date: -192
-    highlight_event_id: guji-孟子-event-writing
+      zh:
+      - 浩然之气
+      - 集义
+    start_date: '-316'
+    highlight_event_id: guji-孟子-event-haoran
   - key: closure
-    name: 七篇成垂訓後世
+    name: 七篇垂训诏后学
     labels:
-      zh: 功在萬世
-    start_date: -0289
-    highlight_event_id: guji-孟子-event-death
+      zh:
+      - 著书
+      - 辟邪
+    start_date: '-310'
+    highlight_event_id: guji-孟子-event-haoran
   decisions:
-  - date: -197
-    title_zh: 決意以著述代遊說
-    rationale: 道不行於時君則以文字存王道使後世知仁政養民教民之本
-  - date: -192
-    title_zh: 直闢楊墨不為調停
-    rationale: 楊墨亂仁義若不辯則人心陷溺故寧犯時忌亦當明辨以承先聖
+  - date: '-316'
+    title_zh: 以集义养气不袭于外
+    rationale: 气即心之流行必有事勿忘勿助使主宰常存则血气化为义理
+  - date: '-310'
+    title_zh: 知言以辨诐淫邪遁
+    rationale: 以心源印证群迷剖露当时名实捭阖之蔽使正学不晦
 events:
 - id: guji-孟子-event-birth
-  title_zh: 生於鄒
-  date: -250
+  title_zh: 诞生于邹
+  date: -372-04-02
   year_of: -372
-  place_zh: 鄒國
-  summary: 周烈王四年生活於鄒幼受母教長受業於子思之門
+  place_zh: 邹国
+  description_zh: 孟氏家谱载生于周定王三十七年四月二日后考为战国邹人受业于子思之门人
 - id: guji-孟子-event-liang
-  title_zh: 見梁惠王言仁義
-  date: -219
-  year_of: -333
+  title_zh: 见梁惠王言仁义
+  date: '-335'
+  year_of: -335
   place_zh: 大梁
-  summary: 梁惠王問何以利吾國對以何必曰利亦有仁義而已又論五十步笑百步與王道之始
+  description_zh: 按史表见梁惠王三十五年首言未有仁而遗亲未有义而后君痛言不违农时罢兵为第一义
 - id: guji-孟子-event-qi
-  title_zh: 見齊宣王論王政
-  date: -0319
-  year_of: -319
-  place_zh: 臨淄
-  summary: 齊宣王問好樂好貨好勇對以與民同樂勸省刑薄斂制梃撻堅甲利兵言仁者無敵
-- id: guji-孟子-event-writing
-  title_zh: 退居著孟子七篇
-  date: -197
-  year_of: -305
-  place_zh: 鄒國
-  summary: 與弟子論著梁惠王公孫丑滕文公等七篇發明義利經權辨王霸闢楊墨
+  title_zh: 当路于齐论王霸
+  date: '-320'
+  year_of: -320
+  place_zh: 临淄
+  description_zh: 适齐欲行其道与宣王论王霸之分在心术辨文王之囿与齐囿之异示王者生意与霸者剪彩之别
+- id: guji-孟子-event-yan
+  title_zh: 论伐燕兼论浩然
+  date: '-318'
+  year_of: -318
+  place_zh: 齐地
+  description_zh: 论齐伐燕之是非兼发浩然之气集义知言之旨以养气即养心破告子外义之病
+- id: guji-孟子-event-haoran
+  title_zh: 讲学传浩然性善之教
+  date: '-312'
+  year_of: -312
+  place_zh: 邹鲁之间
+  description_zh: 去齐之后讲学授徒论四端性善论养气必有事论知言辨诐淫邪遁七篇之旨大备
 - id: guji-孟子-event-death
-  title_zh: 卒於鄒
-  date: -0289
+  title_zh: 卒于邹
+  date: -289-01-15
   year_of: -289
-  place_zh: 鄒國
-  summary: 周赧王二十六年卒弟子追尊為亞聖其書列為四書之一
+  place_zh: 邹国
+  description_zh: 卒于周赧王二十六年正月十五日年八十四其言存为七篇与论语大学中庸并传
