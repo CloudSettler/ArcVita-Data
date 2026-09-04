@@ -1,0 +1,137 @@
+person:
+  qid: guji-孙思邈
+  name_zh: 孙思邈
+  names:
+    zh: 孙思邈
+    en: Sun Simiao
+  lifespan:
+    birth:
+      date: '0541'
+      precision: year
+      is_circa: true
+      raw: 约隋开皇前生于京兆华原
+    death:
+      date: 0682
+      precision: year
+      is_circa: false
+      raw: 唐永淳元年卒
+  birth_date: '0541'
+  death_date: 0682
+  era: 唐
+  reign_ref: 贞观至永淳
+  archetype: 药王隐医
+  dilemmas:
+  - 出仕显达与隐居保真之抉择
+  - 博采广传与审慎施治之权衡
+  lesson: 大医精诚德业并进以济世活人为归
+  summary_first_person: 吾隐居太白终南采药行医博采古今成千金二书但愿人无病何惜架上书
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%AD%E5%8C%BB%E8%92%99%E6%B1%82.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%AD%E5%8C%BB%E8%92%99%E6%B1%82.md
+endeavors:
+- id: guji-孙思邈-endeavor-1
+  title_zh: 撰述千金方书传世
+  summary_zh: 博考今古验方编成千金要方翼方以备急救传后
+  phases:
+  - key: brewing
+    name: 幼病发愤博览医经
+    labels:
+      zh: 醖酿积学
+    start_date: '0555-01-01'
+    highlight_event_id: guji-孙思邈-event-study
+  - key: breakthrough
+    name: 山居采药验方日富
+    labels:
+      zh: 突破积累
+    start_date: '0600-01-01'
+    highlight_event_id: guji-孙思邈-event-seclusion
+  - key: climax
+    name: 编成备急千金要方
+    labels:
+      zh: 高峰成书
+    start_date: '0652-01-01'
+    highlight_event_id: guji-孙思邈-event-qianjin
+  - key: closure
+    name: 晚年续成千金翼方
+    labels:
+      zh: 收束传世
+    start_date: '0680-01-01'
+    highlight_event_id: guji-孙思邈-event-yifang
+  decisions:
+  - date: '0652-01-01'
+    title_zh: 总括古今成千金要方三十卷
+    rationale: 恐医方散佚急病无依故集验方针灸食治以便世用
+  - date: '0680-01-01'
+    title_zh: 老而弥笃续撰翼方补阙
+    rationale: 要方未尽脏腑本草未备故续作翼方使体系完备
+- id: guji-孙思邈-endeavor-2
+  title_zh: 隐逸行医不仕全真
+  summary_zh: 隐居山林治病活人屡辞征辟以医行济世
+  phases:
+  - key: brewing
+    name: 少时隐居独善学养
+    labels:
+      zh: 醖酿立志
+    start_date: '0600-01-01'
+    highlight_event_id: guji-孙思邈-event-seclusion
+  - key: breakthrough
+    name: 医名大著活人无数
+    labels:
+      zh: 突破扬名
+    start_date: '0652-01-01'
+    highlight_event_id: guji-孙思邈-event-qianjin
+  - key: climax
+    name: 高宗召授固辞不受
+    labels:
+      zh: 高峰守志
+    start_date: '0659-01-01'
+    highlight_event_id: guji-孙思邈-event-refuse
+  - key: closure
+    name: 百岁而终遗范后世
+    labels:
+      zh: 收束归真
+    start_date: '0682-01-01'
+    highlight_event_id: guji-孙思邈-event-death
+  decisions:
+  - date: '0659-01-01'
+    title_zh: 辞谏议大夫之授仍居山中
+    rationale: 不慕荣利愿以布衣之身专心治病著书保全真性
+  - date: '0600-01-01'
+    title_zh: 居太白终南行医采药
+    rationale: 山林多药病者可就近救治且远朝争得专精医道
+events:
+- id: guji-孙思邈-event-birth
+  date: '0541-01-01'
+  year_of: 541
+  title_zh: 出生京兆华原
+  description_zh: 生于京兆华原幼多病遂志学医
+- id: guji-孙思邈-event-study
+  date: '0555-01-01'
+  year_of: 555
+  title_zh: 发愤学医通百家
+  description_zh: 七岁读书日诵千言弱冠善谈庄老兼通医经
+- id: guji-孙思邈-event-seclusion
+  date: '0600-01-01'
+  year_of: 600
+  title_zh: 隐居太白山行医
+  description_zh: 隐居太白终南采药治病活人无数
+- id: guji-孙思邈-event-qianjin
+  date: '0652-01-01'
+  year_of: 652
+  title_zh: 编成备急千金要方
+  description_zh: 博采古今撰备急千金要方三十卷蒙求称思邈千金
+- id: guji-孙思邈-event-refuse
+  date: '0659-01-01'
+  year_of: 659
+  title_zh: 辞唐高宗之召
+  description_zh: 高宗召见授谏议大夫固辞不受
+- id: guji-孙思邈-event-yifang
+  date: '0680-01-01'
+  year_of: 680
+  title_zh: 成千金翼方
+  description_zh: 晚年续成千金翼方三十卷补要方之阙
+- id: guji-孙思邈-event-death
+  date: '0682-01-01'
+  year_of: 682
+  title_zh: 寿终百余岁
+  description_zh: 永淳元年卒遗千金二书传世后尊为药王

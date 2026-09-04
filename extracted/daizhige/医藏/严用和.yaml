@@ -1,0 +1,126 @@
+person:
+  qid: guji-严用和
+  name_zh: 严用和
+  names:
+    zh: 严用和
+    en: Yan Yonghe
+  lifespan:
+    birth:
+      date: 1200-01-01
+      precision: year
+      is_circa: true
+      raw: 约嘉泰年间
+    death:
+      date: 1280-01-01
+      precision: year
+      is_circa: true
+      raw: 咸淳以后佚载
+  birth_date: 1200-01-01
+  death_date: 1280-01-01
+  era: 南宋
+  reign_ref: 宋理宗宝祐至度宗咸淳年间
+  archetype: 儒医纂述者
+  dilemmas:
+  - title_zh: 执古方疗今病
+    description_zh: 世变古今殊风土燥湿异人禀浓薄不齐概执古方往往枘凿不入
+  - title_zh: 秘藏与广传
+    description_zh: 集既成不敢私秘竟锓诸木以广其传备卫生家缓急之需
+  lesson: 脉病证治四者贵精度时宜采古验之方论治条类以济生
+  summary_first_person: 我幼喜读书十二岁受学复真刘开之门十七岁四方邀问留心三十余年度时宜采古方合已试之效纂济生方十卷论治八十制方四百以广其传
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%B8%A5%E6%B0%8F%E6%B5%8E%E7%94%9F%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%B8%A5%E6%B0%8F%E6%B5%8E%E7%94%9F%E6%96%B9.md
+endeavors:
+- id: guji-严用和-endeavor-1
+  title_zh: 幼承师训行医四方
+  summary_zh: 八岁喜读十二师刘开面命心传十七应诊历三十余年以脉病证治为精要
+  phases:
+  - key: brewing
+    name: 幼学师门
+    labels:
+      zh: 受学复真先生
+    start_date: 1212-01-01
+    highlight_event_id: guji-严用和-event-apprentice
+  - key: breakthrough
+    name: 少年应诊
+    labels:
+      zh: 四方士夫踵至
+    start_date: 1217-01-01
+    highlight_event_id: guji-严用和-event-practice
+  - key: climax
+    name: 久历证验
+    labels:
+      zh: 留心三十余年
+    start_date: 1240-01-01
+    highlight_event_id: guji-严用和-event-jisheng-first
+  decisions:
+  - date: 1212-01-01
+    title_zh: 受学刘开
+    rationale: 先造脉病证治四者之妙以疗寒热虚实
+  - date: 1217-01-01
+    title_zh: 不辞少年浅学应四方之邀
+    rationale: 以临床验师传调气审因随证治之中风七情六淫之辨为法
+- id: guji-严用和-endeavor-2
+  title_zh: 纂刻严氏济生方
+  summary_zh: 度时宜采古可用之方合已试之效疏论治犁条类初成于宝祐癸丑续成十卷于咸淳丁卯
+  phases:
+  - key: brewing
+    name: 裒集古验
+    labels:
+      zh: 采古合已试
+    start_date: 1250-01-01
+    highlight_event_id: guji-严用和-event-jisheng-first
+  - key: breakthrough
+    name: 宝祐锓木广传
+    labels:
+      zh: 名曰济生方
+    start_date: 1253-04-01
+    highlight_event_id: guji-严用和-event-jisheng-first
+  - key: closure
+    name: 咸淳续成十卷
+    labels:
+      zh: 论治八十制方四百
+    start_date: 1267-10-01
+    highlight_event_id: guji-严用和-event-jisheng-second
+  decisions:
+  - date: 1253-04-01
+    title_zh: 锓木广传不私秘
+    rationale: 备卫生家缓急示师传济生实意
+  - date: 1267-10-01
+    title_zh: 续纂为十卷
+    rationale: 行世五十余年暇日总论治制方以终济生之志
+events:
+- id: guji-严用和-event-birth
+  date: 1200-01-01
+  year_of: 1200
+  title_zh: 诞生
+  description_zh: 约嘉泰年间生庐山严氏幼喜读书
+  is_circa: true
+- id: guji-严用和-event-apprentice
+  date: 1212-01-01
+  year_of: 1212
+  title_zh: 十二岁师刘开
+  description_zh: 年十二受学复真刘先生名开字立之独荷面命心传
+  is_circa: true
+- id: guji-严用和-event-practice
+  date: 1217-01-01
+  year_of: 1217
+  title_zh: 十七岁行医
+  description_zh: 年十七四方士夫不以少年邀问踵至今留心三十余年
+  is_circa: true
+- id: guji-严用和-event-jisheng-first
+  date: 1253-04-01
+  year_of: 1253
+  title_zh: 宝祐癸丑序济生方
+  description_zh: 慨念古今风土人禀之异度时宜采古方合已试疏论治为条类锓木广传
+- id: guji-严用和-event-jisheng-second
+  date: 1267-10-01
+  year_of: 1267
+  title_zh: 咸淳丁卯续成十卷
+  description_zh: 以医道行世五十余年论治凡八十制方凡四百总为十卷
+- id: guji-严用和-event-death
+  date: 1280-01-01
+  year_of: 1280
+  title_zh: 逝世
+  description_zh: 咸淳以后事迹佚载行世已逾五十余年
+  is_circa: true

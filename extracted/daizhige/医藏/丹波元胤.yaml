@@ -1,0 +1,137 @@
+person:
+  qid: guji-丹波元胤
+  name_zh: 丹波元胤
+  names:
+    zh: 丹波元胤
+    en: Tanba Mototane
+  lifespan:
+    birth:
+      date: 1644-01-01
+      precision: year
+      is_circa: true
+      raw: 清初约生
+    death:
+      date: 1695-01-01
+      precision: year
+      is_circa: true
+      raw: 康熙后期卒
+  birth_date: 1644-01-01
+  death_date: 1695-01-01
+  era: 清初
+  reign_ref: 康熙
+  archetype: 医经诠注者
+  dilemmas:
+  - 伤寒中寒溷杂致阴阳不明寒热错治
+  - 尊仲景立宗与变通补法不可执方
+  lesson: 辨真寒与假寒异治温补当临证权变
+  summary_first_person: 我潜心诸家医书二十余年，先辩注伤寒论十四卷以明热实，后复集中寒三卷以发明真阴虚寒，愿后学循序而观不误投凉热。
+  source_urls:
+  - https://daizhige.org/醫藏/中寒論辯證廣註.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/醫藏/中寒論辯證廣註.md
+endeavors:
+- id: guji-丹波元胤-endeavor-1
+  title_zh: 辩注伤寒论十四卷
+  goal_zh: 畅发阳邪热实为后学立宗主
+  phases:
+  - key: brewing
+    name: 潜心抄阅二十年
+    labels:
+      zh:
+      - 积累
+    start_date: 1664-01-01
+    highlight_event_id: guji-丹波元胤-event-study
+  - key: breakthrough
+    name: 伤寒辩注成书
+    labels:
+      zh:
+      - 立宗
+    start_date: 1680-01-01
+    highlight_event_id: guji-丹波元胤-event-shanghan
+  - key: climax
+    name: 以热证入门示后学
+    labels:
+      zh:
+      - 授学
+    start_date: 1682-01-01
+    highlight_event_id: guji-丹波元胤-event-shanghan
+  - key: closure
+    name: 转入中寒发明
+    labels:
+      zh:
+      - 转进
+    start_date: 1684-09-01
+    highlight_event_id: guji-丹波元胤-event-start
+  decisions:
+  - date: 1680-01-01
+    title_zh: 先明热证后发明真寒
+    rationale: 使初学先投凉泻得法再识热补百发百中
+- id: guji-丹波元胤-endeavor-2
+  title_zh: 撰中寒论辩证广注三卷
+  goal_zh: 摘仲景真阴虚寒逐条详辩补后贤变通
+  phases:
+  - key: brewing
+    name: 康熙甲子中秋开笔
+    labels:
+      zh:
+      - 开撰
+    start_date: 1684-09-01
+    highlight_event_id: guji-丹波元胤-event-start
+  - key: breakthrough
+    name: 分六经摘中寒证方
+    labels:
+      zh:
+      - 辩证
+    start_date: 1685-01-01
+    highlight_event_id: guji-丹波元胤-event-start
+  - key: climax
+    name: 前二卷宗仲景末卷附后贤
+    labels:
+      zh:
+      - 成帙
+    start_date: 1686-01-01
+    highlight_event_id: guji-丹波元胤-event-finish
+  - key: closure
+    name: 丙寅仲春录出公海内
+    labels:
+      zh:
+      - 刊布
+    start_date: 1686-02-01
+    highlight_event_id: guji-丹波元胤-event-finish
+  decisions:
+  - date: 1684-09-01
+    title_zh: 另立中寒一门
+    rationale: 伤寒外寒内热多实中寒内外皆寒多虚不可溷治
+  - date: 1686-02-01
+    title_zh: 每证详辩每方注药性
+    rationale: 示证的系中寒方对证可用稍有未合不可执方
+events:
+- id: guji-丹波元胤-event-birth
+  title_zh: 出生
+  date: 1644-01-01
+  year_of: 1644
+  description_zh: 约生于清初，潜心医书兼视疑难险证二十余年
+- id: guji-丹波元胤-event-study
+  title_zh: 潜心抄阅诸家医书
+  date: 1664-01-01
+  year_of: 1664
+  description_zh: 构求名家医书潜心抄阅兼视病家疑难险证二十余年
+- id: guji-丹波元胤-event-shanghan
+  title_zh: 辩注伤寒论十四卷成
+  date: 1680-01-01
+  year_of: 1680
+  description_zh: 已畅发阳邪热实之证，使学人遇热证已知投药
+- id: guji-丹波元胤-event-start
+  title_zh: 康熙甲子中秋始注中寒论
+  date: 1684-09-01
+  year_of: 1684
+  description_zh: 始于康熙甲子中秋，汇集成氏方氏喻氏程氏等注反复发明
+- id: guji-丹波元胤-event-finish
+  title_zh: 丙寅仲春中寒论辩证广注成
+  date: 1686-02-01
+  year_of: 1686
+  description_zh: 终于丙寅仲春之朔成上中下三卷，录出公之海内同道
+- id: guji-丹波元胤-event-death
+  title_zh: 逝世
+  date: 1695-01-01
+  year_of: 1695
+  description_zh: 书成后卒于康熙后期
