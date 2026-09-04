@@ -1,0 +1,153 @@
+person:
+  qid: guji-维摩诘
+  name_zh: 维摩诘
+  names:
+    zh: 维摩诘
+    en: Vimalakirti
+  lifespan:
+    birth:
+      date: '-0500'
+      precision: year
+      is_circa: true
+      raw: 中天竺毗耶离城约公元前五世纪
+    death:
+      date: '-0450'
+      precision: year
+      is_circa: true
+      raw: 约公元前五世纪示灭
+  birth_date: '-0500'
+  death_date: '-0450'
+  era: 东周春秋战国之际
+  reign_ref: 释迦牟尼住世时
+  archetype: 居士菩萨
+  dilemmas:
+  - 在家与出离如何不坏假名而谈实相
+  - 示疾卧病如何转成广度众生之缘
+  - 默然无言与广现辨才如何同契不二
+  lesson: 居家不染即是道场尘劳之中现清净解脱分灯无尽
+  summary_first_person: 吾居毗耶离已曾供养无量诸佛得无生忍以善方便现长者身虽处居家不着三界示疾说法愿后世居士即尘劳而证菩提
+  source_urls:
+  - https://daizhige.org/佛藏/续藏经/中国撰述/史传部/禅宗/居士分灯录.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/续藏经/中国撰述/史传部/禅宗/居士分灯录.md
+endeavors:
+- id: guji-维摩诘-endeavor-1
+  person_id: guji-维摩诘
+  title_zh: 以长者身居家摄化
+  summary: 居毗耶离资财无量摄贫民持戒清净摄毁禁以忍调行摄恚怒以大智摄愚痴现居士身分灯弘法
+  phases:
+  - key: brewing
+    name: 植本供养
+    labels:
+      zh:
+      - 供养
+      - 植善本
+    start_date: '-0510'
+    highlight_event_id: guji-维摩诘-event-birth
+  - key: breakthrough
+    name: 得忍现居家
+    labels:
+      zh:
+      - 无生忍
+      - 居家
+    start_date: -0485
+    highlight_event_id: guji-维摩诘-event-householder
+  - key: climax
+    name: 摄化品类
+    labels:
+      zh:
+      - 摄化
+      - 利生
+    start_date: '-0470'
+    highlight_event_id: guji-维摩诘-event-householder
+  - key: closure
+    name: 分灯垂范
+    labels:
+      zh:
+      - 垂范
+      - 分灯
+    start_date: '-0460'
+    highlight_event_id: guji-维摩诘-event-sick-preaching
+  decisions:
+  - date: -0485
+    title_zh: 秘大现小处居家
+    rationale: 欲度人故不坏假名现长者身混俗利生令居士知家即道场
+  - date: '-0470'
+    title_zh: 以四摄摄众生
+    rationale: 对治贫毁恚痴随其所乐而为说法普令入佛慧
+- id: guji-维摩诘-endeavor-2
+  person_id: guji-维摩诘
+  title_zh: 示疾说不二法门
+  summary: 以方便现身有疾广为说法弹诃声闻菩萨与文殊共谈不二默然无言显不思议解脱
+  phases:
+  - key: brewing
+    name: 方便示疾
+    labels:
+      zh:
+      - 示疾
+      - 设化
+    start_date: '-0465'
+    highlight_event_id: guji-维摩诘-event-sick-preaching
+  - key: breakthrough
+    name: 问疾集众
+    labels:
+      zh:
+      - 问疾
+      - 集众
+    start_date: '-0462'
+    highlight_event_id: guji-维摩诘-event-sick-preaching
+  - key: climax
+    name: 共谈不二
+    labels:
+      zh:
+      - 不二
+      - 默然
+    start_date: '-0460'
+    highlight_event_id: guji-维摩诘-event-sick-preaching
+  - key: closure
+    name: 化毕示灭
+    labels:
+      zh:
+      - 示灭
+      - 付嘱
+    start_date: '-0450'
+    highlight_event_id: guji-维摩诘-event-death
+  decisions:
+  - date: '-0465'
+    title_zh: 以方便现身有疾
+    rationale: 借病集众广为说法令问疾者皆得悟入生死即涅槃
+  - date: '-0460'
+    title_zh: 默然显不二
+    rationale: 言说有尽默然无言方契不思议解脱破诸戏论
+events:
+- id: guji-维摩诘-event-birth
+  person_id: guji-维摩诘
+  type: birth
+  title_zh: 生于毗耶离城长者家
+  date: '-0500'
+  year_of: -500
+  place_zh: 中天竺毗耶离城
+  description: 已曾供养无量诸佛深植善本生毗耶离为大长者
+- id: guji-维摩诘-event-householder
+  person_id: guji-维摩诘
+  type: achievement
+  title_zh: 居家摄化广行四摄
+  date: -0480
+  year_of: -480
+  place_zh: 毗耶离
+  description: 以财摄贫以戒摄毁以忍摄恚以智摄愚现居士身利生不染
+- id: guji-维摩诘-event-sick-preaching
+  person_id: guji-维摩诘
+  type: achievement
+  title_zh: 以方便现身有疾文殊问疾谈不二
+  date: '-0460'
+  year_of: -460
+  place_zh: 毗耶离丈室
+  description: 现身有疾广为说法佛遣文殊问疾弹诃声闻菩萨共谈不二默然显道
+- id: guji-维摩诘-event-death
+  person_id: guji-维摩诘
+  type: death
+  title_zh: 示灭分灯后世
+  date: '-0450'
+  year_of: -450
+  place_zh: 毗耶离
+  description: 化缘既毕示现灭度居士分灯之祖风流被后世
