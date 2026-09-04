@@ -9,114 +9,140 @@ person:
       date: 1319
       precision: year
       is_circa: false
-      raw: 延祐六年
+      raw: 元延祐六年
     death:
       date: 1369
       precision: year
       is_circa: false
-      raw: 洪武二年
+      raw: 明洪武二年己酉
   birth_date: 1319
   death_date: 1369
   era: 元末明初
-  reign_ref: 元仁宗延祐至明太祖洪武
-  archetype: 守经明义之师
+  reign_ref: 至正至洪武
+  archetype: 经学家
   dilemmas:
-  - 沿旧说之陋还是正书法之是非
-  - 详尽繁征还是简明比事
-  lesson: 比事以属辞，谨始以察变，圣人特笔炳如日星
-  summary_first_person: 吾为赵汸字子常，休宁人也，早岁受春秋于黄泽，慨世变之相仍，乃撮特笔大例为金锁匙，以类推勘，正其始终，冀复王道于文武成康之盛
+  - 三传分歧莫知统纪而欲求制作之原
+  - 离乱恐失坠而欲辑录成书以待后学
+  lesson: 必知鲁史旧书之例然后圣人笔削之义可求经世之道在拨乱反正
+  summary_first_person: 吾新安赵汸早岁闻黄楚望论五经大要思春秋书法十余载得孟子诗亡春秋作之旨考三传得失撰集传十五卷补注左传别为属辞八篇以明经世之志
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%87%91%E9%94%81%E5%8C%99.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%87%91%E9%94%81%E5%8C%99.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0.md
 endeavors:
 - id: guji-赵汸-endeavor-1
-  title_zh: 师从黄泽专治春秋
-  summary: 少年受业九江黄泽，尽得其经学，舍科举而专心春秋三传是非
+  title_zh: 撰春秋集传明防书笔削
+  summary_zh: 以孟子制作之原为纲列防书十五例笔削八义取左氏补注畅通诸家得失成十五卷
   phases:
   - key: brewing
-    name: 休宁力学
+    name: 师承思索
     labels:
-      zh: 蒙养
-    start_date: 1328
+      zh:
+      - 求法
+      - 考孟子
+    start_date: 1335
     highlight_event_id: guji-赵汸-event-birth
   - key: breakthrough
-    name: 负笈从黄泽游
+    name: 初稿删削
     labels:
-      zh: 问道
-    start_date: 1333
-    highlight_event_id: guji-赵汸-event-study
+      zh:
+      - 初稿
+      - 删削
+    start_date: 1348
+    highlight_event_id: guji-赵汸-event-chugao
   - key: climax
-    name: 尽传春秋之法
+    name: 成编十五卷
     labels:
-      zh: 得法
-    start_date: 1340
-    highlight_event_id: guji-赵汸-event-study
+      zh:
+      - 成编
+      - 笔削
+    start_date: 1357
+    highlight_event_id: guji-赵汸-event-chengbian
   - key: closure
-    name: 归乡授徒守道
+    name: 重修未竟托门人
     labels:
-      zh: 授徒
-    start_date: 1345
-    highlight_event_id: guji-赵汸-event-study
+      zh:
+      - 重修
+      - 续补
+    start_date: 1368
+    highlight_event_id: guji-赵汸-event-death
   decisions:
-  - date: 1333
-    title_zh: 北从黄泽学经
-    rationale: 慨科举溺心，欲求圣人笔削之防，故远游受春秋大义
-  - date: 1345
-    title_zh: 杜门讲道不仕
-    rationale: 元季扰攘，守师说以淑后学，不以荣利易经术
+  - date: 1348
+    title_zh: 以求书法为先立志集传
+    rationale: 闻黄楚望谓有鲁史书法有圣人书法当自思得之故思十余载以孟子之言为据
+  - date: 1357
+    title_zh: 存防书大体不轻改旧文
+    rationale: 以为春秋本鲁史成书辞从主人唯笔削变文特笔日月见义故存大体以见实录
 - id: guji-赵汸-endeavor-2
-  title_zh: 撰春秋金锁匙申明正变
-  summary: 撮举圣人特笔与春秋大例，以事相类互相推勘，考究异同而明抑诸侯抑大夫之始终
+  title_zh: 作属辞授徒传经世之学
+  summary_zh: 撰属辞八篇发隐蔽定例补左氏所未见授倪尚谊续昭公二十八年以后使经义不坠
   phases:
   - key: brewing
-    name: 会通三传是非
+    name: 参合三传
     labels:
-      zh: 酝酿
+      zh:
+      - 参核
+      - 教学
     start_date: 1350
-    highlight_event_id: guji-赵汸-event-writing
+    highlight_event_id: guji-赵汸-event-chugao
   - key: breakthrough
-    name: 立比事属辞之法
+    name: 属辞明例
     labels:
-      zh: 立法
-    start_date: 1355
-    highlight_event_id: guji-赵汸-event-writing
+      zh:
+      - 属辞
+      - 立例
+    start_date: 1358
+    highlight_event_id: guji-赵汸-event-chengbian
   - key: climax
-    name: 成金锁匙一卷
+    name: 授徒讲论
     labels:
-      zh: 成书
-    start_date: 1360
-    highlight_event_id: guji-赵汸-event-writing
-  - key: closure
-    name: 并传师说补注
-    labels:
-      zh: 传道
+      zh:
+      - 授徒
+      - 讲论
     start_date: 1365
-    highlight_event_id: guji-赵汸-event-writing
+    highlight_event_id: guji-赵汸-event-chongxiu
+  - key: closure
+    name: 病托续书
+    labels:
+      zh:
+      - 托付
+      - 续成
+    start_date: 1369
+    highlight_event_id: guji-赵汸-event-death
   decisions:
-  - date: 1355
-    title_zh: 以简明敌繁征
-    rationale: 沈棐比事详而尽，吾欲简而明，故撮大例以钥群疑
-  - date: 1360
-    title_zh: 谨始终以忧世变
-    rationale: 始则无王终则无伯，故特书元年王正月与西狩获麟以正始终
+  - date: 1358
+    title_zh: 别撰属辞八篇以破虚辞说经
+    rationale: 学者溺于所闻惑于三传分歧故发其隐蔽使笔削之义可求
+  - date: 1369
+    title_zh: 以续补之事付倪尚谊
+    rationale: 疾疢阁笔恐经义失坠故据属词义例续成使原本讹疏得正
 events:
 - id: guji-赵汸-event-birth
+  title_zh: 生于新安休宁
   date: 1319
   year_of: 1319
-  title_zh: 生于休宁
-  description: 元延祐六年生于徽州休宁赵氏
-- id: guji-赵汸-event-study
-  date: 1333
-  year_of: 1333
-  title_zh: 从黄泽治春秋
-  description: 往九江师事黄泽，研覃三传得比事属辞之法
-- id: guji-赵汸-event-writing
-  date: 1360
-  year_of: 1360
-  title_zh: 撰成春秋诸书
-  description: 先后撰春秋师说左氏补注及春秋金锁匙，撮特笔大例以明正变
+  place_zh: 徽州休宁
+  description_zh: 元延祐六年生于新安早岁从资中黄楚望闻五经大要
+- id: guji-赵汸-event-chugao
+  title_zh: 至正戊子始草集传初稿
+  date: 1348
+  year_of: 1348
+  place_zh: 新安
+  description_zh: 始于至正戊子取左氏为本参三传诸家及陈君举之说一再删削求防书笔削之例
+- id: guji-赵汸-event-chengbian
+  title_zh: 迄丁酉成编十五卷复著属辞
+  date: 1357
+  year_of: 1357
+  place_zh: 新安
+  description_zh: 迄丁酉成集传初稿十五卷复著属辞义精例密知初稿更须讨论列防书十五例笔削八义
+- id: guji-赵汸-event-chongxiu
+  title_zh: 重著集传草创至昭公二十八年而病
+  date: 1368
+  year_of: 1368
+  place_zh: 新安
+  description_zh: 重著是传草创至昭公二十八年疾疢难厄阁笔未续门人倪尚谊据属词义例续之并定例补正
 - id: guji-赵汸-event-death
+  title_zh: 洪武己酉卒尚谊续成其书
   date: 1369
   year_of: 1369
-  title_zh: 卒于明初
-  description: 明洪武二年卒，门人传其春秋之学，世宗为文懿先生
+  place_zh: 新安
+  description_zh: 洪武己酉卒自昭公二十八年以下尚谊据义例续成四库提要称实成于尚谊而义例一本于汸犹汸书也
