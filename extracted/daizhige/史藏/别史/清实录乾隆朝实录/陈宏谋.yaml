@@ -9,117 +9,140 @@ person:
       date: '1696'
       precision: year
       is_circa: false
-      raw: 康熙三十五年
+      raw: 康熙三十五年丙子
     death:
       date: '1771'
       precision: year
       is_circa: false
-      raw: 乾隆三十六年
+      raw: 乾隆三十六年辛卯
   birth_date: '1696'
   death_date: '1771'
-  era: 清乾隆朝
-  reign_ref: 乾隆七年壬戌
+  era: 清代
+  reign_ref: 乾隆
   archetype: 循吏经世型
   dilemmas:
-  - 京局鼓铸需铜紧要与江西钱荒钱价腾昂权宜截铜之两难
-  - 严惩私铸以肃钱法与兼顾小广旧钱行用民便之两难
-  lesson: 守经常而通权变因地制宜以裕民用
-  summary_first_person: 吾抚江西见钱少价昂私铸盛行请权宜截留滇铜五十五万斤以开鼓铸又请限三月收兑私钱而存小广旧钱兼行冀新钱日充私钱自绝勉尽抚绥之责
+  - 宽惠养民与严法缉私之间如何兼顾商民生计与国课盐政
+  - 整饬吏治勤加化导与避免扰民激变之间如何把握缓急轻重
+  lesson: 治盐如治水宜疏私贩之源而通官引之流勤宣教化严饬吏治方能肃政安民
+  summary_first_person: 吾陈宏谋抚赣之时见私盐充斥官引难销深知皆由地方玩忽疏纵所致惟以严饬所属实力查拏杜绝私贩通行官引为务终以勤政爱民为报国之本
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70171.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0191.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0191.html
 endeavors:
 - id: guji-陈宏谋-endeavor-1
-  title_zh: 截留滇铜以济江西鼓铸
-  summary_zh: 乾隆七年任江西巡抚以钱文太少钱价太昂请截留应解户工二部滇铜五十五万斤供本省鼓铸并陆续赴滇采买解京补项
+  title_zh: 巡抚江西整顿盐政缉拿私贩
+  summary: 乾隆八年奉旨严饬所属实力查拏江西私盐务使私贩杜绝官引通行以肃盐政
   phases:
   - key: brewing
-    name: 江西久未开铸钱荒
+    name: 私盐充斥官引难销
     labels:
-      zh: 酝酿
-    start_date: 1742-01
+      zh:
+      - 盐政
+      - 巡抚江西
+    start_date: '1743-01-01'
     highlight_event_id: guji-陈宏谋-event-1
   - key: breakthrough
-    name: 奏请权宜截留滇铜
+    name: 奉旨严饬查拏
     labels:
-      zh: 突破
-    start_date: 1742-07
+      zh:
+      - 缉私
+      - 整饬吏治
+    start_date: '1743-06-02'
     highlight_event_id: guji-陈宏谋-event-1
   - key: climax
-    name: 得旨允截五十五万斤
+    name: 实力缉私疏通官引
     labels:
-      zh: 高潮
-    start_date: 1742-07
-    highlight_event_id: guji-陈宏谋-event-1
+      zh:
+      - 杜绝私贩
+      - 通行官引
+    start_date: '1743-07-01'
+    highlight_event_id: guji-陈宏谋-event-2
   - key: closure
-    name: 陆续采买补解京项
+    name: 盐政稍肃民商俱安
     labels:
-      zh: 收束
-    start_date: 1742-08
-    highlight_event_id: guji-陈宏谋-event-1
+      zh:
+      - 肃清盐政
+      - 惠商裕课
+    start_date: '1744-01-01'
+    highlight_event_id: guji-陈宏谋-event-2
   decisions:
-  - date: 1742-07
-    title_zh: 请截留滇铜供鼓铸
-    rationale: 京铜虽关辇下钱法但江西钱贵特甚不得不权宜截铜济用他省不得援例
-  - date: 1742-07
-    title_zh: 承诺赴滇采买补项
-    rationale: 以外省采买补解京局示不亏京项而全事体
+  - date: '1743-06-02'
+    title_zh: 承旨严饬所属实力查拏私盐
+    rationale: 私盐不绝则官引不行必严督州县缉私方能裕课安商
+  - date: '1743-07-01'
+    title_zh: 区分首从化导商民通行官引
+    rationale: 单纯查禁易致扰民须兼施教化疏通销路使私贩无所容
 - id: guji-陈宏谋-endeavor-2
-  title_zh: 收兑私钱整顿江西钱法
-  summary_zh: 以小广钱搀搭剪边鹅眼砂板私铸囤贩请定限三月缴官给价收买搀搭鼓铸存小广旧钱照常行使待新钱广行后量为减价
+  title_zh: 宣讲圣谕化导愚民劝课农桑
+  summary: 以教化为国家大务于理词讼亲诣乡村之时谆切化导使民知孝友力田永保无事
   phases:
   - key: brewing
-    name: 私铸囤贩充斥市面
+    name: 民风褊急易起忿争
     labels:
-      zh: 酝酿
-    start_date: 1742-01
-    highlight_event_id: guji-陈宏谋-event-2
+      zh:
+      - 教化
+      - 亲民
+    start_date: '1742-01-01'
+    highlight_event_id: guji-陈宏谋-event-3
   - key: breakthrough
-    name: 请定三月限收兑
+    name: 拈出圣谕广为宣讲
     labels:
-      zh: 突破
-    start_date: 1742-07
-    highlight_event_id: guji-陈宏谋-event-2
+      zh:
+      - 宣讲
+      - 劝学
+    start_date: '1743-01-01'
+    highlight_event_id: guji-陈宏谋-event-3
   - key: climax
-    name: 部议准兼用新旧大小钱
+    name: 兴办义学劝民力田
     labels:
-      zh: 高潮
-    start_date: 1742-07
-    highlight_event_id: guji-陈宏谋-event-2
+      zh:
+      - 义学
+      - 力田
+    start_date: '1744-01-01'
+    highlight_event_id: guji-陈宏谋-event-3
   - key: closure
-    name: 新钱日充私钱可禁
+    name: 士习民风渐归淳厚
     labels:
-      zh: 收束
-    start_date: 1742-10
-    highlight_event_id: guji-陈宏谋-event-2
+      zh:
+      - 移风易俗
+      - 安民
+    start_date: '1745-01-01'
+    highlight_event_id: guji-陈宏谋-event-3
   decisions:
-  - date: 1742-07
-    title_zh: 定限收买私铸钱
-    rationale: 亟开鼓铸之前必先晓谕收兑给价以绝囤贩之源
-  - date: 1742-07
-    title_zh: 存留小广钱照常行使
-    rationale: 小广铜质原好行用已久骤废则民困故许兼用惟量为减价以别新制
+  - date: '1743-01-01'
+    title_zh: 于词讼农隙之时聚集开示感动其心
+    rationale: 徒法不能自行必就事开示使人知自惩方为经久之计
+  - date: '1744-01-01'
+    title_zh: 倡导义学表扬孝友以提撕警省愚民
+    rationale: 多一番提撕便加一番警省教化乃国家大务不可缓视
 events:
 - id: guji-陈宏谋-event-birth
-  type: birth
-  title_zh: 出生于广西临桂
+  title_zh: 生于广西临桂
   date: '1696'
   year_of: 1696
-  description: 康熙三十五年出生后雍正元年进士入仕
-- id: guji-陈宏谋-event-1
-  type: career
-  title_zh: 江西巡抚奏请截留滇铜
-  date: 1742-07
-  year_of: 1742
-  description: 以江西钱文太少钱价太昂请将应解户工二部滇铜截留五十五万五千斤以济省用获旨允行
-- id: guji-陈宏谋-event-2
-  type: career
-  title_zh: 奏定私钱收兑兼用法获准
-  date: 1742-07
-  year_of: 1742
-  description: 拟出示定限三月缴官收买私铸钱搀搭鼓铸小广钱仍听照常行使部议如所请施行
+  place_zh: 广西临桂
+  summary: 康熙三十五年丙子生为陈宏谋一生经世致用之始
 - id: guji-陈宏谋-event-death
-  type: death
-  title_zh: 逝世
+  title_zh: 卒于乾隆三十六年
   date: '1771'
   year_of: 1771
-  description: 乾隆三十六年逝世赠太子太傅谥文恭
+  place_zh: 京师
+  summary: 乾隆三十六年辛卯卒历仕雍正乾隆两朝以循吏名臣终
+- id: guji-陈宏谋-event-1
+  title_zh: 乾隆帝谕令陈宏谋严缉江西私盐
+  date: '1743-06-02'
+  year_of: 1743
+  place_zh: 江西
+  summary: 乾隆八年闰四月壬申上闻江西私盐充斥官引难销寄信巡抚陈宏谋严饬所属实力查拏务使私贩杜绝官引通行
+- id: guji-陈宏谋-event-2
+  title_zh: 实力查拏杜绝私贩疏通官引
+  date: '1743-07-01'
+  year_of: 1743
+  place_zh: 江西南昌
+  summary: 陈宏谋承旨后严督各属缉拿私枭整顿盐卡使官引复通盐政渐肃
+- id: guji-陈宏谋-event-3
+  title_zh: 宣讲圣谕兴办义学化导百姓
+  date: '1744-03-01'
+  year_of: 1744
+  place_zh: 江西
+  summary: 陈宏谋于巡历州县之时亲诣乡村宣讲圣谕兴办社学义学劝课农桑以正民风
