@@ -6,137 +6,129 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
-      precision: 年
+      date: 0602-04-06
+      precision: day
       is_circa: false
-      raw: 仁寿二年河南偃师
+      raw: 隋仁寿二年
     death:
-      date: '0664-02-05'
-      precision: 日
+      date: 0664-03-07
+      precision: day
       is_circa: false
-      raw: 麟德元年二月五日玉华宫
-  birth_date: '0602'
-  death_date: '0664-02-05'
-  era: 唐
-  reign_ref: 唐太宗贞观至唐高宗麟德
+      raw: 唐麟德元年二月五日
+  birth_date: 0602-04-06
+  death_date: 0664-03-07
+  era: 隋末唐初
+  reign_ref: 唐太宗贞观
   archetype: 求法译经高僧
   dilemmas:
-  - 安守中土讲席与冒死西行求法之抉择
-  - 独求解脱与奉诏译经普利群生之抉择
-  lesson: 以弘愿荷担求法译经，令正法久住，群生同获安乐。
-  summary_first_person: 吾玄奘，幼慕释门，慨中土经义未周，冒死西行遍历五天，归国奉诏译经，宣说七佛名号功德，愿众生受持供养同证菩提。
+  - title_zh: 冒禁西行与安守中土
+    description: 中土经论残缺而义多歧，守旧则安稳无过，西行则涉险求全，可得真法
+  - title_zh: 荣宠参政与专心译经
+    description: 太宗高宗礼厚欲授以政事，趋荣则显达一时，守译则寂寞一生而福被后世
+  lesson: 粗言为利刀，贪为毒药，嗔为炽火，无明为重暗，唯施忍慧戒福可得安乐庄严
+  summary_first_person: 吾本陈氏，洛州缑氏人，幼龄出家，慨中土群经未备，贞观三年冒禁西行，历十七载取经归唐，奉诏译经千卷有余，天请问经乃吾所译，天以伽他请问，佛以伽他答之，吾愿以此令众知福能浮持世间而不为水火王贼所夺
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T0436
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%8F%97%E6%8C%81%E4%B8%83%E4%BD%9B%E5%90%8D%E5%8F%B7%E6%89%80%E7%94%9F%E5%8A%9F%E5%BE%B7%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A9%E8%AF%B7%E9%97%AE%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A9%E8%AF%B7%E9%97%AE%E7%BB%8F.html
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 西行求法遍历五天
-  summary_zh: 慨中土经论未备，发愿西行，遍历天竺学法取经而归。
+  title_zh: 西行求法取经
+  description: 贞观三年自长安出发，经河西走廊越葱岭至天竺，游学那烂陀，取经六百余部归唐
   phases:
   - key: brewing
-    name: 长安发愿
+    name: 长安究学立志西行
     labels:
       zh: 酝酿
-    start_date: '0626'
-    highlight_event_id: guji-玄奘-event-fayuan
+    start_date: 0620-01-01
+    highlight_event_id: guji-玄奘-event-birth
   - key: breakthrough
-    name: 偷渡出关西行
+    name: 冒禁出关西进
     labels:
       zh: 突破
-    start_date: 0629
+    start_date: 0629-08-01
     highlight_event_id: guji-玄奘-event-xixing
   - key: climax
-    name: 天竺问道取经
+    name: 天竺游学取经
     labels:
-      zh: 高峰
-    start_date: '0630'
-    highlight_event_id: guji-玄奘-event-tianzhu
+      zh: 高潮
+    start_date: 0633-01-01
+    highlight_event_id: guji-玄奘-event-xixing
   - key: closure
-    name: 载经东归长安
+    name: 负经东归抵长安
     labels:
       zh: 收束
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-huiguo
+    start_date: 0645-02-15
+    highlight_event_id: guji-玄奘-event-guiguo
   decisions:
-  - date: 0629
-    title_zh: 冒禁西行
-    rationale: 为求圆满经法，不顾关禁，孤身偷渡，以殉求法之志。
-  - date: '0645'
-    title_zh: 携经归国弘化
-    rationale: 学成不滞异域，念中土群生，载经东归以报国恩佛恩。
+  - date: 0629-08-01
+    title_zh: 冒禁偷渡出玉门关
+    rationale: 无惧禁令与死亡，以求真法完整故宁舍身命而往天竺
+  - date: 0633-01-01
+    title_zh: 留学那烂陀师从戒贤
+    rationale: 欲穷唯识中观奥义，须久住圣地亲承宗匠故不急于归
 - id: guji-玄奘-endeavor-2
-  title_zh: 奉诏译经弘扬七佛功德
-  summary_zh: 归国后奉诏主持译场，译出受持七佛名号所生功德经等，普劝受持供养。
+  title_zh: 奉诏译经弘法
+  description: 归唐后住弘福寺慈恩寺，率弟子译出大般若等一千三百余卷，天请问经亦此时奉诏译出
   phases:
   - key: brewing
-    name: 弘福设场
+    name: 太宗敕住弘福筹译
     labels:
       zh: 酝酿
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-huiguo
+    start_date: 0645-03-01
+    highlight_event_id: guji-玄奘-event-guiguo
   - key: breakthrough
-    name: 大规模传译
+    name: 创译场定新译体例
     labels:
       zh: 突破
-    start_date: 0648
-    highlight_event_id: guji-玄奘-event-yijing
+    start_date: 0646-01-01
+    highlight_event_id: guji-玄奘-event-guiguo
   - key: climax
-    name: 译说七佛名号功德
+    name: 译出天请问经等要典
     labels:
-      zh: 高峰
-    start_date: '0650'
-    highlight_event_id: guji-玄奘-event-qifo
+      zh: 高潮
+    start_date: 0648-06-01
+    highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 玉华示寂付嘱流通
+    name: 玉华译场圆寂示寂
     labels:
       zh: 收束
-    start_date: '0664-02-05'
+    start_date: 0664-03-07
     highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0648
-    title_zh: 专心传译不居官荣
-    rationale: 以译经为报佛恩要务，谢绝荣利，毕力于梵本传译校雠。
-  - date: '0650'
-    title_zh: 宣扬七佛受持功德
-    rationale: 愍念有情流转剧苦，特译七佛名号，劝闻持建像供养以速证菩提。
+  - date: 0645-03-01
+    title_zh: 谢绝宰辅专事翻译
+    rationale: 帝欲授以政事，以译经利生更为根本故坚辞而守译场
+  - date: 0648-06-01
+    title_zh: 译出天请问经明天人问答
+    rationale: 此经以偈问答明施忍慧福胜过刀剑毒火，简要易持故优先译出以化时俗
 events:
 - id: guji-玄奘-event-birth
-  date: '0602'
+  title_zh: 生于洛州缑氏陈家
+  date: 0602-04-06
   year_of: 602
-  title_zh: 诞生于河南偃师
-  description_zh: 隋仁寿二年生于偃师陈氏，幼聪慧，早慕出家。
-- id: guji-玄奘-event-fayuan
-  date: '0626'
-  year_of: 626
-  title_zh: 长安发愿西行
-  description_zh: 见中土经论支离，发大愿西游天竺求取圆经。
+  location_zh: 洛州缑氏
+  description: 隋仁寿二年生于官宦之家，幼颖悟，十三岁出家
 - id: guji-玄奘-event-xixing
-  date: 0629
+  title_zh: 冒禁西行出关
+  date: 0629-08-01
   year_of: 629
-  title_zh: 贞观三年偷渡出关
-  description_zh: 贞观三年自长安出发，偷渡玉门，历碛路西行求法。
-- id: guji-玄奘-event-tianzhu
-  date: '0630'
-  year_of: 630
-  title_zh: 抵天竺那烂陀问道
-  description_zh: 遍历五天竺，止那烂陀从戒贤论师受学，兼学梵文因明。
-- id: guji-玄奘-event-huiguo
-  date: '0645'
+  location_zh: 长安至玉门关
+  description: 贞观三年秋自长安出发，偷渡玉门关，经高昌西突厥越葱岭往天竺
+- id: guji-玄奘-event-guiguo
+  title_zh: 取经归国抵长安
+  date: 0645-02-15
   year_of: 645
-  title_zh: 贞观十九年归长安
-  description_zh: 贞观十九年正月载经六百余部还抵长安，太宗亲迎，敕住弘福寺译经。
+  location_zh: 长安弘福寺
+  description: 贞观十九年正月携经六百五十七部归长安，太宗亲迎，敕住弘福寺从事翻译
 - id: guji-玄奘-event-yijing
-  date: 0648
+  title_zh: 奉诏译出天请问经
+  date: 0648-06-01
   year_of: 648
-  title_zh: 主持译场大规模传译
-  description_zh: 奉诏主持译经，创译场新例，译大般若等众经，严谨精审。
-- id: guji-玄奘-event-qifo
-  date: '0650'
-  year_of: 650
-  title_zh: 奉诏译受持七佛名号所生功德经
-  description_zh: 奉诏译出此经，于誓多林会上宣说东方南方七佛名号国土及闻持建像功德，舍利子等欢喜奉行。
+  location_zh: 长安大慈恩寺
+  description: 以妙伽他译出天人请问与世尊答覆，明施得利忍为甲胄慧为刀杖福能持世不为水火所坏
 - id: guji-玄奘-event-death
-  date: '0664-02-05'
+  title_zh: 寂于长安玉华宫
+  date: 0664-03-07
   year_of: 664
-  title_zh: 示寂于玉华宫
-  description_zh: 麟德元年二月五日示寂于玉华宫玉华寺，世寿六十三，葬浐东白鹿原。
+  location_zh: 京兆玉华寺
+  description: 麟德元年二月五日寂，寿六十二，遗命薄葬，帝为之罢朝举哀

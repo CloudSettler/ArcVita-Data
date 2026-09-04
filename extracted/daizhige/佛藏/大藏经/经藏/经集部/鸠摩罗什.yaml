@@ -8,134 +8,139 @@ person:
     birth:
       date: '0344'
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 晋穆帝永和十年生于龟兹
     death:
       date: '0413'
       precision: year
       is_circa: false
-      raw: 义熙九年卒于长安
+      raw: 姚秦弘始十五年卒于长安
   birth_date: '0344'
   death_date: '0413'
-  era: 十六国姚秦
-  reign_ref: 姚兴弘始年间
+  era: 姚秦
+  reign_ref: 姚兴弘始
   archetype: 译经宗师
   dilemmas:
-  - 小乘旧学与大乘新悟之间如何舍旧从新
-  - 沦陷凉州十七年道业未展如何安忍待时
-  - 国师尊荣与戒律清净毁誉之间如何自证
-  lesson: 以三毒对治安顿禅心以诚信译语饶益众生放逸则乱摄心则净
-  summary_first_person: 我生于龟兹随母出家初习小乘后转大乘滞留凉州十七年后入长安弘始译场译出坐禅三昧经等教人以不净慈心因缘数息念佛对治三毒令心得定
+  - 凉州久滞道业难展与安忍待时以保法种
+  - 还俗存种之讥谤与为弘大乘不舍本愿
+  lesson: 以慈悲坚固本愿融会空有弘法利生不舍众生
+  summary_first_person: 我是鸠摩罗什生于龟兹幼随母出家遍学大小乘后滞凉州十余年终入长安逍遥园译经弘法愿译大树紧那罗王所问等经令大乘久住安乐人天
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/坐禪三昧經.html
-  - https://tripitaka.cbeta.org/T0614
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A7%E6%A0%91%E7%B4%A7%E9%82%A3%E7%BD%97%E7%8E%8B%E6%89%80%E9%97%AE%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%A4%A7%E6%A0%91%E7%B4%A7%E9%82%A3%E7%BD%97%E7%8E%8B%E6%89%80%E9%97%AE%E7%BB%8F.html
 endeavors:
 - id: guji-鸠摩罗什-endeavor-1
-  title_zh: 西域出家求法弘化
-  summary_zh: 七岁随母出家游学罽宾遍习大小乘归返龟兹弘化声播西域后为吕光所俘留滞凉州
+  title_zh: 西域求法与凉州安忍
+  summary_zh: 幼年出家赴罽宾沙勒遍学大小乘后被劫留凉州安忍弘化待时而动
   phases:
   - key: brewing
-    name: 随母出家初习小乘
+    name: 龟兹幼学
     labels:
       zh:
-      - 初学
-    start_date: '0351'
-    highlight_event_id: guji-鸠摩罗什-event-study
+      - 幼学启蒙
+    start_date: '0344'
+    highlight_event_id: guji-鸠摩罗什-event-birth
   - key: breakthrough
-    name: 西行受学转入大乘
+    name: 罽宾遍学
     labels:
       zh:
-      - 转关
-    start_date: 0359
+      - 遍学三藏
+    start_date: '0353'
     highlight_event_id: guji-鸠摩罗什-event-study
   - key: climax
-    name: 归返龟兹弘化四方
+    name: 凉州滞留
     labels:
       zh:
-      - 弘化
-    start_date: 0380
-    highlight_event_id: guji-鸠摩罗什-event-liangzhou
-  - key: closure
-    name: 俘滞凉州安忍待时
-    labels:
-      zh:
-      - 安忍
+      - 安忍待时
     start_date: 0384
     highlight_event_id: guji-鸠摩罗什-event-liangzhou
-  decisions:
-  - date: 0359
-    title_zh: 舍小乘转学大乘空宗
-    rationale: 从莎车王子须利耶苏摩受诵中百论等始悟大乘空义破小乘执著
-  - date: 0384
-    title_zh: 凉州被留不废讲授
-    rationale: 虽被吕光父子羁留姑臧仍为吕纂等讲说因缘法门种后世译经因缘
-- id: guji-鸠摩罗什-endeavor-2
-  title_zh: 长安译场译经弘禅
-  summary_zh: 弘始三年迎入长安礼为国师住逍遥园西明阁开译场译出大品中观百论坐禅三昧经等三百余卷
-  phases:
-  - key: brewing
-    name: 迎入长安礼为国师
+  - key: closure
+    name: 东赴关中
     labels:
       zh:
-      - 入关
+      - 应请东行
+    start_date: '0401'
+    highlight_event_id: guji-鸠摩罗什-event-changan
+  decisions:
+  - date: '0353'
+    title_zh: 随母出家远赴罽宾
+    rationale: 为求甚深法义不恋安逸故遍学大小乘奠定译经之基
+  - date: 0384
+    title_zh: 凉州安忍不违时缘
+    rationale: 虽被劫留而随缘化导坚持戒慧以待弘法时机成熟
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 长安译经弘扬大乘
+  summary_zh: 入长安逍遥园主持译场译出大树紧那罗王所问等大乘要典广宣空性慈悲
+  phases:
+  - key: brewing
+    name: 入关礼敬
+    labels:
+      zh:
+      - 入关弘法
     start_date: '0401'
     highlight_event_id: guji-鸠摩罗什-event-changan
   - key: breakthrough
-    name: 逍遥园开堂始译
+    name: 逍遥译场
     labels:
       zh:
-      - 开译
+      - 译场初开
     start_date: '0402'
-    highlight_event_id: guji-鸠摩罗什-event-zuochan
+    highlight_event_id: guji-鸠摩罗什-event-changan
   - key: climax
-    name: 译出坐禅三昧经授禅要
+    name: 大树经译宣
     labels:
       zh:
-      - 弘禅
+      - 译宣大乘
     start_date: '0405'
-    highlight_event_id: guji-鸠摩罗什-event-zuochan
+    highlight_event_id: guji-鸠摩罗什-event-translate-dashu
   - key: closure
-    name: 示寂长安遗誓舌根
+    name: 示寂长安
     labels:
       zh:
-      - 圆寂
+      - 弘法圆成
     start_date: '0413'
     highlight_event_id: guji-鸠摩罗什-event-death
   decisions:
   - date: '0402'
-    title_zh: 立新译场重译众经
-    rationale: 以信达雅重定译例集八百义学之士对校梵汉使大乘要典通行中土
+    title_zh: 开译场广召义学沙门
+    rationale: 为令大乘久住所集众智详定译文使义味相应
   - date: '0405'
-    title_zh: 译坐禅三昧经明五门对治
-    rationale: 以不净治贪慈心治嗔因缘治痴数息治散念佛治等分令初学有次第可依
+    title_zh: 译说大树紧那罗王所问经
+    rationale: 为显菩萨四法庄严辩智令未来菩萨得闻受持广利人天
 events:
 - id: guji-鸠摩罗什-event-birth
   date: '0344'
   year_of: 344
   title_zh: 生于龟兹
-  description_zh: 父鸠摩罗炎天竺人母龟兹王妹耆婆七岁随母出家为西域高僧之子
+  description_zh: 晋穆帝永和十年生于龟兹父为天竺国师母为龟兹王妹
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
 - id: guji-鸠摩罗什-event-study
-  date: 0359
-  year_of: 359
-  title_zh: 游学罽宾转学大乘
-  description_zh: 从槃头达多习小乘杂藏复从须利耶苏摩受大乘中百十二门等还归龟兹弘化
+  date: '0353'
+  year_of: 353
+  title_zh: 随母赴罽宾遍学
+  description_zh: 年九岁随母出家赴罽宾师从槃头达多等遍学小乘大乘及外典
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
 - id: guji-鸠摩罗什-event-liangzhou
   date: 0384
   year_of: 384
-  title_zh: 为吕光所俘留滞凉州
-  description_zh: 苻坚遣吕光迎师西域未至而国乱师留姑臧十七年吕纂姚兴屡迎不果
+  title_zh: 劫留凉州
+  description_zh: 苻坚遣吕光迎请遇乱留滞凉州十余年随缘说法安忍待时
+  endeavor_ref: guji-鸠摩罗什-endeavor-1
 - id: guji-鸠摩罗什-event-changan
   date: '0401'
   year_of: 401
-  title_zh: 入长安为姚兴国师
-  description_zh: 姚秦弘始三年姚兴遣姚硕德迎入长安礼以国师之礼住逍遥园集众译经
-- id: guji-鸠摩罗什-event-zuochan
+  title_zh: 入长安居逍遥园
+  description_zh: 姚兴迎入长安待以国师之礼居逍遥园集义学沙门开译弘法
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
+- id: guji-鸠摩罗什-event-translate-dashu
   date: '0405'
   year_of: 405
-  title_zh: 译出坐禅三昧经
-  description_zh: 于长安译坐禅三昧经上下卷明不净慈心因缘阿那般那念佛五门禅要为后世禅经之宗
+  title_zh: 译大树紧那罗王所问经
+  description_zh: 于长安译出大树紧那罗王所问经演说菩萨四法庄严辩智与甚深法义
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
 - id: guji-鸠摩罗什-event-death
   date: '0413'
   year_of: 413
-  title_zh: 卒于长安
-  description_zh: 义熙九年四月示寂于长安大寺遗言所译若无谬误荼毗舌根不坏后果如其言
+  title_zh: 示寂于长安
+  description_zh: 姚秦弘始十五年示寂于长安遗愿所译无谬舌根不坏以明信实
+  endeavor_ref: guji-鸠摩罗什-endeavor-2
