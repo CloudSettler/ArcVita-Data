@@ -1,0 +1,116 @@
+person:
+  qid: guji-琰法师
+  name_zh: 琰法师
+  names:
+    zh: 琰法师
+    en: Yan Fashi
+  lifespan:
+    birth:
+      date: 0499
+      precision: year
+      is_circa: true
+      raw: 梁天监中年十一为僧逆推约生
+    death:
+      date: 0591
+      precision: year
+      is_circa: true
+      raw: 寿至九十二终于长安招提寺
+  birth_date: 0499
+  death_date: 0591
+  era: 南北朝梁至隋
+  reign_ref: 梁天监
+  archetype: 持经延寿型高僧
+  dilemmas:
+  - 相师断言十八必夭与发心修行改命之间抉择
+  - 得经感应后懈怠安逸与愈加精勤之间抉择
+  lesson: 一心受持金刚般若能转夭寿为遐龄劝人精勤不辍
+  summary_first_person: 我十一岁在长安招提寺为僧闻相师言寿止十八心中不乐即诣藏殿礼三宝发愿毕世持经随手得金刚般若昼夜不舍夜感梵僧告以持经延寿后重逢相师谓夭相已消寿至九十二后果如其言终於招提
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏续藏经中国撰述史传部感应神异传金刚经感应传.md
+  - https://daizhige.org/佛藏续藏经中国撰述史传部感应神异传金刚经感应传.html
+endeavors:
+- id: guji-琰法师-endeavor-1
+  title_zh: 藏殿发愿抽得金刚专心受持
+  summary_zh: 闻夭相不乐诣藏殿焚香礼三宝发愿乞经随手得金刚般若昼夜受持不舍感五色光梵僧示延寿
+  phases:
+  - key: brewing
+    name: 闻夭发愿
+    labels:
+      zh:
+      - 发愿
+      - 求经
+    start_date: '0510'
+    highlight_event_id: guji-琰法师-event-fayuan
+  - key: breakthrough
+    name: 得经精持感圣
+    labels:
+      zh:
+      - 持诵
+      - 感应
+    start_date: '0510'
+    highlight_event_id: guji-琰法师-event-ganye
+  decisions:
+  - date: '0510'
+    title_zh: 藏殿礼佛乞经毕世受持
+    rationale: 为转夭寿发心依三宝求一经终身持念
+  - date: '0510'
+    title_zh: 昼夜不舍专持般若
+    rationale: 信持经功德能消夭相故愈加精勤
+- id: guji-琰法师-endeavor-2
+  title_zh: 验相延龄终老招提
+  summary_zh: 年逾十九再逢相师见夭相已消许寿九十二此后一生精勤终老招提以证明验劝信
+  phases:
+  - key: climax
+    name: 再逢相师验寿
+    labels:
+      zh:
+      - 验相
+      - 延寿
+    start_date: 0518
+    highlight_event_id: guji-琰法师-event-yanshou
+  - key: closure
+    name: 遐龄善终
+    labels:
+      zh:
+      - 安住
+      - 示化
+    start_date: 0591
+    highlight_event_id: guji-琰法师-event-death
+  decisions:
+  - date: 0518
+    title_zh: 寻访相师证验改相
+    rationale: 以自身延寿之验示佛法功德殊异令俗人生信
+  - date: 0591
+    title_zh: 终身不改安住招提
+    rationale: 以九十二岁善终应验相言成感应流传之证
+events:
+- id: guji-琰法师-event-birth
+  title_zh: 出生
+  date: 0499
+  year_of: 499
+  place_zh: 长安
+  description_zh: 约生於梁代长安幼年出家年十一居招提寺据天监中事逆推
+- id: guji-琰法师-event-fayuan
+  title_zh: 藏殿发愿抽得金刚经
+  date: '0510'
+  year_of: 510
+  place_zh: 长安招提寺藏殿
+  description_zh: 同寺僧往占吉凶相师言寿止十八不乐归寺诣藏殿焚香礼三宝发愿乞经随手抽得金刚般若遂专心受持
+- id: guji-琰法师-event-ganye
+  title_zh: 夜见光明梵僧示延寿
+  date: '0511'
+  year_of: 511
+  place_zh: 长安招提寺僧房
+  description_zh: 昼夜持念不舍夜至更深房中现五色光明梵僧告以持大乘经力增延寿数言讫隐没自此愈更精勤
+- id: guji-琰法师-event-yanshou
+  title_zh: 重逢相师言夭相已消寿至九十二
+  date: 0518
+  year_of: 518
+  place_zh: 长安
+  description_zh: 年逾十九寻访相师相师愕然谓夭相已消问习何善业答专持金刚般若相师稽首叹佛法功德断寿至九十二
+- id: guji-琰法师-event-death
+  title_zh: 终于招提寺
+  date: 0591
+  year_of: 591
+  place_zh: 长安招提寺
+  description_zh: 果应相师之言寿至九十二终于招提寺事出感应记为后世持经延寿之证
