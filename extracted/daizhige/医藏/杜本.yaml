@@ -1,0 +1,124 @@
+person:
+  qid: guji-杜本
+  name_zh: 杜本
+  names:
+    zh: 杜本
+    en: Du Ben
+  lifespan:
+    birth:
+      date: 1276
+      precision: year
+      is_circa: false
+      raw: 元至元十三年
+    death:
+      date: 1350
+      precision: year
+      is_circa: false
+      raw: 元至正十年
+  birth_date: 1276
+  death_date: 1350
+  era: 元
+  reign_ref: 至正
+  archetype: 隐逸著述之士
+  dilemmas:
+  - title_zh: 出仕与守隐
+    description_zh: 朝廷屡征而守志山林以全著述讲学之业
+  - title_zh: 脉诊与舌证
+    description_zh: 脉理七表八里形似难辨故专取舌色浅显易知以决生死
+  lesson: 以简驭繁以舌决生死临证当观形察色审症辨舌活法用药而不泥一端
+  summary_first_person: 吾杜本得敖氏独见之明于至正改元编成伤寒金镜录以三十六舌图决表里汗下愿后学推类尽余以寄人死生
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%95%96%E6%B0%8F%E4%BC%A4%E5%AF%92%E9%87%91%E9%95%9C%E5%BD%95.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%95%96%E6%B0%8F%E4%BC%A4%E5%AF%92%E9%87%91%E9%95%9C%E5%BD%95.html
+endeavors:
+- id: guji-杜本-endeavor-1
+  title_zh: 编述敖氏伤寒金镜舌法
+  summary: 会敖氏三十六舌法参以仲景钤法成金镜录以舌证决表里汗下
+  phases:
+  - key: brewing
+    name: 访求敖氏独见之明
+    labels:
+      zh: 访求积累
+    start_date: 1335
+    highlight_event_id: guji-杜本-event-1
+  - key: breakthrough
+    name: 参合仲景分经定治
+    labels:
+      zh: 参合贯通
+    start_date: 1340
+    highlight_event_id: guji-杜本-event-1
+  - key: climax
+    name: 至正元年编成金镜录
+    labels:
+      zh: 成书示人
+    start_date: 1341-11-01
+    highlight_event_id: guji-杜本-event-2
+  - key: closure
+    name: 付后世刊行广传
+    labels:
+      zh: 刊传后世
+    start_date: 1342
+    highlight_event_id: guji-杜本-event-2
+  decisions:
+  - date: 1340
+    title_zh: 只以舌证不以脉辨
+    rationale: 脉理玄妙形似难辨庸医接踵杀人故取舌色浅显易知试辄有效
+  - date: 1341-11-01
+    title_zh: 增补前十二舌复作二十四图并方治
+    rationale: 恐未尽诸症故推源寻流列图列方以决生死使学人推类尽余
+- id: guji-杜本-endeavor-2
+  title_zh: 守隐清江讲学著述
+  summary: 隐居不仕讲明经史医道以文载道以教传人
+  phases:
+  - key: brewing
+    name: 早年力学养志山林
+    labels:
+      zh: 养志力学
+    start_date: 1295
+    highlight_event_id: guji-杜本-event-birth
+  - key: breakthrough
+    name: 永和论医述用药说
+    labels:
+      zh: 论医明道
+    start_date: 1341
+    highlight_event_id: guji-杜本-event-2
+  - key: climax
+    name: 以将喻医晓示后人
+    labels:
+      zh: 立说示法
+    start_date: 1341-11-01
+    highlight_event_id: guji-杜本-event-2
+  - key: closure
+    name: 全节而终名在医藏
+    labels:
+      zh: 守节而终
+    start_date: 1350
+    highlight_event_id: guji-杜本-event-death
+  decisions:
+  - date: 1330
+    title_zh: 拒征守隐不赴朝命
+    rationale: 视富贵如浮云愿以著述讲学寄托不以身殉利禄
+  - date: 1341
+    title_zh: 作伤寒用药说以将喻医
+    rationale: 医如将之用兵须究浅深和解攻击合宜胆大心小操存有法
+events:
+- id: guji-杜本-event-birth
+  date: 1276
+  year_of: 1276
+  title_zh: 杜本诞生于清江
+  description: 元至元年间生于江西清江少力学志于隐逸
+- id: guji-杜本-event-1
+  date: 1335
+  year_of: 1335
+  title_zh: 访得敖氏舌法研求传变
+  description: 得敖氏辨舌三十六法究心苗舌色白赤青黄黑五色应五脏参仲景钤法
+- id: guji-杜本-event-2
+  date: 1341-11-01
+  year_of: 1341
+  title_zh: 至正元年编成金镜录并作序说
+  description: 于一阳月成敖氏伤寒金镜录作原序及用药说以将喻医明表里汗下之次
+- id: guji-杜本-event-death
+  date: 1350
+  year_of: 1350
+  title_zh: 杜本逝世
+  description: 至正十年终守隐之节而殁其书后经薛己马崇儒等校刊广传于世
