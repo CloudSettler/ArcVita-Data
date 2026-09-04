@@ -1,0 +1,149 @@
+person:
+  qid: guji-慧苑
+  name_zh: 慧苑
+  names:
+    zh: 慧苑
+    en: Huiyuan
+  lifespan:
+    birth:
+      date: '0700-01-01'
+      precision: year
+      is_circa: true
+      raw: 唐武后年间左右
+    death:
+      date: '0743-01-01'
+      precision: year
+      is_circa: true
+      raw: 唐玄宗天宝二年左右
+  birth_date: '0700-01-01'
+  death_date: '0743-01-01'
+  era: 唐
+  reign_ref: 唐玄宗开元天宝间
+  archetype: 华严宗义学沙门
+  dilemmas:
+  - title_zh: 师嘱未竟何以续成
+    description: 和上遽迁略疏仅至四分之一悬谈未修何以鸠集旧新再勘折衷
+  - title_zh: 广略异说何以折衷
+    description: 广文浩汗梵本异同宗和教别何以简言通意笔削存真
+  lesson: 以勘校折衷续师未竟简言通意令华严教海可入
+  summary_first_person: 我是京兆静法寺沙门慧苑承和上遗法先造略疏自妙严品至第二十行复鸠广略再勘梵本作刊定记开十门以续成之
+  source_urls:
+  - https://daizhige.org/佛藏/续藏经/中国撰述/大小乘释经部/华严部疏/续华严经略疏刊定记.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/续藏经/中国撰述/大小乘释经部/华严部疏/续华严经略疏刊定记.md
+endeavors:
+- id: guji-慧苑-endeavor-1
+  person_qid: guji-慧苑
+  title_zh: 承师造华严经略疏
+  summary: 承和上之嘱自妙严品至第二十行造略疏并作十定前九定疏已撰未刻
+  phases:
+  - key: brewing
+    name: 依师受华严
+    labels:
+      zh:
+      - 随侍听讲
+      - 咨禀义理
+    start_date: '0710-01-01'
+    highlight_event_id: guji-慧苑-event-study
+  - key: breakthrough
+    name: 发心造略疏
+    labels:
+      zh:
+      - 立义开宗
+      - 略疏创制
+    start_date: '0715-01-01'
+    highlight_event_id: guji-慧苑-event-lueshu
+  - key: climax
+    name: 疏至二十行而辍
+    labels:
+      zh:
+      - 十定前九
+      - 未遑剪刻
+    start_date: '0720-01-01'
+    highlight_event_id: guji-慧苑-event-lueshu
+  decisions:
+  - date: '0715-01-01'
+    title_zh: 决意作略疏以纲广文
+    rationale: 广文浩汗学者难入故撮要造略以存折衷之基
+  - date: '0720-01-01'
+    title_zh: 和上迁化后辍笔待勘
+    rationale: 已撰未刻悬谈未修不宜轻刻故留待再勘梵本会撮旧新
+- id: guji-慧苑-endeavor-2
+  person_qid: guji-慧苑
+  title_zh: 鸠集会撮作刊定记
+  summary: 鸠集广略会撮旧新再勘梵本雠校异同顺宗和教开十门以刊定略疏
+  phases:
+  - key: brewing
+    name: 鸠集广略旧新
+    labels:
+      zh:
+      - 鸠集会撮
+      - 雠校异同
+    start_date: '0730-01-01'
+    highlight_event_id: guji-慧苑-event-kanding
+  - key: breakthrough
+    name: 再勘梵本折衷
+    labels:
+      zh:
+      - 再勘梵本
+      - 顺宗和教
+    start_date: '0732-01-01'
+    highlight_event_id: guji-慧苑-event-kanding
+  - key: climax
+    name: 开十门释教起
+    labels:
+      zh:
+      - 十门分别
+      - 依文正释
+    start_date: '0735-01-01'
+    highlight_event_id: guji-慧苑-event-kanding
+  - key: closure
+    name: 笔削刊定成记
+    labels:
+      zh:
+      - 简言通意
+      - 笔削刊定
+    start_date: '0736-01-01'
+    highlight_event_id: guji-慧苑-event-kanding
+  decisions:
+  - date: '0730-01-01'
+    title_zh: 决意再勘梵本会撮旧新
+    rationale: 略疏仅成四分之一广略异说纷然故须勘梵存折衷之正
+  - date: '0735-01-01'
+    title_zh: 决开十门以统全经
+    rationale: 教起藏部体宗分齐不明则正释无归故先立十门后依文释
+events:
+- id: guji-慧苑-event-birth
+  person_qid: guji-慧苑
+  type: birth
+  date: '0700-01-01'
+  year_of: 700
+  title_zh: 诞生
+  description: 约唐武后年间生于中土后出家为沙门
+- id: guji-慧苑-event-study
+  person_qid: guji-慧苑
+  type: study
+  date: '0710-01-01'
+  year_of: 710
+  title_zh: 依和上学华严
+  description: 居京兆静法寺随侍和上咨禀华严广略义理深得宗和之旨
+- id: guji-慧苑-event-lueshu
+  person_qid: guji-慧苑
+  type: composition
+  date: '0718-01-01'
+  year_of: 718
+  title_zh: 造华严经略疏
+  description: 自妙严品起讫第二十行并造十定疏前九定悬谈及余疏未及修葺
+- id: guji-慧苑-event-kanding
+  person_qid: guji-慧苑
+  type: composition
+  date: '0735-01-01'
+  year_of: 735
+  title_zh: 撰续华严经略疏刊定记
+  description: 鸠集广略会撮旧新再勘梵本开教起藏部等十门以刊定略疏
+- id: guji-慧苑-event-death
+  person_qid: guji-慧苑
+  type: death
+  date: '0743-01-01'
+  year_of: 743
+  title_zh: 示寂
+  description: 约唐玄宗天宝二年左右寂于京兆静法寺
