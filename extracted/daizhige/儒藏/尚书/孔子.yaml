@@ -1,0 +1,130 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: false
+      raw: 鲁襄公二十一年秋九月二十八日生于陬邑
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: false
+      raw: 鲁哀公十六年夏四月十一日卒于鲁
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 春秋
+  reign_ref: 鲁定公鲁哀公之世
+  archetype: 述圣守文之师
+  dilemmas:
+  - 述而不作与裁定百篇作序之间的名分之辨
+  - 经文散乱作意不明与不敢以私意断圣人之难
+  lesson: 信而好古述而不作以序显作意以传垂后教
+  summary_first_person: 吾丘也少习礼晚好易见古史百篇散乱作意不明遂纂书凡百篇而为之序言其作意又修易而作序述旧章明尧舜禹汤之道而不自作也
+  source_urls:
+  - https://daizhige.org/儒藏/尚书/钦定书经传说汇纂.html
+  - https://ctext.org/library.pl?if=gb&res=271702
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 纂书定百篇而作序
+  summary: 据刘歆班固之说纂书凡百篇而为序言作意以明帝王授受之次
+  phases:
+  - key: brewing
+    name: 网罗散篇
+    labels:
+      zh:
+      - 搜集
+    start_date: -485-01-01
+    highlight_event_id: guji-孔子-event-zuanxu
+  - key: breakthrough
+    name: 裁定百篇
+    labels:
+      zh:
+      - 裁定
+    start_date: -484-03-01
+    highlight_event_id: guji-孔子-event-zuanxu
+  - key: climax
+    name: 作序言志
+    labels:
+      zh:
+      - 作序
+    start_date: -484-06-01
+    highlight_event_id: guji-孔子-event-zuanxu
+  - key: closure
+    name: 以序传经
+    labels:
+      zh:
+      - 传授
+    start_date: -483-01-01
+    highlight_event_id: guji-孔子-event-zuanxu
+  decisions:
+  - date: -484-03-01
+    title_zh: 定百篇之数
+    rationale: 以尧典至立政无逸统百篇之传使一代政事始终可考而不敢增损圣文
+  - date: -484-06-01
+    title_zh: 作序言作意
+    rationale: 以序明作者之意如昔在帝尧将逊于位让于虞舜之类使学者知篇次所由
+- id: guji-孔子-endeavor-2
+  title_zh: 修易正辞以垂教
+  summary: 修易而作序与序书并举以明圣人忧患之心
+  phases:
+  - key: brewing
+    name: 晚喜读易
+    labels:
+      zh:
+      - 好学
+    start_date: -486-01-01
+    highlight_event_id: guji-孔子-event-xiuyi
+  - key: breakthrough
+    name: 修易明理
+    labels:
+      zh:
+      - 修治
+    start_date: -483-06-01
+    highlight_event_id: guji-孔子-event-xiuyi
+  - key: climax
+    name: 作序赞易
+    labels:
+      zh:
+      - 赞述
+    start_date: -482-01-01
+    highlight_event_id: guji-孔子-event-xiuyi
+  - key: closure
+    name: 以易序配书序
+    labels:
+      zh:
+      - 会通
+    start_date: -481-01-01
+    highlight_event_id: guji-孔子-event-xiuyi
+  decisions:
+  - date: -483-06-01
+    title_zh: 修易而不作易
+    rationale: 述而不作信而好古因旧文正其辞以明吉凶消长之理
+  - date: -482-01-01
+    title_zh: 并序书易以一例
+    rationale: 易序言理书序言事一以明道一以纪事使后世可由辞以得意
+events:
+- id: guji-孔子-event-birth
+  title_zh: 生于鲁陬邑
+  date: -551-09-28
+  year_of: -551
+  description: 鲁襄公二十一年生于陬邑为尼丘之后少习礼而好古
+- id: guji-孔子-event-zuanxu
+  title_zh: 纂书百篇作序
+  date: -484-03-01
+  year_of: -484
+  description: 据汉刘歆修易序书班固纂书凡百篇之说裁定尧典舜典以下百篇而为序言其作意如昔在帝尧光宅天下之文
+- id: guji-孔子-event-xiuyi
+  title_zh: 修易作序
+  date: -483-06-01
+  year_of: -483
+  description: 晚喜易而修之作序以明其辞与序书相表里一明理一纪事
+- id: guji-孔子-event-death
+  title_zh: 卒于鲁
+  date: -479-04-11
+  year_of: -479
+  description: 鲁哀公十六年夏卒于鲁弟子传其书序易序以垂后世而百篇之旨赖以存
