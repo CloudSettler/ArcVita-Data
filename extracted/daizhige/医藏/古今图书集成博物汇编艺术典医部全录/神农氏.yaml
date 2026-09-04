@@ -1,0 +1,146 @@
+person:
+  qid: guji-神农氏
+  name_zh: 神农氏
+  names:
+    zh: 神农氏
+    en: Shennong
+  lifespan:
+    birth:
+      date: '-2737'
+      precision: year
+      is_circa: true
+      raw: 传说长于江水
+    death:
+      date: '-2698'
+      precision: year
+      is_circa: true
+      raw: 传说因尝药而崩
+  birth_date: '-2737'
+  death_date: '-2698'
+  era: 上古三皇
+  reign_ref: 炎帝神农氏时代
+  archetype: 医药农耕开创者
+  dilemmas:
+  - 以身尝毒犯险与保全性命之难
+  - 辨药救疾与教耕养民兼顾之衡
+  lesson: 亲尝百草以明药性著书疗疾，教耕播谷以养民命，开医农之先
+  summary_first_person: 吾长于江水，见民生疾未知药石，遂以赭鞭鞭草木，尝味辨其寒温平热，一日而遇七十毒，定君臣佐使，著本草作方书以疗疾，又教民耕种五谷察水泉甘苦，使民居安食力无夭札
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E7%BA%AA%E4%BA%8B%E6%9D%82%E5%BD%95%E5%A4%96%E7%BC%96.html
+endeavors:
+- id: guji-神农氏-endeavor-1
+  person_qid: guji-神农氏
+  title_zh: 尝百草开医药
+  description: 以赭鞭鞭草木尝味辨性，审平毒燥寒，辨畏恶臣使，著本草作方书疗民疾
+  phases:
+  - key: brewing
+    name: 见疾未知药石而起意
+    labels:
+      zh:
+      - 察疾起心
+    start_date: '-2730'
+    highlight_event_id: guji-神农氏-event-taste
+  - key: breakthrough
+    name: 鞭草尝味知寒温平热
+    labels:
+      zh:
+      - 尝草辨性
+    start_date: '-2725'
+    highlight_event_id: guji-神农氏-event-taste
+  - key: climax
+    name: 一日七十毒神化作方
+    labels:
+      zh:
+      - 以身试毒
+    start_date: '-2722'
+    highlight_event_id: guji-神农氏-event-bencao
+  - key: closure
+    name: 著本草定四百病三百六十五药
+    labels:
+      zh:
+      - 著书疗疾
+    start_date: '-2720'
+    highlight_event_id: guji-神农氏-event-bencao
+  decisions:
+  - date: '-2725'
+    title_zh: 以赭鞭鞭百草尝臭味寒温
+    rationale: 欲尽知草木平毒寒温之性与臭味所生故须亲尝
+  - date: '-2720'
+    title_zh: 厘定君臣佐使著方书
+    rationale: 欲正名养性命治病使百姓日用疗疾故著录成书
+- id: guji-神农氏-endeavor-2
+  person_qid: guji-神农氏
+  title_zh: 教耕播谷养民命
+  description: 教天下耕种五谷而食以省杀生，播百谷察水泉甘苦使民居安食力
+  phases:
+  - key: brewing
+    name: 察民杀生食艰而思耕
+    labels:
+      zh:
+      - 省杀养民
+    start_date: '-2724'
+    highlight_event_id: guji-神农氏-event-agri
+  - key: breakthrough
+    name: 播百谷教耕种之法
+    labels:
+      zh:
+      - 教耕播种
+    start_date: '-2718'
+    highlight_event_id: guji-神农氏-event-agri
+  - key: climax
+    name: 察水泉甘苦使知避就
+    labels:
+      zh:
+      - 相水定居
+    start_date: '-2715'
+    highlight_event_id: guji-神农氏-event-agri
+  - key: closure
+    name: 民居安食力无夭札
+    labels:
+      zh:
+      - 民安业成
+    start_date: '-2710'
+    highlight_event_id: guji-神农氏-event-agri
+  decisions:
+  - date: '-2718'
+    title_zh: 教民耕种五谷以代杀生
+    rationale: 欲省杀生救夭伤人命使百姓有常食故以耕代猎
+  - date: '-2715'
+    title_zh: 察水泉甘苦令人避就
+    rationale: 欲使斯民居安得水土之宜免疾札故亲察泉味
+events:
+- id: guji-神农氏-event-birth
+  person_qid: guji-神农氏
+  type: birth
+  title_zh: 长于江水而生
+  date: '-2737'
+  year_of: -2737
+  description: 炎帝神农氏长于江水，肇兴于上古，渐察民疾农艰
+- id: guji-神农氏-event-taste
+  person_qid: guji-神农氏
+  type: achievement
+  title_zh: 鞭草尝百味一日七十毒
+  date: '-2725'
+  year_of: -2725
+  description: 以赭鞭鞭草木，始尝百草，察寒温平热之性，辨臭味所生，一日而遇七十毒神而化之
+- id: guji-神农氏-event-bencao
+  person_qid: guji-神农氏
+  type: achievement
+  title_zh: 著本草作方书疗疾
+  date: '-2720'
+  year_of: -2720
+  description: 病正四百药得三百六十物以应周天，著本草四卷，又作方书以疗时疾，医道自此始
+- id: guji-神农氏-event-agri
+  person_qid: guji-神农氏
+  type: achievement
+  title_zh: 教耕五谷察水泉
+  date: '-2715'
+  year_of: -2715
+  description: 始教天下耕种五谷而食之，以播百谷，复察水泉甘苦令人知避就，民居安食力
+- id: guji-神农氏-event-death
+  person_qid: guji-神农氏
+  type: death
+  title_zh: 尝药功成而崩
+  date: '-2698'
+  year_of: -2698
+  description: 传说尝百药一日百死百生，积毒劳瘁以救民，终崩于尝药济世之途
