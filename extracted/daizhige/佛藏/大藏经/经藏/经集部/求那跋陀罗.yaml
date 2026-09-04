@@ -8,145 +8,121 @@ person:
     birth:
       date: 0394
       precision: year
-      is_circa: true
-      raw: 约晋末生于中天竺婆罗门家
+      is_circa: false
+      raw: 晋安帝元兴三年生于中天竺
     death:
       date: 0468
       precision: year
       is_circa: false
-      raw: 刘宋大明十二年寂于建康
+      raw: 刘宋泰始四年寂于建康
   birth_date: 0394
   death_date: 0468
   era: 刘宋
-  reign_ref: 宋文帝元嘉至宋前废帝时
-  archetype: 译经弘法高僧
+  reign_ref: 宋文帝元嘉至宋明帝泰始
+  archetype: 译经弘法者
   dilemmas:
-  - 梵汉悬隔经义深微如何译得信达以利江南
-  - 世途扰攘檀越更迭如何安住持戒以竟译业
-  lesson: 罪福如影随形施一得万倍当布施持戒忍辱精进以种来世福田
-  summary_first_person: 吾本中天竺人少出家习禅律大乘泛海至宋蒙文帝敬礼住祇洹译楞伽胜鬘杂阿含罪福报应等经劝世知罪福报应勤修布施持戒
+  - title_zh: 梵汉悬隔如何传信
+    description: 梵筴微言译为华言恐失本义当如何令众信解受持
+  - title_zh: 众生放逸如何劝修
+    description: 凡夫数数生死横苦相续当以何方便令其习禅一心远离诸横
+  lesson: 以十二品分别凡圣生死苦乐示解脱有门劝人闲居习禅勿复放逸
+  summary_first_person: 吾本中天竺婆罗门种出家学三藏泛海东来寄形宋土译梵为华说人死十二品愿众知无余度脱之胜厌数数悔横烧烂饥渴之苦而修清净一心
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/佛说罪福报应经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/佛说罪福报应经.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%8D%81%E4%BA%8C%E5%93%81%E7%94%9F%E6%AD%BB%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%8D%81%E4%BA%8C%E5%93%81%E7%94%9F%E6%AD%BB%E7%BB%8F.md
 endeavors:
 - id: guji-求那跋陀罗-endeavor-1
-  title_zh: 泛海东来弘化江南
-  summary: 自天竺经海道至广州建康得文帝奉请弘禅宣律开大乘之风
+  title_zh: 泛海东来译经传法
+  summary: 自天竺泛海至宋住祇洹等寺译杂阿含楞伽胜鬘等百余卷奠定南朝大乘学基
   phases:
   - key: brewing
-    name: 天竺出家学法
+    name: 天竺出家精通三藏
     labels:
-      zh:
-      - 修学积淀
+      zh: 出家求学
     start_date: 0394
     highlight_event_id: guji-求那跋陀罗-event-birth
   - key: breakthrough
-    name: 泛海到宋受迎
+    name: 元嘉泛海达于广州
     labels:
-      zh:
-      - 远行弘化
+      zh: 南来入宋
     start_date: '0435'
-    highlight_event_id: guji-求那跋陀罗-event-arrive
+    highlight_event_id: guji-求那跋陀罗-event-arrive-song
   - key: climax
-    name: 建康受礼弘禅
+    name: 建康祇洹开译众经
     labels:
-      zh:
-      - 弘法高峰
+      zh: 开译弘宣
     start_date: '0436'
-    highlight_event_id: guji-求那跋陀罗-event-preach
+    highlight_event_id: guji-求那跋陀罗-event-preach-shierpin
   - key: closure
-    name: 住寺授徒安众
+    name: 晚住东安遗教而寂
     labels:
-      zh:
-      - 安住传灯
-    start_date: '0440'
-    highlight_event_id: guji-求那跋陀罗-event-preach
+      zh: 示寂遗教
+    start_date: 0468
+    highlight_event_id: guji-求那跋陀罗-event-death
   decisions:
   - date: '0435'
-    title_zh: 应请泛海东行
-    rationale: 不忍正法局限西土愿以大乘济江南众生故冒海难东来
+    title_zh: 应请东行入宋译经
+    rationale: 不惮海途艰险欲以大乘了义流通华夏故舍本土而东来
   - date: '0436'
-    title_zh: 住祇洹受文帝供养弘法
-    rationale: 得国主护持则戒定慧易立故安住建康以化导士庶
+    title_zh: 依文帝礼遇住寺专译
+    rationale: 得护持因缘清净处所便于集众口授笔受故受请安住传译
 - id: guji-求那跋陀罗-endeavor-2
-  title_zh: 译经传灯明罪福
-  summary: 在建康丹阳译出楞伽胜鬘杂阿含及罪福报应经以因果劝世
+  title_zh: 宣说十二品劝修解脱
+  summary: 于舍卫祇树之会依佛所说分别十二品生死劝比丘习禅一心远离放逸淫色诸横
   phases:
   - key: brewing
-    name: 精通梵汉筹备翻译
+    name: 观察众生生死苦相
     labels:
-      zh:
-      - 译场奠基
+      zh: 观苦起悲
     start_date: '0435'
-    highlight_event_id: guji-求那跋陀罗-event-arrive
+    highlight_event_id: guji-求那跋陀罗-event-arrive-song
   - key: breakthrough
-    name: 首译大乘要典
+    name: 舍卫会上说十二品
     labels:
-      zh:
-      - 初译突破
-    start_date: 0439
-    highlight_event_id: guji-求那跋陀罗-event-translate-lengqie
+      zh: 分判生死
+    start_date: '0436'
+    highlight_event_id: guji-求那跋陀罗-event-preach-shierpin
   - key: climax
-    name: 译罪福报应劝世
+    name: 劝修闲居学禅一心
     labels:
-      zh:
-      - 因果劝化
-    start_date: '0445'
-    highlight_event_id: guji-求那跋陀罗-event-translate-zuifu
+      zh: 劝修禅定
+    start_date: '0436'
+    highlight_event_id: guji-求那跋陀罗-event-preach-shierpin
   - key: closure
-    name: 杂阿含集成流通
+    name: 比丘欢喜稽首奉行
     labels:
-      zh:
-      - 集大成流通
-    start_date: '0451'
-    highlight_event_id: guji-求那跋陀罗-event-translate-zaahan
+      zh: 信受奉行
+    start_date: '0436'
+    highlight_event_id: guji-求那跋陀罗-event-preach-shierpin
   decisions:
-  - date: 0439
-    title_zh: 先译楞伽胜鬘立大乘正见
-    rationale: 欲使江南明佛性如来藏故先出深经以正人心
-  - date: '0445'
-    title_zh: 译罪福报应经明五道轮转
-    rationale: 世人不信罪福故以尼拘类树喻施一得万倍劝布施持戒
+  - date: '0436'
+    title_zh: 以十二品判凡圣解脱
+    rationale: 欲令众晓知无余度脱与烧烂饥渴之别而生欣厌故分别开示
+  - date: '0436'
+    title_zh: 劝学闲居远离放逸
+    rationale: 数数悔横皆由放逸淫色所致唯清净一心乃能证得故诫令勤修
 events:
 - id: guji-求那跋陀罗-event-birth
-  title_zh: 诞生中天竺
+  kind: birth
   date: 0394
   year_of: 394
-  place_zh: 中天竺
-  description: 生于婆罗门家少年出家博学声明大小乘法尤精禅观
-- id: guji-求那跋陀罗-event-arrive
-  title_zh: 泛海至广州入宋
+  title_zh: 生于中天竺婆罗门家
+  description: 晋安帝元兴三年生少习五明后出家精研阿毗昙及大乘楞伽等经
+- id: guji-求那跋陀罗-event-arrive-song
+  kind: career
   date: '0435'
   year_of: 435
-  place_zh: 广州
-  description: 以元嘉十二年泛海东至广州文帝遣使迎请至建康住祇洹寺
-- id: guji-求那跋陀罗-event-preach
-  title_zh: 建康弘禅开化
+  title_zh: 元嘉十二年泛海至广州后入建康
+  description: 宋文帝遣使迎请礼遇甚厚请住祇洹寺开译梵本四众归仰
+- id: guji-求那跋陀罗-event-preach-shierpin
+  kind: career
   date: '0436'
   year_of: 436
-  place_zh: 建康祇洹寺
-  description: 为文帝群臣授戒弘禅宣说罪福如影随形劝行布施持戒
-- id: guji-求那跋陀罗-event-translate-lengqie
-  title_zh: 译出楞伽胜鬘等经
-  date: 0439
-  year_of: 439
-  place_zh: 建康
-  description: 译楞伽阿跋多罗宝经胜鬘经央掘魔罗经等立大乘正见
-- id: guji-求那跋陀罗-event-translate-zuifu
-  title_zh: 译佛说罪福报应经
-  date: '0445'
-  year_of: 445
-  place_zh: 建康
-  description: 译出罪福报应经说尼拘类树喻布施得福五道轮转因果不虚
-- id: guji-求那跋陀罗-event-translate-zaahan
-  title_zh: 译杂阿含经流通
-  date: '0451'
-  year_of: 451
-  place_zh: 丹阳建康
-  description: 译杂阿含五十卷集声闻要法与大乘并弘流通江南
+  title_zh: 译说十二品生死经示生死解脱
+  description: 言人死有十二品自罗汉无余至饿鬼饥渴劝比丘习在闲居树下学禅一心无得轻戏后悔
 - id: guji-求那跋陀罗-event-death
-  title_zh: 示寂于建康
+  kind: death
   date: 0468
   year_of: 468
-  place_zh: 建康
-  description: 以大明十二年示寂世寿七十余译经百余卷门徒传灯不绝
+  title_zh: 泰始四年寂于建康
+  description: 晚年译经讲说不辍示寂之后门人传其楞伽胜鬘及十二品之教风行南土

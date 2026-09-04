@@ -1,0 +1,136 @@
+person:
+  qid: guji-马鸣菩萨
+  name_zh: 马鸣菩萨
+  names:
+    zh: 马鸣菩萨
+    en: Asvaghosa
+  lifespan:
+    birth:
+      date: 0080
+      precision: year
+      is_circa: true
+      raw: 约公元八十年生于中印度
+    death:
+      date: '0150'
+      precision: year
+      is_circa: true
+      raw: 约公元一百五十年示寂于北印度
+  birth_date: 0080
+  death_date: '0150'
+  era: 东汉贵霜王朝时
+  reign_ref: 迦腻色迦王时
+  archetype: 文学弘教论师
+  dilemmas:
+  - 以诗歌音乐摄化大众与恐涉绮语之衡
+  - 以狮子吼摧破外道邪见与守菩萨慈悲柔和之衡
+  lesson: 明十不善业道体性是罪远离众恶勤修十善方是趣入佛道之正基
+  summary_first_person: 我本生中印度婆罗门家少习声明诗乐后睹生老病死无常归依佛门愍念众生不识罪相造恶堕狱故集十不善业道明身语意罪相劝令远离修习十善愿以文字方便引入佛道
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%8D%81%E4%B8%8D%E5%96%84%E4%B8%9A%E9%81%93%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E5%8D%81%E4%B8%8D%E5%96%84%E4%B8%9A%E9%81%93%E7%BB%8F.html
+endeavors:
+- id: guji-马鸣菩萨-endeavor-1
+  title_zh: 集说十不善业道开示罪福因果
+  description: 依正法念处等经集身三语四意三罪相明五缘成罪及非处非时非分非往劝离恶趣修十善
+  phases:
+  - key: brewing
+    name: 悲愍凡愚不识业道
+    labels:
+      zh: 酝酿
+    start_date: '0100'
+    highlight_event_id: guji-马鸣菩萨-event-compassion
+  - key: breakthrough
+    name: 抉择身语意十种罪体
+    labels:
+      zh: 突破
+    start_date: '0110'
+    highlight_event_id: guji-马鸣菩萨-event-collect
+  - key: climax
+    name: 集齐十不善广明五缘四类相
+    labels:
+      zh: 高潮
+    start_date: '0120'
+    highlight_event_id: guji-马鸣菩萨-event-collect
+  - key: closure
+    name: 付嘱修学十善永不堕恶趣
+    labels:
+      zh: 收束
+    start_date: '0125'
+    highlight_event_id: guji-马鸣菩萨-event-teach-ten-good
+  decisions:
+  - date: '0110'
+    title_zh: 决以浅近业道摄化初机
+    rationale: 乐求佛道者不知罪体故先明十恶体性令远离彼过
+  - date: '0120'
+    title_zh: 决依五缘四类详辨罪相
+    rationale: 杀盗淫妄等持犯不明故须次第具足宣说处时分往令知持犯
+- id: guji-马鸣菩萨-endeavor-2
+  title_zh: 以诗乐论议弘大乘摧外道邪见
+  description: 作佛所行赞等以文学摄众破无施无后世无佛等邪见显罪福业报
+  phases:
+  - key: brewing
+    name: 婆罗门声明诗乐学养
+    labels:
+      zh: 酝酿
+    start_date: 0080
+    highlight_event_id: guji-马鸣菩萨-event-birth
+  - key: breakthrough
+    name: 归依佛门发弘誓愿
+    labels:
+      zh: 突破
+    start_date: '0105'
+    highlight_event_id: guji-马鸣菩萨-event-compassion
+  - key: climax
+    name: 造论作赞摧邪显正
+    labels:
+      zh: 高潮
+    start_date: '0130'
+    highlight_event_id: guji-马鸣菩萨-event-compose
+  - key: closure
+    name: 文教并行垂范后世
+    labels:
+      zh: 收束
+    start_date: '0140'
+    highlight_event_id: guji-马鸣菩萨-event-compose
+  decisions:
+  - date: '0105'
+    title_zh: 决舍外道执见归依佛法
+    rationale: 睹生死无常知吠陀难出生死故求解脱正道
+  - date: '0130'
+    title_zh: 决以诗歌论议兼弘正法
+    rationale: 众生乐闻美言故借文学音乐为方便引入因果正见破邪见
+events:
+- id: guji-马鸣菩萨-event-birth
+  title_zh: 降生中印度婆罗门家
+  date: 0080
+  year_of: 80
+  description: 生于中印度婆罗门族少习吠陀因明声明诗乐名闻四方
+- id: guji-马鸣菩萨-event-compassion
+  title_zh: 睹苦发心愍念造恶众生
+  date: '0105'
+  year_of: 105
+  description: 睹生老病死及众生造杀盗淫妄堕狱发悲心欲明业道以救济
+  endeavor_ref: guji-马鸣菩萨-endeavor-1
+- id: guji-马鸣菩萨-event-collect
+  title_zh: 集造十不善业道经明五缘罪相
+  date: '0120'
+  year_of: 120
+  description: 集身三种语四种意三种详明杀生不与取邪行妄语绮语两舌恶语贪嗔邪见及五缘四类差别明此为地狱因
+  endeavor_ref: guji-马鸣菩萨-endeavor-1
+- id: guji-马鸣菩萨-event-teach-ten-good
+  title_zh: 劝修十善永离恶趣
+  date: '0125'
+  year_of: 125
+  description: 开示于十善业道应当修学则于恶趣永不堕落付嘱四众受持
+  endeavor_ref: guji-马鸣菩萨-endeavor-1
+- id: guji-马鸣菩萨-event-compose
+  title_zh: 作佛所行赞等破邪显正
+  date: '0135'
+  year_of: 135
+  description: 以诗歌论议弘大乘破无施无后世无罪福等邪见显作业受报令众归正
+  endeavor_ref: guji-马鸣菩萨-endeavor-2
+- id: guji-马鸣菩萨-event-death
+  title_zh: 示寂北印度
+  date: '0150'
+  year_of: 150
+  description: 化缘既毕示现无常寂于北印度后世尊为马鸣菩萨功德不朽
