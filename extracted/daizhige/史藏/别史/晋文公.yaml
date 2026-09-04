@@ -1,0 +1,139 @@
+person:
+  qid: guji-晋文公
+  name_zh: 晋文公
+  names:
+    zh: 晋文公
+    en: Duke Wen of Jin
+  lifespan:
+    birth:
+      date: -0697-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前697年生
+    death:
+      date: -0628-01-01
+      precision: year
+      is_circa: false
+      raw: 公元前628年薨
+  birth_date: -0697-01-01
+  death_date: -0628-01-01
+  era: 春秋中期
+  reign_ref: 晋国国君，公元前636年至前628年在位
+  archetype: 流亡复国之霸主
+  dilemmas:
+  - 辞隧受地以全周典与君臣大义
+  - 纳王勤王与图霸之间的礼义权衡
+  lesson: 守礼让而得诸侯，修忠信仁义而能霸业
+  summary_first_person: 余重耳出亡十九年，历诸侯而知民情，复国即位不敢贪天之功，定襄王于郏而辞隧以存大章，朝王衡雍而献楚捷，方知守礼即图强之本
+  source_urls:
+  - https://ctext.org/guo-yu
+  - https://github.com/daizhige-org/daizhigev20/blob/data/README.md
+endeavors:
+- id: guji-晋文公-endeavor-1
+  person_id: guji-晋文公
+  title_zh: 流亡十九年复国定周
+  summary: 出亡在外十九载，借秦力复国，纳襄王于郏，辞隧受地，出阳民以怀柔
+  phases:
+  - key: brewing
+    name: 出亡流离
+    labels:
+      zh: 流亡守志
+    start_date: -0655-01-01
+    highlight_event_id: guji-晋文公-event-birth
+  - key: breakthrough
+    name: 秦助复国
+    labels:
+      zh: 复国即位
+    start_date: -0636-03-01
+    highlight_event_id: guji-晋文公-event-return
+  - key: climax
+    name: 定王辞隧
+    labels:
+      zh: 辞隧守典
+    start_date: -0636-06-01
+    highlight_event_id: guji-晋文公-event-mandate
+  - key: closure
+    name: 怀柔阳樊
+    labels:
+      zh: 怀柔远人
+    start_date: -0635-01-01
+    highlight_event_id: guji-晋文公-event-mandate
+  decisions:
+  - date: -0636-06-01
+    title_zh: 辞隧不受受地而还
+    rationale: 改玉改行则僭越，不敢以私劳变先王大章，故辞隧以全君臣之礼
+  - date: -0635-01-01
+    title_zh: 出阳民而不蔑杀
+    rationale: 阳人怀王德而未服，武不可玩，文不可匿，故怀柔以怀远
+- id: guji-晋文公-endeavor-2
+  person_id: guji-晋文公
+  title_zh: 尊王赐命践土称霸
+  summary: 郊劳馆宗庙受王命，朝王衡雍献楚捷，践土结盟始霸诸侯
+  phases:
+  - key: brewing
+    name: 敬王命修礼义
+    labels:
+      zh: 敬王守礼
+    start_date: -0636-01-01
+    highlight_event_id: guji-晋文公-event-return
+  - key: breakthrough
+    name: 赐命于武宫
+    labels:
+      zh: 受命成礼
+    start_date: -0636-08-01
+    highlight_event_id: guji-晋文公-event-mandate
+  - key: climax
+    name: 衡雍朝王献捷
+    labels:
+      zh: 朝王献捷
+    start_date: -0632-05-01
+    highlight_event_id: guji-晋文公-event-hegemon
+  - key: closure
+    name: 践土结盟始霸
+    labels:
+      zh: 践土称霸
+    start_date: -0632-06-01
+    highlight_event_id: guji-晋文公-event-hegemon
+  decisions:
+  - date: -0636-08-01
+    title_zh: 郊劳馆宗庙以敬王命
+    rationale: 逆王命敬奉礼义成，忠信仁义四者不失，则诸侯必归，故树于有礼
+  - date: -0632-05-01
+    title_zh: 朝王衡雍献楚捷
+    rationale: 以诸侯朝王明尊周，以献捷显武功，故能合诸侯而成霸业
+events:
+- id: guji-晋文公-event-birth
+  person_id: guji-晋文公
+  type: birth
+  title_zh: 重耳生于晋
+  date: -0697-01-01
+  year_of: -697
+  description: 晋献公之子重耳生，姬姓，后为晋文公，少年出亡流离诸侯
+- id: guji-晋文公-event-return
+  person_id: guji-晋文公
+  type: career
+  title_zh: 复国即位纳襄王于郏
+  date: -0636-03-01
+  year_of: -636
+  description: 晋文公复国即位，襄王出居于郑，晋文公纳襄王于郏，王劳之以地
+- id: guji-晋文公-event-mandate
+  person_id: guji-晋文公
+  type: career
+  title_zh: 辞隧受地得阳樊受王赐命
+  date: -0635-08-01
+  year_of: -635
+  description: 王以阳樊赐晋文公，晋侯围阳而闻仓葛之言乃出阳民，太宰文公及内史兴赐命于武宫，晋侯端委受之，内史称其能礼
+- id: guji-晋文公-event-hegemon
+  person_id: guji-晋文公
+  type: career
+  title_zh: 衡雍朝王践土称霸
+  date: -0632-06-01
+  year_of: -632
+  description: 襄王十六年立晋文公，二十一年以诸侯朝王于衡雍，献楚捷，遂为践土之盟，于是始霸
+- id: guji-晋文公-event-death
+  person_id: guji-晋文公
+  type: death
+  title_zh: 薨于晋
+  date: -0628-01-01
+  year_of: -628
+  description: 晋文公在位九年而薨，霸业既成，周室赖之以安

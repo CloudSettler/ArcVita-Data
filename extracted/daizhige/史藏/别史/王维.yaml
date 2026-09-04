@@ -1,0 +1,138 @@
+person:
+  qid: guji-王维
+  name_zh: 王维
+  names:
+    zh: 王维
+    en: Wang Wei
+  lifespan:
+    birth:
+      date: '0701'
+      precision: year
+      is_circa: true
+      raw: 唐长安元年
+    death:
+      date: '0761'
+      precision: year
+      is_circa: false
+      raw: 唐上元二年
+  birth_date: '0701'
+  death_date: '0761'
+  era: 唐
+  reign_ref: 唐玄宗至肃宗
+  archetype: 诗佛山水大家
+  dilemmas:
+  - 好释高致与仕宦尘累之冲突
+  - 诗名自立与博取佳句之讥评
+  lesson: 山水寄心诗画通神，博采亦须自立
+  summary_first_person: 吾王维字摩诘，好释氏，得辋川别业以寄高致，诗得嘉句，画妙山水，观奏乐图即知霓裳叠拍，以艺通神终老
+  source_urls:
+  - https://daizhige.org/史藏/别史/唐国史补.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/唐国史补.md
+endeavors:
+- id: guji-王维-endeavor-1
+  title_zh: 辋川诗业经营
+  summary: 得宋之问辋川别业，寄心山水，好释氏，诗名盛而博采嘉句
+  phases:
+  - key: brewing
+    name: 好释立性
+    labels:
+      zh: 崇释高致
+    start_date: '0721'
+    highlight_event_id: guji-王维-event-wangchuan
+  - key: breakthrough
+    name: 得辋川别业
+    labels:
+      zh: 辋川得业
+    start_date: '0740'
+    highlight_event_id: guji-王维-event-wangchuan
+  - key: climax
+    name: 诗名盛传
+    labels:
+      zh: 诗名嘉句
+    start_date: '0745'
+    highlight_event_id: guji-王维-event-poem
+  - key: closure
+    name: 清源寄胜
+    labels:
+      zh: 山水清源
+    start_date: '0755'
+    highlight_event_id: guji-王维-event-poem
+  decisions:
+  - date: '0740'
+    title_zh: 经营辋川别业
+    rationale: 立性高致，欲以山水胜绝寄心养道
+  - date: '0745'
+    title_zh: 博采嘉句入诗
+    rationale: 好取人文章嘉句，以成水穷云起之妙
+- id: guji-王维-endeavor-2
+  title_zh: 绘画鉴乐妙绝
+  summary: 画品妙绝尤工平远，熟视奏乐图即辨霓裳羽衣曲叠拍不差
+  phases:
+  - key: brewing
+    name: 留心画品
+    labels:
+      zh: 初工丹青
+    start_date: '0730'
+    highlight_event_id: guji-王维-event-painting
+  - key: breakthrough
+    name: 山水平远尤工
+    labels:
+      zh: 山水尤工
+    start_date: '0742'
+    highlight_event_id: guji-王维-event-painting
+  - key: climax
+    name: 熟视奏乐图而笑
+    labels:
+      zh: 辨曲一笑
+    start_date: '0750'
+    highlight_event_id: guji-王维-event-music
+  - key: closure
+    name: 乐工验证无差
+    labels:
+      zh: 验证不谬
+    start_date: '0750'
+    highlight_event_id: guji-王维-event-music
+  decisions:
+  - date: '0742'
+    title_zh: 专攻山水平远
+    rationale: 以高致寄远，故于平远尤工
+  - date: '0750'
+    title_zh: 直言奏乐图曲拍
+    rationale: 熟视知音，笑言第三叠第一拍以正其误
+events:
+- id: guji-王维-event-birth
+  title_zh: 出生
+  date: '0701'
+  year_of: 701
+  place_zh: 太原祁县
+  summary: 王维约生于唐长安元年
+- id: guji-王维-event-wangchuan
+  title_zh: 得辋川别业
+  date: '0740'
+  year_of: 740
+  place_zh: 蓝田辋川
+  summary: 得宋之问辋川别业，山水胜绝，今为清源寺
+- id: guji-王维-event-poem
+  title_zh: 诗名盛而取嘉句
+  date: '0745'
+  year_of: 745
+  place_zh: 长安
+  summary: 有诗名，行到水穷处坐看云起时及水田白鹭之句传世
+- id: guji-王维-event-painting
+  title_zh: 画品妙绝
+  date: '0742'
+  year_of: 742
+  place_zh: 长安昭国坊
+  summary: 山水平远尤工，昭国坊庾敬休屋壁存其迹
+- id: guji-王维-event-music
+  title_zh: 辨奏乐图曲拍
+  date: '0750'
+  year_of: 750
+  place_zh: 长安
+  summary: 视奏乐图知为霓裳羽衣曲第三叠第一拍，集乐工验之无差
+- id: guji-王维-event-death
+  title_zh: 逝世
+  date: '0761'
+  year_of: 761
+  place_zh: 长安
+  summary: 唐上元二年卒
