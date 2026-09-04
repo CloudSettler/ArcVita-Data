@@ -1,0 +1,149 @@
+person:
+  qid: guji-须达
+  name_zh: 须达
+  names:
+    zh: 须达多
+    en: Sudatta Anathapindika
+  lifespan:
+    birth:
+      date: -384
+      precision: year
+      is_circa: true
+      raw: 约公元前六百年
+    death:
+      date: -358
+      precision: year
+      is_circa: true
+      raw: 约公元前六世纪中叶
+  birth_date: -384
+  death_date: -358
+  era: 春秋晚期
+  reign_ref: 释迦牟尼在世时
+  archetype: 布施护法居士
+  dilemmas:
+  - 家财尽施与家族生计延续之衡
+  - 敬信三宝与世俗讥毁之择
+  lesson: 以财施护持众僧即护持正法久住，信心供养能令自他皆种善根
+  summary_first_person: 我是舍卫城长者须达多，人称给孤独，信敬佛法，为僧坛越，众僧所须一切供给，又布施祇园请佛安僧，家中鹦鹉闻法亦得生天，我愿舍财护法，令正法久住。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/T2821
+  - https://cbeta.org/result/T2821.htm
+endeavors:
+- id: guji-须达-endeavor-1
+  title_zh: 布施祇园精舍供佛安僧
+  summary: 购祇陀太子园布金建舍，奉请佛陀及众僧安居说法
+  phases:
+  - key: brewing
+    name: 发心访佛求住
+    labels:
+      zh: 发心请佛
+    start_date: -381
+    highlight_event_id: guji-须达-event-qiyuan-brewing
+  - key: breakthrough
+    name: 布金买园兴建
+    labels:
+      zh: 布金买园
+    start_date: -376
+    highlight_event_id: guji-须达-event-qiyuan-build
+  - key: climax
+    name: 祇园成就供佛受用
+    labels:
+      zh: 成舍供养
+    start_date: -0568
+    highlight_event_id: guji-须达-event-qiyuan-done
+  - key: closure
+    name: 回向正法久住
+    labels:
+      zh: 回向久住
+    start_date: -375
+    highlight_event_id: guji-须达-event-qiyuan-done
+  decisions:
+  - date: -376
+    title_zh: 决定布金购园不惜家财
+    rationale: 为令佛及僧得安居说法处，舍财即是种无上福田
+  - date: -0568
+    title_zh: 决定以祇园供佛及十方僧
+    rationale: 园舍施僧功德最胜，能利人天令正法住世
+- id: guji-须达-endeavor-2
+  title_zh: 为僧坛越供给一切所须
+  summary: 信敬佛法为僧坛越，众僧所须衣食汤药一切供给，家中亦令闻法
+  phases:
+  - key: brewing
+    name: 信敬归依发坛越愿
+    labels:
+      zh: 信敬发愿
+    start_date: -381
+    highlight_event_id: guji-须达-event-tanyue
+  - key: breakthrough
+    name: 日日常供给众僧
+    labels:
+      zh: 供给众僧
+    start_date: -376
+    highlight_event_id: guji-须达-event-tanyue
+  - key: climax
+    name: 家中鹦鹉闻法生天
+    labels:
+      zh: 鹦鹉闻法
+    start_date: -373
+    highlight_event_id: guji-须达-event-yingwu
+  - key: closure
+    name: 以家为法舍劝众向善
+    labels:
+      zh: 化家为法
+    start_date: -368
+    highlight_event_id: guji-须达-event-yingwu
+  decisions:
+  - date: -376
+    title_zh: 决定尽家所有供给众僧
+    rationale: 檀越供给济僧身命，僧以法施济我慧命，彼此成就
+  - date: -373
+    title_zh: 决定令家人及禽鸟俱闻正法
+    rationale: 禽兽听法尚获生天，何况于人，令一切有缘皆种善根
+events:
+- id: guji-须达-event-birth
+  type: birth
+  title_zh: 须达生于舍卫城
+  date: -384
+  year_of: -600
+  summary: 舍卫国长者家生须达多，后以乐善好施号给孤独
+- id: guji-须达-event-qiyuan-brewing
+  type: career
+  title_zh: 发心请佛至舍卫化众
+  date: -381
+  year_of: -575
+  summary: 闻佛出世心生信敬，发愿请佛至舍卫说法安僧
+  endeavor_ref: guji-须达-endeavor-1
+- id: guji-须达-event-qiyuan-build
+  type: career
+  title_zh: 布金买祇陀园建精舍
+  date: -376
+  year_of: -570
+  summary: 以金布地购得祇陀太子园，与祇陀共建祇园精舍供僧
+  endeavor_ref: guji-须达-endeavor-1
+- id: guji-须达-event-qiyuan-done
+  type: career
+  title_zh: 祇园成就供佛受用
+  date: -0568
+  year_of: -568
+  summary: 精舍成就请佛受用，佛及众僧安居说法，舍卫正法大兴
+  endeavor_ref: guji-须达-endeavor-1
+- id: guji-须达-event-tanyue
+  type: career
+  title_zh: 为僧坛越一切供给
+  date: -374
+  year_of: -566
+  summary: 为僧坛越，众僧所须衣食卧具汤药一切供给，敬如事佛
+  endeavor_ref: guji-须达-endeavor-2
+- id: guji-须达-event-yingwu
+  type: career
+  title_zh: 家中鹦鹉闻阿难说法生天
+  date: -373
+  year_of: -565
+  summary: 家中二鹦鹉律捉赊律提闻阿难说四谛，欢喜诵持，后生四王忉利天，转生人中出家得辟支佛果
+  endeavor_ref: guji-须达-endeavor-2
+- id: guji-须达-event-death
+  type: death
+  title_zh: 须达命终生天
+  date: -358
+  year_of: -546
+  summary: 一生布施护法功德圆满，命终得生天上，受无量福乐

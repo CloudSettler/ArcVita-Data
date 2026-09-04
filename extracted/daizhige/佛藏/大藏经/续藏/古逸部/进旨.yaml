@@ -1,0 +1,119 @@
+person:
+  qid: guji-进旨
+  name_zh: 进旨
+  names:
+    zh: 进旨
+    en: Jinzhi
+  lifespan:
+    birth:
+      date: '0334'
+      precision: year
+      is_circa: true
+      raw: 约东晋咸康年间
+    death:
+      date: '0416'
+      precision: year
+      is_circa: true
+      raw: 约东晋义熙年间
+  birth_date: '0334'
+  death_date: '0416'
+  era: 东晋
+  reign_ref: 晋安帝义熙年间
+  archetype: 高僧
+  dilemmas:
+  - 留住宫中受供养与立愿归山修行的抉择
+  - 密现神通速返与韬晦守戒的权衡
+  - 恋阙惜别之情与涅槃无攀缘之理的取舍
+  lesson: 涅槃本无攀缘，有攀缘皆属忌想，澄心守本方能自性造船归依上界
+  summary_first_person: 吾在宫中数年，蒙帝供养，未敢攀缘，辞阙而去，望庐山而路远，结草庵重寻旧卷，观峻峰鹤鸣涧下龙吟，净意澄心思惟佛道，以无漏大乘为材，以菩提般若为用，造一法船归依上界
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/续藏/古逸部/进旨.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/续藏/古逸部/进旨.md
+endeavors:
+- id: guji-进旨-endeavor-1
+  title_zh: 辞帝离宫归庐山
+  summary: 宫中弘法数年，面对皇帝流泪挽留，以涅槃无攀缘之理谢绝，举国祖送，出长安密现神通须臾至庐山
+  phases:
+  - key: brewing
+    name: 宫中弘法受供
+    labels:
+      zh: 宫中弘法
+    start_date: '0405'
+    highlight_event_id: guji-进旨-event-palace
+  - key: climax
+    name: 辞别祖送出长安
+    labels:
+      zh: 辞阙出关
+    start_date: '0410'
+    highlight_event_id: guji-进旨-event-palace
+  - key: closure
+    name: 神通须臾至庐山
+    labels:
+      zh: 归山神通
+    start_date: '0410'
+    highlight_event_id: guji-进旨-event-palace
+  decisions:
+  - date: '0410'
+    title_zh: 以无攀缘义谢绝留住
+    rationale: 涅槃之义本无攀缘，有攀缘皆属忌想，故劝帝莫怀恫怅，坚持归山本愿
+  - date: '0410'
+    title_zh: 密现神通速赴庐山
+    rationale: 路远涉长劳众送别，不欲惊动，故足下云生如壮士展臂须臾而至
+- id: guji-进旨-endeavor-2
+  title_zh: 庐山结庵造法船
+  summary: 不归旧寺，去十里峻岭权结草庵，结跏重寻旧卷，再举经声，观境入三昧，以自性心王造无漏法船
+  phases:
+  - key: brewing
+    name: 结草庵重寻旧卷
+    labels:
+      zh: 结庵寻经
+    start_date: '0410'
+    highlight_event_id: guji-进旨-event-lushan
+  - key: breakthrough
+    name: 观胜境澄心入定
+    labels:
+      zh: 观境入定
+    start_date: '0411'
+    highlight_event_id: guji-进旨-event-lushan
+  - key: closure
+    name: 自性造船归上界
+    labels:
+      zh: 造船归依
+    start_date: '0412'
+    highlight_event_id: guji-进旨-event-lushan
+  decisions:
+  - date: '0410'
+    title_zh: 别旧寺另结草庵
+    rationale: 旧缘已了，新境清净，权时结庵便于重寻旧卷再举经声
+  - date: '0411'
+    title_zh: 以无漏大乘造法船
+    rationale: 念浮生不久，想凡世无愖，不用凡间物料，直以菩提般若金刚密迹为材用
+events:
+- id: guji-进旨-event-birth
+  type: birth
+  date: '0334'
+  year_of: 334
+  title_zh: 诞生
+  description: 生于东晋之世，后出家为僧，世称远公
+  location_zh: 中原
+- id: guji-进旨-event-palace
+  type: career
+  date: '0410'
+  year_of: 410
+  title_zh: 辞帝出长安举国祖送
+  description: 皇帝闻语满目流泪，诏报六宫排比祖送，大臣同时送别，远公离宫别龙楼，出长安足下云生须臾至庐山
+  location_zh: 长安至庐山
+- id: guji-进旨-event-lushan
+  type: career
+  date: '0411'
+  year_of: 411
+  title_zh: 庐山结庵入三昧
+  description: 去旧寺十里峻岭权结草庵，结跏敷坐重寻旧卷，又经数月，望高原峻峰鹤鸣涧下龙吟，地平长流园开不朽之花，正坐入三昧澄心思惟佛道
+  location_zh: 庐山峻岭
+- id: guji-进旨-event-death
+  type: death
+  date: '0416'
+  year_of: 416
+  title_zh: 造法船示寂归上界
+  description: 以自性心王造一法船，不用凡间物料，以无漏大乘为材，以菩提般若为用，归依上界而示寂
+  location_zh: 庐山草庵
