@@ -1,0 +1,160 @@
+person:
+  qid: guji-法立
+  name_zh: 法立
+  names:
+    zh: 法立
+    en: Fali
+  lifespan:
+    birth:
+      date: 0250-01-01
+      precision: year
+      is_circa: true
+      raw: 西晋初约生
+    death:
+      date: 0315-12-31
+      precision: year
+      is_circa: true
+      raw: 西晋末约卒
+  birth_date: 0250-01-01
+  death_date: 0315-12-31
+  era: 西晋
+  reign_ref: 晋武帝至晋愍帝时
+  archetype: 译经沙门
+  dilemmas:
+  - 梵本浩繁译手稀少如何共译令成完经
+  - 天地成坏义理幽深如何晓示令众信解
+  - 战乱频仍经典散失如何护持令法久住
+  lesson: 同心合译以正见演说成坏劝善修行
+  summary_first_person: 吾为西晋沙门法立与法炬共译大楼炭经敷演佛说天地成坏四天下业报以劝众行十善
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/阿含部/大楼炭经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/阿含部/大楼炭经.md
+endeavors:
+- id: guji-法立-endeavor-1
+  title_zh: 与法炬共译大楼炭经
+  summary_zh: 西晋时与沙门法炬合作译出大楼炭经敷演三千世界成坏四洲风貌
+  phases:
+  - key: brewing
+    name: 发心受经
+    labels:
+      zh:
+      - 发心
+    start_date: 0290-01-01
+    highlight_event_id: guji-法立-event-translate-start
+  - key: breakthrough
+    name: 参译梵本
+    labels:
+      zh:
+      - 合译
+    start_date: 0292-01-01
+    highlight_event_id: guji-法立-event-translate-mid
+  - key: climax
+    name: 敷演成坏
+    labels:
+      zh:
+      - 演说
+    start_date: 0295-01-01
+    highlight_event_id: guji-法立-event-translate-done
+  - key: closure
+    name: 授持流通
+    labels:
+      zh:
+      - 流通
+    start_date: 0298-01-01
+    highlight_event_id: guji-法立-event-translate-done
+  decisions:
+  - date: 0290-01-01
+    title_zh: 与法炬共立译场
+    rationale: 梵本部帙浩大一人难成故合力共译以速成经
+  - date: 0295-01-01
+    title_zh: 详译阎浮利郁单曰等品
+    rationale: 欲令中土明知四洲寿量善恶业报故详译世界品
+- id: guji-法立-endeavor-2
+  title_zh: 弘传阿含正见教化
+  summary_zh: 依大楼炭所说成坏因果劝众持戒行善弘传阿含宇宙观
+  phases:
+  - key: brewing
+    name: 精研义理
+    labels:
+      zh:
+      - 研习
+    start_date: 0298-01-01
+    highlight_event_id: guji-法立-event-preach-start
+  - key: breakthrough
+    name: 开堂讲说
+    labels:
+      zh:
+      - 讲说
+    start_date: 0300-01-01
+    highlight_event_id: guji-法立-event-preach-start
+  - key: climax
+    name: 四洲业报劝化
+    labels:
+      zh:
+      - 劝化
+    start_date: 0305-01-01
+    highlight_event_id: guji-法立-event-preach-mid
+  - key: closure
+    name: 付嘱护法
+    labels:
+      zh:
+      - 付嘱
+    start_date: 0310-01-01
+    highlight_event_id: guji-法立-event-death
+  decisions:
+  - date: 0300-01-01
+    title_zh: 开讲成坏品劝行十善
+    rationale: 世人惑于成坏故说转轮王行法以导正行
+  - date: 0305-01-01
+    title_zh: 以郁单曰清净劝离贪争
+    rationale: 举北洲无盗无争以愧南洲贪欲令生厌离
+events:
+- id: guji-法立-event-birth
+  title_zh: 法立诞生
+  type: birth
+  date: 0250-01-01
+  year_of: 250
+  summary_zh: 约西晋初生于中土后出家为沙门
+  person_id: guji-法立
+- id: guji-法立-event-translate-start
+  title_zh: 与法炬发心译大楼炭经
+  type: career
+  date: 0290-01-01
+  year_of: 290
+  summary_zh: 与沙门法炬共立译场着手翻译大楼炭经阎浮利品
+  person_id: guji-法立
+- id: guji-法立-event-translate-mid
+  title_zh: 译出郁单曰转轮王等品
+  type: career
+  date: 0295-01-01
+  year_of: 295
+  summary_zh: 译成郁单曰品转轮王品演说四洲风土七宝四德
+  person_id: guji-法立
+- id: guji-法立-event-translate-done
+  title_zh: 大楼炭经译成流通
+  type: career
+  date: 0298-01-01
+  year_of: 298
+  summary_zh: 全经译竟付授门人书写受持流通于世
+  person_id: guji-法立
+- id: guji-法立-event-preach-start
+  title_zh: 讲说成坏因果教化
+  type: career
+  date: 0300-01-01
+  year_of: 300
+  summary_zh: 依所译经开堂讲说天地成坏劝众持戒
+  person_id: guji-法立
+- id: guji-法立-event-preach-mid
+  title_zh: 弘传四洲业报观
+  type: career
+  date: 0305-01-01
+  year_of: 305
+  summary_zh: 弘演四天下善恶报应劝离杀盗淫妄
+  person_id: guji-法立
+- id: guji-法立-event-death
+  title_zh: 法立示寂
+  type: death
+  date: 0315-12-31
+  year_of: 315
+  summary_zh: 约西晋末示寂译本流传后世收入大藏阿含部
+  person_id: guji-法立
