@@ -1,0 +1,114 @@
+person:
+  qid: guji-俞皋
+  name_zh: 俞皋
+  names:
+    zh: 俞皋
+    en: Yu Gao
+  lifespan:
+    birth:
+      date: '1270'
+      precision: year
+      is_circa: true
+      raw: 元初约生于新安
+    death:
+      date: '1340'
+      precision: year
+      is_circa: true
+      raw: 元末约卒
+  birth_date: '1270'
+  death_date: '1340'
+  era: 元
+  reign_ref: 元世祖至元顺帝间
+  archetype: 专通春秋的集传经师
+  dilemmas:
+  - 四传并列是非并陈何以断从违
+  - 师承程子而时尚尊胡何以守正不阿
+  lesson: 专门而能通方能见圣人用心
+  summary_first_person: 吾俞皋字心远新安人也少从赵良钧受春秋之学熟玩程子之传以定十六例列左氏公羊穀梁程子四传以备一家复参胡氏以匡其偏激庶几后学观经下之释而自明是非也
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E9%87%8A%E4%B9%89%E5%A4%A7%E6%88%90.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E9%87%8A%E4%B9%89%E5%A4%A7%E6%88%90.md
+endeavors:
+- id: guji-俞皋-endeavor-1
+  title_zh: 从赵良钧受春秋学
+  description: 宋末进士赵良钧以春秋教授乡里从其游尽得程子遗意
+  phases:
+  - key: brewing
+    name: 乡里从学
+    labels:
+      zh: 从学
+    start_date: '1290'
+    highlight_event_id: guji-俞皋-event-study
+  - key: breakthrough
+    name: 得程子宗旨
+    labels:
+      zh: 得宗
+    start_date: '1295'
+    highlight_event_id: guji-俞皋-event-study
+  decisions:
+  - date: '1290'
+    title_zh: 从赵良钧受学
+    rationale: 宋亡不仕之遗学当承以守程子正脉
+  - date: '1295'
+    title_zh: 以程子传为宗
+    rationale: 微辞隐义不可例拘当熟玩程传以求圣意
+- id: guji-俞皋-endeavor-2
+  title_zh: 集四传成释义大成十二卷
+  description: 经下备列三传及程传兼列胡传而多所匡正定十六例以明书法
+  phases:
+  - key: brewing
+    name: 会萃诸说
+    labels:
+      zh: 会萃
+    start_date: '1300'
+    highlight_event_id: guji-俞皋-event-compile
+  - key: climax
+    name: 书成十二卷
+    labels:
+      zh: 成书
+    start_date: '1315'
+    highlight_event_id: guji-俞皋-event-complete
+  - key: closure
+    name: 吴澄序而行
+    labels:
+      zh: 序行
+    start_date: '1320'
+    highlight_event_id: guji-俞皋-event-complete
+  decisions:
+  - date: '1300'
+    title_zh: 四传并列兼存胡氏
+    rationale: 胡传方为当代所习取与三传并论以见是非
+  - date: '1315'
+    title_zh: 定十六例宗程子
+    rationale: 事同义同事同辞不同者不可例拘当从微辞隐义断之
+events:
+- id: guji-俞皋-event-birth
+  title_zh: 出生于新安
+  type: birth
+  date: '1270'
+  year_of: 1270
+  description: 元初生于新安俞氏字心远
+- id: guji-俞皋-event-study
+  title_zh: 从赵良钧受春秋
+  type: career
+  date: '1290'
+  year_of: 1290
+  description: 从乡人宋末进士赵良钧受春秋学尽得其传
+- id: guji-俞皋-event-compile
+  title_zh: 始编集传释义
+  type: career
+  date: '1300'
+  year_of: 1300
+  description: 以程子传为宗汇左氏公羊穀梁程氏之说参以胡氏始事编纂
+- id: guji-俞皋-event-complete
+  title_zh: 成书十二卷得吴澄序
+  type: career
+  date: '1315'
+  year_of: 1315
+  description: 成春秋集传释义大成十二卷分隐桓庄闵僖文宣成襄昭定哀吴澄为序称其专门而通
+- id: guji-俞皋-event-death
+  title_zh: 卒于元末
+  type: death
+  date: '1340'
+  year_of: 1340
+  description: 讲学乡里以春秋终老

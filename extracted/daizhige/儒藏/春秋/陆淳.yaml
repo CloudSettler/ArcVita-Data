@@ -6,140 +6,131 @@ person:
     en: Lu Chun
   lifespan:
     birth:
-      date: 0732-01-01
+      date: '0730'
       precision: year
       is_circa: true
-      raw: 唐开元二十年左右
+      raw: 唐开元年间吴郡约生
     death:
-      date: 0805-01-01
+      date: 0805
       precision: year
       is_circa: true
-      raw: 唐贞元二十一年左右
-  birth_date: 0732-01-01
-  death_date: 0805-01-01
+      raw: 唐贞元末卒
+  birth_date: '0730'
+  death_date: 0805
   era: 唐
-  reign_ref: 唐玄宗至唐德宗贞元
-  archetype: 传经大儒
+  reign_ref: 唐德宗贞元
+  archetype: 经师辨疑者
   dilemmas:
-  - title_zh: 三传异同如何折衷
-    description: 左公谷各执一辞啖赵新义并起当并存旧说以朱墨别是非还是曲徇一家
-  - title_zh: 微旨当显还是当隐
-    description: 圣心皇极之理介于疑似之间当委曲发明以端本清源还是直书贬绝以使乱臣知惧
-  lesson: 集三传啖赵之说以明圣心端本清源则褒贬之义可贯于灵府
-  summary_first_person: 吾陆淳字敦信吴人也师啖助赵匡而传春秋掇其微旨总为三卷并存三传旧说以朱墨别当否欲使后学齐心极虑得端本清源之意而周流二百四十二年之义
+  - title_zh: 尊经还是徇传
+    description: 三传各守专门是非相攻，当从经文年月裁其得失
+  - title_zh: 信古还是疑古
+    description: 左氏事有本而论多疏，公谷曲说尤甚，疑之过则愈辨愈非
+  lesson: 守师说而不盲从，依经文以辨传失，疑古须有据
+  summary_first_person: 我是陆淳，吴郡人，承啖助赵匡之学，排科条为纂例，缕传文为辨疑，复作微旨以明笔削，愿以经文正三传之失
   source_urls:
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E5%BE%AE%E6%97%A8.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E5%BE%AE%E6%97%A8.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E8%BE%A8%E7%96%91.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E9%9B%86%E4%BC%A0%E8%BE%A8%E7%96%91.md
 endeavors:
 - id: guji-陆淳-endeavor-1
-  title_zh: 集传春秋发明微旨
-  description: 以啖助赵匡之学为宗参校三传异同撰春秋集传纂例微旨总为三卷
+  title_zh: 师承啖赵排比纂例
+  summary_zh: 受啖助排比科条自发笔削之旨，集三传可入条例者为纂例诸篇，明取舍大义
   phases:
   - key: brewing
-    name: 师事啖助受春秋学
+    name: 吴中问道
     labels:
       zh:
-      - 求学
       - 师承
-    start_date: 0760-01-01
+      - 治经
+    start_date: '0760'
     highlight_event_id: guji-陆淳-event-study
   - key: breakthrough
-    name: 再师赵匡续成集传
+    name: 排条入例
     labels:
       zh:
-      - 传承
-      - 著述
-    start_date: 0770-01-01
-    highlight_event_id: guji-陆淳-event-study
-  - key: climax
-    name: 掇微旨总为三卷
-    labels:
-      zh:
-      - 著述
-      - 断义
-    start_date: 0785-01-01
-    highlight_event_id: guji-陆淳-event-compose-weizhi
+      - 纂例
+      - 科条
+    start_date: 0780
+    highlight_event_id: guji-陆淳-event-compilation
   - key: closure
-    name: 朱墨别是非传于世
+    name: 集传初成
     labels:
       zh:
-      - 刊行
-      - 垂教
-    start_date: 0795-01-01
-    highlight_event_id: guji-陆淳-event-compose-weizhi
+      - 集传
+      - 成书
+    start_date: 0790
+    highlight_event_id: guji-陆淳-event-compilation
   decisions:
-  - date: 0770-01-01
-    title_zh: 述而不作并存三传旧说
-    rationale: 三传旧说备存其义当否以朱墨为别不忘师本而端本清源
-  - date: 0785-01-01
-    title_zh: 以微旨名篇发明疑似之介
-    rationale: 事或反经而志协乎道迹近义而意蕴奸须委曲发明故总为三卷
+  - date: 0780
+    title_zh: 三传可入例者归纂例
+    rationale: 繁文可以例包则但举例，不复繁释，以省学者之惑
+  - date: 0785
+    title_zh: 移传文于本经之下
+    rationale: 三传叙事先后于经者移附本经，释例或发事首或入总传，使览者易观
 - id: guji-陆淳-endeavor-2
-  title_zh: 历官朝堂以经侍读
-  description: 以明经入仕历左司郎中给事中皇太子侍读以春秋之义匡正朝仪
+  title_zh: 缕列传文著辨疑微旨
+  summary_zh: 举传文不入纂例者一字一句而诘之，啖赵之说著为辨疑，又申微旨以见褒贬
   phases:
   - key: brewing
-    name: 以明春秋入仕
+    name: 随文起疑
     labels:
       zh:
-      - 入仕
-      - 明经
-    start_date: 0775-01-01
-    highlight_event_id: guji-陆淳-event-office
+      - 疑难
+      - 随文
+    start_date: 0785
+    highlight_event_id: guji-陆淳-event-compilation
   - key: breakthrough
-    name: 迁左司郎中
+    name: 攻驳三传
     labels:
       zh:
-      - 历官
-      - 守正
-    start_date: 0785-01-01
-    highlight_event_id: guji-陆淳-event-office
+      - 辨疑
+      - 驳正
+    start_date: 0790
+    highlight_event_id: guji-陆淳-event-compilation
   - key: climax
-    name: 拜给事中侍读东宫
+    name: 辨疑七篇成
     labels:
       zh:
-      - 侍读
-      - 匡正
-    start_date: 0796-01-01
-    highlight_event_id: guji-陆淳-event-office
+      - 成书
+      - 凡例十七条
+    start_date: 0795
+    highlight_event_id: guji-陆淳-event-compilation
   - key: closure
-    name: 殁后柳宗元作墓表
+    name: 柳铭唐志传学
     labels:
       zh:
-      - 身后
-      - 传名
-    start_date: 0805-01-01
+      - 墓志
+      - 传世
+    start_date: 0805
     highlight_event_id: guji-陆淳-event-death
   decisions:
-  - date: 0796-01-01
-    title_zh: 以经义侍读东宫
-    rationale: 宣尼之心尧舜之心春秋之文通于礼经当以唐虞之风辅导储君
-  - date: 0800-01-01
-    title_zh: 固守啖赵之学不徇时俗
-    rationale: 时人多守旧传而我同志在见微旨故每条称闻之师曰不忘本也
+  - date: 0790
+    title_zh: 以赵说为主啖说为次
+    rationale: 推两家之例悉随文辨之，无啖赵曰者即例可晓，存精核以补汉儒未发
+  - date: 0795
+    title_zh: 立凡例十七条删繁
+    rationale: 公谷何以曷为及托始记异之类皆繁文，于理不安则删，时有取者但为属文
 events:
 - id: guji-陆淳-event-birth
-  title_zh: 生于吴郡
-  date: 0732-01-01
-  year_of: 732
-  description: 唐开元年间生于苏州吴县字敦信
+  title_zh: 吴郡出生
+  date: '0730'
+  year_of: 730
+  place_zh: 吴郡
+  description: 唐开元年间生于吴郡，少治经术
 - id: guji-陆淳-event-study
-  title_zh: 师从啖助赵匡学春秋
-  date: 0762-01-01
-  year_of: 762
-  description: 初师啖助助卒又师赵匡尽传其春秋集传之义
-- id: guji-陆淳-event-compose-weizhi
-  title_zh: 撰成春秋集传微旨
-  date: 0788-01-01
-  year_of: 788
-  description: 先列三传异同参以啖赵之说断其是非掇其微旨总为三卷以朱墨别当否
-- id: guji-陆淳-event-office
-  title_zh: 官至给事中太子侍读
-  date: 0796-01-01
-  year_of: 796
-  description: 历左司郎中给事中皇太子侍读以春秋大义侍讲朝堂
+  title_zh: 师事啖助赵匡治春秋
+  date: '0765'
+  year_of: 765
+  place_zh: 关中吴中
+  description: 承啖助赵匡之学，排比科条，明春秋笔削之义，攻驳三传专守
+- id: guji-陆淳-event-compilation
+  title_zh: 撰成纂例辨疑微旨三书
+  date: 0795
+  year_of: 795
+  place_zh: 长安
+  description: 先成春秋集传纂例以举大纲，次成辨疑七篇缕列传失冠凡例十七条，又作微旨以申褒贬
 - id: guji-陆淳-event-death
-  title_zh: 卒于长安
-  date: 0805-01-01
+  title_zh: 贞元末卒柳宗元铭墓
+  date: 0805
   year_of: 805
-  description: 卒于贞元末柳宗元为作墓表称春秋微旨二篇传于世
+  place_zh: 长安
+  description: 卒于贞元年间，柳宗元作墓志称辨疑七篇，唐艺文志著录，后延祐锓梓十卷传世
