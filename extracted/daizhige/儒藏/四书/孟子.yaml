@@ -6,142 +6,146 @@ person:
     en: Mencius
   lifespan:
     birth:
-      date: -372-04-02
-      precision: day
+      date: '-0372'
+      precision: year
       is_circa: true
-      raw: 周定王三十七年四月二日今之二月年八十四
+      raw: 周烈王四年邹人生约前三七二年
     death:
-      date: -289-01-15
-      precision: day
+      date: -0289
+      precision: year
       is_circa: true
-      raw: 周赧王二十六年正月十五日今十一月
-  birth_date: -372-04-02
-  death_date: -289-01-15
-  era: 战国
-  reign_ref: 周显王至周赧王梁惠王齐宣王之世
-  archetype: 仁义之师
+      raw: 约前二八九年卒
+  birth_date: '-0372'
+  death_date: -0289
+  era: 战国中期
+  reign_ref: 周显王至周赧王时
+  archetype: 亚圣守道行仁义者
   dilemmas:
-  - 王道与功利之辨时君尚功利而我执仁义
-  - 去就与行道之难道不行则去留之间进退维谷
-  lesson: 以仁义为本破利欲之蔽养浩然之气以接三代之统
-  summary_first_person: 我以仁义游列国欲罢兵息杀以安民本性善养浩然时君虽不用我亦讲学著书以明道
+  - 出仕行王道与道不行则奉身而退之抉择
+  - 言仁义与言功利之间防本塞源之坚持
+  - 尊衰周与以王道救生民涂炭之时义判断
+  lesson: 循天理行仁义则不求利而自无不利正人心存养性则可承孔氏之统
+  summary_first_person: 吾邹人也受业于子思之门道既通而游齐梁以仁义王道说君君不能用则退而与万章之徒序诗书述仲尼之意作七篇以正人心辟邪说而已
   source_urls:
-  - https://daizhige.org/rucang/sishu/mengzishishuo.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/r ranking/mengzishishuo.md
+  - https://daizhige.org/MengZiJiShu.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/MengZiJiShu.md
 endeavors:
 - id: guji-孟子-endeavor-1
-  title_zh: 游说列国行王道
-  summary_zh: 见梁惠襄论不违农时罢兵息民适齐论王霸之辨欲复三代之治
+  title_zh: 游事齐梁论仁义王道
+  summary: 受业通经后游齐宣梁惠梁襄齐湣诸君极言仁义王政不言功利因不用而去
   phases:
   - key: brewing
-    name: 见梁论仁义
+    name: 受业子思门人通达五经
     labels:
-      zh:
-      - 仁义
-      - 恤民
-      - 罢兵
-    start_date: '-335'
+      zh: 师承求道
+    start_date: '-0355'
+    highlight_event_id: guji-孟子-event-study
+  - key: breakthrough
+    name: 至梁见惠王首辨义利
+    labels:
+      zh: 初见梁君
+    start_date: '-0334'
     highlight_event_id: guji-孟子-event-liang
-  - key: breakthrough
-    name: 当路于齐欲行道
-    labels:
-      zh:
-      - 王道
-      - 辅政
-    start_date: '-320'
-    highlight_event_id: guji-孟子-event-qi
   - key: climax
-    name: 论伐燕辨王霸
+    name: 游齐论王政养老制产
     labels:
-      zh:
-      - 王霸之辨
-      - 仁政
-    start_date: '-318'
-    highlight_event_id: guji-孟子-event-yan
-  - key: closure
-    name: 去齐而讲学
-    labels:
-      zh:
-      - 去就
-      - 守道
-    start_date: '-312'
+      zh: 说齐行王
+    start_date: -0319
     highlight_event_id: guji-孟子-event-qi
+  - key: closure
+    name: 道不行奉身而退不苟合
+    labels:
+      zh: 不合则去
+    start_date: -0309
+    highlight_event_id: guji-孟子-event-retire
   decisions:
-  - date: '-335'
-    title_zh: 见梁惠王首言仁义
-    rationale: 天下溺于利欲必以仁义整顿乾坤不然遗亲后君而人纪坠
-  - date: '-320'
-    title_zh: 当路于齐欲复三代
-    rationale: 齐势强盛可借以行道若得行则秦不得志而圣王之统可续
+  - date: '-0334'
+    title_zh: 见梁惠王直言何必曰利亦有仁义而已
+    rationale: 天下惟利是求故须防本塞源循天理则自无不利徇人欲则害随之
+  - date: -0319
+    title_zh: 劝齐梁行不违农时制民之产谨庠序之教
+    rationale: 养生丧死无憾为王道之始制产教民使老者衣帛食肉黎民不饥不寒则可王
+  - date: -0309
+    title_zh: 言不合则去不枉道求合
+    rationale: 识时守道不可枉尺直寻以道自任如颜子有孔子在可乐吾时无圣人则当以道自任
 - id: guji-孟子-endeavor-2
-  title_zh: 讲学著书养浩然
-  summary_zh: 明性善集义养气知言以辟杨墨告子传仁义之学于后世
+  title_zh: 退而著书辟杨墨正人心
+  summary: 与万章公孙丑等序诗书述仲尼之意作孟子七篇论性善养气仁义礼智以承三圣之统
   phases:
   - key: brewing
-    name: 示不忍人心论性善
+    name: 历聘不用观察时变
     labels:
-      zh:
-      - 性善
-      - 恻隐
-    start_date: '-318'
-    highlight_event_id: guji-孟子-event-haoran
+      zh: 韬晦待时
+    start_date: '-0314'
+    highlight_event_id: guji-孟子-event-qi
   - key: breakthrough
-    name: 发浩然集义之旨
+    name: 与弟子讲论集仁义之言
     labels:
-      zh:
-      - 浩然之气
-      - 集义
-    start_date: '-316'
-    highlight_event_id: guji-孟子-event-haoran
+      zh: 授徒讲学
+    start_date: -0309
+    highlight_event_id: guji-孟子-event-retire
+  - key: climax
+    name: 作孟子七篇述圣道
+    labels:
+      zh: 著书立言
+    start_date: '-0305'
+    highlight_event_id: guji-孟子-event-book
   - key: closure
-    name: 七篇垂训诏后学
+    name: 以性善养气之论传后世
     labels:
-      zh:
-      - 著书
-      - 辟邪
-    start_date: '-310'
-    highlight_event_id: guji-孟子-event-haoran
+      zh: 道统有传
+    start_date: -0295
+    highlight_event_id: guji-孟子-event-book
   decisions:
-  - date: '-316'
-    title_zh: 以集义养气不袭于外
-    rationale: 气即心之流行必有事勿忘勿助使主宰常存则血气化为义理
-  - date: '-310'
-    title_zh: 知言以辨诐淫邪遁
-    rationale: 以心源印证群迷剖露当时名实捭阖之蔽使正学不晦
+  - date: '-0305'
+    title_zh: 定七篇二百六十一章以明道
+    rationale: 道述唐虞三代而接孔子子思不作空言须托诗书春秋以见王道本末
+  - date: '-0305'
+    title_zh: 首倡性善并辟杨墨告子诸说
+    rationale: 人心之正本在仁义礼智之端邪说生于心害于政必正人心然后可救天下
+  - date: '-0300'
+    title_zh: 以养气配道义立大丈夫之教
+    rationale: 孔子只言仁与志吾须发明仁义养气使学者知圣道全体可由修身达平天下
 events:
 - id: guji-孟子-event-birth
-  title_zh: 诞生于邹
-  date: -372-04-02
+  title_zh: 生于邹
+  date: '-0372'
   year_of: -372
-  place_zh: 邹国
-  description_zh: 孟氏家谱载生于周定王三十七年四月二日后考为战国邹人受业于子思之门人
+  location: 邹国
+  description: 孟轲生于邹为鲁公族孟孙之后传闻字子舆又云字子车
+- id: guji-孟子-event-study
+  title_zh: 受业子思之门人
+  date: '-0355'
+  year_of: -355
+  location: 邹鲁间
+  description: 受业于子思之门人通五经尤长诗书易春秋得曾子子思孔子之统
 - id: guji-孟子-event-liang
-  title_zh: 见梁惠王言仁义
-  date: '-335'
-  year_of: -335
-  place_zh: 大梁
-  description_zh: 按史表见梁惠王三十五年首言未有仁而遗亲未有义而后君痛言不违农时罢兵为第一义
+  title_zh: 至梁见梁惠王论义利王政
+  date: '-0334'
+  year_of: -334
+  location: 大梁
+  description: 梁惠王卑礼厚币招贤孟子至梁对以何必曰利亦有仁义并陈不违农时五亩百亩之制惠王不能用
 - id: guji-孟子-event-qi
-  title_zh: 当路于齐论王霸
-  date: '-320'
-  year_of: -320
-  place_zh: 临淄
-  description_zh: 适齐欲行其道与宣王论王霸之分在心术辨文王之囿与齐囿之异示王者生意与霸者剪彩之别
-- id: guji-孟子-event-yan
-  title_zh: 论伐燕兼论浩然
-  date: '-318'
-  year_of: -318
-  place_zh: 齐地
-  description_zh: 论齐伐燕之是非兼发浩然之气集义知言之旨以养气即养心破告子外义之病
-- id: guji-孟子-event-haoran
-  title_zh: 讲学传浩然性善之教
-  date: '-312'
-  year_of: -312
-  place_zh: 邹鲁之间
-  description_zh: 去齐之后讲学授徒论四端性善论养气必有事论知言辨诐淫邪遁七篇之旨大备
+  title_zh: 游事齐宣王论王道乐民
+  date: -0319
+  year_of: -319
+  location: 临淄
+  description: 说齐宣王以与民偕乐独乐不若与众乐论制产养老发政施仁宣王不能用
+- id: guji-孟子-event-retire
+  title_zh: 退而与万章之徒讲学
+  date: -0309
+  year_of: -309
+  location: 邹
+  description: 所如不合退而与万章公孙丑之徒序诗书述仲尼之意授徒讲论性善养气
+- id: guji-孟子-event-book
+  title_zh: 作孟子七篇成
+  date: '-0305'
+  year_of: -305
+  location: 邹
+  description: 作孟子七篇凡二百六十一章二万四千六百八十五字韩愈推为醇乎醇程子许其有大功于圣门
 - id: guji-孟子-event-death
-  title_zh: 卒于邹
-  date: -289-01-15
+  title_zh: 卒
+  date: -0289
   year_of: -289
-  place_zh: 邹国
-  description_zh: 卒于周赧王二十六年正月十五日年八十四其言存为七篇与论语大学中庸并传
+  location: 邹
+  description: 孟轲卒后世尊为亚圣配享孔庙其书与论语大学中庸并为四书
