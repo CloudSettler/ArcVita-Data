@@ -1,0 +1,137 @@
+person:
+  qid: guji-李纪方
+  name_zh: 李纪方
+  names:
+    zh: 李纪方
+    en: Li Jifang
+  lifespan:
+    birth:
+      date: 1840
+      precision: year
+      is_circa: true
+      raw: 约咸丰年间生于衡山
+    death:
+      date: 1900
+      precision: year
+      is_circa: true
+      raw: 卒年不详约清末
+  birth_date: 1840
+  death_date: 1900
+  era: 清
+  reign_ref: 光绪
+  archetype: 儒医
+  dilemmas:
+  - 白喉无专书时医偏寒偏热每致杀人当如何立纲领以正之
+  - 寒热错杂虚实难辨当如何辨证辨脉服吹并重以全生
+  lesson: 辨寒热分轻重虚实服吹并重通权达变方能立起沉疴
+  summary_first_person: 余衡山李纪方少负笈从外祖尹慎徽学岐黄刻志内外喉科肿证二十年悯白喉无专书而时医偏执寒热遂与表兄赵仲标纂白喉全生集以寒热为纲分轻重虚实和盘托出不隐一方愿医者得之释疑病者不误于庸医
+  source_urls:
+  - https://daizhige.org/医藏/白喉全生集.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/白喉全生集.md
+endeavors:
+- id: guji-李纪方-endeavor-1
+  title_zh: 师承尹慎徽研习喉科
+  summary: 负笈从学博访旁咨历二十年险逆诸证而成喉科肿证之学
+  phases:
+  - key: brewing
+    name: 负笈从外祖学岐黄
+    labels:
+      zh: 求学衡山
+    start_date: 1860
+    highlight_event_id: guji-李纪方-event-study
+  - key: breakthrough
+    name: 刻志内外喉科肿证
+    labels:
+      zh: 专精喉科
+    start_date: 1870
+    highlight_event_id: guji-李纪方-event-practice
+  - key: climax
+    name: 历险逆博访旁咨
+    labels:
+      zh: 临床历练
+    start_date: 1878
+    highlight_event_id: guji-李纪方-event-practice
+  - key: closure
+    name: 深有所得思济世
+    labels:
+      zh: 立志著述
+    start_date: 1881
+    highlight_event_id: guji-李纪方-event-book
+  decisions:
+  - date: 1860
+    title_zh: 从外祖尹慎徽学医
+    rationale: 外祖博学精岐黄从之可得内外喉科肿证真传
+  - date: 1870
+    title_zh: 专攻喉科肿证不偏废内经
+    rationale: 时医业喉者不讲内经遇危殆茫然故刻志研求以补其阙
+- id: guji-李纪方-endeavor-2
+  title_zh: 纂辑白喉全生集
+  summary: 以寒热二字为纲分轻重虚实附方论吹药开关针刺以全白喉之治
+  phases:
+  - key: brewing
+    name: 悯偏寒偏热杀人之弊
+    labels:
+      zh: 立纲发愿
+    start_date: 1881
+    highlight_event_id: guji-李纪方-event-book
+  - key: breakthrough
+    name: 与赵仲标辑经验良方
+    labels:
+      zh: 纂辑成书
+    start_date: 1882
+    highlight_event_id: guji-李纪方-event-book
+  - key: climax
+    name: 分三大纲详证论方药
+    labels:
+      zh: 寒热错杂详辨
+    start_date: 1882-10
+    highlight_event_id: guji-李纪方-event-book
+  - key: closure
+    name: 光绪壬午冬叙于龙门山房
+    labels:
+      zh: 刊布济世
+    start_date: 1882-12
+    highlight_event_id: guji-李纪方-event-book
+  decisions:
+  - date: 1882
+    title_zh: 以寒热为纲分轻重虚实
+    rationale: 白喉少寒非无寒热有毒寒亦有毒惟分证明脉方无毫厘千里之谬
+  - date: 1882-12
+    title_zh: 和盘托出不隐秘一方
+    rationale: 使医者开沉痼病者不误于庸医救人不敢分功害人独认其罪
+events:
+- id: guji-李纪方-event-birth
+  type: birth
+  date: 1840
+  year_of: 1840
+  title_zh: 生于湖南衡山
+  description: 约咸丰年间生于衡山李氏后从外祖尹慎徽学医
+  place: 湖南衡山
+- id: guji-李纪方-event-study
+  type: career
+  date: 1860
+  year_of: 1860
+  title_zh: 负笈从外祖尹慎徽学岐黄
+  description: 从学内外科喉科肿证博访旁咨悉心讨论
+  place: 湖南衡山
+- id: guji-李纪方-event-practice
+  type: career
+  date: 1878
+  year_of: 1878
+  title_zh: 二十年来历险逆诸证
+  description: 喉科肿证险逆一一经历深有所得见时医偏寒偏热之弊
+  place: 湖南衡山
+- id: guji-李纪方-event-book
+  type: career
+  date: 1882-12
+  year_of: 1882
+  title_zh: 与赵仲标纂成白喉全生集
+  description: 光绪八年壬午冬月叙于龙门山房以寒热为纲辨证辨脉附服吹开关针刺诸法
+  place: 龙门山房
+- id: guji-李纪方-event-death
+  type: death
+  date: 1900
+  year_of: 1900
+  title_zh: 卒于清末
+  description: 卒年不详遗白喉全生集以传喉科全生之法
+  place: 湖南衡山
