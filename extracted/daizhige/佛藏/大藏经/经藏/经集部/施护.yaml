@@ -6,119 +6,132 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 约十世纪中叶生于乌仗那国
+      raw: 生年不详约十世纪中叶西天乌仗那国人
     death:
-      date: '1017'
+      date: 1017-01-01
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒于开封
-  birth_date: 0950
-  death_date: '1017'
+      raw: 宋真宗天禧元年卒于京师
+  birth_date: 0950-01-01
+  death_date: 1017-01-01
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗天禧
-  archetype: 译经弘法者
+  reign_ref: 宋太宗雍熙至宋真宗天禧
+  archetype: 西天译经传法型三藏法师
   dilemmas:
-  - title_zh: 梵汉悬隔而圣义难显
-    description: 如何以华言传西天法义而不失本旨
-  - title_zh: 处世染著与出世清净之 tension
-    description: 如何示菩萨行于五欲而不取不著
-  lesson: 以回向摄万善以方便行世间不取不著方为善巧
-  summary_first_person: 我本西天来华奉诏译经惟愿以华言传佛慧命令众生于日用施受行住之间皆能回向菩提
+  - 梵本义广而华言文约，如何以名数略摄令初学易持又不失正法大义
+  - 身为西域僧而膺宋廷诏命，如何在译场功式与持戒弘法之间两全
+  lesson: 以名数总持万法，化繁为简而信解不失，译弘在敬慎与慈悲并行
+  summary_first_person: 吾本西天乌仗那人，蒙宋帝诏入译场，与天息灾等共译显密诸经，授朝散大夫试鸿胪少卿传法大师，略集佛说名数如三宝三乘十度十八空三十七道品乃至三十二相八十好等，以利后学忆持，愿正法久住
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T0844
-  - https://daizhige.org/daizhigev20/blob/data/T0844
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%B3%95%E9%9B%86%E5%90%8D%E6%95%B0%E7%BB%8F.md
+  - https://cbetaonline.dila.edu.tw/zh/T0764
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 来华入院共创译经伟业
-  description: 自乌仗那东来随天息灾等入太平兴国译经院与法天法贤等共译显密经律
+  title_zh: 随师来华入宋译场
+  summary_zh: 自西天来华，雍熙中至京师，入译经院奉诏传译，渐授显秩，主译显密经论百余卷
   phases:
   - key: brewing
-    name: 发心东来
+    name: 西天发足随行来华
     labels:
-      zh: 西天发足
-    start_date: 0980
-    highlight_event_id: guji-施护-event-arrive
+      zh: 发心来华
+    start_date: 0980-01-01
+    highlight_event_id: guji-施护-event-980-arrival
   - key: breakthrough
-    name: 入院参译
+    name: 奉诏入院试译授职
     labels:
-      zh: 奉诏入院
-    start_date: 0982
-    highlight_event_id: guji-施护-event-arrive
+      zh: 入译场
+    start_date: 0981-06-01
+    highlight_event_id: guji-施护-event-991-confer
   - key: climax
-    name: 众经并译
+    name: 长期主译传法授大师号
     labels:
-      zh: 译场正盛
-    start_date: 0990
-    highlight_event_id: guji-施护-event-translate
+      zh: 主译传法
+    start_date: 0991-01-01
+    highlight_event_id: guji-施护-event-991-confer
   - key: closure
-    name: 授官传法
+    name: 译业圆满示寂京师
     labels:
-      zh: 朝奉传法
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-translate
-  decisions:
-  - date: 0982
-    title_zh: 应诏入太平兴国译经院
-    rationale: 依国家译场共译校勘方能信达雅备广利群生
-  - date: 0990
-    title_zh: 坚持梵汉对校义理为先
-    rationale: 寧闕文辭不違本義以全佛說真實意趣
-- id: guji-施护-endeavor-2
-  title_zh: 单译善巧方便品弘扬回向行
-  description: 奉诏译出大方广未曾有经善巧方便品宣说布施回向及日用方便令菩萨行者于五欲取而不著
-  phases:
-  - key: brewing
-    name: 请问因缘
-    labels:
-      zh: 大意请法
-    start_date: 0998
-    highlight_event_id: guji-施护-event-translate
-  - key: breakthrough
-    name: 宣说回向
-    labels:
-      zh: 万善回向
-    start_date: 0998
-    highlight_event_id: guji-施护-event-translate
-  - key: climax
-    name: 日用方便
-    labels:
-      zh: 行住皆愿
-    start_date: 0999
-    highlight_event_id: guji-施护-event-translate
-  - key: closure
-    name: 流通受持
-    labels:
-      zh: 欢喜奉行
-    start_date: '1000'
+      zh: 圆寂
+    start_date: 1017-01-01
     highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0998
-    title_zh: 擇譯善巧方便品以應末世
-    rationale: 末世行者多滯事相需示回向與日用願行以攝散心
-  - date: 0999
-    title_zh: 詳譯施燈施香施食等願文
-    rationale: 令初機易解易行由一香一燈皆可種佛善根
+  - date: 0980-06-01
+    title_zh: 随天息灾东来入宋
+    rationale: 感中土弘法因缘殊胜，愿携梵本东传以报佛恩
+  - date: 0991-01-01
+    title_zh: 受朝散大夫传法大师专心译事
+    rationale: 承朝廷信重，当以译场为道场，严守仪轨普利群生
+- id: guji-施护-endeavor-2
+  title_zh: 略集名数译弘法集名数经
+  summary_zh: 略集佛说正法名数，自三宝三乘七种供养十度十八空乃至十地十力三十二相八十好等，以问答体总持要义，便于忆持弘宣
+  phases:
+  - key: brewing
+    name: 搜集梵本拟定名数纲目
+    labels:
+      zh: 集纲
+    start_date: 0995-01-01
+    highlight_event_id: guji-施护-event-991-confer
+  - key: breakthrough
+    name: 译出法集名数经初稿
+    labels:
+      zh: 初译
+    start_date: 1005-01-01
+    highlight_event_id: guji-施护-event-1005-translate
+  - key: climax
+    name: 润文上进奉诏流通
+    labels:
+      zh: 流通
+    start_date: 1006-01-01
+    highlight_event_id: guji-施护-event-1005-translate
+  - key: closure
+    name: 以名数法门遗惠后学
+    labels:
+      zh: 遗惠
+    start_date: 1017-01-01
+    highlight_event_id: guji-施护-event-death
+  decisions:
+  - date: 1005-01-01
+    title_zh: 以云何体例略集正法名数
+    rationale: 佛说无边，初机难持，故以数摄义，令礼拜供养乃至涅槃正道一目了然
+  - date: 1006-06-01
+    title_zh: 先归命三宝后列三十七道品等
+    rationale: 令学者先起信心，次第修习戒定慧解脱知见，终归寂静涅槃
 events:
 - id: guji-施护-event-birth
-  title_zh: 生于乌仗那国
-  date: 0950
+  title_zh: 生于西天乌仗那国
+  kind: birth
+  date: 0950-01-01
   year_of: 950
-  description: 约十世纪中叶生于北天竺乌仗那国幼習梵典通三藏
-- id: guji-施护-event-arrive
-  title_zh: 来华入太平兴国译经院
-  date: 0982
-  year_of: 982
-  description: 随师东来至开封入译经院任译主与天息灾法天等同场传译
-- id: guji-施护-event-translate
-  title_zh: 奉诏译出大方广未曾有经善巧方便品
-  date: 0998
-  year_of: 998
-  description: 以大意菩萨请问為緣譯說菩薩於五欲境善巧方便及種種布施回向願文
+  place_zh: 西天乌仗那国
+  summary_zh: 生于西天，少出家精通三藏及梵华言
+- id: guji-施护-event-980-arrival
+  title_zh: 随天息灾至宋京师
+  kind: career
+  date: 0980-06-01
+  year_of: 980
+  place_zh: 宋东京开封
+  summary_zh: 雍熙中与天息灾等携梵本来华，入译经院
+- id: guji-施护-event-991-confer
+  title_zh: 授朝散大夫传法大师
+  kind: career
+  date: 0991-01-01
+  year_of: 991
+  place_zh: 宋东京译经院
+  summary_zh: 以译经功授朝散大夫试鸿胪少卿传法大师，专领译事
+- id: guji-施护-event-1005-translate
+  title_zh: 奉诏译出佛说法集名数经
+  kind: career
+  date: 1005-01-01
+  year_of: 1005
+  place_zh: 宋东京译经院
+  summary_zh: 略集三宝乃至色界诸天等名数，以云何问答体译出流通
 - id: guji-施护-event-death
-  title_zh: 卒于开封
-  date: '1017'
+  title_zh: 示寂于宋京师
+  kind: death
+  date: 1017-01-01
   year_of: 1017
-  description: 宋真宗天禧元年卒于京師一生譯經百餘部为宋代译经三藏之一
+  place_zh: 宋东京开封
+  summary_zh: 天禧元年卒，毕生译经百余卷，名数一经尤便初学
