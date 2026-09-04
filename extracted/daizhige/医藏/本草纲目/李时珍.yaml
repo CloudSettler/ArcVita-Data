@@ -9,131 +9,140 @@ person:
       date: 1518-07-03
       precision: day
       is_circa: false
-      raw: 明正德十三年五月二十六
+      raw: 明正德十三年五月二十六日蕲州生
     death:
       date: 1593-01-01
       precision: year
       is_circa: false
-      raw: 明万历二十一年
+      raw: 明万历二十一年卒
   birth_date: 1518-07-03
   death_date: 1593-01-01
-  era: 明代
-  reign_ref: 明嘉靖至万历
-  archetype: 格物求真医者
+  era: 明
+  reign_ref: 明世宗嘉靖至神宗万历
+  archetype: 格物实证的本草集大成者
   dilemmas:
-  - 承家学行医济世还是应科举入仕光耀门楣
-  - 沿袭旧本草陈说还是亲验实测重考百草菜石
-  lesson: 穷格物亲尝远访考证异同方能辨真成书惠人
-  summary_first_person: 吾蕲州李时珍幼承医训三试不第遂弃举业专攻本草三十余年上山采药亲尝远访考释名集解正气味主治成纲目五十二卷以菜之菠薐蕹菜荠苜蓿之属皆详录之愿以实效济世
+  - 科举入仕光耀门楣与承家学济世行医之抉择
+  - 旧本草讹误相承与穷数十年亲验正误之艰难
+  - 权贵征召安享禄位与归野著书惠及后世之取舍
+  lesson: 不泥古方，躬亲采验，正旧误，集大成，以利济群生
+  summary_first_person: 吾蕲州医家子，三举不第，遂矢志学医，访采四方，尝问渔樵，辨椒茶诸物寒热真性，历三十年成纲目五十二卷，愿正千载本草之误，以寿世人
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B727.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B727.md
+  - https://daizhige.org/医藏/本草纲目/卷32.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/本草纲目/卷32.md
 endeavors:
 - id: guji-李时珍-endeavor-1
-  person_qid: guji-李时珍
   title_zh: 重修本草编纂纲目
-  summary: 博览旧本立志重修亲验考证历三十年成五十二卷
+  summary_zh: 感旧本草品类混淆真伪莫辨，立志访采九州，参合经方金石，历三十年成纲目五十二卷，卷三十二果部味类辨秦椒蜀椒胡椒等真性主治
   phases:
   - key: brewing
-    name: 博览旧本立志重修
+    name: 弃举学医博览旧本草
     labels:
-      zh: 酝酿立志
-    start_date: 1552-01-01
-    highlight_event_id: guji-李时珍-event-vow
+      zh: 酝酿
+    start_date: 1541-01-01
+    highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 亲尝远访考证异同
+    name: 太医院阅览御库辨识南北药材
     labels:
-      zh: 考证突破
+      zh: 突破
     start_date: 1556-01-01
-    highlight_event_id: guji-李时珍-event-survey
+    highlight_event_id: guji-李时珍-event-taiyiyuan
   - key: climax
-    name: 纲目初稿告成
+    name: 访采四方亲尝躬验著书
     labels:
-      zh: 高峰成书
+      zh: 高潮
     start_date: 1578-01-01
-    highlight_event_id: guji-李时珍-event-complete
+    highlight_event_id: guji-李时珍-event-gangmu-done
   - key: closure
-    name: 校刊传世惠人
+    name: 刊刻传世惠及后学
     labels:
-      zh: 收束刊传
-    start_date: 1593-01-01
-    highlight_event_id: guji-李时珍-event-death
+      zh: 收束
+    start_date: 1590-01-01
+    highlight_event_id: guji-李时珍-event-gangmu-done
   decisions:
   - date: 1552-01-01
-    title_zh: 弃举业专攻本草
-    rationale: 旧本纷杂谬误害人不如穷格物实学济世
+    title_zh: 立志重修本草
+    rationale: 见宋唐本草品混真伪沿讹，决意访采实物正其误，不蹈袭旧文
+  - date: 1556-06-01
+    title_zh: 就征入太医院而后辞归
+    rationale: 欲借御库阅览天下药材以广识，验成即归野，免羁绊而专著述
   - date: 1578-01-01
-    title_zh: 以纲摄目定五十二卷体例
-    rationale: 以部为纲以类为目释名集解气味主治发明附方贯通便于检用
+    title_zh: 纲目初成仍三易其稿
+    rationale: 以理统纲，以纲挈目，亲验椒目下水胡椒助火等，必求气味主治确当乃定
 - id: guji-李时珍-endeavor-2
-  person_qid: guji-李时珍
-  title_zh: 行医辨菜药两用济世
-  summary: 以柔滑菜蔬入药食养结合辨菠薐荠苜蓿等功用治人
+  title_zh: 悬壶蕲楚济世活人
+  summary_zh: 承父李言闻家学，行医蕲楚，治奇疾活人无数，以医德医术闻，复以临床验方补入纲目附方
   phases:
   - key: brewing
-    name: 承家学坐堂行医
+    name: 承家学初行乡里
     labels:
-      zh: 酝酿行医
+      zh: 酝酿
     start_date: 1541-01-01
-    highlight_event_id: guji-李时珍-event-vow
+    highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 菜药同源辨滑利之用
+    name: 楚王府奉祠良医闻名
     labels:
-      zh: 突破辨用
-    start_date: 1556-01-01
-    highlight_event_id: guji-李时珍-event-survey
+      zh: 突破
+    start_date: 1551-01-01
+    highlight_event_id: guji-李时珍-event-chuwangfu
   - key: climax
-    name: 以菠薐葵菜养窍通利示人
+    name: 太医院判活人奏效
     labels:
-      zh: 高峰施治
-    start_date: 1578-01-01
-    highlight_event_id: guji-李时珍-event-complete
+      zh: 高潮
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-taiyiyuan
   - key: closure
-    name: 著附方授经验于后
+    name: 归蕲著书施方不辍
     labels:
-      zh: 收束授方
-    start_date: 1593-01-01
-    highlight_event_id: guji-李时珍-event-death
+      zh: 收束
+    start_date: 1557-01-01
+    highlight_event_id: guji-李时珍-event-gangmu-done
   decisions:
-  - date: 1556-01-01
-    title_zh: 以食为药录菜部柔滑类
-    rationale: 菠薐蕹菜菾菜荠等皆能通利养窍解毒当详其性味以便民用
-  - date: 1578-01-01
-    title_zh: 存附方标时珍出以验示人
-    rationale: 久病便涩产难目翳等皆附实方使读有据行有法
+  - date: 1541-01-01
+    title_zh: 弃举从医承父业
+    rationale: 体弱多病感医药济世，父命加己志，不以科第为荣而以活人为任
+  - date: 1551-01-01
+    title_zh: 受楚王聘而不久留
+    rationale: 用医术验方于王府，广见富贵病证，然不慕荣利，仍志在民间疾苦与著书
 events:
 - id: guji-李时珍-event-birth
-  person_qid: guji-李时珍
-  title_zh: 出生蕲州医家
+  type: birth
+  title_zh: 生于湖广蕲州医家
   date: 1518-07-03
   year_of: 1518
-  place_zh: 湖广蕲州
-  description: 正德十三年生于医门幼多病承父李言闻训读本草
-- id: guji-李时珍-event-vow
-  person_qid: guji-李时珍
-  title_zh: 立志重修本草
-  date: 1552-01-01
-  year_of: 1552
-  place_zh: 蕲州
-  description: 嘉靖三十一年以旧本舛谬发愿遍览上古至当代诸家本草重加考证
-- id: guji-李时珍-event-survey
-  person_qid: guji-李时珍
-  title_zh: 亲尝远访考菜药
-  date: 1556-06-01
+  location_zh: 湖广蕲州瓦硝坝
+  description_zh: 父李言闻为名医，时珍自幼体弱多病，聪慧好学，夙承家学熏陶
+- id: guji-李时珍-event-practice
+  type: career
+  title_zh: 三举不第弃举学医行乡里
+  date: 1541-01-01
+  year_of: 1541
+  location_zh: 蕲州
+  description_zh: 嘉靖二十年第三次乡试落第，从父命学医，博览本草经方，初行医乡里以验方术
+- id: guji-李时珍-event-chuwangfu
+  type: career
+  title_zh: 任楚王府奉祠正兼良医所医正
+  date: 1551-01-01
+  year_of: 1551
+  location_zh: 武昌楚王府
+  description_zh: 以医术闻聘入王府，治愈王世子暴厥等疾，阅览王府藏书富集，益广学识
+- id: guji-李时珍-event-taiyiyuan
+  type: career
+  title_zh: 征入太医院授院判后辞归
+  date: 1556-01-01
   year_of: 1556
-  place_zh: 太和山及湖广江右
-  description: 访猎樵渔辨菠薐蕹菜荠繁缕苜蓿等形态气味如卷二十七所录时珍曰考订
-- id: guji-李时珍-event-complete
-  person_qid: guji-李时珍
-  title_zh: 本草纲目初稿成
+  location_zh: 北京太医院
+  description_zh: 嘉靖三十五年征授太医院院判，阅御库药材，辨南北真伪，一年余辞归访采著书
+- id: guji-李时珍-event-gangmu-done
+  type: career
+  title_zh: 本草纲目初成凡五十二卷
   date: 1578-01-01
   year_of: 1578
-  place_zh: 蕲州蕲春
-  description: 万历六年成五十二卷约二百万言菜部分三卷柔滑类四十一种皆具释名集解
+  location_zh: 蕲州蕲春
+  description_zh: 自嘉靖三十一年立志，历二十七年访采著述，纲目成，果部卷三十二详辨椒茶诸味气味主治附方，后三易稿付梓
 - id: guji-李时珍-event-death
-  person_qid: guji-李时珍
-  title_zh: 病逝蕲州书未刊
+  type: death
+  title_zh: 卒于蕲州书未刊行
   date: 1593-01-01
   year_of: 1593
-  place_zh: 湖广蕲州
-  description: 万历二十一年逝世三年后金陵刊行本草纲目传世
+  location_zh: 蕲州
+  description_zh: 万历二十一年卒，享年七十六，纲目未及见刊，三年后子建元付金陵刊行传世
