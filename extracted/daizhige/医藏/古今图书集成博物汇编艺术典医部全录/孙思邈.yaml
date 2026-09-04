@@ -6,99 +6,127 @@ person:
     en: Sun Simiao
   lifespan:
     birth:
-      date: 0581
+      date: 0541-01-01
       precision: year
       is_circa: true
       raw: 隋开皇元年左右
     death:
-      date: 0682
+      date: 0682-01-01
       precision: year
       is_circa: false
       raw: 唐永淳元年
-  birth_date: 0581
-  death_date: 0682
-  era: 唐
-  reign_ref: 唐太宗至高宗时
-  archetype: 济世著述医家
+  birth_date: 0541-01-01
+  death_date: 0682-01-01
+  era: 隋唐
+  reign_ref: 唐贞观至永淳
+  archetype: 药王济世医家
   dilemmas:
-  - 外来秽恶惊触难防与婴孺神气怯弱易伤
-  - 客忤急变需速刺速下与顾护小儿脾胃元气
-  lesson: 防重于治急则祛邪缓则养正摄慎乳哺洁净居室方保婴孺
-  summary_first_person: 吾幼多疾长慕医道见婴孺客忤吐痢变色甚或夭折遂于千金要方详论外人气息牛马秽气惊触所致之病立法刺破悬痈龙胆下之又戒醉乳房劳哺儿烧牛屎辟秽勿露衣被愿后人防于未然救于仓卒
+  - 攻下逐积与固护胃气之间如何权衡
+  - 良药苦口与病家骄恣不肯早服之间如何劝勉
+  lesson: 痢本积滞当先通后补并以慎口将息为大经久下当温补脾肾
+  summary_first_person: 余立身以来三遭热痢一经冷痢皆日夜百余行乃至移床就厕而率意自治寻手皆愈遂知此疾天下易治惟须对证服药苦己慎口以瘥为限
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%B0%8F%E5%84%BF%E8%AF%B8%E5%8D%92%E7%94%B3%E9%97%A8.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E5%B0%8F%E5%84%BF%E8%AF%B8%E5%8D%92%E7%94%B3%E9%97%A8.md
+  - https://daizhige.org/医藏/古今图书集成博物汇编艺术典医部全录/滞下门.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/古今图书集成博物汇编艺术典医部全录/滞下门.md
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 撰千金方立婴孺客忤论
-  description: 于备急千金要方详论少小客忤病因证脉定龙胆汤下法与悬痈刺血救急之式
+  title_zh: 千金方著论分冷热疳蛊四痢
+  summary: 据亲历与古今方分痢为冷热疳蛊并撮陟厘乌梅松皮等效方以通利为主
   phases:
   - key: brewing
-    name: 博采经方积累儿科见闻
+    name: 亲患热冷痢而自试
     labels:
-      zh: 博采积累
-    start_date: 392
-    highlight_event_id: guji-孙思邈-event-birth
+      zh: 酝酿
+    start_date: 0630-01-01
+    highlight_event_id: guji-孙思邈-event-self-healing
   - key: breakthrough
-    name: 系统论述客忤吐痢腹痛证治
+    name: 立四种分证与主对方药
     labels:
-      zh: 客忤立论
-    start_date: 426
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh: 突破
+    start_date: 0652-01-01
+    highlight_event_id: guji-孙思邈-event-qianjin-zhili
   - key: climax
-    name: 刊定千金方传行于世
+    name: 撮效方七八以惠天下
     labels:
-      zh: 刊定传世
-    start_date: 426
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh: 高潮
+    start_date: 0652-06-01
+    highlight_event_id: guji-孙思邈-event-qianjin-zhili
+  - key: closure
+    name: 示初服反剧但服以愈
+    labels:
+      zh: 收束
+    start_date: 0653-01-01
+    highlight_event_id: guji-孙思邈-event-qianjin-zhili
   decisions:
-  - date: 426
-    title_zh: 以龙胆汤加参归下客忤
-    rationale: 客忤吐下青黄腹痛脉急数者邪盛宜先杀毒后下故立下法
-  - date: 426
-    title_zh: 急视悬痈刺溃去血
-    rationale: 口中悬痈青黑肿核为客忤外候速刺溃之则邪有出路故决断用针
+  - date: 0652-01-01
+    title_zh: 冷白热赤疳杂蛊瘀分治
+    rationale: 冷热虚实不同须去干姜益黄连或加温热吹灌各随其宜方能主对相当
+  - date: 0652-06-01
+    title_zh: 暴痢用陟厘乌梅松皮速治
+    rationale: 暴痢积滞未深以通利宣荡为要故撮效方使人速服无致迁延胃弱
 - id: guji-孙思邈-endeavor-2
-  title_zh: 倡导防忤摄养与辟秽护儿
-  description: 戒醉乳房劳哺儿马汗秽触夜露衣被教人避外客烧牛屎辟邪以防未病
+  title_zh: 温脾建脾治久痢并倡慎口将息
+  summary: 主久下温补先下后补并严忌生冷酢滑定百日一月将息之限
   phases:
   - key: brewing
-    name: 察访民间婴孺夭折之由
+    name: 见久痢胃弱心力俱微
     labels:
-      zh: 察因访病
-    start_date: 400
-    highlight_event_id: guji-孙思邈-event-qianjin
+      zh: 酝酿
+    start_date: 0655-01-01
+    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
+  - key: breakthrough
+    name: 先温脾汤下后建脾丸补
+    labels:
+      zh: 突破
+    start_date: 0659-01-01
+    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
+  - key: climax
+    name: 立将息大经以防复发
+    labels:
+      zh: 高潮
+    start_date: 0659-06-01
+    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
   - key: closure
-    name: 垂训养儿避忌保全之法
+    name: 叹骄恣不慎而至难治
     labels:
-      zh: 防忤保全
-    start_date: 426
-    highlight_event_id: guji-孙思邈-event-fanghu
+      zh: 收束
+    start_date: 0660-01-01
+    highlight_event_id: guji-孙思邈-event-wenbu-jiuzhi
   decisions:
-  - date: 426
-    title_zh: 戒外人异气猝触婴孺
-    rationale: 少小阳气在外血脉嫩弱外来气息皆能为忤故令避见以养正
-  - date: 426
-    title_zh: 禁醉劳哺乳与马气熏触
-    rationale: 乳母醉及房劳喘后乳儿最剧马汗鸣叫亦能中忤故特加禁慎
+  - date: 0659-01-01
+    title_zh: 久冷积痢先下后补
+    rationale: 久痢脾虚积滞胶结非温下不去非补养不复故以下开其闭以补实其本
+  - date: 0659-06-01
+    title_zh: 严忌生冷并定将息期限
+    rationale: 食饮失节则胃气复伤痢必再发故重者慎口百日次者一月皆须大熟烂勿伤饱
 events:
 - id: guji-孙思邈-event-birth
-  title_zh: 诞生于隋地
-  date: 0581
-  year_of: 581
-  description: 隋开皇前后生于京兆华原少小多疾遂喜医药
-- id: guji-孙思邈-event-qianjin
-  title_zh: 撰成千金要方论小儿客忤
-  date: 426
+  type: birth
+  title_zh: 出生于京兆华原
+  date: 0541-01-01
+  year_of: 541
+  description: 隋时生于京兆华原少时聪慧博涉经史百家并好医方
+- id: guji-孙思邈-event-self-healing
+  type: career
+  title_zh: 三遭热痢一经冷痢自治而愈
+  date: 0630-01-01
+  year_of: 630
+  description: 日夜百余行移床就厕率意自治寻手皆愈遂悟痢为易治之证
+- id: guji-孙思邈-event-qianjin-zhili
+  type: career
+  title_zh: 成千金方热冷疳蚀诸痢论
+  date: 0652-01-01
   year_of: 652
-  description: 于备急千金要方卷五详论婴孺客忤病因脉证定龙胆汤及刺悬痈法
-- id: guji-孙思邈-event-fanghu
-  title_zh: 立防忤辟秽护儿诸法
-  date: 426
-  year_of: 652
-  description: 提出避外客烧牛屎置户前戒醉乳马气夜露衣被以防姑获客忤之害
+  description: 分痢为冷热疳蛊四种定黄连干姜温凉吹灌蛊毒诸法并撮陟厘乌梅松皮等效方
+- id: guji-孙思邈-event-wenbu-jiuzhi
+  type: career
+  title_zh: 立温脾汤下建脾丸补治久痢
+  date: 0659-01-01
+  year_of: 659
+  description: 积久冷痢先以温脾汤下讫后以建脾丸补之并立慎口味重者百日次者一月之将息大经
 - id: guji-孙思邈-event-death
-  title_zh: 逝世于唐长安
-  date: 0682
+  type: death
+  title_zh: 逝世于长安
+  date: 0682-01-01
   year_of: 682
-  description: 唐永淳元年逝世百余岁遗千金方翼行世为后世儿科客忤所宗
+  description: 唐永淳元年逝世遗千金要方三十卷以垂后世

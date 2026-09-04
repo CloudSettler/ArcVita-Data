@@ -1,0 +1,131 @@
+person:
+  qid: guji-渴门
+  name_zh: 渴门
+  names:
+    zh: 渴门
+    en: Kemen
+  lifespan:
+    birth:
+      date: '-0400'
+      precision: century
+      is_circa: true
+      raw: 约战国素问灵枢论消瘅消渴
+    death:
+      date: '1725-01-01'
+      precision: year
+      is_circa: false
+      raw: 雍正三年收入医部全录卷二百八十
+  birth_date: '-0400'
+  death_date: '1725-01-01'
+  era: 上古至清
+  reign_ref: 清雍正三年
+  archetype: 医者
+  dilemmas:
+  - 上焦燥热与下焦肾虚当清润还是当温补
+  - 多饮多溲当止水敛尿还是当宣津分清
+  lesson: 节酒慎味谨房劳，润燥救津补脾肾，方能渴止而不生痈
+  summary_first_person: 吾为渴门，本素问灵枢消瘅肺消膈消之旨，历汉晋辨脉立方，经唐宋立慎防变，至金元分三焦而明燥热，愿后人节饮慎药以养津液
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E6%B8%B4%E9%97%A8.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90%E5%8D%9A%E7%89%A9%E6%B1%87%E7%BC%96%E8%89%BA%E6%9C%AF%E5%85%B8%E5%8C%BB%E9%83%A8%E5%85%A8%E5%BD%95/%E6%B8%B4%E9%97%A8.html
+endeavors:
+- id: guji-渴门-endeavor-1
+  title_zh: 素灵立论与汉唐脉证奠基
+  summary: 承素问灵枢分五脏柔弱与三消上下，汉晋定浮数虚劳之脉，唐宋立节慎防痈之规
+  phases:
+  - key: brewing
+    name: 素灵蓄义辨消瘅
+    labels:
+      zh:
+      - 消瘅
+      - 肺消
+      - 膈消
+    start_date: '-0400'
+    highlight_event_id: guji-渴门-event-birth
+  - key: breakthrough
+    name: 汉晋脉证成法
+    labels:
+      zh:
+      - 肾气丸
+      - 五苓散
+      - 白虎加人参汤
+    start_date: '0219-01-01'
+    highlight_event_id: guji-渴门-event-han
+  - key: climax
+    name: 唐宋慎护成规
+    labels:
+      zh:
+      - 三慎
+      - 防痈
+      - 分经论渴
+    start_date: '0652-01-01'
+    highlight_event_id: guji-渴门-event-tang
+  decisions:
+  - date: '0219-01-01'
+    title_zh: 饮一溲一用肾气丸
+    rationale: 小便反多属肾虚不能制水，当补肾水以制心火，不妄用燥热
+  - date: '0652-01-01'
+    title_zh: 立饮酒房室咸面三慎
+    rationale: 酒热炙咸耗伤津液，不慎则三焦猛热，慎之虽不服药亦可自安
+- id: guji-渴门-endeavor-2
+  title_zh: 三焦分治与燥热寒温论争
+  summary: 正伤寒分经与水之误，斥下冷暖补之谬，倡补肾水泻心火分上中肾消治之
+  phases:
+  - key: brewing
+    name: 伤寒分经论渴
+    labels:
+      zh:
+      - 太阳阳明
+      - 少阳少阴
+    start_date: '0652-01-01'
+    highlight_event_id: guji-渴门-event-tang
+  - key: climax
+    name: 河间三消立说
+    labels:
+      zh:
+      - 上消
+      - 中消
+      - 肾消
+    start_date: '1186-01-01'
+    highlight_event_id: guji-渴门-event-jin
+  - key: closure
+    name: 集成收录成门
+    labels:
+      zh:
+      - 医部全录
+      - 渴门
+    start_date: '1725-01-01'
+    highlight_event_id: guji-渴门-event-death
+  decisions:
+  - date: '1115-01-01'
+    title_zh: 分经与水不妄投白虎五苓
+    rationale: 太阳无汗不可与白虎，阳明多汗不可与五苓，得汗脉洪方可权变
+  - date: '1186-01-01'
+    title_zh: 补阴泻阳以平为期
+    rationale: 消渴本湿寒阴衰燥热阳亢，更服燥热暖药则脾胃气竭，当润湿养津
+events:
+- id: guji-渴门-event-birth
+  title_zh: 素问灵枢立消瘅消渴之名
+  date: '-0400'
+  year_of: -400
+  summary: 黄帝岐伯少俞论二阳结为消，心移寒热为肺消膈消，定脉实大可治脉悬小难治之辨
+- id: guji-渴门-event-han
+  title_zh: 汉张机立消渴脉证治法
+  date: '0219-01-01'
+  year_of: 219
+  summary: 寸口浮迟趺阳浮数辨虚劳气盛，制肾气丸治饮一溲一，五苓散白虎加人参汤分治水逆烦渴
+- id: guji-渴门-event-tang
+  title_zh: 唐孙思邈论积饮成渴与三慎
+  date: '0652-01-01'
+  year_of: 652
+  summary: 言久饮酒炙咸致三焦猛热，戒酒色咸面，警消渴久必发大痈，禁百日后灸刺误伤
+- id: guji-渴门-event-jin
+  title_zh: 金刘完素分三焦三消论治
+  date: '1186-01-01'
+  year_of: 1186
+  summary: 分上消膈消多饮少食，中消善食而瘦，肾消膏淋脂浊，主养血肃清辛甘润燥，斥下冷暖补之误
+- id: guji-渴门-event-death
+  title_zh: 清雍正朝收入古今图书集成
+  date: '1725-01-01'
+  year_of: 1725
+  summary: 医部全录卷二百八十汇素灵金匮千金活人河间诸家，以渴门统摄消瘅消中肾消全文垂世
