@@ -9,136 +9,157 @@ person:
       date: 0950
       precision: year
       is_circa: true
-      raw: 约十世纪中生于乌仗那国
+      raw: 约十世纪中叶生于北印度
     death:
       date: '1017'
       precision: year
       is_circa: false
-      raw: 宋真宗天禧元年卒
+      raw: 宋真宗天禧元年卒于汴京
   birth_date: 0950
   death_date: '1017'
   era: 北宋
   reign_ref: 宋太宗太平兴国至宋真宗天禧
-  archetype: 西天译经传法者
+  archetype: 奉诏译经之传法大师
   dilemmas:
-  - 梵汉悬隔义理毫厘不差当如何存真达意
-  - 寄身异域弘法任重当如何安心传灯不负本愿
-  lesson: 以空性为印摄一切法住平等见离诸著方为真实见
-  summary_first_person: 吾施护本西天人奉诏入宋译经常住译经院后传法弘化于舍卫之会宣说圣法印以空无想无作三解脱门接引群品
+  - title_zh: 梵汉悬隔义难曲达
+    description: 如何以汉土语言传达蚁聚烟火龟蛇龙等深喻而不失佛本旨
+  - title_zh: 去留抉择
+    description: 久留汉地译场终身译经还是还归西域故土以何为利乐众生之胜行
+  lesson: 以智慧为利刀以精进为胜行破散五蕴烦恼蚁聚方证圣果
+  summary_first_person: 我本西天人蒙宋帝诏入译经院为传法大师与法贤等共译显密经律凡百余部复奉诏译此蚁喻经以蚁聚喻五蕴聚身以烟火喻寻伺身语业以龟蛇等喻五盖贪嗔痴慢疑嫉欲以龙喻阿罗汉以婆罗门喻如来以利刀喻智慧愿诸有智者勤行精进断诸烦恼我以译场为道场终身不怠
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8D%B0%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%B3%95%E5%8D%B0%E7%BB%8F.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%9A%81%E5%96%BB%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%9A%81%E5%96%BB%E7%BB%8F.md
 endeavors:
 - id: guji-施护-endeavor-1
-  title_zh: 入华译经传法
-  summary_zh: 自乌仗那赴汴京入译经院受传法大师号译经弘化三十余年
+  person_id: guji-施护
+  title_zh: 奉诏入宋译经弘法
+  summary: 自西天入汴京入译经院试光禄卿传法大师赐紫终身奉诏译经百余部利乐汉土众生
   phases:
   - key: brewing
-    name: 西天习学
+    name: 西来发心入华
     labels:
-      zh: 蕴育
-    start_date: 0950
-    highlight_event_id: guji-施护-event-birth
-  - key: breakthrough
-    name: 赴宋入院
-    labels:
-      zh: 转折
+      zh:
+      - 酝酿启程
     start_date: 0980
-    highlight_event_id: guji-施护-event-arrival
+    highlight_event_id: guji-施护-event-arrive
+  - key: breakthrough
+    name: 入院试衔得诏
+    labels:
+      zh:
+      - 初获任用
+    start_date: 0985
+    highlight_event_id: guji-施护-event-appoint
   - key: climax
-    name: 奉诏传译
+    name: 译蚁喻经释喻
     labels:
-      zh: 高峰
-    start_date: 0991
-    highlight_event_id: guji-施护-event-fayin
+      zh:
+      - 译经高峰
+    start_date: 0990
+    highlight_event_id: guji-施护-event-translate-anyu
   - key: closure
-    name: 圆寂示寂
+    name: 译业圆满示寂
     labels:
-      zh: 收束
+      zh:
+      - 功德圆满
     start_date: '1017'
     highlight_event_id: guji-施护-event-death
   decisions:
   - date: 0980
-    title_zh: 决意西来入宋
-    rationale: 为使正法东流不辞跋涉投身译场以报佛恩
-  - date: 0991
-    title_zh: 受命专心传译
-    rationale: 既膺朝命授传法之号当以精严译笔守护圣言
+    title_zh: 随法团东来应宋请
+    rationale: 悲愍汉土众生未闻正法愿入宋译场以梵本传译为利乐
+  - date: 0985
+    title_zh: 受朝奉大夫试光禄卿传法大师号
+    rationale: 承帝诏以译经为国事正名分以安译场以信众生
+  - date: 0990
+    title_zh: 译说蚁喻分别烦恼圣果
+    rationale: 欲令有智者识五蕴苦聚及五盖缠缚持智慧刀发精进行趣证圣果
 - id: guji-施护-endeavor-2
-  title_zh: 宣演圣法印
-  summary_zh: 译说佛说法印经以空性及三解脱门示平等正见
+  person_id: guji-施护
+  title_zh: 开示禅观教导学人
+  summary: 依蚁喻之义教苾刍于旷野山间树下岩穴谛观五蕴不净精进修慧并转教他人普令得大利乐
   phases:
   - key: brewing
-    name: 观察蕴空
+    name: 集众讲说喻义
     labels:
-      zh: 蕴育
-    start_date: 0995
-    highlight_event_id: guji-施护-event-fayin-brewing
+      zh:
+      - 酝酿开示
+    start_date: 0990
+    highlight_event_id: guji-施护-event-translate-anyu
   - key: breakthrough
-    name: 开显三门
+    name: 分别蚁聚烟火之相
     labels:
-      zh: 转折
-    start_date: 0998
-    highlight_event_id: guji-施护-event-fayin
+      zh:
+      - 破解疑网
+    start_date: 0991
+    highlight_event_id: guji-施护-event-translate-anyu
   - key: climax
-    name: 会归法印
+    name: 劝修智慧精进断惑
     labels:
-      zh: 高峰
-    start_date: 0998
-    highlight_event_id: guji-施护-event-fayin
+      zh:
+      - 劝修高潮
+    start_date: 0995
+    highlight_event_id: guji-施护-event-teach
   - key: closure
-    name: 信受流通
+    name: 付嘱流通信受奉行
     labels:
-      zh: 收束
-    start_date: 0998
-    highlight_event_id: guji-施护-event-fayin-spread
+      zh:
+      - 流通收束
+    start_date: '1017'
+    highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0998
-    title_zh: 以空性为印摄法
-    rationale: 空性无所有离知见能摄一切法令住平等见故首标为印
-  - date: 0998
-    title_zh: 详说空无想无作三门
-    rationale: 欲令行者依次厌离灭想离作得知见清净故分别演说
+  - date: 0991
+    title_zh: 以五蕴不净破常见我慢
+    rationale: 众生耽著羯逻蓝父母不净四大合成之身须示其粗恶破坏以生厌离
+  - date: 0995
+    title_zh: 劝住寂静处谛观无放逸
+    rationale: 效过去未来诸佛悲愍令声闻于空舍山间思惟观察不生退转并转教他人
 events:
 - id: guji-施护-event-birth
-  type: birth
+  person_id: guji-施护
+  title_zh: 诞生于北印度
   date: 0950
   year_of: 950
-  title_zh: 生于乌仗那国
-  place_zh: 乌仗那国
-  description_zh: 约十世纪中生于西天乌仗那幼习梵典精通三藏
-- id: guji-施护-event-arrival
-  type: career
+  kind: birth
+  place_zh: 北印度
+  summary: 约十世纪中叶生于北印度婆罗门或刹帝利家少习梵本经论具译经之学
+- id: guji-施护-event-arrive
+  person_id: guji-施护
+  title_zh: 太平兴国中抵汴京入译经院
   date: 0980
   year_of: 980
-  title_zh: 赴宋入译经院
+  kind: career
   place_zh: 汴京译经院
-  description_zh: 宋太宗太平兴国五年抵汴京入译经院与法天等共事翻译
-- id: guji-施护-event-fayin-brewing
-  type: career
+  summary: 宋太宗太平兴国五年与天息灾法天等西来入华奉诏入译经院从事梵汉传译
+- id: guji-施护-event-appoint
+  person_id: guji-施护
+  title_zh: 授朝奉大夫试光禄卿传法大师赐紫
+  date: 0985
+  year_of: 985
+  kind: career
+  place_zh: 汴京
+  summary: 以译经劳效授朝奉大夫试光禄卿传法大师赐紫臣奉诏译经名列三藏译师
+- id: guji-施护-event-translate-anyu
+  person_id: guji-施护
+  title_zh: 奉诏译出佛说蚁喻经
+  date: 0990
+  year_of: 990
+  kind: career
+  place_zh: 汴京译经院
+  summary: 译佛说蚁喻经一卷说蚁聚夜烟昼火龟水母水蛭蛇龙等喻以蚁聚喻五蕴身烟火喻寻伺身语龟喻五盖蛇喻无明龙喻阿罗汉婆罗门喻如来刀喻智慧劝有智者发精进行断惑证果
+- id: guji-施护-event-teach
+  person_id: guji-施护
+  title_zh: 以蚁喻义教授苾刍劝住寂静观行
   date: 0995
   year_of: 995
-  title_zh: 林间观蕴准备说法
-  place_zh: 汴京
-  description_zh: 如实观察五蕴是苦是空是无常生厌离住平等见为说印之基
-- id: guji-施护-event-fayin
-  type: career
-  date: 0998
-  year_of: 998
-  title_zh: 奉诏译佛说法印经
-  place_zh: 舍卫国会下
-  description_zh: 宣说圣法印谓空性无所有无生灭离知见即三解脱门为佛眼所归
-- id: guji-施护-event-fayin-spread
-  type: career
-  date: 0998
-  year_of: 998
-  title_zh: 众闻法欢喜信受
-  place_zh: 舍卫国会下
-  description_zh: 诸苾刍闻法皆大欢喜顶礼信受法印流通
+  kind: career
+  place_zh: 汴京及山间僧舍
+  summary: 承佛遗教劝苾刍于旷野空舍山间树下岩穴谛心思惟蚁喻之义无令放逸并转教他人普令修习得大利乐
 - id: guji-施护-event-death
-  type: death
+  person_id: guji-施护
+  title_zh: 卒于汴京译业圆满
   date: '1017'
   year_of: 1017
-  title_zh: 示寂于宋
+  kind: death
   place_zh: 汴京
-  description_zh: 宋真宗天禧元年卒毕生译经弘法以空印传持后世
+  summary: 宋真宗天禧元年卒于汴京一生译显密经律百余部蚁喻经等流通汉土为宋初三大译师之一
