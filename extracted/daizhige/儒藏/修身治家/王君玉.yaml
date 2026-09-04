@@ -1,0 +1,124 @@
+person:
+  qid: guji-王君玉
+  name_zh: 王君玉
+  names:
+    zh: 王君玉
+    en: Wang Junyu
+  lifespan:
+    birth:
+      date: '1005'
+      precision: year
+      is_circa: true
+      raw: 约宋真宗咸平八年
+    death:
+      date: '1075'
+      precision: year
+      is_circa: true
+      raw: 约宋神宗熙宁八年
+  birth_date: '1005'
+  death_date: '1075'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 讽世类纂文人
+  dilemmas:
+  - 雅正与俚俗并存欲存真又恐伤雅
+  - 劝世与嘲世之间欲警人又恐刻薄
+  lesson: 聚琐细世态以自镜修身慎行远讥诮惜福守分
+  summary_first_person: 我续杂纂遍拾奴婢相凡恶易图谋诸般世情以片语写真但愿后人见可笑可惜之事而自警不蹈覆辙
+  source_urls:
+  - https://daizhige.org/儒藏/修身治家/杂纂续.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/修身治家/杂纂续.md
+endeavors:
+- id: guji-王君玉-endeavor-1
+  title_zh: 续补杂纂类记世情
+  goal_zh: 承杂纂旧体续补宋时风俗笑谈以类相从
+  phases:
+  - key: brewing
+    name: 采拾见闻
+    labels:
+      zh: 酝酿采拾
+    start_date: '1032'
+    highlight_event_id: guji-王君玉-event-collect
+  - key: breakthrough
+    name: 立类命名
+    labels:
+      zh: 突破立类
+    start_date: '1040'
+    highlight_event_id: guji-王君玉-event-collect
+  - key: climax
+    name: 成篇杂纂续
+    labels:
+      zh: 高潮成篇
+    start_date: '1045'
+    highlight_event_id: guji-王君玉-event-complete
+  - key: closure
+    name: 流传修身家训
+    labels:
+      zh: 收束流传
+    start_date: '1050'
+    highlight_event_id: guji-王君玉-event-complete
+  decisions:
+  - date: '1040'
+    title_zh: 以类统事立奴婢相凡恶等目
+    rationale: 世事散漫非类不能记忆以类统之则览者易省
+  - date: '1045'
+    title_zh: 坚持俚语直书不文饰
+    rationale: 欲存真态以醒世文饰则失笑谑劝戒之本
+- id: guji-王君玉-endeavor-2
+  title_zh: 儒藏修身治家劝戒
+  goal_zh: 以日常得失为教使士庶观琐事而悟持家修身之道
+  phases:
+  - key: brewing
+    name: 观察得失
+    labels:
+      zh: 酝酿观察
+    start_date: '1042'
+    highlight_event_id: guji-王君玉-event-collect
+  - key: breakthrough
+    name: 拈出不济暗喜等情
+    labels:
+      zh: 突破拈情
+    start_date: '1046'
+    highlight_event_id: guji-王君玉-event-complete
+  - key: climax
+    name: 示可惜重难难忍之戒
+    labels:
+      zh: 高潮示戒
+    start_date: '1048'
+    highlight_event_id: guji-王君玉-event-complete
+  - key: closure
+    name: 归于自警慎行
+    labels:
+      zh: 收束自警
+    start_date: '1052'
+    highlight_event_id: guji-王君玉-event-complete
+  decisions:
+  - date: '1046'
+    title_zh: 专取日用琐细而不论朝政大端
+    rationale: 大端人皆知之琐细最易忽而败德故取小以喻大
+  - date: '1048'
+    title_zh: 并列好笑好杀没意头以寓褒贬
+    rationale: 使读者于笑中知耻于快中知惧不待长言而化
+events:
+- id: guji-王君玉-event-birth
+  title_zh: 诞生于北宋
+  date: '1005'
+  year_of: 1005
+  summary_zh: 约宋真宗咸平年间诞生于士人之家少习儒业长于见闻
+- id: guji-王君玉-event-collect
+  title_zh: 采拾世态立类
+  date: '1040'
+  year_of: 1040
+  summary_zh: 承杂纂旧体采拾宋时市井官场俚俗立奴婢相凡恶易图谋难奈何等类目
+  endeavor_ref: guji-王君玉-endeavor-1
+- id: guji-王君玉-event-complete
+  title_zh: 杂纂续成篇
+  date: '1048'
+  year_of: 1048
+  summary_zh: 续成杂纂续备载不济暗喜无凭据不数料爱便宜过不得诸条以讽世醒人归于修身治家
+  endeavor_ref: guji-王君玉-endeavor-2
+- id: guji-王君玉-event-death
+  title_zh: 逝世
+  date: '1075'
+  year_of: 1075
+  summary_zh: 约宋神宗熙宁年间逝世其书流传后世列入儒藏修身治家以传

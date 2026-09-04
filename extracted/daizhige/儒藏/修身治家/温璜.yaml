@@ -1,0 +1,127 @@
+person:
+  qid: guji-温璜
+  name_zh: 温璜
+  names:
+    zh: 温璜
+    en: Wen Huang
+  lifespan:
+    birth:
+      date: 1602
+      precision: year
+      is_circa: true
+      raw: 明万历末乌程人初名以介字于石
+    death:
+      date: 1645
+      precision: year
+      is_circa: false
+      raw: 顺治乙酉徽州城破抗节死
+  birth_date: 1602
+  death_date: 1645
+  era: 明末清初
+  reign_ref: 崇祯
+  archetype: 忠烈殉节
+  dilemmas:
+  - 守土尽忠必死与保全妻子家眷两难
+  - 母训名教躬行与临难空言两难
+  lesson: 家法有素则临难从容母教即忠烈之本
+  summary_first_person: 吾乌程温璜也初名以介受母陆氏身教口授以名教自砺崇祯癸未进士授徽州推官乙酉起兵与金声相应守城四月城破手刃妻女而自刭平生学圣贤不过求今日处死之道庶不愧母训耳
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E6%B8%A9%E6%B0%8F%E6%AF%8D%E8%AE%AD.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E6%B8%A9%E6%B0%8F%E6%AF%8D%E8%AE%AD.html
+endeavors:
+- id: guji-温璜-endeavor-1
+  title_zh: 科举入仕徽州司理
+  summary: 丙子举乡癸未成进士筮仕徽州推官以勤慎尽职
+  phases:
+  - key: brewing
+    name: 乡学受母训
+    labels:
+      zh: 母教养正
+    start_date: 1620
+    highlight_event_id: guji-温璜-event-birth
+  - key: breakthrough
+    name: 丙子举于乡
+    labels:
+      zh: 科举突破
+    start_date: 1636
+    highlight_event_id: guji-温璜-event-juren
+  - key: climax
+    name: 癸未进士授徽州
+    labels:
+      zh: 筮仕徽州
+    start_date: 1643
+    highlight_event_id: guji-温璜-event-jinshi
+  - key: closure
+    name: 司理任上尽职
+    labels:
+      zh: 宦绩收成
+    start_date: 1644
+    highlight_event_id: guji-温璜-event-jinshi
+  decisions:
+  - date: 1636
+    title_zh: 丙子应乡举求用世
+    rationale: 读书即生活治生要紧故闭门课子以求前程远大
+  - date: 1643
+    title_zh: 筮仕徽州司理
+    rationale: 作官将地方紧要做不到事干一两件方是男子结果故就推官任
+- id: guji-温璜-endeavor-2
+  title_zh: 乙酉起兵殉节徽州
+  summary: 顺治乙酉与金声相应起兵拒守徽州四阅月城破殉国
+  phases:
+  - key: brewing
+    name: 疆事坏谋起兵
+    labels:
+      zh: 忠义酝酿
+    start_date: 1645-01
+    highlight_event_id: guji-温璜-event-uprising
+  - key: breakthrough
+    name: 与金声相应守城
+    labels:
+      zh: 起兵守土
+    start_date: 1645-05
+    highlight_event_id: guji-温璜-event-uprising
+  - key: climax
+    name: 城破绕屋决命
+    labels:
+      zh: 从容就义
+    start_date: 1645-09
+    highlight_event_id: guji-温璜-event-death
+  - key: closure
+    name: 身后谥忠烈传母训
+    labels:
+      zh: 身后显忠
+    start_date: 1776
+    highlight_event_id: guji-温璜-event-death
+  decisions:
+  - date: 1645-05
+    title_zh: 起兵拒守徽州
+    rationale: 生平学为圣贤不过求今日处死之道不愧母教故抗节不降
+  - date: 1645-09
+    title_zh: 城破先刃妻女而自刭
+    rationale: 家庭素以名教相砥砺故临难从容以全名节不托空言
+events:
+- id: guji-温璜-event-birth
+  title_zh: 生于乌程
+  date: 1602
+  year_of: 1602
+  description: 初名以介字于石后以梦兆改名璜字宝忠乌程人受母陆氏教养
+- id: guji-温璜-event-juren
+  title_zh: 崇祯丙子举于乡
+  date: 1636
+  year_of: 1636
+  description: 以介举于乡时受母问陶侃运甓及族贫诸训知教有本勤俭自立
+- id: guji-温璜-event-jinshi
+  title_zh: 崇祯癸未进士授徽州府推官
+  date: 1643
+  year_of: 1643
+  description: 礼闱登第筮仕徽司理录母陆氏身教口授为温氏母训附遗集末
+- id: guji-温璜-event-uprising
+  title_zh: 顺治乙酉起兵守徽州
+  date: 1645-05
+  year_of: 1645
+  description: 与金声相应起兵拒守凡四阅月
+- id: guji-温璜-event-death
+  title_zh: 徽州城破抗节死
+  date: 1645-09
+  year_of: 1645
+  description: 城破慨言求处死之道手刃长女宝德及妻茅氏而自刭乾隆四十一年赐谥忠烈
