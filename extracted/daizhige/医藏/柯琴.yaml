@@ -8,136 +8,119 @@ person:
     birth:
       date: 1662
       precision: year
-      is_circa: false
-      raw: 康熙元年
+      is_circa: true
+      raw: 清康熙元年左右
     death:
       date: 1735
       precision: year
       is_circa: true
-      raw: 雍正十三年前后
+      raw: 清雍正十三年左右
   birth_date: 1662
   death_date: 1735
   era: 清
-  reign_ref: 康熙
-  archetype: 医家
+  reign_ref: 康熙至雍正
+  archetype: 醫家
   dilemmas:
-  - 王叔和编次失真而世人盲从伤寒专名
-  - 伤寒杂病分门而六经大法不明莫知适从
-  lesson: 伤寒杂病本合论，统于六经地面，见病知源，方不为编次所误
-  summary_first_person: 吾乃慈溪柯琴，究心仲景有年，痛叔和改头换面分伤寒杂病为两书，致六经不明邪说锢世，故作论翼以明合论大法，愿人握六经枢机而尽愈诸病
+  - 泥於中風傷寒名目以分桂麻與憑脈辨虛實以施治之抉擇
+  - 遵分經用藥成說與求仲景制方心法之抉擇
+  lesson: 表有虛實當以有汗無汗脈弱脈緊為憑不拘風寒之名方能放膽用麻桂以解表
+  summary_first_person: 吾柯琴字韻伯慈溪人也究心仲景太陽諸方辨麻黄治表實桂枝治表虛著來蘇集附翼以正三綱鼎立之誤願後人憑脈證虛實而施汗法勿為風寒所拘
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E7%BF%BC.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E8%AE%BA%E7%BF%BC.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E9%99%84%E7%BF%BC.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E5%AF%92%E9%99%84%E7%BF%BC.html
 endeavors:
 - id: guji-柯琴-endeavor-1
-  title_zh: 考订六经著伤寒论翼
-  description: 辨叔和编次之谬，明伤寒杂病合论，清理六经部位主治
+  title_zh: 考訂太陽麻桂桂枝湯麻黃湯主治
+  summary: 以表虛表實定桂麻界限釐清有汗無汗脈弱脈緊之辨
   phases:
   - key: brewing
-    name: 究心仲景博览医经
+    name: 博覽傷寒注疏疑風寒分治
     labels:
-      zh:
-      - 研读
-      - 考据
+      zh: 醞釀
     start_date: 1685
-    highlight_event_id: guji-柯琴-event-laisuji
+    highlight_event_id: guji-柯琴-event-1
   - key: breakthrough
-    name: 悟合论大法立六经地面说
+    name: 悟麻黄治表實桂枝治表虛
     labels:
-      zh:
-      - 立论
-      - 明经
-    start_date: 1719
-    highlight_event_id: guji-柯琴-event-laisuji
+      zh: 突破
+    start_date: 1700
+    highlight_event_id: guji-柯琴-event-1
   - key: climax
-    name: 甲寅作序论翼成书
+    name: 詳論桂枝解肌麻黄開表
     labels:
-      zh:
-      - 著述
-      - 传道
-    start_date: 1734
-    highlight_event_id: guji-柯琴-event-yi-xu
+      zh: 高潮
+    start_date: 1706
+    highlight_event_id: guji-柯琴-event-1
   - key: closure
-    name: 全论大法六经正义垂后
+    name: 成來蘇集太陽篇垂訓後學
     labels:
-      zh:
-      - 成书
-      - 示人
-    start_date: 1734
-    highlight_event_id: guji-柯琴-event-yi-xu
+      zh: 收束
+    start_date: 1708
+    highlight_event_id: guji-柯琴-event-1
   decisions:
-  - date: 1719
-    title_zh: 先著来苏集以开端
-    rationale: 恐人未知合论之旨，先以杂病不足观为引，渐明原文
-  - date: 1734
-    title_zh: 直斥叔和林亿方氏之失
-    rationale: 冠脉法序例于前集之举皆非本来，不辨则仲景之道不可得
+  - date: 1700
+    title_zh: 不以中風傷寒分方以虛實分治
+    rationale: 有汗脈弱用桂枝無汗脈緊用麻黄風寒俱有虛實淺深故也
+  - date: 1706
+    title_zh: 明桂枝解肌麻黄開竅各守其用
+    rationale: 桂枝發營中汗麻黄出衛分邪汗後不解當轉桂枝不可再峻發也
 - id: guji-柯琴-endeavor-2
-  title_zh: 经方临床济世传法
-  description: 以仲景方药为准绳，治伤寒杂病无二理，活人无算
+  title_zh: 撰傷寒附翼駁大青龍鼎立說
+  summary: 論青龍大小治裏寒熱之別正許叔微方氏三綱之誤
   phases:
   - key: brewing
-    name: 慈溪行医辨证施治
+    name: 考大小青龍葛根五苓諸加減
     labels:
-      zh:
-      - 行医
-      - 实践
-    start_date: 1685
-    highlight_event_id: guji-柯琴-event-practice
+      zh: 醞釀
+    start_date: 1715
+    highlight_event_id: guji-柯琴-event-2
   - key: breakthrough
-    name: 经方得验名重江浙
+    name: 識大青龍兩解表裏治風熱煩躁
     labels:
-      zh:
-      - 临床
-      - 验方
-    start_date: 1705
-    highlight_event_id: guji-柯琴-event-practice
+      zh: 突破
+    start_date: 1725
+    highlight_event_id: guji-柯琴-event-2
   - key: climax
-    name: 以方药阐内经大法
+    name: 著附翼太陽方總論批倒序誤解
     labels:
-      zh:
-      - 合参
-      - 化育
-    start_date: 1719
-    highlight_event_id: guji-柯琴-event-laisuji
+      zh: 高潮
+    start_date: 1730
+    highlight_event_id: guji-柯琴-event-2
   - key: closure
-    name: 遗书惠后学宗经方
+    name: 示石膏清裏麻黄發表相濟之法
     labels:
-      zh:
-      - 遗惠
-      - 宗经
-    start_date: 1735
-    highlight_event_id: guji-柯琴-event-death
+      zh: 收束
+    start_date: 1732
+    highlight_event_id: guji-柯琴-event-2
   decisions:
-  - date: 1705
-    title_zh: 坚持仲景活法不随时定剂
-    rationale: 因症立方不拘四时汗吐下，寒热温凉随其攸利方能治变迁
-  - date: 1719
-    title_zh: 以著述代口传广拯时医
-    rationale: 旁门歧路莫知适从，须笔之于书使参赞化育之书不归狐疑
+  - date: 1725
+    title_zh: 定青龍大小在麻黄多少不在石膏
+    rationale: 石膏但清中宮燔灼不能驅表風寒汗多亡陽過在麻黄也
+  - date: 1730
+    title_zh: 駁桂治風麻治寒大青龍鼎立之說
+    rationale: 諸方皆麻桂加減因表實內外寒熱淺深而變不可鼎立也
 events:
 - id: guji-柯琴-event-birth
   date: 1662
   year_of: 1662
-  title_zh: 生于浙江慈溪
-  description: 清康熙元年生于慈溪柯氏，自幼力学，后专治医经
-- id: guji-柯琴-event-practice
-  date: 1705
-  year_of: 1705
-  title_zh: 行医江浙精研仲景
-  description: 游历行医，以伤寒杂病合参，屡起沉疴，究心仲景有年
-- id: guji-柯琴-event-laisuji
-  date: 1719
-  year_of: 1719
-  title_zh: 著成伤寒来苏集
-  description: 集平生心得著来苏集，为论翼先声，明经方之用
-- id: guji-柯琴-event-yi-xu
-  date: 1734
-  year_of: 1734
-  title_zh: 甲寅春作伤寒论翼自序
-  description: 于慈溪作自序，斥补伤寒者百余家之失，立全论大法与六经正义
+  type: birth
+  title_zh: 生於浙江慈溪
+  description: 清康熙元年左右生於浙東篤志醫學
+- id: guji-柯琴-event-1
+  date: 1706
+  year_of: 1706
+  type: career
+  title_zh: 撰傷寒來蘇集辨太陽麻桂
+  description: 詳論桂枝麻黄葛根湯立法示解肌開表之別
+- id: guji-柯琴-event-2
+  date: 1730
+  year_of: 1730
+  type: career
+  title_zh: 撰傷寒附翼太陽方總論
+  description: 論大小青龍五苓十棗麻杏甘膏諸方正注家衄血倒序之誤
 - id: guji-柯琴-event-death
   date: 1735
   year_of: 1735
-  title_zh: 逝世
-  description: 论翼成后不久即逝，遗书盛行于世，后人尊为经方大家
+  type: death
+  title_zh: 卒於雍正末年
+  description: 畢生闡發仲景心法其書盛行於後世

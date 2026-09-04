@@ -1,0 +1,105 @@
+person:
+  qid: guji-钱秀昌
+  name_zh: 钱秀昌
+  names:
+    zh: 钱秀昌
+    en: Qian Xiuchang
+  lifespan:
+    birth:
+      date: 1750
+      precision: year
+      is_circa: true
+      raw: 清乾隆年间生年不详
+    death:
+      date: 1820
+      precision: year
+      is_circa: true
+      raw: 清道光初卒年不详
+  birth_date: 1750
+  death_date: 1820
+  era: 清
+  reign_ref: 嘉庆
+  archetype: 名医
+  dilemmas:
+  - 正骨手法口传易失与著书立说存真传之抉择
+  - 金疮急救立效与固本调养防传变之权衡
+  lesson: 参经义合经验以简明实用存伤科真传使学人可守法全正骨之道
+  summary_first_person: 吾名钱秀昌亦名钱潢以伤科行世久历跌打金疮参正骨心法精义合平日试验真传撰伤科补要四卷刊于嘉庆十三年愿学人认穴明脉善用器械手法药饵以全活人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/伤科补要.md
+  - https://daizhige.org/伤科补要.html
+endeavors:
+- id: guji-钱秀昌-endeavor-1
+  title_zh: 伤科临床精研正骨金疮
+  description: 以伤科闻名精研跌打金疮脱骱骨折脉理穴部器械手法汤药调养
+  phases:
+  - key: brewing
+    name: 久历临床博采众法
+    labels:
+      zh: 临床积累
+    start_date: 1770
+    highlight_event_id: guji-钱秀昌-event-practice
+  - key: breakthrough
+    name: 融会正骨心法自得真传
+    labels:
+      zh: 医术成熟
+    start_date: 1790
+    highlight_event_id: guji-钱秀昌-event-practice
+  decisions:
+  - date: 1790
+    title_zh: 立手法器械药饵并重之正骨全法
+    rationale: 跌扑虽用手法恐未尽宜故制攀索腰柱木板杉篱诸器辅之再施药饵调养乃可复正
+  - date: 1795
+    title_zh: 重脉理穴部骨度以防误治
+    rationale: 治伤先须认明穴部明其脉理与症合参绘总穴人图录骨度尺寸乃不误
+- id: guji-钱秀昌-endeavor-2
+  title_zh: 撰刊伤科补要四卷
+  description: 综合平素治疗经验辑伤科精义撰成四卷简明实用嘉庆十三年刊行
+  phases:
+  - key: climax
+    name: 分条立则括汤为歌
+    labels:
+      zh: 著书撰述
+    start_date: 1800
+    highlight_event_id: guji-钱秀昌-event-book
+  - key: closure
+    name: 刊刻传世残卷存真
+    labels:
+      zh: 刊刻流传
+    start_date: 1808
+    highlight_event_id: guji-钱秀昌-event-book
+  decisions:
+  - date: 1800
+    title_zh: 参正骨心法分三十六则以括症治
+    rationale: 三十六则参正骨心法精义合平日试验真传分为条则使学人熟读可括诸法之要
+  - date: 1808
+    title_zh: 汤头歌括附诸家秘方急救良方刊行
+    rationale: 汤液药名总众多记忆良难故浑括为歌易于成诵又附各家秘方急救以广心胸备采择
+events:
+- id: guji-钱秀昌-event-birth
+  title_zh: 出生
+  date: 1750
+  year_of: 1750
+  is_circa: true
+  description: 生于清乾隆年间生年不详后以伤科闻名
+  event_type: birth
+- id: guji-钱秀昌-event-practice
+  title_zh: 以伤科闻名行医四方
+  date: 1790
+  year_of: 1790
+  is_circa: true
+  description: 精治跌打金疮脱骱骨折善用杨木接骨法及攀索腰柱木板杉篱诸器
+  event_type: career
+- id: guji-钱秀昌-event-book
+  title_zh: 撰成伤科补要刊于嘉庆十三年
+  date: 1808
+  year_of: 1808
+  description: 卷一穴部骨度器械脉诀卷二治伤三十六则卷三汤头歌括卷四各家要方急救良方
+  event_type: work
+- id: guji-钱秀昌-event-death
+  title_zh: 逝世
+  date: 1820
+  year_of: 1820
+  is_circa: true
+  description: 卒于清嘉庆道光之际卒年不详遗书残卷流传
+  event_type: death
