@@ -1,0 +1,111 @@
+person:
+  qid: guji-傅山
+  name_zh: 傅山
+  names:
+    zh: 傅山
+    en: Fu Shan
+  lifespan:
+    birth:
+      date: 1607-08-11
+      precision: day
+      is_circa: false
+      raw: 明万历三十五年六月十九
+    death:
+      date: 1684-08-09
+      precision: day
+      is_circa: false
+      raw: 清康熙二十三年六月二十八
+  birth_date: 1607-08-11
+  death_date: 1684-08-09
+  era: 明末清初
+  reign_ref: 清康熙
+  archetype: 遗民医儒
+  dilemmas:
+  - 明亡不仕清与养家活命之两难
+  - 坚守气节与悬壶济世之抉择
+  lesson: 守节不渝而以医活人，学问终归济世
+  summary_first_person: 吾傅山字青主，阳曲人，明亡不仕，以医自寄，辨带下崩漏调经种子妊娠产后之症，著女科上下卷以活妇人，愿后人辨证参酌而用之
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%82%85%E9%9D%92%E4%B8%BB%E5%A5%B3%E7%A7%91.md
+endeavors:
+- id: guji-傅山-endeavor-1
+  title_zh: 明遗民守节不仕
+  summary: 明亡后坚持故国之节，三藩及清廷征召皆坚辞不就，以布衣终老
+  phases:
+  - key: brewing
+    name: 太原抗节蒙难
+    labels:
+      zh:
+      - 守节
+      - 抗清
+    start_date: 1644-01-01
+    highlight_event_id: guji-傅山-event-antiqing
+  - key: climax
+    name: 辞征守节终老
+    labels:
+      zh:
+      - 遗民
+      - 不仕
+    start_date: 1678-03-01
+    highlight_event_id: guji-傅山-event-refuse
+  decisions:
+  - date: 1645-01-01
+    title_zh: 太原艰难存活不附新朝
+    rationale: 国变后以气节自持，不以富贵易初心
+  - date: 1678-03-01
+    title_zh: 以病坚辞博学鸿词之征
+    rationale: 不为新朝用以全故国遗民之节
+- id: guji-傅山-endeavor-2
+  title_zh: 撰著傅青主女科济世
+  summary: 辨五带崩漏调经种子妊娠小产难产正产产后诸症，立完带汤易黄汤固本止崩汤等方以活妇人
+  phases:
+  - key: brewing
+    name: 积累妇科辨证经验
+    labels:
+      zh:
+      - 带下
+      - 调经
+    start_date: 1650-01-01
+    highlight_event_id: guji-傅山-event-nvke
+  - key: breakthrough
+    name: 女科上下卷成书传世
+    labels:
+      zh:
+      - 种子
+      - 产后
+    start_date: 1672-01-01
+    highlight_event_id: guji-傅山-event-nvke
+  decisions:
+  - date: 1660-01-01
+    title_zh: 立脾胃肝三经同治完带汤
+    rationale: 白带本于脾虚肝郁湿陷，当补脾舒肝升提而不徒止涩
+  - date: 1672-01-01
+    title_zh: 分上下卷系统论治妇科
+    rationale: 妇科难于辨症，须明病原分带下血崩调经种子妊娠产后以立法
+events:
+- id: guji-傅山-event-birth
+  date: 1607-08-11
+  year_of: 1607
+  title_zh: 生于太原阳曲
+  description_zh: 明万历三十五年六月十九生于山西太原阳曲傅氏家
+- id: guji-傅山-event-antiqing
+  date: 1645-01-01
+  year_of: 1645
+  title_zh: 明亡后太原抗节蒙难
+  description_zh: 国变后坚持气节，艰难存活不附新朝，以遗民自处
+- id: guji-傅山-event-nvke
+  date: 1672-01-01
+  year_of: 1672
+  title_zh: 傅青主女科上下卷成书
+  description_zh: 手著女科上卷三十八条下卷三十九条，详辨白青黄黑赤五带及血崩调经种子妊娠产后诸症与方
+- id: guji-傅山-event-refuse
+  date: 1678-03-01
+  year_of: 1678
+  title_zh: 坚辞博学鸿词之征
+  description_zh: 清廷以博学鸿词征召，以病坚辞，不仕而归，全遗民之节
+- id: guji-傅山-event-death
+  date: 1684-08-09
+  year_of: 1684
+  title_zh: 卒于太原
+  description_zh: 清康熙二十三年六月二十八卒于太原，享年七十八，以遗民医儒传世
