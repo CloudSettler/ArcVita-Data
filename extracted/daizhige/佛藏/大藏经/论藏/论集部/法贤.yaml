@@ -6,137 +6,129 @@ person:
     en: Dharmabhadra
   lifespan:
     birth:
-      date: 0955
+      date: 0950
       precision: year
       is_circa: true
-      raw: 约宋初生于天竺摩揭陀
+      raw: 约宋初生于西天
     death:
       date: '1001'
       precision: year
       is_circa: false
-      raw: 咸平四年示寂
-  birth_date: 0955
+      raw: 咸平四年卒于东京
+  birth_date: 0950
   death_date: '1001'
   era: 北宋
-  reign_ref: 宋太宗至宋真宗
+  reign_ref: 宋太祖至宋真宗
   archetype: 译经弘法者
   dilemmas:
-  - title_zh: 梵汉文质之衡
-    description: 直译存梵义则华人不解意译顺华言则恐失圣旨当如何抉择
-  - title_zh: 奉诏与守道之难
-    description: 既受朝命居译场荣宠又须持戒精严不染名利进退维谷
-  lesson: 至诚译弘八塔名号虽文简义深能令众生植福生天当以信心续佛慧命
-  summary_first_person: 吾本西天比丘来入宋土奉诏译经于译场称扬八大灵塔名号及佛一生行化欲令善信修塔供养速得胜果
+  - 梵呗音义难双全，直译存真与意译易晓之间如何取舍
+  - 身为西来梵僧，依朝廷译场体制与守师承本义之间如何自处
+  lesson: 以信达传梵意，以敬心系圣迹，虽片赞而能令八塔长存人心
+  summary_first_person: 吾本西天人，涉海而来，蒙宋圣恩入译场，赐名法贤，授朝散试光禄明教大师，毕生所愿，惟将西天经呗译为华言，此八大灵塔梵赞系戒日王所制，吾奉诏庄重出之，愿见闻者如亲礼八塔
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E5%A4%A7%E7%81%B5%E5%A1%94%E5%90%8D%E5%8F%B7%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E5%A4%A7%E7%81%B5%E5%A1%94%E5%90%8D%E5%8F%B7%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/
+  - https://daizhige.org/
 endeavors:
 - id: guji-法贤-endeavor-1
-  person_qid: guji-法贤
-  title_zh: 西来奉诏入译场
-  summary: 自天竺那烂陀学法渡海入宋习华言奉诏居译经院传法授职
+  title_zh: 奉诏入宋译场广译显密
+  summary_zh: 自西天至东京，入译经院，与法天施护等共参，历太祖太宗真宗三朝，官至朝散大夫试光禄卿，译出大乘庄严宝王等经数十部
   phases:
   - key: brewing
-    name: 天竺习学
+    name: 西来发足
     labels:
       zh:
-      - 求法
-    start_date: 0970
-    highlight_event_id: guji-法贤-event-birth
+      - 初发西天
+    start_date: 0976
+    highlight_event_id: guji-法贤-event-arrive
   - key: breakthrough
-    name: 渡海入宋
+    name: 入院得官
     labels:
       zh:
-      - 来华
+      - 奉诏入译场
     start_date: 0980
     highlight_event_id: guji-法贤-event-arrive
   - key: climax
-    name: 太平兴国奉诏译经
+    name: 广译群经
     labels:
       zh:
-      - 奉诏
-    start_date: 0982
-    highlight_event_id: guji-法贤-event-arrive
+      - 显密兼弘
+    start_date: 0983
+    highlight_event_id: guji-法贤-event-fanyizan
   - key: closure
-    name: 授朝散大夫明教大师
+    name: 示寂留名
     labels:
       zh:
-      - 授职
-    start_date: 0999
-    highlight_event_id: guji-法贤-event-translate
-  decisions:
-  - date: 0980
-    title_zh: 随师渡海来华
-    rationale: 欲令大法东流不惮海途艰险随天息灾等入宋求弘传胜缘
-  - date: 0982
-    title_zh: 就译场习华言奉诏
-    rationale: 唯通华梵方能译梵为汉故安住译经院学语承诏以图久住流通
-- id: guji-法贤-endeavor-2
-  person_qid: guji-法贤
-  title_zh: 称扬八大灵塔弘圣迹
-  summary: 译出八大灵塔名号经具说八处成道涅槃圣迹及佛八十年住世行化劝修塔供养
-  phases:
-  - key: brewing
-    name: 集梵本考圣迹
-    labels:
-      zh:
-      - 集本
-    start_date: 0998
-    highlight_event_id: guji-法贤-event-translate
-  - key: breakthrough
-    name: 译八塔名号
-    labels:
-      zh:
-      - 译经
-    start_date: '1000'
-    highlight_event_id: guji-法贤-event-translate
-  - key: climax
-    name: 敷演供养获福
-    labels:
-      zh:
-      - 劝信
-    start_date: '1000'
-    highlight_event_id: guji-法贤-event-translate
-  - key: closure
-    name: 述佛住世行化流通
-    labels:
-      zh:
-      - 流通
+      - 谥号明教
     start_date: '1001'
     highlight_event_id: guji-法贤-event-death
   decisions:
-  - date: '1000'
-    title_zh: 以略本先弘八塔
-    rationale: 八处圣迹为众归心之要文略义摄易诵易持故先译名号经以启信
-  - date: '1000'
-    title_zh: 附载行化颂劝供养
-    rationale: 恐众但知名号不知佛恩故兼述住世年份行化令起恋慕修塔植福
+  - date: 0980
+    title_zh: 应诏入译经院
+    rationale: 欲借朝廷之力广传佛法，虽拘体制而弘传更远，故欣然就馆
+  - date: 0983
+    title_zh: 坚持梵汉对勘详定
+    rationale: 恐华言失梵本精义，故每卷必反复雠校，宁缓出而不草率
+- id: guji-法贤-endeavor-2
+  title_zh: 传译戒日王八大灵塔梵赞
+  summary_zh: 得西天戒日王所制八塔赞梵本，考定蓝毗尼等八处圣迹，译为华言赞文四十句，进呈流通，令华人知礼塔功德
+  phases:
+  - key: brewing
+    name: 获戒日王赞本
+    labels:
+      zh:
+      - 访得梵本
+    start_date: 0985
+    highlight_event_id: guji-法贤-event-fanyizan
+  - key: breakthrough
+    name: 考定八塔圣迹
+    labels:
+      zh:
+      - 圣迹考订
+    start_date: 0988
+    highlight_event_id: guji-法贤-event-fanyizan
+  - key: climax
+    name: 奉诏出译
+    labels:
+      zh:
+      - 梵赞华译
+    start_date: 0991
+    highlight_event_id: guji-法贤-event-fanyizan
+  - key: closure
+    name: 进呈流通
+    labels:
+      zh:
+      - 流通瞻礼
+    start_date: 0995
+    highlight_event_id: guji-法贤-event-fanyizan
+  decisions:
+  - date: 0988
+    title_zh: 存梵音兼注华义
+    rationale: 赞呗贵在口诵，故存转读之音，又附圣迹本事，令诵解双入
+  - date: 0991
+    title_zh: 以四十句定赞体进呈
+    rationale: 依梵本句数不增减，以全戒日王敬塔本怀，虽艰涩而不妄饰
 events:
 - id: guji-法贤-event-birth
-  person_qid: guji-法贤
-  title_zh: 生于天竺摩揭陀
-  date: 0955
-  year_of: 955
-  place_zh: 天竺摩揭陀国那烂陀
-  description: 约宋初生于天竺少出家习声明因明及大乘经律
+  title_zh: 生于西天
+  date: 0950
+  year_of: 950
+  place_zh: 天竺那烂陀一带
+  description_zh: 传云生于西天，少习声明经呗，长游学那烂陀，精梵典塔史
 - id: guji-法贤-event-arrive
-  person_qid: guji-法贤
-  title_zh: 随师入宋至京师
+  title_zh: 至东京入译经院
   date: 0980
   year_of: 980
-  place_zh: 宋东京开封
-  description: 与天息灾施护等渡海来华太平兴国中至京师入译经院习华言
-- id: guji-法贤-event-translate
-  person_qid: guji-法贤
-  title_zh: 奉诏译八大灵塔名号经
-  date: '1000'
-  year_of: 1000
-  place_zh: 东京传法院
-  description: 奉诏译出佛说八大灵塔名号经称扬生处成道转法轮神通天降化度思寿涅槃八处及佛八十年行化
+  place_zh: 东京译经院
+  description_zh: 开宝太平兴国间至阙，太祖太宗引入译场，赐名法贤，授官赐紫，与施护法天同参译事
+- id: guji-法贤-event-fanyizan
+  title_zh: 奉诏译八大灵塔梵赞
+  date: 0991
+  year_of: 991
+  place_zh: 东京译经院
+  description_zh: 奉诏将西天戒日王所制八大灵塔梵赞出为华言，明八塔所表诞生成道涅槃等圣迹，凡四十句，署明教大师臣法贤奉诏译
 - id: guji-法贤-event-death
-  person_qid: guji-法贤
-  title_zh: 示寂于京师
+  title_zh: 卒于东京谥明教大师
   date: '1001'
   year_of: 1001
-  place_zh: 东京开封
-  description: 咸平四年示寂朝廷追念译经之功赐恤加赠
+  place_zh: 东京
+  description_zh: 咸平四年示寂，朝廷追谥明教大师，所译经赞并入藏流通
