@@ -1,0 +1,127 @@
+person:
+  qid: guji-扬雄
+  name_zh: 扬雄
+  names:
+    zh: 扬雄
+    en: Yang Xiong
+  lifespan:
+    birth:
+      date: -43
+      precision: year
+      is_circa: false
+      raw: 汉宣帝甘露元年蜀郡成都生
+    death:
+      date: 0018
+      precision: year
+      is_circa: false
+      raw: 新莽天凤五年卒于长安
+  birth_date: -43
+  death_date: 0018
+  era: 西汉至新莽
+  reign_ref: 汉成帝
+  archetype: 沈淡构缀型经师
+  dilemmas:
+  - 周秦輶轩之业久废方言散佚是否耗费二十七年拾遗补阙
+  - 世人贵辞赋轻训诂是否坚持以小学通圣人之志
+  lesson: 沈志历年构缀不懈不出户庭可照四表为后学存九服逸言
+  summary_first_person: 我是扬雄字子云蜀郡成都人少好学沈淡其志承周秦輶轩遗绪交天下孝廉卫卒以质方言历年二十七治正九千字又作太玄法言以明道虽世疑而独鉴不改
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%96%B9%E8%A8%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%96%B9%E8%A8%80.md
+endeavors:
+- id: guji-扬雄-endeavor-1
+  title_zh: 巡采四方方言集为十五卷
+  description: 继輶轩使者之职质问孝廉卫卒交防周章以次注续二十七年治正九千字成方言
+  phases:
+  - key: brewing
+    name: 好学沈志立志拾遗
+    labels:
+      zh: 萌志
+    start_date: -24
+    highlight_event_id: guji-扬雄-event-fangyan-start
+  - key: breakthrough
+    name: 交防质问次第注续
+    labels:
+      zh: 采撷
+    start_date: -22
+    highlight_event_id: guji-扬雄-event-fangyan-start
+  - key: climax
+    name: 复书刘歆论思详悉
+    labels:
+      zh: 治正
+    start_date: -8
+    highlight_event_id: guji-扬雄-event-fangyan-complete
+  - key: closure
+    name: 十五卷初就授徒流传
+    labels:
+      zh: 成书
+    start_date: -5
+    highlight_event_id: guji-扬雄-event-fangyan-complete
+  decisions:
+  - date: -22
+    title_zh: 发愿续輶轩绝业
+    rationale: 周秦采览异言之业隳废无存不忍九服逸言泯灭故遍问来人
+  - date: -8
+    title_zh: 答刘歆借观而未遽出
+    rationale: 语言交错相反须复论思详悉集之宽假廷期不敢有爱以求精审
+- id: guji-扬雄-endeavor-2
+  title_zh: 撰太玄法言以续圣道
+  description: 拟易作太玄十九拟论语作法言十三又作赋颂箴以明儒家之业
+  phases:
+  - key: brewing
+    name: 师事严君平究道德
+    labels:
+      zh: 问学
+    start_date: -21
+    highlight_event_id: guji-扬雄-event-fangyan-start
+  - key: breakthrough
+    name: 校书天禄阁究坟典
+    labels:
+      zh: 校雠
+    start_date: -13
+    highlight_event_id: guji-扬雄-event-taixuan-complete
+  - key: climax
+    name: 太玄法言相继成篇
+    labels:
+      zh: 著述
+    start_date: -2
+    highlight_event_id: guji-扬雄-event-taixuan-complete
+  - key: closure
+    name: 授侯芭守道待后知
+    labels:
+      zh: 守道
+    start_date: '0005'
+    highlight_event_id: guji-扬雄-event-taixuan-complete
+  decisions:
+  - date: -13
+    title_zh: 绝意辞赋而归训诂玄理
+    rationale: 少好辞赋后觉雕虫小技壮夫不为故转志圣人之道
+  - date: '0005'
+    title_zh: 安贫乐道不附权贵
+    rationale: 明哲守正不以富贵易其介故授业侯芭以传其学
+events:
+- id: guji-扬雄-event-birth
+  date: -43
+  year_of: -53
+  title_zh: 生于蜀郡成都
+  description: 汉宣帝甘露元年生于蜀郡成都少而好学博览无所不见
+- id: guji-扬雄-event-fangyan-start
+  date: -22
+  year_of: -26
+  title_zh: 开始采问天下方言
+  description: 好周秦輶轩之风交天下孝廉卫卒交防周章质问异语以次注续
+- id: guji-扬雄-event-fangyan-complete
+  date: -8
+  year_of: -10
+  title_zh: 与刘歆论方言十五卷
+  description: 复书刘歆言方言集已九千字语言交错须论思详悉十五卷初具规模
+- id: guji-扬雄-event-taixuan-complete
+  date: -2
+  year_of: -2
+  title_zh: 太玄法言成篇
+  description: 拟易作太玄拟论语作法言以阐儒理校书天禄阁名重一时
+- id: guji-扬雄-event-death
+  date: 0018
+  year_of: 18
+  title_zh: 卒于长安
+  description: 新莽天凤五年卒于长安残稿经侯芭等流传后世经郭璞注而大显

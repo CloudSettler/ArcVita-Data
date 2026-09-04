@@ -1,0 +1,130 @@
+person:
+  qid: guji-史游
+  name_zh: 史游
+  names:
+    zh: 史游
+    en: Shi You
+  lifespan:
+    birth:
+      date: '-0075'
+      precision: year
+      is_circa: true
+      raw: 约汉昭帝元凤五年
+    death:
+      date: '-0020'
+      precision: year
+      is_circa: true
+      raw: 约汉成帝鸿嘉年间
+  birth_date: '-0075'
+  death_date: '-0020'
+  era: 西汉
+  reign_ref: 汉元帝至汉成帝
+  archetype: 小学启蒙宗师
+  dilemmas:
+  - 雅奥备物与童蒙易晓之衡
+  - 承袭苍颉凡将与适时广载之择
+  lesson: 包括品类错综古今以启青衿则用日约少而诚快意
+  summary_first_person: 我是史游，西汉黄门令，世亦作史防，景慕司马相如凡将而拟广之，於元成之间作急就篇列於秘府，欲以三十二章包括姓名物产以开童蒙，虽时移讹舛而初心在正俗字以垂法后学。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%80%A5%E5%B0%B1%E7%AF%87.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E6%80%A5%E5%B0%B1%E7%AF%87.html
+endeavors:
+- id: guji-史游-endeavor-1
+  title_zh: 拟凡将广作急就篇
+  summary: 继苍颉爰历博学凡将之后拟而广之以列秘府
+  phases:
+  - key: brewing
+    name: 景慕凡将
+    labels:
+      zh:
+      - 酝酿
+    start_date: -0048
+    highlight_event_id: guji-史游-event-huangmen
+  - key: breakthrough
+    name: 体例初定
+    labels:
+      zh:
+      - 突破
+    start_date: '-0040'
+    highlight_event_id: guji-史游-event-jijiupian
+  - key: climax
+    name: 列于秘府
+    labels:
+      zh:
+      - 高潮
+    start_date: '-0032'
+    highlight_event_id: guji-史游-event-jijiupian
+  - key: closure
+    name: 童蒙竞习
+    labels:
+      zh:
+      - 收束
+    start_date: '-0025'
+    highlight_event_id: guji-史游-event-jijiupian
+  decisions:
+  - date: '-0040'
+    title_zh: 拟相如凡将而广载品类
+    rationale: 苍颉爰历博学已旧，凡将多载而务适时要，故拟其体而增广名物以便施用
+  - date: '-0032'
+    title_zh: 以三十二章无一复字成篇
+    rationale: 欲使学僮急就奇觚分别部居不杂厕故错综古今详备而文雅奥
+- id: guji-史游-endeavor-2
+  title_zh: 任黄门令以小学垂法
+  summary: 居黄门令启导青衿以解散隶体变草法传行
+  phases:
+  - key: brewing
+    name: 供奉宫省
+    labels:
+      zh:
+      - 酝酿
+    start_date: -0048
+    highlight_event_id: guji-史游-event-huangmen
+  - key: breakthrough
+    name: 解散隶体
+    labels:
+      zh:
+      - 突破
+    start_date: '-0040'
+    highlight_event_id: guji-史游-event-huangmen
+  - key: climax
+    name: 章草缘起
+    labels:
+      zh:
+      - 高潮
+    start_date: '-0032'
+    highlight_event_id: guji-史游-event-jijiupian
+  - key: closure
+    name: 后世奉为字书之祖
+    labels:
+      zh:
+      - 收束
+    start_date: '-0020'
+    highlight_event_id: guji-史游-event-death
+  decisions:
+  - date: -0048
+    title_zh: 就黄门令任守秘府小学
+    rationale: 身近宫省便览古文奇字可垂法锦带以导青衿
+  - date: '-0040'
+    title_zh: 以急就章草法便俗简惰
+    rationale: 汉俗简惰渐趋行草故变隶为草以就便捷后人名之为章草
+events:
+- id: guji-史游-event-birth
+  date: '-0075'
+  year_of: -75
+  title_zh: 出生
+  description: 约生於汉昭帝时，史氏之后，少习古文小学
+- id: guji-史游-event-huangmen
+  date: -0048
+  year_of: -48
+  title_zh: 任汉元帝时黄门令
+  description: 为宦官供奉宫省，掌秘府图籍，得览苍颉凡将诸篇
+- id: guji-史游-event-jijiupian
+  date: '-0032'
+  year_of: -32
+  title_zh: 作急就篇列于秘府
+  description: 元成之间拟司马相如凡将而广之，作急就一篇凡三十二章，自宋延年至温直衡无一复字
+- id: guji-史游-event-death
+  date: '-0020'
+  year_of: -20
+  title_zh: 逝世
+  description: 约卒於汉成帝时，其书传写盛行，后经颜师古注而大显
