@@ -1,0 +1,142 @@
+person:
+  qid: guji-纪昀
+  name_zh: 纪昀
+  names:
+    zh: 纪昀
+    en: Ji Yun
+  lifespan:
+    birth:
+      date: 1724-07-26
+      precision: day
+      is_circa: false
+      raw: 雍正二年六月十五
+    death:
+      date: 1805-03-14
+      precision: day
+      is_circa: false
+      raw: 嘉庆十年二月初十
+  birth_date: 1724-07-26
+  death_date: 1805-03-14
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 考据纂修型文臣学者
+  dilemmas:
+  - 以考据求实与以馆阁体例维持大局之间的权衡
+  - 以直书存真与以避讳全身之间的两难
+  lesson: 网罗群书而别择是非，兼存异说而折衷至当，方能使古籍流传不失真意
+  summary_first_person: 我为直隶献县纪昀，字晓岚，一生以纂修校勘为业，总纂四库，辨章学术，于经书音义尤重择善而从，欲使后学有所依据而不惑于坊本之陋
+  source_urls:
+  - https://daizhige.org/
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-纪昀-endeavor-1
+  title_zh: 总纂四库全书并撰校提要
+  summary: 奉命入四库馆为总纂官，综理经史子集分纂与校勘，撰提要以辨源流得失，决择是非
+  phases:
+  - key: brewing
+    name: 入馆筹备
+    labels:
+      zh: 馆阁筹备
+    start_date: 1773-03-01
+    highlight_event_id: guji-纪昀-event-1773
+  - key: breakthrough
+    name: 分纂校勘
+    labels:
+      zh: 分馆校书
+    start_date: 1776-01-01
+    highlight_event_id: guji-纪昀-event-1776
+  - key: climax
+    name: 撰写提要
+    labels:
+      zh: 提要辨证
+    start_date: 1781-06-01
+    highlight_event_id: guji-纪昀-event-1781
+  - key: closure
+    name: 全书告成
+    labels:
+      zh: 进呈定稿
+    start_date: 1787-01-01
+    highlight_event_id: guji-纪昀-event-1781
+  decisions:
+  - date: 1773-03-01
+    title_zh: 受命总纂以考据为衡
+    rationale: 以博考源流补阙证误为任，立凡例以一众手，使分纂有所遵循
+  - date: 1781-06-01
+    title_zh: 于提要中兼存异说而断是非
+    rationale: 如于经书音释既录陆氏旧音又采宋儒新说，以足相续而不专主一家
+- id: guji-纪昀-endeavor-2
+  title_zh: 考据著述与经义阐明
+  summary: 宦海之余笔耕不辍，撰阅微草堂笔记及经义考证，以通儒之学疏解名物训诂
+  phases:
+  - key: brewing
+    name: 早年治经
+    labels:
+      zh: 科第治学
+    start_date: 1754-05-01
+    highlight_event_id: guji-纪昀-event-1754
+  - key: breakthrough
+    name: 馆阁淬炼
+    labels:
+      zh: 博览群书
+    start_date: 1776-01-01
+    highlight_event_id: guji-纪昀-event-1776
+  - key: climax
+    name: 笔记成编
+    labels:
+      zh: 著述宏丰
+    start_date: 1789-01-01
+    highlight_event_id: guji-纪昀-event-1789
+  - key: closure
+    name: 晚年定论
+    labels:
+      zh: 以简驭繁
+    start_date: 1800-01-01
+    highlight_event_id: guji-纪昀-event-1789
+  decisions:
+  - date: 1789-01-01
+    title_zh: 以小说笔法存考据之实
+    rationale: 托志怪以寄褒贬，使劝惩之旨隐于叙事而学术根柢不失
+  - date: 1800-01-01
+    title_zh: 守宋学而兼采汉注
+    rationale: 于经义不专主空疏，亦不泥于章句，务求义理与训诂两得其平
+events:
+- id: guji-纪昀-event-birth
+  date: 1724-07-26
+  year_of: 1724
+  title_zh: 诞生于直隶献县
+  description: 雍正二年生于书香之家，少颖悟，博览经史，为日后馆阁之业奠基
+- id: guji-纪昀-event-1754
+  date: 1754-05-15
+  year_of: 1754
+  title_zh: 登进士第入翰林
+  description: 乾隆十九年成进士，授庶吉士，迁翰林院编修，得以遍观内府藏书
+  endeavor_ref: guji-纪昀-endeavor-2
+- id: guji-纪昀-event-1773
+  date: 1773-03-01
+  year_of: 1773
+  title_zh: 入四库馆任总纂官
+  description: 乾隆三十八年开四库馆，与陆锡熊同为总纂，总其成而定凡例
+  endeavor_ref: guji-纪昀-endeavor-1
+- id: guji-纪昀-event-1776
+  date: 1776-08-01
+  year_of: 1776
+  title_zh: 校勘经部群书
+  description: 分校永乐大典所辑经书，辨建本杭本明本之异同，订音释之得失
+  endeavor_ref: guji-纪昀-endeavor-1
+- id: guji-纪昀-event-1781
+  date: 1781-09-01
+  year_of: 1781
+  title_zh: 恭校明本排字九经直音提要
+  description: 与陆锡熊孙士毅等恭校上提要，断其为宋人所著元初梅隐书堂所刊，许其音释最为妥善
+  endeavor_ref: guji-纪昀-endeavor-1
+- id: guji-纪昀-event-1789
+  date: 1789-06-01
+  year_of: 1789
+  title_zh: 阅微草堂笔记成编
+  description: 以休沐之暇缀录见闻，兼载考据议论，晚年学派影响远播士林
+  endeavor_ref: guji-纪昀-endeavor-2
+- id: guji-纪昀-event-death
+  date: 1805-03-14
+  year_of: 1805
+  title_zh: 卒于京师
+  description: 嘉庆十年二月病卒于京邸，追谥文达，所纂四库全书垂范后世
