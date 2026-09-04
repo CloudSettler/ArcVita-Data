@@ -6,142 +6,191 @@ person:
     en: Lu Jia
   lifespan:
     birth:
-      date: '-0241'
+      date: '-240'
       precision: year
       is_circa: true
-      raw: 约前241年
+      raw: 约前二四零年楚地
     death:
-      date: '-0172'
+      date: '-178'
       precision: year
       is_circa: true
-      raw: 约前172年
-  birth_date: '-0241'
-  death_date: '-0172'
+      raw: 汉文帝前元二年前后
+  birth_date: '-240'
+  death_date: '-178'
   era: 西汉初
-  reign_ref: 汉高祖至汉文帝之世
-  archetype: 儒策之臣
+  reign_ref: 汉高祖至汉文帝
+  archetype: 辩士儒宗
   dilemmas:
-  - 马上得天下能否马上治天下
-  - 秦以刑罚速亡汉当以何道守成
-  - 使越孤身入险当以威服还是以义服
-  lesson: 崇王道黜霸术以仁义修身用人方能长治久安
-  summary_first_person: 吾乃楚人陆贾以客从高祖定天下每以诗书礼义说上因论秦所以失而汉所以得著新语十二篇又奉命两使南越谕赵佗归汉愿以无为宽舒之政易秦苛法以王道安天下
+  - 马上得天下可否马上治之
+  - 对僭号称帝之赵佗当以兵威压还是以大义服
+  - 吕氏擅权时当守身避祸还是冒死定策安刘
+  lesson: 以仁义立国以无为守成以辩说通文武之变
+  summary_first_person: 吾陆贾楚之辩士也以客从高祖定天下常使诸侯既以马上治天下之辩醒高祖又著新语十二篇论王霸之道复两使南越服赵佗晚年助陈平定策诛吕迎文帝一生以口辩安邦以文义垂世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%96%B0%E8%AF%AD.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E6%96%B0%E8%AF%AD.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E9%99%86%E8%B4%BE%E6%96%B0%E8%AF%AD.html
 endeavors:
 - id: guji-陆贾-endeavor-1
-  title_zh: 著新语明王道
-  summary_zh: 应高祖之命论秦亡汉兴著新语十二篇主崇王道黜霸术归本修身用人
+  person_id: guji-陆贾
+  title_zh: 从汉定天下并著新语论治道
+  summary: 以客从高祖屡使诸侯以马上治天下之问转汉家方向并著新语十二篇定汉初治国之本
   phases:
   - key: brewing
-    name: 以客从军说诗书
+    name: 以客从军积口辩之名
     labels:
-      zh:
-      - 随军说书
-    start_date: -0209
-    highlight_event_id: guji-陆贾-event-follow
+      zh: 从军积望
+    start_date: '-209'
+    highlight_event_id: guji-陆贾-event-cong-han
   - key: breakthrough
-    name: 奉命论存亡
+    name: 面折高祖马上治天下之言
     labels:
-      zh:
-      - 论秦汉得失
-    start_date: -0198
-    highlight_event_id: guji-陆贾-event-xinyu
+      zh: 转君心
+    start_date: '-202'
+    highlight_event_id: guji-陆贾-event-bian-zhitianxia
   - key: climax
-    name: 新语十二篇成
+    name: 奏新语十二篇立仁义无为之纲
     labels:
-      zh:
-      - 王道成书
-    start_date: -0196
+      zh: 立言定策
+    start_date: '-195'
     highlight_event_id: guji-陆贾-event-xinyu
   - key: closure
-    name: 垂训后世流传
+    name: 封尉氏侯以文显于汉廷
     labels:
-      zh:
-      - 儒宗定论
-    start_date: -0195
+      zh: 功成名立
+    start_date: '-194'
     highlight_event_id: guji-陆贾-event-xinyu
   decisions:
-  - date: -0198
-    title_zh: 以诗书对马上治天下之问
-    rationale: 高祖谓马上得天下吾对马上得之宁可以马上治之当以文武圣德守之故引汤武王道以谏止霸术独任
-  - date: -0196
-    title_zh: 定十二篇以经艺防乱
-    rationale: 秦以刑罚为巢而覆故立道基术事辅政无为等篇以仁义为巢以圣贤为杖欲使君以仁治臣以义平
+  - date: '-202'
+    title_zh: 进说马上得之宁可马上治乎
+    rationale: 以秦二世尚刑而亡与齐桓尚德而霸为鉴劝高祖反秦苛政行仁义之治
+  - date: '-195'
+    title_zh: 承诏著书不专任辩士之口
+    rationale: 将口说之效凝为道基术事辅政无为诸篇使人君有法可守垂诸来世
 - id: guji-陆贾-endeavor-2
-  title_zh: 使南越南越归汉
-  summary_zh: 两度出使南越说赵佗去帝号归附汉室定岭南归属全兵不血刃之功
+  person_id: guji-陆贾
+  title_zh: 两使南越服赵佗安边定藩
+  summary: 受命赐赵佗印绶为南越王晓以汉大义使去帝号称臣再使申约守藩臣之礼
   phases:
   - key: brewing
-    name: 汉初定岭南未附
+    name: 受汉命赐印南越
     labels:
-      zh:
-      - 南越自立
-    start_date: '-0203'
-    highlight_event_id: guji-陆贾-event-follow
+      zh: 奉命南行
+    start_date: '-196'
+    highlight_event_id: guji-陆贾-event-nanyue1
   - key: breakthrough
-    name: 初使南越赐王印
+    name: 番禺折服赵佗
     labels:
-      zh:
-      - 说佗归汉
-    start_date: -0196
-    highlight_event_id: guji-陆贾-event-nanyue-first
+      zh: 以义服夷
+    start_date: '-196'
+    highlight_event_id: guji-陆贾-event-nanyue1
   - key: climax
-    name: 晓以利害去帝号
+    name: 赵佗去黄屋左纛称臣奉贡
     labels:
-      zh:
-      - 去帝称臣
-    start_date: -0196
-    highlight_event_id: guji-陆贾-event-nanyue-first
+      zh: 定藩臣礼
+    start_date: '-195'
+    highlight_event_id: guji-陆贾-event-nanyue1
   - key: closure
-    name: 文帝时再使定盟
+    name: 文帝时再使南越申汉约
     labels:
-      zh:
-      - 重使安边
-    start_date: -0179
-    highlight_event_id: guji-陆贾-event-nanyue-second
+      zh: 重申旧好
+    start_date: '-179'
+    highlight_event_id: guji-陆贾-event-nanyue2
   decisions:
-  - date: -0196
-    title_zh: 单车入越以义说佗
-    rationale: 赵佗拥兵自尊若以兵加之则劳费不止不如以大义陈汉德之盛与秦暴之异使其知去就之分而自归
-  - date: -0179
-    title_zh: 再使陈汉恩信弃前隙
-    rationale: 吕后时与越有隙文帝欲修复旧好吾当捐前嫌布德怀远以安边境全君臣大义
+  - date: '-196'
+    title_zh: 以汉亲喻越不以兵胁
+    rationale: 以赵佗本真定人亲属在汉兼陈汉大汉方兴之势使其去僭号以保富贵
+  - date: '-179'
+    title_zh: 老年再冒瘴疠南行
+    rationale: 以存旧恩信慰赵佗之疑绝匈奴南越之连横守汉南境安宁
+- id: guji-陆贾-endeavor-3
+  person_id: guji-陆贾
+  title_zh: 助陈平定策诛吕迎立文帝
+  summary: 高后吕氏擅权时以计授陈平周勃促其定变迎代王为帝保全刘氏社稷
+  phases:
+  - key: brewing
+    name: 见吕氏擅权称病杜门
+    labels:
+      zh: 韬晦观变
+    start_date: '-188'
+    highlight_event_id: guji-陆贾-event-zhu-lv
+  - key: breakthrough
+    name: 以千金交欢绛侯助其谋
+    labels:
+      zh: 密授定计
+    start_date: '-181'
+    highlight_event_id: guji-陆贾-event-zhu-lv
+  - key: climax
+    name: 诸吕诛灭迎代王为文帝
+    labels:
+      zh: 安刘定嗣
+    start_date: '-180'
+    highlight_event_id: guji-陆贾-event-zhu-lv
+  - key: closure
+    name: 功成不受厚赏以太中大夫终
+    labels:
+      zh: 退守文名
+    start_date: '-178'
+    highlight_event_id: guji-陆贾-event-death
+  decisions:
+  - date: '-181'
+    title_zh: 散财结绛侯促其有为
+    rationale: 知陈平多谋而绛侯有勇须以外物助其交合使将相协心方能图吕
+  - date: '-180'
+    title_zh: 定迎立代王之议不贪立功
+    rationale: 以代王仁孝宽厚有太后之子之顺可得人心以安天下不以久居权位自危
 events:
 - id: guji-陆贾-event-birth
-  title_zh: 出生于楚
-  date: '-0241'
-  year_of: -241
+  person_id: guji-陆贾
+  title_zh: 出生于楚地
+  date: '-240'
+  year_of: -240
   place_zh: 楚地
-  description_zh: 约前241年生于楚地后以客从高祖
-- id: guji-陆贾-event-follow
-  title_zh: 以客从高祖定天下
-  date: -0209
-  year_of: -209
-  place_zh: 关中汉军
-  description_zh: 以宾客从高祖击项籍常为太中大夫在军中每言诗书高祖虽武人渐敬其言
-- id: guji-陆贾-event-xinyu
-  title_zh: 奉命著新语十二篇
-  date: -0196
-  year_of: -196
-  place_zh: 长安
-  description_zh: 高祖命论秦所以失天下吾所以得之著新语十二篇凡道基术事辅政无为慎微等主崇王道黜霸术以修身用人为本
-- id: guji-陆贾-event-nanyue-first
-  title_zh: 初使南越谕赵佗归汉
-  date: -0196
+  summary: 约战国末生于楚能诗书善口辩后以客从汉
+- id: guji-陆贾-event-cong-han
+  person_id: guji-陆贾
+  title_zh: 以客从高祖定天下常使诸侯
+  date: '-206'
+  year_of: -206
+  place_zh: 汉军中及诸侯间
+  summary: 从刘邦入关定三秦击项羽以辩士身份屡奉命游说诸侯立功
+- id: guji-陆贾-event-bian-zhitianxia
+  person_id: guji-陆贾
+  title_zh: 进说马上得天下安可马上治之
+  date: '-202'
+  year_of: -202
+  place_zh: 汉宫
+  summary: 高祖轻儒生自言马上得天下陆贾对以马上得之宁可马上治乎引汤武王霸之道使高祖心折命著秦所以失天下之状
+- id: guji-陆贾-event-nanyue1
+  person_id: guji-陆贾
+  title_zh: 首使南越说赵佗去帝号称臣
+  date: '-196'
   year_of: -196
   place_zh: 南越番禺
-  description_zh: 受命赐赵佗王印说以汉德使去帝号称臣奉汉法令岭南遂定
-- id: guji-陆贾-event-nanyue-second
-  title_zh: 文帝时再使南越
-  date: -0179
+  summary: 奉高祖命赐赵佗印为南越王责其僭帝号及不通道晓以汉兴大势赵佗顿首谢罪愿奉贡称臣
+- id: guji-陆贾-event-xinyu
+  person_id: guji-陆贾
+  title_zh: 著新语十二篇号其书曰新语
+  date: '-195'
+  year_of: -195
+  place_zh: 长安
+  summary: 每奏一篇高帝未尝不称善取道基术事辅政无为辨惑慎微资质等义论无为仁义之治开汉初儒学先声
+- id: guji-陆贾-event-zhu-lv
+  person_id: guji-陆贾
+  title_zh: 助陈平周勃定策诛吕迎文帝
+  date: '-180'
+  year_of: -180
+  place_zh: 长安
+  summary: 高后崩后以计助陈平周勃诛诸吕迎代王刘恒为汉文帝安定刘氏社稷
+- id: guji-陆贾-event-nanyue2
+  person_id: guji-陆贾
+  title_zh: 再使南越申谕文帝德意
+  date: '-179'
   year_of: -179
   place_zh: 南越番禺
-  description_zh: 文帝即位复使南越赐书陈恩义赵佗顿首谢罪愿奉诏边境乃安
+  summary: 文帝初立复遣陆贾使南越赐书赵佗喻以弃前嫌通好如故南边复安
 - id: guji-陆贾-event-death
-  title_zh: 卒于汉文帝时
-  date: '-0172'
-  year_of: -172
+  person_id: guji-陆贾
+  title_zh: 病卒
+  date: '-178'
+  year_of: -178
   place_zh: 长安
-  description_zh: 约前172年卒历事高祖惠帝吕后文帝以辩智文辞名世所著新语传于后
+  summary: 以太中大夫病免家居年高病卒所著新语传于后世
