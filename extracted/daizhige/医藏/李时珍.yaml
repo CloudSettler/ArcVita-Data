@@ -9,135 +9,147 @@ person:
       date: 1518-07-03
       precision: day
       is_circa: false
-      raw: 明正德十三年五月二十六日生于蕲州
+      raw: 明正德十三年五月二十六日蕲州出生
     death:
       date: 1593
       precision: year
       is_circa: false
-      raw: 明万历二十一年卒于蕲州
+      raw: 明万历二十一年蕲州逝世
   birth_date: 1518-07-03
   death_date: 1593
-  era: 明
+  era: 明代
   reign_ref: 明世宗嘉靖至神宗万历
-  archetype: 医者
+  archetype: 求真证药医圣
   dilemmas:
-  - 旧本舛谬遗漏是因循守旧还是奋志重修
-  - 近功行医活人与远业格物穷理如何兼顾
-  lesson: 穷三十年之力考八百余家以正一书之舛而惠天下后世
-  summary_first_person: 余荆楚鄙人幼多羸疾长耽典籍渔猎群书见自炎皇及汉梁唐宋本草舛谬差讹遗漏不可枚数遂奋编摩之志历三十稔考八百余家稿凡三易增药三百七十四种分为十六部著成五十二卷以正名辨物著体用愿乞共天下后世
+  - 承袭父业行医与科举入仕之间摇摆
+  - 旧方沿讹与亲尝亲验求真之间抉择
+  - 药物偏毒与炮炙存性去毒之间权衡
+  lesson: 穷毕生亲尝广访以正炮炙本草之讹存真去伪以活人
+  summary_first_person: 我是李时珍号濒湖蕲州人幼承家学三举不第遂决心以医济世走遍山野亲尝百药历三十年修成本草纲目又于雷公旧法上参以时验总结炮炙要旨愿后人用药得其真性不为毒烈所误
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%BF%92%E6%B9%96%E7%82%AE%E7%82%99%E6%B3%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%BF%92%E6%B9%96%E7%82%AE%E7%82%99%E6%B3%95.md
 endeavors:
 - id: guji-李时珍-endeavor-1
-  title_zh: 纂修本草纲目
-  description: 历三十年考八百余家三易其稿成十六部六十类五十二卷
+  title_zh: 编修本草纲目正旧讹
+  summary: 广采历代本草亲访山野渔樵辨形味较炮炙以三十年之功成五十二卷纲目
   phases:
   - key: brewing
-    name: 渔猎群书发愤编摩
+    name: 家学行医初验药性
     labels:
       zh:
-      - 酝酿
-    start_date: 1552
-    highlight_event_id: guji-李时珍-event-start
+      - 家学
+      - 行医
+      - 采药
+    start_date: 1538
+    highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 辨疑正误分别归并
+    name: 太医院阅方知讹发愿重修
     labels:
       zh:
-      - 突破
-    start_date: 1565
-    highlight_event_id: guji-李时珍-event-complete
+      - 太医院
+      - 立志
+    start_date: 1556
+    highlight_event_id: guji-李时珍-event-vow
   - key: climax
-    name: 纲目初成五十二卷
+    name: 远游访药亲尝校订
     labels:
       zh:
-      - 高潮
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-complete
+      - 访药
+      - 亲尝
+    start_date: 1565
+    highlight_event_id: guji-李时珍-event-travel
   - key: closure
-    name: 求序付梓惠及天下
+    name: 书成本草纲目初稿
     labels:
       zh:
-      - 收束
-    start_date: 1590-02-09
-    highlight_event_id: guji-李时珍-event-preface
+      - 成书
+      - 刊刻
+    start_date: 1578
+    highlight_event_id: guji-李时珍-event-bencao
   decisions:
   - date: 1552
-    title_zh: 立志重修本草
-    rationale: 旧本一千五百一十八种而舛谬遗漏不可枚数必通列纲目方能正始纪原
-  - date: 1578
-    title_zh: 以纲摄目三易其稿
-    rationale: 复者芟之阙者缉之讹者绳之标正名为纲附释名为目著体用以备格物
-  - date: 1590-02-09
-    title_zh: 谒王世贞求序付刊
-    rationale: 藏之深山石室无当不如锲之以共天下后世味太玄者
+    title_zh: 弃举业专攻医学
+    rationale: 三试不第见医误杀人遂承父志以医济世发愿重修本草
+  - date: 1565
+    title_zh: 出游访采不囿旧文
+    rationale: 旧载多抄袭舛误须亲至山野询樵采渔猎以目验耳闻证之
 - id: guji-李时珍-endeavor-2
-  title_zh: 承家行医历仕济世
-  description: 承父言医业儒兼习医太医院供职后归蕲行医以医证药
+  title_zh: 总结濒湖炮炙法别存性
+  summary: 承雷公炮炙旧法参以家验时验详录水飞火煅酒浸蜜炙诸则使药去毒存性
   phases:
   - key: brewing
-    name: 承家学业儒习医
+    name: 研读雷公旧论辨玉石草木
     labels:
       zh:
-      - 酝酿
-    start_date: 1531
-    highlight_event_id: guji-李时珍-event-birth
-  - key: breakthrough
-    name: 悬壶蕲州声名起
-    labels:
-      zh:
-      - 突破
-    start_date: 1540
+      - 雷公
+      - 炮炙
+    start_date: 1550
     highlight_event_id: guji-李时珍-event-practice
+  - key: breakthrough
+    name: 临床试炮制别生熟寒热
+    labels:
+      zh:
+      - 炮制
+      - 临床
+    start_date: 1560
+    highlight_event_id: guji-李时珍-event-vow
   - key: climax
-    name: 太医院供奉见广博
+    name: 参订诸家时珍曰断是非
     labels:
       zh:
-      - 高潮
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-start
+      - 订正
+      - 时珍曰
+    start_date: 1575
+    highlight_event_id: guji-李时珍-event-paozhi
   - key: closure
-    name: 辞官归乡以医证药
+    name: 濒湖炮炙要旨附入纲目
     labels:
       zh:
-      - 收束
+      - 纲目
+      - 传世
     start_date: 1578
-    highlight_event_id: guji-李时珍-event-complete
+    highlight_event_id: guji-李时珍-event-bencao
   decisions:
-  - date: 1540
-    title_zh: 弃举业而专医业
-    rationale: 幼多羸疾躬尝医药且父言医中悟儒术不宜轻弃故专活人之术
-  - date: 1556
-    title_zh: 入太医院而旋辞归
-    rationale: 览内府本草广见博闻已足不如归乡躬采躬试以成纲目实学
+  - date: 1575
+    title_zh: 以水飞酒淬存真去毒
+    rationale: 矿石多燥毒须水飞火煅醋淬以去尘秽杀毒而存其真性
+  - date: 1578
+    title_zh: 炮炙附纲目不另立专书
+    rationale: 炮炙为用药之先须随各药附载使学者得药即知修治不致误用生毒
 events:
 - id: guji-李时珍-event-birth
-  title_zh: 出生蕲州医家
   date: 1518-07-03
   year_of: 1518
-  description: 明正德十三年五月二十六日生于蕲州父和号月池世医
+  title_zh: 出生蕲州医官之家
+  description: 正德十三年生于蕲州父李言闻为医官自幼熏习医药
 - id: guji-李时珍-event-practice
-  title_zh: 悬壶蕲州行医
   date: 1540
   year_of: 1540
-  description: 弃举业承家业行医蕲楚间渔猎群书摉罗百氏稍有得处辄著数言
-- id: guji-李时珍-event-start
-  title_zh: 发愤编摩本草
-  date: 1552
-  year_of: 1552
-  description: 见旧本舛谬遗漏奋志纂述岁历三十稔书考八百余家
-- id: guji-李时珍-event-complete
-  title_zh: 纲目初成全稿
+  title_zh: 蕲州坐堂行医初试炮炙
+  description: 承父业坐堂诊疾采药制药始辨桔梗黄参与伪品并试蜜炙酒浸之法
+- id: guji-李时珍-event-vow
+  date: 1556
+  year_of: 1556
+  title_zh: 任太医院判见方讹立志重修
+  description: 入太医院阅藏方见旧本草多舛误决意访采天下重修本草并正炮炙
+- id: guji-李时珍-event-travel
+  date: 1565
+  year_of: 1565
+  title_zh: 远游湖广诸山访药验性
+  description: 遍历太和武当诸山询猎樵辨秦艽柴胡苍术诸草亲尝其味试其炮制
+- id: guji-李时珍-event-bencao
   date: 1578
   year_of: 1578
-  description: 增药三百七十四种分为十六部六十类著成五十二卷稿凡三易
-- id: guji-李时珍-event-preface
-  title_zh: 王世贞弇园作序
-  date: 1590-02-09
-  year_of: 1590
-  description: 万历庚寅春上元日王世贞阅数十卷本草纲目叹为格物通典拜撰序文
+  title_zh: 本草纲目初稿告成载炮炙法
+  description: 万历六年纲目初成五十二卷诸药之下详载修治炮炙备录水飞煅淬蒸炒之要世称濒湖炮炙法
+- id: guji-李时珍-event-paozhi
+  date: 1580
+  year_of: 1580
+  title_zh: 订正玉石丹砂水银升炼诸法
+  description: 订灵砂轻粉粉霜升炼之法辨银箔锡箔之伪戒水银盐硝制剂之毒示人以正
 - id: guji-李时珍-event-death
-  title_zh: 卒于蕲州
   date: 1593
   year_of: 1593
-  description: 明万历二十一年卒未及见全书刊行子建中建元等校正付梓
+  title_zh: 逝世蕲州纲目待刊行世
+  description: 万历二十一年逝世于蕲州三年后纲目刊行炮炙之法随之广布济世
