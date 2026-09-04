@@ -9,7 +9,7 @@ person:
       date: 1319
       precision: year
       is_circa: false
-      raw: 元延祐六年
+      raw: 元延祐六年徽州休宁
     death:
       date: 1369
       precision: year
@@ -18,115 +18,105 @@ person:
   birth_date: 1319
   death_date: 1369
   era: 元末明初
-  reign_ref: 明太祖洪武
-  archetype: 经师
+  reign_ref: 元惠宗至明太祖洪武初
+  archetype: 传经守道之师儒
   dilemmas:
-  - 史法与经义混而不分而我必先考史法以求笔削
-  - 众说虚辞纷扰而我独守属辞比事以探圣心
-  lesson: 比事属辞离析部居方能贯通义例以明圣人拨乱经世之权
-  summary_first_person: 我字子常徽州休宁人隐居东山早年受春秋于黄楚望先生昼夜覃思二十余年始悟属辞比事之教立八体以别史文与笔削著属辞十五卷以明孔子经世之志
+  - 师门微言将坠何以绍述而不忘所自
+  - 三传得失互见何以辨史法与圣人笔削
+  lesson: 先识圣人气象远刻削烦碎以一理裁万事而扶植纲常
+  summary_first_person: 吾赵汸字子常少从黄泽游得六经疑义与春秋要旨不敢忘师恩乃述师说三卷以明经史之辨愿学者兼考史法而虚心以求圣人之心
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B1%9E%E8%BE%9E.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B1%9E%E8%BE%9E.html
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B8%88%E8%AF%B4.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E6%98%A5%E7%A7%8B/%E6%98%A5%E7%A7%8B%E5%B8%88%E8%AF%B4.md
 endeavors:
 - id: guji-赵汸-endeavor-1
-  title_zh: 师承黄泽研治春秋集成集传
-  summary_zh: 受学九江黄楚望考左传杜注以明鲁史旧法至正丁酉定集传初稿
+  title_zh: 两谒黄泽尽传春秋大义
+  summary: 初谒得疑义十余条再往留二载尽得六十四卦大义与鲁春秋之要
   phases:
   - key: brewing
-    name: 受学九江
+    name: 初登门问学
     labels:
-      zh: 求学酝酿
+      zh: 问疑
+    start_date: 1332
+    highlight_event_id: guji-赵汸-event-1
+  - key: breakthrough
+    name: 再往留居受业
+    labels:
+      zh: 受业
     start_date: 1335
-    highlight_event_id: guji-赵汸-event-study
-  - key: breakthrough
-    name: 考求史法
-    labels:
-      zh: 考史突破
-    start_date: 1346
-    highlight_event_id: guji-赵汸-event-study
+    highlight_event_id: guji-赵汸-event-1
   - key: climax
-    name: 集传初稿定
+    name: 尽得春秋宗旨
     labels:
-      zh: 集传告成
-    start_date: 1357
-    highlight_event_id: guji-赵汸-event-jizhuan
+      zh: 得要
+    start_date: 1336
+    highlight_event_id: guji-赵汸-event-1
   - key: closure
-    name: 师说补注并行
+    name: 归乡笃守师说
     labels:
-      zh: 体系收束
-    start_date: 1360
-    highlight_event_id: guji-赵汸-event-jizhuan
+      zh: 守成
+    start_date: 1337
+    highlight_event_id: guji-赵汸-event-2
   decisions:
-  - date: 1338
-    title_zh: 决意从黄楚望游专治春秋
-    rationale: 以六经明晦为己任必先考史法然后圣人笔削可求
-  - date: 1357
-    title_zh: 先定集传再推属辞
-    rationale: 因礼记经解比事属辞之语悟春秋之义在于比事不止于凡例
+  - date: 1332
+    title_zh: 初谒九江黄泽
+    rationale: 慕其考古通经不为虚词说经故往求六经疑义以正学本
+  - date: 1335
+    title_zh: 复往留居二载
+    rationale: 初得十余条未尽大义故留门下口授卦义与春秋要旨以竟其学
 - id: guji-赵汸-endeavor-2
-  title_zh: 创八体属辞比事著春秋属辞
-  summary_zh: 离析部居分别义例立八体集杜陈之长成十五卷以定春秋之说
+  title_zh: 述作春秋师说以明笔削
+  summary: 本师意类为十一篇辨三传得失明史官记载与圣人笔削之法
   phases:
   - key: brewing
-    name: 二十年覃思
+    name: 考订三传异同
     labels:
-      zh: 积思酝酿
-    start_date: 1357
-    highlight_event_id: guji-赵汸-event-jizhuan
+      zh: 考订
+    start_date: 1345
+    highlight_event_id: guji-赵汸-event-2
   - key: breakthrough
-    name: 豁然悟入属辞
+    name: 立史经兼得之义
     labels:
-      zh: 悟入突破
-    start_date: 1360
-    highlight_event_id: guji-赵汸-event-shuci
+      zh: 立义
+    start_date: 1355
+    highlight_event_id: guji-赵汸-event-2
   - key: climax
-    name: 八体属辞成书
+    name: 成师说三卷
     labels:
-      zh: 成书高峰
-    start_date: 1366
-    highlight_event_id: guji-赵汸-event-shuci
+      zh: 成书
+    start_date: 1362
+    highlight_event_id: guji-赵汸-event-2
   - key: closure
-    name: 宋濂作序定论
+    name: 门人附刻传世
     labels:
-      zh: 定论收束
+      zh: 传世
     start_date: 1368
-    highlight_event_id: guji-赵汸-event-shuci
+    highlight_event_id: guji-赵汸-event-death
   decisions:
-  - date: 1360
-    title_zh: 以属辞名书不用凡例
-    rationale: 以例说经不足知圣人漫无统纪亦不足言春秋唯属辞比事不乱
-  - date: 1366
-    title_zh: 坚守隐居不徼名当世
-    rationale: 抱此二十余年非得已不已强附传注以明经世大义垂宪将来
+  - date: 1355
+    title_zh: 以左氏为主兼采公谷
+    rationale: 左氏为史官得事之情实公谷不见国史多臆度故舍事求经则实亡
+  - date: 1362
+    title_zh: 题曰师说以明不忘所自
+    rationale: 学本黄泽识气象守和平故类十一篇以见本原而传其宗旨
 events:
 - id: guji-赵汸-event-birth
-  title_zh: 出生于徽州休宁
   date: 1319
   year_of: 1319
-  place_zh: 徽州休宁
-  description_zh: 元延祐六年诞生后隐居东山称东山先生
-- id: guji-赵汸-event-study
-  title_zh: 受春秋于黄楚望
-  date: 1338
-  year_of: 1338
-  place_zh: 九江
-  description_zh: 蚤受春秋于九江黄泽楚望先生得先考史法然后求笔削之训
-- id: guji-赵汸-event-jizhuan
-  title_zh: 至正丁酉定集传初稿
-  date: 1357
-  year_of: 1357
-  place_zh: 休宁东山
-  description_zh: 至正丁酉既定春秋集传初稿因悟比事属辞复推笔削之旨
-- id: guji-赵汸-event-shuci
-  title_zh: 属辞十五卷成宋濂作序
-  date: 1366
-  year_of: 1366
-  place_zh: 休宁东山
-  description_zh: 立存策书假笔削变文辩名实谨内外特笔因日月辞从主人八体勒成十五卷宋濂序其首
+  title_zh: 出生于徽州休宁
+  description: 元延祐六年诞生于徽州休宁后字子常笃志经学
+- id: guji-赵汸-event-1
+  date: 1335
+  year_of: 1335
+  title_zh: 留学九江尽得春秋要旨
+  description: 复往黄泽门下留居二载得口授六十四卦大义与鲁春秋之要
+- id: guji-赵汸-event-2
+  date: 1362
+  year_of: 1362
+  title_zh: 撰成春秋师说三卷
+  description: 本师意分论述作本旨策书遗法与三传得失题曰师说以示不忘所自
 - id: guji-赵汸-event-death
-  title_zh: 卒于明初
   date: 1369
   year_of: 1369
-  place_zh: 徽州休宁
-  description_zh: 明洪武二年卒所著师说补注集传属辞并行于世
+  title_zh: 卒于明洪武二年
+  description: 元末避乱著述明初征聘不就寻卒门人传其春秋之学不绝
