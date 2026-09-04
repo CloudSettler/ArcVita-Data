@@ -1,0 +1,119 @@
+person:
+  qid: guji-达摩笈多
+  name_zh: 达摩笈多
+  names:
+    zh: 达摩笈多
+    en: Dharmagupta
+  lifespan:
+    birth:
+      date: 0523-01-01
+      precision: year
+      is_circa: true
+      raw: 约六世纪前期生于南天竺
+    death:
+      date: 0619-01-01
+      precision: year
+      is_circa: true
+      raw: 约武德二年卒于东都
+  birth_date: 0523-01-01
+  death_date: 0619-01-01
+  era: 隋
+  reign_ref: 隋文帝开皇至隋炀帝大业
+  archetype: 译经弘法者
+  dilemmas:
+  - 前译梵宋不融文辞杂糅致众疑惑，当重翻正本还是因循旧本
+  - 梵本难得校勘未定，当急于传译还是待多本仇比揩定乃译
+  lesson: 以多本仇校三覆乃书示译经当慎，以利物弘愿消灾致福护国安民
+  summary_first_person: 我是南天竺三藏达摩笈多，隋时来华弘法，于东都洛水南上林园翻经馆与慧矩等重译药师如来本愿经，备陈十二大愿及净琉璃世界功德，愿众生闻名离苦帝祚遐永
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E8%8D%AF%E5%B8%88%E5%A6%82%E6%9D%A5%E6%9C%AC%E6%84%BF%E7%BB%8F.html
+endeavors:
+- id: guji-达摩笈多-endeavor-1
+  title_zh: 重译药师如来本愿经
+  goal_zh: 校定旧译纰谬重宣十二大愿
+  phases:
+  - key: brewing
+    name: 早学梵书觅本仇校
+    labels:
+      zh: 搜集校勘
+    start_date: 0597-01-01
+    highlight_event_id: guji-达摩笈多-event-get-manuscript
+  - key: climax
+    name: 上林园馆三覆重译
+    labels:
+      zh: 重译审定
+    start_date: 0615-01-01
+    highlight_event_id: guji-达摩笈多-event-retranslate
+  decisions:
+  - date: 0615-01-01
+    title_zh: 更相仇比方为揩定
+    rationale: 开皇所得犹恐脱误，至大业再得二本乃敢定稿，以惩前非
+  - date: 0615-12-08
+    title_zh: 一言出口必三覆乃书
+    rationale: 鉴前译梵宋不融文辞杂糅，须传度幽旨差无大过
+- id: guji-达摩笈多-endeavor-2
+  title_zh: 隋代来华译经弘法
+  goal_zh: 西来传法利物安乐群生
+  phases:
+  - key: brewing
+    name: 游行人间至华弘化
+    labels:
+      zh: 来华弘传
+    start_date: 0590-01-01
+    highlight_event_id: guji-达摩笈多-event-arrive-china
+  - key: closure
+    name: 功成流通护国利民
+    labels:
+      zh: 流通护持
+    start_date: 0615-12-08
+    highlight_event_id: guji-达摩笈多-event-circulation
+  decisions:
+  - date: 0590-01-01
+    title_zh: 应请来华随方说法
+    rationale: 为义利缠障众生饶益安乐诸天人故不惮远来
+  - date: 0615-12-08
+    title_zh: 付嘱流行令遍闻名
+    rationale: 愿此经深义人人共解，彼佛名号处处遍闻，帝祚遐永群生安乐
+events:
+- id: guji-达摩笈多-event-birth
+  type: birth
+  title_zh: 生于南天竺
+  date: 0523-01-01
+  year_of: 523
+  location_zh: 南天竺
+  description: 约六世纪前期生于南天竺，早习梵书恒披叶典
+- id: guji-达摩笈多-event-arrive-china
+  type: career
+  title_zh: 随法来华至隋弘化
+  date: 0590-01-01
+  year_of: 590
+  location_zh: 隋京师
+  description: 自天竺来华游行弘法，精通梵汉为译经三藏
+- id: guji-达摩笈多-event-get-manuscript
+  type: career
+  title_zh: 开皇十七年初获梵本
+  date: 0597-01-01
+  year_of: 597
+  location_zh: 隋京师
+  description: 初获药师经梵本一卷，犹恐脱误未敢即翻
+- id: guji-达摩笈多-event-retranslate
+  type: career
+  title_zh: 大业十一年上林园重译定稿
+  date: 0615-12-08
+  year_of: 615
+  location_zh: 东都洛水南上林园翻经馆
+  description: 与慧矩法行等更相仇比三覆重译，十二月八日翻勘方了成一卷
+- id: guji-达摩笈多-event-circulation
+  type: career
+  title_zh: 付嘱流通护国消灾
+  date: 0616-01-01
+  year_of: 616
+  location_zh: 东都
+  description: 详说十二大愿七宝庄严及十二夜叉护持，劝信心男女受持供养
+- id: guji-达摩笈多-event-death
+  type: death
+  title_zh: 卒于隋末唐初
+  date: 0619-01-01
+  year_of: 619
+  location_zh: 东都
+  description: 隋末唐初示寂，所译药师本愿经在世流行
