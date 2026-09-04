@@ -1,0 +1,123 @@
+person:
+  qid: guji-鸠摩罗什
+  name_zh: 鸠摩罗什
+  names:
+    zh: 鸠摩罗什
+    en: Kumarajiva
+  lifespan:
+    birth:
+      date: '0344'
+      precision: year
+      is_circa: true
+      raw: 东晋建元十年生于龟兹
+    death:
+      date: '0413'
+      precision: year
+      is_circa: false
+      raw: 后秦弘始十五年卒于长安
+  birth_date: '0344'
+  death_date: '0413'
+  era: 十六国后秦
+  reign_ref: 姚兴弘始
+  archetype: 译经宗师
+  dilemmas:
+  - title_zh: 繁简取舍
+    description: 梵本十万偈三百二十万言三分除二得百卷恐涉穿凿
+  - title_zh: 言情相喻
+    description: 秦语大格方言未通恐文表难托悟怀
+  lesson: 裁繁就简集众考正令玄章婉旨朗然归途直达
+  summary_first_person: 吾少播聪慧长集奇拔常杖此论弘始三年自姑臧至长安集众逍遥园考正梵本出此百卷愿后贤略文挹玄
+  source_urls:
+  - https://cbeta.org/T1509
+endeavors:
+- id: guji-鸠摩罗什-endeavor-1
+  title_zh: 自姑臧入关弘法
+  description: 弘始三年自姑臧至长安与秦王晤言研微集众普建津梁
+  phases:
+  - key: brewing
+    name: 少播聪慧
+    labels:
+      zh: 龟兹毓秀
+    start_date: '0344'
+    highlight_event_id: guji-鸠摩罗什-event-birth
+  - key: breakthrough
+    name: 西州声著
+    labels:
+      zh: 杖论渊镜
+    start_date: 0384
+    highlight_event_id: guji-鸠摩罗什-event-arrival
+  - key: climax
+    name: 入关晤对
+    labels:
+      zh: 渭滨会众
+    start_date: '0401-12-20'
+    highlight_event_id: guji-鸠摩罗什-event-arrival
+  - key: closure
+    name: 逍遥集业
+    labels:
+      zh: 普建津梁
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  decisions:
+  - date: '0401-12-20'
+    title_zh: 应请入关
+    rationale: 秦王虚襟蕴在昔见兼忘普济故西行入关
+  - date: '0402'
+    title_zh: 集京师义业五百人
+    rationale: 独符恨不旷津梁未普故大会逍遥园堂
+- id: guji-鸠摩罗什-endeavor-2
+  title_zh: 考正梵本译出释论
+  description: 躬览玄章考正名义三分除二出此百卷大智三十万言
+  phases:
+  - key: brewing
+    name: 经本考定
+    labels:
+      zh: 梵夏校雠
+    start_date: '0402'
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  - key: breakthrough
+    name: 出论百卷
+    labels:
+      zh: 简繁得中
+    start_date: '0402-06-01'
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  - key: climax
+    name: 玄章朗然
+    labels:
+      zh: 大乘直入
+    start_date: '0403'
+    highlight_event_id: guji-鸠摩罗什-event-translate
+  - key: closure
+    name: 付嘱后贤
+    labels:
+      zh: 略文挹玄
+    start_date: '0413'
+    highlight_event_id: guji-鸠摩罗什-event-death
+  decisions:
+  - date: '0402-06-01'
+    title_zh: 裁繁就简出百卷
+    rationale: 秦人好简梵文委曲故三分除二存其大格
+  - date: '0403'
+    title_zh: 案译直书不加饰
+    rationale: 恐争是无成又惧穿凿故存质冀明悟挹玄
+events:
+- id: guji-鸠摩罗什-event-birth
+  title_zh: 生于龟兹
+  date: '0344'
+  year_of: 344
+  description: 少播聪慧之闻长集奇拔之誉才举亢标万里
+- id: guji-鸠摩罗什-event-arrival
+  title_zh: 自姑臧至长安
+  date: '0401-12-20'
+  year_of: 401
+  description: 弘始三年岁次星纪十二月二十日入关秦王躬迎晤言淹留终日
+- id: guji-鸠摩罗什-event-translate
+  title_zh: 逍遥园出大智度论
+  date: '0402-06-01'
+  year_of: 402
+  description: 集五百义业沙门于渭滨逍遥园堂考正梵本出释论百卷
+- id: guji-鸠摩罗什-event-death
+  title_zh: 卒于长安
+  date: '0413'
+  year_of: 413
+  description: 译业既成玄章普传示寂于长安后贤宗其译风
