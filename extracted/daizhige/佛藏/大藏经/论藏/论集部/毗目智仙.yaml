@@ -1,0 +1,132 @@
+person:
+  qid: guji-毗目智仙
+  name_zh: 毗目智仙
+  names:
+    zh: 毗目智仙
+    en: Vimoksasena
+  lifespan:
+    birth:
+      date: '0500'
+      precision: year
+      is_circa: true
+      raw: 乌苌国刹利王种约六世纪初生
+    death:
+      date: '0550'
+      precision: year
+      is_circa: true
+      raw: 约六世纪中后卒
+  birth_date: '0500'
+  death_date: '0550'
+  era: 后魏
+  reign_ref: 东魏孝静帝兴和三年
+  archetype: 西域来华译经三藏
+  dilemmas:
+  - 以梵本空义译为华言恐失本旨当如何忠实传译
+  - 寄居邺都仰赖王公供养当如何持戒守正不附权势
+  lesson: 以空破执以译传灯不立自体方能息诤
+  summary_first_person: 吾本乌苌刹利种出家习三藏远来邺都与瞿昙流支共译龙树回诤论愿以空义息诤令乐法者同见同闻
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E5%9B%9E%E8%AF%A4%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E5%9B%9E%E8%AF%A4%E8%AE%BA.html
+endeavors:
+- id: guji-毗目智仙-endeavor-1
+  title_zh: 乌苌出家远游东土弘法
+  summary: 出身乌苌刹利习学三藏远至邺都弘传大乘空义
+  phases:
+  - key: brewing
+    name: 乌苌生养习学
+    labels:
+      zh: 刹利出家
+    start_date: '0500'
+    highlight_event_id: guji-毗目智仙-event-birth
+  - key: breakthrough
+    name: 精通三藏发愿东行
+    labels:
+      zh: 西行发愿
+    start_date: '0530'
+    highlight_event_id: guji-毗目智仙-event-arrive-ye
+  - key: climax
+    name: 抵邺受请入寺
+    labels:
+      zh: 初至邺都
+    start_date: '0540'
+    highlight_event_id: guji-毗目智仙-event-arrive-ye
+  - key: closure
+    name: 安住金华待译
+    labels:
+      zh: 安住待译
+    start_date: '0541'
+    highlight_event_id: guji-毗目智仙-event-translate
+  decisions:
+  - date: '0535'
+    title_zh: 决意东游华土
+    rationale: 不忍空义滞于西域愿以亲证传灯东国
+  - date: '0540'
+    title_zh: 决意受请入邺
+    rationale: 邺城为魏都乐法者众可借金华寺众力传译
+- id: guji-毗目智仙-endeavor-2
+  title_zh: 邺城金华寺共译回诤论
+  summary: 兴和三年与瞿昙流支合作译出龙树回诤论凡一万一千余字
+  phases:
+  - key: brewing
+    name: 高仲密启请供养
+    labels:
+      zh: 启请筹备
+    start_date: '0541-01-01'
+    highlight_event_id: guji-毗目智仙-event-arrive-ye
+  - key: breakthrough
+    name: 会同流支对译梵本
+    labels:
+      zh: 对译开笔
+    start_date: '0541-03-01'
+    highlight_event_id: guji-毗目智仙-event-translate
+  - key: climax
+    name: 昙林笔受二十余功
+    labels:
+      zh: 笔受成帙
+    start_date: '0541-03-09'
+    highlight_event_id: guji-毗目智仙-event-translate
+  - key: closure
+    name: 记时传布劝人同崇
+    labels:
+      zh: 记事流通
+    start_date: '0541-04-01'
+    highlight_event_id: guji-毗目智仙-event-complete
+  decisions:
+  - date: '0541-03-01'
+    title_zh: 共推流支合作对译
+    rationale: 一人持梵一人娴华兼昙林笔受方得义旨不谬
+  - date: '0541-04-01'
+    title_zh: 立记详述译场时地
+    rationale: 明志时人取信来者令见闻者同崇翻译
+events:
+- id: guji-毗目智仙-event-birth
+  title_zh: 生于乌苌刹利王种
+  date: '0500'
+  year_of: 500
+  place: 乌苌国
+  description: 乌苌国刹利王种出身后出家精研三藏
+- id: guji-毗目智仙-event-arrive-ye
+  title_zh: 至邺城受请住金华寺
+  date: '0540'
+  year_of: 540
+  place: 邺城金华寺
+  description: 远来东魏都邺得骠骑大将军高仲密启请供养住金华寺
+- id: guji-毗目智仙-event-translate
+  title_zh: 兴和三年共译回诤论
+  date: '0541-03-09'
+  year_of: 541
+  place: 邺城金华寺
+  description: 与天竺婆罗门瞿昙流支共译龙树回诤论昙林笔受费二十余功成一万一千九十八字
+- id: guji-毗目智仙-event-complete
+  title_zh: 译毕作记流通
+  date: '0541-04-01'
+  year_of: 541
+  place: 邺城金华寺
+  description: 译事既成记兴和三年岁次大梁建辰之月事以章闻劝乐法者同崇
+- id: guji-毗目智仙-event-death
+  title_zh: 示寂
+  date: '0550'
+  year_of: 550
+  place: 邺城
+  description: 译经弘法后示寂时在魏末世莫详其终
