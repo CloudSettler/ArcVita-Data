@@ -8,146 +8,125 @@ person:
     birth:
       date: '1585'
       precision: year
-      is_circa: false
-      raw: 明万历十三年生
+      is_circa: true
+      raw: 明万历十三年
     death:
       date: '1664'
       precision: year
-      is_circa: false
-      raw: 清康熙三年卒
+      is_circa: true
+      raw: 清康熙三年
   birth_date: '1585'
   death_date: '1664'
   era: 明末清初
-  reign_ref: 明万历至清康熙
-  archetype: 名医
+  reign_ref: 清顺治康熙之际
+  archetype: 仁心医圣
   dilemmas:
-  - 儒医两途杂揉浅陋，是趋时迎合还是诚意格致以究病机
-  - 药性良毒众说纷纭，是拘泥成方执药性去取还是先议病后议药以药胜病
-  lesson: 先议病后用药，诚意格物，化我身心为病身心，方能生死轮上见安危倚伏
-  summary_first_person: 吾西昌喻昌嘉言，少攻举业，晚乃专心医道，耳目所及之病无不静气微心，化我身为病身，化我心为病心，首倡先议病后用药，参定俚案名寓意草，欲使四方大破成局同心愍痛以登斯民于寿域
+  - 寒温混治屡致夭枉当辨表里存津以救误
+  - 隐居著书立言与入世活人济世何以两全
+  lesson: 辨证明确顾护津液保真阴方能起沉疴而登寿域
+  summary_first_person: 余目击温病误治留连丧命故会内经之旨畅仲景之奥著尚论后篇以正法度
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%AF%93%E6%84%8F%E8%8D%89.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%AF%93%E6%84%8F%E8%8D%89.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%B0%9A%E8%AE%BA%E5%90%8E%E7%AF%87.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%B0%9A%E8%AE%BA%E5%90%8E%E7%AF%87.html
 endeavors:
 - id: guji-喻昌-endeavor-1
-  title_zh: 先议病后用药与临证救危
-  summary: 以议病立法救偏驳之弊，治真阳上脱与小儿惊风夹食等危证，倡彻邪外出不固入里
+  title_zh: 会通内经仲景阐发春温三例
+  summary: 以冬伤于寒冬不藏精分证立治温大纲正表里误治
   phases:
   - key: brewing
-    name: 弃儒习医静气微心
+    name: 目击温疫误治
     labels:
-      zh:
-      - 格致诚意
-      - 化身为病
-    start_date: '1620'
-    highlight_event_id: guji-喻昌-event-birth
-  - key: breakthrough
-    name: 议病立法诊治真阳上脱
-    labels:
-      zh:
-      - 真阳上脱
-      - 引固封藏
+      zh: 酝酿
     start_date: '1640'
-    highlight_event_id: guji-喻昌-event-jindaobin
+    highlight_event_id: guji-喻昌-event-wenbing
+  - key: breakthrough
+    name: 参悟三例同符
+    labels:
+      zh: 突破
+    start_date: '1646'
+    highlight_event_id: guji-喻昌-event-shanglun
   - key: climax
-    name: 辟惊风再生袁氏小儿
+    name: 尚论后篇成书
     labels:
-      zh:
-      - 小儿伤寒
-      - 理中转机
-    start_date: '1642'
-    highlight_event_id: guji-喻昌-event-yuaner
+      zh: 高潮
+    start_date: '1648'
+    highlight_event_id: guji-喻昌-event-shanglun
   - key: closure
-    name: 慢脾风七日法治沙宅小儿
+    name: 印正先人法则
     labels:
-      zh:
-      - 慢脾风
-      - 乌蝎四君
-    start_date: '1643'
-    highlight_event_id: guji-喻昌-event-shazhai
+      zh: 收束
+    start_date: '1649'
+    highlight_event_id: guji-喻昌-event-shanglun
   decisions:
-  - date: '1640'
-    title_zh: 定先议病后用药之法
-    rationale: 不识病则凡药皆可伤人，识病则千百药中任举一二亦通神，故立极闸人定议病式
-  - date: '1642'
-    title_zh: 小儿不用金石镇坠而用理中运转
-    rationale: 跌仆感冷湿为外感夹食，寒凉镇坠致邪入脏腑胸高脉伏，故先理中吐旧药再从伤寒下法开燥结
+  - date: '1648'
+    title_zh: 立冬伤寒藏精三例分治
+    rationale: 表里标本不同解肌存津急下存阴各有法度
+  - date: '1648'
+    title_zh: 戒桂麻火灸滥施
+    rationale: 温病多热阴虚火旺重汗劫阴必致危困故示微发存津
 - id: guji-喻昌-endeavor-2
-  title_zh: 参定俚案著述寓意草
-  summary: 遍历名封不鸣一邑，遇胡卣臣归里引契，参定近理俚案付梓以彰先议病之志
+  title_zh: 著医门法律寓意草垂法后世
+  summary: 以案说法立医律垂戒济世活人全其性命
   phases:
   - key: brewing
-    name: 云游江淮积累医案
+    name: 南北游历行医
     labels:
-      zh:
-      - 医案积累
-      - 伤寒痉病
-    start_date: '1630'
-    highlight_event_id: guji-喻昌-event-jindaobin
+      zh: 酝酿
+    start_date: '1643'
+    highlight_event_id: guji-喻昌-event-yuyicao
   - key: breakthrough
-    name: 胡卣臣归里引契参定
+    name: 寓意草记案阐义
     labels:
-      zh:
-      - 胡卣臣
-      - 参定俚案
-    start_date: '1643-01-01'
+      zh: 突破
+    start_date: '1643'
     highlight_event_id: guji-喻昌-event-yuyicao
   - key: climax
-    name: 崇祯癸未季冬命名付梓
+    name: 医门法律立律
     labels:
-      zh:
-      - 寓意草
-      - 先议病后用药
-    start_date: '1643-12-01'
-    highlight_event_id: guji-喻昌-event-yuyicao
+      zh: 高潮
+    start_date: '1658'
+    highlight_event_id: guji-喻昌-event-yimen
   - key: closure
-    name: 阐发伤寒表里躯壳之旨垂后学
+    name: 刊行全书惠世
     labels:
-      zh:
-      - 躯壳表里
-      - 诲门人
-    start_date: '1644'
-    highlight_event_id: guji-喻昌-event-menren
+      zh: 收束
+    start_date: '1658'
+    highlight_event_id: guji-喻昌-event-yimen
   decisions:
-  - date: '1643-12-01'
-    title_zh: 以寓意草名书捐赀付梓
-    rationale: 欲使四方周览大破成局同心愍痛，为圣天子中兴燮理一助，不以剜肠涤肺为奇而以勤密在先为本
-  - date: '1644'
-    title_zh: 详辨惊风凿空与躯壳表里授门人
-    rationale: 小儿腠理未密易感风寒多柔痉，误镇则千中千死，故明热邪当彻出表与脑髓自为脏之法
+  - date: '1643'
+    title_zh: 以医案明理示戒
+    rationale: 空言不如实证使学者知所取法而不敢妄治
+  - date: '1658'
+    title_zh: 立法律以绳后学
+    rationale: 医事关生死当以律自律先明道而后行术
 events:
 - id: guji-喻昌-event-birth
   date: '1585'
   year_of: 1585
-  title_zh: 出生于新建
-  description: 明万历十三年生，字嘉言，号西昌老人，少攻举子业
-- id: guji-喻昌-event-jindaobin
+  title_zh: 生于江西新建
+  description: 明万历十三年生字嘉言号西昌老人
+- id: guji-喻昌-event-wenbing
   date: '1640'
   year_of: 1640
-  title_zh: 诊金道宾真阳上脱
-  description: 断为醉而使内本实先拨，创涩固脱重治怯补理虚三法，复以鼋鳖引伏大封大固治其本
-- id: guji-喻昌-event-yuaner
-  date: '1642'
-  year_of: 1642
-  title_zh: 救袁仲卿小男死证再生
-  description: 跌水感寒夹食误作惊风治至垂绝，以理中汤吐旧药再以玄明粉开大肠燥结而苏
-- id: guji-喻昌-event-shazhai
+  title_zh: 目击春温误治惨状
+  description: 见温病发表攻里屡误津伤阴亡遂发愿阐明温证大意
+- id: guji-喻昌-event-yuyicao
   date: '1643'
   year_of: 1643
-  title_zh: 治沙宅小儿慢脾风
-  description: 脾伤复伤金石浑身壮热下利，以乌蝎四君子汤日灌大剂七日方醒之法
-- id: guji-喻昌-event-yuyicao
-  date: '1643-12-01'
-  year_of: 1643
-  title_zh: 寓意草成书付梓
-  description: 崇祯癸未季冬识，胡卣臣建言归里引契参定俚案，命名寓意草捐赀付梓，明先议病后用药
-- id: guji-喻昌-event-menren
-  date: '1644'
-  year_of: 1644
-  title_zh: 诲门人辨惊风与表里
-  description: 破小儿八岁前无伤寒之谬，发明躯壳包五脏与脑髓自为脏，立彻邪外出之法
+  title_zh: 著寓意草行世
+  description: 述平生治验医案以案明理开辨证明确之先声
+- id: guji-喻昌-event-shanglun
+  date: '1648'
+  year_of: 1648
+  title_zh: 著尚论及尚论后篇
+  description: 会内经冬伤寒不藏精之旨畅仲景治温之奥分三例详表里治法
+- id: guji-喻昌-event-yimen
+  date: '1658'
+  year_of: 1658
+  title_zh: 成医门法律
+  description: 论脉法药方 surgical 立秋律垂戒刊行以惠后学
 - id: guji-喻昌-event-death
   date: '1664'
   year_of: 1664
-  title_zh: 卒于清康熙三年
-  description: 明末清初名医，遗著寓意草尚论篇医门法律垂后世
+  title_zh: 卒
+  description: 清康熙三年卒享年八十遗书盛行于世

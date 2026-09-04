@@ -1,0 +1,134 @@
+person:
+  qid: guji-陈延之
+  name_zh: 陈延之
+  names:
+    zh: 陈延之
+    en: Chen Yanzhi
+  lifespan:
+    birth:
+      date: '0390-01-01'
+      precision: year
+      is_circa: true
+      raw: 约晋末义熙前后
+    death:
+      date: '0460-01-01'
+      precision: year
+      is_circa: true
+      raw: 约宋大明前后
+  birth_date: '0390-01-01'
+  death_date: '0460-01-01'
+  era: 东晋南朝宋之交
+  reign_ref: 晋宋元嘉
+  archetype: 医经辑验者
+  dilemmas:
+  - title_zh: 信方说还是究药性
+    description: 旧方相承神验之说盛行，然异乡殊气男女长少耐受不同，一概投方多不验，须抉择是直信方说还是深究药性寒温补泻随宜处方
+  - title_zh: 博集多方还是精取可案
+    description: 自神农黄帝至汉张仲景葛氏范氏诸家方卷浩繁，增损伪异畏恶相犯甚多，须抉择是尽录多方还是删伪存真仅取十卷可承案者以备仓卒
+  lesson: 治病终归以药为方，须案经识脉察体，辨寒温补泻，究土地温凉人与气血，随宜增损，方说相应而药物随宜乃可久验
+  summary_first_person: 吾观古旧方皆当疾诊候根据药性处方奏为旧典，后人唯信方说不究药性土地长少四时食饮之变，故一概投之多不验，吾乃详诸古方取可承案者十卷，更加本草药性一卷灸法一卷，合为经方短剧十二卷，以开僮幼后学，以备居家野间无师处临急即用
+  source_urls:
+  - https://daizhige.org/医藏/小品方.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/小品方.md
+endeavors:
+- id: guji-陈延之-endeavor-1
+  title_zh: 辑古旧方成经方短剧十二卷
+  summary: 案秘阁四部书目及华佗张仲景葛氏阮氏范氏羊氏秦氏诸家方集，删繁取要成短剧十卷，以备防急
+  phases:
+  - key: brewing
+    name: 遍览秘阁诸家目录
+    labels:
+      zh:
+      - 博览
+      - 考据
+    start_date: '0430-01-01'
+    highlight_event_id: guji-陈延之-event-collect
+  - key: climax
+    name: 撰定十卷可承案法
+    labels:
+      zh:
+      - 删繁
+      - 立法
+    start_date: '0442-01-01'
+    highlight_event_id: guji-陈延之-event-compile
+  - key: closure
+    name: 合药性灸法成一部
+    labels:
+      zh:
+      - 传授
+      - 防急
+    start_date: '0445-01-01'
+    highlight_event_id: guji-陈延之-event-compile
+  decisions:
+  - date: '0442-01-01'
+    title_zh: 仅取十卷可承案者
+    rationale: 方集数百卷多经后人增损伪异，恐畏恶相犯潜害，不如精取十卷临疾可看增损所宜
+  - date: '0443-01-01'
+    title_zh: 先习短剧后看大品
+    rationale: 僮幼始学与居家无师者难解根本经法，先习短剧开悟有渐可速验，后乃渐通大品
+- id: guji-陈延之-endeavor-2
+  title_zh: 正药性犯禁立随宜变通决
+  summary: 发明十七条相反畏恶相犯及合药分两土地人情强弱之决，使临病能去留增损
+  phases:
+  - key: brewing
+    name: 详校旧方犯禁
+    labels:
+      zh:
+      - 辨药
+      - 纠谬
+    start_date: '0440-01-01'
+    highlight_event_id: guji-陈延之-event-pharma
+  - key: breakthrough
+    name: 立增损合药法度
+    labels:
+      zh:
+      - 制法
+      - 因人
+    start_date: '0444-01-01'
+    highlight_event_id: guji-陈延之-event-pharma
+  - key: closure
+    name: 垂训后学防急
+    labels:
+      zh:
+      - 教化
+      - 济众
+    start_date: '0445-01-01'
+    highlight_event_id: guji-陈延之-event-pharma
+  decisions:
+  - date: '0444-01-01'
+    title_zh: 却除犯禁药物
+    rationale: 如栝蒌恶干姜茯苓恶白蔹甘草反海藻甘遂大戟芫花之类，久服潜伤五内，当据药性去留一种
+  - date: '0444-06-01'
+    title_zh: 随强弱新久单省重复
+    rationale: 病剧久病衰老虚人不胜药宜单省，病轻新病少壮盛气胜药宜重复，江南北江东岭南温凉用温分两亦异，不可一概
+events:
+- id: guji-陈延之-event-birth
+  title_zh: 降生晋末
+  date: '0390-01-01'
+  year_of: 390
+  place_zh: 中原江南
+  description: 晋末丧乱之际降生，少长见民间疾苦无医，遂志于经方本草之学
+- id: guji-陈延之-event-collect
+  title_zh: 案目搜集诸家旧方
+  date: '0430-06-01'
+  year_of: 430
+  place_zh: 建康秘阁内外
+  description: 检秘阁四部书目所载华佗张仲景黄素葛氏阮氏辽东备急杨氏杂方及元嘉中新安羊氏秦氏要方，参以贵家所集，考其源流得失
+- id: guji-陈延之-event-pharma
+  title_zh: 发明用药犯禁决与合药法
+  date: '0444-03-01'
+  year_of: 444
+  place_zh: 建康
+  description: 略举旧方犯经禁十七条，如寒食散栝蒌恶干姜镇心丸茯苓恶白蔹之类，授以去留代用法，又定半夏洗滑乌头炮坼麻黄去节沫及分两准绳与看方救急缓急之要
+- id: guji-陈延之-event-compile
+  title_zh: 撰成经方短剧小品方十二卷
+  date: '0445-08-01'
+  year_of: 445
+  place_zh: 建康
+  description: 撰取十卷可承案旧方，加本草药性要物一卷灸法要穴一卷，合十二卷为一部，首列三焦胸痹痰冷心腹胀满下利咳逆奔豚水肿诸方，以备居家野间临急即用
+- id: guji-陈延之-event-death
+  title_zh: 辞世留方传后
+  date: '0460-01-01'
+  year_of: 460
+  place_zh: 江南
+  description: 晚年以短剧授后学而终，其书后世称小品方，为隋唐经方家所宗

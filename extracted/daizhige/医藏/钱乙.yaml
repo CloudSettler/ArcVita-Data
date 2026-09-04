@@ -1,0 +1,144 @@
+person:
+  qid: guji-钱乙
+  name_zh: 钱乙
+  names:
+    zh: 钱乙
+    en: Qian Yi
+  lifespan:
+    birth:
+      date: 1032
+      precision: year
+      is_circa: true
+      raw: 宋仁宗明道元年左右生于郓州
+    death:
+      date: 1113
+      precision: year
+      is_circa: true
+      raw: 宋徽宗政和三年左右卒
+  birth_date: 1032
+  death_date: 1113
+  era: 北宋
+  reign_ref: 仁宗至徽宗
+  archetype: 儿科医圣
+  dilemmas:
+  - 幼年孤苦寻父尽孝与发愤学医立身之难
+  - 小儿脉微难凭外证多变与简易精审辨虚实之难
+  - 晚年秘方不轻传与博爱幼幼广惠后世之择
+  lesson: 幼幼存仁，辨脏腑虚实寒热，简易精审，不妄汗下攻伐，以保全小儿生气
+  summary_first_person: 余钱乙字仲阳，幼孤养于吕氏，学医以自立，五六返寻父迎归奉养，始以颅囟方著山东，后入翰林为医学，专治小儿惊疳吐泻疮疹，括古今而多自得，晚年授方于亲旧，愿幼者免横夭之苦
+  source_urls:
+  - https://daizhige.org/医藏/小儿药证直诀.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/小儿药证直诀.md
+endeavors:
+- id: guji-钱乙-endeavor-1
+  title_zh: 开创小儿辨证体系传小儿药证直诀
+  summary: 以五脏辨证立纲，创五脏补泻方剂，使儿科自颅囟经验成独立体系，经阎季忠集录传世
+  phases:
+  - key: brewing
+    name: 幼孤从吕习医
+    labels:
+      zh:
+      - 学医启蒙
+      - 颅囟经验
+    start_date: 1040
+    highlight_event_id: guji-钱乙-event-birth
+  - key: breakthrough
+    name: 以颅囟方著山东
+    labels:
+      zh:
+      - 儿科成名
+      - 五脏立说
+    start_date: 1065
+    highlight_event_id: guji-钱乙-event-yingfu
+  - key: climax
+    name: 宫廷取效名动京师
+    labels:
+      zh:
+      - 翰林医学
+      - 简易精审
+    start_date: 1082
+    highlight_event_id: guji-钱乙-event-hanlin
+  - key: closure
+    name: 晚年授方集成直诀
+    labels:
+      zh:
+      - 授徒传方
+      - 直诀成书
+    start_date: 1110
+    highlight_event_id: guji-钱乙-event-wannian
+  decisions:
+  - date: 1060
+    title_zh: 舍成人针砭专攻小儿
+    rationale: 目见庸医妄施方药杀儿十常四五，欲以简易精审之法保全幼小
+  - date: 1110
+    title_zh: 晚年始传说证杂方
+    rationale: 年老技益妙，不忍秘藏，欲广博爱幼幼之惠，使后学有纪律可据
+- id: guji-钱乙-endeavor-2
+  title_zh: 寻父尽孝行医活人立身
+  summary: 三岁失怙，三十余五六返寻父迎归，事生母之姑与吕君如亲，丧葬祭享尽礼，以孝义行医取信天下
+  phases:
+  - key: brewing
+    name: 孤儿依姑问医
+    labels:
+      zh:
+      - 收养为子
+      - 读书问医
+    start_date: 1035
+    highlight_event_id: guji-钱乙-event-birth
+  - key: breakthrough
+    name: 五六返海上寻父
+    labels:
+      zh:
+      - 号泣返迹
+      - 迎父归养
+    start_date: 1062
+    highlight_event_id: guji-钱乙-event-yingfu
+  - key: climax
+    name: 治长公主女有功赐绯
+    labels:
+      zh:
+      - 太医丞
+      - 活人无数
+    start_date: 1082
+    highlight_event_id: guji-钱乙-event-hanlin
+  - key: closure
+    name: 葬父事吕善终
+    labels:
+      zh:
+      - 丧葬如礼
+      - 岁时祭享
+    start_date: 1072
+    highlight_event_id: guji-钱乙-event-death
+  decisions:
+  - date: 1065
+    title_zh: 积岁迎父归郓奉养
+    rationale: 父匿名东游海上不返，虽幼失养，必返迹迎归以全人子之道
+  - date: 1082
+    title_zh: 受诏治贵主不恃禁方妄下
+    rationale: 小儿脏腑柔弱易虚易实，须凭外证辨寒热虚实，不可因贵而峻攻
+events:
+- id: guji-钱乙-event-birth
+  date: 1032
+  year_of: 1032
+  title_zh: 生于郓州钱塘钱氏
+  description: 上世钱塘人与吴越王有属随北家郓，三岁母亡依姑于医吕氏
+- id: guji-钱乙-event-yingfu
+  date: 1065
+  year_of: 1065
+  title_zh: 五六返寻父迎归奉养
+  description: 年三十余得父所在海上，积岁迎归，乡人感泣赋诗，后七年父寿终丧葬如礼
+- id: guji-钱乙-event-hanlin
+  date: 1082
+  year_of: 1082
+  title_zh: 治长公主女授翰林医学赐绯
+  description: 元丰中长公主女有疾召视有功，奏授翰林医学，以小儿脉证治法名于时
+- id: guji-钱乙-event-wannian
+  date: 1110
+  year_of: 1110
+  title_zh: 晚年传方阎季忠参校集成
+  description: 大观前后说证数十条杂方渐传，阎季忠次先后削重复正讹谬，分上中下三卷成小儿药证直诀
+- id: guji-钱乙-event-death
+  date: 1113
+  year_of: 1113
+  title_zh: 寿终传术无穷
+  description: 以儿科圣手终，吕君无嗣为收葬嫁孤女岁时祭享，遗书惠及幼小
