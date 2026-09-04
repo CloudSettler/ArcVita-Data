@@ -1,0 +1,135 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: true
+      raw: 隋仁寿二年生于河南缑氏
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 麟德元年二月五日寂于长安玉华宫
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐
+  reign_ref: 贞观
+  archetype: 西行求法译经高僧
+  dilemmas:
+  - 众师宗涂各异莫知适从当留当往
+  - 高昌王固留供养与毕命西方之冲突
+  - 碛中失水生死一线东归偷生与西死之抉择
+  lesson: 为法忘躯矢志不移方能穷源决择利济苍生
+  summary_first_person: 吾姓陈名玄奘幼而慕道遍学南北经论而圣典隐显莫适所从而发愿西游遍历百三十国取经而还会译以报群生
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E8%97%8F%E5%A4%96/%E5%A4%A7%E6%85%88%E6%81%A9%E5%AF%BA%E4%B8%89%E8%97%8F%E6%B3%95%E5%B8%88%E4%BC%A0.html
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 孤征西域求法取经
+  summary: 为决众疑誓游西方独涉碛险遍历五天竺师事戒贤取瑜伽等六百余部而还
+  phases:
+  - key: brewing
+    name: 遍谒众师立志西游
+    labels:
+      zh: 立志
+    start_date: '0627'
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: breakthrough
+    name: 夜出玉门独越大碛
+    labels:
+      zh: 越险
+    start_date: 0629-08
+    highlight_event_id: guji-玄奘-event-xixing
+  - key: climax
+    name: 留学那烂陀穷究瑜伽
+    labels:
+      zh: 穷学
+    start_date: '0637'
+    highlight_event_id: guji-玄奘-event-qiufa
+  - key: closure
+    name: 负经东归达于上京
+    labels:
+      zh: 东还
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-huigui
+  decisions:
+  - date: 0629-08
+    title_zh: 表请不许仍决意孤游
+    rationale: 考诸师所说隐显有异非亲问西方无以决疑故违禁夜行以全本愿
+  - date: '0630'
+    title_zh: 碛中失水宁西死不东归
+    rationale: 先愿若不至天竺终不东归一步故旋辔西北仰仗观音而进遂得济难
+  - date: '0630'
+    title_zh: 高昌固留绝食以感其心
+    rationale: 西来只为求法法未得不可中停故誓不食以明志终得王结为兄弟纵其西行
+- id: guji-玄奘-endeavor-2
+  title_zh: 归国译场传译弘化
+  summary: 贞观十九年归长安奉诏译经建大慈恩寺译场译出瑜伽大般若等七十余部以正风徽
+  phases:
+  - key: brewing
+    name: 道俗迎谒奉诏宣译
+    labels:
+      zh: 奉诏
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-huigui
+  - key: breakthrough
+    name: 慈恩译场开演瑜伽
+    labels:
+      zh: 开译
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: climax
+    name: 口授本传并弘大乘
+    labels:
+      zh: 弘化
+    start_date: '0652'
+    highlight_event_id: guji-玄奘-event-yijing
+  - key: closure
+    name: 玉华示寂薪尽火灭
+    labels:
+      zh: 示寂
+    start_date: '0664-02-05'
+    highlight_event_id: guji-玄奘-event-death
+  decisions:
+  - date: 0645-02
+    title_zh: 受诏就弘福寺翻译不入朝班
+    rationale: 志在弘法利生不慕荣进唯以译经为报国恩故辞官守而就法筵
+  - date: '0652'
+    title_zh: 述本传以贻终古
+    rationale: 西行见闻百三十国胜迹遗编恐湮没故令弟子慧立笔受以传后学
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 诞生于缑氏陈家
+  date: '0602'
+  year_of: 602
+  description: 隋仁寿二年生于河南缑氏为陈慧第四子幼而圭璋特达早通经奥
+- id: guji-玄奘-event-xixing
+  title_zh: 贞观三年西出长安
+  date: 0629-08
+  year_of: 629
+  description: 年二十六夜梦登苏迷卢山遂孤征西行昼伏夜行出玉门渡莫贺延碛至伊吾高昌
+- id: guji-玄奘-event-qiufa
+  title_zh: 遍历五天竺就戒贤学瑜伽
+  date: '0637'
+  year_of: 637
+  description: 访鹿野鹫山等圣迹至那烂陀就戒贤学瑜伽师地论兼取大小乘梵本六百余部
+- id: guji-玄奘-event-huigui
+  title_zh: 贞观十九年负经还京
+  date: 0645-01
+  year_of: 645
+  description: 历十七年经百三十国载梵本还长安道俗迎之阗城溢郭谒见天子奉诏翻译
+- id: guji-玄奘-event-yijing
+  title_zh: 大慈恩寺开译弘化
+  date: 0648
+  year_of: 648
+  description: 居大慈恩寺译场译瑜伽般若等经论并口授西行事迹令慧立笔受为传
+- id: guji-玄奘-event-death
+  title_zh: 麟德元年示寂玉华宫
+  date: '0664-02-05'
+  year_of: 664
+  description: 示息化以归真于长安玉华宫薪尽火灭同门搜购遗文成传以贻终古
