@@ -1,0 +1,160 @@
+person:
+  qid: guji-郑玄
+  name_zh: 郑玄
+  names:
+    zh: 郑玄
+    en: Zheng Xuan
+  lifespan:
+    birth:
+      date: '0127'
+      precision: year
+      is_circa: false
+      raw: 汉顺帝永建二年
+    death:
+      date: '0200'
+      precision: year
+      is_circa: false
+      raw: 汉献帝建安五年
+  birth_date: '0127'
+  death_date: '0200'
+  era: 东汉
+  reign_ref: 永建至建安
+  archetype: 经学集大成者
+  dilemmas:
+  - 今古文师说乖异当专守还是兼通
+  - 党锢乱世当出仕还是杜门注经
+  lesson: 折衷异同以求经义大通，守正不徇时好
+  summary_first_person: 吾郑玄字康成北海高密人也，少习五经，西从马融游学，归而杜门注经，驳许慎五经异义，会通今古，欲以经术正人心扶微学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E9%A9%B3%E4%BA%94%E7%BB%8F%E5%BC%82%E4%B9%89.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E9%A9%B3%E4%BA%94%E7%BB%8F%E5%BC%82%E4%B9%89.html
+endeavors:
+- id: guji-郑玄-endeavor-1
+  person_qid: guji-郑玄
+  title_zh: 从马融问学兼通今古
+  summary_zh: 少为书生，建和西入关从马融受古文经，尽得其传而归，以兼通启后学
+  phases:
+  - key: brewing
+    name: 少习五经立志博通
+    labels:
+      zh:
+      - 发愤力学
+      - 博览五经
+    start_date: '0135'
+    highlight_event_id: guji-郑玄-event-birth
+  - key: breakthrough
+    name: 西入关师事马融
+    labels:
+      zh:
+      - 负笈问学
+      - 尽得师传
+    start_date: '0147'
+    highlight_event_id: guji-郑玄-event-study
+  - key: climax
+    name: 学成东归声名大起
+    labels:
+      zh:
+      - 学成归里
+      - 教授生徒
+    start_date: 0159
+    highlight_event_id: guji-郑玄-event-study
+  - key: closure
+    name: 党锢杜门转入著述
+    labels:
+      zh:
+      - 杜门守志
+      - 转向注经
+    start_date: 0169
+    highlight_event_id: guji-郑玄-event-zhujing
+  decisions:
+  - date: '0147'
+    title_zh: 西入关从马融受学
+    rationale: 欲兼通今古非访大儒不可，虽见轻慢亦忍辱精习以尽其传
+  - date: 0159
+    title_zh: 学成辞归不恋宦途
+    rationale: 师传已尽当归里教授，守经术以待时，不逐浮荣
+- id: guji-郑玄-endeavor-2
+  person_qid: guji-郑玄
+  title_zh: 驳五经异义注经述学
+  summary_zh: 杜门注毛诗周礼礼记论语等，驳许慎五经异义，会通归一，为汉学集大成
+  phases:
+  - key: brewing
+    name: 党锢家居发愤注经
+    labels:
+      zh:
+      - 杜门注经
+      - 幽思著述
+    start_date: 0169
+    highlight_event_id: guji-郑玄-event-zhujing
+  - key: breakthrough
+    name: 驳许慎五经异义
+    labels:
+      zh:
+      - 辨正得失
+      - 折衷今古
+    start_date: 0185
+    highlight_event_id: guji-郑玄-event-boyiwuyi
+  - key: climax
+    name: 遍注群经门徒盈庭
+    labels:
+      zh:
+      - 注经传学
+      - 儒宗渐成
+    start_date: 0190
+    highlight_event_id: guji-郑玄-event-boyiwuyi
+  - key: closure
+    name: 晚年遭乱守道以终
+    labels:
+      zh:
+      - 守正不屈
+      - 以经遗后
+    start_date: 0196
+    highlight_event_id: guji-郑玄-event-death
+  decisions:
+  - date: 0185
+    title_zh: 作驳五经异义以正师说
+    rationale: 许君异义臧否不一，诸家乖异惑后学，当据经考礼辨其同异以归于正
+  - date: 0196
+    title_zh: 拒袁绍辟命守经终老
+    rationale: 乱世割据非行道之所，宁以注述遗后，不以身徇伪命
+events:
+- id: guji-郑玄-event-birth
+  person_qid: guji-郑玄
+  kind: birth
+  title_zh: 生于北海高密
+  date: '0127'
+  year_of: 127
+  place_zh: 北海高密
+  description_zh: 汉顺帝永建二年生于北海高密，少为书生好学能通五经
+- id: guji-郑玄-event-study
+  person_qid: guji-郑玄
+  kind: career
+  title_zh: 从马融受学而归
+  date: '0147'
+  year_of: 147
+  place_zh: 关西
+  description_zh: 建和中西入关从大儒马融受古文经，数年尽得其传，归里教授生徒盈门
+- id: guji-郑玄-event-zhujing
+  person_qid: guji-郑玄
+  kind: career
+  title_zh: 党锢杜门注经
+  date: 0169
+  year_of: 169
+  place_zh: 高密家中
+  description_zh: 党锢起禁锢不得出仕，杜门家居注毛诗周礼仪礼礼记等，覃思著述十余年
+- id: guji-郑玄-event-boyiwuyi
+  person_qid: guji-郑玄
+  kind: career
+  title_zh: 驳许慎五经异义成一家言
+  date: 0185
+  year_of: 185
+  place_zh: 高密
+  description_zh: 考许慎五经异义所论田税天号六宗明堂等，逐条设驳，会通今古文，学者宗之
+- id: guji-郑玄-event-death
+  person_qid: guji-郑玄
+  kind: death
+  title_zh: 卒于家中
+  date: '0200'
+  year_of: 200
+  place_zh: 高密家中
+  description_zh: 建安五年袁绍逼召随至元城，忧愤发病，归而卒于家，年七十四，海内惜之

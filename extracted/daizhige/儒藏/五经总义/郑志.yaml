@@ -1,0 +1,140 @@
+person:
+  qid: guji-郑志
+  name_zh: 郑志
+  names:
+    zh: 郑志
+    en: Zheng Zhi
+  lifespan:
+    birth:
+      date: '0195-01-01'
+      precision: year
+      is_circa: true
+      raw: 魏初约生
+    death:
+      date: '0265-12-31'
+      precision: year
+      is_circa: true
+      raw: 魏末约卒
+  birth_date: '0195-01-01'
+  death_date: '0265-12-31'
+  era: 曹魏
+  reign_ref: 魏文帝至元帝
+  archetype: 守师传经者
+  dilemmas:
+  - title_zh: 散佚与辑佚
+    description: 师说本为答问散在诸经正义水经注御览类聚通典之中当搜辑成帙以存梗概
+  - title_zh: 守师与定说
+    description: 门人追论师注及应答分授各述师言当存其反复研求之详审不以臆断改旧
+  lesson: 专门授受贵在反复研求以经为正博采参校方能存汉师之实
+  summary_first_person: 吾承康成之学为魏侍中惧师说散佚乃编次弟子问答为郑志十一卷兼存郑记之略后虽佚其大半犹冀裒辑正义诸书以见师弟子授受之详审
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E9%83%91%E5%BF%97.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E9%83%91%E5%BF%97.html
+endeavors:
+- id: guji-郑志-endeavor-1
+  title_zh: 编次郑志存康成师说
+  description: 以郑康成答冷刚赵商张逸刘琰孙皓等问为本析旧第为十一卷以存汉代经师授受之实
+  phases:
+  - key: brewing
+    name: 搜集师答
+    labels:
+      zh:
+      - 搜集
+      - 问答
+    start_date: '0230-01-01'
+    highlight_event_id: guji-郑志-event-answer
+  - key: breakthrough
+    name: 比勘诸经正义
+    labels:
+      zh:
+      - 比勘
+      - 校订
+    start_date: '0240-01-01'
+    highlight_event_id: guji-郑志-event-answer
+  - key: climax
+    name: 成帙十一卷
+    labels:
+      zh:
+      - 编次
+      - 成书
+    start_date: '0245-01-01'
+    highlight_event_id: guji-郑志-event-compile
+  - key: closure
+    name: 散佚待辑
+    labels:
+      zh:
+      - 散佚
+      - 辑佚
+    start_date: '0250-01-01'
+    highlight_event_id: guji-郑志-event-compile
+  decisions:
+  - date: '0240-01-01'
+    title_zh: 析八篇为十一卷
+    rationale: 旧为郑答弟子八篇今析其旧第以便经部七五经总义之传
+  - date: '0245-01-01'
+    title_zh: 以经为正参校异文
+    rationale: 诸经正义水经注礼志御览类聚通典所载互有详略当参校附注以存旧
+- id: guji-郑志-endeavor-2
+  title_zh: 答问五经授受门人
+  description: 答易书诗礼周礼之疑如大畜童牛之梏禹贡九河麟趾行露凌人斩冰王后六服之制以明训诂礼制
+  phases:
+  - key: brewing
+    name: 门人设问
+    labels:
+      zh:
+      - 设问
+      - 受业
+    start_date: '0232-01-01'
+    highlight_event_id: guji-郑志-event-answer
+  - key: breakthrough
+    name: 辨义解惑
+    labels:
+      zh:
+      - 训诂
+      - 明礼
+    start_date: '0236-01-01'
+    highlight_event_id: guji-郑志-event-answer
+  - key: climax
+    name: 定说传经
+    labels:
+      zh:
+      - 定说
+      - 授受
+    start_date: '0242-01-01'
+    highlight_event_id: guji-郑志-event-answer
+  - key: closure
+    name: 分授各述
+    labels:
+      zh:
+      - 分授
+      - 郑记
+    start_date: '0248-01-01'
+    highlight_event_id: guji-郑志-event-compile
+  decisions:
+  - date: '0236-01-01'
+    title_zh: 守毛公传笺以经明经
+    rationale: 如裯为帐豵为豚泾渭绝去之喻皆据诗序传笺反复推明不改旧本
+  - date: '0242-01-01'
+    title_zh: 礼制以经为正
+    rationale: 如王日一举与玉藻不同王制与周异者多当以经为正不以后人所定夺经
+events:
+- id: guji-郑志-event-birth
+  title_zh: 生于魏初
+  date: '0195-01-01'
+  year_of: 195
+  description: 约生于魏初承郑康成家学后为魏侍中
+- id: guji-郑志-event-answer
+  title_zh: 答弟子问五经
+  date: '0240-06-01'
+  year_of: 240
+  description: 答冷刚问大畜童牛之梏答赵商问禹贡九河及弼成五服答张逸问麟趾行露豳七月答孙皓问凌人斩冰纳冰答刘琰问载师夫布之异
+- id: guji-郑志-event-compile
+  title_zh: 编定郑志十一卷
+  date: '0245-01-01'
+  year_of: 245
+  description: 编郑答弟子为郑志十一卷上六十五条中四十八条下六十二条兼存郑记六卷之略
+- id: guji-郑志-event-death
+  title_zh: 卒于魏末
+  date: '0265-12-31'
+  year_of: 265
+  description: 约卒于魏末其书后经唐宋传至崇文总目不著录而散见正义诸书
