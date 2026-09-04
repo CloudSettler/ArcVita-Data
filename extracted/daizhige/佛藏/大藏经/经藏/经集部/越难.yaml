@@ -1,0 +1,147 @@
+person:
+  qid: guji-越难
+  name_zh: 越难
+  names:
+    zh: 越难
+    en: Yuenan
+  lifespan:
+    birth:
+      date: '-0560'
+      precision: year
+      is_circa: true
+      raw: 生于波罗奈私国四姓家生年不详
+    death:
+      date: -0490
+      precision: year
+      is_circa: true
+      raw: 长者任上寿尽而终后转生本国
+  birth_date: '-0560'
+  death_date: -0490
+  era: 佛世古印度
+  archetype: 豪富悭贪以财招苦型
+  dilemmas:
+  - 守巨富而畏人乞索是闭门拒施还是开门济众
+  - 前身富而不施致后身盲乞是怨天尤人还是自识宿命改行布施
+  lesson: 富贵无常悭贪招苦布施植福方能免于长夜苦报
+  summary_first_person: 我本波罗奈私国四姓长者名越难家有珍宝牛马田宅而性悭贪不信道德日敕门监拒诸乞者寿尽转生本国盲乞妇家七岁行乞至子栴檀家被扑伤折臂蒙佛摩顶得开目识宿命方知富而不施如无有财世间无常唯法可依
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T0537
+  - https://daizhige.org/fozang/dazangjing/jingzang/jingjibu/foshuoyuenanjing.html
+endeavors:
+- id: guji-越难-endeavor-1
+  title_zh: 豪富守财闭门拒施
+  description: 居波罗奈为四姓长者珍奇牛马田宅甚众而悭贪嫉妒不信道德敕门监使乞者勿得通并令子栴檀承习悭法
+  phases:
+  - key: brewing
+    name: 承家致富积聚珍宝
+    labels:
+      zh:
+      - 积财
+      - 豪富
+    start_date: '-0550'
+    highlight_event_id: guji-越难-event-birth
+  - key: breakthrough
+    name: 立约闭门不通乞者
+    labels:
+      zh:
+      - 悭贪
+      - 拒施
+    start_date: '-0530'
+    highlight_event_id: guji-越难-event-hoarding
+  - key: climax
+    name: 父子相承益加悭吝
+    labels:
+      zh:
+      - 传家
+      - 悭习
+    start_date: '-0510'
+    highlight_event_id: guji-越难-event-hoarding
+  - key: closure
+    name: 寿尽财散业牵受报
+    labels:
+      zh:
+      - 寿尽
+      - 业报
+    start_date: -0490
+    highlight_event_id: guji-越难-event-death
+  decisions:
+  - date: '-0530'
+    title_zh: 敕门监拒诸乞丐
+    rationale: 畏财散而养悭贪嫉妒不信道德故闭门自守终日不施
+  - date: '-0510'
+    title_zh: 令子栴檀承守悭法
+    rationale: 欲令家财不散子孙相保故教子亦复悭贪不喜布施
+- id: guji-越难-endeavor-2
+  title_zh: 转生盲乞蒙佛得度
+  description: 寿尽转生本国盲乞妇家九月生而两目俱盲七岁行乞至栴檀家被扑伤折臂蒙佛摩顶开目识宿命闻无常偈
+  phases:
+  - key: brewing
+    name: 托生盲乞妇家
+    labels:
+      zh:
+      - 贫贱
+      - 盲生
+    start_date: -0490
+    highlight_event_id: guji-越难-event-death
+  - key: breakthrough
+    name: 七岁行乞被扑折臂
+    labels:
+      zh:
+      - 行乞
+      - 受伤
+    start_date: -0483
+    highlight_event_id: guji-越难-event-begging
+  - key: climax
+    name: 佛摩顶开目识宿命
+    labels:
+      zh:
+      - 蒙佛
+      - 开目
+    start_date: -0483
+    highlight_event_id: guji-越难-event-awakening
+  - key: closure
+    name: 闻无常偈众得法眼
+    labels:
+      zh:
+      - 闻法
+      - 得度
+    start_date: -0483
+    highlight_event_id: guji-越难-event-awakening
+  decisions:
+  - date: -0483
+    title_zh: 听母教拄杖出行乞食
+    rationale: 母养已久贫无以衣食故自悲薄命依教家家乞丐以活身命
+  - date: -0483
+    title_zh: 对佛自认前身是难
+    rationale: 蒙摩顶开目折伤即愈自识宿命故直承前世悭咎不复覆藏
+events:
+- id: guji-越难-event-birth
+  type: birth
+  title_zh: 生于波罗奈四姓家
+  date: '-0560'
+  year_of: -560
+  description: 生于波罗奈私国四姓家长大遂至大豪富珍奇珠宝牛马田宅甚众
+- id: guji-越难-event-hoarding
+  type: career
+  title_zh: 豪富悭贪闭门拒施
+  date: '-0530'
+  year_of: -530
+  description: 为人悭贪嫉妒不信道德不喜布施常敕门监有来乞者勿得通子栴檀亦复悭贪
+- id: guji-越难-event-death
+  type: death
+  title_zh: 长者寿尽而终
+  date: -0490
+  year_of: -490
+  description: 越难寿尽而死还生其国中为盲乞妇作子以验富而不施之报
+- id: guji-越难-event-begging
+  type: career
+  title_zh: 转生盲儿行乞被伤
+  date: -0483
+  year_of: -483
+  description: 盲儿七岁行乞至栴檀家径入中庭被门监牵扑门外伤头面折右臂坏食器悲啼大痛
+- id: guji-越难-event-awakening
+  type: career
+  title_zh: 蒙佛摩顶识宿命闻法
+  date: -0483
+  year_of: -483
+  description: 佛分卫还往视以手摩头目即开折伤即愈自识宿命对佛认是前身难闻说无常偈众得法眼

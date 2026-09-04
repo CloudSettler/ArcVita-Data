@@ -1,0 +1,126 @@
+person:
+  qid: guji-善星
+  name_zh: 善星
+  names:
+    zh: 善星
+    en: Sunakshatra
+  lifespan:
+    birth:
+      date: -550-01-01
+      precision: year
+      is_circa: true
+      raw: 毗舍离国约公元前六世纪生
+    death:
+      date: -500-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前五世纪没
+  birth_date: -550-01-01
+  death_date: -500-01-01
+  era: 古印度列国时代
+  reign_ref: 毗舍离最胜林教化时
+  archetype: 背道谤法者
+  dilemmas:
+  - 信种不具而自谓知见与亲见圣德相违
+  - 覆藏自罪执自辩才与如实忏悔敬信之间的抉择
+  lesson: 具足信种敬佛法僧，莫以自辩不正智谤出要之法，覆藏相续谤言必如重担速堕恶趣
+  summary_first_person: 我是毗舍离长者子善星，曾亲近佛法而后舍离，以多种因缘谤佛法僧，谓沙门瞿昙无最上法不能出要尽苦边际，世尊于最胜林中为舍利子广说十力四无畏八众六趣譬喻，记我以覆藏谤言速堕地狱，我事为后世警示，信种不具谤圣必受极苦
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T0757
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-善星-endeavor-1
+  title_zh: 亲近佛法而后舍离
+  description_zh: 生于毗舍离最胜大城长者家，亲近世尊听法修学，不具信种，其来未久舍离佛法
+  phases:
+  - key: brewing
+    name: 初信亲近
+    labels:
+      zh: 初信
+    start_date: -535-01-01
+    highlight_event_id: guji-善星-event-leave
+  - key: breakthrough
+    name: 随学见闻
+    labels:
+      zh: 见闻
+    start_date: -533-01-01
+    highlight_event_id: guji-善星-event-leave
+  - key: climax
+    name: 疑谤萌生
+    labels:
+      zh: 生疑
+    start_date: -532-01-01
+    highlight_event_id: guji-善星-event-leave
+  - key: closure
+    name: 舍离佛法
+    labels:
+      zh: 舍离
+    start_date: -531-01-01
+    highlight_event_id: guji-善星-event-leave
+  decisions:
+  - date: -531-01-01
+    title_zh: 舍离佛法另寻所求
+    rationale: 于十号禅定智力等事虽知虽见而不生信，随自辩才及不正智而去
+- id: guji-善星-endeavor-2
+  title_zh: 多缘谤佛法僧成堕业
+  description_zh: 于毗舍离大城中以多种因缘谤佛法僧，谓瞿昙无上法不能尽苦边际，世尊为舍利子开示功德并授记速堕地狱
+  phases:
+  - key: brewing
+    name: 城中出言
+    labels:
+      zh: 讥谤
+    start_date: -530-01-01
+    highlight_event_id: guji-善星-event-slander
+  - key: breakthrough
+    name: 多缘诽谤
+    labels:
+      zh: 诽谤
+    start_date: -530-06-01
+    highlight_event_id: guji-善星-event-slander
+  - key: climax
+    name: 舍利启问佛广分别
+    labels:
+      zh: 分别
+    start_date: -530-08-01
+    highlight_event_id: guji-善星-event-slander
+  - key: closure
+    name: 被记速堕
+    labels:
+      zh: 堕业
+    start_date: -529-01-01
+    highlight_event_id: guji-善星-event-slander
+  decisions:
+  - date: -530-01-01
+    title_zh: 出非义语谤佛法僧
+    rationale: 以覆藏自罪故，执心言所见相续谤言，谓声闻所说法岂能出要尽苦边际
+events:
+- id: guji-善星-event-birth
+  type: birth
+  title_zh: 生于毗舍离长者家
+  date: -550-01-01
+  year_of: -550
+  location_zh: 毗舍离国最胜大城
+  description_zh: 善星生为毗舍离长者子，长于最胜大城阛阓信解环境之中
+- id: guji-善星-event-leave
+  type: career
+  title_zh: 亲近后舍离佛法
+  date: -531-01-01
+  year_of: -531
+  location_zh: 毗舍离最胜林
+  description_zh: 于佛法中不具信种，虽知见十号禅定功德，其来未久舍离佛法
+  endeavor_ref: guji-善星-endeavor-1
+- id: guji-善星-event-slander
+  type: career
+  title_zh: 城中多缘谤佛法僧
+  date: -530-01-01
+  year_of: -530
+  location_zh: 毗舍离大城
+  description_zh: 以多种因缘谤佛法僧，言沙门瞿昙尚无人中最上之法，况圣知见，所说法不能出要尽苦边际，舍利子乞食闻已还白世尊
+  endeavor_ref: guji-善星-endeavor-2
+- id: guji-善星-event-death
+  type: death
+  title_zh: 以谤业没后堕恶趣
+  date: -500-01-01
+  year_of: -500
+  location_zh: 毗舍离
+  description_zh: 由心言所见相续谤故，如坠重担速堕地狱，如戒定慧具足者易证果，堕恶亦复如是
