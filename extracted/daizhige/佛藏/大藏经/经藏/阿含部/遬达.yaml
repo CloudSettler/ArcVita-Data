@@ -1,0 +1,167 @@
+person:
+  qid: guji-遬达
+  name_zh: 遬达
+  names:
+    zh: 遬达
+    en: Suda
+  lifespan:
+    birth:
+      date: '-0550'
+      precision: year
+      is_circa: true
+      raw: 舍卫国人，生年不详，佛世时已为优婆塞
+    death:
+      date: '-0470'
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: '-0550'
+  death_date: '-0470'
+  era: 古印度列国时代
+  reign_ref: 佛在舍卫国说法时
+  archetype: 贤者优婆塞
+  dilemmas:
+  - 儿媳玉耶骄慢失礼数年，忍让全家和与纠正妇礼难两全
+  - 自责恭请佛临家，敬慕化导与恐劳世尊之间进退为难
+  lesson: 以忍顺持家，以正法化导，孝养父母和敬家人可转憍慢为善顺
+  summary_first_person: 我是舍卫国优婆塞遬达，为子娶富家女玉耶，彼不修妇礼骄慢自恣数年，我默然忍之而自责，恭请佛至我家，以三恶四善化导之，遂举家承教和敬如初
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛说阿遬达经.md
+endeavors:
+- id: guji-遬达-endeavor-1
+  person_qid: guji-遬达
+  title_zh: 听受孝亲教持戒为贤优婆塞
+  summary_zh: 在舍卫国听佛说孝养父母功德，持守优婆塞戒，谦忍修善为众所称贤者
+  phases:
+  - key: brewing
+    name: 闻法起信
+    labels:
+      zh:
+      - 孝亲
+      - 持戒
+    start_date: -0490
+    highlight_event_id: guji-遬达-event-filial
+  - key: breakthrough
+    name: 受持奉行
+    labels:
+      zh:
+      - 孝顺
+      - 信受
+    start_date: -0488
+    highlight_event_id: guji-遬达-event-filial
+  - key: climax
+    name: 立为贤者
+    labels:
+      zh:
+      - 贤者
+      - 优婆塞
+    start_date: -0485
+    highlight_event_id: guji-遬达-event-filial
+  - key: closure
+    name: 以身率家
+    labels:
+      zh:
+      - 化家
+      - 垂范
+    start_date: -0482
+    highlight_event_id: guji-遬达-event-marry
+  decisions:
+  - date: -0490
+    title_zh: 稽首听受孝亲教
+    rationale: 信佛所说父母恩重难报，欲以孝顺生天之道自勉化人
+  - date: -0488
+    title_zh: 安忍持戒不言不语
+    rationale: 欲以贤者之忍全家和，待机缘以正法化导而不以嗔恚相加
+- id: guji-遬达-endeavor-2
+  person_qid: guji-遬达
+  title_zh: 迎佛至家化导儿媳玉耶
+  summary_zh: 为子娶妇玉耶骄慢失礼数年，自责请佛临家，藉佛神化与三恶四善之教令其改过承事姑舅夫婿
+  phases:
+  - key: brewing
+    name: 为子取妇
+    labels:
+      zh:
+      - 娶妇
+      - 持家
+    start_date: -0482
+    highlight_event_id: guji-遬达-event-marry
+  - key: breakthrough
+    name: 忍慢自责
+    labels:
+      zh:
+      - 忍让
+      - 自责
+    start_date: -0480
+    highlight_event_id: guji-遬达-event-marry
+  - key: climax
+    name: 迎佛化妇
+    labels:
+      zh:
+      - 请佛
+      - 化导
+    start_date: -0478
+    highlight_event_id: guji-遬达-event-invite
+  - key: closure
+    name: 举家和敬
+    labels:
+      zh:
+      - 改过
+      - 和敬
+    start_date: -0478
+    highlight_event_id: guji-遬达-event-convert
+  decisions:
+  - date: -0480
+    title_zh: 默然忍慢数年不加诃责
+    rationale: 念其为国中豪富家子，欲以容忍待其自悟并全夫妇姑媳之恩
+  - date: -0478
+    title_zh: 诣佛自责请至我家
+    rationale: 自惟处家无力化导，愿藉世尊威神令玉耶心喜出见而受教
+events:
+- id: guji-遬达-event-birth
+  person_qid: guji-遬达
+  type: birth
+  title_zh: 出生于舍卫国
+  date: '-0550'
+  year_of: -550
+  place_zh: 舍卫国
+  description_zh: 生于舍卫国，长而信佛为优婆塞，以贤者称
+- id: guji-遬达-event-filial
+  person_qid: guji-遬达
+  type: career
+  title_zh: 舍卫国听佛说孝亲功德
+  date: -0490
+  year_of: -490
+  place_zh: 舍卫国
+  description_zh: 听佛言父母生养示以善恶，当负持孝养谏止杀恶令知经道，孝者生天不孝入地狱，稽首俱闻善教
+- id: guji-遬达-event-marry
+  person_qid: guji-遬达
+  type: career
+  title_zh: 为子娶富家女玉耶
+  date: -0482
+  year_of: -482
+  place_zh: 舍卫国
+  description_zh: 为子取妇玉耶，大婿富家女，不以姑妐之礼事我，亦不敬夫婿，积数年憍慢自恣
+- id: guji-遬达-event-invite
+  person_qid: guji-遬达
+  type: career
+  title_zh: 诣佛自责迎请临家
+  date: -0478
+  year_of: -478
+  place_zh: 舍卫国佛所
+  description_zh: 到佛所自责取妇失教，愿佛明日自屈到我家，佛默然受请，旦日往至其家
+- id: guji-遬达-event-convert
+  person_qid: guji-遬达
+  type: career
+  title_zh: 佛化玉耶举家承教
+  date: -0478
+  year_of: -478
+  place_zh: 舍卫国宅中
+  description_zh: 佛以神化令玉耶心喜出见作礼，说妇人事夫三恶四善，玉耶愿如婢事夫，即膝行承事以夫妇之礼事婿
+- id: guji-遬达-event-death
+  person_qid: guji-遬达
+  type: death
+  title_zh: 卒于舍卫国
+  date: '-0470'
+  year_of: -470
+  place_zh: 舍卫国
+  description_zh: 卒于舍卫国，卒年不详，一生以贤者优婆塞化家传世
