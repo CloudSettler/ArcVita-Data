@@ -8,120 +8,125 @@ person:
     birth:
       date: 1687
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 康熙二十六年
     death:
       date: 1738
       precision: year
       is_circa: false
-      raw: 乾隆三年
+      raw: 乾隆三年九月
   birth_date: 1687
   death_date: 1738
-  era: 清代
-  reign_ref: 乾隆二年
-  archetype: 勤民任事的封疆干臣
+  era: 清
+  reign_ref: 雍正至乾隆
+  archetype: 干练能吏
   dilemmas:
-  - 赈恤从速与查实防冒之间的权衡
-  - 河工抢修与钱粮有节之间的取舍
-  lesson: 以实心行实政早勘早赈方能安民保工
-  summary_first_person: 吾起自部员历任封疆受知三朝值畿辅淫潦惟以查勘要实分路散赈截漕备荒协修河堤为务不敢讳灾误民
+  - 漕运民生兼顾与仓储备赈之间如何权衡
+  - 筑堤束水与行所无事之间如何择定长久之策
+  lesson: 实心任事方能兼顾漕农赈济
+  summary_first_person: 吾李卫起自员外郎历督抚以实心办事见知遇直隶河漕赈济皆身亲其事实愿灾黎均受实惠不负朝廷倚任
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70046.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70046.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70049.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70049.html
 endeavors:
 - id: guji-李卫-endeavor-1
-  title_zh: 畿辅水灾查赈安民
-  summary_zh: 乾隆二年秋畿辅淫潦低洼被淹奉旨查勘抚恤分路散银给房给食
+  title_zh: 直隶河道水利与永定河履勘
+  summary: 会同顾琮履勘永定河筹度漕农兼利之策
   phases:
   - key: brewing
-    name: 霖潦骤发奏报灾形
+    name: 受命筹勘畿辅水势
     labels:
-      zh: 报灾
-    start_date: 1737-07-28
-    highlight_event_id: guji-李卫-event-flood
+      zh: 勘河
+    start_date: 1737-08-01
+    highlight_event_id: guji-李卫-event-he-1
   - key: breakthrough
-    name: 分委查勘散银安顿
+    name: 九河归淀汇津成议
     labels:
-      zh: 查赈
-    start_date: 1737-08-02
-    highlight_event_id: guji-李卫-event-relief
+      zh: 会勘
+    start_date: 1737-08-15
+    highlight_event_id: guji-李卫-event-he-1
   - key: climax
-    name: 文霸减半一体赈及
+    name: 反对筑堤束水力主行所无事
     labels:
-      zh: 扩赈
-    start_date: 1737-08-10
-    highlight_event_id: guji-李卫-event-relief
-  - key: closure
-    name: 核实归案早筹冬赈
-    labels:
-      zh: 善后
+      zh: 治河方略
     start_date: 1737-08-20
-    highlight_event_id: guji-李卫-event-relief
+    highlight_event_id: guji-李卫-event-he-1
+  - key: closure
+    name: 交鄂尔泰详勘酌定规模
+    labels:
+      zh: 交部办理
+    start_date: 1737-08-25
+    highlight_event_id: guji-李卫-event-he-2
   decisions:
-  - date: 1737-08-02
-    title_zh: 飞饬属员加意抚绥不令失所
-    rationale: 水退寒生若待核方赈则流离已成故先散后核以安民心
-  - date: 1737-08-05
-    title_zh: 请再截尾帮漕粮二十万石备急
-    rationale: 司库银可散而口粮须米截留漕粮方足接济灾黎
+  - date: 1737-08-15
+    title_zh: 会同顾琮履勘永定河陈九河下梢淀泊关键
+    rationale: 永定浑河筑堤束水则河底高于平地当以行所无事为上策
+  - date: 1737-08-20
+    title_zh: 议卫河百泉洹河小丹河分水济运灌田之法
+    rationale: 以水则为准分畅流平流涩流启闭渠闸以兼顾漕农
 - id: guji-李卫-endeavor-2
-  title_zh: 协办永定河工抢修保堤
-  summary_zh: 会同河臣动库趱料抢筑永定河漫口防御秋汛整顿备料参劾溺职
+  title_zh: 截留天津漕米平粜赈济
+  summary: 截留漕米五十万石分发被水州县减价平粜备冬春赈济
   phases:
   - key: brewing
-    name: 山水骤发堤岸漫溢
+    name: 天津贩运奉天米谷接济直隶
     labels:
-      zh: 察险
-    start_date: 1737-08-06
-    highlight_event_id: guji-李卫-event-river
+      zh: 调粟
+    start_date: 1737-08-10
+    highlight_event_id: guji-李卫-event-liang-1
   - key: breakthrough
-    name: 会同河臣趱料抢筑
+    name: 截留漕米分厂减价出粜
     labels:
-      zh: 抢修
-    start_date: 1737-08-08
-    highlight_event_id: guji-李卫-event-river
-  - key: climax
-    name: 分别查参整顿工员
-    labels:
-      zh: 整饬
-    start_date: 1737-08-12
-    highlight_event_id: guji-李卫-event-river
-  - key: closure
-    name: 预护堤岸以保秋汛万全
-    labels:
-      zh: 保堤
+      zh: 平粜
     start_date: 1737-08-18
-    highlight_event_id: guji-李卫-event-river
+    highlight_event_id: guji-李卫-event-liang-2
+  - key: climax
+    name: 霸州设厂再减百文议暂停以备冬赈
+    labels:
+      zh: 赈济
+    start_date: 1737-08-22
+    highlight_event_id: guji-李卫-event-liang-2
+  - key: closure
+    name: 定价千文俟冬春米贵再粜补足原数
+    labels:
+      zh: 备赈
+    start_date: 1737-08-28
+    highlight_event_id: guji-李卫-event-liang-2
   decisions:
-  - date: 1737-08-08
-    title_zh: 会同刘勷动河库银速备物料堵筑
-    rationale: 伏汛将过秋汛届期漫口不速筑则沿河田庐尽成泽国
-  - date: 1737-08-12
-    title_zh: 分别查参河工溺职各官
-    rationale: 平时备料不全临事束手必严察议处方能振作河务
+  - date: 1737-08-18
+    title_zh: 分设乡城两厂减价平粜被水州县
+    rationale: 秋成在望米价渐平若籴者少则暂停以存米备冬春赈济
+  - date: 1737-08-28
+    title_zh: 定每石千文为度仍采买补足截留原数
+    rationale: 减价太贱则短少备赈原数须量减兼顾灾黎与仓储
 events:
 - id: guji-李卫-event-birth
+  title_zh: 出生
   date: 1687
   year_of: 1687
-  title_zh: 生于江南铜山
-  description_zh: 康熙二十六年生于江南铜山由部员捐纳入仕历任要职
-- id: guji-李卫-event-flood
-  date: 1737-07-28
+  description: 生于江南铜山家世殷实以捐员外郎入仕
+- id: guji-李卫-event-liang-1
+  title_zh: 议天津商船赴奉天贩米禁锦州四县出境
+  date: 1737-08-10
   year_of: 1737
-  title_zh: 畿辅淫潦奉旨查勘
-  description_zh: 乾隆二年七月朔畿辅连阴山水骤发奉旨速委贤员查勘低洼酌量抚恤借籽补种
-- id: guji-李卫-event-relief
-  date: 1737-08-05
+  description: 前议天津商船赴奉天贩米接济直隶因锦州宁远广宁义州歉收米贵请停四州县商贩以备旗民
+- id: guji-李卫-event-he-1
+  title_zh: 会勘永定河陈九河归海淀泊关键
+  date: 1737-08-15
   year_of: 1737
-  title_zh: 分路赈济请截漕米二十万石
-  description_zh: 宛平大兴等处堤岸浸溢分委员弁带银查赈奏请再截尾帮漕粮二十万石以备急需
-- id: guji-李卫-event-river
-  date: 1737-08-08
+  description: 会同顾琮履勘永定河奏陈天津为九河下游淀泊为众水交汇筑堤束水贻后患当行所无事
+- id: guji-李卫-event-he-2
+  title_zh: 卫河分水济运灌田议定水则启闭
+  date: 1737-08-20
   year_of: 1737
-  title_zh: 会办永定河抢修
-  description_zh: 水定河漫过石堤冲刷土堤会同刘勷顾琮动库趱料星夜抢筑以保秋汛
+  description: 会议百泉洹河小丹河分水之法于馆陶临清立水则分畅流平流涩流启闭渠闸漕农均利
+- id: guji-李卫-event-liang-2
+  title_zh: 截留天津漕米分厂平粜备赈
+  date: 1737-08-28
+  year_of: 1737
+  description: 于天津北仓截留漕米五十万石分发霸州等被水州县设厂减价平粜籴少则停俟冬春再粜
 - id: guji-李卫-event-death
+  title_zh: 去世
   date: 1738
   year_of: 1738
-  title_zh: 卒于直隶总督任上
-  description_zh: 乾隆三年卒于直隶总督任上后追谥敏达入祀贤良祠
+  description: 乾隆三年在直隶总督任内病逝朝廷谕祭谥敏达
