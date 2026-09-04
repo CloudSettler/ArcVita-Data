@@ -1,0 +1,138 @@
+person:
+  qid: guji-袁袠
+  name_zh: 袁袠
+  names:
+    zh: 袁袠
+    en: Yuan Zhi
+  lifespan:
+    birth:
+      date: 1492
+      precision: year
+      is_circa: false
+      raw: 弘治五年
+    death:
+      date: 1547
+      precision: year
+      is_circa: false
+      raw: 嘉靖二十六年
+  birth_date: 1492
+  death_date: 1547
+  era: 明中叶
+  reign_ref: 嘉靖
+  archetype: 立言之儒
+  dilemmas:
+  - 强壮从政而官守有恒不得一摅其愚与匡辅明圣之志难两全
+  - 欲以事功自见而婴疾恐溘先朝露空言垂训与躬行其道难兼得
+  lesson: 进则勒伐钟彝退则修文垂法以自见将来
+  summary_first_person: 余尝从大夫之后官守有恒未得排阊阖趋文陛一摅其愚徒以强壮婴疾恐溘先朝露故作世纬二十篇考往知来以自见
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E4%B8%96%E7%BA%AC.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%AD%E5%BD%95/%E4%B8%96%E7%BA%AC.html
+endeavors:
+- id: guji-袁袠-endeavor-1
+  title_zh: 历官守职
+  summary: 正德进士出身从大夫之后恪守官恒未越言责
+  phases:
+  - key: brewing
+    name: 进士入仕
+    labels:
+      zh: 入仕历练
+    start_date: 1511
+    highlight_event_id: guji-袁袠-event-jinshi
+  - key: breakthrough
+    name: 从大夫之后
+    labels:
+      zh: 守官供职
+    start_date: 1523
+    highlight_event_id: guji-袁袠-event-official
+  - key: climax
+    name: 抱病守恒
+    labels:
+      zh: 婴疾守恒
+    start_date: 1532
+    highlight_event_id: guji-袁袠-event-ill
+  - key: closure
+    name: 退思托文
+    labels:
+      zh: 退思垂文
+    start_date: 1540
+    highlight_event_id: guji-袁袠-event-writing
+  decisions:
+  - date: 1523
+    title_zh: 恪守官守不越言责
+    rationale: 自以官守有恒言责无与不妄干阙庭以存恪慎
+  - date: 1540
+    title_zh: 托笔札以自见
+    rationale: 恐溘先朝露身不得躬行其道故以文垂法将来
+- id: guji-袁袠-endeavor-2
+  title_zh: 撰述世纬
+  summary: 考往知来作世纬二十篇刺讥时政以备博议
+  phases:
+  - key: brewing
+    name: 感空言深切著明
+    labels:
+      zh: 感怀立言
+    start_date: 1532
+    highlight_event_id: guji-袁袠-event-ill
+  - key: breakthrough
+    name: 发凡起草官宗遴傅
+    labels:
+      zh: 起草论政
+    start_date: 1538
+    highlight_event_id: guji-袁袠-event-official
+  - key: climax
+    name: 成世纬二十篇
+    labels:
+      zh: 成书垂训
+    start_date: 1540
+    highlight_event_id: guji-袁袠-event-writing
+  - key: closure
+    name: 以狂愚采可用
+    labels:
+      zh: 期采可用
+    start_date: 1542
+    highlight_event_id: guji-袁袠-event-writing
+  decisions:
+  - date: 1538
+    title_zh: 效孔子见诸行事而托空言
+    rationale: 怀材欲匡明圣而命不得行故以文自见为法将来
+  - date: 1540
+    title_zh: 直书刺讥不避多口
+    rationale: 知柄凿异用而有志应世者可矜狂愚采可用
+events:
+- id: guji-袁袠-event-birth
+  title_zh: 出生吴中
+  date: 1492
+  year_of: 1492
+  description: 弘治五年出生于南直隶苏州府吴县
+  endeavor_ref: guji-袁袠-endeavor-1
+- id: guji-袁袠-event-jinshi
+  title_zh: 正德进士入仕
+  date: 1511
+  year_of: 1511
+  description: 正德六年举进士授官始入仕途历练有司
+  endeavor_ref: guji-袁袠-endeavor-1
+- id: guji-袁袠-event-official
+  title_zh: 从大夫之后守官
+  date: 1523
+  year_of: 1523
+  description: 嘉靖初从大夫之后官守有恒未得一摅其愚
+  endeavor_ref: guji-袁袠-endeavor-1
+- id: guji-袁袠-event-ill
+  title_zh: 强壮婴疾
+  date: 1532
+  year_of: 1532
+  description: 强壮之年婴狗马之疾恐溘先朝露遂思托笔札自见
+  endeavor_ref: guji-袁袠-endeavor-1
+- id: guji-袁袠-event-writing
+  title_zh: 著成世纬二十篇
+  date: 1540
+  year_of: 1540
+  description: 考贾谊王通陆贽苏轼之论著世纬二十篇论官宗遴傅简辅诸事
+  endeavor_ref: guji-袁袠-endeavor-2
+- id: guji-袁袠-event-death
+  title_zh: 卒于嘉靖年间
+  date: 1547
+  year_of: 1547
+  description: 嘉靖二十六年卒以世纬空言垂法将来
+  endeavor_ref: guji-袁袠-endeavor-2
