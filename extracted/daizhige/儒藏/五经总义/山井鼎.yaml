@@ -1,0 +1,132 @@
+person:
+  qid: guji-山井鼎
+  name_zh: 山井鼎
+  names:
+    zh: 山井鼎
+    en: Yamanoi Kanae
+  lifespan:
+    birth:
+      date: 1690-01-01
+      precision: year
+      is_circa: true
+      raw: 康熙二十九年左右
+    death:
+      date: 1728-01-01
+      precision: year
+      is_circa: true
+      raw: 享保十三年左右
+  birth_date: 1690-01-01
+  death_date: 1728-01-01
+  era: 江户中期
+  reign_ref: 享保年间
+  archetype: 经籍校勘学者
+  dilemmas:
+  - 宋板古本足利本与明刻诸本异文并存莫知孰是
+  - 孤居东瀛无中土善本对校恐妄断而失古经真貌
+  lesson: 两存异文阙疑存旧以存古经旧观
+  summary_first_person: 吾为西条掌书记赐告三年尽校足利学所藏宋板古本以汲古阁本为主立考异补阙补脱正误谨按五目与物观共成七经孟子考文补遗以复古观
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E4%B8%83%E7%BB%8F%E5%AD%9F%E5%AD%90%E8%80%83%E6%96%87%E8%A1%A5%E9%81%97.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BA%94%E7%BB%8F%E6%80%BB%E4%B9%89/%E4%B8%83%E7%BB%8F%E5%AD%9F%E5%AD%90%E8%80%83%E6%96%87%E8%A1%A5%E9%81%97.md
+endeavors:
+- id: guji-山井鼎-endeavor-1
+  title_zh: 足利学三载校雠七经
+  summary_zh: 奉命赐告三年尽发足利学所藏宋板五经正义古写本活字本参以正德嘉靖万历崇祯诸注疏本逐经逐注逐疏校其异同
+  phases:
+  - key: brewing
+    name: 赐告入馆发书
+    labels:
+      zh: 蕴酿
+    start_date: 1715-01-01
+    highlight_event_id: guji-山井鼎-event-ashikaga
+  - key: breakthrough
+    name: 辨宋板古本体例
+    labels:
+      zh: 突破
+    start_date: 1716-01-01
+    highlight_event_id: guji-山井鼎-event-ashikaga
+  - key: climax
+    name: 立五目详记异同
+    labels:
+      zh: 高潮
+    start_date: 1717-01-01
+    highlight_event_id: guji-山井鼎-event-kaowen
+  - key: closure
+    name: 考文初稿告成
+    labels:
+      zh: 收束
+    start_date: 1719-01-01
+    highlight_event_id: guji-山井鼎-event-kaowen
+  decisions:
+  - date: 1716-01-01
+    title_zh: 以古本为主经注以宋板为主疏
+    rationale: 古本多助字存唐前博士所传宋板正义平稳可据故分主以广异闻
+  - date: 1717-01-01
+    title_zh: 以崇祯汲古阁本为主参校
+    rationale: 崇祯本世所通行便学者对照故存其文而别标补阙以见妄补
+- id: guji-山井鼎-endeavor-2
+  title_zh: 与物观共成考文补遗二百六卷
+  summary_zh: 既为考文复与东都讲官物观分任补遗凡易书诗礼记论语孝经孟子共二百六卷别孟子于七经之外以存唐制旧义
+  phases:
+  - key: brewing
+    name: 考文既成谋补其遗
+    labels:
+      zh: 蕴酿
+    start_date: 1720-01-01
+    highlight_event_id: guji-山井鼎-event-kaowen
+  - key: breakthrough
+    name: 补阙补脱正误并举
+    labels:
+      zh: 突破
+    start_date: 1722-01-01
+    highlight_event_id: guji-山井鼎-event-buyi
+  - key: climax
+    name: 二百六卷编次粗定
+    labels:
+      zh: 高潮
+    start_date: 1725-01-01
+    highlight_event_id: guji-山井鼎-event-buyi
+  - key: closure
+    name: 以存旧复古观付校刊
+    labels:
+      zh: 收束
+    start_date: 1728-01-01
+    highlight_event_id: guji-山井鼎-event-buyi
+  decisions:
+  - date: 1722-01-01
+    title_zh: 题曰七经孟子考文以尚古
+    rationale: 据足利所有据汉唐艺文志五经七经之目不从挽近十三经之称
+  - date: 1725-01-01
+    title_zh: 存旧篇题卷数不从俗改
+    rationale: 礼记郑注二十卷孔义七十卷与志合后刻妄分为六十三卷故详记以复古
+events:
+- id: guji-山井鼎-event-birth
+  title_zh: 诞生于日本
+  date: 1690-01-01
+  year_of: 1690
+  kind: birth
+  summary_zh: 生于江户前期后为西条掌书记研治儒经
+- id: guji-山井鼎-event-ashikaga
+  title_zh: 赐告入足利学校书
+  date: 1715-03-01
+  year_of: 1715
+  kind: career
+  summary_zh: 赐告三年校书其中尽见宋板五经正义古本周易毛诗礼记论语孝经孟子诸本
+- id: guji-山井鼎-event-kaowen
+  title_zh: 初撰七经孟子考文
+  date: 1719-06-01
+  year_of: 1719
+  kind: career
+  summary_zh: 以经次注次疏次释文为序立考异补阙补脱正误谨按存旧诸目比校异同
+- id: guji-山井鼎-event-buyi
+  title_zh: 与物观合撰考文补遗成编
+  date: 1727-10-01
+  year_of: 1727
+  kind: career
+  summary_zh: 井鼎先为考文物观补其遗共成二百六卷详载周易兼义以下诸经注疏异文
+- id: guji-山井鼎-event-death
+  title_zh: 逝世
+  date: 1728-01-01
+  year_of: 1728
+  kind: death
+  summary_zh: 卒于享保年间其书流传后入四库五经总义类纪昀等奉敕校上
