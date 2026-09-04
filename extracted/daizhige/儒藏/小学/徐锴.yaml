@@ -1,0 +1,119 @@
+person:
+  qid: guji-徐锴
+  name_zh: 徐锴
+  names:
+    zh: 徐锴
+    en: Xu Kai
+  lifespan:
+    birth:
+      date: 0920
+      precision: year
+      is_circa: false
+      raw: 920年生于广陵
+    death:
+      date: 0974
+      precision: year
+      is_circa: false
+      raw: 974年卒于金陵
+  birth_date: 0920
+  death_date: 0974
+  era: 五代南唐至北宋初
+  reign_ref: 南唐烈祖至后主
+  archetype: 小学经师
+  dilemmas:
+  - 旧文阙误当阙疑还是妄加通论补释
+  - 南唐旧臣当守故国还是以校书传道
+  lesson: 守许慎之本而以通论发明六书，阙疑存真方为传经
+  summary_first_person: 吾楚金也，广陵人，与兄铉并治小学，传释许慎说文为系传通释，论六书，明形声转注假借，以存圣人之意
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E8%AF%B4%E6%96%87%E8%A7%A3%E5%AD%97%E7%B3%BB%E4%BC%A0.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E8%AF%B4%E6%96%87%E8%A7%A3%E5%AD%97%E7%B3%BB%E4%BC%A0.html
+endeavors:
+- id: guji-徐锴-endeavor-1
+  title_zh: 南唐秘书省校雠守职
+  description: 起家南唐，官至秘书省校书郎，校定经籍，专精字书训诂
+  phases:
+  - key: brewing
+    name: 广陵力学从兄治经
+    labels:
+      zh:
+      - 幼学
+      - 小学
+    start_date: 0935
+    highlight_event_id: guji-徐锴-event-birth
+  - key: breakthrough
+    name: 南唐登朝任校书郎
+    labels:
+      zh:
+      - 出仕
+      - 校书
+    start_date: 0943
+    highlight_event_id: guji-徐锴-event-1
+  - key: closure
+    name: 金陵守官终身不改
+    labels:
+      zh:
+      - 守节
+      - 传道
+    start_date: 0970
+    highlight_event_id: guji-徐锴-event-death
+  decisions:
+  - date: 0943
+    title_zh: 就秘书郎专治小学
+    rationale: 以字书为经义之本，不慕显宦而守冷局，方能深究六书
+- id: guji-徐锴-endeavor-2
+  title_zh: 传释说文作成系传
+  description: 因许慎说文无反切多脱误，作系传通释，设通论发明大义，新定反切
+  phases:
+  - key: brewing
+    name: 考订许书阙疑存旧
+    labels:
+      zh:
+      - 考据
+      - 阙疑
+    start_date: 0955
+    highlight_event_id: guji-徐锴-event-1
+  - key: climax
+    name: 系传通释成书
+    labels:
+      zh:
+      - 著述
+      - 六书
+    start_date: 0962
+    highlight_event_id: guji-徐锴-event-2
+  - key: closure
+    name: 兄铉校刊流传后世
+    labels:
+      zh:
+      - 刊行
+      - 传承
+    start_date: 0974
+    highlight_event_id: guji-徐锴-event-death
+  decisions:
+  - date: 0962
+    title_zh: 别立通论以明六书
+    rationale: 俗儒失真，后生懵然，故反复论象形指事形声会意转注假借为三耦，使玉石自分
+  - date: 0968
+    title_zh: 新易反切不从旧疏
+    rationale: 旧切疏朴脱误，当据今音重定切语以便诵读，虽僭亦为利学
+events:
+- id: guji-徐锴-event-birth
+  date: 0920
+  year_of: 920
+  title_zh: 生于广陵
+  description: 徐锴字楚金生于扬州广陵，与兄徐铉俱以文辞小学知名
+- id: guji-徐锴-event-1
+  date: 0943
+  year_of: 943
+  title_zh: 仕南唐为秘书校书郎
+  description: 仕南唐烈祖元宗朝，官文林郎守秘书省校书郎，掌校雠典籍
+- id: guji-徐锴-event-2
+  date: 0962
+  year_of: 962
+  title_zh: 撰成说文解字系传通释
+  description: 以说文为本作系传，首卷释一部上示三王玉诸部，发明六书通论并新定反切
+- id: guji-徐锴-event-death
+  date: 0974
+  year_of: 974
+  title_zh: 卒于金陵
+  description: 卒于金陵，年五十五，遗书由兄徐铉整理，与朱翱反切并行于世
