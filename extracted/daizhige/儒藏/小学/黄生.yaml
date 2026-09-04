@@ -1,0 +1,134 @@
+person:
+  qid: guji-黄生
+  name_zh: 黄生
+  names:
+    zh: 黄生
+    en: Huang Sheng
+  lifespan:
+    birth:
+      date: 1622
+      precision: year
+      is_circa: false
+      raw: 明天启二年徽州歙县
+    death:
+      date: 1690
+      precision: year
+      is_circa: true
+      raw: 卒年不详约清康熙晚期
+  birth_date: 1622
+  death_date: 1690
+  era: 清
+  reign_ref: 康熙
+  archetype: 训诂学家
+  dilemmas:
+  - title_zh: 遗民不仕与著述自见
+    description_zh: 前明诸生入清不求仕进以小学汉学寄志立身
+  - title_zh: 博奥求是与戒绝穿凿
+    description_zh: 每字皆有新义而根据博奥如何辨俗谬而不失考据
+  lesson: 治小学当博据古文钟鼎经史以实证求本音本义戒穿凿而贵精核
+  summary_first_person: 我是黄生字扶孟号白山徽州歙县人前明诸生清初治汉学小学取晋张揖字诂为名撰字诂一卷于六书多所发明欲以古字明经义而正俗谬
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%AD%97%E8%AF%82.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%AD%97%E8%AF%82.html
+endeavors:
+- id: guji-黄生-endeavor-1
+  title_zh: 撰字诂发明六书
+  summary_zh: 取晋张揖字诂名书考钟鼎古文经史发明六书训诂多有新义而博据精核
+  phases:
+  - key: brewing
+    name: 博考汉学小学
+    labels:
+      zh: 积累
+    start_date: 1645
+    highlight_event_id: guji-黄生-event-study
+  - key: breakthrough
+    name: 立说辨俗字
+    labels:
+      zh: 立说
+    start_date: 1665
+    highlight_event_id: guji-黄生-event-ziguwen
+  - key: climax
+    name: 字诂一卷成书
+    labels:
+      zh: 成书
+    start_date: 1675
+    highlight_event_id: guji-黄生-event-ziguwen
+  - key: closure
+    name: 四库收录传世
+    labels:
+      zh: 传世
+    start_date: 1780
+    highlight_event_id: guji-黄生-event-siku
+  decisions:
+  - date: 1665
+    title_zh: 取张揖字诂名书
+    rationale: 慕古人训诂之业以小学明经义不蹈明人勦说
+  - date: 1675
+    title_zh: 每字立新义而博据古文
+    rationale: 以钟鼎古文经史注疏为据发明六书本音本训辨正俗谬
+- id: guji-黄生-endeavor-2
+  title_zh: 遗民守志精核考据
+  summary_zh: 以前明诸生不仕新朝専力汉学训诂于疑难字详考音义源流虽间有失考而大体精核
+  phases:
+  - key: brewing
+    name: 明末为诸生
+    labels:
+      zh: 出身
+    start_date: 1640
+    highlight_event_id: guji-黄生-event-study
+  - key: breakthrough
+    name: 易代不仕治学
+    labels:
+      zh: 坚守
+    start_date: 1645
+    highlight_event_id: guji-黄生-event-study
+  - key: climax
+    name: 辨正经史俗解
+    labels:
+      zh: 辨正
+    start_date: 1670
+    highlight_event_id: guji-黄生-event-ziguwen
+  - key: closure
+    name: 纪昀等评其精核
+    labels:
+      zh: 评价
+    start_date: 1780
+    highlight_event_id: guji-黄生-event-siku
+  decisions:
+  - date: 1645
+    title_zh: 不仕新朝専治小学
+    rationale: 明亡不改志以训诂考据自见不附权贵不求闻达
+  - date: 1670
+    title_zh: 坚持博奥戒穿凿
+    rationale: 致力汉学于六书训诂尤専博据而不同明人勦说
+events:
+- id: guji-黄生-event-birth
+  title_zh: 生于徽州歙县
+  date: 1622
+  year_of: 1622
+  kind: birth
+  description_zh: 明天启二年生字扶孟号白山歙县人后为前明诸生
+- id: guji-黄生-event-study
+  title_zh: 为诸生治汉学小学
+  date: 1640
+  year_of: 1640
+  kind: career
+  description_zh: 明末为诸生明亡入清不仕致力汉学于六书训诂尤専长
+- id: guji-黄生-event-ziguwen
+  title_zh: 撰成字诂一卷
+  date: 1675
+  year_of: 1675
+  kind: career
+  description_zh: 取晋张揖字诂名书于六书多所发明每字皆有新义根据博奥辨正俗字俗音
+- id: guji-黄生-event-siku
+  title_zh: 字诂入四库得纪昀评
+  date: 1780
+  year_of: 1780
+  kind: career
+  description_zh: 乾隆四十五年四库馆臣纪昀等校上提要谓其不同明人勦说最为精核间有失考亦附订之
+- id: guji-黄生-event-death
+  title_zh: 卒于清康熙间
+  date: 1690
+  year_of: 1690
+  kind: death
+  description_zh: 卒年不详约康熙晚期遗字诂一卷传世
