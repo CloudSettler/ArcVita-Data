@@ -1,0 +1,138 @@
+person:
+  qid: guji-董鼎
+  name_zh: 董鼎
+  names:
+    zh: 董鼎
+    en: Dong Ding
+  lifespan:
+    birth:
+      date: '1230'
+      precision: year
+      is_circa: true
+      raw: 约宋理宗时生于鄱阳
+    death:
+      date: '1320'
+      precision: year
+      is_circa: true
+      raw: 至大后卒年不详
+  birth_date: '1230'
+  death_date: '1320'
+  era: 元
+  reign_ref: 元武宗至大
+  archetype: 守传折衷型经师
+  dilemmas:
+  - 集传宗朱而阙失并存如何补阙而不叛师说
+  - 传注盈斥遗珠弃玉如何荟稡归一以成一经
+  lesson: 以朱翼朱荟稡成经阙疑折衷以便君心王政之观览
+  summary_first_person: 吾鄱阳董鼎字季亨再传私淑朱子以蔡氏集传为宗辑录语录纂注诸家荟稡以成朱子之一经
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%9A%E4%B9%A6/%E4%B9%A6%E4%BC%A0%E8%BE%91%E5%BD%95%E7%BA%82%E6%B3%A8.html
+endeavors:
+- id: guji-董鼎-endeavor-1
+  title_zh: 私淑朱学再传得统
+  summary_zh: 从族兄董梦程闻勉斋黄干绪论私淑朱子奠定释经宗旨
+  phases:
+  - key: brewing
+    name: 鄱阳受学
+    labels:
+      zh: 族兄介轩亲受学于勉斋
+    start_date: '1245'
+    highlight_event_id: guji-董鼎-event-study
+  - key: breakthrough
+    name: 再传私淑
+    labels:
+      zh: 得朱子再传释经多出朱子
+    start_date: '1260'
+    highlight_event_id: guji-董鼎-event-study
+  - key: closure
+    name: 立宗守传
+    labels:
+      zh: 取订定集传为宗以朱为主
+    start_date: '1290'
+    highlight_event_id: guji-董鼎-event-compile
+  decisions:
+  - date: '1260'
+    title_zh: 从梦程闻绪论而私淑
+    rationale: 生也晚道未闻赖族兄亲受学于黄氏故再传获私淑以朱子为归
+  - date: '1290'
+    title_zh: 以蔡氏集传为宗
+    rationale: 集传既为朱子所订定则与自著无异故当守其本而补其阙
+- id: guji-董鼎-endeavor-2
+  title_zh: 纂辑书传辑录纂注
+  summary_zh: 搜辑朱子语录附于蔡传之后增纂诸家发明以成六卷
+  phases:
+  - key: brewing
+    name: 搜辑语录
+    labels:
+      zh: 辑录朱子语及他书所载朱子语
+    start_date: '1295'
+    highlight_event_id: guji-董鼎-event-compile
+  - key: breakthrough
+    name: 增纂诸家
+    labels:
+      zh: 采诸说相发明者附列于末
+    start_date: '1300'
+    highlight_event_id: guji-董鼎-event-compile
+  - key: climax
+    name: 荟稡成经
+    labels:
+      zh: 防粹以成朱子之一经
+    start_date: 1308-12
+    highlight_event_id: guji-董鼎-event-preface
+  - key: closure
+    name: 至大序成
+    labels:
+      zh: 至大戊申十二月序于鄱阳
+    start_date: 1308-12
+    highlight_event_id: guji-董鼎-event-preface
+  decisions:
+  - date: '1295'
+    title_zh: 名曰辑录附蔡传之次
+    rationale: 补集传阙失恐人疑源出朱子故特引朱子之说以朱翼朱则不以异蔡为嫌
+  - date: '1300'
+    title_zh: 名曰纂注附辑录之后
+    rationale: 推蔡氏所本发其未尽补其不及并间缀鄙见备临政愿治观览
+  - date: 1308-12
+    title_zh: 纲领凡例定体例
+    rationale: 训诂居先释经义次之疏传释音又次之以经文为序以便统宗防元无参稽之劳
+events:
+- id: guji-董鼎-event-birth
+  date: '1230'
+  precision: year
+  is_circa: true
+  title_zh: 生于鄱阳
+  description: 董鼎字季亨鄱阳人约宋理宗时生族兄梦程从黄干游
+  year_of: 1230
+  role: birth
+- id: guji-董鼎-event-study
+  date: '1260'
+  precision: year
+  is_circa: true
+  title_zh: 从董梦程闻朱子绪论
+  description: 赖族兄介轩梦程亲受学于勉斋黄氏槃涧董氏再传而获私淑释经绪论多出朱子
+  year_of: 1260
+  role: study
+- id: guji-董鼎-event-compile
+  date: '1300'
+  precision: year
+  is_circa: true
+  title_zh: 搜辑语录增纂诸家注
+  description: 以蔡沈集传为宗搜辑语录于其次增纂诸家相发明者间缀鄙见分为六卷
+  year_of: 1300
+  role: compile
+- id: guji-董鼎-event-preface
+  date: 1308-12
+  precision: month
+  is_circa: false
+  title_zh: 至大戊申十二月序成书传辑录纂注
+  description: 鄱阳董鼎序言荟稡成朱子之一经以备君心王政人才民生之观览
+  year_of: 1308
+  role: preface
+- id: guji-董鼎-event-death
+  date: '1320'
+  precision: year
+  is_circa: true
+  title_zh: 至大后卒
+  description: 序成之后隐居授徒卒年不详附四库提要传其书
+  year_of: 1320
+  role: death
