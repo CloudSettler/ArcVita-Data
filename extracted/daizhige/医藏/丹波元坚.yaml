@@ -3,120 +3,152 @@ person:
   name_zh: 丹波元坚
   names:
     zh: 丹波元坚
-    en: Tanba Motokata
+    en: Tamba Genken
   lifespan:
     birth:
-      date: '1795'
+      date: '1789'
       precision: year
       is_circa: true
-      raw: 约宽政七年出生于京都医家
+      raw: 宽政元年左右
     death:
-      date: '1866'
+      date: '1857'
       precision: year
       is_circa: true
-      raw: 约庆应二年卒
-  birth_date: '1795'
-  death_date: '1866'
+      raw: 安政四年左右
+  birth_date: '1789'
+  death_date: '1857'
   era: 江户时代后期
-  reign_ref: 仁孝天皇至明治初
-  archetype: 汇纂考据型医家
+  reign_ref: 天保壬寅
+  archetype: 集注校勘型汉方医家
   dilemmas:
-  - 金元以降中风真中类中之争纷拿当如何折衷归一
-  - 外风内虚闭脱寒热交杂当如何定证对方而不误投温清
-  lesson: 辨证必先辨虚实内外闭脱以定证对方为要不可执一家之言
-  summary_first_person: 我生于丹波医门目睹中风诸说纷拿故博采内经病源千金金匮以迄金元明清诸家以定证对方为纲编成杂病广要外因类但愿后学先别真类闭脱寒热而后施治不致误人性命
+  - 先人辑义已极精核，续补则恐成赘述，不补则诸家粹言散佚难征
+  - 众注异同迂僻并存，存其粹而去其僻难得其平，又恐误导后学子弟
+  lesson: 守先业而不泥先业，撷众说之粹以补阙，校异本以求是，方能使经旨不坠而惠及后人
+  summary_first_person: 吾受读先教谕金匮辑义，时有管见，又见赵以德衍义、周扬俊补义、朱光被正义皆出先人下世之后，乃撷其粹，标记于辑义上层，复校赵开美本与朝鲜医方类聚之异同，整录为编，不敢谓有裨学人，窃比鸡肋，以供子弟参对而已
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9D%82%E7%97%85%E5%B9%BF%E8%A6%81.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9D%82%E7%97%85%E5%B9%BF%E8%A6%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E7%8E%89%E5%87%BD%E8%A6%81%E7%95%A5%E8%BF%B0%E4%B9%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%87%91%E5%8C%AE%E7%8E%89%E5%87%BD%E8%A6%81%E7%95%A5%E8%BF%B0%E4%B9%89.md
 endeavors:
 - id: guji-丹波元坚-endeavor-1
-  title_zh: 编纂杂病广要外因类
-  summary_zh: 博采内经至医宗金鉴诸书以中风为首汇集源因脉候证治预防系统成编
+  title_zh: 承家学受读辑义并参补二注正义
+  summary: 受读先教谕晚年定本金匮辑义，参以赵以德衍义、周扬俊补义、朱光被正义之粹，标记于辑义上层以备参对
   phases:
   - key: brewing
-    name: 博采群书立纲
+    name: 受读辑义
     labels:
-      zh: 汇集内经病源千金金匮证治诸书
-    start_date: '1825'
-    highlight_event_id: guji-丹波元坚-event-1
+      zh:
+      - 家学
+      - 受读
+    start_date: '1805'
+    highlight_event_id: guji-丹波元坚-event-study
   - key: breakthrough
-    name: 以定证对方为要
+    name: 拾补三家
     labels:
-      zh: 舍真类空辨专取证方对应
-    start_date: '1835'
-    highlight_event_id: guji-丹波元坚-event-1
+      zh:
+      - 辑佚
+      - 参补
+    start_date: '1820'
+    highlight_event_id: guji-丹波元坚-event-collect
   - key: climax
-    name: 外因类中风门成
+    name: 标记层累
     labels:
-      zh: 总说风有内外脏腑血脉经络闭脱
-    start_date: '1845'
-    highlight_event_id: guji-丹波元坚-event-1
+      zh:
+      - 评注
+      - 层注
+    start_date: '1830'
+    highlight_event_id: guji-丹波元坚-event-collect
   - key: closure
-    name: 广要流布后学
+    name: 示同鸡肋
     labels:
-      zh: 垂训预防调气活血灸法固脱
-    start_date: '1855'
-    highlight_event_id: guji-丹波元坚-event-2
+      zh:
+      - 谦退
+      - 贻后
+    start_date: '1842-05-01'
+    highlight_event_id: guji-丹波元坚-event-preface
   decisions:
-  - date: '1835'
-    title_zh: 存真类之辨梗概专主定证对方
-    rationale: 金元以来非风类中之争徒乱人意不如就长沙之旨归于证方实用
-  - date: '1845'
-    title_zh: 首列中风详载五脏中风灸法与开阖轻重之辨
-    rationale: 中藏性命危中府肢体废闭脱误治即死必先察口眼开阖涎沫有无以别治
+  - date: '1820'
+    title_zh: 不另立注而附标上层
+    rationale: 先人定本已极精核，另立恐成赘述，故以撷粹标记为妥，不没前功而兼存新说
+  - date: '1830'
+    title_zh: 兼取赵周朱三家之粹
+    rationale: 三家皆出先人下世之后，偶有扩充经旨者，取其合于仲景本意者以补辑义之阙
 - id: guji-丹波元坚-endeavor-2
-  title_zh: 折衷中风病因守护家学
-  summary_zh: 调和河间主火东垣主气彦修主湿与长沙风邪之说倡内虚召风外风引肝风
+  title_zh: 校勘异本纂成金匮玉函要略述义
+  summary: 以皇国重刊赵开美本为主，参以原刻及朝鲜医方类聚所据宋元旧刻，校异同，疏经旨，整录成编以训子弟
   phases:
   - key: brewing
-    name: 考镜源流
+    name: 访求异本
     labels:
-      zh: 研读溯洄集正传丹台玉案金匮翼
-    start_date: '1828'
-    highlight_event_id: guji-丹波元坚-event-2
+      zh:
+      - 校勘
+      - 访书
+    start_date: '1825'
+    highlight_event_id: guji-丹波元坚-event-collate
   - key: breakthrough
-    name: 立内虚外风相召之论
+    name: 参校得失
     labels:
-      zh: 邪之所凑其气必虚肝风为始基
-    start_date: '1838'
-    highlight_event_id: guji-丹波元坚-event-2
+      zh:
+      - 对校
+      - 辨误
+    start_date: '1832'
+    highlight_event_id: guji-丹波元坚-event-collate
   - key: climax
-    name: 别中风中气闭脱寒热虚实
+    name: 疏解经旨
     labels:
-      zh: 身温多痰为风身冷无痰为气闭宜开脱宜补
-    start_date: '1848'
-    highlight_event_id: guji-丹波元坚-event-2
+      zh:
+      - 疏义
+      - 辨证
+    start_date: '1838'
+    highlight_event_id: guji-丹波元坚-event-preface
   - key: closure
-    name: 示预防调摄之法
+    name: 整录题辞
     labels:
-      zh: 节欲远色养气血戒暴怒房劳
-    start_date: '1858'
-    highlight_event_id: guji-丹波元坚-event-2
+      zh:
+      - 成编
+      - 题辞
+    start_date: '1842-05-01'
+    highlight_event_id: guji-丹波元坚-event-preface
   decisions:
+  - date: '1825'
+    title_zh: 以原刻正重刊之失
+    rationale: 重刊间失其旧，得原刻勘之可复旧文，不可尽信流俗本
   - date: '1838'
-    title_zh: 主真类不分途以内虚统外风
-    rationale: 体虚腠疏则风得入无肝风内应则不成卒倒偏枯故内外合参方尽其情
-  - date: '1848'
-    title_zh: 严别闭脱禁以苏合牛黄施于脱证
-    rationale: 闭者邪闭于外元气在内可开脱者元气泄于外误下斩关之药如入井下石
+    title_zh: 并揭类聚异文不没所疑
+    rationale: 朝鲜医方类聚所据似宋元旧刻，与今本互有异同，并校而揭之，使学者知有别本可参
 events:
 - id: guji-丹波元坚-event-birth
-  date: '1795'
-  year_of: 1795
-  title_zh: 出生于京都丹波医家
-  description_zh: 生于世代业医之丹波氏幼承家学博览方书
-- id: guji-丹波元坚-event-1
-  date: '1845'
-  year_of: 1845
-  title_zh: 杂病广要外因类中风门编成
-  description_zh: 汇内经病源圣惠三因千金金匮诸家之说分源因风有内外真类脉候先兆五脏脏腑血脉经络闭脱冷热虚实相类死证预防治法为一门
-- id: guji-丹波元坚-event-2
-  date: '1848'
-  year_of: 1848
-  title_zh: 考定中风闭脱与中气之别垂示后学
-  description_zh: 参绳墨纲目汇补诸书立闭宜苏合至宝开通脱宜大剂参附理中灸脐以回阳并辨风中身温气中身冷以正丹溪纂要之旨
+  title_zh: 诞生于医家丹波氏
+  date: '1789'
+  year_of: 1789
+  place_zh: 日本京都
+  description: 生于汉方医家，先教谕之子，自幼习经方之学
+- id: guji-丹波元坚-event-study
+  title_zh: 受读先教谕金匮辑义
+  date: '1805'
+  year_of: 1805
+  place_zh: 家塾
+  description: 受读晚年定本辑义，时有管见，萌参补诸家之意
+- id: guji-丹波元坚-event-collect
+  title_zh: 撷取赵周朱三家之粹
+  date: '1828'
+  year_of: 1828
+  place_zh: 京都
+  description: 采集赵以德衍义、周扬俊二注、朱光被正义之粹语，标记于辑义上层
+- id: guji-丹波元坚-event-collate
+  title_zh: 校勘赵开美本与类聚本
+  date: '1835'
+  year_of: 1835
+  place_zh: 京都
+  description: 以皇国重刊赵开美本为主，参原刻及朝鲜医方类聚本，校其异同得失
+- id: guji-丹波元坚-event-preface
+  title_zh: 天保壬寅首夏题辞成编
+  date: '1842-05-01'
+  year_of: 1842
+  place_zh: 京都
+  description: 整录为编，题辞以供子弟参对，是为金匮玉函要略述义
 - id: guji-丹波元坚-event-death
-  date: '1866'
-  year_of: 1866
-  title_zh: 病卒留书广要传世
-  description_zh: 晚年以杂病广要授门人其论中风定证对方与预防调摄之法为后世所宗
+  title_zh: 辞世
+  date: '1857'
+  year_of: 1857
+  place_zh: 京都
+  description: 述义稿已成，门流传刻，医籍考等并著其学
