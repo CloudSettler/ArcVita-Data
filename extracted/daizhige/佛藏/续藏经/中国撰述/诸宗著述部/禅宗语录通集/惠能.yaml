@@ -1,0 +1,133 @@
+person:
+  qid: guji-惠能
+  name_zh: 惠能
+  names:
+    zh: 惠能
+    en: Huineng
+  lifespan:
+    birth:
+      date: '0638-01-01'
+      precision: year
+      is_circa: false
+      raw: 贞观十二年岭南生
+    death:
+      date: '0713-01-01'
+      precision: year
+      is_circa: false
+      raw: 先天二年寂于新州
+  birth_date: '0638-01-01'
+  death_date: '0713-01-01'
+  era: 唐代
+  reign_ref: 贞观至先天
+  archetype: 顿悟开宗者
+  dilemmas:
+  - 不立文字与广度群迷之间如何住持
+  - 顿悟直指与渐修次第之间如何接引
+  lesson: 心地含藏诸种普雨悉萌顿悟花情菩提果成
+  summary_first_person: 我本岭南樵子闻金刚经而萌志北上黄梅蒙五祖夜付衣法南归隐遁后住曹溪直指心地普令见性顿悟花开
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E8%AF%B8%E5%AE%97%E8%91%97%E8%BF%B0%E9%83%A8/%E7%A6%85%E5%AE%97%E8%AF%AD%E5%BD%95%E9%80%9A%E9%9B%86/%E7%A6%85%E9%97%A8%E8%AF%B8%E7%A5%96%E5%B8%88%E5%81%88%E9%A2%82.html
+endeavors:
+- id: guji-惠能-endeavor-1
+  person_id: guji-惠能
+  title_zh: 黄梅求法得衣钵
+  summary: 闻经发心北上礼五祖以碓房苦行呈心偈夜受传付
+  phases:
+  - key: brewing
+    name: 樵采闻经
+    labels:
+      zh: 闻金刚经有省
+    start_date: '0654-01-01'
+    highlight_event_id: guji-惠能-event-huangmei
+  - key: breakthrough
+    name: 黄梅投师
+    labels:
+      zh: 礼弘忍舂米行道
+    start_date: '0671-01-01'
+    highlight_event_id: guji-惠能-event-huangmei
+  - key: climax
+    name: 夜半传法
+    labels:
+      zh: 呈偈得衣钵南归
+    start_date: '0675-01-01'
+    highlight_event_id: guji-惠能-event-huangmei
+  - key: closure
+    name: 南荒隐遁
+    labels:
+      zh: 避难猎队养圣胎
+    start_date: '0676-01-01'
+    highlight_event_id: guji-惠能-event-caoqi
+  decisions:
+  - date: '0671-01-01'
+    title_zh: 决计北上黄梅
+    rationale: 为求无上菩提不辞远行投弘忍座下
+  - date: '0675-01-01'
+    title_zh: 呈心偈不受人谩
+    rationale: 直陈本性无住无所得以应无住而生心
+- id: guji-惠能-endeavor-2
+  person_id: guji-惠能
+  title_zh: 曹溪开法弘顿宗
+  summary: 祝发受戒住曹溪宝林说法四众普雨顿悟成风偈付心地含种
+  phases:
+  - key: brewing
+    name: 法性出山
+    labels:
+      zh: 广州遇印宗论风幡
+    start_date: '0677-01-01'
+    highlight_event_id: guji-惠能-event-caoqi
+  - key: breakthrough
+    name: 曹溪说法
+    labels:
+      zh: 直指心地见性成佛
+    start_date: '0680-01-01'
+    highlight_event_id: guji-惠能-event-caoqi
+  - key: climax
+    name: 普雨化众
+    labels:
+      zh: 心地含种普雨皆萌
+    start_date: '0700-01-01'
+    highlight_event_id: guji-惠能-event-caoqi
+  - key: closure
+    name: 付嘱圆寂
+    labels:
+      zh: 留心地偈归真新州
+    start_date: '0713-01-01'
+    highlight_event_id: guji-惠能-event-death
+  decisions:
+  - date: '0677-01-01'
+    title_zh: 祝发出家登坛
+    rationale: 为正法住世受具弘化以师承分明接引后学
+  - date: '0700-01-01'
+    title_zh: 以心地偈付众
+    rationale: 示顿悟花情菩提果成不假外求普令自悟
+events:
+- id: guji-惠能-event-birth
+  person_id: guji-惠能
+  type: birth
+  date: '0638-01-01'
+  year_of: 638
+  title_zh: 岭南出生
+  description: 贞观十二年生于岭南家贫樵采养母性朴直
+- id: guji-惠能-event-huangmei
+  person_id: guji-惠能
+  endeavor_id: guji-惠能-endeavor-1
+  type: endeavor
+  date: '0675-01-01'
+  year_of: 675
+  title_zh: 黄梅夜付衣法
+  description: 舂米八月呈菩提本无树偈五祖夜三更授衣钵令南归
+- id: guji-惠能-event-caoqi
+  person_id: guji-惠能
+  endeavor_id: guji-惠能-endeavor-2
+  type: endeavor
+  date: '0680-01-01'
+  year_of: 680
+  title_zh: 曹溪说法传心地偈
+  description: 住曹溪宝林说法言心地含诸种普雨悉皆萌顿悟花情已菩提果自成
+- id: guji-惠能-event-death
+  person_id: guji-惠能
+  type: death
+  date: '0713-01-01'
+  year_of: 713
+  title_zh: 新州圆寂
+  description: 先天二年示寂于新州国恩寺塔于曹溪南华示无所得而化终

@@ -1,0 +1,152 @@
+person:
+  qid: guji-临济义玄
+  name_zh: 临济义玄
+  names:
+    zh: 临济义玄
+    en: Linji Yixuan
+  lifespan:
+    birth:
+      date: 0810
+      precision: year
+      is_circa: true
+      raw: 曹州南华人俗姓邢生年未详
+    death:
+      date: '0867-01-10'
+      precision: day
+      is_circa: false
+      raw: 唐咸通八年丁亥孟陬月十日
+  birth_date: 0810
+  death_date: '0867-01-10'
+  era: 唐末
+  reign_ref: 唐懿宗咸通八年
+  archetype: 临济宗开宗禅师
+  dilemmas:
+  - 经论研习与教外别传之间的取舍
+  - 兵革扰攘中坚守弘化与拂衣而去之间的取舍
+  lesson: 不滞经论医方直指别传方能接机济世
+  summary_first_person: 吾邢氏子曹州南华人幼颕异长以孝闻落发受具精究毗尼博颐经论叹为济世医方遂更衣游方首参黄檗次谒大愚得印可后住镇州临济终至大名兴化示寂
+  source_urls:
+  - https://daizhige.org/續古尊宿語要目錄.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/續古尊宿語要目錄.md
+endeavors:
+- id: guji-临济义玄-endeavor-1
+  title_zh: 落发出家游方得法
+  summary: 精究毗尼经论后叹为医方转而游方参黄檗大愚得印可
+  phases:
+  - key: brewing
+    name: 讲肆究律
+    labels:
+      zh:
+      - 研习
+    start_date: 0830
+    highlight_event_id: guji-临济义玄-event-study
+  - key: breakthrough
+    name: 参黄檗得印
+    labels:
+      zh:
+      - 求决
+    start_date: 0850
+    highlight_event_id: guji-临济义玄-event-huangbo
+  - key: climax
+    name: 机缘载行录
+    labels:
+      zh:
+      - 印可
+    start_date: 0852
+    highlight_event_id: guji-临济义玄-event-huangbo
+  - key: closure
+    name: 抵河北待机
+    labels:
+      zh:
+      - 行脚
+    start_date: 0853
+    highlight_event_id: guji-临济义玄-event-zhuzhou
+  decisions:
+  - date: 0845
+    title_zh: 舍经论而游方
+    rationale: 以经论为济世医方非教外别传之旨故更衣参禅
+  - date: 0850
+    title_zh: 首参黄檗次谒大愚
+    rationale: 为求别传心印直指解脱故遍参得印可
+- id: guji-临济义玄-endeavor-2
+  title_zh: 住持临济弘化一方
+  summary: 住镇州临济小院佐普化而化旺历兵革迁兴化示寂建塔
+  phases:
+  - key: brewing
+    name: 住临济小院
+    labels:
+      zh:
+      - 住持
+    start_date: 0855
+    highlight_event_id: guji-临济义玄-event-zhuzhou
+  - key: breakthrough
+    name: 佐普化化旺
+    labels:
+      zh:
+      - 弘化
+    start_date: 0857
+    highlight_event_id: guji-临济义玄-event-zhuzhou
+  - key: climax
+    name: 舍宅为寺迎居
+    labels:
+      zh:
+      - 开堂
+    start_date: 0860
+    highlight_event_id: guji-临济义玄-event-daming
+  - key: closure
+    name: 兴化示寂建塔
+    labels:
+      zh:
+      - 圆寂
+    start_date: '0867-01-10'
+    highlight_event_id: guji-临济义玄-event-death
+  decisions:
+  - date: 0860
+    title_zh: 逢兵革弃去而再住
+    rationale: 适丁兵革则弃小院去太尉舍宅为寺则应请居焉以续慧命
+  - date: 0866
+    title_zh: 南迈河府至兴化
+    rationale: 拂衣南迈应王常侍与兴化之请随缘接物终老示寂
+events:
+- id: guji-临济义玄-event-birth
+  kind: birth
+  title_zh: 诞生于曹州南华
+  date: 0810
+  year_of: 810
+  place: 曹州南华
+  description: 俗姓邢幼而颕异长以孝闻
+- id: guji-临济义玄-event-study
+  kind: study
+  title_zh: 落发受具精究经论
+  date: 0835
+  year_of: 835
+  place: 讲肆
+  description: 居讲肆精究毗尼博颐经论叹为济世医方
+- id: guji-临济义玄-event-huangbo
+  kind: dharma
+  title_zh: 参黄檗大愚得印可
+  date: 0850
+  year_of: 850
+  place: 黄檗山
+  description: 首参黄檗次谒大愚机缘语句载于行录既受黄檗印可
+- id: guji-临济义玄-event-zhuzhou
+  kind: abbacy
+  title_zh: 住镇州临济弘化
+  date: 0855
+  year_of: 855
+  place: 镇州临滹沱河侧临济小院
+  description: 抵河北住小院因地得名佐普化而正旺化适兵革弃去太尉默君和舍宅为寺迎居
+- id: guji-临济义玄-event-daming
+  kind: abbacy
+  title_zh: 迁河府至大名兴化
+  date: 0866
+  year_of: 866
+  place: 大名府兴化寺东堂
+  description: 拂衣南迈至河府受王常侍师礼未几来大名府兴化寺居东堂
+- id: guji-临济义玄-event-death
+  kind: death
+  title_zh: 示寂于兴化建塔
+  date: '0867-01-10'
+  year_of: 867
+  place: 大名府兴化寺
+  description: 无疾摄衣据坐与三圣问答毕寂然逝门人建塔西北隅敕谥慧照塔号澄灵
