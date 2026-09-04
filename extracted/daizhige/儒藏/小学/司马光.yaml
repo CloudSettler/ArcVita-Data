@@ -9,119 +9,122 @@ person:
       date: 1019-11-17
       precision: day
       is_circa: false
-      raw: 天圣七年十月十八日陕州夏县
+      raw: 天禧三年九月
     death:
       date: 1086-10-11
       precision: day
       is_circa: false
-      raw: 元祐元年九月卒于开封
+      raw: 元祐元年九月
   birth_date: 1019-11-17
   death_date: 1086-10-11
   era: 北宋
-  reign_ref: 宋仁宗至宋哲宗
-  archetype: 守正儒相
+  reign_ref: 宋英宗治平至宋哲宗元祐
+  archetype: 经世史家
   dilemmas:
-  - 守祖制与便民新法之间何去何从
-  - 穷小学音韵精微与经世致用之间如何兼顾
-  lesson: 守正以尽精微经世以致广大
-  summary_first_person: 吾为涑水司马光早参集韵之役后科别清浊为二十图以便学者又纂通鉴以鉴兴替愿以正直事君以简径惠学
+  - 以声统字与以形统字如何兼备而不乱
+  - 从古存真与从今便用如何权衡而不失据
+  lesson: 天下之物虽多预为之待则各获其处治字书如治天下
+  summary_first_person: 吾代镇监缮类篇乃知字书以声相从有集韵以形相从有类篇二者相副方尽其变吾以说文为本立九例使万物各得其所
   source_urls:
-  - https://daizhige.org/儒藏/小学/切韻指掌圖.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/小学/切韵指掌图.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E7%B1%BB%E7%AF%87.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E7%B1%BB%E7%AF%87.md
 endeavors:
 - id: guji-司马光-endeavor-1
-  title_zh: 参修集韵科韵为图
-  summary: 继丁度李淑集韵之业科别清浊撰切韵指掌图二十图以便学者检韵
+  title_zh: 监缮类篇成书
+  summary_zh: 治平三年代范镇监修类篇缮写进呈以形统字与集韵相副
   phases:
   - key: brewing
-    name: 承诏继修集韵
+    name: 代镇受命
     labels:
-      zh: 集韵考订
-    start_date: 1049-01-01
-    highlight_event_id: guji-司马光-event-jiyun
+      zh:
+      - 代修受命
+    start_date: 1066-02-01
+    highlight_event_id: guji-司马光-event-leipian
   - key: breakthrough
-    name: 科别清浊立纲
+    name: 以说文为本立九例
     labels:
-      zh: 三十六字母
-    start_date: 1056-01-01
-    highlight_event_id: guji-司马光-event-jiyun
+      zh:
+      - 九例编纂
+    start_date: 1066-06-01
+    highlight_event_id: guji-司马光-event-leipian
   - key: climax
-    name: 撰成二十图
+    name: 缮写校正
     labels:
-      zh: 切韵指掌图
-    start_date: 1060-01-01
-    highlight_event_id: guji-司马光-event-zhitu
+      zh:
+      - 缮写校正
+    start_date: 1067-06-01
+    highlight_event_id: guji-司马光-event-leipian
   - key: closure
-    name: 图传于学官便检
+    name: 进呈上之
     labels:
-      zh: 惠学便览
-    start_date: 1067-01-01
-    highlight_event_id: guji-司马光-event-zhitu
+      zh:
+      - 成书进呈
+    start_date: 1067-12-01
+    highlight_event_id: guji-司马光-event-leipian
   decisions:
-  - date: 1056-06-01
-    title_zh: 以三十六字母总三百八十四声
-    rationale: 纵横上下旁通曲畅律度精密最为捷径
-  - date: 1060-03-01
-    title_zh: 辨开阖审清浊分四声八转
-    rationale: 使二百六韵之字案图可索声随口出
+  - date: 1066-02-01
+    title_zh: 代范镇监修类篇
+    rationale: 书已成而缮写未毕须专官董其事以副集韵
+  - date: 1067-12-01
+    title_zh: 奏进类篇四十五卷
+    rationale: 以形相从与以声相从相副使天下之字无不得其处
 - id: guji-司马光-endeavor-2
-  title_zh: 纂资治通鉴直谏辅政
-  summary: 历仁英神哲四朝以史为鉴直谏守正晚年拜相罢新法以安天下
+  title_zh: 编撰资治通鉴
+  summary_zh: 历仕仁宗至神宗博采旧史删繁举要以资治道
   phases:
   - key: brewing
-    name: 进读通志直言谏政
+    name: 藏书立志
     labels:
-      zh: 仁英谏诤
+      zh:
+      - 博学好古
     start_date: 1064-01-01
     highlight_event_id: guji-司马光-event-tongjian
   - key: breakthrough
-    name: 献通志得诏置局
+    name: 进通志受诏续修
     labels:
-      zh: 通鉴创局
+      zh:
+      - 受诏修史
     start_date: 1066-01-01
     highlight_event_id: guji-司马光-event-tongjian
   - key: climax
-    name: 洛阳著史十九年成书
+    name: 洛阳独修十九年
     labels:
-      zh: 通鉴成书
+      zh:
+      - 专精著述
     start_date: 1071-01-01
     highlight_event_id: guji-司马光-event-tongjian
   - key: closure
-    name: 元祐拜相行更化
+    name: 书成进呈
     labels:
-      zh: 元祐更化
-    start_date: 1085-01-01
-    highlight_event_id: guji-司马光-event-death
+      zh:
+      - 通鉴进呈
+    start_date: 1084-12-01
+    highlight_event_id: guji-司马光-event-tongjian
   decisions:
-  - date: 1066-10-01
-    title_zh: 以编年体汇通古今成一家之史
-    rationale: 鉴前世兴衰以资人君治道
-  - date: 1085-06-01
-    title_zh: 拜门下侍郎尽罢新法之病民者
-    rationale: 守祖宗之法以安人心惜民力为先
+  - date: 1066-01-01
+    title_zh: 进历年图通志乞续修
+    rationale: 鉴前世兴衰以资人君治道必有长编乃可删成
+  - date: 1071-01-01
+    title_zh: 退居洛阳专修通鉴
+    rationale: 政见不合不欲苟容宁以著述存经世之志
 events:
 - id: guji-司马光-event-birth
   date: 1019-11-17
   year_of: 1019
-  title_zh: 生于陕州夏县
-  description: 天圣七年十月十八日生于陕州夏县世称涑水先生
-- id: guji-司马光-event-jiyun
-  date: 1056-01-01
-  year_of: 1056
-  title_zh: 继修集韵成书颁行
-  description: 治平年间继丁度等纂集韵成书奉诏颁行穷搜古文奇字而留意音韵
-- id: guji-司马光-event-zhitu
-  date: 1060-01-01
-  year_of: 1060
-  title_zh: 撰成切韵指掌图二十图
-  description: 科别清浊为二十图以三十六字母列上推四声相生旁通曲畅
+  title_zh: 出生
+  description: 宋真宗天禧三年九月生于光州光山
+- id: guji-司马光-event-leipian
+  date: 1067-12-01
+  year_of: 1067
+  title_zh: 监修类篇进呈
+  description: 治平三年代范镇监缮类篇至治平四年十二月缮写毕上之凡四十五卷文三万一千三百一十九
 - id: guji-司马光-event-tongjian
   date: 1084-12-01
   year_of: 1084
-  title_zh: 资治通鉴成书进呈
-  description: 历十九年于洛阳成资治通鉴二百九十四卷进呈神宗赐名亲序
+  title_zh: 资治通鉴成书
+  description: 元丰七年资治通鉴二百九十四卷成进呈神宗赐名序之
 - id: guji-司马光-event-death
   date: 1086-10-11
   year_of: 1086
-  title_zh: 卒于开封京师
-  description: 元祐元年九月卒于位赠温国公谥文正四方会葬哭如私亲
+  title_zh: 逝世
+  description: 宋哲宗元祐元年九月卒于汴京追赠太师温国公谥文正
