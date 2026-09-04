@@ -1,0 +1,124 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: false
+      raw: 周灵王二十一年庚戌生於鲁昌平陬邑
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: true
+      raw: 年七十三而卒
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 东周春秋
+  reign_ref: 周灵王二十一年至周敬王四十一年
+  archetype: 训人修礼型圣人
+  dilemmas:
+  - title_zh: 礼崩乐坏人心何归
+    description: 周室衰微礼制废弛当以何道训人化俗以立生人之纪
+  - title_zh: 述而不作何以传后
+    description: 欲修图书明礼乐而恐时不见用当述往圣以开来学
+  lesson: 以大中至正之道化人修礼乐以正人心述往圣以垂后范
+  summary_first_person: 吾名丘字仲尼生於鲁陬邑首上圩顶年七十三而终平生修礼乐述图书以训人愿后之览者有所持循
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%BC%96%E5%B9%B4%E9%80%9A%E5%8F%B2/%E5%8E%86%E6%9C%9D%E9%87%8A%E6%B0%8F%E8%B5%84%E9%89%B4.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E7%BB%AD%E8%97%8F%E7%BB%8F/%E4%B8%AD%E5%9B%BD%E6%92%B0%E8%BF%B0/%E5%8F%B2%E4%BC%A0%E9%83%A8/%E7%BC%96%E5%B9%B4%E9%80%9A%E5%8F%B2/%E5%8E%86%E6%9C%9D%E9%87%8A%E6%B0%8F%E8%B5%84%E9%89%B4.html
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 修礼乐述图书
+  summary: 承周公之绪训人修礼乐删述图书以明教化
+  phases:
+  - key: brewing
+    name: 生於鲁而好礼
+    labels:
+      zh:
+      - 好礼
+      - 生长於鲁
+    start_date: -551-09-28
+    highlight_event_id: guji-孔子-event-birth
+  - key: breakthrough
+    name: 修明礼乐
+    labels:
+      zh:
+      - 修礼乐
+      - 述图书
+    start_date: -521-01-01
+    highlight_event_id: guji-孔子-event-xiuli
+  - key: climax
+    name: 以礼训人化成於鲁
+    labels:
+      zh:
+      - 训人
+      - 化俗
+    start_date: -500-01-01
+    highlight_event_id: guji-孔子-event-chengjiao
+  decisions:
+  - date: -521-01-01
+    title_zh: 决定修礼乐以训人
+    rationale: 见礼崩乐坏故修周公之典以正人心立生人之纪
+  - date: -500-01-01
+    title_zh: 决定述图书以传后
+    rationale: 欲使百王纲理世变之道有所持循故述而不作垂范后世
+- id: guji-孔子-endeavor-2
+  title_zh: 以丈夫之道化民成俗
+  summary: 以丈夫之称行大中至正之道化民成俗为万世师表
+  phases:
+  - key: brewing
+    name: 立志弘道
+    labels:
+      zh:
+      - 立志
+      - 弘道
+    start_date: -536-01-01
+    highlight_event_id: guji-孔子-event-xiuli
+  - key: closure
+    name: 七十三而终垂范万世
+    labels:
+      zh:
+      - 师表
+      - 垂范
+    start_date: -479-04-11
+    highlight_event_id: guji-孔子-event-death
+  decisions:
+  - date: -536-01-01
+    title_zh: 决定以正道化人
+    rationale: 以大中至正化人虽困厄而不改其志
+  - date: -479-04-11
+    title_zh: 以身殉道无悔
+    rationale: 道不行而教已立以七十三年之行成垂世之法式
+events:
+- id: guji-孔子-event-birth
+  person_id: guji-孔子
+  title_zh: 生於鲁昌平陬邑
+  date: -551-09-28
+  year_of: -551
+  description: 周灵王二十一年庚戌生於鲁昌平陬邑首上圩顶因名丘字仲尼
+  place_zh: 鲁昌平陬邑
+- id: guji-孔子-event-xiuli
+  person_id: guji-孔子
+  title_zh: 修礼乐述图书训人
+  date: -521-01-01
+  year_of: -521
+  description: 修周公礼乐之典述图书以训人使后之作者有所持循
+  place_zh: 鲁国
+- id: guji-孔子-event-chengjiao
+  person_id: guji-孔子
+  title_zh: 以大中至正化民成俗
+  date: -500-01-01
+  year_of: -500
+  description: 以礼乐教化设教於鲁化民成俗为丈夫之表率
+  place_zh: 鲁国
+- id: guji-孔子-event-death
+  person_id: guji-孔子
+  title_zh: 年七十三而卒
+  date: -479-04-11
+  year_of: -479
+  description: 历七十三年训人修礼之功成卒为万世师表
+  place_zh: 鲁国
