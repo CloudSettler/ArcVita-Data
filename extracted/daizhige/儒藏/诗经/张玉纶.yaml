@@ -1,0 +1,139 @@
+person:
+  qid: guji-张玉纶
+  name_zh: 张玉纶
+  names:
+    zh: 张玉纶
+    en: Zhang Yulun
+  lifespan:
+    birth:
+      date: '1800'
+      precision: year
+      is_circa: true
+      raw: 清嘉庆道光间辽阳生
+    death:
+      date: '1865'
+      precision: year
+      is_circa: true
+      raw: 咸丰五年后卒
+  birth_date: '1800'
+  death_date: '1865'
+  era: 清
+  reign_ref: 咸丰
+  archetype: 音韵考订者
+  dilemmas:
+  - 读若反切叶音皆失古音而世儒弃乐工口授如遗欲从歌声求古音则恐招物议
+  - 亭林诗本音引证闳博而音韵源流未的欲自述一得俟知音又不敢直斥古人
+  lesson: 礼失求野歌存古音以口授验经文不叶而自协
+  summary_first_person: 余辽阳张玉纶号梦月轩主人少从友王补楼闻歌得古音之绪两三月间切究而毛诗古音尽复无待于叶癸巳补楼谢世每读诗辄悲怆今老矣追忆切磋作毛诗古乐音一书为家塾读本以俟知音
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E6%AF%9B%E8%AF%97%E5%8F%A4%E4%B9%90%E9%9F%B3.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E8%AF%97%E7%BB%8F/%E6%AF%9B%E8%AF%97%E5%8F%A4%E4%B9%90%E9%9F%B3.md
+endeavors:
+- id: guji-张玉纶-endeavor-1
+  title_zh: 从王补楼以歌声考复毛诗古音
+  summary_zh: 共砚时闻补楼善歌以其不合今音者验之毛诗细心切究两三月间尽复古音不待叶韵
+  phases:
+  - key: brewing
+    name: 闻歌疑古音犹存
+    labels:
+      zh: 口授听歌
+    start_date: '1825'
+    highlight_event_id: guji-张玉纶-event-learnsong
+  - key: breakthrough
+    name: 切究两三月尽复古音
+    labels:
+      zh: 以歌验经
+    start_date: '1830'
+    highlight_event_id: guji-张玉纶-event-learnsong
+  - key: closure
+    name: 谱工尺相与歌以为乐
+    labels:
+      zh: 谱诗合歌
+    start_date: '1832'
+    highlight_event_id: guji-张玉纶-event-bulou-death
+  decisions:
+  - date: '1830'
+    title_zh: 舍叶音而从乐工口授
+    rationale: 叶音一字二音舛义而乐工口授十存五六可验经文自相比
+  - date: '1832'
+    title_zh: 以工尺谱毛诗数章试歌
+    rationale: 欲证一字不容叶二音而数音可出于一音出明珠于粪土
+- id: guji-张玉纶-endeavor-2
+  title_zh: 追念良友撰成毛诗古乐音
+  summary_zh: 癸巳补楼谢世废业久之得读顾亭林诗本音乃作四卷义例总纲分注以训家塾
+  phases:
+  - key: brewing
+    name: 癸巳丧友废业悲怆
+    labels:
+      zh: 丧友废业
+    start_date: '1833'
+    highlight_event_id: guji-张玉纶-event-bulou-death
+  - key: breakthrough
+    name: 得亭林诗本音发愤著述
+    labels:
+      zh: 取舍亭林
+    start_date: '1855-06-01'
+    highlight_event_id: guji-张玉纶-event-preface
+  - key: climax
+    name: 立义例总纲注四卷
+    labels:
+      zh: 音韵垛字
+    start_date: '1855-07-01'
+    highlight_event_id: guji-张玉纶-event-preface
+  - key: closure
+    name: 咸丰五年秋自序家塾本
+    labels:
+      zh: 自序俟知音
+    start_date: '1855-09-13'
+    highlight_event_id: guji-张玉纶-event-preface
+  decisions:
+  - date: '1855-06-01'
+    title_zh: 合训诂反切与亭林而自述一得
+    rationale: 合于己者取之不合者不敢直斥原非与古人相轧不过俟知音论定
+  - date: '1855-07-01'
+    title_zh: 以今音注古音只注押韵末字
+    rationale: 为观者易晓古今同音韵者虽押韵亦不注一字有一字之音韵
+events:
+- id: guji-张玉纶-event-birth
+  date: '1800'
+  precision: year
+  is_circa: true
+  raw: 清嘉庆道光间生于辽阳
+  title_zh: 生于辽阳
+  description_zh: 清辽阳张玉纶生家塾读书后号梦月轩主人
+  year_of: 1800
+- id: guji-张玉纶-event-learnsong
+  date: '1830'
+  precision: year
+  is_circa: true
+  raw: 共砚时闻王补楼歌
+  title_zh: 从王补楼闻歌考音
+  description_zh: 友王补楼善歌老乐工避席闻其字音不合今音验之毛诗颇觉有当遂受指授细心切究两三月间毛诗古音尽复乃谱数章相与歌之
+  year_of: 1830
+  endeavor_ref: guji-张玉纶-endeavor-1
+- id: guji-张玉纶-event-bulou-death
+  date: '1833'
+  precision: year
+  is_circa: true
+  raw: 岁癸巳补楼谢世
+  title_zh: 癸巳补楼谢世废业
+  description_zh: 道光癸巳王补楼谢世每读诗辄悲怆念之遂致废业
+  year_of: 1833
+  endeavor_ref: guji-张玉纶-endeavor-1
+- id: guji-张玉纶-event-preface
+  date: '1855-09-13'
+  precision: day
+  is_circa: true
+  raw: 咸丰五年八月初三日自序
+  title_zh: 咸丰五年作序成毛诗古乐音
+  description_zh: 今夏得读顾亭林诗本音追忆良友切磋作毛诗古乐音序义例卷一至卷四总纲睢举具等以存古乐一线
+  year_of: 1855
+  endeavor_ref: guji-张玉纶-endeavor-2
+- id: guji-张玉纶-event-death
+  date: '1865'
+  precision: year
+  is_circa: true
+  raw: 咸丰五年后卒
+  title_zh: 卒于清同治间
+  description_zh: 成书后以家塾读本授徒而卒其书传于殆知阁儒藏诗经
+  year_of: 1865
