@@ -1,0 +1,132 @@
+person:
+  qid: guji-张洁
+  name_zh: 张洁
+  names:
+    zh: 张洁
+    en: Zhang Jie
+  lifespan:
+    birth:
+      date: 1520
+      precision: year
+      is_circa: true
+      raw: 明嘉靖前后临邑人
+    death:
+      date: 1595
+      precision: year
+      is_circa: true
+      raw: 万历后期
+  birth_date: 1520
+  death_date: 1595
+  era: 明
+  reign_ref: 万历
+  archetype: 由儒入医济世者
+  dilemmas:
+  - 执成方而杀人，何异以挺与刃，方书充栋可恃否
+  - 刑以绳人药以攻疾，去病宥人当守仁术否
+  lesson: 医必洞见垣一方可投刀圭，神明用方以全生，不可执一
+  summary_first_person: 吾早以儒生起家，厌弃而好养生言，搜古验今纂辑仁术便览一编，青囊大备言约理要，愿后之读者神明用之以去病全生，毋以生人者而反杀人
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BB%81%E6%9C%AF%E4%BE%BF%E8%A7%88.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BB%81%E6%9C%AF%E4%BE%BF%E8%A7%88.md
+endeavors:
+- id: guji-张洁-endeavor-1
+  title_zh: 由儒转医搜古验今纂辑
+  summary_zh: 早以儒生起家，厌弃好养生言，搜古验今累成仁术便览一帙
+  phases:
+  - key: brewing
+    name: 儒生起家好养生言
+    labels:
+      zh: 萌芽
+    start_date: 1540
+    highlight_event_id: guji-张洁-event-ruyi
+  - key: breakthrough
+    name: 搜古验今累成帙
+    labels:
+      zh: 积累
+    start_date: 1570
+    highlight_event_id: guji-张洁-event-compile
+  - key: climax
+    name: 扁名仁术便览青囊大备
+    labels:
+      zh: 成书
+    start_date: 1584
+    highlight_event_id: guji-张洁-event-compile
+  - key: closure
+    name: 持稿就正郡侯校政
+    labels:
+      zh: 就正
+    start_date: 1585
+    highlight_event_id: guji-张洁-event-publish
+  decisions:
+  - date: 1550
+    title_zh: 弃儒好养生言
+    rationale: 以儒生厌弃举业，转求岐黄摄身久视之学
+  - date: 1584
+    title_zh: 集方为便览不妄增
+    rationale: 搜古验今约理要指掌可睹，使入武库五兵纵横可济中恙
+- id: guji-张洁-endeavor-2
+  title_zh: 得侯校刊惠民济世
+  summary_zh: 得太守王公较政命校雠刊刻，方应选王再聘作序，夏惟勤校雠流布
+  phases:
+  - key: brewing
+    name: 太守较政喜而持编
+    labels:
+      zh: 知遇
+    start_date: 1584
+    highlight_event_id: guji-张洁-event-compile
+  - key: breakthrough
+    name: 属校雠一字千金
+    labels:
+      zh: 校雠
+    start_date: 1585
+    highlight_event_id: guji-张洁-event-publish
+  - key: climax
+    name: 乙酉秋两序並撰刊行
+    labels:
+      zh: 刊行
+    start_date: 1585-10-09
+    highlight_event_id: guji-张洁-event-publish
+  - key: closure
+    name: 药笼具在振济无涯
+    labels:
+      zh: 流布
+    start_date: 1586
+    highlight_event_id: guji-张洁-event-publish
+  decisions:
+  - date: 1585
+    title_zh: 付郡侯校政刊刻
+    rationale: 恐缺略误人，借太守力校政补缺，使药笼具在以起疲癃
+  - date: 1585-10-09
+    title_zh: 托方应选王再聘序行
+    rationale: 明刑药同道洞垣用方之意，戒后人不善读以生人反杀人
+events:
+- id: guji-张洁-event-birth
+  title_zh: 诞生于明临邑
+  type: birth
+  date: 1520
+  year_of: 1520
+  description_zh: 明嘉靖前后生于临邑，早以儒生起家
+- id: guji-张洁-event-ruyi
+  title_zh: 厌儒好养生搜古验今
+  type: career
+  date: 1550
+  year_of: 1550
+  description_zh: 厌弃儒业，好养生言，搜古验今累集医方
+- id: guji-张洁-event-compile
+  title_zh: 纂辑成仁术便览
+  type: career
+  date: 1584
+  year_of: 1584
+  description_zh: 集成青囊大备之帙，扁名仁术便览，言约理要
+- id: guji-张洁-event-publish
+  title_zh: 万历乙酉得序刊行
+  type: career
+  date: 1585-10-09
+  year_of: 1585
+  description_zh: 万历乙酉秋九月望日，方应选王再聘作序，太守王公校政，夏惟勤校雠刊行
+- id: guji-张洁-event-death
+  title_zh: 卒于万历后期
+  type: death
+  date: 1595
+  year_of: 1595
+  description_zh: 书成刊行后卒，仁术便览流布济世
