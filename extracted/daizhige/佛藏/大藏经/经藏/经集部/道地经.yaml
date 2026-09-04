@@ -1,0 +1,122 @@
+person:
+  qid: guji-道地经
+  name_zh: 道地经
+  names:
+    zh: 道地经
+    en: Dao Di Jing
+  lifespan:
+    birth:
+      date: 0148-01-01
+      precision: year
+      is_circa: true
+      raw: 后汉桓帝时安世高译出
+    death:
+      date: 0170-12-31
+      precision: year
+      is_circa: true
+      raw: 汉末流传定本 Rasmussen
+  birth_date: 0148-01-01
+  death_date: 0170-12-31
+  era: 后汉
+  reign_ref: 汉桓帝至汉灵帝
+  archetype: 示道地弘止观之导师
+  dilemmas:
+  - 未得四德云何立止观而不穿不断
+  - 五阴和合成身云何知成败而趣无为
+  lesson: 一切舍离有余系缚常守止观分别五阴方得除苦趣无为
+  summary_first_person: 吾本众护所造安世高译汉为行者说可行不可行分别五阴成败令守止观莫穿莫厌以除生老病死而致无为
+  source_urls:
+  - https://daizhige.org/T0607.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/daodijing.md
+endeavors:
+- id: guji-道地经-endeavor-1
+  title_zh: 散种止观立道地纲宗
+  summary: 辨可行不可行立止观为道地本以趣无为
+  phases:
+  - key: brewing
+    name: 辨不可行以离无为
+    labels:
+      zh: 散种章念欲嗔恚
+    start_date: 0148-01-01
+    highlight_event_id: guji-道地经-event-stopview
+  - key: breakthrough
+    name: 明可行以应无为
+    labels:
+      zh: 持戒摄根少事少食
+    start_date: 0148-06-01
+    highlight_event_id: guji-道地经-event-stopview
+  - key: climax
+    name: 立止观为道行地
+    labels:
+      zh: 莫离莫犯莫穿止观
+    start_date: 0149-01-01
+    highlight_event_id: guji-道地经-event-stopview
+  - key: closure
+    name: 钻木取火喻不断行
+    labels:
+      zh: 莫穿莫疲得无为种
+    start_date: 0149-06-01
+    highlight_event_id: guji-道地经-event-stopview
+  decisions:
+  - date: 0148-03-01
+    title_zh: 定止观为道地名
+    rationale: 未得四德欲致无为故以止观为地
+  - date: 0149-01-01
+    title_zh: 诫穿行喻钻木中止
+    rationale: 穿则不得止亦不得观空亡苦行故令莫穿莫疲
+- id: guji-道地经-endeavor-2
+  title_zh: 分别五阴示成败流转
+  summary: 知五阴相分别成败示死生中阴受生以厌苦本
+  phases:
+  - key: brewing
+    name: 知五阴各有应相
+    labels:
+      zh: 色痛思想行识相
+    start_date: 0150-01-01
+    highlight_event_id: guji-道地经-event-five
+  - key: breakthrough
+    name: 分别五阴如贯真珠
+    labels:
+      zh: 一珠俱行五行并观
+    start_date: 0150-06-01
+    highlight_event_id: guji-道地经-event-five
+  - key: climax
+    name: 示死相中阴受生
+    labels:
+      zh: 临终风起舍死受生
+    start_date: 0151-01-01
+    highlight_event_id: guji-道地经-event-five
+  - key: closure
+    name: 示胎生众苦坏身
+    labels:
+      zh: 三十八七日九月而生
+    start_date: 0152-01-01
+    highlight_event_id: guji-道地经-event-five
+  decisions:
+  - date: 0150-03-01
+    title_zh: 以珠喻说五阴俱行
+    rationale: 令行者一时分别色痛想行识不相连著而俱行
+  - date: 0151-03-01
+    title_zh: 广说死梦医相地狱畜生
+    rationale: 令行者见成败可畏厌患生死坏苦本而求度世
+events:
+- id: guji-道地经-event-birth
+  date: 0148-01-01
+  year_of: 148
+  title_zh: 天竺众护造论安世高译出
+  description: 须赖拏国三藏僧伽罗刹造后汉安息国三藏安世高译为道地经一卷
+- id: guji-道地经-event-stopview
+  date: 0149-01-01
+  year_of: 149
+  title_zh: 说散种章立止观道地
+  description: 说不可行离无为可行致无为立止观为道行地喻钻木取火莫穿莫疲
+- id: guji-道地经-event-five
+  date: 0151-01-01
+  year_of: 151
+  title_zh: 说五阴慧分别成败
+  description: 说五阴各有相如贯珠俱行广说死相中阴胎生八十种虫四百四病以示苦本
+- id: guji-道地经-event-death
+  date: 0170-12-31
+  year_of: 170
+  title_zh: 汉末定本流传后世
+  description: 道地经说竟学者不学者受持流布为后世止观五阴之据
