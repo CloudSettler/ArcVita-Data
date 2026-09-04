@@ -1,0 +1,150 @@
+person:
+  qid: guji-阿颰
+  name_zh: 阿颰
+  names:
+    zh: 阿颰
+    en: Ava
+  lifespan:
+    birth:
+      date: -0600-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前六百年古印度婆罗门家
+    death:
+      date: -0520-01-01
+      precision: year
+      is_circa: true
+      raw: 约公元前六世纪末
+  birth_date: -0600-01-01
+  death_date: -0520-01-01
+  era: 春秋末古印度
+  reign_ref: 周敬王时越只国鼓车城
+  archetype: 求道改宗者
+  dilemmas:
+  - title_zh: 师命与真道何从
+    description: 既敬事费迦沙为世豪贤又亲见佛陀圣智当择师承还是择真理
+  - title_zh: 种姓贵与持戒贵孰重
+    description: 生为梵种自恃清贵受佛诘难后当守种姓骄慢还是守净戒求解脱
+  lesson: 师贵不如道真种姓贵不如戒净亲见圣者当舍骄慢择善而从
+  summary_first_person: 我是阿颰费迦沙上首弟子奉师命率五百人往观佛相与佛论杀生种姓八戒得闻清信士戒与沙门二百五十戒归白本师共设供迎佛从骄慢求证转入信解
+  source_urls:
+  - https://cbetaonline.dila.edu.tw/zh/T0020
+  - https://daizhige.org/佛开解梵志阿颰经.html
+endeavors:
+- id: guji-阿颰-endeavor-1
+  title_zh: 奉师命往鼓车城观佛证真
+  summary: 受费迦沙嘱托以三十二相验佛与五百同门往诣树下就座问答由疑转信
+  phases:
+  - key: brewing
+    name: 豪贤门下蓄疑
+    labels:
+      zh: 师命求证
+    start_date: -0535-01-01
+    highlight_event_id: guji-阿颰-event-birth
+  - key: breakthrough
+    name: 树下微观佛相
+    labels:
+      zh: 亲见圣容
+    start_date: -0530-03-01
+    highlight_event_id: guji-阿颰-event-observe
+  - key: climax
+    name: 往复问难蒙开解
+    labels:
+      zh: 论种姓戒行
+    start_date: -0530-03-01
+    highlight_event_id: guji-阿颰-event-debate
+  - key: closure
+    name: 心服接足而还
+    labels:
+      zh: 敬信而归
+    start_date: -0530-03-02
+    highlight_event_id: guji-阿颰-event-debate
+  decisions:
+  - date: -0530-03-01
+    title_zh: 独自彷徨微观佛相
+    rationale: 不轻信传闻亦不违师命以亲见三十二相验其真伪
+  - date: -0530-03-01
+    title_zh: 当众发问种姓杀生戒
+    rationale: 以梵种不杀八戒自负欲以师道难佛求得是非决断
+- id: guji-阿颰-endeavor-2
+  title_zh: 归报本师引众迎佛供养
+  summary: 具说佛语不增减忍师嗔踏地复劝师亲往终致费迦沙设供请佛广闻正法
+  phases:
+  - key: brewing
+    name: 还舍具陈所闻
+    labels:
+      zh: 直陈不饰
+    start_date: -0530-03-02
+    highlight_event_id: guji-阿颰-event-report
+  - key: breakthrough
+    name: 忍嗔劝师亲证
+    labels:
+      zh: 劝师往见
+    start_date: -0530-03-03
+    highlight_event_id: guji-阿颰-event-report
+  - key: climax
+    name: 师设五百人供迎请
+    labels:
+      zh: 设供迎圣
+    start_date: -0530-03-05
+    highlight_event_id: guji-阿颰-event-invite
+  - key: closure
+    name: 同门承化种姓执解
+    labels:
+      zh: 化解慢心
+    start_date: -0530-03-06
+    highlight_event_id: guji-阿颰-event-invite
+  decisions:
+  - date: -0530-03-02
+    title_zh: 如实转述不迎合师意
+    rationale: 虽知师怒踏地仍言佛语胜梵志以真道为重不以媚师为安
+  - date: -0530-03-03
+    title_zh: 劝师自往共谈一会
+    rationale: 知言语难夺累世师恩唯圣者亲化可令心软故请师躬行迎佛
+events:
+- id: guji-阿颰-event-birth
+  title_zh: 生于梵志贵族为费迦沙首徒
+  type: birth
+  date: -0600-01-01
+  year_of: -600
+  place_zh: 古印度越只国鼓车城聚落
+  description: 生梵种明经书星宿为费迦沙五百弟子中第一才智善辩
+- id: guji-阿颰-event-observe
+  title_zh: 奉命率五百人往观佛陀
+  type: career
+  date: -0530-03-01
+  year_of: -530
+  place_zh: 越只国鼓车城外树下
+  description: 下车揖让独彷徨微观相好佛知其意起行相应遂问出家持钵之义
+  endeavor_ref: guji-阿颰-endeavor-1
+- id: guji-阿颰-event-debate
+  title_zh: 与佛论种姓八戒蒙说清净戒
+  type: career
+  date: -0530-03-01
+  year_of: -530
+  place_zh: 鼓车城外佛座前
+  description: 问杀生种姓继嗣四姓贵贱佛以婢子为喻破常贵说复授清信士五戒沙门戒五阴解脱及四痴妄信道舌覆面现相叹服接足去
+  endeavor_ref: guji-阿颰-endeavor-1
+- id: guji-阿颰-event-report
+  title_zh: 归报费迦沙具说佛语忍嗔
+  type: career
+  date: -0530-03-02
+  year_of: -530
+  place_zh: 鼓车城费迦沙舍宅
+  description: 还舍饭已具说无增减师怒踏地言累世为师何不如劝师自往观智能得许可
+  endeavor_ref: guji-阿颰-endeavor-2
+- id: guji-阿颰-event-invite
+  title_zh: 从师设供迎佛重闻正法得愿
+  type: career
+  date: -0530-03-05
+  year_of: -530
+  place_zh: 费迦沙舍宅供会
+  description: 师施床席办五百人供具鸡鸣躬请佛默然许可迎佛就座施饭澡水毕重问昨日语佛复说师稽首忏嗔赞佛如日照天下得蒙咒愿寿身无病
+  endeavor_ref: guji-阿颰-endeavor-2
+- id: guji-阿颰-event-death
+  title_zh: 化缘终没于古印度
+  type: death
+  date: -0520-01-01
+  year_of: -520
+  place_zh: 古印度越只国一带
+  description: 追随正法后化众一方年老命终世寿莫考附传于佛开解梵志经中
