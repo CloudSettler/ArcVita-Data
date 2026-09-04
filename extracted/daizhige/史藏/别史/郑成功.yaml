@@ -1,0 +1,137 @@
+person:
+  qid: guji-郑成功
+  name_zh: 郑成功
+  names:
+    zh: 郑成功
+    en: Zheng Chenggong
+  lifespan:
+    birth:
+      date: 1624-08-26
+      precision: day
+      is_circa: false
+      raw: 崇祯七年七月十四生于日本平户
+    death:
+      date: 1662-06-23
+      precision: day
+      is_circa: false
+      raw: 永历十六年五月初八卒于台湾承天府
+  birth_date: 1624-08-26
+  death_date: 1662-06-23
+  era: 明末清初
+  reign_ref: 南明隆武至永历
+  archetype: 孤忠开拓者
+  dilemmas:
+  - 父降清而子奉明忠孝如何两全
+  - 沿海坚守与东渡开基何者可存续国脉
+  - 孤军无援而大义不坠进退何从
+  lesson: 孤忠可感而无土不立唯辟台湾以为根本方能延续气脉
+  summary_first_person: 我生于海岛逢国变而奉明起兵东南屡战潮漳虽受挫不馁遂东渡驱逐红毛复我台湾欲以一隅存汉家衣冠天不假年而此志已定
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%8F%B2%E7%A8%BF%E5%8F%B0%E6%B9%BE%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%8F%B2%E7%A8%BF%E5%8F%B0%E6%B9%BE%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91.md
+endeavors:
+- id: guji-郑成功-endeavor-1
+  title_zh: 东南沿海奉明抗清
+  phases:
+  - key: brewing
+    name: 隆武授命蓄势海上
+    labels:
+      zh: 蓄势海上
+    start_date: 1646-08-01
+    highlight_event_id: guji-郑成功-event-chaozhou
+  - key: breakthrough
+    name: 永历封王连克漳泉
+    labels:
+      zh: 初露锋芒
+    start_date: 1649-01-01
+    highlight_event_id: guji-郑成功-event-chaozhou
+  - key: climax
+    name: 进寇潮州相持粤东
+    labels:
+      zh: 直捣潮州
+    start_date: 1650-09-01
+    highlight_event_id: guji-郑成功-event-chaozhou
+  - key: closure
+    name: 沿海胶着思图后路
+    labels:
+      zh: 转图新局
+    start_date: 1659-06-01
+    highlight_event_id: guji-郑成功-event-nanjing
+  decisions:
+  - date: 1646-12-01
+    title_zh: 不从父降独立招讨
+    rationale: 父芝龙降清大义不可废唯独立聚众奉明朔方能号召闽粤忠义
+  - date: 1650-09-01
+    title_zh: 进寇潮州牵制南北
+    rationale: 乘粤东未靖以舟师扰潮州通闽粤之气以存沿海抗清之势
+- id: guji-郑成功-endeavor-2
+  title_zh: 东渡驱荷收复台湾
+  phases:
+  - key: brewing
+    name: 察访台岛密议东征
+    labels:
+      zh: 密谋东渡
+    start_date: 1660-01-01
+    highlight_event_id: guji-郑成功-event-landing
+  - key: breakthrough
+    name: 鹿耳门登陆围赤嵌
+    labels:
+      zh: 登陆立足
+    start_date: 1661-04-30
+    highlight_event_id: guji-郑成功-event-landing
+  - key: climax
+    name: 久围热兰遮迫荷出降
+    labels:
+      zh: 围城定台
+    start_date: 1661-05-01
+    highlight_event_id: guji-郑成功-event-recovery
+  - key: closure
+    name: 建承天府屯垦守台
+    labels:
+      zh: 开府守土
+    start_date: 1662-02-01
+    highlight_event_id: guji-郑成功-event-recovery
+  decisions:
+  - date: 1661-03-01
+    title_zh: 决计东渡以台为本
+    rationale: 沿海无立足之地唯台湾可屯田养民存续国脉以图再举
+  - date: 1661-04-30
+    title_zh: 乘潮入鹿耳门断荷援
+    rationale: 乘水涨入港登陆断其内外以持久围困取热兰遮
+events:
+- id: guji-郑成功-event-birth
+  type: birth
+  date: 1624-08-26
+  year_of: 1624
+  title_zh: 生于平户
+  description_zh: 崇祯七年七月十四生于日本平户父为郑芝龙母为田川氏
+- id: guji-郑成功-event-chaozhou
+  type: career
+  date: 1650-10-05
+  year_of: 1650
+  title_zh: 进寇潮州
+  description_zh: 顺治七年秋九月以舟师寇潮州与清总兵王邦俊相持后引还闽南沿海声势益振
+- id: guji-郑成功-event-nanjing
+  type: career
+  date: 1659-08-24
+  year_of: 1659
+  title_zh: 长江之役还守厦门
+  description_zh: 顺治十六年会师北伐失利还守厦门金门整军待机转图台湾以存基业
+- id: guji-郑成功-event-landing
+  type: career
+  date: 1661-04-30
+  year_of: 1661
+  title_zh: 鹿耳门登陆
+  description_zh: 永历十五年三月率舟师自金门东渡乘潮入鹿耳门登陆围赤嵌城断荷兰声援
+- id: guji-郑成功-event-recovery
+  type: career
+  date: 1662-02-01
+  year_of: 1662
+  title_zh: 克热兰遮收复台湾
+  description_zh: 永历十五年十二月荷兰出降收复台湾建承天府设天兴万年二县屯垦守土
+- id: guji-郑成功-event-death
+  type: death
+  date: 1662-06-23
+  year_of: 1662
+  title_zh: 卒于承天府
+  description_zh: 永历十六年五月初八卒于台湾承天府子经继业守台汉家衣冠得以存于海外
