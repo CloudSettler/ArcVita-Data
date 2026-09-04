@@ -1,0 +1,153 @@
+person:
+  qid: guji-顾野王
+  name_zh: 顾野王
+  names:
+    zh: 顾野王
+    en: Gu Yewang
+  lifespan:
+    birth:
+      date: 0519
+      precision: year
+      is_circa: false
+      raw: 梁天监十八年
+    death:
+      date: 0581
+      precision: year
+      is_circa: false
+      raw: 陈太建十三年
+  birth_date: 0519
+  death_date: 0581
+  era: 南北朝梁陈
+  reign_ref: 梁武帝大同九年至陈宣帝太建
+  archetype: 小学宗师
+  dilemmas:
+  - 五典三坟异义竞开六书八体古今殊形如何会通成一家之制
+  - 梁陈鼎革兴亡频仍如何以文字之业寄不朽而全身
+  lesson: 会通群籍以正文字则经世治俗有所本守正不阿以立言则身没而书可传
+  summary_first_person: 吾吴郡顾野王也少博学七岁能文承明命为黄门侍郎兼太学博士总会众篇校雠群籍成玉篇三十卷凡五百四十二部后入陈知国史撰舆地志惟愿后人因文字以通道德识古今而不惑
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E9%87%8D%E4%BF%AE%E7%8E%89%E7%AF%87.html
+endeavors:
+- id: guji-顾野王-endeavor-1
+  title_zh: 奉诏编纂玉篇三十卷
+  summary: 总会众篇校雠群籍以成字书之训分部编排兼明音义为后世字书之祖
+  phases:
+  - key: brewing
+    name: 承诏搜访博览群籍
+    labels:
+      zh:
+      - 搜访
+      - 博采
+    start_date: '0536'
+    highlight_event_id: guji-顾野王-event-yupian-start
+  - key: breakthrough
+    name: 会通许慎分部立目
+    labels:
+      zh:
+      - 会通
+      - 立部
+    start_date: '0540'
+    highlight_event_id: guji-顾野王-event-yupian-complete
+  - key: climax
+    name: 大同九年撰成进呈
+    labels:
+      zh:
+      - 撰成
+      - 进呈
+    start_date: '0543-03-28'
+    highlight_event_id: guji-顾野王-event-yupian-complete
+  - key: closure
+    name: 传写流布孙强增字
+    labels:
+      zh:
+      - 流布
+      - 增广
+    start_date: '0543'
+    highlight_event_id: guji-顾野王-event-yupian-complete
+  decisions:
+  - date: '0540'
+    title_zh: 本许慎而稍有升降损益
+    rationale: 说文自一至亥已备而古今殊形训释纷错故因其体而增损以便寻求
+  - date: '0543-03-28'
+    title_zh: 以五百四十二部分系众字兼注音义
+    rationale: 部属分明则字有所归音训并载则经世治俗有所据故定为三十卷之制
+- id: guji-顾野王-endeavor-2
+  title_zh: 入陈知国史撰舆地符瑞
+  summary: 历黄门侍郎光禄卿知国史撰舆地志符瑞图以存典章直笔守正
+  phases:
+  - key: brewing
+    name: 梁亡入陈再仕朝廷
+    labels:
+      zh:
+      - 易代
+      - 再仕
+    start_date: 0569
+    highlight_event_id: guji-顾野王-event-chen-service
+  - key: breakthrough
+    name: 知国史领修史事
+    labels:
+      zh:
+      - 国史
+      - 直笔
+    start_date: '0572'
+    highlight_event_id: guji-顾野王-event-chen-service
+  - key: climax
+    name: 舆地符瑞撰述告成
+    labels:
+      zh:
+      - 舆地
+      - 符瑞
+    start_date: 0578
+    highlight_event_id: guji-顾野王-event-yudi-complete
+  - key: closure
+    name: 身没谥希书传后世
+    labels:
+      zh:
+      - 谥希
+      - 传世
+    start_date: 0581
+    highlight_event_id: guji-顾野王-event-death
+  decisions:
+  - date: 0569
+    title_zh: 应聘入陈领国史之任
+    rationale: 国乱而史不可废舆地不明则政教不行故以残生存典章为己任
+  - date: 0578
+    title_zh: 撰舆地志以纪山川郡国
+    rationale: 鉴往谟以经世览图籍以识远方故详考郡国沿革以辅治化
+events:
+- id: guji-顾野王-event-birth
+  date: 0519
+  year_of: 519
+  type: birth
+  title_zh: 生于吴郡吴县
+  description: 梁天监十八年生于吴郡吴县世为江南冠族少聪敏七岁能属文博览群籍
+- id: guji-顾野王-event-yupian-start
+  date: '0536'
+  year_of: 536
+  type: career
+  title_zh: 承诏搜访群籍始编玉篇
+  description: 以太学博士兼黄门侍郎承命总会众篇校雠群籍广搜字书卷轴以备编纂
+- id: guji-顾野王-event-yupian-complete
+  date: '0543-03-28'
+  year_of: 543
+  type: career
+  title_zh: 梁大同九年撰成玉篇进呈
+  description: 玉篇三十卷凡五百四十二部撰成具序启以进文字之训于是大备后孙强增字陈彭年等重修皆本其旧
+- id: guji-顾野王-event-chen-service
+  date: 0569
+  year_of: 569
+  type: career
+  title_zh: 入陈为黄门侍郎知国史
+  description: 陈太建初历黄门侍郎光禄卿知国史领修史事守正直笔时论称美
+- id: guji-顾野王-event-yudi-complete
+  date: 0578
+  year_of: 578
+  type: career
+  title_zh: 撰成舆地志符瑞图等
+  description: 考郡国沿革山川形胜撰舆地志及符瑞图等数十卷以存典章备顾问
+- id: guji-顾野王-event-death
+  date: 0581
+  year_of: 581
+  type: death
+  title_zh: 卒于建康谥曰希
+  description: 陈太建十三年卒于建康谥曰希所撰玉篇舆地并行于世后世重修玉篇益广其传

@@ -1,0 +1,103 @@
+person:
+  qid: guji-刘熙
+  name_zh: 刘熙
+  names:
+    zh: 刘熙
+    en: Liu Xi
+  lifespan:
+    birth:
+      date: '0150-01-01'
+      precision: year
+      is_circa: true
+      raw: 约东汉桓帝时生于北海
+    death:
+      date: '0220-12-31'
+      precision: year
+      is_circa: true
+      raw: 约东汉末献帝时卒
+  birth_date: '0150-01-01'
+  death_date: '0220-12-31'
+  era: 东汉
+  reign_ref: 汉献帝建安
+  archetype: 声训训诂学者
+  dilemmas:
+  - 名实相循而方俗各异如何以一理贯通群言
+  - 经术崇简省事功而博物答问需备载如何取舍篇目
+  lesson: 以声求义因形释名可使百姓日用而知其所以然
+  summary_first_person: 我是刘熙字成国北海人见世间名号雅俗各异百姓日称而不知其意故博采天地四时邦国车服典艺下及民庶器用撰释名二十七篇以声训明义类望后学以类求之
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=746
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-刘熙-endeavor-1
+  title_zh: 撰述释名二十七篇
+  summary_zh: 总括天地阴阳四时邦国车服丧纪及民庶器用以声训释名立训诂体例
+  phases:
+  - key: brewing
+    name: 博采方言典礼
+    labels:
+      zh: 酝酿搜集
+    start_date: '0190-01-01'
+    highlight_event_id: guji-刘熙-event-shiming-start
+  - key: climax
+    name: 释名成书
+    labels:
+      zh: 高峰成书
+    start_date: '0200-01-01'
+    highlight_event_id: guji-刘熙-event-shiming-complete
+  decisions:
+  - date: '0195-01-01'
+    title_zh: 立声训为纲
+    rationale: 以同声相谐寻求义类使天显垣日实月缺皆有可说之理
+  - date: '0200-01-01'
+    title_zh: 定二十七篇之限
+    rationale: 事类未能究备留待智者以类求之以崇易简省事功
+- id: guji-刘熙-endeavor-2
+  title_zh: 家学授徒答难解惑
+  summary_zh: 与王父幼孙朝夕侍问博物答疑使释名之学可省而传承
+  phases:
+  - key: brewing
+    name: 朝夕侍问
+    labels:
+      zh: 酝酿讲授
+    start_date: '0200-01-01'
+    highlight_event_id: guji-刘熙-event-teaching
+  - key: closure
+    name: 付嘱后学
+    labels:
+      zh: 收束传承
+    start_date: '0210-01-01'
+    highlight_event_id: guji-刘熙-event-teaching
+  decisions:
+  - date: '0205-01-01'
+    title_zh: 以答问成篇
+    rationale: 博物君子答难解惑聊可省览使幼孙可承其业
+events:
+- id: guji-刘熙-event-birth
+  title_zh: 生于北海
+  date: '0150-01-01'
+  year_of: 150
+  description_zh: 约东汉桓帝时生于北海郡出身经学家门
+- id: guji-刘熙-event-shiming-start
+  title_zh: 萌志释名搜集名物
+  date: '0190-01-01'
+  year_of: 190
+  description_zh: 见典礼所制与民庶方俗名殊开始搜集天地山水州国形体宫室器用之名
+  endeavor_ref: guji-刘熙-endeavor-1
+- id: guji-刘熙-event-shiming-complete
+  title_zh: 释名二十七篇成
+  date: '0200-01-01'
+  year_of: 200
+  description_zh: 论叙指归谓之释名凡二十七篇自释天至释丧制自言刘熙成撰
+  endeavor_ref: guji-刘熙-endeavor-1
+- id: guji-刘熙-event-teaching
+  title_zh: 王父幼孙侍问授业
+  date: '0205-01-01'
+  year_of: 205
+  description_zh: 与家门子弟朝夕侍问答难解惑以释名省览付嘱后学
+  endeavor_ref: guji-刘熙-endeavor-2
+- id: guji-刘熙-event-death
+  title_zh: 卒于汉末
+  date: '0220-12-31'
+  year_of: 220
+  description_zh: 约卒于汉献帝末年释名传于后世为训诂声训之宗
