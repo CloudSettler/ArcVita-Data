@@ -1,0 +1,112 @@
+person:
+  qid: guji-曹植
+  name_zh: 曹植
+  names:
+    zh: 曹植
+    en: Cao Zhi
+  lifespan:
+    birth:
+      date: 0192
+      precision: year
+      is_circa: false
+      raw: 汉初平三年
+    death:
+      date: '0232'
+      precision: year
+      is_circa: false
+      raw: 魏太和六年
+  birth_date: 0192
+  death_date: '0232'
+  era: 三国曹魏
+  reign_ref: 魏文帝黄初至魏明帝太和
+  archetype: 才高见忌的宗室诗人
+  dilemmas:
+  - 才华外显与韬晦自保之难
+  - 手足之情与君臣名分之难
+  lesson: 持才宜谦守分，临危以诚动人，处逆以诗明志
+  summary_first_person: 吾乃曹植字子建，沛国谯人，武帝之子文帝之弟，少以才章见称，铜雀台赋建声名，夺嫡既失屡徙封地，七步成诗以全性命，晚年忧谗著述，终以愤郁而卒，独以诗名传后
+  source_urls:
+  - https://daizhige.org/儒藏/启蒙蒙学/童蒙养正诗选.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/启蒙蒙学/童蒙养正诗选.md
+endeavors:
+- id: guji-曹植-endeavor-1
+  title_zh: 邺下植声与立嗣之争
+  summary_zh: 少以辞藻见重，铜雀台赋惊座，植党见嫉，夺嫡既失，转向自抑
+  phases:
+  - key: brewing
+    name: 邺下养望
+    labels:
+      zh:
+      - 养望
+    start_date: '0200'
+    highlight_event_id: guji-曹植-event-tongquetai
+  - key: climax
+    name: 夺嫡顿挫
+    labels:
+      zh:
+      - 挫折
+    start_date: '0217'
+    highlight_event_id: guji-曹植-event-qibushi
+  decisions:
+  - date: '0213'
+    title_zh: 铜雀台赋诗以显才
+    rationale: 欲以文才结父知为立身之本，不知显才反招忌
+  - date: 0219
+    title_zh: 司马门事自损其重
+    rationale: 恃宠任性夜出失父心，遂定嫡庶之分，当戒慎守礼
+- id: guji-曹植-endeavor-2
+  title_zh: 七步全生与徙封著述
+  summary_zh: 文帝逼试七步成诗以免祸，屡徙封地，忧愤著文，以诗传志
+  phases:
+  - key: breakthrough
+    name: 七步免祸
+    labels:
+      zh:
+      - 急智
+    start_date: '0220'
+    highlight_event_id: guji-曹植-event-qibushi
+  - key: closure
+    name: 徙封述志
+    labels:
+      zh:
+      - 守志
+    start_date: '0226'
+    highlight_event_id: guji-曹植-event-xifeng
+  decisions:
+  - date: '0220'
+    title_zh: 应诏七步成豆萁之诗
+    rationale: 以同根相煎喻手足，动帝惭色，全性命于顷刻
+  - date: '0231'
+    title_zh: 徙封雍丘后闭门著述
+    rationale: 知进取无望，故以文诉志，遗名后世，不复干预朝争
+events:
+- id: guji-曹植-event-birth
+  title_zh: 诞生于谯
+  date: 0192
+  year_of: 192
+  place_zh: 沛国谯
+  description_zh: 汉初平三年生，为曹操第三子，母卞氏，少聪慧善属文
+- id: guji-曹植-event-tongquetai
+  title_zh: 铜雀台赋建声名
+  date: '0213'
+  year_of: 213
+  place_zh: 邺城铜雀台
+  description_zh: 随父至邺，作铜雀台赋，辞藻华美，众宾称善，遂以才名倾邺下
+- id: guji-曹植-event-qibushi
+  title_zh: 七步成诗免祸
+  date: '0220'
+  year_of: 220
+  place_zh: 洛阳宫中
+  description_zh: 魏文帝令七步作诗不成行法，植应声作煮豆持作羹之诗，帝有惭色事得解
+- id: guji-曹植-event-xifeng
+  title_zh: 屡徙封地至雍丘
+  date: '0231'
+  year_of: 231
+  place_zh: 雍丘
+  description_zh: 明帝朝屡徙封国，郁郁不得志，作赠白马王彪等篇以寄愤
+- id: guji-曹植-event-death
+  title_zh: 愤郁而卒于封地
+  date: '0232'
+  year_of: 232
+  place_zh: 雍丘王府
+  description_zh: 魏太和六年卒，年四十一，谥曰思，后世称陈思王，以诗传不朽
