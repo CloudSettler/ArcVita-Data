@@ -19,109 +19,123 @@ person:
   death_date: 1776
   era: 清
   reign_ref: 乾隆
-  archetype: 医者
+  archetype: 儒医
   dilemmas:
-  - 妇女深居隐曲难达，翕忽之脉难凭，当何以取准而不贻祸
-  - 医书聚讼纷繁，识见不卓则无把持，当何以抉择而归于一是
-  lesson: 量病当如玉尺划寸，坚久不磨，按脉切症，调养气血，不妄揣攻伐，方得幽私隐曲之的当
-  summary_first_person: 余无锡沈金鳌，字芊绿，号汲门老人，悯妇女情志郁结，隐曲难言，医多妄凭脉以测，遂参稽前贤，著妇科玉尺六卷，务求按脉切症，的当不磨，以为后世取准之尺
+  - title_zh: 痘症阙而不作
+    description: 幼科以痘为微险百变之候，未得临症亲授则未能晓然于手目，故宁阙一门以待精业者，不肯妄言
+  - title_zh: 食积攻补之偏
+    description: 儿病多由食积亦有禀弱无积者，峻攻骤补专凉专热皆偏，须扶正使积自消，以中和当病为归
+  lesson: 明必证于心手目，未明者阙如，守中和当病之法
+  summary_first_person: '余性素拘，只言所明，不明不敢言。医传自孙庆曾先生，男女大小脉症皆得亲受，试之诊视罔弗取效，故伤寒纲目杂病源流妇科玉尺皆晓然于心手目而笔之于书。独痘症未获相随痘家亲聆教诲，虽深究钱陈曾万诸家而未能晓然于手目，故辑幼科释谜六卷二十四门而独阙痘症，庸有待于精其业者补之。
+
+    '
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A6%87%E7%A7%91%E7%8E%89%E5%B0%BA.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A6%87%E7%A7%91%E7%8E%89%E5%B0%BA.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%B9%BC%E7%A7%91%E9%87%8A%E8%B0%9C.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%B9%BC%E7%A7%91%E9%87%8A%E8%B0%9C.html
 endeavors:
 - id: guji-沈金鳌-endeavor-1
-  title_zh: 参稽著述妇科玉尺
-  summary: 察妇女经产崩带诸病，参稽诸家，著六卷九门，按脉切症，采录至精至粹之方，以玉尺取准为纲
+  title_zh: 师承孙庆曾奠定医基
+  summary: 受业孙庆曾亲习诊视，试之罔弗取效，先后著伤寒纲目杂病源流妇科玉尺诸书
   phases:
   - key: brewing
-    name: 无锡行医察妇女郁结难诊
+    name: 受业亲习
     labels:
-      zh: 酝酿
-    start_date: 1760
-    highlight_event_id: guji-沈金鳌-event-practice
+      zh: 师承亲受
+    start_date: 1735
+    highlight_event_id: guji-沈金鳌-event-study
   - key: breakthrough
-    name: 立玉尺取准按脉切症之法
+    name: 晓然心手目
     labels:
-      zh: 突破
-    start_date: 1770
-    highlight_event_id: guji-沈金鳌-event-rhizhu
+      zh: 临症取效
+    start_date: 1745
+    highlight_event_id: guji-沈金鳌-event-works
   - key: climax
-    name: 分经闭崩带胎产九门成书六卷
+    name: 纲目源流玉尺成书
     labels:
-      zh: 高潮
-    start_date: 1773
-    highlight_event_id: guji-沈金鳌-event-yuchi
+      zh: 著述立言
+    start_date: 1760
+    highlight_event_id: guji-沈金鳌-event-works
   - key: closure
-    name: 乾隆甲午清明自序刊行
+    name: 明不明之辨守约不妄
     labels:
-      zh: 收束
-    start_date: 1774-04-03
-    highlight_event_id: guji-沈金鳌-event-yuchi
+      zh: 明不明之辨
+    start_date: 1774-12
+    highlight_event_id: guji-沈金鳌-event-youke
   decisions:
-  - date: 1770
-    title_zh: 以仓公鱼际诊女为法立玉尺之名
-    rationale: 妇女幽私掩蔽难达，独凭脉则毫厘千里，故借玉尺坚久不磨为喻，强调分寸的当
-  - date: 1774
-    title_zh: 正文后采录前人至精之论及验效之方
-    rationale: 医书聚讼须识精见卓确有把持，必再四考订性味分量，针对不爽方敢载笔，以免矛盾贻误
+  - date: 1745
+    title_zh: 只言所明不明不言
+    rationale: 明须得传授亲习其事而证理不差，浮光掠影臆测傅会之谈皆不著述
+  - date: 1760
+    title_zh: 先成伤寒杂病妇科三书
+    rationale: 男妇大小脉症皆得亲受而晓然于手目，故一一笔之于书以示确凿可据
 - id: guji-沈金鳌-endeavor-2
-  title_zh: 汇通杂病源流以惠后学
-  summary: 由妇科推及杂病，溯源流，别虚实，著杂病源流犀烛三十卷，与妇科玉尺互为表里，垂训乡里后进
+  title_zh: 辑幼科释谜阙痘待补
+  summary: 分二十四门以四言韵语便诵习，删繁就简宗中和当病，独阙痘症以俟后贤
   phases:
   - key: brewing
-    name: 乡里诊治积累杂病经验
+    name: 遍考方书广搜秘录
     labels:
-      zh: 酝酿
-    start_date: 1760
-    highlight_event_id: guji-沈金鳌-event-practice
+      zh: 搜辑幼科
+    start_date: 1770
+    highlight_event_id: guji-沈金鳌-event-works
   - key: breakthrough
-    name: 以源流为纲贯通内外妇儿
+    name: 韵语分门阐明义理
     labels:
-      zh: 突破
-    start_date: 1771
-    highlight_event_id: guji-沈金鳌-event-rhizhu
+      zh: 释谜标牍
+    start_date: 1774-01
+    highlight_event_id: guji-沈金鳌-event-youke
   - key: climax
-    name: 杂病源流犀烛三十卷告成
+    name: 六卷二十四门告成
     labels:
-      zh: 高潮
-    start_date: 1773
-    highlight_event_id: guji-沈金鳌-event-rhizhu
+      zh: 成书自叙
+    start_date: 1774-12
+    highlight_event_id: guji-沈金鳌-event-youke
   - key: closure
-    name: 以妇科续补杂病之缺垂训后世
+    name: 阙痘以待后贤
     labels:
-      zh: 收束
-    start_date: 1774-04-03
-    highlight_event_id: guji-沈金鳌-event-yuchi
+      zh: 阙疑待补
+    start_date: 1774-12
+    highlight_event_id: guji-沈金鳌-event-youke
   decisions:
-  - date: 1773
-    title_zh: 先成杂病源流再专精妇科
-    rationale: 妇女病倍多于男子而原不外经产崩带，须先明杂病源流，方能充类至尽统摄妇科诸变
-  - date: 1774
-    title_zh: 谆嘱临时裁度不可拘泥成方
-    rationale: 病变无方，运用之妙存乎一心，故凡例明言因势酌方，调养脾胃气血为本，不专事攻伐
+  - date: 1774-12
+    title_zh: 独阙痘症庸有待
+    rationale: 痘候险变化百出，未获相随痘家亲聆教诲，未能晓然于手目，故不敢妄言而阙之
+  - date: 1774-12
+    title_zh: 宗中和不偏攻补凉热
+    rationale: 古人或专攻专补专凉专热皆有偏处，芽儿脏气未全不胜药力，故以中和当病为归
 events:
 - id: guji-沈金鳌-event-birth
+  title_zh: 生于无锡
   date: 1717
   year_of: 1717
-  title_zh: 出生于江苏无锡
-  description: 康熙五十六年生于无锡，字芊绿，号汲门老人，少力学医，尤精内妇诸科
-- id: guji-沈金鳌-event-practice
+  kind: birth
+  place_zh: 无锡
+  description: 康熙五十六年左右生于江苏无锡，字芊绿，号汭轩
+- id: guji-沈金鳌-event-study
+  title_zh: 师从孙庆曾学医
+  date: 1735
+  year_of: 1735
+  kind: career
+  place_zh: 无锡
+  description: 受业于孙庆曾先生，男女大小脉症皆得亲受，试之诊视罔弗取效
+- id: guji-沈金鳌-event-works
+  title_zh: 著伤寒纲目杂病源流妇科玉尺
   date: 1760
   year_of: 1760
-  title_zh: 无锡行医察妇女病
-  description: 久诊乡里，见妇女情不畅识不开，忧思怨怒致气血乖争，又隐曲掩蔽难达，遂思以玉尺量准之法诊治
-- id: guji-沈金鳌-event-rhizhu
-  date: 1773
-  year_of: 1773
-  title_zh: 撰成杂病源流犀烛
-  description: 汇通杂病源流，著书三十卷，溯病源，辨脉症，垂为医门津梁，与后之妇科著述相表里
-- id: guji-沈金鳌-event-yuchi
-  date: 1774-04-03
+  kind: career
+  place_zh: 无锡
+  description: 以晓然于心手目者笔之于书，先后成伤寒纲目杂病源流妇科玉尺诸书
+- id: guji-沈金鳌-event-youke
+  title_zh: 幼科释谜六卷成书
+  date: 1774-12
   year_of: 1774
-  title_zh: 自序妇科玉尺六卷
-  description: 乾隆甲午清明前二日自书序，成妇科玉尺六卷九门，论月经崩带胎产诸症，按脉切症，采录精粹效方，刊行于世
+  kind: career
+  place_zh: 无锡
+  description: 乾隆三十九年甲午十二月上浣自书自叙，分二十四门独阙痘症而成幼科释谜
 - id: guji-沈金鳌-event-death
+  title_zh: 逝世
   date: 1776
   year_of: 1776
-  title_zh: 逝世于无锡
-  description: 乾隆四十一年卒于里第，所著妇科玉尺与杂病源流犀烛并行于世，为清代妇科要籍
+  kind: death
+  place_zh: 无锡
+  description: 乾隆四十一年左右卒于无锡
