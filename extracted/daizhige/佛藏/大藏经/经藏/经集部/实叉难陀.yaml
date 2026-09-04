@@ -1,0 +1,134 @@
+person:
+  qid: guji-实叉难陀
+  name_zh: 实叉难陀
+  names:
+    zh: 实叉难陀
+    en: Siksananda
+  lifespan:
+    birth:
+      date: '0652'
+      precision: year
+      is_circa: true
+      raw: 贞观二十六年生于于阗
+    death:
+      date: '0710'
+      precision: year
+      is_circa: false
+      raw: 景龙四年卒于长安
+  birth_date: '0652'
+  death_date: '0710'
+  era: 唐
+  reign_ref: 武周
+  archetype: 译经弘法者
+  dilemmas:
+  - title_zh: 梵本浩繁而华梵悬隔何以取信
+    description: 华严梵本浩大须会通义理又令华言畅达
+  - title_zh: 朝廷崇重与山林本愿何以两全
+    description: 应诏入京主持译场名位隆重而初心在弘法利生
+  lesson: 心造善恶因果不虚当昼夜观察善法修习十善以为人天根本佛法大地
+  summary_first_person: 吾本于阗沙门蒙诏入唐主持译经以华严为重复译十善业道劝龙王及众生离十恶修十善令善法增长
+  source_urls:
+  - https://daizhige.org/佛藏/大藏经/经藏/经集部/十善业道经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/十善业道经.md
+endeavors:
+- id: guji-实叉难陀-endeavor-1
+  title_zh: 重译大方广佛华严经
+  summary: 应武周诏入洛阳组织译场重译八十华严奠定华严宗经本基础
+  phases:
+  - key: brewing
+    name: 于阗学养
+    labels:
+      zh: 于阗习学
+    start_date: '0652'
+    highlight_event_id: guji-实叉难陀-event-birth
+  - key: breakthrough
+    name: 应诏入洛
+    labels:
+      zh: 入京开场
+    start_date: 0695
+    highlight_event_id: guji-实叉难陀-event-huayan-start
+  - key: climax
+    name: 八十华严成
+    labels:
+      zh: 译场高峰
+    start_date: 0699
+    highlight_event_id: guji-实叉难陀-event-huayan-done
+  - key: closure
+    name: 弘传付嘱
+    labels:
+      zh: 付嘱流通
+    start_date: '0700'
+    highlight_event_id: guji-实叉难陀-event-huayan-done
+  decisions:
+  - date: 0695
+    title_zh: 应诏赴洛主持译场
+    rationale: 为令大方广法流通东土不辞远涉顺缘入京
+  - date: 0699
+    title_zh: 审定华严文义务令兼备
+    rationale: 梵本阙略处以义补之使理畅文顺取信后学
+- id: guji-实叉难陀-endeavor-2
+  title_zh: 译传十善业道经
+  summary: 于龙宫说法缘起下译出十善业道详明离十恶得福果劝菩萨以施等庄严善业
+  phases:
+  - key: brewing
+    name: 观察善法
+    labels:
+      zh: 思惟善法
+    start_date: 0695
+    highlight_event_id: guji-实叉难陀-event-huayan-start
+  - key: breakthrough
+    name: 龙宫说法译定
+    labels:
+      zh: 译出十善
+    start_date: '0700'
+    highlight_event_id: guji-实叉难陀-event-shishan
+  - key: climax
+    name: 十善功德广宣
+    labels:
+      zh: 广宣因果
+    start_date: '0701'
+    highlight_event_id: guji-实叉难陀-event-shishan
+  - key: closure
+    name: 以十善为大地付众奉行
+    labels:
+      zh: 嘱累奉行
+    start_date: '0710'
+    highlight_event_id: guji-实叉难陀-event-death
+  decisions:
+  - date: '0700'
+    title_zh: 举龙王为当机详说十善
+    rationale: 众生心想异故造业异须借龙王杂类彰显因果昭然
+  - date: '0701'
+    title_zh: 以六度四摄庄严十善
+    rationale: 使十善不止人天福转为菩提根本摄尽一切佛法
+events:
+- id: guji-实叉难陀-event-birth
+  title_zh: 生于于阗
+  date: '0652'
+  year_of: 652
+  location: 于阗
+  description: 贞观末年生于于阗出家学大乘通三藏
+- id: guji-实叉难陀-event-huayan-start
+  title_zh: 入洛阳主持华严译场
+  date: 0695
+  year_of: 695
+  location: 洛阳大遍空寺
+  description: 武周证圣元年应请至洛与菩提流志义净等共译大方广佛华严经
+- id: guji-实叉难陀-event-huayan-done
+  title_zh: 八十华严译毕
+  date: 0699
+  year_of: 699
+  location: 洛阳佛授记寺
+  description: 圣历二年译出八十卷华严武后亲制序文举朝迎重
+- id: guji-实叉难陀-event-shishan
+  title_zh: 奉制译十善业道经
+  date: '0700'
+  year_of: 700
+  location: 长安
+  description: 述佛在娑竭罗龙宫告龙王之法明十善业道离恶得福回向菩提以十善大地喻显其为一切佛法所依
+- id: guji-实叉难陀-event-death
+  title_zh: 卒于长安
+  date: '0710'
+  year_of: 710
+  location: 长安大荐福寺
+  description: 景龙四年示寂于大荐福寺春秋五十九送归葬于阗
