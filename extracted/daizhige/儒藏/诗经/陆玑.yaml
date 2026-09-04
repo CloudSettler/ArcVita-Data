@@ -1,0 +1,115 @@
+person:
+  qid: guji-陆玑
+  name_zh: 陆玑
+  names:
+    zh: 陆玑
+    en: Lu Ji
+  lifespan:
+    birth:
+      date: '0250'
+      precision: century
+      is_circa: true
+      raw: 吴郡人，生年不详，约三国中期
+    death:
+      date: 0280
+      precision: century
+      is_circa: true
+      raw: 卒年不详，约吴末晋初
+  birth_date: '0250'
+  death_date: 0280
+  era: 三国吴
+  reign_ref: 孙皓朝前后
+  archetype: 博物经师
+  dilemmas:
+  - 以今草木虫鱼验古诗，古今异名易致传疑
+  - 原书久佚唯赖诗正义辑录，采摭未周易生阙漏
+  lesson: 多识鸟兽草木之名方能通诗，博物考据为经学根基
+  summary_first_person: 吾乃吴郡陆玑，字元恪，曾任吴太子中庶子与乌程令，久察江东草木鸟兽虫鱼，以目验物证毛诗二卷，愿后学因物通经不失古真
+  source_urls:
+  - https://daizhige.org/儒藏/诗经/毛诗草木鸟兽虫鱼疏.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/诗经/毛诗草木鸟兽虫鱼疏.md
+endeavors:
+- id: guji-陆玑-endeavor-1
+  title_zh: 撰毛诗草木鸟兽虫鱼疏二卷
+  description: 以江东见闻与方言物候证毛诗草木鸟兽虫鱼之名
+  phases:
+  - key: brewing
+    name: 遍察吴地物产
+    labels:
+      zh: 酝酿
+    start_date: '0260'
+    highlight_event_id: guji-陆玑-event-zhongshuzi
+  - key: breakthrough
+    name: 出守乌程亲验山泽
+    labels:
+      zh: 突破
+    start_date: '0270'
+    highlight_event_id: guji-陆玑-event-wucheng
+  - key: climax
+    name: 以物证诗成疏二卷
+    labels:
+      zh: 高潮
+    start_date: '0275'
+    highlight_event_id: guji-陆玑-event-compose
+  decisions:
+  - date: '0270'
+    title_zh: 以今语方言验古名
+    rationale: 亲见江东荆扬幽兖方言与宫苑种植，可正传闻之失
+  - date: '0275'
+    title_zh: 参合尔雅旧注成疏
+    rationale: 宗樊光旧说，详记形色气味与可食可药之用，使后学因物通诗
+- id: guji-陆玑-endeavor-2
+  title_zh: 出仕吴朝历官中庶子乌程令
+  description: 历吴太子中庶子与乌程令，以官守博览兼察民物
+  phases:
+  - key: brewing
+    name: 生于吴郡长于江东
+    labels:
+      zh: 酝酿
+    start_date: '0250'
+    highlight_event_id: guji-陆玑-event-birth
+  - key: climax
+    name: 出为乌程令守土察物
+    labels:
+      zh: 高潮
+    start_date: '0270'
+    highlight_event_id: guji-陆玑-event-wucheng
+  - key: closure
+    name: 易代之际以述作存身
+    labels:
+      zh: 收束
+    start_date: 0280
+    highlight_event_id: guji-陆玑-event-death
+  decisions:
+  - date: '0260'
+    title_zh: 就太子中庶子博览经籍
+    rationale: 居宫僚近经籍，便于会通毛诗训诂与博物之学
+  - date: '0270'
+    title_zh: 出守乌程察山泽民物
+    rationale: 乌程吴郡山水饶草木禽鱼，可目验耳闻以补书传阙漏
+events:
+- id: guji-陆玑-event-birth
+  title_zh: 出生于吴郡
+  date: 约0250
+  year_of: 250
+  description: 吴郡人，字元恪，生年不详，约三国中期生于江东
+- id: guji-陆玑-event-zhongshuzi
+  title_zh: 任吴太子中庶子
+  date: 约0260
+  year_of: 260
+  description: 出仕东吴，为太子中庶子，博览经籍，积累诗学训诂
+- id: guji-陆玑-event-wucheng
+  title_zh: 出任乌程令
+  date: 约0270
+  year_of: 270
+  description: 出守乌程，察吴郡山泽草木鸟兽虫鱼，目验物候方言
+- id: guji-陆玑-event-compose
+  title_zh: 撰成毛诗草木鸟兽虫鱼疏二卷
+  date: 约0275
+  year_of: 275
+  description: 以所见所闻证毛诗，记形色气味功用，成疏二卷，后为诗正义全用
+- id: guji-陆玑-event-death
+  title_zh: 卒于吴末晋初之际
+  date: 约0280
+  year_of: 280
+  description: 卒年不详，原书久佚，后人多从诗正义中辑出，犹为最古博物经说
