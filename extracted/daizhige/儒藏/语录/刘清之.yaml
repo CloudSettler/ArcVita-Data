@@ -1,0 +1,132 @@
+person:
+  qid: guji-刘清之
+  name_zh: 刘清之
+  names:
+    zh: 刘清之
+    en: Liu Qingzhi
+  lifespan:
+    birth:
+      date: '1138'
+      precision: year
+      is_circa: true
+      raw: 绍兴八年左右临江
+    death:
+      date: '1195'
+      precision: year
+      is_circa: true
+      raw: 庆元前后
+  birth_date: '1138'
+  death_date: '1195'
+  era: 南宋
+  reign_ref: 宋光宗绍熙
+  archetype: 儒家庭训纂集者
+  dilemmas:
+  - 博采经史群籍恐涉冗杂与随事示教切要之间如何权衡
+  - 甘贫力学守志与入仕牧民化俗之间如何兼全
+  lesson: 爱子教以义方采经史母训阃教以庭训贻后
+  summary_first_person: 吾字子澄号静春临江人登进士光宗朝知袁州甘贫力学博极群书辑戒子通录以劝戒后人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/语录/戒子通录.md
+  - https://daizhige.org/儒藏/语录/戒子通录.html
+endeavors:
+- id: guji-刘清之-endeavor-1
+  title_zh: 甘贫力学登第入仕
+  summary_zh: 临江苦学登绍兴进士历仕以儒饬吏
+  phases:
+  - key: brewing
+    name: 临江苦学
+    labels:
+      zh: 甘贫力学
+    start_date: '1138'
+    highlight_event_id: guji-刘清之-event-birth
+  - key: breakthrough
+    name: 登第入仕
+    labels:
+      zh: 进士及第
+    start_date: '1157'
+    highlight_event_id: guji-刘清之-event-jinshi
+  - key: climax
+    name: 历官守正
+    labels:
+      zh: 以儒为政
+    start_date: '1170'
+    highlight_event_id: guji-刘清之-event-jinshi
+  - key: closure
+    name: 归养著述之基
+    labels:
+      zh: 讲学积稿
+    start_date: '1185'
+    highlight_event_id: guji-刘清之-event-compilation
+  decisions:
+  - date: '1157'
+    title_zh: 应举登第不废儒学
+    rationale: 以小学大学义方为先不以富贵为爱子之实
+  - date: '1185'
+    title_zh: 积群书庭训为后日纂辑之备
+    rationale: 博极群书随事示教以补世教
+- id: guji-刘清之-endeavor-2
+  title_zh: 知袁州辑戒子通录
+  summary_zh: 光宗朝知袁州博采经史成戒子通录八卷
+  phases:
+  - key: brewing
+    name: 搜采经史
+    labels:
+      zh: 采摭庭训
+    start_date: '1180'
+    highlight_event_id: guji-刘清之-event-compilation
+  - key: breakthrough
+    name: 知袁州化民
+    labels:
+      zh: 知袁州
+    start_date: '1190'
+    highlight_event_id: guji-刘清之-event-zhiyuanzhou
+  - key: climax
+    name: 成戒子通录
+    labels:
+      zh: 戒子通录成书
+    start_date: '1192'
+    highlight_event_id: guji-刘清之-event-compilation
+  - key: closure
+    name: 流传金谿重刻
+    labels:
+      zh: 后人重刻广传
+    start_date: '1195'
+    highlight_event_id: guji-刘清之-event-death
+  decisions:
+  - date: '1190'
+    title_zh: 知袁州以庭训闺范为教
+    rationale: 母训阃教亦备述以正家而化俗
+  - date: '1192'
+    title_zh: 不惮委曲详明成八卷之编
+    rationale: 虽琐语碎事莫非劝戒之资不以过多为患
+events:
+- id: guji-刘清之-event-birth
+  title_zh: 出生于临江
+  date: '1138'
+  year_of: 1138
+  kind: birth
+  description: 宋绍兴间生于临江字子澄号静春
+- id: guji-刘清之-event-jinshi
+  title_zh: 登绍兴进士
+  date: '1157'
+  year_of: 1157
+  kind: career
+  description: 甘贫力学登进士第博极群书著述甚多
+- id: guji-刘清之-event-compilation
+  title_zh: 辑成戒子通录
+  date: '1192'
+  year_of: 1192
+  kind: career
+  description: 博采经史群籍凡关庭训母训阃教皆节录大要成戒子通录
+- id: guji-刘清之-event-zhiyuanzhou
+  title_zh: 光宗朝知袁州
+  date: '1190'
+  year_of: 1190
+  kind: career
+  description: 光宗时知袁州以儒饬吏庭闻庭训化民
+- id: guji-刘清之-event-death
+  title_zh: 逝世
+  date: '1195'
+  year_of: 1195
+  kind: death
+  description: 卒后虞集等甚重其书劝刻于金谿流传至今
