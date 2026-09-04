@@ -1,0 +1,137 @@
+person:
+  qid: guji-郭璞
+  name_zh: 郭璞
+  names:
+    zh: 郭璞
+    en: Guo Pu
+  lifespan:
+    birth:
+      date: '0276'
+      precision: year
+      is_circa: false
+      raw: 晋泰始十二年河东闻喜
+    death:
+      date: '0324'
+      precision: year
+      is_circa: false
+      raw: 晋明帝太宁二年建康
+  birth_date: '0276'
+  death_date: '0324'
+  era: 晋
+  reign_ref: 晋武帝至晋明帝
+  archetype: 博闻注疏型经师
+  dilemmas:
+  - 旧注十余家纷谬漏略当否复缀异闻会卒旧说以明六经之旨
+  - 永嘉板荡王敦擅权当否以术数事权门而守著述匡正之心
+  lesson: 削瑕砾存嘉禾考方俗援经据使绝代离词可近而取正
+  summary_first_person: 吾少而习尔雅沈研钻极十有八载错综樊孙博关群言事隐则援据征之事易则阙而不论别为音图以觉未悟愿将来君子涉此津涉
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B0%94%E9%9B%85%E6%B3%A8%E7%96%8F.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B0%94%E9%9B%85%E6%B3%A8%E7%96%8F.html
+endeavors:
+- id: guji-郭璞-endeavor-1
+  title_zh: 注释尔雅以通诂训
+  summary: 用心近二十年考方国采谣俗而成一家之注为群经枢要开津涉
+  phases:
+  - key: brewing
+    name: 少习尔雅遍览旧注
+    labels:
+      zh: 少习
+    start_date: 0285
+    highlight_event_id: guji-郭璞-event-erya-brewing
+  - key: breakthrough
+    name: 错综樊孙博关群言
+    labels:
+      zh: 会卒
+    start_date: 0295
+    highlight_event_id: guji-郭璞-event-erya-note
+  - key: climax
+    name: 注解方毕别为音图
+    labels:
+      zh: 注成
+    start_date: 0308
+    highlight_event_id: guji-郭璞-event-erya-note
+  - key: closure
+    name: 学者宗祖称首后世
+    labels:
+      zh: 宗祖
+    start_date: '0310'
+    highlight_event_id: guji-郭璞-event-erya-note
+  decisions:
+  - date: 0295
+    title_zh: 复缀集异闻会卒旧说
+    rationale: 十余家注纷谬漏略故当削瑕搴稂存其善者
+  - date: '0300'
+    title_zh: 考方国采谣俗援经为据
+    rationale: 绝代离词方俗殊语非博引方言经记不足辩同实殊号
+- id: guji-郭璞-endeavor-2
+  title_zh: 博通山海方术历官著述
+  summary: 注山海经穆天子传楚辞作游仙诗图赞历任著作郎弘农太守以博物显
+  phases:
+  - key: brewing
+    name: 博学多识好古文奇字
+    labels:
+      zh: 博学
+    start_date: 0290
+    highlight_event_id: guji-郭璞-event-office
+  - key: breakthrough
+    name: 注山海穆天别为图赞
+    labels:
+      zh: 图赞
+    start_date: '0305'
+    highlight_event_id: guji-郭璞-event-office
+  - key: climax
+    name: 入仕著作佐命王导
+    labels:
+      zh: 入仕
+    start_date: '0316'
+    highlight_event_id: guji-郭璞-event-office
+  - key: closure
+    name: 不附王敦遇害建康
+    labels:
+      zh: 殉志
+    start_date: '0324'
+    highlight_event_id: guji-郭璞-event-death
+  decisions:
+  - date: '0305'
+    title_zh: 以图赞显物形以音显字形
+    rationale: 物状难辨字形难识非图音并举不足觉未悟
+  - date: '0324'
+    title_zh: 占知敦败而不逃全身
+    rationale: 知天命难违守臣节不附逆以全名教
+events:
+- id: guji-郭璞-event-birth
+  type: birth
+  date: '0276'
+  year_of: 276
+  title_zh: 生于河东闻喜
+  description: 晋泰始十二年生于河东少好经术博学有高才
+  location: 河东闻喜
+- id: guji-郭璞-event-erya-brewing
+  type: career
+  date: 0285
+  year_of: 285
+  title_zh: 少习尔雅沈研旧注
+  description: 少习尔雅沈研钻极览犍为刘歆樊光李巡孙炎诸家之注
+  location: 河东
+- id: guji-郭璞-event-erya-note
+  type: career
+  date: 0308
+  year_of: 308
+  title_zh: 尔雅注成别为音图
+  description: 用心近二十年注解方毕考方国采谣俗错综樊孙别为音一卷图赞二卷学者宗之
+  location: 江南
+- id: guji-郭璞-event-office
+  type: career
+  date: '0316'
+  year_of: 316
+  title_zh: 注山海历任著作郎
+  description: 注山海经穆天子传楚辞作游仙诗辟司空掾迁著作郎弘农太守以博物著名
+  location: 建康
+- id: guji-郭璞-event-death
+  type: death
+  date: '0324'
+  year_of: 324
+  title_zh: 为王敦所害于建康
+  description: 晋明帝太宁二年以不附王敦之逆为敦所害时年四十有九其注遂显于世后邢昺奉敕为疏十卷
+  location: 建康

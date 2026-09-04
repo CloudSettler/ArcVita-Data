@@ -1,0 +1,128 @@
+person:
+  qid: guji-尔雅
+  name_zh: 尔雅
+  names:
+    zh: 尔雅
+    en: Erya
+  lifespan:
+    birth:
+      date: '-0330'
+      precision: year
+      is_circa: true
+      raw: 战国约前四世纪末肇始
+    death:
+      date: -0180
+      precision: year
+      is_circa: true
+      raw: 西汉初定型传授
+  birth_date: '-0330'
+  death_date: -0180
+  era: 战国至西汉
+  reign_ref: 战国秦汉之际
+  archetype: 小学训诂之祖
+  dilemmas:
+  - 训诂求雅正与名物求博备如何兼顾
+  - 经义通释与博物考名孰为根本
+  lesson: 正名训字以通经致用考物辨名以明伦
+  summary_first_person: 吾乃尔雅汇群经雅言以释诂训别亲疏宫器草木虫鱼以正名物愿后人由言达义由名识实以通大道
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%B0%8F%E5%AD%A6/%E5%B0%94%E9%9B%85.html
+  - https://ctext.org/er-ya
+  - https://zh.wikisource.org/wiki/%E7%88%BE%E9%9B%85
+endeavors:
+- id: guji-尔雅-endeavor-1
+  title_zh: 释诂释言释训立训诂之法
+  summary_zh: 采集诗书雅言以释诂为纲释言释训为目开后世训诂之体
+  phases:
+  - key: brewing
+    name: 采诗书雅言以酝酿
+    labels:
+      zh: 酝酿采集群言
+    start_date: '-0330'
+    highlight_event_id: guji-尔雅-event-birth
+  - key: breakthrough
+    name: 首立释诂总释群词得突破
+    labels:
+      zh: 突破立释诂体
+    start_date: -0280
+    highlight_event_id: guji-尔雅-event-shigu
+  - key: climax
+    name: 释言释训成而诂训大备
+    labels:
+      zh: 高潮诂训成
+    start_date: '-0250'
+    highlight_event_id: guji-尔雅-event-shixun
+  - key: closure
+    name: 诂训三篇定型授经师
+    labels:
+      zh: 收束传经师
+    start_date: '-0220'
+    highlight_event_id: guji-尔雅-event-mingwu
+  decisions:
+  - date: -0280
+    title_zh: 首立释诂以释群经雅言
+    rationale: 群经异文词古义远必先通其言然后可通其道故以始也君也大也统其要
+  - date: '-0250'
+    title_zh: 别立释训以存叠字形容
+    rationale: 明明穆穆兢兢业业之形容不可拆解当以连绵存其声义之美
+- id: guji-尔雅-endeavor-2
+  title_zh: 释亲至释畜明名物之实
+  summary_zh: 自亲戚宫室器乐天地山水以至草木虫鱼鸟兽畜别类系名博物以正名
+  phases:
+  - key: brewing
+    name: 考亲疏宫器以酝酿名物
+    labels:
+      zh: 酝酿考名物
+    start_date: '-0260'
+    highlight_event_id: guji-尔雅-event-shixun
+  - key: breakthrough
+    name: 释亲释宫释器成得突破
+    labels:
+      zh: 突破人伦器用明
+    start_date: '-0230'
+    highlight_event_id: guji-尔雅-event-mingwu
+  - key: climax
+    name: 草木虫鱼鸟兽大备达高潮
+    labels:
+      zh: 高潮博物备
+    start_date: '-0200'
+    highlight_event_id: guji-尔雅-event-mingwu
+  - key: closure
+    name: 十九篇定型列于学官得收束
+    labels:
+      zh: 收束列学官
+    start_date: -0180
+    highlight_event_id: guji-尔雅-event-death
+  decisions:
+  - date: '-0230'
+    title_zh: 以释亲释宫居前以明人伦
+    rationale: 亲亲尊尊为教之本宫室器乐为礼之具必先别人伦正礼器而后及远物
+  - date: '-0200'
+    title_zh: 以草木虫鱼终篇以博物收束
+    rationale: 名物散在山川草木必系以类聚以辨使学者因名识实不失其序
+events:
+- id: guji-尔雅-event-birth
+  date: '-0330'
+  year_of: -330
+  title_zh: 尔雅肇始于战国
+  description_zh: 战国群经并兴雅言散殊经师采诗书以释古语为尔雅之萌
+- id: guji-尔雅-event-shigu
+  date: -0280
+  year_of: -280
+  title_zh: 释诂第一成
+  description_zh: 首成释诂以初哉首基为始以死为终总释群经要言开训诂之宗
+- id: guji-尔雅-event-shixun
+  date: '-0250'
+  year_of: -250
+  title_zh: 释言释训成
+  description_zh: 继成释言释训明明斤斤察也穆穆肃肃敬也存叠字形容之训诂体大备
+- id: guji-尔雅-event-mingwu
+  date: '-0200'
+  year_of: -200
+  title_zh: 释亲至释畜名物篇成
+  description_zh: 自释亲释宫释器释乐释天以至释草释木释虫释鱼释鸟释兽释畜十九篇之规模渐成
+- id: guji-尔雅-event-death
+  date: -0180
+  year_of: -180
+  title_zh: 汉初定型传授
+  description_zh: 秦汉之际经师缀合审定尔雅十九篇列小学传授遂为训诂名物之祖
