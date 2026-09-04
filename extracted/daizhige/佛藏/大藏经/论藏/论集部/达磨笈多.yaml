@@ -7,115 +7,105 @@ person:
   lifespan:
     birth:
       date: '0550'
-      precision: century
+      precision: year
       is_circa: true
-      raw: 南贤豆国生年未详约六世纪中叶
+      raw: 约六世纪中叶生于南印度
     death:
       date: 0619
       precision: year
-      is_circa: true
-      raw: 隋末唐初卒于东都
+      is_circa: false
+      raw: 武德二年卒于长安
   birth_date: '0550'
   death_date: 0619
   era: 隋
-  reign_ref: 大业
-  archetype: 翻经三藏
+  reign_ref: 隋文帝开皇至唐高祖武德
+  archetype: 西来译经师
   dilemmas:
-  - 梵本得自林邑而义旨微密如何不失本义
-  - 文辞简质与义解沉密之间如何允正取舍
-  lesson: 对叶三覆以忠实守本以简质显义方能使缘生法灯久益世间
-  summary_first_person: 我本南贤豆国沙门究论明义而来东土与彦琮于东都上林园对校梵本译出缘生经论愿穷后际常益世间
+  - 梵本广博与华言简质之间如何忠实传译
+  - 异域孤旅弘法与安住本国修行之间如何抉择
+  lesson: 以般若为母以大悲为父持戒忍辱精进译弘方能圆满菩提资粮
+  summary_first_person: 我本南印度比丘慕隋土弘法西来入关住大兴善寺译龙树菩提资粮论等经论愿以般若慈悲资粮利乐众生共成佛果
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E8%8F%A9%E6%8F%90%E8%B5%84%E7%B2%AE%E8%AE%BA.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E8%8F%A9%E6%8F%90%E8%B5%84%E7%B2%AE%E8%AE%BA.html
 endeavors:
 - id: guji-达磨笈多-endeavor-1
-  title_zh: 上林园译缘生经论
-  summary_zh: 大业二年十月至三年九月依林邑所获贤豆梵本译出经二卷论一卷
+  title_zh: 西来入隋住寺译经
+  description_zh: 自南印度西来于开皇十年至长安住大兴善寺与阇那崛多等共译大乘经论弘扬佛法
   phases:
   - key: brewing
-    name: 获林邑梵本入上林园
+    name: 渡海西来初至长安
     labels:
-      zh: 酝酿
-    start_date: '0606-10-01'
-    highlight_event_id: guji-达磨笈多-event-start
-  - key: breakthrough
-    name: 与彦琮对叶扣击立译例
-    labels:
-      zh: 突破
-    start_date: '0606-11-01'
-    highlight_event_id: guji-达磨笈多-event-start
+      zh:
+      - 西来
+      - 入关
+    start_date: 0590
+    highlight_event_id: guji-达磨笈多-event-arrival
   - key: climax
-    name: 三覆审定一言靡遗
+    name: 住寺译经弘化不辍
     labels:
-      zh: 高潮
-    start_date: '0607-01-01'
-    highlight_event_id: guji-达磨笈多-event-complete
-  - key: closure
-    name: 经二卷论一卷功竟
-    labels:
-      zh: 收束
-    start_date: '0607-09-01'
-    highlight_event_id: guji-达磨笈多-event-complete
+      zh:
+      - 译经
+      - 弘法
+    start_date: '0604'
+    highlight_event_id: guji-达磨笈多-event-translate
   decisions:
-  - date: '0606-10-01'
-    title_zh: 依林邑梵本于上林园开译
-    rationale: 以贤豆梵本为据借东都译场成其胜缘
-  - date: '0607-01-01'
-    title_zh: 与彦琮更相对校三覆逾审
-    rationale: 梵汉对勘以求辞简质而意允正免于尤失
+  - date: 0590
+    title_zh: 决意渡海入隋弘法
+    rationale: 为令大乘正法流布东土不惜艰险远涉入关依止译场
+  - date: '0604'
+    title_zh: 安住兴善专务翻译
+    rationale: 以持戒精进为本以利乐众生为怀故专心译经不求名利
 - id: guji-达磨笈多-endeavor-2
-  title_zh: 究论明义会通三乘
-  summary_zh: 不执一部之筌遍取三乘之意显发郁楞迦三十偈缘生深义
+  title_zh: 译释菩提资粮论
+  description_zh: 依龙树本自在比丘释翻译菩提资粮论阐明般若为母施戒忍进定为资粮以成佛果
   phases:
-  - key: brewing
-    name: 究论闲明义解沉密
-    labels:
-      zh: 酝酿
-    start_date: '0606-10-01'
-    highlight_event_id: guji-达磨笈多-event-start
   - key: breakthrough
-    name: 以十一门百二十问摄经纲目
+    name: 译出般若为初资粮
     labels:
-      zh: 突破
-    start_date: '0606-12-01'
-    highlight_event_id: guji-达磨笈多-event-start
-  - key: climax
-    name: 明十二分缘生空义中道
-    labels:
-      zh: 高潮
-    start_date: '0607-05-01'
-    highlight_event_id: guji-达磨笈多-event-complete
+      zh:
+      - 般若
+      - 资粮
+    start_date: '0607'
+    highlight_event_id: guji-达磨笈多-event-translate
   - key: closure
-    name: 立法灯智藏之风垂范后世
+    name: 施戒忍进圆满资粮义
     labels:
-      zh: 收束
-    start_date: '0607-09-01'
-    highlight_event_id: guji-达磨笈多-event-complete
+      zh:
+      - 布施
+      - 持戒
+      - 忍辱
+    start_date: '0610'
+    highlight_event_id: guji-达磨笈多-event-translate
   decisions:
-  - date: '0606-12-01'
-    title_zh: 先立偈章后兴论释
-    rationale: 以三十偈总摄五因七果十二分使微密之旨可寻
-  - date: '0607-05-01'
-    title_zh: 遍取三乘不执一部
-    rationale: 为显中道空义破断常二边须会通城喻诸经
+  - date: '0607'
+    title_zh: 以般若为首译菩提资粮
+    rationale: 般若能生菩萨佛体为诸度前行三轮净因故先明般若为初资粮
+  - date: '0610'
+    title_zh: 具译施戒忍进等资粮
+    rationale: 为令学者次第修习圆满菩提因缘故具译施戒忍精进等行
 events:
 - id: guji-达磨笈多-event-birth
   date: '0550'
   year_of: 550
-  title_zh: 生于南贤豆国
-  description_zh: 南贤豆国出生究论闲明义解沉密为三藏法师
-- id: guji-达磨笈多-event-start
-  date: '0606-10-01'
-  year_of: 606
-  title_zh: 大业二年十月上林园开译缘生
-  description_zh: 与翻经法师彦琮在东都上林园依林邑所获贤豆梵本译为隋言
-- id: guji-达磨笈多-event-complete
-  date: '0607-09-01'
+  title_zh: 生于南印度
+  description_zh: 约六世纪中叶生于南印度出家学通三藏善梵本经论
+  place_zh: 南印度
+- id: guji-达磨笈多-event-arrival
+  date: 0590
+  year_of: 590
+  title_zh: 开皇十年至长安
+  description_zh: 自西域至长安止大兴善寺隋文帝敬礼供养入译场预译经
+  place_zh: 长安大兴善寺
+- id: guji-达磨笈多-event-translate
+  date: '0607'
   year_of: 607
-  title_zh: 大业三年九月译功乃竟
-  description_zh: 经二卷论一卷成辞颇简质意存允正共对叶本更相扣击三覆逾审
+  title_zh: 译菩提资粮论等经论
+  description_zh: 译龙树本自在释菩提资粮论二卷明般若施戒忍进为菩提资粮兼译起信论注等
+  place_zh: 长安
 - id: guji-达磨笈多-event-death
   date: 0619
   year_of: 619
-  title_zh: 卒于东都
-  description_zh: 隋末唐初卒世称法灯智藏其译愿穷后际常益世间
+  title_zh: 武德二年卒于长安
+  description_zh: 唐高祖武德二年卒于长安译业既广慈悲利物之行传于后世
+  place_zh: 长安
