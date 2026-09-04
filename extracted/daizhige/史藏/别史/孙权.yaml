@@ -1,0 +1,150 @@
+person:
+  qid: guji-孙权
+  name_zh: 孙权
+  names:
+    zh: 孙权
+    en: Sun Quan
+  lifespan:
+    birth:
+      date: 0182
+      precision: year
+      is_circa: false
+      raw: 光和元年
+    death:
+      date: '0252-05-21'
+      precision: day
+      is_circa: false
+      raw: 太元二年四月
+  birth_date: 0182
+  death_date: '0252-05-21'
+  era: 三国吴
+  reign_ref: 吴黄龙至太元
+  archetype: 守成拓业之君
+  dilemmas:
+  - 承兄基业于群雄环伺之际如何固守江东
+  - 面临曹军南下是迎降保全还是联刘决战
+  lesson: 举贤任能各尽其心则江东可保，决机两阵则鼎足可成
+  summary_first_person: 吾年少嗣兄业于江东，委周瑜鲁肃张昭之众，拒曹操于赤壁，迁镇京口而守六郡，终开吴国帝业
+  source_urls:
+  - https://daizhige.org/史藏/别史/建康实录.html
+endeavors:
+- id: guji-孙权-endeavor-1
+  title_zh: 嗣兄守江东
+  summary: 承孙策基业，安抚英豪，平定山越，坐稳六郡
+  phases:
+  - key: brewing
+    name: 临丧嗣统
+    labels:
+      zh: 继统
+    start_date: '0200'
+    highlight_event_id: guji-孙权-event-succession
+  - key: breakthrough
+    name: 招贤分镇
+    labels:
+      zh: 安众
+    start_date: '0201'
+    highlight_event_id: guji-孙权-event-succession
+  - key: climax
+    name: 讨平不附
+    labels:
+      zh: 拓地
+    start_date: '0206'
+    highlight_event_id: guji-孙权-event-ping-shanyue
+  - key: closure
+    name: 迁镇京口
+    labels:
+      zh: 守成
+    start_date: 0208
+    highlight_event_id: guji-孙权-event-move-jingkou
+  decisions:
+  - date: '0200'
+    title_zh: 以张昭张纮为辅分部诸将
+    rationale: 天下鼎沸宜负荷先轨任贤使能以固江东
+  - date: '0206'
+    title_zh: 命贺齐讨上饶分建平县
+    rationale: 山越未服则郡县不宁须镇抚分置以安地方
+- id: guji-孙权-endeavor-2
+  title_zh: 联刘拒曹定鼎足
+  summary: 拒迎降之议，借荆州于刘备，火攻破曹于赤壁
+  phases:
+  - key: brewing
+    name: 曹操书逼
+    labels:
+      zh: 抉择
+    start_date: 0208
+    highlight_event_id: guji-孙权-event-chibi
+  - key: breakthrough
+    name: 召瑜共谋
+    labels:
+      zh: 决战
+    start_date: '0208-10-01'
+    highlight_event_id: guji-孙权-event-chibi
+  - key: climax
+    name: 赤壁火攻
+    labels:
+      zh: 破曹
+    start_date: '0208-12-01'
+    highlight_event_id: guji-孙权-event-chibi
+  - key: closure
+    name: 借荆资备
+    labels:
+      zh: 鼎峙
+    start_date: 0209
+    highlight_event_id: guji-孙权-event-jiejingzhou
+  decisions:
+  - date: '0208-10-01'
+    title_zh: 不纳迎曹议而用周瑜鲁肃策
+    rationale: 迎操则江东不保，拒操破之则鼎足可立
+  - date: 0209
+    title_zh: 表刘备为荆州牧使其治公安
+    rationale: 以备当上流以抗北军而结唇齿之援
+events:
+- id: guji-孙权-event-birth
+  type: birth
+  date: 0182
+  year_of: 182
+  title_zh: 孙权生于吴郡富春
+  description: 孙坚次子吴夫人所生，广额大口目有精光
+  location: 吴郡富春
+- id: guji-孙权-event-succession
+  type: career
+  date: '0200'
+  year_of: 200
+  title_zh: 嗣兄孙策统江东事
+  description: 策遇刺卒以事付权，张昭扶上马巡行军伍，领会稽吴郡丹阳豫章庐陵等郡
+  location: 丹徒
+- id: guji-孙权-event-ping-shanyue
+  type: career
+  date: '0206'
+  year_of: 206
+  title_zh: 遣贺齐讨平上饶分置建平县
+  description: 丹阳山越未服，使都尉贺齐讨上饶分置建平县以镇抚
+  location: 鄱阳上饶
+- id: guji-孙权-event-chibi
+  type: career
+  date: '0208-12-01'
+  year_of: 208
+  title_zh: 与刘备合军破曹操于赤壁
+  description: 遣周瑜程普将兵二万随诸葛亮拒操，黄盖火攻烧北船，大破操军于赤壁江口
+  location: 赤壁江口
+- id: guji-孙权-event-move-jingkou
+  type: career
+  date: 0208
+  year_of: 208
+  title_zh: 自吴迁镇京口
+  description: 自吴迁于京口而镇之，筑京城据建业之北以御北军
+  location: 京口
+- id: guji-孙权-event-jiejingzhou
+  type: career
+  date: 0209
+  year_of: 209
+  title_zh: 以荆州资刘备表为荆州牧
+  description: 刘备诣京口求荆州，不纳留备之议，表备为荆州牧使治公安
+  location: 京口
+- id: guji-孙权-event-death
+  type: death
+  date: '0252-05-21'
+  year_of: 252
+  title_zh: 孙权崩于建业
+  description: 在位称帝二十余年，太元二年崩于建业
+  location: 建业
