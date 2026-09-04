@@ -3,118 +3,126 @@ person:
   name_zh: 僧伽婆罗
   names:
     zh: 僧伽婆罗
-    en: Sanghabhara
+    en: Sanghapala
   lifespan:
     birth:
       date: '0460'
       precision: year
       is_circa: true
-      raw: 约四六〇年生于扶南国
+      raw: 约宋末生于扶南国
     death:
       date: '0524'
       precision: year
-      is_circa: false
-      raw: 梁普通五年卒于建康
+      is_circa: true
+      raw: 约梁普通五年卒于建康
   birth_date: '0460'
   death_date: '0524'
   era: 南北朝梁
-  reign_ref: 梁武帝天监普通年间
-  archetype: 译经弘法者
+  reign_ref: 梁武帝天监至普通年间
+  archetype: 译经弘法型三藏法师
   dilemmas:
-  - 扶南旧学与中土义理如何会通
-  - 梵本阙略与众生渴仰如何兼顾
-  lesson: 以无畏施摄众以法施利世译经不辍方报佛恩
-  summary_first_person: 吾自扶南海国来至建康与曼陀罗仙共译宝云大乘开演十度唯愿众生闻佛名号皆种不退转因
+  - 扶南海路艰险与赴梁弘法弘愿如何兼顾
+  - 梵本义理深广与梁地华言达意如何取舍
+  - 头陀苦行持戒与随方利物开缘如何权衡
+  lesson: 以信达传译为舟筏，持戒契理而不滞文，利物弘法当随缘善巧
+  summary_first_person: 我本扶南海滨扶南国人，幼慕佛法博习三藏，闻梁土崇佛遂泛海东来，蒙武帝礼遇住建康译场，译出文殊师利问经等，备述菩萨戒行与般若中道，愿以华言传佛本怀，令戒定慧流通无碍
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏大藏经经藏经集部大乘宝云经.md
-  - https://daizhige.org/佛藏大藏经经藏经集部大乘宝云经.html
+  - https://daizhige.org/佛藏/大藏经/经藏/经集部/文殊师利问经.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/文殊师利问经.md
 endeavors:
 - id: guji-僧伽婆罗-endeavor-1
-  title_zh: 扶南来华弘法安众
-  description: 自扶南泛海至建康依梁室弘宣三学安众办道
+  title_zh: 赴梁译场译出文殊师利问经
+  summary_zh: 自扶南泛海至建康，入梁武帝译场，译出文殊师利问经等，奠定菩萨戒与般若义理华译基础
   phases:
   - key: brewing
-    name: 扶南出家习定慧
+    name: 扶南习学蕴酿东行志
     labels:
-      zh: 出家求法
-    start_date: 0480
+      zh: 蕴酿
+    start_date: '0475'
     highlight_event_id: guji-僧伽婆罗-event-birth
   - key: breakthrough
-    name: 泛海东来至建康
+    name: 抵达建康初入译场
     labels:
-      zh: 来华弘法
-    start_date: 0493
-    highlight_event_id: guji-僧伽婆罗-event-arrive
-  - key: climax
-    name: 深得梁武朝野敬信
-    labels:
-      zh: 朝野归敬
-    start_date: '0502'
-    highlight_event_id: guji-僧伽婆罗-event-arrive
-  decisions:
-  - date: 0493
-    title_zh: 决意泛海东行
-    rationale: 悲中土众生秽浊多苦愿以禅味法乐施予故不惮海险而来
-  - date: '0502'
-    title_zh: 安住建康译场
-    rationale: 逢梁兴佛法缘具足留住译经弘律以利将来故不复归国
-- id: guji-僧伽婆罗-endeavor-2
-  title_zh: 共译大乘宝云经弘十度
-  description: 与曼陀罗仙共译宝云经八卷详明十度地水火风平等诸行
-  phases:
-  - key: brewing
-    name: 与曼陀罗仙结缘校梵本
-    labels:
-      zh: 校定梵本
-    start_date: '0503'
-    highlight_event_id: guji-僧伽婆罗-event-translate
-  - key: breakthrough
-    name: 伽耶顶山序品开译
-    labels:
-      zh: 开译宝云
+      zh: 突破
     start_date: '0505'
-    highlight_event_id: guji-僧伽婆罗-event-translate
+    highlight_event_id: guji-僧伽婆罗-event-arrive
   - key: climax
-    name: 十波罗蜜品广演法施
+    name: 译出文殊问经弘布菩萨戒
     labels:
-      zh: 广演十度
-    start_date: '0506'
+      zh: 高潮
+    start_date: '0517'
     highlight_event_id: guji-僧伽婆罗-event-translate
   - key: closure
-    name: 经成流通训后学
+    name: 校定流通付嘱后学
     labels:
-      zh: 流通后世
-    start_date: '0511'
-    highlight_event_id: guji-僧伽婆罗-event-translate
+      zh: 收束
+    start_date: '0520'
+    highlight_event_id: guji-僧伽婆罗-event-preach
   decisions:
   - date: '0505'
-    title_zh: 共译宝云不计名利
-    rationale: 为令娑诃秽土众生闻佛名种不退转因故与曼陀罗仙共任译主
-  - date: '0506'
-    title_zh: 以法施为先详说十度
-    rationale: 悯众生贪嗔痴重故先明檀施法施无畏施以摄群品
+    title_zh: 应梁武帝诏入京译经
+    rationale: 感梁土慕法诚心，欲以华言传梵本实义，遂舍安逸而就译任
+  - date: '0517'
+    title_zh: 先译菩萨戒品以正行本
+    rationale: 见末世行人缺戒基，欲令般若有所依，故先明菩萨戒行遮开持犯
+- id: guji-僧伽婆罗-endeavor-2
+  title_zh: 弘阐般若中道破邪显正
+  summary_zh: 依文殊所问敷演般若无我涅槃中道，破外道我见邪祀，显法身常住与修行方便
+  phases:
+  - key: brewing
+    name: 研习般若蕴酿正见
+    labels:
+      zh: 蕴酿
+    start_date: '0505'
+    highlight_event_id: guji-僧伽婆罗-event-arrive
+  - key: breakthrough
+    name: 破斥有我邪见初显中道
+    labels:
+      zh: 突破
+    start_date: '0517'
+    highlight_event_id: guji-僧伽婆罗-event-translate
+  - key: climax
+    name: 敷演涅槃法身不灭高峰
+    labels:
+      zh: 高潮
+    start_date: '0520'
+    highlight_event_id: guji-僧伽婆罗-event-preach
+  - key: closure
+    name: 付嘱流通收束译弘事业
+    labels:
+      zh: 收束
+    start_date: '0524'
+    highlight_event_id: guji-僧伽婆罗-event-death
+  decisions:
+  - date: '0517'
+    title_zh: 以问答体显深义以便受持
+    rationale: 恐深法难解故借文殊问佛答之缘起令般若中道易入
+  - date: '0520'
+    title_zh: 兼明持犯开缘以利末世
+    rationale: 怜末世众生根钝故明酒肉蒜油等遮开，令戒行可持而不断慈悲
 events:
 - id: guji-僧伽婆罗-event-birth
-  title_zh: 生于扶南国
   date: '0460'
   year_of: 460
-  location: 扶南国
-  description: 约当宋世生于扶南幼即出家习三藏通梵汉
+  title_zh: 生于扶南国
+  description_zh: 约宋末生于扶南海滨扶南国，自幼颖悟出家习三藏
 - id: guji-僧伽婆罗-event-arrive
-  title_zh: 泛海至建康弘法
-  date: 0493
-  year_of: 493
-  location: 建康
-  description: 齐永明末泛海东来至建康精律行善咒术为时敬信
-- id: guji-僧伽婆罗-event-translate
-  title_zh: 与曼陀罗仙共译宝云经
   date: '0505'
   year_of: 505
-  location: 建康
-  description: 天监年间与扶南三藏曼陀罗仙共译大乘宝云经八卷具说十波罗蜜及菩萨平等诸行
+  title_zh: 泛海抵达梁建康
+  description_zh: 天监年间泛海东来抵建康，蒙梁武帝礼遇入译场
+- id: guji-僧伽婆罗-event-translate
+  date: '0517'
+  year_of: 517
+  title_zh: 译出文殊师利问经
+  description_zh: 于建康译出文殊师利问经，明菩萨戒供养邪见涅槃般若等十品义
+- id: guji-僧伽婆罗-event-preach
+  date: '0520'
+  year_of: 520
+  title_zh: 敷演菩萨行与中道义
+  description_zh: 依经敷演菩萨衣色归依般若修行中道，教化四众破邪显正
 - id: guji-僧伽婆罗-event-death
-  title_zh: 卒于建康
   date: '0524'
   year_of: 524
-  location: 建康
-  description: 梁普通五年卒于建康一生译经弘法以法施无畏施利世
+  title_zh: 卒于建康
+  description_zh: 约普通五年卒于建康，译业告一段落，门人继传其学

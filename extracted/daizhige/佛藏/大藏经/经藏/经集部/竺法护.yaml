@@ -3,123 +3,164 @@ person:
   name_zh: 竺法护
   names:
     zh: 竺法护
-    en: Dharmaraksa
+    en: Dharmaraksha
   lifespan:
     birth:
-      date: '0233'
+      date: '0230'
       precision: year
       is_circa: true
-      raw: 约景元四年敦煌
+      raw: 月支裔世居敦煌约西晋前生
     death:
-      date: '0310'
+      date: 0308
       precision: year
       is_circa: true
-      raw: 永嘉四年洛阳
-  birth_date: '0233'
-  death_date: '0310'
+      raw: 永嘉二年示寂于洛阳
+  birth_date: '0230'
+  death_date: 0308
   era: 西晋
-  reign_ref: 晋武帝至怀帝
-  archetype: 译经沙门
+  reign_ref: 晋武帝泰始至晋怀帝永嘉
+  archetype: 西行求法译经弘化者
   dilemmas:
-  - 梵汉文义悬隔，如何传信达雅而不失禅观本意
-  - 世乱流离译场艰辛，如何坚持弘化不懈
-  lesson: 总众经大较，建易进径路，专精禅数，体空归无，方离众患
-  summary_first_person: 吾幼居敦煌，八岁出家，随师游西域，通三十六国语，归中夏译经弘化，钞众经要作修行径路，愿后贤精进至甘露
+  - 梵本西来华言难晓如何令正法得入中土
+  - 世乱欲盛众生贪染如何以舍欲离染教化群生
+  lesson: 知欲为患舍染离著广译大乘以度群生
+  summary_first_person: 我本月支之后家于敦煌幼而出家志在弘法西行求经得梵本而东归洛阳毕生译经弘化所译所欲致患等经皆明爱欲色想痛痒之患劝人舍欲断恶以求解脱乱世之中唯以传法为任
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BF%AE%E8%A1%8C%E9%81%93%E5%9C%B0%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BF%AE%E8%A1%8C%E9%81%93%E5%9C%B0%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E6%89%80%E6%AC%B2%E8%87%B4%E6%82%A3%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E6%89%80%E6%AC%B2%E8%87%B4%E6%82%A3%E7%BB%8F.html
 endeavors:
 - id: guji-竺法护-endeavor-1
-  title_zh: 西域游学通译
-  description: 幼学大典，游历西域三十六国，习梵语胡书，博通法藏十二部
+  person_id: guji-竺法护
+  title_zh: 西行求法广得梵本
+  summary_zh: 幼年出家西行西域遍游诸国求得大乘梵本携归中土为后译经奠基
   phases:
   - key: brewing
-    name: 幼学敦煌
+    name: 幼年出家立志求法
     labels:
-      zh: 出家习学
-    start_date: '0241'
+      zh:
+      - 出家立志
+      - 敦煌习学
+    start_date: 0238
     highlight_event_id: guji-竺法护-event-birth
   - key: breakthrough
-    name: 西行求经
+    name: 西行西域遍访师友
     labels:
-      zh: 游学通语
+      zh:
+      - 西行求法
+      - 遍游西域
     start_date: '0255'
-    highlight_event_id: guji-竺法护-event-travel
+    highlight_event_id: guji-竺法护-event-xixing
   - key: climax
-    name: 携经东归
+    name: 广得梵本携归东土
     labels:
-      zh: 归化弘始
+      zh:
+      - 得获梵本
+      - 携归中土
+    start_date: 0259
+    highlight_event_id: guji-竺法护-event-xixing
+  - key: closure
+    name: 到达洛阳开始弘化
+    labels:
+      zh:
+      - 入洛弘化
+      - 奠基译场
     start_date: '0266'
-    highlight_event_id: guji-竺法护-event-return
+    highlight_event_id: guji-竺法护-event-luoyang
   decisions:
   - date: '0255'
-    title_zh: 决意西行师事求法
-    rationale: 欲通梵本原义，非亲历西土习语不可，故遍游西域习三十六国言
+    title_zh: 决意西行求经
+    rationale: 中土梵本稀少义理未备故西游诸国求法取经以广法源
   - date: '0266'
-    title_zh: 决意东归洛阳设译场
-    rationale: 中夏慕法而无本，愿以所获梵夹归译，以益众生
+    title_zh: 携经入洛定居弘化
+    rationale: 洛阳为天下都会利于传译弘通故止住洛阳开场译经
 - id: guji-竺法护-endeavor-2
-  title_zh: 译弘修行道地
-  description: 总众经大较，译出修行道地经等百余部，建禅数寂观易进径路
+  person_id: guji-竺法护
+  title_zh: 入洛译经弘说欲患
+  summary_zh: 居洛阳长安等地译出所欲致患等众多大乘经典宣说爱欲色痛之患劝众舍欲离染
   phases:
   - key: brewing
-    name: 草创译场
+    name: 初到洛阳随方译经
     labels:
-      zh: 译经初创
-    start_date: 0268
-    highlight_event_id: guji-竺法护-event-return
+      zh:
+      - 初译经典
+      - 随方教授
+    start_date: '0266'
+    highlight_event_id: guji-竺法护-event-luoyang
   - key: breakthrough
-    name: 译出道地经
+    name: 译出所欲致患阐明欲患
     labels:
-      zh: 寂观成典
+      zh:
+      - 译说欲患
+      - 教化舍欲
     start_date: 0284
     highlight_event_id: guji-竺法护-event-translate
-  - key: closure
-    name: 弘化圆满
+  - key: climax
+    name: 长安洛下译场大盛
     labels:
-      zh: 慈济遗化
-    start_date: '0305'
+      zh:
+      - 译场兴盛
+      - 四众归仰
+    start_date: 0290
+    highlight_event_id: guji-竺法护-event-translate
+  - key: closure
+    name: 避乱示寂法泽长存
+    labels:
+      zh:
+      - 避乱弘化
+      - 示寂传法
+    start_date: '0304'
     highlight_event_id: guji-竺法护-event-death
   decisions:
   - date: 0284
-    title_zh: 决定译出修行道地
-    rationale: 愍后贤力劣不能自前，故总五阴禅数要义作易进径路
-  - date: 0290
-    title_zh: 坚持专精禅数弘化
-    rationale: 以三昧禅数为务，解空归无为宗，令学者离患至寂
+    title_zh: 翻译所欲致患经
+    rationale: 见世人贪染五欲不知其患故译佛说舍卫说法明欲色痛痒之患以劝离染
+  - date: '0304'
+    title_zh: 西避战乱坚持弘化
+    rationale: 永嘉之乱洛阳动荡不忍正法中断故转徙弘化安众传法至终
 events:
 - id: guji-竺法护-event-birth
-  type: birth
-  title_zh: 敦煌诞生
-  date: '0233'
-  year_of: 233
-  place_zh: 敦煌
-  description: 约景元四年，生于敦煌竺氏，八岁出家从师
-- id: guji-竺法护-event-travel
-  type: career
-  title_zh: 西游诸国习语
+  person_id: guji-竺法护
+  title_zh: 生于敦煌月支之家
+  date: '0230'
+  year_of: 230
+  location_zh: 敦煌
+  description_zh: 生于月支之后世居敦煌自幼信乐佛法八岁出家从师习学
+- id: guji-竺法护-event-xixing
+  person_id: guji-竺法护
+  endeavor_id: guji-竺法护-endeavor-1
+  title_zh: 西行西域求得梵本
   date: '0255'
   year_of: 255
-  place_zh: 西域
-  description: 游历西域三十六国，习梵语胡书，通法藏十二部
-- id: guji-竺法护-event-return
-  type: career
-  title_zh: 携经归洛设译
+  location_zh: 西域
+  description_zh: 西游诸国遍访师友通晓西域语言求得大乘梵本甚多而归
+- id: guji-竺法护-event-luoyang
+  person_id: guji-竺法护
+  endeavor_id: guji-竺法护-endeavor-1
+  title_zh: 携经到达洛阳弘化
   date: '0266'
   year_of: 266
-  place_zh: 洛阳
-  description: 泰始年间归洛，始建译场，广译众经
+  location_zh: 洛阳
+  description_zh: 泰始年间到达洛阳止住弘化开设译场教授四众名声渐著
 - id: guji-竺法护-event-translate
-  type: career
-  title_zh: 译出修行道地经
+  person_id: guji-竺法护
+  endeavor_id: guji-竺法护-endeavor-2
+  title_zh: 译出所欲致患经
   date: 0284
   year_of: 284
-  place_zh: 洛阳
-  description: 钞众经要，总五阴禅数寂观，译修行道地经七卷示易进径路
+  location_zh: 洛阳
+  description_zh: 翻译所欲致患经宣说佛在舍卫祇园所说五欲色像痛痒之乐患离以劝舍欲
+- id: guji-竺法护-event-refuge
+  person_id: guji-竺法护
+  endeavor_id: guji-竺法护-endeavor-2
+  title_zh: 转徙避乱坚持传法
+  date: '0304'
+  year_of: 304
+  location_zh: 长安
+  description_zh: 中原纷乱转徙长安一带仍率弟子译经说法安众度人
 - id: guji-竺法护-event-death
-  type: death
-  title_zh: 洛阳示寂
-  date: '0310'
-  year_of: 310
-  place_zh: 洛阳
-  description: 永嘉四年示寂，世寿约七十八，遗化在禅观译典
+  person_id: guji-竺法护
+  title_zh: 示寂于洛阳
+  date: 0308
+  year_of: 308
+  location_zh: 洛阳
+  description_zh: 永嘉二年示寂世寿约七十八一生译经弘化法泽流于后世
