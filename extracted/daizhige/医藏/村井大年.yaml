@@ -1,0 +1,112 @@
+person:
+  qid: guji-村井大年
+  name_zh: 村井大年
+  names:
+    zh: 村井大年
+    en: Murai Tainen
+  lifespan:
+    birth:
+      date: 1732-01-01
+      precision: year
+      is_circa: true
+      raw: 肥后人，生年未详，宽政丙辰序时已名振四海，推定生于十八世纪前叶
+    death:
+      date: 1802-01-01
+      precision: year
+      is_circa: true
+      raw: 卒年未详，推定卒于十九世纪初
+  birth_date: 1732-01-01
+  death_date: 1802-01-01
+  era: 江户时代
+  reign_ref: 宽政
+  archetype: 经方派良医
+  dilemmas:
+  - title_zh: 随证与观证立法之辨
+    description: 世医但知随证，不知观证有法，药能方验混为一谈，难入精义致用之境
+  - title_zh: 古方今病之疑
+    description: 晋唐以来束古方于伤寒门，疑古方不宜今病，致胸腹脐下动剧诸内候失治
+  lesson: 精义入神以致用，稽古征今审药功，辨本性而通变
+  summary_first_person: 吾乃肥后村井大年，笃信吉益东洞翁之学，治旧疾起废疾，幸得薄名，集药征所未载之品，稽古征今，审其功能，作续编以补其阙，愿后学观证有法，不混药能方验而得入神
+  source_urls:
+  - https://daizhige.org/医藏/药征续编.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/药征续编.md
+endeavors:
+- id: guji-村井大年-endeavor-1
+  title_zh: 师法东洞起废疾
+  summary: 笃信东洞翁经方之学，治旧疾起废疾，名声振四海
+  phases:
+  - key: brewing
+    name: 肥后习医笃信东洞
+    labels:
+      zh:
+      - 习医
+      - 笃信
+    start_date: 1750-01-01
+    highlight_event_id: guji-村井大年-event-fame
+  - key: climax
+    name: 治旧起废名振四海
+    labels:
+      zh:
+      - 起废
+      - 扬名
+    start_date: 1780-01-01
+    highlight_event_id: guji-村井大年-event-fame
+  decisions:
+  - date: 1765-01-01
+    title_zh: 笃信东洞观证察动之法
+    rationale: 不随俗随证，奉东洞内外兼诊胸腹脐下动剧之卓识，以求精义致用
+  - date: 1780-01-01
+    title_zh: 专治旧疾废疾以验方术
+    rationale: 以难治旧疾废疾试经方本功，起废疾而证道之实
+- id: guji-村井大年-endeavor-2
+  title_zh: 稽古征今撰药征续编
+  summary: 集药征未载药品，稽古征今审功能，辨本性以补经方药学
+  phases:
+  - key: breakthrough
+    name: 考证仲景诸方药功
+    labels:
+      zh:
+      - 考证
+      - 互考
+    start_date: 1790-01-01
+    highlight_event_id: guji-村井大年-event-book
+  - key: closure
+    name: 成书付梓吉益作序
+    labels:
+      zh:
+      - 著述
+      - 刊行
+    start_date: 1796-11-01
+    highlight_event_id: guji-村井大年-event-book
+  decisions:
+  - date: 1790-01-01
+    title_zh: 集药征未载之品另作续编
+    rationale: 药征既备，拾遗补阙，专取赤石脂栝楼根蜀漆生姜桃仁等，审其主治兼治
+  - date: 1796-11-01
+    title_zh: 以考证明辨误品考四例成书
+    rationale: 每药立主治，次考证互考，次辨误品考，征方证分量以明本性，不袭服饵家腐谈
+events:
+- id: guji-村井大年-event-birth
+  type: birth
+  title_zh: 生于肥后
+  date: 1732-01-01
+  year_of: 1732
+  description: 肥后出生，习医，具体年月未详，此系推定
+- id: guji-村井大年-event-fame
+  type: achievement
+  title_zh: 治旧起废名振四海
+  date: 1780-01-01
+  year_of: 1780
+  description: 笃信吉益东洞翁，善治旧疾废疾，名声振于四海
+- id: guji-村井大年-event-book
+  type: achievement
+  title_zh: 撰成药征续编
+  date: 1796-11-01
+  year_of: 1796
+  description: 集药征不载药品，稽古征今审功能，分上下卷论赤石脂栝楼根蜀漆生姜桃仁等，宽政丙辰仲冬得吉益猷作序
+- id: guji-村井大年-event-death
+  type: death
+  title_zh: 卒
+  date: 1802-01-01
+  year_of: 1802
+  description: 卒年未详，推定卒于十九世纪初
