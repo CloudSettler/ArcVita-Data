@@ -6,138 +6,110 @@ person:
     en: Gao Bin
   lifespan:
     birth:
-      date: 1683
+      date: 1683-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 康熙二十二年
     death:
-      date: 1755
+      date: 1755-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 乾隆二十年
-  birth_date: 1683
-  death_date: 1755
-  era: 清乾隆朝
-  reign_ref: 乾隆九年
-  archetype: 封疆勤民之臣
+  birth_date: 1683-01-01
+  death_date: 1755-01-01
+  era: 清代
+  reign_ref: 乾隆朝
+  archetype: 治河养民型封疆大臣
   dilemmas:
-  - 亢旱缓徵与国课足额之间如何两全
-  - 流民外出就食当禁当抚如何不致失所
-  - 以工代赈虚糜与实济之间如何抉择
-  lesson: 遇灾先恤民力,缓徵借粟安插兼施,方能全活众而固邦本
-  summary_first_person: 吾督直隶逢畿内亢旱麦秋失望,奏缓三十三州县钱粮,借仓谷三万六千石赈民且请豁免,复以修城代赈安插流民,务使穷民不致失所
+  - 灾重十六州县新旧钱粮缓至明年与国课足额之间的两难
+  - 庆云贫乏散给杂粮免还与仓储周转之间的两难
+  lesson: 歉后养民当以缓徵宽民力方能涵养元气以图久远
+  summary_first_person: 吾高斌受任直隶总督逢河间天津大灾之后屡请缓徵散粮勘灾开垦唯愿小民得苏而国计亦全也
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70215.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70215.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70220.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70220.md
 endeavors:
 - id: guji-高斌-endeavor-1
-  title_zh: 直隶旱灾缓徵借粟赈济
-  summary_zh: 乾隆九年畿内亢旱奏缓三十三州县钱粮并借仓谷赈民
+  title_zh: 直隶河间天津被灾缓徵养民
+  summary_zh: 乾隆九年秋奏请将河间天津被灾州县新旧钱粮缓徵并请拨杂粮赈济庆云贫民得旨加恩缓至明年
   phases:
   - key: brewing
-    name: 亢旱察灾
+    name: 灾后奏请停比
     labels:
-      zh:
-      - 踏勘灾情
-      - 奏报被灾
-    start_date: 1744-04-01
+      zh: 奏请缓徵
+    start_date: 1744-08-09
     highlight_event_id: guji-高斌-event-1
   - key: breakthrough
-    name: 奏缓钱粮
+    name: 加恩缓至明年
     labels:
-      zh:
-      - 缓徵
-      - 恤民
-    start_date: 1744-05-01
-    highlight_event_id: guji-高斌-event-1
-  - key: climax
-    name: 借粟全活
-    labels:
-      zh:
-      - 借仓
-      - 豁免
-    start_date: 1744-05-10
+      zh: 得旨缓徵
+    start_date: 1744-08-09
     highlight_event_id: guji-高斌-event-1
   - key: closure
-    name: 秋后候徵
+    name: 庆云拨粮散给免还
     labels:
-      zh:
-      - 候丰
-      - 补徵
-    start_date: 1744-08-01
+      zh: 散粮接济
+    start_date: 1744-08-09
     highlight_event_id: guji-高斌-event-1
   decisions:
-  - date: 1744-05-14
-    title_zh: 奏请缓徵三十三州县新旧钱粮至秋后
-    rationale: 上年既歉今岁未得雨民无力完纳故请暂缓以纾民力
-  - date: 1744-05-14
-    title_zh: 请借贮备米三万六千石赈十二州县灾民且秋后豁免
-    rationale: 灾民口粮告急仓谷可济眉急秋收未必即纾故请赐予不还仓
+  - date: 1744-08-09
+    title_zh: 请将灾重十六州县新旧钱粮缓至明年再徵
+    rationale: 灾重歉后元气未复若秋后即徵则输将竭蹶故请视收成再开徵以宽民力
+  - date: 1744-08-09
+    title_zh: 请拨河南杂粮二千石散给庆云穷民免秋收还仓
+    rationale: 庆云地僻民贫商贩罕至米粮缺乏故援大城借口粮例散给接济而不责偿
 - id: guji-高斌-endeavor-2
-  title_zh: 修城代赈安插流民经理
-  summary_zh: 驳陆秩治道浚河之议以修城代赈并安插外出就食贫民
+  title_zh: 直隶通省雨雹歉收勘报与开垦
+  summary_zh: 乾隆九年夏秋详查顺天保定等百馀州县卫二麦歉收及冰雹伤禾借给耔种并报开垦水旱荒地以备秋后勘分
   phases:
   - key: brewing
-    name: 接奉密谕
+    name: 查报二麦歉收冰雹
     labels:
-      zh:
-      - 体察
-      - 核议
-    start_date: 1744-04-10
-    highlight_event_id: guji-高斌-event-2
-  - key: breakthrough
-    name: 核驳虚赈
-    labels:
-      zh:
-      - 覆奏
-      - 核实
-    start_date: 1744-05-05
+      zh: 勘灾借种
+    start_date: 1744-08-18
     highlight_event_id: guji-高斌-event-2
   - key: climax
-    name: 修城实赈
+    name: 开垦荒地报升科
     labels:
-      zh:
-      - 代赈
-      - 养民
-    start_date: 1744-05-08
-    highlight_event_id: guji-高斌-event-2
+      zh: 开垦荒地
+    start_date: 1744-08-21
+    highlight_event_id: guji-高斌-event-3
   - key: closure
-    name: 安插流民
+    name: 请秋后确勘分数另题
     labels:
-      zh:
-      - 安插
-      - 勿驱
-    start_date: 1744-05-12
+      zh: 秋后确勘
+    start_date: 1744-08-18
     highlight_event_id: guji-高斌-event-2
   decisions:
-  - date: 1744-05-08
-    title_zh: 覆奏陆秩治道浚河均无庸议坚持修城代赈
-    rationale: 治道费少所济无多运河当因地制宜无一劳永逸之策故以修城十数万两实赈为宜
-  - date: 1744-05-12
-    title_zh: 密饬所属安插外来就食贫民毋驱出境
-    rationale: 穷民失种外出佣工糊口若驱之出境即失所故令善为安插不急资送
+  - date: 1744-08-18
+    title_zh: 汇报错定等百馀州县卫春夏雨泽愆期二麦歉收及雹伤情形
+    rationale: 先行报明被灾梗概并已借给耔种俟秋收后确勘分数另题以便分别蠲缓
+  - date: 1744-08-21
+    title_zh: 造报开垦八府州属水旱荒地百馀顷
+    rationale: 招民垦复荒地以广生计而增赋额故据实丈报升科
 events:
 - id: guji-高斌-event-birth
   title_zh: 高斌出生
-  kind: birth
-  date: 1683
+  date: 1683-01-01
   year_of: 1683
-  description_zh: 清康熙二十二年高斌生于奉天辽阳
+  description_zh: 高斌生于康熙二十二年汉军镶黄旗人后官至直隶总督文华殿大学士
 - id: guji-高斌-event-1
-  title_zh: 奏缓三十三州县钱粮并借仓谷赈民
-  kind: endeavor
-  date: 1744-05-14
+  title_zh: 奏请缓徵河间天津灾赋
+  date: 1744-08-09
   year_of: 1744
-  description_zh: 直隶总督高斌以霸州大城新城雄县河间献县等三十三州厅县上年歉收今岁未得雨奏请缓徵九年新粮及八年旧欠至秋后并借仓谷三万六千石赈十二州县灾民奉旨豁免不还仓
+  description_zh: 高斌奏请将河间天津被灾十六州县新旧钱粮缓至明年并及稍轻州县详查请旨得旨俞允加恩培养
 - id: guji-高斌-event-2
-  title_zh: 覆奏以工代赈并经理流民安插
-  kind: endeavor
-  date: 1744-05-12
+  title_zh: 疏报直隶百馀州县卫二麦歉收雹灾
+  date: 1744-08-18
   year_of: 1744
-  description_zh: 高斌覆奏御史陆秩条奏谓其太过治道浚河无庸议现以修城代赈需帑十数万两并奉密谕安插外出就食贫民毋驱出境
+  description_zh: 高斌据布政使沈起元详报顺天等府州百馀州县卫厅春旱二麦歉收及多州县夏月被雹伤禾已借耔种候秋后确勘
+- id: guji-高斌-event-3
+  title_zh: 疏报开垦顺天等府州荒地
+  date: 1744-08-21
+  year_of: 1744
+  description_zh: 高斌疏报开垦顺天保定易州永平等府州属水旱荒地百十四顷有奇
 - id: guji-高斌-event-death
-  title_zh: 高斌逝世
-  kind: death
-  date: 1755
+  title_zh: 高斌去世
+  date: 1755-01-01
   year_of: 1755
-  description_zh: 乾隆二十年高斌卒于大学士直隶总督任内
+  description_zh: 高斌卒于乾隆二十年谥文定追赠太傅为乾隆朝治河养民名臣

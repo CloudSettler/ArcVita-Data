@@ -17,75 +17,129 @@ person:
       raw: 乾隆十年
   birth_date: 1677
   death_date: 1745
-  era: 清朝
+  era: 清
   reign_ref: 乾隆
-  archetype: 辅政干臣
+  archetype: 持重守制之宰辅
   dilemmas:
-  - 深受顾命之恩与秉公持正之间如何不负先帝付托
-  - 保举人才与严加约束子弟僚属之间如何避免徇私之咎
-  lesson: 居高位者当慎于保举严于家教有咎则坦然承当方能保全大节
-  summary_first_person: 我是鄂尔泰西林觉罗氏历事康熙雍正乾隆三朝乾隆八年二月我遵旨议定恭谒祖陵扈从赏赉同月又因滥荐仲永檀并约束鄂容安不严获罪销级留任我一生以忠勤见知唯以举人不当为戒
+  - 便民济食与海防查禁难两全
+  - 平价惠民与防官局滋弊难兼顾
+  lesson: 宁守成法以杜后弊，不开一时权宜以启无穷之患。
+  summary_first_person: 吾起自康熙末，历雍正倚任，至乾隆仍参机务，凡海禁米运与京通米价之事，吾必权利害于久远，主守旧以防奸，增官局以平市，愿以持重报国。
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70184.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70218.html
 endeavors:
 - id: guji-鄂尔泰-endeavor-1
-  title_zh: 筹议谒陵扈从赏赉
-  description: 乾隆八年恭谒盛京祖陵前遵旨会同大学士议定随从王公官兵赏借章程
+  title_zh: 议止江省商运入闽以守海禁
+  role_zh: 大学士议覆
+  summary_zh: 乾隆九年六月针对闽省米贵请开江省商船运闽之议，会同议覆，主张仍循定例委员采买海运，不招商弛禁。
   phases:
   - key: brewing
-    name: 奉旨酌议
+    name: 闽贵请开商运
     labels:
-      zh: 酝酿筹划
-    start_date: 1743-03-06
+      zh:
+      - 民食
+      - 海防
+    start_date: 1744-07-01
     highlight_event_id: guji-鄂尔泰-event-1
-  - key: closure
-    name: 依议颁发
-    labels:
-      zh: 收束定议
-    start_date: 1743-03-06
-    highlight_event_id: guji-鄂尔泰-event-1
-  decisions:
-  - date: 1743-03-06
-    title_zh: 加倍议给扈从赏银
-    rationale: 道途遥远费用浩繁参照巡幸木兰之例加倍赏给以示体恤并于置办行装时颁发以免先期耗费
-- id: guji-鄂尔泰-endeavor-2
-  title_zh: 滥荐获咎销级留任
-  description: 因滥行奏荐行止不端之仲永檀并失于管束鄂容安经吏部议处蒙恩销级留任
-  phases:
   - key: breakthrough
-    name: 滥荐被劾
+    name: 衡量印照难稽之弊
     labels:
-      zh: 事发受参
-    start_date: 1743-03-14
+      zh:
+      - 查禁
+      - 权宜
+    start_date: 1744-07-15
+    highlight_event_id: guji-鄂尔泰-event-1
+  - key: climax
+    name: 议准仍由委员采买
+    labels:
+      zh:
+      - 定例
+      - 督押
+    start_date: 1744-07-19
+    highlight_event_id: guji-鄂尔泰-event-1
+  - key: closure
+    name: 海禁得守奸窦得塞
+    labels:
+      zh:
+      - 善后
+    start_date: 1744-07-20
+    highlight_event_id: guji-鄂尔泰-event-1
+  decisions:
+  - date: 1744-07-19
+    title_zh: 不招商运仍循委员海运
+    rationale: 商船自去自来易借运闽转售外洋，复虑私通侦探，故守定例以文武员弁督押为安。
+  - date: 1744-07-19
+    title_zh: 驳印照可恃之说
+    rationale: 帆樯迅驶捏报失风沉溺无从究诘，印照不足为凭，故不弛禁。
+- id: guji-鄂尔泰-endeavor-2
+  title_zh: 议增通州官米局以平市价
+  role_zh: 大学士议覆
+  summary_zh: 乾隆九年六月针对通州一局银少米不足以平市价之奏，议准添设一局并定借支平粜稽查之法。
+  phases:
+  - key: brewing
+    name: 通州一局有名无实
+    labels:
+      zh:
+      - 市价
+      - 仓储
+    start_date: 1744-07-01
+    highlight_event_id: guji-鄂尔泰-event-2
+  - key: breakthrough
+    name: 查官房添设一局
+    labels:
+      zh:
+      - 增设
+      - 官买
+    start_date: 1744-07-23
+    highlight_event_id: guji-鄂尔泰-event-2
+  - key: climax
+    name: 定借支平粜之制
+    labels:
+      zh:
+      - 平粜
+      - 借支
+    start_date: 1744-07-23
     highlight_event_id: guji-鄂尔泰-event-2
   - key: closure
-    name: 销级留任
+    name: 派员稽查三年奏销
     labels:
-      zh: 承恩自省
-    start_date: 1743-03-14
+      zh:
+      - 稽查
+    start_date: 1744-07-24
     highlight_event_id: guji-鄂尔泰-event-2
   decisions:
-  - date: 1743-03-14
-    title_zh: 坦承保举失察之责
-    rationale: 既经举荐而不察其行又不能严束子弟密奏之事惟有静候处分不敢文饰以全大臣进退之节
+  - date: 1744-07-23
+    title_zh: 添设旧城官米局领银万两
+    rationale: 原局领银不过六千收买无多，必增局增银先尽官局买足方准民间收买，乃可调剂平减。
+  - date: 1744-07-23
+    title_zh: 定八旗大臣稽查月报之法
+    rationale: 仓场侍郎事繁不能兼顾，必每翼钦派大臣稽查并咨报户部都察院，三年更换奏销以杜侵蚀。
 events:
 - id: guji-鄂尔泰-event-birth
-  title_zh: 诞生
+  title_zh: 出生于满洲镶蓝旗
+  type: birth
   date: 1677
   year_of: 1677
-  description: 康熙十六年生于西林觉罗氏满洲镶蓝旗之家
+  place_zh: 盛京
+  description: 康熙十六年生，西林觉罗氏，后由进士入仕历内外要职。
+- id: guji-鄂尔泰-event-1
+  title_zh: 议覆尹继善奏止江省商米入闽
+  type: career
+  date: 1744-07-19
+  year_of: 1744
+  place_zh: 北京
+  description: 与大学士等议覆署两江总督尹继善所奏，主张闽省接济仍由委员于米贱省分购买海运，不开商运海禁，得旨允行。
+- id: guji-鄂尔泰-event-2
+  title_zh: 议覆永兴奏添设通州官米局
+  type: career
+  date: 1744-07-23
+  year_of: 1744
+  place_zh: 通州
+  description: 与大学士等议覆永兴查办通州粜厂所奏，准于旧城添设一局，定借支扣还与减价平粜及大臣稽查之制，得旨允行。
 - id: guji-鄂尔泰-event-death
-  title_zh: 病卒京师
+  title_zh: 病卒于京师
+  type: death
   date: 1745
   year_of: 1745
-  description: 乾隆十年病卒于京师谥文端配享太庙
-- id: guji-鄂尔泰-event-1
-  title_zh: 遵旨议定扈从赏赉
-  date: 1743-03-06
-  year_of: 1743
-  description: 乾隆八年二月丙戌与大学士等遵旨议奏恭谒祖陵随从官兵赏银借俸章程得旨依议
-- id: guji-鄂尔泰-event-2
-  title_zh: 因荐仲永檀销级留任
-  date: 1743-03-14
-  year_of: 1743
-  description: 乾隆八年二月甲午经吏部议处滥荐已革副都御史仲永檀及失察鄂容安蒙旨销去加级纪录抵降二级从宽留任
+  place_zh: 北京
+  description: 乾隆十年卒于位，谥文端，配享太庙。
