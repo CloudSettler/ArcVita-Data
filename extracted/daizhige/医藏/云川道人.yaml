@@ -1,0 +1,148 @@
+person:
+  qid: guji-云川道人
+  name_zh: 云川道人
+  names:
+    zh: 云川道人
+    en: Yunchuan Daoren
+  lifespan:
+    birth:
+      date: 1690-01-01
+      precision: year
+      is_circa: true
+      raw: 清康熙末年生人
+    death:
+      date: 1765-01-01
+      precision: year
+      is_circa: true
+      raw: 乾隆中后期卒
+  birth_date: 1690-01-01
+  death_date: 1765-01-01
+  era: 清
+  reign_ref: 乾隆
+  archetype: 医者
+  dilemmas:
+  - title_zh: 药性刚柔难得正平
+    description: 树根草皮各偏一性不善用则失刚失柔何以合为良剂
+  - title_zh: 琼芝难得验方当传
+    description: 仙草难求唯集轩岐经验遍告同人方可万善并臻
+  lesson: 取古验之方善用刚柔以正平济世不私一己而公天下
+  summary_first_person: 我号云川道人于萍翠山房论药谓药虽出医手方多传古人遂取绛囊中撮要一册授客令其问世以活众人乾隆九年仲夏识于山房
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%BB%9B%E5%9B%8A%E6%92%AE%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%BB%9B%E5%9B%8A%E6%92%AE%E8%A6%81.md
+endeavors:
+- id: guji-云川道人-endeavor-1
+  title_zh: 辑成绛囊撮要
+  summary: 集内科诸证验方分门辑录以便取用
+  phases:
+  - key: brewing
+    name: 萍翠论药
+    labels:
+      zh:
+      - 论刚柔
+    start_date: 1735-01-01
+    highlight_event_id: guji-云川道人-event-discuss
+  - key: breakthrough
+    name: 取囊定方
+    labels:
+      zh:
+      - 选验方
+    start_date: 1740-01-01
+    highlight_event_id: guji-云川道人-event-select
+  - key: climax
+    name: 授客问世
+    labels:
+      zh:
+      - 授书
+    start_date: 1744-06-13
+    highlight_event_id: guji-云川道人-event-preface
+  - key: closure
+    name: 序成流传
+    labels:
+      zh:
+      - 作序
+    start_date: 1744-06-13
+    highlight_event_id: guji-云川道人-event-preface
+  decisions:
+  - date: 1740-01-01
+    title_zh: 只取轩岐经验不立新异
+    rationale: 药虽出医手方多传古人取已经验者遍告同人最稳
+  - date: 1744-06-13
+    title_zh: 以撮要授客令其问世
+    rationale: 独善不如众善怀藏不如公开故付客传行
+- id: guji-云川道人-endeavor-2
+  title_zh: 内科杂证施治活人
+  summary: 以清心化痰熨灸调气诸法疗厥逆痰哮反胃黄疸诸疾
+  phases:
+  - key: brewing
+    name: 明后天之用
+    labels:
+      zh:
+      - 血气
+    start_date: 1730-01-01
+    highlight_event_id: guji-云川道人-event-discuss
+  - key: breakthrough
+    name: 定厥逆痰火诸方
+    labels:
+      zh:
+      - 牛胆星丸
+    start_date: 1740-01-01
+    highlight_event_id: guji-云川道人-event-select
+  - key: climax
+    name: 灸熨并施验治
+    labels:
+      zh:
+      - 艾灸熨脐
+    start_date: 1743-01-01
+    highlight_event_id: guji-云川道人-event-practice
+  - key: closure
+    name: 汇方成帙
+    labels:
+      zh:
+      - 成书
+    start_date: 1744-06-13
+    highlight_event_id: guji-云川道人-event-preface
+  decisions:
+  - date: 1743-01-01
+    title_zh: 内外合治刚柔相济
+    rationale: 刚者济以柔柔者济以刚丸散与灸熨并用以得正平
+  - date: 1744-06-13
+    title_zh: 具载用法分量不隐
+    rationale: 方必言分量服法使人可按方取效
+events:
+- id: guji-云川道人-event-birth
+  date: 1690-01-01
+  year_of: 1690
+  type: birth
+  title_zh: 生于清康熙末年
+  description: 云川道人生于康熙末年号云川道人
+- id: guji-云川道人-event-discuss
+  date: 1735-03-01
+  year_of: 1735
+  type: endeavor
+  title_zh: 萍翠山房论药
+  description: 于萍翠山房论先天灵明后天血气及树根草皮刚柔之性客闻而善之问何以得正平良剂
+- id: guji-云川道人-event-select
+  date: 1740-01-01
+  year_of: 1740
+  type: endeavor
+  title_zh: 向绛囊取撮要授客
+  description: 向绛囊中取撮要一册授客谓取轩岐已经验者遍告同人
+- id: guji-云川道人-event-preface
+  date: 1744-06-13
+  year_of: 1744
+  type: endeavor
+  title_zh: 乾隆九年仲夏作序
+  description: 乾隆九年岁次甲子仲夏十三日云川道人作序述怀藏问世之由
+- id: guji-云川道人-event-practice
+  date: 1743-05-01
+  year_of: 1743
+  type: endeavor
+  title_zh: 以灸熨诸方疗众疾
+  description: 以艾灸百会中脘气海及吴茱萸葱姜熨法治中风阴毒结胸二便不通诸证
+- id: guji-云川道人-event-death
+  date: 1765-01-01
+  year_of: 1765
+  type: death
+  title_zh: 卒于乾隆中后期
+  description: 书成之后云川道人事迹不显卒于乾隆中后期
