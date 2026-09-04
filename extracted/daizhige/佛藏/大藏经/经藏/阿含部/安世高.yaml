@@ -6,127 +6,140 @@ person:
     en: An Shigao
   lifespan:
     birth:
-      date: '0100'
+      date: '0100-01-01'
       precision: year
       is_circa: true
-      raw: 汉顺帝时生于安息国王室
+      raw: 约东汉初安息国
     death:
-      date: 0168
+      date: '0180-01-01'
       precision: year
       is_circa: true
-      raw: 汉灵帝初卒于会稽
-  birth_date: '0100'
-  death_date: 0168
+      raw: 约汉灵帝时南方
+  birth_date: '0100-01-01'
+  death_date: '0180-01-01'
   era: 东汉
-  reign_ref: 汉桓帝建和至汉灵帝建宁
+  reign_ref: 汉桓帝至汉灵帝
   archetype: 译经弘法者
   dilemmas:
-  - 王位与出家之抉择舍国荣而就法慧
-  - 胡语与华言之隔宁质直传义不饰文采
-  lesson: 舍爱习以尽苦依八正道修行知苦断集证灭
-  summary_first_person: 吾本安息太子让国出家航海东来寓都洛阳译四谛安般诸经开华夏禅数之宗后南游会稽弘化终老愿后学谛观苦习尽道离爱得寂
+  - 出身王族当继位与舍国出家求道之抉择
+  - 华梵悬隔当直译质朴与润文易晓之权衡
+  - 世人重名闻而贤法贵不自誉不欺余之坚守
+  lesson: 不恃大姓端正多闻禅定而自憍，但随法实修断贪嗔痴方为贤者
+  summary_first_person: 我本安息太子，舍国出家，东来洛阳译经弘法，宣说是法非法以辨贤愚，愿学者舍骄慢而随法行
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9B%9B%E8%B0%9B%E7%BB%8F.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%9B%9B%E8%B0%9B%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%98%AF%E6%B3%95%E9%9D%9E%E6%B3%95%E7%BB%8F.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%98%AF%E6%B3%95%E9%9D%9E%E6%B3%95%E7%BB%8F.html
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 洛阳译经开阿含禅数之宗
-  summary_zh: 建和二年入洛译四谛安般等敷演苦习尽道八正道
+  title_zh: 洛阳译经开山弘禅
+  summary: 东来洛阳二十余年译出安般守意等三十余部弘扬禅数
   phases:
   - key: brewing
-    name: 让国出家西域习禅
+    name: 舍国东来
     labels:
-      zh: 蕴酿
-    start_date: '0120'
-    highlight_event_id: guji-安世高-event-birth
+      zh: 出家求法
+    start_date: '0147-01-01'
+    highlight_event_id: guji-安世高-event-arrive
   - key: breakthrough
-    name: 航海东来寓都洛阳
+    name: 洛阳初译
     labels:
-      zh: 突破
-    start_date: 0148
-    highlight_event_id: guji-安世高-event-arrival
+      zh: 初译安般
+    start_date: '0148-01-01'
+    highlight_event_id: guji-安世高-event-anban
   - key: climax
-    name: 译出四谛敷演八正道
+    name: 译经弘禅
     labels:
-      zh: 高潮
-    start_date: '0152'
-    highlight_event_id: guji-安世高-event-translate
+      zh: 弘扬禅法
+    start_date: '0155-01-01'
+    highlight_event_id: guji-安世高-event-teach
   - key: closure
-    name: 经行华夏奠译场规模
+    name: 南下弘化
     labels:
-      zh: 收束
-    start_date: '0160'
-    highlight_event_id: guji-安世高-event-translate
+      zh: 南方弘化
+    start_date: '0168-01-01'
+    highlight_event_id: guji-安世高-event-south
   decisions:
-  - date: 0148
-    title_zh: 舍安息王位东来弘法
-    rationale: 国荣无常不如法利长远故让国出家弘化东土
-  - date: '0152'
-    title_zh: 先译四谛安般质直传义
-    rationale: 华人初闻佛法当先明苦习尽道与数息观故不饰文采直译义理
+  - date: '0148-01-01'
+    title_zh: 定居洛阳专事翻译
+    rationale: 华地初闻禅法当以译经为先舍游化而就笔授
+  - date: '0150-01-01'
+    title_zh: 先译禅数以立基础
+    rationale: 汉人根器未熟先明数息断贪嗔痴后谈大义
 - id: guji-安世高-endeavor-2
-  title_zh: 南游会稽弘化传禅授戒
-  summary_zh: 晚年南下江南宣讲禅法感化鬼神授戒度众
+  title_zh: 译讲是法非法辨贤愚
+  summary: 依据中阿含译说是法非法经明贤者不自誉不欺余
   phases:
   - key: brewing
-    name: 洛阳功成谋南弘
+    name: 取材中阿含
     labels:
-      zh: 蕴酿
-    start_date: '0160'
-    highlight_event_id: guji-安世高-event-translate
+      zh: 取材抉择
+    start_date: '0149-01-01'
+    highlight_event_id: guji-安世高-event-shifafeifa
   - key: breakthrough
-    name: 杖锡江南吴会说法
+    name: 译出贤愚法
     labels:
-      zh: 突破
-    start_date: '0165'
-    highlight_event_id: guji-安世高-event-south
+      zh: 译出贤愚
+    start_date: '0150-01-01'
+    highlight_event_id: guji-安世高-event-shifafeifa
   - key: climax
-    name: 度宫亭湖神化导众生
+    name: 开示舍骄随法
     labels:
-      zh: 高潮
-    start_date: '0166'
-    highlight_event_id: guji-安世高-event-south
+      zh: 开示随法
+    start_date: '0152-01-01'
+    highlight_event_id: guji-安世高-event-teach
   - key: closure
-    name: 示寂会稽付法后学
+    name: 付嘱奉行
     labels:
-      zh: 收束
-    start_date: 0168
-    highlight_event_id: guji-安世高-event-death
+      zh: 付嘱奉行
+    start_date: '0155-01-01'
+    highlight_event_id: guji-安世高-event-teach
   decisions:
-  - date: '0165'
-    title_zh: 离都南下避乱弘化
-    rationale: 中原将乱江南机熟故南游宣化广度未闻
-  - date: '0166'
-    title_zh: 以宿命通化导神鬼
-    rationale: 众生滞于福报淫祠当示宿因令舍邪归正受戒修禅
+  - date: '0150-01-01'
+    title_zh: 详译贤者非贤者对照
+    rationale: 比丘易恃大姓端正多闻禅定而生憍慢当以对照破执
+  - date: '0152-01-01'
+    title_zh: 强调随法谛不自誉不欺余
+    rationale: 名闻恭敬皆从法得非从我得故劝舍骄而学贤者
 events:
 - id: guji-安世高-event-birth
-  title_zh: 生于安息王室
-  date: '0100'
+  title_zh: 生于安息王族
+  date: '0100-01-01'
   year_of: 100
   place_zh: 安息国
-  summary_zh: 安息国太子生少好学博晓经术让国出家习禅
-- id: guji-安世高-event-arrival
-  title_zh: 建和二年抵洛阳
-  date: 0148
+  description: 安息太子出生少好学博通典籍兼明星术早厌世荣
+- id: guji-安世高-event-arrive
+  title_zh: 初至洛阳
+  date: '0148-01-01'
   year_of: 148
   place_zh: 洛阳
-  summary_zh: 汉桓帝建和二年至洛阳通华言寓居译经开译场
-- id: guji-安世高-event-translate
-  title_zh: 译出佛说四谛经等
-  date: '0152'
-  year_of: 152
+  description: 汉桓帝时远来洛阳通习华言始开译经之业
+- id: guji-安世高-event-anban
+  title_zh: 译安般守意经
+  date: '0148-06-01'
+  year_of: 148
   place_zh: 洛阳
-  summary_zh: 译四谛经明苦苦习苦尽苦尽道八正道传安般守意
+  description: 首译安般守意等禅数要典奠定汉地禅学基础
+- id: guji-安世高-event-shifafeifa
+  title_zh: 译说是法非法经
+  date: '0150-01-01'
+  year_of: 150
+  place_zh: 洛阳祇洹精舍讲传
+  description: 出中阿含译说是法非法经佛在舍卫说贤愚之别劝舍非贤行贤
+- id: guji-安世高-event-teach
+  title_zh: 讲授贤者法化众
+  date: '0155-01-01'
+  year_of: 155
+  place_zh: 洛阳
+  description: 为众讲大姓端正善说多闻禅定皆不可恃当断贪嗔痴随法行
 - id: guji-安世高-event-south
-  title_zh: 南游吴会弘禅
-  date: '0165'
-  year_of: 165
-  place_zh: 会稽吴地
-  summary_zh: 南游讲法度宫亭庙神及众授五戒修禅观名震江南
-- id: guji-安世高-event-death
-  title_zh: 卒于会稽
-  date: 0168
+  title_zh: 南下弘化
+  date: '0168-01-01'
   year_of: 168
-  place_zh: 会稽
-  summary_zh: 弘化江南后示寂后人尊为译经始祖
+  place_zh: 江南豫章
+  description: 避乱南下吴会弘法译经不辍终以弘化而殒
+- id: guji-安世高-event-death
+  title_zh: 示寂南方
+  date: '0180-01-01'
+  year_of: 180
+  place_zh: 南方
+  description: 弘化南方示寂世传偿命之迹后人追慕译业不绝
