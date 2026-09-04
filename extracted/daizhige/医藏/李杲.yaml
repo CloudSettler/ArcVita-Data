@@ -6,141 +6,143 @@ person:
     en: Li Gao
   lifespan:
     birth:
-      date: 1180
-      precision: year
-      is_circa: true
-      raw: 金大定二十年左右生于真定
-    death:
-      date: 1251
+      date: 1180-01-01
       precision: year
       is_circa: false
-      raw: 蒙古宪宗元年卒
-  birth_date: 1180
-  death_date: 1251
-  era: 金元
-  reign_ref: 金世宗至蒙古宪宗
+      raw: 金大定二十年
+    death:
+      date: 1251-01-01
+      precision: year
+      is_circa: false
+      raw: 蒙古宪宗元年辛亥
+  birth_date: 1180-01-01
+  death_date: 1251-01-01
+  era: 金末元初
+  reign_ref: 金大定至蒙古宪宗元年
   archetype: 补土医宗
   dilemmas:
-  - 寒凉攻下盛行与脾胃气虚当补之辨
-  - 外感伤寒与内伤饮食劳倦之分
-  lesson: 内伤脾胃百病由生养正积自除
-  summary_first_person: 吾以脾胃为后天之本立补中和中之法愿后人不妄攻伐而全元气
+  - 守高阳生旧诀以从习俗还是斥其谬误以重立脉法
+  - 乱世独善保身还是散财活人授徒传道
+  lesson: 胃气为脉之本内外因必先辨补益脾胃乃治病之要
+  summary_first_person: 吾名杲字明之真定人晚号东垣老人少师洁古张元素推演五运六气以脾胃为后天之本以胃气为脉之本图三部九候以正脉诀之失著书传徒以济苍生
   source_urls:
-  - https://daizhige.org/醫藏/醫學發明.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/醫藏/醫學發明.md
+  - https://daizhige.org/医藏/脉诀指掌病式图说.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/脉诀指掌病式图说.md
 endeavors:
 - id: guji-李杲-endeavor-1
-  person_id: guji-李杲
-  title_zh: 开创脾胃内伤学说
-  summary_zh: 辨内伤外感异同倡甘温补脾胃以救苦寒攻伐之弊
+  title_zh: 重修脉诀指掌阐微
+  summary: 推本律吕混合天人斥寅申男女之谬立三部九候以辨表里九道
   phases:
   - key: brewing
-    name: 师事张元素酿补土之志
+    name: 捐金师洁古习诊
     labels:
-      zh: 师学酝酿
-    start_date: 1200
-    highlight_event_id: guji-李杲-event-study
+      zh:
+      - 脉诊
+      - 经络
+    start_date: 1200-01-01
+    highlight_event_id: guji-李杲-event-1
   - key: breakthrough
-    name: 辨惑内伤外感初破旧法
+    name: 论脉法配天地辟谬
     labels:
-      zh: 内外伤辨
-    start_date: 1231
-    highlight_event_id: guji-李杲-event-neishang
+      zh:
+      - 脉法
+      - 天人
+    start_date: 1230-01-01
+    highlight_event_id: guji-李杲-event-3
   - key: climax
-    name: 著脾胃论立补中益气
+    name: 图说三部九候成书
     labels:
-      zh: 脾胃论成
-    start_date: 1249
-    highlight_event_id: guji-李杲-event-piwei
+      zh:
+      - 脉诀
+      - 图说
+    start_date: 1250-01-01
+    highlight_event_id: guji-李杲-event-3
   - key: closure
-    name: 门人罗天益等传承法脉
+    name: 丹溪重修门人题记
     labels:
-      zh: 授徒善后
-    start_date: 1251
+      zh:
+      - 传承
+      - 题记
+    start_date: 1251-01-01
     highlight_event_id: guji-李杲-event-death
   decisions:
-  - date: 1231
-    title_zh: 作内外伤辨惑论分内伤外感
-    rationale: 饮食劳倦多类伤寒误用发汗攻下则危故首辨脉证以立宗旨
-  - date: 1249
-    title_zh: 作脾胃论主甘温升阳补中
-    rationale: 土为万物之母清气下陷则病故用人参黄芪升麻柴胡以升发阳气
+  - date: 1230-01-01
+    title_zh: 斥秦越人寅申之说
+    rationale: 以男女寸尺盛衰肖天地阴阳非寅申所定故当正千载之误
+  - date: 1250-01-01
+    title_zh: 从旧寸关尺以图说示人
+    rationale: 习俗已久姑从旧部详列手图使学者易见而精明脉理
 - id: guji-李杲-endeavor-2
-  person_id: guji-李杲
-  title_zh: 撰医学发明立法用药
-  summary_zh: 以七方十剂统众方论膈咽胀满呕哕及伤损诸证以通泄补养为纲
+  title_zh: 补土立论济世活人
+  summary: 倡脾胃为后天之本辨内伤外感设补中益气以救时病兵荒活人无数
   phases:
   - key: brewing
-    name: 战乱病杂采集验方
+    name: 壬辰兵乱见内伤证
     labels:
-      zh: 临证积累
-    start_date: 1215
-    highlight_event_id: guji-李杲-event-study
+      zh:
+      - 内伤
+      - 时疫
+    start_date: 1232-01-01
+    highlight_event_id: guji-李杲-event-1
   - key: breakthrough
-    name: 立宣通补泄轻滑涩燥十剂
+    name: 著内外伤辨惑论
     labels:
-      zh: 十剂立法
-    start_date: 1228
-    highlight_event_id: guji-李杲-event-yixuefaming
+      zh:
+      - 辨惑
+      - 脾胃
+    start_date: 1247-01-01
+    highlight_event_id: guji-李杲-event-2
   - key: climax
-    name: 成医学发明辨清浊升降
+    name: 脾胃论成补土开宗
     labels:
-      zh: 发明集成
-    start_date: 1235
-    highlight_event_id: guji-李杲-event-yixuefaming
+      zh:
+      - 脾胃论
+      - 补土
+    start_date: 1249-01-01
+    highlight_event_id: guji-李杲-event-2
   - key: closure
-    name: 刊行流传后世注释
+    name: 晚年授徒传东垣之学
     labels:
-      zh: 刊刻流传
-    start_date: 1251
+      zh:
+      - 授徒
+      - 东垣
+    start_date: 1250-01-01
     highlight_event_id: guji-李杲-event-death
   decisions:
-  - date: 1228
-    title_zh: 以十剂分宣通补泄轻重涩滑燥
-    rationale: 方虽众必有纲以气味厚薄立法则临证不惑
-  - date: 1235
-    title_zh: 论膈咽不通当升阳降浊分四时治
-    rationale: 清在下则飧泄浊在上则胀故须升发阳气泄阴火以复升降
+  - date: 1232-01-01
+    title_zh: 散财购药活人济难
+    rationale: 汴京破后疮痍流行独出家资施药全活甚众以医为仁
+  - date: 1249-01-01
+    title_zh: 立补中益气以治内伤
+    rationale: 内伤劳倦多损脾胃非风寒可汗当以甘温补土升阳举陷
 events:
 - id: guji-李杲-event-birth
-  person_id: guji-李杲
-  title_zh: 生于真定
-  date: 1180
+  date: 1180-01-01
   year_of: 1180
+  title_zh: 生于真定
+  description: 金大定二十年生于真定富室少习儒业后以母病留心医药
   place_zh: 真定
-  summary_zh: 金大定年间生于真定世业医后居东垣
-- id: guji-李杲-event-study
-  person_id: guji-李杲
-  title_zh: 师事张元素得易水之学
-  date: 1200
+- id: guji-李杲-event-1
+  date: 1200-01-01
   year_of: 1200
-  place_zh: 易水
-  summary_zh: 师事张洁古尽得其法益以脾胃为重开补土一派
-- id: guji-李杲-event-neishang
-  person_id: guji-李杲
-  title_zh: 著内外伤辨惑论
-  date: 1231
-  year_of: 1231
-  place_zh: 东垣
-  summary_zh: 辨饮食劳倦内伤与风寒外感之异立内伤甘温除热之法
-- id: guji-李杲-event-yixuefaming
-  person_id: guji-李杲
-  title_zh: 成医学发明立法十剂
-  date: 1235
-  year_of: 1235
-  place_zh: 东垣
-  summary_zh: 论膈咽胀满呕哕及伤损证立宣通补泄轻重之纲以统众方
-- id: guji-李杲-event-piwei
-  person_id: guji-李杲
-  title_zh: 著脾胃论创补中益气
-  date: 1249
+  title_zh: 师事张洁古学医
+  description: 捐千金师事易州张元素尽得其学兼通五运六气之旨
+  place_zh: 易州
+- id: guji-李杲-event-2
+  date: 1249-01-01
   year_of: 1249
+  title_zh: 脾胃论成补土立派
+  description: 著脾胃论辨内伤外感倡人以胃气为本补益脾胃以济时病
   place_zh: 东垣
-  summary_zh: 阐阴火脾胃之说制补中益气汤以升阳益胃垂法后世
+- id: guji-李杲-event-3
+  date: 1250-01-01
+  year_of: 1250
+  title_zh: 脉诀指掌病式图说成
+  description: 推本律法混合天人图三部九候辨七表八里九道以正高阳生之妄
+  place_zh: 东垣
 - id: guji-李杲-event-death
-  person_id: guji-李杲
-  title_zh: 卒于东垣门人继业
-  date: 1251
+  date: 1251-01-01
   year_of: 1251
+  title_zh: 卒于东垣
+  description: 蒙古宪宗元年卒年七十二门人王好古罗天益等传其学
   place_zh: 东垣
-  summary_zh: 蒙古宪宗元年卒门人罗天益等辑承其脾胃之学

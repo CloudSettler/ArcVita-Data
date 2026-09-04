@@ -9,147 +9,140 @@ person:
       date: 1518-07-03
       precision: day
       is_circa: false
-      raw: 明正德十三年五月二十六日蕲州出生
+      raw: 明正德十三年五月二十六生于蕲州
     death:
-      date: 1593
+      date: 1593-02-22
       precision: year
       is_circa: false
-      raw: 明万历二十一年蕲州逝世
+      raw: 明万历二十一年卒于蕲州
   birth_date: 1518-07-03
-  death_date: 1593
-  era: 明代
-  reign_ref: 明世宗嘉靖至神宗万历
-  archetype: 求真证药医圣
+  death_date: 1593-02-22
+  era: 明
+  reign_ref: 明嘉靖至万历
+  archetype: 考据医家
   dilemmas:
-  - 承袭父业行医与科举入仕之间摇摆
-  - 旧方沿讹与亲尝亲验求真之间抉择
-  - 药物偏毒与炮炙存性去毒之间权衡
-  lesson: 穷毕生亲尝广访以正炮炙本草之讹存真去伪以活人
-  summary_first_person: 我是李时珍号濒湖蕲州人幼承家学三举不第遂决心以医济世走遍山野亲尝百药历三十年修成本草纲目又于雷公旧法上参以时验总结炮炙要旨愿后人用药得其真性不为毒烈所误
+  - 世医家传户诵伪脉诀以求食而我必斥其谬则犯众怒守真还是从俗
+  - 脉经精微失传立名归着易成执泥博学反约方入妙境如何权衡
+  lesson: 辨伪存真不囿成说博学反约以求脉理之真
+  summary_first_person: 我是蕲州李时珍幼承家学弃儒习医见世传脉诀假托王叔和词鄙理乖误人性命乃博考素问难经脉经仲景之法著脉诀考证以辨七表八里九道男女倒装诸谬又成濒湖脉学本草纲目以正医道
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%BF%92%E6%B9%96%E7%82%AE%E7%82%99%E6%B3%95.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%BF%92%E6%B9%96%E7%82%AE%E7%82%99%E6%B3%95.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E8%84%89%E8%AF%80%E8%80%83%E8%AF%81.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E8%84%89%E8%AF%80%E8%80%83%E8%AF%81.html
 endeavors:
 - id: guji-李时珍-endeavor-1
-  title_zh: 编修本草纲目正旧讹
-  summary: 广采历代本草亲访山野渔樵辨形味较炮炙以三十年之功成五十二卷纲目
+  title_zh: 脉诀考证辨伪正脉
+  summary_zh: 考朱柳谢王诸家之论证脉诀非王叔和书辨七表八里九道男女脉位脏腑部位之非以复素难脉经之真
   phases:
   - key: brewing
-    name: 家学行医初验药性
+    name: 家学行医见脉诀流行之误
     labels:
       zh:
-      - 家学
       - 行医
-      - 采药
-    start_date: 1538
+      - 存疑
+    start_date: 1540-01-01
     highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 太医院阅方知讹发愿重修
+    name: 博考素难脉经得伪托证据
     labels:
       zh:
-      - 太医院
-      - 立志
-    start_date: 1556
-    highlight_event_id: guji-李时珍-event-vow
+      - 考据
+      - 溯源
+    start_date: 1555-01-01
+    highlight_event_id: guji-李时珍-event-maijue
   - key: climax
-    name: 远游访药亲尝校订
+    name: 著脉诀考证斥七表八里九道
     labels:
       zh:
-      - 访药
-      - 亲尝
-    start_date: 1565
-    highlight_event_id: guji-李时珍-event-travel
+      - 立说
+      - 辨伪
+    start_date: 1564-01-01
+    highlight_event_id: guji-李时珍-event-maijue
   - key: closure
-    name: 书成本草纲目初稿
+    name: 成濒湖脉学以正三部皆肺之旨
     labels:
       zh:
       - 成书
-      - 刊刻
-    start_date: 1578
-    highlight_event_id: guji-李时珍-event-bencao
+      - 正法
+    start_date: 1570-01-01
+    highlight_event_id: guji-李时珍-event-maijue
   decisions:
-  - date: 1552
-    title_zh: 弃举业专攻医学
-    rationale: 三试不第见医误杀人遂承父志以医济世发愿重修本草
-  - date: 1565
-    title_zh: 出游访采不囿旧文
-    rationale: 旧载多抄袭舛误须亲至山野询樵采渔猎以目验耳闻证之
+  - date: 1555-01-01
+    title_zh: 断脉诀非叔和书
+    rationale: 以熙宁校正脉经时尚无脉诀及歌括起于宋中世推为高阳生伪托
+  - date: 1564-01-01
+    title_zh: 黜七表八里九道从阴阳对待
+    rationale: 以脉经二十四脉及浮大数动滑为阳沉涩弱弦微为阴证脉诀芤动弦归属皆背误
 - id: guji-李时珍-endeavor-2
-  title_zh: 总结濒湖炮炙法别存性
-  summary: 承雷公炮炙旧法参以家验时验详录水飞火煅酒浸蜜炙诸则使药去毒存性
+  title_zh: 编撰本草纲目集医药大成
+  summary_zh: 历三十年三改其稿访采四方考订草木虫石正旧本之讹补命门三焦之说以惠后世
   phases:
   - key: brewing
-    name: 研读雷公旧论辨玉石草木
+    name: 太医院任职阅方书之富
     labels:
       zh:
-      - 雷公
-      - 炮炙
-    start_date: 1550
+      - 游历
+      - 积累
+    start_date: 1551-01-01
     highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 临床试炮制别生熟寒热
+    name: 发愤著书辨旧注之误
     labels:
       zh:
-      - 炮制
-      - 临床
-    start_date: 1560
-    highlight_event_id: guji-李时珍-event-vow
+      - 发愿
+      - 考订
+    start_date: 1556-01-01
+    highlight_event_id: guji-李时珍-event-bencao
   - key: climax
-    name: 参订诸家时珍曰断是非
+    name: 三易其稿成本草纲目五十二卷
     labels:
       zh:
-      - 订正
-      - 时珍曰
-    start_date: 1575
-    highlight_event_id: guji-李时珍-event-paozhi
+      - 编撰
+      - 集大成
+    start_date: 1578-01-01
+    highlight_event_id: guji-李时珍-event-bencao
   - key: closure
-    name: 濒湖炮炙要旨附入纲目
+    name: 兼著命门考濒湖脉学相发明
     labels:
       zh:
-      - 纲目
-      - 传世
-    start_date: 1578
+      - 补苴
+      - 传道
+    start_date: 1585-01-01
     highlight_event_id: guji-李时珍-event-bencao
   decisions:
-  - date: 1575
-    title_zh: 以水飞酒淬存真去毒
-    rationale: 矿石多燥毒须水飞火煅醋淬以去尘秽杀毒而存其真性
-  - date: 1578
-    title_zh: 炮炙附纲目不另立专书
-    rationale: 炮炙为用药之先须随各药附载使学者得药即知修治不致误用生毒
+  - date: 1556-01-01
+    title_zh: 弃仕归蕲专事著述
+    rationale: 见医书讹误杀人不如集众方正本草以全民生
+  - date: 1578-01-01
+    title_zh: 以纲目统领考命门三焦
+    rationale: 以越人命门即肾为误当别论以通脉气使本草脉学相贯
 events:
 - id: guji-李时珍-event-birth
   date: 1518-07-03
   year_of: 1518
-  title_zh: 出生蕲州医官之家
-  description: 正德十三年生于蕲州父李言闻为医官自幼熏习医药
+  title_zh: 生于蕲州医宦之家
+  description_zh: 明正德十三年五月二十六生于湖广蕲州父李言闻为楚府良医所幼承家学
+  location_zh: 蕲州
 - id: guji-李时珍-event-practice
-  date: 1540
+  date: 1540-01-01
   year_of: 1540
-  title_zh: 蕲州坐堂行医初试炮炙
-  description: 承父业坐堂诊疾采药制药始辨桔梗黄参与伪品并试蜜炙酒浸之法
-- id: guji-李时珍-event-vow
-  date: 1556
-  year_of: 1556
-  title_zh: 任太医院判见方讹立志重修
-  description: 入太医院阅藏方见旧本草多舛误决意访采天下重修本草并正炮炙
-- id: guji-李时珍-event-travel
-  date: 1565
-  year_of: 1565
-  title_zh: 远游湖广诸山访药验性
-  description: 遍历太和武当诸山询猎樵辨秦艽柴胡苍术诸草亲尝其味试其炮制
+  title_zh: 三试不第弃儒习医行医四方
+  description_zh: 嘉靖年间屡举不第遂从父习医行医于蕲黄一带目击世医诵高阳生脉诀茫然无措
+  location_zh: 蕲州
+- id: guji-李时珍-event-maijue
+  date: 1564-01-01
+  year_of: 1564
+  title_zh: 著脉诀考证及濒湖脉学
+  description_zh: 博引朱熹柳贯戴起宗吴澄诸说证脉诀伪托辨七表八里九道男女倒装之谬明两手六部皆肺经以候五脏之气
+  location_zh: 蕲州
 - id: guji-李时珍-event-bencao
-  date: 1578
+  date: 1578-01-01
   year_of: 1578
-  title_zh: 本草纲目初稿告成载炮炙法
-  description: 万历六年纲目初成五十二卷诸药之下详载修治炮炙备录水飞煅淬蒸炒之要世称濒湖炮炙法
-- id: guji-李时珍-event-paozhi
-  date: 1580
-  year_of: 1580
-  title_zh: 订正玉石丹砂水银升炼诸法
-  description: 订灵砂轻粉粉霜升炼之法辨银箔锡箔之伪戒水银盐硝制剂之毒示人以正
+  title_zh: 本草纲目初成凡五十二卷
+  description_zh: 历三十年访采考订三易其稿成本草纲目并著命门考以正越人之误与脉学相发明
+  location_zh: 蕲州
 - id: guji-李时珍-event-death
-  date: 1593
+  date: 1593-02-22
   year_of: 1593
-  title_zh: 逝世蕲州纲目待刊行世
-  description: 万历二十一年逝世于蕲州三年后纲目刊行炮炙之法随之广布济世
+  title_zh: 卒于蕲州书未刊行
+  description_zh: 明万历二十一年卒于蕲州本草纲目藏于家三年后其子李建元进呈刊行于世
+  location_zh: 蕲州
