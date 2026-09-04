@@ -1,0 +1,151 @@
+person:
+  qid: guji-严西亭
+  name_zh: 严西亭
+  names:
+    zh: 严西亭
+    en: Yan Xiting
+  lifespan:
+    birth:
+      date: 1708
+      precision: year
+      is_circa: true
+      raw: 约康熙末年生
+    death:
+      date: 1782
+      precision: year
+      is_circa: true
+      raw: 约乾隆末年卒
+  birth_date: 1708
+  death_date: 1782
+  era: 清
+  reign_ref: 乾隆
+  archetype: 本草医家
+  dilemmas:
+  - 知药者不知方知方者仍不知病医者终误于所治何以贯通药病方
+  - 寒温消补各执一性君臣佐使泛言轻重何以辨性明体详治达用
+  lesson: 药不能独用病不可泛治得一药而配数药以正为配以反为配知药即知病知病即知所以治病
+  summary_first_person: 吾乃严西亭清代习歧黄者与施澹宁洪缉庵共念药不能独用病不可泛治遂博采群书互相辨论合为得配本草十卷搜罗六百五十种前辨性以明体后详治以达用愿后学者触类旁通运用入妙
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/得配本草.md
+  - https://daizhige.org/医藏/得配本草.html
+endeavors:
+- id: guji-严西亭-endeavor-1
+  title_zh: 博采群书合著得配本草十卷
+  summary: 以本草纲目为准绳分二十五部计六百五十种辨性明体详治达用发明得配之法
+  phases:
+  - key: brewing
+    name: 博采辨论酝酿体例
+    labels:
+      zh:
+      - 博采群书
+      - 互相辨论
+    start_date: 1755
+    highlight_event_id: guji-严西亭-event-compiling
+  - key: breakthrough
+    name: 辨性配伍体例初定
+    labels:
+      zh:
+      - 辨性明体
+      - 配伍明用
+    start_date: 1758
+    highlight_event_id: guji-严西亭-event-compiling
+  - key: climax
+    name: 十卷六百五十种成书
+    labels:
+      zh:
+      - 得配成书
+      - 纲目为准
+    start_date: 1761
+    highlight_event_id: guji-严西亭-event-publish
+  - key: closure
+    name: 魏序刊行垂世行远
+    labels:
+      zh:
+      - 魏朝阳作序
+      - 垂世行远
+    start_date: 1761-10-14
+    highlight_event_id: guji-严西亭-event-publish
+  decisions:
+  - date: 1758
+    title_zh: 以纲目为准绳分部著录
+    rationale: 纲目虽备而繁简失宜须删繁就简分水火土金石草谷菜果木虫鳞介禽兽人二十五部以便省览考证
+  - date: 1760
+    title_zh: 首标畏恶反使详主治次著配偶
+    rationale: 独入一经只治一病随佐使可治百病须先明畏恶反使令人开卷了然次详主治后著配偶使寒热攻补变化无穷
+- id: guji-严西亭-endeavor-2
+  title_zh: 兼擅歧黄以配伍法治临床
+  summary: 文章之外兼擅歧黄以正为配以反为配一药收数药之功数病同一药之效活人济世
+  phases:
+  - key: brewing
+    name: 文章歧黄兼修明理
+    labels:
+      zh:
+      - 文章兼医
+      - 明药性病机
+    start_date: 1730
+    highlight_event_id: guji-严西亭-event-practice
+  - key: breakthrough
+    name: 得配治验触类旁通
+    labels:
+      zh:
+      - 以正为配
+      - 以反为配
+    start_date: 1750
+    highlight_event_id: guji-严西亭-event-practice
+  - key: climax
+    name: 怪症制法禁忌并传
+    labels:
+      zh:
+      - 制法禁忌
+      - 怪症相制
+    start_date: 1760
+    highlight_event_id: guji-严西亭-event-publish
+  - key: closure
+    name: 传授后学一以贯之
+    labels:
+      zh:
+      - 知药知病
+      - 一以贯之
+    start_date: 1770
+    highlight_event_id: guji-严西亭-event-death
+  decisions:
+  - date: 1750
+    title_zh: 详优劣制法与禁忌
+    rationale: 名同实异功效悬殊制得其宜性味为之变化药有利必有害须详论辨备载炮制禁忌使不敢轻试
+  - date: 1760
+    title_zh: 附怪症以明相制之妙
+    rationale: 百药不治之症一物足以疗之乃物之相制附怪症于各条之后使运用之妙无过得配
+events:
+- id: guji-严西亭-event-birth
+  title_zh: 严西亭出生
+  type: birth
+  date: 1708
+  year_of: 1708
+  description: 约康熙末年出生清代士人文章之外早志歧黄
+- id: guji-严西亭-event-compiling
+  title_zh: 与施澹宁洪缉庵博采辨论
+  type: career
+  date: 1758
+  year_of: 1758
+  description: 与施澹宁洪缉庵博采群书互相辨论搜罗不亚纲目职任专于古方立辨性详治得配体例
+  endeavor_ref: guji-严西亭-endeavor-1
+- id: guji-严西亭-event-practice
+  title_zh: 歧黄临床配伍化裁济世
+  type: career
+  date: 1760
+  year_of: 1760
+  description: 以得配之法临证寒热攻补随证化裁一药配数药治数病积累制法禁忌怪症治验
+  endeavor_ref: guji-严西亭-endeavor-2
+- id: guji-严西亭-event-publish
+  title_zh: 得配本草十卷成魏朝阳作序
+  type: career
+  date: 1761-10-14
+  year_of: 1761
+  description: 得配本草凡十卷六百五十种告成乾隆二十六年辛巳九月既望魏朝阳拜撰魏序称知药即知病诚一以贯之足垂世行远
+  endeavor_ref: guji-严西亭-endeavor-1
+- id: guji-严西亭-event-death
+  title_zh: 严西亭逝世
+  type: death
+  date: 1782
+  year_of: 1782
+  description: 约乾隆末年逝世得配本草流传后世为配伍用药之准绳
