@@ -1,0 +1,126 @@
+person:
+  qid: guji-师巫
+  name_zh: 师巫
+  names:
+    zh: 师巫
+    en: Shi Wu
+  lifespan:
+    birth:
+      date: -0976
+      precision: year
+      is_circa: true
+      raw: 周穆王时贤士
+    death:
+      date: -0922
+      precision: year
+      is_circa: true
+      raw: 穆王后佚亡
+  birth_date: -0976
+  death_date: -0922
+  era: 西周
+  reign_ref: 周穆王
+  archetype: 隐士医者
+  dilemmas:
+  - 金匮秘藏百姓莫见与婴儿惊候多生枉损之两难
+  - 庸愚乱施攻疗与审证辨候安和补养之抉择
+  lesson: 究古言寻端由辨颅囟阴阳以定生死济后学
+  summary_first_person: 吾于崆峒得王母金文黄帝内经之遗观天地阴阳化感释为颅囟经以救小儿惊痫疳痢火丹之厄愿后学审依而济疾
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%A2%85%E5%9B%9F%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%A2%85%E5%9B%9F%E7%BB%8F.md
+endeavors:
+- id: guji-师巫-endeavor-1
+  title_zh: 崆峒得书释演内经
+  summary: 于崆峒得王母金文秘藏释天地阴阳胎养之道成颅囟经之纲
+  phases:
+  - key: brewing
+    name: 访道崆峒
+    labels:
+      zh: 孕育
+    start_date: -0976
+    highlight_event_id: guji-师巫-event-birth
+  - key: breakthrough
+    name: 得王母金文
+    labels:
+      zh: 突破
+    start_date: -0960
+    highlight_event_id: guji-师巫-event-kongtong
+  - key: climax
+    name: 释成颅囟经原序
+    labels:
+      zh: 高潮
+    start_date: -0950
+    highlight_event_id: guji-师巫-event-chengshu
+  - key: closure
+    name: 垂训后学济疾
+    labels:
+      zh: 收束
+    start_date: -0940
+    highlight_event_id: guji-师巫-event-chengshu
+  decisions:
+  - date: -0960
+    title_zh: 释金匮秘文为颅囟
+    rationale: 悯婴儿才养惊候多生庸愚枉损故究古言叙成疾目以定死生
+  - date: -0950
+    title_zh: 以天地阴阳化感颅囟受名
+    rationale: 明精凝血室十月生成之序使调护守恬和可保长生
+- id: guji-师巫-endeavor-2
+  title_zh: 开创小儿颅囟诊治
+  summary: 立三岁以下脉法别火丹十五名目及惊疳杂证秘方为幼科之源
+  phases:
+  - key: brewing
+    name: 察婴儿受病之本
+    labels:
+      zh: 孕育
+    start_date: -0955
+    highlight_event_id: guji-师巫-event-kongtong
+  - key: breakthrough
+    name: 立纯阳脉候七至之法
+    labels:
+      zh: 突破
+    start_date: -0950
+    highlight_event_id: guji-师巫-event-chengshu
+  - key: climax
+    name: 定火丹惊疳证治方药
+    labels:
+      zh: 高潮
+    start_date: -0945
+    highlight_event_id: guji-师巫-event-chengshu
+  - key: closure
+    name: 启钱乙幼科之源
+    labels:
+      zh: 收束
+    start_date: -0930
+    highlight_event_id: guji-师巫-event-death
+  decisions:
+  - date: -0950
+    title_zh: 别小儿脉与大人之异
+    rationale: 三岁以下为纯阳一寸取之呼吸定息七至为平不可同大人五至
+  - date: -0945
+    title_zh: 分丹毒大小别火丹十五候
+    rationale: 阳解十岁以下为丹以上为毒随证外涂内服万无一差以救枉死
+events:
+- id: guji-师巫-event-birth
+  type: birth
+  title_zh: 穆王时生为贤士
+  date: -0976
+  year_of: -976
+  description: 生于西周穆王之世为贤士究阴阳化功之学
+- id: guji-师巫-event-kongtong
+  type: career
+  title_zh: 崆峒山得王母金文而释之
+  date: -0960
+  year_of: -960
+  description: 于崆峒得黄帝秘藏金匮内经叙天地大德父母交和胎质生成之道
+- id: guji-师巫-event-chengshu
+  type: career
+  title_zh: 叙成颅囟经二卷
+  date: -0950
+  year_of: -950
+  description: 成脉法受病火丹十五名目惊痫疳痢杂证之书首论小儿与大人脉候不同次论治疗要言不烦
+- id: guji-师巫-event-death
+  type: death
+  title_zh: 穆王后佚亡书传后世
+  date: -0922
+  year_of: -922
+  description: 殁后其书独载于永乐大典宋志著录师巫颅囟经二卷钱乙因之以幼科冠绝一代

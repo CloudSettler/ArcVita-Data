@@ -1,0 +1,136 @@
+person:
+  qid: guji-姜礼
+  name_zh: 姜礼
+  names:
+    zh: 姜礼字天叙
+    en: Jiang Li
+  lifespan:
+    birth:
+      date: 1654
+      precision: year
+      is_circa: false
+      raw: 顺治十一年
+    death:
+      date: 1724
+      precision: year
+      is_circa: true
+      raw: 年七十有一而殁
+  birth_date: 1654
+  death_date: 1724
+  era: 清
+  reign_ref: 康熙
+  archetype: 儒医
+  dilemmas:
+  - 外风内虚众说纷纭何以定中风之本
+  - 贫病徒步求诊囊药有限何以普济
+  lesson: 立功过以省身精经义以活人德术并重方为良医
+  summary_first_person: 吾姜礼字天叙世居江阴华墅好读书善医术立功过格以自省遇贫者施诊舍药不取值旁参玄功著四大证以阐风劳臌膈开华墅姜氏医派
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%A3%8E%E5%8A%B3%E8%87%8C%E8%86%88%E5%9B%9B%E5%A4%A7%E8%AF%81%E6%B2%BB.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%A3%8E%E5%8A%B3%E8%87%8C%E8%86%88%E5%9B%9B%E5%A4%A7%E8%AF%81%E6%B2%BB.html
+endeavors:
+- id: guji-姜礼-endeavor-1
+  title_zh: 华墅济世行医
+  summary: 徒步往来施诊贫者出囊中药不取值开华墅医风
+  phases:
+  - key: brewing
+    name: 读书立格
+    labels:
+      zh:
+      - 功过格
+      - 岐黄
+    start_date: 1670
+    highlight_event_id: guji-姜礼-event-practice
+  - key: breakthrough
+    name: 徒步济贫名噪江南
+    labels:
+      zh:
+      - 施诊舍药
+      - 仁术
+    start_date: 1680
+    highlight_event_id: guji-姜礼-event-practice
+  - key: climax
+    name: 华墅姜氏独推
+    labels:
+      zh:
+      - 龙砂医派
+    start_date: 1700
+    highlight_event_id: guji-姜礼-event-practice
+  - key: closure
+    name: 德术传家
+    labels:
+      zh:
+      - 食报子孙
+    start_date: 1720
+    highlight_event_id: guji-姜礼-event-death
+  decisions:
+  - date: 1680
+    title_zh: 贫者施诊不取值
+    rationale: 以德立医不计利以济众为本
+  - date: 1700
+    title_zh: 固守穷乡不远出
+    rationale: 华墅贫病者多不忍舍近求名
+- id: guji-姜礼-endeavor-2
+  title_zh: 著述四大证全书
+  summary: 抉发风劳臌膈奥义旁征博引参以己意理精词约
+  phases:
+  - key: brewing
+    name: 博览内经金匮
+    labels:
+      zh:
+      - 三世之书
+    start_date: 1685
+    highlight_event_id: guji-姜礼-event-book
+  - key: breakthrough
+    name: 立论非专外风
+    labels:
+      zh:
+      - 阳虚为本
+    start_date: 1695
+    highlight_event_id: guji-姜礼-event-book
+  - key: climax
+    name: 四大证论成
+    labels:
+      zh:
+      - 风劳臌膈
+    start_date: 1710
+    highlight_event_id: guji-姜礼-event-book
+  - key: closure
+    name: 手泽传后
+    labels:
+      zh:
+      - 枣梨付梓
+    start_date: 1724
+    highlight_event_id: guji-姜礼-event-death
+  decisions:
+  - date: 1695
+    title_zh: 主阳虚邪害空窍立论
+    rationale: 辨膏粱之疾与虚邪留滞不执一端
+  - date: 1710
+    title_zh: 融合难经仲景丹溪诸家
+    rationale: 详察病源精审方宜以垂久远
+events:
+- id: guji-姜礼-event-birth
+  title_zh: 生于江阴华墅
+  date: 1654
+  year_of: 1654
+  place_zh: 江阴华墅
+  description: 父玉田公始居华墅生公遂世为江阴人
+- id: guji-姜礼-event-practice
+  title_zh: 徒步济贫开医风
+  date: 1680
+  year_of: 1680
+  place_zh: 江阴华墅及大江南北
+  description: 立功过格日记得失遇贫者施诊出囊中药不取值士大夫乐与交开华墅姜氏医派
+- id: guji-姜礼-event-book
+  title_zh: 著四大证全书
+  date: 1710
+  year_of: 1710
+  place_zh: 江阴华墅
+  description: 论风劳臌膈旁征博引参以己意理精词约并著仁寿镜本草搜根证治汇理等
+- id: guji-姜礼-event-death
+  title_zh: 预知逝期而终
+  date: 1724
+  year_of: 1724
+  place_zh: 江阴华墅
+  description: 旁及玄功预言三月望日将逝命沐浴更衣瞿道人至书讽经二字奄然而逝年七十有一
