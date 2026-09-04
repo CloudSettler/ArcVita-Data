@@ -9,124 +9,126 @@ person:
       date: '0100'
       precision: year
       is_circa: true
-      raw: 约生于安息国王室
+      raw: 安息国太子生年不详约二世纪初
     death:
-      date: '0170'
+      date: 0168
       precision: year
       is_circa: true
-      raw: 约卒于会稽
+      raw: 约汉灵帝时卒
   birth_date: '0100'
-  death_date: '0170'
+  death_date: 0168
   era: 东汉
-  reign_ref: 汉桓帝至汉灵帝
-  archetype: 译经弘法者
-  dilemmas:
-  - 王位安乐与出家求道之择
-  - 胡语梵典与华言达意之难
-  lesson: 舍国求法，亲贤闻道，以信立念，以戒摄根，方得度世解脱
-  summary_first_person: 我本安息国太子，舍位出家，浮海东来，止于洛阳，译经传法，说明本相猗致之义，劝人亲近贤者，闻法生信，转转增上，以趣解脱
+  reign_ref: 汉桓帝至汉灵帝之际
+  archetype: 译经宗师
+  lesson: 漏痛思想爱欲行苦皆从痴爱而起当以八正直道观分布知尽灭方得清净无为
+  summary_first_person: 吾本安息太子舍王位而出家精习禅数东来洛阳译出漏分布等经愿众生知漏知苦断痴行八正道而得漏尽
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/阿含部/佛说本相猗致经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/阿含部/佛说本相猗致经.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%BC%8F%E5%88%86%E5%B8%83%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E6%BC%8F%E5%88%86%E5%B8%83%E7%BB%8F.md
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 洛阳译经开山
-  summary: 建和二年至洛，译出阿含禅数诸经，奠定汉地译经之式
+  title_zh: 舍位西行东来洛阳开译
+  summary: 以安息太子身份出家习禅东汉桓帝时至洛阳开汉地译经之业
   phases:
   - key: brewing
-    name: 舍国西行酝酿
+    name: 安息出家习禅
     labels:
       zh: 酝酿
-    start_date: '0147'
+    start_date: '0120'
     highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 初至洛阳译经
+    name: 初至洛阳
     labels:
       zh: 突破
     start_date: 0148
-    highlight_event_id: guji-安世高-event-1
+    highlight_event_id: guji-安世高-event-luoyang
   - key: climax
-    name: 译出本相猗致等经
+    name: 群经并译名重京师
     labels:
       zh: 高潮
     start_date: '0152'
-    highlight_event_id: guji-安世高-event-2
+    highlight_event_id: guji-安世高-event-translate
   - key: closure
-    name: 译业渐成授徒
+    name: 南下弘化示寂
+    labels:
+      zh: 收束
+    start_date: '0166'
+    highlight_event_id: guji-安世高-event-death
+  decisions:
+  - date: 0148
+    title_zh: 舍国赴汉
+    rationale: 为使正法东传舍安息王位远涉洛阳弘化
+  - date: '0150'
+    title_zh: 专译小乘禅数阿含
+    rationale: 因汉初未闻禅法先译安般漏分布等令学者断漏知苦
+- id: guji-安世高-endeavor-2
+  title_zh: 译说漏分布明六事断漏
+  summary: 依中阿含译出漏分布经具说漏痛思想爱欲行苦之本末分布尽灭与八正直道
+  phases:
+  - key: brewing
+    name: 听闻拘留国法会缘起
+    labels:
+      zh: 酝酿
+    start_date: '0150'
+    highlight_event_id: guji-安世高-event-luoyang
+  - key: breakthrough
+    name: 析三漏八正道
+    labels:
+      zh: 突破
+    start_date: '0152'
+    highlight_event_id: guji-安世高-event-translate
+  - key: climax
+    name: 广说痛想爱行苦分布
+    labels:
+      zh: 高潮
+    start_date: '0155'
+    highlight_event_id: guji-安世高-event-translate
+  - key: closure
+    name: 结劝厌世清净无为
     labels:
       zh: 收束
     start_date: '0160'
-    highlight_event_id: guji-安世高-event-2
+    highlight_event_id: guji-安世高-event-teach
   decisions:
-  - date: 0148
-    title_zh: 舍王位东来洛阳
-    rationale: 为传佛法，不恋国位，愿以翻译利及华夏
   - date: '0152'
-    title_zh: 先译小乘禅法因缘诸经
-    rationale: 华人根初，宜以数息安般及十二因缘相猗之理化导
-- id: guji-安世高-endeavor-2
-  title_zh: 南下会稽弘化
-  summary: 晚年避乱江南，传戒弘禅，应机济度，终老会稽
-  phases:
-  - key: brewing
-    name: 中原扰乱萌行意
-    labels:
-      zh: 酝酿
-    start_date: '0166'
-    highlight_event_id: guji-安世高-event-2
-  - key: breakthrough
-    name: 南抵会稽宣法
-    labels:
-      zh: 突破
-    start_date: 0168
-    highlight_event_id: guji-安世高-event-3
-  - key: climax
-    name: 摄众授禅盛化江南
-    labels:
-      zh: 高潮
-    start_date: 0169
-    highlight_event_id: guji-安世高-event-3
-  - key: closure
-    name: 示寂会稽传法有继
-    labels:
-      zh: 收束
-    start_date: '0170'
-    highlight_event_id: guji-安世高-event-death
-  decisions:
-  - date: 0168
-    title_zh: 避乱南下不恋洛阳
-    rationale: 观时缘已尽，当以余生济度江左，令法种南布
-  - date: 0169
-    title_zh: 以贤者聚会劝人闻法
-    rationale: 依本相猗致之义，令众亲贤事贤，由信致解脱
+    title_zh: 以六事统摄漏义
+    rationale: 以漏痛思想爱欲行苦六门明本有受殃分布尽灭令人易持
+  - date: '0155'
+    title_zh: 归宗八直道行
+    rationale: 痴爱为本唯直见直定等八行能令漏痛苦毕故每门重说不舍
 events:
 - id: guji-安世高-event-birth
-  title_zh: 诞生于安息国王室
+  title_zh: 诞生于安息国王家
   date: '0100'
   year_of: 100
-  place_zh: 安息国
-  description: 生于安息国王家，少好学，通梵典，明禅法
-- id: guji-安世高-event-1
-  title_zh: 抵洛阳始开译场
+  kind: birth
+  location_zh: 安息国
+  summary: 安世高生为安息太子性聪博通经术出家习禅
+- id: guji-安世高-event-luoyang
+  title_zh: 建和二年至洛阳译经
   date: 0148
   year_of: 148
-  place_zh: 洛阳
-  description: 汉桓帝建和二年至洛阳，通华言，设译场，译安般守意等经
-- id: guji-安世高-event-2
-  title_zh: 译出本相猗致经
+  kind: endeavor
+  location_zh: 洛阳
+  summary: 汉桓帝时来至洛阳弘化译经二十余年为汉地译经之祖
+- id: guji-安世高-event-translate
+  title_zh: 译出佛说漏分布经
   date: '0152'
   year_of: 152
-  place_zh: 洛阳
-  description: 于洛阳译出本相猗致经，明不善法与解脱法展转相猗之本
-- id: guji-安世高-event-3
-  title_zh: 南下会稽弘化
+  kind: endeavor
+  location_zh: 洛阳
+  summary: 出中阿含译漏分布经明三漏所依地狱饿鬼天人分布及八种直道令漏尽
+- id: guji-安世高-event-teach
+  title_zh: 宣说痛想爱行苦灭道
+  date: '0155'
+  year_of: 155
+  kind: endeavor
+  location_zh: 洛阳
+  summary: 续说三痛四思想五欲黑白行生老病死苦皆以八正道为毕行劝厌世清净
+- id: guji-安世高-event-death
+  title_zh: 南游卒于江南
   date: 0168
   year_of: 168
-  place_zh: 会稽
-  description: 避中原多事，南至会稽，弘禅授戒，化度江南士庶
-- id: guji-安世高-event-death
-  title_zh: 示寂于会稽
-  date: '0170'
-  year_of: 170
-  place_zh: 会稽
-  description: 弘化既毕，示寂于会稽，弟子传其禅法译典不绝
+  kind: death
+  location_zh: 江南
+  summary: 译经弘化垂三十载后南游会稽卒世传其神异灵迹
