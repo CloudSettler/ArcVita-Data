@@ -1,0 +1,154 @@
+person:
+  qid: guji-法炬
+  name_zh: 法炬
+  names:
+    zh: 法炬
+    en: Fa Ju
+  lifespan:
+    birth:
+      date: '0260'
+      precision: year
+      is_circa: true
+      raw: 西晋初年生约
+    death:
+      date: '0313'
+      precision: year
+      is_circa: true
+      raw: 西晋永嘉末年示寂约
+  birth_date: '0260'
+  death_date: '0313'
+  era: 西晋
+  reign_ref: 晋惠帝至晋怀帝
+  archetype: 译经弘法者
+  dilemmas:
+  - 梵义幽深华言浅近如何既忠于梵本又达于华俗
+  - 永嘉世乱避世自保还是坚守译场以经安世
+  lesson: 如法求财自安亲族兼施沙门而不染著知足而食即是最胜伏淫
+  summary_first_person: 吾为西晋沙门法炬以译经为任译出伏淫经为给孤独居士明十种求财养命施福之别劝世如法不干不染不著而食以全利世之愿
+  source_urls:
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BC%8F%E6%B7%AB%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E9%98%BF%E5%90%AB%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BC%8F%E6%B7%AB%E7%BB%8F.md
+endeavors:
+- id: guji-法炬-endeavor-1
+  title_zh: 译出伏淫经明十种养命施福
+  summary_zh: 依舍卫祇园给孤独请问因缘译出十种非法如法求财安身施福染著与否之分别
+  phases:
+  - key: brewing
+    name: 得梵本习阿含
+    labels:
+      zh:
+      - 习梵
+      - 研阿含
+    start_date: 0285
+    highlight_event_id: guji-法炬-event-study
+  - key: breakthrough
+    name: 发愿译伏淫
+    labels:
+      zh:
+      - 发愿
+      - 拣经
+    start_date: 0295
+    highlight_event_id: guji-法炬-event-vow
+  - key: climax
+    name: 译竟流通
+    labels:
+      zh:
+      - 翻译
+      - 流通
+    start_date: '0305'
+    highlight_event_id: guji-法炬-event-translate-fuyin
+  - key: closure
+    name: 以偈总结劝持
+    labels:
+      zh:
+      - 结偈
+      - 劝持
+    start_date: '0306'
+    highlight_event_id: guji-法炬-event-verse
+  decisions:
+  - date: 0295
+    title_zh: 拣译伏淫经以正居士求财养命
+    rationale: 见世人非法求财不施不惠故欲明如法不染为最胜
+  - date: '0305'
+    title_zh: 直译十伏淫不省文以存义备
+    rationale: 恐义有增减失佛分别深意宁质直而存全
+- id: guji-法炬-endeavor-2
+  title_zh: 西晋乱世坚守译场弘化
+  summary_zh: 永嘉扰攘中安场传译教人如法求财布施持戒以安身心
+  phases:
+  - key: brewing
+    name: 乱前立场习律
+    labels:
+      zh:
+      - 持戒
+      - 立场
+    start_date: 0290
+    highlight_event_id: guji-法炬-event-study
+  - key: breakthrough
+    name: 乱中不辍译事
+    labels:
+      zh:
+      - 坚守
+      - 传译
+    start_date: '0300'
+    highlight_event_id: guji-法炬-event-vow
+  - key: climax
+    name: 以经劝施安众
+    labels:
+      zh:
+      - 劝施
+      - 安众
+    start_date: '0305'
+    highlight_event_id: guji-法炬-event-translate-fuyin
+  - key: closure
+    name: 示寂以身垂范
+    labels:
+      zh:
+      - 圆寂
+      - 垂范
+    start_date: '0313'
+    highlight_event_id: guji-法炬-event-death
+  decisions:
+  - date: '0300'
+    title_zh: 世乱不避坚持译经利世
+    rationale: 若避世则梵本散失故宁艰难而存法脉
+  - date: '0306'
+    title_zh: 劝人布施沙门兼自安亲族
+    rationale: 欲令居士不悭不浊有智知变知足而食
+events:
+- id: guji-法炬-event-birth
+  title_zh: 西晋初年生
+  date: '0260'
+  year_of: 260
+  place_zh: 中原
+  description_zh: 约生于西晋初年后出家为沙门习梵汉之学
+- id: guji-法炬-event-study
+  title_zh: 习梵研阿含
+  date: 0285
+  year_of: 285
+  place_zh: 洛阳
+  description_zh: 研习梵本熟阿含部为后译伏淫诸经奠基
+- id: guji-法炬-event-vow
+  title_zh: 发愿拣译伏淫经
+  date: 0295
+  year_of: 295
+  place_zh: 洛阳
+  description_zh: 见居士求财养命是非杂糅发愿译伏淫经以明分别
+- id: guji-法炬-event-translate-fuyin
+  title_zh: 译出佛说伏淫经
+  date: '0305'
+  year_of: 305
+  place_zh: 洛阳
+  description_zh: 译舍卫祇园世尊为阿那邠祁说十伏淫分别如法不染最胜流通于世
+- id: guji-法炬-event-verse
+  title_zh: 译竟结偈劝行
+  date: '0306'
+  year_of: 306
+  place_zh: 洛阳
+  description_zh: 以偈总结非法聚财如法施福不悭不浊知足而食劝众奉持
+- id: guji-法炬-event-death
+  title_zh: 永嘉末年示寂
+  date: '0313'
+  year_of: 313
+  place_zh: 中原
+  description_zh: 经历惠怀之乱译事既竟于永嘉末前后示寂
