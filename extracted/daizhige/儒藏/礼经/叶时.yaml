@@ -1,0 +1,137 @@
+person:
+  qid: guji-叶时
+  name_zh: 叶时
+  names:
+    zh: 叶时
+    en: Ye Shi
+  lifespan:
+    birth:
+      date: 1175-01-01
+      precision: year
+      is_circa: true
+      raw: 南宋钱塘出生约乾道淳熙间
+    death:
+      date: 1232-01-01
+      precision: year
+      is_circa: true
+      raw: 理宗朝致仕卒谥文康
+  birth_date: 1175-01-01
+  death_date: 1232-01-01
+  era: 南宋
+  reign_ref: 宋理宗
+  archetype: 经世型经学家
+  dilemmas:
+  - 法与道之辨如何不泥文法而得圣人发育万物之道
+  - 尊古与适用之难如何驳郑康成旧注而可施实用
+  lesson: 离道于法非深于周礼待其人而后行
+  summary_first_person: 余钱塘叶时字秀发深究经世之具以周礼为圣人治法所在不随文笺疏而举大指为目成礼经会元四卷百篇以畅其说历官至龙图阁学士以经术辅治致仕而终
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E7%A4%BC%E7%BB%8F%E4%BC%9A%E5%85%83.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E7%A4%BC%E7%BB%8F%E4%BC%9A%E5%85%83.html
+endeavors:
+- id: guji-叶时-endeavor-1
+  title_zh: 撰礼经会元阐周礼大指
+  description_zh: 不随文笺疏举周礼中大指为目凡百篇旁推交通以畅其说镕经义自成一家
+  phases:
+  - key: brewing
+    name: 研读周礼注疏酝酿释经
+    labels:
+      zh: 研经酝酿
+    start_date: 1195-01-01
+    highlight_event_id: guji-叶时-event-study
+  - key: breakthrough
+    name: 立纲举大指为目百篇
+    labels:
+      zh: 立纲突破
+    start_date: 1210-01-01
+    highlight_event_id: guji-叶时-event-compose
+  - key: climax
+    name: 成书四卷旁推交通成一家言
+    labels:
+      zh: 成书高峰
+    start_date: 1220-01-01
+    highlight_event_id: guji-叶时-event-compose
+  - key: closure
+    name: 与朱子友善诋王安石新法以传道
+    labels:
+      zh: 传道收束
+    start_date: 1224-01-01
+    highlight_event_id: guji-叶时-event-compose
+  decisions:
+  - date: 1210-01-01
+    title_zh: 不随文笺疏而举大指为目
+    rationale: 镕经义以自成一家旁推交通以畅圣人之道
+  - date: 1220-01-01
+    title_zh: 辨郑康成五失不泥旧注
+    rationale: 纬书兵法传记礼记皆非圣经当以圣经为据防袭注疏则法亡
+- id: guji-叶时-endeavor-2
+  title_zh: 历仕理宗经世致用辅政
+  description_zh: 钱塘进身历官至龙图阁学士光禄大夫究心经世之具致仕卒谥文康
+  phases:
+  - key: brewing
+    name: 钱塘进身究心经世之具
+    labels:
+      zh: 出仕酝酿
+    start_date: 1198-01-01
+    highlight_event_id: guji-叶时-event-study
+  - key: breakthrough
+    name: 理宗朝擢用历官清要
+    labels:
+      zh: 擢用突破
+    start_date: 1224-01-01
+    highlight_event_id: guji-叶时-event-office
+  - key: climax
+    name: 位龙图阁学士光禄大夫辅治
+    labels:
+      zh: 辅政高峰
+    start_date: 1226-01-01
+    highlight_event_id: guji-叶时-event-office
+  - key: closure
+    name: 致仕而终谥文康以经术传后
+    labels:
+      zh: 致仕收束
+    start_date: 1230-01-01
+    highlight_event_id: guji-叶时-event-death
+  decisions:
+  - date: 1224-01-01
+    title_zh: 以经术言治道不行徒法不行
+    rationale: 待其人而后行身任君师之责当思周公所思行周公所行
+  - date: 1226-01-01
+    title_zh: 致仕守道不附权势
+    rationale: 权自上出大臣禀命而行以民极为标准全君臣同德之义
+events:
+- id: guji-叶时-event-birth
+  title_zh: 出生于钱塘
+  date: 1175-01-01
+  year_of: 1175
+  place_zh: 钱塘
+  description_zh: 宋叶时字秀发钱塘人出生究心经学后与朱子友善
+  endeavor_ref: guji-叶时-endeavor-2
+- id: guji-叶时-event-study
+  title_zh: 研治周礼辨汉儒得失
+  date: 1195-06-01
+  year_of: 1195
+  place_zh: 钱塘
+  description_zh: 深观周礼谓累周礼自刘德始诬周礼自刘歆始坏周礼自郑康成始当以圣经为据
+  endeavor_ref: guji-叶时-endeavor-1
+- id: guji-叶时-event-compose
+  title_zh: 著成礼经会元四卷
+  date: 1220-03-01
+  year_of: 1220
+  place_zh: 钱塘
+  description_zh: 举周礼大指为目凡百篇旁推交通以畅其说名曰释经而实自成一家言
+  endeavor_ref: guji-叶时-endeavor-1
+- id: guji-叶时-event-office
+  title_zh: 官至龙图阁学士光禄大夫
+  date: 1226-05-01
+  year_of: 1226
+  place_zh: 临安
+  description_zh: 理宗朝为龙图阁学士光禄大夫以经世之学辅政后致仕
+  endeavor_ref: guji-叶时-endeavor-2
+- id: guji-叶时-event-death
+  title_zh: 致仕卒谥文康
+  date: 1232-01-01
+  year_of: 1232
+  place_zh: 钱塘
+  description_zh: 致仕而卒谥文康所著礼经会元入四库存经部周礼之属
+  endeavor_ref: guji-叶时-endeavor-2
