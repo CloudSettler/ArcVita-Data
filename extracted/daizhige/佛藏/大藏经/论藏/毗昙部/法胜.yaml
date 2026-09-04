@@ -1,0 +1,128 @@
+person:
+  qid: guji-法胜
+  name_zh: 法胜
+  names:
+    zh: 法胜
+    en: Dharmashreshthin
+  lifespan:
+    birth:
+      date: 0080-01-01
+      precision: year
+      is_circa: true
+      raw: 约东汉建初年间生于北天竺
+    death:
+      date: 0150-01-01
+      precision: year
+      is_circa: true
+      raw: 约东汉桓帝年间入灭
+  birth_date: 0080-01-01
+  death_date: 0150-01-01
+  era: 东汉
+  reign_ref: 东汉明章至桓帝间
+  archetype: 论师摄义型
+  dilemmas:
+  - 阿毗昙广博难持当如何摄其心要令人易解易持
+  - 自性实有与缘起和合当如何安立因缘生灭而不堕断常
+  lesson: 摄博入约以心统论开后世心论与杂心之先河
+  summary_first_person: 吾法胜观三藏毗昙浩博学者难持故摄界行作业使为四品造阿毗昙心论令法相可知因缘可了以助众生离恼解脱
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/论藏/毗昙部/阿毗昙心论.md
+endeavors:
+- id: guji-法胜-endeavor-1
+  title_zh: 造阿毗昙心论摄颂
+  summary_zh: 摄界行作业使四品以偈颂定法相以长行释缘起立心论体例
+  phases:
+  - key: brewing
+    name: 研习说一切有部毗昙
+    labels:
+      zh: 研习蕴界处
+    start_date: 0100-01-01
+    highlight_event_id: guji-法胜-event-study
+  - key: breakthrough
+    name: 立界品定法相
+    labels:
+      zh: 界品初成
+    start_date: 0115-01-01
+    highlight_event_id: guji-法胜-event-compose
+  - key: climax
+    name: 成行作业使四品
+    labels:
+      zh: 心论四品具足
+    start_date: 0120-01-01
+    highlight_event_id: guji-法胜-event-compose
+  - key: closure
+    name: 付嘱门人传持
+    labels:
+      zh: 传持流通
+    start_date: 0130-01-01
+    highlight_event_id: guji-法胜-event-teach
+  decisions:
+  - date: 0115-01-01
+    title_zh: 以偈摄义便记持
+    rationale: 毗婆沙文广义散故以偈定相以说释偈令初学易入
+  - date: 0120-01-01
+    title_zh: 先明界次明行次明业次明使
+    rationale: 先示法体次示心俱次示造业次示随眠顺观行次第故
+- id: guji-法胜-endeavor-2
+  title_zh: 北天竺弘传毗昙正理
+  summary_zh: 依心论讲辨三世有破断常见开后学论争之端
+  phases:
+  - key: brewing
+    name: 徒众集议论场
+    labels:
+      zh: 聚徒讲习
+    start_date: 0125-01-01
+    highlight_event_id: guji-法胜-event-teach
+  - key: breakthrough
+    name: 折伏外道断见
+    labels:
+      zh: 立有破无
+    start_date: 0130-01-01
+    highlight_event_id: guji-法胜-event-teach
+  - key: closure
+    name: 心论北传渐盛
+    labels:
+      zh: 论风远播
+    start_date: 0140-01-01
+    highlight_event_id: guji-法胜-event-teach
+  decisions:
+  - date: 0130-01-01
+    title_zh: 坚持三世实有兼明因缘和合
+    rationale: 若无法体则因果不成若无和合则堕常故立自性摄而缘生
+  - date: 0140-01-01
+    title_zh: 令门人诵持流通不立高门
+    rationale: 欲令边地亦得法利故不秘不藏广付嘱故
+events:
+- id: guji-法胜-event-birth
+  title_zh: 法胜诞生北天竺
+  date: 0080-01-01
+  year_of: 8080
+  place_zh: 北天竺
+  type: birth
+- id: guji-法胜-event-study
+  title_zh: 研习毗昙通三藏
+  date: 0100-01-01
+  year_of: 100
+  place_zh: 罽宾
+  type: study
+  endeavor_ref: guji-法胜-endeavor-1
+- id: guji-法胜-event-compose
+  title_zh: 造阿毗昙心论界行作业使四品
+  date: 0120-01-01
+  year_of: 120
+  place_zh: 北天竺
+  type: work
+  endeavor_ref: guji-法胜-endeavor-1
+- id: guji-法胜-event-teach
+  title_zh: 弘讲心论辩正理
+  date: 0130-01-01
+  year_of: 130
+  place_zh: 北天竺
+  type: teach
+  endeavor_ref: guji-法胜-endeavor-2
+- id: guji-法胜-event-death
+  title_zh: 法胜入灭论风存
+  date: 0150-01-01
+  year_of: 150
+  place_zh: 北天竺
+  type: death
