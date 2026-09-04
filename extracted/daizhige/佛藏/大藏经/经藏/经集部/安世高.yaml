@@ -6,131 +6,136 @@ person:
     en: An Shigao
   lifespan:
     birth:
-      date: '0100-01-01'
+      date: ~0100
       precision: year
       is_circa: true
-      raw: 后汉约生于安息国
+      raw: 约汉顺帝时生于安息国王家
     death:
-      date: '0168-01-01'
+      date: ~0168
       precision: year
       is_circa: true
-      raw: 汉灵帝建宁年间卒
-  birth_date: '0100-01-01'
-  death_date: '0168-01-01'
+      raw: 约汉灵帝初卒于广州
+  birth_date: ~0100
+  death_date: ~0168
   era: 东汉
-  reign_ref: 汉桓帝至汉灵帝
+  reign_ref: 汉桓帝建和至汉灵帝建宁
   archetype: 译经弘法者
   dilemmas:
-  - 安息荣华与出家求道之择
-  - 异域语言隔阂与译经传法之难
-  - 世人贪淫嗔痴与守意出离之教
-  lesson: 守意一日胜造百寺，断贪嗔痴，勤修善本，方得出离生死。
-  summary_first_person: 吾本安息国人，舍王位而入道，远涉洛阳，译经弘化，教人守意为要，断恶修善，以求泥洹。
+  - 舍弃安息王位继承与安逸，抉择出家远行弘法
+  - 华梵悬隔文义难通，抉择质朴直译以存经义
+  lesson: 弹指思惟死想亦是精进，舍位译经以续慧命
+  summary_first_person: 吾本安息太子，舍国出家，博通三藏，汉桓帝建和二年至洛阳，译禅行法想等经，教人弹指间观死无常不净以断放逸，后南游会稽广州偿宿业而终
   source_urls:
-  - https://cbetaonline.dila.edu.tw/zh/T0732
-  - https://daizhige.org/
+  - https://daizhige.org/zh-hans/fozang/dazangjing/jingzang/jingjibu/chanxingfaxiangjing.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/fozang/dazangjing/jingzang/jingjibu/chanxingfaxiangjing.md
+  - https://cbetaonline.dila.edu.tw/T0605
 endeavors:
 - id: guji-安世高-endeavor-1
-  title_zh: 远涉洛阳开译经之业
-  summary: 舍安息王位，出家习禅，汉桓帝时至洛阳，译经弘化，开汉地译经之先。
+  title_zh: 洛阳开创汉译佛典
+  summary: 建和二年来洛阳，二十余年译出安般守意阴持入等人事诸经，奠定汉地译经体例
   phases:
   - key: brewing
-    name: 安息出家习禅
+    name: 安息王族出家学三藏
     labels:
       zh:
-      - 出家习禅
-    start_date: '0100-01-01'
+      - 修学
+    start_date: ~0120
     highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 远来洛阳
+    name: 建和二年抵达洛阳
     labels:
       zh:
-      - 远涉弘化
-    start_date: '0148-01-01'
-    highlight_event_id: guji-安世高-event-arrive
+      - 东来
+    start_date: 0148
+    highlight_event_id: guji-安世高-event-arrive-luoyang
   - key: climax
-    name: 洛阳译经授学
+    name: 洛阳译经二十余年
     labels:
       zh:
-      - 译经授学
-    start_date: '0150-01-01'
-    highlight_event_id: guji-安世高-event-translate
+      - 译经
+    start_date: 0149
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: closure
-    name: 化缘广布南行
+    name: 关洛纷扰发心南游
     labels:
       zh:
-      - 南行化缘
-    start_date: '0160-01-01'
-    highlight_event_id: guji-安世高-event-death
+      - 南游
+    start_date: ~0165
+    highlight_event_id: guji-安世高-event-go-south
   decisions:
-  - date: '0148-01-01'
-    title_zh: 舍国远来汉地
-    rationale: 为传佛法不恋王位，愿以译经度脱汉土众生
-  - date: '0150-01-01'
-    title_zh: 定居洛阳专事译经
-    rationale: 汉地初闻大法，需依汉语传禅数守意之要
+  - date: 0148
+    title_zh: 舍王位东来汉地
+    rationale: 为避王位争夺延续法命，愿以译经弘法报佛恩
+  - date: 0149
+    title_zh: 采取质朴直译体例
+    rationale: 为存梵义不失经旨，宁辞质而义全，不饰文而害义
 - id: guji-安世高-endeavor-2
-  title_zh: 宣说骂意守意断恶
-  summary: 译说骂意经，明守意功德，示淫杀罪报，教人断五阴五魔，求出三界。
+  title_zh: 传授禅数观想法门
+  summary: 译传禅行法想经等，教导弹指间思惟死想无常不净空无我，开启汉地小乘禅观之源
   phases:
   - key: brewing
-    name: 观察汉人贪淫多罪
+    name: 精研安般数息禅法
     labels:
       zh:
-      - 观察根机
-    start_date: '0149-01-01'
-    highlight_event_id: guji-安世高-event-arrive
+      - 禅修
+    start_date: ~0135
+    highlight_event_id: guji-安世高-event-birth
   - key: breakthrough
-    name: 译出骂意经
+    name: 译出禅行法想经
     labels:
       zh:
-      - 译说骂意
-    start_date: '0152-01-01'
-    highlight_event_id: guji-安世高-event-translate
+      - 传禅
+    start_date: ~0150
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: climax
-    name: 开示守意三毒因果
+    name: 舍卫祇园开示弹指精进
     labels:
       zh:
-      - 守意断恶
-    start_date: '0155-01-01'
-    highlight_event_id: guji-安世高-event-teach
+      - 弘法
+    start_date: ~0152
+    highlight_event_id: guji-安世高-event-translate-chanxing
   - key: closure
-    name: 付嘱奉行流通后世
+    name: 南土化度偿业示现因果
     labels:
       zh:
-      - 付嘱流通
-    start_date: '0165-01-01'
-    highlight_event_id: guji-安世高-event-death
+      - 示现
+    start_date: ~0166
+    highlight_event_id: guji-安世高-event-go-south
   decisions:
-  - date: '0152-01-01'
-    title_zh: 择译骂意切要之经
-    rationale: 汉人初机多犯淫杀，当先示罪福守意之要以止恶
-  - date: '0155-01-01'
-    title_zh: 广说善恶父母三界出要
-    rationale: 欲令学者识善恶本末，断贪嗔痴，志求无为泥洹
+  - date: ~0150
+    title_zh: 先译禅观小经接引初机
+    rationale: 汉人初闻大法难信，先以死想无常等易行之观令生厌离
+  - date: ~0166
+    title_zh: 知宿怨在广州仍决然南行
+    rationale: 明了因果不昧，愿亲身偿宿债以示业报不爽
 events:
 - id: guji-安世高-event-birth
-  date: '0100-01-01'
+  title_zh: 生于安息国王家
+  date: ~0100
   year_of: 100
-  title_zh: 生于安息国
-  description: 安息国王族，正统太子，后出家学道
-- id: guji-安世高-event-arrive
-  date: '0148-01-01'
+  place_zh: 安息国
+  summary: 安息国太子，名清，字世高，幼聪慧，博通典籍与三藏
+- id: guji-安世高-event-arrive-luoyang
+  title_zh: 建和二年至洛阳
+  date: 0148
   year_of: 148
-  title_zh: 至洛阳弘化
-  description: 汉桓帝建和二年左右抵洛阳，通习汉语，开始译经
-- id: guji-安世高-event-translate
-  date: '0152-01-01'
-  year_of: 152
-  title_zh: 译出骂意经等
-  description: 译佛说骂意经，明犯淫五罪杀生九辈，叹守意一日之福难量
-- id: guji-安世高-event-teach
-  date: '0155-01-01'
-  year_of: 155
-  title_zh: 开示守意出三界
-  description: 说五魔五嫉四意止及三界出要，教众断五阴守意求脱
+  place_zh: 洛阳
+  summary: 汉桓帝建和二年抵洛阳，通华言，开始译经弘法
+- id: guji-安世高-event-translate-chanxing
+  title_zh: 译出禅行法想经
+  date: ~0150
+  year_of: 150
+  place_zh: 洛阳
+  summary: 译出禅行法想经，宣说弹指间思惟死想不净无常苦空无我等为精进行禅
+- id: guji-安世高-event-go-south
+  title_zh: 避乱南游会稽广州
+  date: ~0166
+  year_of: 166
+  place_zh: 会稽
+  summary: 关洛扰乱，南游会稽广州弘化，随缘度众
 - id: guji-安世高-event-death
-  date: '0168-01-01'
+  title_zh: 卒于广州
+  date: ~0168
   year_of: 168
-  title_zh: 卒于江南会稽
-  description: 传云南行度化，终于会稽，译经三十余部，惠泽后世
+  place_zh: 广州
+  summary: 于广州遇前世怨家，坦然偿宿业，示现因果而卒
