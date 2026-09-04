@@ -6,132 +6,135 @@ person:
     en: Xuanzang
   lifespan:
     birth:
-      date: '0602'
-      precision: year
+      date: '0602-04-06'
+      precision: day
       is_circa: false
-      raw: 隋仁寿二年
+      raw: 隋仁寿二年洛州缑氏
     death:
       date: '0664-03-07'
       precision: day
       is_circa: false
-      raw: 麟德元年二月五日
-  birth_date: '0602'
+      raw: 唐麟德元年长安玉华宫
+  birth_date: '0602-04-06'
   death_date: '0664-03-07'
-  era: 唐
-  reign_ref: 贞观
-  archetype: 求法译师
+  era: 隋唐
+  reign_ref: 隋仁寿至唐麟德贞观永徽显庆龙朔麟德
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 中夏法理已遍研精而唯识深旨未明当安往求决
-  - 大译真经广翻正论而髻珠秘义传非其人当独训与普授
-  lesson: 穷源究理西行求证东归糅译方能圆明唯识利乐弘多
-  summary_first_person: 我幼出家志高世表拂衣东夏杖锡西天博访穷通归译唯识愿令有情依唯识教悟唯识理行唯识行得唯识果
+  - 发愿西行求法与安住弘化之间抉择艰难
+  - 经论浩繁翻译弘通与持斋念佛摄机之间取舍不易
+  lesson: 以持斋念佛忏悔洗心以信愿往生导归极乐自利利他同出苦门
+  summary_first_person: 吾幼慕释典西行求法归而译经又奉敕抄集佛名颁行诸州劝五浊世人持斋念佛礼忏除罪愿共往生安乐国
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E5%94%AF%E8%AF%86%E4%B8%89%E5%8D%81%E8%AE%BA%E8%A6%81%E9%87%8A.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E5%94%AF%E8%AF%86%E4%B8%89%E5%8D%81%E8%AE%BA%E8%A6%81%E9%87%8A.md
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E6%8C%81%E6%96%8B%E5%BF%B5%E4%BD%9B%E5%BF%8F%E6%82%94%E7%A4%BC%E6%96%87.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%AD%E8%97%8F/%E5%8F%A4%E9%80%B8%E9%83%A8/%E6%8C%81%E6%96%8B%E5%BF%B5%E4%BD%9B%E5%BF%8F%E6%82%94%E7%A4%BC%E6%96%87.md
 endeavors:
 - id: guji-玄奘-endeavor-1
-  title_zh: 杖锡西天博访经诘
-  summary: 中夏遍研后拂衣东夏周游道邦穷谬通闻名立义成归本土
+  title_zh: 西行求法归国译经
+  description: 发愿西行历艰辛求得真经归国主持译场弘扬正法
   phases:
   - key: brewing
-    name: 中夏遍研志求他方
+    name: 发愿西行
     labels:
-      zh: 求法
-    start_date: '0626'
+      zh:
+      - 发愿求法
+    start_date: '0629-08-01'
     highlight_event_id: guji-玄奘-event-xixing
   - key: breakthrough
-    name: 拂衣东夏杖锡西天
+    name: 取经归国
     labels:
-      zh: 西行
-    start_date: 0629
-    highlight_event_id: guji-玄奘-event-xixing
+      zh:
+      - 取经归国
+    start_date: '0645-02-15'
+    highlight_event_id: guji-玄奘-event-yijing
   - key: climax
-    name: 周游道邦博访穷通
+    name: 主持译经
     labels:
-      zh: 访学
-    start_date: '0630'
-    highlight_event_id: guji-玄奘-event-qiufa
+      zh:
+      - 译经弘化
+    start_date: '0646-06-01'
+    highlight_event_id: guji-玄奘-event-yijing
   - key: closure
-    name: 名立义成来归本土
+    name: 译业圆满
     labels:
-      zh: 东归
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-donggui
+      zh:
+      - 译业圆满
+    start_date: '0663-10-01'
+    highlight_event_id: guji-玄奘-event-death
   decisions:
-  - date: 0629
+  - date: '0629-08-01'
     title_zh: 决意西行求法
-    rationale: 中夏法理已遍研精他方教迹未就寻究故往西天究唯识深旨
-  - date: '0645'
-    title_zh: 决意东归传译
-    rationale: 名立义成道蕴西域未布东华故归土请为国师广翻
+    rationale: 以中土经阙疑义难决故冒艰险西行求取真经以正视听
+  - date: '0645-02-15'
+    title_zh: 归国奏请译经
+    rationale: 以所获经论浩博须官助译场方可速翻弘通以利众生
 - id: guji-玄奘-endeavor-2
-  title_zh: 慈恩玉华译传唯识
-  summary: 初于慈恩译本颂后于玉华翻释论糅十释为一本独训斯旨
+  title_zh: 抄集佛名弘持斋念佛忏悔礼
+  description: 奉敕抄集佛名颁行诸州撰集每月礼法与十斋日持斋念佛忏悔礼文劝生极乐
   phases:
   - key: brewing
-    name: 请为国师大译真经
+    name: 抄集佛名
     labels:
-      zh: 译经
-    start_date: '0645'
-    highlight_event_id: guji-玄奘-event-donggui
+      zh:
+      - 抄集佛名
+    start_date: '0650-01-10'
+    highlight_event_id: guji-玄奘-event-chaofo
   - key: breakthrough
-    name: 贞观二十二年慈恩译颂
+    name: 颁行诸州
     labels:
-      zh: 译颂
-    start_date: 0648
-    highlight_event_id: guji-玄奘-event-yisong
+      zh:
+      - 颁行弘通
+    start_date: '0650-06-01'
+    highlight_event_id: guji-玄奘-event-chaofo
   - key: climax
-    name: 显庆末年玉华翻释论
+    name: 弘演十斋念佛
     labels:
-      zh: 翻释
-    start_date: '0660'
-    highlight_event_id: guji-玄奘-event-fanshi
+      zh:
+      - 持斋念佛
+    start_date: '0651-01-01'
+    highlight_event_id: guji-玄奘-event-shizhai
   - key: closure
-    name: 糅成一本独训慈恩
+    name: 劝愿往生
     labels:
-      zh: 糅译
-    start_date: '0661'
-    highlight_event_id: guji-玄奘-event-fanshi
+      zh:
+      - 往生安乐
+    start_date: '0651-06-01'
+    highlight_event_id: guji-玄奘-event-shizhai
   decisions:
-  - date: 0648
-    title_zh: 先译三十颂本
-    rationale: 唯识深义秘同髻珠故先示颂文略申自宗后方广释
-  - date: '0660'
-    title_zh: 糅十释成一本
-    rationale: 初翻十释别行咨请繁多故包含名相该罗邪正取正义释颂
+  - date: '0650-01-10'
+    title_zh: 抄集佛名颁下诸州
+    rationale: 愍五浊恶世罪重难脱故略出十二月礼法依时礼拜除劫数罪
+  - date: '0651-01-01'
+    title_zh: 制定十斋持斋念佛
+    rationale: 以每月恶日神明察命故令持斋念佛不堕地狱并劝专心念佛往生安乐
 events:
 - id: guji-玄奘-event-birth
-  title_zh: 幼小出家志高世表
-  date: '0602'
+  date: '0602-04-06'
   year_of: 602
-  description: 幼小出家师无远近业该内外中夏法理遍研精
+  title_zh: 玄奘诞生
+  description: 隋仁寿二年生于洛州缑氏幼聪慧慕释典
 - id: guji-玄奘-event-xixing
-  title_zh: 拂衣东夏杖锡西天
-  date: 0629
+  date: '0629-08-01'
   year_of: 629
-  description: 贞观初拂衣东夏杖锡西天周游道邦博访经诘
-- id: guji-玄奘-event-qiufa
-  title_zh: 穷谬通闻名立义成
-  date: '0637'
-  year_of: 637
-  description: 穷先贤之谬见通古德之未闻于唯识中边瑜伽等义名立义成
-- id: guji-玄奘-event-donggui
-  title_zh: 来归本土请为国师
-  date: '0645'
+  title_zh: 发愿西行求法
+  description: 当贞观初年决意西行历沙漠险道往天竺求法
+- id: guji-玄奘-event-yijing
+  date: '0645-02-15'
   year_of: 645
-  description: 来归本土唐先帝请为国师大译真经广翻正论
-- id: guji-玄奘-event-yisong
-  title_zh: 慈恩寺译唯识三十颂
-  date: 0648
-  year_of: 648
-  description: 贞观二十二年在慈恩寺译斯本颂以三十颂显唯识理
-- id: guji-玄奘-event-fanshi
-  title_zh: 玉华宫寺翻释论糅成一本
-  date: '0660'
-  year_of: 660
-  description: 显庆末年在坊州玉华宫寺翻释论初十释别行后糅成一本独训慈恩
+  title_zh: 归国主持译经
+  description: 贞观十九年归长安奏请译经主持译场翻传经论弘化四方
+- id: guji-玄奘-event-chaofo
+  date: '0650-01-10'
+  year_of: 650
+  title_zh: 抄集佛名颁行诸州
+  description: 抄此佛名颁下诸州定正月至十二月逐月礼拜方位时节拜数以除罪劫
+- id: guji-玄奘-event-shizhai
+  date: '0651-01-01'
+  year_of: 651
+  title_zh: 弘演十斋念佛往生礼
+  description: 略出每月十斋日持斋念佛不堕诸狱并劝专心念阿弥陀佛愿共往生安乐国
 - id: guji-玄奘-event-death
-  title_zh: 示寂玉华
   date: '0664-03-07'
   year_of: 664
-  description: 示寂于玉华译业圆满唯识深旨已布东华
+  title_zh: 玄奘圆寂
+  description: 麟德元年寂于玉华宫世寿六十三生平译经弘法功德圆满
