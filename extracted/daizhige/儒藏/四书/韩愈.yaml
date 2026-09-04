@@ -1,0 +1,130 @@
+person:
+  qid: guji-韩愈
+  name_zh: 韩愈
+  names:
+    zh: 韩愈
+    en: Han Yu
+  lifespan:
+    birth:
+      date: 0768
+      precision: year
+      is_circa: false
+      raw: 唐大历三年
+    death:
+      date: '0824-12-25'
+      precision: day
+      is_circa: false
+      raw: 唐长庆四年十二月初二
+  birth_date: 0768
+  death_date: '0824-12-25'
+  era: 唐
+  reign_ref: 唐德宗至穆宗
+  archetype: 弘道文师
+  dilemmas:
+  - 章句繁阔罕造其精与窥圣堂奥究极精微之辨
+  - 谦述守旧与立言明道之间自处之难
+  lesson: 原道明诚以文载道经解当究大义而非滞于章句
+  summary_first_person: 吾少习儒学长而明道见汉魏注集繁而失精遂与习之切磨论语大义作注十卷复有简端记录别为笔解以广圣蕴虽手迹微茫而弘道之志不改
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD%E7%AC%94%E8%A7%A3.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%9B%9B%E4%B9%A6/%E8%AE%BA%E8%AF%AD%E7%AC%94%E8%A7%A3.html
+endeavors:
+- id: guji-韩愈-endeavor-1
+  title_zh: 作论语注十卷阐圣道
+  summary: 与李翱切磨大义作论语注十卷以正先儒之失窥圣堂奥
+  phases:
+  - key: brewing
+    name: 早年习儒志圣学
+    labels:
+      zh:
+      - 习儒
+    start_date: 0785
+    highlight_event_id: guji-韩愈-event-birth
+  - key: breakthrough
+    name: 示翱大义交相辨
+    labels:
+      zh:
+      - 切磨
+    start_date: 0810
+    highlight_event_id: guji-韩愈-event-zhushu
+  - key: climax
+    name: 论语注十卷成
+    labels:
+      zh:
+      - 成注
+    start_date: 0817
+    highlight_event_id: guji-韩愈-event-zhushu
+  - key: closure
+    name: 手迹微茫传后世
+    labels:
+      zh:
+      - 流传
+    start_date: 0824
+    highlight_event_id: guji-韩愈-event-death
+  decisions:
+  - date: 0810
+    title_zh: 先示大义令翱从而明辨
+    rationale: 非独韩制此书必交相发明方能窥圣堂奥而免章句之蔽
+  - date: 0817
+    title_zh: 以反本要终释复以制中释礼
+    rationale: 先儒训释多失本旨当正昼为画尔为尔之类以还经义精微
+- id: guji-韩愈-endeavor-2
+  title_zh: 简端别录为笔解二卷
+  summary: 注时简端记录与翱附论后人采注外所未载别录为笔解二卷流传
+  phases:
+  - key: brewing
+    name: 简端随笔记大义
+    labels:
+      zh:
+      - 笔记
+    start_date: 0815
+    highlight_event_id: guji-韩愈-event-zhushu
+  - key: breakthrough
+    name: 翱附论其间相发明
+    labels:
+      zh:
+      - 附论
+    start_date: 0819
+    highlight_event_id: guji-韩愈-event-zhushu
+  - key: climax
+    name: 后人采摭别为二卷
+    labels:
+      zh:
+      - 别录
+    start_date: 0822
+    highlight_event_id: guji-韩愈-event-bijie
+  - key: closure
+    name: 范许刻本广其传
+    labels:
+      zh:
+      - 刊传
+    start_date: 0824
+    highlight_event_id: guji-韩愈-event-bijie
+  decisions:
+  - date: 0819
+    title_zh: 存翱曰以别韩曰明非独制
+    rationale: 齐鲁门人所记已有同异汉魏注繁更须两家勤拳互相质证明辨本原
+  - date: 0822
+    title_zh: 听后人采注外之文别行
+    rationale: 正注已成而遗说尚有精义如程易遗书朱诗遗说之例当别录以广传
+events:
+- id: guji-韩愈-event-birth
+  title_zh: 诞生于河阳
+  date: 0768
+  year_of: 768
+  description: 唐大历三年生于河阳韩氏
+- id: guji-韩愈-event-zhushu
+  title_zh: 与李翱切磨作论语注
+  date: 0817
+  year_of: 817
+  description: 与李翱切磨大义作论语注十卷示翱大义交相明辨
+- id: guji-韩愈-event-bijie
+  title_zh: 简端记录别为笔解二卷
+  date: 0822
+  year_of: 822
+  description: 注时尚有简端记录翱附论其间后人采注外所未载别录为笔解二卷
+- id: guji-韩愈-event-death
+  title_zh: 卒于长安
+  date: '0824-12-25'
+  year_of: 824
+  description: 唐长庆四年十二月初二卒于长安年五十七

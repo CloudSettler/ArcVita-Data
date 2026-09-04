@@ -1,0 +1,145 @@
+person:
+  qid: guji-陈士元
+  name_zh: 陈士元
+  names:
+    zh: 陈士元
+    en: Chen Shiyuan
+  lifespan:
+    birth:
+      date: 1514
+      precision: year
+      is_circa: true
+      raw: 明正德前后生于湖广应城
+    death:
+      date: 1590
+      precision: year
+      is_circa: true
+      raw: 约万历中卒
+  birth_date: 1514
+  death_date: 1590
+  era: 明
+  reign_ref: 嘉靖
+  archetype: 经学考证者
+  dilemmas:
+  - 幼习论语而从政为邦则视为筌蹄不复省览
+  - 笃信朱子而于集注承用旧文偶失驳正者不敢苟同
+  - 明代解经多浮谈杜撰而名物典故缺乏根柢
+  lesson: 考名物典故以明经义搜讨群书互相参订不为苟同
+  summary_first_person: 予病学子幼承斯业及从政则目为筌蹄乃著此编贮之右塾凡二十卷为类十八目四百九十四以明洙泗为仁之方
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/RuZang/SiShu/LunYuLeiKao.md
+  - https://daizhige.org/RuZang/SiShu/LunYuLeiKao.html
+endeavors:
+- id: guji-陈士元-endeavor-1
+  person_id: guji-陈士元
+  title_zh: 编纂论语类考二十卷
+  summary_zh: 分十八门四百九十四目考论语名物典故遵金履祥之例于集注不苟同以元案别之
+  phases:
+  - key: brewing
+    name: 幼习论语病筌蹄之学
+    labels:
+      zh: 酝酿
+    start_date: 1532
+    highlight_event_id: guji-陈士元-event-jinshi
+  - key: breakthrough
+    name: 搜讨群书立元案之例
+    labels:
+      zh: 突破
+    start_date: 1550
+    highlight_event_id: guji-陈士元-event-lunyu
+  - key: climax
+    name: 嘉靖庚申序成二十卷
+    labels:
+      zh: 高潮
+    start_date: 1560-10-01
+    highlight_event_id: guji-陈士元-event-lunyu
+  - key: closure
+    name: 以考据明经义垂右塾
+    labels:
+      zh: 收束
+    start_date: 1561
+    highlight_event_id: guji-陈士元-event-lunyu
+  decisions:
+  - date: 1550
+    title_zh: 遵履祥例不苟同集注
+    rationale: 集注承用旧文偶失驳正须搜讨诸书互相参订以元案别之
+  - date: 1560-10-01
+    title_zh: 专考论语成十八类
+    rationale: 不备四书而纠杜撰浮谈如有若字子有之类务求根柢以明一贯为仁之方
+- id: guji-陈士元-endeavor-2
+  person_id: guji-陈士元
+  title_zh: 易象钩解与经世为邦
+  summary_zh: 由进士出身从政为邦兼治易象推明治历明时裁成辅相之功
+  phases:
+  - key: brewing
+    name: 应城力学举进士
+    labels:
+      zh: 酝酿
+    start_date: 1532
+    highlight_event_id: guji-陈士元-event-jinshi
+  - key: breakthrough
+    name: 著易象钩解别著录
+    labels:
+      zh: 突破
+    start_date: 1555
+    highlight_event_id: guji-陈士元-event-yixiang
+  - key: climax
+    name: 以夏时历数明天道人道
+    labels:
+      zh: 高潮
+    start_date: 1560
+    highlight_event_id: guji-陈士元-event-lunyu
+  - key: closure
+    name: 经学相贯垂四库著录
+    labels:
+      zh: 收束
+    start_date: 1561
+    highlight_event_id: guji-陈士元-event-yixiang
+  decisions:
+  - date: 1532
+    title_zh: 由经术登科从政
+    rationale: 明兴设科七义论语居先欲以经义施为邦之用不终身违之
+  - date: 1555
+    title_zh: 先治易象再考论语
+    rationale: 天象历数时令为经义之本须明五行时变而后可论为邦行夏之时
+events:
+- id: guji-陈士元-event-birth
+  person_id: guji-陈士元
+  type: birth
+  title_zh: 生于湖广应城
+  date: 1514
+  year_of: 1514
+  place_zh: 湖广应城
+  summary_zh: 明正德前后生于应城陈氏幼即承论语之业
+  is_circa: true
+- id: guji-陈士元-event-jinshi
+  person_id: guji-陈士元
+  type: career
+  title_zh: 嘉靖中举进士从政
+  date: 1532
+  year_of: 1532
+  place_zh: 京师
+  summary_zh: 嘉靖十一年登进士第后从政为邦目击士子视论语为筌蹄遂萌考订之志
+- id: guji-陈士元-event-yixiang
+  person_id: guji-陈士元
+  type: career
+  title_zh: 著易象钩解
+  date: 1555
+  year_of: 1555
+  summary_zh: 撰易象钩解别著录推明治历明时之学为论语类考天象时令考之本
+- id: guji-陈士元-event-lunyu
+  person_id: guji-陈士元
+  type: career
+  title_zh: 论语类考序成
+  date: 1560-10-01
+  year_of: 1560
+  place_zh: 右塾
+  summary_zh: 嘉靖三十九年庚申冬十月朔日序论语类考凡二十卷十八类四百九十四目贮之右塾
+- id: guji-陈士元-event-death
+  person_id: guji-陈士元
+  type: death
+  title_zh: 万历中卒
+  date: 1590
+  year_of: 1590
+  summary_zh: 万历年间卒其书后入四库经部八四书类存根柢之学
+  is_circa: true
