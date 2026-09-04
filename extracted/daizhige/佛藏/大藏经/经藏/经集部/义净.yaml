@@ -9,153 +9,120 @@ person:
       date: '0635'
       precision: year
       is_circa: false
-      raw: 唐太宗贞观九年
+      raw: 唐贞观九年齐州出生
     death:
       date: '0713'
       precision: year
       is_circa: false
-      raw: 唐玄宗先天二年
+      raw: 唐开元元年长安圆寂
   birth_date: '0635'
   death_date: '0713'
   era: 唐
-  reign_ref: 武周
-  archetype: 取经译师
+  reign_ref: 唐高宗咸亨至玄宗开元
+  archetype: 西行求法译经高僧
   dilemmas:
-  - 万里泛海求法生死未卜，安居中土弘化稳妥易行，何去何从
-  - 梵汉悬隔义理幽深，奉制翻译务求信达，如何权衡取舍
-  lesson: 得暇人身逢佛出世闻法，宜勤策三业修善，勿堕八无暇而空过
-  summary_first_person: 吾名义净，齐州人，髫年出家，慕法显玄奘西行，泛海至印度那烂陀学律习经，归国奉制译经，译出八无暇有暇经，劝勉大众识暇与无暇，勤修正行以趣菩提
+  - title_zh: 空业之问如何开解
+    description: 影胜王问业已灭坏临终云何现前法体本空业报何故不失须以梦喻善巧分别
+  - title_zh: 安居与远行何从
+    description: 在唐安居讲律易得名位泛海万里九死一生为求正法当往不当往
+  lesson: 诸法唯假名性空而业果相续不失当离执著勤修净行
+  summary_first_person: 吾齐州义净也幼出家慕西行之志泛南海至天竺求律归而奉制译经此经梦喻正为破常见断见令知业果不虚耳
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E6%97%A0%E6%9A%87%E6%9C%89%E6%9A%87%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%85%AB%E6%97%A0%E6%9A%87%E6%9C%89%E6%9A%87%E7%BB%8F.md
-  - https://tripitaka.cbeta.org/T07n0756
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E6%B5%81%E8%BD%AC%E8%AF%B8%E6%9C%89%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E5%A4%A7%E4%B9%98%E6%B5%81%E8%BD%AC%E8%AF%B8%E6%9C%89%E7%BB%8F.md
 endeavors:
 - id: guji-义净-endeavor-1
-  title_zh: 西行求法
-  summary: 咸亨二年自广州泛海赴印度，历室利佛逝诸国，至那烂陀学律习经，滞印二十余年携梵本归国
+  title_zh: 南海西行求法取经
+  summary: 咸亨二年自广州泛海历室利佛逝至那烂陀留学取律藏梵本二十余年而归
   phases:
   - key: brewing
-    name: 齐州出家立志慕西
+    name: 发愿泛海西行
     labels:
-      zh:
-      - 蓄势
-      - 立志求法
-    start_date: 0648
-    highlight_event_id: guji-义净-event-birth
-  - key: breakthrough
-    name: 广州泛海启程西行
-    labels:
-      zh:
-      - 突破
-      - 泛海西行
+      zh: 西行发愿
     start_date: '0671'
-    highlight_event_id: guji-义净-event-xixing
+    highlight_event_id: guji-义净-event-sea
+  - key: breakthrough
+    name: 那烂陀留学学律
+    labels:
+      zh: 留学取经
+    start_date: '0673'
+    highlight_event_id: guji-义净-event-study
   - key: climax
-    name: 那烂陀从师学律
+    name: 携经东归洛阳
     labels:
-      zh:
-      - 高峰
-      - 学律习经
-    start_date: 0680
-    highlight_event_id: guji-义净-event-qiufa
-  - key: closure
-    name: 携经归国洛阳
-    labels:
-      zh:
-      - 收束
-      - 归国献经
+      zh: 携经东归
     start_date: 0695
-    highlight_event_id: guji-义净-event-guiguo
+    highlight_event_id: guji-义净-event-return
   decisions:
   - date: '0671'
-    title_zh: 决意泛海西行
-    rationale: 慕法显玄奘遗风，不畏海途险远，为求律本广利末法，故舍安稳而就艰危
-  - date: 0680
-    title_zh: 留学那烂陀专攻律部
-    rationale: 见中土律藏未备，欲正僧制弘范，故久住从师，穷究有部律学
+    title_zh: 决定自广州泛海不走陆路
+    rationale: 陆路阻绝海路可通室利佛逝欲速求梵本兼观南海诸国佛法
+  - date: 0685
+    title_zh: 决定寄经归国暂留室利佛逝著述
+    rationale: 所得经律甚多海舶难载先托归以免散失兼著寄归传存南海见闻
 - id: guji-义净-endeavor-2
-  title_zh: 奉制译经弘法
-  summary: 归国后奉武后及中宗睿宗敕命主持译场，译出根本说一切有部律及大孔雀经等，兼译八无暇有暇经劝修有暇
+  title_zh: 奉制译经弘传大乘
+  summary: 归唐后奉武后玄宗之制于洛阳长安译出根本说一切有部律及大乘流转诸有经等五六十部
   phases:
   - key: brewing
-    name: 洛阳奉敕入译场
+    name: 入朝奉制入译场
     labels:
-      zh:
-      - 蓄势
-      - 奉敕翻译
-    start_date: 0695
-    highlight_event_id: guji-义净-event-guiguo
+      zh: 奉制译经
+    start_date: 0696
+    highlight_event_id: guji-义净-event-return
   - key: breakthrough
-    name: 主持译场立例翻经
+    name: 译出流转诸有经
     labels:
-      zh:
-      - 突破
-      - 译场规模
-    start_date: '0700'
-    highlight_event_id: guji-义净-event-yichang
-  - key: climax
-    name: 译出八无暇有暇经
-    labels:
-      zh:
-      - 高峰
-      - 劝修有暇
+      zh: 梦喻业果
     start_date: '0703'
-    highlight_event_id: guji-义净-event-bawuxia
+    highlight_event_id: guji-义净-event-translate
   - key: closure
     name: 长安圆寂译业告成
     labels:
-      zh:
-      - 收束
-      - 圆寂长安
+      zh: 圆寂收束
     start_date: '0713'
     highlight_event_id: guji-义净-event-death
   decisions:
-  - date: 0695
-    title_zh: 专事翻译不复远游
-    rationale: 感国恩弘护，念中土亟需律典正行，遂舍游方而就笔受，以译业报佛恩
+  - date: 0696
+    title_zh: 决定应制入译场专弘律藏兼传大乘
+    rationale: 朝廷崇佛译场需主持律范以律摄僧兼以大乘空有之旨化导时俗
   - date: '0703'
-    title_zh: 别译八无暇以警策时众
-    rationale: 见世人寡闻不识暇满，欲令知八难处难闻法，得暇者勤修善品，故以浅近开示分别演说
+    title_zh: 决定先译大乘流转诸有经明业果
+    rationale: 影胜王所问切中俗惑以梦中美女喻前识灭后识生业果不失最能破执故优先译出
 events:
 - id: guji-义净-event-birth
-  title_zh: 生于齐州
+  title_zh: 齐州出生出家
   date: '0635'
   year_of: 635
-  location_zh: 齐州
-  description: 唐太宗贞观九年生于齐州，幼颖悟，七岁出家，遍习经律
-- id: guji-义净-event-xixing
-  title_zh: 自广州泛海赴印度
+  place_zh: 齐州
+  description: 唐贞观九年生于齐州少出家长安受具慕法显玄奘之风
+- id: guji-义净-event-sea
+  title_zh: 广州泛海西行
   date: '0671'
   year_of: 671
-  location_zh: 广州
-  description: 唐高宗咸亨二年，自广州乘舶南行，经室利佛逝，历险赴印度求法
-- id: guji-义净-event-qiufa
-  title_zh: 那烂陀学法
-  date: 0680
-  year_of: 680
-  location_zh: 中印度那烂陀寺
-  description: 居那烂陀从师研习有部律及大乘经论，兼游中西印度圣迹，淹留多年
-- id: guji-义净-event-guiguo
-  title_zh: 携梵本归国洛阳
+  place_zh: 广州
+  description: 咸亨二年自广州乘舶泛南海经室利佛逝往天竺求法
+- id: guji-义净-event-study
+  title_zh: 那烂陀留学学律
+  date: '0673'
+  year_of: 673
+  place_zh: 中天竺那烂陀寺
+  description: 抵那烂陀从师习梵语律论十年尽得根本说一切有部之传
+- id: guji-义净-event-return
+  title_zh: 携梵本归洛阳
   date: 0695
   year_of: 695
-  location_zh: 洛阳
-  description: 武后证圣元年归抵洛阳，献梵本四百余部，奉敕入译，授三藏之号
-- id: guji-义净-event-yichang
-  title_zh: 主持译场广翻经律
-  date: '0700'
-  year_of: 700
-  location_zh: 洛阳长安两京译场
-  description: 奉制主持译场，译出根本说一切有部律、金光明最胜王经等五十余部
-- id: guji-义净-event-bawuxia
-  title_zh: 奉制译出佛说八无暇有暇经
+  place_zh: 洛阳
+  description: 携梵本四百余部归抵洛阳武后亲迎敕住佛授记寺译经
+- id: guji-义净-event-translate
+  title_zh: 奉制译流转诸有经
   date: '0703'
   year_of: 703
-  location_zh: 长安
-  description: 于室罗伐城给孤独园之说，分别八无暇与有暇，佛在世说法时堕地狱饿鬼傍生等为无暇，生中国根具正见逢佛为有暇，译竟以伽他重颂劝修
+  place_zh: 长安洛阳译场
+  description: 奉制译出佛说大乘流转诸有经以梦喻说前识灭后识生性空而业果不失并说伽他明俗谛胜义
 - id: guji-义净-event-death
-  title_zh: 圆寂于长安
+  title_zh: 长安圆寂
   date: '0713'
   year_of: 713
-  location_zh: 长安
-  description: 唐玄宗先天二年圆寂于长安，世寿七十九，谥号鸿胪卿，葬于龙门
+  place_zh: 长安
+  description: 开元元年寂于长安年七十九葬终南余绪付弟子传持
