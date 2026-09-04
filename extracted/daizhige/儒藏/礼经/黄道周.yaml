@@ -9,118 +9,130 @@ person:
       date: 1585
       precision: year
       is_circa: false
-      raw: 明万历十三年生于漳浦
+      raw: 明万历十三年
     death:
       date: 1646-04-20
       precision: day
       is_circa: false
-      raw: 隆武二年三月六日殉国于南京
+      raw: 隆武二年三月初五殉国于南京
   birth_date: 1585
   death_date: 1646-04-20
-  era: 明末清初
-  reign_ref: 崇祯
-  archetype: 直谏殉节的经学儒臣
+  era: 明末南明
+  reign_ref: 隆武
+  archetype: 忠烈经臣
   dilemmas:
-  - 以新测历法改定月令中星与恪守古经本文之间的冲突
-  - 以经术致君泽民与以气节殉国守义之间的抉择
-  lesson: 以经明时以节守道学问与气节不可偏废
-  summary_first_person: 吾起家漳浦潜心六经尤究礼乐天象崇祯年间官至少詹事乃取洛书中五参以授时新测重定月令昏旦中星以明岁功政事之原虽改经之讥在前而随事纳诲之忱不敢废也国变之后辅政隆武终以身殉社稷此吾一生之志也
+  - 以春秋礼义表行而世乱礼崩，如何以经术立表而正人心
+  - 以孤臣事亡国而兵微势绝，如何以恭敬仁义全节而不辱身
+  lesson: 以礼表行，以春秋明义，隐显庄威信以立命，临难不失其正
+  summary_first_person: 吾以经筵讲礼为表记集传，以春秋发坊表条例，欲以恭敬仁义表天下之行，晚以孤忠辅隆武，兵败被执，不屈而死，庶几隐而显不言而信之志
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E6%9C%88%E4%BB%A4%E6%98%8E%E4%B9%89.md
-  - https://daizhige.org/%E5%84%92%E8%97%8F/%E7%A4%BC%E7%BB%8F/%E6%9C%88%E4%BB%A4%E6%98%8E%E4%B9%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/儒藏/礼经/表记集传.md
+  - https://daizhige.org/儒藏/礼经/表记集传.html
 endeavors:
 - id: guji-黄道周-endeavor-1
-  title_zh: 注释礼记撰月令明义
-  description: 以洛书中五统摄二分二至参合授时历新测重定十二月中星注疏月令以阐岁功政事之原
+  title_zh: 经筵讲学撰表记集传
+  summary: 在经筵日讲纂辑进呈，以春秋条例发明表记恭敬仁义之义，分三十六章以立表
   phases:
   - key: brewing
-    name: 潜心经术究心历象
+    name: 博通六经入直讲筵
     labels:
-      zh:
-      - 经学积淀
-      - 历法研习
+      zh: 蓄养经术
     start_date: 1622
-    highlight_event_id: guji-黄道周-event-birth
+    highlight_event_id: guji-黄道周-event-jinshi
   - key: breakthrough
-    name: 少詹事进注礼记五篇
+    name: 以春秋解表记立说
     labels:
-      zh:
-      - 注礼进呈
-      - 月令成书
+      zh: 以经发明
+    start_date: 1635
+    highlight_event_id: guji-黄道周-event-biaojijizhuan
+  - key: climax
+    name: 表记集传进呈成书
+    labels:
+      zh: 著作进呈
     start_date: 1638
-    highlight_event_id: guji-黄道周-event-zhuli
+    highlight_event_id: guji-黄道周-event-biaojijizhuan
   - key: closure
-    name: 四库收录传世垂训
+    name: 四库提要定论流传
     labels:
-      zh:
-      - 经义阐发
-      - 后世流传
-    start_date: 1781
-    highlight_event_id: guji-黄道周-event-zhuli
+      zh: 后世评定
+    start_date: 1781-10
+    highlight_event_id: guji-黄道周-event-biaojijizhuan
   decisions:
+  - date: 1635
+    title_zh: 以春秋条例发坊表二记
+    rationale: 以坊表不专为春秋而以春秋稽测晷影，使百世有所考正
   - date: 1638
-    title_zh: 以授时新测改定中星经文
-    rationale: 汉以来岁差已逾三十度旧历难合仰观故舍旧文从新测以求天人相合
-  - date: 1638
-    title_zh: 杂采易象夏小正等参稽考证
-    rationale: 欲以经义规戒时政随事纳诲不专泥于推衍祥异
+    title_zh: 约为三十六章详记脉络
+    rationale: 依古注正义子言之体例，明恭敬仁义之相承，不从陈澔强分四十余章
 - id: guji-黄道周-endeavor-2
-  title_zh: 辅政隆武抗清殉节
-  description: 明亡之后拥立隆武入阁辅政督师抗清被执不屈慷慨就义
+  title_zh: 辅隆武抗清殉节
+  summary: 南明隆武朝任吏部兵部尚书大学士，募兵江西，兵败被执，不屈就义
   phases:
   - key: brewing
-    name: 崇祯直谏屡起屡罢
+    name: 崇祯旧臣守正去国
     labels:
-      zh:
-      - 直言敢谏
-      - 官场浮沉
-    start_date: 1630
-    highlight_event_id: guji-黄道周-event-zhuli
+      zh: 守道待时
+    start_date: 1644
+    highlight_event_id: guji-黄道周-event-jinshi
+  - key: breakthrough
+    name: 入闽辅政隆武授任
+    labels:
+      zh: 担当大义
+    start_date: 1645-08
+    highlight_event_id: guji-黄道周-event-fulongwu
   - key: climax
-    name: 隆武首辅督师出征
+    name: 出师江西兵败被执
     labels:
-      zh:
-      - 辅政福州
-      - 督师赣州
-    start_date: 1645
-    highlight_event_id: guji-黄道周-event-fuzheng
+      zh: 孤军殉国
+    start_date: 1646-02
+    highlight_event_id: guji-黄道周-event-martyrdom
   - key: closure
-    name: 被执南京从容就义
+    name: 南京不屈从容就义
     labels:
-      zh:
-      - 忠贞不屈
-      - 殉国成仁
-    start_date: 1646
+      zh: 成仁取义
+    start_date: 1646-04-20
     highlight_event_id: guji-黄道周-event-death
   decisions:
-  - date: 1645
-    title_zh: 应召赴闽辅政隆武
-    rationale: 国破君立当以残躯尽臣节不忍坐视社稷倾覆
-  - date: 1646
-    title_zh: 被俘不屈拒降就死
-    rationale: 学圣贤之道当以忠孝全节生死之义已决于注经之日
+  - date: 1645-08
+    title_zh: 应诏入闽辅隆武
+    rationale: 以君臣父子大义不可废，明室虽微当以残躯表忠
+  - date: 1646-02
+    title_zh: 以孤军出江西迎敌
+    rationale: 知不可为而为之，以躬行表记敬忌之义，不失足失色失口于人
 events:
 - id: guji-黄道周-event-birth
-  title_zh: 出生于福建漳浦
+  title_zh: 生于漳浦
   date: 1585
   year_of: 1585
   place_zh: 福建漳浦
-  description: 明万历十三年生于漳浦铜山少年颖悟力学通经史
-- id: guji-黄道周-event-zhuli
-  title_zh: 任少詹事注礼记进呈
+  summary_zh: 明万历十三年生于福建漳浦黄氏，后以学行闻于乡
+- id: guji-黄道周-event-jinshi
+  title_zh: 天启进士入翰林
+  date: 1622
+  year_of: 1622
+  place_zh: 北京
+  summary_zh: 天启二年进士，选庶吉士授编修，日后入经筵讲学
+- id: guji-黄道周-event-biaojijizhuan
+  title_zh: 撰表记集传二卷
   date: 1638
   year_of: 1638
-  place_zh: 北京
-  description: 崇祯十一年官少詹事注礼记五篇以进其中之一即为月令明义四卷以中五分布五气重定昏旦中星
-- id: guji-黄道周-event-fuzheng
-  title_zh: 拜吏部尚书兼内阁大学士辅政隆武
-  date: 1645
+  place_zh: 北京经筵
+  summary_zh: 在经筵纂辑表记集传二卷，以春秋证恭敬仁义，归表敬忌敬辨辟远诸章皆以春秋事发明
+- id: guji-黄道周-event-fulongwu
+  title_zh: 隆武朝拜大学士督师
+  date: 1645-08
   year_of: 1645
-  place_zh: 福州
-  description: 唐王聿键立于福州即隆武帝授以首辅督师江西募兵抗清
+  place_zh: 福建福州
+  summary_zh: 南明隆武帝授吏部兼兵部尚书武英殿大学士，奉命募兵出关
+- id: guji-黄道周-event-martyrdom
+  title_zh: 婺源兵败被执
+  date: 1646-02
+  year_of: 1646
+  place_zh: 江西婺源
+  summary_zh: 兵微将寡战败被执，解往南京，辞官劝降不屈，绝食赋诗明志
 - id: guji-黄道周-event-death
   title_zh: 殉国于南京
   date: 1646-04-20
   year_of: 1646
   place_zh: 南京
-  description: 隆武二年兵败被执解至南京不屈而死年六十二以忠烈传世
+  summary_zh: 隆武二年三月初五在南京就义，以身践表记隐而显不言而信之训
