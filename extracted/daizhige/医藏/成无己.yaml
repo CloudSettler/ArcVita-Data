@@ -6,132 +6,117 @@ person:
     en: Cheng Wuji
   lifespan:
     birth:
-      date: '1066'
+      date: 1066-01-01
       precision: year
       is_circa: true
-      raw: 约宋治平三年
+      raw: 约北宋治平三年
     death:
-      date: '1156'
+      date: 1156-01-01
       precision: year
       is_circa: true
       raw: 约金贞元四年
-  birth_date: '1066'
-  death_date: '1156'
-  era: 宋金之际
-  reign_ref: 北宋至金初
-  archetype: 儒医经解者
+  birth_date: 1066-01-01
+  death_date: 1156-01-01
+  era: 金
+  reign_ref: 金熙宗皇统
+  archetype: 医者
   dilemmas:
-  - 同而异者当明似是而非者当辩
-  - 守仲景成法与阐发前人未道之义难两全
-  - 表里虚实寒热错杂临证易惑
-  lesson: 定体分形析证读论知理识证别病乃可回骸起死
-  summary_first_person: 余家世儒医，自幼究旨穷经，祖述长沙，注解伤寒，撰明理论五十篇，始于发热终于劳复，欲使后学胸次了然无惑。
+  - 仲景之法精奥难究而后学各立名家当何以守经明理
+  - 伤寒之教表里汗下毫厘易差当何以辨脉审证而不误人
+  lesson: 守仲景之经方以救人济世当博采内经而阐其隐奥使表里昭然而汗下灼见
+  summary_first_person: 吾忝居医业自幼徂老耽味仲景之书五十余年粗得其门而未入其室遂注解伤寒论十卷分析三百九十七法之异同通明一百一十二方之名义引内经旁牵众说以明表里阴阳汗下补泻之辨愿后学寻吾所注而思过半矣
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/医藏/伤寒明理论.md
-  - https://daizhige.org/医藏/伤寒明理论.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B3%A8%E8%A7%A3%E4%BC%A4%E5%AF%92%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B3%A8%E8%A7%A3%E4%BC%A4%E5%AF%92%E8%AE%BA.md
 endeavors:
 - id: guji-成无己-endeavor-1
-  title_zh: 注解伤寒论
-  goal_zh: 疏通长沙三百九十七法一百一十三方得王叔和旨趣
+  title_zh: 耽味仲景博究经旨
+  summary: 自幼业医专研张仲景伤寒杂病论博采素问九卷八十一难阴阳大论以求病知源
   phases:
   - key: brewing
-    name: 家学研经
+    name: 幼承医业耽味仲景
     labels:
       zh:
-      - 研读
-      - 家学
-    start_date: '1080'
-    highlight_event_id: guji-成无己-event-birth
+      - 穷经
+      - 积学
+    start_date: 1075-01-01
+    highlight_event_id: guji-成无己-event-study
   - key: breakthrough
-    name: 深得叔和旨趣
+    name: 粗得其门近升乎堂
     labels:
       zh:
-      - 探微
-      - 索隐
-    start_date: '1115'
-    highlight_event_id: guji-成无己-event-1
-  - key: climax
-    name: 注成伤寒论十卷
-    labels:
-      zh:
-      - 注疏
-      - 定本
-    start_date: '1132'
-    highlight_event_id: guji-成无己-event-1
-  - key: closure
-    name: 刊行授学
-    labels:
-      zh:
-      - 传学
-    start_date: '1135'
-    highlight_event_id: guji-成无己-event-1
-  decisions:
-  - date: '1115'
-    title_zh: 以注疏入仲景之门
-    rationale: 自汉逮今千余年唯叔和得旨趣后人不得其门故须注释以开门径
-  - date: '1132'
-    title_zh: 辨脉证方治不泥旧文
-    rationale: 必究义理得旨趣方无施不可故详注脉证方药使规绳昭然
-- id: guji-成无己-endeavor-2
-  title_zh: 撰伤寒明理论
-  goal_zh: 定体分形析证五十篇明同异辩是非贻后学
-  phases:
-  - key: brewing
-    name: 积累证候疑义
-    labels:
-      zh:
+      - 明脉
       - 辨证
-      - 立目
-    start_date: '1135'
-    highlight_event_id: guji-成无己-event-1
-  - key: breakthrough
-    name: 立定体分形之法
-    labels:
-      zh:
-      - 体认
-      - 分辨
-    start_date: '1140'
-    highlight_event_id: guji-成无己-event-2
-  - key: climax
-    name: 成五十篇明理论
-    labels:
-      zh:
-      - 著述
-      - 明理
-    start_date: '1142-09-15'
-    highlight_event_id: guji-成无己-event-2
-  - key: closure
-    name: 严器之序而传
-    labels:
-      zh:
-      - 序刊
-    start_date: '1142-09-15'
-    highlight_event_id: guji-成无己-event-2
+    start_date: 1115-01-01
+    highlight_event_id: guji-成无己-event-practice
   decisions:
-  - date: '1140'
-    title_zh: 以五十证候为纲
-    rationale: 百病之急无急于伤寒死愈止于六七日故自发热至劳复提纲挈领使习医者识证别病
-  - date: '1142-09-15'
-    title_zh: 明内外阴阳虚实浅深
-    rationale: 战栗分内外烦躁别阴阳谵语郑声四逆与厥皆须灼知故详辨以祛惑
+  - date: 1115-01-01
+    title_zh: 专守仲景不徇家技
+    rationale: 观今之医各承家技不求经旨故独以仲景为师以汤液救伤寒十居其七之夭横
+  - date: 1130-01-01
+    title_zh: 以内经旁证伤寒
+    rationale: 经络府俞阴阳会通非引内经不能明脉理表里故博采众说以阐其奥
+- id: guji-成无己-endeavor-2
+  title_zh: 注解伤寒阐明隐奥
+  summary: 注成伤寒论十卷分析异同区别阴阳通明方药名号主治使前贤未言之深意昭然于世
+  phases:
+  - key: climax
+    name: 注成伤寒十卷
+    labels:
+      zh:
+      - 注经
+      - 传道
+    start_date: 1142-01-01
+    highlight_event_id: guji-成无己-event-annotate
+  - key: closure
+    name: 序行于世垂教后学
+    labels:
+      zh:
+      - 刊行
+      - 济世
+    start_date: 1144-01-01
+    highlight_event_id: guji-成无己-event-preface
+  decisions:
+  - date: 1142-01-01
+    title_zh: 详注三百九十七法
+    rationale: 伤寒论言精而奥法简而详非寡闻所能究故调陈脉理区别阴阳使汗下灼见
+  - date: 1142-01-01
+    title_zh: 通释一百一十二方
+    rationale: 方后当明名号之由彰药性之主别气味补泻以全伊尹神农汤液之遗意
 events:
 - id: guji-成无己-event-birth
-  date: '1066'
-  year_of: '1066'
-  title_zh: 生于儒医之家
-  description_zh: 成无己生于北宋儒医世家，性识明敏，记问该博，自幼究旨穷经涉猎古今医书。
-- id: guji-成无己-event-1
-  date: '1132'
-  year_of: '1132'
-  title_zh: 注成伤寒论
-  description_zh: 祖述前圣探微索隐，注解张长沙伤寒论，发明叔和旨趣，为医门规绳作疏。
-- id: guji-成无己-event-2
-  date: '1142-09-15'
-  year_of: '1142'
-  title_zh: 撰成伤寒明理论五十篇
-  description_zh: 撰述伤寒义皆前人未经道者，始于发热终于劳复，凡五十篇，锦山严器之于壬戌八月望日为序。
+  title_zh: 出生于聊摄
+  date: 1066-01-01
+  year_of: 1066
+  description: 约北宋治平年间生于聊摄世业医
+  location_zh: 聊摄
+- id: guji-成无己-event-study
+  title_zh: 自幼业医耽味仲景
+  date: 1075-01-01
+  year_of: 1075
+  description: 自幼徂老耽味仲景之书勤求古训博采素问九卷八十一难诸书
+  location_zh: 聊摄
+- id: guji-成无己-event-practice
+  title_zh: 行医北方精于伤寒
+  date: 1115-01-01
+  year_of: 1115
+  description: 历北宋末至金初以经方治伤寒卒病粗得其门近升乎堂而常慊然未入于室
+  location_zh: 中原
+- id: guji-成无己-event-annotate
+  title_zh: 注成注解伤寒论十卷
+  date: 1142-01-01
+  year_of: 1142
+  description: 注成伤寒论十卷析三百九十七法通一百一十二方引内经旁牵众说得仲景深意洛阳严器之叹其前贤所未言而为之序
+  location_zh: 洛阳
+- id: guji-成无己-event-preface
+  title_zh: 严器之甲子中秋作序
+  date: 1144-08-15
+  year_of: 1144
+  description: 时甲子中秋日洛阳严器之亲觌其书不揆荒芜聊序其略称其使表里昭然汗下灼见
+  location_zh: 洛阳
 - id: guji-成无己-event-death
-  date: '1156'
-  year_of: '1156'
-  title_zh: 卒于金初
-  description_zh: 毕生以明长沙旨趣为任，注论著论既成，医流读其论而知其理，寿终。
+  title_zh: 逝世
+  date: 1156-01-01
+  year_of: 1156
+  description: 约金贞元年间卒享年约九十遗注解伤寒论及伤寒明理论垂于后世
+  location_zh: 聊摄

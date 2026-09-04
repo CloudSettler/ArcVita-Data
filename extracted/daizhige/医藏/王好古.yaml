@@ -9,109 +9,114 @@ person:
       date: 1200
       precision: year
       is_circa: true
-      raw: 约承安年间古赵出生
+      raw: 约一二零零年生于赵州
     death:
-      date: 1310
+      date: 1264
       precision: year
       is_circa: true
-      raw: 至大之后逝世约一三一〇年
+      raw: 约一二六四年卒
   birth_date: 1200
-  death_date: 1310
+  death_date: 1264
   era: 金末元初
-  reign_ref: 至大元年
-  archetype: 传经济世良医
+  reign_ref: 元中统
+  archetype: 医家
   dilemmas:
-  - 读仲景书数十载未易洞达其趣遍国中无师可指
-  - 世人厌闻恶见目为难知守古法与阐新义两难
-  lesson: 必得师指始终端始伤寒上合轩岐中契越人下符叔和言外不传之秘可载斯文
-  summary_first_person: 我读医书数十载独慕仲景而未达其趣寤思寐思幸得李公明之授予不传之妙旬储月积浸就编帙故以此事难知名篇明伤寒即热病总称上合轩岐之经以惠后学
+  - 守长沙仲景古方与分经创新之间何去何从
+  - 承洁古珍珠囊旧说与立汤液新法之间如何权衡
+  lesson: 本草必归经，汤液必有法，守经达权方能济世全人
+  summary_first_person: 吾王好古号海藏，受业东垣，集汤液本草，以十二经分药品主病，欲使后学病不误药不误，全寿域而续神农伊尹仲景之统
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%AD%A4%E4%BA%8B%E9%9A%BE%E7%9F%A5.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%AD%A4%E4%BA%8B%E9%9A%BE%E7%9F%A5.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E6%B6%B2%E6%9C%AC%E8%8D%89.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B1%A4%E6%B6%B2%E6%9C%AC%E8%8D%89.md
 endeavors:
 - id: guji-王好古-endeavor-1
-  title_zh: 遍访求师师事李东垣
-  summary: 遍国中无能知仲景趣者执礼师事李杲得所不传之妙奠定脾胃伤寒之学
+  name_zh: 师承东垣绍述洁古医学
+  summary: 金末往师李东垣，尽得张元素张璧李杲之学，守伊尹仲景汤液正脉
   phases:
   - key: brewing
-    name: 寤寐求师
+    name: 赵州习医
     labels:
-      zh:
-      - 求学
-    start_date: 1225
+      zh: 习医
+    start_date: 1220
     highlight_event_id: guji-王好古-event-study
   - key: breakthrough
-    name: 得授妙旨
+    name: 受业东垣
     labels:
-      zh:
-      - 师承
+      zh: 从师
+    start_date: 1232
+    highlight_event_id: guji-王好古-event-study
+  - key: climax
+    name: 尽得真传
+    labels:
+      zh: 传承
     start_date: 1240
     highlight_event_id: guji-王好古-event-study
-  - key: climax
-    name: 浸就编帙
+  - key: closure
+    name: 行医北方
     labels:
-      zh:
-      - 积学
-    start_date: 1250
+      zh: 行医
+    start_date: 1242
     highlight_event_id: guji-王好古-event-study
   decisions:
+  - date: 1232
+    title_zh: 往师东垣老人李杲
+    rationale: 欲求仲景汤液不传之妙，舍东垣别无真传，故受业尽学
   - date: 1240
-    title_zh: 师事李公明之
-    rationale: 遍国中无有能知者天俾李公授予故倾心师事旬储月积以洞仲景之趣
+    title_zh: 以洁古珍珠囊为宗守经达权
+    rationale: 百载惟三老得长沙真意，当祖述而不泥古，方能变易治杂病
 - id: guji-王好古-endeavor-2
-  title_zh: 着述此事难知阐发伤寒
-  summary: 融会轩岐越人叔和之文辨表里阴阳论伤寒之源传变以明此事难知而可知
+  name_zh: 编撰汤液本草分经论药
+  summary: 以本草正条从三阴三阳十二经为纲，以主病为君佐使为次，统伤寒杂病为一书
   phases:
   - key: brewing
-    name: 辨伤寒之源
+    name: 采集珍珠囊诸书
     labels:
-      zh:
-      - 立论
-    start_date: 1300
-    highlight_event_id: guji-王好古-event-write
+      zh: 采集
+    start_date: 1242
+    highlight_event_id: guji-王好古-event-tangye
+  - key: breakthrough
+    name: 立十二经分药之法
+    labels:
+      zh: 立法
+    start_date: 1244
+    highlight_event_id: guji-王好古-event-tangye
   - key: climax
-    name: 成书作序
+    name: 汤液本草成书
     labels:
-      zh:
-      - 着述
-    start_date: 1308-07-21
-    highlight_event_id: guji-王好古-event-write
+      zh: 成书
+    start_date: 1246
+    highlight_event_id: guji-王好古-event-tangye
   - key: closure
-    name: 惠及后学
+    name: 以汤变散丸传后学
     labels:
-      zh:
-      - 传道
-    start_date: 1308-07-21
-    highlight_event_id: guji-王好古-event-write
+      zh: 流传
+    start_date: 1250
+    highlight_event_id: guji-王好古-event-tangye
   decisions:
-  - date: 1308-07-21
-    title_zh: 以此事难知名篇作序
-    rationale: 人徒见是书为伤寒之法不知上合轩岐中契越人下符叔和故具载言外不传之秘以待好生君子
-  - date: 1305
-    title_zh: 制大羌活汤治两感
-    rationale: 两感者死不治虚实浅深有异间有生者故立解利两感神方以待好生君子用之
+  - date: 1244
+    title_zh: 不从玉石草木虫鱼分类改从十二经分类
+    rationale: 欲使药品归经主病分明，临证便检，故破上中下三品旧例
+  - date: 1246
+    title_zh: 以伤寒剂改治杂病以汤为散丸
+    rationale: 仲景本伊尹神农之法，变易百端而不越其源，故杂附金匮祖方以便权宜
 events:
 - id: guji-王好古-event-birth
-  type: birth
-  title_zh: 出生古赵
   date: 1200
   year_of: 1200
-  description: 出生于古赵今河北赵县家传医学少习医经尤慕仲景伤寒
+  title_zh: 生于赵州
+  description: 约一二零零年生于赵州，后号海藏老人
 - id: guji-王好古-event-study
-  type: career
-  title_zh: 师事李杲得不传之妙
-  date: 1240
-  year_of: 1240
-  description: 遍国中无能知仲景趣者遂师事李东垣旬储月积尽得其所不传之妙
-- id: guji-王好古-event-write
-  type: career
-  title_zh: 至大改元作序成此事难知
-  date: 1308-07-21
-  year_of: 1308
-  description: 至大改元秋七月二十有一日作序言明伤寒上合轩岐中契越人下符叔和具载言外不传之秘
+  date: 1232
+  year_of: 1232
+  title_zh: 受业于东垣老人
+  description: 往师李杲明之，尽得洁古云岐东垣三老之学
+- id: guji-王好古-event-tangye
+  date: 1246
+  year_of: 1246
+  title_zh: 编成汤液本草
+  description: 集医垒元戎阴证略例诸书，以十二经统药品，以主病为元首而成书
 - id: guji-王好古-event-death
-  type: death
-  title_zh: 逝世留号海藏老人
-  date: 1310
-  year_of: 1310
-  description: 至大之后逝世号海藏老人另著汤液本草医垒元戎阴证略例传世
+  date: 1264
+  year_of: 1264
+  title_zh: 卒
+  description: 约一二六四年卒，一生绍仲景汤液，功在分经论药
