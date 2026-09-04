@@ -17,109 +17,135 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清朝
+  era: 清乾隆朝
   reign_ref: 乾隆
-  archetype: 守成中兴之君
+  archetype: 整饬守成之君
   dilemmas:
-  - 宽大包容与整饬纪纲之间如何持平不致懈弛
-  - 体恤臣工加恩养廉与戒饬徇私纳贿之间如何兼顾
-  lesson: 敬事后食清白自矢方能永保名节长受优恤
-  summary_first_person: 朕即位元年仰体皇考嘉惠臣工之意加倍在京文员恩俸复面谕养心殿以清廉相勖永城水发则悉蠲丁漕河工海塘安澜则虔祀议叙惟愿大法小廉共享升平
+  - 亲丧守制与朝正大典并行时当以孝思为先还是以国礼为重
+  - 澄清吏治与体恤臣下之间当严杜苞苴还是稍存交际人情
+  - 山陵升祔与郊坛配享相距伊迩时当速举以伸孝还是静候二至以合古
+  lesson: 谨小慎微方能澄清吏治，尽孝尽诚方能垂裕万世
+  summary_first_person: 朕继皇考之绪，以孝治天下，元年十二月以尚在二十七月之内停次年元旦升殿，谕禁督抚收受土宜以杜苞苴之渐，议世宗升祔后配享圜丘方泽以隆郊祀，皆欲守先训而惠斯民
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70025.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70032.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70032.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 加恩在京文员俸禄并训饬廉洁
-  description: 仰体皇考遗意仿双俸例加给在京大小文员一倍恩俸并御养心殿面谕敬事后食之谊严禁徇情纳贿
+  person_id: guji-弘历
+  title_zh: 禁土宜以整饬吏治
+  summary: 乾隆元年十二月以督抚间有收受属员土宜，恐开苞苴之渐，特申诫谕，申明养廉本意，严禁层累馈遗
   phases:
   - key: brewing
-    name: 仰体皇考嘉惠臣工
+    name: 闻风渐长
     labels:
-      zh: 体恤
-    start_date: 1736-09-06
-    highlight_event_id: guji-弘历-event-1736-pay
+      zh:
+      - 吏治
+      - 养廉
+    start_date: 1736-12-01
+    highlight_event_id: guji-弘历-event-1
   - key: breakthrough
-    name: 仿双俸例颁恩俸
+    name: 特谕申饬
     labels:
-      zh: 加恩
-    start_date: 1736-09-06
-    highlight_event_id: guji-弘历-event-1736-pay
+      zh:
+      - 诫谕
+      - 杜渐
+    start_date: 1736-12-08
+    highlight_event_id: guji-弘历-event-1
   - key: climax
-    name: 御养心殿面谕清廉
+    name: 明定访劾
     labels:
-      zh: 饬廉
-    start_date: 1736-09-14
-    highlight_event_id: guji-弘历-event-1736-xunjie
+      zh:
+      - 澄清
+      - 议处
+    start_date: 1736-12-08
+    highlight_event_id: guji-弘历-event-1
+  - key: closure
+    name: 守训惠民
+    labels:
+      zh:
+      - 守成
+      - 惠养
+    start_date: 1736-12-09
+    highlight_event_id: guji-弘历-event-1
   decisions:
-  - date: 1736-09-06
-    title_zh: 在京大小文员俸银加一倍赏给
-    rationale: 俸入不足以供日用特加恩俸使从容专心官守以成皇考未竟之泽
-  - date: 1736-09-14
-    title_zh: 召大学士九卿面谕清白自矢
-    rationale: 申明事君敬事后食有意营私渐不可长露端倪即宣示重惩以正风气
+  - date: 1736-12-08
+    title_zh: 谕禁督抚收受土宜
+    rationale: 悬鱼留犊为美谈，鞭鞾不已必及珠玉，养廉已定即不容丝毫授受，方能举劾出于公心
+  - date: 1736-12-08
+    title_zh: 明定访闻参劾严加议处
+    rationale: 若因些微土产稍干物议则非远嫌之道，必以簠簋不饬为戒方能守皇考澄清之规
 - id: guji-弘历-endeavor-2
-  title_zh: 赈恤水患绥靖河工海塘
-  description: 永城黄河溃决则蠲免丁漕加意赈恤南北河工浙江海塘安澜则虔修祀典分别议叙
+  person_id: guji-弘历
+  title_zh: 奉安泰陵议配享郊坛
+  summary: 乾隆元年十二月以世宗山陵事毕将升祔太庙，遵两朝旧制议于夏至前选吉配享圜丘方泽，兼议停次年元旦朝贺以居丧尽孝
   phases:
   - key: brewing
-    name: 轸念永城被水
+    name: 山陵将毕
     labels:
-      zh: 赈恤
-    start_date: 1736-09-08
-    highlight_event_id: guji-弘历-event-1736-yongcheng
+      zh:
+      - 孝思
+      - 山陵
+    start_date: 1736-12-01
+    highlight_event_id: guji-弘历-event-3
+  - key: breakthrough
+    name: 停贺居丧
+    labels:
+      zh:
+      - 守制
+      - 朝正
+    start_date: 1736-12-06
+    highlight_event_id: guji-弘历-event-3
   - key: climax
-    name: 河工海塘同庆安澜
+    name: 议行配享
     labels:
-      zh: 安澜
-    start_date: 1736-09-14
-    highlight_event_id: guji-弘历-event-1736-hegong
+      zh:
+      - 郊祀
+      - 配天
+    start_date: 1736-12-11
+    highlight_event_id: guji-弘历-event-2
   - key: closure
-    name: 蠲赈议叙并行
+    name: 敬选吉期
     labels:
-      zh: 绥靖
-    start_date: 1736-09-14
-    highlight_event_id: guji-弘历-event-1736-hegong
+      zh:
+      - 升祔
+      - 禋祀
+    start_date: 1736-12-12
+    highlight_event_id: guji-弘历-event-2
   decisions:
-  - date: 1736-09-08
-    title_zh: 永城被淹田地丁漕悉行蠲免
-    rationale: 春麦未收秋禾未补种民生艰难国赋无从输纳宜早蠲以安贫民并防奸胥舞弊
-  - date: 1736-09-14
-    title_zh: 河工海塘在事人员分别议叙
-    rationale: 伏秋水大而黄运湖河海塘俱保平稳仰荷神佑督率有方宜答神贶并酬勤劳
+  - date: 1736-12-06
+    title_zh: 停乾隆二年元旦升殿
+    rationale: 明年元旦尚在二十七月之内，朕心不忍，皇太后前照例行礼，王大臣赴慈宁宫行礼亦停
+  - date: 1736-12-11
+    title_zh: 遵两朝旧制议配享圜丘方泽
+    rationale: 成周因事郊祀不必定在二至，我朝旧制尽孝尽诚，来年升祔后夏至前选吉恭奉配享方为隆备
 events:
 - id: guji-弘历-event-birth
-  title_zh: 生于雍亲王府
+  person_id: guji-弘历
   date: 1711-09-25
   year_of: 1711
-  raw: 康熙五十年八月十三日
-  description: 康熙五十年生于北京雍亲王府为雍亲王胤禛第四子母熹妃钮祜禄氏
-- id: guji-弘历-event-1736-pay
-  title_zh: 加给在京文员一倍恩俸
-  date: 1736-09-06
+  title_zh: 生于康熙朝
+  description: 康熙五十年八月十三日生，为雍亲王第四子，后即位为高宗纯皇帝
+- id: guji-弘历-event-1
+  person_id: guji-弘历
+  date: 1736-12-08
   year_of: 1736
-  raw: 乾隆元年八月丁丑
-  description: 谕将在京大小文员俸银加一倍赏给自乾隆二年春季为始罚俸止罚正俸以示体恤
-- id: guji-弘历-event-1736-yongcheng
-  title_zh: 蠲免永城被水田赋
-  date: 1736-09-08
+  title_zh: 谕禁督抚受土宜
+  description: 乾隆元年十二月癸亥谕总理事务王大臣，闻督抚间有收受属员土宜者，此风断不可长，特申诫谕，违者访闻参劾严加议处
+- id: guji-弘历-event-3
+  person_id: guji-弘历
+  date: 1736-12-06
   year_of: 1736
-  raw: 乾隆元年八月己卯
-  description: 河南永城潘家道口黄河水发田禾庐舍被淹命悉蠲应征地丁漕粮并督疏通下流以除水患
-- id: guji-弘历-event-1736-xunjie
-  title_zh: 御养心殿训饬清廉
-  date: 1736-09-14
+  title_zh: 停次年元旦升殿受贺
+  description: 乾隆元年十二月壬戌以明年元旦尚在二十七月之内不忍升殿受贺，皇太后前照例行礼，后奉懿旨并停王大臣赴慈宁宫行礼
+- id: guji-弘历-event-2
+  person_id: guji-弘历
+  date: 1736-12-11
   year_of: 1736
-  raw: 乾隆元年八月乙酉
-  description: 御养心殿召大学士九卿面谕事君敬事后食申戒徇情纳贿并举傅鼐励宗万为例以儆众
-- id: guji-弘历-event-1736-hegong
-  title_zh: 河工海塘安澜议叙
-  date: 1736-09-14
-  year_of: 1736
-  raw: 乾隆元年八月乙酉
-  description: 黄运湖河浙江海塘及河东两省埽坝伏秋保护平稳命虔修祀典以答神贶并将总理大臣及在事各员分别议叙
+  title_zh: 谕议世宗配享郊坛
+  description: 乾隆元年十二月丙寅以世宗德并高深宜配享郊坛，命礼部会同王大臣内阁九卿详议，定二年三月升祔后夏至前选吉配享圜丘方泽
 - id: guji-弘历-event-death
-  title_zh: 崩于养心殿
+  person_id: guji-弘历
   date: 1799-02-07
   year_of: 1799
-  raw: 嘉庆四年正月初三日
-  description: 太上皇帝崩于北京紫禁城养心殿寿八十九岁葬裕陵谥纯皇帝庙号高宗
+  title_zh: 崩于嘉庆四年
+  description: 嘉庆四年正月初三日崩，庙号高宗，谥纯皇帝，葬裕陵
