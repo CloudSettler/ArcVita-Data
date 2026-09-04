@@ -1,0 +1,152 @@
+person:
+  qid: guji-李恕
+  name_zh: 李恕
+  names:
+    zh: 李恕
+    en: Li Shu
+  lifespan:
+    birth:
+      date: '0665'
+      precision: year
+      is_circa: true
+      raw: 唐高宗时约生
+    death:
+      date: '0730'
+      precision: year
+      is_circa: true
+      raw: 唐玄宗开元年间约卒
+  birth_date: '0665'
+  death_date: '0730'
+  era: 唐
+  reign_ref: 唐中宗
+  archetype: 循吏型家训作者
+  dilemmas:
+  - title_zh: 奋威与守法
+    description: 为县令欲立威树誉又须遵格式律令不纵喜怒能否以清勤平恕服人
+  - title_zh: 俸薄与养廉
+    description: 卑官禄薄仅代耕家人用度与交关取与之间何以守清白而不伤恩义
+  lesson: 清勤守法以安官节用读书以传家男女兼训方为久远
+  summary_first_person: 吾为唐中宗时县令见崔氏女仪不及男颜氏家训遗于女遂作诫子拾遗十八篇兼教男女令子孙新妇人写一通以为鉴戒一生以清勤平恕守官以读书节俭持家
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E8%AF%AB%E5%AD%90%E6%8B%BE%E9%81%97.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E4%BF%AE%E8%BA%AB%E6%B2%BB%E5%AE%B6/%E8%AF%AB%E5%AD%90%E6%8B%BE%E9%81%97.html
+endeavors:
+- id: guji-李恕-endeavor-1
+  title_zh: 守令清勤安民
+  summary: 居九品百僚之下以忠诚事长官谦敬接僚友遵令式用刑慎文牍寡毁誉清介自守
+  phases:
+  - key: brewing
+    name: 卑仕自勖
+    labels:
+      zh:
+      - 清勤
+      - 慎言行
+    start_date: '0705'
+    highlight_event_id: guji-李恕-event-office
+  - key: breakthrough
+    name: 守法施政
+    labels:
+      zh:
+      - 守令式
+      - 恤百姓
+    start_date: '0706'
+    highlight_event_id: guji-李恕-event-law
+  - key: closure
+    name: 清白传家
+    labels:
+      zh:
+      - 节用
+      - 远交关
+    start_date: '0707'
+    highlight_event_id: guji-李恕-event-clean
+  decisions:
+  - date: '0706'
+    title_zh: 准令用刑不奋威怒
+    rationale: 枷杖样式著于令文率由胸臆则取终身之败故一切割断必惬条章
+  - date: '0707'
+    title_zh: 节用闭门使金如粟不入怀
+    rationale: 禄俸仅代耕减省家人谨身节用方能远谤而安高枕
+- id: guji-李恕-endeavor-2
+  title_zh: 著诫子拾遗兼教男女
+  summary: 补崔氏女仪颜氏家训之阙作十八篇详训男子读书出身为吏之法与女子妇道内范令阖门传写省察
+  phases:
+  - key: brewing
+    name: 有感阙遗
+    labels:
+      zh:
+      - 补阙
+      - 兼教
+    start_date: '0707'
+    highlight_event_id: guji-李恕-event-book-start
+  - key: climax
+    name: 著成十八篇
+    labels:
+      zh:
+      - 训男
+      - 教女
+    start_date: 0708
+    highlight_event_id: guji-李恕-event-book-done
+  - key: closure
+    name: 令家传写
+    labels:
+      zh:
+      - 家法
+      - 省察
+    start_date: 0709
+    highlight_event_id: guji-李恕-event-family-copy
+  decisions:
+  - date: 0708
+    title_zh: 兼教男女十八篇
+    rationale: 女仪戒不及男家训训遗于女偏而不全故兼举男女读书进德事人之要
+  - date: 0709
+    title_zh: 令人写一通朝省暮察
+    rationale: 徒著不习则易忘使新妇子孙各写一通终朝三省每月一寻方能化为家风
+events:
+- id: guji-李恕-event-birth
+  date: '0665'
+  year_of: 665
+  title_zh: 出生
+  description: 约生于唐高宗时昆弟七房大家之内幼习义方
+  event_type: birth
+- id: guji-李恕-event-office
+  date: '0705'
+  year_of: 705
+  title_zh: 唐中宗时为县令
+  description: 居九品之中处百僚之下以清勤平恕自勖事长官以忠诚接僚友以谦敬
+  event_type: office
+- id: guji-李恕-event-law
+  date: '0706'
+  year_of: 706
+  title_zh: 遵格式律令断狱慎牍
+  description: 以格式律令为堤防准令用枷杖申上移牒谨署真书不侮弄刀笔不轻论得失
+  event_type: career
+- id: guji-李恕-event-clean
+  date: '0707'
+  year_of: 707
+  title_zh: 节用守清躬行廉谨
+  description: 减省家人合门昼掩使马如羊使金如粟不入怀交关必依价归主以远侵渔之谤
+  event_type: career
+- id: guji-李恕-event-book-start
+  date: '0707'
+  year_of: 707
+  title_zh: 感崔颜阙遗发愤著书
+  description: 以崔氏女仪戒不及男颜氏家训训遗于女遂发心兼教男女以补其阙
+  event_type: career
+- id: guji-李恕-event-book-done
+  date: 0708
+  year_of: 708
+  title_zh: 著成诫子拾遗十八篇
+  description: 详言男子六岁至弱冠读书出身为吏之节女子七岁至笄嫁妇道内范及兄弟和睦勤学戒酒诸条
+  event_type: work
+- id: guji-李恕-event-family-copy
+  date: 0709
+  year_of: 709
+  title_zh: 令新妇子孙传写为戒
+  description: 令新妇子孙人写一通儿女各写女诫女仪自警中外相承终朝三省每月一寻
+  event_type: career
+- id: guji-李恕-event-death
+  date: '0730'
+  year_of: 730
+  title_zh: 逝世
+  description: 开元年间约卒遗书收入戒子通录卷三传于后世
+  event_type: death
