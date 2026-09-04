@@ -6,141 +6,121 @@ person:
     en: Danapala
   lifespan:
     birth:
-      date: 0950
+      date: 0950-01-01
       precision: year
       is_circa: true
-      raw: 生年不详约宋初前中印度生
+      raw: 宋初约生于西域
     death:
-      date: '1017'
+      date: 1017-01-01
       precision: year
-      is_circa: false
-      raw: 宋真宗天禧元年圆寂
-  birth_date: 0950
-  death_date: '1017'
+      is_circa: true
+      raw: 约大中祥符十年示寂
+  birth_date: 0950-01-01
+  death_date: 1017-01-01
   era: 北宋
   reign_ref: 宋太宗至宋真宗
   archetype: 译经传法者
   dilemmas:
-  - title_zh: 梵汉悬隔如何传信达意
-    description: 梵本义广汉文辞约，当竭诚笔受校勘以求信解不失本怀
-  - title_zh: 身为客僧何以报国弘法
-    description: 蒙诏入译经院，当以译经说法利众为报，宣扬如来十力令众生信受奉行
-  lesson: 以信解译经弘法，能令广大胜处师子吼传于中土
-  summary_first_person: 吾乃施护，西天来此奉诏译经，了知如来十种智力广大胜处，愿以汉文传布，令众闻法欢喜信受奉行
+  - 梵汉悬隔而欲令人信解无分别
+  - 有相文字与无相法门如何相即
+  lesson: 离取舍分别以不作意入无分别方得相应
+  summary_first_person: 我本西来奉诏传译惟愿以无分别法令人离取舍而入清净
   source_urls:
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BD%9B%E5%8D%81%E5%8A%9B%E7%BB%8F.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E7%BB%8F%E8%97%8F/%E7%BB%8F%E9%9B%86%E9%83%A8/%E4%BD%9B%E8%AF%B4%E4%BD%9B%E5%8D%81%E5%8A%9B%E7%BB%8F.md
+  - https://cbeta.org/T/T0654
+  - https://daizhige.org/佛藏/大藏经/经藏/经集部/佛说入无分别法门经.html
 endeavors:
 - id: guji-施护-endeavor-1
-  person_qid: guji-施护
-  title_zh: 奉诏入译经院译梵为汉
-  summary: 自西天携梵本来汴京，奉诏与天息灾法天等同译众经，任传法大师译主，缔造宋初译经盛业
+  title_zh: 入宋参预译经传法
+  summary_zh: 随法统西来入宋译场历事太宗真宗两朝以传法大师身份参译显密群经
   phases:
   - key: brewing
-    name: 携经东来初入译场
+    name: 西域发心东来
     labels:
-      zh:
-      - 初至
-    start_date: 0980
-    highlight_event_id: guji-施护-event-1
+      zh: 蕴酿
+    start_date: 0980-01-01
+    highlight_event_id: guji-施护-event-arrive
   - key: breakthrough
-    name: 笔受缀文渐立规程
+    name: 入译经院受职
     labels:
-      zh:
-      - 笔受
-    start_date: 0985
-    highlight_event_id: guji-施护-event-1
+      zh: 突破
+    start_date: 0982-01-01
+    highlight_event_id: guji-施护-event-arrive
   - key: climax
-    name: 译出佛十力等众经
+    name: 传法赐紫广参群译
     labels:
-      zh:
-      - 译经
-    start_date: 0990
-    highlight_event_id: guji-施护-event-2
+      zh: 高潮
+    start_date: 0985-01-01
+    highlight_event_id: guji-施护-event-translate
   - key: closure
-    name: 校勘流通颁行天下
+    name: 译业成就住持传法
     labels:
-      zh:
-      - 流通
-    start_date: '1000'
-    highlight_event_id: guji-施护-event-2
-  decisions:
-  - date: 0980
-    title_zh: 应诏入宋译经院
-    rationale: 为使大法东传不失本义，愿住汴京专事译经以报国恩
-  - date: 0990
-    title_zh: 先译佛十力经明佛智
-    rationale: 十力乃如来师子吼转梵轮之本，当先明处非处业定根解界道宿住天眼漏尽以立正信
-- id: guji-施护-endeavor-2
-  person_qid: guji-施护
-  title_zh: 宣说如来十力化导群生
-  summary: 依佛在舍卫祇园所说，于大众中开示十力功德，令苾刍众知胜处作师子吼，信受奉行
-  phases:
-  - key: brewing
-    name: 深观十力义理
-    labels:
-      zh:
-      - 体解
-    start_date: 0988
-    highlight_event_id: guji-施护-event-2
-  - key: breakthrough
-    name: 开示处非处业定之智
-    labels:
-      zh:
-      - 开示
-    start_date: 0990
-    highlight_event_id: guji-施护-event-2
-  - key: climax
-    name: 广宣宿住天眼漏尽圆德
-    labels:
-      zh:
-      - 宣扬
-    start_date: 0995
-    highlight_event_id: guji-施护-event-2
-  - key: closure
-    name: 众生欢喜信受奉行
-    labels:
-      zh:
-      - 化成
-    start_date: '1010'
+      zh: 收束
+    start_date: 1000-01-01
     highlight_event_id: guji-施护-event-death
   decisions:
-  - date: 0990
-    title_zh: 以浅近言显深妙智
-    rationale: 十力义深众根不一，当随根性信解界性分别演说令皆得益
-  - date: '1005'
-    title_zh: 坚持传法不归西土
-    rationale: 中土机缘已熟，留此终身译讲方能令法轮常转不负来意
+  - date: 0982-01-01
+    title_zh: 应诏入译经院
+    rationale: 欲以梵本取信中土借官译之力广传正法故不辞羁旅而就征命
+  - date: 0985-01-01
+    title_zh: 受传法大师赐紫安住译席
+    rationale: 知传法须得位育方能久住故受朝命以安僧众而利译业
+- id: guji-施护-endeavor-2
+  title_zh: 宣说翻译无分别法门
+  summary_zh: 奉诏译出入无分别法门经阐明离取舍自性分别以不作意入无分别界之旨
+  phases:
+  - key: brewing
+    name: 了知取舍分别相
+    labels:
+      zh: 蕴酿
+    start_date: 0990-01-01
+    highlight_event_id: guji-施护-event-translate
+  - key: breakthrough
+    name: 定无色无分别之宗
+    labels:
+      zh: 突破
+    start_date: 0992-01-01
+    highlight_event_id: guji-施护-event-translate
+  - key: climax
+    name: 以喻显不作意入界
+    labels:
+      zh: 高潮
+    start_date: 0995-01-01
+    highlight_event_id: guji-施护-event-translate
+  - key: closure
+    name: 以偈赞结劝如理修学
+    labels:
+      zh: 收束
+    start_date: 0996-01-01
+    highlight_event_id: guji-施护-event-translate
+  decisions:
+  - date: 0995-01-01
+    title_zh: 以大石山宝藏为喻立文
+    rationale: 恐学者别异作意反成所行故借喻明不作意方见摩尼之旨
+  - date: 0996-01-01
+    title_zh: 直译无分别界平等观文
+    rationale: 欲令菩萨于色受想行识乃至一切相智皆无分别故具存平等观语不加增饰
 events:
 - id: guji-施护-event-birth
-  person_qid: guji-施护
-  type: birth
-  title_zh: 生于中印度乌仗那国
-  date: 0950
+  title_zh: 生于西域乌填曩国
+  date: 0950-01-01
   year_of: 950
-  place_zh: 中印度乌仗那国
-  summary: 施护生于西天中印度，幼习梵文三藏，精通显密，后立志东来弘法
-- id: guji-施护-event-1
-  person_qid: guji-施护
-  type: career
-  title_zh: 太平兴国五年抵汴入译经院
-  date: 0980
-  year_of: 980
-  place_zh: 东京汴梁译经院
-  summary: 携梵本来华，与天息灾法天同奉诏译经，授朝奉大夫试光禄卿传法大师赐紫
-- id: guji-施护-event-2
-  person_qid: guji-施护
-  type: career
-  title_zh: 奉诏译出佛说佛十力经
-  date: 0990
-  year_of: 990
+  place_zh: 西域乌填曩国
+  summary_zh: 约宋初生于西域习梵本大小乘经论发愿东传
+- id: guji-施护-event-arrive
+  title_zh: 太平兴国中入宋入译经院
+  date: 0982-01-01
+  year_of: 982
   place_zh: 汴京译经院
-  summary: 述佛在舍卫国祇树给孤独园告苾刍众，具说如来十种智力，能了知广大胜处于大众中作师子吼转妙梵轮，众闻皆大欢喜信受奉行
+  summary_zh: 入宋与天息灾法天等共参译事授朝奉大夫试光禄卿等职
+- id: guji-施护-event-translate
+  title_zh: 奉诏译入无分别法门经
+  date: 0995-01-01
+  year_of: 995
+  place_zh: 汴京传法院
+  summary_zh: 奉诏译出此经明无分别光请问佛说离自性分别以不作意入无分别界
 - id: guji-施护-event-death
-  person_qid: guji-施护
-  type: death
-  title_zh: 天禧元年圆寂于汴京
-  date: '1017'
+  title_zh: 示寂于汴京
+  date: 1017-01-01
   year_of: 1017
-  place_zh: 东京汴梁
-  summary: 历太宗真宗两朝译经数十部，至天禧元年示寂，译业弘法功德流传后世
+  place_zh: 汴京
+  summary_zh: 久住译席译经百余卷后示寂朝廷厚恤译业由后学继成
