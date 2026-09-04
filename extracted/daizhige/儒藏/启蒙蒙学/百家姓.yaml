@@ -1,0 +1,138 @@
+person:
+  qid: guji-百家姓
+  name_zh: 百家姓
+  names:
+    zh: 百家姓
+    en: Hundred Family Surnames
+  lifespan:
+    birth:
+      date: 0960
+      precision: year
+      is_circa: true
+      raw: 北宋初约显德七年肇始
+    death:
+      date: '1127'
+      precision: year
+      is_circa: true
+      raw: 北宋末约靖康二年定型流传
+  birth_date: 0960
+  death_date: '1127'
+  era: 北宋
+  reign_ref: 宋太祖至宋钦宗
+  archetype: 蒙学启蒙者
+  dilemmas:
+  - title_zh: 押韵易记与姓氏体统之衡
+    description: 首句赵钱孙李尊国姓而便诵读，如何兼顾易记与不失体统
+  - title_zh: 单姓复姓与篇幅取舍之难
+    description: 单姓四百余复姓六十余，如何取舍编排以成四言韵文
+  lesson: 以简驭繁，先立纲纪再及细节，启蒙亦需敬重世系
+  summary_first_person: 吾起于吴越宋初，采众姓编四言韵语，以赵钱孙李开篇，助蒙童开蒙记姓明源，愿后人因姓知史因史知敬
+  source_urls:
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E7%99%BE%E5%AE%B6%E5%A7%93.html
+  - https://zh.wikisource.org/wiki/%E7%99%BE%E5%AE%B6%E5%A7%93
+endeavors:
+- id: guji-百家姓-endeavor-1
+  person_id: guji-百家姓
+  title_zh: 编纂四言姓氏韵文
+  summary_zh: 采集单复姓氏编为四言押韵蒙学读本
+  phases:
+  - key: brewing
+    name: 采姓酝酿
+    labels:
+      zh: 采集姓氏
+    start_date: 0960
+    highlight_event_id: guji-百家姓-event-birth
+  - key: breakthrough
+    name: 韵编初成
+    labels:
+      zh: 韵语编排
+    start_date: 0962
+    highlight_event_id: guji-百家姓-event-compilation
+  - key: climax
+    name: 吴越定篇
+    labels:
+      zh: 定篇成诵
+    start_date: 0975
+    highlight_event_id: guji-百家姓-event-compilation
+  - key: closure
+    name: 付蒙学用
+    labels:
+      zh: 施教蒙馆
+    start_date: 0980
+    highlight_event_id: guji-百家姓-event-spread
+  decisions:
+  - date: 0962
+    title_zh: 以赵钱孙李开篇
+    rationale: 尊宋朝国姓赵与吴越国王钱及正妃孙李，定尊卑体统以行天下
+  - date: 0965
+    title_zh: 单姓复姓分段押韵
+    rationale: 单姓居前复姓殿后，四字一句押韵易诵，兼顾记忆与完备
+- id: guji-百家姓-endeavor-2
+  person_id: guji-百家姓
+  title_zh: 训蒙流传天下
+  summary_zh: 配三字经千字文并行蒙馆，传诵历代不衰
+  phases:
+  - key: brewing
+    name: 蒙馆试读
+    labels:
+      zh: 试读蒙馆
+    start_date: 0980
+    highlight_event_id: guji-百家姓-event-spread
+  - key: breakthrough
+    name: 列入蒙学三书
+    labels:
+      zh: 并称三百千
+    start_date: '1030'
+    highlight_event_id: guji-百家姓-event-spread
+  - key: climax
+    name: 刊刻广布
+    labels:
+      zh: 刊刻流布
+    start_date: '1050'
+    highlight_event_id: guji-百家姓-event-spread
+  - key: closure
+    name: 定型续补
+    labels:
+      zh: 续补定型
+    start_date: '1120'
+    highlight_event_id: guji-百家姓-event-death
+  decisions:
+  - date: '1030'
+    title_zh: 与三字经千字文并称
+    rationale: 取其简短易记，与伦理掌故互补，共成蒙学阶梯
+  - date: '1120'
+    title_zh: 增续百家姓续以存新姓
+    rationale: 世系变迁新姓渐显，续补以全谱系而不改旧篇体例
+events:
+- id: guji-百家姓-event-birth
+  person_id: guji-百家姓
+  type: birth
+  title_zh: 百家姓肇始于宋初
+  date: 0960
+  year_of: 960
+  place_zh: 吴越杭州
+  description: 宋初儒者采姓氏酝酿韵文，以赵为首开启编纂
+- id: guji-百家姓-event-compilation
+  person_id: guji-百家姓
+  type: endeavor
+  title_zh: 四言韵编初成定篇
+  date: 0965
+  year_of: 965
+  place_zh: 吴越杭州
+  description: 赵钱孙李周吴郑王开篇，单姓在前复姓在后，四言押韵而成诵
+- id: guji-百家姓-event-spread
+  person_id: guji-百家姓
+  type: endeavor
+  title_zh: 列入蒙馆广布天下
+  date: '1030'
+  year_of: 1030
+  place_zh: 北宋京师开封
+  description: 与三字经千字文并行蒙馆，刊刻流布，蒙童皆诵赵钱孙李
+- id: guji-百家姓-event-death
+  person_id: guji-百家姓
+  type: death
+  title_zh: 北宋末定型并续补
+  date: '1127'
+  year_of: 1127
+  place_zh: 中原
+  description: 旧篇定型流传不改，后人增百家姓续以补新姓，体例至今尚存

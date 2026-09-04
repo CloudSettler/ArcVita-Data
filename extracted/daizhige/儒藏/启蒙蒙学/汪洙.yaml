@@ -1,0 +1,160 @@
+person:
+  qid: guji-汪洙
+  name_zh: 汪洙
+  names:
+    zh: 汪洙
+    en: Wang Zhu
+  lifespan:
+    birth:
+      date: 0997
+      precision: year
+      is_circa: true
+      raw: 宋太宗至道三年
+    death:
+      date: '1057'
+      precision: year
+      is_circa: true
+      raw: 宋仁宗嘉祐二年前后
+  birth_date: 0997
+  death_date: '1057'
+  era: 北宋
+  reign_ref: 宋仁宗天圣
+  archetype: 劝学启蒙型
+  dilemmas:
+  - 少年神童之誉与终身勤学之实如何兼顾
+  - 科名显达之求与化育蒙童之志如何取舍
+  lesson: 勤学立身劝学化人方为真神童
+  summary_first_person: 吾汪洙鄞人也幼称神童九岁能诗天圣登第历官馆阁深信万般皆下品惟有读书高遂作神童诗以劝童蒙愿天下幼学皆勤勉立身以儒业报国
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E7%A5%9E%E7%AB%A5%E8%AF%97.md
+  - https://daizhige.org/%E5%84%92%E8%97%8F/%E5%90%AF%E8%92%99%E8%92%99%E5%AD%A6/%E7%A5%9E%E7%AB%A5%E8%AF%97.html
+endeavors:
+- id: guji-汪洙-endeavor-1
+  title_zh: 少年勤学登科入仕
+  description_zh: 自幼苦读经史九岁能诗天圣二年登进士第入馆阁以文行显于朝
+  phases:
+  - key: brewing
+    name: 家学启蒙
+    labels:
+      zh:
+      - 启蒙
+      - 勤学
+    start_date: '1000'
+    highlight_event_id: guji-汪洙-event-birth
+  - key: breakthrough
+    name: 九岁称神童
+    labels:
+      zh:
+      - 神童
+      - 声名
+    start_date: '1006'
+    highlight_event_id: guji-汪洙-event-prodigy
+  - key: climax
+    name: 天圣登第
+    labels:
+      zh:
+      - 科举
+      - 登第
+    start_date: '1024'
+    highlight_event_id: guji-汪洙-event-jinshi
+  - key: closure
+    name: 历官馆阁
+    labels:
+      zh:
+      - 入仕
+      - 守正
+    start_date: '1025'
+    highlight_event_id: guji-汪洙-event-death
+  decisions:
+  - date: '1015'
+    title_zh: 弃浮华专攻经义
+    rationale: 欲以文章立身必先明圣贤之义故潜心经史不逐少年虚誉
+  - date: '1024'
+    title_zh: 应进士举求自致
+    rationale: 将相本无种男儿当自强不就荫补而以科名自奋以励同辈
+- id: guji-汪洙-endeavor-2
+  title_zh: 撰神童诗开蒙劝学
+  description_zh: 采摭经史以浅近四言韵语作神童诗劝勉童蒙勤学风行天下学塾
+  phases:
+  - key: brewing
+    name: 悯蒙学之失
+    labels:
+      zh:
+      - 劝学
+      - 察时
+    start_date: '1026'
+    highlight_event_id: guji-汪洙-event-jinshi
+  - key: breakthrough
+    name: 采经史作韵语
+    labels:
+      zh:
+      - 创作
+      - 启蒙
+    start_date: '1030'
+    highlight_event_id: guji-汪洙-event-compile
+  - key: climax
+    name: 神童诗风行
+    labels:
+      zh:
+      - 流布
+      - 教化
+    start_date: '1040'
+    highlight_event_id: guji-汪洙-event-spread
+  - key: closure
+    name: 垂范后世
+    labels:
+      zh:
+      - 遗教
+      - 劝学
+    start_date: '1050'
+    highlight_event_id: guji-汪洙-event-death
+  decisions:
+  - date: '1030'
+    title_zh: 以浅语述大义
+    rationale: 童蒙未通深奥故用四言易诵之句载忠孝勤学之理使圣贤之言入人心
+  - date: '1032'
+    title_zh: 重励志轻华藻
+    rationale: 不求文采华丽但求朝为田舍郎暮登天子堂之实劝以激发向上之心
+events:
+- id: guji-汪洙-event-birth
+  type: birth
+  title_zh: 生于明州鄞县
+  date: 0997
+  year_of: 997
+  place_zh: 明州鄞县
+  description_zh: 宋太宗至道三年生于鄞县汪氏幼而颖悟
+- id: guji-汪洙-event-prodigy
+  type: career
+  title_zh: 九岁能诗称神童
+  date: '1006'
+  year_of: 1006
+  place_zh: 明州鄞县
+  description_zh: 九岁赋诗乡里惊异号为神童勤学不辍文章日进
+- id: guji-汪洙-event-jinshi
+  type: career
+  title_zh: 天圣二年登进士第
+  date: '1024'
+  year_of: 1024
+  place_zh: 东京开封府
+  description_zh: 宋仁宗天圣二年登进士第入仕后历秘书正字集贤校理等职
+- id: guji-汪洙-event-compile
+  type: creation
+  title_zh: 撰神童诗以劝学
+  date: '1032'
+  year_of: 1032
+  place_zh: 京师馆阁
+  description_zh: 采经史大义作四言韵语神童诗首倡天子重英豪万般皆下品惟有读书高以劝童蒙
+- id: guji-汪洙-event-spread
+  type: creation
+  title_zh: 神童诗风行学塾
+  date: '1040'
+  year_of: 1040
+  place_zh: 天下学塾
+  description_zh: 神童诗流布天下村塾蒙馆递相传诵成为启蒙劝学之宗
+- id: guji-汪洙-event-death
+  type: death
+  title_zh: 卒于官
+  date: '1057'
+  year_of: 1057
+  place_zh: 京师
+  description_zh: 历官吏部郎中以文教终其身神童诗垂范后世
