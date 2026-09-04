@@ -3,116 +3,123 @@ person:
   name_zh: 竺法护
   names:
     zh: 竺法护
-    en: Dharmaraksha
+    en: Dharmaraksa
   lifespan:
     birth:
-      date: '0230'
+      date: '0233'
       precision: year
       is_circa: true
-      raw: 约生于月氏家居敦煌
+      raw: 约魏嘉平五年敦煌
     death:
-      date: 0308
+      date: '0316'
       precision: year
       is_circa: true
-      raw: 约卒于西晋永嘉二年
-  birth_date: '0230'
-  death_date: 0308
+      raw: 西晋建兴四年
+  birth_date: '0233'
+  death_date: '0316'
   era: 西晋
-  reign_ref: 西晋武帝至怀帝
+  reign_ref: 晋武帝泰始至晋愍帝建兴
   archetype: 译经弘法者
   dilemmas:
-  - title_zh: 胡汉文义难通
-    description: 以月氏后人通胡汉当化梵为汉免义理失真
-  - title_zh: 乱世弘法难安
-    description: 西晋末年纷乱当坚守译场以深法安定人心
-  lesson: 弘法在译通以无得为得，以利他为本怀
-  summary_first_person: 我本月氏后人幼居敦煌出家后西游求经归而译传大方等顶王等经愿以无所得慧导众生住于本际
+  - 梵本深广携归不易与中土渴法求译之切
+  - 胡语质朴直译存真与华言文丽易解之衡
+  lesson: 发大愿游西域求法归中土勤译不辍乱世亦不舍经教方使大乘流通
+  summary_first_person: 吾本月氏家居敦煌，少游西域求得梵本，归洛阳长安终身译经，译此宝网以显诸佛名号功德，愿众生闻名不疑同归正道
   source_urls:
-  - https://daizhige.org/佛藏/大藏经/经藏/经集部/佛说大方等顶王经.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/佛藏/大藏经/经藏/经集部/佛说大方等顶王经.md
+  - https://daizhige.org/佛说宝网经.html
 endeavors:
 - id: guji-竺法护-endeavor-1
-  title_zh: 西游求经携梵本东归
-  summary: 幼居敦煌随师出家西行诸国搜求大乘梵本携归中土为后译奠基
+  title_zh: 西域游学求取梵本
+  summary: 少年出家随师西游诸国搜集大乘梵本携归中土为后译经奠基
   phases:
   - key: brewing
-    name: 敦煌出家立志
+    name: 敦煌出家立志求法
     labels:
-      zh:
-      - 求法
-      - 出家
-    start_date: 0238
+      zh: 立志求法
+    start_date: '0248-01-01'
     highlight_event_id: guji-竺法护-event-birth
   - key: breakthrough
-    name: 西行得梵本东归
+    name: 西游诸国得见梵本
     labels:
-      zh:
-      - 求经
-      - 西域
-    start_date: '0261'
+      zh: 西游得本
+    start_date: '0266-01-01'
     highlight_event_id: guji-竺法护-event-seek
-  decisions:
-  - date: '0261'
-    title_zh: 决意西行求法
-    rationale: 中土梵本稀缺欲得大方等诸典须亲往西域访求
-  - date: '0266'
-    title_zh: 携经东归译传
-    rationale: 既得梵本当归敦煌长安设译场以化汉土
-- id: guji-竺法护-endeavor-2
-  title_zh: 长安敦煌译经弘化
-  summary: 于长安敦煌等地设馆译出大方等顶王经等百余部宣说本际无得之旨
-  phases:
   - key: climax
-    name: 译出顶王弘本际
+    name: 携经东归至于洛阳
     labels:
-      zh:
-      - 译经
-      - 弘法
-    start_date: 0284
+      zh: 携归洛阳
+    start_date: '0284-01-01'
+    highlight_event_id: guji-竺法护-event-seek
+  - key: closure
+    name: 整理梵本筹谋翻译
+    labels:
+      zh: 筹谋翻译
+    start_date: '0285-01-01'
+    highlight_event_id: guji-竺法护-event-translate
+  decisions:
+  - date: '0266-01-01'
+    title_zh: 决意西行求法
+    rationale: 中土梵本稀缺，欲弘大乘须亲往西域求取原本
+  - date: '0284-06-01'
+    title_zh: 携本东归不留西土
+    rationale: 念中夏众生渴仰正法，愿以所得梵本流通东土
+- id: guji-竺法护-endeavor-2
+  title_zh: 洛阳长安译经弘传
+  summary: 在洛阳长安组织译场译出宝网等百余部大乘经典宣扬闻佛名号功德
+  phases:
+  - key: brewing
+    name: 洛阳建译场聚徒
+    labels:
+      zh: 建场聚徒
+    start_date: '0286-01-01'
+    highlight_event_id: guji-竺法护-event-translate
+  - key: breakthrough
+    name: 译出宝网普告佛名
+    labels:
+      zh: 译宝网经
+    start_date: '0291-01-01'
+    highlight_event_id: guji-竺法护-event-translate
+  - key: climax
+    name: 四部受持流通讲说
+    labels:
+      zh: 流通讲说
+    start_date: '0295-01-01'
     highlight_event_id: guji-竺法护-event-translate
   - key: closure
-    name: 战乱守道传法不辍
+    name: 永嘉乱中护经不辍
     labels:
-      zh:
-      - 守道
-      - 传承
-    start_date: 0290
-    highlight_event_id: guji-竺法护-event-propagate
+      zh: 乱中护经
+    start_date: '0308-01-01'
+    highlight_event_id: guji-竺法护-event-death
   decisions:
-  - date: 0284
-    title_zh: 先译大方等顶王经
-    rationale: 此经明本际空寂破有无诤论可正时俗学风故先宣译
-  - date: 0290
-    title_zh: 乱中坚持译讲
-    rationale: 永嘉之乱人心惶怖唯深法可安当不避艰难继续传授
+  - date: '0291-01-01'
+    title_zh: 先译宝网显佛名功德
+    rationale: 童子宝网请问往世愿行，宜以东方宝光月殿等佛名令众生闻名不疑植福
+  - date: '0308-06-01'
+    title_zh: 避乱仍坚持译事
+    rationale: 世乱道衰更须经法住世，不以危难废弘传之任
 events:
 - id: guji-竺法护-event-birth
-  title_zh: 生于月氏家
-  date: '0230'
-  year_of: 230
+  title_zh: 生于敦煌月氏家
+  date: '0233-01-01'
+  year_of: 233
   place_zh: 敦煌
-  summary: 月氏后人家居敦煌幼年出家聪敏好学通胡汉言
+  description: 约魏嘉平年间生于敦煌月氏居士家，少小出家游学西域
 - id: guji-竺法护-event-seek
-  title_zh: 西游诸国求得梵本
-  date: '0261'
-  year_of: 261
-  place_zh: 西域
-  summary: 携师西游历访诸国搜求大乘梵夹携归敦煌
-- id: guji-竺法护-event-translate
-  title_zh: 译出大方等顶王经
-  date: 0284
+  title_zh: 西游诸国求得梵本东归洛阳
+  date: '0284-06-01'
   year_of: 284
-  place_zh: 长安
-  summary: 于长安译出大方等顶王经一名维摩诘子问宣善思与佛问答本际之义
-- id: guji-竺法护-event-propagate
-  title_zh: 四方讲传教化不辍
-  date: 0290
-  year_of: 290
-  place_zh: 敦煌长安之间
-  summary: 率弟子讲译不止门徒众多奠定西晋译经之盛
+  place_zh: 西域至洛阳
+  description: 游历西域诸国搜集大乘梵本，携归洛阳整理筹译
+- id: guji-竺法护-event-translate
+  title_zh: 译出佛说宝网经
+  date: '0291-03-01'
+  year_of: 291
+  place_zh: 洛阳
+  description: 于洛阳译出宝网经，演维耶离宝网童子供佛请问及东方解君世界宝光月殿佛名功德
 - id: guji-竺法护-event-death
   title_zh: 示寂于乱世
-  date: 0308
-  year_of: 308
-  place_zh: 中土
-  summary: 永嘉二年左右示寂遗下译典百余部后人敬仰
+  date: '0316-01-01'
+  year_of: 316
+  place_zh: 长安一带
+  description: 西晋末永嘉丧乱后仍护经弘化，示寂而终译业垂后
