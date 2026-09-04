@@ -17,82 +17,107 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清代
+  era: 清朝
   reign_ref: 乾隆
-  archetype: 勤政守成之君
+  archetype: 勤政恤民之君
   dilemmas:
-  - 蠲赈宜宽与防刁民冒滥之两难
-  - 察吏宜严与养廉耻培人才之两难
-  lesson: 凡事自有中道过犹不及当因物付物以大公至正持之
-  summary_first_person: 朕弘历即位六年于辛酉十月缓江淮漕赋赈水旱饥民又以温州知府改调事训饬内外大臣毋事迎合当深体大公至正之意
+  - 赈济加展与国储有常如何兼顾
+  - 边地积欠尽征与民力艰窘如何宽纾
+  - 旧例存羊与随时变通如何并行
+  lesson: 爱民不在诏令之繁而在施行之实，赈借有加，带征以宽，律例不废，礼乐考正，皆以实心行之
+  summary_first_person: 朕乾隆七年正月奉皇太后居畅春园，擬恭谒泰陵，加赈凤颍泗三属贫民，再借口粮，甘省六县旧欠分作三年带征，定未出痘外藩不必来京，敕吏部勿删官员通晓律例之条，与庄亲王等考正周礼六乐黄钟大吕相配之义，以实政养天下
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0153.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0159.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0159.md
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 缓蠲江淮漕赋赈恤水旱灾民
-  summary: 乾隆六年凤阳等州县久雨被水加恩缓徵折徵豁免并加赈以安闾阎
+  title_zh: 加赈江淮分征陇右以恤灾黎边氓
+  summary_zh: 乾隆七年正月因凤颍泗连年被潦及甘肃凉州西宁六县频岁歉收，加借口粮展赈，分年带征旧欠
   phases:
   - key: brewing
-    name: 勘灾酝酿
+    name: 连年被潦边地积歉民困为甚
     labels:
-      zh: 勘实成灾与不成灾
-    start_date: 1741-11-09
-    highlight_event_id: guji-弘历-event-jianghuai-huanzheng
+      zh:
+      - 察灾
+      - 问苦
+    start_date: 1742-02-01
+    highlight_event_id: guji-弘历-event-famine-relief
   - key: climax
-    name: 施恩蠲赈
+    name: 加借口粮分年带征颁旨加惠
     labels:
-      zh: 分年带徵折银完纳加赈
-    start_date: 1741-11-15
-    highlight_event_id: guji-弘历-event-jianghuai-huanzheng
+      zh:
+      - 加赈
+      - 宽征
+    start_date: 1742-02-15
+    highlight_event_id: guji-弘历-event-gansu-arrears
   decisions:
-  - date: 1741-11-09
-    title_zh: 缓豁宿州灵璧虹县等处漕项地丁
-    rationale: 彼地土瘠民贫连年被潦轸念输将竭蹶故分年带徵折银豁免以专心抚恤
+  - date: 1742-02-15
+    title_zh: 凤颍泗三属已赈贫民再借口粮
+    rationale: 麦秋尚远贫民乏食，平粜无钱籴买，故于定例外加借一月或两月，秋成還仓，远处拨运不及则折银给食杂粮
+  - date: 1742-02-15
+    title_zh: 武威等六县旧欠分作三年带征
+    rationale: 西陲苦寒积歉之余元气未复，新旧并征民力艰窘，故将雍正十三年以来未完粮草分年输将以示加惠边氓
 - id: guji-弘历-endeavor-2
-  title_zh: 整饬吏治训饬迎合澄叙官方
-  summary: 因德沛甄别杨士鉴及督抚参官苛刻迎合而申饬九卿督抚持大公至正慎始慎终
+  title_zh: 定外藩来京之例正礼乐律例之制
+  summary_zh: 因喀尔喀台吉来京出痘病故定生身人不必来京例，因吏部进则例及庄亲王奏乐制而存旧章考正宫调
   phases:
   - key: breakthrough
-    name: 温州府事发
+    name: 悯台吉染痘定瞻觐变通之例
     labels:
-      zh: 初历外任能否造就之辨
-    start_date: 1741-11-20
-    highlight_event_id: guji-弘历-event-xunchi-yinghe
+      zh:
+      - 恤藩
+      - 防疾
+    start_date: 1742-02-10
+    highlight_event_id: guji-弘历-event-mongol-smallpox
   - key: closure
-    name: 通饬定见
+    name: 存律例旧条考六乐南吕为宫
     labels:
-      zh: 毋事迎合因物付物
-    start_date: 1741-11-21
-    highlight_event_id: guji-弘历-event-xunchi-yinghe
+      zh:
+      - 存羊
+      - 正乐
+    start_date: 1742-02-18
+    highlight_event_id: guji-弘历-event-ritual-music
   decisions:
-  - date: 1741-11-20
-    title_zh: 留杨士鉴回原任教训勉励徐观其后
-    rationale: 人品端谨初任未谙练宜教训造就不宜遽改部属致课吏失当
-  - date: 1741-11-20
-    title_zh: 申饬内外大臣毋趋宽趋严迎合
-    rationale: 趋承惟谨出于自私不识大体故令各自省察以襄治理养廉耻培人才
+  - date: 1742-02-10
+    title_zh: 未确知出痘之外藩不必来京
+    rationale: 旧例未出痘者不准来京，误来则染疾可悯，故令于出哨行围处瞻仰，不可冒昧来京，遍谕众扎萨克
+  - date: 1742-02-18
+    title_zh: 留官员通晓律例旧例不删定南吕为宫
+    rationale: 本部本司律例若委之书吏则政治失据，故存旧条以备稽查，又以内外有别旋相为宫之义定皇太后皇后乐以南吕为宫
 events:
 - id: guji-弘历-event-birth
-  title_zh: 出生
+  type: birth
+  title_zh: 生于雍亲王府
   date: 1711-09-25
   year_of: 1711
-  place_zh: 北京雍亲王府
-  description: 康熙五十年八月十三日生即后之高宗纯皇帝
-- id: guji-弘历-event-jianghuai-huanzheng
-  title_zh: 谕缓豁凤阳等州县漕赋加赈
-  date: 1741-11-09
-  year_of: 1741
-  place_zh: 北京紫禁城
-  description: 以凤阳等十六州县夏秋被水谕缓徵漕米漕项宿州灵璧虹县格外豁免并加赈有差
-- id: guji-弘历-event-xunchi-yinghe
-  title_zh: 训饬九卿督抚毋事迎合
-  date: 1741-11-20
-  year_of: 1741
-  place_zh: 北京紫禁城
-  description: 以德沛甄别杨士鉴不当申饬内外大臣趋宽趋严迎合之弊令持大公至正澄叙官方
+  description_zh: 康熙五十年八月十三日生，为雍亲王胤禛第四子，母熹贵妃钮祜禄氏
+- id: guji-弘历-event-mongol-smallpox
+  type: career
+  title_zh: 定外藩生身人不必来京例
+  date: 1742-02-10
+  year_of: 1742
+  description_zh: 喀尔喀协办台吉齐巴格扎卜来京染痘病故，赏银遣官归葬，谕未确知出痘之王公台吉俱不必来京，可于行围处瞻仰
+- id: guji-弘历-event-famine-relief
+  type: career
+  title_zh: 加赈凤颍泗三属灾民借给口粮
+  date: 1742-02-15
+  year_of: 1742
+  description_zh: 上江凤颍泗连年被潦，麦秋前仍乏食，加赈外再借口粮一月或两月，五分不赈者亦一体酌借，秋成交谷還仓
+- id: guji-弘历-event-gansu-arrears
+  type: career
+  title_zh: 宽免甘省六县积欠分三年带征
+  date: 1742-02-15
+  year_of: 1742
+  description_zh: 武威平番永昌古浪西宁碾伯六县自雍正十三年以来未完粮草甚多，著分作三年带征，不于一岁并征
+- id: guji-弘历-event-ritual-music
+  type: career
+  title_zh: 谕考周礼六乐定南吕为宫
+  date: 1742-02-18
+  year_of: 1742
+  description_zh: 以月建日躔相合释奏黄钟歌大吕之义，令庄亲王等再详查，又从礼记帝日后月之义定皇太后皇后乐以南吕为宫，并令六部则例存旧备查不删通晓律例条
 - id: guji-弘历-event-death
-  title_zh: 驾崩
+  type: death
+  title_zh: 崩于养心殿
   date: 1799-02-07
   year_of: 1799
-  place_zh: 北京紫禁城养心殿
-  description: 嘉庆四年正月初三日崩寿八十有九
+  description_zh: 嘉庆四年正月初三日崩，年八十有九，庙号高宗，谥法天隆运至诚先觉体元立极敷文奋武孝慈神圣纯皇帝
