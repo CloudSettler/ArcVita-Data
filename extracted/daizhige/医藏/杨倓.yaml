@@ -1,0 +1,132 @@
+person:
+  qid: guji-杨倓
+  name_zh: 杨倓
+  names:
+    zh: 杨倓
+    en: Yang Tan
+  lifespan:
+    birth:
+      date: 1130
+      precision: year
+      is_circa: true
+      raw: 约宋高宗绍兴末年
+    death:
+      date: 1195
+      precision: year
+      is_circa: true
+      raw: 约宋宁宗庆元初年
+  birth_date: 1130
+  death_date: 1195
+  era: 南宋
+  reign_ref: 宋孝宗淳熙
+  archetype: 济世医家
+  dilemmas:
+  - 有限之方难通无穷之变
+  - 良医试方深藏箧中不轻语人
+  lesson: 集天下良医之所长以备仓猝乃慈父孝子之心
+  summary_first_person: 吾为代郡杨倓家藏方甚多以类编次得千一百十一道多系良医深藏不语人之试效之方今锓木郡斋愿使人家有是书以待仓猝之用
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9D%A8%E6%B0%8F%E5%AE%B6%E8%97%8F%E6%96%B9.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9D%A8%E6%B0%8F%E5%AE%B6%E8%97%8F%E6%96%B9.html
+endeavors:
+- id: guji-杨倓-endeavor-1
+  title_zh: 类编家藏验方千一百十一道
+  description_zh: 搜集家传与良医秘方以用药病证为纲分门类编备列异效而成杨氏家藏方
+  phases:
+  - key: brewing
+    name: 搜集家传秘方
+    labels:
+      zh: 搜集
+    start_date: 1165
+    highlight_event_id: guji-杨倓-event-compile
+  - key: breakthrough
+    name: 以类编次成帙
+    labels:
+      zh: 编次
+    start_date: 1175
+    highlight_event_id: guji-杨倓-event-compile
+  - key: climax
+    name: 分诸风诸证备列
+    labels:
+      zh: 成书
+    start_date: 1177
+    highlight_event_id: guji-杨倓-event-preface
+  - key: closure
+    name: 作序统摄医理
+    labels:
+      zh: 作序
+    start_date: 1178-03-01
+    highlight_event_id: guji-杨倓-event-preface
+  decisions:
+  - date: 1175
+    title_zh: 用药相似而责效不同者皆备列
+    rationale: 疾病之变无穷而方有限欲以有限通无穷故存异效以备参验
+  - date: 1178-03-01
+    title_zh: 述经络形证明增减之法
+    rationale: 恐后人附会臆度缪以毫厘故明辨经络形证以示神明之存乎其人
+- id: guji-杨倓-endeavor-2
+  title_zh: 锓木郡斋广传济世
+  description_zh: 不私藏试效之方锓木郡斋使人家有是书集众长以待仓猝
+  phases:
+  - key: brewing
+    name: 悯病家仓猝无措
+    labels:
+      zh: 立志
+    start_date: 1177
+    highlight_event_id: guji-杨倓-event-preface
+  - key: breakthrough
+    name: 定议公开良医所藏
+    labels:
+      zh: 公方
+    start_date: 1178-03-01
+    highlight_event_id: guji-杨倓-event-preface
+  - key: climax
+    name: 锓木郡斋刊刻
+    labels:
+      zh: 刊刻
+    start_date: 1178-04-01
+    highlight_event_id: guji-杨倓-event-publish
+  - key: closure
+    name: 广传天下备急
+    labels:
+      zh: 广传
+    start_date: 1178-06-01
+    highlight_event_id: guji-杨倓-event-publish
+  decisions:
+  - date: 1178-03-01
+    title_zh: 破深藏侥幸之习尽出所得
+    rationale: 今之医者深藏试方以神其术病家死生在呼吸间故当公开以济众
+  - date: 1178-04-01
+    title_zh: 锓木郡斋以广其传
+    rationale: 使慈父孝子人家有书倉猝可按方求治不失机宜
+events:
+- id: guji-杨倓-event-birth
+  type: birth
+  title_zh: 出生
+  date: 1130
+  year_of: 1130
+  description_zh: 约生于宋高宗绍兴末年代郡杨氏后居官习医
+- id: guji-杨倓-event-compile
+  type: career
+  title_zh: 类编家藏方
+  date: 1175
+  year_of: 1175
+  description_zh: 聚家藏及良医秘方以类编次得千一百十一道分诸风等门
+- id: guji-杨倓-event-preface
+  type: career
+  title_zh: 淳熙五年作序
+  date: 1178-03-01
+  year_of: 1178
+  description_zh: 淳熙五年三月乙未朔自序论探天地阴阳藉百药治疾及有限通无穷之旨
+- id: guji-杨倓-event-publish
+  type: career
+  title_zh: 锓木郡斋广传
+  date: 1178-06-01
+  year_of: 1178
+  description_zh: 于郡斋锓木刊行杨氏家藏方以广其传使天下家有是书
+- id: guji-杨倓-event-death
+  type: death
+  title_zh: 逝世
+  date: 1195
+  year_of: 1195
+  description_zh: 约卒于宋宁宗庆元初年其书流传为宋代官家藏名方
