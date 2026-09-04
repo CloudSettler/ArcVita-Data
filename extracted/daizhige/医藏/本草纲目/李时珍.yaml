@@ -11,126 +11,135 @@ person:
       is_circa: false
       raw: 明正德十三年五月二十六日
     death:
-      date: 1593-01-01
+      date: 1593
       precision: year
       is_circa: false
       raw: 明万历二十一年
   birth_date: 1518-07-03
-  death_date: 1593-01-01
-  era: 明
+  death_date: 1593
+  era: 明代
   reign_ref: 明嘉靖至万历
-  archetype: 医家
+  archetype: 本草学家
   dilemmas:
-  - 出仕济世与弃儒业医之间难以两全
-  - 尊古守旧与考证纠谬之间易招物议而坚持求真
-  lesson: 穷经格物以辨真伪，历艰不改，方能成济世之业
-  summary_first_person: 我生于蕲州医门，见旧本草讹误相承，遂弃举业而专医，博览考证，历二十七年三易其稿，撰成纲目五十二卷，惟愿正名辨物以利后人
+  - 弃科举而从医道，恐负父望与仕进之途
+  - 订正旧本草之讹误，惧药误人命与世俗非议
+  lesson: 格物穷理，亲验方为医道之本
+  summary_first_person: 吾蕲州李时珍，弃举业而习医，历三十余年采访四方，考证本草，著纲目以惠后世
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B746.md
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B746.html
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E7%BA%B2%E7%9B%AE/%E5%8D%B750.html
 endeavors:
 - id: guji-李时珍-endeavor-1
-  person_qid: guji-李时珍
-  title_zh: 编撰本草纲目正名辨物
-  summary: 博览历代本草，考证名物讹误，纲举目张编成五十二卷
+  title_zh: 编纂本草纲目
+  summary: 考证历代本草，亲采广访，历三十年成纲目五十二卷
   phases:
   - key: brewing
-    name: 博览旧本草酝酿重修
+    name: 发愿考证
     labels:
-      zh: 积累考证
-    start_date: 1552-01-01
-    highlight_event_id: guji-李时珍-event-start-compiling
+      zh:
+      - 酝酿
+    start_date: 1552
+    highlight_event_id: guji-李时珍-event-start-bencao
   - key: breakthrough
-    name: 立纲目体例突破旧分类
+    name: 四方采药
     labels:
-      zh: 立纲立目
-    start_date: 1565-01-01
-    highlight_event_id: guji-李时珍-event-start-compiling
+      zh:
+      - 突破
+    start_date: 1556
+    highlight_event_id: guji-李时珍-event-travel
   - key: climax
-    name: 三易其稿撰成全书
+    name: 纲目初成
     labels:
-      zh: 撰述高峰
-    start_date: 1578-01-01
-    highlight_event_id: guji-李时珍-event-complete-draft
+      zh:
+      - 高潮
+    start_date: 1578
+    highlight_event_id: guji-李时珍-event-draft
   - key: closure
-    name: 刊刻流传收束成业
+    name: 校订刊行
     labels:
-      zh: 刊行传世
-    start_date: 1590-01-01
-    highlight_event_id: guji-李时珍-event-complete-draft
+      zh:
+      - 收束
+    start_date: 1593
+    highlight_event_id: guji-李时珍-event-death
   decisions:
-  - date: 1552-01-01
-    title_zh: 弃举业专治医典
-    rationale: 见旧本草踳驳，欲以考证正其误，故舍科举而专攻医药
-  - date: 1578-01-01
-    title_zh: 以纲目统摄诸品三易其稿
-    rationale: 旧部分类混乱名实不符，须立纲目以正名辨物，虽劳而必为
+  - date: 1552
+    title_zh: 立志重修本草
+    rationale: 见旧本草讹误遗漏甚多，遂发愿亲验重订
+  - date: 1578
+    title_zh: 定稿本草纲目
+    rationale: 考证既成，纲举目张，坚持三易其稿以求确核
 - id: guji-李时珍-endeavor-2
-  person_qid: guji-李时珍
-  title_zh: 行医采药辨证济世
-  summary: 行医楚地，亲尝亲验，采药问民以证药物真性主治
+  title_zh: 悬壶行医济世
+  summary: 承家学行医楚中，任太医院判，归乡设诊著书
   phases:
   - key: brewing
-    name: 家学行医初涉民间疾苦
+    name: 弃儒习医
     labels:
-      zh: 行医起步
-    start_date: 1548-01-01
-    highlight_event_id: guji-李时珍-event-start-compiling
+      zh:
+      - 酝酿
+    start_date: 1540
+    highlight_event_id: guji-李时珍-event-practice
   - key: breakthrough
-    name: 历楚地采药访方辨真伪
+    name: 楚府就医
     labels:
-      zh: 采验突破
-    start_date: 1556-01-01
-    highlight_event_id: guji-李时珍-event-start-compiling
+      zh:
+      - 突破
+    start_date: 1551
+    highlight_event_id: guji-李时珍-event-practice
   - key: climax
-    name: 以介部蚌蛤等品证药性归经
+    name: 太医院任职
     labels:
-      zh: 辨证明确
-    start_date: 1570-01-01
-    highlight_event_id: guji-李时珍-event-complete-draft
+      zh:
+      - 高潮
+    start_date: 1556
+    highlight_event_id: guji-李时珍-event-travel
   - key: closure
-    name: 以经验归入纲目附方济人
+    name: 归蕲著述
     labels:
-      zh: 经验成方
-    start_date: 1578-01-01
-    highlight_event_id: guji-李时珍-event-complete-draft
+      zh:
+      - 收束
+    start_date: 1560
+    highlight_event_id: guji-李时珍-event-draft
   decisions:
-  - date: 1556-01-01
-    title_zh: 远游采药询及渔樵
-    rationale: 纸上之言不足信，须亲至山泽访采，询及渔猎樵夫以得真状
-  - date: 1570-01-01
-    title_zh: 取舍附方务求验实
-    rationale: 旧方芜杂不可尽信，必择亲验及可据者录入，以免误人性命
+  - date: 1540
+    title_zh: 三试不第弃举业医
+    rationale: 体弱多病感医药未精，承父命习医以活人
+  - date: 1556
+    title_zh: 辞太医院归乡
+    rationale: 不恋官职，欲专心采药著书以成大业
 events:
 - id: guji-李时珍-event-birth
-  person_qid: guji-李时珍
-  type: birth
-  title_zh: 生于蕲州医家
+  title_zh: 出生于蕲州
   date: 1518-07-03
   year_of: 1518
-  description: 明正德十三年生于湖广蕲州，父为医，家学渊源
-  location: 蕲州
-- id: guji-李时珍-event-start-compiling
-  person_qid: guji-李时珍
-  type: endeavor
-  title_zh: 发愤重修本草开始考证
-  date: 1552-01-01
+  place: 湖广蕲州
+  description: 李时珍生于医药世家，父李言闻授以医学
+- id: guji-李时珍-event-practice
+  title_zh: 弃儒从医行医乡里
+  date: 1540
+  year_of: 1540
+  place: 蕲州
+  description: 屡试不第后承父业行医，声名渐起
+- id: guji-李时珍-event-start-bencao
+  title_zh: 发愿重修本草
+  date: 1552
   year_of: 1552
-  description: 感旧本草讹误，始发愿重修，博览群书，采访四方
-  location: 湖广
-- id: guji-李时珍-event-complete-draft
-  person_qid: guji-李时珍
-  type: endeavor
-  title_zh: 纲目初成三易其稿
-  date: 1578-01-01
+  place: 蕲州
+  description: 因读旧本草多误，立志亲采考证重纂
+- id: guji-李时珍-event-travel
+  title_zh: 四方采访考证
+  date: 1556
+  year_of: 1556
+  place: 湖广江西江苏诸山
+  description: 历太医院及楚王府，遍访名山药材并询方于渔樵
+- id: guji-李时珍-event-draft
+  title_zh: 本草纲目初稿完成
+  date: 1578
   year_of: 1578
-  description: 历二十七年，稿凡三易，成五十二卷，介部蚌蛤诸品皆考名辨性详载其中
-  location: 蕲州
+  place: 蕲州蕲艾堂
+  description: 历二十七年三易其稿，完成纲目五十二卷濒湖脉学等
 - id: guji-李时珍-event-death
-  person_qid: guji-李时珍
-  type: death
-  title_zh: 卒于蕲州书未刊行
-  date: 1593-01-01
+  title_zh: 逝世于蕲州
+  date: 1593
   year_of: 1593
-  description: 明万历二十一年卒于故里，其书后三年刊行传世
-  location: 蕲州
+  place: 蕲州
+  description: 卒于故里，纲目未刊，三年后其子建元刊行于金陵
