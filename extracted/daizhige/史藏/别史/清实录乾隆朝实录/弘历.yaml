@@ -9,125 +9,159 @@ person:
       date: 1711-09-25
       precision: day
       is_circa: false
-      raw: 康熙五十年八月十三日生於雍親王府
+      raw: 康熙五十年八月十三日
     death:
       date: 1799-02-07
       precision: day
       is_circa: false
-      raw: 嘉慶四年正月初三日崩於養心殿
+      raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
   era: 清代
   reign_ref: 乾隆
-  archetype: 守成求治之君
+  archetype: 折衷至当的守成励治之君
   dilemmas:
-  - 寬嚴之間如何執中而不流於揣摩迎合
-  - 唐虞淳厚之俗可否以養民教士復現於今
-  - 親定文衡如何以氣為主兼顧實學與辭華
-  lesson: 執中非空言要在因時因事見於實政養民為教化之本實學為得人之要
-  summary_first_person: 朕以沖年纘承祖宗丕基受皇考付託之重踐阼之初孜孜求治臨軒策士親定甲第欲端士習厚民生使執中之傳見於實事以臻唐虞盛治
+  - 宽严折衷之难，从宽体恤而防纵弛怠玩
+  - 江南奢靡移风之难，化导节俭而不致扰民
+  lesson: 为政惟贵合乎中道，宽严得宜，渐以岁月迁善
+  summary_first_person: 朕以冲龄缵绪，夙夜孜孜，期返淳朴，通筹河漕，安澜利运，以襄郅理
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0016.md
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0016.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0019.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 元年首科臨軒策士親定甲第
-  summary_zh: 乾隆元年首開科舉臨軒策問三百餘士以用中足民教士為問親閱殿試卷黜置不切之文擢金德瑛為狀元以振實學
+  person_id: guji-弘历
+  title_zh: 崇俭化俗训饬吏治
+  summary: 针对江南奢靡与吏治怠玩，颁谕化导节俭，严禁师巫，训饬八旗与内外臣工折衷至当
   phases:
   - key: brewing
-    name: 纘承求治望賢助
+    name: 即位访闻江南奢靡吏治懈怠
     labels:
-      zh: 求治
-    start_date: 1736-05-10
-    highlight_event_id: guji-弘历-event-cewen
+      zh:
+      - 访闻
+      - 积习
+    start_date: 1735-10-03
+    highlight_event_id: guji-弘历-event-enthroned
   - key: breakthrough
-    name: 臨軒策問頒長策
+    name: 颁谕江南浙江崇节俭禁淫祀
     labels:
-      zh: 策問
-    start_date: 1736-05-11
-    highlight_event_id: guji-弘历-event-cewen
+      zh:
+      - 化导
+      - 节俭
+    start_date: 1736-06-10
+    highlight_event_id: guji-弘历-event-jiejian
   - key: climax
-    name: 御殿閱卷親去取
+    name: 训饬内外臣工廉隅折衷至当
     labels:
-      zh: 親裁
-    start_date: 1736-05-13
-    highlight_event_id: guji-弘历-event-dianding
+      zh:
+      - 训饬
+      - 廉耻
+    start_date: 1736-06-14
+    highlight_event_id: guji-弘历-event-jiejian
   - key: closure
-    name: 臚唱傳臚定三甲
+    name: 训饬八旗严禁乘舆酗酒滋事
     labels:
-      zh: 放榜
-    start_date: 1736-05-14
-    highlight_event_id: guji-弘历-event-dianding
+      zh:
+      - 整肃
+      - 法度
+    start_date: 1736-06-15
+    highlight_event_id: guji-弘历-event-jiejian
   decisions:
-  - date: 1736-05-11
-    title_zh: 策以執中足民教士
-    rationale: 欲使執中之傳不為空言以足民為教化之本以實學起士風直言勿隱以啟予不逮
-  - date: 1736-05-13
-    title_zh: 黜耕耤不切之卷擢金德瑛第一
-    rationale: 以未曾耕耤句不切置原擬第一為第二取氣厚之卷為第一示作文以氣為主經久在厚不在飾
+  - date: 1736-06-10
+    title_zh: 谕江南浙江崇实去华渐返淳朴
+    rationale: 地狭民稠衣食难充，须以俭素相先，诚心训谕渐以岁月，不用严峻繁苛以免扰民
+  - date: 1736-06-14
+    title_zh: 谕内外臣工正谊明道靖共尔位
+    rationale: 士大夫计较养廉丰啬有乖廉耻，须严义利之辨，各尽职守以清吏治厚民生
 - id: guji-弘历-endeavor-2
-  title_zh: 整飭吏治惠養邊民
-  summary_zh: 諭讀卷大臣直言朕過戒督撫迎合從寬就事論事設歸化養濟院收養疲癃永免太和山香稅以厚民生
+  person_id: guji-弘历
+  title_zh: 通筹河漕督理军政
+  summary: 通局合算治理黄河，严催漕运革弊，轮觐提镇，分驻官兵，以致安澜遄行
   phases:
   - key: brewing
-    name: 訓臣直言戒迎合
+    name: 河漕积弊沿途延挨冻阻
     labels:
-      zh: 訓臣
-    start_date: 1736-05-13
-    highlight_event_id: guji-弘历-event-dianding
+      zh:
+      - 踏勘
+      - 积弊
+    start_date: 1736-06-11
+    highlight_event_id: guji-弘历-event-river
   - key: breakthrough
-    name: 論寬嚴宜就事論事
+    name: 谕移副总河驻徐州会商防浚
     labels:
-      zh: 吏治
-    start_date: 1736-05-13
-    highlight_event_id: guji-弘历-event-dianding
+      zh:
+      - 利导
+      - 会商
+    start_date: 1736-06-11
+    highlight_event_id: guji-弘历-event-river
   - key: climax
-    name: 設養濟院收養窮民
+    name: 训饬漕运催趱革偷盗勒索之弊
     labels:
-      zh: 惠養
-    start_date: 1736-05-22
-    highlight_event_id: guji-弘历-event-huimin
+      zh:
+      - 催趱
+      - 革弊
+    start_date: 1736-06-15
+    highlight_event_id: guji-弘历-event-caoyun
   - key: closure
-    name: 豁免香稅禁巧取
+    name: 议彻边兵分驻鄂尔坤乌里雅苏台
     labels:
-      zh: 蠲免
-    start_date: 1736-05-22
-    highlight_event_id: guji-弘历-event-huimin
+      zh:
+      - 分驻
+      - 善后
+    start_date: 1736-06-09
+    highlight_event_id: guji-弘历-event-caoyun
   decisions:
-  - date: 1736-05-13
-    title_zh: 面諭讀卷大臣直言無隱
-    rationale: 沖年踐阼半年未聞直言朕過欲法皇考周悉訓教使臣工敬念舊訓據實論事不事揣摩
-  - date: 1736-05-22
-    title_zh: 設歸化養濟院永免太和山香稅
-    rationale: 法古帝王哀矜煢獨之意使邊城窮民均沾實惠聽民虔禮神明自便杜奸胥巧取滋弊
+  - date: 1736-06-11
+    title_zh: 令副总河移驻徐州专任督率
+    rationale: 徐州当南北之冲为两河关键，须通局合算同心办理，毋得推诿掣肘以免顾此失彼
+  - date: 1736-06-15
+    title_zh: 令漕督仓场严催趱并明白回奏
+    rationale: 塘铺懈怠旗丁延挨勾通盗卖搀和，经纪勒索，须复雍正旧规令漕艘遄行弊端尽革
 events:
 - id: guji-弘历-event-birth
-  title_zh: 出生於雍親王府
+  person_id: guji-弘历
+  title_zh: 出生于雍亲王府
   date: 1711-09-25
   year_of: 1711
-  place_zh: 北京雍親王府
-  description_zh: 康熙五十年八月十三日生為雍親王胤禛第四子母孝聖憲皇后鈕祜祿氏
-- id: guji-弘历-event-cewen
-  title_zh: 臨軒策試天下貢士
-  date: 1736-05-11
+  kind: birth
+  raw: 康熙五十年八月十三日
+  description: 雍亲王第四子生，母钮祜禄氏，后为乾隆皇帝
+- id: guji-弘历-event-enthroned
+  person_id: guji-弘历
+  title_zh: 登极即位改元乾隆
+  date: 1735-10-03
+  year_of: 1735
+  kind: accession
+  raw: 雍正十三年八月廿三日
+  description: 雍正崩后即皇帝位，以明年为乾隆元年，首蠲积欠以宽民力
+- id: guji-弘历-event-jiejian
+  person_id: guji-弘历
+  title_zh: 训江南浙江崇节俭禁师巫
+  date: 1736-06-10
   year_of: 1736
-  place_zh: 北京太和殿前
-  description_zh: 乾隆元年四月丙寅策試趙青藜等三百四十四人問用中敷治風俗士習足民教士之道命直言勿隱
-- id: guji-弘历-event-dianding
-  title_zh: 御養心殿閱卷親定狀元
-  date: 1736-05-13
+  kind: governance
+  raw: 乾隆元年五月庚戌
+  description: 谕总理事务王大臣令化导节俭去华，粗粝可食布帛可安，严禁师巫蛊惑，渐返淳朴
+- id: guji-弘历-event-river
+  person_id: guji-弘历
+  title_zh: 谕治河移副总河驻徐州会商防浚
+  date: 1736-06-11
   year_of: 1736
-  place_zh: 北京養心殿
-  description_zh: 戊辰御養心殿閱進呈卷黜有耕耤句不切者取金德瑛為第一黃孫懋秦蕙田次之並面諭讀卷大臣以氣論文戒迎合
-- id: guji-弘历-event-huimin
-  title_zh: 設歸化養濟院免太和山香稅
-  date: 1736-05-22
+  kind: governance
+  raw: 乾隆元年五月壬子
+  description: 谕治河因势利导，令南河副总河移驻徐州，与南北河臣公同踏勘开浚堵筑
+- id: guji-弘历-event-caoyun
+  person_id: guji-弘历
+  title_zh: 训饬漕运催趱革弊
+  date: 1736-06-15
   year_of: 1736
-  place_zh: 歸化城及湖北太和山
-  description_zh: 丁丑命以歸化舊把總官房改養濟院撥牛羊稅銀米收養疲癃並照泰安例永免太和山香稅
+  kind: governance
+  raw: 乾隆元年五月戊午
+  description: 以漕粮迟滞冻阻偷盗搀和经纪勒索，谕漕督程元章仓场塞尔赫等严整催趱并回奏
 - id: guji-弘历-event-death
-  title_zh: 崩於養心殿
+  person_id: guji-弘历
+  title_zh: 太上皇崩于养心殿
   date: 1799-02-07
   year_of: 1799
-  place_zh: 北京養心殿
-  description_zh: 嘉慶四年正月初三日崩年八十九諡法天隆運至誠先覺體元立極敷文奮武孝慈神聖純皇帝廟號高宗
+  kind: death
+  raw: 嘉庆四年正月初三日
+  description: 归政后仍训政，崩年八十九，谥纯皇帝，庙号高宗
