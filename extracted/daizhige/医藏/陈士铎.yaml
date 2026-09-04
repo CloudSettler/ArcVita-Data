@@ -9,138 +9,130 @@ person:
       date: 1627
       precision: year
       is_circa: false
-      raw: 明崇祯元年生于浙江山阴
+      raw: 明末生于浙江山阴
     death:
       date: 1707
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 清康熙四十六年卒
   birth_date: 1627
   death_date: 1707
   era: 清
   reign_ref: 康熙
-  archetype: 仁医著述家
+  archetype: 仁医述道者
   dilemmas:
-  - 本草传疑传信竞尚阴寒杀人草木中是否当翻前人旧案折衷至正
-  - 抱可著作之才而晚年不遇是自伤湮没还是著书以老救万世
-  lesson: 医救一世功近救万世功远须穷理虚怀攻补兼施慎用寒凉方为良医
-  summary_first_person: 吾山阴陈士铎字敬之号远公晚号朱华子少好游遍历名山大川躬阅患难疾病考订草木禽兽晚逢异人于燕市得岐伯仲景纯阳之传先著石室秘录内经六气再删繁就简著本草新编辨功用真赝权损益补多于攻以救万世
+  - 世传刀圭不足活人而天上奇书难得真传
+  - 秘录方法过奇恐人不信而隐则失济世之志
+  lesson: 得异传而不自秘，阐幽发微以寿世寿民，方为仁人之学
+  summary_first_person: 吾陈士铎字远公，幼读班马，长习岐黄，遍历宇内而叹医门寡法，幸于玉河逢岐天师尽传石室秘录一百二十八法，又得仲景吕祖华君发明参订，遂注素问阐扬青囊，愿公之万世以救一世之人
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E6%96%B0%E7%BC%96.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%9C%AC%E8%8D%89%E6%96%B0%E7%BC%96.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E7%9F%B3%E5%AE%A4%E7%A7%98%E5%BD%95.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E7%9F%B3%E5%AE%A4%E7%A7%98%E5%BD%95.html
 endeavors:
 - id: guji-陈士铎-endeavor-1
-  title_zh: 撰述本草新编折衷至正
-  summary: 继内经六气之后考纲目经疏删繁就简辨功用真赝权损益以补多于攻救济生人
+  title_zh: 玉河遇岐伯尽传石室秘录
+  description: 康熙丁卯客游玉河辨难内经，遇岐天师授秘录抄录一通，又逐门辨难一月尽得一百二十八法
   phases:
   - key: brewing
-    name: 壮游博览咨询考订
+    name: 少习岐黄遍历宇内
     labels:
       zh:
-      - 游历博览
+      - 好游求道
+      - 博览医书
     start_date: 1650
-    highlight_event_id: guji-陈士铎-event-travel
+    highlight_event_id: guji-陈士铎-event-birth
   - key: breakthrough
-    name: 燕市逢异人得传秘旨
+    name: 玉河辨难得见秘录
     labels:
       zh:
-      - 燕市遇异
+      - 遇师
+      - 得书
     start_date: 1687
-    highlight_event_id: guji-陈士铎-event-yanshi
+    highlight_event_id: guji-陈士铎-event-yuhe-1687
   - key: climax
-    name: 先著内经六气再著本草
+    name: 袖中传书逐法参悟
     labels:
       zh:
-      - 著述本草
-    start_date: 1689
-    highlight_event_id: guji-陈士铎-event-bencao
+      - 抄录
+      - 心悟
+    start_date: 1687
+    highlight_event_id: guji-陈士铎-event-yuhe-1687
   - key: closure
-    name: 付梓刊行以救万世
+    name: 辨难内经一月贯通
     labels:
       zh:
-      - 刊行济世
-    start_date: 1691
-    highlight_event_id: guji-陈士铎-event-publish
+      - 贯通
+      - 立志著书
+    start_date: 1687
+    highlight_event_id: guji-陈士铎-event-yuhe-1687
   decisions:
-  - date: 1689
-    title_zh: 删繁就简辨本草功用真赝
-    rationale: 神农以来数经兵燹秦火传疑传信竞尚阴寒杀人草木中故须折衷至正悉功用权损益通经脏补火水
-  - date: 1691
-    title_zh: 以补多于攻详人所略救今病
-    rationale: 气运日迁人多柔弱古攻方不可治今病故登诸品补多于攻慎寒凉殷勤告诫以救生人
+  - date: 1687
+    title_zh: 慨然以著书为己任
+    rationale: 见秘录而知天地之大，欲变古今向导以救天下，故不辞惊愕而存笥考稽
+  - date: 1687
+    title_zh: 请益岐伯仲景吕祖华君
+    rationale: 恐旨意深邃方法过奇人不信，故求诸真人发明质正异同以归于正
 - id: guji-陈士铎-endeavor-2
-  title_zh: 行医穷理劝医济世
-  summary: 以天人合一之理拨盲起疲阐七方十剂作劝医六则以仁心垂训后学
+  title_zh: 阐扬青囊注素问刊布寿世
+  description: 以石室秘录即青囊之术决奥阐幽，大壮文澜注素问内经，又不乐自秘而请序刊布以活万世
   phases:
   - key: brewing
-    name: 跋涉山川实践求真
+    name: 决奥阐幽注素问
     labels:
       zh:
-      - 实践求真
-    start_date: 1650
-    highlight_event_id: guji-陈士铎-event-travel
+      - 注经
+      - 阐幽
+    start_date: 1688
+    highlight_event_id: guji-陈士铎-event-kanbu-1689
   - key: breakthrough
-    name: 石室秘录拨盲起疲
+    name: 吕祖召师同游燕市罄传
     labels:
       zh:
-      - 医术显验
-    start_date: 1687
-    highlight_event_id: guji-陈士铎-event-yanshi
+      - 会真
+      - 尽传
+    start_date: 1688
+    highlight_event_id: guji-陈士铎-event-kanbu-1689
   - key: climax
-    name: 阐七方十剂穷理用药
+    name: 得一百二十八门具在
     labels:
       zh:
-      - 阐扬医理
-    start_date: 1689
-    highlight_event_id: guji-陈士铎-event-bencao
+      - 成书
+      - 请序
+    start_date: 1688
+    highlight_event_id: guji-陈士铎-event-kanbu-1689
   - key: closure
-    name: 作劝医六则垂训立心
+    name: 金孝芑等序而刊布海内
     labels:
       zh:
-      - 劝医立训
-    start_date: 1691
-    highlight_event_id: guji-陈士铎-event-publish
+      - 刊布
+      - 寿世
+    start_date: 1689
+    highlight_event_id: guji-陈士铎-event-kanbu-1689
   decisions:
-  - date: 1691
-    title_zh: 攻补兼施毋求速效劫药
-    rationale: 病成非一日愈岂在一朝轻粉劫药取快须臾毒发病生故宜损益并用去邪反正虽迟而终身受惠
-  - date: 1691
-    title_zh: 学医务穷理尚虚怀集议
-    rationale: 不穷理则阴阳未识攻补茫然人非我是则我见不化故须明阴阳识经络守经达权博采广谘佐识见
+  - date: 1688
+    title_zh: 不秘一世而公之万世
+    rationale: 习医救一人不如救一世，救一世不如救万世，故存书以待好善如己者
+  - date: 1689
+    title_zh: 以秘录佐至治寿民
+    rationale: 圣人在上轸念疾苦，家户诵而试效，则仰佐至治而灾疠自息
 events:
 - id: guji-陈士铎-event-birth
-  title_zh: 山阴出生幼读六籍
   date: 1627
   year_of: 1627
-  place_zh: 浙江山阴
-  description: 明崇祯元年生山阴幼读六籍少喜浪游探奇名山胜地
-- id: guji-陈士铎-event-travel
-  title_zh: 壮游宇内考订草木
-  date: 1650
-  year_of: 1650
-  place_zh: 五岳四渎名山大川
-  description: 遍历名山大川躬阅兵戈患难疾病咨询土人见琪花瑶草异兽珍禽昆虫介属必考订备志
-- id: guji-陈士铎-event-yanshi
-  title_zh: 燕市逢异人得传秘旨
+  title_zh: 生于浙江山阴
+  description: 明末生于浙绍山阴陈氏，字敬之，号远公，又号海蟾主人，幼读班马长习黄岐
+- id: guji-陈士铎-event-yuhe-1687
   date: 1687
   year_of: 1687
-  place_zh: 燕市
-  description: 丁卯失意肆志轩岐逢岐伯天师纯阳吕公长沙张机得碧落文六气诸书晨夕研求几废寝食
-- id: guji-陈士铎-event-bencao
-  title_zh: 著内经六气后著本草新编
+  title_zh: 康熙丁卯玉河遇岐天师得石室秘录
+  description: 过玉河辨难内经，岐伯出秘录示之，袖中尽传，抄录一通，又辨难一月，兼得仲景张公吕道人发明
+- id: guji-陈士铎-event-kanbu-1689
   date: 1689
   year_of: 1689
-  place_zh: 大江之南舟中
-  description: 先成石室秘录内经灵枢六气客舟观江涛云峦畅抒独得著本草新编略人所详详人所略辨疑发微
-- id: guji-陈士铎-event-publish
-  title_zh: 本草新编付梓刊行
-  date: 1691
-  year_of: 1691
-  place_zh: 上元
-  description: 康熙辛未金以谋序而梓行删神农原本十之三采名医增入十之二陈七方十剂劝医六则补多于攻
+  title_zh: 康熙己巳得序刊布石室秘录
+  description: 戊辰请序于吕道人，己巳仲秋金以谋题序于义乌，谓青囊未焚之书复传，刊布海内以寿世寿民
 - id: guji-陈士铎-event-death
-  title_zh: 逝世遗书救万世
   date: 1707
   year_of: 1707
-  place_zh: 浙江山阴
-  description: 晚年著述颇富发明灵素秘奥家贫愿损资剞劂以副异人托后逝世其书为万世法
+  title_zh: 卒于清康熙四十六年
+  description: 晚年以注素问辨证诸书行世，石室秘录与辨证录等并传，后世奉为青囊嫡传之仁医
