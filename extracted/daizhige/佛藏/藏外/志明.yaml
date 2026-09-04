@@ -1,0 +1,144 @@
+person:
+  qid: guji-志明
+  name_zh: 志明
+  names:
+    zh: 志明
+    en: Zhiming
+  lifespan:
+    birth:
+      date: 1180-01-01
+      precision: year
+      is_circa: true
+      raw: 安州郝氏子生年未详
+    death:
+      date: 1232-01-01
+      precision: year
+      is_circa: true
+      raw: 正大后未详
+  birth_date: 1180-01-01
+  death_date: 1232-01-01
+  era: 金
+  reign_ref: 金哀宗正大
+  archetype: 禅门文字禅师
+  dilemmas:
+  - 住持少林之请与拄筇自适之志难两全
+  - 不立文字之宗与韵语蒙求之教难相谐
+  lesson: 以对偶韵语摄受初机使粗知问津不坠素业
+  summary_first_person: 我是安州郝氏子少林错庵志明字伯昏号乐真子受具香林彻证东林不就少林之请惟以五百余则蒙求接引后学
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/禅苑蒙求.md
+  - https://daizhige.org/禅苑蒙求.html
+endeavors:
+- id: guji-志明-endeavor-1
+  title_zh: 香林受具东林彻证
+  summary: 自糠禅发心受具香林咨扣胜静普彻证东林悬槌巾拄拐自适
+  phases:
+  - key: brewing
+    name: 糠禅发心雉发受具
+    labels:
+      zh: 发心受具
+    start_date: 1195-01-01
+    highlight_event_id: guji-志明-event-ordination
+  - key: breakthrough
+    name: 咨参胜静普彻证东林
+    labels:
+      zh: 彻证
+    start_date: 1205-01-01
+    highlight_event_id: guji-志明-event-enlightenment
+  - key: climax
+    name: 悬槌巾拄拐自适
+    labels:
+      zh: 自适
+    start_date: 1215-01-01
+    highlight_event_id: guji-志明-event-enlightenment
+  - key: closure
+    name: 东林迁超化补少林之议
+    labels:
+      zh: 去留
+    start_date: 1224-01-01
+    highlight_event_id: guji-志明-event-leave
+  decisions:
+  - date: 1195-01-01
+    title_zh: 感洁首座激砺而雉发受具
+    rationale: 为求正法眼须离俗入僧始能咨参胜地彻证本心
+  - date: 1224-01-01
+    title_zh: 打筹自誓不就少林长歌而去
+    rationale: 去留自适不以外请易高致全其简朴精敏之性
+- id: guji-志明-endeavor-2
+  title_zh: 制禅苑蒙求接引初机
+  summary: 以正法眼作文字禅贯串古则五百余事骈偶韵语以省后学十载之劳
+  phases:
+  - key: brewing
+    name: 作贯花标月集
+    labels:
+      zh: 著述之始
+    start_date: 1220-01-01
+    highlight_event_id: guji-志明-event-compilation
+  - key: breakthrough
+    name: 制禅苑瑶林蒙求五百余则
+    labels:
+      zh: 蒙求成书
+    start_date: 1225-01-01
+    highlight_event_id: guji-志明-event-compilation
+  - key: climax
+    name: 雪堂注释玉溪取板行
+    labels:
+      zh: 注释流通
+    start_date: 1226-01-01
+    highlight_event_id: guji-志明-event-compilation
+  - key: closure
+    name: 挽留不可高致仰于诸方
+    labels:
+      zh: 高致远播
+    start_date: 1226-06-01
+    highlight_event_id: guji-志明-event-leave
+  decisions:
+  - date: 1225-01-01
+    title_zh: 以韵语对偶编五百余则
+    rationale: 童稚无识未能参叩使成诵在口粗知问津不断素业
+  - date: 1226-01-01
+    title_zh: 付雪堂注释板行瑶林
+    rationale: 记事提要纂言钩玄利后学省十载之劳成半藏之记
+events:
+- id: guji-志明-event-birth
+  title_zh: 生于安州郝氏
+  type: birth
+  date: 1180-01-01
+  year_of: 1180
+  location: 安州
+  description: 安州郝氏子性忽绳墨外简朴而内精敏
+- id: guji-志明-event-ordination
+  title_zh: 从香林净公受具
+  type: achievement
+  date: 1195-01-01
+  year_of: 1195
+  location: 香林
+  description: 感洁首座激砺雉发师香林净公受具日夕咨参胜静普之室
+- id: guji-志明-event-enlightenment
+  title_zh: 彻证于东林
+  type: achievement
+  date: 1205-01-01
+  year_of: 1205
+  location: 东林
+  description: 后彻证于东林悬木槌拭手谓之槌巾拄一拐去留自适
+- id: guji-志明-event-compilation
+  title_zh: 制禅苑蒙求成书
+  type: achievement
+  date: 1225-12-01
+  year_of: 1225
+  location: 少林
+  description: 贯串二千言发明五百事骈偶韵语为禅门节事法海联题
+- id: guji-志明-event-leave
+  title_zh: 打筹长歌辞少林而去
+  type: achievement
+  date: 1226-01-26
+  year_of: 1226
+  location: 嵩山少林
+  description: 东林迁超化众请补少林打筹自誓作五乳峰前歌拄筇上嵩阳道挽留不可
+- id: guji-志明-event-death
+  title_zh: 示寂
+  type: death
+  date: 1232-01-01
+  year_of: 1232
+  location: 嵩山
+  description: 正大后行迹未详诸方仰其高致示寂于嵩山一带

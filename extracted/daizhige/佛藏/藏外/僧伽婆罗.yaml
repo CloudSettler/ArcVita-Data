@@ -1,0 +1,147 @@
+person:
+  qid: guji-僧伽婆罗
+  name_zh: 僧伽婆罗
+  names:
+    zh: 僧伽婆罗
+    en: Sanghapala
+  lifespan:
+    birth:
+      date: '0460'
+      precision: year
+      is_circa: true
+      raw: 普通五年卒年六十五逆推约生于宋大明四年左右
+    death:
+      date: '0524'
+      precision: year
+      is_circa: false
+      raw: 梁普通五年卒于扬都正观寺春秋六十有五
+  birth_date: '0460'
+  death_date: '0524'
+  era: 南北朝梁
+  reign_ref: 梁武帝天监普通
+  archetype: 译经弘法沙门
+  dilemmas:
+  - 齐末道教陵夷身为异国客僧当退隐养素还是随俗交游
+  - 奉诏传译华梵悬隔当直质梵义还是润饰华言以便流布
+  lesson: 静洁养素以待时缘至则尽诚传译不畜私财归于常住
+  summary_first_person: 吾扶南人也少习阿毘昙具戒后广习律藏闻齐弘法随舶东来师事求那跋陀值齐历亡坠闭室栖闲梁武搜访以天监五年征吾译经凡历五处十三年译大育王经解脱道论等十一部四十八卷武帝亲临笔受吾不畜私财以嚫施立寺普通五年病卒于正观春秋六十有五
+  source_urls:
+  - https://zh.wikisource.org/wiki/續高僧傳
+endeavors:
+- id: guji-僧伽婆罗-endeavor-1
+  title_zh: 应诏传译十一部
+  summary_zh: 自天监五年至十七年于寿光殿华林园正观寺等五处译出大育王经解脱道论等十一部四十八卷
+  phases:
+  - key: brewing
+    name: 扶南习学观方东来
+    labels:
+      zh:
+      - 毘昙律藏
+      - 观方开化
+    start_date: '0460'
+    highlight_event_id: guji-僧伽婆罗-event-birth
+  - key: breakthrough
+    name: 天监应召入殿传译
+    labels:
+      zh:
+      - 寿光笔受
+      - 华质有序
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-translate-start
+  - key: climax
+    name: 五处开译宝唱参校
+    labels:
+      zh:
+      - 对校疏出
+      - 不坠译宗
+    start_date: '0510'
+    highlight_event_id: guji-僧伽婆罗-event-translate-start
+  - key: closure
+    name: 十七年讫译业圆满
+    labels:
+      zh:
+      - 十一部经
+      - 四十八卷
+    start_date: 0518
+    highlight_event_id: guji-僧伽婆罗-event-translate-complete
+  decisions:
+  - date: '0506'
+    title_zh: 应梁武征召入京传译
+    rationale: 大梁御宇搜访术能以正法开化为志故舍闲就诏
+  - date: '0506'
+    title_zh: 付宝唱慧超等对校疏出
+    rationale: 华梵悬隔须华质有序方不坠译宗故委众参校
+- id: guji-僧伽婆罗-endeavor-2
+  title_zh: 持律养素安众兴寺
+  summary_zh: 齐末闭室养素梁初为家僧受供不畜私财以嚫施成立住寺临川王宏接遇隆重
+  phases:
+  - key: brewing
+    name: 师事跋陀博涉方等
+    labels:
+      zh:
+      - 正观栖止
+      - 数国书语
+    start_date: 0485
+    highlight_event_id: guji-僧伽婆罗-event-arrive
+  - key: breakthrough
+    name: 齐亡道丧拥室栖闲
+    labels:
+      zh:
+      - 静洁身心
+      - 外绝交游
+    start_date: '0500'
+    highlight_event_id: guji-僧伽婆罗-event-arrive
+  - key: climax
+    name: 礼为家僧道俗改观
+    labels:
+      zh:
+      - 资给优厚
+      - 王公敬接
+    start_date: '0506'
+    highlight_event_id: guji-僧伽婆罗-event-translate-start
+  - key: closure
+    name: 施舍归寺病卒正观
+    labels:
+      zh:
+      - 不畜私财
+      - 成立住寺
+    start_date: '0524'
+    highlight_event_id: guji-僧伽婆罗-event-death
+  decisions:
+  - date: '0500'
+    title_zh: 齐末闭关养素不预世乱
+    rationale: 道教陵夷外缘扰攘唯静洁栖闲方能存道资业
+  - date: '0510'
+    title_zh: 以嚫施尽成立住寺不留私蓄
+    rationale: 沙门无私财为义嚫施归众方安道俗垂则后人
+events:
+- id: guji-僧伽婆罗-event-birth
+  title_zh: 生于扶南国
+  date: '0460'
+  year_of: 460
+  place_zh: 扶南国
+  description: 幼而颖悟早附法津学年出家偏业阿毘昙论有誉海南
+- id: guji-僧伽婆罗-event-arrive
+  title_zh: 随舶至齐都住正观寺
+  date: 0485
+  year_of: 485
+  place_zh: 齐都正观寺
+  description: 勇意观方乐崇开化闻齐弘法随舶至都师事求那跋陀研精方等兼解数国书语
+- id: guji-僧伽婆罗-event-translate-start
+  title_zh: 天监五年奉敕开译
+  date: '0506'
+  year_of: 506
+  place_zh: 扬都寿光殿华林园正观寺
+  description: 梁武天监五年被敕征召武帝躬临法座笔受敕宝唱慧超僧智法云等相对疏出
+- id: guji-僧伽婆罗-event-translate-complete
+  title_zh: 天监十七年译讫十一部
+  date: 0518
+  year_of: 518
+  place_zh: 扬都扶南馆占云馆
+  description: 历五处凡十三年译大育王经解脱道论等十一部四十八卷与曼陀罗共译宝云等经
+- id: guji-僧伽婆罗-event-death
+  title_zh: 普通五年卒于正观寺
+  date: '0524'
+  year_of: 524
+  place_zh: 扬都正观寺
+  description: 普通五年因疾卒春秋六十有五太尉临川王宏接遇隆重不畜私财以立住寺
