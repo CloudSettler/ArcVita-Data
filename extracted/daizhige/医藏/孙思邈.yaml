@@ -9,126 +9,130 @@ person:
       date: 0581
       precision: year
       is_circa: true
-      raw: 隋开皇元年左右生于京兆华原
+      raw: 隋开皇元年京兆华原
     death:
       date: 0682
       precision: year
       is_circa: false
-      raw: 唐永淳元年卒于长安
+      raw: 唐永淳元年逝世
   birth_date: 0581
   death_date: 0682
-  era: 唐
-  reign_ref: 唐太宗贞观至唐高宗永淳
-  archetype: 济世真人良医
+  era: 隋唐
+  reign_ref: 唐太宗贞观至高宗永徽
+  archetype: 大医
   dilemmas:
-  - 以隐逸养志还是出仕佐时康济民瘼，上医之道当为王官一守还是山林自保
-  - 先以食治养形还是径投刚烈之药，药如御兵妄发则损伤处众当如何权衡
-  lesson: 药性刚烈犹若御兵不可妄发，先洞晓病源以食治之，食疗不愈然后命药，方能安身存性而济函灵
-  summary_first_person: 吾乃河东孙思邈，生逢丧乱而志在康时，祖述农黄岐挚之学，博采扁鹊仓公仲景元化以来经方，集为千金要方三十卷，又悯百姓日用饮食而不知宜忌，故撰五味损益食治篇，欲使人先以食排邪安脏腑，释情遣疾以致长年，吾道纯正不尚险怪，惟愿圣政好生之治得行于永久
+  - title_zh: 出仕与隐医
+    description: 屡辞征辟隐居太白终南专心著述以方书济世
+  - title_zh: 杀生求生与慈悲用药
+    description: 立誓不用生命为药取市中先死之物及混沌鸡卵不得已而用
+  lesson: 人命至重有贵千金以简易备急普救含灵以精诚安神无欲为大医之体
+  summary_first_person: 吾幼遭风冷屡造医门罄尽家产青衿高尚兹典白首未释千里伏膺求决博采群经删裁繁重为备急千金要方三十卷愿人人自晓家家自学普救疾厄
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%8D%83%E9%87%91%E9%A3%9F%E6%B2%BB.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%8D%83%E9%87%91%E9%A3%9F%E6%B2%BB.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E5%A4%87%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E5%A4%87%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9.md
+  - https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9
 endeavors:
 - id: guji-孙思邈-endeavor-1
-  title_zh: 博采经方集为千金要方
-  summary_zh: 祖述农黄发明岐挚，采摭自文本之初至有隋之世经方，去众说未至而成书三十卷二百三十二门，以传圣贤拯民之法
+  title_zh: 编纂备急千金要方
+  summary: 博采群经删裁繁重务在简易以三十卷备仓猝之急
   phases:
   - key: brewing
-    name: 抱康时志博采众家
+    name: 幼病立志学医
     labels:
       zh:
-      - 博采经方
-    start_date: '0610'
+      - 学医立志
+    start_date: 0595
     highlight_event_id: guji-孙思邈-event-birth
   - key: breakthrough
-    name: 会通针灸药食脉证
+    name: 隐居博采群经
     labels:
       zh:
-      - 会通诸法
-    start_date: '0640'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      - 博采删裁
+    start_date: '0627'
+    highlight_event_id: guji-孙思邈-event-summon
   - key: climax
-    name: 总成三十卷纲领既立
+    name: 永徽成书三十卷
     labels:
       zh:
-      - 总成要方
+      - 备急千金
     start_date: '0652'
     highlight_event_id: guji-孙思邈-event-qianjin
   - key: closure
-    name: 遗法传百代以补遗阙
+    name: 贻厥私门流传
     labels:
       zh:
-      - 传法补遗
-    start_date: 0680
-    highlight_event_id: guji-孙思邈-event-death
+      - 济世流传
+    start_date: '0660'
+    highlight_event_id: guji-孙思邈-event-qianjin
   decisions:
-  - date: 0648
-    title_zh: 集诸家秘要去众说未至
-    rationale: 经是二圣二贤而能事毕，后学或知药不知灸针，必兼圣贤之长方为良医，故总集五千余首以求十全可验
+  - date: '0627'
+    title_zh: 辞辟隐居不仕
+    rationale: 不逐荣势以保身长全专心医药以救贫贱之厄
   - date: '0652'
-    title_zh: 首妇人次婴孺兼列食治养性
-    rationale: 上医之道乃圣人之政，脏腑针艾脉证食治宜兼包，始妇孺先脚气而次中风水肿，方能阶近至远上识三皇之奥
+    title_zh: 以千金为名务简易
+    rationale: 人命至重有贵千金一方济之德逾于此忽遇仓猝求检至难故删繁为备急
 - id: guji-孙思邈-endeavor-2
-  title_zh: 倡先食后药撰食治养生篇
-  summary_zh: 悯含气之类资食存生而不知成败，撰五味损益果实菜蔬诸篇，明五脏宜忌四时增损，使人以食排邪安脏腑悦神爽志
+  title_zh: 弘扬大医习业精诚
+  summary: 立大医精诚之训安神定志普同一等不用生命为药
   phases:
   - key: brewing
-    name: 慨百姓日用不知食宜
+    name: 精究素问本草经方
     labels:
       zh:
-      - 察食存生
-    start_date: '0645'
-    highlight_event_id: guji-孙思邈-event-qianjin
+      - 精勤博极
+    start_date: '0600'
+    highlight_event_id: guji-孙思邈-event-birth
   - key: breakthrough
-    name: 明五味所走五脏所宜
+    name: 论大医习业精诚
     labels:
       zh:
-      - 明辨五味
-    start_date: '0650'
-    highlight_event_id: guji-孙思邈-event-shizhi
+      - 大医精诚
+    start_date: '0652'
+    highlight_event_id: guji-孙思邈-event-qianjin
   - key: climax
-    name: 成食治果菜诸篇以启童稚
+    name: 普救含灵不用生药
     labels:
       zh:
-      - 成篇启蒙
-    start_date: '0655'
-    highlight_event_id: guji-孙思邈-event-shizhi
+      - 慈悲普救
+    start_date: '0665'
+    highlight_event_id: guji-孙思邈-event-yifang
   - key: closure
-    name: 立食禁存性药防命之训
+    name: 翼方补阙德业圆满
     labels:
       zh:
-      - 立训传后
+      - 翼方圆满
     start_date: 0680
-    highlight_event_id: guji-孙思邈-event-death
+    highlight_event_id: guji-孙思邈-event-yifang
   decisions:
-  - date: '0650'
-    title_zh: 先以食治后乃命药
-    rationale: 药性刚烈犹若御兵猛暴岂容妄发，食能排邪安脏腑资血气，若能用食平疴释情遣疾可谓良工长年之法
-  - date: '0655'
-    title_zh: 撰五味损益详录果菜宜忌
-    rationale: 安身必资于食救疾必凭于药，不知食宜不足存生不明药忌不能除病，故录槟榔大枣葵韭等寒热温凉以示节俭有度
+  - date: '0652'
+    title_zh: 誓愿普救不问贵贱
+    rationale: 先发大慈恻隐普救含灵之苦贵贱贫富华夷愚智普同一等皆如至亲
+  - date: 0680
+    title_zh: 不用生命为药
+    rationale: 杀生求生去生更远损彼益己物情同患故虻虫水蛭市取先死者用之
 events:
 - id: guji-孙思邈-event-birth
-  title_zh: 生于京兆华原
   date: 0581
   year_of: 581
-  place_zh: 京兆华原
-  description: 隋开皇前后生于京兆华原，少以智器闻，抱康时之志而好医方养生之学
+  title_zh: 京兆华原降生
+  description: 隋开皇元年左右生于京兆华原幼遭风冷屡造医门遂立志学医
+- id: guji-孙思邈-event-summon
+  date: '0635'
+  year_of: 635
+  title_zh: 太宗召见辞授不就
+  description: 唐太宗贞观年间召见叹其高道隐居太白山中采药合和诊候济人
 - id: guji-孙思邈-event-qianjin
-  title_zh: 集方成千金要方三十卷
   date: '0652'
   year_of: 652
-  place_zh: 长安太白山间
-  description: 祖述农黄岐挚，掇扁鹊难仓公禁仲景黄素以至隋世诸家，成书三十卷目录一通，总二百三十二门合方论五千余首，脏腑针艾脉证食治兼备
-- id: guji-孙思邈-event-shizhi
-  title_zh: 撰五味损益食治篇
-  date: '0655'
-  year_of: 655
-  place_zh: 山林庐中
-  description: 因笔墨之暇撰食治篇，论五味走筋骨气血肉及四时省增，明果实菜蔬寒热宜忌，立先食后药安身之本以启童稚
+  title_zh: 备急千金要方成书
+  description: 永徽三年博采群经删裁繁重成备急千金要方三十卷论大医习业精诚诊候处方用药以备仓猝
+- id: guji-孙思邈-event-yifang
+  date: 0680
+  year_of: 680
+  title_zh: 千金翼方成书
+  description: 晚年以千金要方未尽复撰千金翼方三十卷补阙拾遗调和荣卫进饮食破积聚
 - id: guji-孙思邈-event-death
-  title_zh: 卒于长安
   date: 0682
   year_of: 682
-  place_zh: 长安
-  description: 唐永淳元年卒，遗千金要方翼方传世，后世尊为药王真人，宋校正医书局奉诏校雠补遗以传不朽
+  title_zh: 逝世
+  description: 唐永淳元年逝世遗令薄葬不藏明器后世尊为药王
