@@ -3,129 +3,131 @@ person:
   name_zh: 傅恒
   names:
     zh: 傅恒
-    en: Fu Heng
+    en: Fucha Fuheng
   lifespan:
     birth:
-      date: '1720'
+      date: 1720
       precision: year
       is_circa: false
       raw: 康熙五十九年
     death:
-      date: 1770-07
-      precision: month
+      date: 1770
+      precision: year
       is_circa: false
-      raw: 乾隆三十五年六月
-  birth_date: '1720'
-  death_date: 1770-07
-  era: 清
+      raw: 乾隆三十五年七月
+  birth_date: 1720
+  death_date: 1770
+  era: 清代
   reign_ref: 乾隆
-  archetype: 外戚经略
+  archetype: 忠勤经略之臣
   dilemmas:
-  - 身为大学士国戚临危经略，既要速进立功，又要保全满汉新旧兵力不可轻用
-  - 前任讷亲畏缩老师坐守贻误军机，我若迟回不断则重蹈覆辙，若冒进则驿站车马军需难继
-  lesson: 受恩深重者当亲临督战乘机速进，以实心任事洗刷畏缩观望之习
-  summary_first_person: 我是傅恒，孝贤皇后之弟。乾隆十三年十月金川军务糜烂，讷亲畏缩获罪，我受命为经略，沿途开看军营摺匣，酌定京兵与船厂黑龙江兵分起进发，督办驿站车马，至军即督率前进，次年受莎罗奔之降而班师。后复经略云南征缅，积劳而卒。
+  - 感恩图报驰驱劳瘁与珍摄调养以全大局孰重
+  - 卡撒党坝两路并进与直捣心腹偏重一路孰当
+  - 矫正退缩严明纪律与爱惜大员不轻涉险如何兼顾
+  lesson: 以公忠体国为本，临大事精详勤瘁，赏罚出于大公至正则军心自奋
+  summary_first_person: 我是傅恒，富察氏，蒙高宗厚恩擢为经略大学士，乾隆十三年驰赴金川军营，我先勘卡撒再定党坝两路并进之策，整顿纪律筹办粮饷棉甲，务以忠诚奋发图报，洗前帅退缩老师之弊，早奏肤功
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70327.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70329.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70329.html
 endeavors:
 - id: guji-傅恒-endeavor-1
-  title_zh: 经略金川受降班师
-  summary: 乾隆十三年十月代讷亲为经略，整顿分起兵制与驿站军需，督率岳钟琪傅尔丹等乘机进剿，次年平定大金川。
+  title_zh: 金川经略督师进剿
+  summary_zh: 乾隆十三年受命为经略大学士驰赴金川，相度卡撒党坝形势，定两路并进之策，整顿壁垒纪律，调度满汉大兵粮饷以图肤功
   phases:
   - key: brewing
-    name: 临危受命择日启程
+    name: 受命经略驰驿赴川
     labels:
-      zh: 酝酿
+      zh: 临危受命
     start_date: 1748-10
-    highlight_event_id: guji-傅恒-event-jinchuan-start
+    highlight_event_id: guji-傅恒-event-1748-shouming
   - key: breakthrough
-    name: 沿途开匣豫办军情
+    name: 途中开看奏匣相商机务
     labels:
-      zh: 突破
+      zh: 驰驱筹画
     start_date: 1748-11
-    highlight_event_id: guji-傅恒-event-jinchuan-start
+    highlight_event_id: guji-傅恒-event-1748-tuzou
   - key: climax
-    name: 分起速进督战攻碉
+    name: 相度卡撒党坝定分进之策
     labels:
-      zh: 高潮
-    start_date: 1748-12
-    highlight_event_id: guji-傅恒-event-jinchuan-victory
+      zh: 两路并进
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-tuzou
   - key: closure
-    name: 莎罗奔乞降班师论功
+    name: 整顿纪律筹粮以图进取
     labels:
-      zh: 收束
-    start_date: 1749-04
-    highlight_event_id: guji-傅恒-event-jinchuan-victory
+      zh: 壁垒一新
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-chouban
   decisions:
-  - date: 1748-10
-    title_zh: 请分京兵船厂黑龙江兵为大起进发
-    rationale: 原议每起三百名旷日持久，改为每起五百名，京兵分四起，船厂黑龙江兵每起五百，以速抵金川乘破竹之势
-  - date: 1748-10
-    title_zh: 奉旨沿途开看军营摺匣
-    rationale: 傅尔丹岳钟琪班第等奏报皆投递经略行在开看，应办者豫办，应奏者查奏，俾备悉现在情形不致悬隔
+  - date: 1748-11
+    title_zh: 先至卡撒详看情形再定分兵
+    rationale: 卡撒已克色底双碉扫清山梁若守而不攻则贼专力死拒党坝故须亲勘再定统大兵进剿与添兵助岳钟琪之策
+  - date: 1748-11
+    title_zh: 劾断张广泗藉寇赍粮之失
+    rationale: 甲索乃绰斯甲巢穴仅驻兵千人而欲以存粮六千石交其看守必启贼觊觎且缺额不补兵数日少故须确访覆奏以肃军纪
 - id: guji-傅恒-endeavor-2
-  title_zh: 晚年再经略云南征缅
-  summary: 乾隆三十四年复以大学士经略云南，督满汉兵进剿缅甸，议和班师后病发而卒，配享太庙。
+  title_zh: 参赞枢机持平论政
+  summary_zh: 在京参赞军机事务，于安宁浒关余银案及满汉兵饷棉甲肉食诸务持论公当，佐高宗伸赏罚大权
   phases:
   - key: brewing
-    name: 缅事久拖再膺经略
+    name: 在京分晰关税旧例
     labels:
-      zh: 酝酿
-    start_date: 1769-01
-    highlight_event_id: guji-傅恒-event-myanmar-go
+      zh: 持平陈奏
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-anqing
   - key: breakthrough
-    name: 冒瘴深入老官屯议围
+    name: 辨明坐赃成狱之失
     labels:
-      zh: 突破
-    start_date: 1769-04
-    highlight_event_id: guji-傅恒-event-myanmar-go
+      zh: 明罚至公
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-anqing
   - key: climax
-    name: 水陆并进迫缅乞和
+    name: 筹画满兵棉甲糇粮
     labels:
-      zh: 高潮
-    start_date: 1769-11
-    highlight_event_id: guji-傅恒-event-myanmar-go
+      zh: 体恤士卒
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-chouban
   - key: closure
-    name: 班师回京积劳病卒
+    name: 佐成赏罚以励忠勤
     labels:
-      zh: 收束
-    start_date: 1770-07
-    highlight_event_id: guji-傅恒-event-death
+      zh: 感激图报
+    start_date: 1748-11
+    highlight_event_id: guji-傅恒-event-1748-chouban
   decisions:
-  - date: 1769-04
-    title_zh: 亲赴军前督战不遥观
-    rationale: 鉴于金川时大员择障蔽处遥观督战之恶习，必亲临督率以励偏裨士卒
-  - date: 1769-11
-    title_zh: 权许缅酋纳款撤兵
-    rationale: 瘴疠兵疲粮运艰难，久持无益，不如因其乞和收军保全国力，再图后举
+  - date: 1748-11
+    title_zh: 为安宁关余杂银分辨不以重罪定拟
+    rationale: 关务杂项余银历任支用赏给家人者多若据此坐赃成狱不足服心且其罪浮于讷亲者轻重须毫厘不爽故以内廷仆隶事末减拘禁
+  - date: 1748-11
+    title_zh: 请颁棉甲晒肉以济深入山径
+    rationale: 满兵深入险地或米粮不敷无暇造饭则棉甲御寒乾肉充饥于临阵征战有益故酌量分给骁勇绿旗以振军气
 events:
 - id: guji-傅恒-event-birth
-  type: birth
-  date: '1720'
+  date: 1720
   year_of: 1720
-  title_zh: 生于富察氏家
-  description: 康熙五十九年生，孝贤皇后之弟，少以恩荫入仕，洊至军机户部。
-- id: guji-傅恒-event-jinchuan-start
-  type: career
+  title_zh: 出生
+  description_zh: 康熙五十九年生于富察氏家，後以戚畹勋臣膺高宗眷注
+- id: guji-傅恒-event-death
+  date: 1770
+  year_of: 1770
+  title_zh: 病逝
+  description_zh: 乾隆三十五年七月病逝于京师，宣力有年恪勤素著
+- id: guji-傅恒-event-1748-shouming
   date: 1748-10
   year_of: 1748
-  title_zh: 受命经略金川择日起程
-  description: 乾隆十三年十月，讷亲张广泗贻误获罪，命傅恒为经略，奏定京兵一千七百分四起，船厂黑龙江兵三千分起，每起五百，令直隶河南西安四川速备驿站车马，并于沿途开看军营摺匣。
-- id: guji-傅恒-event-jinchuan-victory
-  type: career
-  date: 1749-04
-  year_of: 1749
-  title_zh: 金川莎罗奔乞降班师
-  description: 督率岳钟琪傅尔丹等奋力进剿，夺碉擒斩，大金川土司莎罗奔乞降，军务告竣，班师论功封一等忠勇公。
-- id: guji-傅恒-event-myanmar-go
-  type: career
-  date: 1769-04
-  year_of: 1769
-  title_zh: 经略云南督师征缅
-  description: 乾隆三十四年再为经略赴云南，督兵深入缅地，水陆并进，缅酋乞和，乃许其纳款撤兵。
-- id: guji-傅恒-event-death
-  type: death
-  date: 1770-07
-  year_of: 1770
-  title_zh: 病卒于京师
-  description: 乾隆三十五年六月以征缅积劳瘴疾发，卒于京师，谥文忠，配享太庙。
+  title_zh: 受命经略金川驰赴军营
+  description_zh: 乾隆十三年十月受命为经略大学士赴四川金川，高宗命旺扎勒随后阅看碉卡路径，期以明岁二月回京备陈军营大概
+- id: guji-傅恒-event-1748-tuzou
+  date: 1748-11
+  year_of: 1748
+  title_zh: 途中奏陈两路机宜劾张广泗
+  description_zh: 十一月途中开看傅尔丹岳钟琪奏匣，谓岳钟琪偏主党坝直捣勒乌围而置卡撒于守地未妥，拟先至卡撒详看若可进即统大兵进剿另派员助党坝，并劾张广泗大言不惭勾通蒙蔽
+- id: guji-傅恒-event-1748-chouban
+  date: 1748-11
+  year_of: 1748
+  title_zh: 筹办粮饷棉甲肉食整顿纪律
+  description_zh: 十一月奉旨筹画军粮棉甲，高宗以广储司棉甲二千余副分起给兵，又议以牛羊肉割条晒乾为深入糇粮，并饬经略在后指挥督率大员亲身督战而不可轻涉危险
+- id: guji-傅恒-event-1748-anqing
+  date: 1748-11
+  year_of: 1748
+  title_zh: 在京分晰安宁浒关余银案
+  description_zh: 经略在京时分晰陈奏安宁檀用浒关杂项余银本系赏给家人历任支用之项，若坐赃成狱不足服心，高宗韪其公当之论遂末减拘禁另候谕旨
