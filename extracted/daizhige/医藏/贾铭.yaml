@@ -1,0 +1,120 @@
+person:
+  qid: guji-贾铭
+  name_zh: 贾铭
+  names:
+    zh: 贾铭
+    en: Jia Ming
+  lifespan:
+    birth:
+      date: 1300-01-01
+      precision: year
+      is_circa: true
+      raw: 元成宗大德前后生
+    death:
+      date: 1380-01-01
+      precision: year
+      is_circa: true
+      raw: 明初前后卒
+  birth_date: 1300-01-01
+  death_date: 1380-01-01
+  era: 元末明初
+  reign_ref: 元惠宗至正年间
+  archetype: 以食疗济世的医家
+  dilemmas:
+  - 养生借饮食而亦害生，反忌杂进轻则不和重则祸患
+  - 诸家本草损益相半莫可适从，当专选反忌以便检点
+  lesson: 饮食养生须知物性相反相忌，丛然杂进反害生，日用检点节制方为尊生之道
+  summary_first_person: 吾为华山老人贾铭，历观诸家本草疏注各物损益相半，令人莫可适从，乃专选其反忌汇成饮食须知一编，俾尊生者日用饮食中便于检点，养生而不害生
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%A5%AE%E9%A3%9F%E9%A1%BB%E7%9F%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%A5%AE%E9%A3%9F%E9%A1%BB%E7%9F%A5.md
+endeavors:
+- id: guji-贾铭-endeavor-1
+  title_zh: 编纂饮食须知汇集反忌
+  description: 历观本草专选反忌，汇水火谷菜诸物性味毒忌为一编
+  phases:
+  - key: brewing
+    name: 历览本草
+    labels:
+      zh: 博览
+    start_date: 1340-01-01
+    highlight_event_id: guji-贾铭-event-compile-start
+  - key: breakthrough
+    name: 立专选反忌之例
+    labels:
+      zh: 立例
+    start_date: 1345-01-01
+    highlight_event_id: guji-贾铭-event-compile-start
+  - key: climax
+    name: 分卷撰成水谷菜编
+    labels:
+      zh: 撰述
+    start_date: 1350-01-01
+    highlight_event_id: guji-贾铭-event-book-complete
+  - key: closure
+    name: 题序华山老人以传尊生
+    labels:
+      zh: 成书
+    start_date: 1352-01-01
+    highlight_event_id: guji-贾铭-event-book-complete
+  decisions:
+  - date: 1345-01-01
+    title_zh: 不录全品专录反忌
+    rationale: 全录损益相半莫适从，专选反忌方便于日用检点
+  - date: 1350-01-01
+    title_zh: 首列水火次列谷菜
+    rationale: 饮食以水火为先谷菜为常，先明水毒火性再辨谷菜冷热
+- id: guji-贾铭-endeavor-2
+  title_zh: 践行尊生物性养生
+  description: 以乳泉井水粳糯诸物寒热温凉之性警世，教人避毒忌犯
+  phases:
+  - key: brewing
+    name: 察山川水土人物相应
+    labels:
+      zh: 察验
+    start_date: 1342-01-01
+    highlight_event_id: guji-贾铭-event-compile-start
+  - key: breakthrough
+    name: 明诸水有毒不可犯
+    labels:
+      zh: 明辨
+    start_date: 1348-01-01
+    highlight_event_id: guji-贾铭-event-book-complete
+  - key: climax
+    name: 示谷菜肉食相忌之法
+    labels:
+      zh: 劝戒
+    start_date: 1351-01-01
+    highlight_event_id: guji-贾铭-event-book-complete
+  decisions:
+  - date: 1348-01-01
+    title_zh: 详列古井屋漏毒水之禁
+    rationale: 人资水土而寿夭相关，毒水误饮杀人故当先知而慎之
+  - date: 1351-01-01
+    title_zh: 戒糯米生蒜韭菜杂犯
+    rationale: 粘滞助火昏神壅气，多食发风动气故示相忌以全养生
+events:
+- id: guji-贾铭-event-birth
+  title_zh: 出生于元代
+  date: 1300-01-01
+  year_of: 1300
+  type: birth
+  description: 约元成宗时生，自号华山老人，究心医食养生
+- id: guji-贾铭-event-compile-start
+  title_zh: 立意专选反忌
+  date: 1345-03-01
+  year_of: 1345
+  type: career
+  description: 历观诸家本草疏注损益相半，决意专选相反相忌汇成一编
+- id: guji-贾铭-event-book-complete
+  title_zh: 撰成饮食须知序及水谷菜卷
+  date: 1352-06-01
+  year_of: 1352
+  type: career
+  description: 自序饮食借以养生而杂进害生，分水火谷类菜类详列性味毒忌而成书
+- id: guji-贾铭-event-death
+  title_zh: 明初前后卒
+  date: 1380-01-01
+  year_of: 1380
+  type: death
+  description: 书成流传于世，以尊生检点之道惠及后人，约明初卒

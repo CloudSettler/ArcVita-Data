@@ -1,0 +1,132 @@
+person:
+  qid: guji-食疗方
+  name_zh: 食疗方
+  names:
+    zh: 食疗方
+    en: Shiliao Fang
+  lifespan:
+    birth:
+      date: '0627-01-01'
+      precision: year
+      is_circa: true
+      raw: 贞观初年
+    death:
+      date: '0750-12-31'
+      precision: year
+      is_circa: true
+      raw: 唐中叶编定流传
+  birth_date: '0627-01-01'
+  death_date: '0750-12-31'
+  era: 唐
+  reign_ref: 贞观
+  archetype: 医者
+  dilemmas:
+  - 食养与药治分寸何在
+  - 谷菜淡养与肉食峻补如何权衡
+  lesson: 以平常饮食调养身心急缓各有所宜持之以恒乃见其功
+  summary_first_person: 吾汇谷菜肉食诸方以粥羹酒脯调治消渴中风虚劳水肿愿人以食自养少服药而身安
+  source_urls:
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E9%A3%9F%E7%96%97%E6%96%B9.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E9%A3%9F%E7%96%97%E6%96%B9.md
+endeavors:
+- id: guji-食疗方-endeavor-1
+  person_qid: guji-食疗方
+  title_zh: 植物类食疗汇集
+  summary: 收萝卜粥小麦粥葛粉羹荆芥粥莲子粥等以谷菜调治消渴中风虚劳
+  phases:
+  - key: brewing
+    name: 采摭谷菜诸方
+    labels:
+      zh: 植物萌芽
+    start_date: '0627-01-01'
+    highlight_event_id: guji-食疗方-event-1
+  - key: breakthrough
+    name: 粥羹法式初定
+    labels:
+      zh: 植物成形
+    start_date: '0630-01-01'
+    highlight_event_id: guji-食疗方-event-1
+  - key: climax
+    name: 消渴中风方备
+    labels:
+      zh: 植物大成
+    start_date: '0635-01-01'
+    highlight_event_id: guji-食疗方-event-1
+  - key: closure
+    name: 植物篇编次既定
+    labels:
+      zh: 植物收束
+    start_date: '0640-01-01'
+    highlight_event_id: guji-食疗方-event-1
+  decisions:
+  - date: '0630-01-01'
+    title_zh: 以粥为纲统摄谷菜
+    rationale: 粥易消化空腹服之以养胃气兼取汁以存真味
+  - date: '0635-01-01'
+    title_zh: 重用葛根荆芥治中风
+    rationale: 疏风热利言语以食气助药力缓图渐复
+- id: guji-食疗方-endeavor-2
+  person_qid: guji-食疗方
+  title_zh: 动物类食疗汇集
+  summary: 收羊密膏羊骨粥鹿肾羹鲫鱼羹乌鸡酒等以肉食血肉滋补虚劳水肿
+  phases:
+  - key: brewing
+    name: 搜罗血肉滋补方
+    labels:
+      zh: 动物萌芽
+    start_date: '0628-01-01'
+    highlight_event_id: guji-食疗方-event-2
+  - key: breakthrough
+    name: 羹汤膏酒法立
+    labels:
+      zh: 动物成形
+    start_date: '0632-01-01'
+    highlight_event_id: guji-食疗方-event-2
+  - key: climax
+    name: 虚劳水肿方全
+    labels:
+      zh: 动物大成
+    start_date: '0636-01-01'
+    highlight_event_id: guji-食疗方-event-2
+  - key: closure
+    name: 动物篇编次既定
+    labels:
+      zh: 动物收束
+    start_date: '0642-01-01'
+    highlight_event_id: guji-食疗方-event-2
+  decisions:
+  - date: '0632-01-01'
+    title_zh: 以慢火熬汁澄清作粥羹
+    rationale: 取骨髓精汁去粗滓以利吸收而养腰肾
+  - date: '0636-01-01'
+    title_zh: 进牛子蒸荜茇治痢疾
+    rationale: 贞观中太宗苦痢众医不效以食治奇方取效重赏取信
+events:
+- id: guji-食疗方-event-birth
+  person_qid: guji-食疗方
+  title_zh: 食疗方肇始
+  date: '0627-01-01'
+  year_of: 627
+  type: birth
+  description: 贞观初年谷菜肉食诸方开始汇集以食代药之风渐开
+- id: guji-食疗方-event-1
+  person_qid: guji-食疗方
+  title_zh: 植物粥羹法备
+  date: '0635-06-01'
+  year_of: 635
+  type: career
+  description: 萝卜粥治消渴葛粉羹荆芥粥治中风莲子粥补心志等植物篇大备
+- id: guji-食疗方-event-2
+  person_qid: guji-食疗方
+  title_zh: 牛子蒸荜茇进御立瘥
+  date: '0636-01-01'
+  year_of: 636
+  type: career
+  description: 贞观中太宗苦痢疾众医不效术士进牛子蒸荜茇服之立瘥动物食治名显
+- id: guji-食疗方-event-death
+  person_qid: guji-食疗方
+  title_zh: 食疗方编定流传
+  date: '0750-12-31'
+  year_of: 750
+  type: death
+  description: 植物动物两类分编既定后世以粥羹酒脯传用不绝
