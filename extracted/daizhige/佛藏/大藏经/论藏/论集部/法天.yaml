@@ -6,127 +6,126 @@ person:
     en: Dharmadeva
   lifespan:
     birth:
-      date: 0950
-      precision: century
+      date: 0950-01-01
+      precision: year
       is_circa: true
-      raw: 生年不详约十世纪中叶中印度摩伽陀国人
+      raw: 约十世纪中叶生于中印度摩揭陀国
     death:
-      date: '1001'
+      date: 1001-01-01
       precision: year
       is_circa: false
-      raw: 宋咸平四年卒于东京
-  birth_date: 0950
-  death_date: '1001'
+      raw: 宋咸平四年卒于开封
+  birth_date: 0950-01-01
+  death_date: 1001-01-01
   era: 北宋
-  reign_ref: 宋太宗太平兴国至宋真宗咸平
-  archetype: 西天译经三藏
+  reign_ref: 宋太宗至宋真宗朝
+  archetype: 译经弘法者
   dilemmas:
-  - 梵赞重音韵直译失韵音译难解当如何两全
-  - 西僧奉诏当守那烂陀家法还是就中国译场体例
-  lesson: 存梵音以系念达华义以化俗译呗即是弘愿
-  summary_first_person: 我本摩伽陀国那烂陀寺传教僧奉诏入宋厕身译场译七佛赞呗及诸经论愿以梵音结缘令众生同证解脱
+  - 梵汉悬隔如何兼顾信达雅致令群生得益
+  - 寄身异域如何在奉诏译经与持戒修行之间两全
+  lesson: 以诚敬传灯译经回施群生同证菩提方为究竟
+  summary_first_person: 我是法天本名达摩提婆生于中印度奉佛东来入宋译场蒙授传教大师朝散大夫试鸿胪卿奉诏译出佛一百八名赞等经劝众晨朝礼念灭罪成佛
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%B8%83%E4%BD%9B%E8%B5%9E%E5%91%97%E4%BC%BD%E4%BB%96.md
-  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%B8%83%E4%BD%9B%E8%B5%9E%E5%91%97%E4%BC%BD%E4%BB%96.html
+  - https://daizhige.org/%E4%BD%9B%E8%97%8F/%E5%A4%A7%E8%97%8F%E7%BB%8F/%E8%AE%BA%E8%97%8F/%E8%AE%BA%E9%9B%86%E9%83%A8/%E4%BD%9B%E4%B8%80%E7%99%BE%E5%85%AB%E5%90%8D%E8%B5%9E.html
 endeavors:
 - id: guji-法天-endeavor-1
-  title_zh: 奉诏译出七佛赞呗伽他
-  summary_zh: 系念过去七佛与当来慈氏以音译存梵呗兼附华颂回向众生解脱
+  title_zh: 西来入宋久住译经院
+  summary_zh: 自中印度来华入太平兴国译经院授传教大师等职长期从事译经传法
   phases:
   - key: brewing
-    name: 那烂陀传持梵呗
+    name: 那烂陀习法
     labels:
       zh: 酝酿
-    start_date: 0950
+    start_date: 0950-01-01
     highlight_event_id: guji-法天-event-birth
   - key: breakthrough
-    name: 入宋奉诏开译
+    name: 随伴东来
     labels:
       zh: 突破
-    start_date: 0973
-    highlight_event_id: guji-法天-event-arrive
+    start_date: 0973-01-01
+    highlight_event_id: guji-法天-event-arrival
   - key: climax
-    name: 七佛慈氏赞成卷
+    name: 入院授职
     labels:
       zh: 高潮
-    start_date: 0982
-    highlight_event_id: guji-法天-event-praise
+    start_date: 0982-01-01
+    highlight_event_id: guji-法天-event-honor
   - key: closure
-    name: 回向流通
+    name: 久住译场
     labels:
       zh: 收束
-    start_date: 0983
-    highlight_event_id: guji-法天-event-praise
-  decisions:
-  - date: 0982
-    title_zh: 以音译为主保存梵呗声韵
-    rationale: 赞呗功在口诵系念存音则存诚故加反切注音
-  - date: 0983
-    title_zh: 附华颂回向以通华俗
-    rationale: 华僧俗难解梵语故以过去七佛我赞竟等四句结归解脱愿
-- id: guji-法天-endeavor-2
-  title_zh: 入宋译场传教译经
-  summary_zh: 与天息灾施护等共居译经院传那烂陀教法译经律论弘化中夏
-  phases:
-  - key: brewing
-    name: 西天习学三藏
-    labels:
-      zh: 酝酿
-    start_date: 0950
-    highlight_event_id: guji-法天-event-birth
-  - key: breakthrough
-    name: 随表入觐得赐紫衣
-    labels:
-      zh: 突破
-    start_date: 0973
-    highlight_event_id: guji-法天-event-arrive
-  - key: climax
-    name: 译经院参译众经
-    labels:
-      zh: 高潮
-    start_date: 0980
-    highlight_event_id: guji-法天-event-translate
-  - key: closure
-    name: 示寂东京译业流传
-    labels:
-      zh: 收束
-    start_date: '1001'
+    start_date: 0990-01-01
     highlight_event_id: guji-法天-event-death
   decisions:
-  - date: 0973
-    title_zh: 应诏留华不归西土
-    rationale: 中夏慕法译场初开留此则法利更广故安住译经
-  - date: 0980
-    title_zh: 与天息灾等共译分工校雠
-    rationale: 梵汉悬隔一人难兼故众手相成以求信达
+  - date: 0973-01-01
+    title_zh: 应请东来入宋
+    rationale: 为传正法不辞险远随伴东行弘化中土
+  - date: 0982-01-01
+    title_zh: 就馆译经受封
+    rationale: 奉诏入译经院专心译述以报国恩而利群生
+- id: guji-法天-endeavor-2
+  title_zh: 奉诏译传佛一百八名赞
+  summary_zh: 集合佛一百八吉祥名号译为汉文劝众晨朝读诵礼念忆持听闻灭罪成佛
+  phases:
+  - key: brewing
+    name: 集梵本众名
+    labels:
+      zh: 酝酿
+    start_date: 0980-01-01
+    highlight_event_id: guji-法天-event-honor
+  - key: breakthrough
+    name: 奉诏汉译
+    labels:
+      zh: 突破
+    start_date: 0984-01-01
+    highlight_event_id: guji-法天-event-translate
+  - key: climax
+    name: 宣扬礼念功德
+    labels:
+      zh: 高潮
+    start_date: 0984-06-01
+    highlight_event_id: guji-法天-event-translate
+  - key: closure
+    name: 回施菩提
+    labels:
+      zh: 收束
+    start_date: 0995-01-01
+    highlight_event_id: guji-法天-event-death
+  decisions:
+  - date: 0984-01-01
+    title_zh: 奉诏译出一百八名
+    rationale: 集如来正等觉最上名号令汉地众生易持易念
+  - date: 0984-06-01
+    title_zh: 明示晨朝行持得益
+    rationale: 劝人辰朝志诚读诵礼念听闻速得清净不受轮回乃至成佛
 events:
 - id: guji-法天-event-birth
-  title_zh: 生于摩伽陀国出家那烂陀寺
-  date: 0950
+  type: birth
+  date: 0950-01-01
   year_of: 950
-  description: 生于中印度摩伽陀国少出家于那烂陀寺习三藏及梵赞呗匿
-  is_circa: true
-- id: guji-法天-event-arrive
-  title_zh: 随西域僧入宋觐阙
-  date: 0973
+  title_zh: 生于中印度摩揭陀国
+  description_zh: 约十世纪中叶生于中印度摩揭陀国自幼习梵文通晓三藏
+- id: guji-法天-event-arrival
+  type: career
+  date: 0973-01-01
   year_of: 973
-  description: 宋太平兴国年间至东京太宗召见赐紫衣号传教大师入译经院
-  is_circa: false
-- id: guji-法天-event-praise
-  title_zh: 译出七佛赞呗伽他一卷
-  date: 0982
+  title_zh: 随天息灾东来入宋
+  description_zh: 宋开宝年间与天息灾等自西天来华至开封传法
+- id: guji-法天-event-honor
+  type: career
+  date: 0982-01-01
   year_of: 982
-  description: 奉诏译七佛赞及慈氏赞并回向结赞以梵音音写加华言偈颂流通
-  is_circa: true
+  title_zh: 入译经院授传教大师
+  description_zh: 宋太平兴国七年入译经院授西天译经三藏朝散大夫试鸿胪卿传教大师
 - id: guji-法天-event-translate
-  title_zh: 参译众经居译经院
-  date: 0980
-  year_of: 980
-  description: 与法贤天息灾施护等同校梵本参译经论弘那烂陀教法于中夏
-  is_circa: true
+  type: career
+  date: 0984-01-01
+  year_of: 984
+  title_zh: 奉诏译佛一百八名赞
+  description_zh: 奉诏译出归命一切智等一百八名赞明晨朝礼念灭罪成佛功德并以回施群生
 - id: guji-法天-event-death
-  title_zh: 卒于东京
-  date: '1001'
+  type: death
+  date: 1001-01-01
   year_of: 1001
-  description: 宋咸平四年示寂于东京译业编入大藏后世传诵七佛梵赞
-  is_circa: false
+  title_zh: 卒于开封
+  description_zh: 宋咸平四年圆寂于开封译场一生译经弘法功德圆满
