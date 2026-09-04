@@ -6,129 +6,110 @@ person:
     en: Jiang Kaoqing
   lifespan:
     birth:
-      date: 1700-01-01
+      date: 1750
       precision: year
       is_circa: true
-      raw: 清代不详
+      raw: 清中期
     death:
-      date: 1800-01-01
+      date: 1820
       precision: year
       is_circa: true
-      raw: 清代不详
-  birth_date: 1700-01-01
-  death_date: 1800-01-01
+      raw: 清中期以后
+  birth_date: 1750
+  death_date: 1820
   era: 清
-  reign_ref: 清中期
-  archetype: 伤科医家
+  reign_ref: 清中期乾嘉之际
+  archetype: 伤科医者
   dilemmas:
-  - 生死难辨而强治恐害命，舍治又恐弃可生之人，如何立断死证以决去留
-  - 秘方多私藏而乡野缺药，尽泄恐误用，不传又无以救急，如何权衡保守与普济
-  lesson: 跌打皆从血论，辨重轻浅深，皮未破多用串皮破血，皮已破多用通利兼补，不可一概而治
-  summary_first_person: 我是江考卿，目见跌打金伤生死系于毫厘，遂立断死秘诀与不治之法，又集正骨接骨与三十六大穴治法及通用秘传诸方，编成伤科方书，愿后学详审血脉轻重，不妄治不误治，以全民命
+  - 秘方自珍与广传救人之冲突
+  - 攻伐破血与顾护气血之权衡
+  - 明示不治与尽力救治之抉择
+  lesson: 跌打皆从血论，审重轻浅深，按部用药，不泥一方以活人
+  summary_first_person: 吾为江考卿，集断死证秘受不治法与受伤治法，详三十六大穴治法，录通用秘传三十余方，著伤科学以救跌打金疮，愿后学详审血脉骨穴，热服忌冷，活用加减
   source_urls:
-  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E7%A7%91%E6%96%B9%E4%B9%A6.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E4%BC%A4%E7%A7%91%E6%96%B9%E4%B9%A6.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8C%BB%E8%97%8F/%E6%B1%9F%E6%B0%8F%E4%BC%A4%E7%A7%91%E5%AD%A6.md
+  - https://daizhige.org/%E5%8C%BB%E8%97%8F/%E6%B1%9F%E6%B0%8F%E4%BC%A4%E7%A7%91%E5%AD%A6.html
 endeavors:
 - id: guji-江考卿-endeavor-1
-  title_zh: 立断死证与不治法以明去留
-  summary: 采金伤验案作断死歌诀，列矢柱骨折两目损等十八不治危证，使医先辨生死
+  title_zh: 构建伤科辨证体系
+  description: 立断死证秘诀秘受不治法与受伤治法，详头顶华盖肺底等三十六大穴受伤治法，统跌打金疮之纲
   phases:
   - key: brewing
-    name: 搜集金伤危证验案
+    name: 汇集跌打金疮经验
     labels:
-      zh:
-      - 搜集验案
-    start_date: 1760-01-01
-    highlight_event_id: guji-江考卿-event-1
+      zh: 酝酿汇集
+    start_date: 1765
+    highlight_event_id: guji-江考卿-event-compile
   - key: breakthrough
-    name: 归纳断死秘诀歌诀
+    name: 立三十六穴加减通法
     labels:
-      zh:
-      - 断死秘诀
-    start_date: 1765-01-01
-    highlight_event_id: guji-江考卿-event-1
+      zh: 突破成法
+    start_date: 1780
+    highlight_event_id: guji-江考卿-event-compile
   - key: climax
-    name: 厘定十八种秘受不治法
+    name: 著成伤科治法上卷
     labels:
-      zh:
-      - 不治之法
-    start_date: 1768-01-01
-    highlight_event_id: guji-江考卿-event-1
-  - key: closure
-    name: 示人不可强治以全民生
-    labels:
-      zh:
-      - 明示去留
-    start_date: 1770-01-01
-    highlight_event_id: guji-江考卿-event-1
+      zh: 著述高峰
+    start_date: 1790
+    highlight_event_id: guji-江考卿-event-compile
   decisions:
-  - date: 1765-01-01
-    title_zh: 先辨生死再施治
-    rationale: 金伤眼青气喘咆噎及人中满唇青者旦夕亡，不可妄用药以误人误己
-  - date: 1768-01-01
-    title_zh: 列不治以存医道
-    rationale: 矢柱骨折脊断心胞紧痛孕妇犯胎等皆难救，明示不治则不害命亦不败名
+  - date: 1780
+    title_zh: 以加减汤七厘散夺命紫金为通法
+    rationale: 三十六穴病异药同，立加减通法再随穴加味二味，简而能全，切戒错误
+  - date: 1790
+    title_zh: 明示不治以存真
+    rationale: 天柱骨折脊断目损喉断心口青等必死之证直书不治，不欺人以邀功
 - id: guji-江考卿-endeavor-2
-  title_zh: 编伤科方书传正骨接骨与通用秘方
-  summary: 分脑顶喉肩胁腹膝诸伤治法，详三十六大穴加减救治，录七厘夺命紫金诸方及君臣散等秘传十六方
+  title_zh: 传授通用秘传方药
+  description: 录解肌汤小柴胡汤十三味加减汤等通用方及君臣散至姜黄汤三十余秘传方，兼麻药膏酒洗熨接骨之法
   phases:
   - key: brewing
-    name: 汇集跌打正骨验方
+    name: 搜集通用接骨止血方
     labels:
-      zh:
-      - 汇集验方
-    start_date: 1770-01-01
-    highlight_event_id: guji-江考卿-event-2
-  - key: breakthrough
-    name: 分部定上中下三部用药
-    labels:
-      zh:
-      - 分部用药
-    start_date: 1773-01-01
-    highlight_event_id: guji-江考卿-event-2
+      zh: 搜集通用
+    start_date: 1770
+    highlight_event_id: guji-江考卿-event-teach
   - key: climax
-    name: 详定三十六大穴治法
+    name: 公开秘传三十余方
     labels:
-      zh:
-      - 大穴治法
-    start_date: 1776-01-01
-    highlight_event_id: guji-江考卿-event-2
+      zh: 公开秘传
+    start_date: 1795
+    highlight_event_id: guji-江考卿-event-teach
   - key: closure
-    name: 成书传世普济乡野
+    name: 附验方以惠乡里
     labels:
-      zh:
-      - 成书普济
-    start_date: 1780-01-01
-    highlight_event_id: guji-江考卿-event-2
+      zh: 收束惠民
+    start_date: 1800
+    highlight_event_id: guji-江考卿-event-teach
   decisions:
-  - date: 1773-01-01
-    title_zh: 分上中下部施方
-    rationale: 头臂用川芎桂枝，腰腹用杜仲杏仁，二便闭用桔梗车前，随部施治方有准
-  - date: 1780-01-01
-    title_zh: 公开秘传以救急
-    rationale: 山村无药铺则糯米酒姜葱熨之，秘方不藏私则远近跌打皆可得救，体仁子所谓皆从血论是也
+  - date: 1795
+    title_zh: 分上中下三部用药
+    rationale: 头目臂为上，腰腹为中，二便足膝为下，皮未破多用串皮破血，皮破多用通利兼补
+  - date: 1800
+    title_zh: 麻药开割与贮药服忌并传
+    rationale: 骨出碎骨需宝麻药后割治取骨填接，跌打药宜热服忌冷水冷物，瓷瓶收贮不使出气
 events:
 - id: guji-江考卿-event-birth
-  date: 1700-01-01
-  year_of: 1700
-  title_zh: 出生
   type: birth
-  description: 清代出生，籍贯生平不详，后专攻跌打金伤之学
-- id: guji-江考卿-event-1
-  date: 1768-01-01
-  year_of: 1768
-  title_zh: 立断死证与十八不治法
+  title_zh: 出生于清中期
+  date: 1750
+  year_of: 1750
+  description: 生于清中期，习医专攻跌打金疮，接骨止血，久历伤科实践
+- id: guji-江考卿-event-compile
   type: career
-  description: 作金伤身损眼皮青歌诀，定气喘咆噎一七内亡等断死之期，列矢柱骨折两目损口开不收等不治危证
-- id: guji-江考卿-event-2
-  date: 1780-01-01
-  year_of: 1780
-  title_zh: 撰成伤科方书
+  title_zh: 编成伤科治法与穴法治则
+  date: 1790
+  year_of: 1790
+  description: 立断死证秘诀秘受不治法受伤治法，详定三十六大穴打中死期与加减汤七厘散夺命丹紫金丹治法
+- id: guji-江考卿-event-teach
   type: career
-  description: 详脑顶气喉肩臂金井胁膝腹肠诸伤扶正连针敷贴之法，定三十六大穴加减汤七厘散夺命紫金丹治法，录君臣散紫金散桃花散等秘传十六方及劳伤药酒丸方
+  title_zh: 录通用方秘传方以传后学
+  date: 1795
+  year_of: 1795
+  description: 录解肌小柴胡金疮吊药七厘夺命紫金回生膏等通用方，传君臣散桃花散宝麻药麝香象皮膏等三十余秘方，体仁子论血以明大要
 - id: guji-江考卿-event-death
-  date: 1800-01-01
-  year_of: 1800
-  title_zh: 逝世
   type: death
-  description: 清代逝世，伤科方书传世，为后世跌打正骨所宗
+  title_zh: 逝世
+  date: 1820
+  year_of: 1820
+  description: 殁于清中期以后，遗江氏伤科学通行于世，惠及跌打损伤接骨续筋之治
