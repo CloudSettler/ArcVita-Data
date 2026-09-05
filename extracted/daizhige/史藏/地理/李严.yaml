@@ -1,0 +1,133 @@
+person:
+  qid: guji-李严
+  name_zh: 李严
+  names:
+    zh: 李严
+    en: Li Yan
+  lifespan:
+    birth:
+      date: 0168
+      precision: year
+      is_circa: true
+      raw: 约汉灵帝时生于南阳
+    death:
+      date: '0234'
+      precision: year
+      is_circa: false
+      raw: 蜀汉建兴十二年卒
+  birth_date: 0168
+  death_date: '0234'
+  era: 三国蜀汉
+  reign_ref: 刘备刘禅时期
+  archetype: 托孤守边的经略之臣
+  dilemmas:
+  - 永安危城当守与江州根本当固的轻重抉择
+  - 筑大城引水为洲的远图与北伐大局征调的冲突
+  - 请置巴州自重与丞相统一规划的顺逆两难
+  lesson: 负重守土当先公后私，经营一方须顺大局而量力
+  summary_first_person: 吾随先主入蜀，受托孤之任，都督永安，造设围戍，守江关不失，后镇江州，更筑大城，周回十六里，造苍龙白虎门，别郡县仓皆有城，欲穿山引水使城为洲，请以五郡置巴州，虽未得许，然保巴东江州根本，亦尽臣节矣
+  source_urls:
+  - https://daizhige.org/史藏/地理/华阳国志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/华阳国志.md
+endeavors:
+- id: guji-李严-endeavor-1
+  title_zh: 白帝托孤都督永安设戍
+  summary: 先主征吴败还薨于永安，以尚书令李严为都督，造设围戍，守巴东江关
+  phases:
+  - key: brewing
+    name: 夷陵败退永安危迫
+    labels:
+      zh: 败退受任
+    start_date: '0222'
+    highlight_event_id: guji-李严-event-yongan
+  - key: breakthrough
+    name: 受托为永安都督
+    labels:
+      zh: 托孤守关
+    start_date: 0223-04
+    highlight_event_id: guji-李严-event-yongan
+  - key: climax
+    name: 造设围戍固江关
+    labels:
+      zh: 设戍固边
+    start_date: 0223-06
+    highlight_event_id: guji-李严-event-yongan
+  - key: closure
+    name: 还镇江州交代东守
+    labels:
+      zh: 交代东归
+    start_date: '0225'
+    highlight_event_id: guji-李严-event-jiangzhou
+  decisions:
+  - date: 0223-06
+    title_zh: 受命都督永安造围戍
+    rationale: 江关为蜀东门户，吴兵压境，须设戍守夷道鱼复，以保国丧归葬与东境不失
+  - date: '0225'
+    title_zh: 还江州以陈到代守
+    rationale: 永安既固，江州为巴郡根本，须回镇江州都督，以控二江会口
+- id: guji-李严-endeavor-2
+  title_zh: 镇江州更筑大城储粮
+  summary: 都护江州，更城大城，造门别郡县仓，欲穿山引水使城为洲，请置巴州
+  phases:
+  - key: brewing
+    name: 领江州都督视巴土
+    labels:
+      zh: 镇巴视土
+    start_date: '0225'
+    highlight_event_id: guji-李严-event-jiangzhou
+  - key: breakthrough
+    name: 更筑江州大城十六里
+    labels:
+      zh: 筑城拓郭
+    start_date: '0226'
+    highlight_event_id: guji-李严-event-jiangzhou
+  - key: climax
+    name: 造苍龙白虎门别仓城
+    labels:
+      zh: 设门积谷
+    start_date: '0227'
+    highlight_event_id: guji-李严-event-jiangzhou
+  - key: closure
+    name: 请置巴州不许召汉中
+    labels:
+      zh: 图大未成
+    start_date: 0229
+    highlight_event_id: guji-李严-event-beizheng
+  decisions:
+  - date: '0226'
+    title_zh: 更城大城欲穿山引水
+    rationale: 江州承二江之会，夏水涨盛易坏散，当筑大城并引汶江通巴江使城为洲，以固根本
+  - date: '0227'
+    title_zh: 求以五郡置巴州
+    rationale: 巴地东西辽远，江州以东半楚，以西平敞殊俗，当置巴州以统摄，便于供输守御
+events:
+- id: guji-李严-event-birth
+  title_zh: 出生于南阳
+  date: 0168
+  year_of: 168
+  place_zh: 南阳
+  description: 汉末生于南阳，少有才干，后随入蜀事刘备
+- id: guji-李严-event-yongan
+  title_zh: 白帝受托守永安
+  date: '0223-06-01'
+  year_of: 223
+  place_zh: 巴东永安
+  description: 先主征吴败还薨于永安，以尚书令李严为都督，造设围戍，守江关御吴
+- id: guji-李严-event-jiangzhou
+  title_zh: 都督江州更筑大城
+  date: '0226-01-01'
+  year_of: 226
+  place_zh: 巴郡江州
+  description: 还镇江州为都护，更城大城周回十六里，造苍龙白虎门，别郡县仓皆有城
+- id: guji-李严-event-beizheng
+  title_zh: 欲穿山引水求置巴州不许
+  date: '0229-01-01'
+  year_of: 229
+  place_zh: 江州
+  description: 欲穿城后山自汶江通水入巴江使城为洲，求以五郡置巴州，丞相亮不许，后召赴汉中，穿山未逮
+- id: guji-李严-event-death
+  title_zh: 卒
+  date: '0234'
+  year_of: 234
+  place_zh: 梓潼
+  description: 诸葛亮北征屯汉中时，李严督运失职贬徙梓潼，建兴十二年卒
