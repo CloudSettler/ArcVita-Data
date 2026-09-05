@@ -6,7 +6,7 @@ person:
     en: Zheng Chenggong
   lifespan:
     birth:
-      date: 1624-08-27
+      date: 1624-08-26
       precision: day
       is_circa: false
       raw: 明天启四年七月十四生于平户
@@ -15,124 +15,136 @@ person:
       precision: day
       is_circa: false
       raw: 永历十六年五月初八卒于承天府
-  birth_date: 1624-08-27
+  birth_date: 1624-08-26
   death_date: 1662-06-23
   era: 明末清初
-  reign_ref: 南明永历
-  archetype: 海疆开拓者
+  reign_ref: 永历
+  archetype: 开疆立治者
   dilemmas:
-  - 孤悬海上与坚持抗清之间的进退抉择
-  - 驱荷复土与安顿闽粤移民之间的治理平衡
-  lesson: 审时据险以立基业，抚民置治方能久远
-  summary_first_person: 吾郑成功，起于海上，保厦门，兼澎湖，逐荷兰而复台湾，置承天府号东都，设天兴万年二县，立根本于荒服，以存汉家衣冠，以屏障东南
+  - 孤军厦门进退维谷是守沿海孤岛还是渡海另辟基业
+  - 荷兰坚守土城炮坚船利是强攻速决还是围困久持
+  lesson: 困则思变退亦是进先据形胜再图恢复方为长策
+  summary_first_person: 我是郑成功江南失利后退守厦门继而东渡鹿耳门围困荷兰土城收复台湾改建东都设府置县以存汉家正朔
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B8%85%E4%B8%80%E7%BB%9F%E5%BF%97%E5%8F%B0%E6%B9%BE%E5%BA%9C.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B8%85%E4%B8%80%E7%BB%9F%E5%BF%97%E5%8F%B0%E6%B9%BE%E5%BA%9C.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E9%87%8D%E4%BF%AE%E5%8F%B0%E6%B9%BE%E5%BA%9C%E5%BF%97.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E9%87%8D%E4%BF%AE%E5%8F%B0%E6%B9%BE%E5%BA%9C%E5%BF%97.md
 endeavors:
 - id: guji-郑成功-endeavor-1
-  title_zh: 驱荷复台置东都
-  description: 顺治十八年渡海东征，逐荷兰夷据台湾，置承天府号东都，设天兴万年二县，奠台湾建置之始
+  title_zh: 东渡驱荷收复台湾
+  summary_zh: 自厦门图退步地渡鹿耳门围攻台湾土城迫荷兰弃城而归
   phases:
   - key: brewing
-    name: 据厦望台
+    name: 厦门谋退步
     labels:
-      zh: 蓄势待发
-    start_date: 1650-06-01
-    highlight_event_id: guji-郑成功-event-juxia
+      zh: 审势谋台
+    start_date: 1661-02-01
+    highlight_event_id: guji-郑成功-event-plan-taiwan
   - key: breakthrough
-    name: 鹿耳登陆
+    name: 鹿耳门登陆
     labels:
-      zh: 渡海突破
+      zh: 渡海登陆
     start_date: 1661-04-30
-    highlight_event_id: guji-郑成功-event-denglu
+    highlight_event_id: guji-郑成功-event-luer-entry
   - key: climax
-    name: 围城置府
+    name: 围困土城决战
     labels:
-      zh: 决战建置
-    start_date: 1661-05-01
-    highlight_event_id: guji-郑成功-event-zhifu
+      zh: 围城决战
+    start_date: 1661-05-10
+    highlight_event_id: guji-郑成功-event-siege-fort
   - key: closure
-    name: 荷降收官
+    name: 荷兰弃城归降
     labels:
-      zh: 收复告成
+      zh: 收复全台
     start_date: 1662-02-01
-    highlight_event_id: guji-郑成功-event-shoufu
+    highlight_event_id: guji-郑成功-event-dutch-surrender
   decisions:
+  - date: 1661-02-01
+    title_zh: 纳何斌之议东取台湾
+    rationale: 厦门孤悬难持久借台湾为退步以养民训师再图进取
   - date: 1661-04-30
-    title_zh: 决意东征台湾
-    rationale: 以厦澎孤悬粮匮，台湾可为根本，转图东番以存基业
-  - date: 1661-05-01
-    title_zh: 置承天府与二县
-    rationale: 承明制而立官府，分天兴万年以安移民，使荒服渐入版图
+    title_zh: 趁涨潮直入鹿耳门
+    rationale: 鹿耳门水浅纡回趁大涨纵舰毕入出其不意夺取先机
+  - date: 1661-05-10
+    title_zh: 环山列营困而不屠
+    rationale: 坚城难克以围困断其援绝其粮保全城池军民减少杀伤
 - id: guji-郑成功-endeavor-2
-  title_zh: 保据厦澎为重镇
-  description: 保据厦门兼有澎湖，领巨舰精兵拒守，以澎湖为门户，以鹿耳为咽喉，倚为东征跳板
+  title_zh: 建制东都经略番汉
+  summary_zh: 改台湾为安平镇赤嵌为承天府设二县置安抚招流民渐近中国风土
   phases:
   - key: brewing
-    name: 保据厦门
+    name: 改地名正名分
     labels:
-      zh: 立足沿海
-    start_date: 1650-06-01
-    highlight_event_id: guji-郑成功-event-juxia
-  - key: breakthrough
-    name: 兼有澎湖
-    labels:
-      zh: 控扼门户
-    start_date: 1661-03-01
-    highlight_event_id: guji-郑成功-event-denglu
-  - key: climax
-    name: 东渡奠基
-    labels:
-      zh: 转进台湾
+      zh: 正名建制
     start_date: 1661-05-01
-    highlight_event_id: guji-郑成功-event-zhifu
-  - key: closure
-    name: 台澎一体
+    highlight_event_id: guji-郑成功-event-found-dongdu
+  - key: breakthrough
+    name: 设府县安官吏
     labels:
-      zh: 海疆粗定
-    start_date: 1662-02-01
-    highlight_event_id: guji-郑成功-event-shoufu
+      zh: 设官分治
+    start_date: 1661-06-01
+    highlight_event_id: guji-郑成功-event-found-dongdu
+  - key: climax
+    name: 兴市廛招流民
+    labels:
+      zh: 招民垦荒
+    start_date: 1661-08-01
+    highlight_event_id: guji-郑成功-event-found-dongdu
+  - key: closure
+    name: 立纲纪遗绪东宁
+    labels:
+      zh: 奠基垂后
+    start_date: 1662-06-23
+    highlight_event_id: guji-郑成功-event-death
   decisions:
-  - date: 1650-06-01
-    title_zh: 保据厦门兼澎湖
-    rationale: 以厦澎互为犄角，设安抚司领水师，以拒强敌而保退路
-  - date: 1661-04-30
-    title_zh: 以澎湖为跳板东渡
-    rationale: 澎湖三十六屿为入台指南，先固门户再取大员，可保海道无虞
+  - date: 1661-05-01
+    title_zh: 改台湾为安平镇赤嵌为承天府
+    rationale: 去荷兰旧名立汉家名号以示收复故土正统所在
+  - date: 1661-06-01
+    title_zh: 设承天府天兴万年二县及安抚司
+    rationale: 以州官治汉人以安抚司治番民因俗而治奠定郡县规模
+  - date: 1661-08-01
+    title_zh: 兴市廛构庙宇招纳流民
+    rationale: 荒服初辟唯有人聚方能垦辟久居化兵荒为礼乐之区
 events:
 - id: guji-郑成功-event-birth
-  title_zh: 出生于平户
-  date: 1624-08-27
+  title_zh: 生于平户
+  date: 1624-08-26
   year_of: 1624
-  location: 平户
-  description: 明天启四年七月十四生，父郑芝龙，母田川氏
-- id: guji-郑成功-event-juxia
-  title_zh: 保据厦门兼有澎湖
-  date: 1650-06-01
-  year_of: 1650
-  location: 厦门澎湖
-  description: 保据厦门，兼有澎湖，设安抚司领巨舰精兵，倚为重镇
-- id: guji-郑成功-event-denglu
-  title_zh: 由鹿耳门登陆台湾
+  place_zh: 日本平户
+  description_zh: 明天启四年七月十四生后归国举兵抗清
+- id: guji-郑成功-event-plan-taiwan
+  title_zh: 辛丑自厦门图取台湾
+  date: 1661-02-01
+  year_of: 1661
+  place_zh: 厦门
+  description_zh: 自江南丧败势蹙孤军厦门纳何斌之议图退步取台湾
+- id: guji-郑成功-event-luer-entry
+  title_zh: 舟入鹿耳门
   date: 1661-04-30
   year_of: 1661
-  location: 鹿耳门
-  description: 率舟师东渡，自鹿耳门登陆，进攻荷兰夷城堡
-- id: guji-郑成功-event-zhifu
-  title_zh: 置承天府与天兴万年二县
-  date: 1661-05-01
+  place_zh: 鹿耳门
+  description_zh: 郑舟至鹿耳门水忽大涨巨舰纵横毕入遂登陆围攻荷兰
+- id: guji-郑成功-event-siege-fort
+  title_zh: 环山列营困台湾土城
+  date: 1661-05-10
   year_of: 1661
-  location: 承天府
-  description: 逐荷兰夷据其地，置承天府号东都，设天兴万年二县
-- id: guji-郑成功-event-shoufu
-  title_zh: 荷兰投降收复台湾
+  place_zh: 台湾土城
+  description_zh: 与荷兰战不利退保土城者环山列营困之复焚其夹板船
+- id: guji-郑成功-event-dutch-surrender
+  title_zh: 荷兰弃城归去
   date: 1662-02-01
   year_of: 1662
-  location: 热兰遮城
-  description: 荷兰夷献城投降，台湾全复，置官分治，移民屯垦
+  place_zh: 台湾土城
+  description_zh: 晓谕此地乃先人故物令载珍宝归去荷兰势穷弃城而归
+- id: guji-郑成功-event-found-dongdu
+  title_zh: 改建东都设府置县
+  date: 1661-05-15
+  year_of: 1661
+  place_zh: 承天府
+  description_zh: 就台湾土城居之改台湾为安平镇赤嵌为承天府总名东都设承天府及天兴万年二县
 - id: guji-郑成功-event-death
   title_zh: 卒于承天府
   date: 1662-06-23
   year_of: 1662
-  location: 承天府
-  description: 永历十六年五月初八卒，子郑经嗣，改东都为东宁
+  place_zh: 承天府
+  description_zh: 收复台湾未几而卒子郑经嗣立改东都为东宁

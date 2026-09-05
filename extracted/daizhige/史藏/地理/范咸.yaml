@@ -1,0 +1,127 @@
+person:
+  qid: guji-范咸
+  name_zh: 范咸
+  names:
+    zh: 范咸
+    en: Fan Xian
+  lifespan:
+    birth:
+      date: 1698
+      precision: year
+      is_circa: true
+      raw: 浙江仁和人癸卯进士前约生
+    death:
+      date: 1769
+      precision: year
+      is_circa: true
+      raw: 乾隆中后期卒
+  birth_date: 1698
+  death_date: 1769
+  era: 清
+  reign_ref: 乾隆
+  archetype: 巡方学政兼方志纂修者
+  dilemmas:
+  - 海外初辟文献散佚当如何网罗征信
+  - 旧志因陋就简与新志增华求备当如何取舍
+  lesson: 周访新知网罗旧典参核裁断方成信志
+  summary_first_person: 余范咸字九池浙江仁和人以御史巡视台湾兼摄学政与给事中六十七共修台湾府志网罗群书厘为十二纲九十二目以资治理而存文献
+  source_urls:
+  - https://daizhige.org/史藏/地理/重修台湾府志-清-范咸.html
+endeavors:
+- id: guji-范咸-endeavor-1
+  title_zh: 巡视台湾兼提督学政
+  description: 奉命渡海巡视台湾宣布德意抚绥民番查勘官庄兴文讲武
+  phases:
+  - key: brewing
+    name: 奉命巡方
+    labels:
+      zh: 巡视
+    start_date: 1746-01
+    highlight_event_id: guji-范咸-event-xunshi
+  - key: breakthrough
+    name: 渡海履台
+    labels:
+      zh: 履勘
+    start_date: 1746-06
+    highlight_event_id: guji-范咸-event-xunshi
+  - key: climax
+    name: 抚绥查勘
+    labels:
+      zh: 绥抚
+    start_date: 1746-09
+    highlight_event_id: guji-范咸-event-xunshi
+  - key: closure
+    name: 政理浃和
+    labels:
+      zh: 完成
+    start_date: 1747-03
+    highlight_event_id: guji-范咸-event-xiuzhi
+  decisions:
+  - date: 1746-06
+    title_zh: 携书入台以备修志
+    rationale: 岛屿鲜藏书自京师携使槎录至武林得赤嵌集以供征引
+  - date: 1746-09
+    title_zh: 与六十七庄年褚禄共议修志
+    rationale: 旧志挂漏须参酌考订咨讨厘正
+- id: guji-范咸-endeavor-2
+  title_zh: 重修台湾府志
+  description: 取高拱干刘良璧旧志增损为纲十二目九十二逾年刊刻告竣
+  phases:
+  - key: brewing
+    name: 网罗旧典
+    labels:
+      zh: 搜集
+    start_date: 1746-06
+    highlight_event_id: guji-范咸-event-xunshi
+  - key: breakthrough
+    name: 周访新知
+    labels:
+      zh: 访查
+    start_date: 1746-09
+    highlight_event_id: guji-范咸-event-xiuzhi
+  - key: climax
+    name: 参酌厘正
+    labels:
+      zh: 纂修
+    start_date: 1746-10
+    highlight_event_id: guji-范咸-event-xiuzhi
+  - key: closure
+    name: 刊刻告竣
+    labels:
+      zh: 刊成
+    start_date: 1746-12
+    highlight_event_id: guji-范咸-event-xiuzhi
+  decisions:
+  - date: 1746-09
+    title_zh: 合新旧二志增损为十二纲
+    rationale: 高志略而有体刘志详而不伦须汰繁补缺祛泛遴要
+  - date: 1746-10
+    title_zh: 增海防田赋武备番俗诸条
+    rationale: 鹿耳门为门户防海宜详田赋异科武备特重番社数百种须分类详记
+events:
+- id: guji-范咸-event-birth
+  title_zh: 出生浙江仁和
+  date: 1698
+  year_of: 1698
+  type: birth
+  description: 浙江仁和人字九池后登癸卯进士
+- id: guji-范咸-event-xunshi
+  title_zh: 赴台巡视兼提督学政
+  date: 1746-06
+  year_of: 1746
+  type: career
+  description: 与给事中六十七同奉命巡视台湾宣布德意抚绥民番辑宁海疆
+  endeavor_ref: guji-范咸-endeavor-1
+- id: guji-范咸-event-xiuzhi
+  title_zh: 重修台湾府志告竣刊刻
+  date: 1746-12
+  year_of: 1746
+  type: career
+  description: 取高刘旧志增损为纲十二目九十二逾年刊刻告竣
+  endeavor_ref: guji-范咸-endeavor-2
+- id: guji-范咸-event-death
+  title_zh: 卒
+  date: 1769
+  year_of: 1769
+  type: death
+  description: 志成之后卒于乾隆中后期
