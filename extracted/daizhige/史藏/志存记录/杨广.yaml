@@ -6,7 +6,7 @@ person:
     en: Yang Guang
   lifespan:
     birth:
-      date: 0569
+      date: '0569-01-01'
       precision: year
       is_circa: false
       raw: 北周天和四年
@@ -14,126 +14,161 @@ person:
       date: '0618-04-11'
       precision: day
       is_circa: false
-      raw: 大业十四年三月江都
-  birth_date: 0569
+      raw: 隋大业十四年三月十一江都被弑
+  birth_date: '0569-01-01'
   death_date: '0618-04-11'
-  era: 隋
-  reign_ref: 大业
-  archetype: 奢靡逸游亡国之君
+  era: 隋朝
+  reign_ref: 隋大业
+  archetype: 奢靡巡游之亡国君主
   dilemmas:
-  - 辽东小国远征与留守安内之两难，宫女攀车泣留而意不回
-  - 江都逸乐长久与盗贼四起图治之两难，委事杨素自比长城公
-  - 萧妃妒忌与众姬争宠之两难，司花女绛仙稍不得亲幸
-  lesson: 沈湎逸游忘却政事，虽有文才宠姬，终致内外离叛而身亡国灭
-  summary_first_person: 朕即杨广，年十五得宝儿为司花女，龙舟幸江都，建迷楼置四宝帐，夜召来梦儿安寝，终因逸游不返，委政于人，致宇文化及作乱而殒于江都
+  - 览广陵图思旧游欲泛舟东南与万里涉险劳民之谏相权
+  - 欲凿穿睢阳王气与回护城邑宅墓民心之请相持
+  lesson: 以一己游幸之欲兴千里大役虽成运河之利终以虐民峻刑失天下
+  summary_first_person: 吾昔镇广陵恋其烟水，览图兴怀，遂决意自洛入河达淮幸广陵，纳萧怀静之策开卞渠穿王气，以麻叔谋督三百六十万丁夫，决汴乘龙舟南下，植柳护堤，然督功严酷，丁夫折耗二百五十万，终以奢虐致乱
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%A4%A7%E4%B8%9A%E6%8B%BE%E9%81%97%E8%AE%B0.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%A4%A7%E4%B8%9A%E6%8B%BE%E9%81%97%E8%AE%B0.md
+  - https://daizhige.org/史藏/志存记录/开河记.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/开河记.md
 endeavors:
 - id: guji-杨广-endeavor-1
-  title_zh: 大业十二年幸江都巡游
-  summary_zh: 命越王侑留守东都，令麻叔谋浚河，御龙舟凤舸，选殿脚女千人，宠司花女与绛仙，极侈靡于汴广之间
+  title_zh: 决议开卞渠自大梁引孟津水东至淮口达广陵
+  summary: 拒群臣万里泛海之谏纳萧怀静开故河道穿睢阳王气之议敕斩谏开河者任麻叔谋督役
   phases:
   - key: brewing
-    name: 决意幸江都命留守
+    name: 观图兴幸议
     labels:
-      zh:
-      - 留守东都
-      - 宫女攀车
-    start_date: '0616-01-01'
-    highlight_event_id: guji-杨广-event-xingjiangdu
+      zh: 观图思旧
+    start_date: '0609-01-01'
+    highlight_event_id: guji-杨广-event-kaihe-decision
   - key: breakthrough
-    name: 浚河造舟备巡幸
+    name: 敕命开掘
     labels:
-      zh:
-      - 麻叔谋浚河
-      - 何妥进车
-    start_date: '0616-03-01'
-    highlight_event_id: guji-杨广-event-xingjiangdu
+      zh: 敕斩谏者
+    start_date: '0609-08-01'
+    highlight_event_id: guji-杨广-event-kaihe-start
   - key: climax
-    name: 龙舟广陵极欢宴
+    name: 睢阳回护易道
     labels:
-      zh:
-      - 龙舟凤舸
-      - 司花绛仙
-    start_date: '0616-07-01'
-    highlight_event_id: guji-杨广-event-xingjiangdu
+      zh: 回护王气
+    start_date: '0609-10-01'
+    highlight_event_id: guji-杨广-event-suiyang
   - key: closure
-    name: 吴宫妖梦沉湎深
+    name: 决汴注水功成
     labels:
-      zh:
-      - 月观夜游
-      - 鸡台遇陈后主
-    start_date: '0616-09-01'
-    highlight_event_id: guji-杨广-event-mimeng
+      zh: 决口成河
+    start_date: '0610-01-01'
+    highlight_event_id: guji-杨广-event-complete
   decisions:
-  - date: '0616-01-01'
-    title_zh: 命越王侑留守东都而自幸江都
-    rationale: 不听宫女征辽择将之谏，欲纵意东南，故以百万师徒前驱
-  - date: '0616-07-01'
-    title_zh: 御龙舟选殿脚女擢绛仙为首楫
-    rationale: 喜吴绛仙柔丽长蛾，欲以秀色佐游，故号崆峒夫人赐螺黛
+  - date: '0609-01-01'
+    title_zh: 拒群臣谏从萧怀静自河阴引水东至淮口之策
+    rationale: 欲速达广陵兼凿穿睢阳王气故取千里陆开之捷径
+  - date: '0609-08-01'
+    title_zh: 以麻叔谋为开河都护发天下十五以上丁夫隐匿者斩三族
+    rationale: 以严刑峻法速集巨力督成大役
 - id: guji-杨广-endeavor-2
-  title_zh: 营建迷楼荒政致乱
-  summary_zh: 幸昭明文选楼见宫娥衣飞，遂建迷楼置四宝帐，宠来梦儿韩俊娥，不恤盗贼，终致禁卫作乱
+  title_zh: 营龙舟南巡植柳护堤并鞫斩叔谋
+  summary: 造五百大船饰七宝选殿脚女牵挽命种杨柳护堤南幸验浅治吏至睢阳鞫叔谋罪而斩之
   phases:
   - key: brewing
-    name: 文选楼色荒起意
+    name: 造船备巡
     labels:
-      zh:
-      - 文选楼迎侍
-      - 微风衣飞
-    start_date: '0616-10-01'
-    highlight_event_id: guji-杨广-event-mimeng
+      zh: 造船配役
+    start_date: '0610-02-01'
+    highlight_event_id: guji-杨广-event-complete
   - key: breakthrough
-    name: 建迷楼置宝帐
+    name: 御笔赐柳姓杨
     labels:
-      zh:
-      - 迷楼轻罗
-      - 四宝帐香雾
-    start_date: '0616-11-01'
-    highlight_event_id: guji-杨广-event-mimeng
+      zh: 种柳护堤
+    start_date: '0610-03-01'
+    highlight_event_id: guji-杨广-event-plant-willow
   - key: climax
-    name: 宠来梦儿废寝政
+    name: 龙舟阻浅穷治
     labels:
-      zh:
-      - 韩俊娥振耸
-      - 月观合欢辞怨
-    start_date: '0617-01-01'
-    highlight_event_id: guji-杨广-event-mimeng
+      zh: 验浅埋吏
+    start_date: '0610-04-01'
+    highlight_event_id: guji-杨广-event-shallow
   - key: closure
-    name: 内外离叛酿变
+    name: 睢阳鞫斩叔谋
     labels:
-      zh:
-      - 拆字语谶
-      - 放官奴生变
-    start_date: '0618-01-01'
-    highlight_event_id: guji-杨广-event-death
+      zh: 斩叔谋河侧
+    start_date: '0610-05-01'
+    highlight_event_id: guji-杨广-event-execute-mashu
   decisions:
-  - date: '0616-11-01'
-    title_zh: 建迷楼择稚女居之纵欲
-    rationale: 欲常若神仙境以极耳目，故爇名香张四宝帐废止巡省
-  - date: '0618-01-01'
-    title_zh: 委事杨素不图群盗准放直
-    rationale: 自谓不失作长城公，纵侬家事付人，遂开裴虔通宇文化及之隙
+  - date: '0610-03-01'
+    title_zh: 纳虞世基言两堤遍植垂柳亲栽第一株并赐姓杨
+    rationale: 欲以根护河堤以阴庇挽夫以叶饲牵羊兼饰巡游之观
+  - date: '0610-05-01'
+    title_zh: 免叔谋子孙而腰斩叔谋于河侧鞭死陶郎儿贬段达
+    rationale: 食子受金盗宝擅移河道罪大然念开河之功故止诛其身
 events:
 - id: guji-杨广-event-birth
-  date: 0569
+  title_zh: 生于长安
+  date: '0569-01-01'
   year_of: 569
-  title_zh: 出生于长安
-  description: 北周天和四年隋文帝第二子，生而敏慧，后继统为隋炀帝，改元大业
-- id: guji-杨广-event-xingjiangdu
-  date: '0616-03-01'
-  year_of: 616
-  title_zh: 大业十二年幸江都
-  description: 命越王侑留守东都，令麻叔谋浚黄河入汴，御何妥车龙舟凤舸，携萧妃袁宝儿吴绛仙，虞世南作诗嘲憨态，耀光绫独赐二姬
-- id: guji-杨广-event-mimeng
-  date: '0616-11-01'
-  year_of: 616
-  title_zh: 建迷楼沈湎广陵
-  description: 幸昭明文选楼见宫娥衣飞遂建迷楼，置散春愁醉忘归等四宝帐，宠韩俊娥号来梦儿，月观忆旧，赐绛仙合欢果离解生怨
+  place_zh: 长安
+  description: 隋文帝次子生后立为晋王陈王镇广陵终即帝位
+  roles:
+  - 出生
+- id: guji-杨广-event-kaihe-decision
+  title_zh: 观广陵图决意幸广陵纳开河议
+  date: '0609-01-01'
+  year_of: 609
+  place_zh: 洛阳宫
+  description: 览殿壁广陵图思旧游，萧后劝幸，翌日议泛舟，纳萧怀静自大梁开河引孟津水东至淮口之奏，出敕谏开河者斩
+  roles:
+  - 决议开河
+- id: guji-杨广-event-kaihe-start
+  title_zh: 命麻叔谋自大梁起首开掘
+  date: '0609-08-01'
+  year_of: 609
+  place_zh: 大梁乐台北卞渠首
+  description: 大业五年八月上旬建功，发丁夫三百六十万加督卒五万，分东西开掘，置源传舍署
+  roles:
+  - 兴役开河
+- id: guji-杨广-event-suiyang
+  title_zh: 叔谋受金回护睢阳易道屈曲二十里
+  date: '0609-10-01'
+  year_of: 609
+  place_zh: 睢阳
+  description: 叔谋梦宋襄公华元求护城受民金三千两，自睢阳西穿渠南北回屈东过刘赵村，较直路多二十里
+  roles:
+  - 督工异变
+- id: guji-杨广-event-complete
+  title_zh: 卞渠成决汴口注水
+  date: '0610-01-01'
+  year_of: 610
+  place_zh: 汴口大梁
+  description: 点检丁夫折二百五十万，工毕上言，遣决汴口注水入渠，诏江淮造大船五百只备巡幸
+  roles:
+  - 河成备巡
+- id: guji-杨广-event-plant-willow
+  title_zh: 敕栽垂柳两堤御笔赐姓杨
+  date: '0610-03-01'
+  year_of: 610
+  place_zh: 汴渠两堤
+  description: 纳虞世基层护堤庇挽饲羊之策，诏献柳赏缣，帝亲种一株，群臣百姓次第种，赐名杨柳，龙舟饰七宝以殿脚女牵挽南下
+  roles:
+  - 种柳巡幸
+- id: guji-杨广-event-shallow
+  title_zh: 验浅得一百二十九处倒埋岸吏
+  date: '0610-04-01'
+  year_of: 610
+  place_zh: 雍邱至灌口宁陵界
+  description: 龙舟至宁陵水浅阻碍，用铁脚木鹅验浅，自雍邱至灌口得一百二十九处，缚两岸地分人倒埋岸下又埋五万余人
+  roles:
+  - 治河严刑
+- id: guji-杨广-event-execute-mashu
+  title_zh: 睢阳鞫斩麻叔谋
+  date: '0610-05-01'
+  year_of: 610
+  place_zh: 睢阳河北岸
+  description: 至睢阳察屈曲，令狐辛达奏叔谋食羊脔啖婴儿受金三千盗国宝玉印擅移河道，搜得金璧宝印小儿骨，腰斩叔谋于河侧鞭死郎儿兄弟黄金窟贬段达
+  roles:
+  - 诛督河官
 - id: guji-杨广-event-death
+  title_zh: 被弑于江都
   date: '0618-04-11'
   year_of: 618
-  title_zh: 江都之变被弑
-  description: 盗贼攻外奸蠹起内，裴虔通司马德勤引宇文化及谋乱，请放官奴分直，遂有焚草之变，帝殒于江都
+  place_zh: 江都
+  description: 大业十四年三月十一宇文化及缢弑于江都行宫，在位十四年
+  roles:
+  - 驾崩
