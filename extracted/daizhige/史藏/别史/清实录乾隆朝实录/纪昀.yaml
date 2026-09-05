@@ -6,113 +6,130 @@ person:
     en: Ji Yun
   lifespan:
     birth:
-      date: 1724-07-26
+      date: 1724-08-03
       precision: day
       is_circa: false
-      raw: 雍正二年六月初七
+      raw: 雍正二年六月十五日
     death:
       date: 1805-03-14
       precision: day
       is_circa: false
-      raw: 嘉庆十年二月十四
-  birth_date: 1724-07-26
+      raw: 嘉庆十年二月十四日
+  birth_date: 1724-08-03
   death_date: 1805-03-14
   era: 清
-  reign_ref: 乾隆
-  archetype: 博学守正之文臣
+  reign_ref: 乾隆二十八年
+  archetype: 督学文臣
   dilemmas:
-  - 文学声名与官场谨慎之间的权衡
-  - 考据实学与仕进制艺之间的取舍
-  lesson: 持博学以致用守正直以事君方能善全始终
-  summary_first_person: 吾直隶献县人少习经史以进士入翰林历馆阁校理蒙列京察一等后奉命总纂四库全书综理群籍毕生以读书著述为事愿以实学裨益世用
+  - 严核月课优劣与顾全教官士子情面之难
+  - 尊崇庙讳御名与保存坊刻经籍原貌之难
+  lesson: 衡文校经当守正持平兼顾尊体便民
+  summary_first_person: 余督学闽中厘定月课补廪之法校正坊刻避讳之例惟求士习端而经籍正
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70662.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70662.md
+  - https://github.com/daizhige-org/daizhigev20
 endeavors:
 - id: guji-纪昀-endeavor-1
-  title_zh: 馆阁养成与京察叙优
-  summary_zh: 由进士入翰林经散馆授职在京察中列为一等加级奠定馆阁清望
+  title_zh: 督学福建整饬科场
+  summary: 赴闽提督学政陈奏月课收卷补廪事宜以端士习
   phases:
   - key: brewing
-    name: 进士入翰林
+    name: 受命督学福建
     labels:
       zh:
-      - 读书进取
-    start_date: 1754-01-01
-    highlight_event_id: guji-纪昀-event-1754-jinshi
+      - 赴任
+    start_date: 1762-08-01
+    highlight_event_id: guji-纪昀-event-1
   - key: breakthrough
-    name: 京察列一等
+    name: 陈奏学政事宜
     labels:
       zh:
-      - 考绩优异
-    start_date: 1762-01-01
-    highlight_event_id: guji-纪昀-event-1762-jingcha
-  decisions:
-  - date: 1762-06-01
-    title_zh: 安心馆阁校理文史
-    rationale: 不急求外放以文章学问自立得清望而后大用
-- id: guji-纪昀-endeavor-2
-  title_zh: 总纂四库与综理文治
-  summary_zh: 奉命为四库全书总纂官综理天下进书辨章学术晚年主持文治领礼部尚书协办大学士
-  phases:
+      - 建言
+    start_date: 1763-10-01
+    highlight_event_id: guji-纪昀-event-1
   - key: climax
-    name: 开四库馆总纂群书
+    name: 部议准行
     labels:
       zh:
-      - 典籍总汇
-    start_date: 1773-02-01
-    highlight_event_id: guji-纪昀-event-1773-siku
+      - 准行
+    start_date: 1763-10-15
+    highlight_event_id: guji-纪昀-event-1
   - key: closure
-    name: 晚年典文领部务
+    name: 颁行各学遵守
     labels:
       zh:
-      - 文治守成
-    start_date: 1796-01-01
-    highlight_event_id: guji-纪昀-event-1796-libu
+      - 定制
+    start_date: 1763-11-01
+    highlight_event_id: guji-纪昀-event-1
   decisions:
-  - date: 1773-02-01
-    title_zh: 以考据涵容汉宋兼采
-    rationale: 网罗遗书辨伪存真使学术有所归宿而不党同伐异
+  - date: 1763-10-01
+    title_zh: 请府学生员月课由州县教官带理
+    rationale: 百里外生员赴府不便就近考核以防旷课且责成转申优劣
+  - date: 1763-10-01
+    title_zh: 请新增考二等者不准越补廪生
+    rationale: 附甫补增即补廪太优当以屡考前列为限以示劝惩
+  - date: 1763-10-01
+    title_zh: 请生童试卷自填添注涂改字样
+    rationale: 教官收卷本省人易串通添改令本人自填以杜弊
+- id: guji-纪昀-endeavor-2
+  title_zh: 厘定坊刻经书避讳缺笔
+  summary: 奏请坊本经书遇庙讳御名缺笔并载入科场条例以崇尊亲
+  phases:
+  - key: brewing
+    name: 查访坊刻违式
+    labels:
+      zh:
+      - 访查
+    start_date: 1763-09-01
+    highlight_event_id: guji-纪昀-event-2
+  - key: breakthrough
+    name: 奏请缺笔避讳
+    labels:
+      zh:
+      - 奏请
+    start_date: 1763-10-20
+    highlight_event_id: guji-纪昀-event-2
+  - key: climax
+    name: 部议准行改刊
+    labels:
+      zh:
+      - 改刊
+    start_date: 1763-10-25
+    highlight_event_id: guji-纪昀-event-2
+  - key: closure
+    name: 武英殿及各省一体遵奉
+    labels:
+      zh:
+      - 颁行
+    start_date: 1763-11-01
+    highlight_event_id: guji-纪昀-event-2
+  decisions:
+  - date: 1763-10-20
+    title_zh: 请庙讳刊去末笔偏旁缺笔
+    rationale: 伪唐石经宋监本旧例可循以存敬慎
+  - date: 1763-10-20
+    title_zh: 请御名本字及偏旁字并缺笔
+    rationale: 武英殿官韵经书全刻未缺当一体校正以昭统一
+  - date: 1763-10-20
+    title_zh: 请误书者依不谙禁例处分
+    rationale: 载入科场条例使士子知所遵循
 events:
 - id: guji-纪昀-event-birth
-  type: birth
-  date: 1724-07-26
-  precision: day
+  title_zh: 出生于直隶献县
+  date: 1724-08-03
   year_of: 1724
-  title_zh: 生于直隶献县
-  description_zh: 雍正二年六月初七生于直隶献县纪氏宦学之家
-- id: guji-纪昀-event-1754-jinshi
-  type: career
-  date: 1754-01-01
-  precision: year
-  year_of: 1754
-  title_zh: 进士授翰林院庶吉士
-  description_zh: 乾隆十九年成进士选庶吉士散馆授编修入直内廷
-- id: guji-纪昀-event-1762-jingcha
-  type: career
-  date: 1762-01-01
-  precision: year
-  year_of: 1762
-  title_zh: 京察保送一等加级
-  description_zh: 乾隆二十七年闰五月经吏部带领引见奉旨准其一等加一级
-- id: guji-纪昀-event-1773-siku
-  type: career
-  date: 1773-01-01
-  precision: year
-  year_of: 1773
-  title_zh: 任四库全书总纂官
-  description_zh: 乾隆三十八年开四库馆与陆锡熊同为总纂综理搜采校勘之事
-- id: guji-纪昀-event-1796-libu
-  type: career
-  date: 1796-01-01
-  precision: year
-  year_of: 1796
-  title_zh: 升礼部尚书协办大学士
-  description_zh: 嘉庆初年升礼部尚书协办大学士仍兼馆阁校理之任主持文衡
+  summary: 雍正二年六月十五日生于献县崔尔庄
+- id: guji-纪昀-event-1
+  title_zh: 福建学政陈奏学政事宜得准
+  date: 1763-10-10
+  year_of: 1763
+  summary: 陈奏府学月课补廪收卷三事礼部议准通行
+- id: guji-纪昀-event-2
+  title_zh: 奏请坊本经书避讳缺笔得准
+  date: 1763-10-25
+  year_of: 1763
+  summary: 奏请庙讳御名缺笔改刊武英殿书板及各省坊刻一体遵奉
 - id: guji-纪昀-event-death
-  type: death
-  date: 1805-03-14
-  precision: day
-  year_of: 1805
   title_zh: 卒于京师
-  description_zh: 嘉庆十年二月十四卒于京师谥文达
+  date: 1805-03-14
+  year_of: 1805
+  summary: 嘉庆十年二月十四日卒于京师
