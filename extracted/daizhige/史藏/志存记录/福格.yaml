@@ -1,0 +1,143 @@
+person:
+  qid: guji-福格
+  name_zh: 福格
+  names:
+    zh: 福格
+    en: Fuge
+  lifespan:
+    birth:
+      date: 1740-01-01
+      precision: year
+      is_circa: true
+      raw: 乾隆初年左右
+    death:
+      date: 1813-01-01
+      precision: year
+      is_circa: true
+      raw: 嘉庆年间
+  birth_date: 1740-01-01
+  death_date: 1813-01-01
+  era: 清
+  reign_ref: 乾隆
+  archetype: 掌故家
+  dilemmas:
+  - 身为世家子弟循例仕进与以笔墨存一代掌故之间如何取舍
+  - 耳闻旧制繁杂而文献不足当博采传闻与考订典章之间如何权衡
+  lesson: 以耳目所及随时札记考订而成书可使开国旧制不致湮没
+  summary_first_person: 我是福格出身内务府世家自幼耳濡目染朝章旗制供职之余留心满洲原起八旗方位姓氏祭祀冠服诸事恐旧闻散佚故随时考订笔之于书以成听雨丛谈愿后人由此得见国朝掌故
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%AC%E9%9B%A8%E4%B8%9B%E8%B0%88.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%AC%E9%9B%A8%E4%B8%9B%E8%B0%88.md
+endeavors:
+- id: guji-福格-endeavor-1
+  title_zh: 供职内府考订八旗典制
+  summary_zh: 出身文肃公家供职内务府留心满洲八旗源流旗分方位姓氏祭祀冠服等制随时询访考订
+  phases:
+  - key: brewing
+    name: 家学濡染初闻掌故
+    labels:
+      zh:
+      - 家学
+      - 见闻
+    start_date: 1755-01-01
+    highlight_event_id: guji-福格-event-birth
+  - key: breakthrough
+    name: 入值内府得窥档册
+    labels:
+      zh:
+      - 内务府
+      - 档册
+    start_date: 1770-01-01
+    highlight_event_id: guji-福格-event-office
+  - key: climax
+    name: 遍考满蒙汉旗分原起
+    labels:
+      zh:
+      - 八旗
+      - 考订
+    start_date: 1783-01-01
+    highlight_event_id: guji-福格-event-study
+  - key: closure
+    name: 条理旗制冠服祭祀诸条
+    labels:
+      zh:
+      - 总结
+      - 成稿
+    start_date: 1790-01-01
+    highlight_event_id: guji-福格-event-study
+  decisions:
+  - date: 1770-01-01
+    title_zh: 留心档册随时札记
+    rationale: 内府旧档多载发祥旧部与旗分沿革恐久而散佚故随时记录以备考订
+  - date: 1783-01-01
+    title_zh: 参以耳目订正传闻
+    rationale: 旗制祭祀冠服诸事传闻异辞须以亲见亲闻及耆旧之言相互参证方能得实
+- id: guji-福格-endeavor-2
+  title_zh: 撰述听雨丛谈存一代掌故
+  summary_zh: 汇集多年札记分卷叙述满洲原起八旗方位姓氏祭祀大学士花翎诸事以存清初承平掌故
+  phases:
+  - key: brewing
+    name: 积稿渐多萌生著书
+    labels:
+      zh:
+      - 积稿
+      - 立意
+    start_date: 1785-01-01
+    highlight_event_id: guji-福格-event-study
+  - key: breakthrough
+    name: 分门别类始成卷帙
+    labels:
+      zh:
+      - 分类
+      - 成卷
+    start_date: 1792-01-01
+    highlight_event_id: guji-福格-event-study
+  - key: climax
+    name: 听雨丛谈撰成传抄
+    labels:
+      zh:
+      - 成书
+      - 传抄
+    start_date: 1800-01-01
+    highlight_event_id: guji-福格-event-book
+  - key: closure
+    name: 以书传家惠及后学
+    labels:
+      zh:
+      - 传家
+      - 惠后
+    start_date: 1805-01-01
+    highlight_event_id: guji-福格-event-book
+  decisions:
+  - date: 1792-01-01
+    title_zh: 以丛谈体兼收并蓄
+    rationale: 典章细碎难以专史为体用丛谈随事记述则大小掌故皆可并存不致遗漏
+  - date: 1800-01-01
+    title_zh: 詳载本朝以补史阙
+    rationale: 国朝发祥辽沈旗制创自太祖世人多昧其原故详述原起变迁以补官修之阙
+events:
+- id: guji-福格-event-birth
+  date: 1740-01-01
+  year_of: 1740
+  title_zh: 生于内务府世家
+  description_zh: 出身镶白旗世家为文肃公之后自幼生长京师耳濡目染朝章旗制
+- id: guji-福格-event-office
+  date: 1770-01-01
+  year_of: 1770
+  title_zh: 供职内务府留心旗制
+  description_zh: 入值内府供职得见档册仪注往来旗分衙门询访满洲蒙古汉军旗分沿革与佐领管领之制
+- id: guji-福格-event-study
+  date: 1783-01-01
+  year_of: 1783
+  title_zh: 考订八旗原起祭祀冠服
+  description_zh: 考满洲旧国长白山统脉八旗方位姓氏神板祭祀红绒结顶花翎羽缨大学士沿革诸条参证耆旧传闻与档册记载
+- id: guji-福格-event-book
+  date: 1800-01-01
+  year_of: 1800
+  title_zh: 撰成听雨丛谈
+  description_zh: 汇多年札记撰为听雨丛谈分卷记述满洲原起八旗原起方位姓氏祭祀典礼冠服官制以存一代掌故传抄于世
+- id: guji-福格-event-death
+  date: 1813-01-01
+  year_of: 1813
+  title_zh: 嘉庆年间去世
+  description_zh: 卒于嘉庆年间所著听雨丛谈流传后世为研究清初八旗典制重要笔记
