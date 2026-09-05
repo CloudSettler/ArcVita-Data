@@ -1,0 +1,101 @@
+person:
+  qid: guji-阿里衮
+  name_zh: 阿里衮
+  names:
+    zh: 阿里衮
+    en: Aligun
+  lifespan:
+    birth:
+      date: '1724'
+      precision: year
+      is_circa: true
+      raw: 雍正二年生
+    death:
+      date: '1769'
+      precision: year
+      is_circa: false
+      raw: 乾隆三十四年卒
+  birth_date: '1724'
+  death_date: '1769'
+  era: 清乾隆朝
+  reign_ref: 乾隆二十五年
+  archetype: 靖边平叛之大臣
+  dilemmas:
+  - 奉旨回京与闻变折返之间的进退
+  - 穷追深入布噜特与固守城池之间的权衡
+  lesson: 应机立办穷追务获方能遏乱萌而彰国宪
+  summary_first_person: 吾为阿里衮参赞回部军务奉旨回京途中闻迈喇木倡乱抢掠台站即折返喀什噶尔率兵破贼追入布噜特擒渠解京以靖西陲
+  source_urls:
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0616.html
+endeavors:
+- id: guji-阿里衮-endeavor-1
+  title_zh: 折返喀什噶尔击破迈喇木
+  summary_zh: 奉旨回京途中闻台站被掠即回喀什噶尔率八百官兵破千余贼众围城招抚安定回众
+  phases:
+  - key: brewing
+    name: 奉旨起程闻警折返
+    labels:
+      zh: 闻变折返
+    start_date: '1760-07-16'
+    highlight_event_id: guji-阿里衮-event-1
+  - key: climax
+    name: 力战破贼招抚全城
+    labels:
+      zh: 破贼抚众
+    start_date: '1760-07-18'
+    highlight_event_id: guji-阿里衮-event-1
+  decisions:
+  - date: '1760-07-17'
+    title_zh: 不候交代即回喀什噶尔
+    rationale: 贼言煽惑人心易摇须应机立办不可坐失事机
+  - date: '1760-07-18'
+    title_zh: 以八百官兵直冲击溃千余贼众
+    rationale: 贼众仓猝纠集一战可溃攻心招抚胜于久围
+- id: guji-阿里衮-endeavor-2
+  title_zh: 深入布噜特追擒渠魁
+  summary_zh: 贼首掘墙夜遁投呢雅斯逃入布噜特分途追捕至和罗木鲁克擒获迈喇木呢雅斯解京正法
+  phases:
+  - key: breakthrough
+    name: 分途尾追守隘堵截
+    labels:
+      zh: 穷追务获
+    start_date: '1760-07-20'
+    highlight_event_id: guji-阿里衮-event-2
+  - key: closure
+    name: 擒渠解京请穷搜余党
+    labels:
+      zh: 擒渠解京
+    start_date: '1760-07-28'
+    highlight_event_id: guji-阿里衮-event-2
+  decisions:
+  - date: '1760-07-20'
+    title_zh: 派巴雅尔茂萨前追自守要隘
+    rationale: 防贼窜入布噜特为逋逃之薮须断其出入方能尽获
+  - date: '1760-07-28'
+    title_zh: 将迈喇木呢雅斯解京审办
+    rationale: 渠魁煽惑杀掠台站兵丁须明正国宪以惩创回众
+events:
+- id: guji-阿里衮-event-birth
+  date: '1724'
+  year_of: 1724
+  title_zh: 阿里衮出生
+  description_zh: 雍正二年出生怡亲王允祥之后长而历任参赞大臣诸职
+  place_zh: 京师
+- id: guji-阿里衮-event-1
+  date: '1760-07-18'
+  year_of: 1760
+  title_zh: 回师喀什噶尔击败迈喇木
+  description_zh: 自叶尔羌雅木扎尔闻伯什克勒木贼变即回喀什噶尔率官兵八百战贼千余攻围招抚贼夜遁
+  place_zh: 喀什噶尔伯什克勒木
+- id: guji-阿里衮-event-2
+  date: '1760-07-28'
+  year_of: 1760
+  title_zh: 追至和罗木鲁克擒获迈喇木呢雅斯
+  description_zh: 分途追贼守布噜特要隘巴雅尔茂萨追至和罗木鲁克擒迈喇木呢雅斯剿其家口属人派兵解京
+  place_zh: 布噜特和罗木鲁克
+- id: guji-阿里衮-event-death
+  date: '1769'
+  year_of: 1769
+  title_zh: 阿里衮去世
+  description_zh: 乾隆三十四年卒于官前以平定回部功封赏议叙子丰盛额授侍卫
+  place_zh: 京师
