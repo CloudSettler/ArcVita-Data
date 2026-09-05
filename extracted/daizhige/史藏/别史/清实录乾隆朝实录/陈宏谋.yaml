@@ -9,121 +9,139 @@ person:
       date: 1696
       precision: year
       is_circa: false
-      raw: 康熙三十五年
+      raw: 康熙三十五年生于江西临川
     death:
       date: 1771
       precision: year
       is_circa: false
-      raw: 乾隆三十六年
+      raw: 乾隆三十六年卒于京
   birth_date: 1696
   death_date: 1771
-  era: 清乾隆朝
-  reign_ref: 乾隆十九年
-  archetype: 循吏经世之臣
+  era: 清
+  reign_ref: 乾隆
+  archetype: 循吏
   dilemmas:
-  - 军兴馈运与抚恤民力之间如何兼顾
-  - 截取举人验看改教当从宽通融还是严核人地相宜
-  lesson: 以实心行实政勤民兴学而核名实
-  summary_first_person: 余以词科出身历抚闽陕以恤民育才为己任值西事方殷奉命移抚陕西兼理军需惟以实办对上恩也
+  - 宽大养士与严惩悖逆何以兼顾
+  - 地方隐忍息事与据实上闻何以抉择
+  lesson: 为政贵在公诚勤慎，小惩大诫方能防微杜渐，姑息掩饰必酿大患
+  summary_first_person: 余临川陈宏谋，雍正进士，历抚闽黔滇陕川，督湖广，以劝农兴学养民为务，乾隆十九年因仙游生员李冠春献策事未能早加严惩，据实举发，蒙上申饬，自此益知封疆之责在严明不欺
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0465.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70478.html
 endeavors:
 - id: guji-陈宏谋-endeavor-1
-  title_zh: 移抚陕西兼理军需
-  description: 乾隆十九年由闽移陕奉召驰驿来京面承机宜以综理西路军需抚绥秦地
+  title_zh: 巡抚福建整饬吏治文教
+  goal_zh: 抚闽期间整饬营伍文教，防范悖逆妖言，安定海疆民心
   phases:
   - key: brewing
-    name: 闽抚交办奉召
+    name: 初擢闽抚熟悉海疆
     labels:
-      zh: 交办入觐
-    start_date: 1754-06-24
-    highlight_event_id: guji-陈宏谋-event-summon
+      zh:
+      - 熟悉闽事
+      - 整饬吏治
+    start_date: 1751-06-01
+    highlight_event_id: guji-陈宏谋-event-fujian
   - key: breakthrough
-    name: 驰驿来京面谕
+    name: 接李冠春拦舆献策
     labels:
-      zh: 面承方略
-    start_date: 1754-06-24
-    highlight_event_id: guji-陈宏谋-event-summon
+      zh:
+      - 拦舆献策
+      - 婉词批发
+    start_date: 1752-03-01
+    highlight_event_id: guji-陈宏谋-event-fujian
   - key: climax
-    name: 移镇陕西总理军需
+    name: 李冠春再献狂悖被拿
     labels:
-      zh: 移抚理饷
-    start_date: 1754-06-24
-    highlight_event_id: guji-陈宏谋-event-transfer
+      zh:
+      - 狂悖论衣冠
+      - 闽督抚奏斩
+    start_date: 1754-12-01
+    highlight_event_id: guji-陈宏谋-event-rebuke
   - key: closure
-    name: 秦地安集馈运无误
+    name: 奉旨申饬痛改掩饰
     labels:
-      zh: 安集就绪
-    start_date: 1754-07-01
-    highlight_event_id: guji-陈宏谋-event-transfer
+      zh:
+      - 严行申饬
+      - 痛改前非
+    start_date: 1754-12-07
+    highlight_event_id: guji-陈宏谋-event-rebuke
   decisions:
-  - date: 1754-06-24
-    title_zh: 奉谕驰驿即速来京
-    rationale: 西陲用兵在即陕甘为转输要冲须面授机宜以定大局
-  - date: 1754-06-24
-    title_zh: 受命陕西巡抚并理军需
-    rationale: 以闽政之练达移镇关中兼顾抚绥与馈运使民不扰而军无乏
+  - date: 1752-05-01
+    title_zh: 对李冠春初次呈稿婉词批发
+    rationale: 以其当时稿中尚无服色河决诸逆说，意在息事戒饬，不欲张扬，遂酿后患
+  - date: 1754-12-07
+    title_zh: 奉申饬后自陈引咎整饬言路
+    rationale: 既承上谕指陈沽名邀誉掩饰之弊，当严加戒饬生员上书，杜绝妄谈国是
 - id: guji-陈宏谋-endeavor-2
-  title_zh: 议截取举人验看改教
-  description: 请于督抚验看截取举人不堪作县者即予改教以省铨选纷更未蒙俞允
+  title_zh: 督抚西南湖广劝农兴学
+  goal_zh: 历任黔滇陕川湖广，劝农开垦，兴学育才，赈恤养民，务为经久之计
   phases:
   - key: brewing
-    name: 月选知县多不称职
+    name: 抚黔滇熟悉苗疆民食
     labels:
-      zh: 察吏得失
-    start_date: 1754-06-20
-    highlight_event_id: guji-陈宏谋-event-juren
+      zh:
+      - 抚黔
+      - 劝农
+    start_date: 1755-01-01
+    highlight_event_id: guji-陈宏谋-event-huguang
   - key: breakthrough
-    name: 疏请先期验看改教
+    name: 移抚陕川推广仓储水利
     labels:
-      zh: 疏陈变通
-    start_date: 1754-06-26
-    highlight_event_id: guji-陈宏谋-event-juren
+      zh:
+      - 仓储
+      - 水利
+    start_date: 1757-03-01
+    highlight_event_id: guji-陈宏谋-event-huguang
   - key: climax
-    name: 廷议仍循旧例甄别
+    name: 总督湖广兴学养士
     labels:
-      zh: 留中不从
-    start_date: 1754-06-26
-    highlight_event_id: guji-陈宏谋-event-juren
+      zh:
+      - 湖广总督
+      - 兴学育才
+    start_date: 1760-08-01
+    highlight_event_id: guji-陈宏谋-event-huguang
   - key: closure
-    name: 恪遵引见甄别之制
+    name: 晚年入直军机致政归
     labels:
-      zh: 遵制奉行
-    start_date: 1754-06-27
-    highlight_event_id: guji-陈宏谋-event-juren
+      zh:
+      - 致政
+      - 完节
+    start_date: 1769-01-01
+    highlight_event_id: guji-陈宏谋-event-death
   decisions:
-  - date: 1754-06-26
-    title_zh: 请分年力衰老者改教
-    rationale: 与其改教于得缺之后不如改教于赴选之时以全人地相宜
-  - date: 1754-06-27
-    title_zh: 遵旨仍由大臣验看引见
-    rationale: 既奉明谕以现制足核人才即当实力奉行不复纷更
+  - date: 1760-09-01
+    title_zh: 在湖广广设义学社仓
+    rationale: 以楚地户口殷繁，非劝学勤农无以厚生养正，故力主兴学劝垦并举
+  - date: 1763-04-01
+    title_zh: 奏请蠲缓与修水利并行
+    rationale: 水旱频仍，惟预备仓储疏浚堤堰，方能使民有恒业而不为邪言所动
 events:
 - id: guji-陈宏谋-event-birth
-  title_zh: 出生
   date: 1696
   year_of: 1696
-  description: 生于广西临桂士族之家少力学以词科显
-- id: guji-陈宏谋-event-summon
-  title_zh: 奉谕驰驿来京交办事件
-  date: 1754-06-24
+  type: birth
+  title_zh: 生于江西临川
+  description_zh: 康熙三十五年出生，雍正元年举人，雍正二年进士，选庶吉士，开启仕途
+- id: guji-陈宏谋-event-fujian
+  date: 1752-03-01
+  year_of: 1752
+  type: career
+  title_zh: 任福建巡抚接李冠春初呈
+  description_zh: 乾隆十七年任福建巡抚，仙游生员李冠春曾呈济时十策原稿，彼时稿中尚无服色河决诸说，婉词批发未加严惩治罪
+- id: guji-陈宏谋-event-rebuke
+  date: 1754-12-07
   year_of: 1754
-  description: 乾隆十九年五月戊戌奉谕以有交办事件驰驿即速来京巡抚事务交总督喀尔吉善兼理
-  related_endeavor_id: guji-陈宏谋-endeavor-1
-- id: guji-陈宏谋-event-transfer
-  title_zh: 调任陕西巡抚并理军需
-  date: 1754-06-24
-  year_of: 1754
-  description: 调陕西巡抚钟音为福建巡抚以福建巡抚陈宏谋为陕西巡抚并理军需以应西路进兵
-  related_endeavor_id: guji-陈宏谋-endeavor-1
-- id: guji-陈宏谋-event-juren
-  title_zh: 奏议截取举人改教被驳
-  date: 1754-06-26
-  year_of: 1754
-  description: 乾隆十九年五月庚子奏请截取举人经督抚验看不堪作县者即予改教上以已有大臣验看引见甄别之制不必纷更传谕知之
-  related_endeavor_id: guji-陈宏谋-endeavor-2
+  type: career
+  title_zh: 因李冠春狂悖案被旨申饬
+  description_zh: 乾隆十九年十二月辛亥，闽浙总督喀尔吉善巡抚钟音奏李冠春拦舆献策妄议衣冠请斩，上谕以陈宏谋当日不行举发隐忍姑息致犯益肆妄谈，传旨严行申饬
+- id: guji-陈宏谋-event-huguang
+  date: 1760-08-01
+  year_of: 1760
+  type: career
+  title_zh: 总督湖广劝农兴学
+  description_zh: 历抚黔滇陕川后总督湖广，大兴义学社仓，劝垦修水利，以养民育才为务，时称贤督抚
 - id: guji-陈宏谋-event-death
-  title_zh: 逝世
   date: 1771
   year_of: 1771
-  description: 乾隆三十六年卒于大学士任谥文恭以清勤恤民兴学著称
+  type: death
+  title_zh: 卒于京师谥文恭
+  description_zh: 乾隆三十六年卒，年七十六，赠太子太傅，谥文恭，入祀贤良祠
