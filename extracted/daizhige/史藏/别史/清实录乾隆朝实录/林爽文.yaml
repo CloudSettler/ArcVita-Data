@@ -6,144 +6,155 @@ person:
     en: Lin Shuangwen
   lifespan:
     birth:
-      date: '1756'
+      date: 1756
       precision: year
       is_circa: true
-      raw: 乾隆二十一年生于福建漳州府平和
+      raw: 乾隆二十一年约生于漳州
     death:
-      date: 1788-04
-      precision: month
-      is_circa: true
-      raw: 乾隆五十三年三月解京正法
-  birth_date: '1756'
-  death_date: 1788-04
-  era: 清代
+      date: 1788-04-27
+      precision: day
+      is_circa: false
+      raw: 乾隆五十三年三月解京伏诛
+  birth_date: 1756
+  death_date: 1788-04-27
+  era: 清
   reign_ref: 乾隆
-  archetype: 民变领袖
+  archetype: 草莽枭雄
   dilemmas:
-  - 官吏苛索与天地会牵连之下起兵自保还是束手就缚
-  - 攻陷县城之后称王建号以聚众还是仅以复仇为名以避僭逆重罪
-  - 大军压境之时分散据守以保乡土还是合兵一处以决死战
-  lesson: 仓猝纠众虽能乘虚一时，然无饷无械又分路自守，终难当大军四路会剿，胁从愈多则败亡愈速
-  summary_first_person: 吾本漳州农户，流寓台湾大里杙以垦田为生，官府逼索，会党牵连，不得已攻彰化据诸罗，与官兵周旋 year 余，终因兵分势散被擒解京，累及万余乡亲，身死而族灭，悔以僭号自误也
+  - 隐忍守业还是结会求存
+  - 困守大里杙还是窜入内山苟延
+  lesson: 聚众逞一时之势终难敌大势安分守正方是久安之道
+  summary_first_person: 吾本漳州平和农家子随父渡海落业大里杙结天地会以自保官府追捕甚急遂于乾隆五十一年冬举事席卷南北掘壕筑墙守巢终寡不敌众被擒解京以此终局
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71275.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71275.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71278.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71278.html
 endeavors:
 - id: guji-林爽文-endeavor-1
-  title_zh: 彰化起兵与攻陷县城
-  summary_zh: 以大里杙为根本纠合会党乡民，攻陷彰化杀官据城，发布伪职以聚万余众，与南北官兵相持
+  person_qid: guji-林爽文
+  title_zh: 结会落业大里杙
+  summary: 随父渡台落业大里杙结天地会聚众终成一方之首
   phases:
   - key: brewing
-    name: 大里杙结会蓄势
-    start_date: '1786-11-01'
-    highlight_event_id: guji-林爽文-event-birth
+    name: 渡台落业
     labels:
       zh:
-      - 结会
-      - 垦田聚众
+      - 渡海
+      - 垦荒
+    start_date: 1773
+    highlight_event_id: guji-林爽文-event-dutai
   - key: breakthrough
-    name: 攻陷彰化戕官据城
-    start_date: '1787-01-27'
-    highlight_event_id: guji-林爽文-event-zhanghua
+    name: 结会聚众
     labels:
       zh:
-      - 起兵
-      - 破城
+      - 结社
+      - 扩党
+    start_date: 1784
+    highlight_event_id: guji-林爽文-event-jiehui
   - key: climax
-    name: 分据诸罗竹堑声势大振
-    start_date: '1787-02-10'
-    highlight_event_id: guji-林爽文-event-zhanghua
+    name: 大墩举事
     labels:
       zh:
-      - 扩地
-      - 封职聚党
-  - key: closure
-    name: 官兵渡台南北夹击受挫
-    start_date: '1787-03-01'
-    highlight_event_id: guji-林爽文-event-daliyi
-    labels:
-      zh:
-      - 受挫
-      - 退守
+      - 起事
+      - 攻城
+    start_date: 1787-01-27
+    highlight_event_id: guji-林爽文-event-qishi
   decisions:
-  - date: '1787-01-27'
-    title_zh: 攻彰化杀知县起事
-    rationale: 以官府缉拏会党为由先发制人，藉杀官夺城以号召胁从，速成声势
-  - date: '1787-02-15'
-    title_zh: 颁给将军军师等伪职分守各庄
-    rationale: 以伪爵笼络头目，使各据一方以牵制官兵，然亦坐实僭逆之罪
+  - date: 1784
+    title_zh: 倡立天地会收徒
+    rationale: 以会党相保抵御欺凌亦为日后自存计
+  - date: 1787-01-27
+    title_zh: 大墩杀官举旗
+    rationale: 官府大索会党事泄被迫先发求生
 - id: guji-林爽文-endeavor-2
-  title_zh: 退守内山与大里杙固守
-  summary_zh: 闻鹿港官兵将至，绕回内山保大里杙巢穴，分路抵御黄仕简任承恩南北两路，终因兵散被围而败
+  person_qid: guji-林爽文
+  title_zh: 席卷南北困守待剿
+  summary: 起事后连陷彰化蔓延南北终退守大里杙待官军围剿
   phases:
-  - key: brewing
-    name: 闻警回救大里杙
-    start_date: '1787-02-20'
-    highlight_event_id: guji-林爽文-event-daliyi
-    labels:
-      zh:
-      - 回防
-      - 保巢
   - key: breakthrough
-    name: 柴坑仔马鸣山堵御官兵
-    start_date: '1787-03-05'
-    highlight_event_id: guji-林爽文-event-daliyi
+    name: 连陷城池
     labels:
       zh:
-      - 阻击
-      - 游斗
+      - 破城
+      - 蔓延
+    start_date: 1787-02-01
+    highlight_event_id: guji-林爽文-event-qishi
   - key: climax
-    name: 内山分寨相持官兵观望
-    start_date: '1787-06-01'
-    highlight_event_id: guji-林爽文-event-daliyi
+    name: 掘壕筑墙守巢
     labels:
       zh:
-      - 分守
-      - 相持
+      - 筑垒
+      - 拒守
+    start_date: 1787-05-20
+    highlight_event_id: guji-林爽文-event-shouchao
   - key: closure
-    name: 巢破被擒解京伏法
-    start_date: '1788-02-10'
-    highlight_event_id: guji-林爽文-event-captured
+    name: 败走被擒
     labels:
       zh:
-      - 覆灭
+      - 窜逃
       - 就擒
+    start_date: 1788-02-10
+    highlight_event_id: guji-林爽文-event-beiqin
   decisions:
-  - date: '1787-02-22'
-    title_zh: 领众绕回内山保大里杙
-    rationale: 恐根本失去则众心散，故舍彰化外围而以内山险阻自固，以待官兵疲敝
-  - date: '1787-06-01'
-    title_zh: 分散庄寨各自为战
-    rationale: 以乡土人多分守要口，欲使官兵零星打仗不得深入，然合则强分则弱反授官兵各个击破之机
+  - date: 1787-05-20
+    title_zh: 大里杙掘壕放水筑土墙安炮
+    rationale: 凭巢穴险固并力拒守以待官军粮尽自退
+  - date: 1788-01-15
+    title_zh: 不早窜内山死守巢穴
+    rationale: 恋巢穴基业误判官军分路牵掣可持久终被合围
 events:
 - id: guji-林爽文-event-birth
-  title_zh: 生于福建漳州平和
-  date: '1756'
+  person_qid: guji-林爽文
+  type: birth
+  title_zh: 生于漳州平和
+  date: 1756
   year_of: 1756
-  place_zh: 福建漳州府平和
-  description: 乾隆二十一年生于闽南农家，后随众渡台，垦田于彰化大里杙一带
-- id: guji-林爽文-event-zhanghua
-  title_zh: 纠众攻陷彰化起事
-  date: '1787-01-27'
+  place_zh: 福建漳州府平和县
+  description: 农家子后随父渡台落业大里杙
+- id: guji-林爽文-event-dutai
+  person_qid: guji-林爽文
+  type: career
+  title_zh: 随父渡台落业大里杙
+  date: 1773
+  year_of: 1773
+  place_zh: 台湾彰化大里杙
+  description: 渡海垦荒落业为后来结众之基
+- id: guji-林爽文-event-jiehui
+  person_qid: guji-林爽文
+  type: career
+  title_zh: 倡立天地会聚众
+  date: 1784
+  year_of: 1784
+  place_zh: 台湾彰化一带
+  description: 广收会众声势渐盛官府渐致疑忌
+- id: guji-林爽文-event-qishi
+  person_qid: guji-林爽文
+  type: career
+  title_zh: 大墩起事连陷彰化
+  date: 1787-01-27
   year_of: 1787
-  place_zh: 台湾彰化县城
-  description: 率众攻彰化，戕官据城，旋陷诸罗竹堑，自称盟主，分授廖东侯辰等伪将军军师名号
-- id: guji-林爽文-event-daliyi
-  title_zh: 回守大里杙柴坑仔抵御官兵
-  date: '1787-03-05'
+  place_zh: 台湾彰化大墩
+  description: 杀官举旗连陷城池南北响应蔓延
+- id: guji-林爽文-event-shouchao
+  person_qid: guji-林爽文
+  type: career
+  title_zh: 大里杙掘壕筑墙拒守
+  date: 1787-05-20
   year_of: 1787
-  place_zh: 台湾大里杙柴坑仔马鸣山埔心庄
-  description: 闻鹿港有援兵至，领众绕回内山保大里杙，与任承恩黄仕简所部在柴坑仔马鸣山一带枪炮对战，杀伤互见
-- id: guji-林爽文-event-captured
-  title_zh: 老五庄被擒台湾平定
-  date: '1788-02-10'
+  place_zh: 台湾大里杙
+  description: 掘壕放水复筑土墙安设炮位并力拒守官军
+- id: guji-林爽文-event-beiqin
+  person_qid: guji-林爽文
+  type: career
+  title_zh: 老衢崎被擒
+  date: 1788-02-10
   year_of: 1788
-  place_zh: 台湾老五庄
-  description: 大里杙巢破后窜匿内山，被官兵搜获生擒，连同党目解京，其众或阵亡或乞降发遣
+  place_zh: 台湾老衢崎
+  description: 大兵合围巢破窜逃被官军擒获解京
 - id: guji-林爽文-event-death
-  title_zh: 解京审明凌迟正法
-  date: 1788-04
+  person_qid: guji-林爽文
+  type: death
+  title_zh: 解京伏诛
+  date: 1788-04-27
   year_of: 1788
-  place_zh: 京师
-  description: 与庄大田等一同解京，审明纠众戕官僭立名号之罪，寸磔示众，台湾林爽文案以此告结
+  place_zh: 北京
+  description: 槛送京师凌迟伏法乱事平定
