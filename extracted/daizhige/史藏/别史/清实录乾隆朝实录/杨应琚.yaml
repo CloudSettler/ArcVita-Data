@@ -6,126 +6,127 @@ person:
     en: Yang Yingju
   lifespan:
     birth:
-      date: '1702'
+      date: 1700-01-01
       precision: year
       is_circa: true
-      raw: 生年不详，约康熙四十一年前后
+      raw: 生年不详约康熙末年汉军出身
     death:
-      date: '1766'
+      date: 1767-01-01
       precision: year
       is_circa: false
-      raw: 乾隆三十一年获罪赐死
-  birth_date: '1702'
-  death_date: '1766'
+      raw: 乾隆三十二年以误军政获罪卒
+  birth_date: 1700-01-01
+  death_date: 1767-01-01
   era: 清乾隆朝
-  reign_ref: 乾隆三十一年丙戌七月
-  archetype: 封疆经略型督抚
+  reign_ref: 乾隆
+  archetype: 开边经略型封疆大臣
   dilemmas:
-  - 滇省僻处边陲米价腾贵，裕其源与节其流难以兼顾
-  - 缅匪残刻土司求附，乘时集事与劳师糜饷之间进止难决
-  lesson: 边疆经略当以养民固本为先，征抚进止务须详审熟筹量力而行
-  summary_first_person: 我久任封疆，管领云贵，值滇省米贵民艰则筹平粜禁烧锅以济民食，值木邦整欠内附则请定赋缓征以恤边黎，于缅事不敢轻率喜事，惟求妥善以定进止
+  - 羁縻招抚与兴兵深入之间的抉择
+  - 道里遥远粮运艰难与战机稍纵即逝的矛盾
+  lesson: 审夷情图道里固善然徒恃招徕不量兵力后援终致贻误
+  summary_first_person: 吾受命督云贵密探缅甸得木邦蛮暮倾心内附亲赴永昌受降期为天朝永靖南服
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70765.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70769.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70769.md
 endeavors:
 - id: guji-杨应琚-endeavor-1
-  title_zh: 滇省粮价平粜与节流筹画
-  summary_zh: 因滇省五月米价高至四两奏陈边地艰食，议改征本色运省平粜并禁稻米烧锅，候秋成回落以纾民困
+  title_zh: 筹抚木邦蛮暮图缅甸
+  summary_zh: 密遣夷人潜探阿瓦形势趁瓮籍牙众叛亲离调兵驻遮放待木邦归顺并图蛮暮入缅要隘
   phases:
   - key: brewing
-    name: 米价腾贵奏陈
+    name: 密探缅情绘图
     labels:
-      zh: 边地粮贵
-    start_date: '1766-08-01'
-    highlight_event_id: guji-杨应琚-event-pingliao
+      zh:
+      - 侦探
+      - 舆图
+    start_date: 1766-06-01
+    highlight_event_id: guji-杨应琚-event-mubang
   - key: breakthrough
-    name: 通盘筹画谕令
+    name: 木邦倾心请兵保护
     labels:
-      zh: 裕源节流
-    start_date: '1766-08-02'
-    highlight_event_id: guji-杨应琚-event-pingliao
+      zh:
+      - 招抚
+      - 木邦
+    start_date: 1766-08-01
+    highlight_event_id: guji-杨应琚-event-mubang
   - key: climax
-    name: 改征本色禁烧锅
+    name: 亲赴永昌受降相机
     labels:
-      zh: 平粜实策
-    start_date: '1766-09-01'
-    highlight_event_id: guji-杨应琚-event-pingliao
-  - key: closure
-    name: 秋成价减奏闻
-    labels:
-      zh: 丰稔稍纾
-    start_date: '1766-10-01'
-    highlight_event_id: guji-杨应琚-event-pingliao
+      zh:
+      - 受降
+      - 永昌督办
+    start_date: 1766-10-14
+    highlight_event_id: guji-杨应琚-event-yongchang
   decisions:
-  - date: '1766-08-01'
-    title_zh: 据实奏报滇省粮价与雨水
-    rationale: 僻处边陲难资邻省接济，必先陈明贵至三四两实情以冀熟筹
-  - date: '1766-10-01'
-    title_zh: 议定近省十州县改征本色赴省平粜并禁烧锅
-    rationale: 以额粮多寡酌改本折运仓平粜，禁以稻米烧锅，裕源节流以永资利赖
+  - date: 1766-08-01
+    title_zh: 调镇营兵三千驻遮放待降
+    rationale: 趁木邦杀缅监视之人归顺心坚先驻内地接应以安其心候期受降
+  - date: 1766-10-14
+    title_zh: 九月十二日起身赴永昌察看
+    rationale: 道里险要夷情叵测非亲临不能审量可否招致缅甸抑或召散擒献
 - id: guji-杨应琚-endeavor-2
-  title_zh: 滇缅边外土司内附与进止权衡
-  summary_zh: 招抚木邦整欠孟艮猛撒等处，解献莽匪请定赋入额，于缅酋用兵审慎权衡进止
+  title_zh: 总督云贵绥远徼安边
+  summary_zh: 以大学士督云贵整饬边防抚驭土司豫筹粮运为进取缅匪奠基
   phases:
   - key: brewing
-    name: 木邦求附陈情
+    name: 入督云贵整军储
     labels:
-      zh: 避缅归诚
-    start_date: '1766-08-01'
-    highlight_event_id: guji-杨应琚-event-mubang
-  - key: breakthrough
-    name: 整欠孟艮请定赋
-    labels:
-      zh: 纳土输粮
-    start_date: '1766-08-02'
-    highlight_event_id: guji-杨应琚-event-menggen
+      zh:
+      - 督抚
+      - 筹饷
+    start_date: 1765-01-01
+    highlight_event_id: guji-杨应琚-event-yungui
   - key: climax
-    name: 谕令斟酌进止
+    name: 得旨嘉奖赏荷包
     labels:
-      zh: 慎重边徼
-    start_date: '1766-08-03'
-    highlight_event_id: guji-杨应琚-event-mubang
+      zh:
+      - 优眷
+      - 嘉奖
+    start_date: 1766-10-01
+    highlight_event_id: guji-杨应琚-event-jiajiang
   - key: closure
-    name: 缓征加恩与投顺安置
+    name: 功过论定靖边垂戒
     labels:
-      zh: 优恤边黎
-    start_date: '1766-08-04'
-    highlight_event_id: guji-杨应琚-event-menggen
+      zh:
+      - 论定
+      - 垂戒
+    start_date: 1767-01-01
+    highlight_event_id: guji-杨应琚-event-death
   decisions:
-  - date: '1766-08-01'
-    title_zh: 为木邦土司请俟天兵擒献缅匪监视之人
-    rationale: 其地辽远须相机调发，若不至大需兵力则乘时集事，否则不可张皇劳师
-  - date: '1766-08-02'
-    title_zh: 请整欠孟艮仿普洱十三土司例定赋并缓至戊子年起征
-    rationale: 连年经莽匪扰害元气未复，遽责输将恐夷民生计拮据，加恩缓征以示优恤
+  - date: 1766-09-01
+    title_zh: 以不动声色并招蛮暮
+    rationale: 蛮暮与木邦并为缅门户最大土司得之则缅地愈蹙控制更易
+  - date: 1765-06-01
+    title_zh: 豫备镇营以待征调
+    rationale: 边陲用兵全赖豫备有素不致临时张皇贻误远徼
 events:
 - id: guji-杨应琚-event-birth
-  date: '1702'
-  year_of: 1702
-  precision: year
-  title_zh: 杨应琚生
-  description_zh: 汉军正白旗人，生年不详，约生于康熙末年，早年入仕历任封疆
-- id: guji-杨应琚-event-pingliao
-  date: '1766-08-01'
-  year_of: 1766
-  precision: day
-  title_zh: 奏报滇省粮价昂贵并筹平粜
-  description_zh: 乾隆三十一年七月奏云南府白米红米每石至四两一二钱，请通盘筹画裕源节流，复议安宁等十州县改征本色运省平粜并禁稻米烧锅，秋成约八九分米价各减五钱有差
+  title_zh: 出生
+  date: 1700-01-01
+  year_of: 1700
+  description_zh: 汉军出身生年不详约康熙末年生长于经学世家后由科第入仕
 - id: guji-杨应琚-event-mubang
-  date: '1766-08-02'
+  title_zh: 奏报木邦蛮暮愿归顺
+  date: 1766-09-01
   year_of: 1766
-  precision: day
-  title_zh: 奏木邦土司愿附并请索召散
-  description_zh: 乾隆三十一年七月奏木邦土司遭缅酋残刻情愿归附，请俟天兵擒献监视缅匪，并行文索取逃往缅甸之召散，得旨须详审熟筹以定进止
-- id: guji-杨应琚-event-menggen
-  date: '1766-08-03'
+  description_zh: 乾隆三十一年秋密探回报缅酋诛求土司解体木邦杀缅监视之人请兵保护蛮暮亦愿来归遂调兵三千驻遮放
+- id: guji-杨应琚-event-yongchang
+  title_zh: 起身赴永昌受降
+  date: 1766-10-14
   year_of: 1766
-  precision: day
-  title_zh: 请新定整欠孟艮酌定赋额缓征
-  description_zh: 乾隆三十一年七月奏整欠孟艮附入版图愿输粮赋，请仿普洱边外例酌中定赋，得旨加恩缓至戊子年入额征收，并奏补哈猛撒头目投顺解献莽匪
+  description_zh: 乾隆三十一年九月十二日起身前往永昌察看情形相机招抚或召散擒献并绘缅甸舆图贴说呈览
+- id: guji-杨应琚-event-yungui
+  title_zh: 以大学士督云贵
+  date: 1765-01-01
+  year_of: 1765
+  description_zh: 以老成历练总督云贵兼筹缅事整饬镇营豫储粮运为绥靖南服之基
+- id: guji-杨应琚-event-jiajiang
+  title_zh: 得旨欣悦赏荷包
+  date: 1766-10-01
+  year_of: 1766
+  description_zh: 高宗览奏嘉其顺夷情绥远徼赏荷包二对令审量妥办如能招致缅甸另当格外加恩
 - id: guji-杨应琚-event-death
-  date: '1766'
-  year_of: 1766
-  precision: year
-  title_zh: 杨应琚卒
-  description_zh: 大学士管云贵总督任内因滇缅军务贻误获罪，乾隆三十一年赐死
+  title_zh: 去世
+  date: 1767-01-01
+  year_of: 1767
+  description_zh: 乾隆三十二年以办理缅事贻误获罪卒于军前结束封疆生涯
