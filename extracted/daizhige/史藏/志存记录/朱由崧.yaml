@@ -9,147 +9,119 @@ person:
       date: 1607
       precision: year
       is_circa: false
-      raw: 萬曆三十五年生於福藩
+      raw: 萬曆三十五年生於洛陽福藩
     death:
-      date: 1646
-      precision: year
-      is_circa: false
-      raw: 順治三年遇害
+      date: 1646-05-23
+      precision: day
+      is_circa: true
+      raw: 順治三年死於北京
   birth_date: 1607
-  death_date: 1646
-  era: 明末南明
+  death_date: 1646-05-23
+  era: 明末清初
   reign_ref: 弘光
-  archetype: 偏安繼統型
+  archetype: 偏安偷安之君
   dilemmas:
-  - 倫序應立福藩與朝臣倡議立潞王相持
-  - 江北武將擁戴之功與南都文臣綱紀之議難兩全
-  - 誓報國讎圖恢復與偏安江左因循宴安之勢相違
-  lesson: 倫序雖正若不明綱紀法度不能輯和將相固守江淮則偏安難久
-  summary_first_person: 孤本福王世子河南播遷流離淮上驚聞北都失守大行殉國勉徇臣民之請監國南都旋即大位改元弘光惟思迅掃妖氛廓清大難以報君父之讎德涼任重抱痛終古
+  - 潞福定策之爭人望屬潞而權歸於福
+  - 馬阮專國與東林清流門戶大起討賊置之不聞
+  - 江北四鎮驕悍內訌督輔羈縻而不能用命
+  lesson: 偷安無志報雪以區區江左比隆靈武終致君臣解體社屋人亡
+  summary_first_person: 余神宗之孫福王常洵之子避賊淮上為馬士英擁戴入南都監國即位改元弘光委國士英倚江北四鎮為屏藩朝爭紛起北伐不張未及一年而南都陷余走蕪湖被執北去竟殞於北京空頂王號終類何人
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%81%8F%E5%AE%89%E6%8E%92%E6%97%A5%E4%BA%8B%E8%BF%B9.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%81%8F%E5%AE%89%E6%8E%92%E6%97%A5%E4%BA%8B%E8%BF%B9.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E6%98%8E%E9%87%8E%E5%8F%B2.html
 endeavors:
 - id: guji-朱由崧-endeavor-1
-  title_zh: 流離南渡與監國登極
-  summary_zh: 以神宗孫福王世子身份避亂河北淮安因倫序正統得江北四鎮擁戴與南都迎立之爭中監國登極
+  title_zh: 南渡定策監國登極
+  summary: 甲申國變後避賊淮安與潞藩並望馬士英聯絡江北四鎮擁福入都告廟監國即位建元弘光
   phases:
   - key: brewing
-    name: 藩邸播遷
+    name: 淮上避賊待推戴
     labels:
-      zh:
-      - 避亂江淮
-      - 福藩世系
-    start_date: 1641
-    highlight_event_id: guji-朱由崧-event-huaian
+      zh: 定策之爭
+    start_date: 1644-04-12
+    highlight_event_id: guji-朱由崧-event-advocate
   - key: breakthrough
-    name: 江北擁戴
+    name: 擁戴入京告廟
     labels:
-      zh:
-      - 高傑黃得功協謀
-      - 馬士英歃血定策
-    start_date: 1644-04-25
-    highlight_event_id: guji-朱由崧-event-huaian
+      zh: 監國
+    start_date: 1644-05-01
+    highlight_event_id: guji-朱由崧-event-advocate
   - key: climax
-    name: 監國南都
+    name: 監國旬日即登大寶
     labels:
-      zh:
-      - 謁孝陵奉先殿
-      - 暫受監國號
-    start_date: 1644-06-07
-    highlight_event_id: guji-朱由崧-event-jianguo
-  - key: closure
-    name: 即位弘光
-    labels:
-      zh:
-      - 祗告天地宗廟
-      - 大赦改元
+      zh: 登極改元
     start_date: 1644-06-19
-    highlight_event_id: guji-朱由崧-event-dengji
+    highlight_event_id: guji-朱由崧-event-ascend
+  - key: closure
+    name: 五相登庸門戶已成
+    labels:
+      zh: 朝局初定
+    start_date: 1644-06-20
+    highlight_event_id: guji-朱由崧-event-ascend
   decisions:
-  - date: 1644-04-25
-    title_zh: 召南竄諸鎮協謀擁戴
-    rationale: 聞立潞議恐不得立故聯絡高傑黃得功劉良佐以兵擁戴定名位
-  - date: 1644-06-07
-    title_zh: 暫受監國不亟登極
-    rationale: 以發喪未滿服人心未定且示無亟登大位心以服江北將士
+  - date: 1644-05-01
+    title_zh: 以內守備府為行宮受朝見
+    rationale: 京師新陷人心惶惶急需正名告廟以安中外故先入京受朝再議監國
+  - date: 1644-06-19
+    title_zh: 受推即位改明年為弘光元年
+    rationale: 監國名正然海內需共主以繫望且定策功臣促正位故擇吉登極布告天下
 - id: guji-朱由崧-endeavor-2
-  title_zh: 弘光立國與江淮經略
-  summary_zh: 登極後廷推閣部督師分淮揚鳳廬為四鎮命史可法督師揚州並修京營江防以圖守江北恢復中原
+  title_zh: 分藩江北偏安覆亡
+  summary: 以史可法督師江北分淮揚徐泗為四鎮朝中阮案翻局馬阮專國北伐無功清師南下而南都遂陷
   phases:
   - key: brewing
-    name: 朝議新政
+    name: 分江北為四鎮
     labels:
-      zh:
-      - 廷推入閣
-      - 中興十議
-    start_date: 1644-06-07
-    highlight_event_id: guji-朱由崧-event-jianguo
+      zh: 藩屏
+    start_date: 1644-07-01
+    highlight_event_id: guji-朱由崧-event-ascend
   - key: breakthrough
-    name: 分設四鎮
+    name: 史可法經略淮揚調和高黃
     labels:
-      zh:
-      - 淮徐揚滁鳳壽滁和
-      - 羈縻武將
-    start_date: 1644-06-20
-    highlight_event_id: guji-朱由崧-event-sizhen
+      zh: 督輔
+    start_date: 1644-08-01
+    highlight_event_id: guji-朱由崧-event-ascend
   - key: climax
-    name: 督師江北
+    name: 馬阮專國清師南下
     labels:
-      zh:
-      - 史可法督師淮揚
-      - 馬士英入直佐理
-    start_date: 1644-06-20
-    highlight_event_id: guji-朱由崧-event-sizhen
+      zh: 危局
+    start_date: 1645-01-01
+    highlight_event_id: guji-朱由崧-event-fall
   - key: closure
-    name: 京營江防
+    name: 南京陷走蕪湖被執
     labels:
-      zh:
-      - 設江防水師
-      - 復操江舊制
-    start_date: 1644-06-19
-    highlight_event_id: guji-朱由崧-event-dengji
+      zh: 社屋
+    start_date: 1645-05-25
+    highlight_event_id: guji-朱由崧-event-fall
   decisions:
-  - date: 1644-06-20
-    title_zh: 分淮揚鳳廬為四鎮各守進取
-    rationale: 知驅武將不得姑為羈縻分地責守江北以淮揚泗廬自守徐滁鳳六為進取之基
-  - date: 1644-06-15
-    title_zh: 命史可法督師淮揚召馬士英入閣
-    rationale: 四鎮不可無督師故令可法屯揚州適中調遣而以士英佐理中樞
+  - date: 1644-07-01
+    title_zh: 封高傑劉澤清劉良佐黃得功分轄江北
+    rationale: 欲以驕將守淮拒北且借定策外援制衡南都清議故裂土分餉聽其自徵
+  - date: 1644-09-01
+    title_zh: 起用阮大鋮任江防專國事
+    rationale: 感馬士英擁戴舊恩且謂其知兵可任故不顧欽案翻議用之以固權位終致朝爭解體
 events:
 - id: guji-朱由崧-event-birth
   date: 1607
   year_of: 1607
-  title_zh: 生於福藩
-  description_zh: 神宗孫先福王常洵之子生於河南福邸後嗣封為福王
-  place_zh: 河南府
-- id: guji-朱由崧-event-huaian
-  date: 1644-04-25
+  title_zh: 生於洛陽福藩
+  description: 萬曆三十五年為神宗次子福王常洵之嗣子生長洛陽萬曆四十二年隨父就國
+- id: guji-朱由崧-event-advocate
+  date: 1644-05-01
   year_of: 1644
-  title_zh: 自淮安南下爭立
-  description_zh: 崇禎十七年四月流離入淮安聞北都失守迎立潞王議起遂書召高傑黃得功劉良佐協謀擁戴舟抵燕子矶以王禮見百官
-  place_zh: 淮安至南京
-- id: guji-朱由崧-event-jianguo
-  date: 1644-06-07
-  year_of: 1644
-  title_zh: 監國於南京
-  description_zh: 五月初三日行拜天禮升殿受監國寶頒監國大赦諭天下發大行皇帝喪以日易月人心乃定
-  place_zh: 南京
-- id: guji-朱由崧-event-dengji
+  title_zh: 入南京告廟監國
+  description: 崇禎十七年四月京師陷與潞王並次淮安馬士英擁至龍江關廷臣迎立五月初一日入京以守備府為行宮初三日監國
+- id: guji-朱由崧-event-ascend
   date: 1644-06-19
   year_of: 1644
-  title_zh: 即皇帝位於南都改元弘光
-  description_zh: 五月十五日祗告天地宗廟社稷即皇帝位以明年為弘光元年大赦天下命韓贊周管司禮監事
-  place_zh: 南京
-- id: guji-朱由崧-event-sizhen
-  date: 1644-06-20
-  year_of: 1644
-  title_zh: 分江北為四鎮以史可法督師
-  description_zh: 以劉澤清高傑黃得功劉良佐分領淮徐揚滁鳳壽滁和四鎮各額兵三萬命史可法督師淮揚駐揚州調遣
-  place_zh: 揚州江北
+  title_zh: 即位改元弘光
+  description: 以五月十五日即皇帝位改明年為弘光元年用史可法高弘圖姜曰廣等為閣臣馬士英留輔專國
+- id: guji-朱由崧-event-fall
+  date: 1645-05-25
+  year_of: 1645
+  title_zh: 南京陷奔蕪湖被執
+  description: 清師渡江朝臣星散南京失守出奔蕪湖依黃得功軍潰被執北解燕京南渡政權亡
 - id: guji-朱由崧-event-death
-  date: 1646
+  date: 1646-05-23
   year_of: 1646
-  title_zh: 國亡遇害
-  description_zh: 弘光朝覆亡被執北去後於順治三年遇害終其偏安一載之局
-  place_zh: 北方
+  title_zh: 殞於北京
+  description: 被執北去羈於燕京次年遇害於北京南明追上聖安皇帝諡後諡安宗簡皇帝

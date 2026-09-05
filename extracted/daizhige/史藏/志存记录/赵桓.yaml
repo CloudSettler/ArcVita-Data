@@ -1,0 +1,153 @@
+person:
+  qid: guji-赵桓
+  name_zh: 赵桓
+  names:
+    zh: 赵桓
+    en: Zhao Huan
+  lifespan:
+    birth:
+      date: 1100-05-23
+      precision: day
+      is_circa: false
+      raw: 元符三年四月十三日生于汴京
+    death:
+      date: 1156-06-29
+      precision: day
+      is_circa: false
+      raw: 绍兴二十六年五月卒于五国城
+  birth_date: 1100-05-23
+  death_date: 1156-06-29
+  era: 北宋末
+  reign_ref: 靖康元年至二年在位
+  archetype: 守成亡国之君
+  dilemmas:
+  - 坚守京城聚兵勤王还是遣使求哀纳币乞和
+  - 亲出敌营面议还是坐守宫城以待变化
+  - 保全亲族妃姬宗女还是保全社稷宗庙生民
+  lesson: 备荒失信而徒恃和议财帛不足以止兵终致身虏国亡
+  summary_first_person: 我是赵桓继父而立值金兵南征围我汴京我屡遣使求和上表请降再出青城终被废为庶人北迁燕山此为我一生之痛戒也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BE%81%E5%BD%95%E6%B1%87.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BE%81%E5%BD%95%E6%B1%87.html
+endeavors:
+- id: guji-赵桓-endeavor-1
+  title_zh: 汴京被围遣使求和
+  summary_zh: 金帅驻兵城下屡遣亲王宰执求哀上降表纳岁币议和亲以保京师
+  phases:
+  - key: brewing
+    name: 遣使入寨求哀
+    labels:
+      zh:
+      - 求哀乞和
+    start_date: 1126-11-26
+    highlight_event_id: guji-赵桓-event-surrender-1
+  - key: breakthrough
+    name: 上降表请退兵
+    labels:
+      zh:
+      - 降表纳贡
+    start_date: 1126-12-02
+    highlight_event_id: guji-赵桓-event-surrender-1
+  - key: climax
+    name: 议定贡女岁币
+    labels:
+      zh:
+      - 议约纳币
+    start_date: 1127-01-22
+    highlight_event_id: guji-赵桓-event-surrender-2
+  - key: closure
+    name: 再出南薰门面议
+    labels:
+      zh:
+      - 出城面议
+    start_date: 1127-01-10
+    highlight_event_id: guji-赵桓-event-surrender-2
+  decisions:
+  - date: 1126-12-02
+    title_zh: 上降表愿献珍异女乐请退兵
+    rationale: 欲以宫廷器物财帛女子换取驻军退去免生民涂炭
+  - date: 1127-01-10
+    title_zh: 再出南薰门至青城寨
+    rationale: 信金帅面议可减之约欲亲往挽回割地北迁之命
+- id: guji-赵桓-endeavor-2
+  title_zh: 青城蒙尘被废北迁
+  summary_zh: 出城不返被拘青城斋宫废为庶人率宫眷族属北迁燕山
+  phases:
+  - key: brewing
+    name: 斋宫被留观灯设宴
+    labels:
+      zh:
+      - 被留
+    start_date: 1127-01-15
+    highlight_event_id: guji-赵桓-event-surrender-2
+  - key: breakthrough
+    name: 打球会被废为庶人
+    labels:
+      zh:
+      - 被废
+    start_date: 1127-02-06
+    highlight_event_id: guji-赵桓-event-deposed
+  - key: climax
+    name: 太上宫眷出城点验
+    labels:
+      zh:
+      - 离宫
+    start_date: 1127-02-07
+    highlight_event_id: guji-赵桓-event-deposed
+  - key: closure
+    name: 分军押送北迁燕山
+    labels:
+      zh:
+      - 北狩
+    start_date: 1127-03-28
+    highlight_event_id: guji-赵桓-event-north
+  decisions:
+  - date: 1127-01-22
+    title_zh: 手押议定事目以帝姬王妃准犒军金银
+    rationale: 金银不足无力抗拒欲以人口折价暂缓兵祸以存社稷
+  - date: 1127-02-06
+    title_zh: 奉诏跪听废命不抗
+    rationale: 兵威已定人心已散自知无力回天惟忍辱以保亲族性命
+events:
+- id: guji-赵桓-event-birth
+  title_zh: 出生于汴京宫中
+  date: 1100-05-23
+  year_of: 1100
+  place_zh: 汴京
+  summary_zh: 元符三年四月十三日生为徽宗长子后立为太子
+- id: guji-赵桓-event-enthroned
+  title_zh: 受禅即皇帝位改元靖康
+  date: 1126-01-19
+  year_of: 1126
+  place_zh: 汴京大庆殿
+  summary_zh: 金兵初南下徽宗内禅即位为宋钦宗改元靖康主守京议和事
+- id: guji-赵桓-event-surrender-1
+  title_zh: 出城斋宫上降表请退兵
+  date: 1126-12-02
+  year_of: 1126
+  place_zh: 青城寨斋宫
+  summary_zh: 依南征录汇所载初出城至青城上降表礼成愿献世藏珍异女乐请退兵
+- id: guji-赵桓-event-surrender-2
+  title_zh: 再出南薰门至青城被留
+  date: 1127-01-10
+  year_of: 1127
+  place_zh: 南薰门外青城寨
+  summary_zh: 再出城面议被馆于端成殿东庑铁索阑门议定亲王宗女岁币贡物等事目并手押为据
+- id: guji-赵桓-event-deposed
+  title_zh: 青城寨下被废为庶人
+  date: 1127-02-06
+  year_of: 1127
+  place_zh: 青城寨
+  summary_zh: 赴打球会被令跪听诏废为庶人去冠服押入斋宫限宫眷出城推立异姓
+- id: guji-赵桓-event-north
+  title_zh: 率宫眷族属分军北迁
+  date: 1127-03-28
+  year_of: 1127
+  place_zh: 刘家寺寨
+  summary_zh: 与太上诸王妃姬分作七军由额鲁观萧庆押送车八百余辆离京北去燕山安置
+- id: guji-赵桓-event-death
+  title_zh: 病卒于五国城
+  date: 1156-06-29
+  year_of: 1156
+  place_zh: 五国城
+  summary_zh: 北迁后居燕山韩州绍兴二十六年五月病卒年五十七

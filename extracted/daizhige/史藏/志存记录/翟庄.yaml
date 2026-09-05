@@ -1,0 +1,144 @@
+person:
+  qid: guji-翟庄
+  name_zh: 翟庄
+  names:
+    zh: 翟庄
+    en: Zhai Zhuang
+  lifespan:
+    birth:
+      date: 0250-01-01
+      precision: year
+      is_circa: true
+      raw: 约西晋初寻阳
+    death:
+      date: 0320-01-01
+      precision: year
+      is_circa: true
+      raw: 约东晋初寻阳
+  birth_date: 0250-01-01
+  death_date: 0320-01-01
+  era: 晋
+  reign_ref: 晋武帝至晋元帝
+  archetype: 隐逸高节
+  dilemmas:
+  - 州致礼命举秀才主簿可显荣，然违父汤终身不就之操，去就两难
+  - 亲友劝就以为孝养，守隐则见疑邀名，出仕则失节，如何保全家风
+  lesson: 守父之操不以荣利易心，孝友传家而成浔阳四隐之风
+  summary_first_person: 吾祖休，寻阳人，汤之子，少以孝友著名，终守父操，州辟并辞，唯愿家风不坠，清节相传
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BA%B7%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BA%B7%E8%AE%B0.md
+endeavors:
+- id: guji-翟庄-endeavor-1
+  title_zh: 孝友守父操
+  summary: 承翟汤淳古之风，以孝友闻乡里，终身守护父志
+  phases:
+  - key: brewing
+    name: 少承家学
+    labels:
+      zh:
+      - 孝友
+      - 家学
+    start_date: 0250-01-01
+    highlight_event_id: guji-翟庄-event-birth
+  - key: breakthrough
+    name: 以孝友著名
+    labels:
+      zh:
+      - 声名
+      - 笃行
+    start_date: 0270-01-01
+    highlight_event_id: guji-翟庄-event-fame
+  - key: climax
+    name: 守操持家
+    labels:
+      zh:
+      - 守志
+    start_date: 0280-01-01
+    highlight_event_id: guji-翟庄-event-reject
+  - key: closure
+    name: 训子传风
+    labels:
+      zh:
+      - 传家
+    start_date: 0295-01-01
+    highlight_event_id: guji-翟庄-event-teach
+  decisions:
+  - date: 0270-01-01
+    title_zh: 立志守父淳古之操
+    rationale: 父汤笃好淳古不就征辟，吾为其子当孝友继志不坠家声
+  - date: 0295-01-01
+    title_zh: 以隐节训子矫
+    rationale: 唯有身教可传远，令子孙知种德比荣利更重
+- id: guji-翟庄-endeavor-2
+  title_zh: 辞州辟全隐节
+  summary: 州致礼命辟主簿举秀才并辞不受，与子孙共成浔阳隐名
+  phases:
+  - key: brewing
+    name: 州礼屡至
+    labels:
+      zh:
+      - 征辟
+    start_date: 0278-01-01
+    highlight_event_id: guji-翟庄-event-reject
+  - key: breakthrough
+    name: 并辭不就
+    labels:
+      zh:
+      - 高节
+      - 辞辟
+    start_date: 0280-01-01
+    highlight_event_id: guji-翟庄-event-reject
+  - key: climax
+    name: 隐名益著
+    labels:
+      zh:
+      - 清望
+    start_date: 0290-01-01
+    highlight_event_id: guji-翟庄-event-teach
+  - key: closure
+    name: 四隐之基
+    labels:
+      zh:
+      - 家风
+      - 传世
+    start_date: 0300-01-01
+    highlight_event_id: guji-翟庄-event-teach
+  decisions:
+  - date: 0280-01-01
+    title_zh: 辞州辟主簿
+    rationale: 守父操在先，州命虽荣，不可易吾隐心
+  - date: 0282-01-01
+    title_zh: 辞举秀才
+    rationale: 出仕则违孝友本心，坚辞方能全节并为子孙式
+events:
+- id: guji-翟庄-event-birth
+  title_zh: 出生于寻阳
+  kind: birth
+  date: 0250-01-01
+  year_of: 250
+  description: 翟汤之子庄生于寻阳，字祖休
+- id: guji-翟庄-event-fame
+  title_zh: 以孝友著名乡里
+  kind: career
+  date: 0270-01-01
+  year_of: 270
+  description: 少以孝友著称，恪守父汤之操，乡论归重
+- id: guji-翟庄-event-reject
+  title_zh: 州辟主簿举秀才并辞不就
+  kind: career
+  date: 0280-01-01
+  year_of: 280
+  description: 州致礼命辟为主簿举为秀才，庄守父操并辞不受
+- id: guji-翟庄-event-teach
+  title_zh: 训子矫守节传家
+  kind: career
+  date: 0295-01-01
+  year_of: 295
+  description: 教子矫好竹高节不就辟命，开后世浔阳四隐之风
+- id: guji-翟庄-event-death
+  title_zh: 卒于寻阳家中
+  kind: death
+  date: 0320-01-01
+  year_of: 320
+  description: 终身不仕守节而终，子矫孙法赐继其志世称浔阳四隐
