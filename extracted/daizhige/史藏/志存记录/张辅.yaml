@@ -1,0 +1,126 @@
+person:
+  qid: guji-张辅
+  name_zh: 张辅
+  names:
+    zh: 张辅
+    en: Zhang Fu
+  lifespan:
+    birth:
+      date: 1375
+      precision: year
+      is_circa: false
+      raw: 明洪武八年
+    death:
+      date: 1449-09-01
+      precision: day
+      is_circa: false
+      raw: 正统十四年八月十五日土木之难
+  birth_date: 1375
+  death_date: 1449-09-01
+  era: 明
+  reign_ref: 永乐至正统
+  archetype: 开国功臣后之持重名将
+  dilemmas:
+  - 衰老位高时屈节权阉以避祸与保全晚节之难
+  - 亲征事极不顺时从行尽节与直谏止驾之难
+  lesson: 持重保全功臣体，晚节屈从亦难免，土木从死见臣节
+  summary_first_person: 我是英国公张辅，随文庙平交阯进爵，宣庙时缚汉府来使以清逆谋，终以衰老从英宗亲征，没于土木，为人寡言笑，敬礼文士，为本朝武臣之冠
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8F%A4%E7%A9%B0%E6%9D%82%E5%BD%95%E6%91%98%E6%8A%84.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8F%A4%E7%A9%B0%E6%9D%82%E5%BD%95%E6%91%98%E6%8A%84.html
+endeavors:
+- id: guji-张辅-endeavor-1
+  title_zh: 平交阯封英国公
+  summary: 随文庙功臣平交阯回，进爵为公，位群臣上
+  phases:
+  - key: brewing
+    name: 奉命南征
+    labels:
+      zh: 南征筹备
+    start_date: 1406
+    highlight_event_id: guji-张辅-event-pingjiaozhi
+  - key: breakthrough
+    name: 克定安南
+    labels:
+      zh: 克定安南
+    start_date: 1407
+    highlight_event_id: guji-张辅-event-pingjiaozhi
+  - key: climax
+    name: 进爵英国公
+    labels:
+      zh: 进爵显荣
+    start_date: 1416
+    highlight_event_id: guji-张辅-event-pingjiaozhi
+  - key: closure
+    name: 位冠群臣安享荣名
+    labels:
+      zh: 功成位极
+    start_date: 1424
+    highlight_event_id: guji-张辅-event-juhan
+  decisions:
+  - date: 1406
+    title_zh: 受命专征交阯
+    rationale: 以武臣膂力持重当方面，誓平交阯以报文庙知遇
+  - date: 1426
+    title_zh: 缚汉府来使白于宣庙
+    rationale: 不与逆谋，早觉早白以全功臣忠节，易于扑灭汉府之乱
+- id: guji-张辅-endeavor-2
+  title_zh: 宣正持重与土木殉国
+  summary: 宣庙重之，正统倚以为重，衰老从征，没于土木
+  phases:
+  - key: brewing
+    name: 宣庙倚重保全
+    labels:
+      zh: 倚重保全
+    start_date: 1426
+    highlight_event_id: guji-张辅-event-juhan
+  - key: breakthrough
+    name: 正统安享荣名
+    labels:
+      zh: 荣名益重
+    start_date: 1436
+    highlight_event_id: guji-张辅-event-juhan
+  - key: climax
+    name: 屈节王振以避祸从征
+    labels:
+      zh: 屈节从征
+    start_date: 1449-07-17
+    highlight_event_id: guji-张辅-event-death
+  - key: closure
+    name: 没于土木以衣衾葬
+    labels:
+      zh: 土木殉国
+    start_date: 1449-09-01
+    highlight_event_id: guji-张辅-event-death
+  decisions:
+  - date: 1436
+    title_zh: 衰老屈节王振避祸
+    rationale: 王振视勋戚如属吏，独礼遇而戒子侄致敬，暂屈节以保家族勋名
+  - date: 1449-07-17
+    title_zh: 衰老仍率从亲征
+    rationale: 天下倚以为重，四夷知名，不得已从驾以尽武臣之节
+events:
+- id: guji-张辅-event-birth
+  type: birth
+  title_zh: 出生
+  date: 1375
+  year_of: 1375
+  description: 明洪武八年生，为河间王张玉子，后嗣爵领兵
+- id: guji-张辅-event-pingjiaozhi
+  type: career
+  title_zh: 平交阯进爵英国公
+  date: 1407
+  year_of: 1407
+  description: 为文庙功臣，平交阯回，进爵为公，位群臣上
+- id: guji-张辅-event-juhan
+  type: career
+  title_zh: 缚汉府来使白宣庙
+  date: 1426
+  year_of: 1426
+  description: 汉府密遣人与谋，即缚其人白于宣庙，得此早觉易于扑灭，宣庙愈重之
+- id: guji-张辅-event-death
+  type: death
+  title_zh: 土木之难殉国
+  date: 1449-09-01
+  year_of: 1449
+  description: 衰老屈节王振以避祸，从英宗亲征，没于土木之难，以衣衾葬焉
