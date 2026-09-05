@@ -1,0 +1,143 @@
+person:
+  qid: guji-富德
+  name_zh: 富德
+  names:
+    zh: 富德
+    en: Fude
+  lifespan:
+    birth:
+      date: '1705-01-01'
+      precision: year
+      is_circa: true
+      raw: 生年不详约康熙末乌拉齐出身
+    death:
+      date: '1776-01-01'
+      precision: year
+      is_circa: false
+      raw: 乾隆四十一年卒
+  birth_date: '1705-01-01'
+  death_date: '1776-01-01'
+  era: 清乾隆朝
+  reign_ref: 乾隆二十七年
+  archetype: 恃功贪纵之将臣
+  dilemmas:
+  - 军功蒙殊恩后能否谨身慎行
+  - 掌理藩院而向蒙古索取马畜之是非
+  lesson: 恃微功而肆贪婪福量尽则恶迹自败露
+  summary_first_person: 吾本乌拉齐以军前微劳蒙高宗殊恩擢尚书领侍卫行走军机不思感戴竟于口外置牧厂索取蒙古驼马牛羊数千及老格事发牵连奉旨革职拏解恩尽福衰咎由自取
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70671.html
+endeavors:
+- id: guji-富德-endeavor-1
+  title_zh: 从军西陲以微功骤显
+  summary_zh: 随军征准噶尔于呼尔璊等处效力蒙恩擢理藩院尚书等显要
+  phases:
+  - key: brewing
+    name: 行间效力
+    labels:
+      zh: 从军积劳
+    start_date: '1755-01-01'
+    highlight_event_id: guji-富德-event-1
+  - key: breakthrough
+    name: 蒙恩骤擢
+    labels:
+      zh: 骤膺显要
+    start_date: '1761-01-01'
+    highlight_event_id: guji-富德-event-2
+  - key: climax
+    name: 兼领要任
+    labels:
+      zh: 领侍卫行走军机
+    start_date: '1762-01-01'
+    highlight_event_id: guji-富德-event-2
+  - key: closure
+    name: 恩宠至极
+    labels:
+      zh: 殊恩难承
+    start_date: '1762-09-01'
+    highlight_event_id: guji-富德-event-2
+  decisions:
+  - date: '1761-01-01'
+    title_zh: 受任理藩院尚书不自检束
+    rationale: 自恃军前劳绩不知谨身反萌贪纵之心
+  - date: '1762-01-01'
+    title_zh: 与阿里衮争辩被围救马事
+    rationale: 逞愚鲁变颜作势失大臣体统而不自省
+- id: guji-富德-endeavor-2
+  title_zh: 私置牧厂索取蒙古马畜获罪
+  summary_zh: 于张家口外置牧厂购买索取驼马牛羊数千老格案发牵出奉旨革职拏解
+  phases:
+  - key: brewing
+    name: 私置牧厂
+    labels:
+      zh: 索取牧畜
+    start_date: '1762-01-01'
+    highlight_event_id: guji-富德-event-3
+  - key: breakthrough
+    name: 老格供出附牧
+    labels:
+      zh: 事端牵发
+    start_date: '1762-10-31'
+    highlight_event_id: guji-富德-event-3
+  - key: climax
+    name: 巴尔品查奏败露
+    labels:
+      zh: 贪迹昭著
+    start_date: '1762-10-31'
+    highlight_event_id: guji-富德-event-3
+  - key: closure
+    name: 革职拏解
+    labels:
+      zh: 革职问罪
+    start_date: '1762-11-01'
+    highlight_event_id: guji-富德-event-4
+  decisions:
+  - date: '1762-06-01'
+    title_zh: 向扎萨克王公购买索取马畜
+    rationale: 以尚书之势行勒索虽云购买实与索取无异
+  - date: '1762-10-31'
+    title_zh: 接钞寄谕旨仍不知首服
+    rationale: 心术不良福量已尽终致革拏
+events:
+- id: guji-富德-event-birth
+  type: birth
+  date: '1705-01-01'
+  year_of: 1705
+  title_zh: 富德出生
+  description: 瓜尔佳氏乌拉齐出身生年不详暂系约康熙末
+  location_zh: 京师
+- id: guji-富德-event-1
+  type: achievement
+  date: '1759-01-01'
+  year_of: 1759
+  title_zh: 呼尔璊效力蒙恩宽宥
+  description: 前在呼尔璊打仗被围得救高宗以其愚鲁姑容以微功施殊恩
+  location_zh: 西陲军营
+- id: guji-富德-event-2
+  type: appointment
+  date: '1761-01-01'
+  year_of: 1761
+  title_zh: 授理藩院尚书领侍卫行走军机
+  description: 以军前劳绩擢理藩院尚书领侍卫内大臣并在军机处行走
+  location_zh: 京师
+- id: guji-富德-event-3
+  type: scandal
+  date: '1762-10-31'
+  year_of: 1762
+  title_zh: 私置牧厂贪婪败露
+  description: 因老格供马畜附富德马厂牧放巴尔品查奏驼马牛羊数千多系索取高宗降旨诘问
+  location_zh: 张家口外第六台马厂
+- id: guji-富德-event-4
+  type: dismissal
+  date: '1762-11-01'
+  year_of: 1762
+  title_zh: 革职拏解来京
+  description: 以恣意妄为目无法纪命安泰福隆安驰驿将富德革职拏解来京治罪
+  location_zh: 京师
+- id: guji-富德-event-death
+  type: death
+  date: '1776-01-01'
+  year_of: 1776
+  title_zh: 富德卒
+  description: 获罪后再起用乾隆四十一年卒
+  location_zh: 京师
