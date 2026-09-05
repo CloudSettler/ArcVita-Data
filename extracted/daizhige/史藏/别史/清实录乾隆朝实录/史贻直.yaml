@@ -9,87 +9,108 @@ person:
       date: 1682
       precision: year
       is_circa: false
-      raw: 康熙二十一年生
+      raw: 康熙二十一年
     death:
       date: 1763
       precision: year
       is_circa: false
-      raw: 乾隆二十八年卒
+      raw: 乾隆二十八年六月
   birth_date: 1682
   death_date: 1763
   era: 清
   reign_ref: 乾隆
-  archetype: 宿望老臣
+  archetype: 清直重臣
   dilemmas:
-  - 年逾八旬精力衰而班联系望去留两难
-  - 部务繁剧兼摄难周与从容颐养之衡
-  lesson: 老臣当以退让全晚节而君恩优养乃成全始终端
-  summary_first_person: 吾年逾八旬齿宿资深蒙恩许解工部仍以肩舆入直严寒盛暑得随意颐养此为君臣始终之恩也
+  - 三朝迭更中如何守正不阿而全进退之节
+  - 位极台阁后如何抑权避势而保晚节令名
+  lesson: 秉公持正历久不渝则身后自得哀荣之报
+  summary_first_person: 吾史贻直溧阳人也历康雍乾三朝以进士起家官至文渊阁大学士兼吏部尚书加太子太傅一生谨身守正不敢附会权势晚年归休乾隆二十八年六月病卒蒙上加赠太保祭葬如例谥文靖此生无憾矣
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0676.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70688.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70688.md
 endeavors:
 - id: guji-史贻直-endeavor-1
-  title_zh: 内阁辅政系望班联
-  summary_zh: 久历中枢齿宿资深为朝班盛事虽老病而未忍遽退
+  title_zh: 三朝历仕秉正持重
+  summary: 由康熙进士起家历雍正至乾隆官至文渊阁大学士兼吏部尚书以清慎见倚
   phases:
   - key: brewing
-    name: 久任中枢积望
+    name: 进士起家
     labels:
-      zh: 辅政
-    start_date: 1735
-    highlight_event_id: guji-史贻直-event-work-1
-  - key: climax
-    name: 八旬奏请解任
-    labels:
-      zh: 乞退
-    start_date: 1762-12-18
-    highlight_event_id: guji-史贻直-event-work-1
-  decisions:
-  - date: 1762-12-18
-    title_zh: 以老病恳请解任
-    rationale: 自量精力非强健不欲以高年误国故恳切陈情以全晚节
-- id: guji-史贻直-endeavor-2
-  title_zh: 解工部务蒙恩优养
-  summary_zh: 蒙恩免兼工部仍留内阁肩舆入直并赏饭银颐养天年
-  phases:
+      zh: 科第入仕
+    start_date: 1700
+    highlight_event_id: guji-史贻直-event-jinshi
   - key: breakthrough
-    name: 特免工部兼摄
+    name: 雍乾擢升
     labels:
-      zh: 体恤
-    start_date: 1762-12-18
-    highlight_event_id: guji-史贻直-event-work-1
+      zh: 受知超擢
+    start_date: 1730
+    highlight_event_id: guji-史贻直-event-daxueshi
+  - key: climax
+    name: 台阁领部
+    labels:
+      zh: 宰辅兼长
+    start_date: 1738
+    highlight_event_id: guji-史贻直-event-daxueshi
   - key: closure
-    name: 赏银从容颐养
+    name: 望重朝堂
     labels:
-      zh: 优老
-    start_date: 1762-12-19
-    highlight_event_id: guji-史贻直-event-work-2
+      zh: 清慎守位
+    start_date: 1750
+    highlight_event_id: guji-史贻直-event-daxueshi
   decisions:
-  - date: 1762-12-19
-    title_zh: 遵旨酌量进署颐养
-    rationale: 内阁地禁事清严寒盛暑不必每日进署正可仰体优眷从容自养
+  - date: 1738
+    title_zh: 受文渊阁大学士兼吏部尚书务持大体
+    rationale: 台阁领选宜抑私援公以清吏治而安人心
+- id: guji-史贻直-endeavor-2
+  title_zh: 晚年引退身后哀荣
+  summary: 年高告老归休乾隆二十八年病卒蒙赠祭葬谥文靖
+  phases:
+  - key: brewing
+    name: 引年乞休
+    labels:
+      zh: 知止求退
+    start_date: 1760
+    highlight_event_id: guji-史贻直-event-daxueshi
+  - key: breakthrough
+    name: 加衔优礼
+    labels:
+      zh: 太傅加荣
+    start_date: 1762
+    highlight_event_id: guji-史贻直-event-death
+  - key: climax
+    name: 病卒京邸
+    labels:
+      zh: 溘然长逝
+    start_date: 1763
+    highlight_event_id: guji-史贻直-event-death
+  - key: closure
+    name: 祭葬易名
+    labels:
+      zh: 文靖盖棺
+    start_date: 1763
+    highlight_event_id: guji-史贻直-event-death
+  decisions:
+  - date: 1763
+    title_zh: 遗疏戒子孙守素业勿干请
+    rationale: 以清白传家方能保全名节不负朝廷恩遇
 events:
 - id: guji-史贻直-event-birth
-  type: birth
-  title_zh: 生于康熙二十一年
   date: 1682
   year_of: 1682
-  description_zh: 江南溧阳人少以科第进累至大学士
-- id: guji-史贻直-event-work-1
-  type: career
-  title_zh: 奏请解任恩免工部许肩舆入直
-  date: 1762-12-18
-  year_of: 1762
-  description_zh: 乾隆二十七年十二月庚寅以年逾八旬老病奏请解任上念其齿宿资深免兼工部许肩舆入直严寒盛暑不必每日进署
-- id: guji-史贻直-event-work-2
-  type: career
-  title_zh: 赏户部饭银以示体恤
-  date: 1762-12-19
-  year_of: 1762
-  description_zh: 乾隆二十七年十二月辛卯谕已不兼管工部于户部饭银内每年赏银五百两以示优眷
+  title_zh: 出生于江苏溧阳
+  description: 康熙二十一年生于溧阳史氏宦族少力学以文行称
+- id: guji-史贻直-event-jinshi
+  date: 1700
+  year_of: 1700
+  title_zh: 登进士入仕
+  description: 康熙三十九年登进士第入翰林继入值以勤慎著称累迁要职
+- id: guji-史贻直-event-daxueshi
+  date: 1738
+  year_of: 1738
+  title_zh: 拜文渊阁大学士兼吏部尚书
+  description: 乾隆朝受知超擢拜文渊阁大学士兼吏部尚书加太子太傅总理部务持正秉公
 - id: guji-史贻直-event-death
-  type: death
-  title_zh: 卒于乾隆二十八年
   date: 1763
   year_of: 1763
-  description_zh: 以原官致仕未久考终朝廷例予祭葬谥号以全始终
+  title_zh: 病卒赠祭葬谥文靖
+  description: 乾隆二十八年六月病卒于京上悯之加赠太保祭葬如例谥文靖载于乾隆朝实录卷六百八十八
