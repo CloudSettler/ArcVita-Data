@@ -1,0 +1,132 @@
+person:
+  qid: guji-伏琛
+  name_zh: 伏琛
+  names:
+    zh: 伏琛
+    en: Fu Chen
+  lifespan:
+    birth:
+      date: '0280-01-01'
+      precision: year
+      is_circa: true
+      raw: 晋代生年不详约西晋末
+    death:
+      date: '0340-01-01'
+      precision: year
+      is_circa: true
+      raw: 晋代卒年不详约东晋初
+  birth_date: '0280-01-01'
+  death_date: '0340-01-01'
+  era: 两晋
+  reign_ref: 西晋末至东晋初
+  archetype: 方志博物者
+  dilemmas:
+  - 齐地旧闻散佚欲存则须亲历采录而乱世行路艰难
+  - 神异传说与信史之间欲实录又恐失其乡土本色
+  lesson: 采齐地山海之异以存一方风土使后人可考
+  summary_first_person: 吾久客齐地观尧山祠柏蒲台萦蒲海上蜃楼秦桥遗石及郑君讲学旧迹恐其湮没故采风谣旧闻作三齐略记以存其略
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%89%E9%BD%90%E7%95%A5%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%89%E9%BD%90%E7%95%A5%E8%AE%B0.md
+endeavors:
+- id: guji-伏琛-endeavor-1
+  person_id: guji-伏琛
+  title_zh: 踏访齐地山川台城古迹
+  summary: 历广固尧山蒲台阳城山海上等地考登临祭顿之迹辨蒲苇海市不夜城之说
+  phases:
+  - key: brewing
+    name: 萌发采齐之志
+    labels:
+      zh: 广固踏访
+    start_date: '0305-01-01'
+    highlight_event_id: guji-伏琛-event-tour-qi
+  - key: breakthrough
+    name: 亲登尧山蒲台
+    labels:
+      zh: 山川核验
+    start_date: '0310-01-01'
+    highlight_event_id: guji-伏琛-event-tour-qi
+  - key: climax
+    name: 汇集海市不夜旧说
+    labels:
+      zh: 海陆异闻
+    start_date: '0312-01-01'
+    highlight_event_id: guji-伏琛-event-tour-qi
+  - key: closure
+    name: 草定山水篇目
+    labels:
+      zh: 条目初成
+    start_date: '0315-01-01'
+    highlight_event_id: guji-伏琛-event-write-sanqi
+  decisions:
+  - date: '0310-03-15'
+    title_zh: 登尧山访祠柏以定巡狩传说
+    rationale: 耳闻不如目见登山验祠树枯复生之状方敢落笔
+  - date: '0312-06-10'
+    title_zh: 并存海市蜃气与不夜得名之异说
+    rationale: 海上楼台时有时无乡人共见不可尽废姑存其说以俟后考
+- id: guji-伏琛-endeavor-2
+  person_id: guji-伏琛
+  title_zh: 辑录秦汉经学旧事成三齐略记
+  summary: 记秦始皇海中石桥射鱼万岁水亭郑玄不其讲学康成书带草等以存文献
+  phases:
+  - key: brewing
+    name: 搜集秦桥郑学旧闻
+    labels:
+      zh: 旧事搜集
+    start_date: '0313-01-01'
+    highlight_event_id: guji-伏琛-event-tour-qi
+  - key: breakthrough
+    name: 考定石桥射鱼始末
+    labels:
+      zh: 秦事考订
+    start_date: '0316-01-01'
+    highlight_event_id: guji-伏琛-event-write-sanqi
+  - key: climax
+    name: 详记康成书带遺迹
+    labels:
+      zh: 经学遗迹
+    start_date: '0318-01-01'
+    highlight_event_id: guji-伏琛-event-write-sanqi
+  - key: closure
+    name: 成书三齐略记
+    labels:
+      zh: 全书告成
+    start_date: '0320-01-01'
+    highlight_event_id: guji-伏琛-event-write-sanqi
+  decisions:
+  - date: '0316-08-20'
+    title_zh: 具录海神竖柱画形致怒之说不删神异
+    rationale: 齐人相传众山之石皆倾东趣若删则失土俗本色故备录存真
+  - date: '0318-09-05'
+    title_zh: 特书郑司农避乱挥涕书带草事
+    rationale: 经师流寓讲学崔琰王经出其门草木留名最能见风教故当大书
+events:
+- id: guji-伏琛-event-birth
+  person_id: guji-伏琛
+  title_zh: 诞生于晋世
+  date: '0280-01-01'
+  year_of: 280
+  type: birth
+  summary: 约西晋末诞生世值多故少好博物留心齐地掌故
+- id: guji-伏琛-event-tour-qi
+  person_id: guji-伏琛
+  title_zh: 游历三齐采尧山蒲台海市诸迹
+  date: '0310-05-15'
+  year_of: 310
+  type: 事业
+  summary: 西赴广固登尧山七里访祠柏观台城东南蒲台高八丈及阳城山嶷嶷东倾又记海上蜃气结楼台号海市及阳廷东南不夜城
+- id: guji-伏琛-event-write-sanqi
+  person_id: guji-伏琛
+  title_zh: 撰成三齐略记记秦桥郑学
+  date: '0320-10-01'
+  year_of: 320
+  type: 事业
+  summary: 成书记秦始皇海中作石桥求见海神射鱼于青城海水变色数里及曲城万岁水亭郑司农居不其南山教授遗崔琰王经康成书带草事
+- id: guji-伏琛-event-death
+  person_id: guji-伏琛
+  title_zh: 逝世书传于后
+  date: '0340-01-01'
+  year_of: 340
+  type: death
+  summary: 约东晋初卒所著三齐略记载齐地风土为后世志乘所引

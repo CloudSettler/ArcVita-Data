@@ -1,0 +1,141 @@
+person:
+  qid: guji-辛氏
+  name_zh: 辛氏
+  names:
+    zh: 辛氏
+    en: Xin Shi
+  lifespan:
+    birth:
+      date: 0080
+      precision: 年
+      is_circa: true
+      raw: 东汉永元年间生于关中
+    death:
+      date: '0140'
+      precision: 年
+      is_circa: true
+      raw: 东汉中叶殁
+  birth_date: 0080
+  death_date: '0140'
+  era: 东汉
+  reign_ref: 东汉永元至永建
+  archetype: 方志史家
+  dilemmas:
+  - 秦汉旧都文献散佚而地志阙如
+  - 传闻异辞并存而难辨山川宫阙真貌
+  lesson: 记地以存史，采俗以补史，令三秦故实不坠
+  summary_first_person: 吾为汉室关中人，见长安承秦之旧，宫阙陵寝山川犹在而旧闻渐散，遂历访骊山太白陇坂诸地，询父老，采歌谣，条记山陵温泉兰池桂宫之事，撰成三秦记以存一方之志
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%89%E7%A7%A6%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%89%E7%A7%A6%E8%AE%B0.md
+endeavors:
+- id: guji-辛氏-endeavor-1
+  title_zh: 考述三秦山川陵寝宫阙
+  summary: 以长安为中心，考秦汉山陵城阙山水形胜，分别条记成篇
+  phases:
+  - key: brewing
+    name: 踏查关中形胜
+    labels:
+      zh:
+      - 踏查
+      - 访闻
+    start_date: '0100'
+    highlight_event_id: guji-辛氏-event-taibai
+  - key: breakthrough
+    name: 厘定山陵宫观体系
+    labels:
+      zh:
+      - 考据
+    start_date: '0110'
+    highlight_event_id: guji-辛氏-event-lanchi
+  - key: climax
+    name: 条记成文
+    labels:
+      zh:
+      - 撰述
+    start_date: '0115'
+    highlight_event_id: guji-辛氏-event-lanchi
+  - key: closure
+    name: 三秦地记初定
+    labels:
+      zh:
+      - 定稿
+    start_date: '0120'
+    highlight_event_id: guji-辛氏-event-lanchi
+  decisions:
+  - date: '0110'
+    title_zh: 以山陵宫室山水分条立目
+    rationale: 秦汉建都关中，陵寝宫观即礼制所在，分条可使山川与人事互见
+  - date: '0115'
+    title_zh: 详记骊山兰池桂宫始平诸地
+    rationale: 此数地最能见秦汉营建之实，详之可以存都邑制度
+- id: guji-辛氏-endeavor-2
+  title_zh: 采录秦川歌谣俗说异闻
+  summary: 采集陇头歌谣温泉神女地市诸俗说，兼存方言物候以补史阙
+  phases:
+  - key: brewing
+    name: 询访父老俗说
+    labels:
+      zh:
+      - 采风
+    start_date: '0105'
+    highlight_event_id: guji-辛氏-event-longban
+  - key: breakthrough
+    name: 辨俗说源流
+    labels:
+      zh:
+      - 辨伪
+    start_date: '0112'
+    highlight_event_id: guji-辛氏-event-wenquan
+  - key: climax
+    name: 录歌谣异闻于地条之下
+    labels:
+      zh:
+      - 录俗
+    start_date: 0118
+    highlight_event_id: guji-辛氏-event-wenquan
+  - key: closure
+    name: 风俗附记成篇
+    labels:
+      zh:
+      - 成篇
+    start_date: '0122'
+    highlight_event_id: guji-辛氏-event-wenquan
+  decisions:
+  - date: '0112'
+    title_zh: 存俗说不删神异之言
+    rationale: 地志兼存信仰物候，神女唾泉地市交易虽涉怪而可见民情
+  - date: 0118
+    title_zh: 引陇头流水歌以见关中人之思
+    rationale: 歌谣最能见离乱乡愁，引之则山川之外别有人情
+events:
+- id: guji-辛氏-event-birth
+  title_zh: 生于关中
+  date: 0080
+  year_of: 80
+  description: 约东汉永元年间生于关中，自幼习闻秦汉旧都掌故
+- id: guji-辛氏-event-taibai
+  title_zh: 访太白山陇坂沙角
+  date: '0100'
+  year_of: 100
+  description: 历访太白山不鸣鼓角之忌，登陇坂九回，观河西沙角沙井，考山形道里
+- id: guji-辛氏-event-lanchi
+  title_zh: 考骊山兰池桂宫未央
+  date: '0110'
+  year_of: 110
+  description: 考骊山始皇陵地市，兰池引渭筑蓬莱，桂宫明光殿金玉之饰，长安赤城织锦城诸制
+- id: guji-辛氏-event-longban
+  title_zh: 录陇头流水之歌
+  date: '0112'
+  year_of: 112
+  description: 录陇头流水鸣声幽咽遥望秦川肝肠断绝之歌，记上陇望乡悲歌之事
+- id: guji-辛氏-event-wenquan
+  title_zh: 记骊山温泉神女之说
+  date: 0118
+  year_of: 118
+  description: 记秦始皇忤神女见唾生疮谢而得温泉之俗说，兼记祭牲得入去疾之验
+- id: guji-辛氏-event-death
+  title_zh: 卒于汉中叶
+  date: '0140'
+  year_of: 140
+  description: 约卒于东汉中叶，所撰三秦记流传后世，为关中方志之祖
