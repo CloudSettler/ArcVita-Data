@@ -6,141 +6,144 @@ person:
     en: Shuhede
   lifespan:
     birth:
-      date: '1710'
+      date: 1710
       precision: year
       is_circa: false
       raw: 康熙四十九年
     death:
-      date: '1777'
+      date: 1777
       precision: year
       is_circa: false
       raw: 乾隆四十二年
-  birth_date: '1710'
-  death_date: '1777'
+  birth_date: 1710
+  death_date: 1777
   era: 清乾隆朝
-  reign_ref: 乾隆十九年甲戌
-  archetype: 经略边防之重臣
+  reign_ref: 乾隆
+  archetype: 怯懦文过屡蒙宽宥而效力赎罪的参赞大臣
   dilemmas:
-  - 春令马乏是否暂彻兵以待夏秋再举
-  - 兵力不足时是否冒进阿尔台或候察哈尔援兵再定进止
-  lesson: 审时量力而后动则边卡巩固而军食可继
-  summary_first_person: 我受命办理北路军务由塔密尔移营乌里雅苏台定驿路运米器又筹卓克索防秋以安喀尔喀而固边防
+  - 奉旨襄助蒙古将军却畏葸无断致纵贼叛逃
+  - 屡干重谴当正法与留命为兵丁效力赎罪之间求生立功
+  lesson: 用兵忌怯弱忌讳饰，临事须奋勉务实，方能补过立功
+  summary_first_person: 我以文臣参赞西师，性懦好饰过，招服克哷特等而纵其屯驻，致贼叛逃，蒙恩免死为兵丁自备资斧效力，惟以后效赎前愆耳
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70459.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70459.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70553.md
 endeavors:
 - id: guji-舒赫德-endeavor-1
-  title_zh: 移营乌里雅苏台并定驿路转运
-  goal: 以塔密尔为内地而以乌里雅苏台为军营直驿路而足军食
-  roles:
-  - 钦差尚书经略军营
+  title_zh: 西路协办进剿失机获罪
+  summary: 乾隆二十二年春起用赴西路襄助成衮扎布，招服游牧而不收马匹，纵贼叛逃，往来疲兵，被诘责革职
   phases:
   - key: brewing
-    name: 塔密尔罢为军营之议
+    name: 加恩起用传谕赴军营协办
     labels:
-      zh:
-      - 筹边
-      - 移营
-    start_date: '1754-04-01'
-    highlight_event_id: guji-舒赫德-event-yiying
+      zh: 受命襄助
+    start_date: 1757-03
+    highlight_event_id: guji-舒赫德-event-1757-fuxi
   - key: breakthrough
-    name: 定推河直抵乌里雅苏台驿路
+    name: 招服克哷特乌噜特等游牧
     labels:
-      zh:
-      - 驿站
-      - 经画
-    start_date: '1754-04-06'
-    highlight_event_id: guji-舒赫德-event-yiying
+      zh: 招服失驭
+    start_date: 1757-08
+    highlight_event_id: guji-舒赫德-event-1757-zhaofu
   - key: climax
-    name: 派员转运银米军器至军营
+    name: 任屯驻山中致贼叛逃疲兵往返
     labels:
-      zh:
-      - 转运
-      - 军需
-    start_date: '1754-04-08'
-    highlight_event_id: guji-舒赫德-event-yiying
+      zh: 失机被责
+    start_date: 1757-11
+    highlight_event_id: guji-舒赫德-event-1757-shiji
   - key: closure
-    name: 核计添兵支用以敷一年
+    name: 从宽免死革职为兵丁效力赎罪
     labels:
-      zh:
-      - 核饷
-      - 收束
-    start_date: '1754-04-10'
-    highlight_event_id: guji-舒赫德-event-yiying
+      zh: 革职赎罪
+    start_date: 1757-12
+    highlight_event_id: guji-舒赫德-event-1757-gezhi
   decisions:
-  - date: '1754-04-06'
-    title_zh: 议自推河直抵乌里雅苏台安台
-    rationale: 军营既移则驿路由捷径直达方不劳迂回以速军报
-  - date: '1754-04-08'
-    title_zh: 派安崇阿永贵运塔密尔鄂尔坤存贮赴营
-    rationale: 旧营存米器须随营而移以实新营而备添兵之用
+  - date: 1757-08
+    title_zh: 招服后不行收马任其屯驻
+    rationale: 昧于收马益兵以制贼之道，致贼有余力，大兵过后即叛
+  - date: 1757-11
+    title_zh: 不详示谕旨而东遮西露疲马力
+    rationale: 怯懦文过，不尽心襄助主帅，动失机宜
 - id: guji-舒赫德-endeavor-2
-  title_zh: 驱逐乌梁海并卓克索防秋部署
-  goal: 乘准噶尔内乱招抚驱逐乌梁海而设卡防秋以固阿尔台内外
-  roles:
-  - 钦差尚书会同成衮扎布筹边
+  title_zh: 革后效力赎罪渐图复用
+  summary: 革职留军营自备资斧当兵效力，其子舒常亦革退发往黑龙江，惟以后劳冀复恩用
   phases:
   - key: brewing
-    name: 侦乌梁海远遁海喇图岭外
+    name: 革职留营自备资斧当兵
     labels:
-      zh:
-      - 侦探
-      - 审势
-    start_date: '1754-04-12'
-    highlight_event_id: guji-舒赫德-event-fangqiu
+      zh: 留营效力
+    start_date: 1757-12
+    highlight_event_id: guji-舒赫德-event-1757-gezhi
   - key: breakthrough
-    name: 春乏暂彻兵以待夏回再举
+    name: 鲁克察克筹办军务随营行走
     labels:
-      zh:
-      - 权衡
-      - 待时
-    start_date: '1754-04-13'
-    highlight_event_id: guji-舒赫德-event-fangqiu
+      zh: 随营赎罪
+    start_date: 1758-01
+    highlight_event_id: guji-舒赫德-event-1758-xiaoli
   - key: climax
-    name: 分兵驻卓克索库克岭防秋
+    name: 以赎罪勤勉渐蒙宽宥复用
     labels:
-      zh:
-      - 防秋
-      - 分驻
-    start_date: '1754-05-10'
-    highlight_event_id: guji-舒赫德-event-fangqiu
+      zh: 渐复任用
+    start_date: 1759-06
+    highlight_event_id: guji-舒赫德-event-1759-fuqi
   - key: closure
-    name: 增设阿尔台以内卡座巩固边界
+    name: 晚年历任要职以功名终
     labels:
-      zh:
-      - 设卡
-      - 固边
-    start_date: '1754-05-15'
-    highlight_event_id: guji-舒赫德-event-fangqiu
+      zh: 以功保全
+    start_date: 1777
+    highlight_event_id: guji-舒赫德-event-death
   decisions:
-  - date: '1754-04-13'
-    title_zh: 暂彻卓克索之兵俟夏整兵速出
-    rationale: 春令马乏难以远行且大兵压境则彼坚守不归不如暂彻以诱其贪恋故土而还
-  - date: '1754-05-10'
-    title_zh: 拣选二千兵进至卓克索控圭防秋
-    rationale: 乌梁海事竣正值防秋紧要须扼当库列图要路以备招降弹压两途
+  - date: 1757-12
+    title_zh: 甘当兵丁在军营效力赎罪
+    rationale: 以不死之恩自励，惟奋勉行走可赎前罪，不敢诿过于成衮扎布
+  - date: 1758-01
+    title_zh: 随营筹办鲁克察克事务
+    rationale: 熟悉西路粮运屯田，愿以后方勤勉补前方失算
 events:
 - id: guji-舒赫德-event-birth
-  title_zh: 出生
-  date: '1710'
+  date: 1710
   year_of: 1710
-  place_zh: 京师
-  description: 康熙四十九年生于满洲正白旗舒氏之家
+  title_zh: 生于满洲正白旗舒穆禄氏
+  description: 康熙四十九年生，字伯容，后以文臣入仕
+  raw: 康熙四十九年生
+- id: guji-舒赫德-event-1757-fuxi
+  date: 1757-03
+  year_of: 1757
+  title_zh: 起用赴西路协办成衮扎布军务
+  description: 乾隆二十二年春蒙恩起用，面领机宜赴军营传谕襄助
+  raw: 乾隆二十二年春起用赴西路
+- id: guji-舒赫德-event-1757-zhaofu
+  date: 1757-08
+  year_of: 1757
+  title_zh: 招服克哷特乌噜特而不收马
+  description: 招服游牧后任其屯驻山中，不收马匹以益兵力
+  raw: 乾隆二十二年秋招服游牧失驭
+- id: guji-舒赫德-event-1757-shiji
+  date: 1757-11
+  year_of: 1757
+  title_zh: 纵贼叛逃疲马力被旨诘责
+  description: 大兵过后贼众叛逃，往来道途疲马力于无用，降旨诘责其恇怯文过
+  raw: 乾隆二十二年冬被诘责失机
+- id: guji-舒赫德-event-1757-gezhi
+  date: 1757-12
+  year_of: 1757
+  title_zh: 从宽免死革职为兵丁效力
+  description: 乾隆二十二年十二月庚辰谕革职免死，令自备资斧在军营效力赎罪，子舒常革退发黑龙江
+  raw: 乾隆二十二年十二月庚辰革职效力
+- id: guji-舒赫德-event-1758-xiaoli
+  date: 1758-01
+  year_of: 1758
+  title_zh: 留军营效力筹办后路
+  description: 革后留西路随营行走，襄办鲁克察克巴里坤屯田军马事
+  raw: 乾隆二十三年初留营效力
+- id: guji-舒赫德-event-1759-fuqi
+  date: 1759-06
+  year_of: 1759
+  title_zh: 以效力勤勉渐复任用
+  description: 以赎罪奋勉渐蒙恩复起，再参军机要务
+  raw: 乾隆二十四年后渐复用
 - id: guji-舒赫德-event-death
-  title_zh: 逝世
-  date: '1777'
+  date: 1777
   year_of: 1777
-  place_zh: 京师
-  description: 乾隆四十二年卒谥文襄
-- id: guji-舒赫德-event-yiying
-  title_zh: 议移军营至乌里雅苏台并转运
-  date: '1754-04-06'
-  year_of: 1754
-  place_zh: 乌里雅苏台军营
-  description: 会同成衮扎布议自推河直抵乌里雅苏台安设台站派安崇阿永贵运塔密尔鄂尔坤银米军器赴营核计可敷添兵三千一年之用
-- id: guji-舒赫德-event-fangqiu
-  title_zh: 筹卓克索防秋及增卡驱乌梁海
-  date: '1754-04-15'
-  year_of: 1754
-  place_zh: 卓克索控圭库克岭
-  description: 奏称乌梁海已越阿尔台远遁请暂彻兵待夏再举并以二千兵驻卓克索控圭以一千兵驻库克岭防守索勒毕岭等路于阿尔台以内增设卡座
+  title_zh: 卒于乾隆四十二年
+  description: 历任参赞军机要职后卒，以功名终
+  raw: 乾隆四十二年卒
