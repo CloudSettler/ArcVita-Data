@@ -1,0 +1,135 @@
+person:
+  qid: guji-张九龄
+  name_zh: 张九龄
+  names:
+    zh: 张九龄
+    en: Zhang Jiuling
+  lifespan:
+    birth:
+      date: 0678
+      precision: year
+      is_circa: false
+      raw: 嗣圣五年生于韶州曲江，遗事载少年传书鸽事
+    death:
+      date: 480
+      precision: year
+      is_circa: false
+      raw: 开元二十八年薨
+  birth_date: 0678
+  death_date: 480
+  era: 唐
+  reign_ref: 唐玄宗开元天宝
+  archetype: 忠直贤相
+  dilemmas:
+  - 直谏忤君保社稷与顺旨保身之抉择
+  - 拒附权幸见忌与趋炎求荣之诱惑
+  lesson: 守直道以事君，不附炎而先见，方为社稷之臣
+  summary_first_person: 吾乃曲江张九龄，少年养鸽以通书信，勤政楼论经旨时务风生而独升七宝山座，后以盆池之鱼谏任李林甫之非，以向火乞儿断趋附杨国忠之祸，虽罢而不悔
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/开元天宝遗事.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/开元天宝遗事.md
+endeavors:
+- id: guji-张九龄-endeavor-1
+  title_zh: 勤政楼论道升七宝山座
+  summary_zh: 以经旨时务论辩风生独升宝座，时论归美为名相之始
+  phases:
+  - key: brewing
+    name: 少年养鸽通书
+    labels:
+      zh: 少年博学
+    start_date: 0693
+    highlight_event_id: guji-张九龄-event-fly
+  - key: breakthrough
+    name: 应诏入讲勤政楼
+    labels:
+      zh: 学士讲议
+    start_date: 0728
+    highlight_event_id: guji-张九龄-event-seat
+  - key: climax
+    name: 论辩风生独升座
+    labels:
+      zh: 独升宝座
+    start_date: 0729
+    highlight_event_id: guji-张九龄-event-seat
+  - key: closure
+    name: 时论美其才望
+    labels:
+      zh: 名重一时
+    start_date: 472
+    highlight_event_id: guji-张九龄-event-seat
+  decisions:
+  - date: 0729
+    title_zh: 直陈经旨时务不饰辞
+    rationale: 以真才实学折服群儒，不务巧言，故能独升座
+- id: guji-张九龄-endeavor-2
+  title_zh: 秉政直斥林甫国忠
+  summary_zh: 以盆池之鱼喻宰相任人，以向火乞儿断附炎必祸，守正不阿
+  phases:
+  - key: brewing
+    name: 入相忧国如家
+    labels:
+      zh: 秉政守正
+    start_date: 475
+    highlight_event_id: guji-张九龄-event-fish
+  - key: breakthrough
+    name: 禁苑论李林甫可否
+    labels:
+      zh: 盆池讽谏
+    start_date: 478
+    highlight_event_id: guji-张九龄-event-fish
+  - key: climax
+    name: 面斥附炎为向火乞儿
+    labels:
+      zh: 先见拒附
+    start_date: 479
+    highlight_event_id: guji-张九龄-event-fire
+  - key: closure
+    name: 罢相而先见验于禄山之乱
+    labels:
+      zh: 直道不悔
+    start_date: 480
+    highlight_event_id: guji-张九龄-event-fire
+  decisions:
+  - date: 478
+    title_zh: 言林甫如盆池之鱼但装景致
+    rationale: 宰相职在具瞻四海，任人不当则国受其殃，不可默然
+  - date: 479
+    title_zh: 终身不登杨国忠之门
+    rationale: 附炎如向火取暖，火尽灰冷则冻尸沟壑，祸必及身
+events:
+- id: guji-张九龄-event-birth
+  title_zh: 出生于韶州曲江
+  date: 0678
+  year_of: 678
+  place_zh: 韶州曲江
+  description: 生而聪敏，少年即以群鸽通书信，目为飞奴
+- id: guji-张九龄-event-fly
+  title_zh: 少年传书鸽为飞奴
+  date: 0693
+  year_of: 693
+  place_zh: 曲江家舍
+  description: 家养群鸽，以书系鸽足依所教处飞往投之，时人爱讶其聪
+- id: guji-张九龄-event-seat
+  title_zh: 勤政楼论辩升七宝山座
+  date: 0729
+  year_of: 729
+  place_zh: 长安勤政楼
+  description: 明皇以七宝装成山座召学士讲经旨时务，惟九龄论辩风生得升座，余人不可阶
+- id: guji-张九龄-event-fish
+  title_zh: 禁苑以盆池之鱼谏林甫
+  date: 478
+  year_of: 736
+  place_zh: 长安禁苑
+  description: 帝问盆池鱼鲜活可爱，林甫对赖恩波所养，九龄对犹陛下任人但能装景致助儿女之戏，帝不悦而时人美其忠直
+- id: guji-张九龄-event-fire
+  title_zh: 斥附杨国忠者为向火乞儿
+  date: 479
+  year_of: 737
+  place_zh: 长安朝堂
+  description: 见文武趋附国忠争富贵，独不登门，言今之朝彦皆向火乞儿，火尽则冻尸裂体，后禄山乱附炎者族灭而验
+- id: guji-张九龄-event-death
+  title_zh: 薨于荆州长史任
+  date: 480
+  year_of: 740
+  place_zh: 荆州
+  description: 罢相后出为荆州长史，忧国而卒，四方画真神事之者犹念其德
