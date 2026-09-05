@@ -1,0 +1,141 @@
+person:
+  qid: guji-范仲淹
+  name_zh: 范仲淹
+  names:
+    zh: 范仲淹
+    en: Fan Zhongyan
+  lifespan:
+    birth:
+      date: 0989-08-29
+      precision: day
+      is_circa: false
+      raw: 咸平二年秋生于徐州
+    death:
+      date: 1052-06-19
+      precision: day
+      is_circa: false
+      raw: 皇祐四年夏卒于徐州
+  birth_date: 0989-08-29
+  death_date: 1052-06-19
+  era: 北宋
+  reign_ref: 宋仁宗景祐
+  archetype: 经世治水之臣
+  dilemmas:
+  - 兴作横议先至而守土者畏毁当为与不当为
+  - 劳民费粟救灾与忍视饥疫坐耗国仓孰重
+  lesson: 水患非天命在人事未尽治水须力排浮议顺水之性决而流之
+  summary_first_person: 我守乡郡见姑苏大水逾秋不退遍视湖江海潮之势乃上书宰相力陈开浚松江及东南东北分流入海之策并亲历海滨开五河设闸御潮以保东南稼穑
+  source_urls:
+  - https://daizhige.org/史藏/地理/正德松江府志/卷03.html
+endeavors:
+- id: guji-范仲淹-endeavor-1
+  title_zh: 守吴上书陈东南水利大策
+  summary: 景祐初守乡郡按视太湖松江壅塞上书宰臣辨江海善下潮汐可乘沙塞可御之理请分流入松江扬子及海并择精心吏治塘浦
+  phases:
+  - key: brewing
+    name: 按视究思
+    labels:
+      zh:
+      - 踏勘
+      - 究思
+    start_date: 1034-01-01
+    highlight_event_id: guji-范仲淹-event-policy
+  - key: breakthrough
+    name: 上书宰臣
+    labels:
+      zh:
+      - 建言
+      - 排议
+    start_date: 1034-06-01
+    highlight_event_id: guji-范仲淹-event-policy
+  - key: climax
+    name: 力辨四难
+    labels:
+      zh:
+      - 辩诘
+      - 定策
+    start_date: 1034-08-01
+    highlight_event_id: guji-范仲淹-event-policy
+  - key: closure
+    name: 请择吏主之
+    labels:
+      zh:
+      - 择吏
+      - 托付
+    start_date: 1034-10-01
+    highlight_event_id: guji-范仲淹-event-policy
+  decisions:
+  - date: 1034-06-01
+    title_zh: 上书宰臣具言水利
+    rationale: 湖溢江壅横没诸邑惟分流东南入松江东北入江海方可救荐饥非朝廷主之守土不敢建事
+  - date: 1034-08-01
+    title_zh: 驳江高潮来沙塞劳民四说
+    rationale: 江海善下潮退多于潮来新河设闸御潮春理闸外旱涝皆利役万人费米无多视蠲租数十万孰轻孰重
+- id: guji-范仲淹-endeavor-2
+  title_zh: 亲临海滨开浚五河泄积水
+  summary: 亲至海滨相度开浚五河及盘龙一曲设闸扃御春理闸外使积潦速下秋得七八成收为后世开江第一义
+  phases:
+  - key: brewing
+    name: 相度海口
+    labels:
+      zh:
+      - 相度
+      - 海滨
+    start_date: 1035-02-01
+    highlight_event_id: guji-范仲淹-event-dredge
+  - key: breakthrough
+    name: 开浚五河
+    labels:
+      zh:
+      - 开浚
+      - 泄潦
+    start_date: 1035-03-01
+    highlight_event_id: guji-范仲淹-event-dredge
+  - key: climax
+    name: 盘龙分流
+    labels:
+      zh:
+      - 分流
+      - 速泄
+    start_date: 1035-05-01
+    highlight_event_id: guji-范仲淹-event-dredge
+  - key: closure
+    name: 设闸备旱涝
+    labels:
+      zh:
+      - 置闸
+      - 兼利
+    start_date: 1035-08-01
+    highlight_event_id: guji-范仲淹-event-dredge
+  decisions:
+  - date: 1035-03-01
+    title_zh: 开五河洩去积水
+    rationale: 减水使浅即可播种不必尽涸先泄已积再增理数道分流则大水去速无来岁之患
+  - date: 1035-05-01
+    title_zh: 总开盘龙及诸道
+    rationale: 父老言盘龙出水尤利总诸道开之苏秀可得半收畎澮在郡县当以时开导
+events:
+- id: guji-范仲淹-event-birth
+  type: birth
+  date: 0989-08-29
+  year_of: 989
+  title_zh: 生于徐州
+  description: 咸平二年生于徐州后长于江南力学为进士终成经世之臣
+- id: guji-范仲淹-event-policy
+  type: endeavor
+  date: 1034-06-01
+  year_of: 1034
+  title_zh: 景祐守郡上书言水利
+  description: 守乡郡见姑苏四郊为湖太湖纳数郡水而松江壅塞上书宰臣请使东南入松江东北入江海并论江海善下潮汐闸门之法
+- id: guji-范仲淹-event-dredge
+  type: endeavor
+  date: 1035-03-01
+  year_of: 1035
+  title_zh: 亲至海滨开浚五河
+  description: 亲历海滨开浚五河泄积水复请增理数道总开盘龙一曲是岁秋望七八设闸以御潮防沙兼救旱涝
+- id: guji-范仲淹-event-death
+  type: death
+  date: 1052-06-19
+  year_of: 1052
+  title_zh: 卒于徐州道中
+  description: 皇祐四年病卒后世治吴水利者皆奉其开江围岸置闸为第一义
