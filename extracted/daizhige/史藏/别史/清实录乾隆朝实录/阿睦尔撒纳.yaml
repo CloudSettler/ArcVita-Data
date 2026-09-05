@@ -6,127 +6,149 @@ person:
     en: Amursana
   lifespan:
     birth:
-      date: 1723-01-01
+      date: 1723
       precision: year
       is_circa: true
-      raw: 雍正元年左右生于准噶尔辉特部
+      raw: 康熙六十二年前后生于准噶尔辉特部
     death:
-      date: 1757-09-23
+      date: 1757-09-21
       precision: day
       is_circa: false
-      raw: 乾隆二十二年八月病死于俄境托博尔斯克
-  birth_date: 1723-01-01
-  death_date: 1757-09-23
+      raw: 乾隆二十二年八月病死于俄罗斯托博尔斯克
+  birth_date: 1723
+  death_date: 1757-09-21
   era: 清乾隆朝
   reign_ref: 乾隆
-  archetype: 反复无信的枭雄叛将
+  archetype: 反覆枭雄
   dilemmas:
-  - 借大兵复仇自立与受封安守藩臣之间如何抉择
-  - 兵少势孤时是束手请罪还是劫杀经略割据伊犁
-  - 众台吉会兵来擒时是困守博罗塔拉还是远窜哈萨克俄境
-  lesson: 恃诈反复终失人心，顺逆之分不在一时得失而在诚信大义。
-  summary_first_person: 我本辉特台吉，率众内附，蒙恩封王，随大兵助平达瓦齐，却因觊觎总领四卫拉特而起异心，劫杀班第鄂容安，窜据博罗塔拉，致伊犁众台吉会兵来擒，终众叛亲离，逃死异域。
+  - 依附大清求封与谋求准噶尔自立之间摇摆不定
+  - 兵败穷蹙后投哈萨克与投俄罗斯之间的逃亡抉择
+  lesson: 反覆无信虽逞一时终致众叛亲离而身死异域
+  summary_first_person: 我本辉特台吉，归清助平伊犁而封王，不甘居下而叛，致大兵追剿，窜入哈萨克，终病死异域。
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0503.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70510.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70510.html
 endeavors:
 - id: guji-阿睦尔撒纳-endeavor-1
-  title_zh: 率辉特内附助平达瓦齐
-  summary: 以辉特台吉身份归附大清，受封亲王，随军西征，助平达瓦齐，旋即觊觎汗位而生异志。
+  title_zh: 归附大清助平伊犁
+  summary_zh: 率辉特部归附，引导大兵直取伊犁，封和硕亲王，后萌自立之心。
   phases:
   - key: brewing
-    name: 辉特困厄思附
+    name: 辉特归附
     labels:
-      zh: 酝酿
-    start_date: 1754-01-01
-    highlight_event_id: guji-阿睦尔撒纳-event-birth
+      zh:
+      - 结盟归附
+      - 借兵复仇
+    start_date: 1754-07-01
+    highlight_event_id: guji-阿睦尔撒纳-event-1
   - key: breakthrough
-    name: 率众叩关投诚
+    name: 直取伊犁
     labels:
-      zh: 突破
+      zh:
+      - 先锋导引
+      - 不战而定
     start_date: 1755-05-01
-    highlight_event_id: guji-阿睦尔撒纳-event-submit
+    highlight_event_id: guji-阿睦尔撒纳-event-1
   - key: climax
-    name: 助剿受封亲王
+    name: 受封亲王
     labels:
-      zh: 高潮
-    start_date: 1755-07-01
-    highlight_event_id: guji-阿睦尔撒纳-event-submit
-  - key: closure
-    name: 觊觎汗位生变
-    labels:
-      zh: 收束
+      zh:
+      - 加恩封爵
+      - 位极藩部
     start_date: 1755-08-01
-    highlight_event_id: guji-阿睦尔撒纳-event-rebel
+    highlight_event_id: guji-阿睦尔撒纳-event-2
+  - key: closure
+    name: 暗怀异志
+    labels:
+      zh:
+      - 不甘居下
+      - 谋求自立
+    start_date: 1755-10-01
+    highlight_event_id: guji-阿睦尔撒纳-event-2
   decisions:
+  - date: 1754-07-01
+    title_zh: 率辉特部投清
+    rationale: 借大清兵力攻灭达瓦齐以图自立为汗
   - date: 1755-05-01
-    title_zh: 率辉特人众内附大清
-    rationale: 借天朝兵力复仇雪耻，并图总领准噶尔旧众
-  - date: 1755-07-01
-    title_zh: 请为定边左副将军北路进兵
-    rationale: 欲以副将军名义号令四卫拉特，为自立为汗铺路
+    title_zh: 为大兵先导直捣伊犁
+    rationale: 展示向导之功以邀封爵并收揽旧部人心
 - id: guji-阿睦尔撒纳-endeavor-2
-  title_zh: 背叛割据窜亡败死
-  summary: 乘伊犁兵少劫杀经略大臣，割据自立，退守博罗塔拉，遭萨喇勒与众台吉分路会剿，远窜哈萨克俄境病死。
+  title_zh: 叛清西窜哈萨克
+  summary_zh: 在伊犁举兵反叛，裹胁诸部，兵败后西窜哈萨克，致清廷严谴诸将并遣使索取。
   phases:
   - key: brewing
-    name: 克什木煽乱围杀经略
+    name: 伊犁举叛
     labels:
-      zh: 酝酿
-    start_date: 1755-09-28
-    highlight_event_id: guji-阿睦尔撒纳-event-rebel
+      zh:
+      - 背恩举兵
+      - 裹胁诸部
+    start_date: 1756-03-01
+    highlight_event_id: guji-阿睦尔撒纳-event-3
   - key: breakthrough
-    name: 窜据博罗塔拉自固
+    name: 窜出卡伦
     labels:
-      zh: 突破
-    start_date: 1755-10-01
-    highlight_event_id: guji-阿睦尔撒纳-event-toromt
+      zh:
+      - 昼伏夜行
+      - 避锋远扬
+    start_date: 1756-04-01
+    highlight_event_id: guji-阿睦尔撒纳-event-3
   - key: climax
-    name: 众台吉会兵托和木图来擒
+    name: 误报就擒
     labels:
-      zh: 高潮
-    start_date: 1755-12-11
-    highlight_event_id: guji-阿睦尔撒纳-event-toromt
+      zh:
+      - 误听妄报
+      - 迁延失机
+    start_date: 1756-04-29
+    highlight_event_id: guji-阿睦尔撒纳-event-4
   - key: closure
-    name: 远窜俄境病死异域
+    name: 托迹哈萨克
     labels:
-      zh: 收束
-    start_date: 1757-09-23
-    highlight_event_id: guji-阿睦尔撒纳-event-death
+      zh:
+      - 远投外邦
+      - 待擒授首
+    start_date: 1756-05-07
+    highlight_event_id: guji-阿睦尔撒纳-event-4
   decisions:
-  - date: 1755-09-28
-    title_zh: 乘虚劫杀班第鄂容安割据伊犁
-    rationale: 料驻伊犁留兵不多，欲先发制人自称汗以号令旧部
-  - date: 1755-11-01
-    title_zh: 退守博罗塔拉道都托罗垓观望
-    rationale: 避萨喇勒与策楞大兵锋芒，待哈萨克接应再图进退
+  - date: 1756-03-01
+    title_zh: 在伊犁叛逃裹胁台吉
+    rationale: 不满清廷分封裁制欲袭准噶尔汗之旧业
+  - date: 1756-04-01
+    title_zh: 携岳勒博罗斯等投哈萨克阿布赉
+    rationale: 料大兵马乏不能骤至欲借哈萨克为屏障苟延
 events:
 - id: guji-阿睦尔撒纳-event-birth
-  type: birth
   title_zh: 生于准噶尔辉特部
-  date: 1723-01-01
+  date: 1723
   year_of: 1723
-  description: 雍正元年左右生于准噶尔辉特台吉家，世与绰罗斯有隙，长而狡黠善战
-- id: guji-阿睦尔撒纳-event-submit
-  type: career
-  title_zh: 率众内附助平达瓦齐受封
-  date: 1755-05-01
+  place_zh: 准噶尔
+  description_zh: 辉特台吉之子，生于准噶尔部族离乱之际，幼随部众游牧。
+- id: guji-阿睦尔撒纳-event-1
+  title_zh: 率部归清导兵平伊犁
+  date: 1755-06-01
   year_of: 1755
-  description: 率辉特人众归附，封亲王，随军助平达瓦齐，定伊犁，旋授定边左副将军
-- id: guji-阿睦尔撒纳-event-rebel
-  type: career
-  title_zh: 八月作乱围杀班第鄂容安
-  date: 1755-09-28
+  place_zh: 伊犁
+  description_zh: 率辉特部归附大清，为北路大兵向导，直取伊犁，达瓦齐就擒，准噶尔悉定。
+- id: guji-阿睦尔撒纳-event-2
+  title_zh: 封和硕亲王后萌异志
+  date: 1755-09-01
   year_of: 1755
-  description: 乾隆二十年八月二十四日煽动克什木作乱，围困班第鄂容安于哈斯河察罕白新，二臣力竭自尽，萨喇勒突围后被执
-- id: guji-阿睦尔撒纳-event-toromt
-  type: career
-  title_zh: 窜据博罗塔拉众台吉会兵来擒
-  date: 1755-12-11
-  year_of: 1755
-  description: 与额琳沁舍楞等窜居博罗塔拉道都托罗垓，萨喇勒会同诺尔布敦多克等分两路进兵，于十一月初九会集托和木图擒献
+  place_zh: 伊犁
+  description_zh: 受封和硕亲王，不满分封诸部之制，欲总领四卫拉特，遂与清廷离心。
+- id: guji-阿睦尔撒纳-event-3
+  title_zh: 伊犁叛逃裹众西窜
+  date: 1756-03-01
+  year_of: 1756
+  place_zh: 伊犁至登努勒台
+  description_zh: 乘大兵凯旋之际叛逃伊犁，裹胁克什木等，抢掠牲只，向哈萨克方向逃窜。
+- id: guji-阿睦尔撒纳-event-4
+  title_zh: 清将误报就擒实窜哈萨克
+  date: 1756-05-07
+  year_of: 1756
+  place_zh: 库陇癸岭至哈萨克
+  description_zh: 策楞等误听俄罗斯之传妄报擒获，玉保仅令乌勒登追至库陇癸岭而返，策楞遽返伊犁，阿睦尔撒纳得携阿布赉之弟岳勒博罗斯窜入哈萨克界，清廷严谴并命达勒当阿玉保等往索。
 - id: guji-阿睦尔撒纳-event-death
-  type: death
-  title_zh: 逃入俄境病死托博尔斯克
-  date: 1757-09-23
+  title_zh: 病死于俄罗斯托博尔斯克
+  date: 1757-09-21
   year_of: 1757
-  description: 兵败西窜哈萨克复逃入俄境，乾隆二十二年八月患痘病死于托博尔斯克，叛乱始平
+  place_zh: 俄罗斯托博尔斯克
+  description_zh: 为哈萨克所不容，转投俄罗斯，病死于托博尔斯克，清廷追索乃止。
