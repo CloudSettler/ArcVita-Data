@@ -1,0 +1,122 @@
+person:
+  qid: guji-邓肃
+  name_zh: 邓肃
+  names:
+    zh: 邓肃
+    en: Deng Su
+  lifespan:
+    birth:
+      date: 1091
+      precision: year
+      is_circa: false
+      raw: 宋元符四年
+    death:
+      date: 1132
+      precision: year
+      is_circa: false
+      raw: 宋绍兴二年
+  birth_date: 1091
+  death_date: 1132
+  era: 宋
+  reign_ref: 北宋末南宋初靖康绍兴间
+  archetype: 直谏忠烈
+  dilemmas:
+  - 潜修山林养望与入朝直言时政之抉择
+  - 忠君爱国抗金与触怒权贵屡贬之权衡
+  lesson: 养望于栟榈，直道于朝堂，虽屡贬而不悔其忠
+  summary_first_person: 吾南剑人，少读书永安栟榈山中，自号栟榈居士，峰峦烟云之间养气观时，后入太学，直言天下事，靖康建炎屡疏论和战，虽谪而志不屈
+  source_urls:
+  - https://daizhige.org/史藏/地理/永安县志%20顺治本.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/永安县志%20顺治本.md
+endeavors:
+- id: guji-邓肃-endeavor-1
+  title_zh: 栟榈潜修养望
+  description: 于永安栟榈山读书养气，自号居士，交游讲学，养成直养之名
+  phases:
+  - key: brewing
+    name: 入山读书
+    labels:
+      zh: 潜修
+    start_date: 1110
+    highlight_event_id: guji-邓肃-event-study
+  - key: breakthrough
+    name: 号为居士
+    labels:
+      zh: 养望
+    start_date: 1115
+    highlight_event_id: guji-邓肃-event-study
+  - key: climax
+    name: 名动东南
+    labels:
+      zh: 成名
+    start_date: 1120
+    highlight_event_id: guji-邓肃-event-study
+  - key: closure
+    name: 出山应举
+    labels:
+      zh: 出山
+    start_date: 1121
+    highlight_event_id: guji-邓肃-event-study
+  decisions:
+  - date: 1110
+    title_zh: 择栟榈山潜读
+    rationale: 避嚣养气，借幽奇山水砥砺志节，以待时用
+  - date: 1115
+    title_zh: 自号栟榈居士
+    rationale: 以山自况，明不苟合之志，广交东南士友以养物望
+- id: guji-邓肃-endeavor-2
+  title_zh: 靖康建炎直谏抗金
+  description: 入太学至居左正言，屡疏论时政得失，主抗金复仇，反对苟安求和，屡贬不挠
+  phases:
+  - key: brewing
+    name: 太学上疏
+    labels:
+      zh: 直言
+    start_date: 1126
+    highlight_event_id: guji-邓肃-event-remonstrate
+  - key: breakthrough
+    name: 擢左正言
+    labels:
+      zh: 任谏
+    start_date: 1127
+    highlight_event_id: guji-邓肃-event-remonstrate
+  - key: climax
+    name: 论和战触权贵
+    labels:
+      zh: 抗争
+    start_date: 1130
+    highlight_event_id: guji-邓肃-event-remonstrate
+  - key: closure
+    name: 贬谪以殁
+    labels:
+      zh: 殉志
+    start_date: 1132
+    highlight_event_id: guji-邓肃-event-death
+  decisions:
+  - date: 1126
+    title_zh: 靖康上疏言时政
+    rationale: 国难方殷，不忍缄默，愿以直言醒朝听而救危亡
+  - date: 1130
+    title_zh: 坚持抗金反对苟和
+    rationale: 和议误国，纵使获罪远谪，亦不改复仇大义以全忠节
+events:
+- id: guji-邓肃-event-birth
+  title_zh: 出生
+  date: 1091
+  year_of: 1091
+  description: 宋元符四年生于南剑州沙县，后属永安境论述之乡
+- id: guji-邓肃-event-study
+  title_zh: 读书栟榈山
+  date: 1110
+  year_of: 1110
+  description: 入永安北二十里栟榈山读书，天柱峰野云洞之间，自号栟榈居士，李纲目其地为小武夷
+- id: guji-邓肃-event-remonstrate
+  title_zh: 靖康直言擢谏官
+  date: 1126
+  year_of: 1126
+  description: 靖康初自太学上疏论时事，声名大振，擢左正言，建炎间屡论金人和战
+- id: guji-邓肃-event-death
+  title_zh: 逝世
+  date: 1132
+  year_of: 1132
+  description: 宋绍兴二年以谏诤触忌贬谪中逝世，直节为后人所祀仰，栟榈有专祀
