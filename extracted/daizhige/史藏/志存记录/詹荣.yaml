@@ -1,0 +1,151 @@
+person:
+  qid: guji-詹荣
+  name_zh: 詹荣
+  names:
+    zh: 詹荣
+    en: Zhan Rong
+  lifespan:
+    birth:
+      date: 1492
+      precision: year
+      is_circa: true
+      raw: 明弘治五年前后生
+    death:
+      date: 1550
+      precision: year
+      is_circa: true
+      raw: 约嘉靖末前后卒
+  birth_date: 1492
+  death_date: 1550
+  era: 明
+  reign_ref: 明世宗嘉靖
+  archetype: 危城内应之忠孝孤臣
+  dilemmas:
+  - 父丧守苫执礼与君亲并急赴义之抉择
+  - 尽残满城生灵与只诛渠魁保全数万之权衡
+  - 诈言炭路天使以取信叛军之冒险
+  lesson: 诚恳任事得众信者方能合内外于危城而再造生灵
+  summary_first_person: 吾以户部郎奉命理储至大同适逢父丧而值李瑾被杀之变城闭虏迫官军顿兵城下战不利吾念君亲并急不敢自附执礼遂离苫潜使通军前约为内应与马升戴廉等盟迎天使而诛首恶开门以定大同
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/大同平叛志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/大同平叛志.md
+endeavors:
+- id: guji-詹荣-endeavor-1
+  title_zh: 理储大同诚恳得军心
+  summary: 以户部郎中理储至镇充出纳为诸军计供饷诚恳不欺故变作而不为所怨得以居中斡旋
+  phases:
+  - key: brewing
+    name: 奉命理储至镇
+    labels:
+      zh: 储饷出纳
+    start_date: 1533-06
+    highlight_event_id: guji-詹荣-event-lichu
+  - key: breakthrough
+    name: 诚恳供饷得军信
+    labels:
+      zh: 诚恳任事
+    start_date: 1533-08
+    highlight_event_id: guji-詹荣-event-lichu
+  - key: climax
+    name: 父丧值变不克去
+    labels:
+      zh: 君亲并急
+    start_date: 1533-10
+    highlight_event_id: guji-詹荣-event-trapped
+  - key: closure
+    name: 离苫奋起图赴义
+    labels:
+      zh: 离苫赴义
+    start_date: 1534-01
+    highlight_event_id: guji-詹荣-event-secret
+  decisions:
+  - date: 1533-10
+    title_zh: 变作留镇不去
+    rationale: 父丧母氏俱在镇中且素为出纳得军心不为所怨留则可为内应之本
+  - date: 1534-01
+    title_zh: 离苫通军前
+    rationale: 官军战不利叛军复购虏将至若不赴义则满城左衽故不敢自附执礼
+- id: guji-詹荣-endeavor-2
+  title_zh: 密约内应诛首恶定大同
+  summary: 潜使王宁赍储牒通督府得印札约为内应与马升戴廉等盟迎天使楚书入城宣慰遂分禽首恶而开门迎樊继祖
+  phases:
+  - key: brewing
+    name: 遣王宁通军前
+    labels:
+      zh: 潜使通款
+    start_date: 1534-01
+    highlight_event_id: guji-詹荣-event-secret
+  - key: breakthrough
+    name: 得印札与马升盟
+    labels:
+      zh: 密盟忠愤
+    start_date: 1534-01
+    highlight_event_id: guji-詹荣-event-secret
+  - key: climax
+    name: 绐迎天使宣德音
+    labels:
+      zh: 天使宣慰
+    start_date: 1534-02
+    highlight_event_id: guji-詹荣-event-pacify
+  - key: closure
+    name: 斩首恶开门迎抚
+    labels:
+      zh: 开门迎抚
+    start_date: 1534-02
+    highlight_event_id: guji-詹荣-event-pacify
+  decisions:
+  - date: 1534-01
+    title_zh: 借乞炭路出城计事
+    rationale: 兵断炭路城中冻甚托浼出乞军门可不疑而得面定大谋
+  - date: 1534-02
+    title_zh: 请天使赍诏入城宣慰
+    rationale: 城中不知德音即闻弗信得天使一省慰则胁从信赦而渠魁可图
+events:
+- id: guji-詹荣-event-birth
+  person_id: guji-詹荣
+  type: birth
+  date: 1492
+  year_of: 1492
+  title_zh: 詹荣生
+  description: 明弘治五年前后生后登嘉靖二年进士历户部郎中
+  location: 山阴
+- id: guji-詹荣-event-lichu
+  person_id: guji-詹荣
+  type: career
+  date: 1533-06
+  year_of: 1533
+  title_zh: 以户部郎理储至大同
+  description: 奉命理储至镇充出纳为诸军计供饷诚恳故不为所怨
+  location: 大同镇城
+- id: guji-詹荣-event-trapped
+  person_id: guji-詹荣
+  type: career
+  date: 1533-10
+  year_of: 1533
+  title_zh: 李瑾被杀困于镇城
+  description: 镇兵杀总兵李瑾以叛婴城拒命勾虏入寇詹荣有父丧值变不克去而止哭离苫
+  location: 大同镇城
+- id: guji-詹荣-event-secret
+  person_id: guji-詹荣
+  type: career
+  date: 1534-01
+  year_of: 1534
+  title_zh: 潜使王宁通军前得札与马升盟
+  description: 使镇抚王宁赍储牒诣军前得督府印札归以示游击戴廉召指挥马升及忠愤二十余人共盟于廨
+  location: 大同镇城
+- id: guji-詹荣-event-pacify
+  person_id: guji-詹荣
+  type: career
+  date: 1534-02
+  year_of: 1534
+  title_zh: 迎天使诛首恶开门定大同
+  description: 迎兵部主事楚书为天使入城宣慰是夜分禽首恶二十余人斩之函首军前次日开诸城门迎巡抚樊继祖以入遂定
+  location: 大同镇城
+- id: guji-詹荣-event-death
+  person_id: guji-詹荣
+  type: death
+  date: 1550
+  year_of: 1550
+  title_zh: 詹荣卒
+  description: 平叛后再迁兵部侍郎等官约嘉靖末前后卒时论谓功真再造
+  location: 京师
