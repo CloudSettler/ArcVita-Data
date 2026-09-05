@@ -1,0 +1,133 @@
+person:
+  qid: guji-张献忠
+  name_zh: 张献忠
+  names:
+    zh: 张献忠
+    en: Zhang Xianzhong
+  lifespan:
+    birth:
+      date: 1606-09-18
+      precision: day
+      is_circa: true
+      raw: 明万历三十四年秋
+    death:
+      date: 1647-01-02
+      precision: day
+      is_circa: false
+      raw: 清顺治三年十二月阵亡川北
+  birth_date: 1606-09-18
+  death_date: 1647-01-02
+  era: 明末清初
+  reign_ref: 崇祯
+  archetype: 流寇首领
+  dilemmas:
+  - 流窜求活与据地建业之抉择
+  - 招降摇摆与彻底决裂之困境
+  - 酷虐立威与收拢人心之矛盾
+  lesson: 以杀立威虽速得全川终失人心而速败
+  summary_first_person: 吾本延安捕快出身因困苦从乱转战秦楚复三入四川终据成都建号大西然多行杀戮遂至众叛而败亡
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AE%A2%E6%BB%87%E8%BF%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AE%A2%E6%BB%87%E8%BF%B0.md
+endeavors:
+- id: guji-张献忠-endeavor-1
+  title_zh: 延安从乱转战秦楚
+  summary: 自延安投苗美王嘉胤自领一队号八大王转战陕川湖广屡降屡叛渐成巨寇
+  phases:
+  - key: brewing
+    name: 延安投乱初起
+    labels:
+      zh: 从捕快到从贼
+    start_date: 1630-01-01
+    highlight_event_id: guji-张献忠-event-rise
+  - key: breakthrough
+    name: 房县受抚复叛
+    labels:
+      zh: 假降待机
+    start_date: 1634-01-01
+    highlight_event_id: guji-张献忠-event-rise
+  - key: climax
+    name: 三入四川蔓延川东
+    labels:
+      zh: 流窜川陕
+    start_date: 1637-02-01
+    highlight_event_id: guji-张献忠-event-chengdu
+  - key: closure
+    name: 坐大并吞群贼
+    labels:
+      zh: 并众成势
+    start_date: 1640-01-01
+    highlight_event_id: guji-张献忠-event-chengdu
+  decisions:
+  - date: 1632-01-01
+    title_zh: 弃捕快从苗美王嘉胤
+    rationale: 穷无所归唯先登效命可得众故独领一队
+  - date: 1636-01-01
+    title_zh: 房县请屯复叛走陕西
+    rationale: 藉屯整休避围剿待官军松懈即复出流动作战
+- id: guji-张献忠-endeavor-2
+  title_zh: 据成都建号大西
+  summary: 率数十万众陷重庆成都建国大西设官分守然酷虐屠杀终致全川骚动
+  phases:
+  - key: brewing
+    name: 荆州整军窥蜀
+    labels:
+      zh: 水陆并进
+    start_date: 1644-03-01
+    highlight_event_id: guji-张献忠-event-chengdu
+  - key: breakthrough
+    name: 陷重庆屠守臣
+    labels:
+      zh: 攻破天险
+    start_date: 1644-07-18
+    highlight_event_id: guji-张献忠-event-chongqing
+  - key: climax
+    name: 陷成都称秦王
+    labels:
+      zh: 建号大顺
+    start_date: 1644-08-09
+    highlight_event_id: guji-张献忠-event-chengdu
+  - key: closure
+    name: 分兵掠地失人心
+    labels:
+      zh: 酷政溃败之始
+    start_date: 1644-10-01
+    highlight_event_id: guji-张献忠-event-death
+  decisions:
+  - date: 1644-06-01
+    title_zh: 焚舟泸州分三路犯成都
+    rationale: 断退路示必死以速战并使援军难测虚实混入内应
+  - date: 1644-08-15
+    title_zh: 止屠成都设五府六部
+    rationale: 以成都为根本基业需留城郭官民以供赋役故纳汪兆龄谏
+events:
+- id: guji-张献忠-event-birth
+  date: 1606-09-18
+  year_of: 1606
+  title_zh: 生于延安府肤施县
+  kind: birth
+  description: 明万历末生于陕北延安肤施家贫尝充捕快性凶暴尝系狱
+- id: guji-张献忠-event-rise
+  date: 1630-01-01
+  year_of: 1630
+  title_zh: 从王嘉胤苗美为乱号八大王
+  kind: career
+  description: 崇祯初投苗美王嘉胤战辄先登独领一队号八大王与李自成并为群贼之魁
+- id: guji-张献忠-event-chongqing
+  date: 1644-07-23
+  year_of: 1644
+  title_zh: 陷重庆杀陈士奇瑞王
+  kind: career
+  description: 自涪州上犯围重庆发地道灌火药破城巡抚陈士奇知府王行俭等死瑞王被执杀士民多断手
+- id: guji-张献忠-event-chengdu
+  date: 1644-08-09
+  year_of: 1644
+  title_zh: 陷成都建国大西改元大顺
+  kind: career
+  description: 伪为援兵混入成都三日破城龙文光刘镇藩战死蜀王赴井死遂以蜀府为宫设官分兵掠蜀
+- id: guji-张献忠-event-death
+  date: 1647-01-02
+  year_of: 1647
+  title_zh: 败亡于川北西充
+  kind: death
+  description: 据蜀后多行屠戮人心离散清兵南下出川迎战中箭死于西充凤凰山大西遂亡
