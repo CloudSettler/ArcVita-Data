@@ -2,8 +2,12 @@ person:
   qid: guji-弘历
   name_zh: 弘历
   names:
-    zh: 弘历
-    en: Hongli
+    zh:
+    - 弘历
+    - 高宗纯皇帝
+    en:
+    - Hongli
+    - Qianlong Emperor
   lifespan:
     birth:
       date: 1711-09-25
@@ -17,170 +21,136 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清
-  reign_ref: 乾隆五十三年戊申
-  archetype: 勤政远略君主
+  era: 清乾隆朝
+  reign_ref: 乾隆五十四年三月
+  archetype: 勤政驭下之守成君主
   dilemmas:
-  - 荆州水灾帑赈与核实安辑之衡
-  - 安南出关进剿与持重候机之择
-  - 藏边速剿速彻与久驻供亿之虑
-  lesson: 赈灾必亲勘实报，边事必乘机痛剿以求一劳永逸，不以将就了局贻患
-  summary_first_person: 朕于戊申冬十月享太庙御门听政，念荆州水淹兵民荡析，特发帑金命阿桂查勘抚绥修建城堤，又因阮惠让城而嗣孙未安，命孙士毅督兵出关直捣黎城擒渠，更因巴勒布犯藏，饬鄂辉成德速赴后藏剿杀定界，皆务实办速蒇以恤民靖边
+  - 安南用兵进退之间天威与怀柔难两全
+  - 尚书房师道废弛之时亲亲与尊师难兼顾
+  - 边氓困乏之际加恩蠲赋与国用充盈难平衡
+  lesson: 操纵在我不为微末所牵方能善后全局
+  summary_first_person: 朕临御五十余载凡用兵抚远皆以体制为重安南既挫则收兵檄谕以全天威耕耤蠲赋以厚民生整饬师傅以端士习此皆朕躬亲细务不敢自逸之志也
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71314.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71324.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71324.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 荆州水灾抚绥修筑
-  summary_zh: 荆州堤溃兵民被淹，发帑遣阿桂查勘，加意抚绥，修建城工堤工房屋，并续勘潜江加赈
+  title_zh: 安南撤兵善后招抚阮惠
+  summary_zh: 黎城失利后命福康安接办两广檄谕阮惠缚献戕害提镇之人以全天威进退之宜
   phases:
   - key: brewing
-    name: 水灾奏报酝酿
+    name: 黎城失守官兵退关
     labels:
       zh:
-      - 水灾
-      - 酝酿
-    start_date: 1788-09-01
-    highlight_event_id: guji-弘历-event-jingzhou
+      - 退兵
+      - 体恤
+    start_date: 1789-03-27
+    highlight_event_id: guji-弘历-event-annam
   - key: breakthrough
-    name: 发帑遣大臣查勘
+    name: 命福康安往代孙士毅
     labels:
       zh:
-      - 抚绥
-      - 突破
-    start_date: 1788-10-28
-    highlight_event_id: guji-弘历-event-jingzhou
+      - 换帅
+      - 善后
+    start_date: 1789-04-02
+    highlight_event_id: guji-弘历-event-annam
   - key: climax
-    name: 城堤修建完竣
+    name: 严切檄谕阮惠献凶
     labels:
       zh:
-      - 修筑
-      - 高潮
-    start_date: 1788-10-30
-    highlight_event_id: guji-弘历-event-jingzhou
+      - 檄谕
+      - 示威
+    start_date: 1789-04-02
+    highlight_event_id: guji-弘历-event-annam
   - key: closure
-    name: 潜江续勘加恤收尾
+    name: 安插内附收恤阵亡
     labels:
       zh:
-      - 续勘
-      - 收尾
-    start_date: 1788-11-01
-    highlight_event_id: guji-弘历-event-jingzhou
+      - 安插
+      - 议恤
+    start_date: 1789-04-02
+    highlight_event_id: guji-弘历-event-annam
   decisions:
-  - date: 1788-10-28
-    title_zh: 传谕阿桂详报房屋舆情
-    rationale: 轸念灾区无时或释，必查明修建几分及是否安辑，据实奏闻
-  - date: 1788-10-30
-    title_zh: 谕阿桂毕沅会勘潜江
-    rationale: 潜江两度被水补种复淹，情殊可悯，须查积水疏消并酌加抚恤
+  - date: 1789-03-27
+    title_zh: 谕福康安查明阵亡土弁从优议恤
+    rationale: 土弁冒敌阵亡殊堪怜悯当优恤以劝忠义并安插潘启德等免其失所
+  - date: 1789-04-02
+    title_zh: 谕福康安檄谕阮惠缚献凶犯
+    rationale: 孙士毅不谙军旅致挫当以金川台湾故事震慑令其献出戕害提镇之人否则分路进讨
 - id: guji-弘历-endeavor-2
-  title_zh: 安南扶黎讨阮出关进剿
-  summary_zh: 阮惠让出黎城而嗣孙未稳，许世亨原议驻兵护送，改命孙士毅亲督出关捣穴擒渠
+  title_zh: 重农蠲惠整饬士习师道
+  summary_zh: 举行耕耤加恩蠲免甘陕积欠整顿尚书房旷职及岁科并重以端士风
   phases:
   - key: brewing
-    name: 黎城让出观望
+    name: 耕耤逢晴礼成行庆
     labels:
       zh:
-      - 安南
-      - 酝酿
-    start_date: 1788-09-15
-    highlight_event_id: guji-弘历-event-annam
+      - 耕耤
+      - 施惠
+    start_date: 1789-04-01
+    highlight_event_id: guji-弘历-event-gengji
   - key: breakthrough
-    name: 义民聚谅山请复
+    name: 加恩豁免边省积欠
     labels:
       zh:
-      - 恢复
-      - 突破
-    start_date: 1788-10-29
-    highlight_event_id: guji-弘历-event-annam
+      - 蠲赋
+      - 惠氓
+    start_date: 1789-04-01
+    highlight_event_id: guji-弘历-event-gengji
   - key: climax
-    name: 命督臣出关进讨
+    name: 严惩尚书房旷职师傅
     labels:
       zh:
-      - 进剿
-      - 高潮
-    start_date: 1788-10-29
-    highlight_event_id: guji-弘历-event-annam
+      - 督课
+      - 惩怠
+    start_date: 1789-04-03
+    highlight_event_id: guji-弘历-event-shangshufang
   - key: closure
-    name: 直抵黎城擒渠收尾
+    name: 通谕岁科并重整饬士风
     labels:
       zh:
-      - 擒渠
-      - 收尾
-    start_date: 1788-11-05
-    highlight_event_id: guji-弘历-event-annam
+      - 课士
+      - 端风
+    start_date: 1789-03-31
+    highlight_event_id: guji-弘历-event-shangshufang
   decisions:
-  - date: 1788-10-29
-    title_zh: 交孙士毅一手承办出关
-    rationale: 与其驻境糜费护送，不如建旗出关捣穴，呼应更灵蒇功自速
-  - date: 1788-10-29
-    title_zh: 趣潘启德土目协同前驱
-    rationale: 该国人心尚思黎氏，督臣亲往声势壮盛，更易集事
-- id: guji-弘历-endeavor-3
-  title_zh: 后藏征剿巴勒布定界
-  summary_zh: 巴勒布犯边胁噶尔萨喀，采买给价晓谕番众，命鄂辉成德速剿速彻定界靖边
-  phases:
-  - key: brewing
-    name: 贼扰边界筹粮
-    labels:
-      zh:
-      - 筹粮
-      - 酝酿
-    start_date: 1788-10-20
-    highlight_event_id: guji-弘历-event-zang
-  - key: breakthrough
-    name: 贼退萨喀严饬速进
-    labels:
-      zh:
-      - 速进
-      - 突破
-    start_date: 1788-11-01
-    highlight_event_id: guji-弘历-event-zang
-  - key: climax
-    name: 痛剿收复设誓定界
-    labels:
-      zh:
-      - 剿杀
-      - 高潮
-    start_date: 1788-11-02
-    highlight_event_id: guji-弘历-event-zang
-  - key: closure
-    name: 酌留弹压余兵速彻
-    labels:
-      zh:
-      - 彻兵
-      - 收尾
-    start_date: 1788-11-03
-    highlight_event_id: guji-弘历-event-zang
-  decisions:
-  - date: 1788-11-02
-    title_zh: 谕鄂辉成德赶紧速办四五月内回炉
-    rationale: 贼众无能不值久驻，久则唐古忒供应乏市价昂，须速剿收复即彻
-  - date: 1788-11-03
-    title_zh: 饬巴忠晓谕给价勿累番众
-    rationale: 办粮照数给价余剩给还，使知爱护体恤，勿存苟安轻和之心
+  - date: 1789-04-01
+    title_zh: 耕耤礼成议叙加赏耆农
+    rationale: 天气晴明典礼妥协当议叙执事加倍赏赉老民以示行庆施惠
+  - date: 1789-04-03
+    title_zh: 降刘墉革阿肃达椿整饬书房
+    rationale: 师傅七日不到总师傅失察溺职非严惩无以示儆故改派总师傅另选端方之员
 events:
 - id: guji-弘历-event-birth
-  title_zh: 弘历诞生
+  title_zh: 出生于圆明园
   date: 1711-09-25
   year_of: 1711
-  description_zh: 康熙五十年八月十三日生于雍亲王府，是为后之乾隆皇帝
+  place_zh: 圆明园
+  description_zh: 康熙五十年八月十三日生为雍亲王第四子后承大统年号乾隆
 - id: guji-弘历-event-death
-  title_zh: 弘历驾崩
+  title_zh: 龙驭上宾于养心殿
   date: 1799-02-07
   year_of: 1799
-  description_zh: 嘉庆四年正月初三日崩于养心殿，终年八十有九
-- id: guji-弘历-event-jingzhou
-  title_zh: 谕阿桂详报荆州修建安辑
-  date: 1788-10-28
-  year_of: 1788
-  description_zh: 庚寅谕军机，诘阿桂未报兵民房屋修建舆情，命据实奏闻，并查熊泗年龄饷鞘及后藏军情
+  place_zh: 紫禁城养心殿
+  description_zh: 嘉庆四年正月初三日逝世享年八十有九谥纯皇帝庙号高宗
 - id: guji-弘历-event-annam
-  title_zh: 命孙士毅出关进剿安南
-  date: 1788-10-29
-  year_of: 1788
-  description_zh: 辛卯谕，以黎维祇聚义于谅山，命孙士毅亲督出关直抵黎城督饬擒渠，一劳永逸
-- id: guji-弘历-event-zang
-  title_zh: 谕鄂辉成德速剿巴勒布
-  date: 1788-11-02
-  year_of: 1788
-  description_zh: 乙未谕，贼退萨喀不足信，命大兵速进痛剿收复聂拉木，再设誓定界，续调驻炉之兵概彻
+  title_zh: 谕福康安善后安南檄阮惠
+  date: 1789-04-02
+  year_of: 1789
+  place_zh: 北京紫禁城
+  description_zh: 以孙士毅办理不善命福康安补授两广檄谕阮惠缚献戕害提镇之人并安插内附土兵厂民
+  endeavor_ref: guji-弘历-endeavor-1
+- id: guji-弘历-event-gengji
+  title_zh: 耕耤先农坛蠲免甘陕积欠
+  date: 1789-04-01
+  year_of: 1789
+  place_zh: 先农坛耤田
+  description_zh: 躬耕三推命皇子大臣终亩加恩议叙并豁免甘肃陕西延榆绥民欠地丁仓谷以惠边氓
+  endeavor_ref: guji-弘历-endeavor-2
+- id: guji-弘历-event-shangshufang
+  title_zh: 整顿尚书房降谴怠职师傅
+  date: 1789-04-03
+  year_of: 1789
+  place_zh: 北京紫禁城
+  description_zh: 以师傅七日不到书房降刘墉为侍郎衔革阿肃达椿职并通谕岁科并重整饬士习
+  endeavor_ref: guji-弘历-endeavor-2
