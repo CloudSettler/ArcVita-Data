@@ -1,0 +1,154 @@
+person:
+  qid: guji-高朴
+  name_zh: 高朴
+  names:
+    zh: 高朴
+    en: Gao Pu
+  lifespan:
+    birth:
+      date: '1720'
+      precision: year
+      is_circa: true
+      raw: 生年未详约计
+    death:
+      date: '1778'
+      precision: year
+      is_circa: false
+      raw: 乾隆四十三年伏诛
+  birth_date: '1720'
+  death_date: '1778'
+  era: 清乾隆朝
+  reign_ref: 乾隆四十三年
+  archetype: 贪纵弄权之臣
+  dilemmas:
+  - 奉命经略回疆与私采渔利之间失守
+  - 国恤未满与肆行取乐之间悖礼
+  - 事发后希冀同官相护与必败露之间误判
+  lesson: 恃宠贪纵必败，官官相护难容国法
+  summary_first_person: 我奉命往叶尔羌办事，不思报效，反与商人串通私贩和阗玉石，索取银两，国恤期间演戏听曲，复遣家人携玉赴苏售卖，终致败露伏法，尸骸不得归葬内地，咎由自取
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71069.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71069.md
+endeavors:
+- id: guji-高朴-endeavor-1
+  title_zh: 出任叶尔羌办事大臣经管回疆
+  summary_zh: 钦派赴叶尔羌任事，总理回城事务并经管玉石，渐生贪念，索贿渔利，纵情取乐
+  phases:
+  - key: brewing
+    name: 钦派赴疆
+    labels:
+      zh:
+      - 出塞任事
+      - 总理回城
+    start_date: '1776'
+    highlight_event_id: guji-高朴-event-fujiang
+  - key: breakthrough
+    name: 索贿回人
+    labels:
+      zh:
+      - 索取银两
+      - 收受馈送
+    start_date: '1777'
+    highlight_event_id: guji-高朴-event-fujiang
+  - key: climax
+    name: 国恤取乐
+    labels:
+      zh:
+      - 演戏听曲
+      - 有悖人伦
+    start_date: 1778-01
+    highlight_event_id: guji-高朴-event-fujiang
+  - key: closure
+    name: 私采渐露
+    labels:
+      zh:
+      - 私采玉石
+      - 狼籍贪婪
+    start_date: 1778-06
+    highlight_event_id: guji-高朴-event-fajue
+  decisions:
+  - date: '1777'
+    title_zh: 向伯克索取银两
+    rationale: 恃钦差事权，視边疆为利薮，肆行需索
+  - date: 1778-01
+    title_zh: 孝圣宪皇后大事未满而演戏听曲
+    rationale: 目无法纪礼法，贪纵无忌，以致罪上加罪
+- id: guji-高朴-endeavor-2
+  title_zh: 串通商贾私贩和阗玉石致败露伏法
+  summary_zh: 勾结奸商偷盗官玉，給鄂对金玉售卖，遣家人李福携玉赴苏松贩卖，持护牌过关，终事发解京正法
+  phases:
+  - key: brewing
+    name: 串商盗玉
+    labels:
+      zh:
+      - 偷盗官玉
+      - 合夥贩卖
+    start_date: '1777'
+    highlight_event_id: guji-高朴-event-fajue
+  - key: breakthrough
+    name: 遣仆赴苏
+    labels:
+      zh:
+      - 差李福南下
+      - 苏松分售
+    start_date: 1778-03
+    highlight_event_id: guji-高朴-event-fajue
+  - key: climax
+    name: 持牌过关被盘获
+    labels:
+      zh:
+      - 高晋给牌
+      - 淮关盘获
+    start_date: 1778-07
+    highlight_event_id: guji-高朴-event-fajue
+  - key: closure
+    name: 审明正法
+    labels:
+      zh:
+      - 军机鞫讯
+      - 正法示众
+    start_date: 1778-10
+    highlight_event_id: guji-高朴-event-death
+  decisions:
+  - date: 1778-03
+    title_zh: 令家人李福携玉二千余觔赴内地售卖
+    rationale: 欲将私玉变价牟利，明目张胆，藉官衔旗号连樯北上
+  - date: 1778-07
+    title_zh: 托高晋护牌及织造代税过关
+    rationale: 倚仗伯叔权势与外省官官相护恶习，希图掩饰蒙混
+events:
+- id: guji-高朴-event-birth
+  title_zh: 出生
+  date: '1720'
+  precision: year
+  is_circa: true
+  year_of: 1720
+  person_qid: guji-高朴
+  description_zh: 生年无考，系出高氏官宦之家，后以大臣子弟入仕
+- id: guji-高朴-event-fujiang
+  title_zh: 赴叶尔羌索贿取乐
+  date: 1778-01
+  precision: month
+  is_circa: false
+  year_of: 1778
+  person_qid: guji-高朴
+  endeavor_ref: guji-高朴-endeavor-1
+  description_zh: 补放伯克时索取银两，正月在叶尔羌演戏听曲，孝圣宪皇后大事未满二十七月，实出人伦之外
+- id: guji-高朴-event-fajue
+  title_zh: 遣李福贩玉事发被劾
+  date: 1778-07
+  precision: month
+  is_circa: false
+  year_of: 1778
+  person_qid: guji-高朴
+  endeavor_ref: guji-高朴-endeavor-2
+  description_zh: 家人李福持高朴名帖及高晋护牌赴苏贩玉，经浒墅由闸扬关至淮关盘获，供出舒文代税及寅著收牌隐匿诸情，高朴偷贩官玉败露
+- id: guji-高朴-event-death
+  title_zh: 伏诛于市尸骸不准归葬
+  date: 1778-10
+  precision: month
+  is_circa: false
+  year_of: 1778
+  person_qid: guji-高朴
+  endeavor_ref: guji-高朴-endeavor-2
+  description_zh: 以串通商人贩卖私玉贪婪狼籍正法，谕令尸骸不准携回内地，馈送银两之伯克等一并查办
