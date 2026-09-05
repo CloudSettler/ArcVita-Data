@@ -17,126 +17,155 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清
+  era: 清代
   reign_ref: 乾隆
-  archetype: 敬天勤民守成开拓之君
+  archetype: 整饬海疆勤政爱民之君
   dilemmas:
-  - 漕运卖富差贫积习深重与州县无专责之矛盾
-  - 河工抢修实用实销与声叙不明致部驳之权衡
-  - 秋汛安澜紧要与豫鲁雨泽短少之廑念
-  - 外藩朝鲜达赖恭顺效忱与天朝礼制怀柔之平衡
-  lesson: 慎修防专责成以安漕运民生加恩怀柔以固中外一统
-  summary_first_person: 朕临御四十八年夙夜以河漕民生为念漕弊牢不可破则严定处分以专责成河工若实用实销则加恩准销秋汛平稳则欣慰加勉外藩效顺则优眷嘉奖
+  - 台湾孤悬海外民番杂处三年更换易玩忽废弛是否改为五年久任轮换
+  - 陕北榆绥秋稼不登仓储不敷是否全予折色并加恩逾常例散给
+  - 建储册立自古易生嫌隙难以始终保全是否永不行建储以杜事端
+  lesson: 以久任责成整顿海疆以加恩折赈体恤边氓以不立储杜嫌隙垂训久远
+  summary_first_person: 朕御极四十八年值江浙南巡前夕留京定部署改台湾久任之制加赈榆绥之灾申储贰不立之训以求海疆吏治边民安养久安
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1186.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71194.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71194.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 整饬漕运佥丁与核销运河抢修
-  goal_zh: 破卖富差贫拖欠积习核实河工钱粮
+  title_zh: 台湾久任改制与吏治整顿
+  summary_zh: 针对台湾三年更换玩忽械斗改五年任满两年轮换严饬道府整饬以固海疆
   phases:
   - key: brewing
-    name: 漕弊陈奏
+    name: 玩忽械斗积弊
     labels:
-      zh: 卖富差贫
-    start_date: 1783-08-01
-    highlight_event_id: guji-弘历-event-cao
+      zh:
+      - 海疆废弛
+      - 瓜代玩忽
+    start_date: 1783-12-26
+    highlight_event_id: guji-弘历-event-taiwan-reform
   - key: breakthrough
-    name: 严定处分
+    name: 改定五年轮换
     labels:
-      zh: 专责议处
-    start_date: 1783-08-02
-    highlight_event_id: guji-弘历-event-cao
+      zh:
+      - 久任责成
+      - 新旧相兼
+    start_date: 1783-12-26
+    highlight_event_id: guji-弘历-event-taiwan-reform
   - key: climax
-    name: 查明实销
+    name: 严饬道员整饬
     labels:
-      zh: 河工查勘
-    start_date: 1783-08-03
-    highlight_event_id: guji-弘历-event-he
+      zh:
+      - 黜陟严明
+      - 效力赎罪
+    start_date: 1783-12-29
+    highlight_event_id: guji-弘历-event-taiwan-personnel
   - key: closure
-    name: 加恩准销
+    name: 留员帮办交代
     labels:
-      zh: 准销议处
-    start_date: 1783-08-04
-    highlight_event_id: guji-弘历-event-he
+      zh:
+      - 熟手经理
+      - 交代得人
+    start_date: 1784-01-01
+    highlight_event_id: guji-弘历-event-taiwan-personnel
   decisions:
-  - date: 1783-08-02
-    title_zh: 批准漕督所请严定佥丁津贴处分
-    rationale: 州县无办运专责任听胥吏高下其手须限期佥解造册存案违者从重议处以专责成
-  - date: 1783-08-03
-    title_zh: 准福康安查明运河南河抢修实用实销准其开销
-    rationale: 若无浮冒仅声叙未明则总河交部议处银两加恩准销以示体恤而儆草率
+  - date: 1783-12-26
+    title_zh: 改台湾总兵道府为五年任满每过两年更调一员
+    rationale: 瓜期不远心存玩忽致械斗滋事须久任熟谙新旧相兼以资整顿
+  - date: 1783-12-29
+    title_zh: 黜李浚原调永福补台湾道并留杨廷桦帮办
+    rationale: 易结不结怠玩已著须重任满洲大员实力整顿并留熟手襄办海疆
 - id: guji-弘历-endeavor-2
-  title_zh: 巡幸盛京怀柔藩部并抚绥水旱
-  goal_zh: 以谒陵万寿怀柔朝鲜达赖以赈恤察旱安定民生
+  title_zh: 榆绥加赈体恤与南巡储贰经略
+  summary_zh: 榆林绥德歉收折色加赈筹南巡留京办事并恭阅圣祖实录申不立储之训编金鉴卷首
   phases:
   - key: brewing
-    name: 谒陵有期
+    name: 边地秋歉粮匮
     labels:
-      zh: 盛京巡幸
-    start_date: 1783-07-01
-    highlight_event_id: guji-弘历-event-fan
+      zh:
+      - 秋稼不登
+      - 仓储不敷
+    start_date: 1783-12-25
+    highlight_event_id: guji-弘历-event-shaanxi-relief
   - key: breakthrough
-    name: 外藩效忱
+    name: 折色加恩普赈
     labels:
-      zh: 朝鲜祝寿
-    start_date: 1783-08-10
-    highlight_event_id: guji-弘历-event-fan
+      zh:
+      - 折色便民
+      - 加恩逾例
+    start_date: 1783-12-26
+    highlight_event_id: guji-弘历-event-shaanxi-relief
   - key: climax
-    name: 锡名锡宝
+    name: 南巡启銮部署
     labels:
-      zh: 寿宁寺玉册
-    start_date: 1783-08-12
-    highlight_event_id: guji-弘历-event-fan
+      zh:
+      - 巡幸江浙
+      - 留京办事
+    start_date: 1784-01-01
+    highlight_event_id: guji-弘历-event-southern-tour
   - key: closure
-    name: 察旱赈水
+    name: 申储贰不立垂训
     labels:
-      zh: 豫鲁湖北
-    start_date: 1783-08-15
-    highlight_event_id: guji-弘历-event-zhen
+      zh:
+      - 恭阅实录
+      - 金鉴垂远
+    start_date: 1784-01-02
+    highlight_event_id: guji-弘历-event-chuxu-jinjian
   decisions:
-  - date: 1783-08-10
-    title_zh: 嘉奖朝鲜遣使迎驾祝寿并饬礼部传谕优眷
-    rationale: 外藩勤修职贡恭顺可嘉非常贡可比特于常例外加恩赏赉并申饬糊涂渎奏
-  - date: 1783-08-12
-    title_zh: 赐藏地新建寺名寿宁寺并锡达赖玉册玉宝
-    rationale: 达赖虔修庙宇恭祝万寿阐扬梵教福佑群生宜加殊礼永镇法门以广善缘
-  - date: 1783-08-15
-    title_zh: 谕查豫鲁得雨秋禾情形并赈贷湖北被水州县卫
-    rationale: 辉县等四县及曹兖雨泽短少不可讳饰湖北八州县三卫被水即赈贷缓徵以安民生
+  - date: 1783-12-26
+    title_zh: 准榆绥抚恤加赈全予折色大口日给银一分
+    rationale: 边地粮稀价贵常例六厘不敷买食须照乾隆二十四年例加恩以副轸念边氓
+  - date: 1784-01-01
+    title_zh: 定正月十一日启銮留永瑢雅朗阿阿桂伍弥泰京师办事
+    rationale: 巡幸江浙阅塘工须重臣留京验放奏递以保朝务不旷
+  - date: 1784-01-02
+    title_zh: 申建储断不可行并命编古今储贰金鉴以沙穆哈事入卷首
+    rationale: 圣祖时拜褥记档已见顾忌储贰终致嫌隙须明切晓谕垂示久远杜后世事端
 events:
 - id: guji-弘历-event-birth
   title_zh: 出生于雍亲王府
   date: 1711-09-25
   year_of: 1711
+  raw: 康熙五十年八月十三日
   place_zh: 北京雍亲王府
-  description: 康熙五十年八月十三日生母孝圣宪皇后是为后之高宗纯皇帝
-- id: guji-弘历-event-cao
-  title_zh: 批准漕运佥丁津贴新例传谕有漕督抚实力查察
-  date: 1783-08-02
+  summary_zh: 康熙五十年八月十三日生为雍正第四子后即位为高宗纯皇帝
+- id: guji-弘历-event-taiwan-reform
+  title_zh: 谕改台湾总兵道府五年任满轮换
+  date: 1783-12-26
   year_of: 1783
-  place_zh: 热河行在
-  description: 户部议覆漕督毓奇所奏限期佥解查验造册变产赔补违限参奏降调津贴照正项催解依议速行复传谕有漕督抚如仍怠玩惟督抚是问
-- id: guji-弘历-event-he
-  title_zh: 准销运河南河抢修银并谕秋汛防护黄河新工
-  date: 1783-08-04
+  raw: 乾隆四十八年十二月庚申
+  place_zh: 紫禁城
+  summary_zh: 以三年更换玩忽废弛械斗滋事改为五年任满每过两年更调一员命军机同吏兵二部妥议
+- id: guji-弘历-event-taiwan-personnel
+  title_zh: 革李浚原调永福补台湾道留杨廷桦帮办
+  date: 1783-12-29
   year_of: 1783
-  place_zh: 热河行在
-  description: 据福康安奏运河南河抢修均实用实销准开销济宁以南及南河银两万余复据萨载兰第锡奏黄河畅消木龙冲失及睢州仪封抢镶情形谕加意防护俟安澜议叙
-- id: guji-弘历-event-fan
-  title_zh: 临幸盛京受朝鲜贺寿锡寿宁寺名锡达赖玉册玉宝
-  date: 1783-08-12
+  raw: 乾隆四十八年十二月壬戌至甲子
+  place_zh: 福建台湾
+  summary_zh: 以许烈殴死杨愿案逾限革陈煜李浚原调永福补台湾道后允李浚原留台效力又留杨廷桦帮办
+- id: guji-弘历-event-shaanxi-relief
+  title_zh: 加恩榆林绥德折色加赈
+  date: 1783-12-26
   year_of: 1783
-  place_zh: 热河澹泊敬诚殿
-  description: 以恭谒祖陵过万寿受朝鲜陪臣迎驾修贡加恩赏赉申饬礼部赏藏地新建寺名寿宁寺亲书祥轮普护锡达赖玉册玉宝供奉普陀宗乘之庙
-- id: guji-弘历-event-zhen
-  title_zh: 询问豫鲁雨泽赈贷湖北水灾
-  date: 1783-08-15
-  year_of: 1783
-  place_zh: 热河行在
-  description: 以豫省辉浚新延四县及山东曹兖雨泽短少传谕何裕城明兴迅速查奏赈贷湖北黄梅广济等八州县三卫被水灾民并予缓徵
+  raw: 乾隆四十八年十二月庚申
+  place_zh: 陕西榆林绥德
+  summary_zh: 秋禾歉收仓储不敷准抚恤加赈全予折色大口日给银一分小口减半以济边氓
+- id: guji-弘历-event-southern-tour
+  title_zh: 定明年正月十一日南巡留京办事
+  date: 1784-01-01
+  year_of: 1784
+  raw: 乾隆四十八年十二月甲子
+  place_zh: 北京
+  summary_zh: 巡幸江浙阅视塘工命永瑢雅朗阿阿桂伍弥泰留京办事并赏扈跸蒙古王公银两
+- id: guji-弘历-event-chuxu-jinjian
+  title_zh: 恭阅圣祖实录申建储不可行编金鉴
+  date: 1784-01-02
+  year_of: 1784
+  raw: 乾隆四十八年十二月乙丑
+  place_zh: 北京
+  summary_zh: 以沙穆哈拜褥记档被革事可见储贰嫌隙之渐申建储断不可行命以此事编入古今储贰金鉴卷首
 - id: guji-弘历-event-death
-  title_zh: 龙御归天于养心殿
+  title_zh: 崩于养心殿
   date: 1799-02-07
   year_of: 1799
+  raw: 嘉庆四年正月初三日
   place_zh: 北京紫禁城养心殿
-  description: 嘉庆四年正月初三日崩年八十有九太上皇帝大行遗诏传位嘉庆守成开拓之业垂于史册
+  summary_zh: 太上皇崩年八十九谥纯皇帝庙号高宗葬裕陵
