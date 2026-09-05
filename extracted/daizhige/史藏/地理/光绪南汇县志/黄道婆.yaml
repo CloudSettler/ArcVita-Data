@@ -1,0 +1,147 @@
+person:
+  qid: guji-黄道婆
+  name_zh: 黄道婆
+  names:
+    zh: 黄道婆
+    en: Huang Daopo
+  lifespan:
+    birth:
+      date: 1245
+      precision: year
+      is_circa: true
+      raw: 南宋淳祐五年约生于上海乌泥泾
+    death:
+      date: 1330
+      precision: year
+      is_circa: true
+      raw: 元文宗至顺元年约卒于松江
+  birth_date: 1245
+  death_date: 1330
+  era: 宋元
+  reign_ref: 元世祖至元至元文宗至顺
+  archetype: 传技惠民型棉纺祖师
+  dilemmas:
+  - 流落崖州求存与思归故土之间艰难抉择
+  - 棉纺绝艺私藏自利与公传乡里惠及众生之间取舍
+  - 以女身设教传器与世俗礼法之间坚守初心
+  lesson: 以一身所学传之一乡，变草棉为衣被天下之业，利济生民功在千秋
+  summary_first_person: 我是乌泥泾黄氏道婆，早年流落崖州，尽得棉纺织制器之法，后附海舶归乡，教里中以杆弹纺织之法，松江布被天下，乡人感德立庙祀我
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%89%E7%BB%AA%E5%8D%97%E6%B1%87%E5%8E%BF%E5%BF%97/%E5%8D%B720.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%89%E7%BB%AA%E5%8D%97%E6%B1%87%E5%8E%BF%E5%BF%97/%E5%8D%B720.md
+endeavors:
+- id: guji-黄道婆-endeavor-1
+  title_zh: 崖州流寓习得棉艺
+  summary: 自上海流落崖州，久居黎汉之间，学得轧弹纺织全法并改进器具，为归乡传艺奠基
+  phases:
+  - key: brewing
+    name: 流落崖州
+    labels:
+      zh:
+      - 流寓谋生
+    start_date: 1279
+    highlight_event_id: guji-黄道婆-event-move
+  - key: breakthrough
+    name: 尽得棉法
+    labels:
+      zh:
+      - 习艺突破
+    start_date: 1285
+    highlight_event_id: guji-黄道婆-event-learn
+  - key: climax
+    name: 改进器具
+    labels:
+      zh:
+      - 制器精进
+    start_date: 1290
+    highlight_event_id: guji-黄道婆-event-learn
+  - key: closure
+    name: 萌念归乡
+    labels:
+      zh:
+      - 思归
+    start_date: 1295
+    highlight_event_id: guji-黄道婆-event-return
+  decisions:
+  - date: 1285
+    title_zh: 久居崖州潜心学艺
+    rationale: 身处棉产之地，唯尽学轧弹纺织之法方可自存并图后用
+  - date: 1295
+    title_zh: 附海舶归乡传艺
+    rationale: 年事渐长思乡切，欲以所学惠及故里，不令绝艺老于异乡
+- id: guji-黄道婆-endeavor-2
+  title_zh: 归乡传授衣被松江
+  summary: 自崖州归乌泥泾，教民制杆弹纺织之器，传吉贝之艺，松江棉布遂衣被天下，殁而为庙祀
+  phases:
+  - key: brewing
+    name: 还乡设教
+    labels:
+      zh:
+      - 还乡
+    start_date: 1296
+    highlight_event_id: guji-黄道婆-event-return
+  - key: breakthrough
+    name: 授器传法
+    labels:
+      zh:
+      - 传艺
+    start_date: 1298
+    highlight_event_id: guji-黄道婆-event-teach
+  - key: climax
+    name: 棉业大兴
+    labels:
+      zh:
+      - 惠及一方
+    start_date: 1310
+    highlight_event_id: guji-黄道婆-event-teach
+  - key: closure
+    name: 殁而庙祀
+    labels:
+      zh:
+      - 永祀
+    start_date: 1330
+    highlight_event_id: guji-黄道婆-event-death
+  decisions:
+  - date: 1298
+    title_zh: 公开传授不私藏
+    rationale: 棉利可活一乡贫民，公之于众则松江数邑皆受其惠
+  - date: 1310
+    title_zh: 因地制宜教织
+    rationale: 浦东宜棉，教民种收轧弹织相承，使男耕女织各得其所
+events:
+- id: guji-黄道婆-event-birth
+  type: birth
+  title_zh: 生于上海乌泥泾
+  date: 1245
+  year_of: 1245
+  description: 南宋末年生于松江府上海县乌泥泾黄氏家，少贫苦
+- id: guji-黄道婆-event-move
+  type: move
+  title_zh: 流落崖州
+  date: 1279
+  year_of: 1279
+  description: 宋元鼎革之际流落崖州，居黎人之间，艰苦谋生
+- id: guji-黄道婆-event-learn
+  type: study
+  title_zh: 崖州习得棉纺织法
+  date: 1285
+  year_of: 1285
+  description: 在崖州尽学棉花轧弹纺织之法，并改进纺车椎弓等器
+- id: guji-黄道婆-event-return
+  type: return
+  title_zh: 附海舶归乡
+  date: 1295
+  year_of: 1295
+  description: 自崖州附海舶归松江乌泥泾，携棉种及器具之法还乡
+- id: guji-黄道婆-event-teach
+  type: teach
+  title_zh: 传艺乌泥泾衣被天下
+  date: 1298
+  year_of: 1298
+  description: 教里中以杆弹纺织之法，制布精良，松江棉布遂盛行天下
+- id: guji-黄道婆-event-death
+  type: death
+  title_zh: 卒而乡人立庙祀之
+  date: 1330
+  year_of: 1330
+  description: 卒于松江，乡人感其惠，立祠奉祀为棉神，乌泥泾传艺不绝
