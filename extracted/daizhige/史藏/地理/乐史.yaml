@@ -1,0 +1,138 @@
+person:
+  qid: guji-乐史
+  name_zh: 乐史
+  names:
+    zh: 乐史
+    en: Le Shi
+  lifespan:
+    birth:
+      date: 0930
+      precision: year
+      is_circa: true
+      raw: 后唐长兴元年抚州宜黄人
+    death:
+      date: '1007'
+      precision: year
+      is_circa: false
+      raw: 宋真宗咸平十年卒年七十八
+  birth_date: 0930
+  death_date: '1007'
+  era: 五代至北宋
+  reign_ref: 宋太宗
+  archetype: 地理总志开创者
+  dilemmas:
+  - 由南唐旧臣入宋为官须自证忠直以全晚节
+  - 承贾耽李吉甫旧志而欲补其漏缺须穷搜博采以立新体
+  lesson: 合舆图以穷本末集人物艺文以备方志体式由此大变而考据贵精
+  summary_first_person: 吾乐史字子正抚州宜黄人历仕南唐归宋直史馆官太常博士因太宗平闽越并北汉合舆图考郡县沿革撰成太平寰宇记二百卷自东京迄于四裔兼载人物题咏以开后世方志之体
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%AA%E5%B9%B3%E5%AF%B0%E5%AE%87%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%AA%E5%B9%B3%E5%AF%B0%E5%AE%87%E8%AE%B0.html
+endeavors:
+- id: guji-乐史-endeavor-1
+  title_zh: 编纂太平寰宇记
+  description: 因太宗一统舆图广狭考贾耽十道志李吉甫元和郡县志之旧条分件系成二百卷地理总志
+  phases:
+  - key: brewing
+    name: 波讨源穷本知末
+    labels:
+      zh: 立志补阙
+    start_date: 0976
+    highlight_event_id: guji-乐史-event-enter-song
+  - key: breakthrough
+    name: 合闽越北汉舆图
+    labels:
+      zh: 得统合之机
+    start_date: 0979
+    highlight_event_id: guji-乐史-event-unify
+  - key: climax
+    name: 进太平寰宇记二百卷
+    labels:
+      zh: 进书阙下
+    start_date: 0983
+    highlight_event_id: guji-乐史-event-present-book
+  - key: closure
+    name: 开方志人物艺文之体
+    labels:
+      zh: 体例大变
+    start_date: 0984
+    highlight_event_id: guji-乐史-event-present-book
+  decisions:
+  - date: 0979
+    title_zh: 因十六州旧载以探封桩之志
+    rationale: 太宗志在复燕云故因旧志概列幽妫营檀以应上意而存统系之全
+  - date: 0983
+    title_zh: 讥贾耽李吉甫漏缺而尽收山川险阻人物题咏
+    rationale: 惟取赅博以使不下堂知五土不出户观万邦而立地理详备之式
+- id: guji-乐史-endeavor-2
+  title_zh: 归宋直馆历官
+  description: 自南唐秘书郎归宋历著作佐郎太常博士直史馆迁职方员外郎以文苑著称
+  phases:
+  - key: brewing
+    name: 南唐秘书郎
+    labels:
+      zh: 江南历官
+    start_date: 0960
+    highlight_event_id: guji-乐史-event-enter-song
+  - key: breakthrough
+    name: 归宋授著作佐郎
+    labels:
+      zh: 易代自效
+    start_date: 0976
+    highlight_event_id: guji-乐史-event-enter-song
+  - key: climax
+    name: 太常博士直史馆
+    labels:
+      zh: 职居馆殿
+    start_date: 0980
+    highlight_event_id: guji-乐史-event-zhiguan
+  - key: closure
+    name: 迁职方员外郎以老终
+    labels:
+      zh: 以文苑传世
+    start_date: '1000'
+    highlight_event_id: guji-乐史-event-death
+  decisions:
+  - date: 0976
+    title_zh: 随江南平定归宋应举入仕
+    rationale: 五代鼎革之后唯宋能家六合故舍旧朝以就新命而展坤舆之志
+  - date: 0980
+    title_zh: 居馆殿专修郡县之书以颂一统
+    rationale: 眷言阙典责在史官故以图籍机权为任冀闻天听以表千年一圣
+events:
+- id: guji-乐史-event-birth
+  date: 0930
+  year_of: 930
+  type: birth
+  title_zh: 生于抚州宜黄
+  description: 后唐长兴年间生于抚州宜黄字子正少力学博通群籍
+- id: guji-乐史-event-enter-song
+  date: 0976
+  year_of: 976
+  type: career
+  title_zh: 由南唐归宋授官
+  description: 曾仕南唐为秘书郎随江南平定归宋授著作佐郎渐迁太常博士
+- id: guji-乐史-event-unify
+  date: 0979
+  year_of: 979
+  type: career
+  title_zh: 太宗平闽越并北汉得合舆图
+  description: 宋太宗奄有东南并取太原天下舆图归一遂得考寻始末条分件系以纂总志
+- id: guji-乐史-event-zhiguan
+  date: 0980
+  year_of: 980
+  type: career
+  title_zh: 直史馆修撰地理
+  description: 以太常博士直史馆职居馆殿志在坤舆广采列朝人物古迹题咏以备一书
+- id: guji-乐史-event-present-book
+  date: 0983
+  year_of: 983
+  type: career
+  title_zh: 进太平寰宇记二百卷
+  description: 撰成太平寰宇记自河南东京周于海外上进阙下其体至此而详为后世方志所本
+- id: guji-乐史-event-death
+  date: '1007'
+  year_of: 1007
+  type: death
+  title_zh: 卒于宋真宗咸平年间
+  description: 迁职方员外郎后卒年七十八事迹具宋史文苑传所著总志仅存百九十三卷行世
