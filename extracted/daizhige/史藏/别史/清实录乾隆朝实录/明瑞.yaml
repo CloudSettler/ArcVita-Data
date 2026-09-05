@@ -6,124 +6,143 @@ person:
     en: Mingrui
   lifespan:
     birth:
-      date: 1730-01-01
+      date: 1730
       precision: year
       is_circa: true
-      raw: 约雍正八年生于富察氏家
+      raw: 约乾隆初年生
     death:
-      date: 1768-05-12
-      precision: month
-      is_circa: true
-      raw: 乾隆三十三年征缅甸殁于军
-  birth_date: 1730-01-01
-  death_date: 1768-05-12
-  era: 清乾隆朝
-  reign_ref: 乾隆三十年六月
-  archetype: 开疆奋勇之将帅
+      date: 1768
+      precision: year
+      is_circa: false
+      raw: 乾隆三十三年殁于缅甸军中
+  birth_date: 1730
+  death_date: 1768
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 开疆将帅
   dilemmas:
-  - 乌什围城兵少贼坚增兵与否两难
-  - 与阿桂互相推让又须和衷集事之难
-  lesson: 前线审势自任和衷共济方免贻误
-  summary_first_person: 我是明瑞蒙高宗简用镇伊犁剿乌什贼众粮将绝我主堵截不主攻城与阿桂议增兵往复致蒙申饬仍奋勉连日击杀收牲无数不敢存招抚之念
+  - 进剿提调非所长者当留当调难以两全
+  - 军需采买舞弊当严参以肃粮道又恐误军期
+  lesson: 用人贵在谙习地宜并严核军需以速集事
+  summary_first_person: 吾以云贵总督督师滇南，于木邦缅匪之役整顿将帅，劾怠玩之索柱，调谙习之谭五格，严办侵克军粮之守令，力图迅速集事
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70738.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70789.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70789.md
 endeavors:
 - id: guji-明瑞-endeavor-1
-  title_zh: 乌什围剿平叛
-  summary: 乾隆三十年夏驻乌什前线围困逆回捉生讯问连日进剿收取牲只
+  title_zh: 滇黔提镇整顿与缅甸进剿调度
+  summary_zh: 针对自木邦退回后将士离心与提调非所长，奏劾怠玩之索柱并请谭五格扬宁对调以资臂指
   phases:
   - key: brewing
-    name: 捉生察情
+    name: 木邦退师离心初现
     labels:
       zh:
-      - 侦察筹划
-    start_date: 1765-05-07
-    highlight_event_id: guji-明瑞-event-wushi-zhan
+      - 军情查勘
+      - 将帅离心
+    start_date: 1767-07-10
+    highlight_event_id: guji-明瑞-event-work-2
   - key: breakthrough
-    name: 连日奋剿
+    name: 奏劾索柱怠玩用诈
     labels:
       zh:
-      - 进剿得胜
-    start_date: 1765-06-01
-    highlight_event_id: guji-明瑞-event-wushi-zhan
+      - 整肃军纪
+      - 参劾将帅
+    start_date: 1767-07-15
+    highlight_event_id: guji-明瑞-event-work-1
   - key: climax
-    name: 增兵争议
+    name: 请调谭五格扬宁对调
     labels:
       zh:
-      - 调兵筹议
-    start_date: 1765-06-03
-    highlight_event_id: guji-明瑞-event-zengbing
+      - 提督对调
+      - 谙习滇情
+    start_date: 1767-07-15
+    highlight_event_id: guji-明瑞-event-work-2
   - key: closure
-    name: 堵截待克
+    name: 谕允兼管黔兵速集事
     labels:
       zh:
-      - 围堵待歼
-    start_date: 1765-06-15
-    highlight_event_id: guji-明瑞-event-wushi-zhan
+      - 兼管黔兵
+      - 迅速集事
+    start_date: 1767-07-20
+    highlight_event_id: guji-明瑞-event-work-2
   decisions:
-  - date: 1765-06-03
-    title_zh: 复阿桂不必增兵以堵截为要
-    rationale: 贼粮将绝攻城非策截逃路为紧鄂津五百已足助战
-  - date: 1765-06-12
-    title_zh: 断绝招抚矢死严诛并请议叙出力将士
-    rationale: 逆回时出拒敌情罪重大若不严诛无以示警须激劝奋勉
+  - date: 1767-07-15
+    title_zh: 奏劾曲寻镇总兵索柱革职
+    rationale: 索柱于查勘军情要务怠玩不前耽逸用诈若不严参无以肃军纪故请革职留滇效力
+  - date: 1767-07-15
+    title_zh: 奏请谭五格扬宁对调提督
+    rationale: 扬宁于提调非所长且自木邦退回不能服众谭五格久任滇中谙习情形且与黔兵相习易于用命故请就近对调
 - id: guji-明瑞-endeavor-2
-  title_zh: 镇守伊犁调度西路
-  summary: 离伊犁数月仍遥领调度派兵援乌什与爱隆阿阿桂协同办理
+  title_zh: 严核军需粮石与覆奏木邦夷情
+  summary_zh: 严参永昌知府采买军粮舞弊以肃粮道，并覆奏木邦瓮团线五格始末以定招抚进剿之据
   phases:
   - key: brewing
-    name: 离镇前赴
+    name: 永昌采买浮收 brewing
     labels:
       zh:
-      - 镇守调度
-    start_date: 1765-03-01
-    highlight_event_id: guji-明瑞-event-zengbing
+      - 军需粮石
+      - 采买舞弊
+    start_date: 1767-07-12
+    highlight_event_id: guji-明瑞-event-work-3
   - key: breakthrough
-    name: 调派援兵
+    name: 参革陈大吕拏问严审
     labels:
       zh:
-      - 派兵支援
-    start_date: 1765-05-20
-    highlight_event_id: guji-明瑞-event-zengbing
+      - 革职拏问
+      - 宽裕给值
+    start_date: 1767-07-18
+    highlight_event_id: guji-明瑞-event-work-3
   - key: climax
-    name: 两路会商
+    name: 覆奏木邦头人始末
     labels:
       zh:
-      - 会商推让
-    start_date: 1765-06-03
-    highlight_event_id: guji-明瑞-event-zengbing
+      - 木邦头人
+      - 辨明助逆
+    start_date: 1767-07-22
+    highlight_event_id: guji-明瑞-event-work-4
   - key: closure
-    name: 协同和衷
+    name: 安辑夷民肃清粮道
     labels:
       zh:
-      - 和衷集事
-    start_date: 1765-06-15
-    highlight_event_id: guji-明瑞-event-wushi-zhan
+      - 招抚夷民
+      - 军食无误
+    start_date: 1767-07-25
+    highlight_event_id: guji-明瑞-event-work-4
   decisions:
-  - date: 1765-05-20
-    title_zh: 令爱隆阿由伊犁选派兵二千赴乌什
-    rationale: 前敌兵恐不敷用就近酌调满洲察哈尔额鲁特以厚围力
-  - date: 1765-06-10
-    title_zh: 止调绿旗兵申明伊犁情形由己酌量
-    rationale: 绿旗步行难追逆回且张皇致各城疑忌满洲马队已足敷用
+  - date: 1767-07-18
+    title_zh: 奏参永昌知府陈大吕克价浮收
+    rationale: 军粮最关紧要奉旨宽裕给值乃该府派令额外浮交纵容家人胥吏串同舞弊非寻常扰累可比故请革职拏问
+  - date: 1767-07-22
+    title_zh: 会奏木邦瓮团线五格情形
+    rationale: 须辨明瓮团受宣慰司原委及线五格被挟逃出未助贼匪之实以定招抚进剿方略并安夷众之心
 events:
 - id: guji-明瑞-event-birth
-  date: 1730-01-01
+  title_zh: 明瑞诞生
+  date: 1730
   year_of: 1730
-  title_zh: 出生
-  description: 富察氏家生员后以军功简用至伊犁将军
-- id: guji-明瑞-event-wushi-zhan
-  date: 1765-06-12
-  year_of: 1765
-  title_zh: 乌什连日击杀贼众收取牲只
-  description: 自五月初七至十二日屡次击杀贼众收取牲只无算诏查明议叙议恤
-- id: guji-明瑞-event-zengbing
-  date: 1765-06-05
-  year_of: 1765
-  title_zh: 与阿桂议增兵二千互相咨商致蒙申饬
-  description: 明瑞阿桂移文往复互相推诿高宗以推诿游移传旨申饬增兵停止
+  description: 约乾隆初年生于富察氏家世袭勋旧之家
+- id: guji-明瑞-event-work-1
+  title_zh: 奏劾索柱怠玩请革职
+  date: 1767-07-15
+  year_of: 1767
+  description: 乾隆三十二年七月奏称曲寻镇总兵索柱于查勘军情要务怠玩不前耽逸用诈请革职留滇效力
+- id: guji-明瑞-event-work-2
+  title_zh: 奏请谭五格扬宁对调
+  date: 1767-07-15
+  year_of: 1767
+  description: 乾隆三十二年七月以扬宁非提调所长且不服众心请以久任滇中之谭五格对调贵州提督仍兼管在滇黔兵
+- id: guji-明瑞-event-work-3
+  title_zh: 奏参永昌知府军需舞弊
+  date: 1767-07-18
+  year_of: 1767
+  description: 乾隆三十二年七月奏永昌府知府陈大吕采买军需粮石纵容家人胥吏串同舞弊克价浮收请革职拏问严审
+- id: guji-明瑞-event-work-4
+  title_zh: 覆奏木邦头人瓮团等事
+  date: 1767-07-22
+  year_of: 1767
+  description: 乾隆三十二年七月会奏木邦罕莽底昆象瓮团线五格授职逃奔始末及此次未助贼匪与我兵打仗情形
 - id: guji-明瑞-event-death
-  date: 1768-05-12
+  title_zh: 殁于缅甸军中
+  date: 1768
   year_of: 1768
-  title_zh: 征缅甸殁于军
-  description: 后领兵征缅甸力战殁于军赐恤如例
+  description: 乾隆三十三年督师缅甸进剿力战殁于军中
