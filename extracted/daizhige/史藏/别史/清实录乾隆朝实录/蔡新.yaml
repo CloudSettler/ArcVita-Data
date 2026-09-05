@@ -1,0 +1,134 @@
+person:
+  qid: guji-蔡新
+  name_zh: 蔡新
+  names:
+    zh: 蔡新
+    en: Cai Xin
+  lifespan:
+    birth:
+      date: 1707
+      precision: year
+      is_circa: false
+      raw: 康熙四十六年生于福建漳浦
+    death:
+      date: 1799
+      precision: year
+      is_circa: false
+      raw: 嘉庆四年卒
+  birth_date: 1707
+  death_date: 1799
+  era: 清乾隆朝
+  reign_ref: 乾隆三十二年
+  archetype: 理学师臣
+  dilemmas:
+  - 以刑部侍郎提督学政于法理与教化之间何以兼顾
+  - 取士当先文采还是先德行心术何以辨别
+  lesson: 持躬清介以立朝讲学敦品以养士
+  summary_first_person: 余漳浦寒素以乾隆丙辰进士起家历讲席刑曹以程朱之学自守蒙恩提督直隶学政惟以敦品励行为务不敢以文辞浮华取人
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0800.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0800.html
+endeavors:
+- id: guji-蔡新-endeavor-1
+  title_zh: 丙辰进士入仕讲学立身
+  summary_zh: 自幼治程朱之学乾隆元年成进士留馆讲席以理学饬躬
+  phases:
+  - key: brewing
+    name: 漳浦积学潜心程朱
+    labels:
+      zh:
+      - 积学养望
+    start_date: 1720
+    highlight_event_id: guji-蔡新-event-birth
+  - key: breakthrough
+    name: 丙辰恩科登第入翰林
+    labels:
+      zh:
+      - 科第登庸
+    start_date: 1736
+    highlight_event_id: guji-蔡新-event-jinshi
+  - key: climax
+    name: 内廷讲席阐发义理
+    labels:
+      zh:
+      - 讲学明道
+    start_date: 1750
+    highlight_event_id: guji-蔡新-event-jinshi
+  - key: closure
+    name: 以经术饬躬为士林宗
+    labels:
+      zh:
+      - 成德立教
+    start_date: 1760
+    highlight_event_id: guji-蔡新-event-zhili
+  decisions:
+  - date: 1736
+    title_zh: 应乾隆丙辰恩科成进士
+    rationale: 以经术致用不慕浮华期以圣贤之学事君
+  - date: 1750
+    title_zh: 坚持讲程朱不附时好
+    rationale: 恐士习浮薄故以敦品正心为先务
+- id: guji-蔡新-endeavor-2
+  title_zh: 刑部侍郎提督直隶学政
+  summary_zh: 由刑部右侍郎奉命提督直隶学政整饬士风衡文育才
+  phases:
+  - key: brewing
+    name: 刑曹历练明习法理
+    labels:
+      zh:
+      - 历官养重
+    start_date: 1765
+    highlight_event_id: guji-蔡新-event-jinshi
+  - key: breakthrough
+    name: 奉命以刑部侍郎督学直隶
+    labels:
+      zh:
+      - 督学畿辅
+    start_date: 1767-12
+    highlight_event_id: guji-蔡新-event-zhili
+  - key: climax
+    name: 衡文敦品整饬士习
+    labels:
+      zh:
+      - 衡文育才
+    start_date: 1768-01
+    highlight_event_id: guji-蔡新-event-zhili
+  - key: closure
+    name: 功成还朝为后学所宗
+    labels:
+      zh:
+      - 功成身退
+    start_date: 1770
+    highlight_event_id: guji-蔡新-event-death
+  decisions:
+  - date: 1767-12
+    title_zh: 受命提督直隶学政
+    rationale: 畿辅首善之地当以正人心端士习为己任
+  - date: 1768-01
+    title_zh: 取士先德行后文艺
+    rationale: 文采可习心术难移故严辨浮薄以培国本
+events:
+- id: guji-蔡新-event-birth
+  date: 1707
+  year_of: 1707
+  event_type: birth
+  title_zh: 生于福建漳浦
+  description_zh: 康熙四十六年生于福建漳浦寒素之家少治程朱之学
+- id: guji-蔡新-event-jinshi
+  date: 1736
+  year_of: 1736
+  event_type: career
+  title_zh: 乾隆元年丙辰科成进士
+  description_zh: 乾隆元年登丙辰恩科进士选入翰林以讲学明道著称
+- id: guji-蔡新-event-zhili
+  date: 1767-12
+  year_of: 1767
+  event_type: career
+  title_zh: 以刑部右侍郎提督直隶学政
+  description_zh: 乾隆三十二年十二月上命以刑部右侍郎蔡新提督直隶学政整饬畿辅士风
+- id: guji-蔡新-event-death
+  date: 1799
+  year_of: 1799
+  event_type: death
+  title_zh: 卒于京师
+  description_zh: 嘉庆四年卒历乾隆嘉庆两朝以理学名臣终谥文勤

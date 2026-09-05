@@ -6,121 +6,140 @@ person:
     en: Mingrui
   lifespan:
     birth:
-      date: 1730-01-01
+      date: 1730
       precision: year
       is_circa: true
-      raw: 乾隆初年生于富察氏家
+      raw: 生年不詳約乾隆初年
     death:
-      date: 1768-05-01
-      precision: month
-      is_circa: true
-      raw: 乾隆三十三年春殁于缅甸军中
-  birth_date: 1730-01-01
-  death_date: 1768-05-01
-  era: 清
+      date: 1768
+      precision: year
+      is_circa: false
+      raw: 乾隆三十三年殁於緬甸軍中
+  birth_date: 1730
+  death_date: 1768
+  era: 清乾隆朝
   reign_ref: 乾隆
-  archetype: 开边捐躯之统帅
+  archetype: 身先士卒之開邊名將
   dilemmas:
-  - 满洲参赞与绿营提镇同在一路如何和衷共济不至各执己见
-  - 大兵前发木邦成腹地留守与续进如何兼顾不误机宜
-  lesson: 远征瘴外须一其号令调停满汉绿营方能深入致果
-  summary_first_person: 吾奉命统兵进剿缅匪由猛密木邦分路深入调停诸将节制滇黔虽瘴疠险远不敢辞难愿肃清边氛以报国恩
+  - 身先行陣奮勇陷堅與持重保帥不可輕冒之兩難
+  - 孤軍深入直搗阿瓦與糧乏退守宋賽木邦以圖再舉之兩難
+  lesson: 奮勇足以摧堅振威，然絕域孤軍無繼則勇亦危，須勇略與糧援並重
+  summary_first_person: 吾乃明瑞，承恩公家，歷西陲以身先著績，節制雲貴而進剿緬夷，蠻結冒矢破十六寨，渡天生橋直逼宋賽，目傷猶戰，誓掃賊巢，雖殁無悔
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70796.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70796.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70802.html
 endeavors:
 - id: guji-明瑞-endeavor-1
-  title_zh: 猛密木邦分路进剿缅匪
-  summary_zh: 乾隆三十二年秋冬统大兵由猛密木邦两路进发调派额勒登额谭五格额尔景额分领以图深入缅巢
+  title_zh: 統兵征緬深入蠻結宋賽
+  summary_zh: 自木邦整隊冞入，破蠻結十六寨，渡天生橋，逼近阿瓦，受封一等誠嘉毅勇公
   phases:
   - key: brewing
-    name: 受命筹调
+    name: 受命節制雲貴整軍木邦
     labels:
-      zh: 筹调聚兵
-    start_date: 1767-08-01
-    highlight_event_id: guji-明瑞-event-plan
-  - key: breakthrough
-    name: 分路部署
-    labels:
-      zh: 分路部署
-    start_date: 1767-10-25
-    highlight_event_id: guji-明瑞-event-plan
-  - key: climax
-    name: 深入前发
-    labels:
-      zh: 深入进剿
-    start_date: 1767-11-10
-    highlight_event_id: guji-明瑞-event-seal
-  - key: closure
-    name: 瘴外殒身
-    labels:
-      zh: 殒身收局
-    start_date: 1768-03-01
-    highlight_event_id: guji-明瑞-event-death
-  decisions:
-  - date: 1767-10-25
-    title_zh: 奏派额勒登额谭五格同往猛密
-    rationale: 猛密一路必得更事大员方与事务有益以满汉兼用收绿营之力
-  - date: 1767-11-02
-    title_zh: 遵旨以额尔景额统领此路调停约束
-    rationale: 恐谭五格未更战阵额勒登额气度狭隘各执己见故用参赞大臣一其号令
-- id: guji-明瑞-endeavor-2
-  title_zh: 总督关防随营节制滇黔营务
-  summary_zh: 以云贵总督统兵在外关防随带命鄂宁驻永昌代办滇营黔省就近会同黔抚以维军需转输
-  phases:
-  - key: brewing
-    name: 督抚分驻
-    labels:
-      zh: 督抚分驻
+      zh:
+      - 整軍待發
     start_date: 1767-09-01
-    highlight_event_id: guji-明瑞-event-seal
+    highlight_event_id: guji-明瑞-event-xichui
   - key: breakthrough
-    name: 关防随带
+    name: 蠻結冒矢破十六寨
     labels:
-      zh: 关防随营
-    start_date: 1767-11-02
-    highlight_event_id: guji-明瑞-event-seal
+      zh:
+      - 摧堅陷銳
+    start_date: 1768-01-20
+    highlight_event_id: guji-明瑞-event-manjie
   - key: climax
-    name: 永昌代办
+    name: 渡天生橋據宋賽逼阿瓦
     labels:
-      zh: 代办营务
-    start_date: 1767-11-05
-    highlight_event_id: guji-明瑞-event-seal
+      zh:
+      - 絕險奇進
+    start_date: 1768-01-28
+    highlight_event_id: guji-明瑞-event-tiansheng
   - key: closure
-    name: 军需维系
+    name: 敘功受封誠嘉毅勇公
     labels:
-      zh: 转输不断
-    start_date: 1768-01-01
-    highlight_event_id: guji-明瑞-event-death
+      zh:
+      - 優異受封
+    start_date: 1768-02-02
+    highlight_event_id: guji-明瑞-event-fengjue
   decisions:
-  - date: 1767-11-02
-    title_zh: 总督关防随带前往军前
-    rationale: 统兵在外事权宜专故以印随营以便调遣各镇协营
-  - date: 1767-11-02
-    title_zh: 令巡抚鄂宁节制滇省各营黔省就近会办
-    rationale: 滇省营务须人代办黔省营务就近会同黔抚查办免往返咨会滇省以速军需
+  - date: 1768-01-20
+    title_zh: 冒霧衝寨身先破堅
+    rationale: 審度蠻結密箐險寨久持無益，須先破中堅以奪氣，故親冒槍炮奮身直入
+  - date: 1768-01-28
+    title_zh: 繞道渡河奪天生橋
+    rationale: 大路橋毀路絕不可強渡，遣偏師牽制而由水源淺處涉渡，佔據山梁以通大軍
+- id: guji-明瑞-endeavor-2
+  title_zh: 西陲宣猷歷練為將
+  summary_zh: 早年隨征西陲每身先士卒，以純誠幹濟受知，擢伊犁領兵，遂膺雲貴節制之任
+  phases:
+  - key: brewing
+    name: 出身勳戚從軍西陲
+    labels:
+      zh:
+      - 初歷戎行
+    start_date: 1755-01-01
+    highlight_event_id: guji-明瑞-event-xichui
+  - key: breakthrough
+    name: 西路奮勇屢著殊績
+    labels:
+      zh:
+      - 宣猷效績
+    start_date: 1759-08-01
+    highlight_event_id: guji-明瑞-event-xichui
+  - key: climax
+    name: 陛見受命節制雲貴
+    labels:
+      zh:
+      - 受命專征
+    start_date: 1767-09-01
+    highlight_event_id: guji-明瑞-event-manjie
+  - key: closure
+    name: 軍前查核激勵將士
+    labels:
+      zh:
+      - 嚴明賞罰
+    start_date: 1768-02-02
+    highlight_event_id: guji-明瑞-event-fengjue
+  decisions:
+  - date: 1767-09-01
+    title_zh: 整頓軍營悉心籌畫
+    rationale: 前督調度失宜士氣不振，須明紀律、通糧道、聯聲援，方可深入致討
+  - date: 1768-02-02
+    title_zh: 請查額勒登額逗留實情
+    rationale: 西路圍攻老官屯曠日無功，須破阿瓦後詳查奮勉虛實，以明功罪而振軍紀
 events:
 - id: guji-明瑞-event-birth
-  title_zh: 诞生
-  date: 1730-01-01
+  date: 1730
   year_of: 1730
-  place_zh: 京师
-  description_zh: 富察氏家生后累任至云贵总督以内大臣统兵
-- id: guji-明瑞-event-plan
-  title_zh: 猛密一路奏派将领
-  date: 1767-10-25
-  year_of: 1767
-  place_zh: 云南永昌行营
-  description_zh: 会奏猛密一路进兵派额勒登额谭五格同往一切进攻委之额勒登额绿营令谭五格统领木邦留办事俟珠鲁讷到交代
-- id: guji-明瑞-event-seal
-  title_zh: 总督关防随带出征
-  date: 1767-11-02
-  year_of: 1767
-  place_zh: 云南
-  description_zh: 明瑞统兵进剿缅匪总督关防随带前往巡抚鄂宁驻永昌滇省各镇协营俱听节制黔省就近会同黔抚查办
-- id: guji-明瑞-event-death
-  title_zh: 殁于缅甸军中
-  date: 1768-05-01
+  title_zh: 明瑞出生
+  place_zh: 京師
+  summary_zh: 出身承恩公家，滿洲富察氏，孝賢皇后之姪
+- id: guji-明瑞-event-xichui
+  date: 1759-08-01
+  year_of: 1759
+  title_zh: 西陲身先立功
+  place_zh: 伊犁西路軍營
+  summary_zh: 西陲之役每身先士卒效績宣猷，以才優幹濟受上知遇
+- id: guji-明瑞-event-manjie
+  date: 1768-01-20
   year_of: 1768
-  place_zh: 缅甸
-  description_zh: 深入缅地转战力竭殁于军中全军覆没之役遂定
+  title_zh: 蠻結破十六寨
+  place_zh: 蠻結
+  summary_zh: 大霧中分隊衝擊木寨，砍傷象隻奮身直入，殺賊二千餘，右眼眶受槍傷猶鼓勇直前
+- id: guji-明瑞-event-tiansheng
+  date: 1768-01-28
+  year_of: 1768
+  title_zh: 渡天生橋據宋賽
+  place_zh: 隔弄山天生橋宋賽
+  summary_zh: 由北小路繞過絕險，自水源涉渡佔據山梁，賊驚潰遠遁，遂駐宋賽候會剿
+- id: guji-明瑞-event-fengjue
+  date: 1768-02-02
+  year_of: 1768
+  title_zh: 授一等誠嘉毅勇公
+  place_zh: 行在軍機處奉旨
+  summary_zh: 以連破賊壘殲賊因糧特沛恩施，原襲承恩公令弟奎林承襲，並賞黃帶子紅寶石頂
+- id: guji-明瑞-event-death
+  date: 1768
+  year_of: 1768
+  title_zh: 明瑞殁於緬甸軍中
+  place_zh: 緬甸宋賽軍營
+  summary_zh: 深入力戰糧援不繼，病傷交迫殁於軍，緬役遂敗，清廷深惜之
