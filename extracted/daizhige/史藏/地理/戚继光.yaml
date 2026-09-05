@@ -1,0 +1,99 @@
+person:
+  qid: guji-戚继光
+  name_zh: 戚继光
+  names:
+    zh: 戚继光
+    en: Qi Jiguang
+  lifespan:
+    birth:
+      date: 1528-11-12
+      precision: day
+      is_circa: false
+      raw: 明嘉靖七年十月初一
+    death:
+      date: 1588-01-17
+      precision: day
+      is_circa: false
+      raw: 明万历十五年十二月初八
+  birth_date: 1528-11-12
+  death_date: 1588-01-17
+  era: 明
+  reign_ref: 嘉靖
+  archetype: 抗倭名将
+  dilemmas:
+  - 临阵退缩当立斩与顾惜士卒之难
+  - 驰援孤城当间道奇袭与持重待机之难
+  lesson: 严纪立威出奇制胜终始漳潮海疆
+  summary_first_person: 吾历闽浙备倭于蔡陂立斩退者而大破贼众复督闽广兵剿林道干以靖漳潮
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%BC%B3%E5%B7%9E%E5%BA%9C%E5%BF%97%E9%80%89%E5%BD%95.md
+endeavors:
+- id: guji-戚继光-endeavor-1
+  title_zh: 蔡陂大破倭寇
+  summary_zh: 倭自仙游流入漳浦汤坑预设伏于蔡陂督战破之立忠勇祠
+  phases:
+  - key: brewing
+    name: 设伏蔡陂
+    labels:
+      zh: 预伏待敌
+    start_date: 1564-02-01
+    highlight_event_id: guji-戚继光-event-caipo
+  - key: climax
+    name: 督战破敌
+    labels:
+      zh: 蔡陂大捷
+    start_date: 1564-03-01
+    highlight_event_id: guji-戚继光-event-caipo
+  decisions:
+  - date: 1564-03-01
+    title_zh: 立斩退缩者身自督战
+    rationale: 兵小却非严纪不能振故斩退者数人而贼大溃
+- id: guji-戚继光-endeavor-2
+  title_zh: 督闽广兵剿林道干
+  summary_zh: 林道干自走马溪登岸劫诏安督闽广兵剿灭以安边境
+  phases:
+  - key: brewing
+    name: 登岸流劫
+    labels:
+      zh: 走马溪登岸
+    start_date: 1566-05-01
+    highlight_event_id: guji-戚继光-event-lindaogan
+  - key: closure
+    name: 会剿平定
+    labels:
+      zh: 剿灭道干
+    start_date: 1566-10-01
+    highlight_event_id: guji-戚继光-event-lindaogan
+  decisions:
+  - date: 1566-10-01
+    title_zh: 会合闽广兵进剿
+    rationale: 海寇结巢出没不常唯会兵合势可一举荡定
+events:
+- id: guji-戚继光-event-birth
+  type: birth
+  title_zh: 诞生于登州
+  date: 1528-11-12
+  year_of: 1528
+  place_zh: 山东登州
+  description_zh: 明嘉靖七年生于登州卫世袭登州卫指挥佥事家
+- id: guji-戚继光-event-caipo
+  type: career
+  title_zh: 蔡陂大破倭寇
+  date: 1564-03-01
+  year_of: 1564
+  place_zh: 漳浦蔡陂
+  description_zh: 以参将督兵至蔡陂贼蜂起兵小却立斩退缩者数人身自督战贼大溃斩首三百余级官兵战死八十余人立忠勇祠祀之
+- id: guji-戚继光-event-lindaogan
+  type: career
+  title_zh: 督兵剿灭林道干
+  date: 1566-10-01
+  year_of: 1566
+  place_zh: 诏安走马溪
+  description_zh: 林道干自走马溪登岸散劫诏安以总兵督闽广兵剿灭之漳潮倭患渐平
+- id: guji-戚继光-event-death
+  type: death
+  title_zh: 逝世于登州
+  date: 1588-01-17
+  year_of: 1588
+  place_zh: 山东登州
+  description_zh: 明万历十五年病逝于登州平倭平寇功与漳终始时称俞龙戚虎

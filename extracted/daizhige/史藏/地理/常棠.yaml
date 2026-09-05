@@ -9,119 +9,124 @@ person:
       date: 1190
       precision: year
       is_circa: true
-      raw: 生年未详约宋宁宗嘉定前后
+      raw: 宋光宗绍熙年间前后
     death:
-      date: 1240
+      date: 1260
       precision: year
       is_circa: true
-      raw: 卒年未详在澉水志成书之后
+      raw: 南宋理宗景定年间前后
   birth_date: 1190
-  death_date: 1240
+  death_date: 1260
   era: 南宋
   reign_ref: 宋理宗绍定
-  archetype: 方志学家
+  archetype: 地方志编纂者
   dilemmas:
-  - 澉浦烟火阜繁而旧志阙如如何以四十四页约事尽而纲目该备
-  - 亭民争柴山杀死不已如何秉笔简核而不妄抒藻饰
-  lesson: 体例精严约事尽藻不妄抒方能传远为后志之源
-  summary_first_person: 我是常棠字召仲号竹溪海盐人绍定三年应监澉浦镇税罗叔韶之请为澉浦作志分十四门为八卷以存一镇山水廨舍坊场军寨学校寺庙古迹物产碑记诗咏愿以简核之笔留信史于后
+  - 澉水斗大一隅素乏图经当博采闻见成编还是因陋就简听其散佚
+  - 初稿既成镇官屡易无人问刊当弃置旧稿还是逾年订正以待知音
+  lesson: 一镇虽小不可无志守稿二十七年以待刊刻则文献不坠
+  summary_first_person: 余竹窗常棠字召仲寓居海盐澉浦镇绍定三年应镇尹罗叔韶之属搜访舆理编成澉水志逾多政订正益详后遇权镇孙君割俸募镌水军袁统制捐梓而成书幸志得传
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B5%B7%E7%9B%90%E6%BE%89%E6%B0%B4%E5%BF%97.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B5%B7%E7%9B%90%E6%BE%89%E6%B0%B4%E5%BF%97.html
+  - https://daizhige.org/史藏/地理/澉水志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/澉水志.md
 endeavors:
 - id: guji-常棠-endeavor-1
-  title_zh: 受命纂修澉水志
-  summary: 绍定三年应罗叔韶之请搜访澉浦地理山水坊巷军寨桥梁古迹以成镇志
+  title_zh: 受托编撰澉水志
+  summary_zh: 应澉浦镇税罗叔韶之请考郡邑志之略搜访镇境山水户口税赋寺庙古迹物产撰为上下二卷
   phases:
   - key: brewing
-    name: 乡居访闻
+    name: 寓镇搜访
     labels:
-      zh: 访闻积稿
-    start_date: 1228
-    highlight_event_id: guji-常棠-event-1230-commission
+      zh: 寓居见闻
+    start_date: 1229
+    highlight_event_id: guji-常棠-event-1230-entrust
   - key: breakthrough
-    name: 受托立局
+    name: 受属成编
     labels:
-      zh: 受命始纂
+      zh: 初稿告成
     start_date: 1230
-    highlight_event_id: guji-常棠-event-1230-commission
+    highlight_event_id: guji-常棠-event-1230-entrust
   - key: climax
-    name: 分门纂稿
+    name: 逾政订正
     labels:
-      zh: 分门纂修
-    start_date: 1230
-    highlight_event_id: guji-常棠-event-1231-complete
-  - key: closure
-    name: 八卷告成
-    labels:
-      zh: 成书流传
+      zh: 考订增详
     start_date: 1231
-    highlight_event_id: guji-常棠-event-1231-complete
+    highlight_event_id: guji-常棠-event-1237-revise
+  - key: closure
+    name: 上下二卷定稿
+    labels:
+      zh: 志书定型
+    start_date: 1237
+    highlight_event_id: guji-常棠-event-1237-revise
   decisions:
   - date: 1230
-    title_zh: 应罗叔韶之请出任志局
-    rationale: 澉浦为海盐要镇旧无专志不忍阙如故以乡人之责任其事
-  - date: 1230
-    title_zh: 以十四门统摄全镇
-    rationale: 地理山水廨舍坊巷等分门别类方能简核该备而不杂
+    title_zh: 应罗叔韶之属撰志
+    rationale: 郡有嘉禾志邑有武原志载澉水甚略若不缀缉成编则无以示一镇之指掌
+  - date: 1231
+    title_zh: 镇官去任后坚持订正
+    rationale: 初编大略仪甫满去竟勿遐问逾七八政岁久故当订正益详以存实录
 - id: guji-常棠-endeavor-2
-  title_zh: 立约事尽简核体例
-  summary: 以四十四页载八卷之书体例精严为后世方志之先声
+  title_zh: 守稿待刊传远澉水文献
+  summary_zh: 初志未刊守稿二十余年遇听讼练达之权镇孙君割俸募镌得水军统制助梓使澉水志得刊行于时阜
   phases:
   - key: brewing
-    name: 考订沿革
+    name: 候刊守志
     labels:
-      zh: 考订沿革
-    start_date: 1230
-    highlight_event_id: guji-常棠-event-1230-commission
+      zh: 守稿待时
+    start_date: 1237
+    highlight_event_id: guji-常棠-event-1237-revise
   - key: breakthrough
-    name: 简核取舍
+    name: 遇孙君知音
     labels:
-      zh: 简核取舍
-    start_date: 1230
-    highlight_event_id: guji-常棠-event-1231-complete
+      zh: 割俸募镌
+    start_date: 1256
+    highlight_event_id: guji-常棠-event-1257-publish
   - key: climax
-    name: 体例精严
+    name: 水军助梓
     labels:
-      zh: 体例告成
-    start_date: 1231
-    highlight_event_id: guji-常棠-event-1231-complete
+      zh: 捐料赞成
+    start_date: 1257
+    highlight_event_id: guji-常棠-event-1257-publish
   - key: closure
-    name: 后世取法
+    name: 刊行流传
     labels:
-      zh: 流传取法
-    start_date: 1781
-    highlight_event_id: guji-常棠-event-1781-anthology
+      zh: 志遇知音
+    start_date: 1257
+    highlight_event_id: guji-常棠-event-1257-publish
   decisions:
-  - date: 1231
-    title_zh: 定八卷四十四页之约体
-    rationale: 叙述简核纲目该备藻不妄抒使小镇大事皆有可考
-  - date: 1231
-    title_zh: 并存异说以俟考
-    rationale: 如吴越王庙黄道大王等俗传讹误并列考辨以存信
+  - date: 1256
+    title_zh: 以旧稿付孙君镌行
+    rationale: 孙君公谨廉敏明烛隐幽虽镇场废坏非畴曩比犹能趋办自足故托刊以传一方
+  - date: 1257
+    title_zh: 作序记刊刻本末
+    rationale: 书不刊于镇税全盛之前而刊于凋弊之后可嘉当书其遇如李吉甫志待张公刻于襄阳故事
 events:
 - id: guji-常棠-event-birth
-  title_zh: 出生于海盐
+  title_zh: 常棠出生
   date: 1190
   year_of: 1190
-  description: 常棠字召仲号竹溪生于海盐生年未详约在宋宁宗嘉定前后仕履未详
-- id: guji-常棠-event-death
-  title_zh: 卒于南宋之后
-  date: 1240
-  year_of: 1240
-  description: 澉水志成之后卒年未详行事仅见于四库提要及志首署名
-- id: guji-常棠-event-1230-commission
-  title_zh: 绍定三年受命作志
-  date: 1230
+  place_zh: 两浙嘉兴府一带
+  description_zh: 常棠字召仲号竹窗约生于南宋光宗绍熙年间后寓居海盐澉浦镇
+- id: guji-常棠-event-1230-entrust
+  title_zh: 罗叔韶属撰澉水志
+  date: 1230-09-08
   year_of: 1230
-  description: 监澉浦镇税修职郎罗叔韶使常棠为志始分门搜访澉浦地理山水户口税赋四至
-- id: guji-常棠-event-1231-complete
-  title_zh: 海盐澉水志八卷告成
-  date: 1231
-  year_of: 1231
-  description: 分地理山水廨舍坊巷坊场军寨亭堂桥梁学校寺庙古迹物产碑记诗咏十四门成书八卷凡四十四页叙述简核
-- id: guji-常棠-event-1781-anthology
-  title_zh: 四库馆臣题识称善
-  date: 1781
-  year_of: 1781
-  description: 乾隆四十六年纪昀等校上称其叙述简核纲目该备体例精严为韩邦奇朝邑县志之源
+  place_zh: 海盐澉浦镇
+  description_zh: 绍定三年重阳前一日监澉浦镇税兼烟火公事罗叔韶以郡邑志载澉水甚略属寓居是镇之常棠讨论闻见缀缉成编名曰澉水志
+- id: guji-常棠-event-1237-revise
+  title_zh: 逾政订正志稿益详
+  date: 1237
+  year_of: 1237
+  place_zh: 海盐澉浦镇
+  description_zh: 罗仪甫满去逾七八政常棠不废旧稿因岁既久订正尤详备载地理山水廨舍坊巷学校寺庙古迹物产及碑记诗咏
+- id: guji-常棠-event-1257-publish
+  title_zh: 澉水志得刊行
+  date: 1257
+  year_of: 1257
+  place_zh: 海盐澉浦镇
+  description_zh: 后二十七祀权镇孙君割已俸售募镌行水军袁统制捐梓料赞成常棠作序记其本末志遂镂板流传
+- id: guji-常棠-event-death
+  title_zh: 常棠去世
+  date: 1260
+  year_of: 1260
+  place_zh: 海盐澉浦镇一带
+  description_zh: 常棠于澉水志刊行后不久去世约在南宋理宗景定年间前后竹窗遗文以志传
