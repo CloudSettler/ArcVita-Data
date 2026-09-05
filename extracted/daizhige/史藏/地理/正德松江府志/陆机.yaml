@@ -6,157 +6,177 @@ person:
     en: Lu Ji
   lifespan:
     birth:
-      date: 177
+      date: '0261'
       precision: year
       is_circa: false
-      raw: 晋泰始七年
+      raw: 魏景元二年华亭长谷
     death:
-      date: 195
+      date: '0303'
       precision: year
       is_circa: false
-      raw: 晋太安二年
-  birth_date: 177
-  death_date: 195
+      raw: 晋太安二年遇害于军中
+  birth_date: '0261'
+  death_date: '0303'
   era: 西晋
-  reign_ref: 晋武帝至惠帝
-  archetype: 文章巨擘
+  reign_ref: 晋太安
+  archetype: 怀土文士殉节型
   dilemmas:
-  - 才高招忌而欲以功业自保
-  - 怀土恋乡而身系乱世驱驰
-  - 守道不易与轻于自售之世风相违
-  lesson: 空有经天纬地之文而无全身远害之智则盛名反为身累
-  summary_first_person: 余华亭崑山人也少以文章名江左吴亡入洛得中州士心服后为平原内史身陷八王之乱竟以谗被害文章虽传而不能自有其躬可悲也
+  - 怀土恋乡与入洛求名之两难
+  - 以文士领军与才位不适之困局
+  lesson: 空怀经纬而托身王室之争终致杀身当审时守分不贪非分之功
+  summary_first_person: 我本华亭长谷陆氏子少读于干山草堂望谷水昆山而怀土后作怀土赋以抒情终别乡入洛求仕以文领军败而殒命至今鹤唳犹闻于乡水
   source_urls:
-  - https://daizhige.org/史藏/地理/正德松江府志/卷12.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/正德松江府志/卷12.md
-  - https://shuiluo-jinmen-classics.daizhige.org/viewer?id=00077#p40
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B716.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B716.html
 endeavors:
 - id: guji-陆机-endeavor-1
-  person_id: guji-陆机
-  title_zh: 华亭力学以文章雄江左
-  summary: 生于华亭谷崑山陆氏力学为文藻丽迈往吴存时已擅雄江左
+  title_zh: 华亭谷水怀土著述
+  summary: 少居华亭长谷读书干山草堂作怀土赋及赠从兄诗以抒怀土之思
   phases:
   - key: brewing
-    name: 崑山养望
+    name: 干山草堂读书养志
     labels:
-      zh: 积累
-    start_date: 177
-    highlight_event_id: guji-陆机-event-birth
+      zh:
+      - 读书
+      - 养志
+    start_date: '0274'
+    highlight_event_id: guji-陆机-event-study
   - key: breakthrough
-    name: 江左驰声
+    name: 作怀土赋抒怀土之情
     labels:
-      zh: 崭露
-    start_date: 189
-    highlight_event_id: guji-陆机-event-fame-jiangzuo
+      zh:
+      - 辞赋
+      - 怀土
+    start_date: 0280
+    highlight_event_id: guji-陆机-event-huaitu
   - key: climax
-    name: 中州心服
+    name: 赠从兄车骑诗言谷水昆山
     labels:
-      zh: 高峰
-    start_date: 0282
-    highlight_event_id: guji-陆机-event-enter-jin
+      zh:
+      - 赠答
+      - 思归
+    start_date: 0285
+    highlight_event_id: guji-陆机-event-poem
   - key: closure
-    name: 二俊传名
+    name: 别华亭北上求仕
     labels:
-      zh: 沉淀
-    start_date: 195
-    highlight_event_id: guji-陆机-event-death
+      zh:
+      - 离乡
+      - 求仕
+    start_date: 0289
+    highlight_event_id: guji-陆机-event-north
   decisions:
   - date: 0280
-    title_zh: 吴亡不隐而应晋征
-    rationale: 欲以奇才济世不与草木俱朽故舍故就新入洛求展
-  - date: 0282
-    title_zh: 以文会友折服中州
-    rationale: 持藻丽迈往之作与中州酬唱证明江左亦有盛名之士
+    title_zh: 作怀土赋以自述
+    rationale: 去家渐久怀土弥笃欲以辞赋存故都之思寄栖鸟离禽之叹
+  - date: 0289
+    title_zh: 决意北上入洛
+    rationale: 吴亡之后不甘老于谷水欲以才学取功名于中朝故背乡而北游
 - id: guji-陆机-endeavor-2
-  person_id: guji-陆机
-  title_zh: 任平原内史陷八王之乱
-  summary: 出为平原内史后为成都王都督诸军河桥战败以谗被杀
+  title_zh: 入洛仕晋领军殒命
+  summary: 晋平吴后入洛历著作郎太子洗马终从成都王出军兵败遇害
   phases:
   - key: brewing
-    name: 入晋授官
+    name: 平吴后入洛交游名士
     labels:
-      zh: 蛰伏
-    start_date: 0284
-    highlight_event_id: guji-陆机-event-enter-jin
+      zh:
+      - 入洛
+      - 交游
+    start_date: 0289
+    highlight_event_id: guji-陆机-event-north
   - key: breakthrough
-    name: 平原建节
+    name: 历官著作郎显名中朝
     labels:
-      zh: 起用
+      zh:
+      - 入仕
+      - 文名
     start_date: 0290
-    highlight_event_id: guji-陆机-event-pingyuan
+    highlight_event_id: guji-陆机-event-office
   - key: climax
-    name: 河桥兵败
+    name: 从成都王领军出战
     labels:
-      zh: 危机
-    start_date: 195
-    highlight_event_id: guji-陆机-event-defeat
+      zh:
+      - 从戎
+      - 领军
+    start_date: '0303'
+    highlight_event_id: guji-陆机-event-battle
   - key: closure
-    name: 夷然就戮
+    name: 兵败被谗遇害军中
     labels:
-      zh: 收束
-    start_date: 195
+      zh:
+      - 兵败
+      - 殒命
+    start_date: '0303'
     highlight_event_id: guji-陆机-event-death
   decisions:
-  - date: 195
-    title_zh: 受成都王都督之命
-    rationale: 恩多报重不忍辞难欲以功赎文士之讥
-  - date: 195
-    title_zh: 兵败不逃直待罪
-    rationale: 守道不易不肯轻脱冀以忠义明白于天下
+  - date: 0290
+    title_zh: 就征入仕中朝
+    rationale: 欲展经纬之才洗吴人之耻故应召历官不守丘园之逸
+  - date: '0303'
+    title_zh: 从成都王出军
+    rationale: 受托领兵不便力辞欲以功成名立终以文士不知军而致败
 events:
 - id: guji-陆机-event-birth
   person_id: guji-陆机
-  title_zh: 生于华亭崑山陆氏
   type: birth
-  date: 177
+  title_zh: 生于华亭长谷陆氏
+  date: '0261'
   year_of: 261
-  place_zh: 华亭谷崑山
-  description: 昭侯之后世居华亭谷崑山之阴生机兄弟后以文章名世
-- id: guji-陆机-event-fame-jiangzuo
+  description: 陆机生于吴华亭长谷陆氏为陆逊之孙陆抗之子世封此土家于昆山谷水之间
+  location_zh: 华亭长谷
+- id: guji-陆机-event-study
   person_id: guji-陆机
-  title_zh: 以文章擅雄江左
-  type: achievement
-  date: 189
-  year_of: 275
-  place_zh: 吴华亭
-  description: 孙吴偏隅日寻干戈而机兄弟独以藻丽迈往之气擅雄江左
-- id: guji-陆机-event-enter-jin
+  type: study
+  title_zh: 少读干山草堂
+  date: '0274'
+  year_of: 274
+  description: 少日读书干山圆智寺草堂望海天禾黍而养志为后日辞赋之基
+  location_zh: 干山草堂
+- id: guji-陆机-event-huaitu
   person_id: guji-陆机
-  title_zh: 吴亡入晋名服中州
-  type: achievement
-  date: 0282
-  year_of: 282
-  place_zh: 洛阳
-  description: 吴亡入晋中州岂无能言者而皆心服举晋百余年而有盛名
-- id: guji-陆机-event-pingyuan
+  type: work
+  title_zh: 作怀土赋述怀乡之思
+  date: 0280
+  year_of: 280
+  description: 去家渐久作怀土赋背故都之沃衍适新邑之丘墟以抒恋乡之情
+  location_zh: 华亭
+- id: guji-陆机-event-poem
   person_id: guji-陆机
-  title_zh: 任平原内史
-  type: appointment
+  type: work
+  title_zh: 作赠从兄车骑诗言谷水昆山
+  date: 0285
+  year_of: 285
+  description: 赠从兄诗云髣髴谷水阳婉孌昆山阴营魂怀兹土精爽若飞沈以明不忘故乡
+  location_zh: 华亭谷水
+- id: guji-陆机-event-north
+  person_id: guji-陆机
+  type: career
+  title_zh: 别华亭北上入洛
+  date: 0289
+  year_of: 289
+  description: 吴亡后与弟云俱入洛交游名士声华藉甚历著作郎太子洗马等职
+  location_zh: 洛阳
+- id: guji-陆机-event-office
+  person_id: guji-陆机
+  type: career
+  title_zh: 仕晋显名中朝
   date: 0290
   year_of: 290
-  place_zh: 平原
-  description: 士衡为平原内史士龙为清河内史兄弟并显
-- id: guji-陆机-event-defeat
+  description: 仕晋以文才显于中朝辞藻宏丽张华所叹然怀土之心未尝忘谷水
+  location_zh: 洛阳
+- id: guji-陆机-event-battle
   person_id: guji-陆机
-  title_zh: 为成都王督军战败
   type: battle
-  date: 195
+  title_zh: 从成都王出军兵败
+  date: '0303'
   year_of: 303
-  place_zh: 河桥
-  description: 恩多报重宠极害深一阴一阳化施世清才良而步蹇终以谗败
+  description: 从成都王司马颖出军以文士领军众不服调度失宜师败于河桥
+  location_zh: 河桥
 - id: guji-陆机-event-death
   person_id: guji-陆机
-  title_zh: 被害于军中
   type: death
-  date: 195
+  title_zh: 遇害于军中
+  date: '0303'
   year_of: 303
-  place_zh: 军中
-  description: 能表表于斯世而不能自有其躬死而不朽久而竟存享年四十三
-- id: guji-陆机-event-erjun
-  person_id: guji-陆机
-  title_zh: 后世立二俊堂祀之
-  type: commemoration
-  date: 1199
-  year_of: 1199
-  place_zh: 松江府学东庑
-  description: 庆元五年徐民瞻立二俊堂于府学迁图像俎豆其中林至为记以风示学者
+  description: 兵败之后为宦人所谗成都王听之遂遇害于军中年四十三华亭故宅遂为空墟
+  location_zh: 军中

@@ -6,94 +6,127 @@ person:
     en: Zhou Chen
   lifespan:
     birth:
-      date: 1381
+      date: '1381'
       precision: year
       is_circa: false
-      raw: 明洪武十四年
+      raw: 洪武十四年生
     death:
-      date: 1453
+      date: '1453'
       precision: year
       is_circa: false
-      raw: 明景泰四年
-  birth_date: 1381
-  death_date: 1453
-  era: 明
-  reign_ref: 宣德至景泰
-  archetype: 抚治兴修之能臣
+      raw: 景泰四年卒
+  birth_date: '1381'
+  death_date: '1453'
+  era: 明代
+  reign_ref: 宣德正统景泰
+  archetype: 经世济民之循吏
   dilemmas:
-  - 兴作营建与不扰民力如何两全
-  - 催科考成与抚字安民如何兼顾
-  lesson: 善政在正己率下预为经画则民悦而事成
-  summary_first_person: 吾乃吉水周忱巡抚江南久驻吴淞命新上海华亭县治厅堂门庑使官有宁宇民不知劳又为文篆额以纪其成愿后之君子继此抚民惜费而已
+  - 重赋之下既要足国又要恤民养农之难
+  - 积贮救荒与官司侵耗监守之弊之难
+  lesson: 为政以预备为仁，平籴劝分与就近支给可使重赋之区凶年不饥
+  summary_first_person: 我是周忱，巡抚江南二十余年，见松江田赋特重而农贫失养，乃与知府赵豫协谋，于宣德七年行平籴劝分得米六万石，立济农仓以备赈济，又奏留北京将帅禄俸就松给之以省耗费，广储二十余万石，春夏施散秋冬敛补，使民遇旱饥而不流殍
   source_urls:
-  - https://daizhige.org/史藏/地理/正德松江府志/卷11.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/正德松江府志/卷11.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B714.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B714.md
 endeavors:
 - id: guji-周忱-endeavor-1
-  title_zh: 巡抚江南总理松江赋政
-  summary: 宣德正统间巡抚江南总督税粮抚安军民于松江兴废补弊
+  title_zh: 巡抚江南总理粮储
+  summary: 宣德五年起巡抚江南，减运耗，察民隐，以松江赋重为最忧，谋长久养民之政
   phases:
   - key: brewing
-    name: 受命巡抚
+    name: 受命巡抚江南
     labels:
-      zh: 赴镇江南
-    start_date: 1430
-    highlight_event_id: guji-周忱-event-1439
-  - key: climax
-    name: 命新县治
-    labels:
-      zh: 兴修官署
-    start_date: 1439
-    highlight_event_id: guji-周忱-event-1439
-  decisions:
-  - date: 1439
-    title_zh: 命知县张祯重建上海仪门堂寝
-    rationale: 县治堂寝敝坏不足以肃政体安吏民故檄令重建以焕然一新
-- id: guji-周忱-endeavor-2
-  title_zh: 倡修华亭县治并篆额纪成
-  summary: 华亭为畿内大邑厅堂颓弊嘉其令郭文直正己率下故许出官钱助修并为文篆额
-  phases:
+      zh: 巡抚
+    start_date: '1430'
+    highlight_event_id: guji-周忱-event-1430
   - key: breakthrough
-    name: 许修华亭
+    name: 察知松江农贫赋重
     labels:
-      zh: 允请兴作
-    start_date: 1444
-    highlight_event_id: guji-周忱-event-1452
+      zh: 察民瘼
+    start_date: '1431'
+    highlight_event_id: guji-周忱-event-1432a
+  - key: climax
+    name: 平籴劝分协谋赵豫
+    labels:
+      zh: 协谋
+    start_date: '1432'
+    highlight_event_id: guji-周忱-event-1432a
   - key: closure
-    name: 篆额勒石
+    name: 定为江南各郡成式
     labels:
-      zh: 纪成劝后
-    start_date: 1452-03-01
-    highlight_event_id: guji-周忱-event-1452
+      zh: 推行
+    start_date: '1433'
+    highlight_event_id: guji-周忱-event-1433
   decisions:
-  - date: 1444
-    title_zh: 允华亭县请出官钱市材募工
-    rationale: 令能正己可率下兴作有经画民乐趋事故允其请而不事掊克
-  - date: 1452-03-01
-    title_zh: 为华亭重建记篆额
-    rationale: 旌善政以劝来者使后人知正己惜民则功易就
+  - date: '1430'
+    title_zh: 请以侍郎巡抚江南兼理税粮
+    rationale: 东南赋重官民交困，非重臣久任不能变通经久
+  - date: '1432'
+    title_zh: 行平籴劝分之令
+    rationale: 趁丰年聚米于官，凶年尽发以赈，胜于临灾束手
+- id: guji-周忱-endeavor-2
+  title_zh: 创设松江济农仓
+  summary: 在华亭上海分贮平籴及省耗之米二十一万余石，春夏借贷秋收偿官，兼济运损与堤役
+  phases:
+  - key: brewing
+    name: 宣德七年秋逢稔奏行平籴
+    labels:
+      zh: 平籴
+    start_date: '1432'
+    highlight_event_id: guji-周忱-event-1432a
+  - key: breakthrough
+    name: 得米六万石分贮华亭上海
+    labels:
+      zh: 立仓
+    start_date: '1432'
+    highlight_event_id: guji-周忱-event-1432a
+  - key: climax
+    name: 奏留京俸就松支给省米十五万
+    labels:
+      zh: 省费益仓
+    start_date: '1433'
+    highlight_event_id: guji-周忱-event-1433
+  - key: closure
+    name: 定出纳条约择廉能掌管
+    labels:
+      zh: 定制
+    start_date: '1433'
+    highlight_event_id: guji-周忱-event-1433
+  decisions:
+  - date: '1432'
+    title_zh: 名仓曰济农专济农贫
+    rationale: 食者众而耕者贫，不济耕者则民无养，故以济农为本
+  - date: '1433'
+    title_zh: 请北京将帅禄俸就松江给发
+    rationale: 转输南京每六斗致一石之费太重，就近给发以省费之米益仓则农可无忧
 events:
 - id: guji-周忱-event-birth
   title_zh: 出生于吉水
-  date: 1381
+  date: '1381'
   year_of: 1381
-  place: 江西吉水
-  description: 明洪武十四年生于江西吉水字恂如
+  kind: birth
+  summary: 洪武十四年生于江西吉水，字恂如，后登永乐二年进士
+- id: guji-周忱-event-1430
+  title_zh: 巡抚江南
+  date: '1430'
+  year_of: 1430
+  kind: career
+  summary: 以工部侍郎巡抚江南诸府，总督税粮，至松江与知府赵豫议农贫赋重之弊
+- id: guji-周忱-event-1432a
+  title_zh: 行平籴劝分立济农仓
+  date: '1432'
+  year_of: 1432
+  kind: career
+  summary: 宣德七年秋吴中丰稔，奉诏平籴劝分得米六万石，分贮华亭上海，名曰济农仓，明年饥即发以赈松江饥民二十余万
+- id: guji-周忱-event-1433
+  title_zh: 奏省京俸运费以益农仓
+  date: '1433'
+  year_of: 1433
+  kind: career
+  summary: 奏请岁征北京将帅禄俸改就松江支给，省米十五万石，并各场赢余及平籴所贮凡二十一万余石，广二县仓以贮之，定春散秋敛之制
 - id: guji-周忱-event-death
-  title_zh: 卒于京师
-  date: 1453
+  title_zh: 卒于官
+  date: '1453'
   year_of: 1453
-  place: 京师
-  description: 明景泰四年卒于官历事宣德正统景泰三朝以巡抚江南著绩
-- id: guji-周忱-event-1439
-  title_zh: 命重建上海县仪门中堂
-  date: 1439
-  year_of: 1439
-  place: 上海县
-  description: 正统四年巡抚侍郎命知县张祯重建上海县仪门及中堂后寝焕然一新
-- id: guji-周忱-event-1452
-  title_zh: 为华亭县重建华亭记篆额
-  date: 1452-03-01
-  year_of: 1452
-  place: 华亭县
-  description: 景泰三年春华亭县重建落成以双崖周忱篆额勒石于学宫以纪郭文直之绩
+  kind: death
+  summary: 景泰四年卒，江南民闻之皆为流涕，松江济农仓法为后世所守

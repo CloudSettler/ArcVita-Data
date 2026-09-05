@@ -9,144 +9,136 @@ person:
       date: 0183
       precision: year
       is_circa: false
-      raw: 漢光和二年生於吳郡吳縣
+      raw: 漢光和二年
     death:
-      date: 0245-03-19
-      precision: day
+      date: '0245'
+      precision: year
       is_circa: false
-      raw: 吳赤烏七年二月卒於武昌
+      raw: 吳赤烏七年
   birth_date: 0183
-  death_date: 0245-03-19
+  death_date: '0245'
   era: 三國吳
-  reign_ref: 吳大帝孫權時
-  archetype: 儒將守正
+  reign_ref: 吳大帝孫權黃武至赤烏
+  archetype: 文武全功的儒將輔臣
   dilemmas:
-  - 以儒生領軍當如何韜晦忍讓以得眾心
-  - 以託孤重臣當如何守正直言以全社稷
-  lesson: 忍以待時謀定後動守正不阿方能安國全名
-  summary_first_person: 吾本吳郡吳縣陸氏子幼孤從祖父往江東弱冠仕孫權以書生領軍襲荊州破劉備於夷陵守石亭拒魏後以丞相輔政守正直言而終一生以忍讓成大功以忠貞全大節
+  - 背盟襲關羽而取荊州，義利兩難而以存吳為先
+  - 位極丞相而捲入太子之爭，直諫守正不惜觸怒君主
+  lesson: 以勞定國以身殉義，忍辱負重而後發制人，方能保全宗社於三分之世
+  summary_first_person: 吾本吳郡世族，以華亭為封邑始家，出仕孫氏幕府，襲荊州敗昭烈，守江東二十餘年，官至丞相，謚曰昭侯，鄉人立鎮西祠以報功，千載血食於斯土
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B701.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B715.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B715.md
 endeavors:
 - id: guji-陸遜-endeavor-1
-  title_zh: 荊州夷陵建功
-  summary_zh: 承呂蒙之後定荊州拒劉備以火攻大破蜀軍於夷陵遂為吳國上將封華亭侯
+  title_zh: 經略荊州與夷陵守成
+  summary: 贊呂蒙襲取荊州，繼而夷陵拒劉備，以堅忍待變轉危為安，奠定吳之疆土
   phases:
   - key: brewing
-    name: 韜晦養望
+    name: 幕府參贊蓄望江東
     labels:
-      zh:
-      - 韜晦
-      - 養望
-    start_date: 0208
-    highlight_event_id: guji-陸遜-event-birth
+      zh: 韜晦養望
+    start_date: '0203'
+    highlight_event_id: guji-陸遜-event-215
   - key: breakthrough
-    name: 襲荊取江陵
+    name: 代呂蒙謀取荊州
     labels:
-      zh:
-      - 荊州
-      - 華亭侯
+      zh: 示弱藏鋒
     start_date: 0219
-    highlight_event_id: guji-陸遜-event-fenghou
+    highlight_event_id: guji-陸遜-event-219
   - key: climax
-    name: 夷陵火攻破蜀
+    name: 夷陵堅守火破蜀軍
     labels:
-      zh:
-      - 夷陵
-      - 火攻
-    start_date: 146
-    highlight_event_id: guji-陸遜-event-yiling
+      zh: 以逸待勞
+    start_date: '0222'
+    highlight_event_id: guji-陸遜-event-222
   - key: closure
-    name: 石亭拒魏加鎮
+    name: 拜輔國將軍封江陵侯
     labels:
-      zh:
-      - 石亭
-      - 鎮軍
-    start_date: 0228
-    highlight_event_id: guji-陸遜-event-shiting
+      zh: 功成受封
+    start_date: '0223'
+    highlight_event_id: guji-陸遜-event-222
   decisions:
-  - date: 0219-11
-    title_zh: 上書勸擒關羽定荊州
-    rationale: 關羽驕矜荊州空虛宜與呂蒙協謀先定江陵以絕後患
-  - date: 0222-06
-    title_zh: 堅守夷道待蜀軍疲弊
-    rationale: 劉備連營七百里銳氣正盛宜避其鋒忍以待變後以火攻一舉破之
+  - date: 0219
+    title_zh: 贊成襲取荊州之謀
+    rationale: 荊州為吳蜀必爭，關羽驕矜北伐，宜與曹魏連和，先剪羽翼以全江東，故書贊呂蒙，密圖南郡
+  - date: '0222'
+    title_zh: 堅壁不戰以待蜀疲
+    rationale: 劉備憤兵東下鋒銳，不可與爭，退守夷陵，避其銳氣，待其分營散處，機至則火攻破之
 - id: guji-陸遜-endeavor-2
-  title_zh: 秉政輔國守正
-  summary_zh: 出鎮荊州武昌入為丞相輔太子直言匡正不附權貴以守正見忌而終
+  title_zh: 丞相輔政與華亭報功
+  summary: 出將入相領荊州牧，晚年居丞相輔佐國政，直諫護太子，歿後配享華亭鎮西廟
   phases:
   - key: brewing
-    name: 出鎮荊州
+    name: 撫邊鎮西累功進封
     labels:
-      zh:
-      - 荊州
-      - 武昌
-    start_date: 146
-    highlight_event_id: guji-陸遜-event-yiling
+      zh: 開拓封疆
+    start_date: '0224'
+    highlight_event_id: guji-陸遜-event-222
   - key: breakthrough
-    name: 拜上大將軍輔太子
+    name: 石頭卻魏揚威四方
     labels:
-      zh:
-      - 輔政
-      - 太子
-    start_date: 0229
-    highlight_event_id: guji-陸遜-event-shiting
+      zh: 捍禦大患
+    start_date: '0234'
+    highlight_event_id: guji-陸遜-event-244
   - key: climax
-    name: 為丞相直言諫爭
+    name: 拜丞相領荊州牧輔政
     labels:
-      zh:
-      - 丞相
-      - 諫爭
-    start_date: 164
-    highlight_event_id: guji-陸遜-event-shiting
+      zh: 位極人臣
+    start_date: '0244'
+    highlight_event_id: guji-陸遜-event-244
   - key: closure
-    name: 憂憤守節而卒
+    name: 華亭立廟昭侯血食
     labels:
-      zh:
-      - 守正
-      - 憂卒
-    start_date: 165
+      zh: 鄉邦尸祀
+    start_date: '0245'
     highlight_event_id: guji-陸遜-event-death
   decisions:
-  - date: 162
-    title_zh: 上疏保全太子和與魯王
-    rationale: 嫡庶不分必亂社稷宜保太子以安國本不附二宮以遠禍
-  - date: 0244-05
-    title_zh: 力辭丞相兼領仍直言時政
-    rationale: 權柄太重當辭以避嫌然國事闕失不敢默以全臣節
+  - date: '0244'
+    title_zh: 受丞相之任總理國事
+    rationale: 孫權倚重文武全才，授以丞相荊州牧，欲託後事，故以社稷為念，受命輔政，共治曹魏
+  - date: '0245'
+    title_zh: 上疏直諫保全太子
+    rationale: 儲位動搖國本不安，明知觸怒亦盡忠懇至，寧以身殉義，不負託孤之誠
 events:
 - id: guji-陸遜-event-birth
-  type: birth
-  title_zh: 生於吳郡吳縣
+  title_zh: 誕生於吳郡吳縣陸氏
   date: 0183
   year_of: 183
+  kind: birth
   place_zh: 吳郡吳縣
-  summary_zh: 漢光和二年生於吳郡大族陸氏幼孤從祖廬江太守陸康育之
-- id: guji-陸遜-event-fenghou
-  type: career
-  title_zh: 定荊州封華亭侯
-  date: 0219-12
+  description: 漢光和二年生，世居華亭故地，少孤好學有文武長才，後仕孫權幕府
+- id: guji-陸遜-event-215
+  title_zh: 初仕幕府累拜校尉
+  date: '0215'
+  year_of: 215
+  kind: career
+  place_zh: 江東
+  description: 孫權為將軍時始仕幕府，以功累拜，後封華亭侯，華亭始見於志，自此生齒日繁
+- id: guji-陸遜-event-219
+  title_zh: 贊呂蒙襲取荊州
+  date: 0219
   year_of: 219
-  place_zh: 江陵
-  summary_zh: 協呂蒙襲取荊州建安二十四年封華亭侯松江華亭之地始見吳志
-- id: guji-陸遜-event-yiling
-  type: career
-  title_zh: 夷陵大破劉備
-  date: 0222-08
+  kind: career
+  place_zh: 荊州南郡
+  description: 代呂蒙為右護軍，密啟孫權與魏連和，揚兵相應，襲取江陵，生擒關羽，遂拜撫邊將軍封婁侯
+- id: guji-陸遜-event-222
+  title_zh: 夷陵大破劉備拜大將軍
+  date: '0222'
   year_of: 222
-  place_zh: 夷陵夷道
-  summary_zh: 以大都督領兵五萬堅守半年乘蜀軍疲敝火攻連營大破劉備拜輔國將軍
-- id: guji-陸遜-event-shiting
-  type: career
-  title_zh: 石亭破曹休
-  date: 0228-08
-  year_of: 228
-  place_zh: 皖石亭
-  summary_zh: 與周魴設謀誘魏大司馬曹休深入以三路夾擊大破魏軍拜上大將軍
+  kind: career
+  place_zh: 夷陵猇亭
+  description: 黃武元年率軍拒蜀，堅守七月火攻連營，大破昭烈，拜上大將軍領荊州牧，改封江陵侯，保江東不為曹氏所窺
+- id: guji-陸遜-event-244
+  title_zh: 拜丞相輔佐國政
+  date: '0244'
+  year_of: 244
+  kind: career
+  place_zh: 建業
+  description: 赤烏七年以前拜丞相，文武全功與國始終，上疏諫爭儲事，憂國忘身，忠誠懇至
 - id: guji-陸遜-event-death
-  type: death
-  title_zh: 卒於武昌
-  date: 0245-03-19
+  title_zh: 卒於任謚曰昭侯配享華亭
+  date: '0245'
   year_of: 245
-  place_zh: 武昌
-  summary_zh: 以丞相輔政直言忤孫權憂憤而卒年六十三諡曰昭
+  kind: death
+  place_zh: 建業
+  description: 赤烏七年卒，謚昭侯，族子陸凱繼鎮西之號，松江府治東立鎮西輔國將軍廟，合祀遜凱及子抗，春秋致祭
