@@ -6,162 +6,144 @@ person:
     en: Cai Xiang
   lifespan:
     birth:
-      date: 1012-03-07
-      precision: day
-      is_circa: false
-      raw: 大中祥符五年二月十二
+      date: 1012
+      precision: year
+      is_circa: true
+      raw: 仙游人约生于大中祥符五年
     death:
-      date: 1067-09-27
-      precision: day
+      date: 1067
+      precision: year
       is_circa: false
-      raw: 治平四年八月十六
-  birth_date: 1012-03-07
-  death_date: 1067-09-27
+      raw: 卒年五十有六
+  birth_date: 1012
+  death_date: 1067
   era: 北宋
-  reign_ref: 仁宗至英宗
-  archetype: 直谏循吏
+  reign_ref: 宋仁宗庆历嘉祐
+  archetype: 兴利除弊的循吏文臣
   dilemmas:
-  - 直言谏君恐触怒贬逐与缄默保身之间两难
-  - 兴建洛阳桥耗费民力与便利往来长利之间权衡
-  lesson: 以直道事君以实惠及民方为不负所学
-  summary_first_person: 吾仙游蔡襄字君谟以进士事仁宗历台谏以直闻出守福杭兴水利建桥梁晚年书学传世但求无愧于心
+  - 豪猾堙湖为田与溉田养民之间的取舍
+  - 厚葬奉佛糜费与移风易俗之间的权衡
+  lesson: 兴水利减赋以养民兴经学禁鄙俗以善俗方为长治
+  summary_first_person: 吾仙游人天圣登科庆历嘉祐两知福州复五塘减丁赋延师课士禁丧葬侈靡与巫蛊但求实学成人无愧汗青
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20
-  - https://ctext.org/wiki.pl?if=gb&res=326409
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%BE%AF%E5%AE%98%E5%8E%BF%E4%B9%A1%E5%9C%9F%E5%BF%97.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%BE%AF%E5%AE%98%E5%8E%BF%E4%B9%A1%E5%9C%9F%E5%BF%97.md
 endeavors:
 - id: guji-蔡襄-endeavor-1
-  title_zh: 庆历台谏直言
-  summary: 任右正言谏官直论时政不避权贵
+  title_zh: 庆历知福州复塘减赋兴学
+  summary: 庆历间首知福州复古五塘溉田奏减王氏旧丁口赋之半延师增廪以振文教
   phases:
   - key: brewing
-    name: 进士入馆酝酿
+    name: 察访水利赋弊学衰
     labels:
       zh:
-      - 养望
-      - 馆阁
-    start_date: 1028-01-01
-    highlight_event_id: guji-蔡襄-event-jinshi
+      - 察访
+      - 兴利
+    start_date: 1041
+    highlight_event_id: guji-蔡襄-event-fuzhou1
   - key: breakthrough
-    name: 拜右正言突破
+    name: 复古五塘奏减丁赋
     labels:
       zh:
-      - 台谏
-      - 直谏
-    start_date: 1043-01-01
-    highlight_event_id: guji-蔡襄-event-jian
+      - 复塘
+      - 减赋
+    start_date: 1042
+    highlight_event_id: guji-蔡襄-event-fuzhou1
   - key: climax
-    name: 论事切直高潮
+    name: 溉田得利士风向学
     labels:
       zh:
-      - 庆历新政
-      - 谏诤
-    start_date: 1044-01-01
-    highlight_event_id: guji-蔡襄-event-jian
+      - 溉田
+      - 兴学
+    start_date: 1043
+    highlight_event_id: guji-蔡襄-event-fuzhou1
   - key: closure
-    name: 出守福州收束
+    name: 丁艰去任民怀其惠
     labels:
       zh:
-      - 外放
-      - 收束
-    start_date: 1045-01-01
-    highlight_event_id: guji-蔡襄-event-fuzhou
+      - 去任
+      - 怀惠
+    start_date: 1045
+    highlight_event_id: guji-蔡襄-event-fuzhou1
   decisions:
-  - date: 1043-08-01
-    title_zh: 受命不辞台谏
-    rationale: 念国家养士当以直报故受右正言直陈得失
-  - date: 1044-03-01
-    title_zh: 上疏论用人行政
-    rationale: 以为宰执进退关乎风化故冒犯言之不顾身祸
+  - date: 1042
+    title_zh: 复古五塘以溉田
+    rationale: 塘废则旱涝无备复塘可溉田养民故首兴水利
+  - date: 1043
+    title_zh: 奏减丁口赋之半
+    rationale: 王氏旧赋过重民困不堪奏减以纾民力
+  - date: 1044
+    title_zh: 延师增廪教士
+    rationale: 景祐建学弦诵尚稀须延师增廪以勉实学
 - id: guji-蔡襄-endeavor-2
-  title_zh: 闽浙牧守兴利
-  summary: 知福州泉州杭州兴水利建洛阳桥养民育士
+  title_zh: 嘉祐再知福州疏湖课士禁俗
+  summary: 嘉祐初再知福州疏附城湖浦延礼周希孟陈烈陈襄郑穆诸先生以经学课士禁厚葬奉佛与巫蛊
   phases:
   - key: brewing
-    name: 福州察访民隐
+    name: 再至察湖湮俗弊
     labels:
       zh:
-      - 循吏
-      - 民瘼
-    start_date: 1045-01-01
-    highlight_event_id: guji-蔡襄-event-fuzhou
+      - 再任
+      - 察弊
+    start_date: 1056
+    highlight_event_id: guji-蔡襄-event-fuzhou2
   - key: breakthrough
-    name: 主持洛阳桥营造
+    name: 疏湖浦延礼诸先生
     labels:
       zh:
-      - 建桥
-      - 筏基
-    start_date: 1053-01-01
-    highlight_event_id: guji-蔡襄-event-luoyangqiao
+      - 疏湖
+      - 礼贤
+    start_date: 1057
+    highlight_event_id: guji-蔡襄-event-fuzhou2
   - key: climax
-    name: 泉杭政绩大著
+    name: 以经学课士禁丧葬巫蛊
     labels:
       zh:
-      - 牧守
-      - 惠政
-    start_date: 1064-01-01
-    highlight_event_id: guji-蔡襄-event-hangzhou
+      - 课士
+      - 禁俗
+    start_date: 1058
+    highlight_event_id: guji-蔡襄-event-fuzhou2
   - key: closure
-    name: 端明学士归全
+    name: 俗变为端明学士
     labels:
       zh:
-      - 书学
-      - 归全
-    start_date: 1067-01-01
-    highlight_event_id: guji-蔡襄-event-death
+      - 移风
+      - 升任
+    start_date: 1059
+    highlight_event_id: guji-蔡襄-event-fuzhou2
   decisions:
-  - date: 1053-06-01
-    title_zh: 决计以筏基种蛎法建洛阳桥
-    rationale: 万安渡波涛险绝欲以长桥通泉漳故不惜工费创为新法
-  - date: 1064-05-01
-    title_zh: 杭州浚湖筑堤劝学养士
-    rationale: 以西湖湮废民田旱涝故兴水利以安民以学校以育才
+  - date: 1057
+    title_zh: 疏附城湖浦
+    rationale: 湖浦湮则潴泄失宜疏之以备旱涝溉田
+  - date: 1058
+    title_zh: 延礼诸先生以经学课士
+    rationale: 非实学无以成人延礼贤者专课经学以成有用之才
+  - date: 1058
+    title_zh: 禁厚葬奉佛与巫觋蛊毒
+    rationale: 富者倾产贫者称贷巫觋毒蛊杀人皆害民败俗故严禁绝
 events:
 - id: guji-蔡襄-event-birth
-  type: birth
-  date: 1012-03-07
+  date: 1012
   year_of: 1012
   title_zh: 生于仙游
-  description: 大中祥符五年二月生于兴化军仙游蔡氏
-  location: 仙游
+  description: 仙游人字君谟约生于宋真宗大中祥符五年
 - id: guji-蔡襄-event-jinshi
-  type: career
-  date: 1028-02-01
-  year_of: 1028
-  title_zh: 登天圣八年进士第
-  description: 登进士第授漳州军事判官渐入馆阁
-  location: 开封
-- id: guji-蔡襄-event-jian
-  type: career
-  date: 1043-10-01
-  year_of: 1043
-  title_zh: 任右正言直谏
-  description: 庆历三年任右正言修起居注屡疏论政人称直臣
-  location: 开封
-- id: guji-蔡襄-event-fuzhou
-  type: career
-  date: 1045-06-01
-  year_of: 1045
-  title_zh: 知福州
-  description: 出知福州兴学校劝农桑为政简严民便之
-  location: 福州
-- id: guji-蔡襄-event-luoyangqiao
-  type: career
-  date: 1053-12-01
-  year_of: 1053
-  title_zh: 建洛阳桥
-  description: 知泉州主持营造万安桥以筏基固址种蛎固石海内称奇
-  location: 泉州洛阳江
-- id: guji-蔡襄-event-hangzhou
-  type: career
-  date: 1064-04-01
-  year_of: 1064
-  title_zh: 知杭州
-  description: 治平元年知杭州浚西湖兴水利政声益著加端明殿学士
-  location: 杭州
+  date: 1030
+  year_of: 1030
+  title_zh: 天圣登进士第
+  description: 天圣中擢进士第步入仕途以孝直闻
+- id: guji-蔡襄-event-fuzhou1
+  date: 1042
+  year_of: 1042
+  title_zh: 庆历知福州复五塘减丁赋
+  description: 庆历间知福州始复古五塘以溉田奏减丁口赋之半延师增廪教士寻以丁外艰去
+- id: guji-蔡襄-event-fuzhou2
+  date: 1057
+  year_of: 1057
+  title_zh: 嘉祐再知福州疏湖禁俗课士
+  description: 嘉祐初再知福州疏附城湖浦延礼周希孟陈烈陈襄郑穆诸先生以经学课士禁厚葬奉佛与巫蛊闽俗为变
 - id: guji-蔡襄-event-death
-  type: death
-  date: 1067-09-27
+  date: 1067
   year_of: 1067
-  title_zh: 卒于杭州任上
-  description: 治平四年八月卒于杭州赠吏部侍郎谥忠惠
-  location: 杭州
+  title_zh: 拜端明殿学士后卒
+  description: 后拜端明殿学士卒年五十有六以忠勤文治为闽人所思

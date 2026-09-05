@@ -1,0 +1,143 @@
+person:
+  qid: guji-杨业
+  name_zh: 杨业
+  names:
+    zh: 杨业
+    en: Yang Ye
+  lifespan:
+    birth:
+      date: 0927
+      precision: year
+      is_circa: true
+      raw: 约后唐明宗天成二年生于麟州
+    death:
+      date: 0986-08
+      precision: month
+      is_circa: false
+      raw: 宋太宗雍熙三年八月卒于陈家谷
+  birth_date: 0927
+  death_date: 0986-08
+  era: 五代北宋
+  reign_ref: 宋太宗雍熙
+  archetype: 忠臣名将
+  dilemmas:
+  - 北汉灭亡后殉旧国还是率旧部归宋以存活人
+  - 雍熙北伐中持重守雁门还是孤军护粮深入应敌
+  lesson: 精忠许国身陷绝境亦不辱节
+  summary_first_person: 吾本麟州边将少事北汉后归宋镇雁门屡破契丹终以雍熙北伐护粮至陈家谷绝食殉国但求无愧忠义
+  source_urls:
+  - https://daizhige.org/史藏/地理/保德州志.html
+endeavors:
+- id: guji-杨业-endeavor-1
+  name_zh: 北汉效力与归宋镇边
+  summary_zh: 自北汉建雄军节度使至归宋知代州镇守雁门
+  phases:
+  - key: brewing
+    name: 麟州成长投北汉
+    labels:
+      zh: 边塞历练
+    start_date: 0945
+    highlight_event_id: guji-杨业-event-jianxiong
+  - key: breakthrough
+    name: 建雄留后威震边陲
+    labels:
+      zh: 崭露头角
+    start_date: 0970
+    highlight_event_id: guji-杨业-event-jianxiong
+  - key: climax
+    name: 北汉亡后归宋授职
+    labels:
+      zh: 易代抉择
+    start_date: 0979
+    highlight_event_id: guji-杨业-event-guisong
+  - key: closure
+    name: 知代州兼三交部署
+    labels:
+      zh: 镇守雁门
+    start_date: 0980
+    highlight_event_id: guji-杨业-event-yanmen
+  decisions:
+  - date: 0979
+    title_zh: 北汉亡后率部归宋
+    rationale: 为保全麾下将士并得展报国之志
+  - date: 0980
+    title_zh: 请镇雁门御契丹
+    rationale: 熟悉边情愿当冲要以屏蔽中原
+- id: guji-杨业-endeavor-2
+  name_zh: 雍熙北伐陈家谷殉国
+  summary_zh: 随潘美北征护粮转战至陈家谷被执绝食而死
+  phases:
+  - key: brewing
+    name: 受诏随军北征
+    labels:
+      zh: 奉命出塞
+    start_date: 0986-01
+    highlight_event_id: guji-杨业-event-beizheng
+  - key: breakthrough
+    name: 攻克寰朔云应诸州
+    labels:
+      zh: 连克城池
+    start_date: 0986-03
+    highlight_event_id: guji-杨业-event-beizheng
+  - key: climax
+    name: 护民内徙力战掩护
+    labels:
+      zh: 孤军护粮
+    start_date: 0986-07
+    highlight_event_id: guji-杨业-event-chenjiagu
+  - key: closure
+    name: 陈家谷被执绝食殉国
+    labels:
+      zh: 以身殉义
+    start_date: 0986-08
+    highlight_event_id: guji-杨业-event-chenjiagu-death
+  decisions:
+  - date: 0986-07
+    title_zh: 力陈不可与契丹正面决战请护粮而行
+    rationale: 侦知契丹盛兵待战当避锐护民以全师
+  - date: 0986-08
+    title_zh: 被执后绝食不仕二主
+    rationale: 身为宋将受国厚恩不可屈节事敌
+events:
+- id: guji-杨业-event-birth
+  title_zh: 生于麟州
+  date: 0927
+  year_of: 927
+  place_zh: 麟州
+  description_zh: 约后唐明宗时生于麟州世为边将保德流寓所载人物之一
+  event_type: birth
+- id: guji-杨业-event-jianxiong
+  title_zh: 任北汉建雄军节度使
+  date: 0972
+  year_of: 972
+  place_zh: 太原
+  description_zh: 事北汉刘氏累迁建雄军节度使号杨无敌
+  event_type: career
+- id: guji-杨业-event-guisong
+  title_zh: 北汉平后归宋
+  date: 0979
+  year_of: 979
+  place_zh: 太原
+  description_zh: 宋太宗平北汉率部归宋授右领军卫大将军大同知府
+  event_type: career
+- id: guji-杨业-event-yanmen
+  title_zh: 镇守雁门大破契丹
+  date: 0980
+  year_of: 980
+  place_zh: 代州雁门
+  description_zh: 知代州兼三交驻泊兵马部署屡出雁门击破契丹辽兵畏之
+  event_type: career
+- id: guji-杨业-event-beizheng
+  title_zh: 随潘美雍熙北伐
+  date: 0986-03
+  year_of: 986
+  place_zh: 寰州朔州
+  description_zh: 为西路副都部署随潘美出雁门连下寰朔云应四州
+  event_type: career
+- id: guji-杨业-event-chenjiagu-death
+  title_zh: 陈家谷殉国
+  date: 0986-08
+  year_of: 986
+  place_zh: 陈家谷
+  description_zh: 护粮转战至陈家谷遇伏孤立无援被执绝食三日而死追赠太尉
+  event_type: death
