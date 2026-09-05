@@ -3,7 +3,7 @@ person:
   name_zh: 弘历
   names:
     zh: 弘历
-    en: Hongli
+    en: Qianlong Emperor
   lifespan:
     birth:
       date: 1711-09-25
@@ -17,86 +17,132 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清
+  era: 清代
   reign_ref: 乾隆
-  archetype: 勤政肃吏之君
+  archetype: 勤政敷恩之君
   dilemmas:
-  - 宽仁养玩与严惩儆戒之衡
-  - 海疆辽阔与文武推诿废弛之弊
-  lesson: 吏治营伍贵在实心整饬不可因循姑息久而生懈
-  summary_first_person: 朕弘历临御五十余载夙夜孜孜以整饬吏治肃清海疆为念闽浙文武玩弛必严加惩创以除积习而安民生
+  - title_zh: 覃恩与国计之衡
+    description_zh: 八旬欲普免天下钱粮以同乐又虑仓储国用故分三年轮免先及灾缓之区
+  - title_zh: 抚新附与防构衅之难
+    description_zh: 既优礼阮光平示怀柔又须防范黎氏遗臣藉词复仇散布谣言滋事
+  lesson: 居高能恤下施恩而有节抚远而有防方能绵国庆而保安乐
+  summary_first_person: 朕临御五十五年仰荷昊苍眷佑寿臻八袠五代同堂以覃恩蠲赋惠佃抚藩为心愿与兆民共享升平
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71329.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71329.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71346.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71346.md
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 严饬闽省整顿窃案缉捕
-  summary: 针对晋江知县玩匿窃案革职拏问并严饬督抚实力整饬海疆吏治
+  person_id: guji-弘历
+  title_zh: 八旬万寿覃恩蠲赋
+  summary_zh: 以八旬寿辰颁诏天下普免乾隆五十五年钱粮分三年轮免并谕业主减租惠佃
   phases:
   - key: brewing
-    name: 闽省盗窃频闻积习未悛
+    name: 历年三免酝酿
     labels:
-      zh: 海疆吏治
-    start_date: 1789-05-01
-    highlight_event_id: guji-弘历-event-1
-  - key: climax
-    name: 革苏登莱严饬伍拉纳徐嗣曾
-    labels:
-      zh: 严惩儆戒
-    start_date: 1789-06-01
-    highlight_event_id: guji-弘历-event-1
-  decisions:
-  - date: 1789-06-01
-    title_zh: 革苏登莱职拏问待获犯解部治罪
-    rationale: 海疆重地玩匿窃案不可不重惩以儆不实力缉捕者
-  - date: 1789-06-02
-    title_zh: 传旨严饬伍拉纳徐嗣曾实力整饬
-    rationale: 督抚久任藩司未能整顿咎难辞须倍加感愧除积习赎前愆
-- id: guji-弘历-endeavor-2
-  title_zh: 办理浙江洋面劫杀整顿营制
-  summary: 针对健跳关口盗劫杀命革职文武并令巡抚兼理营务以速要案办理
-  phases:
+      zh: 酝酿施恩
+    start_date: 1745-01-01
+    highlight_event_id: guji-弘历-event-1790-taxfree
   - key: breakthrough
-    name: 浙洋盗劫杀毙多命事发
+    name: 元旦颁诏覃恩
     labels:
-      zh: 海洋缉盗
-    start_date: 1789-04-02
-    highlight_event_id: guji-弘历-event-2
+      zh: 颁诏敷锡
+    start_date: 1790-02-14
+    highlight_event_id: guji-弘历-event-1790-amnesty
+  - key: climax
+    name: 轮免议定三年遍沾
+    labels:
+      zh: 定制轮免
+    start_date: 1790-02-19
+    highlight_event_id: guji-弘历-event-1790-taxfree
   - key: closure
-    name: 革职缉凶改定浙营兼理之制
+    name: 晓谕减租惠佃
     labels:
-      zh: 营制改革
-    start_date: 1789-06-10
-    highlight_event_id: guji-弘历-event-2
+      zh: 惠及佃户
+    start_date: 1790-02-20
+    highlight_event_id: guji-弘历-event-1790-taxfree
   decisions:
-  - date: 1789-06-10
-    title_zh: 将姜起荣爱新泰刘文敏革职拏问严缉正盗
-    rationale: 凶盗劫杀多命玩忽不报非严惩不足以儆废弛
-  - date: 1789-06-11
-    title_zh: 命浙江巡抚就近兼理各营遇要案专摺奏闻
-    rationale: 浙营远隶闽督往返稽迟巡抚推诿须就近责成专摺速办
+  - date: 1790-02-14
+    title_zh: 普免五十五年各直省应徵钱粮
+    rationale: 以八旬寿辰率土称庆梯航祝嘏宜广宣湛闿以答嘉贶
+  - date: 1790-02-19
+    title_zh: 命按府州搭配分三次按年轮免
+    rationale: 使恩施早被远近齐沾先尽灾缓之区以裨灾黎并防吏胥影射
+  - date: 1790-02-20
+    title_zh: 谕业主量减佃户地租
+    rationale: 业主既免徵输佃户仍全交租未免向隅故令推爱民之心自行酌减
+- id: guji-弘历-endeavor-2
+  person_id: guji-弘历
+  title_zh: 抚定安南怀柔灾黎
+  summary_zh: 封阮光平为藩优礼朝觐安置黎氏遗属并加赈直隶湖北江苏河南被水灾民
+  phases:
+  - key: brewing
+    name: 阮氏归诚黎氏内投
+    labels:
+      zh: 藩部归向
+    start_date: 1789-01-01
+    highlight_event_id: guji-弘历-event-1790-annam
+  - key: breakthrough
+    name: 锡封接见安南使
+    labels:
+      zh: 锡封优礼
+    start_date: 1790-02-17
+    highlight_event_id: guji-弘历-event-1790-annam
+  - key: climax
+    name: 议定抱见 separ 黎氏编旗
+    labels:
+      zh: 安置防范
+    start_date: 1790-02-18
+    highlight_event_id: guji-弘历-event-1790-annam
+  - key: closure
+    name: 普加赈展赈抚恤
+    labels:
+      zh: 赈恤穷檐
+    start_date: 1790-02-15
+    highlight_event_id: guji-弘历-event-1790-relief
+  decisions:
+  - date: 1790-02-17
+    title_zh: 令阮光平来京祝嘏行抱见礼
+    rationale: 以该国王躬诣阙廷出于至诚特昭异数以示宠眷令福康安先谕使习仪
+  - date: 1790-02-18
+    title_zh: 黎维祁属下分别送京编佐领余分省入伍
+    rationale: 送京人数太多故限八十户内送京入汉军余送江南浙江四川安插以资约束
+  - date: 1790-02-15
+    title_zh: 展赈直隶湖北江苏河南灾民
+    rationale: 正赈已毕青黄不接民食拮据故加恩展赈一月并借耔种平粜以副春祺
 events:
 - id: guji-弘历-event-birth
-  title_zh: 弘历诞生
+  person_id: guji-弘历
   date: 1711-09-25
   year_of: 1711
-  place_zh: 北京雍亲王府
-  description: 康熙五十年八月十三日生为雍亲王胤禛第四子后即位年号乾隆
+  title_zh: 生于雍亲王府
+  description_zh: 康熙五十年八月十三日生为雍亲王胤禛第四子后承大统年号乾隆
 - id: guji-弘历-event-death
-  title_zh: 弘历驾崩
+  person_id: guji-弘历
   date: 1799-02-07
   year_of: 1799
-  place_zh: 北京紫禁城养心殿
-  description: 嘉庆四年正月初三日崩年八十九谥法天隆运至诚先觉体元立极敷文奋武孝慈神圣纯皇帝
-- id: guji-弘历-event-1
-  title_zh: 严办晋江知县苏登莱玩匿窃案
-  date: 1789-06-01
-  year_of: 1789
-  place_zh: 福建晋江
-  description: 乾隆五十四年五月以苏登莱于地方报窃不认真严缉详报降旨革职拏问俟获犯完结解部治罪并严饬伍拉纳徐嗣曾整饬
-- id: guji-弘历-event-2
-  title_zh: 严办浙江健跳洋盗案并定巡抚兼理营务
-  date: 1789-06-10
-  year_of: 1789
-  place_zh: 浙江宁海健跳关口海面
-  description: 乾隆五十四年五月以盗船围劫渔船杀毙多命守备不收办将姜起荣等革职拏问饬缉正盗并命浙江巡抚就近兼理各营
+  title_zh: 崩于养心殿
+  description_zh: 嘉庆四年正月初三日崩寿八十有九归政后仍训政以善终
+- id: guji-弘历-event-1790-amnesty
+  person_id: guji-弘历
+  date: 1790-02-14
+  year_of: 1790
+  title_zh: 八旬万寿颁诏天下
+  description_zh: 乾隆五十五年正月壬午朔御太和殿受朝以八旬万寿颁诏覃恩列款加赈旌表蠲缓等事
+- id: guji-弘历-event-1790-taxfree
+  person_id: guji-弘历
+  date: 1790-02-19
+  year_of: 1790
+  title_zh: 普免钱粮议定轮免
+  description_zh: 谕普免五十五年各直省应徵钱粮命大学士会户部按府州搭配分三年轮免先尽灾缓之区并谕业主减收佃租
+- id: guji-弘历-event-1790-annam
+  person_id: guji-弘历
+  date: 1790-02-17
+  year_of: 1790
+  title_zh: 宴赉安南使议抱见礼
+  description_zh: 御紫光阁赐安南正使阮宏匡等宴朱批阮光平谢表谕其三月赴京祝寿到京行抱见礼并处分黎氏遗臣解京安插事
+- id: guji-弘历-event-1790-relief
+  person_id: guji-弘历
+  date: 1790-02-15
+  year_of: 1790
+  title_zh: 加恩展赈四省灾民
+  description_zh: 以湖北荆门潜江等处江苏徐淮等处直隶顺天保定等处河南永城等处被水青黄不接分别展赈一月借给耔种口粮
