@@ -1,0 +1,130 @@
+person:
+  qid: guji-刘孟保
+  name_zh: 刘孟保
+  names:
+    zh: 刘孟保
+    en: Liu Mengbao
+  lifespan:
+    birth:
+      date: 1300
+      precision: year
+      is_circa: true
+      raw: 约元大德年间生
+    death:
+      date: 1360
+      precision: year
+      is_circa: true
+      raw: 元末失考
+  birth_date: 1300
+  death_date: 1360
+  era: 元
+  reign_ref: 元惠宗至正
+  archetype: 台阁史僚
+  dilemmas:
+  - 通纪已有典章与行台事迹迭见层出取舍之难
+  - 案牍散漫稽核故实裒辑完备与简要易览之衡
+  lesson: 语其末必推其本兼本末而求之一览可尽得
+  summary_first_person: 吾忝为江南诸道行御史台掾属受中丞董守简之命率肄业生披牍历案稽核故实裒辑自至元十四年立行台以来典章治所官联属道之实成南台备要以备观览庶不负委任之意
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%8F%B0%E5%A4%87%E8%A6%81.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%8F%B0%E5%A4%87%E8%A6%81.md
+endeavors:
+- id: guji-刘孟保-endeavor-1
+  title_zh: 受命裒辑南台备要
+  summary_zh: 至正癸未受命率生员稽核行台案牍裒辑典章制度治所官联成编
+  phases:
+  - key: brewing
+    name: 受命稽核
+    labels:
+      zh: 受命
+    start_date: 1343-01-01
+    highlight_event_id: guji-刘孟保-event-ordered
+  - key: breakthrough
+    name: 披牍历案
+    labels:
+      zh: 稽核
+    start_date: 1343-06-01
+    highlight_event_id: guji-刘孟保-event-ordered
+  - key: climax
+    name: 裒辑成编
+    labels:
+      zh: 成编
+    start_date: 1343-10-01
+    highlight_event_id: guji-刘孟保-event-compiled
+  - key: closure
+    name: 都事作序刊传
+    labels:
+      zh: 序刊
+    start_date: 1343-12-01
+    highlight_event_id: guji-刘孟保-event-compiled
+  decisions:
+  - date: 1343-03-01
+    title_zh: 兼收通纪典章以存其本
+    rationale: 物有本末语末必推其本故多同通纪者存台之典章制度以为本
+  - date: 1343-09-01
+    title_zh: 秩列治所官联属道废置
+    rationale: 行台事为末治所变迁官联除擢属道废置皆秩然昈列方能一览尽得
+- id: guji-刘孟保-endeavor-2
+  title_zh: 行台掾属照刷文案
+  summary_zh: 久在江南行台为掾属掌案牍刷磨照刷佐监察按察纠察官邪
+  phases:
+  - key: brewing
+    name: 入幕行台
+    labels:
+      zh: 入幕
+    start_date: 1335-01-01
+    highlight_event_id: guji-刘孟保-event-ordered
+  - key: breakthrough
+    name: 历案刷磨
+    labels:
+      zh: 刷磨
+    start_date: 1340-01-01
+    highlight_event_id: guji-刘孟保-event-ordered
+  - key: climax
+    name: 统汇三省诸道
+    labels:
+      zh: 统汇
+    start_date: 1343-01-01
+    highlight_event_id: guji-刘孟保-event-compiled
+  - key: closure
+    name: 以案成史备观
+    labels:
+      zh: 成史
+    start_date: 1343-12-01
+    highlight_event_id: guji-刘孟保-event-compiled
+  decisions:
+  - date: 1340-06-01
+    title_zh: 以故实核典章随时制宜毕备
+    rationale: 自有行台以来典章制度与随时制宜者罔不毕备方称职业
+  - date: 1343-11-01
+    title_zh: 率肄业生分工协修
+    rationale: 牍案浩繁率刘敏杨暹钱适王仲恒分披历案稽核方能速成
+events:
+- id: guji-刘孟保-event-birth
+  type: birth
+  title_zh: 出生
+  date: 1300-01-01
+  year_of: 1300
+  description_zh: 约元大德年间出生后入江南行台为掾属又作刘孟琛
+  related_endeavor_id: guji-刘孟保-endeavor-2
+- id: guji-刘孟保-event-death
+  type: death
+  title_zh: 逝世
+  date: 1360-12-31
+  year_of: 1360
+  description_zh: 元末事迹失考附存南台备要都事索元岱序中
+  related_endeavor_id: guji-刘孟保-endeavor-1
+- id: guji-刘孟保-event-ordered
+  type: career
+  title_zh: 至正癸未受董守简命辑南台事
+  date: 1343-03-01
+  year_of: 1343
+  description_zh: 中丞董守简以通纪于我台事多未悉命掾属刘孟琛率肄业生刘敏等披牍历案稽核故实
+  related_endeavor_id: guji-刘孟保-endeavor-1
+- id: guji-刘孟保-event-compiled
+  type: career
+  title_zh: 裒辑成编索元岱作序
+  date: 1343-12-01
+  year_of: 1343
+  description_zh: 自至元十四年立行台以来典章制度治所官联属道废置罔不毕备奉直大夫都事索元岱谨序
+  related_endeavor_id: guji-刘孟保-endeavor-1

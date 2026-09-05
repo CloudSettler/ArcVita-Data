@@ -1,0 +1,132 @@
+person:
+  qid: guji-单雄信
+  name_zh: 单雄信
+  names:
+    zh: 单雄信
+    en: Shan Xiongxin
+  lifespan:
+    birth:
+      date: 0585
+      precision: year
+      is_circa: true
+      raw: 约隋开皇五年济阴出生
+    death:
+      date: '0621'
+      precision: year
+      is_circa: false
+      raw: 唐武德四年洛阳被斩
+  birth_date: 0585
+  death_date: '0621'
+  era: 隋末唐初
+  reign_ref: 隋炀帝大业至唐高祖武德
+  archetype: 忠义骁将
+  dilemmas:
+  - 瓦岗离散后去就依附之难
+  - 东都兵败后降唐求生与殉节全义之难
+  lesson: 以骁勇成飞将之名，以守义全忠烈之节，勇可嘉而审时不足为戒
+  summary_first_person: 吾家济阴，少骁健善马上用枪，军中号飞将，与翟让友善而聚义瓦岗，后归王世充为大将军，李世民围东都，吾援枪出拒，战败被俘，终不肯降而死于洛阳
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%95%E6%B0%8F%E5%AE%B6%E8%B0%B1.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%95%E6%B0%8F%E5%AE%B6%E8%B0%B1.html
+endeavors:
+- id: guji-单雄信-endeavor-1
+  title_zh: 瓦岗聚义飞将扬名
+  summary_zh: 与翟让交好，投瓦岗军，以马上用枪骁勇闻名，号为飞将
+  phases:
+  - key: brewing
+    name: 少骁健善马槊
+    labels:
+      zh: 习武结交
+    start_date: '0600'
+    highlight_event_id: guji-单雄信-event-birth
+  - key: breakthrough
+    name: 交翟让投瓦岗
+    labels:
+      zh: 聚义入伙
+    start_date: '0617'
+    highlight_event_id: guji-单雄信-event-wagang
+  - key: climax
+    name: 马上用枪号飞将
+    labels:
+      zh: 骁勇扬名
+    start_date: '0617'
+    highlight_event_id: guji-单雄信-event-wagang
+  - key: closure
+    name: 瓦岗离散谋去就
+    labels:
+      zh: 离散转进
+    start_date: 0618
+    highlight_event_id: guji-单雄信-event-wangshichong
+  decisions:
+  - date: '0617'
+    title_zh: 与翟让友善从之起兵
+    rationale: 天下大乱，结交豪杰可展骁勇，翟让先发故往从之
+  - date: 0618
+    title_zh: 瓦岗败离另择所附
+    rationale: 李密败走群雄离散，不甘沉沦故求新主以存身立功
+- id: guji-单雄信-endeavor-2
+  title_zh: 归郑抗唐洛阳殉节
+  summary_zh: 降王世充署大将军，助守东都，拒战李世民，城破被俘不降而死
+  phases:
+  - key: brewing
+    name: 降王世充得重用
+    labels:
+      zh: 改附新主
+    start_date: 0619
+    highlight_event_id: guji-单雄信-event-wangshichong
+  - key: breakthrough
+    name: 署大将军守东都
+    labels:
+      zh: 委任专征
+    start_date: 0619
+    highlight_event_id: guji-单雄信-event-wangshichong
+  - key: climax
+    name: 援枪拒李世民
+    labels:
+      zh: 两军对垒
+    start_date: '0620'
+    highlight_event_id: guji-单雄信-event-judongdu
+  - key: closure
+    name: 战败被俘就义洛阳
+    labels:
+      zh: 殉节全义
+    start_date: '0621'
+    highlight_event_id: guji-单雄信-event-death
+  decisions:
+  - date: 0619
+    title_zh: 归附王世充任大将军
+    rationale: 王氏据洛阳势盛，赏罚可用，欲借其力再立战功
+  - date: '0621'
+    title_zh: 被俘不降守节而死
+    rationale: 受郑恩遇当以死报，不愿背旧主求生，宁死全忠义之名
+events:
+- id: guji-单雄信-event-birth
+  title_zh: 降生曹州济阴
+  date: 0585
+  year_of: 0585
+  kind: birth
+  description_zh: 约隋开皇年间生于曹州济阴，少骁健尤能马上用枪
+- id: guji-单雄信-event-wagang
+  title_zh: 从翟让聚义瓦岗号飞将
+  date: '0617'
+  year_of: '0617'
+  kind: career
+  description_zh: 与翟让友善，从之起兵于瓦岗，以骁勇号飞将
+- id: guji-单雄信-event-wangshichong
+  title_zh: 降王世充署大将军
+  date: 0619
+  year_of: 0619
+  kind: career
+  description_zh: 瓦岗离散后降王世充，署为大将军，助守东都
+- id: guji-单雄信-event-judongdu
+  title_zh: 援枪拒李世民于东都
+  date: '0620'
+  year_of: '0620'
+  kind: career
+  description_zh: 李世民围东都，出拒战，战败被俘
+- id: guji-单雄信-event-death
+  title_zh: 洛阳被斩殉节
+  date: '0621'
+  year_of: '0621'
+  kind: death
+  description_zh: 东都平定后被斩于洛阳，以不降全节
