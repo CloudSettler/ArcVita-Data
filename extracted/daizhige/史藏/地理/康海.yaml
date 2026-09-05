@@ -1,0 +1,132 @@
+person:
+  qid: guji-康海
+  name_zh: 康海
+  names:
+    zh: 康海
+    en: Kang Hai
+  lifespan:
+    birth:
+      date: '1475'
+      precision: year
+      is_circa: false
+      raw: 成化十一年生于武功
+    death:
+      date: '1541'
+      precision: year
+      is_circa: false
+      raw: 嘉靖二十年卒
+  birth_date: '1475'
+  death_date: '1541'
+  era: 明
+  reign_ref: 弘治
+  archetype: 文苑义士
+  dilemmas:
+  - 救友仗义则忤权阉而丧官守义，缄默自保则负心交而全禄位
+  - 归隐著述则远朝堂而存乡邦文献，出仕徘徊则蹈险阱而失初心
+  lesson: 为友仗义不避祸患，削籍不悔，以笔存史，以志传乡，立身在义而不在位
+  summary_first_person: 吾康海，字德涵，陕西武功人，弘治壬戌进士第一，授翰林修撰，因救李梦阳忤刘瑾而削籍归里，屏居著述，撰武功县志七篇以纪山川建置祠祀田赋官师人物选举，文简事核，冀以劝鉴来者
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/武功县志.md
+  - https://daizhige.org/史藏/地理/武功县志.html
+endeavors:
+- id: guji-康海-endeavor-1
+  title_zh: 状元入翰林仗义救友
+  summary: 弘治壬戌登第第一入翰林为修撰，正德初救李梦阳忤刘瑾坐党削籍
+  phases:
+  - key: brewing
+    name: 少力学成
+    labels:
+      zh: 读书养气
+    start_date: '1475'
+    highlight_event_id: guji-康海-event-birth
+  - key: breakthrough
+    name: 状元及第入翰林
+    labels:
+      zh: 科第登庸
+    start_date: '1502'
+    highlight_event_id: guji-康海-event-jinshi
+  - key: climax
+    name: 上疏救李梦阳忤瑾
+    labels:
+      zh: 仗义执言
+    start_date: '1508'
+    highlight_event_id: guji-康海-event-rescue
+  - key: closure
+    name: 坐瑾党削籍归武功
+    labels:
+      zh: 去官守义
+    start_date: '1510'
+    highlight_event_id: guji-康海-event-rescue
+  decisions:
+  - date: '1502'
+    title_zh: 应弘治壬戌试擢第一
+    rationale: 以文章经术求用于世，入翰林以近清光而砺名节
+  - date: '1508'
+    title_zh: 救援李梦阳不避祸
+    rationale: 重故旧之义，不忍坐视谗害，知忤权阉必祸而义不可不伸
+- id: guji-康海-endeavor-2
+  title_zh: 归隐修武功县志传世
+  summary: 削籍后居武功，核旧志访耆老，成地理建置祠祀田赋官师人物选举七篇，正德己卯刻行
+  phases:
+  - key: brewing
+    name: 归里屏居养晦
+    labels:
+      zh: 归隐讲学
+    start_date: '1510'
+    highlight_event_id: guji-康海-event-rescue
+  - key: breakthrough
+    name: 搜集旧志耆老传闻
+    labels:
+      zh: 考籍访古
+    start_date: '1515'
+    highlight_event_id: guji-康海-event-gazetteer
+  - key: climax
+    name: 撰成七篇文简事核
+    labels:
+      zh: 成书立言
+    start_date: '1519'
+    highlight_event_id: guji-康海-event-gazetteer
+  - key: closure
+    name: 己卯刻行嘉惠乡邦
+    labels:
+      zh: 刊布劝鉴
+    start_date: '1519'
+    highlight_event_id: guji-康海-event-gazetteer
+  decisions:
+  - date: '1515'
+    title_zh: 立意修邑志补旧阙
+    rationale: 感乡邦文献散佚，欲纪山川古迹昭劝鉴，以存实录而正流俗
+  - date: '1519'
+    title_zh: 定七篇体例付刻
+    rationale: 约而不漏，直书劝戒，散艺文于各条以除冗滥，侠义昭而训词雅
+events:
+- id: guji-康海-event-birth
+  title_zh: 出生于陕西武功
+  date: '1475'
+  year_of: 1475
+  place_zh: 陕西武功
+  description: 成化十一年生于武功，少力学，字德涵，后以文名显于关中
+- id: guji-康海-event-jinshi
+  title_zh: 弘治壬戌进士第一授翰林修撰
+  date: '1502'
+  year_of: 1502
+  place_zh: 京师
+  description: 弘治十五年壬戌举进士第一，授翰林院修撰，以文章受知于士林
+- id: guji-康海-event-rescue
+  title_zh: 以救李梦阳坐刘瑾党削籍
+  date: '1508'
+  year_of: 1508
+  place_zh: 京师
+  description: 正德初李梦阳下狱，挺身营救，忤刘瑾，坐为瑾党削籍归里，明史文苑附见其事
+- id: guji-康海-event-gazetteer
+  title_zh: 撰成武功县志七篇刻行
+  date: '1519'
+  year_of: 1519
+  place_zh: 陕西武功
+  description: 归里撰武功县志，分地理建置祠祀田赋官师人物选举七篇，正德己卯刻行，再经万历刊行，文简事核训词尔雅
+- id: guji-康海-event-death
+  title_zh: 卒于武功
+  date: '1541'
+  year_of: 1541
+  place_zh: 陕西武功
+  description: 嘉靖二十年卒于里第，乡人惜之，所著县志赖孙吕赐辈录真本以传
