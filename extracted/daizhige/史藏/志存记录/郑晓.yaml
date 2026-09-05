@@ -1,0 +1,154 @@
+person:
+  qid: guji-郑晓
+  name_zh: 郑晓
+  names:
+    zh: 郑晓
+    en: Zheng Xiao
+  lifespan:
+    birth:
+      date: '1499'
+      precision: year
+      is_circa: false
+      raw: 弘治十二年
+    death:
+      date: '1566'
+      precision: year
+      is_circa: false
+      raw: 嘉靖四十五年
+  birth_date: '1499'
+  death_date: '1566'
+  era: 明
+  reign_ref: 嘉靖
+  archetype: 直臣史家
+  dilemmas:
+  - title_zh: 直言得罪与保身全名
+    description: 按事直陈则忤旨贬谪，缄默避事则有负初心
+  - title_zh: 通今学古与藏箧不传
+    description: 述今言三百余条以存故实，藏箧自守又恐文献无征
+  lesson: 通今学古非两事，不习为吏视已成事
+  summary_first_person: 吾郑晓海盐人，嘉靖初进士，按直隶忤旨，历太仆少卿兵部侍郎总督漕运，晚年述今言三百四十四条藏之故箧以通今学古
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BB%8A%E8%A8%80.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BB%8A%E8%A8%80.html
+endeavors:
+- id: guji-郑晓-endeavor-1
+  person_id: guji-郑晓
+  title_zh: 台谏督抚历官
+  summary: 嘉靖初进士授御史，按直隶直谏忤旨，历官太仆少卿兵部侍郎，总督漕运巡抚凤阳后致仕
+  phases:
+  - key: brewing
+    name: 登第授御史
+    labels:
+      zh: 入仕
+    start_date: '1523'
+    highlight_event_id: guji-郑晓-event-jinshi
+  - key: breakthrough
+    name: 按直隶直言忤旨
+    labels:
+      zh: 直谏
+    start_date: '1527'
+    highlight_event_id: guji-郑晓-event-zhijian
+  - key: climax
+    name: 总督漕运巡抚凤阳
+    labels:
+      zh: 督抚
+    start_date: '1551'
+    highlight_event_id: guji-郑晓-event-zongdu
+  - key: closure
+    name: 致仕归海盐
+    labels:
+      zh: 归里
+    start_date: '1556'
+    highlight_event_id: guji-郑晓-event-death
+  decisions:
+  - date: '1527'
+    title_zh: 按直隶劾权要
+    rationale: 职在纠察不避权贵，视已成事以尽言责
+  - date: '1551'
+    title_zh: 受命总督漕运
+    rationale: 漕运系军国命脉，以综核勤勉足国安民
+- id: guji-郑晓-endeavor-2
+  person_id: guji-郑晓
+  title_zh: 述作今言通今学古
+  summary: 采朝章国故撰述今言三百四十四条，嘉靖丙寅序而藏箧，参订吾学编以存明代故实
+  phases:
+  - key: brewing
+    name: collects 故实札记
+    labels:
+      zh: 积累
+    start_date: '1540'
+    highlight_event_id: guji-郑晓-event-zongdu
+  - key: breakthrough
+    name: 草创今言条目
+    labels:
+      zh: 草创
+    start_date: '1556'
+    highlight_event_id: guji-郑晓-event-zhushu
+  - key: climax
+    name: 丙寅序今言藏箧
+    labels:
+      zh: 成书
+    start_date: '1566'
+    highlight_event_id: guji-郑晓-event-zhushu
+  - key: closure
+    name: 甥录传观付梓
+    labels:
+      zh: 流传
+    start_date: '1566'
+    highlight_event_id: guji-郑晓-event-death
+  decisions:
+  - date: '1556'
+    title_zh: 归里闭户著述
+    rationale: 文献不足征，方策尚存则文武未坠，故述今以补史阙
+  - date: '1566'
+    title_zh: 序今言藏故箧
+    rationale: 通今学古非两事，录成三百四十四条以待后征
+events:
+- id: guji-郑晓-event-birth
+  person_id: guji-郑晓
+  type: birth
+  title_zh: 出生浙江海盐
+  date: '1499'
+  year_of: 1499
+  place_zh: 浙江海盐
+  description: 弘治十二年生于海盐郑氏，后习经学为諸生
+- id: guji-郑晓-event-jinshi
+  person_id: guji-郑晓
+  type: career
+  title_zh: 嘉靖癸未登进士
+  date: '1523'
+  year_of: 1523
+  place_zh: 京师
+  description: 嘉靖二年登进士第，授职御史，开启台谏生涯
+- id: guji-郑晓-event-zhijian
+  person_id: guji-郑晓
+  type: career
+  title_zh: 按直隶直谏忤旨
+  date: '1527'
+  year_of: 1527
+  place_zh: 直隶
+  description: 巡按直隶纠劾不避，直言得罪，左迁而后复起
+- id: guji-郑晓-event-zongdu
+  person_id: guji-郑晓
+  type: career
+  title_zh: 总督漕运巡抚凤阳
+  date: '1551'
+  year_of: 1551
+  place_zh: 凤阳
+  description: 以兵部侍郎总督漕运巡抚凤阳，综理军饷漕政
+- id: guji-郑晓-event-zhushu
+  person_id: guji-郑晓
+  type: career
+  title_zh: 序今言藏箧
+  date: '1566-03-06'
+  year_of: 1566
+  place_zh: 海盐
+  description: 嘉靖丙寅二月既望自序今言三百四十四条，藏之故箧
+- id: guji-郑晓-event-death
+  person_id: guji-郑晓
+  type: death
+  title_zh: 卒于海盐
+  date: '1566'
+  year_of: 1566
+  place_zh: 浙江海盐
+  description: 嘉靖四十五年卒，遗著今言吾学编等传世

@@ -1,0 +1,147 @@
+person:
+  qid: guji-张爵
+  name_zh: 张爵
+  names:
+    zh: 张爵
+    en: Zhang Jue
+  lifespan:
+    birth:
+      date: '1500'
+      precision: year
+      is_circa: true
+      raw: 生年不详约弘治正德间
+    death:
+      date: '1575'
+      precision: year
+      is_circa: true
+      raw: 卒年不详约嘉靖隆庆之际
+  birth_date: '1500'
+  death_date: '1575'
+  era: 明
+  reign_ref: 明世宗嘉靖庚申
+  archetype: 方志编纂者
+  dilemmas:
+  - 公署旧档散漫与时俗胡同传名庞杂如何并收
+  - 五城浩繁数千条巷陌如何分区立图使人一目毕见
+  lesson: 城郭变迁无声唯以笔墨图志存其肌理后人披图如亲历
+  summary_first_person: 余竹坡张爵见公署所载五城坊巷与时俗所传胡同名采其大小远近分置五城列总图于首附载八景古迹山川公署学校苑囿仓场寺观祠庙坛墓关梁嘉靖庚申孟春编成锓梓以广其传
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%AC%E5%B8%88%E4%BA%94%E5%9F%8E%E5%9D%8A%E5%B7%B7%E8%83%A1%E5%90%8C%E9%9B%86.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%AC%E5%B8%88%E4%BA%94%E5%9F%8E%E5%9D%8A%E5%B7%B7%E8%83%A1%E5%90%8C%E9%9B%86.md
+endeavors:
+- id: guji-张爵-endeavor-1
+  title_zh: 采辑五城坊巷胡同成编
+  summary: 以公署必录为纲时俗胡同为目分中东西南北五城采葺坊巷铺数胡同名编为京师五城坊巷胡同集
+  phases:
+  - key: brewing
+    name: 搜检公署档册
+    labels:
+      zh:
+      - 搜集
+    start_date: '1555-01-01'
+    highlight_event_id: guji-张爵-event-survey
+  - key: breakthrough
+    name: 分城列坊定体例
+    labels:
+      zh:
+      - 体例
+    start_date: '1557-01-01'
+    highlight_event_id: guji-张爵-event-survey
+  - key: climax
+    name: 街巷胡同总汇
+    labels:
+      zh:
+      - 编纂
+    start_date: '1558-06-01'
+    highlight_event_id: guji-张爵-event-compile
+  - key: closure
+    name: 孟春作序锓梓
+    labels:
+      zh:
+      - 刊刻
+    start_date: '1560-01-01'
+    highlight_event_id: guji-张爵-event-preface
+  decisions:
+  - date: '1557-03-01'
+    title_zh: 并收官档与俗传胡同名
+    rationale: 公署所载多阙闾巷细目时俗相传虽杂却是京师实迹并录方能存全貌
+  - date: '1558-08-01'
+    title_zh: 以五城分卷坊巷为纲
+    rationale: 京师广数十里别中东西南北五城再系坊铺胡同披览了然如指掌
+- id: guji-张爵-endeavor-2
+  title_zh: 绘制总图考载八景古迹
+  summary: 为全编置总图于首附载京师八景古迹山川公署学校苑囿仓场寺观祠庙坛墓关梁使古今之迹毕见
+  phases:
+  - key: brewing
+    name: 踏勘皇城内外形胜
+    labels:
+      zh:
+      - 踏勘
+    start_date: '1556-01-01'
+    highlight_event_id: guji-张爵-event-survey
+  - key: breakthrough
+    name: 厘定总图方位
+    labels:
+      zh:
+      - 绘图
+    start_date: '1558-01-01'
+    highlight_event_id: guji-张爵-event-compile
+  - key: climax
+    name: 附载八景古迹公署
+    labels:
+      zh:
+      - 考订
+    start_date: '1559-01-01'
+    highlight_event_id: guji-张爵-event-compile
+  - key: closure
+    name: 图文相配付梓广传
+    labels:
+      zh:
+      - 成书
+    start_date: '1560-01-01'
+    highlight_event_id: guji-张爵-event-preface
+  decisions:
+  - date: '1558-02-01'
+    title_zh: 首置京师总图
+    rationale: 五城胡同浩繁几千条非图不明远近大小披图而观不出户可知
+  - date: '1559-05-01'
+    title_zh: 遍附八景古迹官署苑囿
+    rationale: 太液琼岛金台西山玉泉及坛庙仓场学校皆京师命脉不载则坊巷无所附丽
+events:
+- id: guji-张爵-event-birth
+  type: birth
+  title_zh: 出生
+  date: '1500'
+  year_of: 1500
+  is_circa: true
+  place_zh: 京师
+  summary: 明弘治正德间生竹坡张爵生年不详
+- id: guji-张爵-event-survey
+  type: endeavor
+  title_zh: 搜录五城公署档与胡同俗名
+  date: '1555-03-01'
+  year_of: 1555
+  place_zh: 京师五城
+  summary: 遍检公署所载坊巷必录兼书记载时俗胡同名取大小远近分城采葺
+- id: guji-张爵-event-compile
+  type: endeavor
+  title_zh: 分城编次绘总图考古迹
+  date: '1558-08-01'
+  year_of: 1558
+  place_zh: 京师
+  summary: 分置中东西南北五城排列坊巷铺数附载八景山川公署寺观坛墓关梁并为总图于首
+- id: guji-张爵-event-preface
+  type: endeavor
+  title_zh: 嘉靖庚申孟春作序刊刻
+  date: '1560-02-01'
+  year_of: 1560
+  place_zh: 京师
+  summary: 编集克成自序锓梓名曰京师五城坊巷胡同集以广其传
+- id: guji-张爵-event-death
+  type: death
+  title_zh: 逝世
+  date: '1575'
+  year_of: 1575
+  is_circa: true
+  place_zh: 京师
+  summary: 嘉靖隆庆之后卒卒年不详所编胡同集行于世
