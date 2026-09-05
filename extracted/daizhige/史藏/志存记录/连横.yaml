@@ -1,0 +1,130 @@
+person:
+  qid: guji-连横
+  name_zh: 连横
+  names:
+    zh: 连横
+    en: Lian Heng
+  lifespan:
+    birth:
+      date: 1878-02-17
+      precision: day
+      is_circa: false
+      raw: 光绪四年正月十七日台南生
+    death:
+      date: 1936-06-28
+      precision: day
+      is_circa: false
+      raw: 民国二十五年六月二十八日卒
+  birth_date: 1878-02-17
+  death_date: 1936-06-28
+  era: 清末民国
+  reign_ref: 光绪民国
+  archetype: 史家
+  dilemmas:
+  - 台语日就消灭而民族精神萎靡之忧与躬起整理之任
+  - 考释台语须通文字音韵方言而头绪微茫之难
+  lesson: 灭国必先去其史故当保存语言文献以存民族精神而整理演绎发扬之
+  summary_first_person: 余台湾人也惧文献之亡而撰台湾通史惧台语之亡而作台语考释为台湾语典以保存发扬尽厥职而已
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8F%B0%E6%B9%BE%E8%AF%AD%E5%85%B8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8F%B0%E6%B9%BE%E8%AF%AD%E5%85%B8.md
+endeavors:
+- id: guji-连横-endeavor-1
+  person_id: guji-连横
+  title_zh: 撰述台湾通史以存文献
+  summary: 惧文献之亡而发愤著史采访闽台故籍以成通史保存疆域沿革人物之实
+  phases:
+  - key: brewing
+    name: 治事之暇留心乡邦文献
+    labels:
+      zh: 萌芽
+    start_date: 1905-01-01
+    highlight_event_id: guji-连横-event-birth
+  - key: breakthrough
+    name: 发愿著史四处搜罗故籍
+    labels:
+      zh: 立志
+    start_date: 1912-01-01
+    highlight_event_id: guji-连横-event-tongshi
+  - key: climax
+    name: 台湾通史脱稿刊行
+    labels:
+      zh: 高峰
+    start_date: 1920-01-01
+    highlight_event_id: guji-连横-event-tongshi
+  - key: closure
+    name: 通史既成转谋语典
+    labels:
+      zh: 收束
+    start_date: 1921-01-01
+    highlight_event_id: guji-连横-event-yudian
+  decisions:
+  - date: 1912-01-01
+    title_zh: 决意撰述台湾通史
+    rationale: 目睹国亡史灭之惧思存台湾文献以系民族精神虽艰难而不敢辞
+  - date: 1920-01-01
+    title_zh: 通史刊行以公于世
+    rationale: 既成体系即付刊刻以供后人考索不以毁誉自沮
+- id: guji-连横-endeavor-2
+  person_id: guji-连横
+  title_zh: 考释台语撰成台湾语典
+  summary: 以台语传自漳泉源远流长而日就消灭起而整理考释字音义以保存发扬
+  phases:
+  - key: brewing
+    name: 早夜以思偶得辄记
+    labels:
+      zh: 积累
+    start_date: 1925-01-01
+    highlight_event_id: guji-连横-event-tongshi
+  - key: breakthrough
+    name: 一月举名五百得其头绪
+    labels:
+      zh: 突破
+    start_date: 1928-01-01
+    highlight_event_id: guji-连横-event-yudian
+  - key: climax
+    name: 台语考释台湾语典成书
+    labels:
+      zh: 高峰
+    start_date: 1930-01-01
+    highlight_event_id: guji-连横-event-yudian
+  - key: closure
+    name: 刊布语典以谋发达
+    labels:
+      zh: 流传
+    start_date: 1933-01-01
+    highlight_event_id: guji-连横-event-death
+  decisions:
+  - date: 1928-06-01
+    title_zh: 决意系统整理台语
+    rationale: 见学童禁语青年忘语搢绅耻语知民族精神将坠故以文字音韵方言之学求其真
+  - date: 1930-01-01
+    title_zh: 以台语考释勒为语典
+    rationale: 一以保存一谋发达从整理演绎发扬使玉山之云甲溪之水不坠
+events:
+- id: guji-连横-event-birth
+  person_id: guji-连横
+  date: 1878-02-17
+  year_of: 1878
+  title_zh: 生于台南
+  description: 光绪四年正月生于台湾台南为连横一生著述之始
+- id: guji-连横-event-tongshi
+  person_id: guji-连横
+  endeavor_id: guji-连横-endeavor-1
+  date: 1920-01-01
+  year_of: 1920
+  title_zh: 台湾通史刊成
+  description: 惧文献之亡而撰述台湾通史刊行以存台湾三百年史
+- id: guji-连横-event-yudian
+  person_id: guji-连横
+  endeavor_id: guji-连横-endeavor-2
+  date: 1930-01-01
+  year_of: 1930
+  title_zh: 台湾语典成书
+  description: 惧台语消灭而考释字音义撰成台语考释台湾语典分卷论述保存古音古义
+- id: guji-连横-event-death
+  person_id: guji-连横
+  date: 1936-06-28
+  year_of: 1936
+  title_zh: 卒于上海
+  description: 民国二十五年病卒平生以保存文献语言自任身后语典通史并传
