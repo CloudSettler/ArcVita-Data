@@ -1,0 +1,130 @@
+person:
+  qid: guji-段成式
+  name_zh: 段成式
+  names:
+    zh: 段成式
+    en: Duan Chengshi
+  lifespan:
+    birth:
+      date: 0803
+      precision: year
+      is_circa: true
+      raw: 唐贞元十九年前后
+    death:
+      date: 0863
+      precision: year
+      is_circa: false
+      raw: 唐咸通四年
+  birth_date: 0803
+  death_date: 0863
+  era: 唐
+  reign_ref: 唐武宗会昌至唐宣宗大中
+  archetype: 博闻多识的志怪文士
+  dilemmas:
+  - 早年与亡友同游两街寺之乐事邈不可追而故简残蠹十亡五六是否续补刊整以存旧迹
+  - 身历秘书省京洛及安成刺史之宦游劳形与闭门博记志怪博物之著述宿愿如何两全
+  lesson: 以沥血泪交之心续穿蠹残简使一时游赏与两京寺塔画迹不没于世
+  summary_first_person: 吾东牟人段成式字柯古会昌三年夏与张希复郑符梦复同游大兴善寺约旬日寻两街寺后历职京洛出刺安成大中七年归京检故简续蠹成寺塔记两卷以传释子
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AF%BA%E5%A1%94%E8%AE%B0.html
+  - https://zh.wikisource.org/wiki/%E5%AF%BA%E5%A1%94%E8%A8%98
+endeavors:
+- id: guji-段成式-endeavor-1
+  title_zh: 历职秘书京洛出刺安成
+  summary_zh: 由秘书省校书郎累职京洛外刺安成大中七年归京
+  phases:
+  - key: brewing
+    name: 秘书省起家博览群书
+    labels:
+      zh: 起家秘书
+    start_date: 0825
+    highlight_event_id: guji-段成式-event-birth
+  - key: breakthrough
+    name: 会昌中连职仙署交游文士
+    labels:
+      zh: 仙署交游
+    start_date: '0843-06-01'
+    highlight_event_id: guji-段成式-event-tour-xingshan
+  - key: climax
+    name: 出职京洛及刺安成
+    labels:
+      zh: 外刺安成
+    start_date: 0847
+    highlight_event_id: guji-段成式-event-tour-xingshan
+  - key: closure
+    name: 大中七年归京守淡著述
+    labels:
+      zh: 归京著述
+    start_date: 0853
+    highlight_event_id: guji-段成式-event-compile-sitaji
+  decisions:
+  - date: '0843-06-01'
+    title_zh: 会暇同僚游大兴善寺
+    rationale: 假日相携访名刹以考两京新记游目记之遗略
+  - date: 0847
+    title_zh: 受命职于京洛及安成
+    rationale: 奉命外任历练吏事暂辍寻寺之约以待归京续补
+- id: guji-段成式-endeavor-2
+  title_zh: 旬寻两街寺撰成寺塔记
+  summary_zh: 以兴善为首约寻两街寺游至慈恩而绝后检故简刊整成两卷
+  phases:
+  - key: brewing
+    name: 问两记遗略约旬寻寺
+    labels:
+      zh: 立约寻寺
+    start_date: '0843-06-01'
+    highlight_event_id: guji-段成式-event-tour-xingshan
+  - key: breakthrough
+    name: 以街东兴善为首别录所不具
+    labels:
+      zh: 兴善首录
+    start_date: '0843-06-15'
+    highlight_event_id: guji-段成式-event-tour-xingshan
+  - key: climax
+    name: 游至慈恩官并寺而辍泛问记画
+    labels:
+      zh: 慈恩辍游
+    start_date: '0843-07-01'
+    highlight_event_id: guji-段成式-event-tour-xingshan
+  - key: closure
+    name: 大中七年检故简续蠹成两卷传释子
+    labels:
+      zh: 刊整传世
+    start_date: 0853
+    highlight_event_id: guji-段成式-event-compile-sitaji
+  decisions:
+  - date: '0843-06-01'
+    title_zh: 约一旬寻两街寺以兴善为首
+    rationale: 两京新记游目记多遗略须亲历补阙别录所不具者
+  - date: 0853
+    title_zh: 刊整残简续穿蠹成两卷
+    rationale: 在外六甲子书籍揃坏居半睹与亡父游寺故简沥血泪交不忍旧迹湮没故勉力续成以传释子
+events:
+- id: guji-段成式-event-birth
+  title_zh: 生于齐州临淄段氏官宦家
+  type: birth
+  date: 0803
+  year_of: 803
+  place_zh: 齐州临淄
+  description_zh: 宰相段文昌之子少博学强记历秘书省校书郎
+- id: guji-段成式-event-tour-xingshan
+  title_zh: 会昌三年夏游大兴善寺约寻两街寺
+  type: career
+  date: '0843-06-01'
+  year_of: 843
+  place_zh: 长安靖恭坊大兴善寺
+  description_zh: 与张希复郑符梦复会暇游大兴善寺问两京新记游目记遗略约一旬寻两街寺以兴善为首游至慈恩因官并寺而绝泛问上人记塔下画迹
+- id: guji-段成式-event-compile-sitaji
+  title_zh: 大中七年归京刊整故简成寺塔记两卷
+  type: career
+  date: 0853
+  year_of: 853
+  place_zh: 京师
+  description_zh: 在外六甲子所留书籍揃坏居半检故简睹与亡父游寺沥血泪交复刊整续穿蠹十存五六次成两卷传诸释子自署东牟人段成式字柯古
+- id: guji-段成式-event-death
+  title_zh: 咸通四年卒于世
+  type: death
+  date: 0863
+  year_of: 863
+  place_zh: 长安
+  description_zh: 一生博记博物兼著酉阳杂俎与寺塔记以志怪存史见称于世
