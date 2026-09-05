@@ -1,0 +1,102 @@
+person:
+  qid: guji-吴贞石
+  name_zh: 吴贞石
+  names:
+    zh: 吴贞石
+    en: Wu Zhenshi
+  lifespan:
+    birth:
+      date: 1550
+      precision: year
+      is_circa: true
+      raw: 明嘉靖间约生
+    death:
+      date: 1625
+      precision: year
+      is_circa: true
+      raw: 明天启末约卒
+  birth_date: 1550
+  death_date: 1625
+  era: 明
+  reign_ref: 明嘉靖至天启
+  archetype: 乡绅义士
+  dilemmas:
+  - 支河断港阻行义当兴造与独力捐建之难
+  - 便民小道与兵防冲衢兼顾之难
+  lesson: 联乡便道即是固边外护平日利民即临事利兵
+  summary_first_person: 我是华亭乡绅吴贞石见张泾支河断港往来艰阻遂捐造石梁数十以联南北无事则为乡民便道有事则为金山策应之冲衢愿后人守之
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B725.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B725.md
+endeavors:
+- id: guji-吴贞石-endeavor-1
+  title_zh: 张泾造石梁联乡便民
+  description: 于华亭七保张泾镇捐造石梁数十座联通支河断港
+  phases:
+  - key: brewing
+    name: 踏勘张泾水陆阻隔
+    labels:
+      zh: 踏勘筹划
+    start_date: 1585
+    highlight_event_id: guji-吴贞石-event-survey
+  - key: closure
+    name: 石梁落成乡民便行
+    labels:
+      zh: 落成利民
+    start_date: 1590
+    highlight_event_id: guji-吴贞石-event-bridge
+  decisions:
+  - date: 1585
+    title_zh: 捐资造石梁数十
+    rationale: 联络断港无事为乡民便道
+- id: guji-吴贞石-endeavor-2
+  title_zh: 以石梁为郡南外护策应
+  description: 以张泾石梁道为金山声援郡南外护之冲衢
+  phases:
+  - key: breakthrough
+    name: 沟通府治金山孔道
+    labels:
+      zh: 沟通孔道
+    start_date: 1590
+    highlight_event_id: guji-吴贞石-event-bridge
+  - key: climax
+    name: 倭警策应外护之用
+    labels:
+      zh: 策应守御
+    start_date: 1592
+    highlight_event_id: guji-吴贞石-event-defense
+  decisions:
+  - date: 1590
+    title_zh: 以便道充策应冲衢
+    rationale: 有事为策应之冲衢为金山声援为郡南外护
+events:
+- id: guji-吴贞石-event-birth
+  title_zh: 出生
+  type: birth
+  date: 1550
+  year_of: 1550
+  description: 约生于明嘉靖间华亭
+- id: guji-吴贞石-event-survey
+  title_zh: 踏勘张泾断港
+  type: endeavor
+  date: 1585
+  year_of: 1585
+  description: 张泾去县南五十里有支河断港北通府治南通金山
+- id: guji-吴贞石-event-bridge
+  title_zh: 造石梁数十联之
+  type: endeavor
+  date: 1590
+  year_of: 1590
+  description: 捐造石梁数十以联之无事为乡民便道
+- id: guji-吴贞石-event-defense
+  title_zh: 石梁充金山策应冲衢
+  type: endeavor
+  date: 1592
+  year_of: 1592
+  description: 有事为策应之冲衢为金山声援为郡南外护
+- id: guji-吴贞石-event-death
+  title_zh: 逝世
+  type: death
+  date: 1625
+  year_of: 1625
+  description: 约卒于明天启末
