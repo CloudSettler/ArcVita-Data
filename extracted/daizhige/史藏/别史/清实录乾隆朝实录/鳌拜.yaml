@@ -1,0 +1,134 @@
+person:
+  qid: guji-鳌拜
+  name_zh: 鳌拜
+  names:
+    zh: 鳌拜
+    en: Ao Bai
+  lifespan:
+    birth:
+      date: 1610
+      precision: year
+      is_circa: true
+      raw: 明万历末年左右
+    death:
+      date: 1669
+      precision: year
+      is_circa: false
+      raw: 康熙八年
+  birth_date: 1610
+  death_date: 1669
+  era: 清初
+  reign_ref: 康熙
+  archetype: 恃功擅权的辅政大臣
+  dilemmas:
+  - 立有战功后当敛抑奉公还是恃柄自恣
+  - 受顾命辅政当协和共事还是结党排异残害大臣
+  lesson: 功铭钟鼎尤当敛抑奉公辅政顾命更宜谦谨擅权骩法结党害人必致身败为万世戒
+  summary_first_person: 吾早年从征屡立战功历封公爵后与苏克萨哈等受顾命辅政加太师却专权自恣残害费扬古苏克萨哈苏纳海等圈地激变终为圣祖拿问革职籍没拘禁死后念旧勋予男爵后复公爵至乾隆朝核功罪停袭公爵改男爵世袭
+  source_urls:
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1120.html
+endeavors:
+- id: guji-鳌拜-endeavor-1
+  title_zh: 从征立功历封公爵
+  summary: 早年从征屡立战功历封公爵加太师功载册籍昭然
+  phases:
+  - key: brewing
+    name: 出身行伍从征
+    labels:
+      zh: 从征效力
+    start_date: 1630
+    highlight_event_id: guji-鳌拜-event-conquest
+  - key: breakthrough
+    name: 屡立战功封公
+    labels:
+      zh: 战功封公
+    start_date: 1644
+    highlight_event_id: guji-鳌拜-event-conquest
+  - key: climax
+    name: 加太师受顾命
+    labels:
+      zh: 顾命辅政
+    start_date: 1661-02-05
+    highlight_event_id: guji-鳌拜-event-regent
+  - key: closure
+    name: 功罪载册论定
+    labels:
+      zh: 功罪论定
+    start_date: 1780-12-01
+    highlight_event_id: guji-鳌拜-event-downfall
+  decisions:
+  - date: 1661-02-05
+    title_zh: 受顾命为辅政大臣
+    rationale: 以旧勋受事翊赞机务本当小心谦谨协和共事
+- id: guji-鳌拜-endeavor-2
+  title_zh: 辅政擅权结党致败
+  summary: 受事后专权自恣残害大臣圈地激变结党营私终被拿问革职拘禁
+  phases:
+  - key: brewing
+    name: 专权自恣残害大臣
+    labels:
+      zh: 擅权害臣
+    start_date: 1661
+    highlight_event_id: guji-鳌拜-event-crime
+  - key: breakthrough
+    name: 诬杀苏克萨哈等
+    labels:
+      zh: 党争杀戮
+    start_date: 1667
+    highlight_event_id: guji-鳌拜-event-crime
+  - key: climax
+    name: 圈地相持激变
+    labels:
+      zh: 圈地激变
+    start_date: 1668
+    highlight_event_id: guji-鳌拜-event-crime
+  - key: closure
+    name: 被拿革职拘禁籍没
+    labels:
+      zh: 革职拘禁
+    start_date: 1669
+    highlight_event_id: guji-鳌拜-event-downfall
+  decisions:
+  - date: 1667
+    title_zh: 坐苏克萨哈二十四大罪请磔
+    rationale: 以论事龃龉积成仇隙欲改拨屯庄而强奏绞决以泄忿专恣妄为
+  - date: 1669
+    title_zh: 在家定议专恣行政
+    rationale: 倚仗凶恶毁弃国典文武欲尽出门下终致跋扈难驯被拿勘审
+events:
+- id: guji-鳌拜-event-birth
+  title_zh: 出生
+  type: birth
+  date: 1610
+  year_of: 1610
+  description: 满洲出身约生于明末后从征行伍
+- id: guji-鳌拜-event-conquest
+  title_zh: 从征屡立战功历封公爵
+  type: achievement
+  date: 1649
+  year_of: 1649
+  description: 以从征屡立战功历封公爵加太师功铭钟鼎载在册籍
+- id: guji-鳌拜-event-regent
+  title_zh: 受顾命为辅政大臣
+  type: appointment
+  date: 1661-02-05
+  year_of: 1661
+  description: 圣祖冲龄践阼与苏克萨哈等为辅政大臣并加太师受事翊赞机务
+- id: guji-鳌拜-event-crime
+  title_zh: 擅权残害大臣圈地致变
+  type: crime
+  date: 1667
+  year_of: 1667
+  description: 杀费扬古及其子坐苏纳海朱昌祚王登联罪诬苏克萨哈二十四大罪绞决并改拨旗地相持不决百姓环诉几酿大事
+- id: guji-鳌拜-event-downfall
+  title_zh: 被拿勘审革职拘禁
+  type: downfall
+  date: 1669
+  year_of: 1669
+  description: 以党权不法怙恶弗悛在家定议专恣妄为被严拿勘审亲加鞫问拟正法念效力年久从宽革职籍没拘禁
+- id: guji-鳌拜-event-death
+  title_zh: 拘禁中死后追论功罪
+  type: death
+  date: 1669
+  year_of: 1669
+  description: 死后念旧勋追赐一等男后复一等公世袭罔替乾隆四十五年谕停袭公爵改予一等男并查被残害诸臣子孙加恩
