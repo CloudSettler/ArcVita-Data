@@ -6,122 +6,109 @@ person:
     en: Sun Shiyi
   lifespan:
     birth:
-      date: 1720-01-01
-      precision: year
-      is_circa: true
-      raw: 雍正年间生于浙江仁和
-    death:
-      date: 1796-01-01
+      date: '1720'
       precision: year
       is_circa: false
-      raw: 嘉庆元年卒
-  birth_date: 1720-01-01
-  death_date: 1796-01-01
+      raw: 康熙五十九年
+    death:
+      date: '1796'
+      precision: year
+      is_circa: false
+      raw: 嘉庆元年
+  birth_date: '1720'
+  death_date: '1796'
   era: 清代
   reign_ref: 乾隆
-  archetype: 开边经略型封疆大吏
+  archetype: 封疆干济之臣
   dilemmas:
-  - 深入炎荒速战擒渠与持重万全及时退兵之间两难
-  - 灭阮扶黎彻底靖边与收复黎城扶立黎维祁即撤之间权衡
-  lesson: 任大事须志在必成而动出万全，明大义正辞并预留退步
-  summary_first_person: 吾以文臣督两粤，值安南内讧黎氏播迁，慨然请兵出关，志在灭阮扶黎，军行全在气盛，故严防诈降惑众之言，复黎城立黎维祁即振旅而还，亦足全字小存亡之体
+  - 文臣领兵远征安南而未娴军旅之困
+  - 阮惠乞降尝试与关隘守御进退之难
+  lesson: 远略当详侦虚实严防轻进，挫失之后更须持重守关以全大局
+  summary_first_person: 吾久抚两粤，奉命进取安南，收复黎城后因彻兵稍迟致有市球江之失，蒙恩宽宥，今惟严守关隘，掷还伪表，以赎前愆
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71317.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71317.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71322.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71322.md
 endeavors:
 - id: guji-孙士毅-endeavor-1
-  title_zh: 统兵出关征安南扶黎复国
-  summary: 乾隆五十三年受命督粤兵出关，分路追剿阮惠，谋收复黎城，扶立黎维祁
+  title_zh: 统兵出关收复黎城
+  summary_zh: 以两广总督统兵入安南助黎氏收复黎城，后因侦防不周致败
   phases:
   - key: brewing
-    name: 在粤筹办兵饷
+    name: 受命筹兵出关
     labels:
-      zh: 筹边备饷
-    start_date: 1788-07-01
-    highlight_event_id: guji-孙士毅-event-chuguan
+      zh: 调度两省兵力
+    start_date: '1788-10-01'
+    highlight_event_id: guji-孙士毅-event-1
   - key: breakthrough
-    name: 率兵出关军心思奋
+    name: 克复黎城
     labels:
-      zh: 出关进剿
-    start_date: 1788-12-14
-    highlight_event_id: guji-孙士毅-event-chuguan
+      zh: 进取黎城
+    start_date: '1788-11-20'
+    highlight_event_id: guji-孙士毅-event-1
   - key: climax
-    name: 分路追剿直指黎城
+    name: 市球江迎堵阵亡
     labels:
-      zh: 两路夹攻
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-liangdao
-  - key: closure
-    name: 预筹复城后安顿撤兵
-    labels:
-      zh: 复国撤兵
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-liangdao
+      zh: 彻兵稍迟遇袭
+    start_date: '1789-01-28'
+    highlight_event_id: guji-孙士毅-event-2
   decisions:
-  - date: 1788-12-14
-    title_zh: 带兵出关迅速进剿
-    rationale: 沿边晴明土兵思奋，天时人事俱利，当趁势追剿以期年内报捷
-  - date: 1788-12-21
-    title_zh: 约滇兵由宣光夹攻会剿
-    rationale: 疑阮惠潜赴黎城抗拒，单路难期弋获，须与乌大经两路夹击使贼首尾不顾
+  - date: '1788-11-20'
+    title_zh: 率提镇深入进驻黎城
+    rationale: 乘阮惠党羽回巢之机光复黎氏以伸天朝声威
+  - date: '1789-01-28'
+    title_zh: 迟彻官兵致市球江挫失
+    rationale: 未察虚实轻信贼众已散而疏于侦探防范终致围扰
 - id: guji-孙士毅-endeavor-2
-  title_zh: 辨阮惠诈降严肃军心后路
-  summary: 识破阮惠假托黎氏求罢兵之诈，正辞呵斥，密防惑众之言，兼顾后路防侵轶
+  title_zh: 镇守关隘拒阮惠伪降
+  summary_zh: 挫后与广西巡抚严守镇南关，掷还阮惠表文，候福康安接办
   phases:
   - key: brewing
-    name: 阮惠遣人诡请罢兵
+    name: 收溃守关
     labels:
-      zh: 诈降求罢
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-bianwei
-  - key: breakthrough
-    name: 询陪臣辨伪痛斥通事
-    labels:
-      zh: 明辨正辞
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-bianwei
-  - key: climax
-    name: 密置传言者防惑军心
-    labels:
-      zh: 肃军防谍
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-bianwei
+      zh: 严守关隘
+    start_date: '1789-02-10'
+    highlight_event_id: guji-孙士毅-event-3
   - key: closure
-    name: 留心后路严防侵轶并遵中策退步
+    name: 掷表候代交印来京
     labels:
-      zh: 固后全师
-    start_date: 1788-12-21
-    highlight_event_id: guji-孙士毅-event-liangdao
+      zh: 掷还表文
+    start_date: '1789-02-17'
+    highlight_event_id: guji-孙士毅-event-3
   decisions:
-  - date: 1788-12-21
-    title_zh: 痛斥阮惠假立黎维某之请
-    rationale: 黎维某痴呆易于愚弄，实为诓回黎眷戕害之计，须名正义直以丧贼胆
-  - date: 1788-12-21
-    title_zh: 密留许昌义等勿任妄言惑众
-    rationale: 军行全在气盛，贼中大船巨炮之说多系缓兵之计，不可宣于众致士气馁
+  - date: '1789-02-17'
+    title_zh: 掷还阮惠表文不准称藩
+    rationale: 其不先送出内地官兵而遽请奉表乃借此尝试不可轻许
+  - date: '1789-03-01'
+    title_zh: 留粤协助福康安妥办善后
+    rationale: 熟悉两省情形可助新督调度弹压俟诸务妥毕再行来京
 events:
 - id: guji-孙士毅-event-birth
-  title_zh: 出生于浙江仁和
-  date: 1720-01-01
+  title_zh: 出生
+  date: '1720'
   year_of: 1720
-  description: 雍正年间生于浙江仁和，乾隆十九年进士，累督两广
-- id: guji-孙士毅-event-chuguan
-  title_zh: 督大兵出关进剿安南
-  date: 1788-12-14
+  description_zh: 浙江仁和人，雍正朝进士入翰林
+  location_zh: 浙江仁和
+- id: guji-孙士毅-event-1
+  title_zh: 带兵出关收复黎城
+  date: '1788-11-20'
   year_of: 1788
-  description: 大兵甫出关外，土兵土夫感激思奋，沿边晴明军行顺利，奉旨嘉奖并盼年内捷报
-- id: guji-孙士毅-event-bianwei
-  title_zh: 辨破阮惠诈请罢兵
-  date: 1788-12-21
-  year_of: 1788
-  description: 阮惠送回把总许昌义等诡称当立黎维某请罢兵，经询陪臣知其痴呆受愚弄，即向通事痛加呵斥，所办名正义直
-- id: guji-孙士毅-event-liangdao
-  title_zh: 筹两路夹攻并受收复中策
-  date: 1788-12-22
-  year_of: 1788
-  description: 奉旨与乌大经滇兵由宣光进攻会合夹击，并遵谕以生擒阮惠为上，收复黎城扶立黎维祁即撤为中，不久驻炎荒
+  description_zh: 以两广总督统领提镇官兵出关进剿，克复黎城
+  location_zh: 安南黎城
+- id: guji-孙士毅-event-2
+  title_zh: 市球江许世亨等阵亡
+  date: '1789-01-28'
+  year_of: 1789
+  description_zh: 彻兵稍迟，贼匪猝至围扰，提督许世亨总兵张朝龙等迎堵因桥断阵亡
+  location_zh: 市球江以南
+- id: guji-孙士毅-event-3
+  title_zh: 掷还阮惠表文严守关隘
+  date: '1789-02-17'
+  year_of: 1789
+  description_zh: 与孙永清于正月二十二日得谅山夷目所赍阮惠表文，以其未送还官兵而请藩为尝试，掷还并严守关隘
+  location_zh: 镇南关
 - id: guji-孙士毅-event-death
-  title_zh: 卒于嘉庆元年
-  date: 1796-01-01
+  title_zh: 逝世
+  date: '1796'
   year_of: 1796
-  description: 征安南后晋公爵督直隶，嘉庆元年卒，谥文靖
+  description_zh: 解任来京后仍任尚书，嘉庆元年卒
+  location_zh: 京师
