@@ -1,0 +1,136 @@
+person:
+  qid: guji-孙权
+  name_zh: 孙权
+  names:
+    zh: 孙权
+    en: Sun Quan
+  lifespan:
+    birth:
+      date: 0182
+      precision: year
+      is_circa: true
+      raw: 吴郡富春人孙坚次子兄为吴侯以事授之
+    death:
+      date: '0252-05-21'
+      precision: day
+      is_circa: false
+      raw: 在位三十一年年七十一葬蒋陵
+  birth_date: 0182
+  death_date: '0252-05-21'
+  era: 三国吴
+  reign_ref: 黄武元年四月即位
+  archetype: 江东守成开国君主
+  dilemmas:
+  - 联刘抗曹还是降曹保全江东之抉择
+  - 荆州归属与维持吴蜀同盟之两难
+  lesson: 江东立国在舟师重镇与人心安堵进取须审时度势守江海以待变
+  summary_first_person: 吾继兄业据江东破曹操于赤壁袭关羽于荆州黄武即位都建业在位三十一年终葬蒋陵
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%AD%E6%9C%9D%E4%BA%8B%E8%BF%B9%E7%BC%96%E7%B1%BB.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%AD%E6%9C%9D%E4%BA%8B%E8%BF%B9%E7%BC%96%E7%B1%BB.md
+endeavors:
+- id: guji-孙权-endeavor-1
+  title_zh: 赤壁破曹袭荆州奠定江东
+  phases:
+  - key: brewing
+    name: 继兄守六郡
+    labels:
+      zh: 守业江东
+    start_date: '0200-01-01'
+    highlight_event_id: guji-孙权-event-birth
+  - key: breakthrough
+    name: 联刘破曹于赤壁
+    labels:
+      zh: 以少胜多
+    start_date: '0208-11-01'
+    highlight_event_id: guji-孙权-event-chibi
+  - key: climax
+    name: 袭关羽尽有荆州
+    labels:
+      zh: 西拓荆郢
+    start_date: '0219-12-01'
+    highlight_event_id: guji-孙权-event-jingzhou
+  - key: closure
+    name: 外拒魏内抚山越
+    labels:
+      zh: 巩固疆域
+    start_date: '0220-01-01'
+    highlight_event_id: guji-孙权-event-jingzhou
+  decisions:
+  - date: '0208-11-01'
+    title_zh: 联刘备拒曹操
+    rationale: 曹军远来疲敝不习水战联合可破之以降则江东不保
+  - date: '0219-12-01'
+    title_zh: 袭关羽取荆州
+    rationale: 荆州上流形胜关羽北伐后方空虚先取江陵夏口以全江东
+- id: guji-孙权-endeavor-2
+  title_zh: 黄武称尊都建业经略海内
+  phases:
+  - key: brewing
+    name: 由鄂迁建业
+    labels:
+      zh: 定都金陵
+    start_date: '0221-01-01'
+    highlight_event_id: guji-孙权-event-huangwu
+  - key: breakthrough
+    name: 黄武元年即皇帝位
+    labels:
+      zh: 开国称制
+    start_date: '0222-10-01'
+    highlight_event_id: guji-孙权-event-huangwu
+  - key: climax
+    name: 置四州设重镇守江海
+    labels:
+      zh: 交广荆郢并置
+    start_date: '0223-01-01'
+    highlight_event_id: guji-孙权-event-sizhou
+  - key: closure
+    name: 在位三十一年葬蒋陵
+    labels:
+      zh: 守成善终
+    start_date: '0251-01-01'
+    highlight_event_id: guji-孙权-event-death
+  decisions:
+  - date: '0222-10-01'
+    title_zh: 即皇帝位建年号黄武
+    rationale: 魏文帝代汉刘备称帝江东人心思定须正名建号以系属
+  - date: '0229-01-01'
+    title_zh: 都建业置交广荆郢四州
+    rationale: 建业形胜控江海置州四十二及武昌夏口诸重镇以固根本
+events:
+- id: guji-孙权-event-birth
+  title_zh: 生于吴郡富春
+  date: 0182
+  year_of: 182
+  place_zh: 吴郡富春
+  summary_zh: 孙坚次子兄为吴侯将死以事授之
+- id: guji-孙权-event-chibi
+  title_zh: 破曹操于赤壁
+  date: '0208-12-01'
+  year_of: 208
+  place_zh: 赤壁
+  summary_zh: 联刘备破曹操奠定三分之势
+- id: guji-孙权-event-jingzhou
+  title_zh: 袭关羽于荆州
+  date: '0219-12-01'
+  year_of: 219
+  place_zh: 荆州江陵
+  summary_zh: 袭取荆州尽有江夏南郡之地
+- id: guji-孙权-event-huangwu
+  title_zh: 黄武元年四月即皇帝位
+  date: '0222-10-01'
+  year_of: 222
+  place_zh: 建业
+  summary_zh: 初都鄂后迁建业传世四世据江南尽海
+- id: guji-孙权-event-sizhou
+  title_zh: 置交广荆郢四州及江防重镇
+  date: '0223-06-01'
+  year_of: 223
+  place_zh: 建业
+  summary_zh: 置州四十二以建平西陵乐乡南郡巴丘夏口武昌皖城濡须牛渚为重镇
+- id: guji-孙权-event-death
+  title_zh: 崩葬蒋陵
+  date: '0252-05-21'
+  year_of: 252
+  place_zh: 蒋陵
+  summary_zh: 在位三十一年年七十一葬蒋陵
