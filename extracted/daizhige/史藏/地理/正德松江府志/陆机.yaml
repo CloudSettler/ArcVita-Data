@@ -1,0 +1,162 @@
+person:
+  qid: guji-陆机
+  name_zh: 陆机
+  names:
+    zh: 陆机
+    en: Lu Ji
+  lifespan:
+    birth:
+      date: 177
+      precision: year
+      is_circa: false
+      raw: 晋泰始七年
+    death:
+      date: 195
+      precision: year
+      is_circa: false
+      raw: 晋太安二年
+  birth_date: 177
+  death_date: 195
+  era: 西晋
+  reign_ref: 晋武帝至惠帝
+  archetype: 文章巨擘
+  dilemmas:
+  - 才高招忌而欲以功业自保
+  - 怀土恋乡而身系乱世驱驰
+  - 守道不易与轻于自售之世风相违
+  lesson: 空有经天纬地之文而无全身远害之智则盛名反为身累
+  summary_first_person: 余华亭崑山人也少以文章名江左吴亡入洛得中州士心服后为平原内史身陷八王之乱竟以谗被害文章虽传而不能自有其躬可悲也
+  source_urls:
+  - https://daizhige.org/史藏/地理/正德松江府志/卷12.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/正德松江府志/卷12.md
+  - https://shuiluo-jinmen-classics.daizhige.org/viewer?id=00077#p40
+endeavors:
+- id: guji-陆机-endeavor-1
+  person_id: guji-陆机
+  title_zh: 华亭力学以文章雄江左
+  summary: 生于华亭谷崑山陆氏力学为文藻丽迈往吴存时已擅雄江左
+  phases:
+  - key: brewing
+    name: 崑山养望
+    labels:
+      zh: 积累
+    start_date: 177
+    highlight_event_id: guji-陆机-event-birth
+  - key: breakthrough
+    name: 江左驰声
+    labels:
+      zh: 崭露
+    start_date: 189
+    highlight_event_id: guji-陆机-event-fame-jiangzuo
+  - key: climax
+    name: 中州心服
+    labels:
+      zh: 高峰
+    start_date: 0282
+    highlight_event_id: guji-陆机-event-enter-jin
+  - key: closure
+    name: 二俊传名
+    labels:
+      zh: 沉淀
+    start_date: 195
+    highlight_event_id: guji-陆机-event-death
+  decisions:
+  - date: 0280
+    title_zh: 吴亡不隐而应晋征
+    rationale: 欲以奇才济世不与草木俱朽故舍故就新入洛求展
+  - date: 0282
+    title_zh: 以文会友折服中州
+    rationale: 持藻丽迈往之作与中州酬唱证明江左亦有盛名之士
+- id: guji-陆机-endeavor-2
+  person_id: guji-陆机
+  title_zh: 任平原内史陷八王之乱
+  summary: 出为平原内史后为成都王都督诸军河桥战败以谗被杀
+  phases:
+  - key: brewing
+    name: 入晋授官
+    labels:
+      zh: 蛰伏
+    start_date: 0284
+    highlight_event_id: guji-陆机-event-enter-jin
+  - key: breakthrough
+    name: 平原建节
+    labels:
+      zh: 起用
+    start_date: 0290
+    highlight_event_id: guji-陆机-event-pingyuan
+  - key: climax
+    name: 河桥兵败
+    labels:
+      zh: 危机
+    start_date: 195
+    highlight_event_id: guji-陆机-event-defeat
+  - key: closure
+    name: 夷然就戮
+    labels:
+      zh: 收束
+    start_date: 195
+    highlight_event_id: guji-陆机-event-death
+  decisions:
+  - date: 195
+    title_zh: 受成都王都督之命
+    rationale: 恩多报重不忍辞难欲以功赎文士之讥
+  - date: 195
+    title_zh: 兵败不逃直待罪
+    rationale: 守道不易不肯轻脱冀以忠义明白于天下
+events:
+- id: guji-陆机-event-birth
+  person_id: guji-陆机
+  title_zh: 生于华亭崑山陆氏
+  type: birth
+  date: 177
+  year_of: 261
+  place_zh: 华亭谷崑山
+  description: 昭侯之后世居华亭谷崑山之阴生机兄弟后以文章名世
+- id: guji-陆机-event-fame-jiangzuo
+  person_id: guji-陆机
+  title_zh: 以文章擅雄江左
+  type: achievement
+  date: 189
+  year_of: 275
+  place_zh: 吴华亭
+  description: 孙吴偏隅日寻干戈而机兄弟独以藻丽迈往之气擅雄江左
+- id: guji-陆机-event-enter-jin
+  person_id: guji-陆机
+  title_zh: 吴亡入晋名服中州
+  type: achievement
+  date: 0282
+  year_of: 282
+  place_zh: 洛阳
+  description: 吴亡入晋中州岂无能言者而皆心服举晋百余年而有盛名
+- id: guji-陆机-event-pingyuan
+  person_id: guji-陆机
+  title_zh: 任平原内史
+  type: appointment
+  date: 0290
+  year_of: 290
+  place_zh: 平原
+  description: 士衡为平原内史士龙为清河内史兄弟并显
+- id: guji-陆机-event-defeat
+  person_id: guji-陆机
+  title_zh: 为成都王督军战败
+  type: battle
+  date: 195
+  year_of: 303
+  place_zh: 河桥
+  description: 恩多报重宠极害深一阴一阳化施世清才良而步蹇终以谗败
+- id: guji-陆机-event-death
+  person_id: guji-陆机
+  title_zh: 被害于军中
+  type: death
+  date: 195
+  year_of: 303
+  place_zh: 军中
+  description: 能表表于斯世而不能自有其躬死而不朽久而竟存享年四十三
+- id: guji-陆机-event-erjun
+  person_id: guji-陆机
+  title_zh: 后世立二俊堂祀之
+  type: commemoration
+  date: 1199
+  year_of: 1199
+  place_zh: 松江府学东庑
+  description: 庆元五年徐民瞻立二俊堂于府学迁图像俎豆其中林至为记以风示学者
