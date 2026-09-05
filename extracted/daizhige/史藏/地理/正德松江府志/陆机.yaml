@@ -8,175 +8,124 @@ person:
     birth:
       date: '0261'
       precision: year
-      is_circa: false
-      raw: 魏景元二年华亭长谷
+      is_circa: true
+      raw: 魏景元二年华亭生
     death:
       date: '0303'
       precision: year
       is_circa: false
-      raw: 晋太安二年遇害于军中
+      raw: 西晋太安二年洛阳被害
   birth_date: '0261'
   death_date: '0303'
   era: 西晋
-  reign_ref: 晋太安
-  archetype: 怀土文士殉节型
+  reign_ref: 晋惠帝太安
+  archetype: 悲剧文士
   dilemmas:
-  - 怀土恋乡与入洛求名之两难
-  - 以文士领军与才位不适之困局
-  lesson: 空怀经纬而托身王室之争终致杀身当审时守分不贪非分之功
-  summary_first_person: 我本华亭长谷陆氏子少读于干山草堂望谷水昆山而怀土后作怀土赋以抒情终别乡入洛求仕以文领军败而殒命至今鹤唳犹闻于乡水
+  - 才名冠世而投身藩王相争难自全
+  - 吴人入洛求显反因乡党猜嫌见忌
+  lesson: 恃文才而缺将略逢乱世而托非主终致身死族灭
+  summary_first_person: 吾生华亭少以文名入洛文藻倾动一时后从成都王领兵河桥大败谗言并至竟含冤就戮临刑唯思故乡鹤唳
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B716.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B716.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B718.md
 endeavors:
 - id: guji-陆机-endeavor-1
-  title_zh: 华亭谷水怀土著述
-  summary: 少居华亭长谷读书干山草堂作怀土赋及赠从兄诗以抒怀土之思
+  title_zh: 太康入洛以文立名
+  summary: 自吴入晋由华亭别业走向洛阳文坛以文赋诗论压倒中原
   phases:
   - key: brewing
-    name: 干山草堂读书养志
+    name: 华亭力学博观
     labels:
       zh:
-      - 读书
-      - 养志
-    start_date: '0274'
-    highlight_event_id: guji-陆机-event-study
+      - 积累
+      - 闭门著述
+    start_date: '0265'
+    highlight_event_id: guji-陆机-event-birth
   - key: breakthrough
-    name: 作怀土赋抒怀土之情
+    name: 入洛献文惊四座
     labels:
       zh:
-      - 辞赋
-      - 怀土
-    start_date: 0280
-    highlight_event_id: guji-陆机-event-huaitu
+      - 扬名
+      - 文坛领袖
+    start_date: 0289
+    highlight_event_id: guji-陆机-event-ruoluo
   - key: climax
-    name: 赠从兄车骑诗言谷水昆山
+    name: 文赋定论领袖一时
     labels:
       zh:
-      - 赠答
-      - 思归
-    start_date: 0285
-    highlight_event_id: guji-陆机-event-poem
-  - key: closure
-    name: 别华亭北上求仕
-    labels:
-      zh:
-      - 离乡
-      - 求仕
-    start_date: 0289
-    highlight_event_id: guji-陆机-event-north
-  decisions:
-  - date: 0280
-    title_zh: 作怀土赋以自述
-    rationale: 去家渐久怀土弥笃欲以辞赋存故都之思寄栖鸟离禽之叹
-  - date: 0289
-    title_zh: 决意北上入洛
-    rationale: 吴亡之后不甘老于谷水欲以才学取功名于中朝故背乡而北游
-- id: guji-陆机-endeavor-2
-  title_zh: 入洛仕晋领军殒命
-  summary: 晋平吴后入洛历著作郎太子洗马终从成都王出军兵败遇害
-  phases:
-  - key: brewing
-    name: 平吴后入洛交游名士
-    labels:
-      zh:
-      - 入洛
-      - 交游
-    start_date: 0289
-    highlight_event_id: guji-陆机-event-north
-  - key: breakthrough
-    name: 历官著作郎显名中朝
-    labels:
-      zh:
-      - 入仕
-      - 文名
+      - 巅峰
+      - 典范
     start_date: 0290
-    highlight_event_id: guji-陆机-event-office
-  - key: climax
-    name: 从成都王领军出战
+    highlight_event_id: guji-陆机-event-wenfu
+  decisions:
+  - date: 0289
+    title_zh: 兄弟同入洛阳求仕
+    rationale: 晋平吴后辟召南士欲以中原文坛证明吴人学问不让北方
+  - date: 0290
+    title_zh: 作辨亡论与文赋明志
+    rationale: 借论吴亡寄兴亡之慨借论文立不朽之业以文求不朽不以权求幸进
+- id: guji-陆机-endeavor-2
+  title_zh: 依附成都王从戎致败
+  summary: 八王乱起依成都王颖领兵终以河间兵败被谗被害
+  phases:
+  - key: brewing
+    name: 应辟入仕依附藩府
     labels:
       zh:
-      - 从戎
-      - 领军
-    start_date: '0303'
-    highlight_event_id: guji-陆机-event-battle
+      - 从政
+      - 托主
+    start_date: 0291
+    highlight_event_id: guji-陆机-event-wenfu
+  - key: breakthrough
+    name: 受任都督领兵二十万
+    labels:
+      zh:
+      - 掌兵
+      - 临战
+    start_date: 0303-07
+    highlight_event_id: guji-陆机-event-congjun
   - key: closure
-    name: 兵败被谗遇害军中
+    name: 河桥兵溃洛阳就戮
     labels:
       zh:
       - 兵败
-      - 殒命
-    start_date: '0303'
+      - 蒙冤
+    start_date: 0303-10
     highlight_event_id: guji-陆机-event-death
   decisions:
-  - date: 0290
-    title_zh: 就征入仕中朝
-    rationale: 欲展经纬之才洗吴人之耻故应召历官不守丘园之逸
-  - date: '0303'
-    title_zh: 从成都王出军
-    rationale: 受托领兵不便力辞欲以功成名立终以文士不知军而致败
+  - date: 0303-07
+    title_zh: 受成都王节制南讨长沙王
+    rationale: 感知遇欲以功报主明知将帅不和士心不附仍勉强受命
+  - date: 0303-09
+    title_zh: 河桥迟留不速进
+    rationale: 欲持重观变兼惜将士性命反被孟玖等诬以怀异致军心离散
 events:
 - id: guji-陆机-event-birth
-  person_id: guji-陆机
-  type: birth
-  title_zh: 生于华亭长谷陆氏
   date: '0261'
   year_of: 261
-  description: 陆机生于吴华亭长谷陆氏为陆逊之孙陆抗之子世封此土家于昆山谷水之间
-  location_zh: 华亭长谷
-- id: guji-陆机-event-study
-  person_id: guji-陆机
-  type: study
-  title_zh: 少读干山草堂
-  date: '0274'
-  year_of: 274
-  description: 少日读书干山圆智寺草堂望海天禾黍而养志为后日辞赋之基
-  location_zh: 干山草堂
-- id: guji-陆机-event-huaitu
-  person_id: guji-陆机
-  type: work
-  title_zh: 作怀土赋述怀乡之思
-  date: 0280
-  year_of: 280
-  description: 去家渐久作怀土赋背故都之沃衍适新邑之丘墟以抒恋乡之情
-  location_zh: 华亭
-- id: guji-陆机-event-poem
-  person_id: guji-陆机
-  type: work
-  title_zh: 作赠从兄车骑诗言谷水昆山
-  date: 0285
-  year_of: 285
-  description: 赠从兄诗云髣髴谷水阳婉孌昆山阴营魂怀兹土精爽若飞沈以明不忘故乡
-  location_zh: 华亭谷水
-- id: guji-陆机-event-north
-  person_id: guji-陆机
-  type: career
-  title_zh: 别华亭北上入洛
+  title_zh: 生于吴郡华亭
+  description: 出陆逊家少负才名与弟云并称云间二陆家有别业台榭后世传为普照寺基
+  place_zh: 华亭
+- id: guji-陆机-event-ruoluo
   date: 0289
   year_of: 289
-  description: 吴亡后与弟云俱入洛交游名士声华藉甚历著作郎太子洗马等职
-  location_zh: 洛阳
-- id: guji-陆机-event-office
-  person_id: guji-陆机
-  type: career
-  title_zh: 仕晋显名中朝
+  title_zh: 太康末兄弟入洛
+  description: 与陆云同入洛阳张华辈叹服一时文士莫与为敌名动京师
+  place_zh: 洛阳
+- id: guji-陆机-event-wenfu
   date: 0290
   year_of: 290
-  description: 仕晋以文才显于中朝辞藻宏丽张华所叹然怀土之心未尝忘谷水
-  location_zh: 洛阳
-- id: guji-陆机-event-battle
-  person_id: guji-陆机
-  type: battle
-  title_zh: 从成都王出军兵败
-  date: '0303'
+  title_zh: 著文赋辨亡论
+  description: 系统论文章利病为晋代文学典范并论吴亡原因寄托家国之思
+  place_zh: 洛阳
+- id: guji-陆机-event-congjun
+  date: 0303-07
   year_of: 303
-  description: 从成都王司马颖出军以文士领军众不服调度失宜师败于河桥
-  location_zh: 河桥
+  title_zh: 领成都王兵讨长沙王
+  description: 拜后将军都督诸军事率众二十万出征鹿苑一役大溃
+  place_zh: 河桥
 - id: guji-陆机-event-death
-  person_id: guji-陆机
-  type: death
-  title_zh: 遇害于军中
   date: '0303'
   year_of: 303
-  description: 兵败之后为宦人所谗成都王听之遂遇害于军中年四十三华亭故宅遂为空墟
-  location_zh: 军中
+  title_zh: 被谗被害洛阳
+  description: 宦人孟玖等谮其怀贰成都王听谗收斩并夷三族临刑叹华亭鹤唳不可复闻
+  place_zh: 洛阳
