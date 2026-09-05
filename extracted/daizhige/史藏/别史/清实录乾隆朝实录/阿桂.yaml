@@ -7,139 +7,140 @@ person:
   lifespan:
     birth:
       date: 1717-09-07
-      precision: year
-      is_circa: true
-      raw: 康熙五十六年
+      precision: day
+      is_circa: false
+      raw: 康熙五十六年八月初二
     death:
       date: 1797-10-10
-      precision: year
+      precision: day
       is_circa: false
       raw: 嘉庆二年八月十九
   birth_date: 1717-09-07
   death_date: 1797-10-10
-  era: 清乾隆朝
-  reign_ref: 乾隆四十六年辛丑六月
-  archetype: 钦差经略重臣
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 经略重臣
   dilemmas:
-  - 围困垂毙之贼宜耐心待毙以全官兵，抑或速攻以解宵旰之急
-  - 陶庄引河既开而江南年年漫溢，宜直陈格碍以担干系，抑或回护前议以求无过
-  - 甘肃监粮折色积弊通省染指，宜彻底根究以清流弊，抑或顾全大局以免罚及众人
-  lesson: 围困以断水筑台为要，河防以履勘求实为要，钱粮以彻底较勘为要，皆不可存回护姑息之见
-  summary_first_person: 我奉命钦差甘肃会同李侍尧剿办华林山逆回，四面围困，断绝水道，分路进扑，立栅筑台，耐心待毙，又会勘南河陶庄沈家窰诸工，查魏家庄漫溢之因，并奉旨彻底清查甘肃监粮私收折色冒销积弊，不敢稍存瞻徇
+  - 新旧教错居之地剿后如何安插而潜消事端
+  - 河湖漫溢跨省之时如何打破此疆彼界通筹分泄
+  lesson: 抚缉兼施方能敉宁边境，通盘筹划方能宣泄巨浸，任事不可存畛域之见
+  summary_first_person: 余乃章佳阿桂，久任经略，乾隆四十六年奉命往甘肃查办善后，又兼阅河务，奏展兰州城垣，厘定陕甘营制，议赏撒拉尔屯地，协筹豫东漫水宣泄，深知边陲安宁在抚绥得法，河防成败在全局通观
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1134.md
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1134.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71139.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71139.html
 endeavors:
 - id: guji-阿桂-endeavor-1
-  title_zh: 钦差甘肃围剿华林山逆回贼营
+  person_qid: guji-阿桂
+  title_zh: 甘肃善后与兰州城防营制经略
+  summary: 会同李侍尧相度兰州展城，厘定陕甘增兵改制，处置撒拉尔遗地，密防边衅
   phases:
   - key: brewing
-    name: 四面围困断绝水道
+    name: 相度兰州形势
     labels:
       zh:
-      - 围困
-      - 断水
-    start_date: 1781-07-31
-    highlight_event_id: guji-阿桂-event-siege
+      - 筹边
+      - 相度城垣
+    start_date: 1781-09-20
+    highlight_event_id: guji-阿桂-event-lanzhou
   - key: breakthrough
-    name: 分路进扑填塞盗水旧泉
+    name: 奏定展城增兵
     labels:
       zh:
-      - 进扑
-      - 填泉
-    start_date: 1781-08-01
-    highlight_event_id: guji-阿桂-event-siege
-  - key: climax
-    name: 南面立栅接筑炮台耐心待毙
-    labels:
-      zh:
-      - 立栅
-      - 筑台
-    start_date: 1781-08-02
-    highlight_event_id: guji-阿桂-event-siege
+      - 增兵改制
+      - 统辖厘定
+    start_date: 1781-09-23
+    highlight_event_id: guji-阿桂-event-bingzhi
   - key: closure
-    name: 明示法纪肃清胁从议展兰州西城
+    name: 赏地安插善后
     labels:
       zh:
-      - 善后
-      - 展城
-    start_date: 1781-08-03
-    highlight_event_id: guji-阿桂-event-siege
+      - 善后安插
+      - 抚缉兼施
+    start_date: 1781-09-24
+    highlight_event_id: guji-阿桂-event-salaer
   decisions:
-  - date: 1781-08-01
-    title_zh: 断水填泉加兵防范不急于夺营
-    rationale: 贼已穷蹙负嵎死守，若强攻徒伤官兵，故以填筑土石断其盗水，分路埋伏相机进剿
-  - date: 1781-08-02
-    title_zh: 脱回老教剿后按律正法不留姑息
-    rationale: 脱回者久从逆贼打仗伤官，非真旧教早窜，故暂留招致贼夥，事毕明示正法以儆胁从
-  - date: 1781-08-03
-    title_zh: 存记仁和罗江鳞疎玩以观后效
-    rationale: 贼两次下沟盗水皆营卡防范不严，本省提督呼应自灵而玩忽更重，故事毕严参以肃军纪
+  - date: 1781-09-20
+    title_zh: 议展兰州东城并筑营堡墩台
+    rationale: 北临大河西南山重惟东平衍可展，兼筑营堡空心墩以资控驭
+  - date: 1781-09-23
+    title_zh: 议增陕甘兵额改设将备统辖
+    rationale: 番回杂处须声势联络营伍充实，固原仍设提标河州改镇以便弹压
 - id: guji-阿桂-endeavor-2
-  title_zh: 会勘南河漫溢兼查甘肃监粮折色弊案
+  person_qid: guji-阿桂
+  title_zh: 豫东漫口河务通筹阅看
+  summary: 奉旨阅看萨载李奉翰国泰河务奏折，通筹微山湖运河分泄，督催豫省漫口合龙
   phases:
   - key: brewing
-    name: 南河履勘沈家窰放水畅达
+    name: 阅看运河分泄奏
     labels:
       zh:
-      - 履勘
-      - 引河
-    start_date: 1781-07-24
-    highlight_event_id: guji-阿桂-event-river
-  - key: breakthrough
-    name: 魏家庄漫口查明分溜绘图驰奏
-    labels:
-      zh:
-      - 漫口
-      - 堵筑
-    start_date: 1781-08-01
-    highlight_event_id: guji-阿桂-event-river
+      - 阅看筹议
+      - 运河分泄
+    start_date: 1781-09-21
+    highlight_event_id: guji-阿桂-event-hewu
   - key: climax
-    name: 详究陶庄开放引河有无纡回格碍
+    name: 通筹湖河去路
     labels:
       zh:
-      - 会勘
-      - 究因
-    start_date: 1781-08-02
-    highlight_event_id: guji-阿桂-event-river
+      - 通盘筹划
+      - 不分畛域
+    start_date: 1781-09-26
+    highlight_event_id: guji-阿桂-event-hewu
   - key: closure
-    name: 彻底根究监粮折色冒销勒买积弊
+    name: 督催漫口合龙
     labels:
       zh:
-      - 清查
-      - 仓储
-    start_date: 1781-08-03
-    highlight_event_id: guji-阿桂-event-grain
+      - 督催合龙
+      - 以慰廑念
+    start_date: 1781-09-27
+    highlight_event_id: guji-阿桂-event-hewu
   decisions:
-  - date: 1781-08-02
-    title_zh: 会同萨载李奉翰覆勘陶庄格碍据实入告
-    rationale: 自开陶庄新河江南连岁冲溢，郭家渡魏家庄相继漫决，必按实情讲求审度，不存回护方慰廑念
-  - date: 1781-08-03
-    title_zh: 四面较勘王亶望王廷赞折色供词不涉颟顸
-    rationale: 定数五十五两收银交首府总办，既称谷多又年年报赈，必有短价勒买虚开冒销，故严查道府结报指名参奏
+  - date: 1781-09-21
+    title_zh: 附寄河务原折会商萨载国泰
+    rationale: 东省言东未通盘筹划下流，须履勘闸坝腾空运河备漫水畅行
+  - date: 1781-09-27
+    title_zh: 以漫口合龙为第一要务督催赶筑
+    rationale: 缺口一日不堵两省多受一日之累，须星夜趱筑早蒇事以除水患
 events:
 - id: guji-阿桂-event-birth
-  title_zh: 阿桂出生
+  person_qid: guji-阿桂
+  type: birth
+  title_zh: 生于京师章佳氏家
   date: 1717-09-07
   year_of: 1717
-  description: 康熙五十六年出生，满洲正蓝旗人，后为乾隆朝大学士公钦差经略重臣
-- id: guji-阿桂-event-siege
-  title_zh: 四面围困华林山断水立栅筑台
-  date: 1781-08-01
-  year_of: 1781
-  description: 会同李侍尧将逆回贼营四面围困断绝水道，贼夜缒水磨沟华林寺后刨泉盗水，官兵中路进扑屯练降番攀磡上扑，填塞旧井，南面拏立木栅接筑炮台，解萧德福赴热河审办，饬存记仁和罗江鳞
-- id: guji-阿桂-event-river
-  title_zh: 会勘南河魏家庄漫口陶庄引河
-  date: 1781-08-02
-  year_of: 1781
-  description: 李奉翰报邳睢魏家庄六月初一日未时漫溢，朱笔点记沈家窰塌崖木龙挑水坝诸处，奉旨会同萨载李奉翰绘图贴说驰奏，详究自开陶庄引河以来年年漫溢有无纡回格碍，饬豫东实力防护
-- id: guji-阿桂-event-grain
-  title_zh: 奉旨彻底查办甘肃监粮折色案
-  date: 1781-08-03
-  year_of: 1781
-  description: 王廷赞供私收折色定数五十五两改归首府收捐，王亶望供通融办理捐多谷多，奉旨会同李侍尧详悉查明短价勒买冒销分肥及道府捏结，指名参奏，兼议兰州展城跨山临水善后
+  description: 大学士阿克敦之子，康熙五十六年八月初二生
 - id: guji-阿桂-event-death
-  title_zh: 阿桂病逝
+  person_qid: guji-阿桂
+  type: death
+  title_zh: 卒于京师
   date: 1797-10-10
   year_of: 1797
-  description: 嘉庆二年八月十九病逝，历乾隆朝金川甘肃台湾诸役，晋一等诚谋英勇公，配享太庙
+  description: 嘉庆二年八月十九卒，谥文成，配享太庙
+- id: guji-阿桂-event-lanzhou
+  person_qid: guji-阿桂
+  type: career
+  title_zh: 会奏展建兰州城垣奉旨准行
+  date: 1781-09-20
+  year_of: 1781
+  description: 与李侍尧商展大城向东一千一百七十余丈，拆西南郭添瓮城，筑华林营堡及空心墩
+- id: guji-阿桂-event-salaer
+  person_qid: guji-阿桂
+  type: career
+  title_zh: 奏请以撒拉尔遗地赏给出力土兵家属
+  date: 1781-09-24
+  year_of: 1781
+  description: 苏四十三剿尽后查十二工遗存耔种地二百三十四亩，赏随征伤亡土兵家属交土司均拨
+- id: guji-阿桂-event-bingzhi
+  person_qid: guji-阿桂
+  type: career
+  title_zh: 奏定陕甘增兵改制奉旨准行
+  date: 1781-09-25
+  year_of: 1781
+  description: 议覆添甘省兵六千五百八十二名陕省六千三百五十八名，固原仍驻提标河州改镇归辖营堡
+- id: guji-阿桂-event-hewu
+  person_qid: guji-阿桂
+  type: career
+  title_zh: 奉旨阅看豫东河务漫口奏折通筹分泄
+  date: 1781-09-26
+  year_of: 1781
+  description: 乾隆谕将萨载李奉翰国泰论微山湖淤垫及六塘河分泄原折钞寄阅看，令札商速筹合龙
