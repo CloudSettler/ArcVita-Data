@@ -11,132 +11,143 @@ person:
       is_circa: false
       raw: 雍正八年
     death:
-      date: '1797-07-27'
-      precision: day
+      date: '1797'
+      precision: year
       is_circa: false
-      raw: 嘉庆二年六月初三
+      raw: 嘉庆二年
   birth_date: '1730'
-  death_date: '1797-07-27'
+  death_date: '1797'
   era: 清代
   reign_ref: 乾隆
-  archetype: 勤政抚民之封疆学者
+  archetype: 封疆勤吏
   dilemmas:
-  - 秋禾待泽而节气已迟，奏灾恐涉讳饰，不奏则穷黎失所
-  - 夏麦虽丰而秋旱并至，赈借须实惠及民，又防冒领侵蚀
-  lesson: 遇旱先查实情，祈雨与赈恤并行，务使穷黎均沾实惠
-  summary_first_person: 吾抚陕岁遇秋旱，虔祷上闻，续得透雨犹确查乏食，酌借口粮，抚恤成灾，不使一夫失所
+  - 丁忧守制与陕西巡抚缺紧要需人署理之冲突
+  - 整肃金川逃兵军纪与节年缉获寥寥恐因循宽纵之难
+  - 镇安劫案审办迟延与民命要犯须速办速奏之责
+  lesson: 守制不废公忠，缉逃务在实力，刑名迟速即是民命所系
+  summary_first_person: 吾毕沅，抚陕任上逢丁忧，奉旨回籍守制，仍以缉拿金川潜逃绿营兵及审办镇安劫案为念，悬赏严缉，具摺汇奏，惟迟延之咎不敢辞，愿后人以实力任事为要
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71038.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71038.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71097.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71097.md
 endeavors:
 - id: guji-毕沅-endeavor-1
-  title_zh: 抚陕遇旱祈雨赈恤
-  summary: 乾隆四十二年秋西安久旱，奏闻祈祷，续得透雨后确查借粮抚恤
+  title_zh: 抚陕理政与丁忧守制候驾
+  goal_zh: 守制回籍不废封疆之责，南巡候驾以尽臣节
   phases:
   - key: brewing
-    name: 久旱奏闻虔诚祈祷
+    name: 陟任陕西巡抚
     labels:
-      zh: 察旱祈雨
-    start_date: '1777-09-02'
-    highlight_event_id: guji-毕沅-event-1
+      zh:
+      - 封疆抚陕
+    start_date: '1778'
+    highlight_event_id: guji-毕沅-event-dingyou
   - key: breakthrough
-    name: 省城普沾透雨
+    name: 丁忧奉旨回籍
     labels:
-      zh: 得雨续奏
-    start_date: '1777-09-18'
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 丁忧守制
+    start_date: 1779-12
+    highlight_event_id: guji-毕沅-event-dingyou
   - key: climax
-    name: 确查乏食酌借口粮
+    name: 南巡苏州候驾之期
     labels:
-      zh: 借粮安民
-    start_date: '1777-09-20'
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 候驾苏州
+    start_date: 1780-03
+    highlight_event_id: guji-毕沅-event-houjia
   - key: closure
-    name: 成灾妥加抚恤
+    name: 交卸付刘秉恬署理
     labels:
-      zh: 抚恤失所
-    start_date: '1777-10-01'
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 交卸署理
+    start_date: 1779-12
+    highlight_event_id: guji-毕沅-event-jiaoxie
   decisions:
-  - date: '1777-09-02'
-    title_zh: 据实奏报西安旱象
-    rationale: 立秋两旬未雨，田禾待泽孔殷，不敢讳饰，惟冀甘霖速沛
-  - date: '1777-09-18'
-    title_zh: 普雨后先借后抚
-    rationale: 晚稼荍菜虽有裨益，乏食贫民仍先酌借口粮，成灾者妥加抚恤
+  - date: 1779-12
+    title_zh: 遵旨即行回籍守制不覆奏
+    rationale: 百日内不便接驾，三月望后回銮至苏再候，遵旨而行以全君臣之礼
+  - date: 1779-12
+    title_zh: 将未竟刑名缉捕事付后任详查
+    rationale: 镇安劫案迟延及逃兵未获诸事，饬属严办并交刘秉恬覆奏，不以去任而废事
 - id: guji-毕沅-endeavor-2
-  title_zh: 督陕兴学经世著述
-  summary: 以经史致用抚关中，兴书院，重农务，撰述传世
+  title_zh: 整饬军纪缉拿金川潜逃兵丁
+  goal_zh: 悬赏设法实力缉捕，以肃军纪而儆效尤
   phases:
   - key: brewing
-    name: 翰林潜心经训
+    name: 奉旨上紧严缉逃兵
     labels:
-      zh: 读书养望
-    start_date: '1760-01-01'
-    highlight_event_id: guji-毕沅-event-3
+      zh:
+      - 军纪严缉
+    start_date: '1776'
+    highlight_event_id: guji-毕沅-event-jina
   - key: breakthrough
-    name: 出抚关中课农
+    name: 设法晓谕悬赏缉捕
     labels:
-      zh: 抚陕课农
-    start_date: '1775-01-01'
-    highlight_event_id: guji-毕沅-event-1
+      zh:
+      - 悬赏设法
+    start_date: 1779-12
+    highlight_event_id: guji-毕沅-event-jina
   - key: climax
-    name: 兴学修志惠士林
+    name: 节年拿获四十名正法本年又获二名
     labels:
-      zh: 兴学修志
-    start_date: '1780-01-01'
-    highlight_event_id: guji-毕沅-event-3
+      zh:
+      - 缉获正法
+    start_date: 1779-12
+    highlight_event_id: guji-毕沅-event-jina
   - key: closure
-    name: 著述续鉴传后
+    name: 岁底汇奏饬属务期全获
     labels:
-      zh: 著述传世
-    start_date: '1790-01-01'
-    highlight_event_id: guji-毕沅-event-3
+      zh:
+      - 汇奏饬属
+    start_date: 1779-12
+    highlight_event_id: guji-毕沅-event-zhenan
   decisions:
-  - date: '1775-01-01'
-    title_zh: 以麦为重兼顾秋禾
-    rationale: 关右民食以麦为重，夏麦丰而秋旱亦须董率属员实力妥办
-  - date: '1782-01-01'
-    title_zh: 设局纂修以存关中文献
-    rationale: 政余兴教，辑志书，刻经籍，使士有所宗而民有所劝
+  - date: 1779-12
+    title_zh: 悉心设法严切晓谕悬立赏格
+    rationale: 逃兵潜回情罪可恶，非赏格晓谕不足以动众，非实力缉捕不足以肃纪
+  - date: 1779-12
+    title_zh: 镇安巨盗审拟斩决速奏
+    rationale: 明火执仗捆殴劫财实属巨盗，虽迟延已成，仍应审明解勘以伸法纪
 events:
 - id: guji-毕沅-event-birth
-  title_zh: 出生于江苏镇洋
+  kind: birth
   date: '1730'
   year_of: 1730
-  precision: year
-  is_circa: false
-  raw: 雍正八年
-  description: 镇洋人，字纕蘅，号秋帆，少力学，登进士入翰林
-- id: guji-毕沅-event-1
-  title_zh: 奏报陕西西安久旱祈雨
-  date: '1777-09-02'
-  year_of: 1777
-  precision: month
-  is_circa: false
-  raw: 乾隆四十二年八月
-  description: 言自七月初得雨后西安同州邠州乾州立秋后两旬未雨，地土乾燥，秋阳甚烈，田禾待泽，虔诚祈祷
-- id: guji-毕沅-event-2
-  title_zh: 奏报省城得透雨并酌借口粮
-  date: '1777-09-18'
-  year_of: 1777
-  precision: month
-  is_circa: false
-  raw: 乾隆四十二年八月初八至十二日
-  description: 言西安省城八月初八至十二雨势渐密，通省普沾，可及时广种二麦，确查乏食贫民先酌借口粮，成灾者妥加抚恤
-- id: guji-毕沅-event-3
-  title_zh: 抚陕兴学修志著述
-  date: '1785-01-01'
-  year_of: 1785
-  precision: year
-  is_circa: true
-  raw: 乾隆五十年左右
-  description: 在陕兴书院，辑关中胜迹，撰续资治通鉴及经训堂集，奖掖士林
+  title_zh: 毕沅出生
+  description: 雍正八年生于江苏镇洋，字纕蘅，号秋帆
+- id: guji-毕沅-event-dingyou
+  kind: career
+  date: 1779-12
+  year_of: 1779
+  title_zh: 陕西巡抚任上丁忧奉旨回籍
+  description: 乾隆四十四年十二月谕陕西巡抚员缺紧要，著刘秉恬前往署理，毕沅即应回籍守制
+- id: guji-毕沅-event-houjia
+  kind: career
+  date: 1780-03
+  year_of: 1780
+  title_zh: 谕明春南巡回銮至苏候驾
+  description: 谕毕沅南巡经苏州时尚在百日内未便接驾，计回銮三月望后百日期满在彼伺候接驾
+- id: guji-毕沅-event-jina
+  kind: career
+  date: 1779-12
+  year_of: 1779
+  title_zh: 奏报缉拿进剿金川潜逃绿旗兵丁
+  description: 悉心设法悬赏实力缉捕，节年拿获四十名正法，本年又获二名审明治罪，仍饬属严拿务期全获
+- id: guji-毕沅-event-zhenan
+  kind: career
+  date: 1779-12
+  year_of: 1779
+  title_zh: 镇安县李生花家被劫案审拟具奏
+  description: 首盗冯老三纠夥十余人明火执仗劫财，九月被劫至十二月始审拟斩决，交三法司核拟并谕刘秉恬查明迟延缘由
+- id: guji-毕沅-event-jiaoxie
+  kind: career
+  date: 1779-12
+  year_of: 1779
+  title_zh: 交卸陕西巡抚由刘秉恬署理
+  description: 以丁忧去任，陕西巡抚员缺著刘秉恬署理，不必来京请训
 - id: guji-毕沅-event-death
-  title_zh: 卒于湖广总督任上
-  date: '1797-07-27'
+  kind: death
+  date: '1797'
   year_of: 1797
-  precision: day
-  is_circa: false
-  raw: 嘉庆二年六月初三
-  description: 历抚陕督湖广，勤政爱民，以学者治政，卒谥文恪
+  title_zh: 毕沅去世
+  description: 嘉庆二年卒于官，谥文慎，著述宏富，抚陕治绩与缉逃整军并称
