@@ -8,114 +8,120 @@ person:
     birth:
       date: '1742'
       precision: year
-      is_circa: true
-      raw: 乾隆七年左右生于额济勒
+      is_circa: false
+      raw: 乾隆七年生
     death:
-      date: '1775'
-      precision: year
-      is_circa: true
-      raw: 乾隆四十年卒于伊犁
+      date: 1775-01
+      precision: month
+      is_circa: false
+      raw: 乾隆三十九年十二月丙午前溘逝
   birth_date: '1742'
-  death_date: '1775'
-  era: 清代
+  death_date: 1775-01
+  era: 清
   reign_ref: 乾隆
-  archetype: 归顺领袖
+  archetype: 归诚藩君
   dilemmas:
-  - 留额济勒则受俄罗斯征调质子且异教相压去留两难
-  - 携全部跋涉万里则老弱阽危恐中途溃散与劫掠之责
-  lesson: 顺天应人而断则全族得生息抚纳以仁则边圉自靖安
-  summary_first_person: 吾为阿玉奇曾孙领土尔扈特部于额济勒因俄罗斯亟征调索质子又属别教非黄教遂与合族密谋挈全部三万余户东来兴黄教之地历戈壁哈萨克万余里至伊犁蒙大皇帝抚纳赈赡锡封入觐终使部众得所
+  - 背井东归与存亡未卜之难
+  - 感戴天恩与尽心牧务之责
+  lesson: 恭顺感恩尽心游牧方不负优恤
+  summary_first_person: 吾率部来归深沐天恩惟恭顺守牧以报万一
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70892.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70973.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70973.html
 endeavors:
 - id: guji-渥巴锡-endeavor-1
-  title_zh: 率全部东归投诚
-  summary: 以俄罗斯征调不息索子入质且异教相压遂密谋挈三万余户自额济勒启行绕巴勒喀什诺尔戈壁抵伊犁沙拉伯勒归顺
+  title_zh: 率土尔扈特东归投诚
+  summary: 不堪压迫率部万里东归归附大清
   phases:
   - key: brewing
-    name: 密谋决策东迁
+    name: 伏尔加忍辱负重
     labels:
-      zh:
-      - 密谋
-      - 背俄向化
-    start_date: '1770-12-01'
+      zh: 谋归
+    start_date: '1770'
+    highlight_event_id: guji-渥巴锡-event-donggui
+  - key: breakthrough
+    name: 决计东行
+    labels:
+      zh: 起程
+    start_date: 1771-01
     highlight_event_id: guji-渥巴锡-event-donggui
   - key: climax
     name: 万里跋涉抵伊犁
     labels:
-      zh:
-      - 长途
-      - 阽危求息
-    start_date: '1771-07-30'
-    highlight_event_id: guji-渥巴锡-event-daoyili
-  decisions:
-  - date: '1770-12-01'
-    title_zh: 弃额济勒挈全部东归
-    rationale: 不忍子孙入质异域且欲息肩黄教之地虽涉万里亦投中国
-  - date: '1771-07-30'
-    title_zh: 直抵伊犁界纳款不劫掠
-    rationale: 示诚顺以取抚纳免进退无据沦为寇仇
-- id: guji-渥巴锡-endeavor-2
-  title_zh: 入觐受封安置部众
-  summary: 奉命选台吉由驿入觐随围观猎于山庄燕赉受封爵朝廷发帑市畜赈赡分地安居计长久
-  phases:
-  - key: breakthrough
-    name: 行在朝觐受礼
-    labels:
-      zh:
-      - 朝觐
-      - 柔远
-    start_date: '1771-10-15'
-    highlight_event_id: guji-渥巴锡-event-rujin
+      zh: 来归
+    start_date: 1771-07
+    highlight_event_id: guji-渥巴锡-event-donggui
   - key: closure
-    name: 分地安居优恤
+    name: 觐见受封安辑
     labels:
-      zh:
-      - 安置
-      - 优恤
-    start_date: '1771-10-20'
-    highlight_event_id: guji-渥巴锡-event-anzhi
+      zh: 受封
+    start_date: 1771-09
+    highlight_event_id: guji-渥巴锡-event-fenghan
   decisions:
-  - date: '1771-10-15'
-    title_zh: 率台吉乘传入觐随围
-    rationale: 躬伸臣顺以定名分归顺非归降取信于朝
-  - date: '1771-10-20'
-    title_zh: 请分地就耕牧受赈赡
-    rationale: 部众冻馁尪瘠必口给衣食分地安居方能赡生久远
+  - date: 1771-01
+    title_zh: 决意东归
+    rationale: 不忍屈辱宁冒死求归故土以全部众
+  - date: 1771-07
+    title_zh: 归附大清
+    rationale: 感念天朝抚绥诚心投诚以求生养
+- id: guji-渥巴锡-endeavor-2
+  title_zh: 守牧西陲恭顺效力
+  summary: 受封汗爵后尽心办理游牧事务恭顺可嘉
+  phases:
+  - key: brewing
+    name: 初定游牧
+    labels:
+      zh: 安置
+    start_date: 1771-09
+    highlight_event_id: guji-渥巴锡-event-fenghan
+  - key: breakthrough
+    name: 勤理部务
+    labels:
+      zh: 理牧
+    start_date: '1772'
+    highlight_event_id: guji-渥巴锡-event-youmu
+  - key: climax
+    name: 恭顺著闻
+    labels:
+      zh: 恭顺
+    start_date: '1773'
+    highlight_event_id: guji-渥巴锡-event-youmu
+  - key: closure
+    name: 溘逝蒙恩恤
+    labels:
+      zh: 恩恤
+    start_date: 1775-01
+    highlight_event_id: guji-渥巴锡-event-death
+  decisions:
+  - date: 1771-09
+    title_zh: 安部守牧
+    rationale: 既沐深恩当尽心游牧以安部众
+  - date: '1773'
+    title_zh: 恭顺奉职
+    rationale: 以恭顺报恩不敢稍懈以副优抚
 events:
 - id: guji-渥巴锡-event-birth
-  title_zh: 生于额济勒
+  title_zh: 出生
   date: '1742'
   year_of: 1742
-  place: 额济勒
-  description: 阿玉奇曾孙生于俄罗斯额济勒之地嗣为土尔扈特汗
+  description: 生于伏尔加土尔扈特部为汗族后裔
 - id: guji-渥巴锡-event-donggui
-  title_zh: 自额济勒启行东归
-  date: '1770-12-01'
-  year_of: 1770
-  place: 额济勒
-  description: 与合族台吉密谋挈全部三万三千余户十六万九千余口渡额济勒历哈萨克绕戈壁东来
-- id: guji-渥巴锡-event-daoyili
-  title_zh: 抵伊犁沙拉伯勒界
-  date: '1771-07-30'
+  title_zh: 率部东归抵伊犁
+  date: 1771-07
   year_of: 1771
-  place: 伊犁沙拉伯勒
-  description: 历八阅月万余里六月杪至伊犁界舒赫德安汛设侦筹储一至如归仅以半计七万余众
-- id: guji-渥巴锡-event-rujin
-  title_zh: 行在朝觐受赏
-  date: '1771-10-15'
+  description: 率土尔扈特万里东归抵伊犁投诚大清
+- id: guji-渥巴锡-event-fenghan
+  title_zh: 受封土尔扈特汗
+  date: 1771-09
   year_of: 1771
-  place: 木兰行幄避暑山庄
-  description: 土尔扈特台吉渥巴锡等归顺入觐上御行幄受朝赏顶带冠服锡封爵如都尔伯特策凌例燕赉
-- id: guji-渥巴锡-event-anzhi
-  title_zh: 朝廷优恤安置部众
-  date: '1771-10-20'
-  year_of: 1771
-  place: 伊犁
-  description: 口给以食人授之衣发帑市马牛羊茶米裘布氊庐分地安居使就耕牧费帑银二十万两
+  description: 朝廷加封为汗安置游牧深沐天恩
+- id: guji-渥巴锡-event-youmu
+  title_zh: 尽心办理游牧事务
+  date: '1773'
+  year_of: 1773
+  description: 于游牧事务尽心办理一切恭顺深感皇恩
 - id: guji-渥巴锡-event-death
-  title_zh: 卒于伊犁
-  date: '1775'
+  title_zh: 溘逝蒙恩奠祭袭爵
+  date: 1775-01
   year_of: 1775
-  place: 伊犁
-  description: 归顺后领部安置伊犁数年后卒
+  description: 溘逝堪悯派侍卫奠祭拨银办丧长子袭爵
