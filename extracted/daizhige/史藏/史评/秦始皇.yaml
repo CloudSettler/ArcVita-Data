@@ -1,0 +1,136 @@
+person:
+  qid: guji-秦始皇
+  name_zh: 秦始皇
+  names:
+    zh: 嬴政
+    en: Qin Shi Huang
+  lifespan:
+    birth:
+      date: -259
+      precision: year
+      is_circa: false
+      raw: 前二五九年生于赵邯郸
+    death:
+      date: -210
+      precision: year
+      is_circa: false
+      raw: 前二一零年崩于沙丘
+  birth_date: -259
+  death_date: -210
+  era: 战国末至秦朝
+  reign_ref: 秦王政及始皇帝
+  archetype: 一统开创之君
+  dilemmas:
+  - 封建世及安稳与郡县选贤大公之间如何取舍
+  - 以私心有天下与以公心为天下之间如何自处
+  - 好谀托非人与审慎择托孤之臣之间如何辨人
+  lesson: 罢侯置守本出私心而天假以行大公，然好谀不知人而托国非人则短祚，公私之辨与知人之明不可偏废
+  summary_first_person: 朕并六国罢侯置守，以为子孙万世之私，却被天假其私以行郡县之大公，然朕好谀不知人，托国赵高而致扶苏自杀胡亥乱亡，此朕之大戒也
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%8F%B2%E8%AF%84/%E8%AF%BB%E9%80%9A%E9%89%B4%E8%AE%BA.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%8F%B2%E8%AF%84/%E8%AF%BB%E9%80%9A%E9%89%B4%E8%AE%BA.md
+endeavors:
+- id: guji-秦始皇-endeavor-1
+  title_zh: 并吞六国建立一统
+  summary: 自秦王政即位至灭六国称皇帝，完成天下一统
+  phases:
+  - key: brewing
+    name: 即位蓄势
+    labels:
+      zh: 秦国积势
+    start_date: -246
+    highlight_event_id: guji-秦始皇-event-accession
+  - key: breakthrough
+    name: 连灭韩赵魏
+    labels:
+      zh: 横扫三晋
+    start_date: -230
+    highlight_event_id: guji-秦始皇-event-unify
+  - key: climax
+    name: 一统称帝
+    labels:
+      zh: 并天下称皇帝
+    start_date: -221
+    highlight_event_id: guji-秦始皇-event-unify
+  - key: closure
+    name: 巡守定鼎
+    labels:
+      zh: 奠定帝业
+    start_date: -220
+    highlight_event_id: guji-秦始皇-event-unify
+  decisions:
+  - date: -221
+    title_zh: 称皇帝并天下
+    rationale: 疆弱相噬战国不靖，唯有一统方能息兵安民，故并六国而称始皇帝
+- id: guji-秦始皇-endeavor-2
+  title_zh: 罢侯置守推行郡县
+  summary: 废分封置郡县，以守令治理天下，行大公之制
+  phases:
+  - key: brewing
+    name: 廷议封建郡县
+    labels:
+      zh: 两端争胜
+    start_date: -221
+    highlight_event_id: guji-秦始皇-event-junxian
+  - key: breakthrough
+    name: 分国为郡县
+    labels:
+      zh: 罢侯置守
+    start_date: -221
+    highlight_event_id: guji-秦始皇-event-junxian
+  - key: climax
+    name: 选人尹民
+    labels:
+      zh: 才者居民上
+    start_date: -220
+    highlight_event_id: guji-秦始皇-event-junxian
+  - key: closure
+    name: 私心行大公
+    labels:
+      zh: 天假其私
+    start_date: -219
+    highlight_event_id: guji-秦始皇-event-tuoguo
+  decisions:
+  - date: -221
+    title_zh: 罢侯置守
+    rationale: 封建必滥必激而战国之祸不息，郡县可使才者长民而黜陟苏困，故虽出私心而合天下之公
+  - date: -210
+    title_zh: 托国赵高
+    rationale: 好谀而不知人，以赵高托胡亥，终致宗社倾覆，此为失人之鉴
+events:
+- id: guji-秦始皇-event-birth
+  title_zh: 生于邯郸
+  date: -259
+  year_of: -259
+  place_zh: 赵邯郸
+  description: 嬴政生于赵邯郸，为秦庄襄王之子
+- id: guji-秦始皇-event-accession
+  title_zh: 即秦王位
+  date: -246
+  year_of: -246
+  place_zh: 秦咸阳
+  description: 年少即秦王位，国政渐收，蓄势东出
+- id: guji-秦始皇-event-unify
+  title_zh: 并六国称皇帝
+  date: -221
+  year_of: -221
+  place_zh: 咸阳
+  description: 灭六国并天下，自称始皇帝，建立秦朝
+- id: guji-秦始皇-event-junxian
+  title_zh: 废封建置郡县
+  date: -221
+  year_of: -221
+  place_zh: 咸阳
+  description: 罢侯置守，分国为郡县，择人以尹民，行天下之大公
+- id: guji-秦始皇-event-tuoguo
+  title_zh: 托国赵高扶苏自杀
+  date: -210
+  year_of: -210
+  place_zh: 沙丘
+  description: 始皇崩前托国非人，赵高擅权，扶苏自杀，胡亥得立，秦祚遂短
+- id: guji-秦始皇-event-death
+  title_zh: 崩于沙丘
+  date: -210
+  year_of: -210
+  place_zh: 沙丘
+  description: 秦始皇东巡崩于沙丘，归葬骊山，秦朝由盛转衰
