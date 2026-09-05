@@ -1,0 +1,130 @@
+person:
+  qid: guji-苏轼
+  name_zh: 苏轼
+  names:
+    zh: 苏轼
+    en: Su Shi
+  lifespan:
+    birth:
+      date: 1037-01-08
+      precision: day
+      is_circa: false
+      raw: 景祐三年十二月十九日生于眉山
+    death:
+      date: 1101-08-24
+      precision: day
+      is_circa: false
+      raw: 建中靖国元年七月二十八日卒于常州
+  birth_date: 1037-01-08
+  death_date: 1101-08-24
+  era: 北宋
+  reign_ref: 宋仁宗景祐
+  archetype: 旷达文豪
+  dilemmas:
+  - 入世济民与全身远害之两难
+  - 直言敢谏与随俗保身之两难
+  lesson: 以旷达之心济世利民而守正不阿
+  summary_first_person: 余眉山苏轼也尝与秦观参寥会于松江垂虹之上观东南之水浩荡归海而知泽国利害相依遂以诗纪胜游以政浚水利一生迁谪而此志不改
+  source_urls:
+  - https://daizhige.org/史藏/地理/正德松江府志/卷02.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/正德松江府志/卷02.md
+endeavors:
+- id: guji-苏轼-endeavor-1
+  title_zh: 松江垂虹会友纪游
+  summary_zh: 与秦观参寥会于松江垂虹作诗纪东南水利形胜与故人胜游之情
+  phases:
+  - key: brewing
+    name: 宦游江南蓄势
+    labels:
+      zh: 交游酝酿
+    start_date: 1089-01-01
+    highlight_event_id: guji-苏轼-event-1
+  - key: breakthrough
+    name: 垂虹聚会成篇
+    labels:
+      zh: 松江聚会
+    start_date: 1091-10-01
+    highlight_event_id: guji-苏轼-event-1
+  - key: climax
+    name: 浮天东南传诵
+    labels:
+      zh: 名篇远播
+    start_date: 1092-01-01
+    highlight_event_id: guji-苏轼-event-1
+  - key: closure
+    name: 胜游难再追怀
+    labels:
+      zh: 追怀总结
+    start_date: 1094-01-01
+    highlight_event_id: guji-苏轼-event-1
+  decisions:
+  - date: 1091-10-01
+    title_zh: 扶病赴松江之约
+    rationale: 重故人鸡黍之约而不以衰病为辞以全交游之义
+  - date: 1091-10-02
+    title_zh: 以诗纪松江形胜
+    rationale: 见东南之水送客朝海遂形于咏以寄览物放怀之意
+- id: guji-苏轼-endeavor-2
+  title_zh: 吴越经世治水
+  summary_zh: 目睹太湖松江黄浦壅塞为患而议浚疏蓄泄以裕民田
+  phases:
+  - key: brewing
+    name: 察看湖江壅滞
+    labels:
+      zh: 相度水势
+    start_date: 1089-03-01
+    highlight_event_id: guji-苏轼-event-2
+  - key: breakthrough
+    name: 疏浚西湖浚治运河
+    labels:
+      zh: 杭州治水
+    start_date: 1089-07-01
+    highlight_event_id: guji-苏轼-event-2
+  - key: climax
+    name: 上言吴中水利
+    labels:
+      zh: 建言浚江
+    start_date: 1090-05-01
+    highlight_event_id: guji-苏轼-event-2
+  - key: closure
+    name: 功成民利后思
+    labels:
+      zh: 利民善后
+    start_date: 1091-03-01
+    highlight_event_id: guji-苏轼-event-2
+  decisions:
+  - date: 1089-07-01
+    title_zh: 募民疏西湖葑田
+    rationale: 以工代赈而复湖面以蓄泄西湖之水并溉民田
+  - date: 1090-05-01
+    title_zh: 请浚松江吴淞诸浦
+    rationale: 见震澤松江潮沙淤淀而欲法古人疏导之方以拯畛疇之患
+events:
+- id: guji-苏轼-event-birth
+  date: 1037-01-08
+  year_of: 1037
+  title_zh: 生于眉山
+  description: 宋仁宗景祐三年十二月十九日生于眉山苏氏
+  place_zh: 眉山
+  related_endeavor_id: guji-苏轼-endeavor-1
+- id: guji-苏轼-event-1
+  date: 1091-10-01
+  year_of: 1091
+  title_zh: 与秦观参寥会于松江
+  description: 与秦观参寥会于松江垂虹之上作浮天自古东南水送客今朝西北风绝境自忘千里远胜游难复五人同
+  place_zh: 松江垂虹
+  related_endeavor_id: guji-苏轼-endeavor-1
+- id: guji-苏轼-event-2
+  date: 1089-07-01
+  year_of: 1089
+  title_zh: 知杭州疏浚西湖
+  description: 知杭州时疏西湖筑苏堤以利蓄泄并及吴中松江太湖水患之议
+  place_zh: 杭州
+  related_endeavor_id: guji-苏轼-endeavor-2
+- id: guji-苏轼-event-death
+  date: 1101-08-24
+  year_of: 1101
+  title_zh: 卒于常州
+  description: 建中靖国元年七月二十八日卒于常州北归途中
+  place_zh: 常州
+  related_endeavor_id: guji-苏轼-endeavor-2
