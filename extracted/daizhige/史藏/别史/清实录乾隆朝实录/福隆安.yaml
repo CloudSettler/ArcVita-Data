@@ -6,136 +6,121 @@ person:
     en: Fulongan
   lifespan:
     birth:
-      date: 1746-01-01
+      date: 1746
       precision: year
-      is_circa: true
+      is_circa: false
       raw: 乾隆十一年
     death:
-      date: 1784-04-21
-      precision: day
+      date: 1784
+      precision: year
       is_circa: false
-      raw: 乾隆四十九年闰三月丙辰朔
-  birth_date: 1746-01-01
-  death_date: 1784-04-21
+      raw: 乾隆四十九年夏四月
+  birth_date: 1746
+  death_date: 1784
   era: 清乾隆朝
-  reign_ref: 乾隆
-  archetype: 醇良谨饬额驸尚书
+  reign_ref: 乾隆四十九年
+  archetype: 勋戚重臣
   dilemmas:
-  - 身兼额驸与尚书之任，既须谨慎守分，又须综理部务宣力有年
-  - 旧症复发屡蒙给假赐医，病体加剧时当以家事国事为重
-  lesson: 醇良勤慎小心任事，方能久承恩遇，身后亦蒙加恩宽免
-  summary_first_person: 吾以额驸综理部务，勤慎小心，屡蒙圣恩，病中赐药赐医，子驰驿归省，殁后亲王奠醊，加恩开复处分，深感天恩浩荡
+  - 外戚身份与功绩自立之辨
+  - 禁近侍从与部务实任之衡
+  lesson: 以勋戚而能勤慎奉职可保令名
+  summary_first_person: 余以勋戚尚主列位尚书惟勤慎以报君恩
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71202.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71204.md
 endeavors:
 - id: guji-福隆安-endeavor-1
-  title_zh: 尚主额驸列班朝廷
-  summary: 尚和嘉公主授额驸公，列班朝廷，渐膺重任
+  title_zh: 尚主额驸禁近侍从
+  summary: 尚和嘉公主授额驸历御前侍卫护军统领守谦抑家法
   phases:
   - key: brewing
-    name: 出身勋戚
+    name: 将门积养
     labels:
-      zh:
-      - 勋戚
-      - 额驸
-    start_date: 1746-01-01
+      zh: 勋戚教养
+    start_date: 1746
     highlight_event_id: guji-福隆安-event-birth
   - key: breakthrough
-    name: 尚主授封
+    name: 尚主授职
     labels:
-      zh:
-      - 尚主
-      - 额驸公
-    start_date: 1760-01-01
-    highlight_event_id: guji-福隆安-event-shangzhu
+      zh: 尚主额驸
+    start_date: 1760
+    highlight_event_id: guji-福隆安-event-marriage
   - key: climax
-    name: 朝班进用
+    name: 宿卫扈从
     labels:
-      zh:
-      - 朝班
-      - 倚畀
-    start_date: 1770-01-01
-    highlight_event_id: guji-福隆安-event-zongli
+      zh: 禁近侍卫
+    start_date: 1765
+    highlight_event_id: guji-福隆安-event-guard
   - key: closure
-    name: 恩遇始终
+    name: 谦抑持家
     labels:
-      zh:
-      - 恩遇
-      - 恤典
-    start_date: 1784-04-21
-    highlight_event_id: guji-福隆安-event-death
+      zh: 谦退保家
+    start_date: 1770
+    highlight_event_id: guji-福隆安-event-guard
   decisions:
-  - date: 1760-01-01
-    title_zh: 尚主后谨饬自持
-    rationale: 身为额驸，当醇良谨饬，以守分承恩为要
-  - date: 1770-01-01
-    title_zh: 勉任部务宣力
-    rationale: 既膺倚畀，须勤慎小心综理部务以报效
+  - date: 1760
+    title_zh: 尚主后恪守臣节不干政
+    rationale: 以外戚近亲当避嫌以勤慎自保
+  - date: 1765
+    title_zh: 历禁卫统领躬亲宿卫
+    rationale: 以行伍勤勉立身不恃父兄荫望
 - id: guji-福隆安-endeavor-2
-  title_zh: 综理部务病逝蒙恩
-  summary: 综理部务有年，旧症复发蒙假调理，病逝蒙厚恩恤典
+  title_zh: 历部尚书出任要务
+  summary: 累迁工部兵部尚书兼都统内大臣佐理军国庶务
   phases:
   - key: brewing
-    name: 宣力部务
+    name: 部曹历练
     labels:
-      zh:
-      - 尚书
-      - 部务
-    start_date: 1776-01-01
-    highlight_event_id: guji-福隆安-event-zongli
+      zh: 部务初涉
+    start_date: 1770
+    highlight_event_id: guji-福隆安-event-guard
   - key: breakthrough
-    name: 旧症给假
+    name: 晋位尚书
     labels:
-      zh:
-      - 给假
-      - 赐医
-    start_date: 1783-01-01
-    highlight_event_id: guji-福隆安-event-zongli
+      zh: 工兵尚书
+    start_date: 1776
+    highlight_event_id: guji-福隆安-event-minister
   - key: climax
-    name: 病剧子归
+    name: 总理旗务
     labels:
-      zh:
-      - 病剧
-      - 省视
-    start_date: 1784-03-01
-    highlight_event_id: guji-福隆安-event-death
+      zh: 兼管都统
+    start_date: 1780
+    highlight_event_id: guji-福隆安-event-minister
   - key: closure
-    name: 溘逝加恩
+    name: 身后哀荣
     labels:
-      zh:
-      - 悼惜
-      - 开复
-    start_date: 1784-04-21
+      zh: 祭葬易名
+    start_date: 1784
     highlight_event_id: guji-福隆安-event-death
   decisions:
-  - date: 1783-01-01
-    title_zh: 旧症复发请假调理
-    rationale: 年力尚强，冀渐次平复以再供驱策
-  - date: 1784-03-01
-    title_zh: 病剧令子驰驿回京
-    rationale: 病体加剧，骨肉省视，以尽人子之义
+  - date: 1776
+    title_zh: 任尚书以清慎核实部务
+    rationale: 以纲纪整饬为先不滥保不市恩
+  - date: 1782
+    title_zh: 兼摄旗务整顿宿弊
+    rationale: 以满洲世仆当正身率属维持体面
 events:
 - id: guji-福隆安-event-birth
-  date: 1746-01-01
+  title_zh: 生于富察勋门
+  date: 1746
   year_of: 1746
-  title_zh: 福隆安出生
-  description: 乾隆十一年生，勋戚之后
-  raw: 乾隆十一年生
-- id: guji-福隆安-event-shangzhu
-  date: 1760-01-01
-  year_of: 1760
+  description: 乾隆十一年生为大学士傅恒长子孝贤皇后侄
+- id: guji-福隆安-event-marriage
   title_zh: 尚和嘉公主授额驸
-  description: 尚主授额驸公，列班朝廷，醇良谨饬
-  raw: 乾隆二十五年尚主
-- id: guji-福隆安-event-zongli
-  date: 1776-01-01
-  year_of: 1776
-  title_zh: 综理部务宣力有年
-  description: 以尚书综理部务，勤慎小心，宣力有年，旧症复发屡蒙给假赐药赐医
-  raw: 乾隆年间综理部务
+  date: 1760
+  year_of: 1760
+  description: 尚和嘉公主授和硕额驸列禁近侍卫
+- id: guji-福隆安-event-guard
+  title_zh: 历护军统领御前侍卫
+  date: 1768
+  year_of: 1768
+  description: 累任护军统领御前大臣扈从宿卫
+- id: guji-福隆安-event-minister
+  title_zh: 累迁工部兵部尚书
+  date: 1779
+  year_of: 1779
+  description: 累迁工部尚书兵部尚书兼正白旗满洲都统
 - id: guji-福隆安-event-death
-  date: 1784-04-21
+  title_zh: 病故祭葬谥勤恪
+  date: 1784
   year_of: 1784
-  title_zh: 病逝京师蒙恩恤
-  description: 乾隆四十九年闰三月丙辰朔溘逝，上深悼惜，命皇八子奠醊，赏内库银五千两，派大臣经理丧事，任内处分概予开复，家奴案自请罚俸亦宽免
-  raw: 乾隆四十九年闰三月丙辰朔溘逝
+  description: 乾隆四十九年夏四月故兵部尚书额驸公祭葬如例谥勤恪

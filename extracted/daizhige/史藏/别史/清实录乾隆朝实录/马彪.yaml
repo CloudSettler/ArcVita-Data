@@ -1,0 +1,116 @@
+person:
+  qid: guji-马彪
+  name_zh: 马彪
+  names:
+    zh: 马彪
+    en: Ma Biao
+  lifespan:
+    birth:
+      date: 1725
+      precision: year
+      is_circa: true
+      raw: 生年不详约雍正年间
+    death:
+      date: 1784
+      precision: year
+      is_circa: false
+      raw: 乾隆四十九年闰三月初六
+  birth_date: 1725
+  death_date: 1784
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 军功武将
+  dilemmas:
+  - 水陆要地需更调而途中染病仍星夜赴任
+  - 久历戎行膺重寄而甫到任即溘逝未竟其用
+  lesson: 劳瘁从公鞠躬尽瘁殁于官守蒙恩加赠以劝忠勤
+  summary_first_person: 我久在军营效力蒙恩简任西安提督实力整饬营务复因湖广水陆要地奉调新任不意在途受风寒到任旬日即逝蒙恩晋赠太子太保赏世职恤典感愧交并
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1203.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1203.html
+endeavors:
+- id: guji-马彪-endeavor-1
+  title_zh: 军营效力简任西安提督
+  summary: 前在军营劳绩懋著简任西安提督实力整饬营务
+  phases:
+  - key: brewing
+    name: 久历戎行劳绩懋著
+    labels:
+      zh: 军营历练
+    start_date: 1770
+    highlight_event_id: guji-马彪-event-birth
+  - key: breakthrough
+    name: 简任西安提督
+    labels:
+      zh: 简任西陲
+    start_date: 1783
+    highlight_event_id: guji-马彪-event-xian
+  - key: climax
+    name: 实力整饬营务
+    labels:
+      zh: 整饬营伍
+    start_date: 1783
+    highlight_event_id: guji-马彪-event-xian
+  - key: closure
+    name: 治军有声膺调湖广
+    labels:
+      zh: 迁调酝酿
+    start_date: 1784
+    highlight_event_id: guji-马彪-event-huguang
+  decisions:
+  - date: 1783
+    title_zh: 到西安整饬营务
+    rationale: 以军营宿将不敢废弛须实力整饬以副简任
+- id: guji-马彪-endeavor-2
+  title_zh: 调任湖广提督星夜赴任
+  summary: 因湖广水陆要地奉调湖广提督星夜赴任到任旬日病故
+  phases:
+  - key: brewing
+    name: 湖广水陆要地需人
+    labels:
+      zh: 要地需人
+    start_date: 1784
+    highlight_event_id: guji-马彪-event-xian
+  - key: breakthrough
+    name: 奉调湖广提督
+    labels:
+      zh: 奉调南行
+    start_date: 1784
+    highlight_event_id: guji-马彪-event-huguang
+  - key: climax
+    name: 三月二十七日到任
+    labels:
+      zh: 抱病到任
+    start_date: 1784
+    highlight_event_id: guji-马彪-event-huguang
+  - key: closure
+    name: 闰三月初六病故任所
+    labels:
+      zh: 殁于官守
+    start_date: 1784
+    highlight_event_id: guji-马彪-event-death
+  decisions:
+  - date: 1784
+    title_zh: 染病仍坚持赴任
+    rationale: 以水陆要地不敢稽延虽在途染病受风寒亦星夜前行到任守职
+events:
+- id: guji-马彪-event-birth
+  title_zh: 出生
+  date: 1725
+  year_of: 1725
+  description: 生年不详约雍正年间出生久历行伍在军营效力
+- id: guji-马彪-event-xian
+  title_zh: 简任西安提督整饬营务
+  date: 1783
+  year_of: 1783
+  description: 前在军营劳绩懋著简任西安提督实力整饬营务声绩著闻
+- id: guji-马彪-event-huguang
+  title_zh: 调任湖广提督到任
+  date: 1784
+  year_of: 1784
+  description: 因湖广系水陆要地调任湖广提督本年三月二十七日到任
+- id: guji-马彪-event-death
+  title_zh: 病故湖广任所
+  date: 1784
+  year_of: 1784
+  description: 在途染病受风寒于闰三月初六日病故照敖成例晋赠太子太保赏云骑尉世职加赏银五百两治丧
