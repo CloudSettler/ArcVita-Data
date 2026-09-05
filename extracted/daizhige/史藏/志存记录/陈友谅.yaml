@@ -9,122 +9,126 @@ person:
       date: 1320
       precision: year
       is_circa: true
-      raw: 沔阳人本姓谢幼岐嶷膂力过人优于武艺
+      raw: 元延祐七年左右生于沔阳
     death:
-      date: 1363-08-29
+      date: 1363-10-03
       precision: day
       is_circa: false
-      raw: 至正二十三年八月壬戌中流矢贯睛及颅死于鄱阳湖年四十四
+      raw: 至正二十三年秋鄱阳湖中流矢死
   birth_date: 1320
-  death_date: 1363-08-29
-  era: 元末
-  reign_ref: 元惠宗至正
-  archetype: 枭雄僭主
+  death_date: 1363-10-03
+  era: 元末明初
+  reign_ref: 汉大义元年至四年
+  archetype: 乱世枭雄
   dilemmas:
-  - 委身江汉输款阙廷还是犯龙江窥洪都以争天下
-  - 挟徐寿辉拥虚位以令众还是弑主僭号以立威
-  lesson: 凶戾残虐骄悍轻进众叛亲离虽勇必亡
-  summary_first_person: 我本沔阳渔家子从徐寿辉起兵先袭杀倪文俊并其军再弑寿辉于采石僭号大汉改元大义自谓能屡破坚城遂围洪都决战鄱阳湖中流矢而死僭位仅四年而亡
+  - 以臣篡君求速贵而尽失湖湘人心
+  - 恃楼船坚利决死一战而轻弃江州根本
+  lesson: 勇而无恩强而失义虽据上游终败于鄱阳
+  summary_first_person: 吾本沔阳小吏兄弟从盗附倪文俊因袭杀之而并其军又于采石弒徐寿辉僭号大汉都江州屡攻金陵不克终与朱氏决战鄱阳湖中流矢而死成于果决败于骄暴
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B9%B3%E6%B1%89%E5%BD%95.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B9%B3%E6%B1%89%E5%BD%95.md
+  - https://daizhige.org/史藏/志存记录/平胡录.html
 endeavors:
 - id: guji-陈友谅-endeavor-1
-  title_zh: 并军夺权弑主僭号大汉
+  title_zh: 附天完夺军权
+  summary_zh: 起沔阳附倪文俊乘其骄恣袭杀之尽并其众进据江州控制天完
   phases:
   - key: brewing
-    name: 投寿辉为簿书椽领兵为元帅
+    name: 沔阳从盗
     labels:
-      zh: 投军积功
-    start_date: 1355
+      zh:
+      - 蓄势
+    start_date: 1351-01-01
     highlight_event_id: guji-陈友谅-event-birth
   - key: breakthrough
-    name: 袭杀倪文俊并其军自称平章
+    name: 袭杀文俊
     labels:
-      zh: 乘衅并军
-    start_date: 1357-10
-    highlight_event_id: guji-陈友谅-event-shani
+      zh:
+      - 夺权
+    start_date: 1357-09-01
+    highlight_event_id: guji-陈友谅-event-shawenjun
   - key: climax
-    name: 连破龙兴瑞州赣州汀州襄阳
+    name: 尽并其军
     labels:
-      zh: 略地僭势
-    start_date: 1358-04
-    highlight_event_id: guji-陈友谅-event-shani
+      zh:
+      - 扩张
+    start_date: 1358-01-01
+    highlight_event_id: guji-陈友谅-event-shawenjun
   - key: closure
-    name: 江州劫寿辉称汉王采石弑之称帝
+    name: 进逼江州
     labels:
-      zh: 弑主僭号
-    start_date: 1360-05
-    highlight_event_id: guji-陈友谅-event-chengdi
+      zh:
+      - 坐大
+    start_date: 1359-12-01
+    highlight_event_id: guji-陈友谅-event-usurp
   decisions:
-  - date: 1357-10
-    title_zh: 乘文俊谋杀寿辉不果袭杀文俊
-    rationale: 文俊专恣失众寿辉猜忌内乱可乘衅并其军自立
-  - date: 1360-05
-    title_zh: 采石舟中锤杀徐寿辉称皇帝
-    rationale: 挟虚主不利己不如弑之僭大号以号令江汉震慑群下
+  - date: 1357-09-01
+    title_zh: 乘衅袭杀倪文俊
+    rationale: 文俊骄恣待下无恩其党离心可一举并吞以成大事
+  - date: 1359-12-01
+    title_zh: 勒寿辉徙都江州
+    rationale: 挟空名之主以令其部渐收龙兴安庆诸郡自为汉王之基
 - id: guji-陈友谅-endeavor-2
-  title_zh: 东争建康决战鄱阳湖覆亡
+  title_zh: 弒主僭汉决战鄱阳
+  summary_zh: 采石弒徐寿辉僭帝号国汉屡犯金陵既失江州终败亡鄱阳湖
   phases:
   - key: brewing
-    name: 陷太平犯龙江约张士诚侵建康
+    name: 采石弒君
     labels:
-      zh: 东下窥金陵
-    start_date: 1360-05
-    highlight_event_id: guji-陈友谅-event-chengdi
+      zh:
+      - 篡立
+    start_date: 1360-05-01
+    highlight_event_id: guji-陈友谅-event-usurp
   - key: breakthrough
-    name: 空国载家属百官围洪都八十五日
+    name: 釆石僭帝
     labels:
-      zh: 空国围城
-    start_date: 1363-04
-    highlight_event_id: guji-陈友谅-event-hongdu
+      zh:
+      - 建国
+    start_date: 1360-06-01
+    highlight_event_id: guji-陈友谅-event-usurp
   - key: climax
-    name: 解围东出康郎山火烧水寨血战累日
+    name: 龙江江州皆失
     labels:
-      zh: 湖口血战
-    start_date: 1363-07-21
-    highlight_event_id: guji-陈友谅-event-hongdu
+      zh:
+      - 挫败
+    start_date: 1361-08-01
+    highlight_event_id: guji-陈友谅-event-jiangzhou
   - key: closure
-    name: 禁江口突围中流矢死余众五万降
+    name: 鄱阳殒命
     labels:
-      zh: 授首鄱阳
-    start_date: 1363-08-29
+      zh:
+      - 覆亡
+    start_date: 1363-07-01
     highlight_event_id: guji-陈友谅-event-death
   decisions:
-  - date: 1363-04
-    title_zh: 忿疆场日蹙作大舰空国围洪都
-    rationale: 自为必胜之计欲拔豫章断朱元璋上流一举定江南
-  - date: 1363-08-29
-    title_zh: 粮尽冒死由禁江口突围还武昌
-    rationale: 食尽舰困久持必毙不如死中求生突围而走
+  - date: 1360-05-01
+    title_zh: 采石舟中击杀徐寿辉
+    rationale: 太平失利急谋僭窃欲去共主以绝众望独成汉业
+  - date: 1363-07-01
+    title_zh: 围洪都决战鄱阳
+    rationale: 恃巨舰楼船欲一战吞金陵虽江州已失亦孤注一掷
 events:
 - id: guji-陈友谅-event-birth
-  title_zh: 出生沔阳渔家本姓谢从陈姓
   date: 1320
   year_of: 1320
-  place_zh: 沔阳黄蓬
-  description: 父普才为渔子幼岐嶷长膂力过人尝为县吏不乐往从徐寿辉
-- id: guji-陈友谅-event-shani
-  title_zh: 袭杀倪文俊并其军自称平章
-  date: 1357-10
+  title_zh: 出生沔阳
+  description_zh: 陈友谅生于沔阳少为县贴书兄弟相从为盗好兵后附倪文俊
+- id: guji-陈友谅-event-shawenjun
+  date: 1357-09-01
   year_of: 1357
-  place_zh: 黄州
-  description: 文俊谋杀寿辉不果奔黄州友谅乘衅袭杀之并其军攻陷安庆龙兴瑞州诸路
-- id: guji-陈友谅-event-chengdi
-  title_zh: 采石弑徐寿辉僭称汉皇帝
-  date: 1360-05
+  title_zh: 袭杀倪文俊并其军
+  description_zh: 文俊谋杀寿辉不果奔黄州友谅乘衅袭杀之自称平章尽得其众
+- id: guji-陈友谅-event-usurp
+  date: 1360-05-01
   year_of: 1360
-  place_zh: 采石五通庙
-  description: 挟寿辉陷太平后舟中使壮士锤碎其首还江州称皇帝国号汉改元大义
-- id: guji-陈友谅-event-hongdu
-  title_zh: 空国围洪都八十五日不克
-  date: 1363-04
-  year_of: 1363
-  place_zh: 洪都南昌
-  description: 号六十万戴竹盾百道攻城朱文正坚守张子明潜出告急朱元璋亲帅二十万赴援
+  title_zh: 采石弒寿辉僭号大汉
+  description_zh: 挟寿辉犯太平失利乃于采石舟中碎其首称帝于釆石国号汉改元大义都江州
+- id: guji-陈友谅-event-jiangzhou
+  date: 1361-08-01
+  year_of: 1361
+  title_zh: 伐金陵败还失江州
+  description_zh: 攻金陵自龙江败还朱师乘风溯流大破之友谅夜奔武昌胡廷瑞以龙兴来降
 - id: guji-陈友谅-event-death
-  title_zh: 鄱阳湖中流矢死
-  date: 1363-08-29
+  date: 1363-10-03
   year_of: 1363
-  place_zh: 鄱阳湖康郎山禁江口
-  description: 与朱元璋舟师血战累日火焚水寨突围时中流矢贯睛及颅而死太子善儿被擒张定边立其子理武昌降
+  title_zh: 鄱阳湖中流矢死
+  description_zh: 围洪都与朱太祖决战鄱阳湖败死子理立次年降而汉亡

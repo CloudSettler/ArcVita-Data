@@ -6,155 +6,139 @@ person:
     en: Wu Sangui
   lifespan:
     birth:
-      date: 1612
-      precision: year
+      date: 1612-06-08
+      precision: day
       is_circa: false
-      raw: 壬子生辽东铁岭
+      raw: 明万历四十年五月
     death:
       date: 1678-10-02
       precision: day
       is_circa: false
-      raw: 康熙十七年八月病死衡州
-  birth_date: 1612
+      raw: 康熙十七年八月十八日
+  birth_date: 1612-06-08
   death_date: 1678-10-02
   era: 明末清初
   reign_ref: 康熙
-  archetype: 边将藩王
+  archetype: 藩镇叛首
   dilemmas:
-  - 父被执而君已殉，如何两全忠孝大义
-  - 借北兵灭闯贼，是复仇还是引敌入关
-  - 撤藩搬家在即，是束手就范还是举兵一搏
-  lesson: 借外力复仇终为外力所制，大义一失则进退皆咎
-  summary_first_person: 余辽东铁岭人，少年镇宁远守山海，甲申借兵入关破闯贼，继而永镇云南，晚以撤藩起兵称周，席卷湖广而终败死衡州
+  - 撤藩迁辽则失兵权闲居与举兵一搏保父子俱全之间踌躇
+  - 袭故明旗号以顺风号召与别建国号大周以自立之间权衡
+  - 渡江北伐直捣中原与驻守虎渡观望畏惧满洲骑兵之间犹豫
+  lesson: 拥兵自重者惑于私计而逆天时人心，始虽震动海内，终以离心解体而身死族灭
+  summary_first_person: 我本辽东将门，奉命镇守云南，独擅云贵兵权十余年，朝廷议撤三藩令迁辽东，我惑于婿侄胡国柱夏国相等及方献廷之谋，杀巡抚朱国治起兵，建国号周，席卷贵州湖南四川两广，然畏天儆不敢渡江北伐，坐失机宜，将帅离心，粮援日促，称帝衡州未久忧惶而死，终致族灭身败
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B9%B3%E5%90%B4%E5%BD%95.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B9%B3%E6%BB%87%E5%A7%8B%E6%9C%AB.html
 endeavors:
 - id: guji-吴三桂-endeavor-1
-  title_zh: 守宁远山海与借师入关
-  summary_zh: 自宁远中军镇山海关，甲申斩李使借清兵大破李自成，受封平西王
+  title_zh: 镇守云南割据经营
+  summary: 奉命镇滇，独擅云贵军政，蓄养精兵，抗拒撤藩，为叛乱积势
   phases:
   - key: brewing
-    name: 宁远蓄势
+    name: 奉命镇滇
     labels:
-      zh:
-      - 边防练兵
-      - 关外立名
-    start_date: 1632
-    highlight_event_id: guji-吴三桂-event-ningyuan
+      zh: 割据经营
+    start_date: 1662-01-01
+    highlight_event_id: guji-吴三桂-event-garrison-yunnan
   - key: breakthrough
-    name: 山海乞师
+    name: 独擅云贵
     labels:
-      zh:
-      - 勤王复仇
-      - 联清破闯
-    start_date: 1644-04
-    highlight_event_id: guji-吴三桂-event-ruguan
+      zh: 尾大不掉
+    start_date: 1671-01-01
+    highlight_event_id: guji-吴三桂-event-garrison-yunnan
   - key: climax
-    name: 入关追贼
+    name: 抗拒撤藩
     labels:
-      zh:
-      - 会战一片石
-      - 追击陕西
-    start_date: 1644-05
-    highlight_event_id: guji-吴三桂-event-ruguan
+      zh: 异志遂坚
+    start_date: 1673-08-01
+    highlight_event_id: guji-吴三桂-event-kill-zhuguozhi
   - key: closure
-    name: 封王西镇
-    labels:
-      zh:
-      - 平西王
-      - 经略西南
-    start_date: 1644-06
-    highlight_event_id: guji-吴三桂-event-yunnan
-  decisions:
-  - date: 1644-04
-    title_zh: 斩李使祭旗复归山海
-    rationale: 得父书知陈沅入贼手，不甘归李，杀伪巡抚祭旗以绝归路
-  - date: 1644-05
-    title_zh: 过快活岭借清兵合击
-    rationale: 敌众我寡难独立破贼，借北兵共诛李贼，事成重酬再图后计
-- id: guji-吴三桂-endeavor-2
-  title_zh: 永镇云南与举兵称周
-  summary_zh: 永镇云南开藩设将，索永历于缅甸，康熙撤藩遂剪辫起兵，国号大周，病死衡州
-  phases:
-  - key: brewing
-    name: 永镇经营
-    labels:
-      zh:
-      - 藩镇自固
-      - 安福园蓄势
-    start_date: 1662
-    highlight_event_id: guji-吴三桂-event-yunnan
-  - key: breakthrough
     name: 决意举兵
     labels:
-      zh:
-      - 抗撤藩
-      - 剪辫誓师
-    start_date: 1673-11
-    highlight_event_id: guji-吴三桂-event-fan
-  - key: climax
-    name: 席卷湖广
+      zh: 密谋帷幄
+    start_date: 1673-11-01
+    highlight_event_id: guji-吴三桂-event-kill-zhuguozhi
+  decisions:
+  - date: 1673-08-01
+    title_zh: 阳请撤藩以探上意
+    rationale: 子应熊在京探得朝廷亦欲去五大在边，遂效尚耿请辞，冀得独留云南，不料朝廷两允，迁辽之命已下
+  - date: 1673-10-01
+    title_zh: 纳婿侄之言不迁辽
+    rationale: 妻以子孙为质京师劝止不从，信胡国柱夏国相吴应麒等去滇则失兵权之说，又得孙世璠以为后嗣，遂决意反叛
+  - date: 1673-11-01
+    title_zh: 延方献廷为帷幄而疏夏吴
+    rationale: 信方献廷管葛之才，命为学士中书专谋断，誓不用庸鄙贪纵之婿侄，以胡国柱为替身亲信，共图大事
+- id: guji-吴三桂-endeavor-2
+  title_zh: 举兵反清建周争天下
+  summary: 杀巡抚起兵，建号大周，席卷西南华南，进驻湖南而不敢渡江，称帝衡州而忧死
+  phases:
+  - key: brewing
+    name: 杀抚举兵
     labels:
-      zh:
-      - 陷辰长沙岳衡
-      - 分镇川桂粤
-    start_date: 1674-01
-    highlight_event_id: guji-吴三桂-event-fan
-  - key: closure
+      zh: 叛乱初起
+    start_date: 1673-12-28
+    highlight_event_id: guji-吴三桂-event-kill-zhuguozhi
+  - key: breakthrough
+    name: 席卷湘黔蜀粤
+    labels:
+      zh: 震动天下
+    start_date: 1674-04-01
+    highlight_event_id: guji-吴三桂-event-occupy-hunan
+  - key: climax
     name: 称帝衡州
     labels:
-      zh:
-      - 僭号称帝
-      - 忧劳病死
-    start_date: 1678-03
+      zh: 强弩之末
+    start_date: 1678-04-01
+    highlight_event_id: guji-吴三桂-event-proclaim-emperor
+  - key: closure
+    name: 忧死衡州
+    labels:
+      zh: 众叛亲离
+    start_date: 1678-10-02
     highlight_event_id: guji-吴三桂-event-death
   decisions:
-  - date: 1673-11
-    title_zh: 掷帽剪辫起兵云南
-    rationale: 两藩搬家即撤云南之渐，家口八十万安土重迁，先发可保藩众
-  - date: 1674-01
-    title_zh: 分遣诸将守岳衡攻川桂
-    rationale: 以嫡系分镇要冲，连耿郑以牵制满汉兵，速定南方以争天下
+  - date: 1673-12-01
+    title_zh: 不用故明旗号别建国号周
+    rationale: 以大湖南北袭故明号迄无一成历数已绝为由，从胡国柱议，伪建国号曰周，伪称兵马都元帅，以谶语惑众
+  - date: 1674-02-01
+    title_zh: 驻虎渡口不敢渡江
+    rationale: 长驱五千里无阻至澧州，遇雷火焚舆畏天儆，又素悉满洲骑兵利害平阳不可敌，遂驻岳州袁吉以图进取，坐失空虚之机
+  - date: 1678-04-01
+    title_zh: 以衡州为伪都称帝改元昭武
+    rationale: 泷水取韶州惨败精锐殆尽，袁吉长沙相继失守，广东反正，计难雪耻，借称帝哄人，封楚王太孙以系党心
 events:
 - id: guji-吴三桂-event-birth
-  kind: birth
-  title_zh: 生于辽东铁岭
-  date: 1612
+  title_zh: 生于辽东高邮
+  date: 1612-06-08
   year_of: 1612
-  place_zh: 辽东铁岭
-  summary_zh: 吴三桂字硕甫，生于壬子，少娴骑射，为祖大寿所器
-- id: guji-吴三桂-event-ningyuan
-  kind: career
-  title_zh: 薦镇宁远守山海关
-  date: 1632
-  year_of: 1632
-  place_zh: 宁远山海关
-  summary_zh: 以大寿荐镇宁远，退守山海关，统兵十万，置精锐千人掣签突战
-- id: guji-吴三桂-event-ruguan
-  kind: career
-  title_zh: 借清兵入关破李自成
-  date: 1644-05-27
-  year_of: 1644
-  place_zh: 山海关一片石
-  summary_zh: 斩李使祭旗，与摄政王会师，合击田见秀刘宗敏，追自成至通州陕西
-- id: guji-吴三桂-event-yunnan
-  kind: career
-  title_zh: 永镇云南索永历
-  date: 1662
+  location_zh: 辽东
+  description: 明万历四十年生于辽东将门，后为明总兵，镇山海关
+- id: guji-吴三桂-event-garrison-yunnan
+  title_zh: 奉命镇守云南
+  date: 1662-01-01
   year_of: 1662
-  place_zh: 云南昆明
-  summary_zh: 受命永镇云南，索永历于缅甸缢杀之，题放文武自成一藩
-- id: guji-吴三桂-event-fan
-  kind: career
-  title_zh: 云南剪辫起兵称周
-  date: 1673-12-20
+  location_zh: 云南昆明
+  description: 引兵入滇镇守，独擅云贵军政，蓄养精兵数万，尾大不掉，朝廷议撤三藩
+- id: guji-吴三桂-event-kill-zhuguozhi
+  title_zh: 杀云南巡抚朱国治起兵
+  date: 1673-12-28
   year_of: 1673
-  place_zh: 云南昆明湖广长沙
-  summary_zh: 因撤藩剪辫起兵，改国号周元年，陷贵州湖南，遣将攻川桂粤闽
+  location_zh: 云南昆明
+  description: 癸丑十一月二十一日杀巡抚朱国治，以吴应贵为先锋出普安陷贵州，伪建国号周举兵反清
+- id: guji-吴三桂-event-occupy-hunan
+  title_zh: 长驱陷贵州湖南驻虎渡口
+  date: 1674-04-01
+  year_of: 1674
+  location_zh: 贵州至湖南澧州虎渡口
+  description: 亲率胡国柱方献廷马宝等由平大黔威至贵州，总督甘文焜缢死镇远吉祥寺，长驱陷辰沅常德，至澧州遇霹雳火焚舆不敢渡江，驻虎渡口，湖南北州县望风而遁，王屏藩入蜀，王辅臣叛于秦
+- id: guji-吴三桂-event-proclaim-emperor
+  title_zh: 称帝衡州改元昭武
+  date: 1678-04-01
+  year_of: 1678
+  location_zh: 湖南衡州
+  description: 康熙十七年三月以衡州为伪都称帝，进方献廷为尚书辅太孙于云南，封吴应麒为伪楚王，不久土官陆道清归诚动摇全滇人心
 - id: guji-吴三桂-event-death
-  kind: death
-  title_zh: 病死衡州
+  title_zh: 忧死衡州
   date: 1678-10-02
   year_of: 1678
-  place_zh: 湖南衡州
-  summary_zh: 康熙十七年僭号衡州，不久忧劳病死，孙世藩嗣，周军遂败
+  location_zh: 湖南衡州
+  description: 康熙十七年八月十八日见兵势日促人心渐变，日夜忧惶叹何苦而死于衡州，余党拥吴世璠僭位于云南，十九年昆明破灭，掘骨传示各省
