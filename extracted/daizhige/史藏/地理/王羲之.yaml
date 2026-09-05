@@ -1,0 +1,96 @@
+person:
+  qid: guji-王羲之
+  name_zh: 王羲之
+  names:
+    zh: 王羲之
+    en: Wang Xizhi
+  lifespan:
+    birth:
+      date: '0303'
+      precision: year
+      is_circa: false
+      raw: 晋太安二年
+    death:
+      date: '0361'
+      precision: year
+      is_circa: false
+      raw: 晋升平五年
+  birth_date: '0303'
+  death_date: '0361'
+  era: 东晋
+  reign_ref: 穆帝升平
+  archetype: 逸少书圣
+  dilemmas:
+  - 生平最爱蜀中山川而雅志未酬
+  - 心驰于彼而身滞于东不得果缘
+  lesson: 虽未至蜀而神交千载与山水争胜
+  summary_first_person: 吾生平最爱蜀中山川渴欲一游屡与益州书问山川诸奇盐井火井峨嵋雪岭心已驰于彼虽有七子婚嫁之累终未果此缘然千载之下犹当与此中山水争胜
+  source_urls:
+  - https://daizhige.org/史藏/地理/益部谈资.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/益部谈资.md
+endeavors:
+- id: guji-王羲之-endeavor-1
+  title_zh: 神交蜀地渴欲一游
+  phases:
+  - key: brewing
+    name: 省别疏具山川奇
+    labels:
+      zh: 慕蜀
+    start_date: 0348
+    highlight_event_id: guji-王羲之-event-letter-shu
+  - key: climax
+    name: 心驰于彼果缘未成
+    labels:
+      zh: 未酬
+    start_date: '0351'
+    highlight_event_id: guji-王羲之-event-letter-shu
+  decisions:
+  - date: 0348
+    title_zh: 与周益州书问蜀奇
+    rationale: 省别疏具彼土山川诸奇而杨雄蜀都左思三都不备故细问以寄神游
+  - date: '0351'
+    title_zh: 问盐火井峨嵋雪岭
+    rationale: 欲知盐井火井有无及峨嵋夏含霜雹昆仑伯仲以待他日果缘一游
+- id: guji-王羲之-endeavor-2
+  title_zh: 游目汶岭书帖传蜀
+  phases:
+  - key: breakthrough
+    name: 游目汶领用古字
+    labels:
+      zh: 书帖
+    start_date: '0350'
+    highlight_event_id: guji-王羲之-event-wenling
+  - key: closure
+    name: 嘉州石刻寄东山
+    labels:
+      zh: 遗墨
+    start_date: '0352'
+    highlight_event_id: guji-王羲之-event-wenling
+  decisions:
+  - date: '0350'
+    title_zh: 作帖言游目汶岭
+    rationale: 以古字称岷为汶寄意西望领袖山水于笔墨之间
+  - date: '0352'
+    title_zh: 与谢东山书遗嘉州
+    rationale: 以书帖寄嘉州刻石使蜀人得见逸少风流虽身未至而墨至
+events:
+- id: guji-王羲之-event-birth
+  date: '0303'
+  year_of: 303
+  title_zh: 生于琅琊
+  description: 晋太安二年生于琅琊临沂后为逸少最爱山水之书家
+- id: guji-王羲之-event-letter-shu
+  date: 0348
+  year_of: 348
+  title_zh: 与周益州书渴游蜀
+  description: 省周益州别疏具蜀中山川诸奇云心已驰于彼问盐井火井峨嵋雪岭有七子一未婚过此便得至彼
+- id: guji-王羲之-event-wenling
+  date: '0350'
+  year_of: 350
+  title_zh: 游目汶岭帖与东山书
+  description: 逸少帖言游目汶领即岷岭用古字与谢东山书旧有石刻在嘉州今不复存
+- id: guji-王羲之-event-death
+  date: '0361'
+  year_of: 361
+  title_zh: 卒于会稽雅志未酬
+  description: 升平五年卒于会稽生平雅志未酬千载之下犹与蜀中山水争胜
