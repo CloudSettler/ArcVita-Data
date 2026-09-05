@@ -6,126 +6,121 @@ person:
     en: Lu Ji
   lifespan:
     birth:
-      date: '0261'
-      precision: year
-      is_circa: true
-      raw: 魏景元二年华亭生
-    death:
-      date: '0303'
+      date: 177
       precision: year
       is_circa: false
-      raw: 西晋太安二年洛阳被害
-  birth_date: '0261'
-  death_date: '0303'
+      raw: 吴永安四年
+    death:
+      date: 195
+      precision: year
+      is_circa: false
+      raw: 晋太安二年遇害
+  birth_date: 177
+  death_date: 195
   era: 西晋
-  reign_ref: 晋惠帝太安
-  archetype: 悲剧文士
+  reign_ref: 晋惠帝
+  archetype: 恃才误身的文士统帅
   dilemmas:
-  - 才名冠世而投身藩王相争难自全
-  - 吴人入洛求显反因乡党猜嫌见忌
-  lesson: 恃文才而缺将略逢乱世而托非主终致身死族灭
-  summary_first_person: 吾生华亭少以文名入洛文藻倾动一时后从成都王领兵河桥大败谗言并至竟含冤就戮临刑唯思故乡鹤唳
+  - 吴亡之后南士北上，才名太盛而根基浅薄，何以自安
+  - 依附藩王以求功业，卷入八王之乱，何以自保
+  lesson: 文才可显名亦可招忌，托身非人则才反为累，见识与节守重于词章
+  summary_first_person: 吾本华亭人，少负才名，吴亡入洛，以千里莼羹之对动京师，后以文显于朝，终从成都王军事，兵败被谗而死，方知虚名误身
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B718.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B732.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%AD%A3%E5%BE%B7%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97/%E5%8D%B732.html
 endeavors:
 - id: guji-陆机-endeavor-1
-  title_zh: 太康入洛以文立名
-  summary: 自吴入晋由华亭别业走向洛阳文坛以文赋诗论压倒中原
+  title_zh: 吴亡入洛以文立名
+  summary_zh: 自华亭积学，北上入洛，以名对取重张华王济，遂领袖太康文坛
   phases:
   - key: brewing
-    name: 华亭力学博观
+    name: 华亭积学
     labels:
-      zh:
-      - 积累
-      - 闭门著述
-    start_date: '0265'
+      zh: 南土积学
+    start_date: 177
     highlight_event_id: guji-陆机-event-birth
   - key: breakthrough
-    name: 入洛献文惊四座
+    name: 初入洛名对
     labels:
-      zh:
-      - 扬名
-      - 文坛领袖
+      zh: 莼羹名对
     start_date: 0289
-    highlight_event_id: guji-陆机-event-ruoluo
+    highlight_event_id: guji-陆机-event-ruluo
   - key: climax
-    name: 文赋定论领袖一时
+    name: 名动京师
     labels:
-      zh:
-      - 巅峰
-      - 典范
+      zh: 文坛称首
     start_date: 0290
-    highlight_event_id: guji-陆机-event-wenfu
+    highlight_event_id: guji-陆机-event-ruluo
+  - key: closure
+    name: 太康文宗
+    labels:
+      zh: 辞赋传世
+    start_date: 0296
+    highlight_event_id: guji-陆机-event-ruluo
   decisions:
   - date: 0289
-    title_zh: 兄弟同入洛阳求仕
-    rationale: 晋平吴后辟召南士欲以中原文坛证明吴人学问不让北方
+    title_zh: 吴亡不隐北上入洛
+    rationale: 不甘以亡国遗士终老，欲以文才求用于新朝以续家声
   - date: 0290
-    title_zh: 作辨亡论与文赋明志
-    rationale: 借论吴亡寄兴亡之慨借论文立不朽之业以文求不朽不以权求幸进
+    title_zh: 交结张华王济诸公
+    rationale: 初到京师根基浅弱，须借名流品题以定声价打开仕进
 - id: guji-陆机-endeavor-2
-  title_zh: 依附成都王从戎致败
-  summary: 八王乱起依成都王颖领兵终以河间兵败被谗被害
+  title_zh: 出仕西晋从军罹祸
+  summary_zh: 由著作郎累迁要职，终为成都王司马颖军司，兵败被谗遇害
   phases:
   - key: brewing
-    name: 应辟入仕依附藩府
+    name: 朝署历官
     labels:
-      zh:
-      - 从政
-      - 托主
-    start_date: 0291
-    highlight_event_id: guji-陆机-event-wenfu
+      zh: 累迁清要
+    start_date: 0290
+    highlight_event_id: guji-陆机-event-ruluo
   - key: breakthrough
-    name: 受任都督领兵二十万
+    name: 受任军司
     labels:
-      zh:
-      - 掌兵
-      - 临战
-    start_date: 0303-07
+      zh: 以文领兵
+    start_date: 194
+    highlight_event_id: guji-陆机-event-congjun
+  - key: climax
+    name: 统军战败
+    labels:
+      zh: 兵败招忌
+    start_date: 195
     highlight_event_id: guji-陆机-event-congjun
   - key: closure
-    name: 河桥兵溃洛阳就戮
+    name: 含冤遇害
     labels:
-      zh:
-      - 兵败
-      - 蒙冤
-    start_date: 0303-10
+      zh: 身死族牵
+    start_date: 195
     highlight_event_id: guji-陆机-event-death
   decisions:
-  - date: 0303-07
-    title_zh: 受成都王节制南讨长沙王
-    rationale: 感知遇欲以功报主明知将帅不和士心不附仍勉强受命
-  - date: 0303-09
-    title_zh: 河桥迟留不速进
-    rationale: 欲持重观变兼惜将士性命反被孟玖等诬以怀异致军心离散
+  - date: 194
+    title_zh: 就成都王军司之命
+    rationale: 欲以军功破文士轻薄之讥，兼感知遇不忍固辞
+  - date: 195
+    title_zh: 兵败不逃直待朝命
+    rationale: 自恃忠心可表，不肯叛走，欲以死明志而终罹谗杀
 events:
 - id: guji-陆机-event-birth
-  date: '0261'
-  year_of: 261
   title_zh: 生于吴郡华亭
-  description: 出陆逊家少负才名与弟云并称云间二陆家有别业台榭后世传为普照寺基
+  date: 177
+  year_of: 261
   place_zh: 华亭
-- id: guji-陆机-event-ruoluo
+  description_zh: 吴永安四年，生于吴郡华亭陆氏，为吴丞相陆逊之孙，大司马陆抗之子
+- id: guji-陆机-event-ruluo
+  title_zh: 初入洛千里莼羹名对
   date: 0289
   year_of: 289
-  title_zh: 太康末兄弟入洛
-  description: 与陆云同入洛阳张华辈叹服一时文士莫与为敌名动京师
   place_zh: 洛阳
-- id: guji-陆机-event-wenfu
-  date: 0290
-  year_of: 290
-  title_zh: 著文赋辨亡论
-  description: 系统论文章利病为晋代文学典范并论吴亡原因寄托家国之思
-  place_zh: 洛阳
+  description_zh: 初入洛诣侍中王济，济指羊酪相问，对以千里莼羹末下盐豉，时人称为名对，华亭称云间亦由此文名而广
 - id: guji-陆机-event-congjun
-  date: 0303-07
-  year_of: 303
-  title_zh: 领成都王兵讨长沙王
-  description: 拜后将军都督诸军事率众二十万出征鹿苑一役大溃
-  place_zh: 河桥
+  title_zh: 为成都王司马颖军司督兵
+  date: 194
+  year_of: 302
+  place_zh: 邺下
+  description_zh: 应成都王司马颖之辟为军司，率众讨长沙王，军纪不整，战败招忌，为孟玖等所谗
 - id: guji-陆机-event-death
-  date: '0303'
+  title_zh: 兵败被谗遇害
+  date: 195
   year_of: 303
-  title_zh: 被谗被害洛阳
-  description: 宦人孟玖等谮其怀贰成都王听谗收斩并夷三族临刑叹华亭鹤唳不可复闻
-  place_zh: 洛阳
+  place_zh: 军中
+  description_zh: 太安二年，以兵败及谗言被收遇害，兼害其弟陆云，一时文士之冤，天下惜之
