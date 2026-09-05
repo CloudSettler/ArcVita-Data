@@ -9,7 +9,7 @@ person:
       date: '1720'
       precision: year
       is_circa: false
-      raw: 康熙五十九年生
+      raw: 康熙五十九年生于浙江杭州
     death:
       date: '1796'
       precision: year
@@ -17,105 +17,116 @@ person:
       raw: 嘉庆元年卒
   birth_date: '1720'
   death_date: '1796'
-  era: 清
+  era: 清代
   reign_ref: 乾隆
-  archetype: 勤勉任事封疆能臣
+  archetype: 干练封疆之臣
   dilemmas:
-  - 河工抢险刻不容缓与回清江审理积案难以兼顾
-  - 安南遗民或愿留养或愿归国须分别体恤不得拘泥
-  lesson: 不避嫌怨勤工恤远方能胜封疆重任
-  summary_first_person: 吾浙人也以文进身历中外督抚初到江省即见积案纷呈河工吃紧吾星夜赴江南督筑王平庄堤堰务期合龙安澜又体察安南内附之人思乡之情分别留养遣归此皆分内之事不敢徇隐迟延也
+  - 官引滞销究系地方缉私不力还是场灶透漏之弊
+  - 船厂改归丞倅经年废弛当否复归道员以重考成
+  lesson: 整饬必先清弊源场官灶户与地方一体究办方能官私两清
+  summary_first_person: 余历任封疆督抚两江最重盐政船工河务见私盐充斥皆由场灶透漏船厂废弛皆由管理失人故必彻底根讯严饬场员并请船工复归道员督办以振纲纪
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71364.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1373.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1373.html
 endeavors:
 - id: guji-孙士毅-endeavor-1
-  title_zh: 督办江南王平庄堤堰合龙
-  summary_zh: 初到江省即赶赴江南督办王平庄进水沟槽堵合断流赶筑二坝克期完竣会同河臣保两岸安澜
+  title_zh: 会办江广私盐审讯整顿场灶透漏
+  summary: 审讯贩卖私盐各犯牵出海州场灶余盐透漏请严饬盐政整顿并彻底根究
   phases:
   - key: brewing
-    name: 初到江省兼察河工
+    name: 私盐充斥官引壅滞
     labels:
-      zh: 到江视事
-    start_date: 1790-09
-    highlight_event_id: guji-孙士毅-event-1
+      zh: 查缉私枭
+    start_date: '1790-01-01'
+    highlight_event_id: guji-孙士毅-event-salt
   - key: breakthrough
-    name: 进水沟槽堵合断流赶筑二坝
+    name: 审讯供出池灶余盐
     labels:
-      zh: 堵合断流
-    start_date: '1790-09-24'
-    highlight_event_id: guji-孙士毅-event-1
+      zh: 审讯溯源
+    start_date: '1791-02-01'
+    highlight_event_id: guji-孙士毅-event-salt
   - key: climax
-    name: 会同河臣抢护徐城老坝口保平稳
+    name: 飞咨全德查明场员
     labels:
-      zh: 克期告竣
-    start_date: 1790-10
-    highlight_event_id: guji-孙士毅-event-1
+      zh: 会奏参办
+    start_date: '1791-03-01'
+    highlight_event_id: guji-孙士毅-event-salt
   - key: closure
-    name: 工竣一体议叙出力人员咨部
+    name: 请旨彻底根讯定拟
     labels:
-      zh: 议叙收工
-    start_date: 1790-10
-    highlight_event_id: guji-孙士毅-event-1
+      zh: 立规杜弊
+    start_date: '1791-03-15'
+    highlight_event_id: guji-孙士毅-event-salt
   decisions:
-  - date: 1790-09
-    title_zh: 星夜赶赴江南督工
-    rationale: 秋汛后水势虽落而堤埽紧要先保合龙再回清江审案
-  - date: 1790-10
-    title_zh: 会同韩鑅兰第锡协力抢护
-    rationale: 徐城老坝口长水丈余须督率属员同心协力方保无虞
+  - date: '1791-03-01'
+    title_zh: 飞咨查明海州小房子等处场灶
+    rationale: 犯供余盐多从池灶贩买必先查明是否板浦场所管以定场员失察之责
+  - date: '1791-03-15'
+    title_zh: 四路缉拏同伙并究沿途包庇
+    rationale: 船户灶丁秤手及零星接贩未获不彻底根讯则弊源不断官盐难销
 - id: guji-孙士毅-endeavor-2
-  title_zh: 清厘江苏积案并遣送安南遗民
-  summary_zh: 亲提审办高邮句容冒徵侵蚀积案不避嫌怨又面询江浙安插安南人愿留愿归分别奏请留养遣归
+  title_zh: 请复船厂道员管理并会勘河闸
+  summary: 以丞倅管船草率请交巡道督办并会勘泾河石闸捐修以护运堤民田
   phases:
   - key: brewing
-    name: 百姓呈控积案纷至初陈整顿之议
+    name: 丞倅管船五十余年废弛
     labels:
-      zh: 呈控积案
-    start_date: 1790-09
-    highlight_event_id: guji-孙士毅-event-2
+      zh: 查勘船工
+    start_date: '1788-01-01'
+    highlight_event_id: guji-孙士毅-event-shipyard
   - key: breakthrough
-    name: 面询安南遗民愿留愿归分别造册
+    name: 两藩司详请复归道员
     labels:
-      zh: 询问去留
-    start_date: 1790-10
-    highlight_event_id: guji-孙士毅-event-2
+      zh: 酌议更张
+    start_date: '1790-06-01'
+    highlight_event_id: guji-孙士毅-event-shipyard
   - key: climax
-    name: 奏请留者安居遣者护送出关归国
+    name: 奏请交巡道督办船工
     labels:
-      zh: 分别遣留
-    start_date: 1790-10
-    highlight_event_id: guji-孙士毅-event-2
+      zh: 奏定章程
+    start_date: '1791-02-01'
+    highlight_event_id: guji-孙士毅-event-shipyard
   - key: closure
-    name: 工竣回清江亲提确审参奏舞弊
+    name: 会勘泾河闸捐修护堤
     labels:
-      zh: 回江确审
-    start_date: 1790-10
-    highlight_event_id: guji-孙士毅-event-2
+      zh: 河工保障
+    start_date: '1791-03-01'
+    highlight_event_id: guji-孙士毅-event-river
   decisions:
-  - date: 1790-10
-    title_zh: 工竣即回清江亲提确审
-    rationale: 高邮句容冒徵侵蚀官吏通同舞弊须秉公逐案确查不可徇隐
-  - date: 1790-10
-    title_zh: 愿归安南人即派员照料起程
-    rationale: 遗民念室家怀故土殊堪矜悯应速送广西护送出关以慰怀归
+  - date: '1791-02-01'
+    title_zh: 丞倅船工请交巡道督办
+    rationale: 战哨船只最关紧要丞倅经理不善必归道员督办方能责成振作
+  - date: '1791-03-01'
+    title_zh: 会同兰第锡勘估泾河石闸捐修
+    rationale: 石闸减洩盛涨保护淮城堤工并资民田灌溉虽费多亦当借帑兴修
 events:
 - id: guji-孙士毅-event-birth
-  title_zh: 出生于浙江仁和
   date: '1720'
   year_of: 1720
-  description: 康熙五十九年生浙江仁和人后由科第入仕累至封疆
+  type: birth
+  title_zh: 出生于浙江杭州
+  description: 康熙五十九年生于杭州家族后以翰林起家历任部院封疆
+- id: guji-孙士毅-event-salt
+  date: '1791-03-01'
+  year_of: 1791
+  type: career
+  title_zh: 审讯私盐牵出场灶奏请严究
+  description: 乾隆五十六年二月奏审贩卖私盐各犯供出海州池灶收买余盐及洪泽湖边窰沟接买飞咨两淮盐政查明场员并四路缉拏务获彻底根讯
+- id: guji-孙士毅-event-shipyard
+  date: '1791-02-15'
+  year_of: 1791
+  type: career
+  title_zh: 奏丞倅管船草率请交巡道督办
+  description: 乾隆五十六年二月奏江宁苏州船厂自乾隆三年改归丞倅管理草率从事请仍交巡道督办以重战哨船工
+- id: guji-孙士毅-event-river
+  date: '1791-03-10'
+  year_of: 1791
+  type: career
+  title_zh: 会勘泾河石闸请捐修
+  description: 会同河督兰第锡赴勘淮安泾河石闸蛰裂冲翻核估工料银五千九百余两请借司库责县购料督修分年捐还
 - id: guji-孙士毅-event-death
-  title_zh: 卒于嘉庆元年
   date: '1796'
   year_of: 1796
-  description: 累任两广两江总督协办大学士嘉庆元年卒谥文靖
-- id: guji-孙士毅-event-1
-  title_zh: 王平庄进水沟槽堵合赶筑二坝完竣
-  date: '1790-09-24'
-  year_of: 1790
-  description: 前月二十四日堵合断流上紧赶筑二坝克期完竣与韩鑅兰第锡同膺议叙
-- id: guji-孙士毅-event-2
-  title_zh: 奏明江浙安南遗民愿留愿归
-  date: 1790-10
-  year_of: 1790
-  description: 江宁闭阮恭等及安徽黄廷球等安居不愿返国苏州梁廷校等及安徽阮贤等愿回安南请派员送广西护送出关
+  type: death
+  title_zh: 卒于嘉庆元年
+  description: 嘉庆元年卒于官历任云贵两广两江总督以内阁大学士致仕谥文靖
