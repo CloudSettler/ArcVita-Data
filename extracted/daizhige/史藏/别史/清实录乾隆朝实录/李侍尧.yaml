@@ -6,121 +6,128 @@ person:
     en: Li Shiyao
   lifespan:
     birth:
-      date: 1726
+      date: '1726'
       precision: year
       is_circa: false
       raw: 雍正四年
     death:
-      date: 1788
+      date: '1788'
       precision: year
       is_circa: false
       raw: 乾隆五十三年
-  birth_date: 1726
-  death_date: 1788
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 封疆整饬干臣
+  birth_date: '1726'
+  death_date: '1788'
+  era: 清乾隆朝
+  reign_ref: 乾隆四十三年
+  archetype: 封疆干济之臣
   dilemmas:
-  - 整顿火药散煎走私积弊与兼顾各营应急需用如何两全
-  - 秉公参劾尚书之子与有功武将与顾全情面如何抉择
-  lesson: 军中利器必归文员召商定额设局验放，纠劾不徇私情方能肃吏治而固边防
-  summary_first_person: 吾李侍尧督云贵，见滇营火药听各营自煎不报不核恐致走私，故仿粤例奏请召商定额设省局给照领买，又将嵇承豫扣留脚价与刘国梁姑息营弁据实参奏，蒙上嘉许公正，此吾持身治军之道也
+  - 严法核厂与体恤厂民之间如何权衡
+  - 边疆重寄与朝廷法度之间如何自处
+  lesson: 以实心任事整饬铜政边务然操切致议当以宽严相济为戒
+  summary_first_person: 我以荫生历任封疆管领云贵会同抚臣奏定滇铜厂规以分数核奖惩务使鼓铸有常以供京局
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71040.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1051.md
 endeavors:
 - id: guji-李侍尧-endeavor-1
-  title_zh: 滇黔火药统管改革
-  description: 仿广东召商煎硝定额解局给照领买核定演放之数以杜走私
+  title_zh: 云贵总督整饬滇铜厂政
+  summary_zh: 会同云南巡抚裴宗锡清查大小铜厂按月勒交分数定议叙议处条例以振鼓铸
   phases:
   - key: brewing
-    name: 查访各营自煎散漫之弊
+    name: 查核缺额酝酿章程
     labels:
-      zh: 查弊
-    start_date: 1777-01-01
-    highlight_event_id: guji-李侍尧-event-1
+      zh:
+      - 酝酿查核
+    start_date: 1777-08
+    highlight_event_id: guji-李侍尧-event-transfer-yungui
   - key: breakthrough
-    name: 仿粤例详议章程上奏
+    name: 会奏请定奖惩条例
     labels:
-      zh: 定章
-    start_date: 1777-10-04
-    highlight_event_id: guji-李侍尧-event-1
+      zh:
+      - 上奏定例
+    start_date: 1778-02
+    highlight_event_id: guji-李侍尧-event-copper-rule
   - key: climax
-    name: 得旨嘉奖咨会黔省画一办理
+    name: 部议允行著为例
     labels:
-      zh: 推行
-    start_date: 1777-10-05
-    highlight_event_id: guji-李侍尧-event-1
+      zh:
+      - 部议施行
+    start_date: 1778-03
+    highlight_event_id: guji-李侍尧-event-copper-rule
   - key: closure
-    name: 封禁边地硝磺设省局验放
+    name: 按分核计厂务渐理
     labels:
-      zh: 落实
-    start_date: 1777-12-01
-    highlight_event_id: guji-李侍尧-event-1
+      zh:
+      - 收束核验
+    start_date: 1778-06
+    highlight_event_id: guji-李侍尧-event-copper-rule
   decisions:
-  - date: 1777-10-04
-    title_zh: 仿广东召商定额设省局验放
-    rationale: 各营自差弁采挖不报核易致采多报少故归文员召商岁有定额汇价归款
-  - date: 1777-10-05
-    title_zh: 缅宁腾越逼近缅地永行封禁
-    rationale: 边地硝磺逼近外境恐资敌故永封交文武严密稽查以固边防
+  - date: 1778-02
+    title_zh: 会同裴宗锡奏请按分数议叙议处
+    rationale: 以月勒交数为准缺额限三月补足不补按分罚俸降调革职多获按分纪录加级以示劝惩
+  - date: 1778-03
+    title_zh: 坚持大小厂一体勒交
+    rationale: 杜绝厂员托词亏缺确立余额多获亦予议叙以鼓生产裕课
 - id: guji-李侍尧-endeavor-2
-  title_zh: 秉公参劾整饬吏治军纪
-  description: 不徇尚书之子嵇承豫不宥金川有功总兵刘国梁据实参奏以肃纲纪
+  title_zh: 历任封疆经略边疆军需
+  summary_zh: 历任湖广两广云贵总督协理军需整饬营伍吏治以干济见称
   phases:
   - key: brewing
-    name: 访查运粮脚价扣留线索
+    name: 湖广治水清厘营伍
     labels:
-      zh: 访查
-    start_date: 1777-09-01
-    highlight_event_id: guji-李侍尧-event-2
+      zh:
+      - 历练封疆
+    start_date: 1773-01
+    highlight_event_id: guji-李侍尧-event-transfer-yungui
   - key: breakthrough
-    name: 奏请革职嵇承豫解滇质讯
+    name: 授大学士管云贵总督
     labels:
-      zh: 参劾
-    start_date: 1777-10-02
-    highlight_event_id: guji-李侍尧-event-2
+      zh:
+      - 晋任大学士
+    start_date: 1777-08
+    highlight_event_id: guji-李侍尧-event-transfer-yungui
   - key: climax
-    name: 附参总兵刘国梁姑息回护
+    name: 滇铜新例推行边省
     labels:
-      zh: 整军
-    start_date: 1777-10-02
-    highlight_event_id: guji-李侍尧-event-3
+      zh:
+      - 总制滇黔
+    start_date: 1778-03
+    highlight_event_id: guji-李侍尧-event-copper-rule
   - key: closure
-    name: 蒙上嘉许公正大臣之体
+    name: 调任两广再任云贵功过参半
     labels:
-      zh: 旌正
-    start_date: 1777-10-03
-    highlight_event_id: guji-李侍尧-event-3
+      zh:
+      - 调镇两广
+    start_date: 1779-01
+    highlight_event_id: guji-李侍尧-event-copper-rule
   decisions:
-  - date: 1777-10-02
-    title_zh: 参奏嵇承豫扣留脚价四百余两
-    rationale: 运夫误运即扣价未发是否买补仅凭粮书一面之词须彻底严究不因系尚书之子瞻徇
-  - date: 1777-10-02
-    title_zh: 附参总兵刘国梁姑息营弁
-    rationale: 总兵有督率之责守备萧抡第畏考诈称目盲该镇先姑息后回护理宜附参以儆绿营恶习
+  - date: 1777-08
+    title_zh: 受命总制滇黔兼管铜政
+    rationale: 滇铜关乎京局鼓铸边地厂务废弛须以重臣总其成故受大学士管总督之任
+  - date: 1779-01
+    title_zh: 以严治军整饬贪纵营伍
+    rationale: 边疆营伍吏治松弛非严法不足振纲故以峻切手段整饬以固边防而裕国课
 events:
 - id: guji-李侍尧-event-birth
-  title_zh: 出生
-  date: 1726
+  type: birth
+  title_zh: 生于雍正四年
+  date: '1726'
   year_of: 1726
-  description: 雍正四年出生汉军镶黄旗人后入仕为云贵总督大学士
-- id: guji-李侍尧-event-1
-  title_zh: 奏滇省火药章程得旨嘉奖
-  date: 1777-10-04
+  description_zh: 雍正四年生长于汉军镶黄旗李氏之家后以荫生入仕
+- id: guji-李侍尧-event-transfer-yungui
+  type: career
+  title_zh: 授大学士管云贵总督
+  date: 1777-08
   year_of: 1777
-  description: 乙丑奏火药听各营自煎易致走私请仿广东召商定额设省局给照领买定演放之数并咨黔画一得旨嘉奖
-- id: guji-李侍尧-event-2
-  title_zh: 参奏嵇承豫扣留军粮脚价
-  date: 1777-10-02
-  year_of: 1777
-  description: 奏前任剑川州知州嵇承豫办运军粮扣留脚价四百五十三两代买补运请革职解滇质讯得旨允行
-- id: guji-李侍尧-event-3
-  title_zh: 参奏总兵刘国梁姑息营弁
-  date: 1777-10-02
-  year_of: 1777
-  description: 奏总兵刘国梁于守备萧抡第精力就衰畏考诈盲先姑息后回护请交部严议上念金川奋勉暂宽留任
+  description_zh: 由湖广总督调任大学士管理云贵总督事务总制滇黔督办铜政边防
+- id: guji-李侍尧-event-copper-rule
+  type: career
+  title_zh: 奏定滇铜厂议叙议处条例
+  date: 1778-03
+  year_of: 1778
+  description_zh: 会同云南巡抚裴宗锡奏请酌定铜厂议叙议处条例以缺额多获分数定赏罚吏部议准著为例见本卷戊申条
 - id: guji-李侍尧-event-death
-  title_zh: 逝世
-  date: 1788
+  type: death
+  title_zh: 卒于乾隆五十三年
+  date: '1788'
   year_of: 1788
-  description: 乾隆五十三年逝世谥恭毅历任封疆以公正干练称
+  description_zh: 以武英殿大学士前两广总督卒于京师谥恭毅
