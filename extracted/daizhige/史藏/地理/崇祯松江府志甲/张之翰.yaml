@@ -1,0 +1,127 @@
+person:
+  qid: guji-张之翰
+  name_zh: 张之翰
+  names:
+    zh: 张之翰
+    en: Zhang Zhihan
+  lifespan:
+    birth:
+      date: 1235
+      precision: year
+      is_circa: true
+      raw: 元初约生
+    death:
+      date: 1305
+      precision: year
+      is_circa: true
+      raw: 元贞大德间卒
+  birth_date: 1235
+  death_date: 1305
+  era: 元
+  reign_ref: 元世祖至元至成宗元贞
+  archetype: 循吏
+  dilemmas:
+  - 一意催科与抚养百姓之间如何兼顾而不伤民力
+  - 公廨朽敝当修与不侵官不扰民之间如何兴作
+  lesson: 视公府如家不存传舍之念则弊可除而署可新
+  summary_first_person: 吾由翰林出牧松江与僚属力陈荒租之弊得蠲十余万复出俸葺理公廨四月而成愿后人不以官署为传舍
+  source_urls:
+  - https://daizhige.org/史藏/地理/崇祯松江府志甲/卷21.html
+endeavors:
+- id: guji-张之翰-endeavor-1
+  title_zh: 牧守松江力陈荒租
+  summary_zh: 由翰林牧守松江偕僚赴省力陈弊病得除荒租十余万使府中渐廓
+  phases:
+  - key: brewing
+    name: 翰林出牧初至松江
+    labels:
+      zh: 出守
+    start_date: 1292
+    highlight_event_id: guji-张之翰-event-birth
+  - key: breakthrough
+    name: 偕僚赴省力陈弊病
+    labels:
+      zh: 陈弊
+    start_date: 1294
+    highlight_event_id: guji-张之翰-event-tax
+  - key: climax
+    name: 蠲除荒租十余万额
+    labels:
+      zh: 蠲租
+    start_date: 1294
+    highlight_event_id: guji-张之翰-event-tax
+  - key: closure
+    name: 府中渐廓政通人和
+    labels:
+      zh: 苏困
+    start_date: 1294
+    highlight_event_id: guji-张之翰-event-tax
+  decisions:
+  - date: 1294
+    title_zh: 偕广威赴省陈弊
+    rationale: 荒租重额为弊病之尤不除则催科无从民力不苏
+  - date: 1294
+    title_zh: 请蠲荒租十余万
+    rationale: 与其虚额病民不如核实蠲除以安人心而清府事
+- id: guji-张之翰-endeavor-2
+  title_zh: 葺理府廨视署如家
+  summary_zh: 瓜期将近不忍以署为传舍出俸经营聚材补葺四月落成自为记
+  phases:
+  - key: brewing
+    name: 瓜期将近廨宇朽敝
+    labels:
+      zh: 相署
+    start_date: 1294
+    highlight_event_id: guji-张之翰-event-tax
+  - key: breakthrough
+    name: 出俸经营远近乐助
+    labels:
+      zh: 经营
+    start_date: 1294
+    highlight_event_id: guji-张之翰-event-office
+  - key: climax
+    name: 甲午冬仲经始兴作
+    labels:
+      zh: 兴作
+    start_date: 1294-11
+    highlight_event_id: guji-张之翰-event-office
+  - key: closure
+    name: 乙未春季落成自记
+    labels:
+      zh: 落成
+    start_date: 1295-03
+    highlight_event_id: guji-张之翰-event-office
+  decisions:
+  - date: 1294-11
+    title_zh: 就有补短出俸平买
+    rationale: 上不侵官下不及民方为葺理之正道
+  - date: 1295-03
+    title_zh: 落成自记以励后人
+    rationale: 叔孙葺馆陆抗缮城皆不以传舍视官事当垂训来者
+events:
+- id: guji-张之翰-event-birth
+  title_zh: 出生于元初
+  type: birth
+  date: 1235
+  year_of: 1235
+  summary_zh: 约生于元初早通经术入翰林
+- id: guji-张之翰-event-tax
+  title_zh: 赴省陈弊蠲除荒租
+  type: career
+  date: 1294
+  year_of: 1294
+  place_zh: 松江府至江浙行省
+  summary_zh: 由翰林牧守松江偕达鲁花赤赴省力陈弊病得除荒租等额十余万
+- id: guji-张之翰-event-office
+  title_zh: 葺理松江府廨落成
+  type: career
+  date: 1295-03
+  year_of: 1295
+  place_zh: 松江府治
+  summary_zh: 始于甲午冬仲迄于乙未春季崇厅事拓吏舍署参佐严狴犴四月而成自为公廨记
+- id: guji-张之翰-event-death
+  title_zh: 卒于元贞大德间
+  type: death
+  date: 1305
+  year_of: 1305
+  summary_zh: 牧松江后政绩流传卒于元贞大德之间

@@ -1,0 +1,141 @@
+person:
+  qid: guji-胡存道
+  name_zh: 胡存道
+  names:
+    zh: 胡存道
+    en: Hu Cundao
+  lifespan:
+    birth:
+      date: 1300
+      precision: year
+      is_circa: true
+      raw: 生年失载约元大德至延祐间
+    death:
+      date: 1356
+      precision: year
+      is_circa: false
+      raw: 元至正十六年丙申苗军焚学死之
+  birth_date: 1300
+  death_date: 1356
+  era: 元末
+  reign_ref: 元惠宗至正十六年
+  archetype: 殉道学官
+  dilemmas:
+  - 苗军乱至去则可生守学则必死去留两难
+  - 身为训导庙学俱焚师道存废系于一身
+  lesson: 庙学可毁而师道不可屈守土守学皆以身殉方足范士林
+  summary_first_person: 余忝为松江府学训导平日整饬学规轮堂会食值丙申苗军之乱火焚庙学余守学不去以身殉之愿后人绘像立石知圣道之不可辱也
+  source_urls:
+  - https://daizhige.org/史藏/地理/崇祯松江府志甲/卷23.html
+endeavors:
+- id: guji-胡存道-endeavor-1
+  title_zh: 松江府学训导育才守制
+  summary: 任松江府学训导整饬学廪教养诸生申明月试旬试之法以复宋元旧制
+  phases:
+  - key: brewing
+    name: 受职训导
+    labels:
+      zh:
+      - 到任
+      - 训导
+    start_date: 1354
+    highlight_event_id: guji-胡存道-event-appointment
+  - key: breakthrough
+    name: 整饬学规
+    labels:
+      zh:
+      - 教养
+      - 学规
+    start_date: 1355
+    highlight_event_id: guji-胡存道-event-appointment
+  - key: climax
+    name: 守学待变
+    labels:
+      zh:
+      - 守学
+      - 育才
+    start_date: 1356
+    highlight_event_id: guji-胡存道-event-defend
+  - key: closure
+    name: 以身殉学成仁
+    labels:
+      zh:
+      - 殉道
+      - 成仁
+    start_date: 1356
+    highlight_event_id: guji-胡存道-event-death
+  decisions:
+  - date: 1354
+    title_zh: 就职训导专任教养
+    rationale: 府掾总知学廪学官专任教养当申明教法以作成后学
+  - date: 1355
+    title_zh: 申明月试旬试面考升补
+    rationale: 欲绝冒滥必亲批点较优劣升学职轮职事以复旧制
+- id: guji-胡存道-endeavor-2
+  title_zh: 丙申苗军焚学殉节
+  summary: 至正丙申苗军乱纵火焚学守学不去死之贼乃舍去后绘像立石请谥
+  phases:
+  - key: brewing
+    name: 乱兆守庙
+    labels:
+      zh:
+      - 兵乱
+      - 守庙
+    start_date: 1356
+    highlight_event_id: guji-胡存道-event-defend
+  - key: breakthrough
+    name: 火焚不避
+    labels:
+      zh:
+      - 焚学
+      - 不去
+    start_date: 1356
+    highlight_event_id: guji-胡存道-event-defend
+  - key: climax
+    name: 以死殉学
+    labels:
+      zh:
+      - 殉节
+      - 死义
+    start_date: 1356
+    highlight_event_id: guji-胡存道-event-death
+  - key: closure
+    name: 绘像请谥显忠
+    labels:
+      zh:
+      - 立像
+      - 请谥
+    start_date: 1357
+    highlight_event_id: guji-胡存道-event-death
+  decisions:
+  - date: 1356
+    title_zh: 守学不去以身当火
+    rationale: 训导守庙有责庙存吾存庙亡吾亡不可弃先圣去也
+  - date: 1356
+    title_zh: 以死慑贼保全余学
+    rationale: 一死足以明师道使贼舍去免尽毁学宫惠及后学
+events:
+- id: guji-胡存道-event-birth
+  type: birth
+  title_zh: 胡存道诞生
+  date: 1300
+  year_of: 1300
+  description: 生年失载约元大德至延祐间出身儒学生员后为学官
+- id: guji-胡存道-event-appointment
+  type: career
+  title_zh: 任松江府学训导
+  date: 1354
+  year_of: 1354
+  description: 任松江府学训导专任教养整饬月试旬试升堂会食之制
+- id: guji-胡存道-event-defend
+  type: career
+  title_zh: 丙申守学不去
+  date: 1356
+  year_of: 1356
+  description: 至正十六年丙申苗军乱纵火焚大小学斋胡存道守学不去
+- id: guji-胡存道-event-death
+  type: death
+  title_zh: 焚学殉节死之
+  date: 1356
+  year_of: 1356
+  description: 苗军焚学训导胡存道死之贼乃舍去后知府王立中绘像立石请谥
