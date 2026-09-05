@@ -9,140 +9,137 @@ person:
       date: 1624-08-26
       precision: day
       is_circa: false
-      raw: 明崇祯七年七月十四生于日本平户
+      raw: 明天启四年七月十四生于平户
     death:
       date: 1662-06-23
       precision: day
       is_circa: false
-      raw: 永历十六年五月初八卒于台湾
+      raw: 永历十六年五月初八卒于承天府
   birth_date: 1624-08-26
   death_date: 1662-06-23
   era: 明末清初
-  reign_ref: 南明隆武永历
-  archetype: 舍父全忠之孤忠开辟者
+  reign_ref: 永历
+  archetype: 开辟者
   dilemmas:
-  - 父降清召附而君恩赐姓在身忠孝难两全
-  - 踞金厦北伐江南与东渡开辟台湾之进退抉择
-  - 奉永历正朔孤悬海外而实力难支之坚守
-  lesson: 痛哭舍父以守臣节奉朔海外开辟台湾以存忠义
-  summary_first_person: 吾本南安书生蒙隆武赐姓命名痛父降清不从其召誓奉故朔抗清复明北伐失利乃效虬髯东渡驱荷复台以存明胤终守臣节而死
+  - 孤军抗清粮饷无继何以存续
+  - 远征隔海驱逐红毛成败难料
+  lesson: 审时度势借海图存，果断一击方能开创新局
+  summary_first_person: 吾起自闽海，不忍随父降清，举旗存明，驱逐红毛收复台湾，改建安平承天以存汉家根本
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E5%A4%96%E8%AE%B0.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E5%A4%96%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E8%88%86%E5%9C%B0%E6%B1%87%E9%92%9E.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E8%88%86%E5%9C%B0%E6%B1%87%E9%92%9E.md
 endeavors:
 - id: guji-郑成功-endeavor-1
-  title_zh: 金厦抗清奉朔复明
-  summary_zh: 自隆武赐姓起兵金厦奉永历正朔屡犯闽粤江南抗清多年
+  title_zh: 驱荷复台开府东宁
+  role: 延平郡王
+  org: 郑氏水师
   phases:
   - key: brewing
-    name: 赐姓起兵
+    name: 驻军厦门筹划东征
+    labels:
+      zh:
+      - 筹划
+      - 练兵
+    start_date: 1660-03-01
+    highlight_event_id: guji-郑成功-event-1661-luerhmen
+  - key: breakthrough
+    name: 鹿耳门涨潮直入
+    labels:
+      zh:
+      - 突破
+      - 登陆
+    start_date: 1661-04-30
+    highlight_event_id: guji-郑成功-event-1661-luerhmen
+  - key: climax
+    name: 围攻赤嵌迫荷归降
+    labels:
+      zh:
+      - 围城
+      - 受降
+    start_date: 1661-05-04
+    highlight_event_id: guji-郑成功-event-1662-chikan
+  - key: closure
+    name: 改建安平承天奠基
+    labels:
+      zh:
+      - 建制
+      - 屯垦
+    start_date: 1662-02-01
+    highlight_event_id: guji-郑成功-event-1662-chikan
+  decisions:
+  - date: 1661-03-01
+    title_zh: 决意东征台湾
+    rationale: 闽地孤危无粮可恃，台湾沃野可为根本，乘荷守备空虚而取之
+  - date: 1661-12-01
+    title_zh: 长期围困不强攻
+    rationale: 爱惜将士减少伤亡，以断粮绝援迫使红毛出降，保全城池民生
+- id: guji-郑成功-endeavor-2
+  title_zh: 举旗抗清存续明统
+  role: 招讨大将军
+  org: 南明郑军
+  phases:
+  - key: brewing
+    name: 继承遗业起兵闽粤
     labels:
       zh:
       - 起兵
-      - 赐姓
-    start_date: 1646-01-01
-    highlight_event_id: guji-郑成功-event-qibing
+      - 联明
+    start_date: 1646-11-01
+    highlight_event_id: guji-郑成功-event-1659-nanjing
   - key: breakthrough
-    name: 经略金厦
-    labels:
-      zh:
-      - 金厦
-      - 抗清
-    start_date: 1650-01-01
-    highlight_event_id: guji-郑成功-event-qibing
-  - key: climax
-    name: 北伐江南
+    name: 北伐南京震动东南
     labels:
       zh:
       - 北伐
-      - 南京
-    start_date: 1659-01-01
-    highlight_event_id: guji-郑成功-event-beifa
+      - 扬威
+    start_date: 1659-06-01
+    highlight_event_id: guji-郑成功-event-1659-nanjing
+  - key: climax
+    name: 退守金厦对峙清军
+    labels:
+      zh:
+      - 坚守
+      - 海贸
+    start_date: 1660-01-01
+    highlight_event_id: guji-郑成功-event-1661-luerhmen
   - key: closure
-    name: 失利谋东渡
+    name: 转进东宁另立根本
     labels:
       zh:
       - 转进
-      - 谋台
-    start_date: 1660-01-01
-    highlight_event_id: guji-郑成功-event-kaitai
-  decisions:
-  - date: 1646-12-01
-    title_zh: 痛哭舍父不从北召
-    rationale: 父芝龙降清以书召附成功以君恩赐姓在身不忍背明守臣节而抗命
-  - date: 1659-08-24
-    title_zh: 提师北伐围南京
-    rationale: 审时度势欲直捣江南以复明室虽败犹壮声威
-- id: guji-郑成功-endeavor-2
-  title_zh: 驱荷开辟台湾
-  summary_zh: 东渡台湾驱逐红毛开辟疆土奉明故朔以存宁靖王宗室遗脉
-  phases:
-  - key: brewing
-    name: 避遁谋台
-    labels:
-      zh:
-      - 谋台
-    start_date: 1660-06-01
-    highlight_event_id: guji-郑成功-event-kaitai
-  - key: breakthrough
-    name: 鹿耳登陆围赤嵌
-    labels:
-      zh:
-      - 登陆
-      - 围城
+      - 立国
     start_date: 1661-04-30
-    highlight_event_id: guji-郑成功-event-kaitai
-  - key: climax
-    name: 驱荷复台
-    labels:
-      zh:
-      - 复台
-      - 开辟
-    start_date: 1662-02-01
-    highlight_event_id: guji-郑成功-event-kaitai
-  - key: closure
-    name: 守朔卒于台湾
-    labels:
-      zh:
-      - 守节
-      - 遗业
-    start_date: 1662-06-01
-    highlight_event_id: guji-郑成功-event-death
+    highlight_event_id: guji-郑成功-event-1662-chikan
   decisions:
-  - date: 1661-03-23
-    title_zh: 决计东渡台湾
-    rationale: 金厦弹丸难抗天下兵台湾可为根本且可存明宗室以待时机
-  - date: 1662-02-01
-    title_zh: 受降荷兰设承天府
-    rationale: 驱逐红毛收复故土设官屯垦奉永历朔以开万世基业
+  - date: 1646-11-01
+    title_zh: 不随父降清坚持抗清
+    rationale: 父降清而大义不可废，独树一帜号召闽海遗民，以忠孝两全存明统
+  - date: 1659-08-26
+    title_zh: 南京失利后收兵保船
+    rationale: 轻进中伏兵力受挫，保存水师实力退守海岛，再图台湾为后路
 events:
 - id: guji-郑成功-event-birth
-  title_zh: 生于日本平户
   date: 1624-08-26
   year_of: 1624
-  place_zh: 日本平户
-  description_zh: 芝龙长子母日本翁氏原名森字大木后为南安学生员
-- id: guji-郑成功-event-qibing
-  title_zh: 隆武赐姓起兵抗清
-  date: 1646-01-01
-  year_of: 1646
-  place_zh: 南澳金厦
-  description_zh: 芝龙引见隆武赐姓朱赐名成功封忠孝伯佩招讨大将军印舍父忠君起兵
-- id: guji-郑成功-event-beifa
-  title_zh: 北伐围南京失利
+  title_zh: 生于日本平户
+  description: 明天启四年七月十四生于平户，父郑芝龙，母田川氏，幼名福松
+- id: guji-郑成功-event-1659-nanjing
   date: 1659-08-24
   year_of: 1659
-  place_zh: 南京
-  description_zh: 提舟师犯江南围南京战败而还退踞金厦再图恢复
-- id: guji-郑成功-event-kaitai
-  title_zh: 驱荷复台湾开辟
+  title_zh: 北伐南京兵败而还
+  description: 率水师北伐围南京，骄兵轻进为清军所破，退回厦门金门整军经略海上
+- id: guji-郑成功-event-1661-luerhmen
   date: 1661-04-30
   year_of: 1661
-  place_zh: 台湾鹿耳门赤嵌
-  description_zh: 率师东渡登陆鹿耳门围攻赤嵌迫荷兰出降收台湾为开辟之基
+  title_zh: 鹿耳门涨潮登陆台湾
+  description: 乘大潮巨舰直入鹿耳门水道，何斌为导登岸围攻赤嵌，红毛猝不及防退守台湾城
+- id: guji-郑成功-event-1662-chikan
+  date: 1662-02-01
+  year_of: 1662
+  title_zh: 赤嵌受降改建东宁
+  description: 荷兰长官揆一出降收复全台，改台湾为安平镇赤嵌为承天府，设天兴万年二县招垦屯田
 - id: guji-郑成功-event-death
-  title_zh: 卒于台湾
   date: 1662-06-23
   year_of: 1662
-  place_zh: 台湾
-  description_zh: 年三十九卒于台湾子经继业奉明故朔以存宁靖王一脉
+  title_zh: 卒于承天府
+  description: 永历十六年五月初八病卒于承天府，年三十九，子经继立守东宁基业
