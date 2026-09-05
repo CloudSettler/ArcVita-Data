@@ -1,0 +1,128 @@
+person:
+  qid: guji-寿昌乘
+  name_zh: 寿昌乘
+  names:
+    zh: 寿昌乘
+    en: Shouchang Cheng
+  lifespan:
+    birth:
+      date: 1190-01-01
+      precision: year
+      is_circa: true
+      raw: 宋宁宗庆元年间约生
+    death:
+      date: 1260-12-31
+      precision: year
+      is_circa: true
+      raw: 宋理宗景定年间约卒
+  birth_date: 1190-01-01
+  death_date: 1260-12-31
+  era: 宋
+  reign_ref: 宋理宗淳佑宝佑间
+  archetype: 郡志纂修者
+  dilemmas:
+  - 郡小财匮而体要具足与简陋得宜之衡
+  - 文经武纬先后有序与江防重寄之衡
+  lesson: 体具而后用彰文立而后武肃郡虽小不可苟
+  summary_first_person: 吾生湖右小郡目击寿昌由邑升军亲历营葺之艰乃考城社仓库驿舍学校贡举及营寨教阅之实勒为一乘以备郡政之览
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%AF%BF%E6%98%8C%E4%B9%98.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%AF%BF%E6%98%8C%E4%B9%98.md
+endeavors:
+- id: guji-寿昌乘-endeavor-1
+  title_zh: 纂修城社学校贡举考
+  summary: 考坛壝城阙廨宇学宫贡院之沿革以明敬神示整官联养士取士之制
+  phases:
+  - key: brewing
+    name: 搜集邑升军旧档
+    labels:
+      zh: 酝酿搜集
+    start_date: 1250-01-01
+    highlight_event_id: guji-寿昌乘-event-1
+  - key: breakthrough
+    name: 重订学宫贡士规约
+    labels:
+      zh: 整学定规
+    start_date: 1252-05-01
+    highlight_event_id: guji-寿昌乘-event-1
+  - key: climax
+    name: 纂定文事贡举篇目
+    labels:
+      zh: 成篇鼎定
+    start_date: 1253-01-01
+    highlight_event_id: guji-寿昌乘-event-1
+  - key: closure
+    name: 校刻城社文事考
+    labels:
+      zh: 收束付录
+    start_date: 1254-01-01
+    highlight_event_id: guji-寿昌乘-event-1
+  decisions:
+  - date: 1250-01-01
+    title_zh: 以城社为首篇立体要
+    rationale: 郡虽小而敬神御暴不可阙故先坛壝城阙以正体统
+  - date: 1252-05-01
+    title_zh: 详录李峻贡士规约
+    rationale: 三岁续食之计关士廉故全录条约以扶持古味士习
+- id: guji-寿昌乘-endeavor-2
+  title_zh: 纂修武事教阅营寨考
+  summary: 考水军飞虎义士营寨粮廪教阅大阅之制以固江防重寄
+  phases:
+  - key: brewing
+    name: 巡视吴王城水军寨
+    labels:
+      zh: 酝酿履勘
+    start_date: 1251-01-01
+    highlight_event_id: guji-寿昌乘-event-2
+  - key: breakthrough
+    name: 核定月请衣赐则例
+    labels:
+      zh: 核饟定额
+    start_date: 1252-01-01
+    highlight_event_id: guji-寿昌乘-event-2
+  - key: climax
+    name: 记述春阅水教夺标
+    labels:
+      zh: 大阅成章
+    start_date: 1254-01-01
+    highlight_event_id: guji-寿昌乘-event-2
+  - key: closure
+    name: 合编武事烽候关隘
+    labels:
+      zh: 收束成乘
+    start_date: 1255-01-01
+    highlight_event_id: guji-寿昌乘-event-2
+  decisions:
+  - date: 1251-01-01
+    title_zh: 以江防为纲别水步教场
+    rationale: 郡临大江吴蜀都会非习水步二教不足以用险
+  - date: 1254-01-01
+    title_zh: 详书粮廪衣赐以息呼庚癸
+    rationale: 兵资于食廪有定例则骄惰可革而守战可恃
+events:
+- id: guji-寿昌乘-event-birth
+  type: birth
+  title_zh: 约生于庆元年间
+  date: 1190-01-01
+  year_of: 1190
+  description: 约生于湖右于嘉定升军前后长于郡中亲见邑庠改为军学之始末
+- id: guji-寿昌乘-event-1
+  type: career
+  title_zh: 考订学校贡举成文事考
+  date: 1252-05-01
+  year_of: 1252
+  description: 淳佑十二年录李峻贡士规约记田谷分送之法及题名增额省札以成贡举篇
+  endeavor_ref: guji-寿昌乘-endeavor-1
+- id: guji-寿昌乘-event-2
+  type: career
+  title_zh: 履勘营寨教阅成武事考
+  date: 1254-03-01
+  year_of: 1254
+  description: 宝佑初核水军飞虎营寨屋数粮廪衣赐及春秋大阅水教夺标之制以成武事篇
+  endeavor_ref: guji-寿昌乘-endeavor-2
+- id: guji-寿昌乘-event-death
+  type: death
+  title_zh: 约卒于景定年间
+  date: 1260-12-31
+  year_of: 1260
+  description: 寿昌乘成后不久约卒郡中其书传为地理志载城社武事之备考
