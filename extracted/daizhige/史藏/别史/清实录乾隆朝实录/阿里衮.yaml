@@ -6,96 +6,150 @@ person:
     en: Aligun
   lifespan:
     birth:
-      date: '1724'
+      date: 1719
       precision: year
       is_circa: true
-      raw: 雍正二年生
+      raw: 康熙末年左右
     death:
-      date: '1769'
+      date: 1769
       precision: year
       is_circa: false
-      raw: 乾隆三十四年卒
-  birth_date: '1724'
-  death_date: '1769'
-  era: 清乾隆朝
-  reign_ref: 乾隆二十五年
-  archetype: 靖边平叛之大臣
+      raw: 乾隆三十四年
+  birth_date: 1719
+  death_date: 1769
+  era: 清
+  reign_ref: 乾隆
+  archetype: 经略边疆副将军
   dilemmas:
-  - 奉旨回京与闻变折返之间的进退
-  - 穷追深入布噜特与固守城池之间的权衡
-  lesson: 应机立办穷追务获方能遏乱萌而彰国宪
-  summary_first_person: 吾为阿里衮参赞回部军务奉旨回京途中闻迈喇木倡乱抢掠台站即折返喀什噶尔率兵破贼追入布噜特擒渠解京以靖西陲
+  - 领兵颇能向前而经理事务未能剖决明捷
+  - 查办逃兵姑息了事难申纪律而严诛又恐动摇军心
+  lesson: 为将须勇断兼济随到随办严纪律汰疲玩方能清边境而济军行
+  summary_first_person: 我以协办大学士副将军经略滇缅覆奏普洱九龙江车里十二版纳与整欠勾缅之变拟秋瘴退亲往确勘剿杀又会办锡箔木邦逃兵正法四十四人并筹汰滇补黔愧以经理迟搁仰承申饬
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0616.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70811.md
 endeavors:
 - id: guji-阿里衮-endeavor-1
-  title_zh: 折返喀什噶尔击破迈喇木
-  summary_zh: 奉旨回京途中闻台站被掠即回喀什噶尔率八百官兵破千余贼众围城招抚安定回众
+  title_zh: 普洱九龙江边外勘边筹剿
+  role_zh: 协办大学士副将军
+  summary_zh: 会同舒赫德覆奏车里九龙江橄榄坝整欠勾缅之变拟秋深瘴退亲往普洱思茅确勘剿杀并断绝通缅贸易以待明年大举
   phases:
   - key: brewing
-    name: 奉旨起程闻警折返
+    name: 覆奏车里十二版纳与召散整欠勾缅原委
     labels:
-      zh: 闻变折返
-    start_date: '1760-07-16'
+      zh:
+      - 勘边
+      - 奏报
+    start_date: 1768-06-06
+    highlight_event_id: guji-阿里衮-event-1
+  - key: breakthrough
+    name: 拟秋瘴退亲往普洱思茅确勘务在剿杀
+    labels:
+      zh:
+      - 筹剿
+      - 亲勘
+    start_date: 1768-06-06
     highlight_event_id: guji-阿里衮-event-1
   - key: climax
-    name: 力战破贼招抚全城
+    name: 九龙江零星贼匪停剿专待明年相机进剿
     labels:
-      zh: 破贼抚众
-    start_date: '1760-07-18'
-    highlight_event_id: guji-阿里衮-event-1
-  decisions:
-  - date: '1760-07-17'
-    title_zh: 不候交代即回喀什噶尔
-    rationale: 贼言煽惑人心易摇须应机立办不可坐失事机
-  - date: '1760-07-18'
-    title_zh: 以八百官兵直冲击溃千余贼众
-    rationale: 贼众仓猝纠集一战可溃攻心招抚胜于久围
-- id: guji-阿里衮-endeavor-2
-  title_zh: 深入布噜特追擒渠魁
-  summary_zh: 贼首掘墙夜遁投呢雅斯逃入布噜特分途追捕至和罗木鲁克擒获迈喇木呢雅斯解京正法
-  phases:
-  - key: breakthrough
-    name: 分途尾追守隘堵截
-    labels:
-      zh: 穷追务获
-    start_date: '1760-07-20'
+      zh:
+      - 停剿
+      - 待机
+    start_date: 1768-06-06
     highlight_event_id: guji-阿里衮-event-2
   - key: closure
-    name: 擒渠解京请穷搜余党
+    name: 严断隘口货物并议臼小躏禾牵掣
     labels:
-      zh: 擒渠解京
-    start_date: '1760-07-28'
+      zh:
+      - 断贸
+      - 牵掣
+    start_date: 1768-06-07
     highlight_event_id: guji-阿里衮-event-2
   decisions:
-  - date: '1760-07-20'
-    title_zh: 派巴雅尔茂萨前追自守要隘
-    rationale: 防贼窜入布噜特为逋逃之薮须断其出入方能尽获
-  - date: '1760-07-28'
-    title_zh: 将迈喇木呢雅斯解京审办
-    rationale: 渠魁煽惑杀掠台站兵丁须明正国宪以惩创回众
+  - date: 1768-06-06
+    title_zh: 秋后带兵亲往普洱思茅确勘剿杀
+    rationale: 缅贼与整欠猛勇狼狈为奸非亲勘不能清边境
+  - date: 1768-06-07
+    title_zh: 九龙江零星暂缓专剿兼严断通缅货物
+    rationale: 今年不厚集进兵则零星不值专办断其所需铁布黄丝针线则贼自困以待明年大举
+- id: guji-阿里衮-endeavor-2
+  title_zh: 查办滇省逃兵整顿营伍汰补
+  role_zh: 协办大学士副将军会同明德办理
+  summary_zh: 查办锡箔葫芦口木邦天生桥脱逃兵丁正法首先败走者并限缉余逃汰滇省疲玩之兵以黔兵顶补另筹裁滇额以赡满洲兵
+  phases:
+  - key: brewing
+    name: 密饬查办锡箔木邦各处脱逃兵丁
+    labels:
+      zh:
+      - 查逃
+      - 整纪
+    start_date: 1768-06-06
+    highlight_event_id: guji-阿里衮-event-3
+  - key: breakthrough
+    name: 会讯正法首先败走四十四人
+    labels:
+      zh:
+      - 正法
+      - 示戒
+    start_date: 1768-06-07
+    highlight_event_id: guji-阿里衮-event-3
+  - key: climax
+    name: 限三月缉获在逃三百余人尽法惩处
+    labels:
+      zh:
+      - 缉逃
+      - 显戮
+    start_date: 1768-06-07
+    highlight_event_id: guji-阿里衮-event-4
+  - key: closure
+    name: 汰滇疲玩以黔兵顶补并裁滇额赡满洲
+    labels:
+      zh:
+      - 汰补
+      - 裁额
+    start_date: 1768-06-13
+    highlight_event_id: guji-阿里衮-event-4
+  decisions:
+  - date: 1768-06-07
+    title_zh: 各队集永昌互相质证彻底详查正法
+    rationale: 滇兵木邦普洱屡溃窜非显正刑章无以警余而申纪律
+  - date: 1768-06-13
+    title_zh: 多汰滇省无能之兵以黔省精壮顶补马粮
+    rationale: 滇营恇怯积懦不足供驱使黔兵较为出力补缺必取壮健逃兵子弟不准冒滥
 events:
 - id: guji-阿里衮-event-birth
-  date: '1724'
-  year_of: 1724
-  title_zh: 阿里衮出生
-  description_zh: 雍正二年出生怡亲王允祥之后长而历任参赞大臣诸职
-  place_zh: 京师
+  title_zh: 出生于勋戚之家
+  date: 1719
+  year_of: 1719
+  place_zh: 北京
+  description_zh: 满洲镶黄旗鄂尔泰长子少袭勋爵历部院封疆以大学士协办军务
 - id: guji-阿里衮-event-1
-  date: '1760-07-18'
-  year_of: 1760
-  title_zh: 回师喀什噶尔击败迈喇木
-  description_zh: 自叶尔羌雅木扎尔闻伯什克勒木贼变即回喀什噶尔率官兵八百战贼千余攻围招抚贼夜遁
-  place_zh: 喀什噶尔伯什克勒木
+  title_zh: 会奏普洱九龙江边外贼匪情形
+  date: 1768-06-06
+  year_of: 1768
+  place_zh: 永昌军营
+  description_zh: 会同舒赫德覆奏车里即古车里缅甸分支十二土司内附后屡被滋扰召散分扰打乐九龙江整欠召教召渊勾缅攻破猛合追逐叭先捧请秋瘴退亲往普洱思茅确勘剿杀
 - id: guji-阿里衮-event-2
-  date: '1760-07-28'
-  year_of: 1760
-  title_zh: 追至和罗木鲁克擒获迈喇木呢雅斯
-  description_zh: 分途追贼守布噜特要隘巴雅尔茂萨追至和罗木鲁克擒迈喇木呢雅斯剿其家口属人派兵解京
-  place_zh: 布噜特和罗木鲁克
+  title_zh: 筹议停剿九龙江断绝通缅贸易
+  date: 1768-06-07
+  year_of: 1768
+  place_zh: 永昌军营
+  description_zh: 奉谕九龙江零星不成事体停其专剿惟议臼小选京兵二千躏禾牵掣并严饬各隘口禁绝铁布黄丝针线及腾越马匹透漏始终实力稽察
+- id: guji-阿里衮-event-3
+  title_zh: 查办锡箔葫芦口木邦逃兵正法四十四人
+  date: 1768-06-07
+  year_of: 1768
+  place_zh: 永昌
+  description_zh: 严饬立柱哈国兴将各队官兵齐集质证彻底详查得首先败走者四十四名即行正法以申纪律仍被旨斥姑息了事
+- id: guji-阿里衮-event-4
+  title_zh: 限缉余逃汰滇补黔议裁兵额
+  date: 1768-06-13
+  year_of: 1768
+  place_zh: 云南
+  description_zh: 奉限三月缉获在逃三百余人尽法惩处并汰滇省疲玩无能之兵以贵州抚提标精壮五千顶补马粮另议裁滇额一万以赡满洲兵逃兵子弟不准入伍
 - id: guji-阿里衮-event-death
-  date: '1769'
+  title_zh: 病卒于征缅军中
+  date: 1769
   year_of: 1769
-  title_zh: 阿里衮去世
-  description_zh: 乾隆三十四年卒于官前以平定回部功封赏议叙子丰盛额授侍卫
-  place_zh: 京师
+  place_zh: 云南军营
+  description_zh: 以副将军会办傅恒征缅军务积劳病卒于军追念经略滇缅之劳赐恤如例
