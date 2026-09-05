@@ -1,0 +1,122 @@
+person:
+  qid: guji-吕光
+  name_zh: 吕光
+  names:
+    zh: 吕光
+    en: Lu Guang
+  lifespan:
+    birth:
+      date: 0338
+      precision: year
+      is_circa: false
+      raw: 石氏建武四年生于枋头夜有神光
+    death:
+      date: 0399
+      precision: year
+      is_circa: false
+      raw: 光死子纘立
+  birth_date: 0338
+  death_date: 0399
+  era: 十六国后凉
+  reign_ref: 太安至龙飞
+  archetype: 开国君主
+  dilemmas:
+  - 奉苻秦之命远征西域而中原崩解去留两难
+  - 据河西得符瑞群从而嗣位未定宽严失据
+  lesson: 宽大聚士可成霸业然徒恃符瑞不修政嗣则业难守
+  summary_first_person: 吾字世明略阳氐人建武四年夜生有神光左肘生肉印少为王猛所奇后奉命西征龟兹破城得鸠摩罗什闻中原大乱遂据姑臧即三河王位改元麟嘉抚河西建后凉基业
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%87%89%E5%B7%9E%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%87%89%E5%B7%9E%E8%AE%B0.md
+endeavors:
+- id: guji-吕光-endeavor-1
+  title_zh: 奉命西征龟兹威震西域
+  summary_zh: 受苻坚命讨龟兹破城获鸠摩罗什肘印成文而后东归据凉
+  phases:
+  - key: brewing
+    name: 受命点兵西讨
+    labels:
+      zh:
+      - 奉命西征
+    start_date: 0383
+    highlight_event_id: guji-吕光-event-xizheng
+  - key: breakthrough
+    name: 破龟兹获罗什
+    labels:
+      zh:
+      - 威震西域
+    start_date: 0384
+    highlight_event_id: guji-吕光-event-xizheng
+  - key: closure
+    name: 闻变东归据姑臧
+    labels:
+      zh:
+      - 据有河西
+    start_date: 0385
+    highlight_event_id: guji-吕光-event-xizheng
+  decisions:
+  - date: 0384
+    title_zh: 破龟兹携罗什东归
+    rationale: 中原必乱宜拥众西凉以观天下之变
+  - date: 0385
+    title_zh: 驻姑臧自领凉州
+    rationale: 扼河西形胜进可图关陇退可守西域
+- id: guji-吕光-endeavor-2
+  title_zh: 即三河王位建号后凉
+  summary_zh: 即位南郊置百官改元麟嘉收符瑞抚群胡经营凉州
+  phases:
+  - key: brewing
+    name: 太安临殿会文武
+    labels:
+      zh:
+      - 镇抚河西
+    start_date: 0387
+    highlight_event_id: guji-吕光-event-chengwang
+  - key: climax
+    name: 即三河王改元麟嘉
+    labels:
+      zh:
+      - 建号立国
+    start_date: 0389
+    highlight_event_id: guji-吕光-event-chengwang
+  - key: closure
+    name: 晚年耽瑞嗣业未定
+    labels:
+      zh:
+      - 守成之失
+    start_date: 0396
+    highlight_event_id: guji-吕光-event-death
+  decisions:
+  - date: 0389
+    title_zh: 即三河王位改元麟嘉
+    rationale: 金泽麟见群兽皆从天命所归宜正位号以系人心
+  - date: 0396
+    title_zh: 立绍为嗣而诸子各拥兵
+    rationale: 欲以嫡立国而宽大不断终启兄弟相残之祸
+events:
+- id: guji-吕光-event-birth
+  title_zh: 生于枋头
+  date: 0338
+  year_of: 338
+  kind: birth
+  description_zh: 石氏建武四年夜生有神光举家异之遂以光为名身长八尺四寸目重瞳左肘生肉印
+- id: guji-吕光-event-xizheng
+  title_zh: 征破龟兹获鸠摩罗什
+  date: 0384
+  year_of: 384
+  kind: career
+  endeavor_ref: guji-吕光-endeavor-1
+  description_zh: 奉苻坚命伐龟兹军城南五里肘肉印成文破城始获鸠摩罗什而携之东归
+- id: guji-吕光-event-chengwang
+  title_zh: 即三河王位改元麟嘉
+  date: 0389
+  year_of: 389
+  kind: career
+  endeavor_ref: guji-吕光-endeavor-2
+  description_zh: 张掖金泽有麟见群兽皆从光即三河王位于南郊置百官改元麟嘉又遣使市六玺于于阗
+- id: guji-吕光-event-death
+  title_zh: 卒于姑臧子纘立
+  date: 0399
+  year_of: 399
+  kind: death
+  description_zh: 光死子纘立戏弄罗什终为弟超所杀时人以罗什之言为验
