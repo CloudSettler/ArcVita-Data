@@ -9,111 +9,118 @@ person:
       date: 1717-09-07
       precision: day
       is_circa: false
-      raw: 康熙五十六年八月初七
+      raw: 康熙五十六年八月初三
     death:
-      date: 1797-08-10
+      date: 1797-10-10
       precision: day
       is_circa: false
-      raw: 嘉庆二年七月十七
+      raw: 嘉庆二年八月二十
   birth_date: 1717-09-07
-  death_date: 1797-08-10
-  era: 清乾隆朝
-  reign_ref: 乾隆三十年
-  archetype: 经略名臣
+  death_date: 1797-10-10
+  era: 清
+  reign_ref: 乾隆
+  archetype: 经略名将
   dilemmas:
-  - 乌什初定姑息与严断之间进退两难
-  - 索逃交涉示强与生变之间分寸难持
-  lesson: 姑息滋事严断招议唯据实任事方得始终
-  summary_first_person: 吾起自章佳随军西陲乌什定后审逆索逃屡奉申饬始知边事当严明核实不敢一毫苟且
+  - 坐守塞责保全兵力与分兵捉生扰贼之间的抉择
+  - 释俘招抚以致投诚与严兵进剿以竟全功之间的权衡
+  lesson: 奋勇振作方能仰报君恩畏葸坐守必致贻误
+  summary_first_person: 吾出身勋门久历戎行缅甸金川皆奉命督办惟知奋勉进兵不敢坐守塞责以负圣恩
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0749.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0824.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0824.md
 endeavors:
 - id: guji-阿桂-endeavor-1
-  title_zh: 乌什善后审办回众
-  summary_zh: 收复乌什后审明逆党分别正法解京安抚余众
+  title_zh: 缅甸会剿阿里衮军务
+  summary_zh: 乾隆三十三年奉旨驰赴云南会同阿里衮剿办缅匪由释俘招抚转而趱程会商进兵
   phases:
   - key: brewing
-    name: 收城查办
+    name: 奉旨驰赴滇境
     labels:
-      zh:
-      - 查勘
-    start_date: 1765-11-20
-    highlight_event_id: guji-阿桂-event-wushi
+      zh: 受命会剿
+    start_date: 1768-10-15
+    highlight_event_id: guji-阿桂-event-1768-huijiao
   - key: breakthrough
-    name: 审逆分别办理
+    name: 释回擒解缅匪
     labels:
-      zh:
-      - 审断
-    start_date: 1765-12-10
-    highlight_event_id: guji-阿桂-event-shenfan
+      zh: 招抚试探
+    start_date: 1768-11-20
+    highlight_event_id: guji-阿桂-event-1768-huijiao
+  - key: climax
+    name: 趱程往会阿里衮
+    labels:
+      zh: 振作会商
+    start_date: 1768-12-11
+    highlight_event_id: guji-阿桂-event-1768-huijiao
   - key: closure
-    name: 解京分赏安众
+    name: 遵旨妥办奏功
     labels:
-      zh:
-      - 善后
-    start_date: 1765-12-11
-    highlight_event_id: guji-阿桂-event-shenfan
+      zh: 协同进剿
+    start_date: 1769-01-05
+    highlight_event_id: guji-阿桂-event-1768-huijiao
   decisions:
-  - date: 1765-12-10
-    title_zh: 审明呢雅斯即行正法阿什默特等分别解京
-    rationale: 首逆既诛胁从当别以安回众而儆效尤
+  - date: 1768-11-20
+    title_zh: 请释回擒解缅匪三名
+    rationale: 欲示宽大招致穷蹙投诚减少进兵阻力
+  - date: 1768-12-11
+    title_zh: 趱程往会阿里衮协同剿办
+    rationale: 自知前议乖方有心振作遵旨会商以图迅速奏功
 - id: guji-阿桂-endeavor-2
-  title_zh: 行文索取纳喇巴图
-  summary_zh: 为索逃人行文额尔德尼并令额敏和卓寄书催交
+  title_zh: 平定大小金川军务
+  summary_zh: 继缅事之后经略川西分路进兵荡平大小金川勒铭功成封为一等诚谋英勇公
   phases:
   - key: brewing
-    name: 钞录往来文书具奏
+    name: 受命经略川西
     labels:
-      zh:
-      - 具奏
-    start_date: 1765-12-09
-    highlight_event_id: guji-阿桂-event-suotao
+      zh: 临危受命
+    start_date: 1771-05-01
+    highlight_event_id: guji-阿桂-event-1776-jinchuan
+  - key: breakthrough
+    name: 分路攻碉深入
+    labels:
+      zh: 进兵攻坚
+    start_date: 1773-06-01
+    highlight_event_id: guji-阿桂-event-1776-jinchuan
   - key: climax
-    name: 奉旨申饬改图严厉办理
+    name: 直捣噶喇依巢穴
     labels:
-      zh:
-      - 申饬
-    start_date: 1765-12-09
-    highlight_event_id: guji-阿桂-event-suotao
+      zh: 荡平巢穴
+    start_date: 1776-02-01
+    highlight_event_id: guji-阿桂-event-1776-jinchuan
   - key: closure
-    name: 遵前旨严办索逃
+    name: 凯旋受封勋爵
     labels:
-      zh:
-      - 追索
-    start_date: 1765-12-12
-    highlight_event_id: guji-阿桂-event-suotao
+      zh: 功成受封
+    start_date: 1776-04-01
+    highlight_event_id: guji-阿桂-event-1776-jinchuan
   decisions:
-  - date: 1765-12-09
-    title_zh: 行文额尔德尼谕令勿留纳喇巴图
-    rationale: 欲以文告先声夺人免致兴兵劳费
+  - date: 1773-06-01
+    title_zh: 改围困为分路直进
+    rationale: 久围不下师老糜饷不如分兵攻坚使贼自相惊扰
+  - date: 1776-02-01
+    title_zh: 督兵直取噶喇依
+    rationale: 贼势已蹙宜乘胜捣穴以竟全功毋使远扬漏网
 events:
 - id: guji-阿桂-event-birth
-  title_zh: 阿桂出生
+  title_zh: 诞生
   date: 1717-09-07
   year_of: 1717
-  place_zh: 京师
-  description_zh: 章佳氏生员外郎阿克敦子后袭云骑尉世职
-- id: guji-阿桂-event-wushi
-  title_zh: 收复乌什未奏仓贮被诘
-  date: 1765-11-20
-  year_of: 1765
-  place_zh: 乌什
-  description_zh: 收城时未搜查奏报库贮米银等物并以解伊犁回众物件赏兵被传谕回奏
-- id: guji-阿桂-event-suotao
-  title_zh: 索取纳喇巴图被申饬
-  date: 1765-12-09
-  year_of: 1765
-  place_zh: 回疆军营
-  description_zh: 阿桂等钞录付额尔德尼文及额敏和卓书具奏词涉姑息奉旨严饬遵前旨办理
-- id: guji-阿桂-event-shenfan
-  title_zh: 审办乌什回犯呢雅斯等
-  date: 1765-12-10
-  year_of: 1765
-  place_zh: 乌什
-  description_zh: 审明呢雅斯即行正法阿什默特及其妻子解京赫伊雅斯等分赏王大臣
+  place_zh: 北京
+  description_zh: 康熙五十六年八月初三生于勋门为大学士阿克敦子
 - id: guji-阿桂-event-death
-  title_zh: 阿桂去世
-  date: 1797-08-10
+  title_zh: 病逝
+  date: 1797-10-10
   year_of: 1797
-  place_zh: 京师
-  description_zh: 官至武英殿大学士军机大臣嘉庆二年卒谥文成
+  place_zh: 北京
+  description_zh: 嘉庆二年八月二十病逝于京谥文成
+- id: guji-阿桂-event-1768-huijiao
+  title_zh: 奉旨往会阿里衮剿缅
+  date: 1768-12-11
+  year_of: 1768
+  place_zh: 云南永昌
+  description_zh: 乾隆三十三年十二月戊午接旨后自知释俘乖方即趱程往会阿里衮协同剿办缅匪奉旨训饬振作
+- id: guji-阿桂-event-1776-jinchuan
+  title_zh: 平定大小金川凯旋
+  date: 1776-04-01
+  year_of: 1776
+  place_zh: 四川金川
+  description_zh: 乾隆四十一年荡平大小金川全功告成凯旋受封懋膺殊勋
