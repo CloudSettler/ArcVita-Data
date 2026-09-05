@@ -1,0 +1,146 @@
+person:
+  qid: guji-阎相师
+  name_zh: 阎相师
+  names:
+    zh: 阎相师
+    en: Yan Xiangshi
+  lifespan:
+    birth:
+      date: 1695
+      precision: year
+      is_circa: true
+      raw: 生年不详约康熙末年
+    death:
+      date: 1762-02-22
+      precision: month
+      is_circa: false
+      raw: 乾隆二十七年正月辛酉前病故
+  birth_date: 1695
+  death_date: 1762-02-22
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 久历戎行忠勇奋勉之边镇武将
+  dilemmas:
+  - 久病当解任调摄与边镇紧要须力疾任事之两难
+  - 奋勇立功之后当保全晚节与尽瘁边陲之取舍
+  lesson: 久历戎行克娴武略病不废职忠勇尽瘁可为武臣之法
+  summary_first_person: 我久历戎行克娴武略随征西路奋勇策勋擢任甘肃提督后因患病解任调摄蒙恩赏给全俸终至不起蒙加赠太子太保亦无憾矣
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70653.md
+endeavors:
+- id: guji-阎相师-endeavor-1
+  person_id: guji-阎相师
+  title_zh: 随征西路奋勇策勋
+  summary: 久历戎行随征西路奋勇效力积功升擢
+  phases:
+  - key: brewing
+    name: 久历戎行积劳
+    labels:
+      zh:
+      - 酝酿积劳
+    start_date: 1735
+    highlight_event_id: guji-阎相师-event-1
+  - key: breakthrough
+    name: 随征西路初建功
+    labels:
+      zh:
+      - 初露锋芒
+    start_date: 1755
+    highlight_event_id: guji-阎相师-event-1
+  - key: climax
+    name: 奋勇策勋克娴武略
+    labels:
+      zh:
+      - 奋勇决战
+    start_date: 1757
+    highlight_event_id: guji-阎相师-event-1
+  - key: closure
+    name: 叙功升擢镇守边陲
+    labels:
+      zh:
+      - 叙功收成
+    start_date: 1759
+    highlight_event_id: guji-阎相师-event-2
+  decisions:
+  - date: 1755
+    title_zh: 请缨西征力战效力
+    rationale: 身为武将当以捐躯报国为任故奋勇从征不避艰险
+  - date: 1759
+    title_zh: 大功告成谨守边防
+    rationale: 西陲初定须以持重安边为要故整饬营伍不敢松懈
+- id: guji-阎相师-endeavor-2
+  person_id: guji-阎相师
+  title_zh: 镇守甘肃病中尽职
+  summary: 任甘肃提督整饬营伍患病解任调摄终至不起
+  phases:
+  - key: brewing
+    name: 擢任甘肃提督
+    labels:
+      zh:
+      - 临镇筹划
+    start_date: 1761
+    highlight_event_id: guji-阎相师-event-2
+  - key: breakthrough
+    name: 整饬营伍留心操防
+    labels:
+      zh:
+      - 整军立制
+    start_date: 1761-06
+    highlight_event_id: guji-阎相师-event-2
+  - key: climax
+    name: 患病解任赏俸调摄
+    labels:
+      zh:
+      - 病中坚守
+    start_date: 1761-12
+    highlight_event_id: guji-阎相师-event-3
+  - key: closure
+    name: 溘逝轸惜加赠恤典
+    labels:
+      zh:
+      - 身后哀荣
+    start_date: 1762-02
+    highlight_event_id: guji-阎相师-event-death
+  decisions:
+  - date: 1761-12
+    title_zh: 患病请解任调摄
+    rationale: 自知病重难胜剧任为不误边防故请解任以全公事
+  - date: 1762-01
+    title_zh: 交卸印务静心养病
+    rationale: 边缺紧要未敢恋栈故交卸甘肃提督印务听候调理
+events:
+- id: guji-阎相师-event-birth
+  person_id: guji-阎相师
+  type: birth
+  title_zh: 出生
+  date: 1695
+  year_of: 1695
+  description: 生年不详约康熙末年出身行伍久历戎行
+- id: guji-阎相师-event-1
+  person_id: guji-阎相师
+  type: career
+  title_zh: 随征西路奋勇策勋
+  date: 1757
+  year_of: 1757
+  description: 随征西路奋勇效力克娴武略积功著闻
+- id: guji-阎相师-event-2
+  person_id: guji-阎相师
+  type: career
+  title_zh: 擢任甘肃提督
+  date: 1761
+  year_of: 1761
+  description: 以军功擢甘肃提督整饬营伍镇守边陲
+- id: guji-阎相师-event-3
+  person_id: guji-阎相师
+  type: career
+  title_zh: 患病解任赏全俸调摄
+  date: 1761-12
+  year_of: 1761
+  description: 以患病准暂行解任赏给全俸尽心调摄
+- id: guji-阎相师-event-death
+  person_id: guji-阎相师
+  type: death
+  title_zh: 病故加赠太子太保
+  date: 1762-02-22
+  year_of: 1762
+  description: 乾隆二十七年正月病故上深轸惜加赠太子太保赏银千两治丧并命察例具奏恤典提督印务暂由陕甘总督杨应琚兼署
