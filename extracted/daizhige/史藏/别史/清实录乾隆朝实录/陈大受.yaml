@@ -6,120 +6,97 @@ person:
     en: Chen Dashou
   lifespan:
     birth:
-      date: '1702'
+      date: 1702-01-01
       precision: year
       is_circa: false
-      raw: 康熙四十一年生于湖南祁阳
+      raw: 康熙四十一年生
     death:
-      date: '1751'
+      date: 1751-12-01
       precision: year
       is_circa: false
       raw: 乾隆十六年卒
-  birth_date: '1702'
-  death_date: '1751'
-  era: 清中期
-  reign_ref: 乾隆
-  archetype: 循吏型封疆
+  birth_date: 1702-01-01
+  death_date: 1751-12-01
+  era: 清乾隆朝
+  reign_ref: 乾隆十四年九月
+  archetype: 封疆守臣
   dilemmas:
-  - 邪教株连宜严宜宽之辨
-  - 节烈旌表良贱有别之限
-  lesson: 治邪以断源为先抚民以核实为要
-  summary_first_person: 余祁阳人以文行受知历抚山东江苏于乾隆十一年密咨川省缉拿赤龙穷治邪党抚苏则清狱恤节以安良善为任
+  - 惠养蒙古与整顿商税之间如何两全
+  - 畿辅工程浩大与如期完竣之间如何权衡
+  lesson: 守土以安民为本施恩以均沾为要
+  summary_first_person: 我是陈大受署理直隶总督协办大学士乾隆十四年秋核议八沟税制旋在保定染病蒙遣医诊视一生以靖共率属为志
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0276.html
+  - https://daizhige.org
 endeavors:
 - id: guji-陈大受-endeavor-1
-  title_zh: 密咨川省缉究赤龙邪党
-  summary: 前任山东巡抚任内据左允文等供词得雪山梁浩混名赤龙线索密咨川省缉究并准川省咨覆分饬查拏
+  title_zh: 署直隶总督酌复八沟税额
+  summary: 署理直隶奏请复征八沟税以清牙侩之扰议归地方官抽收以安商民
   phases:
   - key: brewing
-    name: 得供初露
+    name: 署督直隶察访口外商情
     labels:
-      zh: 邪教线索
-    start_date: '1745-06-01'
-    highlight_event_id: guji-陈大受-event-1
-  - key: breakthrough
-    name: 密咨川省
-    labels:
-      zh: 密缉
-    start_date: '1745-10-01'
-    highlight_event_id: guji-陈大受-event-1
+      zh:
+      - 地方治理
+      - 税制
+    start_date: 1748-01-01
+    highlight_event_id: guji-陈大受-event-tax
   - key: climax
-    name: 两省会缉
+    name: 奏复八沟东西街税额
     labels:
-      zh: 会审
-    start_date: '1746-03-01'
-    highlight_event_id: guji-陈大受-event-1
-  - key: closure
-    name: 分饬查拏在案
-    labels:
-      zh: 收案
-    start_date: '1746-11-01'
-    highlight_event_id: guji-陈大受-event-1
+      zh:
+      - 奏议
+      - 惠商
+    start_date: 1749-10-15
+    highlight_event_id: guji-陈大受-event-tax
   decisions:
-  - date: '1745-10-01'
-    title_zh: 密咨川省缉究赤龙
-    rationale: 恐明檄打草惊蛇故密咨川督就近缉获陈良璧黄世运以断邪源
-  - date: '1746-03-01'
-    title_zh: 准咨覆分饬查拏
-    rationale: 川省覆文既到即分饬所属一体访拏以免党羽流窜
+  - date: 1749-10-15
+    title_zh: 奏请复收西街商税并归东街于官办
+    rationale: 以禁牙侩扰累商民试收核实以定额
 - id: guji-陈大受-endeavor-2
-  title_zh: 抚苏清狱恤节守正
-  summary: 调任江苏巡抚后奏报上元婢女新莲拒奸捐躯请旌恪守良贱之防兼理地方刑名教化
+  title_zh: 协办大学士佐理畿辅水围工程
+  summary: 以协办大学士佐理水围行宫修葺事主简省坚实不尚浩大
   phases:
   - key: brewing
-    name: 接任江苏
+    name: 入协办大学士佐政
     labels:
-      zh: 抚苏
-    start_date: '1746-08-01'
-    highlight_event_id: guji-陈大受-event-2
+      zh:
+      - 中枢佐理
+      - 畿辅
+    start_date: 1748-06-01
+    highlight_event_id: guji-陈大受-event-ill
   - key: breakthrough
-    name: 审定新莲案
+    name: 会勘水次四处行宫
     labels:
-      zh: 清狱
-    start_date: '1746-09-01'
-    highlight_event_id: guji-陈大受-event-2
-  - key: climax
-    name: 奏请旌表
-    labels:
-      zh: 旌节
-    start_date: '1746-11-01'
-    highlight_event_id: guji-陈大受-event-2
-  - key: closure
-    name: 部议建坊恤银
-    labels:
-      zh: 定例
-    start_date: '1746-11-15'
-    highlight_event_id: guji-陈大受-event-2
+      zh:
+      - 工程
+      - 水围
+    start_date: 1749-09-01
+    highlight_event_id: guji-陈大受-event-ill
   decisions:
-  - date: '1746-11-01'
-    title_zh: 为婢女新莲奏请旌表
-    rationale: 婢虽贱而节可嘉请旌以风烈妇又守良贱之分只请建坊给银
-  - date: '1746-09-01'
-    title_zh: 从严拟尚大斩立决
-    rationale: 强奸不从勒毙人命罪无可逭故照例拟斩立决以伸法纪
+  - date: 1749-09-01
+    title_zh: 主张行宫就旧修葺酌量增建
+    rationale: 以近在水次仅供小憩不宜大兴工役务期今冬完工
+  - date: 1749-10-19
+    title_zh: 在保定养病听遣医调治
+    rationale: 以病势需静养奉旨安心调理以图后效
 events:
 - id: guji-陈大受-event-birth
-  type: birth
-  date: '1702'
+  date: 1702-01-01
   year_of: 1702
   title_zh: 生于湖南祁阳
-  description: 康熙四十一年生于湖南祁阳后以科第入仕
-- id: guji-陈大受-event-1
-  type: career
-  date: '1746-11-03'
-  year_of: 1746
-  title_zh: 密咨川省缉拿赤龙
-  description: 前任山东巡抚任内据供密咨川省缉究雪山梁浩混名赤龙川省咨覆分饬查拏在案
-- id: guji-陈大受-event-2
-  type: career
-  date: '1746-11-12'
-  year_of: 1746
-  title_zh: 奏报上元婢女新莲节烈案
-  description: 调任江苏巡抚后奏上元民张尔德之婢新莲被尚大强奸不从被毙请将尚大拟斩立决新莲请旌部议给银三十两墓前建坊
+  description: 康熙四十一年生雍正年间登第入仕
+- id: guji-陈大受-event-tax
+  date: 1749-10-15
+  year_of: 1749
+  title_zh: 奏酌复八沟地方税额
+  description: 署直隶总督任内奏复八沟东西街税务奉旨交地方官抽收以惠蒙古商民
+- id: guji-陈大受-event-ill
+  date: 1749-10-19
+  year_of: 1749
+  title_zh: 在保定患病奉旨遣医
+  description: 以协办大学士尚书在保定患病奉旨令邵正文驰驿诊视
 - id: guji-陈大受-event-death
-  type: death
-  date: '1751'
+  date: 1751-12-01
   year_of: 1751
-  title_zh: 卒于乾隆十六年
-  description: 历抚山东江苏官至封疆卒于乾隆十六年
+  title_zh: 卒于京师
+  description: 乾隆十六年卒谥文肃入祀贤良祠
