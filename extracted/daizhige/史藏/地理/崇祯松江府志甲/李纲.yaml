@@ -1,0 +1,126 @@
+person:
+  qid: guji-李纲
+  name_zh: 李纲
+  names:
+    zh: 李纲
+    en: Li Gang
+  lifespan:
+    birth:
+      date: '1083'
+      precision: year
+      is_circa: true
+      raw: 绍兴十年卒年五十八推算生年
+    death:
+      date: '1140'
+      precision: year
+      is_circa: false
+      raw: 绍兴十年卒
+  birth_date: '1083'
+  death_date: '1140'
+  era: 北宋末南宋初
+  reign_ref: 政和至绍兴
+  archetype: 主战坚守之忠定名相
+  dilemmas:
+  - 力守京师与朝议弃守南迁之冲突
+  - 主张迎击金人与权贵主和求苟安之冲突
+  lesson: 直道自信虽屡遭排抑而忠义足以系天下人心
+  summary_first_person: 吾生于华亭县尉官舍少负气节政和登进士靖康力守京师建炎入辅经略河北虽为同列所排而志在复土始终不渝
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B737.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B737.md
+endeavors:
+- id: guji-李纲-endeavor-1
+  title_zh: 靖康守御京师退敌
+  summary_zh: 金兵南侵之际力主守城击退斡离不并谋防再至
+  phases:
+  - key: brewing
+    name: 极论京师水灾扬名
+    labels:
+      zh: 抗直养望
+    start_date: '1125'
+    highlight_event_id: guji-李纲-event-jingkang-shoucheng
+  - key: breakthrough
+    name: 独请与执政辨诘夺南迁之议
+    labels:
+      zh: 守城定策
+    start_date: '1126'
+    highlight_event_id: guji-李纲-event-jingkang-shoucheng
+  - key: climax
+    name: 力守京师击退金兵
+    labels:
+      zh: 亲督守御
+    start_date: '1126'
+    highlight_event_id: guji-李纲-event-jingkang-shoucheng
+  - key: closure
+    name: 留割地诏募兵防再至为同列所排
+    labels:
+      zh: 功成见抑
+    start_date: '1126'
+    highlight_event_id: guji-李纲-event-jingkang-shoucheng
+  decisions:
+  - date: '1126'
+    title_zh: 请守京师不从南迁
+    rationale: 宗社存亡系于京师一守则人心固迁则瓦解故力争固守
+  - date: '1126'
+    title_zh: 扣留割三镇诏书击金归师
+    rationale: 三镇为屏蔽不可轻割乘其归师击之可振国威故主张迎击
+- id: guji-李纲-endeavor-2
+  title_zh: 建炎入相经营中兴
+  summary_zh: 高宗中兴首命为相诛僭逆遣张所傅亮援河北图复土
+  phases:
+  - key: brewing
+    name: 华亭相公阁家声与秀州历职
+    labels:
+      zh: 出身华亭
+    start_date: '1083'
+    highlight_event_id: guji-李纲-event-birth
+  - key: breakthrough
+    name: 高宗即位首命自辅
+    labels:
+      zh: 入辅建炎
+    start_date: '1127'
+    highlight_event_id: guji-李纲-event-jianyan-zaixiang
+  - key: climax
+    name: 诛张邦昌遣张所傅亮援河北河东
+    labels:
+      zh: 经略两河
+    start_date: '1127'
+    highlight_event_id: guji-李纲-event-jianyan-zaixiang
+  - key: closure
+    name: 为同列所排罢相赍志以殁谥忠定
+    labels:
+      zh: 赍志以殁
+    start_date: '1127'
+    highlight_event_id: guji-李纲-event-death
+  decisions:
+  - date: '1127'
+    title_zh: 诛张邦昌正僭逆之罪
+    rationale: 名分不正人心不服必正邦昌之罪方能奠定中兴之基
+  - date: '1127'
+    title_zh: 遣张所傅亮往援河北河东
+    rationale: 两河坚守者众因势用之则中原可复故力主分遣经营
+events:
+- id: guji-李纲-event-birth
+  title_zh: 生于华亭县尉官舍
+  date: '1083'
+  year_of: 1083
+  place_zh: 华亭县尉厅相公阁
+  description_zh: 父夔元丰初为华亭尉纲生于官舍后人呼其地为相公阁
+- id: guji-李纲-event-jingkang-shoucheng
+  title_zh: 靖康力守京师退金兵
+  date: '1126'
+  year_of: 1126
+  place_zh: 东京开封府
+  description_zh: 斡离不来寇独请守城夺南迁之议力守退敌复谋防其再至
+- id: guji-李纲-event-jianyan-zaixiang
+  title_zh: 建炎入相经略河北
+  date: '1127'
+  year_of: 1127
+  place_zh: 行在
+  description_zh: 高宗中兴首命为辅诛张邦昌遣张所傅亮往援河北河东
+- id: guji-李纲-event-death
+  title_zh: 绍兴十年卒谥忠定
+  date: '1140'
+  year_of: 1140
+  place_zh: 华亭
+  description_zh: 绍兴十年卒年五十八赠少师孝宗初谥忠定
