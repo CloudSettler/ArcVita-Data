@@ -9,125 +9,139 @@ person:
       date: 1606-09-18
       precision: day
       is_circa: true
-      raw: 明万历三十四年秋
+      raw: 明万历三十四年八月生于陕北柳树涧
     death:
       date: 1647-01-02
       precision: day
       is_circa: false
-      raw: 清顺治三年十二月阵亡川北
+      raw: 清顺治三年十二月殁于四川西充凤凰山
   birth_date: 1606-09-18
   death_date: 1647-01-02
   era: 明末清初
   reign_ref: 崇祯
-  archetype: 流寇首领
+  archetype: 乱世枭雄
   dilemmas:
-  - 流窜求活与据地建业之抉择
-  - 招降摇摆与彻底决裂之困境
-  - 酷虐立威与收拢人心之矛盾
-  lesson: 以杀立威虽速得全川终失人心而速败
-  summary_first_person: 吾本延安捕快出身因困苦从乱转战秦楚复三入四川终据成都建号大西然多行杀戮遂至众叛而败亡
+  - 受抚据谷城与官民相龃龉是安居受制还是复叛求活
+  - 攻坚不克是强攻损兵还是绕行另择弱城以养势
+  lesson: 以屠戮立威虽速得城池终失人心而致困败
+  summary_first_person: 吾起于陕北饥荒转战秦晋豫楚初围庐州遇吴大朴坚守不得志而有铁庐州之叹谷城受抚复叛入川脱围再诈取襄阳杀襄王后夜袭再破庐州纵横江淮然杀伐过重终至败亡
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AE%A2%E6%BB%87%E8%BF%B0.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AE%A2%E6%BB%87%E8%BF%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BC%A0%E5%BF%A0%E7%8C%AE%E5%BF%A0%E9%99%B7%E5%BA%90%E5%B7%9E%E7%BA%AA.html
 endeavors:
 - id: guji-张献忠-endeavor-1
-  title_zh: 延安从乱转战秦楚
-  summary: 自延安投苗美王嘉胤自领一队号八大王转战陕川湖广屡降屡叛渐成巨寇
+  title_zh: 流窜江淮三攻庐州
+  summary: 崇祯八年首围庐州不克而去转掠巢县无为含山等地崇祯十五年因舒城降兵为导夜袭西门而破庐州掳余瑞紫等士民
   phases:
   - key: brewing
-    name: 延安投乱初起
+    name: 首围试攻
     labels:
-      zh: 从捕快到从贼
-    start_date: 1630-01-01
-    highlight_event_id: guji-张献忠-event-rise
+      zh:
+      - 扬兵守城
+      - 店埠焚掠
+    start_date: 1635-02-18
+    highlight_event_id: guji-张献忠-event-1635-luzhou
   - key: breakthrough
-    name: 房县受抚复叛
+    name: 铁庐州受挫
     labels:
-      zh: 假降待机
-    start_date: 1634-01-01
-    highlight_event_id: guji-张献忠-event-rise
+      zh:
+      - 北门炮殪二大王
+      - 南门灯城相持
+    start_date: 1635-03-11
+    highlight_event_id: guji-张献忠-event-1635-luzhou
   - key: climax
-    name: 三入四川蔓延川东
+    name: 舒城为跳板
     labels:
-      zh: 流窜川陕
-    start_date: 1637-02-01
-    highlight_event_id: guji-张献忠-event-chengdu
+      zh:
+      - 孔廷训兵变引贼
+      - 改舒城为得胜州
+    start_date: 1642-04-28
+    highlight_event_id: guji-张献忠-event-1642-luzhou
   - key: closure
-    name: 坐大并吞群贼
+    name: 夜袭再破庐州
     labels:
-      zh: 并众成势
-    start_date: 1640-01-01
-    highlight_event_id: guji-张献忠-event-chengdu
+      zh:
+      - 桃城献策
+      - 将军庙攀城
+    start_date: 1642-06-03
+    highlight_event_id: guji-张献忠-event-1642-luzhou
   decisions:
-  - date: 1632-01-01
-    title_zh: 弃捕快从苗美王嘉胤
-    rationale: 穷无所归唯先登效命可得众故独领一队
-  - date: 1636-01-01
-    title_zh: 房县请屯复叛走陕西
-    rationale: 藉屯整休避围剿待官军松懈即复出流动作战
+  - date: 1635-03-12
+    title_zh: 见庐州灯火严守而解围西去
+    rationale: 久攻北门南门不下守垛严密强攻徒损精锐不如流往巢县无为就食
+  - date: 1642-06-02
+    title_zh: 纳郭尚义暗袭之策夜取庐州
+    rationale: 庐州经蝗旱人心思乱且学院临府懈防衔枚疾走可不损一矢而得大城
 - id: guji-张献忠-endeavor-2
-  title_zh: 据成都建号大西
-  summary: 率数十万众陷重庆成都建国大西设官分守然酷虐屠杀终致全川骚动
+  title_zh: 谷城复叛诈取襄阳
+  summary: 谷城受熊文灿招抚复叛入川脱杨嗣昌围困回湖广昼夜奔袭诈充官兵入襄阳杀襄王传檄污蔑官军致杨嗣昌自缢
   phases:
   - key: brewing
-    name: 荆州整军窥蜀
+    name: 谷城受抚
     labels:
-      zh: 水陆并进
-    start_date: 1644-03-01
-    highlight_event_id: guji-张献忠-event-chengdu
+      zh:
+      - 熊文灿招抚
+      - 谷城造宅屯养
+    start_date: 1638-05-01
+    highlight_event_id: guji-张献忠-event-1640-xiangyang
   - key: breakthrough
-    name: 陷重庆屠守臣
+    name: 川陕脱围
     labels:
-      zh: 攻破天险
-    start_date: 1644-07-18
-    highlight_event_id: guji-张献忠-event-chongqing
+      zh:
+      - 大雪围困得砦粮
+      - 开山道循出湖广
+    start_date: 1639-12-01
+    highlight_event_id: guji-张献忠-event-1640-xiangyang
   - key: climax
-    name: 陷成都称秦王
+    name: 诈入襄阳杀王
     labels:
-      zh: 建号大顺
-    start_date: 1644-08-09
-    highlight_event_id: guji-张献忠-event-chengdu
+      zh:
+      - 退兵三百里骄敌
+      - 假官兵吹打进城
+    start_date: 1640-07-17
+    highlight_event_id: guji-张献忠-event-1640-xiangyang
   - key: closure
-    name: 分兵掠地失人心
+    name: 逼死督师避入英霍
     labels:
-      zh: 酷政溃败之始
-    start_date: 1644-10-01
-    highlight_event_id: guji-张献忠-event-death
+      zh:
+      - 张榜污蔑得贿加官
+      - 杨嗣昌自缢徐宅
+    start_date: 1640-08-01
+    highlight_event_id: guji-张献忠-event-1640-xiangyang
   decisions:
-  - date: 1644-06-01
-    title_zh: 焚舟泸州分三路犯成都
-    rationale: 断退路示必死以速战并使援军难测虚实混入内应
-  - date: 1644-08-15
-    title_zh: 止屠成都设五府六部
-    rationale: 以成都为根本基业需留城郭官民以供赋役故纳汪兆龄谏
+  - date: 1639-05-01
+    title_zh: 因密札泄露焚杀谷城复叛
+    rationale: 兵备道密谋见执官民不容与其坐待受擒不如先发焚杀流窜
+  - date: 1640-07-17
+    title_zh: 诈称官兵回防夜袭襄阳
+    rationale: 襄阳侦贼远去而怠守冒充官兵入城可不血刃而执藩王震动朝野
 events:
 - id: guji-张献忠-event-birth
+  title_zh: 出生于陕北柳树涧
   date: 1606-09-18
   year_of: 1606
-  title_zh: 生于延安府肤施县
-  kind: birth
-  description: 明万历末生于陕北延安肤施家贫尝充捕快性凶暴尝系狱
-- id: guji-张献忠-event-rise
-  date: 1630-01-01
-  year_of: 1630
-  title_zh: 从王嘉胤苗美为乱号八大王
-  kind: career
-  description: 崇祯初投苗美王嘉胤战辄先登独领一队号八大王与李自成并为群贼之魁
-- id: guji-张献忠-event-chongqing
-  date: 1644-07-23
-  year_of: 1644
-  title_zh: 陷重庆杀陈士奇瑞王
-  kind: career
-  description: 自涪州上犯围重庆发地道灌火药破城巡抚陈士奇知府王行俭等死瑞王被执杀士民多断手
-- id: guji-张献忠-event-chengdu
-  date: 1644-08-09
-  year_of: 1644
-  title_zh: 陷成都建国大西改元大顺
-  kind: career
-  description: 伪为援兵混入成都三日破城龙文光刘镇藩战死蜀王赴井死遂以蜀府为宫设官分兵掠蜀
+  location_zh: 陕西延安府柳树涧
+  description: 明万历末生于陕北贫家少从军后因饥乱聚众为寇与李自成并称渠魁
+- id: guji-张献忠-event-1635-luzhou
+  title_zh: 初围庐州号铁庐州
+  date: 1635-03-11
+  year_of: 1635
+  location_zh: 庐州府城
+  description: 崇祯八年正月二十二日薄庐州城下挖水关穿地道攻北门月城为鲁弘道抵御田起潜发炮殪二大王张进嘉夜攻南门见灯火如昼叹为灯城铁庐州二十八日解围去陷巢县无为
+- id: guji-张献忠-event-1640-xiangyang
+  title_zh: 诈取襄阳杀襄王
+  date: 1640-07-17
+  year_of: 1640
+  location_zh: 湖广襄阳府
+  description: 自四川复出围襄阳数日佯退三百里复一昼夜驰回假充官兵进城执襄王杀之张榜诬杨嗣昌等受赂加官杨公闻之自缢于徐宅花园
+- id: guji-张献忠-event-1642-luzhou
+  title_zh: 夜袭再破庐州
+  date: 1642-06-03
+  year_of: 1642
+  location_zh: 庐州府西门将军庙
+  description: 据舒城得胜州纳桃城郭尚义计五月初六挑选精兵衔枚自小蜀山小路疾进三更自将军庙攀城斩守垛军开西门纵兵入城焚杀掳掠执余瑞紫拘营半载
 - id: guji-张献忠-event-death
+  title_zh: 殁于西充凤凰山
   date: 1647-01-02
   year_of: 1647
-  title_zh: 败亡于川北西充
-  kind: death
-  description: 据蜀后多行屠戮人心离散清兵南下出川迎战中箭死于西充凤凰山大西遂亡
+  location_zh: 四川西充凤凰山
+  description: 据蜀称大西王后与清军战于西充中矢而殁经营四川数年终以屠戮失人心而败亡
