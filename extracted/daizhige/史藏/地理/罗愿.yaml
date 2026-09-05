@@ -1,0 +1,146 @@
+person:
+  qid: guji-罗愿
+  name_zh: 罗愿
+  names:
+    zh: 罗愿
+    en: Luo Yuan
+  lifespan:
+    birth:
+      date: 1136-01-01
+      precision: year
+      is_circa: false
+      raw: 宋绍兴六年歙县
+    death:
+      date: 1184-01-01
+      precision: year
+      is_circa: false
+      raw: 宋淳熙十一年鄂州
+  birth_date: 1136-01-01
+  death_date: 1184-01-01
+  era: 南宋
+  reign_ref: 宋孝宗淳熙
+  archetype: 方志博雅学者
+  dilemmas:
+  - 以吏簿抄录便事还是以儒学论正得失
+  - 博采稗说旧经与访求故老金石何以取舍持平
+  lesson: 儒不可废于世方志当戒险易察息耗以利民
+  summary_first_person: 吾歙人罗愿蚤以儒学闻悼图经疏略访故老罗金石奉赵侯命成新安志十卷又著尔雅翼以明训诂后守鄂州务以所学施于政事
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+  - https://ctext.org/wiki.pl?if=gb&res=55649
+endeavors:
+- id: guji-罗愿-endeavor-1
+  person_id: guji-罗愿
+  title_zh: 纂修新安志十卷
+  summary: 访故老求遗事网罗金石图经以成徽州一郡之全志
+  phases:
+  - key: brewing
+    name: 悼祥符图经亡佚私加附著
+    labels:
+      zh: 萌志搜访
+    start_date: 1160-01-01
+    highlight_event_id: guji-罗愿-event-gather
+  - key: breakthrough
+    name: 得祥符旧经于民间纲目粗设
+    labels:
+      zh: 得旧经
+    start_date: 1170-01-01
+    highlight_event_id: guji-罗愿-event-gather
+  - key: climax
+    name: 奉赵不悔命约敕诸曹网罗金石
+    labels:
+      zh: 卒业编摩
+    start_date: 1174-01-01
+    highlight_event_id: guji-罗愿-event-finish
+  - key: closure
+    name: 淳熙二年三月作序献书厘为十卷
+    labels:
+      zh: 序献成书
+    start_date: 1175-03-01
+    highlight_event_id: guji-罗愿-event-finish
+  decisions:
+  - date: 1170-01-01
+    title_zh: 不直抄计簿必附前史国典稗说论正得失
+    rationale: 若直抄簿吏能为之儒者当明险易息耗阔狭以示戒
+  - date: 1175-03-01
+    title_zh: 以十卷统山川户口赋贡吏治风俗人才
+    rationale: 使条理错综聚见一书以便学者稽览长吏施化
+- id: guji-罗愿-endeavor-2
+  person_id: guji-罗愿
+  title_zh: 撰著尔雅翼明训诂兼守鄂州施政
+  summary: 以博物洽闻著尔雅翼三十二卷后出守鄂州以廉靖不扰为治
+  phases:
+  - key: brewing
+    name: 少承家学博览经史杂家
+    labels:
+      zh: 博览积学
+    start_date: 1150-01-01
+    highlight_event_id: guji-罗愿-event-erya
+  - key: breakthrough
+    name: 有感尔雅疏略广采诗书博物之说
+    labels:
+      zh: 发愤著述
+    start_date: 1172-01-01
+    highlight_event_id: guji-罗愿-event-erya
+  - key: climax
+    name: 尔雅翼成以虫鱼草木明圣人微旨
+    labels:
+      zh: 翼经成编
+    start_date: 1174-01-01
+    highlight_event_id: guji-罗愿-event-erya
+  - key: closure
+    name: 权发遣鄂州以儒饰吏卒于官
+    labels:
+      zh: 守鄂考终
+    start_date: 1183-01-01
+    highlight_event_id: guji-罗愿-event-ezhou
+  decisions:
+  - date: 1172-01-01
+    title_zh: 以训诂名物兼考制度物理不空言义理
+    rationale: 欲使学者由名物达圣人之意补旧疏之阙
+  - date: 1183-01-01
+    title_zh: 以廉靖不扰治鄂不务苛察聚敛
+    rationale: 郡经兵扰当安养士民如治新安之民以宽厚为本
+events:
+- id: guji-罗愿-event-birth
+  person_id: guji-罗愿
+  title_zh: 生于徽州歙县
+  date: 1136-01-01
+  year_of: 1136
+  type: birth
+  summary: 宋绍兴六年生于歙县罗氏父汝楫以文学显
+- id: guji-罗愿-event-gather
+  person_id: guji-罗愿
+  title_zh: 阅前史国典访故老求遗事
+  date: 1170-01-01
+  year_of: 1170
+  type: endeavor
+  summary: 间阅前史国典杂家稗说稍稍附著访故老求遗事思辑为一书
+- id: guji-罗愿-event-erya
+  person_id: guji-罗愿
+  title_zh: 著成尔雅翼
+  date: 1174-01-01
+  year_of: 1174
+  type: endeavor
+  summary: 以博物洽闻论载甚广著尔雅翼明训诂名物自得立言之法
+- id: guji-罗愿-event-finish
+  person_id: guji-罗愿
+  title_zh: 新安志成作自序于淳熙二年三月
+  date: 1175-03-01
+  year_of: 1175
+  type: endeavor
+  summary: 会邦君赵不悔勉使卒业约敕诸曹网罗金石之文厘为十卷名曰新安志
+- id: guji-罗愿-event-ezhou
+  person_id: guji-罗愿
+  title_zh: 知鄂州兼领荆湖事
+  date: 1183-01-01
+  year_of: 1183
+  type: endeavor
+  summary: 以儒学蚤驰隽声出守鄂州为政廉靖人亦相安
+- id: guji-罗愿-event-death
+  person_id: guji-罗愿
+  title_zh: 卒于鄂州官舍
+  date: 1184-01-01
+  year_of: 1184
+  type: death
+  summary: 宋淳熙十一年卒于鄂州任上后人称存斋先生立传以表其学行

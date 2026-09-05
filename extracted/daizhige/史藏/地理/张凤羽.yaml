@@ -1,0 +1,130 @@
+person:
+  qid: guji-张凤羽
+  name_zh: 张凤羽
+  names:
+    zh: 张凤羽
+    en: Zhang Fengyu
+  lifespan:
+    birth:
+      date: 1630
+      precision: year
+      is_circa: true
+      raw: 约明崇祯三年生于招远
+    death:
+      date: 1690
+      precision: year
+      is_circa: true
+      raw: 约清康熙年间卒
+  birth_date: 1630
+  death_date: 1690
+  era: 清初
+  reign_ref: 顺治
+  archetype: 乡邦文献纂修者
+  dilemmas:
+  - 邑无旧志文献散佚与桑梓采辑之责
+  - 朴陋不文自惧辱命与郡守邑侯敦促之命
+  lesson: 网罗放失以补三百年缺略使偏邑人物风土有所考信
+  summary_first_person: 吾招远张凤羽字仲威己亥科进士曾观政户部逢郡守修登郡志邑侯促修邑乘乃以郡乘为蓝本旁采群籍舆颂三阅月成八万余言之招远县志以存桑梓
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/招远县志.md
+  - https://daizhige.org/史藏/地理/招远县志.html
+endeavors:
+- id: guji-张凤羽-endeavor-1
+  title_zh: 己亥科登进士观政户部
+  summary_zh: 招远邑人力学登顺治己亥科进士选户部观政假还桑梓
+  phases:
+  - key: brewing
+    name: 桑梓力学
+    labels:
+      zh: 积学
+    start_date: 1645
+    highlight_event_id: guji-张凤羽-event-birth
+  - key: breakthrough
+    name: 己亥登第
+    labels:
+      zh: 科第
+    start_date: 1659
+    highlight_event_id: guji-张凤羽-event-exam
+  - key: climax
+    name: 户部观政
+    labels:
+      zh: 入仕
+    start_date: 1659
+    highlight_event_id: guji-张凤羽-event-exam
+  - key: closure
+    name: 假还招远
+    labels:
+      zh: 还乡
+    start_date: 1660
+    highlight_event_id: guji-张凤羽-event-gazetteer
+  decisions:
+  - date: 1659
+    title_zh: 赴试登己亥科进士
+    rationale: 以经术求进阶致用兼光桑梓
+  - date: 1659
+    title_zh: 选户部观政
+    rationale: 观习部务以谙赋税钱谷为治邑理民之备
+- id: guji-张凤羽-endeavor-2
+  title_zh: 主纂招远县志八万言
+  summary_zh: 受登州守徐可先及知县张作砺之托以郡乘为蓝本稽群籍采舆颂成招远首部邑志
+  phases:
+  - key: brewing
+    name: 受命载笔
+    labels:
+      zh: 受托
+    start_date: 1660
+    highlight_event_id: guji-张凤羽-event-gazetteer
+  - key: breakthrough
+    name: 稽籍采访
+    labels:
+      zh: 搜辑
+    start_date: 1660-08-01
+    highlight_event_id: guji-张凤羽-event-gazetteer
+  - key: climax
+    name: 芟繁辨伪
+    labels:
+      zh: 编纂
+    start_date: 1660-09-01
+    highlight_event_id: guji-张凤羽-event-gazetteer
+  - key: closure
+    name: 三阅月告成
+    labels:
+      zh: 成书
+    start_date: 1660-11-15
+    highlight_event_id: guji-张凤羽-event-gazetteer
+  decisions:
+  - date: 1660
+    title_zh: 以郡乘为蓝本不凭臆增损
+    rationale: 邑无旧志凡引古必载所出以见考据传信传疑
+  - date: 1660-11-15
+    title_zh: 详序巅末自陈舛误以俟博物君子
+    rationale: 朴陋不文惧辱命故详述受命缘起以告后之君子
+events:
+- id: guji-张凤羽-event-birth
+  type: birth
+  title_zh: 生于招远
+  date: 1630
+  year_of: 1630
+  place_zh: 山东招远
+  description_zh: 邑人张凤羽字仲威约明末生于招远后为邑学生员
+- id: guji-张凤羽-event-exam
+  type: career
+  title_zh: 登己亥科进士观政户部
+  date: 1659
+  year_of: 1659
+  place_zh: 京师户部
+  description_zh: 顺治十六年己亥科进士选户部观政次年假还故里
+- id: guji-张凤羽-event-gazetteer
+  type: career
+  title_zh: 编成招远县志十二卷
+  date: 1660-11-15
+  year_of: 1660
+  place_zh: 山东招远
+  description_zh: 应登州知府徐可先及知县张作砺之请载笔为文前后三阅月成书八万余言顺治庚子冬十月望后自序
+- id: guji-张凤羽-event-death
+  type: death
+  title_zh: 卒于里第
+  date: 1690
+  year_of: 1690
+  place_zh: 山东招远
+  description_zh: 纂志后归于桑梓约康熙年间卒于家
