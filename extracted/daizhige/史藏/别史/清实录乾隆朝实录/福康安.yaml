@@ -3,142 +3,139 @@ person:
   name_zh: 福康安
   names:
     zh: 福康安
-    en: Fukangan
+    en: Fukanggan
   lifespan:
     birth:
-      date: 1754
+      date: '1753'
       precision: year
       is_circa: false
-      raw: 乾隆十九年生
+      raw: 乾隆十八年
     death:
-      date: 1796-07-02
-      precision: day
+      date: '1796'
+      precision: year
       is_circa: false
-      raw: 嘉庆元年五月卒于军中
-  birth_date: 1754
-  death_date: 1796-07-02
-  era: 清乾隆朝
-  reign_ref: 乾隆四十九年甲辰
-  archetype: 经略股肱
+      raw: 嘉庆元年
+  birth_date: '1753'
+  death_date: '1796'
+  era: 清
+  reign_ref: 乾隆
+  archetype: 经略封疆之重臣
   dilemmas:
-  - 剿抚之间既须穷究首逆又须慎别胁从
-  - 滥杀与纵寇之间如何持平定罪以服众心
-  lesson: 用兵剿逆须明辨胁从慎刑明法方能靖乱安民
-  summary_first_person: 吾福康安身受高宗倚任督师甘肃与阿桂会剿田五张文庆等逆回既主擒渠尽法复核马家河滥杀巡查兰州抚恤忠义唯知公正持平不敢回护前后以安疆靖民为任
+  - 奉旨严缉西洋教匪又不得张皇滋扰如何把握分寸
+  - 逆产招卖务使尽归汉民又一时难以速变如何筹办
+  lesson: 靖边须不动声色而彻底落实善后须尽易汉民以永靖地方
+  summary_first_person: 余奉命督陕甘值逆回荡平之后于甘凉访获传习天主教诸犯解省审办复筹小山底店逆产招汉民承买并验收伊犁拨解马匹惟以宁谧地方训练士马为务
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71213.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71213.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1221.html
 endeavors:
 - id: guji-福康安-endeavor-1
-  title_zh: 会办甘肃田五石峰堡逆回之役
-  summary_zh: 与阿桂分路进剿围困石峰堡生擒张文庆马四娃等解送热河尽法惩治并善后审办解送贼匪
+  title_zh: 甘凉查办天主教并防范勾结
+  summary_zh: 于甘凉访获传习天主教之张继勋等起获经卷解省审办并奉旨密防与逆回勾结
   phases:
   - key: brewing
-    name: 分兵驻守拦遏蔓延
+    name: 访线查获
     labels:
-      zh: 通渭失陷后分防要隘
-    start_date: 1784-06-01
+      zh:
+      - 访缉
+      - 起赃
+    start_date: '1784-12-06'
     highlight_event_id: guji-福康安-event-1
   - key: breakthrough
-    name: 合围石峰堡
+    name: 解省审办
     labels:
-      zh: 官兵合围痛歼突逃
-    start_date: 1784-07-10
+      zh:
+      - 审讯
+      - 解送
+    start_date: '1784-12-07'
     highlight_event_id: guji-福康安-event-1
   - key: climax
-    name: 生擒首逆解京审办
+    name: 密防勾结
     labels:
-      zh: 擒张文庆马四娃械送热河
-    start_date: 1784-07-20
+      zh:
+      - 防范
+      - 稽察
+    start_date: '1784-12-08'
+    highlight_event_id: guji-福康安-event-1
+  - key: closure
+    name: 通饬严缉
+    labels:
+      zh:
+      - 严缉
+      - 安民
+    start_date: '1784-12-09'
+    highlight_event_id: guji-福康安-event-1
+  decisions:
+  - date: '1784-12-06'
+    title_zh: 将张继勋刘志虞等拏获解省审办
+    rationale: 西洋人私至内地传教惑众最害风俗人心须彻底查办以绝根株
+  - date: '1784-12-08'
+    title_zh: 不动声色留心防范陕甘民回杂处
+    rationale: 西洋教与回教本属一源又适逢逆回事后恐有勾结煽惑故须密防而勿张皇滋扰
+- id: guji-福康安-endeavor-2
+  title_zh: 逆产招汉承买与边马验收善后
+  summary_zh: 将小山底店等处逆犯房屋田亩估价招汉民承买并验收伊犁拨解巴里坤马匹
+  phases:
+  - key: brewing
+    name: 清查逆产
+    labels:
+      zh:
+      - 清查
+      - 估价
+    start_date: '1784-09-01'
+    highlight_event_id: guji-福康安-event-2
+  - key: breakthrough
+    name: 招汉承买
+    labels:
+      zh:
+      - 招垦
+      - 安置
+    start_date: '1784-12-06'
+    highlight_event_id: guji-福康安-event-2
+  - key: climax
+    name: 杜绝托名
+    labels:
+      zh:
+      - 稽察
+      - 易民
+    start_date: '1784-12-10'
     highlight_event_id: guji-福康安-event-2
   - key: closure
-    name: 彻兵审办复命巡查
+    name: 验收边马
     labels:
-      zh: 各路彻兵陆续审办
-    start_date: 1784-08-15
-    highlight_event_id: guji-福康安-event-3
+      zh:
+      - 验收
+      - 训练
+    start_date: '1784-12-11'
+    highlight_event_id: guji-福康安-event-2
   decisions:
-  - date: 1784-07-20
-    title_zh: 用马见几密禀预备痛歼潜逃贼匪
-    rationale: 因马见几先投后遣家属密禀贼谋黑夜潜逃故先为预备以期按名生擒不使漏网
-  - date: 1784-08-15
-    title_zh: 会参赵继鼎滥杀请革职发伊犁
-    rationale: 见洮岷协副将不问是贼与否遇回即戮致死二百余人故据实参奏以明军纪慎刑杀
-- id: guji-福康安-endeavor-2
-  title_zh: 巡查兰州复核马家河及防边内应
-  summary_zh: 自固原盐茶靖远巡查至兰州奉旨复查马家河回人是否帮贼拒捕严缉西洋传教交通李姓并通筹藩库经费
-  phases:
-  - key: brewing
-    name: 受命留甘巡查
-    labels:
-      zh: 阿桂赴行在福康安留甘
-    start_date: 1784-08-20
-    highlight_event_id: guji-福康安-event-3
-  - key: breakthrough
-    name: 巡历盐茶靖远至兰州
-    labels:
-      zh: 巡查要地安抚善后
-    start_date: 1784-08-22
-    highlight_event_id: guji-福康安-event-3
-  - key: climax
-    name: 复查马家河拒捕实情
-    labels:
-      zh: 奉交刑部折角详查定生死出入
-    start_date: 1784-09-01
-    highlight_event_id: guji-福康安-event-4
-  - key: closure
-    name: 严缉西洋李姓并筹藩库
-    labels:
-      zh: 缉传教内应核库银足敷
-    start_date: 1784-09-05
-    highlight_event_id: guji-福康安-event-5
-  decisions:
-  - date: 1784-09-01
-    title_zh: 公正复查马家河不回护前奏
-    rationale: 高宗以回民守堡三日拒捕事关赵继鼎生死出入故须据实详查曾否帮贼拒捕不可轻信胁从之供
-  - date: 1784-09-05
-    title_zh: 密查西洋与回人交通严缉李姓
-    rationale: 西洋人与回人向属一教恐闻逆回滋事遣人赴陕潜通信息故须密为留心稽查防范
+  - date: '1784-12-10'
+    title_zh: 逆产只许汉民认买不许回民托名
+    rationale: 使各该处皆为汉人居住以便稽察而靖地方若仍托名则后患未除
+  - date: '1784-12-11'
+    title_zh: 派员赴巴里坤验收伊犁拨解马匹
+    rationale: 边防需马训练士马必先得良马故豫派员弁验收以备调用
 events:
 - id: guji-福康安-event-birth
-  type: birth
-  title_zh: 生于京师
-  date: 1754
-  year_of: 1754
-  summary_zh: 乾隆十九年生富察氏孝贤皇后侄大学士傅恒子
-- id: guji-福康安-event-death
-  type: death
-  title_zh: 卒于征苗军中
-  date: 1796-07-02
-  year_of: 1796
-  summary_zh: 嘉庆元年督师征苗病卒追封嘉勇郡王
+  date: '1753'
+  year_of: 1753
+  title_zh: 出生
+  description: 乾隆十八年生于富察氏家为大学士傅恒之侄
+  place_zh: 京师
 - id: guji-福康安-event-1
-  type: campaign
-  title_zh: 督兵围困石峰堡
-  date: 1784-07-15
+  date: '1784-12-06'
   year_of: 1784
-  summary_zh: 与阿桂会剿得马见几密禀预伏痛歼黑夜潜逃贼匪
+  title_zh: 于甘凉拏获传习天主教犯解省审办
+  description: 于甘肃凉州等处访获张继勋刘志虞等并起出经卷饬解省审办奉旨不动声色严密访拏防与逆回勾结
+  place_zh: 甘肃凉州
 - id: guji-福康安-event-2
-  type: trial
-  title_zh: 会参赵继鼎滥杀马家河回民
-  date: 1784-08-10
+  date: '1784-12-10'
   year_of: 1784
-  summary_zh: 与阿桂参奏洮岷协副将赵继鼎遇回即戮杀男妇二百余人请革职发伊犁
-- id: guji-福康安-event-3
-  type: inspection
-  title_zh: 由盐茶靖远巡查至兰州
-  date: 1784-08-20
-  year_of: 1784
-  summary_zh: 各路官兵彻回后自盐茶靖远一带巡查进至兰州省城
-- id: guji-福康安-event-4
-  type: review
-  title_zh: 奉旨复查马家河拒捕
-  date: 1784-09-01
-  year_of: 1784
-  summary_zh: 奉交刑部折角及额勒登保奏片详查马家河回人究竟曾否帮贼拒捕
-- id: guji-福康安-event-5
-  type: defense
-  title_zh: 严缉西洋传教及李姓内应
-  date: 1784-09-05
-  year_of: 1784
-  summary_zh: 奉谕严缉由粤赴陕传教西洋人交通李姓并通筹甘省藩库实存
+  title_zh: 筹办逆产招汉承买并验收伊犁来马
+  description: 遵旨将小山底店等处逆犯房屋田亩估价招甘陕汉民承买杜绝回民托名并移咨伊犁挑选马匹解送巴里坤验收
+  place_zh: 甘肃兰州
+- id: guji-福康安-event-death
+  date: '1796'
+  year_of: 1796
+  title_zh: 逝世
+  description: 嘉庆元年因征剿苗疆劳瘁病逝于军中追封嘉勇郡王入祀昭忠祠贤良祠
+  place_zh: 贵州军中
