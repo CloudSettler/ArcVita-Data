@@ -1,0 +1,127 @@
+person:
+  qid: guji-坤都思
+  name_zh: 坤都思
+  names:
+    zh: 坤都思
+    en: Kundusi
+  lifespan:
+    birth:
+      date: 1830
+      precision: year
+      is_circa: true
+      raw: 生年不详本城人
+    death:
+      date: 1864
+      precision: year
+      is_circa: false
+      raw: 同治三年城陷殉难
+  birth_date: 生年不详
+  death_date: 1864
+  era: 清
+  reign_ref: 同治
+  archetype: 忠义乡贤
+  dilemmas:
+  - 粮尽援绝时去留存亡之择
+  - 助汉守城与保全身家之冲突
+  lesson: 感恩守义与官为存亡乡人有所观感而兴起
+  summary_first_person: 我本英吉沙尔城人素为历任大臣信任贼围城时捐赀助饷缒人采粮登陴御敌誓与官为存亡终以身殉
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E8%8B%B1%E5%90%89%E6%B2%99%E5%B0%94%E5%8E%85%E4%B9%A1%E5%9C%9F%E5%BF%97.html
+endeavors:
+- id: guji-坤都思-endeavor-1
+  title_zh: 捐赀采粮济助守城
+  summary_zh: 同治三年布鲁特安集延入寇围城数月捐八百金助饷缒人潜采糇粮以济兵民饥困
+  phases:
+  - key: brewing
+    name: 家饶有机智见信
+    labels:
+      zh: 本城致富
+    start_date: 1830
+    highlight_event_id: guji-坤都思-event-birth
+  - key: breakthrough
+    name: 贼围捐金助饷
+    labels:
+      zh: 捐八百金
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-donate
+  - key: climax
+    name: 缒人采粮济众
+    labels:
+      zh: 潜采糇粮
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-donate
+  - key: closure
+    name: 城中赖以支持许久
+    labels:
+      zh: 久守斗大之城
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-defend
+  decisions:
+  - date: 1864
+    title_zh: 捐八百金助饷
+    rationale: 兵民饥甚城中无积当以私赀济公守保全桑梓
+  - date: 1864
+    title_zh: 乘间缒人采粮
+    rationale: 水源断绝井碱难饮惟冒险外出采粮方可活军民数千人
+- id: guji-坤都思-endeavor-2
+  title_zh: 登陴御敌誓死殉节
+  summary_zh: 善用火器登城伺贼麋聚击毙多人勤于夜巡领队自焚后犹守不去终为贼乱刃所害并戮妻子亲戚五人
+  phases:
+  - key: brewing
+    name: 善火器勤巡察
+    labels:
+      zh: 夜必数登陴
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-defend
+  - key: breakthrough
+    name: 登城击贼麋聚
+    labels:
+      zh: 一发毙多人
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-defend
+  - key: climax
+    name: 领队焚犹守不去
+    labels:
+      zh: 誓与官为存亡
+    start_date: 1864
+    highlight_event_id: guji-坤都思-event-death
+  - key: closure
+    name: 罹祸惨烈家产荡然
+    labels:
+      zh: 忠义塔传名
+    start_date: 1877
+    highlight_event_id: guji-坤都思-event-memorial
+  decisions:
+  - date: 1864
+    title_zh: 挟枪登城御敌
+    rationale: 他处攻即破英城斗大当以火器重创贼众挫其锋锐
+  - date: 1864
+    title_zh: 感恩流涕不避他适
+    rationale: 受官信任缠回多助贼避去独当誓死存亡以全信义激励边氓
+events:
+- id: guji-坤都思-event-birth
+  title_zh: 生于英吉沙尔本城
+  date: 1830
+  year_of: 1830
+  is_circa: true
+  description: 本城人家饶于赀颇有机智为历任大臣所信任
+- id: guji-坤都思-event-donate
+  title_zh: 贼围捐金缒人采粮
+  date: 1864
+  year_of: 1864
+  description: 同治三年布鲁特安集延入寇围城兵民饥甚捐八百金助饷乘间缒人潜采糇粮多赖以济
+- id: guji-坤都思-event-defend
+  title_zh: 登陴用火器御敌夜巡
+  date: 1864
+  year_of: 1864
+  description: 善用火器每挟枪登城伺贼麋聚一发毙多人勤于巡察夜必数数登陴使英城支持许久
+- id: guji-坤都思-event-death
+  title_zh: 城陷殉难举家被害
+  date: 1864
+  year_of: 1864
+  description: 粮尽援绝领队大臣阖室自焚犹守不去贼恨其助汉人争以乱刃毙之并戮妻子亲戚死者五人家产荡然
+- id: guji-坤都思-event-memorial
+  title_zh: 收骨建忠义塔传名
+  date: 1877
+  year_of: 1877
+  description: 光绪三年故提督张俊驻兵收枯骨为忠义塔名见托公祠碑以示后劝边氓观感兴起

@@ -9,126 +9,146 @@ person:
       date: 1836-09-07
       precision: day
       is_circa: false
-      raw: 道光十六年七月二十七日生于安徽合肥
+      raw: 道光十六年七月二十七日
     death:
       date: 1896-01-12
       precision: day
       is_circa: false
-      raw: 光绪二十一年十一月二十八日卒
+      raw: 光绪二十一年十一月二十八日
   birth_date: 1836-09-07
   death_date: 1896-01-12
-  era: 清末
+  era: 清
   reign_ref: 光绪
-  archetype: 经世封疆之臣
+  archetype: 经世督抚
   dilemmas:
-  - 旧无鱼鳞册而欲按堡分粮之难
-  - 沙田瘠薄难按则科而又异于荒熟之难
-  lesson: 丈地必实测分等，一条鞭必按甲定赋，方能革除旧额积弊
-  summary_first_person: 我抚台湾，主持淡新分治之后局，于光绪十四年行清丈改一条鞭新赋，使淡水十堡新竹诸堡田园沙田分上中下下及沙田沙园三等定则，以实测为经久之业
+  - 海防吃紧而饷绌地分何以固守待援
+  - 建省分治利在久远而浮议纷起何以坚持初衷
+  lesson: 实心实力经营边陲则危局可转为新局
+  summary_first_person: 吾起自行伍督办台湾防务继任首任巡抚奏分新竹以南为苗栗一县一生以开拓建置为事
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B7%A1%E6%96%B0%E5%87%A4%E4%B8%89%E5%8E%BF%E7%AE%80%E6%98%8E%E6%80%BB%E6%8B%AC%E5%9B%BE%E5%86%8C.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B7%A1%E6%96%B0%E5%87%A4%E4%B8%89%E5%8E%BF%E7%AE%80%E6%98%8E%E6%80%BB%E6%8B%AC%E5%9B%BE%E5%86%8C.md
+  - https://daizhige.org/史藏/地理/苗栗縣志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/苗栗县志.md
 endeavors:
 - id: guji-刘铭传-endeavor-1
-  title_zh: 光绪五年淡水新竹分治定界
-  summary_zh: 承淡水厅旧治，划淡水新竹两县分管堡甲，以奏销册权代鱼鳞册定旧粮旧丁之界
+  person_qid: guji-刘铭传
+  title_zh: 督办台湾防务抗法保台
+  summary: 中法战争之际督办台湾防务主持淡水沪尾之战保全全台进而促成建省
   phases:
   - key: brewing
-    name: 淡水厅旧额稽查
+    name: 奉命督办台湾防务
     labels:
       zh:
-      - 旧额稽考
-    start_date: 1878-01-01
-    highlight_event_id: guji-刘铭传-event-1
+      - 筹备设防
+    start_date: 1884-07-01
+    highlight_event_id: guji-刘铭传-event-defense
   - key: breakthrough
-    name: 两县划界分治
+    name: 沪尾大捷击退法军
+    labels:
+      zh:
+      - 转守为攻
+    start_date: 1884-10-08
+    highlight_event_id: guji-刘铭传-event-huweijie
+  - key: climax
+    name: 保全台湾促成建省
+    labels:
+      zh:
+      - 以战促治
+    start_date: 1885-10-12
+    highlight_event_id: guji-刘铭传-event-governor
+  - key: closure
+    name: 首任巡抚经略全台
+    labels:
+      zh:
+      - 开局布政
+    start_date: 1886-04-01
+    highlight_event_id: guji-刘铭传-event-governor
+  decisions:
+  - date: 1884-07-01
+    title_zh: 驰赴基隆扼要布防
+    rationale: 料法军必图基隆淡水故先固炮台分兵策应以保南北粮道
+  - date: 1884-10-08
+    title_zh: 督军沪尾迎击登陆之敌
+    rationale: 恃民团乡勇同仇决战一鼓歼之则全台人心乃安
+- id: guji-刘铭传-endeavor-2
+  person_qid: guji-刘铭传
+  title_zh: 奏准建省分治创设苗栗县
+  summary: 以台湾幅员辽阔奏准改设行省截长补短剖新竹中港以南之地设苗栗县隶台湾府
+  phases:
+  - key: brewing
+    name: 条陈台湾改设行省
+    labels:
+      zh:
+      - 酝酿改制
+    start_date: 1885-10-12
+    highlight_event_id: guji-刘铭传-event-governor
+  - key: breakthrough
+    name: 奏准添建府县分治
     labels:
       zh:
       - 划界分治
-    start_date: 1879-01-01
-    highlight_event_id: guji-刘铭传-event-1
-  - key: climax
-    name: 按堡分算粮丁
-    labels:
-      zh:
-      - 按堡分粮
-    start_date: 1879-06-01
-    highlight_event_id: guji-刘铭传-event-1
-  - key: closure
-    name: 奏销册登明立案
-    labels:
-      zh:
-      - 登明立案
-    start_date: 1880-01-01
-    highlight_event_id: guji-刘铭传-event-1
-  decisions:
-  - date: 1879-01-01
-    title_zh: 淡新划界以堡分管
-    rationale: 淡水原系厅治无鱼鳞可分，惟按堡分计算粮额丁饷以便分治
-  - date: 1879-06-01
-    title_zh: 暂照奏销册造旧额
-    rationale: 所分各堡田园若干无从查分，先照旧额奏销存案以待清丈
-- id: guji-刘铭传-endeavor-2
-  title_zh: 光绪十四年淡新凤三县清丈改一条鞭
-  summary_zh: 主持全台清丈，于淡水十堡新竹诸堡实测田园沙田沙园，分别上中下下四则及沙田沙园三等，改行一条鞭新赋
-  phases:
-  - key: brewing
-    name: 清丈筹备定则
-    labels:
-      zh:
-      - 清丈筹备
     start_date: 1887-01-01
-    highlight_event_id: guji-刘铭传-event-2
-  - key: breakthrough
-    name: 实测田园分甲编字
-    labels:
-      zh:
-      - 实测编字
-    start_date: 1888-01-01
-    highlight_event_id: guji-刘铭传-event-2
+    highlight_event_id: guji-刘铭传-event-miaoli
   - key: climax
-    name: 沙田沙园酌定三等
+    name: 剖新竹南境设苗栗县治
     labels:
       zh:
-      - 沙田定等
-    start_date: 1888-06-01
-    highlight_event_id: guji-刘铭传-event-2
-  - key: closure
-    name: 一条鞭奏咨立案
-    labels:
-      zh:
-      - 一条鞭立案
+      - 设县置治
     start_date: 1889-01-01
-    highlight_event_id: guji-刘铭传-event-2
+    highlight_event_id: guji-刘铭传-event-miaoli
+  - key: closure
+    name: 县治定位梦花庄隶台湾府
+    labels:
+      zh:
+      - 落定县治
+    start_date: 1889-07-01
+    highlight_event_id: guji-刘铭传-event-miaoli
   decisions:
-  - date: 1888-01-01
-    title_zh: 改照新定赋则征收
-    rationale: 旧供粟丁饷耗羡纷杂无册可凭，改归新粮一条鞭以简赋则
-  - date: 1888-06-01
-    title_zh: 沙田沙园配定三等征银
-    rationale: 沿山沿海沿溪沙田收成微薄难按则科，参同安不配米例酌拟等则以昭平允
+  - date: 1887-01-01
+    title_zh: 截长补短添建府县
+    rationale: 旧制南北遥制不便治理故增府分县以便就近抚绥番汉
+  - date: 1889-01-01
+    title_zh: 划中港渡以南为苗栗县
+    rationale: 就山海形势田原膏腴之地别立一县以收分土分民之效
 events:
 - id: guji-刘铭传-event-birth
-  title_zh: 生于安徽合肥
+  person_qid: guji-刘铭传
+  title_zh: 出生于安徽合肥
   date: 1836-09-07
   year_of: 1836
   place_zh: 安徽合肥
-  summary_zh: 道光十六年生于合肥，后以治军经世起家
-- id: guji-刘铭传-event-1
-  title_zh: 光绪五年淡水新竹划界分治
-  date: 1879-01-01
-  year_of: 1879
-  place_zh: 台湾淡水厅
-  summary_zh: 淡水厅改为淡水新竹两县，淡水管十四堡后划四堡归基隆，新竹管八堡，粮丁按堡分算照奏销册开列
-- id: guji-刘铭传-event-2
-  title_zh: 光绪十四年清丈改行一条鞭新赋
-  date: 1888-01-01
-  year_of: 1888
-  place_zh: 淡水十堡新竹诸堡
-  summary_zh: 全台清丈实测田园分则编字，淡水共田三万三千余甲园三千八百余甲年征银五万七千余两，沙田沙园分三等定则，不复另征耗羡，匀丁入粮
+  description: 道光十六年生于农家少任侠后投效淮军转战南北
+- id: guji-刘铭传-event-defense
+  person_qid: guji-刘铭传
+  title_zh: 奉命督办台湾防务
+  date: 1884-07-01
+  year_of: 1884
+  place_zh: 台湾基隆
+  description: 中法战起奉命督办台湾防务驰赴基隆修炮台练勇营固守南北要口
+- id: guji-刘铭传-event-huweijie
+  person_qid: guji-刘铭传
+  title_zh: 沪尾之役大败法军
+  date: 1884-10-08
+  year_of: 1884
+  place_zh: 台湾淡水沪尾
+  description: 法军登陆沪尾督军迎击大捷保全全台人心大安
+- id: guji-刘铭传-event-governor
+  person_qid: guji-刘铭传
+  title_zh: 就任台湾首任巡抚
+  date: 1885-10-12
+  year_of: 1885
+  place_zh: 台湾府
+  description: 台湾改设行省后任首任巡抚清赋练兵设电修路经略全台
+- id: guji-刘铭传-event-miaoli
+  person_qid: guji-刘铭传
+  title_zh: 奏设苗栗县治于梦花庄
+  date: 1889-01-01
+  year_of: 1889
+  place_zh: 苗栗梦花庄
+  description: 奏准添建府县划新竹中港渡以南为苗栗县设治梦花庄隶台湾府
 - id: guji-刘铭传-event-death
-  title_zh: 卒于安徽
+  person_qid: guji-刘铭传
+  title_zh: 病逝于安徽合肥故里
   date: 1896-01-12
   year_of: 1896
-  place_zh: 安徽
-  summary_zh: 台湾建省首任巡抚去任后卒，淡新凤清丈图册为其经界遗业
+  place_zh: 安徽合肥
+  description: 开缺回籍后病逝于故里谥壮肃追赠太子太保
