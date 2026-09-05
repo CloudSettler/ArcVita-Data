@@ -1,0 +1,137 @@
+person:
+  qid: guji-伊勒图
+  name_zh: 伊勒图
+  names:
+    zh: 伊勒图
+    en: Yiletu
+  lifespan:
+    birth:
+      date: 1720-01-01
+      precision: 年
+      is_circa: true
+      raw: 生年不详，约雍正初年
+    death:
+      date: 1785-11-20
+      precision: 月
+      is_circa: true
+      raw: 乾隆五十年秋冬卒，十一月初灵柩届京
+  birth_date: 1720-01-01
+  death_date: 1785-11-20
+  era: 清乾隆朝
+  reign_ref: 乾隆五十年乙巳
+  archetype: 委任封疆宣力效命之功臣
+  dilemmas:
+  - 久任边疆重寄，当以身许国不顾家私
+  - 生前宣劳已足，身后哀荣全出君恩，不可自恃邀求
+  lesson: 委任封疆能宣力有年，克尽臣节，自得身后哀荣垂范后人
+  summary_first_person: 余以武臣委任封疆，宣力有年，不敢言劳，今灵柩还京，蒙上遣大臣迎护，遣皇子奠祭，轸念至此，死复何憾，愿后人安分奋勉以报君恩
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1242.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1242.html
+endeavors:
+- id: guji-伊勒图-endeavor-1
+  title_zh: 委任封疆宣力边陲
+  summary: 历任将军，镇守边疆多年，宣劳效力，称为功臣
+  phases:
+  - key: brewing
+    name: 初任边任
+    labels:
+      zh:
+      - 封疆
+      - 历练
+    start_date: 1750-01-01
+    highlight_event_id: guji-伊勒图-event-service
+  - key: breakthrough
+    name: 专阃一方
+    labels:
+      zh:
+      - 将军
+      - 专任
+    start_date: 1765-01-01
+    highlight_event_id: guji-伊勒图-event-service
+  - key: climax
+    name: 宣力有年
+    labels:
+      zh:
+      - 宣力
+      - 功臣
+    start_date: 1780-01-01
+    highlight_event_id: guji-伊勒图-event-service
+  - key: closure
+    name: 任满去职
+    labels:
+      zh:
+      - 卸任
+      - 原任
+    start_date: 1785-06-01
+    highlight_event_id: guji-伊勒图-event-death
+  decisions:
+  - date: 1765-01-01
+    title_zh: 受任将军镇守边陲
+    rationale: 以身许国，专心职守，不辞远戍劳苦
+- id: guji-伊勒图-endeavor-2
+  title_zh: 灵柩还京身后受恩
+  summary: 卒后灵柩届京，特蒙遣大臣迎接，遣皇子奠祭，示轸念功臣至意
+  phases:
+  - key: brewing
+    name: 病卒任所
+    labels:
+      zh:
+      - 病故
+      - 治丧
+    start_date: 1785-11-01
+    highlight_event_id: guji-伊勒图-event-death
+  - key: breakthrough
+    name: 灵柩启行赴京
+    labels:
+      zh:
+      - 扶柩
+      - 进京
+    start_date: 1785-11-20
+    highlight_event_id: guji-伊勒图-event-escort
+  - key: climax
+    name: 特遣大臣迎柩入城
+    labels:
+      zh:
+      - 加恩
+      - 迎接
+    start_date: 1785-12-07
+    highlight_event_id: guji-伊勒图-event-escort
+  - key: closure
+    name: 皇子到家奠祭
+    labels:
+      zh:
+      - 奠祭
+      - 哀荣
+    start_date: 1785-12-08
+    highlight_event_id: guji-伊勒图-event-sacrifice
+  decisions:
+  - date: 1785-12-07
+    title_zh: 生前恪尽臣节以致身后之荣
+    rationale: 平日宣力有年，不负委任，故能当国家轸念功臣之典
+events:
+- id: guji-伊勒图-event-birth
+  date: 1720-01-01
+  year_of: 1720
+  title_zh: 生于清初武臣之家
+  description: 生年不详，约雍正初年出身行伍，后以军功进用
+- id: guji-伊勒图-event-service
+  date: 1780-01-01
+  year_of: 1780
+  title_zh: 委任封疆宣力有年
+  description: 历任将军，镇守边疆多年，宣劳效力，称为委任封疆宣力有年之臣
+- id: guji-伊勒图-event-death
+  date: 1785-11-20
+  year_of: 1785
+  title_zh: 原任将军病故
+  description: 原任将军伊勒图卒，灵柩启行，将届到京
+- id: guji-伊勒图-event-escort
+  date: 1785-12-07
+  year_of: 1785
+  title_zh: 加恩遣大臣迎接灵柩入城
+  description: 乾隆五十年十一月壬子后降旨，于入城前一日派出散秩大臣一员带领侍卫十员迎接伊勒图灵柩入城
+- id: guji-伊勒图-event-sacrifice
+  date: 1785-12-08
+  year_of: 1785
+  title_zh: 遣皇子前往奠祭
+  description: 俟灵柩到家之后，派十七阿哥前往奠祭，以示轸念功臣至意
