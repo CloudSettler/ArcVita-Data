@@ -1,0 +1,144 @@
+person:
+  qid: guji-瞻思
+  name_zh: 瞻思
+  names:
+    zh: 瞻思
+    en: Zhansi
+  lifespan:
+    birth:
+      date: '1279'
+      precision: year
+      is_circa: true
+      raw: 至元十六年
+    death:
+      date: '1351'
+      precision: year
+      is_circa: true
+      raw: 至正十一年
+  birth_date: '1279'
+  death_date: '1351'
+  era: 元
+  reign_ref: 至治
+  archetype: 博通经学的治河儒臣
+  dilemmas:
+  - 宋金二本得失互见丛杂纷纠，如何讨寻以便观览
+  - 地形改易人事迁移古法未必可行，如何准今酌古变通参考
+  lesson: 汇宋金旧典而削冗订舛，存矩矱以资实用而随宜变通
+  summary_first_person: 吾系出西域，少学算数于真定，得都水监本，又得汴本沈立周俊之书，患其纷纠难寻，遂合而订之，分门析类，以资河务之用
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B2%B3%E9%98%B2%E9%80%9A%E8%AE%AE.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B2%B3%E9%98%B2%E9%80%9A%E8%AE%AE.html
+endeavors:
+- id: guji-瞻思-endeavor-1
+  title_zh: 重订河防通议汇宋金二本为一
+  summary: 以金都水监本十五门与宋沈立汴本周俊河事集合成一编，分门六目，条列物料功程
+  phases:
+  - key: brewing
+    name: 少学算数初得监本
+    labels:
+      zh: 真定受学得监本
+    start_date: '1295'
+    highlight_event_id: guji-瞻思-event-study
+  - key: breakthrough
+    name: 复得汴本互见得失
+    labels:
+      zh: 十五年后得汴本
+    start_date: '1310'
+    highlight_event_id: guji-瞻思-event-getfanben
+  - key: climax
+    name: 至治初元合编订舛
+    labels:
+      zh: 至治辛酉合为一编
+    start_date: 1321-04
+    highlight_event_id: guji-瞻思-event-compile
+  - key: closure
+    name: 分门析类资于实用
+    labels:
+      zh: 物料功程粲然咸备
+    start_date: 1321-04
+    highlight_event_id: guji-瞻思-event-compile
+  decisions:
+  - date: '1310'
+    title_zh: 兼采二本互补长短
+    rationale: 监本体制如簿领而条目纤悉，汴本措辞稍文而论事略备，故两存参合
+  - date: 1321-04
+    title_zh: 削冗省门考订舛讹
+    rationale: 二本丛杂纷纠难于讨寻，故削去冗长省门析类使粗有条贯以便观览
+- id: guji-瞻思-endeavor-2
+  title_zh: 通经博学议河历官秘书少监
+  summary: 通经学天文地理钟律算数，召议河事，历官至秘书少监，以水利究心
+  phases:
+  - key: brewing
+    name: 经学算数无不通晓
+    labels:
+      zh: 西域世家博学
+    start_date: '1295'
+    highlight_event_id: guji-瞻思-event-study
+  - key: breakthrough
+    name: 至元中召议河事
+    labels:
+      zh: 素究水利得召议
+    start_date: '1300'
+    highlight_event_id: guji-瞻思-event-yihe
+  - key: climax
+    name: 以河防著述显于时
+    labels:
+      zh: 重订通议成水利矩矱
+    start_date: 1321-04
+    highlight_event_id: guji-瞻思-event-compile
+  - key: closure
+    name: 官至秘书少监
+    labels:
+      zh: 列代史志补阙参考
+    start_date: '1333'
+    highlight_event_id: guji-瞻思-event-secretary
+  decisions:
+  - date: '1300'
+    title_zh: 以顺物性为治河宗旨
+    rationale: 稽禹迹顺水性而治，后世逆性兴堤故溃溢愈甚，当务疏导变通
+  - date: '1333'
+    title_zh: 以著述补史志之阙
+    rationale: 迁固仅载治水之道不言其方，故详载安桩下络叠埽修堤品式以贻后任
+events:
+- id: guji-瞻思-event-birth
+  type: birth
+  title_zh: 生于西域大食世家
+  date: '1279'
+  year_of: 1279
+  description: 瞻思系出西域，生于至元十六年，色目人，字得之
+- id: guji-瞻思-event-study
+  type: career
+  title_zh: 少学算数得都水监本
+  date: '1295'
+  year_of: 1295
+  description: 少学算数于真定壕寨官张祥瑞，得都水监河防通议十五门监本
+- id: guji-瞻思-event-yihe
+  type: career
+  title_zh: 至元中召议河事
+  date: '1300'
+  year_of: 1300
+  description: 以通天文地理算数素究水利，被召议河事
+- id: guji-瞻思-event-getfanben
+  type: career
+  title_zh: 复得汴本沈立周俊之书
+  date: '1310'
+  year_of: 1310
+  description: 十五年后复得汴本，内列沈立撰述与周俊建炎二年河事集，视监本小异
+- id: guji-瞻思-event-compile
+  type: career
+  title_zh: 至治辛酉重订河防通议成书
+  date: 1321-04
+  year_of: 1321
+  description: 至治初元辛酉四月吉日，于真定擿合二本，削冗考舛省门析类为二卷，自序其首
+- id: guji-瞻思-event-secretary
+  type: career
+  title_zh: 历官至秘书少监
+  date: '1333'
+  year_of: 1333
+  description: 历官清要，终至秘书少监，本传称重订河防通议，事迹具元史本传
+- id: guji-瞻思-event-death
+  type: death
+  title_zh: 卒于元末
+  date: '1351'
+  year_of: 1351
+  description: 卒于至正十一年，遗书分门六目，物料功程丁夫输运安桩叠埽之法咸备
