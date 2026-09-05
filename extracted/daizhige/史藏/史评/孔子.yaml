@@ -1,0 +1,158 @@
+person:
+  qid: guji-孔子
+  name_zh: 孔子
+  names:
+    zh: 孔子
+    en: Confucius
+  lifespan:
+    birth:
+      date: -551-09-28
+      precision: day
+      is_circa: false
+      raw: 鲁襄公二十二年八月庚子
+    death:
+      date: -479-04-11
+      precision: day
+      is_circa: false
+      raw: 鲁哀公十六年四月己丑
+  birth_date: -551-09-28
+  death_date: -479-04-11
+  era: 春秋
+  reign_ref: 鲁襄公至鲁哀公
+  archetype: 述圣师表
+  dilemmas:
+  - 礼崩乐坏之世当从政救世还是设教传道
+  - 信而好古述而不作如何面对僭礼创新之风
+  lesson: 以仁为本执两用中修己安人以复周礼
+  summary_first_person: 吾少贫贱多能鄙事，十五志学，三十而立，述而不作，信而好古，以诗书礼乐易春秋教授弟子，欲兴周道于天下，周游不遇，晚年退修六艺以传后世。
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%8F%B2%E8%AF%84/%E4%B8%AD%E5%9B%BD%E5%93%B2%E5%AD%A6%E5%8F%B2.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%8F%B2%E8%AF%84/%E4%B8%AD%E5%9B%BD%E5%93%B2%E5%AD%A6%E5%8F%B2.md
+endeavors:
+- id: guji-孔子-endeavor-1
+  title_zh: 设教洙泗整理六艺
+  description: 以诗书礼乐易春秋为教，开私人讲学之风，弟子三千，整理周代王官之学以传圣道。
+  phases:
+  - key: brewing
+    name: 少习周礼
+    labels:
+      zh:
+      - 积学
+    start_date: -536-01-01
+    highlight_event_id: guji-孔子-event-study
+  - key: breakthrough
+    name: 开门授徒
+    labels:
+      zh:
+      - 设教
+    start_date: -521-01-01
+    highlight_event_id: guji-孔子-event-teach
+  - key: climax
+    name: 以礼为教
+    labels:
+      zh:
+      - 成教
+    start_date: -500-01-01
+    highlight_event_id: guji-孔子-event-teach
+  - key: closure
+    name: 晚年修经
+    labels:
+      zh:
+      - 成书
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-edit
+  decisions:
+  - date: -521-01-01
+    title_zh: 有教无类广收弟子
+    rationale: 欲以教育化民成德，不论贵贱皆可受业，故开私学以传周文。
+  - date: -484-01-01
+    title_zh: 退而修诗书礼乐
+    rationale: 道不行于当时，则托空言以待后世，故删诗定书赞易修春秋。
+- id: guji-孔子-endeavor-2
+  title_zh: 周游列国问道行道
+  description: 为行仁政复周礼，率弟子周游卫陈蔡楚宋诸国，虽困厄而不改其志。
+  phases:
+  - key: brewing
+    name: 出仕鲁国
+    labels:
+      zh:
+      - 求仕
+    start_date: -500-01-01
+    highlight_event_id: guji-孔子-event-serve-lu
+  - key: breakthrough
+    name: 去鲁适卫
+    labels:
+      zh:
+      - 去国
+    start_date: -496-01-01
+    highlight_event_id: guji-孔子-event-travel
+  - key: climax
+    name: 厄于陈蔡
+    labels:
+      zh:
+      - 守道
+    start_date: -489-01-01
+    highlight_event_id: guji-孔子-event-travel
+  - key: closure
+    name: 反鲁归老
+    labels:
+      zh:
+      - 归鲁
+    start_date: -484-01-01
+    highlight_event_id: guji-孔子-event-return
+  decisions:
+  - date: -496-01-01
+    title_zh: 去鲁周游
+    rationale: 鲁君不能用礼治，权臣乱政，道不行则去，故适列国以求明君。
+  - date: -484-01-01
+    title_zh: 归鲁不复求仕
+    rationale: 明知不可为而为之既毕，归而授徒修书，以传道统于万世。
+events:
+- id: guji-孔子-event-birth
+  title_zh: 生于鲁国陬邑
+  date: -551-09-28
+  year_of: -551
+  place_zh: 鲁国陬邑
+  description: 名丘字仲尼，父叔梁纥，母颜氏，生而有圣德之姿。
+- id: guji-孔子-event-study
+  title_zh: 问礼习学志于周文
+  date: -536-01-01
+  year_of: -536
+  place_zh: 周都洛邑
+  description: 少习礼乐，问礼于老聃，学乐于师襄，博考王官六艺之学。
+- id: guji-孔子-event-teach
+  title_zh: 设教洙泗弟子三千
+  date: -521-01-01
+  year_of: -521
+  place_zh: 鲁国洙泗
+  description: 开私学倡有教无类，以诗书礼乐教授颜回曾参子路子贡等贤弟子。
+- id: guji-孔子-event-serve-lu
+  title_zh: 出仕鲁国摄行相事
+  date: -500-01-01
+  year_of: -500
+  place_zh: 鲁国
+  description: 为中都宰司空大司寇，修礼正法，齐人惧而归侵地，权臣阻而行遂废。
+- id: guji-孔子-event-travel
+  title_zh: 周游列国厄于陈蔡
+  date: -496-01-01
+  year_of: -496
+  place_zh: 卫陈蔡楚宋
+  description: 率弟子历游列国十四年，困于匡围于蒲绝粮陈蔡，弦歌不辍守仁不移。
+- id: guji-孔子-event-return
+  title_zh: 反鲁修经
+  date: -484-01-01
+  year_of: -484
+  place_zh: 鲁国
+  description: 归鲁不复仕，删诗定书赞周易修春秋，教授门人以弘道统。
+- id: guji-孔子-event-edit
+  title_zh: 晚年修春秋定礼乐
+  date: -481-01-01
+  year_of: -481
+  place_zh: 鲁国
+  description: 感麟而作春秋，寄王法褒贬谨严，为后世儒学大宗之所宗。
+- id: guji-孔子-event-death
+  title_zh: 卒于鲁国
+  date: -479-04-11
+  year_of: -479
+  place_zh: 鲁国
+  description: 鲁哀公十六年四月己丑卒，弟子服丧三年，葬鲁城北泗上。
