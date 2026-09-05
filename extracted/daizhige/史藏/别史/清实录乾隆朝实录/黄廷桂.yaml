@@ -6,117 +6,154 @@ person:
     en: Huang Tinggui
   lifespan:
     birth:
-      date: '1691'
-      precision: year
-      is_circa: true
-      raw: 康熙三十年
-    death:
-      date: '1759'
+      date: 1691
       precision: year
       is_circa: false
-      raw: 乾隆二十四年正月
-  birth_date: '1691'
-  death_date: '1759'
+      raw: 康熙三十年
+    death:
+      date: 1759
+      precision: year
+      is_circa: false
+      raw: 乾隆二十四年秋
+  birth_date: 1691
+  death_date: 1759
   era: 清
   reign_ref: 乾隆
-  archetype: 经略封疆型督抚
+  archetype: 封疆能臣
   dilemmas:
-  - 屯田急于求成与驾驭远人体制之衡
-  - 参劾藩臬整饬军需与安定边陲人心之难
-  lesson: 经边当缓急得宜整吏当核实任事不可悬赏招徕亦不可姑息误公
-  summary_first_person: 吾备位陕甘总督值西陲用兵转输浩繁屯田初创惟以综核全局不动声色经理为念整饬属吏以肃军需筹量屯垦以固远圉
+  - 连年馈运之后复值雨泽愆期如何不以军需重累边民
+  - 哈密巴里坤道远雪早如何抢在夏秋运足来岁口粮
+  lesson: 军需以预筹为要民力以体恤为先早计多备方无后顾
+  summary_first_person: 我督陕甘值西师未彻惟恐一丝一粟累及闾阎乘夏秋道可行而先运豫籴以赈以运皆求无误
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0562.md
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0562.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70565.md
 endeavors:
 - id: guji-黄廷桂-endeavor-1
-  title_zh: 整饬甘肃藩臬振饬西陲军需
-  summary: 参劾布政使武忱粮道成德怠玩误公肃清后路以应伊犁回部军需
+  title_zh: 西师军粮炮务筹运
+  summary_zh: 奏请监铸大神炮分起转解并拨哈密存粮抢运巴里坤豫备来岁征兵之用
   phases:
   - key: brewing
-    name: 边需孔亟吏治懈弛
+    name: 请铸神炮
     labels:
-      zh: 军需繁重
-    start_date: '1757-01-01'
-    highlight_event_id: guji-黄廷桂-event-3
+      zh:
+      - 请铸
+      - 监造
+    start_date: 1758-06-08
+    highlight_event_id: guji-黄廷桂-event-zhupao
   - key: breakthrough
-    name: 据实参劾藩臬大员
+    name: 米面兼拨抢运
     labels:
-      zh: 参劾上闻
-    start_date: '1758-06-10'
-    highlight_event_id: guji-黄廷桂-event-3
+      zh:
+      - 转运
+      - 预储
+    start_date: 1758-06-20
+    highlight_event_id: guji-黄廷桂-event-yunliang
   - key: climax
-    name: 革职效力赎罪补授得人
+    name: 议购明岁口粮
     labels:
-      zh: 革职补授
-    start_date: '1758-06-11'
-    highlight_event_id: guji-黄廷桂-event-3
+      zh:
+      - 会商
+      - 筹购
+    start_date: 1758-06-20
+    highlight_event_id: guji-黄廷桂-event-yunliang
   - key: closure
-    name: 新藩驰驿赴任军需归核
+    name: 蒙恩体恤赏银
     labels:
-      zh: 善后经理
-    start_date: '1758-07-01'
-    highlight_event_id: guji-黄廷桂-event-3
+      zh:
+      - 议叙
+      - 体恤
+    start_date: 1758-06-25
+    highlight_event_id: guji-黄廷桂-event-shangyin
   decisions:
-  - date: '1758-06-10'
-    title_zh: 参奏武忱成德因私废公漠视军务
-    rationale: 司道为方面大员军需紧要尤当奋勉乃瞻徇怠玩有玷方伯监司必劾以整饬官常
-  - date: '1758-06-11'
-    title_zh: 请以蒋炳补授甘肃布政使驰驿前往
-    rationale: 藩司总汇钱粮军需非端谨率属不能整饬须得干员迅速接理以免贻误
+  - date: 1758-06-08
+    title_zh: 请交松阿哩监铸大神炮分起转解
+    rationale: 军营需炮务求精坚若候全数铸就始解则稽迟时日故请铸成三四位即为一起转解
+  - date: 1758-06-20
+    title_zh: 先从哈密存粮米面兼拨尽力运送巴里坤
+    rationale: 内地距营窎远口外露雪早降难行车须乘夏秋道路可行于九月前运足五万石备用
 - id: guji-黄廷桂-endeavor-2
-  title_zh: 筹议伊犁屯田招徕回人耕作
-  summary: 请拨屯兵余地安置回人减租赏缎并筹驼运口粮以次兴作伊犁屯田
+  title_zh: 甘肃旱雹赈济抚恤
+  summary_zh: 查明河东西被旱被雹情形酌借耔种口粮请豁缓赋并先期经理赈粜补种
   phases:
   - key: brewing
-    name: 伊犁驻兵屯田初议
+    name: 奏报旱雹借给
     labels:
-      zh: 驻兵屯垦
-    start_date: '1757-08-01'
-    highlight_event_id: guji-黄廷桂-event-4
+      zh:
+      - 查灾
+      - 借给
+    start_date: 1758-06-07
+    highlight_event_id: guji-黄廷桂-event-zhenji
   - key: breakthrough
-    name: 奏请拨余地安置回人
+    name: 劝谕补种秋禾
     labels:
-      zh: 招徕安置
-    start_date: '1758-06-10'
-    highlight_event_id: guji-黄廷桂-event-4
+      zh:
+      - 劝种
+      - 接济
+    start_date: 1758-06-10
+    highlight_event_id: guji-黄廷桂-event-zhenji
   - key: climax
-    name: 朝旨示以缓急得宜密筹
+    name: 预筹赈粜经理
     labels:
-      zh: 缓急得宜
-    start_date: '1758-06-12'
-    highlight_event_id: guji-黄廷桂-event-4
+      zh:
+      - 预筹
+      - 赈粜
+    start_date: 1758-06-18
+    highlight_event_id: guji-黄廷桂-event-zhenji
   - key: closure
-    name: 综核全局豫备以待定夺
+    name: 请豁缓赋以纾民力
     labels:
-      zh: 不动声色
-    start_date: '1758-08-01'
-    highlight_event_id: guji-黄廷桂-event-4
+      zh:
+      - 蠲缓
+      - 恤民
+    start_date: 1758-06-25
+    highlight_event_id: guji-黄廷桂-event-huanmian
   decisions:
-  - date: '1758-06-10'
-    title_zh: 请拨屯兵余地令回人垦种减租赏缎
-    rationale: 南路回人相距甚近屯兵余地闲旷若分拨耕种稍示优恤可速得人力以实屯田
-  - date: '1758-08-01'
-    title_zh: 综核转输驼只口粮不动声色豫备
-    rationale: 屯田由近及远稍待一二年亦可行但不得中止须照常经理俟回部荡平再定以免临事周章
+  - date: 1758-06-10
+    title_zh: 被灾各属酌借耔种口粮无虑失所
+    rationale: 甘省连年军需多资民力又值雨泽愆期若不豫为经理则勘灾已成缓不及事
+  - date: 1758-06-25
+    title_zh: 会奏豁免缓徵水冲沙压及缓带旧欠
+    rationale: 边地贫民接济维艰分别豁免缓带分作五年带徵还仓方能纾解拮据
 events:
 - id: guji-黄廷桂-event-birth
-  date: '1691'
+  title_zh: 生于康熙三十年
+  date: 1691
   year_of: 1691
-  title_zh: 黄廷桂生于江南江都
-  description: 康熙三十年生员出身入仕历巡抚总督以干练边事著称
+  kind_zh: 出生
+  description_zh: 黄廷桂生于康熙三十年汉军镶黄旗人后累官至陕甘总督
+- id: guji-黄廷桂-event-zhupao
+  title_zh: 奏请赶铸大神炮
+  date: 1758-06-08
+  year_of: 1758
+  kind_zh: 军务
+  description_zh: 以甘肃现存炮位年久不堪用雇觅良工趱造大神炮二三十位请交松阿哩监造就近演放转解
+- id: guji-黄廷桂-event-zhenji
+  title_zh: 奏报甘省旱雹已借耔种口粮
+  date: 1758-06-10
+  year_of: 1758
+  kind_zh: 赈济
+  description_zh: 奏称河东河西各府属间有被旱被雹已酌借耔种口粮无虑失所奉旨令豫为经理毋俟勘灾已成始议赈粜
+- id: guji-黄廷桂-event-yunliang
+  title_zh: 拨哈密存粮抢运巴里坤五万石
+  date: 1758-06-20
+  year_of: 1758
+  kind_zh: 转运
+  description_zh: 以两路大军及屯田台站每月口粮不下二三千石又奉添派二万豫备一岁口粮故先从哈密存粮米面兼拨务于九月前运足巴里坤
+- id: guji-黄廷桂-event-shangyin
+  title_zh: 以办理粮饷妥协蒙赏银一万两
+  date: 1758-06-25
+  year_of: 1758
+  kind_zh: 恩赏
+  description_zh: 以连年办理军需无误今岁转运粮饷复甚妥协勤劳懋著加恩于军需正项内支银一万两以示体恤
+- id: guji-黄廷桂-event-huanmian
+  title_zh: 甘肃水冲沙压地亩豁赋缓徵
+  date: 1758-06-25
+  year_of: 1758
+  kind_zh: 蠲恤
+  description_zh: 免甘肃各属乾隆十六年至二十年民欠水冲沙压地亩额赋甘凉肃三府州安西五卫皋兰县二十二年地丁银米并予缓徵
 - id: guji-黄廷桂-event-death
-  date: '1759'
+  title_zh: 卒于乾隆二十四年
+  date: 1759
   year_of: 1759
-  title_zh: 黄廷桂卒于陕甘总督任
-  description: 乾隆二十四年卒于位谥勤敏以经理西陲军需屯田劳勚蒙优恤
-- id: guji-黄廷桂-event-3
-  date: '1758-06-10'
-  year_of: 1758
-  title_zh: 参劾甘肃布政使武忱粮道成德
-  description: 乾隆二十三年五月己丑黄廷桂参奏武忱成德因私废公漠视军务上谕俱革职交其效力赎罪以蒋炳补授甘肃布政使
-- id: guji-黄廷桂-event-4
-  date: '1758-06-11'
-  year_of: 1758
-  title_zh: 奏筹伊犁屯田安置回人贸易
-  description: 乾隆二十三年五月黄廷桂奏伊犁驻兵屯田请以余地拨回人耕种减租赏缎并筹贸易上谕以悬赏招徕未协体制令综核全局缓急得宜密筹以待
+  kind_zh: 逝世
+  description_zh: 黄廷桂以后勤劳勚卒于乾隆二十四年赠谥勤襄入祀贤良祠
