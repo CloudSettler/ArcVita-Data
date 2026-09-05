@@ -6,129 +6,123 @@ person:
     en: Bi Yuan
   lifespan:
     birth:
-      date: '1730-01-01'
+      date: 1730-01-01
       precision: year
       is_circa: false
-      raw: 雍正八年
+      raw: 雍正八年镇洋毕氏
     death:
-      date: '1797-07-01'
-      precision: year
+      date: 1797-07-16
+      precision: day
       is_circa: false
-      raw: 嘉庆二年六月
-  birth_date: '1730-01-01'
-  death_date: '1797-07-01'
-  era: 清朝
-  reign_ref: 乾隆
-  archetype: 儒臣型封疆
+      raw: 嘉庆二年六月廿三卒于湖广总督任
+  birth_date: 1730-01-01
+  death_date: 1797-07-16
+  era: 清乾隆朝
+  reign_ref: 乾隆五十八年癸丑
+  archetype: 经世督抚
   dilemmas:
-  - 整饬私铸与稳定钱价之间两难
-  - 严限实力奉行与属吏具文塞责之间两难
-  lesson: 钱法当辨青钱与薄小私钱青钱不可禁毁私铸必实力查禁
-  summary_first_person: 吾毕沅以读书入仕督抚湖广值小钱盛行奉旨设局收买继而酌筹查禁奏分青钱与小钱虽被申饬仍力主分别办理以安民生
+  - 垦荒增粮与安辑流民之衡
+  - 边徼增赋与藏富于民之择
+  - 久任封疆功多谤多之惧
+  lesson: 垦辟必先安民，安民必先核实，核实则吏不敢欺，民乃得苏
+  summary_first_person: 吾由词垣出抚晋豫秦楚，督湖广最久，垦建始荒地，辑流亡，修水利，刊经史，惟愿野无旷土，民有盖藏，不负圣主倚畀封疆之意
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71435.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71435.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71440.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71440.html
 endeavors:
 - id: guji-毕沅-endeavor-1
-  title_zh: 湖广查禁私铸小钱
-  summary_zh: 设局收买后奸商私铸私贩奉限两年实力查禁奏分青钱小钱
+  title_zh: 督湖广垦辟安辑
+  summary: 乾隆五十三年起督湖广兼署湖北，招辑流民，开垦建始等处荒地，奏报成熟升科，以实边实腹
   phases:
   - key: brewing
-    name: 设局收买酝酿
+    name: 初至武昌察田荒
     labels:
-      zh:
-      - 收买
-    start_date: '1792-01-01'
-    highlight_event_id: guji-毕沅-event-1
+      zh: 踏勘户口
+    start_date: 1788-04-01
+    highlight_event_id: guji-毕沅-event-transfer-huguang
   - key: breakthrough
-    name: 覆奏酌筹查禁
+    name: 招流开垦建始
     labels:
-      zh:
-      - 酌筹
-    start_date: '1793-09-08'
-    highlight_event_id: guji-毕沅-event-1
+      zh: 招垦升科
+    start_date: 1791-01-01
+    highlight_event_id: guji-毕沅-event-kaiken-jianshi
   - key: climax
-    name: 辨青钱遭饬
+    name: 奏报成熟二顷余
     labels:
-      zh:
-      - 申饬
-    start_date: '1793-09-10'
-    highlight_event_id: guji-毕沅-event-1
+      zh: 核实奏报
+    start_date: 1793-12-13
+    highlight_event_id: guji-毕沅-event-kaiken-jianshi
   - key: closure
-    name: 遵旨严饬属吏
+    name: 定则安辑成例
     labels:
-      zh:
-      - 奉行
-    start_date: '1793-10-01'
-    highlight_event_id: guji-毕沅-event-1
+      zh: 永为定例
+    start_date: 1794-01-01
+    highlight_event_id: guji-毕沅-event-kaiken-jianshi
   decisions:
-  - date: '1793-09-08'
-    title_zh: 奏分青钱与小钱
-    rationale: 青钱为康熙雍正旧钱流传已久若概禁则钱价翔贵故请存留
-  - date: '1793-10-01'
-    title_zh: 严饬各属实力奉行
-    rationale: 收买至三四十万觔显系奸商渔利必须限期两年实力查禁毋以一奏塞责
+  - date: 1791-06-01
+    title_zh: 宽限招垦不急升科
+    rationale: 流民初集元气未复，若急征则复逃，宽其年限方能久住成业
+  - date: 1793-12-13
+    title_zh: 据实奏报五十六年分成熟地
+    rationale: 开垦多少必丈量核实具奏，不虚增不隐漏，方杜吏胥侵蚀之弊
 - id: guji-毕沅-endeavor-2
-  title_zh: 经略荆襄文治武备
-  summary_zh: 督湖广整饬营伍兴文教纂典籍以儒臣治封疆
+  title_zh: 历抚晋豫秦楚兴学治水
+  summary: 先后抚河南陕西，督湖广，赈灾蠲缓，浚堤治水，兴书院，刊经籍，以文治佐武功
   phases:
   - key: brewing
-    name: 抚楚筹边
+    name: 抚河南察河患
     labels:
-      zh:
-      - 抚绥
-    start_date: '1788-01-01'
-    highlight_event_id: guji-毕沅-event-2
+      zh: 赈恤河防
+    start_date: 1785-01-01
+    highlight_event_id: guji-毕沅-event-fu-henan
   - key: breakthrough
-    name: 整饬吏治营伍
+    name: 移抚陕西整吏治
     labels:
-      zh:
-      - 整饬
-    start_date: '1790-01-01'
-    highlight_event_id: guji-毕沅-event-2
+      zh: 清厘钱粮
+    start_date: 1786-01-01
+    highlight_event_id: guji-毕沅-event-fu-henan
   - key: climax
-    name: 兴学纂书
+    name: 督湖广兼兴文教
     labels:
-      zh:
-      - 文治
-    start_date: '1792-01-01'
-    highlight_event_id: guji-毕沅-event-2
+      zh: 刊书育才
+    start_date: 1788-04-01
+    highlight_event_id: guji-毕沅-event-transfer-huguang
   - key: closure
-    name: 保境安民
+    name: 江汉安澜士民归心
     labels:
-      zh:
-      - 安堵
-    start_date: '1794-01-01'
-    highlight_event_id: guji-毕沅-event-2
+      zh: 政成民和
+    start_date: 1793-12-13
+    highlight_event_id: guji-毕沅-event-kaiken-jianshi
   decisions:
-  - date: '1790-05-01'
-    title_zh: 严核属吏禁jer具文
-    rationale: 湖广事繁非实力奉行不能奏效故以查禁为考成
-  - date: '1792-06-01'
-    title_zh: 兴书院辑金石
-    rationale: 以文教辅政刑使士民知向学而风俗淳
+  - date: 1785-08-01
+    title_zh: 请缓征被灾州县钱粮
+    rationale: 连岁歉收小民输将维艰，缓带以苏民力，严查吏蚀以清积欠
+  - date: 1790-03-01
+    title_zh: 主修书局刊布经史
+    rationale: 楚地文风宜振，刊经籍以嘉惠士林，使吏治文章并进
 events:
 - id: guji-毕沅-event-birth
-  title_zh: 出生于长洲
-  date: '1730-01-01'
+  date: 1730-01-01
   year_of: 1730
-  place_zh: 江苏长洲
-  description_zh: 雍正八年生于江苏长洲士族少力学成
+  title_zh: 生于江苏镇洋
+  description: 雍正八年生于镇洋，少力学，乾隆二十五年成进士，入翰林
 - id: guji-毕沅-event-death
-  title_zh: 病卒于湖广任所
-  date: '1797-07-01'
+  date: 1797-07-16
   year_of: 1797
-  place_zh: 湖广武昌
-  description_zh: 嘉庆二年卒于湖广总督任上谥文恪
-- id: guji-毕沅-event-1
-  title_zh: 覆奏酌筹查禁私铸小钱
-  date: '1793-09-08'
-  year_of: 1793
-  place_zh: 武昌
-  description_zh: 乾隆五十八年八月覆奏查禁私铸称青钱形模略小铜色带青若概禁恐钱价翔贵奉旨严饬仍令遵节次谕旨实力查禁私铸私贩
-- id: guji-毕沅-event-2
-  title_zh: 总督湖广整饬封疆
-  date: '1788-03-01'
+  title_zh: 卒于湖广总督任上
+  description: 嘉庆二年六月廿三卒于武昌任所，谥庄恪，著有经训堂集诸书
+- id: guji-毕沅-event-transfer-huguang
+  date: 1788-04-01
   year_of: 1788
-  place_zh: 武昌
-  description_zh: 任湖广总督整饬营伍兴修水利兼重文教为一代儒臣封疆之表
+  title_zh: 授湖广总督兼署湖北巡抚
+  description: 由陕西巡抚调督湖广，总制鄂湘，首察户口荒田，议招辑开垦
+- id: guji-毕沅-event-fu-henan
+  date: 1785-06-01
+  year_of: 1785
+  title_zh: 历任河南陕西巡抚治赈
+  description: 分别抚豫抚秦，疏陈灾缓带征积欠宜核民欠吏蚀，浚治河堤赈济饥民
+- id: guji-毕沅-event-kaiken-jianshi
+  date: 1793-12-13
+  year_of: 1793
+  title_zh: 疏报乾隆五十六年分建始垦熟地
+  description: 乾隆五十八年十一月甲辰，据奏开垦建始县成熟地二顷十二亩有奇，核实升科具报
