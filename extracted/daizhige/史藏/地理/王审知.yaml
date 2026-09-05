@@ -8,103 +8,125 @@ person:
     birth:
       date: 0862
       precision: year
-      is_circa: false
-      raw: 唐咸通三年生于光州固始
+      is_circa: true
+      raw: 后唐同光三年卒年六十四推算
     death:
-      date: 0925-12-30
-      precision: day
+      date: 0925
+      precision: year
       is_circa: false
-      raw: 后唐同光三年十一月卒于福州
+      raw: 后唐同光三年卒
   birth_date: 0862
-  death_date: 0925-12-30
+  death_date: 0925
   era: 唐末五代
-  reign_ref: 后梁闽王
-  archetype: 保境安民之开创守成者
+  reign_ref: 后唐同光
+  archetype: 俭约礼士的开国君主
   dilemmas:
-  - 继兄遗业当守成固本还是割据称僭之抉择
-  - 奉中原正朔以求封册还是闭境自雄之权衡
-  lesson: 保境息民轻徭薄赋不妄开边乃长治之道
-  summary_first_person: 吾随兄自固始入闽继领威武三十年间谨守封疆轻赋恤民事大国以安一方不敢负闽中百姓
+  - 以副帅嗣兄之位，当安众守土还是进取称帝
+  - 闽地偏安文弱，当穷兵黩武还是俭约养民兴学
+  lesson: 起于列校而俭约礼士，守土安民可立一方之基，纵子骄淫则基业骤倾
+  summary_first_person: 吾号白马三郎，随兄自光州入闽，代陈岩守福州，嗣为威武军节度使，进封闽王，在位俭约礼士，建四门学以拔闽秀，卒于同光三年
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%BF%97%E4%B8%87%E5%8E%86%E6%9C%AC.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%BF%97%E4%B8%87%E5%8E%86%E6%9C%AC.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E9%97%BD%E9%83%BD%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E9%97%BD%E9%83%BD%E8%AE%B0.md
 endeavors:
 - id: guji-王审知-endeavor-1
-  title_zh: 继兄领威武军经营福州
-  summary: 乾宁末继王潮为留后后拜节度使整治城池屯田保全闽地
+  title_zh: 随兄入闽平乱嗣领威武军
+  summary_zh: 自光州从王绪入闽，众推王潮为主，攻杀范晖据福州，潮卒而嗣立为节度使
   phases:
   - key: brewing
-    name: 随兄入闽奠基泉福
+    name: 随潮自光州入闽
     labels:
-      zh: 从军奠基
-    start_date: 0885
-    highlight_event_id: guji-王审知-event-0898-jun
+      zh: 入闽酝酿
+    start_date: 0886
+    highlight_event_id: guji-王审知-event-893-fuzhou
   - key: breakthrough
-    name: 继统威武领节镇福州
+    name: 奉命攻福州杀范晖
     labels:
-      zh: 继统领镇
-    start_date: 0898
-    highlight_event_id: guji-王审知-event-0898-jun
+      zh: 克福突破
+    start_date: 0893
+    highlight_event_id: guji-王审知-event-893-fuzhou
+  - key: climax
+    name: 潮卒嗣为节度使
+    labels:
+      zh: 嗣镇高潮
+    start_date: 0897
+    highlight_event_id: guji-王审知-event-897-jiedushi
   - key: closure
-    name: 加检校太尉守镇安民
+    name: 唐改福州为威武军授节镇
     labels:
-      zh: 守镇安民
-    start_date: 0903
-    highlight_event_id: guji-王审知-event-0898-jun
+      zh: 正名收局
+    start_date: 0897
+    highlight_event_id: guji-王审知-event-897-jiedushi
   decisions:
-  - date: 0898
-    title_zh: 丧兄不自立仍请命于朝
-    rationale: 以顺守正换取节度使名义安定军心民心
-  - date: 0903
-    title_zh: 筑福州罗城外扩夹城
-    rationale: 以御海寇山越兼通商旅奠都会格局
+  - date: 0893
+    title_zh: 受潮命率兵攻范晖
+    rationale: 陈岩卒后范晖据福州自立，不讨则闽中分裂，故以偏师取福州以一统闽地
+  - date: 0897
+    title_zh: 嗣兄镇福州受威武节度
+    rationale: 王潮卒后军中无主，若让则生乱，故承制守土，受唐命以安众心
 - id: guji-王审知-endeavor-2
-  title_zh: 受封闽王保境息民三十年
-  summary: 奉梁正朔受封闽王开府置官轻徭省刑招贤兴学成一方乐土
+  title_zh: 俭约治闽进封闽王兴学
+  summary_zh: 据福州后俭约礼士，加中书令进封闽王，升福州为大都督府，建四门学校拔闽士
   phases:
   - key: brewing
-    name: 奉梁纳贡求封
+    name: 初镇福州安集流散
     labels:
-      zh: 奉正朔
-    start_date: 0907
-    highlight_event_id: guji-王审知-event-0909-feng
-  - key: climax
-    name: 开平三年封闽王立闽国基
+      zh: 安民酝酿
+    start_date: 0897
+    highlight_event_id: guji-王审知-event-897-jiedushi
+  - key: breakthrough
+    name: 梁加中书令进封闽王
     labels:
-      zh: 封王建国
+      zh: 封王突破
     start_date: 0909
-    highlight_event_id: guji-王审知-event-0909-feng
-  - key: closure
-    name: 养民三十年闽境晏然
+    highlight_event_id: guji-王审知-event-909-minwang
+  - key: climax
+    name: 建四门学校拔秀俭治
     labels:
-      zh: 保境息民
-    start_date: 0915
-    highlight_event_id: guji-王审知-event-0925-shi
+      zh: 文治高潮
+    start_date: 0910
+    highlight_event_id: guji-王审知-event-909-minwang
+  - key: closure
+    name: 同光三年卒谥忠懿
+    labels:
+      zh: 善终收局
+    start_date: 0925
+    highlight_event_id: guji-王审知-event-death
   decisions:
   - date: 0909
-    title_zh: 受闽王册不改元称帝
-    rationale: 宁为开门节度使不为闭门天子以保境安民为上
-  - date: 0911
-    title_zh: 置学校育才招徕中原士人
-    rationale: 以文治化闽收人心补官僚之缺
+    title_zh: 受梁封为闽王守土不僭帝
+    rationale: 中原梁唐迭兴，闽僻远难争鼎，故安于王爵以保境，不称帝以避祸
+  - date: 0910
+    title_zh: 建四门学校礼拔闽士
+    rationale: 闽地久乱文教不振，起列校者欲得人心，非兴学俭约不能长守，故以文儒汇征补武功之不足
 events:
 - id: guji-王审知-event-birth
-  title_zh: 生于光州固始
+  title_zh: 王审知出生
   date: 0862
   year_of: 862
-  description: 唐咸通三年生于光州固始王氏少随兄王潮王审邽起兵南下
-- id: guji-王审知-event-0898-jun
-  title_zh: 继王潮为威武军留后节度使
-  date: 0898
-  year_of: 898
-  description: 王潮卒众推审知为留后唐授威武军节度使领福州大都督府事
-- id: guji-王审知-event-0909-feng
-  title_zh: 后梁封闽王
+  place_zh: 光州固始
+  description_zh: 唐末生于光州固始，隆准方口，军中号白马三郎，后随兄王潮入闽
+- id: guji-王审知-event-893-fuzhou
+  title_zh: 攻克福州杀范晖
+  date: 0893
+  year_of: 893
+  place_zh: 福州
+  description_zh: 陈岩卒婿范晖据福州，王潮遣审知攻之，杀晖，唐以潮代岩，审知为副
+- id: guji-王审知-event-897-jiedushi
+  title_zh: 嗣立为威武军节度使
+  date: 0897
+  year_of: 897
+  place_zh: 福州
+  description_zh: 乾宁四年王潮卒，唐改福州为威武军，授审知节度使，封琅琊王
+- id: guji-王审知-event-909-minwang
+  title_zh: 进封闽王治闽兴学
   date: 0909
   year_of: 909
-  description: 开平三年后梁加封为闽王福州升为大都督府闽国基业遂定
-- id: guji-王审知-event-0925-shi
-  title_zh: 卒于福州长乐府
-  date: 0925-12-30
+  place_zh: 福州
+  description_zh: 五代梁加中书令进封闽王，升福州为大都督府，俭约礼士建四门学校拔闽士秀者
+- id: guji-王审知-event-death
+  title_zh: 卒于福州谥忠懿
+  date: 0925
   year_of: 925
-  description: 后唐同光三年十一月卒于位在镇三十年闽人怀其德谥忠懿
+  place_zh: 福州
+  description_zh: 后唐同光三年卒，年六十四，谥忠懿，子延翰立而闽渐乱
