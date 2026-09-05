@@ -8,119 +8,130 @@ person:
     birth:
       date: 1744-01-28
       precision: day
-      is_circa: true
-      raw: 乾隆八年十二月十四日癸亥
+      is_circa: false
+      raw: 乾隆八年十二月十四日
     death:
-      date: 1790-06-13
+      date: 1790-06-21
       precision: day
-      is_circa: true
-      raw: 乾隆五十五年五月
+      is_circa: false
+      raw: 乾隆五十五年五月初十日
   birth_date: 1744-01-28
-  death_date: 1790-06-13
+  death_date: 1790-06-21
   era: 清
   reign_ref: 乾隆
-  archetype: 宗室文艺亲王
+  archetype: 文治守成宗王
   dilemmas:
-  - 宗室贵胄身份与布衣文人志趣之间如何自处而不失矩度
-  - 出嗣慎靖郡王之后如何兼顾本生之亲与嗣家之孝义
-  lesson: 以诗书翰墨养性修德 以谨慎勤职守藩报国
-  summary_first_person: 吾为乾隆第六子 生于乾隆八年冬 出嗣慎靖郡王允禧之后 平生好诗书工翰墨 敬慎守分 以文会友 以事勤职 不敢踰越
+  - 出继疏属当全孝于本生又当尽礼于所后两全之难
+  - 以亲王总裁文事当持敬慎不以贵掩学以保令名之难
+  lesson: 守器以文勤职以敬可绵宗藩之庆
+  summary_first_person: 吾为高宗第六子出继慎靖郡王之后历贝勒郡王而进亲王谥庄总裁四库馆武英殿书局兼理内务府上书房之事以翰墨典籍自效终蒙祭葬之恩
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70206.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70206.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71356.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71356.md
 endeavors:
 - id: guji-永瑢-endeavor-1
-  title_zh: 承嗣慎郡王系与经营质郡王府
-  summary: 出嗣慎靖郡王允禧之后 封质郡王 进质亲王 谨守宗藩职分 兼管部院事务
+  title_zh: 出继分封历任宗藩
+  summary: 出继允禧之后由贝勒累进质郡王至质亲王兼管内务府旗务上书房守成供职
   phases:
   - key: brewing
-    name: 幼养宫中教读诗书
+    name: 出继酝酿
     labels:
-      zh: 宫廷教养
-    start_date: 1744-01-28
-    highlight_event_id: guji-永瑢-event-birth
-  - key: breakthrough
-    name: 出嗣立府封质郡王
-    labels:
-      zh: 承嗣封爵
+      zh: 出继
     start_date: 1759-01-01
-    highlight_event_id: guji-永瑢-event-1
+    highlight_event_id: guji-永瑢-event-chuji
+  - key: breakthrough
+    name: 分封得位
+    labels:
+      zh: 封爵
+    start_date: 1772-01-01
+    highlight_event_id: guji-永瑢-event-junwang
   - key: climax
-    name: 进封质亲王总理事务
+    name: 晋登亲王
     labels:
-      zh: 进封亲王
+      zh: 进封
     start_date: 1789-01-01
-    highlight_event_id: guji-永瑢-event-2
+    highlight_event_id: guji-永瑢-event-qinwang
   - key: closure
-    name: 病逝郡王府谥慎靖
+    name: 考终赐恤
     labels:
-      zh: 慎终追谥
-    start_date: 1790-06-13
+      zh: 盖棺
+    start_date: 1790-06-21
     highlight_event_id: guji-永瑢-event-death
   decisions:
-  - date: 1759-08-01
-    title_zh: 安心出嗣恪守嗣藩本分
-    rationale: 既承旁支宗祀 当割舍本生之私 以嗣家祭祀封爵为重 方合礼法
-  - date: 1789-03-01
-    title_zh: 进爵之后更加敬慎勤职
-    rationale: 爵高则责重 须以勤慎总理钦天监内务府等事 以报君恩而免盈满之咎
+  - date: 1759-01-01
+    title_zh: 恪遵出继成命
+    rationale: 以疏属承大宗当安分尽礼不以本生自重以全两宫慈孝
+  - date: 1789-01-01
+    title_zh: 进亲王后仍勤兼职
+    rationale: 爵愈崇则责愈重故兼理府旗房之事益加敬慎以副倚任
 - id: guji-永瑢-endeavor-2
-  title_zh: 诗画金石文艺交游与著述
-  summary: 工诗善画精鉴藏 与士人唱和 编刻诗文集 垂风雅于宗室
+  title_zh: 总裁四库护文兴学
+  summary: 总裁四库全书馆武英殿修书处以宗王领文事护持典籍成一代文治
   phases:
   - key: brewing
-    name: 师友讲论习为诗画
+    name: 开馆受命
     labels:
-      zh: 学艺初成
-    start_date: 1755-01-01
-    highlight_event_id: guji-永瑢-event-1
+      zh: 筹备
+    start_date: 1773-02-01
+    highlight_event_id: guji-永瑢-event-siku-start
   - key: breakthrough
-    name: 开府延士以文会友
+    name: 校雠条例大定
     labels:
-      zh: 文会交游
-    start_date: 1765-01-01
-    highlight_event_id: guji-永瑢-event-1
+      zh: 展开
+    start_date: 1774-01-01
+    highlight_event_id: guji-永瑢-event-siku-start
   - key: climax
-    name: 鉴藏编刻声名益著
+    name: 全书告成进呈
     labels:
-      zh: 著述鉴藏
-    start_date: 1780-01-01
-    highlight_event_id: guji-永瑢-event-2
+      zh: 告成
+    start_date: 1782-01-01
+    highlight_event_id: guji-永瑢-event-siku-done
   - key: closure
-    name: 身后文集行世遗韵不绝
+    name: 武英聚珍流布
     labels:
-      zh: 身后流传
-    start_date: 1790-06-13
-    highlight_event_id: guji-永瑢-event-death
+      zh: 流布
+    start_date: 1789-01-01
+    highlight_event_id: guji-永瑢-event-qinwang
   decisions:
-  - date: 1765-05-01
-    title_zh: 以布衣之礼延接文士
-    rationale: 宗室不宜干政 惟可托于诗书翰墨 与士林切磋以养德而避权势之嫌
-  - date: 1780-10-01
-    title_zh: 整理鉴藏编刻诗稿
-    rationale: 金石书画须有条理 诗文须存稿以示后人 使雅业不随身没 方不负所学
+  - date: 1773-02-01
+    title_zh: 以亲贵领馆阁校书
+    rationale: 典籍浩繁须镇以贵重持以精审故亲裁凡例广纳天下遗书以成信史
+  - date: 1775-01-01
+    title_zh: 奏定聚珍版印书
+    rationale: 善本既定当广流布以惠士林故请开聚珍版以省雕镌而传久远
 events:
 - id: guji-永瑢-event-birth
-  title_zh: 皇六子永瑢生于宫中
   date: 1744-01-28
   year_of: 1744
-  kind: birth
-  description: 乾隆八年十二月十四日癸亥 皇六子永瑢生 母为纯惠皇贵妃苏氏 实录本卷记癸亥皇六子永瑢生
-- id: guji-永瑢-event-1
-  title_zh: 出嗣慎靖郡王允禧后封质郡王
-  date: 1759-08-01
+  title_zh: 生于宫中
+  description: 乾隆八年十二月十四日生为高宗第六子母为纯惠皇贵妃苏氏
+- id: guji-永瑢-event-chuji
+  date: 1759-01-01
   year_of: 1759
-  kind: career
-  description: 乾隆二十四年出嗣圣祖第十七子允禧之后 封多罗质郡王 立府理事 始膺宗藩之任
-- id: guji-永瑢-event-2
-  title_zh: 进封和硕质亲王兼管部院
-  date: 1789-02-01
+  title_zh: 出继慎靖郡王后封贝勒
+  description: 乾隆二十四年出继和硕慎靖郡王允禧之后封多罗贝勒以延疏藩之祀
+- id: guji-永瑢-event-junwang
+  date: 1772-01-01
+  year_of: 1772
+  title_zh: 封和硕质郡王
+  description: 乾隆三十七年晋封和硕质郡王兼理内务府上书房武英殿等事
+- id: guji-永瑢-event-siku-start
+  date: 1773-02-01
+  year_of: 1773
+  title_zh: 充四库全书馆总裁
+  description: 乾隆三十八年开四库全书馆与大学士等同充总裁总理采辑校勘之事
+- id: guji-永瑢-event-siku-done
+  date: 1782-01-01
+  year_of: 1782
+  title_zh: 四库全书告成
+  description: 历九年校雠荟要全书第一部告成进呈得旨嘉奖文治大备
+- id: guji-永瑢-event-qinwang
+  date: 1789-01-01
   year_of: 1789
-  kind: career
-  description: 乾隆五十四年进封和硕质亲王 先后兼管钦天监乐部内务府等事务 以勤慎著称
+  title_zh: 晋封和硕质亲王
+  description: 乾隆五十四年晋封和硕质亲王爵位至极仍总裁馆局勤勉如初
 - id: guji-永瑢-event-death
-  title_zh: 质亲王永瑢逝世
-  date: 1790-06-13
+  date: 1790-06-21
   year_of: 1790
-  kind: death
-  description: 乾隆五十五年五月病逝 享年四十有七 谥曰慎 嗣子绵庆袭爵 其诗文鉴藏之业行于世
+  title_zh: 薨逝赐祭葬谥庄
+  description: 乾隆五十五年五月初十薨本卷载予故和硕质亲王永瑢祭葬如例谥曰庄
