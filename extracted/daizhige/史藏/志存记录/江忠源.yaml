@@ -1,0 +1,125 @@
+person:
+  qid: guji-江忠源
+  name_zh: 江忠源
+  names:
+    zh: 江忠源
+    en: Jiang Zhongyuan
+  lifespan:
+    birth:
+      date: 1812
+      precision: year
+      is_circa: false
+      raw: 嘉庆十七年生于湖南新宁
+    death:
+      date: 1854-01-15
+      precision: day
+      is_circa: false
+      raw: 咸丰三年十二月十七日殉国于庐州
+  birth_date: 1812
+  death_date: 1854-01-15
+  era: 清
+  reign_ref: 咸丰
+  archetype: 忠烈殉节型
+  dilemmas:
+  - 楚皖一体缓急去留奉诏相机而庐州告急当往与否
+  - 庐州粮械皆空城大兵单知不可守而弃城退守与死守殉节之抉择
+  lesson: 以忠孝立身以楚勇开湘军先河知不可守而不去以身殉国而成士气
+  summary_first_person: 吾新宁江忠源以秀水知县起募楚勇转战桂林长沙南昌炮毙冯云山超擢安徽巡抚明知庐州空虚难守而不肯弃城手旗督战于水西门援绝自投古塘死之吾种其因后人食其果死亦无憾
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/咸同将相琐闻.md
+endeavors:
+- id: guji-江忠源-endeavor-1
+  title_zh: 肇建楚勇转战两湖江右
+  summary: 出参乌兰泰军事自募楚勇千余全州蓑衣渡以寡击众援桂林保长沙守南昌开楚军先声
+  phases:
+  - key: brewing
+    name: 参军募勇
+    labels:
+      zh: 募勇初创
+    start_date: 1851-01-01
+    highlight_event_id: guji-江忠源-event-quanzhou
+  - key: breakthrough
+    name: 蓑衣渡扬威
+    labels:
+      zh: 初战扬威
+    start_date: 1852-05-01
+    highlight_event_id: guji-江忠源-event-quanzhou
+  - key: climax
+    name: 援桂保长守昌
+    labels:
+      zh: 转战立功
+    start_date: 1852-08-01
+    highlight_event_id: guji-江忠源-event-nanchang
+  - key: closure
+    name: 超擢皖抚
+    labels:
+      zh: 功成受任
+    start_date: 1853-08-01
+    highlight_event_id: guji-江忠源-event-nanchang
+  decisions:
+  - date: 1851-03-01
+    title_zh: 乌兰泰殉难后自募楚勇
+    rationale: 官军既溃无可恃恃乡勇忠义可战遂募千余人出境搏贼
+  - date: 1852-05-01
+    title_zh: 全州扼险以寡击众
+    rationale: 贼锋方锐惟以地形节制敢战可挫其前驱并击毙渠首以振人心
+- id: guji-江忠源-endeavor-2
+  title_zh: 抚皖驰援死守庐州
+  summary: 奉诏楚皖一体驰援力疾至六安复分兵赴庐州巡城部署水西门血战阙口援绝殉国
+  phases:
+  - key: brewing
+    name: 奉诏驰皖
+    labels:
+      zh: 受命驰援
+    start_date: 1853-10-01
+    highlight_event_id: guji-江忠源-event-nanchang
+  - key: breakthrough
+    name: 分兵入庐
+    labels:
+      zh: 深入孤城
+    start_date: 1853-11-01
+    highlight_event_id: guji-江忠源-event-death
+  - key: climax
+    name: 水西门堵阙血战
+    labels:
+      zh: 浴血守城
+    start_date: 1853-12-01
+    highlight_event_id: guji-江忠源-event-death
+  - key: closure
+    name: 城破投塘殉节
+    labels:
+      zh: 殉国成仁
+    start_date: 1854-01-15
+    highlight_event_id: guji-江忠源-event-death
+  decisions:
+  - date: 1853-11-01
+    title_zh: 明知被绐仍入庐州不退
+    rationale: 既已至庐不肯为弃城退守计纵知粮械皆空亦以身任孤城之责
+  - date: 1854-01-15
+    title_zh: 援绝不降自刎投塘
+    rationale: 城阙已破左右拥行不忍偷生受辱惟一死以明臣节
+events:
+- id: guji-江忠源-event-birth
+  type: birth
+  date: 1812
+  year_of: 1812
+  title_zh: 生于湖南新宁
+  description: 猿臂长身目光炯然以忠孝大节出于天性与人交披肝沥胆曾以公车至京师为曾国藩目送器重
+- id: guji-江忠源-event-quanzhou
+  type: career
+  date: 1852-05-01
+  year_of: 1852
+  title_zh: 全州蓑衣渡大捷炮毙冯云山
+  description: 自募楚勇千余与太平军搏战以寡击众杀数千炮毙冯云山威名大著为楚勇出境之始
+- id: guji-江忠源-event-nanchang
+  type: career
+  date: 1853-08-01
+  year_of: 1853
+  title_zh: 援桂林保长沙守南昌超擢巡抚
+  description: 率部援桂林保长沙守南昌厥功甚伟由秀水知县未及二年超擢安徽巡抚奉诏楚皖一体相机去留
+- id: guji-江忠源-event-death
+  type: death
+  date: 1854-01-15
+  year_of: 1854
+  title_zh: 庐州水西门殉国
+  description: 巡城守水西门募万余民助守屡击却云梯隧道地雷崩城手大旗缘堞督战北门被诱开城雾中自刎投水关古塘死从死文武十余人
