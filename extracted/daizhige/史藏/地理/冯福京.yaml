@@ -6,137 +6,133 @@ person:
     en: Feng Fujing
   lifespan:
     birth:
-      date: 1260
+      date: 1240
       precision: year
       is_circa: true
-      raw: 元初约生于潼川
+      raw: 约宋理宗淳祐末潼川
     death:
-      date: 1312
+      date: 1310
       precision: year
       is_circa: true
-      raw: 大德后约卒
-  birth_date: 1260
-  death_date: 1312
+      raw: 元武宗至大后不详
+  birth_date: 1240
+  death_date: 1310
   era: 元
-  reign_ref: 元成宗大德
-  archetype: 循吏修志者
+  reign_ref: 大德
+  archetype: 州佐修志型循吏
   dilemmas:
-  - 信史与饰美之辨旧志浮夸当芟芜黜伪以传信
-  - 海岛逼仄力薄而教化不可缓当集群力以兴学养士
-  lesson: 为政当先教化修学以明伦作史当存诚去伪阙疑以传信
-  summary_first_person: 余潼川冯福京佐昌国于混一之余见学舍颓圮旧志浮夸乃与诸生协力修庙学刊诏旨以厉士风又购旧籍芟芜正实为图志七卷以俟采录庶无愧传信之职
+  - 旧志浮夸不实若全存则按图责贡贻害苍生若尽削则文献不足无所稽考
+  - 海岛州学逼仄颓圮环学皆水若不修则教化不兴若修则经费无出处须集众力
+  lesson: 作史传信贵在刊削浮词务实核验方能便民垂久
+  summary_first_person: 余潼川人来佐昌国首访图经叹文献不足乃于里民购得旧籍见其以寡为多以无为有属学官郭荐等捃摭芟正审定为七卷图志又率诸生新州学及育德堂刊护学诏以俟采录
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%BE%B7%E6%98%8C%E5%9B%BD%E5%B7%9E%E5%9B%BE%E5%BF%97.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%BE%B7%E6%98%8C%E5%9B%BD%E5%B7%9E%E5%9B%BE%E5%BF%97.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%98%8C%E5%9B%BD%E5%B7%9E%E5%9B%BE%E5%BF%97.html
 endeavors:
 - id: guji-冯福京-endeavor-1
-  title_zh: 佐昌国州政兴学养士
-  summary: 元贞间佐昌国州判修理学宫育德训蒙振作文教
+  person_id: guji-冯福京
+  title_zh: 刊削旧志编成昌国州图志七卷
+  summary_zh: 求得宋旧籍见其夸饰乃授文学订辑亲加审定分八门成传信之书于大德二年七月序而行之
   phases:
   - key: brewing
-    name: 初至昌国视学
+    name: 访求旧籍
     labels:
-      zh:
-      - 到任
-      - 视学
+      zh: 访旧
     start_date: 1295
-    highlight_event_id: guji-冯福京-event-1
+    highlight_event_id: guji-冯福京-event-appoint
   - key: breakthrough
-    name: 集群力修殿堂
+    name: 属学官订辑
     labels:
-      zh:
-      - 修学
-    start_date: 1295
-    highlight_event_id: guji-冯福京-event-1
-  - key: climax
-    name: 建育德堂训蒙
-    labels:
-      zh:
-      - 训蒙
+      zh: 订辑
     start_date: 1296
-    highlight_event_id: guji-冯福京-event-2
-  - key: closure
-    name: 刊诏勒石以厉士
-    labels:
-      zh:
-      - 立训
-    start_date: 1297
-    highlight_event_id: guji-冯福京-event-2
-  decisions:
-  - date: 1295
-    title_zh: 首勉诸生协力修学
-    rationale: 学舍颓圮不称朝廷新美之造故永肩一心集群力由内及外一新之
-  - date: 1296
-    title_zh: 重盖小学为育德堂
-    rationale: 童蒙之养圣人所慎故请耆宿为师以涵养气质明明德于海岛
-- id: guji-冯福京-endeavor-2
-  title_zh: 购旧志芟伪修大德昌国州图志
-  summary: 访购旧籍芟芜黜伪记沿革境土赋役人物以补阙文传信来世
-  phases:
-  - key: brewing
-    name: 访求图经叹文献不足
-    labels:
-      zh:
-      - 访旧
-    start_date: 1295
-    highlight_event_id: guji-冯福京-event-1
-  - key: breakthrough
-    name: 购得旧籍议刊削浮夸
-    labels:
-      zh:
-      - 得籍
-      - 议修
-    start_date: 1296
-    highlight_event_id: guji-冯福京-event-2
+    highlight_event_id: guji-冯福京-event-school
   - key: climax
-    name: 属学官捃摭芟定七卷
+    name: 芟芜正实审定
     labels:
-      zh:
-      - 修志
+      zh: 审定
     start_date: 1297
-    highlight_event_id: guji-冯福京-event-3
+    highlight_event_id: guji-冯福京-event-gazetteer
   - key: closure
-    name: 序作史大略以俟采录
+    name: 作序颁行俟采
     labels:
-      zh:
-      - 作序
+      zh: 成书
     start_date: 1298-07-01
-    highlight_event_id: guji-冯福京-event-3
+    highlight_event_id: guji-冯福京-event-gazetteer
   decisions:
   - date: 1296
-    title_zh: 议削旧志夸饰不实
-    rationale: 旧志以寡为多以亡为有按图责贡必贻害苍生故必芟芜黜伪以传信
+    title_zh: 决定刊削浮词不徇夸美
+    rationale: 旧志以寡为多以险为夷若按图责贡必流毒故宁存阙文不存伪饰
   - date: 1298-07-01
-    title_zh: 自叙作史三长以告来者
-    rationale: 学识才阙一不敢当史职故明文胜质之弊使决择取舍知所守
+    title_zh: 决定分八门系以叙州叙赋山水物产官人士祠
+    rationale: 备天子史官采录须简而有要使境土赋役险要虚实可稽
+- id: guji-冯福京-endeavor-2
+  person_id: guji-冯福京
+  title_zh: 率诸生重修州学及育德堂
+  summary_zh: 元贞乙未到州见大成殿颓圮小学湮塞乃勉士协力由内及外一新又建櫺星立育德堂以训蒙
+  phases:
+  - key: brewing
+    name: 谒庙视学叹颓圮
+    labels:
+      zh: 视学
+    start_date: 1295
+    highlight_event_id: guji-冯福京-event-appoint
+  - key: breakthrough
+    name: 集众协力筹工
+    labels:
+      zh: 筹修
+    start_date: 1295-08-01
+    highlight_event_id: guji-冯福京-event-school
+  - key: climax
+    name: 新殿堂斋庑及育德堂
+    labels:
+      zh: 落成
+    start_date: 1296
+    highlight_event_id: guji-冯福京-event-school
+  - key: closure
+    name: 刊护学诏铭劝来学
+    labels:
+      zh: 劝学
+    start_date: 1296-08-01
+    highlight_event_id: guji-冯福京-event-school
+  decisions:
+  - date: 1295-08-01
+    title_zh: 决定先修小学为育德堂
+    rationale: 教有始卒童蒙之养不可废先正蒙养方可渐进大学格致之功
+  - date: 1296-08-01
+    title_zh: 决定礲石刊护学圣旨于礼殿前
+    rationale: 使海洲诸生晨薰对越知圣朝崇儒之意而自修其身不负菁莪之造
 events:
 - id: guji-冯福京-event-birth
-  title_zh: 生于潼川
-  date: 1260
-  year_of: 1260
-  place: 潼川
-  summary: 约生于宋末潼川长而力学
-- id: guji-冯福京-event-1
-  title_zh: 授昌国州判官到任视学
+  person_id: guji-冯福京
+  type: birth
+  title_zh: 出生于潼川
+  date: 1240
+  year_of: 1240
+  description_zh: 约宋淳祐末生于潼川习儒业长而以才学入仕
+- id: guji-冯福京-event-appoint
+  person_id: guji-冯福京
+  type: career
+  title_zh: 授昌国州判官到州访志
   date: 1295
   year_of: 1295
-  place: 昌国州
-  summary: 元贞乙未始至昌国首勉学士协力修理大成殿讲堂斋庑
-- id: guji-冯福京-event-2
-  title_zh: 修育德堂刊学记诏旨
-  date: 1296
-  year_of: 1296
-  place: 昌国州学
-  summary: 重盖小学为育德堂延郭荐等为师又刊护持庙学诏旨于礼殿前并为记
-- id: guji-冯福京-event-3
-  title_zh: 修成大德昌国州图志并序
+  description_zh: 元贞乙未到佐昌国首访图经于里民购得旧籍见其浮夸遂议刊削
+- id: guji-冯福京-event-school
+  person_id: guji-冯福京
+  type: career
+  title_zh: 修州学建育德堂櫺星门
+  date: 1295-08-01
+  year_of: 1295
+  description_zh: 勉学正冯庚等协力修理殿堂斋庑扫小学湮蔓扁育德堂请郭荐应季挺训蒙又新櫺星门
+- id: guji-冯福京-event-gazetteer
+  person_id: guji-冯福京
+  type: career
+  title_zh: 审定昌国州图志七卷作序
   date: 1298-07-01
   year_of: 1298
-  place: 昌国州
-  summary: 捃摭旧载芟芜黜伪定为七卷传信之书自序作史大略于七月朔日
+  description_zh: 属鄞县教谕郭荐等订辑亲加审定分叙州叙赋叙山叙水叙物产叙官叙人叙祠八门大德戊戌七月朔作序言传信之旨
 - id: guji-冯福京-event-death
-  title_zh: 卒
-  date: 1312
-  year_of: 1312
-  place: 潼川
-  summary: 大德后约卒于里生平以兴学修志传于海岛
+  person_id: guji-冯福京
+  type: death
+  title_zh: 去任后不详所终
+  date: 1310
+  year_of: 1310
+  description_zh: 受代去州后行迹无考附见于四库提要为昌国志主修者传于世
