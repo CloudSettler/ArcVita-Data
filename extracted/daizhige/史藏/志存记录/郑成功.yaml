@@ -6,126 +6,134 @@ person:
     en: Zheng Chenggong
   lifespan:
     birth:
-      date: 1624-08-26
+      date: 1624-08-27
       precision: day
       is_circa: false
-      raw: 明天启四年七月十四生于日本肥前平户
+      raw: 明天启四年七月十四生于日本平户
     death:
       date: 1662-06-23
       precision: day
       is_circa: false
-      raw: 永历十六年五月初八卒于台湾
-  birth_date: 1624-08-26
+      raw: 清康熙元年五月初八卒于台湾承天府
+  birth_date: 1624-08-27
   death_date: 1662-06-23
   era: 明末清初
-  reign_ref: 南明隆武永历
-  archetype: 忠烈开拓者
+  reign_ref: 清康熙元年
+  archetype: 开拓者
   dilemmas:
-  - 父降清而子不降忠与孝两难之抉择
-  - 焚儒服辞孔庙读书与救国之抉择
-  - 坚守东南复明与另辟台湾存续之抉择
-  lesson: 一死酬恩无反顾足以鼓万世忠义而驱荷开台则垂法千古
-  summary_first_person: 吾为芝龙之子母系日本肥前田川氏少而读书蒙唐王赐国姓授忠孝伯父降而母殉节吾痛哭谏而不听遂焚儒服拜辞先师庙募兵海上三世奉明正朔终驱荷复台湾以存衣冠
+  - 金厦孤守与东取台湾之进退两难
+  - 驱荷复土与奉明正朔之名实两难
+  - 屯垦养军与抚绥汉番之治理两难
+  lesson: 审时东进以保军民，立制屯学则功在海疆
+  summary_first_person: 吾乃郑成功，泉人芝龙之子，母为日本氏，顺治十七年自江南败归，逐荷兰而有台湾，立承天府，置天兴万年，辟屯兴学，以存汉家衣冠于海外，惜中道而殁，志付后人
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%8D%E4%BA%BA%E8%BD%B6%E4%BA%8B.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%8D%E4%BA%BA%E8%BD%B6%E4%BA%8B.md
+  - https://daizhige.org/史藏/志存记录/哀台湾笺释.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/哀台湾笺释.md
 endeavors:
 - id: guji-郑成功-endeavor-1
-  title_zh: 焚儒服海上倡义复明
-  goal_zh: 以孤臣之身图恢复存明室衣冠正统
+  title_zh: 驱逐荷兰收复台湾
+  summary: 自江南败归后决计东渡，攻鹿耳门，围赤嵌热兰遮，迫荷兰揆一投降，收台湾入版图
   phases:
   - key: brewing
-    name: 读书养志得幸唐王
+    name: 败归图台
     labels:
-      zh: 养志
-    start_date: 1644-01-01
-    highlight_event_id: guji-郑成功-event-birth
+      zh:
+      - 谋划
+    start_date: 1660-06-01
+    highlight_event_id: guji-郑成功-event-recover-taiwan
   - key: breakthrough
-    name: 焚儒服拜庙起兵
+    name: 登陆鹿耳
     labels:
-      zh: 起兵
-    start_date: 1646-01-01
-    highlight_event_id: guji-郑成功-event-fenrufu
-  - key: climax
-    name: 海上经营东南抗清
-    labels:
-      zh: 抗清
-    start_date: 1650-01-01
-    highlight_event_id: guji-郑成功-event-fenrufu
-  - key: closure
-    name: 转图海外以存基业
-    labels:
-      zh: 转进
-    start_date: 1660-01-01
-    highlight_event_id: guji-郑成功-event-taiwan
-  decisions:
-  - date: 1646-01-01
-    title_zh: 痛谏父降不听则焚服辞庙
-    rationale: 父既降清不可从母既殉节不可忘故脱儒衣付焚以明一死酬恩之志
-  - date: 1646-12-01
-    title_zh: 不附清而海上募兵奉朔
-    rationale: 神州陆沉之后犹据海南一片土三世供奉明正朔以表白天下
-- id: guji-郑成功-endeavor-2
-  title_zh: 驱荷复台湾开疆拓土
-  goal_zh: 取台湾为金汤使国姓之名显于海外并存汉家衣冠
-  phases:
-  - key: brewing
-    name: 审度东南形势图台
-    labels:
-      zh: 图台
-    start_date: 1660-01-01
-    highlight_event_id: guji-郑成功-event-fenrufu
-  - key: breakthrough
-    name: 横渡登台围赤嵌
-    labels:
-      zh: 登台
+      zh:
+      - 进军
     start_date: 1661-04-30
-    highlight_event_id: guji-郑成功-event-taiwan
+    highlight_event_id: guji-郑成功-event-recover-taiwan
   - key: climax
-    name: 迫荷降复故土设承天
+    name: 围困赤嵌
     labels:
-      zh: 复土
-    start_date: 1662-02-01
-    highlight_event_id: guji-郑成功-event-taiwan
+      zh:
+      - 决战
+    start_date: 1661-05-05
+    highlight_event_id: guji-郑成功-event-recover-taiwan
   - key: closure
-    name: 经营屯殖遗泽后世
+    name: 荷兰投降
     labels:
-      zh: 经营
-    start_date: 1662-03-01
-    highlight_event_id: guji-郑成功-event-death
+      zh:
+      - 收复
+    start_date: 1662-02-01
+    highlight_event_id: guji-郑成功-event-recover-taiwan
   decisions:
+  - date: 1660-08-01
+    title_zh: 弃金厦孤地东取台湾
+    rationale: 金厦难守而台湾可屯可守，以为复兴根本，故决意东征
   - date: 1661-04-30
-    title_zh: 决计东征直取鸡笼台湾
-    rationale: 金陵丧败之后大陆难支唯取台湾作金汤方可息紫飓徙鳄鱼以存根本
-  - date: 1662-02-01
-    title_zh: 受荷降设府屯田教养
-    rationale: 以台湾为箕子之朝鲜徐福之日本与世无争而永为臣子仪表保衣冠四十霜
+    title_zh: 涨潮由鹿耳门进军
+    rationale: 趁潮水上涨由正港登陆，出荷军不意，直取赤嵌
+- id: guji-郑成功-endeavor-2
+  title_zh: 经略台湾建制屯垦
+  summary: 以赤嵌为承天府，置州县定官制，招漳泉惠潮之民，辟屯垦荒，兴学校制法律
+  phases:
+  - key: brewing
+    name: 相地立府
+    labels:
+      zh:
+      - 建制
+    start_date: 1661-05-01
+    highlight_event_id: guji-郑成功-event-build-taiwan
+  - key: breakthrough
+    name: 招民开屯
+    labels:
+      zh:
+      - 垦荒
+    start_date: 1661-06-01
+    highlight_event_id: guji-郑成功-event-build-taiwan
+  - key: climax
+    name: 定制兴学
+    labels:
+      zh:
+      - 治理
+    start_date: 1661-09-01
+    highlight_event_id: guji-郑成功-event-build-taiwan
+  - key: closure
+    name: 基业初定
+    labels:
+      zh:
+      - 守成
+    start_date: 1662-01-01
+    highlight_event_id: guji-郑成功-event-build-taiwan
+  decisions:
+  - date: 1661-05-01
+    title_zh: 立承天府置二县
+    rationale: 以赤嵌为承天府，置天兴万年二县，以定职官法律，安辑军民
+  - date: 1661-06-01
+    title_zh: 招来大陆移民屯垦
+    rationale: 召漳泉惠潮流民垦污莱，分镇屯田，以解决军粮并永为家业
 events:
 - id: guji-郑成功-event-birth
   type: birth
-  title_zh: 生于日本肥前平户
-  date: 1624-08-26
+  title_zh: 生于日本平户
+  date: 1624-08-27
   year_of: 1624
-  place_zh: 日本肥前平户
-  description_zh: 芝龙之子母为田川氏少随父归国以年少材武得幸唐王赐国姓
-- id: guji-郑成功-event-fenrufu
+  place: 日本肥前平户
+  description: 郑芝龙之子，母为日本氏，天启四年七月十四生于平户
+- id: guji-郑成功-event-build-taiwan
   type: career
-  title_zh: 焚儒服拜辞孔庙起兵
-  date: 1646-12-01
-  year_of: 1646
-  place_zh: 闽南孔庙前
-  description_zh: 芝龙降清母抗节死成功痛哭谏不听慷慨募兵脱儒衣付焚仰天沥血矢立节乘巨船而去
-- id: guji-郑成功-event-taiwan
+  title_zh: 置承天府兴屯建制
+  date: 1661-05-01
+  year_of: 1661
+  place: 台湾承天府
+  description: 以赤嵌城为承天府，置天兴万年二县，辟屯垦荒，修战械兴学校，招徕漳泉惠潮之民
+- id: guji-郑成功-event-recover-taiwan
   type: career
-  title_zh: 驱荷复台湾建承天府
+  title_zh: 逐荷兰克台湾
   date: 1662-02-01
   year_of: 1662
-  place_zh: 台湾赤嵌
-  description_zh: 一挥戈而紫飓息鳄鱼远徙使国姓爷之名显于欧洲三世供奉明正朔衣冠堂堂
+  place: 台湾赤嵌热兰遮城
+  description: 自江南败归后东征台湾，围赤嵌九阅月，荷兰总督揆一投降，台湾复归汉有
 - id: guji-郑成功-event-death
   type: death
-  title_zh: 卒于台湾王城
+  title_zh: 卒于承天府
   date: 1662-06-23
   year_of: 1662
-  place_zh: 台湾
-  description_zh: 志业虽未遂足为万世鼓忠义遗诗手泽一鳞一爪无不可珍
+  place: 台湾承天府
+  description: 收复台湾后不久得病去世，长子郑经嗣立，守台湾与清相抗
