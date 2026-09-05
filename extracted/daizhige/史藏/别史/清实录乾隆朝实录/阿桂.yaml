@@ -9,7 +9,7 @@ person:
       date: 1717-09-07
       precision: day
       is_circa: false
-      raw: 康熙五十六年八月初三
+      raw: 康熙五十六年八月初七
     death:
       date: 1797-10-10
       precision: day
@@ -17,116 +17,106 @@ person:
       raw: 嘉庆二年八月二十
   birth_date: 1717-09-07
   death_date: 1797-10-10
-  era: 清乾隆
-  reign_ref: 乾隆三十七年
-  archetype: 忠武经略名将
+  era: 清乾隆朝
+  reign_ref: 乾隆三十七年壬辰
+  archetype: 持重奋勉的统帅型名将
   dilemmas:
-  - 南路覆没兵心惶惧临危受命须镇静励众速赴接办
-  - 两路分统须与温福和衷共济又须独立任事不相推诿
-  lesson: 危局惟镇静任事和衷奋进可以挽颓而奏功
-  summary_first_person: 吾出身将家久历戎行乾隆三十七年小金川南路失利桂林贻误奉旨星驰赴川接统南路兵马与温福分道进剿励众心防抄截终转危为安此为吾一生枢机
+  - 南路山高路险，冒进则粮绝兵危，坐守则有名无实，如何权衡牵制与进取
+  - 西路需并力而南路亦需留兵，兵力有限之下如何分配新到昭通湖广之兵
+  lesson: 遇险不轻进，持重待机而动，整顿官兵同住同行方能上下一心，牵制亦是进取之助
+  summary_first_person: 我是阿桂，章佳氏子，久历戎行。此番督办南路小金川之役，东山梁得卡而畏险暂还，我知路险粮难，不敢冞入。我将侍卫章京分发领队，与绿营同住，亲察兵情，并筹绕过僧格宗前后夹攻之策，若无可乘之隙，宁愿留兵牵缀贼势以助西路，静待可进之机再行捣穴。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0908.md
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0908.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70912.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70912.md
 endeavors:
 - id: guji-阿桂-endeavor-1
-  title_zh: 星驰南路接统小金川进剿
-  summary: 乾隆三十七年桂林失机隐饰奉旨令阿桂速赴南路统兵镇抚溃众相机进取僧格宗
+  title_zh: 南路牵制进剿小金川
+  summary: 受命专办南路，由东山梁觅间进兵，得卡歼贼后以粮运艰难暂还，转为驻守牵掣以缀贼势
+  start_date: 1772-04-01
+  highlight_event_id: guji-阿桂-event-1
   phases:
   - key: brewing
-    name: 奉命南下
+    name: 受命督办南路
     labels:
-      zh: 临危受命
-    start_date: 1772-06-28
-    highlight_event_id: guji-阿桂-event-1
+      zh:
+      - 筹划驻守
   - key: breakthrough
-    name: 驰抵成都军营
+    name: 东山梁攻卡杀贼
     labels:
-      zh: 安众察情
-    start_date: 1772-07-15
-    highlight_event_id: guji-阿桂-event-1
+      zh:
+      - 进攻得卡
   - key: climax
-    name: 整军进取僧格宗
+    name: 路险粮艰彻回
     labels:
-      zh: 分路并进
-    start_date: 1772-08-10
-    highlight_event_id: guji-阿桂-event-2
+      zh:
+      - 持重暂还
   - key: closure
-    name: 南路转稳候会剿
+    name: 驻守牵掣待机
     labels:
-      zh: 转危为安
-    start_date: 1772-12-01
-    highlight_event_id: guji-阿桂-event-2
+      zh:
+      - 牵制西路之敌
   decisions:
-  - date: 1772-06-28
-    title_zh: 不候福隆安先行赴营
-    rationale: 进剿机宜紧要久延则兵心涣散贼得抄截须速往弹压统率
-  - date: 1772-07-20
-    title_zh: 抚定溃勇严防章谷卡了
-    rationale: 后山失利众情惊惶先固防守以防贼抄截再图进取方为持重
+  - date: 1772-08-06
+    title_zh: 东山梁得卡后不冒进而彻回
+    rationale: 山高路险且不敢冞入，兼之粮食接济艰难，冒险轻进恐致覆败，故暂还以保兵气
+  - date: 1772-08-10
+    title_zh: 议留兵牵制以助西路
+    rationale: 南路进取颇难而西路攻打正紧，若得僻路绕过僧格宗则夹攻，否则留兵牵掣亦可分贼势助西路并力
 - id: guji-阿桂-endeavor-2
-  title_zh: 两路会剿荡平大小金川
-  summary: 与温福丰昇额等分道冞入厚集兵力先后克小金川再并剿索诺木大金川
+  title_zh: 整顿南路军纪兵制
+  summary: 纠正前督桂林以侍卫章京为宾客之失，令其与绿营领兵官同住领队，朝夕相习以期调度得宜
+  start_date: 1772-07-01
+  highlight_event_id: guji-阿桂-event-2
   phases:
   - key: brewing
-    name: 会筹军需兵力
+    name: 察南路积习
     labels:
-      zh: 通盘筹画
-    start_date: 1773-01-10
-    highlight_event_id: guji-阿桂-event-2
+      zh:
+      - 体察情形
   - key: breakthrough
-    name: 克复美诺小金川平
+    name: 侍卫章京分发领队
     labels:
-      zh: 首奏肤功
-    start_date: 1773-04-01
-    highlight_event_id: guji-阿桂-event-2
+      zh:
+      - 整顿编制
   - key: climax
-    name: 转剿大金川勒乌围
+    name: 同住同行合心
     labels:
-      zh: 深入险碉
-    start_date: 1774-05-01
-    highlight_event_id: guji-阿桂-event-3
+      zh:
+      - 官兵相习
   - key: closure
-    name: 擒索诺木奏凯
+    name: 相机进剿不懈
     labels:
-      zh: 金川底定
-    start_date: 1776-02-01
-    highlight_event_id: guji-阿桂-event-3
+      zh:
+      - 守中待进
   decisions:
-  - date: 1773-03-15
-    title_zh: 乘胜穷追直捣甲尔木
-    rationale: 小金川势蹙若纵则与大金川合须截其后路一鼓荡平
-  - date: 1774-06-10
-    title_zh: 分路稳进不贪小利
-    rationale: 碉坚岭险轻进易挫须步步为营厚集火器以正克险
+  - date: 1772-08-08
+    title_zh: 令侍卫章京与绿营官同住
+    rationale: 亲驻其地方能体察攻剿情形并知兵丁出力与否，临阵方能调度合一，改宾客相待之错谬
+  - date: 1772-08-12
+    title_zh: 时刻察探以乘虚攻捣
+    rationale: 贼因西路吃紧彻南路之贼往援西路，南路守拒必疏，当觅间冞入，不可日久生懈坐失良机
 events:
 - id: guji-阿桂-event-birth
-  title_zh: 出生京师
+  type: birth
   date: 1717-09-07
   year_of: 1717
-  place: 京师
-  description: 康熙五十六年生于章佳氏大学士阿克敦家
-- id: guji-阿桂-event-1
-  title_zh: 奉旨速赴南路统兵
-  date: 1772-06-28
-  year_of: 1772
-  place: 四川南路军营
-  description: 桂林乖张贻误乾隆谕阿桂星驰赴南路接办进兵毋稍刻缓福隆安前往查审桂林
-- id: guji-阿桂-event-2
-  title_zh: 南路整军进取僧格宗
-  date: 1772-09-05
-  year_of: 1772
-  place: 僧格宗
-  description: 阿桂到营后抚定兵心经理卡了章谷防务督兵攻剿僧格宗一路转稳军心
-- id: guji-阿桂-event-3
-  title_zh: 会平两金川奏捷
-  date: 1776-03-15
-  year_of: 1776
-  place: 勒乌围噶喇依
-  description: 与温福等分道冞入先后平小金川擒僧格桑再平大金川擒索诺木金川底定
+  title_zh: 生于章佳氏家
+  description: 康熙五十六年八月初七生于京师，父阿克敦，少年入仕以军功显
 - id: guji-阿桂-event-death
-  title_zh: 病卒京师
+  type: death
   date: 1797-10-10
   year_of: 1797
-  place: 京师
-  description: 嘉庆二年八月病卒于京谥文成入祀贤良祠
+  title_zh: 卒于京师
+  description: 嘉庆二年八月二十卒于京师，谥文成，配享太庙
+- id: guji-阿桂-event-1
+  type: career
+  date: 1772-08-06
+  year_of: 1772
+  title_zh: 东山梁进攻得卡后彻回
+  description: 阿桂从东山梁进攻，虽得数卡并歼戮贼番及其头目，兵气稍振，然以路险山高不敢冞入，旋即彻回，仍属有名无实
+- id: guji-阿桂-event-2
+  type: career
+  date: 1772-08-08
+  year_of: 1772
+  title_zh: 奏陈南路侍卫章京分发领队
+  description: 阿桂奏称南路侍卫章京俱令与绿营领兵官同住，所办甚是，得旨嘉许并令西路温福一体照办，以收官兵合心之效
