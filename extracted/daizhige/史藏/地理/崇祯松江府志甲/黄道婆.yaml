@@ -1,0 +1,137 @@
+person:
+  qid: guji-黄道婆
+  name_zh: 黄道婆
+  names:
+    zh: 黄道婆
+    en: Huang Daopo
+  lifespan:
+    birth:
+      date: 1245
+      precision: year
+      is_circa: true
+      raw: 宋淳祐五年约生于乌泥泾镇
+    death:
+      date: 1330
+      precision: year
+      is_circa: true
+      raw: 元泰定二年约卒于松江
+  birth_date: 1245
+  death_date: 1330
+  era: 元
+  reign_ref: 元贞
+  archetype: 棉纺技艺宗师
+  dilemmas:
+  - 手擘去子功艰而乡土墝瘠民困何以便民给食
+  - 绝技得自崖州何以不私藏而尽授乡里
+  lesson: 法施于民则祀之衣被之源当追本报功永祀不废
+  summary_first_person: 吾本乌泥泾人早沦落崖州尽得木棉捍弹纺织之法元贞间附海舶归教乡人制踏车椎弓错纱配色织吉贝以衣被天下乡人感恩葬我立祠岁时享之吾愿杼轴不空以康乂下土
+  source_urls:
+  - https://daizhige.org/史藏/地理/崇祯松江府志甲/卷52.html
+endeavors:
+- id: guji-黄道婆-endeavor-1
+  title_zh: 崖州学艺得吉贝法
+  summary: 沦落崖州尽习木棉种植捍弹纺织之具元贞间附海舶归闽广
+  phases:
+  - key: brewing
+    name: 沦落崖州
+    labels:
+      zh: 蛰伏学艺
+    start_date: 1270
+    highlight_event_id: guji-黄道婆-event-exile
+  - key: breakthrough
+    name: 尽得织法
+    labels:
+      zh: 技成
+    start_date: 1290
+    highlight_event_id: guji-黄道婆-event-return
+  - key: climax
+    name: 附舶归来
+    labels:
+      zh: 归航
+    start_date: 1296
+    highlight_event_id: guji-黄道婆-event-return
+  - key: closure
+    name: 转归乡里
+    labels:
+      zh: 回乡
+    start_date: 1297
+    highlight_event_id: guji-黄道婆-event-teach
+  decisions:
+  - date: 1296
+    title_zh: 附海舶归闽广
+    rationale: 不肯终老崖州欲以绝技泽被乡里故冒鲸海风涛片帆得风而归
+  - date: 1297
+    title_zh: 决意归授乌泥泾
+    rationale: 见乡土墝瘠民多困贫唯棉艺可给衣食故不私藏而尽授之
+- id: guji-黄道婆-endeavor-2
+  title_zh: 乌泥泾传授棉织
+  summary: 教民制造捍弹纺织之具错纱配色综线挈花转售他方以牟利
+  phases:
+  - key: brewing
+    name: 乡人手擘功艰
+    labels:
+      zh: 困贫
+    start_date: 1297
+    highlight_event_id: guji-黄道婆-event-teach
+  - key: breakthrough
+    name: 制器便民
+    labels:
+      zh: 创器
+    start_date: 1298
+    highlight_event_id: guji-黄道婆-event-teach
+  - key: climax
+    name: 织法大行
+    labels:
+      zh: 衣被
+    start_date: 1300
+    highlight_event_id: guji-黄道婆-event-prosper
+  - key: closure
+    name: 葬而立祠
+    labels:
+      zh: 永祀
+    start_date: 1330
+    highlight_event_id: guji-黄道婆-event-death
+  decisions:
+  - date: 1298
+    title_zh: 创制踏车椎弓
+    rationale: 手擘线弦竹弧振掉成剂功艰故教以捍弹纺织之具以便民
+  - date: 1300
+    title_zh: 授错纱配色挈花法
+    rationale: 欲使被褥帨带粲然若写竞相仿习转售饶裕故尽传心法
+events:
+- id: guji-黄道婆-event-birth
+  kind: birth
+  title_zh: 生于乌泥泾镇
+  date: 1245
+  year_of: 1245
+  description: 宋淳祐间生于上海西南乌泥泾镇黄氏家土壤墝瘠民多困贫
+- id: guji-黄道婆-event-exile
+  kind: sojourn
+  title_zh: 沦落崖州习织
+  date: 1280
+  year_of: 1280
+  description: 初沦落崖州尽习闽广木棉种植捍弹纺织之法最善吉贝业为州里所宗
+- id: guji-黄道婆-event-return
+  kind: return
+  title_zh: 元贞间附海舶归
+  date: 1296
+  year_of: 1296
+  description: 元元贞间附海舶归闽广片帆鲸海得风归转谋归授乌泥泾乡人
+- id: guji-黄道婆-event-teach
+  kind: achievement
+  title_zh: 授器教民织作
+  date: 1298
+  year_of: 1298
+  description: 教以制造捍弹纺织之具及错纱配色综线挈花之法被褥帨带折枝团凤粲然若写
+- id: guji-黄道婆-event-prosper
+  kind: achievement
+  title_zh: 吉贝饶裕转售他方
+  date: 1305
+  year_of: 1305
+  description: 土人竞相仿习稍稍转售他方以牟利业颇饶裕输贡衣被寰宇
+- id: guji-黄道婆-event-death
+  kind: death
+  title_zh: 卒葬立祠享祀
+  date: 1330
+  year_of: 1330
+  description: 未几卒乡人感恩洒泣共葬之立祠岁时享之后屡毁屡建附祀宁国寺西偏称黄母
