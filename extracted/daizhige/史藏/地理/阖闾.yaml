@@ -1,0 +1,132 @@
+person:
+  qid: guji-阖闾
+  name_zh: 阖闾
+  names:
+    zh: 阖闾
+    en: Helu King of Wu
+  lifespan:
+    birth:
+      date: '-0540'
+      precision: year
+      is_circa: true
+      raw: 约公元前五四零年
+    death:
+      date: -0496
+      precision: year
+      is_circa: false
+      raw: 公元前四九六年
+  birth_date: '-0540'
+  death_date: -0496
+  era: 春秋晚期
+  reign_ref: 周敬王
+  archetype: 复仇开拓之君
+  dilemmas:
+  - 以刺杀夺位而欲得宗室季子心服
+  - 欲远破强楚而须先筑坚城聚粮养众
+  lesson: 以非常手段得位者须以筑城强国与破楚大功安位方能服宗室而传后世
+  summary_first_person: 我本公子光乃诸樊之子也见王僚可取遂以百金使专诸藏匕首于炙鱼中以刺之既立为阖闾谢过于季子以安社稷任伍子胥筑大城法八风八卦自破楚门出师死葬虎丘化为白虎之传说以传名
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%90%B4%E5%9C%B0%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%90%B4%E5%9C%B0%E8%AE%B0.html
+endeavors:
+- id: guji-阖闾-endeavor-1
+  title_zh: 炙鱼刺僚篡位为王
+  summary: 潜使专诸以匕首藏炙鱼中刺杀王僚子光自立为阖闾复谢过于季子以安人心
+  phases:
+  - key: brewing
+    name: 潜谋蓄刺客
+    labels:
+      zh: 以百金结专诸待机
+    start_date: '-0516'
+    highlight_event_id: guji-阖闾-event-ascend
+  - key: breakthrough
+    name: 炙鱼进匕首
+    labels:
+      zh: 专诸刺僚一举成功
+    start_date: '-0514'
+    highlight_event_id: guji-阖闾-event-ascend
+  - key: climax
+    name: 子光即位
+    labels:
+      zh: 即位号阖闾
+    start_date: '-0514'
+    highlight_event_id: guji-阖闾-event-ascend
+  - key: closure
+    name: 季子服膺安祀
+    labels:
+      zh: 哭僚而奉新君保社稷
+    start_date: '-0511'
+    highlight_event_id: guji-阖闾-event-ascend
+  decisions:
+  - date: '-0514'
+    title_zh: 以百金令专诸进鱼刺僚
+    rationale: 僚好炙鱼非专诸炙不食故置匕首于鱼腹中以乘其不备
+  - date: '-0511'
+    title_zh: 谢过于季子以安宗祀
+    rationale: 季子历聘三国归而匍匐哭僚唯奉先君祀不废者为君故谢过以结其心
+- id: guji-阖闾-endeavor-2
+  title_zh: 任胥筑城破楚强吴
+  summary: 任伍子胥筑阖闾大城周回四十二里以象天象地开阊门以出师伐楚扬威
+  phases:
+  - key: brewing
+    name: 任用伍子胥
+    labels:
+      zh: 得楚亡臣以图霸
+    start_date: '-0514'
+    highlight_event_id: guji-阖闾-event-build
+  - key: breakthrough
+    name: 筑阖闾城
+    labels:
+      zh: 周敬王六年筑大城
+    start_date: '-0514'
+    highlight_event_id: guji-阖闾-event-build
+  - key: climax
+    name: 破楚门出师
+    labels:
+      zh: 自阊门大军伐楚
+    start_date: '-0506'
+    highlight_event_id: guji-阖闾-event-pochu
+  - key: closure
+    name: 葬虎丘留形胜
+    labels:
+      zh: 发众治冢白虎踞上
+    start_date: -0496
+    highlight_event_id: guji-阖闾-event-death
+  decisions:
+  - date: '-0514'
+    title_zh: 命伍子胥筑大小二城
+    rationale: 大城周回四十二里三十步小城八里二百六十步陆门水门各八以应天风地卦而绝东门以绝越
+  - date: '-0506'
+    title_zh: 自阊门出大军伐楚
+    rationale: 号阊门为破楚门以励将士乘吴楚之仇一举破郢以雪耻而振全吴
+events:
+- id: guji-阖闾-event-birth
+  title_zh: 公子光诞生
+  date: '-0540'
+  year_of: -540
+  place_zh: 吴国梅里
+  description: 诸樊之子光生是为后之吴王阖闾吴人谓之子光
+- id: guji-阖闾-event-ascend
+  title_zh: 专诸刺僚子光立
+  date: '-0514'
+  year_of: -514
+  place_zh: 吴都宫中
+  description: 子光潜以百金令专诸进炙鱼藏匕首于鱼中以刺王僚僚死子光篡立是为阖闾
+- id: guji-阖闾-event-build
+  title_zh: 命伍子胥筑阖闾城
+  date: '-0514'
+  year_of: -514
+  place_zh: 吴都平门西北
+  description: 周敬王六年命伍子胥筑阖闾城大城周回四十二里三十步陆门八以象天八风水门八以象地八卦西置阊胥二门
+- id: guji-阖闾-event-pochu
+  title_zh: 自破楚门出师伐楚
+  date: '-0506'
+  year_of: -506
+  place_zh: 阊门外道
+  description: 吴伐楚大军从阊门出故号破楚门陆机诗言阊门势嵯峨飞阁跨通波即此役之威
+- id: guji-阖闾-event-death
+  title_zh: 阖闾卒葬虎丘
+  date: -0496
+  year_of: -496
+  place_zh: 虎丘山
+  description: 阖闾葬虎丘发五郡之人作冢铜椁三重葬经三日白虎踞上又云金精化为白虎故名虎丘
