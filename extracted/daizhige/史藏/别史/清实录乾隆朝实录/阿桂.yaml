@@ -9,7 +9,7 @@ person:
       date: 1717-09-07
       precision: day
       is_circa: false
-      raw: 康熙五十六年八月初二
+      raw: 康熙五十六年七月
     death:
       date: 1797-10-10
       precision: day
@@ -17,127 +17,110 @@ person:
       raw: 嘉庆二年八月十九
   birth_date: 1717-09-07
   death_date: 1797-10-10
-  era: 清
-  reign_ref: 乾隆三十八年癸巳
-  archetype: 经略名将
+  era: 清朝
+  reign_ref: 乾隆
+  archetype: 军功重臣
   dilemmas:
-  - 雪雾弥山炮碉相持欲速攻与务万全之难
-  - 绰斯甲布需援而黔省亦需留兵弹压之难
-  lesson: 审形用炮分路断联慎进务求万全制胜
-  summary_first_person: 吾督师西路以炮摧当噶尔拉诸碉分兵夜取纳围断其联络虽雪雾塞山亦相机进剿保举奋勇之将通筹各路援应以期克捷金川
+  - 雪雾泥泞中强攻坚碉与爱惜士卒之权衡
+  - 穷追猛打速取噶拉依与分化招降献出僧格桑之取舍
+  lesson: 乘时努力，相机制胜，群逆罪盈而不稍延缓，方能事半功倍
+  summary_first_person: 我是阿桂，章佳氏出身，久历西陲军务，乾隆三十八年夏与温福分路进剿大小金川，我在西路主持围攻纳围纳扎木诸碉，于雪雾大雨中觅间分扑，讯鞫脱出番人以察瘟疫离心之机，力主乘暄暖深入不稍延缓
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70928.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70928.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70932.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70932.md
 endeavors:
 - id: guji-阿桂-endeavor-1
-  title_zh: 当噶尔拉纳围炮攻断联
-  summary: 督西路以炮逼当噶尔拉纳扎木诸碉分兵夜袭夺占第五碉中断联络之势
+  title_zh: 西路围攻纳围纳扎木坚碉
+  description: 乾隆三十八年夏在小金川金川交界主持攻打纳围第六碉与纳扎木第三碉，于第一第七碉正面接拏卡栅，拟于山梁东西分扑，使贼无从揣度
   phases:
   - key: brewing
-    name: 前设炮台逼碉摧击
+    name: 接栅逼碉筹划
     labels:
-      zh:
-      - 筑炮台
-      - 炮战逼近
-    start_date: 1773-03-01
-    highlight_event_id: guji-阿桂-event-paohong
+      zh: 筑栅进逼
+    start_date: 1773-04-01
+    highlight_event_id: guji-阿桂-event-nazhamu
   - key: breakthrough
-    name: 分兵四路夜袭纳围
+    name: 雪雾觅间分扑
     labels:
-      zh:
-      - 夜袭
-      - 夺碉
-    start_date: 1773-04-16
-    highlight_event_id: guji-阿桂-event-duodiao
+      zh: 分路攻坚
+    start_date: 1773-05-01
+    highlight_event_id: guji-阿桂-event-nazhamu
   - key: climax
-    name: 夺占第五碉断联络
+    name: 大雨夜战夺卡
     labels:
-      zh:
-      - 攻坚
-      - 截断
-    start_date: 1773-04-17
-    highlight_event_id: guji-阿桂-event-duodiao
+      zh: 雨夜突击
+    start_date: 1773-05-11
+    highlight_event_id: guji-阿桂-event-yuxi
   - key: closure
-    name: 奏捷议叙出力将弁
+    name: 直指噶拉依部署
     labels:
-      zh:
-      - 奏捷
-      - 议叙
-    start_date: 1773-04-20
-    highlight_event_id: guji-阿桂-event-duodiao
+      zh: 深入善后
+    start_date: 1773-05-22
+    highlight_event_id: guji-阿桂-event-yuxi
   decisions:
-  - date: 1773-03-01
-    title_zh: 炮台前设分头摧击
-    rationale: 使贼不知从何进攻渐摧颓碉以待晴进攻
-  - date: 1773-04-16
-    title_zh: 分兵绕截分攻纳围
-    rationale: 乘碉联络未固拔栏越壕刨根夺碉以断东西之势
+  - date: 1773-05-22
+    title_zh: 于第一第七碉正面接拏卡栅东西分扑
+    rationale: 使贼人无从揣度，正办攻坚，步步为营以夺要隘
+  - date: 1773-05-11
+    title_zh: 乘大雨雪雾夜袭，不因天寒稍缓
+    rationale: 夏令渐暄雪渐消化，当乘时努力，否则群逆久稽显戮
 - id: guji-阿桂-endeavor-2
-  title_zh: 筹援绰斯甲布兼保滇将
-  summary: 请调黔兵赴绰斯甲布备用通筹川黔兵力并保奋勇滇将署昭通镇以励军心
+  title_zh: 讯俘察疫分化群逆
+  description: 讯革布什咱脱出番人得勒乌围噶拉依人畜瘟死，又得小金川番人供称百姓视僧格桑为祸根，研判索诺木等久蓄献出僧格桑自解之心，仍坚持穷追不稍延缓
   phases:
   - key: brewing
-    name: 请调黔兵二千备用
+    name: 收抚脱出番人
     labels:
-      zh:
-      - 请兵
-      - 筹援
-    start_date: 1773-04-18
-    highlight_event_id: guji-阿桂-event-baoju
+      zh: 讯俘察情
+    start_date: 1773-04-15
+    highlight_event_id: guji-阿桂-event-yuxi
   - key: breakthrough
-    name: 川兵拨补议停黔调
+    name: 得瘟疫离心确信
     labels:
-      zh:
-      - 通筹
-      - 节制
-    start_date: 1773-04-20
-    highlight_event_id: guji-阿桂-event-baoju
+      zh: 研判离心
+    start_date: 1773-05-11
+    highlight_event_id: guji-阿桂-event-yuxi
   - key: climax
-    name: 保举斐慎署昭通镇
+    name: 奏陈灭亡之兆
     labels:
-      zh:
-      - 保举
-      - 激励
-    start_date: 1773-04-21
-    highlight_event_id: guji-阿桂-event-baoju
+      zh: 奏报军机
+    start_date: 1773-05-22
+    highlight_event_id: guji-阿桂-event-nazhamu
   - key: closure
-    name: 札商各路万全协剿
+    name: 定策穷追勿缓
     labels:
-      zh:
-      - 会商
-      - 万全
-    start_date: 1773-04-22
-    highlight_event_id: guji-阿桂-event-baoju
+      zh: 穷追定策
+    start_date: 1773-06-01
+    highlight_event_id: guji-阿桂-event-nazhamu
   decisions:
-  - date: 1773-04-18
-    title_zh: 请豫挑黔兵听调
-    rationale: 恐绰斯甲布兵单豫备援应以资进剿
-  - date: 1773-04-21
-    title_zh: 保斐慎升署昭通镇
-    rationale: 其自甲尔木至美诺节经奋勉宜加鼓励以劝效力
+  - date: 1773-05-11
+    title_zh: 以瘟死离心为灭亡兆仍主进剿
+    rationale: 群逆罪恶贯盈自取灭亡，更当努力深入，不可因此稍有延缓
+  - date: 1773-05-22
+    title_zh: 预判窘迫时献僧格桑而不中止攻势
+    rationale: 屡奉谕旨甚明，胸有定见，使献俘解免之谋不得苟延
 events:
 - id: guji-阿桂-event-birth
+  title_zh: 阿桂诞生于京师
   date: 1717-09-07
   year_of: 1717
-  title_zh: 阿桂诞生
-  description: 康熙五十六年八月初二生于京师章佳氏家
-- id: guji-阿桂-event-paohong
-  date: 1773-03-01
-  year_of: 1773
-  title_zh: 炮轰当噶尔拉贼碉
-  description: 督率官兵用炮轰击当噶尔拉纳扎木贼碉前设营盘炮台续造大炮三位分头摧击碉渐颓毁因雪雾俟晴进攻
-- id: guji-阿桂-event-duodiao
-  date: 1773-04-16
-  year_of: 1773
-  title_zh: 夜取纳围第五碉
-  description: 二月二十五日夜分兵四路攻碉三宝绥库等拔栏越壕推倒石墙刨挖碉根斩贼五十七名夺占自西而东第五碉断其联络
-- id: guji-阿桂-event-baoju
-  date: 1773-04-21
-  year_of: 1773
-  title_zh: 保斐慎署昭通镇并筹黔兵
-  description: 以滕越副将斐慎奋勉进剿请升署云南昭通镇总兵并请调黔兵二千赴绰斯甲布备用奉旨通盘札商办理
+  place_zh: 京师
+  description: 康熙五十六年生，章佳氏，阿克敦之子，后以军功起家
 - id: guji-阿桂-event-death
+  title_zh: 阿桂病卒于京师
   date: 1797-10-10
   year_of: 1797
-  title_zh: 阿桂病逝
-  description: 嘉庆二年八月十九病逝于京师谥文成配享太庙
+  place_zh: 京师
+  description: 嘉庆二年八月病卒，历乾隆嘉庆两朝，赠太子太保，入祀贤良祠
+- id: guji-阿桂-event-nazhamu
+  title_zh: 奏陈现攻纳围第六碉纳扎木第三碉
+  date: 1773-05-22
+  year_of: 1773
+  place_zh: 小金川纳围纳扎木
+  description: 乾隆三十八年四月奏称于第一第七碉正面接拏卡栅，拟觅间于山梁东西分扑，得旨以为正办，饬乘暄暖努力
+- id: guji-阿桂-event-yuxi
+  title_zh: 二十日夜乘大雨进兵并讯瘟疫离心
+  date: 1773-05-11
+  year_of: 1773
+  place_zh: 革布什咱金川军营
+  description: 官兵乘大雨行动，讯脱出番人供称勒乌围噶拉依人畜瘟死，萨布嘉供称百姓欲早献僧格桑，研判群逆将献僧格桑自解，仍主穷追
