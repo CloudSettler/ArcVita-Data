@@ -1,0 +1,106 @@
+person:
+  qid: guji-巩简公
+  name_zh: 巩简公
+  names:
+    zh: 巩简公
+    en: Gong Jiangong
+  lifespan:
+    birth:
+      date: -0550-01-01
+      precision: year
+      is_circa: true
+      raw: 春秋末期约公元前五百五十年生于周室卿士之家
+    death:
+      date: -0490-01-01
+      precision: year
+      is_circa: true
+      raw: 周敬王时期执政改革为贵戚所害
+  birth_date: -0550-01-01
+  death_date: -0490-01-01
+  era: 春秋末期
+  reign_ref: 周敬王
+  archetype: 破格唯才的改革孤臣
+  dilemmas:
+  - 维护贵族既得利益还是破格任用寒俊之才
+  - 面对诋毁威胁是屈从保身还是守志不改以身殉改
+  lesson: 唯才破格虽一时招忌而能开后世巩氏一宗之远脉
+  summary_first_person: 吾世为周朝卿士封邑在巩因念春秋内乱皆由贵族权重故掌朝政而励志改革破血统论资之旧格而拔寒俊贵戚衔恨诋毁威胁不能移吾志终为所害子孙以封地巩为姓奉吾为始祖绵延至今
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B7%A9%E6%B0%8F%E6%97%8F%E8%B0%B1.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%B7%A9%E6%B0%8F%E6%97%8F%E8%B0%B1.html
+endeavors:
+- id: guji-巩简公-endeavor-1
+  title_zh: 执掌朝政推行破格用人之改
+  summary: 鉴于春秋内乱多因贵族权重而破格录用有才之寒士打破以血统论资排辈之旧制
+  phases:
+  - key: brewing
+    name: 袭卿士家世而观内乱之弊
+    labels:
+      zh: 酝酿
+    start_date: -0519-01-01
+    highlight_event_id: guji-巩简公-event-reform
+  - key: breakthrough
+    name: 破血统之限而拔寒俊授事
+    labels:
+      zh: 突破
+    start_date: -0515-01-01
+    highlight_event_id: guji-巩简公-event-reform
+  decisions:
+  - date: -0515-01-01
+    title_zh: 打破血统标准录用寒俊
+    rationale: 贵族权重则内乱不止唯才是举方能安邦故不拘门第以才授官
+  - date: -0512-01-01
+    title_zh: 面对贵族诋毁威胁不改其志
+    rationale: 改革利国利民虽损贵戚既得之利亦不可半途而废故坚守立场
+- id: guji-巩简公-endeavor-2
+  title_zh: 以身殉改开巩氏以邑为姓之脉
+  summary: 遇害之后子孙感其志而以封地巩为氏奉为始祖使巩氏与周王同宗绵延不绝
+  phases:
+  - key: climax
+    name: 遭贵戚忌恨而以身殉志
+    labels:
+      zh: 高潮
+    start_date: -0492-01-01
+    highlight_event_id: guji-巩简公-event-persecution
+  - key: closure
+    name: 子孙以巩为氏而奉为始祖
+    labels:
+      zh: 落定
+    start_date: -0490-01-01
+    highlight_event_id: guji-巩简公-event-death
+  decisions:
+  - date: -0492-01-01
+    title_zh: 宁殒身而不屈从贵戚
+    rationale: 若屈从则改革尽废前功尽弃故舍身以全志为后世存风骨
+  - date: -0490-01-01
+    title_zh: 遗命子孙以巩邑为姓
+    rationale: 以封地为姓既彰改革之源又使宗族有托故立巩氏以传久远
+events:
+- id: guji-巩简公-event-birth
+  type: birth
+  date: -0550-01-01
+  year_of: -550
+  title_zh: 生于周室卿士世家
+  description: 祖世为周朝卿士贵族生而习于朝政见春秋内乱之弊
+  related_endeavor_id: guji-巩简公-endeavor-1
+- id: guji-巩简公-event-reform
+  type: career
+  date: -0515-01-01
+  year_of: -515
+  title_zh: 执掌朝政推行用人改革
+  description: 周敬王时掌朝政励志改革破格录用非贵族血统之才俊为中国最早改革家之一
+  related_endeavor_id: guji-巩简公-endeavor-1
+- id: guji-巩简公-event-persecution
+  type: career
+  date: -0492-01-01
+  year_of: -492
+  title_zh: 损贵戚之利而遭诋毁威胁
+  description: 改革损坏王公贵族既得利益彼等千方诋毁甚至威胁然终不改其立场
+  related_endeavor_id: guji-巩简公-endeavor-2
+- id: guji-巩简公-event-death
+  type: death
+  date: -0490-01-01
+  year_of: -490
+  title_zh: 为贵戚暗害子孙以巩为氏
+  description: 终为贵戚阴害而殒命子孙以其封地巩邑为姓奉巩简公为巩姓始祖
+  related_endeavor_id: guji-巩简公-endeavor-2
