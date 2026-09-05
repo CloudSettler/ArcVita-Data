@@ -3,13 +3,13 @@ person:
   name_zh: 玄烨
   names:
     zh: 玄烨
-    en: Xuanye Kangxi Emperor
+    en: Kangxi Emperor
   lifespan:
     birth:
       date: 1654-05-04
       precision: day
       is_circa: false
-      raw: 顺治十一年三月十八日
+      raw: 顺治十一年三月十八日巳时景仁宫
     death:
       date: 1722-12-20
       precision: day
@@ -19,122 +19,157 @@ person:
   death_date: 1722-12-20
   era: 清
   reign_ref: 康熙
-  archetype: 圣君裁史型
+  archetype: 守成兼开创之圣君
   dilemmas:
-  - title_zh: 表多缺而史繁如何提要
-    description_zh: 历代之史具而表多缺，代远文繁观者易忘，需别为一体以提其要而致详
-  - title_zh: 初稿勤而业未竟如何成全帙
-    description_zh: 龚士炯所进年表起陶唐终于隋用心虽勤而辑未成，需命廷臣续讫元末并亲加裁定
-  lesson: 以表提史以要御繁，历世久远则别立一体，同条共贯使数十年如一篇
-  summary_first_person: 朕南巡吴中得儒生龚士炯所编历代年表，惜其用心勤而业未竟，乃命周清原王之枢续讫元至正之末，亲加裁定复考正三元甲子列诸简端，成百卷以备史一体
+  - 幼冲践阼辅政专权隐忍待时与提前亲政之难
+  - 三藩尾大撤亦反不撤亦反决战与姑息之抉择
+  - 漠北噶尔丹远窜亲征劳师与命将安内之衡
+  lesson: 敬天尊祖孝亲勤政以仁育民以武定乱以文教化成
+  summary_first_person: 朕玄烨六龄践阼亲理万机六十一年平三逆收台湾定漠北治淮黄兴文教以臻熙洽
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/御定歴代纪事年表.md
-  - https://daizhige.org/史藏/别史/御定歴代纪事年表.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/history/other/qing-shilu-kangxi.md
+  - https://daizhige.org/history/other/qing-shilu-kangxi.html
 endeavors:
 - id: guji-玄烨-endeavor-1
-  title_zh: 发起续修历代纪事年表成百卷
-  summary_zh: 自康熙四十四年南巡得初稿，命周清原王之枢续修讫元至正之末，历康熙四十六年至五十一年告竣
+  title_zh: 亲政除权臣平三藩收台湾
+  summary: 隐忍积学计擒鳌拜决计撤藩八年平定收台湾设府县以定东南一统
   phases:
   - key: brewing
-    name: 南巡得表
+    name: 幼主践阼辅政积学
     labels:
-      zh: 酝酿得表
-    start_date: 1705-03-01
-    highlight_event_id: guji-玄烨-event-1705-nanxun
+      zh:
+      - 辅政
+      - 积学
+    start_date: 1661-02-05
+    highlight_event_id: guji-玄烨-event-enthronement
   - key: breakthrough
-    name: 奉命续纂
+    name: 计擒鳌拜亲理万机
     labels:
-      zh: 突破续修
-    start_date: 1707-01-01
-    highlight_event_id: guji-玄烨-event-1707-xuxiu
+      zh:
+      - 除权臣
+      - 亲政
+    start_date: 1669-05-16
+    highlight_event_id: guji-玄烨-event-qinzheng
   - key: climax
-    name: 乙夜亲览
+    name: 决计撤藩八年荡平三逆
     labels:
-      zh: 高潮亲裁
-    start_date: 1711-01-01
-    highlight_event_id: guji-玄烨-event-1712-jincheng
+      zh:
+      - 平三藩
+      - 统一
+    start_date: 1673-12-28
+    highlight_event_id: guji-玄烨-event-pingsanfan
   - key: closure
-    name: 进呈告竣
+    name: 克澎湖定台湾设府县
     labels:
-      zh: 收束进呈
-    start_date: 1712-05-11
-    highlight_event_id: guji-玄烨-event-1712-jincheng
+      zh:
+      - 收台湾
+      - 海疆
+    start_date: 1683-10-07
+    highlight_event_id: guji-玄烨-event-taiwan
   decisions:
-  - date: 1705-03-01
-    title_zh: 惜勤命续
-    rationale: 见龚士炯表起陶唐终于隋例粗具而未成，惜其勤而命廷臣续成全史
-  - date: 1707-01-01
-    title_zh: 以斯书授王之枢
-    rationale: 周清原身逝事殷，重颁睿虑令王之枢家居设局积岁成书，保博约咸宜
+  - date: 1669-05-16
+    title_zh: 密谋计擒鳌拜
+    rationale: 辅臣专擅久假不归密练少年侍卫出其不意擒拿以收君权
+  - date: 1673-11-28
+    title_zh: 力排众议决计撤藩
+    rationale: 三藩拥兵据地尾大不掉迁之內地可弭后患纵煽乱亦可一鼓荡平以成一统
 - id: guji-玄烨-endeavor-2
-  title_zh: 亲定表例考正三元甲子
-  summary_zh: 依仿诸史而别体，王侯宰辅外蕃附帝纪之下，每事皆系，考正三元甲子编年列简端，御序明大指
+  title_zh: 三征噶尔丹治河工兴文教
+  summary: 三临朔漠歼噶尔丹定喀尔喀亲阅河工开中河筑高堰尊儒崇学以成久道化成之治
   phases:
   - key: brewing
-    name: 依仿诸史
+    name: 北患渐起经略漠北
     labels:
-      zh: 酝酿立法
-    start_date: 1707-01-01
-    highlight_event_id: guji-玄烨-event-1707-xuxiu
+      zh:
+      - 朔漠
+      - 经略
+    start_date: 1688-07-30
+    highlight_event_id: guji-玄烨-event-pingsanfan
   - key: breakthrough
-    name: 别立新式
+    name: 亲征昭莫多歼其精锐
     labels:
-      zh: 突破变格
-    start_date: 1711-01-01
-    highlight_event_id: guji-玄烨-event-1712-jincheng
+      zh:
+      - 亲征
+      - 昭莫多
+    start_date: 1696-06-12
+    highlight_event_id: guji-玄烨-event-zhengmo
   - key: climax
-    name: 亲加裁定
+    name: 亲阅河工淮黄底绩
     labels:
-      zh: 高潮裁定
-    start_date: 1712-05-11
-    highlight_event_id: guji-玄烨-event-1712-jincheng
+      zh:
+      - 河工
+      - 淮黄
+    start_date: 1698-04-10
+    highlight_event_id: guji-玄烨-event-hewu
   - key: closure
-    name: 御序刊行
+    name: 尊儒崇学久道化成
     labels:
-      zh: 收束颁序
-    start_date: 1715-04-24
-    highlight_event_id: guji-玄烨-event-1715-yuxu
+      zh:
+      - 文教
+      - 儒术
+    start_date: 1712-03-15
+    highlight_event_id: guji-玄烨-event-hewu
   decisions:
-  - date: 1711-01-01
-    title_zh: 每事皆系不止大事
-    rationale: 旧表独载废置征伐之大者，今每事皆系以便参稽，使割据之世井然不紊
-  - date: 1715-04-24
-    title_zh: 考正甲子为序明指
-    rationale: 代远文繁易遗忘，考正三元甲子列简端，取袁枢本末与通鉴表里之意备史一体
+  - date: 1696-03-05
+    title_zh: 决意御驾亲征噶尔丹
+    rationale: 寇深入乌珠穆沁非天子亲临不能壮军威断其归路一举荡平以安藩服
+  - date: 1698-04-10
+    title_zh: 亲临指授开中河筑高堰
+    rationale: 黄淮淤决运道民生攸关亲览形势运疏瀹之法以保东南衽席万世永赖
 events:
 - id: guji-玄烨-event-birth
-  title_zh: 生于景仁宫
+  title_zh: 诞生于景仁宫
+  type: birth
   date: 1654-05-04
   year_of: 1654
   place_zh: 北京紫禁城景仁宫
-  description_zh: 顺治十一年三月十八日生，为第三子，后即皇帝位年号康熙
-- id: guji-玄烨-event-1705-nanxun
-  title_zh: 南巡得龚士炯年表
-  date: 1705-03-01
-  year_of: 1705
-  place_zh: 江苏吴地行在
-  description_zh: 康熙四十四年春南巡，儒生龚士炯进所编历代年表起陶唐终于隋，惜其勤而业未竟
-- id: guji-玄烨-event-1707-xuxiu
-  title_zh: 命周清原王之枢续修
-  date: 1707-01-01
-  year_of: 1707
-  place_zh: 北京内阁
-  description_zh: 命侍郎周清原内阁学士王之枢续修讫元至正之末凡百卷，王之枢自康熙四十六年奉命设局编集
-- id: guji-玄烨-event-1712-jincheng
-  title_zh: 王之枢进呈百卷
-  date: 1712-05-11
-  year_of: 1712
-  place_zh: 北京畅春园
-  description_zh: 康熙五十一年四月初七王之枢表随进，屡蒙乙夜亲览载损载增，天时统上有伦人事纪中不淆
-- id: guji-玄烨-event-1715-yuxu
-  title_zh: 御制历代纪事年表序
-  date: 1715-04-24
-  year_of: 1715
-  place_zh: 北京翰林院
-  description_zh: 康熙五十四年四月二十四日御序，论尚书春秋体与史记年表变例，命马豫锓板告竣
+  summary: 顺治十一年三月十八日巳时孝康章皇后诞玄烨合宫异香五色光气充溢庭户
+- id: guji-玄烨-event-enthronement
+  title_zh: 顺治十八年正月初九即皇帝位
+  type: career
+  date: 1661-02-05
+  year_of: 1661
+  place_zh: 北京太和殿
+  summary: 世祖宾天遵遗诏立为皇太子即皇帝位命索尼苏克萨哈遏必隆鳌拜辅政颁诏大赦
+- id: guji-玄烨-event-qinzheng
+  title_zh: 计擒鳌拜开始亲政
+  type: career
+  date: 1669-05-16
+  year_of: 1669
+  place_zh: 北京宫中
+  summary: 密谋以少年侍卫擒鳌拜亲理万机临轩召对虚己求言纲举目张
+- id: guji-玄烨-event-pingsanfan
+  title_zh: 平定三藩荡定滇黔闽粤
+  type: career
+  date: 1681-12-13
+  year_of: 1681
+  place_zh: 云南昆明
+  summary: 自撤藩吴三桂反历八年命将调兵筹饷克复湖南四川广东福建云南以一统寰区
+- id: guji-玄烨-event-taiwan
+  title_zh: 施琅平台湾设府县
+  type: career
+  date: 1683-10-07
+  year_of: 1683
+  place_zh: 福建台湾澎湖
+  summary: 命施琅克澎湖郑克塽归诚设台湾府县收台澎入版图南疆底定
+- id: guji-玄烨-event-zhengmo
+  title_zh: 亲征朔漠昭莫多大捷
+  type: career
+  date: 1696-06-12
+  year_of: 1696
+  place_zh: 漠北昭莫多
+  summary: 躬率六师三临朔漠昭莫多歼噶尔丹精锐复定喀尔喀藩服乂安
+- id: guji-玄烨-event-hewu
+  title_zh: 亲阅河工淮黄底绩
+  type: career
+  date: 1698-04-10
+  year_of: 1698
+  place_zh: 淮黄运河永定河
+  summary: 亲临指授开中河筑高堰浚永定堤子牙东南获安畿甸享利地平天成
 - id: guji-玄烨-event-death
-  title_zh: 崩于畅春园
+  title_zh: 康熙六十一年升遐
+  type: death
   date: 1722-12-20
   year_of: 1722
-  place_zh: 北京畅春园清溪书屋
-  description_zh: 康熙六十一年十一月十三日崩，在位六十一年，御定诸书后付刊行垂为盛典
+  place_zh: 北京畅春园
+  summary: 临御六十一年仁渐义摩文经武纬升遐之日远近哀号庙谥圣祖仁皇帝
