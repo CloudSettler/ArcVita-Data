@@ -1,0 +1,143 @@
+person:
+  qid: guji-郦道元
+  name_zh: 郦道元
+  names:
+    zh: 郦道元
+    en: Li Daoyuan
+  lifespan:
+    birth:
+      date: '0466'
+      precision: year
+      is_circa: true
+      raw: 北魏太安年间约生于范阳涿县
+    death:
+      date: '0527'
+      precision: year
+      is_circa: false
+      raw: 北魏孝昌三年被害于雍州
+  birth_date: '0466'
+  death_date: '0527'
+  era: 北魏
+  reign_ref: 孝文帝至孝明帝
+  archetype: 博览求实之地理学家
+  dilemmas:
+  - 经文简略而山川浩繁如何博采补阙而不失实
+  - 执法刚直而权豪盘踞如何秉正不阿而自全
+  lesson: 穷源竟流必博采群书而断以实见足至心细方能成不朽之志
+  summary_first_person: 吾郦道元字善长范阳涿县人也生于北魏幼好学喜游山水历仕数朝执法严毅后以桑钦水经为纲采经传百余家附以见闻成水经注四十卷虽殉职雍州而此注得传山川自此有纲
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B0%B4%E7%BB%8F%E6%B3%A8.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B0%B4%E7%BB%8F%E6%B3%A8.md
+  - https://zh.wikisource.org/wiki/%E6%B0%B4%E7%B6%93%E6%B3%A8
+endeavors:
+- id: guji-郦道元-endeavor-1
+  title_zh: 注解水经撰成水经注
+  summary_zh: 以水经为纲博采经传耆旧见闻实察山川成四十卷地理巨著
+  phases:
+  - key: brewing
+    name: 博览群书喜游山水
+    labels:
+      zh:
+      - 博览
+      - 游历
+    start_date: 0480
+    highlight_event_id: guji-郦道元-event-birth
+  - key: breakthrough
+    name: 得水经原文立意作注
+    labels:
+      zh:
+      - 立志
+      - 考据
+    start_date: '0505'
+    highlight_event_id: guji-郦道元-event-inspect
+  - key: climax
+    name: 遍注河流考证昆仑河源
+    labels:
+      zh:
+      - 注经
+      - 辨源
+    start_date: '0515'
+    highlight_event_id: guji-郦道元-event-shuijingzhu
+  - key: closure
+    name: 四十卷注成传于后世
+    labels:
+      zh:
+      - 成书
+      - 传世
+    start_date: '0525'
+    highlight_event_id: guji-郦道元-event-shuijingzhu
+  decisions:
+  - date: '0505'
+    title_zh: 以简略水经为经作大规模注释
+    rationale: 水经过于简略而山川古今变迁宏大非广注不足以明水道故遍采群书以成全志
+  - date: '0515'
+    title_zh: 兼采西域记穆天子传而以实证辨差违
+    rationale: 昆仑河源诸说纷纭空言无据故录法显康泰诸家之说而以地脉道里验其是非存闻见以志差违
+- id: guji-郦道元-endeavor-2
+  title_zh: 仕魏执法巡察四方
+  summary_zh: 历任给事中御史中尉等职执法严峻出使巡行不避权豪
+  phases:
+  - key: brewing
+    name: 初仕北魏累迁清要
+    labels:
+      zh:
+      - 入仕
+      - 历练
+    start_date: 0488
+    highlight_event_id: guji-郦道元-event-inspect
+  - key: breakthrough
+    name: 任御史中尉执法严明
+    labels:
+      zh:
+      - 执法
+      - 纠劾
+    start_date: 0509
+    highlight_event_id: guji-郦道元-event-inspect
+  - key: climax
+    name: 出按雍州抚慰关右
+    labels:
+      zh:
+      - 巡按
+      - 安民
+    start_date: '0526'
+    highlight_event_id: guji-郦道元-event-death
+  - key: closure
+    name: 遭部将杀害殉职
+    labels:
+      zh:
+      - 殉职
+      - 身后名显
+    start_date: '0527'
+    highlight_event_id: guji-郦道元-event-death
+  decisions:
+  - date: 0509
+    title_zh: 秉公纠劾不避贵戚
+    rationale: 守官当以法为纲若徇私废法则纲纪尽坏故宁犯权豪不负所职
+  - date: '0526'
+    title_zh: 受命抚慰关右深入险地
+    rationale: 雍州流民反侧朝廷需重臣安抚虽知时局艰险而义不辞难故毅然前往
+events:
+- id: guji-郦道元-event-birth
+  title_zh: 生于范阳涿县郦氏
+  date: '0466'
+  year_of: 466
+  place_zh: 范阳涿县
+  description: 北魏范阳涿县郦氏子弟自幼好学博览奇书留心水土
+- id: guji-郦道元-event-inspect
+  title_zh: 历官御史中尉巡察州郡
+  date: 0509
+  year_of: 509
+  place_zh: 洛阳
+  description: 任御史中尉执法严峻不避权豪屡奉使巡行州郡观览水道为作注积累见闻
+- id: guji-郦道元-event-shuijingzhu
+  title_zh: 撰成水经注四十卷
+  date: '0525'
+  year_of: 525
+  place_zh: 洛阳
+  description: 以桑钦水经为纲引经传子史地志游记数百种考证天下水道注河水昆仑源流辨析经记差违成地理巨著
+- id: guji-郦道元-event-death
+  title_zh: 被害于雍州
+  date: '0527'
+  year_of: 527
+  place_zh: 雍州
+  description: 出使安抚关右为萧宝夤部将所害水经注传于后世为中国古代地理名著

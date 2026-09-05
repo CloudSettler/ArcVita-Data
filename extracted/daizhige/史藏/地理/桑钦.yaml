@@ -1,0 +1,145 @@
+person:
+  qid: guji-桑钦
+  name_zh: 桑钦
+  names:
+    zh: 桑钦
+    en: Sang Qin
+  lifespan:
+    birth:
+      date: -50
+      precision: year
+      is_circa: true
+      raw: 约汉宣帝前后生
+    death:
+      date: -10
+      precision: year
+      is_circa: true
+      raw: 约汉哀帝前后卒
+  birth_date: -50
+  death_date: -10
+  era: 西汉
+  reign_ref: 汉成哀间
+  archetype: 地理水道编录者
+  dilemmas:
+  - 文献散佚而水道浩繁难求统绪
+  - 未能亲历万里而须断定河源去向
+  lesson: 考水道当循源至委详记分合以存实录
+  summary_first_person: 吾生逢汉室有志山川搜集图志询访津吏考定源流遂作水经以记天下河渎
+  source_urls:
+  - https://daizhige.org/史藏/地理/水经.html
+endeavors:
+- id: guji-桑钦-endeavor-1
+  title_zh: 搜集图志编撰水经
+  description: 博采汉代图籍与郡国奏记考定一百余水源流分合编成水经以总天下水道
+  phases:
+  - key: brewing
+    name: 搜集汉图籍与郡国水奏
+    labels:
+      zh:
+      - 搜集
+      - 览图
+    start_date: -35
+    highlight_event_id: guji-桑钦-event-survey
+  - key: breakthrough
+    name: 厘定大河与四渎纲领
+    labels:
+      zh:
+      - 厘定
+      - 立纲
+    start_date: -28
+    highlight_event_id: guji-桑钦-event-survey
+  - key: climax
+    name: 次第记述诸水入海归宿
+    labels:
+      zh:
+      - 编次
+      - 成书
+    start_date: -22
+    highlight_event_id: guji-桑钦-event-compose
+  - key: closure
+    name: 定稿水经传示后学
+    labels:
+      zh:
+      - 定稿
+      - 传授
+    start_date: -15
+    highlight_event_id: guji-桑钦-event-compose
+  decisions:
+  - date: -28
+    title_zh: 以河为纲先述河水
+    rationale: 河源最远支流最繁先定河渎则诸水可附
+  - date: -22
+    title_zh: 略山川人物专记水道
+    rationale: 欲使源委分合一目了然故不杂山经职官
+- id: guji-桑钦-endeavor-2
+  title_zh: 考定黄河九河源委
+  description: 追溯昆仑积石至渤海之河道辨析屯氏别渎与漯水济渎分合以正旧说
+  phases:
+  - key: brewing
+    name: 汇集河渠使者见闻
+    labels:
+      zh:
+      - 访询
+      - 核对
+    start_date: -30
+    highlight_event_id: guji-桑钦-event-survey
+  - key: breakthrough
+    name: 辨析南北二河与九河故道
+    labels:
+      zh:
+      - 辨析
+      - 考据
+    start_date: -25
+    highlight_event_id: guji-桑钦-event-river
+  - key: climax
+    name: 记述河水分合与济漯相通
+    labels:
+      zh:
+      - 记述
+      - 贯通
+    start_date: -20
+    highlight_event_id: guji-桑钦-event-river
+  - key: closure
+    name: 完成河漯济渎记注
+    labels:
+      zh:
+      - 总结
+      - 存录
+    start_date: -15
+    highlight_event_id: guji-桑钦-event-compose
+  decisions:
+  - date: -25
+    title_zh: 存九河故渎不没前迹
+    rationale: 虽河徙道改犹存故渎以备考证
+  - date: -20
+    title_zh: 详录济水重源并行
+    rationale: 济有南北分合与河相乱非详记不能别
+events:
+- id: guji-桑钦-event-birth
+  date: -50
+  year_of: -50
+  title_zh: 桑钦出生
+  description: 约汉宣帝时生于中原自幼好览山川图籍
+- id: guji-桑钦-event-survey
+  date: -30
+  year_of: -30
+  title_zh: 博访水道图志
+  description: 搜集汉廷藏图询访郡国津吏考求河济淮渭源流
+  endeavor_ref: guji-桑钦-endeavor-1
+- id: guji-桑钦-event-river
+  date: -25
+  year_of: -25
+  title_zh: 考定黄河分合
+  description: 考自昆仑积石至渤海之河程辨屯氏漯水诸渎去向
+  endeavor_ref: guji-桑钦-endeavor-2
+- id: guji-桑钦-event-compose
+  date: -20
+  year_of: -20
+  title_zh: 编成水经
+  description: 次第记述河漯汾浍济渭等一百余水成水经一书
+  endeavor_ref: guji-桑钦-endeavor-1
+- id: guji-桑钦-event-death
+  date: -10
+  year_of: -10
+  title_zh: 桑钦去世
+  description: 约汉哀帝时卒书传后世为郦道元注水经之底本
