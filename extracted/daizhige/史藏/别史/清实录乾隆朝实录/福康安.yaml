@@ -9,102 +9,146 @@ person:
       date: 1754
       precision: year
       is_circa: false
-      raw: 乾隆十九年生
+      raw: 乾隆十九年
     death:
-      date: 1796-06-25
+      date: 1796-05-14
       precision: day
       is_circa: false
-      raw: 嘉庆元年五月卒于军中
+      raw: 乾隆六十一年四月初八
   birth_date: 1754
-  death_date: 1796-06-25
-  era: 清
+  death_date: 1796-05-14
+  era: 清代
   reign_ref: 乾隆
-  archetype: 封疆经略之臣
+  archetype: 经略武臣
   dilemmas:
-  - 云南钱贱银少而鼓铸当停当调之两难
-  - 藩邦恭顺稠叠往来而裁抑酬答以存大体之两难
-  lesson: 治钱贵在流通得平，抚藩贵在得体省繁，任事当察本源而守大体
-  summary_first_person: 吾起自勋戚，历任封疆，督滇黔川粤诸省，抵滇则察官铸成色以筹银钱调剂，接安南则鉴恭顺悃忱以省往返繁文，惟愿钱流边安，不负委任
+  - 黔楚苗匪分窜聚散无常须分路堵截又须合力聚歼
+  - 逆苗戕害镇将须痛加惩创又须暂秘声色以免贼死抗勾连屯聚
+  lesson: 厚集兵威先声夺人剿抚兼施事定穷搜以靖苗疆
+  summary_first_person: 吾自镇远星夜赴松桃督师，誓要疏通后路四路会剿，一鼓歼擒搜拏净尽，使苗疆永靖
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71466.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71471.md
 endeavors:
 - id: guji-福康安-endeavor-1
-  title_zh: 赴滇查办钱法
-  description: 乾隆五十九年冬抵云南省城，履勘局铸官钱成色分量，核小钱渊薮之源，筹停铸后调剂银钱之法
+  person_qid: guji-福康安
+  title_zh: 督办黔省松桃苗匪剿捕
+  summary_zh: 假查阅营伍名义星夜赴黔调集各营劲兵疏通松桃铜仁后路分路堵截搜捕
   phases:
   - key: brewing
-    name: 初抵省城察览
+    name: 闻变星夜赴黔
     labels:
       zh:
-      - 履勘
-      - 钱法
-    start_date: 1794-12
-    highlight_event_id: guji-福康安-event-yunnan
+      - 闻变
+      - 驰赴
+    start_date: 1795-03-05
+    highlight_event_id: guji-福康安-event-1
+  - key: breakthrough
+    name: 抵镇远飞调官兵
+    labels:
+      zh:
+      - 调兵
+      - 筹划
+    start_date: 1795-03-10
+    highlight_event_id: guji-福康安-event-1
   - key: climax
-    name: 筹定调剂章程
+    name: 疏通松桃铜仁后路
     labels:
       zh:
-      - 调剂
-      - 流通
-    start_date: 1794-12
-    highlight_event_id: guji-福康安-event-yunnan
+      - 堵截
+      - 疏通
+    start_date: 1795-03-18
+    highlight_event_id: guji-福康安-event-2
+  - key: closure
+    name: 四路举兵剿戮黔苗
+    labels:
+      zh:
+      - 会剿
+      - 搜捕
+    start_date: 1795-03-25
+    highlight_event_id: guji-福康安-event-2
   decisions:
-  - date: 1794-12
-    title_zh: 详查官局私铸源流
-    rationale: 云南为小钱渊薮，须究官局克减与私铸搀杂之别，方能清源
-  - date: 1794-12
-    title_zh: 设法调剂使银钱得平
-    rationale: 每银一两换钱二千五百余文，价贱壅滞，惟流通调剂可便商民
+  - date: 1795-03-10
+    title_zh: 行抵镇远飞调各营会剿
+    rationale: 松桃正大两处苗匪围伺未退先疏后路再进剿巢径以免窜逸
+  - date: 1795-03-18
+    title_zh: 晓谕投首重赏擒献首恶
+    rationale: 苗匪多系胁迫安分苗民知大义者不少以赏劝离散党与可渐就歼
 - id: guji-福康安-endeavor-2
-  title_zh: 照会安南裁抑繁文
-  description: 接安南阮光缵呈文土仪，谕以人臣无境外之交，未便收受，省酬答往返之烦以安藩心
+  person_qid: guji-福康安
+  title_zh: 筹划黔楚合剿镇筸永绥
+  summary_zh: 黔苗剿净即赴楚境与福宁刘君辅夹攻并密记镇将被害之仇待事竣严办
   phases:
   - key: brewing
-    name: 接藩呈文土仪
+    name: 察楚省迟延观望
     labels:
       zh:
-      - 安南
-      - 恭顺
-    start_date: 1794-12
-    highlight_event_id: guji-福康安-event-annan
+      - 察看
+      - 督催
+    start_date: 1795-03-12
+    highlight_event_id: guji-福康安-event-1
+  - key: breakthrough
+    name: 定黔楚分进合击之策
+    labels:
+      zh:
+      - 合谋
+      - 分进
+    start_date: 1795-03-20
+    highlight_event_id: guji-福康安-event-3
+  - key: climax
+    name: 自松桃直捣永绥一带
+    labels:
+      zh:
+      - 进剿
+      - 夹攻
+    start_date: 1795-04-02
+    highlight_event_id: guji-福康安-event-3
   - key: closure
-    name: 缮照会发还物件
+    name: 事竣穷搜严办靖苗疆
     labels:
       zh:
-      - 大义
-      - 简节
-    start_date: 1794-12
-    highlight_event_id: guji-福康安-event-annan
+      - 穷搜
+      - 靖边
+    start_date: 1795-04-15
+    highlight_event_id: guji-福康安-event-3
   decisions:
-  - date: 1794-12
-    title_zh: 不收土物以明大义
-    rationale: 未曾接见而受礼则须酬答，稠叠往来无底，不如明白示以未便收受
-  - date: 1794-12
-    title_zh: 缮照会安藩心省繁节
-    rationale: 既鉴其恳肫恭顺，又免往返之烦，可收两便之效
+  - date: 1795-03-20
+    title_zh: 黔苗剿尽即赴楚境并力歼擒
+    rationale: 黔楚毗连一气相联惟厚集多兵四面搜捕方可一鼓集事
+  - date: 1795-04-02
+    title_zh: 密记镇将被害暂秘声色
+    rationale: 行军之际若露痛创之意贼必死抗勾连惟事竣趁兵威严办不使余孽复萌
 events:
 - id: guji-福康安-event-birth
+  person_qid: guji-福康安
+  type: birth
+  title_zh: 生于京师富察氏家
   date: 1754
   year_of: 1754
-  title_zh: 生于京师
-  description: 乾隆十九年生，富察氏，大学士傅恒之子
-- id: guji-福康安-event-yunnan
-  date: 1794-12
-  year_of: 1794
-  title_zh: 行抵云南省城查办钱法
-  description: 奏报省城及附近州县纯用局铸大钱而银一两换钱二千五百余文，奉旨妥定调剂章程
-- id: guji-福康安-event-annan
-  date: 1794-12
-  year_of: 1794
-  title_zh: 照会安南发还土仪
-  description: 阮光缵递呈文并送肉桂犀角，议以人臣无境外之交，照会晓谕毋庸备送，原物发还
-- id: guji-福康安-event-xiushan
-  date: 1794-12
-  year_of: 1794
-  title_zh: 奏请秀山设专学
-  description: 任四川总督时奏以松潘茂汶保四学裁额拨秀山，定文武学额廪增，以振文风
+  description_zh: 乾隆十九年生后以云贵总督大学士屡任经略
+- id: guji-福康安-event-1
+  person_qid: guji-福康安
+  type: career
+  title_zh: 行抵镇远飞调官兵会剿
+  date: 1795-03-10
+  year_of: 1795
+  description_zh: 据铜仁镇远禀报松桃苗人滋事与湖南石三保一气相联即调苗民较少各营汛官兵前抵松桃督率妥办
+- id: guji-福康安-event-2
+  person_qid: guji-福康安
+  type: career
+  title_zh: 疏通松桃铜仁后路进剿
+  date: 1795-03-18
+  year_of: 1795
+  description_zh: 咨令提镇先疏通松桃铜仁后路然后分四路举兵剿戮并晓谕安分苗民擒献首恶者重赏
+- id: guji-福康安-event-3
+  person_qid: guji-福康安
+  type: career
+  title_zh: 筹划黔楚五路合剿镇筸
+  date: 1795-04-02
+  year_of: 1795
+  description_zh: 拟自松桃进兵直至永绥与和琳福宁刘君辅彭廷栋分路夹攻截住要隘一鼓歼擒并于事定查明起衅严办
 - id: guji-福康安-event-death
-  date: 1796-06-25
+  person_qid: guji-福康安
+  type: death
+  title_zh: 病卒于军中追封郡王
+  date: 1796-05-14
   year_of: 1796
-  title_zh: 卒于军中
-  description: 嘉庆元年五月督师征湖南苗疆，病卒于军，谥文襄，追封嘉勇郡王
+  description_zh: 乾隆六十一年剿苗凯旋后病卒谥文襄追封嘉勇郡王
