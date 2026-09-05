@@ -9,120 +9,135 @@ person:
       date: 1717-09-07
       precision: day
       is_circa: false
-      raw: 康熙五十六年八月初三
+      raw: 康熙五十六年
     death:
       date: 1797-10-10
       precision: day
       is_circa: false
-      raw: 嘉庆二年八月二十日
+      raw: 嘉庆二年
   birth_date: 1717-09-07
   death_date: 1797-10-10
-  era: 清
-  reign_ref: 乾隆
-  archetype: 经略边事之名臣
+  era: 清乾隆朝
+  reign_ref: 乾隆三十五年
+  archetype: 征伐经略型名将
   dilemmas:
-  - 缅酋投诚真伪未明是严词索还内地被留之人以伸国体还是迁就完局苟且无事
-  - 撤兵之后边备空虚是再兴征剿还是严防边隘奋力剿击来犯以待其变
-  lesson: 办理边务当烛照几先先发制人不可掩耳自误苟且迁就
-  summary_first_person: 我受命留滇会办缅事当严檄诘责索还被掳以全国家体面不敢稍存苟且之心
+  - 瘴疠久围与速退保全之间如何权衡国体与士卒性命
+  - 经略病重难主事时副帅当专擅迁就还是据实候旨
+  lesson: 退兵一速则示弱于敌善后迁就则养痈贻患当持重渐退并严守信约
+  summary_first_person: 我随经略傅恒副领征缅之师老官屯围困值瘴疠盛行人力难施我率领队诸臣具结请彻及缅使乞降遂即日全彻班师未料反为缅酋窥破虚实致后续索土司贡约稽迟遂致上严切申饬此我急于自了之过也
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0856.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0856.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0859.html
 endeavors:
 - id: guji-阿桂-endeavor-1
-  person_qid: guji-阿桂
-  title_zh: 会办缅甸投诚善后并传檄索人
-  summary_zh: 与彰宝同在滇南筹办缅事译写檄文遣使赴老官屯索还内地被留之人
+  title_zh: 副将军征缅与老官屯解围彻兵
+  summary: 以副将军随傅恒围老官屯因气候恶劣病众多率众具结主彻缅请降即全军急退
   phases:
   - key: brewing
-    name: 撤兵留滇筹边
+    name: 副戎从征
     labels:
-      zh: 筹边守备
-    start_date: 1770-01-01
-    highlight_event_id: guji-阿桂-event-1
+      zh: 副将军赴滇
+    start_date: 1769-08-01
+    highlight_event_id: guji-阿桂-event-congzheng
   - key: breakthrough
-    name: 奉旨拟檄诘责
+    name: 围攻老官屯
     labels:
-      zh: 拟檄诘责
-    start_date: 1770-04-01
-    highlight_event_id: guji-阿桂-event-1
+      zh: 攻围受困
+    start_date: 1769-11-01
+    highlight_event_id: guji-阿桂-event-laoguantun
   - key: climax
-    name: 遣使赍檄赴关
+    name: 率众具结请彻
     labels:
-      zh: 遣使索人
-    start_date: 1770-04-24
-    highlight_event_id: guji-阿桂-event-1
+      zh: 逼经略允彻
+    start_date: 1769-12-10
+    highlight_event_id: guji-阿桂-event-chebing
   - key: closure
-    name: 奉旨切责自省
+    name: 即日全彻班师
     labels:
-      zh: 反思任事
-    start_date: 1770-05-10
-    highlight_event_id: guji-阿桂-event-2
+      zh: 急退归滇
+    start_date: 1770-01-05
+    highlight_event_id: guji-阿桂-event-chebing
   decisions:
-  - date: 1770-04-01
-    title_zh: 遵旨译写檄文交妥员赍送
-    rationale: 使缅酋知内地大臣识见远到稍生忌惮并催还被留之人以全大局
-  - date: 1770-04-24
-    title_zh: 派都司苏尔相率兵护送通事赴老官屯
-    rationale: 以明白妥干之人速取回信并察沿边关隘以防窥伺
+  - date: 1769-12-10
+    title_zh: 率领队大臣具结求彻
+    rationale: 念缅地水土恶劣雨多路泞军多疾病难久留欲就缅乞降给回字息事
+  - date: 1769-12-20
+    title_zh: 缅使甫降即同时俱彻
+    rationale: 得投诚信如获更生图速了未行渐次徐退以致示弱
 - id: guji-阿桂-endeavor-2
-  person_qid: guji-阿桂
-  title_zh: 整饬滇边防务严防缅匪滋扰
-  summary_zh: 督饬镇将严守关隘稽查商货断绝透漏奋力剿击敢于近边侵犯之匪
+  title_zh: 缅约稽迟与入奏申辩受饬
+  summary: 班师后贡约送还内地人迟迟不至与彰宝拟檄催索回奏称边境无事遭严斥
   phases:
   - key: brewing
-    name: 会商边防布置
+    name: 纳款就事完事
     labels:
-      zh: 会商防务
-    start_date: 1770-03-01
-    highlight_event_id: guji-阿桂-event-1
+      zh: 受降完局
+    start_date: 1770-01-10
+    highlight_event_id: guji-阿桂-event-chebing
   - key: breakthrough
-    name: 严饬守口巡防
+    name: 教约稽迟索土司
     labels:
-      zh: 严守关隘
-    start_date: 1770-04-24
-    highlight_event_id: guji-阿桂-event-1
+      zh: 诺尔塔索土司
+    start_date: 1770-04-01
+    highlight_event_id: guji-阿桂-event-suotu
   - key: climax
-    name: 杜绝贸易透漏
+    name: 附奏檄稿回奏
     labels:
-      zh: 查禁透漏
+      zh: 婉词檄谕自欺
     start_date: 1770-05-01
-    highlight_event_id: guji-阿桂-event-2
+    highlight_event_id: guji-阿桂-event-shenchi
   - key: closure
-    name: 预筹奋击惩创
+    name: 通谕严切申饬
     labels:
-      zh: 奋力剿击
-    start_date: 1770-05-10
-    highlight_event_id: guji-阿桂-event-2
+      zh: 奉旨严饬候省
+    start_date: 1770-06-01
+    highlight_event_id: guji-阿桂-event-shenchi
   decisions:
-  - date: 1770-04-24
-    title_zh: 饬令守口镇将督兵加意巡防
-    rationale: 防缅匪窥伺侵扰内地土司边境当先事豫防不可掉以轻心
-  - date: 1770-05-01
-    title_zh: 派将备于通夷路口逐一严查
-    rationale: 使商货丝毫不得透漏行旅亦严缉以困贼情而保边圉
+  - date: 1770-04-15
+    title_zh: 以婉言拟檄催索
+    rationale: 欲催缅送还内地之人而措词迁就无严厉之语反列好生允准班师
+  - date: 1770-05-20
+    title_zh: 奏称缅不敢扰边
+    rationale: 恃巧言掩饰断言必无侵扰欲冀无事冀治去彰宝自任总督
 events:
 - id: guji-阿桂-event-birth
-  person_qid: guji-阿桂
-  title_zh: 出生于满洲正白旗
+  title_zh: 出生
   date: 1717-09-07
   year_of: 1717
-  description: 康熙五十六年八月初三生于京师章佳氏家后以军功起家
-- id: guji-阿桂-event-1
-  person_qid: guji-阿桂
-  title_zh: 与彰宝遵旨译檄遣使赴老官屯
-  date: 1770-04-24
+  place: 京师
+  summary: 章佳氏阿桂生于京师后袭云骑尉入仕
+- id: guji-阿桂-event-congzheng
+  title_zh: 以副将军随傅恒征缅
+  date: 1769-08-01
+  year_of: 1769
+  place: 云南永昌边外
+  summary: 受命为副将军随经略傅恒进剿缅匪转战至老官屯
+- id: guji-阿桂-event-laoguantun
+  title_zh: 老官屯攻围病困
+  date: 1769-11-20
+  year_of: 1769
+  place: 老官屯
+  summary: 官兵围老官屯水土恶劣军中多病傅恒抱沉疴仍欲攻克追剿
+- id: guji-阿桂-event-chebing
+  title_zh: 缅乞降即日急彻
+  date: 1769-12-20
+  year_of: 1769
+  place: 老官屯军营
+  summary: 缅遣人诣军门恳罢兵遂率领队具结促彻不候旨渐退同时俱彻匆忙而归并遣浑觉归缅
+- id: guji-阿桂-event-suotu
+  title_zh: 诺尔塔索取三土司
+  date: 1770-04-10
   year_of: 1770
-  description: 乾隆三十五年三月二十九日派奇兵营都司苏尔相及通事段彩霞赍檄赴老官屯交头目索取回信并取还内地被留之人
-- id: guji-阿桂-event-2
-  person_qid: guji-阿桂
-  title_zh: 因办理缅事迁就奉严旨切责
-  date: 1770-05-10
+  place: 云南边境
+  summary: 缅久不送还内地人反致书索取木邦蛮暮猛拱三土司轻视将军总督
+- id: guji-阿桂-event-shenchi
+  title_zh: 回奏荒唐遭通谕严饬
+  date: 1770-06-01
   year_of: 1770
-  description: 乾隆三十五年夏因于缅酋请还木邦等土司等事未能先发制人豫筹诘责奉旨严切训饬谓所见出诺尔塔之下
+  place: 京师军机处
+  summary: 乾隆以急退示弱檄文失节等通谕中外严切申饬阿桂彰宝令明白回奏
 - id: guji-阿桂-event-death
-  person_qid: guji-阿桂
-  title_zh: 病逝于京师
+  title_zh: 病逝
   date: 1797-10-10
   year_of: 1797
-  description: 嘉庆二年八月二十日病逝于京师谥文成配享太庙
+  place: 京师
+  summary: 晚年晋一等诚谋英勇公病逝于京师谥文成
