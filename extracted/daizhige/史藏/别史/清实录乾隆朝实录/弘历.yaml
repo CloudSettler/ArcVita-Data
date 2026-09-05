@@ -3,143 +3,147 @@ person:
   name_zh: 弘历
   names:
     zh: 弘历
-    en: Hongli
+    en: Hongli the Qianlong Emperor
   lifespan:
     birth:
       date: 1711-09-25
       precision: day
       is_circa: false
-      raw: 康熙五十年八月十三日
+      raw: 康熙五十年八月十三日生于雍亲王府
     death:
       date: 1799-02-07
       precision: day
       is_circa: false
-      raw: 嘉庆四年正月初三日
+      raw: 嘉庆四年正月初三日崩于养心殿
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清朝
-  reign_ref: 乾隆十六年
-  archetype: 勤求民瘼励治守成之君
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 勤政爱民的守成励治君主
   dilemmas:
-  - 浙东大旱既须从厚赈粜又防督抚张皇冒滥如何节制得中
-  - 伪稿逆词蔓延数省既须彻底根究又防株连过广如何无枉无纵
-  lesson: 赈灾治河整吏皆须准情酌理过与不及皆足贻害惟实心实力方副勤民之意
-  summary_first_person: 我自避暑还京即筹浙东旱赈截留漕粮命浚河道以工代赈又亲谕修葺金陵严办隐匿逆案之封疆遣重臣堵筑阳武漫口宵旰不敢自逸惟愿灾黎得安国法得伸
+  - 宽仁养民与严法整肃之间如何持平
+  - 偏灾频仍时截漕动仓与国计之间的权衡
+  - 传抄邪说屡禁不止时诛首与胁从如何分别
+  lesson: 抚民以实惠为本刑狱以得平为要缓急轻重皆须因地制宜
+  summary_first_person: 朕即位十六年值浙鲁豫水旱偏灾复有伪造奏稿传抄各省朕加恩豁免故兵浮支借给浙兵季饷缓徵被水州县漕粮并严饬督抚分别轻重查办谣传務使灾黎得所而愚民知儆
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/history/qing-shilu/0397.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70398.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70398.md
 endeavors:
 - id: guji-弘历-endeavor-1
-  person_id: guji-弘历
-  title_zh: 大赈浙东旱灾并兴修水利
-  summary: 南巡亲见萧绍河浅复闻浙东夏旱即截留江浙漕粮八十万石备赈粜平粜并谕以工代赈疏浚河道训饬督抚和衷实办
+  title_zh: 加恩赈恤浙鲁豫水旱偏灾
+  summary_zh: 乾隆十六年秋浙省旱歉米贵鲁豫河涨被淹分别借饷豁免缓徵动仓采买以纾民力
   phases:
   - key: brewing
-    name: 南巡亲见旱形
+    name: 浙省宁绍旱歉米价昂贵
     labels:
-      zh: 巡视得情
-    start_date: 1751-05-01
-    highlight_event_id: guji-弘历-event-zhezhen
+      zh:
+      - 旱灾
+      - 米贵
+    start_date: 1751-09-22
+    highlight_event_id: guji-弘历-event-relief
   - key: breakthrough
-    name: 截留漕粮备赈
+    name: 借给浙兵米石季饷接济穷兵
     labels:
-      zh: 截漕济浙
-    start_date: 1751-09-14
-    highlight_event_id: guji-弘历-event-zhezhen
-  - key: climax
-    name: 以工代赈浚河
-    labels:
-      zh: 浚河利民
+      zh:
+      - 借饷
+      - 体恤兵丁
     start_date: 1751-09-23
-    highlight_event_id: guji-弘历-event-shujun
-  - key: closure
-    name: 饬督抚实心妥办
+    highlight_event_id: guji-弘历-event-relief
+  - key: climax
+    name: 豁免贵州故兵浮支缓徵豫鲁漕粮
     labels:
-      zh: 训饬核实
+      zh:
+      - 豁免
+      - 缓徵
     start_date: 1751-09-25
-    highlight_event_id: guji-弘历-event-shujun
+    highlight_event_id: guji-弘历-event-relief
+  - key: closure
+    name: 命鄂容安陈宏谋等通盘筹赈务令得所
+    labels:
+      zh:
+      - 通筹赈务
+      - 交代接办
+    start_date: 1751-10-01
+    highlight_event_id: guji-弘历-event-relief
   decisions:
-  - date: 1751-09-14
-    title_zh: 再截留江苏漕粮三十万石运浙
-    rationale: 浙省被灾较重原留五十万石尚恐不足故再截江漕以资接济并补仓储
+  - date: 1751-09-22
+    title_zh: 豁免贵州故兵家口夏季以前浮支半饷
+    rationale: 兵丁效命戎行遗属生计艰难不忍再行追缴故加恩豁免以示优恤
   - date: 1751-09-23
-    title_zh: 谕浚萧山会稽河道以工代赈
-    rationale: 亲见浙河浅窄旱则舟楫不通米价顿昂乘灾兴工可垂永久之利并资贫民糊口
+    title_zh: 再借浙江通省兵丁一季饷银明夏分季扣还
+    rationale: 旱灾稍重米粮昂贵隆冬穷兵拮据借饷接济并严饬营弁毋侵克
+  - date: 1751-09-25
+    title_zh: 缓徵豫省被水州县漕项滩地粮银并筹山东赈法
+    rationale: 猝遭异涨闾阎拮据米粮为急故缓漕缓滩令通盘计算或给米折或动仓储
 - id: guji-弘历-endeavor-2
-  person_id: guji-弘历
-  title_zh: 整饬封疆严究伪稿并堵筑豫省河口
-  summary: 因滇省传播伪造孙嘉淦奏稿逆词蔓延山东江南即革职拿问隐匿之山东巡抚准泰命鄂容安调补并遣大学士高斌驰赴河南阳武堵筑漫口
+  title_zh: 申饬各省严查伪造奏稿传播案
+  summary_zh: 针对滇黔起抄写传播伪造孙嘉淦奏稿事分别轻重查拏申饬山东湖南山西滇省督抚实力缉办
   phases:
   - key: brewing
-    name: 逆词辗转传播
+    name: 滇黔发觉伪稿移咨湖北查获多犯
     labels:
-      zh: 访缉端绪
-    start_date: 1751-07-02
-    highlight_event_id: guji-弘历-event-zhuntai
+      zh:
+      - 伪稿
+      - 传抄
+    start_date: 1751-09-26
+    highlight_event_id: guji-弘历-event-falsecase
   - key: breakthrough
-    name: 革准泰彻底根究
+    name: 直隶山东湖广古北口续获重犯
     labels:
-      zh: 革抚严究
-    start_date: 1751-09-24
-    highlight_event_id: guji-弘历-event-zhuntai
+      zh:
+      - 根究
+      - 提拏质讯
+    start_date: 1751-09-28
+    highlight_event_id: guji-弘历-event-falsecase
   - key: climax
-    name: 通谕各省密拏渠魁
+    name: 研问准泰涂抹发还申饬杨锡绂阿思哈
     labels:
-      zh: 严缉逆党
-    start_date: 1751-09-24
-    highlight_event_id: guji-弘历-event-zhuntai
+      zh:
+      - 严诘
+      - 申饬督抚
+    start_date: 1751-10-03
+    highlight_event_id: guji-弘历-event-falsecase
   - key: closure
-    name: 遣高斌赴豫堵口
+    name: 定分别轻重之刑恒文办理可嘉为例
     labels:
-      zh: 治河救民
-    start_date: 1751-09-24
-    highlight_event_id: guji-弘历-event-hegong
+      zh:
+      - 区别处分
+      - 刑协于中
+    start_date: 1751-10-05
+    highlight_event_id: guji-弘历-event-falsecase
   decisions:
-  - date: 1751-09-24
-    title_zh: 革山东巡抚准泰拿问严查
-    rationale: 身任封疆见诬谤悖逆之词忍心隐匿更谕属不必牵涉前案置君臣大义于不问国法不可容故遣侍郎兆惠驰驿查办
-  - date: 1751-09-24
-    title_zh: 命大学士高斌速赴阳武相度堵筑
-    rationale: 阳武漫口水深难合鄂容安已调山东顾琮独力难胜故令深谙水性之高斌亲往相度另开引河分势刻期合龙
+  - date: 1751-09-28
+    title_zh: 命兆惠逐条研问准泰涂抹原稿不发之心
+    rationale: 和其衷已据实奏闻而准泰始终含糊希图苟且故须诘其发还何意以服其心
+  - date: 1751-10-05
+    title_zh: 定抄写布散枷示愚懵私抄责惩不必概置典刑
+    rationale: 情节种种不同须分别轻重发落既不可宽纵长刁风亦不可概律以大逆
+  - date: 1751-10-06
+    title_zh: 申饬杨锡绂所办拙谬阿思哈虚应故事令加紧缉办
+    rationale: 多派微员改装更名必致泄漏远窜空言搪塞必致疏纵故以准泰前车为戒
 events:
 - id: guji-弘历-event-birth
-  person_id: guji-弘历
   title_zh: 出生于雍亲王府
   date: 1711-09-25
   year_of: 1711
-  description: 康熙五十年八月十三日生为雍亲王胤禛第四子母熹贵妃钮祜禄氏
-- id: guji-弘历-event-death
-  person_id: guji-弘历
-  title_zh: 驾崩于紫禁城养心殿
-  date: 1799-02-07
-  year_of: 1799
-  description: 嘉庆四年正月初三日崩享年八十九岁葬裕陵庙号高宗
-- id: guji-弘历-event-zhezhen
-  person_id: guji-弘历
-  title_zh: 截留江浙漕粮八十万石大赈浙东
-  date: 1751-09-14
-  year_of: 1751
-  description: 自避暑山庄回銮驻喀喇河屯谕截留浙江漕粮五十万石复截江苏漕粮三十万石运浙备赈粜并饬督抚董率实办
-- id: guji-弘历-event-shujun
-  person_id: guji-弘历
-  title_zh: 谕浚萧山会稽河道以工代赈
+  place_zh: 北京雍亲王府
+  description_zh: 康熙五十年八月十三日生为雍亲王胤禛第四子后即皇帝位年号乾隆
+- id: guji-弘历-event-relief
+  title_zh: 加恩豁免赈济浙鲁豫灾民兵丁
   date: 1751-09-23
   year_of: 1751
-  description: 以南巡亲见浙河浅窄旱涸舟楫难行米价顿昂命督抚相度估计以工代赈开通深广垂永久之利
-- id: guji-弘历-event-jinling
-  person_id: guji-弘历
-  title_zh: 谕修金朝陵寝躬亲展奠
-  date: 1751-09-16
+  place_zh: 北京圆明园勤政殿
+  description_zh: 因浙省旱歉米贵鲁豫河涨被淹降旨豁免贵州故兵浮支借给浙兵季饷缓徵被水州县漕粮滩租并命鄂容安陈宏谋通筹赈借蠲缓
+- id: guji-弘历-event-falsecase
+  title_zh: 申饬督抚严查伪造奏稿传播分别定刑
+  date: 1751-10-05
   year_of: 1751
-  description: 以金太祖世宗陵寝在房山岁久榛芜命直隶总督方观承前往相度增修除治工竣躬亲展奠以昭敬礼前朝
-- id: guji-弘历-event-zhuntai
-  person_id: guji-弘历
-  title_zh: 革山东巡抚准泰严究伪造孙嘉淦奏稿逆案
-  date: 1751-09-24
-  year_of: 1751
-  description: 据按察使和其衷奏四月已获伪稿准泰勾抹发还改为拾自途中拟杖完结复谕不必牵涉前案故革职拿问遣兆惠驰驿彻底确查以鄂容安调补山东
-- id: guji-弘历-event-hegong
-  person_id: guji-弘历
-  title_zh: 命高斌赴河南阳武堵筑漫口
-  date: 1751-09-24
-  year_of: 1751
-  description: 豫省阳武漫口水深二丈大坝水深四丈鄂容安调任山东命大学士总河高斌速赴工次相度另开引河分势并赈商邱等十四县被淹贫民
+  place_zh: 静宜园圆明园
+  description_zh: 针对伪造孙嘉淦奏稿传抄命兆惠研问准泰申饬杨锡绂阿思哈恒文分别藏匿传寄与愚懵私抄轻重定拟重枷示众或枷责示惩
+- id: guji-弘历-event-death
+  title_zh: 崩于养心殿
+  date: 1799-02-07
+  year_of: 1799
+  place_zh: 北京紫禁城养心殿
+  description_zh: 嘉庆四年正月初三日崩年八十九归政训政后以太上皇帝崩逝谥纯皇帝庙号高宗
