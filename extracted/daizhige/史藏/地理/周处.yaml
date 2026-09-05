@@ -1,0 +1,177 @@
+person:
+  qid: guji-周处
+  name_zh: 周处
+  names:
+    zh: 周处
+    en: Zhou Chu
+  lifespan:
+    birth:
+      date: '0236'
+      precision: year
+      is_circa: false
+      raw: 魏景元三年
+    death:
+      date: 0297
+      precision: year
+      is_circa: false
+      raw: 晋元康七年
+  birth_date: '0236'
+  death_date: 0297
+  era: 西晋
+  reign_ref: 晋武帝至惠帝
+  archetype: 改过奋武者
+  dilemmas:
+  - title_zh: 少时凶横为乡里患
+    description_zh: 年少气勇任侠为患与蛟虎并称三害何以取信改过
+  - title_zh: 吴晋易代出身抉择
+    description_zh: 故吴将门之后归晋为官忠孝之间何以自处立身
+  lesson: 闻过即改终可立德立功立言改过不嫌晚
+  summary_first_person: 吾本义兴少年恃勇为患乡人谓吾与蛟虎为三害吾闻之幡然改过斩蛟射虎折节读书师事陆机陆云归晋历郡守御史著风土记终以建威将军西征殉国
+  source_urls:
+  - https://daizhige.org/史藏/地理/风土记.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/风土记.md
+endeavors:
+- id: guji-周处-endeavor-1
+  person_id: guji-周处
+  title_zh: 除三害改过求学
+  summary_zh: 少年为患闻三害有己发愤斩蛟射虎折节读书师事陆机陆云博学善文州府辟命
+  phases:
+  - key: brewing
+    name: 少年为患
+    labels:
+      zh:
+      - 乡里三害
+    start_date: '0253'
+    highlight_event_id: guji-周处-event-harm
+  - key: breakthrough
+    name: 幡然除害
+    labels:
+      zh:
+      - 斩蛟射虎
+    start_date: '0255'
+    highlight_event_id: guji-周处-event-gaiwu
+  - key: climax
+    name: 寻师问道
+    labels:
+      zh:
+      - 折节读书
+    start_date: '0270'
+    highlight_event_id: guji-周处-event-study
+  - key: closure
+    name: 才学著闻
+    labels:
+      zh:
+      - 州府辟命
+    start_date: 0279
+    highlight_event_id: guji-周处-event-chushi
+  decisions:
+  - date: '0255'
+    title_zh: 自除三害明志
+    rationale: 闻乡患有己欲改过自新先杀蛟斩虎以取信于众
+  - date: '0270'
+    title_zh: 北上师事陆机陆云
+    rationale: 感壮岁不再负罪欲自奋别亲求学砥砺德才以成器业
+- id: guji-周处-endeavor-2
+  person_id: guji-周处
+  title_zh: 入晋历仕著述殉国
+  summary_zh: 吴平归晋历新平广汉太守刚正执法为御史中丞著风土记吴书终以建威将军讨齐万年战死关西
+  phases:
+  - key: brewing
+    name: 归晋初仕
+    labels:
+      zh:
+      - 新平太守
+    start_date: 0280
+    highlight_event_id: guji-周处-event-taishou
+  - key: breakthrough
+    name: 著述风土
+    labels:
+      zh:
+      - 风土记述
+    start_date: 0290
+    highlight_event_id: guji-周处-event-fengtu
+  - key: climax
+    name: 正身执法
+    labels:
+      zh:
+      - 御史中丞
+    start_date: 0296
+    highlight_event_id: guji-周处-event-yushi
+  - key: closure
+    name: 西征殉节
+    labels:
+      zh:
+      - 建威殉国
+    start_date: 0296
+    highlight_event_id: guji-周处-event-death
+  decisions:
+  - date: 0296
+    title_zh: 居宪司弹劾不避
+    rationale: 任御史中丞当以正直肃朝纲虽忤梁王亦不屈
+  - date: 0296
+    title_zh: 受命西征不辞难
+    rationale: 知外任为排挤仍慷慨受命以忠义报国成全名节
+events:
+- id: guji-周处-event-birth
+  person_id: guji-周处
+  title_zh: 出生义兴阳羡
+  date: '0236'
+  year_of: 236
+  place_zh: 义兴阳羡
+  description_zh: 吴鄱阳太守周鲂之子生于义兴阳羡
+- id: guji-周处-event-harm
+  person_id: guji-周处
+  title_zh: 少年凶横为患
+  date: '0253'
+  year_of: 253
+  place_zh: 义兴阳羡
+  description_zh: 年少膂力绝众好驰猎任侠不修细行乡里患之
+- id: guji-周处-event-gaiwu
+  person_id: guji-周处
+  title_zh: 除三害改过
+  date: '0255'
+  year_of: 255
+  place_zh: 义兴
+  description_zh: 闻乡人谓己与南山白虎长桥蛟龙为三害乃射虎斩蛟以自改
+- id: guji-周处-event-study
+  person_id: guji-周处
+  title_zh: 师事陆机陆云力学
+  date: '0270'
+  year_of: 270
+  place_zh: 华亭
+  description_zh: 折节读书北上师事陆机陆云博学善文诗赋著闻
+- id: guji-周处-event-chushi
+  person_id: guji-周处
+  title_zh: 州府辟命出仕
+  date: 0279
+  year_of: 279
+  place_zh: 扬州
+  description_zh: 以才学膺州府辟命除东观左丞后为太子舍人
+- id: guji-周处-event-taishou
+  person_id: guji-周处
+  title_zh: 归晋授新平太守
+  date: 0280
+  year_of: 280
+  place_zh: 新平
+  description_zh: 吴平入洛授新平太守转广汉太守以治绩称
+- id: guji-周处-event-fengtu
+  person_id: guji-周处
+  title_zh: 撰著风土记
+  date: 0290
+  year_of: 290
+  place_zh: 洛阳
+  description_zh: 博览撰吴书及风土记备载吴地风俗物产节令如太湖洞庭守岁馈岁诸事
+- id: guji-周处-event-yushi
+  person_id: guji-周处
+  title_zh: 任御史中丞执法
+  date: 0296
+  year_of: 296
+  place_zh: 洛阳
+  description_zh: 迁散骑常侍御史中丞刚正执法弹劾不避权贵
+- id: guji-周处-event-death
+  person_id: guji-周处
+  title_zh: 西征战死殉国
+  date: 0297
+  year_of: 297
+  place_zh: 关西七里涧
+  description_zh: 以建威将军从讨齐万年孤军深入力战不屈战死于阵追赠平西将军
