@@ -6,135 +6,112 @@ person:
     en: Fukangan
   lifespan:
     birth:
-      date: 1754
+      date: 1754-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 乾隆十九年
     death:
-      date: 1793-07-02
+      date: 1796-07-02
       precision: day
       is_circa: false
-      raw: 乾隆五十八年五月
-  birth_date: 1754
-  death_date: 1793-07-02
-  era: 清乾隆朝
+      raw: 嘉庆元年五月
+  birth_date: 1754-01-01
+  death_date: 1796-07-02
+  era: 清
   reign_ref: 乾隆
-  archetype: 封疆经略之臣
+  archetype: 经略开边型重臣
   dilemmas:
-  - 关外灾远道遥之时当亲往查勘还是委司先办之择
-  - 屯田欲加垦裕食而渠水不足兵少差多之难
-  lesson: 抚恤必亲勘灾实屯政必量水量兵方能经久无弊
-  summary_first_person: 我久任陕甘封疆值玉门地震与巴里坤屯务并起惟以亲勘实测为要先借口粮以救急再核灾实以正恤屯政则会勘水土兵差务使兵民得所章程可久不敢以文饰塞责
+  - 远戍搜捕当持重还是速决
+  - 垦田养民与充实边饷如何兼顾
+  - 施恩宽贷与执法严明如何并行
+  lesson: 经理边陲当以安民足食为本兼施恩威方能久安无事
+  summary_first_person: 吾福康安起自勋戚历任陕甘总督等职乾隆五十年督陕甘时报平罗垦田四十五顷有奇又筹划访拿燕起并议喀什噶尔驻兵事宜凡边务不敢懈怠惟愿田野日辟兵民相安以仰副圣主委任耳
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1228.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1228.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71245.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71245.html
 endeavors:
 - id: guji-福康安-endeavor-1
-  title_zh: 玉门惠回堡地震抚恤查勘
-  summary_zh: 肃州玉门地震后筹借口粮抚恤并奉旨预备亲往查勘
+  title_zh: 陕甘督任经理平罗垦田
+  summary: 督甘期间清丈荒熟以垦田养民充仓平价为务据实奏报平罗新垦熟地
   phases:
   - key: brewing
-    name: 兰州以东勘办安营设汛闻灾
+    name: 履勘平罗荒地
     labels:
-      zh:
-      - 巡边
-    start_date: 1785-03
-    highlight_event_id: guji-福康安-event-2
+      zh: 筹垦
+    start_date: 1785-06-01
+    highlight_event_id: guji-福康安-event-1
   - key: breakthrough
-    name: 奏报灾情请先借粮抚恤
+    name: 丈出熟地四十五顷
     labels:
-      zh:
-      - 奏报
-    start_date: 1785-04
-    highlight_event_id: guji-福康安-event-2
+      zh: 报垦
+    start_date: 1785-11-01
+    highlight_event_id: guji-福康安-event-1
   - key: climax
-    name: 奉旨训问督饬亲往查办
+    name: 疏报升科归额
     labels:
-      zh:
-      - 奉旨
-    start_date: 1785-05
-    highlight_event_id: guji-福康安-event-2
+      zh: 升科
+    start_date: 1785-12-10
+    highlight_event_id: guji-福康安-event-1
   - key: closure
-    name: 会勘宁静与否核定恤例
+    name: 归仓备赈平市价
     labels:
-      zh:
-      - 核恤
-    start_date: 1785-05
-    highlight_event_id: guji-福康安-event-2
+      zh: 养民
+    start_date: 1786-01-01
+    highlight_event_id: guji-福康安-event-1
   decisions:
-  - date: 1785-04
-    title_zh: 先令藩司驰往查勘借粮
-    rationale: 关外瘠土灾猝先借口粮救急再照例正恤以安灾黎
-  - date: 1785-05
-    title_zh: 预备亲赴惠回堡白杨河督抚
-    rationale: 圣心轸念边氓非亲勘不能明倒塌伤损之实以定抚恤
+  - date: 1785-12-10
+    title_zh: 据实丈报不虚增
+    rationale: 以实数上闻方免加赋累民且可核仓储以备赈粜
 - id: guji-福康安-endeavor-2
-  title_zh: 西宁贵德营制改革与巴里坤屯务整顿
-  summary_zh: 奏改西宁马步营制以纾兵食并会勘巴里坤水土兵差
+  title_zh: 经略西陲访拿燕起筹防
+  summary: 遣员深入布鲁特部落访拿在逃罪犯燕起并与那尔巴图等协缉筹议明春增兵喀什噶尔
   phases:
   - key: brewing
-    name: 西宁贵德极边寒苦召募维艰
+    name: 遣萨尔察访拿
     labels:
-      zh:
-      - 边防
-    start_date: 1785-04
-    highlight_event_id: guji-福康安-event-1
+      zh: 访缉
+    start_date: 1785-10-01
+    highlight_event_id: guji-福康安-event-2
   - key: breakthrough
-    name: 奏请减马增步以省马价裕食用
+    name: 访得逃往喀尔提金
     labels:
-      zh:
-      - 改制
-    start_date: 1785-04
-    highlight_event_id: guji-福康安-event-1
+      zh: 得踪
+    start_date: 1785-12-01
+    highlight_event_id: guji-福康安-event-2
   - key: climax
-    name: 巴里坤加种水不足兵苦累具禀
+    name: 再派和扎什协缉
     labels:
-      zh:
-      - 屯政
-    start_date: 1785-04
-    highlight_event_id: guji-福康安-event-3
+      zh: 协缉
+    start_date: 1785-12-18
+    highlight_event_id: guji-福康安-event-2
   - key: closure
-    name: 奉命会同新任都统亲勘定章
+    name: 议定雪融增兵之期
     labels:
-      zh:
-      - 会勘
-    start_date: 1785-05
-    highlight_event_id: guji-福康安-event-3
+      zh: 筹防
+    start_date: 1786-04-01
+    highlight_event_id: guji-福康安-event-2
   decisions:
-  - date: 1785-04
-    title_zh: 贵德营减马兵改设步兵
-    rationale: 商贩稀少马价昂贵月饷不敷改步可纾兵艰而存边备
-  - date: 1785-05
-    title_zh: 亲往巴里坤会勘屯田渠水
-    rationale: 有地短水兵少差多非亲履其地不能酌定加种裁汰之宜以图永行
+  - date: 1785-12-18
+    title_zh: 暂缓增兵俟雪融再定
+    rationale: 此时添驻徒劳师糜饷俟明春未获再调伊犁兵六百驻喀什噶尔以节饷而存威
 events:
 - id: guji-福康安-event-birth
-  title_zh: 出生于勋门
-  date: 1754
+  title_zh: 出生于勋戚之家
+  date: 1754-01-01
   year_of: 1754
-  place_zh: 京师
-  description: 乾隆十九年生于富察氏家世受恩早蒙豢养以侍卫发端
-- id: guji-福康安-event-1
-  title_zh: 奏改西宁贵德营马步之制
-  date: 1785-04
-  year_of: 1785
-  place_zh: 西宁贵德营
-  description: 以极边寒苦商贩稀少奏减马兵一百十九名改设步兵守兵全改步兵获准行
-- id: guji-福康安-event-2
-  title_zh: 奏报玉门惠回堡地震请恤
-  date: 1785-04
-  year_of: 1785
-  place_zh: 肃州玉门惠回堡白杨河
-  description: 三月初十酉刻地震房屋倒塌人口损伤奏请饬司查勘先借口粮再照例抚恤
-- id: guji-福康安-event-3
-  title_zh: 奏请会勘巴里坤屯务
-  date: 1785-05
-  year_of: 1785
-  place_zh: 巴里坤
-  description: 以渠水不敷浇灌兵少差多磨夫工价裁汰后兵苦累请亲往会同确勘定章
+  description: 乾隆十九年生于富察氏家为大学士傅恒之子自幼养于内廷
 - id: guji-福康安-event-death
-  title_zh: 军中病故追赠恤
-  date: 1793-07-02
-  year_of: 1793
-  place_zh: 军营
-  description: 乾隆五十八年五月在军病故圣心轸惜追赠优恤谥文襄配享如例
+  title_zh: 病卒于军中
+  date: 1796-07-02
+  year_of: 1796
+  description: 嘉庆元年征苗疆回师途中病卒追封嘉勇郡王谥文襄
+- id: guji-福康安-event-1
+  title_zh: 疏报平罗开垦熟地
+  date: 1785-12-10
+  year_of: 1785
+  description: 以陕甘总督疏报平罗县开垦熟地四十五顷八十六亩以充仓储备赈济
+- id: guji-福康安-event-2
+  title_zh: 奏报访拿燕起并筹增兵
+  date: 1785-12-18
+  year_of: 1785
+  description: 奏称萨尔察访得燕起逃往喀尔提金已再派和扎什等往拿并交布鲁特协缉请明春雪融添驻伊犁兵于喀什噶尔

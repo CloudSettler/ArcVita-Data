@@ -11,118 +11,138 @@ person:
       is_circa: false
       raw: 康熙五十八年
     death:
-      date: '1805-01-24'
-      precision: day
+      date: '1804'
+      precision: year
       is_circa: false
-      raw: 嘉庆九年十二月二十四日
+      raw: 嘉庆九年十二月
   birth_date: '1719'
-  death_date: '1805-01-24'
+  death_date: '1804'
   era: 清
   reign_ref: 乾隆
-  archetype: 持正守法之清官
+  archetype: 清正文臣
   dilemmas:
-  - 公款交商生息以济采买与防商力单薄亏折挪借之间如何权衡
-  - 京堂勤慎供职与外任整饬营伍秉公举劾之间如何不瞻徇
-  lesson: 秉公持正不瞻徇方不负委任经理公款当核商力虚实以防亏空
-  summary_first_person: 吾刘墉出身簪缨早登科甲历任学政巡抚尚书协办大学士在湖南抚任内筹办平粜社谷息银欲提回旧借以资采买复议以社息银交商生息在京以勤慎供职蒙优奖深知公款生息易滋弊窦用人举劾当据实秉公不敢模棱瞻徇一生守法持平以无忝厥职为念
+  - 承上核查与保全馆臣体面之间如何两全
+  - 持身清廉与周旋权贵之间如何自保
+  lesson: 核实典籍以存真端正士习以劝廉凡事当以实为准
+  summary_first_person: 吾承家学登第入仕历学政尚书参赞军务蒙派清查四库字数书籍惟以核实为职不敢以浮词塞责
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71176.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71176.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1244.md
 endeavors:
 - id: guji-刘墉-endeavor-1
-  title_zh: 湖南巡抚任内筹办平粜社谷息银
-  summary: 前任湖南抚臣颜希深拨借平粜赢余银四万两交典商生息刘墉议提回旧款以资采买另以社谷息银拨商生息后因商力单薄停发事发乾隆四十八年舒常覆奏牵连旧议
+  title_zh: 受命清查四库全书
+  summary_zh: 乾隆五十年奉派与福长安等详查全书缮字总数及各省采进捐交书籍分别办理
   phases:
   - key: brewing
-    name: 平粜赢余拨商生息
+    name: 四库开馆纂修
     labels:
-      zh: 筹款生息
-    start_date: '1776'
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 酝酿
+    start_date: '1773-03-01'
+    highlight_event_id: guji-刘墉-event-siku-start
   - key: breakthrough
-    name: 提回旧借改以社息拨商
+    name: 副总裁总理校勘
     labels:
-      zh: 更正款项
-    start_date: '1777'
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 突破
+    start_date: '1782-06-01'
+    highlight_event_id: guji-刘墉-event-siku-start
   - key: climax
-    name: 社息现存司库商惮承领
+    name: 奉旨清查字数
     labels:
-      zh: 商力难支
-    start_date: '1778'
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 高潮
+    start_date: '1785-12-04'
+    highlight_event_id: guji-刘墉-event-siku-check
   - key: closure
-    name: 舒常覆奏停发交核
+    name: 分别办理具奏
     labels:
-      zh: 停发核实
-    start_date: '1783-03-07'
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 收束
+    start_date: '1786-02-01'
+    highlight_event_id: guji-刘墉-event-siku-check
   decisions:
-  - date: '1777'
-    title_zh: 奏请提回平粜借商银两
-    rationale: 为存采买之本防典商亏折故请提回旧借银两归仓备用
-  - date: '1777'
-    title_zh: 另拨社谷息银四万交商取息
-    rationale: 以社谷息银接续生息既不废采买又可收息济公权衡新旧之法
+  - date: '1785-12-04'
+    title_zh: 奏请逐细详查字数
+    rationale: 左周奏请清查缮字总数所奏合实故赞同派员核实以杜冒滥
+  - date: '1786-02-01'
+    title_zh: 分别采进捐交书籍办理
+    rationale: 各省进书源流不一若不分别去取则伪滥并存故须详查具奏
 - id: guji-刘墉-endeavor-2
-  title_zh: 尚书协办勤慎供职蒙京察优奖
-  summary: 刘墉由外转内任尚书协办大学士以勤慎称职于乾隆四十八年京察蒙旨交部议叙并于刑名顶凶等议秉持平允之体
+  title_zh: 学政刑名清廉理政
+  summary_zh: 早年督学安徽江苏整饬士习后历尚书军机以清慎勤勉见称
   phases:
   - key: brewing
-    name: 外转内任尚书
+    name: 进士入仕养望
     labels:
-      zh: 入赞纶扉
-    start_date: '1780'
-    highlight_event_id: guji-刘墉-event-jingcha
+      zh: 酝酿
+    start_date: '1751-05-12'
+    highlight_event_id: guji-刘墉-event-jinshi
   - key: breakthrough
-    name: 勤慎称职著声
+    name: 督学安徽整饬
     labels:
-      zh: 勤慎供职
-    start_date: '1782'
-    highlight_event_id: guji-刘墉-event-jingcha
+      zh: 突破
+    start_date: '1759-08-01'
+    highlight_event_id: guji-刘墉-event-edu
   - key: climax
-    name: 京察届期列名甄别
+    name: 历部尚书参赞
     labels:
-      zh: 京察甄别
-    start_date: '1783-04-12'
-    highlight_event_id: guji-刘墉-event-jingcha
+      zh: 高潮
+    start_date: '1789-04-01'
+    highlight_event_id: guji-刘墉-event-shangshu
   - key: closure
-    name: 奉旨交部议叙优奖
+    name: 入阁持正守廉
     labels:
-      zh: 优奖议叙
-    start_date: '1783-04-12'
-    highlight_event_id: guji-刘墉-event-jingcha
+      zh: 收束
+    start_date: '1797-03-01'
+    highlight_event_id: guji-刘墉-event-shangshu
   decisions:
-  - date: '1783-04-12'
-    title_zh: 恪守勤慎以应京察
-    rationale: 以敬公称职为心不钓虚誉不徇私情故能膺优叙
-  - date: '1783-04-11'
-    title_zh: 持平刑名不轻徇顶凶减等
-    rationale: 顶凶受贿舞弊当核本案轻重分别情实缓决不可率行照覆致失平允
+  - date: '1759-08-01'
+    title_zh: 督学务端士习
+    rationale: 生员为齐民表率荡踰闲检者当倍加惩治故严核行止以安良善
+  - date: '1789-04-01'
+    title_zh: 守廉不附权要
+    rationale: 物价腾贵吏治易滋侵渔与其更张扰民不如守正核实以纾民力
 events:
 - id: guji-刘墉-event-birth
-  title_zh: 出生
-  type: birth
+  title_zh: 刘墉出生于诸城
   date: '1719'
   year_of: 1719
-  description: 康熙五十八年生于山东诸城刘氏簪缨之家父刘统勋官至大学士
-- id: guji-刘墉-event-hunan
-  title_zh: 湖南奏议社谷息银交商
+  type: birth
+  description_zh: 康熙五十八年生于山东诸城大学士刘统勋之子
+- id: guji-刘墉-event-jinshi
+  title_zh: 乾隆十六年登进士
+  date: '1751-05-12'
+  year_of: 1751
   type: career
-  date: '1778'
-  year_of: 1778
-  endeavor_ref: guji-刘墉-endeavor-1
-  description: 任湖南巡抚时奏请将平粜赢余提回另以社谷息银四万两交商生息后以商力单薄未发事见乾隆四十八年三月舒常覆奏本
-- id: guji-刘墉-event-jingcha
-  title_zh: 京察蒙旨交部议叙
-  type: career
-  date: '1783-04-12'
-  year_of: 1783
+  description_zh: 登辛未科进士授翰林院庶吉士入仕
   endeavor_ref: guji-刘墉-endeavor-2
-  description: 乾隆四十八年三月辛丑京察奉谕尚书刘墉勤慎称职宜加优奖著交部议叙
+- id: guji-刘墉-event-edu
+  title_zh: 提督安徽学政
+  date: '1759-08-01'
+  year_of: 1759
+  type: career
+  description_zh: 督学安徽整躬饬己以端士习
+  endeavor_ref: guji-刘墉-endeavor-2
+- id: guji-刘墉-event-siku-start
+  title_zh: 充四库全书副总裁
+  date: '1773-03-01'
+  year_of: 1773
+  type: career
+  description_zh: 四库开馆充副总裁总理校勘纂修事宜
+  endeavor_ref: guji-刘墉-endeavor-1
+- id: guji-刘墉-event-siku-check
+  title_zh: 奉派清查缮字书籍
+  date: '1785-12-04'
+  year_of: 1785
+  type: career
+  description_zh: 乾隆五十年十二月丁丑与福长安王杰等奉派逐细详查全书字数及采进捐交书籍
+  endeavor_ref: guji-刘墉-endeavor-1
+- id: guji-刘墉-event-shangshu
+  title_zh: 任吏部尚书直军机
+  date: '1789-04-01'
+  year_of: 1789
+  type: career
+  description_zh: 迁吏部尚书直军机处以清慎勤勉见知
+  endeavor_ref: guji-刘墉-endeavor-2
 - id: guji-刘墉-event-death
-  title_zh: 逝世
+  title_zh: 刘墉卒于京师
+  date: '1804'
+  year_of: 1804
   type: death
-  date: '1805-01-24'
-  year_of: 1805
-  description: 嘉庆九年十二月二十四日卒于京师谥文清
+  description_zh: 嘉庆九年十二月卒于京师谥文清
