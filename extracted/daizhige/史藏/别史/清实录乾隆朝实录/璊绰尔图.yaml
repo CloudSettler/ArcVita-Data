@@ -1,0 +1,102 @@
+person:
+  qid: guji-璊绰尔图
+  name_zh: 璊绰尔图
+  names:
+    zh: 璊绰尔图
+    en: Manchuorotu
+  lifespan:
+    birth:
+      date: 1720
+      precision: year
+      is_circa: true
+      raw: 生年不详约雍正年间
+    death:
+      date: 1759
+      precision: year
+      is_circa: false
+      raw: 乾隆二十四年七月庚午殉节
+  birth_date: 1720
+  death_date: 1759
+  era: 清
+  reign_ref: 乾隆
+  archetype: 忠烈武士
+  dilemmas:
+  - 以百名孤军深入侦探而遇千余贼党围绝当何以处
+  - 踞空屋矢尽被执而贼酋胁降当屈从求活抑骂贼捐躯
+  lesson: 矢尽援绝而不屈以身殉国乃见忠义炳然可励后人
+  summary_first_person: 我以侍卫从大军征回部与达什车凌等率百人前探忽遇贼党千余人遮断我与莫宁察各踞空屋死守矢尽而陷被执不屈骂贼而死幸蒙上悯忠烈得以传名
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0593.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0593.html
+endeavors:
+- id: guji-璊绰尔图-endeavor-1
+  title_zh: 随征喀什噶尔前路侦探
+  summary: 随定边将军兆惠进剿霍集占兄弟与达什车凌等率百名兵前出侦探敌情
+  phases:
+  - key: brewing
+    name: 受命前探
+    labels:
+      zh: 侦探筹划
+    start_date: 1759-06-01
+    highlight_event_id: guji-璊绰尔图-event-1
+  - key: breakthrough
+    name: 深入贼境遇敌
+    labels:
+      zh: 遭遇遮断
+    start_date: 1759-07-01
+    highlight_event_id: guji-璊绰尔图-event-1
+  decisions:
+  - date: 1759-06-15
+    title_zh: 率百人随达什车凌前侦
+    rationale: 为大军进取喀什噶尔探明逆党所在不避险远深入
+  - date: 1759-07-05
+    title_zh: 遇千余贼党即分踞空屋
+    rationale: 众寡悬绝难突围唯据屋固守以待后援牵制贼势
+- id: guji-璊绰尔图-endeavor-2
+  title_zh: 空屋固守骂贼殉节
+  summary: 矢尽被执面斥逆酋断颈捐躯以忠义感动朝野蒙恩优恤
+  phases:
+  - key: climax
+    name: 空屋鏖战矢尽
+    labels:
+      zh: 固守待援
+    start_date: 1759-07-06
+    highlight_event_id: guji-璊绰尔图-event-2
+  - key: closure
+    name: 被执骂贼捐躯
+    labels:
+      zh: 忠烈殉国
+    start_date: 1759-07-07
+    highlight_event_id: guji-璊绰尔图-event-death
+  decisions:
+  - date: 1759-07-06
+    title_zh: 矢尽犹悉力拒贼不降
+    rationale: 身为侍卫受恩深重纵力竭不肯开门投贼以全忠贞
+  - date: 1759-07-07
+    title_zh: 被擒骂贼不屈就义
+    rationale: 逆酋淫威不足畏以一死明大义使叛逆知惧忠臣知劝
+events:
+- id: guji-璊绰尔图-event-birth
+  type: birth
+  title_zh: 出生
+  date: 1720
+  year_of: 1720
+  description: 生年不详约雍正年间出身侍卫跻身固济尔巴图鲁之列
+- id: guji-璊绰尔图-event-1
+  type: career
+  title_zh: 率百人前侦遇贼被围
+  date: 1759-07-05
+  year_of: 1759
+  description: 与达什车凌莫宁察等带兵百名前途侦探猝遇贼党千余人被遮断各踞空屋固守
+- id: guji-璊绰尔图-event-2
+  type: career
+  title_zh: 空屋矢尽被执
+  date: 1759-07-06
+  year_of: 1759
+  description: 发矢已尽莫宁察遇害璊绰尔图与索伦官岱屯被贼拿去察哈尔丹巴林沁开门投贼
+- id: guji-璊绰尔图-event-death
+  type: death
+  title_zh: 骂贼不屈遇害
+  date: 1759
+  year_of: 1759
+  description: 被执后骂贼不屈为逆酋手断其颈岱屯亦被害朝廷嘉悯命查子嗣加恩优恤以励忠贞
