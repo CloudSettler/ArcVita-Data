@@ -6,141 +6,143 @@ person:
     en: Zhaohui
   lifespan:
     birth:
-      date: '1708'
+      date: 1708-01-01
       precision: year
-      is_circa: false
-      raw: 康熙四十七年生
+      is_circa: true
+      raw: 康熙四十七年
     death:
-      date: '1764'
+      date: 1764-12-10
       precision: year
-      is_circa: false
-      raw: 乾隆二十九年卒
-  birth_date: '1708'
-  death_date: '1764'
+      is_circa: true
+      raw: 乾隆二十九年十月
+  birth_date: 1708-01-01
+  death_date: 1764-12-10
   era: 清代
   reign_ref: 乾隆
-  archetype: 开疆靖远之肱股名将
+  archetype: 开疆名将
   dilemmas:
-  - 深入绝域粮尽援绝之时坚守待援还是突围求全
-  - 回城初定众心未附之际严法肃纪还是宽仁招徕
-  - 大功告成受宠之日谦退守位还是总理宿卫再任驱驰
-  lesson: 以忠勇任绝域以持重定新疆功成不居方保令名
-  summary_first_person: 余兆惠苏完瓜尔佳氏出身满洲正黄旗以笔帖式从军西陲凡准部回部之役皆在行间曾于黑水固守待援终平叶尔羌喀什噶尔乾隆二十五年凯旋受宴膺御前大臣总理銮仪卫事以躬冒矢石为报国之本愿也
+  - 孤军深入绝域时坚守待援与突围求全之抉择
+  - 军功极盛时谦退守分与恃功自专之抉择
+  lesson: 忠勤坚忍可定绝域，善始善终方全令名
+  summary_first_person: 吾起自禁卫，奉命西征，转战准回，黑水坚守，终克两城，乾隆二十五年凯旋受朝，蒙上宴赉，此生以马革裹尸为志，以不负国恩为安
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70607.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70608.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70608.html
 endeavors:
 - id: guji-兆惠-endeavor-1
-  title_zh: 西征平定准噶尔及回部两部
-  summary_zh: 自乾隆二十年出师伊犁至乾隆二十四年肃清叶尔羌喀什噶尔勒功西域
+  title_zh: 平定准噶尔安定北疆
+  summary: 随大军出征准噶尔，直捣伊犁，再定叛乱，为西域底定奠基
   phases:
   - key: brewing
-    name: 北路出师定伊犁
+    name: 随营西征初建功
     labels:
       zh:
-      - 出塞经略
-    start_date: '1755'
-    highlight_event_id: guji-兆惠-event-1
+      - 西征
+      - 准噶尔
+    start_date: 1754-01-01
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: breakthrough
-    name: 黑水固守待援
+    name: 直捣伊犁定边陲
     labels:
       zh:
-      - 绝地坚守
-    start_date: '1758'
-    highlight_event_id: guji-兆惠-event-2
+      - 伊犁
+      - 奇功
+    start_date: 1755-01-01
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: climax
-    name: 叶尔羌喀什噶尔克捷
+    name: 再定伊犁平叛乱
     labels:
       zh:
-      - 大功告成
-    start_date: '1759'
-    highlight_event_id: guji-兆惠-event-2
+      - 平叛
+      - 坚忍
+    start_date: 1756-01-01
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: closure
-    name: 良乡坛前凯旋受劳
+    name: 北路底定转战南疆
     labels:
       zh:
-      - 振旅凯旋
-    start_date: '1760'
-    highlight_event_id: guji-兆惠-event-3
+      - 底定
+      - 转进
+    start_date: 1757-01-01
+    highlight_event_id: guji-兆惠-event-huibu
   decisions:
-  - date: '1758'
-    title_zh: 黑水营筑栅固守待援
-    rationale: 粮马俱乏突围必溃不如结营自保以待大军可全孤军而收后效
-  - date: '1759'
-    title_zh: 乘胜分道进剿二城
-    rationale: 贼势已穷人心离散宜分兵扼要并进以竟全功不可迁延坐失机宜
+  - date: 1755-05-01
+    title_zh: 请以轻骑直取伊犁
+    rationale: 趁达瓦齐内部分裂猝然不备，奇兵突进可一举定局
+  - date: 1756-08-01
+    title_zh: 阿睦尔撒纳叛后坚持进剿
+    rationale: 北疆若弃则全功尽废，虽险亦须屯军坚守以待大军
 - id: guji-兆惠-endeavor-2
-  title_zh: 凯旋膺宠总理銮仪宿卫
-  summary_zh: 乾隆二十五年凯旋后授御前大臣在紫禁城乘马署理兵部总理銮仪卫事
+  title_zh: 平定回部凯旋受赏
+  summary: 率军南下平大小和卓，黑水营坚守待援，克复叶尔羌喀什噶尔，乾隆二十五年凯旋
   phases:
   - key: brewing
-    name: 泰陵扈从后先授任
+    name: 奉命南下定回城
     labels:
       zh:
-      - 扈从近御
-    start_date: '1760'
-    highlight_event_id: guji-兆惠-event-3
+      - 回部
+      - 南征
+    start_date: 1757-01-01
+    highlight_event_id: guji-兆惠-event-huibu
   - key: breakthrough
-    name: 授御前大臣紫禁乘马
+    name: 黑水营坚守待援
     labels:
       zh:
-      - 特沐殊恩
-    start_date: '1760'
-    highlight_event_id: guji-兆惠-event-4
+      - 坚守
+      - 绝域
+    start_date: 1758-01-01
+    highlight_event_id: guji-兆惠-event-huibu
   - key: climax
-    name: 总理銮仪卫署兵部
+    name: 克复叶尔羌喀什噶尔
     labels:
       zh:
-      - 总理宿卫
-    start_date: '1760'
-    highlight_event_id: guji-兆惠-event-4
+      - 戡定
+      - 西域
+    start_date: 1759-01-01
+    highlight_event_id: guji-兆惠-event-huibu
   - key: closure
-    name: 军功懋著贻范后世
+    name: 凯旋受朝丰泽赐宴
     labels:
       zh:
-      - 功成身后
-    start_date: '1764'
-    highlight_event_id: guji-兆惠-event-death
+      - 凯旋
+      - 恩赉
+    start_date: 1760-04-16
+    highlight_event_id: guji-兆惠-event-triumph
   decisions:
-  - date: '1760'
-    title_zh: 辞谢浮誉祗受宿卫之任
-    rationale: 武臣功高宜近御宿卫以示倚毗受命即当勉供驱策不敢自满
-  - date: '1760'
-    title_zh: 兼署兵部整饬军实
-    rationale: 西事初平马政台站皆须撙节妥办当因地随时经理以固边防
+  - date: 1758-10-01
+    title_zh: 黑水营被围坚守不撤
+    rationale: 一撤则军威大挫回众四合，坚守可待援军内外夹击
+  - date: 1759-06-01
+    title_zh: 穷追和卓余部务期根除
+    rationale: 和卓不灭则西域难安，宜乘胜进军分道合围
 events:
 - id: guji-兆惠-event-birth
-  title_zh: 出生于满洲苏完瓜尔佳氏家
-  date: '1708'
+  title_zh: 出生于乌雅氏家
+  date: 1708-01-01
   year_of: 1708
-  place_zh: 京师
-  description_zh: 康熙四十七年生员袭世职后以笔帖式入仕
-- id: guji-兆惠-event-1
-  title_zh: 领兵出塞平定伊犁
-  date: '1755'
+  description: 康熙四十七年出生，隶正黄旗满洲，后起家禁卫
+- id: guji-兆惠-event-zhungar
+  title_zh: 直捣伊犁平定准噶尔
+  date: 1755-09-01
   year_of: 1755
-  place_zh: 伊犁
-  description_zh: 随大军北路进兵招抚准部平定伊犁始建奇功
-- id: guji-兆惠-event-2
-  title_zh: 黑水营固守待援复进克二城
-  date: '1758'
-  year_of: 1758
-  place_zh: 叶尔羌黑水
-  description_zh: 深入被围筑栅固守三阅月待援至复进平叶尔羌喀什噶尔
-- id: guji-兆惠-event-3
-  title_zh: 良乡城南凯旋行抱见礼赐宴
-  date: '1760'
+  description: 随军西征直取伊犁，擒达瓦齐，北疆初定
+- id: guji-兆惠-event-huibu
+  title_zh: 克复叶尔羌喀什噶尔平回部
+  date: 1759-09-01
+  year_of: 1759
+  description: 转战南疆，历黑水之围，终克复回城，大小和卓西遁
+- id: guji-兆惠-event-triumph
+  title_zh: 太和殿凯旋行庆贺礼
+  date: 1760-04-16
   year_of: 1760
-  place_zh: 良乡城南黄幄
-  description_zh: 乾隆二十五年二月壬寅定边将军兆惠副将军富德等振旅凯旋上设卤簿登坛受礼赐坐慰劳赐宴
-- id: guji-兆惠-event-4
-  title_zh: 授御前大臣总理銮仪卫署兵部
-  date: '1760'
+  description: 乾隆二十五年三月丙午朔，上御太和殿受朝，凯旋将军兆惠富德率从征各官行庆贺礼
+- id: guji-兆惠-event-feast
+  title_zh: 丰泽园赐宴赏银币
+  date: 1760-04-18
   year_of: 1760
-  place_zh: 京师圆明园
-  description_zh: 乾隆二十五年二月己亥谕兆惠富德授御前大臣紫禁城乘马以兆惠总理銮仪卫事署理兵部尚书
+  description: 乾隆二十五年三月戊申，上幸丰泽园御大幄次赐兆惠富德及诸将士并新附回部贝勒等宴，次第赐酒赏银币
 - id: guji-兆惠-event-death
-  title_zh: 病卒于京师
-  date: '1764'
+  title_zh: 病逝于京师
+  date: 1764-12-10
   year_of: 1764
-  place_zh: 京师
-  description_zh: 乾隆二十九年卒于位谥文襄配享紫光阁列首功之臣
+  description: 乾隆二十九年十月病逝，谥文襄，配享紫光阁，图形首列
