@@ -1,0 +1,127 @@
+person:
+  qid: guji-郭义恭
+  name_zh: 郭义恭
+  names:
+    zh: 郭义恭
+    en: Guo Yigong
+  lifespan:
+    birth:
+      date: '0260'
+      precision: year
+      is_circa: true
+      raw: 西晋初年约生
+    death:
+      date: '0310'
+      precision: year
+      is_circa: true
+      raw: 西晋末年约卒
+  birth_date: '0260'
+  death_date: '0310'
+  era: 西晋
+  reign_ref: 晋武帝至怀帝间
+  archetype: 博物地理志人
+  dilemmas:
+  - 四方见闻繁杂而图籍不足，核验名实两难
+  - 专记物产风土而略于典制，恐流于琐碎难登大雅
+  lesson: 博采方物以存风土，必详核名实，使后人可考可据
+  summary_first_person: 我生于西晋之世，喜览方志，好考草木鸟兽玉石果蓏，搜集交州蜀地辽东敦煌诸方所出，编成广志一卷，以记山川物产之异，使后人览一编而知九州风土
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B9%BF%E5%BF%97.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B9%BF%E5%BF%97.html
+endeavors:
+- id: guji-郭义恭-endeavor-1
+  title_zh: 编撰广志记四方物产
+  summary: 搜集晋时四方草木果实禽兽玉石风俗，分类记述，成广志一书以备博物地理之考
+  phases:
+  - key: brewing
+    name: 博览搜集
+    labels:
+      zh: 搜集见闻
+    start_date: 0280
+    highlight_event_id: guji-郭义恭-event-collect
+  - key: breakthrough
+    name: 草创体例
+    labels:
+      zh: 立纲记述
+    start_date: 0290
+    highlight_event_id: guji-郭义恭-event-compile
+  - key: climax
+    name: 成书流传
+    labels:
+      zh: 成书传世
+    start_date: 0298
+    highlight_event_id: guji-郭义恭-event-complete
+  - key: closure
+    name: 补正传抄
+    labels:
+      zh: 传抄补正
+    start_date: '0302'
+    highlight_event_id: guji-郭义恭-event-complete
+  decisions:
+  - date: 0285
+    title_zh: 立志专记方物
+    rationale: 见汉魏博物之书散佚，欲以一书汇聚草木果瓜玉石之实，使名实可考
+  - date: 0292
+    title_zh: 以类相从不系郡国
+    rationale: 四方物产交错难按州郡划分，故以果木谷蔬禽兽玉石为纲，便于检览
+- id: guji-郭义恭-endeavor-2
+  title_zh: 考订名物辨别真伪
+  summary: 亲询交广蜀地商旅使者，参验荔枝槟榔龙眼芋瓜梨枣胡桃诸物形态滋味，辨正旧说讹误
+  phases:
+  - key: brewing
+    name: 询访商旅
+    labels:
+      zh: 询访核实
+    start_date: 0283
+    highlight_event_id: guji-郭义恭-event-collect
+  - key: breakthrough
+    name: 辨正异名
+    labels:
+      zh: 考订异名
+    start_date: 0291
+    highlight_event_id: guji-郭义恭-event-compile
+  - key: climax
+    name: 详记滋味形态
+    labels:
+      zh: 详述形态
+    start_date: 0296
+    highlight_event_id: guji-郭义恭-event-complete
+  - key: closure
+    name: 存疑以待来者
+    labels:
+      zh: 存疑传信
+    start_date: '0303'
+    highlight_event_id: guji-郭义恭-event-death
+  decisions:
+  - date: 0288
+    title_zh: 以目验耳闻为据
+    rationale: 旧籍多传闻失实，必询交趾蜀汉来人，验其形色滋味方敢落笔
+  - date: 0295
+    title_zh: 存异说不妄断
+    rationale: 如黍种芋种名目繁多难尽考，宁并存众说以待后人订正
+events:
+- id: guji-郭义恭-event-birth
+  title_zh: 生于西晋初年
+  date: '0260'
+  year_of: 260
+  description: 约生于西晋初年，自幼喜览方志博物之书
+- id: guji-郭义恭-event-collect
+  title_zh: 四方搜集物产见闻
+  date: 0285
+  year_of: 285
+  description: 询访交广蜀地商旅使者，搜集槟榔荔枝龙眼芋瓜梨枣玉石诸物状貌
+- id: guji-郭义恭-event-compile
+  title_zh: 草创广志体例
+  date: 0292
+  year_of: 292
+  description: 以类相从草创广志，记木实鸟兽玉石瓜果之属，辨正名物异同
+- id: guji-郭义恭-event-complete
+  title_zh: 广志成书流传
+  date: '0300'
+  year_of: 300
+  description: 广志一卷大体告成，记临邛粉井珠崖巢居永昌汉竹诸事，传抄于世
+- id: guji-郭义恭-event-death
+  title_zh: 卒于西晋末年
+  date: '0310'
+  year_of: 310
+  description: 约卒于西晋末年，所著广志经后世传抄多有散佚今仅存辑本
