@@ -1,0 +1,141 @@
+person:
+  qid: guji-文丰
+  name_zh: 文丰
+  names:
+    zh: 文丰
+    en: Wenfeng
+  lifespan:
+    birth:
+      date: '1800-01-01'
+      precision: year
+      is_circa: true
+      raw: 清嘉庆年间生于管园世家
+    death:
+      date: '1860-10-18'
+      precision: day
+      is_circa: false
+      raw: 咸丰十年园破投福海殉
+  birth_date: '1800-01-01'
+  death_date: '1860-10-18'
+  era: 清
+  reign_ref: 咸丰
+  archetype: 弄权而殉节之园仆
+  dilemmas:
+  - 以进献声色固宠邀功还是守正拒贿
+  - 园破兵至委身求活还是投水殉节
+  lesson: 以私媚固宠虽赫赫一时终召祸临难一死始全节
+  summary_first_person: 我世守圆明园咸丰朝继任总管因进四春得宠交通粤商广纳贿赂权倾一时及英法兵至我当门拒兵不成遣散嫔御投福海以殉惟以一死谢先帝耳
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/圆明园总管世家.html
+endeavors:
+- id: guji-文丰-endeavor-1
+  title_zh: 总管园务进四春固宠纳贿
+  summary: 世掌园务逢文宗耽于声色进献杏花春等四春得宠兼管院务交通吴越闽粤豪商招权纳贿权倾园居
+  phases:
+  - key: brewing
+    name: 世守园务熟谙掌故
+    labels:
+      zh: 守成经营
+    start_date: '1851-01-01'
+    highlight_event_id: guji-文丰-event-jieren
+  - key: breakthrough
+    name: 进献杏花春海棠春得宠
+    labels:
+      zh: 邀宠固位
+    start_date: '1855-01-01'
+    highlight_event_id: guji-文丰-event-jinchun
+  - key: climax
+    name: 交通粤商招权纳贿极盛
+    labels:
+      zh: 擅权纳贿
+    start_date: '1858-01-01'
+    highlight_event_id: guji-文丰-event-jinchun
+  - key: closure
+    name: 四春争宠那拉氏忌怨伏祸
+    labels:
+      zh: 盛极伏祸
+    start_date: '1860-06-01'
+    highlight_event_id: guji-文丰-event-jinchun
+  decisions:
+  - date: '1855-06-01'
+    title_zh: 献杏花春海棠春于文宗
+    rationale: 迎合上意以声色固宠兼领院务以扩权
+  - date: '1858-03-01'
+    title_zh: 引粤商李某交通献珠儿
+    rationale: 藉商贾珍物充饰四春院宇并以包办园工许商取偿互利
+- id: guji-文丰-endeavor-2
+  title_zh: 誓死守园投福海殉节
+  summary: 联军犯京仓猝扈从北狩不及誓以死守当门拒英兵为李三内应破门遂遣散嫔御投福海死
+  phases:
+  - key: brewing
+    name: 联军犯津京师震动
+    labels:
+      zh: 国变纷起
+    start_date: '1860-08-01'
+    highlight_event_id: guji-文丰-event-shouyuan
+  - key: breakthrough
+    name: 当门说退英兵暂全园
+    labels:
+      zh: 直言拒兵
+    start_date: '1860-10-06'
+    highlight_event_id: guji-文丰-event-shouyuan
+  - key: climax
+    name: 李三破门纵火大掠
+    labels:
+      zh: 园破被劫
+    start_date: '1860-10-18'
+    highlight_event_id: guji-文丰-event-shouyuan
+  - key: closure
+    name: 遣散嫔御投海殉园
+    labels:
+      zh: 殉节全名
+    start_date: '1860-10-18'
+    highlight_event_id: guji-文丰-event-death
+  decisions:
+  - date: '1860-10-06'
+    title_zh: 当门拒英兵驻园
+    rationale: 以和议将定禁地不可驻兵为词保全园居兼防奸人假托
+  - date: '1860-10-18'
+    title_zh: 不遁而投福海死
+    rationale: 守卫逃散大势已去锦绣河山送于奸徒之手心力已竭惟一死谢恩
+events:
+- id: guji-文丰-event-birth
+  person_qid: guji-文丰
+  type: birth
+  title_zh: 生于管园世仆之家
+  date: '1800-01-01'
+  year_of: 1800
+  place_zh: 北京圆明园管园世家
+  summary: 高曾以来世掌圆明园务生而熟谙园中掌故
+- id: guji-文丰-event-jieren
+  person_qid: guji-文丰
+  type: career
+  title_zh: 继任圆明园总管
+  date: '1851-01-01'
+  year_of: 1851
+  place_zh: 圆明园
+  summary: 咸丰初继任总管掌园务一切措注每岁夏幸园冬还宫修筑皆命承办
+- id: guji-文丰-event-jinchun
+  person_qid: guji-文丰
+  type: career
+  title_zh: 进献四春得宠交通商贾擅权
+  date: '1856-01-01'
+  year_of: 1856
+  place_zh: 圆明园四春院
+  summary: 先留杏花春于私第奉密诏进献得赏兼管院务复进海棠春牡丹春武陵春三居其三交通粤商李某等招权纳贿权比内府
+- id: guji-文丰-event-shouyuan
+  person_qid: guji-文丰
+  type: career
+  title_zh: 当门拒兵园破被劫
+  date: '1860-10-06'
+  year_of: 1860
+  place_zh: 圆明园宫门
+  summary: 联军入京当门说退英兵李三引众破门守卫逃散宫门火起珍宝被掠二春及诸姬被掳
+- id: guji-文丰-event-death
+  person_qid: guji-文丰
+  type: death
+  title_zh: 投福海殉园
+  date: '1860-10-18'
+  year_of: 1860
+  place_zh: 圆明园福海边
+  summary: 遣小黄门告嫔御自为计驰至福海北拜自陈负恩投水死主事惠丰及小黄门从死者数人
