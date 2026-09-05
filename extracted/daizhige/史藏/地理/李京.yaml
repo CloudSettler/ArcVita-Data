@@ -1,0 +1,144 @@
+person:
+  qid: guji-李京
+  name_zh: 李京
+  names:
+    zh: 李京
+    en: Li Jing
+  lifespan:
+    birth:
+      date: '1260'
+      precision: year
+      is_circa: true
+      raw: 约至元初生于河间
+    death:
+      date: '1315'
+      precision: year
+      is_circa: true
+      raw: 大德以后卒年不详
+  birth_date: '1260'
+  death_date: '1315'
+  era: 元
+  reign_ref: 成宗大德
+  archetype: 亲历纂志之使臣
+  dilemmas:
+  - 道听途说与躬行核实之辨
+  - 贪吏渔食与威惠抚绥之择
+  lesson: 非身所经历不著书以身履山川方能正前人怪诞之失
+  summary_first_person: 余河间李京大德五年奉命宣慰乌蛮值缅事无成诸蛮拒命二年奔走乌蛮六诏金齿白夷备历山川土产风俗乃参众说编云南志略四卷以报政
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%BA%91%E5%8D%97%E5%BF%97%E7%95%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%BA%91%E5%8D%97%E5%BF%97%E7%95%A5.md
+endeavors:
+- id: guji-李京-endeavor-1
+  title_zh: 宣慰乌蛮巡历镇抚
+  summary: 大德五年春奉命宣慰乌蛮值缅事无成诸蛮拒命受省檄措办军储二年奔走乌蛮六诏金齿白夷周履云南
+  phases:
+  - key: brewing
+    name: 奉命宣慰
+    labels:
+      zh: 奉使赴滇
+    start_date: 1301-03
+    highlight_event_id: guji-李京-event-xuanwei
+  - key: breakthrough
+    name: 巡行调发
+    labels:
+      zh: 巡历馈给
+    start_date: 1301-06
+    highlight_event_id: guji-李京-event-xunli
+  - key: climax
+    name: 从征越巂
+    labels:
+      zh: 从军亲历
+    start_date: 1302-12
+    highlight_event_id: guji-李京-event-yuexi
+  - key: closure
+    name: 镇抚周悉
+    labels:
+      zh: 悉知见闻
+    start_date: 1303-01
+    highlight_event_id: guji-李京-event-jinzhi
+  decisions:
+  - date: 1301-03
+    title_zh: 到任即巡行调发馈给镇抚
+    rationale: 群蛮不靖唯亲履山川始知土产风俗虚实不为道听所误
+  - date: 1302-12
+    title_zh: 从脱脱平章平越巂之叛
+    rationale: 亲见战阵夷情方能明刚悍嗜杀之俗与镇抚之要
+- id: guji-李京-endeavor-2
+  title_zh: 编撰云南志略四卷
+  summary: 以二年见闻参考乐史寰宇记樊绰云南志郭松年南诏纪行纠怪诞不经之说成志略四卷以纪土产风气人物材力山川形胜
+  phases:
+  - key: brewing
+    name: 览旧志生疑
+    labels:
+      zh: 考订旧籍
+    start_date: 1301-03
+    highlight_event_id: guji-李京-event-xunli
+  - key: breakthrough
+    name: 山川详得
+    labels:
+      zh: 躬行核实
+    start_date: 1302-12
+    highlight_event_id: guji-李京-event-yuexi
+  - key: climax
+    name: 参考众说编集
+    labels:
+      zh: 编集四卷
+    start_date: 1303-01
+    highlight_event_id: guji-李京-event-jinzhi
+  - key: closure
+    name: 报政上进
+    labels:
+      zh: 进书朝廷
+    start_date: 1303-06
+    highlight_event_id: guji-李京-event-jinzhi
+  decisions:
+  - date: 1303-01
+    title_zh: 以所见参考众说编云南志略
+    rationale: 前人记载多道听途说非身经历必身履而后能悟其失
+  - date: 1303-06
+    title_zh: 因报政上志略并纪行诗
+    rationale: 陈土产风气人物山川以鉴张乔梁毗得失为有志者观
+events:
+- id: guji-李京-event-birth
+  kind: birth
+  title_zh: 生于河间
+  date: '1260'
+  year_of: 1260
+  place_zh: 河间
+  summary: 约至元初生于河间后入枢庭行事
+- id: guji-李京-event-xuanwei
+  kind: career
+  title_zh: 奉命宣慰乌蛮
+  date: 1301-03
+  year_of: 1301
+  place_zh: 乌蛮
+  summary: 大德五年春奉命宣慰乌蛮始下车会群蛮不靖未及有所施
+- id: guji-李京-event-xunli
+  kind: career
+  title_zh: 巡行调发措办军储
+  date: 1301-06
+  year_of: 1301
+  place_zh: 云南六诏金齿白夷
+  summary: 屡被省檄措办军储二年之间奔走几遍颇得山川地理土产风俗之详
+- id: guji-李京-event-yuexi
+  kind: career
+  title_zh: 从脱脱平章平越巂之叛
+  date: 1302-12
+  year_of: 1302
+  place_zh: 越巂
+  summary: 大德六年冬从脱脱平章平越巂之叛亲见射死有尾者询土人得化虎之说
+- id: guji-李京-event-jinzhi
+  kind: career
+  title_zh: 编成进上云南志略四卷
+  date: 1303-06
+  year_of: 1303
+  place_zh: 云南
+  summary: 以所见参考众说编集云南志略四卷因报政上之虞集元明善为序
+- id: guji-李京-event-death
+  kind: death
+  title_zh: 卒
+  date: '1315'
+  year_of: 1315
+  place_zh: 中原
+  summary: 进志略后事迹不显卒年不详附云南事迹总录以传
