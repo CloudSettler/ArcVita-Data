@@ -6,120 +6,141 @@ person:
     en: Shuhede
   lifespan:
     birth:
-      date: '1711'
+      date: '1710'
       precision: year
       is_circa: false
-      raw: 康熙五十年生
+      raw: 康熙四十九年
     death:
       date: '1777'
       precision: year
       is_circa: false
-      raw: 乾隆四十二年卒
-  birth_date: '1711'
+      raw: 乾隆四十二年
+  birth_date: '1710'
   death_date: '1777'
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 持重任事之能臣
+  era: 清乾隆朝
+  reign_ref: 乾隆十九年甲戌
+  archetype: 经略边防之重臣
   dilemmas:
-  - 边外准噶尔变乱传闻真伪难辨当严防而不轻动
-  - 军械稽查既须核实又不可扰动军心掣肘前线
-  lesson: 核军实必亲历豫边防必先谋以持重济机变
-  summary_first_person: 我受命驰往北路查验军械会商喀尔喀防务惟恐疏漏不敢自逸愿以谨慎报国恩
+  - 春令马乏是否暂彻兵以待夏秋再举
+  - 兵力不足时是否冒进阿尔台或候察哈尔援兵再定进止
+  lesson: 审时量力而后动则边卡巩固而军食可继
+  summary_first_person: 我受命办理北路军务由塔密尔移营乌里雅苏台定驿路运米器又筹卓克索防秋以安喀尔喀而固边防
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70459.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70459.html
 endeavors:
 - id: guji-舒赫德-endeavor-1
-  title_zh: 奉命稽查北路军营军容器械
-  summary_zh: 乾隆十七年正月受命与玉保驰驿北上查验北路军营军容器械以固边备
+  title_zh: 移营乌里雅苏台并定驿路转运
+  goal: 以塔密尔为内地而以乌里雅苏台为军营直驿路而足军食
+  roles:
+  - 钦差尚书经略军营
   phases:
   - key: brewing
-    name: 奉旨受命
+    name: 塔密尔罢为军营之议
     labels:
-      zh: 受命驰驿
-    start_date: '1752-02-04'
-    highlight_event_id: guji-舒赫德-event-1
+      zh:
+      - 筹边
+      - 移营
+    start_date: '1754-04-01'
+    highlight_event_id: guji-舒赫德-event-yiying
   - key: breakthrough
-    name: 驰赴军营
+    name: 定推河直抵乌里雅苏台驿路
     labels:
-      zh: 星夜北上
-    start_date: '1752-02-10'
-    highlight_event_id: guji-舒赫德-event-1
+      zh:
+      - 驿站
+      - 经画
+    start_date: '1754-04-06'
+    highlight_event_id: guji-舒赫德-event-yiying
   - key: climax
-    name: 查验军械
+    name: 派员转运银米军器至军营
     labels:
-      zh: 核验军实
-    start_date: '1752-03-01'
-    highlight_event_id: guji-舒赫德-event-1
+      zh:
+      - 转运
+      - 军需
+    start_date: '1754-04-08'
+    highlight_event_id: guji-舒赫德-event-yiying
   - key: closure
-    name: 具奏缴旨
+    name: 核计添兵支用以敷一年
     labels:
-      zh: 奏复定议
-    start_date: '1752-04-01'
-    highlight_event_id: guji-舒赫德-event-1
+      zh:
+      - 核饷
+      - 收束
+    start_date: '1754-04-10'
+    highlight_event_id: guji-舒赫德-event-yiying
   decisions:
-  - date: '1752-02-04'
-    title_zh: 会同玉保驰驿前往北路
-    rationale: 军营关系紧要历年未特派大臣须亲验以杜疏漏
-  - date: '1752-03-01'
-    title_zh: 逐营盘查器械完缺
-    rationale: 有备方能无患须得实数以便添补修整
+  - date: '1754-04-06'
+    title_zh: 议自推河直抵乌里雅苏台安台
+    rationale: 军营既移则驿路由捷径直达方不劳迂回以速军报
+  - date: '1754-04-08'
+    title_zh: 派安崇阿永贵运塔密尔鄂尔坤存贮赴营
+    rationale: 旧营存米器须随营而移以实新营而备添兵之用
 - id: guji-舒赫德-endeavor-2
-  title_zh: 会商成衮扎布筹防准噶尔
-  summary_zh: 因达瓦齐逃窜准噶尔驻兵边外与成衮扎布密商喀尔喀游牧内收与卡伦防备
+  title_zh: 驱逐乌梁海并卓克索防秋部署
+  goal: 乘准噶尔内乱招抚驱逐乌梁海而设卡防秋以固阿尔台内外
+  roles:
+  - 钦差尚书会同成衮扎布筹边
   phases:
   - key: brewing
-    name: 边报传至
+    name: 侦乌梁海远遁海喇图岭外
     labels:
-      zh: 探报边情
-    start_date: '1752-02-05'
-    highlight_event_id: guji-舒赫德-event-2
+      zh:
+      - 侦探
+      - 审势
+    start_date: '1754-04-12'
+    highlight_event_id: guji-舒赫德-event-fangqiu
   - key: breakthrough
-    name: 到营会商
+    name: 春乏暂彻兵以待夏回再举
     labels:
-      zh: 密议方略
-    start_date: '1752-03-05'
-    highlight_event_id: guji-舒赫德-event-2
+      zh:
+      - 权衡
+      - 待时
+    start_date: '1754-04-13'
+    highlight_event_id: guji-舒赫德-event-fangqiu
   - key: climax
-    name: 筹划内移
+    name: 分兵驻卓克索库克岭防秋
     labels:
-      zh: 收牧设防
-    start_date: '1752-03-15'
-    highlight_event_id: guji-舒赫德-event-2
+      zh:
+      - 防秋
+      - 分驻
+    start_date: '1754-05-10'
+    highlight_event_id: guji-舒赫德-event-fangqiu
   - key: closure
-    name: 定议具奏
+    name: 增设阿尔台以内卡座巩固边界
     labels:
-      zh: 预筹万全
-    start_date: '1752-04-10'
-    highlight_event_id: guji-舒赫德-event-2
+      zh:
+      - 设卡
+      - 固边
+    start_date: '1754-05-15'
+    highlight_event_id: guji-舒赫德-event-fangqiu
   decisions:
-  - date: '1752-03-05'
-    title_zh: 与成衮扎布密商缓急之宜
-    rationale: 近卡游牧若遽移则惊众若不移则资敌须熟计妥办
-  - date: '1752-03-15'
-    title_zh: 议定收入腹地与稽查卡伦并行
-    rationale: 防贼人猝然阑入须豫为筹画务期尽善
+  - date: '1754-04-13'
+    title_zh: 暂彻卓克索之兵俟夏整兵速出
+    rationale: 春令马乏难以远行且大兵压境则彼坚守不归不如暂彻以诱其贪恋故土而还
+  - date: '1754-05-10'
+    title_zh: 拣选二千兵进至卓克索控圭防秋
+    rationale: 乌梁海事竣正值防秋紧要须扼当库列图要路以备招降弹压两途
 events:
 - id: guji-舒赫德-event-birth
   title_zh: 出生
-  date: '1711'
-  year_of: 1711
-  type: birth
-  description_zh: 康熙五十年生于满洲正白旗舒穆禄氏家
+  date: '1710'
+  year_of: 1710
+  place_zh: 京师
+  description: 康熙四十九年生于满洲正白旗舒氏之家
 - id: guji-舒赫德-event-death
-  title_zh: 病卒
+  title_zh: 逝世
   date: '1777'
   year_of: 1777
-  type: death
-  description_zh: 乾隆四十二年卒于大学士任上谥文襄
-- id: guji-舒赫德-event-1
-  title_zh: 受命驰往北路查看军械
-  date: '1752-02-04'
-  year_of: 1752
-  type: career
-  description_zh: 乾隆十七年正月甲申上以北路军营关系紧要特派尚书舒赫德侍郎玉保驰驿前往查看军容器械
-- id: guji-舒赫德-event-2
-  title_zh: 会商成衮扎布防准噶尔内犯
-  date: '1752-02-05'
-  year_of: 1752
-  type: career
-  description_zh: 因准噶尔称防达瓦齐驻兵边外奉旨俟舒赫德到军营时会商成衮扎布密议喀尔喀游牧内收与卡伦防范定议具奏
+  place_zh: 京师
+  description: 乾隆四十二年卒谥文襄
+- id: guji-舒赫德-event-yiying
+  title_zh: 议移军营至乌里雅苏台并转运
+  date: '1754-04-06'
+  year_of: 1754
+  place_zh: 乌里雅苏台军营
+  description: 会同成衮扎布议自推河直抵乌里雅苏台安设台站派安崇阿永贵运塔密尔鄂尔坤银米军器赴营核计可敷添兵三千一年之用
+- id: guji-舒赫德-event-fangqiu
+  title_zh: 筹卓克索防秋及增卡驱乌梁海
+  date: '1754-04-15'
+  year_of: 1754
+  place_zh: 卓克索控圭库克岭
+  description: 奏称乌梁海已越阿尔台远遁请暂彻兵待夏再举并以二千兵驻卓克索控圭以一千兵驻库克岭防守索勒毕岭等路于阿尔台以内增设卡座
