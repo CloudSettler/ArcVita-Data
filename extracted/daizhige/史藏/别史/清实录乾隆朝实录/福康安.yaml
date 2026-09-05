@@ -6,125 +6,134 @@ person:
     en: Fukangan
   lifespan:
     birth:
-      date: 1754
+      date: 1754-01-01
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 乾隆十九年
     death:
       date: 1796-07-02
       precision: day
       is_circa: false
-      raw: 嘉庆元年五月
-  birth_date: 1754
+      raw: 乾隆六十一年五月二十七日
+  birth_date: 1754-01-01
   death_date: 1796-07-02
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 统帅重臣
+  era: 清乾隆朝
+  reign_ref: 乾隆四十九年甲辰六月
+  archetype: 平叛统帅
   dilemmas:
-  - 速剿与安民如何兼顾
-  - 整顿贻误与稳定军心如何并行
-  lesson: 奉命督师当严密围堵速剿安民并核明功过以定地方
-  summary_first_person: 我以尚书奉命带钦差关防会同海兰察驰驿赴甘督剿田五余党务期围堵严密安抚良民速定地方
+  - 先救静宁固后路还是直赴伏羌解围
+  - 穷追入险山还是扼险围困待其自毙
+  - 严办勾结邪教还是宽抚未从逆良民
+  lesson: 只问从逆与否不问新旧教派扼险围困步步为营
+  summary_first_person: 我奉命与阿桂赴甘督办逆回先肃静宁隆德以固后路再围石峰堡巢穴分别顺逆以安良民
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71207.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71207.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1208.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1208.md
 endeavors:
 - id: guji-福康安-endeavor-1
-  title_zh: 驰赴甘肃督剿田五余党
-  summary_zh: 乾隆四十九年五月因李侍尧刚塔办理不善奉命带钦差关防会同海兰察驰驿赴甘围剿马家堡窜逸回匪
+  title_zh: 东路先援静宁隆德肃清后路
+  summary_zh: 赴甘途中以静宁隆德为紧要先剿潘陇翠屏之贼扼守六盘山断贼归路
   phases:
   - key: brewing
-    name: 奉命驰驿
+    name: 奉命赴甘
     labels:
-      zh:
-      - 奉命督师
-    start_date: 1784-06-02
-    highlight_event_id: guji-福康安-event-gansu-ordered
+      zh: 赴甘督办
+    start_date: 1784-07-19
+    highlight_event_id: guji-福康安-event-gansu-order
   - key: breakthrough
-    name: 厚集兵力
+    name: 奏陈先援静宁
     labels:
-      zh:
-      - 厚集兵力
-    start_date: 1784-06-03
-    highlight_event_id: guji-福康安-event-gansu-ordered
+      zh: 肃清后路
+    start_date: 1784-07-23
+    highlight_event_id: guji-福康安-event-jingning
   - key: climax
-    name: 严密围堵
+    name: 三路夹攻部署
     labels:
-      zh:
-      - 四面围堵
-    start_date: 1784-06-04
-    highlight_event_id: guji-福康安-event-gansu-ordered
+      zh: 东西合剿
+    start_date: 1784-07-25
+    highlight_event_id: guji-福康安-event-jingning
   - key: closure
-    name: 克期扑灭
+    name: 留兵驻守转向石峰堡
     labels:
-      zh:
-      - 克期扑灭
-    start_date: 1784-06-05
-    highlight_event_id: guji-福康安-event-gansu-ordered
+      zh: 固守东路
+    start_date: 1784-07-27
+    highlight_event_id: guji-福康安-event-shifengbao-plan
   decisions:
-  - date: 1784-06-02
-    title_zh: 带巴图鲁侍卫章京驰驿赴甘
-    rationale: 督提办理不善恐贼蔓延须重臣督率整顿以速蒇事
-  - date: 1784-06-03
-    title_zh: 调集兵力四面围堵毋使一名兔脱
-    rationale: 马家堡靠山居险前已翻山逃逸须分布前后左右合围并力进攻
+  - date: 1784-07-23
+    title_zh: 先救静宁隆德后赴伏羌
+    rationale: 后路梗塞则文报文饷不通先肃东路方可西进无虞
+  - date: 1784-07-25
+    title_zh: 调傅玉自西而东旺沁班巴尔赴静宁三路夹攻
+    rationale: 使贼困处一隅首尾不能相顾并扼六盘山险要
 - id: guji-福康安-endeavor-2
-  title_zh: 安抚被扰良民并核察功过
-  summary_zh: 到甘后查明村庄户口酌量抚恤蠲免钱粮给与口粮并按甘肃文武各员功过情罪详晰具奏
+  title_zh: 围剿石峰堡分别邪正安民
+  summary_zh: 以石峰堡为贼巢寻径绕上建瓴而下或扼总路围困并晓谕回民只分顺逆不分新旧
   phases:
   - key: brewing
-    name: 普谕安辑
+    name: 侦探巢穴路径
     labels:
-      zh:
-      - 安抚良民
-    start_date: 1784-06-03
-    highlight_event_id: guji-福康安-event-gansu-relief
+      zh: 访民为导
+    start_date: 1784-07-26
+    highlight_event_id: guji-福康安-event-shifengbao-plan
   - key: breakthrough
-    name: 查明户口
+    name: 晓谕回民安抚
     labels:
-      zh:
-      - 查明户口
-    start_date: 1784-06-04
-    highlight_event_id: guji-福康安-event-gansu-relief
+      zh: 分别良莠
+    start_date: 1784-07-27
+    highlight_event_id: guji-福康安-event-shifengbao-plan
   - key: climax
-    name: 蠲赈兼施
+    name: 四面堵围石峰堡
     labels:
-      zh:
-      - 蠲赈兼施
-    start_date: 1784-06-05
-    highlight_event_id: guji-福康安-event-gansu-relief
+      zh: 合围穷追
+    start_date: 1784-07-28
+    highlight_event_id: guji-福康安-event-shifengbao-plan
   - key: closure
-    name: 核明功过
+    name: 查赈豁免钱粮抚恤
     labels:
-      zh:
-      - 核明功过
-    start_date: 1784-06-06
-    highlight_event_id: guji-福康安-event-gansu-relief
+      zh: 普沛恩施
+    start_date: 1784-07-28
+    highlight_event_id: guji-福康安-event-amnesty
   decisions:
-  - date: 1784-06-03
-    title_zh: 会同该督查明村庄户口酌量抚恤
-    rationale: 贼过地方田庐牲畜被抢百姓流离须务期得所以安民心
-  - date: 1784-06-06
-    title_zh: 按文武各员功过核其情罪详晰具奏
-    rationale: 该省办理不善诸员功过须俟剿除净尽后分别核奏以明赏罚
+  - date: 1784-07-27
+    title_zh: 只称邪教不分新旧教名
+    rationale: 内外回民经教本同避免株连良民使知顺则加恩逆则必诛
+  - date: 1784-07-28
+    title_zh: 据高寻径绕上或扼总路围困
+    rationale: 山险难攻则使贼不能出困守空山不战自毙并殿后策应防诱敌夹攻
 events:
 - id: guji-福康安-event-birth
-  title_zh: 生于京师富察氏家
-  date: 1754
+  title_zh: 生于京师
+  date: 1754-01-01
   year_of: 1754
-  description_zh: 乾隆十九年生后以勋戚子弟入侍卫处行走
-- id: guji-福康安-event-gansu-ordered
-  title_zh: 奉命赴甘肃剿办田五回乱
-  date: 1784-06-02
+  place_zh: 京师
+  description_zh: 富察傅恒子生于乾隆十九年
+- id: guji-福康安-event-gansu-order
+  title_zh: 命赴甘肃督办逆回
+  date: 1784-07-19
   year_of: 1784
-  description_zh: 乾隆四十九年五月庚午因李侍尧刚塔办理不善奉命带钦差关防同海兰察驰驿赴甘肃督剿马家堡余贼
-- id: guji-福康安-event-gansu-relief
-  title_zh: 会办抚恤并核察甘肃功过
-  date: 1784-06-03
+  place_zh: 热河
+  description_zh: 与阿桂同赴甘肃督办田五马胡子等石峰堡之变并调京兵蒙古屯练会剿
+- id: guji-福康安-event-jingning
+  title_zh: 奏先援静宁隆德肃清后路
+  date: 1784-07-23
   year_of: 1784
-  description_zh: 奉旨到甘会同该督查明被扰村庄户口酌量抚恤蠲免钱粮并按文武各员功过详晰具奏
+  place_zh: 平凉一带
+  description_zh: 陈紧要先援静宁隆德潘陇翠屏分兵堵截后路获许并扼六盘山
+- id: guji-福康安-event-shifengbao-plan
+  title_zh: 定计先剿东西再围石峰堡巢穴
+  date: 1784-07-27
+  year_of: 1784
+  place_zh: 隆德静宁石峰堡
+  description_zh: 先灭潘陇山翠屏山之贼再赴石峰堡寻径绕上或扼总路四面围堵并晓谕只分顺逆
+- id: guji-福康安-event-amnesty
+  title_zh: 誊黄豁免甘肃本年钱粮抚恤
+  date: 1784-07-28
+  year_of: 1784
+  place_zh: 甘肃各属
+  description_zh: 被贼劫掠流离及供输军粮民力一体加恩概免本年钱粮已徵者下年豁免
 - id: guji-福康安-event-death
-  title_zh: 病逝于军中
+  title_zh: 卒于军中
   date: 1796-07-02
   year_of: 1796
-  description_zh: 嘉庆元年五月以征剿苗疆劳瘁病逝追封嘉勇郡王谥文襄
+  place_zh: 军营
+  description_zh: 乾隆六十一年五月病卒于剿苗军中
