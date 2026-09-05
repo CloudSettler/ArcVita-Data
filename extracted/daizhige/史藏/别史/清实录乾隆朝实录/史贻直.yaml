@@ -6,109 +6,90 @@ person:
     en: Shi Yizhi
   lifespan:
     birth:
-      date: 1682-01-01
+      date: 1682
       precision: year
       is_circa: false
-      raw: 康熙二十一年
+      raw: 康熙二十一年生
     death:
-      date: 1763-01-01
+      date: 1763
       precision: year
       is_circa: false
-      raw: 乾隆二十八年
-  birth_date: 1682-01-01
-  death_date: 1763-01-01
+      raw: 乾隆二十八年卒
+  birth_date: 1682
+  death_date: 1763
   era: 清
   reign_ref: 乾隆
-  archetype: 持平典刑之臣
+  archetype: 宿望老臣
   dilemmas:
-  - 刑名宽严之间如何兼顾情法与国典
-  - 部务繁剧与课士育才何以两全
-  lesson: 守正持平勤于课士方能久任部务不负君恩
-  summary_first_person: 吾起家翰苑历刑部兵部惟以平恕断狱以勤慎课士不敢以宽纵市恩亦不敢以严刻立威
+  - 年逾八旬精力衰而班联系望去留两难
+  - 部务繁剧兼摄难周与从容颐养之衡
+  lesson: 老臣当以退让全晚节而君恩优养乃成全始终端
+  summary_first_person: 吾年逾八旬齿宿资深蒙恩许解工部仍以肩舆入直严寒盛暑得随意颐养此为君臣始终之恩也
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0126.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0126.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0676.html
 endeavors:
 - id: guji-史贻直-endeavor-1
-  title_zh: 由刑部转任兵部尚书
-  summary: 自刑部持平断狱转掌兵部综理武选邮政边防
+  title_zh: 内阁辅政系望班联
+  summary_zh: 久历中枢齿宿资深为朝班盛事虽老病而未忍遽退
   phases:
   - key: brewing
-    name: 刑部积劳持平
+    name: 久任中枢积望
     labels:
-      zh:
-      - 酝酿
-    start_date: 1739-01-01
-    highlight_event_id: guji-史贻直-event-transfer
-  - key: breakthrough
-    name: 奉旨改授兵部
-    labels:
-      zh:
-      - 转任
-    start_date: 1740-10-02
-    highlight_event_id: guji-史贻直-event-transfer
+      zh: 辅政
+    start_date: 1735
+    highlight_event_id: guji-史贻直-event-work-1
   - key: climax
-    name: 总理兵部部务
+    name: 八旬奏请解任
     labels:
-      zh:
-      - 任事
-    start_date: 1740-10-03
-    highlight_event_id: guji-史贻直-event-transfer
+      zh: 乞退
+    start_date: 1762-12-18
+    highlight_event_id: guji-史贻直-event-work-1
   decisions:
-  - date: 1740-10-02
-    title_zh: 受命由刑部改兵部
-    rationale: 以谙习典章持正奉公堪理武选戎政故膺简命
+  - date: 1762-12-18
+    title_zh: 以老病恳请解任
+    rationale: 自量精力非强健不欲以高年误国故恳切陈情以全晚节
 - id: guji-史贻直-endeavor-2
-  title_zh: 教习庶吉士培育词臣
-  summary: 以兵部尚书兼任教习课读新科庶常以储馆阁之才
+  title_zh: 解工部务蒙恩优养
+  summary_zh: 蒙恩免兼工部仍留内阁肩舆入直并赏饭银颐养天年
   phases:
-  - key: brewing
-    name: 词垣出身重文教
-    labels:
-      zh:
-      - 酝酿
-    start_date: 1740-01-01
-    highlight_event_id: guji-史贻直-event-teach
   - key: breakthrough
-    name: 命教习庶吉士
+    name: 特免工部兼摄
     labels:
-      zh:
-      - 突破
-    start_date: 1740-10-07
-    highlight_event_id: guji-史贻直-event-teach
+      zh: 体恤
+    start_date: 1762-12-18
+    highlight_event_id: guji-史贻直-event-work-1
   - key: closure
-    name: 课士以经义治事
+    name: 赏银从容颐养
     labels:
-      zh:
-      - 收成
-    start_date: 1740-10-08
-    highlight_event_id: guji-史贻直-event-teach
+      zh: 优老
+    start_date: 1762-12-19
+    highlight_event_id: guji-史贻直-event-work-2
   decisions:
-  - date: 1740-10-07
-    title_zh: 领命教习庶常
-    rationale: 以旧翰林知文体励后进敦品励学以备擢用
+  - date: 1762-12-19
+    title_zh: 遵旨酌量进署颐养
+    rationale: 内阁地禁事清严寒盛暑不必每日进署正可仰体优眷从容自养
 events:
 - id: guji-史贻直-event-birth
-  title_zh: 出生于溧阳
-  date: 1682-01-01
+  type: birth
+  title_zh: 生于康熙二十一年
+  date: 1682
   year_of: 1682
-  description: 康熙二十一年生于江苏溧阳史氏宦学之家
-  location: 江苏溧阳
-- id: guji-史贻直-event-transfer
-  title_zh: 调刑部尚书为兵部尚书
-  date: 1740-10-02
-  year_of: 1740
-  description: 乾隆五年九月癸酉调刑部尚书史贻直为兵部尚书与杨超曾韩光基陈世倌等一同迁转
-  location: 圆明园勤政殿
-- id: guji-史贻直-event-teach
-  title_zh: 命教习庶吉士
-  date: 1740-10-07
-  year_of: 1740
-  description: 乾隆五年九月戊寅命兵部尚书史贻直教习庶吉士课读新进士以储馆阁人才
-  location: 京师翰林院
+  description_zh: 江南溧阳人少以科第进累至大学士
+- id: guji-史贻直-event-work-1
+  type: career
+  title_zh: 奏请解任恩免工部许肩舆入直
+  date: 1762-12-18
+  year_of: 1762
+  description_zh: 乾隆二十七年十二月庚寅以年逾八旬老病奏请解任上念其齿宿资深免兼工部许肩舆入直严寒盛暑不必每日进署
+- id: guji-史贻直-event-work-2
+  type: career
+  title_zh: 赏户部饭银以示体恤
+  date: 1762-12-19
+  year_of: 1762
+  description_zh: 乾隆二十七年十二月辛卯谕已不兼管工部于户部饭银内每年赏银五百两以示优眷
 - id: guji-史贻直-event-death
-  title_zh: 病卒于京师
-  date: 1763-01-01
+  type: death
+  title_zh: 卒于乾隆二十八年
+  date: 1763
   year_of: 1763
-  description: 乾隆二十八年卒于京师谥文靖入祀贤良祠
-  location: 京师
+  description_zh: 以原官致仕未久考终朝廷例予祭葬谥号以全始终
