@@ -1,0 +1,137 @@
+person:
+  qid: guji-左懋第
+  name_zh: 左懋第
+  names:
+    zh: 左懋第
+    en: Zuo Maodi
+  lifespan:
+    birth:
+      date: '1601-01-01'
+      precision: year
+      is_circa: false
+      raw: 明万历二十九年生于莱州
+    death:
+      date: '1645-01-19'
+      precision: day
+      is_circa: false
+      raw: 顺治元年十二月十四日宣武门外就义
+  birth_date: '1601-01-01'
+  death_date: '1645-01-19'
+  era: 明末清初
+  reign_ref: 崇祯弘光
+  archetype: 忠节使臣
+  dilemmas:
+  - 剃发降清保富贵与全发殉明全忠义之抉择
+  - 久系忍辱待变与早决速死明志之抉择
+  lesson: 头可断发不可断以一发存华夷之辨
+  summary_first_person: 吾受命北使被执太医院斥洪承畴为鬼拒剃发之令宁斫头不剃头愿为大明鬼
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/发史.html
+endeavors:
+- id: guji-左懋第-endeavor-1
+  title_zh: 奉使北上争存国体
+  summary: 受弘光朝命以侍郎持节北使议和至北京被扣系太医院始终不屈
+  phases:
+  - key: brewing
+    name: 受命北行
+    labels:
+      zh:
+      - 使节持正
+    start_date: '1644-11-01'
+    highlight_event_id: guji-左懋第-event-north
+  - key: breakthrough
+    name: 被执羁系
+    labels:
+      zh:
+      - 坚贞守节
+    start_date: '1644-12-01'
+    highlight_event_id: guji-左懋第-event-detain
+  - key: climax
+    name: 斥洪拒降
+    labels:
+      zh:
+      - 大义凛然
+    start_date: '1645-01-01'
+    highlight_event_id: guji-左懋第-event-detain
+  - key: closure
+    name: 闻南都陷痛哭赋诗
+    labels:
+      zh:
+      - 忠愤绝望
+    start_date: '1645-01-10'
+    highlight_event_id: guji-左懋第-event-detain
+  decisions:
+  - date: '1644-11-01'
+    title_zh: 毅然受命北使
+    rationale: 国难之际持节北上冀存宗社体统不避艰险
+  - date: '1644-12-01'
+    title_zh: 被拘不改臣节
+    rationale: 既被拘押即立不事二姓之志不为威武富贵所动
+- id: guji-左懋第-endeavor-2
+  title_zh: 拒剃全发慷慨就义
+  summary: 摄政王命剃发以头可断发不可断对封爵不诱临宣武门大骂而死
+  phases:
+  - key: brewing
+    name: 劝降初至
+    labels:
+      zh:
+      - 威逼利诱
+    start_date: '1645-01-01'
+    highlight_event_id: guji-左懋第-event-detain
+  - key: breakthrough
+    name: 面斥洪承畴
+    labels:
+      zh:
+      - 明辨忠逆
+    start_date: '1645-01-05'
+    highlight_event_id: guji-左懋第-event-detain
+  - key: climax
+    name: 拒剃宣言
+    labels:
+      zh:
+      - 发不可断
+    start_date: '1645-01-12'
+    highlight_event_id: guji-左懋第-event-death
+  - key: closure
+    name: 宣武门就义
+    labels:
+      zh:
+      - 舍生取义
+    start_date: '1645-01-19'
+    highlight_event_id: guji-左懋第-event-death
+  decisions:
+  - date: '1645-01-05'
+    title_zh: 斥洪承畴为鬼
+    rationale: 松山已死节受祭先朝今复生来说降必斥之以明忠逆
+  - date: '1645-01-12'
+    title_zh: 拒剃发封爵
+    rationale: 斫头胜于剃头宁为大明鬼不为满洲臣以全发守种族大义
+events:
+- id: guji-左懋第-event-birth
+  title_zh: 出生于莱州
+  date: '1601-01-01'
+  year_of: 1601
+  type: birth
+  location: 山东莱州
+  description: 明万历二十九年生后登进士历官至兵部侍郎
+- id: guji-左懋第-event-north
+  title_zh: 奉命北使至北京
+  date: '1644-11-01'
+  year_of: 1644
+  type: mission
+  location: 北京太医院
+  description: 以兵部侍郎奉弘光朝命北使议和至北京被扣系于太医院
+- id: guji-左懋第-event-detain
+  title_zh: 面斥洪承畴拒降拒剃
+  date: '1645-01-05'
+  year_of: 1645
+  type: loyalty
+  location: 北京
+  description: 洪承畴来说降斥之为松山死节之鬼摄政王命剃发答以头可断发不可断
+- id: guji-左懋第-event-death
+  title_zh: 宣武门外就义
+  date: '1645-01-19'
+  year_of: 1645
+  type: death
+  location: 北京宣武门外
+  description: 闻南京失守痛哭赋诗临刑封爵不诱大骂不止云愿为大明鬼遂被害

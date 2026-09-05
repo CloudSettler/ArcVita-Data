@@ -1,0 +1,134 @@
+person:
+  qid: guji-陶渊明
+  name_zh: 陶渊明
+  names:
+    zh: 陶渊明
+    en: Tao Yuanming
+  lifespan:
+    birth:
+      date: '0365'
+      precision: year
+      is_circa: true
+      raw: 晋哀帝兴宁三年浔阳柴桑
+    death:
+      date: '0427'
+      precision: year
+      is_circa: false
+      raw: 宋文帝元嘉四年
+  birth_date: '0365'
+  death_date: '0427'
+  era: 东晋南朝宋
+  reign_ref: 晋哀帝兴宁至宋文帝元嘉
+  archetype: 隐逸诗宗
+  dilemmas:
+  - 家弊亲老须出仕供养与不慕荣利守志归隐相冲突
+  - 性嗜酒而家贫不能常得与安贫乐道晏如相牵系
+  lesson: 不戚戚于贫贱不汲汲于富贵忘怀得失以乐其志
+  summary_first_person: 吾宅边有五柳因以为号闲靖少言好读书不求甚解会意则欣然忘食环堵萧然短褐穿结晏如也北窗凉风暂至自谓羲皇上人
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%A7%E6%B8%B8%E5%BD%95.html
+endeavors:
+- id: guji-陶渊明-endeavor-1
+  title_zh: 彭泽解绶归隐躬耕
+  summary_zh: 以家弊东西游走出仕州郡终不为五斗米折腰归耕柴桑
+  phases:
+  - key: brewing
+    name: 少学琴书爱闲静
+    labels:
+      zh:
+      - 少时养志
+    start_date: 0380
+    highlight_event_id: guji-陶渊明-event-birth
+  - key: breakthrough
+    name: 出仕州郡为彭泽令
+    labels:
+      zh:
+      - 出仕谋养
+    start_date: 0393
+    highlight_event_id: guji-陶渊明-event-pengze
+  - key: climax
+    name: 解绶归去赋归去来
+    labels:
+      zh:
+      - 不折腰归隐
+    start_date: '0405-11-01'
+    highlight_event_id: guji-陶渊明-event-guiyin
+  - key: closure
+    name: 结庐柴桑躬耕自资
+    labels:
+      zh:
+      - 躬耕守贫
+    start_date: '0406'
+    highlight_event_id: guji-陶渊明-event-guiyin
+  decisions:
+  - date: '0405-08-01'
+    title_zh: 就彭泽令养家
+    rationale: 以家弊亲老黾勉辞世求禄养廉耻未亏
+  - date: '0405-11-01'
+    title_zh: 不为五斗米折腰而归
+    rationale: 生性刚才拙与物多忤不愿束带见督邮遂解绶归田园
+- id: guji-陶渊明-endeavor-2
+  title_zh: 五柳自号诗酒著文
+  summary_zh: 好读书不求甚解嗜酒自娱常著文章忘怀得失
+  phases:
+  - key: brewing
+    name: 五柳为号不慕荣利
+    labels:
+      zh:
+      - 立号明志
+    start_date: '0406'
+    highlight_event_id: guji-陶渊明-event-guiyin
+  - key: breakthrough
+    name: 亲旧置酒造饮辄尽
+    labels:
+      zh:
+      - 诗酒会意
+    start_date: '0410'
+    highlight_event_id: guji-陶渊明-event-wuliu
+  - key: climax
+    name: 作五柳先生传自况
+    labels:
+      zh:
+      - 著文自娱
+    start_date: '0420'
+    highlight_event_id: guji-陶渊明-event-wuliu
+  - key: closure
+    name: 北窗高卧乐天知命
+    labels:
+      zh:
+      - 安贫乐天
+    start_date: '0425'
+    highlight_event_id: guji-陶渊明-event-death
+  decisions:
+  - date: '0420'
+    title_zh: 作传以五柳自况
+    rationale: 颇示己志忘怀得失以黔娄自比酣觞赋诗以乐其志
+  - date: '0425'
+    title_zh: 今我不为乐知有来岁不而乐今朝
+    rationale: 感屈指岁尽凉风暂至如羲皇上人及时行乐不忧来岁
+events:
+- id: guji-陶渊明-event-birth
+  title_zh: 生于浔阳柴桑
+  date: '0365'
+  year_of: 365
+  description: 晋哀帝兴宁三年生于浔阳柴桑少学琴书偶爱闲 tĩnh开卷有得欣然忘食
+- id: guji-陶渊明-event-pengze
+  title_zh: 出仕为彭泽令
+  date: '0405-08-01'
+  year_of: 405
+  description: 以家弊东西游走为州祭酒镇军参军转彭泽令在官八十余日
+- id: guji-陶渊明-event-guiyin
+  title_zh: 解绶归隐柴桑
+  date: '0405-11-01'
+  year_of: 405
+  description: 不肯束带见督邮解绶去职赋归去来兮辞躬耕守贫环堵萧然不蔽风日
+- id: guji-陶渊明-event-wuliu
+  title_zh: 作五柳先生传
+  date: '0420'
+  year_of: 420
+  description: 自号五柳先生好读书不求甚解性嗜酒造饮辄尽期在必醉常著文章自娱
+- id: guji-陶渊明-event-death
+  title_zh: 卒于浔阳
+  date: '0427'
+  year_of: 427
+  description: 宋文帝元嘉四年卒于浔阳一生忘怀得失安贫乐道为隐逸诗宗
