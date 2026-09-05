@@ -1,0 +1,111 @@
+person:
+  qid: guji-王伦
+  name_zh: 王伦
+  names:
+    zh: 王伦
+    en: Wang Lun
+  lifespan:
+    birth:
+      date: 1740
+      precision: year
+      is_circa: true
+      raw: 阳谷人，生年不详，约乾隆初年
+    death:
+      date: 1774-10-27
+      precision: day
+      is_circa: true
+      raw: 乾隆三十九年九月二十四日临清自焚死
+  birth_date: 1740
+  death_date: 1774-10-27
+  era: 清乾隆朝
+  reign_ref: 乾隆三十九年甲午
+  archetype: 枭雄叛首
+  dilemmas:
+  - 以行医施惠收人心与聚众举事犯上之间的生死抉择
+  - 以潜入京师奇袭与就乡里连陷州县之间的谋略分歧
+  - 以困守汪氏室待援与纵火自戕之间的终局抉择
+  lesson: 以清水邪术惑愚民聚亡命，虽蚁屯蜂集一时跳梁，终因逆道失人心而被王师荡平
+  summary_first_person: 吾本阳谷县役，因事被斥，抄方治疡，施惠不受值，收精悍为义子义女，又托异人符篆，积十余年党遍东昌兖州，遂于甲午八月二十八夜先陷寿张，再陷阳谷堂邑，围临清二旬，终被八旗劲旅四面合围，自知罪大不宥，纵火自戕而亡
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%B4%E6%B8%85%E5%AF%87%E7%95%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%B4%E6%B8%85%E5%AF%87%E7%95%A5.md
+endeavors:
+- id: guji-王伦-endeavor-1
+  title_zh: 以清水教布惠蓄党
+  summary: 行医治疡不取值，收义子义女，托符篆谶纬惑众，十余年奸党遍诸邑
+  phases:
+  - key: brewing
+    name: 行医施惠收义儿女
+    labels:
+      zh:
+      - 蓄势布惠
+    start_date: 1760
+    highlight_event_id: guji-王伦-event-birth
+  - key: breakthrough
+    name: 符谶惑众定期举事
+    labels:
+      zh:
+      - 聚众成势
+    start_date: 1774-05-01
+    highlight_event_id: guji-王伦-event-shouzhang
+  decisions:
+  - date: 1765
+    title_zh: 择精悍不受值收为义子义女
+    rationale: 以恩惠结死党，使心腹遍布乡里胥役之间
+  - date: 1774-05-01
+    title_zh: 定八月二十八日杀官劫库
+    rationale: 趁清水讹言已播，官府未备，先发制人以夺三县
+- id: guji-王伦-endeavor-2
+  title_zh: 连陷三县围攻临清
+  summary: 先陷寿张戕县令，再陷阳谷堂邑，纠众万人围临清，终被舒赫德大军荡平自焚
+  phases:
+  - key: climax
+    name: 连陷寿张阳谷堂邑
+    labels:
+      zh:
+      - 席卷三县
+    start_date: 1774-10-03
+    highlight_event_id: guji-王伦-event-shouzhang
+  - key: closure
+    name: 围临清二旬兵败自焚
+    labels:
+      zh:
+      - 围城覆灭
+    start_date: 1774-10-10
+    highlight_event_id: guji-王伦-event-linqing
+  decisions:
+  - date: 1774-10-03
+    title_zh: 夜袭寿张胁降不成即戕县令
+    rationale: 以演戏醵饮掩护聚集，用胥役内应一举破城立威
+  - date: 1774-10-10
+    title_zh: 踞莲花庵市廛负隅拒王师
+    rationale: 恃人多势众及邪术眯目，冀久围待变以拒官兵合剿
+events:
+- id: guji-王伦-event-birth
+  type: birth
+  title_zh: 出生阳谷充县役行医
+  date: 1740
+  year_of: 1740
+  location_zh: 阳谷
+  summary: 阳谷人，貌魁岸多力有拳勇，尝为县役被责，遂抄方治瘾疡，布惠收党
+- id: guji-王伦-event-shouzhang
+  type: career
+  title_zh: 八月二十八夜陷寿张
+  date: 1774-10-03
+  year_of: 1774
+  location_zh: 寿张
+  summary: 聚众数千呼啸入城，县令沈齐义朝服骂贼被支解，遂破城劫库
+- id: guji-王伦-event-linqing
+  type: career
+  title_zh: 率众围攻临清西南
+  date: 1774-10-10
+  year_of: 1774
+  location_zh: 临清
+  summary: 渡闸河围临清，黑布缠头攻西南门，以邪术拒炮，掘壕纵火攻敌楼二旬不下
+- id: guji-王伦-event-death
+  type: death
+  title_zh: 临清兵败纵火自戕
+  date: 1774-10-27
+  year_of: 1774
+  location_zh: 临清汪氏室
+  summary: 舒赫德统八旗至，大兵四集纵火合攻，党羽俱尽，自知法所不宥，纵火自焚，计造逆至荡平凡二十六日

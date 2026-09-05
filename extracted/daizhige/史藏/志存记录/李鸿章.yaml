@@ -1,0 +1,155 @@
+person:
+  qid: guji-李鸿章
+  name_zh: 李鸿章
+  names:
+    zh: 李鸿章
+    en: Li Hongzhang
+  lifespan:
+    birth:
+      date: 1823-02-15
+      precision: day
+      is_circa: false
+      raw: 道光三年正月初五合肥出生
+    death:
+      date: 1901-11-07
+      precision: day
+      is_circa: false
+      raw: 光绪二十七年九月二十七日北京逝世
+  birth_date: 1823-02-15
+  death_date: 1901-11-07
+  era: 清末
+  reign_ref: 光绪
+  archetype: 晚清重臣
+  dilemmas:
+  - 主战难胜主和蒙谤和战两难
+  - 割地求和与保全国体两难
+  - 朝廷旧例与万国公法两难
+  lesson: 前事不忘后事之师当思胜败之故亡羊补牢励精图治
+  summary_first_person: 我是李鸿章甲午兵败奉旨为议和全权大臣东渡马关忍辱负伤而成和但愿后人监前车绸未雨发奋为雄
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%AD%E6%97%A5%E6%88%98%E8%BE%91%E9%80%89%E5%BD%95.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B8%AD%E6%97%A5%E6%88%98%E8%BE%91%E9%80%89%E5%BD%95.html
+endeavors:
+- id: guji-李鸿章-endeavor-1
+  title_zh: 奉使马关议和
+  summary: 甲午战败后拜受全权东渡日本议定停战与和约
+  phases:
+  - key: brewing
+    name: 星夜趋朝拜受全权
+    labels:
+      zh:
+      - 受命
+      - 全权
+    start_date: 1895-02-10
+    highlight_event_id: guji-李鸿章-event-appoint
+  - key: breakthrough
+    name: 马关遇刺负伤
+    labels:
+      zh:
+      - 负伤
+      - 议和
+    start_date: 1895-03-24
+    highlight_event_id: guji-李鸿章-event-injured
+  - key: climax
+    name: 签订马关和约
+    labels:
+      zh:
+      - 签约
+      - 停战
+    start_date: 1895-04-17
+    highlight_event_id: guji-李鸿章-event-treaty
+  - key: closure
+    name: 和议成归国复命
+    labels:
+      zh:
+      - 归国
+      - 复命
+    start_date: 1895-05-01
+    highlight_event_id: guji-李鸿章-event-treaty
+  decisions:
+  - date: 1895-02-10
+    title_zh: 奉旨出使担当全权
+    rationale: 不忍生灵涂炭为国体忍辱负重亲赴敌营
+  - date: 1895-03-30
+    title_zh: 负伤不辍力促停战
+    rationale: 以伤病博同情以停战减少损失争取转圜
+- id: guji-李鸿章-endeavor-2
+  title_zh: 筹办北洋自强图治
+  summary: 早年总持北洋筹建水陆师励图自强甲午后反思胜败
+  phases:
+  - key: brewing
+    name: 总督直隶筹办海防
+    labels:
+      zh:
+      - 北洋
+      - 海防
+    start_date: 1870-08-29
+    highlight_event_id: guji-李鸿章-event-beiyang
+  - key: breakthrough
+    name: 兴办洋务练兵制器
+    labels:
+      zh:
+      - 洋务
+      - 练兵
+    start_date: 1875-05-01
+    highlight_event_id: guji-李鸿章-event-beiyang
+  - key: climax
+    name: 甲午督师力支危局
+    labels:
+      zh:
+      - 督师
+      - 抗倭
+    start_date: 1894-08-01
+    highlight_event_id: guji-李鸿章-event-appoint
+  - key: closure
+    name: 战败反思呼吁变法
+    labels:
+      zh:
+      - 反思
+      - 图治
+    start_date: 1895-05-01
+    highlight_event_id: guji-李鸿章-event-treaty
+  decisions:
+  - date: 1875-05-01
+    title_zh: 主张外须和戎内须变法
+    rationale: 师徒不动甲兵不顿以德绥边求自强之实
+  - date: 1895-02-10
+    title_zh: 电奏主和以保残局
+    rationale: 将不知兵士不用命与其糜烂不如议和补牢
+events:
+- id: guji-李鸿章-event-birth
+  type: birth
+  date: 1823-02-15
+  year_of: 1823
+  title_zh: 出生于安徽合肥
+  description: 道光三年正月初五生于合肥後以文华殿大学士直隶总督主持北洋
+- id: guji-李鸿章-event-beiyang
+  type: career
+  date: 1870-08-29
+  year_of: 1870
+  title_zh: 署理直隶总督兼北洋大臣
+  description: 总持军旅筹办海防兴办洋务为晚清重臣
+- id: guji-李鸿章-event-appoint
+  type: career
+  date: 1895-02-10
+  year_of: 1895
+  title_zh: 拜受议和全权大臣
+  description: 奉旨以头等全权大臣出使日本与伊藤博文陆奥宗光会议和局
+- id: guji-李鸿章-event-injured
+  type: career
+  date: 1895-03-24
+  year_of: 1895
+  title_zh: 马关遇刺负伤议和
+  description: 在马关遇刺面部负伤仍带伤谈判遂促停战
+- id: guji-李鸿章-event-treaty
+  type: career
+  date: 1895-04-17
+  year_of: 1895
+  title_zh: 签订马关和约
+  description: 与日本全权大臣画押签订和约和议成归国
+- id: guji-李鸿章-event-death
+  type: death
+  date: 1901-11-07
+  year_of: 1901
+  title_zh: 病逝于北京
+  description: 光绪二十七年九月二十七日病逝一生以和戎自强为志
