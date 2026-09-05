@@ -1,0 +1,125 @@
+person:
+  qid: guji-李邕
+  name_zh: 李邕
+  names:
+    zh: 李邕
+    en: Li Yong
+  lifespan:
+    birth:
+      date: 0678
+      precision: year
+      is_circa: false
+      raw: 仪凤三年
+    death:
+      date: '0747'
+      precision: year
+      is_circa: false
+      raw: 天宝六载被害
+  birth_date: 0678
+  death_date: '0747'
+  era: 唐
+  reign_ref: 唐玄宗开元天宝间
+  archetype: 以文直殉节者
+  dilemmas:
+  - 直言气节与权相相容之难
+  - 郡守惠政与朝局全身之难
+  lesson: 文章气节可传千古，然直道行于奸时必罹祸，守正须知进退出处
+  summary_first_person: 吾以文章气节闻天下，守北海而名动四方，碑碣照耀四裔，终以直不容于林甫见杀，然笔势豪放犹存人间
+  source_urls:
+  - https://daizhige.org/史藏/地理/燕魏杂记.html
+endeavors:
+- id: guji-李邕-endeavor-1
+  title_zh: 北海守政与气节直声
+  summary_zh: 以文高气直见荐，守北海天下名为北海，终忤李林甫被害
+  phases:
+  - key: brewing
+    name: 文高气直见知
+    labels:
+      zh: 李峤张廷瓌荐扬
+    start_date: '0715'
+    highlight_event_id: guji-李邕-event-1
+  - key: breakthrough
+    name: 守北海名动天下
+    labels:
+      zh: 北海惠政
+    start_date: 0728
+    highlight_event_id: guji-李邕-event-1
+  - key: climax
+    name: 忤林甫见忌
+    labels:
+      zh: 直道见嫉
+    start_date: '0740'
+    highlight_event_id: guji-李邕-event-2
+  - key: closure
+    name: 遣罗希奭被害
+    labels:
+      zh: 以直殉节
+    start_date: '0747'
+    highlight_event_id: guji-李邕-event-death
+  decisions:
+  - date: 0728
+    title_zh: 守北海以气节为治
+    rationale: 不附权贵，以文章气节抚民，故天下名为北海
+  - date: '0740'
+    title_zh: 不屈附李林甫
+    rationale: 知附奸可全身而直道不可屈，宁守正而罹祸
+- id: guji-李邕-endeavor-2
+  title_zh: 书碑名世与词源传远
+  summary_zh: 字画尤工碑碣照四裔，良乡云麾将军碑笔势豪放，杜甫八哀追悼
+  phases:
+  - key: brewing
+    name: 字画兼工
+    labels:
+      zh: 书学精进
+    start_date: '0710'
+    highlight_event_id: guji-李邕-event-1
+  - key: breakthrough
+    name: 碑碣照四裔
+    labels:
+      zh: 干谒走其门
+    start_date: '0730'
+    highlight_event_id: guji-李邕-event-2
+  - key: climax
+    name: 书云麾将军碑
+    labels:
+      zh: 良乡神道碑
+    start_date: '0733'
+    highlight_event_id: guji-李邕-event-2
+  - key: closure
+    name: 身后碑存诗传
+    labels:
+      zh: 杜甫八哀悼惜
+    start_date: '0747'
+    highlight_event_id: guji-李邕-event-death
+  decisions:
+  - date: '0733'
+    title_zh: 为李思训书神道碑
+    rationale: 以豪放笔势表勋臣之绩，使碑志传远不朽
+  - date: '0745'
+    title_zh: 以碑碣自任不避谤
+    rationale: 知大臣家碑志非我笔不孝，宁以书名累身不改其直
+events:
+- id: guji-李邕-event-birth
+  title_zh: 李邕出生
+  kind: birth
+  date: 0678
+  year_of: 678
+  description_zh: 唐仪凤三年生，少以文章气节闻天下
+- id: guji-李邕-event-1
+  title_zh: 荐扬受知守北海
+  kind: career
+  date: 0728
+  year_of: 728
+  description_zh: 李峤张廷瓌荐其文高气直，尝为北海太守，天下名为北海
+- id: guji-李邕-event-2
+  title_zh: 书云麾将军神道碑
+  kind: career
+  date: '0733'
+  year_of: 733
+  description_zh: 于良乡书云麾将军李公神道碑，笔势豪放尤可爱重，碑碣照四裔
+- id: guji-李邕-event-death
+  title_zh: 为李林甫遣罗希奭所杀
+  kind: death
+  date: '0747'
+  year_of: 747
+  description_zh: 为李林甫所不喜，遣罗希奭杀之，杜甫作八哀诗悼曰词源有根柢
