@@ -1,0 +1,134 @@
+person:
+  qid: guji-张津
+  name_zh: 张津
+  names:
+    zh: 张津
+    en: Zhang Jin
+  lifespan:
+    birth:
+      date: 1120
+      precision: year
+      is_circa: true
+      raw: 南宋初约生
+    death:
+      date: 1185
+      precision: year
+      is_circa: true
+      raw: 乾道后约卒
+  birth_date: 1120
+  death_date: 1185
+  era: 南宋
+  reign_ref: 宋孝宗乾道年间
+  archetype: 循吏修志者
+  dilemmas:
+  - 旧图经散佚搜采未备而郡志体例必须创立
+  - 守郡政务繁剧而文献编纂需专精久任
+  lesson: 一郡文献赖守臣立纲搜采，后人方有所承，谨严简法可为地学之准
+  summary_first_person: 吾为张津，乾道中知明州，始搜采旧本纂辑四明图经十二卷，分郡叙县叙，以存一方分野风俗山水人物，后之宝庆延佑诸志皆承其蓝本
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%B9%BE%E9%81%93%E5%9B%9B%E6%98%8E%E5%9B%BE%E7%BB%8F.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E4%B9%BE%E9%81%93%E5%9B%9B%E6%98%8E%E5%9B%BE%E7%BB%8F.md
+endeavors:
+- id: guji-张津-endeavor-1
+  title_zh: 知明州创修乾道四明图经
+  summary: 乾道中守明州，访求景德以来旧图经及李从事大观本，立十二卷规模，分总叙列郡及鄞奉定海慈溪象山昌国诸县
+  phases:
+  - key: brewing
+    name: 莅明州搜访旧志
+    labels:
+      zh:
+      - 搜访
+    start_date: 1165
+    highlight_event_id: guji-张津-event-assume-mingzhou
+  - key: breakthrough
+    name: 定图经体例规模
+    labels:
+      zh:
+      - 立纲
+    start_date: 1167
+    highlight_event_id: guji-张津-event-assume-mingzhou
+  - key: climax
+    name: 成十二卷图经进上
+    labels:
+      zh:
+      - 成书
+    start_date: 1168
+    highlight_event_id: guji-张津-event-compile-tujing
+  - key: closure
+    name: 垂为宝庆延佑蓝本
+    labels:
+      zh:
+      - 垂范
+    start_date: 1170
+    highlight_event_id: guji-张津-event-compile-tujing
+  decisions:
+  - date: 1167
+    title_zh: 因旧图经重加增订
+    rationale: 景德大观旧本搜采未备，须补郡守姓名山水祠庙人物以全都会郡县之体
+  - date: 1168
+    title_zh: 分郡县各立门目
+    rationale: 明州不置倚郭县，州县各领疆土，故总叙居首，六县各为专卷，不相混淆
+- id: guji-张津-endeavor-2
+  title_zh: 守四明兴学水利存古迹
+  summary: 以郡守兼领沿海之地，留意学校御书水利古迹贤守事实，采集碑刻史传，以实图经九门之内容
+  phases:
+  - key: brewing
+    name: 巡视城池水利学校
+    labels:
+      zh:
+      - 巡省
+    start_date: 1165
+    highlight_event_id: guji-张津-event-assume-mingzhou
+  - key: breakthrough
+    name: 收州学御书阁碑记
+    labels:
+      zh:
+      - 访碑
+    start_date: 1166
+    highlight_event_id: guji-张津-event-assume-mingzhou
+  - key: climax
+    name: 载广德湖它山堰水利事实
+    labels:
+      zh:
+      - 记水利
+    start_date: 1168
+    highlight_event_id: guji-张津-event-compile-tujing
+  - key: closure
+    name: 列贤守人物以劝后
+    labels:
+      zh:
+      - 表贤
+    start_date: 1169
+    highlight_event_id: guji-张津-event-compile-tujing
+  decisions:
+  - date: 1166
+    title_zh: 据碑刻史传补郡守名氏
+    rationale: 唐及五代郡守姓名传闻多缺，须据碑刻实录补入，方足征信
+  - date: 1168
+    title_zh: 并录古赋诗记以存文献
+    rationale: 四明赋咏记序散落名家，收附志末可备风俗观览，亦为后人辑佚之资
+events:
+- id: guji-张津-event-birth
+  date: 1120
+  year_of: 1120
+  title_zh: 出生
+  description: 约生于北宋末南宋初，里贯未详，后入仕历郡守
+  type: birth
+- id: guji-张津-event-assume-mingzhou
+  date: 1165
+  year_of: 1165
+  title_zh: 知明州
+  description: 乾道初知明州兼沿海制置，始议重修四明图经，搜访旧本
+  type: career
+- id: guji-张津-event-compile-tujing
+  date: 1168
+  year_of: 1168
+  title_zh: 纂成乾道四明图经十二卷
+  description: 乾道四年左右成书十二卷，分总叙鄞奉定海慈溪象山昌国，为现存最早四明志，后为宝庆四明志所本
+  type: career
+- id: guji-张津-event-death
+  date: 1185
+  year_of: 1185
+  title_zh: 逝世
+  description: 乾道修志后约卒，志中所载职官事迹止于南宋中期，其书仅传钞本
+  type: death
