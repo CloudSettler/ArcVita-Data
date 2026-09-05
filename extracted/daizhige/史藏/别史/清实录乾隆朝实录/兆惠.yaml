@@ -6,116 +6,177 @@ person:
     en: Zhaohui
   lifespan:
     birth:
-      date: '1708'
+      date: 1708
       precision: year
       is_circa: false
       raw: 康熙四十七年
     death:
-      date: '1764-12-10'
+      date: 1764-12-10
       precision: day
       is_circa: false
       raw: 乾隆二十九年十一月十八日
-  birth_date: '1708'
-  death_date: '1764-12-10'
-  era: 清
-  reign_ref: 乾隆
-  archetype: 忠武将帅
+  birth_date: 1708
+  death_date: 1764-12-10
+  era: 清高宗乾隆朝
+  reign_ref: 乾隆二十四年己卯
+  archetype: 持重谋定之定边经略将军
   dilemmas:
-  - 孤军被围固守待援抑或冒险突围
-  - 分兵取两城抑或合兵攻一城
-  lesson: 坚忍固守以待援乘机进取以奏功
-  summary_first_person: 余奉命经略西域虽陷黑水重围三月亦结营掘井固守待援终与富德合兵再进叶尔羌喀什噶尔以报国恩
+  - 遣人侦探可得贼情又恐泄露进兵之期之两难
+  - 五月速进可趁麦熟接济又恐马未膘壮粮运不继之两难
+  - 分兵牵制叶尔羌喀什噶尔又恐兵少难克坚城之两难
+  lesson: 知贼料马量粮而后战合兵攻坚分兵扼要方能底定西陲
+  summary_first_person: 吾兆惠受命定边西顾回城未下之际先遣熟识回人侦探叶尔羌喀什噶尔虚实复与富德舒赫德等酌定合兵攻围之策虽马驼粮饷未齐而麦熟可资仍决意五月进兵以靖西陲
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0582.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70585.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70585.html
 endeavors:
 - id: guji-兆惠-endeavor-1
-  title_zh: 黑水固守待援
-  summary: 叶尔羌兵败后依黑水结营固守三月待援脱围
+  title_zh: 合兵攻围叶尔羌喀什噶尔
+  summary_zh: 由和阗阿克苏分两路改为合兵攻围叶尔羌克城后再分兵略地堵截巴达克山援逃之路
   phases:
   - key: brewing
-    name: 轻进被围
+    name: 分路初议
     labels:
-      zh: 轻进
-    start_date: '1758-10-13'
-    highlight_event_id: guji-兆惠-event-1
+      zh:
+      - 分进合击
+      - 初议
+    start_date: 1759-03-08
+    highlight_event_id: guji-兆惠-event-17590308
   - key: breakthrough
-    name: 掘渠引水
+    name: 合兵定策
     labels:
-      zh: 坚守
-    start_date: '1758-11-01'
-    highlight_event_id: guji-兆惠-event-1
+      zh:
+      - 合兵攻围
+      - 定策
+    start_date: 1759-05-12
+    highlight_event_id: guji-兆惠-event-17590512
   - key: climax
-    name: 焚垒杀贼
+    name: 五月进兵
     labels:
-      zh: 反击
-    start_date: '1759-01-08'
-    highlight_event_id: guji-兆惠-event-1
+      zh:
+      - 麦熟接济
+      - 决战
+    start_date: 1759-05-18
+    highlight_event_id: guji-兆惠-event-17590518
   - key: closure
-    name: 合兵解围
+    name: 克城略地扼隘
     labels:
-      zh: 解围
-    start_date: '1759-02-01'
-    highlight_event_id: guji-兆惠-event-1
+      zh:
+      - 略地
+      - 堵截
+    start_date: 1759-06-01
+    highlight_event_id: guji-兆惠-event-17590601
   decisions:
-  - date: '1758-10-13'
-    title_zh: 结营黑水固守不退
-    rationale: 贼众马多野战不利依林据水可待援军
-  - date: '1759-01-08'
-    title_zh: 选兵夜出焚烧贼垒
-    rationale: 闻援兵炮声乘贼懈怠出奇挫其锋锐
+  - date: 1759-05-12
+    title_zh: 改分兵为合兵攻叶尔羌
+    rationale: 兵数不多分则力弱合则可拔坚城克城后再分兵略地堵截来援为稳妥
+  - date: 1759-05-18
+    title_zh: 定五月仍进兵不候马齐
+    rationale: 久留虚糜两月之粮虽麦熟过期必有未获者可资接济不拘前旨
 - id: guji-兆惠-endeavor-2
-  title_zh: 分路进取两和卓木
-  summary: 解围后驻阿克苏筹粮调马分两路取叶尔羌喀什噶尔
+  title_zh: 侦探牧马筹粮安抚回城
+  summary_zh: 遣熟识回人侦探叶尔羌喀什噶尔豫备加意牧养内地马驼择膘壮轻装运粮并安抚阿克苏和阗回众
   phases:
   - key: brewing
-    name: 驻军阿克苏
+    name: 遣回人侦探
     labels:
-      zh: 筹备
-    start_date: '1759-02-15'
-    highlight_event_id: guji-兆惠-event-2
+      zh:
+      - 侦探
+      - 备细
+    start_date: 1759-05-07
+    highlight_event_id: guji-兆惠-event-17590507
   - key: breakthrough
-    name: 奏请分进
+    name: 马驼牧养运粮
     labels:
-      zh: 策划
-    start_date: '1759-03-01'
-    highlight_event_id: guji-兆惠-event-2
+      zh:
+      - 牧养
+      - 转运
+    start_date: 1759-05-10
+    highlight_event_id: guji-兆惠-event-17590510
   - key: climax
-    name: 进兵叶尔羌
+    name: 安抚和阗阿克苏
     labels:
-      zh: 进剿
-    start_date: '1759-03-15'
-    highlight_event_id: guji-兆惠-event-2
+      zh:
+      - 安抚
+      - 协饷
+    start_date: 1759-05-12
+    highlight_event_id: guji-兆惠-event-17590512
   - key: closure
-    name: 会攻定回疆
+    name: 优叙守城将士
     labels:
-      zh: 平定
-    start_date: '1759-06-01'
-    highlight_event_id: guji-兆惠-event-2
+      zh:
+      - 优叙
+      - 晓谕
+    start_date: 1759-05-20
+    highlight_event_id: guji-兆惠-event-17590520
   decisions:
-  - date: '1759-03-01'
-    title_zh: 自阿克苏进取叶尔羌
-    rationale: 两城必顾此失彼乘虚捣穴一举可得
-  - date: '1759-03-10'
-    title_zh: 筹办行装盐菜银两
-    rationale: 官兵远征需足衣粮方能持久进剿
+  - date: 1759-05-07
+    title_zh: 择可信回人往叶尔羌喀什噶尔侦探
+    rationale: 先定谋略必询访豫备情形惟用不悉军情之人并不泄进兵之期以防为贼所得
+  - date: 1759-05-10
+    title_zh: 马匹加意牧养驼择膘壮轻装
+    rationale: 五月二十后马方到阿克苏尚需饲秣一二旬天暑易乏多运反累不如养膘得力
 events:
 - id: guji-兆惠-event-birth
-  title_zh: 出生
-  date: '1708'
+  type: birth
+  title_zh: 兆惠出生
+  date: 1708
   year_of: 1708
-  summary: 兆惠生于京师满洲正黄旗吴雅氏家
+  place_zh: 正黄旗满洲
+  description_zh: 康熙四十七年生于满洲正黄旗后习武略入军机处行走
+- id: guji-兆惠-event-17590308
+  type: career
+  title_zh: 传檄布噜特并议分路
+  date: 1759-03-08
+  year_of: 1759
+  place_zh: 阿克苏军营
+  description_zh: 与舒赫德遣侍卫成果布延泰传檄布噜特初拟和阗阿克苏分两路夹攻叶尔羌喀什噶尔
+- id: guji-兆惠-event-17590507
+  type: career
+  title_zh: 受谕遣回人侦探叶尔羌
+  date: 1759-05-07
+  year_of: 1759
+  place_zh: 阿克苏军营
+  description_zh: 奉谕与额敏和卓玉素布计议择可信回人往叶尔羌喀什噶尔询访豫备情形勿泄进兵之期
+- id: guji-兆惠-event-17590510
+  type: career
+  title_zh: 酌定马驼牧养运粮
+  date: 1759-05-10
+  year_of: 1759
+  place_zh: 阿克苏哈密辟展道
+  description_zh: 内地解送马约五月二十后至阿克苏尚需饲秣驼每只运粮一石择膘壮者轻装驮载加意牧养以得力
+- id: guji-兆惠-event-17590512
+  type: career
+  title_zh: 奏改两路合兵攻围
+  date: 1759-05-12
+  year_of: 1759
+  place_zh: 阿克苏和阗
+  description_zh: 以兵数不多奏请必须两路合兵攻围叶尔羌俟克城后再分兵略地堵截巴达克山隘口录送富德定议
+- id: guji-兆惠-event-17590518
+  type: career
+  title_zh: 定议五月仍进兵
+  date: 1759-05-18
+  year_of: 1759
+  place_zh: 阿克苏军营
+  description_zh: 奉谕虽麦熟过期必有尚未收获者可资接济不必拘泥候粮仍于五月进兵免虚糜两月之粮
+- id: guji-兆惠-event-17590520
+  type: career
+  title_zh: 查明优叙哈喇哈什守兵
+  date: 1759-05-20
+  year_of: 1759
+  place_zh: 军营
+  description_zh: 奉谕查明随齐凌扎布傅能自哈喇哈什脱出兵丁酌赏银两并通行晓谕优叙守城之功
+- id: guji-兆惠-event-17590601
+  type: career
+  title_zh: 分兵略地堵截来援
+  date: 1759-06-01
+  year_of: 1759
+  place_zh: 叶尔羌喀什噶尔外围
+  description_zh: 合兵攻围既定一面由和阗进兵取叶尔羌一面堵截贼逆逃窜之路并略定周边回城
 - id: guji-兆惠-event-death
-  title_zh: 病逝京师
-  date: '1764-12-10'
+  type: death
+  title_zh: 兆惠病逝
+  date: 1764-12-10
   year_of: 1764
-  summary: 以定边将军功封一等武毅谋勇公病逝京师配享紫光阁
-- id: guji-兆惠-event-1
-  title_zh: 黑水营固守待援
-  date: '1759-01-08'
-  year_of: 1759
-  summary: 自上年十月十三日结营固守掘渠引水立台对射正月初八选兵千名焚烧贼垒杀伤千余人生擒五十五人
-- id: guji-兆惠-event-2
-  title_zh: 议取叶尔羌喀什噶尔
-  date: '1759-03-15'
-  year_of: 1759
-  summary: 与富德议两路进兵自阿克苏取叶尔羌令富德取喀什噶尔并筹办进剿银两马驼军器
+  place_zh: 京师
+  description_zh: 乾隆二十九年十一月十八日病逝于京师谥文襄配享紫光阁
