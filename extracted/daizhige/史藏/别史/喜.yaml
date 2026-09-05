@@ -1,0 +1,144 @@
+person:
+  qid: guji-喜
+  name_zh: 喜
+  names:
+    zh: 喜
+    en: Xi
+  lifespan:
+    birth:
+      date: -178
+      precision: year
+      is_circa: true
+      raw: 秦昭襄王四十五年十二月甲午鸡鸣时生
+    death:
+      date: -143
+      precision: year
+      is_circa: true
+      raw: 秦始皇三十年之后卒
+  birth_date: -178
+  death_date: -143
+  era: 战国末至秦统一
+  reign_ref: 秦昭襄王至秦始皇
+  archetype: 县令史
+  dilemmas:
+  - 良吏当明法令端身佐上抑或偷惰争署示强
+  - 乡俗淫泆法令已具当严布教举劾抑或隐匿养奸
+  lesson: 明法守职廉洁端悫方为良吏
+  summary_first_person: 吾乃秦南郡安陆人喜生于昭襄王时少傅籍为史历任安陆鄢令史治狱鄢地又从军平阳备警南郡抄录秦律语书以自儆终老于统一之世
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E7%9D%A1%E8%99%8E%E5%9C%B0%E7%A7%A6%E7%AE%80.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E7%9D%A1%E8%99%8E%E5%9C%B0%E7%A7%A6%E7%AE%80.md
+endeavors:
+- id: guji-喜-endeavor-1
+  title_zh: 安陆鄢地历任令史治狱从军
+  summary: 自傅籍为史至安陆鄢令史治狱从军备警南郡一生守文法
+  phases:
+  - key: brewing
+    name: 傅籍为史
+    labels:
+      zh: 傅籍入仕
+    start_date: -166
+    highlight_event_id: guji-喜-event-fu
+  - key: breakthrough
+    name: 安陆鄢令史
+    labels:
+      zh: 令史治事
+    start_date: -161
+    highlight_event_id: guji-喜-event-lingshi
+  - key: climax
+    name: 治狱鄢地
+    labels:
+      zh: 治狱断案
+    start_date: -157
+    highlight_event_id: guji-喜-event-zhiyu
+  - key: closure
+    name: 从军备警
+    labels:
+      zh: 从军守土
+    start_date: -156
+    highlight_event_id: guji-喜-event-congjun
+  decisions:
+  - date: -0241-04
+    title_zh: 就任安陆令史
+    rationale: 习法令熟文书愿以文法佐长吏端身守职不争署
+  - date: -0235-04
+    title_zh: 鄢地治狱
+    rationale: 明律令辨曲直不枉法以求无失为良吏
+- id: guji-喜-endeavor-2
+  title_zh: 抄录秦律语书传世
+  summary: 亲抄田仓金布徭工诸律及南郡守腾语书以明法教吏
+  phases:
+  - key: brewing
+    name: 习读秦律
+    labels:
+      zh: 习律明法
+    start_date: -164
+    highlight_event_id: guji-喜-event-lingshi
+  - key: breakthrough
+    name: 抄录田仓诸律
+    labels:
+      zh: 抄律守职
+    start_date: -157
+    highlight_event_id: guji-喜-event-zhiyu
+  - key: climax
+    name: 录南郡守腾语书
+    labels:
+      zh: 语书教吏
+    start_date: -151
+    highlight_event_id: guji-喜-event-yushu
+  - key: closure
+    name: 藏简墓中
+    labels:
+      zh: 遗简传后
+    start_date: -143
+    highlight_event_id: guji-喜-event-death
+  decisions:
+  - date: -0227-04
+    title_zh: 抄录语书自儆
+    rationale: 法令已具而吏民莫用故录守腾之教以矫端民心去邪僻
+  - date: -143
+    title_zh: 以律简随葬
+    rationale: 一生守律愿以所抄律书为凭不忘为吏之本
+events:
+- id: guji-喜-event-birth
+  date: -178
+  year_of: -262
+  title_zh: 喜出生
+  description: 秦昭襄王四十五年十二月甲午鸡鸣时喜产于秦
+  location: 秦
+- id: guji-喜-event-fu
+  date: -166
+  year_of: -246
+  title_zh: 今元年喜傅
+  description: 秦王政元年喜傅籍入仕后为史
+  location: 南郡安陆
+- id: guji-喜-event-lingshi
+  date: -0241-04
+  year_of: -241
+  title_zh: 为安陆令史转鄢令史
+  description: 秦王政六年四月为安陆令史七年正月甲寅为鄢令史
+  location: 安陆鄢
+- id: guji-喜-event-zhiyu
+  date: -0235-04
+  year_of: -235
+  title_zh: 治狱鄢
+  description: 秦王政十二年四月癸丑喜治狱鄢明法断案
+  location: 鄢
+- id: guji-喜-event-congjun
+  date: -154
+  year_of: -232
+  title_zh: 从平阳军
+  description: 秦王政十三年从军十五年从平阳军后备警南郡
+  location: 平阳南郡
+- id: guji-喜-event-yushu
+  date: -0227-04
+  year_of: -227
+  title_zh: 抄南郡守腾语书
+  description: 秦王政二十年四月南郡守腾下语书喜抄录以教道吏民
+  location: 南郡
+- id: guji-喜-event-death
+  date: -143
+  year_of: -217
+  title_zh: 喜卒
+  description: 秦始皇三十年后喜终年记止于卅年墓藏秦律竹简
+  location: 安陆
