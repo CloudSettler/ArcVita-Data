@@ -3,152 +3,127 @@ person:
   name_zh: 明瑞
   names:
     zh: 明瑞
-    en: Ming Rui
+    en: Mingrui
   lifespan:
     birth:
-      date: '1730'
+      date: 1730-01-01
       precision: year
       is_circa: true
-      raw: 约雍正八年生于满洲镶黄旗富察氏家
+      raw: 约雍正八年生于富察氏家
     death:
-      date: 1768-05
+      date: 1768-05-12
       precision: month
       is_circa: true
-      raw: 乾隆三十三年三月殁于缅甸军中
-  birth_date: '1730'
-  death_date: 1768-05
+      raw: 乾隆三十三年征缅甸殁于军
+  birth_date: 1730-01-01
+  death_date: 1768-05-12
   era: 清乾隆朝
-  reign_ref: 乾隆三十年
-  archetype: 捐躯沙场之开疆统帅
+  reign_ref: 乾隆三十年六月
+  archetype: 开疆奋勇之将帅
   dilemmas:
-  - 围城强攻速克与设伏截逸保全兵力之两难
-  - 与参赞不和致掣肘而须顾全大局和衷集事之两难
-  lesson: 为将当和衷集事严防疏漏，力穷势危之际尤须守截要路以竟全功
-  summary_first_person: 吾富察明瑞，受恩总统回部，围乌什以穷逆回，调兵设伏于鄂托巴什诸隘，务使要贼无所逸，后督师征缅，力战殉国而无悔
+  - 乌什围城兵少贼坚增兵与否两难
+  - 与阿桂互相推让又须和衷集事之难
+  lesson: 前线审势自任和衷共济方免贻误
+  summary_first_person: 我是明瑞蒙高宗简用镇伊犁剿乌什贼众粮将绝我主堵截不主攻城与阿桂议增兵往复致蒙申饬仍奋勉连日击杀收牲无数不敢存招抚之念
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70735.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70735.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70738.html
 endeavors:
 - id: guji-明瑞-endeavor-1
-  title_zh: 乌什围城平逆
-  summary: 乾隆三十年统兵围乌什，断援防逸，奏调增兵以竟围歼
+  title_zh: 乌什围剿平叛
+  summary: 乾隆三十年夏驻乌什前线围困逆回捉生讯问连日进剿收取牲只
   phases:
   - key: brewing
-    name: 受命总统围城
+    name: 捉生察情
     labels:
       zh:
-      - 受命统兵
-      - 围困乌什
-    start_date: 1765-02
-    highlight_event_id: guji-明瑞-event-1
+      - 侦察筹划
+    start_date: 1765-05-07
+    highlight_event_id: guji-明瑞-event-wushi-zhan
   - key: breakthrough
-    name: 增兵合围
+    name: 连日奋剿
     labels:
       zh:
-      - 会议增兵
-      - 合围增援
-    start_date: 1765-05
-    highlight_event_id: guji-明瑞-event-2
+      - 进剿得胜
+    start_date: 1765-06-01
+    highlight_event_id: guji-明瑞-event-wushi-zhan
   - key: climax
-    name: 西路设伏截逸
+    name: 增兵争议
     labels:
       zh:
-      - 扼守隘口
-      - 防贼西窜
-    start_date: 1765-05
-    highlight_event_id: guji-明瑞-event-3
+      - 调兵筹议
+    start_date: 1765-06-03
+    highlight_event_id: guji-明瑞-event-zengbing
   - key: closure
-    name: 穷蹙逆回以待克复
+    name: 堵截待克
     labels:
       zh:
-      - 穷蹙固守
-      - 绝望救之念
-    start_date: 1765-06
-    highlight_event_id: guji-明瑞-event-3
+      - 围堵待歼
+    start_date: 1765-06-15
+    highlight_event_id: guji-明瑞-event-wushi-zhan
   decisions:
-  - date: 1765-05
-    title_zh: 会议添调兵丁二千名围城
-    rationale: 围城兵力不足则久围无功，故与阿桂会议增调以足合围
-  - date: 1765-05
-    title_zh: 遣观音保扼鄂托巴什诸隘
-    rationale: 贼穷必由城西逃逸，守住逃窜要路方能尽获要贼不致走脱
+  - date: 1765-06-03
+    title_zh: 复阿桂不必增兵以堵截为要
+    rationale: 贼粮将绝攻城非策截逃路为紧鄂津五百已足助战
+  - date: 1765-06-12
+    title_zh: 断绝招抚矢死严诛并请议叙出力将士
+    rationale: 逆回时出拒敌情罪重大若不严诛无以示警须激劝奋勉
 - id: guji-明瑞-endeavor-2
-  title_zh: 督师征缅殉国
-  summary: 乾隆三十二年起督云贵兵深入缅甸，转战万里，粮尽援绝，力战殉国
+  title_zh: 镇守伊犁调度西路
+  summary: 离伊犁数月仍遥领调度派兵援乌什与爱隆阿阿桂协同办理
   phases:
   - key: brewing
-    name: 拜征缅将军
+    name: 离镇前赴
     labels:
       zh:
-      - 拜将出师
-      - 筹饷练兵
-    start_date: 1767-08
-    highlight_event_id: guji-明瑞-event-4
+      - 镇守调度
+    start_date: 1765-03-01
+    highlight_event_id: guji-明瑞-event-zengbing
   - key: breakthrough
-    name: 深入蛮暮连捷
+    name: 调派援兵
     labels:
       zh:
-      - 长驱深入
-      - 连克木邦
-    start_date: 1767-11
-    highlight_event_id: guji-明瑞-event-4
+      - 派兵支援
+    start_date: 1765-05-20
+    highlight_event_id: guji-明瑞-event-zengbing
   - key: climax
-    name: 老官屯鏖战粮绝
+    name: 两路会商
     labels:
       zh:
-      - 孤军被围
-      - 粮道断绝
-    start_date: 1768-03
-    highlight_event_id: guji-明瑞-event-4
+      - 会商推让
+    start_date: 1765-06-03
+    highlight_event_id: guji-明瑞-event-zengbing
   - key: closure
-    name: 突围殉国全节
+    name: 协同和衷
     labels:
       zh:
-      - 突围决战
-      - 以身殉国
-    start_date: 1768-05
-    highlight_event_id: guji-明瑞-event-death
+      - 和衷集事
+    start_date: 1765-06-15
+    highlight_event_id: guji-明瑞-event-wushi-zhan
   decisions:
-  - date: 1767-11
-    title_zh: 决计分路深入直捣阿瓦
-    rationale: 欲以奇兵速定缅甸，不顾粮运艰险而冒进求速胜
-  - date: 1768-04
-    title_zh: 粮尽仍督余众突围血战
-    rationale: 宁以身殉不辱君命，故不降不屈，率残兵决战以全忠节
+  - date: 1765-05-20
+    title_zh: 令爱隆阿由伊犁选派兵二千赴乌什
+    rationale: 前敌兵恐不敷用就近酌调满洲察哈尔额鲁特以厚围力
+  - date: 1765-06-10
+    title_zh: 止调绿旗兵申明伊犁情形由己酌量
+    rationale: 绿旗步行难追逆回且张皇致各城疑忌满洲马队已足敷用
 events:
 - id: guji-明瑞-event-birth
-  date: '1730'
+  date: 1730-01-01
   year_of: 1730
-  title_zh: 明瑞生于满洲镶黄旗富察氏家
-  description_zh: 约雍正八年生，为孝贤皇后之侄，出身将门，习武娴劳
-  place_zh: 北京
-- id: guji-明瑞-event-1
-  date: 1765-02
+  title_zh: 出生
+  description: 富察氏家生员后以军功简用至伊犁将军
+- id: guji-明瑞-event-wushi-zhan
+  date: 1765-06-12
   year_of: 1765
-  title_zh: 受命总统回部兵围乌什
-  description_zh: 乾隆三十年春以领侍卫内大臣总统回部诸军，进围乌什逆回之城
-  place_zh: 乌什
-- id: guji-明瑞-event-2
-  date: 1765-05
+  title_zh: 乌什连日击杀贼众收取牲只
+  description: 自五月初七至十二日屡次击杀贼众收取牲只无算诏查明议叙议恤
+- id: guji-明瑞-event-zengbing
+  date: 1765-06-05
   year_of: 1765
-  title_zh: 会阿桂议添调兵二千围城
-  description_zh: 以围城兵力不足，与阿桂会议添调兵丁二千名，选练赴乌什助围
-  place_zh: 乌什军前
-- id: guji-明瑞-event-3
-  date: 1765-05
-  year_of: 1765
-  title_zh: 奉旨严防城西鄂托巴什逸路
-  description_zh: 乾隆谕以贼穷必由城西逃逸，令遣观音保带兵扼鄂托巴什等隘，务使要贼不脱
-  place_zh: 鄂托巴什
-- id: guji-明瑞-event-4
-  date: 1767-11
-  year_of: 1767
-  title_zh: 督师征缅深入
-  description_zh: 拜征缅将军督云贵兵由虎踞关深入缅境，连克诸寨直逼阿瓦
-  place_zh: 缅甸木邦
+  title_zh: 与阿桂议增兵二千互相咨商致蒙申饬
+  description: 明瑞阿桂移文往复互相推诿高宗以推诿游移传旨申饬增兵停止
 - id: guji-明瑞-event-death
-  date: 1768-05
+  date: 1768-05-12
   year_of: 1768
-  title_zh: 兵败自裁殉国于缅甸
-  description_zh: 老官屯被围粮尽，率残部突围血战，行至小猛育自裁殉国
-  place_zh: 缅甸小猛育
+  title_zh: 征缅甸殁于军
+  description: 后领兵征缅甸力战殁于军赐恤如例

@@ -11,128 +11,122 @@ person:
       is_circa: false
       raw: 康熙四十七年
     death:
-      date: '1764-12-10'
-      precision: day
-      is_circa: true
-      raw: 乾隆二十九年冬
+      date: '1764'
+      precision: year
+      is_circa: false
+      raw: 乾隆二十九年
   birth_date: '1708'
-  death_date: '1764-12-10'
+  death_date: '1764'
   era: 清乾隆朝
   reign_ref: 乾隆
-  archetype: 开边靖远名将
+  archetype: 开疆忠武将帅
   dilemmas:
-  - 绝域转战粮运不继进退两难
-  - 黑水河被围孤军坚守待援
-  lesson: 以忠诚坚毅任西陲大事虽屡陷危地不改其志终成统一之功
-  summary_first_person: 余起自行伍荷蒙高宗知遇两征准回转战万里黑水被围犹坚守不屈及功成受封公爵谥文襄此生无憾
+  - 深入绝域兵少粮艰进退皆险当如何坚守待援以全军
+  - 降众心未服抚剿两难当如何一劳永逸以定西陲
+  lesson: 以孤军坚忍成大功以持重抚绥定新疆然穷兵远讨亦耗国力当知开拓与休养相济
+  summary_first_person: 吾兆惠起自内务府历边任奉命西征两定准部回部虽黑水被围九死一生亦不敢退一步功成封一等公惟愿后世守成安边不骄不怠
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70725.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70741.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70741.md
 endeavors:
 - id: guji-兆惠-endeavor-1
-  title_zh: 平定准噶尔
-  summary_zh: 随大军西征分路直捣伊犁追剿阿睦尔撒纳余部奠定北疆
+  title_zh: 西征平定准噶尔部
+  summary: 随大军定伊犁讨阿睦尔撒纳黑水被围坚守待援终平卫拉特
   phases:
   - key: brewing
-    name: 受命筹边
+    name: 初征受命赴北路军
     labels:
-      zh:
-      - 筹边
-      - 出塞
-    start_date: '1754-10-01'
-    highlight_event_id: guji-兆惠-event-1
+      zh: 筹边蓄势
+    start_date: '1755-03-01'
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: breakthrough
-    name: 直捣伊犁
+    name: 直捣伊犁定准部
     labels:
-      zh:
-      - 进剿
-    start_date: '1755-02-01'
-    highlight_event_id: guji-兆惠-event-1
+      zh: 长驱制胜
+    start_date: '1755-06-01'
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: climax
-    name: 穷追余部
+    name: 黑水被围坚守三月
     labels:
-      zh:
-      - 追剿
-    start_date: '1756-06-01'
-    highlight_event_id: guji-兆惠-event-2
+      zh: 绝地坚守
+    start_date: '1756-10-01'
+    highlight_event_id: guji-兆惠-event-zhungar
   - key: closure
-    name: 北路底定
+    name: 会剿余部勒铭凯旋
     labels:
-      zh:
-      - 安屯
+      zh: 平定封公
     start_date: '1757-08-01'
-    highlight_event_id: guji-兆惠-event-2
+    highlight_event_id: guji-兆惠-event-zhungar
   decisions:
-  - date: '1755-02-15'
-    title_zh: 请分两路进兵
-    rationale: 准部内乱机不可失分进合击可速定伊犁
-  - date: '1756-09-10'
-    title_zh: 坚持留屯穷追
-    rationale: 若遽撤则余孽复聚虽转运维艰亦当坚守以竟全功
+  - date: '1756-10-15'
+    title_zh: 黑水筑营固守待援不突围
+    rationale: 兵少粮尽若轻动则全覆坚守可待南北两路援军以保大局
+  - date: '1757-02-10'
+    title_zh: 分道追剿阿睦尔撒纳余众
+    rationale: 贼首不获则边患复起须断其窜投哈萨克之路以绝后患
 - id: guji-兆惠-endeavor-2
-  title_zh: 平定大小和卓
-  summary_zh: 统兵南征解黑水之围收复喀什噶尔叶尔羌统一南疆
+  title_zh: 南征平定大小和卓回部
+  summary: 越天山征回城攻喀什噶尔叶尔羌擒波罗尼都霍集占统一天山南北
   phases:
   - key: brewing
-    name: 南征筹划
+    name: 定策南征筹粮练兵
     labels:
-      zh:
-      - 南征
-    start_date: '1757-10-01'
-    highlight_event_id: guji-兆惠-event-2
+      zh: 谋定后动
+    start_date: '1758-04-01'
+    highlight_event_id: guji-兆惠-event-huibu
   - key: breakthrough
-    name: 黑水坚守
+    name: 越冰岭攻库车沙雅尔
     labels:
-      zh:
-      - 坚守待援
-    start_date: '1758-01-01'
-    highlight_event_id: guji-兆惠-event-2
+      zh: 越险深入
+    start_date: '1758-09-01'
+    highlight_event_id: guji-兆惠-event-huibu
   - key: climax
-    name: 合军反攻
+    name: 围攻叶尔羌喀什噶尔
     labels:
-      zh:
-      - 反攻
-    start_date: '1758-10-01'
-    highlight_event_id: guji-兆惠-event-3
+      zh: 攻坚决战
+    start_date: '1759-02-01'
+    highlight_event_id: guji-兆惠-event-huibu
   - key: closure
-    name: 南疆底定
+    name: 双城克复设官驻防新疆
     labels:
-      zh:
-      - 凯旋
+      zh: 建制安边
     start_date: '1759-09-01'
-    highlight_event_id: guji-兆惠-event-3
+    highlight_event_id: guji-兆惠-event-huibu
   decisions:
-  - date: '1758-01-20'
-    title_zh: 黑水结营固守
-    rationale: 敌众我寡唯有据水结阵坚守以待援军不可轻退
-  - date: '1758-11-05'
-    title_zh: 分兵收复二城
-    rationale: 喀什噶尔叶尔羌互为犄角须分进合击断其西窜之路
+  - date: '1758-10-01'
+    title_zh: 弃辎重轻骑越天山冰岭
+    rationale: 出其不意可夺库车门户迟则贼合守险粮运难继
+  - date: '1759-06-01'
+    title_zh: 合富德之军并力攻叶尔羌
+    rationale: 分兵则力弱贼得各个击破合兵则一举定两城永清回部
 events:
 - id: guji-兆惠-event-birth
-  title_zh: 诞生
+  title_zh: 出生于满洲正黄旗乌雅氏家
   date: '1708'
   year_of: 1708
-  summary_zh: 生于满洲正黄旗温特赫氏家
-- id: guji-兆惠-event-1
-  title_zh: 西征定伊犁
-  date: '1755-05-01'
-  year_of: 1755
-  summary_zh: 随军分路西进直抵伊犁平定准部
-  endeavor_ref: guji-兆惠-endeavor-1
-- id: guji-兆惠-event-2
-  title_zh: 黑水之围坚守
-  date: '1758-03-01'
-  year_of: 1758
-  summary_zh: 在黑水河被和卓围困坚守三月待援解围
-  endeavor_ref: guji-兆惠-endeavor-2
-- id: guji-兆惠-event-3
-  title_zh: 收复叶尔羌喀什噶尔
+  place_zh: 京师
+  summary: 康熙四十七年生员袭佐领累迁内务府总管以内大臣用
+- id: guji-兆惠-event-zhungar
+  title_zh: 黑水被围坚守待援
+  date: '1756-11-01'
+  year_of: 1756
+  place_zh: 伊犁黑水营
+  summary: 领兵搜剿被围掘壕固守三阅月援至解围转败为胜
+- id: guji-兆惠-event-huibu
+  title_zh: 攻克叶尔羌喀什噶尔平定大小和卓
   date: '1759-09-01'
   year_of: 1759
-  summary_zh: 与富德合军收复南疆二城回部悉平
-  endeavor_ref: guji-兆惠-endeavor-2
+  place_zh: 叶尔羌喀什噶尔
+  summary: 与富德会兵连克回城二酋西窜巴达克山被擒献俘京师
 - id: guji-兆惠-event-death
-  title_zh: 病逝京师
-  date: '1764-12-10'
+  title_zh: 病卒于京师
+  date: '1764'
   year_of: 1764
-  summary_zh: 协办大学士户部尚书病逝赐祭葬谥文襄
+  place_zh: 京师
+  summary: 乾隆二十九年卒于协办大学士武英殿大学士任上追封一等公
+- id: guji-兆惠-event-inherit
+  title_zh: 子扎兰泰承袭公爵
+  date: '1765-08-16'
+  year_of: 1765
+  place_zh: 热河行在
+  summary: 乾隆三十年七月庚子谕兆惠之公爵著伊子扎兰泰承袭载实录卷七四一
