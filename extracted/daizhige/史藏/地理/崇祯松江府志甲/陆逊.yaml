@@ -1,0 +1,138 @@
+person:
+  qid: guji-陆逊
+  name_zh: 陆逊
+  names:
+    zh: 陆逊
+    en: Lu Xun
+  lifespan:
+    birth:
+      date: 0183
+      precision: year
+      is_circa: false
+      raw: 汉光和二年吴郡吴县
+    death:
+      date: '0245-03-19'
+      precision: day
+      is_circa: false
+      raw: 吴嘉禾四年二月
+  birth_date: 0183
+  death_date: '0245-03-19'
+  era: 三国吴
+  reign_ref: 吴大帝孙权
+  archetype: 儒将辅政
+  dilemmas:
+  - 以书生督师临大敌当持重待变还是速战决胜
+  - 居托孤辅政之位当直谏储位之争还是全身远祸
+  lesson: 持重待时以全胜继以忠直守国虽祸至不改其节
+  summary_first_person: 吾本吴郡吴人少从孙权历荆州夷陵以火攻破蜀受封华亭侯后镇荆襄辅太子晚进娄侯以直谏见忌而终
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B701.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B701.html
+endeavors:
+- id: guji-陆逊-endeavor-1
+  title_zh: 夷陵督师受封华亭侯
+  summary: 荆州历练后督师夷陵以火攻破刘备受封华亭侯镇荆州
+  phases:
+  - key: brewing
+    name: 荆州历练
+    labels:
+      zh:
+      - 韬晦蓄势
+    start_date: 0219
+    highlight_event_id: guji-陆逊-event-1
+  - key: breakthrough
+    name: 夷陵火攻
+    labels:
+      zh:
+      - 以逸待劳
+    start_date: '0222'
+    highlight_event_id: guji-陆逊-event-1
+  - key: climax
+    name: 受封华亭侯
+    labels:
+      zh:
+      - 封侯镇边
+    start_date: 0222-10
+    highlight_event_id: guji-陆逊-event-1
+  - key: closure
+    name: 镇抚荆州
+    labels:
+      zh:
+      - 安民守境
+    start_date: '0223'
+    highlight_event_id: guji-陆逊-event-1
+  decisions:
+  - date: '0222'
+    title_zh: 坚壁避战待蜀军懈怠
+    rationale: 蜀军气锐依山连营以持久堕其锋再乘势火攻可一举破之
+  - date: 0222-10
+    title_zh: 受华亭侯封镇荆州不入朝争功
+    rationale: 江陵要冲初定当抚民养兵固守上游以安吴西境
+- id: guji-陆逊-endeavor-2
+  title_zh: 辅政太子晚进娄侯
+  summary: 拜上大将军辅太子进封娄侯直谏储位终见忌而卒
+  phases:
+  - key: brewing
+    name: 入辅中枢
+    labels:
+      zh:
+      - 託孤之任
+    start_date: 0229
+    highlight_event_id: guji-陆逊-event-2
+  - key: breakthrough
+    name: 辅太子理政
+    labels:
+      zh:
+      - 匡正储位
+    start_date: '0230'
+    highlight_event_id: guji-陆逊-event-2
+  - key: climax
+    name: 进封娄侯
+    labels:
+      zh:
+      - 位极人臣
+    start_date: '0244'
+    highlight_event_id: guji-陆逊-event-2
+  - key: closure
+    name: 直谏见忌而卒
+    labels:
+      zh:
+      - 守节而终
+    start_date: '0245'
+    highlight_event_id: guji-陆逊-event-death
+  decisions:
+  - date: '0230'
+    title_zh: 辅太子分理政事教以宽仁
+    rationale: 国本当稳储君宜学王道以系人心防权臣离间
+  - date: '0244'
+    title_zh: 上疏力谏二宫之争
+    rationale: 嫡庶不明必乱国本虽触怒上意亦当尽辅政之忠
+events:
+- id: guji-陆逊-event-birth
+  type: birth
+  title_zh: 生于吴郡吴县
+  date: 0183
+  year_of: 183
+  place_zh: 吴郡吴县
+  summary: 汉光和二年生于吴郡陆氏
+- id: guji-陆逊-event-1
+  type: career
+  title_zh: 夷陵破蜀封华亭侯
+  date: 0222-10
+  year_of: 222
+  place_zh: 夷陵华亭地
+  summary: 孙权命为大都督破刘备于夷陵论功封华亭侯青龙江造舰之地因以得名
+- id: guji-陆逊-event-2
+  type: career
+  title_zh: 辅太子末年进娄侯
+  date: '0244'
+  year_of: 244
+  place_zh: 武昌建业
+  summary: 拜上大将军辅太子末年进封娄侯守荆州兼理国政
+- id: guji-陆逊-event-death
+  type: death
+  title_zh: 忧愤而卒于荆州任上
+  date: '0245-03-19'
+  year_of: 245
+  place_zh: 荆州
+  summary: 以谏二宫事见责忧愤而卒年六十三追谥昭侯

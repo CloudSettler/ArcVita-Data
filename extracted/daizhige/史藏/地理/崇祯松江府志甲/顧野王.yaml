@@ -1,0 +1,135 @@
+person:
+  qid: guji-顧野王
+  name_zh: 顧野王
+  names:
+    zh: 顧野王
+    en: Gu Yewang
+  lifespan:
+    birth:
+      date: 0519
+      precision: year
+      is_circa: false
+      raw: 梁天監十八年
+    death:
+      date: 0581
+      precision: year
+      is_circa: false
+      raw: 陳太建十三年
+  birth_date: 0519
+  death_date: 0581
+  era: 南北朝
+  reign_ref: 梁武帝至陳後主
+  archetype: 通儒傳經型
+  dilemmas:
+  - 亂世守經傳學還是退隱亭林保身
+  - 補正說文繁難舊業還是因循故訓省事
+  lesson: 積亭林讀書堆之功以成玉篇守文字正傳以惠後學
+  summary_first_person: 吾生梁代家世經學少居亭林築讀書堆博覽墳籍夜以繼日後補說文之缺成玉篇三十卷歷事梁陳以經術侍禁中老而不輟惟願文字有宗學者有所依歸
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B703.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B703.md
+endeavors:
+- id: guji-顧野王-endeavor-1
+  title_zh: 亭林讀書編纂玉篇
+  summary: 居亭林寶雲寺讀書堆博採說文蒼雅別創體例成玉篇三十卷為字學正宗
+  phases:
+  - key: brewing
+    name: 亭林結廬博覽
+    labels:
+      zh: 積學
+    start_date: '0532'
+    highlight_event_id: guji-顧野王-event-study
+  - key: breakthrough
+    name: 立意補正說文
+    labels:
+      zh: 立志
+    start_date: '0540'
+    highlight_event_id: guji-顧野王-event-yupian
+  - key: climax
+    name: 玉篇三十卷成
+    labels:
+      zh: 成書
+    start_date: '0543'
+    highlight_event_id: guji-顧野王-event-yupian
+  - key: closure
+    name: 傳鈔四方宗為字訓
+    labels:
+      zh: 傳行
+    start_date: '0550'
+    highlight_event_id: guji-顧野王-event-service
+  decisions:
+  - date: '0532'
+    title_zh: 居亭林讀書堆
+    rationale: 以鄉里清寂可聚書靜觀欲究六書本原故築堆讀書
+  - date: '0540'
+    title_zh: 決意別撰玉篇
+    rationale: 見說文部次未便檢尋俗字日增故欲分部排韻以便學者
+- id: guji-顧野王-endeavor-2
+  title_zh: 歷仕梁陳以經傳學
+  summary: 起家梁朝梁亡入陳侍詔禁中授黃門侍郎弘文學士以經術名節終於官
+  phases:
+  - key: brewing
+    name: 梁朝起家秘府
+    labels:
+      zh: 出仕
+    start_date: '0545'
+    highlight_event_id: guji-顧野王-event-yupian
+  - key: breakthrough
+    name: 入陳侍詔禁中
+    labels:
+      zh: 際遇
+    start_date: '0557'
+    highlight_event_id: guji-顧野王-event-service
+  - key: climax
+    name: 授黃門弘文傳經
+    labels:
+      zh: 顯用
+    start_date: '0560'
+    highlight_event_id: guji-顧野王-event-service
+  - key: closure
+    name: 卒於官名留亭林
+    labels:
+      zh: 令終
+    start_date: 0581
+    highlight_event_id: guji-顧野王-event-death
+  decisions:
+  - date: '0557'
+    title_zh: 應召入陳不隱
+    rationale: 以經籍散亡文字 doctrine 需人護持故不避新朝以存斯文
+  - date: '0560'
+    title_zh: 堅持講授不輟
+    rationale: 以後學無師故開館授業注經解字欲使亭林之學不絕
+events:
+- id: guji-顧野王-event-birth
+  type: birth
+  date: 0519
+  year_of: 519
+  title_zh: 生於吳郡
+  description: 梁天監十八年生於吳郡家世經學少而篤志
+- id: guji-顧野王-event-study
+  type: study
+  date: '0532'
+  year_of: 532
+  title_zh: 亭林讀書堆讀書
+  description: 居亭林寶雲寺故居築讀書堆烽樓博覽墳籍為後來著述之基
+  related_endeavor_id: guji-顧野王-endeavor-1
+- id: guji-顧野王-event-yupian
+  type: achievement
+  date: '0543'
+  year_of: 543
+  title_zh: 玉篇三十卷成
+  description: 別立部居以韻相次成玉篇三十卷凡二萬餘字為一代字學宗
+  related_endeavor_id: guji-顧野王-endeavor-1
+- id: guji-顧野王-event-service
+  type: career
+  date: '0557'
+  year_of: 557
+  title_zh: 入陳侍詔授官
+  description: 陳受禪後徵為侍中郎累遷黃門侍郎弘文學士以博學見重
+  related_endeavor_id: guji-顧野王-endeavor-2
+- id: guji-顧野王-event-death
+  type: death
+  date: 0581
+  year_of: 581
+  title_zh: 卒於陳官舍
+  description: 陳太建十三年卒於官亭林故居讀書堆烽樓基後人猶識其蹟
