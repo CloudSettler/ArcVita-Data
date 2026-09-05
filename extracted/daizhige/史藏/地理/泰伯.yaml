@@ -1,0 +1,102 @@
+person:
+  qid: guji-泰伯
+  name_zh: 泰伯
+  names:
+    zh: 泰伯
+    en: Taibo of Wu
+  lifespan:
+    birth:
+      date: '-1280'
+      precision: year
+      is_circa: true
+      raw: 约公元前十三世纪末生于岐周
+    death:
+      date: '-1190'
+      precision: year
+      is_circa: true
+      raw: 约公元前十二世纪初卒于梅里
+  birth_date: '-1280'
+  death_date: '-1190'
+  era: 商末周初
+  reign_ref: 周太王时
+  archetype: 让国开吴圣君
+  dilemmas:
+  - 继位顺统与成全父志圣子之难
+  - 荆蛮断发文身与守周礼之难
+  lesson: 让德开国以民为本教化为先
+  summary_first_person: 吾为太王长子见父欲立季历以传昌遂与仲雍断发文身奔荆蛮而让国居梅里教民农桑建句吴卒葬于此无锡实为吾故地也
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%97%A0%E9%94%A1%E5%8E%BF%E5%BF%97.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%97%A0%E9%94%A1%E5%8E%BF%E5%BF%97.md
+endeavors:
+- id: guji-泰伯-endeavor-1
+  title_zh: 让国奔吴
+  summary: 察父欲立季历遂与仲雍避位奔荆蛮以成父志
+  phases:
+  - key: brewing
+    name: 察父志在季历
+    labels:
+      zh: 让国之萌
+    start_date: '-1220'
+    highlight_event_id: guji-泰伯-event-birth
+  - key: breakthrough
+    name: 断发文身奔荆蛮
+    labels:
+      zh: 让国之行
+    start_date: '-1191'
+    highlight_event_id: guji-泰伯-event-rangguo
+  decisions:
+  - date: '-1191'
+    title_zh: 与仲雍同奔荆蛮
+    rationale: 成全父王传季历以昌圣德不争位而避地自示不可立
+  - date: '-1191'
+    title_zh: 断发文身示不返
+    rationale: 以荆蛮之俗明志使国人绝望返之意而安季历之位
+- id: guji-泰伯-endeavor-2
+  title_zh: 居梅里建句吴
+  summary: 居无锡梅里教化荆蛮兴农桑立国号句吴为江南开化之祖
+  phases:
+  - key: climax
+    name: 筑居梅里教民稼穑
+    labels:
+      zh: 开吴教化
+    start_date: '-1190'
+    highlight_event_id: guji-泰伯-event-jianwu
+  - key: closure
+    name: 卒葬梅里传位仲雍
+    labels:
+      zh: 吴国奠基
+    start_date: '-1190'
+    highlight_event_id: guji-泰伯-event-death
+  decisions:
+  - date: '-1190'
+    title_zh: 定居梅里建邦
+    rationale: 相梅里平壤可居遂筑城兴水田以安随行及土著之民
+  - date: '-1190'
+    title_zh: 传位仲雍守团结
+    rationale: 无子以弟仲雍贤能传之以保初创之业不失兄弟同心之义
+events:
+- id: guji-泰伯-event-birth
+  title_zh: 生于岐周
+  date: '-1280'
+  year_of: -1280
+  place_zh: 岐周
+  description: 周太王长子生为嫡长少习礼乐通晓稼穑之事
+- id: guji-泰伯-event-rangguo
+  title_zh: 让国奔荆蛮
+  date: '-1191'
+  year_of: -1191
+  place_zh: 荆蛮梅里
+  description: 与弟仲雍断发文身奔荆蛮避位以让季历
+- id: guji-泰伯-event-jianwu
+  title_zh: 居梅里建句吴
+  date: '-1190'
+  year_of: -1190
+  place_zh: 梅里今无锡梅村
+  description: 筑居梅里教民耕种蚕桑兴水利建句吴之国无锡县志列吴太伯世家首之
+- id: guji-泰伯-event-death
+  title_zh: 卒葬梅里
+  date: '-1190'
+  year_of: -1190
+  place_zh: 梅里
+  description: 卒葬梅里无子传位仲雍后世奉为吴地始祖立庙祭祀
