@@ -9,131 +9,147 @@ person:
       date: 1612-06-08
       precision: day
       is_circa: false
-      raw: 明万历四十年壬子生于辽东铁岭
+      raw: 万历四十年五月初七
     death:
       date: 1678-10-02
       precision: day
       is_circa: false
-      raw: 康熙十七年八月十八日卒于衡州
+      raw: 康熙十七年八月十八
   birth_date: 1612-06-08
   death_date: 1678-10-02
   era: 明末清初
-  reign_ref: 康熙
-  archetype: 割据叛藩
+  reign_ref: 崇祯至康熙
+  archetype: 藩镇贰臣
   dilemmas:
-  - 撤藩迁辽则兵权尽失束手待罪还是举兵一搏以保父子家族
-  - 袭用故明旗号顺风响应还是别建周号自立以图正统
-  - 直渡大江席卷中原还是驻节荆岳分兵秦蜀以图稳进
-  lesson: 恃兵徼利反复无信虽一时震动天下终以人心离散众叛亲离而速亡
-  summary_first_person: 我本辽东将门镇守宁远山海甲申国变借兵入关后受封平西镇守云南晚以撤藩起兵建周衡州称帝八月而殁遗部数年荡平
+  - 父在贼手忠孝两难救父还是殉国
+  - 爱姬被掠忍辱降贼还是翻然借师
+  - 世守滇黔坐大还是奉诏撤藩归朝
+  lesson: 徇私借兵一失足成千古之讥，拥兵自重尾大不掉，晚年孤注举逆终致身死名裂
+  summary_first_person: 吾本辽东武人，奉诏镇山海，甲申国变父陷贼手，家室被掳，遂折节乞师大清，一战破贼于一片石，既而南征滇黔缢永历，晋爵亲王镇云贵，终以撤藩举兵，自称周王，病死衡州
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%B4%E4%B8%89%E6%A1%82%E8%80%83.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%B4%E4%B8%89%E6%A1%82%E8%80%83.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%B4%E9%80%86%E5%A7%8B%E6%9C%AB%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%90%B4%E9%80%86%E5%A7%8B%E6%9C%AB%E8%AE%B0.html
 endeavors:
 - id: guji-吴三桂-endeavor-1
-  title_zh: 辽东镇守与甲申入关受封
-  summary_zh: 自宁远中军松杏突围退守山海甲申借清兵击闯受封平西王南征定滇
+  title_zh: 山海关借师破贼
+  summary: 甲申京师陷落，翻然自滦州回关，乞师大清，合兵一片石大破李自成，追击至京畿，复仇雪耻而遂定鼎之基
   phases:
   - key: brewing
-    name: 宁远历练蓄势
+    name: 奉诏入卫观望
     labels:
-      zh: 蓄势
-    start_date: 1630-01-01
-    highlight_event_id: guji-吴三桂-event-birth
+      zh:
+      - 镇守山海
+      - 迁延不发
+    start_date: 1644-03-15
+    highlight_event_id: guji-吴三桂-event-qingshi
   - key: breakthrough
-    name: 松杏突围守山海
+    name: 闻变折返乞师
     labels:
-      zh: 突围
-    start_date: 1642-01-01
-    highlight_event_id: guji-吴三桂-event-1644-jiangqing
+      zh:
+      - 冲冠一怒
+      - 泣血求助
+    start_date: 1644-04-22
+    highlight_event_id: guji-吴三桂-event-qingshi
   - key: climax
-    name: 甲申借师入关
+    name: 一片石合兵大捷
     labels:
-      zh: 入关
-    start_date: 1644-04-01
-    highlight_event_id: guji-吴三桂-event-1644-jiangqing
+      zh:
+      - 系布为识
+      - 中坚冲阵
+    start_date: 1644-05-27
+    highlight_event_id: guji-吴三桂-event-yipianshi
   - key: closure
-    name: 封藩定滇
+    name: 追贼入京晋爵
     labels:
-      zh: 封藩
-    start_date: 1659-01-01
-    highlight_event_id: guji-吴三桂-event-1662-pingdian
+      zh:
+      - 追击定州
+      - 晋爵平西王
+    start_date: 1644-06-05
+    highlight_event_id: guji-吴三桂-event-yipianshi
   decisions:
-  - date: 1644-05-01
-    title_zh: 山海借师击闯
-    rationale: 国破家亡欲借满洲骑兵复仇且观望胜负以保关宁本部
-  - date: 1644-06-01
-    title_zh: 薙发归清南征
-    rationale: 闯军已败明室难兴不如附新兴之朝以保富贵图进取
+  - date: 1644-04-22
+    title_zh: 袭杀贼将回守山海
+    rationale: 闻爱姬被掠君父已崩，知降贼必无全家之保，唯借外兵可复仇自存
+  - date: 1644-04-25
+    title_zh: 致书睿亲王乞师
+    rationale: 京东地小兵力未集，欲兴师问罪，非假大清精兵不可成事
+  - date: 1644-05-27
+    title_zh: 系白布合兵冲坚
+    rationale: 两军合营须明标识，集中精锐冲其中坚可一举溃贼长阵
 - id: guji-吴三桂-endeavor-2
-  title_zh: 镇滇拥兵与举藩叛周
-  summary_zh: 久镇云南拥兵自重因撤藩杀巡抚起兵建周号分路出黔蜀湘粤终衡州称帝而殁
+  title_zh: 镇守滇黔终至举逆
+  summary: 南征云贵平永历，缢王于昆明，晋亲王总管滇黔，经营西南十余年，终因撤藩举兵反清，建周称王，病死军中
   phases:
   - key: brewing
-    name: 镇滇蓄异志
+    name: 移镇汉中窥西南
     labels:
-      zh: 蓄谋
-    start_date: 1665-01-01
-    highlight_event_id: guji-吴三桂-event-1662-pingdian
+      zh:
+      - 平定黔滇
+      - 分路入滇
+    start_date: 1659-01-10
+    highlight_event_id: guji-吴三桂-event-yunnan
   - key: breakthrough
-    name: 杀巡抚举兵出黔
+    name: 入缅禽王献俘
     labels:
-      zh: 举叛
-    start_date: 1673-12-28
-    highlight_event_id: guji-吴三桂-event-1673-shaju
+      zh:
+      - 渡江逼缅
+      - 环守待决
+    start_date: 1661-12-10
+    highlight_event_id: guji-吴三桂-event-yunnan
   - key: climax
-    name: 连陷湘蜀粤桂对峙岳州
+    name: 缢王昆明总管滇黔
     labels:
-      zh: 鼎盛
-    start_date: 1674-01-01
-    highlight_event_id: guji-吴三桂-event-1673-shaju
+      zh:
+      - 藁葬城外
+      - 爪牙遍布
+    start_date: 1662-06-01
+    highlight_event_id: guji-吴三桂-event-yunnan
   - key: closure
-    name: 衡州称帝病殁
+    name: 拒撤举兵建周
     labels:
-      zh: 败亡
-    start_date: 1678-04-01
-    highlight_event_id: guji-吴三桂-event-1678-chengdi
+      zh:
+      - 蓄谋西南
+      - 病殁衡州
+    start_date: 1673-12-24
+    highlight_event_id: guji-吴三桂-event-rebellion
   decisions:
-  - date: 1673-12-28
-    title_zh: 杀朱国治举兵反清
-    rationale: 撤藩诏下子孙为质去滇则失兵权不如先发制人画地讲和保全父子
-  - date: 1678-04-01
-    title_zh: 衡州称帝建昭武
-    rationale: 连年失利泷水韶州无功欲借帝号哄众振作以延旦夕
+  - date: 1661-10-20
+    title_zh: 请兵大举入缅
+    rationale: 由榔在缅借以鼓众心，不禽王以献不足效黔国世守滇中为子孙计
+  - date: 1662-06-01
+    title_zh: 缢杀永历于昆明
+    rationale: 明室根孽在此一举，杀之则滇地悉平而己位可固
+  - date: 1673-12-24
+    title_zh: 举兵云南反清
+    rationale: 朝廷下撤藩之命，若束手解兵则数十年经营尽失，不如先发以图万世之业
 events:
 - id: guji-吴三桂-event-birth
-  title_zh: 生于辽东铁岭将门
   date: 1612-06-08
   year_of: 1612
-  place_zh: 辽东铁岭
-  summary_zh: 万历壬子生将门为祖大寿外甥以勇力骑射知名镇宁远
-- id: guji-吴三桂-event-1644-jiangqing
-  title_zh: 山海借师入关定鼎
+  title_zh: 生于辽东高邮
+  description: 万历四十年生于辽东，弱冠中武举，善骑射，勇力绝人，后镇守山海关
+- id: guji-吴三桂-event-qingshi
+  date: 1644-04-22
+  year_of: 1644
+  title_zh: 自滦州折返乞师大清
+  description: 至滦州闻陈沅被掠，抵几大怒，作书与父诀，袭杀守关贼将，遣杨坤奉书乞师于睿亲王
+- id: guji-吴三桂-event-yipianshi
   date: 1644-05-27
   year_of: 1644
-  place_zh: 山海关一片石
-  summary_zh: 甲申国变率关宁借清兵合击大顺受封平西王随南征
-- id: guji-吴三桂-event-1662-pingdian
-  title_zh: 平滇镇守云南
-  date: 1662-01-01
+  title_zh: 一片石合兵破李自成
+  description: 睿亲王至沙河，吴兵系白布为识，冲贼中坚，追至永平，贼杀吴襄西走，吴追及定州清水河大捷
+- id: guji-吴三桂-event-yunnan
+  date: 1662-06-01
   year_of: 1662
-  place_zh: 云南
-  summary_zh: 领兵入滇久镇云贵拥兵自重蓄养孙嗣异志渐坚
-- id: guji-吴三桂-event-1673-shaju
-  title_zh: 杀巡抚朱国治起兵出黔
-  date: 1673-12-28
+  title_zh: 拥永历还滇缢杀
+  description: 大兵临缅江，缅人献永历，三桂拥之还滇，康熙元年四月令人以帛缢杀之，藁葬云南城外，滇地悉平
+- id: guji-吴三桂-event-rebellion
+  date: 1673-12-24
   year_of: 1673
-  place_zh: 云南贵州
-  summary_zh: 癸丑十一月二十一日杀巡抚建周号命王屏藩入蜀马宝图粤长驱陷辰沅长沙岳州
-- id: guji-吴三桂-event-1678-chengdi
-  title_zh: 衡州称帝建号昭武
-  date: 1678-04-01
-  year_of: 1678
-  place_zh: 湖南衡州
-  summary_zh: 十七年三月以衡州为都称帝封吴应麒为楚王吴世璠为太孙未久而势蹙
+  title_zh: 云南起兵反清建周
+  description: 朝廷议撤三藩，三桂杀巡抚朱国治，举兵云南，国号周，建元昭武，席卷云贵川湘闽粤
 - id: guji-吴三桂-event-death
-  title_zh: 病殁衡州余部荡平
   date: 1678-10-02
   year_of: 1678
-  place_zh: 湖南衡州
-  summary_zh: 十七年八月十八日忧惶病死衡州孙世璠继立洪化十九年昆明城破自刎棺骨戮示
+  title_zh: 称帝衡州病殁
+  description: 康熙十七年三月称帝衡州，改元洪化，八月病殁于衡州行宫，孙世璠继位，滇南寻平
