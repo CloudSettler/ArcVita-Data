@@ -1,0 +1,137 @@
+person:
+  qid: guji-山海经
+  name_zh: 山海经
+  names:
+    zh: 山海经
+    en: Shan Hai Jing
+  lifespan:
+    birth:
+      date: '-0450'
+      precision: year
+      is_circa: true
+      raw: 约战国初
+    death:
+      date: '-0100'
+      precision: year
+      is_circa: true
+      raw: 约西汉初
+  birth_date: '-0450'
+  death_date: '-0100'
+  era: 战国至西汉
+  reign_ref: 周显王至汉武帝间
+  archetype: 博物志怪之祖
+  dilemmas:
+  - 山川浩博而见闻有限如何尽录
+  - 神怪荒诞而信史当真如何取舍
+  lesson: 博闻广志以存山海，敬天畏神以系人心
+  summary_first_person: 吾生于列国纷争之际，长于山川祭祀之间，遍历南山鹊首至西海流沙，记桂玉凤凰与九尾旋龟，述陆吾英招与西王母，成四十山万六千里之志，愿后人因吾而知天地广大异物众多
+  source_urls:
+  - https://zh.wikisource.org/wiki/山海经
+  - https://ctext.org/shan-hai-jing
+endeavors:
+- id: guji-山海经-endeavor-1
+  title_zh: 南山博物记
+  summary: 首述鹊山至箕尾十山，记祝余迷谷与九尾青丘，录凤凰见则天下安宁之瑞
+  phases:
+  - key: brewing
+    name: 招摇起笔
+    labels:
+      zh: 临西海多桂
+    start_date: '-0450'
+    highlight_event_id: guji-山海经-event-nanshan
+  - key: breakthrough
+    name: 青丘辨兽
+    labels:
+      zh: 九尾食人
+    start_date: '-0430'
+    highlight_event_id: guji-山海经-event-nanshan
+  - key: climax
+    name: 丹穴观凤
+    labels:
+      zh: 五采见瑞
+    start_date: '-0400'
+    highlight_event_id: guji-山海经-event-fenghuang
+  - key: closure
+    name: 南经成篇
+    labels:
+      zh: 四十山定稿
+    start_date: -0380
+    highlight_event_id: guji-山海经-event-fenghuang
+  decisions:
+  - date: '-0430'
+    title_zh: 以祠礼系山神
+    rationale: 鸟身龙首之神当以璋玉瘗糈以明人神之约
+  - date: '-0400'
+    title_zh: 特书凤凰德义
+    rationale: 首文为德翼文为义以寄天下安宁之愿
+- id: guji-山海经-endeavor-2
+  title_zh: 西山昆仑志
+  summary: 西述钱来至长留十九山，记昆仑帝下都与西王母玉山，录黄帝食玉膏飨天地之事
+  phases:
+  - key: brewing
+    name: 华首钱来
+    labels:
+      zh: 松石记兽
+    start_date: '-0350'
+    highlight_event_id: guji-山海经-event-xishan
+  - key: breakthrough
+    name: 密山玉膏
+    labels:
+      zh: 黄帝飨玉
+    start_date: '-0330'
+    highlight_event_id: guji-山海经-event-kunlun
+  - key: climax
+    name: 昆仑观帝都
+    labels:
+      zh: 陆吾司九部
+    start_date: '-0300'
+    highlight_event_id: guji-山海经-event-kunlun
+  - key: closure
+    name: 玉山西母
+    labels:
+      zh: 豹尾虎齿司厉
+    start_date: '-0250'
+    highlight_event_id: guji-山海经-event-xiwangmu
+  decisions:
+  - date: '-0330'
+    title_zh: 详录玉膏丹木
+    rationale: 五色清馨可和柔刚以显天地鬼神之飨
+  - date: '-0300'
+    title_zh: 尊昆仑为帝下都
+    rationale: 河水赤水所出万物所聚当立天下之中
+events:
+- id: guji-山海经-event-birth
+  title_zh: 托生战国
+  date: '-0450'
+  year_of: -450
+  description: 战国初列国史官巫祝口耳相传始记山海
+- id: guji-山海经-event-nanshan
+  title_zh: 南山鹊首成
+  date: '-0430'
+  year_of: -430
+  description: 自招摇至箕尾十山二千九百五十里祠以璋玉瘗糈
+- id: guji-山海经-event-fenghuang
+  title_zh: 丹穴见凤凰
+  date: '-0400'
+  year_of: -400
+  description: 丹穴之山有鸟五采首文德翼文义见则天下安宁
+- id: guji-山海经-event-xishan
+  title_zh: 西山华首记
+  date: '-0350'
+  year_of: -350
+  description: 自钱来至鬼山十九山二千九百五十七里华山冢也祠以太牢
+- id: guji-山海经-event-kunlun
+  title_zh: 昆仑帝下都
+  date: '-0300'
+  year_of: -300
+  description: 昆仑之丘神陆吾司之虎身九尾河水赤水洋水墨水所出
+- id: guji-山海经-event-xiwangmu
+  title_zh: 玉山西王母
+  date: '-0250'
+  year_of: -250
+  description: 玉山是西王母所居豹尾虎齿善啸司天之厉及五残
+- id: guji-山海经-event-death
+  title_zh: 定稿西汉
+  date: '-0100'
+  year_of: -100
+  description: 西汉初校理终成十八卷定本流传至今
