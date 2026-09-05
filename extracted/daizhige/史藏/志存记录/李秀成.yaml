@@ -8,136 +8,119 @@ person:
     birth:
       date: 1823
       precision: year
-      is_circa: true
-      raw: 藤县宁风乡人少从舅读书二十六七裹胁从逆推算
-    death:
-      date: 1864
-      precision: year
       is_circa: false
-      raw: 甲子六月金陵陷后匿清凉山突围被擒戮于金陵
+      raw: 道光三年生于广西藤县
+    death:
+      date: 1864-08-07
+      precision: day
+      is_circa: false
+      raw: 同治三年七月初六日殉于金陵
   birth_date: 1823
-  death_date: 1864
+  death_date: 1864-08-07
   era: 清末
-  reign_ref: 咸丰同治
-  archetype: 农民军统帅
+  reign_ref: 咸丰
+  archetype: 忠义智勇兼全之名将
   dilemmas:
-  - 被胁从逆与佣耕自活之两难一生为裹胁所累
-  - 分兵远征江浙与回救金陵固守之两难终致势分粮匮
-  - 劝洪逆固守待懈与洪逆急促回救之两难言不見听
-  lesson: 时势造枭雄而劫运难挽多谋寡断而忠义难全
-  summary_first_person: 吾本梧州藤县佣耕小民少从舅读书生计窘乏二十六七为洪逆裹胁隶胡以晃麾下由军帅监军指挥积战至地官副丞相忠王转战皖江浙沪终以天京倾覆舍命护幼主突围被执而死一生涂炭生灵岂吾初愿哉
+  - 忠君尽节与将在外君命有所不受之抉择
+  - 随石达开远走图鼎足霸业与留守金陵支拄危局之抉择
+  lesson: 空有破坏建设兼长之才而困于不学无术与愚忠，不悟独断大义，终以身殉
+  summary_first_person: 吾自金田从军，屡克大郡，不屠城，不杀降，解京口镇江之围，大破向荣江南大营，桐城大捷后掌朝政以支拄危局，终以忠王之名殉国
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%9B%AD%E7%AC%94%E4%B9%98.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%9B%AD%E7%AC%94%E4%B9%98.md
+  - https://daizhige.org/史藏/志存记录/太平天国战记.html
 endeavors:
 - id: guji-李秀成-endeavor-1
-  title_zh: 皖北解围与江皖经营
-  summary: 由太平门守将累擢至地官副丞相结捻自固解桐城围扰六安霍山抗张国梁于仓头分官军下游之势以保贼巢接济
+  title_zh: 解京口镇江围大破江南大营
+  summary_zh: 与陈玉成等援京口，潜师夹击破张国梁和春，复取扬州，破汤头，回师金陵击溃向荣，加封合天侯
   phases:
   - key: brewing
-    name: 裹胁入伍初露头角
+    name: 受命援救京口
     labels:
-      zh: 佣耕裹胁
-    start_date: 1851
-    highlight_event_id: guji-李秀成-event-congni
+      zh: 筹划受命
+    start_date: 1856-05-01
+    highlight_event_id: guji-李秀成-event-jingkou
   - key: breakthrough
-    name: 结捻固势踞守桐城
+    name: 潜入京口夹击破敌
     labels:
-      zh: 桐城抗秦
-    start_date: 1855
-    highlight_event_id: guji-李秀成-event-tongcheng
+      zh: 奇袭突破
+    start_date: 1856-06-01
+    highlight_event_id: guji-李秀成-event-jingkou
   - key: climax
-    name: 内外合击解桐城围
+    name: 扬州汤头连捷破向荣大营
     labels:
-      zh: 枞阳合击
-    start_date: 1858
-    highlight_event_id: guji-李秀成-event-tongcheng
+      zh: 决战高潮
+    start_date: 1856-07-01
+    highlight_event_id: guji-李秀成-event-jiangnan
   - key: closure
-    name: 扰皖全椒来安分势
+    name: 论功加封合天侯
     labels:
-      zh: 分势江皖
-    start_date: 1859
-    highlight_event_id: guji-李秀成-event-quanjiao
+      zh: 收束封赏
+    start_date: 1856-09-01
+    highlight_event_id: guji-李秀成-event-jiangnan
   decisions:
-  - date: 1855
-    title_zh: 结张乐形龚得树以自固
-    rationale: 以数十万捻众为援声势颇张得以封地官副丞相踞桐城抗官军
-  - date: 1858
-    title_zh: 求援陈玉成断官军饷道
-    rationale: 桐城被围甚急请陈玉成陷庐江溯江出大关断饷道内外合击以解围
+  - date: 1856-06-01
+    title_zh: 分兵潜入京口内外夹击
+    rationale: 京口被围粮绝，欲令一人由江潜入，出兵夹击，诸将不敢应，遂与陈玉成定内外合击之策
+  - date: 1856-08-01
+    title_zh: 弃扬州孤城回师破汤头断敌归路
+    rationale: 扬州孤悬江北留守不便，汤头后路被截则归路阻，宜疾渡南徐猝击汤头，连破十余营以通江浦浦口
 - id: guji-李秀成-endeavor-2
-  title_zh: 东征苏浙与天京殉节
-  summary: 受封忠王后由芜湖间道陷杭州苏常嘉兴继陷杭宁绍温台后力谏固守不听终护幼主突围被执戮于金陵
+  title_zh: 拒从远走支拄朝政兼援桐城宁国
+  summary_zh: 杨韦内讧后拒从石达开入川，招纳张乐行以障江北，援桐城破秦定三，收复巢县庐江宁国，掌朝政定人心
   phases:
   - key: brewing
-    name: 浦口招降风波受封忠王
+    name: 内讧后人心动摇招纳新军
     labels:
-      zh: 万古忠义
-    start_date: 1859
-    highlight_event_id: guji-李秀成-event-zhongwang
+      zh: 招贤蓄势
+    start_date: 1857-02-01
+    highlight_event_id: guji-李秀成-event-tongcheng
   - key: breakthrough
-    name: 间道广德武康陷杭垣
+    name: 拒从石达开留守金陵
     labels:
-      zh: 东征破杭
-    start_date: 1860
-    highlight_event_id: guji-李秀成-event-hangzhou
+      zh: 明志留守
+    start_date: 1857-10-01
+    highlight_event_id: guji-李秀成-event-tongcheng
   - key: climax
-    name: 合攻江南大营陷苏常嘉兴
+    name: 桐城运漕大捷解围收复州县
     labels:
-      zh: 席卷江浙
-    start_date: 1860
-    highlight_event_id: guji-李秀成-event-suzhou
+      zh: 大捷解围
+    start_date: 1858-02-01
+    highlight_event_id: guji-李秀成-event-tongcheng
   - key: closure
-    name: 天京陷落护主被执
+    name: 加封合天燕掌朝政支拄危局
     labels:
-      zh: 清凉山殉
-    start_date: 1864
-    highlight_event_id: guji-李秀成-event-death
+      zh: 辅政收局
+    start_date: 1858-03-01
+    highlight_event_id: guji-李秀成-event-tongcheng
   decisions:
-  - date: 1860
-    title_zh: 由芜湖取间道袭广德武康
-    rationale: 避张帅正面分兵往援合杨辅清李世贤陈玉成四面夹击溃江南大营
-  - date: 1863
-    title_zh: 密谏固守伺懈而击
-    rationale: 以曾帅水军由上而下我劳彼逸不可与争不如多备粮械固守待懈洪逆不从遂失苏常宁杭仅踞金陵
+  - date: 1857-10-01
+    title_zh: 拒绝随石达开入川图鼎足
+    rationale: 已弃乡井捐生命图功业，中道易心后世讥议，决不行，劝陈玉成止兵不行
+  - date: 1858-02-01
+    title_zh: 绘图授策令陈玉成抄击庐江巢县
+    rationale: 桐城失则安庆不保，檄玉成解宁国围以救桐城，先攻无为抄巢县兜击庐江，再夹击秦定三
 events:
 - id: guji-李秀成-event-birth
-  title_zh: 生于藤县宁风乡
+  title_zh: 出生于广西藤县
   date: 1823
   year_of: 1823
-  description: 广西梧州府藤县宁风乡长恭里新旺村人佣耕自活少时从舅氏读书及长归父母家生计窘乏
-- id: guji-李秀成-event-congni
-  title_zh: 裹胁从逆隶胡以晃麾下
-  date: 1851
-  year_of: 1851
-  description: 二十六七时洪逆煽众路经其村裹胁而去隶春官丞相胡以晃麾下为兵旋举为右四军帅守金陵太平门外新营由监军擢至指挥
+  description: 道光三年生于广西藤县贫农之家，后从金田起义
+- id: guji-李秀成-event-jingkou
+  title_zh: 夜援京口解镇江围
+  date: 1856-06-01
+  year_of: 1856
+  description: 与陈玉成等四丞相援京口，陈玉成潜入城中，秀成率奇兵绕张国梁军后痛击，大败国梁，解京口围，再破和春于丹徒
+- id: guji-李秀成-event-jiangnan
+  title_zh: 大破向荣江南大营进封合天侯
+  date: 1856-09-01
+  year_of: 1856
+  description: 秋八月抵金陵，奇兵出溧水断粮之议不用，亲率将士击丹徒破张国梁三万，与石达开夹攻向荣六十余垒，向军溃退丹阳，论功加合天侯
 - id: guji-李秀成-event-tongcheng
-  title_zh: 踞桐城内外合击解围
-  date: 1858
+  title_zh: 桐城大捷加封合天燕
+  date: 1858-03-01
   year_of: 1858
-  description: 封地官副丞相踞桐城抗秦定三围急求援陈玉成陈陷庐江出大关断饷道内外合击官军大挫围解旋扰六安霍山丙辰抗张国梁于仓头
-- id: guji-李秀成-event-quanjiao
-  title_zh: 招集芜湖众陷全椒来安
-  date: 1859
-  year_of: 1859
-  description: 屯黄池指麾伪政招集芜湖贼众由昭关顺流陷全椒来安纠陈玉成攻走德军分下游官军之势贼巢得接济
-- id: guji-李秀成-event-zhongwang
-  title_zh: 浦口风波伪封忠王
-  date: 1859
-  year_of: 1859
-  description: 在浦口时军中有招其投诚者为洪逆所闻惧其去伪封忠王更书万古忠义四字赐之
-- id: guji-李秀成-event-hangzhou
-  title_zh: 间道陷杭苏常尽陷
-  date: 1860
-  year_of: 1860
-  description: 庚申春由芜湖取间道至广德窜泗安由武康陷杭垣合辅王侍王英王四面夹击溃江南大营张总统殉丹阳和帅缢浒关苏常嘉兴相继陷
-- id: guji-李秀成-event-suzhou
-  title_zh: 席卷江浙纳众数十万
-  date: 1861
-  year_of: 1861
-  description: 辛酉冬杭垣再陷宁绍温台相继失守曾窜江西湖北收纳叛民数十万为曾军所扼狼狈逃回是秋安庆为官军克复断上游之臂
+  description: 咸丰八年二月，与陈玉成合击秦定三多隆阿都兴阿，收巢县庐江，大破定三于桐城，还攻宁国清军弃城走，加封合天燕
 - id: guji-李秀成-event-death
-  title_zh: 金陵陷护幼主被戮
-  date: 1864
+  title_zh: 金陵倾覆后殉国
+  date: 1864-08-07
   year_of: 1864
-  description: 甲子六月官军入金陵以己马乘幼主洪福瑱匿清凉山夜舍命冲营逃于民家为官军所擒戮之于金陵
+  description: 同治三年金陵倾覆被执，在囚笼中亲笔供述数万言，七月初六日罹极刑，以身殉国
