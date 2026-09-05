@@ -1,0 +1,145 @@
+person:
+  qid: guji-诸葛亮
+  name_zh: 诸葛亮
+  names:
+    zh: 诸葛亮
+    en: Zhuge Liang
+  lifespan:
+    birth:
+      date: 0181
+      precision: year
+      is_circa: false
+      raw: 汉灵帝光和四年
+    death:
+      date: '0234-08-28'
+      precision: day
+      is_circa: false
+      raw: 蜀汉建兴十二年八月卒于五丈原
+  birth_date: 0181
+  death_date: '0234-08-28'
+  era: 三国蜀汉
+  reign_ref: 蜀汉后主建兴
+  archetype: 贤相谋主
+  dilemmas:
+  - 以经术辅导少主还是以权略智术对病用药
+  - 吴僭称尊当绝交正名还是存联盟待教而后诛
+  - 祁山得众后当迁众自保还是引咎谢遣以系陇右人心
+  lesson: 药无善恶要以对病为妙人君以知略为先处大事当外歌舞而内以丧礼居之迁众伤民虽边鄙之常亦足惜
+  summary_first_person: 吾躬耕隆中说先主跨有荆益保岩阻和戎抚夷结吴修政待天下有变则一军向宛洛一军出秦川章武托孤后吾写申韩管子六韬以补后主权略之短建兴五年出屯汉中祁山三郡响应惜马谡败而不能守拔西县千余家还师吾负于民不敢忘也
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/史评/三国杂事.md
+  - https://daizhige.org/史藏/史评/三国杂事.html
+endeavors:
+- id: guji-诸葛亮-endeavor-1
+  title_zh: 隆中画策辅佐先主定荆益
+  description: 说先主跨有荆益保岩阻西和诸戎南抚夷越外交孙权内修政理待天下有变则荆州向宛洛益州出秦川以成霸业兴汉室
+  phases:
+  - key: brewing
+    name: 隐居隆中察时变
+    labels:
+      zh: 隐居待时
+    start_date: '0200'
+    highlight_event_id: guji-诸葛亮-event-longzhong
+  - key: breakthrough
+    name: 说先主定荆益之策
+    labels:
+      zh: 定策荆益
+    start_date: '0207'
+    highlight_event_id: guji-诸葛亮-event-longzhong
+  - key: climax
+    name: 佐取荆益成鼎立
+    labels:
+      zh: 荆益鼎立
+    start_date: 0208
+    highlight_event_id: guji-诸葛亮-event-jingyi
+  - key: closure
+    name: 白帝托孤辅后主
+    labels:
+      zh: 托孤守成
+    start_date: '0223'
+    highlight_event_id: guji-诸葛亮-event-tuogu
+  decisions:
+  - date: '0207'
+    title_zh: 劝先主跨有荆益保岩阻
+    rationale: 荆益险要可资大业和戎抚夷结吴修政待变图宛洛秦川以兴汉室
+  - date: '0223'
+    title_zh: 议吴僭称尊而不绝交
+    rationale: 王者教之不改而后诛之势未能教吴则未可遽责宜存联盟以抗魏合正道非权谋
+- id: guji-诸葛亮-endeavor-2
+  title_zh: 建兴出屯汉中北伐中原
+  description: 建兴五年出屯汉中祁山用兵南安天水安定响应马谡败后三郡不守拔西县千余家还汉中
+  phases:
+  - key: brewing
+    name: 内修政理教后主
+    labels:
+      zh: 内修政理
+    start_date: '0223'
+    highlight_event_id: guji-诸葛亮-event-tuogu
+  - key: breakthrough
+    name: 建兴五年出屯汉中
+    labels:
+      zh: 出屯汉中
+    start_date: '0227'
+    highlight_event_id: guji-诸葛亮-event-hanzhong
+  - key: climax
+    name: 祁山进兵三郡响应
+    labels:
+      zh: 祁山响应
+    start_date: 0228
+    highlight_event_id: guji-诸葛亮-event-qishan
+  - key: closure
+    name: 失守引咎拔县还师
+    labels:
+      zh: 拔县还师
+    start_date: 0228
+    highlight_event_id: guji-诸葛亮-event-qishan
+  decisions:
+  - date: '0227'
+    title_zh: 天下未变而遽出汉中
+    rationale: 承先主遗志图兴复虽天下无变亦须主动进取出祁山以系陇右人心
+  - date: 0228
+    title_zh: 拔西县千余家还汉中
+    rationale: 马谡败后三郡不守为不资敌而迁众然使无辜流离去坟墓违宗族有负响应之意
+events:
+- id: guji-诸葛亮-event-birth
+  title_zh: 生于琅琊阳都
+  date: 0181
+  year_of: 181
+  description: 汉灵帝光和四年出生琅琊阳都后隐居南阳躬耕隆中
+  location_zh: 琅琊阳都
+- id: guji-诸葛亮-event-longzhong
+  title_zh: 隆中说先主定荆益策
+  date: '0207'
+  year_of: 207
+  description: 说先主跨有荆益保岩阻和戎抚夷结吴修政天下有变则一军向宛洛一军出秦川
+  location_zh: 隆中
+- id: guji-诸葛亮-event-jingyi
+  title_zh: 佐先主保有荆益三分天下
+  date: 0219
+  year_of: 219
+  description: 先主进位汉中王领荆益之地三分之势成后以汉书教太子以切于事
+  location_zh: 成都
+- id: guji-诸葛亮-event-tuogu
+  title_zh: 白帝托孤辅佐后主
+  date: '0223'
+  year_of: 223
+  description: 章武三年先主崩于永安后主袭位改元建兴吾总政事写申韩管子六韬以补后主权略之短
+  location_zh: 永安至成都
+- id: guji-诸葛亮-event-hanzhong
+  title_zh: 建兴五年出屯汉中
+  date: '0227'
+  year_of: 227
+  description: 建兴五年出屯汉中是岁魏太和元年吴黄武六年吴保境不动而吾遽举北伐
+  location_zh: 汉中
+- id: guji-诸葛亮-event-qishan
+  title_zh: 出祁山三郡响应后失守
+  date: 0228
+  year_of: 228
+  description: 出祁山南安天水安定响应会马谡败三郡不守拔西县千余家还汉中使民流离唐庚惜之
+  location_zh: 祁山至汉中
+- id: guji-诸葛亮-event-death
+  title_zh: 卒于五丈原军中
+  date: '0234-08-28'
+  year_of: 234
+  description: 建兴十二年秋卒于五丈原军中晋定其故事二十四篇为诸葛氏集以比周诰
+  location_zh: 五丈原
