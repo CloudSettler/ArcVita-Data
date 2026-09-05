@@ -6,111 +6,143 @@ person:
     en: Fukangan
   lifespan:
     birth:
-      date: 1754
+      date: 1754-01-01
       precision: year
       is_circa: false
       raw: 乾隆十九年
     death:
-      date: 1796
+      date: 1796-01-01
       precision: year
       is_circa: false
       raw: 嘉庆元年
-  birth_date: 1754
-  death_date: 1796
+  birth_date: 1754-01-01
+  death_date: 1796-01-01
   era: 清代
-  reign_ref: 乾隆朝
-  archetype: 封疆干臣
+  reign_ref: 乾隆
+  archetype: 封疆经略干臣
   dilemmas:
-  - 洋面辽阔而兵船迟缓，如何以民船之捷补战船之拙
-  - 沿海贫民生计无着而易为盗援，如何清查窝留又不致扰民失所
-  lesson: 海疆肃清在整饬章程与体恤生民并行，兵民相维方能久安
-  summary_first_person: 吾出自勋戚，久任封疆，督两广而兼理海防，奏捕盗章程以清洋面，报耆年旌表以彰仁化，但愿海隅不惊，民生乐业，以副君恩
+  - 疏引畅销与私贩充斥如何两全
+  - 已封阮光平与穷投黎维祇如何并处而不生边衅
+  lesson: 有治人无治法整饬营伍缉私皆在得人任事
+  summary_first_person: 吾受命抚粤经略安南以疏引遏私为务以抚辑藩部为心不敢以姑息误封疆
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1336.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1339.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1339.md
 endeavors:
 - id: guji-福康安-endeavor-1
-  person_qid: guji-福康安
-  title_zh: 粤海捕盗章程整饬洋面
-  summary: 督粤期间查办洋盗充斥，奏请清查洲岛渔船盐船偷渡滥仔诸弊，并请改战船样式以利缉捕
+  title_zh: 粤东改帑归纲与查禁红盐私贩
+  summary: 捐输盐本收买场盐严缉水陆透漏以疏引遏私
   phases:
   - key: brewing
-    name: 巡查海岛酝酿章程
+    name: 改帑归纲积贮纲本
     labels:
-      zh: 清查窝留
-    start_date: 1789-01
-    highlight_event_id: guji-福康安-event-capture
+      zh:
+      - 盐政筹款
+      - 场丁生计
+    start_date: 1789-01-01
+    highlight_event_id: guji-福康安-event-yanwu
   - key: breakthrough
-    name: 六条章程上奏朝廷
+    name: 请拨纲本赴场收买
     labels:
-      zh: 奏定章程
-    start_date: 1789-08
-    highlight_event_id: guji-福康安-event-capture
+      zh:
+      - 收买场盐
+      - 壅滞疏通
+    start_date: 1789-09-01
+    highlight_event_id: guji-福康安-event-yanwu
   - key: climax
-    name: 军机议准通行各省
+    name: 水陆一体严缉透漏
     labels:
-      zh: 部议施行
-    start_date: 1789-08
-    highlight_event_id: guji-福康安-event-capture
+      zh:
+      - 缉私巡防
+      - 楚粤接壤
+    start_date: 1789-09-02
+    highlight_event_id: guji-福康安-event-jisi
+  - key: closure
+    name: 疏引遏私奏准通行
+    labels:
+      zh:
+      - 疏引
+      - 定例
+    start_date: 1789-09-03
+    highlight_event_id: guji-福康安-event-jisi
   decisions:
-  - date: 1789-08
-    title_zh: 请毁涠洲斜阳草寮递回原籍
-    rationale: 孤岛荒地易为盗窟，烧寮递籍以绝勾通
-  - date: 1789-08
-    title_zh: 请渔船编列字号连环保结
-    rationale: 以互保连坐之法使渔户互相稽察，不敢接济洋盗
-  - date: 1789-08
-    title_zh: 请留巡船熟手并改造船式
-    rationale: 轮班更换则生手误事，战船笨重则追捕不及，故请留任并仿民船改造
+  - date: 1789-09-01
+    title_zh: 动拨纲本银十万两令局商赴场买运
+    rationale: 场盐不收则丁减价售私奸贩乘机囤积尽收则私源自塞
+  - date: 1789-09-02
+    title_zh: 于盐觔经由及楚省接壤一体实力缉私
+    rationale: 衡州接壤全州私贩易充斥若不严防水陆则粤盐充赚淮纲
 - id: guji-福康安-endeavor-2
-  person_qid: guji-福康安
-  title_zh: 镇粤勤政彰奖耆寿
-  summary: 任两广总督时留心民风教化，以新宁寿民李适本年逾期颐奏请旌表，彰昇平人瑞
+  title_zh: 安南善后与黎阮处置及广西留抚
+  summary: 报销军需安插绥辑请留孙永清经理阮氏朝贡并豫筹收留黎维祇
   phases:
   - key: brewing
-    name: 查访地方耆年德行
+    name: 军需报销与绥辑安插
     labels:
-      zh: 访查耆瑞
-    start_date: 1789-06
-    highlight_event_id: guji-福康安-event-longevity
+      zh:
+      - 军需
+      - 善后
+    start_date: 1789-01-01
+    highlight_event_id: guji-福康安-event-liusun
+  - key: breakthrough
+    name: 请留广西巡抚暂缓陛见
+    labels:
+      zh:
+      - 留抚经理
+      - 朝贡豫备
+    start_date: 1789-09-01
+    highlight_event_id: guji-福康安-event-liusun
+  - key: climax
+    name: 黎维祇纠聚保乐被剿
+    labels:
+      zh:
+      - 黎氏支子
+      - 边外剿抚
+    start_date: 1789-09-02
+    highlight_event_id: guji-福康安-event-annan
   - key: closure
-    name: 奏请旌表优奖
+    name: 陈奏收留穷投之例
     labels:
-      zh: 旌表推恩
-    start_date: 1789-08
-    highlight_event_id: guji-福康安-event-longevity
+      zh:
+      - 收留安置
+      - 晓谕藩王
+    start_date: 1789-09-03
+    highlight_event_id: guji-福康安-event-annan
   decisions:
-  - date: 1789-08
-    title_zh: 奏报新宁寿民李适本一百二岁
-    rationale: 淳良谨厚孝友可风，宜旌表以昭优老之典
-  - date: 1789-08
-    title_zh: 请照例给银缎旌表
-    rationale: 推恩耆年以厚风俗，使海疆共沐仁化
+  - date: 1789-09-01
+    title_zh: 奏请孙永清俟阮光平入觐往返照料出关后再陛见
+    rationale: 报销未竣阮光显出关光平进京皆资经理抚臣不宜遽离
+  - date: 1789-09-02
+    title_zh: 若黎维祇穷蹙投内则与黎维祁一同收留安插
+    rationale: 黎氏备列藩封百余年并无得罪天朝穷投当纳又不扶持复国以全大公
 events:
 - id: guji-福康安-event-birth
-  person_qid: guji-福康安
-  title_zh: 生于京师勋戚之家
-  date: 1754
+  date: 1754-01-01
   year_of: 1754
-  place_zh: 京师
-  description: 乾隆十九年生，大学士傅恒之侄，孝贤皇后族侄，自侍卫出身累任封疆
-- id: guji-福康安-event-capture
-  person_qid: guji-福康安
-  title_zh: 奏广东捕盗章程六条
-  date: 1789-08
+  title_zh: 出生
+  description: 乾隆十九年生于满洲镶黄旗富察氏家
+- id: guji-福康安-event-yanwu
+  date: 1789-09-01
   year_of: 1789
-  place_zh: 广州
-  description: 条陈清查洲岛渔船编保巡船留任盐船稽查闽粤偷渡滥仔严办及改造战船，军机大臣议准通行
-- id: guji-福康安-event-longevity
-  person_qid: guji-福康安
-  title_zh: 奏新宁寿民李适本请旌表
-  date: 1789-08
+  title_zh: 奏查禁私贩红盐请拨纲本买运
+  description: 陈粤东煎晒盐觔商力疲不能及时收买请动纲本银十万两令局商赴场赶紧买运并严禁夹带透漏
+- id: guji-福康安-event-jisi
+  date: 1789-09-02
   year_of: 1789
-  place_zh: 广州
-  description: 奏称新宁县民李适本现年一百二岁淳良孝友，请旨旌表赏给银缎
+  title_zh: 奉谕尽收电茂等场盐并严缉楚粤接壤
+  description: 得旨电茂博茂等出盐最旺之场尽数收买使场丁随煎获利不流为盗并于水陆及沿海楚省接壤一体缉私
+- id: guji-福康安-event-liusun
+  date: 1789-09-03
+  year_of: 1789
+  title_zh: 奏请孙永清暂缓陛见留粤经理
+  description: 以报销军需款项料理阮光显出关及豫备明春阮光平进京俱资经理奏准俟照料出关后再启程陛见
+- id: guji-福康安-event-annan
+  date: 1789-09-04
+  year_of: 1789
+  title_zh: 奏报黎维祇潜匿保乐纠兵被剿
+  description: 报黎维祁弟黎维祇潜匿保乐与黄文熥纠聚攻打牧马被阮光平手下杀败并陈将来穷投则收留安插之宜
 - id: guji-福康安-event-death
-  person_qid: guji-福康安
-  title_zh: 卒于军中追封郡王
-  date: 1796
+  date: 1796-01-01
   year_of: 1796
-  place_zh: 军中
-  description: 嘉庆元年剿办苗疆军务病卒于军，追封嘉勇郡王，谥文襄，配享太庙
+  title_zh: 逝世
+  description: 嘉庆元年征苗军中病逝
