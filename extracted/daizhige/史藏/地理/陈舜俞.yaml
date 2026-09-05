@@ -1,0 +1,145 @@
+person:
+  qid: guji-陈舜俞
+  name_zh: 陈舜俞
+  names:
+    zh: 陈舜俞
+    en: Chen Shunyu
+  lifespan:
+    birth:
+      date: 1026
+      precision: year
+      is_circa: true
+      raw: 宋天圣四年左右生于秀州嘉禾
+    death:
+      date: 1076
+      precision: year
+      is_circa: true
+      raw: 宋熙宁九年左右卒
+  birth_date: 1026
+  death_date: 1076
+  era: 北宋
+  reign_ref: 熙宁
+  archetype: 直言方志之士
+  dilemmas:
+  - 直言论事触怒朝贵与保全进退之难
+  - 谪居筦库困厄与穷览山水立言传后之衡
+  lesson: 直道不容则以山水方志寄志传后
+  summary_first_person: 余昔读书山中爱其泉石以六十日之力尽南北高深之胜昼行钞记夜发书攻之成庐山记五卷以补旧志疏略
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%BA%90%E5%B1%B1%E8%AE%B0.html
+  - https://zh.wikisource.org/wiki/%E5%BB%AC%E5%B1%B1%E8%A8%98
+endeavors:
+- id: guji-陈舜俞-endeavor-1
+  title_zh: 制策登第直言谪官
+  summary: 庆历登进士复举制策擢上第以言事谪官庐山之前
+  phases:
+  - key: brewing
+    name: 庆历进士积学
+    labels:
+      zh:
+      - 积学
+    start_date: 1046
+    highlight_event_id: guji-陈舜俞-event-jinshi
+  - key: breakthrough
+    name: 制策擢第名动朝野
+    labels:
+      zh:
+      - 直言
+    start_date: 1061
+    highlight_event_id: guji-陈舜俞-event-zhice
+  - key: climax
+    name: 以言事谪居筦库
+    labels:
+      zh:
+      - 谪贬
+    start_date: 1072
+    highlight_event_id: guji-陈舜俞-event-lushan
+  - key: closure
+    name: 谪居山前待察
+    labels:
+      zh:
+      - 守困
+    start_date: 1073
+    highlight_event_id: guji-陈舜俞-event-lushan
+  decisions:
+  - date: 1061
+    title_zh: 应制策直陈时弊
+    rationale: 不顾利害以直言求用冀明主纳谏
+  - date: 1072
+    title_zh: 谪官不废游览考订
+    rationale: 既废于筦库则退而寄志山水以著述自见
+- id: guji-陈舜俞-endeavor-2
+  title_zh: 穷览庐山撰成山记
+  summary: 熙宁五年谪居山前酷嗜游览以六十日尽南北胜成书五卷并作俯视图
+  phases:
+  - key: brewing
+    name: 少时读书山中慨旧志疏略
+    labels:
+      zh:
+      - 嗜山
+    start_date: 1046
+    highlight_event_id: guji-陈舜俞-event-jinshi
+  - key: breakthrough
+    name: 谪官山前尽览高深
+    labels:
+      zh:
+      - 探胜
+    start_date: 1072
+    highlight_event_id: guji-陈舜俞-event-lushan
+  - key: climax
+    name: 昼钞夜考成书五卷
+    labels:
+      zh:
+      - 撰述
+    start_date: 1073
+    highlight_event_id: guji-陈舜俞-event-lushan
+  - key: closure
+    name: 托李常序引刊板藏山
+    labels:
+      zh:
+      - 传后
+    start_date: 1075
+    highlight_event_id: guji-陈舜俞-event-lushan
+  decisions:
+  - date: 1072
+    title_zh: 六十日遍游南北高深
+    rationale: 旧记疏略出于野老之语必亲历考验乃可传信
+  - date: 1075
+    title_zh: 属李常序文付刊藏山
+    rationale: 欲成己志传后好事君子故托山前之人序而传之
+events:
+- id: guji-陈舜俞-event-birth
+  title_zh: 生于秀州嘉禾
+  date: 1026
+  year_of: 1026
+  type: birth
+  place_zh: 秀州嘉禾
+  description: 宋天圣年间生于秀州嘉禾陈氏
+- id: guji-陈舜俞-event-jinshi
+  title_zh: 庆历登进士第
+  date: 1046
+  year_of: 1046
+  type: career
+  place_zh: 京师
+  description: 庆历六年登进士第积学待举步入仕途
+- id: guji-陈舜俞-event-zhice
+  title_zh: 制策擢上第仕显
+  date: 1061
+  year_of: 1061
+  type: career
+  place_zh: 京师
+  description: 以制策擢上第名声赫赫仕不二十年而以言事废
+- id: guji-陈舜俞-event-lushan
+  title_zh: 谪居庐山前撰庐山记
+  date: 1072
+  year_of: 1072
+  type: career
+  place_zh: 江州庐山南北
+  description: 熙宁五年谪官山前昼行钞记夜发书考成书五卷并作俯视图记山石水泉宫庙碑刻诗什
+- id: guji-陈舜俞-event-death
+  title_zh: 谪后物故于外
+  date: 1076
+  year_of: 1076
+  type: death
+  place_zh: 谪所
+  description: 既托李常序刊之后寻复物故不及归而志成传后
