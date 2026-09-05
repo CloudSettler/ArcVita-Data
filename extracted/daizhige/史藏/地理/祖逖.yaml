@@ -1,0 +1,158 @@
+person:
+  qid: guji-祖逖
+  name_zh: 祖逖
+  names:
+    zh: 祖逖
+    en: Zu Ti
+  lifespan:
+    birth:
+      date: 182
+      precision: year
+      is_circa: false
+      raw: 晋泰始二年
+    death:
+      date: 209
+      precision: year
+      is_circa: false
+      raw: 晋大兴四年
+  birth_date: 182
+  death_date: 209
+  era: 西晋东晋之际
+  reign_ref: 晋元帝
+  archetype: 北伐中兴武将
+  dilemmas:
+  - 偏安江左还是奋身北伐以复中原
+  - 兵微粮少是急进河北还是屯田河南以固根本
+  lesson: 志坚行苦经营得当则弱可胜强
+  summary_first_person: 余少闻鸡起舞渡江击楫誓清中原屯淮阴收河南虽未及黄河而志不可夺
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=603669
+  - https://daizhige.org/史藏/地理/嘉定鎮江志.html
+endeavors:
+- id: guji-祖逖-endeavor-1
+  name_zh: 闻鸡起舞砥砺入仕
+  description_zh: 与刘琨共勉立志报国而后入洛为官历司州主簿等职
+  phases:
+  - key: brewing
+    name: 范阳少志
+    labels:
+      zh: 立志
+    start_date: 0280
+    highlight_event_id: guji-祖逖-event-birth
+  - key: breakthrough
+    name: 闻鸡起舞
+    labels:
+      zh: 砥砺
+    start_date: 192
+    highlight_event_id: guji-祖逖-event-wenji
+  - key: climax
+    name: 入洛从戎
+    labels:
+      zh: 从政
+    start_date: 196
+    highlight_event_id: guji-祖逖-event-rushi
+  - key: closure
+    name: 南渡避乱
+    labels:
+      zh: 南渡
+    start_date: 201
+    highlight_event_id: guji-祖逖-event-nandu
+  decisions:
+  - date: 192
+    title_zh: 与刘琨相约闻鸡起舞
+    rationale: 天下大乱当以身许国故刻苦自励以待时变
+  - date: 201
+    title_zh: 避乱南渡率亲党南行
+    rationale: 洛阳倾覆中原不可居故保族南渡以图后举
+- id: guji-祖逖-endeavor-2
+  name_zh: 击楫渡江北伐中原
+  description_zh: 请缨北伐屯淮阴铸兵积谷收复河南黄河以南多来归附
+  phases:
+  - key: brewing
+    name: 击楫请缨
+    labels:
+      zh: 请伐
+    start_date: 203
+    highlight_event_id: guji-祖逖-event-dujiang
+  - key: breakthrough
+    name: 屯淮筑垒
+    labels:
+      zh: 屯守
+    start_date: 204
+    highlight_event_id: guji-祖逖-event-tunhuai
+  - key: climax
+    name: 收复河南
+    labels:
+      zh: 收复
+    start_date: 207
+    highlight_event_id: guji-祖逖-event-henan
+  - key: closure
+    name: 忧愤而卒
+    labels:
+      zh: 殒命
+    start_date: 209
+    highlight_event_id: guji-祖逖-event-death
+  decisions:
+  - date: 203
+    title_zh: 渡江击楫誓复中原
+    rationale: 不渡江北则大义不立故以死自誓以励将士
+  - date: 204
+    title_zh: 屯田淮阴招抚流散
+    rationale: 兵少食缺不可浪战故先立根本再图进取
+events:
+- id: guji-祖逖-event-birth
+  type: birth
+  title_zh: 出生于范阳祖氏
+  date: 182
+  year_of: 266
+  place_zh: 范阳
+  description_zh: 晋泰始二年祖逖生于范阳世族之家
+- id: guji-祖逖-event-wenji
+  type: career
+  title_zh: 与刘琨闻鸡起舞
+  date: 192
+  year_of: 300
+  place_zh: 洛阳
+  description_zh: 与刘琨同寝夜半闻鸡起舞习武读书以备报国
+- id: guji-祖逖-event-rushi
+  type: career
+  title_zh: 出任司州主簿等职
+  date: 196
+  year_of: 304
+  place_zh: 洛阳
+  description_zh: 入仕晋廷历任司州主簿齐王掾等职见乱而有匡扶之心
+- id: guji-祖逖-event-nandu
+  type: career
+  title_zh: 率亲党南渡避乱
+  date: 201
+  year_of: 311
+  place_zh: 京口
+  description_zh: 永嘉之乱京师陷落率宗族宾客南渡至京口嘉定镇江志列其为刺守旧迹所系
+- id: guji-祖逖-event-dujiang
+  type: career
+  title_zh: 击楫渡江请缨北伐
+  date: 203
+  year_of: 313
+  place_zh: 京口
+  description_zh: 于京口请晋元帝北伐仅率部曲百家渡江中流击楫发誓
+- id: guji-祖逖-event-tunhuai
+  type: career
+  title_zh: 屯淮阴铸兵积谷
+  date: 204
+  year_of: 314
+  place_zh: 淮阴
+  description_zh: 屯于淮阴起冶铸兵开田积谷招抚流民以充军实
+- id: guji-祖逖-event-henan
+  type: career
+  title_zh: 进据雍丘收复河南
+  date: 0319
+  year_of: 319
+  place_zh: 雍丘
+  description_zh: 连败石勒部将进据雍丘黄河以南多坞堡归附威震中原
+- id: guji-祖逖-event-death
+  type: death
+  title_zh: 忧愤病卒于雍丘
+  date: 209
+  year_of: 321
+  place_zh: 雍丘
+  description_zh: 朝廷猜忌不用而内乱复起祖逖忧愤成疾卒于军中
