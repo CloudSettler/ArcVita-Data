@@ -6,116 +6,102 @@ person:
     en: Zhen Jun
   lifespan:
     birth:
-      date: 1857
+      date: '1857'
       precision: year
       is_circa: false
-      raw: 清咸丰七年
+      raw: 咸丰七年生
     death:
-      date: 1920
+      date: '1925'
       precision: year
-      is_circa: false
-      raw: 民国九年
-  birth_date: 1857
-  death_date: 1920
-  era: 清末民初
+      is_circa: true
+      raw: 卒年未详约二十世纪前期
+  birth_date: '1857'
+  death_date: '1925'
+  era: 清末
   reign_ref: 光绪
-  archetype: 掌故记述者
+  archetype: 掌故家
   dilemmas:
-  - 亲历朝典废弛而欲存其真
-  - 身居水部闲曹而志在考据掌故
-  lesson: 以目击耳闻存一代典制为后世征信
-  summary_first_person: 余官水部亲睹大婚盛仪与太和门火后彩扎之巧又遍考宫阙典制内阁军机旧闻撰为天咫偶闻以备掌故
+  - title_zh: 朝仪亲见与旧闻传述如何并存
+    description_zh: 既欲存宫廷典制之真又恐耳食之讹故以亲历证文献以文献补亲历之阙
+  - title_zh: 仕宦守成例与欲有为之间如何自处
+    description_zh: 目睹军机成例束缚堂司故退而以笔墨存掌故冀后人考镜得失
+  lesson: 记所见闻以存掌故胜于空议成例之得失
+  summary_first_person: 余咸丰七年生，满洲镶白旗人，官水部，曾随班恭睹光绪庚寅亲政大婚盛仪，晚年以所见所闻撰为天咫偶闻以备掌故
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%92%AB%E5%B0%BA%E5%81%B6%E9%97%BB.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%92%AB%E5%B0%BA%E5%81%B6%E9%97%BB.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/天咫偶闻.md
+  - https://daizhige.org/史藏/志存记录/天咫偶聞.html
 endeavors:
 - id: guji-震钧-endeavor-1
-  title_zh: 水部从宦目睹朝典
-  summary: 光绪朝供职水部亲历太和门火与皇帝大婚盛典详记卤簿仪物妆奁
+  title_zh: 工部供职亲历朝仪
+  summary_zh: 以水部司员缀班行之末亲睹大婚遣使筵宴升殿诸大典并详记内廷办事引见之制
   phases:
   - key: brewing
     name: 初入水部
     labels:
-      zh: 水部供职
-    start_date: 1889
-    highlight_event_id: guji-震钧-event-taihe-fire
-  - key: breakthrough
-    name: 亲睹大婚
-    labels:
-      zh: 大婚盛典
-    start_date: 1890-01-26
-    highlight_event_id: guji-震钧-event-wedding
+      zh:
+      - 仕宦
+      - 亲历
+    start_date: '1880'
+    highlight_event_id: guji-震钧-event-work
   - key: climax
-    name: 详载仪物
+    name: 恭睹庚寅盛仪
     labels:
-      zh: 记述仪物
-    start_date: 1890-01-24
-    highlight_event_id: guji-震钧-event-wedding
-  - key: closure
-    name: 感叹典废
-    labels:
-      zh: 朝典之变
-    start_date: 1890
+      zh:
+      - 大婚
+      - 朝仪
+    start_date: '1889-02-25'
     highlight_event_id: guji-震钧-event-wedding
   decisions:
-  - date: 1890-01-26
-    title_zh: 缀班恭睹盛仪并详记本末
-    rationale: 以亲历者存一代大典真相备后考
+  - date: '1889-02-25'
+    title_zh: 随班详记大婚仪注妆奁
+    rationale: 恐盛典易逝而掌故无征故备载卤簿设采及奁目以存一代之制
 - id: guji-震钧-endeavor-2
-  title_zh: 撰述天咫偶闻存掌故
-  summary: 考订大内御门军机内阁南书房诸制兼及太庙社坛旧闻成一家掌故
+  title_zh: 纂述天咫偶闻
+  summary_zh: 汇集皇城宫殿内阁军机南书房上书房及京师风土诸条分卷记述以成一家之掌故
   phases:
-  - key: brewing
-    name: 博采旧闻
-    labels:
-      zh: 搜集掌故
-    start_date: 1890
-    highlight_event_id: guji-震钧-event-wedding
   - key: breakthrough
-    name: 考订制度
+    name: 搜辑旧闻
     labels:
-      zh: 宫廷典制
-    start_date: 1900
-    highlight_event_id: guji-震钧-event-compilation
-  - key: climax
-    name: 成书天咫偶闻
-    labels:
-      zh: 著书立说
-    start_date: 1910
-    highlight_event_id: guji-震钧-event-compilation
+      zh:
+      - 掌故
+      - 采访
+    start_date: '1900'
+    highlight_event_id: guji-震钧-event-work
   - key: closure
-    name: 流传后世
+    name: 成书传世
     labels:
-      zh: 存史备考
-    start_date: 1920
-    highlight_event_id: guji-震钧-event-death
+      zh:
+      - 著述
+      - 成书
+    start_date: '1907'
+    highlight_event_id: guji-震钧-event-book
   decisions:
-  - date: 1910
-    title_zh: 以笔记体保存朝章国故
-    rationale: 正史不载细务非笔记无以传其真
+  - date: '1907'
+    title_zh: 以偶闻为名存天咫诸事
+    rationale: 自谦偶闻而实欲补官史之阙使后人得考清代宫廷与京师旧制
 events:
 - id: guji-震钧-event-birth
   title_zh: 出生
-  date: 1857
+  date: '1857'
   year_of: 1857
-  description: 清咸丰七年生于宛平
-- id: guji-震钧-event-taihe-fire
-  title_zh: 目睹太和门火
-  date: 1889-12
-  year_of: 1889
-  description: 光绪己丑十二月太和门火自未至酉南望黑烟如盖
+  description_zh: 咸丰七年生于满洲镶白旗之家
+- id: guji-震钧-event-work
+  title_zh: 官水部缀班
+  date: '1880'
+  year_of: 1880
+  description_zh: 官工部水部得参与朝班由此熟知内廷办事与引见诸制
 - id: guji-震钧-event-wedding
-  title_zh: 亲睹光绪大婚遣使盛典
-  date: 1890-01-26
-  year_of: 1890
-  description: 光绪庚寅正月以水部官缀班太和殿恭睹大婚遣使及殿廷陈设玉盂卤簿
-- id: guji-震钧-event-compilation
+  title_zh: 恭睹光绪亲政大婚
+  date: '1889-02-25'
+  year_of: 1889
+  description_zh: 光绪十五年正月二十六日大婚余以水部官缀班太和殿之末亲睹遣使持节及法驾卤簿之盛并记妆奁百抬之目
+- id: guji-震钧-event-book
   title_zh: 撰成天咫偶闻
-  date: 1910
-  year_of: 1910
-  description: 汇集皇城宫殿御门军机内阁南书房见闻考订成编
+  date: '1907'
+  year_of: 1907
+  description_zh: 以多年亲历参以旧闻撰成天咫偶闻分卷记皇城宫殿阁部及京师杂事成清末掌故名著
 - id: guji-震钧-event-death
   title_zh: 逝世
-  date: 1920
-  year_of: 1920
-  description: 民国九年卒
+  date: '1925'
+  year_of: 1925
+  description_zh: 约二十世纪前期逝世卒年未详
