@@ -1,0 +1,146 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '0602'
+      precision: year
+      is_circa: false
+      raw: 隋仁寿二年生于颍川
+    death:
+      date: '0664-02-05'
+      precision: day
+      is_circa: false
+      raw: 唐麟德元年二月五日寂于长安玉华宫
+  birth_date: '0602'
+  death_date: '0664-02-05'
+  era: 唐初
+  reign_ref: 唐太宗贞观
+  archetype: 西行求法译经高僧
+  dilemmas:
+  - 南北异学是非纷纠传译踳驳难穷真义
+  - 贞观禁令不许出境而慕道西行去留两难
+  - 雪岭流沙暴龙险阻生死莫测而志不退转
+  lesson: 正名求真历险不避以信实之记载备后世参考
+  summary_first_person: 吾幼渐法门慨祇园莫履长怀鹿野之真迹以贞观三年杖锡遵路资皇灵抵殊俗历百一十国博考精微周流多载以贞观十九年正月返于长安获经六百五十七部奉诏译焉并据闻见撰成西域记十二卷
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E8%AE%B0.html
+  - https://zh.wikisource.org/wiki/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E8%A8%98
+endeavors:
+- id: guji-玄奘-endeavor-1
+  title_zh: 贞观西行求法十七载
+  summary: 自长安出玉门越大雪岭访天竺求取真经并记录百三十八国风土
+  phases:
+  - key: brewing
+    name: 长安究学怃然发愿
+    labels:
+      zh: 发愿求法
+    start_date: '0622'
+    highlight_event_id: guji-玄奘-event-departure
+  - key: breakthrough
+    name: 贞观三年杖锡出关
+    labels:
+      zh: 出关西行
+    start_date: 0629
+    highlight_event_id: guji-玄奘-event-departure
+  - key: climax
+    name: 天竺遍访圣迹问道
+    labels:
+      zh: 天竺问道
+    start_date: '0637'
+    highlight_event_id: guji-玄奘-event-india
+  - key: closure
+    name: 负经东归谒帝长安
+    labels:
+      zh: 东归长安
+    start_date: '0644'
+    highlight_event_id: guji-玄奘-event-return
+  decisions:
+  - date: 0629
+    title_zh: 冒禁私出玉门关西行
+    rationale: 南北传译多讹不穷香象之文无以解惑故宁冒律令指葱山而矫迹
+  - date: '0637'
+    title_zh: 驻锡那烂陀从戒贤受学
+    rationale: 欲博考精微廓群疑于性海故久住问道傍稽圣迹无一物不窥
+- id: guji-玄奘-endeavor-2
+  title_zh: 奉诏译经撰述西域记
+  summary: 返长安后译梵本六百五十七部并口述见闻由辩机撰成大唐西域记十二卷
+  phases:
+  - key: brewing
+    name: 长安受诏安置译场
+    labels:
+      zh: 受诏译经
+    start_date: 0645-01
+    highlight_event_id: guji-玄奘-event-return
+  - key: breakthrough
+    name: 慈恩道场开译圣教
+    labels:
+      zh: 开馆译经
+    start_date: 0645-06
+    highlight_event_id: guji-玄奘-event-translate
+  - key: climax
+    name: 口授见闻辩机缀文
+    labels:
+      zh: 撰述方志
+    start_date: '0646'
+    highlight_event_id: guji-玄奘-event-record
+  - key: closure
+    name: 进呈十二卷备史参考
+    labels:
+      zh: 进呈成书
+    start_date: 0648
+    highlight_event_id: guji-玄奘-event-record
+  decisions:
+  - date: 0645-02
+    title_zh: 辞劝仕奉诏专事翻译
+    rationale: 以泻瓶之多闻泛虚舟独远唯以译经利生为任不受朝荣
+  - date: '0646'
+    title_zh: 命辩机撰述西域记
+    rationale: 亲践百一十国传闻二十八国不有所叙何记化洽故据闻见载述正名辨俗
+events:
+- id: guji-玄奘-event-birth
+  title_zh: 诞生
+  date: '0602'
+  year_of: 602
+  place_zh: 颍川
+  description: 隋仁寿二年诞生俗姓陈氏其先颍川人幼含和降德聚沙之年兰薰桂馥
+- id: guji-玄奘-event-departure
+  title_zh: 贞观三年杖锡西行
+  date: 0629
+  year_of: 629
+  place_zh: 长安至玉门
+  description: 背玄灞延望指葱山矫迹资皇灵抵殊俗冒重险践畏途暄寒骤徙展转方达
+- id: guji-玄奘-event-india
+  title_zh: 天竺问道遍访圣迹
+  date: '0637'
+  year_of: 637
+  place_zh: 中天竺那烂陀寺
+  description: 言寻真相博考精微隐括众经无片言不尽傍稽圣迹无一物不窥周流多载
+- id: guji-玄奘-event-return
+  title_zh: 贞观十九年正月返长安
+  date: 0645-01
+  year_of: 645
+  place_zh: 长安
+  description: 十九年正月届于长安所获经论六百五十七部有诏译焉欢阙庭而相抃
+- id: guji-玄奘-event-translate
+  title_zh: 奉诏翻译梵本
+  date: 0645-06
+  year_of: 645
+  place_zh: 长安慈恩道场
+  description: 太宗召见青蒲奉诏翻译梵本凡六百五十七部并制三藏圣教序旌时秀
+- id: guji-玄奘-event-record
+  title_zh: 著大唐西域记十二卷
+  date: '0646'
+  year_of: 646
+  place_zh: 长安
+  description: 具览遐方异俗著大唐西域记十二卷亲践百一十国传闻二十八国邈矣殊方依然在目
+- id: guji-玄奘-event-death
+  title_zh: 寂于玉华宫
+  date: '0664-02-05'
+  year_of: 664
+  place_zh: 长安玉华宫
+  description: 唐高宗麟德元年二月五日寂于玉华宫译业既成立言不朽

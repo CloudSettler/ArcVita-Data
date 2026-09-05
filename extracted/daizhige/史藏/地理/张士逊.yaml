@@ -1,0 +1,152 @@
+person:
+  qid: guji-张士逊
+  name_zh: 张士逊
+  names:
+    zh: 张士逊
+    en: Zhang Shixun
+  lifespan:
+    birth:
+      date: 0964
+      precision: year
+      is_circa: true
+      raw: 太平兴国九年生于光化
+    death:
+      date: '1049'
+      precision: year
+      is_circa: false
+      raw: 皇祐元年卒
+  birth_date: 0964
+  death_date: '1049'
+  era: 北宋
+  reign_ref: 宋太宗雍熙至宋仁宗皇祐
+  archetype: 守成宰辅
+  dilemmas:
+  - 进退之间如何保全晚节
+  - 显贵之后如何不忘桑梓旧游
+  lesson: 位极而能退，贵而能俭，故能全名
+  summary_first_person: 我是张士逊，光化人，雍熙壬辰登第，历事三朝，位至宰辅，告老之后重游萧寺，抚手植之桐而题诗自警
+  source_urls:
+  - https://daizhige.org/史藏/地理/大元一统志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/大元一统志.md
+endeavors:
+- id: guji-张士逊-endeavor-1
+  title_zh: 雍熙登第历仕三朝
+  summary_zh: 自布衣举进士，践历州县台阁，以清慎镇静致位宰辅
+  phases:
+  - key: brewing
+    name: 萧寺植桐潜修
+    labels:
+      zh:
+      - 潜修
+    start_date: 0984
+    highlight_event_id: guji-张士逊-event-zhitong
+  - key: breakthrough
+    name: 壬辰登第入仕
+    labels:
+      zh:
+      - 科举
+    start_date: 0992
+    highlight_event_id: guji-张士逊-event-jinshi
+  - key: climax
+    name: 天圣拜相守成
+    labels:
+      zh:
+      - 宰辅
+    start_date: '1029'
+    highlight_event_id: guji-张士逊-event-zaixiang
+  - key: closure
+    name: 告老归休题壁
+    labels:
+      zh:
+      - 致仕
+    start_date: '1048'
+    highlight_event_id: guji-张士逊-event-guilaotibei
+  decisions:
+  - date: 0992
+    title_zh: 应举登第不就躁进
+    rationale: 以学养待时，潜修而后发，故根基深厚
+  - date: '1029'
+    title_zh: 居相位务镇静守成
+    rationale: 国基初定不宜纷更，以安静调和阴阳为职
+- id: guji-张士逊-endeavor-2
+  title_zh: 均州结缘功德乡里
+  summary_zh: 于均州郧乡建功德院，系邓国乡望，晚年眷顾桑梓以示不忘本
+  phases:
+  - key: brewing
+    name: 邓公乡里结缘
+    labels:
+      zh:
+      - 乡望
+    start_date: 0992
+    highlight_event_id: guji-张士逊-event-jinshi
+  - key: breakthrough
+    name: 创建干兴功德院
+    labels:
+      zh:
+      - 功德
+    start_date: '1022'
+    highlight_event_id: guji-张士逊-event-gongdeyuan
+  - key: climax
+    name: 致仕重游题诗
+    labels:
+      zh:
+      - 怀旧
+    start_date: '1048'
+    highlight_event_id: guji-张士逊-event-guilaotibei
+  - key: closure
+    name: 遗泽邓公一品乡
+    labels:
+      zh:
+      - 遗泽
+    start_date: '1049'
+    highlight_event_id: guji-张士逊-event-death
+  decisions:
+  - date: '1022'
+    title_zh: 立功德院于郧乡萧寺
+    rationale: 感念旧游之地，植桐题壁之缘，以佛事系乡情
+  - date: '1048'
+    title_zh: 再题粉壁以示后人
+    rationale: 以丁巳对壬辰自警，示富贵不忘本，劝后进惜时修德
+events:
+- id: guji-张士逊-event-birth
+  title_zh: 生于光化
+  date: 0964
+  year_of: 964
+  place_zh: 光化
+  description_zh: 太平兴国九年生于光化邓城一带，张氏世居于此
+- id: guji-张士逊-event-zhitong
+  title_zh: 雍熙中植桐萧寺
+  date: 0984
+  year_of: 984
+  place_zh: 均州郧乡萧寺
+  description_zh: 未第时植桐于萧寺，留潜修之迹，后为功德院之缘起
+- id: guji-张士逊-event-jinshi
+  title_zh: 壬辰登第
+  date: 0992
+  year_of: 992
+  place_zh: 京师
+  description_zh: 雍熙二年壬辰科登进士第，自此入仕历事太宗真宗仁宗三朝
+- id: guji-张士逊-event-gongdeyuan
+  title_zh: 建干兴功德院
+  date: '1022'
+  year_of: 1022
+  place_zh: 均州郧乡
+  description_zh: 以宰辅之贵建干兴院为功德院，郧乡有邓公乡一品乡之名缘此而著
+- id: guji-张士逊-event-zaixiang
+  title_zh: 天圣拜相
+  date: '1029'
+  year_of: 1029
+  place_zh: 京师
+  description_zh: 天圣七年拜同中书门下平章事，封邓国公，以镇静守成居相位
+- id: guji-张士逊-event-guilaotibei
+  title_zh: 告老重游题壁
+  date: '1048'
+  year_of: 1048
+  place_zh: 均州萧寺
+  description_zh: 告老后来寺留题，云桐枝手植有同孙，二纪重来愧此身，又书丁巳对壬辰
+- id: guji-张士逊-event-death
+  title_zh: 卒于皇祐元年
+  date: '1049'
+  year_of: 1049
+  place_zh: 京师
+  description_zh: 皇祐元年卒，赠太师中书令，谥文懿，均州乡人立祠怀之
