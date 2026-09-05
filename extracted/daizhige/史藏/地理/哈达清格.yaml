@@ -1,0 +1,166 @@
+person:
+  qid: guji-哈达清格
+  name_zh: 哈达清格
+  names:
+    zh: 哈达清格
+    en: Hada Qingge
+  lifespan:
+    birth:
+      date: '1720'
+      precision: year
+      is_circa: true
+      raw: 清初约生未详年月
+    death:
+      date: '1785'
+      precision: year
+      is_circa: true
+      raw: 乾隆末年约卒未详年月
+  birth_date: '1720'
+  death_date: '1785'
+  era: 清乾隆朝
+  reign_ref: 乾隆
+  archetype: 守土循吏
+  dilemmas:
+  - 五方杂处难训与田土膏腴民风淳朴可化之辨
+  - 风气刚劲易酿命案与兴学设教劝善之衡
+  lesson: 亲历四境兴学明伦神道劝善修署纪地以垂久远
+  summary_first_person: 余自辛卯年初抵塔子沟任理事通判遍历四境幸其土腴民朴遂捐俸立义学创建城隍庙以导民又于公余集见闻为纪略十二卷以彰圣治
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A1%94%E5%AD%90%E6%B2%9F%E7%BA%AA%E7%95%A5.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%A1%94%E5%AD%90%E6%B2%9F%E7%BA%AA%E7%95%A5.html
+endeavors:
+- id: guji-哈达清格-endeavor-1
+  person_qid: guji-哈达清格
+  title_zh: 出守塔子沟兴学劝善
+  summary_zh: 乾隆三十六年任塔子沟通判遍历境界捐俸立义学建城隍庙修整厅署以化杂处之民
+  phases:
+  - key: brewing
+    name: 辛卯初抵
+    labels:
+      zh:
+      - 莅任
+      - 询境
+    start_date: '1771'
+    highlight_event_id: guji-哈达清格-event-arrive
+  - key: breakthrough
+    name: 遍历四境
+    labels:
+      zh:
+      - 巡历
+      - 察俗
+    start_date: '1771'
+    highlight_event_id: guji-哈达清格-event-arrive
+  - key: climax
+    name: 兴学劝善
+    labels:
+      zh:
+      - 义学
+      - 城隍庙
+    start_date: '1772'
+    highlight_event_id: guji-哈达清格-event-repair
+  - key: closure
+    name: 修署立碑
+    labels:
+      zh:
+      - 修衙
+      - 勒石
+    start_date: '1772'
+    highlight_event_id: guji-哈达清格-event-repair
+  decisions:
+  - date: '1771'
+    title_zh: 捐俸创立义学
+    rationale: 民诚实有余仪文不足使知诗书礼乐之源
+  - date: '1772'
+    title_zh: 创建城隍庙劝谕
+    rationale: 片言抵牾酿成命案取神道设教使知善恶之报
+  - date: '1772'
+    title_zh: 借廉修整厅署
+    rationale: 衙署历年倾敝借廉银七百两重加修整以肃体制
+- id: guji-哈达清格-endeavor-2
+  person_qid: guji-哈达清格
+  title_zh: 采集见闻纂塔子沟纪略
+  summary_zh: 就见闻分十二卷记建置疆域市镇山川古迹寺庙废城土产艺文附余不称志记而曰略
+  phases:
+  - key: brewing
+    name: 公余搜集
+    labels:
+      zh:
+      - 见闻
+      - 考据
+    start_date: '1771'
+    highlight_event_id: guji-哈达清格-event-arrive
+  - key: breakthrough
+    name: 立例分卷
+    labels:
+      zh:
+      - 凡例
+      - 十二卷
+    start_date: '1772'
+    highlight_event_id: guji-哈达清格-event-repair
+  - key: climax
+    name: 全书告成
+    labels:
+      zh:
+      - 纪成
+      - 輿图
+    start_date: 1773-08
+    highlight_event_id: guji-哈达清格-event-complete
+  - key: closure
+    name: 自序垂远
+    labels:
+      zh:
+      - 作序
+      - 彰治
+    start_date: 1773-08
+    highlight_event_id: guji-哈达清格-event-complete
+  decisions:
+  - date: '1772'
+    title_zh: 不曰志记而曰略
+    rationale: 就见闻略载事无附会穿凿句无新奇雅驯故谦称略
+  - date: 1773-08
+    title_zh: 建置弁于卷首
+    rationale: 使知荒陬开辟之由观者知其所自见治化之隆
+events:
+- id: guji-哈达清格-event-birth
+  person_qid: guji-哈达清格
+  date: '1720'
+  precision: year
+  is_circa: true
+  title_zh: 约生于清初
+  description_zh: 生年未详约当清初镶蓝旗满洲阿什泰佐领下人
+  year_of: 1720
+- id: guji-哈达清格-event-arrive
+  person_qid: guji-哈达清格
+  endeavor_id: guji-哈达清格-endeavor-1
+  date: '1771'
+  precision: year
+  is_circa: false
+  title_zh: 辛卯岁初抵塔子沟任通判
+  description_zh: 乾隆三十六年辛卯到任为塔子沟理事通判遍历四境察田土民风
+  year_of: 1771
+- id: guji-哈达清格-event-repair
+  person_qid: guji-哈达清格
+  endeavor_id: guji-哈达清格-endeavor-1
+  date: '1772'
+  precision: year
+  is_circa: false
+  title_zh: 捐建义学城隍庙修厅署
+  description_zh: 捐俸立义学创建城隍庙以劝谕遵例借廉银七百两重修厅署立碑记
+  year_of: 1772
+- id: guji-哈达清格-event-complete
+  person_qid: guji-哈达清格
+  endeavor_id: guji-哈达清格-endeavor-2
+  date: 1773-08
+  precision: month
+  is_circa: false
+  title_zh: 塔子沟纪略成自题序
+  description_zh: 乾隆三十八年癸巳八月集略得若干卷凡例十二卷舆图俱备自题序于塔子沟
+  year_of: 1773
+- id: guji-哈达清格-event-death
+  person_qid: guji-哈达清格
+  date: '1785'
+  precision: year
+  is_circa: true
+  title_zh: 约卒于乾隆末年
+  description_zh: 去任后事迹不详约卒于乾隆末年
+  year_of: 1785
