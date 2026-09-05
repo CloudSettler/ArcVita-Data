@@ -9,7 +9,7 @@ person:
       date: 1613-07-15
       precision: day
       is_circa: false
-      raw: 明万历四十一年六月二十八
+      raw: 明万历四十一年六月初七
     death:
       date: 1682-02-15
       precision: day
@@ -18,114 +18,120 @@ person:
   birth_date: 1613-07-15
   death_date: 1682-02-15
   era: 明末清初
-  reign_ref: 崇祯至康熙
-  archetype: 经世致用大儒
+  reign_ref: 清康熙
+  archetype: 经世求实学者
   dilemmas:
-  - 仕清以展所学与守明遗节不仕之间的抉择
-  - 空疏讲学与考据求实经世致用之间的张力
-  lesson: 学问贵求实经世，守节全人，以天下为己任
-  summary_first_person: 吾昆山顾炎武，一生不仕清廷，北游天下以察山川形势，考音韵训诂以明经义，著日知录与天下郡国利病书及昌平山水记，愿以实学济世而存故国之志
+  - 明亡之后出处进退不仕新朝而以游历考据存故国之耻与经世之志
+  - 营平史事散佚残稿未定如何在阙文杂钞中考地名沿革以求信史
+  lesson: 博学于文行己有耻经世致用以实地考察存信史
+  summary_first_person: 吾昆山顾炎武也明亡不仕周游北方考山川沿革撰天下郡国之书游永平时摭营平二州故实为史事虽止存地名残编亦欲以地理存故实也
   source_urls:
-  - https://daizhige.org/史藏/地理/昌平山水记.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E8%90%A5%E5%B9%B3%E4%BA%8C%E5%B7%9E%E5%9C%B0%E5%90%8D%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E8%90%A5%E5%B9%B3%E4%BA%8C%E5%B7%9E%E5%9C%B0%E5%90%8D%E8%AE%B0.md
 endeavors:
 - id: guji-顾炎武-endeavor-1
-  title_zh: 考据经学开山与日知录著述
-  summary: 以音韵训诂考经义得失，撰日知录以救空疏，立清代朴学根基
+  title_zh: 游永平考营平二州地名沿革
+  summary_zh: 游历永平应郡人之请摭古来营平故实纂为六卷史事考孤竹令支碣石卢龙等沿革
   phases:
   - key: brewing
-    name: 昆山承家学而究经史
+    name: 北游奠基
     labels:
-      zh: 酝酿
-    start_date: 1613-07-15
-    highlight_event_id: guji-顾炎武-event-birth
+      zh: 游燕赵察山川
+    start_date: 1668-03-01
+    highlight_event_id: guji-顾炎武-event-youbei
   - key: breakthrough
-    name: 明亡后痛定而转向实学
+    name: 摭拾史事
     labels:
-      zh: 突破
-    start_date: 1645-09-06
-    highlight_event_id: guji-顾炎武-event-resist
+      zh: 考营平故实
+    start_date: 1671-06-01
+    highlight_event_id: guji-顾炎武-event-yingping
   - key: climax
-    name: 北游稽察著日知录初稿
+    name: 纂为六卷
     labels:
-      zh: 高潮
-    start_date: 1668-05-01
-    highlight_event_id: guji-顾炎武-event-travel
+      zh: 成营平二州史事
+    start_date: 1674-09-01
+    highlight_event_id: guji-顾炎武-event-yingping
   - key: closure
-    name: 晚年删定以传后世
+    name: 残稿流传
     labels:
-      zh: 收束
-    start_date: 1678-03-01
-    highlight_event_id: guji-顾炎武-event-refuse
-  decisions:
-  - date: 1657-01-01
-    title_zh: 立志著日知录以记所见所闻
-    rationale: 明亡痛定，思以实学救虚文，故日积月累考典制得失
-  - date: 1678-03-01
-    title_zh: 坚拒博学鸿词科之荐
-    rationale: 守明遗民之节，不以仕清辱名节，方能保著述之直
-- id: guji-顾炎武-endeavor-2
-  title_zh: 北游察山川守节不仕
-  summary: 足迹遍天下，察山川险要吏治利病，著昌平山水记与天下郡国利病书，终身不仕
-  phases:
-  - key: brewing
-    name: 昆山起兵抗清罹难
-    labels:
-      zh: 酝酿
-    start_date: 1645-09-06
-    highlight_event_id: guji-顾炎武-event-resist
-  - key: breakthrough
-    name: 辗转北游始察畿北陵寝形胜
-    labels:
-      zh: 突破
-    start_date: 1668-05-01
-    highlight_event_id: guji-顾炎武-event-travel
-  - key: climax
-    name: 拒荐守节以全晚节
-    labels:
-      zh: 高潮
-    start_date: 1678-03-01
-    highlight_event_id: guji-顾炎武-event-refuse
-  - key: closure
-    name: 曲沃坠马而卒志未改
-    labels:
-      zh: 收束
+      zh: 红豆斋存一卷
     start_date: 1682-02-15
     highlight_event_id: guji-顾炎武-event-death
   decisions:
-  - date: 1645-08-01
-    title_zh: 赴昆山起兵抗清
-    rationale: 国难当头，士人当起而救亡，不忍坐视故土沦陷
-  - date: 1657-05-01
-    title_zh: 决计北游历察山川
-    rationale: 读万卷书须行万里路，欲知天下利病必亲历形胜故作昌平山水记
+  - date: 1671-06-01
+    title_zh: 未应郡志之请别纂史事
+    rationale: 郡志易涉时讳不如摭古来故实专考营平二州存信史以补方志之阙
+  - date: 1674-09-01
+    title_zh: 断自上古至五代考地名
+    rationale: 营州自虞殷至辽水东西沿革纷繁唯以地名系时代方可辨孤竹令支肥如徒河之真
+- id: guji-顾炎武-endeavor-2
+  title_zh: 著日知录与天下郡国利病书经世
+  summary_zh: 以考据经史游历实测成日知录音学五书肇域志等倡经世致用之学
+  phases:
+  - key: brewing
+    name: 昆山立志
+    labels:
+      zh: 明亡养志著述
+    start_date: 1645-06-01
+    highlight_event_id: guji-顾炎武-event-birth
+  - key: breakthrough
+    name: 北游实测
+    labels:
+      zh: 读万卷行万里
+    start_date: 1668-03-01
+    highlight_event_id: guji-顾炎武-event-youbei
+  - key: climax
+    name: 日知录成
+    labels:
+      zh: 考据经世大成
+    start_date: 1670-10-01
+    highlight_event_id: guji-顾炎武-event-rizhilu
+  - key: closure
+    name: 以学传后
+    labels:
+      zh: 曲沃陨落学统存
+    start_date: 1682-02-15
+    highlight_event_id: guji-顾炎武-event-death
+  decisions:
+  - date: 1657-04-01
+    title_zh: 绝意仕进专事著述游历
+    rationale: 耻事二姓以气节自持唯以著书讲学考利病存明之实学以待后人
+  - date: 1670-10-01
+    title_zh: 以音学地理证经史
+    rationale: 空疏学风误国必由小学地理入手正音读辨疆域方能通经致用
 events:
 - id: guji-顾炎武-event-birth
+  type: birth
+  title_zh: 生于昆山千灯
   date: 1613-07-15
   year_of: 1613
-  title_zh: 生于昆山千灯
-  place_zh: 昆山
-  description: 明万历四十一年六月二十八生于昆山顾氏，自幼承庭训治经史
-- id: guji-顾炎武-event-resist
-  date: 1645-09-06
-  year_of: 1645
-  title_zh: 昆山抗清事败南渡
-  place_zh: 昆山
-  description: 清兵下江南，与归庄等起兵昆山，事败后辗转避仇不仕
-- id: guji-顾炎武-event-travel
-  date: 1668-05-01
+  place_zh: 南直隶苏州府昆山县
+  description_zh: 明万历四十一年六月初七生于昆山士族少颖敏治经史为复社俊杰
+- id: guji-顾炎武-event-youbei
+  type: career
+  title_zh: 三游燕赵至永平考察
+  date: 1668-10-01
   year_of: 1668
-  title_zh: 北游昌平察陵寝山水成昌平山水记
-  place_zh: 昌平
-  description: 屡游京北，步察天寿山十三陵及居庸诸口形胜水道，撰成昌平山水记
-- id: guji-顾炎武-event-refuse
-  date: 1678-03-01
-  year_of: 1678
-  title_zh: 坚拒博学鸿词科
-  place_zh: 山西
-  description: 康熙开博学鸿词，有司交章荐举，誓死不就，移书自明守节之义
+  place_zh: 直隶永平府
+  description_zh: 明亡后北游宣化辽东至永平登碣石观卢龙塞考察山川险要郡人以志属之遂别纂营平史事
+- id: guji-顾炎武-event-yingping
+  type: career
+  title_zh: 纂营平二州史事六卷
+  date: 1674-09-01
+  year_of: 1674
+  place_zh: 燕北永平一带
+  description_zh: 摭古来营平二州故实自孤竹山戎至五代地名考碣石令支肥如徒河龙城沿革纂为六卷后残存一卷地名记
+- id: guji-顾炎武-event-rizhilu
+  type: career
+  title_zh: 著日知录成经世之学
+  date: 1670-10-01
+  year_of: 1670
+  place_zh: 华北游历途中
+  description_zh: 积三十年心得成日知录并著音学五书肇域志等倡博学于文行己有耻经世致用
 - id: guji-顾炎武-event-death
+  type: death
+  title_zh: 卒于曲沃
   date: 1682-02-15
   year_of: 1682
-  title_zh: 卒于曲沃
-  place_zh: 曲沃
-  description: 自京师赴山西访友，坠马伤重，康熙二十一年正月初九卒于曲沃，葬昆山
+  place_zh: 山西曲沃
+  description_zh: 清康熙二十一年正月初九坠马伤重卒于曲沃友人宅年六十九葬昆山如归
