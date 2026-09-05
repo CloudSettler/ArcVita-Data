@@ -1,0 +1,108 @@
+person:
+  qid: guji-刘备
+  name_zh: 刘备
+  names:
+    zh: 刘备
+    en: Liu Bei
+  lifespan:
+    birth:
+      date: 113
+      precision: year
+      is_circa: false
+      raw: 汉桓帝延熹四年
+    death:
+      date: 0223-06-10
+      precision: day
+      is_circa: false
+      raw: 蜀汉章武三年四月癸巳
+  birth_date: 113
+  death_date: 0223-06-10
+  era: 东汉末至三国蜀汉
+  reign_ref: 汉献帝建安至蜀汉章武
+  archetype: 仁德创业者
+  dilemmas:
+  - 寄寓荆州功业未立而年岁渐老之焦虑
+  - 以信义立身与权变夺取益州之冲突
+  lesson: 守仁义以聚人心因时机以决大计宽猛相济方能鼎足
+  summary_first_person: 吾本涿郡布衣仗信义结豪杰辗转南北后寄身荆州为上客数年不复骑战髀里生肉悲日月若驰而功业不立后纳庞统权变之谋图取益州以成鼎足虽逆取而终以顺守欲使天下归仁而已
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B9%9D%E5%B7%9E%E6%98%A5%E7%A7%8B.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%B9%9D%E5%B7%9E%E6%98%A5%E7%A7%8B.md
+endeavors:
+- id: guji-刘备-endeavor-1
+  title_zh: 荆州栖托蓄势待时
+  summary: 奔荆依刘表为上客韬晦养士以髀肉之叹自励不废大志
+  phases:
+  - key: brewing
+    name: 依表为客
+    labels:
+      zh: 寄寓蓄力
+    start_date: 129
+    highlight_event_id: guji-刘备-event-birou
+  - key: breakthrough
+    name: 髀肉自省
+    labels:
+      zh: 省身立志
+    start_date: 135
+    highlight_event_id: guji-刘备-event-birou
+  decisions:
+  - date: 129
+    title_zh: 奔荆依刘表为上客
+    rationale: 北方袁曹势盛暂避锋芒借荆州安身以待天时
+  - date: 135
+    title_zh: 以髀肉之叹自励不贪安逸
+    rationale: 感年老功业未立益坚匡汉之志不以安逸废武备
+- id: guji-刘备-endeavor-2
+  title_zh: 谋蜀鼎足建基立业
+  summary: 纳庞统兼弱攻昧之谋权借益州以定大事终成三分之势
+  phases:
+  - key: brewing
+    name: 统献取蜀策
+    labels:
+      zh: 谋划鼎足
+    start_date: 137
+    highlight_event_id: guji-刘备-event-pangtong
+  - key: climax
+    name: 入蜀定成都
+    labels:
+      zh: 开基立业
+    start_date: 140
+    highlight_event_id: guji-刘备-event-yizhou
+  decisions:
+  - date: 137
+    title_zh: 初拒逆取终行权变入蜀
+    rationale: 与操相反以忠信立身不忍失义然权变之时兼弱为霸业所必需
+  - date: 140
+    title_zh: 定成都据益州成鼎足
+    rationale: 荆州残破难与吴魏争锋须得国富民强之益州为根本
+events:
+- id: guji-刘备-event-birth
+  title_zh: 涿郡出生
+  date: 113
+  year_of: 161
+  place_zh: 涿郡涿县
+  description: 汉桓帝延熹四年出生涿郡中山靖王之后少孤贫而志大
+- id: guji-刘备-event-birou
+  title_zh: 荆州髀肉之叹
+  date: 135
+  year_of: 207
+  place_zh: 荆州
+  description: 奔荆州为刘表上客数年起至厕见髀里肉生流涕还坐叹老将至而功业不立
+- id: guji-刘备-event-pangtong
+  title_zh: 庞统劝权借益州
+  date: 137
+  year_of: 211
+  place_zh: 荆州
+  description: 庞统言荆州荒残难成鼎足劝兼弱攻昧权借益州以定大事备初以信义不取后从权变
+- id: guji-刘备-event-yizhou
+  title_zh: 定成都据有益州
+  date: 140
+  year_of: 214
+  place_zh: 成都
+  description: 遂行入蜀定成都据国富民强之地户口兵马可具以与吴魏鼎足
+- id: guji-刘备-event-death
+  title_zh: 白帝城崩
+  date: 0223-06-10
+  year_of: 223
+  place_zh: 永安白帝城
+  description: 蜀汉章武三年崩于永安托孤诸葛亮享年六十三
