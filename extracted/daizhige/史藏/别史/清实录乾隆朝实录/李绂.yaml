@@ -1,0 +1,141 @@
+person:
+  qid: guji-李绂
+  name_zh: 李绂
+  names:
+    zh: 李绂
+    en: Li Fu
+  lifespan:
+    birth:
+      date: '1673'
+      precision: year
+      is_circa: true
+      raw: 康熙十二年前后生于江西临川
+    death:
+      date: '1750'
+      precision: year
+      is_circa: false
+      raw: 乾隆十五年卒
+  birth_date: '1673'
+  death_date: '1750'
+  era: 清代
+  reign_ref: 康熙至乾隆
+  archetype: 直谏持节之文臣
+  dilemmas:
+  - 以标榜气节见重又易招忌当如何收敛锋芒
+  - 以诗文抒愤嫉与谨言避祸当如何取舍
+  - 身后文名流传与子孙安危当如何权衡
+  lesson: 直道标榜可风而牢骚形于诗文则易贻后累宜以谨言全节
+  summary_first_person: 吾临川李绂早登词馆历任封疆以敢言标榜为业生平诗文多发牢骚乾隆三十三年旧集以愤嫉被参赖上念人远事隔不究子孙而毁版以绝流传愿后人以吾为戒
+  source_urls:
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0806.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0806.md
+endeavors:
+- id: guji-李绂-endeavor-1
+  title_zh: 词科入仕与封疆直声
+  summary: 康熙末进士入翰林以敢谏直言见称雍正朝历任封疆以峭直澄清吏治屡遭贬黜晚年罢归著述
+  phases:
+  - key: brewing
+    name: 临川苦读
+    labels:
+      zh:
+      - 积学
+    start_date: '1690'
+    highlight_event_id: guji-李绂-event-birth
+  - key: breakthrough
+    name: 登第入馆
+    labels:
+      zh:
+      - 登科
+    start_date: '1713'
+    highlight_event_id: guji-李绂-event-jinshi
+  - key: climax
+    name: 直督峭直
+    labels:
+      zh:
+      - 封疆
+    start_date: '1725'
+    highlight_event_id: guji-李绂-event-zhili
+  - key: closure
+    name: 罢归著述
+    labels:
+      zh:
+      - 归里
+    start_date: '1730'
+    highlight_event_id: guji-李绂-event-death
+  decisions:
+  - date: '1713'
+    title_zh: 应殿试以直言对策
+    rationale: 欲以气节自见不肯为模棱之文故见重于时亦伏招忌之因
+  - date: '1725'
+    title_zh: 任封疆坚持劾罢属员
+    rationale: 以为大臣当以澄清吏治为先不顾权要情面遂致孤立被劾
+- id: guji-李绂-endeavor-2
+  title_zh: 诗文结社与身后书厄
+  summary: 生前与戴名世等饮酒赋诗多牢骚之辞刊刻成书乾隆三十三年江西巡抚吴绍诗参奏上谕毁版而不究子孙
+  phases:
+  - key: brewing
+    name: 七夕同饮赋诗
+    labels:
+      zh:
+      - 结社
+    start_date: '1710'
+    highlight_event_id: guji-李绂-event-jinshi
+  - key: breakthrough
+    name: 刊刻诗文集行世
+    labels:
+      zh:
+      - 成书
+    start_date: '1735'
+    highlight_event_id: guji-李绂-event-death
+  - key: climax
+    name: 吴绍诗参奏查书
+    labels:
+      zh:
+      - 书祸
+    start_date: '1768-04-10'
+    highlight_event_id: guji-李绂-event-book
+  - key: closure
+    name: 奉谕毁版免究
+    labels:
+      zh:
+      - 毁版
+    start_date: '1768-04-10'
+    highlight_event_id: guji-李绂-event-book
+  decisions:
+  - date: '1735'
+    title_zh: 听任门人刊刻旧作不加删削
+    rationale: 欲以直声文名传后不忍弃其愤嫉之辞遂留谬种流传之患
+  - date: '1768-04-10'
+    title_zh: 身后蒙恩免究子孙仅毁版片
+    rationale: 上以人久事远不欲以文字获罪滋扰蔓延故止谕销毁以正世道人心
+events:
+- id: guji-李绂-event-birth
+  type: birth
+  date: '1673'
+  year_of: 1673
+  title_zh: 生于江西临川
+  description: 康熙十二年前后生于江西临川家世儒素少力学以气节自励
+- id: guji-李绂-event-jinshi
+  type: career
+  date: '1713'
+  year_of: 1713
+  title_zh: 康熙五十二年登进士入翰林
+  description: 登癸巳科进士选庶吉士授编修以词臣敢言见称与戴名世七夕同饮赋诗在戴氏未犯案之前
+- id: guji-李绂-event-zhili
+  type: career
+  date: '1725'
+  year_of: 1725
+  title_zh: 历任封疆以峭直见黜
+  description: 雍正朝历任地方督抚以澄清吏治标榜峭直不避权要屡遭参劾罢归家居著述诗文多牢骚之辞
+- id: guji-李绂-event-book
+  type: career
+  date: '1768-04-10'
+  year_of: 1768
+  title_zh: 乾隆三十三年谕毁李绂各集版片
+  description: 江西巡抚吴绍诗奏查出李绂各集语多愤嫉请革生前官秩并究子孙上以尚无悖谬讪谤实迹且人久事远不许滋扰蔓延仅谕查明书本版片逐一销毁毋令留遗
+- id: guji-李绂-event-death
+  type: death
+  date: '1750'
+  year_of: 1750
+  title_zh: 乾隆十五年卒于里
+  description: 罢归后家居临川以著述终乾隆十五年卒旧集留存至乾隆三十三年被议毁版
