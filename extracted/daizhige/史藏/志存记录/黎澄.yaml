@@ -1,0 +1,135 @@
+person:
+  qid: guji-黎澄
+  name_zh: 黎澄
+  names:
+    zh: 黎澄
+    en: Li Cheng
+  lifespan:
+    birth:
+      date: 1374
+      precision: year
+      is_circa: true
+      raw: 约洪武七年
+    death:
+      date: 1446
+      precision: year
+      is_circa: true
+      raw: 约正统十一年
+  birth_date: 1374
+  death_date: 1446
+  era: 明初
+  reign_ref: 永乐至正统
+  archetype: 俘臣工匠史家
+  dilemmas:
+  - 故国覆亡与新朝仕进之两难
+  - 忠孝旧义与保身存史之抉择
+  lesson: 身逢鼎革以技存身以笔存史使交南前人片善不没于兵火
+  summary_first_person: 吾交南黎澄字孟源国亡北迁仕明为工部左侍郎寻绎旧事得百中之一二集成南翁梦录以扬前人之善以资君子之异闻
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E7%BF%81%E6%A2%A6%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E7%BF%81%E6%A2%A6%E5%BD%95.md
+endeavors:
+- id: guji-黎澄-endeavor-1
+  title_zh: 北迁仕明效力工部
+  summary_zh: 交趾平后随俘北上以火器巧思得用历任工部官至左侍郎
+  phases:
+  - key: brewing
+    name: 交南覆亡被俘
+    labels:
+      zh:
+      - 国变被俘
+    start_date: 1407
+    highlight_event_id: guji-黎澄-event-capture
+  - key: breakthrough
+    name: 以技见知授官
+    labels:
+      zh:
+      - 工部效用
+    start_date: 1410
+    highlight_event_id: guji-黎澄-event-service
+  - key: climax
+    name: 历任工部左侍郎
+    labels:
+      zh:
+      - 位至侍郎
+    start_date: 1428
+    highlight_event_id: guji-黎澄-event-service
+  - key: closure
+    name: 身居南官心系故国
+    labels:
+      zh:
+      - 存史之志
+    start_date: 1435
+    highlight_event_id: guji-黎澄-event-book
+  decisions:
+  - date: 1407
+    title_zh: 归顺明廷不求死节
+    rationale: 国已亡而族人尚在愿以技艺存身保全亲族待述旧闻
+  - date: 1410
+    title_zh: 专精火器营造
+    rationale: 明廷重武备以己所长供营造火器可得信任安身立命
+- id: guji-黎澄-endeavor-2
+  title_zh: 撰集南翁梦录
+  summary_zh: 寻绎交南旧事记陈李人物善行诗文神异成书以备观览
+  phases:
+  - key: brewing
+    name: 感念书籍为烬
+    labels:
+      zh:
+      - 兴思旧事
+    start_date: 1430
+    highlight_event_id: guji-黎澄-event-service
+  - key: breakthrough
+    name: 遣忘殆尽拾遗
+    labels:
+      zh:
+      - 访旧拾遗
+    start_date: 1435
+    highlight_event_id: guji-黎澄-event-book
+  - key: climax
+    name: 集成梦录百中一二
+    labels:
+      zh:
+      - 成书扬善
+    start_date: 1438
+    highlight_event_id: guji-黎澄-event-book
+  - key: closure
+    name: 重九自序传世
+    labels:
+      zh:
+      - 自序传世
+    start_date: 1438
+    highlight_event_id: guji-黎澄-event-book
+  decisions:
+  - date: 1435
+    title_zh: 只记善人不记不善
+    rationale: 乐闻善事故能记之欲扬前人之片善资燕谈不彰恶以全忠厚
+  - date: 1438
+    title_zh: 以梦名录自称南翁
+    rationale: 故国人物昔甚繁华今略无遗迹惟我一人知而道之恍如梦境故托梦以传
+events:
+- id: guji-黎澄-event-birth
+  title_zh: 出生于交南
+  date: 1374
+  year_of: 1374
+  description_zh: 约洪武七年生于安南清化世家为胡季犛之子原名胡元澄后复黎姓
+- id: guji-黎澄-event-capture
+  title_zh: 永乐平交趾北迁
+  date: 1407
+  year_of: 1407
+  description_zh: 永乐五年明军平安南父子被俘解送南京自此羁留中原仕于朝廷
+- id: guji-黎澄-event-service
+  title_zh: 任明工部左侍郎
+  date: 1428
+  year_of: 1428
+  description_zh: 以谙火器营造得任累迁至正议大夫资治尹工部左侍郎居交南仕明之首
+- id: guji-黎澄-event-book
+  title_zh: 作南翁梦录序
+  date: 1438
+  year_of: 1438
+  description_zh: 正统三年重九日自序南翁梦录记艺王始末竹林示寂诗文神异诸篇凡三十余则
+- id: guji-黎澄-event-death
+  title_zh: 寿终
+  date: 1446
+  year_of: 1446
+  description_zh: 约正统十一年卒于北京享年七十余遗书独传交南旧闻为后世所重

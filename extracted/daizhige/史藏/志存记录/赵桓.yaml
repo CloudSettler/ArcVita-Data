@@ -9,145 +9,146 @@ person:
       date: 1100-05-23
       precision: day
       is_circa: false
-      raw: 元符三年四月十三日生于汴京
+      raw: 崇宁五年四月十三日
     death:
-      date: 1156-06-29
-      precision: day
+      date: 1161
+      precision: year
       is_circa: false
-      raw: 绍兴二十六年五月卒于五国城
+      raw: 绍兴三十一年春
   birth_date: 1100-05-23
-  death_date: 1156-06-29
+  death_date: 1161
   era: 北宋末
-  reign_ref: 靖康元年至二年在位
-  archetype: 守成亡国之君
+  reign_ref: 靖康
+  archetype: 亡国困守之君
   dilemmas:
-  - 坚守京城聚兵勤王还是遣使求哀纳币乞和
-  - 亲出敌营面议还是坐守宫城以待变化
-  - 保全亲族妃姬宗女还是保全社稷宗庙生民
-  lesson: 备荒失信而徒恃和议财帛不足以止兵终致身虏国亡
-  summary_first_person: 我是赵桓继父而立值金兵南征围我汴京我屡遣使求和上表请降再出青城终被废为庶人北迁燕山此为我一生之痛戒也
+  - 和战之间屈己求和还是据城死守
+  - 君父之孝与宗庙存续之间何去何从
+  - 姑息苟安与发愤图强之间进退失据
+  lesson: 朝堂姑息无谋苟安无备必致宗庙倾覆
+  summary_first_person: 吾赵桓危难受禅值金兵再围汴京为救生灵屡幸虏营议和终被废北迁亲历国破家亡之痛
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BE%81%E5%BD%95%E6%B1%87.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E5%BE%81%E5%BD%95%E6%B1%87.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E6%B8%A1%E5%BD%95.html
 endeavors:
 - id: guji-赵桓-endeavor-1
-  title_zh: 汴京被围遣使求和
-  summary_zh: 金帅驻兵城下屡遣亲王宰执求哀上降表纳岁币议和亲以保京师
+  person_id: guji-赵桓
+  title_zh: 靖康受禅出幸议和
+  description_zh: 危难即位应金帅之召屡出城议和冀息兵保民
   phases:
   - key: brewing
-    name: 遣使入寨求哀
+    name: 危难受禅
     labels:
       zh:
-      - 求哀乞和
-    start_date: 1126-11-26
-    highlight_event_id: guji-赵桓-event-surrender-1
+      - 危难受禅
+    start_date: 1126-01-18
+    highlight_event_id: guji-赵桓-event-ascend
   - key: breakthrough
-    name: 上降表请退兵
+    name: 出城议和
     labels:
       zh:
-      - 降表纳贡
-    start_date: 1126-12-02
-    highlight_event_id: guji-赵桓-event-surrender-1
+      - 出城议和
+    start_date: 1127-02-11
+    highlight_event_id: guji-赵桓-event-chuxing
   - key: climax
-    name: 议定贡女岁币
+    name: 再幸被留
     labels:
       zh:
-      - 议约纳币
-    start_date: 1127-01-22
-    highlight_event_id: guji-赵桓-event-surrender-2
+      - 再幸被留
+    start_date: 1127-03-03
+    highlight_event_id: guji-赵桓-event-chuxing
   - key: closure
-    name: 再出南薰门面议
+    name: 国破被废
     labels:
       zh:
-      - 出城面议
-    start_date: 1127-01-10
-    highlight_event_id: guji-赵桓-event-surrender-2
+      - 国破被废
+    start_date: 1127-03-18
+    highlight_event_id: guji-赵桓-event-beixing
   decisions:
-  - date: 1126-12-02
-    title_zh: 上降表愿献珍异女乐请退兵
-    rationale: 欲以宫廷器物财帛女子换取驻军退去免生民涂炭
-  - date: 1127-01-10
-    title_zh: 再出南薰门至青城寨
-    rationale: 信金帅面议可减之约欲亲往挽回割地北迁之命
+  - date: 1127-02-11
+    title_zh: 出城幸金营议和
+    rationale: 为两国生灵屈己求和冀旦去暮回以息兵革
+  - date: 1127-02-27
+    title_zh: 奏请以康王继位存宗庙
+    rationale: 若以宗室贤者为主或可不失社稷以图恢复
 - id: guji-赵桓-endeavor-2
-  title_zh: 青城蒙尘被废北迁
-  summary_zh: 出城不返被拘青城斋宫废为庶人率宫眷族属北迁燕山
+  person_id: guji-赵桓
+  title_zh: 北迁囚系晚年
+  description_zh: 父子同被废北行历燕京云梦均州等地长期囚系而终
   phases:
   - key: brewing
-    name: 斋宫被留观灯设宴
+    name: 青衣北行
     labels:
       zh:
-      - 被留
-    start_date: 1127-01-15
-    highlight_event_id: guji-赵桓-event-surrender-2
+      - 青衣北行
+    start_date: 1127-03-18
+    highlight_event_id: guji-赵桓-event-beixing
   - key: breakthrough
-    name: 打球会被废为庶人
+    name: 转徙燕云
     labels:
       zh:
-      - 被废
-    start_date: 1127-02-06
-    highlight_event_id: guji-赵桓-event-deposed
+      - 转徙燕云
+    start_date: 1127-05-21
+    highlight_event_id: guji-赵桓-event-beixing
   - key: climax
-    name: 太上宫眷出城点验
+    name: 囚于鸿翼府
     labels:
       zh:
-      - 离宫
-    start_date: 1127-02-07
-    highlight_event_id: guji-赵桓-event-deposed
+      - 囚于鸿翼府
+    start_date: 1130-10-19
+    highlight_event_id: guji-赵桓-event-qianxi
   - key: closure
-    name: 分军押送北迁燕山
+    name: 客死北土
     labels:
       zh:
-      - 北狩
-    start_date: 1127-03-28
-    highlight_event_id: guji-赵桓-event-north
+      - 客死北土
+    start_date: 1161
+    highlight_event_id: guji-赵桓-event-death
   decisions:
-  - date: 1127-01-22
-    title_zh: 手押议定事目以帝姬王妃准犒军金银
-    rationale: 金银不足无力抗拒欲以人口折价暂缓兵祸以存社稷
-  - date: 1127-02-06
-    title_zh: 奉诏跪听废命不抗
-    rationale: 兵威已定人心已散自知无力回天惟忍辱以保亲族性命
+  - date: 1127-03-16
+    title_zh: 俯首从废退位
+    rationale: 苟利生灵以息兵革何事不可暂屈以全民命
+  - date: 1127-03-18
+    title_zh: 随金使北行不逃
+    rationale: 父子君父同行不忍独免且冀存赵氏血脉
 events:
 - id: guji-赵桓-event-birth
-  title_zh: 出生于汴京宫中
+  person_id: guji-赵桓
+  title_zh: 出生于汴京
   date: 1100-05-23
   year_of: 1100
   place_zh: 汴京
-  summary_zh: 元符三年四月十三日生为徽宗长子后立为太子
-- id: guji-赵桓-event-enthroned
-  title_zh: 受禅即皇帝位改元靖康
-  date: 1126-01-19
+  description_zh: 崇宁五年四月十三日生为徽宗长子
+- id: guji-赵桓-event-ascend
+  person_id: guji-赵桓
+  title_zh: 受禅即位改元靖康
+  date: 1126-01-18
   year_of: 1126
-  place_zh: 汴京大庆殿
-  summary_zh: 金兵初南下徽宗内禅即位为宋钦宗改元靖康主守京议和事
-- id: guji-赵桓-event-surrender-1
-  title_zh: 出城斋宫上降表请退兵
-  date: 1126-12-02
-  year_of: 1126
-  place_zh: 青城寨斋宫
-  summary_zh: 依南征录汇所载初出城至青城上降表礼成愿献世藏珍异女乐请退兵
-- id: guji-赵桓-event-surrender-2
-  title_zh: 再出南薰门至青城被留
-  date: 1127-01-10
+  place_zh: 汴京
+  description_zh: 金兵南下太上内禅即皇帝位以当危局
+- id: guji-赵桓-event-chuxing
+  person_id: guji-赵桓
+  title_zh: 出城幸虏营议和被留
+  date: 1127-02-11
   year_of: 1127
-  place_zh: 南薰门外青城寨
-  summary_zh: 再出城面议被馆于端成殿东庑铁索阑门议定亲王宗女岁币贡物等事目并手押为据
-- id: guji-赵桓-event-deposed
-  title_zh: 青城寨下被废为庶人
-  date: 1127-02-06
+  place_zh: 汴京城外金营
+  description_zh: 靖康二年二月十一日出城见粘罕议另立之事遂被留幕中
+- id: guji-赵桓-event-beixing
+  person_id: guji-赵桓
+  title_zh: 与太上同乘马北行
+  date: 1127-03-18
   year_of: 1127
-  place_zh: 青城寨
-  summary_zh: 赴打球会被令跪听诏废为庶人去冠服押入斋宫限宫眷出城推立异姓
-- id: guji-赵桓-event-north
-  title_zh: 率宫眷族属分军北迁
-  date: 1127-03-28
-  year_of: 1127
-  place_zh: 刘家寺寨
-  summary_zh: 与太上诸王妃姬分作七军由额鲁观萧庆押送车八百余辆离京北去燕山安置
+  place_zh: 汴京至黄河北岸
+  description_zh: 三月十八日易青衣与太上二后乘马北去历黄河卫州而北
+- id: guji-赵桓-event-qianxi
+  person_id: guji-赵桓
+  title_zh: 徙燕京囚系鸿翼府
+  date: 1130-10-19
+  year_of: 1130
+  place_zh: 燕京鸿翼府
+  description_zh: 自源昌州召至燕京与耶律延禧同拘管鸿翼府后屡徙囚所
 - id: guji-赵桓-event-death
-  title_zh: 病卒于五国城
-  date: 1156-06-29
-  year_of: 1156
-  place_zh: 五国城
-  summary_zh: 北迁后居燕山韩州绍兴二十六年五月病卒年五十七
+  person_id: guji-赵桓
+  title_zh: 崩于北土
+  date: 1161
+  year_of: 1161
+  place_zh: 燕京
+  description_zh: 绍兴三十一年春崩于北地时年六十岁
