@@ -1,0 +1,136 @@
+person:
+  qid: guji-李心传
+  name_zh: 李心传
+  names:
+    zh: 李心传
+    en: Li Xinchuan
+  lifespan:
+    birth:
+      date: 1166
+      precision: year
+      is_circa: false
+      raw: 乾道二年四川井研
+    death:
+      date: 1243
+      precision: year
+      is_circa: false
+      raw: 淳祐三年
+  birth_date: 1166
+  death_date: 1243
+  era: 南宋
+  reign_ref: 孝宗至理宗
+  archetype: 考据史家
+  dilemmas:
+  - 旧闻杂说并行而国史实录散佚当如何考辨真伪
+  - 直笔证误易触时讳当如何持论而不阿
+  lesson: 以实录国史会要为据博考互证正旧闻之误以存信史
+  summary_first_person: 吾少力学史遍阅实录国史会要伤旧闻传讹故作系年要录及旧闻证误辨建隆以来朝章典故之失以俟后之君子
+  source_urls:
+  - https://daizhige.org/史藏/史评/旧闻证误.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/史评/旧闻证误.md
+endeavors:
+- id: guji-李心传-endeavor-1
+  title_zh: 编修建炎以来系年要录
+  phases:
+  - key: brewing
+    name: 搜采建炎绍兴史料
+    labels:
+      zh: 搜集
+    start_date: 1195
+    highlight_event_id: guji-李心传-event-collect
+  - key: breakthrough
+    name: 比勘实录起居注
+    labels:
+      zh: 考订
+    start_date: 1205
+    highlight_event_id: guji-李心传-event-check
+  - key: climax
+    name: 编成年表长编
+    labels:
+      zh: 编次
+    start_date: 1214
+    highlight_event_id: guji-李心传-event-yaolu
+  - key: closure
+    name: 进书藏史馆
+    labels:
+      zh: 成书
+    start_date: 1216
+    highlight_event_id: guji-李心传-event-yaolu
+  decisions:
+  - date: 1205
+    title_zh: 以编年系事取代杂史传闻
+    rationale: 唯编年可系日月先后互证是非故舍传记体而用编年
+  - date: 1214
+    title_zh: 遍引实录会要注出处
+    rationale: 注明出处使后人可覆核以取信
+- id: guji-李心传-endeavor-2
+  title_zh: 著旧闻证误辨正国初旧闻
+  phases:
+  - key: brewing
+    name: 汇集宋人说部笔记
+    labels:
+      zh: 汇集
+    start_date: 1218
+    highlight_event_id: guji-李心传-event-check
+  - key: breakthrough
+    name: 以国史实录勘误
+    labels:
+      zh: 证误
+    start_date: 1222
+    highlight_event_id: guji-李心传-event-zhengwu
+  - key: climax
+    name: 分卷条辨建隆至天禧故事
+    labels:
+      zh: 条辨
+    start_date: 1225
+    highlight_event_id: guji-李心传-event-zhengwu
+  - key: closure
+    name: 成旧闻证误传后
+    labels:
+      zh: 垂训
+    start_date: 1228
+    highlight_event_id: guji-李心传-event-zhengwu
+  decisions:
+  - date: 1222
+    title_zh: 凡旧闻必以国史会要为衡
+    rationale: 说部多追记失实必取官修史书校其进宫改秩知县进伞等事
+  - date: 1225
+    title_zh: 直书前人姓氏书名以明责任
+    rationale: 指明石林燕语闻见前录等所记差误使读者知所别择
+events:
+- id: guji-李心传-event-birth
+  date: 1166
+  year_of: 1166
+  title_zh: 生于四川井研
+  type: birth
+  description_zh: 宋孝宗乾道二年生于四川井研李氏
+- id: guji-李心传-event-collect
+  date: 1195
+  year_of: 1195
+  title_zh: 潜心搜采建炎以来史料
+  type: career
+  description_zh: 隐居讲学搜访实录起居注及朝野传闻为著史积累
+- id: guji-李心传-event-check
+  date: 1205
+  year_of: 1205
+  title_zh: 比勘国史辨旧闻异同
+  type: career
+  description_zh: 以国史实录会要勘校说部笔记如辨崇政殿说书张盖知县之误
+- id: guji-李心传-event-yaolu
+  date: 1216
+  year_of: 1216
+  title_zh: 建炎以来系年要录成书
+  type: career
+  description_zh: 勒成建炎以来系年要录二百卷进于朝藏之史馆
+- id: guji-李心传-event-zhengwu
+  date: 1225
+  year_of: 1225
+  title_zh: 旧闻证误成书
+  type: career
+  description_zh: 著旧闻证误辨建隆至天禧大礼郊祀取士伐江南等旧闻之误
+- id: guji-李心传-event-death
+  date: 1243
+  year_of: 1243
+  title_zh: 卒于宋理宗淳祐年间
+  type: death
+  description_zh: 宋理宗淳祐三年卒平生以考史证误为业
