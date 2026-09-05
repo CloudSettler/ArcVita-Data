@@ -9,118 +9,143 @@ person:
       date: 1785-08-30
       precision: day
       is_circa: false
-      raw: 乾隆五十年七月二十六日
+      raw: 乾隆五十年七月二十六
     death:
       date: 1850-11-22
       precision: day
       is_circa: false
-      raw: 道光三十年十月十九日
+      raw: 道光三十年十月十九
   birth_date: 1785-08-30
   death_date: 1850-11-22
   era: 清
   reign_ref: 道光
-  archetype: 封疆禁烟经世之臣
+  archetype: 禁烟名臣
   dilemmas:
-  - 严法除毒与不教而诛之仁义两难
-  - 整顿营伍差役与防回护徇庇之难
-  - 驱除外夷与保全通商之权衡
-  lesson: 以身作则严关防，以保甲断瘾除根，以先教后诛全民命，以破汉奸内外勾结而靖海口
-  summary_first_person: 吾奉旨驰驿赴粤查办海口，首在严拿汉奸，断绝鸦片，先传牌自律以恤驿站，继密札搜拿窑口兴贩，立关防以肃行辕，晓谕士商军民限期缴具断瘾，编查保甲以清源，谕责洋商夷人尽缴趸船烟土，誓必扫除净尽而后已
+  - 弛禁抽税以绝利源与严刑峻法以绝吸贩之争
+  - 抚夷通商不断市易与勒缴具结人货两究之衡
+  - 整饬水师官弁通贩得规与维持封疆安靖之难
+  lesson: 烟毒不除则银耗兵弱国贫，惟持志坚定执法如一，方能挽回人心而御外侮
+  summary_first_person: 吾受命钦差入粤，详考禁令与夷情，谕缴趸船鸦片二万余箱，于虎门引海卤销化，照会英王禁种，勒令具结，虽遭怨谤，志在绝害报国而已
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BF%A1%E5%8F%8A%E5%BD%95.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BF%A1%E5%8F%8A%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%A4%B7%E6%B0%9B%E9%97%BB%E8%AE%B0.md
 endeavors:
 - id: guji-林则徐-endeavor-1
-  title_zh: 奉旨赴粤严拿汉奸整肃关防
-  summary_zh: 传牌自律轻装赴粤，密饬布按改装拘拿包买窑口兴贩及营差武弁，悬示关防收呈以肃行辕
+  title_zh: 钦差入粤收缴销化鸦片
+  summary: 会同督抚严谕义律缴出趸船鸦片并于虎门销毁，断绝来源
   phases:
   - key: brewing
-    name: 传牌赴粤自律恤站
+    name: 条陈禁法受命钦差
     labels:
-      zh: 轻装简从
-    start_date: 1839-01-08
-    highlight_event_id: guji-林则徐-event-chuanpai
+      zh:
+      - 禁烟条陈
+      - 钦差关防
+    start_date: 1838-12-31
+    highlight_event_id: guji-林则徐-event-appointed
   - key: breakthrough
-    name: 密札布按严拿汉奸
+    name: 抵粤访查责谕缴烟
     labels:
-      zh: 密拿首恶
-    start_date: 1839-02-24
-    highlight_event_id: guji-林则徐-event-minahanjian
+      zh:
+      - 抵粤
+      - 谕缴
+    start_date: 1839-01-26
+    highlight_event_id: guji-林则徐-event-arrival
+  - key: climax
+    name: 虎门验收引卤销毁
+    labels:
+      zh:
+      - 虎门销烟
+      - 震慑军民
+    start_date: 1839-06-03
+    highlight_event_id: guji-林则徐-event-humen
   - key: closure
-    name: 悬示关防收呈立规
+    name: 驱散趸船照会英王
     labels:
-      zh: 肃整行辕
-    start_date: 1839-03-11
-    highlight_event_id: guji-林则徐-event-guanfang
+      zh:
+      - 驱趸
+      - 照会禁种
+    start_date: 1839-07-01
+    highlight_event_id: guji-林则徐-event-humen
   decisions:
-  - date: 1839-01-08
-    title_zh: 传牌沿途不扰驿站
-    rationale: 以外任出差自雇夫轿船食，不用整桌燕窝烧烤，不收站规门包，以体恤州县免借名影射
-  - date: 1839-02-24
-    title_zh: 密札布按分投拘拿汉奸
-    rationale: 鸦片私售皆由奸民勾串，先拿最要窑口贩商快艇头目及包庇兵差，不容窜匿回护，既往不咎后犯从重
+  - date: 1839-02-01
+    title_zh: 出示四条谕令义律速缴
+    rationale: 明天理国法人情事势，许宥既往儆将来，必缴尽具结方不断市易
+  - date: 1839-03-14
+    title_zh: 围馆断买办勒缴二万余箱
+    rationale: 义律挟颠地私逃则断其接济围其出入，使计无复之而尽缴
+  - date: 1839-06-03
+    title_zh: 开池引卤石灰销化于海口
+    rationale: 奉旨就地销毁以彰震畏，免解京疏虞而示天下必行
 - id: guji-林则徐-endeavor-2
-  title_zh: 严禁断瘾谕缴烟土塞源截流
-  summary_zh: 晓谕士商军民限期缴具断瘾，札学互保编查保甲，严饬营兵互保，谕责洋商勒令夷人尽缴烟土具结永不夹带
+  title_zh: 整饬粤海吏治水师与联保缉私
+  summary: 清查水师得规故纵，褫治韩肇庆等，编保甲稽察船户，严缉内地贩户
   phases:
   - key: brewing
-    name: 晓谕勒限缴具断瘾
+    name: 观风试得贿纵实情
     labels:
-      zh: 先教后诛
-    start_date: 1839-03-18
-    highlight_event_id: guji-林则徐-event-duanyin
+      zh:
+      - 观风试
+      - 访贿纵
+    start_date: 1839-02-10
+    highlight_event_id: guji-林则徐-event-arrival
+  - key: breakthrough
+    name: 奏褫韩肇庆尽遣属弁
+    labels:
+      zh:
+      - 治水师
+      - 奏褫
+    start_date: 1839-04-01
+    highlight_event_id: guji-林则徐-event-rectify
   - key: climax
-    name: 谕洋商夷人尽缴烟土
+    name: 颁结式编澳甲五家互结
     labels:
-      zh: 缴土具结
-    start_date: 1839-03-18
-    highlight_event_id: guji-林则徐-event-jiaotu
+      zh:
+      - 保甲
+      - 澳甲
+    start_date: 1839-02-18
+    highlight_event_id: guji-林则徐-event-rectify
   - key: closure
-    name: 保甲营伍互保长久奉行
+    name: 分限投首制具永绝之券
     labels:
-      zh: 保甲营规
-    start_date: 1839-03-18
-    highlight_event_id: guji-林则徐-event-jiaotu
+      zh:
+      - 分限
+      - 永绝
+    start_date: 1839-05-01
+    highlight_event_id: guji-林则徐-event-humen
   decisions:
-  - date: 1839-03-18
-    title_zh: 限期首缴烟具免究来历
-    rationale: 念吸食陷溺已深不忍不教而诛，省城及各属限两月缴枪土，过期挨查牌甲搜拿，藏匿房屋入官，举报优奖
-  - date: 1839-03-18
-    title_zh: 谕洋商传谕夷人三日具结缴土
-    rationale: 洋商设以防私通禁物却通夷分肥，必须严气正性传谕，令夷人悉数缴趸船数万箱，立汉字夷字合同永不夹带违者人正法货入官，否则择尤正法抄产
+  - date: 1839-02-18
+    title_zh: 设局劝缴颁结式令四民互保
+    rationale: 先清内地兴贩吸食，书名帆上以便稽察，使接济断而夷货无人敢买
+  - date: 1839-04-01
+    title_zh: 会商廷桢奏褫肇庆职遣属弁
+    rationale: 水师假查为纵以规赀易银报功，必去蠹弁方能使巡截得实
 events:
 - id: guji-林则徐-event-birth
-  title_zh: 诞生于福建侯官
   date: 1785-08-30
   year_of: 1785
-  description: 乾隆五十年七月二十六日生于福建侯官，后登嘉庆进士历任封疆
-- id: guji-林则徐-event-chuanpai
-  title_zh: 传牌赴广东查办海口
-  date: 1839-01-08
+  title_zh: 出生于福建侯官
+  description: 乾隆五十年七月二十六生，后登进士，历任封疆
+- id: guji-林则徐-event-appointed
+  date: 1838-12-31
+  year_of: 1838
+  title_zh: 授钦差大臣驰驿入粤查办海口
+  description: 条陈分限投首制具诸法，上感动授兵部尚书佩钦差关防会督抚商办
+- id: guji-林则徐-event-arrival
+  date: 1839-01-26
   year_of: 1839
-  description: 戊戌十一月廿三日传牌，自良乡至广东，声明不带随员书吏，自雇轿车夫船，家常饭菜不扰驿站
-- id: guji-林则徐-event-minahanjian
-  title_zh: 密札布按严拿汉奸
-  date: 1839-02-24
+  title_zh: 抵粤严责首商谕夷速缴
+  description: 道光十九年正月抵粤，札谕夷商速缴禁物，预示夹带者人正法货入官
+- id: guji-林则徐-event-rectify
+  date: 1839-04-01
   year_of: 1839
-  description: 己亥正月十一日密札布按两司，开单密拿王振高等最要人犯及各衙门营兵次要人犯，先查武弁包揽蒋大彪等
-- id: guji-林则徐-event-guanfang
-  title_zh: 悬示关防收呈
-  date: 1839-03-11
+  title_zh: 观风试得实奏褫韩肇庆
+  description: 集三书院生开四事为问，悉屯户姓名及水师贿纵状，奏褫肇庆尽遣属弁
+- id: guji-林则徐-event-humen
+  date: 1839-06-03
   year_of: 1839
-  description: 己亥正月廿六日悬示辕门，随从不许擅离，书吏馆内给食，公馆自买时价现钱，不设差房，不收与海口无干词讼
-- id: guji-林则徐-event-duanyin
-  title_zh: 晓谕速戒鸦片颁保甲营规
-  date: 1839-03-18
-  year_of: 1839
-  description: 己亥二月晓谕士商军民限期缴具断瘾，札学教官造册互保，颁查禁营兵五人互保规条，编查保甲请绅耆分理
-- id: guji-林则徐-event-jiaotu
-  title_zh: 谕洋商夷人呈缴烟土
-  date: 1839-03-18
-  year_of: 1839
-  description: 己亥二月初四谕洋商据实供明串通情弊，限三日传谕各国夷人将趸船数万箱尽数缴官，具结永不夹带
+  title_zh: 虎门验收销毁二百余万斤
+  description: 义律呈缴二万二百八十余箱，亲赴虎门验收，开池引卤投石灰销化，逐趸船还国
 - id: guji-林则徐-event-death
-  title_zh: 病逝于广东潮州普宁
   date: 1850-11-22
   year_of: 1850
-  description: 道光三十年十月十九日奉旨再赴广西剿匪途中病逝普宁，谥文忠
+  title_zh: 病逝于潮州普宁
+  description: 道光三十年十月十九奉命剿抚广西卒于途，尽瘁封疆
