@@ -19,109 +19,74 @@ person:
   death_date: 1804
   era: 清代
   reign_ref: 乾隆
-  archetype: 清廉正直整饬士风之臣
+  archetype: 廉直之臣
   dilemmas:
-  - 整饬士习务须严明与体恤士子不宜苛刻之间如何持平
-  - 奉旨即赴新任不入京请训与循例请训以示恭敬之间如何抉择
-  lesson: 居官以清慎自矢为本整饬士习则先正己而后正人文风之兴系于公廉不在繁文
-  summary_first_person: 吾乃刘墉山东诸城人以进士入翰林后提督江苏学政整饬士习兴起文风历官封疆及中枢以清介自守不敢以私干公愿后人知守正奉公可久
+  - 兼管湖南而留京任宪台两地难顾
+  - 风宪澄清与封疆安辑之间轻重难权
+  lesson: 勤慎供职不求赫赫之名但求地方安稳台纲肃然
+  summary_first_person: 吾乃刘墉山东诸城人以书香入仕历任学政巡抚后入京为左都御史仍暂兼湖南事吾以清慎自守不阿不纵但求无忝厥职
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1039.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1039.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1144.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1144.md
 endeavors:
 - id: guji-刘墉-endeavor-1
-  title_zh: 提督江苏学政整饬士风
-  description: 乾隆四十二年受命提督江苏学政不入京请训即赴新任以公慎整饬士习兴起文风
+  title_zh: 暂兼湖南巡抚维持地方
+  summary: 补授左都御史后仍暂兼湖南巡抚以待李世杰服满来署保地方不致旷废
   phases:
   - key: brewing
-    name: 翰林养望
+    name: 奉命兼管
     labels:
-      zh: 进士入馆积学
-    start_date: 1751
-    highlight_event_id: guji-刘墉-event-jinshi
-  - key: breakthrough
-    name: 受命江左
-    labels:
-      zh: 学政新命即赴
-    start_date: 1777-09-15
-    highlight_event_id: guji-刘墉-event-jiangsu
+      zh: 兼抚
+    start_date: 1781-12
+    highlight_event_id: guji-刘墉-event-1
   - key: climax
-    name: 整饬士习
+    name: 在任维持
     labels:
-      zh: 公慎兴文
-    start_date: 1778-03-01
-    highlight_event_id: guji-刘墉-event-jiangsu
-  - key: closure
-    name: 任满交替
-    labels:
-      zh: 士风丕变
-    start_date: 1780-01-01
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 抚湘
+    start_date: 1781-12
+    highlight_event_id: guji-刘墉-event-2
   decisions:
-  - date: 1777-09-15
-    title_zh: 奉旨即赴江苏不入京请训
-    rationale: 学政之职惟在公慎自矢若往返请训徒劳驿传不如即赴任以节糜费而早兴文教
-  - date: 1778-03-01
-    title_zh: 严搜检而宽文体以衡公私
-    rationale: 士习之弊在徇私不在文拙故于搜检则严以防弊于衡文则公以取才使士知所趋
+  - date: 1781-12-07
+    title_zh: 暂留湖南任事
+    rationale: 新旧交替地方不可无人暂行兼管以安定人心候后任到任
 - id: guji-刘墉-endeavor-2
-  title_zh: 历任封疆清介勤民
-  description: 由学政而任布政巡抚以清廉勤政为务不喜事不扰民务使吏畏而民安
+  title_zh: 出任左都御史整饬台纲
+  summary: 由在外督抚简入台端为总宪之官以勤慎澄清吏治风纪
   phases:
-  - key: brewing
-    name: 外任渐历
-    labels:
-      zh: 学政转任
-    start_date: 1780-08-01
-    highlight_event_id: guji-刘墉-event-hunan
   - key: breakthrough
-    name: 抚湘理政
+    name: 擢任总宪
     labels:
-      zh: 勤政爱民
-    start_date: 1780-08-01
-    highlight_event_id: guji-刘墉-event-hunan
-  - key: climax
-    name: 入台秉宪
-    labels:
-      zh: 清直敢言
-    start_date: 1782-01-01
-    highlight_event_id: guji-刘墉-event-hunan
+      zh: 风宪
+    start_date: 1781-12
+    highlight_event_id: guji-刘墉-event-1
   - key: closure
-    name: 致仕善终
+    name: 交卸湖南专任言官之长
     labels:
-      zh: 清名自守
-    start_date: 1804
-    highlight_event_id: guji-刘墉-event-death
+      zh: 专宪
+    start_date: 1782-01
+    highlight_event_id: guji-刘墉-event-2
   decisions:
-  - date: 1780-08-01
-    title_zh: 抚湘以安静不扰为政
-    rationale: 地方久安不宜更张喜事则滋弊故以清简治之使吏不敢欺而民得休息
-  - date: 1782-01-01
-    title_zh: 居台宪以守正不阿自持
-    rationale: 风宪之任系天下是非若稍存热中则流为躁进故惟守公正以承受恩眷而全晚节
+  - date: 1781-12-07
+    title_zh: 受左都御史之任
+    rationale: 台纲关乎吏治应当勤慎诚敬不徇私情以副优眷
 events:
 - id: guji-刘墉-event-birth
   title_zh: 出生于山东诸城
   date: 1719
   year_of: 1719
-  description: 康熙五十八年生于山东诸城书香之家自幼力学
-- id: guji-刘墉-event-jinshi
-  title_zh: 乾隆十六年成进士入翰林
-  date: 1751
-  year_of: 1751
-  description: 乾隆十六年成进士选庶吉士授编修入直书房积累声望
-- id: guji-刘墉-event-jiangsu
-  title_zh: 受命提督江苏学政
-  date: 1777-09-15
-  year_of: 1777
-  description: 乾隆四十二年八月奉旨以江苏学政著刘墉去即赴新任不必来京请训遂整饬士习兴起文风
-- id: guji-刘墉-event-hunan
-  title_zh: 巡抚湖南勤政恤民
-  date: 1780-08-01
-  year_of: 1780
-  description: 由学政外转湖南巡抚体察民隐赈恤勤政不事纷更以安静治之
+  description: 康熙五十八年生于山东诸城为大学士刘统勋之子
+- id: guji-刘墉-event-1
+  title_zh: 补授左都御史仍暂兼湖南巡抚
+  date: 1781-12-07
+  year_of: 1781
+  description: 乾隆四十六年十一月庚子周元理乞休罗源汉补工部尚书刘墉补授左都御史仍暂兼湖南巡抚事务
+- id: guji-刘墉-event-2
+  title_zh: 湖南巡抚命李世杰署理
+  date: 1781-12-12
+  year_of: 1781
+  description: 乾隆四十六年十一月丙午刘墉既任总宪其湖南巡抚缺命李世杰服满前往署理俟服阕实授
 - id: guji-刘墉-event-death
   title_zh: 卒于京师
   date: 1804
   year_of: 1804
-  description: 嘉庆九年十二月卒于京师以清廉正直闻谥文清
+  description: 嘉庆九年十二月卒于京师谥文清
