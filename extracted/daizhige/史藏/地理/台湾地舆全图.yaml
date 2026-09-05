@@ -1,0 +1,138 @@
+person:
+  qid: guji-台湾地舆全图
+  name_zh: 台湾地舆全图
+  names:
+    zh: 台湾地舆全图
+    en: Taiwan Diyu Quantu
+  lifespan:
+    birth:
+      date: 1888
+      precision: year
+      is_circa: true
+      raw: 光绪十四年分省成图
+    death:
+      date: 1888
+      precision: year
+      is_circa: true
+      raw: 光绪十四年图说告成
+  birth_date: 1888
+  death_date: 1888
+  era: 清
+  reign_ref: 光绪
+  archetype: 方志舆图编纂者
+  dilemmas:
+  - 前后山隔绝而版图需合一
+  - 府县新设频仍而沿革需厘清
+  lesson: 因地制宜分别筹议则规模大备
+  summary_first_person: 吾遍考全台府县沿革里程绘图立说以备治理
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E5%9C%B0%E8%88%86%E5%85%A8%E5%9B%BE.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%8F%B0%E6%B9%BE%E5%9C%B0%E8%88%86%E5%85%A8%E5%9B%BE.md
+endeavors:
+- id: guji-台湾地舆全图-endeavor-1
+  title_zh: 总绘前后山全局
+  description: 考自康熙收入版图至光绪分省之沿革统绘全台
+  phases:
+  - key: brewing
+    name: 考据沿革
+    labels:
+      zh: 溯源康熙至光绪
+    start_date: 1683
+    highlight_event_id: guji-台湾地舆全图-event-1
+  - key: breakthrough
+    name: 分省筹议
+    labels:
+      zh: 闽台分省设首府
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-2
+  - key: climax
+    name: 厘定里程
+    labels:
+      zh: 前后山周千六百里
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-2
+  - key: closure
+    name: 图说告成
+    labels:
+      zh: 总图说略完成
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-2
+  decisions:
+  - date: 1888
+    title_zh: 决定前后山合为总图
+    rationale: 南北周回相连须首尾相应方能控驭全局
+  - date: 1888
+    title_zh: 决定移设省会于桥仔图
+    rationale: 形势居中可控驭南北因地制宜规模大备
+- id: guji-台湾地舆全图-endeavor-2
+  title_zh: 分府县厅州绘图立说
+  description: 分台北台湾台南三府及台东澎湖各属绘图系说略驿路
+  phases:
+  - key: brewing
+    name: 分野调查
+    labels:
+      zh: 府县山海屏障考查
+    start_date: 1875
+    highlight_event_id: guji-台湾地舆全图-event-3
+  - key: breakthrough
+    name: 新设建置
+    labels:
+      zh: 云林苗栗恒春等新设
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-3
+  - key: climax
+    name: 海口商埠厘定
+    labels:
+      zh: 基隆沪尾安平旗后
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-4
+  - key: closure
+    name: 各图说略汇编
+    labels:
+      zh: 驿路民站附载完成
+    start_date: 1888
+    highlight_event_id: guji-台湾地舆全图-event-4
+  decisions:
+  - date: 1875
+    title_zh: 决定台北建府于艋舺大稻埕之间
+    rationale: 居中扼北门锁钥兼顾基隆沪尾通商口岸
+  - date: 1888
+    title_zh: 决定台东改直隶州驻水尾
+    rationale: 后山新辟居埤南花莲港之中以便开辟稽考
+events:
+- id: guji-台湾地舆全图-event-birth
+  title_zh: 肇始成编
+  date: 1888
+  year_of: 1888
+  description: 光绪十四年分省筹议全局分别应移应裁并应添设者
+  related_endeavor_id: guji-台湾地舆全图-endeavor-1
+- id: guji-台湾地舆全图-event-death
+  title_zh: 刊行流传
+  date: 1888
+  year_of: 1888
+  description: 图成后以全台前后山总图及各府县说略流传于世
+  related_endeavor_id: guji-台湾地舆全图-endeavor-2
+- id: guji-台湾地舆全图-event-1
+  title_zh: 溯源康熙收入版图
+  date: 1683
+  year_of: 1683
+  description: 康熙二十二年讨平郑氏台湾收入版图设府领三县一厅
+  related_endeavor_id: guji-台湾地舆全图-endeavor-1
+- id: guji-台湾地舆全图-event-2
+  title_zh: 光绪十四年闽台分省建省会
+  date: 1888
+  year_of: 1888
+  description: 于彰化桥仔图建设省会设台湾府县为首府首县改旧府县为台南府安平县
+  related_endeavor_id: guji-台湾地舆全图-endeavor-1
+- id: guji-台湾地舆全图-event-3
+  title_zh: 台北府领三县一厅
+  date: 1875
+  year_of: 1875
+  description: 光绪元年设台北府附郭淡水县领新竹宜兰并基隆通判兼理煤务
+  related_endeavor_id: guji-台湾地舆全图-endeavor-2
+- id: guji-台湾地舆全图-event-4
+  title_zh: 台东澎湖新制告成
+  date: 1888
+  year_of: 1888
+  description: 改埤南同知为台东直隶州驻水尾澎湖改总兵建城池镇署
+  related_endeavor_id: guji-台湾地舆全图-endeavor-2
