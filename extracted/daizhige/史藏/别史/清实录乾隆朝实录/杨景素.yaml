@@ -1,0 +1,159 @@
+person:
+  qid: guji-杨景素
+  name_zh: 杨景素
+  names:
+    zh: 杨景素
+    en: Yang Jingsu
+  lifespan:
+    birth:
+      date: 1720-01-01
+      precision: year
+      is_circa: true
+      raw: 生年不详，约雍正初年
+    death:
+      date: 1779-09-01
+      precision: month
+      is_circa: true
+      raw: 直隶总督任内病故，乾隆四十四年秋
+  birth_date: 1720-01-01
+  death_date: 1779-09-01
+  era: 清乾隆朝
+  reign_ref: 乾隆
+  archetype: 失饬追罚之封疆臣
+  dilemmas:
+  - 久历督抚而操守平常，家赀日厚而昧于收敛
+  - 生前纵弛贻害地方，身后罚修累及子孙
+  lesson: 簠簋不饬，缉捕不严，生前幸免，身后必追，廉慎不可忽也
+  summary_first_person: 吾杨景素久历督抚，督直而簠簋不饬，镇粤而缉盗不严，身殁之后，家赀三十余万尽输河工，方悟贪纵之咎，身死不能免也
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71117.html
+endeavors:
+- id: guji-杨景素-endeavor-1
+  title_zh: 直隶总督与簠簋之失
+  summary_zh: 历任督抚操守平常，督直期间簠簋不饬，病故后事发，谕罚家属承修江南河堤城垣以戒贪纵
+  phases:
+  - key: brewing
+    name: 久历封疆操守平常
+    labels:
+      zh:
+      - 吏治
+      - 督抚
+    start_date: 1770-01-01
+    highlight_event_id: guji-杨景素-event-2
+  - key: breakthrough
+    name: 授任直隶总督
+    labels:
+      zh:
+      - 直隶
+      - 总督
+    start_date: 1778-08-01
+    highlight_event_id: guji-杨景素-event-2
+  - key: climax
+    name: 任内病故簠簋事彰
+    labels:
+      zh:
+      - 簠簋
+      - 物议
+    start_date: 1779-09-01
+    highlight_event_id: guji-杨景素-event-death
+  - key: closure
+    name: 身后谕罚承修河工
+    labels:
+      zh:
+      - 追罚
+      - 河工
+    start_date: 1780-11-03
+    highlight_event_id: guji-杨景素-event-3
+  decisions:
+  - date: 1778-08-01
+    title_zh: 就任直隶不自饬厉
+    rationale: 旧属遍布直省而不知收敛，终致身后被议簠簋不饬
+  - date: 1779-09-01
+    title_zh: 病故任内遗赀厚积
+    rationale: 历任所积家赀不散，授人口实，贻累子孙输产偿公
+- id: guji-杨景素-endeavor-2
+  title_zh: 镇粤缉捕与沙湾茭塘贻误
+  summary_zh: 在广东任内于沙湾茭塘剧盗凌大头蓉等案不严密缉拿，致盗犯肆劫贻害地方，身后并案被议
+  phases:
+  - key: brewing
+    name: 镇粤任上盗风渐炽
+    labels:
+      zh:
+      - 广东
+      - 海疆
+    start_date: 1775-01-01
+    highlight_event_id: guji-杨景素-event-1
+  - key: breakthrough
+    name: 沙湾茭塘剧盗蜂起
+    labels:
+      zh:
+      - 沙湾
+      - 茭塘
+    start_date: 1777-01-01
+    highlight_event_id: guji-杨景素-event-1
+  - key: climax
+    name: 缉拿不力贻害地方
+    labels:
+      zh:
+      - 缉捕
+      - 贻误
+    start_date: 1778-01-01
+    highlight_event_id: guji-杨景素-event-1
+  - key: closure
+    name: 身后并案论戒追产
+    labels:
+      zh:
+      - 追论
+      - 家产
+    start_date: 1780-11-08
+    highlight_event_id: guji-杨景素-event-4
+  decisions:
+  - date: 1777-06-01
+    title_zh: 沙湾茭塘姑息不办
+    rationale: 于凌大头蓉等剧盗不严密缉拿，以致肆劫，贻害地方
+  - date: 1778-01-01
+    title_zh: 纵弛不改调任留咎
+    rationale: 粤事未清而去，罪状留至身后，与直隶簠簋事并发
+events:
+- id: guji-杨景素-event-birth
+  type: birth
+  title_zh: 生于雍正初年
+  date: 1720-01-01
+  year_of: 1720
+  description_zh: 生年不详，约雍正初年，扬州籍，后历任封疆
+  endeavor_ref: guji-杨景素-endeavor-1
+- id: guji-杨景素-event-1
+  type: career
+  title_zh: 督粤失察沙湾茭塘盗案
+  date: 1777-06-01
+  year_of: 1777
+  description_zh: 在广东任内于沙湾茭塘凌大头蓉等剧盗不严密缉拿，致盗犯肆劫贻害地方
+  endeavor_ref: guji-杨景素-endeavor-2
+- id: guji-杨景素-event-2
+  type: career
+  title_zh: 任直隶总督簠簋不饬
+  date: 1778-08-01
+  year_of: 1778
+  description_zh: 任直隶总督，操守平常，簠簋不饬，旧属遍布直省
+  endeavor_ref: guji-杨景素-endeavor-1
+- id: guji-杨景素-event-death
+  type: death
+  title_zh: 病故于直隶总督任内
+  date: 1779-09-01
+  year_of: 1779
+  description_zh: 在直隶总督任内病故，使其尚在必当明正其罪，故身后追论
+  endeavor_ref: guji-杨景素-endeavor-1
+- id: guji-杨景素-event-3
+  type: career
+  title_zh: 谕罚家属承修江南河堤城垣
+  date: 1780-11-03
+  year_of: 1780
+  description_zh: 乾隆四十五年十月乙丑谕，罚令杨景素家属承修江南河堤城垣等工，以为贪婪纵弛者戒，命伊龄阿袁守侗查察隐寄
+  endeavor_ref: guji-杨景素-endeavor-1
+- id: guji-杨景素-event-4
+  type: career
+  title_zh: 子杨炤呈产三十三万估变充工
+  date: 1780-11-08
+  year_of: 1780
+  description_zh: 子杨炤呈出金银房屋田地京产借银盐引窝价约值银三十三万余两，加恩拨给三四万两养赡，余交陈辉祖伊龄阿估变备高家堰等工
+  endeavor_ref: guji-杨景素-endeavor-2
