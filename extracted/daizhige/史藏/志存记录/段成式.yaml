@@ -9,7 +9,7 @@ person:
       date: 0803
       precision: year
       is_circa: true
-      raw: 唐贞元十九年前后
+      raw: 唐元和八年左右
     death:
       date: 0863
       precision: year
@@ -18,113 +18,103 @@ person:
   birth_date: 0803
   death_date: 0863
   era: 唐
-  reign_ref: 唐武宗会昌至唐宣宗大中
-  archetype: 博闻多识的志怪文士
+  reign_ref: 唐穆宗至唐懿宗
+  archetype: 博物志怪笔记家
   dilemmas:
-  - 早年与亡友同游两街寺之乐事邈不可追而故简残蠹十亡五六是否续补刊整以存旧迹
-  - 身历秘书省京洛及安成刺史之宦游劳形与闭门博记志怪博物之著述宿愿如何两全
-  lesson: 以沥血泪交之心续穿蠹残简使一时游赏与两京寺塔画迹不没于世
-  summary_first_person: 吾东牟人段成式字柯古会昌三年夏与张希复郑符梦复同游大兴善寺约旬日寻两街寺后历职京洛出刺安成大中七年归京检故简续蠹成寺塔记两卷以传释子
+  - 以闲散郡守之身兼治政与著述难以两全
+  - 好搜奇志怪与正统史学体例之间的取舍
+  lesson: 官下闲暇亦可集细事成大观博物存真足传远
+  summary_first_person: 吾段成式字柯古出身齐州临淄出守吉州庐陵好读书览异物喜与宾客连句为戏录官下所见栽植墨法梦幻草木虫鱼市井侠盗而成庐陵官下记又集为酉阳杂俎以存一时风物
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%AF%BA%E5%A1%94%E8%AE%B0.html
-  - https://zh.wikisource.org/wiki/%E5%AF%BA%E5%A1%94%E8%A8%98
+  - https://daizhige.org/庐陵官下记.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/庐陵官下记.md
 endeavors:
 - id: guji-段成式-endeavor-1
-  title_zh: 历职秘书京洛出刺安成
-  summary_zh: 由秘书省校书郎累职京洛外刺安成大中七年归京
+  title_zh: 出守庐陵记官下杂事
+  summary_zh: 大中年间出为吉州刺史于庐陵官舍与宾客连句征诗设句枝韵牒并记盗贼梦幻服饰物产而成官下记
   phases:
   - key: brewing
-    name: 秘书省起家博览群书
+    name: 初到庐陵观察风物
     labels:
-      zh: 起家秘书
+      zh: 到任搜访
+    start_date: 0847
+    highlight_event_id: guji-段成式-event-luling
+  - key: breakthrough
+    name: 设句枝韵牒会客征诗
+    labels:
+      zh: 连句征诗
+    start_date: 0848
+    highlight_event_id: guji-段成式-event-juzhi
+  - key: climax
+    name: 杂录成篇传于好事者
+    labels:
+      zh: 杂录成篇
+    start_date: 0849
+    highlight_event_id: guji-段成式-event-juzhi
+  decisions:
+  - date: 0848
+    title_zh: 制斑竹句枝递送聊句
+    rationale: 以坐客互送连句为烦故制器以省烦而存雅韵
+  - date: 0849
+    title_zh: 分杂连苦连韵牒三例
+    rationale: 志不朽则汰拣稳韵志娱宾则杂录兼收以别雅俗
+- id: guji-段成式-endeavor-2
+  title_zh: 博采博物撰酉阳杂俎
+  summary_zh: 检隋种植法考牡丹源流察蝇类辨物性记碧筒卧箜篌凉殿诸事网罗古今以成博物笔记
+  phases:
+  - key: brewing
+    name: 平生蠹书博览百家
+    labels:
+      zh: 博览群书
     start_date: 0825
     highlight_event_id: guji-段成式-event-birth
   - key: breakthrough
-    name: 会昌中连职仙署交游文士
+    name: 考据草木虫鱼制度
     labels:
-      zh: 仙署交游
-    start_date: '0843-06-01'
-    highlight_event_id: guji-段成式-event-tour-xingshan
-  - key: climax
-    name: 出职京洛及刺安成
-    labels:
-      zh: 外刺安成
-    start_date: 0847
-    highlight_event_id: guji-段成式-event-tour-xingshan
+      zh: 考据博物
+    start_date: 0850
+    highlight_event_id: guji-段成式-event-bowu
   - key: closure
-    name: 大中七年归京守淡著述
+    name: 酉阳杂俎及官下记并行于世
     labels:
-      zh: 归京著述
-    start_date: 0853
-    highlight_event_id: guji-段成式-event-compile-sitaji
+      zh: 集成传世
+    start_date: 0860
+    highlight_event_id: guji-段成式-event-youyang
   decisions:
-  - date: '0843-06-01'
-    title_zh: 会暇同僚游大兴善寺
-    rationale: 假日相携访名刹以考两京新记游目记之遗略
-  - date: 0847
-    title_zh: 受命职于京洛及安成
-    rationale: 奉命外任历练吏事暂辍寻寺之约以待归京续补
-- id: guji-段成式-endeavor-2
-  title_zh: 旬寻两街寺撰成寺塔记
-  summary_zh: 以兴善为首约寻两街寺游至慈恩而绝后检故简刊整成两卷
-  phases:
-  - key: brewing
-    name: 问两记遗略约旬寻寺
-    labels:
-      zh: 立约寻寺
-    start_date: '0843-06-01'
-    highlight_event_id: guji-段成式-event-tour-xingshan
-  - key: breakthrough
-    name: 以街东兴善为首别录所不具
-    labels:
-      zh: 兴善首录
-    start_date: '0843-06-15'
-    highlight_event_id: guji-段成式-event-tour-xingshan
-  - key: climax
-    name: 游至慈恩官并寺而辍泛问记画
-    labels:
-      zh: 慈恩辍游
-    start_date: '0843-07-01'
-    highlight_event_id: guji-段成式-event-tour-xingshan
-  - key: closure
-    name: 大中七年检故简续蠹成两卷传释子
-    labels:
-      zh: 刊整传世
-    start_date: 0853
-    highlight_event_id: guji-段成式-event-compile-sitaji
-  decisions:
-  - date: '0843-06-01'
-    title_zh: 约一旬寻两街寺以兴善为首
-    rationale: 两京新记游目记多遗略须亲历补阙别录所不具者
-  - date: 0853
-    title_zh: 刊整残简续穿蠹成两卷
-    rationale: 在外六甲子书籍揃坏居半睹与亡父游寺故简沥血泪交不忍旧迹湮没故勉力续成以传释子
+  - date: 0850
+    title_zh: 检七十卷种植法考牡丹
+    rationale: 前史无说则稽故法以定隋朝无牡丹之实存信史
+  - date: 0860
+    title_zh: 以琐碎志怪附于正史之外
+    rationale: 正史不载风物则以笔记补之使后人有所征
 events:
 - id: guji-段成式-event-birth
-  title_zh: 生于齐州临淄段氏官宦家
-  type: birth
   date: 0803
   year_of: 803
-  place_zh: 齐州临淄
-  description_zh: 宰相段文昌之子少博学强记历秘书省校书郎
-- id: guji-段成式-event-tour-xingshan
-  title_zh: 会昌三年夏游大兴善寺约寻两街寺
-  type: career
-  date: '0843-06-01'
-  year_of: 843
-  place_zh: 长安靖恭坊大兴善寺
-  description_zh: 与张希复郑符梦复会暇游大兴善寺问两京新记游目记遗略约一旬寻两街寺以兴善为首游至慈恩因官并寺而绝泛问上人记塔下画迹
-- id: guji-段成式-event-compile-sitaji
-  title_zh: 大中七年归京刊整故简成寺塔记两卷
-  type: career
-  date: 0853
-  year_of: 853
-  place_zh: 京师
-  description_zh: 在外六甲子所留书籍揃坏居半检故简睹与亡父游寺沥血泪交复刊整续穿蠹十存五六次成两卷传诸释子自署东牟人段成式字柯古
+  title_zh: 出生于齐州临淄
+  description_zh: 唐元和八年左右生于宰相段文昌家少好学博闻
+- id: guji-段成式-event-luling
+  date: 0847
+  year_of: 847
+  title_zh: 出为吉州刺史居庐陵官舍
+  description_zh: 唐大中初出守庐陵于官下与宾客宴会观察民俗
+- id: guji-段成式-event-juzhi
+  date: 0848
+  year_of: 848
+  title_zh: 制句枝韵牒征宾客佳句
+  description_zh: 命工取细斑竹以白金锁首递送联句征贾岛马戴无可张祜诸家佳句
+- id: guji-段成式-event-bowu
+  date: 0850
+  year_of: 850
+  title_zh: 考牡丹观蝇记诸物
+  description_zh: 检隋朝种植法论牡丹未入隋时细视秋蝇辨其声在翼并记墨涴衣借书盗贼诸事
+- id: guji-段成式-event-youyang
+  date: 0860
+  year_of: 860
+  title_zh: 酉阳杂俎与官下记传世
+  description_zh: 集平生所记为酉阳杂俎及庐陵官下记为后世类说说郛所引
 - id: guji-段成式-event-death
-  title_zh: 咸通四年卒于世
-  type: death
   date: 0863
   year_of: 863
-  place_zh: 长安
-  description_zh: 一生博记博物兼著酉阳杂俎与寺塔记以志怪存史见称于世
+  title_zh: 卒于太常少卿任
+  description_zh: 唐咸通四年卒于官以博学多闻传于世
