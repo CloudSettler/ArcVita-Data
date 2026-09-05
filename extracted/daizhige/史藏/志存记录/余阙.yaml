@@ -1,0 +1,139 @@
+person:
+  qid: guji-余阙
+  name_zh: 余阙
+  names:
+    zh: 余阙
+    en: Yu Que
+  lifespan:
+    birth:
+      date: '1303'
+      precision: year
+      is_circa: true
+      raw: 正月十一日，年三十一
+    death:
+      date: '1358'
+      precision: year
+      is_circa: false
+      raw: 至正十八年殉节安庆
+  birth_date: '1303'
+  death_date: '1358'
+  era: 元
+  reign_ref: 元统元年
+  archetype: 忠烈守节之臣
+  dilemmas:
+  - 唐兀氏属而力践汉家忠义
+  - 孤城难守而誓死不去
+  lesson: 临大节而不可夺，守土尽忠以死勤事
+  summary_first_person: 我字廷心，行四，庐州唐兀人，元统元年蒙古色目榜会试第二名登进士第，授淮安路同知泗州事，后守安庆殉国。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%83%E7%BB%9F%E5%85%83%E5%B9%B4%E8%BF%9B%E5%A3%AB%E5%BD%95.md
+endeavors:
+- id: guji-余阙-endeavor-1
+  title_zh: 元统元年蒙古色目榜登第
+  summary_zh: 河南乡试第二，会试第二，赐进士及第，授淮安路同知泗州事。
+  phases:
+  - key: brewing
+    name: 河南乡试第二名
+    labels:
+      zh:
+      - 乡试
+    start_date: '1332'
+    highlight_event_id: guji-余阙-event-xiangshi
+  - key: breakthrough
+    name: 会试第二名登第
+    labels:
+      zh:
+      - 会试
+    start_date: '1333'
+    highlight_event_id: guji-余阙-event-huishi
+  - key: climax
+    name: 赐进士及第授官
+    labels:
+      zh:
+      - 登第授官
+    start_date: '1333'
+    highlight_event_id: guji-余阙-event-shousi
+  - key: closure
+    name: 初入仕途立身
+    labels:
+      zh:
+      - 入仕
+    start_date: '1334'
+    highlight_event_id: guji-余阙-event-shousi
+  decisions:
+  - date: '1332'
+    title_zh: 就河南乡试取第二名
+    rationale: 贯庐州路，以河南行省乡试入选，厚积待时会试
+  - date: '1333'
+    title_zh: 会试取第二授泗州事
+    rationale: 蒙古色目榜第二甲第一，授淮安路同知泗州事以历事
+- id: guji-余阙-endeavor-2
+  title_zh: 历官守安庆殉节
+  summary_zh: 由泗州累迁，至正守安庆，孤城拒守，城陷不屈而死。
+  phases:
+  - key: brewing
+    name: 泗州莅任养望
+    labels:
+      zh:
+      - 地方历练
+    start_date: '1333'
+    highlight_event_id: guji-余阙-event-shousi
+  - key: breakthrough
+    name: 累迁方面任重
+    labels:
+      zh:
+      - 迁转
+    start_date: '1352'
+    highlight_event_id: guji-余阙-event-shouanqing
+  - key: climax
+    name: 守安庆拒贼
+    labels:
+      zh:
+      - 守土
+    start_date: '1357'
+    highlight_event_id: guji-余阙-event-shouanqing
+  - key: closure
+    name: 城陷殉节
+    labels:
+      zh:
+      - 死节
+    start_date: '1358'
+    highlight_event_id: guji-余阙-event-death
+  decisions:
+  - date: '1357'
+    title_zh: 坚守安庆不避难
+    rationale: 以孤城当冲，誓与城存亡，不弃位去
+  - date: '1358'
+    title_zh: 城陷自尽殉国
+    rationale: 大节不可夺，临难不苟以全忠烈
+events:
+- id: guji-余阙-event-birth
+  date: '1303'
+  year_of: 1303
+  title_zh: 出生
+  description_zh: 庐州路唐兀氏，正月十一日生，行四，年三十一登第逆推约生于此年
+- id: guji-余阙-event-xiangshi
+  date: '1332'
+  year_of: 1332
+  title_zh: 河南乡试第二名
+  description_zh: 乡试河南第二名
+- id: guji-余阙-event-huishi
+  date: '1333'
+  year_of: 1333
+  title_zh: 会试第二名登进士第
+  description_zh: 元统元年蒙古色目人第一甲第二名，会试第二名，赐进士及第
+- id: guji-余阙-event-shousi
+  date: '1333'
+  year_of: 1333
+  title_zh: 授淮安路同知泗州事
+  description_zh: 登第后授淮安路同知泗州事
+- id: guji-余阙-event-shouanqing
+  date: '1357'
+  year_of: 1357
+  title_zh: 守安庆
+  description_zh: 累官守安庆，拒守孤城
+- id: guji-余阙-event-death
+  date: '1358'
+  year_of: 1358
+  title_zh: 殉节安庆
+  description_zh: 至正十八年安庆陷，死节

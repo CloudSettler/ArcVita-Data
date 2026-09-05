@@ -1,0 +1,126 @@
+person:
+  qid: guji-萧洵
+  name_zh: 萧洵
+  names:
+    zh: 萧洵
+    en: Xiao Xun
+  lifespan:
+    birth:
+      date: 1328-01-01
+      precision: year
+      is_circa: true
+      raw: 元末约生
+    death:
+      date: 1390-01-01
+      precision: year
+      is_circa: true
+      raw: 明初卒年不详
+  birth_date: 1328-01-01
+  death_date: 1390-01-01
+  era: 元末明初
+  reign_ref: 洪武
+  archetype: 工官记录者
+  dilemmas:
+  - 奉命毁元故宫与存录旧制以备考之两难
+  - 目击壮丽倾覆与秉笔直记之两难
+  lesson: 构毁易而形制难存，以文字存废宫之形，亦以存兴亡之鉴
+  summary_first_person: 余庐陵萧洵，洪武元年以工部郎从事毁元宫，遍历大明延春兴圣诸殿，悯其壮丽将灭，因详记门阙宫室海子万岁山之制，成元故宫遗录一帙以传
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%83%E6%95%85%E5%AE%AB%E9%81%97%E5%BD%95.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%83%E6%95%85%E5%AE%AB%E9%81%97%E5%BD%95.md
+endeavors:
+- id: guji-萧洵-endeavor-1
+  person_id: guji-萧洵
+  title_zh: 奉命董毁元大都宫殿
+  summary: 洪武元年灭元，命大臣毁元氏宫殿，萧洵以工部郎实从事，遍历千步廊大明殿延春阁万岁山广寒殿海子诸处
+  phases:
+  - key: brewing
+    name: 受命赴北
+    labels:
+      zh: 受命
+    start_date: 1368-08-01
+    highlight_event_id: guji-萧洵-event-1368-destroy
+  - key: breakthrough
+    name: 遍历宫掖
+    labels:
+      zh: 遍览
+    start_date: 1368-09-01
+    highlight_event_id: guji-萧洵-event-1368-destroy
+  - key: climax
+    name: 董役倾毁
+    labels:
+      zh: 董毁
+    start_date: 1368-10-01
+    highlight_event_id: guji-萧洵-event-1368-destroy
+  - key: closure
+    name: 废墟既成
+    labels:
+      zh: 告成
+    start_date: 1368-11-01
+    highlight_event_id: guji-萧洵-event-1368-destroy
+  decisions:
+  - date: 1368-09-01
+    title_zh: 随行纪录宫制
+    rationale: 宫阙将毁，形制不存，欲以文字存其壮丽，以备后考
+- id: guji-萧洵-endeavor-2
+  person_id: guji-萧洵
+  title_zh: 纪录成元故宫遗录
+  summary: 因从事毁宫，纪录所见所历，详记大明延春清宁兴圣明仁诸宫及万岁山瀛洲海子之胜，成帙传世
+  phases:
+  - key: brewing
+    name: 随毁随记
+    labels:
+      zh: 草记
+    start_date: 1368-09-01
+    highlight_event_id: guji-萧洵-event-1368-book
+  - key: breakthrough
+    name: 条贯宫制
+    labels:
+      zh: 整理
+    start_date: 1368-10-01
+    highlight_event_id: guji-萧洵-event-1368-book
+  - key: climax
+    name: 成帙遗录
+    labels:
+      zh: 成书
+    start_date: 1368-12-01
+    highlight_event_id: guji-萧洵-event-1368-book
+  - key: closure
+    name: 吴节作序传行
+    labels:
+      zh: 传行
+    start_date: 1369-01-01
+    highlight_event_id: guji-萧洵-event-1368-book
+  decisions:
+  - date: 1368-12-01
+    title_zh: 详录故宫以存史
+    rationale: 金台芜灭基构不存，恐燕京往迹无稽，故备载以俟修史采录
+events:
+- id: guji-萧洵-event-birth
+  person_id: guji-萧洵
+  type: birth
+  date: 1328-01-01
+  year_of: 1328
+  title_zh: 萧洵生于庐陵
+  description: 元末生于庐陵，後仕明为工部郎
+- id: guji-萧洵-event-1368-destroy
+  person_id: guji-萧洵
+  type: career
+  date: 1368-09-01
+  year_of: 1368
+  title_zh: 洪武元年从事毁元宫
+  description: 洪武元年灭元，命大臣毁元氏宫殿，萧洵以工部郎实从事，遍历千步廊崇天门大明殿延春阁清宁宫兴圣宫万岁山广寒殿海子瀛洲诸处
+- id: guji-萧洵-event-1368-book
+  person_id: guji-萧洵
+  type: career
+  date: 1368-12-01
+  year_of: 1368
+  title_zh: 纪录成元故宫遗录
+  description: 因从事毁宫而纪录成帙，详记宫阙门庑寝宫苑囿之制，有松陵吴节为之序，後赵琦美得而校录传行
+- id: guji-萧洵-event-death
+  person_id: guji-萧洵
+  type: death
+  date: 1390-01-01
+  year_of: 1390
+  title_zh: 萧洵卒
+  description: 明初卒，卒年不详，所著遗录传于世
