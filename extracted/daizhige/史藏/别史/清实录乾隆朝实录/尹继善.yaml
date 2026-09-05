@@ -17,107 +17,122 @@ person:
       raw: 乾隆三十六年
   birth_date: 1695
   death_date: 1771
-  era: 清
+  era: 清朝
   reign_ref: 乾隆
   archetype: 封疆干吏
   dilemmas:
-  - 下游洼地保全与高堰自全之间如何权衡
-  - 内地循吏留任与北路军营更替之间如何取舍
-  lesson: 因时酌量妥协办理方不使洼地小民偏受其害
-  summary_first_person: 我尹继善历任中外以河务封疆为任乾隆十九年高宝兴泰成灾奉旨查明车逻南关开放过水之故又会同核议下河疏浚得失旋奉召赴行在议北路事后仍留任兼署两江以安内地
+  - 湖流宣洩未畅与漕运民生兼顾之难
+  - 咨商往返易误工期与分任责成速行之衡
+  lesson: 治水当通盘筹算轻重缓急同时并举早竣一日则水患早弭一日
+  summary_first_person: 吾备位两江总督值微山诸湖众流所归运河宣洩不畅下河久遭泛溢亲加履勘会商河臣挑宽越河添建滚坝堵闭横截来水力求岁内告成以奠民生
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0470.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0470.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70544.html
 endeavors:
 - id: guji-尹继善-endeavor-1
-  title_zh: 高宝水灾与车逻南关坝务查办
-  summary_zh: 奉旨因时酌量查明开坝过水及被灾缘由并核议下河疏浚是否有益
-  start_date: 1754-08-01
+  person_qid: guji-尹继善
+  title_zh: 筹办南阳昭阳微山诸湖疏洩畅通运河尾闾
+  summary_zh: 履勘湖河来源去路会商河臣挑宽河清河定河成三闸越河添建湖口闸滚坝拆宽双闸并暂堵王家沟以畅宣洩
   phases:
   - key: brewing
-    name: 车逻南关过水高宝成灾
+    name: 履勘湖河来源去路
     labels:
-      zh:
-      - 河务查勘
-    start_date: 1754-08-01
+      zh: 查勘湖河
+    start_date: 1757-08
+    highlight_event_id: guji-尹继善-event-1
+  - key: breakthrough
+    name: 会商挑宽三闸越河
+    labels:
+      zh: 会商定策
+    start_date: 1757-09
     highlight_event_id: guji-尹继善-event-1
   - key: climax
-    name: 会查下河疏浚得失
+    name: 具奏疏洩事宜奉旨速行
     labels:
-      zh:
-      - 疏浚核议
-    start_date: 1754-08-02
+      zh: 奏准兴工
+    start_date: 1757-09
     highlight_event_id: guji-尹继善-event-2
   - key: closure
-    name: 循名了事之责
+    name: 分任责成岁内告成
     labels:
-      zh:
-      - 河政反思
-    start_date: 1754-08-03
+      zh: 分工趱办
+    start_date: 1757-09
     highlight_event_id: guji-尹继善-event-2
   decisions:
-  - date: 1754-08-01
-    title_zh: 因时酌量妥协办理勿使洼地偏害
-    rationale: 高堰可保无虞而以下游为壑则亿万灾黎何堪须相机启闭
-  - date: 1754-08-02
-    title_zh: 详查被水缘由及疏浚有益与否
-    rationale: 工程甫竣水灾复见须明辨雨泽过多与河道不畅之分据实具奏
+  - date: 1757-09
+    title_zh: 会商白钟山挑宽三闸越河各五丈
+    rationale: 湖口闸以下闸河窄狭水大时全赖越河宣洩挑宽可使荆山桥下来水畅流入运
+  - date: 1757-09
+    title_zh: 相机堵闭王家沟并拆宽清河双闸
+    rationale: 骆马湖水由王家沟横截入运阻碍上源微山来水暂堵以专洩湖水宽尾闾以达去路
 - id: guji-尹继善-endeavor-2
-  title_zh: 召赴行在与兼署两江留任
-  summary_zh: 策楞舒赫德革职后议以尹继善办北路终以年迈留任内地兼署两江
-  start_date: 1754-08-12
+  person_qid: guji-尹继善
+  title_zh: 查报下河秋成水势并协筹河工用人
+  summary_zh: 奉旨查报淮扬下河秋成实景及黄河诸湖水势奏请拣发谙悉工务河员分工督办以济要工
   phases:
   - key: brewing
-    name: 北路军营更替议起
+    name: 奉旨查报下河秋成
     labels:
-      zh:
-      - 军务筹议
-    start_date: 1754-08-12
+      zh: 奉旨查勘
+    start_date: 1757-08
     highlight_event_id: guji-尹继善-event-3
   - key: breakthrough
-    name: 驰驿速赴行在面训
+    name: 奏请拣发河工干员
     labels:
-      zh:
-      - 奉召北上
-    start_date: 1754-08-12
+      zh: 筹人任事
+    start_date: 1757-09
+    highlight_event_id: guji-尹继善-event-3
+  - key: climax
+    name: 分工督办现有谙工之员
+    labels:
+      zh: 分工派委
+    start_date: 1757-09
     highlight_event_id: guji-尹继善-event-3
   - key: closure
-    name: 不必前来兼署两江
+    name: 协同钦差河督趱办诸工
     labels:
-      zh:
-      - 留任封疆
-    start_date: 1754-08-15
-    highlight_event_id: guji-尹继善-event-3
+      zh: 协同趋事
+    start_date: 1757-09
+    highlight_event_id: guji-尹继善-event-2
   decisions:
-  - date: 1754-08-12
-    title_zh: 奉召即日起程速赴吉林行在
-    rationale: 北路关系紧要练达机宜者可往办理故面领训诲再定
-  - date: 1754-08-15
-    title_zh: 留任内地兼署两江总督
-    rationale: 年逾六旬恐勉强偾事且内地需因循有名解事之人以安封疆
+  - date: 1757-08
+    title_zh: 驰奏下河秋成与黄河湖水实情
+    rationale: 黄流伏汛虽安澜而秋禾登场在即下河洼地情形需速报以慰系念
+  - date: 1757-09
+    title_zh: 奏请拣选谙工河员发往差委
+    rationale: 河工急需干员现有如何煟李宏等分工尚恐乏人故请别选以济督办
 events:
 - id: guji-尹继善-event-birth
+  person_qid: guji-尹继善
+  type: birth
+  title_zh: 出生于满洲镶黄旗章佳氏
   date: 1695
   year_of: 1695
-  title_zh: 出生
-  description: 康熙三十四年出生满洲镶黄旗章佳氏后历任中外
-- id: guji-尹继善-event-1
-  date: 1754-08-01
-  year_of: 1754
-  title_zh: 奉旨查办车逻南关过水及高宝被灾
-  description: 乾隆十九年八月车逻南关过水数尺高宝兴泰成灾奉旨因时酌量妥办并查明开坝及被灾缘由
-- id: guji-尹继善-event-2
-  date: 1754-08-02
-  year_of: 1754
-  title_zh: 会查下河疏浚论循名了事
-  description: 与鄂容安庄有恭会查下河疏浚是否有益奏称仅洩中等漫水工程未竣遇霖雨复淹得旨切责为循名了事
+  description_zh: 康熙三十四年出生后以文行受知历任封疆为两江总督
 - id: guji-尹继善-event-3
-  date: 1754-08-12
-  year_of: 1754
-  title_zh: 召赴行在后改命兼署两江
-  description: 初命驰驿速赴吉林行在议办北路军营寻以年迈改命不必前来即兼署两江总督事务白钟山仍留河东
+  person_qid: guji-尹继善
+  type: career
+  title_zh: 奉旨查报下河秋成并奏请拣发河员
+  date: 1757-09-13
+  year_of: 1757
+  description_zh: 乾隆二十二年八月初二后奉旨将会同白钟山查报淮扬高宝兴泰秋成及黄河洪泽诸湖水势并奏请拣发河员交王大臣选发
+- id: guji-尹继善-event-1
+  person_qid: guji-尹继善
+  type: career
+  title_zh: 奏陈南阳昭阳微山诸湖疏洩之策
+  date: 1757-09-16
+  year_of: 1757
+  description_zh: 乾隆二十二年八月甲子奏明湖河来源去路拟添湖口闸滚坝挑宽河清河定河成三闸越河堵闭王家沟拆宽清河双闸以畅尾闾
+- id: guji-尹继善-event-2
+  person_qid: guji-尹继善
+  type: career
+  title_zh: 疏洩方案奉旨会同钦差河督速行兴工
+  date: 1757-09-16
+  year_of: 1757
+  description_zh: 所奏湖口闸滚坝及越河工程颇中肯綮奉旨会同裘曰修梦麟白钟山等通盘筹算分任责成同时并举均于岁内告成
 - id: guji-尹继善-event-death
+  person_qid: guji-尹继善
+  type: death
+  title_zh: 卒于乾隆三十六年
   date: 1771
   year_of: 1771
-  title_zh: 逝世
-  description: 乾隆三十六年逝世谥文端历事三朝为乾隆朝重臣封疆典范
+  description_zh: 乾隆三十六年去世历事三朝以封疆干济著称
