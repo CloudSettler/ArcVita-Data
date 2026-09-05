@@ -1,0 +1,131 @@
+person:
+  qid: guji-观保
+  name_zh: 观保
+  names:
+    zh: 观保
+    en: Guan Bao
+  lifespan:
+    birth:
+      date: 1710
+      precision: year
+      is_circa: true
+      raw: 生年未详据乾隆三十四年已历部院二十余年推估
+    death:
+      date: 1778
+      precision: year
+      is_circa: true
+      raw: 卒年未详乾隆三十四年后留尚书房行走推估
+  birth_date: 1710
+  death_date: 1778
+  era: 清乾隆朝
+  reign_ref: 乾隆
+  archetype: 因循保位之庸碌大臣
+  dilemmas:
+  - 久任部院兼旗务循默自保与实心经理之两难
+  - 国子监遗书获谴革任示惩与留用效力之进退
+  lesson: 居高位而无实绩宽纵即是旷职终难逃权衡黜陟
+  summary_first_person: 吾历部院兼旗务二十余年未尝实心任事国子监遗书案发蒙高宗亲判革任仍留尚书房行走方知虚表无补惟实做可立身
+  source_urls:
+  - https://zh.wikisource.org/wiki/清實錄/大清高宗純皇帝實錄/卷之八百四十五
+endeavors:
+- id: guji-观保-endeavor-1
+  person_id: guji-观保
+  title_zh: 部院兼旗务二十年虚表无实
+  summary_zh: 自为部院大臣兼管旗务以来二十余年应办之事从未认真经理虚有其表毫无实际
+  phases:
+  - key: brewing
+    name: 初膺部院兼管旗务
+    labels:
+      zh: 入仕起家
+    start_date: 1745
+    highlight_event_id: guji-观保-event-1
+  - key: breakthrough
+    name: 久任部院循默成习
+    labels:
+      zh: 久任因循
+    start_date: 1755
+    highlight_event_id: guji-观保-event-1
+  - key: climax
+    name: 屡召无建言绩平平
+    labels:
+      zh: 无所建树
+    start_date: 1765
+    highlight_event_id: guji-观保-event-1
+  - key: closure
+    name: 积习不改终致议黜
+    labels:
+      zh: 由宽转严
+    start_date: 1769-11-15
+    highlight_event_id: guji-观保-event-2
+  decisions:
+  - date: 1755-01-01
+    title_zh: 守成不言安享高官
+    rationale: 以唯诺保位不肯实心任事遂养成虚表无实之习
+  - date: 1765-01-01
+    title_zh: 仍不奋勉因循到底
+    rationale: 屡经简任而无加意奋勉终失为国家得用之人机会
+- id: guji-观保-endeavor-2
+  person_id: guji-观保
+  title_zh: 国子监遗书案革任留用
+  summary_zh: 国子监遗失书籍吏部议革任高宗亲判革任仍留尚书房效力行走以示权衡功罪
+  phases:
+  - key: brewing
+    name: 国子监书籍遗失事发
+    labels:
+      zh: 失察酿祸
+    start_date: 1769-10-01
+    highlight_event_id: guji-观保-event-2
+  - key: breakthrough
+    name: 吏部议以革任处分
+    labels:
+      zh: 部议革任
+    start_date: 1769-11-01
+    highlight_event_id: guji-观保-event-2
+  - key: climax
+    name: 高宗明谕革任宣示
+    labels:
+      zh: 御判革任
+    start_date: 1769-11-15
+    highlight_event_id: guji-观保-event-2
+  - key: closure
+    name: 革任仍留尚书房行走
+    labels:
+      zh: 革留效力
+    start_date: 1769-11-16
+    highlight_event_id: guji-观保-event-2
+  decisions:
+  - date: 1769-11-15
+    title_zh: 俯首认革不辩自用之咎
+    rationale: 明知各任内未尝认真经理只能承受革任以谢旷职之责
+  - date: 1769-11-16
+    title_zh: 留尚书房效力赎过
+    rationale: 蒙恩不弃当在尚书房勉力行走以补前愆
+events:
+- id: guji-观保-event-birth
+  person_id: guji-观保
+  type: birth
+  title_zh: 观保出生
+  date: 1710
+  year_of: 1710
+  description_zh: 生年未详据乾隆三十四年已任部院二十余年逆推约生于雍正初年旗人家庭
+- id: guji-观保-event-1
+  person_id: guji-观保
+  type: career
+  title_zh: 任部院大臣兼管旗务
+  date: 1745
+  year_of: 1745
+  description_zh: 用为部院大臣兼管旗务历二十余年于各任应办之事从未认真经理虚有其表
+- id: guji-观保-event-2
+  person_id: guji-观保
+  type: career
+  title_zh: 国子监遗书案革任留尚书房
+  date: 1769-11-15
+  year_of: 1769
+  description_zh: 乾隆三十四年十月辛未国子监遗失书籍吏部议革任高宗以其自用以来毫无实际著革任仍在尚书房效力行走
+- id: guji-观保-event-death
+  person_id: guji-观保
+  type: death
+  title_zh: 观保去世
+  date: 1778
+  year_of: 1778
+  description_zh: 卒年未详革任后在尚书房效力行走不久去世
