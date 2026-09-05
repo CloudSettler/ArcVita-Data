@@ -1,0 +1,127 @@
+person:
+  qid: guji-平居诲
+  name_zh: 平居诲
+  names:
+    zh: 平居诲
+    en: Ping Juhui
+  lifespan:
+    birth:
+      date: ~0900
+      precision: year
+      is_circa: true
+      raw: 五代初约生
+    death:
+      date: ~0960
+      precision: year
+      is_circa: true
+      raw: 五代末约卒
+  birth_date: ~0900
+  death_date: ~0960
+  era: 五代后晋
+  reign_ref: 后晋高祖天福年间
+  archetype: 奉使西行的行记作者
+  dilemmas:
+  - 沙碛无水绝域远行与使命必达之间的两难
+  - 异俗传闻详实记录与简略复命之间的取舍
+  lesson: 绝域亦可仗信实记录通中国西陲之见闻
+  summary_first_person: 我是平居诲，五代晋臣，随使自灵州西行，经党项凉甘肃瓜沙，历大碛陷河，抵于阗觐圣天，观金册殿七凤楼及三玉河捞玉之法，以所历作于阗国行程记，传西域道里风物于中土。
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%8E%E9%98%97%E5%9B%BD%E8%A1%8C%E7%A8%8B%E8%AE%B0.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%8E%E9%98%97%E5%9B%BD%E8%A1%8C%E7%A8%8B%E8%AE%B0.html
+endeavors:
+- id: guji-平居诲-endeavor-1
+  title_zh: 奉晋命随匡邺西使于阗
+  summary: 随晋使自灵州渡黄河入党项，经凉甘肃瓜沙，越大碛陷河，至于阗慰谕仲云于阗。
+  phases:
+  - key: brewing
+    name: 灵州渡河入党项沙
+    labels:
+      zh: 启程酝酿
+    start_date: 0939
+    highlight_event_id: guji-平居诲-event-depart-lingzhou
+  - key: breakthrough
+    name: 越凉甘肃制木涩渡碛
+    labels:
+      zh: 突破险碛
+    start_date: 0939
+    highlight_event_id: guji-平居诲-event-depart-lingzhou
+  - key: climax
+    name: 历瓜沙阳关抵于阗
+    labels:
+      zh: 抵阗高潮
+    start_date: 0940
+    highlight_event_id: guji-平居诲-event-arrive-khotan
+  - key: closure
+    name: 觐圣天金册殿礼成
+    labels:
+      zh: 复命收束
+    start_date: 0940
+    highlight_event_id: guji-平居诲-event-arrive-khotan
+  decisions:
+  - date: 0939
+    title_zh: 随行西入党项沙碛
+    rationale: 明晋天子声威于远方，虽沙广无水亦载水以行
+  - date: 0940
+    title_zh: 渡陷河伐柽济师
+    rationale: 陷河不伐柽则陷，权宜置木于水乃得渡，以保使团全
+- id: guji-平居诲-endeavor-2
+  title_zh: 撰于阗国行程记传西域见闻
+  summary: 以亲历道里记鸣沙三危仲云风俗及圣天制度三玉河捞玉之法，成篇备史采。
+  phases:
+  - key: brewing
+    name: 沿途记道里部落牙帐
+    labels:
+      zh: 积累素材
+    start_date: 0939
+    highlight_event_id: guji-平居诲-event-depart-lingzhou
+  - key: breakthrough
+    name: 瓜沙于阗采风俗物产
+    labels:
+      zh: 采风突破
+    start_date: 0940
+    highlight_event_id: guji-平居诲-event-arrive-khotan
+  - key: climax
+    name: 系同庆捞玉成文
+    labels:
+      zh: 成文高潮
+    start_date: 0940
+    highlight_event_id: guji-平居诲-event-record-yuhe
+  - key: closure
+    name: 篇成传世备史馆采
+    labels:
+      zh: 传世收束
+    start_date: 0941
+    highlight_event_id: guji-平居诲-event-record-yuhe
+  decisions:
+  - date: 0940
+    title_zh: 详记白绿乌三玉河源流与官采禁法
+    rationale: 玉出昆山随地而变，官未采禁人至河滨，必详录以明利源
+  - date: 0941
+    title_zh: 以见闻成行程记
+    rationale: 道里鸣沙流沙三苗旧迹及圣天衣冠饮食，皆中土罕见，当据实传后
+events:
+- id: guji-平居诲-event-birth
+  title_zh: 出生于中原
+  date: ~0900
+  year_of: 900
+  description: 约生于五代初，长而习文史，从晋仕。
+- id: guji-平居诲-event-depart-lingzhou
+  title_zh: 自灵州涉沙西行
+  date: 0939
+  year_of: 939
+  description: 自灵州过黄河，涉细腰神点三公黑堡诸沙，经党项牙凉州甘州肃州，制马蹄木涩以行碛。
+- id: guji-平居诲-event-arrive-khotan
+  title_zh: 抵于阗觐圣天
+  date: 0940
+  year_of: 940
+  description: 经瓜沙仲云大屯城，渡陷河，历绀州安军州至于阗，见圣天同庆二十九年，金册殿东向，七凤楼蒲桃紫青酒，粳蜜粟酪之食。
+- id: guji-平居诲-event-record-yuhe
+  title_zh: 记三玉河捞玉之法成行程记
+  date: 0940
+  year_of: 940
+  description: 记玉河出昆山西流至牛头山分白玉绿玉乌玉三河，五六月水涨玉至，七八月水退官采而后民捞，成于阗国行程记。
+- id: guji-平居诲-event-death
+  title_zh: 逝世
+  date: ~0960
+  year_of: 960
+  description: 使还之后行记传世，约卒于五代末。
