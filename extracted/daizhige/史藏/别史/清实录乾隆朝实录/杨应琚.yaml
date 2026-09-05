@@ -6,157 +6,141 @@ person:
     en: Yang Yingju
   lifespan:
     birth:
-      raw: 生年未详
-      precision: unknown
-      is_circa: true
-    death:
-      date: '1768'
+      date: 1700
       precision: year
       is_circa: true
-      raw: 乾隆三十三年前后论罪死
-  death_date: '1768'
-  era: 清高宗乾隆朝
-  reign_ref: 乾隆三十二年三月
-  archetype: 欺饰贻误之封疆督臣
+      raw: 生年不详约康熙末奉天人
+    death:
+      date: 1767
+      precision: year
+      is_circa: false
+      raw: 乾隆三十二年以办理缅匪贻误获罪赐死
+  birth_date: 1700
+  death_date: 1767
+  era: 清代
+  reign_ref: 乾隆
+  archetype: 封疆贻误之边帅
   dilemmas:
-  - 直陈丧师失地则立获重谴还是粉饰捷报以徼幸居功
-  - 亲赴沿边督办已失事机还是坐镇永昌遥制诸将
-  - 严参畏葸总兵以明军法还是姑息回护以掩己调度之失
-  lesson: 封疆握兵当以诚实任事为本，调度失宜又饰词欺罔，终致丧师辱国而自罹重罪
-  summary_first_person: 我受恩督云贵，初以剿除莽匪为易，遂轻视缅夷，调赵宏榜往新街受降，及新街小挫又调度乖方，致贼窜盏达户腊撒陇川木邦诸处，我复以乞降杀贼万余饰奏，终为圣上烛破，革去大学士交部严议，负恩贻误，悔无及矣
+  - 粉饰边功以邀赏与据实奏败以待罪之抉择
+  - 仓促进剿以示奋勇与待饷练兵以持重之两难
+  - 回护属员以全体系与严参将领以明军律之冲突
+  lesson: 统军以诚为本欺饰一开则士气军律俱坏疆事不可为
+  summary_first_person: 我督云贵值缅匪滋事本当实心筹饷练兵一举致讨乃急于告捷粉饰欺隐至木邦溃退犹匿阵亡不报终致圣怒革拿以身殉误国之罪至今愧对捐躯将士
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70781.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70781.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0785.html
 endeavors:
 - id: guji-杨应琚-endeavor-1
-  person_qid: guji-杨应琚
-  title_zh: 永昌督办征缅军务
-  summary: 以云贵总督督办缅匪，自新街受降失事后分调李时升朱仑刘德成乌勒登额等进剿，因畏葸退避致贼深入内地，又以乞降斩获虚报，终致败露革职
+  person_id: guji-杨应琚
+  title_zh: 总督云贵经略缅边
+  summary_zh: 受命督滇黔筹边防缅调兵转饷初主进剿木邦新街一带
   phases:
   - key: brewing
-    name: 轻信受降新街骤失
+    name: 受命督滇筹边
     labels:
-      zh: 新街受降失事
-    start_date: 1766-10
-    highlight_event_id: guji-杨应琚-event-1766-xinjie
+      zh: 封疆筹边
+    start_date: 1763
+    highlight_event_id: guji-杨应琚-event-appoint
   - key: breakthrough
-    name: 永昌督师东西分剿
+    name: 奏报进剿缅匪
     labels:
-      zh: 楞木盏达分路调度
-    start_date: 1766-11
-    highlight_event_id: guji-杨应琚-event-1766-lengmu
+      zh: 开边进剿
+    start_date: 1765
+    highlight_event_id: guji-杨应琚-event-mubang
   - key: climax
-    name: 贼窜内地饰词乞降
+    name: 木邦用兵失利
     labels:
-      zh: 底麻渡江虚报乞降
-    start_date: 1767-01
-    highlight_event_id: guji-杨应琚-event-1767-qijiang
+      zh: 丧师溃退
+    start_date: 1766-12-01
+    highlight_event_id: guji-杨应琚-event-mubang
   - key: closure
-    name: 烛伪败露革职问罪
+    name: 退保龙陵待援
     labels:
-      zh: 革大学士交部严议
-    start_date: 1767-03
-    highlight_event_id: guji-杨应琚-event-1767-gezhi
+      zh: 力绌退守
+    start_date: 1767-03-01
+    highlight_event_id: guji-杨应琚-event-mubang
   decisions:
-  - date: 1766-10
-    title_zh: 调赵宏榜先往新街受降
-    rationale: 误信蛮暮投诚机有可乘，欲速定以居功，致轻进失据
-  - date: 1766-11
-    title_zh: 调刘德成至盏达而令朱仑自西尾追
-    rationale: 东西更调舍近就远，漫无定见，欲分路堵截却致避贼 عرض
-  - date: 1767-01
-    title_zh: 以缅酋乞降求赏新附之地入奏
-    rationale: 欲将就了事掩饰丧师失地，冀朝廷允罢兵以卸责
+  - date: 1765-10-01
+    title_zh: 轻进木邦分路攻缅
+    rationale: 欲速奏肤功以邀恩赏未顾瘴地粮运艰难绿营无纪律
+  - date: 1766-11-01
+    title_zh: 匿败饰胜催兵续进
+    rationale: 恐罪责加身故粉饰捷报希图掩盖以拖待变
 - id: guji-杨应琚-endeavor-2
-  person_qid: guji-杨应琚
-  title_zh: 奏改肃哈军台由沙州行走
-  summary: 任陕甘总督时以沙州水草丰裕挽运便易请改安西旧台由沙州行走，历年报节省银两，后经明瑞面奏不便而被敕查
+  person_id: guji-杨应琚
+  title_zh: 欺饰获罪身败军纪坏
+  summary_zh: 溃败后隐匿阵亡亏饷鄂宁参其欺饰乖张乾隆震怒革职拿问
   phases:
   - key: brewing
-    name: 陈奏沙州便易请改
+    name: 隐匿阵亡亏饷
     labels:
-      zh: 请改沙州新路
-    start_date: '1763'
-    highlight_event_id: guji-杨应琚-event-1763-shazhou
+      zh: 欺隐军情
+    start_date: 1767-01-01
+    highlight_event_id: guji-杨应琚-event-conceal
   - key: breakthrough
-    name: 改道通行岁报节省
+    name: 鄂宁参奏乖谬
     labels:
-      zh: 岁报节省银两
-    start_date: '1763'
-    highlight_event_id: guji-杨应琚-event-1763-shazhou
+      zh: 东窗事发
+    start_date: 1767-05-10
+    highlight_event_id: guji-杨应琚-event-impeach
   - key: climax
-    name: 明瑞面奏新路辽远
+    name: 圣谕斥昧天良
     labels:
-      zh: 程站辽远水泉性劣
-    start_date: 1767-03
-    highlight_event_id: guji-杨应琚-event-1767-juntai
+      zh: 圣怒革拿
+    start_date: 1767-05-15
+    highlight_event_id: guji-杨应琚-event-impeach
   - key: closure
-    name: 敕查节省银两归着
+    name: 革职治罪赐死
     labels:
-      zh: 查明开销与两路优劣
-    start_date: 1767-03
-    highlight_event_id: guji-杨应琚-event-1767-juntai
+      zh: 身死误国
+    start_date: 1767-11-01
+    highlight_event_id: guji-杨应琚-event-death
   decisions:
-  - date: '1763'
-    title_zh: 请改肃哈军台由安西改行沙州
-    rationale: 谓沙州水草丰裕挽运便易运费脚价多节省，欲兴利节费
-  - date: '1763'
-    title_zh: 历年奏报节省银四五万两
-    rationale: 以经费项下减发之数作节省奏报，以示改道之效
+  - date: 1767-02-01
+    title_zh: 以受伤身故申报班第江纪
+    rationale: 不作阵亡以避恤赏稽查畏人言丧败之实
+  - date: 1767-04-01
+    title_zh: 咨商李时升回护前非
+    rationale: 彼此推诿希图上下弥缝延续督任
 events:
 - id: guji-杨应琚-event-birth
-  person_qid: guji-杨应琚
-  title_zh: 出生
-  date: '1700'
+  person_id: guji-杨应琚
+  title_zh: 出生奉天
+  date: 1700
   year_of: 1700
-  description: 生年未详，家世履历不见本卷，暂系约康熙末年， is_circa 为真
-  is_circa: true
-- id: guji-杨应琚-event-1763-shazhou
-  person_qid: guji-杨应琚
-  title_zh: 奏改肃哈军台由沙州行走
-  date: '1763'
+  place_zh: 奉天
+  description_zh: 生年不详约康熙末出身奉天历任封疆
+- id: guji-杨应琚-event-appoint
+  person_id: guji-杨应琚
+  title_zh: 任云贵总督经略滇边
+  date: 1763
   year_of: 1763
-  description: 自乾隆二十八年改由沙州行走，岁报节省银四五万两，后被指程站辽远水泉性劣
-  is_circa: false
-- id: guji-杨应琚-event-1766-xinjie
-  person_qid: guji-杨应琚
-  title_zh: 新街失事赵宏榜退回铁壁关
-  date: 1766-10
-  year_of: 1766
-  description: 先调兵三千六百名令赵宏榜往新街受降，行至漾濞闻新街已失，赵宏榜逃回铁壁关，新附地方弃而不守
-  is_circa: true
-- id: guji-杨应琚-event-1766-lengmu
-  person_qid: guji-杨应琚
-  title_zh: 楞木接仗后贼窜永顺盏达
-  date: 1766-11
-  year_of: 1766
-  description: 十一月十八日官兵抵楞木与缅匪接仗，缅匪由万仞关小路窜入永顺焚盏达及户腊撒，复冲散铜壁官兵，马成龙阵亡
-  is_circa: true
-- id: guji-杨应琚-event-1767-qijiang
-  person_qid: guji-杨应琚
-  title_zh: 底麻渡江失截虚报乞降斩获
-  date: 1767-01
+  place_zh: 云南昆明
+  description_zh: 授云贵总督值缅酋滋事主持边外进剿粮运调度
+- id: guji-杨应琚-event-mubang
+  person_id: guji-杨应琚
+  title_zh: 木邦打仗溃退龙陵
+  date: 1767-05-10
   year_of: 1767
-  description: 正月初旬贼由底麻渡江宛顶官兵未能截杀遂据木邦，又误听投诚之诈未经环击，节次虚报杀贼万余及缅酋乞降
-  is_circa: true
-- id: guji-杨应琚-event-1767-gezhi
-  person_qid: guji-杨应琚
-  title_zh: 革去大学士交部严加议处
-  date: 1767-03
+  place_zh: 木邦龙陵
+  description_zh: 扬宁等抵营半月因无纪律缺军粮直前打仗退保龙陵火药自轰遗失军装
+- id: guji-杨应琚-event-conceal
+  person_id: guji-杨应琚
+  title_zh: 匿报班第江纪阵亡
+  date: 1767-05-12
   year_of: 1767
-  description: 乾隆三十二年三月以调度乖方欺饰错谬革去大学士交部严议，并将刘德成乌勒登额革职拿问，福灵安查奏虚妄底里毕露
-  is_circa: false
-- id: guji-杨应琚-event-1767-juntai
-  person_qid: guji-杨应琚
-  title_zh: 明瑞奏沙州不便敕查节省银两
-  date: 1767-03
+  place_zh: 云南军营
+  description_zh: 游击班第守备江纪不知下落不查明具奏遽谓止可作受伤身故不作阵亡
+- id: guji-杨应琚-event-impeach
+  person_id: guji-杨应琚
+  title_zh: 鄂宁参其欺饰圣谕查恤
+  date: 1767-05-15
   year_of: 1767
-  description: 明瑞面奏沙州名为近便实程站辽远水泉性劣，敕吴达善详查历年节省银十七万七千余两归着及安西沙州两路优劣
-  is_circa: false
+  place_zh: 北京圆明园
+  description_zh: 鄂宁奏其挟诈乖张乾隆斥昧天良命明瑞鄂宁详查历次阵亡官弁兵丁奏请恤赏并查迷失染瘴身故者
 - id: guji-杨应琚-event-death
-  person_qid: guji-杨应琚
-  title_zh: 获罪死
-  date: '1768'
-  year_of: 1768
-  description: 征缅欺罔罪定，交刑部治罪后论死，终负委任恩眷
-  is_circa: true
+  person_id: guji-杨应琚
+  title_zh: 以贻误缅事获罪死
+  date: 1767
+  year_of: 1767
+  place_zh: 云南
+  description_zh: 缅匪未靖而提镇退却欺朦军中功罪置膜外事败革职拿问赐死以正军律
