@@ -1,0 +1,127 @@
+person:
+  qid: guji-朱全忠
+  name_zh: 朱全忠
+  names:
+    zh: 朱全忠
+    en: Zhu Quanzhong
+  lifespan:
+    birth:
+      date: '0852-12-05'
+      precision: day
+      is_circa: true
+      raw: 唐大中六年汴州砀山
+    death:
+      date: '0912-07-18'
+      precision: day
+      is_circa: false
+      raw: 后梁乾化二年六月洛阳
+  birth_date: '0852-12-05'
+  death_date: '0912-07-18'
+  era: 五代后梁
+  reign_ref: 梁太祖开平元年至乾化二年
+  archetype: 乱世创业雄主
+  dilemmas:
+  - 严刑峻法立威与健儿窜匿离心之两难
+  - 由贼而官再篡唐祚所致名分猜忌之两难
+  lesson: 威福并用顺时而动严法立军谶运收心方可由弱转强以成大业
+  summary_first_person: 吾本汴人初为黄巢先锋后降王铎授同州复移镇宣武以讨秦宗权遂平淮蔡而威福由己终代唐有天下世传五公符八牛之年吾以拔队斩文面立军故战无不胜也
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A1%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E4%BA%94%E4%BB%A3%E5%8F%B2%E8%A1%A5.md
+endeavors:
+- id: guji-朱全忠-endeavor-1
+  title_zh: 归唐据汴平定淮蔡
+  summary: 由巢将而降唐授同州宣武讨灭秦宗权遂据汴握强兵
+  phases:
+  - key: brewing
+    name: 从巢陷长安
+    labels:
+      zh: 潜伏观变
+    start_date: '0880-01-01'
+    highlight_event_id: guji-朱全忠-event-surrender
+  - key: breakthrough
+    name: 降铎授宣武
+    labels:
+      zh: 改图立功
+    start_date: '0882-01-01'
+    highlight_event_id: guji-朱全忠-event-surrender
+  - key: climax
+    name: 灭宗权震淮蔡
+    labels:
+      zh: 席卷中原
+    start_date: '0884-01-01'
+    highlight_event_id: guji-朱全忠-event-pingcai
+  - key: closure
+    name: 威福由己据汴
+    labels:
+      zh: 独制一方
+    start_date: '0887-01-01'
+    highlight_event_id: guji-朱全忠-event-pingcai
+  decisions:
+  - date: '0882-01-01'
+    title_zh: 以同州降王铎归唐
+    rationale: 度黄巢难久据长安不如乘围同州之机归顺以得名分与地盘
+  - date: '0884-01-01'
+    title_zh: 受命讨秦宗权专力向东
+    rationale: 淮蔡与汴相接必先平宗权方可独擅中原而制朝廷
+- id: guji-朱全忠-endeavor-2
+  title_zh: 严军立法应谶代唐
+  summary: 立拔队斩文面健儿以强兵借八牛之谶以收人心终篡唐建梁
+  phases:
+  - key: brewing
+    name: 严法立军威
+    labels:
+      zh: 整军蓄势
+    start_date: '0888-01-01'
+    highlight_event_id: guji-朱全忠-event-pingcai
+  - key: breakthrough
+    name: 文面止窜匿
+    labels:
+      zh: 固本强兵
+    start_date: '0890-01-01'
+    highlight_event_id: guji-朱全忠-event-foundliang
+  - key: climax
+    name: 五公符应八牛
+    labels:
+      zh: 天命所归
+    start_date: '0904-01-01'
+    highlight_event_id: guji-朱全忠-event-foundliang
+  - key: closure
+    name: 篡唐建后梁
+    labels:
+      zh: 鼎革开国
+    start_date: '0907-06-01'
+    highlight_event_id: guji-朱全忠-event-foundliang
+  decisions:
+  - date: '0890-01-01'
+    title_zh: 行拔队斩并文面健儿
+    rationale: 战而不返即斩余部以绝退心文面以止窜匿虽苛而能胜
+  - date: '0907-06-01'
+    title_zh: 应八牛谶代唐称帝
+    rationale: 朝廷已不能制藩镇人心思定借谶言以正名分遂有天下
+events:
+- id: guji-朱全忠-event-birth
+  title_zh: 出生于砀山
+  date: '0852-12-05'
+  year_of: 852
+  description: 唐大中六年生于汴州砀山少从军旅后为黄巢先锋
+- id: guji-朱全忠-event-surrender
+  title_zh: 降王铎授宣武
+  date: '0882-01-01'
+  year_of: 882
+  description: 黄巢入长安后以王铎围同州遂降承制拜同州刺史复移授宣武军节度使
+- id: guji-朱全忠-event-pingcai
+  title_zh: 灭秦宗权据汴
+  date: '0887-01-01'
+  year_of: 887
+  description: 奉诏讨淮蔡间秦宗权未几灭之自是威福由己朝廷不能制
+- id: guji-朱全忠-event-foundliang
+  title_zh: 应八牛谶建后梁
+  date: '0907-06-01'
+  year_of: 907
+  description: 民间传五公符李淳风转天歌有八牛之年识者谓朱字遂代唐有天下
+- id: guji-朱全忠-event-death
+  title_zh: 殂于洛阳
+  date: '0912-07-18'
+  year_of: 912
+  description: 后梁乾化二年六月殂在位六年庙号太祖
