@@ -1,0 +1,128 @@
+person:
+  qid: guji-诸葛亮
+  name_zh: 诸葛亮
+  names:
+    zh: 诸葛亮
+    en: Zhuge Liang
+  lifespan:
+    birth:
+      date: 0181
+      precision: year
+      is_circa: false
+      raw: 光和四年
+    death:
+      date: '0234'
+      precision: year
+      is_circa: false
+      raw: 建兴十二年
+  birth_date: 0181
+  death_date: '0234'
+  era: 汉末三国
+  reign_ref: 蜀汉建兴
+  archetype: 智谋之臣
+  dilemmas:
+  - title_zh: 隐逸养志与出仕济世
+    description: 隆中躬耕可保身全志，出山辅刘则身系兴亡，未决去就
+  - title_zh: 乐山清寄与尘世事功
+    description: 登西山临水鼓琴吟梁父之乐，与鞠躬尽瘁之劳苦相权衡
+  lesson: 守志隆中以养才，待时而动以济世，清乐不忘忧患
+  summary_first_person: 吾本隆中布衣，宅有旧井堂前高基以为避暑，宅西有山临水，吾常登之鼓琴歌梁父以寄怀，后遇明主乃出山尽瘁
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E9%9B%8D%E5%B7%9E%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%8D%97%E9%9B%8D%E5%B7%9E%E8%AE%B0.md
+endeavors:
+- id: guji-诸葛亮-endeavor-1
+  title_zh: 隆中隐居养志
+  summary: 居隆中故宅，守旧井高台，登乐山鼓琴吟梁父，躬耕待时
+  phases:
+  - key: brewing
+    name: 结庐隆中
+    labels:
+      zh: 躬耕
+    start_date: 0197
+    highlight_event_id: guji-诸葛亮-event-longzhong
+  - key: breakthrough
+    name: 登山寄调
+    labels:
+      zh: 鼓琴
+    start_date: '0200'
+    highlight_event_id: guji-诸葛亮-event-longzhong
+  - key: climax
+    name: 声名远播
+    labels:
+      zh: 待时
+    start_date: '0205'
+    highlight_event_id: guji-诸葛亮-event-chushi
+  - key: closure
+    name: 决意出山
+    labels:
+      zh: 出仕
+    start_date: '0207'
+    highlight_event_id: guji-诸葛亮-event-chushi
+  decisions:
+  - date: 0197
+    title_zh: 居隆中故宅
+    rationale: 避乱养志，守井台高洁之地以观时变
+  - date: '0200'
+    title_zh: 登乐山鼓琴为梁父吟
+    rationale: 借山水琴声抒怀自明，不苟合于流俗
+- id: guji-诸葛亮-endeavor-2
+  title_zh: 出山辅汉建功
+  summary: 应刘备三顾出隆中，谋蜀定鼎，鞠躬尽瘁，宅铭传后
+  phases:
+  - key: brewing
+    name: 三顾相应
+    labels:
+      zh: 知遇
+    start_date: '0207'
+    highlight_event_id: guji-诸葛亮-event-chushi
+  - key: breakthrough
+    name: 策定三分
+    labels:
+      zh: 谋国
+    start_date: 0208
+    highlight_event_id: guji-诸葛亮-event-chushi
+  - key: climax
+    name: 治蜀北伐
+    labels:
+      zh: 尽瘁
+    start_date: '0223'
+    highlight_event_id: guji-诸葛亮-event-death
+  - key: closure
+    name: 宅铭传远
+    labels:
+      zh: 遗迹
+    start_date: '0234'
+    highlight_event_id: guji-诸葛亮-event-death
+  decisions:
+  - date: '0207'
+    title_zh: 许先帝以驱驰
+    rationale: 感知遇之恩，以才济汉室倾颓
+  - date: '0223'
+    title_zh: 托孤尽瘁不避劳
+    rationale: 受遗诏而守臣节，虽宅成遗迹亦不改忠贞
+events:
+- id: guji-诸葛亮-event-birth
+  title_zh: 诞生琅邪
+  date: 0181
+  year_of: 181
+  place_zh: 琅邪阳都
+  description: 汉光和四年诞生，后寓居荆州隆中
+- id: guji-诸葛亮-event-longzhong
+  title_zh: 隆中故宅鼓琴
+  date: '0200'
+  year_of: 200
+  place_zh: 隆中
+  description: 故宅有旧井深五丈广五尺，堂前三间高基为避暑台，宅西山临水，常登之鼓琴为梁父吟，遂名乐山
+- id: guji-诸葛亮-event-chushi
+  title_zh: 三顾出山
+  date: '0207'
+  year_of: 207
+  place_zh: 隆中
+  description: 刘备三顾茅庐，离隆中故宅而谋天下三分
+- id: guji-诸葛亮-event-death
+  title_zh: 殒于五丈原
+  date: '0234'
+  year_of: 234
+  place_zh: 五丈原
+  description: 建兴十二年卒于军中，后世宅荒井涸，齐建武修井得石枕，习凿齿为宅铭以传

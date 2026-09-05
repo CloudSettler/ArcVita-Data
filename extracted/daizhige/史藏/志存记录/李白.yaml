@@ -1,0 +1,99 @@
+person:
+  qid: guji-李白
+  name_zh: 李白
+  names:
+    zh: 李白
+    en: Li Bai
+  lifespan:
+    birth:
+      date: '0701'
+      precision: year
+      is_circa: false
+      raw: 大足元年
+    death:
+      date: '0762'
+      precision: year
+      is_circa: false
+      raw: 宝应元年
+  birth_date: '0701'
+  death_date: '0762'
+  era: 唐
+  reign_ref: 唐玄宗天宝
+  archetype: 放逸诗仙
+  dilemmas:
+  - 求仙隐逸与济世致君之两难
+  - 傲岸直率与翰林容身之两难
+  lesson: 才高守逸不恋阙以诗酒全节垂名不朽
+  summary_first_person: 吾山东任城人也少与鲁诸生隐徂徕山号竹溪六逸天宝中经会稽隐剡中因吴筠荐待诏翰林寄怀诗酒而已
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/南部新书.html
+endeavors:
+- id: guji-李白-endeavor-1
+  title_zh: 徂徕隐逸
+  summary_zh: 少隐徂徕山与鲁诸生号竹溪六逸养望自高
+  phases:
+  - key: brewing
+    name: 鲁地潜修
+    labels:
+      zh:
+      - 隐逸
+    start_date: '0715'
+    highlight_event_id: guji-李白-event-zhuxi
+  - key: breakthrough
+    name: 竹溪成名
+    labels:
+      zh:
+      - 结社
+    start_date: '0725'
+    highlight_event_id: guji-李白-event-zhuxi
+  decisions:
+  - date: '0720'
+    title_zh: 隐徂徕山不就州县
+    rationale: 养高待时以逸致远不为俗吏
+- id: guji-李白-endeavor-2
+  title_zh: 翰林待诏
+  summary_zh: 天宝中游会稽隐剡中因吴筠荐赴阙待诏翰林
+  phases:
+  - key: brewing
+    name: 会稽剡隐
+    labels:
+      zh:
+      - 交游
+    start_date: '0741'
+    highlight_event_id: guji-李白-event-hanlin
+  - key: climax
+    name: 待诏翰林
+    labels:
+      zh:
+      - 供奉
+    start_date: '0742'
+    highlight_event_id: guji-李白-event-hanlin
+  decisions:
+  - date: '0742'
+    title_zh: 应吴筠荐赴阙待诏
+    rationale: 欲以文章致君展平生之志
+events:
+- id: guji-李白-event-birth
+  type: birth
+  date: '0701'
+  year_of: 701
+  title_zh: 李白生
+  description: 山东人父任城尉因家焉
+- id: guji-李白-event-zhuxi
+  type: career
+  date: '0720'
+  year_of: 720
+  title_zh: 隐徂徕号竹溪六逸
+  description: 少与鲁人诸生隐徂徕山号竹溪六逸
+- id: guji-李白-event-hanlin
+  type: career
+  date: '0742'
+  year_of: 742
+  title_zh: 待诏翰林
+  description: 天宝中游会稽与吴筠隐剡中筠征赴阙荐之俱待诏翰林
+- id: guji-李白-event-death
+  type: death
+  date: '0762'
+  year_of: 762
+  title_zh: 李白卒
+  description: 宝应元年卒于当涂

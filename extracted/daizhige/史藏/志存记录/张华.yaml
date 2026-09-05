@@ -1,0 +1,126 @@
+person:
+  qid: guji-张华
+  name_zh: 张华
+  names:
+    zh: 张华
+    en: Zhang Hua
+  lifespan:
+    birth:
+      date: '0232'
+      precision: year
+      is_circa: false
+      raw: 魏太和六年
+    death:
+      date: '0300-05-01'
+      precision: month
+      is_circa: false
+      raw: 晋永康元年四月被害
+  birth_date: '0232'
+  death_date: '0300-05-01'
+  era: 西晋
+  reign_ref: 晋武帝至晋惠帝
+  archetype: 博闻多识之臣
+  dilemmas:
+  - 博采异闻求广与传闻难辨真伪
+  - 忠直辅政守正与宗室擅权相逼
+  lesson: 博观约取以通物性，守正不阿以全大节
+  summary_first_person: 余少好书博览图籍，视山海经禹贡尔雅虽备各有不载，故作略说陈山川位象远方异闻以补其阙
+  source_urls:
+  - https://zh.wikisource.org/wiki/博物志
+  - https://daizhige.org/史藏/志存记录/博物志.html
+endeavors:
+- id: guji-张华-endeavor-1
+  title_zh: 编纂博物志
+  summary_zh: 补山海诸书之阙，集地理人物物产异闻为十卷
+  phases:
+  - key: brewing
+    name: 博览群籍
+    labels:
+      zh: 酝酿
+    start_date: '0260'
+    highlight_event_id: guji-张华-event-fawu
+  - key: breakthrough
+    name: 居中书省览四部典籍
+    labels:
+      zh: 突破
+    start_date: 0280
+    highlight_event_id: guji-张华-event-bowuzhi
+  - key: climax
+    name: 博物志十卷成书
+    labels:
+      zh: 高潮
+    start_date: 0290
+    highlight_event_id: guji-张华-event-bowuzhi
+  - key: closure
+    name: 博物体传流后世
+    labels:
+      zh: 收束
+    start_date: 0295
+    highlight_event_id: guji-张华-event-death
+  decisions:
+  - date: 0290
+    title_zh: 视山海经禹贡而作略说
+    rationale: 诸书虽备各有所不载，故出所不见以供博物之士览鉴
+  - date: 0292
+    title_zh: 分卷系以地理异俗物性方术
+    rationale: 以地理略为纲，次外国异人异产异兽草木物理史补，使远近有征
+- id: guji-张华-endeavor-2
+  title_zh: 历仕辅政经国
+  summary_zh: 自曹魏入晋佐武帝定吴，位至司空终不附赵王伦
+  phases:
+  - key: brewing
+    name: 范阳才名入仕
+    labels:
+      zh: 酝酿
+    start_date: '0264'
+    highlight_event_id: guji-张华-event-birth
+  - key: breakthrough
+    name: 赞画伐吴一统
+    labels:
+      zh: 突破
+    start_date: 0279
+    highlight_event_id: guji-张华-event-fawu
+  - key: climax
+    name: 位至司空封壮武公
+    labels:
+      zh: 高潮
+    start_date: 0290
+    highlight_event_id: guji-张华-event-bowuzhi
+  - key: closure
+    name: 八王乱中守节被害
+    labels:
+      zh: 收束
+    start_date: '0300'
+    highlight_event_id: guji-张华-event-death
+  decisions:
+  - date: 0279
+    title_zh: 初谏缓伐吴后力赞伐吴
+    rationale: 度吴政衰可取，虑国力未充则谏，见时机已至则赞，以求一统天下
+  - date: '0300'
+    title_zh: 拒附赵王伦谋废贾后
+    rationale: 以大臣守义不与宗室废立阴谋，宁以身殉职守
+events:
+- id: guji-张华-event-birth
+  date: '0232'
+  year_of: 232
+  title_zh: 生于范阳方城
+  description_zh: 魏太和六年生，少孤贫而好学，博览图籍
+  type: birth
+- id: guji-张华-event-fawu
+  date: 0279
+  year_of: 279
+  title_zh: 赞成晋武帝伐吴
+  description_zh: 咸宁五年力赞伐吴之议，晋遂灭吴统一南北
+  type: career
+- id: guji-张华-event-bowuzhi
+  date: 0290
+  year_of: 290
+  title_zh: 博物志成书
+  description_zh: 集历代典籍异闻成博物志十卷，自序言作略说以补所不见
+  type: career
+- id: guji-张华-event-death
+  date: '0300-05-01'
+  year_of: 300
+  title_zh: 八王之乱被害于洛阳
+  description_zh: 永康元年赵王伦举兵，不附其谋，被杀夷三族
+  type: death

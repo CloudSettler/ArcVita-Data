@@ -1,0 +1,152 @@
+person:
+  qid: guji-王昌齡
+  name_zh: 王昌齡
+  names:
+    zh: 王昌齡
+    en: Wang Changling
+  lifespan:
+    birth:
+      date: 0698
+      precision: year
+      is_circa: true
+      raw: 唐長安二年左右生於太原
+    death:
+      date: '0757'
+      precision: year
+      is_circa: true
+      raw: 唐至德二載遇害於亳州
+  birth_date: 0698
+  death_date: '0757'
+  era: 唐
+  reign_ref: 開元
+  archetype: 邊塞詩人
+  dilemmas:
+  - 貴賤皆謁廟祈水與直道不行之衡
+  - 誠敬事神與誤將金錯刀送廟之失
+  lesson: 誠敬所感神明昭然剖鯉還刀以顯報應
+  summary_first_person: 吾自吳抵京過馬當山以酒脯紙馬草履及詩禱大王誤以金錯刀子送廟後行數里剖赤鯉得刀乃知鬼神之情昭然
+  source_urls:
+  - https://daizhige.org/史藏/志存记录/博异志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/博异志.md
+endeavors:
+- id: guji-王昌齡-endeavor-1
+  title_zh: 吳中修詞進士及第宦遊
+  summary: 自吳修詞登進士第歷任校書郎汜水尉以邊塞詩名世
+  phases:
+  - key: brewing
+    name: 吳中修詞積學
+    labels:
+      zh:
+      - 積學
+    start_date: '0712'
+    highlight_event_id: guji-王昌齡-event-study
+  - key: breakthrough
+    name: 登進士第入仕
+    labels:
+      zh:
+      - 登第
+    start_date: '0727'
+    highlight_event_id: guji-王昌齡-event-jinshi
+  - key: climax
+    name: 邊塞宦遊詩名大振
+    labels:
+      zh:
+      - 宦遊
+    start_date: '0735'
+    highlight_event_id: guji-王昌齡-event-pray
+  - key: closure
+    name: 貶謫龍標歸遇難
+    labels:
+      zh:
+      - 貶謫
+    start_date: '0756'
+    highlight_event_id: guji-王昌齡-event-death
+  decisions:
+  - date: '0727'
+    title_zh: 登第西入長安求仕
+    rationale: 以詞賦取功名由吳入京謀出路
+  - date: '0735'
+    title_zh: 出塞入幕觀邊事
+    rationale: 欲以軍功邊塞之作自立於詩壇仕途
+- id: guji-王昌齡-endeavor-2
+  title_zh: 馬當山禱神剖鯉顯應
+  summary: 開元中舟過馬當山遣使禱大王誤送金錯刀後剖鯉得之悟神明有應
+  phases:
+  - key: brewing
+    name: 舟行至馬當備禮
+    labels:
+      zh:
+      - 備禮
+    start_date: '0732'
+    highlight_event_id: guji-王昌齡-event-pray
+  - key: breakthrough
+    name: 以詩酒脯草履禱廟
+    labels:
+      zh:
+      - 祈風
+    start_date: '0732'
+    highlight_event_id: guji-王昌齡-event-pray
+  - key: climax
+    name: 誤送金錯刀而不覺
+    labels:
+      zh:
+      - 誤送
+    start_date: '0732'
+    highlight_event_id: guji-王昌齡-event-pray
+  - key: closure
+    name: 剖赤鯉得刀悟神應
+    labels:
+      zh:
+      - 顯應
+    start_date: '0732'
+    highlight_event_id: guji-王昌齡-event-carp
+  decisions:
+  - date: '0732'
+    title_zh: 不下船而遣使禱神
+    rationale: 風便不可駐先具酒脯紙馬以盡敬祈水安
+  - date: '0732'
+    title_zh: 以草履詩章獻大王夫人
+    rationale: 從舟人俗寄履表誠兼以詩明直為猛風驟行之意
+events:
+- id: guji-王昌齡-event-birth
+  type: birth
+  title_zh: 生於太原
+  date: 0698
+  year_of: 698
+  place: 太原
+  summary: 唐長安二年左右生系出琅琊後家太原
+- id: guji-王昌齡-event-study
+  type: career
+  title_zh: 吳中修詞攻詩
+  date: '0720'
+  year_of: 720
+  place: 吳地
+  summary: 自吳攻文修詞為進士舉業奠基
+- id: guji-王昌齡-event-jinshi
+  type: career
+  title_zh: 登進士第
+  date: '0727'
+  year_of: 727
+  place: 長安
+  summary: 開元十五年登進士第授校書郎後補汜水尉
+- id: guji-王昌齡-event-pray
+  type: career
+  title_zh: 馬當山遣使禱大王
+  date: '0732'
+  year_of: 732
+  place: 馬當山大王廟
+  summary: 開元中自吳抵京至馬當山命使以酒脯紙馬草履一量及詩禱大王誤以金錯刀子貯履中送廟
+- id: guji-王昌齡-event-carp
+  type: career
+  title_zh: 剖赤鯉得金錯刀子
+  date: '0732'
+  year_of: 732
+  place: 馬當山前程舟中
+  summary: 行數里有赤鯉三尺躍入舟剖腹得所誤送廟中金錯刀子歎鬼神之情昭然如剖鯉得素書故事
+- id: guji-王昌齡-event-death
+  type: death
+  title_zh: 遇害於亳州
+  date: '0757'
+  year_of: 757
+  place: 亳州
+  summary: 安史亂起歸鄉至亳州為刺史閭丘曉所殺
