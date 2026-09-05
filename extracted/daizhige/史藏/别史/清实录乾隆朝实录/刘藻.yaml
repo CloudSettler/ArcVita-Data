@@ -1,0 +1,130 @@
+person:
+  qid: guji-刘藻
+  name_zh: 刘藻
+  names:
+    zh: 刘藻
+    en: Liu Zao
+  lifespan:
+    birth:
+      date: 1704-01-01
+      precision: year
+      is_circa: true
+      raw: 雍正五年进士推约生于康熙末年山东
+    death:
+      date: 1766-04-11
+      precision: day
+      is_circa: true
+      raw: 乾隆三十一年三月初三日夜自刎于普洱军营
+  birth_date: 1704-01-01
+  death_date: 1766-04-11
+  era: 清乾隆朝
+  reign_ref: 乾隆三十一年丙戌
+  archetype: 书生督师悲剧型
+  dilemmas:
+  - 以书生不娴军旅而膺封疆督师之任进退失据
+  - 屡蒙宽典当奋勉图报与调度乖舛惧罪之煎熬
+  lesson: 书生督师当自知短长临大事不可轻生逃法当静候成命以明君臣大义
+  summary_first_person: 吾本山东书生以科第入仕蒙恩督抚云贵莽匪猖獗吾调度失宜忽调忽彻复于审理何琼诏案乖舛定罪获革留营效力正当官军克复猛笼猛遮乘胜进剿之际吾竟于三月初三夜自戕以致有负始终矜全之恩至今思之荒唐可诧愿后人临军旅大事断不可效匹夫之见
+  source_urls:
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0757.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0757.md
+endeavors:
+- id: guji-刘藻-endeavor-1
+  person_qid: guji-刘藻
+  title_zh: 督办普洱思茅一路剿莽军务
+  phases:
+  - key: brewing
+    name: 受命督师云贵
+    labels:
+      zh: 受命督师
+    start_date: 1765-06-01
+    highlight_event_id: guji-刘藻-event-1
+  - key: breakthrough
+    name: 进兵思茅普洱
+    labels:
+      zh: 进兵调度
+    start_date: 1765-10-01
+    highlight_event_id: guji-刘藻-event-1
+  - key: climax
+    name: 官兵忽调忽彻失纪
+    labels:
+      zh: 调度失纪
+    start_date: 1766-01-01
+    highlight_event_id: guji-刘藻-event-2
+  - key: closure
+    name: 革职留营效力
+    labels:
+      zh: 革职留营
+    start_date: 1766-02-01
+    highlight_event_id: guji-刘藻-event-2
+  decisions:
+  - date: 1765-10-01
+    title_zh: 令附近土练先往堵剿
+    rationale: 以书生不娴军旅含糊其事欲以土练塞责遂致贼益猖獗
+  - date: 1766-01-15
+    title_zh: 官兵忽调忽彻
+    rationale: 进止无纪律调度未协致失事机终致获谴革职
+- id: guji-刘藻-endeavor-2
+  person_qid: guji-刘藻
+  title_zh: 审理何琼诏失律案与恭缴朱批
+  phases:
+  - key: brewing
+    name: 何琼诏失律脱逃
+    labels:
+      zh: 失律脱逃
+    start_date: 1765-12-01
+    highlight_event_id: guji-刘藻-event-2
+  - key: breakthrough
+    name: 以冒昧轻进定罪
+    labels:
+      zh: 乖舛定罪
+    start_date: 1766-02-01
+    highlight_event_id: guji-刘藻-event-2
+  - key: climax
+    name: 降旨革职严加训饬
+    labels:
+      zh: 革职训饬
+    start_date: 1766-03-01
+    highlight_event_id: guji-刘藻-event-2
+  - key: closure
+    name: 自刎前恭缴朱批廷寄
+    labels:
+      zh: 恭缴自戕
+    start_date: 1766-04-11
+    highlight_event_id: guji-刘藻-event-death
+  decisions:
+  - date: 1766-02-01
+    title_zh: 失律者反坐轻进之罪
+    rationale: 未明军律乖舛已极自谓从宽实则蔑法终被部驳
+  - date: 1766-04-11
+    title_zh: 无端自戕恭缴朱批
+    rationale: 正当猛笼猛混克复乘胜捣穴之时不候成命豫办一死以逃法网
+events:
+- id: guji-刘藻-event-birth
+  person_qid: guji-刘藻
+  type: birth
+  date: 1704-01-01
+  year_of: 1704
+  title_zh: 生于山东菏泽
+  description_zh: 雍正五年进士出身由部郎外任渐膺封疆
+- id: guji-刘藻-event-1
+  person_qid: guji-刘藻
+  type: career
+  date: 1765-10-01
+  year_of: 1765
+  title_zh: 调补云贵总督办理莽匪
+  description_zh: 莽子分两路潜入孟艮猛遮一带刘藻仅令附近土练前往以致贼益猖獗请由思茅退回普洱
+- id: guji-刘藻-event-2
+  person_qid: guji-刘藻
+  type: career
+  date: 1766-03-01
+  year_of: 1766
+  title_zh: 审理何琼诏案乖舛革职留营
+  description_zh: 以失律脱逃之人反以冒昧轻进定罪官兵忽调忽彻全无纪律降旨革职留于普洱军营效力
+- id: guji-刘藻-event-death
+  person_qid: guji-刘藻
+  type: death
+  date: 1766-04-11
+  year_of: 1766
+  title_zh: 三月初三夜自刎于军营
+  description_zh: 正当猛笼猛遮克复乘胜进剿之际无端自戕桌留纸包恭缴朱批摺四件廷寄一件上谕严惩传旨拏问明正其罪
