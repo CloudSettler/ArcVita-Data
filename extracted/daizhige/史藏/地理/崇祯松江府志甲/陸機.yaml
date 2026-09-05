@@ -1,0 +1,126 @@
+person:
+  qid: guji-陸機
+  name_zh: 陸機
+  names:
+    zh: 陸機
+    en: Lu Ji
+  lifespan:
+    birth:
+      date: '0261'
+      precision: year
+      is_circa: false
+      raw: 吳天紀四年生於華亭
+    death:
+      date: '0303'
+      precision: year
+      is_circa: false
+      raw: 晉永康元年被害於軍中
+  birth_date: '0261'
+  death_date: '0303'
+  era: 西晉
+  reign_ref: 晉惠帝永康
+  archetype: 文士統帥
+  dilemmas:
+  - 文名冠世而武事非長以文人而領大軍
+  - 依附藩王而忠讒難辨進退皆禍
+  lesson: 恃才而不審時勢則文冠天下亦難免殺身之禍
+  summary_first_person: 吾初自吳入洛次偃師陰晦投宿遇少年論易妙得玄微曉往視之乃山陽王家冢方知為王弼之魂後出仕西晉文章顯達而領兵致敗終以讒被害
+  source_urls:
+  - https://daizhige.org/史藏/地理/崇禎松江府志甲/卷58.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/崇禎松江府志甲/卷58.md
+endeavors:
+- id: guji-陸機-endeavor-1
+  title_zh: 初入洛道宿偃師遇異
+  summary_zh: 自吳北上入洛途經河南偃師夜投道左民居與少年論易投壺曉訪乃王弼冢遂傳為稗談
+  phases:
+  - key: brewing
+    name: 離吳北行
+    labels:
+      zh: 離鄉北上
+    start_date: 0289
+    highlight_event_id: guji-陸機-event-1
+  - key: breakthrough
+    name: 道左投宿論易
+    labels:
+      zh: 論易服能
+    start_date: '0289-09-01'
+    highlight_event_id: guji-陸機-event-1
+  - key: climax
+    name: 曉訪空野王冢
+    labels:
+      zh: 始悟遇魂
+    start_date: '0289-09-02'
+    highlight_event_id: guji-陸機-event-1
+  - key: closure
+    name: 入洛名動士林
+    labels:
+      zh: 名動洛陽
+    start_date: 0290
+    highlight_event_id: guji-陸機-event-1
+  decisions:
+  - date: '0289-09-01'
+    title_zh: 陰晦投宿論學
+    rationale: 道遠天晦就近求宿以文會友欲觀中州人物之學
+  - date: '0289-09-02'
+    title_zh: 稅驂往視冢墓
+    rationale: 聞逆旅嫗言十里無村落心疑所遇非人故往驗之以明真相
+- id: guji-陸機-endeavor-2
+  title_zh: 出仕西晉著作顯名終以兵敗被害
+  summary_zh: 入洛後太康詔徵拜著作郎遷中書郎太子洗馬累至大將軍從事中郎將成都王役兵敗被讒遇害
+  phases:
+  - key: brewing
+    name: 太康徵辟入朝
+    labels:
+      zh: 徵辟入仕
+    start_date: 0290
+    highlight_event_id: guji-陸機-event-2
+  - key: breakthrough
+    name: 著作文章冠世
+    labels:
+      zh: 文章顯達
+    start_date: 0291
+    highlight_event_id: guji-陸機-event-2
+  - key: climax
+    name: 從軍河北兵敗
+    labels:
+      zh: 領兵致敗
+    start_date: '0302'
+    highlight_event_id: guji-陸機-event-2
+  - key: closure
+    name: 被讒被害洛陽
+    labels:
+      zh: 含冤遇害
+    start_date: '0303'
+    highlight_event_id: guji-陸機-event-death
+  decisions:
+  - date: 0290
+    title_zh: 應徵赴洛受職
+    rationale: 晉一天下欲以文才展經綸故捨吳舊而就晉官
+  - date: '0302'
+    title_zh: 受成都王命領軍
+    rationale: 以文臣而強領戎務欲建功保恩明知非長而不得辭
+events:
+- id: guji-陸機-event-birth
+  title_zh: 出生於吳郡華亭
+  date: '0261'
+  year_of: 261
+  location_zh: 吳郡華亭
+  description_zh: 吳天紀中陸抗季子生家世將相少負才名博學善屬文
+- id: guji-陸機-event-1
+  title_zh: 入洛次偃師遇王弼魂
+  date: '0289-09-02'
+  year_of: 289
+  location_zh: 河南偃師道左
+  description_zh: 初入洛陰晦投宿見少年神姿端遠置易投壺言論妙得玄微曉去訪之乃山陽王家冢空野霾雲方知所遇者王弼
+- id: guji-陸機-event-2
+  title_zh: 仕晉顯名從成都王出軍
+  date: '0302-08-01'
+  year_of: 302
+  location_zh: 洛陽鄴下
+  description_zh: 累遷著作郎中書郎太子洗馬受成都王穎命為後將軍河北大都督率眾二十萬討長沙王戰敗眾潰
+- id: guji-陸機-event-death
+  title_zh: 以兵敗被讒被害
+  date: '0303'
+  year_of: 303
+  location_zh: 軍中洛陽
+  description_zh: 宦人孟玖等譖其有異心成都王聽讒使牽秀收之於軍門被害夷三族時年四十三

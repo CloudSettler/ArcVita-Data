@@ -6,122 +6,142 @@ person:
     en: Lu Ji
   lifespan:
     birth:
-      date: '0261'
+      date: 177
       precision: year
       is_circa: false
-      raw: 吴郡华亭生
+      raw: 晋泰始七年
     death:
-      date: '0303'
+      date: 195
       precision: year
       is_circa: false
-      raw: 太安二年遇害洛阳
-  birth_date: '0261'
-  death_date: '0303'
+      raw: 晋太安二年
+  birth_date: 177
+  death_date: 195
   era: 西晋
-  reign_ref: 晋惠帝太安
-  archetype: 文章冠世之文宗
+  reign_ref: 西晋元康
+  archetype: 文章宗师
   dilemmas:
-  - 华亭归思与洛阳仕进之累
-  - 文士领兵之难与藩王相争之险
-  lesson: 空文冠世而托身非主终罹于难当以才命相衡为戒
-  summary_first_person: 吾少有异才与弟云齐名入洛后文章冠世所著三百余篇传于世晚参成都王军事兵败被谗而死以此知文盛而命乖不可不慎
+  - 才名冠世而逢八王乱世进退失据
+  - 辞藻华美开一代新风而被讥绮靡少古意
+  lesson: 恃才托身非主则文高不能自保当审势知止
+  summary_first_person: 吾吴郡华亭人也少以才学名入洛后论文冠绝太康开六代词源仕至平原内史从戎而没文章为一生志业
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B754.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B754.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%B4%87%E7%A5%AF%E6%9D%BE%E6%B1%9F%E5%BA%9C%E5%BF%97%E7%94%B2/%E5%8D%B755.html
 endeavors:
 - id: guji-陆机-endeavor-1
-  title_zh: 撰述陆士衡集垂范文典
-  summary_zh: 少有异才博学能文入洛后声名大振著诗赋论议碑诔凡三百余篇后人辑为陆士衡集十卷并作文赋论述创作之道
+  title_zh: 开云间诗派垂范文赋
+  summary_zh: 以太康入洛论文为机拟古乐府与文赋定诗缘情之旨为云间正始
   phases:
   - key: brewing
-    name: 吴中少怀异才
+    name: 吴中积学
     labels:
-      zh: 酝酿
-    start_date: '0261'
+      zh:
+      - 少有奇才
+      - 博学善属文
+    start_date: 177
     highlight_event_id: guji-陆机-event-birth
   - key: breakthrough
-    name: 入洛文冠一时
+    name: 入洛扬名
     labels:
-      zh: 突破
-    start_date: 0290
+      zh:
+      - 太康之英
+      - 张华称善
+    start_date: 0280
     highlight_event_id: guji-陆机-event-ruoluo
   - key: climax
-    name: 作汉功臣颂文赋
+    name: 拟古制赋冠绝一时
     labels:
-      zh: 高峰
-    start_date: '0302'
-    highlight_event_id: guji-陆机-event-wenfu
+      zh:
+      - 拟古十二首
+      - 文赋论情
+    start_date: 0290
+    highlight_event_id: guji-陆机-event-poetry
   - key: closure
-    name: 集行于世后人校刻
+    name: 诗品定评传之后世
     labels:
-      zh: 收束
-    start_date: '0303'
-    highlight_event_id: guji-陆机-event-death
+      zh:
+      - 钟嵘上品
+      - 百代文宗
+    start_date: 192
+    highlight_event_id: guji-陆机-event-poetry
   decisions:
+  - date: 0280
+    title_zh: 吴亡后与弟云偕入洛论文
+    rationale: 以吴士才学与中州名流抗衡一洗江南卑弱之目
   - date: 0290
-    title_zh: 兄弟俱入洛阳求仕
-    rationale: 以吴亡之后欲以文章显于中朝求展其才故西行定居洛阳
-  - date: '0302'
-    title_zh: 撰文赋以明作文之法
-    rationale: 以创作经验总结神思体制以立一家之言使后学有所法式
+    title_zh: 广拟古诗乐府以立体格
+    rationale: 欲以华美炼句接汉魏而开六代绮丽变新风
 - id: guji-陆机-endeavor-2
-  title_zh: 出仕西晋参藩王军事
-  summary_zh: 太康中入仕历任太子洗马著作郎中书郎等职太安中为成都王司马颖平原内史大都督率众讨长沙王战败被谗遇害
+  title_zh: 出仕西晋从戎殒命
+  summary_zh: 由太子洗马祭酒出守平原内史终从成都王征战兵败被谗见杀
   phases:
   - key: brewing
-    name: 太康入仕任郎署
+    name: 太康入仕
     labels:
-      zh: 酝酿
-    start_date: 0290
+      zh:
+      - 著作郎
+      - 太子洗马
+    start_date: 0284
     highlight_event_id: guji-陆机-event-ruoluo
   - key: breakthrough
-    name: 预佐成都王府
+    name: 出守平原
     labels:
-      zh: 突破
-    start_date: '0301'
-    highlight_event_id: guji-陆机-event-wenfu
+      zh:
+      - 平原内史
+      - 政绩著闻
+    start_date: 0294
+    highlight_event_id: guji-陆机-event-pingyuan
   - key: climax
-    name: 领兵二十万出征
+    name: 从成都王兴师
     labels:
-      zh: 高峰
-    start_date: '0303'
-    highlight_event_id: guji-陆机-event-bingbai
+      zh:
+      - 假后将军
+      - 七万之众南征
+    start_date: 195
+    highlight_event_id: guji-陆机-event-congjun
   - key: closure
-    name: 兵败被谗就戮
+    name: 兵败被谗遇害
     labels:
-      zh: 收束
-    start_date: '0303'
+      zh:
+      - 鹿苑之败
+      - 军中见杀
+    start_date: 195
     highlight_event_id: guji-陆机-event-death
   decisions:
-  - date: '0301'
-    title_zh: 就成都王颖之辟
-    rationale: 以时当八王之乱欲借藩镇以行其志故委身颖府
-  - date: '0303'
-    title_zh: 受命督军讨长沙王乂
-    rationale: 以居大都督之位难以辞难欲以军功自固终以文士不习戎事而败
+  - date: 0294
+    title_zh: 求出为平原内史
+    rationale: 久居内职无所展布欲以外任避京洛党争而树功
+  - date: 195
+    title_zh: 受成都王颖节度领军南讨
+    rationale: 以儒将受托非常之权重任难辞冀一战胜以定威望
 events:
 - id: guji-陆机-event-birth
-  date: '0261'
+  date: 177
   year_of: 261
-  title_zh: 出生吴郡华亭
-  description_zh: 吴丞相陆逊之孙大司马陆抗之子生于华亭少有异才年二十而吴亡
+  title_zh: 生于吴郡华亭陆氏
+  description_zh: 吴大司马陆逊之孙丞相陆抗之子少负才名与弟云齐称二陆
 - id: guji-陆机-event-ruoluo
+  date: 0280
+  year_of: 280
+  title_zh: 吴平后入洛论文名动京师
+  description_zh: 与陆云入洛司空张华见而奇之太康文士争与交游有太康之英之目
+- id: guji-陆机-event-poetry
   date: 0290
   year_of: 290
-  title_zh: 与弟陆云俱入洛阳
-  description_zh: 太康末兄弟入洛张华荐之声名大振文章冠世官至中书郎
-- id: guji-陆机-event-wenfu
-  date: '0302'
-  year_of: 302
-  title_zh: 作汉高祖功臣颂及文赋
-  description_zh: 在洛著述最盛作文赋论述诗赋创作并传汉高祖功臣颂等名篇所著凡三百余篇
-- id: guji-陆机-event-bingbai
-  date: '0303'
+  title_zh: 作拟古董逃行及文赋
+  description_zh: 拟明月何皎皎董逃行历九音频为诗品所称又作文赋言诗缘情而绮靡开六代词源
+- id: guji-陆机-event-pingyuan
+  date: 0294
+  year_of: 294
+  title_zh: 出为平原内史
+  description_zh: 由中书郎太子洗马著作郎出守平原以内史政绩显于一方
+- id: guji-陆机-event-congjun
+  date: 195
   year_of: 303
-  title_zh: 七里涧兵败
-  description_zh: 为成都王颖大都督率众二十万讨长沙王乂宦人孟玖等谗间军心不一战败于七里涧
+  title_zh: 从成都王颖讨长沙王乂兵败
+  description_zh: 假后将军河北大都督率众南征鹿苑一战师溃诸军离心谗言遂起
 - id: guji-陆机-event-death
-  date: '0303'
+  date: 195
   year_of: 303
-  title_zh: 被谗遇害于洛阳
-  description_zh: 太安二年兵败后为颖所收加以谤言与子牵等同被害时年四十三
+  title_zh: 为孟玖等所谗见杀军中
+  description_zh: 成都王听信谗言以通敌罪收机兄弟并害之年四十三士林痛惜
