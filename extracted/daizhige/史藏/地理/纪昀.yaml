@@ -1,0 +1,145 @@
+person:
+  qid: guji-纪昀
+  name_zh: 纪昀
+  names:
+    zh: 纪昀
+    en: Ji Yun
+  lifespan:
+    birth:
+      date: 1724-07-26
+      precision: day
+      is_circa: false
+      raw: 雍正二年六月初七
+    death:
+      date: 1805-03-14
+      precision: day
+      is_circa: false
+      raw: 嘉庆十年二月十四
+  birth_date: 1724-07-26
+  death_date: 1805-03-14
+  era: 清
+  reign_ref: 乾隆
+  archetype: 博学总纂型
+  dilemmas:
+  - 群书浩繁取舍难定而必守信传信疑传疑之例
+  - 湖广旧志南北详略不均而必参以正史补正阙漏
+  lesson: 博考阙疑以传信为要总纂当守凡例以成一统之业
+  summary_first_person: 吾少承家学登乾隆甲戌进士入翰林后奉命总纂四库又会同诸臣恭校湖广通志惟以考据详实网罗有据为任不敢以臆断损旧闻也
+  source_urls:
+  - https://daizhige.org/史藏/地理/湖广通志.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/湖广通志.md
+endeavors:
+- id: guji-纪昀-endeavor-1
+  title_zh: 总纂四库全书
+  summary_zh: 奉命为总纂官总其成以辨章学术考镜源流
+  phases:
+  - key: brewing
+    name: 翰林储才
+    labels:
+      zh:
+      - 读书应举
+    start_date: 1754-05-01
+    highlight_event_id: guji-纪昀-event-jinshi
+  - key: breakthrough
+    name: 开馆总纂
+    labels:
+      zh:
+      - 奉命校书
+    start_date: 1773-02-01
+    highlight_event_id: guji-纪昀-event-siku
+  - key: climax
+    name: 恭校方志
+    labels:
+      zh:
+      - 方志考订
+    start_date: 1781-09-01
+    highlight_event_id: guji-纪昀-event-huguang
+  - key: closure
+    name: 进呈藏书
+    labels:
+      zh:
+      - 著述垂后
+    start_date: 1787-01-01
+    highlight_event_id: guji-纪昀-event-huguang
+  decisions:
+  - date: 1773-02-01
+    title_zh: 应诏分纂校雠群籍
+    rationale: 以博闻强记总其成存目别裁以存群籍之真
+  - date: 1781-09-01
+    title_zh: 会同陆锡熊等恭校湖广通志
+    rationale: 据康熙旧志为本参以廿一史补正阙漏以成都会郡县之属
+- id: guji-纪昀-endeavor-2
+  title_zh: 恭校湖广通志成书
+  summary_zh: 以四库馆臣例校楚中舆记据旧志为本以类附益
+  phases:
+  - key: brewing
+    name: 编摩旧志
+    labels:
+      zh:
+      - 考订沿革
+    start_date: 1754-05-01
+    highlight_event_id: guji-纪昀-event-jinshi
+  - key: breakthrough
+    name: 开局武昌采访
+    labels:
+      zh:
+      - 广征卷轴
+    start_date: 1773-02-01
+    highlight_event_id: guji-纪昀-event-siku
+  - key: climax
+    name: 乾隆四十六年恭校上
+    labels:
+      zh:
+      - 审定进呈
+    start_date: 1781-09-01
+    highlight_event_id: guji-纪昀-event-huguang
+  - key: closure
+    name: 列入史部地理垂范
+    labels:
+      zh:
+      - 列目存史
+    start_date: 1781-09-01
+    highlight_event_id: guji-纪昀-event-huguang
+  decisions:
+  - date: 1781-09-01
+    title_zh: 断以廿一史为主参以通考府县志
+    rationale: 旧志舛错甚多非据正史无以定建置沿革之根据
+  - date: 1781-09-01
+    title_zh: 别人物为忠臣孝子列女流寓诸门
+    rationale: 条分缕晰案籍可稽以昭劝惩而备雅颂之采
+events:
+- id: guji-纪昀-event-birth
+  type: birth
+  title_zh: 出生于直隶献县
+  date: 1724-07-26
+  year_of: 1724
+  place_zh: 直隶献县
+  description_zh: 雍正二年六月初七生于书香之家少颖敏强记
+- id: guji-纪昀-event-jinshi
+  type: career
+  title_zh: 登乾隆十九年甲戌进士入翰林
+  date: 1754-05-01
+  year_of: 1754
+  place_zh: 京师
+  description_zh: 登进士选庶吉士授编修以文采博洽受知朝廷
+- id: guji-纪昀-event-siku
+  type: career
+  title_zh: 奉命开四库馆充总纂官
+  date: 1773-02-01
+  year_of: 1773
+  place_zh: 京师文渊阁
+  description_zh: 与陆锡熊孙士毅等总纂四库全书辨章学术考订源流
+- id: guji-纪昀-event-huguang
+  type: career
+  title_zh: 会校湖广通志恭校上进
+  date: 1781-09-01
+  year_of: 1781
+  place_zh: 京师
+  description_zh: 与陆锡熊孙士毅等恭校迈柱等监修湖广通志一百二十卷列为史部地理都会郡县之属
+- id: guji-纪昀-event-death
+  type: death
+  title_zh: 卒于京师
+  date: 1805-03-14
+  year_of: 1805
+  place_zh: 京师
+  description_zh: 嘉庆十年二月十四卒谥文达著有阅微草堂笔记等行世
