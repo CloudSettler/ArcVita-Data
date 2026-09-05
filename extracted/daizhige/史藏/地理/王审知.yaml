@@ -9,130 +9,102 @@ person:
       date: 0862
       precision: year
       is_circa: false
-      raw: 唐大中六年
+      raw: 唐咸通三年生于光州固始
     death:
-      date: '0925-12-30'
+      date: 0925-12-30
       precision: day
       is_circa: false
-      raw: 后唐同光三年十二月
+      raw: 后唐同光三年十一月卒于福州
   birth_date: 0862
-  death_date: '0925-12-30'
+  death_date: 0925-12-30
   era: 唐末五代
-  reign_ref: 闽太祖
-  archetype: 开闽保境之主
+  reign_ref: 后梁闽王
+  archetype: 保境安民之开创守成者
   dilemmas:
-  - 奉中原正朔求封与割据自立之间的权衡
-  - 兴兵平定寇乱与俭约养民之间的取舍
-  lesson: 保境息民以立闽基俭勤守成为上
-  summary_first_person: 吾自光寿从军随兄入闽，经汀州泉州而定福州，代领闽地三十余年，惟以保境安民为念，使汀漳泉福得免干戈，愿后人守俭勤政以永此土
+  - 继兄遗业当守成固本还是割据称僭之抉择
+  - 奉中原正朔以求封册还是闭境自雄之权衡
+  lesson: 保境息民轻徭薄赋不妄开边乃长治之道
+  summary_first_person: 吾随兄自固始入闽继领威武三十年间谨守封疆轻赋恤民事大国以安一方不敢负闽中百姓
   source_urls:
-  - https://daizhige.org/史藏/地理/汀州府志.html
-  - https://ctext.org/wiki.pl?if=gb&res=603669
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%BF%97%E4%B8%87%E5%8E%86%E6%9C%AC.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%BF%97%E4%B8%87%E5%8E%86%E6%9C%AC.html
 endeavors:
 - id: guji-王审知-endeavor-1
-  title_zh: 随军入闽平定福建
-  summary: 随王绪王潮自寿州南下，经汀州入泉福，助平群寇奠定闽局
+  title_zh: 继兄领威武军经营福州
+  summary: 乾宁末继王潮为留后后拜节度使整治城池屯田保全闽地
   phases:
   - key: brewing
-    name: 寿州从军南下
+    name: 随兄入闽奠基泉福
     labels:
-      zh: 蓄势待发
-    start_date: 0883
-    highlight_event_id: guji-王审知-event-885
-  - key: breakthrough
-    name: 执王绪取泉州
-    labels:
-      zh: 转折破局
+      zh: 从军奠基
     start_date: 0885
-    highlight_event_id: guji-王审知-event-885
-  - key: climax
-    name: 克福州定五州
+    highlight_event_id: guji-王审知-event-0898-jun
+  - key: breakthrough
+    name: 继统威武领节镇福州
     labels:
-      zh: 大定福建
-    start_date: 0891
-    highlight_event_id: guji-王审知-event-891
+      zh: 继统领镇
+    start_date: 0898
+    highlight_event_id: guji-王审知-event-0898-jun
   - key: closure
-    name: 副使辅政安汀漳
+    name: 加检校太尉守镇安民
     labels:
-      zh: 收局安民
-    start_date: 0892
-    highlight_event_id: guji-王审知-event-891
+      zh: 守镇安民
+    start_date: 0903
+    highlight_event_id: guji-王审知-event-0898-jun
   decisions:
-  - date: 0885
-    title_zh: 囚王绪推王潮为主
-    rationale: 王绪猜忌残暴难以成事，推长者以安众心保全军以图闽
-  - date: 0891
-    title_zh: 竭力助兄攻福州而不争功
-    rationale: 兄弟同心先定根本，居副以韬晦待时收服人心
+  - date: 0898
+    title_zh: 丧兄不自立仍请命于朝
+    rationale: 以顺守正换取节度使名义安定军心民心
+  - date: 0903
+    title_zh: 筑福州罗城外扩夹城
+    rationale: 以御海寇山越兼通商旅奠都会格局
 - id: guji-王审知-endeavor-2
-  title_zh: 守闽建国保境息民
-  summary: 袭观察使后抚定汀州诸郡，受封闽王，轻徭劝农保境三十年
+  title_zh: 受封闽王保境息民三十年
+  summary: 奉梁正朔受封闽王开府置官轻徭省刑招贤兴学成一方乐土
   phases:
   - key: brewing
-    name: 袭位观察留后
+    name: 奉梁纳贡求封
     labels:
-      zh: 承业守成
-    start_date: 0897
-    highlight_event_id: guji-王审知-event-897
-  - key: breakthrough
-    name: 奉梁正朔受册封
-    labels:
-      zh: 名正位定
+      zh: 奉正朔
     start_date: 0907
-    highlight_event_id: guji-王审知-event-909
+    highlight_event_id: guji-王审知-event-0909-feng
   - key: climax
-    name: 封闽王置国安汀
+    name: 开平三年封闽王立闽国基
     labels:
-      zh: 开国安邦
+      zh: 封王建国
     start_date: 0909
-    highlight_event_id: guji-王审知-event-909
+    highlight_event_id: guji-王审知-event-0909-feng
   - key: closure
-    name: 俭政养民遗命守成
+    name: 养民三十年闽境晏然
     labels:
-      zh: 善终遗训
-    start_date: 0920
-    highlight_event_id: guji-王审知-event-death
+      zh: 保境息民
+    start_date: 0915
+    highlight_event_id: guji-王审知-event-0925-shi
   decisions:
-  - date: 0907
-    title_zh: 奉后梁正朔求封
-    rationale: 藉中原册命以正名分，避擅号之祸而安邻境
+  - date: 0909
+    title_zh: 受闽王册不改元称帝
+    rationale: 宁为开门节度使不为闭门天子以保境安民为上
   - date: 0911
-    title_zh: 置汀州镇将劝农减赋
-    rationale: 汀为山峒要冲，以宽赋招流亡以屯镇遏寇乱固根本
+    title_zh: 置学校育才招徕中原士人
+    rationale: 以文治化闽收人心补官僚之缺
 events:
 - id: guji-王审知-event-birth
-  title_zh: 出生光州固始
+  title_zh: 生于光州固始
   date: 0862
   year_of: 862
-  place_zh: 光州固始
-  summary: 唐大中六年生于光州固始王氏，少贫勇侠事黄巢后归寿州
-- id: guji-王审知-event-885
-  title_zh: 随军陷汀州入闽
-  date: 0885
-  year_of: 885
-  place_zh: 汀州
-  summary: 光启元年从王绪陷汀州，南下至泉州，执王绪推王潮为主，屯泉州图进取
-- id: guji-王审知-event-891
-  title_zh: 克福州授副使
-  date: 0891
-  year_of: 891
-  place_zh: 福州
-  summary: 助王潮克福州平定八闽，授副观察使，分镇泉漳汀诸郡抚流亡
-- id: guji-王审知-event-897
-  title_zh: 袭领福建观察使
-  date: 0897
-  year_of: 897
-  place_zh: 福州
-  summary: 王潮殁众推审知袭位，乾宁间授福建观察使，汀州隶其治下得以安堵
-- id: guji-王审知-event-909
-  title_zh: 受封闽王开国
+  description: 唐咸通三年生于光州固始王氏少随兄王潮王审邽起兵南下
+- id: guji-王审知-event-0898-jun
+  title_zh: 继王潮为威武军留后节度使
+  date: 0898
+  year_of: 898
+  description: 王潮卒众推审知为留后唐授威武军节度使领福州大都督府事
+- id: guji-王审知-event-0909-feng
+  title_zh: 后梁封闽王
   date: 0909
   year_of: 909
-  place_zh: 福州
-  summary: 后梁开平三年册封为闽王，置闽国保境息民，汀州八县皆安其政
-- id: guji-王审知-event-death
-  title_zh: 薨于福州王府
-  date: '0925-12-30'
+  description: 开平三年后梁加封为闽王福州升为大都督府闽国基业遂定
+- id: guji-王审知-event-0925-shi
+  title_zh: 卒于福州长乐府
+  date: 0925-12-30
   year_of: 925
-  place_zh: 福州
-  summary: 后唐同光三年十二月薨于位，在位二十九年，谥武皇，子延翰嗣立
+  description: 后唐同光三年十一月卒于位在镇三十年闽人怀其德谥忠懿

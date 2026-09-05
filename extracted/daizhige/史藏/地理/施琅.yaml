@@ -6,127 +6,128 @@ person:
     en: Shi Lang
   lifespan:
     birth:
-      date: 1621
+      date: '1621'
       precision: year
       is_circa: false
       raw: 明天启元年
     death:
-      date: 1696
+      date: '1696'
       precision: year
       is_circa: false
       raw: 清康熙三十五年
-  birth_date: 1621
-  death_date: 1696
+  birth_date: '1621'
+  death_date: '1696'
   era: 清
   reign_ref: 康熙
-  archetype: 海疆统帅
+  archetype: 海疆经略型
   dilemmas:
-  - 明郑旧部出身而效力清朝的忠诚疑虑
-  - 海上远征补给与季风时机的抉择
-  lesson: 审时度势专精海事方能一战定台澎
-  summary_first_person: 我本闽海之人，深谙潮汐风信，历厦门澎湖之役，终率舟师平定台湾，为海疆一统尽力
+  - 明郑旧部出身而归清平台之忠诚两难
+  - 海上决战冒险进取与持重保全水师之权衡
+  lesson: 审时度势果断用兵方能底定海疆长治久安
+  summary_first_person: 余久历海上归清受命靖海澎湖一战收复台湾继请设府守台惟愿海波永靖沿海民生安业
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B3%89%E5%B7%9E%E5%BA%9C%E5%BF%97%E9%80%89%E5%BD%95.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E6%B3%89%E5%B7%9E%E5%BA%9C%E5%BF%97%E9%80%89%E5%BD%95.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E7%A6%8F%E5%BB%BA%E9%80%9A%E5%BF%97%E5%8F%B0%E6%B9%BE%E5%BA%9C.html
 endeavors:
 - id: guji-施琅-endeavor-1
-  title_zh: 归清与厦门海战
-  summary: 由郑氏旧将归清，任水师提督攻厦门，奠定清军海上力量
+  title_zh: 统帅水师平台统一
+  summary: 受命靖海经略澎台以楼船决战克复台湾
   phases:
   - key: brewing
-    name: 归清任职
+    name: 熟谙海情请定平台方略
     labels:
       zh:
-      - 归附
-    start_date: 1646
-    highlight_event_id: guji-施琅-event-guiqing
+      - 蓄势
+    start_date: '1681'
+    highlight_event_id: guji-施琅-event-jianyi
   - key: breakthrough
-    name: 会攻厦门
-    labels:
-      zh:
-      - 海战
-    start_date: 1663-10
-    highlight_event_id: guji-施琅-event-xiamen
-  - key: closure
-    name: 经营水师
-    labels:
-      zh:
-      - 整军
-    start_date: 1664
-    highlight_event_id: guji-施琅-event-xiamen
-  decisions:
-  - date: 1646
-    title_zh: 弃郑归清
-    rationale: 审度大势与郑氏内部分裂，投清以展海略抱负
-  - date: 1663-10
-    title_zh: 会同黄梧等攻厦门
-    rationale: 乘郑经初立人心未固，以水陆合击夺取厦门金门
-- id: guji-施琅-endeavor-2
-  title_zh: 澎湖决战与台湾统一
-  summary: 任靖海将军统领舟师，大破郑军于澎湖，促成郑克塽降设府县
-  phases:
-  - key: brewing
-    name: 条陈平台方略
-    labels:
-      zh:
-      - 筹划
-    start_date: 1681
-    highlight_event_id: guji-施琅-event-penghu
-  - key: climax
-    name: 澎湖海战
+    name: 夏口决战夺取澎湖门户
     labels:
       zh:
       - 决战
-    start_date: 1683-06
+    start_date: '1683'
     highlight_event_id: guji-施琅-event-penghu
-  - key: closure
-    name: 入台受降设治
+  - key: climax
+    name: 逼营招抚克复全台
     labels:
       zh:
-      - 统一
-    start_date: 1683-07
-    highlight_event_id: guji-施琅-event-taiwan
+      - 招抚
+    start_date: '1683'
+    highlight_event_id: guji-施琅-event-penghu
+  - key: closure
+    name: 凯奏至阙蒙赐御衣宸章
+    labels:
+      zh:
+      - 褒功
+    start_date: '1683'
+    highlight_event_id: guji-施琅-event-penghu
   decisions:
-  - date: 1683-06
-    title_zh: 乘南风决战澎湖
-    rationale: 候风潮有利分股合击，一举摧毁郑军主力舟师
-  - date: 1683-07
-    title_zh: 主张台湾设府县不弃地
-    rationale: 台湾为东南屏障，设官置守方可永靖海疆
+  - date: '1683'
+    title_zh: 决策进取澎湖
+    rationale: 乘风潮之利集中楼船主力夺气致归以求一战定局
+  - date: '1683'
+    title_zh: 勇夺其气诚致其归
+    rationale: 战后止杀抚降收拾人心以安瀛壖赤子登于衽席
+- id: guji-施琅-endeavor-2
+  title_zh: 经略台湾守卫海疆
+  summary: 平台之后力请留守设府驻兵以固东南屏蔽
+  phases:
+  - key: brewing
+    name: 陈台湾弃留利害
+    labels:
+      zh:
+      - 筹议
+    start_date: '1683'
+    highlight_event_id: guji-施琅-event-jianyi
+  - key: breakthrough
+    name: 请设台湾府县驻兵镇守
+    labels:
+      zh:
+      - 建制
+    start_date: '1684'
+    highlight_event_id: guji-施琅-event-jianyi
+  - key: climax
+    name: 开府设官安辑流民番社
+    labels:
+      zh:
+      - 安民
+    start_date: '1684'
+    highlight_event_id: guji-施琅-event-jianyi
+  - key: closure
+    name: 澎台厦门互为犄角海防底定
+    labels:
+      zh:
+      - 守成
+    start_date: '1684'
+    highlight_event_id: guji-施琅-event-jianyi
+  decisions:
+  - date: '1684'
+    title_zh: 力主台湾设府不弃
+    rationale: 台湾阻险负固实为东南门户弃则复为盗薮留则永靖海氛
+  - date: '1684'
+    title_zh: 请内地移民垦荒驻军屯守
+    rationale: 以实事求是整齐化导使鱼盐耕获之利复业以养民固边
 events:
 - id: guji-施琅-event-birth
-  date: 1621
+  title_zh: 出生福建晋江
+  date: '1621'
   year_of: 1621
-  title_zh: 施琅出生
-  place_zh: 福建晋江
-  description: 明天启元年生于晋江衙口
-- id: guji-施琅-event-guiqing
-  date: 1646
-  year_of: 1646
-  title_zh: 归清
-  place_zh: 福建
-  description: 由郑芝龙部归清授职，渐领水师事务
-- id: guji-施琅-event-xiamen
-  date: 1663-10
-  year_of: 1663
-  title_zh: 会攻厦门
-  place_zh: 厦门
-  description: 与黄梧李率泰马得功会攻厦门，郑经弃守走铜山
+  kind: birth
+  summary: 明天启元年生于福建晋江早岁海上效力熟习水师洋道
 - id: guji-施琅-event-penghu
-  date: 1683-06
+  title_zh: 澎湖海战克复台湾
+  date: '1683'
   year_of: 1683
-  title_zh: 大破澎湖
-  place_zh: 澎湖
-  description: 靖海将军施琅率各镇官兵大破郑军，克澎湖
-- id: guji-施琅-event-taiwan
-  date: 1683-07
-  year_of: 1683
-  title_zh: 入台湾受降
-  place_zh: 台湾
-  description: 师入台湾郑克塽降，清设一府三县统一台湾
+  kind: career
+  summary: 康熙二十二年统楼船进取澎湖夺其气致其归捷音中秋至阙蒙赐御衣宸章
+- id: guji-施琅-event-jianyi
+  title_zh: 请设台湾府县
+  date: '1684'
+  year_of: 1684
+  kind: career
+  summary: 平台后力陈弃留利害朝廷从议设台湾府隶福建澎湖台湾并入版图海疆大定
 - id: guji-施琅-event-death
-  date: 1696
+  title_zh: 卒于京师
+  date: '1696'
   year_of: 1696
-  title_zh: 施琅逝世
-  place_zh: 京师
-  description: 康熙三十五年卒，谥襄壮
+  kind: death
+  summary: 康熙三十五年卒追封靖海侯功载福建通志台湾府卷首诏谕
