@@ -8,126 +8,146 @@ person:
     birth:
       date: 1377-12-05
       precision: day
-      is_circa: false
-      raw: 洪武十年十一月初五
+      is_circa: true
+      raw: 懿文太子长子洪武十年生
     death:
-      date: 1440-01-01
+      date: 1426
       precision: year
       is_circa: true
-      raw: 正统时归京养于佛堂而殂
+      raw: 宣德元年来归后暴卒葬郊外
   birth_date: 1377-12-05
-  death_date: 1440-01-01
+  death_date: 1426
   era: 明
   reign_ref: 建文
-  archetype: 罹难遁世之少主
+  archetype: 仁柔守成悲剧帝王
   dilemmas:
-  - 宽政理想与强藩现实之间如何自处
-  - 国破身死与祝发偷生之间何以抉择
-  - 归骨父母与再起风波之间是否现身
-  lesson: 位极而不知难，仁柔而无预备，则宽政反成速亡之因，留得性命亦只付青灯
-  summary_first_person: 吾为太祖长孙，懿文太子长子，洪武二十五年册为皇太孙，三十一年嗣位改元建文，行宽政赦逋租，铸凝命神宝，郊庙亲祀，一心复古。未料燕藩兵起，京阙火后，吾启先帝所遗度牒缁衣，削发自地道遁去，流转湖湘汴梁四十秋，霜雪盈头，题诗自悼。老至正统，诣察院自陈，归体父母之侧，迎入大内佛堂以终，可谓生于深宫，亡于烈火，得全于空门者也
+  - 削藩强干与激变宗藩之难
+  - 重文轻武与靖难兵起之难
+  lesson: 徒尚宽仁而无断无备则社稷难保
+  summary_first_person: 朕讳允炆为懿文太子之子太祖嫡孙，在位五年锐意宽政而削藩自固，不料燕师靖难金川门陷，朕削发潜逃流落江南数十秋，宣德来归欲死于故土，未几暴卒，含恨万世
   source_urls:
-  - https://daizhige.org/史藏/志存记录/东朝纪.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/志存记录/东朝纪.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BB%BA%E6%96%87%E7%9A%87%E5%B8%9D%E9%81%97%E8%BF%B9.html
 endeavors:
 - id: guji-朱允炆-endeavor-1
-  title_zh: 继统行宽政
-  summary_zh: 以皇太孙嗣位，改元建文，颁宽诏遣采访，制宝郊祀，欲以文治更化
+  title_zh: 柩前即位与建文新政
+  summary_zh: 即位改元重用方孝孺王叔英等求言宽刑恤民厘革太祖峻法
   phases:
   - key: brewing
-    name: 册立储嗣
+    name: 太孙教养
     labels:
-      zh: 册为皇太孙
-    start_date: 1392-09-13
-    highlight_event_id: guji-朱允炆-event-celi
+      zh:
+      - 储位
+      - 儒臣辅导
+    start_date: 1392-05-17
+    highlight_event_id: guji-朱允炆-event-birth
   - key: breakthrough
-    name: 登极更化
+    name: 柩前即位
     labels:
-      zh: 即位建文行宽政
+      zh:
+      - 即位
+      - 改元
     start_date: 1398-06-30
-    highlight_event_id: guji-朱允炆-event-jiwei
+    highlight_event_id: guji-朱允炆-event-ascend
   - key: climax
-    name: 制宝亲郊
+    name: 求言宽政
     labels:
-      zh: 凝命神宝与郊祀视学
-    start_date: 1399-03-01
-    highlight_event_id: guji-朱允炆-event-shenbao
+      zh:
+      - 纳谏
+      - 宽政
+    start_date: 1399-01-01
+    highlight_event_id: guji-朱允炆-event-reform
+  - key: closure
+    name: 削藩伏祸
+    labels:
+      zh:
+      - 削藩
+      - 藩怨
+    start_date: 1399-06-01
+    highlight_event_id: guji-朱允炆-event-jingnan
   decisions:
-  - date: 1398-06-30
-    title_zh: 即位下诏行宽政
-    rationale: 承太祖严刑之后，以赦罪蠲租省刑收人心，开新政气象
-  - date: 1399-03-01
-    title_zh: 遣采访使观风俗
-    rationale: 欲知民间患苦，察吏治得失，以二十四人分行天下
+  - date: 1399-01-01
+    title_zh: 嘉纳王叔英八策重用方孝孺
+    rationale: 去苛养民调燮血气以致太平
+  - date: 1399-06-01
+    title_zh: 用齐泰黄子澄计削藩置守臣察燕
+    rationale: 强干弱枝防燕终贻祸邦家
 - id: guji-朱允炆-endeavor-2
-  title_zh: 国破祝发远遁
-  summary_zh: 燕兵入金川，启先帝函中度牒剃度，自地道出亡，云游四十年而后归骨
+  title_zh: 御燕靖难与削发潜逃
+  summary_zh: 靖难师起命李景隆御之募勤王兵终至京陷潜逃为僧宣德来归
   phases:
   - key: brewing
-    name: 预藏度牒
+    name: 北平侦变
     labels:
-      zh: 太祖函藏缁衣剃刀
-    start_date: 1398-06-30
-    highlight_event_id: guji-朱允炆-event-jiwei
+      zh:
+      - 侦察
+      - 备御
+    start_date: 1399-08-01
+    highlight_event_id: guji-朱允炆-event-jingnan
   - key: breakthrough
-    name: 宫火遁去
+    name: 遣将御难
     labels:
-      zh: 聚宝焚殿削发骑逸
+      zh:
+      - 出师
+      - 济南固守
+    start_date: 1399-09-01
+    highlight_event_id: guji-朱允炆-event-jingnan
+  - key: climax
+    name: 京师陷落
+    labels:
+      zh:
+      - 勤王
+      - 金川门陷
     start_date: 1402-07-13
-    highlight_event_id: guji-朱允炆-event-dunwang
+    highlight_event_id: guji-朱允炆-event-fall
   - key: closure
-    name: 老归圆寂
+    name: 潜逃来归
     labels:
-      zh: 正统自陈归养大内
-    start_date: 1440-01-01
-    highlight_event_id: guji-朱允炆-event-guiyang
+      zh:
+      - 为僧
+      - 来归暴卒
+    start_date: 1426-01-01
+    highlight_event_id: guji-朱允炆-event-death
   decisions:
+  - date: 1399-09-01
+    title_zh: 命李景隆率十万御燕不听诛谏
+    rationale: 倚勋戚速平内难犹豫不断
   - date: 1402-07-13
-    title_zh: 不殉宫火而祝发遁
-    rationale: 遵太祖遗函遇难则启之意，留身避难，以图存宗祀骨血
-  - date: 1440-01-01
-    title_zh: 老诣察院自陈归附
-    rationale: 年八十余无能为，但欲归体父母侧，不求复位只求葬骨
+    title_zh: 启太祖密柜削发从密窦出逃
+    rationale: 遇难得生不欲自尽以存一线
 events:
 - id: guji-朱允炆-event-birth
-  title_zh: 降生应天
+  title_zh: 生为懿文太子长子
   date: 1377-12-05
   year_of: 1377
-  event_type: birth
-  description_zh: 懿文太子长子，太祖长嫡孙，后为建文皇帝
-- id: guji-朱允炆-event-celi
-  title_zh: 册为皇太孙
-  date: 1392-09-13
-  year_of: 1392
-  event_type: career
-  description_zh: 洪武二十五年九月十三日，太祖诏册嫡孙允炆为皇太孙，奉上下神祇以安民庶
-- id: guji-朱允炆-event-jiwei
-  title_zh: 嗣皇帝位改元建文
+  place_zh: 凤阳
+  description_zh: 懿文太子长子母常氏洪武十年生后立为皇太孙
+- id: guji-朱允炆-event-ascend
+  title_zh: 柩前即位改元建文
   date: 1398-06-30
   year_of: 1398
-  event_type: career
-  description_zh: 洪武三十一年闰五月十六日即皇帝位，改明年为建文元年，追尊懿文为孝康皇帝，吕氏为后，下诏行宽政赦有罪蠲逋租
-- id: guji-朱允炆-event-shenbao
-  title_zh: 获玉制凝命神宝亲郊视学
-  date: 1399-03-01
+  place_zh: 南京
+  description_zh: 太祖崩是月十五日即位于柩前明年改元建文纳王叔英方孝孺之言
+- id: guji-朱允炆-event-reform
+  title_zh: 下诏求言清刑恤民取士
+  date: 1400-02-01
+  year_of: 1400
+  place_zh: 南京
+  description_zh: 水旱求言陈迪条陈清刑恤民事廷试赐胡广及第王艮次之
+- id: guji-朱允炆-event-jingnan
+  title_zh: 靖难师起李景隆北伐败绩
+  date: 1399-08-06
   year_of: 1399
-  event_type: career
-  description_zh: 使者自西方得玉于雪山，琢大玺曰天命明德表正万方精一执中宇宙永昌，上幸大学视祀孔子，郊祀天地日月辉华
-- id: guji-朱允炆-event-dunwang
-  title_zh: 国破削发自地道遁
+  place_zh: 北平济南
+  description_zh: 燕王起靖难张昺谢贵被执李景隆渡淮战败铁铉高巍固守济南
+- id: guji-朱允炆-event-fall
+  title_zh: 金川门陷宫焚削发潜逃
   date: 1402-07-13
   year_of: 1402
-  event_type: career
-  description_zh: 燕兵入京前聚珠衣宝帐于兰香殿涂猛火油，先启太祖所遗度牒缁衣剃刀，削发披缁骑而逸，云游河南江淮湖湘，题诗寥落东南四十秋
-- id: guji-朱允炆-event-guiyang
-  title_zh: 正统自陈归养大内
-  date: 1440-01-01
-  year_of: 1440
-  event_type: career
-  description_zh: 至正统时年八十余，诣察院书状自称为太祖长孙，以箸挟肉旧事取信吴诚，迎入大内佛堂养之
+  place_zh: 南京金川门
+  description_zh: 靖难师渡江陷金川门宫中火起启太祖密柜得度牒削发从密地出逃为僧
 - id: guji-朱允炆-event-death
-  title_zh: 大内圆寂
-  date: 1440-01-01
-  year_of: 1440
-  event_type: death
-  description_zh: 归养大内佛堂久而殂，得归体父母侧，结束四十年流亡
+  title_zh: 宣德来归暴卒郊葬
+  date: 1426
+  year_of: 1426
+  place_zh: 京师诸王馆
+  description_zh: 自江南来归自陈避难为僧故老辨识章皇厚养诸王馆未几一夕暴卒以公礼葬郊外
