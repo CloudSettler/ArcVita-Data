@@ -8,119 +8,115 @@ person:
     birth:
       date: '1691'
       precision: year
-      is_circa: false
+      is_circa: true
       raw: 康熙三十年
     death:
       date: '1759'
       precision: year
       is_circa: false
-      raw: 乾隆二十四年
+      raw: 乾隆二十四年正月
   birth_date: '1691'
   death_date: '1759'
   era: 清
   reign_ref: 乾隆
-  archetype: 筹边任事之督抚
+  archetype: 经略封疆型督抚
   dilemmas:
-  - 大兵西征在即与陕甘驿道疲敝之间如何兼顾急递与民力
-  - 军营告发与旧部供词矛盾之间如何秉公查实而不回护
-  lesson: 军需无小事必豫备于先案狱无偏听必核实于后
-  summary_first_person: 吾黄廷桂兼管陕甘总督值西师进剿之际添驿马备战马以通军邮奉旨复查三达色一案以明功罪惟以实心办实事不敢惜费亦不敢枉人
+  - 屯田急于求成与驾驭远人体制之衡
+  - 参劾藩臬整饬军需与安定边陲人心之难
+  lesson: 经边当缓急得宜整吏当核实任事不可悬赏招徕亦不可姑息误公
+  summary_first_person: 吾备位陕甘总督值西陲用兵转输浩繁屯田初创惟以综核全局不动声色经理为念整饬属吏以肃军需筹量屯垦以固远圉
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70535.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0562.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0562.html
 endeavors:
 - id: guji-黄廷桂-endeavor-1
-  title_zh: 筹添陕甘驿马备西师凯旋与再进
-  summary: 会同陕西巡抚陈宏谋奏请添补府谷至定边驿马并奉旨于巴里坤再备战马以资调拨
+  title_zh: 整饬甘肃藩臬振饬西陲军需
+  summary: 参劾布政使武忱粮道成德怠玩误公肃清后路以应伊犁回部军需
   phases:
   - key: brewing
-    name: 察陕道崎岖马力不敷
+    name: 边需孔亟吏治懈弛
     labels:
-      zh: 踩勘
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-yima
+      zh: 军需繁重
+    start_date: '1757-01-01'
+    highlight_event_id: guji-黄廷桂-event-3
   - key: breakthrough
-    name: 奏请照甘省例添马六十匹
+    name: 据实参劾藩臬大员
     labels:
-      zh: 奏请
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-yima
+      zh: 参劾上闻
+    start_date: '1758-06-10'
+    highlight_event_id: guji-黄廷桂-event-3
   - key: climax
-    name: 得旨如所请行并筹巴里坤战马
+    name: 革职效力赎罪补授得人
     labels:
-      zh: 奉准
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-beima
+      zh: 革职补授
+    start_date: '1758-06-11'
+    highlight_event_id: guji-黄廷桂-event-3
   - key: closure
-    name: 变价还项牧养备调
+    name: 新藩驰驿赴任军需归核
     labels:
-      zh: 收束
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-beima
+      zh: 善后经理
+    start_date: '1758-07-01'
+    highlight_event_id: guji-黄廷桂-event-3
   decisions:
-  - date: 1757-03
-    title_zh: 请添陕站驿马并动公费先支
-    rationale: 陕站介于甘晋之间道远山险原额马少不足供凯旋大差故请暂添足额事后变价还款
-  - date: 1757-03
-    title_zh: 于巴里坤再备马三四千匹
-    rationale: 西路大兵已进剿马匹耗损多须豫备于后方以资调拨并派兵牧养
+  - date: '1758-06-10'
+    title_zh: 参奏武忱成德因私废公漠视军务
+    rationale: 司道为方面大员军需紧要尤当奋勉乃瞻徇怠玩有玷方伯监司必劾以整饬官常
+  - date: '1758-06-11'
+    title_zh: 请以蒋炳补授甘肃布政使驰驿前往
+    rationale: 藩司总汇钱粮军需非端谨率属不能整饬须得干员迅速接理以免贻误
 - id: guji-黄廷桂-endeavor-2
-  title_zh: 复查三达色附逆疑案
-  summary: 奉旨就三达色是否为莽噶里克侦探及哈密官兵收没金珠等情逐一确查并解送人证进京
+  title_zh: 筹议伊犁屯田招徕回人耕作
+  summary: 请拨屯兵余地安置回人减租赏缎并筹驼运口粮以次兴作伊犁屯田
   phases:
   - key: brewing
-    name: 接军机大臣传谕查案
+    name: 伊犁驻兵屯田初议
     labels:
-      zh: 承旨
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-sandase
+      zh: 驻兵屯垦
+    start_date: '1757-08-01'
+    highlight_event_id: guji-黄廷桂-event-4
   - key: breakthrough
-    name: 核供词与军营原摺异同
+    name: 奏请拨余地安置回人
     labels:
-      zh: 核供
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-sandase
+      zh: 招徕安置
+    start_date: '1758-06-10'
+    highlight_event_id: guji-黄廷桂-event-4
   - key: climax
-    name: 查金珠收没与寄金是否属实
+    name: 朝旨示以缓急得宜密筹
     labels:
-      zh: 追赃
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-sandase
+      zh: 缓急得宜
+    start_date: '1758-06-12'
+    highlight_event_id: guji-黄廷桂-event-4
   - key: closure
-    name: 押解周士儒进京质对
+    name: 综核全局豫备以待定夺
     labels:
-      zh: 解质
-    start_date: 1757-03
-    highlight_event_id: guji-黄廷桂-event-sandase
+      zh: 不动声色
+    start_date: '1758-08-01'
+    highlight_event_id: guji-黄廷桂-event-4
   decisions:
-  - date: 1757-03
-    title_zh: 传讯赛沙布核寄金之事
-    rationale: 三达色称托赛沙布寄金五两与其母须查实以辨哈密官兵收金之供是否捏饰
-  - date: 1757-03
-    title_zh: 将周士儒差押至京质问
-    rationale: 周士儒与三达色一路同行最悉行踪解京质对方可秉公定案不存回护
+  - date: '1758-06-10'
+    title_zh: 请拨屯兵余地令回人垦种减租赏缎
+    rationale: 南路回人相距甚近屯兵余地闲旷若分拨耕种稍示优恤可速得人力以实屯田
+  - date: '1758-08-01'
+    title_zh: 综核转输驼只口粮不动声色豫备
+    rationale: 屯田由近及远稍待一二年亦可行但不得中止须照常经理俟回部荡平再定以免临事周章
 events:
 - id: guji-黄廷桂-event-birth
-  title_zh: 出生
   date: '1691'
   year_of: 1691
-  description: 康熙三十年生汉军正黄旗人后官至文华殿大学士陕甘总督
+  title_zh: 黄廷桂生于江南江都
+  description: 康熙三十年生员出身入仕历巡抚总督以干练边事著称
 - id: guji-黄廷桂-event-death
-  title_zh: 病卒
   date: '1759'
   year_of: 1759
-  description: 乾隆二十四年卒于官谥文襄
-- id: guji-黄廷桂-event-yima
-  title_zh: 奏添陕西驿马获准
-  date: 1757-03
-  year_of: 1757
-  description: 会同陈宏谋奏府谷至定边驿马每站暂添足六十匹于公费动支得旨如所请行
-- id: guji-黄廷桂-event-sandase
-  title_zh: 奉旨确查三达色案
-  date: 1757-03
-  year_of: 1757
-  description: 奉旨查三达色供词与军营原摺是否相符及哈密官兵收取金珠银两与赛沙布寄金之事并押解周士儒进京质对
-- id: guji-黄廷桂-event-beima
-  title_zh: 筹备巴里坤战马
-  date: 1757-03
-  year_of: 1757
-  description: 奉旨速筹巴里坤马三四千匹以资西路大兵调拨并加意牧养备不时之需
+  title_zh: 黄廷桂卒于陕甘总督任
+  description: 乾隆二十四年卒于位谥勤敏以经理西陲军需屯田劳勚蒙优恤
+- id: guji-黄廷桂-event-3
+  date: '1758-06-10'
+  year_of: 1758
+  title_zh: 参劾甘肃布政使武忱粮道成德
+  description: 乾隆二十三年五月己丑黄廷桂参奏武忱成德因私废公漠视军务上谕俱革职交其效力赎罪以蒋炳补授甘肃布政使
+- id: guji-黄廷桂-event-4
+  date: '1758-06-11'
+  year_of: 1758
+  title_zh: 奏筹伊犁屯田安置回人贸易
+  description: 乾隆二十三年五月黄廷桂奏伊犁驻兵屯田请以余地拨回人耕种减租赏缎并筹贸易上谕以悬赏招徕未协体制令综核全局缓急得宜密筹以待

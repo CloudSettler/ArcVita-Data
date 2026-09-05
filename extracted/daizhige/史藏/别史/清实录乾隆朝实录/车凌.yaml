@@ -6,151 +6,122 @@ person:
     en: Cheling
   lifespan:
     birth:
-      date: 1705-01-01
+      date: 1700
       precision: year
       is_circa: true
-      raw: 生年不详，约康熙末雍正初
+      raw: 生年不详约清初
     death:
-      date: 1775-01-01
-      precision: year
-      is_circa: true
-      raw: 卒年不详，乾隆中后期
-  birth_date: 1705-01-01
-  death_date: 1775-01-01
-  era: 清代
-  reign_ref: 乾隆
-  archetype: 归义藩部领袖
+      date: 1758-05-12
+      precision: day
+      is_circa: false
+      raw: 乾隆二十三年夏四月溘逝
+  birth_date: 1700
+  death_date: 1758-05-12
+  era: 清乾隆
+  reign_ref: 乾隆二十三年
+  archetype: 识时归诚之藩汗
   dilemmas:
-  - 准部内乱相寻旧部糜烂，是随达瓦齐内斗还是率众另寻生路
-  - 身为杜尔伯特渠帅投诚大清恐被视作背主，如何取信朝廷以安万众
-  - 游牧生计困苦牲畜耔种皆赖官给，如何约束部众安分谋生以副恩遇
-  lesson: 乱世保部贵在审时归正，约束部众以全生民
-  summary_first_person: 我本杜尔伯特台吉，见达瓦齐弑夺篡立准部糜烂，率万余众倾心来归，蒙大皇帝封我为亲王授扎萨克，赏银畜以活部众，我唯约束教养安分谋生以报厚恩
+  - 准噶尔扰乱之初去就抉择
+  - 归诚之后约束部众守静安边
+  lesson: 识时慕义守静安众可保全终始
+  summary_first_person: 我当准部扰乱即识时慕义率属归诚平定之后感恩效力约束游牧以安静自守
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0464.md
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0560.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0560.md
 endeavors:
 - id: guji-车凌-endeavor-1
-  person_id: guji-车凌
-  title_zh: 率杜尔伯特万众归诚
-  description: 达瓦齐篡立后准部内乱，车凌与车凌乌巴什等率万余人脱离准噶尔来归，朝廷收养于喀尔喀牧地，赏羊麦耔种以济生计
+  title_zh: 准噶尔乱初率属归诚
+  summary_zh: 准噶尔扰乱之初识时慕义率杜尔伯特部众归诚清朝
   phases:
   - key: brewing
-    name: 准部乱离
+    name: 乱起观变
     labels:
-      zh:
-      - 内乱
-      - 离心
-    start_date: 1753-09-01
-    highlight_event_id: guji-车凌-event-guiyi
+      zh: 准部扰乱
+    start_date: 1753
+    highlight_event_id: guji-车凌-event-guicheng
   - key: breakthrough
-    name: 倾心来归
+    name: 决意归诚
     labels:
-      zh:
-      - 归附
-      - 收抚
-    start_date: 1753-12-01
-    highlight_event_id: guji-车凌-event-guiyi
+      zh: 率属归诚
+    start_date: 1754
+    highlight_event_id: guji-车凌-event-guicheng
   - key: climax
-    name: 抵达热河朝见
+    name: 奉表内附
     labels:
-      zh:
-      - 朝见
-      - 施恩
-    start_date: 1754-07-01
-    highlight_event_id: guji-车凌-event-fengwang
+      zh: 慕义来归
+    start_date: 1754
+    highlight_event_id: guji-车凌-event-guicheng
   - key: closure
-    name: 安插牧地
+    name: 受封安抚
     labels:
-      zh:
-      - 安插
-      - 接济
-    start_date: 1754-07-03
-    highlight_event_id: guji-车凌-event-cibanquet
+      zh: 加恩抚绥
+    start_date: 1755
+    highlight_event_id: guji-车凌-event-guicheng
   decisions:
-  - date: 1753-12-01
-    title_zh: 决计脱离达瓦齐率众东归
-    rationale: 不忍部众陷于达瓦齐与诸宰桑构衅糜烂，慕大清德化，率万众以求生全
-  - date: 1754-07-01
-    title_zh: 赴山庄诚心朝觐听命编旗
-    rationale: 既已来归即以诚信取信朝廷，愿受扎萨克约束，换取牲畜耔种长久安生
+  - date: 1754
+    title_zh: 率属归诚
+    rationale: 准部扰乱识时慕义以保部众安全
 - id: guji-车凌-endeavor-2
-  person_id: guji-车凌
-  title_zh: 受封亲王编旗授扎萨克
-  description: 乾隆十九年五月封车凌为杜尔伯特亲王授扎萨克，与车凌乌巴什等分封王贝勒贝子公台吉，编次旗分佐领，入觐赐宴赏银
+  title_zh: 准部平定后约束守静
+  summary_zh: 准部荡平之后始终感恩效力约束游牧人等甚属安静
   phases:
   - key: brewing
-    name: 怀柔议封
+    name: 平定感恩
     labels:
-      zh:
-      - 怀柔
-      - 议封
-    start_date: 1754-06-01
-    highlight_event_id: guji-车凌-event-fengwang
+      zh: 感激朕恩
+    start_date: 1756
+    highlight_event_id: guji-车凌-event-shoujing
   - key: breakthrough
-    name: 加恩封王
+    name: 抒忱效力
     labels:
-      zh:
-      - 封王
-      - 扎萨克
-    start_date: 1754-07-02
-    highlight_event_id: guji-车凌-event-fengwang
+      zh: 效力守边
+    start_date: 1756
+    highlight_event_id: guji-车凌-event-shoujing
   - key: climax
-    name: 澹泊敬诚召见赐宴
+    name: 约束游牧
     labels:
-      zh:
-      - 召见
-      - 恩赏
-    start_date: 1754-07-03
-    highlight_event_id: guji-车凌-event-cibanquet
+      zh: 安静守牧
+    start_date: 1757
+    highlight_event_id: guji-车凌-event-shoujing
   - key: closure
-    name: 编旗约束教养
+    name: 身后加恩承袭
     labels:
-      zh:
-      - 编旗
-      - 教养
-    start_date: 1754-07-04
-    highlight_event_id: guji-车凌-event-bianqi
+      zh: 溘逝加恩
+    start_date: 1758-05-12
+    highlight_event_id: guji-车凌-event-death
   decisions:
-  - date: 1754-07-02
-    title_zh: 恪受亲王封号与扎萨克之职
-    rationale: 蒙恩列为首封亲王，当率先约束部众安分谋生，以副永沐皇恩之训
-  - date: 1754-07-03
-    title_zh: 领宴赏誓效忠诚
-    rationale: 身受银五千两及部众分赏，唯以教养所属遵循训旨为报，不敢懈怠
+  - date: 1757
+    title_zh: 约束所部安静守牧
+    rationale: 以安静自守副朝廷怀柔以保盟部宁谧
+  - date: 1758-05-12
+    title_zh: 遗爵由子承袭
+    rationale: 汗爵令子索诺木衮布承袭并授盟长以续约束
 events:
 - id: guji-车凌-event-birth
-  person_id: guji-车凌
-  date: 1705-01-01
-  year_of: 1705
-  title_zh: 出生
-  description: 杜尔伯特部台吉，生年不详，约生于康熙末雍正初准噶尔部
-- id: guji-车凌-event-guiyi
-  person_id: guji-车凌
-  date: 1753-12-01
-  year_of: 1753
-  title_zh: 率万余众归附大清
-  description: 与车凌乌巴什等率杜尔伯特万余人倾心来归，朝廷令驻牧喀尔喀，赏给羊只大麦耔种接济生计
-- id: guji-车凌-event-fengwang
-  person_id: guji-车凌
-  date: 1754-07-02
+  title_zh: 车凌出生
+  date: 1700
+  year_of: 1700
+  type: birth
+  place_zh: 杜尔伯特游牧
+  summary_zh: 杜尔伯特汗车凌出生生年不详
+- id: guji-车凌-event-guicheng
+  title_zh: 率属归诚
+  date: 1754
   year_of: 1754
-  title_zh: 封杜尔伯特亲王授扎萨克
-  description: 乾隆十九年五月谕封车凌为亲王，车凌乌巴什为郡王以下分封贝勒贝子公台吉，均授扎萨克，命玉保麒麟保办理编旗佐领
-- id: guji-车凌-event-cibanquet
-  person_id: guji-车凌
-  date: 1754-07-03
-  year_of: 1754
-  title_zh: 避暑山庄召见赐宴赏银
-  description: 高宗御澹泊敬诚殿召见新封亲王车凌等赐宴，赏车凌银五千两，随从百余人各赏银有差
-- id: guji-车凌-event-bianqi
-  person_id: guji-车凌
-  date: 1754-07-04
-  year_of: 1754
-  title_zh: 部众编旗分佐领安生
-  description: 所部人户编次旗分佐领补放官职，约束教养安分谋生，为后分驻游牧众建分势之先声
+  type: career
+  place_zh: 准噶尔部
+  summary_zh: 当准噶尔扰乱之初识时慕义率属归诚
+- id: guji-车凌-event-shoujing
+  title_zh: 约束游牧安静守边
+  date: 1757
+  year_of: 1757
+  type: career
+  place_zh: 杜尔伯特游牧
+  summary_zh: 准部荡平之后始终感激效力约束游牧人等甚属安静
 - id: guji-车凌-event-death
-  person_id: guji-车凌
-  date: 1775-01-01
-  year_of: 1775
-  title_zh: 逝世
-  description: 卒年不详，乾隆中后期去世，亲王世系由部众承袭安牧北路
+  title_zh: 车凌溘逝
+  date: 1758-05-12
+  year_of: 1758
+  type: death
+  place_zh: 杜尔伯特游牧
+  summary_zh: 乾隆二十三年夏四月车凌溘逝朝廷加恩治丧奠醊子索诺木衮布承袭汗爵
