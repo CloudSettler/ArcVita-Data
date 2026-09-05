@@ -18,101 +18,105 @@ person:
   birth_date: 1724-07-26
   death_date: 1805-03-14
   era: 清
-  reign_ref: 乾隆五十三年
-  archetype: 词臣典籍型
+  reign_ref: 乾隆
+  archetype: 学者型文臣
   dilemmas:
-  - 精审校勘与省事合匣之衡
-  - 直陈排架错乱与保全承办旧员之难
-  lesson: 典籍装函排架当归原次不可图省合匣纷错既见即当抽换厘正以存全书之真
-  summary_first_person: 吾献县纪昀以词臣总纂四库久历馆阁乾隆五十三年赴热河查办文津阁抽换书匣见陆费墀合零帙为一匣以省配搭致纷纭错乱遂逐种抽出归还原次互换书匣改刻匣面以正全书陈设不敢以省事人情废校雠之义
+  - 卷帙浩繁而校勘须精审之难
+  - 总司其事而属员疏漏连带获咎之难
+  lesson: 校书如治学须亲核卷首细处方能补脱正讹以臻完善
+  summary_first_person: 我少习经史以文名进身，蒙高宗擢为四库全书总纂，昼夜校勘，终因文津阁扬子法言脱去注家名氏二行及缮写讹错屡见，未能亲加订正，两遭交部议处，此生愧于虚应故事之讥，愿后人以精诚补我之疏忽
   source_urls:
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71316.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71316.md
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71383.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71383.html
 endeavors:
 - id: guji-纪昀-endeavor-1
-  title_zh: 总纂四库全书校雠典籍
-  summary_zh: 开馆受任总纂辨章学术考据源流以定七阁全书体例
+  title_zh: 总纂四库全书并详加校阅
+  description_zh: 奉命为四库全书总纂，督率详校官核勘脱落讹舛，务使列阁藏书完善无憾
   phases:
   - key: brewing
-    name: 开馆受任
+    name: 奉命总纂开馆校书
     labels:
-      zh: 筹备议例
-    start_date: 1773-03-01
-    highlight_event_id: guji-纪昀-event-siku
+      zh: 酝酿筹备
+    start_date: 1773-02-19
+    highlight_event_id: guji-纪昀-event-1
   - key: breakthrough
-    name: 分纂校勘
+    name: 分科纂辑详校订正
     labels:
-      zh: 校雠
-    start_date: 1774-01-01
-    highlight_event_id: guji-纪昀-event-siku
+      zh: 编纂突破
+    start_date: 1782-05-01
+    highlight_event_id: guji-纪昀-event-1
+  - key: climax
+    name: 文津阁法言脱行事发
+    labels:
+      zh: 受谴高峰
+    start_date: 1791-08-11
+    highlight_event_id: guji-纪昀-event-1
   - key: closure
-    name: 缮写陈设
+    name: 交部议处自省愧恧
     labels:
-      zh: 装函排架
-    start_date: 1782-01-01
-    highlight_event_id: guji-纪昀-event-rehe
+      zh: 收束反省
+    start_date: 1791-08-12
+    highlight_event_id: guji-纪昀-event-1
   decisions:
-  - date: 1773-03-13
-    title_zh: 应诏入馆任总纂
-    rationale: 以考据长于辨伪存真可正群书体例故受任总其成
-  - date: 1782-06-01
-    title_zh: 定分馆缮写排架之法
-    rationale: 零帙须归原次朝代门类不可合匣省事以免纷错故立排架之准
+  - date: 1791-08-11
+    title_zh: 认咎详校失察
+    rationale: 卷首空二行显而易见而未寓目，确系漫不经心，甘受议处以明职守
+  - date: 1791-08-12
+    title_zh: 请亲核补正御制文
+    rationale: 御制扬雄法言未弁于卷首，须亲往补录以全敬慎之体
 - id: guji-纪昀-endeavor-2
-  title_zh: 赴热河抽换文津阁书匣厘正排架
-  summary_zh: 赴热河查文津阁陈设抽出合匣零帙归还原次互换改刻以正错乱
+  title_zh: 巡核文渊文源文津三阁藏书
+  description_zh: 带同详校各官抽查三阁全书，填补扬子法言空行并缮录御制文，遍检他书类此脱误
   phases:
   - key: brewing
-    name: 奉派赴热河查阁
+    name: 奉旨复查北阁藏书
     labels:
-      zh: 查验
-    start_date: 1788-10-01
-    highlight_event_id: guji-纪昀-event-rehe
+      zh: 酝酿受命
+    start_date: 1791-08-11
+    highlight_event_id: guji-纪昀-event-2
+  - key: breakthrough
+    name: 抽阅法言核对次卷
+    labels:
+      zh: 查缺突破
+    start_date: 1791-08-12
+    highlight_event_id: guji-纪昀-event-2
   - key: climax
-    name: 抽换厘正奏闻
+    name: 缮写讹错不一而足再被严谴
     labels:
-      zh: 厘正
-    start_date: 1788-12-01
-    highlight_event_id: guji-纪昀-event-rehe
+      zh: 再谴高峰
+    start_date: 1791-08-16
+    highlight_event_id: guji-纪昀-event-2
   - key: closure
-    name: 交琅玕质问陆费墀
+    name: 亲赴二阁抽查填改
     labels:
-      zh: 追责
-    start_date: 1788-12-11
-    highlight_event_id: guji-纪昀-event-rehe
+      zh: 填补收束
+    start_date: 1791-08-17
+    highlight_event_id: guji-纪昀-event-2
   decisions:
-  - date: 1788-12-01
-    title_zh: 奏陈合匣纷错请抽换归次
-    rationale: 陆费墀将数种零帙合为一匣以省配搭已致纷纭故须逐种抽出毋庸多造以归原次
-  - date: 1788-12-11
-    title_zh: 据实覆奏不为旧员隐
-    rationale: 四阁陈设系陆费墀一手承办既查出错谬甚多即当明白登答以全信史故直陈无隐
+  - date: 1791-08-16
+    title_zh: 再认虚应故事之咎
+    rationale: 余书恐多类此错误，前次核勘全未寓目，唯有悉心详检以赎前愆
+  - date: 1791-08-17
+    title_zh: 带员抽阅一体填改
+    rationale: 若再不详检经上看出必加倍治罪，当亲检卷首及他书以防再误
 events:
 - id: guji-纪昀-event-birth
-  person_id: guji-纪昀
-  title_zh: 出生于直隶献县
   date: 1724-07-26
   year_of: 1724
-  kind: birth
-  description: 雍正二年六月十五生于直隶献县纪氏宦学之家
-- id: guji-纪昀-event-siku
-  person_id: guji-纪昀
-  title_zh: 入四库全书馆任总纂官
-  date: 1773-03-13
-  year_of: 1773
-  kind: career
-  description: 乾隆三十八年开四库全书馆受任总纂校理永乐大典散书辨章学术总其成
-- id: guji-纪昀-event-rehe
-  person_id: guji-纪昀
-  title_zh: 赴热河办抽换书匣奏上
-  date: 1788-12-01
-  year_of: 1788
-  kind: career
-  description: 乾隆五十三年十一月奏前赴热河办理抽换书匣查出陆费墀排架时以零帙合匣致纷纭错乱现逐种抽出归还原次互换改刻匣面得旨钞寄琅玕令陆费墀明白登答
+  title_zh: 纪昀生于直隶献县
+  description_zh: 雍正二年六月十五生于献县崔尔庄纪氏宦学之家，少敏而博览
+- id: guji-纪昀-event-1
+  date: 1791-08-11
+  year_of: 1791
+  title_zh: 文津阁法言脱二行初交部议处
+  description_zh: 高宗偶阅文津阁四库全书扬子法言卷一首篇空白二行，系脱晋唐及宋人注释名氏，又未补录御制文，谕将纪昀及详校官庄通敏交部分别议处，并命军机大臣填补缮录
+- id: guji-纪昀-event-2
+  date: 1791-08-16
+  year_of: 1791
+  title_zh: 讹错众多再交部议处并命亲核三阁
+  description_zh: 军机大臣详阅法言一书缮写讹错不一而足，高宗以从前核勘虚应故事，谕纪昀庄通敏再交部议处，命纪昀亲赴文渊文源二阁检出此书冠御制文于简端，带员抽查卷首及他书一体填改，否则加倍治罪
 - id: guji-纪昀-event-death
-  person_id: guji-纪昀
-  title_zh: 卒于京师
   date: 1805-03-14
   year_of: 1805
-  kind: death
-  description: 嘉庆十年二月十四卒于京师终协办大学士谥文达
+  title_zh: 纪昀卒于京师
+  description_zh: 嘉庆十年二月十四卒于京师，谥文达，遗阅微草堂笔记等行世
