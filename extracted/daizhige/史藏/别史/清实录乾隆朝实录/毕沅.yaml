@@ -6,124 +6,145 @@ person:
     en: Bi Yuan
   lifespan:
     birth:
-      date: '1730'
-      precision: year
-      is_circa: false
-      raw: 雍正八年
-    death:
-      date: '1797-07-28'
+      date: 1730-11-30
       precision: day
       is_circa: false
-      raw: 嘉庆二年六月初五
-  birth_date: '1730'
-  death_date: '1797-07-28'
+      raw: 雍正八年十月生于江苏镇洋
+    death:
+      date: 1797-07-27
+      precision: day
+      is_circa: false
+      raw: 嘉庆二年六月卒于陕西巡抚任所
+  birth_date: 1730-11-30
+  death_date: 1797-07-27
   era: 清代
   reign_ref: 乾隆
-  archetype: 经世封疆
+  archetype: 疆臣经世型
   dilemmas:
-  - 截漕济豫与兼顾东省民食之间如何权衡
-  - 鼓铸权宜全用高铜与恪守高七低三旧例之间如何抉择
-  lesson: 先储后赈以实心行实政通权达变以济民艰
-  summary_first_person: 吾毕沅镇洋人由陕抚调任豫抚值卫辉久旱仓储空虚奏请截留豫东漕粮三十万石以备赈借又覆陈宝陕局高七低三鼓铸之制权宜全用高铜以免停炉惟尽心民瘼不敢自逸
+  - 聚众滋事案犯众多，速审定案与彻底清查余党之间如何兼顾
+  - 豫北旱灾救济迫切，奏报灾情据实与安民感召之间如何持平
+  lesson: 封疆当以实心任事，缉捕务尽不留漏网，赈恤宜速不拘文法，方能安民
+  summary_first_person: 吾毕沅，镇洋人，忝抚河南，值柘城匪聚与卫辉久旱，夙夜焦劳，惟以严缉余党，速赈灾黎，晓谕民人，防守河汛为念，不敢讳饰延缓，以负圣恩
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1226.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1231.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1231.md
 endeavors:
 - id: guji-毕沅-endeavor-1
-  title_zh: 调抚河南截漕备赈
-  summary_zh: 甫莅豫抚察卫辉久旱仓储空虚奏请截留豫东漕粮并雇民船递运以备赈借耔种
+  title_zh: 河南柘城匪案查拏审办
+  summary_zh: 任河南巡抚期间，督办柘城王立山等聚众抗官案，已获二百余人，协调皖苏堵截，解豫质审
   phases:
   - key: brewing
-    name: 履任察灾
+    name: 柘城聚众滋事初起
     labels:
-      zh: 察灾储粮
-    start_date: 1785-04
+      zh:
+      - 缉捕酝酿
+    start_date: 1785-05-20
     highlight_event_id: guji-毕沅-event-1
   - key: breakthrough
-    name: 奏请截漕
+    name: 亳州拿获首犯王立山
     labels:
-      zh: 截漕备荒
-    start_date: 1785-04
+      zh:
+      - 跨省协缉
+    start_date: 1785-06-07
     highlight_event_id: guji-毕沅-event-1
   - key: climax
-    name: 奉旨加截三十万石
+    name: 余党解豫质审
     labels:
-      zh: 得旨加拨
-    start_date: 1785-04
-    highlight_event_id: guji-毕沅-event-1
+      zh:
+      - 审办高潮
+    start_date: 1785-06-15
+    highlight_event_id: guji-毕沅-event-2
   - key: closure
-    name: 雇船递运备用
+    name: 定议具奏安民
     labels:
-      zh: 转运接济
-    start_date: 1785-05
-    highlight_event_id: guji-毕沅-event-1
+      zh:
+      - 收束定案
+    start_date: 1785-06-22
+    highlight_event_id: guji-毕沅-event-2
   decisions:
-  - date: 1785-04
-    title_zh: 请截豫省六帮米豆并截山东粟米凑足二十万石
-    rationale: 河北仓储因连年积歉蠲缓散给存贮无多而别府不通水路挽运维艰须就近截漕雇民船速运
-  - date: 1785-04
-    title_zh: 遵旨于豫东两省竟给三十万石不足则拨南粮凑足
-    rationale: 卫辉被旱已久穷黎口食维艰雨后尚须借给耔种口粮非宽储不能应赈贷之需
+  - date: 1785-06-07
+    title_zh: 奏报已获二百余人并将首犯解豫
+    rationale: 首犯就获则大局已定，宜速奏以安人心，并严缉窜逸余党毋使漏网
+  - date: 1785-06-15
+    title_zh: 会同安徽江苏堵截交界窜匪
+    rationale: 萧砀归德壤地毗连，恐余犯窜入徐境，宜饬属分途查缉并驻员堵截
 - id: guji-毕沅-endeavor-2
-  title_zh: 覆陈宝陕局鼓铸章程
-  summary_zh: 在陕抚任内查明宝陕局高七低三旧例覆奏滇省低铜未到时权宜全用高铜配铅锡以免停炉
+  title_zh: 豫北旱灾赈济与黄河防汛
+  summary_zh: 卫辉等处被旱较重，展赈三月，晓谕民人，并筹归德河工防守，保秋汛安澜
   phases:
   - key: brewing
-    name: 查定旧例
+    name: 卫辉缺雨麦收歉薄
     labels:
-      zh: 钱法稽查
-    start_date: 1785-01
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 灾象初显
+    start_date: 1785-05-01
+    highlight_event_id: guji-毕沅-event-3
   - key: breakthrough
-    name: 通融配铸
+    name: 请旨展赈三月抚恤
     labels:
-      zh: 权宜鼓铸
-    start_date: 1785-04
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 请赈突破
+    start_date: 1785-06-07
+    highlight_event_id: guji-毕沅-event-3
   - key: climax
-    name: 覆奏成本无多
+    name: 晓谕安民以召甘霖赶种大田
     labels:
-      zh: 核算成本
-    start_date: 1785-04
-    highlight_event_id: guji-毕沅-event-2
+      zh:
+      - 赈济高潮
+    start_date: 1785-06-15
+    highlight_event_id: guji-毕沅-event-3
   - key: closure
-    name: 请俟滇铜到仍照旧例
+    name: 归德河工防守度汛
     labels:
-      zh: 归复旧章
-    start_date: 1785-04
+      zh:
+      - 防河收束
+    start_date: 1785-06-18
     highlight_event_id: guji-毕沅-event-2
   decisions:
-  - date: 1785-04
-    title_zh: 暂行全用高铜配铅锡鼓铸
-    rationale: 滇省低铜未到若拘旧例则停炉歇卯权宜全用高铜仍属低铜钱文且省低铜加耗无私销之利
-  - date: 1785-04
-    title_zh: 十三运滇铜到局仍照高七低三鼓铸
-    rationale: 权宜不可为常俟来料充裕即复旧例以符定章而杜弊窦
+  - date: 1785-06-07
+    title_zh: 为汲县淇县等处展赈并出示晓谕
+    rationale: 灾黎拮据当速加恩恤，剀切晓谕使不存怨尤，以期感召甘霖赶种秋禾
+  - date: 1785-06-18
+    title_zh: 奏请以赵载元署理归德府事
+    rationale: 归德滨临黄河绵长三百余里，将届大汛必得熟谙河务之员方资防守
 events:
 - id: guji-毕沅-event-birth
   type: birth
-  title_zh: 生于江苏镇洋
-  date: '1730'
+  event_type: birth
+  title_zh: 出生于江苏镇洋
+  date: 1730-11-30
   year_of: 1730
   place_zh: 江苏镇洋
-  description_zh: 雍正八年生于江苏镇洋字纕蘅号秋帆
-- id: guji-毕沅-event-1
-  type: career
-  title_zh: 调任河南巡抚奏请截漕三十万石备赈
-  date: 1785-04
-  year_of: 1785
-  place_zh: 河南卫辉
-  description_zh: 乾隆五十年三月毕沅奏卫辉一带被旱仓储无多请截豫省米豆及山东漕米得旨于豫东两省竟给三十万石不足拨南粮凑足
-- id: guji-毕沅-event-2
-  type: career
-  title_zh: 覆奏宝陕局鼓铸高低铜章程
-  date: 1785-04
-  year_of: 1785
-  place_zh: 陕西宝陕局
-  description_zh: 毕沅在陕抚任内查宝陕局每铜百斤用高铜七分低铜三分配铅锡之例覆奏滇低铜未到权宜全用高铜俟十三运到仍照旧例
+  summary_zh: 雍正八年十月生于江苏镇洋，字纕蘅号秋帆，少力学
 - id: guji-毕沅-event-death
   type: death
-  title_zh: 卒于嘉庆二年
-  date: '1797-07-28'
+  event_type: death
+  title_zh: 病卒于陕西巡抚任上
+  date: 1797-07-27
   year_of: 1797
   place_zh: 陕西西安
-  description_zh: 嘉庆二年六月初五卒于陕西巡抚任上谥文慎
+  summary_zh: 嘉庆二年六月卒于任，谥文恪，著述甚富
+- id: guji-毕沅-event-1
+  type: career
+  event_type: career
+  title_zh: 奏报柘城匪案已获二百余人
+  date: 1785-06-07
+  year_of: 1785
+  place_zh: 河南开封
+  summary_zh: 乾隆五十年五月奏称柘城聚众抗官案已拿获二百余人，首犯王立山等经安徽亳州拿获，正解豫质审，饬属严缉余党
+- id: guji-毕沅-event-2
+  type: career
+  event_type: career
+  title_zh: 奏请归德府员缺署理以资河防
+  date: 1785-06-18
+  year_of: 1785
+  place_zh: 河南归德
+  summary_zh: 以归德知府穆克登泰赴京引见，滨临黄河，请以下北河同知赵载元署理，督率防护秋汛
+- id: guji-毕沅-event-3
+  type: career
+  event_type: career
+  title_zh: 河南卫辉旱灾展赈与晓谕求雨
+  date: 1785-06-22
+  year_of: 1785
+  place_zh: 河南卫辉
+  summary_zh: 汲县淇县等处被灾较重展赈三月，奉旨以御制诗钞晓谕民人不可怨尤，并查报得雨及大田能否赶种情形
