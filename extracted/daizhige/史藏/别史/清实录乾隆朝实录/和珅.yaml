@@ -9,7 +9,7 @@ person:
       date: 1750-07-01
       precision: day
       is_circa: false
-      raw: 乾隆十五年五月二十八日
+      raw: 乾隆十五年六月初一
     death:
       date: 1799-02-22
       precision: day
@@ -17,97 +17,116 @@ person:
       raw: 嘉庆四年正月十八日
   birth_date: 1750-07-01
   death_date: 1799-02-22
-  era: 清乾隆嘉庆之际
-  reign_ref: 乾隆六十年
-  archetype: 枢臣权相
+  era: 清代
+  reign_ref: 乾隆嘉庆
+  archetype: 权臣
   dilemmas:
-  - 依附皇权以集事与招致清议物望之两难
-  - 整饬纲纪以振吏治与保全故旧情面之两难
-  lesson: 枢要之任当以公忠体国为本权宠盛极而忘戒则覆败随之
-  summary_first_person: 吾自少年侍卫蒙高宗擢拔入直军机晋文华殿大学士乾隆六十年四月充殿试读卷官衡定一甲王以衔等三卷惟愿敬慎抡才仰副圣心勤勉襄赞早靖苗疆
+  - 襄赞军机须独揽承旨以固宠又恐专权而致怨谤
+  - 总办庆典须仰体节俭不加增又须隆备典礼以惬圣心
+  lesson: 依附君权以集事虽速显荣然独揽而不知退终致覆败
+  summary_first_person: 我是和珅由侍卫起家深荷太上皇帝眷任嘉庆三年因襄赞川省军机随勒保生擒王三槐而晋封一等公又总理重建乾清宫工程并总办九旬万寿庆典一时恩宠至极
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71477.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71477.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71499.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71499.html
 endeavors:
 - id: guji-和珅-endeavor-1
-  title_zh: 枢府衡文领衔殿试读卷
-  summary: 以大学士充殿试读卷官衡定乾隆六十年甲第抡才为国
+  title_zh: 襄赞川楚教匪军机晋封公爵
+  summary: 嘉庆初年川楚教匪不靖我在军机处承旨书谕经理剿捕因勒保扫荡安乐坪生擒王三槐而得加恩晋封一等公
   phases:
   - key: brewing
-    name: 入直军机储望渐隆
+    name: 承旨经理军务
     labels:
-      zh:
-      - 军机
-      - 储望
-    start_date: 1776-08-01
-    highlight_event_id: guji-和珅-event-1776-junji
-  - key: climax
-    name: 大学士领衔读卷定甲第
-    labels:
-      zh:
-      - 殿试
-      - 读卷
-    start_date: 1795-05-06
-    highlight_event_id: guji-和珅-event-1795-dujuan
-  decisions:
-  - date: 1795-05-06
-    title_zh: 充殿试读卷官衡定一甲三卷
-    rationale: 以唐虞三代之心为心敬慎衡文为朝廷遴拔遗才以副求治之心
-- id: guji-和珅-endeavor-2
-  title_zh: 襄赞枢务督理苗疆军需
-  summary: 襄赞乾隆末年湖南贵州苗匪军务督饬后路粮运抚辑降苗
-  phases:
+      zh: 军机襄赞
+    start_date: 1796-01-01
+    highlight_event_id: guji-和珅-event-fenggong
   - key: breakthrough
-    name: 参赞苗疆调度后路
+    name: 安乐坪扫穴擒渠
     labels:
-      zh:
-      - 苗疆
-      - 军需
-    start_date: 1795-03-01
-    highlight_event_id: guji-和珅-event-1795-miao
+      zh: 生擒王三槐
+    start_date: 1798-09-08
+    highlight_event_id: guji-和珅-event-fenggong
+  - key: climax
+    name: 加恩晋封公爵
+    labels:
+      zh: 军功锡庆
+    start_date: 1798-09-09
+    highlight_event_id: guji-和珅-event-fenggong
   - key: closure
-    name: 议叙抚恤安辑善后
+    name: 定议一等世袭
     labels:
-      zh:
-      - 抚恤
-      - 善后
-    start_date: 1795-04-20
-    highlight_event_id: guji-和珅-event-1795-xuanhu
+      zh: 世袭罔替
+    start_date: 1798-09-15
+    highlight_event_id: guji-和珅-event-shixi
   decisions:
-  - date: 1795-04-20
-    title_zh: 议加赏黄瓜寨奋勇兵丁钱粮
-    rationale: 体恤士卒冒雨奋勇两昼夜攻克贼巢当示鼓励以坚斗志
-  - date: 1795-04-25
-    title_zh: 请蠲缓贵州镇远思南等府县钱粮
-    rationale: 官兵经过地方民力维艰当分别蠲免缓徵以副惠爱穷檐至意
+  - date: 1798-09-08
+    title_zh: 承旨书谕一手经理剿捕机宜
+    rationale: 秉承太上皇帝训谕随时指示勒保调度以速奏扫穴擒渠之功
+  - date: 1798-09-15
+    title_zh: 会吏部议定一等公世袭
+    rationale: 援平定黔苗通侯旧例请定世袭之秩以显殊恩而定人心
+- id: guji-和珅-endeavor-2
+  title_zh: 总理乾清宫工程兼办九旬庆典
+  summary: 总理重建乾清宫交泰殿工程速成告竣复奉派总办太上皇帝庚申九旬万寿庆典经理仪文
+  phases:
+  - key: brewing
+    name: 总理宫殿重建
+    labels:
+      zh: 兴工监修
+    start_date: 1798-01-01
+    highlight_event_id: guji-和珅-event-qianqing
+  - key: breakthrough
+    name: 秋仲告成复观
+    labels:
+      zh: 规模宏整
+    start_date: 1798-11-01
+    highlight_event_id: guji-和珅-event-qianqing
+  - key: climax
+    name: 奉派总办庆典
+    labels:
+      zh: 九旬万寿
+    start_date: 1798-12-01
+    highlight_event_id: guji-和珅-event-wanshou
+  - key: closure
+    name: 筹备恩科乡会试
+    labels:
+      zh: 衍庆推恩
+    start_date: 1798-12-02
+    highlight_event_id: guji-和珅-event-wanshou
+  decisions:
+  - date: 1798-11-01
+    title_zh: 不费采购速办宫殿工程
+    rationale: 趁春融兴工秋仲告成以复旧观而不滋糜费仰慰太上皇帝嘉悦之心
+  - date: 1798-12-01
+    title_zh: 总办九旬庆典不加增华靡
+    rationale: 遵照康熙六十年及乾隆五十五年典例备办以副孝养胪欢又体节俭之意
 events:
 - id: guji-和珅-event-birth
-  title_zh: 出生于京师钮祜禄氏家
   date: 1750-07-01
   year_of: 1750
-  description: 乾隆十五年五月二十八日生于京师少孤家贫力学
-- id: guji-和珅-event-1776-junji
-  title_zh: 授军机大臣总理枢务
-  date: 1776-08-01
-  year_of: 1776
-  description: 由侍卫擢升入直军机处渐蒙高宗倚任
-- id: guji-和珅-event-1795-dujuan
-  title_zh: 以大学士充殿试读卷官
-  date: 1795-05-06
-  year_of: 1795
-  description: 乾隆六十年四月与王杰刘墉董诰纪昀等同充殿试读卷官亲阅定王以衔莫晋潘世璜为一甲
-- id: guji-和珅-event-1795-miao
-  title_zh: 襄赞湖南贵州苗匪军务
-  date: 1795-03-15
-  year_of: 1795
-  description: 湖南苗匪滋事与福康安和琳筹划进剿督饬永绥后路粮运
-- id: guji-和珅-event-1795-xuanhu
-  title_zh: 议蠲贵州兵过州县钱粮
-  date: 1795-04-20
-  year_of: 1795
-  description: 会奏请蠲免镇远思南等府县地丁十分之五及缓徵十分之五以纾民力
+  title_zh: 生于正红旗钮祜禄氏家
+  description: 乾隆十五年六月初一生于京师后由侍卫起家
+- id: guji-和珅-event-fenggong
+  date: 1798-09-08
+  year_of: 1798
+  title_zh: 因川匪军功晋封公爵
+  description: 勒保奏扫荡安乐坪生擒首逆王三槐太上皇帝以我在军机襄赞机宜承旨书谕加恩晋封公爵
+- id: guji-和珅-event-shixi
+  date: 1798-09-15
+  year_of: 1798
+  title_zh: 定为一等公世袭罔替
+  description: 吏部奏请定爵秩奉旨俱作为一等照例承袭我与勒保俱为一等公福长安为侯爵
+- id: guji-和珅-event-qianqing
+  date: 1798-11-01
+  year_of: 1798
+  title_zh: 重建乾清宫告成受恩免议叙
+  description: 同皇帝阅视乾清宫交泰殿工程规模宏整因已有军功加恩毋庸议叙命分别等第议叙在工人员
+- id: guji-和珅-event-wanshou
+  date: 1798-12-01
+  year_of: 1798
+  title_zh: 奉派总办九旬万寿庆典
+  description: 皇帝率王大臣吁请庚申年举行太上皇帝九旬庆典奉派我与王杰苏凌阿刘墉福长安彭元瑞总办并定己未庚申恩科乡会试
 - id: guji-和珅-event-death
-  title_zh: 嘉庆四年赐死于京师
   date: 1799-02-22
   year_of: 1799
-  description: 高宗崩后为仁宗所罪赐自尽于狱中年五十
+  title_zh: 嘉庆四年正月赐死于狱
+  description: 太上皇帝驾崩后嘉庆皇帝亲政以专权误国之罪赐死家产籍没
