@@ -1,0 +1,127 @@
+person:
+  qid: guji-李雯
+  name_zh: 李雯
+  names:
+    zh: 李雯
+    en: Li Wen
+  lifespan:
+    birth:
+      date: '1605'
+      precision: year
+      is_circa: true
+      raw: 明万历末约生，确年生年未详
+    death:
+      date: '1646'
+      precision: year
+      is_circa: false
+      raw: 清顺治丙戌归葬父后卒
+  birth_date: '1605'
+  death_date: '1646'
+  era: 明末清初
+  reign_ref: 清顺治
+  archetype: 孝义文臣
+  dilemmas:
+  - 父死国难后仕隐两难，守遗体与全名节难兼
+  - 匍匐讼冤行乞守柩，生计维艰而孝道不废
+  lesson: 以至孝动人，以文章见知，易代之际守孝全节
+  summary_first_person: 我是李雯，字舒章，李逢申之子，与陈子龙夏允彝齐名，父殉国难后我匍匐赴京讼冤，行乞具棺，朝夕跪奠守柩不去，后以孝与才被荐授宏文院中书，典册多出我手，乙酉充顺天乡试同考，丙戌乞归葬父，不久即卒
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%89%E7%BB%AA%E5%8D%97%E6%B1%87%E5%8E%BF%E5%BF%97/%E5%8D%B714.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E5%85%89%E7%BB%AA%E5%8D%97%E6%B1%87%E5%8E%BF%E5%BF%97/%E5%8D%B714.md
+  - https://shuiluo-jinmen-classics.daizhige.org/viewer?id=00161#p1
+endeavors:
+- id: guji-李雯-endeavor-1
+  title_zh: 赴京讼冤乞棺守柩
+  summary_zh: 父逢申死国难后匍匐走京师讼父冤，不食哀号，行乞具棺殓，朝夕跪奠守柩不去
+  phases:
+  - key: brewing
+    name: 诸生负痛
+    labels:
+      zh: 酝酿
+    start_date: '1644'
+    highlight_event_id: guji-李雯-event-suyuan
+  - key: breakthrough
+    name: 匍匐赴京讼冤
+    labels:
+      zh: 突破
+    start_date: '1644'
+    highlight_event_id: guji-李雯-event-suyuan
+  - key: climax
+    name: 行乞具棺跪奠
+    labels:
+      zh: 高潮
+    start_date: '1645'
+    highlight_event_id: guji-李雯-event-suyuan
+  - key: closure
+    name: 守柩不去得怜
+    labels:
+      zh: 收束
+    start_date: '1645'
+    highlight_event_id: guji-李雯-event-hongwen
+  decisions:
+  - date: '1644'
+    title_zh: 匍匐走京师讼父冤
+    rationale: 为父雪冤全孝，不惜哀毁乞食
+  - date: '1645'
+    title_zh: 行乞具棺守柩不去
+    rationale: 朝夕跪奠哭不绝声，以孝守父柩终始
+- id: guji-李雯-endeavor-2
+  title_zh: 宏文院撰文典册充同考
+  summary_zh: 以孝与才被内院大臣荐授宏文院撰文中书，高文典册多出其手，乙酉充顺天乡试同考，丙戌乞归葬父
+  phases:
+  - key: brewing
+    name: 内院怜孝奇才
+    labels:
+      zh: 酝酿
+    start_date: '1645'
+    highlight_event_id: guji-李雯-event-hongwen
+  - key: breakthrough
+    name: 荐授宏文院中书
+    labels:
+      zh: 突破
+    start_date: '1645'
+    highlight_event_id: guji-李雯-event-hongwen
+  - key: climax
+    name: 典册同考显名
+    labels:
+      zh: 高潮
+    start_date: '1645'
+    highlight_event_id: guji-李雯-event-hongwen
+  - key: closure
+    name: 乞归葬父旋卒
+    labels:
+      zh: 收束
+    start_date: '1646'
+    highlight_event_id: guji-李雯-event-death
+  decisions:
+  - date: '1645'
+    title_zh: 受荐入宏文院撰文
+    rationale: 感念知遇，以文章报效，高文典册尽心
+  - date: '1646'
+    title_zh: 以父丧乞归葬旋卒
+    rationale: 父丧未葬义须归葬，不恋官职全孝而终
+events:
+- id: guji-李雯-event-birth
+  title_zh: 出生
+  date: '1605'
+  year_of: 1605
+  place_zh: 南汇
+  description_zh: 李逢申之子，字舒章，诸生，与陈子龙夏允彝齐名
+- id: guji-李雯-event-suyuan
+  title_zh: 匍匐赴京讼父冤行乞守柩
+  date: '1644'
+  year_of: 1644
+  place_zh: 京师
+  description_zh: 父逢申死国难，雯匍匐走京师讼父冤，不食哀号，行乞得具棺殓，朝夕跪奠哭不绝声，气息奄然，守父柩不去
+- id: guji-李雯-event-hongwen
+  title_zh: 授宏文院撰文充顺天同考
+  date: '1645'
+  year_of: 1645
+  place_zh: 京师
+  description_zh: 王师入京后内院诸大臣怜其孝奇其才，荐授宏文院撰文中书，高文典册咸出其手，乙酉充顺天乡试同考官
+- id: guji-李雯-event-death
+  title_zh: 归葬父丧旋卒
+  date: '1646'
+  year_of: 1646
+  place_zh: 南汇
+  description_zh: 丙戌得请以父丧归葬，葬父后旋卒
