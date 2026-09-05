@@ -1,0 +1,125 @@
+person:
+  qid: guji-都穆
+  name_zh: 都穆
+  names:
+    zh: 都穆
+    en: Du Mu
+  lifespan:
+    birth:
+      date: 1459
+      precision: year
+      is_circa: false
+      raw: 明正统十四年吴县
+    death:
+      date: 1525
+      precision: year
+      is_circa: false
+      raw: 明嘉靖四年
+  birth_date: 1459
+  death_date: 1525
+  era: 明
+  reign_ref: 弘治至嘉靖
+  archetype: 存史修典之文臣
+  dilemmas:
+  - 故牍缮写失次当如何修整存真
+  - 靖难封赏旧事敏感当如何秉笔记载
+  lesson: 故牍失次则考订勒卷以备后世稽考
+  summary_first_person: 吾吴县都穆弘治十二年进士历礼部主客正德七年简故牍得壬午爵赏名数修整为录以存国典
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20
+endeavors:
+- id: guji-都穆-endeavor-1
+  title_zh: 历礼部主客掌封赏典制
+  summary: 由进士入礼部久任主客郎中掌爵赏加太仆寺少卿
+  phases:
+  - key: brewing
+    name: 吴中学经登进士第
+    labels:
+      zh: 酝酿
+    start_date: 1499
+    highlight_event_id: guji-都穆-event-jinshi
+  - key: breakthrough
+    name: 入礼部谙主客封赏
+    labels:
+      zh: 突破
+    start_date: 1500
+    highlight_event_id: guji-都穆-event-jinshi
+  - key: climax
+    name: 简故牍得壬午名数
+    labels:
+      zh: 高潮
+    start_date: 1512
+    highlight_event_id: guji-都穆-event-xiulu
+  - key: closure
+    name: 加太仆少卿以文显
+    labels:
+      zh: 收束
+    start_date: 1520
+    highlight_event_id: guji-都穆-event-death
+  decisions:
+  - date: 1499
+    title_zh: 由进士选入礼部
+    rationale: 明经入仕欲以典礼襄赞朝廷盛典
+  - date: 1512
+    title_zh: 简视故牍理旧籍
+    rationale: 主客实掌赏赐故当理失次之牍以存制度
+- id: guji-都穆-endeavor-2
+  title_zh: 编纂壬午功臣爵赏二录
+  summary: 正德七年据洪武壬午九月爵赏名数修整为爵赏录及功赏别录各一卷
+  phases:
+  - key: brewing
+    name: 理故牍惜其失次
+    labels:
+      zh: 酝酿
+    start_date: 1512
+    highlight_event_id: guji-都穆-event-xiulu
+  - key: breakthrough
+    name: 略为修整分等第
+    labels:
+      zh: 突破
+    start_date: 1512
+    highlight_event_id: guji-都穆-event-xiulu
+  - key: climax
+    name: 勒成爵赏录一卷
+    labels:
+      zh: 高潮
+    start_date: 1512-09-10
+    highlight_event_id: guji-都穆-event-xiulu
+  - key: closure
+    name: 附别录书后记以传
+    labels:
+      zh: 收束
+    start_date: 1512-09-10
+    highlight_event_id: guji-都穆-event-xiulu
+  decisions:
+  - date: 1512-09-10
+    title_zh: 勒爵赏录以备私阅
+    rationale: 诸臣事功自有史笔此录专存爵赏名数以备考
+  - date: 1512-09-10
+    title_zh: 附载五军大旗哨马守城功赏
+    rationale: 别录详载奇功首功次功等差使恩赏有章可循
+events:
+- id: guji-都穆-event-birth
+  title_zh: 生于吴县
+  date: 1459
+  year_of: 1459
+  kind: birth
+  description: 明正统十四年都穆生于苏州吴县字元敬号南濠
+- id: guji-都穆-event-jinshi
+  title_zh: 弘治十二年进士入仕
+  date: 1499
+  year_of: 1499
+  kind: career
+  description: 弘治十二年登进士第后官至礼部主客司郎中
+- id: guji-都穆-event-xiulu
+  title_zh: 正德七年修壬午爵赏录
+  date: 1512-09-10
+  year_of: 1512
+  kind: career
+  description: 正德壬申秋为主客郎中理故牍得洪武壬午九月爵赏名数修整勒成爵赏录及功赏别录并书后记
+- id: guji-都穆-event-death
+  title_zh: 加太仆少卿后卒
+  date: 1525
+  year_of: 1525
+  kind: death
+  description: 历礼部主客加太仆寺少卿以博雅存史显终于嘉靖四年
