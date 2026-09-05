@@ -1,0 +1,142 @@
+person:
+  qid: guji-蓝元枚
+  name_zh: 蓝元枚
+  names:
+    zh: 蓝元枚
+    en: Lan Yuanmei
+  lifespan:
+    birth:
+      date: '1730'
+      precision: decade
+      is_circa: true
+      raw: 生年不详约雍正末乾隆初人
+    death:
+      date: 1787-09-29
+      precision: day
+      is_circa: false
+      raw: 乾隆五十二年八月十八日病故于鹿仔港军中
+  birth_date: '1730'
+  death_date: 1787-09-29
+  era: 清乾隆朝
+  reign_ref: 乾隆
+  archetype: 忠勤奋勉水师统帅
+  dilemmas:
+  - 诸罗被围待救与鹿仔港兵单守要之权衡
+  - 本省人统兵当避嫌与继祖家声奋勇进剿之抉择
+  lesson: 受深恩当倍加奋勉纵力疾亦不株守观望方为报国之道
+  summary_first_person: 我祖父平台湾立功在前，我蒙拔擢至水师提督加参赞，督兵鹿仔港，筹画堵剿，开导番社，力疾支持，虽殁于军中，亦无愧此心
+  source_urls:
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷1288.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷1288.md
+endeavors:
+- id: guji-蓝元枚-endeavor-1
+  title_zh: 鹿仔港督师策应诸罗剿林爽文
+  description: 以福建水师提督加参赞驻鹿仔港，统重兵筹画堵剿，策应被围诸罗，图会攻大里杙斗六门
+  phases:
+  - key: brewing
+    name: 受命参赞
+    labels:
+      zh: 受命统兵
+    start_date: 1787-05-10
+    highlight_event_id: guji-蓝元枚-event-appoint
+  - key: breakthrough
+    name: 进驻鹿仔港
+    labels:
+      zh: 进驻筹画
+    start_date: 1787-07-15
+    highlight_event_id: guji-蓝元枚-event-lugang
+  - key: climax
+    name: 力疾筹剿
+    labels:
+      zh: 力疾支持
+    start_date: 1787-08-10
+    highlight_event_id: guji-蓝元枚-event-fan
+  - key: closure
+    name: 病困交兵
+    labels:
+      zh: 病故交代
+    start_date: 1787-09-15
+    highlight_event_id: guji-蓝元枚-event-ill
+  decisions:
+  - date: 1787-07-20
+    title_zh: 驻守鹿仔港分路筹攻大甲溪斗六门
+    rationale: 以鹿仔港为北路要冲，兵力厚集不可轻动，拟先取西螺斗六门再合攻贼巢
+  - date: 1787-09-15
+    title_zh: 患病移交普吉保管束官兵并请速派大员
+    rationale: 精神不支难以支持，恐贻误军机，故交兵请代以保壁垒不摇
+- id: guji-蓝元枚-endeavor-2
+  title_zh: 联络义民熟番生番助剿
+  description: 访熟悉番性之人开导彰化南北生番及岸里社义民熟番，谕以擒贼立功，联络声势攻迫贼巢
+  phases:
+  - key: brewing
+    name: 访查番情
+    labels:
+      zh: 访查开导
+    start_date: 1787-07-15
+    highlight_event_id: guji-蓝元枚-event-lugang
+  - key: breakthrough
+    name: 晓谕番社
+    labels:
+      zh: 晓谕招徕
+    start_date: 1787-08-10
+    highlight_event_id: guji-蓝元枚-event-fan
+  - key: climax
+    name: 番勇踊跃从征
+    labels:
+      zh: 踊跃乐从
+    start_date: 1787-08-20
+    highlight_event_id: guji-蓝元枚-event-fan
+  - key: closure
+    name: 以病未能竟其功
+    labels:
+      zh: 赍志以殁
+    start_date: 1787-09-29
+    highlight_event_id: guji-蓝元枚-event-death
+  decisions:
+  - date: 1787-08-10
+    title_zh: 遣熟悉番性之人往谕生番擒贼献功
+    rationale: 彰化南北生番路通贼巢，若开导成功可收夹击之效并广招徕
+  - date: 1787-08-20
+    title_zh: 留营伍大员按章程调度不轻进援诸罗
+    rationale: 诸罗被围虽急，鹿仔港军装火药紧要且将弁新集，须持重以待全力
+events:
+- id: guji-蓝元枚-event-birth
+  type: birth
+  date: '1730'
+  year_of: 1730
+  title_zh: 生于蓝氏将门
+  description: 生年不详，系蓝廷珍孙辈，约雍正末乾隆初生，长于闽中熟谙海疆
+- id: guji-蓝元枚-event-appoint
+  type: career
+  date: 1787-05-10
+  year_of: 1787
+  title_zh: 授福建水师提督加参赞剿林爽文
+  description: 因屡领将弁奋勇剿杀筹画有条理，特授参赞赏戴双眼花翎，赴台湾督办
+  endeavor_ref: guji-蓝元枚-endeavor-1
+- id: guji-蓝元枚-event-lugang
+  type: career
+  date: 1787-07-15
+  year_of: 1787
+  title_zh: 进驻鹿仔港统重兵堵剿
+  description: 到鹿仔港后调度筹办已有章程，驻守要地筹攻大甲溪斗六门策应诸罗柴大纪
+  endeavor_ref: guji-蓝元枚-endeavor-1
+- id: guji-蓝元枚-event-fan
+  type: career
+  date: 1787-08-10
+  year_of: 1787
+  title_zh: 开导岸里社义民及南北路生番助剿
+  description: 访熟悉番性之人前往开导，谕以擒贼立功，众番社踊跃乐从，声势联络可攻迫贼巢
+  endeavor_ref: guji-蓝元枚-endeavor-2
+- id: guji-蓝元枚-event-ill
+  type: career
+  date: 1787-09-15
+  year_of: 1787
+  title_zh: 七月后患痢力疾支持移交兵事
+  description: 屡次力疾剿贼精神渐不能支，将官兵移交普吉保管束并飞咨常青速派大员经理
+  endeavor_ref: guji-蓝元枚-endeavor-1
+- id: guji-蓝元枚-event-death
+  type: death
+  date: 1787-09-29
+  year_of: 1787
+  title_zh: 病故于鹿仔港军中追赠太子太保
+  description: 乾隆五十二年八月十八日病故，上深为悯恻赠太子太保赏银一千两，长子蓝诚袭轻车都尉云骑尉世职
