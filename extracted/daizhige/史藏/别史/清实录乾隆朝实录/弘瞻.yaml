@@ -1,12 +1,12 @@
 person:
-  qid: guji-弘瞻
+  qid: guji-hongzhan
   name_zh: 弘瞻
   names:
     zh: 弘瞻
     en: Hongzhan
   lifespan:
     birth:
-      date: 1733-07-21
+      date: 1733-07-09
       precision: day
       is_circa: true
       raw: 雍正十一年六月十一日
@@ -14,130 +14,125 @@ person:
       date: 1765-04-27
       precision: day
       is_circa: false
-      raw: 乾隆三十年三月初八日
-  birth_date: 1733-07-21
+      raw: 乾隆三十年三月初八日申刻
+  birth_date: 1733-07-09
   death_date: 1765-04-27
   era: 清代
   reign_ref: 乾隆
-  archetype: 宗室失范亲王
+  archetype: 宗室守成者
   dilemmas:
-  - 宗室优富与守法安分之间如何取舍
-  - 门下私恩与朝廷公法之间何去何从
-  lesson: 恃亲营私必损恩宠，守分畏法方能保全
-  summary_first_person: 我是弘瞻，嗣果亲王，幼蒙圣恩养育成人，封爵优富，然开煤窑占民产，托高恒售参牟利，派办织造关差，关说铨选，违抗母妃千秋懿旨，乾隆二十八年五月被皇上交王大臣查讯申饬，悔愧交并
+  - 出嗣果邸后本生与嗣父两全之难
+  - 亲贵守分与朝政避嫌之难
+  - 病重托孤与幼子家务处置之难
+  lesson: 亲贵以安分守成为安，病托幼子得君恩保全家业
+  summary_first_person: 我是弘瞻，雍正第六子，出嗣果亲王为嗣。乾隆南巡途中闻我病重，特加恩晋封郡王以慰我心，期我速痊。不料三月初八申刻我即薨逝，皇上闻讣深为惋悼，命一切丧事照亲王例办，遣六阿哥成服，又派大臣料理王府家务以护我二幼子。
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70686.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70686.html
+  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0732.html
 endeavors:
-- id: guji-弘瞻-endeavor-1
-  title_zh: 托售人参派办织造渔利
-  summary_zh: 随驾南巡托高恒售参牟利，向各处织造关差派办绣缎什器，责偿员卖参旧逋
+- id: guji-hongzhan-endeavor-1
+  title_zh: 出嗣果邸安守宗藩
+  summary: 幼年出嗣果亲王允礼为嗣，袭爵守府，安分不预朝政起伏
   phases:
   - key: brewing
-    name: 开煤窑占产初蹈愆
+    name: 幼年出嗣
     labels:
-      zh:
-      - 营私
-      - 占利
-    start_date: 1755-01-01
-    highlight_event_id: guji-弘瞻-event-succeed
+      zh: 过继承祧
+    start_date: 1733-07-09
+    highlight_event_id: guji-hongzhan-event-birth
   - key: breakthrough
-    name: 南巡托高恒售参
+    name: 承袭果郡王
     labels:
-      zh:
-      - 托售
-      - 牟利
-    start_date: 1762-09-01
-    highlight_event_id: guji-弘瞻-event-entrust
+      zh: 袭爵守藩
+    start_date: 1738-04-01
+    highlight_event_id: guji-hongzhan-event-guoji
   - key: climax
-    name: 织造关差派办供出
+    name: 亲王降封历练
     labels:
-      zh:
-      - 查讯
-      - 供认
-    start_date: 1763-06-01
-    highlight_event_id: guji-弘瞻-event-reprimand
+      zh: 谨慎守分
+    start_date: 1763-08-01
+    highlight_event_id: guji-hongzhan-event-jiangfeng
   - key: closure
-    name: 交王大臣查讯申饬
+    name: 复封郡王慰病
     labels:
-      zh:
-      - 申饬
-      - 警戒
-    start_date: 1763-06-18
-    highlight_event_id: guji-弘瞻-event-reprimand
+      zh: 恩慰病榻
+    start_date: 1765-04-24
+    highlight_event_id: guji-hongzhan-event-jinfeng
   decisions:
-  - date: 1762-09-01
-    title_zh: 令护卫引员卖参旧欠赴高恒家托售
-    rationale: 欲将夙逋变现赴扬州售卖牟利，自恃亲王无人敢却
-  - date: 1763-06-01
-    title_zh: 对简亲王等查讯据实开出派办情事
-    rationale: 护卫太监供词不符罪无可逭，只得逐一供认以冀宽贷
-- id: guji-弘瞻-endeavor-2
-  title_zh: 干预铨选违抗懿旨失家法
-  summary_zh: 以门下私人关说阿里衮挑取官员，抗不遵循谦妃千秋陈设懿旨，长史失匡正被革
+  - date: 1738-04-01
+    title_zh: 遵旨出嗣果亲王
+    rationale: 以宗法承祧延续果邸，不恋本生富贵，保全两宫骨肉恩义
+  - date: 1763-08-01
+    title_zh: 降爵后闭门自守
+    rationale: 不怨不辩，不交通外廷，以恭谨待复起，免累家业
+- id: guji-hongzhan-endeavor-2
+  title_zh: 病终遗府恩恤托孤
+  summary: 病重蒙恩晋封，薨后得亲王例丧仪，大臣料理家务护幼子
   phases:
   - key: brewing
-    name: 门下私人关说铨选
+    name: 南巡前病重
     labels:
-      zh:
-      - 干政
-      - 请托
-    start_date: 1762-01-01
-    highlight_event_id: guji-弘瞻-event-entrust
+      zh: 病笃闻上
+    start_date: 1765-03-01
+    highlight_event_id: guji-hongzhan-event-jinfeng
   - key: breakthrough
-    name: 抗谦妃千秋懿旨
+    name: 启銮加恩封王
     labels:
-      zh:
-      - 失孝
-      - 抗旨
-    start_date: 1763-05-01
-    highlight_event_id: guji-弘瞻-event-reprimand
+      zh: 晋封慰勉
+    start_date: 1765-04-24
+    highlight_event_id: guji-hongzhan-event-jinfeng
   - key: climax
-    name: 冥心干政寒心圣听
+    name: 薨逝京邸
     labels:
-      zh:
-      - 震怒
-      - 宣示
-    start_date: 1763-06-18
-    highlight_event_id: guji-弘瞻-event-reprimand
+      zh: 薨逝辍朝
+    start_date: 1765-04-27
+    highlight_event_id: guji-hongzhan-event-death
   - key: closure
-    name: 长史革职谙达匡救
+    name: 照亲王例治丧护孤
     labels:
-      zh:
-      - 连坐
-      - 匡正
-    start_date: 1763-06-18
-    highlight_event_id: guji-弘瞻-event-reprimand
+      zh: 治丧托孤
+    start_date: 1765-04-28
+    highlight_event_id: guji-hongzhan-event-zhiban
   decisions:
-  - date: 1762-06-01
-    title_zh: 以门下私人关说阿里衮挑取
-    rationale: 欲植私党于官僚，虽被力拒仍毫无顾忌
-  - date: 1763-05-01
-    title_zh: 抗不遵循母妃千秋陈设懿旨
-    rationale: 任性乖张不顾增辉母妃，致屡询猥对惹圣怒
+  - date: 1765-04-24
+    title_zh: 病中领受郡王恩封
+    rationale: 体念皇兄以喜冲病深意，安慰家人，令幼子有所凭依
+  - date: 1765-04-27
+    title_zh: 遗命家务付公料理
+    rationale: 二子尚幼，永兴难支，愿朝廷派公正大臣约束内监，防侵渔以保孤
 events:
-- id: guji-弘瞻-event-birth
-  date: 1733-07-21
+- id: guji-hongzhan-event-birth
+  title_zh: 生于雍正十一年
+  date: 1733-07-09
   year_of: 1733
-  title_zh: 出生
-  description_zh: 雍正十一年六月十一日生，为康熙帝第十七子允礼嗣子，后嗣果亲王爵
-- id: guji-弘瞻-event-succeed
-  date: 1763-03-01
+  description: 雍正十一年六月十一日生，为世宗第六子，生母谦妃刘氏
+  location: 北京紫禁城
+- id: guji-hongzhan-event-guoji
+  title_zh: 过继果亲王为嗣袭爵
+  date: 1738-04-01
+  year_of: 1738
+  description: 乾隆三年过继十七叔果毅亲王允礼为嗣，袭果郡王，守果邸家业
+  location: 北京果亲王府
+- id: guji-hongzhan-event-jiangfeng
+  title_zh: 由和亲王降为贝勒
+  date: 1763-08-01
   year_of: 1763
-  title_zh: 晋袭果亲王
-  description_zh: 乾隆二十八年三月由郡王晋袭果亲王，岁入赢余钜万仍交结侵渔
-- id: guji-弘瞻-event-entrust
-  date: 1762-09-01
-  year_of: 1762
-  title_zh: 南巡托高恒售参牟利
-  description_zh: 随驾南巡时责偿员卖参旧逋，令护卫引赴高恒家托带往扬州卖参，经高恒正言相却
-- id: guji-弘瞻-event-reprimand
-  date: 1763-06-18
-  year_of: 1763
-  title_zh: 五月己巳被申饬查讯
-  description_zh: 乾隆二十八年五月因售参派办织造关说铨选违懿旨诸事，奉旨交简亲王諴亲王和亲王会同军机大臣查讯，恺切宣示家法朝纲，长史索柱革职以永兴代之
-- id: guji-弘瞻-event-death
+  description: 乾隆二十八年获罪降爵，由和硕和亲王降为贝勒，闭门思过不预政事
+  location: 北京
+- id: guji-hongzhan-event-jinfeng
+  title_zh: 启銮时加恩复封郡王
+  date: 1765-04-24
+  year_of: 1765
+  description: 乾隆南巡启銮闻其病重，特加恩复封郡王，原期闻喜速痊，以示优眷
+  location: 北京
+- id: guji-hongzhan-event-death
+  title_zh: 薨逝于京邸
   date: 1765-04-27
   year_of: 1765
-  title_zh: 逝世
-  description_zh: 乾隆三十年三月初八日卒，年三十三，嗣子永瑹袭果亲王
+  description: 乾隆三十年三月初八日申刻薨逝，年三十三，留京王大臣奏闻，皇帝深为惋悼
+  location: 北京果郡王府
+- id: guji-hongzhan-event-zhiban
+  title_zh: 照亲王例治丧遣阿哥成服
+  date: 1765-04-28
+  year_of: 1765
+  description: 谕一切丧事照亲王例办理，遣六阿哥成服，余阿哥祭日前往，派英廉和尔精额料理家务护二幼子
+  location: 北京
