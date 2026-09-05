@@ -6,129 +6,132 @@ person:
     en: Huang Tinggui
   lifespan:
     birth:
-      date: 1691
+      date: '1691'
       precision: year
-      is_circa: false
-      raw: 康熙三十年
+      is_circa: true
+      raw: 康熙三十年左右
     death:
-      date: 1759
-      precision: year
-      is_circa: false
-      raw: 乾隆二十四年
-  birth_date: 1691
-  death_date: 1759
+      date: 1759-03
+      precision: month
+      is_circa: true
+      raw: 乾隆二十四年春病故
+  birth_date: '1691'
+  death_date: 1759-03
   era: 清代
   reign_ref: 乾隆
-  archetype: 筹边后勤重臣
+  archetype: 筹边善后之臣
   dilemmas:
-  - 西陲用兵转输浩繁与不累内地民生如何两全
-  - 山北道远山险与山南捷速之间台站当如何改设
-  lesson: 体国奉公不遗余力则精详妥协而民不累
-  summary_first_person: 吾总督陕甘逢准回用兵殚心筹办军需转输改设山南台站预筹阿克苏叶尔羌粮驼幸蒙晋封三等伯以彰劳绩
+  - 军需浩繁与地方民力之间如何权衡
+  - 长途解送与牲畜保全之间如何兼顾
+  lesson: 悉心筹画奉法无误则大军饱腾而遗法可垂后人
+  summary_first_person: 余久任陕甘值西师进剿竭力拨解马匹牛羊粮糈多方设法使属员奉法无误蒙上谕嘉成规病故后得祭葬谥文襄入祀贤良祠此生无憾
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0576.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0580.md
 endeavors:
 - id: guji-黄廷桂-endeavor-1
-  title_zh: 统筹陕甘军需转输
-  summary: 西陲用兵数年筹办军需动协机宜而不累民
+  title_zh: 统筹西师马匹牲只军需
+  description: 任陕甘总督期间悉心筹画拨解阿克苏马匹牛羊口粮供军营一年之用
   phases:
   - key: brewing
-    name: 受命总理西陲转输
+    name: 受命筹边积储
     labels:
       zh:
-      - 筹边理饷
-    start_date: 1755
-    highlight_event_id: guji-黄廷桂-event-junxu
+      - 筹画
+      - 积储
+    start_date: '1755'
+    highlight_event_id: guji-黄廷桂-event-1
   - key: breakthrough
-    name: 规画吻合谕旨妥协
+    name: 拨解万匹军马
     labels:
       zh:
-      - 不约而同
-    start_date: 1757
-    highlight_event_id: guji-黄廷桂-event-junxu
+      - 解马
+      - 协济
+    start_date: 1758-12
+    highlight_event_id: guji-黄廷桂-event-1
   - key: climax
-    name: 晋封三等伯彰绩
+    name: 属员奉法无误
     labels:
       zh:
-      - 优异加赏
-    start_date: 1758-12-19
-    highlight_event_id: guji-黄廷桂-event-jinfeng
+      - 督饬
+      - 保全
+    start_date: '1759-03-11'
+    highlight_event_id: guji-黄廷桂-event-2
   - key: closure
-    name: 功成垂范封疆
+    name: 成规垂后受嘉
     labels:
       zh:
-      - 体国奉公
-    start_date: 1759
+      - 遗法
+      - 褒嘉
+    start_date: '1759-03-11'
+    highlight_event_id: guji-黄廷桂-event-2
+  decisions:
+  - date: 1758-12
+    title_zh: 奏拨阿克苏马一万六千匹
+    rationale: 为西安满洲兵及达什达瓦兵丁豫备进兵调用严加督察解送阿克苏
+  - date: 1758-12
+    title_zh: 多方设法保全解送牲畜
+    rationale: 沿途寻好水草牧放不使疲毙以供军营官兵口粮宽裕足敷一年
+- id: guji-黄廷桂-endeavor-2
+  title_zh: 总督陕甘抚绥善后蒙恤典
+  description: 久镇封疆勤慎奉公病故后蒙祭葬谥号入祀贤良为后任表率
+  phases:
+  - key: brewing
+    name: 总督陕甘勤慎理政
+    labels:
+      zh:
+      - 封疆
+      - 抚绥
+    start_date: '1750'
+    highlight_event_id: guji-黄廷桂-event-1
+  - key: breakthrough
+    name: 办解军需毫无贻误
+    labels:
+      zh:
+      - 军需
+      - 无误
+    start_date: 1758-12
+    highlight_event_id: guji-黄廷桂-event-1
+  - key: climax
+    name: 劳瘁病故
+    labels:
+      zh:
+      - 劳瘁
+      - 病故
+    start_date: 1759-03
+    highlight_event_id: guji-黄廷桂-event-death
+  - key: closure
+    name: 祭葬谥文襄入祀贤良
+    labels:
+      zh:
+      - 恤典
+      - 易名
+    start_date: '1759-03-13'
     highlight_event_id: guji-黄廷桂-event-death
   decisions:
-  - date: 1758-12-19
-    title_zh: 飞咨调拨哈密肃州粮驼补运辟展
-    rationale: 阿克苏至叶尔羌尚有半月路程须安台挽运以足万人四十日口粮
-  - date: 1758-12-19
-    title_zh: 坚持军需不累内地民生
-    rationale: 内地安堵则筹办精详妥协为功尤大当体国奉公不遗余力
-- id: guji-黄廷桂-endeavor-2
-  title_zh: 改设哈密辟展山南台站
-  summary: 以山南捷速代巴里坤山北险远以利军装差使
-  phases:
-  - key: brewing
-    name: 踏勘南北两路险易
-    labels:
-      zh:
-      - 相视道路
-    start_date: 1758-01-01
-    highlight_event_id: guji-黄廷桂-event-taizhan
-  - key: breakthrough
-    name: 奏请山南安设台站
-    labels:
-      zh:
-      - 舍险就捷
-    start_date: 1758-12-19
-    highlight_event_id: guji-黄廷桂-event-taizhan
-  - key: climax
-    name: 获旨嘉许即速更改
-    labels:
-      zh:
-      - 捷速驰递
-    start_date: 1758-12-19
-    highlight_event_id: guji-黄廷桂-event-taizhan
-  - key: closure
-    name: 留备北路军粮驰递
-    labels:
-      zh:
-      - 南北兼顾
-    start_date: 1758-12-19
-    highlight_event_id: guji-黄廷桂-event-taizhan
-  decisions:
-  - date: 1758-12-19
-    title_zh: 请由山南一路运送军需安设台站
-    rationale: 巴里坤道远山险而山南颇为捷速改设可速达辟展
-  - date: 1758-12-19
-    title_zh: 巴里坤至哈密数站台马仍留备
-    rationale: 北路驰递与台站军粮仍须存留以备缓急
+  - date: 1758-12
+    title_zh: 严饬属员循例解送口粮
+    rationale: 使解送牛羊米面官员加意尽心不致糜费以全军糈
+  - date: 1759-03
+    title_zh: 以成规遗后任遵守
+    rationale: 生前筹计一切妥协后人循照办理可免圣心劳费故特垂遗法
 events:
 - id: guji-黄廷桂-event-birth
-  date: 1691
-  year_of: 1691
   title_zh: 出生
-  description: 康熙三十年生于汉军镶红旗人家
-- id: guji-黄廷桂-event-jinfeng
-  date: 1758-12-19
+  date: '1691'
+  year_of: 1691
+  description: 康熙三十年左右生后由仕途累迁至陕甘总督加大学士伯爵
+- id: guji-黄廷桂-event-1
+  title_zh: 奏拨阿克苏马匹协济西师
+  date: 1758-12
   year_of: 1758
-  title_zh: 晋封三等伯
-  description: 高宗以筹办军需动协机宜不累民由骑都尉晋封三等伯加赏红宝石顶四团龙补服
-- id: guji-黄廷桂-event-taizhan
-  date: 1758-12-19
-  year_of: 1758
-  title_zh: 奏改哈密辟展山南台站
-  description: 以巴里坤道远山险请由山南捷速路安设台站获旨嘉许令即速更改
-- id: guji-黄廷桂-event-junxu
-  date: 1758-12-19
-  year_of: 1758
-  title_zh: 筹运阿克苏叶尔羌口粮
-  description: 调哈密驼只赶送辟展飞咨安台挽运以足万人进剿叶尔羌之食
-- id: guji-黄廷桂-event-death
-  date: 1759
+  description: 前任督臣奏明拨解阿克苏马一万六千匹办给西安满洲兵及达什达瓦兵丁挑选齐全送往调用
+- id: guji-黄廷桂-event-2
+  title_zh: 上谕嘉成规命循照办理
+  date: '1759-03-11'
   year_of: 1759
-  title_zh: 逝世
-  description: 封伯后不久卒于位谥忠勤
+  description: 乾隆谕吴达善明德等循照黄廷桂成规加意办理军需严饬属员牧放解送毋使疲毙
+- id: guji-黄廷桂-event-death
+  title_zh: 病故祭葬谥文襄入祀贤良祠
+  date: '1759-03-13'
+  year_of: 1759
+  description: 故大学士伯兼管陕甘总督病故命祭葬如例谥文襄入祀贤良祠以彰贤劳
