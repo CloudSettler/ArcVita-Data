@@ -1,0 +1,131 @@
+person:
+  qid: guji-方式济
+  name_zh: 方式济
+  names:
+    zh: 方式济
+    en: Fang Shiji
+  lifespan:
+    birth:
+      date: '1670-01-01'
+      precision: year
+      is_circa: true
+      raw: 清康熙初年左右
+    death:
+      date: '1730-01-01'
+      precision: year
+      is_circa: true
+      raw: 清雍正年间左右
+  birth_date: '1670-01-01'
+  death_date: '1730-01-01'
+  era: 清
+  reign_ref: 康熙
+  archetype: 方志学家
+  dilemmas:
+  - 边荒沿革传闻异辞而史书不详
+  - 绝域山川浩繁而名义莫晓考证维艰
+  lesson: 穷搜博讨以存边徼实录
+  summary_first_person: 余备极搜讨得黑龙江梗概作龙沙纪略以纪方隅山川经制
+  source_urls:
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%9C%B0%E7%90%86/%E9%BE%99%E6%B2%99%E7%BA%AA%E7%95%A5.md
+endeavors:
+- id: guji-方式济-endeavor-1
+  person_id: guji-方式济
+  title_zh: 搜讨边荒考订方隅沿革
+  summary_zh: 自奉天出威远堡遍考七镇四境厘清黑龙江将军辖境与蒙古俄罗斯界址
+  phases:
+  - key: brewing
+    name: 备极搜讨
+    labels:
+      zh: 踏勘搜集
+    start_date: '1698-01-01'
+    highlight_event_id: guji-方式济-event-survey
+  - key: breakthrough
+    name: 得其梗概
+    labels:
+      zh: 厘清七镇
+    start_date: '1700-01-01'
+    highlight_event_id: guji-方式济-event-survey
+  - key: climax
+    name: 考定四境
+    labels:
+      zh: 辨界址沿革
+    start_date: '1702-01-01'
+    highlight_event_id: guji-方式济-event-survey
+  - key: closure
+    name: 方隅成篇
+    labels:
+      zh: 方隅卷成
+    start_date: '1705-01-01'
+    highlight_event_id: guji-方式济-event-write
+  decisions:
+  - date: '1698-01-01'
+    title_zh: 出关北上搜讨绝域
+    rationale: 边荒沿革传闻异辞非亲历搜讨不得其实
+  - date: '1702-01-01'
+    title_zh: 以舆表证蒙古诸部界
+    rationale: 杜尔伯特郭尔罗斯札赖特错居须据舆表以定四至
+- id: guji-方式济-endeavor-2
+  person_id: guji-方式济
+  title_zh: 纪述山川经制成龙沙纪略
+  summary_zh: 详纪三江源流兴安岭形胜及三镇兵制户口巡边互市以存边防实录
+  phases:
+  - key: brewing
+    name: 溯源三江
+    labels:
+      zh: 考水道源流
+    start_date: '1703-01-01'
+    highlight_event_id: guji-方式济-event-survey
+  - key: breakthrough
+    name: 详考经制
+    labels:
+      zh: 录兵制户口
+    start_date: '1705-01-01'
+    highlight_event_id: guji-方式济-event-write
+  - key: climax
+    name: 备载巡边互市
+    labels:
+      zh: 纪边务见闻
+    start_date: '1706-01-01'
+    highlight_event_id: guji-方式济-event-write
+  - key: closure
+    name: 纪略告成
+    labels:
+      zh: 成书流传
+    start_date: '1708-01-01'
+    highlight_event_id: guji-方式济-event-write
+  decisions:
+  - date: '1705-01-01'
+    title_zh: 并纪松阿里乌苏里混同诸水
+    rationale: 百谷万派皆朝宗重润须全系以明王会大观
+  - date: '1708-01-01'
+    title_zh: 以纪略存边徼实录
+    rationale: 盛朝大一统方隅日广宜有专志以备经制
+events:
+- id: guji-方式济-event-birth
+  person_id: guji-方式济
+  title_zh: 出生
+  date: '1670-01-01'
+  year_of: 1670
+  kind: birth
+  description_zh: 生于清康熙初年左右
+- id: guji-方式济-event-survey
+  person_id: guji-方式济
+  title_zh: 搜讨黑龙江方隅山川
+  date: '1698-01-01'
+  year_of: 1698
+  kind: career
+  description_zh: 自奉天过开原出威远堡北上历卜魁墨尔根艾浑考七镇沿革及三江源流
+- id: guji-方式济-event-write
+  person_id: guji-方式济
+  title_zh: 撰成龙沙纪略
+  date: '1708-01-01'
+  year_of: 1708
+  kind: career
+  description_zh: 分方隅山川经制为卷详述兵制户口巡边互市成边地专志
+- id: guji-方式济-event-death
+  person_id: guji-方式济
+  title_zh: 逝世
+  date: '1730-01-01'
+  year_of: 1730
+  kind: death
+  description_zh: 卒于清雍正年间左右
