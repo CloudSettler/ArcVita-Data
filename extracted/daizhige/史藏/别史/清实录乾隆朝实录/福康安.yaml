@@ -8,110 +8,128 @@ person:
     birth:
       date: 1754-01-01
       precision: year
-      is_circa: true
-      raw: 乾隆十九年
+      is_circa: false
+      raw: 乾隆十九年生于京师
     death:
       date: 1796-07-02
       precision: day
       is_circa: false
-      raw: 嘉庆元年五月
+      raw: 嘉庆元年五月二十七日卒于军中
   birth_date: 1754-01-01
   death_date: 1796-07-02
-  era: 清
+  era: 清乾隆朝
   reign_ref: 乾隆
-  archetype: 经略开边型重臣
+  archetype: 救火统帅
   dilemmas:
-  - 远戍搜捕当持重还是速决
-  - 垦田养民与充实边饷如何兼顾
-  - 施恩宽贷与执法严明如何并行
-  lesson: 经理边陲当以安民足食为本兼施恩威方能久安无事
-  summary_first_person: 吾福康安起自勋戚历任陕甘总督等职乾隆五十年督陕甘时报平罗垦田四十五顷有奇又筹划访拿燕起并议喀什噶尔驻兵事宜凡边务不敢懈怠惟愿田野日辟兵民相安以仰副圣主委任耳
+  - 年力富强见倚重与陕甘台湾两地难兼顾
+  - 远涉重洋督办重任与封疆交接需得人
+  lesson: 临危预备当即时陛见听训封疆交代得人方不误国事
+  summary_first_person: 余年力富强素谙军旅乾隆五十二年六月奉旨带印离甘赴行在陛见预备督办台湾林爽文之役陕甘以勒保署理惟愿早靖台匪以报君恩
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71245.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71245.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71283.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71283.md
 endeavors:
 - id: guji-福康安-endeavor-1
-  title_zh: 陕甘督任经理平罗垦田
-  summary: 督甘期间清丈荒熟以垦田养民充仓平价为务据实奏报平罗新垦熟地
+  title_zh: 奉旨预备督办台湾剿捕
+  description: 乾隆五十二年六月以常青年迈恒瑞年轻命福康安离甘赴行在预备督办林爽文之役
   phases:
   - key: brewing
-    name: 履勘平罗荒地
+    name: 离甘赴行在
     labels:
-      zh: 筹垦
-    start_date: 1785-06-01
-    highlight_event_id: guji-福康安-event-1
+      zh:
+      - 预备差遣
+    start_date: 1787-07-22
+    highlight_event_id: guji-福康安-event-taiwan-order
   - key: breakthrough
-    name: 丈出熟地四十五顷
+    name: 陛见听训候命
     labels:
-      zh: 报垦
-    start_date: 1785-11-01
-    highlight_event_id: guji-福康安-event-1
+      zh:
+      - 陛见待命
+    start_date: 1787-08-15
+    highlight_event_id: guji-福康安-event-taiwan-order
   - key: climax
-    name: 疏报升科归额
+    name: 筹划渡海督办南北两路
     labels:
-      zh: 升科
-    start_date: 1785-12-10
-    highlight_event_id: guji-福康安-event-1
+      zh:
+      - 督办军务
+    start_date: 1787-11-01
+    highlight_event_id: guji-福康安-event-taiwan-command
   - key: closure
-    name: 归仓备赈平市价
+    name: 台湾底定班师叙功
     labels:
-      zh: 养民
-    start_date: 1786-01-01
-    highlight_event_id: guji-福康安-event-1
+      zh:
+      - 平定善后
+    start_date: 1788-03-01
+    highlight_event_id: guji-福康安-event-taiwan-command
   decisions:
-  - date: 1785-12-10
-    title_zh: 据实丈报不虚增
-    rationale: 以实数上闻方免加赋累民且可核仓储以备赈粜
+  - date: 1787-07-22
+    title_zh: 带印由驿即行陛见
+    rationale: 常青年迈难周全须得力大臣预备督办故星驰赴行在以便随时差遣
+  - date: 1787-08-15
+    title_zh: 奏请驾驭海兰察等领兵大臣
+    rationale: 海兰察非常青李侍尧所能统辖须以威望驾驭方能进剿得力
 - id: guji-福康安-endeavor-2
-  title_zh: 经略西陲访拿燕起筹防
-  summary: 遣员深入布鲁特部落访拿在逃罪犯燕起并与那尔巴图等协缉筹议明春增兵喀什噶尔
+  title_zh: 总督陕甘镇守西北封疆
+  description: 任陕甘总督镇抚回疆边地台湾有事则交印勒保署理以便东西兼顾
   phases:
   - key: brewing
-    name: 遣萨尔察访拿
+    name: 莅任陕甘整饬营伍
     labels:
-      zh: 访缉
-    start_date: 1785-10-01
-    highlight_event_id: guji-福康安-event-2
+      zh:
+      - 封疆镇守
+    start_date: 1786-05-01
+    highlight_event_id: guji-福康安-event-shangan
   - key: breakthrough
-    name: 访得逃往喀尔提金
+    name: 查办军需熟手调台
     labels:
-      zh: 得踪
-    start_date: 1785-12-01
-    highlight_event_id: guji-福康安-event-2
+      zh:
+      - 协济台军
+    start_date: 1787-07-10
+    highlight_event_id: guji-福康安-event-taiwan-order
   - key: climax
-    name: 再派和扎什协缉
+    name: 交印勒保便捷行事
     labels:
-      zh: 协缉
-    start_date: 1785-12-18
-    highlight_event_id: guji-福康安-event-2
+      zh:
+      - 交印署理
+    start_date: 1787-07-23
+    highlight_event_id: guji-福康安-event-shangan
   - key: closure
-    name: 议定雪融增兵之期
+    name: 事竣回任或仍留甘省
     labels:
-      zh: 筹防
-    start_date: 1786-04-01
-    highlight_event_id: guji-福康安-event-2
+      zh:
+      - 回任守土
+    start_date: 1788-04-01
+    highlight_event_id: guji-福康安-event-shangan
   decisions:
-  - date: 1785-12-18
-    title_zh: 暂缓增兵俟雪融再定
-    rationale: 此时添驻徒劳师糜饷俟明春未获再调伊犁兵六百驻喀什噶尔以节饷而存威
+  - date: 1787-07-23
+    title_zh: 途次遇勒保即交印信
+    rationale: 陕甘亦无紧要事而台湾需人故以便捷交接不误两地
+  - date: 1787-07-10
+    title_zh: 留意鄂斯璊缉捕私铸协济边饷
+    rationale: 叶尔羌私铸普尔钱滋事须严缉以安西陲而固后路粮饷
 events:
 - id: guji-福康安-event-birth
-  title_zh: 出生于勋戚之家
+  title_zh: 生于京师富察氏家
   date: 1754-01-01
   year_of: 1754
-  description: 乾隆十九年生于富察氏家为大学士傅恒之子自幼养于内廷
+  description: 乾隆十九年生为孝贤皇后侄子自侍卫擢封疆
+- id: guji-福康安-event-taiwan-order
+  title_zh: 奉旨离甘赴行在预备督办台湾
+  date: 1787-07-22
+  year_of: 1787
+  description: 乾隆五十二年六月丙辰以上谕命带印由驿赴行在陛见预备督办常青台湾军务
+- id: guji-福康安-event-shangan
+  title_zh: 陕甘总督印交勒保署理
+  date: 1787-07-23
+  year_of: 1787
+  description: 奉旨于途次遇勒保即交印信以便勒保赴甘署理陕甘总督事
+- id: guji-福康安-event-taiwan-command
+  title_zh: 渡海督办平定林爽文
+  date: 1787-12-10
+  year_of: 1787
+  description: 陛见后赴台督办南北两路进剿招抚胁从分贼势次年擒林爽文底定全台
 - id: guji-福康安-event-death
-  title_zh: 病卒于军中
+  title_zh: 卒于征苗军中
   date: 1796-07-02
   year_of: 1796
-  description: 嘉庆元年征苗疆回师途中病卒追封嘉勇郡王谥文襄
-- id: guji-福康安-event-1
-  title_zh: 疏报平罗开垦熟地
-  date: 1785-12-10
-  year_of: 1785
-  description: 以陕甘总督疏报平罗县开垦熟地四十五顷八十六亩以充仓储备赈济
-- id: guji-福康安-event-2
-  title_zh: 奏报访拿燕起并筹增兵
-  date: 1785-12-18
-  year_of: 1785
-  description: 奏称萨尔察访得燕起逃往喀尔提金已再派和扎什等往拿并交布鲁特协缉请明春雪融添驻伊犁兵于喀什噶尔
+  description: 嘉庆元年五月督办苗疆军务病卒于军追封嘉勇郡王
