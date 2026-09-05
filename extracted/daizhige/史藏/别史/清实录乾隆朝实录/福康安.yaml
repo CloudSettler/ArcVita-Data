@@ -11,142 +11,123 @@ person:
       is_circa: false
       raw: 乾隆十九年
     death:
-      date: 1796
-      precision: year
+      date: 1796-07-02
+      precision: day
       is_circa: false
-      raw: 嘉庆元年五月
+      raw: 嘉庆元年五月二十七日
   birth_date: 1754
-  death_date: 1796
+  death_date: 1796-07-02
   era: 清代
-  reign_ref: 乾隆
-  archetype: 征伐统帅
+  reign_ref: 乾隆朝
+  archetype: 平乱经略之名将
   dilemmas:
-  - 绿营将弁勇怯不齐，当严劾其冒功谎报还是略短取长以收其力
-  - 前线究责与保全大局之间，如何仰体圣心坦怀待人以全呼应
-  lesson: 为将当略短取长，坦怀相待，方得公忠体国之道
-  summary_first_person: 吾奉命经略台湾，统巴图鲁与绿营会剿，速进解嘉义县城之围，乘胜攻克斗六门外围诸庄，于柴大纪蔡攀龙功过据实入告，蒙圣训以朕心为心，知明功罪亦须全大局
+  - 攻扑过急恐贼首自戕窜逸与合围稍缓恐纵贼远扬之两难
+  - 炎热将至屯练宜速彻回川与善后紧要需留镇弹压之两难
+  - 凯旋内渡须候风平稳以全师与急切来京瞻觐以复命之两难
+  lesson: 调度周密分路合围以生擒为上善后务求一劳永逸方为全功
+  summary_first_person: 我奉命经略台湾由鹿仔港进兵南北两路解围擒获林爽文复于琅峤柴城合围生擒庄大田遂经理城垣地亩添设官弁以靖海疆
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71295.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71295.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71299.md
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B71299.html
 endeavors:
 - id: guji-福康安-endeavor-1
-  person_qid: guji-福康安
-  title_zh: 统兵渡台速进解嘉义之围
-  summary: 统领巴图鲁侍卫章京及绿营兵由鹿仔港进兵，会合南北两路，直抵嘉义县城，追杀贼匪，夺获攻城大车，解半年之围
+  title_zh: 南北进剿平定台湾生擒庄大田
+  summary: 自南潭水底藔节次进剿探知庄大田在柴城由风港直抵琅峤四面合围悉数擒获
   phases:
   - key: brewing
-    name: 受命调兵筹饷渡海
+    name: 鹿仔港进兵解围探知贼踪
     labels:
-      zh:
-      - 筹备调兵
-    start_date: 1787-11-01
-    highlight_event_id: guji-福康安-event-rescue-jiayi
+      zh: 台湾进剿
+    start_date: 1787-12-20
+    highlight_event_id: guji-福康安-event-lin
   - key: breakthrough
-    name: 两路会合直趋县城
+    name: 风港进兵直抵琅峤
     labels:
-      zh:
-      - 长驱救援
-    start_date: 1787-12-15
-    highlight_event_id: guji-福康安-event-rescue-jiayi
+      zh: 直捣柴城
+    start_date: 1788-03-12
+    highlight_event_id: guji-福康安-event-zhuang
   - key: climax
-    name: 进抵县城追杀夺车
+    name: 六队排山水师连樯四面合围
     labels:
-      zh:
-      - 解围破贼
-    start_date: 1788-01-08
-    highlight_event_id: guji-福康安-event-rescue-jiayi
+      zh: 合围生擒
+    start_date: 1788-03-12
+    highlight_event_id: guji-福康安-event-zhuang
   - key: closure
-    name: 会合固守转入进剿
+    name: 杀贼二千擒获解京审办
     labels:
-      zh:
-      - 围解转剿
-    start_date: 1788-01-10
-    highlight_event_id: guji-福康安-event-douliumen
+      zh: 全郡平定
+    start_date: 1788-03-15
+    highlight_event_id: guji-福康安-event-zhuang
   decisions:
-  - date: 1788-01-08
-    title_zh: 不株守盐水港速进嘉义
-    rationale: 鉴于普吉保恒瑞观望不进致县城粮尽危急，须统满汉精锐速进，直捣贼巢以解围
-  - date: 1788-01-10
-    title_zh: 乘胜趋斗六门要隘
-    rationale: 斗六门为南北要隘久为贼占，围解之后须乘胜攻其外围中林大埔尾诸庄以开南北通道
+  - date: 1788-03-12
+    title_zh: 缓攻密布改急扑为合围
+    rationale: 恐攻扑过急贼目自戕匪伙窜逸故分六队自山梁排下直抵海岸配水师合围以求生擒
+  - date: 1788-03-15
+    title_zh: 派员解京并分投搜查遗孽
+    rationale: 南北贼首悉就俘擒仍须搜查零星逆匪以靖地方并将庄大田母及头目解京审办以彰国法
 - id: guji-福康安-endeavor-2
-  person_qid: guji-福康安
-  title_zh: 查奏柴蔡功过整顿台营
-  summary: 就柴大纪蔡攀龙守城打仗情形据实查询入告，拣选军营出力副将补汀州镇，协调水陆提镇以备善后
+  title_zh: 台湾善后经理与分批彻兵
+  summary: 全郡平定后筹酌改建城垣清厘地亩添设官弁令屯练先行内渡候风平稳凯旋
   phases:
   - key: brewing
-    name: 目击绿营冒功积习
+    name: 全郡平定搜查零星逆匪
     labels:
-      zh:
-      - 查访军情
-    start_date: 1788-01-08
-    highlight_event_id: guji-福康安-event-report-chai
+      zh: 绥靖海疆
+    start_date: 1788-03-16
+    highlight_event_id: guji-福康安-event-aftermath
   - key: breakthrough
-    name: 奏柴蔡守城多不确实
+    name: 屯练先行内渡取道回川
     labels:
-      zh:
-      - 据实参奏
-    start_date: 1788-01-09
-    highlight_event_id: guji-福康安-event-report-chai
+      zh: 分批彻兵
+    start_date: 1788-03-25
+    highlight_event_id: guji-福康安-event-aftermath
   - key: climax
-    name: 圣训令坦怀略短取长
+    name: 筹酌城垣地亩添设官弁
     labels:
-      zh:
-      - 奉谕持平
-    start_date: 1788-01-12
-    highlight_event_id: guji-福康安-event-report-chai
+      zh: 善后经理
+    start_date: 1788-04-10
+    highlight_event_id: guji-福康安-event-aftermath
   - key: closure
-    name: 拣员补镇协办善后
+    name: 候风平稳渡洋赴热河瞻觐
     labels:
-      zh:
-      - 拣补整顿
-    start_date: 1788-01-15
-    highlight_event_id: guji-福康安-event-douliumen
+      zh: 凯旋复命
+    start_date: 1788-08-01
+    highlight_event_id: guji-福康安-event-aftermath
   decisions:
-  - date: 1788-01-09
-    title_zh: 直揭柴蔡虚报之短
-    rationale: 柴大纪报枋车炮击与油籸充食多饰词，蔡攀龙无打通道路实绩，为肃军实不得不据实奏闻
-  - date: 1788-01-12
-    title_zh: 奉谕后外示优容共事
-    rationale: 圣谕以柴蔡困守半载有功不可泯，且统辖水陆呼应攸关，须坦怀相待不露词色以全大功
+  - date: 1788-03-25
+    title_zh: 令屯练降番先行内渡
+    rationale: 三月气候炎热屯练素不耐热且川省已加恩定额养赡故令总兵率领先渡各归营伍以示体恤
+  - date: 1788-04-10
+    title_zh: 留台经理善后缓赴京瞻觐
+    rationale: 改建城垣清厘地亩添设官弁最为紧要须一劳永逸故暂缓来京待八月万寿前到热河瞻觐并候风平稳勿冒险轻涉
 events:
 - id: guji-福康安-event-birth
-  person_qid: guji-福康安
-  kind: birth
-  title_zh: 出生
+  title_zh: 生于京师富察氏家
   date: 1754
   year_of: 1754
-  raw: 乾隆十九年出生
-  description: 富察氏，大学士傅恒子，生于乾隆十九年，后袭云骑尉世职
+  description: 乾隆十九年生为大学士傅恒之子后袭爵嘉勇忠锐公
+  location_zh: 京师
+- id: guji-福康安-event-lin
+  title_zh: 北路解围老衢崎擒林爽文
+  date: 1788-02-10
+  year_of: 1788
+  description: 由鹿仔港一带进兵解围攻破贼巢于老衢崎擒获逆首林爽文平定北路
+  location_zh: 台湾老衢崎
+- id: guji-福康安-event-zhuang
+  title_zh: 琅峤柴城合围生擒庄大田
+  date: 1788-03-12
+  year_of: 1788
+  description: 二月初五日由风港进兵直抵琅峤分六队排下水师连樯合围自辰至午杀贼二千擒获庄大田及庄大韭许光来等四十余名
+  location_zh: 台湾琅峤柴城
+- id: guji-福康安-event-aftermath
+  title_zh: 筹办台湾善后分兵内渡
+  date: 1788-04-10
+  year_of: 1788
+  description: 与徐嗣曾筹酌改建城垣清厘地亩添设官弁令鄂辉率屯练先渡回川候风平稳再行凯旋
+  location_zh: 台湾府
 - id: guji-福康安-event-death
-  person_qid: guji-福康安
-  kind: death
-  title_zh: 病卒军中追封嘉勇郡王
-  date: 1796
+  title_zh: 卒于军中追封嘉勇郡王
+  date: 1796-07-02
   year_of: 1796
-  raw: 嘉庆元年五月病卒
-  description: 征剿苗疆回京途中病卒于军营，追封嘉勇郡王，谥文襄
-- id: guji-福康安-event-rescue-jiayi
-  person_qid: guji-福康安
-  kind: career
-  title_zh: 统兵速进解嘉义县城之围
-  date: 1788-01-08
-  year_of: 1788
-  raw: 乾隆五十二年十二月己酉前后进抵县城
-  description: 督率巴图鲁侍卫章京奋勇力战，进抵嘉义县城，追杀贼匪，夺获攻城大车二辆，于兴化店缴获遗弃炮械，县城半年之围遂解
-- id: guji-福康安-event-report-chai
-  person_qid: guji-福康安
-  kind: career
-  title_zh: 奏柴大纪蔡攀龙守城打仗多不确实
-  date: 1788-01-09
-  year_of: 1788
-  raw: 乾隆五十二年十二月奏到
-  description: 奏称柴大纪蔡攀龙奏报斩获夺械及进城打通道路等情多不确实，援应时未能奋勇杀散直抵县城，引奉圣谕令以朕心为心略短取长坦怀相待
-- id: guji-福康安-event-douliumen
-  person_qid: guji-福康安
-  kind: career
-  title_zh: 攻克斗六门外围中林大埔尾诸庄
-  date: 1788-01-13
-  year_of: 1788
-  raw: 乾隆五十二年十二月丙辰前后
-  description: 以斗六门为南北要隘久经贼屯占，统领官兵将中林大埔尾大埔林各庄同日攻溃，乘胜直趋，连夜进剿
+  description: 嘉庆元年五月二十七日卒于征剿苗疆军中后追封郡王谥文襄配享太庙
+  location_zh: 军中
