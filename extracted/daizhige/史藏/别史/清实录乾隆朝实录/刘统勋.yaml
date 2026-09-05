@@ -6,151 +6,134 @@ person:
     en: Liu Tongxun
   lifespan:
     birth:
-      date: '1700'
+      date: 1700-01-01
       precision: year
       is_circa: false
       raw: 康熙三十九年
     death:
-      date: 1773-11-29
-      precision: day
+      date: 1773-01-01
+      precision: year
       is_circa: false
-      raw: 乾隆三十八年十一月初六日
-  birth_date: '1700'
-  death_date: 1773-11-29
-  era: 清乾隆朝
+      raw: 乾隆三十八年
+  birth_date: 1700-01-01
+  death_date: 1773-01-01
+  era: 清代
   reign_ref: 乾隆
-  archetype: 刚正综核之股肱大臣
+  archetype: 持正任事之老臣
   dilemmas:
-  - 督抚监守与藩库亏空既已数十万而漫无觉察当严参还是留办追赃
-  - 书吏畏刑妄认与奏报库存互异当以刑求定案还是以朱簿实存滚算核实
-  - 大案发觉已逾月而无头绪当专责督抚还是别遣大臣驰驿会审
-  lesson: 钱粮出纳必以朱簿实存与收放案据滚算比较不可单以奏报较对定侵蚀大案必拘齐人犯速得实情会同审讯方能杜窳弊而服人心
-  summary_first_person: 我刘统勋以协办大学士奉命驰驿江南会同查办江苏藩库耗羡存公亏空七十余万一案深知督抚盘库出结具文蠹吏侵蚀必有别故惟当逐款核对拘齐人犯根究实情不以严刑勒认为了事庶钱粮得清而国法得伸
+  - 久远长策与目前补救之间如何权衡
+  - 静镇守成与勇于更张之间如何抉择
+  - 赈恤耗费与额征轻重之间如何兼顾
+  lesson: 治水断狱皆须亲往查勘从长计议方能一劳永逸不迁就了事
+  summary_first_person: 吾刘统勋历事三朝以清慎自勉乾隆二十五年奉命审结江西要案复会同督抚亲勘高宝甘泉低洼地深知低洼田屡被水灾赈费倍于额征民生利病务有权其久远之心不敢徒为目前补救
   source_urls:
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0619.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70624.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70624.md
 endeavors:
 - id: guji-刘统勋-endeavor-1
-  title_zh: 驰驿江南会审江苏藩库亏空案
-  description: 乾隆二十五年八月江苏藩库耗羡存公缺少七十余万奉旨与常钧驰驿前往会同尹继善等逐款核对根究实情
+  title_zh: 会勘高宝甘泉低洼地改科事
+  description: 乾隆二十五年奉旨于江西审案完结后会同常钧及两江督抚亲往高宝甘泉西乡查勘低洼田豁粮改输芦课筹一劳永逸之策
   phases:
   - key: brewing
-    name: 藩库亏空发觉
+    name: 奉命待勘
     labels:
       zh:
-      - 江苏藩库
-      - 耗羡存公
-      - 苏崇阿首禀
-    start_date: 1760-08-01
-    highlight_event_id: guji-刘统勋-event-1760-found
+      - 踏勘
+      - 水利
+    start_date: 1760-12-12
+    highlight_event_id: guji-刘统勋-event-1
   - key: breakthrough
-    name: 奉命驰驿南下
+    name: 亲往覆勘
     labels:
       zh:
-      - 协办大学士
-      - 驰驿前往
-      - 会同审讯
-    start_date: 1760-09-24
-    highlight_event_id: guji-刘统勋-event-1760-south
+      - 会勘
+      - 民生
+    start_date: 1760-12-12
+    highlight_event_id: guji-刘统勋-event-1
   - key: climax
-    name: 逐款核对翻供
+    name: 熟筹长策
     labels:
       zh:
-      - 拘齐人犯
-      - 朱簿滚算
-      - 畏刑妄认
-    start_date: 1760-10-15
-    highlight_event_id: guji-刘统勋-event-1760-check
+      - 改科
+      - 长治
+    start_date: 1760-12-12
+    highlight_event_id: guji-刘统勋-event-1
   - key: closure
-    name: 分晰奏明另旨办理
+    name: 一劳永逸之议
     labels:
       zh:
-      - 款款相符
-      - 另有旨谕
-      - 以杜窳弊
-    start_date: 1760-11-01
-    highlight_event_id: guji-刘统勋-event-1760-check
+      - 定议
+      - 恤民
+    start_date: 1760-12-12
+    highlight_event_id: guji-刘统勋-event-1
   decisions:
-  - date: 1760-09-24
-    title_zh: 受命即驰驿不待交代
-    rationale: 发觉已阅月余尚未确有头绪非督抚所能专办须速往会审以防串供灭迹
-  - date: 1760-10-15
-    title_zh: 主张拘齐各犯逐一根究不以奏报较对定罪
-    rationale: 苏崇阿所送之册祇较奏报收除未滚算朱簿实存又未较收放案据混认必致翻供须核实存以定虚实
+  - date: 1760-12-12
+    title_zh: 主张亲往悉心查勘不迁就了事
+    rationale: 低洼地屡被水灾赈费数倍于额征须相度水势地势权其久远以求永逸
+  - date: 1760-12-12
+    title_zh: 赞同豁粮改课须慎重核实
+    rationale: 污莱之地供赋无几而赈恤几无虚岁改输芦课须核实方合政体
 - id: guji-刘统勋-endeavor-2
-  title_zh: 历任刑部河漕综核庶政
-  description: 早年督漕治河理刑以综核名后入军机协办大学士凡邪教惑众盐课河工皆以从重根究不姑息为持
+  title_zh: 审结江西要案事
+  description: 乾隆二十五年奉命在江西审理要案审结后即转赴江淮会勘水利以刑名练达佐重大政务
   phases:
   - key: brewing
-    name: 漕运河道历练
+    name: 受命审案
     labels:
       zh:
-      - 漕运总督
-      - 河道总督
-      - 刑部尚书
-    start_date: 1750-01-01
-    highlight_event_id: guji-刘统勋-event-1755-river
+      - 审案
+      - 刑名
+    start_date: 1760-01-01
+    highlight_event_id: guji-刘统勋-event-2
   - key: breakthrough
-    name: 入值军机协办
+    name: 悉心鞫实
     labels:
       zh:
-      - 军机处
-      - 协办大学士
-      - 综核
-    start_date: 1758-01-01
-    highlight_event_id: guji-刘统勋-event-1755-river
+      - 质证
+      - 明允
+    start_date: 1760-06-01
+    highlight_event_id: guji-刘统勋-event-2
   - key: climax
-    name: 江南大案钦差
+    name: 完结具奏
     labels:
       zh:
-      - 江苏
-      - 刘统勋常钧
-      - 钦差会审
-    start_date: 1760-09-24
-    highlight_event_id: guji-刘统勋-event-1760-south
+      - 定谳
+      - 具奏
+    start_date: 1760-11-01
+    highlight_event_id: guji-刘统勋-event-2
   - key: closure
-    name: 以清廉直谏垂后
+    name: 转办淮勘
     labels:
       zh:
-      - 直谏
-      - 清廉
-      - 股肱
-    start_date: 1773-11-29
-    highlight_event_id: guji-刘统勋-event-death
+      - 交代
+      - 转任
+    start_date: 1760-12-12
+    highlight_event_id: guji-刘统勋-event-2
   decisions:
-  - date: 1755-06-01
-    title_zh: 治河漕必亲勘实估不徇浮议
-    rationale: 河漕关帑项民生若不确估妥办则劳费无功故主张详勘再奏
-  - date: 1760-09-24
-    title_zh: 邪教大案与亏空案皆主彻底根追从重惩创
-    rationale: 外省习气具奏称从重而定案多草率姑息若不严讯主谋则奸宄不惩愚民不知儆
+  - date: 1760-11-01
+    title_zh: 坚持审案完结再赴淮勘
+    rationale: 案牍须始终其事不可草草了结以免冤滥勘水利方能兼顾始终
+  - date: 1760-12-12
+    title_zh: 会同督抚亲勘不委僚属
+    rationale: 地方情形非亲历难得其实会同熟筹方能服众而无偏执
 events:
 - id: guji-刘统勋-event-birth
-  title_zh: 出生于山东诸城刘氏
-  date: '1700'
+  title_zh: 出生
+  date: 1700-01-01
   year_of: 1700
-  description: 康熙三十九年生雍正二年进士入翰林以清介综核著称
+  description: 生于山东诸城刘氏家族康熙三十九年
 - id: guji-刘统勋-event-death
-  title_zh: 卒于京师
-  date: 1773-11-29
+  title_zh: 逝世
+  date: 1773-01-01
   year_of: 1773
-  description: 乾隆三十八年十一月初六日卒于官谥文正为乾隆朝股肱名臣
-- id: guji-刘统勋-event-1755-river
-  title_zh: 历任漕运河道总督理刑治水
-  date: 1755-06-01
-  year_of: 1755
-  description: 历漕运总督河道总督刑部尚书以综核勤敏见知为后入军机协办之基
-- id: guji-刘统勋-event-1760-found
-  title_zh: 江苏藩库亏空七十余万发觉
-  date: 1760-08-20
+  description: 卒于乾隆三十八年谥文正以清廉勤慎称于世
+- id: guji-刘统勋-event-1
+  title_zh: 奉旨会勘高宝低洼地
+  date: 1760-12-12
   year_of: 1760
-  description: 江苏藩司苏崇阿禀称藩库耗羡存公二项共缺少七十余万顾涵供认为要犯旋畏罪自尽督抚尹继善等清理逾月未得头绪
-- id: guji-刘统勋-event-1760-south
-  title_zh: 奉旨与常钧驰驿往江南查办
-  date: 1760-09-24
+  description: 乾隆二十五年十一月丙午奉旨于江西审案完结后会同常钧及尹继善亲往高宝甘泉西乡查勘低洼地豁粮改芦课事从长计议求一劳永逸
+- id: guji-刘统勋-event-2
+  title_zh: 审结江西要案
+  date: 1760-11-01
   year_of: 1760
-  description: 乾隆二十五年八月己亥谕协办大学士刘统勋刑部侍郎常钧驰驿前往江南查办事件先谕督抚拘齐各犯根究速奏俟到日会同审讯
-- id: guji-刘统勋-event-1760-check
-  title_zh: 逐款核对奏覆耗羡并无缺少
-  date: 1760-10-15
-  year_of: 1760
-  description: 尹继善等奏覆经逐款核对苏崇阿原禀亏缺耗羡九万余两并无缺少存公六十七万余两已有六十余万查清款款相符仅二万余两需细查书吏程士雄等称畏刑妄认
+  description: 乾隆二十五年在江西审理要案完结具奏后奉旨转赴江淮与水利勘查衔接办理
