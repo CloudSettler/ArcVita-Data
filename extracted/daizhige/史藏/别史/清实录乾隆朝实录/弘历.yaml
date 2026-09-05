@@ -17,161 +17,125 @@ person:
       raw: 嘉庆四年正月初三日
   birth_date: 1711-09-25
   death_date: 1799-02-07
-  era: 清代
+  era: 清
   reign_ref: 乾隆
-  archetype: 守成开拓之君
+  archetype: 勤政驭下之守成开拓君主
   dilemmas:
-  - 秋冬进剿缅匪当分兵守边还是合力直捣巢穴
-  - 江苏漕米普蠲当全省同免还是分府匀免以防吏胥侵渔
-  - 征缅溃散逃兵当严缉重惩还是区分首从宽宥整军心
-  lesson: 信赏必罚一秉至公方可安民生而振军纪
-  summary_first_person: 朕承统御宇百余年中外一统之时以筹边恤民为念缅匪未靖则预饬滇军蓄锐秋冬刻期进剿漕赋所关则再三筹画务使蠲泽普沾墨吏必惩忠勋必录以昭平允
+  - 藩部求兵助其复仇与天下共主一视同仁之间如何取舍
+  - 滇南将弁怯懦溃逃与大兵进剿缅匪在即如何整肃军纪
+  lesson: 驭藩贵在和睦共生驭将贵在信赏必罚方能安边息争
+  summary_first_person: 朕弘历三十二年秋驻木兰行围宣见哈萨克使臣却其请兵之求严黜普洱镇总兵德保畏葸退缩之罪以肃军政而安藩服
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/别史/清实录乾隆朝实录/卷0787.md
-  - https://daizhige.org/史藏/别史/清实录乾隆朝实录/卷0787.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%88%AB%E5%8F%B2/%E6%B8%85%E5%AE%9E%E5%BD%95%E4%B9%BE%E9%9A%86%E6%9C%9D%E5%AE%9E%E5%BD%95/%E5%8D%B70793.html
 endeavors:
 - id: guji-弘历-endeavor-1
-  title_zh: 筹划征缅秋冬进剿
+  title_zh: 木兰怀柔哈萨克却请兵
+  summary_zh: 木兰行围接见哈萨克使臣施恩宴赉敕谕汗阿布赉拒绝助攻霍罕命其和睦同藩
   phases:
   - key: brewing
-    name: 传谕暹罗缚献缅酋
+    name: 哈萨克使至木兰入觐
     labels:
       zh:
-      - 筹边
-      - 联藩
-    start_date: 1767-07-12
-    highlight_event_id: guji-弘历-event-xianluo
+      - 朝觐
+      - 怀柔
+    start_date: 1767-09-10
+    highlight_event_id: guji-弘历-event-1
   - key: breakthrough
-    name: 宽宥溃散分别首从
+    name: 宣见赐赉随围从观
     labels:
       zh:
-      - 整军
-      - 恤下
-    start_date: 1767-07-15
-    highlight_event_id: guji-弘历-event-taobing
+      - 施恩
+      - 围宴
+    start_date: 1767-09-12
+    highlight_event_id: guji-弘历-event-1
   - key: climax
-    name: 命参赞驻守木邦联络
+    name: 敕谕阿布赉却请兵
     labels:
       zh:
-      - 进剿
-      - 策应
-    start_date: 1767-07-26
-    highlight_event_id: guji-弘历-event-mubang
+      - 训示
+      - 止争
+    start_date: 1767-09-14
+    highlight_event_id: guji-弘历-event-1
   - key: closure
-    name: 饬边隘无庸分兵遍守
+    name: 准穷民卡内游牧训和睦
     labels:
       zh:
-      - 守边
-      - 全局
-    start_date: 1767-07-27
-    highlight_event_id: guji-弘历-event-bianai
+      - 安生
+      - 一体眷顾
+    start_date: 1767-09-15
+    highlight_event_id: guji-弘历-event-1
   decisions:
-  - date: 1767-07-12
-    title_zh: 檄谕暹罗侦缉缅酋
-    rationale: 恐贼酋航海远扬潜投暹罗故先期绥谕令其缚献以收一举两得之效
-  - date: 1767-07-26
-    title_zh: 遣额尔景额驻木邦
-    rationale: 木邦为永昌至阿瓦适中重地驻大员统兵数千则声势联络明瑞可专力直捣
+  - date: 1767-09-14
+    title_zh: 拒绝发兵二万并给大炮助攻霍罕
+    rationale: 哈萨克霍罕皆归服臣仆不可助一攻一须为天下共主一视同仁
+  - date: 1767-09-14
+    title_zh: 赐使臣宴赉并谕和睦同藩
+    rationale: 既往曲宥近边游牧今更准穷民卡内安生使其永沐恩泽不复仇杀
 - id: guji-弘历-endeavor-2
-  title_zh: 蠲漕恤民肃吏褒忠
+  title_zh: 整肃滇南军纪黜德保
+  summary_zh: 针对九龙江兵丁自惊溃散德保倡率退回又复诳奏饰功命鄂宁查办革职严审以待大兵进剿缅匪
   phases:
   - key: brewing
-    name: 议江苏漕米分府蠲免
+    name: 九龙江闻船响溃散
     labels:
       zh:
-      - 蠲赋
-      - 裕食
-    start_date: 1767-07-14
-    highlight_event_id: guji-弘历-event-cao
+      - 怯懦
+      - 溃逃
+    start_date: 1767-08-20
+    highlight_event_id: guji-弘历-event-2
   - key: breakthrough
-    name: 严参杞县劣员派累
+    name: 谭五格奏报抛弃军械退逃
     labels:
       zh:
-      - 肃吏
-      - 安民
-    start_date: 1767-07-14
-    highlight_event_id: guji-弘历-event-caihuaiying
+      - 查奏
+      - 畏葸
+    start_date: 1767-09-08
+    highlight_event_id: guji-弘历-event-2
   - key: climax
-    name: 褒绿旗忠勋赏延于世
+    name: 传旨革德保职严审定拟
     labels:
       zh:
-      - 褒忠
-      - 劝功
-    start_date: 1767-07-26
-    highlight_event_id: guji-弘历-event-baozhong
+      - 革职
+      - 严审
+    start_date: 1767-09-12
+    highlight_event_id: guji-弘历-event-2
   - key: closure
-    name: 饬禁竹兜苗差诸弊
+    name: 命明瑞鄂宁商补缺屯防待剿
     labels:
       zh:
-      - 察弊
-      - 体恤
-    start_date: 1767-07-17
-    highlight_event_id: guji-弘历-event-zhudou
+      - 补任
+      - 严防
+    start_date: 1767-09-13
+    highlight_event_id: guji-弘历-event-2
   decisions:
-  - date: 1767-07-14
-    title_zh: 改概免一半为分府轮免
-    rationale: 僻壤难遍晓条目繁多易滋混淆分府界限犁然可杜吏胥高下影射
-  - date: 1767-07-26
-    title_zh: 加绿旗世职罔替恩骑尉
-    rationale: 黄芳度阖门殉节张勇等懋建勋庸宜破格褒忠以示惩劝一秉至公
+  - date: 1767-09-12
+    title_zh: 将德保革职严审定拟
+    rationale: 本无贼踪而弃仗纷逃又以闻风远遁诳奏饰功恇怯诳奏不可姑息
+  - date: 1767-09-10
+    title_zh: 命鄂宁赴普洱查办溃兵
+    rationale: 木邦兵逃皆因办理过宽滇兵闻风奔避须据实参奏严加惩儆
 events:
 - id: guji-弘历-event-birth
-  title_zh: 出生
+  title_zh: 弘历诞生于雍亲王府
   date: 1711-09-25
   year_of: 1711
-  raw: 康熙五十年八月十三日生于雍亲王府
-  description: 大清高宗弘历诞生后承大统年号乾隆
+  place_zh: 北京雍亲王府
+  summary_zh: 康熙五十年八月十三日生后即皇帝位年号乾隆
 - id: guji-弘历-event-death
-  title_zh: 驾崩
+  title_zh: 太上皇弘历崩逝
   date: 1799-02-07
   year_of: 1799
-  raw: 嘉庆四年正月初三日崩于养心殿
-  description: 太上皇帝弘历驾崩享年八十有九
-- id: guji-弘历-event-xianluo
-  title_zh: 传谕李侍尧檄暹罗缚缅酋
-  date: 1767-07-12
+  place_zh: 北京紫禁城养心殿
+  summary_zh: 嘉庆四年正月初三日崩在位六十年禅位后训政享寿八十九岁
+- id: guji-弘历-event-1
+  title_zh: 木兰宣见哈萨克使臣并敕谕阿布赉
+  date: 1767-09-14
   year_of: 1767
-  raw: 乾隆三十二年六月戊申谕军机大臣
-  description: 定秋冬进剿先期绥谕暹罗令悉心侦探尽力追擒缅酋迟早合于军营蒇事之期
-- id: guji-弘历-event-caihuaiying
-  title_zh: 革署杞县知县蔡淮英究拟
-  date: 1767-07-14
+  place_zh: 木兰围场和门
+  summary_zh: 宣见公品级都勒特克哷等七人赐櫜鞬裘服令随围与宴敕谕阿布赉不准请兵攻霍罕命与同藩和好
+- id: guji-弘历-event-2
+  title_zh: 革普洱镇总兵德保职命严审
+  date: 1767-09-12
   year_of: 1767
-  raw: 乾隆三十二年六月庚戌据阿思哈题参
-  description: 蔡淮英借送滇兵派累民间侵渔无忌革职严审并嘉阿思哈不徇隐通谕各督抚稽察
-- id: guji-弘历-event-cao
-  title_zh: 饬议江苏漕粮分府轮蠲
-  date: 1767-07-14
-  year_of: 1767
-  raw: 乾隆三十二年六月庚戌谕高晋明德
-  description: 驳各县概免一半之请令通盘筹画分年分府轮免使输将易遵蠲泽普沾
-- id: guji-弘历-event-taobing
-  title_zh: 谕明瑞区分逃兵首从宽处
-  date: 1767-07-15
-  year_of: 1767
-  raw: 乾隆三十二年六月辛亥谕军机大臣
-  description: 前路打仗被冲逃匿者为首重惩附和毋过吹求因调度乖张酿成恇怯所致
-- id: guji-弘历-event-zhudou
-  title_zh: 饬禁官兵跟役乘坐竹兜
-  date: 1767-07-17
-  year_of: 1767
-  raw: 乾隆三十二年六月癸丑据方世俊奏
-  description: 兵丁跟役添雇竹兜骇人观听启骄惰之渐令详查领兵佐领据实覆奏
-- id: guji-弘历-event-baozhong
-  title_zh: 褒海澄公黄芳度等绿旗忠勋
-  date: 1767-07-26
-  year_of: 1767
-  raw: 乾隆三十二年六月辛酉御勤政殿听政谕
-  description: 阅实录嘉黄芳度阖门殉节准袭罔替并及张勇赵良栋王进宝孙思克陈福豆斌高天喜等分别加恩
-- id: guji-弘历-event-mubang
-  title_zh: 命额尔景额为参赞驻木邦
-  date: 1767-07-26
-  year_of: 1767
-  raw: 乾隆三十二年六月辛酉谕
-  description: 以木邦为进兵要路给钦差大臣关防拨马步三数千及巴图鲁侍卫同往驻守策应
-- id: guji-弘历-event-bianai
-  title_zh: 谕沿边无庸遍守分兵力
-  date: 1767-07-27
-  year_of: 1767
-  raw: 乾隆三十二年六月壬戌谕军机大臣
-  description: 边界延袤千余里隘口零星难概备御大兵直捣巢穴贼自救不暇令土司坚壁清野以待
+  place_zh: 巴颜沟大营
+  summary_zh: 以德保在小猛养九龙江未遇贼而倡率退逃又诳奏闻风远遁命鄂宁传旨革职严审并令明瑞鄂宁商补总兵缺
