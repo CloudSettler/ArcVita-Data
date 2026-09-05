@@ -9,7 +9,7 @@ person:
       date: 1724-07-26
       precision: day
       is_circa: false
-      raw: 雍正二年六月初七
+      raw: 雍正二年六月十五
     death:
       date: 1805-03-14
       precision: day
@@ -19,127 +19,120 @@ person:
   death_date: 1805-03-14
   era: 清
   reign_ref: 乾隆
-  archetype: 博学总纂型
+  archetype: 博学鸿儒型
   dilemmas:
-  - 群书浩繁取舍难定而必守信传信疑传疑之例
-  - 湖广旧志南北详略不均而必参以正史补正阙漏
-  lesson: 博考阙疑以传信为要总纂当守凡例以成一统之业
-  summary_first_person: 吾少承家学登乾隆甲戌进士入翰林后奉命总纂四库又会同诸臣恭校湖广通志惟以考据详实网罗有据为任不敢以臆断损旧闻也
+  - 考据实学与馆阁应制之间的取舍
+  - 文字议论风险与秉笔直书之间的权衡
+  lesson: 博闻强识须以敬慎守正为归方能成大典而全晚节
+  summary_first_person: 吾纪昀字晓岚直隶献县人少以敏记闻名登乾隆甲戌进士后入翰林充四库全书总纂恭校甘肃通志等省志一生以考订典籍劝学兴文为任晚年著阅微草堂笔记以寄怀抱
   source_urls:
-  - https://daizhige.org/史藏/地理/湖广通志.html
-  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/地理/湖广通志.md
+  - https://ctext.org/library.pl?if=gb&res=977397
+  - https://github.com/daizhige-org/daizhigev20
 endeavors:
 - id: guji-纪昀-endeavor-1
-  title_zh: 总纂四库全书
-  summary_zh: 奉命为总纂官总其成以辨章学术考镜源流
+  title_zh: 总纂四库全书并恭校甘肃通志
+  summary_zh: 乾隆朝奉命总纂四库全书总校各省通志于乾隆四十六年恭校甘肃通志五十卷进呈
   phases:
   - key: brewing
-    name: 翰林储才
+    name: 翰林养望与考据积学
     labels:
-      zh:
-      - 读书应举
+      zh: 积学养望
     start_date: 1754-05-01
     highlight_event_id: guji-纪昀-event-jinshi
   - key: breakthrough
-    name: 开馆总纂
+    name: 开馆总纂四库
     labels:
-      zh:
-      - 奉命校书
-    start_date: 1773-02-01
+      zh: 开馆纂修
+    start_date: 1773-03-01
     highlight_event_id: guji-纪昀-event-siku
   - key: climax
-    name: 恭校方志
+    name: 校订甘肃通志成书
     labels:
-      zh:
-      - 方志考订
-    start_date: 1781-09-01
-    highlight_event_id: guji-纪昀-event-huguang
+      zh: 校志告成
+    start_date: 1781-12-01
+    highlight_event_id: guji-纪昀-event-gansu
   - key: closure
-    name: 进呈藏书
+    name: 进呈藏书与定例
     labels:
-      zh:
-      - 著述垂后
-    start_date: 1787-01-01
-    highlight_event_id: guji-纪昀-event-huguang
+      zh: 进呈定例
+    start_date: 1782-02-01
+    highlight_event_id: guji-纪昀-event-gansu
   decisions:
-  - date: 1773-02-01
-    title_zh: 应诏分纂校雠群籍
-    rationale: 以博闻强记总其成存目别裁以存群籍之真
-  - date: 1781-09-01
-    title_zh: 会同陆锡熊等恭校湖广通志
-    rationale: 据康熙旧志为本参以廿一史补正阙漏以成都会郡县之属
+  - date: 1773-03-15
+    title_zh: 议定四库采辑校雠条例
+    rationale: 网罗放佚厘定阙疑非立凡例分任则浩繁无统故先定条例以统全局
+  - date: 1781-12-20
+    title_zh: 存甘肃旧闻而参陜志互见
+    rationale: 甘肃旧无志书案牍缺略卫所新改州县难稽故据全陜志为蓝本而考核增补什之六七两省兼治者则互见以存实
 - id: guji-纪昀-endeavor-2
-  title_zh: 恭校湖广通志成书
-  summary_zh: 以四库馆臣例校楚中舆记据旧志为本以类附益
+  title_zh: 兴文教著阅微草堂笔记
+  summary_zh: 以馆阁宿儒提倡实学晚年罢直后笔录见闻而成阅微草堂笔记流传士林
   phases:
   - key: brewing
-    name: 编摩旧志
+    name: 直庐论学与教习庶吉士
     labels:
-      zh:
-      - 考订沿革
-    start_date: 1754-05-01
-    highlight_event_id: guji-纪昀-event-jinshi
+      zh: 论学课士
+    start_date: 1768-04-01
+    highlight_event_id: guji-纪昀-event-siku
   - key: breakthrough
-    name: 开局武昌采访
+    name: 戍乌鲁木齐博采边塞见闻
     labels:
-      zh:
-      - 广征卷轴
-    start_date: 1773-02-01
+      zh: 边塞采风
+    start_date: 1769-06-01
     highlight_event_id: guji-纪昀-event-siku
   - key: climax
-    name: 乾隆四十六年恭校上
+    name: 笔录阅微草堂笔记
     labels:
-      zh:
-      - 审定进呈
-    start_date: 1781-09-01
-    highlight_event_id: guji-纪昀-event-huguang
+      zh: 著书寄怀
+    start_date: 1789-01-01
+    highlight_event_id: guji-纪昀-event-yuewei
   - key: closure
-    name: 列入史部地理垂范
+    name: 晚年总理文教士林推重
     labels:
-      zh:
-      - 列目存史
-    start_date: 1781-09-01
-    highlight_event_id: guji-纪昀-event-huguang
+      zh: 晚年望重
+    start_date: 1796-01-01
+    highlight_event_id: guji-纪昀-event-yuewei
   decisions:
-  - date: 1781-09-01
-    title_zh: 断以廿一史为主参以通考府县志
-    rationale: 旧志舛错甚多非据正史无以定建置沿革之根据
-  - date: 1781-09-01
-    title_zh: 别人物为忠臣孝子列女流寓诸门
-    rationale: 条分缕晰案籍可稽以昭劝惩而备雅颂之采
+  - date: 1789-06-01
+    title_zh: 以笔记小说存劝惩微义
+    rationale: 正史志书记善而不记恶不足尽人情物理故以笔记寓劝惩以补史志之阙
+  - date: 1796-03-01
+    title_zh: 持简核之体以裁琐细
+    rationale: 省志务从简核总其大纲裁其琐细此例亦可施于著述故删繁就简以传远
 events:
 - id: guji-纪昀-event-birth
   type: birth
-  title_zh: 出生于直隶献县
+  title_zh: 生于直隶献县
   date: 1724-07-26
   year_of: 1724
-  place_zh: 直隶献县
-  description_zh: 雍正二年六月初七生于书香之家少颖敏强记
+  description: 雍正二年六月十五生于直隶献县纪氏宦学之家
 - id: guji-纪昀-event-jinshi
   type: career
-  title_zh: 登乾隆十九年甲戌进士入翰林
-  date: 1754-05-01
+  title_zh: 登进士入翰林
+  date: 1754-05-10
   year_of: 1754
-  place_zh: 京师
-  description_zh: 登进士选庶吉士授编修以文采博洽受知朝廷
+  description: 乾隆十九年登二甲第四名进士选庶吉士散馆授编修入直翰林积学养望
 - id: guji-纪昀-event-siku
   type: career
-  title_zh: 奉命开四库馆充总纂官
-  date: 1773-02-01
+  title_zh: 充四库全书总纂官
+  date: 1773-03-10
   year_of: 1773
-  place_zh: 京师文渊阁
-  description_zh: 与陆锡熊孙士毅等总纂四库全书辨章学术考订源流
-- id: guji-纪昀-event-huguang
+  description: 乾隆三十八年开四库馆充总纂官总理采辑校雠并分校各省进呈之志书
+- id: guji-纪昀-event-gansu
   type: career
-  title_zh: 会校湖广通志恭校上进
-  date: 1781-09-01
+  title_zh: 恭校甘肃通志五十卷
+  date: 1781-12-20
   year_of: 1781
-  place_zh: 京师
-  description_zh: 与陆锡熊孙士毅等恭校迈柱等监修湖广通志一百二十卷列为史部地理都会郡县之属
+  description: 与陆锡熊孙士毅等恭校甘肃巡抚许容等监修之甘肃通志五十卷考核订正而进呈御览乾隆四十六年十二月恭校上
+- id: guji-纪昀-event-yuewei
+  type: career
+  title_zh: 著阅微草堂笔记
+  date: 1789-08-01
+  year_of: 1789
+  description: 罢直后于京师阅微草堂笔录见闻议论成书兼及边塞风土与甘肃见闻
 - id: guji-纪昀-event-death
   type: death
   title_zh: 卒于京师
   date: 1805-03-14
   year_of: 1805
-  place_zh: 京师
-  description_zh: 嘉庆十年二月十四卒谥文达著有阅微草堂笔记等行世
+  description: 嘉庆十年二月十四卒于京师年八十二谥文达
