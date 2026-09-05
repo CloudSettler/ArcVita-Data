@@ -6,122 +6,156 @@ person:
     en: Sengge Rinchen
   lifespan:
     birth:
-      date: 1811-01-01
+      date: 1811
       precision: year
       is_circa: false
-      raw: 嘉庆十六年
+      raw: 清嘉慶十六年
     death:
       date: 1865-05-18
       precision: day
       is_circa: false
-      raw: 同治四年四月二十四日
-  birth_date: 1811-01-01
+      raw: 同治四年四月二十四
+  birth_date: 1811
   death_date: 1865-05-18
   era: 清晚期
-  reign_ref: 咸丰
-  archetype: 御侮守土之将
+  reign_ref: 咸豐同治
+  archetype: 忠勇而寡謀之藩王大將
   dilemmas:
-  - 和战未决而军令屡变，进退两难
-  - 众寡悬殊而京畿空虚，守土与护君难两全
-  lesson: 空恃勇而昧于夷技与庙算，退避不战则门户洞开
-  summary_first_person: 吾以宗室懿亲受命督师，自咸丰九年挫夷于大沽，十年再筹塘沽炮台地雷，谋泄而北塘失，乐善殉而南台撤，退保通州八里桥复溃，致夷兵直入京师，咎在轻和议而失机要也
+  - 欲報厚恩立功與不知兵冒進之間
+  - 違旨拒夷求快與遵旨就撫保全之間
+  - 保身自全與驅士死戰之間
+  lesson: 忠而無識勇而無剛專愎自用則糜帑喪師誤國殃民
+  summary_first_person: 我本科爾沁藩王蒙宣宗今上厚恩思報效先辦粵匪北竄晉封親王遂自謂知兵己未拒英夷於大沽一勝而驕庚申復戰大沽盡失退走楊村張家灣八里橋屢敗致京畿殘破御園被焚悔已無及矣
   source_urls:
-  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BA%9A%E7%94%B3%E5%8C%97%E7%95%A5.md
-  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BA%9A%E7%94%B3%E5%8C%97%E7%95%A5.html
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E5%BF%98%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BA%9A%E7%94%B3%E5%A4%B7%E6%B0%9B%E7%BA%AA%E7%95%A5.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%BA%9A%E7%94%B3%E5%A4%B7%E6%B0%9B%E7%BA%AA%E7%95%A5.md
 endeavors:
 - id: guji-僧格林沁-endeavor-1
-  title_zh: 大沽塘沽设防再战
-  summary: 咸丰九年挫敌后复筑南北塘炮台埋地雷，谋泄致北塘失守南防尽撤
+  title_zh: 天津海口防夷禦寇
+  summary_zh: 屯軍天津海口築壘設柵鑄炮守禦己未炮轟英船庚申大沽盡失退走京畿
   phases:
   - key: brewing
-    name: 挫衄后复筹海防
+    name: 築壘設柵屯守海口
     labels:
-      zh: 筹防布雷
+      zh:
+      - 海防築壘
+      - 屯軍守口
+    start_date: 1858-05-01
+    highlight_event_id: guji-僧格林沁-event-dagu-1859
+  - key: breakthrough
+    name: 炮轟英船偶獲小勝
+    labels:
+      zh:
+      - 大沽拒夷
+      - 偶勝而驕
     start_date: 1859-06-25
-    highlight_event_id: guji-僧格林沁-event-dagu-fall
-  - key: breakthrough
-    name: 夷舟复抵南北塘对峙
-    labels:
-      zh: 阻敌登陆
-    start_date: 1860-08-02
-    highlight_event_id: guji-僧格林沁-event-dagu-fall
+    highlight_event_id: guji-僧格林沁-event-dagu-1859
   - key: climax
-    name: 北塘谋泄炮台鏖战
+    name: 大沽壁壘盡失潰奔
     labels:
-      zh: 炮台失守
-    start_date: 1860-08-14
-    highlight_event_id: guji-僧格林沁-event-dagu-fall
+      zh:
+      - 海口淪陷
+      - 潰奔楊村
+    start_date: 1860-08-21
+    highlight_event_id: guji-僧格林沁-event-dagu-1860
   - key: closure
-    name: 失北台退驻通州
+    name: 八里橋戰敗退守京郊
     labels:
-      zh: 退守通州
-    start_date: 1860-08-23
-    highlight_event_id: guji-僧格林沁-event-tongzhou-retreat
+      zh:
+      - 八里橋敗退
+      - 京畿震動
+    start_date: 1860-09-21
+    highlight_event_id: guji-僧格林沁-event-baliqiao-1860
   decisions:
-  - date: 1860-08-02
-    title_zh: 南北塘设炮伏雷以待
-    rationale: 欲俟夷登北塘以火雷尽歼之，拒敌于海口之外
-  - date: 1860-08-21
-    title_zh: 失北炮台后果断南撤
-    rationale: 乐善殉节主力受创，南台孤立难守，奉旨退保通州以护京师
+  - date: 1859-06-25
+    title_zh: 拒不放入炮轟闌入內河英船
+    rationale: 恃炮台鐵柵堅固欲拒夷於大口之外自居不世奇功不顧已成和約
+  - date: 1860-08-04
+    title_zh: 張家灣挑動夷兵接仗
+    rationale: 調集達兵自備乾糇欲雪前恥不自量才力致和議決裂通州淪陷
 - id: guji-僧格林沁-endeavor-2
-  title_zh: 通州八里桥拦截护京
-  summary: 退守通州张家湾八里桥一线，扣留巴夏礼等交涉破裂，力战溃败京师门户洞开
+  title_zh: 追剿粵匪北伐軍
+  summary_zh: 督師剿辦林鳳翔李開方圍攻連鎮高唐開渠引水灌之擒斬招降晉爵親王
   phases:
   - key: brewing
-    name: 通州集兵备不虞
+    name: 督師北上環攻連鎮
     labels:
-      zh: 集兵通州
-    start_date: 1860-08-23
-    highlight_event_id: guji-僧格林沁-event-tongzhou-retreat
+      zh:
+      - 督師剿匪
+      - 圍攻連鎮
+    start_date: 1853-10-01
+    highlight_event_id: guji-僧格林沁-event-lianzhen-1854
   - key: breakthrough
-    name: 东岳庙会议擒巴夏礼
+    name: 開渠引水久圍困賊
     labels:
-      zh: 扣留夷酋
-    start_date: 1860-09-15
-    highlight_event_id: guji-僧格林沁-event-baliqiao-defeat
+      zh:
+      - 開渠引水
+      - 久圍困賊
+    start_date: 1854-03-01
+    highlight_event_id: guji-僧格林沁-event-lianzhen-1854
   - key: climax
-    name: 八里桥决战军溃
+    name: 鳳翔就擒開方請降
     labels:
-      zh: 八里桥溃败
-    start_date: 1860-09-21
-    highlight_event_id: guji-僧格林沁-event-baliqiao-defeat
+      zh:
+      - 擒斬渠魁
+      - 檻送京師
+    start_date: 1855-03-01
+    highlight_event_id: guji-僧格林沁-event-gaotang-1855
   - key: closure
-    name: 移军迤北京师失屏
+    name: 磔賊於市晉爵親王
     labels:
-      zh: 北移失防
-    start_date: 1860-09-22
-    highlight_event_id: guji-僧格林沁-event-baliqiao-defeat
+      zh:
+      - 磔賊於市
+      - 晉爵親王
+    start_date: 1855-06-01
+    highlight_event_id: guji-僧格林沁-event-gaotang-1855
   decisions:
-  - date: 1860-09-18
-    title_zh: 密议扣留巴夏礼九人解京
-    rationale: 和议决裂夷已开仗，欲以擒酋挫其气而作交涉之质
-  - date: 1860-09-21
-    title_zh: 八里桥迎战夷兵护通州
-    rationale: 通州为京师门户，虽众寡悬殊亦须一战以尽臣节
+  - date: 1854-03-01
+    title_zh: 開渠引水灌連鎮高唐賊巢
+    rationale: 官軍二萬環攻日久無功因地遠近用水攻以困死黨收全功
+  - date: 1855-03-01
+    title_zh: 檻送鳳翔開方入京磔於市
+    rationale: 藉擒斬渠魁彰聲威報恩遇遂自滿狃於小勝輕視方張之敵
 events:
 - id: guji-僧格林沁-event-birth
-  title_zh: 诞生
-  date: 1811-01-01
+  title_zh: 出生於科爾沁蒙古
+  date: 1811
   year_of: 1811
-  description: 生于蒙古科尔沁左翼后旗博尔济吉特氏，后袭科尔沁郡王
-- id: guji-僧格林沁-event-dagu-fall
-  title_zh: 大沽北炮台失守退驻通州
+  place_zh: 科爾沁
+  description_zh: 元太祖弟哈薩爾之後科爾沁郡王家嗣後在京供職感激宣廟厚恩
+- id: guji-僧格林沁-event-dagu-1859
+  title_zh: 大沽炮轟英船史龍陣亡
+  date: 1859-06-25
+  year_of: 1859
+  place_zh: 天津大沽口
+  description_zh: 拒不放入由大口登岸英船開炮擊傷夷船十二隻擊傷夷目赫姓提督史榮椿副將龍汝元督戰殒命和約決裂
+- id: guji-僧格林沁-event-lianzhen-1854
+  title_zh: 督師圍攻連鎮擒林鳳翔
+  date: 1854-08-01
+  year_of: 1854
+  place_zh: 直隸連鎮
+  description_zh: 督師二萬環攻粵匪北竄渠魁林鳳翔開渠引水灌之鳳翔就擒檻送京師
+- id: guji-僧格林沁-event-gaotang-1855
+  title_zh: 高唐受降李開方晉爵親王
+  date: 1855-05-01
+  year_of: 1855
+  place_zh: 山東高唐馮官屯
+  description_zh: 圍攻李開方數百死黨引水灌之開方請降檻送京師並磔於市蒙恩晉爵親王
+- id: guji-僧格林沁-event-dagu-1860
+  title_zh: 大沽炮台盡失奔楊村蔡村
   date: 1860-08-21
   year_of: 1860
-  description: 咸丰十年七月初五夷攻陷大沽北炮台，提督乐善殉国，奉旨退驻通州，大沽防尽撤
-- id: guji-僧格林沁-event-tongzhou-retreat
-  title_zh: 通州布防夷逼张家湾
-  date: 1860-09-06
-  year_of: 1860
-  description: 夷兵自张家湾河西务移近通州，驻军通州八里桥一带备战议和
-- id: guji-僧格林沁-event-baliqiao-defeat
-  title_zh: 八里桥战溃移军迤北
+  place_zh: 天津大沽至楊村
+  description_zh: 鐵柵虛設地雷被浸夷眾填濠奪炮台提督樂善死之棄天津府城狂奔楊村再竄蔡村張家灣
+- id: guji-僧格林沁-event-baliqiao-1860
+  title_zh: 張家灣八里橋元狐莊連敗
   date: 1860-09-21
   year_of: 1860
-  description: 八月初六后通州八里桥接仗失利，僧军溃退移迤北，海淀圆明园遂失
+  place_zh: 通州張家灣八里橋
+  description_zh: 張家灣挑動接仗致扣留巴夏禮和議破裂八里橋與瑞麟合營元狐莊酣戰時撒隊而逃勝保受重傷退走京郊御園被焚
 - id: guji-僧格林沁-event-death
-  title_zh: 殉国高楼寨
+  title_zh: 剿捻戰沒於山東曹州
   date: 1865-05-18
   year_of: 1865
-  description: 同治四年剿捻至山东曹州高楼寨中伏殉国，谥忠
+  place_zh: 山東曹州高樓寨
+  description_zh: 庚申敗後復起督師剿捻輕進中伏戰沒蒙恩優恤諡忠
