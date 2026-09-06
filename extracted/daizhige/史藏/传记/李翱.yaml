@@ -1,0 +1,185 @@
+person:
+  qid: guji-李翱
+  name_zh: 李翱
+  names:
+    zh: 李翱
+    en: Li Ao
+  lifespan:
+    birth:
+      date: 约772
+      precision: year
+      is_circa: true
+      raw: 约代宗大历年间生，贞元、会昌间人
+    death:
+      date: 约841
+      precision: year
+      is_circa: true
+      raw: 约武宗会昌初卒
+  birth_date: 约772
+  death_date: 约841
+  era: 唐（中晚唐）
+  reign_ref: 历贞元至会昌间诸朝，序自署开成五年（840，文宗之末年）
+  archetype: 古文家·笔记史家（旧题《卓异记》作者）
+  dilemmas:
+  - 名姓三题，或题李翱、或作陈翱、又作陈翰，真伪难定
+  - 序署开成五年而书内两称武宗，序年月疑后人妄加
+  - 以卓异名中宗、昭宗废而复辟之事，扬善与史识相悖
+  - 神仙鬼怪末得谛言，姑存其说以谓无害于教化
+  lesson: 守道不挠，立言行己，真贯白日；记事须核实名与年月，扬善亦当有识。
+  summary_first_person: 吾翱所撰《卓异记》，纪皇唐帝功瓌特奇伟、臣下盛事超绝殊常者，自广随所闻见，杂载其事，不以次第；开成五年七月十一日，予在檀溪，序而志之，不俟繁书，以见意。
+  source_urls:
+  - https://daizhige.org/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E5%8D%93%E5%BC%82%E8%AE%B0.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/%E5%8F%B2%E8%97%8F/%E4%BC%A0%E8%AE%B0/%E5%8D%93%E5%BC%82%E8%AE%B0.md
+endeavors:
+- id: guji-李翱-endeavor-1
+  name_zh: 撰著《卓异记》
+  description_zh: 采皇唐帝功与臣下盛事，杂载成编，自序明志
+  phases:
+  - key: brewing
+    name: 闻见积储
+    labels:
+      zh: 随所闻见，杂载其事，不以次第
+    start_date: 约830
+    highlight_event_id: guji-李翱-event-collect
+  - key: breakthrough
+    name: 檀溪作序
+    labels:
+      zh: 开成五年七月十一日序成
+    start_date: 约840-08-11
+    highlight_event_id: guji-李翱-event-preface
+  - key: climax
+    name: 集事成书
+    labels:
+      zh: 纪朝廷盛事二十六条，或云二十七事
+    start_date: 约840
+    highlight_event_id: guji-李翱-event-bookdone
+  - key: closure
+    name: 入志传世
+    labels:
+      zh: 书入史志，一卷传后世
+    start_date: 约1060
+    highlight_event_id: guji-李翱-event-catalogue-tang
+  decisions:
+  - date: 约840-08-11
+    title_zh: 于檀溪作序，自署开成五年七月十一日
+    rationale: 贽自广，不俟繁书，以见意；杂载盛事，儆畅在心，或可讽叹
+  - date: 约840
+    title_zh: 以卓异名书
+    rationale: 皇唐帝功瓌特奇伟，前古无可比伦，臣下盛事超绝殊常
+  - date: 约840
+    title_zh: 并存神仙鬼怪之谈
+    rationale: 末得谛言，姑存其说，谓一途无害于教化
+- id: guji-李翱-endeavor-2
+  name_zh: 《卓异记》之著录、考辨与流传
+  description_zh: 一卷之书，历宋元志目异题，四库辨其非李翱亦非陈翱，今复归网络传世
+  phases:
+  - key: brewing
+    name: 史志初录
+    labels:
+      zh: 唐书艺文志题陈翱，注曰宪穆时人
+    start_date: 约1060
+    highlight_event_id: guji-李翱-event-catalogue-tang
+  - key: breakthrough
+    name: 宋志异题
+    labels:
+      zh: 宋史艺文志作陈翰，注一作翱
+    start_date: 约1345
+    highlight_event_id: guji-李翱-event-catalogue-song
+  - key: climax
+    name: 四库考辨
+    labels:
+      zh: 考定非李翱亦非陈翱甚明，序年月盖后人妄加
+    start_date: 约1782
+    highlight_event_id: guji-李翱-event-sikao-exam
+  - key: closure
+    name: 数字归档
+    labels:
+      zh: 殆知阁文本转出，网络传世
+    start_date: 2025-09-15
+    highlight_event_id: guji-李翱-event-digital
+  decisions:
+  - date: 约1782
+    title_zh: 沿旧题李翱而不没其疑
+    rationale: 名姓虽舛讹甚明，仍存旧题旧序，以俟后考
+events:
+- id: guji-李翱-event-birth
+  type: birth
+  title_zh: 李翱生
+  date: 约772
+  year_of: 772
+  precision: year
+  is_circa: true
+  raw: 约代宗大历年间生
+  description_zh: 旧题作者李翱生，一名陈翱、陈翰，历贞元至会昌间
+- id: guji-李翱-event-collect
+  type: endeavor
+  title_zh: 始随闻见杂录唐家盛事
+  date: 约830
+  year_of: 830
+  precision: year
+  is_circa: true
+  raw: 文宗朝前后，自广随所闻见，杂载其事
+  description_zh: 帝功臣行，不以次第，储为卓异之记
+- id: guji-李翱-event-preface
+  type: endeavor
+  title_zh: 檀溪作《卓异记》序
+  date: 约840-08-11
+  year_of: 840
+  precision: day
+  is_circa: true
+  raw: 唐开成五年七月十一日，予在檀溪
+  description_zh: 序陈皇唐帝功前古无比、臣下盛事超绝殊常，并以正人硕贤守道不挠为楷
+- id: guji-李翱-event-bookdone
+  type: endeavor
+  title_zh: 《卓异记》成书
+  date: 约840
+  year_of: 840
+  precision: year
+  is_circa: true
+  raw: 开成五年前后成书
+  description_zh: 一卷，皆纪唐代朝廷盛事，所载凡二十七事，今检标目二十六条
+- id: guji-李翱-event-catalogue-tang
+  type: endeavor
+  title_zh: 唐书艺文志著录
+  date: 约1060
+  year_of: 1060
+  precision: year
+  is_circa: true
+  raw: 旧本题唐李翱撰，唐书艺文志作陈翱
+  description_zh: 卓异记一卷，题陈翱，注曰宪穆时人
+- id: guji-李翱-event-catalogue-song
+  type: endeavor
+  title_zh: 宋史艺文志著录
+  date: 约1345
+  year_of: 1345
+  precision: year
+  is_circa: true
+  raw: 宋史艺文志作陈翰
+  description_zh: 注一作翱，不言为何许人
+- id: guji-李翱-event-sikao-exam
+  type: endeavor
+  title_zh: 四库提要考辨作者与序年
+  date: 约1782
+  year_of: 1782
+  precision: year
+  is_circa: true
+  raw: 旧本题唐李翱撰，提要考其非李翱亦非陈翱甚明
+  description_zh: 证序署开成五年而书两称武宗，名姓舛讹，序年月盖后人妄加；并讥以卓异称中宗昭宗废而复辟为无识之尤
+- id: guji-李翱-event-digital
+  type: endeavor
+  title_zh: 文本数字化存档
+  date: 2025-09-15
+  year_of: 2025
+  precision: day
+  is_circa: false
+  raw: 2025-09-15 转换自殆知阁 GitHub 仓库 txt 版本，档案更新于 2018-11-26
+  description_zh: 卓异记文本归入殆知阁 GitHub 仓库，复归网络传世
+- id: guji-李翱-event-death
+  type: death
+  title_zh: 李翱卒
+  date: 约841
+  year_of: 841
+  precision: year
+  is_circa: true
+  raw: 约会昌初卒
+  description_zh: 旧题作者约卒于武宗会昌之初
