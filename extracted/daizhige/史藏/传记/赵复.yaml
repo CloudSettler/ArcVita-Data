@@ -1,0 +1,183 @@
+person:
+  qid: guji-赵复
+  name_zh: 赵复
+  names:
+    zh: 赵复
+    en: Zhao Fu
+  lifespan:
+    birth:
+      date: 约1200
+      precision: decade
+      is_circa: true
+      raw: 不详
+    death:
+      date: 约1280
+      precision: decade
+      is_circa: true
+      raw: 不详（竟不受官而终）
+  birth_date: 约1200
+  death_date: 约1280
+  era: 元（由宋入元）
+  reign_ref: 元太宗（太子阔出征德安）至元世祖（潜邸召见）
+  archetype: 遗民传道者
+  dilemmas:
+  - 殉节还是存道：九族俱残欲投水殉国，姚枢晓以徒死无益、存则传绪百世，遂忍生北行
+  - 忠义之守：世祖潜邸问取宋可导之乎，答宋吾父母国也，未有引他人以伐吾父母者
+  - 故土与新境：燕居不忘故土，而尽录程朱之书北传，以斯文为重
+  lesson: 徒死无益，存身乃可传道；一士之生，系百世斯文之绪。
+  summary_first_person: 我是德安赵复，字仁甫，学者称江汉先生。德安城破，九族俱残，我本欲投水殉国，姚枢先生救我，说徒死无益，存则斯文或可传绪百世，我随他北上，把所记程朱诸书尽录付之。其后与杨惟中、姚枢建太极书院，立周子祠，选遗书八千余卷讲授其中，作传道图、伊洛发挥、师友图、希贤录，为学者示求端用力之方。世祖在潜邸召见，问我可否导之取宋，我答宋是吾父母国，不肯引他人伐父母，因此终身不受官。北方知有程朱之学，实自我始，许衡、郝经、刘因皆得其书而尊信之。
+  source_urls:
+  - https://daizhige.org/史藏/传记/元儒考略.html
+  - https://github.com/daizhige-org/daizhigev20/blob/data/史藏/传记/元儒考略.md
+  - https://ctext.org/library.pl?if=gb&res=wb515223
+endeavors:
+- id: guji-赵复-endeavor-1
+  title_zh: 北传程朱理学
+  role_zh: 讲学传道
+  phases:
+  - key: brewing
+    name: 南承洛闽之学，德安被俘
+    labels:
+      zh: 洛闽之学
+    start_date: 约1235
+    highlight_event_id: guji-赵复-event-captured-dean
+  - key: breakthrough
+    name: 忍生北行，尽录程朱遗书付姚枢
+    labels:
+      zh: 程朱遗书北传
+    start_date: 1235
+    highlight_event_id: guji-赵复-event-books-yao-shu
+  - key: climax
+    name: 太极书院立祠讲学
+    labels:
+      zh: 太极书院
+    start_date: 约1236
+    highlight_event_id: guji-赵复-event-taiji-academy
+  - key: closure
+    name: 潜邸召对拒导伐宋，不受官而终
+    labels:
+      zh: 江汉先生
+    start_date: 约1251
+    highlight_event_id: guji-赵复-event-shizu-summon
+  decisions:
+  - date: 1235
+    title_zh: 从姚枢北行，舍殉节以存道
+    rationale: 徒死无益，汝存则子孙或可以传绪百世，随吾而北可必无他
+  - date: 约1251
+    title_zh: 拒导世祖伐宋
+    rationale: 宋吾父母国也，未有引他人以伐吾父母者；世祖悦，因不强之仕
+- id: guji-赵复-endeavor-2
+  title_zh: 撰传道图、伊洛发挥、师友图、希贤录
+  role_zh: 著述
+  phases:
+  - key: brewing
+    name: 选取遗书八千余卷
+    labels:
+      zh: 遗书八千余卷
+    start_date: 1235
+    highlight_event_id: guji-赵复-event-taiji-academy
+  - key: breakthrough
+    name: 作传道图，条列书目
+    labels:
+      zh: 传道图
+    start_date: 约1236
+    highlight_event_id: guji-赵复-event-chuandao-tu
+  - key: climax
+    name: 着伊洛发挥，作师友图、希贤录
+    labels:
+      zh: 师友图
+    start_date: 约1237
+    highlight_event_id: guji-赵复-event-siyou-tu
+  - key: closure
+    name: 枢传其学于苏门，北方始知程朱之学
+    labels:
+      zh: 学传北士
+    start_date: 约1241
+    highlight_event_id: guji-赵复-event-learning-spread
+  decisions:
+  - date: 约1236
+    title_zh: 编传道图而以书目条列于后
+    rationale: 周程而后其书广博，学者未能贯通，故原羲农尧舜继天立极、孔曾颜孟垂世立教、周程张朱发明绍续之统
+  - date: 约1237
+    title_zh: 录朱子门人五十三人为师友图
+    rationale: 朱子门人散在四方，以见诸登载与得诸传闻者共五十三人作师友图，以寓私淑之志
+events:
+- id: guji-赵复-event-birth
+  type: birth
+  title_zh: 生于德安
+  date: 约1200
+  is_circa: true
+  year_of: 1200
+  description: 赵复字仁甫，德安人，生年不详（据德安被俘时已为名儒，约生于十三世纪初）。
+  location_zh: 德安
+- id: guji-赵复-event-captured-dean
+  type: milestone
+  title_zh: 元太宗命太子阔出征德安，赵复被俘
+  date: 1235
+  year_of: 1235
+  description: 元太宗命太子阔出征德安，俘得复；姚枢以行台郎中同行，杨惟中从军，枢奉命搜访人才，见复与语大悦之。
+  location_zh: 德安
+- id: guji-赵复-event-water-rescue
+  type: turning_point
+  title_zh: 欲投水殉国，姚枢救之于水滨
+  date: 1235
+  year_of: 1235
+  description: 复以九族俱残不欲生，与枢诀；枢恐其自裁，留帐中共宿，既觉驰马周号积尸间无有，行至水际，见复披发徒跣仰天而号欲投水；枢晓以徒死无益、存则子孙或可传绪百世，复强从之。
+  location_zh: 德安水际
+- id: guji-赵复-event-books-yao-shu
+  type: milestone
+  title_zh: 尽录程朱诸书付姚枢
+  date: 1235
+  year_of: 1235
+  description: 先是南北道绝，载籍不相通，洛闽之学惟行于南，北方之士惟崇眉山苏氏之学；至是复以所记程朱诸书尽录以付枢，惟中闻复议论始嗜其学。
+- id: guji-赵复-event-taiji-academy
+  type: milestone
+  title_zh: 与杨惟中、姚枢谋建太极书院，立周子祠
+  date: 约1236
+  is_circa: true
+  year_of: 1236
+  description: 乃与枢谋建太极书院，立周子祠，以二程、张、杨、游、朱六君子配食，选取遗书八千余卷，请复讲授其中。
+  location_zh: 太极书院
+- id: guji-赵复-event-chuandao-tu
+  type: work
+  title_zh: 作传道图，条列书目于后
+  date: 约1236
+  is_circa: true
+  year_of: 1236
+  description: 复以周程而后其书广博，学者未能贯通，乃原羲农尧舜所以继天立极、孔曾颜孟所以垂世立教、周程张朱氏所以发明绍续者，作传道图，而以书目条列于后。
+- id: guji-赵复-event-siyou-tu
+  type: work
+  title_zh: 别着伊洛发挥，作师友图、希贤录
+  date: 约1237
+  is_circa: true
+  year_of: 1237
+  description: 别着伊洛发挥以标其宗旨；以朱子门人见诸登载与得诸传闻者共五十三人作师友图，以寓私淑之志；又取伊尹颜渊言行作希贤录，使学者知所向慕，然后求端用力之方备矣。
+- id: guji-赵复-event-learning-spread
+  type: impact
+  title_zh: 枢传其学于苏门，北方始知程朱之学
+  date: 约1241
+  is_circa: true
+  year_of: 1241
+  description: 姚枢既退隐苏门，乃即复传其学，由是许衡、郝经、刘因皆得其书而尊信之；北方知有程朱之学自复始。
+  location_zh: 苏门
+- id: guji-赵复-event-shizu-summon
+  type: encounter
+  title_zh: 世祖潜邸召见，拒导伐宋
+  date: 约1251
+  is_circa: true
+  year_of: 1251
+  description: 世祖在潜邸尝召见，问曰“我欲取宋，卿可导之乎”，对曰“宋吾父母国也，未有引他人以伐吾父母者”，世祖悦，因不强之仕；复为人乐易耿介，以儒学见重于世，虽燕居不忘故土。
+- id: guji-赵复-event-yuan-haowen-gift
+  type: encounter
+  title_zh: 赠言南归之元好问
+  date: 约1252
+  is_circa: true
+  year_of: 1252
+  description: 元好问南归，复赠之言，以博溺心、末丧本为戒，以自修读易、求文王孔子之用心为勉，其爱人以德若此。
+- id: guji-赵复-event-death
+  type: death
+  title_zh: 竟不受官而终，学者称江汉先生
+  date: 约1280
+  is_circa: true
+  year_of: 1280
+  description: 复竟不受官而终，学者称为江汉先生；元史入儒学传。
