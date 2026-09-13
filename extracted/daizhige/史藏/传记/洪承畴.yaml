@@ -1,0 +1,177 @@
+person:
+  qid: guji-洪承畴
+  name_zh: 洪承畴
+  names:
+    zh: 洪承畴
+    en: Hong Chengchou
+  lifespan:
+    birth:
+      date: '1593'
+      precision: year
+      is_circa: true
+      raw: 明万历二十一年
+    death:
+      date: '1665'
+      precision: year
+      is_circa: false
+      raw: 清康熙四年
+  birth_date: '1593'
+  death_date: '1665'
+  era: 明末清初
+  reign_ref: 万历/崇祯/顺治/康熙
+  archetype: 贰臣
+  dilemmas:
+  - 忠于明室与保全生民的两难
+  - 松山被俘后降清的生死抉择
+  lesson: 乱世之中，个人抉择往往难逃时代与格局的限制，降叛之间毁誉并存。
+  summary_first_person: 我洪承畴出自福建南安，明万历四十四年中进士，剿流贼、督蓟辽，兵败松山被俘降清，后受清廷重用经略江南、进取西南，毁誉参半。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史列傳/卷八十
+endeavors:
+- id: guji-洪承畴-endeavor-1
+  name_zh: 明末剿贼与督师辽东
+  phases:
+  - key: brewing
+    name_zh: 陕西任职剿贼
+    labels:
+      zh:
+      - 进士出身
+      - 陕西督粮参政
+    start_date: '1618'
+    highlight_event_id: guji-洪承畴-event-fu-ze-yi-chuan
+  - key: breakthrough
+    name_zh: 总督陕西三边
+    labels:
+      zh:
+      - 延绥巡抚
+      - 三边总督
+      - 击败李自成
+    start_date: '1630'
+    highlight_event_id: guji-洪承畴-event-da-bai-zi-cheng
+  - key: climax
+    name_zh: 蓟辽总督与松锦之战
+    labels:
+      zh:
+      - 松山被俘
+      - 降清
+    start_date: '1642'
+    highlight_event_id: guji-洪承畴-event-song-shan-bei-fu
+  - key: closure
+    name_zh: 身后评价
+    labels:
+      zh:
+      - 列入贰臣传
+    start_date: '1776'
+- id: guji-洪承畴-endeavor-2
+  name_zh: 佐清经略中原
+  phases:
+  - key: brewing
+    name_zh: 归附新朝
+    labels:
+      zh:
+      - 清太宗礼遇
+      - 内院参谋
+    start_date: '1642'
+    highlight_event_id: guji-洪承畴-event-song-shan-bei-fu
+  - key: breakthrough
+    name_zh: 经略江南
+    labels:
+      zh:
+      - 招抚南方
+      - 平定东南
+    start_date: '1645'
+    highlight_event_id: guji-洪承畴-event-jing-lue-jiang-nan
+  - key: climax
+    name_zh: 经略湖广云贵
+    labels:
+      zh:
+      - 总督五省
+      - 平定西南
+    start_date: '1653'
+    highlight_event_id: guji-洪承畴-event-jing-lue-xi-nan
+  - key: closure
+    name_zh: 致仕与卒
+    labels:
+      zh:
+      - 乞休
+      - 赐谥文襄
+    start_date: '1665'
+    highlight_event_id: guji-洪承畴-event-death
+- id: guji-洪承畴-endeavor-3
+  name_zh: 明廷仕宦之路
+  phases:
+  - key: brewing
+    name_zh: 进士入仕
+    labels:
+      zh:
+      - 万历四十四年进士
+      - 浙江提学道
+    start_date: '1618'
+  - key: closure
+    name_zh: 明命终结
+    labels:
+      zh:
+      - 松山兵败
+    start_date: '1642'
+    highlight_event_id: guji-洪承畴-event-song-shan-bei-fu
+events:
+- id: guji-洪承畴-event-birth
+  date: '1593'
+  year_of: 1593
+  type: birth
+  name_zh: 洪承畴出生
+- id: guji-洪承畴-event-fu-ze-yi-chuan
+  date: '1629'
+  year_of: 1629
+  type: military
+  name_zh: 剿抚流贼王左挂
+  description: 崇祯二年，流贼王左挂掠宜川城堡，承畴剿之，俘斩三百余人。
+  endeavor_id: guji-洪承畴-endeavor-1
+- id: guji-洪承畴-event-governor-shaanxi
+  date: '1631'
+  year_of: 1631
+  type: promotion
+  name_zh: 擢陕西三边总督
+  description: 崇祯四年，擢陕西三边总督，继续剿贼。
+  endeavor_id: guji-洪承畴-endeavor-1
+- id: guji-洪承畴-event-da-bai-zi-cheng
+  date: '1636'
+  year_of: 1636
+  type: military
+  name_zh: 大败李自成于渭南临潼
+  description: 承畴率兵蹑自成，大败之于渭南、临潼；高迎祥旋被擒。
+  endeavor_id: guji-洪承畴-endeavor-1
+- id: guji-洪承畴-event-ji-liao
+  date: '1642'
+  year_of: 1642
+  type: appointment
+  name_zh: 授蓟辽总督
+  description: 崇祯十二年，授蓟辽总督，与清军对峙于锦州、宁远一线。
+  endeavor_id: guji-洪承畴-endeavor-1
+- id: guji-洪承畴-event-song-shan-bei-fu
+  date: '1642'
+  year_of: 1642
+  type: capture
+  name_zh: 松山兵败被俘降清
+  description: 松锦之战明军败绩，洪承畴困守松山，城破被俘，后降清，受清太宗礼遇。
+  endeavor_id: guji-洪承畴-endeavor-2
+- id: guji-洪承畴-event-jing-lue-jiang-nan
+  date: '1645'
+  year_of: 1645
+  type: appointment
+  name_zh: 奉命经略江南
+  description: 顺治二年，以太子太保、兵部尚书兼右副都御史，总督军务，招抚江南各省。
+  endeavor_id: guji-洪承畴-endeavor-2
+- id: guji-洪承畴-event-jing-lue-xi-nan
+  date: '1653'
+  year_of: 1653
+  type: appointment
+  name_zh: 经略湖广云贵
+  description: 顺治十年，受命经略湖南、广东、广西、云南、贵州，督师进剿南明抗清势力。
+  endeavor_id: guji-洪承畴-endeavor-2
+- id: guji-洪承畴-event-death
+  date: '1665'
+  year_of: 1665
+  type: death
+  name_zh: 洪承畴卒
+  description: 康熙四年卒於京师，谥文襄；乾隆时被列入《贰臣传》。
