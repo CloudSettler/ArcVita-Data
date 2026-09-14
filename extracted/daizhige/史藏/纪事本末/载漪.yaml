@@ -1,0 +1,82 @@
+person:
+  qid: guji-载漪
+  name_zh: 载漪
+  names:
+    zh: 载漪
+    en: Zaiyi
+  lifespan:
+    birth:
+      date: '1856'
+      precision: year
+      is_circa: true
+      raw: 约生于咸丰六年
+    death:
+      date: '1922'
+      precision: year
+      is_circa: true
+  birth_date: '1856'
+  death_date: '1922'
+  era: 清末光绪朝
+  reign_ref: 光绪二十六年（1900）庚子事变
+  archetype: 误国权贵
+  dilemmas:
+  - 主抚拳团以“民心不可失”，还是剿拳以弭衅端
+  - 纵团宣战逞一时之快，还是保全大局息兵议和
+  lesson: 借乱民之势逞私愤，误国殃民，终致神州倾覆之祸
+  summary_first_person: 我是端郡王载漪。庚子年拳匪起于直隶，我狃于民心不可失，怂恿朝廷抚而用之，府邸之内竟亦习其邪术。德使之戕、宣战之旨，实皆由此波澜。两宫西狩，宗社几倾，我之罪也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/拳變紀略
+endeavors:
+- id: guji-载漪-endeavor-1
+  name_zh: 主抚拳团
+  phases:
+  - key: brewing
+    name_zh: 府中习拳
+    labels:
+      zh: 端邸习术
+    start_date: 1900-05
+    highlight_event_id: guji-载漪-event-practice
+  - key: breakthrough
+    name_zh: 怂恿主战
+    labels:
+      zh: 惑圣听
+    start_date: 1900-06
+    highlight_event_id: guji-载漪-event-warmonger
+  - key: climax
+    name_zh: 祸乱激成
+    labels:
+      zh: 戕使宣战
+    start_date: '1900-06-11'
+    highlight_event_id: guji-载漪-event-warmonger
+  - key: closure
+    name_zh: 随扈西狩
+    labels:
+      zh: 仓皇出逃
+    start_date: 1900-08
+    highlight_event_id: guji-载漪-event-flight
+  decisions:
+  - date: 1900-06
+    title_zh: 力主乘机用拳
+    rationale: 狃于民心不可失，惑圣听谓八旗兵丁半入团中，实欲借拳势以逞排外之志
+  - date: '1900-08-16'
+    title_zh: 随驾西巡
+    rationale: 城将破，奉命随扈，弃京陪行
+events:
+- id: guji-载漪-event-practice
+  person: guji-载漪
+  date: 1900-05
+  year_of: '1900'
+  title_zh: 端郡王府中习拳术
+  summary: 文称“其实端邸备府内，已习其术”，拳术已入王府。
+- id: guji-载漪-event-warmonger
+  person: guji-载漪
+  date: '1900-06-11'
+  year_of: '1900'
+  title_zh: 与庄王等力主抚用拳团
+  summary: 上奉慈驾回驻西苑后，载漪与载勋、刚毅等狃于民心不可失，宜乘机用之，惑圣听谓八旗兵丁半入团中，实怂恿成宣战之祸。
+- id: guji-载漪-event-flight
+  person: guji-载漪
+  date: '1900-08-21'
+  year_of: '1900'
+  title_zh: 随两宫仓皇西狩
+  summary: 七月敌兵陷城，皇太后率皇上皇后大阿哥步出神武门西奔，端邸随扈而行。
