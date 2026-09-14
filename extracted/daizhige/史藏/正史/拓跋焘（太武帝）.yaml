@@ -1,0 +1,213 @@
+person:
+  qid: guji-tuobatao
+  name_zh: 拓跋焘
+  names:
+    zh: 拓跋焘
+    en: Tuoba Tao / Emperor Taiwu of Northern Wei
+  lifespan:
+    birth:
+      date: 0408
+      precision: year
+      is_circa: true
+      raw: 生年不详，约北魏天兴年间
+    death:
+      date: 0452-03-11
+      precision: day
+      is_circa: false
+      raw: 正平二年中常侍宗爱所弑
+  birth_date: 0408
+  death_date: 0452-03-11
+  era: 南北朝 · 北魏
+  reign_ref: 北魏太武帝（始光—正平，423-452 在位）
+  archetype: 开疆建制之雄主
+  dilemmas:
+  - 灭佛崇道与安邦固本之争
+  - 华夏正统与鲜卑旧俗之取舍
+  - 威严驭下与近侍之祸的疏失
+  lesson: 武功可以定四海，然苛察寡信、近身无防，虽有混一之志，终不免肘腋之变。
+  summary_first_person: 我拓跋焘，北魏明元帝长子，年十五嗣位。在位近三十年，先后击破柔然、夏国赫连氏、北凉沮渠氏，于四三九年统一北方，与南朝宋对峙，成南北之势。我用法严急，太平真君年间纳崔浩之议，崇天师道而果断禁佛，惩抑豪强，以武定天下、以律齐万民。然晚年苛暴多疑，宗爱得近左右，正平二年我为所弑。魏收书纪我世祖太武皇帝，功业赫赫，而殁于近侍之手，可为后世鉴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/魏書/卷4上
+  - https://zh.wikisource.org/wiki/魏書/卷4下
+endeavors:
+- id: guji-tuobatao-endeavor-1
+  name_zh: 攘柔然、平赫连
+  labels:
+    zh:
+    - 北伐
+    - 统一北方
+  phases:
+  - key: brewing
+    name_zh: panels-brewing
+    labels:
+      zh:
+      - 嗣位练兵
+    start_date: 275
+    highlight_event_id: guji-tuobatao-event-accession
+  - key: breakthrough
+    name_zh: panels-breakthrough
+    labels:
+      zh:
+      - 北却柔然
+      - 西灭夏国
+    start_date: 277
+    highlight_event_id: guji-tuobatao-event-conquer-xia
+  - key: climax
+    name_zh: panels-climax
+    labels:
+      zh:
+      - 平北凉
+      - 混一北土
+    start_date: 0439
+    highlight_event_id: guji-tuobatao-event-unification
+  - key: closure
+    name_zh: panels-closure
+    labels:
+      zh:
+      - 弑于近侍
+    start_date: 297
+    highlight_event_id: guji-tuobatao-event-death
+  decisions:
+  - date: 0429
+    title_zh: 倾力北击柔然
+    rationale: 柔然屡扰北边，不先除之则中原之兵无以专意南顾。
+  - date: 280
+    title_zh: 先取夏国再定南方
+    rationale: 赫连氏据关中膏腴之地，南朝新定，先西后南尤为得力。
+  - date: 0439
+    title_zh: 讨沮渠牧犍灭北凉
+    rationale: 北凉苟安一隅，不并则河西不通，北土终不得混一。
+- id: guji-tuobatao-endeavor-2
+  name_zh: 崔浩辅政与灭佛建制
+  labels:
+    zh:
+    - 崇道禁佛
+    - 刑政苛严
+  phases:
+  - key: brewing
+    name_zh: panels-brewing
+    labels:
+      zh:
+      - 崔浩入机要
+    start_date: 276
+    highlight_event_id: guji-tuobatao-event-cuihao-trust
+  - key: breakthrough
+    name_zh: panels-breakthrough
+    labels:
+      zh:
+      - 崇奉天师
+    start_date: 288
+    highlight_event_id: guji-tuobatao-event-tdao-shouzhuan
+  - key: climax
+    name_zh: panels-climax
+    labels:
+      zh:
+      - 太平真君灭佛
+    start_date: 294
+    highlight_event_id: guji-tuobatao-event-persecution
+  - key: closure
+    name_zh: panels-closure
+    labels:
+      zh:
+      - 国史之狱
+    start_date: 296
+    highlight_event_id: guji-tuobatao-event-cuihao-death
+  decisions:
+  - date: 288
+    title_zh: 受天师道箓，崇道教
+    rationale: 欲假神道立华夏正统之号，收中夏士民之心。
+  - date: 294
+    title_zh: 断禁佛法、毁寺焚经
+    rationale: 盖吴乱起而沙门藏匿兵器，虑佛门为奸宄所托，故断其法。
+  - date: 296
+    title_zh: 诛崔浩夷五族
+    rationale: 国史直书国恶，忿诸鲜卑大人之言，遂兴大狱。
+events:
+- id: guji-tuobatao-event-birth
+  title_zh: 拓跋焘生
+  date: 0408
+  year_of: '408'
+  era_label: 北魏
+  event_type: birth
+  summary: 北魏明元帝拓跋嗣长子生，后为北魏第三帝。
+- id: guji-tuobatao-event-accession
+  title_zh: 嗣皇帝位
+  date: 0423-11-01
+  year_of: '423'
+  era_label: 北魏 · 始光元年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-1
+  phase_key: brewing
+  summary: 明元帝崩，焘以太子继位，改元始光，是为太武皇帝。
+- id: guji-tuobatao-event-cuihao-trust
+  title_zh: 崔浩参预机要
+  date: '0424'
+  year_of: '424'
+  era_label: 北魏 · 始光初
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-2
+  phase_key: brewing
+  summary: 崔浩以谋略受重用，凡军国大计多所参决。
+- id: guji-tuobatao-event-jouran-campaign
+  title_zh: 北破柔然
+  date: 0429
+  year_of: '429'
+  era_label: 北魏 · 神麚二年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-1
+  phase_key: breakthrough
+  summary: 大举北征，柔然远遁，高车诸部来附，北边大定。
+- id: guji-tuobatao-event-conquer-xia
+  title_zh: 灭夏国赫连氏
+  date: 0431-06-01
+  year_of: '431'
+  era_label: 北魏 · 神麚四年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-1
+  phase_key: breakthrough
+  summary: 拔统万城，灭大夏赫连昌，取关中之地。
+- id: guji-tuobatao-event-unification
+  title_zh: 灭北凉，统一北方
+  date: '439'
+  year_of: '439'
+  era_label: 北魏 · 太延五年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-1
+  phase_key: climax
+  summary: 讨平北凉沮渠牧犍，北方混一，与刘宋成南北对峙之局。
+- id: guji-tuobatao-event-tdao-shouzhuan
+  title_zh: 受天师道箓
+  date: '0440'
+  year_of: '440'
+  era_label: 北魏 · 太平真君元年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-2
+  phase_key: breakthrough
+  summary: 亲受寇谦之符箓，改元太平真君，崇道家之教。
+- id: guji-tuobatao-event-persecution
+  title_zh: 太武灭佛
+  date: '0446'
+  year_of: '446'
+  era_label: 北魏 · 太平真君七年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-2
+  phase_key: climax
+  summary: 下诏坑焚沙门、毁佛寺经像，为中土三武灭佛之首。
+- id: guji-tuobatao-event-cuihao-death
+  title_zh: 崔浩国史之狱
+  date: '0450'
+  year_of: '450'
+  era_label: 北魏 · 太平真君十一年
+  event_type: endeavor
+  endeavor_id: guji-tuobatao-endeavor-2
+  phase_key: closure
+  summary: 崔浩以修史直笔获罪，夷其五族，朝野震怖。
+- id: guji-tuobatao-event-death
+  title_zh: 为宗爱所弑
+  date: 0452-03-11
+  year_of: '452'
+  era_label: 北魏 · 正平二年
+  event_type: death
+  endeavor_id: guji-tuobatao-endeavor-1
+  phase_key: closure
+  summary: 中常侍宗爱弑帝于宫中，年四十五，庙号世祖。

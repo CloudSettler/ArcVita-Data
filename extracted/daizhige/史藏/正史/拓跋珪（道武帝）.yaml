@@ -1,0 +1,146 @@
+person:
+  qid: guji-拓跋珪
+  name_zh: 拓跋珪（道武帝）
+  names:
+    zh: 拓跋珪
+    en: Tuoba Gui
+  lifespan:
+    birth:
+      date: '371'
+      precision: year
+      is_circa: false
+      raw: 建国三十四年（什翼犍之世）
+    death:
+      date: '409'
+      precision: year
+      is_circa: false
+  birth_date: '371'
+  death_date: '409'
+  era: 十六国至北魏初期
+  reign_ref: 北魏道武帝（386—409 在位，年号登国、皇始、天兴、天赐）
+  archetype: 开国雄主
+  dilemmas:
+  - 流亡寄居贺兰部，国统中绝，须在部族离散与强邻环伺中复国
+  - 复国后面对离散诸部与慕容、后燕等强敌，离散部落、编户定居与保持鲜卑旧俗之间的取舍
+  - 晚期刚愎多疑，诛戮大臣，终致父子相残之祸
+  lesson: 复兴弱国须审势待时、断行变革，然功成之后的猜忌与暴力往往自毁其业。
+  summary_first_person: 我是拓跋珪，代国覆灭后随母流亡，寄居贺兰部与后燕之间。十六岁复国称魏王，破刘显、灭刘卫辰，离散诸部、编为编户，逐步建军立制。登国十年参合陂大破后燕，皇始年间攻克中山，尽有华北要地。天兴元年定都平城，称皇帝，营宫室、立官制、定冠服，仿华夏规范建立帝业。然而晚年忧愤猜忌，jaw常服寒食散，喜怒无常，天赐六年终死于清河王绍之手。
+  source_urls:
+  - https://zh.wikisource.org/wiki/魏书/卷一
+  - https://zh.wikisource.org/wiki/魏书/卷二
+endeavors:
+- id: guji-拓跋珪-endeavor-1
+  name_zh: 复国代魏
+  labels:
+    zh:
+    - 复国
+    - 立王业
+  phases:
+  - key: brewing
+    name_zh: 流亡寄居与隐忍待时
+    labels:
+      zh:
+      - 流亡
+      - 贺兰部
+    start_date: '376'
+  - key: breakthrough
+    name_zh: 牛川即代王位，改称魏王
+    labels:
+      zh:
+      - 复国
+      - 称王
+    start_date: 386-02
+    highlight_event_id: guji-拓跋珪-event-fuguo
+  - key: climax
+    name_zh: 破刘显、灭刘卫辰，统一诸部
+    labels:
+      zh:
+      - 统一
+      - 离散部落
+    start_date: '387'
+  decisions:
+  - date: 386-02-20
+    title_zh: 牛川大会，即代王位重建拓跋政权
+    rationale: 代国亡于苻秦之后诸部离散，须先复国统以收部众。
+  - date: 391-12
+    title_zh: 击灭铁弗刘卫辰
+    rationale: 铁弗部久为心腹之患，灭之可并河南之地、收其部众。
+- id: guji-拓跋珪-endeavor-2
+  name_zh: 对燕争锋与定鼎中原
+  labels:
+    zh:
+    - 伐燕
+    - 平中原
+  phases:
+  - key: breakthrough
+    name_zh: 参合陂之战大破后燕
+    labels:
+      zh:
+      - 参合陂
+      - 破燕
+    start_date: 395-11
+    highlight_event_id: guji-拓跋珪-event-canhepo
+  - key: climax
+    name_zh: 皇始进取，攻克中山据有中原
+    labels:
+      zh:
+      - 灭燕
+      - 克中山
+    start_date: 396-10
+    highlight_event_id: guji-拓跋珪-event-zhongshan
+  - key: closure
+    name_zh: 定都平城称帝，建立帝制
+    labels:
+      zh:
+      - 称帝
+      - 营平城
+    start_date: 398-07
+    highlight_event_id: guji-拓跋珪-event-chengdi
+  decisions:
+  - date: 396-10
+    title_zh: 乘慕容垂新死，建旆南下伐燕
+    rationale: 后燕新丧，并州可 propName，趁机进取中原。
+  - date: 398-07
+    title_zh: 迁都平城、称皇帝建号天兴
+    rationale: 据有华北腹地后，须立都城、定官制朝仪，走出部落联盟而建立帝业。
+events:
+- id: guji-拓跋珪-event-birth
+  date: '371'
+  year_of: '371'
+  type: birth
+  name_zh: 拓跋珪生，什翼犍之孙
+- id: guji-拓跋珪-event-fuguo
+  date: 386-02-20
+  year_of: '386'
+  type: founding
+  endeavor_id: guji-拓跋珪-endeavor-1
+  name_zh: 牛川即代王位，旋改称魏王，北魏开国
+- id: guji-拓跋珪-event-liuweichen
+  date: 391-12
+  year_of: '391'
+  type: battle
+  endeavor_id: guji-拓跋珪-endeavor-1
+  name_zh: 击灭铁弗刘卫辰，尽并其部
+- id: guji-拓跋珪-event-canhepo
+  date: 395-11-10
+  year_of: '395'
+  type: battle
+  endeavor_id: guji-拓跋珪-endeavor-2
+  name_zh: 参合陂之战大破后燕慕容宝
+- id: guji-拓跋珪-event-zhongshan
+  date: 397-10-10
+  year_of: '397'
+  type: battle
+  endeavor_id: guji-拓跋珪-endeavor-2
+  name_zh: 攻克后燕都城中叹（中山），据有河北
+- id: guji-拓跋珪-event-chengdi
+  date: 398-07-10
+  year_of: '398'
+  type: accession
+  endeavor_id: guji-拓跋珪-endeavor-2
+  name_zh: 定都平城，即皇帝位，建元天兴
+- id: guji-拓跋珪-event-death
+  date: 409-11-06
+  year_of: '409'
+  type: death
+  name_zh: 天赐六年为清河王拓跋绍所弑，崩于平城
