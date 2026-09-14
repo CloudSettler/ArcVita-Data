@@ -1,0 +1,136 @@
+person:
+  qid: guji-万元吉
+  name_zh: 万元吉
+  names:
+    zh: 万元吉
+    en: Wan Yuanji
+  lifespan:
+    birth:
+      date: '1603'
+      precision: year
+      is_circa: true
+      raw: 约1603
+    death:
+      date: 1646-10
+      precision: month
+      is_circa: false
+      raw: 顺治三年（1646）十月
+  birth_date: '1603'
+  death_date: 1646-10
+  era: 明末／南明（弘光、隆武时期）
+  reign_ref: 弘光、隆武
+  archetype: 孤忠调停之臣
+  dilemmas:
+  - 内则党争倾轧（马阮奸党与东林），外则清兵压境，谏言屡不见用
+  - 奉命调停诸镇不和，既须弥缝将帅私怨，又须保全大局
+  - 受隆武帝倚任而兵饷两乏，明知不可为而守赣州死之
+  lesson: 明知大厦将倾，仍以调停维系一线；终以身殉城，成其孤忠。
+  summary_first_person: 我万元吉，明天启间进士，累官兵部。弘光立，我力争起用阮大铖之非；又奉史可法之命，解黄得功与高杰之仇。隆武朝我协守赣州，粮尽援绝，城破死之，不失臣节。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/万元吉
+endeavors:
+- id: guji-万元吉-endeavor-1
+  name_zh: 弱冠入仕，历任要职
+  phases:
+  - key: brewing
+    name_zh: 科第起家
+    labels:
+      zh:
+      - 天启进士
+      - 历官升迁
+    start_date: '1622'
+    highlight_event_id: guji-万元吉-event-career-shift
+  decisions:
+  - date: '1622'
+    title_zh: 中天启二年进士，步入仕途
+    rationale: 由科举入仕，渐晋兵部要职，为日后南明军政生涯奠基。
+- id: guji-万元吉-endeavor-2
+  name_zh: 弘光朝谏诤与调停诸镇
+  phases:
+  - key: breakthrough
+    name_zh: 力争邪正当分
+    labels:
+      zh:
+      - 疏争阮大铖起用
+    start_date: 1644-09
+    highlight_event_id: guji-万元吉-event-memorial-1854
+  - key: climax
+    name_zh: 奉命和解黄高
+    labels:
+      zh:
+      - 调停四镇
+    start_date: '1645'
+    highlight_event_id: guji-万元吉-event-mediation-1645
+  decisions:
+  - date: 1644-09
+    title_zh: 上疏力谏起用阮大铖
+    rationale: 阮为逆案之人，中旨擢用坏祖宗成法，故与诸臣合疏力争。
+  - date: '1645'
+    title_zh: 受史可法命和解黄得功、高杰之隙
+    rationale: 得功与杰相仇欲决死战，非调停无以保江北；值得功母丧，劝杰以千金助赙，遂解。
+- id: guji-万元吉-endeavor-3
+  name_zh: 隆武朝督师守赣殉节
+  phases:
+  - key: climax
+    name_zh: 协守赣州
+    labels:
+      zh:
+      - 粮尽援绝
+      - 城破死节
+    start_date: '1646'
+    highlight_event_id: guji-万元吉-event-death-1646
+  - key: closure
+    name_zh: 殉国身后
+    labels:
+      zh:
+      - 以身殉城
+    start_date: 1646-10
+    highlight_event_id: guji-万元吉-event-death-1646
+  decisions:
+  - date: '1646'
+    title_zh: 督师协守赣州，誓与城共存亡
+    rationale: 郑氏拥兵不进、饷乏兵单，我知赣为闽之门户，不可弃守。
+events:
+- id: guji-万元吉-event-birth
+  date: '1603'
+  year_of: 1603
+  title_zh: 万元吉生（约）
+  description: 万元吉生于江西南昌（生年记载存疑，约当万历中期）。
+  actors:
+  - 万元吉
+- id: guji-万元吉-event-career-shift
+  date: '1622'
+  year_of: 1622
+  title_zh: 中进士入仕
+  description: 天启二年举进士，由此入仕，累迁至兵部。
+  actors:
+  - 万元吉
+- id: guji-万元吉-event-memorial-1854
+  date: 1644-09
+  year_of: 1644
+  title_zh: 疏争起用阮大铖
+  description: 马士英文荐逆案阮大铖，吕大器、熊汝霖、万元吉、陈良弼、王孙蕃、左光先、尹民兴等各疏力争；士英力攻曰广大器，终以中旨授大铖兵部添注右侍郎。
+  actors:
+  - 万元吉
+  - 吕大器
+  - 熊汝霖
+  - 马士英
+  - 阮大铖
+  - 姜曰广
+- id: guji-万元吉-event-mediation-1645
+  date: '1645'
+  year_of: 1645
+  title_zh: 奉命和解黄得功与高杰
+  description: 高杰疑黄得功图己，伏兵土桥袭之，得功大恨欲决死战；史可法命万元吉和解之，适得功值母丧，杰以千金为赙，怨乃解。
+  actors:
+  - 万元吉
+  - 史可法
+  - 黄得功
+  - 高杰
+- id: guji-万元吉-event-death-1646
+  date: 1646-10
+  year_of: 1646
+  title_zh: 城破殉节于赣州
+  description: 隆武朝饷乏兵不出关，黄道周兵败殉难；万元吉督守赣州，清兵破城，死之。
+  actors:
+  - 万元吉
