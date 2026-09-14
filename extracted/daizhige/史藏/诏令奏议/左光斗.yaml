@@ -1,0 +1,117 @@
+person:
+  qid: guji-左光斗
+  name_zh: 左光斗
+  names:
+    zh: 左光斗
+    en: Zuo Guangdou
+  lifespan:
+    birth:
+      date: '1575'
+      precision: year
+      is_circa: true
+      raw: 万历三年（1575年）
+    death:
+      date: '1625'
+      precision: year
+      is_circa: false
+      raw: 天启五年（1625年）
+  birth_date: '1575'
+  death_date: '1625'
+  era: 明代晚期（万历至天启年间）
+  reign_ref: 明神宗、明熹宗
+  archetype: 直臣死谏之孤臣型——正色立朝、抗疏批鳞而身死诏狱的忠荩杰士
+  dilemmas:
+  - 直言批鳞必触怒权阉，缄默保身则坐视阉祸乱政，忠君与自全不可两全
+  - 奏疏切中利病可裨时政，而当时主闇政昏，言虽正而行不能达，留名与济世分离
+  lesson: 危言谠论不以身殁而废——其言可援为金鉴，其气节足为后世炯戒
+  summary_first_person: 我是左光斗，万历间成进士，天启朝官至御史。魏忠贤窃柄、阉人满朝之际，我与杨涟正色立朝，慷慨抗疏，劾阉党之罪，剀切敷陈，欲绳愆纠谬以正朝纲。忠言未纳，反遭构陷，天启五年瘐死诏狱。今上追论，谓若明之君能采而用之，犹不致败亡，录我奏疏以为殷鉴，亦足以慰我在狱中不改之初心。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/左光斗
+endeavors:
+- id: guji-左光斗-endeavor-1
+  name_zh: 谏垣抗疏
+  phases:
+  - key: brewing
+    name_zh: 登第入仕
+    labels:
+      zh: 万历进士、初历台省
+    start_date: '1603'
+    highlight_event_id: guji-左光斗-event-jinshi
+  - key: breakthrough
+    name_zh: 巡视直言
+    labels:
+      zh: 巡视京营、督学畿辅、疏陈时弊
+    start_date: '1620'
+    highlight_event_id: guji-左光斗-event-ducha
+  - key: climax
+    name_zh: 削阉批鳞
+    labels:
+      zh: 正色立朝、弹劾魏忠贤
+    start_date: '1624'
+    highlight_event_id: guji-左光斗-event-shu-weizhongxian
+  - key: closure
+    name_zh: 下狱殉节
+    labels:
+      zh: 构陷诏狱、瘐死狱中、追录奏议
+    start_date: '1625'
+    highlight_event_id: guji-左光斗-event-death
+  decisions:
+  - date: 1624-06
+    title_zh: 与杨涟先后上疏劾魏忠贤二十四大罪
+    rationale: 阉人窃柄、太阿倒持，举错失当，非危言谠论不足以警君心而去权奸
+  - date: '1625'
+    title_zh: 不肯趋附阉党，终至被逮下狱而无一悔辞
+    rationale: 风节自持，忠君爱国之忱重于身家，宁死诏狱不污其行
+events:
+- id: guji-左光斗-event-birth
+  name_zh: 左光斗生
+  date: '1575'
+  year_of: '1575'
+  date_display: 约1575年（万历三年）
+  description_zh: 左光斗生于南直隶桐城，字遗直，后号浮丘。
+  type: birth
+  place: 南直隶桐城
+- id: guji-左光斗-event-jinshi
+  name_zh: 万历进士及第，入仕论谏
+  date: '1603-12-01'
+  year_of: '1603'
+  date_display: 万历三十五年（1607年前后）
+  description_zh: 左光斗举万历年进士，授御史职，自谏垣发轫，以敢言著称，为日后正色立朝之基。
+  type: 事业
+  endeavors:
+  - guji-左光斗-endeavor-1
+- id: guji-左光斗-event-ducha
+  name_zh: 巡视言事，疏陈治乱
+  date: '1620-01-01'
+  year_of: '1620'
+  date_display: 泰昌、天启之际
+  description_zh: 左光斗居言官之职，巡视畿辅水利屯田，疏陈利病危言谠论，规陈治乱，关系国计。
+  type: 事业
+  endeavors:
+  - guji-左光斗-endeavor-1
+- id: guji-左光斗-event-shu-weizhongxian
+  name_zh: 上疏劾魏忠贤阉党之罪
+  date: '1624-06-01'
+  year_of: '1624'
+  date_display: 天启四年（1624年）
+  description_zh: 左光斗与杨涟相继抗疏批鳞，弹劾魏忠贤擅柄乱政、横行宫闱，慷慨建议、剀切敷陈，已卯疏出而阉党震惧。
+  type: 事业
+  endeavors:
+  - guji-左光斗-endeavor-1
+- id: guji-左光斗-event-death
+  name_zh: 构陷下狱，瘐死诏狱
+  date: '1625-07-01'
+  year_of: '1625'
+  date_display: 天启五年（1625年）
+  description_zh: 左光斗被阉党构陷，逮系诏狱，备受酷刑，卒于狱中；崇祯初昭雪，乾隆间其奏疏广为搜采，编入《御选明臣奏议》（卷二十九），垂为法戒。
+  type: death
+  place: 京师诏狱
+- id: guji-左光斗-event-houlu
+  name_zh: 奏疏入《御选明臣奏议》，援为金鉴
+  date: '1781-11-01'
+  year_of: '1781'
+  date_display: 乾隆四十六年（1781年）
+  description_zh: 乾隆帝谕以杨涟、左光斗、熊廷弼等正色立朝诸臣奏疏不可不亟为辑录，其危言谠论固可援为金鉴，殷鉴不远，以垂法戒。
+  type: 事业
+  endeavors:
+  - guji-左光斗-endeavor-1

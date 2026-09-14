@@ -1,0 +1,129 @@
+person:
+  qid: guji-杨涟
+  name_zh: 杨涟
+  names:
+    zh: 杨涟
+    en: Yang Lian
+  lifespan:
+    birth:
+      date: '1572-07-29'
+      precision: year
+      is_circa: true
+      raw: 明隆庆六年（约1572年）
+    death:
+      date: '1625'
+      precision: year
+      is_circa: false
+      raw: 明天启五年（1625年）
+  birth_date: 1572-07-29
+  death_date: 1625
+  era: 明末（万历至天启年间）
+  reign_ref:
+  - 明神宗万历
+  - 明熹宗天启
+  archetype: 直臣/谏臣
+  dilemmas:
+  - 面对魏忠贤阉党专权，疏劾权阉则身遭横祸，缄默则负忠臣之责
+  - 皇帝年幼昏聩、太阿倒持之际，犯颜批鳞须以性命作注
+  - 忠君爱国之忱与君王昏聩、朝政失当之间的深刻矛盾
+  lesson: 危言谠论，正色立朝；虽人品涉党争毁誉，其直言切中利病者，不可以人废言。
+  summary_first_person: 我杨涟，万历进士出身，官至左副都御史。天启年间，魏忠贤窃柄、权幸满朝，我上疏劾其二十四大罪，慷慨d建议、剀切敷陈，正色立朝不避斧钺。终为阉党构陷入狱，拷掠而死，以身殉直。百余年后，乾隆帝犹谓我辈奏疏"危言谠论，关系前代得失"，将我与左光斗、熊廷弼并列，搜采入《御选明臣奏议》，以垂法戒、昭炯鉴。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=御选明臣奏议
+endeavors:
+- id: guji-杨涟-endeavor-1
+  key: 廷议直谏
+  name_zh: 正色立朝·疏劾权阉
+  labels:
+    zh:
+    - 直言极谏
+    - 批鳞抗疏
+  start_date: 1620
+  phases:
+  - key: brewing
+    name_zh: 起于言官
+    labels:
+      zh:
+      - 入仕
+      - 言官
+    start_date: 1604
+    highlight_event_id: guji-杨涟-event-office
+  - key: breakthrough
+    name_zh: 移宫定策
+    labels:
+      zh:
+      - 拥立
+      - 移宫案
+    start_date: 1620-09
+    highlight_event_id: guji-杨涟-event-taichang
+  - key: climax
+    name_zh: 劾魏忠贤二十四大罪
+    labels:
+      zh:
+      - 批鳞
+      - 弹劾权阉
+    start_date: 1624
+    highlight_event_id: guji-杨涟-event-cixi
+  - key: closure
+    name_zh: 系狱殉直
+    labels:
+      zh:
+      - 下狱
+      - 忠谏致死
+    start_date: 1625
+    highlight_event_id: guji-杨涟-event-death
+  decisions:
+  - date: 1624-06
+    title_zh: 疏劾魏忠贤二十四大罪
+    rationale: 阉人窃柄、太阿倒置，朝政失当，因置国是若罔闻；挺身犯颜，绳愆纠谬，虽祸在不测义不可辞。
+  - date: 1625
+    title_zh: 于狱中不作悔辞
+    rationale: 慷慨建议、剀切敷陈，事涉忠义，宁死不夺其志。
+events:
+- id: guji-杨涟-event-birth
+  date: '1572'
+  year_of: 1572
+  name_zh: 杨涟生（约）
+  type: birth
+  description_zh: 约生于明隆庆年间。
+- id: guji-杨涟-event-office
+  date: 1604
+  year_of: 1604
+  name_zh: 万历三十二年登进士入仕
+  type: career
+  related_to: guji-杨涟-endeavor-1
+  description_zh: 举进士，历官常熟知县、兵科给事中等，渐显风节。
+- id: guji-杨涟-event-taichang
+  date: 1620-09
+  year_of: 1620
+  name_zh: 昌平卫直谏／光宗危殆之际抗疏
+  type: career
+  related_to: guji-杨涟-endeavor-1
+  description_zh: 泰昌帝病笃，杨涟力请光宗慎医药以奏。遂被召见，声名大振。文云"折冲疆场、正色立朝，俱能慷慨建议、剀切敷陈"，此其立朝之端。
+- id: guji-杨涟-event-yigong
+  date: 1620-10
+  year_of: 1620
+  name_zh: 移宫案抗疏争纲常
+  type: career
+  related_to: guji-杨涟-endeavor-1
+  description_zh: 李选侍据乾清宫，杨涟抗疏请移宫，官至左副都御史，直声动朝野。
+- id: guji-杨涟-event-cixi
+  date: 1624-06
+  year_of: 1624
+  name_zh: 上疏劾魏忠贤二十四大罪
+  type: career
+  related_to: guji-杨涟-endeavor-1
+  description_zh: 天启四年，杨涟疏数魏忠贤二十四大罪，"危言谠论，关系前代得失"，忠言之烈震动朝野。
+- id: guji-杨涟-event-arrest
+  date: 1625
+  year_of: 1625
+  name_zh: 遭阉党构陷入狱
+  type: career
+  related_to: guji-杨涟-endeavor-1
+  description_zh: 魏忠贤党羽矫诏逮系，与左光斗同下诏狱，严刑拷掠。
+- id: guji-杨涟-event-death
+  date: 1625
+  year_of: 1625
+  name_zh: 死于诏狱
+  type: death
+  description_zh: 天启五年，死于狱中。事后乾隆称"胜国去今尤近，三百年中荩臣杰士，其规陈治乱、抗疏批鳞当亦不亚汉唐宋元诸臣"，命将其奏疏搜采入《御选明臣奏议》。
