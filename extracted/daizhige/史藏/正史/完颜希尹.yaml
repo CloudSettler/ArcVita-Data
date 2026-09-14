@@ -1,0 +1,132 @@
+person:
+  qid: guji-完颜希尹
+  name_zh: 完颜希尹
+  names:
+    zh: 完颜希尹
+    en: Wanyan Xiyin
+  lifespan:
+    birth:
+      date: '1080'
+      precision: approx
+      is_circa: true
+      raw: 史无明载
+    death:
+      date: '1139'
+      precision: exact
+      is_circa: false
+      raw: 熙宗天眷年间坐事被诛（据金史，本传所未详）
+  birth_date: '1080'
+  death_date: '1139'
+  era: 金初（太祖、太宗、熙宗朝）
+  reign_ref: 金太祖/太宗/熙宗
+  archetype: 开国谋臣与文字创制者
+  dilemmas:
+  - 处于女真初创文字与辽宋文化之间的传承抉择
+  - 随宗翰略地追袭辽主时对进退机宜的把握
+  lesson: 能成事者，既能武略拓疆，亦能文治立制。
+  summary_first_person: 我是完颜希尹，出自完颜部。太祖举兵伐辽之际，我随宗翰来贺称进劝；后来受命随军略地、追袭辽主，且以创制女真大字著称于世。
+  source_urls:
+  - https://zh.wikisource.org/wiki/金史/卷2
+endeavors:
+- id: guji-完颜希尹-endeavor-1
+  name_zh: 贺捷劝进与随宗翰征略
+  start_date: '1115'
+  notes: 辽金战争时期随宗翰担任向导与谋主，略地山西、追袭辽主。
+  phases:
+  - key: breakthrough
+    name_zh: 来贺劝进
+    labels:
+      zh:
+      - 从征
+      - 联络劝进
+    start_date: '1115'
+    highlight_event_id: guji-完颜希尹-event-2
+  - key: breakthrough
+    name_zh: 略地获报
+    labels:
+      zh:
+      - 略地
+      - 侦察
+    start_date: '1122-01-01'
+    highlight_event_id: guji-完颜希尹-event-3
+  - key: closure
+    name_zh: 追袭辽主
+    labels:
+      zh:
+      - 追击
+    start_date: '1122-03-01'
+    highlight_event_id: guji-完颜希尹-event-4
+  decisions:
+  - date: '1122-01-01'
+    title_zh: 驻北安而分兵略地
+    rationale: 宗翰驻北安州时，受遣出兵略地，搜获辽护卫耶律习泥烈，探知辽主猎于鸳鸯泺等内情。
+- id: guji-完颜希尹-endeavor-2
+  name_zh: 创制女真大字
+  start_date: '1119'
+  notes: 天辅三年八月太祖颁行女直字，即希尹所制女真大字（据金史他卷，本文本tahun辅三年八月己丑条为颁行时点）。
+  phases:
+  - key: brewing
+    name_zh: 受命制字
+    labels:
+      zh:
+      - 文字创制
+    start_date: '1119-01-01'
+    highlight_event_id: guji-完颜希尹-event-5
+  - key: breakthrough
+    name_zh: 颁行国字
+    labels:
+      zh:
+      - 颁行
+    start_date: '1119-08-01'
+    highlight_event_id: guji-完颜希尹-event-5
+  decisions:
+  - date: '1119-08-01'
+    title_zh: 以女真字颁行本国
+    rationale: 女真旧无文字，与邻国通问皆用契丹字；为立国建制、推行号令，与seyen同事依汉字楷体、参照契丹字制度写成女真大字，奏颁行之。
+events:
+- id: guji-完颜希尹-event-birth
+  date: '1080'
+  year_of: 1080
+  era: 金立国前女真完颜部时期
+  event_type: birth
+  summary: 完颜希尹生年史无明文，约当十一世纪后期。
+  location: 女真完颜部
+- id: guji-完颜希尹-event-death
+  date: '1139'
+  year_of: 1139
+  era: 金熙宗天眷年间
+  event_type: death
+  summary: 熙宗朝以宗室政争坐事被诛（本传文所载未及，据金史本传补记）。
+  location: 金上京
+- id: guji-完颜希尹-event-2
+  date: '1115-10-01'
+  year_of: 1115
+  era: 金收国元年
+  event_type: endeavor
+  summary: 宁江大捷后，撒改遣其子宗翰与完颜希尹来贺战胜，并称进劝进。
+  location: 金帐
+  source_ref: 《金史·太祖纪》载“撒改使其子宗翰、完颜希尹来贺，且称帝，因劝进”
+- id: guji-完颜希尹-event-3
+  date: '1122-01-01'
+  year_of: 1122
+  era: 金天辅六年
+  event_type: endeavor
+  summary: 宗翰驻北安州，遣希尹等略地，获辽护卫耶律习泥烈，探知辽主猎鸳鸯泺、杀晋王致众离心等情。
+  location: 北安州
+  source_ref: 《金史·太祖纪》载“宗翰驻北安，遣希尹等略地，获辽护卫耶律习泥烈”
+- id: guji-完颜希尹-event-4
+  date: '1122-03-01'
+  year_of: 1122
+  era: 金天辅六年
+  event_type: endeavor
+  summary: 宗翰出瓢岭追辽主至白水泺，希尹追辽主于乙室部，不及。
+  location: 乙室部
+  source_ref: 《金史·太祖纪》载“希尹追辽主于乙室部，不及”
+- id: guji-完颜希尹-event-5
+  date: '1119-08-01'
+  year_of: 1119
+  era: 金天辅三年
+  event_type: endeavor
+  summary: 女真大字成，八月己丑太祖颁行女直字，希尹由此以制字之功名世。
+  location: 金上京
+  source_ref: 本文本“八月己丑，颁女直字”条

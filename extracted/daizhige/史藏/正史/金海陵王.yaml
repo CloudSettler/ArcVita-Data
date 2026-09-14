@@ -1,0 +1,136 @@
+person:
+  qid: guji-完颜亮
+  name_zh: 海陵王（完颜亮）
+  names:
+    zh: 完颜亮 / 海陵炀王
+    en: Wanyan Liang (Prince Hailing)
+  lifespan:
+    birth:
+      date: '1122'
+      precision: year
+      is_circa: true
+      raw: 天辅六年
+    death:
+      date: '1161-12-15'
+      precision: day
+      is_circa: false
+      raw: 正隆六年十一月（瓜洲渡，为部下所杀）
+  birth_date: '1122'
+  death_date: '1161'
+  era: 金代
+  reign_ref: 金海陵王正隆年间（1156—1161）
+  archetype: 暴君改革者
+  dilemmas:
+  - 弑君夺位与巩固皇权的政治冷酷
+  - 迁都燕京、南下伐宋的宏大野心与国力民怨的失衡
+  lesson: 急进集权与穷兵黩武虽能一时改制，却终因失人心而覆亡
+  summary_first_person: 我是完颜亮，以宗室之身弑熙宗自立，迁都燕京、厉行汉制、南征宋国， 终因前线兵变死于瓜洲，身后被废为庶人，谥曰炀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/金史/卷5
+  - https://zh.wikisource.org/wiki/金史/卷132
+endeavors:
+- id: guji-完颜亮-endeavor-1
+  name_zh: 夺位与集权改制
+  phases:
+  - key: brewing
+    name_zh: 蓄势宗室
+    labels:
+      zh:
+      - 宗室
+      - 平章政事
+    start_date: '1149'
+  - key: breakthrough
+    name_zh: 弑熙宗即位
+    labels:
+      zh:
+      - 政变
+      - 即位
+    start_date: '1150-01-09'
+    highlight_event_id: guji-完颜亮-event-seizure
+  - key: climax
+    name_zh: 迁都燕京 正隆改制
+    labels:
+      zh:
+      - 迁都
+      - 官制改革
+    start_date: '1153'
+  - key: closure
+    name_zh: 降授庶人
+    labels:
+      zh:
+      - 身后被废
+    start_date: 1161-12
+  decisions:
+  - date: '1153'
+    title_zh: 迁都燕京（中都）
+    rationale: 摆脱上京旧贵族掣肘，面向中原经营天下
+  - date: '1156'
+    title_zh: 颁正隆官制，废三省行一省制
+    rationale: 集权于皇帝，仿宋制统一官制
+- id: guji-完颜亮-endeavor-2
+  name_zh: 南伐宋室
+  phases:
+  - key: brewing
+    name_zh: 谋划南征
+    labels:
+      zh:
+      - 备战
+      - 营汴京
+    start_date: '1158'
+  - key: breakthrough
+    name_zh: 大举伐宋
+    labels:
+      zh:
+      - 南征
+      - 渡淮
+    start_date: 1161-10
+    highlight_event_id: guji-完颜亮-event-southern-invasion
+  - key: closure
+    name_zh: 瓜洲兵变身死
+    labels:
+      zh:
+      - 兵变
+      - 身死
+    start_date: '1161-12-15'
+    highlight_event_id: guji-完颜亮-event-death
+  decisions:
+  - date: '1161'
+    title_zh: 亲率大军六十万南征
+    rationale: 欲混一天下，效法秦皇汉武一统之业
+events:
+- id: guji-完颜亮-event-birth
+  event_type: birth
+  date: '1122'
+  year_of: '1122'
+  name_zh: 完颜亮生（金太祖庶长子宗干次子）
+  description: 天辅六年生，字元功，本名迪古乃。
+- id: guji-完颜亮-event-seizure
+  event_type: political_event
+  date: '1150-01-09'
+  year_of: '1150'
+  name_zh: 弑金熙宗，自立为帝
+  description: 皇统九年十二月，联合近侍杀熙宗于寝殿，即皇帝位，改元天德。
+- id: guji-完颜亮-event-capital-move
+  event_type: political_event
+  date: '1153'
+  year_of: '1153'
+  name_zh: 迁都燕京，营建中都
+  description: 贞元元年自上京会宁府迁都燕京，改称中都，推动女真政权汉化。
+- id: guji-完颜亮-event-reform
+  event_type: political_event
+  date: '1156'
+  year_of: '1156'
+  name_zh: 颁行正隆官制
+  description: 废中书、门下三省，仅存尚书省，军政集权于皇帝。
+- id: guji-完颜亮-event-southern-invasion
+  event_type: military_event
+  date: 1161-10
+  year_of: '1161'
+  name_zh: 大举南征伐宋
+  description: 正隆六年十月亲率大军渡淮攻宋，同年采石之战为宋虞允文所败。
+- id: guji-完颜亮-event-death
+  event_type: death
+  date: '1161-12-15'
+  year_of: '1161'
+  name_zh: 死于瓜洲兵变
+  description: 南征军中完颜元宜等兵变，完颜亮中箭身亡，后被金世宗降封海陵庶人，谥炀。
