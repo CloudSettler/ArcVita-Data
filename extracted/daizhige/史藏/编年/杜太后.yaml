@@ -1,0 +1,112 @@
+person:
+  qid: guji-杜太后
+  name_zh: 杜太后（昭宪太后）
+  names:
+    zh: 杜太后
+    en: Empress Dowager Du
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年未详，享年六十
+    death:
+      date: 961-07-29
+      precision: day
+  death_date: 961-07-29
+  era: 五代末至北宋初
+  reign_ref: 宋太祖建隆年间
+  archetype:
+  - 深谋远虑的母后
+  dilemmas:
+  - 主少国疑之忧：亲历后周幼主失国，力主立长君以固社稷
+  - 家国之间：临终定传位之约，以母子至情约束皇权更替
+  lesson: 鉴柴氏使幼儿主天下、群心不附之败，以金匮之盟立长君传弟之约，谋社稷长远而非一家之私
+  summary_first_person: 我是宋太祖之母杜太后。我聪明有智度，常与皇帝参决大政，称赵普为赵书记，嘱其尽心辅佐我尚未更事的儿子。我尤爱光义，每出必戒其与赵书记偕行。建隆二年我病笃，召赵普入受遗命，问皇帝何以得天下，指出正因为柴氏使幼儿主天下、群心不附；因命传位于弟光义，使赵普在榻前记为誓书，藏之金匮。同年六月甲午，我崩于滋德殿，后祔葬安陵，谥明宪（后谥昭宪）。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑後編/卷二
+endeavors:
+- id: guji-杜太后-endeavor-1
+  person_qid: guji-杜太后
+  name_zh: 参决大政与辅政安排
+  phases:
+  - key: brewing
+    name_zh: 太后临朝参政
+    labels:
+      zh:
+      - 与帝同决大政
+      - 倚重赵普
+    start_date: '960'
+    highlight_event_id: guji-杜太后-event-counsel-zhaopu
+  - key: climax
+    name_zh: 临终顾命定传位
+    labels:
+      zh:
+      - 金匮之盟
+      - 立长君
+    start_date: '961'
+    highlight_event_id: guji-杜太后-event-jinkui
+  - key: closure
+    name_zh: 崩逝与祔庙葬安陵
+    labels:
+      zh:
+      - 滋德殿崩
+      - 祔葬安陵
+    start_date: 961-07-29
+    highlight_event_id: guji-杜太后-event-death
+  decisions:
+  - date: 961-07-29
+    title_zh: 遗命传位于弟光义，令赵普记誓书藏金匮
+    rationale: 鉴于后周主少国疑、柴氏幼儿失天下之教训，欲立长君以安社稷
+- id: guji-杜太后-endeavor-2
+  person_qid: guji-杜太后
+  name_zh: 教子与家族规约
+  phases:
+  - key: brewing
+    name_zh: 日常训戒诸子
+    labels:
+      zh:
+      - 戒光义偕书记行
+      - 抚喻赵普尽心
+    start_date: '960'
+    highlight_event_id: guji-杜太后-event-counsel-zhaopu
+  decisions:
+  - date: '960'
+    title_zh: 抚赵普嘱其尽心辅佐
+    rationale: 皇帝年少未更事，须倚重幕府旧臣赵书记佐政
+events:
+- id: guji-杜太后-event-counsel-zhaopu
+  person_qid: guji-杜太后
+  endeavor_ids:
+  - guji-杜太后-endeavor-1
+  title_zh: 与帝同决大政，尝抚赵普曰赵书记且为尽心吾儿未更事
+  date: '960'
+  precision: year
+  year_of: 960
+  summary: 杜太后聪明有智度，参与大政决策，倚重赵普辅佐未更事的太祖
+- id: guji-杜太后-event-jinkui
+  person_qid: guji-杜太后
+  endeavor_ids:
+  - guji-杜太后-endeavor-1
+  title_zh: 病革召赵普受遗命，定金匮之盟传位光义
+  date: '961'
+  precision: year
+  year_of: 961
+  summary: 太后临终指出得天下乃柴氏使幼儿主天下群心不附之故，命传位其弟光义，赵普就榻前作誓书署臣普记，藏之金匮
+- id: guji-杜太后-event-death
+  person_qid: guji-杜太后
+  endeavor_ids:
+  - guji-杜太后-endeavor-1
+  title_zh: 崩于滋德殿
+  date: 961-07-29
+  precision: day
+  year_of: 961
+  summary: 建隆二年六月甲午，皇太后杜氏崩于滋德殿，享寿约六十
+- id: guji-杜太后-event-burial
+  person_qid: guji-杜太后
+  endeavor_ids:
+  - guji-杜太后-endeavor-1
+  title_zh: 祔葬安陵并祔庙
+  date: 961-11-13
+  precision: day
+  year_of: 961
+  summary: 十月丙午祔葬明宪皇太后于安陵，甲子皇太后祔庙
