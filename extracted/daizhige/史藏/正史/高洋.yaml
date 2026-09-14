@@ -1,0 +1,126 @@
+person:
+  qid: guji-高洋
+  name_zh: 高洋
+  names:
+    zh: 高洋
+    en: Gao Yang
+  lifespan:
+    birth:
+      date: 0529
+      precision: year
+      is_circa: true
+      raw: 时年三十一（天保十年，559年去世反推，约529年生）
+    death:
+      date: 0559
+      precision: year
+      is_circa: false
+      raw: 天保十年崩（559年）
+  birth_date: 0529（约）
+  death_date: 0559
+  era: 东魏—北齐（六世纪中叶）
+  reign_ref: 北齐文宣帝（天保元年550年受禅，至559年）
+  archetype: 开国之君/由隐忍而至暴虐的雄主
+  dilemmas:
+  - 装愚晦迹以避兄猜，还是显露锋芒自谋前程
+  - 受禅代魏以定新朝，还是谨守臣节保全魏室名义
+  - 励精图治与纵欲肆虐于一身，功业与暴行并存
+  lesson: 深沉晦迹可蓄势于暗，斩乱之断可成开国之业；然权在手而不制于德，雄主亦可堕为暴君—— făi 水能载舟，亦能覆舟，况乎人主自覆。
+  summary_first_person: 我高洋，字子进，献武高欢第二子。幼时沉晦不言，貌若不足，人皆轻我，唯先父谓我意识过人。我以“乱者须斩”之断得父器重，历散骑常侍、尚书令、京畿大都督。兄文襄遇害，我仓卒讨贼，漆截凶首，秘不发丧，神色不乱，遂总庶政。次年受魏禅，即皇帝位于南郊，建国大齐，改元天保。在位之初，修刑政、立学馆、劝农桑、征四夷，颇称英武；然居久渐骄，嗜杀纵酒，功过并著于史。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北齊書/卷4
+  - https://zh.wikisource.org/wiki/北齊書/卷5
+endeavors:
+- id: guji-高洋-endeavor-1
+  key: brewing
+  name_zh: 蹈晦蓄志、出仕东魏
+  labels:
+    zh: 藩邸韬晦 / 入仕领职
+  start_date: '0545'
+  phases:
+  - key: brewing
+    name_zh: 藩邸韬晦、历任高职
+    labels:
+      zh: 装愚避忌 / 位望日隆
+    start_date: '0545'
+    highlight_event_id: guji-高洋-event-guansi
+  - key: breakthrough
+    name_zh: 平乱总政
+    labels:
+      zh: 讨贼执权
+    start_date: 0549
+    highlight_event_id: guji-高洋-event-pingluan
+  decisions:
+  - date: '0545'
+    title_zh: 斩乱丝以明心志
+    rationale: 面对父试诸子治乱丝，独抽刀斩之，曰“乱者须斩”，以果决得高欢赏识。
+  - date: '0547'
+    title_zh: 受任尚书令、京畿大都督
+    rationale: 在东魏朝廷累迁至尚书令、中书监、京畿大都督，内虽明敏而外示愚钝，避兄文襄之猜。
+- id: guji-高洋-endeavor-2
+  key: breakthrough
+  name_zh: 受禅建齐、天保施政
+  labels:
+    zh: 篡魏立齐 / 开国建制
+  start_date: 0549
+  phases:
+  - key: breakthrough
+    name_zh: 讨贼执政
+    labels:
+      zh: 仓卒定乱
+    start_date: 0549
+    highlight_event_id: guji-高洋-event-pingluan
+  - key: climax
+    name_zh: 受禅称帝
+    labels:
+      zh: 南郊即位 / 改元天保
+    start_date: '0550'
+    highlight_event_id: guji-高洋-event-shouchan
+  - key: closure
+    name_zh: 天保之治与晚年骄纵
+    labels:
+      zh: 兴学劝农 / 渐至暴虐
+    start_date: '0550'
+    highlight_event_id: guji-高洋-event-shizheng
+  decisions:
+  - date: 0549-08
+    title_zh: 秘不发丧、亲总庶政
+    rationale: 文襄遇盗而殂，事出仓卒； 泄丧机将致内乱，故秘之，徐出言安众，旋赴晋阳总揽政务。
+  - date: '0550'
+    title_zh: 受魏禅即皇帝位
+    rationale: 魏帝以天人之望有归下诏禅位； 势已成、命已合，遂升坛柴燎告天，建国大齐。
+events:
+- id: guji-高洋-event-birth
+  date: '0529-01-01'
+  year_of: 0529
+  title_zh: 高洋出生
+  detail_zh: 显祖文宣皇帝讳洋，字子进，高祖欢第二子，世宗澄之母弟，约529年生。
+- id: guji-高洋-event-zhansi
+  date: '0545-01-01'
+  year_of: '0545'
+  title_zh: 抽刀斩乱丝，得父器重
+  detail_zh: 高欢试诸子意识，各使治乱丝，帝独抽刀斩之曰“乱者须斩”，又勒众擒彭乐以献，高欢谓此儿意识过吾。
+- id: guji-高洋-event-guansi
+  date: '0547-04-12'
+  year_of: '0547'
+  title_zh: 授尚书令、中书监、京畿大都督
+  detail_zh: 武定五年，授尚书令、中书监、京畿大都督，位望日隆，而内虽明敏，貌若不足。
+- id: guji-高洋-event-pingluan
+  date: '0549-08-22'
+  year_of: 0549
+  title_zh: 文襄遇害，讨贼理事
+  detail_zh: 武定七年八月世宗遇盗而殂，帝神色不变，指麾部分，脔斩兰京等群贼而漆其头，秘不发丧，旋赴晋阳亲总庶政，务从宽厚。
+- id: guji-高洋-event-shouchan
+  date: '0550-06-07'
+  year_of: '0550'
+  title_zh: 受禅即位，建国大齐
+  detail_zh: 武定八年五月戊午，即皇帝位于南郊，升坛柴燎告天；魏帝逊于别宫，归帝位于齐；改武定八年为天保元年，大赦天下。
+- id: guji-高洋-event-shizheng
+  date: '0550-09-10'
+  year_of: '0550'
+  title_zh: 立学劝农、封爵建政
+  detail_zh: 天保元年诏郡国修立黉序、敦述儒风，移蔡邕石经置学馆；劝课农桑以备水旱；封功臣宗室诸王，立子殷为皇太子、李氏为皇后。
+- id: guji-高洋-event-death
+  date: '0559-10-19'
+  year_of: 0559
+  title_zh: 高洋驾崩
+  detail_zh: 天保十年，帝崩，庙号显祖（初号高祖，本文所据前卷系统记其追谥世系），史称暴而能治、功过参半之一代雄主。

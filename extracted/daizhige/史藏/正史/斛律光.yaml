@@ -1,0 +1,125 @@
+person:
+  qid: guji-斛律光
+  name_zh: 斛律光
+  names:
+    zh: 斛律光
+    en: Hulü Guang
+  lifespan:
+    birth:
+      date: '0515'
+      precision: year
+      is_circa: true
+      raw: 史无明文，约生于北魏末
+    death:
+      date: '0572-08-22'
+      precision: day
+      is_circa: false
+      raw: 北齐后主武平三年被诛
+  birth_date: 约515年
+  death_date: 572年
+  era: 东魏—北齐
+  reign_ref: 东魏孝静帝、北齐文宣帝至后主
+  archetype: 名将射御之士
+  dilemmas:
+  - 名门将种，父子俱侍霸府，忠武与功高震主之危难以两全
+  lesson: 一箭中的虽显技艺，然生于权门，武略愈盛愈易招忌
+  summary_first_person: 我斛律光，出敕勒名将之家。本事高氏霸府，在晋阳曾奉世子高澄之命，一箭射落集于亭树的恶鸟，军中皆服我射御之精。后位至北齐大将军，功名盖世，终为朝堂谗构所杀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北齐书
+endeavors:
+- id: guji-斛律光-endeavor-1
+  name_zh: 侍奉高氏霸府
+  labels:
+    zh:
+    - 霸府宿卫
+    - 射御显名
+  phases:
+  - key: brewing
+    name_zh: 入侍世子
+    labels:
+      zh:
+      - 晋阳侍卫
+    start_date: '0547-11-23'
+    highlight_event_id: guji-斛律光-event-1
+  decisions:
+  - date: '0547-11-23'
+    title_zh: 奉世子高澄之命射杀恶乌
+    rationale: 恶鸟集于亭树，军中以为不祥，世子命我以射技除之，一箭而毙，遂显名于霸府。
+- id: guji-斛律光-endeavor-2
+  name_zh: 北齐将帅功业
+  labels:
+    zh:
+    - 出将入相
+    - 抗周御戎
+  phases:
+  - key: breakthrough
+    name_zh: 领军征战
+    labels:
+      zh:
+      - 屡却周师
+    start_date: '0550'
+    highlight_event_id: guji-斛律光-event-2
+  - key: climax
+    name_zh: 位极人臣
+    labels:
+      zh:
+      - 大将秉政
+    start_date: '0565'
+    highlight_event_id: guji-斛律光-event-3
+  - key: closure
+    name_zh: 谗死灭门
+    labels:
+      zh:
+      - 功高见忌
+    start_date: '0572-08-22'
+    highlight_event_id: guji-斛律光-event-death
+  decisions:
+  - date: '0565'
+    title_zh: 秉掌北齐军政
+    rationale: 累迁大将军、矫捷善战，周人畏之，遂总领兵柄。
+  - date: '0572-08-22'
+    title_zh: 身陷谗构被害
+    rationale: 祖珽、穆提婆等构陷，后主疑忌，伏诛，满门受祸。
+events:
+- id: guji-斛律光-event-birth
+  date: 约-15
+  year_of: 515
+  title_zh: 斛律光生
+  detail: 生于敕勒名将斛律金之家，史无确切纪年，以约数系年。
+- id: guji-斛律光-event-1
+  date: '0547-11-23'
+  year_of: 547
+  title_zh: 晋阳射杀恶乌
+  detail: 神武高欢病笃还晋阳，有恶乌集于亭树，世子高澄使斛律光射杀之，一箭而中。
+  persons_involved:
+  - guji-斛律光
+  - guji-高澄
+  source_claim: 武定四年十一月辛亥，世子使斛律光射杀之。
+  endeavor_id: guji-斛律光-endeavor-1
+- id: guji-斛律光-event-2
+  date: '0550'
+  year_of: 550
+  title_zh: 佐北齐征伐
+  detail: 高洋受禅建齐后，斛律光以武略渐掌兵柄，屡与西魏（周）交锋。
+  persons_involved:
+  - guji-斛律光
+  source_claim: 据北齐史事背景推系，本篇原文不载。
+  endeavor_id: guji-斛律光-endeavor-2
+- id: guji-斛律光-event-3
+  date: '0565'
+  year_of: 565
+  title_zh: 位至大将军
+  detail: 拜大将军、总军政，为北齐柱石，周人深惮之。
+  persons_involved:
+  - guji-斛律光
+  source_claim: 据北齐史事背景推系，本篇原文不载。
+  endeavor_id: guji-斛律光-endeavor-2
+- id: guji-斛律光-event-death
+  date: '0572-08-22'
+  year_of: 572
+  title_zh: 斛律光被诛
+  detail: 武平三年遭祖珽等谗构，为后主所杀，族灭。本篇原文不载，据北齐书史事补。
+  persons_involved:
+  - guji-斛律光
+  source_claim: 据北齐史事补，本篇原文不载。
+  endeavor_id: guji-斛律光-endeavor-2

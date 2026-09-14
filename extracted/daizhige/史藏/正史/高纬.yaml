@@ -1,0 +1,147 @@
+person:
+  qid: guji-高纬
+  name_zh: 高纬
+  names:
+    zh: 高纬
+    en: Gao Wei
+  lifespan:
+    birth:
+      date: 556
+      precision: year
+      is_circa: true
+      raw: 天保七年五月五日，生帝于并州邸
+    death:
+      date: 577
+      precision: year
+      is_circa: true
+      raw: 北齐亡后被周所获（本传未及其卒年詳文）
+  birth_date: 556
+  death_date: 577
+  era: 北齐
+  reign_ref: 天统（565-568）、武平（568-576）、隆化（576-577）
+  archetype: 亡国之君
+  dilemmas:
+  - 亲信宦佞（和士开、穆提婆、高阿那肱），诛杀宗室名将而致国势崩坏
+  - 周师攻晋州时弃军而逃，犹豫欲奔突厥，动摇军心
+  - 慷慨劳军之辞临众全忘而大笑，将士解体，难以御周
+  lesson: 信佞杀贤、临危失措，虽有社稷之托而人心先散，终至亡国
+  summary_first_person: 我是北齐后主高纬，天保七年生于并州。河清四年受父皇武成帝禅位即皇帝位，在位十年间信用和士开、穆提婆等佞幸，先后诛杀琅邪王高俨、兰陵王高长恭、左丞相斛律光等亲贤。及周师攻晋州，我弃军先还，欲北奔突厥未果，仓皇入邺，内禅幼子高恒为太上皇，终为周所灭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北齊書/卷8
+endeavors:
+- id: guji-高纬-endeavor-1
+  name_zh: 受禅即位与初年理政
+  start_date: 565
+  phases:
+  - key: brewing
+    name_zh: 立储
+    labels:
+      zh: 大宁二年立为皇太子
+    start_date: 561
+    highlight_event_id: guji-高纬-event-prince
+  - key: breakthrough
+    name_zh: 即位
+    labels:
+      zh: 河清四年受武成帝禅位，改元天统
+    start_date: 565
+    highlight_event_id: guji-高纬-event-enthronement
+  decisions:
+  - date: 565
+    title_zh: 受武成帝禅位即皇帝位于晋阳宫
+    rationale: 河清四年武成帝以太宰段韶持节奉皇帝玺绶传位于皇太子，改元天统
+  - date: 571
+    title_zh: 决意诛琅邪王高俨
+    rationale: 高俨矫诏杀和士开，庚午杀太保琅邪王俨以除内患
+  - date: 572
+    title_zh: 诛兰陵王高长恭
+    rationale: 猜忌功高宗室名将，武平四年杀太保兰陵王长恭
+  - date: 573
+    title_zh: 诛斛律光
+    rationale: 武平三年秋七月诛左丞相咸阳王斛律光及其弟丰乐，自坏长城
+- id: guji-高纬-endeavor-2
+  name_zh: 御周与亡国
+  start_date: 576
+  phases:
+  - key: climax
+    name_zh: 弃军南逃
+    labels:
+      zh: 周武帝救晋州，齐军大败，帝弃军先还入晋阳
+    start_date: 576
+    highlight_event_id: guji-高纬-event-abandon-army
+  - key: closure
+    name_zh: 传位幼主
+    labels:
+      zh: 内禅幼主高恒为太上皇，改元承光
+    start_date: 577
+    highlight_event_id: guji-高纬-event-abdication
+  decisions:
+  - date: 576
+    title_zh: 弃军先还
+    rationale: 城南战败，帝弃军先还入晋阳，忧惧不知所之
+  - date: 576
+    title_zh: 欲向北朔州并奔突厥
+    rationale: 帝意犹豫，欲留安德王延宗等守晋阳，己则北走，群臣谏不从
+  - date: 577
+    title_zh: 内禅幼子高恒为太上皇
+    rationale: 依天统故事授位幼主，议往河外募兵，不济则南投陈国
+events:
+- id: guji-高纬-event-birth
+  date: 556
+  year_of: 556
+  type: birth
+  highlight: true
+  summary_zh: 天保七年五月五日，生于并州邸，母曰胡皇后。
+- id: guji-高纬-event-prince
+  date: 561
+  year_of: 561
+  type: office
+  highlight: false
+  summary_zh: 大宁二年正月丙戌，立为皇太子。
+- id: guji-高纬-event-enthronement
+  date: 565-05
+  year_of: 565
+  type: enthronement
+  highlight: true
+  summary_zh: 天统元年夏四月丙子，即皇帝位于晋阳宫，大赦，改元天统。
+- id: guji-高纬-event-kill-yan
+  date: 571-09
+  year_of: 571
+  type: political
+  highlight: false
+  summary_zh: 武平二年秋六月，琅邪王高俨矫诏杀和士开；八月庚午，杀太保、琅邪王俨。
+- id: guji-高纬-event-kill-huguang
+  date: 573-08
+  year_of: 573
+  type: political
+  highlight: false
+  summary_zh: 武平三年秋七月戊辰，诛左丞相、咸阳王斛律光及其弟丰乐。
+- id: guji-高纬-event-kill-changgong
+  date: 573
+  year_of: 573
+  type: political
+  highlight: false
+  summary_zh: 武平四年，杀太保、兰陵王高长恭。
+- id: guji-高纬-event-defeat-pingyang
+  date: 576-12
+  year_of: 576
+  type: battle
+  highlight: true
+  summary_zh: 十二月戊申，周武帝来救晋州，庚戌战于城南，齐军大败。
+- id: guji-高纬-event-abandon-army
+  date: 576-12
+  year_of: 576
+  type: political
+  highlight: true
+  summary_zh: 帝弃军先还，癸丑入晋阳，忧惧不知所之；后夜开五龙门出，欲走突厥，梅胜郎叩马谏，乃回之邺。
+- id: guji-高纬-event-abdication
+  date: 577-01
+  year_of: 577
+  type: abdication
+  highlight: true
+  summary_zh: 隆化二年春正月乙亥，传位幼子高恒即皇帝位，改元承光，帝自称太上皇帝。
+- id: guji-高纬-event-death
+  date: 577
+  year_of: 577
+  type: death
+  highlight: true
+  summary_zh: 齐亡后被周所获（本传残篇未详载其卒年，通史谓是年遇害）。
