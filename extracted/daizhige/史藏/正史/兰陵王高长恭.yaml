@@ -1,0 +1,129 @@
+person:
+  qid: guji-高长恭
+  name_zh: 高长恭
+  names:
+    zh: 高长恭
+    en: Gao Changgong
+  lifespan:
+    birth:
+      date: '541'
+      precision: year
+      is_circa: true
+      raw: 约541年
+    death:
+      date: '573'
+      precision: year
+      is_circa: false
+      raw: 573年
+  birth_date: '541'
+  death_date: '573'
+  era: 南北朝（北齐）
+  reign_ref: 北齐文宣帝至后主时期
+  archetype: 骁勇宗室名将
+  dilemmas:
+  - 威名太盛而遭君主猜忌
+  - 战功卓著与自污避祸的两难
+  lesson: 功高震主者，勇冠三军亦难保其身。
+  summary_first_person: 我乃北齐宗室兰陵王高长恭，以骁勇善战著称，邙山之战大破周军，然功高遭忌，终被后主赐死。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/兰陵王_(北齐)
+endeavors:
+- id: guji-高长恭-endeavor-1
+  name_zh: 北齐军旅征战生涯
+  labels:
+    zh:
+    - 北齐宗室名将
+    - 抗周统帅
+  phases:
+  - key: brewing
+    name_zh: 崭露头角
+    labels:
+      zh:
+      - 受封兰陵王
+    start_date: '550'
+    highlight_event_id: guji-高长恭-event-1
+  - key: breakthrough
+    name_zh: 邙山扬名
+    labels:
+      zh:
+      - 邙山之战
+    start_date: 564-12
+    highlight_event_id: guji-高长恭-event-2
+  - key: climax
+    name_zh: 对峙周军
+    labels:
+      zh:
+      - 与周师相拒
+    start_date: '569'
+    highlight_event_id: guji-高长恭-event-3
+  - key: closure
+    name_zh: 蒙冤赐死
+    labels:
+      zh:
+      - 功高遭忌
+    start_date: '573'
+    highlight_event_id: guji-高长恭-event-death
+  decisions:
+  - date: '564'
+    title_zh: 领军驰援洛阳
+    rationale: 周军围洛，率兵会合段孝先赴援，与周师对峙。
+- id: guji-高长恭-endeavor-2
+  name_zh: 汾水龙门之战史载
+  labels:
+    zh:
+    - 北齐与北周边境战争
+  phases:
+  - key: brewing
+    name_zh: 齐周对垒
+    labels:
+      zh:
+      - 边镇争战
+    start_date: '569'
+    highlight_event_id: guji-高长恭-event-3
+  - key: climax
+    name_zh: 名传后世
+    labels:
+      zh:
+      - 兰陵王入阵曲
+    start_date: '564'
+    highlight_event_id: guji-高长恭-event-2
+  decisions:
+  - date: '573'
+    title_zh: 饮鸩避祸未果
+    rationale: 功高震主，为避猜忌自污而不能，终被赐死。
+events:
+- id: guji-高长恭-event-birth
+  person: guji-高长恭
+  year_of: 541
+  date: '541'
+  date_precision: year
+  type: birth
+  summary_zh: 高长恭约于541年生，北齐神武帝高欢之孙，文襄帝高澄之子。
+- id: guji-高长恭-event-death
+  person: guji-高长恭
+  year_of: 573
+  date: '573'
+  date_precision: year
+  type: death
+  summary_zh: 573年因功高遭后主高纬猜忌，被赐毒酒而死。
+- id: guji-高长恭-event-1
+  person: guji-高长恭
+  year_of: 550
+  date: '550'
+  date_precision: year
+  type: career
+  summary_zh: 受封兰陵王，进入北齐军政舞台。
+- id: guji-高长恭-event-2
+  person: guji-高长恭
+  year_of: 564
+  date: 564-12
+  date_precision: month
+  type: battle
+  summary_zh: 邙山之战率五百骑突破周军围城，解洛阳之围，将士作《兰陵王入阵曲》歌颂之。
+- id: guji-高长恭-event-3
+  person: guji-高长恭
+  year_of: 569
+  date: '569'
+  date_precision: year
+  type: battle
+  summary_zh: 汾水龙门之战，与平原王段孝先引兵大至，乘周将韩欢之隙进逼，周齐王宪亲自督战方稍却，日暮各收军。

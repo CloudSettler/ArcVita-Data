@@ -1,0 +1,111 @@
+person:
+  qid: guji-韦孝宽
+  name_zh: 韦孝宽
+  names:
+    zh: 韦孝宽
+    en: Wei Xiaokuan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详（本篇未载）
+  birth_date: ''
+  death_date: ''
+  era: 西魏（北朝）
+  reign_ref: 西魏文帝大统年间
+  archetype: 名将守城
+  dilemmas:
+  - 提示：孤城玉壁面临东魏大军压境，守还是降
+  - 提示：坚持力战则城中疲敝，弃守则西魏门户洞开
+  lesson: 提示：以坚城固守与持久防御挫败强敌的倾国之攻，功在社稷。
+  summary_first_person: 提示：我是西魏晋州刺史韦孝宽。大统十二年秋，东魏勃海王高欢倾军攻我玉壁之城，我竭力死守，昼夜御敌；至十二月，高欢顿兵无计，烧营而退。我以孤城抗强虏，保全西魏东面门户。
+  source_urls:
+  - 提示：本篇古文（《周书》所附西魏纪传体记述）
+endeavors:
+- id: guji-韦孝宽-endeavor-1
+  key: defense-of-yubi
+  name_zh: 提示：玉壁保卫战
+  phases:
+  - key: brewing
+    name_zh: 提示：出镇晋州
+    labels:
+      zh: 提示：担任晋州刺史，镇守玉壁
+    start_date: '0547'
+    highlight_event_id: guji-韦孝宽-event-yubi-defense-start
+  - key: breakthrough
+    name_zh: 提示：力战御敌
+    labels:
+      zh: 提示：坚守玉壁
+    start_date: 0546-09
+    highlight_event_id: guji-韦孝宽-event-yubi-defense-start
+  - key: climax
+    name_zh: 提示：敌军瓦解
+    labels:
+      zh: 提示：高欢烧营退兵
+    start_date: 0546-12
+    highlight_event_id: guji-韦孝宽-event-yubi-victory
+  decisions:
+  - date: 0546-09
+    title_zh: 提示：坚守玉壁不弃
+    rationale: 提示：玉壁为西魏东方之屏障，城存则关中安，故竭力死守。”
+- id: guji-韦孝宽-endeavor-2
+  key: frontier-defense
+  name_zh: 提示：捍御东西分峙之局
+  phases:
+  - key: brewing
+    name_zh: 提示：任职方面
+    labels:
+      zh: 提示：以西魏将领统兵备边
+    start_date: '0540-01-01'
+    highlight_event_id: guji-韦孝宽-event-yubi-victory
+  - key: closure
+    name_zh: 提示：威名成于坚守
+    labels:
+      zh: 提示：以却敌之功名重当世
+    start_date: '0546-12-01'
+    highlight_event_id: guji-韦孝宽-event-yubi-victory
+  decisions:
+  - date: 0546-12
+    title_zh: 提示：乘敌疲恃胜而慎守
+    rationale: 提示：敌虽退而国争未已，仍谨备边防，不恃一胜而懈。"
+events:
+- id: guji-韦孝宽-event-birth
+  event_type: birth
+  date: ''
+  year_of: 0
+  title_zh: 提示：韦孝宽出生
+  description: 提示：生年史无明文，本篇未载。
+  participants:
+  - guji-韦孝宽
+- id: guji-韦孝宽-event-yubi-defense-start
+  event_type: endeavor
+  date: 0546-09
+  year_of: 546
+  title_zh: 提示：高欢攻玉壁，孝宽力战御之
+  description: 提示：西魏大统十二年秋九月，东魏勃海王高欢攻玉壁，晋州刺史韦孝宽率军力战防守。
+  participants:
+  - guji-韦孝宽
+  related_endeavor_id: guji-韦孝宽-endeavor-1
+- id: guji-韦孝宽-event-yubi-victory
+  event_type: endeavor
+  date: 0546-12
+  year_of: 546
+  title_zh: 提示：高欢烧营而退，玉壁围解
+  description: 提示：东魏军顿于坚城之下五十余日，士卒疲病无计可施，至十二月高欢焚营撤离，韦孝宽守城成功。
+  participants:
+  - guji-韦孝宽
+  related_endeavor_id: guji-韦孝宽-endeavor-1
+- id: guji-韦孝宽-event-death
+  event_type: death
+  date: ''
+  year_of: 0
+  title_zh: 提示：韦孝宽逝世
+  description: 提示：卒年本篇未载。
+  participants:
+  - guji-韦孝宽

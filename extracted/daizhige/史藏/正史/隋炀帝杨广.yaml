@@ -1,0 +1,131 @@
+person:
+  qid: guji-杨广
+  name_zh: 杨广
+  names:
+    zh: 杨广
+    en: Yang Guang
+  lifespan:
+    birth:
+      date: 569
+      precision: year
+      is_circa: false
+      raw: 隋开皇元年前后，史载生于569年
+    death:
+      date: 618-04-11
+      precision: day
+  birth_date: 569
+  death_date: 618-04-11
+  era: 隋朝
+  reign_ref: 大业（605年－618年）
+  archetype: 好大喜功的亡国之君
+  dilemmas:
+  - 功业宏大而民力枯竭，徭役兵役并兴
+  - 皇位得于夺嫡，兄弟父子相疑
+  - 南巡江都恋 comfort 而北方烽火已燃
+  lesson: 滥用民力者，功业未成而天下先溃
+  summary_first_person: 我是隋炀帝杨广，修运河、开科举、通西域，功业煊赫；然三征高丽、滥用民力，终致群雄并起，身死江都。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北史/卷十二
+endeavors:
+- id: guji-杨广-endeavor-1
+  name_zh: 夺嫡与即位
+  phases:
+  - key: brewing
+    name_zh: 蹈晦争储
+    labels:
+      zh:
+      - 韬光养晦
+      - 矫饰恭俭
+    start_date: 581
+  - key: breakthrough
+    name_zh: 平陈立功
+    labels:
+      zh:
+      - 统帅伐陈
+    start_date: 588
+    highlight_event_id: guji-杨广-event-pingchen
+  - key: climax
+    name_zh: 夺储登基
+    labels:
+      zh:
+      - 夺嫡成功
+      - 仁寿宫变
+    start_date: 600
+    highlight_event_id: guji-杨广-event-usurp
+  - key: closure
+    name_zh: 改元大业
+    labels:
+      zh:
+      - 大赦改元
+    start_date: 605
+- id: guji-杨广-endeavor-2
+  name_zh: 大业经营与崩解
+  phases:
+  - key: brewing
+    name_zh: 营建东都开运河
+    labels:
+      zh:
+      - 修东都
+      - 凿通济渠
+    start_date: 605
+    highlight_event_id: guji-杨广-event-canal
+  - key: breakthrough
+    name_zh: 经营四方
+    labels:
+      zh:
+      - 通西域
+      - 开科举
+    start_date: 606
+  - key: climax
+    name_zh: 三征高丽
+    labels:
+      zh:
+      - 百万东征
+      - 民变四起
+    start_date: 612
+    highlight_event_id: guji-杨广-event-gaoli
+  - key: closure
+    name_zh: 江都末日
+    labels:
+      zh:
+      - 偏安江都
+      - 身死兵变
+    start_date: 616
+    highlight_event_id: guji-杨广-event-death
+events:
+- id: guji-杨广-event-birth
+  date: 569
+  year_of: 569
+  type: birth
+  title: 杨广生于隋宗室
+  description: 杨坚次子，母独孤皇后。
+- id: guji-杨广-event-pingchen
+  date: 589
+  year_of: 589
+  type: endeavor
+  title: 统军平陈
+  description: 以晋王身份为元帅伐陈，俘陈后主，南北统一。
+- id: guji-杨广-event-usurp
+  date: 604
+  year_of: 604
+  type: endeavor
+  title: 文帝崩，杨广即位
+  description: 仁寿四年文帝崩于仁寿宫，杨广承嗣大统。
+- id: guji-杨广-event-canal
+  date: 605
+  year_of: 605
+  type: endeavor
+  title: 营东都、开通济渠
+  description: 大业元年营建东都洛阳，发民开凿通济渠，南幸江都。
+- id: guji-杨广-event-gaoli
+  date: 612
+  year_of: 612
+  type: endeavor
+  title: 首征高丽
+  description: 大业八年亲率百万大军征高丽，败绩，天下骚动。
+- id: guji-杨广-event-death
+  date: 618-04-11
+  year_of: 618
+  type: death
+  title: 江都兵变遇弑
+  description: 大业十四年三月，宇文化及等弑帝于江都宫。

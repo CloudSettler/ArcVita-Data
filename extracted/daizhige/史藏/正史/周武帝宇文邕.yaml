@@ -1,0 +1,139 @@
+person:
+  qid: guji-宇文邕
+  name_zh: 宇文邕
+  names:
+    zh: 宇文邕
+    en: Yuwen Yong
+  lifespan:
+    birth:
+      date: '543'
+      precision: year
+      is_circa: true
+      raw: 西魏大统九年
+    death:
+      date: 578-06-21
+      precision: day
+      is_circa: false
+      raw: 宣政元年六月
+  birth_date: '543'
+  death_date: 578-06-21
+  era: 南北朝
+  reign_ref: 北周武帝，560年至578年在位
+  archetype: 韬光养晦而终成大业的改革雄主
+  dilemmas:
+  - 强臣宇文护专权，隐忍十二载方诛之亲政
+  - 灭佛以充国力与保存佛法文教之争
+  lesson: 隐忍蓄势、断而敢行，方能成统一之业
+  summary_first_person: 我宇文邕，蹈履低调十二年诛除权相宇文护，继而下令灭佛强兵富国，终于建德六年平灭北齐，统一北方，惜英年早逝，大业未竟。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北史/卷010
+endeavors:
+- id: guji-宇文邕-endeavor-1
+  name_zh: 诛护亲政与北周改革
+  phases:
+  - key: brewing
+    name_zh: 韬光养晦
+    labels:
+      zh: 隐忍权臣之下
+    start_date: 560-04
+    highlight_event_id: guji-宇文邕-event- enthroned
+  - key: breakthrough
+    name_zh: 亲政改制
+    labels:
+      zh: 诛宇文护、推行改革
+    start_date: 572-03
+    highlight_event_id: guji-宇文邕-event-zhuhu
+  - key: climax
+    name_zh: 灭佛强兵
+    labels:
+      zh: 禁佛道二教
+    start_date: '574'
+    highlight_event_id: guji-宇文邕-event-miefuo
+  - key: closure
+    name_zh: 平齐而崩
+    labels:
+      zh: 统一北方、英年早逝
+    start_date: 577-01
+    highlight_event_id: guji-宇文邕-event-death
+  decisions:
+  - date: 572-03
+    title_zh: 诱诛权相宇文护于宫中
+    rationale: 收回大权，亲揽朝政
+  - date: 574-05
+    title_zh: 下诏禁断佛道二教
+    rationale: 沙汰僧尼以充军资民赋，强兵富国
+  - date: 575-07
+    title_zh: 亲率大军伐齐
+    rationale: 乘齐政乱，谋统一北方
+- id: guji-宇文邕-endeavor-2
+  name_zh: 平齐统一北方
+  phases:
+  - key: brewing
+    name_zh: 联陈攻齐
+    labels:
+      zh: 结好南朝陈、散播齐乱
+    start_date: '571'
+    highlight_event_id: guji-宇文邕-event-enthroned
+  - key: breakthrough
+    name_zh: 晋州之役
+    labels:
+      zh: 攻拔晋阳通道
+    start_date: 576-10
+    highlight_event_id: guji-宇文邕-event-zhuhu
+  - key: climax
+    name_zh: 陷邺城虏齐主
+    labels:
+      zh: 灭齐
+    start_date: 577-01
+    highlight_event_id: guji-宇文邕-event-pingqi
+  - key: closure
+    name_zh: 抚定山东
+    labels:
+      zh: 安齐地而还
+    start_date: 577-04
+    highlight_event_id: guji-宇文邕-event-pingqi
+  decisions:
+  - date: 576-10
+    title_zh: 决意再举伐齐，亲攻晋州
+    rationale: 前伐无功而返，此番乘齐主昏乱断而敢行
+events:
+- id: guji-宇文邕-event-birth
+  date: '543'
+  year_of: 543
+  type: birth
+  title_zh: 宇文邕生
+  detail: 宇文泰第四子，母叱奴氏
+- id: guji-宇文邕-event-enthroned
+  date: 560-04-01
+  year_of: 560
+  type: endeavor
+  title_zh: 即皇帝位于长安
+  detail: 权相宇文护拥立，时年十七，政事皆决于护
+  endeavor_ref: guji-宇文邕-endeavor-1
+- id: guji-宇文邕-event-zhuhu
+  date: 572-03-18
+  year_of: 572
+  type: endeavor
+  title_zh: 诛宇文护亲政
+  detail: 以计诱宇文护入宫杀之，始亲万机
+  endeavor_ref: guji-宇文邕-endeavor-1
+- id: guji-宇文邕-event-miefuo
+  date: 574-05-15
+  year_of: 574
+  type: endeavor
+  title_zh: 下诏禁断佛道二教
+  detail: 毁经像，沙门道士并令还俗，财物散给臣下
+  endeavor_ref: guji-宇文邕-endeavor-1
+- id: guji-宇文邕-event-pingqi
+  date: 577-01-21
+  year_of: 577
+  type: endeavor
+  title_zh: 平齐，俘高纬于青州
+  detail: 北周灭北齐，北方重归一统
+  endeavor_ref: guji-宇文邕-endeavor-2
+- id: guji-宇文邕-event-death
+  date: 578-06-21
+  year_of: 578
+  type: death
+  title_zh: 宇文邕崩于云阳宫
+  detail: 年三十六，子宇文赟继位，谥武皇帝
