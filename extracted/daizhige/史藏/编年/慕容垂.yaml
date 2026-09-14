@@ -1,0 +1,137 @@
+person:
+  qid: guji-慕容垂
+  name_zh: 慕容垂
+  names:
+    zh: 慕容垂
+    en: Murong Chui
+  lifespan:
+    birth:
+      date: '326'
+      precision: year
+      is_circa: true
+      raw: 约生于后赵时期
+    death:
+      date: '396'
+      precision: year
+      is_circa: false
+      raw: ''
+  birth_date: '0326'
+  death_date: 0396
+  era: 十六国后燕
+  reign_ref: 后燕成武帝（386—396 在位）
+  archetype: 复国雄主
+  dilemmas:
+  - 忍辱寄身前秦以避祸，还是坚守故国气节
+  - 淝水之后举兵复燕，还是继续效忠苻坚
+  lesson: 韬晦待时者虽失国而能复起，然追击之机、辅立之名，成败皆系于毫厘之间
+  summary_first_person: 我慕容垂一生先避祸出奔，淝水败后率骑追蹑强敌，终仗中兴之业重建燕国，留台龙城以定根本。
+endeavors:
+- id: guji-慕容垂-endeavor-1
+  name_zh: 破桓温枋头之役
+  phases:
+  - key: brewing
+    name_zh: 出镇前燕领兵御晋
+    labels:
+      zh:
+      - 受任御晋
+    start_date: 0369
+    highlight_event_id: guji-慕容垂-event-fangtou
+  - key: breakthrough
+    name_zh: 追蹑晋军俟其气衰
+    labels:
+      zh:
+      - 徐行蹑后
+    start_date: 0369
+    highlight_event_id: guji-慕容垂-event-fangtou
+  - key: climax
+    name_zh: 急追大破桓温
+    labels:
+      zh:
+      - 枋头大捷
+    start_date: 0369
+    highlight_event_id: guji-慕容垂-event-fangtou
+  - key: closure
+    name_zh: 功高见忌终出奔前秦
+    labels:
+      zh:
+      - 出避苻秦
+    start_date: 0369
+    highlight_event_id: guji-慕容垂-event-fangtou
+  decisions:
+  - date: 0369
+    title_zh: 帅八千骑徐行蹑桓温之后
+    rationale: 欲俟晋军士气衰倦而后击之，数日乃急追大破之
+- id: guji-慕容垂-endeavor-2
+  name_zh: 复兴后燕
+  phases:
+  - key: brewing
+    name_zh: 修牋长乐公展过宾之礼
+    labels:
+      zh:
+      - 过安阳修牋
+    start_date: 0383
+    highlight_event_id: guji-慕容垂-event-an-yang
+  - key: breakthrough
+    name_zh: 乘淝水之败举兵复燕
+    labels:
+      zh:
+      - 叛秦兴燕
+    start_date: 0384
+    highlight_event_id: guji-慕容垂-event-liu-tai
+  - key: climax
+    name_zh: 建留台于龙城定号令
+    labels:
+      zh:
+      - 留台龙城
+    start_date: 0384
+    highlight_event_id: guji-慕容垂-event-liu-tai
+  - key: closure
+    name_zh: 称帝续燕宗祧
+    labels:
+      zh:
+      - 中兴燕室
+    start_date: 0386-01
+    highlight_event_id: guji-慕容垂-event-liu-tai
+  decisions:
+  - date: 0383
+    title_zh: 行至安阳遣田山修牋于长乐公丕
+    rationale: 时长乐守邺，先修牋乃展过宾之礼，与丕尚无构隙
+  - date: 0384
+    title_zh: 垂建留台龙城，号令奏事出燕主
+    rationale: 留台之建命出燕主，非臣下所敢专
+events:
+- id: guji-慕容垂-event-birth
+  date: '0326'
+  year_of: 326
+  title_zh: 慕容垂出生
+  summary: 约后赵时期生于鲜卑慕容氏王族。
+  subjects:
+  - guji-慕容垂
+- id: guji-慕容垂-event-fangtou
+  date: 0369
+  year_of: 369
+  title_zh: 帅八千骑追蹑桓温大破之
+  summary: 燕太和四年，慕容垂帅八千骑行蹑其后，俟晋军士气衰倦数日乃急追，大破桓温。
+  subjects:
+  - guji-慕容垂
+- id: guji-慕容垂-event-an-yang
+  date: 0383
+  year_of: 383
+  title_zh: 至安阳修牋于长乐公丕
+  summary: 淝水败后慕容垂至安阳，遣参军田山修牋于长乐公丕，丕身自郊迎以尽地主之敬。
+  subjects:
+  - gaaji-慕容垂
+- id: guji-慕容垂-event-liu-tai
+  date: 0384
+  year_of: 384
+  title_zh: 建留台龙城
+  summary: 燕太元十四年前后，燕主（原文纲目误作"农"当为"垂"）建留台于龙城。
+  subjects:
+  - guji-慕容垂
+- id: guji-慕容垂-event-death
+  date: 0396
+  year_of: 396
+  title_zh: 慕容垂卒
+  summary: 后燕成武帝慕容垂卒，中兴之业成而身后之事未竟。
+  subjects:
+  - guji-慕容垂
