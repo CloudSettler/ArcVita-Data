@@ -1,0 +1,106 @@
+person:
+  qid: guji-齐太史
+  name_zh: 齐太史
+  names:
+    zh: 齐太史
+    en: Grand Historian of Qi
+  lifespan:
+    birth:
+      date: 约-600
+      precision: decade
+      is_circa: true
+      raw: 生年不详，春秋中期
+    death:
+      date: 约-548
+      precision: year
+      is_circa: true
+      raw: 约卒于襄公二十五年崔杼之乱期间
+  birth_date: 约-600
+  death_date: 约-548
+  era: 春秋
+  reign_ref: 齐后庄公、崔杼执政时期
+  archetype: 直笔史官
+  dilemmas:
+  - 记史直书崔杼弑君而身遭屠戮，还是屈从权臣而失史职之守
+  - 兄弟相继死者是否仍从前简续书
+  lesson: 秉笔直书、宁死不夺，史官以生命守护实录之义
+  summary_first_person: 我是齐国的太史。崔杼弑其君齐庄公，我直书"崔杼弑其君"，被他杀死；我的两个弟弟相继接着写，又相继被杀；最小的弟弟仍旧直书，崔杼终于放弃，不得不让我写下史实，而南史氏还抱着简策等候我们死绝再继续。由此史笔得以保全，弑君之罪终不可掩。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/%E9%BD%90%E5%A4%AA%E5%8F%B2
+endeavors:
+- id: guji-齐太史-endeavor-1
+  name_zh: 直书崔杼弑君
+  phases:
+  - key: brewing
+    name_zh: 承职史官
+    labels:
+      zh:
+      - 齐国太史
+      - 世代史职
+    start_date: 约-570
+    highlight_event_id: guji-齐太史-event-writes
+  - key: climax
+    name_zh: 书弑蒙难
+    labels:
+      zh:
+      - 直书弑君
+      - 兄弟殉简
+    start_date: -548
+    highlight_event_id: guji-齐太史-event-writes
+  - key: closure
+    name_zh: 史笔得存
+    labels:
+      zh:
+      - 崔杼乃舍之
+      - 南史氏执简以往
+    start_date: -548
+    highlight_event_id: guji-齐太史-event-survives
+  decisions:
+  - date: -548
+    title_zh: 不改史直书"崔杼弑其君"
+    rationale: 史官之职在实录，宁死不可失职
+  - date: -548
+    title_zh: 弟弟相继续书前简
+    rationale: 兄死不能夺其志，史笔不可断
+- id: guji-齐太史-endeavor-2
+  name_zh: 著史存信于后世
+  phases:
+  - key: breakthrough
+    name_zh: 立简为信
+    labels:
+      zh:
+      - 简册实录
+      - 以史为鉴
+    start_date: 约-560
+    highlight_event_id: guji-齐太史-event-survives
+  decisions:
+  - date: -548
+    title_zh: 交由南史氏备续
+    rationale: 闻太史尽死则执简以往，史不绝书
+events:
+- id: guji-齐太史-event-birth
+  type: birth
+  date: 约-600
+  year_of: -600
+  title_zh: 齐太史生（年代不详）
+  description: 生卒皆不可详考，为春秋时齐国世袭史官。
+- id: guji-齐太史-event-writes
+  type: endeavor
+  endeavor_id: guji-齐太史-endeavor-1
+  date: -548
+  year_of: -548
+  title_zh: 直书"崔杼弑其君"遇害
+  description: 崔杼弑齐庄公，太史书之，崔杼杀之；其弟接续书之，又被杀；又一弟仍书，崔杼乃舍之。
+- id: guji-齐太史-event-survives
+  type: endeavor
+  endeavor_id: guji-齐太史-endeavor-1
+  date: -548
+  year_of: -548
+  title_zh: 史笔获全，南史氏执简而返
+  description: 末弟仍直书，崔杼终于允许；南史氏闻太史尽死，执简以往，闻既书矣乃还。
+- id: guji-齐太史-event-death
+  type: death
+  date: 约-548
+  year_of: -548
+  title_zh: 齐太史卒（约）
+  description: 约死于崔杼之乱中兄弟殉书之事，其名不传于史。

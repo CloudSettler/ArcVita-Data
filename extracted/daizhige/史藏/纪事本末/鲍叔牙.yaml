@@ -1,0 +1,171 @@
+person:
+  qid: guji-鲍叔牙
+  name_zh: 鲍叔牙
+  names:
+    zh: 鲍叔牙
+    en: Bao Shuya
+  lifespan:
+    birth:
+      date: -710
+      precision: decade
+      is_circa: true
+      raw: 约春秋早期，生年不详
+    death:
+      date: -644
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约齐桓公晚年
+  birth_date: -710
+  death_date: -644
+  era: 春秋
+  reign_ref: 齐桓公
+  archetype: 知人让贤的辅政重臣
+  dilemmas:
+  - 辅佐小白奔莒避乱，还是留守危城
+  - 桓公欲以鲍叔为宰，荐管仲自代，还是固位专权
+  - 管仲曾射中桓公带钩，劝桓公宥而用之，还是任旧怨废大才
+  lesson: 知人善让、荐贤不忌，成全霸业者未必亲执其政。
+  summary_first_person: 我鲍叔牙事齐小白。襄公无道，我知乱将作，奉公子小白出奔莒。无知之乱既平，我御小白争先入齐，立为桓公。桓公欲以我为宰，我力辞，言治国有如管夷吾者，遂设计自鲁生致管仲，三衅三浴而进之。我终身让贤，甘居其下，助成桓公九合诸侯之霸。
+  source_urls:
+  - 左传纪事本末卷十八·齐桓公之伯（钦定四库全书）
+endeavors:
+- id: guji-鲍叔牙-endeavor-1
+  name_zh: 预乱奉主出奔
+  phases:
+  - key: brewing
+    name_zh: 察襄公之乱
+    labels:
+      zh: 观政知乱
+    start_date: -690
+    highlight_event_id: guji-鲍叔牙-event-warning
+  - key: breakthrough
+    name_zh: 奉小白奔莒
+    labels:
+      zh: 护主出奔
+    start_date: -686
+    highlight_event_id: guji-鲍叔牙-event-escape
+  - key: climax
+    name_zh: 争先入国立桓公
+    labels:
+      zh: 夺位定齐
+    start_date: -685
+    highlight_event_id: guji-鲍叔牙-event-enter
+  - key: closure
+    name_zh: 平公子纠之难
+    labels:
+      zh: 定乱
+    start_date: -685
+    highlight_event_id: guji-鲍叔牙-event-jiu
+  decisions:
+  - date: -686
+    title_zh: 谏小白避乱出奔莒
+    rationale: 曰"君使民慢，乱将作矣"，先行避祸以存社稷之望
+  - date: -685
+    title_zh: 御车急行争先入齐
+    rationale: 鲁送子纠迟到，我以五乘距路为前驱，务必使小白先入得立
+- id: guji-鲍叔牙-endeavor-2
+  name_zh: 荐贤让相辅霸
+  phases:
+  - key: brewing
+    name_zh: 受囚释管仲于堂阜
+    labels:
+      zh: 全友性命
+    start_date: -685
+    highlight_event_id: guji-鲍叔牙-event-release
+  - key: breakthrough
+    name_zh: 让宰荐管仲
+    labels:
+      zh: 自代让贤
+    start_date: -685
+    highlight_event_id: guji-鲍叔牙-event-recommend
+  - key: climax
+    name_zh: 设计生致管仲自鲁
+    labels:
+      zh: 计取夷吾
+    start_date: -685
+    highlight_event_id: guji-鲍叔牙-event-fetch
+  - key: closure
+    name_zh: 甘居其下同辅霸业
+    labels:
+      zh: 同心辅霸
+    start_date: -680
+    highlight_event_id: guji-鲍叔牙-event-serve
+  decisions:
+  - date: -685
+    title_zh: 亲迎囚车释管仲于堂阜
+    rationale: 管召本奉子纠，射钩为其君动，非私仇，当为国惜才
+  - date: -685
+    title_zh: 辞桓公相位荐管夷吾为宰
+    rationale: 自陈五不如夷吾：宽惠柔民、治国不失柄、忠信结民、制礼义、执枹鼓加勇于民
+  - date: -685
+    title_zh: 建言以戮臣之名请诸鲁生致管仲
+    rationale: 恐施伯知将用其政而不予，故假"戮于群臣"之名求得生还
+events:
+- id: guji-鲍叔牙-event-birth
+  date: -710
+  year_of: -710
+  title_zh: 鲍叔牙生
+  description: 生年史无明文，约生于春秋早期齐国鲍氏之族，与管仲早相友善。
+  type: birth
+- id: guji-鲍叔牙-event-warning
+  date: -690
+  year_of: -690
+  title_zh: 预言"君使民慢，乱将作矣"
+  description: 襄公立无常，鲍叔牙曰君使民慢、乱将作矣，遂谋奉公子小白出避。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-1
+- id: guji-鲍叔牙-event-escape
+  date: -686
+  year_of: -686
+  title_zh: 奉公子小白出奔莒
+  description: 鲍叔牙傅小白，见祸将及，奉其出奔莒国；管仲召忽则奉公子纠奔鲁。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-1
+- id: guji-鲍叔牙-event-enter
+  date: -685
+  year_of: -685
+  title_zh: 御小白争先入齐，立为桓公
+  description: 无知被杀后，高国阴召小白。鲍叔牙以莒车道近，令车驾疾行为前驱；管仲遮莒道射中小白带钩，小白佯死，的结果先入齐得立，是为桓公。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-1
+- id: guji-鲍叔牙-event-jiu
+  date: -685
+  year_of: -685
+  title_zh: 帅师请讨子纠，鲁杀子纠
+  description: 鲁伐齐纳子纠败于干时，鲍叔帅师来言：子纠亲也请君讨之，管召讐也请受而甘心焉。鲁乃杀子纠于生窦，召忽死之，管仲请囚。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-1
+- id: guji-鲍叔牙-event-release
+  date: -685
+  year_of: -685
+  title_zh: 受管仲于鲁囚，至堂阜而税之
+  description: 鲍叔受管仲之囚，行及堂阜即释其缚，归而告桓公：管夷吾治于高傒，使相可也。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-2
+- id: guji-鲍叔牙-event-recommend
+  date: -685
+  year_of: -685
+  title_zh: 辞相荐管仲
+  description: 桓公使鲍叔为宰，鲍叔辞曰臣君之庸臣也，历数五事皆不如管夷吾，力荐管仲为相。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-2
+- id: guji-鲍叔牙-event-fetch
+  date: -685
+  year_of: -685
+  title_zh: 计请于鲁生致管仲
+  description: 桓公欲宥管仲而恐鲁杀之，鲍叔建言假称欲戮于群臣而请生致之；鲁庄公使束缚以予齐使，既至齐则三衅三浴，桓公亲逆于郊，礼以为相。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-2
+- id: guji-鲍叔牙-event-serve
+  date: -680
+  year_of: -680
+  title_zh: 让贤甘居管仲之下，同辅齐霸
+  description: 鲍叔牙以身下之，与管仲、隰朋、高傒同心辅政，助桓公北杏会盟、平宋服郑，齐始霸焉。
+  type: endeavor
+  endeavor_id: guji-鲍叔牙-endeavor-2
+- id: guji-鲍叔牙-event-death
+  date: -644
+  year_of: -644
+  title_zh: 鲍叔牙卒
+  description: 卒年不详，约终于齐桓公霸业后期，后世以"管鲍之交"称其知人之明与让贤之德。
+  type: death
