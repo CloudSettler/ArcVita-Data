@@ -1,0 +1,94 @@
+person:
+  qid: guji-吕母
+  name_zh: 吕母
+  names:
+    zh: 吕母
+    en: Mother Lü
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 不详，西汉末琅邪人
+    death:
+      precision: unknown
+      raw: 不详，天凤年间起义后卒
+  era: 新莽末年
+  reign_ref: 王莽新朝
+  archetype: 复仇者与农民起义领袖
+  dilemmas:
+  - 散尽家财聚众复仇与守法安分之间的抉择
+  - 报子仇杀县长后的伦理与法度冲突
+  lesson: 蒙冤受屈者以恩义聚众、以信誓立威，可由个人复仇演变为时代风暴
+  summary_first_person: 我是琅邪吕母。我的儿子被县令枉杀，我散尽数百金家产， Opener 备酒买兵，救助贫乏少年数年，感动众人助我复仇。我自称将军，聚众数百人，攻破县城，手杀县令，以其首祭子之墓。此后人心思乱，樊崇、逄安等相继起事，岁间众各数万，天下遂乱。
+endeavors:
+- id: guji-吕母-endeavor-1
+  name_zh: 散财结客
+  phases:
+  - key: brewing
+    name_zh: 治酒买兵
+    labels:
+      zh:
+      - 散财
+      - 恩结少年
+    start_date: 12
+    highlight_event_id: guji-吕母-event-plot
+  - key: breakthrough
+    name_zh: 财产单尽
+    labels:
+      zh:
+      - 倾家
+      - 众感
+    start_date: 15
+  decisions:
+  - date: 12
+    title_zh: 治酒多买刀兵，随少年所乏与之
+    rationale: 家产数百金，志欲为子报怨，先以恩义结纳少年为后助
+- id: guji-吕母-endeavor-2
+  name_zh: 起兵复仇
+  phases:
+  - key: climax
+    name_zh: 聚众起事
+    labels:
+      zh:
+      - 自号将军
+      - 攻杀县长
+    start_date: 15
+    highlight_event_id: guji-吕母-event-revenge
+  - key: closure
+    name_zh: 祭子
+    labels:
+      zh:
+      - 以首祭墓
+    start_date: 15
+  decisions:
+  - date: 15
+    title_zh: 自号将军，攻城杀长
+    rationale: 数年恩结既成，众数百人许诺助战，遂举兵雪冤
+events:
+- id: guji-吕母-event-birth
+  title_zh: 吕母生
+  description: 西汉末琅邪人，家产数百金，因子为县长所杀而立志复仇。
+- id: guji-吕母-event-plot
+  title_zh: 治酒买兵结纳少年
+  date: 12
+  year_of: 14
+  description: 吕母以数百金家产治酒、多买刀兵，见少年所乏而与之，如此数岁，财产单尽。
+  endeavors_refs:
+  - guji-吕母-endeavor-1
+- id: guji-吕母-event-swear
+  title_zh: 涕泣明志众皆许诺
+  date: 15
+  year_of: 17
+  description: 少年欲偿母，母涕泣言所以相待非为求利，乃欲为子报怨；少年壮其志，感其恩，皆许诺。
+  endeavors_refs:
+  - guji-吕母-endeavor-1
+- id: guji-吕母-event-revenge
+  title_zh: 自号将军攻县长手杀之
+  date: 15
+  year_of: 17
+  description: 吕母聚众数百人，自号将军，攻破县城，解免掾吏，手杀县长，以其首祭子墓。
+  endeavors_refs:
+  - guji-吕母-endeavor-2
+- id: guji-吕母-event-death
+  title_zh: 吕母卒
+  description: 复仇之后事迹不见于史，其地樊崇等继而大起，赤眉之势成。
