@@ -1,0 +1,110 @@
+person:
+  qid: guji-傅弘烈
+  name_zh: 傅弘烈
+  names:
+    zh: 傅弘烈
+    en: Fu Honglie
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 1679
+  death_date: 1679
+  era: 清康熙年间
+  reign_ref: 清圣祖康熙
+  archetype: 忠烈殉国之臣
+  dilemmas:
+  - 身陷吴三桂叛乱势力之中，暗中通款朝廷，事发几死
+  - 孤军转战广西，外援不继，终被执不屈而死
+  lesson: 危难之际以孤忠效国，虽陷贼中不改其志
+  summary_first_person: 我在吴三桂叛乱期间密通朝廷、举兵广西，力战恢复，康熙十八年兵败被执，骂贼不屈而死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/平定三逆方略
+endeavors:
+- id: guji-傅弘烈-endeavor-1
+  name_zh: 密通朝廷与举义广西
+  phases:
+  - key: brewing
+    name_zh: 陷贼暗通
+    labels:
+      zh:
+      - 密报军情
+      - 险遭不测
+    start_date: 1674
+    highlight_event_id: guji-傅弘烈-event-plot
+  - key: breakthrough
+    name_zh: 授职统兵
+    labels:
+      zh:
+      - 授广西巡抚
+      - 招集义旅
+    start_date: 1676
+    highlight_event_id: guji-傅弘烈-event-governor
+  - key: climax
+    name_zh: 转战桂粤
+    labels:
+      zh:
+      - 克复州县
+      - 犄角进讨
+    start_date: 1677
+    highlight_event_id: guji-傅弘烈-event-campaign
+  - key: closure
+    name_zh: 兵败殉节
+    labels:
+      zh:
+      - 被执不屈
+      - 骂贼而死
+    start_date: 1679
+    highlight_event_id: guji-傅弘烈-event-death
+  decisions:
+  - date: 1674
+    title_zh: 身在吴三桂 lateral势力中密遣人员赴京上变
+    rationale: 不忍从逆，欲以暗通朝廷为反正内应
+  - date: 1676
+    title_zh: 接受诏任广西巡抚并招兵进讨
+    rationale: 朝廷倚其熟悉广西形势，且其早有反正之志
+  - date: 1677
+    title_zh: 会合莽依图等进兵广西
+    rationale: 奉命统兵，与官军协同义对吴军
+- id: guji-傅弘烈-endeavor-2
+  name_zh: 死后恤典
+  phases:
+  - key: closure
+    name_zh: 恤忠旌烈
+    labels:
+      zh:
+      - 赐祭葬
+      - 谥忠烈
+    start_date: 1679
+    highlight_event_id: guji-傅弘烈-event-death
+  decisions:
+  - date: 1679
+    title_zh: 朝廷追恤死难之臣
+    rationale: 以身殉国，功烈可嘉，故加恩恤
+events:
+- id: guji-傅弘烈-event-death
+  name_zh: 兵败被执，殉节而死
+  date: 1679
+  year_of: 1679
+  kind: death
+  summary: 康熙十八年吴应期、马宝等攻梧州，军溃被执，送桂林杀之。
+- id: guji-傅弘烈-event-plot
+  name_zh: 分发中密通朝廷，事发几死
+  date: 1674
+  year_of: 1674
+  kind: plot
+  summary: 在叛军之中密遣人赴京，报告吴三桂军情。
+- id: guji-傅弘烈-event-governor
+  name_zh: 授广西巡抚，招集兵勇
+  date: 1676
+  year_of: 1676
+  kind: appointment
+  summary: 朝廷授其为广西巡抚，兴兵讨逆。
+- id: guji-傅弘烈-event-campaign
+  name_zh: 与大兵会合进讨广西
+  date: 1677
+  year_of: 1677
+  kind: military
+  summary: 会合莽依图等官军转战广西，先后克复诸州县。

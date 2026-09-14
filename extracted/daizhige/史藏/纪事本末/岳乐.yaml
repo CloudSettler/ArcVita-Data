@@ -1,0 +1,97 @@
+person:
+  qid: guji-岳乐
+  name_zh: 岳乐
+  names:
+    zh: 岳乐
+    en: Yolo
+  lifespan:
+    birth:
+      date: '-1625'
+      precision: year
+      is_circa: true
+      raw: 约天命年间
+    death:
+      date: '1689'
+      precision: year
+      is_circa: false
+      raw: 康熙二十八年
+  birth_date: '-1625'
+  death_date: '1689'
+  era: 清初（康熙年间）
+  reign_ref: 康熙帝
+  archetype: 宗室统帅
+  dilemmas:
+  - 身为宗室亲王，奉诏远征三藩逆乱，需在朝廷指挥与战场实情之间权衡进止
+  - 兵至江西后，面临「由袁州进取长沙」或「径抵广西剿灭叛逆」的战略抉择
+  lesson: 宗室重臣临危受命，统师南下平叛，进退皆为社稷。
+  summary_first_person: 我是和硕安亲王岳乐，康熙年间奉旨为定远平寇大将军，率师南下平定三藩之乱， 先赴江西调度诸军，再图湖南、广西。
+  source_urls:
+  - https://zh.wikisource.org/wiki/平定三逆方略
+endeavors:
+- id: guji-岳乐-endeavor-1
+  name_zh: 受命南征，平定三藩
+  phases:
+  - key: brewing
+    name_zh: 授为定远平寇大将军
+    labels:
+      zh:
+      - 宗室统帅
+      - 三藩之乱
+    start_date: 1674-01
+    highlight_event_id: guji-岳乐-event-appointment
+  - key: breakthrough
+    name_zh: 率师赴粤，转道江西
+    labels:
+      zh:
+      - 南征
+    start_date: 1674-10
+    highlight_event_id: guji-岳乐-event-march
+  decisions:
+  - date: 1674-01
+    title_zh: 奉命为定远平寇大将军，帅师规定广西
+    rationale: 广西提督马雄、左江总兵官郭义降贼，全省变动，朝廷遂以岳乐挂帅征讨。
+- id: guji-岳乐-endeavor-2
+  name_zh: 调度江西军务
+  phases:
+  - key: brewing
+    name_zh: 兵至江西，相机调度
+    labels:
+      zh:
+      - 江西战局
+    start_date: 1674-11
+    highlight_event_id: guji-岳乐-event-jiangxi
+  decisions:
+  - date: 1674-11
+    title_zh: 遵旨速赴江西，酌量调度
+    rationale: 上谕大将军安亲王速赴江西，与诸将商酌由袁州取长沙或径抵广西，以定方略。
+events:
+- id: guji-岳乐-event-birth
+  date: '-1625'
+  year_of: -1625
+  type: birth
+  title_zh: 岳乐出生
+  details_zh: 约天命年间生，清宗室，后封和硕安亲王。
+- id: guji-岳乐-event-appointment
+  date: 1674-01
+  year_of: 1674
+  type: appointment
+  title_zh: 命和硕安亲王岳乐为定远平寇大将军
+  details_zh: 时广西提督马雄、左江总兵官郭义降贼，全省变动。上命岳乐为定远平寇大将军， 率护军骁骑速赴广东，令都统觉罗霍特伯、郎素等偕往；兵至江西，或由袁州进取 长沙以平定广西，或径抵广西剿灭叛逆，听大将军王与都统等商酌以行。
+- id: guji-岳乐-event-march
+  date: 1674-10
+  year_of: 1674
+  type: military_campaign
+  title_zh: 大将军安亲王岳乐帅师之广东
+  details_zh: 是日总督金光祖奏广西全省变动、贼势愈炽，请入粤大兵取道南雄星驰赴救； 上谕大将军安亲王已帅师由广东进定粤西。
+- id: guji-岳乐-event-jiangxi
+  date: 1674-11
+  year_of: 1674
+  type: military_campaign
+  title_zh: 谕大将军安亲王速赴江西调度
+  details_zh: 将军希尔根等奏贼犯抚州等处，上谕大将军安亲王速赴江西，酌量调度， 会同尼雅翰等诸军平定地方。
+- id: guji-岳乐-event-death
+  date: '1689'
+  year_of: 1689
+  type: death
+  title_zh: 岳乐去世
+  details_zh: 康熙二十八年卒。
