@@ -1,0 +1,133 @@
+person:
+  qid: guji-李存勖
+  name_zh: 李存勖
+  names:
+    zh: 李存勖（后唐庄宗）
+    en: Li Cunxu
+  lifespan:
+    birth:
+      date: 885
+      precision: year
+      is_circa: true
+      raw: 甲辰年生，崩时年四十三
+    death:
+      date: 926-04
+      precision: month
+  birth_date: 885
+  death_date: 926-04
+  era: 五代后唐
+  reign_ref: 同光（923–926）
+  archetype: 骁勇开国而有艺文的末路君主
+  dilemmas:
+  - 喜伶宦而疏功臣，启兴教门之变
+  - 早年小字阿三，晚岁恃勇拒谏，军中离心
+  lesson: 兴于忧患，败于骄逸，其兴亡皆在用人
+  summary_first_person: 我李存勖承父克用三矢之志，破燕梁而定中原，同光元年建后唐；然宠伶宦、疏宿将，同光四年兴教门兵变中殒身，年仅四十三。
+  source_urls:
+  - https:// stacks.example/quedianshu/wudaishizuanyu
+endeavors:
+- id: guji-李存勖-endeavor-1
+  title_zh: 崛起征战
+  description_zh: 随父克用破王行瑜，献捷京师；后对梁鏖战河上，终灭梁建唐。
+  domains:
+  - 军事
+  - 开国
+  phases:
+  - key: brewing
+    name_zh: 出身将门
+    labels:
+      zh:
+      - 晋王之子
+      - 献捷京师
+    start_date: '895'
+    highlight_event_id: guji-李存勖-event-xianjie
+  - key: breakthrough
+    name_zh: 破燕败梁
+    labels:
+      zh:
+      - 夹河之战
+      - 灭后梁
+    start_date: '915'
+  - key: climax
+    name_zh: 建号同光
+    labels:
+      zh:
+      - 灭梁称帝
+      - 唐室中兴
+    start_date: '923'
+    highlight_event_id: guji-李存勖-event-jianguo
+  - key: closure
+    name_zh: 骄逸致乱
+    labels:
+      zh:
+      - 宠伶宦
+      - 兴教门之变
+    start_date: '924'
+    highlight_event_id: guji-李存勖-event-death
+  decisions:
+  - date: '923'
+    title_zh: 灭梁即帝位，定都洛阳
+    rationale: 承唐正统，以雪父仇、定中原
+  - date: 924-02
+    title_zh: 册立刘氏为皇后
+    rationale: 宠幸伶宦佞幸，埋下纲纪之乱
+events:
+- id: guji-李存勖-event-birth
+  year_of: 885
+  date: 885
+  date_precision: year
+  title_zh: 李存勖生（甲辰年生）
+  type: birth
+  description_zh: 欧史注庄宗崩时年四十三，推其生年合甲辰；欧阳修纪谓十一岁破王行瑜，据此当为十二岁。
+  entities_mentioned:
+  - 李存勖
+- id: guji-李存勖-event-xianjie
+  year_of: 895
+  date: '895'
+  title_zh: 随克用破王行瑜，献捷于京师
+  type: militaryachievement
+  description_zh: 昭宗乾宁二年冬克用破斩王行瑜，存勖献捷京师，年十二。
+  entities_mentioned:
+  - 李克用
+  - 王行瑜
+- id: guji-李存勖-event-sanchuigang
+  year_of: 889
+  date: 889
+  title_zh: 三垂冈置酒，时存勖在侧年方五岁
+  type: lifeevent
+  description_zh: 克用破孟方立于邢州，还军上党置酒三垂冈，存勖方五岁，可证生平年。
+  entities_mentioned:
+  - 李克用
+- id: guji-李存勖-event-jianguo
+  year_of: 923
+  date: '923'
+  title_zh: 灭后梁建后唐，改元同光
+  type: politicalachievement
+  description_zh: 夹河鏖战十余年，终灭梁，称帝始建后唐。
+  entities_mentioned:
+  - 后梁
+- id: guji-李存勖-event-lhou
+  year_of: 924-02
+  date: 924-02
+  title_zh: 立刘氏为皇后
+  type: politicalachievement
+  description_zh: 纪载同光二年二月癸未立皇后刘氏，与家人传四月册立异，纪传不同。
+  entities_mentioned:
+  - 刘皇后
+- id: guji-李存勖-event-xingbian
+  year_of: 926-02
+  date: 926-02
+  title_zh: 赵在礼反，命李嗣源讨之，嗣源反
+  type: rebellion
+  description_zh: 同光四年二月赵在礼反于贝州，李嗣源讨之而反，是年三月嗣源反。
+  entities_mentioned:
+  - 赵在礼
+  - 李嗣源
+- id: guji-李存勖-event-death
+  year_of: 926-04
+  date: 926-04
+  title_zh: 庄宗崩于兴教门之变
+  type: death
+  description_zh: 同光四年四月丁亥朔庄宗崩，注云年四十三，是岁丙戌。
+  entities_mentioned:
+  - 李嗣源
