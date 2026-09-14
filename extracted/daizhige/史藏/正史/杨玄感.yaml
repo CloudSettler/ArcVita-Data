@@ -1,0 +1,120 @@
+person:
+  qid: guji-杨玄感
+  name_zh: 杨玄感
+  names:
+    zh: 杨玄感
+    en: Yang Xuangan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 0613-08
+      precision: month
+      is_circa: true
+      raw: 大业九年八月壬寅
+  birth_date: ''
+  death_date: 0613-08
+  era: 隋朝
+  reign_ref: 隋炀帝大业年间
+  archetype: 权臣叛将
+  dilemmas:
+  - 世受国恩而天下已乱，起兵反隋还是效忠朝廷
+  - 兵逼东都时，取洛阳为基还是西入关中
+  lesson: 乘主上在外举事虽得一时响应，然迟疑不决、坐失战机，终致败亡。
+  summary_first_person: 我杨玄感，官至礼部尚书。大业九年，炀帝再征辽东、民力竭尽，我于黎阳起兵反隋，众至数万，进逼东都。后为宇文述所破，败死于阌乡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/隋書/卷004
+endeavors:
+- id: guji-杨玄感-endeavor-1
+  name_zh: 仕隋历官礼部尚书
+  phases:
+  - key: brewing
+    name_zh: 历职朝廷
+    labels:
+      zh:
+      - ‘鸿胪卿’
+      - ‘礼部尚书’
+    start_date: 0608-02
+    highlight_event_id: guji-杨玄感-event-appointment
+  decisions:
+  - date: 0608-02
+    title_zh: 受任礼部尚书
+    rationale: 由鸿胪卿升任礼部尚书，位列九卿重臣。
+- id: guji-杨玄感-endeavor-2
+  name_zh: 黎阳起兵反隋
+  phases:
+  - key: brewing
+    name_zh: 蓄势观变
+    labels:
+      zh:
+      - ‘督运黎阳’
+    start_date: 394
+  - key: breakthrough
+    name_zh: 起兵举反
+    labels:
+      zh:
+      - ‘黎阳起兵’
+    start_date: 0613-06
+    highlight_event_id: guji-杨玄感-event-revolt
+  - key: climax
+    name_zh: 进逼东都
+    labels:
+      zh:
+      - ‘围洛阳’
+      - ‘兵败’
+    start_date: 0613-06-12
+    highlight_event_id: guji-杨玄感-event-defeat
+  - key: closure
+    name_zh: 败亡
+    labels:
+      zh:
+      - ‘阌乡被斩’
+    start_date: 0613-08
+    highlight_event_id: guji-杨玄感-event-defeat
+  decisions:
+  - date: 0613-06
+    title_zh: 起兵于黎阳
+    rationale: 隋炀帝二征高丽、民不堪命，遂以讨从征不进为由举兵反隋。
+  - date: 0613-06-12
+    title_zh: 引兵逼东都
+    rationale: 欲先据洛阳以号令天下，围攻东都。
+events:
+- id: guji-杨玄感-event-appointment
+  date: 0608-02
+  year_of: 608
+  title_zh: 以鸿胪卿杨玄感为礼部尚书
+  description: 大业四年正月壬申，杨玄感由鸿胪卿迁任礼部尚书。
+  persons:
+  - guji-杨玄感
+  source_refs:
+  - 隋书·炀帝纪
+- id: guji-杨玄感-event-revolt
+  date: 0613-06
+  year_of: 613
+  title_zh: 杨玄感反于黎阳
+  description: 大业九年六月乙巳，礼部尚书杨玄感在黎阳起兵反隋。炀帝遂班师，遣宇文述、屈突通等讨之。
+  persons:
+  - guji-杨玄感
+  source_refs:
+  - 隋书·炀帝纪
+- id: guji-杨玄感-event-siege
+  date: 0613-06-12
+  year_of: 613
+  title_zh: 玄感逼东都，败裴弘策
+  description: 起兵后进逼东都洛阳，河南赞务裴弘策率兵拒战，反为玄感所败。
+  persons:
+  - guji-杨玄感
+  source_refs:
+  - 隋书·炀帝纪
+- id: guji-杨玄感-event-defeat
+  date: 0613-08
+  year_of: 613
+  title_zh: 兵败阌乡，玄感被斩
+  description: 大业九年八月壬寅，左翊卫大将军宇文述等破杨玄感于阌乡，斩之，余党悉平。
+  persons:
+  - guji-杨玄感
+  source_refs:
+  - 隋书·炀帝纪
