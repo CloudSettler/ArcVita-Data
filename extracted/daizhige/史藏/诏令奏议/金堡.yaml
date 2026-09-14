@@ -1,0 +1,136 @@
+person:
+  qid: guji-金堡
+  name_zh: 金堡
+  names:
+    zh: 金堡
+    en: Jin Bao
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 明末清初
+  reign_ref: 隆武、永历
+  archetype: 直谏忠臣·明遗民
+  dilemmas:
+  - 尽忠报国与守丧终制的冲突
+  - 抗清出仕与国亡后出家守节的选择
+  lesson: 犯颜直谏、不避权贵，国亡后以身殉节，气节重于功名
+  summary_first_person: 我是金堡，仁和人，崇祯庚辰进士。隆武、永历之际我居言职，屡上疏直言时政、弹劾权贵，几乎置死于朝堂；国亡后祝发为僧，抗志以终。
+endeavors:
+- id: guji-金堡-endeavor-1
+  name_zh: 起兵抗清与隆武言官生涯
+  labels:
+    zh: 抗清、言官
+  start_date: 1645
+  phases:
+  - key: brewing
+    name_zh: 起兵余杭
+    labels:
+      zh: 起义
+    start_date: 1645
+    highlight_event_id: guji-金堡-event-uprising
+  - key: breakthrough
+    name_zh: 监军江上、上疏直谏
+    labels:
+      zh: 直谏
+    start_date: 1645-10
+    highlight_event_id: guji-金堡-event-zhongxing
+  - key: climax
+    name_zh: 永历朝科道弹劾
+    labels:
+      zh: 弹劾权贵
+    start_date: 1648-11
+    highlight_event_id: guji-金堡-event-shizheng
+  - key: closure
+    name_zh: 祝发为僧，抗志以终
+    labels:
+      zh: 遗民出家
+    start_date: 1650
+    highlight_event_id: guji-金堡-event-monk
+  decisions:
+  - date: 1646
+    title_zh: 辞礼科给事中，请赴军前监军
+    rationale: 不愿夺情居清秩口舌得官，愿舍安土履危疆
+  - date: 1648
+    title_zh: 永历朝屡上弹章、不辟权贵
+    rationale: 以言职报国，正国典、激发忠义
+- id: guji-金堡-endeavor-2
+  name_zh: 撰《岭海焚余》
+  labels:
+    zh: 著述
+  start_date: 1645
+  phases:
+  - key: brewing
+    name_zh: 收录封奏
+    labels:
+      zh: 编集
+    start_date: 1645
+    highlight_event_id: guji-金堡-event-shizheng
+  - key: closure
+    name_zh: 遗稿传世，曾在禁毁之列
+    labels:
+      zh: 禁毁传钞
+    start_date: 1673
+    highlight_event_id: guji-金堡-event-shuzi
+  decisions:
+  - date: 1673
+    title_zh: 遗集以钞本流传
+    rationale: 世无刊本，旧在禁毁之列，赖藏家钞录
+events:
+- id: guji-金堡-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  title_zh: 金堡生（浙江仁和人）
+  detail: 崇祯十三年庚辰中二甲进士，推测生年约在万历末年
+- id: guji-金堡-event-uprising
+  date: 1645
+  year_of: 1645
+  type: endeavor
+  title_zh: 与姚志卓等起兵余杭，复城擒伪
+  detail: 誓死不屈，几死虏手，弃家入越会诸义师；鲁藩加职方主郎，不受
+- id: guji-金堡-event-zhongxing
+  date: 1645-10
+  year_of: 1645
+  type: endeavor
+  title_zh: 隆武乙酉十月上《中兴大计疏》
+  detail: 力请隆武帝出关亲征，并画分道出师之势；又为郑遵谦讼功
+- id: guji-金堡-event-cike
+  date: 1646
+  year_of: 1646
+  type: endeavor
+  title_zh: 因停刑之谏破格擢礼科给事中，恳辞不就
+  detail: 请收回成命，仍愿为忠义营监军
+- id: guji-金堡-event-shizheng
+  date: 1648-11
+  year_of: 1648
+  type: endeavor
+  title_zh: 永历戊子上《时政八失疏》《中兴四议疏》
+  detail: 永历朝兵科给事中职上，屡劾权贵，愤激敷陈，规切时事
+- id: guji-金堡-event-monk
+  date: 1650
+  year_of: 1650
+  type: endeavor
+  title_zh: 国亡后祝发为僧
+  detail: 高尚不事，抗志以终，与谢枋得、唐珏先后辉映
+- id: guji-金堡-event-shuzi
+  date: 1673
+  year_of: 1673
+  type: legacy
+  title_zh: 孙德谦为《岭海焚余》作序
+  detail: 岁在癸丑，隘堪居士孙德谦据睹閟簃钞本缀序，谓其文不在苏文忠下
+- id: guji-金堡-event-death
+  date: ''
+  year_of: ''
+  type: death
+  title_zh: 金堡卒（为僧后抗志以终）
+  detail: 卒年不详
