@@ -1,0 +1,83 @@
+person:
+  qid: guji-福康安
+  name_zh: 福康安
+  names:
+    zh: 福康安
+    en: Fukang'an
+  lifespan:
+    birth:
+      date: 1754
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，约乾隆十九年（1754）
+  birth_date: 约1754年
+  era: 清乾隆年间
+  reign_ref: 乾隆
+  archetype: 战功显赫的八旗统帅与方略编纂重臣
+  dilemmas:
+  - 强攻坚碉险地与保存兵力的权衡：金川跬步皆险，官军屡受阻遏
+  - 受张皇姑息之议与先发制人进讨之间的朝廷决策张力
+  lesson: 凭险负嵎者终不能敌 concerted 兵力与运筹，功成端赖赏罚严明、众志成城
+  summary_first_person: 我福康安于两金川之役中效力军前，曾偕海兰察等率兵助攻克坚险要隘，随大军进围噶拉依直至金川底定；事后奉勅与阿桂、梁国治等编纂《平定两金川方略》，以纪武功。
+endeavors:
+- id: guji-福康安-endeavor-1
+  name_zh: 从征两金川
+  phases:
+  - key: brewing
+    name_zh: 随军效力
+    labels:
+      zh: 金川军前
+    start_date: 1775
+  - key: climax
+    name_zh: 助攻克险
+    labels:
+      zh: 攻甲索诸战
+    start_date: 1775
+    highlight_event_id: guji-福康安-event-1
+  decisions:
+  - date: '1775'
+    title_zh: 率兵助明亮一路攻甲索要隘
+    rationale: 奉阿桂之令，与海兰察率千人往助，合力火攻，克萨克萨谷诸险寨
+- id: guji-福康安-endeavor-2
+  name_zh: 编纂《平定两金川方略》
+  phases:
+  - key: brewing
+    name_zh: 奉勅开馆
+    labels:
+      zh: 奉旨编纂
+    start_date: 1776
+    highlight_event_id: guji-福康安-event-2
+  - key: closure
+    name_zh: 成书进呈
+    labels:
+      zh: 恭撰奏进
+    start_date: 1781
+  decisions:
+  - date: '1776'
+    title_zh: 领衔与阿桂、梁国治编纂方略
+    rationale: 皇帝俞廷臣之请，命编纂方略以纪平定两金川武功，编年纪月成书
+events:
+- id: guji-福康安-event-birth
+  date: 1754
+  year_of: 1754
+  type: birth
+  title_zh: 福康安出生（约）
+  detail: 生年史无明文，约在乾隆十九年前后
+- id: guji-福康安-event-1
+  date: 1775
+  year_of: 1775
+  type: military_action
+  title_zh: 率千人助攻甲索等险寨
+  detail: 阿桂令海兰察、福康安等率千人助明亮，攻甲索，合力击破萨克萨谷诸寨，河西诸地相继得手
+- id: guji-福康安-event-2
+  date: 1776
+  year_of: 1776
+  type: appointment
+  title_zh: 奉勅编纂《平定两金川方略》
+  detail: 乾隆四十一年两金川平，皇帝勅福康安与阿桂、梁国治等率纂修诸臣编年纪月，编纂方略成书进呈
+- id: guji-福康安-event-3
+  date: 1776-02
+  year_of: 1776
+  type: victory
+  title_zh: 随军平定两金川凯旋受赏
+  detail: 金川阖境悉平，将军大臣五等荣封世爵罔替，功臣画像于紫光阁

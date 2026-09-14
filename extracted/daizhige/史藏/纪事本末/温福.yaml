@@ -1,0 +1,123 @@
+person:
+  qid: guji-温福
+  name_zh: 温福
+  names:
+    zh: 温福
+    en: Wenfu
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+    death:
+      date: 1773
+      precision: year
+      is_circa: false
+      raw: 乾隆三十八年（癸巳）木果木之败遇害
+  death_date: '1773'
+  era: 清乾隆年间
+  reign_ref: 乾隆帝
+  archetype: 兵败身死的定边将军
+  dilemmas:
+  - 绿营怯懦、兵力分散，而敌据险死守，进退两难
+  - 朝廷急于平定两金川，须在攻坚与持重之间权衡
+  lesson: 兵分则单、轻信降众则败，将不知调度则虽拥重兵亦覆
+  summary_first_person: 我以大学士授定边将军，由西路进讨小金川，克巴朗拉、资哩、布朗郭宗，俘土司泽旺，复与阿桂会师克美诺，两金川一度将平。然进讨促浸时我移军木果木，调度失宜，以二万余人散布各卡，贼猝由间道掩至，煽降番复叛，绿营先溃，我率亲兵搏战，遇害尽节，军复失利。
+  source_urls:
+  - https://zh.wikisource.org/wiki/欽定平定兩金川方略
+endeavors:
+- id: guji-温福-endeavor-1
+  name_zh: 西路进讨小金川
+  phases:
+  - key: brewing
+    name_zh: 授将督师
+    labels:
+      zh: 由滇赴川，代阿尔泰经理军务
+    start_date: 1771-11
+    highlight_event_id: guji-温福-event-appointment
+  - key: breakthrough
+    name_zh: 连克要隘
+    labels:
+      zh: 攻克巴朗拉、达围、资哩、阿喀木雅、布朗郭宗、底木达
+    start_date: 1772-01
+    highlight_event_id: guji-温福-event-zili
+  - key: climax
+    name_zh: 会师克美诺
+    labels:
+      zh: 与阿桂会师，攻克美诺官寨，俘泽旺解京
+    start_date: 1772-12
+    highlight_event_id: guji-温福-event-meinuo
+  - key: closure
+    name_zh: 木果木之败
+    labels:
+      zh: 移军木果木，贼袭营溃败，遇害
+    start_date: '1773'
+    highlight_event_id: guji-温福-event-death
+  decisions:
+  - date: 1772-03
+    title_zh: 由巴朗拉一路攻克资哩、阿喀木雅
+    rationale: 依诏自西路进兵，稳步推进攻克要隘
+  - date: '1773'
+    title_zh: 移军木果木并分兵散守各卡
+    rationale: 欲扼要进剿，然兵力分散致贼得乘隙而袭
+- id: guji-温福-endeavor-2
+  name_zh: 平定两金川方略所载战功
+  phases:
+  - key: brewing
+    name_zh: 受命定边
+    labels:
+      zh: 乾隆三十六年十一月授定边将军，阿桂、丰升额副之
+    start_date: 1771-11
+    highlight_event_id: guji-温福-event-appointment
+  - key: breakthrough
+    name_zh: 定小金川
+    labels:
+      zh: 攻克美诺、布朗郭宗，僧格桑窜入金川，两金川初平
+    start_date: 1772-12
+    highlight_event_id: guji-温福-event-meinuo
+  - key: climax
+    name_zh: 讨促浸
+    labels:
+      zh: 由功噶尔拉进讨促浸，碉坚地险，攻之未扼要害
+    start_date: '1773'
+    highlight_event_id: guji-温福-event-death
+  - key: closure
+    name_zh: 殁于王事
+    labels:
+      zh: 木果木大营被袭，温福遇害，小金川得而复失
+    start_date: 1773-06
+    highlight_event_id: guji-温福-event-death
+  decisions:
+  - date: 1772-12
+    title_zh: 俘泽旺、抚定汗牛大板昭等寨
+    rationale: 既克美诺，置小金川，移兵并讨促浸
+events:
+- id: guji-温福-event-appointment
+  date: 1771-11
+  year_of: 乾隆三十六年
+  type: appointment
+  title_zh: 命大学士温福自巴朗拉进兵，代阿尔泰为帅
+  description: 十一月诏以温福督西路兵，桂林统南路，分进小金川
+- id: guji-温福-event-zili
+  date: 1772-03
+  year_of: 乾隆三十七年三月
+  type: military
+  title_zh: 克资哩及阿喀木雅
+  description: 温福攻克资哩及阿喀木雅要地
+- id: guji-温福-event-meinuo
+  date: 1772-12
+  year_of: 乾隆三十七年十二月
+  type: military
+  title_zh: 克布朗郭宗底木达，俘泽旺解京
+  description: 温福攻克布朗郭宗、底木达，俘小金川土司泽旺解送京师；会阿桂克美诺
+- id: guji-温福-event-general
+  date: '1773'
+  year_of: 乾隆三十八年
+  type: appointment
+  title_zh: 命温福为定边将军
+  description: 两军既会，授温福定边将军，阿桂、丰升额为副，进讨促浸金川
+- id: guji-温福-event-death
+  date: 1773-06
+  year_of: 乾隆三十八年六月
+  type: death
+  title_zh: 木果木大营被袭，温福遇害
+  description: 贼猝掩山后攀援而上，绿营先溃，温福率亲兵与贼搏战遇害，小金川美诺一带复陷于贼
