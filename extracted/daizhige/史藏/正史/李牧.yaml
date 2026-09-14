@@ -1,0 +1,131 @@
+person:
+  qid: guji-li-mu
+  name_zh: 李牧
+  names:
+    zh: 李牧
+    en: Li Mu
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详，战国末年赵国人
+    death:
+      date: -229
+      precision: year
+      is_circa: true
+  death_date: -229
+  era: 战国末期
+  reign_ref: 赵悼襄王、赵王迁之世
+  archetype: 名将
+  dilemmas:
+  - 将在外而朝中谗毁交加，忠战之权与君命之间难以两全
+  - 强邻压境而国君昏聩，守土之名将与衰亡之国势相抗
+  lesson: 良将之功不敌谗言之口，国之存亡常系于用人之明
+  summary_first_person: 我乃赵国名将李牧，常年代北备胡，一战大破匈奴，其后屡却秦兵，封武安君。然王迁八年，秦使反间于赵，谗人郭开构我于王前，我竟冤死，赵亦随之而亡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷006
+endeavors:
+- id: guji-li-mu-endeavor-1
+  key: brewing
+  name_zh: 备边代雁
+  labels:
+    zh: 代雁门备匈奴
+  start_date: 约前265
+  highlight_event_id: guji-li-mu-event-xiongnu
+  phases:
+  - key: brewing
+    name_zh: 驻守代雁门
+    labels:
+      zh: 习射猎、谨烽火
+    start_date: 约前265
+    highlight_event_id: guji-li-mu-event-xiongnu
+  - key: breakthrough
+    name_zh: 大破匈奴
+    labels:
+      zh: 选车骑、出奇兵
+    start_date: 约前244
+    highlight_event_id: guji-li-mu-event-xiongnu
+  - key: climax
+    name_zh: 屡却秦兵
+    labels:
+      zh: 抗秦卫赵、封武安君
+    start_date: 约前234
+    highlight_event_id: guji-li-mu-event-yidu
+  - key: closure
+    name_zh: 冤死赵亡
+    labels:
+      zh: 遭谗被害
+    start_date: -229
+    highlight_event_id: guji-li-mu-event-death
+  decisions:
+  - date: 约前265
+    title_zh: 受命常驻代雁门备匈奴
+    rationale: 北边患深，谨烽火、厚遇战士以蓄锐待时
+  - date: 约前244
+    title_zh: 隐忍示弱而后大举出击
+    rationale: 匈奴骄纵，集市税收尽入军以养士，敢战者虽军令亦宥之
+  - date: 约前234
+    title_zh: 受命抗秦，力保赵土
+    rationale: 秦破赵军杀扈辄十万，国势危殆，宜速引兵御之
+  - date: -229
+    title_zh: 拒不出战以坚壁御秦
+    rationale: 秦军远来锐气难当，宜深沟高垒待其疲
+events:
+- id: guji-li-mu-event-birth
+  date: 约前285
+  year_of: 约前285
+  year_of_parseable: -285
+  type: birth
+  title_zh: 李牧生
+  description_zh: 李牧生于战国末年，事迹见《史记》赵世家所载代雁门备边之战功。
+  persons:
+  - guji-li-mu
+- id: guji-li-mu-event-xiongnu
+  date: 约前244
+  year_of: 约前244
+  year_of_parseable: -244
+  type: endeavor
+  endeavor_id: guji-li-mu-endeavor-1
+  title_zh: 大破匈奴
+  description_zh: 李牧驻代雁门，习射猎、谨烽火、厚养战士，示弱以骄匈奴，乃选车千三百乘、骑万三千、百金士五万、彀者十万，张左右翼大破匈奴，杀十余万骑，灭襜褴、破东胡、降林胡，其后十余年匈奴不敢近赵边城。
+  persons:
+  - guji-li-mu
+- id: guji-li-mu-event-yidu
+  date: 约前234
+  year_of: 约前234
+  year_of_parseable: -234
+  type: endeavor
+  endeavor_id: guji-li-mu-endeavor-1
+  title_zh: 肥之战却秦封武安君
+  description_zh: 秦桓齮攻赵杀扈辄、斩首十万，李牧受命为将大破秦军于宜安、肥下，却敌有功，封武安君。《秦始皇本纪》载十四年秦攻赵取宜安，即与此役相涉。
+  persons:
+  - guji-li-mu
+- id: guji-li-mu-event-envoy
+  date: 约前236
+  year_of: 约前236
+  year_of_parseable: -236
+  type: endeavor
+  endeavor_id: guji-li-mu-endeavor-1
+  title_zh: 以赵相使秦约盟
+  description_zh: 《秦始皇本纪》载赵王使其相李牧来约盟于秦，故秦归其质子；已而赵背盟反我太原，秦遂兴兵伐赵。
+  persons:
+  - guji-li-mu
+- id: guji-li-mu-event-fangzhan
+  date: -229
+  year_of: -229
+  year_of_parseable: -229
+  type: endeavor
+  endeavor_id: guji-li-mu-endeavor-1
+  title_zh: 坚壁拒秦、拒王命
+  description_zh: 秦王翦率大军下井陉伐赵，李牧与司马尚御之，屡却秦兵。秦以重金反间于赵，使足够的谗人郭开构李牧欲反，赵王迁使赵葱、颜聚代将，李牧不受命以拒秦之故不从。
+  persons:
+  - guji-li-mu
+- id: guji-li-mu-event-death
+  date: -229
+  year_of: -229
+  year_of_parseable: -229
+  type: death
+  title_zh: 李牧冤死
+  description_zh: 李牧遭谗被诬谋反而被杀（一说被赐死，一说被捕诛），次年王翦大破赵军，虏赵王迁，赵亡。
+  persons:
+  - guji-li-mu

@@ -1,0 +1,114 @@
+person:
+  qid: guji-信陵君
+  name_zh: 信陵君
+  names:
+    zh: 魏无忌
+    en: Xinling Jun (Wei Wuji)
+  lifespan:
+    birth:
+      date: -0280
+      precision: year
+      is_circa: true
+      raw: 约公元前3世纪
+  birth_date: -0280
+  death_date: ''
+  era: 战国
+  reign_ref: 魏安釐王时期
+  archetype: 诸侯公子 / 合纵抗秦领袖
+  dilemmas:
+  - 窃符救赵虽救邯郸之危，却得罪魏王而滞留赵国，忠孝两难
+  - 率五国合纵破秦声威震主，魏王复用又见疑于心
+  lesson: 威名过盛则蔽主之明，合纵可却强秦于一时，而难解猜忌之祸
+  summary_first_person: 我是魏无忌，魏昭王少子、安釐王异母弟，封信陵君。秦围邯郸，我窃魏王虎符、矫杀晋鄙夺军救赵；后归魏，上将军任上，庄襄王三年，我率燕、赵、韩、楚、魏五国之兵击秦，秦军败于河外，蒙骜败退而去。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷006
+endeavors:
+- id: guji-信陵君-endeavor-1
+  name_zh: 合纵抗秦
+  phases:
+  - key: brewing
+    name_zh: 养士蓄望
+    labels:
+      zh:
+      - 礼贤下士
+      - 门客三千
+    start_date: -189
+    highlight_event_id: guji-信陵君-event-career-1
+  - key: breakthrough
+    name_zh: 窃符救赵
+    labels:
+      zh:
+      - 窃符
+      - 击杀晋鄙
+    start_date: -175
+    highlight_event_id: guji-信陵君-event-career-1
+  - key: climax
+    name_zh: 率五国兵击秦
+    labels:
+      zh:
+      - 合纵
+      - 败蒙骜于河外
+    start_date: -167
+    highlight_event_id: guji-信陵君-event-career-2
+  - key: closure
+    name_zh: 谢病不朝
+    labels:
+      zh:
+      - 沉饮近女
+      - 见疑于魏王
+    start_date: -167
+    highlight_event_id: guji-信陵君-event-career-2
+  decisions:
+  - date: -175
+    title_zh: 毁符矫命夺晋鄙军
+    rationale: 邯郸垂破、赵亡则魏失唇齿，采侯嬴、朱亥之谋，宁负魏王之名以存两国之祀
+  - date: -167
+    title_zh: 就上将军任，号召五国攻秦
+    rationale: 秦师东出、河山东危，合纵为唯一可拒强秦之路
+events:
+- id: guji-信陵君-event-birth
+  type: birth
+  date: -0280
+  year_of: -280
+  date_is_circa: true
+  precision: year
+  name_zh: 魏无忌生（约）
+  participants:
+  - guji-信陵君
+  is_highlight: false
+- id: guji-信陵君-event-career-1
+  type: military_campaign
+  date: -175
+  year_of: -257
+  precision: year
+  name_zh: 窃符救赵（史传背景事件，本纪注引见其名）
+  participants:
+  - guji-信陵君
+  locations:
+  - 邯郸
+  is_highlight: true
+  description_zh: 信陵君窃魏王虎符，矫杀大将晋鄙，率军破秦围而存邯郸，威震诸侯
+- id: guji-信陵君-event-career-2
+  type: military_campaign
+  date: -167
+  year_of: -247
+  precision: year
+  name_zh: 魏将无忌率五国兵击秦，秦却于河外，蒙骜败解而去
+  participants:
+  - guji-信陵君
+  locations:
+  - 河外
+  is_highlight: true
+  description_zh: 庄襄王三年，魏将无忌（信陵君）率燕、赵、韩、楚、魏五国之兵击秦，秦却于河外，蒙骜败，解而去
+- id: guji-信陵君-event-death
+  type: death
+  date: -163
+  year_of: -243
+  precision: year
+  name_zh: 信陵君卒（约，魏安釐王三十四年）
+  participants:
+  - guji-信陵君
+  locations:
+  - 大梁
+  is_highlight: false
+  description_zh: 魏安釐王闻其所居邑夜定于博饮游女，畏其贤能用士，因谗见疑，信陵君谢病不朝，饮醇酒，多近妇女，四年卒
