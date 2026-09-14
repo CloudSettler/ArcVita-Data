@@ -1,0 +1,109 @@
+person:
+  qid: guji-廖平
+  name_zh: 廖平
+  names:
+    zh: 廖平
+    en: Liao Ping
+  lifespan:
+    birth:
+      date: '1852'
+      precision: year
+      is_circa: false
+      raw: 咸丰二年
+    death:
+      date: '1932'
+      precision: year
+      is_circa: false
+      raw: 民国二十一年
+  birth_date: '1852'
+  death_date: '1932'
+  era: 晚清民国
+  reign_ref: 光绪
+  archetype: 经学家
+  dilemmas:
+  - 致力表章微言改制之说，遭师友视为骇俗、时人诟病，然坚信得孔子本真
+  - 欲以空言为实事推求孔子礼乐政制，又恐被加以不臣悖逆之罪
+  lesson: 求真知圣人，不依阿取悦于世，虽骇俗而坚持微言之义
+  summary_first_person: 我毕生研治经学，力主孔子受命制作、为素王之说，以为六经皆孔子笔削制作而非删述旧文，撰《知圣篇》以表章微言，虽一时师友以为骇俗，亦不敢依阿取悦于世。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/廖平
+endeavors:
+- id: guji-廖平-endeavor-1
+  name_zh: 研治今文经学，撰《知圣篇》
+  phases:
+  - key: brewing
+    name_zh: 治经求学
+    labels:
+      zh: 早期问学
+    start_date: '1870'
+    highlight_event_id: guji-廖平-event-study
+  - key: breakthrough
+    name_zh: 平分今古
+    labels:
+      zh: 今古之辨
+    start_date: '1883'
+    highlight_event_id: guji-廖平-event-tweet
+  - key: climax
+    name_zh: 尊今抑古
+    labels:
+      zh: 尊今文学
+    start_date: '1888'
+    highlight_event_id: guji-廖平-event-knowsage
+  - key: closure
+    name_zh: 经学六变
+    labels:
+      zh: 晚年改定
+    start_date: '1898'
+    highlight_event_id: guji-廖平-event-later
+  decisions:
+  - date: 1888-12
+    title: 于黄陵峡舟次撰成《知圣篇》并作序识
+    rationale: 立意表章微言，明孔子受命制作、素王改制之义，虽骇俗而不悔
+  - date: '1886'
+    title: 撰《今古学考》平分今古
+    rationale: 厘清今古文学界限，为后续尊今抑古之学奠定基础
+events:
+- id: guji-廖平-event-birth
+  date: '1852'
+  year_of: 1852
+  title: 廖平出生
+  description: 廖平生于四川井研，后为晚清著名经学家。
+  person_id: guji-廖平
+- id: guji-廖平-event-study
+  date: '1875'
+  year_of: 1875
+  title: 早年问学经学
+  description: 廖平从王闿运等学习今文经学，致力于《春秋》公羊之学。
+  person_id: guji-廖平
+  endeavor_ids:
+  - guji-廖平-endeavor-1
+- id: guji-廖平-event-tweet
+  date: '1886'
+  year_of: 1886
+  title: 撰《今古学考》
+  description: 提出今古学平分之说，成名于学界。
+  person_id: guji-廖平
+  endeavor_ids:
+  - guji-廖平-endeavor-1
+- id: guji-廖平-event-knowsage
+  date: 1888-12
+  year_of: 1888
+  title: 撰成《知圣篇》
+  description: 光绪戊子季冬，于黄陵峡舟次识语，主张孔子受命制作、为素王，六经皆孔子笔削，表章微言大义。
+  person_id: guji-廖平
+  endeavor_ids:
+  - guji-廖平-endeavor-1
+- id: guji-廖平-event-later
+  date: '1898'
+  year_of: 1898
+  title: 经学改定渐趋六变
+  description: 晚年其学说屡有变化，世称经学六变，影响康有为等今文学者。
+  person_id: guji-廖平
+  endeavor_ids:
+  - guji-廖平-endeavor-1
+- id: guji-廖平-event-death
+  date: '1932'
+  year_of: 1932
+  title: 廖平去世
+  description: 廖平卒于四川，享年八十一岁。
+  person_id: guji-廖平
