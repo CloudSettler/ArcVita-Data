@@ -1,0 +1,99 @@
+person:
+  qid: guji-傅友德
+  name_zh: 傅友德
+  names:
+    zh: 傅友德
+    en: Fu Youde
+  lifespan:
+    birth:
+      date: '1320'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约1320年左右
+    death:
+      date: '1394'
+      precision: year
+      is_circa: false
+  birth_date: 约1320年
+  death_date: 1394年
+  era: 明初
+  reign_ref: 洪武元年（1368，戊申）前后北伐诸役
+  archetype: 开国武将
+  dilemmas:
+  - 战功卓著而身居元末乱世，择主 decisi 转投明太祖，历经险厄以功名自效
+  - 明初功高震主之危，武将处猜忌之朝难以自全
+  lesson: 以骁勇斩获累功至侯，然功臣在天威之下终难善终。
+  summary_first_person: 我傅友德以敢战著称，洪武初从大军北伐，取福昌、徇卫辉、开陆道会师临清，克元都有功，为开国名将之一。
+endeavors:
+- id: guji-傅友德-endeavor-1
+  name_zh: 从征北伐，定河南取大都
+  phases:
+  - key: breakthrough
+    name_zh: 南征略地
+    labels:
+      zh: 取福昌山寨
+    start_date: '1368-04-22'
+    highlight_event_id: guji-傅友德-event-fuchang
+  - key: climax
+    name_zh: 北徇河北
+    labels:
+      zh: 会师临清，开陆道进兵
+    start_date: '1368-07-21'
+    highlight_event_id: guji-傅友德-event-ludao
+  decisions:
+  - date: '1368-07-21'
+    title_zh: 卫辉、彰德之役随薛显进兵
+    rationale: 逾河北进，会师临清，分道并进取元都。
+- id: guji-傅友德-endeavor-2
+  name_zh: 累功封侯，为明初开国名将
+  phases:
+  - key: brewing
+    name_zh: 早期从军
+    labels:
+      zh: 元末从军转事明太祖
+    start_date: '1350'
+    is_circa: true
+  - key: closure
+    name_zh: 开国封爵
+    labels:
+      zh: 以功进封颍国公
+    start_date: '1370'
+    is_circa: true
+  decisions:
+  - date: '1368'
+    title_zh: 悉力北征
+    rationale: 明鼎既建，随徐达等扫平中原、河北，一心效命新朝。
+events:
+- id: guji-傅友德-event-birth
+  date: '1320'
+  year_of: 1320
+  type: birth
+  name_zh: 傅友德出生（约）
+  note: 生年史无明文，约为1320年前后。
+- id: guji-傅友德-event-fuchang
+  date: '1368-04-22'
+  year_of: 1368
+  type: endeavor
+  name_zh: 取福昌山寨
+  detail: 洪武元年四月辛酉，傅友德取福昌山寨，河南悉平。
+  source_text: 辛酉，傅友德取福昌山寨。
+- id: guji-傅友德-event-weihui
+  date: '1368-07-21'
+  year_of: 1368
+  type: endeavor
+  name_zh: 进军卫辉
+  detail: 洪武元年闰七月庚子，薛显、傅友德至卫辉，元平章龙二走彰德；辛丑克卫辉。
+  source_text: 庚子，薛显、傅友德至卫辉。
+- id: guji-傅友德-event-ludao
+  date: '1368-08-02'
+  year_of: 1368
+  type: endeavor
+  name_zh: 临清开陆道
+  detail: 洪武元年闰七月庚戌，傅友德开陆道，顾时浚闸通舟师，水陆并进北取元都。
+  source_text: 庚戌，傅友德开陆道。
+- id: guji-傅友德-event-death
+  date: '1394'
+  year_of: 1394
+  type: death
+  name_zh: 傅友德卒
+  note: 以功臣坐事赐死（史载洪武二十七年）。
