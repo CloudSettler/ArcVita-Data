@@ -1,0 +1,130 @@
+person:
+  qid: guji-吕本中
+  name_zh: 吕本中
+  names:
+    zh: 吕本中
+    en: Lü Benzhong
+  lifespan:
+    birth:
+      date: '1084'
+      precision: year
+      is_circa: true
+      raw: 约北宋元丰七年
+    death:
+      date: '1145'
+      precision: year
+      is_circa: true
+      raw: 约南宋绍兴年间卒
+  birth_date: '1084'
+  death_date: '1145'
+  era: 两宋之际
+  reign_ref: 北宋末至南宋绍兴年间
+  archetype: 学者型官员与诗论家
+  dilemmas:
+  - 家传学问与科举仕进之间的取舍
+  - 诗文词华与立身行谊孰重的家训取舍（传者刻其半，遗其论诗之编）
+  lesson: 学问当以经书为本，务切实用，立身行己先于词华
+  summary_first_person: 我吕本中出身北宋故家，及见元祐遗老，师友传授具有渊源。我著有《童蒙训》以为家塾训课之本，所记多正论格言，皆根本经训、务切实用；另有《春秋集解》行世。我论诗以苏黄为法，传江西诗派之学，论文章学问每以行谊为先。
+  source_urls:
+  - source_original
+endeavors:
+- id: guji-吕本中-endeavor-1
+  name_zh: 撰《童蒙训》
+  phases:
+  - key: brewing
+    name_zh: 蒙元祐家学熏陶
+    labels:
+      zh: 家学渊源
+    start_date: '1084'
+    highlight_event_id: guji-吕本中-event-1
+  - key: breakthrough
+    name_zh: 撰成家塾训课之本
+    labels:
+      zh: 成书
+    start_date: '1126'
+    highlight_event_id: guji-吕本中-event-2
+  - key: closure
+    name_zh: 《童蒙训》历代刊校流传
+    labels:
+      zh: 刊刻流传
+    start_date: '1215'
+    highlight_event_id: guji-吕本中-event-3
+  decisions:
+  - date: '1126'
+    title_zh: 依家塾训课之例纂记元祐遗老正论格言
+    rationale: 北宋故家及见元祐遗老，师友传授具有渊源，故所记多正论格言，根本经训、务切实用
+  - date: '1215'
+    title_zh: 授梓刊行，重词华者传内编，重行谊者传外编
+    rationale: 传其书者轻词华而重行谊，但刻其半
+- id: guji-吕本中-endeavor-2
+  name_zh: 诗学传承与《春秋集解》撰述
+  phases:
+  - key: brewing
+    name_zh: 承江西诗派论诗之学
+    labels:
+      zh: 诗学
+    start_date: '1100'
+    highlight_event_id: guji-吕本中-event-2
+  - key: climax
+    name_zh: 著《春秋集解》并世立诗法
+    labels:
+      zh: 著述
+    start_date: '1130'
+    highlight_event_id: guji-吕本中-event-4
+  decisions:
+  - date: '1130'
+    title_zh: 治经与论诗并行，以经书为本、以苏黄为诗法
+    rationale: 舍人所著童训极论诗文必以苏黄为法，另有《春秋集解》已著录
+events:
+- id: guji-吕本中-event-birth
+  person_id: guji-吕本中
+  title_zh: 吕本中约生于北宋元丰年间
+  date: '1084'
+  year_of: '1084'
+  location: 寿州（安徽寿县）
+  type: birth
+  source_text: 本中北宋故家，及见元祐遗老，师友传授具有渊源
+- id: guji-吕本中-event-death
+  person_id: guji-吕本中
+  title_zh: 吕本中约卒于南宋绍兴年间
+  date: '1145'
+  year_of: '1145'
+  location: 南宋
+  type: death
+  source_text: 童蒙训三卷，宋吕本中撰；本中有春秋集解，已著录
+- id: guji-吕本中-event-1
+  person_id: guji-吕本中
+  title_zh: 幼承家学，及见元祐遗老
+  date: '1094'
+  year_of: '1094'
+  location: 京师
+  type: endeavor
+  endeavor_id: guji-吕本中-endeavor-1
+  source_text: 本中北宋故家，及见元祐遗老，师友传授具有渊源，故其所记多正论格言
+- id: guji-吕本中-event-2
+  person_id: guji-吕本中
+  title_zh: 撰成《童蒙训》三卷，为家塾训课之本
+  date: '1126'
+  year_of: '1126'
+  location: 家塾
+  type: endeavor
+  endeavor_id: guji-吕本中-endeavor-1
+  source_text: 是书其家塾训课之本也，所记多正论格言，大抵皆根本经训，务切实用
+- id: guji-吕本中-event-3
+  person_id: guji-吕本中
+  title_zh: 嘉定乙亥婺州守邱寿隽重校刊《童蒙训》，绍定己丑李复锓木于玉山堂
+  date: '1215'
+  year_of: '1215'
+  location: 婺州、眉山
+  type: endeavor
+  endeavor_id: guji-吕本中-endeavor-1
+  source_text: 嘉定乙亥婺州守邱寿隽重校刊之，有楼昉所为跋；后绍定己丑睂山李守郡，得本于提刑吕祖烈，复锓木于玉山堂
+- id: guji-吕本中-event-4
+  person_id: guji-吕本中
+  title_zh: 朱子称其论诗文必以苏黄为法，《春秋集解》并著录于世
+  date: '1160'
+  year_of: '1160'
+  location: 南宋
+  type: endeavor
+  endeavor_id: guji-吕本中-endeavor-2
+  source_text: 朱子答吕祖谦书有舍人所著童训极论诗文必以苏黄为法之语；本中有春秋集解，已著录
