@@ -1,0 +1,115 @@
+person:
+  qid: guji-祖逖
+  name_zh: 祖逖
+  names:
+    zh: 祖逖
+    en: Zu Ti
+  lifespan:
+    birth:
+      date: '0266'
+      precision: year
+      is_circa: true
+      raw: 约西晋泰始年间
+    death:
+      date: '0321'
+      precision: year
+      is_circa: false
+      raw: 太兴四年
+  birth_date: '0266'
+  death_date: '0321'
+  era: 西晋末至东晋初
+  reign_ref: 晋元帝、晋明帝
+  archetype: 忧愤报国的北伐名将
+  dilemmas:
+  - 中原沦丧而朝廷偏安，孤军北伐难有后援
+  lesson: 闻鸡起舞、中流击楫，志士当以天下兴亡为己任
+  summary_first_person: 我祖逖，范阳人，少与刘琨闻鸡起舞，共矢报国之志。中原板荡，我率部曲南渡，后请缨北伐，渡江中流击楫而誓：不清中原而复济者，有如大江。我收复黄河以南之地，然朝廷内忧掣肘，壮志未竟而卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/晉書/卷062
+endeavors:
+- id: guji-祖逖-endeavor-1
+  name_zh: 北伐中原
+  phases:
+  - key: brewing
+    name_zh: 闻鸡起舞
+    labels:
+      zh:
+      - 少年立志
+    start_date: 0289
+  - key: breakthrough
+    name_zh: 中流击楫誓师北伐
+    labels:
+      zh:
+      - 北伐
+    start_date: '0313'
+    highlight_event_id: guji-祖逖-event-zhongliu
+  - key: climax
+    name_zh: 收复黄河以南
+    labels:
+      zh:
+      - 经略河南
+    start_date: '0317'
+  - key: closure
+    name_zh: 志未竟而卒
+    labels:
+      zh:
+      - 赍志而殁
+    start_date: '0321'
+  decisions:
+  - date: '0313'
+    title_zh: 自请北伐，募兵渡江
+    rationale: 朝廷偏安江左，我以奋威将军、豫州刺史衔自募部曲，誓复中原
+  - date: '0320'
+    title_zh: 经营谯城、进镇雍丘
+    rationale: 与石勒相持，收拢坞堡诸军，河以南尽为晋土
+events:
+- id: guji-祖逖-event-birth
+  date: '0266'
+  year_of: 266
+  event_type: birth
+  name_zh: 出生于范阳
+  description_zh: 祖逖生于范阳遒县，字士稚
+  participants:
+  - guji-祖逖
+- id: guji-祖逖-event-wenji
+  date: 0289
+  year_of: 289
+  event_type: career
+  name_zh: 闻鸡起舞
+  description_zh: 与刘琨俱为司州主簿，共被同寝，中夜闻荒鸡鸣，蹴琨觉曰：此非恶声也，因起舞
+  participants:
+  - guji-祖逖
+  - guji-刘琨
+- id: guji-祖逖-event-nandu
+  date: '0311'
+  year_of: 311
+  event_type: career
+  name_zh: 率亲党南渡
+  description_zh: 洛京倾覆，率亲党数百家避地江淮，途中以车马让老疾，躬自徒步
+  participants:
+  - guji-祖逖
+- id: guji-祖逖-event-zhongliu
+  date: '0313'
+  year_of: 313
+  event_type: career
+  name_zh: 中流击楫
+  description_zh: 以奋威将军、豫州刺史北伐，渡江中流击楫而誓，不清中原而复济者，有如大江
+  participants:
+  - guji-祖逖
+- id: guji-祖逖-event-henan
+  date: '0320'
+  year_of: 320
+  event_type: career
+  name_zh: 收复河南
+  description_zh: 屡破石勒军，进镇雍丘，黄河以南尽为晋土，坞堡豪帅皆受其节制
+  participants:
+  - guji-祖逖
+  - guji-石勒
+- id: guji-祖逖-event-death
+  date: '0321'
+  year_of: 321
+  event_type: death
+  name_zh: 卒于雍丘
+  description_zh: 闻朝中将有内乱、虑功业难成，忧愤发病而卒，豫州士女如丧考妣
+  participants:
+  - guji-祖逖

@@ -1,0 +1,112 @@
+person:
+  qid: guji-zhou-chu
+  name_zh: 周处
+  names:
+    zh: 周处
+    en: Zhou Chu
+  lifespan:
+    birth:
+      date: circa 236
+      precision: year
+      is_circa: true
+      raw: 约生于三国吴时
+    death:
+      date: '297'
+      precision: year
+      is_circa: false
+      raw: 元康七年（297）战殁
+  birth_date: 约三国吴时期（约236年）
+  death_date: 297年
+  era: 三国吴至西晋
+  reign_ref: 晋惠帝元康年间
+  archetype: 改过自新的忠勇武将
+  dilemmas:
+  - 少年为乡里所患，悔过自新还是继续横行乡里
+  - 为臣尽忠征战，还是明哲保身避祸
+  lesson: 浪子回头金不换，知过能改、以身殉国的忠义精神
+  summary_first_person: 我早年横行乡里，与蛟虎并称三害，后幡然悔悟，斩蛟射虎，励志好学，终为西晋名将，战死沙场以全臣节。
+  source_urls:
+  - https://zh.wikisource.org/wiki/九家舊晉書輯本
+endeavors:
+- id: guji-zhou-chu-endeavor-1
+  name_zh: 除三害·改过自新
+  phases:
+  - key: brewing
+    name_zh: 乡里为患
+    labels:
+      zh: 三害之首
+    start_date: circa 250
+  - key: breakthrough
+    name_zh: 射虎斩蛟
+    labels:
+      zh: 立志除害
+    start_date: circa 255
+    highlight_event_id: guji-zhou-chu-event-shexiao
+  - key: climax
+    name_zh: 励志好学
+    labels:
+      zh: 改励自新
+    start_date: circa 257
+  decisions:
+  - date: circa 255
+    title_zh: 决意除三害、改过自新
+    rationale: 得知乡人以己与蛟虎并为三害，幡然悔悟，乃射虎斩蛟，入吴寻二陆，励志为善。
+- id: guji-zhou-chu-endeavor-2
+  name_zh: 仕晋征战
+  phases:
+  - key: brewing
+    name_zh: 出仕吴晋
+    labels:
+      zh: 历任内外
+    start_date: circa 280
+  - key: breakthrough
+    name_zh: 弹劾不避权贵
+    labels:
+      zh: 御史中丞
+    start_date: circa 290
+  - key: climax
+    name_zh: 西征氐羌
+    labels:
+      zh: 战殁沙场
+    start_date: '296'
+    highlight_event_id: guji-zhou-chu-event-death
+  - key: closure
+    name_zh: 身后追赠
+    labels:
+      zh: 忠臣之节
+    start_date: '297'
+  decisions:
+  - date: '296'
+    title_zh: 接受西征任命，孤军深入
+    rationale: 梁王肜节制诸军，或劝称疾以避，周处以忠臣尽节之义，力战而没。
+events:
+- id: guji-zhou-chu-event-birth
+  title_zh: 周处出生
+  event_type: birth
+  date: circa 236
+  year_of: 236
+  description: 周处，字子隐，义兴阳羡人，约生于三国吴时期。
+- id: guji-zhou-chu-event-shexiao
+  title_zh: 射虎斩蛟，除三害
+  event_type: other
+  date: circa 255
+  year_of: 255
+  description: 周处知己为乡里三害之一，乃上山射虎、投水斩蛟三日夜，归而改励，立志好学。
+- id: guji-zhou-chu-event-shizhongcheng
+  title_zh: 迁御史中丞，弹劾不避强御
+  event_type: career
+  date: circa 290
+  year_of: 290
+  description: 周处于西晋为御史中丞，奏弹不避权贵，为朝野所称。
+- id: guji-zhou-chu-event-zhengzhan
+  title_zh: 建威将军西征氐羌
+  event_type: career
+  date: '296'
+  year_of: 296
+  description: 氐羌反叛，周处以建威将军随梁王肜西征，孤军奋战。
+- id: guji-zhou-chu-event-death
+  title_zh: 战殁沙场
+  event_type: death
+  date: '297'
+  year_of: 297
+  description: 元康七年（297），周处于对氐羌之战中力战而殁，追赠平西将军，谥孝。

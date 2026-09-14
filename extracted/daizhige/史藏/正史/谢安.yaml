@@ -1,0 +1,141 @@
+person:
+  qid: guji-谢安
+  name_zh: 谢安
+  names:
+    zh: 谢安
+    en: Xie An
+  lifespan:
+    birth:
+      date: '320'
+      precision: year
+      is_circa: true
+      raw: 约东晋太兴三年
+    death:
+      date: '385'
+      precision: year
+      is_circa: false
+      raw: 太元十年
+  birth_date: '0320'
+  death_date: 0385
+  era: 东晋
+  reign_ref: 晋孝武帝
+  archetype: 执政名士
+  dilemmas:
+  - 隐居东山与出山执政之间的出处抉择
+  - 淝水之战前强敌压境时的镇定与担当
+  - 功高震主后遭排挤而自请出镇
+  lesson: 处变不惊、以静制动的雅量，是乱世定国之器
+  summary_first_person: 我是陈郡谢安，早年高卧东山，后出而执掌朝政，淝水一战以镇定之声破百万之敌，晚年功高见忌，出镇广陵而卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/九家旧晋书辑本
+endeavors:
+- id: guji-谢安-endeavor-1
+  name_zh: 出山入仕与执掌朝纲
+  phases:
+  - key: brewing
+    name_zh: 东山高卧
+    labels:
+      zh:
+      - 隐逸
+      - 名士
+    start_date: '0345'
+    highlight_event_id: guji-谢安-event-yinju
+  - key: breakthrough
+    name_zh: 应召出山
+    labels:
+      zh:
+      - 入仕
+      - 幕府
+    start_date: '0360'
+    highlight_event_id: guji-谢安-event-chushan
+  - key: climax
+    name_zh: 秉政中枢
+    labels:
+      zh:
+      - 执政
+      - 辅政
+    start_date: '0373'
+    highlight_event_id: guji-谢安-event-bingzheng
+- id: guji-谢安-endeavor-2
+  name_zh: 淝水破敌与晚岁出镇
+  phases:
+  - key: brewing
+    name_zh: 整军经武
+    labels:
+      zh:
+      - 备御
+      - 布防
+    start_date: '0377'
+    highlight_event_id: guji-谢安-event-beiwu
+  - key: breakthrough
+    name_zh: 淝水之战
+    labels:
+      zh:
+      - 御敌
+      - 大捷
+    start_date: 0383
+    highlight_event_id: guji-谢安-event-feishui
+  - key: closure
+    name_zh: 出镇广陵
+    labels:
+      zh:
+      - 出镇
+      - 隐退
+    start_date: 0385
+    highlight_event_id: guji-谢安-event-guangling
+  decisions:
+  - date: 0383
+    title_zh: 决策应对苻坚大军
+    rationale: 强敌百万压境，力主镇静以安人心，遣谢玄等率北府兵拒之
+  - date: 0385
+    title_zh: 自请出镇广陵
+    rationale: 功高遭王国宝等谗忌，自请避祸出镇
+events:
+- id: guji-谢安-event-birth
+  event_type: birth
+  date: '0320'
+  year_of: 320
+  name_zh: 谢安出生
+  description: 谢安生于陈郡谢氏，字安石。
+- id: guji-谢安-event-yinju
+  event_type: endeavor
+  date: '0345'
+  year_of: 345
+  name_zh: 高卧东山
+  description: 谢安屡辞征辟，寓居会稽东山，与王羲之、许询等游山水吟咏。
+- id: guji-谢安-event-chushan
+  event_type: endeavor
+  date: '0360'
+  year_of: 360
+  name_zh: 出山应召
+  description: 年逾四十方应桓温之辟，入其幕府，时人谓之"东山再起"。
+- id: guji-谢安-event-bingzheng
+  event_type: endeavor
+  date: '0373'
+  year_of: 373
+  name_zh: 秉政中枢
+  description: 桓温死后，谢安与王彪之共掌朝政，辅佐孝武帝。
+- id: guji-谢安-event-beiwu
+  event_type: endeavor
+  date: '0377'
+  year_of: 377
+  name_zh: 布防长江
+  description: 举侄谢玄为兖州刺史，镇广陵，组建北府兵以御前秦。
+- id: guji-谢安-event-feishui
+  event_type: endeavor
+  date: 0383
+  year_of: 383
+  name_zh: 淝水大捷
+  description: 苻坚大军压境，谢安从容部署，遣弟谢石、侄谢玄迎战，淝水一战大破秦军。
+- id: guji-谢安-event-guangling
+  event_type: endeavor
+  date: 0385
+  year_of: 385
+  name_zh: 出镇广陵
+  description: 遭谗见忌，自请出镇广陵，筑新城以避朝局，同年病卒。
+- id: guji-谢安-event-death
+  event_type: death
+  date: 0385
+  year_of: 385
+  name_zh: 谢安去世
+  description: 太元十年卒于建康，年六十六，追赠太傅。
