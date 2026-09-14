@@ -1,0 +1,95 @@
+person:
+  qid: guji-王允
+  name_zh: 王允
+  names:
+    zh: 王允
+    en: Wang Yun
+  lifespan:
+    birth:
+      date: '0137'
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，约生于东汉永和年间
+    death:
+      date: 0192-07
+      precision: month
+      is_circa: false
+      raw: 初平三年为李傕等所杀
+  birth_date: 约137年
+  death_date: 192年7月
+  era: 东汉末年
+  reign_ref: 汉灵帝、汉少帝、汉献帝
+  archetype: 清流谋国者
+  dilemmas:
+  - 宦官专权与外戚相争之间如何辅保汉室
+  - 忍辱屈从董卓以图后计
+  lesson: 处危乱之世，谋大事者须能隐忍待时。
+  summary_first_person: 我是王允，汉末之臣。大将军何进谋诛宦官时，以我为河南尹，与丁原、董卓之兵共胁太后。其后董卓擅政，倾覆汉纲，我忍辱周旋于其侧，与士大夫暗相结纳，终与吕布合谋诛卓，冀纾社稷之难。
+endeavors:
+- id: guji-王允-endeavor-1
+  name_zh: 佐何进诛宦之谋
+  phases:
+  - key: brewing
+    name_zh: 出仕州郡
+    labels:
+      zh:
+      - 士林清望
+    start_date: 0180
+    highlight_event_id: guji-王允-event-appoint
+  - key: breakthrough
+    name_zh: 为河南尹
+    labels:
+      zh:
+      - 京畿重任
+    start_date: 0189
+    highlight_event_id: guji-王允-event-appoint
+  decisions:
+  - date: 0189
+    title_zh: 受任河南尹以备内变
+    rationale: 何进欲诛诸常侍而忧太后不纳，故召外兵胁迫，并任袁绍为司隶校尉、王允为河南尹，布置京畿以谋内官。
+- id: guji-王允-endeavor-2
+  name_zh: 屈身董卓之后图
+  phases:
+  - key: brewing
+    name_zh: 忍辱事卓
+    labels:
+      zh:
+      - 韬晦
+      - 潜谋
+    start_date: 0189-09
+    highlight_event_id: guji-王允-event-under-dongzhuo
+  - key: climax
+    name_zh: 密谋诛卓
+    labels:
+      zh:
+      - 社稷之功
+    start_date: 0192
+    highlight_event_id: guji-王允-event-under-dongzhuo
+  decisions:
+  - date: 0192-05
+    title_zh: 与吕布合谋诛卓
+    rationale: 董卓暴虐废立、弑弘农王，汉室倾危；允潜伏其侧，结纳吕布，乘隙除贼。
+events:
+- id: guji-王允-event-birth
+  date: 约0137
+  year_of: 137
+  type: birth
+  title_zh: 王允生（约）
+- id: guji-王允-event-appoint
+  date: 0189
+  year_of: 189
+  type: endeavor
+  title_zh: 何进以王允为河南尹
+  detail: 大将军何进与袁绍共图中官，以绍为司隶校尉、王允为河南尹，并召丁原、董卓将兵向京师以胁太后。
+- id: guji-王允-event-under-dongzhuo
+  date: 0189-09
+  year_of: 189
+  type: endeavor
+  title_zh: 董卓擅政，王允屈身其间
+  detail: 董卓废帝立陈留王，专制朝政；王允居卿士之位，外顺其意而内图匡复。
+- id: guji-王允-event-death
+  date: 0192-07
+  year_of: 192
+  type: death
+  title_zh: 王允卒
+  detail: 诛卓之后，为李傕、郭汜所攻，遇害（据后汉纪与范书通识）。
