@@ -1,0 +1,97 @@
+person:
+  qid: guji-张仲景
+  name_zh: 张仲景
+  names:
+    zh: 张仲景
+    en: Zhang Zhongjing
+  lifespan:
+    birth:
+      date: '0150'
+      precision: year
+      is_circa: true
+      raw: 约东汉建安年间以前
+    death:
+      date: 0219
+      precision: year
+      is_circa: true
+  birth_date: 约150年
+  death_date: 约219年
+  era: 东汉
+  reign_ref: 汉孝献皇帝建安年间
+  archetype: 医圣
+  dilemmas:
+  - 家族宗族二百余口十年间死者三分有二，伤寒十居其七，弃官着述抑或守官济世
+  lesson: 勤求古训、博采众方，以悲悯之心著书政世
+  summary_first_person: 我本南阳人，举孝廉官至长沙太守，因宗族大疫凋零，感往昔之沦丧，伤横夭之莫救，遂勤求古训、博采众方，撰成伤寒杂病论十六卷，为后世医方之祖，后人尊我为医圣。
+  source_urls:
+  - https://www.zh.wikisource.org/wiki/伤寒杂病论序
+endeavors:
+- id: guji-张仲景-endeavor-1
+  name_zh: 学医与任官生涯
+  phases:
+  - key: brewing
+    name_zh: 从同郡张伯祖学医
+    labels:
+      zh:
+      - 学医
+    start_date: 0168
+  - key: breakthrough
+    name_zh: 举孝廉官至长沙太守
+    labels:
+      zh:
+      - 任官
+    start_date: '0160'
+  decisions:
+  - date: 0168
+    title: 师从张伯祖学医
+    rationale: 感时俗之乱世，以医术济人
+- id: guji-张仲景-endeavor-2
+  name_zh: 撰写伤寒杂病论
+  phases:
+  - key: breakthrough
+    name_zh: 建安纪年以来宗族凋零
+    labels:
+      zh:
+      - 起念著书
+    start_date: 0196
+    highlight_event_id: guji-张仲景-event-epidemic
+  - key: climax
+    name_zh: 勤求古训博采众方撰成十六卷
+    labels:
+      zh:
+      - 著书
+    start_date: '0205'
+    highlight_event_id: guji-张仲景-event-write
+  - key: closure
+    name_zh: 书成传世，后人尊为医圣
+    labels:
+      zh:
+      - 传世
+    start_date: '0210'
+  decisions:
+  - date: '0205'
+    title: 撰伤寒杂病论十六卷
+    rationale: 感往昔之沦丧，伤横夭之莫救，乃著书以济后世
+events:
+- id: guji-张仲景-event-birth
+  date: '0150'
+  year_of: 150
+  type: birth
+  name_zh: 张仲景生于南阳郡
+- id: guji-张仲景-event-epidemic
+  date: 0196
+  year_of: 196
+  type: endeavor
+  endeavor_id: guji-张仲景-endeavor-2
+  name_zh: 建安纪年以来大疫流行，宗族二百余口死者三分有二
+- id: guji-张仲景-event-write
+  date: '0205'
+  year_of: 205
+  type: endeavor
+  endeavor_id: guji-张仲景-endeavor-2
+  name_zh: 撰伤寒杂病论十六卷，用素问九卷八十一难阴阳大论等古训
+- id: guji-张仲景-event-death
+  date: 0219
+  year_of: 219
+  type: death
+  name_zh: 张仲景卒
