@@ -1,0 +1,186 @@
+person:
+  qid: guji-tanlun
+  name_zh: 谭纶
+  names:
+    zh: 谭纶
+    en: Tan Lun
+  lifespan:
+    birth:
+      date: 1520
+      precision: year
+      is_circa: true
+      raw: 约嘉靖元年（1520）
+    death:
+      date: 1577
+      precision: year
+      is_circa: false
+      raw: 万历五年（1577）
+  birth_date: '1520'
+  death_date: '1577'
+  era: 明代中期
+  reign_ref: 嘉靖、隆庆、万历
+  archetype: 军事统帅与兵部重臣
+  dilemmas:
+  - 地方失事奏报不实与法纪严明之间的权衡
+  - 边患方殷而援饷不足时的战守抉择
+  lesson: 治军弭盗须责成有实、申报有实，姑息欺瞒终酿大患。
+  summary_first_person: 我谭纶出身进士，历官台州、福建等地，转战东南抗倭，后总制蓟辽练兵备边，官至兵部尚书。任内我严究盗案、申饬隐匿，与吏部尚书张瀚合勘守臣失职之罪，力求法纪振饬、海内安靖。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明神宗顯皇帝實錄
+endeavors:
+- id: guji-tanlun-endeavor-1
+  name_zh: 东南抗倭与福建遣将
+  phases:
+  - key: brewing
+    name_zh: 台州练兵
+    labels:
+      zh:
+      - 练兵
+      - 御倭
+    start_date: '1556'
+    highlight_event_id: guji-tanlun-event-career-1
+  - key: breakthrough
+    name_zh: 平倭 福建
+    labels:
+      zh:
+      - 平倭
+      - 福建
+    start_date: '1560'
+    highlight_event_id: guji-tanlun-event-career-2
+  - key: climax
+    name_zh: 总督两广军务
+    labels:
+      zh:
+      - 总督
+      - 剿抚
+    start_date: '1563'
+    highlight_event_id: guji-tanlun-event-career-2
+  - key: closure
+    name_zh: 入掌中枢
+    labels:
+      zh:
+      - 兵部
+    start_date: '1568'
+    highlight_event_id: guji-tanlun-event-career-3
+  decisions:
+  - date: '1563'
+    title_zh: 督师援闽，会剿倭寇
+    rationale: 东南倭患方炽，非重臣督师合剿不能速定。
+  - date: '1568'
+    title_zh: 上疏请练兵车、修边备
+    rationale: 蓟辽边备空虚，宜先固内守而后言战。
+- id: guji-tanlun-endeavor-2
+  name_zh: 执掌兵部整饬弭盗
+  phases:
+  - key: brewing
+    name_zh: 就任兵部尚书
+    labels:
+      zh:
+      - 兵部
+      - 弭盗
+    start_date: '1571'
+    highlight_event_id: guji-tanlun-event-career-3
+  - key: breakthrough
+    name_zh: 勘究失事守臣
+    labels:
+      zh:
+      - 勘罪
+      - 申饬
+    start_date: '1576'
+    highlight_event_id: guji-tanlun-event-career-4
+  - key: climax
+    name_zh: 申严申报缉捕之法
+    labels:
+      zh:
+      - 申饬
+      - 限期缉捕
+    start_date: '1576'
+    highlight_event_id: guji-tanlun-event-career-4
+  - key: closure
+    name_zh: 病卒于任
+    labels:
+      zh:
+      - 去职
+      - 卒
+    start_date: '1577'
+    highlight_event_id: guji-tanlun-event-death
+  decisions:
+  - date: '1576'
+    title_zh: 与张瀚合言诸臣防范之疏隐蔽之罪
+    rationale: 地方失盗而守臣匿不以闻，隐匿之罪不可不惩，否则盗风愈炽。
+  - date: '1576'
+    title_zh: 议并浙江兵备职守以防盗贼
+    rationale: 各道职守不明致盗贼纵横，宜明确责成，实任其事。
+events:
+- id: guji-tanlun-event-birth
+  event_type: birth
+  date: '1520'
+  year_of: '1520'
+  date_precision: year
+  is_circa: true
+  name_zh: 谭纶出生
+  description_zh: 谭纶约生于明嘉靖初年，江西宜黄人。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷222
+- id: guji-tanlun-event-career-1
+  event_type: career
+  date: '1556'
+  year_of: '1556'
+  date_precision: year
+  is_circa: false
+  name_zh: 知台州，募兵御倭
+  description_zh: 谭纶任台州知府，募集乡兵训练，御倭有功，崭露军事才干。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷222
+- id: guji-tanlun-event-career-2
+  event_type: career
+  date: 1563-05
+  year_of: '1563'
+  date_precision: month
+  is_circa: false
+  name_zh: 督师援闽，大破倭寇
+  description_zh: 谭纶以右佥都御史巡抚福建，督戚继光、俞大猷等剿灭盘中倭寇，东南倭患渐平。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷222
+- id: guji-tanlun-event-career-3
+  event_type: career
+  date: '1571'
+  year_of: '1571'
+  date_precision: year
+  is_circa: true
+  name_zh: 升任兵部尚书
+  description_zh: 谭纶以总督蓟辽练兵之功入掌兵部，后于万历初任兵部尚书，主中央军政。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷222
+- id: guji-tanlun-event-career-4
+  event_type: career
+  date: 1576-05
+  year_of: '1576'
+  date_precision: month
+  is_circa: false
+  name_zh: 与张瀚合勘守臣失事之罪
+  description_zh: 万历四年四月，盗劫淮府建昌王印而守臣匿报，谭纶以兵部尚书与吏部尚书张瀚合言诸臣防范之疏隐蔽之罪，朝廷降罚抚按司道各官。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明神宗顯皇帝實錄
+- id: guji-tanlun-event-death
+  event_type: death
+  date: '1577'
+  year_of: '1577'
+  date_precision: year
+  is_circa: true
+  name_zh: 谭纶卒
+  description_zh: 谭纶于万历五年卒于官，赠太子太保，谥襄敏。
+  entity_ids:
+  - guji-tanlun
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷222

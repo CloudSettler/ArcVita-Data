@@ -1,0 +1,117 @@
+person:
+  qid: guji-李贽
+  name_zh: 李贽
+  names:
+    zh: 李贽
+    en: Li Zhi
+  lifespan:
+    birth:
+      date: '1527'
+      precision: year
+      is_circa: true
+      raw: 壮岁为官（推生于嘉靖六年前后）
+    death:
+      date: 1602-03
+      precision: month
+      is_circa: false
+      raw: 万历三十年闰二月逮至不食死
+  birth_date: '1527'
+  death_date: 1602-03
+  era: 明代万历年间
+  reign_ref: 明神宗万历
+  archetype: 离经叛道的思想家
+  dilemmas:
+  - 著书立说倡异端之学，与朝廷正统名教相冲突
+  - 壮岁出仕与晚年削发著述之间的身份抉择
+  lesson: 思想不容于专制官方便遭焚书逮狱，死者以绝食明志
+  summary_first_person: 我早年为官，晚年削发著书刻书，以言惑乱人心之罪被蒋劾下狱，惧狱吏之辱，不食而死，书版遭尽毁。
+  source_urls:
+  - 明神宗宝训·禁左道
+endeavors:
+- id: guji-李贽-endeavor-1
+  name_zh: 出仕为官
+  phases:
+  - key: brewing
+    name_zh: 初仕
+    labels:
+      zh: 郡俸之时
+    start_date: '1550'
+  - key: breakthrough
+    name_zh: 为官有声
+    labels:
+      zh: 壮岁为官
+    start_date: '1555'
+    highlight_event_id: guji-李贽-event-serving
+  - key: closure
+    name_zh: 弃官
+    labels:
+      zh: 挂冠而去
+    start_date: '1580'
+  decisions:
+  - date: '1580'
+    title_zh: 弃官削发
+    rationale: 厌弃仕途，落发为僧以著述自处
+- id: guji-李贽-endeavor-2
+  name_zh: 刻书著述
+  phases:
+  - key: brewing
+    name_zh: 寄居讲学
+    labels:
+      zh: 讲学麻城
+    start_date: '1585'
+  - key: breakthrough
+    name_zh: 刊刻藏书焚书
+    labels:
+      zh: 刻书行世
+    start_date: '1590'
+    highlight_event_id: guji-李贽-event-publish
+  - key: climax
+    name_zh: 遭劾逮狱
+    labels:
+      zh: 惑世诬民之罪
+    start_date: 1602-02
+    highlight_event_id: guji-李贽-event-accused
+  - key: closure
+    name_zh: 狱中自尽
+    labels:
+      zh: 不食而死
+    start_date: 1602-03
+    highlight_event_id: guji-李贽-event-death
+  decisions:
+  - date: 1602-02
+    title_zh: 拒捕赴狱
+    rationale: 面对朝廷严拏，坦然赴狱以明所学
+  - date: 1602-03
+    title_zh: 狱中不食
+    rationale: 惧罪不忍刑辱，绝食而死以全其志
+events:
+- id: guji-李贽-event-birth
+  date: '1527'
+  year_of: 1527
+  type: birth
+  title_zh: 李贽出生
+  detail: 生年据壮岁为官、万历三十年老而逮狱推约
+- id: guji-李贽-event-serving
+  date: '1560'
+  year_of: 1560
+  type: career
+  title_zh: 壮岁为官
+  detail: 先壮年为官，嘉靖末历官有政声
+- id: guji-李贽-event-publish
+  date: '1590'
+  year_of: 1590
+  type: career
+  title_zh: 刻书行世
+  detail: 晚年削发，刻书肆行，藏书焚书等通行于世
+- id: guji-李贽-event-accused
+  date: 1602-02
+  year_of: 1602
+  type: event
+  title_zh: 礼科给事张问达疏劾李贽
+  detail: 万历三十年闰二月乙卯张问达劾其壮岁为官晚年削发，刻书惑乱人心；得旨厂卫五城严拏治罪，书籍已刊未刊者尽搜烧毁
+- id: guji-李贽-event-death
+  date: 1602-03
+  year_of: 1602
+  type: death
+  title_zh: 狱中不食而死
+  detail: 逮至京，惧罪不食死
