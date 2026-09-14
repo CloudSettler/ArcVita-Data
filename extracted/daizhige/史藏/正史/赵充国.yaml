@@ -1,0 +1,124 @@
+person:
+  qid: 赵充国
+  name_zh: 赵充国
+  names:
+    zh: 赵充国
+    en: Zhao Chongguo
+  lifespan:
+    birth:
+      date: -137
+      precision: year
+      is_circa: true
+      raw: 约西汉武帝年间生
+    death:
+      date: -52
+      precision: year
+      is_circa: false
+  birth_date: -137
+  death_date: -52
+  era: 西汉（武帝—宣帝时期）
+  reign_ref: 汉武帝、汉昭帝、汉宣帝
+  archetype: 名将统帅
+  dilemmas:
+  - 屯田守边与快速出击之争
+  - 朝议压力与持重用兵之择
+  lesson: 持重谋国，屯田安边，贵谋而贱战。
+  summary_first_person: 我赵充国，陇西人，历武帝、昭帝、宣帝三朝，以将兵伐匈奴、平西羌、屯田金城安边定国为毕生之业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/前漢書/卷69
+endeavors:
+- id: guji-赵充国-event-endeavor-1
+  name_zh: 从军伐匈奴
+  phases:
+  - key: brewing
+    name_zh: 陇西入伍为骑士
+    labels:
+      zh: 行伍出身
+    start_date: -121
+  - key: breakthrough
+    name_zh: 随贰师将军出征
+    labels:
+      zh: 破匈奴有功
+    start_date: -99
+    highlight_event_id: 赵充国-event-tiangu
+  - key: climax
+    name_zh: 积功拜将
+    labels:
+      zh: 迁中郎将、车骑将军长史
+    start_date: -80
+  - key: closure
+    name_zh: 以功封营平侯
+    labels:
+      zh: 封侯
+    start_date: -61
+  decisions:
+  - date: -99
+    title_zh: 率壮士突围救贰师
+    rationale: 汉军被围，充国率百余壮士溃围陷阵，身被二十余创，解大军之危。
+- id: guji-赵充国-event-endeavor-2
+  name_zh: 平定西羌与屯田金城
+  phases:
+  - key: brewing
+    name_zh: 宣帝时羌乱初起
+    labels:
+      zh: 受喻告诸羌
+    start_date: -63
+  - key: breakthrough
+    name_zh: 毛遂自荐出任平羌主将
+    labels:
+      zh: 请缨西征
+    start_date: -61
+    highlight_event_id: 赵充国-event-pingqiang
+  - key: climax
+    name_zh: 奏罢兵屯田之策
+    labels:
+      zh: 屯田奏
+    start_date: -61
+  - key: closure
+    name_zh: 羌乱平定，振旅而还
+    labels:
+      zh: 罢兵还朝
+    start_date: -60
+  decisions:
+  - date: -61
+    title_zh: 力主屯田，缓行诛讨
+    rationale: 以为屯田可省转输、威慑羌人、持久安边，不战而屈人之兵。
+  - date: -61
+    title_zh: 不听属下劝阻，坚持先破先零
+    rationale: 分辨先零与罕羌首从之罪，专诛首恶以安胁从。
+events:
+- id: guji-赵充国-event-birth
+  event_type: birth
+  date: -137
+  year_of: -137
+  names:
+    zh: 赵充国出生
+  summary: 赵充国生于陇西上邽（一说金城），后徙居令居。
+- id: guji-赵充国-event-tiangu
+  event_type: military_campaign
+  date: -99
+  year_of: -99
+  names:
+    zh: 随征匈奴突围救主
+  summary: 从贰师将军李广利伐匈奴，大军被围，充国率壮士百余人溃围力战，身被二十余创，全军得脱。
+- id: guji-赵充国-event-pingqiang
+  event_type: military_campaign
+  date: -61
+  year_of: -61
+  names:
+    zh: 自荐将兵平西羌
+  summary: 宣帝以充国七十六岁熟谙羌事，充国自荐为将，率军至金城，计定先零羌。
+- id: guji-赵充国-event-tuntian
+  event_type: policy
+  date: -61
+  year_of: -61
+  names:
+    zh: 奏屯田金城
+  summary: 三上屯田奏罢兵留屯，宣帝从其策，边备省费而羌众渐服。
+- id: guji-赵充国-event-death
+  event_type: death
+  date: -52
+  year_of: -52
+  names:
+    zh: 赵充国去世
+  summary: 赵充国薨，谥曰壮侯，图中麒麟阁。

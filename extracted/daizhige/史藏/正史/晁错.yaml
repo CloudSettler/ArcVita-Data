@@ -1,0 +1,103 @@
+person:
+  qid: guji-晁错
+  name_zh: 晁错
+  names:
+    zh: 晁错
+    en: Chao Cuo
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: -154-03
+      precision: month
+      is_circa: false
+      raw: 汉景帝三年正月，斩御史大夫晁错以谢七国
+  birth_date: ''
+  death_date: -154
+  era: 西汉
+  reign_ref: 汉景帝
+  archetype: 改革殉道者·削藩之臣
+  dilemmas:
+  - 削藩固国与激起七国之乱的矛盾
+  - 忠于社稷却被景帝斩杀以谢诸侯
+  lesson: 改革者常为化解危机付出生命代价
+  summary_first_person: 我名晁错，汉景帝时为御史大夫，力主削夺诸侯封地以尊朝廷。吴楚七国遂以“清君侧”为名起兵反叛，景帝为息兵祸，将我斩杀以谢七国，然乱终未止，我以死殉削藩之策。
+  source_urls:
+  - https://zh.wikisource.org/wiki/前漢書/卷005
+endeavors:
+- id: guji-晁错-endeavor-1
+  name_zh: 仕进与削藩之议
+  labels:
+    zh: 御史大夫、力倡削藩
+  phases:
+  - key: brewing
+    name_zh: 居官进言
+    labels:
+      zh: 位至御史大夫
+    start_date: -155
+    highlight_event_id: guji-晁错-event-minister
+  - key: breakthrough
+    name_zh: 力主削藩
+    labels:
+      zh: 削夺诸侯封地
+    start_date: -154
+    highlight_event_id: guji-晁错-event-senzaofan
+  - key: climax
+    name_zh: 七国之乱
+    labels:
+      zh: 吴楚举兵以诛错为名
+    start_date: -154
+    highlight_event_id: guji-晁错-event-qiguo
+  - key: closure
+    name_zh: 被斩谢七国
+    labels:
+      zh: 身死策存
+    start_date: -154
+    highlight_event_id: guji-晁错-event-death
+  decisions:
+  - date: -154
+    title_zh: 上削藩之策
+    rationale: 诸侯坐大，不削必为后患，虽招怨而为之
+  - date: -154
+    title_zh: 不惧祸坚守削藩
+    rationale: 知吴楚必怨，宁得祸于身，不敢失天下之势
+events:
+- id: guji-晁错-event-birth
+  type: birth
+  date: -200
+  year_of: -200
+  precision: circa
+  note: 生年史无明文，约西汉文帝时
+- id: guji-晁错-event-minister
+  type: career
+  date: -155
+  year_of: -155
+  label_zh: 官至御史大夫
+  note: 景帝时晁错贵幸，位至御史大夫
+- id: guji-晁错-event-senzaofan
+  type: career
+  date: -154
+  year_of: -154
+  label_zh: 建议削藩
+  note: 力主削夺诸侯支郡以尊京师
+- id: guji-晁错-event-qiguo
+  type: event
+  date: -154-01
+  year_of: -154
+  label_zh: 吴楚七国反
+  note: 吴王濞、胶西王卬等七国举兵反，号为诛晁错以清君侧
+- id: guji-晁错-event-death
+  type: death
+  date: -154-03
+  year_of: -154
+  label_zh: 被斩以谢七国
+  note: 景帝按晁错衣冠，斩于东市以谢七国，师古注：晁古朝字
+- id: guji-晁错-event-pingluan
+  type: event
+  date: -154-02
+  year_of: -154
+  label_zh: 乱平其策之义显
+  note: 周亚夫破七国，斩吴王濞，削藩终成定制

@@ -1,0 +1,130 @@
+person:
+  qid: guji-司马相如
+  name_zh: 司马相如
+  names:
+    zh: 司马相如
+    en: Sima Xiangru
+  lifespan:
+    birth:
+      date: -179
+      precision: year
+      is_circa: true
+      raw: 约公元前179年
+    death:
+      date: -118
+      precision: year
+      is_circa: true
+      raw: 约公元前118年（汉武帝元狩年间病免后卒于茂陵）
+  birth_date: -179
+  death_date: -118
+  era: 西汉（蜀郡成都，武帝朝辞赋家）
+  reign_ref: 汉景帝（前元）、汉武帝（建元/元狩罢前）
+  archetype: 辞赋家
+  dilemmas:
+  - 游梁为客与归蜀贫居之间的出处抉择
+  - 通西南夷建功与朝中毁谤之间的进退
+  lesson: 以赋开一代文风，然文人之进退系于时主之好尚
+  summary_first_person: 我是蜀郡成都人司马相如，字长卿。我初事景帝为武骑常侍，后游梁园，作《子虚赋》；武帝读而召问，我又献《上林赋》《大人赋》，遂为郎。我曾奉使通西南夷，作《喻巴蜀檄》《难蜀父老》。后世颜师古注《汉书》，张揖、郭璞皆专注我传，赋体因我而大盛。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/司马相如
+endeavors:
+- id: guji-司马相如-endeavor-1
+  title_zh: 辞赋创作
+  domain: 文学
+  phases:
+  - key: brewing
+    name_zh: 蜀中与游梁
+    labels:
+      zh: 初学辞赋，客游梁园作《子虚赋》
+    start_date: -160
+    highlight_event_id: guji-司马相如-event-liang
+  - key: breakthrough
+    name_zh: 武帝召见
+    labels:
+      zh: 献《上林赋》《大人赋》为郎
+    start_date: -140
+    highlight_event_id: guji-司马相如-event-shanglin
+  - key: climax
+    name_zh: 奉使西南
+    labels:
+      zh: 通西南夷，作檄与难文
+    start_date: -131
+    highlight_event_id: guji-司马相如-event-xinan
+  - key: closure
+    name_zh: 免官家居
+    labels:
+      zh: 以病免，卒于茂陵，遗《封禅文》
+    start_date: -120
+    highlight_event_id: guji-司马相如-event-death
+  decisions:
+  - date: -160
+    title_zh: 弃武骑常侍之职而客游梁国
+    rationale: 景帝不好辞赋，梁孝王好客，遂称病免而西游梁
+  - date: -131
+    title_zh: 奉命使蜀通西南夷
+    rationale: 唐蒙扰民致蜀人惊惧，武帝使相如责之并经略其事
+- id: guji-司马相如-endeavor-2
+  epigraph_zh: 传世与影响
+  title_zh: 入《前汉书》列传，历代注家专门笺释
+  domain: 史学 canon
+  phases:
+  - key: breakthrough
+    name_zh: 入传汉书
+    labels:
+      zh: 班固《前汉书》卷五十七上下两卷载其传
+    start_date: -100
+    highlight_event_id: guji-司马相如-event-hanshu
+  - key: closure
+    name_zh: 历代专注
+    labels:
+      zh: 张揖止解司马相如传一卷，郭璞止注相如传序及游猎诗赋
+    start_date: 230
+    highlight_event_id: guji-司马相如-event-annotation
+  decisions:
+  - date: 237
+    title_zh: 张揖为魏博士，专解司马相如传一卷
+    rationale: 相如赋难读，故独为之训释
+  - date: 310
+    title_zh: 郭璞注相如传序及游猎诗赋
+    rationale: 晋人多以其赋为辞章典范，故专注其篇
+events:
+- id: guji-司马相如-event-birth
+  type: birth
+  date: -179
+  year_of: -179
+  title_zh: 司马相如生于蜀郡成都（约）
+- id: guji-司马相如-event-liang
+  type: career
+  endeavor_id: guji-司马相如-endeavor-1
+  date: -160
+  year_of: -160
+  title_zh: 客游梁园，作《子虚赋》
+- id: guji-司马相如-event-shanglin
+  type: career
+  endeavor_id: guji-司马相如-endeavor-1
+  date: -140
+  year_of: -140
+  title_zh: 武帝读《子虚赋》而召问，献《上林赋》拜为郎
+- id: guji-司马相如-event-xinan
+  type: career
+  endeavor_id: guji-司马相如-endeavor-1
+  date: -131
+  year_of: -131
+  title_zh: 奉使通西南夷，作《喻巴蜀檄》《难蜀父老》
+- id: guji-司马相如-event-hanshu
+  type: career
+  endeavor_id: guji-司马相如-endeavor-2
+  date: -62
+  year_of: -62
+  title_zh: 班固《前汉书》目录载其传于列传第二十七上下两卷
+- id: guji-司马相如-event-annotation
+  type: career
+  endeavor_id: guji-司马相如-endeavor-2
+  date: 310
+  year_of: 310
+  title_zh: 郭璞专注相如传序及游猎诗赋，张揖先已解相如传
+- id: guji-司马相如-event-death
+  type: death
+  date: -118
+  year_of: -118
+  title_zh: 司马相如以病免官，卒于茂陵（约）
