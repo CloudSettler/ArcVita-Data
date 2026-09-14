@@ -1,0 +1,151 @@
+person:
+  qid: guji-shile
+  name_zh: 石勒
+  names:
+    zh: 石勒
+    en: Shi Le
+  lifespan:
+    birth:
+      date: '274'
+      precision: year
+      is_circa: true
+      raw: 约274年
+    death:
+      date: '333'
+      precision: year
+      is_circa: false
+      raw: 太和元年（333年）
+  birth_date: '274'
+  death_date: '333'
+  era: 十六国·后赵
+  reign_ref: 后赵高祖（明帝），年号太和、建平
+  archetype: 开国之君 / 马上得天下的羯族枭雄
+  dilemmas:
+  - 出身奴隶而欲成帝业
+  - 武力取天下而欲以文治守之
+  lesson: 起于微末者，亦可建号立国；然马上得之，不可马上治之。
+  summary_first_person: 我石勒起于羯部微贱，曾为人奴，后聚众起兵，佐刘渊破晋，继而自立为赵王，终建后赵，都于襄国。我重用张宾，定制度、立学校，虽不识字而雅好听人读史，自谓可方高祖。
+endeavors:
+- id: guji-shile-endeavor-1
+  title_zh: 起兵佐汉，转战河北
+  phases:
+  - key: brewing
+    name_zh: 微贱蓄志
+    labels:
+      zh:
+      - 奴隶
+      - 令史
+    start_date: '299'
+    highlight_event_id: guji-shile-event-release
+  - key: breakthrough
+    name_zh: 起兵归汉
+    labels:
+      zh:
+      - 十八骑
+      - 起兵
+    start_date: '304'
+    highlight_event_id: guji-shile-event-uprising
+  - key: climax
+    name_zh: 襄国建国
+    labels:
+      zh:
+      - 称赵王
+      - 都襄国
+    start_date: '319'
+    highlight_event_id: guji-shile-event-zhaowang
+  - key: closure
+    name_zh: 灭前赵称帝
+    labels:
+      zh:
+      - 称帝
+      - 洛阳大捷
+    start_date: '329'
+    highlight_event_id: guji-shile-event-emperor
+  decisions:
+  - date: '319'
+    title_zh: 定都襄国，称赵王
+    rationale: 依张宾之谋，据河北形胜之地，立宗庙社稷，建后赵基业。
+  - date: '328'
+    title_zh: 亲率大军与刘曜决战洛阳
+    rationale: 前赵与后赵势不两立，乘曜兵疲，一战擒之，遂并关中。
+- id: guji-shile-endeavor-2
+  title_zh: 立法度、兴文教，以文治辅武功
+  phases:
+  - key: brewing
+    name_zh: 用张宾定章程
+    labels:
+      zh:
+      - 右侯
+      - 典章
+    start_date: '319'
+    highlight_event_id: guji-shile-event-zhangbin
+  - key: climax
+    name_zh: 立太学郡学
+    labels:
+      zh:
+      - 太学
+      - 劝课农桑
+    start_date: '321'
+    highlight_event_id: guji-shile-event-xuejiao
+  decisions:
+  - date: '321'
+    title_zh: 立太学、郡国学，令将佐子弟就学
+    rationale: 自愧不识字，闻人读汉高祖、光武事而论其优劣，知马上不可治天下，故兴学以育才。
+  - date: '333'
+    title_zh: 临终嘱勿相残
+    rationale: 遗命石弘、石虎兄弟辅政相保，然终未能免骨肉之祸。
+events:
+- id: guji-shile-event-birth
+  event_type: birth
+  date: '274'
+  year_of: 274
+  title_zh: 石勒生于羯族上党武乡
+  description: 石勒字世龙，上党武乡羯人，幼而壮健有胆力。
+- id: guji-shile-event-release
+  event_type: life_event
+  date: '304'
+  year_of: 304
+  title_zh: 曾被掠卖为奴，得免于茌平
+  description: 并州饥乱，勒被掠卖为奴，后免之为田客，遂结十八骑为群盗。
+- id: guji-shile-event-uprising
+  event_type: career_event
+  date: '307'
+  year_of: 307
+  title_zh: 起兵反晋，后归附刘渊
+  description: 勒初与汲桑起兵，败而投汉主刘渊，渊署为将军，使转战河北。
+- id: guji-shile-event-zhangbin
+  event_type: career_event
+  date: '309'
+  year_of: 309
+  title_zh: 得张宾为谋主
+  description: 张宾来投，谓之“吾之右侯”，勒军政大计多出宾谋。
+- id: guji-shile-event-ningsping
+  event_type: career_event
+  date: '311'
+  year_of: 311
+  title_zh: 襄城之战后歼灭晋军主力
+  description: 与刘曜、王弥等会攻洛阳，破晋军，太尉王衍被执死。
+- id: guji-shile-event-zhaowang
+  event_type: career_event
+  date: '319'
+  year_of: 319
+  title_zh: 都襄国，称赵王，建后赵
+  description: 用张宾议，定都襄国，置百官，称赵王元年。
+- id: guji-shile-event-xuejiao
+  event_type: career_event
+  date: '321'
+  year_of: 321
+  title_zh: 立太学、郡学，兴文教
+  description: 令郡国立学官，课农桑，行租调之法，渐立制度。
+- id: guji-shile-event-emperor
+  event_type: career_event
+  date: '330'
+  year_of: 330
+  title_zh: 洛阳擒刘曜，并关中，称皇帝
+  description: 329年洛阳之战擒前赵主刘曜，尽并其地；330年勒称皇帝，改元建平。
+- id: guji-shile-event-death
+  event_type: death
+  date: 333-08
+  year_of: 333
+  title_zh: 石勒卒于后赵
+  description: 建平九年勒病卒，子弘嗣立，旋为石虎所篡。

@@ -1,0 +1,97 @@
+person:
+  qid: guji-嵇康
+  name_zh: 嵇康
+  names:
+    zh: 嵇康
+    en: Ji Kang
+  lifespan:
+    birth:
+      date: '0224'
+      precision: year
+      is_circa: true
+      raw: 约魏黄初年间
+    death:
+      date: '0262'
+      precision: year
+      is_circa: false
+      raw: 魏景元三年
+  birth_date: '0224'
+  death_date: '0262'
+  era: 三国魏
+  reign_ref: 魏元帝曹奂
+  archetype: 隐逸名士
+  dilemmas:
+  - 拒与司马氏合作而遭杀身之祸
+  - 名士风骨与现实政治的冲突
+  lesson: 不阿权贵，虽死犹荣；广陵散绝，风骨长存。
+  summary_first_person: 我是嵇康，竹林名士，因不肯依附司马氏而遇害，临刑弹奏广陵散，叹此曲从此绝矣。
+endeavors:
+- id: guji-嵇康-endeavor-1
+  name_zh: 竹林清谈与著述
+  phases:
+  - key: brewing
+    name_zh: 隐居治学
+    labels:
+      zh: 竹林之游
+    start_date: '0240'
+    highlight_event_id: guji-嵇康-event-career-1
+  - key: climax
+    name_zh: 名重一时
+    labels:
+      zh: 名士领袖
+    start_date: '0250'
+    highlight_event_id: guji-嵇康-event-career-2
+  - key: closure
+    name_zh: 遇害
+    labels:
+      zh: 广陵散绝
+    start_date: '0262'
+    highlight_event_id: guji-嵇康-event-career-3
+  decisions:
+  - date: '0262'
+    title_zh: 拒出仕司马氏
+    rationale: 坚守名士节操，不与当权者妥协
+- id: guji-嵇康-endeavor-2
+  name_zh: 音律与文章
+  phases:
+  - key: breakthrough
+    name_zh: 声无哀患
+    labels:
+      zh: 声无哀乐论
+    start_date: '0255'
+    highlight_event_id: guji-嵇康-event-career-2
+  decisions:
+  - date: '0262'
+    title_zh: 临刑索琴
+    rationale: 以琴声昭示平生之志
+events:
+- id: guji-嵇康-event-birth
+  date: '0224'
+  year_of: 224
+  event_type: birth
+  title_zh: 嵇康生
+  description: 嵇康生于魏初，谯郡人。
+- id: guji-嵇康-event-career-1
+  date: '0240'
+  year_of: 240
+  event_type: endeavor
+  title_zh: 与阮籍等同游竹林，号为竹林名士
+  description: 与阮籍、山涛、向秀、刘伶等交游，为竹林七贤之首。
+- id: guji-嵇康-event-career-2
+  date: '0255'
+  year_of: 255
+  event_type: endeavor
+  title_zh: 著文论、善弹琴，名重当世
+  description: 为文论及声律，弹琴咏诗，风姿俊逸，为时人所重。
+- id: guji-嵇康-event-career-3
+  date: '0262'
+  year_of: 262
+  event_type: endeavor
+  title_zh: 遭司马氏杀害，临刑弹广陵散
+  description: 因吕安事牵连被诛，临刑索琴弹广陵散，曰此曲于今绝矣。
+- id: guji-嵇康-event-death
+  date: '0262'
+  year_of: 262
+  event_type: death
+  title_zh: 嵇康卒
+  description: 嵇康为司马昭所害而死。

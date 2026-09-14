@@ -1,0 +1,113 @@
+person:
+  qid: guji-杜预
+  name_zh: 杜预
+  names:
+    zh: 杜预
+    en: Du Yu
+  lifespan:
+    birth:
+      date: '222'
+      precision: year
+      is_circa: true
+      raw: 约魏黄初三年（222年）
+    death:
+      date: 285-01
+      precision: month
+      is_circa: false
+  birth_date: '222'
+  death_date: 285-01
+  era: 三国至西晋
+  reign_ref: 晋武帝司马炎
+  archetype: 儒将
+  dilemmas:
+  - 出身罪臣之后（其父杜恕与司马懿有隙），仕途受阻而终成灭吴统帅
+  - 身不能跨马射箭却以谋略are冠三军，文武之间
+  lesson: 有『左传癖』之称的经学家，亦能以书生之身摧枯拉朽灭一国
+  summary_first_person: 我杜预字元凯，京兆杜陵人。虽不善骑射，却深通韬略与《左传》，参与撰《晋律》，著《春秋左氏经传集解》，终以镇南大将军督众伐吴，一举平定江南。
+  source_urls:
+  - https://zh.wikisource.org/wiki/九家旧晋书辑本
+endeavors:
+- id: guji-杜预-endeavor-1
+  name_zh: 修律注经
+  labels:
+    zh: 制定晋律、注解春秋左传
+  phases:
+  - key: brewing
+    name_zh: 钻研经学律法
+    labels:
+      zh: 泰始年间参与《晋律》修订，撰《春秋左氏经传集解》
+    start_date: '265'
+  - key: breakthrough
+    name_zh: 成一代经师
+    labels:
+      zh: 时人称『左传癖』
+    start_date: '270'
+- id: guji-杜预-endeavor-2
+  name_zh: 平吴之战
+  labels:
+    zh: 灭吴统一
+  phases:
+  - key: brewing
+    name_zh: 继羊祜镇襄阳
+    labels:
+      zh: 接任都督荆州诸军事
+    start_date: '278'
+  - key: breakthrough
+    name_zh: 上书请伐吴
+    labels:
+      zh: 屡次陈伐吴之策，力排众议
+    highlight_event_id: guji-杜预-event-petition
+    start_date: '279'
+  - key: climax
+    name_zh: 破秣陵平吴
+    labels:
+      zh: 连下城邑，江南州郡望风归附
+    highlight_event_id: guji-杜预-event-conquer
+    start_date: '280'
+  - key: closure
+    name_zh: 坐镇江陵
+    labels:
+      zh: 以天下虽安忘战必危劝学练兵
+    start_date: '280'
+  decisions:
+  - date: '279'
+    title_zh: 力主伐吴
+    rationale: 破竹之势已成，反对罢兵迁延，推动武帝下诏大举伐吴
+  - date: '280'
+    title_zh: 不拘泥朝命
+    rationale: 朝廷议有异辞欲敛兵，杜预坚决渡江进击，遂成大功
+events:
+- id: guji-杜预-event-birth
+  date: '222'
+  year_of: 222
+  type: birth
+  title_zh: 杜约生于此年
+- id: guji-杜预-event-jin-law
+  date: '268'
+  year_of: 268
+  type: career
+  title_zh: 参与制定《晋律》
+  description_zh: 泰始年间与贾充等刊修律令，成《晋律》二十篇
+- id: guji-杜预-event-take-jingzhou
+  date: '278'
+  year_of: 278
+  type: career
+  title_zh: 接任都督荆州
+  description_zh: 羊祜卒后，杜预代镇襄阳，继续经营灭吴大计
+- id: guji-杜预-event-petition
+  date: '279'
+  year_of: 279
+  type: career
+  title_zh: 上表陈伐吴之策
+  description_zh: 数陈平吴方略，促成武帝发兵二十万大举伐吴
+- id: guji-杜预-event-conquer
+  date: '280'
+  year_of: 280
+  type: career
+  title_zh: 平定吴国
+  description_zh: 以破竹之势连克江陵等地，吴主降，天下一统，以功封当阳县侯
+- id: guji-杜预-event-death
+  date: 285-01
+  year_of: 285
+  type: death
+  title_zh: 杜预卒

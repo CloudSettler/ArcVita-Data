@@ -1,0 +1,142 @@
+person:
+  qid: guji-王羲之
+  name_zh: 王羲之
+  names:
+    zh: 王羲之
+    en: Wang Xizhi
+  lifespan:
+    birth:
+      date: '303'
+      precision: year
+      is_circa: true
+      raw: 约太安二年（303年）
+    death:
+      date: '361'
+      precision: year
+      is_circa: false
+      raw: 升平五年（361年）
+  birth_date: '303'
+  death_date: '361'
+  era: 东晋
+  reign_ref: 晋穆帝
+  archetype: 书圣·名士
+  dilemmas:
+  - 出仕与归隐之间的矛盾，晚年称病去郡，优游山水
+  - 世家大族身份与个人艺术追求之间的平衡
+  lesson: 以毕生之功精研技艺，终成一代书圣；名士风骨不在功名而在气度。
+  summary_first_person: 我是王羲之，出身琅玡王氏，官至右军将军、会稽内史，人称王右军。我以书法冠绝古今，兰亭雅集一序传世，世人尊我为书圣。
+  source_urls:
+  - https://zh.wikisource.org/wiki/九家旧晋书辑本
+endeavors:
+- id: guji-王羲之-endeavor-1
+  name_zh: 书法之道
+  labels:
+    zh:
+    - 书法
+    - 艺术
+  phases:
+  - key: brewing
+    name_zh: 少年习字
+    labels:
+      zh:
+      - 幼学
+    start_date: '313'
+  - key: breakthrough
+    name_zh: 博采众长
+    labels:
+      zh:
+      - 变古
+    start_date: '330'
+    highlight_event_id: guji-王羲之-event-yonghe-gathering
+  - key: climax
+    name_zh: 书成一家
+    labels:
+      zh:
+      - 成圣
+    start_date: '353'
+    highlight_event_id: guji-王羲之-event-yonghe-gathering
+  - key: closure
+    name_zh: 晚年优游
+    labels:
+      zh:
+      - 归隐
+    start_date: '355'
+  decisions:
+  - date: '355'
+    title_zh: 称病去会稽郡职
+    rationale: 不堪为骠骑将军王述部下屈辱，遂称病去郡，誓于父母墓前不复出仕，纵情山水弋钓。
+- id: guji-王羲之-endeavor-2
+  name_zh: 仕宦生涯
+  labels:
+    zh:
+    - 仕途
+  phases:
+  - key: brewing
+    name_zh: 起家秘书郎
+    labels:
+      zh:
+      - 入仕
+    start_date: '323'
+  - key: breakthrough
+    name_zh: 宁远将军江州刺史
+    labels:
+      zh: -方面之任
+    start_date: '340'
+  - key: climax
+    name_zh: 右军将军会稽内史
+    labels:
+      zh:
+      - 右军
+    start_date: '348'
+    highlight_event_id: guji-王羲之-event-yonghe-gathering
+  - key: closure
+    name_zh: 去官归隐
+    labels:
+      zh:
+      - 去郡
+    start_date: '355'
+  decisions:
+  - date: '348'
+    title_zh: 出为右军将军、会稽内史
+    rationale: 受会稽王昱与殷浩推重，出任东土重郡，领右军将军。
+events:
+- id: guji-王羲之-event-birth
+  type: birth
+  year_of: '303'
+  date: '303'
+  title_zh: 王羲之约生于太安二年
+  participants:
+  - guji-王羲之
+  summary_zh: 琅玡临沂王氏之子，约于是年生。
+- id: guji-王羲之-event-yonghe-gathering
+  type: endeavor
+  year_of: '353'
+  date: 353-04-14
+  title_zh: 永和九年三月三日兰亭雅集
+  participants:
+  - guji-王羲之
+  summary_zh: 与谢安、孙绰等四十一人修禊于会稽山阴之兰亭，临流赋诗，乘兴作《兰亭集序》，为天下第一行书。
+- id: guji-王羲之-event-office
+  type: endeavor
+  year_of: '348'
+  date: '348'
+  title_zh: 出任右军将军、会稽内史
+  participants:
+  - guji-王羲之
+  summary_zh: 迁右军将军、会稽内史，故世称王右军。
+- id: guji-王羲之-event-resign
+  type: endeavor
+  year_of: '355'
+  date: '355'
+  title_zh: 称病去郡，誓墓不复出
+  participants:
+  - guji-王羲之
+  summary_zh: 因与王述意气相忤，称病去会稽郡职，于父母墓前自誓不复出仕，优游山水终老。
+- id: guji-王羲之-event-death
+  type: death
+  year_of: '361'
+  date: '361'
+  title_zh: 王羲之卒
+  participants:
+  - guji-王羲之
+  summary_zh: 升平五年卒，年五十九。
