@@ -1,0 +1,135 @@
+person:
+  qid: guji-先轸
+  name_zh: 先轸
+  names:
+    zh: 先轸
+    en: Xian Zhen
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: -627-08
+      precision: month
+      is_circa: true
+      raw: 晋襄公元年八月戊子，死于箕之战
+  birth_date: ''
+  death_date: -627-08
+  era: 春秋·晋国
+  reign_ref: 晋文公、晋襄公
+  archetype: 谋略型军事统帅
+  dilemmas:
+  - 殽之战前力排众议，主张在国丧期间违规袭击秦师，以“一日纵敌，数世之患”压倒“未报秦施”的仁义顾虑
+  - 箕之战前自省“匹夫逞志于君而无讨”，在报效与自罚之间选择免胄入狄师赴死
+  lesson: 谋国者以社稷大义为先，纵敌酿患不如一战定局；有过则自讨，虽死无悔。
+  summary_first_person: 我是先轸，晋国下军之佐起家，因谋略著称而代郤縠将中军。城濮之战我定计怒楚、许复曹卫而诱战，横击楚师成文公霸业；文公卒后秦师灭滑而还，我主张发丧墨绖击秦，败之于殽；旋伐狄于箕，因自认之前对君逞志无讨，免胄冲入狄师而死，狄人归我之首，面色如生。
+endeavors:
+- id: guji-先轸-endeavor-1
+  name_zh: 出将入相，佐文公定霸
+  phases:
+  - key: brewing
+    name_zh: 被庐搜军，佐下军
+    labels:
+      zh:
+      - 谋元帅
+      - 赵衰荐轸
+    start_date: -633
+    highlight_event_id: guji-先轸-event-junshuai
+  - key: breakthrough
+    name_zh: 代将中军，.uuid谋城濮
+    labels:
+      zh:
+      - 郤縠卒
+      - 原轸将中军
+    start_date: -632-02
+    highlight_event_id: guji-先轸-event-chengpu
+  - key: climax
+    name_zh: 践土策名，霸业既成
+    labels:
+      zh:
+      - 侯伯受命
+    start_date: -632-05
+    highlight_event_id: guji-先轸-event-chengpu
+  decisions:
+  - date: -632
+    title_zh: 定计拘宛春、私许复曹卫以怒楚
+    rationale: 楚一言而定三国，我则无礼；不如私许复曹卫以携离之，执宛春以怒楚，既战而后图之
+- id: guji-先轸-endeavor-2
+  name_zh: 墨绖败秦于殽，殉义于箕
+  phases:
+  - key: brewing
+    name_zh: 文公之丧，力主击秦
+    labels:
+      zh:
+      - 秦违蹇叔
+      - 奉不可失
+    start_date: -627
+    highlight_event_id: guji-先轸-event-xiao
+  - key: climax
+    name_zh: 殽之捷，获三帅
+    labels:
+      zh:
+      - 败秦师于殽
+      - 遂墨以葬文公
+    start_date: -627-04
+    highlight_event_id: guji-先轸-event-xiao
+  - key: closure
+    name_zh: 箕之战免胄赴死
+    labels:
+      zh:
+      - 匹夫逞志而无讨
+      - 狄人归元面如生
+    start_date: -627-08
+    highlight_event_id: guji-先轸-event-ji
+  decisions:
+  - date: -62 7
+    title_zh: 不顾秦施，发命兴姜戎击秦师
+    rationale: 秦不哀吾丧而伐吾同姓，秦则无礼；一日纵敌，数世之患，谋及子孙可谓死君乎
+  - date: -627
+    title_zh: 免胄入狄师自讨而死
+    rationale: 匹夫逞志于君而无讨敢不自讨乎，以死明志自正其过
+events:
+- id: guji-先轸-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  title_zh: 先轸生（生年不详）
+  detail_zh: 生年史无明文，春秋晋国人
+- id: guji-先轸-event-junshuai
+  date: -633
+  year_of: -633
+  type: appointment
+  title_zh: 被庐之搜作三军，先轸佐下军
+  detail_zh: 赵衰荐其有谋，栾枝将下军、先轸佐之；后取五鹿亦先轸之谋
+- id: guji-先轸-event-zhongjun
+  date: -632-02
+  year_of: -632
+  type: appointment
+  title_zh: 郤縠卒，原轸将中军
+  detail_zh: 二月晋郤縠卒，先轸升任中军主帅，上德也
+- id: guji-先轸-event-chengpu
+  date: -632-04
+  year_of: -632
+  type: battle
+  title_zh: 城濮之战大败楚师
+  detail_zh: 夏四月戊辰次于城濮，先轸以中军公族横击楚左师，胥臣虎皮蒙马先犯陈蔡，楚师败绩，晋文公遂霸
+- id: guji-先轸-event-xiao
+  date: -627-04
+  year_of: -627
+  type: battle
+  title_zh: 殽之战败秦获三帅
+  detail_zh: 夏四月辛巳，先轸发命遽兴姜戎，败秦师于殽，获百里孟明视、西乞术、白乙丙，晋遂墨以葬文公
+- id: guji-先轸-event-ji
+  date: -627-08
+  year_of: -627
+  type: death
+  title_zh: 箕之战免胄入狄师而死
+  detail_zh: 八月戊子晋侯败狄于箕，先轸曰匹夫逞志于君而无讨敢不自讨乎，免胄入狄师死焉，狄人归其元面如生
+- id: guji-先轸-event-death-record
+  date: -627
+  year_of: -627
+  type: record
+  title_zh: 先轸卒年记事终
+  detail_zh: 其战殒之年即其卒年，事迹见《左传》僖公二十七、二十八年及三十三年

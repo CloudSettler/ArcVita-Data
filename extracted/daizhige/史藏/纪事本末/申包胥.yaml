@@ -1,0 +1,111 @@
+person:
+  qid: guji-shen-baoxu
+  name_zh: 申包胥
+  names:
+    zh: 申包胥
+    en: Shen Baoxu
+  lifespan:
+    birth:
+      date: '-0555'
+      precision: year
+      is_circa: true
+      raw: 春秋末期，生年不详
+    death:
+      date: '-0505'
+      precision: year
+      is_circa: true
+      raw: 约楚昭王复国后，年不详
+  birth_date: '-0555'
+  death_date: '-0505'
+  era: 春秋时期（楚昭王时代）
+  reign_ref: 楚昭王
+  archetype: 忠臣义士
+  dilemmas:
+  - 伍员亡吴覆楚，与故友之谊和忠于楚国的冲突
+  - 秦师既出楚社稷已定，接受封赏还是功成身退
+  lesson: 立依庭墙，哭七日不食，忠信可动天地而兴灭国
+  summary_first_person: 我是申包胥，与伍员为友。吴师入郢时，我在秦庭痛哭七日不进勺饮，终借秦师复楚；事定之后却不受赏而逃，因我为君非为身。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左传纪事本末/卷四十八
+endeavors:
+- id: guji-shen-baoxu-endeavor-1
+  name_zh: 公忠自誓与王事奔走
+  phases:
+  - key: brewing
+    name_zh: 与伍员立誓相存亡
+    labels:
+      zh:
+      - 故友之约
+      - 复楚之誓
+    start_date: '-0522'
+  - key: breakthrough
+    name_zh: 秦庭乞师
+    labels:
+      zh:
+      - 哭秦庭
+      - 七日不食
+    start_date: '-0506'
+    highlight_event_id: guji-shen-baoxu-event-weep-qin
+  - key: climax
+    name_zh: 率秦师救楚破吴
+    labels:
+      zh:
+      - 秦师至稷
+      - 大败夫槩王于沂
+    start_date: '-0505'
+    highlight_event_id: guji-shen-baoxu-event-save-chu
+  - key: closure
+    name_zh: 逃赏全义
+    labels:
+      zh:
+      - 君既定矣又何求
+      - 遂逃赏
+    start_date: '-0505'
+    highlight_event_id: guji-shen-baoxu-event-flee-reward
+  decisions:
+  - date: '-0522'
+    title_zh: 与伍子胥约定“子能复之，我必能兴之”
+    rationale: 明知其誓将覆楚，仍以致友之诚立报国之志
+  - date: '-0506'
+    title_zh: 立依庭墙而哭，勺饮不入口七日
+    rationale: 拒绝秦馆待之请，以死节之诚感动秦哀公
+  - date: '-0505'
+    title_zh: 功成不受赏而逃
+    rationale: 且我尤子旗，为君也非为身也
+events:
+- id: guji-shen-baoxu-event-birth
+  date: '-0555'
+  year_of: -555
+  type: birth
+  title_zh: 申包胥生于春秋楚地（生年无考，约当春秋末期）
+  summary: 生年不见经传，为楚公族大夫
+- id: guji-shen-baoxu-event-vow-wu-yuan
+  date: '-0522'
+  year_of: -522
+  type: endeavor
+  title_zh: 伍员亡吴前夕与申包胥立誓
+  summary: 伍员曰“我必覆楚”，申包胥答“子能复之，我必能兴之”，约为友而志在存楚
+- id: guji-shen-baoxu-event-weep-qin
+  date: '-0506'
+  year_of: -506
+  type: endeavor
+  title_zh: 秦庭哭师七日
+  summary: 吴入郢，昭王在随；申包胥如秦乞师，立依庭墙而哭，日夜不绝声，勺饮不入口七日，秦哀公为之赋《无衣》，九顿首而坐
+- id: guji-shen-baoxu-event-save-chu
+  date: '-0505'
+  year_of: -505
+  type: endeavor
+  title_zh: 以秦师至，与楚师共破吴
+  summary: 秦师五百乘救楚，败吴师于沂、雍澨、公壻之谿，吴子乃归，楚昭王复国入郢
+- id: guji-shen-baoxu-event-flee-reward
+  date: '-0505'
+  year_of: -505
+  type: endeavor
+  title_zh: 拒王赏而逃
+  summary: 昭王赏功及申包胥，包胥曰“吾为君也非为身也，君既定矣又何求”，遂逃赏
+- id: guji-shen-baoxu-event-death
+  date: '-0505'
+  year_of: -505
+  type: death
+  title_zh: 申包胥卒（卒年无考，约在昭王复国之后）
+  summary: 事迹终见楚昭王复国，其后无闻

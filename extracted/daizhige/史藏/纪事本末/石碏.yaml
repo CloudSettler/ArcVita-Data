@@ -1,0 +1,147 @@
+person:
+  qid: guji-石碏
+  name_zh: 石碏
+  names:
+    zh: 石碏
+    en: Shi Que
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生卒不详（春秋初期卫国大夫）
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，桓公被弑后（前719年）时犹在，自言“老夫耄矣”
+  era: 春秋（卫国）
+  reign_ref: 卫庄公、卫桓公、卫宣公时期
+  archetype: 大义灭亲的诤臣
+  dilemmas:
+  - 谏庄公勿宠州吁而不听，预见祸乱
+  - 亲子石厚助州吁弑君，告陈执之，忍痛使宰杀之
+  lesson: 石碏农民断亲：为国除贼，虽子不赦，“大义灭亲”由此得名
+  summary_first_person: 我是卫国大夫石碏。庄公宠爱庶子州吁而纵其好兵，我以“六逆六顺”切谏而不听；我的儿子石厚又与州吁交游，我禁之不得。州吁果然弑桓公自立而不得民心。石厚来问我安君之策，我指使他随州吁朝陈，同时密告陈国执此弑君二人。陈人执之，卫人杀州吁于濮，我使家宰獳羊肩赴陈杀了我的儿子石厚。君子称我“大义灭亲”，纯臣之谓也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+endeavors:
+- id: guji-石碏-endeavor-1
+  name_zh: 谏卫庄公务去祸阶
+  phases:
+  - key: brewing
+    name_zh: 见宠为祸
+    labels:
+      zh:
+      - 州吁有宠好兵
+    start_date: -735
+    highlight_event_id: guji-石碏-event-remonstrate
+  - key: climax
+    name_zh: 陈六逆六顺之义
+    labels:
+      zh:
+      - 切谏弗听
+    start_date: -735
+    highlight_event_id: guji-石碏-event-remonstrate
+  - key: closure
+    name_zh: 桓公立乃老
+    labels:
+      zh:
+      - 告老还乡
+    start_date: -734
+    highlight_event_id: guji-石碏-event-retire
+  decisions:
+  - date: -734
+    title_zh: 桓公立而告老
+    rationale: 州吁之势已成，谏既不听，退之以避其锋
+- id: guji-石碏-endeavor-2
+  name_zh: 平州吁之乱，大义灭亲
+  phases:
+  - key: brewing
+    name_zh: 州吁弑君
+    labels:
+      zh:
+      - 弑桓公自立
+    start_date: -719
+    highlight_event_id: guji-石碏-event-usurp
+  - key: breakthrough
+    name_zh: 借陈执逆
+    labels:
+      zh:
+      - 使告于陈
+    start_date: -719
+    highlight_event_id: guji-石碏-event-lure
+  - key: climax
+    name_zh: 杀石厚与州吁
+    labels:
+      zh:
+      - 大义灭亲
+    start_date: -719
+    highlight_event_id: guji-石碏-event-execute
+  - key: closure
+    name_zh: 迎立宣公
+    labels:
+      zh:
+      - 卫人立晋
+    start_date: -718
+    highlight_event_id: guji-石碏-event-establish
+  decisions:
+  - date: -719
+    title_zh: 使宰獳羊肩涖杀石厚于陈
+    rationale: 此二人者实弑寡君，虽亲子不可赦，以正国法
+  - date: -719
+    title_zh: 指引“王觐为可”之策而不实助
+    rationale: 借安君之名诱二人赴陈，实设罗网
+events:
+- id: guji-石碏-event-remonstrate
+  date: -735
+  year_of: 前735年（隐公三年前后）
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 石碏谏卫庄公勿纵州吁
+  description_zh: 庄公嬖人之子州吁有宠而好兵，公弗禁。石碏谏曰“爱子教之以义方”，陈六逆六顺之义，谓去顺效逆所以速祸。庄公弗听。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+- id: guji-石碏-event-retire
+  date: -734
+  year_of: 前734年前后（桓公立）
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 桓公立，石碏告老
+  description_zh: 州吁之祸已萌，其子厚与州吁游，禁之不可。桓公立，石碏乃老。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+- id: guji-石碏-event-usurp
+  date: -719-03
+  year_of: 前719年（隐公四年春）
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 州吁弑卫桓公而立
+  description_zh: 隐公四年春，州吁弑桓公而立，未能和其民。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+- id: guji-石碏-event-lure
+  date: -719-09
+  year_of: 前719年秋
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 石碏使告于陈，执州吁石厚
+  description_zh: 石厚问定君之策，石碏告以“王觐为可”，使厚从州吁如陈。石碏密使告陈曰：“此二人者实弑寡君，敢即图之。”陈人执之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+- id: guji-石碏-event-execute
+  date: -719-09
+  year_of: 前719年九月
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 杀州吁于濮，石碏使宰杀石厚
+  description_zh: 卫人使右宰丑涖杀州吁于濮；石碏使其宰獳羊肩涖杀石厚于陈。君子曰：石碏纯臣也，大义灭亲其是之谓乎。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七
+- id: guji-石碏-event-establish
+  date: -718-12
+  year_of: 前719年冬十二月（宣公即位）
+  person_id: guji-石碏
+  person_name: 石碏
+  title_zh: 卫人迎立公子晋为宣公
+  description_zh: 平乱之后，卫人逆公子晋于邢，冬十二月宣公即位。《书》曰“卫人立晋”，众也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/左傳紀事本末/卷三十七

@@ -1,0 +1,158 @@
+person:
+  qid: guji-季札
+  name_zh: 季札
+  names:
+    zh: 季札
+    en: Ji Zha
+  lifespan:
+    birth:
+      date: -576
+      precision: year
+      is_circa: true
+      raw: 春秋时期吴国人，生年不详，约前576年
+    death:
+      date: -484
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约前484年
+  birth_date: -576
+  death_date: -484
+  era: 春秋
+  reign_ref: 吴王余祭、余眜在位期间
+  archetype: 让国贤公子
+  dilemmas:
+  - 辞让王位以守兄弟相承之约
+  - 出使列国观礼而知兴衰
+  lesson: 让国见德，观乐知政，守信如挂剑。
+  summary_first_person: 我是吴公子季札，辞让王位不居，历聘鲁齐郑卫晋，闻乐于鲁而知列国之政，信义昭于天下，挂剑酬心于徐君之墓。
+  source_urls:
+  - https://www.sikuquanshu.com/left-zhuan-ji-shi-ben-mo-49 (钦定四库全书《左传纪事本末》卷四十九·吴通上国【季札让国附】)
+endeavors:
+- id: guji-季札-endeavor-1
+  name_zh: 三让国之约
+  phases:
+  - key: brewing
+    name_zh: 诸樊即位固让
+    labels:
+      zh:
+      - 让国
+      - 守节
+    start_date: -560
+    highlight_event_id: guji-季札-event-rang-guo
+  - key: climax
+    name_zh: 兄终弟及之誓
+    labels:
+      zh:
+      - 兄弟相承
+    start_date: -559
+    highlight_event_id: guji-季札-event-rang-guo
+  - key: closure
+    name_zh: 避位延陵
+    labels:
+      zh:
+      - 延陵季子
+    start_date: -548
+    highlight_event_id: guji-季札-event-yanling
+  decisions:
+  - date: -560
+    title_zh: 辞让王位
+    rationale: 以为君子当守礼让之义，愿立兄长之绪。
+  - date: -548
+    title_zh: 受封延陵
+    rationale: 弃国不居，退耕于野，故称延陵季子。
+- id: guji-季札-endeavor-2
+  name_zh: 历聘中原观周乐
+  phases:
+  - key: brewing
+    name_zh: 使于鲁
+    labels:
+      zh:
+      - 观乐
+    start_date: -544
+    highlight_event_id: guji-季札-event-guanle
+  - key: climax
+    name_zh: 观乐知政
+    labels:
+      zh:
+      - 知音
+      - 论政
+    start_date: -544
+    highlight_event_id: guji-季札-event-guanle
+  - key: breakthrough
+    name_zh: 历聘齐郑卫晋
+    labels:
+      zh:
+      - 出使
+    start_date: -544
+    highlight_event_id: guji-季札-event-guashi
+  - key: closure
+    name_zh: 挂剑酬徐君
+    labels:
+      zh:
+      - 守信
+    start_date: -544
+    highlight_event_id: guji-季札-event-guajian
+  decisions:
+  - date: -544
+    title_zh: 请观周乐
+    rationale: 欲知周德之衰与列国政之兴替。
+  - date: -544
+    title_zh: 谓齐政将有所归、郑先亡、晋政将在大夫
+    rationale: 由乐声风俗洞察各国未来之势，劝晏子、子产、叔向各以自处之道。
+events:
+- id: guji-季札-event-birth
+  person_id: guji-季札
+  type: birth
+  date: -576
+  year_of: -576
+  title_zh: 季札约生于吴
+  description: 吴王寿梦少子，生于春秋吴国。
+  location_zh: 吴国
+- id: guji-季札-event-rang-guo
+  person_id: guji-季札
+  type: endeavor
+  date: -560
+  year_of: -560
+  title_zh: 让国于兄诸樊
+  description: 吴人固立季札，季札弃室而耕，辞让王位，遂立兄诸樊。
+  location_zh: 吴国
+- id: guji-季札-event-yanling
+  person_id: guji-季札
+  type: endeavor
+  date: -548
+  year_of: -548
+  title_zh: 封于延陵称延陵季子
+  description: 因让国之德，受封延陵，世称延陵季子。
+  location_zh: 延陵
+- id: guji-季札-event-guanle
+  person_id: guji-季札
+  type: endeavor
+  date: -544
+  year_of: -544
+  title_zh: 使鲁观周乐
+  description: 鲁襄公二十九年，请观周乐，为歌各国之诗，历论政之兴衰。
+  location_zh: 鲁国
+- id: guji-季札-event-guashi
+  person_id: guji-季札
+  type: endeavor
+  date: -544
+  year_of: -544
+  title_zh: 历聘齐郑卫晋而论其政
+  description: 使齐说晏平仲，适郑诫子产，适卫美诸君子，适晋谓叔向晋政将归大夫。
+  location_zh: 齐、郑、卫、晋
+- id: guji-季札-event-guajian
+  person_id: guji-季札
+  type: endeavor
+  date: -544
+  year_of: -544
+  title_zh: 挂剑徐君墓树
+  description: 过徐，徐君爱其剑而未言；心许之，使还时徐君已葬，宝剑挂其墓树以践心诺。
+  location_zh: 徐国
+- id: guji-季札-event-death
+  person_id: guji-季札
+  type: death
+  date: -484
+  year_of: -484
+  title_zh: 季札约卒
+  description: 葬于延陵，卒年不详。
+  location_zh: 延陵
