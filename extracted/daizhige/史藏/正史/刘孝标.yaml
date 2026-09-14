@@ -1,0 +1,228 @@
+person:
+  qid: guji-任昉
+  name_zh: 任昉
+  names:
+    zh: 任昉
+    en: Ren Fang
+  lifespan:
+    birth:
+      date: '460'
+      precision: year
+      is_circa: true
+      raw: 生前约刘宋末，卒年四十九推算
+    death:
+      date: '508'
+      precision: year
+      is_circa: false
+      raw: 天监六年春卒于新安太守官舍，时年四十九
+  birth_date: '460'
+  death_date: '508'
+  era: 南朝宋、齐、梁
+  reign_ref: 梁武帝天监
+  archetype: 文宗与荐贤之臣
+  dilemmas:
+  - 齐明帝令其草表而辞涉斥直，触怒明帝，建武中位不过列校
+  - 不治生产、散财亲故，身后诸孤流离无人赡恤
+  lesson: 素交可贵，利交可畏；才思无穷而散财好客，身后家门冷落，见世态炎凉。
+  summary_first_person: 我乐安任昉，字彦升，幼而好学，早知名。齐时为王俭、竟陵王记室，善属文，尤长载笔，王公表奏多出我手；因草明帝表辞直见忤，久沉下位。梁武帝践阼，以我为骠骑记室，掌禅让文诰，累迁黄门侍郎、吏部郎中，出守义兴、新安，居官清省，手校秘阁四部。我聚书万余卷，多异本，好奖进士友，时人号曰任君。天监六年卒于新安官舍，年四十九，百姓立祠城南，追赠太常卿，谥敬子。
+  source_urls:
+  - https://zh.wikisource.org/wiki/梁書/卷14
+endeavors:
+- id: guji-任昉-endeavor-1
+  key_role: 文翰之臣
+  summary: 以笔耕仕齐梁，表奏文诰，当世称宗
+  phases:
+  - key: brewing
+    name_zh: 早岁知名
+    labels:
+      zh:
+      - 宋齐仕途
+      - 文名初显
+    start_date: '476'
+    highlight_event_id: guji-任昉-event-qi-start
+  - key: breakthrough
+    name_zh: 载笔称宗
+    labels:
+      zh:
+      - 表奏草成
+      - 沈约推挹
+    start_date: '494'
+    highlight_event_id: guji-任昉-event-biaozou
+  - key: climax
+    name_zh: 佐梁掌诰
+    labels:
+      zh:
+      - 禅让文诰
+      - 参掌大选
+    start_date: '502'
+    highlight_event_id: guji-任昉-event-liang-gaozu
+  - key: closure
+    name_zh: 出守卒官
+    labels:
+      zh:
+      - 新安太守
+      - 百姓立祠
+    start_date: '507'
+    highlight_event_id: guji-任昉-event-death
+  decisions:
+  - date: '494'
+    title_zh: 草齐明帝表辞涉斥直
+    rationale: 奉命具表草而不肯饰辞容悦，遂触帝愠
+  - date: '502'
+    title_zh: 应霸府之引为骠骑记室
+    rationale: 昔日竟陵西邸戏言相符，且梁台初建须文诰之才
+- id: guji-任昉-endeavor-2
+  key_role: 藏书与校雠
+  summary: 家聚书万余卷，手雠校秘阁四部，篇目由定
+  phases:
+  - key: brewing
+    name_zh: 坟籍无所不见
+    labels:
+      zh:
+      - 聚书异本
+    start_date: '490'
+    highlight_event_id: guji-任昉-event-books
+  - key: breakthrough
+    name_zh: 秘阁校书
+    labels:
+      zh:
+      - 手自雠校
+    start_date: '504'
+    highlight_event_id: guji-任昉-event-jiaochou
+  - key: closure
+    name_zh: 书归官府
+    labels:
+      zh:
+      - 贺纵勘目
+      - 官所无者取之
+    start_date: '508'
+    highlight_event_id: guji-任昉-event-death
+  decisions:
+  - date: '504'
+    title_zh: 手自雠校秘阁四部
+    rationale: 永元以来篇卷纷杂，以私藏异本订定篇目
+events:
+- id: guji-任昉-event-birth
+  type: birth
+  date: '460'
+  year_of: 460
+  date_text: 约生于刘宋中后期
+  summary: 乐安博昌人，父遥仕齐为中散大夫。
+  participants:
+  - guji-任昉
+  place: 乐安博昌
+  source_cues:
+  - 乐安博昌人
+  - 父遥齐中散大夫
+- id: guji-任昉-event-first-post
+  type: appointment
+  date: '476'
+  year_of: 476
+  date_text: 约年十六为丹阳尹刘秉主簿
+  summary: 年十六辟为宋丹阳尹主簿，以气忤秉子；后举兖州秀才，拜太常博士。
+  participants:
+  - guji-任昉
+  - guji-刘秉
+  place: 建康
+  source_cues:
+  - 宋丹阳尹刘秉辟为主簿
+  - 时昉年十六
+- id: guji-任昉-event-qi-start
+  type: appointment
+  date: '483'
+  year_of: 483
+  date_text: 永明初
+  summary: 卫军将军王俭领丹阳尹，引为主簿，雅钦重之，以为当时无辈。
+  participants:
+  - guji-任昉
+  - guji-王俭
+  place: 建康
+  source_cues:
+  - 永明初，卫将军王俭领丹阳尹，复引为主簿
+- id: guji-任昉-event-biaozou
+  type: political_event
+  date: '494'
+  year_of: 494
+  date_text: 齐明帝废郁林王之后
+  summary: 为明帝具草表，辞直，帝恶其辞斥，由是终建武中位不过列校。
+  participants:
+  - guji-任昉
+  - guji-齐明帝
+  place: 建康
+  source_cues:
+  - 使昉具表草
+  - 帝恶其辞斥，甚愠昉
+- id: guji-任昉-event-liang-gaozu
+  type: political_event
+  date: '502'
+  year_of: 502
+  date_text: 梁台建
+  summary: 禅让文诰多出其手；高祖践阼，拜黄门侍郎，迁吏部郎中。
+  participants:
+  - guji-任昉
+  - guji-梁武帝
+  place: 建康
+  source_cues:
+  - 梁台建，禅让文诰，多昉所具
+- id: guji-任昉-event-yixing
+  type: appointment
+  date: '503'
+  year_of: 503
+  date_text: 天监二年
+  summary: 出为义兴太守，在任清洁，儿妾食麦而已；被代登舟，止有米五斛。
+  participants:
+  - guji-任昉
+  - guji-沈约
+  place: 义兴
+  source_cues:
+  - 天监二年，出为义兴太守
+  - 止有米五斛
+- id: guji-任昉-event-jiaochou
+  type: cultural_event
+  date: '504'
+  year_of: 504
+  date_text: 领秘书监后
+  summary: 自齐永元以来秘阁四部篇卷纷杂，昉手自雠校，篇目由定。
+  participants:
+  - guji-任昉
+  place: 建康
+  source_cues:
+  - 秘阁四部，篇卷纷杂，昉手自雠校，由是篇目定焉
+- id: guji-任昉-event-books
+  type: cultural_event
+  date: '495'
+  year_of: 495
+  date_text: 生平聚书
+  summary: 家虽贫，聚书至万余卷，率多异本，卒后官家勘目取之。
+  participants:
+  - guji-任昉
+  - guji-贺纵
+  - guji-沈约
+  place: 建康
+  source_cues:
+  - 家虽贫，聚书至万余卷，率多异本
+- id: guji-任昉-event-xinan
+  type: appointment
+  date: '507'
+  year_of: 507
+  date_text: 天监六年春
+  summary: 出为宁朔将军、新安太守，为政清省，就路决讼，吏民便之。
+  participants:
+  - guji-任昉
+  place: 新安
+  source_cues:
+  - 六年春，出为宁朔将军、新安太守
+  - 为政清省，吏民便之
+- id: guji-任昉-event-death
+  type: death
+  date: '508'
+  year_of: 508
+  date_text: 天监六年视事期岁卒于官舍
+  summary: 卒于新安官舍，年四十九，百姓立祠城南，追赠太常卿，谥敬子。
+  participants:
+  - guji-任昉
+  - guji-梁武帝
+  place: 新安
+  source_cues:
+  - 视事期岁，卒于官舍，时年四十九
+  - 追赠太常卿，谥曰敬子

@@ -1,0 +1,125 @@
+person:
+  qid: guji-萧统
+  name_zh: 萧统
+  names:
+    zh: 萧统
+    en: Xiao Tong
+  lifespan:
+    birth:
+      date: '0501'
+      precision: year
+      is_circa: false
+      raw: 中兴元年（501年）生于襄阳
+    death:
+      date: '0531'
+      precision: year
+      is_circa: false
+  birth_date: '0501'
+  death_date: '0531'
+  era: 南朝梁
+  reign_ref: 梁武帝天监至中大通年间
+  archetype: 文储编纂
+  dilemmas:
+  - 东宫储君之责与潜心编纂之志的取舍
+  - 蜡鹅事件后父子疑隙下的自处
+  lesson: 蓄书辑文，以不朽之业传世，不以寿数论成败
+  summary_first_person: 我是梁武帝长子萧统，世称昭明太子。生而聪慧，三岁受《孝经》，长而遍读群书。天监元年立为皇太子，仁孝谦谨，_bits簿不盈。惜三十一岁因病早逝，未及登基。我召集刘孝绰、徐陵等文士，编纂《文选》三十卷，又辑《陶渊明集》、作《文选序》，为后世文章之学的津梁。
+  source_urls:
+  - https://zh.wikisource.org/wiki/梁書/卷8
+endeavors:
+- id: guji-萧统-endeavor-1
+  key: 东宫侍读与储政
+  name_zh: 立储与东宫治政
+  phases:
+  - key: brewing
+    name_zh: 立储
+    labels:
+      zh:
+      - 储君
+    start_date: '0502'
+    highlight_event_id: guji-萧统-event-1
+  - key: breakthrough
+    name_zh: 东宫行政
+    labels:
+      zh:
+      - 仁德
+      - 断狱
+    start_date: '0512'
+    highlight_event_id: guji-萧统-event-2
+  - key: climax
+    name_zh: 蜡鹅之疑
+    labels:
+      zh:
+      - 疑隙
+    start_date: '0527'
+    highlight_event_id: guji-萧统-event-3
+  decisions:
+  - date: '0527'
+    title_zh: 谨守臣节，不复辩白
+    rationale: 面对父子疑隙，选择缄默自省，以全孝道与储位之安
+- id: guji-萧统-endeavor-2
+  key: 编纂文选
+  name_zh: 编纂《文选》
+  phases:
+  - key: brewing
+    name_zh: 聚书延士
+    labels:
+      zh:
+      - 藏书
+      - 文学集团
+    start_date: '0510'
+    highlight_event_id: guji-萧统-event-4
+  - key: breakthrough
+    name_zh: 选文成书
+    labels:
+      zh:
+      - 文选
+    start_date: '0526'
+    highlight_event_id: guji-萧统-event-5
+  - key: closure
+    name_zh: 遗编传世
+    labels:
+      zh:
+      - 身后流芳
+    start_date: '0531'
+    highlight_event_id: guji-萧统-event-death
+  decisions:
+  - date: '0526'
+    title_zh: 立'事出于沉思，义归乎翰藻'之选文标准
+    rationale: 区分经史子集与文学之作，专取有文采者，奠定总集编纂准则
+events:
+- id: guji-萧统-event-birth
+  date: '0501'
+  year_of: 501
+  type: birth
+  summary_zh: 生于襄阳，为萧衍长子
+- id: guji-萧统-event-death
+  date: '0531'
+  year_of: 531
+  type: death
+  summary_zh: 中大通三年病逝，谥昭明，世称昭明太子
+- id: guji-萧统-event-1
+  date: '0502'
+  year_of: 502
+  type: appointment
+  summary_zh: 天监元年十一月，立为皇太子
+- id: guji-萧统-event-2
+  date: '0512'
+  year_of: 512
+  type: governance
+  summary_zh: 武帝出驾，太子居监国，亲览庶政，断狱多所宽宥
+- id: guji-萧统-event-3
+  date: '0527'
+  year_of: 527
+  type: crisis
+  summary_zh: 蜡鹅事件起，武帝疑忌，太子终不能自明，郁郁自守
+- id: guji-萧统-event-4
+  date: '0510'
+  year_of: 510
+  type: academic
+  summary_zh: 起乐贤堂，聚书近三万卷，延纳文学之士如刘孝绰、王筠等
+- id: guji-萧统-event-5
+  date: '0526'
+  year_of: 526
+  type: publication
+  summary_zh: 编成《文选》三十卷，撰《文选序》，成中国古代现存最早诗文总集

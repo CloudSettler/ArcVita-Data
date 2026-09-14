@@ -1,0 +1,125 @@
+person:
+  qid: guji-沈约
+  name_zh: 沈约
+  names:
+    zh: 沈约
+    en: Shen Yue
+  lifespan:
+    birth:
+      date: '441'
+      precision: year
+      is_circa: true
+      raw: 刘宋元嘉十八年（约）
+    death:
+      date: '513'
+      precision: year
+      is_circa: false
+      raw: 梁天监十二年
+  birth_date: '441'
+  death_date: '513'
+  era: 南朝宋、齐、梁
+  reign_ref: 梁武帝天监年间
+  archetype: 文学家与史学家
+  dilemmas:
+  - 身历三朝，历仕宋齐梁，如何在易代之际自处并参与劝进
+  - 作为「竟陵八友」之一，文友萧衍最终称帝，友情与君臣之别的转变
+  lesson: 以文才与史学立身，历仕三朝而不坠，然晚年因言语谨慎、惧患而卒，可见易代文人维系名位之难。
+  summary_first_person: 我是沈约，字休文，吴兴武康人。我历仕宋、齐、梁三朝，博通典籍，撰《宋书》《四声谱》，倡导四声八病之说，是永明体诗歌的重要推动者。当年我曾与萧衍同游竟陵王西邸，列为「竟陵八友」之一。
+  source_urls:
+  - https://zh.wikisource.org/wiki/梁書/卷1
+endeavors:
+- id: guji-沈约-endeavor-1
+  key: 文学与史学著述
+  title_zh: 撰《宋书》与倡导永明体
+  domain: 史学文学
+  phases:
+  - key: brewing
+    name_zh: 早年博学
+    labels:
+      zh:
+      - 少孤笃志
+      - 博通典籍
+    start_date: '455'
+  - key: breakthrough
+    name_zh: 竟陵八友
+    labels:
+      zh:
+      - 西邸之游
+      - 永明体
+    start_date: '487'
+    highlight_event_id: guji-沈约-event-xidi
+  - key: climax
+    name_zh: 入梁辅政与著史
+    labels:
+      zh:
+      - 劝进称帝
+      - 撰宋书
+    start_date: '501'
+    highlight_event_id: guji-沈约-event-quanjin
+  - key: closure
+    name_zh: 晚年位望
+    labels:
+      zh:
+      - 尚书仆射
+      - 加特进
+    start_date: '507'
+- id: guji-沈约-endeavor-2
+  key: 声律之学
+  title_zh: 四声八病之说
+  domain: 音韵学
+  phases:
+  - key: brewing
+    name_zh: 潜心音韵
+    labels:
+      zh:
+      - 四声探讨
+    start_date: '485'
+    highlight_event_id: guji-沈约-event-sisheng
+  - key: breakthrough
+    name_zh: 张约诗坛
+    labels:
+      zh:
+      - 谢朓唱和
+    start_date: '490'
+events:
+- id: guji-沈约-event-birth
+  title_zh: 沈约出生
+  date: '441'
+  year_of: 441
+  kind: birth
+  summary_zh: 沈约生于吴兴武康，约当刘宋元嘉年间。
+- id: guji-沈约-event-xidi
+  title_zh: 游于竟陵王西邸，列竟陵八友
+  date: '487'
+  year_of: 487
+  kind: endeavor
+  endeavor_ref: guji-沈约-endeavor-1
+  source_text: 竟陵王子良开西邸，招文学，高祖与沈约、谢朓、王融、萧琛、范云、任昉、陆倕等并游焉，号曰八友。
+  summary_zh: 竟陵王萧子良开西邸招文学之士，沈约与萧衍、谢朓、王融、萧琛、范云、任昉、陆倕并游其间，号称「竟陵八友」。
+- id: guji-沈约-event-sisheng
+  title_zh: 立「四声八病」之说
+  date: '485'
+  year_of: 485
+  kind: endeavor
+  endeavor_ref: guji-沈约-endeavor-2
+  summary_zh: 沈约研求声律，提出四声八病之说，与谢朓等共创永明体诗歌。
+- id: guji-沈约-event-quanjin
+  title_zh: 沈约劝萧衍受禅代齐
+  date: 502-04
+  year_of: 502
+  kind: endeavor
+  endeavor_ref: guji-沈约-endeavor-1
+  summary_zh: 梁将受禅之际，沈约为萧衍陈说符命劝进，萧衍即帝位建立梁朝，沈约以佐命之功显贵。
+- id: guji-沈约-event-songsong
+  title_zh: 撰成《宋书》
+  date: '502'
+  year_of: 502
+  kind: endeavor
+  endeavor_ref: guji-沈约-endeavor-1
+  summary_zh: 沈约入梁后奉敕撰《宋书》，记载刘宋一朝史事，为二十四史之一。
+- id: guji-沈约-event-death
+  title_zh: 沈约去世
+  date: '513'
+  year_of: 513
+  kind: death
+  summary_zh: 沈约卒于梁天监十二年，时为尚书左仆射、领太子少傅，谥曰隐侯。
