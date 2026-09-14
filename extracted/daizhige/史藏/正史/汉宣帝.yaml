@@ -1,0 +1,126 @@
+person:
+  qid: guji-汉宣帝
+  name_zh: 汉宣帝
+  names:
+    zh: 汉宣帝
+    en: Emperor Xuan of Han
+  lifespan:
+    birth:
+      date: -0091
+      precision: year
+      is_circa: true
+      raw: 前91年
+    death:
+      date: -0048
+      precision: year
+      is_circa: false
+      raw: 前48年（黄龙元年）
+  birth_date: -0091
+  death_date: -0048
+  era: 西汉
+  reign_ref: 孝宣皇帝（前74年—前48年在位）
+  archetype: 中兴守成之君
+  dilemmas:
+  - 对匈奴当威服还是和亲，何者可致长治久安
+  - 抚纳呼韩邪来朝，如何定其君臣之礼而不失中国之尊
+  lesson: 权时施宜、覆以威德，则边城晏闭、牛马布野，三代无犬吠之警。
+  summary_first_person: 我承武帝奋击之威，当匈奴内乱几亡之运，以威德兼施纳呼韩邪单于称臣入朝，自此三世称籓，北边无事六十余载，成西汉中兴之治。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書/卷九十四下
+endeavors:
+- id: guji-汉宣帝-endeavor-1
+  name_zh: 抚纳呼韩邪、威德并用定匈奴
+  phases:
+  - key: brewing
+    name_zh: 承武宣余威
+    labels:
+      zh:
+      - 承武帝奋击之威
+    start_date: -60
+  - key: breakthrough
+    name_zh: 匈奴坏乱来服
+    labels:
+      zh:
+      - 因其坏乱几亡之厄
+    start_date: -41
+    highlight_event_id: guji-汉宣帝-event-xiongnu-submit
+  - key: climax
+    name_zh: 三世称籓
+    labels:
+      zh:
+      - 稽首臣服、遣子入侍
+    start_date: -41
+    highlight_event_id: guji-汉宣帝-event-xiongnu-submit
+  - key: closure
+    name_zh: 边塞安靖
+    labels:
+      zh:
+      - 边城晏闭、牛马布野
+    start_date: -0048
+  decisions:
+  - date: -41
+    title_zh: 以客礼权宜纳单于朝汉
+    rationale: 匈奴乱而内附，权时施宜，覆以威德，遂使称籓
+- id: guji-汉宣帝-endeavor-2
+  name_zh: 为匈奴作约束、定南北分界
+  phases:
+  - key: brewing
+    name_zh: 与孝元同立约束
+    labels:
+      zh:
+      - 长城以南天子有之，长城以北单于有之
+    start_date: -41
+  - key: breakthrough
+    name_zh: 有犯塞辄闻、降者不受
+    labels:
+      zh:
+      - 约束封函
+    start_date: -41
+    highlight_event_id: guji-汉宣帝-event-yueshu
+  - key: climax
+    name_zh: 世守汉章
+    labels:
+      zh:
+      - 呼韩邪遗言勿受中国降者
+    start_date: -25
+  - key: closure
+    name_zh: 故函为凭
+    labels:
+      zh:
+      - 王莽收故宣帝所为约束封函还
+    start_date: 0009
+  decisions:
+  - date: -41
+    title_zh: 颁约束封函与单于
+    rationale: 明南北之界、禁纳降者，以绝边衅
+events:
+- id: guji-汉宣帝-event-birth
+  event_type: birth
+  date: -0091
+  year_of: -0091
+  description: 汉宣帝生，具体月份史文未详。
+- id: guji-汉宣帝-event-reign-start
+  event_type: accession
+  date: -60
+  year_of: -60
+  description: 汉宣帝即位，承武帝奋击之威。
+- id: guji-汉宣帝-event-xiongnu-submit
+  event_type: political
+  date: -41
+  year_of: -41
+  description: 匈奴内乱，呼韩邪单于稽首臣服，入朝汉庭称籓，宣帝权时施宜、覆以威德而纳之。
+- id: guji-汉宣帝-event-yueshu
+  event_type: policy
+  date: -41
+  year_of: -41
+  description: 汉宣帝为匈奴作约束：长城以南天子有之、长城以北单于有之；有犯塞辄以状闻，有降者不得受，封函付单于奉行。
+- id: guji-汉宣帝-event-frontier-peace
+  event_type: policy
+  date: -0048
+  year_of: -0048
+  description: 宣帝之世边城晏闭，牛马布野，三世无犬吠之警，黎庶无干戈之役，后世边吏犹引孝宣故事为凭。
+- id: guji-汉宣帝-event-death
+  event_type: death
+  date: -0048
+  year_of: -0048
+  description: 汉宣帝崩，其威德余泽庇及元、成数世北边之安。

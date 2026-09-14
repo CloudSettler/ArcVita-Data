@@ -1,0 +1,122 @@
+person:
+  qid: guji-赵佗
+  name_zh: 赵佗
+  names:
+    zh: 赵佗
+    en: Zhao Tuo
+  lifespan:
+    birth:
+      date: -240
+      precision: circa
+      is_circa: true
+      raw: 约公元前240年
+    death:
+      date: -137
+      precision: year
+      is_circa: false
+      raw: 建元四年（公元前137年）
+  birth_date: 约公元前240年
+  death_date: 公元前137年
+  era: 秦末至汉武帝初
+  reign_ref: 南越武王（曾自称南越武帝）
+  archetype: 割据称雄的边裔开国之主
+  dilemmas:
+  - 中原王朝正统与岭南自立之间的称臣与称帝抉择
+  - 闭关自守以自保与奉贡修好以安边之间的权衡
+  lesson: 善审时势、能屈能伸，越族半壁可传数世
+  summary_first_person: 我本真定人，秦时为南海龙川令。秦亡，我行南海尉事，击并桂林、象郡，自立为南越武王。汉高祖时通使，惠帝三年我称臣奉贡。吕后时禁关市，我乃自尊号为南越武帝，发兵攻长沙边邑。文帝遣陆贾来聘，我去帝号复称臣，至今子孙称王于岭外。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/赵佗
+endeavors:
+- id: guji-赵佗-endeavor-1
+  name_zh: 经略岭南、建立南越国
+  labels:
+    zh: 开基立国
+  phases:
+  - key: brewing
+    name_zh: 仕秦治粤
+    labels:
+      zh: 秦南海尉事
+    start_date: -214
+    highlight_event_id: guji-赵佗-event-appoint
+  - key: breakthrough
+    name_zh: 割据称王
+    labels:
+      zh: 击并桂林象郡
+    start_date: -204
+    highlight_event_id: guji-赵佗-event-crown
+  - key: climax
+    name_zh: 自帝抗汉
+    labels:
+      zh: 僭号南越武帝
+    start_date: -183
+    highlight_event_id: guji-赵佗-event-emperor
+  - key: closure
+    name_zh: 去帝复藩
+    labels:
+      zh: 称臣奉贡
+    start_date: -179
+    highlight_event_id: guji-赵佗-event-tribute
+  decisions:
+  - date: -204
+    title_zh: 绝道自守，击并桂林、象郡，自立为南越武王
+    rationale: 秦亡中原大乱，据五岭之险以保土自王
+  - date: -183
+    title_zh: 因汉禁关市，自尊为南越武帝
+    rationale: 吕后绝其商旅铁器，边关不平，反以僭号自固
+  - date: -179
+    title_zh: 应文帝之使，去帝号称臣奉贡
+    rationale: 天下定于一统，称帝徒招征伐，称藩可保安康
+events:
+- id: guji-赵佗-event-birth
+  name_zh: 赵佗生于真定（约）
+  event_type: birth
+  date:
+    year: -240
+  year_of: -240
+  source_refs: 约生于秦恒山郡真定
+- id: guji-赵佗-event-appoint
+  name_zh: 秦置南海郡，赵佗为龙川令，行南海尉事
+  event_type: career
+  date:
+    year: -214
+  year_of: -214
+  source_refs: 《史记·南越列传》；据本纪秦定南越置郡背景
+- id: guji-赵佗-event-crown
+  name_zh: 秦亡，赵佗击并桂林、象郡，自立为南越武王
+  event_type: career
+  date:
+    year: -204
+  year_of: -204
+  source_refs: 《史记·南越列传》
+- id: guji-赵佗-event-tribute
+  name_zh: 南越王赵佗称臣奉贡于汉
+  event_type: career
+  date:
+    year: -192
+    month: 7
+    day: 未知
+  year_of: -192
+  source_refs: 《汉书·惠帝纪》三年秋七月：南越王赵佗称臣奉贡
+- id: guji-赵佗-event-emperor
+  name_zh: 南粤王尉佗自尊号为南越武帝
+  event_type: career
+  date:
+    year: -183
+  year_of: -183
+  source_refs: 《汉书·高后纪》五年春：南粤王尉佗自称南武帝
+- id: guji-赵佗-event-invasion
+  name_zh: 南越发兵侵盗长沙边邑
+  event_type: conflict
+  date:
+    year: -181
+    month: 9
+  year_of: -181
+  source_refs: 《汉书·高后纪》七年秋九月：南越侵盗长沙，遣隆虑侯灶将兵击之
+- id: guji-赵佗-event-death
+  name_zh: 赵佗薨，孙赵昧嗣立
+  event_type: death
+  date:
+    year: -137
+  year_of: -137
+  source_refs: 《史记·南越列传》：佗孙胡立（佗卒于建元四年）
