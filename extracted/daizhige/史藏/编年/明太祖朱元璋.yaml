@@ -1,0 +1,145 @@
+person:
+  qid: guji-朱元章
+  name_zh: 朱元璋（明太祖）
+  names:
+    zh: 朱元璋
+    en: Zhu Yuanzhang
+  lifespan:
+    birth:
+      date: '1328'
+      precision: year
+      is_circa: true
+      raw: 元天历元年生
+  birth_date: '1328'
+  era: 元末明初
+  reign_ref: 洪武（1368–1398）
+  archetype: 布衣开国君主
+  dilemmas:
+  - 出身贫寒、亲族死于饥疫，被迫托身佛门
+  - 依附红巾军韩林儿势力与自立称帝之间的取舍
+  - 对元朝宗室“肆行屠戮”与“毋肆焚掠”的政策权衡
+  lesson: 起于布衣而能知人善任、约束军纪，终成一统之业
+  summary_first_person: 我朱元璋，字国瑞，先世居沛，再徙句容、泗州，父世珍始徙濠州钟离。元天历元年我生于农家，至正四年大饥疫，年十七父母兄相继殁，无所依，乃入皇觉寺为僧。元政不纲，群盗四起，至正十二年郭子兴起兵濠州，我往谒，子兴奇其貌，留为亲兵，妻以马氏。其后收兵定远，取滁、和，渡江拔采石、下太平，取集庆为应天府，先后败陈友谅于鄱阳湖、擒张士诚于平江，遣徐达北定中原。洪武元年正月，李善长等奉我为皇帝，国号明，建元洪武，即位后定盐茶法、修女诫、却四方之献，命诸将毋肆焚掠。
+endeavors:
+- id: guji-朱元章-endeavor-1
+  key: brewing
+  name_zh: 皈依佛门与投身濠州义军
+  labels:
+    zh:
+    - 皇觉寺
+    - 郭子兴亲兵
+  start_date: '1344'
+  highlight_event_id: guji-朱元章-event-join-uprising
+  decisions:
+  - date: '1352'
+    title: 谒见郭子兴、留为亲兵
+    rationale: 元政不纲、群盗四起，投身义军以求自存并有所作为
+- id: guji-朱元章-endeavor-2
+  key: breakthrough
+  name_zh: 据应天、翦灭群雄
+  labels:
+    zh:
+    - 跨有江左
+    - 平陈友谅张士诚
+  start_date: '1356'
+  highlight_event_id: guji-朱元章-event-poyanghu
+  decisions:
+  - date: 1360-06
+    title: 设计令康茂才绐陈友谅速来
+    rationale: 患友谅与士诚合兵、东西夹击，故设伏先破其锋
+  - date: '1363'
+    title: 自将救洪都、战于鄱阳湖
+    rationale: 友谅大举围洪都，亲率舟师决战以定江右之局
+- id: guji-朱元章-endeavor-3
+  key: climax
+  name_zh: 即皇帝位建明与北伐定鼎
+  labels:
+    zh:
+    - 建元洪武
+    - 大将北伐
+  start_date: 1368-01
+  highlight_event_id: guji-朱元章-event-founding
+  decisions:
+  - date: 1367-10
+    title: 命徐达为大将军率师二十五万北定中原
+    rationale: 中原之民久为群雄所苦，命将北伐拯民水火
+  - date: '1368'
+    title: 谕徐达诸将毋肆焚掠妄杀人
+    rationale: 革命之际不忍肆行屠戮，元之宗戚咸俾安全，以答天心、慰民望
+- id: guji-朱元章-endeavor-4
+  key: closure
+  name_zh: 立制昭治、正家训后
+  labels:
+    zh:
+    - 修女诫
+    - 却献却贡
+  start_date: '1368'
+  decisions:
+  - date: '1368'
+    title: 命朱升等纂述女诫及古贤后妃事
+    rationale: 治天下修身为本、正家为先，鉴历代政由内出之祸
+events:
+- id: guji-朱元章-event-birth
+  date: '1328'
+  year_of: '1328'
+  title: 生于濠州钟离
+  description: 元天历元年，元璋生，室中数有光，为家中幼子，母陈氏。
+  kind: birth
+  participants:
+  - guji-朱元章
+- id: guji-朱元章-event-join-uprising
+  date: '1352'
+  year_of: '1352'
+  title: 谒郭子兴，留为亲兵
+  description: 至正十二年，郭子兴起兵濠州，元璋往谒，子兴奇其貌，留为亲兵，战辄胜，妻以所抚马氏女。
+  kind: endeavour
+  participants:
+  - guji-朱元章
+  - 郭子兴
+- id: guji-朱元章-event-yingtian
+  date: '1356'
+  year_of: '1356'
+  title: 取集庆路改为应天府
+  description: 渡江下太平后，取集庆路，改为应天府，寻自称吴国公，次第略定江左浙右。
+  kind: endeavour
+  participants:
+  - guji-朱元章
+- id: guji-朱元章-event-poyanghu
+  date: '1363'
+  year_of: '1363'
+  title: 自将救洪都，鄱阳湖破陈友谅
+  description: 友谅大举围洪都，元璋自将救之，逆战于鄱阳湖，友谅屡败中流矢死，其将张定边奉友谅子理奔武昌。
+  kind: endeavour
+  participants:
+  - guji-朱元章
+  - 陈友谅
+- id: guji-朱元章-event-pingjiang
+  date: 1367-09
+  year_of: '1367'
+  title: 徐达克平江执张士诚
+  description: 吴元年徐达克平江，执张士诚，江东悉定。
+  kind: endeavour
+  participants:
+  - guji-朱元章
+  - 徐达
+  - 张士诚
+- id: guji-朱元章-event-founding
+  date: '1368-01-23'
+  year_of: '1368'
+  title: 即皇帝位，国号明，建元洪武
+  description: 李善长率百官劝进，是年春正月乙亥祀天地于南郊，即皇帝位，定国号曰明，建元洪武。
+  kind: founding
+  participants:
+  - guji-朱元章
+  - 李善长
+- id: guji-朱元章-event-henan-fall
+  date: '1368'
+  year_of: '1368'
+  title: 徐达常遇春大破元兵于洛水北
+  description: 遇春单骑突阵，元军大溃，追奔五十余里，梁王阿抡以河南降；帝如汴梁，命达率师北伐。
+  kind: endeavour
+  participants:
+  - guji-朱元章
+  - 徐达
+  - 常遇春
+  - 阿抡
