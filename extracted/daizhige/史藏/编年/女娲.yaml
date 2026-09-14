@@ -1,0 +1,123 @@
+person:
+  qid: guji-女娲
+  name_zh: 女娲
+  names:
+    zh: 女娲
+    en: Nüwa
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 上古传说时代，包牺氏之后
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+  era: 上古三皇时代
+  reign_ref: 女皇元年辛未
+  archetype: 补天造人、整顿天地秩序的创世女帝
+  dilemmas:
+  - 四极废、九州裂，天倾地陷，苍生罹难，她以己身之力补天治水，承担秩序重建之重责
+  - 代替包牺氏王天下，是继承旧制还是开创女帝新统
+  lesson: 当天崩地裂、秩序崩坏之际，以坚韧与创造精神补天济世，使苍生各安其性
+  summary_first_person: 我是女娲，风姓，蛇身人首，继包牺氏而立，号为女帝。当是时四极废、九州裂，我炼五色石以补苍天，断鳌足以立四极，杀黑龙以济冀州，积芦灰以止淫水，又作笙簧、制婚姻之礼。虽然承包牺之制无所革造，但在位一百三十年，天下苍生得以安居。
+endeavors:
+- id: guji-女娲-endeavor-1
+  name_zh: 代立为帝，承包牺之制
+  phases:
+  - key: brewing
+    name_zh: 继包牺氏而立
+    labels:
+      zh:
+      - 女皇
+      - 女帝
+    start_date: -2700
+  - key: breakthrough
+    name_zh: 始为女皇元年辛未
+    labels:
+      zh:
+      - 即位
+    start_date: -2700
+    highlight_event_id: guji-女娲-event-reign-start
+  decisions:
+  - date: -2700
+    title_zh: 承包牺制度无所革造
+    rationale: 承继前王法度，使制度连续而天下安定
+- id: guji-女娲-endeavor-2
+  name_zh: 补天治水、重建天地秩序
+  phases:
+  - key: brewing
+    name_zh: 天崩地裂之灾
+    labels:
+      zh:
+      - 四极废
+      - 九州裂
+    start_date: -2650
+  - key: breakthrough
+    name_zh: 炼石补天、断鳌立极
+    labels:
+      zh:
+      - 补天
+      - 立四极
+    start_date: -2650
+    highlight_event_id: guji-女娲-event-repair-sky
+  - key: climax
+    name_zh: 杀黑龙止淫水
+    labels:
+      zh:
+      - 断鳌足
+      - 杀黑龙
+      - 积芦灰止淫水
+    start_date: -2648
+    highlight_event_id: guji-女娲-event-stop-flood
+  - key: closure
+    name_zh: 天下平定
+    labels:
+      zh:
+      - 川平狡虫
+    start_date: -2640
+  decisions:
+  - date: -2650
+    title_zh: 炼五色石以补苍天
+    rationale: 天不兼覆，故炼石补之，断鳌足以立四极
+  - date: -2648
+    title_zh: 积芦灰以止淫水
+    rationale: 洪水浩洋不息，杀黑龙、积芦灰以救民生
+events:
+- id: guji-女娲-event-birth
+  date: -2750
+  year_of: -2750
+  type: birth
+  title_zh: 女娲生于上古传说之世
+  description: 风姓，蛇身人首，系包牺氏（伏羲）同族传说时代之女帝。
+- id: guji-女娲-event-reign-start
+  date: -2700
+  year_of: -2700
+  type: office
+  title_zh: 包牺氏没，女娲氏代立，号女帝
+  description: 是为女皇，元年辛未，在位一百三十年。
+- id: guji-女娲-event-repair-sky
+  date: -2650
+  year_of: -2650
+  type: achievement
+  title_zh: 炼五色石补苍天，断鳌足立四极
+  description: 时四极废、九州裂，天不兼覆，地不周载，火爁炎而不灭；女娲炼五色石以补苍天，断鳌足以立四极。
+- id: guji-女娲-event-stop-flood
+  date: -2648
+  year_of: -2648
+  type: achievement
+  title_zh: 杀黑龙、积芦灰以止淫水
+  description: 杀黑龙以济冀州，积芦灰以止淫水；天不足西北故日月移焉，地不足东南故百川注焉。
+- id: guji-女娲-event-culture
+  date: -2645
+  year_of: -2645
+  type: achievement
+  title_zh: 作笙簧、正婚姻
+  description: 作笙簧，张云幕而枚占神明，定嫁娶人伦，苍天补、四极正、狡虫死，民生得安。
+- id: guji-女娲-event-death
+  date: -2570
+  year_of: -2570
+  type: death
+  title_zh: 女娲在位一百三十年而终
+  description: 在位百三十年，公元前二五七〇年前后（传说年代，只具纪年意义）。

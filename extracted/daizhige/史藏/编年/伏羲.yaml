@@ -1,0 +1,150 @@
+person:
+  qid: guji-伏羲
+  name_zh: 伏羲
+  names:
+    zh: 伏羲
+    en: Fuxi
+  lifespan:
+    birth:
+      date: '-2700'
+      precision: 约上古传说时代
+      is_circa: true
+      raw: 上古之时，生于成纪，甲寅元年辛巳（传说纪年）
+    death:
+      date: '-2600'
+      precision: 约传说在位一百一十年（或云一百一十六年）后
+      is_circa: true
+  birth_date: 约-2700（传说）
+  death_date: 约-2600（传说，在位百余年后没）
+  era: 上古三皇时代
+  reign_ref: 甲寅元年辛巳（传说纪年）
+  archetype: 文化创制圣王
+  dilemmas:
+  - 上古民智未开、无纲纪器用，何以立教化之基
+  - 传闻异辞、年代渺远，如何考信于后世
+  lesson: 观天法地、因时而制，方为百王之先
+  summary_first_person: 我生于成纪，风姓，德合天地。我仰观天象、俯察地理，始作八卦，因重之为六十四爻；结绳为网罟以佃以渔，以赡民用；制嫁娶以俪皮为礼；作甲历、建五气、定五行；以龙纪官，正君臣父子夫妇之义。我继天而王，为百王之首，在位一百一十年而没，后世称为太昊。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑外紀/卷第一
+endeavors:
+- id: guji-伏羲-endeavor-1
+  name_zh: 继天立极，造作八卦
+  phases:
+  - key: brewing
+    name_zh: 德合上下，天地瑞应
+    labels:
+      zh:
+      - 河图洛书
+      - 鸟兽文章
+    start_date: 约-2706
+  - key: breakthrough
+    name_zh: 仰观俯察，始作八卦
+    labels:
+      zh:
+      - 三画象二十四气
+      - 因而重之，爻象备矣
+    start_date: '-2700'
+    highlight_event_id: guji-伏羲-event-bagua
+  - key: climax
+    name_zh: 制度立教
+    labels:
+      zh:
+      - 造网罟以佃以渔
+      - 制嫁娶以俪皮为礼
+      - 以龙纪官
+    start_date: '-2690'
+    highlight_event_id: guji-伏羲-event-wanggu
+  - key: closure
+    name_zh: 在位崩殒，为百王先
+    labels:
+      zh:
+      - 在位一百一十年
+    start_date: '-2600'
+    highlight_event_id: guji-伏羲-event-death
+  decisions:
+  - date: '-2700'
+    title_zh: 取象天地始作八卦
+    rationale: 天应以河图洛书，故仰观象于天、俯观法于地、中观万物之宜，造八卦以通神明之德
+  - date: '-2690'
+    title_zh: 作为网罟教民佃渔
+    rationale: 上古茹毛饮血、衣食无利，度时制宜作网罟以赡民用
+  - date: '-2680'
+    title_zh: 制嫁娶之礼、定人伦
+    rationale: 民但知其母不知其父，故以俪皮为礼制嫁娶，正夫妇之义
+- id: guji-伏羲-endeavor-2
+  name_zh: 治历明时，立官布教
+  phases:
+  - key: brewing
+    name_zh: 筮纪阳气以为律法
+    labels:
+      zh:
+      - 建五气
+      - 立五常
+    start_date: '-2695'
+  - key: breakthrough
+    name_zh: 有甲历五运
+    labels:
+      zh:
+      - 甲历
+      - 五运
+    start_date: '-2693'
+    highlight_event_id: guji-伏羲-event-lijian
+  - key: climax
+    name_zh: 始名官而以龙纪
+    labels:
+      zh:
+      - 龙纪官
+      - 定五行
+    start_date: '-2690'
+    highlight_event_id: guji-伏羲-event-lijian
+  - key: closure
+    name_zh: 人民乃治，各安其性
+    labels:
+      zh:
+      - 君亲以尊
+      - 臣子以顺
+    start_date: '-2650'
+  decisions:
+  - date: '-2693'
+    title_zh: 作甲历、建五气立五常
+    rationale: 筮纪阳气之初以为律法，使民知天时，立纲常之教
+  - date: '-2690'
+    title_zh: 始名官而以龙纪官
+    rationale: 上古有名无官，故立官职以龙名之，定五行、正人伦
+events:
+- id: guji-伏羲-event-birth
+  date: 约-2700
+  year_of: -2700
+  type: birth
+  title_zh: 生于成纪
+  description: 包牺氏母曰华胥，蛇首人身，风姓，生于成纪
+- id: guji-伏羲-event-ascend
+  date: '-2700'
+  year_of: -2700
+  type: reign_start
+  title_zh: 继天而王，甲寅元年
+  description: 继天而王，为百王先；一说甲寅元年辛巳，太昊之号取象日月之明
+- id: guji-伏羲-event-bagua
+  date: '-2700'
+  year_of: -2700
+  type: achievement
+  title_zh: 造八卦
+  description: 德合上下，天应以鸟兽文章，地应以河图洛书；仰观象于天，俯观法于地，中观万物之宜，造八卦，始作三画以象二十四气，因而重之，爻象备矣
+- id: guji-伏羲-event-wanggu
+  date: '-2690'
+  year_of: -2690
+  type: achievement
+  title_zh: 作网罟以佃以渔，制嫁娶之礼
+  description: 度时制宜，作为网罟以佃以渔，以赡民用；制嫁娶以俪皮为礼，于是人民乃治
+- id: guji-伏羲-event-lijian
+  date: '-2690'
+  year_of: -2690
+  type: achievement
+  title_zh: 建律法、立官制
+  description: 筮之纪阳气之初以为律法，建五气、立五常、定五行，始名官而以龙纪，有甲历五运，象法乾坤以正君臣父子夫妇之义
+- id: guji-伏羲-event-death
+  date: '-2600'
+  year_of: -2600
+  type: death
+  title_zh: 在位崩殒
+  description: 在位一百一十年（或云一百一十六年）而没，包牺氏没，女娲氏代立

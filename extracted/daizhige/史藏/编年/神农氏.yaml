@@ -1,0 +1,115 @@
+person:
+  qid: guji-shennong
+  name_zh: 神农氏
+  names:
+    zh: 神农氏
+    en: Shennong
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 古史传说中人物，无确切生年
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 传说在位一百二十年，一说一百四十年而崩
+  era: 上古传说时代
+  reign_ref: 以火德承木，号炎帝
+  archetype: 农业与医药文明的开创者
+  dilemmas:
+  - 亲尝百草济民，却一日遇七十毒，以身试险
+  - 夙沙氏叛命，箕文进谏被杀后，退而修德以化天下
+  lesson: 教民稼穑、辨别百草，以亲身实践为民求福祉；恃德修政则天下归心
+  summary_first_person: 我教民播种五谷，制耒耜以垦草莽；尝百草察水泉甘苦，使民知所避就；作琴通神明之德，日中为市而民富教成。夙沙氏叛，我偃武修德，其民自归其地。
+endeavors:
+- id: guji-shennong-endeavor-1
+  name_zh: 教民稼穑、发展农业
+  phases:
+  - key: brewing
+    name_zh: 禽兽难养，求可食之物
+    labels:
+      zh:
+      - 相土地
+      - 燥湿肥硗
+    start_date: -2737
+    highlight_event_id: guji-shennong-event-farming
+  - key: breakthrough
+    name_zh: 制耒耜垦草莽，天雨粟而五谷兴
+    labels:
+      zh:
+      - 耒耜
+      - 播种五谷
+    start_date: -2735
+    highlight_event_id: guji-shennong-event-farming
+  decisions:
+  - date: -2740
+    title_zh: 相地宜而分地利，教民播种五谷
+    rationale: 人民众多、禽兽难以久养，故求可食之物，因天之时、分地之利以立民生之本
+- id: guji-shennong-endeavor-2
+  name_zh: 尝百草、创医药
+  phases:
+  - key: breakthrough
+    name_zh: 遍尝百草水泉，令民知所避就
+    labels:
+      zh:
+      - 尝百草
+      - 医药
+    start_date: -2730
+    highlight_event_id: guji-shennong-event-tasting
+  decisions:
+  - date: -2730
+    title_zh: 亲尝百草酸咸之味
+    rationale: 民茹草饮水、食蠃蛖之肉多疾病毒伤之害，故尝味察性以治病避毒
+- id: guji-shennong-endeavor-3
+  name_zh: 修德安邦、教化天下
+  phases:
+  - key: climax
+    name_zh: 日中为市、削桐为琴，天下听从
+    labels:
+      zh:
+      - 日中为市
+      - 琴瑟
+    start_date: -2700
+    highlight_event_id: guji-shennong-event-cultivation
+  decisions:
+  - date: -2700
+    title_zh: 神农殁牧，偃武修德
+    rationale: 因杀谏臣箕文而隆志修德，夙沙之民自攻其君而来归，遂至交趾幽都、汤谷三危莫不听从
+events:
+- id: guji-shennong-event-birth
+  date: -2737
+  year_of: -2737
+  type: birth
+  name_zh: 神农氏生于烈山，长于姜水
+  description_zh: 姜姓，母曰女登，少典之正妃，人身牛首，长于姜水，本起烈山，故称烈山氏、连山氏。
+  person_qid: guji-shennong
+- id: guji-shennong-event-farming
+  date: -2735
+  year_of: -2735
+  type: achievement
+  name_zh: 制耒耜，教民播种五谷
+  description_zh: 神农相土地燥湿肥硗高下，因天之时分地之利，斫木为耜、揉木为耒，陶冶斤斧以垦草莽，五谷兴而民食足。
+  person_qid: guji-shennong
+- id: guji-shennong-event-tasting
+  date: -2730
+  year_of: -2730
+  type: achievement
+  name_zh: 尝百草，一日遇七十毒
+  description_zh: 尝百草酸咸之味，察水泉之甘苦，令民知所避就，一日而遇七十毒，神而化之，使民宜之。
+  person_qid: guji-shennong
+- id: guji-shennong-event-cultivation
+  date: -2700
+  year_of: -2700
+  type: achievement
+  name_zh: 修德化服夙沙，教化成于四方
+  description_zh: 削桐为琴、绳丝为弦以合天人之和；日中为市聚货帛。夙沙氏叛而神农修德，其民自攻其君来归，天下南至交趾、北至幽都莫不听从。
+  person_qid: guji-shennong
+- id: guji-shennong-event-death
+  date: -2617
+  year_of: -2617
+  type: death
+  name_zh: 神农崩，子孙袭号
+  description_zh: 神农在位一百二十年（一说一百四十年）而崩，临魁、承、明、厘、直、哀、榆罔七帝袭神农氏之号。
+  person_qid: guji-shennong
