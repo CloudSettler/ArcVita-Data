@@ -1,0 +1,145 @@
+person:
+  qid: guji-刘永福
+  name_zh: 刘永福
+  names:
+    zh: 刘永福
+    en: Liu Yongfu
+  lifespan:
+    birth:
+      date: '1837'
+      precision: year
+      is_circa: true
+      raw: 道光十七年
+    death:
+      date: '1917'
+      precision: year
+      is_circa: true
+  birth_date: '1837'
+  death_date: '1917'
+  era: 晚清
+  reign_ref: 同治、光绪
+  archetype: hierarch
+  dilemmas:
+  - 身为绿林出身将领，如何在官府歧视中证明忠诚与战功
+  - 甲午割台后，面对朝廷放弃台湾，是奉旨内渡还是留台抗日
+  lesson: 处乱世而能审时度势，守土抗敌之志不失，进退之间自见气节。
+  summary_first_person: 我刘永福出身草莽，以黑旗军名震中外。先在越南抗法取胜，后奉调署理碣石镇总兵；甲午之役赴台协防，割台后犹率部抗拒日军。一生转战海疆，虽处末世，未尝忘守土之责。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/刘永福
+endeavors:
+- id: guji-刘永福-endeavor-1
+  name_zh: 统率黑旗军抗法卫越
+  phases:
+  - key: brewing
+    name_zh: 聚旗成军
+    labels:
+      zh:
+      - 绿林
+      - 立军
+    start_date: '1867'
+  - key: breakthrough
+    name_zh: 纸桥大捷
+    labels:
+      zh:
+      - 抗法
+      - 名扬
+    start_date: '1873-12-21'
+    highlight_event_id: guji-刘永福-event-1873
+  - key: climax
+    name_zh: 第二次纸桥之战
+    labels:
+      zh:
+      - 阵斩法酋
+    start_date: '1883-05-19'
+    highlight_event_id: guji-刘永福-event-1883
+  - key: closure
+    name_zh: 奉调内附
+    labels:
+      zh:
+      - 受抚
+    start_date: '1885'
+  decisions:
+  - date: '1873'
+    title_zh: 受阮氏王朝之邀出兵抗法
+    rationale: 借越南为根据地，既可立足，亦扬黑旗之名。
+  - date: '1884'
+    title_zh: 接受清廷收编，实授官职
+    rationale: 草莽之身欲图正果，须依朝廷名器；且中法开战，正可报效。
+- id: guji-刘永福-endeavor-2
+  name_zh: 移镇台澎与抗日保台
+  phases:
+  - key: brewing
+    name_zh: 南澳练兵
+    labels:
+      zh:
+      - 总兵
+      - 海防
+    start_date: '1886'
+  - key: breakthrough
+    name_zh: 奉命协防台湾
+    labels:
+      zh:
+      - 赴台
+      - 布防
+    start_date: 1894-09
+  - key: climax
+    name_zh: 台南抗日
+    labels:
+      zh:
+      - 拒日
+      - 大总统之名
+    start_date: 1895-05
+    highlight_event_id: guji-刘永福-event-1895
+  - key: closure
+    name_zh: 内渡归粤
+    labels:
+      zh:
+      - 退守
+      - 晚年
+    start_date: 1895-10
+  decisions:
+  - date: 1894-09
+    title_zh: 应诏率军赴台协防
+    rationale: 甲午事急，台湾孤悬海外，守土乃武人本分。
+  - date: 1895-05
+    title_zh: 拒任「台湾民主国」总统之推，唯以帮办名义留台抗日
+    rationale: 不僭名号以避悖逆，然亦不忍弃台民于不顾。
+  - date: 1895-10
+    title_zh: 台南粮尽援绝，乘英轮内渡
+    rationale: 部众饿疲，孤城难守，留此身为后再举之资。
+events:
+- id: guji-刘永福-event-birth
+  date: '1837'
+  year_of: '1837'
+  type: birth
+  title_zh: 刘永福生于广东钦州
+- id: guji-刘永福-event-1873
+  date: '1873-12-21'
+  year_of: '1873'
+  type: endeavor
+  title_zh: 河内纸桥之战阵斩法军安邺
+  endeavor_id: guji-刘永福-endeavor-1
+- id: guji-刘永福-event-1883
+  date: '1883-05-19'
+  year_of: '1883'
+  type: endeavor
+  title_zh: 二战纸桥再败法军，击毙李维业
+  endeavor_id: guji-刘永福-endeavor-1
+- id: guji-刘永福-event-1887
+  date: '1887-10-15'
+  year_of: '1887'
+  type: endeavor
+  title_zh: 光绪十三年九月二十九日，以澳镇总兵署理碣石镇总兵篆务
+  endeavor_id: guji-刘永福-endeavor-2
+  note: 据台湾府转知公文，见本辑古籍。
+- id: guji-刘永福-event-1895
+  date: 1895-06
+  year_of: '1895'
+  type: endeavor
+  title_zh: 台南率军民拒抗日军
+  endeavor_id: guji-刘永福-endeavor-2
+- id: guji-刘永福-event-death
+  date: '1917'
+  year_of: '1917'
+  type: death
+  title_zh: 刘永福卒于广东钦州
