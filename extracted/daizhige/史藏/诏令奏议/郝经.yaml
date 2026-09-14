@@ -1,0 +1,175 @@
+person:
+  qid: guji-hao-jing
+  name_zh: 郝经
+  names:
+    zh: 郝经
+    en: Hao Jing
+  lifespan:
+    birth:
+      date: '1223'
+      precision: year
+      is_circa: true
+      raw: 元太祖十八年（约1223年）
+    death:
+      date: 1275-08
+      precision: month
+      is_circa: true
+      raw: 元至元十二年七月（1275年）卒于大都
+  birth_date: '1223'
+  death_date: '1275'
+  era: 元代（蒙古汗国至元初）
+  reign_ref: 蒙哥汗、元世祖忽必烈
+  archetype: 忠谏使臣型
+  dilemmas:
+  - 使宋被扣，坚守气节十六年而不改其志
+  - 班师议中力劝忽必烈北归定大计，须在军功与社稷之间取舍
+  - 谏言直陈利病，屡忤权贵而不避祸
+  lesson: 身可拘而志不可夺，以奏议与文章践履儒家经世之责
+  summary_first_person: 我郝经以儒生之身事忽必烈潜邸，上河东罪言、东师议、班师议诸篇，及奉使南宋被拘真州十六年，秉节不屈，著述不辍，终得归国而卒。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/郝经
+endeavors:
+- id: guji-hao-jing-endeavor-1
+  name_zh: 潜邸进言与军国谋议
+  description_zh: 郝经入忽必烈藩邸为谋士，先后上《河东罪言》《东师议》《班师议》《便宜新政》《备御奏目》《立政议》，论安民、攻守与立国大计。
+  phases:
+  - key: brewing
+    name_zh: 入侍藩邸
+    labels:
+      zh: 潜邸旧侣
+    start_date: '1250'
+    highlight_event_id: guji-hao-jing-event-yidongzuìyán
+  - key: breakthrough
+    name_zh: 东师班师之议
+    labels:
+      zh: 运筹帷幄
+    start_date: '1258'
+    highlight_event_id: guji-hao-jing-event-banshiyi
+  - key: climax
+    name_zh: 立政议政
+    labels:
+      zh: 经世奏议
+    start_date: '1260'
+    highlight_event_id: guji-hao-jing-event-lizhengyi
+  - key: closure
+    name_zh: 北归著述
+    labels:
+      zh: 备御遗篇
+    start_date: '1275'
+    highlight_event_id: guji-hao-jing-event-return
+  decisions:
+  - date: '1250'
+    title_zh: 上《河东罪言》
+    rationale_zh: 针对汉地赋役苛重、官吏侵渔，直言民瘼，请轻敛安民以固根本。
+  - date: '1259'
+    title_zh: 上《班师议》
+    rationale_zh: 蒙哥汗死于合州，鄂州相持不下，力劝忽必烈轻骑北归，先定神器之计。
+  - date: '1260'
+    title_zh: 上《立政议》等新政奏议
+    rationale_zh: 世祖即位，陈便宜新政与备御之目，助立纲纪法度。
+- id: guji-hao-jing-endeavor-2
+  name_zh: 奉使南宋与羁北守节
+  description_zh: 中统元年以国信使出使南宋议和，为贾似道拘于真州（仪真）十六年，守节不屈，著书吟咏自若，至元十二年方得北归。
+  phases:
+  - key: brewing
+    name_zh: 慨然请行
+    labels:
+      zh: 衔命通好
+    start_date: '1260'
+    highlight_event_id: guji-hao-jing-event-shisong
+  - key: breakthrough
+    name_zh: 被拘真州
+    labels:
+      zh: 身陷不辱
+    start_date: '1260'
+    highlight_event_id: guji-hao-jing-event-detained
+  - key: climax
+    name_zh: 幽居著述
+    labels:
+      zh: 志不可夺
+    start_date: '1261'
+    highlight_event_id: guji-hao-jing-event-writing
+  - key: closure
+    name_zh: 归国而卒
+    labels:
+      zh: 完节而终
+    start_date: '1275'
+    highlight_event_id: guji-hao-jing-event-return
+  decisions:
+  - date: '1260'
+    title_zh: 慨然奉使通好南宋
+    rationale_zh: 蒙古欲与宋息兵通好，郝经以儒者大义自任，不顾凶险请行。
+  - date: '1260'
+    title_zh: 拒贾似道诱胁，不折节辱命
+    rationale_zh: 被拘真州十六年，坚守使节，著《续后汉书》等以明正统，气节不移。
+events:
+- id: guji-hao-jing-event-birth
+  type: birth
+  date: '1223'
+  year_of: 1223
+  name_zh: 郝经生于许州（一说陵川人，生于金末战乱之际）
+  description_zh: 郝经字伯常，泽州陵川人，生于金末兵乱，家世业儒。
+  era: 蒙古汗国
+- id: guji-hao-jing-event-yidongzuìyán
+  type: endeavor_event
+  date: '1250'
+  year_of: 1250
+  name_zh: 上《河东罪言》
+  description_zh: 忽必烈在藩邸召见，郝经上《河东罪言》，陈汉地赋役之弊与安民之策。
+  endeavor_id: guji-hao-jing-endeavor-1
+  era: 蒙哥汗时期
+- id: guji-hao-jing-event-banshiyi
+  type: endeavor_event
+  date: '1259'
+  year_of: 1259
+  name_zh: 上《东师议》《班师议》
+  description_zh: 宪宗蒙哥死于合州军中，郝经力劝忽必烈班师北归，先定继统大计。
+  endeavor_id: guji-hao-jing-endeavor-1
+  era: 蒙哥汗末年
+- id: guji-hao-jing-event-shisong
+  type: endeavor_event
+  date: '1260'
+  year_of: 1260
+  name_zh: 以国信使奉使南宋
+  description_zh: 世祖中统元年，郝经以翰林侍读学士充国信使使宋，议和通好。
+  endeavor_id: guji-hao-jing-endeavor-2
+  era: 元中统元年
+- id: guji-hao-jing-event-detained
+  type: endeavor_event
+  date: '1260'
+  year_of: 1260
+  name_zh: 被贾似道拘于真州
+  description_zh: 至真州，贾似道恐其言及鄂州之盟，将郝经拘禁于真州忠勇军营，一拘十六年。
+  endeavor_id: guji-hao-jing-endeavor-2
+  era: 元中统元年
+- id: guji-hao-jing-event-writing
+  type: endeavor_event
+  date: '1261'
+  year_of: 1261
+  name_zh: 幽囚著述，不辍其业
+  description_zh: 被拘期间讲学著书不辍，撰《续后汉书》《陵川集》等，明志守节。
+  endeavor_id: guji-hao-jing-endeavor-2
+  era: 元中统至至元年间
+- id: guji-hao-jing-event-lizhengyi
+  type: endeavor_event
+  date: '1260'
+  year_of: 1260
+  name_zh: 上《便宜新政》《备御奏目》《立政议》
+  description_zh: 世祖初立，郝经先后陈奏新政之宜、备御之目与立国之议，为元初立制献策。
+  endeavor_id: guji-hao-jing-endeavor-1
+  era: 元中统年间
+- id: guji-hao-jing-event-return
+  type: endeavor_event
+  date: '1275'
+  year_of: 1275
+  name_zh: 北归，寻卒
+  description_zh: 至元十二年宋请和，郝经得释北归，同年七月病卒于大都，谥文忠。
+  endeavor_id: guji-hao-jing-endeavor-2
+  era: 元至元十二年
+- id: guji-hao-jing-event-death
+  type: death
+  date: 1275-08
+  year_of: 1275
+  name_zh: 郝经卒于大都
+  description_zh: 至元十二年七月卒，世祖遣使吊祭，谥文忠。
+  era: 元至元年间
