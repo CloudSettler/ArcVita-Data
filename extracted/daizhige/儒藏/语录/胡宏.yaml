@@ -1,0 +1,116 @@
+person:
+  qid: guji-胡宏
+  name_zh: 胡宏
+  names:
+    zh: 胡宏
+    en: Hu Hong
+  lifespan:
+    birth:
+      date: '1102'
+      precision: year
+      is_circa: true
+      raw: 约1102年
+    death:
+      date: '1161'
+      precision: year
+      is_circa: true
+      raw: 约1161年
+  birth_date: 约1102年
+  death_date: 约1161年
+  era: 南宋
+  reign_ref: 宋高宗时期
+  archetype: 理学家
+  dilemmas:
+  - 承继家学与遍访名师之间如何融会为己之学
+  - 晚年被召入朝与隐居著述、抱疾不仕之间的抉择
+  lesson: 指人欲之偏以见天理之全，即形而下者而发无声无臭之妙
+  summary_first_person: 我胡宏，字仁仲，文定公季子，自幼志于大道，学于杨时、侯仲良，卒传父学，隐居南山之下二十余年，著《知言》，论性最详，力辟异端，以天理人心为枢要。
+  source_urls:
+  - https://zh.wikisource.org/wiki/知言
+endeavors:
+- id: guji-胡宏-endeavor-1
+  key: brewing
+  name_zh: 求学明道
+  labels:
+    zh: 问道京师
+  start_date: 约1110年代
+  decisions:
+  - date: 约1110年代
+    title_zh: 见杨中立于京师，从侯师圣于荆门
+    rationale: 自幼志于大道，遍访名师以问道
+- id: guji-胡宏-endeavor-2
+  key: breakthrough
+  name_zh: 优悠南山
+  labels:
+    zh: 隐居修学
+  start_date: 约1130年代
+  highlight_event_id: guji-胡宏-event-sanction
+  decisions:
+  - date: 约1130年代
+    title_zh: 优悠南山之下，玩心神明，不舍昼夜
+    rationale: 力行所知，析太极精微之蕴，穷皇王制作之端
+- id: guji-胡宏-endeavor-3
+  key: climax
+  name_zh: 著《知言》
+  labels:
+    zh: 著书立说
+  start_date: 约1140年代
+  highlight_event_id: guji-胡宏-event-book
+  decisions:
+  - date: 约1140年代
+    title_zh: 于论性特详，辨异端之邪说
+    rationale: 异端直自以为识心见性，故乌得而忘言，以继孟子辟杨墨之功
+- id: guji-胡宏-endeavor-4
+  key: closure
+  name_zh: 疾革更定
+  labels:
+    zh: 病中修书
+  start_date: 约1161
+  highlight_event_id: guji-胡宏-event-death
+  decisions:
+  - date: 约1161
+    title_zh: 疾革犹时有所更定其书
+    rationale: 每自以为未足，未及脱稿而已启手足
+events:
+- id: guji-胡宏-event-birth
+  type: birth
+  date: '1102'
+  year_of: 1102
+  summary: 胡宏生，文定公（胡安国）之季子。
+- id: guji-胡宏-event-visits
+  type: study_visit
+  date: '1115'
+  year_of: 1115
+  summary: 尝见杨中立先生于京师，又从侯师圣先生于荆门，卒傅文定公之学。
+  participants:
+  - guji-胡宏
+  - 杨中立
+  - 侯师圣
+- id: guji-胡宏-event-sanction
+  type: seclusion
+  date: '1130'
+  year_of: 1130
+  summary: 优悠南山之下余二十年，玩心神明，力行所知。
+- id: guji-胡宏-event-book
+  type: publication
+  date: '1145'
+  year_of: 1145
+  summary: 著《知言》一书，其言约，其义精，诚道学之枢要，制治之蓍龟。
+  derived_from: 知言
+- id: guji-胡宏-event-summon
+  type: imperial_summons
+  date: '1160'
+  year_of: 1160
+  summary: 晚岁尝被召旨，不幸寝疾，不克造朝。
+- id: guji-胡宏-event-death
+  type: death
+  date: '1161'
+  year_of: 1161
+  summary: 胡宏病卒，其书未及脱稿。
+- id: guji-胡宏-event-preface
+  type: commemoration
+  date: '1165'
+  year_of: 1165
+  summary: 门人张栻序其遗书《知言》，贻于同志，以广其传。
+  participants:
+  - 张栻

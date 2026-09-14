@@ -1,0 +1,102 @@
+person:
+  qid: guji-胡安国
+  name_zh: 胡安国
+  names:
+    zh: 胡安国
+    en: Hu Anguo
+  lifespan:
+    birth:
+      date: '1074'
+      precision: year
+      is_circa: true
+      raw: 约1074年（史称生于熙宁间）
+    death:
+      date: '1138'
+      precision: year
+      is_circa: false
+  birth_date: '1074'
+  death_date: '1138'
+  era: 北宋末至南宋初
+  reign_ref: 宋徽宗、宋高宗时期
+  archetype: 经学家与道学先驱
+  dilemmas:
+  - 面对宋代王霸之辨与异端之说纷起，如何在经义中确立天理人心之正
+  lesson: 传经立教，其学虽身没而言存，赖子弟门人续而不坠
+  summary_first_person: 我谥文定，世称文定公。我以经术明道，季子胡宏仁仲最能传吾学，优游南山之下二十余年，著《知言》，析太极精微，穷皇王制作，为道学枢要。
+  source_urls:
+  - https://zh.wikisource.org/wiki/知言
+endeavors:
+- id: guji-胡安国-endeavor-1
+  key: 治经传道
+  name_zh: 治经立教，明春秋之旨
+  labels:
+    zh: 经学、道学、湖湘学脉
+  phases:
+  - key: brewing
+    name_zh: 潜心经术
+    labels:
+      zh: 治学
+    start_date: '1100'
+  - key: climax
+    name_zh: 学成教行，世称文定
+    labels:
+      zh: 道学立宗
+    start_date: '1130'
+    highlight_event_id: guji-胡安国-event-1
+  - key: closure
+    name_zh: 身殁而学传于季子
+    labels:
+      zh: 学脉传承
+    start_date: '1138'
+    highlight_event_id: guji-胡安国-event-death
+  decisions:
+  - date: '1138'
+    title_zh: 以所学传之季子胡宏
+    rationale: 文中称胡宏'卒傅文定公之学'，承其学而著《知言》，为传学之关键抉择
+- id: guji-胡安国-endeavor-2
+  key: 培育后学
+  name_zh: 家学相传，启湖湘学统
+  labels:
+    zh: 家学、师承
+  phases:
+  - key: brewing
+    name_zh: 教授子弟
+    labels:
+      zh: 传道授业
+    start_date: '1120'
+  - key: breakthrough
+    name_zh: 胡宏见杨中立于京师、从侯师圣于荆门
+    labels:
+      zh: 交游问学
+    start_date: '1125'
+    highlight_event_id: guji-胡安国-event-2
+  - key: closure
+    name_zh: 《知言》成 While，后学张栻序而广之
+    labels:
+      zh: 影响后世
+    start_date: '1150'
+  decisions:
+  - date: '1125'
+    title_zh: 令胡宏遍访名师，兼采众长
+    rationale: 胡宏'尝见杨中立先生于京师，又从侯师圣先生于荆门'，由博而归约，卒傅文定公之学
+events:
+- id: guji-胡安国-event-birth
+  date: '1074'
+  year_of: 1074
+  summary: 胡安国生，后为世所重，谥文定
+  type: birth
+- id: guji-胡安国-event-1
+  date: '1130'
+  year_of: 1130
+  summary: 学问大成，讲道著述，世称文定公，其学为一时所尊
+  type: endeavor
+- id: guji-胡安国-event-2
+  date: '1125'
+  year_of: 1125
+  summary: 季子胡宏往来京师、荆门，见杨中立、从侯师圣，归而承文定公之学
+  type: endeavor
+- id: guji-胡安国-event-death
+  date: '1138'
+  year_of: 1138
+  summary: 胡安国卒；其后季子胡宏晚岁被召，寝疾不克造朝而卒，《知言》传世
+  type: death

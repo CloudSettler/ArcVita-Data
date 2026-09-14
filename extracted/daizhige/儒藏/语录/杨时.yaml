@@ -1,0 +1,125 @@
+person:
+  qid: guji-杨时
+  name_zh: 杨时
+  names:
+    zh: 杨时
+    en: Yang Shi
+  lifespan:
+    birth:
+      date: '1053'
+      precision: year
+      is_circa: true
+      raw: 宋皇祐五年（约）
+    death:
+      date: '1135'
+      precision: year
+      is_circa: true
+      raw: 宋绍兴五年（约）
+  birth_date: '1053'
+  death_date: '1135'
+  era: 北宋末至南宋初
+  reign_ref: 宋徽宗政和、宣和；宋高宗绍兴
+  archetype: 理学家、师儒
+  dilemmas:
+  - 出处之际：屡被召旨而仕途多阻，学者身份与朝堂政治之间的取舍
+  - 传道与著述：承伊洛之学而须在乱世中维系师门学统
+  lesson: 程门立雪、笃信好学，师道之传端赖诚敬不辍。
+  summary_first_person: 我杨时字中立，世称龟山先生，师事二程，尝立雪程门。晚年倡道东南，学者称吾为闽学先导；五峰胡宏亦尝于京师见我问学。
+  source_urls:
+  - https://zh.wikisource.org/wiki/知言
+endeavors:
+- id: guji-杨时-endeavor-1
+  name_zh: 问道伊洛与京师讲学
+  phases:
+  - key: brewing
+    name_zh: 从学二程
+    labels:
+      zh:
+      - 求学
+    start_date: '1078'
+    highlight_event_id: guji-杨时-event-lisxue
+  - key: breakthrough
+    name_zh: 立雪程门
+    labels:
+      zh:
+      - 师道典范
+    start_date: '1093'
+    highlight_event_id: guji-杨时-event-lisxue
+  - key: climax
+    name_zh: 京师授业
+    labels:
+      zh:
+      - 京师会晤
+    start_date: '1101'
+    highlight_event_id: guji-杨时-event-jingshi
+  - key: closure
+    name_zh: 倡道东南
+    labels:
+      zh:
+      - 归乡讲学
+    start_date: '1126'
+  decisions:
+  - date: '1093'
+    title_zh: 与游酢同侍程颐、立雪程门
+    rationale: 恭敬请益，以诚敬求道，遂成师门佳话。
+  - date: '1101'
+    title_zh: 于京师会晤后学、论道授业
+    rationale: 借居京师之机传伊洛之学，广启后进。
+- id: guji-杨时-endeavor-2
+  name_zh: 传道东南、培育后学
+  phases:
+  - key: brewing
+    name_zh: 归乡讲学
+    labels:
+      zh:
+      - 著述
+    start_date: '1121'
+  - key: climax
+    name_zh: 东林讲席
+    labels:
+      zh:
+      - 讲学
+    start_date: '1126'
+    highlight_event_id: guji-杨时-event-jiangxue
+  - key: closure
+    name_zh: 晚年著述
+    labels:
+      zh:
+      - 著书
+    start_date: '1130'
+  decisions:
+  - date: '1126'
+    title_zh: 于毗陵东林书院讲学不辍
+    rationale: 时局动荡而学统不可绝，故以讲学维持斯道。
+events:
+- id: guji-杨时-event-birth
+  date: '1053'
+  year_of: 1053
+  title_zh: 杨时生
+  kind: birth
+- id: guji-杨时-event-lisxue
+  date: '1093'
+  year_of: 1093
+  title_zh: 程门立雪
+  detail_zh: 与游酢侍立程颐门外，雪深一尺而不去。
+  kind: endeavor
+  endeavor_id: guji-杨时-endeavor-1
+- id: guji-杨时-event-jingshi
+  date: '1101'
+  year_of: 1101
+  title_zh: 胡宏尝于京师见杨中立先生
+  detail_zh: 据胡宏传序，五峰先生早年志于大道，尝见杨中立先生（杨时）于京师。
+  kind: encounter
+  endeavor_id: guji-杨时-endeavor-1
+- id: guji-杨时-event-jiangxue
+  date: '1126'
+  year_of: 1126
+  title_zh: 讲学东南
+  detail_zh: 晚岁倡道东南，学者宗之，开闽学之先。
+  kind: endeavor
+  endeavor_id: guji-杨时-endeavor-2
+- id: guji-杨时-event-death
+  date: '1135'
+  year_of: 1135
+  title_zh: 杨时卒
+  kind: death
