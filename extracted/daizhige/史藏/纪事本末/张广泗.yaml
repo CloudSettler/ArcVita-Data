@@ -1,0 +1,160 @@
+person:
+  qid: guji-张广泗
+  name_zh: 张广泗
+  names:
+    zh: 张广泗
+    en: Zhang Guangsi
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 不详
+    death:
+      date: 1748
+      precision: year
+      is_circa: true
+      raw: 乾隆十三年（1748）金川师老获罪，被处斩
+  death_date: 1748
+  era: 清乾隆年间
+  reign_ref: 乾隆
+  archetype: 边疆督抚·苗疆经略统兵之臣
+  dilemmas:
+  - 熟悉苗蛮边情之才与金川师老无功之责并存
+  - 密旨诛内应良尔吉与始终回护模棱之间忠疑难辨
+  lesson: 长于抚驭者未必长于征伐；赏罚不明、徇私护短，虽宿将亦不免糜饷老师而身败名裂
+  summary_first_person: 吾张广泗，久宦黔中，以熟悉苗情、抚驭妥协见知于朝廷；乾隆十二年三月奉旨补授川陕总督，由贵州取道兼程赴川，专任征剿大金川机宜，申明军律。然师久无功，密旨诛良尔吉而吾始终回护，遂以罪诛，一世边才与身俱殒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/欽定平定金川方略
+  - https://zh.wikisource.org/wiki/清史稿
+endeavors:
+- id: guji-张广泗-endeavor-1
+  name_zh: 抚驭贵州苗疆
+  summary_zh: 久任黔疆，习知苗蛮情形，抚驭妥协，苗种向化，边地安帖，遂以善治苗疆之名受知于乾隆帝。
+  phases:
+  - key: brewing
+    name_zh: 长吏黔疆习知苗情
+    labels:
+      zh:
+      - 苗疆
+      - 抚驭
+    start_date: 1730
+    highlight_event_id: guji-张广泗-event-miao-pacify
+  - key: breakthrough
+    name_zh: 苗种向化边地安帖
+    labels:
+      zh:
+      - 绥靖
+      - 向化
+    start_date: 1747-04
+    highlight_event_id: guji-张广泗-event-miao-pacify
+  - key: closure
+    name_zh: 移节川陕黔局底定
+    labels:
+      zh:
+      - 移督
+    start_date: 1747-04
+    highlight_event_id: guji-张广泗-event-appoint-governor-general
+  decisions:
+  - date: 1747-04
+    title_zh: 移治川省，以治苗之法治蛮
+    rationale: 帝谕番蛮与苗性相近，倚其熟悉苗情善于抚驭，冀詟服其心、消弭其衅
+- id: guji-张广泗-endeavor-2
+  name_zh: 总督川陕征剿大金川
+  summary_zh: 乾隆十二年受命川陕总督，专任进剿金川机宜，申明军律；然师老无功，密旨诛良尔吉而始终回护，十三年获罪处斩。
+  phases:
+  - key: brewing
+    name_zh: 请缨瞻对受任督川
+    labels:
+      zh:
+      - 请缨
+      - 受任
+    start_date: 1746
+    highlight_event_id: guji-张广泗-event-appoint-governor-general
+  - key: breakthrough
+    name_zh: 专任调度申明军律
+    labels:
+      zh:
+      - 统帅
+      - 进剿
+    start_date: 1747-04
+    highlight_event_id: guji-张广泗-event-supreme-command
+  - key: climax
+    name_zh: 师老糜饷回护内奸
+    labels:
+      zh:
+      - 糜饷老师
+      - 赏罚不明
+    start_date: 1748
+    highlight_event_id: guji-张广泗-event-shield-liangerji
+  - key: closure
+    name_zh: 获罪处斩身败名裂
+    labels:
+      zh:
+      - 处斩
+    start_date: 1748
+    highlight_event_id: guji-张广泗-event-death
+  decisions:
+  - date: 1746
+    title_zh: 瞻对之役陈请亲赴军营相机筹画
+    rationale: 请缨自效，帝以将次就功未允所请
+  - date: 1747-04
+    title_zh: 由贵州取道兼程赴川受任
+    rationale: 谕旨以其熟悉苗蛮情形责以绥靖边陲，会同详察进剿机宜与粮饷接济
+  - date: 1748
+    title_zh: 密旨诛良尔吉而始终回护不行
+    rationale: 瞻徇模棱致军中消息泄漏，贼得以主待客，师老功弗集
+events:
+- id: guji-张广泗-event-miao-pacify
+  date: 1747-04
+  precision: month
+  is_circa: true
+  raw: 乾隆十二年三月辛丑谕
+  year_of: 1747
+  title_zh: 苗疆绥靖苗种向化见称于朝
+  description_zh: 上谕内阁称贵州地方张广泗料理以来现在妥协，苗种向化可以无虞，其善治苗疆之名由此见知。
+  endeavor_id: guji-张广泗-endeavor-1
+- id: guji-张广泗-event-zhandui-request
+  date: 1746
+  precision: year
+  is_circa: true
+  raw: 乾隆十一年前后瞻对之役
+  year_of: 1746
+  title_zh: 瞻对之役陈请亲赴军营未允
+  description_zh: 张广泗陈请亲赴瞻对军营相机筹画，上以将次就功未允所请。
+  endeavor_id: guji-张广泗-endeavor-2
+- id: guji-张广泗-event-appoint-governor-general
+  date: 1747-04
+  precision: month
+  is_circa: true
+  raw: 乾隆十二年三月辛丑
+  year_of: 1747
+  title_zh: 补授川陕总督由黔兼程赴川
+  description_zh: 上以金川莎罗奔肆横不法，而张广泗于此等苗蛮情形素所熟悉，命补授川陕总督，不必来京即由贵州取道速赴川省，会同庆复察度机宜、接济粮饷。
+  endeavor_id: guji-张广泗-endeavor-2
+- id: guji-张广泗-event-supreme-command
+  date: 1747-04
+  precision: month
+  is_circa: true
+  raw: 乾隆十二年三月己酉后传谕
+  year_of: 1747
+  title_zh: 进剿机宜专听调度申明军律
+  description_zh: 上传谕此次进剿一应机宜专听张广泗调度，申明军律、指授方略，务令逆酋授首、刬绝根株，并许酌带在黔习于军旅之将弁赴川驱使。
+  endeavor_id: guji-张广泗-endeavor-2
+- id: guji-张广泗-event-shield-liangerji
+  date: 1748
+  precision: year
+  is_circa: true
+  raw: 乾隆十三年经略傅恒至营之前
+  year_of: 1748
+  title_zh: 密旨诛良尔吉而始终回护
+  description_zh: 小金川土舍良尔吉从征日久，阳效先驱阴怀二志，军中消息时多泄漏；上先已密谕加诛，张广泗始终回护，在营诸将模棱两端莫敢发，迨经略傅恒至营始排众议数其罪而诛之。
+  endeavor_id: guji-张广泗-endeavor-2
+- id: guji-张广泗-event-death
+  date: 1748
+  precision: year
+  is_circa: true
+  raw: 乾隆十三年（1748）
+  year_of: 1748
+  title_zh: 金川师老获罪处斩
+  description_zh: 金川用兵糜饷老师、绩用弗集，张广泗以罪论斩，一世边才随金川之败俱殒。
+  endeavor_id: guji-张广泗-endeavor-2
