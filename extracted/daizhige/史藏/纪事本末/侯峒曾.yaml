@@ -1,0 +1,111 @@
+person:
+  qid: guji-侯峒曾
+  name_zh: 侯峒曾
+  names:
+    zh: 侯峒曾
+    en: Hou Tongzeng
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1645-08 (七月初四)
+      precision: day
+      is_circa: false
+      raw: 弘光元年七月初四日
+  birth_date: ''
+  death_date: 1645-08
+  era: 明末清初
+  reign_ref: 弘光元年
+  archetype: 殉国士大夫
+  dilemmas:
+  - 守城殉节与保全一城百姓的两难
+  - 命二子撤离而二子不忍去
+  lesson: 城破之际，以身殉国，忠义与无奈并存
+  summary_first_person: 我侯峒曾于弘光元年率士民守嘉定，分守东门，城破后拒不退走，投水求死不得，终为清兵所斩，悬首示众。
+endeavors:
+- id: guji-侯峒曾-endeavor-1
+  name_zh: 嘉定守城
+  phases:
+  - key: brewing
+    name_zh: 应邀入城主守
+    labels:
+      zh:
+      - 闰六月议守
+      - 入城公议
+    start_date: 1645-08-07 (闰六月十七日前后)
+    highlight_event_id: guji-侯峒曾-event-join-defense
+  - key: breakthrough
+    name_zh: 画地分守
+    labels:
+      zh:
+      - 分守东门
+      - 立挨门出丁法
+    start_date: '1645-08-08'
+    highlight_event_id: guji-侯峒曾-event-defense
+  - key: climax
+    name_zh: 孤城抗清
+    labels:
+      zh:
+      - 砖桥会兵
+      - 竭力堵御
+    start_date: '1645-08-25'
+    highlight_event_id: guji-侯峒曾-event-siege
+  - key: closure
+    name_zh: 城破殉节
+    labels:
+      zh:
+      - 城破
+      - 投水殉国
+    start_date: '1645-08-25'
+    highlight_event_id: guji-侯峒曾-event-death
+  decisions:
+  - date: 1645-08
+    title_zh: 应二子之请入城主持守御
+    rationale: 事成骑虎，无主必乱，以缙绅之望统众心
+  - date: 1645-08
+    title_zh: 与淳耀等画地分守四门
+    rationale: 明确职责，各司一门，协力守城
+  - date: 1645-08
+    title_zh: 拒纳蔡乔兵入城
+    rationale: 蔡乔素微贱，心不可保，令泊舟南关外以防内变
+  - date: 1645-08
+    title_zh: 城破时拒二子随己殉难
+    rationale: 我死国事，分也；命二子归奉祖母
+events:
+- id: guji-侯峒曾-event-birth
+  date: ''
+  year_of: ''
+  year: ''
+  type: birth
+  summary: 侯峒曾生年不详，为明末嘉定缙绅、前兵宪。
+- id: guji-侯峒曾-event-join-defense
+  date: 1645-08-07 (闰六月十七日)
+  year_of: 1645
+  year: 1645
+  type: endeavor_start
+  endeavor_ref: guji-侯峒曾-endeavor-1
+  summary: 黄淳耀令元演作书促峒曾入城，乡兵列帜往迎，共议守城之计。
+- id: guji-侯峒曾-event-defense
+  date: 1645-08-08 (闰六月十九日)
+  year_of: 1645
+  year: 1645
+  type: milestone
+  endeavor_ref: guji-侯峒曾-endeavor-1
+  summary: 集众公议，画地而守，峒曾主东门，龚孙玹佐之；大事专属峒曾、淳耀处分。
+- id: guji-侯峒曾-event-siege
+  date: 1645-08-31 (七月初三)
+  year_of: 1645
+  year: 1645
+  type: milestone
+  endeavor_ref: guji-侯峒曾-endeavor-1
+  summary: 李成栋会娄东兵尽锐攻城，炮声不绝；峒曾等亲自临城勉以忠义，言语与泪俱下。
+- id: guji-侯峒曾-event-death
+  date: 1645-08-25 (七月初四)
+  year_of: 1645
+  year: 1645
+  type: death
+  endeavor_ref: guji-侯峒曾-endeavor-1
+  summary: 城破后峒曾犹坐城楼指麾，叱二子归奉祖母；投宣家池不死，命隶抑其首入水，终为清兵所斩，枭示四门。

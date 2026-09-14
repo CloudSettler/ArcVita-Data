@@ -1,0 +1,73 @@
+person:
+  qid: guji-钱谦益
+  name_zh: 钱谦益
+  names:
+    zh: 钱谦益
+    en: Qian Qianyi
+  lifespan:
+    birth:
+      date: 1582
+      precision: year
+      is_circa: true
+      raw: 生年不详于本文，据通行记载万历十年
+    death:
+      date: 1664
+      precision: year
+      is_circa: true
+      raw: 卒年不详于本文，据通行记载康熙三年
+  birth_date: 1582
+  death_date: 1664
+  era: 明末清初
+  reign_ref: 弘光、顺治
+  archetype: 贰臣
+  dilemmas:
+  - 殉国或降清：弘光出亡后率先降附，欲树德东南以自解于吴人士
+  lesson: 忠义失守之后，纵欲以巧辩自解于人，终难逃史笔之讥
+  summary_first_person: 我是明礼部尚书钱谦益，南都破后我率先降附于清，遣客周荃游说豫王，称吴下民风柔软，飞檄可定，无烦用兵，欲以此树德东南、自解于吴人士。
+endeavors:
+- id: guji-钱谦益-endeavor-1
+  key: climax
+  name_zh: 南都降清
+  labels:
+    zh: 降附清廷
+  start_date: 1645-05
+  highlight_event_id: guji-钱谦益-event-surrender
+  decisions:
+  - date: 1645-05
+    title_zh: 率先降附于清
+    rationale: 弘光出亡、南都既破，欲树德东南以自解于吴人士。
+  - date: 1645-05
+    title_zh: 密遣周荃说豫王
+    rationale: 使客周荃谒清帅豫王，言吴下民风柔软，飞檄可定，无烦用兵。
+- id: guji-钱谦益-endeavor-2
+  key: closure
+  name_zh: 抚吴布局
+  labels:
+    zh: 安抚吴中
+  start_date: 1645-05
+  highlight_event_id: guji-钱谦益-event-appease-plan
+  decisions:
+  - date: 1645-05
+    title_zh: 单骑安抚吴中
+    rationale: 豫王大悦，即日拜官，使降人黄家鼒佐荃，单骑安抚吴中。
+events:
+- id: guji-钱谦益-event-surrender
+  date: 1645-05-09
+  year_of: 1645
+  type: milestone
+  title_zh: 率先降附
+  description: 明烈皇帝殉国之次年五月初九日，南都破，弘光出亡，明礼部尚书钱谦益率先降附。
+  labels:
+    zh: 降清
+  related_ids:
+  - guji-钱谦益-endeavor-1
+- id: guji-钱谦益-event-appease-plan
+  date: 1645-05
+  year_of: 1645
+  type: action
+  title_zh: 密授周荃安抚方略
+  description: 郡人周荃，谦益客也，有口辩；密受谦益旨，谒清帅豫王，言吴下民风柔软，飞檄可定。豫王大悦，即日拜官，使降人黄家鼒佐荃，单骑安抚吴中。
+  labels:
+    zh: 抚吴
+  related_ids:
+  - guji-钱谦益-endeavor-2

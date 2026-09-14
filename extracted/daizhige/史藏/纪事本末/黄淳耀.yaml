@@ -1,0 +1,157 @@
+person:
+  qid: guji-黄淳耀
+  name_zh: 黄淳耀
+  names:
+    zh: 黄淳耀
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1645-08-05
+      precision: day
+      is_circa: false
+      raw: 弘光元年七月初四日
+  death_date: 1645-08-05
+  era: 明末清初
+  reign_ref: 弘光元年
+  archetype: 殉节儒生
+  dilemmas:
+  - 开城献降以全十万生灵，抑或坚守殉国？
+  - 进不能宣力皇朝，退不能洁身自隐
+  lesson: 耿耿不灭，此心而已
+  summary_first_person: 我以进士观政，嘉定之变中与弟渊耀、侯峒曾等倡守城计，主持西门；城破日不肯启门献降，自缢于西城僧舍，以死全节。
+endeavors:
+- id: guji-黄淳耀-endeavor-1
+  name_zh: 嘉定守城
+  phases:
+  - key: brewing
+    name_zh: 入城倡义
+    labels:
+      zh:
+      - 守城
+      - 义师
+    start_date: 1645-08-08
+    highlight_event_id: guji-黄淳耀-event-join-defense
+  - key: breakthrough
+    name_zh: 画地分守
+    labels:
+      zh:
+      - 分守西门
+      - 巡城劝勉
+    start_date: 1645-08-10
+    highlight_event_id: guji-黄淳耀-event-assign-west-gate
+  - key: climax
+    name_zh: 孤城抗清
+    labels:
+      zh:
+      - 守城御敌
+      - 临城勉众
+    start_date: 1645-08-16
+    highlight_event_id: guji-黄淳耀-event-siege
+  - key: closure
+    name_zh: 城破殉节
+    labels:
+      zh:
+      - 殉节
+      - 自缢
+    start_date: 1645-08-25
+    highlight_event_id: guji-黄淳耀-event-death
+  decisions:
+  - date: 1645-08-21
+    title_zh: 拒裂榜文不降
+    rationale: 淳耀怫然推案痛哭，与峒曾等裂清兵劝降榜文，誓守孤城。
+  - date: 1645-08-25
+    title_zh: 城破之际拒启城门
+    rationale: 同榜进士王泰际为百姓请命求启关，淳耀拒绝，以死节为先。
+  - date: 1645-08-25
+    title_zh: 自裁于西城僧舍
+    rationale: 知事不可为，书遗臣自裁之文，仰屋而叹，缢于弟侧。
+- id: guji-黄淳耀-endeavor-2
+  name_zh: 学术著述
+  phases:
+  - key: brewing
+    name_zh: 精研理学
+    labels:
+      zh:
+      - 理学
+      - 著述
+  - key: climax
+    name_zh: 著述甚富
+    labels:
+      zh:
+      - 治学
+  - key: closure
+    name_zh: 遗文留心
+    labels:
+      zh:
+      - 绝笔
+    start_date: 1645-08-25
+    highlight_event_id: guji-黄淳耀-event-death
+  decisions:
+  - title_zh: 布衣徒步不异秀才
+    rationale: 连掇巍科而生活俭朴，精心理学，于书无所不窥。
+events:
+- id: guji-黄淳耀-event-birth
+  category: life
+  title_zh: 出生
+  summary: 生年不详，明都察院观政进士。
+  participants:
+  - guji-黄淳耀
+  place:
+    name_zh: 嘉定
+- id: guji-黄淳耀-event-join-defense
+  category: endeavor
+  date: 1645-08-08
+  year_of: 1645
+  title_zh: 闰六月十七日与弟渊耀入城倡为守城计
+  summary: 淳耀与弟渊耀及侯峒曾二子元演、元洁倡为守城计。
+  participants:
+  - guji-黄淳耀
+  - 黄渊耀
+  place:
+    name_zh: 嘉定县城
+- id: guji-黄淳耀-event-assign-west-gate
+  category: endeavor
+  date: 1645-08-10
+  year_of: 1645
+  title_zh: 画地而守，主持西门
+  summary: 与众公议分守四门，西门以淳耀为主，弟渊耀佐之。
+  participants:
+  - guji-黄淳耀
+  - 黄渊耀
+  place:
+    name_zh: 嘉定城西门
+- id: guji-黄淳耀-event-siege
+  category: endeavor
+  date: 1645-08-16
+  year_of: 1645
+  title_zh: 清兵尽锐攻城，淳耀亲临城励众守御
+  summary: 初三日清兵会同娄东兵攻城，淳耀等仗剑立雨中劝勉守城百姓。
+  participants:
+  - guji-黄淳耀
+  place:
+    name_zh: 嘉定城
+- id: guji-黄淳耀-event-refuse-surrender
+  category: endeavor
+  date: 1645-08-21
+  year_of: 1645
+  title_zh: 裂劝降榜文
+  summary: 东关外传入成栋「开门降誓不杀一人」榜文，淳耀怫然推案痛哭，与峒曾等共裂之。
+  participants:
+  - guji-黄淳耀
+  - 侯峒曾
+  place:
+    name_zh: 嘉定城
+- id: guji-黄淳耀-event-death
+  category: life
+  date: 1645-08-25
+  year_of: 1645
+  title_zh: 七月初四日城破自缢殉节
+  summary: 城破后至西城僧舍，书「遗臣黄淳耀于弘光元年七月初四日自裁于西城僧舍」，缢于弟渊耀之侧。
+  participants:
+  - guji-黄淳耀
+  - 黄渊耀
+  place:
+    name_zh: 嘉定西城僧舍（陈俶读书庵）
