@@ -1,0 +1,137 @@
+person:
+  qid: guji-赵葵
+  name_zh: 赵葵
+  names:
+    zh: 赵葵
+    en: Zhao Kui
+  lifespan:
+    birth:
+      date: '1186'
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: '1266'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1186'
+  death_date: '1266'
+  era: 南宋
+  reign_ref: 理宗（宝庆至端平年间）
+  archetype: 武将兼疆臣
+  dilemmas:
+  - 端平入洛之议：抚定中原之志与粮饷不继、兵力不足之间的矛盾
+  - 李全叛乱：忠义军尾大不掉，剿抚两难
+  lesson: 兵未动而粮先行；虚内事外、千里馈饫之危，杜杲早已预见
+  summary_first_person: 我是南宋理宗朝边帅赵葵，与兄赵范、全子才建守河据关之议，端平初督军进汴、遣军洛阳，因粮尽而败退；此前我在扬州设伏，终于平定叛将李全，又曾乞经理营田以固边储。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋季三朝政要
+endeavors:
+- id: guji-赵葵-endeavor-1
+  name_zh: 平定李全之乱
+  phases:
+  - key: brewing
+    name_zh: 淮东提刑讨李全
+    labels:
+      zh:
+      - 讨叛
+    start_date: '1230'
+    highlight_event_id: guji-赵葵-event-liquan-siege
+  - key: climax
+    name_zh: 扬州设伏杀李全
+    labels:
+      zh:
+      - 设伏
+    start_date: '1231'
+    highlight_event_id: guji-赵葵-event-liquan-surprise
+  decisions:
+  - date: '1231'
+    title_zh: 挂榜许百骑观灯，设伏闭城
+    rationale: 李全游骑屡换袍色探城，葵将计就计，闭城尽杀之，终平其乱
+- id: guji-赵葵-endeavor-2
+  name_zh: 守河据关与端平入洛
+  phases:
+  - key: brewing
+    name_zh: 建守河据关之议
+    labels:
+      zh:
+      - 建军略
+    start_date: '1234'
+    highlight_event_id: guji-赵葵-event-shouhe-proposal
+  - key: climax
+    name_zh: 督兵取汴、遣军洛阳
+    labels:
+      zh:
+      - 北伐
+    start_date: 1234-07
+    highlight_event_id: guji-赵葵-event-sizhou
+  - key: closure
+    name_zh: 洛阳溃败班师
+    labels:
+      zh:
+      - 败退
+    start_date: 1234-08
+    highlight_event_id: guji-赵葵-event-luoyang-retreat
+  decisions:
+  - date: 1234-07
+    title_zh: 督趣全子才攻洛阳潼关
+    rationale: 已抵汴半月，虽粮饷未集，仍檄军西上，命徐敏子监军、杨谊继进
+  - date: '1234'
+    title_zh: 乞经理营田
+    rationale: 沿淮旱蝗连岁、转饷艰难，欲屯田储粮以固边备
+events:
+- id: guji-赵葵-event-birth
+  date: '1186'
+  year_of: 1186
+  type: birth
+  title_zh: 赵葵生于南宋将门
+  desc: 约生于1186年，后与兄赵范并历边任。
+- id: guji-赵葵-event-shouhe-proposal
+  date: '1234'
+  year_of: 1234
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-2
+  title_zh: 与赵范、全子才建守河据关之议
+  desc: 用降人谷用安之言，欲乘时抚定中原，建守河据关之议以闻于朝；杜杲力陈出师之害，时在外谏北伐者惟杜杲一人。
+- id: guji-赵葵-event-sizhou
+  date: '1234-07-20'
+  year_of: 1234
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-2
+  title_zh: 赵葵以淮西兵五万取泗州，由泗至汴
+  desc: 赵葵率五万兵下泗州，与全子才军会于东京，督趣西攻洛阳潼关。
+- id: guji-赵葵-event-luoyang-retreat
+  date: 1234-08
+  year_of: 1234
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-2
+  title_zh: 洛阳之师粮尽溃退
+  desc: 徐敏子、张迪入洛阳后军食已竭，采蒿和面而食；杨谊军大溃，八月敏子杀马班师，端平入洛遂败，兵衅自此始。
+- id: guji-赵葵-event-liquan-siege
+  date: '1230'
+  year_of: 1230
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-1
+  title_zh: 李全围扬州，赵葵守城
+  desc: 李全叛围扬州，赵葵守城，于元宵城头挂榜许百骑入城观灯以侦其变。
+- id: guji-赵葵-event-liquan-surprise
+  date: 1231-01
+  year_of: 1231
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-1
+  title_zh: 设伏闭城，尽杀李全游骑
+  desc: 李全游骑三易袍色探城，赵葵设伏闭城尽杀之；后修城见金甲一带，方知全死于此。
+- id: guji-赵葵-event-yingtian
+  date: '1233'
+  year_of: 1233
+  type: endeavor
+  endeavor_id: guji-赵葵-endeavor-2
+  title_zh: 赵葵乞经理营田
+  desc: 绍定六年，赵葵上疏乞经理营田，以裕边储。
+- id: guji-赵葵-event-death
+  date: '1266'
+  year_of: 1266
+  type: death
+  title_zh: 赵葵卒
+  desc: 约卒于1266年。
