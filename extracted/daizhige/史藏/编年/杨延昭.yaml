@@ -1,0 +1,127 @@
+person:
+  qid: guji-杨延昭
+  name_zh: 杨延昭
+  names:
+    zh: 杨延昭、杨延朗、杨六郎
+    en: Yang Yanzhao
+  lifespan:
+    birth:
+      date: 0958
+      precision: year
+      is_circa: true
+      raw: 约五代末年生
+    death:
+      date: '1014'
+      precision: year
+  birth_date: 0958
+  death_date: '1014'
+  era: 北宋
+  reign_ref: 宋真宗景德年间
+  archetype: 边将
+  dilemmas:
+  - 澶渊盟和后守边之臣当战当守的两难：和议既成，边备不可弛而朝廷忌兵
+  lesson: 有备则和可久，无备则和必败；守边者威名不在战功多寡，而在敌不敢犯。
+  summary_first_person: 我杨延朗乃杨业之子，戍守北边二十余年，澶州之役时以缘边都巡检屯保州，契丹畏我不敢近边。景德和议既定，朝廷命我知保州，专一行守巡警，虽罢兵而不敢废防。
+  source_urls:
+  - https://zh.wikisource.org/wiki/續資治通鑑長編/卷五十九
+endeavors:
+- id: guji-杨延昭-endeavor-1
+  name_zh: 镇守北边防备契丹
+  phases:
+  - key: brewing
+    name_zh: 继父业戍边
+    labels:
+      zh:
+      - 河东
+      - 镇州
+    start_date: 0986
+  - key: breakthrough
+    name_zh: 遂城却敌、保州屯守
+    labels:
+      zh:
+      - 缘边都巡检
+      - 遂城冰城
+    start_date: 0999
+    highlight_event_id: guji-杨延昭-event-2
+  - key: climax
+    name_zh: 澶渊之役勤王守边
+    labels:
+      zh:
+      - 澶州之役
+      - 缘边都巡检
+    start_date: '1004'
+    highlight_event_id: guji-杨延昭-event-3
+  - key: closure
+    name_zh: 和议后知保州
+    labels:
+      zh:
+      - 知保州
+      - 澶渊盟约
+    start_date: '1005'
+    highlight_event_id: guji-杨延昭-event-4
+  decisions:
+  - date: 1005-02
+    title_zh: 受命止于保州巡警
+    rationale: 澶渊既和，朝廷命缘边巡检杨延朗止令在保州，遣同巡检往来巡警，遇群盗会兵剪戮即率麾下往赴，守约而不废兵备。
+- id: guji-杨延昭-endeavor-2
+  name_zh: 杨家将世家兵略传承
+  phases:
+  - key: brewing
+    name_zh: 随父杨业征战
+    labels:
+      zh:
+      - 代州
+      - 杨业
+    start_date: 0974
+  - key: breakthrough
+    name_zh: 独当北面
+    labels:
+      zh:
+      - 北面缘边
+    start_date: 0986
+    highlight_event_id: guji-杨延昭-event-1
+  decisions:
+  - date: 0986
+    title_zh: 父殁后继续镇守北疆
+    rationale: 杨业殉国后，延昭承其志，长期任缘边巡检、知州，为河北东路柱石。
+events:
+- id: guji-杨延昭-event-birth
+  date: 0958
+  year_of: 0958
+  title_zh: 杨延昭出生（约）
+  description_zh: 杨业之子，本名延朗，约生于五代末。
+  type: birth
+- id: guji-杨延昭-event-1
+  date: 0986
+  year_of: 0986
+  title_zh: 随父杨业北伐，后承镇边之任
+  description_zh: 雍熙北伐杨业殉国后，杨延昭渐膺河北边任，历任缘边巡检。
+  type: endeavor
+  endeavor_id: guji-杨延昭-endeavor-2
+- id: guji-杨延昭-event-2
+  date: 0999
+  year_of: 0999
+  title_zh: 遂城御契丹，号冰城
+  description_zh: 咸平二年契丹南犯，延昭守遂城，乘夜汲水灌城结冰，虏不得攻而去。
+  type: endeavor
+  endeavor_id: guji-杨延昭-endeavor-1
+- id: guji-杨延昭-event-3
+  date: '1004'
+  year_of: '1004'
+  title_zh: 澶州之役任缘边都巡检
+  description_zh: 景德元年契丹深入，杨延朗为缘边都巡检，屯兵北面策应澶渊行营，虏兵畏其名而不敢深犯其境。
+  type: endeavor
+  endeavor_id: guji-杨延昭-endeavor-1
+- id: guji-杨延昭-event-4
+  date: 1005-02
+  year_of: '1005'
+  title_zh: 澶渊和成，改称知保州，专任巡防
+  description_zh: 续资治通鉴长编卷五十九载：上以河北守臣宜得武干善镇静者，命莫州团练使杨延朗知保州；又命其止令在保州，遣同巡检往来巡警。
+  type: endeavor
+  endeavor_id: guji-杨延昭-endeavor-1
+- id: guji-杨延昭-event-death
+  date: '1014'
+  year_of: '1014'
+  title_zh: 杨延昭卒于高阳关副都部署任上
+  description_zh: 守边二十余年卒，边人皆恸。
+  type: death

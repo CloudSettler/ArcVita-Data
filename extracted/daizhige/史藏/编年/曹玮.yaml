@@ -1,0 +1,130 @@
+person:
+  qid: guji-曹玮
+  name_zh: 曹玮
+  names:
+    zh: 曹玮
+    en: Cao Wei
+  lifespan:
+    birth:
+      date: 0973
+      precision: year
+      is_circa: true
+      raw: 开宝六年前后
+    death:
+      date: '1030'
+      precision: year
+      is_circa: true
+      raw: 天圣八年前后
+  birth_date: 0973
+  death_date: '1030'
+  era: 北宋
+  reign_ref: 宋真宗·宋仁宗
+  archetype: 边将儒帅
+  dilemmas:
+  - 镇守西鄙，既要御夏羌之寇，又需以粮价、盐池之策谋长途军供与怀柔诸戎
+  - 果于战斗与持重守边之间的抉择
+  lesson: 善战者以谋济力，以地利盐粮之策弱敌强边
+  summary_first_person: 我是北宋名将曹彬之子曹玮，以签书枢密院事出为环庆路都总管安抚使，镇守西鄙。我果于战斗，长于边计，尝谋建城减粮价、据乌白盐池以制夏贼、号令诸戎分封擒贼之功，使敌敛迹，边患渐息。
+  source_urls:
+  - 续资治通鉴长编卷四十五及相关注文（蜀文辑存、王曾笔录引曹玮事）
+endeavors:
+- id: guji-曹玮-endeavor-1
+  name_zh: 经略西北边防
+  phases:
+  - key: brewing
+    name_zh: 治边历练
+    labels:
+      zh: 初镇边郡
+    start_date: 0995
+  - key: breakthrough
+    name_zh: 御夏破敌
+    labels:
+      zh: 三都谷等破敌
+    start_date: '1001'
+    highlight_event_id: guji-曹玮-event-2
+  - key: climax
+    name_zh: 建言边策
+    labels:
+      zh: 建城馈粮·据盐制戎
+    start_date: 0999
+    highlight_event_id: guji-曹玮-endeavor-1
+  - key: closure
+    name_zh: 出镇枢贰
+    labels:
+      zh: 以签书枢密院事为环庆路都总管安抚使
+    start_date: '1016'
+  decisions:
+  - date: 0999
+    title_zh: 建议建清远二城以趋灵武、减谷价供军费
+    rationale: 度越旱海无舍宿之地、有贼寇之忧故谷贵；建城则军兵有舍宿之地、少贼寇之忧，输籴日益，谷贱足以供二城之费
+  - date: 0999
+    title_zh: 谋据乌白盐池、号令诸戎共击夏贼
+    rationale: 乌白盐池为夏贼及诸戎所性命视之，据之以分封擒贼之功，则诸戎愿擒保吉者众，可为王师之助
+  - date: '1016'
+    title_zh: 晚自枢贰出镇西鄙
+    rationale: 以签书枢密院事为环庆路都总管安抚使，亲当边任
+- id: guji-曹玮-endeavor-2
+  name_zh: 战阵御敌
+  phases:
+  - key: brewing
+    name_zh: 随父习兵
+    labels:
+      zh: 曹彬之子
+    start_date: 0985
+  - key: breakthrough
+    name_zh: 果于战斗
+    labels:
+      zh: 屡破羌夏
+    start_date: '1001'
+    highlight_event_id: guji-曹玮-event-2
+  - key: climax
+    name_zh: 威震西陲
+    labels:
+      zh: 羌戎敛迹
+    start_date: '1010'
+  - key: closure
+    name_zh: 谢世
+    labels:
+      zh: 薨于位
+    start_date: '1030'
+  decisions:
+  - date: '1001'
+    title_zh: 果决出击、临阵制胜
+    rationale: 用兵果于战斗，持重与敏锐并施，敌畏其名
+events:
+- id: guji-曹玮-event-birth
+  date: 0973
+  year_of: 0973
+  type: birth
+  title_zh: 曹玮生
+  person_ref: guji-曹玮
+- id: guji-曹玮-event-1
+  date: 0999
+  year_of: 0999
+  type: career
+  title_zh: 上建城减粮价、据乌白盐池以制夏贼之策
+  detail_zh: 就灵武粮运与乌白盐池诸戎之属陈二策及一说，谋弱夏贼之势
+  endeavor_ref: guji-曹玮-endeavor-1
+  person_ref: guji-曹玮
+- id: guji-曹玮-event-2
+  date: '1001'
+  year_of: 1001
+  type: battle
+  title_zh: 破敌于西北边
+  detail_zh: 果于战斗，屡挫夏羌之众，威名益著
+  endeavor_ref: guji-曹玮-endeavor-2
+  person_ref: guji-曹玮
+- id: guji-曹玮-event-3
+  date: '1016'
+  year_of: 1016
+  type: career
+  title_zh: 以签书枢密院事为环庆路都总管安抚使，出镇西鄙
+  detail_zh: 晚岁仍膺边任，主持环庆路军政
+  endeavor_ref: guji-曹玮-endeavor-1
+  person_ref: guji-曹玮
+- id: guji-曹玮-event-death
+  date: '1030'
+  year_of: 1030
+  type: death
+  title_zh: 曹玮卒
+  person_ref: guji-曹玮
