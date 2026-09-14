@@ -1,0 +1,130 @@
+person:
+  qid: guji-裴秀
+  name_zh: 裴秀
+  names:
+    zh: 裴秀
+    en: Pei Xiu
+  lifespan:
+    birth:
+      date: '224'
+      precision: year
+      is_circa: true
+      raw: 约224年
+    death:
+      date: '271'
+      precision: year
+      is_circa: false
+      raw: 泰始七年（271年）
+  birth_date: '224'
+  death_date: '271'
+  era: 魏晋
+  reign_ref: 晋武帝泰始年间
+  archetype: 制图学家·地理学家
+  dilemmas:
+  - 官务繁剧与地志考订之勤
+  - 古今地名变迁与《禹贡》文字歧异之难
+  lesson: 因.file取准测量与比例缩绘，方能传地图之信于后世
+  summary_first_person: 我少有才名，仕魏晋两朝，官至司空，总一朝仪制；然我最留名者，乃考订《禹贡》山川、作《禹贡地域图》十八篇，创“制图六体”之分率、准望诸法，为中国传统地图学立规矩。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/裴秀
+endeavors:
+- id: guji-裴秀-endeavor-1
+  name_zh: 佐政建晋
+  labels:
+    zh: 仕途·创制
+  phases:
+  - key: brewing
+    name_zh: 入魏仕官
+    labels:
+      zh: 出仕曹魏
+    start_date: '245'
+  - key: breakthrough
+    name_zh: 参议晋制
+    labels:
+      zh: 议定礼仪制度
+    start_date: '265'
+    highlight_event_id: guji-裴秀-event-vizhili
+  - key: climax
+    name_zh: 位至司空
+    labels:
+      zh: 拜司空
+    start_date: '268'
+    highlight_event_id: guji-裴秀-event-sikong
+  - key: closure
+    name_zh: 薨于任上
+    labels:
+      zh: 卒官
+    start_date: '271'
+    highlight_event_id: guji-裴秀-event-death
+  decisions:
+  - date: '265'
+    title_zh: 归晋受封
+    rationale: 晋武帝受禅，裴秀以创制之劳进封钜鹿郡公、尚书仆射
+- id: guji-裴秀-endeavor-2
+  name_zh: 编制禹贡地域图
+  labels:
+    zh: 地图学
+  phases:
+  - key: brewing
+    name_zh: 因职务考校图籍
+    labels:
+      zh: 校阅秘书图籍
+    start_date: '266'
+  - key: breakthrough
+    name_zh: 提出制图六体
+    labels:
+      zh: 分率准望之术
+    start_date: '267'
+    highlight_event_id: guji-裴秀-event-liuti
+  - key: climax
+    name_zh: 成图十八篇上奏
+    labels:
+      zh: 禹贡地域图
+    start_date: '270'
+    highlight_event_id: guji-裴秀-event-tu
+  - key: closure
+    name_zh: 继成地形方丈图
+    labels:
+      zh: 后续制图之法为世所承
+    start_date: '271'
+  decisions:
+  - date: '267'
+    title_zh: 作《禹贡地域图》十八篇
+    rationale: 《禹贡》山川地名古易舛错，幸甄旧文、疑者阙之，依六体缩绘古今山川沿革
+events:
+- id: guji-裴秀-event-birth
+  title_zh: 裴秀出生
+  date: '224'
+  year_of: 224
+  type: birth
+  note_zh: 河东闻喜人，字季彦，约生于魏黄初年间
+- id: guji-裴秀-event-vizhili
+  title_zh: 以定礼仪之功受封
+  date: '265'
+  year_of: 265
+  type: career
+  note_zh: 魏晋之际，秀与群僚议改制度，晋受禅，进封钜鹿郡公、尚书仆射
+- id: guji-裴秀-event-liuti
+  title_zh: 作《禹贡地域图序》创制图六体
+  date: '267'
+  year_of: 267
+  type: career
+  note_zh: 六体者：分率、准望、道里、高下、方邪、迂直，为后世地图之法
+- id: guji-裴秀-event-tu
+  title_zh: 《禹贡地域图》十八篇成而奏上
+  date: '270'
+  year_of: 270
+  type: work
+  note_zh: 藏于秘府，又以一分为十里、一寸为百里之比例绘地形方丈图
+- id: guji-裴秀-event-sikong
+  title_zh: 拜司空
+  date: '268'
+  year_of: 268
+  type: appointment
+  note_zh: 泰始四年，裴秀为司空，位居三公
+- id: guji-裴秀-event-death
+  title_zh: 裴秀去世
+  date: '271'
+  year_of: 271
+  type: death
+  note_zh: 泰始七年因服寒食散饮冷酒而卒，年四十八，谥元，配享宗庙
