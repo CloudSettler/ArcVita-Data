@@ -1,0 +1,129 @@
+person:
+  qid: guji-zhangyuan
+  name_zh: 张原
+  names:
+    zh: 张原
+    en: Zhang Yuan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 明代
+  reign_ref: 正德、嘉靖年间
+  archetype: 直谏之臣
+  lesson: 忠亮直谏，虽谪居瘴疠八年而志不挫
+  summary_first_person: 我张原，字士元，号玉坡，三原人，正德甲戌进士，授吏科给事中。因极论时政，谪贵州新添驿丞八年。嘉靖元年复官，益慷慨直谏，力折权幸，不避祸患，以谏诤为已任，言人所不能言。
+endeavors:
+- id: guji-zhangyuan-endeavor-1
+  name_zh: 撰《玉坡奏议》
+  phases:
+  - key: brewing
+    name_zh: 初入谏垣
+    labels:
+      zh:
+      - 释褐
+      - 授吏科给事中
+    start_date: 1514
+    highlight_event_id: guji-zhangyuan-event-jinshi
+  - key: breakthrough
+    name_zh: 极论时政被谪
+    labels:
+      zh:
+      - 时政疏
+    start_date: 1514
+    highlight_event_id: guji-zhangyuan-event-zhe
+  - key: climax
+    name_zh: 复官直谏
+    labels:
+      zh:
+      - 力折权幸
+    start_date: 1522
+    highlight_event_id: guji-zhangyuan-event-fuguan
+  - key: closure
+    name_zh: 甲申封事
+    labels:
+      zh:
+      - 忠愤激烈
+    start_date: 1524
+    highlight_event_id: guji-zhangyuan-event-fengshi
+  decisions:
+  - date: 1514
+    title_zh: 上时政疏十二事
+    rationale: 直指中贵人弄权、民贫赋重诸弊
+  - date: 1524
+    title_zh: 上甲申封事
+    rationale: 感今上知遇，抗志委身，指陈阙政
+- id: guji-zhangyuan-endeavor-2
+  name_zh: 谪居新添驿
+  phases:
+  - key: brewing
+    name_zh: 被谪贵州
+    labels:
+      zh:
+      - 新添驿丞
+    start_date: 1514
+    highlight_event_id: guji-zhangyuan-event-zhe
+  - key: climax
+    name_zh: 八年不挫
+    labels:
+      zh:
+      - 坎坷
+    start_date: 1514
+    highlight_event_id: guji-zhangyuan-event-zhe
+  - key: closure
+    name_zh: 卒复召还
+    labels:
+      zh:
+      - 召复故官
+    start_date: 1522
+    highlight_event_id: guji-zhangyuan-event-fuguan
+  decisions:
+  - date: 1514
+    title_zh: 谪贵州新添驿而不改其志
+    rationale: 孤身万里，百死一生，不畏不沮
+events:
+- id: guji-zhangyuan-event-birth
+  type: birth
+  person: guji-zhangyuan
+  date: ''
+  year_of: ''
+  description_zh: 张原生年不详，三原人。
+- id: guji-zhangyuan-event-jinshi
+  type: elevation
+  person: guji-zhangyuan
+  date: 1514
+  year_of: 1514
+  description_zh: 正德甲戌（1514年）中进士，释褐五月授吏科给事中。
+- id: guji-zhangyuan-event-zhe
+  type: demotion
+  person: guji-zhangyuan
+  date: 1514
+  year_of: 1514
+  description_zh: 拜官三月，上时政疏极论时政，语侵中贵人，九日即谪贵州新添驿丞。
+- id: guji-zhangyuan-event-fuguan
+  type: restoration
+  person: guji-zhangyuan
+  date: 1522
+  year_of: 1522
+  description_zh: 嘉靖元年，世宗嗣统，召复吏科给事中故官。
+- id: guji-zhangyuan-event-fengshi
+  type: memorial
+  person: guji-zhangyuan
+  date: 1524
+  year_of: 1524
+  description_zh: 上甲申封事，忠愤激烈，抗志委身，力折权幸，不避祸患。
+- id: guji-zhangyuan-event-death
+  type: death
+  person: guji-zhangyuan
+  date: ''
+  year_of: ''
+  description_zh: 张原以谏死，卒年不详，遗奏议稿四卷传世。
