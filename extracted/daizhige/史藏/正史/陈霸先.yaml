@@ -1,0 +1,139 @@
+person:
+  qid: guji-陈霸先
+  name_zh: 陈霸先
+  names:
+    zh: 陈霸先
+    en: Chen Baxian
+  lifespan:
+    birth:
+      date: '503'
+      precision: year
+      is_circa: false
+      raw: 梁天监二年癸未岁
+  birth_date: '503'
+  era: 南北朝·梁末至陈初
+  reign_ref: 陈高祖武皇帝
+  archetype: 开国之君·寒门崛起的名将
+  dilemmas:
+  - 忠于梁室与相机夺权之间的抉择（袭杀王僧辩、废黜贞阳侯）
+  - 孤军深入交州时的生死决断
+  lesson: 乱世之中，决断与oscopic胆识比资历更能决定命运；ordure中崛起者以军功与人心立国。
+  summary_first_person: 我陈霸先，出身吴兴长城寒门，少有大志，习兵书武艺。从凑集千人讨李贲起，我屡以少胜多：解广州之围、平交州、北上讨侯景、袭杀王僧辩、两退齐军，终至受禅建陈，成为开国之君。
+endeavors:
+- id: guji-陈霸先-endeavor-1
+  key: 军功崛起
+  name_zh: 岭南征战与讨伐侯景
+  phases:
+  - key: brewing
+    name_zh: 累迁至岭南
+    labels:
+      zh:
+      - 中直兵参军
+      - 高要太守
+    start_date: '530'
+  - key: breakthrough
+    name_zh: 解广州之围、平李贲
+    labels:
+      zh:
+      - 直阁将军
+      - 新安子
+    start_date: '541'
+    highlight_event_id: guji-陈霸先-event-guangzhou
+  - key: climax
+    name_zh: 兴兵讨侯景、克石头城
+    labels:
+      zh:
+      - 征北大将军
+      - 司空
+    start_date: '550'
+    highlight_event_id: guji-陈霸先-event-shitou
+  - key: closure
+    name_zh: 击退北齐
+    labels:
+      zh:
+      - 丞相
+      - 陈公
+    start_date: '555'
+  decisions:
+  - date: '548'
+    title_zh: 决意北上勤王
+    rationale: 京都覆没，主上蒙尘，君辱臣死，虽萧勃劝阻仍行计决矣
+  - date: '549'
+    title_zh: 石头城下主张渡北岸立栅
+    rationale: 吸取柳仲礼隔水坐观的教训，先立栅争险
+- id: guji-陈霸先-endeavor-2
+  key: 篡代建陈
+  name_zh: 诛僧辩、受禅建陈
+  phases:
+  - key: brewing
+    name_zh: 苦争贞阳侯入立不得
+    labels:
+      zh:
+      - 司空
+    start_date: '555'
+  - key: breakthrough
+    name_zh: 夜袭石头、缢杀王僧辩
+    labels:
+      zh:
+      - 大都督中外诸军事
+    start_date: '555'
+    highlight_event_id: guji-陈霸先-event-sengbian
+  - key: climax
+    name_zh: 破北齐大军于建康
+    labels:
+      zh:
+      - 丞相·义兴郡公
+      - 进位相国
+    start_date: '556'
+    highlight_event_id: guji-陈霸先-event-poxiqi
+  - key: closure
+    name_zh: 受梁禅，即皇帝位
+    labels:
+      zh:
+      - 陈高祖
+    start_date: '557'
+  decisions:
+  - date: '555'
+    title_zh: 密谋袭杀王僧辩
+    rationale: 僧辩纳北齐所送贞阳侯为帝，假立非次，我有异图之疑，故先发制人
+events:
+- id: guji-陈霸先-event-birth
+  date: '503'
+  year_of: 503
+  type: birth
+  summary: 生于梁天监二年，吴兴长城下若里人
+- id: guji-陈霸先-event-guangzhou
+  date: '541'
+  year_of: 541
+  type: endeavor
+  summary: 率精兵三千救援广州，大破杜天合、杜僧明之乱，梁武帝深叹异，授直阁将军、封新安子
+- id: guji-陈霸先-event-jiaozhou
+  date: '548'
+  year_of: 548
+  type: endeavor
+  summary: 任交州司马随杨蒨南讨李贲，乘夜江涨先进，大溃贼众，屈獠斩贲传首京师
+- id: guji-陈霸先-event-faqi
+  date: '550'
+  year_of: 550
+  type: endeavor
+  summary: 发自始兴，破蔡路养于南野，进顿南康，决意北上讨侯景
+- id: guji-陈霸先-event-shitou
+  date: 552-03
+  year_of: 552
+  type: endeavor
+  summary: 与王僧辩会师白茅湾，渡北岸立栅攻石头城，大破侯景，景遁走
+- id: guji-陈霸先-event-sengbian
+  date: 555-09
+  year_of: 555
+  type: endeavor
+  summary: 夜发南徐州讨王僧辩，纵火围城，缢僧辩父子，晋安王即位，改元绍泰
+- id: guji-陈霸先-event-poxiqi
+  date: 556-06
+  year_of: 556
+  type: endeavor
+  summary: 于莫府山南大破北齐十万之师，擒斩徐嗣徽，俘萧轨等四十六将
+- id: guji-陈霸先-event-guojin
+  date: '557'
+  year_of: 557
+  type: endeavor
+  summary: 进位相国、封陈公，备九锡，受梁禅即皇帝位，国号陈

@@ -1,0 +1,135 @@
+person:
+  qid: guji-周文育
+  name_zh: 周文育
+  names:
+    zh: 周文育
+    en: Zhou Wenyu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详（陈武帝时为将）
+  birth_date: ''
+  death_date: ''
+  era: 南朝梁末至陈初
+  reign_ref: 梁武帝、陈武帝（陈霸先）在位期间
+  archetype: 骁将 / 开国功臣
+  dilemmas:
+  - 隶属陈霸先麾下，奉命讨伐叛乱诸将，需在忠义与地方豪强之间抉择
+  - 随军转战岭南、江南，屡当锋镝，进退皆系于主帅决策
+  lesson: 骁勇善战、临阵先登者，可为一时之将，然功名终究依附于明主与大局。
+  summary_first_person: 我是周文育，陈霸先帐下骁将。李迁仕据大皋时，我奉命将兵击走杜平虏；杜龛、韦载举兵反，我攻韦载于义兴；萧勃、余孝顷起兵，我与侯安都受命讨平之；王琳拥兵不应命，我又率众往讨。一生冲锋陷阵，为陈氏开基立业之爪牙。
+    (来源：陈书卷一·本纪第一·高祖上)
+  source_urls:
+  - https://zh.wikisource.org/wiki/陳書/卷01
+endeavors:
+- id: guji-周文育-endeavor-1
+  name_zh: 佐陈霸先平李迁仕之乱
+  phases:
+  - key: brewing
+    name_zh: 随军南征
+    labels_zh:
+    - 从征战
+    start_date: '0550-01-01'
+    highlight_event_id: guji-周文育-event-1
+  - key: breakthrough
+    name_zh: 击走杜平虏
+    labels_zh:
+    - 大皋之捷
+    start_date: '0550-06-01'
+    highlight_event_id: guji-周文育-event-1
+  decisions:
+  - date: '0550-06-01'
+    title_zh: 奉命将兵击杜平虏
+    rationale: 高州刺史李迁仕据大皋，遣主帅杜平虏率千人入赣石、鱼梁，陈霸先命周文育将兵击走之，迁仕奔宁都。
+- id: guji-周文育-endeavor-2
+  name_zh: 讨杜龛、韦载、萧勃、王琳之叛
+  phases:
+  - key: brewing
+    name_zh: 攻韦载于义兴
+    labels_zh:
+    - 东讨
+    start_date: '0557-02-01'
+    highlight_event_id: guji-周文育-event-2
+  - key: breakthrough
+    name_zh: 平萧勃余孝顷、讨王琳
+    labels_zh:
+    - 南征
+    start_date: '0558-02-01'
+    highlight_event_id: guji-周文育-event-3
+  - key: climax
+    name_zh: 与侯安都同讨王琳
+    labels_zh:
+    - 拥兵不臣
+    start_date: '0558-08-01'
+    highlight_event_id: guji-周文育-event-4
+  decisions:
+  - date: '0557-02-01'
+    title_zh: 奉命攻韦载于义兴
+    rationale: 震州刺史杜龛据吴兴，与义兴太守韦载同举兵反，陈霸先命周文育率众攻载于义兴，龛遣其从弟北叟拒战，北叟败归义兴。
+  - date: '0558-02-01'
+    title_zh: 与侯安都讨平萧勃、余孝顷
+    rationale: 萧勃举兵自广州渡岭，顿南康，遣欧阳頠、傅泰及子孜为前军，余孝顷起兵应勃，陈霸先命周文育、侯安都率众讨平之。
+  - date: '0558-08-01'
+    title_zh: 与侯安都率众讨王琳
+    rationale: 湘州刺史王琳拥兵不应命，陈霸先遣周文育、侯安都率众讨之。
+events:
+- id: guji-周文育-event-birth
+  date: ''
+  year_of: 336
+  precision: unknown
+  is_circa: true
+  type: birth
+  title_zh: 周文育生
+  description: 生年不详，梁末为陈霸先部将。
+- id: guji-周文育-event-1
+  date: '0550-06-01'
+  year_of: 360
+  precision: month
+  is_circa: false
+  type: battle
+  title_zh: 击走杜平虏于赣石
+  description: 六月，高州刺史李迁仕据大皋，遣主帅杜平虏率千人入赣石、鱼梁，周文育奉陈霸先命将兵击走之，迁仕奔宁都。
+  endeavor_id: guji-周文育-endeavor-1
+- id: guji-周文育-event-2
+  date: '0557-02-01'
+  year_of: 367
+  precision: month
+  is_circa: true
+  type: battle
+  title_zh: 攻韦载于义兴
+  description: 二月庚申前后，杜龛与韦载举兵反，周文育奉命率众攻载于义兴，龛从弟北叟拒战败归，丙子拔其水栅。
+  endeavor_id: guji-周文育-endeavor-2
+- id: guji-周文育-event-3
+  date: '0558-02-01'
+  year_of: 0558
+  precision: month
+  is_circa: true
+  type: battle
+  title_zh: 与侯安都讨平萧勃、余孝顷
+  description: 二月庚午，萧勃举兵至南康，余孝顷起兵应之，周文育与侯安都率众讨平之。
+  endeavor_id: guji-周文育-endeavor-2
+- id: guji-周文育-event-4
+  date: '0558-08-01'
+  year_of: 0558
+  precision: month
+  is_circa: true
+  type: military_campaign
+  title_zh: 奉命讨王琳
+  description: 八月甲午，湘州刺史王琳拥兵不应命，陈霸先遣周文育、侯安都率众讨之。
+  endeavor_id: guji-周文育-endeavor-2
+- id: guji-周文育-event-death
+  date: ''
+  year_of: 0559
+  precision: unknown
+  is_circa: true
+  type: death
+  title_zh: 周文育卒
+  description: 卒年不详，本卷未载其卒事。
+  endeavor_id: guji-周文育-endeavor-2
