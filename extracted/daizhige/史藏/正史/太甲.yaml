@@ -1,0 +1,175 @@
+person:
+  qid: guji-taijia
+  name_zh: 太甲
+  names:
+    zh: 太甲
+    en: Tai Jia
+  lifespan:
+    birth:
+      date: -1600
+      precision: century
+      is_circa: true
+      raw: 约商朝初年
+    death:
+      date: -1571
+      precision: decade
+      is_circa: true
+      raw: 约公元前1571年
+  birth_date: -1600
+  death_date: -1571
+  era: 商朝早期
+  reign_ref: 商王，成汤嫡长孙，继仲壬而立
+  archetype: 悔过迁善之君
+  dilemmas:
+  - 即位后纵欲失德，遭元老伊尹放逐，须在君位与德行之间抉择
+  - 幽居桐宫三年，面对复与不复，终选悔过自责而非怨怼抗争
+  lesson: 知过能改、自责修德，失位可复、人心可归
+  summary_first_person: 我是太甲，商汤的嫡长孙、故太子太丁之子。外丙、仲壬之后我嗣立为王，却一度纵欲乱德，被伊尹放逐到桐宫三年；我在那里悔过自责，改恶从善，伊尹乃迎我复位还政。此后我修德安民，重振殷商基业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/讀史記十表
+  - https://ctext.org/shiji/yin-ben-ji/zh
+endeavors:
+- id: guji-taijia-endeavor-1
+  name_zh: 嗣位为商王与失德被放
+  summary: 太甲继外丙、仲壬而立，因淫乱失德，被伊尹放于桐宫。
+  phases:
+  - key: brewing
+    name_zh: 嗣位登基
+    labels:
+      zh: 即位
+    start_date: -1580
+    highlight_event_id: guji-taijia-event-accession
+  - key: climax
+    name_zh: 纵欲乱德
+    labels:
+      zh: 失德
+    start_date: -1578
+    highlight_event_id: guji-taijia-event-misrule
+  - key: closure
+    name_zh: 放逐桐宫
+    labels:
+      zh: 被放
+    start_date: -1577
+    highlight_event_id: guji-taijia-event-banish
+  decisions:
+  - date: -1580
+    title_zh: 以嫡长孙身份继仲壬而立
+    rationale: 故太子太丁早卒，太甲承成汤血脉嗣位为王。
+  - date: -1577
+    title_zh: 居位而淫，不遵汤法
+    rationale: 纵欲乱德、弃成汤法度，终致伊尹放之于桐宫。
+- id: guji-taijia-endeavor-2
+  name_zh: 桐宫悔过与复位修德
+  summary: 太甲居桐宫三年悔过自责，伊尹迎之复位，此后修德而治。
+  phases:
+  - key: brewing
+    name_zh: 幽居思过
+    labels:
+      zh: 桐宫三年
+    start_date: -1577
+    highlight_event_id: guji-taijia-event-tongpalace
+  - key: breakthrough
+    name_zh: 悔过自责
+    labels:
+      zh: 改过迁善
+    start_date: -1575
+    highlight_event_id: guji-taijia-event-repent
+  - key: climax
+    name_zh: 迎归复位
+    labels:
+      zh: 伊尹授政
+    start_date: -1574
+    highlight_event_id: guji-taijia-event-restore
+  - key: closure
+    name_zh: 修德安殷
+    labels:
+      zh: 复兴
+    start_date: -1573
+    highlight_event_id: guji-taijia-event-restored-rule
+  decisions:
+  - date: -1575
+    title_zh: 于桐宫悔过自责、反于善
+    rationale: 面对祖父成汤之法与伊尹之放，选择自省改过而非怨怼。
+  - date: -1574
+    title_zh: 复位后修德行政
+    rationale: 纳伊尹之诲、循汤之法，安民立政，使殷道复兴。
+events:
+- id: guji-taijia-event-birth
+  type: birth
+  date: -1600
+  precision: century
+  is_circa: true
+  title_zh: 太甲生
+  description: 太甲约生于商朝初年，为成汤嫡长孙、故太子太丁之子。
+  year_of: -1600
+- id: guji-taijia-event-accession
+  type: succession
+  date: -1580
+  precision: decade
+  is_circa: true
+  title_zh: 继仲壬即位为商王
+  description: 外丙、仲壬相继在位之后，太甲以太子太丁之子嗣立为帝。
+  year_of: -1580
+  endeavor_id: guji-taijia-endeavor-1
+- id: guji-taijia-event-misrule
+  type: political
+  date: -1578
+  precision: decade
+  is_circa: true
+  title_zh: 淫乱失德
+  description: 世表称其淫，谓太甲居位纵欲、不遵成汤之法。
+  year_of: -1578
+  endeavor_id: guji-taijia-endeavor-1
+- id: guji-taijia-event-banish
+  type: political
+  date: -1577
+  precision: decade
+  is_circa: true
+  title_zh: 伊尹放太甲于桐宫
+  description: 因太甲淫乱失德，摄政元老伊尹放之于桐宫，使面先王之业而思过。
+  year_of: -1577
+  endeavor_id: guji-taijia-endeavor-1
+- id: guji-taijia-event-tongpalace
+  type: life
+  date: -1577
+  precision: decade
+  is_circa: true
+  title_zh: 幽居桐宫
+  description: 太甲居于桐宫，历三年之思，朝夕相对成汤旧法而自省。
+  year_of: -1577
+  endeavor_id: guji-taijia-endeavor-2
+- id: guji-taijia-event-repent
+  type: life
+  date: -1575
+  precision: decade
+  is_circa: true
+  title_zh: 悔过自责
+  description: 居桐宫既久，太甲悔过自责、反于善，德行渐著。
+  year_of: -1575
+  endeavor_id: guji-taijia-endeavor-2
+- id: guji-taijia-event-restore
+  type: political
+  date: -1574
+  precision: decade
+  is_circa: true
+  title_zh: 伊尹迎太甲复位
+  description: 见太甲悔过诚至，伊尹乃迎之归都，还授政事。
+  year_of: -1574
+  endeavor_id: guji-taijia-endeavor-2
+- id: guji-taijia-event-restored-rule
+  type: political
+  date: -1573
+  precision: decade
+  is_circa: true
+  title_zh: 修德而治
+  description: 复位后太甲修德行政，百姓以宁，殷道复兴。
+  year_of: -1573
+  endeavor_id: guji-taijia-endeavor-2
+- id: guji-taijia-event-death
+  type: death
+  date: -1571
+  precision: decade
+  is_circa: true
+  title_zh: 太甲卒
+  description: 太甲卒，其后沃丁继立；至沃丁之世伊尹乃卒。
+  year_of: -1571

@@ -1,0 +1,137 @@
+person:
+  qid: guji-盘庚
+  name_zh: 盘庚
+  names:
+    zh: 盘庚
+    en: Pan Geng
+  lifespan:
+    birth:
+      date: 约-1340
+      precision: unknown
+      is_circa: true
+      raw: 生年不详，约当公元前14世纪中叶
+    death:
+      date: 约-1273
+      precision: year
+      is_circa: true
+      raw: 约前1273年，旧说在位二十八年，诸家年表互异
+  birth_date: -1340
+  death_date: -1273
+  era: 商朝（迁殷后开晚商之基）
+  reign_ref: 约前1300年前后继阳甲即位，在位约二十八年
+  archetype: 迁都中兴之君
+  dilemmas:
+  - 旧都地势卑湿、水患屡作，而贵族安土重迁、盘踞既利，迁则动众怨，不迁则国势日削
+  - 兄终弟及之制下继位，须以复汤之业服天下，而非仅以名分临臣民
+  lesson: 谋国者为久远计，不惮一时之怨——盘庚断然徙都，殷道由衰而复兴。
+  summary_first_person: 吾乃盘庚，帝祖丁之子、阳甲之弟。自中丁以来，殷室多故，旧都难居。吾率众渡河南徙，复居成汤之故地，行汤之政，绥尔有众，殷道复兴，诸侯来朝。后世读三代世表者，于吾名下特书四字曰徙河南，谓此也。
+  source_urls:
+  - https://ctext.org/shiji/san-dai-shi-biao/zhs
+  - https://ctext.org/shiji/yin-ben-ji/zhs
+endeavors:
+- id: guji-盘庚-endeavor-1
+  name_zh: 迁殷定鼎
+  description: 自河北旧都渡河南徙，还居成汤故地，重建商之王都，奠定此后二百余年殷都之基。
+  phases:
+  - key: brewing
+    name_zh: 旧都多难
+    labels:
+      zh: 九世之乱后国势衰微，诸侯或不至
+    start_date: 约-1320
+  - key: breakthrough
+    name_zh: 决计南渡
+    labels:
+      zh: 徙河南，复居成汤之故居
+    start_date: 约-1300
+    highlight_event_id: guji-盘庚-event-qian-du
+  - key: climax
+    name_zh: 诰谕安民
+    labels:
+      zh: 告喻臣民，毋动以浮言，永建乃家
+    start_date: 约-1299
+    highlight_event_id: guji-盘庚-event-gao-min
+  - key: closure
+    name_zh: 新都底定
+    labels:
+      zh: 殷都既定，自此不复迁
+    start_date: 约-1290
+  decisions:
+  - date: 约-1300
+    title_zh: 渡河南徙，复居成汤故都
+    rationale: 旧都水患频仍、贵族奢逸而民困；还汤故地既避其害，又可上承成汤之政以正纲纪。
+  - date: 约-1299
+    title_zh: 不从浮议，坚定定居新都
+    rationale: 迁都之议汹汹，若半途而返则前功尽弃，故援成汤故事晓谕上下，民心遂安。
+- id: guji-盘庚-endeavor-2
+  name_zh: 行汤之政，复兴殷道
+  description: 效法成汤修德整政，抚绥百姓，使衰而复振、诸侯来朝。
+  phases:
+  - key: brewing
+    name_zh: 继兄即位
+    labels:
+      zh: 阳甲崩，弟盘庚立
+    start_date: 约-1300
+    highlight_event_id: guji-盘庚-event-succession
+  - key: breakthrough
+    name_zh: 法汤修德
+    labels:
+      zh: 行成汤之政，整饬朝纲
+    start_date: 约-1298
+  - key: climax
+    name_zh: 殷道复兴
+    labels:
+      zh: 百姓由宁，殷道复兴
+    start_date: 约-1285
+    highlight_event_id: guji-盘庚-event-fuxing
+  - key: closure
+    name_zh: 传位小辛
+    labels:
+      zh: 崩，弟小辛立
+    start_date: 约-1273
+    highlight_event_id: guji-盘庚-event-death
+  decisions:
+  - date: 约-1273
+    title_zh: 依兄终弟及之制传位于小辛
+    rationale: 沿商代继承旧制以安社稷；然小辛立而殷复衰，足见守成之难于创业。
+events:
+- id: guji-盘庚-event-birth
+  event_type: birth
+  date: 约-1340
+  year_of: -1340
+  title_zh: 盘庚出生
+  description: 生年不详，约当公元前14世纪中叶；为帝祖丁之子，阳甲之弟。
+- id: guji-盘庚-event-succession
+  event_type: succession
+  date: 约-1300
+  year_of: -1300
+  title_zh: 继阳甲即位为帝
+  description: 帝阳甲崩，盘庚以弟继立；时殷道久衰，诸侯或不至，朝纲待振。
+  endeavor_id: guji-盘庚-endeavor-2
+- id: guji-盘庚-event-qian-du
+  event_type: milestone
+  date: 约-1300
+  year_of: -1300
+  title_zh: 徙都河南，复居成汤故地
+  description: 读史记十表三代世表载帝盘庚条曰阳甲弟徙河南；盘庚率众渡河南迁，还成汤之故居，商自此亦称殷。
+  endeavor_id: guji-盘庚-endeavor-1
+- id: guji-盘庚-event-gao-min
+  event_type: milestone
+  date: 约-1299
+  year_of: -1299
+  title_zh: 诰谕臣民，安土定居
+  description: 迁都之初人心浮动，盘庚昭告臣下毋动以浮言，永建乃家；其诰辞具于尚书盘庚三篇。
+  endeavor_id: guji-盘庚-endeavor-1
+- id: guji-盘庚-event-fuxing
+  event_type: milestone
+  date: 约-1285
+  year_of: -1285
+  title_zh: 行汤之政，殷道复兴
+  description: 定殷之后修成汤德政，百姓由宁，殷道复兴，诸侯复朝。
+  endeavor_id: guji-盘庚-endeavor-2
+- id: guji-盘庚-event-death
+  event_type: death
+  date: 约-1273
+  year_of: -1273
+  title_zh: 盘庚崩
+  description: 帝盘庚崩，弟小辛继立，殷道复衰；在位年数诸说不一，旧称二十八年。
+  endeavor_id: guji-盘庚-endeavor-2
