@@ -1,0 +1,156 @@
+person:
+  qid: guji-shishibiao
+  name_zh: 施世骠
+  names:
+    zh: 施世骠
+    en: Shi Shibiao
+  lifespan:
+    birth:
+      date: '1667'
+      precision: year
+      is_circa: true
+      raw: 约1667年
+    death:
+      date: '1721'
+      precision: year
+      is_circa: false
+      raw: 康熙六十年（1721）
+  birth_date: '1667'
+  death_date: '1721'
+  era: 清康熙年间
+  reign_ref: 康熙
+  archetype: 平乱儒将
+  dilemmas:
+  - 台变初起、难民蜂拥而至厦岛，须严守厦门门户以免奸徒混迹乘虚鼓煽
+  - 大军登岸征剿之际，须在歼灭贼魁与保全生灵之间抉择攻抚之策
+  lesson: 临危镇定、宽严相济，方能在海疆变乱中收复失土而不滥杀
+  summary_first_person: 我是水师提督施世骠。台湾朱一贵之变骤起，全郡陷落，我先督严巡防以固厦门， puis 会师澎湖，与蓝廷珍定策进剿，传令水陆并进，克复台郡府治，又分遣大兵扩清南北二路。我采纳止歼巨魁、余众自新之议，戒将弁登岸勿得妄杀，遂以不大肆屠戮而平台。
+  source_urls:
+  - https://zh.wikisource.org/wiki/平台紀略
+endeavors:
+- id: guji-shishibiao-endeavor-1
+  name_zh: 闻变守厦、会师澎湖
+  phases:
+  - key: brewing
+    name_zh: 丙寅闻惊，集将严防
+    labels:
+      zh:
+      - 台变形势判断
+      - 巡防厦门
+    start_date: 1721-05
+    highlight_event_id: guji-shishibiao-event-counsel
+  - key: breakthrough
+    name_zh: 移驻澎湖、清算逃将
+    labels:
+      zh:
+      - 押解逃将
+      - 纳降吴良侦贼
+    start_date: 1721-06
+    highlight_event_id: guji-shishibiao-event-penghu
+  decisions:
+  - date: 1721-05
+    title_zh: 集诸将谨巡防严守御
+    rationale: 数百艘逃入内地恐有奸徒混迹，乘虚鼓煽，厦岛一摇罪不可言
+  - date: 1721-06
+    title_zh: 故纳吴良而夜醉其党以穷治之
+    rationale: 藉伪札百张之奸细侦知贼党相攻、百姓不附之实情
+- id: guji-shishibiao-endeavor-2
+  name_zh: 渡海征台、克复府治
+  phases:
+  - key: brewing
+    name_zh: 澎湖会师、定攻抚之策
+    labels:
+      zh:
+      - 会商方略
+      - 止歼巨魁
+    start_date: 1721-06
+    highlight_event_id: guji-shishibiao-event-attackpolicy
+  - key: breakthrough
+    name_zh: 鹿耳门登陆、进取安平
+    labels:
+      zh:
+      - 清港插标
+      - 前锋冒死直进
+    start_date: 1721-06
+    highlight_event_id: guji-shishibiao-event-luerhmen
+  - key: climax
+    name_zh: 水陆并进、收复台郡府治
+    labels:
+      zh:
+      - 西港仔遣兵
+      - 攻破府治
+    start_date: 1721-06
+    highlight_event_id: guji-shishibiao-event-fuzhi
+  - key: closure
+    name_zh: 扩清南北二路
+    labels:
+      zh:
+      - 南路剿抚
+      - 北路追贼
+    start_date: 1721-07
+    highlight_event_id: guji-shishibiao-event-northroute
+  decisions:
+  - date: 1721-06
+    title_zh: 采蓝廷珍之议，戒妄杀纵胁从
+    rationale: 群盗乌合、众至三十万不可胜诛，止歼巨魁数人，余概令自新可不血刃平
+  - date: 1721-06
+    title_zh: 密遣林亮等千二百人夜赴西港仔
+    rationale: 西港仔士民具羊酒迎师愿引大兵登岸，遂用其向导
+  - date: 1721-06
+    title_zh: 传令水陆官兵并进攻府治
+    rationale: 与蓝廷珍南北犄角，俾贼首尾不能相顾
+events:
+- id: guji-shishibiao-event-birth
+  date: '1667'
+  year_of: '1667'
+  type: birth
+  title_zh: 施世骠生
+  description_zh: 施世骠生于清初将门（约1667年，靖海侯施琅之子）。
+- id: guji-shishibiao-event-counsel
+  date: 1721-05
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-1
+  title_zh: 丙寅警报至厦门，集诸将议守御
+  description_zh: 难民船至厦方知台变全郡遽陷，施世骠集诸将议曰台寇猖獗极矣，令各谨巡防、严守御，无敢懈怠。
+- id: guji-shishibiao-event-penghu
+  date: 1721-06
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-1
+  title_zh: 移驻澎湖，押解逃将、穷治吴良
+  description_zh: 施世骠至澎湖，将台变逃回将弁张彦贤等十余员押解赴厦；又故纳从贼吴良，夜醉其党搜得伪札，尽知贼中情形。
+- id: guji-shishibiao-event-attackpolicy
+  date: 1721-06
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-2
+  title_zh: 采蓝廷珍止歼巨魁之议
+  description_zh: 蓝廷珍言于施世骠，请止歼巨魁、余令自新；世骠曰善，戒将弁登岸毋妄杀，降者纵还家。
+- id: guji-shishibiao-event-luerhmen
+  date: '1721-06-16'
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-2
+  title_zh: 舟师进抵鹿耳门，攻 Cros 炮台入台
+  description_zh: 癸卯发澎湖，丙午黎明舟师抵鹿耳门外，前锋林亮、董方冒死攻炮台，火起燔毙贼众，遂入鹿耳门；世骠夕至鹿耳门，次日乘潮入安平。
+- id: guji-shishibiao-event-fuzhi
+  date: 1721-07
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-2
+  title_zh: 水陆并进攻克台湾府治
+  description_zh: 施世骠先一日传令水陆官兵并进，攻府治之南与西南，夺涂墼埕毁贼营，与蓝廷珍会于府治，万姓欢呼复见天日。
+- id: guji-shishibiao-event-northroute
+  date: 1721-07
+  year_of: '1721'
+  type: endeavor_event
+  endeavor_ref: guji-shishibiao-endeavor-2
+  title_zh: 分兵扩清南北二路，追剿朱一贵
+  description_zh: 台郡既平，遣将剿抚南路复凤山县；北路兵败贼于大穆降，追至盐水港，朱一贵走下加冬。
+- id: guji-shishibiao-event-death
+  date: '1721'
+  year_of: '1721'
+  type: death
+  title_zh: 施世骠卒
+  description_zh: 平台既竣，施世骠卒于军中任上，史称其劳于王事。
