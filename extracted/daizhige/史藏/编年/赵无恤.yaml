@@ -1,0 +1,144 @@
+person:
+  qid: guji-赵无恤
+  name_zh: 赵无恤
+  names:
+    zh: 赵无恤
+    en: Zhao Wuxu
+  lifespan:
+    birth:
+      date: '-476'
+      precision: year
+      is_circa: true
+      raw: 生年不载于本录，约周元王初年前后在世
+    death:
+      date: '-425'
+      precision: year
+      is_circa: false
+      raw: 周威烈王元年晋赵襄子卒
+  birth_date: '-476'
+  death_date: '-425'
+  era: 春秋末战国初
+  reign_ref: 赵襄子，晋赵氏宗主
+  archetype: 忍辱成事的乱世宗主
+  dilemmas:
+  - 面对荀瑶侮慢，隐忍蓄力还是即刻翻脸
+  - 晋阳被围之时，如何离间韩魏以绝境求生
+  lesson: 深仇可忍，大业需借势而成。
+  summary_first_person: 我本是赵氏庶子，因能忍而有后福。大夫荀瑶两次羞辱于我，我不动声色，只为来日报仇。晋阳被围三年，我使张孟谈私约韩魏，反手灭知氏而三分其地。灭代先姊而又悼之，可知我行事之忍。我立伯鲁之孙为后，迁治中牟，为赵氏开万世之基。
+  source_urls:
+  - http://example.com/guji/dashiji-juan1-2
+endeavors:
+- id: guji-赵无恤-endeavor-1
+  name_zh: 继立赵氏宗主
+  labels:
+    zh: 中年
+  phases:
+  - key: brewing
+    name_zh: 立储与北图代地
+    labels:
+      zh: 北略
+    start_date: '-476'
+    highlight_event_id: guji-赵无恤-event-2
+  decisions:
+  - date: '-475'
+    title_zh: 赵鞅卒后接掌赵氏
+    rationale: 以庶子之能得立，从此执掌赵氏。
+- id: guji-赵无恤-endeavor-2
+  name_zh: 灭知氏与晋阳之战
+  labels:
+    zh: 关键
+  phases:
+  - key: breakthrough
+    name_zh: 荀瑶围晋阳
+    labels:
+      zh: 危局
+    start_date: '-455'
+    highlight_event_id: guji-赵无恤-event-3
+  - key: climax
+    name_zh: 约韩魏灭荀瑶
+    labels:
+      zh: 反攻
+    start_date: '-453'
+    highlight_event_id: guji-赵无恤-event-4
+  - key: closure
+    name_zh: 三分其地
+    labels:
+      zh: 成局
+    start_date: '-453'
+    highlight_event_id: guji-赵无恤-event-5
+  decisions:
+  - date: '-455'
+    title_zh: 拒以地与荀瑶而保晋阳
+    rationale: 宁困守而不弃根本之地。
+  - date: '-453'
+    title_zh: 使张孟谈密约韩魏
+    rationale: 知韩魏唇亡齿寒之惧，暗中策反以翻盘。
+- id: guji-赵无恤-endeavor-3
+  name_zh: 传后与迁治中牟
+  labels:
+    zh: 晚年
+  phases:
+  - key: closure
+    name_zh: 定立嗣而谋远
+    labels:
+      zh: 安排
+    start_date: '-425'
+    highlight_event_id: guji-赵无恤-event-6
+  decisions:
+  - date: '-425'
+    title_zh: 以伯鲁之孙献子浣为后，徙治中牟
+    rationale: 不传己子而还位于兄之后，并东迁治所以图中原。
+events:
+- id: guji-赵无恤-event-birth
+  date: '-476'
+  year_of: -476
+  type: birth
+  title: 赵无恤约生年
+  description: 史无明载生年，其见于本录行事自周元王元年前后始。
+- id: guji-赵无恤-event-1
+  date: '-475'
+  year_of: -475
+  type: career
+  title: 晋赵简子卒，无恤立
+  description: 周元王元年（据本录记于晋定公薨后），晋赵鞅卒，赵无恤继为赵氏宗主。
+  source_refs:
+  - 吕缺
+- id: guji-赵无恤-event-2
+  date: '-475'
+  year_of: -475
+  type: career
+  title: 灭代
+  description: 以姊夫代王之宴设斗而杀之，兼并代地；其姊摩笄自尽，无恤为之恸悼。
+  source_refs:
+  - 史记
+  - 苏氏古史
+- id: guji-赵无恤-event-3
+  date: '-455'
+  year_of: -455
+  type: career
+  title: 荀瑶围无恤于晋阳
+  description: 周贞定王十六年，晋荀瑶与魏驹韩虎合兵围赵无恤于晋阳，引水灌城，城不浸者三版。
+- id: guji-赵无恤-event-4
+  date: '-453'
+  year_of: -453
+  type: career
+  title: 约韩魏反攻灭荀瑶
+  description: 使其臣张孟谈出城，私约韩魏倒戈，三家共攻荀瑶而灭之。
+- id: guji-赵无恤-event-5
+  date: '-453'
+  year_of: -453
+  type: career
+  title: 三分荀瑶之地
+  description: 灭知氏后与韩魏三分其地，奠定三家分晋格局。
+- id: guji-赵无恤-event-6
+  date: '-425'
+  year_of: -425
+  type: career
+  title: 卒，遗命立浣为后并徙治中牟
+  description: 周威烈王元年，赵襄子卒，遗令以兄伯鲁之孙献子浣为后，徙治中牟。
+- id: guji-赵无恤-event-death
+  date: '-425'
+  year_of: -425
+  type: death
+  title: 赵无恤（赵襄子）卒
+  description: 卒后桓子逐浣自立于代，国人旋复迎浣复位，见无恤安排之深意。
