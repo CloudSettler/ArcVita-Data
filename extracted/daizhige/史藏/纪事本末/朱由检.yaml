@@ -1,0 +1,92 @@
+person:
+  qid: guji-朱由检
+  name_zh: 朱由检
+  names:
+    zh: 朱由检
+    en: Zhu Youjian
+  lifespan:
+    birth:
+      date: '1611-02-06'
+      precision: day
+      is_circa: false
+      raw: 无确切生辰记载，据史补
+    death:
+      date: '1644-04-25'
+      precision: day
+      is_circa: false
+  birth_date: '1611-02-06'
+  death_date: '1644-04-25'
+  era: 明末
+  reign_ref: 崇祯（1628-1644）
+  archetype: 孤军支撑危局的末代之君
+  dilemmas:
+  - 党争与其祸与社稷存亡的抉择
+  - 对太子真伪案的裁断与舆论压力
+  lesson: 君主虽有独立判断，但若朝野党争不休、法纪废弛，纵欲挽狂澜亦难阻倾覆。
+  summary_first_person: 我朱由检即位后锄除魏党、焚《三朝要典》，锐意图治，然党祸根深，诸臣交争，流寇外侮交迫，终至京师失守，以身殉国。
+  source_urls:
+  - https://zh.wikisource.org/wiki/弘光朝伪东宫伪后及党祸纪略
+endeavors:
+- id: guji-朱由检-endeavor-1
+  name_zh: 铲除魏党、平反东林
+  phases:
+  - key: breakthrough
+    name_zh: 定逆案焚要典
+    labels:
+      zh:
+      - 崇祯初政
+      - 平反党祸
+    start_date: 1627-10
+    highlight_event_id: guji-朱由检-event-rehab
+  decisions:
+  - date: 1627-10
+    title_zh: 定逆案、焚《三朝要典》，锢魏党终身
+    rationale: 以正朝纲，肃清阉党乱政之弊。
+- id: guji-朱由检-endeavor-2
+  name_zh: 支撑危局与南渡诸政
+  phases:
+  - key: climax
+    name_zh: 流寇陷河南、追悼福王
+    labels:
+      zh:
+      - 崇祯十四年
+      - 宗藩之痛
+    start_date: 1641-02
+    highlight_event_id: guji-朱由检-event-wang-death
+  - key: closure
+    name_zh: 京师陷落殉国
+    labels:
+      zh:
+      - 甲申之变
+    start_date: 1644-04
+    highlight_event_id: guji-朱由检-event-death
+  decisions:
+  - date: 1644-03
+    title_zh: 命太子二王改装匿迹，嘱其来日报父母仇
+    rationale: 预料城破在即，为皇室留血脉。
+events:
+- id: guji-朱由检-event-birth
+  date: '1611-02-06'
+  year_of: 1611
+  type: birth
+  description_zh: 朱由检生，明神宗之孙、光宗之子。
+- id: guji-朱由检-event-rehab
+  date: 1627-10
+  year_of: 1627
+  type: endeavor
+  description_zh: 烈皇帝即位，定逆案，焚《三朝要典》，魏党皆锢之终身。
+- id: guji-朱由检-event-wang-death
+  date: 1641-02
+  year_of: 1641
+  type: endeavor
+  description_zh: 崇祯十四年正月，李自成陷河南府，福王遇害；帝震悼辍朝三日，泣告群臣，命祭告定陵与皇贵妃园寝。
+- id: guji-朱由检-event-prince-disguise
+  date: 1644-03
+  year_of: 1644
+  type: endeavor
+  description_zh: 京师将陷，帝为太子与二王换敝衣，手系其带，嘱匿形迹藏姓名，万一来报父母仇。
+- id: guji-朱由检-event-death
+  date: '1644-04-25'
+  year_of: 1644
+  type: death
+  description_zh: 京师陷，帝殉国，后弘光帝追念，此即甲申之变。

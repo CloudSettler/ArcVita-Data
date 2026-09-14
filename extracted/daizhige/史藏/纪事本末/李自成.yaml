@@ -1,0 +1,88 @@
+person:
+  qid: guji-李自成
+  name_zh: 李自成
+  names:
+    zh: 李自成
+  lifespan:
+    birth:
+      date: '1606'
+      precision: year
+      is_circa: true
+      raw: 约明万历三十四年
+    death:
+      date: '1645'
+      precision: year
+      is_circa: true
+      raw: 约清顺治二年
+  birth_date: 约公元1606年
+  death_date: 约公元1645年
+  era: 明末清初
+  reign_ref: 崇祯、弘光年间
+  archetype: 流民领袖
+  dilemmas:
+  - 攻陷河南府致福王遇害，改朝换代与屠戮宗室之举并存
+  - 败走西安后山东诸州县复为明守，势力由盛转衰
+  lesson: 流寇之势可速摧城郭，而难久固人心。
+  summary_first_person: 我李自成以流贼起事，崇祯十四年正月陷河南府，福王遇害；其后败走西安，所遣伪官多被杀，兵锋终衰。
+endeavors:
+- id: guji-李自成-endeavor-1
+  name_zh: 起兵征伐
+  key: brewing
+  phases:
+  - key: brewing
+    name_zh: 流动作战
+    labels:
+      zh: 流贼起势
+    start_date: 崇祯年间
+  decisions:
+  - date: 崇祯十四年正月
+    title_zh: 攻陷河南府
+    rationale: 集中兵锋攻取中原重镇，震动明朝宗室与朝廷。
+- id: guji-李自成-endeavor-2
+  name_zh: 据河南与败退
+  key: breakthrough
+  phases:
+  - key: breakthrough
+    name_zh: 中原经略
+    labels:
+      zh: 陷河南府
+    start_date: 崇祯十四年正月
+    highlight_event_id: guji-李自成-event-xianyang-fu-expedition
+  - key: closure
+    name_zh: 败走西安
+    labels:
+      zh: 西走势衰
+    start_date: 崇祯末
+  decisions:
+  - date: 崇祯十七年
+    title_zh: 遣兵南下
+    rationale: 派伪制将军董学礼率兵南下谋取江南，兵至宿迁而败。
+events:
+- id: guji-李自成-event-birth
+  title_zh: 李自成出生
+  date: 约公元1606年
+  year_of: 1606
+  kind: birth
+- id: guji-李自成-event-xianyang-fu-expedition
+  title_zh: 陷河南府，福王遇害
+  date: 崇祯十四年正月（公元1641年初）
+  year_of: 1641
+  kind: military
+  description: 崇祯十四年正月，流贼李自成陷河南府，福王遇害，世子走怀庆。
+- id: guji-李自成-event-nanxia-failure
+  title_zh: 遣兵南下败于宿迁
+  date: 崇祯十七年（公元1644年）
+  year_of: 1644
+  kind: military
+  description: 李自成遣伪制将军董学礼率兵南下，至宿迁被路振飞遣兵击败，伪防御使武愫被擒。
+- id: guji-李自成-event-retreat-xian
+  title_zh: 败走西安
+  date: 崇祯末（约公元1644—1645年）
+  year_of: 1644
+  kind: military
+  description: 自李自成败走西安，山东诸州县杀其伪官，复为明守。
+- id: guji-李自成-event-death
+  title_zh: 李自成去世
+  date: 约公元1645年
+  year_of: 1645
+  kind: death
