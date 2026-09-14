@@ -1,0 +1,116 @@
+person:
+  qid: guji-王彦章
+  name_zh: 王彦章
+  names:
+    zh: 王彦章
+    en: Wang Yanzhang
+  lifespan:
+    birth:
+      date: 0873
+      precision: year
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 0923-10
+      precision: month
+      is_circa: false
+      raw: 同光元年十月（甲戌取中都之役被擒，寻死）
+  birth_date: 0873
+  death_date: 0923-10
+  era: 五代·后梁
+  reign_ref: 后梁末帝朱友贞；唐庄宗李存勖
+  archetype: 末代王朝的勇烈战将
+  dilemmas:
+  - 忠于末帝而国势已颓，孤军周旋于强敌李存勖
+  - 郓州被急攻，力战不敌唐军前锋
+  lesson: 孤忠难挽倾厦，勇武终困于大势
+  summary_first_person: 我王彦章，后梁猛将，与晋唐鏖兵河上。同光元年新垒、递坊两败，十月唐军袭郓、取中都，我为李嗣源前锋所擒，国灭身死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新五代史/唐本紀
+endeavors:
+- id: guji-王彦章-endeavor-1
+  title_zh: 梁晋河上鏖兵
+  phases:
+  - key: brewing
+    name_zh: 屡为唐挫
+    labels:
+      zh: 河上对峙
+    start_date: 0923-06
+    highlight_event_id: guji-王彦章-event-xinlei
+  - key: breakthrough
+    name_zh: 急攻郓州
+    labels:
+      zh: 郓州之战
+    start_date: 0923-08
+    highlight_event_id: guji-王彦章-event-difang
+  - key: climax
+    name_zh: 中都被擒
+    labels:
+      zh: 兵败身死
+    start_date: 0923-10
+    highlight_event_id: guji-王彦章-event-zhongdu
+  - key: closure
+    name_zh: 后梁覆灭
+    labels:
+      zh: 国灭
+    start_date: 0923-10
+    highlight_event_id: guji-王彦章-event-death
+  decisions:
+  - date: 0923-08
+    title_zh: 急攻郓州不辍
+    rationale: 郓州为唐军楔入梁境要冲，彦章乘新败之余，仍以郓州为攻伐之的
+  - date: 0923-10
+    title_zh: 迎击唐之救军
+    rationale: 唐庄宗悉军救郓，李嗣源前锋直搏，彦章率众迎战于中都一线
+events:
+- id: guji-王彦章-event-birth
+  event_type: birth
+  date: 0873
+  date_precision: year
+  year_of: 873
+  summary_zh: 王彦章生，年不详
+  related_persons:
+  - guji-王彦章
+- id: guji-王彦章-event-xinlei
+  event_type: battle
+  date: 0923-06
+  date_precision: month
+  year_of: 923
+  title_zh: 新垒之战
+  summary_zh: 同光元年六月，唐庄宗李存勖及王彦章战于新垒，败之
+  related_persons:
+  - guji-王彦章
+  related_endeavors:
+  - guji-王彦章-endeavor-1
+- id: guji-王彦章-event-difang
+  event_type: battle
+  date: 0923-09
+  date_precision: month
+  year_of: 923
+  title_zh: 递坊之战
+  summary_zh: 同年九月戊辰，李嗣源及王彦章战于递坊，彦章再败
+  related_persons:
+  - guji-王彦章
+  related_endeavors:
+  - guji-王彦章-endeavor-1
+- id: guji-王彦章-event-zhongdu
+  event_type: capture
+  date: '0923-10-03'
+  date_precision: day
+  year_of: 923
+  title_zh: 中都被擒
+  summary_zh: 唐庄宗如郓州袭梁，甲戌取中都，李嗣源前锋追击，擒王彦章及梁监军张汉杰
+  related_persons:
+  - guji-王彦章
+  related_endeavors:
+  - guji-王彦章-endeavor-1
+- id: guji-王彦章-event-death
+  event_type: death
+  date: '0923-10-19'
+  date_precision: day
+  year_of: 923
+  summary_zh: 同光元年十月中都兵败被擒，寻被害；同年己卯唐灭梁
+  related_persons:
+  - guji-王彦章
+  related_endeavors:
+  - guji-王彦章-endeavor-1

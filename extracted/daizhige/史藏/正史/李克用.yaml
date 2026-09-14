@@ -1,0 +1,129 @@
+person:
+  qid: guji-李克用
+  name_zh: 李克用
+  names:
+    zh: 李克用
+    en: Li Keyong
+  lifespan:
+    birth:
+      date: '856'
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，约大中年间
+    death:
+      date: '908'
+      precision: year
+      is_circa: false
+      raw: 卒于后梁开平二年
+  birth_date: '856'
+  death_date: '908'
+  era: 唐末至五代初
+  reign_ref: 河东节度使、唐封晋王
+  archetype: 藩镇枭雄
+  dilemmas:
+  - 忠于唐室与自立称雄之间的抉择
+  - 与朱温仇怨深结而无力独灭梁
+  lesson: 生于乱世，骁勇盖世而终未能定天下，遗志子承方成一朝。
+  summary_first_person: 我李克用，沙陀飞虎子，一目微眇而箭法无双。我率黑鸦军破黄巢、收京师，官至河东节度使，封晋王。与朱温有上源驿之仇，终身与之相攻，虽屡胜屡败，至死未降梁。我遗志托于存勖，后来他灭梁建后唐，我在九泉可瞑目矣。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新五代史/卷4
+endeavors:
+- id: guji-李克用-endeavor-1
+  name_zh: 讨黄巢与镇河东
+  phases:
+  - key: brewing
+    name_zh: 崛起代北
+    labels:
+      zh: 起兵沙陀
+    start_date: '878'
+    highlight_event_id: guji-李克用-event-1
+  - key: breakthrough
+    name_zh: 中兴唐室
+    labels:
+      zh: 破巢复京
+    start_date: '883'
+    highlight_event_id: guji-李克用-event-2
+  - key: climax
+    name_zh: 争霸中原
+    labels:
+      zh: 晋梁相攻
+    start_date: '884'
+    highlight_event_id: guji-李克用-event-3
+  - key: closure
+    name_zh: 遗志托孤
+    labels:
+      zh: 封晋王薨
+    start_date: '907'
+    highlight_event_id: guji-李克用-event-5
+  decisions:
+  - date: 884-06
+    title_zh: 自汴州上源驿夜变脱身后诉于京师
+    rationale: 朱温夜袭，怒而讼其事，天子知曲在汴而和解之。
+  - date: 904-04
+    title_zh: 闻梁迁天子于洛阳，欲举兵讨梁
+    rationale: 与李茂贞、王建诸镇同盟讨梁，惜终未成行。
+- id: guji-李克用-endeavor-2
+  name_zh: 与朱温长期争雄
+  phases:
+  - key: brewing
+    name_zh: 上源驿结仇
+    labels:
+      zh: 汴上之隙
+    start_date: '884'
+    highlight_event_id: guji-李克用-event-3
+  - key: climax
+    name_zh: 泽潞争夺
+    labels:
+      zh: 互攻不断
+    start_date: '900'
+    highlight_event_id: guji-李克用-event-4
+  - key: closure
+    name_zh: 柏乡前后
+    labels:
+      zh: 遗恨而终
+    start_date: '908'
+    highlight_event_id: guji-李克用-event-5
+  decisions:
+  - date: 901-05
+    title_zh: 面对梁军五路围太原坚守不出
+    rationale: 梁兵围太原不克遇雨而还，保有河东根本。
+  - date: 908-02
+    title_zh: 遗命三五箭喻子存勖复仇灭梁
+    rationale: 临终以箭嘱志，激励后人完成未竟之业。
+events:
+- id: guji-李克用-event-birth
+  date: '856'
+  year_of: 856
+  type: birth
+  title_zh: 李克用约生于此年
+  desc_zh: 生年史无明文，据享年逆推约在大中年间。
+- id: guji-李克用-event-1
+  date: '880'
+  year_of: 880
+  type: endeavor
+  title_zh: 唐廷召其率沙陀军入援镇压黄巢
+  desc_zh: 黄巢乱起，李克用奉诏南下讨贼，自此崭露头角。
+- id: guji-李克用-event-2
+  date: 883-05
+  year_of: 883
+  type: endeavor
+  title_zh: 破黄巢复长安，任河东节度使
+  desc_zh: 率军下太行度河出洛阳，会诸镇兵击巢，收复京师，拜河东节度使。
+- id: guji-李克用-event-3
+  date: 884-06
+  year_of: 884
+  type: endeavor
+  title_zh: 上源驿之变，朱温夜袭李克用
+  desc_zh: 追黄巢至冤朐而旋，过汴州，朱温于上源驿夜攻之，逾城而免，自此结下深仇。
+- id: guji-李克用-event-4
+  date: 901-05
+  year_of: 901
+  type: endeavor
+  title_zh: 梁军会攻太原，围城不克
+  desc_zh: 朱温大举攻晋，诸军会于太原围之，李克用坚守，梁军遇雨而还。
+- id: guji-李克用-event-5
+  date: 908-02
+  year_of: 908
+  type: death
+  title_zh: 李克用卒于晋阳
+  desc_zh: 称晋王一年而病没，遗命其子存勖讨灭后梁。

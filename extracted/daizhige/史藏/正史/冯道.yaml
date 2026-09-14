@@ -1,0 +1,129 @@
+person:
+  qid: guji-fengdao
+  name_zh: 冯道
+  names:
+    zh: 冯道
+    en: Feng Dao
+  lifespan:
+    birth:
+      date: 0882
+      precision: year
+      is_circa: true
+      raw: 约882年
+    death:
+      date: 0954
+      precision: year
+      is_circa: true
+  birth_date: 0882
+  death_date: 0954
+  era: 五代
+  reign_ref: 后唐明宗
+  archetype: polemicist
+  dilemmas:
+  - 乱世中历事数朝，如何在政权更迭中保全官身与济民初心
+  - 是否直言进谏以图善治，抑或明哲保身
+  lesson: 处乱世而务实务民，不以一朝一姓之兴废易其济世之志。
+  summary_first_person: 我冯道，历仕五代数朝，在天成二年拜相，明宗常向我问民间疾苦，我也直言谷帛之价与民生无痛疫，劝帝修德报天。庄宗崩后，我任大行皇帝山陵使主丧；潞王入洛，我率百官迎于蒋桥，旋即罢相。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新五代史/唐本紀
+endeavors:
+- id: guji-fengdao-endeavor-1
+  name_zh: 侍明宗拜相与直言谋政
+  phases:
+  - key: brewing
+    name_zh: 端明殿学士
+    labels:
+      zh: 端明殿学士
+    start_date: 0925
+    highlight_event_id: guji-act1
+  - key: breakthrough
+    name_zh: 拜相参政
+    labels:
+      zh: 拜相
+    start_date: 0927
+    highlight_event_id: guji-act1
+  - key: climax
+    name_zh: 奏对民间疾苦
+    labels:
+      zh: 奏对
+    start_date: 0928
+    highlight_event_id: guji-act1
+  - key: closure
+    name_zh: 任山陵使终明宗之丧
+    labels:
+      zh: 山陵使
+    start_date: 0933
+    highlight_event_id: guji-act2
+  decisions:
+  - date: 0927
+    title_zh: 拜中书侍郎同平章事
+    rationale: 以端明殿学士兵部侍郎简在帝心，擢为宰辅。
+  - date: 0928
+    title_zh: 直言谷帛贱、民无疾疫
+    rationale: 明宗数问民间疾苦，据实以对，并劝帝作好事以报上天。
+  - date: 0933
+    title_zh: 任大行皇帝山陵使
+    rationale: 明宗崩，以宰臣之位主丧事，示忠谨。
+- id: guji-fengdao-endeavor-2
+  name_zh: 迎立废帝与罢相
+  phases:
+  - key: brewing
+    name_zh: 潞王兵起
+    labels:
+      zh: 兵变观望
+    start_date: 0934-04
+    highlight_event_id: guji-act3
+  - key: breakthrough
+    name_zh: 率百官迎王于蒋桥
+    labels:
+      zh: 迎立
+    start_date: 0934-04
+    highlight_event_id: guji-act3
+  - key: closure
+    name_zh: 罢相
+    labels:
+      zh: 罢相
+    start_date: 0934-05
+    highlight_event_id: guji-act4
+  decisions:
+  - date: 0934-04
+    title_zh: 率百官迎潞王
+    rationale: 潞王从珂入京，政局已定，率群臣归附以安朝局。
+  - date: 0934-05
+    title_zh: 随势让位罢相
+    rationale: 清泰一朝新贵用事，遂罢相去位。
+events:
+- id: guji-fengdao-event-birth
+  date: 0882
+  year_of: 882
+  type: birth
+  description: 冯道生，约当唐末。
+- id: guji-act1
+  date: 0927
+  year_of: 927
+  type: career
+  endeavor_id: guji-fengdao-endeavor-1
+  description: 天成二年正月癸亥，端明殿学士兵部侍郎冯道拜中书侍郎、同中书门下平章事；其后明宗数问冯道等民间疾苦，道以谷帛贱、民无疾疫对，帝欣然欲与公等作好事以报上天。
+- id: guji-act2
+  date: 0933-12
+  year_of: 933
+  type: career
+  endeavor_id: guji-fengdao-endeavor-1
+  description: 明宗崩，愍帝即位，丁巳以冯道为大行皇帝山陵使，主持丧仪。
+- id: guji-act3
+  date: 0934-04
+  year_of: 934
+  type: career
+  endeavor_id: guji-fengdao-endeavor-2
+  description: 潞王从珂兵入京师，冯道率百官迎王于蒋桥；道拜，王答拜。
+- id: guji-act4
+  date: 0934-05
+  year_of: 934
+  type: career
+  endeavor_id: guji-fengdao-endeavor-2
+  description: 清泰元年五月庚戌，冯道罢相。
+- id: guji-fengdao-event-death
+  date: 0954
+  year_of: 954
+  type: death
+  description: 冯道卒。
