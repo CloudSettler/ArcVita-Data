@@ -1,0 +1,131 @@
+person:
+  qid: guji-祖冲之
+  name_zh: 祖冲之
+  names:
+    zh: 祖冲之
+    en: Zu Chongzhi
+  lifespan:
+    birth:
+      date: '429'
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，学界多推为南朝宋元嘉六年（429年）
+    death:
+      date: '500'
+      precision: year
+      is_circa: true
+  birth_date: '429'
+  death_date: '500'
+  era: 南朝宋、齐之际
+  reign_ref: 南朝宋大明年间、南齐永明年间
+  archetype: 科学家 / 历算家
+  dilemmas:
+  - 新历斗胆改易旧章， consultar传统历法与实测天象之间的取舍
+  - 圆周率推算繁难，精确与计算工具极限之间的坚持
+  lesson: 以实测纠正旧说，精算不辍，方能使历数大明于世
+  summary_first_person: 我是祖冲之，精于历数之学。所造大明历以实测定置闰与交点月，所推圆周率密于前人；沈洙议漏刻时，犹引何承天与我所定之刻数为准。寒暑不改，昼夜推步，务使历数合于天行。
+  source_urls:
+  - https://zh.wikisource.org/wiki/南史/卷072
+endeavors:
+- id: guji-祖冲之-endeavor-1
+  name_zh: 造大明历
+  phases:
+  - key: brewing
+    name_zh: 治历之始
+    labels:
+      zh:
+      - 治历
+      - 天文
+    start_date: '454'
+  - key: breakthrough
+    name_zh: 大明历成
+    labels:
+      zh:
+      - 大明历
+    start_date: '462'
+    highlight_event_id: guji-祖冲之-event-1
+  - key: climax
+    name_zh: 历术争鸣
+    labels:
+      zh:
+      - 历议
+    start_date: '464'
+  - key: closure
+    name_zh: 历行于世
+    labels:
+      zh:
+      - 颁行
+    start_date: '510'
+  decisions:
+  - date: '462'
+    title_zh: 上表献大明历
+    rationale: 以实测岁差改易置闰旧法，虽遭戴法兴非难，坚持历术当合于天
+- id: guji-祖冲之-endeavor-2
+  name_zh: 推算圆周率
+  phases:
+  - key: brewing
+    name_zh: 究极剖割
+    labels:
+      zh:
+      - 圆率
+    start_date: '450'
+  - key: breakthrough
+    name_zh: 得密率
+    labels:
+      zh:
+      - 密率
+    start_date: '465'
+    highlight_event_id: guji-祖冲之-event-2
+  - key: climax
+    name_zh: 缀术成书
+    labels:
+      zh:
+      - 缀术
+    start_date: '480'
+  - key: closure
+    name_zh: 学传后世
+    labels:
+      zh:
+      - 流传
+    start_date: '500'
+  decisions:
+  - date: '465'
+    title_zh: 定圆周率密率
+    rationale: 析算至于毫芒，得出盈朒二数，使圆率精于前人
+events:
+- id: guji-祖冲之-event-birth
+  event_type: birth
+  date: '429'
+  year_of: 429
+  title_zh: 祖冲之生
+  description_zh: 祖冲之生于南朝宋，范阳祖氏之后，世掌历数之学
+- id: guji-祖冲之-event-1
+  event_type: endeavor
+  date: '462'
+  year_of: 462
+  title_zh: 撰成大明历并上表献之
+  description_zh: 冲之将考校增损之大明历上表于宋孝武帝，请行新历，引入岁差之法
+  endeavors:
+  - guji-祖冲之-endeavor-1
+- id: guji-祖冲之-event-2
+  event_type: endeavor
+  date: '465'
+  year_of: 465
+  title_zh: 推得圆周率密率
+  description_zh: 以割圆之法析算，得出圆周率在盈朒二限之间，并定密率约率，精于前人
+  endeavors:
+  - guji-祖冲之-endeavor-2
+- id: guji-祖冲之-event-3
+  event_type: endeavor
+  date: '464'
+  year_of: 464
+  title_zh: 历议遭驳而坚持己说
+  description_zh: 朝臣戴法兴以旧章难之，冲之抗辩谓历术当验天而行，不苟同古人
+  endeavors:
+  - guji-祖冲之-endeavor-1
+- id: guji-祖冲之-event-death
+  event_type: death
+  date: '500'
+  year_of: 500
+  title_zh: 祖冲之卒
+  description_zh: 冲之卒，所撰缀术、大明历与漏刻之制为后世（如沈洙议漏刻时所引）所用
