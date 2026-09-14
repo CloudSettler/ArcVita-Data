@@ -1,0 +1,205 @@
+person:
+  qid: guji-铁铉
+  name_zh: 铁铉
+  names:
+    zh: 铁铉
+    en: Tie Xuan
+  lifespan:
+    birth:
+      date: '1366'
+      precision: year
+      is_circa: true
+      raw: 文本未载生年；据通说约生于元至正二十六年（1366）
+    death:
+      date: '1402'
+      precision: year
+      is_circa: true
+      raw: 文本未载卒年；据史补，建文四年（1402）燕师入京后不屈殉难
+  birth_date: '1366'
+  death_date: '1402'
+  era: 明初·建文朝
+  reign_ref: 建文（1399—1402）
+  archetype: 死守孤城的忠烈文臣
+  dilemmas:
+  - 开城迎降可保身家，然建文大义与济南生民不可弃，遂择死守孤城
+  - 诈降设悬门近乎诡道，然堰水灌城、城旦夕且坏，非奇计不能止灌缓兵
+  - 大书太祖神牌以却炮石，借孝陵之尊行守御之实，忠与机互为表里
+  lesson: 城可危而节不可夺；临大难以忠义固人心，以智术撑危局，方能于必败之势中搏一线之胜
+  summary_first_person: 吾本山东参政，督饷于景隆军前。景隆师溃，诸城望风而散，吾与高巍酌酒同盟，以死自誓，收溃卒、募新兵以守济南。燕师围城百道来攻，堰水灌城，吾诈降设悬门，几获其帅；炮石将破城，吾大书太祖高皇帝神牌悬之，敌不敢击。围解，与盛庸合兵复德州，擢兵部尚书，复于东昌背城列阵、列火器毒弩，大破北师。吾所守者，建文之节、济南之民而已。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+endeavors:
+- id: guji-铁铉-endeavor-1
+  name_zh: 济南保卫战
+  role: 山东参政→兵部尚书
+  start_date: 1400-05
+  end_date: '1400'
+  phases:
+  - key: brewing
+    name_zh: 临危受命
+    labels:
+      zh:
+      - 督饷遇溃
+      - 盟誓死守
+    start_date: 1400-05
+    highlight_event_id: guji-铁铉-event-oath
+  - key: breakthrough
+    name_zh: 悍御孤城
+    labels:
+      zh:
+      - 悉力悍御
+      - 百攻不下
+    start_date: 1400-05
+    highlight_event_id: guji-铁铉-event-siege
+  - key: climax
+    name_zh: 诈降却炮
+    labels:
+      zh:
+      - 悬门诱敌
+      - 神牌止炮
+    start_date: 1400-08
+    highlight_event_id: guji-铁铉-event-feign
+  - key: closure
+    name_zh: 复地擢升
+    labels:
+      zh:
+      - 合兵复德州
+      - 擢兵部尚书
+    start_date: '1400'
+    highlight_event_id: guji-铁铉-event-promote
+  decisions:
+  - date: 1400-05
+    title_zh: 与高巍酌酒同盟，以死自誓，收溃卒守济南
+    rationale: 景隆师溃、诸城望风而散，非盟誓无以系人心；济南失则山东门户尽开
+  - date: 1400-08
+    title_zh: 诈令军民出降，阴伏壮士门内，佯开门纳师
+    rationale: 燕师堰水灌城，城旦夕且坏；诈降可止灌缓兵，悬门之发或可擒其渠魁
+  - date: 1400-08
+    title_zh: 大书太祖高皇帝神牌悬于炮击之处
+    rationale: 敌以炮击城将坏；神牌所在，师不敢击，借孝陵之尊以全城堞
+- id: guji-铁铉-endeavor-2
+  name_zh: 联庸御北·东昌之役
+  role: 兵部尚书·赞画山东军务
+  start_date: '1400'
+  end_date: '1401'
+  phases:
+  - key: brewing
+    name_zh: 合兵复德州
+    labels:
+      zh:
+      - 会合盛庸
+      - 收复郡县
+    start_date: '1400'
+    highlight_event_id: guji-铁铉-event-promote
+  - key: breakthrough
+    name_zh: 东昌誓师
+    labels:
+      zh:
+      - 大犒将士
+      - 背城结阵
+    start_date: 1400-12
+    highlight_event_id: guji-铁铉-event-dongchang
+  - key: climax
+    name_zh: 东昌大捷
+    labels:
+      zh:
+      - 火器毒弩
+      - 大破北师
+    start_date: 1400-12
+    highlight_event_id: guji-铁铉-event-dongchang
+  - key: closure
+    name_zh: 屏藩山东
+    labels:
+      zh:
+      - 久镇要冲
+      - 忠节不移
+    start_date: '1401'
+    highlight_event_id: guji-铁铉-event-dongchang
+  decisions:
+  - date: '1400'
+    title_zh: 与盛庸等合兵进复德州诸郡县
+    rationale: 燕师顿兵济南、师老而还，乘其气竭收复失地，山东声势可复振
+  - date: 1400-12
+    title_zh: 与盛庸简精锐背城而阵，列火器毒弩以待燕师
+    rationale: 北师屡胜而骄，见庸军即鼓噪前薄；据坚城以火器毒弩挫其锋，可转败为胜
+events:
+- id: guji-铁铉-event-birth
+  person_id: guji-铁铉
+  date: '1366'
+  precision: year
+  is_circa: true
+  year_of: 1366
+  title_zh: 出生
+  summary: 文本未载其生年；据通说约生于元末至正年间，河南邓州人。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-oath
+  person_id: guji-铁铉
+  date: 1400-05
+  precision: month
+  is_circa: false
+  year_of: 1400
+  title_zh: 酌酒同盟，誓死守济南
+  summary: 五月，山东参政铁铉方督饷赴景隆军，会景隆师溃东奔、诸城望风溃散，铉乃与参赞军务高巍酌酒同盟，以死自誓，收集溃亡、召募士卒以守济南。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-siege
+  person_id: guji-铁铉
+  date: '1400'
+  precision: year
+  is_circa: false
+  year_of: 1400
+  title_zh: 济南围城，督众悍御
+  summary: 成祖以兵围济南，令人射书城中促降；铉督众悉力悍御，燕师百方攻之不下，乃堰城外诸溪涧水灌城。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-feign
+  person_id: guji-铁铉
+  date: 1400-08
+  precision: month
+  is_circa: true
+  year_of: 1400
+  title_zh: 诈降设悬门，几获成祖
+  summary: 堰水灌城之危中，铉诈令军民出降，阴伏壮士门内，佯开门纳师；成祖喜而止灌，方入城而悬门发，成祖几为所获。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-tablets
+  person_id: guji-铁铉
+  date: 1400-08
+  precision: month
+  is_circa: true
+  year_of: 1400
+  title_zh: 大书太祖神牌悬城，却敌炮石
+  summary: 成祖怒而下令以炮击城，城将坏；铉大书太祖高皇帝神牌悬其处，北师不敢击，济南得全。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-promote
+  person_id: guji-铁铉
+  date: '1400'
+  precision: year
+  is_circa: false
+  year_of: 1400
+  title_zh: 合兵复德州，擢兵部尚书
+  summary: 燕师顿兵济南而还北平后，铉遂与盛庸等合兵进复德州诸郡县，建文君擢铉为兵部尚书，封盛庸历城侯，诏督诸军北伐。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-dongchang
+  person_id: guji-铁铉
+  date: 1400-12
+  precision: month
+  is_circa: false
+  year_of: 1400
+  title_zh: 东昌会战，大破北师
+  summary: 十二月，盛庸移师驻东昌，铉与庸等闻北师将至，大犒将士誓师，简精锐背城而阵，列火器毒弩以待；北师轻进尽为火器所伤，庸麾兵大战围成祖数匝，北兵大败，张玉败死于阵，擒斩万余。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142
+- id: guji-铁铉-event-death
+  person_id: guji-铁铉
+  date: '1402'
+  precision: year
+  is_circa: true
+  year_of: 1402
+  title_zh: 殉难（史补）
+  summary: 文本未载其结局；据史补，建文四年（1402）燕师入京，铉不屈，遇害于南京，后以忠烈名世。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷142

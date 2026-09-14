@@ -1,0 +1,167 @@
+person:
+  qid: guji-杨一清
+  name_zh: 杨一清
+  names:
+    zh: 杨一清
+    en: Yang Yiqing
+  lifespan:
+    birth:
+      date: '1454'
+      precision: year
+      is_circa: true
+      raw: 景泰五年生
+    death:
+      date: '1530'
+      precision: year
+      is_circa: true
+      raw: 嘉靖九年卒
+  birth_date: '1454'
+  death_date: '1530'
+  era: 明
+  reign_ref: 正德
+  archetype: 文臣统帅·借力除奸
+  dilemmas:
+  - 忤权阉刘瑾被逮至京，赖大学士王鏊营救得释，退而待时
+  - 欲诛刘瑾而不能自达天听，须借太监张永还京献俘之机转达内廷
+  lesson: 藏锋忍辱、善借其力，外朝文臣亦能除去中涓巨蠹
+  summary_first_person: 吾乃杨一清，以都御史总制三边。正德五年安化王寘鐇举兵宁夏，伪檄数刘瑾之罪，吾奉诏与太监张永西讨，至则逆已就擒；遂会永勘验功次，械送寘鐇及首恶何锦等赴京师，事定留镇总制三边。又乘永还京献俘，密与之谋，发刘瑾大罪十七事，瑾卒磔于市，一时党祸边患俱得稍纾。
+endeavors:
+- id: guji-杨一清-endeavor-1
+  name_zh: 奉诏讨平安化王寘鐇之乱
+  phases:
+  - key: brewing
+    name_zh: 诏遣西讨
+    labels:
+      zh:
+      - 讨逆
+      - 宁夏
+    start_date: 1510-05
+    highlight_event_id: guji-杨一清-event-2
+  - key: breakthrough
+    name_zh: 抚定勘逆
+    labels:
+      zh:
+      - 勘功
+      - 抚定
+    start_date: 1510-06
+    highlight_event_id: guji-杨一清-event-3
+  - key: climax
+    name_zh: 械送逆首
+    labels:
+      zh:
+      - 献俘
+    start_date: 1510-06
+    highlight_event_id: guji-杨一清-event-3
+  - key: closure
+    name_zh: 留总三边
+    labels:
+      zh:
+      - 总制三边
+      - 班师
+    start_date: 1510-06
+    highlight_event_id: guji-杨一清-event-4
+  decisions:
+  - date: 1510-06
+    title_zh: 檄陕西诸路守臣纪验功次
+    rationale: 乱后功罪混淆，先勘验而后械送逆首入京，赏罚分明以安边情
+  - date: 1510-06
+    title_zh: 自请留镇总制三边
+    rationale: 张永还京献俘，吾留西北抚定军民、经理边备，以固宁夏门户
+- id: guji-杨一清-endeavor-2
+  name_zh: 密谋诛除权阉刘瑾
+  phases:
+  - key: brewing
+    name_zh: 忤瑾被逮
+    labels:
+      zh:
+      - 下狱
+      - 得释
+    start_date: '1508'
+    highlight_event_id: guji-杨一清-event-1
+  - key: breakthrough
+    name_zh: 密说张永
+    labels:
+      zh:
+      - 共谋
+    start_date: 1510-09
+    highlight_event_id: guji-杨一清-event-5
+  - key: climax
+    name_zh: 奏瑾十七罪
+    labels:
+      zh:
+      - 上变
+    start_date: 1510-09
+    highlight_event_id: guji-杨一清-event-5
+  - key: closure
+    name_zh: 瑾磔于市
+    labels:
+      zh:
+      - 伏诛
+    start_date: 1510-09
+    highlight_event_id: guji-杨一清-event-5
+  decisions:
+  - date: 1510-09
+    title_zh: 说张永乘献俘之机上变诛瑾
+    rationale: 寘鐇伪檄数瑾罪可为其谋反实据，瑾势焰蔽天，非借近幸内侍之力不能除之
+events:
+- id: guji-杨一清-event-birth
+  person_id: guji-杨一清
+  title_zh: 杨一清生
+  summary_zh: 杨一清生于景泰年间
+  date: '1454'
+  date_precision: year
+  is_circa: true
+  year_of: 1454
+- id: guji-杨一清-event-death
+  person_id: guji-杨一清
+  title_zh: 杨一清卒
+  summary_zh: 杨一清卒于嘉靖年间
+  date: '1530'
+  date_precision: year
+  is_circa: true
+  year_of: 1530
+- id: guji-杨一清-event-1
+  person_id: guji-杨一清
+  title_zh: 忤刘瑾被逮至京，赖王鏊得释
+  summary_zh: 刘瑾恶杨一清筑边太费，逮至京师，以大学士王鏊之言获释
+  date: '1508'
+  date_precision: year
+  is_circa: true
+  year_of: 1508
+  endeavor_id: guji-杨一清-endeavor-2
+- id: guji-杨一清-event-2
+  person_id: guji-杨一清
+  title_zh: 朝廷遣张永会杨一清西讨寘鐇
+  summary_zh: 正德五年四月安化王寘鐇举兵宁夏，守臣以事闻，朝廷遣太监张永会都御史杨一清往讨
+  date: 1510-05
+  date_precision: month
+  is_circa: true
+  year_of: 1510
+  endeavor_id: guji-杨一清-endeavor-1
+- id: guji-杨一清-event-3
+  person_id: guji-杨一清
+  title_zh: 至宁夏会永勘验功次，械送逆首赴京
+  summary_zh: 五月永等始至，城已抚定，乃会杨一清檄陕西诸路守臣纪验功次，械系寘鐇及宫眷并首恶何锦等至京师
+  date: 1510-06
+  date_precision: month
+  is_circa: true
+  year_of: 1510
+  endeavor_id: guji-杨一清-endeavor-1
+- id: guji-杨一清-event-4
+  person_id: guji-杨一清
+  title_zh: 班师后留总制三边
+  summary_zh: 张永还京献俘，杨一清留镇总制三边；论功封仇钺咸宁伯，诸将升赏有差
+  date: 1510-06
+  date_precision: month
+  is_circa: true
+  year_of: 1510
+  endeavor_id: guji-杨一清-endeavor-1
+- id: guji-杨一清-event-5
+  person_id: guji-杨一清
+  title_zh: 与张永密谋，永奏瑾十七罪，瑾伏诛
+  summary_zh: 杨一清与张永谋共诛瑾，永还献俘乘间奏瑾专横不法、激变宁夏及谋不轨大罪十七事，夜执瑾下狱，磔于市三日，其党尽诛
+  date: 1510-09
+  date_precision: month
+  is_circa: true
+  year_of: 1510
+  endeavor_id: guji-杨一清-endeavor-2
