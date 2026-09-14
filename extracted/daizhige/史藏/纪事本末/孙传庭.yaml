@@ -1,0 +1,158 @@
+person:
+  qid: guji-孙传庭
+  name_zh: 孙传庭
+  names:
+    zh: 孙传庭、孙傅庭
+    en: Sun Chuanting
+  lifespan:
+    birth:
+      date: 1593
+      precision: year
+      is_circa: true
+      raw: 生年不详,约万历二十一年
+    death:
+      date: 1643-11
+      precision: month
+      is_circa: false
+      raw: 崇祯十六年十月,潼关战败身亡
+  birth_date: 1593
+  death_date: 1643-11
+  era: 明末
+  reign_ref: 明思宗崇祯年间
+  archetype: 明末名将 / 临危受命之统帅
+  dilemmas:
+  - 戴罪之身再起,朝命促战与兵力未集之间的两难
+  - 剿抚之争中主剿,与总理熊文灿招抚之策相左
+  lesson: 代孙传庭败,明之良将尽矣,成事在人,而时节不与人。
+  summary_first_person: 我孙传庭以进士出身而治兵,擒高迎祥于黑水峪,败贼于潼关原。京师告急,我入卫擢兵部侍郎督援兵,后以忤旨下狱。中原糜烂,朝廷复用我为督师,慨然出关,粮饷不给、促战不休,兵败潼关,身死乱军之中。明之亡,人谓传庭死而明亡矣。
+  source_urls:
+  - 《明史纪事本末》足本卷十九
+endeavors:
+- id: guji-孙传庭-endeavor-1
+  name_zh: 陕西督师剿寇与潼关原设伏
+  phases:
+  - key: brewing
+    name_zh: 受任陕西
+    labels:
+      zh:
+      - 剿抚之争
+    start_date: 1636
+  - key: breakthrough
+    name_zh: 黑水峪擒渠
+    labels:
+      zh:
+      - 大破贼首
+    start_date: 1637-08
+    highlight_event_id: guji-孙传庭-event-heishuiyu
+  - key: climax
+    name_zh: 潼关原设三覆
+    labels:
+      zh:
+      - 潼关大捷
+      - 通渭合围
+    start_date: 1638-08
+    highlight_event_id: guji-孙传庭-event-tongguanyuan
+  - key: closure
+    name_zh: 入卫系狱
+    labels:
+      zh:
+      - 亟兵下狱
+    start_date: 1638-11
+    highlight_event_id: guji-孙传庭-event-xiayu
+  decisions:
+  - date: 1638-08
+    title_zh: 与洪承畴合谋,于潼关原设伏以待自成
+    rationale: 自成势穷,必奔潼关,同盟洪承畴追蹙而致之,设三覆可一战而擒。
+  - date: 1638-10
+    title_zh: 传谕商雒朱阳兰草诸隘,绝不使贼入关
+    rationale: 理臣援军久约不至,秦军已疲,乃收卒守隘,免被内窜。
+- id: guji-孙传庭-endeavor-2
+  name_zh: 再起督师与关中鞠躬尽瘁
+  phases:
+  - key: brewing
+    name_zh: 出狱复起
+    labels:
+      zh:
+      - 崽
+    start_date: 1642
+    highlight_event_id: guji-孙传庭-event-daili
+  - key: climax
+    name_zh: 东出潼关,粮尽兵败
+    labels:
+      zh:
+      - 潼关败殁
+    start_date: 1643-10
+    highlight_event_id: guji-孙传庭-event-zhanshi
+  - key: closure
+    name_zh: 身死国蹙
+    labels:
+      zh:
+      - 尽节疆场
+    start_date: 1643-11
+    highlight_event_id: guji-孙传庭-event-death
+  decisions:
+  - date: 1642
+    title_zh: 出狱督师,整兵关中
+    rationale: 朝廷思良将,以我为秦督,惟假以时日,方可训练成军而复图中原。
+  - date: 1643-10
+    title_zh: 势弱粮匮仍东出潼关
+    rationale: 朝命促战,中外催征,卒以裸而成师,诚知必败而鞠躬尽瘁。
+events:
+- id: guji-孙传庭-event-birth
+  date: 1593
+  year_of: 1593
+  title_zh: 孙传庭生(约)
+  description: 孙传庭约生于万历二十一年。
+  participants:
+  - guji-孙传庭
+  place_zh: 山西代州
+- id: guji-孙传庭-event-heishuiyu
+  date: 1637-08
+  year_of: 1637
+  title_zh: 黑水峪之战擒高迎祥
+  description: 孙传庭设伏黑水峪,擒获闯王高迎祥,献于京师。
+  participants:
+  - guji-孙传庭
+  place_zh: 陕西盩厔黑水峪
+- id: guji-孙传庭-event-tongguanyuan
+  date: 1638-08
+  year_of: 1638
+  title_zh: 潼关原设伏大破李自成
+  description: 与洪承畴并兵逐贼,潼关原依邱阜蔽林木立伏,曹变蛟驱贼入伏,飞走路绝,自成妻女俱失,仅从七人遁走。
+  participants:
+  - guji-孙传庭
+  - 洪承畴
+  - 曹变蛟
+  place_zh: 潼关原
+- id: guji-孙传庭-event-xiayu
+  date: 1638-11
+  year_of: 1638
+  title_zh: 召入卫援,参戎机
+  description: 京师告急,帝召孙传庭、洪承畴入卫;传庭已陞兵部添设侍郎,加副都御史,赐尚方剑,提督援兵。
+  participants:
+  - guji-孙传庭
+  place_zh: 京师
+- id: guji-孙传庭-event-daili
+  date: 1642
+  year_of: 1642
+  title_zh: 出狱起复原官,总督关中
+  description: 忤旨下狱数年,以复以贼势叵测,起用公子督师关中,以图后效。
+  participants:
+  - guji-孙传庭
+  place_zh: 西安
+- id: guji-孙传庭-event-zhanshi
+  date: 1643-10
+  year_of: 1643
+  title_zh: 潼关兵败,身死乱军
+  description: 东出潼关与贼战,粮尽援绝,军溃于潼关,孙传庭殁于阵。
+  participants:
+  - guji-孙传庭
+  place_zh: 潼关
+- id: guji-孙传庭-event-death
+  date: 1643-11
+  year_of: 1643
+  title_zh: 孙传庭卒
+  description: 潼关大败,传庭死之,时谓传庭死而明亡矣。
+  participants:
+  - guji-孙传庭
+  place_zh: 潼关
