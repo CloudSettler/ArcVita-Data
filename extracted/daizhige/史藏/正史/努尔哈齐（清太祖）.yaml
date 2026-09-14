@@ -1,0 +1,150 @@
+person:
+  qid: guji-努尔哈齐
+  name_zh: 努尔哈齐
+  names:
+    zh: 努尔哈齐
+    en: Nurhaci
+  lifespan:
+    birth:
+      date: '1559'
+      precision: year
+      is_circa: false
+      raw: 明嘉靖三十八年（己未）
+    death:
+      date: '1626-09-30'
+      precision: day
+      is_circa: false
+      raw: 天命十一年八月庚戌，崩于爱鸡堡
+  era: 明末清初
+  reign_ref: 天命元年即位，建元天命，国号金
+  archetype: 开国之君
+  dilemmas:
+  - 以十三甲起兵复仇，惧明而不敢正面对抗
+  - 叛明立国与维系通贡贸易的两难
+  - 攻宁远受挫于袁崇焕，兵锋终身之憾
+  lesson: 蒙难艰贞，明夷用晦，忍辱蓄力方能开拓基业
+  summary_first_person: 我爱新觉罗·努尔哈齐，以父祖之难起兵，十三甲肇基，并女真诸部，破九部之师，创制八旗，即位建元天命，伐明取沈阳辽东，用兵三十余年，为国之丕基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史稿/卷1
+endeavors:
+- id: guji-努尔哈齐-endeavor-1
+  name_zh: 起兵统一女真
+  description: 自万历十一年以十三甲起兵讨尼堪外兰，逐步统一建州、吞并哈达、辉发、乌拉，击溃九部联军，至天命元年称帝。
+  phases:
+  - key: brewing
+    name_zh: 家难蓄志
+    labels:
+      zh: 十三甲起兵
+    start_date: '1583'
+    highlight_event_id: guji-努尔哈齐-event-起兵
+  - key: breakthrough
+    name_zh: 统一建州诸部
+    labels:
+      zh: 兼并诸部
+    start_date: '1584'
+    highlight_event_id: guji-努尔哈齐-event-九部之战
+  - key: climax
+    name_zh: 灭叶赫称帝
+    labels:
+      zh: 建元天命
+    start_date: '1616'
+    highlight_event_id: guji-努尔哈齐-event-称帝
+  - key: closure
+    name_zh: 宁远罢兵
+    labels:
+      zh: 兵败宁远
+    start_date: '1626'
+    highlight_event_id: guji-努尔哈齐-event-宁远
+  decisions:
+  - date: 1583-05
+    title_zh: 起兵讨尼堪外兰
+    rationale: 父祖死于明兵与尼堪外兰之诱，以复仇为名起兵
+  - date: '1593'
+    title_zh: 迎击九部联军
+    rationale: 敌乌合之众志不一，先破前军则众必反走
+  - date: '1619'
+    title_zh: 萨尔浒先破北路
+    rationale: 明兵由南来者为诱，北必有重兵，宜先破之
+- id: guji-努尔哈齐-endeavor-2
+  name_zh: 建国伐明
+  description: 天命三年以七大恨告天伐明，下抚顺，破沈阳辽阳，取广宁，迁都沈阳定鼎盛京。
+  phases:
+  - key: brewing
+    name_zh: 告天誓师
+    labels:
+      zh: 七大恨
+    start_date: '1618'
+    highlight_event_id: guji-努尔哈齐-event-伐明
+  - key: breakthrough
+    name_zh: 攻取辽东
+    labels:
+      zh: 下沈阳辽阳
+    start_date: '1621'
+    highlight_event_id: guji-努尔哈齐-event-辽阳
+  - key: climax
+    name_zh: 迁都盛京
+    labels:
+      zh: 定都沈阳
+    start_date: '1625'
+    highlight_event_id: guji-努尔哈齐-event-迁都
+events:
+- id: guji-努尔哈齐-event-birth
+  year_of: 1559
+  date: '1559'
+  title_zh: 努尔哈齐生
+  description: 孕十三月而生，是岁己未，明嘉靖三十八年。
+  type: birth
+- id: guji-努尔哈齐-event-death
+  year_of: 1626
+  date: '1626-09-30'
+  title_zh: 努尔哈齐崩于爱鸡堡
+  description: 天命十一年八月丙午大渐，庚戌至爱鸡堡上崩，在位十一年，年六十有八。
+  type: death
+- id: guji-努尔哈齐-event-起兵
+  year_of: 1583
+  date: 1583-05
+  title_zh: 十三甲起兵讨尼堪外兰
+  description: 太祖年二十五，起兵讨尼堪外兰，克图伦城；/css杀背约之诺米纳。父祖之难遂成起兵之端。
+  type: endeavor
+- id: guji-努尔哈齐-event-九部之战
+  year_of: 1593
+  date: 1593-09
+  title_zh: 古勒山破九部联军
+  description: 叶赫纠扈伦、蒙古、长白九部之兵三万来犯，太祖布阵古勒山，斩叶赫贝勒布斋，九部大溃，俘布占泰。
+  type: endeavor
+- id: guji-努尔哈齐-event-称帝
+  year_of: 1616
+  date: '1616-01-01'
+  title_zh: 即位建元天命
+  description: 丙辰正月壬申朔，上即位，建元天命，定国号曰金，上尊号覆育列国英明皇帝，置四大贝勒、五大臣。
+  type: endeavor
+- id: guji-努尔哈齐-event-伐明
+  year_of: 1618
+  date: 1618-04
+  title_zh: 以七大恨告天伐明
+  description: 天命三年壬寅，上伐明，以七大恨告天，祭堂子而行，克抚顺，李永芳降，阵斩明总兵张承胤。
+  type: endeavor
+- id: guji-努尔哈齐-event-萨尔浒
+  year_of: 1619
+  date: 1619-04
+  title_zh: 萨尔浒之战破明四路
+  description: 明经略杨镐督师二十万分四路来伐，太祖集中兵力四日之内破三路明军，西路杜松、北路马林、南路刘綎皆败亡。
+  type: endeavor
+- id: guji-努尔哈齐-event-辽阳
+  year_of: 1621
+  date: 1621-04
+  title_zh: 攻克沈阳辽阳
+  description: 三月入沈阳，复败援军于浑河；壬戌攻辽阳，袁应泰自焚死，辽人夹道呼万岁迎上入城。
+  type: endeavor
+- id: guji-努尔哈齐-event-迁都
+  year_of: 1625
+  date: 1625-04
+  title_zh: 迁都沈阳为盛京
+  description: 三月庚午迁都沈阳，凡五迁乃定都焉，是曰盛京。
+  type: endeavor
+- id: guji-努尔哈齐-event-宁远
+  year_of: 1626
+  date: 1626-01
+  title_zh: 兵败宁远
+  description: 起兵伐明宁远，袁崇焕偕满桂、祖大寿婴城固守，放西洋砲伤士卒，乃罢攻班师。叹曰：袁崇焕何人，乃能尔耶！
+  type: endeavor
