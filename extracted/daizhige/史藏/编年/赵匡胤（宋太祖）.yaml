@@ -1,0 +1,178 @@
+person:
+  qid: guji-赵匡胤
+  name_zh: 赵匡胤
+  names:
+    zh: 赵匡胤
+    en: Zhao Kuangyin
+  lifespan:
+    birth:
+      date: '927'
+      precision: year
+      is_circa: true
+      raw: 天成二年丁亥岁
+  birth_date: '927'
+  death_date: ''
+  era: 五代末至北宋初
+  reign_ref: 建隆元年（960）受周禅即位，国号宋
+  archetype: 开国之君／兵变受禅者
+  dilemmas:
+  - 受周世宗厚恩与应天顺人代周之间的忠义冲突
+  - 强军拥立之下如何约束兵士、不掠都城以收人心
+  - 削除李筠、李重进等后周旧将势力与安定天下的取舍
+  lesson: 兴王易姓虽云天命，实系人心；纪律严明、秋毫无犯方能成大业
+  summary_first_person: 我本后周殿前都点检，掌军政六年，士卒归心。建隆元年正月于陈桥驿为六军所迫，黄袍加身，我誓约将士毋凌少帝太后、毋纵兵大掠，整军入京，秋毫无犯，遂受禅即位，定国号曰宋。随后先平泽潞李筠，再破扬州李重进，混一之规摸渐成。我以不嗜杀人与严敕军士为治本，深知天命所在，唯在人心。
+  source_urls:
+  - guji://宋史全文/卷一/宋太祖一
+endeavors:
+- id: guji-赵匡胤-endeavor-1
+  name_zh: 陈桥兵变受禅建宋
+  phases:
+  - key: brewing
+    name_zh: 掌军政归人望
+    labels:
+      zh: 殿前都点检/士卒服其恩威
+    start_date: '954'
+    highlight_event_id: guji-赵匡胤-event-chenqiao
+  - key: breakthrough
+    name_zh: 陈桥驿黄袍加身
+    labels:
+      zh: 兵变/受禅
+    start_date: 960-01
+    highlight_event_id: guji-赵匡胤-event-chenqiao
+  - key: climax
+    name_zh: 即位定宋整肃军纪
+    labels:
+      zh: 仁和门入/秋毫无犯
+    start_date: 960-01
+    highlight_event_id: guji-赵匡胤-event-dengji
+  - key: closure
+    name_zh: 厚待周室嘉赏忠义
+    labels:
+      zh: 奉周帝为郑王/追赠韩通
+    start_date: 960-02
+    highlight_event_id: guji-赵匡胤-event-houtong
+  decisions:
+  - date: 960-01
+    title_zh: 揽辔誓诸将，约束剽劫
+    rationale: 兴王易姓实系人心；都城人心不摇，四方自然宁谧
+  - date: 960-01
+    title_zh: 受禅即位，定国号曰宋
+    rationale: 应天顺人，法尧禅舜；人心已去，天命有归
+  - date: 960-02
+    title_zh: 追赠韩通中书令，以礼葬之
+    rationale: 嘉其临难不苟免；王彦昇专杀则终身不授节钺
+- id: guji-赵匡胤-endeavor-2
+  name_zh: 平定李筠李重进之叛
+  phases:
+  - key: brewing
+    name_zh: 泽潞反书至
+    labels:
+      zh: 李筠据泽州
+    start_date: 960-04
+    highlight_event_id: guji-赵匡胤-event-zezhou
+  - key: breakthrough
+    name_zh: 亲征泽潞
+    labels:
+      zh: 倍道兼行掩其不备
+    start_date: 960-05
+    highlight_event_id: guji-赵匡胤-event-zezhou
+  - key: climax
+    name_zh: 克泽州筠自焚
+    labels:
+      zh: 马全义先登/飞矢贯臂
+    start_date: 960-06
+    highlight_event_id: guji-赵匡胤-event-zezhou
+  - key: closure
+    name_zh: 亲征扬州灭重进
+    labels:
+      zh: 兵法尚速不如速取
+    start_date: 960-10
+    highlight_event_id: guji-赵匡胤-event-yangzhou
+  decisions:
+  - date: 960-04
+    title_zh: 采纳吴廷祚速击李筠之策
+    rationale: 李筠素骄易无谋，离巢穴即成擒
+  - date: 960-05
+    title_zh: 听赵普、向拱言倍道兼行
+    rationale: 贼意国家新造未能出征，掩其不备可一战而克
+  - date: 960-10
+    title_zh: 依赵普速取之议下诏亲征扬州
+    rationale: 李重进外绝救援内乏资粮，急攻亦取缓攻亦取，兵法尚速
+events:
+- id: guji-赵匡胤-event-birth
+  year_of: 927
+  date: '927'
+  date_precision: year
+  title_zh: 赵匡胤生于天成二年丁亥
+  description: 《龟鉴》云太祖之生盖天成二年丁亥岁，祥光瑞彩，时年三十四当显德七年。
+  category: birth
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-chenqiao
+  year_of: 960
+  date: 960-01-22
+  date_precision: day
+  title_zh: 陈桥驿兵变，将士黄袍加身
+  description: 建隆元年正月甲辰黎明，军士擐甲执兵叩寝门，以黄袍加太祖身，罗拜称万岁。太祖度不得免，揽辔誓诸将毋凌暴公卿、毋纵兵大掠，众皆听命。
+  category: endeavor
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-dengji
+  year_of: 960
+  date: 960-01-23
+  date_precision: day
+  title_zh: 受周禅即皇帝位，国号曰宋
+  description: 太祖诣崇元殿行禅代礼，用陶谷所进禅位制书，即位，群臣拜贺。乙巳诏定有天下之号曰宋，改元建隆，大赦；奉周帝为郑王。
+  category: endeavor
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-houtong
+  year_of: 960
+  date: 960-01-25
+  date_precision: day
+  title_zh: 追赠韩通，惩王彦昇专杀
+  description: 戊申追赠韩通中书令以礼葬之，嘉其临难不苟免；王彦昇专杀通并其妻子，终身不授节钺。
+  category: endeavor
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-zezhou
+  year_of: 960
+  date: 960-06-01
+  date_precision: month
+  title_zh: 亲征泽潞，克泽州李筠赴火死
+  description: 石守信等破贼三万余于泽州南；上至泽州督攻，马全义率敢死士先登，飞矢贯臂仍拔镞进战，辛巳克城，李筠赴火死，守节以潞州降被赦用。
+  category: endeavor
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-yangzhou
+  year_of: 960
+  date: 960-11-20
+  date_precision: day
+  title_zh: 亲征扬州，攻拔其城李重进赴火死
+  description: 十一月次大义驿，石守信奏扬州即破；是夕次其城下登时攻拔，李重进尽室赴火死。诏赈给城中民，胁隶军者赐衣屦纵之，役夫死城下者复其家三年。
+  category: endeavor
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
+- id: guji-赵匡胤-event-death
+  year_of: 976
+  date: '976'
+  date_precision: year
+  title_zh: 宋太祖在位至开宝九年
+  description: 本卷所述止于建隆二年；据史实太祖在位十六年，开宝九年（976）崩。
+  category: death
+  people_refs:
+  - guji-赵匡胤
+  source_refs:
+  - guji://宋史全文/卷一/宋太祖一
