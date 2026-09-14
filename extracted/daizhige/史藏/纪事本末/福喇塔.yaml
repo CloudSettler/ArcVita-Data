@@ -1,0 +1,165 @@
+person:
+  qid: guji-福喇塔
+  name_zh: 福喇塔
+  names:
+    zh: 福喇塔
+    en: Fulata
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      precision: approximation
+      is_circa: true
+      raw: 康熙十五年（1676）前后，平闽后病逝（碑文言“躬遽捐于尽瘁”）
+  death_date: '1676'
+  era: 清代康熙年间
+  reign_ref: 康熙
+  archetype: warfare
+  dilemmas:
+  - 温州久遭贼毒，城可唾手破而恐妄杀伤天和，抉择收军围而不杀
+  - 西山大捷后尸首填河，下令收埋骸骨、抚恤生民以彰仁德
+  lesson: 为将之道，必动出万全，方能取胜；威武与仁慈并行，方成勘乱安民之勋。
+  summary_first_person: 我乃代善一脉宗室福喇塔，父追封辅国公偏俄。康熙十三年耿精忠叛闽，我奉命为宁海将军，统领八旗援温、台、处三郡，破曾养性于黄岩、乐清、西山、灵福诸役，转战入闽，终使耿逆归降、三郡底定。我尝嘱诸将不得妄杀，收葬阵亡骸骨。以尽瘁王事，蒙赐谥“惠献”。
+endeavors:
+- id: guji-福喇塔-endeavor-1
+  name_zh: 领宁海将军衔率师援浙
+  phases:
+  - key: brewing
+    name_zh: 受命出征
+    labels:
+      zh:
+      - 统兵
+      - 佐戎行
+    start_date: '1674'
+  - key: breakthrough
+    name_zh: 收复黄岩乐清
+    labels:
+      zh:
+      - 平叛
+      - 斩将
+    start_date: 1675-08
+    highlight_event_id: guji-福喇塔-event-huangyan
+  - key: climax
+    name_zh: 围抚温州破敌西山
+    labels:
+      zh:
+      - 大捷
+      - 仁抚
+    start_date: 1675-09
+    highlight_event_id: guji-福喇塔-event-xishan
+  - key: closure
+    name_zh: 振旅入闽底定三郡
+    labels:
+      zh:
+      - 定乱
+      - 赐谥
+    start_date: 1676-08
+    highlight_event_id: guji-福喇塔-event-shitang
+  decisions:
+  - date: '1674'
+    title_zh: 奉康亲王之命分路援温台，自绍兴飞渡进剿
+    rationale: 闽越未靖，师旅徂征，以宗室亲贵专任东南一路。
+  - date: 1676-05
+    title_zh: 灵福之战不逞请战，令夜运大炮至五凤楼山伺隙而攻
+    rationale: 为将之道必动出万全，据高安营、候潮候隙，一举碎贼船。
+  - date: 1675-10
+    title_zh: 西山既胜而下令收军，禁妄杀温州百姓
+    rationale: 当体皇上好生之心，不得妄杀以伤天和。
+- id: guji-福喇塔-endeavor-2
+  name_zh: 抚恤安民与禠乱善后
+  phases:
+  - key: brewing
+    name_zh: 谕民收割招抚流亡
+    labels:
+      zh:
+      - 安民
+      - 通商
+    start_date: 1675-10
+  - key: breakthrough
+    name_zh: 设市护商军法约束
+    labels:
+      zh:
+      - 抚商
+      - 立法
+    start_date: 1675-10
+  - key: climax
+    name_zh: 收埋骸骨建塔恤亡
+    labels:
+      zh:
+      - 仁政
+    start_date: 1675-11
+    highlight_event_id: guji-福喇塔-event-shoumai
+  decisions:
+  - date: 1675-10
+    title_zh: 命夏声谕民出山收割晚禾、许营盘贸易
+    rationale: 百姓逃匿深山无人收割，收禾可安民生亦便军食。
+  - date: 1675-11
+    title_zh: 发赏命徐应龙等收埋尸骸数百、于西山造普同塔
+    rationale: 阵亡者皆朝廷赤子，殁有宠章，以彰荣哀之谊。
+events:
+- id: guji-福喇塔-event-birth
+  title_zh: 福喇塔生
+  kind: birth
+  note: 生年不详，宗室辅国公偏俄之子，袭封后超列贝子
+- id: guji-福喇塔-event-death
+  date: '1676'
+  year_of: 1676
+  title_zh: 福喇塔薨，赐谥惠献
+  kind: death
+  note: 碑文云“礼未举于劳远，躬遽捐于尽瘁”，特赐谥曰惠献
+- id: guji-福喇塔-event-chuzheng
+  date: '1675'
+  year_of: 1675
+  title_zh: 奉命为宁海将军，自钱塘江飞渡绍兴驰援温台
+  kind: endeavor
+  note: 康亲王自杭州与福喇塔分路征剿，王由衢州救闽，贝子救护温、台
+- id: guji-福喇塔-event-huangyan
+  date: 1675-08
+  year_of: 1675
+  title_zh: 黄岩之战阵斩伪都督吴长春
+  kind: endeavor
+  note: 朱飞熊水战中弹死，贝子乘胜连复数县
+- id: guji-福喇塔-event-tuiyueqing
+  date: '1675-09-19'
+  year_of: 1675
+  title_zh: 乘胜复乐清，取楠溪间道进薄温州
+  kind: endeavor
+  note: 用生员夏声为向导，青田渡江，亲牵马步行与士卒同劳
+- id: guji-福喇塔-event-lvzhang
+  date: '1675-09-03'
+  year_of: 1675
+  title_zh: 绿嶂宝胜寺设伏大破追贼
+  kind: endeavor
+  note: 佯退诱敌中伏截杀，贼溺死杀伤无算，势遂大溃
+- id: guji-福喇塔-event-xishan
+  date: 1676-02
+  year_of: 1676
+  title_zh: 西山之战击破曾养性夜袭，斩首二万余
+  kind: endeavor
+  note: 贼以火箭夜犯营盘，贝子登高望而诱敌，天明亲督下山，追至将军桥扼归路，贼尽堕水
+- id: guji-福喇塔-event-shoumai
+  date: 1675-11
+  year_of: 1675
+  title_zh: 亲临护国寺，命收埋阵亡骸骨，禁妄杀
+  kind: endeavor
+  note: 尸首填溢大河，贝子泣谕诸将：“此等皆朝廷赤子”，发赏老人徐应龙助理收埋
+- id: guji-福喇塔-event-lingfu
+  date: 1676-05
+  year_of: 1676
+  title_zh: 灵福之战夜运大炮齐发，粉碎贼船
+  kind: endeavor
+  note: 令选壮丁潜运九炮至五凤楼山，微明齐放，尸首随潮蔽港而下
+- id: guji-福喇塔-event-shitang
+  date: '1676-08-18'
+  year_of: 1676
+  title_zh: 自处州进发破石塘岭九寨，平定温台处三郡
+  kind: endeavor
+  note: 二更至双岭张村门伐木取路，连破九寨，烧贼营七破栅二十八，复云和等县
+- id: guji-福喇塔-event-ruemen
+  date: 1676-10
+  year_of: 1676
+  title_zh: 由龙泉振旅入闽，耿精忠投首、曾养性归顺
+  kind: endeavor
+  note: 三郡遗孽尽灭，养性剃发归顺，滇闽既平以反叛伏诛
