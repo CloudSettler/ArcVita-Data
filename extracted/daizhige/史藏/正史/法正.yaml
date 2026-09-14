@@ -1,0 +1,100 @@
+person:
+  qid: guji-法正
+  name_zh: 法正
+  names:
+    zh: 法正
+    en: Fa Zheng
+  lifespan:
+    birth:
+      date: '0176'
+      precision: year
+      is_circa: true
+      raw: 约东汉熹平年间
+    death:
+      date: '0220'
+      precision: year
+      is_circa: false
+  birth_date: 约176年
+  death_date: 220年
+  era: 东汉末至三国蜀汉
+  reign_ref: 刘备
+  archetype: 谋士
+  dilemmas:
+  - 背刘璋而迎刘备，忠义之辨
+  lesson: 恩怨分明，以奇谋佐主定鼎
+  summary_first_person: 我法正，字孝直，本仕刘璋，后迎刘备入蜀，献策取汉中，官至尚书令，建安二十五年卒，先主为之流涕。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷37
+endeavors:
+- id: guji-法正-endeavor-1
+  name_zh: 佐刘璋出使迎备
+  phases:
+  - key: brewing
+    name_zh: 初仕刘璋
+    labels:
+      zh:
+      - 出仕
+      - 益州
+    start_date: 0208
+  - key: breakthrough
+    name_zh: 迎备入蜀
+    labels:
+      zh:
+      - 献策
+      - 归刘
+    start_date: '0211'
+    highlight_event_id: guji-法正-event-211
+  - key: climax
+    name_zh: 定益取汉
+    labels:
+      zh:
+      - 谋主
+      - 汉中之战
+    start_date: '0214'
+    highlight_event_id: guji-法正-event-219
+  - key: closure
+    name_zh: 尚书令而卒
+    labels:
+      zh:
+      - 尚书令
+      - 病逝
+    start_date: 0219
+    highlight_event_id: guji-法正-event-220
+  decisions:
+  - date: '0211'
+    title_zh: 迎刘备入益州
+    rationale: 见刘璋暗弱，欲择明主
+  - date: 0219
+    title_zh: 谏止先主东征之心
+    rationale: 汉中之胜后力谏持重
+events:
+- id: guji-法正-event-birth
+  event_type: birth
+  date: '0176'
+  year_of: 176
+  summary: 法正生于扶风郿县（约）
+- id: guji-法正-event-211
+  event_type: endeavor
+  date: '0211'
+  year_of: 211
+  summary: 法正出使荆州，密献策劝刘备西取益州
+- id: guji-法正-event-214
+  event_type: endeavor
+  date: '0214'
+  year_of: 214
+  summary: 刘备平定益州，法正任蜀郡太守、扬武将军
+- id: guji-法正-event-219
+  event_type: endeavor
+  date: 0219
+  year_of: 219
+  summary: 定军山之战，法正献策助刘备大破夏侯渊，取汉中
+- id: guji-法正-event-220
+  event_type: endeavor
+  date: '0220'
+  year_of: 220
+  summary: 法正病卒，刘备为之流涕，追谥翼侯
+- id: guji-法正-event-death
+  event_type: death
+  date: '0220'
+  year_of: 220
+  summary: 法正卒

@@ -1,0 +1,93 @@
+person:
+  qid: guji-陆抗
+  name_zh: 陆抗
+  names:
+    zh: 陆抗
+    en: Lu Kang
+  lifespan:
+    birth:
+      date: '226'
+      precision: year
+      is_circa: false
+      raw: 吴黄武五年
+    death:
+      date: '274'
+      precision: year
+      is_circa: false
+  birth_date: '226'
+  death_date: '274'
+  era: 三国·吴
+  reign_ref: 吴末帝孙皓时期
+  archetype: 名将支柱
+  dilemmas:
+  - 吴国倾覆之际奉命增围永安，救援不至、攻城六月不下，进退两难
+  - 强攻巴东为吴取利，还是顾全吴蜀旧盟之义
+  lesson: 忠于所守，力尽而退，然国势倾颓非一将可支。
+  summary_first_person: 我是吴国名将陆抗。蜀亡之后，吴起兵西上，我奉命率众三万增围永安，罗宪固守，攻凡六月而晋援将军胡烈来救，我遂引兵而退。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷十一
+endeavors:
+- id: guji-陆抗-endeavor-1
+  name_zh: 西征永安
+  phases:
+  - key: brewing
+    name_zh: 受命西上
+    labels:
+      zh: 起兵西上
+    start_date: '264'
+    highlight_event_id: guji-陆抗-event-yong-an-siege
+  - key: climax
+    name_zh: 增围永安
+    labels:
+      zh: 率众三万增围
+    start_date: '264'
+    highlight_event_id: guji-陆抗-event-reinforce-siege
+  - key: closure
+    name_zh: 引兵而退
+    labels:
+      zh: 晋援至而退
+    start_date: '264'
+    highlight_event_id: guji-陆抗-event-retreat
+  decisions:
+  - date: '264'
+    title_zh: 奉命率众三万增围永安
+    rationale: 吴闻蜀败，外托救援，内欲袭取永安；宪临江拒御，吴遂增兵围攻。
+  - date: '264'
+    title_zh: 晋荆州刺史胡烈来救，引兵而退
+    rationale: 攻凡六月日救援不到，城中疾疫大半，而晋遣胡烈攻西陵以救宪，抗等遂引退。
+events:
+- id: guji-陆抗-event-birth
+  type: birth
+  date: '226'
+  year_of: 226
+  names:
+    zh: 出生
+  summary: 陆抗生于吴郡陆氏，为丞相陆逊之子。
+- id: guji-陆抗-event-yong-an-siege
+  type: campaign
+  date: '264'
+  year_of: 264
+  names:
+    zh: 起兵西上攻永安
+  summary: 吴闻蜀败，起兵西上，陆抗率军攻巴東永安，罗宪保城缮甲告誓将士，临江拒射。
+- id: guji-陆抗-event-reinforce-siege
+  type: campaign
+  date: '264'
+  year_of: 264
+  names:
+    zh: 增围永安
+  summary: 步协攻城不利后，陆抗等率众三万人增宪之围，被攻凡六月日，城中疾疫大半而救援不到。
+- id: guji-陆抗-event-retreat
+  type: military_action
+  date: '264'
+  year_of: 264
+  names:
+    zh: 引兵而退
+  summary: 晋王遣荆州刺史胡烈救宪，攻击吴之西境，陆抗等遂引兵撤退，永安之围解。
+- id: guji-陆抗-event-death
+  type: death
+  date: '274'
+  year_of: 274
+  names:
+    zh: 去世
+  summary: 陆抗卒，吴失干城，数年后吴为晋所灭。

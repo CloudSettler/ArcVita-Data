@@ -1,0 +1,135 @@
+person:
+  qid: guji-yuanshao
+  name_zh: 袁绍
+  names:
+    zh: 袁绍
+    en: Yuan Shao
+  names_zh: 袁绍
+  names_en: Yuan Shao
+  lifespan:
+    birth:
+      date: '0154'
+      precision: year
+      is_circa: true
+      raw: 生年不详,约卒年上推约二三十年
+    death:
+      date: '0202'
+      precision: year
+      is_circa: false
+      raw: 建安七年(202年)病卒
+  birth_date: 约154年
+  death_date: 202年
+  era: 东汉末年
+  reign_ref: 汉献帝时期
+  archetype: 乱世豪雄、四世三公之后的割据霸主
+  dilemmas:
+  - 坐拥河北最强实力,却在官渡一役败于曹操,一失足而成千古恨
+  - 生前未定嗣子,致谭、尚相争,基业顷刻覆灭
+  lesson: 势盛而寡断,才多而决少,纵有四世三公之资,亦难全其功业
+  summary_first_person: 吾袁本初,出汝南袁氏,四世三公,门生故吏遍天下。昔讨董卓、夺冀州、平青幽并,雄踞河北,天下莫此为盛。惜乎官渡一败,未及再振而病卒,诸子相争,基业遂为曹氏所并。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷06
+endeavors:
+- id: guji-yuanshao-endeavor-1
+  person_qid: guji-yuanshao
+  name_zh: 谋诛宦官与讨董之役
+  phases:
+  - key: brewing
+    name_zh: 士族声望积累
+    labels:
+      zh:
+      - 四世三公
+      - 名士领袖
+    start_date: 0168
+    highlight_event_id: guji-yuanshao-event-1
+  - key: breakthrough
+    name_zh: 反宦官与讨董
+    labels:
+      zh:
+      - 诛宦官
+      - 关东联军
+    start_date: 0188
+    highlight_event_id: guji-yuanshao-event-2
+  decisions:
+  - date: 0189
+    title_zh: 劝何进召外兵诛宦官
+    rationale: 以外兵胁迫,尽除中常侍之势,反致董卓入京之祸
+  - date: 0190
+    title_zh: 起兵讨董卓
+    rationale: 不堪董卓专政,奔冀州后的关东诸侯盟主之选
+- id: guji-yuanshao-endeavor-2
+  person_qid: guji-yuanshao
+  name_zh: 称雄河北与官渡之战
+  phases:
+  - key: brewing
+    name_zh: 夺取冀州
+    labels:
+      zh:
+      - 兼并韩馥
+    start_date: 0191
+    highlight_event_id: guji-yuanshao-event-3
+  - key: climax
+    name_zh: 彻底驱逐公孙瓒
+    labels:
+      zh:
+      - 平定幽州
+    start_date: 0199
+    highlight_event_id: guji-yuanshao-event-4
+  - key: closure
+    name_zh: 官渡败绩与身后之乱
+    labels:
+      zh:
+      - 官渡之战
+      - 诸子内争
+    start_date: 128
+    highlight_event_id: guji-yuanshao-event-5
+  decisions:
+  - date: 0191
+    title_zh: 迫韩馥让冀州
+    rationale: 借幽州之势胁之,不战而收天下重镇
+  - date: 128
+    title_zh: 倾冀、青、幽、并之众南下
+    rationale: 沮授、田丰等谏而不纳,执意决战,败于官渡
+events:
+- id: guji-yuanshao-event-birth
+  date: 108
+  year_of: '154'
+  event_type: birth
+  title_zh: 袁绍出生
+  description_zh: 袁绍约生于此年,汝南汝阳人,司空袁逢之子,出四世三公之族
+- id: guji-yuanshao-event-death
+  date: '0202'
+  year_of: '202'
+  event_type: death
+  title_zh: 袁绍病卒
+  description_zh: 官渡败后忧病而卒,诸子谭、尚相攻,河北渐为曹操所并
+- id: guji-yuanshao-event-1
+  date: 0180
+  year_of: '180'
+  event_type: endeavor
+  title_zh: 以名士领袖知名于世
+  description_zh: 袁绍为司空袁逢之子,举孝廉,历任中军校尉,折节下士,士人归附,为朝野所重
+- id: guji-yuanshao-event-2
+  date: 0190
+  year_of: '190'
+  event_type: endeavor
+  title_zh: 关东起兵讨董卓,被推为盟主
+  description_zh: 董卓废立之后,袁绍出奔冀州,关东诸侯起兵讨卓,推袁绍为盟主,自号车骑将军
+- id: guji-yuanshao-event-3
+  date: 0191
+  year_of: '191'
+  event_type: endeavor
+  title_zh: 取冀州,自领冀州牧
+  description_zh: 利用公孙瓒南迫之势,迫韩馥让出冀州,袁绍遂据河北要地
+- id: guji-yuanshao-event-4
+  date: 0199
+  year_of: '199'
+  event_type: endeavor
+  title_zh: 灭公孙瓒,兼并四州
+  description_zh: 于易京破公孙瓒,遂据冀、青、幽、并四州,拥众数十万,为当时最强诸侯
+- id: guji-yuanshao-event-5
+  date: '0200'
+  year_of: '200'
+  event_type: endeavor
+  title_zh: 官渡之战大败
+  description_zh: 兵败于官渡,主力为曹操所破,从此转衰

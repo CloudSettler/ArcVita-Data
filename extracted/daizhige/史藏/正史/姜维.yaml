@@ -1,0 +1,99 @@
+person:
+  qid: guji-姜维
+  name_zh: 姜维
+  names:
+    zh: 姜维
+    en: Jiang Wei
+  lifespan:
+    birth:
+      date: 202
+      precision: year
+      is_circa: true
+      raw: 约建安七年
+    death:
+      date: 264
+      precision: year
+      is_circa: false
+      raw: 魏景元五年
+  birth_date: '202'
+  death_date: '264'
+  era: 三国（蜀汉）
+  reign_ref: 蜀汉后主刘禅
+  archetype: 忠毅孤臣
+  dilemmas:
+  - 爰 Killing
+  - 北伐之志与国力之竭
+  - 诈降复国之险
+  lesson: 志存汉室，虽孤而志不衰
+  summary_first_person: 吾本天水布衣，蒙武侯知遇，遂以兴复为己任，九伐中原，孤撑危局，国亡犹谋复兴，事败身死而志不泯。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷44
+endeavors:
+- id: guji-姜维-endeavor-1
+  name_zh: 北伐中原
+  phases:
+  - key: brewing
+    name_zh: 归汉受知
+    labels:
+      zh:
+      - 降蜀
+      - 得诸葛亮赏识
+    start_date: '228'
+    highlight_event_id: guji-姜维-event-join-shu
+  - key: breakthrough
+    name_zh: 承志掌军
+    labels:
+      zh:
+      - 继诸葛亮遗志
+      - 迁卫将军
+    start_date: '238'
+    highlight_event_id: guji-姜维-event-northern-1
+  - key: climax
+    name_zh: 九伐中原
+    labels:
+      zh:
+      - 北伐
+      - 洮西大捷
+    start_date: '240'
+    highlight_event_id: guji-姜维-event-tiaoxi
+  - key: closure
+    name_zh: 孤臣殉志
+    labels:
+      zh:
+      - 假降钟会
+      - 谋复不成身死
+    start_date: '263'
+    highlight_event_id: guji-姜维-event-death
+  decisions:
+  - date: '240'
+    title_zh: 出师北伐
+    rationale: 承诸葛亮兴复之志，以攻代守
+  - date: '263'
+    title_zh: 诈降钟会
+    rationale: 借魏将之隙谋复兴汉室
+events:
+- id: guji-姜维-event-birth
+  type: birth
+  year_of: 202
+  date: '202'
+  name_zh: 姜维生于天水冀县
+- id: guji-姜维-event-join-shu
+  type: endeavor
+  year_of: 228
+  date: '228'
+  name_zh: 降蜀，诸葛亮委以军事
+- id: guji-姜维-event-northern-1
+  type: endeavor
+  year_of: 238
+  date: '238'
+  name_zh: 随军北伐，渐掌兵权
+- id: guji-姜维-event-tiaoxi
+  type: endeavor
+  year_of: 255
+  date: '255'
+  name_zh: 洮西大破魏将王经
+- id: guji-姜维-event-death
+  type: death
+  year_of: 264
+  date: '264'
+  name_zh: 成都事败遇害
