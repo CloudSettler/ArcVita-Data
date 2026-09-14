@@ -1,0 +1,85 @@
+person:
+  qid: guji-司马光
+  name_zh: 司马光
+  names:
+    zh: 司马光
+    en: Sima Guang
+  lifespan:
+    birth:
+      date: 1019
+      precision: year
+      is_circa: true
+      raw: 约生于北宋真宗天禧年间
+    death:
+      date: 1086
+      precision: year
+      is_circa: false
+      raw: 卒于哲宗元祐年间
+  birth_date: 约宋真宗天禧年间
+  death_date: 宋哲宗元祐年间
+  era: 北宋
+  reign_ref: 宋仁宗、宋神宗、宋哲宗
+  archetype: 持经守正的礼乐诤臣
+  dilemmas:
+  - 黍尺生律之辨：律生于尺抑或尺起于黄钟，与范镇争论三十年而不能决
+  - 守旧制与更新声：面对朝廷屡次改乐，坚持考据经义、不为异说所动
+  lesson: 论学贵有据，虽与至交数十年论难不合，仍各守其说而下笔有本
+  summary_first_person: 我是司马光，居集贤校理之职。皇祐间房庶言汉志脱八字、当以律生尺，范镇以为是，我独不谓然，数与之论难于钟律黍尺之间，历三十年而世鲜知乐，竟不能决，然我守经据古，终不为浮议所迁。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷128
+endeavors:
+- id: guji-司马光-endeavor-1
+  name_zh: 钟律黍尺之辩
+  phases:
+  - key: breakthrough
+    name_zh: 与范镇论难律法
+    labels:
+      zh: 论难
+    start_date: 1050
+    highlight_event_id: guji-司马光-event-pitch-debate
+  - key: closure
+    name_zh: 争论不决
+    labels:
+      zh: 不决
+    start_date: 1060
+    highlight_event_id: guji-司马光-event-pitch-undecided
+  decisions:
+  - date: 1050
+    title_zh: 不以范镇律生尺之说为是
+    rationale: 房庶称古本汉志多八字、当以律生尺，光据经考辨，以为累黍为尺其法有据，不从镇言
+  - date: 1054
+    title_zh: 持守累黍古法而与镇争
+    rationale: 范镇自谓得真黍古法，光终不以为是，守本经、明度数，宁与知交长期论难而不苟同
+events:
+- id: guji-司马光-event-birth
+  event_type: birth
+  date: 1019
+  year_of: 1019
+  name_zh: 司马光出生
+  participants:
+  - guji-司马光
+- id: guji-司马光-event-pitch-debate
+  event_type: endeavor
+  date: 1050
+  year_of: 1050
+  name_zh: 皇祐间与范镇论难黍尺律法
+  participants:
+  - guji-司马光
+  - guji-范镇
+  summary: 房庶言得古本汉志、当以秬黍千二百实管以律生尺，范镇是之；惟集贤校理司马光不以为然，数与之论难。
+- id: guji-司马光-event-pitch-undecided
+  event_type: endeavor
+  date: 1054
+  year_of: 1054
+  name_zh: 黍尺之争终不能决
+  participants:
+  - guji-司马光
+  - guji-范镇
+  summary: 至和间范镇上言制乐未决，自谓得古法，司马光终不以为是，然世鲜钟律之学，其争竟不能决。
+- id: guji-司马光-event-death
+  event_type: death
+  date: 1086
+  year_of: 1086
+  name_zh: 司马光去世
+  participants:
+  - guji-司马光

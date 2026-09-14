@@ -1,0 +1,128 @@
+person:
+  qid: guji-虞允文
+  name_zh: 虞允文
+  names:
+    zh: 虞允文
+    en: Yu Yunwen
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 南宋高宗绍兴年间
+  reign_ref: 宋高宗绍兴三十一年至三十二年（约1161—1162）
+  archetype: 主战文臣 · 战略谏诤者
+  dilemmas:
+  - 朝廷决意弃德顺三路求和，而宣谕使虞允文力陈德顺系陕西存亡、弃之则窥蜀之路愈多
+  - 疏奏不合和议，反遭罢知夔州，主和派 outweigh 主战战略
+  lesson: 尽言料势者未必胜于时势——忠言既上，和局已定，遂使血战新复之地得而复失。
+  summary_first_person: 我以川陕宣谕使视师西陲，见吴璘力战新复十三州，而朝廷欲弃德顺班师。我上疏言恢复莫先于陕西，德顺一弃则窥蜀之路愈多，西和、阶、成利害至重。疏奏既上，反罢我知夔州，诏璘班师，金人乘其后，丧师三万三千，三路新复之地尽没。我言不用，恨事也，然臣子之责已尽。
+  source_urls:
+  - https://zh.wikisource.org/wiki/續資治通鑑
+endeavors:
+- id: guji-虞允文-endeavor-1
+  name_zh: 川陕宣谕与保蜀论谏
+  phases:
+  - key: brewing
+    name_zh: 受命宣谕川陕
+    labels:
+      zh:
+      - 西线军务
+    start_date: '1161-05-01'
+    highlight_event_id: guji-虞允文-event-appoint
+  - key: breakthrough
+    name_zh: 上疏保德顺
+    labels:
+      zh:
+      - 战略谏诤
+    start_date: '1162-02-01'
+    highlight_event_id: guji-虞允文-event-memorial
+  - key: closure
+    name_zh: 罢知夔州
+    labels:
+      zh:
+      - 和议罢官
+    start_date: '1162-12-01'
+    highlight_event_id: guji-虞允文-event-recall
+  decisions:
+  - date: '1162-02-01'
+    title_zh: 疏言不可弃德顺三路
+    rationale: 恢复莫先于陕西，德顺存亡系新复州郡，弃之则窥蜀之路愈多，西和阶成利害至重。
+- id: guji-虞允文-endeavor-2
+  name_zh: 协赞吴璘西线战守
+  phases:
+  - key: brewing
+    name_zh: 与宣抚司共筹西事
+    labels:
+      zh:
+      - 参赞军机
+    start_date: '1161-05-01'
+    highlight_event_id: guji-虞允文-event-longde
+  - key: climax
+    name_zh: 德顺之复与弃
+    labels:
+      zh:
+      - 得而复失
+    start_date: '1162-02-01'
+    highlight_event_id: guji-虞允文-event-loss
+  decisions:
+  - date: '1161-05-01'
+    title_zh: 支持吴璘整备蜀口防金
+    rationale: 金主亮将败盟，西陲当早为之备，宣谕使力行督导。
+events:
+- id: guji-虞允文-event-appoint
+  person_qid: guji-虞允文
+  date: '1161-05-01'
+  year_of: 1161
+  type: appointment
+  title_zh: 虞允文时为川陕宣谕使
+  summary: 绍兴三十一年五月，朝廷以吴璘为四川宣抚使备金，虞允文任川陕宣谕使，参与西线军务。
+  entities_considered:
+  - guji-虞允文
+  - guji-吴璘
+- id: guji-虞允文-event-longde
+  person_qid: guji-虞允文
+  date: '1162-02-01'
+  year_of: 1162
+  type: military
+  title_zh: 吴璘复大散关及德顺等州
+  summary: 绍兴三十二年吴璘屡败金人，复大散关、德顺、兰会熙巩等州，新复十三州三军。
+  entities_considered:
+  - guji-吴璘
+  - guji-虞允文
+- id: guji-虞允文-event-memorial
+  person_qid: guji-虞允文
+  date: '1162-12-01'
+  year_of: 1162
+  type: memorial
+  title_zh: 疏言恢复莫先于陕西、不可弃德顺
+  summary: 朝廷欲弃三路，虞允文上言德顺存亡系陕西五路，一旦弃之则窥蜀之路愈多，西和阶成利害至重。
+  entities_considered:
+  - guji-虞允文
+- id: guji-虞允文-event-recall
+  person_qid: guji-虞允文
+  date: '1162-12-01'
+  year_of: 1162
+  type: demotion
+  title_zh: 疏上罢允文知夔州
+  summary: 疏奏既上，罢虞允文，改知夔州，遂诏吴璘班师。
+  entities_considered:
+  - guji-虞允文
+- id: guji-虞允文-event-loss
+  person_qid: guji-虞允文
+  date: '1162-12-01'
+  year_of: 1162
+  type: military
+  title_zh: 金乘班师之隙，三路新复十三州尽失
+  summary: 诏吴璘班师后金人乘其后，璘军亡失三万三千，秦凤熙河永兴三路新复十三州皆复为金取。
+  entities_considered:
+  - guji-吴璘
+  - guji-虞允文
