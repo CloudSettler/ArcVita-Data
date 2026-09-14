@@ -1,0 +1,126 @@
+person:
+  qid: guji-刘秉忠
+  name_zh: 刘秉忠
+  names:
+    zh: 刘秉忠
+    en: Liu Bingzhong
+  lifespan:
+    birth:
+      date: '1216'
+      precision: year
+      is_circa: true
+      raw: 生卒年不祥，约金末
+    death:
+      date: '1274'
+      precision: year
+      is_circa: false
+      raw: ''
+  birth_date: '1216'
+  death_date: '1274'
+  era: 大蒙古国至元初
+  reign_ref: 元世祖忽必烈
+  archetype: 谋士与制度设计者
+  dilemmas:
+  - 以释道之身辅佐藩王，如何以汉法治汉地而不触蒙古贵族之忌
+  lesson: 佐王霸之业者，先治一邑而后可谋天下。
+  summary_first_person: 我刘秉忠以布衣佐忽必烈潜邸，首倡邢州良吏抚民之策，使流亡复归；又主持建城于桓州东、滦水北，遂成开平府，为帝王建元立政之基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/元史/卷004
+  - https://zh.wikisource.org/wiki/元史/卷007
+endeavors:
+- id: guji-刘秉忠-endeavor-1
+  name_zh: 佐藩邸谋政
+  phases:
+  - key: brewing
+    name_zh: 征入潜邸
+    labels:
+      zh:
+      - 布衣入侍
+    start_date: '1242'
+    highlight_event_id: guji-刘秉忠-event-yanzhou
+  - key: breakthrough
+    name_zh: 邢州献策
+    labels:
+      zh:
+      - 良吏抚民
+    start_date: '1251'
+    highlight_event_id: guji-刘秉忠-event-yanzhou
+  - key: climax
+    name_zh: 谋军国大计
+    labels:
+      zh:
+      - 潜邸谋主
+    start_date: '1253'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  - key: closure
+    name_zh: 佐定制度
+    labels:
+      zh:
+      - 建元立政
+    start_date: '1260'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  decisions:
+  - date: '1251'
+    title_zh: 言邢州户本万余、军兴后不满数百，请得良吏抚之
+    rationale: 使四方取法，则天下皆受王之赐
+  - date: '1260'
+    title_zh: 参赞建元中统、立朝仪定制度
+    rationale: 祖述变通，正在今日，以汉制立纲陈纪
+- id: guji-刘秉忠-endeavor-2
+  name_zh: 营建开平城
+  phases:
+  - key: brewing
+    name_zh: 卜地相土
+    labels:
+      zh:
+      - 观滦水之胜
+    start_date: '1256'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  - key: breakthrough
+    name_zh: 建城郭于桓州东滦水北
+    labels:
+      zh:
+      - 筑城
+    start_date: '1256'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  - key: climax
+    name_zh: 开平府成为潜邸政治中心后为上都
+    labels:
+      zh:
+      - 龙兴之地
+    start_date: '1260'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  - key: closure
+    name_zh: 以开平为即位之所，制度赖以推行
+    labels:
+      zh:
+      - 上都定制
+    start_date: '1260'
+    highlight_event_id: guji-刘秉忠-event-kaiping
+  decisions:
+  - date: '1256'
+    title_zh: 奉命建城郭于桓州东、滦水北
+    rationale: 为藩府经营漠南根据地，后名为开平府
+events:
+- id: guji-刘秉忠-event-yanzhou
+  date: '1251'
+  year_of: 1251
+  type: advisory
+  name_zh: 邢州献策
+  description: 邢州为帝分地，民不堪命诣王府诉之，刘秉忠、张文谦言于帝曰邢州户本万余、军兴以来不满数百，得良吏抚之责以成效，使四方取法则天下皆受王之赐；帝从之，以脱兀脱、张耕为邢州安抚使，刘肃为商榷使，轻徭薄赋，期年户增数倍，自是帝益以儒者为能用。宪宗即位，诏漠南汉地军国之事悉听帝裁决，开府于金莲川。
+  participants:
+  - guji-刘秉忠
+  - guji-忽必烈
+  place: 邢州
+  related_endeavor_id: guji-刘秉忠-endeavor-1
+- id: guji-刘秉忠-event-kaiping
+  date: '1256'
+  year_of: 1256
+  type: founding
+  name_zh: 建开平城
+  description: 六年春三月，命刘秉忠建城郭于桓州东、滦水北，后名为开平府。中统元年春三月，车驾至开平府，诸王文武大臣劝进，忽必烈即皇帝位，建元中统，开平遂为帝业肇基之地。
+  participants:
+  - guji-刘秉忠
+  - guji-忽必烈
+  place: 桓州东、滦水北
+  related_endeavor_id: guji-刘秉忠-endeavor-2

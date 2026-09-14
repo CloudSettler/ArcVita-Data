@@ -1,0 +1,153 @@
+person:
+  qid: guji-姚枢
+  name_zh: 姚枢
+  names:
+    zh: 姚枢
+    en: Yao Shu
+  lifespan:
+    birth:
+      date: '1203'
+      precision: year
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: '1279'
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 约1203年
+  death_date: 约1279年
+  era: 元初（蒙古汗国至元朝初期）
+  reign_ref: 中统、至元
+  archetype: 儒臣谋士
+  dilemmas:
+  - 隐居讲学与时为储君谋政之间的取舍
+  - 蒙古屠掠旧俗与以儒术化民之间的冲突
+  lesson: 以仁术佐霸业，止杀存民，方能成就长远的治道。
+  summary_first_person: 我是姚枢，金末儒生，曾隐居辉州讲学。应忽必烈潜邸之召，与其论治道，劝其行汉法、轻徭薄赋。从征大理时，我裂帛为旗，书止杀之令，使一城获免。中统初，我出为东平路宣抚使，后应召赴省，同议军国调度，以儒者之佐助元初立纲陈纪。
+  source_urls:
+  - https://zh.wikisource.org/wiki/元史/卷004
+  - https://zh.wikisource.org/wiki/元史/卷007
+endeavors:
+- id: guji-姚枢-endeavor-1
+  name_zh: 入忽必烈潜邸论治道
+  phases:
+  - key: brewing
+    name_zh: 隐居讲学
+    labels:
+      zh: 儒学名士
+    start_date: 约1240
+  - key: breakthrough
+    name_zh: 应召问治道
+    labels:
+      zh: 潜邸谋士
+    start_date: 约1247
+    highlight_event_id: guji-姚枢-event-advising-kublai
+  - key: climax
+    name_zh: 从征大理与建言止杀
+    labels:
+      zh: 止杀全城
+    start_date: '1253'
+    highlight_event_id: guji-姚枢-event-dali-banner
+  - key: closure
+    name_zh: 佐立汉法
+    labels:
+      zh: 元初重臣
+    start_date: '1260'
+  decisions:
+  - date: 约1247
+    title_zh: 应忽必烈之召出山
+    rationale: 蒙古延揽文学之士待以殊礼，遂出佐新政以行儒道。
+  - date: '1253'
+    title_zh: 劝止屠大理城
+    rationale: 屠城乃高祥之罪，非民之过，杀降失天下之心。
+- id: guji-姚枢-endeavor-2
+  name_zh: 出任东平路宣抚使与中枢议政
+  phases:
+  - key: brewing
+    name_zh: 荐良吏抚州县
+    labels:
+      zh: 邢州之议的儒者助翼
+    start_date: 约1251
+  - key: breakthrough
+    name_zh: 拜东平路宣抚使
+    labels:
+      zh: 十路宣抚
+    start_date: '1260'
+    highlight_event_id: guji-姚枢-event-xuanfushi
+  - key: climax
+    name_zh: 奉召赴省议军国调度
+    labels:
+      zh: 中枢谋议
+    start_date: '1261'
+    highlight_event_id: guji-姚枢-event-junguo
+  - key: closure
+    name_zh: 佐成中统至元之治
+    labels:
+      zh: 功成身建庙堂
+    start_date: 约1262
+  decisions:
+  - date: '1261'
+    title_zh: 奉召赴中书省议政
+    rationale: 军国调度需儒臣参议，遂离宣抚之任入佐中枢。
+events:
+- id: guji-姚枢-event-birth
+  event_type: birth
+  date: 约1203
+  year_of: 1203
+  name_zh: 姚枢出生
+  description_zh: 姚枢生年史无明载，约生于金末年間，后以儒学名世。
+  participants:
+  - guji-姚枢
+- id: guji-姚枢-event-advising-kublai
+  event_type: endeavor_event
+  date: 约1247
+  year_of: 1247
+  name_zh: 应忽必烈潜邸之召问治道
+  description_zh: 世祖在潜邸，征名儒窦默、姚枢、许衡等，询以治道，思大有为于天下；蒙古兴垂六十年，至帝始延揽文学之士，待以殊礼。
+  participants:
+  - guji-姚枢
+  - guji-忽必烈
+  endeavor_ids:
+  - guji-姚枢-endeavor-1
+- id: guji-姚枢-event-dali-banner
+  event_type: endeavor_event
+  date: 1253-12
+  year_of: 1253
+  name_zh: 裂帛为旗止杀于大理
+  description_zh: 帝围大理，欲因使者被杀而屠城。张文谦谏止，帝乃使姚枢裂帛为旗，书止杀之令，由是一城获免。
+  participants:
+  - guji-姚枢
+  - guji-忽必烈
+  - guji-张文谦
+  endeavor_ids:
+  - guji-姚枢-endeavor-1
+- id: guji-姚枢-event-xuanfushi
+  event_type: endeavor_event
+  date: 1260-05
+  year_of: 1260
+  name_zh: 拜东平路宣抚使
+  description_zh: 中统元年立十路宣抚司，姚枢为东平路宣抚使，张肃副之，劝农桑、抑游惰、问民疾苦。
+  participants:
+  - guji-姚枢
+  endeavor_ids:
+  - guji-姚枢-endeavor-2
+- id: guji-姚枢-event-junguo
+  event_type: endeavor_event
+  date: 1261-05
+  year_of: 1261
+  name_zh: 奉召赴省同议军国调度
+  description_zh: 中统二年五月丙寅，命宣抚使姚枢赴省，同议军国调度，参佐中统新政。
+  participants:
+  - guji-姚枢
+  - guji-忽必烈
+  endeavor_ids:
+  - guji-姚枢-endeavor-2
+- id: guji-姚枢-event-death
+  event_type: death
+  date: 约1279
+  year_of: 1279
+  name_zh: 姚枢卒
+  description_zh: 姚枢卒年史文未见明载，约卒于至元年间，以儒臣谋佐元初之治而终。
+  participants:
+  - guji-姚枢

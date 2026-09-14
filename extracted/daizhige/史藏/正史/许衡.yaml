@@ -1,0 +1,112 @@
+person:
+  qid: guji-许衡
+  name_zh: 许衡
+  names:
+    zh: 许衡
+    en: Xu Heng
+  lifespan:
+    birth:
+      date: '1209'
+      precision: year
+      is_circa: true
+      raw: 生年史传载于金末
+    death:
+      date: '1281'
+      precision: year
+      is_circa: true
+      raw: 卒于元至元十八年
+  birth_date: '1209'
+  death_date: '1281'
+  era: 蒙元时期
+  reign_ref: 元世祖忽必烈
+  archetype: 儒臣 / 理学家
+  dilemmas:
+  - 夷夏之辨与出仕新朝的抉择
+  - 以儒术辅政与政治现实之间的张力
+  lesson: 以学问养德、以德义事君，虽处变朝而守斯道不坠
+  summary_first_person: 我许衡以儒学立于乱世，蒙世祖潜邸征召，询以治道，遂以纲常教化、劝农立制辅佐新朝，期以夏变夷。
+  source_urls:
+  - https://zh.wikisource.org/wiki/元史/卷007
+endeavors:
+- id: guji-许衡-endeavor-1
+  name_zh: 潜邸 preaching 治道
+  phases:
+  - key: brewing
+    name_zh: 早年讲学
+    labels:
+      zh:
+      - 儒学修养
+    start_date: '1230'
+  - key: breakthrough
+    name_zh: 应征潜邸
+    labels:
+      zh:
+      - 征名儒询治道
+    start_date: '1250'
+    highlight_event_id: guji-许衡-event-summon
+  - key: climax
+    name_zh: 佐世祖定治纲
+    labels:
+      zh:
+      - 立规章、劝农桑
+    start_date: '1260'
+  - key: closure
+    name_zh: 晚年辞荣
+    labels:
+      zh:
+      - 归乡讲学
+    start_date: '1275'
+  decisions:
+  - date: '1250'
+    title_zh: 应忽必烈潜邸之征
+    rationale: 以儒术行道，思有以正天下之治
+  - date: '1260'
+    title_zh: 出仕佐政
+    rationale: 世祖即位锐意文治，儒者当出而任事
+- id: guji-许衡-endeavor-2
+  name_zh: 兴学劝农
+  phases:
+  - key: brewing
+    name_zh: 提倡纲常
+    labels:
+      zh:
+      - 教化
+    start_date: '1250'
+  - key: climax
+    name_zh: 设学官劝农桑
+    labels:
+      zh:
+      - 劝农、礼高年
+    start_date: '1261'
+    highlight_event_id: guji-许衡-event-preach
+  - key: closure
+    name_zh: 学风流传
+    labels:
+      zh:
+      - 鲁斋学派
+    start_date: '1280'
+  decisions:
+  - date: '1261'
+    title_zh: 主张以农桑学校为治国之本
+    rationale: 民生安则礼义兴，可久安长治
+events:
+- id: guji-许衡-event-birth
+  type: birth
+  date: '1209'
+  year_of: 1209
+  summary: 许衡生于金末乱世，家贫力学。
+- id: guji-许衡-event-summon
+  type: career_highlight
+  date: '1250'
+  year_of: 1250
+  summary: 世祖在潜邸征名儒窦默、姚枢、许衡等，询以治道，待以殊礼。
+- id: guji-许衡-event-preach
+  type: career_highlight
+  date: '1261'
+  year_of: 1261
+  summary: 参与宣抚司劝农桑、抑游惰、礼高年、举文学才识可以从政者，佐世祖立汉法治国之纲。
+- id: guji-许衡-event-death
+  type: death
+  date: '1281'
+  year_of: 1281
+  summary: 许衡卒，后谥文正，学者称鲁斋先生。
