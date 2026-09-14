@@ -1,0 +1,114 @@
+person:
+  qid: guji-夏原吉
+  name_zh: 夏原吉
+  names:
+    zh: 夏原吉
+    en: Xia Yuanji
+  lifespan:
+    birth:
+      date: '1366'
+      precision: year
+      is_circa: true
+      raw: 约1366年
+    death:
+      date: '1430'
+      precision: year
+      is_circa: false
+  birth_date: '1366'
+  death_date: '1430'
+  era: 明代永乐、洪熙朝
+  reign_ref: 明成祖、明仁宗
+  archetype: 财计名臣
+  dilemmas:
+  - 既要宽恤民力，又须维持国家财政支度
+  - 宗室禄米屡增与太仓储积有限的矛盾
+  lesson: 治财之道在体国恤民，宽徵薄敛而仓廪自足
+  summary_first_person: 我为户部尚书，历事两朝。皇上每与臣议诸王加禄、免徵灾伤税粮、除荒田租额诸事，皆以恤民为先，臣谨承其意，斟酌国用，务使民不困而仓不乏。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明仁宗實錄
+endeavors:
+- id: guji-夏原吉-endeavor-1
+  name_zh: 执掌户部，综理国家财政
+  phases:
+  - key: brewing
+    name_zh: 理财任事
+    labels:
+      zh: 户部任事
+    start_date: '1403'
+  - key: breakthrough
+    name_zh: 佐成永乐之治
+    labels:
+      zh: 支撑营建征运
+    start_date: '1406'
+  - key: climax
+    name_zh: 辅政宽恤
+    labels:
+      zh: 洪熙议政
+    start_date: '1424'
+    highlight_event_id: guji-夏原吉-event-royal-stipend
+  - key: closure
+    name_zh: 遗烈犹存
+    labels:
+      zh: 名臣身后
+    start_date: '1430'
+  decisions:
+  - date: '1424-09-27'
+    title_zh: 奏定诸王加禄米额
+    rationale: 亲亲之道莫先于和睦，量增岁禄以安宗藩
+  - date: '1424-10-25'
+    title_zh: 议免凤阳五河被水州县税粮
+    rationale: 农民劳苦至秋成而被水所伤，不可复徵其税
+- id: guji-夏原吉-endeavor-2
+  name_zh: 宽恤民力，蠲免灾伤赋税
+  phases:
+  - key: brewing
+    name_zh: 察访民瘼
+    labels:
+      zh: 巡视州郡
+    start_date: '1424'
+  - key: breakthrough
+    name_zh: 议蠲荒逋
+    labels:
+      zh: 除荒田租
+    start_date: '1424-11-16'
+    highlight_event_id: guji-夏原吉-event-tax-relief
+  - key: climax
+    name_zh: 樽节科徭
+    labels:
+      zh: 节用恤民
+    start_date: '1425'
+  decisions:
+  - date: '1424-11-16'
+    title_zh: 条议宽减百姓科徭并除荒田税额
+    rationale: 百姓苦于征徭相率转徙，宜速除税额以 SOS 民生
+events:
+- id: guji-夏原吉-event-birth
+  event_type: birth
+  date: '1366'
+  year_of: 1366
+  title_zh: 夏原吉出生
+  description: 生于元末明初之际，后仕明为户部尚书。
+- id: guji-夏原吉-event-death
+  event_type: death
+  date: '1430'
+  year_of: 1430
+  title_zh: 夏原吉去世
+  description: 一生理财佐政，为明代著名能臣。
+- id: guji-夏原吉-event-royal-stipend
+  event_type: endeavor
+  date: '1424-09-27'
+  year_of: 1424
+  title_zh: 与仁宗议增诸王岁禄
+  description: 乙酉，仁宗以诸叔在者无几、诸兄弟守藩于外，谓户部尚书夏原吉加诸王岁禄，周府加米五千石、汉赵二府各加二万石等，用伸亲亲之情。
+- id: guji-夏原吉-event-tax-relief
+  event_type: endeavor
+  date: '1424-10-25'
+  year_of: 1424
+  title_zh: 议免凤阳五河被灾税粮
+  description: 丙戌，凤阳五河等县奏雨水没田稼，仁宗谓户部尚书夏原吉曰农民劳苦，既无自给不可复徵，遂遣人核实，今岁粮刍悉免之。
+- id: guji-夏原吉-event-levy-reform
+  event_type: endeavor
+  date: '1424-11-16'
+  year_of: 1424
+  title_zh: 与议樽节科徭、除荒田租额
+  description: 癸酉，仁宗谕户部尚书夏原吉等，自今一切科徭务樽节，命有司凡政令不便于民者条具以闻，被灾之处早奏赈恤，稽违者守令处重罪。
