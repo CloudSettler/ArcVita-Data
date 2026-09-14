@@ -1,0 +1,143 @@
+person:
+  qid: guji-lujianying
+  name_zh: 陆建瀛
+  names:
+    zh: 陆建瀛
+    en: Lu Jianying
+  lifespan:
+    birth:
+      date: '1792'
+      precision: year
+      is_circa: true
+      raw: 约1792年
+    death:
+      date: 1853-03
+      precision: month
+      is_circa: false
+      raw: 咸丰三年正月（1853年，南京城破时遇害）
+  era: 清代（道光、咸丰年间）
+  reign_ref: 咸丰帝
+  archetype: 守土名臣
+  dilemmas:
+  - 钦差赴楚会剿却逡巡畏缩、不敢前进，贻误江宁防务
+  - 遇贼采石败还，秘不发丧并谕居民毋徙，致百万生灵罹难
+  lesson: 督师西讨而怯于前敌，讳败误城，身死名损。
+  summary_first_person: 我是陆建瀛，官至两江总督。咸丰二年冬奉旨会剿粤匪，然我进兵迟疑，兵败采石，遁回金陵而不敢声张。咸丰三年正月，安庆失守、贼军东下，江宁城破之日，我死于乱军之中。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/陆建瀛
+endeavors:
+- id: guji-lujianying-endeavor-1
+  name_zh: 总督江学与政事
+  phases:
+  - key: brewing
+    name_zh: 入仕营治
+    labels:
+      zh:
+      - 儒臣
+      - 漕盐政务
+    start_date: '1818'
+  - key: breakthrough
+    name_zh: 位至总督
+    labels:
+      zh:
+      - 两江总督
+    start_date: '1849'
+  - key: climax
+    name_zh: 奉旨会剿
+    labels:
+      zh:
+      - 钦差大臣
+    start_date: 1852-11
+    highlight_event_id: guji-lujianying-event-appointment
+  - key: closure
+    name_zh: 兵败身死
+    labels:
+      zh:
+      - 采石之败
+      - 殁于金陵
+    start_date: 1853-01
+    highlight_event_id: guji-lujianying-event-caishi
+  decisions:
+  - date: 1852-11
+    title_zh: 奉旨赴楚会剿粤匪
+    rationale: 粤匪扬言南下，奉命统师西上堵剿。
+  - date: '1853-01-30'
+    title_zh: 采石遇贼败还而秘不发
+    rationale: 欲复往采石防堵，遇贼而还，犹秘不发，并谕居民毋徙。
+- id: guji-lujianying-endeavor-2
+  name_zh: 督师西上堵剿
+  phases:
+  - key: brewing
+    name_zh: 奉命起行
+    labels:
+      zh:
+      - 钦差赴楚
+    start_date: '1852-12-15'
+    highlight_event_id: guji-lujianying-event-depart
+  - key: breakthrough
+    name_zh: 逡徘徊进
+    labels:
+      zh:
+      - 迟延误机
+    start_date: 1853-01
+  - key: climax
+    name_zh: 败退金陵
+    labels:
+      zh:
+      - 采石遇贼
+    start_date: '1853-01-30'
+    highlight_event_id: guji-lujianying-event-caishi
+  - key: closure
+    name_zh: 城破殒身
+    labels:
+      zh:
+      - 江宁失守
+    start_date: 1853-03
+    highlight_event_id: guji-lujianying-event-death
+  decisions:
+  - date: 1853-01
+    title_zh: 正月初始过安庆，逡巡畏缩不敢前进
+    rationale: 畏贼声势，行军迟缓，致武以下警报迭至、人心皇皇。
+events:
+- id: guji-lujianying-event-birth
+  event_type: birth
+  date: '1792'
+  year_of: 1792
+  title_zh: 陆建瀛出生
+  description: 约生于1792年，后来官至两江总督。
+- id: guji-lujianying-event-appointment
+  event_type: endeavor
+  date: 1852-11
+  year_of: 1852
+  title_zh: 江宁百姓谣传总督奉旨会剿
+  description: 壬子冬，粤匪猖獗，扬言南下，总督陆建瀛奉旨会剿。
+- id: guji-lujianying-event-depart
+  event_type: endeavor
+  date: '1852-12-15'
+  year_of: 1852
+  title_zh: 钦差大臣陆建瀛起身赴楚
+  description: 于壬子十二月十五日起身，逡巡畏缩，不敢前进，正月初始过安庆。
+- id: guji-lujianying-event-caishi
+  event_type: endeavor
+  date: '1853-01-30'
+  year_of: 1853
+  title_zh: 采石遇贼败还，秘不发丧
+  description: 二十三日，制军欲复往采石防堵，遇贼而还，犹秘不发，并谕居民毋徙，贻误江宁防务。
+- id: guji-lujianying-event-anqing-defeat
+  event_type: endeavor
+  date: '1853-01-17'
+  year_of: 1853
+  title_zh: 安庆失守，所部溃败
+  description: 十七日安庆失守，贼至东梁山，众军溃败，此后将军祥厚谕闭各处城门。
+- id: guji-lujianying-event-death
+  event_type: death
+  date: 1853-03
+  year_of: 1853
+  title_zh: 江宁城破，陆建瀛遇害
+  description: 咸丰三年二月太平军攻陷江宁，陆建瀛死于城中。
+- id: guji-lujianying-event-city-fall
+  event_type: context
+  date: '1853-03-11'
+  year_of: 1853
+  title_zh: 太平军以地道炸塌仪凤门攻克江宁
+  description: 贼于地道中开炮，城塌数丈，乘雾登城，兵勇俱溃，副将沈鼐力战遇害，江宁城破。
