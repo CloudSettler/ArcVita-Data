@@ -1,0 +1,104 @@
+person:
+  qid: guji-少康
+  name_zh: 少康
+  names:
+    zh: 少康
+    en: Shao Kang
+  lifespan:
+    birth:
+      date: -2050
+      precision: decade
+      is_circa: true
+      raw: 约夏相之后
+    death:
+      date: -1990
+      precision: decade
+      is_circa: true
+  birth_date: 约-2050
+  death_date: 约-1990
+  era: 夏代
+  reign_ref: 夏少康
+  archetype: 中兴之主
+  dilemmas:
+  - 尚为遗孤，寄居他邦，如何隐忍蓄力
+  - 寒浞势大，以弱击强，胜算几稀
+  lesson: 有田一成、有众一旅，抚其民而用之，/Base/能成中兴之业
+  summary_first_person: 我为夏后相遗孤，寄于有虞，以一成之田、一旅之众，剿灭了篡夏的寒浞，恢复了夏统，史称少康中兴。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=467125
+endeavors:
+- id: guji-少康-endeavor-1
+  name_zh: 少康中兴
+  phases:
+  - key: brewing
+    name_zh: 落难寄居
+    labels:
+      zh:
+      - 遗孤
+    start_date: -2060
+    highlight_event_id: guji-少康-event-exile
+  - key: breakthrough
+    name_zh: 有虞蓄力
+    labels:
+      zh:
+      - 蓄势
+    start_date: -2040
+    highlight_event_id: guji-少康-event-yuyu
+  - key: climax
+    name_zh: 诛寒浞复国
+    labels:
+      zh:
+      - 中兴
+    start_date: -2020
+    highlight_event_id: guji-少康-event-restore
+  - key: closure
+    name_zh: 夏统复续
+    labels:
+      zh:
+      - 继统
+    start_date: -2010
+    highlight_event_id: guji-少康-event-reign
+  decisions:
+  - date: -2040
+    title_zh: 委任为有虞庖正，娶二姚
+    rationale: 寄身有虞以为根基，联姻虞氏以得助力
+  - date: -2020
+    title_zh: 使女艾谍浇、季杼诱豷
+    rationale: 离间敌势，弱其羽翼，而后以一成一旅之众举事
+events:
+- id: guji-少康-event-birth
+  date: -2050
+  year_of: -2050
+  type: birth
+  title_zh: 少康出生
+  desc_zh: 夏后相遗腹之子
+- id: guji-少康-event-exile
+  date: -2040
+  year_of: -2040
+  type: endeavor
+  title_zh: 避奔有仍为牧正
+  desc_zh: 尚幼即为寒浞所忌，逃奔有仍氏，为牧正
+- id: guji-少康-event-yuyu
+  date: -2030
+  year_of: -2030
+  type: endeavor
+  title_zh: 寄居有虞
+  desc_zh: 虞思妻以二姚，邑诸纶，有田一成、有众一旅
+- id: guji-少康-event-restore
+  date: -2020
+  year_of: -2020
+  type: endeavor
+  title_zh: 诛浇灭豷，复夏之统
+  desc_zh: 收夏众抚其官职，最终灭寒浞，复登夏后之位，史称少康中兴
+- id: guji-少康-event-reign
+  date: -2010
+  year_of: -2010
+  type: endeavor
+  title_zh: 夏道复兴
+  desc_zh: 少康在位，夏统得以延续
+- id: guji-少康-event-death
+  date: -1990
+  year_of: -1990
+  type: death
+  title_zh: 少康卒
+  desc_zh: 在位数十年后去世，子杼继立
