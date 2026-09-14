@@ -1,0 +1,130 @@
+person:
+  qid: guji-唐宣宗
+  name_zh: 唐宣宗
+  names:
+    zh: 唐宣宗
+    en: Emperor Xuanzong of Tang
+  lifespan:
+    birth:
+      date: '810'
+      precision: year
+      is_circa: true
+      raw: 生年史载不详（约元和年间）
+    death:
+      date: '859'
+      precision: year
+      is_circa: false
+      raw: 大中十三年（859年）
+  birth_date: 0810
+  death_date: 0859
+  era: 唐
+  reign_ref: 会昌六年（846年）即位，年号大中
+  archetype: 中兴守成之君
+  dilemmas:
+  - 晚唐宦官专权、藩镇跋扈，父死子继之外的非常继位
+  - 在牛李党争余波中如何收拾朝局、重建权威
+  lesson: 皇太叔以「权勾当军国政事」之名承继大统，是在乱局中以贤不以嫡的现实抉择。
+  summary_first_person: 我以皇太叔之身，于会昌六年受册即皇帝位，改元大中，欲以宽仁勤政再振唐室纲纪。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=5948
+endeavors:
+- id: guji-唐宣宗-endeavor-1
+  key: tang-restoration
+  name_zh: 大中之治
+  labels:
+    zh:
+    - 中兴之业
+    - 勤政纳谏
+  phases:
+  - key: brewing
+    name_zh: 潜邸岁月
+    labels:
+      zh:
+      - 韬光养晦
+    start_date: 0820
+    highlight_event_id: guji-唐宣宗-event-accession
+  - key: breakthrough
+    name_zh: 即位承统
+    labels:
+      zh:
+      - 皇太叔入继
+    start_date: 0846
+    highlight_event_id: guji-唐宣宗-event-accession
+  - key: climax
+    name_zh: 大中图治
+    labels:
+      zh:
+      - 斥去奇邪
+      - 亲任仁人
+    start_date: 0847
+    highlight_event_id: guji-唐宣宗-event-governing
+  - key: closure
+    name_zh: 大中之末
+    labels:
+      zh:
+      - 委政而崩
+    start_date: 0859
+    highlight_event_id: guji-唐宣宗-event-death
+  decisions:
+  - date: 0846
+    title_zh: 受武宗遗命以皇太叔权勾当军国政事，旋即帝位
+    rationale: 武宗疾笃，颐护或亏，托付家国于皇太叔，乃依众议承继大统。
+  - date: 0847
+    title_zh: 改元大中，斥去奇邪、亲任仁人
+    rationale: 册文既诫「惟敬惟和，克敏克宽」，遂以察纳忠直、振举朝纲为务。
+- id: guji-唐宣宗-endeavor-2
+  key: edict-governance
+  name_zh: 大中诏令政事
+  labels:
+    zh:
+    - 号令文章
+    - 典册垂世
+  phases:
+  - key: breakthrough
+    name_zh: 颁行大中政令
+    labels:
+      zh:
+      - 大赦改元
+    start_date: 0847
+    highlight_event_id: guji-唐宣宗-event-governing
+  - key: closure
+    name_zh: 传位于懿宗
+    labels:
+      zh:
+      - 命嗣惟贤
+    start_date: 0859
+    highlight_event_id: guji-唐宣宗-event-death
+  decisions:
+  - date: 0859
+    title_zh: 大中末年以长子为皇太子，付以社稷
+    rationale: 寝疾弥留，历数有归，命嗣惟贤以安邦家。
+events:
+- id: guji-唐宣宗-event-birth
+  date: 0810
+  year_of: 810
+  type: birth
+  summary: 宪宗之子，生于元和年间，幼有「为善好学」之誉。
+- id: guji-唐宣宗-event-accession
+  date: 0846
+  year_of: 846
+  type: political
+  title_zh: 宣宗即位册文：会昌六年三月即皇帝位
+  summary: 武宗「祷神饵药，有加无瘳」，委家国于皇太叔，「权勾当军国政事」，遂于会昌六年丙寅三月即位。
+- id: guji-唐宣宗-event-governing
+  date: 0847
+  year_of: 847
+  type: political
+  title_zh: 改元大中，勤政图治
+  summary: 秉「斥去奇邪，亲任仁人」之训，宣宗孜孜求治，号「大中之治」。
+- id: guji-唐宣宗-event-second-endeavor-start
+  date: 0850
+  year_of: 850
+  type: political
+  title_zh: 大中政令频颁，考慎庶官
+  summary: 大中年间修举废坠，明察吏治，号为小太宗之治。
+- id: guji-唐宣宗-event-death
+  date: 0859
+  year_of: 859
+  type: death
+  title_zh: 大中十三年崩，懿宗即位
+  summary: 寝疾弥留，药石无功，传位于皇太子（懿宗），八月丙申皇帝册命懿宗即位。

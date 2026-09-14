@@ -1,0 +1,104 @@
+person:
+  qid: guji-张说
+  name_zh: 张说
+  names:
+    zh: 张说
+    en: Zhang Yue
+  lifespan:
+    birth:
+      date: '0667'
+      precision: year
+      is_circa: true
+      raw: 乾封年间生（约）
+    death:
+      date: '0731'
+      precision: year
+      is_circa: false
+  birth_date: '0667'
+  death_date: '0731'
+  era: 唐代
+  reign_ref: 武则天、中宗、睿宗、玄宗朝
+  archetype: 文章政事之臣
+  dilemmas:
+  - 身居宰辅，屡经贬谪，出处行藏之际如何持守文臣之节
+  lesson: 文章典册足垂世，政事兴革亦须因时审势
+  summary_first_person: 我是张说，唐代文臣，三秉枢政，以文章典册名重一时，死后追赠太师，诏书见载于《唐大诏令集》。
+  source_urls:
+  - https://example.org/guji/tang-da-zhao-ling-ji
+endeavors:
+- id: guji-张说-endeavor-1
+  name_zh: 仕历中枢
+  phases:
+  - key: brewing
+    name_zh: 武后朝入仕
+    labels:
+      zh: 文名初显
+    start_date: 0689
+  - key: breakthrough
+    name_zh: 参预机要
+    labels:
+      zh: 居庙堂
+    start_date: '0711'
+  - key: climax
+    name_zh: 玄宗朝拜相
+    labels:
+      zh: 三秉枢政
+    start_date: '0721'
+  - key: closure
+    name_zh: 身后荣赠
+    labels:
+      zh: 赠太师
+    start_date: '0731'
+  decisions:
+  - date: '0721'
+    title_zh: 再度拜相辅政
+    rationale: 以文才政干为玄宗倚重
+- id: guji-张说-endeavor-2
+  name_zh: 文章典册
+  phases:
+  - key: brewing
+    name_zh: 以文鸣世
+    labels:
+      zh: 属文著述
+    start_date: '0700'
+  - key: climax
+    name_zh: 承旨制诰
+    labels:
+      zh: 朝廷典册属之
+    start_date: '0713'
+  decisions:
+  - date: '0713'
+    title_zh: 专典诏诰文册
+    rationale: 因文章之名承命朝廷典册
+events:
+- id: guji-张说-event-birth
+  type: birth
+  title_zh: 张说生
+  date: '0667'
+  date_precision: year
+  year_of: 667
+- id: guji-张说-event-career-1
+  type: career
+  title_zh: 玄宗朝拜相秉政
+  date: '0721'
+  date_precision: year
+  year_of: 721
+- id: guji-张说-event-career-2
+  type: career
+  title_zh: 承旨撰制朝廷典册
+  date: '0713'
+  date_precision: year
+  year_of: 713
+- id: guji-张说-event-honor-1
+  type: honor
+  title_zh: 追赠太师诏
+  date: '0731'
+  date_precision: year
+  year_of: 731
+  note: 《唐大诏令集》载“张说赠太师”诸诏
+- id: guji-张说-event-death
+  type: death
+  title_zh: 张说卒
+  date: '0731'
+  date_precision: year
+  year_of: 731
