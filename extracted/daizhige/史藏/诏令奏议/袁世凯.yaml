@@ -1,0 +1,112 @@
+person:
+  qid: guji-袁世凯
+  name_zh: 袁世凯
+  names:
+    zh: 袁世凯
+    en: Yuan Shikai
+  lifespan:
+    birth:
+      date: '1859-09-16'
+      precision: day
+      is_circa: false
+      raw: 咸丰九年
+    death:
+      date: '1916-06-06'
+      precision: day
+      is_circa: false
+  birth_date: '1859-09-16'
+  death_date: '1916-06-06'
+  era: 晚清民国
+  reign_ref: 光绪帝在位期间任山东巡抚，人称项城宫保
+  archetype: 封疆大吏
+  dilemmas:
+  - 义和团时期剿办拳匪与保护教民之间的危局权衡
+  - 议结教案时抚恤教民、严惩拳党与抑制奸棍借端勒诈的两难
+  lesson: 抚绥地方须先事防范、随事严办，方能消患于无形而保全大局
+  summary_first_person: 我在山东巡抚任上严惩拳党、议结教案、创办学堂，整顿吏治保卫教民洋商，时称项城宫保，各方禀陈教案拳祸诸事多蒙我批复允准，一时莠民奸棍借拳祸吓诈、借学堂渔利者皆被我严令禁革。
+endeavors:
+- id: guji-袁世凯-endeavor-1
+  name_zh: 抚东理民
+  phases:
+  - key: brewing
+    name_zh: 莅任山东
+    labels:
+      zh:
+      - 任东抚
+      - 议结教案
+    start_date: '1899-01-01'
+  - key: climax
+    name_zh: 剿拳保教
+    labels:
+      zh:
+      - 严惩拳党
+      - 抚恤教民
+    start_date: '1900-04-01'
+    highlight_event_id: guji-袁世凯-event-2
+  - key: closure
+    name_zh: 振兴学堂
+    labels:
+      zh:
+      - 创办学堂
+      - 消患无形
+    start_date: '1901-05-01'
+    highlight_event_id: guji-袁世凯-event-4
+  decisions:
+  - date: '1900-04-01'
+    title_zh: 批饬查办邮政局司事借端讹索案
+    rationale: 司帐只管收发信件，何得屡次藉端滋事讹索陋规，限半月内另换妥人，逾限即拿解省讯惩，免滋巨祸而安民心
+  - date: '1900-06-15'
+    title_zh: 六百里排单函谕剿办土匪保护洋商教士
+    rationale: 防患未萌、保全大局，勿稍涉游移致滋贻误
+  - date: '1901-05-01'
+    title_zh: 议结教案严惩拳党并创办学堂
+    rationale: 抚恤教民、严惩拳党不遗余力，振兴学堂不容地方官稍有遏折，以支持危局而安地方
+events:
+- id: guji-袁世凯-event-birth
+  type: birth
+  date: '1859-09-16'
+  year_of: 1859
+  summary_zh: 袁世凯生于河南项城。
+  place_zh: 河南项城
+  source_refs:
+  - guji-袁世凯-endeavor-1
+- id: guji-袁世凯-event-1
+  type: career
+  date: '1900-04-01'
+  year_of: 1900
+  summary_zh: 光绪庚子四月，莱阳知县庄纶裔禀报邮政局司事赵实丰纵局差捉赌讹财，我批饬函嘱英人卜尼司限半月另换妥人接管，并将司帐提案质讯按律拟办。
+  role_zh: 山东巡抚（抚宪袁）
+  source_refs:
+  - guji-袁世凯-endeavor-1
+- id: guji-袁世凯-event-2
+  type: career
+  date: '1900-06-15'
+  year_of: 1900
+  summary_zh: 庚子六月，我以六百里排单两次函谕所属州县遵旨剿办土匪乱民、保护洋商教士，勿稍游移，并嘱劝禁民人习拳。
+  role_zh: 山东巡抚（抚宪袁）
+  source_refs:
+  - guji-袁世凯-endeavor-1
+- id: guji-袁世凯-event-3
+  type: career
+  date: '1901-03-15'
+  year_of: 1901
+  summary_zh: 辛丑春夏东省教案议结之际，平度教民冷受谦越境敛钱讹诈莱民，我主张惩办借拳祸吓诈奸棍，地方官禀明情形颇蒙我激赏，地方因以平靖。
+  role_zh: 项城宫保、山东巡抚
+  source_refs:
+  - guji-袁世凯-endeavor-1
+- id: guji-袁世凯-event-4
+  type: career
+  date: '1901-05-01'
+  year_of: 1901
+  summary_zh: 我任东抚期间抚恤教民、严惩拳党不遗余力，并创办学堂、提倡振兴新学，不容地方官稍有遏抑莠民奸棍借学堂渔利之行。
+  role_zh: 山东巡抚（项城宫保）
+  source_refs:
+  - guji-袁世凯-endeavor-1
+- id: guji-袁世凯-event-death
+  type: death
+  date: '1916-06-06'
+  year_of: 1916
+  summary_zh: 袁世凯卒。
+  place_zh: 北京
+  source_refs:
+  - guji-袁世凯-endeavor-1
