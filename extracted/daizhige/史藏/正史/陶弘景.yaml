@@ -1,0 +1,103 @@
+person:
+  qid: guji-陶弘景
+  name_zh: 陶弘景
+  names:
+    zh: 陶弘景
+    en: Tao Hongjing
+  lifespan:
+    birth:
+      date: '0456'
+      precision: year
+      is_circa: true
+      raw: 生年史载缺详
+    death:
+      date: '0536'
+      precision: year
+      is_circa: true
+  birth_date: '0456'
+  death_date: '0536'
+  era: 南朝宋齐梁之际
+  reign_ref: 齐永明、延兴年间见载
+  archetype: 隐逸学者
+  dilemmas:
+  - 出仕侍读与归隐山林之间的抉择
+  - 超度亡故弟子幼主与守密不言之义
+  lesson: 淡于名利，隐而修学，于梦中哀情见其仁厚。
+  summary_first_person: 我早年为诸王侍读，后辞世务隐居山中山林。宜都王萧铿幼年时我随侍八年有余，情谊甚笃；其遇害后，我梦其来别，遣使访验果符，因著梦记以志。
+  source_urls:
+  - https://zh.wikisource.org/wiki/南史卷四十四
+endeavors:
+- id: guji-陶弘景-endeavor-1
+  name_zh: 侍读诸王
+  phases:
+  - key: brewing
+    name_zh: 入府侍读
+    labels:
+      zh:
+      - 出仕
+      - 侍读
+    start_date: 0483
+    highlight_event_id: guji-陶弘景-event-serve-1
+  - key: closure
+    name_zh: 辞隐山中
+    labels:
+      zh:
+      - 归隐
+    start_date: 0492
+    highlight_event_id: guji-陶弘景-event-hermit
+  decisions:
+  - date: 0492
+    title_zh: 弃官归隐
+    rationale: 不乐世务，遂往山中修道著述。
+- id: guji-陶弘景-endeavor-2
+  name_zh: 著述记梦
+  phases:
+  - key: breakthrough
+    name_zh: 梦记宜都王
+    labels:
+      zh:
+      - 著述
+      - 梦记
+    start_date: 0498
+    highlight_event_id: guji-陶弘景-event-dream
+  decisions:
+  - date: 0498
+    title_zh: 著梦记
+    rationale: 访验梦中亡者之言果与事符，乃笔之于书。
+events:
+- id: guji-陶弘景-event-birth
+  date: '0456'
+  year_of: 456
+  type: birth
+  refs:
+  - guji-陶弘景
+- id: guji-陶弘景-event-serve-1
+  date: 0483
+  year_of: 483
+  type: endeavor
+  refs:
+  - guji-陶弘景-endeavor-1
+  title_zh: 为宜都王萧铿侍读
+  text_zh: 铿出合时年七岁，陶弘景为侍读，八九年中，甚相接遇。
+- id: guji-陶弘景-event-hermit
+  date: 0492
+  year_of: 492
+  type: endeavor
+  refs:
+  - guji-陶弘景-endeavor-1
+  title_zh: 隐居山中
+  text_zh: 后弘景隐山，绝离世务。
+- id: guji-陶弘景-event-dream
+  date: 0498
+  year_of: 498
+  type: endeavor
+  refs:
+  - guji-陶弘景-endeavor-2
+  title_zh: 梦见萧铿惨然言别
+  text_zh: 忽梦铿来，惨然言别，云某日命过，后三年当生某家；觉后遣信参访，果与事符同，弘景因著梦记。
+- id: guji-陶弘景-event-death
+  date: '0536'
+  year_of: 536
+  type: death
+  refs:
+  - guji-陶弘景

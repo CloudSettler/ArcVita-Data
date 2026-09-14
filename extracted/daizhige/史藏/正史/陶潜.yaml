@@ -1,0 +1,125 @@
+person:
+  qid: guji-taoqian
+  name_zh: 陶潜
+  names:
+    zh: 陶潜
+    en: Tao Qian
+  lifespan:
+    birth:
+      date: '0365'
+      precision: year
+      is_circa: true
+      raw: 约东晋兴宁三年（365）
+    death:
+      date: '0427'
+      precision: year
+      is_circa: true
+      raw: 约南朝宋元嘉四年（427）
+  birth_date: '0365'
+  death_date: '0427'
+  era: 东晋
+  reign_ref: 晋
+  archetype: 隐逸诗人
+  dilemmas:
+  - 出仕谋生与归隐守节的抉择
+  - 不为五斗米折腰与家族生计的冲突
+  lesson: 不为五斗米折腰，守拙归园田，德泽荫及后胤
+  summary_first_person: 我陶潜，一名渊明，弃官归隐，以田园诗名世；后世梁代江州刺史萧秀闻我曾孙被用为里司，叹"陶潜之德，岂可不及后胤"，即日辟其为西曹，足见我高洁之名泽被子孙。
+  source_urls:
+  - https://zh.wikisource.org/wiki/南史/卷52
+endeavors:
+- id: guji-taoqian-endeavor-1
+  key_person: guji-taoqian
+  name_zh: 仕宦生涯与归隐抉择
+  phases:
+  - key: brewing
+    name_zh: 初仕州郡
+    labels:
+      zh: 出仕州郡
+    start_date: 0393
+    highlight_event_id: guji-taoqian-event-appoint
+  - key: breakthrough
+    name_zh: 彭泽之任
+    labels:
+      zh: 出任彭泽令
+    start_date: '0405'
+    highlight_event_id: guji-taoqian-event-resign
+  - key: closure
+    name_zh: 归园田居
+    labels:
+      zh: 弃官归隐
+    start_date: '0406'
+    highlight_event_id: guji-taoqian-event-resign
+  decisions:
+  - date: '0405'
+    title_zh: 辞彭泽令，不为五斗米折腰
+    rationale: 耻为督邮折腰，遂解印绶去职，赋《归去来兮辞》以明志
+- id: guji-taoqian-endeavor-2
+  key_person: guji-taoqian
+  name_zh: 田园诗文创作
+  phases:
+  - key: brewing
+    name_zh: 归田吟咏
+    labels:
+      zh: 饮酒写怀
+    start_date: '0406'
+    highlight_event_id: guji-taoqian-event-poetry
+  - key: climax
+    name_zh: 桃花源之想
+    labels:
+      zh: 寄意世外
+    start_date: '0420'
+    highlight_event_id: guji-taoqian-event-poetry
+  - key: closure
+    name_zh: 名传后世
+    labels:
+      zh: 高德及后
+    start_date: '0514'
+    highlight_event_id: guji-taoqian-event-descendant
+  decisions:
+  - date: '0420'
+    title_zh: 作《桃花源记》
+    rationale: 乱世之中寄理想于世外，寄托安贫乐道之志
+events:
+- id: guji-taoqian-event-birth
+  person: guji-taoqian
+  kind: birth
+  date: '0365'
+  year_of: 365
+  name_zh: 陶潜出生
+  summary: 陶潜约于东晋兴宁三年（365）出生，浔阳柴桑人。
+- id: guji-taoqian-event-appoint
+  person: guji-taoqian
+  kind: endeavor
+  date: 0393
+  year_of: 393
+  name_zh: 初入仕途
+  summary: 陶潜早年出仕，为州郡职任，始于耕仕之间的人生抉择。
+- id: guji-taoqian-event-resign
+  person: guji-taoqian
+  kind: endeavor
+  date: '0405'
+  year_of: 405
+  name_zh: 辞官彭泽令
+  summary: 陶潜任彭泽令仅八十余日，耻为五斗米折腰，遂弃官归隐。
+- id: guji-taoqian-event-poetry
+  person: guji-taoqian
+  kind: endeavor
+  date: '0420'
+  year_of: 420
+  name_zh: 著田园诗文
+  summary: 归隐后陶潜作《归去来兮辞》《饮酒》《桃花源记》等，开田园诗风。
+- id: guji-taoqian-event-descendant
+  person: guji-taoqian
+  kind: endeavor
+  date: '0514-01-01'
+  year_of: 514
+  name_zh: 萧秀感其德而优遇其曾孙
+  summary: 梁江州刺史萧秀到州，闻前刺史取征士陶潜曾孙为里司，叹曰"陶潜之德，岂可不及后胤"，即日辟为西曹。
+- id: guji-taoqian-event-death
+  person: guji-taoqian
+  kind: death
+  date: '0427'
+  year_of: 427
+  name_zh: 陶潜去世
+  summary: 陶潜约于南朝宋元嘉四年（427）卒，世称靖节先生。

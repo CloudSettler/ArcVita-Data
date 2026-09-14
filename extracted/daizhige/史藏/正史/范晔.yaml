@@ -1,0 +1,134 @@
+person:
+  qid: guji-范晔
+  name_zh: 范晔
+  names:
+    zh: 范晔
+    en: Fan Ye
+  lifespan:
+    birth:
+      date: '398'
+      precision: year
+      is_circa: true
+      raw: 约398年
+    death:
+      date: 445-12
+      precision: month
+      is_circa: false
+      raw: 元嘉二十二年冬十二月乙未（445年末）
+  birth_date: '398'
+  era: 南朝宋（刘宋）
+  reign_ref: 宋文帝元嘉年间
+  archetype: 史学家·朝廷近臣
+  dilemmas:
+  - 以私撰《后汉书》寄托史识与抱负，却身处元嘉政治漩涡
+  - 卷入密谋废立、拥戴彭城王义康之事，终致族诛
+  lesson: 治史可垂世千年，立身一失则身名俱殒。
+  summary_first_person: 我范晔，出身顺阳范氏，官至太子詹事。平生以撰《后汉书》自任，欲以一家之史裁量东汉人物。元嘉二十二年，我因牵连谋立彭城王义康事泄，与党与俱伏诛，年仅四十八，书未竟而志不逮。
+endeavors:
+- id: guji-范晔-endeavor-1
+  name_zh: 私撰《后汉书》
+  phases:
+  - key: brewing
+    name_zh: 立志修史
+    labels:
+      zh: 任家居闲职时发愤著书
+    start_date: '432'
+    highlight_event_id: guji-范晔-event-新史草创
+  - key: breakthrough
+    name_zh: 成纪传主体
+    labels:
+      zh: 十纪、八十列传撰成
+    start_date: '438'
+    highlight_event_id: guji-范晔-event-书稿大成
+  - key: closure
+    name_zh: 身死书阙
+    labels:
+      zh: 十志未竟而被诛，后人以司马彪志补之
+    start_date: '445'
+    highlight_event_id: guji-范晔-event-death
+  decisions:
+  - date: '432'
+    title_zh: 弃史职而独创后汉一家之史
+    rationale_zh: 不满前人诸家后汉史之鄙俗，欲以文辞与史见自成一书。
+  - date: '445'
+    title_zh: 卷入拥立彭城王义康之谋
+    rationale_zh: 受孔熙先等游说为外甥谢综所引，遂与密谋，事泄被诛。
+- id: guji-范晔-endeavor-2
+  name_zh: 仕历太子詹事
+  phases:
+  - key: brewing
+    name_zh: 历任地方与朝职
+    labels:
+      zh: 由秘书丞、新蔡太守渐升至朝列
+    start_date: '420'
+  - key: climax
+    name_zh: 入为太子詹事
+    labels:
+      zh: 掌东宫事务，居储君近臣之位
+    start_date: '440'
+  - key: closure
+    name_zh: 免官复用而谋逆见诛
+    labels:
+      zh: 元嘉二十二年冬十二月伏诛
+    start_date: '445'
+    highlight_event_id: guji-范晔-event-death
+  decisions:
+  - date: '440'
+    title_zh: 就任太子詹事
+    rationale_zh: 才名见知，得掌东宫文书侍从之事，位望渐隆。
+events:
+- id: guji-范晔-event-birth
+  person_qid: guji-范晔
+  original_text: 约 东晋安帝隆安二年生
+  date: '398'
+  year_of: 398
+  event_type: birth
+  location: 顺阳（今湖北，一说京兆）
+  description: 范晔约生于东晋隆安二年，顺阳范氏之后，父范泰仕晋宋两朝。
+  participants:
+  - 范晔
+- id: guji-范晔-event-新史草创
+  person_qid: guji-范晔
+  original_text: 约元嘉九年徙官后发愤著《后汉书》
+  date: '432'
+  year_of: 432
+  event_type: endeavor
+  location: 建康
+  description: 范晔约于元嘉九年因事贬宣城太守时，发愤始撰《后汉书》。
+  participants:
+  - 范晔
+- id: guji-范晔-event-书稿大成
+  person_qid: guji-范晔
+  original_text: 约成十纪、八十列传
+  date: '438'
+  year_of: 438
+  event_type: endeavor
+  location: 建康
+  description: 约元嘉十五年间，《后汉书》十纪八十列传大体完成，而十志未就。
+  participants:
+  - 范晔
+- id: guji-范晔-event-招权谋逆
+  person_qid: guji-范晔
+  original_text: 约元嘉二十一年与孔熙先等密结
+  date: '444'
+  year_of: 444
+  event_type: endeavor
+  location: 建康
+  description: 范晔为孔熙先、谢综等所引，渐与密议拥立彭城王义康，外示不预而实与之。
+  participants:
+  - 范晔
+  - 孔熙先
+  - 谢综
+- id: guji-范晔-event-death
+  person_qid: guji-范晔
+  original_text: 冬十二月乙未，太子詹事范晔谋反，及党与皆伏诛。
+  date: 445-12
+  year_of: 445
+  event_type: death
+  location: 建康
+  description: 元嘉二十二年冬十二月乙未，太子詹事范晔谋反事泄，与党与俱伏诛，族灭；《后汉书》十志遂不传。
+  participants:
+  - 范晔
+  - 宋文帝
+  - 彭城王刘义康
+source_count_upstream: 1
