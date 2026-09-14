@@ -1,0 +1,150 @@
+person:
+  qid: guji-高太后
+  name_zh: 高太后
+  names:
+    zh: 高太后
+    en: Grand Empress Dowager Gao
+  lifespan:
+    birth:
+      date: '1032'
+      precision: year
+      is_circa: true
+      raw: 约1032年
+    death:
+      date: '1093-10-12'
+      precision: day
+      is_circa: false
+      raw: 元祐八年九月
+  birth_date: '1032'
+  death_date: '1093-10-12'
+  era: 北宋
+  reign_ref: 元祐（哲宗朝垂帘听政）
+  archetype: 临朝听政的太后
+  dilemmas:
+  - - 新法存废
+    - 在哲宗年幼、神宗新法积弊与朝臣分裂之间抉择全面更化还是折中延续
+  - - 权力边界
+    - 以祖母亲政垂帘，需在维护皇权正统与不僭越帝位之间自处
+  lesson: 权柄在手而不贪位，更化务尽而慎于用人，然身后党争之祸已伏於其间
+  summary_first_person: 我是英宗皇后、神宗之母高氏。神宗崩后，哲宗年幼，我垂帘听政，起用司马光，尽废新法，史称元祐更化；我自守本分，临朝九年而不逾礼制，身后谥宣仁圣烈皇后。
+  source_urls:
+  - https://zh.wikisource.org/wiki/續資治通鑑長編拾補
+endeavors:
+- id: guji-高太后-endeavor-1
+  key: 元祐垂帘
+  name_zh: 垂帘听政
+  labels:
+    zh:
+    - 临朝称制
+    - 元祐更化
+  phases:
+  - key: brewing
+    name_zh: 帝位承继
+    labels:
+      zh:
+      - 立孙即位
+    start_date: 1085-03
+    highlight_event_id: guji-高太后-event-enthronement
+  - key: breakthrough
+    name_zh: 起用旧党
+    labels:
+      zh:
+      - 复用司马光
+    start_date: 1085-05
+    highlight_event_id: guji-高太后-event-simaguang
+  - key: climax
+    name_zh: 尽废新法
+    labels:
+      zh:
+      - 元祐更化
+    start_date: '1086'
+    highlight_event_id: guji-高太后-event-genghua
+  - key: closure
+    name_zh: 还政归天
+    labels:
+      zh:
+      - 病终去世
+    start_date: 1093-09
+    highlight_event_id: guji-高太后-event-death
+  decisions:
+  - date: '1085'
+    title_zh: 迎立神宗第六子赵熙即位
+    rationale: 神宗病笃，拥立幼子，以祖母之亲稳定皇统
+  - date: '1085'
+    title_zh: 起用司马光执政
+    rationale: 倚重旧党重臣，以更张熙宁新法、收拾人心
+  - date: '1086'
+    title_zh: 支持尽罢免役、保甲、方田等新法
+    rationale: 认为新法扰民，命司马光、吕公著以数月之内尽复祖宗旧制
+- id: guji-高太后-endeavor-2
+  key: 抑外家
+  name_zh: 谨守礼法抑制外戚
+  labels:
+    zh:
+    - 不私外家
+    - 裁抑恩赏
+  phases:
+  - key: brewing
+    name_zh: 垂帘不自用
+    labels:
+      zh:
+      - 抑高氏族
+    start_date: '1085'
+    highlight_event_id: guji-高太后-event-simaguang
+  - key: climax
+    name_zh: 却还政之议
+    labels:
+      zh:
+      - 约以还政
+    start_date: '1091'
+    highlight_event_id: guji-高太后-event-genghua
+  - key: closure
+    name_zh: 临终嘱诰
+    labels:
+      zh:
+      - 遗训告戒
+    start_date: 1093-09
+    highlight_event_id: guji-高太后-event-death
+  decisions:
+  - date: '1085'
+    title_zh: 抑制母族高氏子弟恩赏
+    rationale: 以外家不预政为家法，杜绝外戚干政之讥
+events:
+- id: guji-高太后-event-birth
+  person_id: guji-高太后
+  date: '1032'
+  year_of: 1032
+  type: birth
+  name_zh: 高氏生
+  description_zh: 高氏生，亳州蒙城（一说开封）人，后为英宗宣仁圣烈皇后。
+- id: guji-高太后-event-enthronement
+  person_id: guji-高太后
+  date: '1085-04-01'
+  year_of: 1085
+  type: endeavor_event
+  name_zh: 神宗崩，哲宗即位，高太后垂帘
+  description_zh: 神宗崩，皇太子赵熙十岁即位，太皇太后高氏垂帘听政。
+  endeavor_id: guji-高太后-endeavor-1
+- id: guji-高太后-event-simaguang
+  person_id: guji-高太后
+  date: '1085-06-05'
+  year_of: 1085
+  type: endeavor_event
+  name_zh: 起用司马光为相
+  description_zh: 诏司马光赴阙执政，太后倚其望以收拾熙宁以来之局。
+  endeavor_id: guji-高太后-endeavor-1
+- id: guji-高太后-event-genghua
+  person_id: guji-高太后
+  date: '1086'
+  year_of: 1086
+  type: endeavor_event
+  name_zh: 元祐更化，尽废新法
+  description_zh: 在太后支持下，免役、保甲、方田均税等新法相继罢废，复行祖宗旧制。
+  endeavor_id: guji-高太后-endeavor-1
+- id: guji-高太后-event-death
+  person_id: guji-高太后
+  date: '1093-10-12'
+  year_of: 1093
+  type: death
+  name_zh: 高太后崩
+  description_zh: 高太后崩，谥宣仁圣烈皇后；哲宗始得亲政，绍圣绍述随之而起。
