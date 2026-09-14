@@ -1,0 +1,128 @@
+person:
+  qid: guji-杨皇后
+  name_zh: 杨皇后
+  names:
+    zh: 杨皇后、杨桂枝、恭圣仁烈杨皇后
+    en: Empress Yang
+  lifespan:
+    birth:
+      date: '1162'
+      precision: year
+      is_circa: true
+      raw: 约绍兴三十二年
+    death:
+      date: '1233'
+      precision: year
+      is_circa: false
+      raw: 嘉定六年绍定六年卒
+  birth_date: '1162'
+  death_date: '1233'
+  era: 南宋
+  reign_ref: 宋宁宗、宋理宗朝
+  archetype: 后宫与外朝枢纽型政治人物
+  dilemmas:
+  - 韩侂胄专权，杀与不杀之间须联史弥远定策
+  - 宁宗崩后储位 unsettled，废济王而立理宗之抉择
+  lesson: 势弱者以隐忍与结盟成大事，然定策废立亦埋下祸根
+  summary_first_person: 我是南宋宁宗皇后杨氏，出身低微而终登中宫。韩侂胄窃权跋扈，我与史弥远合谋，诛之于玉津园侧，朝局为之一新。宁宗崩后，我从史弥远之议，废皇子竑而立与莒，是为理宗，此后垂帘称制多年，虽稳定朝局，亦为济王之死留下争议之名。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/恭圣仁烈杨皇后
+endeavors:
+- id: guji-杨皇后-endeavor-1
+  key_event: '由宫人累进至皇后，.cid
+
+    '
+  name_zh: 入宫与册后
+  phases:
+  - key: brewing
+    name_zh: 初入慈福宫
+    labels:
+      zh: 宫人、才人
+    start_date: '1190'
+  - key: breakthrough
+    name_zh: 嘉泰册后
+    labels:
+      zh: 立皇后
+    start_date: 1202-12
+    highlight_event_id: guji-杨皇后-event-sh册后
+  - key: climax
+    name_zh: 密谋诛韩
+    labels:
+      zh: 联史弥远
+    start_date: '1207'
+    highlight_event_id: guji-杨皇后-event-zhuhanchujian
+  - key: closure
+    name_zh: 定策垂帘
+    labels:
+      zh: 废立与垂帘
+    start_date: '1224'
+    highlight_event_id: guji-杨皇后-event-lixizong
+  decisions:
+  - date: 1207-11
+    title_zh: 助史弥远诛韩侂胄
+    rationale: 韩专权误国，北伐败绩，与其隐忍受制，不如借机清君侧
+  - date: 1224-08
+    title_zh: 赞成废济王竑立理宗
+    rationale: 赵竑怨望深、失宗社之托；史弥远主谋，我以中宫之命成其事
+- id: guji-杨皇后-endeavor-2
+  name_zh: 垂帘称制与护持幼帝
+  phases:
+  - key: brewing
+    name_zh: 宁宗 fallout 之后宫掌印
+    labels:
+      zh: 中宫参政
+    start_date: '1200'
+  - key: breakthrough
+    name_zh: 尊为太后垂帘
+    labels:
+      zh: 内廷决策
+    start_date: 1224-09
+    highlight_event_id: guji-杨皇后-event-lixizong
+  - key: climax
+    name_zh: 嘉定绍定间扶保朝纲
+    labels:
+      zh: 称制训政
+    start_date: '1225'
+  - key: closure
+    name_zh: 绍定末归政而崩
+    labels:
+      zh: 终老慈明殿
+    start_date: '1233'
+  decisions:
+  - date: '1225'
+    title_zh: 撤帘让权于理宗渐亲政
+    rationale: 帝已成年，久垂帘恐起物议，故渐归政以安人心
+events:
+- id: guji-杨皇后-event-birth
+  date: '1162'
+  year_of: '1162'
+  type: birth
+  person: guji-杨皇后
+  description_zh: 杨氏约生于此年，后为宁宗皇后
+- id: guji-杨皇后-event-sh册后
+  date: 1202-12
+  year_of: '1202'
+  type: endeavor_highlight
+  person: guji-杨皇后
+  enterprise_id: guji-杨皇后-endeavor-1
+  description_zh: 嘉泰二年冬，册立杨氏为皇后，位正中宫
+- id: guji-杨皇后-event-zhuhanchujian
+  date: '1207-11-03'
+  year_of: '1207'
+  type: endeavor_highlight
+  person: guji-杨皇后
+  enterprise_id: guji-杨皇后-endeavor-1
+  description_zh: 密从史弥远、夏震等之谋，于韩侂胄入朝途中诛之，侂胄专权至此而终
+- id: guji-杨皇后-event-lixizong
+  date: 1224-08
+  year_of: '1224'
+  type: endeavor_highlight
+  person: guji-杨皇后
+  enterprise_id: guji-杨皇后-endeavor-1
+  description_zh: 宁宗崩，中宫定策，废皇子赵竑，迎宗室与莒即位，是为理宗
+- id: guji-杨皇后-event-death
+  date: '1233'
+  year_of: '1233'
+  type: death
+  person: guji-杨皇后
+  description_zh: 绍定六年，皇太后杨氏崩，谥恭圣仁烈

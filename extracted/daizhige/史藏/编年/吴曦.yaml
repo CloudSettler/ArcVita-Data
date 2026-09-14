@@ -1,0 +1,112 @@
+person:
+  qid: guji-吴曦
+  name_zh: 吴曦
+  names:
+    zh: 吴曦
+    en: Wu Xi
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不詳（南宋将门之后，吴璘之孙、吴挺之子）
+    death:
+      date: unknown
+      precision: unknown
+  birth_date: unknown
+  death_date: unknown
+  era: 南宋
+  reign_ref: 宋宁宗（庆元至开禧年间）
+  archetype: 将骄而叛者
+  dilemmas:
+  - 世袭将门之权与其个人野心之间的冲突
+  - 受任四川宣抚统兵与心存异志之间的矛盾
+  lesson: 世将专兵可以为国之藩篱，也可以成为割据叛乱之温床，防微杜渐尤为重要。
+  summary_first_person: 我吴曦出身西蜀将门，继吴璘、吴挺之后出jud金州兴州，开禧年间朝廷用兵，我以武将继郭杲为帅，又兼四川宣抚使，所出伪命皆假宣抚司号令行之，遂举兵反叛，四蜀皆禀承，终致身败名裂。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=4582
+endeavors:
+- id: guji-吴曦-endeavor-1
+  name_zh: 承继将帅之职
+  labels:
+    zh:
+    - 世袭武兴之权
+    - 统领西师
+  phases:
+  - key: brewing
+    name_zh: 家世渊源
+    labels:
+      zh: 将门之后
+    start_date: ''
+    highlight_event_id: guji-吴曦-event-appointment
+  - key: breakthrough
+    name_zh: 继任西路统帅
+    labels:
+      zh:
+      - 继为兴州主帅
+    start_date: ''
+    highlight_event_id: guji-吴曦-event-appointment
+  decisions:
+  - date: unknown
+    title_zh: 继郭杲为四川西路之帅
+    rationale: 世将之家久握兵权，利州分东西路后吴曦继任西路帅臣。
+- id: guji-吴曦-endeavor-2
+  name_zh: 开禧之叛
+  labels:
+    zh:
+    - 叛宋
+    - 假宣抚司号令
+  phases:
+  - key: brewing
+    name_zh: 兼四川宣抚
+    labels:
+      zh: 开禧用兵
+    start_date: ''
+  - key: climax
+    name_zh: 举兵称叛
+    labels:
+      zh:
+      - 出伪命
+      - 四蜀禀承
+    start_date: ''
+    highlight_event_id: guji-吴曦-event-rebellion
+  decisions:
+  - date: unknown
+    title_zh: 兼四川宣抚使
+    rationale: 开禧朝廷对金用兵，朝廷以曦兼四川宣抚以统辖蜀地。
+  - date: unknown
+    title_zh: 挟宣抚司号令行僭伪之令
+    rationale: 凡所出伪命尽以宣抚司号令行之，四蜀皆不敢异，遂成割据之势。
+events:
+- id: guji-吴曦-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  name_zh: 吴曦生
+  description: 吴曦生年不詳，为吴璘之孙、吴挺之子。
+  actors:
+  - guji-吴曦
+- id: guji-吴曦-event-appointment
+  event_type: endeavor
+  date: ''
+  year_of: 1205前后
+  name_zh: 吴曦继为西路帅、兼四川宣抚
+  description: 利州复分东西路后，郭杲代为帅而吴曦继之；开禧用兵，又以曦兼四川宣抚使。
+  actors:
+  - guji-吴曦
+- id: guji-吴曦-event-rebellion
+  event_type: endeavor
+  date: ''
+  year_of: 开禧年间
+  name_zh: 吴曦举兵反叛
+  description: 比曦之反，凡所出伪命尽以宣抚司号令行之，四蜀一切禀承无敢异者，直至安丙为制置大使复合利州为一路。
+  actors:
+  - guji-吴曦
+- id: guji-吴曦-event-death
+  event_type: death
+  date: unknown
+  year_of: unknown
+  name_zh: 吴曦死
+  description: 叛事终败，身死名灭。
+  actors:
+  - guji-吴曦
