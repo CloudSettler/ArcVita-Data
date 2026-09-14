@@ -1,0 +1,139 @@
+person:
+  qid: guji-伯夷
+  name_zh: 伯夷
+  names:
+    zh: 伯夷
+    en: Bo Yi
+  lifespan:
+    birth:
+      date: 约-1140
+      precision: year
+      is_circa: true
+      raw: 商末（生年不详）
+    death:
+      date: 约-1070
+      precision: year
+      is_circa: true
+      raw: 商末周初，饿死于首阳山
+  birth_date: 约-1140
+  death_date: 约-1070
+  era: 商末周初（殷周之际）
+  reign_ref: 殷纣王、周武王
+  archetype: 清节隐士
+  dilemmas:
+  - 让国出走而失孤竹储君之位
+  - 扣马谏伐而忠于将亡之殷
+  - 耻食周粟而宁饿死于首阳
+  lesson: 义不食周粟，求仁而得仁，虽饿死而名垂后世
+  summary_first_person: 我是孤竹君长子伯夷，让位于弟叔齐而出走；闻西伯善养老而归之，及武王伐纣，我叩马而谏；殷亡后耻食周粟，隐于首阳山，采薇而食，遂饿死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷061
+  - https://zh.wikisource.org/wiki/史記/卷130
+endeavors:
+- id: guji-伯夷-endeavor-1
+  name_zh: 让国出走
+  labels:
+    zh: 孝悌让国
+  phases:
+  - key: brewing
+    name_zh: 孤竹世子
+    labels:
+      zh: 孤竹长子
+    start_date: 约-1150
+  - key: breakthrough
+    name_zh: 让国奔逃
+    labels:
+      zh: 让位出逃
+    start_date: 约-1130
+    highlight_event_id: guji-伯夷-event-yield
+  decisions:
+  - date: 约-1130
+    title_zh: 让位于叔齐
+    rationale: 父欲立叔齐，伯夷顺父意辞让而出走，以全孝悌之义
+- id: guji-伯夷-endeavor-2
+  name_zh: 归养老与谏伐
+  labels:
+    zh: 归周谏武
+  phases:
+  - key: brewing
+    name_zh: 闻西伯养老
+    labels:
+      zh: 就养西岐
+    start_date: 约-1100
+    highlight_event_id: guji-伯夷-event-gui-zhou
+  - key: climax
+    name_zh: 叩马而谏
+    labels:
+      zh: 谏阻伐纣
+    start_date: 约-1046
+    highlight_event_id: guji-伯夷-event-jianma
+  decisions:
+  - date: 约-1046
+    title_zh: 扣马谏武王
+    rationale: 以为父死不葬而争利，以臣弑君不合仁孝，故拦马直谏
+- id: guji-伯夷-endeavor-3
+  name_zh: 隐居首阳
+  labels:
+    zh: 求仁饿死
+  phases:
+  - key: climax
+    name_zh: 耻食周粟
+    labels:
+      zh: 采薇首阳
+    start_date: 约-1045
+    highlight_event_id: guji-伯夷-event-shouyang
+  - key: closure
+    name_zh: 饿死于首阳
+    labels:
+      zh: 殉仁而终
+    start_date: 约-1044
+    highlight_event_id: guji-伯夷-event-death
+  decisions:
+  - date: 约-1045
+    title_zh: 隐于首阳采薇
+    rationale: 耻食周粟，坚持其义，采薇度日终至饿死
+events:
+- id: guji-伯夷-event-birth
+  date: 约-1140
+  year_of: -1140
+  type: birth
+  name_zh: 伯夷生
+  detail: 孤竹君长子，商末诸侯之后
+- id: guji-伯夷-event-yield
+  date: 约-1130
+  year_of: -1130
+  type: endeavor
+  endeavor_id: guji-伯夷-endeavor-1
+  phase: breakthrough
+  name_zh: 让位叔齐出逃
+  detail: 父欲立叔齐，及父卒，叔齐让伯夷，伯夷曰父命也，遂逃去
+- id: guji-伯夷-event-gui-zhou
+  date: 约-1100
+  year_of: -1100
+  type: endeavor
+  endeavor_id: guji-伯夷-endeavor-2
+  phase: brewing
+  name_zh: 闻西伯善养老而归之
+  detail: 闻西伯昌善养老，盍往归焉，与叔齐投周
+- id: guji-伯夷-event-jianma
+  date: 约-1046
+  year_of: -1046
+  type: endeavor
+  endeavor_id: guji-伯夷-endeavor-2
+  phase: climax
+  name_zh: 叩马谏武王伐纣
+  detail: 武王载木主东伐纣，伯夷叔齐叩马而谏，武王左右欲兵之，太公曰义人也，扶而去之
+- id: guji-伯夷-event-shouyang
+  date: 约-1045
+  year_of: -1045
+  type: endeavor
+  endeavor_id: guji-伯夷-endeavor-3
+  phase: climax
+  name_zh: 隐首阳采薇而食
+  detail: 武王平殷后有天下，伯夷耻之，义不食周粟，隐于首阳山采薇而食
+- id: guji-伯夷-event-death
+  date: 约-1044
+  year_of: -1044
+  type: death
+  name_zh: 饿死于首阳山
+  detail: 薇亦将至饿死，作歌曰登彼西山兮采其薇矣，遂饿死首阳山

@@ -1,0 +1,87 @@
+person:
+  qid: guji-燕召公
+  name_zh: 燕召公
+  names:
+    zh: 燕召公
+    en: Duke Shao of Yan
+  lifespan:
+    birth:
+      date: '-1100'
+      precision: year
+      is_circa: true
+      raw: 约西周初年
+  era: 西周初年
+  reign_ref: 周武王、成王、康王之世
+  archetype: 开国宗室贤侯
+  lesson: 与周公分陕而治，勤政爱民，甘棠遗爱
+  summary_first_person: 我是召公奭，受封于燕，与周公分陕而治，决狱于甘棠之下，惠泽百姓，世称贤侯。
+endeavors:
+- id: guji-燕召公-endeavor-1
+  name_zh: 受封建燕
+  phases:
+  - key: brewing
+    name_zh: 佐武王克商
+    labels:
+      zh: 辅佐王业
+    start_date: '-1046'
+    highlight_event_id: guji-燕召公-event-1
+  - key: breakthrough
+    name_zh: 受封北燕
+    labels:
+      zh: 开国封燕
+    start_date: '-1045'
+    highlight_event_id: guji-燕召公-event-2
+  decisions:
+  - date: '-1045'
+    title_zh: 就封北燕
+    rationale: 以宗室之亲镇抚北方，屏障周室
+- id: guji-燕召公-endeavor-2
+  name_zh: 分陕而治
+  phases:
+  - key: climax
+    name_zh: 与周公分陕
+    labels:
+      zh: 陕东陕西
+    start_date: '-1043'
+    highlight_event_id: guji-燕召公-event-3
+  - key: closure
+    name_zh: 甘棠听政
+    labels:
+      zh: 勤政遗爱
+    start_date: '-1042'
+    highlight_event_id: guji-燕召公-event-4
+  decisions:
+  - date: '-1043'
+    title_zh: 左右分治
+    rationale: 周公主陕东，召公主陕西，以安天下
+events:
+- id: guji-燕召公-event-birth
+  date: '-1100'
+  year_of: -1100
+  title_zh: 召公奭生（约）
+  kind: birth
+- id: guji-燕召公-event-1
+  date: '-1046'
+  year_of: -1046
+  title_zh: 佐武王灭商，封于燕
+  kind: endeavor
+- id: guji-燕召公-event-2
+  date: '-1045'
+  year_of: -1045
+  title_zh: 立国北燕，为燕国始祖
+  kind: endeavor
+- id: guji-燕召公-event-3
+  date: '-1043'
+  year_of: -1043
+  title_zh: 与周公分陕而治
+  kind: endeavor
+- id: guji-燕召公-event-4
+  date: '-1042'
+  year_of: -1042
+  title_zh: 巡行乡邑，决狱甘棠之下
+  kind: endeavor
+- id: guji-燕召公-event-death
+  date: '-1000'
+  year_of: -1000
+  title_zh: 燕召公卒（约）
+  kind: death

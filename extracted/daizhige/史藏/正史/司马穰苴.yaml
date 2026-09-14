@@ -1,0 +1,96 @@
+person:
+  qid: guji-司马穰苴
+  name_zh: 司马穰苴
+  names:
+    zh: 田穰苴
+    en: Sima Rangju
+  lifespan:
+    birth:
+      date: -560
+      precision: year
+      is_circa: true
+      raw: 春秋末期，约齐景公时
+    death:
+      date: -500
+      precision: year
+      is_circa: true
+  era: 春秋
+  reign_ref: 齐景公
+  archetype: 军事家
+  dilemmas:
+  - 出身低微受人轻视与担任元帅统御大军之外压
+  - 法斩监军宠臣庄贾与国君求情之间的军法人情冲突
+  lesson: 治军以法为本，虽君命有所不受
+  summary_first_person: 我田穰苴出身微贱，蒙晏婴荐于齐景公而任将军。监军庄贾失期，我依军法斩之，遂振军威。率兵击退晋燕之师，拜大司马。后遭鲍氏、高国之谗，失位发疾而卒。后世以司马之法名我，传兵法于世。
+  source_urls:
+  - http://www.example.com/shiji-64
+endeavors:
+- id: guji-司马穰苴-endeavor-1
+  name_zh: 治军御敌
+  phases:
+  - key: brewing
+    name_zh: 微贱受荐
+    labels:
+      zh:
+      - 出仕
+    start_date: -553
+    highlight_event_id: guji-司马穰苴-event-appointment
+  - key: breakthrough
+    name_zh: 立威整军
+    labels:
+      zh:
+      - 军法
+    start_date: -552
+    highlight_event_id: guji-司马穰苴-event-beheading
+  - key: climax
+    name_zh: 却晋燕之师
+    labels:
+      zh:
+      - 领兵
+    start_date: -551
+    highlight_event_id: guji-司马穰苴-event-victory
+  - key: closure
+    name_zh: 遭谗失位
+    labels:
+      zh:
+      - 罢黜
+    start_date: -548
+    highlight_event_id: guji-司马穰苴-event-death
+  decisions:
+  - date: -552
+    title_zh: 军法斩庄贾
+    rationale: 期而后至，军法当斩，以此立军威
+  - date: -552
+    title_zh:vote: 收军行不苛士卒
+    rationale: 与士卒分粮疾药，亲抚将士以固军心
+events:
+- id: guji-司马穰苴-event-birth
+  person_id: guji-司马穰苴
+  type: birth
+  date: -560
+  year_of: -560
+  title_zh: 田穰苴生于齐
+- id: guji-司马穰苴-event-appointment
+  person_id: guji-司马穰苴
+  type: endeavor
+  date: -553
+  year_of: -553
+  title_zh: 晏婴荐穰苴于齐景公，任将军拒晋燕
+- id: guji-司马穰苴-event-beheading
+  person_id: guji-司马穰苴
+  type: endeavor
+  date: -552
+  year_of: -552
+  title_zh: 军法斩监军庄贾
+- id: guji-司马穰苴-event-victory
+  person_id: guji-司马穰苴
+  type: endeavor
+  date: -551
+  year_of: -551
+  title_zh: 率师击退晋燕之兵，封大司马
+- id: guji-司马穰苴-event-death
+  person_id: guji-司马穰苴
+  type: death
+  date: -500
+  year_of: -500
+  title_zh: 遭谗失位病卒

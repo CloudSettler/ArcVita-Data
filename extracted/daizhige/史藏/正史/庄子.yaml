@@ -1,0 +1,127 @@
+person:
+  qid: guji-庄子
+  name_zh: 庄子
+  names:
+    zh: 庄子
+    en: Zhuangzi
+  lifespan:
+    birth:
+      date: -369
+      precision: year
+      is_circa: true
+      raw: 约公元前369年
+    death:
+      date: -286
+      precision: year
+      is_circa: true
+      raw: 约公元前286年
+  birth_date: -369
+  death_date: -286
+  era: 战国
+  reign_ref: 楚威王时期
+  archetype: 道家思想家
+  dilemmas:
+  - 楚威王以厚币迎其为相，庄周笑而拒之，宁曳尾于涂中以求逍遥
+  lesson: 淡泊名利，追求精神自由与逍遥游
+  summary_first_person: 我是蒙人庄周，曾为漆园吏，楚威王欲以相位聘我，我笑而拒之，宁守贫贱而逍遥于天地之间，著书以明道家之旨。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/庄子
+endeavors:
+- id: guji-庄子-endeavor-1
+  key: thought
+  name_zh: 著《庄子》明道家之旨
+  phases:
+  - key: brewing
+    name_zh: 宋国蒙地求学为吏
+    labels:
+      zh:
+      - 漆园吏
+    start_date: -340
+  - key: breakthrough
+    name_zh: 著书立说
+    labels:
+      zh:
+      - 消遥游
+      - 齐物论
+    start_date: -330
+    highlight_event_id: guji-庄子-event-works
+  - key: climax
+    name_zh: 名声渐起
+    labels:
+      zh:
+      - 齐楚交聘
+    start_date: -320
+  - key: closure
+    name_zh: 终老著述
+    labels:
+      zh:
+      - 抱道终身
+    start_date: -300
+  decisions:
+  - date: -325
+    title_zh: 拒绝楚相之聘
+    rationale: 宁游戏污渎之中自快，无为有国者所羁
+- id: guji-庄子-endeavor-2
+  key: life
+  name_zh: 处世交游
+  phases:
+  - key: brewing
+    name_zh: 与惠施游
+    labels:
+      zh:
+      - 濠梁之辩
+    start_date: -330
+    highlight_event_id: guji-庄子-event-huizi
+  - key: climax
+    name_zh: 讥评天下
+    labels:
+      zh:
+      - 诋訿孔子之徒
+    start_date: -315
+  - key: closure
+    name_zh: 隐居终老
+    labels:
+      zh:
+      - 终身不仕
+    start_date: -300
+  decisions:
+  - date: -328
+    title_zh: 终身不仕
+    rationale: 不为万乘之主所羁，以快吾志
+events:
+- id: guji-庄子-event-birth
+  title_zh: 庄子生于宋国蒙
+  date: -369
+  year_of: -369
+  kind: birth
+  note: 名周，蒙人，尝为漆园吏
+- id: guji-庄子-event-office
+  title_zh: 任漆园吏
+  date: -340
+  year_of: -340
+  kind: endeavor
+  note: 尝为漆园吏，与梁惠王、齐宣王同时
+- id: guji-庄子-event-works
+  title_zh: 著书十余万言
+  date: -330
+  year_of: -330
+  kind: endeavor
+  note: 其学无所不闚，然要本归于老子之言，以诋訿孔子之徒、明老子之术
+- id: guji-庄子-event-refuse-chu
+  title_zh: 拒绝楚威王相位之聘
+  date: -325
+  year_of: -325
+  kind: decision
+  note: 楚威王闻庄周贤，使使厚币迎之，许以为相；庄周笑谓使者宁为曳尾涂中之龟
+- id: guji-庄子-event-huizi
+  title_zh: 与惠施论学交游
+  date: -320
+  year_of: -320
+  kind: endeavor
+  note: 惠施多方，与庄子相与辩论，濠梁鱼乐之辨传为佳话
+- id: guji-庄子-event-death
+  title_zh: 庄子卒
+  date: -286
+  year_of: -286
+  kind: death
+  note: 终身不仕，以快其志

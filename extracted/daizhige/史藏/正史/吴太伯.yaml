@@ -1,0 +1,129 @@
+person:
+  qid: guji-吴太伯
+  name_zh: 吴太伯
+  names:
+    zh: 吴太伯
+    en: Wu Taibo
+  lifespan:
+    birth:
+      date: '-1200'
+      precision: era
+      is_circa: true
+      raw: 商末（约公元前十二世纪）
+    death:
+      date: '-1100'
+      precision: era
+      is_circa: true
+      raw: 约商末周初
+  birth_date: '-1200'
+  death_date: '-1100'
+  era: 商末周初
+  reign_ref: 周太王古公亶父长子，吴国始祖
+  archetype: 让德之君
+  dilemmas:
+  - 长子继承权与遵父传贤遗志之间的抉择
+  - 守宗庙之孝与出走荆蛮之义的冲突
+  lesson: 三以天下让，成全父志而开国之基，让德至矣
+  summary_first_person: 我是古公亶父长子太伯。父亲欲传位于三弟季历以传昌（文王），我与仲雍断发文身，逃奔荆蛮，文身以示不可用，本地人义而从之者千余家，立为吴太伯，开创吴国。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷031
+endeavors:
+- id: guji-吴太伯-endeavor-1
+  name_zh: 让国奔吴
+  phases:
+  - key: brewing
+    name_zh: 知父欲传季历
+    labels:
+      zh: 观志
+    start_date: '-1150'
+    highlight_event_id: guji-吴太伯-event-retreat
+  - key: breakthrough
+    name_zh: 奔荆蛮断发文身
+    labels:
+      zh: 让位出走
+    start_date: '-1145'
+    highlight_event_id: guji-吴太伯-event-retreat
+  - key: climax
+    name_zh: 归者千余家立为吴太伯
+    labels:
+      zh: 立国
+    start_date: '-1140'
+    highlight_event_id: guji-吴太伯-event-founding
+  - key: closure
+    name_zh: 荆蛮义之身后葬梅里
+    labels:
+      zh: 身后传弟
+    start_date: '-1120'
+    highlight_event_id: guji-吴太伯-event-death
+  decisions:
+  - date: '-1145'
+    title_zh: 与弟仲雍奔荆蛮
+    rationale: 成父传位季历之志，避让储位以全孝悌
+  - date: '-1140'
+    title_zh: 从本地之俗断发文身
+    rationale: 示不可用，融入荆蛮，赢得土人拥戴
+- id: guji-吴太伯-endeavor-2
+  name_zh: 肇建句吴
+  phases:
+  - key: brewing
+    name_zh: 蛮民归附
+    labels:
+      zh: 立信
+    start_date: '-1142'
+    highlight_event_id: guji-吴太伯-event-founding
+  - key: breakthrough
+    name_zh: 自号句吴立国
+    labels:
+      zh: 开国
+    start_date: '-1140'
+    highlight_event_id: guji-吴太伯-event-founding
+  - key: climax
+    name_zh: 无子传弟仲雍
+    labels:
+      zh: 兄终弟及
+    start_date: '-1115'
+    highlight_event_id: guji-吴太伯-event-death
+  - key: closure
+    name_zh: 周武王求其后周章封吴
+    labels:
+      zh: 后嗣受封
+    start_date: '-1046'
+    highlight_event_id: guji-吴太伯-event-succession
+  decisions:
+  - date: '-1115'
+    title_zh: 无子传弟仲雍
+    rationale: 血脉旁落而国统不绝，延续让国之义
+events:
+- id: guji-吴太伯-event-birth
+  date: '-1200'
+  year_of: -1200
+  type: birth
+  title_zh: 吴太伯生
+  description_zh: 古公亶父长子，约生于商末。
+- id: guji-吴太伯-event-retreat
+  date: '-1145'
+  year_of: -1145
+  type: endeavor
+  endeavor_id: guji-吴太伯-endeavor-1
+  title_zh: 与仲雍奔荆蛮，断发文身
+  description_zh: 古公欲立季历以传昌，太伯、仲雍二人乃奔荆蛮，文身断发，示不可用。
+- id: guji-吴太伯-event-founding
+  date: '-1140'
+  year_of: -1140
+  type: endeavor
+  endeavor_id: guji-吴太伯-endeavor-2
+  title_zh: 立为吴太伯，自号句吴
+  description_zh: 荆蛮义之，从而归之千余家，立为吴太伯，肇建吴国。
+- id: guji-吴太伯-event-death
+  date: '-1115'
+  year_of: -1115
+  type: death
+  title_zh: 吴太伯卒
+  description_zh: 太伯无子，卒后弟仲雍立，后世葬于梅里。
+- id: guji-吴太伯-event-succession
+  date: '-1046'
+  year_of: -1046
+  type: endeavor
+  endeavor_id: guji-吴太伯-endeavor-2
+  title_zh: 周武王克殷，寻太伯之后周章封于吴
+  description_zh: 武王克殷，求太伯仲雍之后，得周章，周章已君吴，因而封之，列为诸侯。
