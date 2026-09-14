@@ -1,0 +1,153 @@
+person:
+  qid: guji-杨业
+  name_zh: 杨业
+  names:
+    zh: 杨业
+    en: Yang Ye
+  lifespan:
+    birth:
+      precision: 不详
+      is_circa: true
+      raw: 古文未载其生年
+    death:
+      date: 0986-08
+      precision: 月
+      is_circa: true
+      raw: 宋太宗雍熙三年八月，兵败被擒，不食三日而死
+  death_date: 0986-08
+  era: 北宋
+  reign_ref: 宋太宗·雍熙三年（丙戌，986）
+  archetype: 忠烈武勇、与士卒同甘苦之边将
+  dilemmas:
+  - 身陷敌手：事敌苟活还是绝食殉节——业太息曰上遇我甚厚，何面目求活于敌中，乃不食三日而死
+  - 兵败之际：遣散麾下百余人令其逃生，还是携之俱死——业慰遣之，众皆感泣不肯去，遂俱死无生还者
+  - 护民之责：敌兵邀击、马重伤不能进，进则必死、退则弃民——力战自日中至暮，手刃数百人
+  lesson: 受国厚恩者临难不苟免；为将与士卒同甘苦，则士卒乐为之用，至死不相弃。
+  summary_first_person: 我杨业不知书，然忠烈武勇，有智谋，练习攻战，与士卒同甘苦，故士卒乐为我用。雍熙三年，朝廷迁四州之民，属我与潘美以所部护送，敌兵邀击，我力战自日中至暮，手刃数百人，马重伤不能进，遂为敌所擒。上遇我甚厚，何面目求活于敌中，乃不食三日而死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/九朝編年備要
+endeavors:
+- id: guji-杨业-endeavor-1
+  name_zh: 雍熙三年护迁四州之民
+  phases:
+  - key: brewing
+    name_zh: 受命护送迁民
+    labels:
+      zh: 朝廷迁寰、朔、云、应四州之民于许汝间，属潘美、杨业以所部护送
+    start_date: 0986
+    highlight_event_id: guji-杨业-event-escort-order
+  - key: breakthrough
+    name_zh: 护民南行
+    labels:
+      zh: 契丹复据云应朔等州，迁民途中戒备前行
+    start_date: 0986
+    highlight_event_id: guji-杨业-event-escort-order
+  - key: climax
+    name_zh: 遇邀击力战被擒
+    labels:
+      zh: 敌兵邀击，力战自日中至暮，手刃数百人，马重伤不能进，遂为敌所擒
+    start_date: 0986-08
+    highlight_event_id: guji-杨业-event-last-battle
+  - key: closure
+    name_zh: 绝食殉国
+    labels:
+      zh: 不食三日而死，帝甚悼之
+    start_date: 0986-08
+    highlight_event_id: guji-杨业-event-death
+  decisions:
+  - date: 0986-08
+    title_zh: 马重伤犹力战不退
+    rationale: 护迁民之责在身，敌兵邀击，自日中至暮手刃数百人，虽人马俱困不肯弃民先走
+  - date: 0986-08
+    title_zh: 被擒后拒绝事敌，绝食殉节
+    rationale: 业太息曰上遇我甚厚，何面目求活于敌中——以死报君恩，全忠烈之名
+- id: guji-杨业-endeavor-2
+  name_zh: 练兵治军、恩结士卒
+  phases:
+  - key: brewing
+    name_zh: 练习攻战
+    labels:
+      zh: 忠烈武勇有智谋，练习攻战
+  - key: breakthrough
+    name_zh: 与士卒同甘苦
+    labels:
+      zh: 故士卒乐为之用
+  - key: climax
+    name_zh: 麾下以死相随
+    labels:
+      zh: 兵败后慰遣麾下百余人，众感泣不肯去，遂俱死无生还者
+    start_date: 0986-08
+    highlight_event_id: guji-杨业-event-farewell
+  - key: closure
+    name_zh: 身后哀荣
+    labels:
+      zh: 诏削潘美三任，赐业官，锡其家粟帛，録其子五人
+    start_date: 0986-08
+    highlight_event_id: guji-杨业-event-honor
+  decisions:
+  - date: 0986-08
+    title_zh: 慰遣麾下百余人
+    rationale: 业慰遣之——不欲旧部徒死，然士卒感其平日同甘苦之恩，皆泣不肯去，遂俱死
+events:
+- id: guji-杨业-event-birth
+  type: birth
+  title_zh: 杨业生
+  precision: 不详
+  is_circa: true
+  raw: 古文未载其生年
+  description: 传主生年于所据古文中无明文，姑存其目。
+- id: guji-杨业-event-escort-order
+  type: endeavor
+  endeavor_id: guji-杨业-endeavor-1
+  phase: brewing
+  title_zh: 受命护送四州迁民
+  date: 0986
+  precision: 年
+  is_circa: true
+  year_of: 986
+  raw: 初迁四州之民属潘美杨业以所部护送之
+  description: 雍熙三年北伐后，朝廷迁寰、朔、云、应四州之民于许汝间，命潘美、杨业以所部护送。
+  location: 寰、朔、云、应四州至许汝之间
+- id: guji-杨业-event-last-battle
+  type: endeavor
+  endeavor_id: guji-杨业-endeavor-1
+  phase: climax
+  title_zh: 遭敌邀击，力战被擒
+  date: 0986-08
+  precision: 月
+  is_circa: true
+  year_of: 986
+  raw: 敌兵邀击之业力战自日中至暮手刃数百人马重伤不能进遂为敌所擒
+  description: 契丹复据云应朔等州，遣兵邀击护迁民之师；杨业自日中力战至暮，手刃数百人，马重伤不能进，被擒。
+  location: 云、应、朔等州之间
+- id: guji-杨业-event-farewell
+  type: endeavor
+  endeavor_id: guji-杨业-endeavor-2
+  phase: climax
+  title_zh: 慰遣麾下，众感泣俱死
+  date: 0986-08
+  precision: 月
+  is_circa: true
+  year_of: 986
+  raw: 其败也麾下尚有百余人业慰遣之皆感泣不肯去遂俱死无生还者
+  description: 兵败后麾下尚有百余人，杨业慰遣使去，众感泣不肯离，遂与之俱死，无一生还。
+- id: guji-杨业-event-death
+  type: death
+  title_zh: 绝食三日殉国
+  date: 0986-08
+  precision: 月
+  is_circa: true
+  year_of: 986
+  raw: 业太息曰上遇我甚厚何面目求活于敌中乃不食三日而死
+  description: 被擒后叹息帝恩之厚，耻于求活敌中，绝食三日而死。
+- id: guji-杨业-event-honor
+  type: endeavor
+  endeavor_id: guji-杨业-endeavor-2
+  phase: closure
+  title_zh: 帝悼之，追赐官爵、録用诸子
+  date: 0986-08
+  precision: 月
+  is_circa: true
+  year_of: 986
+  raw: 上闻业死甚悼之诏削美三任赐业官锡其家粟帛録其子五人
+  description: 太宗闻杨业死，甚为悼惜；诏削潘美三任以罪之，追赐杨业官职，赐其家粟帛，录用其子五人。
