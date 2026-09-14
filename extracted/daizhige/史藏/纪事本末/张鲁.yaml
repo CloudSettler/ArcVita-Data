@@ -1,0 +1,159 @@
+person:
+  qid: guji-张鲁
+  name_zh: 张鲁
+  names:
+    zh: 张鲁
+    en: Zhang Lu
+  lifespan:
+    birth:
+      date: 约0100
+      precision: decade
+      is_circa: true
+      raw: 本篇未载生年，约当东汉中期
+    death:
+      date: 约0216
+      precision: year
+      is_circa: true
+      raw: 本篇未载卒年，据史传约在降曹后不久
+  birth_date: 约0100
+  death_date: 约0216
+  era: 东汉末年
+  archetype: 政教合一的割据军阀
+  dilemmas:
+  - 承刘焉之命断绝斜谷、杀害汉使，自此与汉廷决裂，进退皆系于军阀之局
+  - 刘璋嗣父之位而暗懦，从之则俯仰由人，叛之则负故主之恩
+  - 曹操举大军自武都、陈仓而来，战则阳平难守，走则弃汉中基业，终择降以保宗族部众
+  lesson: 恃险要与道术足以割据一方，然不明存恤、不纳善谋者，终不能当雄主亲征之师。
+  summary_first_person: 吾张鲁，沛人也，自祖父陵以来世奉五斗米道而居于蜀。初平二年，益州牧刘焉以吾为督义司马，遣吾袭汉中，吾掩杀太守苏固，断绝斜谷阁，遂据其地。建安五年刘璋嗣位，吾以璋暗懦不复承顺，袭杀张修并其众，与璋为敌，雄据巴汉。建安二十年曹操自武都、散关来攻，弟卫与杨昂等守阳平关为其夜袭所破，吾溃奔巴中，终降于操，汉中遂归曹氏。
+  source_urls:
+  - 本篇古籍未提供URL
+endeavors:
+- id: guji-张鲁-endeavor-1
+  name_zh: 割据汉中，与刘璋相攻
+  summary_zh: 受刘焉之命取汉中，后并张修之众，雄据巴汉与璋为敌，终为曹操所并。
+  phases:
+  - key: brewing
+    name_zh: 受命袭汉中
+    labels:
+      zh:
+      - 督义司马
+      - 掩杀苏固
+      - 断绝斜谷
+    start_date: 0191
+    highlight_event_id: guji-张鲁-event-hanzhong-191
+  - key: breakthrough
+    name_zh: 并张修而据汉中
+    labels:
+      zh:
+      - 不复承顺刘璋
+      - 袭杀张修
+    start_date: 128
+    highlight_event_id: guji-张鲁-event-zhangxiu-200
+  - key: climax
+    name_zh: 雄据巴汉与璋为敌
+    labels:
+      zh:
+      - 与璋为敌
+      - 险塞自守
+    start_date: 128
+    highlight_event_id: guji-张鲁-event-zhangxiu-200
+  - key: closure
+    name_zh: 阳平败绩而降曹
+    labels:
+      zh:
+      - 阳平之败
+      - 溃奔巴中
+      - 降于曹操
+    start_date: 141
+    highlight_event_id: guji-张鲁-event-yangping-215
+  decisions:
+  - date: 128
+    title_zh: 以璋暗懦，不复承顺，袭杀张修并其众
+    rationale: 刘璋袭父焉位而暗懦，汉中可自擅；并张修部众以厚兵力，遂与璋为敌
+  - date: 141
+    title_zh: 使弟张卫与杨昂等据阳平关，横山筑城十余里以拒操
+    rationale: 阳平关据险要，欲恃关阻曹操自武都入氐、出散关远来之师
+  - date: 0215-12
+    title_zh: 阳平既破，弃南郑奔巴中，终降曹操
+    rationale: 关为夜袭所破，府库珍宝尽入操手，战守皆穷，降以自全（法正称曹操一举而降张鲁，定汉中）
+- id: guji-张鲁-endeavor-2
+  name_zh: 世奉五斗米道，以教团之力成割据之业
+  summary_zh: 自祖父张陵以来世奉五斗米道居于蜀，鲁以道众受任督义司马，政教相资以成汉中之业，亦随降曹而终。
+  phases:
+  - key: brewing
+    name_zh: 家传五斗米道
+    labels:
+      zh:
+      - 祖父张陵创道
+      - 居于蜀
+    start_date: 约0150
+  - key: breakthrough
+    name_zh: 以道众受任督义司马
+    labels:
+      zh:
+      - 刘焉借道力
+      - 督义司马
+    start_date: 0191
+    highlight_event_id: guji-张鲁-event-hanzhong-191
+  - key: climax
+    name_zh: 政教相资雄据汉中
+    labels:
+      zh:
+      - 政教合一
+      - 雄据巴汉
+    start_date: 128
+    highlight_event_id: guji-张鲁-event-zhangxiu-200
+  - key: closure
+    name_zh: 降曹而道业随终
+    labels:
+      zh:
+      - 汉中入曹
+    start_date: 141
+    highlight_event_id: guji-张鲁-event-surrender-215
+  decisions:
+  - date: 0191
+    title_zh: 以五斗米道之众受任督义司马，为刘焉攻取汉中
+    rationale: 刘焉阴图异计，欲借张氏道众之力取汉中；鲁以教团武装行军事，道权兵权自此相合
+events:
+- id: guji-张鲁-event-birth
+  type: birth
+  date: 约0100
+  year_of: 100
+  precision: decade
+  title_zh: 张鲁生（约当东汉中期，本篇未载）
+  summary_zh: 沛人张鲁生，其家自祖父张陵以来世奉五斗米道，居于蜀。
+- id: guji-张鲁-event-hanzhong-191
+  type: endeavor
+  date: 0191
+  year_of: 191
+  title_zh: 初平二年，奉刘焉命袭取汉中
+  summary_zh: 刘焉以鲁为督义司马，鲁掩杀汉中太守苏固，断绝斜谷阁，杀害汉使，遂断绝益州与汉廷之通道。
+  endeavor_id: guji-张鲁-endeavor-1
+- id: guji-张鲁-event-zhangxiu-200
+  type: endeavor
+  date: 128
+  year_of: 200
+  title_zh: 建安五年，袭杀张修并其众，遂据汉中
+  summary_zh: 刘璋袭父焉位，鲁以璋暗懦不复承顺，袭别部司马张修杀之而并其众，遂据汉中，与璋为敌。
+  endeavor_id: guji-张鲁-endeavor-1
+- id: guji-张鲁-event-yangping-215
+  type: endeavor
+  date: 0215-07
+  year_of: 215
+  title_zh: 建安二十年秋，阳平关失守，溃奔巴中
+  summary_zh: 曹操自武都入氐、出散关至阳平，鲁使弟卫与杨昂等据阳平关，横山筑城十余里；操乘险夜袭大破之，鲁溃奔巴中，操入南郑尽得府库珍宝。
+  endeavor_id: guji-张鲁-endeavor-1
+- id: guji-张鲁-event-surrender-215
+  type: endeavor
+  date: 0215-12
+  year_of: 215
+  title_zh: 降于曹操，汉中入曹
+  summary_zh: 十二月操留夏侯渊、张郃守汉中；法正后言曹操一举而降张鲁、定汉中，鲁之基业至此归曹。
+  endeavor_id: guji-张鲁-endeavor-1
+- id: guji-张鲁-event-death
+  type: death
+  date: 约0216
+  year_of: 216
+  precision: year
+  title_zh: 张鲁卒（约在降曹后不久，本篇未载）
+  summary_zh: 据史传鲁约卒于降曹之后，本篇未载其卒年。
