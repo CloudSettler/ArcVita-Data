@@ -1,0 +1,200 @@
+person:
+  qid: guji-王得仁
+  name_zh: 王得仁
+  names:
+    zh: 王得仁
+    en: Wang Deren
+  lifespan:
+    birth:
+      date: '1610'
+      precision: year
+      is_circa: true
+      raw: 生年不详，起群盗，从闯营
+    death:
+      date: '1649'
+      precision: year
+      is_circa: true
+      raw: 永历三年正月南昌城破，死之（卷二截于围城，据史事补）
+  birth_date: '1610'
+  death_date: '1649'
+  era: 明末清初
+  reign_ref: 崇祯、弘光、隆武、永历
+  archetype: 叛将
+  dilemmas:
+  - 投清后受督抚折辱索贿，反清则势孤难久
+  - 欲侯爵而不得，怨愤与利害交争
+  lesson: 失封赏之望则怨积于内，恃勇轻谋，终困孤城。
+  summary_first_person: 我本闯部降将，人称王杂毛。降清后屡受折辱，不得提督之职，愤而与金声桓叛清归明，称建武侯，破九江，围赣州，终困守南昌，死于清兵围城。
+  source_urls:
+  - https://zh.wikisource.org/wiki/江变纪略
+endeavors:
+- id: guji-王得仁-endeavor-1
+  name_zh: 从闯至降清
+  phases:
+  - key: brewing
+    name_zh: 起于群盗
+    labels:
+      zh:
+      - 流贼
+      - 闯营
+    start_date: '1630'
+  - key: breakthrough
+    name_zh: 降清隶金营
+    labels:
+      zh:
+      - 投降
+      - 编入金声桓麾下
+    start_date: '1645'
+    highlight_event_id: guji-王得仁-event-join-jin
+  decisions:
+  - date: '1645'
+    title_zh: 随王体忠旧部归属金声桓
+    rationale: 老营溃散无归，外据州府势不能久独立，遂且战且降
+- id: guji-王得仁-endeavor-2
+  name_zh: 叛清归明
+  phases:
+  - key: brewing
+    name_zh: 怨愤蓄志
+    labels:
+      zh:
+      - 折辱
+      - 求封不得
+    start_date: '1647'
+    highlight_event_id: guji-王得仁-event-humiliation
+  - key: breakthrough
+    name_zh: 举兵反正
+    labels:
+      zh:
+      - 建武侯
+      - 起事
+    start_date: 1648-01
+    highlight_event_id: guji-王得仁-event-revolt
+  - key: climax
+    name_zh: 西征北伐
+    labels:
+      zh:
+      - 破九江
+      - 攻赣州
+    start_date: 1649-02
+    highlight_event_id: guji-王得仁-event-jiujiang
+  - key: closure
+    name_zh: 困守南昌
+    labels:
+      zh:
+      - 围城
+      - 城破
+    start_date: 1649-05
+    highlight_event_id: guji-王得仁-event-death
+  decisions:
+  - date: 1648-01
+    title_zh: 劫杀巡抚章于天之饷差、力促金声桓反清
+    rationale: 我本流贼，崇祯皇帝为我逼死，无饷可得，索饷之辱不能忍
+  - date: 1649-02
+    title_zh: 采胡澹上策，诈用清军旗号顺流袭九江
+    rationale: 乘破竹之势，扬言章抚院请救者，江南必开门纳君
+  - date: 1649-03
+    title_zh: 与金声桓全军顿兵赣州城下
+    rationale: 高进库不受册封作战，相持七十余日，师老为期
+events:
+- id: guji-王得仁-event-birth
+  date: '1610'
+  precision: year
+  is_circa: true
+  title_zh: 王得仁出生（约）
+  labels:
+    zh:
+    - 生年
+  description_zh: 生年史无明文，据起群盗、从闯营推约于万历年间
+  persons_involved:
+  - guji-王得仁
+- id: guji-王得仁-event-join-jin
+  date: '1645'
+  precision: year
+  year_of: 1645
+  title_zh: 王体忠被刺后，旧部归旗牌王得仁所辖
+  labels:
+    zh:
+    - 隶金营
+    - 王杂毛
+  description_zh: 金声桓刺杀王体忠，以王氏老营兵属体忠旧掌军鼓号者王得仁，军中所谓王杂毛也
+  persons_involved:
+  - guji-王得仁
+  - guji-金声桓
+- id: guji-王得仁-event-humiliation
+  date: 1647-07
+  precision: month
+  year_of: 1647
+  title_zh: 巡抚章于天称王把总并索贿折辱
+  labels:
+    zh:
+    - 折辱
+    - 索贿
+  description_zh: 章于天遇诸将益倨，呼得仁曰王把总，宴上笑问汝欲反耶；七月又差官票追饷三十万
+  persons_involved:
+  - guji-王得仁
+  - 章于天
+- id: guji-王得仁-event-revolt
+  date: 1648-01
+  precision: month
+  year_of: 1648
+  title_zh: 正月癸亥（晦日）金王举兵反正
+  labels:
+    zh:
+    - 叛清归明
+    - 建武侯
+  description_zh: 得仁厉语促声桓，遂反，绞杀巡抚董学成等，出告示称隆武四年，王得仁称建武侯
+  persons_involved:
+  - guji-王得仁
+  - guji-金声桓
+  - 姜曰广
+- id: guji-王得仁-event-jiujiang
+  date: 1649-02
+  precision: month
+  year_of: 1649
+  title_zh: 西征九江，不移时而破之
+  labels:
+    zh:
+    - 破九江
+  description_zh: 永历二年二月庚午，建武侯西征九江，纳胡澹上策，诈用清兵旗号服色顺流而下，一举破城
+  persons_involved:
+  - guji-王得仁
+  - 胡澹
+- id: guji-王得仁-event-qianzhou
+  date: 1649-03
+  precision: month
+  year_of: 1649
+  title_zh: 与金声桓全军攻赣州，相持七十余日
+  labels:
+    zh:
+    - 攻赣州
+    - 师老
+  description_zh: 三月丙辰出师，册印封高进库不纳，白朝佐冲阵至城下而大军不继，顿兵相持；四月二十八日九江失守，内外皆走
+  persons_involved:
+  - guji-王得仁
+  - guji-金声桓
+  - 高进库
+- id: guji-王得仁-event-nanchang-siege
+  date: 1649-05
+  precision: month
+  year_of: 1649
+  title_zh: 清兵围南昌，清军夜惊畏王杂毛
+  labels:
+    zh:
+    - 围城
+  description_zh: 五月七百骑至，谭泰掘濠筑城围困；清兵素畏王勇名，夜惊曰王杂毛来也
+  persons_involved:
+  - guji-王得仁
+  - guji-金声桓
+- id: guji-王得仁-event-death
+  date: '1649'
+  precision: year
+  year_of: 1649
+  title_zh: 南昌城破，王得仁死之（约）
+  labels:
+    zh:
+    - 城破
+    - 死难
+  description_zh: 卷文截于围城中，据史事，永历三年正月南昌陷，得仁突围死于城下（约）
+  persons_involved:
+  - guji-王得仁
+  - guji-金声桓
