@@ -1,0 +1,100 @@
+person:
+  qid: guji-袁崇焕
+  name_zh: 袁崇焕
+  names:
+    zh: 袁崇焕
+    en: Yuan Chonghuan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 明末
+  reign_ref: 崇祯
+  archetype: 边疆统帅
+  dilemmas:
+  - 忠于君命与党争罗织之间
+  lesson: 边才立功者，未必能免于朝局倾轧
+  summary_first_person: 我是袁崇焕，以边才受任督师，御敌于蓟辽。然我之狱起，竟有人欲借我以攻钱龙锡，牵连诸臣；我身陷囹圄，成败皆系于君心与党争之间。
+endeavors:
+- id: guji-袁崇焕-endeavor-1
+  name_zh: 蓟辽督师御边
+  phases:
+  - key: brewing
+    name_zh: 受任边事
+    labels:
+      zh: 边才
+    start_date: '1627'
+    highlight_event_id: guji-袁崇焕-event-appointment
+  - key: climax
+    name_zh: 督师蓟辽
+    labels:
+      zh: 御敌
+    start_date: '1628'
+    highlight_event_id: guji-袁崇焕-event-appointment
+  - key: closure
+    name_zh: 下狱罹祸
+    labels:
+      zh: 党争罗织
+    start_date: '1629'
+    highlight_event_id: guji-袁崇焕-event-imprisonment
+  decisions:
+  - date: '1628'
+    title_zh: 受命督师蓟辽
+    rationale: 以边才受上倚任，御敌疆场
+  - date: '1629'
+    title_zh: 身陷诏狱
+    rationale: 敌逼京师，朝廷震怒，因狱成而下吏
+- id: guji-袁崇焕-endeavor-2
+  name_zh: 狱中博弈与身后公论
+  phases:
+  - key: brewing
+    name_zh: 借狱兴案
+    labels:
+      zh: 罗织
+    start_date: '1629'
+    highlight_event_id: guji-袁崇焕-event-imprisonment
+  - key: climax
+    name_zh: 欲借崇焕以报龙锡
+    labels:
+      zh: 党争
+    start_date: '1630'
+    highlight_event_id: guji-袁崇焕-event-case
+  decisions:
+  - date: '1630'
+    title_zh: 拒不为党争供词
+    rationale: 不使己狱牵连无辜诸臣
+events:
+- id: guji-袁崇焕-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  summary_zh: 生年不详，明末蓟辽督师袁崇焕之生
+- id: guji-袁崇焕-event-appointment
+  event_type: endeavor_milestone
+  date: '1628'
+  year_of: 1628
+  summary_zh: 以边才受任，督师蓟辽，御朝廷肘腋之敌
+- id: guji-袁崇焕-event-imprisonment
+  event_type: downfall
+  date: '1629'
+  year_of: 1629
+  summary_zh: 敌犯京师，袁崇焕下狱，时人欲借其狱攻钱龙锡而罗及诸臣
+- id: guji-袁崇焕-event-case
+  event_type: prosecution
+  date: '1630'
+  year_of: 1630
+  summary_zh: 御史等力谋借袁崇焕狱以报钱龙锡，因龙锡罗及诸臣，周延儒、温体仁主之；黄道周疏救钱龙锡被调外
+- id: guji-袁崇焕-event-death
+  event_type: death
+  date: '1630'
+  year_of: 1630
+  summary_zh: 崇祯三年，袁崇焕死于狱案，身后为党争之题

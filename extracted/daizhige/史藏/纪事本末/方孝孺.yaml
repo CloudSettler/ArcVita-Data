@@ -1,0 +1,111 @@
+person:
+  qid: guji-方孝孺
+  name_zh: 方孝孺
+  names:
+    zh: 方孝孺
+    en: Fang Xiaoru
+  lifespan:
+    birth:
+      date: '1357'
+      precision: year
+      is_circa: true
+      raw: 约1357年
+    death:
+      date: '1402'
+      precision: year
+      raw: 建文四年（1402年）
+  birth_date: '1357'
+  death_date: '1402'
+  era: 明初（洪武—建文年间）
+  reign_ref: 明太祖、明惠帝（建文帝）
+  archetype: 骨鲠文臣·礼法改制之儒
+  dilemmas:
+  - 削藩之策欲以德化怀柔代王，主张缓削，与齐泰、黄子澄急削之议相左
+  - 以周官法度佐建文更定官制，遭靖难兵起、新法难行
+  lesson: 以德化与礼制安国之谋，若不适时势，虽忠而难救危局
+  summary_first_person: 我方孝孺以经术事建文帝，佐其更定官制、讨论《周官》法度；代王贪虐，我请以德化道之，遣使入蜀与贤蜀王同居，冀以感格。然削藩激变，燕师南向，文治之志终不获伸。
+  source_urls:
+  - http://example.org/guji/mingshi-jishibenbenmo
+endeavors:
+- id: guji-方孝孺-endeavor-1
+  name_zh: 辅佐建文，更定礼制
+  phases:
+  - key: brewing
+    name_zh: 侍讲翰墨
+    labels:
+      zh:
+      - 文臣
+      - 儒学
+    start_date: '1398'
+    highlight_event_id: guji-方孝孺-event-1
+  - key: breakthrough
+    name_zh: 讲论《周官》
+    labels:
+      zh:
+      - 制度
+      - 经筵
+    start_date: '1399'
+    highlight_event_id: guji-方孝孺-event-2
+  decisions:
+  - date: 1398-12
+    title_zh: 请以德化处置代王
+    rationale: 代王有贪虐状，不欲遽加削夺，请遣之入蜀与素贤之蜀王同居，以德感化，保全宗藩恩义
+- id: guji-方孝孺-endeavor-2
+  name_zh: 佐政宽刑与建文新政
+  phases:
+  - key: brewing
+    name_zh: 建言缓削
+    labels:
+      zh:
+      - 德化
+      - 宗藩
+    start_date: 1398-11
+    highlight_event_id: guji-方孝孺-event-1
+  - key: climax
+    name_zh: 靖难变起
+    labels:
+      zh:
+      - 危局
+    start_date: 1399-07
+    highlight_event_id: guji-方孝孺-event-2
+  decisions:
+  - date: 1399-01
+    title_zh: 佐朝廷更定官制
+    rationale: 帝方锐意文治，日与孝孺讨论《周官》法度，以北兵为不足忧，遂推行制度损益
+events:
+- id: guji-方孝孺-event-birth
+  date: '1357'
+  year_of: '1357'
+  type: birth
+  title_zh: 方孝孺生（约）
+  description: 方孝孺生于元末，台州府宁海县人（约1357年）
+  participants:
+  - guji-方孝孺
+- id: guji-方孝孺-event-death
+  date: '1402'
+  year_of: '1402'
+  type: death
+  title_zh: 方孝孺卒
+  description: 靖难之后方孝孺殉难而死（1402年）
+  participants:
+  - guji-方孝孺
+- id: guji-方孝孺-event-1
+  date: 1398-12
+  year_of: '1398'
+  type: political_advocacy
+  title_zh: 请以德化道代王
+  description: 代王居藩有贪虐状，方孝孺请以德化道之；帝遣代王入蜀，使与素以贤闻之蜀王同居
+  participants:
+  - guji-方孝孺
+  endeavor_ref: guji-方孝孺-endeavor-1
+  phase_key: brewing
+- id: guji-方孝孺-event-2
+  date: 1399-01
+  year_of: '1399'
+  type: political_advocacy
+  title_zh: 讨论周官法度、更定官制
+  description: 帝锐意文治，日与方孝孺等讨论《周官》法度，更定官制，以北兵为不足忧
+  participants:
+  - guji-方孝孺
+  endeavor_ref: guji-方孝孺-endeavor-1
+  phase_key: breakthrough

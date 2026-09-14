@@ -1,0 +1,107 @@
+person:
+  qid: guji-海瑞
+  name_zh: 海瑞
+  names:
+    zh: 海瑞
+    en: Hai Rui
+  lifespan:
+    birth:
+      date: '1514'
+      precision: year
+      is_circa: true
+      raw: 约1514年（正德年间）
+    death:
+      date: '1587'
+      precision: year
+      is_circa: false
+      raw: 万历十五年前后卒
+  birth_date: '1514'
+  death_date: '1587'
+  era: 明代中后期（嘉靖—隆庆—万历）
+  reign_ref: 穆宗隆庆、神宗万历
+  archetype: 清官循吏·治水能臣
+  dilemmas:
+  - '~'
+  lesson: 为政在务实恤民，浚河治水使民得食，功在生民。
+  summary_first_person: 我海瑞以直节清望著称，巡抚江南时委官开浚吴淞故道，万丈河工不两月而成，民赖以食。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史紀事本末
+endeavors:
+- id: guji-海瑞-endeavor-1
+  name_zh: 抚吴治水
+  labels:
+    zh:
+    - 巡抚江南
+    - 浚吴淞江
+  phases:
+  - key: brewing
+    name_zh: 巡抚江南
+    labels:
+      zh:
+      - 视事苏松
+    start_date: '1569'
+    highlight_event_id: guji-海瑞-event-1
+  - key: breakthrough
+    name_zh: 开浚王渡至宋家港
+    labels:
+      zh:
+      - 委官督浚
+      - 以工代赈
+    start_date: '1570'
+    highlight_event_id: guji-海瑞-event-2
+  - key: climax
+    name_zh: 河工告成
+    labels:
+      zh:
+      - 民得仰食
+    start_date: '1570'
+    highlight_event_id: guji-海瑞-event-3
+  - key: closure
+    name_zh: 后续水利营建
+    labels:
+      zh:
+      - 特设水利副使
+    start_date: '1587'
+    highlight_event_id: guji-海瑞-event-4
+  decisions:
+  - date: '1570'
+    title_zh: 委松江府同知黄成乐、上海知县张{山顶}开浚吴淞江王家渡至宋家港
+    rationale: 吴淞江久淤成灾，议减河面为宽十五丈、底七丈五尺、深一丈五尺六寸，以省工费而求速成。
+  - date: '1570'
+    title_zh: 岁大饥而大兴河役
+    rationale: 畚锸云集，饥民得以佣工就食，两月告成，以工代赈，水利赈济两得。
+events:
+- id: guji-海瑞-event-birth
+  date: '1514'
+  year_of: 1514
+  type: birth
+  summary_zh: 海瑞生（约正德年间）。
+- id: guji-海瑞-event-death
+  date: '1587'
+  year_of: 1587
+  type: death
+  summary_zh: 海瑞卒（约万历十五年前后）。
+- id: guji-海瑞-event-1
+  date: '1569'
+  year_of: 1569
+  type: office
+  event_key: 巡抚江南
+  summary_zh: 海瑞巡抚应天诸府，苏松水利积淤，委官筹划开浚吴淞江。
+- id: guji-海瑞-event-2
+  date: '1570'
+  year_of: 1570
+  type: project
+  event_key: 委官开浚
+  summary_zh: 隆庆四年，委松江府同知黄成乐、上海知县张{山顶}开浚王渡至宋家港，长一万一千五百七十一丈，原议阔三十余丈后议减半；共用工银六万余两。
+- id: guji-海瑞-event-3
+  date: '1570'
+  year_of: 1570
+  type: project-completion
+  event_key: 河工告成
+  summary_zh: 是岁大饥，畚锸云集，不两月而河工告成，民得仰食。
+- id: guji-海瑞-event-4
+  date: '1587'
+  year_of: 1587
+  type: aftermath
+  event_key: 浚筑奏功
+  summary_zh: 谷应泰论吕光询治水三利、海瑞浚筑奏功，与历代吴淞水利治理相续，后世因吴中水患复请特设水利副使。
