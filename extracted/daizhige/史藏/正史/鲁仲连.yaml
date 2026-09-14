@@ -1,0 +1,127 @@
+person:
+  qid: guji-鲁仲连
+  name_zh: 鲁仲连
+  names:
+    zh: 鲁仲连
+    en: Lu Zhonglian
+  lifespan:
+    birth:
+      date: '-0305'
+      precision: year
+      is_circa: true
+      raw: 齐人，生年约前305年
+    death:
+      date: '-0245'
+      precision: year
+      is_circa: true
+      raw: 卒年约前245年
+  birth_date: '-0305'
+  death_date: '-0245'
+  era: 战国末期
+  reign_ref: 战国末年，齐、赵、魏诸国并存之世
+  archetype: 义不帝秦的策士高士
+  dilemmas:
+  - 功成不受赏，遁世隐居与济世救人之间的抉择
+  - 游说诸侯而不居官禄，独贵其义
+  lesson: 为人排患释难解纷乱而无取，义不受赏，功成身隐。
+  summary_first_person: 我是齐人鲁仲连，好奇伟俶傥之画策，而不肯仕宦。游于赵，值秦围邯郸，魏使劝赵尊秦为帝，我力折之，说服魏使辛垣衍，使赵义不帝秦。邯郸解围之后，平原君欲封我，我笑辞而去，终不肯受赏，飘然隐于海上。后将助田单复齐之谋、遗燕将书下聊城，皆功成不居。
+  source_urls:
+  - https://www.zhonghuashu.com/wiki/史记/鲁仲连邹阳列传
+endeavors:
+- id: guji-鲁仲连-endeavor-1
+  key_name: 义不帝秦
+  summary: 秦围邯郸，魏欲使赵尊秦为帝，鲁仲连面折辛垣衍，坚定赵国抗秦之志，终致秦军退、邯郸解围。
+  phases:
+  - key: brewing
+    name_zh: 游学齐赵
+    labels:
+      zh: 游历四方
+    start_date: -0285
+  - key: breakthrough
+    name_zh: 面折辛垣衍
+    labels:
+      zh: 义责魏使
+    start_date: '-0257'
+    highlight_event_id: guji-鲁仲连-event-breakthrough
+  - key: climax
+    name_zh: 邯郸解围
+    labels:
+      zh: 秦军却退
+    start_date: '-0257'
+  - key: closure
+    name_zh: 辞封遁世
+    labels:
+      zh: 功成身隐
+    start_date: '-0257'
+    highlight_event_id: guji-鲁仲连-event-closure
+  decisions:
+  - date: '-0257'
+    title_zh: 责让平原君，力争不帝秦
+    rationale: 见魏使辛垣衍劝赵尊秦为帝，挺身而辩，陈帝秦之害，坚定赵国守志。
+  - date: '-0257'
+    title_zh: 拒平原君封赏，逃隐海上
+    rationale: 为人排患释难而无取，不受千金之谢与相位之封，功成身退。
+- id: guji-鲁仲连-endeavor-2
+  key_name: 助田单、下聊城
+  summary: 田单攻聊城岁余不下，鲁仲连遗燕将书，晓以利害，燕将自杀，城遂下，齐复聊城之地。
+  phases:
+  - key: brewing
+    name_zh: 与田单相交
+    labels:
+      zh: 附于田单
+    start_date: -0280
+  - key: breakthrough
+    name_zh: 遗燕将书
+    labels:
+      zh: 一书下城
+    start_date: '-0250'
+    highlight_event_id: guji-鲁仲连-event-chatout
+  - key: closure
+    name_zh: 复辞爵禄
+    labels:
+      zh: 归隐不复见
+    start_date: '-0250'
+  decisions:
+  - date: '-0250'
+    title_zh: 遗书燕将劝其弃城或归燕
+    rationale: 陈说守城无益、归燕见疑、降齐见夺之势，以一书解两围。
+events:
+- id: guji-鲁仲连-event-birth
+  type: birth
+  date: '-0305'
+  year_of: -305
+  precision: circa
+  title_zh: 鲁仲连生于齐
+  description: 齐人鲁仲连降生，后好奇伟俶傥之画策，不肯仕宦任职。
+- id: guji-鲁仲连-event-breakthrough
+  type: endeavor
+  date: '-0257'
+  year_of: -257
+  precision: year
+  title_zh: 面折辛垣衍，赵义不帝秦
+  description: 秦围邯郸，鲁仲连见魏使辛垣衍，力陈尊秦为帝之害，使其不敢复言，赵国坚守待援。
+- id: guji-鲁仲连-event-closure
+  type: endeavor
+  date: '-0257'
+  year_of: -257
+  precision: year
+  title_zh: 拒封赏而隐于海上
+  description: 邯郸解围，平原君以千金为寿并欲封之，鲁仲连笑辞，曰为人排患释难而无取也，遂辞去终身不复见。
+- id: guji-鲁仲连-event-chatout
+  type: endeavor
+  date: '-0250'
+  year_of: -250
+  precision: circa
+  title_zh: 遗书燕将下聊城
+  description: 齐田单攻聊城岁余不下，鲁仲连修书遗燕将，剖陈利害，燕将见书自杀，聊城遂复，齐不受赏归隐。
+- id: guji-鲁仲连-event-death
+  type: death
+  date: '-0245'
+  year_of: -245
+  precision: circa
+  title_zh: 鲁仲连卒
+  description: 功成不居，隐于海上，卒年约前245年。太史公赞其"布衣之义，设不谊于势利"。
+references:
+- title: 鲁仲连邹阳列传
+  source: 史记
+  url: https://www.zhonghuashu.com/wiki/史记/鲁仲连邹阳列传

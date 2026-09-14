@@ -1,0 +1,197 @@
+person:
+  qid: guji-皇甫谧
+  name_zh: 皇甫谧
+  names:
+    zh: 皇甫谧
+    en: Huangfu Mi
+  lifespan:
+    birth:
+      date: 215-04-20
+      precision: year
+      is_circa: true
+      raw: 魏青龙三年
+    death:
+      date: 282-06-18
+      precision: year
+      is_circa: true
+  birth_date: 215-04-20
+  death_date: 282-06-18
+  era: 三国曹魏至西晋
+  reign_ref: 西晋武帝泰康年间
+  archetype: 隐逸学者与医学家
+  dilemmas:
+  - 朝廷屡征不应，坚持隐居著述，隐逸与名节的抉择
+  - 身染风痹而发愤学医，儒学与医学的兼修
+  - 编纂《帝王世纪》考订上古帝王世系，各家异说之间取舍传信
+  lesson: 病残之躯不能夺其志，白首穷经兼通医道，慎阙疑而传信。
+  summary_first_person: 我名皇甫谧，字士安，自号玄晏先生。生当魏晋之际，淡泊名利，屡辞征辟；因染风痹，遂究医学，撰《针灸甲乙经》。又博考经传，作《帝王世纪》，考黄帝、尧、舜以来帝王世次，主张阙疑传信，为后世史家所重。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/皇甫谧
+endeavors:
+- id: guji-皇甫谧-endeavor-1
+  name_zh: 隐居治学与屡辞征辟
+  roles:
+  - 隐士
+  - 儒学家
+  phases:
+  - key: brewing
+    name_zh: 发愤向学
+    labels:
+      zh:
+      - 潜移默化
+      - 儒业初成
+    start_date: 234-01-01
+    highlight_event_id: guji-皇甫谧-event-awaken
+  - key: breakthrough
+    name_zh: 以文名世
+    labels:
+      zh:
+      - 名动乡邦
+      - 号玄晏先生
+    start_date: 250-01-01
+    highlight_event_id: guji-皇甫谧-event-renown
+  - key: climax
+    name_zh: 屡征不仕
+    labels:
+      zh:
+      - 固辞征聘
+      - 表就道借书
+    start_date: 265-01-01
+    highlight_event_id: guji-皇甫谧-event-refuse
+  decisions:
+  - date: 256-01-01
+    title_zh: 得中风风痹后立志向学
+    rationale: 半身不遂犹不辍学，人称书淫，以著述为终身之业。
+  - date: 267-01-01
+    title_zh: 晋武帝征聘不应，自表借书
+    rationale: 不慕荣利，愿以新书为请，帝赐书一车，隐居终身。
+- id: guji-皇甫谧-endeavor-2
+  name_zh: 编撰《帝王世纪》与医学著述
+  roles:
+  - 史家
+  - 医学家
+  phases:
+  - key: brewing
+    name_zh: 博采经传
+    labels:
+      zh:
+      - 考订世系
+      - 采大戴礼左传国语
+    start_date: 260-01-01
+    highlight_event_id: guji-皇甫谧-event-century-writing
+  - key: breakthrough
+    name_zh: 著《帝王世纪》
+    labels:
+      zh:
+      - 考记三皇五帝
+      - 阙疑传信
+    start_date: 265-01-01
+    highlight_event_id: guji-皇甫谧-event-century-done
+  - key: closure
+    name_zh: 病中成医典
+    labels:
+      zh:
+      - 甲乙经成
+      - 身后流传
+    start_date: 282-01-01
+    highlight_event_id: guji-皇甫谧-event-jiayijing
+  decisions:
+  - date: 270-01-01
+    title_zh: 编撰《针灸甲乙经》
+    rationale: 因风痹之疾研习医经，取《素问》《针经》《明堂孔穴针灸治要》类聚成编。
+  - date: 275-01-01
+    title_zh: 考订上古帝王纪年
+    rationale: 以伏羲、神农、黄帝为三皇，少昊、颛顼、高辛、唐尧、虞舜为五帝，力主存疑阙文。
+events:
+- id: guji-皇甫谧-event-birth
+  event_type: birth
+  date: 215-04-20
+  year_of: 215
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 皇甫谧生于安定朝那，过继叔父。
+  participants:
+  - guji-皇甫谧
+  location: 安定朝那（今甘肃灵台一带）
+- id: guji-皇甫谧-event-awaken
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-1
+  date: 256-01-01
+  year_of: 256
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 得风痹疾，半身不遂，因而发愤读书，手不释卷，时人谓之书淫。
+  participants:
+  - guji-皇甫谧
+  location: 安定朝那
+- id: guji-皇甫谧-event-renown
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-1
+  date: 250-01-01
+  year_of: 250
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 以博学高名而出，自号玄晏先生，为乡里所重。
+  participants:
+  - guji-皇甫谧
+  location: 安定
+- id: guji-皇甫谧-event-refuse
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-1
+  date: 267-01-01
+  year_of: 267
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 晋武帝下诏征为太子中庶子等，谧上表称疾固辞，请借藏书，帝赐书一车。
+  participants:
+  - guji-皇甫谧
+  location: 洛阳
+- id: guji-皇甫谧-event-century-writing
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-2
+  date: 260-01-01
+  year_of: 260
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 始撰《帝王世纪》，采《帝王世纪》诸说，考黄帝生于寿丘、居轩辕之丘等事。
+  participants:
+  - guji-皇甫谧
+  location: 安定
+- id: guji-皇甫谧-event-century-done
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-2
+  date: 265-01-01
+  year_of: 265
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 《帝王世纪》大体告成，考三皇五帝世次，为司马贞《史记索隐》等所引。
+  participants:
+  - guji-皇甫谧
+  location: 安定
+- id: guji-皇甫谧-event-jiayijing
+  event_type: career
+  endeavor_ids:
+  - guji-皇甫谧-endeavor-2
+  date: 282-01-01
+  year_of: 282
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 撰成《针灸甲乙经》，厘定针灸穴法，为针灸学奠基之作。
+  participants:
+  - guji-皇甫谧
+  location: 安定朝那
+- id: guji-皇甫谧-event-death
+  event_type: death
+  date: 282-06-18
+  year_of: 282
+  date_precision: year
+  date_is_circa: true
+  summary_zh: 皇甫谧卒，遗令薄葬，不封不树。
+  participants:
+  - guji-皇甫谧
+  location: 安定朝那

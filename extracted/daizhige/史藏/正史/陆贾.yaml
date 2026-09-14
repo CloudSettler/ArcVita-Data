@@ -1,0 +1,124 @@
+person:
+  qid: guji-陆贾
+  name_zh: 陆贾
+  names:
+    zh: 陆贾
+    en: Lu Jia
+  lifespan:
+    birth:
+      date: -240
+      precision: decade
+      is_circa: true
+      raw: 汉初楚人，生年不详
+    death:
+      date: -170
+      precision: decade
+      is_circa: true
+  birth_date: 约公元前240年
+  death_date: 约公元前170年
+  era: 秦末汉初
+  reign_ref: 汉高祖、汉惠帝、汉文帝时期
+  archetype: 思想家与外交使臣
+  dilemmas:
+  - 居乱世而欲以文辨定天下，武夫当道则儒术难行
+  - 事高祖以口舌立功，然功不见于封侯之列
+  lesson: 马上得天下，不可马上治之；文武并用，方为长久之术。
+  summary_first_person: 我陆贾，楚人也，仕汉为太中大夫。尝谓高祖：居马上得之，宁可以马上治之乎？乃著书十二篇，言秦汉所以失得天下者，号曰新语。又撰楚汉春秋，纪项氏与汉高祖初起之事，及说惠文间事，以存当代之史。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记索隐
+endeavors:
+- id: guji-陆贾-endeavor-1
+  key: brewing
+  phases:
+  - key: brewing
+    name_zh: 游说诸侯
+    labels:
+      zh:
+      - 使越
+      - 说赵佗
+    start_date: -206
+  - key: breakthrough
+    name_zh: 奉使南越
+    labels:
+      zh:
+      - 拜南越
+    start_date: -196
+    highlight_event_id: guji-陆贾-event-nanyue
+  - key: climax
+    name_zh: 著新语
+    labels:
+      zh:
+      - 献书高祖
+    start_date: -196
+    highlight_event_id: guji-陆贾-event-xinyu
+  - key: closure
+    name_zh: 撰楚汉春秋
+    labels:
+      zh:
+      - 修史
+    start_date: -190
+    highlight_event_id: guji-陆贾-event-chuhan
+  decisions:
+  - date: -196
+    title_zh: 奉使南越说赵佗归汉
+    rationale: 天下初定，南越自立，欲以口舌之辩使其称臣奉汉约，毋动刀兵。
+  - date: -195
+    title_zh: 著新语十二篇
+    rationale: 高祖慢骂儒生，乃以秦失天下、汉得天下之理著书献之，明仁义法先圣。
+- id: guji-陆贾-endeavor-2
+  key: brewing
+  phases:
+  - key: brewing
+    name_zh: 记楚汉之际
+    labels:
+      zh:
+      - 撰楚汉春秋
+    start_date: -195
+  - key: climax
+    name_zh: 成书传世
+    labels:
+      zh:
+      - 九篇
+    start_date: -190
+    highlight_event_id: guji-陆贾-event-chuhan
+  - key: closure
+    name_zh: 为史家所采
+    labels:
+      zh:
+      - 司马迁据之
+    start_date: -104
+  decisions:
+  - date: -190
+    title_zh: 撰楚汉春秋以纪当世事
+    rationale: 项氏与汉高祖初起之事及惠文间事，恐后世失传，故笔之于书。
+events:
+- id: guji-陆贾-event-birth
+  event_type: birth
+  date: 约-240
+  year_of: -240
+  title_zh: 陆贾生于楚地
+  detail: 陆贾，楚人，约生于战国末年。
+- id: guji-陆贾-event-nanyue
+  event_type: mission
+  date: -196
+  year_of: -196
+  title_zh: 奉使南越，说赵佗称臣
+  detail: 高祖使陆贾赐尉他赵佗印，为南越王。贾说以汉之强盛，令其去帝制、称臣奉汉约。还报，高帝大悦，拜贾为太中大夫。
+- id: guji-陆贾-event-xinyu
+  event_type: work
+  date: -195
+  year_of: -195
+  title_zh: 著新语十二篇献高祖
+  detail: 陆贾于高帝前称说诗书，高祖骂曰乃公居马上而得之，安事诗书。贾对以马上得之，宁可马上治之乎。高祖命著秦所以失天下、吾所以得之者及古成败之国。贾凡著十二篇，每奏一篇，高帝未尝不称善，号其书曰新语。
+- id: guji-陆贾-event-chuhan
+  event_type: work
+  date: 约-190
+  year_of: -190
+  title_zh: 撰楚汉春秋
+  detail: 汉太中大夫楚人陆贾所撰，纪项氏与汉高祖初起及说惠文间事。太史公司马迁据左氏国语，采世本战国策，述楚汉春秋，盖取资于贾书。
+- id: guji-陆贾-event-death
+  event_type: death
+  date: 约-170
+  year_of: -170
+  title_zh: 陆贾卒
+  detail: 陆贾约卒于文帝时，寿终。
