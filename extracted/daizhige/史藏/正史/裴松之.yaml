@@ -1,0 +1,126 @@
+person:
+  qid: guji-裴松之
+  name_zh: 裴松之
+  names:
+    zh: 裴松之
+    en: Pei Songzhi
+  lifespan:
+    birth:
+      date: '372'
+      precision: year
+      is_circa: true
+      raw: 南朝宋人（约372年生）
+    death:
+      date: '451'
+      precision: year
+      is_circa: true
+      raw: 约451年卒
+  birth_date: '372'
+  death_date: '451'
+  era: 南朝宋
+  reign_ref: 宋文帝元嘉年间
+  archetype: 注史家
+  dilemmas:
+  - 补陈寿三国志之略，采众书以存异闻，须辨史料真伪与繁简取舍
+  - 捃摭繁富则恐蔓引巵词，过求博洽反妨体要
+  lesson: 考订精详、博采慎择，方能注史传世、世无异议
+  summary_first_person: 我为陈寿《三国志》作注，捃摭繁富、考订精详，博采诸书以补其遗、辨其疑，后世推为注史典范。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=三国志补注
+endeavors:
+- id: guji-裴松之-endeavor-1
+  name_zh: 撰《三国志注》
+  phases:
+  - key: brewing
+    name_zh: 受诏注史
+    labels:
+      zh: 奉诏注三国志
+    start_date: '426'
+    highlight_event_id: guji-裴松之-event-start
+  - key: breakthrough
+    name_zh: 博采群籍
+    labels:
+      zh: 捃摭繁富
+    start_date: '428'
+    highlight_event_id: guji-裴松之-event-cite
+  - key: climax
+    name_zh: 成书传世
+    labels:
+      zh: 注成世重
+    start_date: '429'
+    highlight_event_id: guji-裴松之-event-complete
+  - key: closure
+    name_zh: 后世垂范
+    labels:
+      zh: 世代师法
+    start_date: '429'
+    highlight_event_id: guji-裴松之-event-legacy
+  decisions:
+  - date: '426'
+    title_zh: 受宋文帝诏注《三国志》
+    rationale: 因陈寿之书过于简略，奉诏为之补阙、备异、惩妄、论辨。
+  - date: '429'
+    title_zh: 广引诸书以存异文
+    rationale: 注以补阙为主，捃摭繁富、考订精详，使史料并存以资参证。
+- id: guji-裴松之-endeavor-2
+  name_zh: 考订辨疑之学
+  phases:
+  - key: brewing
+    name_zh: 汇集异说
+    labels:
+      zh: 参校异同
+    start_date: '428'
+    highlight_event_id: guji-裴松之-event-cite
+  - key: breakthrough
+    name_zh: 辨正讹误
+    labels:
+      zh: 订讹考异
+    start_date: '429'
+    highlight_event_id: guji-裴松之-event-complete
+  - key: closure
+    name_zh: 影响后世考据
+    labels:
+      zh: 开后世考据先声
+    start_date: '430'
+    highlight_event_id: guji-裴松之-event-legacy
+  decisions:
+  - date: '429'
+    title_zh: 凡引书而明标出处
+    rationale: 使后之学者可核其源，考其异同。
+events:
+- id: guji-裴松之-event-birth
+  type: birth
+  date: '372'
+  year_of: 372
+  title_zh: 裴松之生
+  summary_zh: 南朝宋史家裴松之约于此年生。
+- id: guji-裴松之-event-death
+  type: death
+  date: '451'
+  year_of: 451
+  title_zh: 裴松之卒
+  summary_zh: 裴松之约于此年卒。
+- id: guji-裴松之-event-start
+  type: endeavor
+  date: 426-01-01
+  year_of: 426
+  title_zh: 受诏注《三国志》
+  summary_zh: 宋文帝以陈寿《三国志》卑略，诏裴松之为之作注。
+- id: guji-裴松之-event-cite
+  type: endeavor
+  date: 428-01-01
+  year_of: 428
+  title_zh: 捃摭群书广采异闻
+  summary_zh: 裴注捃摭繁富，博采魏晋诸家记载，按年编入以补志文。
+- id: guji-裴松之-event-complete
+  type: endeavor
+  date: 429-01-01
+  year_of: 429
+  title_zh: 《三国志注》成书
+  summary_zh: 注成，考订精详，世无异议，与本书并行传世。
+- id: guji-裴松之-event-legacy
+  type: endeavor
+  date: 429-06-01
+  year_of: 429
+  title_zh: 裴注为后世所称引
+  summary_zh: 后人如杭世骏撰《三国志补注》即补裴松之注之遗，可见其垂范久远。
