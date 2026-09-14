@@ -1,0 +1,168 @@
+person:
+  qid: guji-斛律金
+  name_zh: 斛律金
+  names:
+    zh: 斛律金
+    en: Hulü Jin
+  lifespan:
+    birth:
+      date: '488'
+      precision: year
+      is_circa: true
+      raw: 约Raised in Northern Wei era（生年约488）
+    death:
+      date: '567'
+      precision: year
+      is_circa: true
+      raw: 卒于北齐天统年间（享年八十）
+  birth_date: '488'
+  death_date: '567'
+  era: 北魏—东魏—北齐
+  reign_ref: 东魏孝静帝、北齐文襄/文宣帝时期
+  archetype: 敕勒老将、性遒直之元勋
+  dilemmas:
+  - 身为敕勒族将，历事尔朱、高氏两朝，如何在乱世中择主自保全节
+  - 玉壁败军之后士气低落，以悲歌《敕勒歌》稳军心
+  lesson: 性遒直忠谨，高龄宿将仍被托孤信重，以质朴诚信终不辜负所托。
+  summary_first_person: 我斛律金，敕勒人也，性遒直，历事高氏，汾州刺史、大将军之列。玉壁军中，神武命我唱《敕勒歌》，并自和之，哀感流涕。神武临终托付世子，谓我敕勒老公终不负汝。晚年在北齐以元勋宿将辅政，以为国之长城。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北齊書/卷2_帝紀第二_神武下
+endeavors:
+- id: guji-斛律金-endeavor-1
+  name_zh: 佐高欢平定尔朱氏与东西魏之争
+  phases:
+  - key: brewing
+    name_zh: 归附高氏
+    labels:
+      zh:
+      - 归附高氏
+      - 军旅起家
+    start_date: '531'
+    highlight_event_id: guji-斛律金-event-join-gaohuan
+  - key: breakthrough
+    name_zh: 韩陵之战前后效力
+    labels:
+      zh:
+      - 韩陵之战
+      - 平尔朱兆
+    start_date: '532'
+    highlight_event_id: guji-斛律金-event-hanling
+  - key: climax
+    name_zh: 出镇汾州、与西魏交兵
+    labels:
+      zh:
+      - 汾州刺史
+      - 东西对峙
+    start_date: '534'
+    highlight_event_id: guji-斛律金-event-bingzhou
+  - key: closure
+    name_zh: 玉壁军中歌敕勒与托孤受命
+    labels:
+      zh:
+      - 敕勒歌
+      - 临终托孤
+    start_date: '546'
+    highlight_event_id: guji-斛律金-event-chile-song
+  decisions:
+  - date: '534'
+    title_zh: 任汾州刺史，以四万兵拟从来违津渡，为高欢表文所列
+    rationale: 高欢与魏帝相疑，部署将帅防宇文泰，倚重斛律金为方面之任。
+  - date: '547'
+    title_zh: 受神武临终托付，辅佐世子高澄
+    rationale: 「厍狄干鲜卑老公，斛律金敕勒老公，并性遒直，终不负汝。」以其忠直可托。
+- id: guji-斛律金-endeavor-2
+  name_zh: 北齐开国元勋与宿将辅政
+  phases:
+  - key: brewing
+    name_zh: 东魏末累任方面
+    labels:
+      zh:
+      - 累迁将帅
+      - 出镇州郡
+    start_date: '538'
+    highlight_event_id: guji-斛律金-event-dongwei
+  - key: breakthrough
+    name_zh: 北齐建国位列元勋
+    labels:
+      zh:
+      - 开国元勋
+      - 位至王爵
+    start_date: '550'
+    highlight_event_id: guji-斛律金-event-qi-found
+  - key: climax
+    name_zh: 宿将统军、维护朝局
+    labels:
+      zh:
+      - 国之长城
+      - 晚节忠谨
+    start_date: '555'
+    highlight_event_id: guji-斛律金-event-elder
+  decisions:
+  - date: '550'
+    title_zh: 以元勋身份拥戴北齐受禅
+    rationale: 佐高氏创业既有大功，遂为新朝柱石。
+  - date: '564'
+    title_zh: 以高龄宿将指授军事方针
+    rationale: 性遒直，知兵善断，朝野倚为长城。
+events:
+- id: guji-斛律金-event-birth
+  date: '488'
+  year_of: 488
+  title_zh: 斛律金约生于北魏末年
+  description_zh: 敕勒（高车）人，生年约488年。
+  event_type: birth
+- id: guji-斛律金-event-join-gaohuan
+  date: '531'
+  year_of: 531
+  title_zh: 归附高欢，起兵信都之役前后效力
+  description_zh: 高欢起于信都讨尔朱氏，斛律金成为其麾下将领。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-1
+- id: guji-斛律金-event-hanling
+  date: 532-04
+  year_of: 532
+  title_zh: 韩陵之战随高欢大破尔朱氏
+  description_zh: 高欢于韩陵为圆阵，大破尔朱兆等二十万众，斛律金参与其役。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-1
+- id: guji-斛律金-event-bingzhou
+  date: '534'
+  year_of: 534
+  title_zh: 任汾州刺史，列入高欢四道进兵部署
+  description_zh: 高欢表遣汾州刺史斛律金拟兵四万，从来违津渡，防备宇文泰。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-1
+- id: guji-斛律金-event-dongwei
+  date: '538'
+  year_of: 538
+  title_zh: 东魏时期累任要职，与西魏连年交战
+  description_zh: 河阴之战等东西魏战争中东魏军旅宿将。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-2
+- id: guji-斛律金-event-qi-found
+  date: '550'
+  year_of: 550
+  title_zh: 北齐受禅，以元勋位列王爵
+  description_zh: 高洋代魏建北齐，斛律金以佐命元勋得封崇爵。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-2
+- id: guji-斛律金-event-chile-song
+  date: 546-11
+  year_of: 546
+  title_zh: 玉壁军中唱《敕勒歌》以安军心
+  description_zh: 玉壁顿军五旬不拔、神武有疾，西魏传言高欢中弩，神武勉坐见诸贵，使斛律金作《敕勒歌》，神武自和之，哀感流涕。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-1
+- id: guji-斛律金-event-elder
+  date: '555'
+  year_of: 555
+  title_zh: 以宿将之年辅政北齐
+  description_zh: 晚年位望崇重，国之大事多所顾问，时倚为长城。
+  event_type: endeavor
+  endeavor_id: guji-斛律金-endeavor-2
+- id: guji-斛律金-event-death
+  date: '567'
+  year_of: 567
+  title_zh: 斛律金卒，享年约八十
+  description_zh: 于北齐天统年间薨逝（约567年）。
+  event_type: death
