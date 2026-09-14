@@ -1,0 +1,98 @@
+person:
+  qid: guji-zigong
+  name_zh: 子贡
+  names:
+    zh: 子贡
+    en: Zigong
+  lifespan:
+    birth:
+      date: -520
+      precision: year
+      is_circa: true
+      raw: 约公元前520年
+    death:
+      date: -456
+      precision: year
+      is_circa: true
+  birth_date: -520
+  death_date: -456
+  era: 春秋末期
+  reign_ref: 鲁国·孔门弟子时期
+  archetype: 孔门高弟·言语科贤人
+  dilemmas:
+  - 宰我、子贡以孔子为贤于尧舜，其言关乎圣人地位之判分，时人及后儒或疑过于推崇
+  - '#'
+  lesson: 知足以知圣人，不易之识也。
+  summary_first_person: 我是子贡，孔门言语之杰。我以孔子远过尧舜、生民未有，深知圣不易知，乃天下万世独宗夫子之先声。
+  source_urls:
+  - local://guji/知圣篇
+endeavors:
+- id: guji-zigong-endeavor-1
+  name_zh: 从学孔门
+  phases:
+  - key: brewing
+    name_zh: 入学受业
+    labels:
+      zh:
+      - 师从孔子
+    start_date: -520
+    highlight_event_id: guji-zigong-event-study
+  decisions:
+  - date: -500
+    title_zh: 判孔子贤于尧舜
+    rationale: 见六艺美善非古所有，以孔子统集群圣之成，故以为生民未有。
+- id: guji-zigong-endeavor-2
+  name_zh: 传扬圣道
+  phases:
+  - key: breakthrough
+    name_zh: 推尊夫子
+    labels:
+      zh:
+      - 知圣人
+      - 尊师
+    start_date: -481
+    highlight_event_id: guji-zigong-event-praise
+  decisions:
+  - date: -479
+    title_zh: 与宰我共推圣论
+    rationale: 汉人述其言曰'宰我、子贡知足以知圣人'，为素王说之源流之一。
+- id: guji-zigong-endeavor-3
+  name_zh: 承学不坠
+  phases:
+  - key: closure
+    name_zh: 七十子授受
+    labels:
+      zh:
+      - 门人传遗
+    start_date: -478
+    highlight_event_id: guji-zigong-event-inherit
+  decisions:
+  - date: -470
+    title_zh: 与门弟子留制作微言
+    rationale: 孔子与弟子商榷，特留制作之意，子贡与闻。
+events:
+- id: guji-zigong-event-birth
+  type: birth
+  date: -520
+  year_of: -520
+  detail: 子贡约生于此年，卫人，姓端木，名赐。
+- id: guji-zigong-event-death
+  type: death
+  date: -456
+  year_of: -456
+  detail: 子贡卒于此年前后。
+- id: guji-zigong-event-study
+  type: endeavor
+  date: -505
+  year_of: -505
+  detail: 从孔子受业，以言语著称于孔门。
+- id: guji-zigong-event-praise
+  type: endeavor
+  date: -481
+  year_of: -481
+  detail: 与宰我并称孔子远过尧舜、生民未有，知足以知圣人。
+- id: guji-zigong-event-inherit
+  type: endeavor
+  date: -478
+  year_of: -478
+  detail: 孔子殁后服丧守制，而后传述六艺经学，为七十子之一。

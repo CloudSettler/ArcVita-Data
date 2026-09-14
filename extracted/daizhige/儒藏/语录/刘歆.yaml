@@ -1,0 +1,111 @@
+person:
+  qid: guji-刘歆
+  name_zh: 刘歆
+  names:
+    zh: 刘歆
+    en: Liu Xin
+  lifespan:
+    birth:
+      date: '-50'
+      precision: decade
+      is_circa: true
+      raw: 约西汉宣帝年间
+    death:
+      date: '23'
+      precision: year
+      is_circa: false
+      raw: 新莽地皇四年
+  birth_date: '-50'
+  death_date: '23'
+  era: 西汉末年至新莽
+  reign_ref: 汉成帝、汉哀帝、汉平帝、王莽
+  archetype: 经学家与古文经学开创者
+  dilemmas:
+  - 倡导古文经学与今文博士之争，致仕途受挫
+  - 依附王莽以推行其学术与政治理想，身后名声受损
+  lesson: 仲尼卒而微言绝，七十子没而大义乖——学术传承之统绪一旦断裂，异说蜂起而真义难明。
+  summary_first_person: 我校定群书，争立《左氏春秋》等古文经于学官，以明孔子微言绝而后大义乖之叹；然身逢新莽之世，学与人俱蒙讥议。
+  source_urls:
+  - 知圣篇
+endeavors:
+- id: guji-刘歆-endeavor-1
+  name_zh: 校理秘书、总领群籍
+  phases:
+  - key: brewing
+    name_zh: 继父业入中秘校书
+    labels:
+      zh: 校书
+    start_date: '-26'
+  - key: breakthrough
+    name_zh: 撰《七略》、别集古文经
+    labels:
+      zh: 目录学
+    start_date: '-20'
+    highlight_event_id: guji-刘歆-event-e1
+  - key: climax
+    name_zh: 倡立古文经学
+    labels:
+      zh: 移书让博士
+    start_date: '-5'
+    highlight_event_id: guji-刘歆-event-e2
+  - key: closure
+    name_zh: 新莽时典领儒林制度
+    labels:
+      zh: 定五经
+    start_date: '4'
+  decisions:
+  - date: '-5'
+    title_zh: 责让太常博士，力主古文立学
+    rationale: 以孔子微言既绝、大义乖失为由，欲兴古文旧籍以复经学本真。
+- id: guji-刘歆-endeavor-2
+  name_zh: 著述经义、考制度
+  phases:
+  - key: brewing
+    name_zh: 承今文旧说而疑其分歧
+    labels:
+      zh: 问学
+    start_date: '-30'
+  - key: breakthrough
+    name_zh: 区别微言大义之传授
+    labels:
+      zh: 经说
+    start_date: '-15'
+    highlight_event_id: guji-刘歆-event-e3
+  - key: closure
+    name_zh: 名与《王制》《春秋》旧说相浚而为后世所引
+    labels:
+      zh: 影响
+    start_date: '10'
+  decisions:
+  - date: '-15'
+    title_zh: 断言仲尼卒而微言绝、七十子没而大义乖
+    rationale: 见诸家说分歧乖背，故推本源流以立统绪之论。
+events:
+- id: guji-刘歆-event-birth
+  date: '-50'
+  year_of: -50
+  type: birth
+  title_zh: 刘歆约生于西汉宣帝年间
+- id: guji-刘歆-event-e3
+  date: '-15'
+  year_of: -15
+  type: endeavor
+  title_zh: 慨言「仲尼卒而微言绝，七十子没而大义乖」
+  detail_zh: 其论遂为后世经学家探微言之统绪所祖述。
+- id: guji-刘歆-event-e1
+  date: '-20'
+  year_of: -20
+  type: endeavor
+  title_zh: 校理中秘书，成《七略》之业
+  detail_zh: 综群书目录，别识古文旧籍，开目录学之先声。
+- id: guji-刘歆-event-e2
+  date: '-5'
+  year_of: -5
+  type: endeavor
+  title_zh: 移书太常博士，争立《左氏春秋》等古文经
+  detail_zh: 与今文博士相攻讦，遂以经学门户之争名显于世。
+- id: guji-刘歆-event-death
+  date: '23'
+  year_of: 23
+  type: death
+  title_zh: 新莽末殁
