@@ -1,0 +1,116 @@
+person:
+  qid: guji-萧摩诃
+  name_zh: 萧摩诃
+  names:
+    zh: 萧摩诃
+    en: Xiao Mohe
+  lifespan:
+    birth:
+      date: '532'
+      precision: year
+      is_circa: true
+      raw: 约532年（史载生年不详，推断）
+    death:
+      date: '604'
+      precision: year
+      is_circa: true
+      raw: 约604年（隋仁寿年间卒）
+  birth_date: '0532'
+  death_date: '0604'
+  era: 南朝陈、隋
+  reign_ref: 陈宣帝太建年间、陈后主至德年间
+  archetype: 武将
+  dilemmas:
+  - 吕梁之战诸军败绩后，再率步骑抗击北周以卫淮南
+  - 陈末政权衰替中身居高位，效忠将尽之国
+  lesson: 悍勇冠绝一时，然势单难支倾厦之(GUI)朝，勇力不足以逆天下大势。
+  summary_first_person: 我以骁勇著称，太建年间屡任武毅将军、右卫将军等职，尝率步骑趣历阳、御北周之众；高宗崩后进位车骑将军、南徐州刺史，然淮南尽没，国势日蹙，终难挽狂澜。
+endeavors:
+- id: guji-萧摩诃-endeavor-1
+  name_zh: 太建北讨与淮南防御
+  phases:
+  - key: brewing
+    name_zh: 初任武职
+    labels:
+      zh:
+      - 军旅
+      - 骁勇
+    start_date: '0573'
+  - key: breakthrough
+    name_zh: 率军趣历阳
+    labels:
+      zh:
+      - 北讨
+      - 抗周
+    start_date: '0579-11-20'
+    highlight_event_id: guji-萧摩诃-event-lisaoyang
+  - key: climax
+    name_zh: 淮南尽没后的戍卫
+    labels:
+      zh:
+      - 卫戍
+      - 败退
+    start_date: 0579-12
+  - key: closure
+    name_zh: 陈亡臣隋
+    labels:
+      zh:
+      - 易代
+    start_date: 0589
+  decisions:
+  - date: '0579-11-20'
+    title_zh: 率步骑趣历阳抗周
+    rationale: 北周进围寿阳、淮南告急，奉命出击历阳以遏周军兵锋。
+- id: guji-萧摩诃-endeavor-2
+  name_zh: 仕历陈廷将帅之职
+  phases:
+  - key: brewing
+    name_zh: 迁转诸将军号
+    labels:
+      zh:
+      - 迁转
+      - 宿卫
+    start_date: 0579
+  - key: climax
+    name_zh: 拜车骑将军、南徐州刺史
+    labels:
+      zh:
+      - 方镇
+      - 荣宠
+    start_date: 0582-02
+    highlight_event_id: guji-萧摩诃-event-cheqi
+  - key: closure
+    name_zh: 陈末去职
+    labels:
+      zh:
+      - 易代
+    start_date: 0589
+  decisions:
+  - date: 0582-02
+    title_zh: 就任车骑将军、南徐州刺史
+    rationale: 后主即位，以宿将出镇京口要地，屏卫京师。
+events:
+- id: guji-萧摩诃-event-birth
+  date: '0532'
+  year_of: '0532'
+  type: birth
+  title_zh: 萧摩诃生（约）
+  description: 生年史无明文，推断约于532年。
+- id: guji-萧摩诃-event-lisaoyang
+  date: '0579-11-20'
+  year_of: 0579
+  type: endeavor
+  title_zh: 武毅将军萧摩诃率步骑趣历阳
+  description: 太建十一年十一月，周军进围寿阳、霍州又陷之际，萧摩诃率步骑进趋历阳，与樊毅、任忠等分道抗周。
+- id: guji-萧摩诃-event-cheqi
+  date: 0582-02
+  year_of: 0582
+  type: endeavor
+  title_zh: 迁车骑将军、南徐州刺史
+  description: 太建十四年正月，后主即位后，以右卫将军萧摩诃为车骑将军、南徐州刺史。
+- id: guji-萧摩诃-event-death
+  date: '0604'
+  year_of: '0604'
+  type: death
+  title_zh: 萧摩诃卒（约）
+  description: 陈亡入隋，约仁寿年间去世。

@@ -1,0 +1,99 @@
+person:
+  qid: guji-杜僧明
+  name_zh: 杜僧明
+  names:
+    zh: 杜僧明
+    en: Du Sengming
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 南朝梁
+  reign_ref: 梁武帝、侯景之乱时期
+  archetype: 骁将
+  dilemmas:
+  - 举兵反官军兵败被俘，降于陈霸先后由叛将转为心腹部将
+  lesson: 败而后降，能效死力者亦可为开国功臣
+  summary_first_person: 我杜僧明本与新州主帅杜天合等共举兵围广州，为陈霸先所破，遂降于他。此后我为陈氏效力，奉命屯兵岭上、据白口筑城御李迁仕，攻拔其城，擒送迁仕，终为陈霸先麾下得力战将。
+  source_urls:
+  - https://zh.wikisource.org/wiki/陳書/卷01
+endeavors:
+- id: guji-杜僧明-endeavor-1
+  name_zh: 起兵围广州与归降陈霸先
+  phases:
+  - key: brewing
+    name_zh: 结连举兵
+    labels:
+      zh: 结连豪杰
+    start_date: ''
+    highlight_event_id: guji-杜僧明-event-uprising
+  - key: breakthrough
+    name_zh: 降附陈氏
+    labels:
+      zh: 兵败归降
+    start_date: ''
+    highlight_event_id: guji-杜僧明-event-surrender
+  decisions:
+  - date: '-0540'
+    title_zh: 与杜天合等举兵围广州
+    rationale: 卢子雄、孙冏坐诛，子略等结连主帅各举兵报仇，进寇广州
+- id: guji-杜僧明-endeavor-2
+  name_zh: 为陈霸先征讨效命
+  phases:
+  - key: brewing
+    name_zh: 屯兵岭上
+    labels:
+      zh: 岭上屯兵
+    start_date: ''
+    highlight_event_id: guji-杜僧明-event-ling
+  - key: climax
+    name_zh: 白口之战
+    labels:
+      zh: 擒迁仕
+    start_date: '-0551'
+    highlight_event_id: guji-杜僧明-event-baikou
+  decisions:
+  - date: '-0551'
+    title_zh: 率二万人据白口筑城御李迁仕
+    rationale: 奉陈霸先命阻遏刘蔼等资助李迁仕舟舰兵仗将袭南康之势
+events:
+- id: guji-杜僧明-event-uprising
+  type: endeavor_start
+  title_zh: 与杜天合等共举兵，进寇广州
+  date: '-0540'
+  year_of: -540
+  precision: year
+  description_zh: 卢子雄弟子略与孙冏子侄及主帅杜天合、杜僧明共举兵，执南江督护沈顗，进寇广州，昼夜苦攻。
+  persons:
+  - guji-杜僧明
+- id: guji-杜僧明-event-surrender
+  type: pivotal
+  title_zh: 兵败投降陈霸先
+  date: '-0540'
+  year_of: -540
+  precision: year
+  description_zh: 陈霸先率精兵三千救援广州，频战屡捷，杜天合中流矢死，贼众大溃，僧明遂降，梁武帝深叹异焉。
+  persons:
+  - guji-杜僧明
+- id: guji-杜僧明-event-ling
+  type: endeavor
+  title_zh: 奉命与胡颖将二千人屯岭上
+  date: -0549-11
+  year_of: -549
+  precision: month
+  description_zh: 陈霸先遣杜僧明、胡颖将二千人顿于岭上，并厚结始兴豪杰同谋义举。
+  persons:
+  - guji-杜僧明
+- id: guji-杜僧明-event-baikou
+  type: pivotal
+  title_zh: 攻拔李迁仕城，生擒送南康
+  date: -0551-03
+  year_of: -551
+  precision: month
+  description_zh: 僧明等先率二万人据白口筑城御李迁仕，大宝二年三月攻拔其城，生擒迁仕送南康。
+  persons:
+  - guji-杜僧明

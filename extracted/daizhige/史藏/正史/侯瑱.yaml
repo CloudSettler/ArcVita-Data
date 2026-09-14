@@ -1,0 +1,151 @@
+person:
+  qid: guji-侯瑱
+  name_zh: 侯瑱
+  names:
+    zh: 侯瑱
+    en: Hou Tian
+  lifespan:
+    birth:
+      date: approximately '510'
+      precision: year
+      is_circa: true
+      raw: 生年史无明载
+    death:
+      date: '561'
+      precision: year
+      is_circa: false
+      raw: 卒于陈天嘉二年
+  birth_date: approximately '510'
+  death_date: '561'
+  era: 南朝梁末至陈初
+  reign_ref: 梁敬帝、陈武帝陈霸先
+  archetype: 割据方镇归附开国之臣
+  dilemmas:
+  - 据有江州，介于梁陈鼎革之际，抉择依附新朝
+  - 曾经梁室官爵，对禅代正当性的内心权衡
+  lesson: 群雄逐鹿之时，识时而附，方保一方与身名。
+  summary_first_person: 我侯瑱本为梁将，拥兵江州。陈霸先削平建康群逆、威震上下游之后，我在太平二年以江州之地入附陈氏，遂为其镇守上流之重臣。
+endeavors:
+- id: guji-侯瑱-endeavor-1
+  name_zh: 保据江州
+  labels:
+    zh:
+    - 割据江州
+  phases:
+  - key: brewing
+    name_zh: 仕梁掌兵
+    labels:
+      zh:
+      - 仕梁
+    start_date: '548'
+    highlight_event_id: guji-侯瑱-event-join-liang
+  - key: breakthrough
+    name_zh: 雄据上游
+    labels:
+      zh:
+      - 拥兵江州
+    start_date: '555'
+    highlight_event_id: guji-侯瑱-event-hold-jiangzhou
+  - key: climax
+    name_zh: 举州归陈
+    labels:
+      zh:
+      - 以江州入附
+    start_date: 557-10
+    highlight_event_id: guji-侯瑱-event-surrender-jiangzhou
+  - key: closure
+    name_zh: 陈朝重镇
+    labels:
+      zh:
+      - 镇守西陲
+    start_date: '558'
+    highlight_event_id: guji-侯瑱-event-defend-chen
+  decisions:
+  - date: 557-10
+    title_zh: 以江州入附陈霸先
+    rationale: 陈氏既平石头、姑孰之逆，威加海内，审时度势，举州归附以免兵祸。
+- id: guji-侯瑱-endeavor-2
+  name_zh: 卫戍陈室上游
+  labels:
+    zh:
+    - 镇守上流
+  phases:
+  - key: brewing
+    name_zh: 受遣备江州
+    labels:
+      zh:
+      - 备御
+    start_date: '558'
+    highlight_event_id: guji-侯瑱-event-defend-chen
+  - key: climax
+    name_zh: 拒王琳诛萧勃之役
+    labels:
+      zh:
+      - 平定上游
+    start_date: 558-02
+    highlight_event_id: guji-侯瑱-event-anti-wanglin
+  decisions:
+  - date: '558'
+    title_zh: 受高祖所授南徐州之封，出镇上游
+    rationale: 高祖表解南徐州以授侯安都，遣将镇上流、定南中诸郡，我以江州之众实尾随其间。
+events:
+- id: guji-侯瑱-event-birth
+  date: approximately '510'
+  year_of: '510'
+  title_zh: 侯瑱生
+  participants:
+  - guji-侯瑱
+  location_zh: 巴西充国
+  description_zh: 侯瑱生于南朝，生年史无确载，约当梁初。
+- id: guji-侯瑱-event-join-liang
+  date: approximately '550'
+  year_of: '550'
+  title_zh: 仕梁历职方镇
+  participants:
+  - guji-侯瑱
+  location_zh: 荆湘
+  description_zh: 侯瑱于梁末丧乱之际起家行伍，累历将职，渐成一方势力。
+- id: guji-侯瑱-event-hold-jiangzhou
+  date: approximately '556'
+  year_of: '556'
+  title_zh: 拥兵江州，雄据上流
+  participants:
+  - guji-侯瑱
+  location_zh: 江州
+  description_zh: 梁室倾颓之际，侯瑱拥兵江州，成为上流举足轻重的方镇。
+- id: guji-侯瑱-event-surrender-jiangzhou
+  date: 557-10
+  year_of: '557'
+  title_zh: 侯瑱以江州入附
+  participants:
+  - guji-侯瑱
+  - guji-陈霸先
+  location_zh: 江州
+  description_zh: 是月，侯瑱以江州之地入附，时高祖陈霸先方受诏为中书监、司徒，进爵为公。
+- id: guji-侯瑱-event-defend-chen
+  date: approximately '557-11'
+  year_of: '557'
+  title_zh: 遣将镇上流，定南中诸郡
+  participants:
+  - guji-侯安都
+  - guji-侯瑱
+  location_zh: 上流诸郡
+  description_zh: 侯瑱归附后，高祖遣侯安都镇上流，定南中诸郡，江州遂为陈室上游屏障。
+- id: guji-侯瑱-event-anti-wanglin
+  date: 558-08
+  year_of: '558'
+  title_zh: 讨湘州王琳之役
+  participants:
+  - guji-侯瑱
+  - guji-周文育
+  - guji-侯安都
+  location_zh: 湘州
+  description_zh: 湘州刺史王琳拥兵不应命，高祖遣周文育、侯安都率众讨之，侯瑱亦在上流经略之列。
+- id: guji-侯瑱-event-death
+  date: '561'
+  year_of: '561'
+  title_zh: 侯瑱卒
+  participants:
+  - guji-侯瑱
+  location_zh: 建康
+  description_zh: 侯瑱卒于陈天嘉二年，为陈初宣力上游之重臣。

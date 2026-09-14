@@ -1,0 +1,203 @@
+person:
+  qid: guji-章昭达
+  name_zh: 章昭达
+  names:
+    zh: 章昭达
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 南朝陈（陈文帝、废帝在位期间）
+  reign_ref: 陈世祖文皇帝（陈蒨）· 陈废帝（陈伯宗）
+  archetype: 武将·讨叛平乱之帅臣
+  dilemmas:
+  - 受命连年征讨周迪、陈宝应等反叛势力，兵无宁岁而民力疲敝
+  - 屡立战功位至方面，需在皇权更迭与宗室纷争中谨慎自处
+  lesson: 以南征北讨安定方隅，功名著于江左。
+  summary_first_person: 我章昭达出为郢州刺史，天嘉年间奉诏讨伐周迪，大破之；继又进军建安平陈宝应，擒陈宝应、留异送京师，晋安郡遂平。此后历镇前将军、开府仪同三司、江州刺史，废帝时进号征南大将军，官至中抚大将军，为陈室南疆支柱。
+endeavors:
+- id: guji-章昭达-endeavor-1
+  name_zh: 讨平周迪之乱
+  phases:
+  - key: brewing
+    name_zh: 拜任护军将军
+    labels:
+      zh:
+      - 出镇郢州
+      - 迁护军
+    start_date: 563-02
+    highlight_event_id: guji-章昭达-event-promotion-hujun
+  - key: breakthrough
+    name_zh: 奉诏进讨
+    labels:
+      zh:
+      - 出征临川
+    start_date: 563-10
+    highlight_event_id: guji-章昭达-event-ordered-attack-zhoudi
+  - key: climax
+    name_zh: 大破周迪
+    labels:
+      zh:
+      - 大捷
+    start_date: 563-12
+    highlight_event_id: guji-章昭达-event-defeat-zhoudi
+  - key: closure
+    name_zh: 善后叙功
+    labels:
+      zh:
+      - 临川渐平
+    start_date: 563-12
+    highlight_event_id: guji-章昭达-event-defeat-zhoudi
+  decisions:
+  - date: 563-10
+    title_zh: 受诏率众讨周迪
+    rationale: 周迪复寇临川，朝廷命护军章昭达率军讨伐，以清东南。
+- id: guji-章昭达-endeavor-2
+  name_zh: 进军建安平陈宝应
+  phases:
+  - key: brewing
+    name_zh: 受诏进军建安
+    labels:
+      zh:
+      - 多路会师
+    start_date: 564-01
+    highlight_event_id: guji-章昭达-event-ordered-chenbaoying
+  - key: climax
+    name_zh: 建安大捷
+    labels:
+      zh:
+      - 擒宝应、留异
+      - 晋安平
+    start_date: 564-12
+    highlight_event_id: guji-章昭达-event-defeat-chenbaoying
+  - key: closure
+    name_zh: 论功进位
+    labels:
+      zh:
+      - 迁镇前将军、开府仪同三司
+    start_date: 564-12
+    highlight_event_id: guji-章昭达-event-promotion-zhenqian
+  decisions:
+  - date: 564-01
+    title_zh: 进军建安讨陈宝应
+    rationale: 大破周迪后受诏乘胜讨闽州刺史陈宝应，与余孝顷东道诸军会师。
+- id: guji-章昭达-endeavor-3
+  name_zh: 镇抚江州·迁转方面
+  phases:
+  - key: brewing
+    name_zh: 出镇江州
+    labels:
+      zh:
+      - 镇南将军、江州刺史
+    start_date: 567-01
+    highlight_event_id: guji-章昭达-event-jiangzhou-governor
+  - key: climax
+    name_zh: 废帝朝进号
+    labels:
+      zh:
+      - 征南大将军
+      - 中抚大将军
+    start_date: 568-02
+    highlight_event_id: guji-章昭达-event-zhengnan-dajiangjun
+  - key: closure
+    name_zh: 迁中抚大将军
+    labels:
+      zh:
+      - 入辅中枢
+    start_date: 568-10
+    highlight_event_id: guji-章昭达-event-zhongfu-dajiangjun
+  decisions:
+  - date: 568-10
+    title_zh: 由征南大将军转任中抚大将军
+    rationale: 江州既平，朝廷召还中枢。🖕
+events:
+- id: guji-章昭达-event-promotion-hujun
+  date: 563-02
+  type: career
+  title_zh: 以平西将军、郢州刺史章昭达为护军将军
+  description: 天嘉四年春正月壬辰，朝廷以平西将军、郢州刺史章昭达为护军将军。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 郢州
+- id: guji-章昭达-event-ordered-attack-zhoudi
+  date: 563-10
+  type: military
+  title_zh: 诏护军章昭达率众讨周迪
+  description: 天嘉四年九月辛未，周迪复寇临川，诏护军章昭达率众讨之。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 临川郡
+- id: guji-章昭达-event-defeat-zhoudi
+  date: 563-12
+  type: military
+  title_zh: 章昭达大破周迪
+  description: 天嘉四年十一月辛酉，章昭达大破周迪，悉擒其党与，迪脱身潜窜。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 临川郡
+- id: guji-章昭达-event-ordered-chenbaoying
+  date: 564-01
+  type: military
+  title_zh: 诏护军将军章昭达进军建安讨陈宝应
+  description: 天嘉四年十二月丙申，诏护军将军章昭达进军建安讨陈宝应，余孝顷督会稽、东阳等诸军自东道会之。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 建安郡
+- id: guji-章昭达-event-defeat-chenbaoying
+  date: 564-12
+  type: military
+  title_zh: 章昭达破陈宝应于建安
+  description: 天嘉五年十一月己丑，章昭达破陈宝应于建安，擒宝应、留异送京师，晋安郡平。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 建安郡
+  - name_zh: 晋安郡
+- id: guji-章昭达-event-promotion-zhenqian
+  date: 564-12
+  type: career
+  title_zh: 以护军将军章昭达为镇前将军、开府仪同三司
+  description: 天嘉五年十一月甲辰，以护军将军章昭达为镇前将军、开府仪同三司，酬建安之功。
+  persons:
+  - guji-章昭达
+- id: guji-章昭达-event-jiangzhou-governor
+  date: 567-01
+  type: career
+  title_zh: 以章昭达为镇南将军、江州刺史
+  description: 天嘉六年十二月丁巳，以镇前将军、开府仪同三司章昭达为镇南将军、江州刺史。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 江州
+- id: guji-章昭达-event-zhengnan-generals
+  date: 568-01
+  type: career
+  title_zh: 章昭达进号征南将军、加侍中
+  description: 天康元年废帝即位后，以镇南将军、开府仪同三司、江州刺史章昭达为侍中，进号征南将军。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 江州
+- id: guji-章昭达-event-zhengnan-dajiangjun
+  date: 568-02
+  type: career
+  title_zh: 章昭达进号征南大将军
+  description: 光大二年春正月己亥，侍中、征南将军、开府仪同三司、江州刺史章昭达进号征南大将军。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 江州
+- id: guji-章昭达-event-zhongfu-dajiangjun
+  date: 568-10
+  type: career
+  title_zh: 以章昭达为中抚大将军
+  description: 光大二年九月丙午，以侍中、征南大将军、开府仪同三司、江州刺史章昭达为中抚大将军。
+  persons:
+  - guji-章昭达
+  places:
+  - name_zh: 江州
