@@ -1,0 +1,130 @@
+person:
+  qid: guji-刘知几
+  name_zh: 刘知几
+  names:
+    zh: 刘知几
+    en: Liu Zhiji
+  lifespan:
+    birth:
+      date: 661
+      precision: year
+      is_circa: true
+      raw: 约唐龙朔年间（约661年）
+    death:
+      date: 721
+      precision: year
+      is_circa: true
+      raw: 约唐开元九年（约721年）
+  birth_date: 661
+  death_date: 721
+  era: 唐
+  reign_ref: 武后至中宗、睿宗朝（约当景龙前后）
+  archetype: 史学家
+  dilemmas:
+  - 直笔示褒贬则朝野咸知，取嫉权门、见雠贵族，常人之情不能无畏
+  - 史馆众手修书，人自为家，意尚不一，头白可期而汗青无日
+  lesson: 国之图史皆出一家，未闻借功于众；众手纷纭，则褒贬无所归、成书无日
+  summary_first_person: 我是刘知几，唐人，一字子元。尝为秘书少监，时宰相萧至忠领监修国史，史司取士溢多，人自为荀袁，家自为政骏，每记一事载一言，阁笔相视，含毫不断，头白可期而汗青无日。我因此致书于至忠，力陈修史五不可，谓国之图史皆当出一家，未闻借功于众；又申言作者如林，傥示褒贬，曾未绝口而朝野咸知，孙盛取嫉于权门，王劭见雠于贵族，直笔之难，古今同慨。
+endeavors:
+- id: guji-刘知几-endeavor-1
+  name_zh: 供职史馆与“五不可”之谏
+  summary: 任秘书少监预闻国史，因监修不一、众手迁延而上书陈五不可
+  phases:
+  - key: brewing
+    name_zh: 供职史馆预修国史
+    labels:
+      zh:
+      - 史馆
+      - 修国史
+    start_date: 约699
+  - key: breakthrough
+    name_zh: 拜秘书少监，值萧至忠领监修
+    labels:
+      zh:
+      - 秘书少监
+    start_date: 约707
+    highlight_event_id: guji-刘知几-event-shishaojian
+  - key: climax
+    name_zh: 病意尚不一，致书萧至忠言五不可
+    labels:
+      zh:
+      - 五不可
+      - 忤时
+    start_date: 约708
+    highlight_event_id: guji-刘知几-event-wubuke
+  - key: closure
+    name_zh: 以一家之学自任而去史职
+    labels:
+      zh:
+      - 一家之学
+    start_date: 约708
+  decisions:
+  - date: 约708
+    title_zh: 上书监修萧至忠，陈史馆修史五不可
+    rationale: 史司取士溢多，人自为荀袁，家自为政骏，每记一事载一言，阁笔相视，含毫不断，故言国之图史皆出一家，未闻借功于众
+- id: guji-刘知几-endeavor-2
+  name_zh: 倡直笔一家之史学
+  summary: 申明作史五不可之理，以孙盛、王劭为例，明直笔虽危而不可废
+  phases:
+  - key: brewing
+    name_zh: 深省史职利害
+    labels:
+      zh:
+      - 史德
+      - 直笔
+    start_date: 约707
+  - key: climax
+    name_zh: 申论直笔见惮之危
+    labels:
+      zh:
+      - 孙盛
+      - 王劭
+      - 褒贬
+    start_date: 约708
+    highlight_event_id: guji-刘知几-event-zhibi
+  - key: closure
+    name_zh: 遗论为后世史家所称
+    labels:
+      zh:
+      - 子元之说
+    start_date: 约721
+  decisions:
+  - date: 约708
+    title_zh: 不避权门之嫉，持褒贬直笔之说
+    rationale: 史以辨正朔、存褒贬为大法，孙盛取嫉权门、王劭见雠贵族，然常人之情虽畏，不可以畏而废直书
+events:
+- id: guji-刘知几-event-birth
+  type: birth
+  date: 661
+  year_of: 661
+  is_circa: true
+  title_zh: 刘知几生
+  description: 生于唐；文中仅称唐刘子元，生年据通行考证系年
+- id: guji-刘知几-event-shishaojian
+  type: office
+  date: 约707
+  year_of: 707
+  is_circa: true
+  title_zh: 为秘书少监，值宰相萧至忠领监修国史
+  description: 刘子元为秘书少监时，宰相萧至忠领监修，史馆意尚不一
+- id: guji-刘知几-event-wubuke
+  type: deed
+  date: 约708
+  year_of: 708
+  is_circa: true
+  title_zh: 致书萧至忠，陈修史五不可
+  description: 病众手修史之弊，首言国之图史皆出一家，未闻借功于众；今史司取士溢多，人自为荀袁，家自为政骏，每记一事载一言，阁笔相视，含毫不断，头白可期，汗青无日
+- id: guji-刘知几-event-zhibi
+  type: statement
+  date: 约708
+  year_of: 708
+  is_circa: true
+  title_zh: 申论作史直笔见惮之理（五不可之三）
+  description: 史局深籍禁门所以杜颜面、防请谒；今作者如林，傥示褒贬，曾未绝口而朝野咸知；孙盛取嫉权门，王劭见雠贵族，常人之情不能无畏
+- id: guji-刘知几-event-death
+  type: death
+  date: 721
+  year_of: 721
+  is_circa: true
+  title_zh: 刘知几卒
+  description: 卒于唐开元初；文中仅称唐刘子元，卒年据通行考证系年
