@@ -1,0 +1,101 @@
+person:
+  qid: guji-薛居正
+  name_zh: 薛居正
+  names:
+    zh: 薛居正
+    en: Xue Juzheng
+  lifespan:
+    birth:
+      date: '912'
+      precision: year
+      is_circa: true
+      raw: 约912年
+    death:
+      date: '981'
+      precision: year
+      is_circa: false
+  birth_date: 约912年
+  death_date: '981'
+  era: 北宋
+  reign_ref: 宋开宝年间
+  archetype: 史官
+  dilemmas:
+  - 五代朝代更迭频繁、诸臣历事数朝，断代立传难以褒贬分明，史体不易安排
+  lesson: 以官修之力囊括乱世本末，虽文笔不及欧史谨严，而叙事详核、是非不诡于正，足为后世鉴观之资
+  summary_first_person: 我薛居正于宋开宝年间奉诏监修五代史，与卢多逊、扈蒙、李昉等同修，断代为书如陈寿三国志之体，成书一百五十卷，时称旧五代史，司马光通鉴多采用之。后因金泰和间专用欧阳修新史，我书渐就湮没，赖四库馆臣自永乐大典中搜辑复完。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/薛居正
+endeavors:
+- id: guji-薛居正-endeavor-1
+  name_zh: 监修《旧五代史》
+  labels:
+    zh:
+    - 官修史书
+    - 监修国史
+  phases:
+  - key: brewing
+    name_zh: 奉诏开修
+    labels:
+      zh:
+      - 宋开宝中奉诏
+    start_date: '968'
+  - key: breakthrough
+    name_zh: 分代修撰
+    labels:
+      zh:
+      - 卢多逊扈蒙张澹李昉刘兼李穆李九龄同修
+    start_date: '970'
+  - key: climax
+    name_zh: 书成进呈
+    labels:
+      zh:
+      - 书成凡百五十卷
+    start_date: '974'
+    highlight_event_id: guji-薛居正-event-shucheng
+  - key: closure
+    name_zh: 流传与湮没复显
+    labels:
+      zh:
+      - 与欧史并行
+      - 金泰和后渐微
+      - 四库辑复
+    start_date: '977'
+  decisions:
+  - date: '968'
+    title_zh: 奉诏监修五代史
+    rationale: 宋初太宗（时为太祖）欲上承唐室下开宋，纪五代兴衰之详，以官撰宏纲括八姓十三主之事
+  - date: '973'
+    title_zh: 仿陈寿三国志断代为书之体
+    rationale: 于梁唐晋汉周按代分编，以专事一朝及更事数姓者参错列传，还其旧体
+events:
+- id: guji-薛居正-event-birth
+  event_type: birth
+  date: 0912
+  year_of: 912
+  precision: year
+  is_circa: true
+  title_zh: 薛居正出生
+- id: guji-薛居正-event-fengzhao
+  event_type: endeavor_milestone
+  endeavor_ids:
+  - guji-薛居正-endeavor-1
+  date: 0968
+  year_of: 968
+  precision: era
+  title_zh: 宋开宝中奉诏监修五代史
+  description_zh: 诏修五代史，卢多逊、扈蒙、张澹、李昉、刘兼、李穆、李九龄同修，宰相薛居正监修。
+- id: guji-薛居正-event-shucheng
+  event_type: endeavor_milestone
+  endeavor_ids:
+  - guji-薛居正-endeavor-1
+  date: 0974
+  year_of: 974
+  precision: era
+  title_zh: 《五代史》成书一百五十卷
+  description_zh: 书成凡百五十卷，括八姓十三主之事，具有本末，时称旧五代史，与后来欧阳修新史并行。
+- id: guji-薛居正-event-death
+  event_type: death
+  date: 0981
+  year_of: 981
+  precision: year
+  title_zh: 薛居正去世

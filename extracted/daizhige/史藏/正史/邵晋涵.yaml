@@ -1,0 +1,125 @@
+person:
+  qid: guji-shaojinhan
+  name_zh: 邵晋涵
+  names:
+    zh: 邵晋涵
+    en: Shao Jinhan
+  lifespan:
+    birth:
+      date: '1743'
+      precision: year
+      is_circa: true
+      raw: 清乾隆八年
+    death:
+      date: '1796'
+      precision: year
+      is_circa: true
+      raw: 清嘉庆元年
+  birth_date: '1743'
+  death_date: '1796'
+  era: 清代乾隆年间
+  reign_ref: 乾隆
+  archetype: 学者型史官编纂家
+  dilemmas:
+  - 辑佚成书是否应仿刘昫旧唐书之例列入正史学官
+  - 薛史体例残阙与欧史谨严之间的史学抉择
+  lesson: 残缣断简之中孜孜搜辑，可使湮没七百余年的史籍重显于世
+  summary_first_person: 我是邵晋涵，以翰林院编修充四库全书馆纂修官，主纂《旧五代史》，从《永乐大典》各韵所引薛居正书甄録条系，复采《册府元龟》诸书补阙考证，勒成一百五十卷五十八册，使其重列于廿三史之目。
+  source_urls:
+  - https://www.zh.wikisource.org/旧五代史
+endeavors:
+- id: guji-shaojinhan-endeavor-1
+  name_zh: 辑编旧五代史
+  phases:
+  - key: brewing
+    name_zh: 馆阁供职
+    labels:
+      zh: 四库纂修
+    start_date: 1773
+    highlight_event_id: guji-shaojinhan-event-entry
+  - key: breakthrough
+    name_zh: 大典辑佚
+    labels:
+      zh: 甄録条系
+    start_date: 1774
+    highlight_event_id: guji-shaojinhan-event-recover
+  - key: climax
+    name_zh: 校勘成书
+    labels:
+      zh: 勒成百五十卷
+    start_date: '1774'
+    highlight_event_id: guji-shaojinhan-event-complete
+  - key: closure
+    name_zh: 呈览刊布
+    labels:
+      zh: 进呈御览
+    start_date: '1775'
+    highlight_event_id: guji-shaojinhan-event-present
+  decisions:
+  - date: 1775
+    title_zh: 仿刘昫旧唐书之例列旧五代史于廿三史
+    rationale: 书成呈览，馆臣请列于正史刊布学官，俾与欧史相辅而行
+  - date: 1775
+    title_zh: 按代分编以还薛史原书体例
+    rationale: 考诸臣列传体例，知其于梁唐晋汉周断代为书，故仍按代分编
+- id: guji-shaojinhan-endeavor-2
+  name_zh: 考证辨证二史异同
+  phases:
+  - key: brewing
+    name_zh: 参互校订
+    labels:
+      zh: 徧采诸书
+    start_date: '1774'
+    highlight_event_id: guji-shaojinhan-event-verify
+  - key: climax
+    name_zh: 附考订讹
+    labels:
+      zh: 辨证折衷
+    start_date: '1775'
+    highlight_event_id: guji-shaojinhan-event-complete
+  decisions:
+  - date: 1775
+    title_zh: 仿裴松之三国志注体例附陶岳五代史补等
+    rationale: 虽事多碎要，为有禆史学，故附见于后
+events:
+- id: guji-shaojinhan-event-birth
+  date: 1743
+  year_of: 1743
+  type: birth
+  name_zh: 邵晋涵生于清乾隆年间
+  source: 常规生平推断
+- id: guji-shaojinhan-event-entry
+  date: 1773
+  year_of: 1773
+  type: endeavor-start
+  endeavor_id: guji-shaojinhan-endeavor-1
+  name_zh: 以翰林院编修充四库全书馆纂修官
+- id: guji-shaojinhan-event-recover
+  date: 1774
+  year_of: 1774
+  type: achievement
+  endeavor_id: guji-shaojinhan-endeavor-1
+  name_zh: 于永乐大典各韵甄録薛史原文，得十之八九
+- id: guji-shaojinhan-event-verify
+  date: 1774
+  year_of: 1774
+  type: achievement
+  endeavor_id: guji-shaojinhan-endeavor-2
+  name_zh: 采册府元龟太平御览诸书补阙，参互校订新旧史籍
+- id: guji-shaojinhan-event-complete
+  date: 1775
+  year_of: 1775
+  type: achievement
+  endeavor_id: guji-shaojinhan-endeavor-1
+  name_zh: 勒成旧五代史一百五十卷，分装五十八册，各加考证
+- id: guji-shaojinhan-event-present
+  date: '1775'
+  year_of: '1775'
+  type: achievement
+  endeavor_id: guji-shaojinhan-endeavor-1
+  name_zh: 永瑢等率同纂修官邵晋涵进呈御览，请列廿三史刊布学官
+- id: guji-shaojinhan-event-death
+  date: '1796'
+  year_of: '1796'
+  type: death
+  name_zh: 邵晋涵卒
