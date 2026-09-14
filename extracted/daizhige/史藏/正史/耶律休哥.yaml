@@ -1,0 +1,122 @@
+person:
+  qid: guji-耶律休哥
+  name_zh: 耶律休哥
+  names:
+    zh: 耶律休哥
+    en: Yelü Xiuge
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      date: 998-12
+      precision: month
+      is_circa: false
+      raw: 统和十六年十二月丙戌朔，宋国王休哥薨
+  death_date: 998-12
+  era: 辽（统和年间）
+  reign_ref: 辽圣宗统和
+  archetype: 宗室名将
+  dilemmas:
+  - 边帅功高震主，身后诸子谋叛伏诛
+  lesson: 一代名将之荣辱系于君心，门庭之祸常在身后
+  summary_first_person: 我是辽室宗王，久镇南京、御宋为边帅，官至宋国王，显赫一时。统和十六年十二月，我薨逝，皇帝辍朝五日以致哀荣。然我死之后二十余年，我的儿子道士奴、高九等谋叛，竟遭伏诛，家门荣辱_TBL成败皆系于朝堂。
+  source_urls:
+  - https://zh.wikisource.org/wiki/遼史/卷15
+  notes: 本卷为《辽史·圣宗纪六》，休哥事迹仅见卒年，反推其生平为宋伐诸役名将；追叙其子谋叛事。
+endeavors:
+- id: guji-耶律休哥-endeavor-1
+  name_zh: 镇御南京、屡抗宋军
+  roles:
+  - 南京留守
+  - 宋国王
+  summary_zh: 统和年间，耶律休哥长期镇守南京（幽州），屡次参与对宋战事，为辽朝南面边防统帅，封宋国王，即本卷所载'宋国王休哥'。
+  dates:
+    start: 983
+    end: 998-12
+  phases:
+  - key: breakthrough
+    name_zh: 执掌南京兵柄，与宋相持
+    labels:
+      zh:
+      - 边防统帅
+    start_date: 983
+    highlight_event_id: guji-耶律休哥-event-career-1
+  - key: climax
+    name_zh: 晋封宋国王，位望极隆
+    labels:
+      zh:
+      - 晋封国王
+    start_date: 998
+    highlight_event_id: guji-耶律休哥-event-death
+  decisions:
+  - date: 998
+    title_zh: 统和十六年薨于南京
+    rationale: 宿将寿终，圣宗辍朝五日，进封诸弟以代其镇南之寄
+- id: guji-耶律休哥-endeavor-2
+  name_zh: 身后门庭之变与其余波
+  roles:
+  - 于越之后（家系）
+  summary_zh: 统和二十一年（1023）十一月，休哥之子道士奴、高九等谋叛，事败伏诛，家道中衰；同年朝议通括南院部民，门荫之势尽消。
+  dates:
+    start: 1023-11
+    end: 1023-11
+  phases:
+  - key: closure
+    name_zh: 子嗣谋叛伏诛
+    labels:
+      zh:
+      - 家门之祸
+    start_date: 1023-11
+    highlight_event_id: guji-耶律休哥-event-sons-revolt
+  decisions:
+  - date: '1023-11-12'
+    title_zh: 诸子谋叛
+    rationale: 史不载其由，或因功臣之后失势，遂以叛诛
+events:
+- id: guji-耶律休哥-event-birth
+  event_type: birth
+  is_circa: false
+  precision: unknown
+  actors:
+  - 耶律休哥
+  summary_zh: 生年史籍未载，本纪无确文可据。
+  source_refs:
+  - article: 辽史·圣宗纪六
+- id: guji-耶律休哥-event-career-1
+  event_type: career
+  date: 998
+  year_of: 998
+  is_circa: true
+  precision: year
+  actors:
+  - 耶律休哥
+  summary_zh: 统和十六年，休哥以宋国王之号见载于本纪，久任南京御宋统帅，位望极隆。
+  place: 南京（幽州）
+  source_refs:
+  - article: 辽史·圣宗纪六
+- id: guji-耶律休哥-event-death
+  event_type: death
+  date: 998-12
+  year_of: 998
+  is_circa: false
+  precision: month
+  actors:
+  - 耶律休哥
+  summary_zh: 统和十六年十二月丙戌朔，宋国王休哥薨，辽圣宗辍朝五日以示哀荣；时进封皇弟隆庆为梁国王、南京留守，以承其南面之任。
+  place: 辽南京
+  source_refs:
+  - article: 辽史·圣宗纪六
+- id: guji-耶律休哥-event-sons-revolt
+  event_type: career
+  date: '1023-11-12'
+  year_of: 1023
+  is_circa: false
+  precision: day
+  actors:
+  - 耶律道士奴
+  - 高九
+  summary_zh: 统和二十一年十一月壬辰，故于越耶律休哥之子道士奴、高九等谋叛，伏诛，家门自此式微。
+  place: 辽
+  source_refs:
+  - article: 辽史·圣宗纪六
