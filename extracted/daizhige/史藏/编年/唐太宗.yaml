@@ -1,0 +1,90 @@
+person:
+  qid: guji-唐太宗
+  name_zh: 唐太宗
+  names:
+    zh: 唐太宗
+    en: Emperor Taizong of Tang
+  lifespan:
+    birth:
+      date: '598'
+      precision: year
+      is_circa: true
+      raw: 旧史载隋开皇年末
+    death:
+      date: 649-05-10
+      precision: day
+      is_circa: false
+      raw: 唐太宗贞观二十三年
+  birth_date: '598'
+  death_date: 649-05-10
+  era: 唐
+  reign_ref: 唐太宗贞观（627—649）
+  archetype: 明君
+  dilemmas:
+  - 玄武门之变兄弟相残与夺取帝位
+  - 纳谏与君威之间的平衡
+  lesson: 以民为本、虚心纳谏方成贞观之治
+  summary_first_person: 我李世民以武功定天下，以文德致太平，虚心纳谏、任贤纳善，遂开贞观之治。
+  source_urls:
+  - 御批历代通鉴辑览卷五十、五十一
+endeavors:
+- id: guji-唐太宗-endeavor-1
+  name_zh: 贞观之治
+  phases:
+  - key: brewing
+    name_zh: 即位之初
+    labels:
+      zh: 安定政局
+    start_date: 626-09-04
+    highlight_event_id: guji-唐太宗-event-throne
+  - key: breakthrough
+    name_zh: 贞观十年前
+    labels:
+      zh: 修明内政
+    start_date: '627'
+    highlight_event_id: guji-唐太宗-event-zhenguan1
+  - key: climax
+    name_zh: 贞观中后期
+    labels:
+      zh: 治道大成
+    start_date: '637'
+    highlight_event_id: guji-唐太宗-event-zhenguan2
+  - key: closure
+    name_zh: 晚年
+    labels:
+      zh: 传后
+    start_date: '649'
+    highlight_event_id: guji-唐太宗-event-death
+  decisions:
+  - date: '627'
+    title_zh: 改元贞观
+    rationale: 革新政治，以新时代号砥砺治理
+  - date: '637'
+    title_zh: 继行贞观十一年政教
+    rationale: 继续推行守法纳谏之政
+events:
+- id: guji-唐太宗-event-birth
+  date: '598'
+  year_of: '598'
+  type: birth
+  title_zh: 李世民生于武功
+- id: guji-唐太宗-event-throne
+  date: 626-09-04
+  year_of: '626'
+  type: endeavor
+  title_zh: 即皇帝位，次年改元贞观
+- id: guji-唐太宗-event-zhenguan1
+  date: 627-01-23
+  year_of: '627'
+  type: endeavor
+  title_zh: 改元贞观，励精图治
+- id: guji-唐太宗-event-zhenguan2
+  date: '637'
+  year_of: '637'
+  type: endeavor
+  title_zh: 贞观十一年，治政益修，承前启后
+- id: guji-唐太宗-event-death
+  date: 649-05-10
+  year_of: '649'
+  type: death
+  title_zh: 崩于长安，葬昭陵
