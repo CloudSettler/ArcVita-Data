@@ -1,0 +1,190 @@
+person:
+  qid: guji-萧承之
+  name_zh: 萧承之
+  names:
+    zh: 萧承之
+    en: Xiao Chengzhi
+  字: 嗣伯
+  lifespan:
+    birth:
+      date: 0384
+      precision: circa
+      is_circa: true
+      raw: 元嘉二十四年殂，年六十四（逆推）
+    death:
+      date: '0447'
+      precision: year
+      is_circa: false
+      raw: 元嘉二十四年
+  生卒说明: 卒于宋元嘉二十四年（447），年六十四
+  birth_date: 0384
+  death_date: '0447'
+  era: 东晋末—刘宋
+  reign_ref: 宋文帝元嘉年间
+  archetype: 军政方略家
+  dilemmas:
+  - 兵少城危之际，示弱必被屠，示强恐是空城，如何以疑兵退敌
+  - 治民与武干之间权衡，授兖州刺史之命因无权贵奥援而寝
+  - 彭城王义康秉政，不肯依附而仕途受抑
+  lesson: 处绝境不敢示弱，治民直道不阿权贵，忠果奋勇，功成而位不尽显，身后为基业张本。
+  summary_first_person: 我是萧承之，字嗣伯。少有大志，才力过人，历建威参军、济南太守。北虏犯济南，我以数百人拒战，更偃兵开城门，示强惑敌，虏疑有伏而退。汉中氐乱，我轻军破黄金山，破薛健、赵温，断槊捶犀甲之贼，连战皆捷，梁州平定。文帝欲授青州而不果。元嘉二十四年卒，后追赠金紫光禄大夫，子道成代齐而兴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+  追赠: 宋升明二年九月赠太常；升明二年赠散骑常侍、金紫光禄大夫
+endeavors:
+- id: guji-萧承之-endeavor-1
+  name_zh: 佐军绥抚与济南拒虏
+  key: early_defense
+  phases:
+  - key: brewing
+    name_zh: 起家参军
+    labels:
+      zh: 建威府参军
+    start_date: '-400'
+    highlight_event_id: guji-萧承之-event-junzhang
+  - key: breakthrough
+    name_zh: 空城疑敌
+    labels:
+      zh: 济南太守、偃兵开城
+    start_date: '0431'
+    highlight_event_id: guji-萧承之-event-jinan
+  - key: closure
+    name_zh: 全城之功
+    labels:
+      zh: 文帝手书褒其功
+    start_date: '0432'
+    highlight_event_id: guji-萧承之-event-quancheng
+  decisions:
+  - date: '0431'
+    title_zh: 偃兵开城门示强拒虏
+    rationale: 今日悬守穷城，若复示弱必为所屠，惟当见强待之；虏疑有伏兵遂引去。
+  - date: '0432'
+    title_zh: 固谏萧思话勿弃镇
+    rationale: 青州刺史欲委镇保险，承之固谏不从，思话果失据溃走。
+- id: guji-萧承之-endeavor-2
+  name_zh: 汉中平氐之役
+  key: hanzhong_campaign
+  phases:
+  - key: brewing
+    name_zh: 出镇汉中
+    labels:
+      zh: 横野府司马、汉中太守
+    start_date: '0432'
+    highlight_event_id: guji-萧承之-event-huangjinshan
+  - key: breakthrough
+    name_zh: 破黄金山与对垒
+    labels:
+      zh: 攻氐伪据点
+    start_date: '0434'
+    highlight_event_id: guji-萧承之-event-huangjinshan
+  - key: climax
+    name_zh: 断槊破犀甲
+    labels:
+      zh: 相拒四十余日
+    start_date: '0434'
+    highlight_event_id: guji-萧承之-event-duanshuo
+  - key: closure
+    name_zh: 梁州平诏褒
+    labels:
+      zh: 龙骧将军
+    start_date: '0434'
+    highlight_event_id: guji-萧承之-event-pingliang
+  decisions:
+  - date: '0434'
+    title_zh: 轻军先行攻黄金山
+    rationale: 控张鲁旧戍之险固，先据要地以制敌。
+  - date: '0434'
+    title_zh: 命军中断槊以大斧捶之
+    rationale: 贼皆衣犀甲刀箭不能伤，以钝击破甲陷阵。
+events:
+- id: guji-萧承之-event-birth
+  type: birth
+  date: 0384
+  year_of: 384
+  date_circa: true
+  raw: 逆推自卒年六十四
+  place: 南兰陵（侨居晋陵武进）
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-junzhang
+  type: career
+  date: '-400'
+  year_of: 421
+  date_precision: circa
+  raw: 义熙中
+  title_zh: 初为建威府参军，义熙中迁扬武将军、安固汶山二郡太守
+  summary_zh: 蜀贼谯纵初平，承之善于绥抚。
+  endeavor_id: guji-萧承之-endeavor-1
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-jinan
+  type: battle
+  date: '0431'
+  year_of: 431
+  raw: 元嘉七年
+  title_zh: 济南空城退虏
+  summary_zh: 到彦之北伐大败，乙旃眷寇济南；承之率数百人拒退之，复偃兵开城门示强，虏疑伏兵遂引去。
+  endeavor_id: guji-萧承之-endeavor-1
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-quancheng
+  type: career
+  date: '0432'
+  year_of: 432
+  raw: 明年
+  title_zh: 全城之功，文帝手书拟授兖州刺史
+  summary_zh: 文帝手书都督长沙王义欣拟用为兖州刺史，因与檀道济无素故，事遂寝。
+  endeavor_id: guji-萧承之-endeavor-1
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-huangjinshan
+  type: battle
+  date: '0434'
+  year_of: 434
+  raw: 元嘉十年
+  title_zh: 攻克黄金山
+  summary_zh: 萧思话为梁州刺史，承之为横野府司马、汉中太守，轻军前行攻氐伪魏兴太守薛健于黄金山，克而据之。
+  endeavor_id: guji-萧承之-endeavor-2
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-duanshuo
+  type: battle
+  date: '0434'
+  year_of: 434
+  raw: 元嘉十年
+  title_zh: 断槊破犀甲之贼
+  summary_zh: 杨难当遣子和步骑万余，夹汉水两岸攻逼承之；相拒四十余日，承之命军中断槊以大斧捶其稚后，贼不能当，焚营而退。
+  endeavor_id: guji-萧承之-endeavor-2
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-pingliang
+  type: award
+  date: '0434'
+  year_of: 434
+  raw: 元嘉十年
+  title_zh: 追至南城连战皆捷，梁州平，诏授龙骧将军
+  summary_zh: 诏曰承之禀命先驱，蒙险深入，全军屡克，奋其忠果，可龙骧将军。
+  endeavor_id: guji-萧承之-endeavor-2
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-demoted
+  type: career
+  date: '0436'
+  year_of: 436
+  date_circa: true
+  raw: 元嘉十年后
+  title_zh: 不附彭城王义康，转南泰山太守
+  summary_zh: 文帝欲以平氐之劳授青州，义康秉政，承之不附，乃转江夏王司徒中兵参军、南泰山太守，封晋兴县五等男。
+  endeavor_id: guji-萧承之-endeavor-2
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+- id: guji-萧承之-event-death
+  type: death
+  date: '0447'
+  year_of: 447
+  raw: 元嘉二十四年
+  title_zh: 卒于右军将军任上
+  summary_zh: 元嘉二十四年殂，年六十四。梁土民思之，于峨公山立庙祭祀。升明二年赠散骑常侍、金紫光禄大夫。
+  endeavor_id: guji-萧承之-endeavor-2
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
