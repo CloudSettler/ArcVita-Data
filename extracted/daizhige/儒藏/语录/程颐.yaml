@@ -1,0 +1,153 @@
+person:
+  qid: guji-程颐
+  name_zh: 程颐
+  names:
+    zh: 程颐
+    en: Cheng Yi
+  lifespan:
+    birth:
+      date: '1033'
+      precision: year
+      is_circa: true
+      raw: 小程先生名颐字正叔
+    death:
+      date: '1107'
+      precision: year
+      is_circa: true
+  birth_date: '1033'
+  death_date: '1107'
+  era: 北宋
+  reign_ref: 元祐、绍圣、大观
+  archetype: 理学家
+  dilemmas:
+  - 应举与治学：殿试不中后不复再试，弃科举而专圣学。
+  - 出仕与去就：元祐初被荐侍讲禁中，旋又罢去，不复求用。
+  lesson: 治学当以圣学为己任，出处进退以理义为本。
+  summary_first_person: 我名颐，字正叔，学人称我为伊川先生。早岁举进士不第，遂不复应试，专以推明治道、穷理尽性为事。元祐初，吕公著正献公与司马温公同荐，得召用侍讲禁中，旋又罢去，不复再用于朝。绍圣中贬涪州，元符间还洛，大观间卒于家。我与兄颢俱师周敦颐而自光大之，并称二程，天下学者靡然从之。
+  source_urls:
+  - https://www.zhonghuadiancang.com/skqszibu/tongmengxun/
+endeavors:
+- id: guji-程颐-endeavor-1
+  name_zh: 圣学传承与讲学
+  labels:
+    zh: 治学
+  phases:
+  - key: brewing
+    name_zh: 受学周敦颐
+    labels:
+      zh: 穷理之学
+    start_date: '1046'
+    highlight_event_id: guji-程颐-event-learning
+  - key: breakthrough
+    name_zh: 弃举专学
+    labels:
+      zh: 圣学为己任
+    start_date: '1055'
+  - key: climax
+    name_zh: 二程并称
+    labels:
+      zh: 张程之学
+    start_date: '1070'
+  - key: closure
+    name_zh: 退居伊洛传学
+    labels:
+      zh: 伊川先生
+    start_date: '1100'
+    highlight_event_id: guji-程颐-event-return
+  decisions:
+  - date: '1055'
+    title_zh: 殿试不中不再应试
+    rationale: 举进士殿试不中，不复再试，专力于圣学。
+  - date: '1086'
+    title_zh: 应吕公著司马光之荐出仕
+    rationale: 元祐初正献公与司马温公同荐，遂得召用侍讲禁中。
+- id: guji-程颐-endeavor-2
+  name_zh: 出仕与贬谪
+  labels:
+    zh: 仕途
+  phases:
+  - key: brewing
+    name_zh: 由师友引荐
+    labels:
+      zh: 师礼之始
+    start_date: '1057'
+  - key: breakthrough
+    name_zh: 侍讲禁中
+    labels:
+      zh: 元祐召用
+    start_date: '1086'
+    highlight_event_id: guji-程颐-event-court
+  - key: climax
+    name_zh: 绍圣贬官
+    labels:
+      zh: 贬涪州
+    start_date: '1097'
+    highlight_event_id: guji-程颐-event-exile
+  - key: closure
+    name_zh: 归洛卒于家
+    labels:
+      zh: 大观终老
+    start_date: '1100'
+  decisions:
+  - date: '1097'
+    title_zh: 绍圣中贬涪州
+    rationale: 新党当政，以党祸被贬。
+  - date: '1086'
+    title_zh: 旋罢侍讲后不复求用
+    rationale: 侍讲禁中旋又罢去，遂不复用，退而讲学。
+events:
+- id: guji-程颐-event-birth
+  type: birth
+  title: 程颐生
+  date: '1033'
+  year_of: 1033
+  persons:
+  - guji-程颐
+- id: guji-程颐-event-learning
+  type: endeavor
+  title: 二程从周敦颐受穷理之学
+  date: '1046'
+  year_of: 1046
+  persons:
+  - guji-程颐
+  description: 二程始从周茂叔先生为穷理之学，后更自光大。
+- id: guji-程颐-event-exam
+  type: endeavor
+  title: 举进士殿试不中
+  date: '1055'
+  year_of: 约1050
+  persons:
+  - guji-程颐
+  description: 小程先生名颐字正叔，举进士殿试不中，不复再试。
+- id: guji-程颐-event-court
+  type: endeavor
+  title: 元祐初被荐召用侍讲禁中
+  date: '1086'
+  year_of: 1086
+  persons:
+  - guji-程颐
+  description: 元祐初，吕公著与司马光同荐，遂得召用侍讲禁中，旋又罢去。
+- id: guji-程颐-event-exile
+  type: endeavor
+  title: 绍圣中贬涪州
+  date: '1097'
+  year_of: 约1097
+  persons:
+  - guji-程颐
+  description: 绍圣中贬涪州，党祸牵累。
+- id: guji-程颐-event-return
+  type: endeavor
+  title: 元符间还洛
+  date: '1100'
+  year_of: 约1100
+  persons:
+  - guji-程颐
+  description: 元符还洛，退居伊阳讲学，学者谓之伊川先生。
+- id: guji-程颐-event-death
+  type: death
+  title: 程颐卒于家
+  date: '1107'
+  year_of: 约1107
+  persons:
+  - guji-程颐
+  description: 大观间卒于家，学者谓之伊川先生。
