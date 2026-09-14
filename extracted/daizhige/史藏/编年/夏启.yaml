@@ -1,0 +1,131 @@
+person:
+  qid: guji-夏启
+  name_zh: 夏启
+  names:
+    zh: 夏启
+    en: Qi of Xia
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年无载
+    death:
+      date: -2032
+      precision: year
+      is_circa: true
+      raw: 即位三十九年亡，年七十八
+  birth_date: ''
+  death_date: 约-2032
+  era: 夏代
+  reign_ref: 夏后启（在位三十九年，一说二十九年）
+  archetype: 开创世袭王权的夏初君主
+  dilemmas:
+  - 益干启位，启杀之：传贤与传子之争，启诛益以承禹祀
+  - 武观以西河叛，启兴师征西河以定夏略
+  lesson: 王位世袭之局初成，权争杀伐与礼乐并兴，家天下自此始。
+  summary_first_person: 我是夏启，大禹之子。益干我位，我起而杀之，承禹之祀。我曾舞九韶以彰夏声，复征西河以诛不臣，在位三十九年而终。
+  source_urls:
+  - https://zh.wikisource.org/wiki/古本竹书纪年辑证
+endeavors:
+- id: guji-夏启-endeavor-1
+  name_zh: 继禹承祀·诛益定位
+  labels:
+    zh:
+    - 继位
+    - 争位
+    - 定鼎
+  phases:
+  - key: brewing
+    name_zh: 禹崩启立
+    labels:
+      zh:
+      - 继位
+    start_date: 约-2060
+    highlight_event_id: guji-夏启-event-1
+  - key: climax
+    name_zh: 启杀益
+    labels:
+      zh:
+      - 诛益
+    start_date: 约-2058
+    highlight_event_id: guji-夏启-event-2
+  decisions:
+  - date: 约-2058
+    title_zh: 诛益以承禹祀
+    rationale: 益干启位，启起而杀之，保禹后之祀，开世袭之局。
+- id: guji-夏启-endeavor-2
+  name_zh: 制礼作乐·武功靖边
+  labels:
+    zh:
+    - 礼乐
+    - 征伐
+  phases:
+  - key: brewing
+    name_zh: 舞九韶
+    labels:
+      zh:
+      - 乐舞
+    start_date: 约-2050
+    highlight_event_id: guji-夏启-event-3
+  - key: climax
+    name_zh: 征西河
+    labels:
+      zh:
+      - 平叛
+    start_date: 约-2040
+    highlight_event_id: guji-夏启-event-4
+  - key: closure
+    name_zh: 在位三十九年而陟
+    labels:
+      zh:
+      - 寿终
+    start_date: 约-2032
+    highlight_event_id: guji-夏启-event-death
+  decisions:
+  - date: 约-2040
+    title_zh: 征西河（疑即诛武观之乱）
+    rationale: 五观忘伯禹之命作乱，彭伯寿帅师征西河，以正夏略。
+events:
+- id: guji-夏启-event-birth
+  type: birth
+  date: 约-2080
+  year_of: 约-2080
+  summary: 启生，禹之子，姓姒。
+  source_refs:
+  - 古本竹书纪年辑证·真诰注引姓姒禹之子
+- id: guji-夏启-event-1
+  type: succession
+  date: 约-2060
+  year_of: 约-2060
+  summary: 禹崩，启即夏后之位。
+  source_refs:
+  - 楚辞·天问：启代益作后
+- id: guji-夏启-event-2
+  type: political_killing
+  date: 约-2058
+  year_of: 约-2058
+  summary: 益干启位，启杀之。
+  source_refs:
+  - 古本竹书纪年辑证·晋书·束皙传引
+- id: guji-夏启-event-3
+  type: cultural
+  date: 约-2050
+  year_of: 约-2050
+  summary: 夏后启舞九韶（九招）。
+  source_refs:
+  - 山海经·大荒西经注引竹书；帝王世纪：启升后十年，舞九韶
+- id: guji-夏启-event-4
+  type: military_campaign
+  date: 约-2040
+  year_of: 约-2040
+  summary: 启征西河，疑即诛五观（武观）之乱。
+  source_refs:
+  - 北堂书钞引纪年：启征西河；路史注系于二十五年
+- id: guji-夏启-event-death
+  type: death
+  date: 约-2032
+  year_of: 约-2032
+  summary: 即位三十九年亡，年七十八。
+  source_refs:
+  - 真诰卷一五注引竹书
