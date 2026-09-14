@@ -1,0 +1,166 @@
+person:
+  qid: guji-吴玠
+  name_zh: 吴玠
+  names:
+    zh: 吴玠
+    en: Wu Jie
+  lifespan:
+    birth:
+      date: '1093'
+      precision: year
+      is_circa: true
+      raw: 原文未载生年，据宋史本传补为绍圣间
+    death:
+      date: '1139'
+      precision: year
+      is_circa: false
+      raw: 原文未载卒年，据宋史本传补为绍兴九年卒于宣抚副使任
+  birth_date: '1093'
+  death_date: '1139'
+  era: 南宋初建炎绍兴年间
+  reign_ref: 宋高宗赵构
+  archetype: 扼险抗金之川陕守御名将
+  dilemmas:
+  - 富平新败五路瓦解，孤军扼蜀口则粮饷不继，弃险而退则三川震动
+  - 受张浚仓卒拔擢之恩，须以再战之功自明，不负知遇而立于败军之后
+  lesson: 扼险蓄锐，与士卒同甘苦，则众寡强弱之势可转
+  summary_first_person: 我本泾原行伍，以都监戍边。建炎间张浚宣抚川陕，至秦州置司节制五路，参谋军事刘子羽荐我军前，浚与语大悦，即擢我为统制官，又使弟璘领帐前亲兵。此后我扼守和尚原、仙人关，力拒金人入蜀之冲，终身于川陕宣抚副使任上。
+  source_urls:
+  - https://zh.wikisource.org/wiki/中興小紀/卷008
+endeavors:
+- id: guji-吴玠-endeavor-1
+  name_zh: 泾原从军与张浚知遇
+  description: 以泾原都监从军关陕，得刘子羽之荐，为张浚所知，擢统制官，兄弟并留幕下
+  phases:
+  - key: brewing
+    name_zh: 戍守泾原
+    labels:
+      zh: 行伍积阶
+    start_date: '1129'
+    highlight_event_id: guji-吴玠-event-recommendation
+  - key: breakthrough
+    name_zh: 刘子羽荐见张浚
+    labels:
+      zh: 一语见知
+    start_date: '1129'
+    highlight_event_id: guji-吴玠-event-promotion
+  - key: climax
+    name_zh: 擢统制掌帐前
+    labels:
+      zh: 骤居统制
+    start_date: '1129'
+    highlight_event_id: guji-吴玠-event-brother-guard
+  - key: closure
+    name_zh: 遂列将帅
+    labels:
+      zh: 出领方面
+    start_date: '1130'
+    highlight_event_id: guji-吴玠-event-shangheyuan
+  decisions:
+  - date: '1129'
+    title_zh: 应荐出见张浚，慷慨论关陕方略
+    rationale: 五路新定署司之初，主帅求才甚急，当以方略自见而不以资格进
+- id: guji-吴玠-endeavor-2
+  name_zh: 川陕抗金守蜀
+  description: 统兵扼守秦凤要隘，和尚原、仙人关两却金军，保蜀口十余年
+  phases:
+  - key: brewing
+    name_zh: 随张浚节制五路
+    labels:
+      zh: 关陕置司
+    start_date: '1129'
+    highlight_event_id: guji-吴玠-event-recommendation
+  - key: breakthrough
+    name_zh: 和尚原大捷
+    labels:
+      zh: 以少扼险
+    start_date: '1131'
+    highlight_event_id: guji-吴玠-event-shangheyuan
+  - key: climax
+    name_zh: 仙人关却敌
+    labels:
+      zh: 保蜀全功
+    start_date: '1134'
+    highlight_event_id: guji-吴玠-event-xianrenguan
+  - key: closure
+    name_zh: 殁于边任
+    labels:
+      zh: 卒于宣抚副使
+    start_date: '1139'
+    highlight_event_id: guji-吴玠-event-death
+  decisions:
+  - date: '1131'
+    title_zh: 决守和尚原，不退保汉中
+    rationale: 原据金人入蜀之冲，守之则敌不得越散关一步，虽孤悬而可自给以老其师
+events:
+- id: guji-吴玠-event-birth
+  person_id: guji-吴玠
+  type: birth
+  title_zh: 吴玠生
+  date: '1093'
+  precision: year
+  is_circa: true
+  year_of: 1093
+  description: 原文未载生年，据宋史本传补
+- id: guji-吴玠-event-death
+  person_id: guji-吴玠
+  type: death
+  title_zh: 吴玠卒
+  date: '1139'
+  precision: year
+  is_circa: false
+  year_of: 1139
+  description: 原文未载卒年，据宋史本传补，卒于川陕宣抚副使任上
+- id: guji-吴玠-event-recommendation
+  person_id: guji-吴玠
+  type: career
+  title_zh: 刘子羽荐吴玠
+  date: 1129-12
+  precision: month
+  is_circa: true
+  year_of: 1129
+  description: 宣抚处置使张浚至秦州置司节制五路诸帅，参谋军事刘子羽荐泾原都监吴玠
+  quote_zh: 参谋军事刘子羽荐泾原都监吴玠
+  source_ref: 中兴小纪卷八
+- id: guji-吴玠-event-promotion
+  person_id: guji-吴玠
+  type: career
+  title_zh: 张浚擢吴玠为统制官
+  date: 1129-12
+  precision: month
+  is_circa: true
+  year_of: 1129
+  description: 张浚与吴玠语大悦，即擢为统制官
+  quote_zh: 浚与语大悦，擢为统制官
+  source_ref: 中兴小纪卷八
+- id: guji-吴玠-event-brother-guard
+  person_id: guji-吴玠
+  type: career
+  title_zh: 弟吴璘领帐前亲兵
+  date: 1129-12
+  precision: month
+  is_circa: true
+  year_of: 1129
+  description: 张浚又以吴玠之弟小使臣吴璘领帐前亲兵，兄弟并留军中
+  quote_zh: 又以其弟小使臣璘领帐前亲兵
+  source_ref: 中兴小纪卷八
+- id: guji-吴玠-event-shangheyuan
+  person_id: guji-吴玠
+  type: battle
+  title_zh: 和尚原之战
+  date: '1131'
+  precision: year
+  is_circa: true
+  year_of: 1131
+  description: 据史补：吴玠扼守和尚原，大破金军，金帅兀术中流矢仅免
+  source_ref: 据宋史吴玠传补
+- id: guji-吴玠-event-xianrenguan
+  person_id: guji-吴玠
+  type: battle
+  title_zh: 仙人关之战
+  date: '1134'
+  precision: year
+  is_circa: true
+  year_of: 1134
+  description: 据史补：吴玠与弟璘守仙人关，力战却金，金人自此不敢复窥蜀
+  source_ref: 据宋史吴玠传补
