@@ -1,0 +1,139 @@
+person:
+  qid: guji-程钜夫
+  name_zh: 程钜夫
+  names:
+    zh: 程钜夫
+    en: Cheng Jufu
+  lifespan:
+    birth:
+      date: '1249'
+      precision: year
+      is_circa: true
+      raw: 南宋淳祐年间（约1249年）
+    death:
+      date: '1318'
+      precision: year
+      is_circa: true
+  birth_date: '1249'
+  death_date: '1318'
+  era: 元代（由宋入元）
+  reign_ref: 元世祖至元—元成宗大德—元仁宗延祐
+  archetype: 直言敢谏的治世名臣与江南贤士的举荐者
+  dilemmas:
+  - 南人初附，仕途受抑，是明哲保身还是为江南士人力争入仕之阶
+  - 官吏贪残、俸薄无法自赡，是迁就成法还是直陈吏治五事触怒权贵
+  - 奉诏求贤江南，荐举旧国遗才可能被视为怀恋故宋
+  lesson: 居庙堂之高而不忘民间利病，以公选、学校、通南北之选为长治久安之本。
+  summary_first_person: 我本建昌书生，由宋入元，蒙世祖擢用。我不肯做缄默之臣，连上《吏治五事》《民间利病》，为江南百姓请宽赋、均工役、给俸钱、惩贪墨；又力主通南北之选、好人公选，荐拔江南贤士入朝。晚年掌翰林文字，进《三朝实录表》，以笔墨存一代之典章。
+  source_urls:
+  - https://zh.wikisource.org/wiki/元代奏议集录
+endeavors:
+- id: guji-程钜夫-endeavor-1
+  name_zh: 整饬江南吏治与奏议民生
+  phases:
+  - key: brewing
+    name_zh: 入仕北游
+    labels:
+      zh: 起于寒素
+    start_date: '1270'
+    highlight_event_id: guji-程钜夫-event-jiangnan-xian
+  - key: breakthrough
+    name_zh: 上吏治五事
+    labels:
+      zh: 直言极谏
+    start_date: '1287'
+    highlight_event_id: guji-程钜夫-event-lizhi-wushi
+  - key: climax
+    name_zh: 陈民间利病
+    labels:
+      zh: 为民请命
+    start_date: '1288'
+    highlight_event_id: guji-程钜夫-event-minjian-libing
+  - key: closure
+    name_zh: 位至承旨
+    labels:
+      zh: 名满朝野
+    start_date: '1310'
+  decisions:
+  - date: '1287'
+    title_zh: 疏陈吏治五事
+    rationale: 见江南官吏俸薄贪残、南北选法不通，决意不避忌讳，直取会江南仕籍、置考功历、置贪赃籍等五事以正吏治。
+  - date: '1288'
+    title_zh: 备列民间利病诸条
+    rationale: 亲察江南和买、课程虚额、工役不均、盗盗不均诸弊，条分缕析上闻，请蠲减宽民。
+- id: guji-程钜夫-endeavor-2
+  name_zh: 主持文翰与修纂实录
+  phases:
+  - key: brewing
+    name_zh: 承诏求贤
+    labels:
+      zh: 江南访贤
+    start_date: '1279'
+    highlight_event_id: guji-程钜夫-event-jiangnan-xian
+  - key: breakthrough
+    name_zh: 掌翰林文字
+    labels:
+      zh: 文柄在握
+    start_date: '1294'
+  - key: closure
+    name_zh: 进三朝实录
+    labels:
+      zh: 典章垂后
+    start_date: '1311'
+    highlight_event_id: guji-程钜夫-event-shilu-biao
+  decisions:
+  - date: '1311'
+    title_zh: 进三朝实录表
+    rationale: 以翰林承旨总领史笔，谨撰表进呈三朝实录，使祖宗功德与一代典制传示后世。
+events:
+- id: guji-程钜夫-event-birth
+  date: '1249'
+  year_of: 1249
+  title_zh: 程钜夫出生
+  description: 生于建昌（今江西南城），南宋末年。
+  participants:
+  - guji-程钜夫
+- id: guji-程钜夫-event-jiangnan-xian
+  date: '1279'
+  year_of: 1279
+  title_zh: 奉诏求贤江南
+  description: 至元年间奉诏访求江南遗贤，荐拔赵孟頫等南士入仕，力主通南北之选。
+  participants:
+  - guji-程钜夫
+  related_endeavor_ids:
+  - guji-程钜夫-endeavor-1
+  - guji-程钜夫-endeavor-2
+- id: guji-程钜夫-event-lizhi-wushi
+  date: '1287'
+  year_of: 1287
+  title_zh: 上《吏治五事》疏
+  description: 疏陈取会江南仕籍、通南北之选、置考功历、置贪赃籍、给江南官吏俸钱五事。
+  participants:
+  - guji-程钜夫
+  related_endeavor_ids:
+  - guji-程钜夫-endeavor-1
+- id: guji-程钜夫-event-minjian-libing
+  date: '1288'
+  year_of: 1288
+  title_zh: 上《民间利病》诸条
+  description: 条奏江南和买、课程虚额、建昌工役不均、职田俸给等民间利病，请蠲减均平。
+  participants:
+  - guji-程钜夫
+  related_endeavor_ids:
+  - guji-程钜夫-endeavor-1
+- id: guji-程钜夫-event-shilu-biao
+  date: '1311'
+  year_of: 1311
+  title_zh: 进《三朝实录》表
+  description: 以翰林学士承旨进《三朝实录表》，总一代文翰史笔之任。
+  participants:
+  - guji-程钜夫
+  related_endeavor_ids:
+  - guji-程钜夫-endeavor-2
+- id: guji-程钜夫-event-death
+  date: '1318'
+  year_of: 1318
+  title_zh: 程钜夫去世
+  description: 卒于元仁宗延祐五年前后，以名臣贤士终老。
+  participants:
+  - guji-程钜夫

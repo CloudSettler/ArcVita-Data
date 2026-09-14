@@ -1,0 +1,127 @@
+person:
+  qid: guji-张文谦
+  name_zh: 张文谦
+  names:
+    zh: 张文谦
+    en: Zhang Wenqian
+  lifespan:
+    birth:
+      date: '1216'
+      precision: year
+      is_circa: true
+      raw: 约1216年
+    death:
+      date: '1283'
+      precision: year
+      is_circa: false
+  birth_date: '1216'
+  death_date: '1283'
+  era: 元代（金末至元世祖至元年间）
+  reign_ref: 元世祖忽必烈
+  archetype: 谏诤辅政之臣
+  dilemmas:
+  - 乱世从征时力谏止杀，与军功掠夺之利相冲突
+  - 财赋之权当归中书，与近臣聚敛分权之局相抗
+  lesson: 治国以安民为本，理财不可侵夺相权，谏诤贵在持正不挠
+  summary_first_person: 我张文谦，邢州沙河人也。早年与刘秉忠同学于紫金山，随世祖潜邸出谋。邢州凋敝，我请择良吏试治，遂为汉地大治之始；从征之际，我屡谏杀掠，全活甚众；居中书，我坚持财赋大事必关白中书，以杜聚敛之臣专权。历官左丞、御史中丞、昭文馆大学士，领太史院事，佐定《授时历》，毕生以爱民立政为念。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/张文谦
+endeavors:
+- id: guji-张文谦-endeavor-1
+  name_zh: 潜邸辅政与邢州试治
+  phases:
+  - key: brewing
+    name_zh: 从学紫金山
+    labels:
+      zh:
+      - 潜邸幕僚
+      - 邢州学派
+    start_date: '1236'
+    highlight_event_id: guji-张文谦-event-endeavor-1
+  - key: breakthrough
+    name_zh: 邢州大治
+    labels:
+      zh:
+      - 荐守治邢
+      - 化治剧为治易
+    start_date: '1251'
+    highlight_event_id: guji-张文谦-event-endeavor-1
+  decisions:
+  - date: '1251'
+    title_zh: 请择官治邢州
+    rationale: 邢州久罹兵祸、民散赋空，奏请选良吏治理，以试汉地可行之王化
+  - date: '1251'
+    title_zh: 荐刘秉忠、张易、王恂、郭守敬等佐潜邸
+    rationale: 紫金山同好皆一时之选，引进幕下以备顾问
+- id: guji-张文谦-endeavor-2
+  name_zh: 谏诤止杀与定鼎中书
+  phases:
+  - key: brewing
+    name_zh: 从征谏杀掠
+    labels:
+      zh:
+      - 止杀
+      - 爱民
+    start_date: '1253'
+    highlight_event_id: guji-张文谦-event-endeavor-2
+  - key: climax
+    name_zh: 中书建政
+    labels:
+      zh:
+      - 中书左丞
+      - 立朝仪定税制
+    start_date: '1261'
+    highlight_event_id: guji-张文谦-event-endeavor-3
+  - key: closure
+    name_zh: 领太史院
+    labels:
+      zh:
+      - 改历
+      - 授时历
+    start_date: '1276'
+    highlight_event_id: guji-张文谦-event-endeavor-3
+  decisions:
+  - date: '1253'
+    title_zh: 谏杀掠
+    rationale: 大军所过俘掠相望，谏止妄杀以收人心、全生灵
+  - date: '1262'
+    title_zh: 财赋宜关白中书
+    rationale: 钱谷之权宜归相府，防人臣专擅聚敛、蠹害国本
+  - date: '1276'
+    title_zh: 奏请改历领太史院事
+    rationale: 旧历岁久差忒，与郭守敬、王恂等立局测验，以正历元
+events:
+- id: guji-张文谦-event-birth
+  date: '1216'
+  year_of: 1216
+  title_zh: 张文谦生于邢州沙河
+  description: 张文谦出生，幼聪敏，后与刘秉忠同学于紫金山。
+  type: birth
+  endeavor_id: guji-张文谦-endeavor-1
+- id: guji-张文谦-event-death
+  date: '1283'
+  year_of: 1283
+  title_zh: 张文谦卒
+  description: 官至昭文馆大学士、领太史院事，卒赠少傅，谥忠宣。
+  type: death
+- id: guji-张文谦-event-endeavor-1
+  date: '1251'
+  year_of: 1251
+  title_zh: 请择官治邢州，邢州大治
+  description: 邢州两牧非人、民流地荒，文谦与刘秉忠进言于忽必烈，请选近侍脱兀脱、尚书刘肃、侍郎李简等往治之，期月户增十倍，世祖由是重儒臣，视汉地为可行王化之验。
+  type: endeavor
+  endeavor_id: guji-张文谦-endeavor-1
+- id: guji-张文谦-event-endeavor-2
+  date: '1253'
+  year_of: 1253
+  title_zh: 从征大理，力谏杀掠
+  description: 忽必烈征大理，文谦与姚枢、刘秉忠随行，极谏止杀，大军不妄戮一人，南诏全活，天下归心。
+  type: endeavor
+  endeavor_id: guji-张文谦-endeavor-2
+- id: guji-张文谦-event-endeavor-3
+  date: '1276'
+  year_of: 1276
+  title_zh: 领太史院，佐修《授时历》
+  description: 以昭文馆大学士领太史院事，奏请改历，与王恂、郭守敬、许衡等立局测验四方晷景，至元十七年《授时历》成，文谦实董其成。
+  type: endeavor
+  endeavor_id: guji-张文谦-endeavor-2
