@@ -1,0 +1,125 @@
+person:
+  qid: guji-费扬古
+  name_zh: 费扬古
+  names:
+    zh: 费扬古
+    en: Fei Yanggu
+  lifespan:
+    birth:
+      date: 1645
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: 1701
+      precision: year
+      is_circa: false
+      raw: 康熙四十年
+  birth_date: 1645
+  death_date: 1701
+  era: 清康熙年间
+  reign_ref: 康熙
+  archetype: 名将谋臣
+  dilemmas:
+  - 西路军粮饷转运艰难，须在进军速度与粮秣供给之间权衡
+  - 中西两路会师日期屡变，须决断按约相待还是先期进兵
+  lesson: 精兵劲旅须与粮道筹划并重，将帅临机决断方能成非常之功
+  summary_first_person: 我受命为抚远大将军，领西路大兵与圣祖中路军会剿噶尔丹。途中督运粮饷、安置宁夏驻防，终在昭莫多设奇制胜，大破厄鲁特，为荡平朔漠立首功。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=1190631
+endeavors:
+- id: guji-费扬古-endeavor-1
+  name_zh: 领西路军会剿噶尔丹
+  phases:
+  - key: brewing
+    name_zh: 受命出征
+    labels:
+      zh:
+      - 抚远大将军
+      - 西路统帅
+    start_date: 1696-02-18
+    highlight_event_id: guji-费扬古-event-launch
+  - key: breakthrough
+    name_zh: 万里转饷与合围
+    labels:
+      zh:
+      - 督运口粮
+      - 会师土喇
+    start_date: 1696-03-13
+    highlight_event_id: guji-费扬古-event-logistics
+  - key: climax
+    name_zh: 昭莫多之战
+    labels:
+      zh:
+      - 决战破敌
+    start_date: 1696-05
+    highlight_event_id: guji-费扬古-event-battle
+  - key: closure
+    name_zh: 凯旋叙功
+    labels:
+      zh:
+      - 廓清朔漠
+    start_date: 1696-07
+    highlight_event_id: guji-费扬古-event-triumph
+  decisions:
+  - date: 1696-04-07
+    title_zh: 特勒与急筹粮运
+    rationale: 昼夜大雨致牲口倒毙，米粮难继，遂分留口粮、替补驮力，重申兵粮两事措施万全
+  - date: 1696-04-10
+    title_zh: 由乌讷厄尔罕起营直趋土喇
+    rationale: 宁夏兵未至，不愿迟缓坐失战机，决意先行，令后到者随之而进
+events:
+- id: guji-费扬古-event-birth
+  date: 1645
+  year_of: 1645
+  type: birth
+  title_zh: 董鄂·费扬古生
+  description: 费扬古出生，后为满洲正白旗人。
+- id: guji-费扬古-event-launch
+  date: 1696-02-18
+  year_of: 1696
+  type: endeavor
+  title_zh: 率西路大兵启行
+  description: 康熙三十五年二月十八日，抚远大将军领侍卫内大臣伯费扬古领西路兵启行，与中路军约期会于土喇。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-audience
+  date: 1696-02-16
+  year_of: 1696
+  type: endeavor
+  title_zh: 蒙圣祖面授方略
+  description: 二月十六日特谕费扬古，告诫勿误认喀尔喀为厄鲁特、选乡导约期奏报，规画已定于启行之前。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-arrive-kalun
+  date: 1696-03-13
+  year_of: 1696
+  type: endeavor
+  title_zh: 至喀伦分遣诸军
+  description: 三月十三日率大兵至喀伦，分京师与右卫兵，自率京师大兵及大同绿旗兵由东路进。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-logistics
+  date: 1696-04-07
+  year_of: 1696
+  type: endeavor
+  title_zh: 筹画粮饷增补驮力
+  description: 驻席喇呼鲁苏台，会商运米、安置宁夏兵，翰旋于兵力集结与粮道艰难之间。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-battle
+  date: 1696-05-13
+  year_of: 1696
+  type: endeavor
+  title_zh: 昭莫多之战大破噶尔丹
+  description: 康熙三十五年五月，西路军于昭莫多设奇制胜，大败噶尔丹，贼众溃遁，噶尔丹仅以身免。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-triumph
+  date: 1696-07
+  year_of: 1696
+  type: endeavor
+  title_zh: 凯旋叙功
+  description: 西路军克期会师有功，费扬古以殊勋受赏，为万古未前之伟绩的建立者之一。
+  source: 圣祖仁皇帝亲征朔漠方略
+- id: guji-费扬古-event-death
+  date: 1701
+  year_of: 1701
+  type: death
+  title_zh: 费扬古卒
+  description: 康熙四十年卒，追念其平定朔漠之功。
