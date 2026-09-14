@@ -1,0 +1,100 @@
+person:
+  qid: guji-li-ying
+  name_zh: 李膺
+  names:
+    zh: 李膺
+    en: Li Ying
+  lifespan:
+    birth:
+      date: '110'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约活动于东汉中后期
+    death:
+      date: '169'
+      precision: year
+      is_circa: false
+  birth_date: 约110年（推断）
+  death_date: '169'
+  era: 东汉
+  reign_ref: 桓帝、灵帝时期
+  archetype: 清流党人领袖
+  dilemmas:
+  - 直言抨击宦官权贵与保全自身及家族之间的抉择
+  - 党锢之祸中以气节自守而不肯逃亡避祸
+  lesson: 在黑暗政治中坚守名节，虽死而不改其志
+  summary_first_person: 我李膺以风节自持，名重一时，士人被他接待称为登龙门。我在桓帝时任司隶校尉，严惩贪残宦官，后遭党锢之祸，虽遇赦仍遭禁锢；建宁二年第二次党锢大狱中，我不肯避祸，最终死于狱中。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷67
+endeavors:
+- id: guji-li-ying-endeavor-1
+  name_zh: 仕宦与击奸
+  phases:
+  - key: brewing
+    name_zh: 初入仕途
+    labels:
+      zh: 出仕为官、以声誉起家
+    start_date: '130'
+  - key: breakthrough
+    name_zh: 执法显名
+    labels:
+      zh: 任司隶校尉、严惩宦官
+    start_date: '160'
+    highlight_event_id: guji-li-ying-event-zhang-rang
+  - key: climax
+    name_zh: 党锢蒙难
+    labels:
+      zh: 第一次党锢之祸
+    start_date: '166'
+    highlight_event_id: guji-li-ying-event-danggu-1
+  - key: closure
+    name_zh: 死于狱中
+    labels:
+      zh: 第二次党锢之祸
+    start_date: '169'
+    highlight_event_id: guji-li-ying-event-danggu-2
+  decisions:
+  - date: '169'
+    title_zh: 闻诏不肯亡匿
+    rationale: 事君有命，临难不苟免，自就狱以全名节
+- id: guji-li-ying-endeavor-2
+  name_zh: 士林领袖
+  phases:
+  - key: brewing
+    name_zh: 登龙门之誉
+    labels:
+      zh: 以风节声名接纳士人
+    start_date: '150'
+  - key: breakthrough
+    name_zh: 党人宗师
+    labels:
+      zh: 为清流士人典范
+    start_date: '166'
+events:
+- id: guji-li-ying-event-birth
+  type: birth
+  date: '110'
+  year_of: 110
+  person: guji-li-ying
+  description: 李膺生于东汉，约桓帝之前的时期（生年史无明载）
+- id: guji-li-ying-event-zhang-rang
+  type: endeavor
+  date: '160'
+  year_of: 160
+  person: guji-li-ying
+  title_zh: 杀张让之弟
+  description: 时任司隶校尉，将宦官张让之弟张朔贪残无道，捕而杀之，威震宦官
+- id: guji-li-ying-event-danggu-1
+  type: endeavor
+  date: '166'
+  year_of: 166
+  person: guji-li-ying
+  title_zh: 第一次党锢之祸下狱
+  description: 桓帝延熹九年，被宦官诬为结党诽讪，下狱，后遇赦归田里、禁锢终身
+- id: guji-li-ying-event-danggu-2
+  type: death
+  date: '169'
+  year_of: 169
+  person: guji-li-ying
+  title_zh: 死于第二次党锢之祸
+  description: 灵帝建宁二年，宦官曹节等矫诏收捕党人，李膺自诣狱，拷死
