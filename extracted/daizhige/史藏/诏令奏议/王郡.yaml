@@ -1,0 +1,109 @@
+person:
+  qid: guji-王郡
+  name_zh: 王郡
+  names:
+    zh: 王郡
+    en: Wang Jun
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      precision: unknown
+      is_circa: false
+  era: 清雍正、乾隆年间
+  reign_ref:
+  - 雍正
+  - 乾隆
+  archetype: 海疆武职重臣
+  dilemmas:
+  - 台湾戍员俸满候升迁延，需在恪守定制与体恤边劳之间奏请变通
+  - 水师人才壅滞，须在各省补用惯例与因地制宜破格之间权衡
+  lesson: 针对海疆戍防积弊，任事之臣敢据实陈奏、推动制度变通，方能激励远戍劳臣、巩固边防。
+  summary_first_person: 我王郡历任福建台湾总兵、水师提督等职，雍正八年上折奏请台湾参、游、守备改为二年俸满升用，以纾弁员候缺迁延之困；后任水师提督时，又奏请台湾水师俸满员弁分推沿海各省水师营补用，以疏通壅滞、奖励远戍。
+  source_urls:
+  - https://gu receipts.台案汇录乙集
+endeavors:
+- id: guji-王郡-endeavor-1
+  name_zh: 台湾总兵任内奏请武职俸满改制
+  labels:
+    zh:
+    - 海疆武备
+    - 制度陈奏
+  phases:
+  - key: brewing
+    name_zh: 出任台湾总兵
+    labels:
+      zh:
+      - 莅任海疆
+    start_date: 1729
+    highlight_event_id: guji-王郡-event-taiwan-post
+  - key: climax
+    name_zh: 雍正八年上折奏请二年俸满
+    labels:
+      zh:
+      - 密折陈情
+    start_date: 1730-08
+    highlight_event_id: guji-王郡-event-memorial-1730
+  decisions:
+  - date: 1730-08-10
+    title_zh: 奏请台湾参、游、守备二年俸满具报候升
+    rationale: 台湾武职三年报满后候升常延至四五年，戍员有内顾之忧，奏请以二年俸满加交代渡海实合三年之数，以恤边劳、鼓励弁员。
+- id: guji-王郡-endeavor-2
+  name_zh: 福建水师提督任内疏濬水师壅滞
+  labels:
+    zh:
+    - 水师治理
+    - 因地制宜
+  phases:
+  - key: brewing
+    name_zh: 升任福建水师提督
+    labels:
+      zh:
+      - 统辖海表
+    start_date: 1731
+    highlight_event_id: guji-王郡-event-tidu-post
+  - key: climax
+    name_zh: 奏请台湾水师员弁分推沿海各省
+    labels:
+      zh:
+      - 变通用人
+    start_date: 1736
+    highlight_event_id: guji-王郡-event-shuishy-memorial
+  decisions:
+  - date: 1736
+    title_zh: 奏请台湾水师俸满员弁不拘闽省、分推沿海各省水师营推补
+    rationale: 台湾两协游、守十员报满后闽省无缺可升，致壅滞内外两 appell，请照先用之中又先用之例分推各省，以疏壅滞、奖励远戍。
+events:
+- id: guji-王郡-event-taiwan-post
+  event_type: appointment
+  date: 1729
+  year_of: 1729
+  title_zh: 任福建台湾总兵
+  description_zh: 出任福建台湾总兵，镇守海疆，后于雍正八年八月初十日具折奏请武职俸满改制。
+  participants:
+  - guji-王郡
+- id: guji-王郡-event-memorial-1730
+  event_type: memorial
+  date: 1730-08-10
+  year_of: 1730
+  title_zh: 雍正八年奏请台澎武职二年俸满
+  description_zh: 以台湾总兵身份密折奏请参将、游击、守备二年俸满具报，候督臣察核咨部具题，加交代渡海实合三年之数；奉旨大学士会同该部议奏，后经部议允行。
+  participants:
+  - guji-王郡
+- id: guji-王郡-event-tidu-post
+  event_type: appointment
+  date: 1731
+  year_of: 1731
+  title_zh: 升任福建水师提督
+  description_zh: 自台湾总兵升任福建水师提督（陆路提台后再调水师），统辖海表，目睹员弁壅滞。
+  participants:
+  - guji-王郡
+- id: guji-王郡-event-shuishy-memorial
+  event_type: memorial
+  date: 1736
+  year_of: 1736
+  title_zh: 乾隆初年奏陈闽省水师壅滞请变通
+  description_zh: 以福建水师提督上折，请台湾水师俸满游、守、千总不拘闽省，分推沿海各省水师营先行推补，以疏壅滞、奖励远戍。
+  participants:
+  - guji-王郡
