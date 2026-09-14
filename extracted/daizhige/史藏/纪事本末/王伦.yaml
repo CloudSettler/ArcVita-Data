@@ -1,0 +1,198 @@
+person:
+  qid: guji-wanglun
+  name_zh: 王伦
+  names:
+    zh: 王伦
+    en: Wang Lun
+  lifespan:
+    birth:
+      date: 约1720
+      precision: decade
+      is_circa: true
+      raw: 生年不详，文本未载；据其为山东寿张教首，约生于康熙末年
+    death:
+      date: 1774-10
+      precision: month
+      is_circa: true
+      raw: 乾隆三十九年九月，临清兵败，穷迫自焚死
+  birth_date: 约1720
+  death_date: 1774-10
+  era: 清乾隆年间
+  reign_ref: 乾隆
+  archetype: 白莲教教门首领 · 起事叛乱领袖
+  dilemmas:
+  - 邪教久遭朝廷严禁，借教敛财聚众的生计与官府查拏之间已无退路
+  - 乌合之众无力据城久守，弃城流窜则无根基，困守孤城则坐待合围
+  - 胁从渐众而粮械后援皆无，聚众易而成事难，只得以劫掠维持
+  lesson: 妖言左道纵能煽惑乡愚于一时，终不容于法度；铤而走险，不过自速其死。
+  summary_first_person: 吾借白莲教名目传徒敛财，事魔叱菜，聚众焚香，党羽渐成。乾隆三十九年官府查拏邪教甚急，吾侪怀恨惧诛，遂于八月二十八日夜起事，白布缠头、各带器械爬入寿张城，围衙劫库、占踞城池；继弃寿张转掠阳谷、堂邑，身披黄马褂为魁，众至千余，进逼临清以胁漕运。然官兵四面合攻，大学士舒赫德统八旗劲旅继至，吾困守临清，穷迫自焚而死，党众尽被俘诛。
+  source_urls:
+  - https://ctext.org/searchbooks?if=gb&searchu=钦定临清纪略
+endeavors:
+- id: guji-wanglun-endeavor-1
+  name_zh: 借教敛财聚众
+  type: 宗教结社
+  summary: 初则事魔叱菜、托以敛财，继乃聚众焚香因而成党，终因官府严查而铤而走险。
+  phases:
+  - key: brewing
+    name_zh: 事魔叱菜、托教敛财
+    labels:
+      zh: 布教敛财
+    start_date: 约1765
+    highlight_event_id: guji-wanglun-event-preach
+  - key: breakthrough
+    name_zh: 聚众焚香、结党成势
+    labels:
+      zh: 焚香结党
+    start_date: 约1774-08
+    highlight_event_id: guji-wanglun-event-sect
+  - key: climax
+    name_zh: 官府严查、党羽怀恨
+    labels:
+      zh: 查教激变
+    start_date: 1774-08
+    highlight_event_id: guji-wanglun-event-prosecution
+  - key: closure
+    name_zh: 铤而走险、合流起事
+    labels:
+      zh: 挺险起事
+    start_date: 1774-10-03
+    highlight_event_id: guji-wanglun-event-uprising
+  decisions:
+  - date: 约1765
+    title_zh: 事魔叱菜、托以敛财
+    rationale: 借白莲教名目惑众，以奉教之名聚敛钱财、结纳徒众
+  - date: 约1774-08
+    title_zh: 聚众焚香、密约举事
+    rationale: 党羽既众而自知妖言左道圣世不容，遂以白布缠头为号、藏械密约，图谋不轨
+- id: guji-wanglun-endeavor-2
+  name_zh: 乾隆甲午起事
+  type: 武装叛乱
+  summary: 乾隆三十九年八月二十八日夜起事破寿张，转掠阳谷、堂邑，进逼临清，月余兵败自焚。
+  phases:
+  - key: brewing
+    name_zh: 白布缠头、潜结党众
+    labels:
+      zh: 缠头密约
+    start_date: 约1774-09
+    highlight_event_id: guji-wanglun-event-sect
+  - key: breakthrough
+    name_zh: 夜破寿张、开仓劫库
+    labels:
+      zh: 夜克寿张
+    start_date: 1774-10-03
+    highlight_event_id: guji-wanglun-event-uprising
+  - key: climax
+    name_zh: 转掠三县、进逼临清
+    labels:
+      zh: 流掠临清
+    start_date: 1774-10-06
+    highlight_event_id: guji-wanglun-event-linqing
+  - key: closure
+    name_zh: 困守临清、自焚而死
+    labels:
+      zh: 自焚而死
+    start_date: 1774-10
+    highlight_event_id: guji-wanglun-event-death
+  decisions:
+  - date: 1774-10-03
+    title_zh: 夜起事攻寿张
+    rationale: 寿张查拏邪教甚严、堂邑搜查张四孤庄，怀恨惧诛，遂先发制人，白布缠头爬城、围衙劫库、踞城称乱
+  - date: 1774-10-06
+    title_zh: 弃城流动作战
+    rationale: 众仅千余、随地胁从而无粮械后援，入城止图劫掠银钱，得手即弃城不顾，以避官兵合围
+  - date: 约1774-10-10
+    title_zh: 进逼临清
+    rationale: 临清当水路之冲、回空漕艘所必经，屯聚州南柳林、攻扰州城以胁漕运要道
+events:
+- id: guji-wanglun-event-birth
+  type: birth
+  date: 约1720
+  year_of: 1720
+  is_circa: true
+  title_zh: 王伦生（生年不详）
+  description_zh: 文本未载其生年，据其为山东寿张人、白莲教首推约生于康熙末年
+  location_zh: 山东寿张
+  endeavor_ids:
+  - guji-wanglun-endeavor-1
+- id: guji-wanglun-event-preach
+  type: sect-activity
+  date: 约1765
+  year_of: 1765
+  is_circa: true
+  title_zh: 事魔叱菜、托教敛财
+  description_zh: 初则事魔叱菜，借白莲教名目敛财惑众，自寿张一带渐次传布
+  location_zh: 山东寿张一带
+  endeavor_ids:
+  - guji-wanglun-endeavor-1
+- id: guji-wanglun-event-sect
+  type: sect-gathering
+  date: 约1774-08
+  year_of: 1774
+  is_circa: true
+  title_zh: 聚众焚香、结党成势
+  description_zh: 继乃聚众焚香因而成党，党众以白布缠头为号、各带器械，王伦身披黄马褂为魁，实有谋为不轨形迹
+  location_zh: 山东寿张、堂邑
+  endeavor_ids:
+  - guji-wanglun-endeavor-1
+  - guji-wanglun-endeavor-2
+- id: guji-wanglun-event-prosecution
+  type: persecution
+  date: 1774-08
+  year_of: 1774
+  is_circa: true
+  title_zh: 寿张严查邪教、党羽怀恨
+  description_zh: 因寿张县查拏邪教甚严，堂邑又搜查张四孤庄、拿获王圣如即王经隆等，党众怀恨惧诛，遂谋举事
+  location_zh: 山东寿张、堂邑张四孤庄
+  endeavor_ids:
+  - guji-wanglun-endeavor-1
+- id: guji-wanglun-event-uprising
+  type: uprising
+  date: 1774-10-03
+  year_of: 1774
+  is_circa: true
+  title_zh: 八月二十八日夜起事攻寿张
+  description_zh: 贼众白布缠头、各带器械爬入寿张城内，围住文武衙门、抢劫仓库、占踞城池，寿张知县沈齐义等官员被杀害
+  location_zh: 山东寿张县城
+  endeavor_ids:
+  - guji-wanglun-endeavor-2
+- id: guji-wanglun-event-yanggu
+  type: battle
+  date: 1774-10-06
+  year_of: 1774
+  is_circa: true
+  title_zh: 弃寿张、夜攻阳谷
+  description_zh: 九月初二夜弃寿张县城攻扰阳谷，总兵惟一尾追杀入东门、冲出南门，杀毙逆匪多人
+  location_zh: 山东阳谷
+  endeavor_ids:
+  - guji-wanglun-endeavor-2
+- id: guji-wanglun-event-tangyi
+  type: battle
+  date: 1774-10-08
+  year_of: 1774
+  is_circa: true
+  title_zh: 攻破堂邑县
+  description_zh: 九月初四日傍晚攻破堂邑县而逸，三县库存银两搜劫，释放监犯收入伙内
+  location_zh: 山东堂邑
+  endeavor_ids:
+  - guji-wanglun-endeavor-2
+- id: guji-wanglun-event-linqing
+  type: advance
+  date: 约1774-10-10
+  year_of: 1774
+  is_circa: true
+  title_zh: 屯聚柳林、进逼临清
+  description_zh: 九月初六前后贼匪屯集临清州南门外柳林，攻扰临清州城，临清当水路之冲、为漕运门户
+  location_zh: 山东临清
+  endeavor_ids:
+  - guji-wanglun-endeavor-2
+- id: guji-wanglun-event-death
+  type: death
+  date: 1774-10
+  year_of: 1774
+  is_circa: true
+  title_zh: 临清兵败、穷迫自焚死
+  description_zh: 山东合兵蹙之，大学士舒赫德奉诏统八旗劲旅亦至，王伦穷迫自焚死，尽俘其党，械送京师磔于市
+  location_zh: 山东临清
+  endeavor_ids:
+  - guji-wanglun-endeavor-2
