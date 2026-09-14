@@ -1,0 +1,170 @@
+person:
+  qid: guji-姚启圣
+  name_zh: 姚启圣
+  names:
+    zh: 姚启圣
+    en: Yao Qisheng
+  lifespan:
+    birth:
+      date: '1624'
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: '1683'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1624'
+  death_date: '1683'
+  era: 清康熙年间
+  reign_ref: 康熙
+  archetype: 平定海疆的闽浙总督
+  dilemmas:
+  - 招抚郑锦与武力进剿之间的方略之争
+  - 与施琅关于进兵时机及路线（北风或南风）的分歧
+  lesson: 平定叛乱既需招抚离间之谋，亦需果断用兵之力，二者相济方能功成。
+  summary_first_person: 我姚启圣以总督之职经略福建，先败海寇刘国轩于蜈蚣山，复同安，又献策赦刘国轩、吴淑之罪以离间郑锦。康熙十九年我会师水陆并进，克厦门、金门，海上诸岛渐平。后请展界复业，并与施琅协力进剿台湾，促成郑克塽归降，台湾入我朝版图。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史稿/卷八十
+endeavors:
+- id: guji-姚启圣-endeavor-1
+  name_zh: 平定闽海郑氏之乱
+  phases:
+  - key: brewing
+    name_zh: 出师会剿
+    labels:
+      zh: 会剿漳州泉州
+    start_date: 1678-04
+    highlight_event_id: guji-姚启圣-event-1
+  - key: breakthrough
+    name_zh: 蜈蚣山大捷
+    labels:
+      zh: 大破刘国轩
+    start_date: 1678-08
+    highlight_event_id: guji-姚启圣-event-2
+  - key: climax
+    name_zh: 克复厦门金门
+    labels:
+      zh: 水陆会师克二岛
+    start_date: '1680'
+    highlight_event_id: guji-姚启圣-event-3
+  - key: closure
+    name_zh: 台湾归降与展界
+    labels:
+      zh: 促成郑氏纳降、请展界复业
+    start_date: '1683'
+    highlight_event_id: guji-姚启圣-event-4
+  decisions:
+  - date: 1678-08
+    title_zh: 出安溪败国轩于长泰
+    rationale: 泉州被围，奉命会同诸道军会剿解围。
+  - date: 1679-10
+    title_zh: 疏请赦刘国轩、吴淑以离间郑锦
+    rationale: 认为郑锦据台湾必不降，若二将解体投诚，则锦势孤，海上可立平。
+  - date: 1683-10
+    title_zh: 奏闻郑克塽乞降并转呈康熙敕谕
+    rationale: 克塽遣官乞降，启圣据实奏闻，奉旨开谕招抚。
+- id: guji-姚启圣-endeavor-2
+  name_zh: 协饷济师支持施琅平台湾
+  phases:
+  - key: brewing
+    name_zh: 议师期不合
+    labels:
+      zh: 与施琅议北风南风之别
+    start_date: 1680-11
+    highlight_event_id: guji-姚启圣-event-4
+  - key: breakthrough
+    name_zh: 留厦门济饷
+    labels:
+      zh: 督臣守厦门济饷
+    start_date: '1682'
+    highlight_event_id: guji-姚启圣-event-4
+  - key: climax
+    name_zh: 澎湖大捷后招抚
+    labels:
+      zh: 奏请招抚郑氏
+    start_date: 1683-06
+    highlight_event_id: guji-姚启圣-event-4
+  - key: closure
+    name_zh: 台湾设府县
+    labels:
+      zh: 台湾入版图
+    start_date: 1683-08
+    highlight_event_id: guji-姚启圣-event-4
+  decisions:
+  - date: 1680-11
+    title_zh: 请展界让沿海民复业
+    rationale: 迁界久困民生，与吴兴祚疏请展界，朝廷从之。
+  - date: '1682'
+    title_zh: 接受施琅先取澎湖之议
+    rationale: 琅请独任讨击，启圣留厦门济饷，协调文武分工。
+events:
+- id: guji-姚启圣-event-birth
+  event_type: person_life_event
+  name_zh: 姚启圣出生
+  date: '1624'
+  year_of: 1624
+  is_circa: true
+  precision: year
+  participants:
+  - guji-姚启圣
+- id: guji-姚启圣-event-1
+  event_type: endeavor_event
+  name_zh: 姚启圣奉命会同诸军会剿泉州
+  date: 1678-04
+  year_of: 1678
+  precision: month
+  participants:
+  - guji-姚启圣
+  related_entities:
+  - 刘国轩
+  summary_zh: 康熙十七年，敌陷海澄，国轩围泉州；命诸道军会剿，姚启圣由安溪出同安。
+- id: guji-姚启圣-event-2
+  event_type: endeavor_event
+  name_zh: 蜈蚣山大破刘国轩
+  date: 1678-08
+  year_of: 1678
+  precision: month
+  participants:
+  - guji-姚启圣
+  related_entities:
+  - 刘国轩
+  - 赖塔
+  summary_zh: 启圣同赖塔等追国轩至长泰，大破之于蜈蚣山，斩四千余级。
+- id: guji-姚启圣-event-3
+  event_type: endeavor_event
+  name_zh: 水陆会师克厦门金门
+  date: 1680-02
+  year_of: 1680
+  precision: month
+  participants:
+  - guji-姚启圣
+  related_entities:
+  - 万正色
+  - 吴兴祚
+  - 刘国轩
+  summary_zh: 康熙十九年，正色败敌于海坛，启圣会师水陆进趋玉洲，遂克厦门、金门，余党遁还台湾。
+- id: guji-姚启圣-event-4
+  event_type: endeavor_event
+  name_zh: 请展界复业并促成招抚
+  date: 1683-01
+  year_of: 1683
+  precision: year
+  participants:
+  - guji-姚启圣
+  related_entities:
+  - 吴兴祚
+  - 郑克塽
+  - 施琅
+  summary_zh: 康熙二十二年前后，启圣与兴祚疏请展界俾沿海民复业；后国轩请降，启圣奏闻，上敕谕郑克塽等，台湾入版图。
+- id: guji-姚启圣-event-death
+  event_type: person_life_event
+  name_zh: 姚启圣卒
+  date: '1683'
+  year_of: 1683
+  is_circa: true
+  precision: year
+  participants:
+  - guji-姚启圣
+  summary_zh: 文中未详载其卒年，约在平台前后。

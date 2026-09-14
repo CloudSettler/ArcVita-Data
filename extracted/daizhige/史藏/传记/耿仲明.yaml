@@ -1,0 +1,147 @@
+person:
+  qid: guji-郑芝龙
+  name_zh: 郑芝龙
+  names:
+    zh: 郑芝龙
+    en: Zheng Zhilong
+  lifespan:
+    birth:
+      precision: 年
+      is_circa: true
+      raw: 明末，生年不详
+    death:
+      date: 1661
+      precision: 年
+      is_circa: false
+      raw: 顺治十八年冬伏诛
+  death_date: 1661
+  era: 明末清初
+  reign_ref: 明天启、崇祯；清顺治
+  archetype: 降臣
+  dilemmas:
+  - 保全家族与门第功名
+  - 拥立明唐王而暗通清廷
+  - 子郑成功抗清、父子立场相悖
+  lesson: 首鼠两端者，终不能自全
+  summary_first_person: 我本海盗受抚起家，官至总兵；明亡之际拥立唐王，却密谋降清，终以其子成功抗清之故，革爵下狱，流徙宁古塔，最后伏诛。
+endeavors:
+- id: guji-郑芝龙-endeavor-1
+  key: rise
+  name_zh: 海上起家与受抚
+  labels:
+    zh:
+    - 海盗
+    - 受抚
+    - 总兵
+  phases:
+  - key: brewing
+    name_zh: 入颜思齐党为盗
+    labels:
+      zh:
+      - 明末
+      - 海上武装
+    start_date: '-1600'
+  - key: breakthrough
+    name_zh: 受抚累官总兵
+    labels:
+      zh:
+      - 受抚
+      - 总兵
+    highlight_event_id: guji-郑芝龙-event-loyal-tang
+  decisions:
+  - date: '1645'
+    title_zh: 拥立唐王朱聿键
+    rationale: 其弟郑鸿逵与黄道周拥立聿键于福建，芝龙受封南安伯、晋平国公
+- id: guji-郑芝龙-endeavor-2
+  key: surrender
+  name_zh: 降清与末路
+  labels:
+    zh:
+    - 投诚
+    - 下狱
+    - 伏诛
+  phases:
+  - key: brewing
+    name_zh: 密谋归款清廷
+    labels:
+      zh:
+      - 通款
+    start_date: '1646'
+  - key: breakthrough
+    name_zh: 率部降清、隶汉军旗
+    labels:
+      zh:
+      - 降清
+      - 三等子爵
+    start_date: '1646'
+    highlight_event_id: guji-郑芝龙-event-surrender
+  - key: climax
+    name_zh: 革爵下狱
+    labels:
+      zh:
+      - 父子交通
+      - 下狱
+    start_date: '1653'
+    highlight_event_id: guji-郑芝龙-event-impeach
+  - key: closure
+    name_zh: 流宁古塔与伏诛
+    labels:
+      zh:
+      - 流徙
+      - 伏诛
+    start_date: '1657'
+    highlight_event_id: guji-郑芝龙-event-exile
+  decisions:
+  - date: '1646'
+    title_zh: 率所部降于博洛军门
+    rationale: 以洪承畴、黄熙允书信相通，密谋归款；清师至闽，斩聿键，以书招降
+  - date: '1650'
+    title_zh: 手书招郑成功及郑鸿逵降
+    rationale: 上命其书谕招降，许赦罪授官，并请改隶镶红旗汉军
+events:
+- id: guji-郑芝龙-event-birth
+  event_type: birth
+  person: guji-郑芝龙
+  summary: 生年不详，福建南安人
+- id: guji-郑芝龙-event-loyal-tang
+  event_type: career
+  person: guji-郑芝龙
+  date: '1645'
+  year_of: 1645
+  summary: 明福王兵败后，弟鸿逵与黄道周拥立唐王朱聿键于福建，封芝龙南安伯，晋平国公
+- id: guji-郑芝龙-event-surrender
+  event_type: career
+  person: guji-郑芝龙
+  date: 1646
+  year_of: 1646
+  summary: 顺治三年，贝勒博洛师至福建，以书招降，芝龙率所部降军门
+- id: guji-郑芝龙-event-peerage
+  event_type: recognition
+  person: guji-郑芝龙
+  date: 1648
+  year_of: 1648
+  summary: 顺治五年叙投诚功，授三等子爵
+- id: guji-郑芝龙-event-ban_CSS
+  event_type: recognition
+  person: guji-郑芝龙
+  date: 1650
+  year_of: 1650
+  summary: 顺治七年诏封同安伯
+- id: guji-郑芝龙-event-impeach
+  event_type: crisis
+  person: guji-郑芝龙
+  date: 1653-01
+  year_of: 1653
+  summary: 顺治十二年正月，左都御史龚鼎孳疏劾其蒙豢养而家仆通海信息，巡抚佟国器获其与成功私书；诏革爵下狱
+- id: guji-郑芝龙-event-exile
+  event_type: punishment
+  person: guji-郑芝龙
+  date: 1657-03
+  year_of: 1657
+  summary: 顺治十四年，海澄公黄梧等请速翦以绝盗根，诏流芝龙及其家属于宁古塔
+- id: guji-郑芝龙-event-death
+  event_type: death
+  person: guji-郑芝龙
+  date: 1661
+  year_of: 1661
+  summary: 顺治十八年冬，芝龙及子世恩、世荫、世默等俱伏诛
