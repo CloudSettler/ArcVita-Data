@@ -1,0 +1,80 @@
+person:
+  qid: guji-丁宝桢
+  name_zh: 丁宝桢
+  names:
+    zh: 丁宝桢
+    en: Ding Baozhen
+  lifespan:
+    birth:
+      date: '1820'
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: '1886'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1820'
+  death_date: '1886'
+  era: 清
+  reign_ref: 光绪
+  archetype: 封疆大吏
+  dilemmas:
+  - 中法战起，台湾孤悬海外，援台须渡海冒险与朝廷调度两难
+  - 身任四川总督，皂督本省与奏请援台之间的权责取舍
+  lesson: 危难之际敢任事、敢建言，以密陈机宜力保疆土为臣子本分。
+  summary_first_person: 我丁宝桢在光绪十年中法之际，念台湾防务危急，上疏请派员带勇赴援，并密陈渡台机宜，以期调度得宜、保固海疆。
+endeavors:
+- id: guji-丁宝桢-endeavor-1
+  name_zh: 援台筹防
+  phases:
+  - key: breakthrough
+    name_zh: 奏请援台
+    labels:
+      zh:
+      - 海防
+      - 中法战争
+    start_date: '1884'
+    highlight_event_id: guji-丁宝桢-event-yuantaifold
+  - key: climax
+    name_zh: 密陈机宜
+    labels:
+      zh:
+      - 渡台调度
+    start_date: '1884'
+    highlight_event_id: guji-丁宝桢-event-michen
+  decisions:
+  - date: '1884'
+    title_zh: 请派员带勇赴援台湾
+    rationale: 中法构衅，台湾告急，自请遣员率勇渡海支援台防。
+  - date: '1884'
+    title_zh: 密陈渡台机宜
+    rationale: 为援台之举密陈渡海时机与调度方略，求稳收实效。
+events:
+- id: guji-丁宝桢-event-birth
+  event_type: birth
+  date: '1820'
+  year_of: 1820
+  summary_zh: 丁宝桢生。
+- id: guji-丁宝桢-event-death
+  event_type: death
+  date: '1886'
+  year_of: 1886
+  summary_zh: 丁宝桢卒。
+- id: guji-丁宝桢-event-yuantaifold
+  event_type: endeavor
+  endeavor_id: guji-丁宝桢-endeavor-1
+  phase_key: breakthrough
+  date: '1884'
+  year_of: 1884
+  title_zh: 请派员带勇赴援台湾摺
+  summary_zh: 丁宝桢于光绪十年上《请派员带勇赴援台湾摺》，恳请朝廷派员率领兵勇渡海增援台湾防务。
+- id: guji-丁宝桢-event-michen
+  event_type: endeavor
+  endeavor_id: guji-丁宝桢-endeavor-1
+  phase_key: climax
+  date: '1884'
+  year_of: 1884
+  title_zh: 密陈渡台机宜片
+  summary_zh: 同年丁宝桢并上《密陈渡台机宜片》，就援台队伍渡台之机宜密陈己见。

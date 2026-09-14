@@ -1,0 +1,125 @@
+person:
+  qid: guji-huangjuezi
+  name_zh: 黄爵滋
+  names:
+    zh: 黄爵滋
+    en: Huang Juezi
+  lifespan:
+    birth:
+      date: 1793
+      precision: year
+      is_circa: true
+      raw: 乾隆五十八年（约1793）
+    death:
+      date: 1853
+      precision: year
+      is_circa: true
+      raw: 咸丰三年（约1853）
+  birth_date: 1793
+  death_date: 1853
+  era: 清代道光、咸丰年间
+  reign_ref: 道光帝
+  archetype: 禁烟名臣·敢言谏臣
+  dilemmas:
+  - 鸦片流毒与国库民生的冲突
+  - 言官直谏与朝政守旧的阻力
+  lesson: 直言极谏、力主严禁鸦片，体现士大夫以天下为己任的担当。
+  summary_first_person: 我是黄爵滋，道光朝言官，以力主严禁鸦片而闻名，并曾奉旨赴闽查验台地政务。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/黄爵滋
+endeavors:
+- id: guji-huangjuezi-endeavor-1
+  name_zh: 力主严禁鸦片
+  phases:
+  - key: brewing
+    name_zh: 察访烟害
+    labels:
+      zh: 察访烟害
+    start_date: 1834
+  - key: breakthrough
+    name_zh: 严塞漏卮
+    labels:
+      zh: 严塞漏卮
+    start_date: 1838
+    highlight_event_id: guji-huangjuezi-event-opium-memorial
+  - key: climax
+    name_zh: 禁烟热潮
+    labels:
+      zh: 禁烟热潮
+    start_date: 1838
+  - key: closure
+    name_zh: 影响延续
+    labels:
+      zh: 影响延续
+    start_date: 1839
+  decisions:
+  - date: 1838-06-02
+    title_zh: 上《严塞漏卮以培国本疏》请重治吸食者
+    rationale: 鸦片致白银外流、民弱兵疲，须以死刑严禁吸食方能断绝烟祸。
+- id: guji-huangjuezi-endeavor-2
+  name_zh: 奉旨赴闽查办台地政务
+  phases:
+  - key: brewing
+    name_zh: 受命查办
+    labels:
+      zh: 受命查办
+    start_date: 1840
+  - key: breakthrough
+    name_zh: 淡水查案
+    labels:
+      zh: 淡水查案
+    start_date: 1840
+    highlight_event_id: guji-huangjuezi-event-tan-shui-investigation
+  - key: climax
+    name_zh: 参劾舞弊
+    labels:
+      zh: 参劾舞弊
+    start_date: 1840
+    highlight_event_id: guji-huangjuezi-event-impeach-long
+  - key: closure
+    name_zh: 案结复命
+    labels:
+      zh: 案结复命
+    start_date: 1841
+  decisions:
+  - date: 1840
+    title_zh: 委员前往淡水厅查拿犯证
+    rationale: 台地同知专信丁役舞弊，须实地查证、严惩以儆效尤。
+events:
+- id: guji-huangjuezi-event-birth
+  title_zh: 出生
+  date: 1793
+  year_of: 1793
+  type: birth
+- id: guji-huangjuezi-event-opium-memorial
+  title_zh: 上《严塞漏卮以培国本疏》力主严禁鸦片
+  date: 1838-06-02
+  year_of: 1838
+  type: endeavor
+  labels:
+    zh:
+    - 禁烟
+    - 奏疏
+- id: guji-huangjuezi-event-tan-shui-investigation
+  title_zh: 上《委员前往淡水厅查拿犯证片》
+  date: 1840
+  year_of: 1840
+  type: endeavor
+  labels:
+    zh:
+    - 台湾
+    - 查案
+- id: guji-huangjuezi-event-impeach-long
+  title_zh: 上疏审明同知龙大惇专信丁役舞弊
+  date: 1840
+  year_of: 1840
+  type: endeavor
+  labels:
+    zh:
+    - 参劾
+    - 整肃吏治
+- id: guji-huangjuezi-event-death
+  title_zh: 去世
+  date: 1853
+  year_of: 1853
+  type: death

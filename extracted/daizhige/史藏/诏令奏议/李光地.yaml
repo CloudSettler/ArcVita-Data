@@ -1,0 +1,94 @@
+person:
+  qid: guji-李光地
+  name_zh: 李光地
+  names:
+    zh: 李光地
+    en: Li Guangdi
+  lifespan:
+    birth:
+      date: '1642'
+      precision: year
+      is_circa: true
+      raw: 约1642年
+    death:
+      date: '1718'
+      precision: year
+      is_circa: true
+      raw: 约1718年
+  birth_date: '1642'
+  death_date: '1718'
+  era: 清朝康熙年间
+  reign_ref: 康熙
+  archetype: 忠智之臣
+  dilemmas:
+  - 乡土陷于耿精忠叛军之中,须在变乱中抉择何去何从
+  - 身处险境,如何将朝廷关键情报安全送达
+  lesson: 身陷危局仍以忠计与巧思传递军机,方寸蜡丸可济千里之师
+  summary_first_person: 我于康熙十三年闽省变乱之际,处境危殆,遂作蜡丸密疏,将进剿机宜封于蜡丸之中 送达朝廷,为平定闽患献策。
+  source_urls:
+  - https://example.org/guji/清奏疏选汇
+endeavors:
+- id: guji-李光地-endeavor-1
+  name_zh: 蜡丸献策
+  phases:
+  - key: brewing
+    name_zh: 闽省局势观察
+    labels:
+      zh:
+      - 观察
+      - 布局
+    start_date: '1673'
+    highlight_event_id: guji-李光地-event-wax-memorial
+  - key: climax
+    name_zh: 蜡丸密疏上达
+    labels:
+      zh:
+      - 密奏
+      - 尽忠
+    start_date: '1674'
+    highlight_event_id: guji-李光地-event-wax-memorial
+  decisions:
+  - date: '1674'
+    title_zh: 作蜡丸疏密陈机宜
+    rationale: 康熙十四年闽省兵乱,道路阻隔,故将奏疏封于蜡丸以保其安全送达朝廷
+- id: guji-李光地-endeavor-2
+  name_zh: 仕途建言
+  phases:
+  - key: breakthrough
+    name_zh: 以疏显名
+    labels:
+      zh:
+      - 建言
+      - 显名
+    start_date: '1674'
+    highlight_event_id: guji-李光地-event-wax-memorial
+  - key: closure
+    name_zh: 位极台辅
+    labels:
+      zh:
+      - 辅政
+    start_date: '1700'
+    highlight_event_id: guji-李光地-event-wax-memorial
+  decisions:
+  - date: '1674'
+    title_zh: 弃闭门自保, 献策平乱
+    rationale: 桑梓之地虽陷于乱,仍选择向朝廷通报军情而非置身事外
+events:
+- id: guji-李光地-event-birth
+  date: '1642'
+  year_of: '1642'
+  title: 李光地约生于此年
+  description: 李光地出生,后为福建安溪人。
+  category: birth
+- id: guji-李光地-event-wax-memorial
+  date: '1675'
+  year_of: '1675'
+  title: 上蜡丸疏
+  description: 据《清奏疏选汇》目录载,李光地于康熙十四年进呈<蜡丸疏>,密陈闽省机宜,时道路梗阻,以蜡封奏疏送达朝廷。
+  category: endeavor
+- id: guji-李光地-event-death
+  date: '1718'
+  year_of: '1718'
+  title: 李光地约卒于此年
+  description: 李光地去世,终仕于康熙朝。
+  category: death
