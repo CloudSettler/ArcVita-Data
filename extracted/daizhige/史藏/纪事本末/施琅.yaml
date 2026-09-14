@@ -1,0 +1,183 @@
+person:
+  qid: guji-shi-lang
+  name_zh: 施琅
+  names:
+    zh: 施琅
+    en: Shi Lang
+  lifespan:
+    birth:
+      date: 1621
+      precision: year
+      is_circa: true
+      raw: 约明天启元年（1621）
+    death:
+      date: 1696
+      precision: year
+      is_circa: true
+      raw: 约清康熙三十五年（1696）
+  birth_date: 1621
+  death_date: 1696
+  era: 明末清初
+  reign_ref: 清圣祖康熙
+  archetype: 海疆统帅
+  dilemmas:
+  - 弃留之辩：台湾孤悬海外，弃之恐奸宄窜迹，留之须设官置戍、久费经营
+  - 出身郑氏而归清，须以渡海战功自效，方得专征之任
+  lesson: 除患务尽、善后尤要——设官置戍方能化畏途为乐土，屹为海上金城
+  summary_first_person: 我受圣祖仁皇帝专征之命，统闽省水师东渡，先破澎湖，遂俘郑克塽，郡县其地、设官置戍，使孤悬海外之台湾屹为海上金城。
+endeavors:
+- id: guji-shi-lang-endeavor-1
+  name_zh: 平定台湾之役
+  role_zh: 统帅（福建水师提督）
+  start_date: 1681
+  end_date: 1684
+  summary: 据钦定平定台湾纪略，圣祖仁皇帝命施琅等渡海东征，俘郑克塽而郡县其地，康熙二十二年台湾平定，设官置戍，屹为海上金城。
+  phases:
+  - key: brewing
+    name_zh: 受任专征，治军练船
+    labels:
+      zh:
+      - 练兵
+      - 筹海
+    start_date: 1681
+    highlight_event_id: guji-shi-lang-event-appointment
+  - key: breakthrough
+    name_zh: 澎湖大捷，门户洞开
+    labels:
+      zh:
+      - 海战
+      - 破敌
+    start_date: 1683-07
+    highlight_event_id: guji-shi-lang-event-penghu
+  - key: climax
+    name_zh: 抚定台湾，郡县其地
+    labels:
+      zh:
+      - 受降
+      - 设治
+    start_date: 1683-10
+    highlight_event_id: guji-shi-lang-event-surrender
+  - key: closure
+    name_zh: 叙功封靖海侯
+    labels:
+      zh:
+      - 封爵
+      - 叙功
+    start_date: 1684
+    highlight_event_id: guji-shi-lang-event-marquis
+  decisions:
+  - date: 1681
+    title_zh: 力任专征，先具舟师
+    rationale: 渡海决胜在船坚火利，先练水师、严明号令，候风信而后进
+  - date: 1683-07
+    title_zh: 决计先取澎湖
+    rationale: 澎湖为台湾屏障，歼其水师精锐则郑氏失恃，台地可传檄而定
+  - date: 1683-10
+    title_zh: 抚定降众，不戮一人
+    rationale: 俘郑克塽而安辑军民，使台地秩序井然，为留台设治铺路
+- id: guji-shi-lang-endeavor-2
+  name_zh: 筹台善后与海防经营
+  role_zh: 倡议者与镇抚重臣
+  start_date: 1683-10
+  end_date: 1696
+  summary: 受降后相度台地形势，力陈台湾实闽粤江浙屏障，弃之则奸宄复窜；朝廷从其议设官置戍，台地遂入版图，为海上金城。
+  phases:
+  - key: brewing
+    name_zh: 入台相度形势
+    labels:
+      zh:
+      - 巡视
+      - 相度
+    start_date: 1683-10
+    highlight_event_id: guji-shi-lang-event-surrender
+  - key: breakthrough
+    name_zh: 疏陈弃留利害
+    labels:
+      zh:
+      - 建言
+      - 国防
+    start_date: 1683-12
+    highlight_event_id: guji-shi-lang-event-memorial
+  - key: climax
+    name_zh: 置府设官置戍
+    labels:
+      zh:
+      - 设治
+      - 驻防
+    start_date: 1684
+    highlight_event_id: guji-shi-lang-event-prefecture
+  - key: closure
+    name_zh: 镇抚海疆，终老任所
+    labels:
+      zh:
+      - 镇抚
+      - 善终
+    start_date: 1684
+    highlight_event_id: guji-shi-lang-event-death
+  decisions:
+  - date: 1683-12
+    title_zh: 力主留台，反对弃地迁民
+    rationale: 台湾乃江浙闽粤之屏障，弃之必为奸宄渊薮，留之设官置戍乃成金城之固
+events:
+- id: guji-shi-lang-event-birth
+  type: birth
+  date: 1621
+  precision: year
+  is_circa: true
+  year_of: 1621
+  title_zh: 施琅生
+  summary: 施琅生于福建晋江，早年事郑氏，后归清，积功至福建水师提督。
+- id: guji-shi-lang-event-appointment
+  type: career
+  date: 1681
+  year_of: 1681
+  title_zh: 复任福建水师提督，奉命专征台湾
+  summary: 圣祖仁皇帝锐意削平鲸窟，任施琅统闽省水师，练兵筹海，平定台湾自此始。
+  endeavor_id: guji-shi-lang-endeavor-1
+- id: guji-shi-lang-event-penghu
+  type: career
+  date: 1683-07
+  is_circa: true
+  year_of: 1683
+  title_zh: 澎湖海战大捷
+  summary: 施琅督师进攻澎湖，焚破郑氏水师主力，台湾门户洞开，为克台之关键。
+  endeavor_id: guji-shi-lang-endeavor-1
+- id: guji-shi-lang-event-surrender
+  type: career
+  date: 1683-10
+  is_circa: true
+  year_of: 1683
+  title_zh: 俘郑克塽，台湾内附
+  summary: 郑克塽穷蹙请降，施琅抚定台地；圣祖命郡县其地、设官置戍，屹为海上金城。
+  endeavor_id: guji-shi-lang-endeavor-1
+- id: guji-shi-lang-event-memorial
+  type: career
+  date: 1683-12
+  is_circa: true
+  year_of: 1683
+  title_zh: 疏陈台湾弃留利害
+  summary: 施琅奏言台湾孤悬海外，寔闽粤两省屏障，弃之则奸宄窜迹，力主留台设治。
+  endeavor_id: guji-shi-lang-endeavor-2
+- id: guji-shi-lang-event-prefecture
+  type: career
+  date: 1684
+  year_of: 1684
+  title_zh: 置台湾府，隶福建
+  summary: 朝廷从施琅之议，设台湾府县，置戍兵，台地始入版图，渐成乐土。
+  endeavor_id: guji-shi-lang-endeavor-2
+- id: guji-shi-lang-event-marquis
+  type: career
+  date: 1684
+  is_circa: true
+  year_of: 1684
+  title_zh: 以平台功封靖海侯
+  summary: 叙平定台湾之功，封施琅靖海侯，世袭罔替，遂以侯号见称于纪略。
+  endeavor_id: guji-shi-lang-endeavor-1
+- id: guji-shi-lang-event-death
+  type: death
+  date: 1696
+  precision: year
+  is_circa: true
+  year_of: 1696
+  title_zh: 施琅卒
+  summary: 施琅终于福建水师提督任上，谥襄壮，其经略台海之功载于平定台湾纪略。
