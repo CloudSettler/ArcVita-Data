@@ -1,0 +1,136 @@
+person:
+  qid: guji-陈蒨
+  name_zh: 陈蒨
+  names:
+    zh: 陈蒨
+    en: Chen Qian
+  lifespan:
+    birth:
+      date: 522
+      precision: year
+      is_circa: false
+      raw: 梁普通三年前后
+    death:
+      date: 566
+      precision: year
+      is_circa: false
+  birth_date: 522
+  death_date: 566
+  era: 南朝陈
+  reign_ref: 陈文帝（天康/天嘉年间在位，559—566）
+  archetype: 守成之君
+  dilemmas:
+  - 侄主幼国疑，身为宗室第二代，需在权臣与外患之间稳固陈氏政权
+  - 国力凋敝、号令不出建康，须权衡征讨与休养
+  lesson: 创业维艰，守成亦难；休养生息与平定叛乱并重，方能延续基业
+  summary_first_person: 我名陈蒨，是高祖武皇帝陈霸先之侄，始兴昭烈王陈道谭长子。侯景之乱时我避难临安，后随高祖起兵。永定三年高祖驾崩，我奉遗诏即位，是为陈文帝。在位期间平定王琳、留异、陈宝应等叛乱，削平豪强，使江南渐安，又躬行节俭，劝课农桑，陈室基业由我得以巩固。天康元年我崩于有觉殿。
+  source_urls:
+  - https://zh.wikisource.org/wiki/陳書/卷03
+endeavors:
+- id: guji-陈蒨-endeavor-1
+  name_zh: 随高祖征战与镇守地方
+  phases:
+  - key: brewing
+    name_zh: 侯景乱中避难与投军
+    labels:
+      zh:
+      - 避乱
+      - 从军
+    start_date: 548
+    highlight_event_id: guji-陈蒨-event-houjing
+  - key: breakthrough
+    name_zh: 协助理政与出镇吴兴
+    labels:
+      zh:
+      - 辅政
+      - 出镇
+    start_date: 555
+    highlight_event_id: guji-陈蒨-event-wuxing
+  decisions:
+  - date: 555
+    title_zh: 接受吴兴太守之任，为高祖经营后方
+    rationale: 高祖霸业初创，需亲信宗室坐镇根本之地
+- id: guji-陈蒨-endeavor-2
+  name_zh: 即位为帝，平叛定国
+  phases:
+  - key: brewing
+    name_zh: 永定末奉诏嗣位
+    labels:
+      zh:
+      - 嗣位
+      - 继统
+    start_date: 559
+    highlight_event_id: guji-陈蒨-event-usurp-accession
+  - key: breakthrough
+    name_zh: 天嘉年间的平叛与治理
+    labels:
+      zh:
+      - 平叛
+      - 休养
+    start_date: 560
+    highlight_event_id: guji-陈蒨-event-wanglin-pacified
+  - key: climax
+    name_zh: 号令所加，威震境内
+    labels:
+      zh:
+      - 中兴
+    start_date: 564
+    highlight_event_id: guji-陈蒨-event-liuyi-broken
+  - key: closure
+    name_zh: 天康驾崩，传位太子
+    labels:
+      zh:
+      - 托孤
+      - 崩逝
+    start_date: 566
+    highlight_event_id: guji-陈蒨-event-death
+  decisions:
+  - date: 560
+    title_zh: 亲征-monitor王琳，遣侯瑱等迎击
+    rationale: 王琳拥兵上游联齐东下，必须先除肘腋之患
+  - date: 563
+    title_zh: 发兵讨东扬州刺史留异
+    rationale: 豪强割据跋扈，不讨则号令不出建康
+events:
+- id: guji-陈蒨-event-birth
+  date: 522
+  year_of: 522
+  type: birth
+  title_zh: 陈蒨生
+  description: 陈蒨为陈道谭长子，陈霸先之侄，字子华。
+- id: guji-陈蒨-event-houjing
+  date: 548
+  year_of: 548
+  type: endeavor
+  title_zh: 侯景之乱中避难临安
+  description: 侯景陷建康，陈蒨避地临安，时年二十余，后往依高祖。
+- id: guji-陈蒨-event-wuxing
+  date: 555
+  year_of: 555
+  type: endeavor
+  title_zh: 出任吴兴太守
+  description: 高祖讨王僧辩之党后，以陈蒨为吴兴太守，镇守后方；次年率兵击败杜龛余部、张彪等，渐显统御之才。
+- id: guji-陈蒨-event-usurp-accession
+  date: 559-08-07
+  year_of: 559
+  type: accession
+  title_zh: 即皇帝位，改元天嘉
+  description: 永定三年高祖崩，陈蒨以侄嗣位于南郊，是为陈文帝，改元天嘉。
+- id: guji-陈蒨-event-wanglin-pacified
+  date: 560
+  year_of: 560
+  type: endeavor
+  title_zh: 王琳东下兵败，上游之患渐平
+  description: 王琳引齐兵东下，文帝遣侯瑱等大破之于芜湖、沌口，琳奔齐，江郢二州收复。
+- id: guji-陈蒨-event-liuyi-broken
+  date: 564
+  year_of: 564
+  type: endeavor
+  title_zh: 破留异、陈宝应，境内削平豪强
+  description: 天嘉年间，先后平定留异、陈宝应、周迪等割据势力，江南渐服。
+- id: guji-陈蒨-event-death
+  date: 566-05-30
+  year_of: 566
+  type: death
+  title_zh: 陈文帝崩于有觉殿
+  description: 天康元年四月文帝病重，立太子陈伯宗，旋即崩逝，年四十五，谥文皇帝，葬永宁陵。
