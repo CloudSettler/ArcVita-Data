@@ -1,0 +1,192 @@
+person:
+  qid: guji-朱棣
+  name_zh: 朱棣
+  names:
+    zh: 朱棣
+    en: Zhu Di
+  lifespan:
+    birth:
+      date: 1360-05-02
+      precision: day
+      is_circa: false
+      raw: 元至正二十年四月十七日
+    death:
+      date: 1424-08-12
+      precision: day
+      is_circa: false
+      raw: 明永乐二十二年七月十八日
+  birth_date: 1360-05-02
+  death_date: 1424-08-12
+  era: 明代
+  reign_ref: 永乐（1402–1424）
+  archetype: 起于北藩、靖难夺位而后经营天下的马上雄主
+  dilemmas:
+  - 建文削藩相逼，束身就缚以全臣节，还是援祖训举靖难之师以争天命
+  - 得位自内难，名分有亏，须以迁都、远略、文治之大功业自明于天下后世
+  - 天子守国门则边威立而漕运糜财，仍毅然定鼎北京
+  lesson: 多难兴邦，殷忧启圣；然以兵得国者，必继以文治远略，方能定万世之保
+  summary_first_person: 我以燕藩居北平，扼胡元故地，练兵积谷；建文削藩，祸在旦夕，我援皇明祖训举靖难之师，所谓肃清内难，三年而渡江入金陵即位，改元永乐。在位二十二年，五征漠北，遣郑和通西洋，修永乐大典，迁都北京，庙号成祖。
+  source_urls:
+  - https://zh.wikisource.org/wiki/鴻猷錄
+endeavors:
+- id: guji-朱棣-endeavor-1
+  name_zh: 靖难之役
+  description_zh: 鸿猷录序所谓我成祖之肃清内难，即此役。建文元年起兵北平，号称奉祖训清君侧，四年六月渡江入金川门，遂登大位
+  phases:
+  - key: brewing
+    name_zh: 就藩蓄势
+    labels:
+      zh: 就藩北平、节制边兵、预闻北征
+    start_date: 1380-04
+  - key: breakthrough
+    name_zh: 举兵靖难
+    labels:
+      zh: 计擒张昺谢贵、夺北平九门、誓师南向
+    start_date: 1399-08
+    highlight_event_id: guji-朱棣-event-jingnan-raise
+  - key: climax
+    name_zh: 鏖战山东、直趋京师
+    labels:
+      zh: 白沟河之战、灵璧之战、渡江
+    start_date: 1400-04
+    highlight_event_id: guji-朱棣-event-cross-river
+  - key: closure
+    name_zh: 入继大统
+    labels:
+      zh: 金川门之变、革建文年号、改元永乐
+    start_date: 1402-07
+    highlight_event_id: guji-朱棣-event-enthronement
+  decisions:
+  - date: 1399-08
+    title_zh: 援皇明祖训起兵靖难
+    rationale: 齐黄擅政、诸王相继被废，祸且及燕；不举兵则束手就缚，举兵则可挟祖训清君侧之名以令天下
+  - date: 1401-12
+    title_zh: 弃山东坚城，避实击虚直趋京师
+    rationale: 山东屡攻不下，盛庸铁铉坚守；金陵空虚，宁舍坚城而捣腹心，成败决于一举
+- id: guji-朱棣-endeavor-2
+  name_zh: 永乐文治武功
+  description_zh: 即位后五征漠北、遣郑和下西洋、修永乐大典、迁都北京，以经略伟绩彰肃清内难之后绪
+  phases:
+  - key: brewing
+    name_zh: 革除建政
+    labels:
+      zh: 简任内阁、修复旧章、重修太祖实录
+    start_date: 1402-07
+  - key: breakthrough
+    name_zh: 通使西洋、肇修大典
+    labels:
+      zh: 郑和首下西洋、永乐大典成书
+    start_date: 1405-07
+    highlight_event_id: guji-朱棣-event-zhenghe-first
+  - key: climax
+    name_zh: 亲征漠北、迁都北京
+    labels:
+      zh: 五出三犁、营建北京、设奴儿干都司
+    start_date: 1410-03
+    highlight_event_id: guji-朱棣-event-move-capital
+  - key: closure
+    name_zh: 北征道崩
+    labels:
+      zh: 第五次亲征阿鲁台、卒于榆木川
+    start_date: 1424-04
+    highlight_event_id: guji-朱棣-event-death
+  decisions:
+  - date: 1405-07
+    title_zh: 遣郑和等使西洋
+    rationale: 耀兵异域、示中国富强，且成祖疑建文帝亡海外，欲踪迹之，兼抚诸蕃
+  - date: 1406-07
+    title_zh: 诏建北京宫殿，经营迁都
+    rationale: 北平乃龙兴之地，控朔漠而制东北；天子守国门，则九边声势自振
+  - date: 1410-03
+    title_zh: 第一次亲征鞑靼
+    rationale: 本雅失里杀使寇边，不亲征无以威慑漠北、安定九边
+  - date: 1421-02
+    title_zh: 定都北京
+    rationale: 漕运既通、宫阙既成，南敛北控，遂定鼎燕京以驭天下
+events:
+- id: guji-朱棣-event-birth
+  date: 1360-05-02
+  year_of: 1360
+  type: birth
+  title_zh: 生于应天府
+  description_zh: 元至正二十年四月十七日生，太祖高皇帝第四子
+- id: guji-朱棣-event-feng-yan
+  date: 1370-05
+  year_of: 1370
+  title_zh: 封燕王
+  description_zh: 洪武三年四月受封燕王
+- id: guji-朱棣-event-zhifan
+  date: 1380-04
+  year_of: 1380
+  title_zh: 之国北平
+  description_zh: 洪武十三年三月就藩北平，节制沿边士马，屡预北征，威名渐着
+- id: guji-朱棣-event-jingnan-raise
+  date: 1399-08-05
+  year_of: 1399
+  precision: day
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-1
+  title_zh: 起兵靖难
+  description_zh: 建文元年七月，以诛齐泰黄子澄、清君侧为名，计擒张昺谢贵，夺北平九门，誓师南向
+- id: guji-朱棣-event-baigouhe
+  date: 1400-04
+  year_of: 1400
+  precision: month
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-1
+  title_zh: 白沟河大破李景隆
+  description_zh: 建文二年四月，大败李景隆数十万之众于白沟河，燕师声势大振
+- id: guji-朱棣-event-cross-river
+  date: 1402-07-13
+  year_of: 1402
+  precision: day
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-1
+  title_zh: 渡江入金川门
+  description_zh: 建文四年六月，燕师自瓜洲渡江，南京金川门开，宫中火起，建文帝不知所终
+- id: guji-朱棣-event-enthronement
+  date: 1402-07-17
+  year_of: 1402
+  precision: day
+  is_circa: false
+  endeavor_id: guji-朱棣-endeavor-1
+  title_zh: 即皇帝位，改元永乐
+  description_zh: 建文四年六月十七日即位于南京，革除建文年号，以明年为永乐元年
+- id: guji-朱棣-event-zhenghe-first
+  date: 1405-07
+  year_of: 1405
+  precision: month
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-2
+  title_zh: 遣郑和首次下西洋
+  description_zh: 永乐三年六月，命郑和率舟师通使西洋，历占城、爪哇、满剌加诸国
+- id: guji-朱棣-event-yongle-dadian
+  date: 1407-12
+  year_of: 1407
+  precision: month
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-2
+  title_zh: 永乐大典成书
+  description_zh: 永乐五年十一月大典告成，凡二万余卷，赐名永乐大典
+- id: guji-朱棣-event-first-northern-expedition
+  date: 1410-03
+  year_of: 1410
+  precision: month
+  is_circa: true
+  endeavor_id: guji-朱棣-endeavor-2
+  title_zh: 首次亲征鞑靼
+  description_zh: 永乐八年二月亲征本雅失里、阿鲁台，败之于斡难河，漠北震詟
+- id: guji-朱棣-event-move-capital
+  date: 1421-02
+  year_of: 1421
+  precision: month
+  is_circa: false
+  endeavor_id: guji-朱棣-endeavor-2
+  title_zh: 迁都北京
+  description_zh: 永乐十九年正月御奉天殿受朝贺，定都北京，改北京为京师
+- id: guji-朱棣-event-death
+  date: 1424-08-12
+  year_of: 1424
+  type: death
+  title_zh: 崩于榆木川
+  description_zh: 永乐二十二年七月十八日，第五次亲征阿鲁台还师，道崩于榆木川；初庙号太宗，嘉靖时改称成祖
