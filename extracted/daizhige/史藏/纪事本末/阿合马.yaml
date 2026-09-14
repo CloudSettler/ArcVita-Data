@@ -1,0 +1,108 @@
+person:
+  qid: guji-阿合马
+  name_zh: 阿合马
+  names:
+    zh: 阿合马
+    en: Ahmed / Aḥmad Fanākatī
+  lifespan:
+    birth:
+      date: 约1225
+      precision: decade
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 1282
+      precision: year
+      is_circa: false
+      raw: 至元十九年（1282）被杀
+  birth_date: 约1225
+  death_date: 1282
+  era: 元世祖忽必烈时期
+  reign_ref: 元世祖至元年号
+  archetype: 权相式理财大臣
+  dilemmas: -为国家聚敛财赋与鱼肉汉地百姓之间的矛盾 -位高权重凌驾百司与朝野公愤激化的矛盾
+  lesson: 竭泽而渔式的理财终致人亡政息，权臣失制必酿其祸。
+  summary_first_person: 我阿合马本是回回人，蒙元世祖信任，专领国用，理财兴榷、铁冶盐课皆出我手，权倾朝野。然政尚苛刻，搜括益急，怨愤鼎沸，至元十九年王著、高和尚矫皇太子令把我诱杀于宫前，死后我又被发棺戮尸，家产籍没。
+  source_urls:
+  - https://zh.wikisource.org/wiki/元史紀事本末
+endeavors:
+- id: guji-阿合马：endeavor-1
+  name_zh: 理财当国
+  labels:
+    zh:
+    - 理财
+    - 权相
+  phases:
+  - key: brewing
+    name_zh: 掌管财赋
+    labels:
+      zh:
+      - 领户部
+    start_date: 1262
+  - key: breakthrough
+    name_zh: 兴铁冶盐课增赋
+    labels:
+      zh:
+      - 聚敛
+    start_date: 1270
+    highlight_event_id: guji-阿合马：event-climax
+  - key: climax
+    name_zh: 权倾朝野
+    labels:
+      zh:
+      - 专权
+    start_date: 1275
+    highlight_event_id: guji-阿合马：event-climax
+  - key: closure
+    name_zh: 祸发被戮
+    labels:
+      zh:
+      - 被杀
+    start_date: 1282
+    highlight_event_id: guji-阿合马：event-death
+  decisions:
+  - date: 1270
+    title_zh: 主持尚书省理财事宜
+    rationale: 以兴榷货、铸铁、盐课增国用，取信世祖
+  - date: 1282
+    title_zh: 恃宠专政不避怨嫌
+    rationale: 久掌财柄，亲党遍布，遂激众怨而速其祸
+events:
+- id: guji-阿合马：event-birth
+  date: 约-1225
+  year_of: 1225
+  type: birth
+  title_zh: 阿合马出生
+  desc: 阿合马生于中亚费纳客忒，回回人，生年约1225年。
+  participants:
+  - 阿合马
+- id: guji-阿合马-event-appointment
+  date: 1262
+  year_of: 1262
+  type: endeavor
+  title_zh: 阿合马受世祖信任，主掌财赋
+  desc: 忽必烈命阿合马领中书左右部兼诸路都转运使，专理财赋。阿合马以课税铁冶有功，渐见亲信。
+  participants:
+  - 阿合马
+  - 元世祖
+  endeavor_id: guji-阿合马：endeavor-1
+- id: guji-阿合马:无比-event-climax
+  date: 1282
+  year_of: 1282
+  type: climax
+  title_zh: 总理财政、权盛遭忌
+  desc: 阿合马专领国用二十年，增盐铁榷课，采用钞法，权势日盛，招致朝野怨恨，众议汹汹。
+  participants:
+  - 阿合马
+  endeavor_id: guji-阿合马：endeavor-1
+- id: guji-阿合马：event-death
+  date: 1282-03-17
+  year_of: 1282
+  type: death
+  title_zh: 阿合马被王著等人矫诏诱杀
+  desc: 至元十九年三月，益都千户王著与僧人高和尚借皇太子真金北巡之机，矫诏以铜锤击杀阿合马于宫前。世祖事后大怒，发棺戮尸，枭首通玄门外，籍没其家。
+  participants:
+  - 阿合马
+  - 王著
+  - 高和尚
+  endeavor_id: guji-阿合马：endeavor-1

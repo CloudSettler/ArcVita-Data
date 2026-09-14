@@ -1,0 +1,82 @@
+person:
+  qid: guji-阿实克布哈
+  name_zh: 阿实克布哈
+  names:
+    zh: 阿实克布哈
+    en: Ashikibuqa
+  lifespan:
+    birth:
+      date: '1240'
+      precision: decade
+      is_circa: true
+      raw: 约1240年（推断）
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 不详
+  birth_date: 约1240年
+  death_date: 不详
+  era: 元世祖忽必烈时期
+  reign_ref: 至元
+  archetype: 宿卫谋臣
+  dilemmas:
+  - 诸王叛乱时是否先行安抚以孤立叛者
+  - 面对西北诸王欲响应纳延如何稳定宗室
+  lesson: 先抚安诸王、行天讨以孤立叛者，则叛势自孤，胜于轻启用兵。
+  summary_first_person: 我在至元年间担任宿卫使。至元二十四年诸王纳延反叛，西北诸王多欲响应，陛下忧之。我献策主张先抚安诸王，再行天讨，使叛者势孤。我奉命北行说服诸王，使诸王之谋解体，为主力平叛铺平了道路。
+endeavors:
+- id: guji-阿实克布哈-endeavor-1
+  name_zh: 平定纳延之乱的安抚谋略
+  labels:
+    zh:
+    - 宿卫
+    - 抚安诸王
+  phases:
+  - key: brewing
+    name_zh: 纳延反叛初起
+    labels:
+      zh:
+      - 宿卫使
+    start_date: 1287-04
+    highlight_event_id: guji-阿实克布哈-event-advise
+  - key: breakthrough
+    name_zh: 奉命北说诸王
+    labels:
+      zh:
+      - 出使北庭
+    start_date: 1287-05
+    highlight_event_id: guji-阿实克布哈-event-pacify
+  - key: closure
+    name_zh: 帝遂议亲讨纳延
+    labels:
+      zh:
+      - 叛势孤立
+    start_date: 1287-06
+  decisions:
+  - date: 1287-05
+    title_zh: 先抚安诸王乃行天讨
+    rationale: 叛者若失诸王外援则势自孤，可免四面树敌、兵连祸结。
+events:
+- id: guji-阿实克布哈-event-birth
+  date: '1240'
+  year_of: 1240
+  event_type: birth
+  summary_zh: 出生（约1240年，推断）
+- id: guji-阿实克布哈-event-death
+  event_type: death
+  summary_zh: 卒年不详
+- id: guji-阿实克布哈-event-advise
+  date: 1287-04
+  year_of: 1287
+  event_type: career
+  summary_zh: 至元二十四年四月，纳延反，西北诸王多欲从之，帝以为忧；宿卫使阿实克布哈献策先抚安诸王乃行天讨，帝称善，命其行之。
+- id: guji-阿实克布哈-event-pacify
+  date: 1287-05
+  year_of: 1287
+  event_type: career
+  summary_zh: 至元二十四年五月前后，阿实克布哈北上说诸王纳延，晓以利害，纳延许之，诸王之谋乃解，帝遂议亲讨纳延。
+- id: guji-阿实克布哈-event-strategy
+  date: 1287-06
+  year_of: 1287
+  event_type: career
+  summary_zh: 抚安之策见效，叛者势孤，世祖亲讨纳延，围其党于实喇图噜之地，纳延败走被执。
