@@ -1,0 +1,116 @@
+person:
+  qid: guji-主父偃
+  name_zh: 主父偃
+  names:
+    zh: 主父偃
+    en: Zhufu Yan
+  lifespan:
+    birth:
+      date: '-160'
+      precision: decade
+      is_circa: true
+      raw: 生年不详（约西汉文帝后元间）
+    death:
+      date: '-127'
+      precision: year
+      is_circa: false
+      raw: 元朔二年（前127年）族诛
+  birth_date: '-160'
+  death_date: '-127'
+  era: 西汉（汉武帝时期）
+  reign_ref: 汉武帝刘彻
+  archetype: 纵横策士式的改革谋臣
+  dilemmas:
+  - 以严刑急进之手段推行推恩令与徙豪陵，虽利国而广结怨仇
+  - 大丈夫生不五鼎食，死即五鼎烹的功名之执与保身之道相冲突
+  lesson: 锐意进取可致骤贵，然恃宠横行、不加收敛者终难自全。
+  summary_first_person: 我本是齐国临淄一介穷士，游学四十年而无人肯援手，晚岁西入关中，冒死上书阙下，朝奏而暮召，得武帝赏识。我倡推恩之策使诸侯自分其国，又议徙郡国豪杰于茂陵、置朔方郡，一岁四迁至中大夫。然诸侯大臣皆畏我之口而恨我之为人，及为齐相，遭劾擅受诸侯金，族灭其身，天下乃叹我早知人心之难测也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷112
+  - https://zh.wikisource.org/wiki/漢書/卷064上
+endeavors:
+- id: guji-主父偃-endeavor-1
+  name_zh: 游学四方与干谒求仕
+  labels:
+    zh: 草根游士
+  phases:
+  - key: brewing
+    name_zh: 游齐燕赵，困顿不遇
+    labels:
+      zh: 困顿求进
+    start_date: '-140'
+    highlight_event_id: guji-主父偃-event-study
+  - key: breakthrough
+    name_zh: 西入关，上书阙下朝奏暮召
+    labels:
+      zh: 一鸣惊人
+    start_date: '-134'
+    highlight_event_id: guji-主父偃-event-memorial
+- id: guji-主父偃-endeavor-2
+  name_zh: 建言大政与骤迁中大夫
+  labels:
+    zh: 帷幄谋臣
+  phases:
+  - key: climax
+    name_zh: 推恩令、置朔方、徙豪强
+    labels:
+      zh: 强干弱枝
+    start_date: '-127'
+    highlight_event_id: guji-主父偃-event-tuien
+  - key: closure
+    name_zh: 出为齐相，族诛
+    labels:
+      zh: 兵败身死
+    start_date: '-127'
+    highlight_event_id: guji-主父偃-event-death
+events:
+- id: guji-主父偃-event-birth
+  event_type: birth
+  date: '-160'
+  year_of: -160
+  summary: 主父偃生于齐地临淄（生年史无明文，约在文帝后期）。
+  participants:
+  - guji-主父偃
+  place: 临淄
+- id: guji-主父偃-event-study
+  event_type: career
+  date: '-140'
+  year_of: -140
+  summary: 学长短纵横之术，晚乃学易、春秋、百家之言，游齐燕赵间四十年，莫得厚遇。
+  participants:
+  - guji-主父偃
+  place: 齐·燕·赵
+- id: guji-主父偃-event-memorial
+  event_type: career
+  date: '-134'
+  year_of: -134
+  summary: 西入关谒卫青不得荐，乃上书阙下九事、八事为律令、一事谏伐匈奴，朝奏暮召入见，拜郎中，一岁中四迁中大夫。
+  participants:
+  - guji-主父偃
+  - guji-汉武帝刘彻
+  place: 长安
+- id: guji-主父偃-event-tuien
+  event_type: career
+  date: '-127'
+  year_of: -127
+  summary: 建言推恩令，令诸侯得分子弟为侯，以削弱诸侯之势；又议徙郡国豪杰于茂陵、置朔方郡，俱见纳行。
+  participants:
+  - guji-主父偃
+  - guji-汉武帝刘彻
+  place: 长安
+- id: guji-主父偃-event-cha chancellor
+  event_type: career
+  date: '-127'
+  year_of: -127
+  summary: 为齐相后劾齐王与其姊奸事，齐王惧自杀，偃坐受诸侯金、劫齐王，下狱族诛。
+  participants:
+  - guji-主父偃
+  place: 齐
+- id: guji-主父偃-event-death
+  event_type: death
+  date: '-127'
+  year_of: -127
+  summary: 元朔二年因劾齐王致其自杀，被诛灭族。
+  participants:
+  - guji-主父偃
+  place: 长安

@@ -1,0 +1,131 @@
+person:
+  qid: guji-ji-an
+  name_zh: 汲黯
+  names:
+    zh: 汲黯
+    en: Ji An
+  lifespan:
+    birth:
+      date: -170
+      precision: year
+      is_circa: true
+      raw: 约汉文帝时
+    death:
+      date: -112
+      precision: year
+      is_circa: true
+      raw: 约元鼎年间卒
+  birth_date: -170
+  death_date: -112
+  era: 西汉
+  reign_ref: 汉武帝（元狩年间为准）
+  archetype: 直谏诤臣
+  dilemmas:
+  - 直言犯上与保全禄位之间的抉择
+  - 老成守拙与权臣（公孙弘、张汤）更化之政的冲突
+  lesson: 直道事君，虽被疏远而不改其守，诤臣之节可传后世。
+  summary_first_person: 我汲黯以正直闻名，位列九卿，面折廷争，武帝敬而惮之。我崇黄老之术，恶公孙弘、张汤之巧诈，屡加面斥，虽终被出为东海太守、淮阳太守，然治民有惠，其名不衰。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書/卷050
+endeavors:
+- id: guji-ji-an-endeavor-1
+  name_zh: 仕武帝为直臣
+  phases:
+  - key: brewing
+    name_zh: 起家为官
+    labels:
+      zh: 荥阳守、太子洗马
+    start_date: -150
+    highlight_event_id: guji-ji-an-event-appoint
+  - key: breakthrough
+    name_zh: 面折廷争
+    labels:
+      zh: 谏诤九卿
+    start_date: -135
+    highlight_event_id: guji-ji-an-event-admonish
+  - key: climbax
+    name_zh: 崇黄老抑权幸
+    labels:
+      zh: 斥公孙弘、张汤
+    start_date: -128
+    highlight_event_id: guji-ji-an-event-callout
+  - key: closure
+    name_zh: 出守淮阳
+    labels:
+      zh: 卧病而为淮阳守
+    start_date: -118
+    highlight_event_id: guji-ji-an-event-huaiyang
+  decisions:
+  - date: -128
+    title_zh: 面斥公孙弘、张汤
+    rationale: 以其诡辩阿主、更法乱制，宁直斥而不阿附。
+  - date: -118
+    title_zh: 请为中郎而乞骸骨后受淮阳守
+    rationale: 病免之后应诏出守，体恤武安之音与郡民之苦。
+- id: guji-ji-an-endeavor-2
+  name_zh: 东海太守理东海
+  phases:
+  - key: brewing
+    name_zh: 受任东海
+    labels:
+      zh: 东海太守
+    start_date: -149
+    highlight_event_id: guji-ji-an-event-eastsea
+  - key: breakthrough
+    name_zh: 卧阁而治
+    labels:
+      zh: 清静无为
+    start_date: -148
+    highlight_event_id: guji-ji-an-event-eastsea
+  - key: climbax
+    name_zh: 治声日闻
+    labels:
+      zh: 东海大治
+    start_date: -147
+    highlight_event_id: guji-ji-an-event-eastsea
+  - key: closure
+    name_zh: 召为主爵都尉
+    labels:
+      zh: 入仕中央
+    start_date: -135
+    highlight_event_id: guji-ji-an-event-appoint
+  decisions:
+  - date: -148
+    title_zh: 卧阁任用贤吏
+    rationale: 以黄老之道治民，不大兴文书而责小吏，选贤任之。
+events:
+- id: guji-ji-an-event-birth
+  type: person.event.birth
+  year_of: -170
+  date: -170
+  name_zh: 汲黯生（推测）
+- id: guji-ji-an-event-appoint
+  type: event.officialappointment
+  year_of: -135
+  date: -135
+  name_zh: 召为主爵都尉，位列九卿
+- id: guji-ji-an-event-eastsea
+  type: event.career
+  year_of: -148
+  date: -148
+  name_zh: 迁东海太守，卧阁而东海大治
+- id: guji-ji-an-event-admonish
+  type: event.political
+  year_of: -135
+  date: -135
+  name_zh: 廷争直谏，面折武帝，帝为之惮
+- id: guji-ji-an-event-callout
+  type: event.political
+  year_of: -121
+  date: -121
+  name_zh: 斥公孙弘怀诈饰智、张汤深文巧诋
+- id: guji-ji-an-event-huaiyang
+  type: event.officialappointment
+  year_of: -118
+  date: -118
+  name_zh: 拜淮阳太守，卧而治之，郡中清平
+- id: guji-ji-an-event-death
+  type: person.event.death
+  year_of: -112
+  date: -112
+  name_zh: 汲黯卒（约元鼎年间）
