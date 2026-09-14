@@ -1,0 +1,134 @@
+person:
+  qid: guji-wangyinglin
+  name_zh: 王应麟
+  names:
+    zh: 王应麟
+    en: Wang Yinglin
+  lifespan:
+    birth:
+      date: '1223'
+      precision: year
+      is_circa: true
+      raw: 约1223年
+    death:
+      date: '1296'
+      precision: year
+      is_circa: true
+      raw: 约1296年
+  birth_date: '1223'
+  death_date: '1296'
+  era: 南宋末年至宋亡之后
+  reign_ref: 宋理宗淳祐元年、宋度宗、元世祖至元年间
+  archetype: 学者型史地考据家
+  dilemmas:
+  - 宋亡之后隐居不仕元朝，以著述自守
+  - 历史地名纷乱沿革难考，须辨析异同以为兴替之鉴
+  lesson: 治学务在考证地名沿革，通古今兴替成败之鉴
+  summary_first_person: 我名王应麟，字伯厚，庆元府人。淳祐元年登进士第，宝祐中复中博学宏辞科，官至礼部尚书兼给事中。宋亡后隐居著述，撰《通鉴地理通释》《诗考》《诗地理考》《困学纪闻》诸书，为史学考据之功甚巨。
+  source_urls:
+  - https://www.zh.wikisource.org/wiki/通鉴地理通释
+endeavors:
+- id: guji-wangyinglin-endeavor-1
+  name_zh: 仕进之途
+  labels:
+    zh: 科举仕宦
+  phases:
+  - key: brewing
+    name_zh: 进士登第
+    labels:
+      zh: 进士出身
+    start_date: '1241'
+    highlight_event_id: guji-wangyinglin-event-jinshi
+  - key: breakthrough
+    name_zh: 中博学宏辞科
+    labels:
+      zh: 宏辞科
+    start_date: '1255'
+    highlight_event_id: guji-wangyinglin-event-hongci
+  decisions:
+  - date: '1241'
+    title_zh: 应试进士
+    rationale: 以经术进身，开启仕途
+  - date: '1255'
+    title_zh: 应博学宏辞科
+    rationale: 再应制科以博洽闻名将自显
+- id: guji-wangyinglin-endeavor-2
+  name_zh: 著述考据
+  labels:
+    zh: 撰述群书
+  phases:
+  - key: brewing
+    name_zh: 遍研群经
+    labels:
+      zh: 积学
+    start_date: '1241'
+    highlight_event_id: guji-wangyinglin-event-jinshi
+  - key: breakthrough
+    name_zh: 撰《通鉴地理通释》
+    labels:
+      zh: 史地考据
+    start_date: '1280'
+    highlight_event_id: guji-wangyinglin-event-tongji-xu
+  - key: closure
+    name_zh: 宋亡后闭门著书
+    labels:
+      zh: 遗民著述
+    start_date: '1290'
+    highlight_event_id: guji-wangyinglin-event-xu
+  decisions:
+  - date: '1280'
+    title_zh: 闲居笺释通鉴地名
+    rationale: 以通鉴所载地名异同沿革最为纠纷，条列厘订成编，为兴替成败之鉴
+  - date: '1280'
+    title_zh: 自序不题元号
+    rationale: 借陶潜但书甲子之义，上章执徐橘壮之月，用存宋之思
+events:
+- id: guji-wangyinglin-event-birth
+  person_id: guji-wangyinglin
+  title_zh: 生于庆元府
+  canonical_date: '1223'
+  year_of: 1223
+  precision: year
+  era_tags:
+  - 南宋
+- id: guji-wangyinglin-event-jinshi
+  person_id: guji-wangyinglin
+  title_zh: 淳祐元年登进士第
+  canonical_date: '1241'
+  year_of: 1241
+  precision: year
+  era_tags:
+  - 南宋
+- id: guji-wangyinglin-event-hongci
+  person_id: guji-wangyinglin
+  title_zh: 宝祐中复中博学宏辞科
+  canonical_date: '1255'
+  year_of: 1255
+  precision: year
+  era_tags:
+  - 南宋
+- id: guji-wangyinglin-event-tongji-xu
+  person_id: guji-wangyinglin
+  title_zh: 撰《通鉴地理通释》自序
+  canonical_date: '1280'
+  year_of: 1280
+  precision: year
+  era_tags:
+  - 元初
+  note: 自序署上章执徐橘壮之月，即至元十七年庚辰八月，宋亡已三年
+- id: guji-wangyinglin-event-xu
+  person_id: guji-wangyinglin
+  title_zh: 著《通鉴地理通释》成
+  canonical_date: '1280'
+  year_of: 1280
+  precision: year
+  era_tags:
+  - 元初
+- id: guji-wangyinglin-event-death
+  person_id: guji-wangyinglin
+  title_zh: 卒
+  canonical_date: '1296'
+  year_of: 1296
+  precision: year
+  era_tags:
+  - 元初
