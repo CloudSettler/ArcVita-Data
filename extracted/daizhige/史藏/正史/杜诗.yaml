@@ -1,0 +1,146 @@
+person:
+  qid: guji-杜诗
+  name_zh: 杜诗
+  names:
+    zh: 杜诗
+    en: Du Shi
+  lifespan:
+    birth:
+      date: '0000'
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 0038
+      precision: year
+  birth_date: ''
+  death_date: 0038
+  era: 东汉初
+  reign_ref: 光武帝时期
+  archetype:
+  - 循吏
+  - 工艺发明家
+  dilemmas:
+  - 为政严猛与百姓称便之间的权衡
+  - 兴修水利与地方豪强利益的冲突
+  lesson: 善政不止于安民，更在于以巧思利万世
+  summary_first_person: 我是东汉杜诗，任南阳太守，治政清简、爱民如子，又作水排以鼓铸器械，用之省力而功倍，百姓称便，比之于召信臣，故有“前有召父，后有杜母”之谣。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+endeavors:
+- id: guji-杜诗-endeavor-1
+  name_zh: 治理南阳
+  labels:
+    zh:
+    - 循吏
+    - 郡守政绩
+  phases:
+  - key: brewing
+    name_zh: 出仕迁官
+    labels:
+      zh:
+      - 初仕
+    start_date: '0025'
+    highlight_event_id: guji-杜诗-event-office
+  - key: climax
+    name_zh: 太守南阳
+    labels:
+      zh:
+      - 政治清简
+      - 诛暴立威
+    start_date: '0031'
+    highlight_event_id: guji-杜诗-event-govern
+  - key: closure
+    name_zh: 卒于任上
+    labels:
+      zh:
+      - 身无余财
+    start_date: 0038
+    highlight_event_id: guji-杜诗-event-death
+  decisions:
+  - date: '0031'
+    title_zh: 请求留任南阳
+    rationale: 视南阳为自己施展治道之本，故上疏求退避贤而实愿留任
+  - date: '0035'
+    title_zh: 修治陂池、广拓土田
+    rationale: 兴修水利以富民，郡内比之家户丰足
+- id: guji-杜诗-endeavor-2
+  name_zh: 造作水排
+  labels:
+    zh:
+    - 工艺发明
+    - 冶铸
+  phases:
+  - key: brewing
+    name_zh: 观察冶铸之劳
+    labels:
+      zh:
+      - 体察民力
+    start_date: '0031'
+    highlight_event_id: guji-杜诗-event-waterstart
+  - key: breakthrough
+    name_zh: 发明水排
+    labels:
+      zh:
+      - 以水为力
+    start_date: '0031'
+    highlight_event_id: guji-杜诗-event-waterstart
+  decisions:
+  - date: '0031'
+    title_zh: 作水排铸农器
+    rationale: 用水力鼓风冶铸，用力少而见功多，胜于人力马力之排
+events:
+- id: guji-杜诗-event-birth
+  date: '0025'
+  year_of: 25
+  category: 生平
+  type: birth
+  title_zh: 杜诗出生（生年不详，约东汉初）
+  summary_zh: 杜诗生年史无明载，约生于两汉之际。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+- id: guji-杜诗-event-office
+  date: '0027'
+  year_of: 27
+  category: 仕宦
+  type: office
+  title_zh: 任职郡功曹，以公事干练见称
+  summary_zh: 杜诗早年任郡功曹，有公平之称，后迁官至南阳太守。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+- id: guji-杜诗-event-govern
+  date: '0031'
+  year_of: 31
+  category: 政绩
+  type: governorship
+  title_zh: 出任南阳太守，政治清简、诛暴立威
+  summary_zh: 杜诗任南阳太守，性节俭而政治清平，以诛除强暴立威，善谋略，爱民役省，郡中百姓皆得安居。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+- id: guji-杜诗-event-waterstart
+  date: '0031'
+  year_of: 31
+  category: 发明
+  type: invention
+  title_zh: 造作水排，铸为农器
+  summary_zh: 杜诗在南阳造水排，利用水力鼓风冶铁，铸造农器，用力少见功多，为冶铸技术之重大革新。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+- id: guji-杜诗-event-irrigation
+  date: '0035'
+  year_of: 35
+  category: 政绩
+  type: public_works
+  title_zh: 修治陂池，广拓土田
+  summary_zh: 杜诗修治郡内陂池水利，广拓土田，郡内比之家室殷足，时人以方之召信臣，故南阳为之语曰“前有召父，后有杜母”。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)
+- id: guji-杜诗-event-death
+  date: 0038
+  year_of: 38
+  category: 生平
+  type: death
+  title_zh: 杜诗卒于任上
+  summary_zh: 杜诗卒于南阳太守任上，身无余财，而南阳百姓感恩，为之立祠。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杜诗_(东汉)

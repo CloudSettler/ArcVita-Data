@@ -1,0 +1,122 @@
+person:
+  qid: guji-羊续
+  name_zh: 羊续
+  names:
+    zh: 羊续
+    en: Yang Xu
+  lifespan:
+    birth:
+      date: '0142'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约东汉顺帝时
+    death:
+      date: 0189
+      precision: year
+      is_circa: true
+      raw: 中平末年卒
+  birth_date: circa 0142
+  death_date: 0189
+  era: 东汉
+  reign_ref: 汉灵帝
+  archetype: 清廉之臣
+  dilemmas:
+  - 拒收贿礼与维系官场人情之间的冲突
+  lesson: 为官当如羊续悬鱼，清慎足以化俗
+  summary_first_person: 我羊续为汉末南阳太守，以悬鱼却贿、清贫守节著称，卒时不敢惊动僚属扰民营丧。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷31
+endeavors:
+- id: guji-羊续-endeavor-1
+  key_event: none
+  name_zh: 出仕清慎
+  phases:
+  - key: brewing
+    name_zh: 初入仕途
+    labels:
+      zh: 入仕
+    start_date: '0170'
+  - key: breakthrough
+    name_zh: 迁为庐江太守
+    labels:
+      zh: 守庐江
+    start_date: '0175'
+  decisions:
+  - date: '0175'
+    title_zh: 出任庐江太守
+    rationale: 以清慎才能见用，平定地方乱事
+- id: guji-羊续-endeavor-2
+  key_event: none
+  name_zh: 南阳施政
+  phases:
+  - key: climax
+    name_zh: 悬鱼却贿
+    labels:
+      zh: 悬鱼
+    start_date: 0184
+    highlight_event_id: guji-羊续-event-3
+  - key: closure
+    name_zh: 卒于任
+    labels:
+      zh: 终任
+    start_date: 0189
+    highlight_event_id: guji-羊续-event-death
+  decisions:
+  - date: 0184
+    title_zh: 就任南阳太守
+    rationale: 黄巾乱后抚定南阳，整饬吏治
+  - date: 0184
+    title_zh: 府丞献鱼悬之于庭
+    rationale: 以拒接受再现献者，明示不受贿赂之志
+events:
+- id: guji-羊续-event-birth
+  year_of: 142
+  date: '0142'
+  precision: year
+  is_circa: true
+  kind: birth
+  title_zh: 羊续生（约）
+  description: 生年史无明文，约在东汉中期。
+  participants:
+  - guji-羊续
+  place: 泰山平阳
+- id: guji-羊续-event-1
+  year_of: 175
+  date: '0175'
+  precision: year
+  is_circa: true
+  kind: career
+  title_zh: 出任庐江太守
+  description: 羊续以清慎著称，迁庐江太守，黄巾起时平定江淮一带乱事。
+  participants:
+  - guji-羊续
+- id: guji-羊续-event-2
+  year_of: 184
+  date: 0184
+  precision: year
+  is_circa: true
+  kind: career
+  title_zh: 就任南阳太守
+  description: 中平元年前后迁南阳太守，抚定乱后地方。
+  participants:
+  - guji-羊续
+- id: guji-羊续-event-3
+  year_of: 184
+  date: 0184
+  precision: year
+  is_circa: true
+  kind: deed
+  title_zh: 悬鱼拒贿
+  description: 府丞尝献其鱼，续受而悬于庭；丞又献之，续乃出前所悬以绝其意，由此终不敢复馈。
+  participants:
+  - guji-羊续
+- id: guji-羊续-event-death
+  year_of: 189
+  date: 0189
+  precision: year
+  is_circa: true
+  kind: death
+  title_zh: 羊续卒于任
+  description: 时年约四十八，遗言薄葬，不受赙赠，妻儿不得入官舍。
+  participants:
+  - guji-羊续

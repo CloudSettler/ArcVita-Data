@@ -1,0 +1,88 @@
+person:
+  qid: guji-虞诩
+  name_zh: 虞诩
+  names:
+    zh: 虞诩
+    en: Yu Xu
+  lifespan:
+    birth:
+      date: '0030'
+      precision: decade
+      is_circa: true
+      raw: 约东汉初年生，具体不详
+    death:
+      date: '0140'
+      precision: era
+      is_circa: true
+      raw: 约东汉中期卒，具体不详
+  birth_date: 约0030
+  death_date: 约0140
+  era: 东汉
+  reign_ref: 安帝、顺帝之世
+  archetype: lowborn_strategist
+  dilemmas:
+  - 虽困于谪任，仍以迂回之策镇抚羌乱、安定朝堂
+  lesson: 谪居不坠其志，以智补力，处危而愈奋
+  summary_first_person: 我虞诩，东汉之臣也。身历谪臣、边将、朝官诸任，以策略平羌乱、以刚直事朝廷，处困厄而不改其守。
+  source_urls: -八家后汉书辑注
+endeavors:
+- id: guji-虞诩-endeavor-1
+  name_zh: 仕途沉浮与安定朝野
+  phases:
+  - key: brewing
+    name_zh: 入仕初起
+    labels:
+      zh:
+      - 入仕
+      - 治理
+    start_date: 约0060
+  - key: breakthrough
+    name_zh: 平羌受任
+    labels:
+      zh:
+      - 军事
+      - 边防
+    start_date: 约0110
+    highlight_event_id: guji-虞诩-event-1
+  - key: climax
+    name_zh: 位居廷尉尚书
+    labels:
+      zh:
+      - 朝政
+      - 刚直
+    start_date: 约0125
+    highlight_event_id: guji-虞诩-event-2
+  - key: closure
+    name_zh: 晚年尽忠
+    labels:
+      zh:
+      - 尽忠
+    start_date: 约0135
+  decisions:
+  - date: 约0110
+    title_zh: 受命赴任不畏羌患
+    rationale: 谪任危地而不辞，以奇策退羌、安境安民
+  - date: 约0125
+    title_zh: 直言弹劾权幸
+    rationale: 以刚直守正，不避权贵，宁直取 ConcurrentHashMap 祸不改其操
+events:
+- id: guji-虞诩-event-birth
+  event_type: birth
+  date: 约0030
+  year_of: 30
+  summary: 虞诩约生于东汉初年，具体年代史无明文
+- id: guji-虞诩-event-1
+  event_type: endeavor
+  date: 约0110
+  year_of: 110
+  summary: 虞诩受任赴边，以增灶疑兵之策破羌，安定凉州一security带
+- id: guji-虞诩-event-2
+  event_type: endeavor
+  date: 约0125
+  year_of: 125
+  summary: 虞诩入朝任要职，屡上直言、弹劾不避权贵，为北宋末所称刚直之臣
+- id: guji-虞诩-event-death
+  event_type: death
+  date: 约0140
+  year_of: 140
+  summary: 虞诩约卒于东汉中期，卒年史载不详
