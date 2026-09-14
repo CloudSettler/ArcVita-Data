@@ -1,0 +1,80 @@
+person:
+  qid: guji-zengjing
+  name_zh: 曾静
+  names:
+    zh: 曾静
+    en: Zeng Jing
+  lifespan:
+    birth:
+      date: '1670'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约康熙年间
+    death:
+      date: '1736'
+      precision: year
+      is_circa: true
+      raw: 卒年约乾隆初年（史载乾隆年间被处决）
+  birth_date: 约1670
+  death_date: 约1736
+  era: 清雍正、乾隆年间
+  reign_ref: 雍正帝
+  archetype: 反清思想案犯
+  dilemmas:
+  - 受吕留良华夷之辨学说感召，试图策动反清，事败后反被雍正利用为宣示正统的工具
+  - 雍正以辩驳其言行刊行《大义觉迷录》赦免之，而乾隆继位后终将其处决
+  lesson: 思想传播的力量可以反噬发布者——一桩谋反案演变为皇帝的公开自辩，终成历史上罕见的奇案
+  summary_first_person: 我曾静，湖南永兴人。我读吕留良遗著，笃信华夷之辨，遂遣门徒张熙投书川陕总督岳钟琪，劝其起兵反清，并直斥雍正帝谋父、逼母、弑兄等十大罪。事败被捕后，雍正不杀我，反与我反复辩驳，将问答刊为《大义觉迷录》颁行天下，命我赴各地宣讲自悔。我以为得全性命，岂料乾隆继位后终将我处死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/大義覺迷錄
+endeavors:
+- id: guji-zengjing-endeavor-1
+  name_zh: 笃信吕留良学说
+  phases:
+  - key: brewing
+    name_zh: 接受华夷之辨思想
+    labels:
+      zh: 思想孕育
+    start_date: 约1725
+    highlight_event_id: guji-zengjing-event-read
+  - key: breakthrough
+    name_zh: 密谋遣使投书
+    labels:
+      zh: 密谋
+    start_date: 约1728
+    highlight_event_id: guji-zengjing-event-letter
+  decisions:
+  - date: 约1728
+    title_zh: 遣张熙投书岳钟琪劝反
+    rationale: 笃信吕留良"德佑以后天地大变"之说，认定满清无德，欲借汉臣重臣起兵恢复
+events:
+- id: guji-zengjing-event-birth
+  name_zh: 曾静出生
+  date: 约1670
+  year_of: 1670
+  description: 约生于康熙年间，湖南永兴人，屡试不第，为乡村塾师
+- id: guji-zengjing-event-read
+  name_zh: 得读吕留良著述，思想转向反清
+  date: 约1725
+  year_of: 1725
+  description: 读吕留良遗著，受其华夷之辨、明清易代"天昏地暗"之说蛊惑，与严鸿逵门徒转相传习
+- id: guji-zengjing-event-letter
+  name_zh: 遣张熙投书岳钟琪
+  date: 1728
+  year_of: 1728
+  description: 遣门徒张熙赴川陕总督岳钟琪处投递逆书，列举雍正谋父、逼母、弑兄、屠弟等罪，劝其谋反；岳钟琪设计诱供，案发
+- id: guji-zengjing-event-arrest
+  name_zh: 被捕解京，雍正亲加审辩
+  date: 1729
+  year_of: 1729
+  description: 案发后解送京师，雍正亲自条陈驳斥其言论，追认源出吕留良，酿成吕留良文字狱大案
+- id: guji-zengjing-event-daju
+  name_zh: 《大义觉迷录》颁行，奉旨免罪宣讲
+  date: 1730
+  year_of: 1730
+  description: 雍正将逆书与上谕刊为《大义觉迷录》颁布各府州县学宫，赦免曾静并令其赴江南等地宣讲悔过
+- id: guji-zengjing-event-death
+  name_zh: 乾隆即位后被处死
+  date: 约1736
+  year_of: 1736
+  description: 乾隆继位后推翻雍正处置，将曾静、张熙处决，《大义觉迷录》遭查禁
