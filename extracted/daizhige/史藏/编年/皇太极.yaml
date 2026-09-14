@@ -1,0 +1,163 @@
+person:
+  qid: guji-皇太极
+  name_zh: 皇太极
+  names:
+    zh: 皇太极
+    en: Hong Taiji
+  lifespan:
+    birth:
+      date: '1592-11-28'
+      precision: day
+      is_circa: false
+      raw: 明万历二十年
+    death:
+      date: '1643-09-21'
+      precision: day
+      is_circa: false
+      raw: 崇德八年
+  birth_date: '1592-11-28'
+  death_date: '1643-09-21'
+  era: 后金—清初（明万历至崇祯年间）
+  reign_ref: 天聪、崇德
+  archetype: 开国承业之君
+  dilemmas:
+  - 于对明战争与抚定蒙古、朝鲜诸方之间统筹国力
+  - 承太祖之业而须改制度、正名号以成帝业
+  lesson: 继业者须以文德武功兼修，创制显庸，方能定鼎
+  summary_first_person: 我承太祖之业，继立汗位，征朝鲜、服蒙古，得天传国玺而建国号曰大清，改元崇德，复破明兵于松山锦州，为定鼎中原贻谋afb。
+endeavors:
+- id: guji-皇太极-endeavor-1
+  name_zh: 绥服诸藩、正位建清
+  phases:
+  - key: brewing
+    name_zh: 招抚蒙古
+    labels:
+      zh:
+      - 蒙古诸部归顺
+    start_date: '1627-01-01'
+    highlight_event_id: guji-皇太极-event-liaodan
+  - key: breakthrough
+    name_zh: 获玺称制
+    labels:
+      zh:
+      - 收服察哈尔
+      - 得传国玉玺
+    start_date: '1635-01-01'
+    highlight_event_id: guji-皇太极-event-yuxi
+  - key: climax
+    name_zh: 建号大清改元崇德
+    labels:
+      zh:
+      - 符瑞炳着
+      - 上尊号寛温仁圣皇帝
+    start_date: '1636-04-01'
+    highlight_event_id: guji-皇太极-event-daqing
+  - key: closure
+    name_zh: 东征朝鲜定盟
+    labels:
+      zh:
+      - 三田渡受降
+    start_date: '1636-12-01'
+    highlight_event_id: guji-皇太极-event-chaoxian
+  decisions:
+  - date: '1636-04-01'
+    title_zh: 顺诸贝勒大臣所请建国号曰大清改元崇德
+    rationale: 以传国玺符瑞炳着，应天命而正大位
+- id: guji-皇太极-endeavor-2
+  name_zh: 伐明拓土
+  phases:
+  - key: brewing
+    name_zh: 入塞试探
+    labels:
+      zh:
+      - 两入边墙
+    start_date: '1629-01-01'
+    highlight_event_id: guji-皇太极-event-fengqiang
+  - key: breakthrough
+    name_zh: 大凌河之胜
+    labels:
+      zh:
+      - 亲破明兵
+      - 风雨反火
+    start_date: '1631-09-01'
+    highlight_event_id: guji-皇太极-event-dalinghe
+  - key: climax
+    name_zh: 松锦大捷
+    labels:
+      zh:
+      - 生擒洪承畴
+      - 克锦州
+    start_date: '1642-02-01'
+    highlight_event_id: guji-皇太极-event-songjin
+  - key: closure
+    name_zh: 越燕京深入岱梁
+    labels:
+      zh:
+      - 阿巴泰征明
+    start_date: '1642-11-01'
+    highlight_event_id: guji-皇太极-event-shenru
+  decisions:
+  - date: '1638-01-01'
+    title_zh: 命多尔衮、岳托分左右翼征明入关
+    rationale: 以武功张挞伐，凭庙算而直为壮
+events:
+- id: guji-皇太极-event-birth
+  year_of: -3792
+  date: '1592-11-28'
+  type: birth
+  title_zh: 皇太极生
+  detail: 太祖之子，幼禀睿知圣德咸备，为太祖器重
+- id: guji-皇太极-event-sizu
+  year_of: 1626
+  date: '1626-10-01'
+  type: endeavor
+  title_zh: 继太祖嗣服为汗
+  detail: 太祖崩，皇太极即汗位，改元天聪，规模既定
+- id: guji-皇太极-event-yuxi
+  year_of: 1635
+  date: '1635-10-01'
+  type: endeavor
+  title_zh: 收服察哈尔获历代传国玉玺
+  detail: 天聪九年贝勒多尔衮等收服察哈尔全部，其子额哲率众迎降，获传国玉玺
+- id: guji-皇太极-event-daqing
+  year_of: 1636
+  date: '1636-04-01'
+  type: endeavor
+  title_zh: 建国号大清改元崇德
+  detail: 诸贝勒大臣以符瑞炳着请建国号，群臣上尊号曰寛温仁圣皇帝
+- id: guji-皇太极-event-chaoxian
+  year_of: 1636
+  date: '1636-12-01'
+  type: endeavor
+  title_zh: 亲征朝鲜
+  detail: 以朝鲜败盟逆命统大军征之，李倧诣军前降，上明国所给勅印，三田渡勒碑颂德
+- id: guji-皇太极-event-liaodan
+  year_of: 1631
+  date: '1631-10-01'
+  type: endeavor
+  title_zh: 亲破明兵于大凌河
+  detail: 黑云起，风从西来，敌乘风纵火，天忽雨反风焚敌，遂大捷，十月大凌河城降
+- id: guji-皇太极-event-fengqiang
+  year_of: 1638
+  date: '1638-09-01'
+  type: endeavor
+  title_zh: 两入明边张挞伐
+  detail: 命多尔衮、岳托统左右翼军，自墙子岭、青山关分路入关，破济南诸府
+- id: guji-皇太极-event-songjin
+  year_of: 1642
+  date: '1642-02-01'
+  type: endeavor
+  title_zh: 克松山，生擒洪承畴
+  detail: 崇德七年二月克松山城，擒明总督洪承畴，三月克锦州，祖大寿降
+- id: guji-皇太极-event-shenru
+  year_of: 1642
+  date: '1642-11-01'
+  type: endeavor
+  title_zh: 命阿巴泰率师征明
+  detail: 由黄崖口入，越燕京趋河间至兖州，凡克府三州十八县六十七
+- id: guji-皇太极-event-death
+  year_of: 37
+  date: '1643-09-21'
+  type: death
+  title_zh: 皇太极崩
+  detail: 崇德八年薨，贻定鼎之谋于后世
