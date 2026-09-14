@@ -1,0 +1,105 @@
+person:
+  qid: guji-武丁
+  name_zh: 武丁
+  names:
+    zh: 武丁
+    en: Wu Ding
+  lifespan:
+    birth:
+      date: -1250
+      precision: year
+      is_circa: true
+      raw: 生年无载，据在位元丁未（约前1250年）上推
+    death:
+      date: -1192
+      precision: year
+      is_circa: true
+      raw: 在位五十九年而陟（约前1192年）
+  birth_date: -1250
+  death_date: -1192
+  era: 商
+  reign_ref: 殷王武丁，元丁未，在位五十九年
+  archetype: 中兴令主
+  dilemmas:
+  - 承盘庚迁殷之后，小辛、小乙之衰，须重振殷道
+  lesson: 息于政事三年而复起，任贤图治以成殷之复兴
+  summary_first_person: 我是商王武丁，即位于丁未之元，居殷复行汤之政，梦见傅说而举之于版筑之间，在位五十九年，殷道复兴。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=竹书统笺卷六
+endeavors:
+- id: guji-武丁-endeavor-1
+  key: brewing
+  name_zh: 凉阴即位，三年不言
+  labels:
+    zh:
+    - 守丧
+    - 静观
+  start_date: -1250
+  highlight_event_id: guji-武丁-event-登位
+  decisions:
+  - date: -1250
+    title_zh: 居凉阴，三年不言
+    rationale: 遵礼守丧，默观政事以待贤者
+- id: guji-武丁-endeavor-2
+  key: breakthrough
+  name_zh: 举傅说，修政行德
+  labels:
+    zh:
+    - 得贤
+    - 中兴
+  start_date: -1247
+  highlight_event_id: guji-武丁-event-中兴
+  decisions:
+  - date: -1247
+    title_zh: 举傅说为相
+    rationale: 梦帝赉良弼，求之于野，得傅说于傅险
+- id: guji-武丁-endeavor-3
+  key: climax
+  name_zh: 殷道复兴
+  labels:
+    zh:
+    - 中兴
+    - 盛世
+  start_date: -1220
+  highlight_event_id: guji-武丁-event-中兴
+  decisions:
+  - date: -1220
+    title_zh: 天下咸欢，殷道复兴
+    rationale: 修政行德，天下咸欢，史称高宗
+- id: guji-武丁-endeavor-4
+  key: closure
+  name_zh: 在位五十九年而崩
+  labels:
+    zh:
+    - 崩逝
+  start_date: -1192
+  highlight_event_id: guji-武丁-event-death
+events:
+- id: guji-武丁-event-birth
+  year_of: -1250
+  date: -1250
+  title_zh: 武丁生
+  detail: 生年史无明文，约当商王小乙之世
+  type: birth
+  person_qid: guji-武丁
+- id: guji-武丁-event-登位
+  year_of: -1250
+  date: -1250
+  title_zh: 武丁即位，元丁未
+  detail: 竹书统笺卷六：武丁【元丁未在位五十九年】，殷之高宗
+  type: 事业
+  person_qid: guji-武丁
+- id: guji-武丁-event-中兴
+  year_of: -1247
+  date: -1247
+  title_zh: 得傅说，修政行德，殷道复兴
+  detail: 三年不言，既免丧，梦得圣人，举傅说于版筑之间，修政行德，天下咸欢
+  type: 事业
+  person_qid: guji-武丁
+- id: guji-武丁-event-death
+  year_of: -1192
+  date: -1192
+  title_zh: 武丁陟
+  detail: 在位五十九年而崩，庙号高宗
+  type: death
+  person_qid: guji-武丁
