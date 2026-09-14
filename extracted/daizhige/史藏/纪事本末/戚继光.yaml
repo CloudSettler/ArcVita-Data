@@ -1,0 +1,106 @@
+person:
+  qid: guji-戚继光
+  name_zh: 戚继光
+  names:
+    zh: 戚继光
+    en: Qi Jiguang
+  lifespan:
+    birth:
+      date: '1528-11-12'
+      precision: year
+      is_circa: true
+      raw: 嘉靖初年生
+    death:
+      date: '1588-01-17'
+      precision: year
+      is_circa: true
+      raw: 万历十五年末卒
+  birth_date: '1528'
+  death_date: '1588'
+  era: 明代（嘉靖—万历年间）
+  reign_ref: 隆庆、万历
+  archetype: 边防名将
+  dilemmas:
+  - 边镇积弱、募浙兵易生朝廷猜疑，自请设监军以自证
+  - 面对strup长昂等朵颜部既需抚赏又须武备的两难
+  lesson: 练兵实备、车骑步协同，方能御虏于塞外
+  summary_first_person: 我发迹浙江，以鸳鸯阵与浙兵练法整饬蓟门，筑台浚隍，屡破长昂、董狐狸之众，使北边数得安堵。
+endeavors:
+- id: guji-戚继光-endeavor-1
+  name_zh: 南方练兵成名
+  phases:
+  - key: brewing
+    name_zh: 浙江抗倭初起
+    labels:
+      zh:
+      - 发迹浙江
+    start_date: '1550'
+  decisions:
+  - date: '1561'
+    title_zh: 以浙兵战法练成新军
+    rationale: 倭患方炽，须募义乌壮丁、立兵法节制
+- id: guji-戚继光-endeavor-2
+  name_zh: 总理蓟镇练兵御虏
+  phases:
+  - key: breakthrough
+    name_zh: 拜大将军专理练兵
+    labels:
+      zh:
+      - 隆庆练兵
+    start_date: 1568-04
+    highlight_event_id: guji-戚继光-event-baijiang
+  - key: climax
+    name_zh: 青山口围董狐狸、董家口擒长秃
+    labels:
+      zh:
+      - 屡挫朵颜
+    start_date: '1573'
+    highlight_event_id: guji-戚继光-event-qingshan
+  - key: closure
+    name_zh: 调离蓟镇，边备渐弛
+    labels:
+      zh:
+      - 功成身退
+    start_date: '1583'
+  decisions:
+  - date: '1568'
+    title_zh: 上疏请募浙兵一万二千调练蓟门
+    rationale: 边兵不习山战谷战林战之法，惟浙兵能之
+  - date: '1568'
+    title_zh: 自请设监军科道官以避嫌
+    rationale: 拥重兵易生猜疑，请设监军使臣无掣肘
+events:
+- id: guji-戚继光-event-birth
+  date: '1528'
+  year_of: '1528'
+  type: birth
+  title_zh: 戚继光生
+- id: guji-戚继光-event-baijiang
+  date: 1568-04
+  year_of: '1568'
+  type: appointment
+  title_zh: 隆庆二年四月拜大将军，专理练兵
+  description: 谭纶为总督，戚继光拜大将军，上疏请募浙江杀手三千、鸟铳手三千及西北马步军，俱报可。
+- id: guji-戚继光-event-bianshuang
+  date: '1568'
+  year_of: '1568'
+  type: policy
+  title_zh: 上练兵与设监军之疏
+  description: 继光言蓟地有三形，宜车骑步迭用，请予浙兵并设监军科道官，疏上俱报可。
+- id: guji-戚继光-event-qingshan
+  date: 1573-01
+  year_of: '1573'
+  type: military
+  title_zh: 万历元年勒兵青山围董狐狸
+  description: 董狐狸索赏喜峰口启衅，戚继光猝勒兵青山围之，狐狸以身免，寻缚首恶献，予款。
+- id: guji-戚继光-event-changtu
+  date: 1575-02
+  year_of: '1575'
+  type: military
+  title_zh: 万历三年追逐长昂、生缚其叔长秃
+  description: 二月追长昂坠马几获之，生缚长秃羁董家口，长昂纳马钻刀盟乃释之。
+- id: guji-戚继光-event-death
+  date: 1588-01
+  year_of: '1588'
+  type: death
+  title_zh: 戚继光卒
