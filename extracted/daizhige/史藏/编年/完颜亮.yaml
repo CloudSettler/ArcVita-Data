@@ -1,0 +1,113 @@
+person:
+  qid: guji-完颜亮
+  name_zh: 完颜亮
+  names:
+    zh: 完颜亮
+    en: Wanyan Liang
+  lifespan:
+    birth:
+      date: '1122'
+      precision: year
+      is_circa: true
+      raw: 约天辅六年
+    death:
+      date: '1161'
+      precision: year
+      is_circa: false
+      raw: 正隆六年
+  birth_date: '1122'
+  death_date: '1161'
+  era: 金代
+  reign_ref: 金主（海陵王）
+  archetype: 雄猜之主
+  dilemmas:
+  - 欲迁都南向以图宋，又恐渝盟失信于国
+  - 屯兵宿亳以威江南，然边衅一动则两国俱伤
+  lesson: 穷兵黩武、背盟启衅者，虽盛极一时终致祸败
+  summary_first_person: 朕为金国之主，尝率文武群臣巡幸汝洛，登北邙山而改其名曰太平；又议移居汴京，屯兵宿亳之间，积粟发兵，意在南寇。宋人闻之，遣使窥探，边备遂兴。朕之志在一统，然轻启战端，终不免身败名裂。
+  source_urls:
+  - https://zh.wikisource.org/wiki/建炎以来系年要录
+endeavors:
+- id: guji-完颜亮-endeavor-1
+  name_zh: 迁都营汴
+  phases:
+  - key: brewing
+    name_zh: 营建南京宫阙
+    labels:
+      zh: 营建汴京
+    start_date: '1161'
+  - key: breakthrough
+    name_zh: 决意迁居汴京
+    labels:
+      zh: 议迁于汴
+    start_date: '1161'
+    highlight_event_id: guji-完颜亮-event-move
+  - key: climax
+    name_zh: 巡幸汝洛
+    labels:
+      zh: 如汝洛
+    start_date: '1161'
+    highlight_event_id: guji-完颜亮-event-tool
+  - key: closure
+    name_zh: 南谋败盟
+    labels:
+      zh: 意在南寇
+    start_date: '1161'
+  decisions:
+  - date: '1161'
+    title_zh: 欲移居于汴且屯兵宿亳
+    rationale: 意图南向以窥宋土，示形威慑江南
+- id: guji-完颜亮-endeavor-2
+  name_zh: 南征备兵
+  phases:
+  - key: brewing
+    name_zh: 积粟发兵
+    labels:
+      zh: 积粟发兵
+    start_date: '1161'
+  - key: breakthrough
+    name_zh: 遣使探边
+    labels:
+      zh: 贺生辰使入境窥探
+    start_date: 1161-04
+  - key: climax
+    name_zh: 求衅渝盟
+    labels:
+      zh: 悖语求衅
+    start_date: 1161-05
+    highlight_event_id: guji-完颜亮-event-march
+  - key: closure
+    name_zh: 败盟之祸
+    labels:
+      zh: 兴兵南寇
+    start_date: '1161'
+  decisions:
+  - date: '1161'
+    title_zh: 命使传语索地索人
+    rationale: 挟难塞之请以衅宋，为南侵制造借口
+events:
+- id: guji-完颜亮-event-birth
+  date: '1122'
+  year_of: '1122'
+  name_zh: 完颜亮出生
+  description: 完颜亮生，后为金国国主。
+- id: guji-完颜亮-event-move
+  date: 1161-04
+  year_of: 1161-04
+  name_zh: 金主亮谋迁都于汴
+  description: 宋廷闻金主欲移居于汴，且屯兵宿亳之间，乃议遣周麟之奉使称贺金主迁都。
+- id: guji-完颜亮-event-tool
+  date: 1161-04
+  year_of: 1161-04
+  name_zh: 金主亮率群臣如汝洛
+  description: 是月，金主亮率文武群臣如汝洛，至北邙山，因改其山曰太平。
+- id: guji-完颜亮-event-march
+  date: 1161-05
+  year_of: 1161-05
+  name_zh: 金主亮积粟发兵意在南寇
+  description: 张阐言完颜亮积粟发兵，意在南寇，乞守要害，防海道巴蜀淮襄；金使王全于宋殿上传金主意欲割地索人，北使悖语，宋廷议调兵守江淮。
+- id: guji-完颜亮-event-death
+  date: '1161'
+  year_of: '1161'
+  name_zh: 完颜亮卒
+  description: 完颜亮南侵兵败身死。

@@ -1,0 +1,87 @@
+person:
+  qid: guji-洪皓
+  name_zh: 洪皓
+  names:
+    zh: 洪皓
+    en: Hong Hao
+  lifespan:
+    birth:
+      date: '1088'
+      precision: year
+      is_circa: true
+      raw: 生卒年文中未详
+  birth_date: 约1088年
+  era: 两宋之际
+  reign_ref: 宋高宗建炎、绍兴年间
+  archetype: 使节·留金十五年的忠贞使者
+  dilemmas:
+  - 出使金国遭扣留，守节还是屈从
+  - 在金廷为馆客，暗中观察记录女真史事
+  lesson: 使于四方，不辱君命，威武不能屈
+  summary_first_person: 我是洪皓，建炎年间奉命出使金国，被扣留十余年而不改其节，人比之苏武。我留金期间留意女真国情，归国后著《松漠记闻》，记金太祖阿骨打事、完颜氏起源及金廷人物，为宋人知金之要籍。
+  source_urls:
+  - https://zh.wikisource.org/wiki/建炎以来系年要录
+endeavors:
+- id: guji-洪皓-endeavor-1
+  name_zh: 使金与著述《松漠记闻》
+  labels:
+    zh: 使金留北·著书记俗
+  phases:
+  - key: brewing
+    name_zh: 奉使受命
+    labels:
+      zh: 奉使出疆
+    start_date: '1129'
+  - key: breakthrough
+    name_zh: 北留守节
+    labels:
+      zh: 羁留不屈
+    start_date: '1130'
+    highlight_event_id: guji-洪皓-event-detain
+  - key: climax
+    name_zh: 馆于完颜室
+    labels:
+      zh: 深入金廷
+    start_date: '1138'
+  - key: closure
+    name_zh: 归宋著书
+    labels:
+      zh: 南归撰述
+    start_date: '1143'
+    highlight_event_id: guji-洪皓-event-book
+  decisions:
+  - date: '1129'
+    title_zh: 临危受命赴金
+    rationale: 建炎年间国势危殆，毅然请使金国通问二帝
+  - date: '1143'
+    title_zh: 归国后著《松漠记闻》
+    rationale: 以留金亲历所闻，录女真起源、金廷人情，备朝廷知彼之用
+events:
+- id: guji-洪皓-event-birth
+  date: '1088'
+  year_of: 1088
+  type: birth
+  description: 洪皓生（约，生年文中未详）
+- id: guji-洪皓-event-detain
+  date: '1130'
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-洪皓-endeavor-1
+  description: 使金被羁留，不屈节，拒仕金廷，留居北地十余年
+- id: guji-洪皓-event-consult
+  date: '1138'
+  year_of: 1138
+  type: endeavor
+  endeavor_id: guji-洪皓-endeavor-1
+  description: 曾为金将完颜希尹（乌舍）馆客，详知金廷内情，《建炎以来系年要录》引其记闻考订
+- id: guji-洪皓-event-book
+  date: '1143'
+  year_of: 1143
+  type: endeavor
+  endeavor_id: guji-洪皓-endeavor-1
+  description: 归宋后著《松漠记闻》，记女真完颜氏之起、金太祖阿骨打事迹及辽亡故实
+- id: guji-洪皓-event-death
+  date: '1155'
+  year_of: 1155
+  type: death
+  description: 洪皓卒（约，卒年文中未详）
