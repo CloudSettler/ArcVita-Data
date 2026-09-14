@@ -1,0 +1,86 @@
+person:
+  qid: guji-秦良玉
+  name_zh: 秦良玉
+  names:
+    zh: 秦良玉
+    en: Qin Liangyu
+  lifespan:
+    birth:
+      date: '1574'
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，约万历初
+    death:
+      date: '1648'
+      precision: year
+      is_circa: true
+      raw: 卒年史无明文，约明末清初
+  birth_date: '1574'
+  death_date: '1648'
+  era: 明末
+  reign_ref: 崇祯
+  archetype: 忠义女将
+  dilemmas:
+  - 身为土司女将，兵寡援竭，仍誓不事逆贼
+  lesson: 受国恩则死王事，不以余生肖逆贼
+  summary_first_person: 我以一孱妇人蒙国恩二十年，兄弟皆死于王事；张献忠入蜀，我驰援夔州而败归，乃悉召所部分兵守四境，与部众约「有从贼者族，无赦」，贼终不敢至石砫。
+  source_urls:
+  - https://zh.wikisource.org/wiki/通鉴辑览明季编年
+endeavors:
+- id: guji-秦良玉-endeavor-1
+  name_zh: 援蜀抗献忠
+  phases:
+  - key: breakthrough
+    name_zh: 驰援夔州
+    labels:
+      zh: 抗击张献忠
+    start_date: '1643'
+    highlight_event_id: guji-秦良玉-event-1
+  - key: climax
+    name_zh: 分兵守境
+    labels:
+      zh: 保境拒贼
+    start_date: '1643'
+    highlight_event_id: guji-秦良玉-event-2
+  - key: closure
+    name_zh: 终守石砫
+    labels:
+      zh: 忠义传名
+    start_date: '1644'
+  decisions:
+  - date: '1643'
+    title_zh: 兵败后誓不事贼，分兵守四境
+    rationale: 蒙国恩二十年，兄弟皆死于王事，不敢以余生肖逆贼
+- id: guji-秦良玉-endeavor-2
+  name_zh: 石砫土司治军
+  phases:
+  - key: brewing
+    name_zh: 执掌石砫兵
+    labels:
+      zh: 土司女将
+    start_date: '1590'
+  decisions:
+  - date: '1643'
+    title_zh: 与部众约誓「有从贼者族，无赦」
+    rationale: 阖部一心，杜绝降贼之路
+events:
+- id: guji-秦良玉-event-birth
+  event_type: birth
+  date: '1574'
+  year_of: -1574-01-01
+  description: 秦良玉约生于明万历初年
+- id: guji-秦良玉-event-1
+  event_type: campaign
+  date: '1643'
+  year_of: '1643'
+  description: 张献忠自荆州入蜀，陷夔州；石砫土官秦良玉驰援，兵寡败归，慷慨誓众曰「不敢以余生肖逆贼」
+- id: guji-秦良玉-event-2
+  event_type: military_organization
+  date: '1643-12-31'
+  year_of: '1643'
+  description: 悉召所部，约「有从贼者族，无赦」，分兵守四境，后贼招土司，独无敢至石砫者
+- id: guji-秦良玉-event-death
+  event_type: death
+  date: '1648-01-01'
+  year_of: '1648'
+  description: 秦良玉约卒于清初顺治年间，以忠义闻名后世
