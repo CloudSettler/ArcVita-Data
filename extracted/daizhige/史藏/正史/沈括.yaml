@@ -1,0 +1,150 @@
+person:
+  qid: guji-沈括
+  name_zh: 沈括
+  names:
+    zh: 沈括
+    en: Shen Kuo
+  lifespan:
+    birth:
+      date: '1031'
+      precision: year
+      is_circa: true
+      raw: 约天圣九年（1031年）
+    death:
+      date: '1095'
+      precision: year
+      is_circa: false
+      raw: 绍圣二年（1095年）
+  birth_date: '1031'
+  death_date: '1095'
+  era: 北宋
+  reign_ref: 宋神宗熙宁、元丰时期（1068—1085）
+  archetype: 学者型官员与百科式科学家
+  dilemmas:
+  - 仕途与新法党争之间的进退
+  - 边事处置失利与个人声誉的损毁
+  lesson: 以实证与博览的精神记天下之学，虽仕途蹉跎而学问自成一格
+  summary_first_person: 我是沈括，字存中，北宋钱塘人。我历仕仁宗、英宗、神宗诸朝，参与王安石变法，曾提举司天监、出使辽国、经略鄜延。晚年谪居润州，筑梦溪园，著《梦溪笔谈》，记天文、历法、地理、医药、技艺之学，以博览实证自许。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷302
+  - https://zh.wikipedia.org/wiki/沈括
+endeavors:
+- id: guji-沈括-endeavor-1
+  name_zh: 仕宦与变法事业
+  phases:
+  - key: brewing
+    name_zh: 入仕起步
+    labels:
+      zh:
+      - 任馆阁校勘
+      - 编校书籍
+    start_date: '1063'
+  - key: breakthrough
+    name_zh: 提举司天监
+    labels:
+      zh:
+      - 改历
+      - 兴修浑仪
+    start_date: '1072'
+    highlight_event_id: guji-沈括-event-tianjian
+  - key: climax
+    name_zh: 使辽与经略边界
+    labels:
+      zh:
+      - 出使辽国
+      - 详定面界
+    start_date: '1075'
+    highlight_event_id: guji-沈括-event-chnliao
+  - key: closure
+    name_zh: 知延州与贬谪
+    labels:
+      zh:
+      - 鄜延经略
+      - 永乐城之役受累
+      - 贬官
+    start_date: '1080'
+  decisions:
+  - date: '1075'
+    title_zh: 出使辽国力争地界
+    rationale: 奉命与辽人争论河东地界，据史册力争，不肯轻让
+  - date: '1072'
+    title_zh: 领司天监改良历法
+    rationale: 以实测天象为据，举布衣卫朴修奉元历
+- id: guji-沈括-endeavor-2
+  name_zh: 著述与游历梦溪
+  phases:
+  - key: brewing
+    name_zh: 早年博览
+    labels:
+      zh:
+      - 随父游宦
+      - 广涉医药地理
+    start_date: '1040'
+  - key: breakthrough
+    name_zh: 察访两浙与河北
+    labels:
+      zh:
+      - 考察山川
+      - 记民俗技艺
+    start_date: '1073'
+  - key: climax
+    name_zh: 撰梦溪笔谈
+    labels:
+      zh:
+      - 居润州
+      - 梦溪园
+    start_date: '1088'
+    highlight_event_id: guji-沈括-event-mengxi
+  - key: closure
+    name_zh: 终老润州
+    labels:
+      zh:
+      - 病卒于润州
+    start_date: '1093'
+  decisions:
+  - date: '1088'
+    title_zh: 定居润州梦溪园
+    rationale: 壮志不遂，退而以笔记所历见闻与所学，成一家之言
+events:
+- id: guji-沈括-event-birth
+  date: '1031'
+  year_of: 1031
+  type: birth
+  title_zh: 沈括出生
+  summary_zh: 约1031年出生于钱塘，属杭州。
+- id: guji-沈括-event-chengjinshi
+  date: '1063'
+  year_of: 1063
+  type: career
+  title_zh: 登进士第
+  summary_zh: 沈括中进士，开始步入仕途，初任扬州司理参军，后入馆阁。
+- id: guji-沈括-event-tianjian
+  date: '1072'
+  year_of: 1072
+  type: career
+  title_zh: 提举司天监
+  summary_zh: 沈括提举司天监，主持改历，起用卫朴修奉元历，并改制浑仪、浮漏、景表等仪象。
+- id: guji-沈括-event-chnliao
+  date: '1075'
+  year_of: 1075
+  type: career
+  title_zh: 出使辽国
+  summary_zh: 熙宁八年沈括使辽，就河东地界与辽人争辩，据六国旧册力争，使辽所欲地终不得。
+- id: guji-沈括-event-siceng
+  date: '1081'
+  year_of: 1081
+  type: career
+  title_zh: 经略鄜延边事
+  summary_zh: 沈括知延州兼鄜延路经略安抚使，参与对西夏战守，因永乐城之役被劾，责授均州团练副使。
+- id: guji-沈括-event-mengxi
+  date: '1088'
+  year_of: 1088
+  type: achievement
+  title_zh: 居梦溪著笔谈
+  summary_zh: 沈括谪居润州梦溪园，退居著述，作《梦溪笔谈》，博载天文历算、地理医药、典章技艺之学。
+- id: guji-沈括-event-death
+  date: '1095'
+  year_of: 1095
+  type: death
+  title_zh: 沈括卒
+  summary_zh: 绍圣二年，沈括卒于润州，年约六十五。

@@ -1,0 +1,159 @@
+person:
+  qid: guji-包拯
+  name_zh: 包拯
+  names:
+    zh: 包拯
+    en: Bao Zheng
+  lifespan:
+    birth:
+      date: 0999
+      precision: year
+      is_circa: false
+      raw: 生于宋真宗咸平二年
+    death:
+      date: '1061-07-03'
+      precision: day
+      is_circa: false
+      raw: 嘉祐七年卒
+  birth_date: 0999
+  death_date: '1061-07-03'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 清官 / 执法严明之能臣
+  dilemmas:
+  - 守孝尽孝与出仕报国之间的抉择，十年不仕
+  - 直言极谏得罪权贵与保全官位之间的冲突
+  lesson: 刚正不阿、执法如山，唯以忠孝清廉立身
+  summary_first_person: 我包拯，字希仁，庐州合肥人。为官以清正刚直著称，不畏权贵，弹劾不避将相，如今被民间奉为包青天。
+  source_urls:
+  - 宋史/卷316.md
+endeavors:
+- id: guji-包拯-endeavor-1
+  name_zh: 历任地方与中央要职
+  phases:
+  - key: brewing
+    name_zh: 大理评事知建昌县、调知天长县
+    labels:
+      zh:
+      - 初入仕途
+      - 天长县政声
+    start_date: '1037'
+    highlight_event_id: guji-包拯-event-2
+  - key: breakthrough
+    name_zh: 知端州还朝，除殿中丞监察御史
+    labels:
+      zh:
+      - 监察御史
+      - 弹劾权贵
+    start_date: '1041'
+    highlight_event_id: guji-包拯-event-3
+  - key: climax
+    name_zh: 除龙图阁学士，历知开封府，权贵敛手
+    labels:
+      zh:
+      - 开封府
+      - 铁面无私
+    start_date: '1056'
+    highlight_event_id: guji-包拯-event-4
+  - key: closure
+    name_zh: 拜枢密副使，卒于任上
+    labels:
+      zh:
+      - 枢密副使
+    start_date: '1059'
+    highlight_event_id: guji-包拯-event-5
+  decisions:
+  - date: '1056'
+    title_zh: 出知开封府，贵戚宦官为之敛手
+    rationale: 以刚直著称，不畏权势，改革诉讼旧制以便民伸冤
+  - date: '1045'
+    title_zh: 使契丹，义正辞严挫其问难
+    rationale: 受命使辽，以忠谨应对而不辱使命
+- id: guji-包拯-endeavor-2
+  name_zh: 建言国策、整治财经
+  phases:
+  - key: brewing
+    name_zh: 奏请于京师置便籴仓以减漕运之费
+    labels:
+      zh:
+      - 便籴仓
+      - 漕运
+    start_date: '1049'
+    highlight_event_id: guji-包拯-event-6
+  - key: climax
+    name_zh: 三司使任上勘平冤滞、裁省费用
+    labels:
+      zh:
+      - 三司使
+      - 财政
+    start_date: '1058'
+    highlight_event_id: guji-包拯-event-7
+  decisions:
+  - date: '1049'
+    title_zh: 乞不夺范仲淹、欧阳修等执政岁眷注之意而论时事
+    rationale: 以天下公义为本，直陈时政，不避嫌怨
+events:
+- id: guji-包拯-event-birth
+  type: birth
+  date: 0999
+  year_of: 999
+  description: 包拯生于庐州合肥（约999年，一说生于1008年，统采其生年）
+  location: 庐州合肥
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-2
+  type: endeavor
+  date: '1037'
+  year_of: 1037
+  description: 授大理评事、知建昌县；以父母皆老辞不赴，后改监和州税，父母不欲去乡里，遂解官归里守孝，十年不仕
+  location: 庐州合肥
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-3
+  type: endeavor
+  date: '1043'
+  year_of: 1043
+  description: 知天长县，以“割牛舌”断案显威，后调任端州不持一砚归，还朝除殿中丞、监察御史
+  location: 天长县、端州
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-4
+  type: endeavor
+  date: '1056'
+  year_of: 1056
+  description: 以龙图阁直学士权知开封府，令讼者得以径趋庭下自陈曲直，吏不敢欺，贵戚宦官为之敛手
+  location: 开封府
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-5
+  type: endeavor
+  date: '1059'
+  year_of: 1059
+  description: 拜枢密副使；嘉祐七年卒，年六十四，赠礼部尚书，谥孝肃
+  location: 开封
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-6
+  type: endeavor
+  date: '1049'
+  year_of: 1049
+  description: 建议于京师置便籴仓，减漕运抑籴之弊，以宽民力
+  location: 开封
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-7
+  type: endeavor
+  date: '1058'
+  year_of: 1058
+  description: 以枢密直学士权三司使，勘平冤滞，裁省费用，理财有方
+  location: 开封
+  source_refs:
+  - 宋史/卷316.md
+- id: guji-包拯-event-death
+  type: death
+  date: '1061-07-03'
+  year_of: 1061
+  description: 卒于枢密副使任上，赠礼部尚书，谥孝肃
+  location: 开封
+  source_refs:
+  - 宋史/卷316.md

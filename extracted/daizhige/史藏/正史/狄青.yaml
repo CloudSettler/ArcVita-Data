@@ -1,0 +1,114 @@
+person:
+  qid: guji-狄青
+  name_zh: 狄青
+  names:
+    zh: 狄青
+    en: Di Qing
+  lifespan:
+    birth:
+      date: '1008'
+      precision: year
+      is_circa: true
+      raw: 约1008年
+    death:
+      date: '1057'
+      precision: year
+      is_circa: false
+      raw: 嘉祐二年（1057年）卒
+  birth_date: '1008'
+  death_date: '1057'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 行伍出身的名将
+  dilemmas:
+  - 武将出身遭文臣猜忌，功高而位危
+  - 面有黥文仍不改本色，戴面沚以镇三军
+  lesson: 以勇略起于行伍而不忘本，然功高遭忌，盛极而衰
+  summary_first_person: 我狄青自行伍起家，以骁勇善战闻名，夜袭昆仑、破侬智高，位至枢密使。然出身微贱而居高位，终为朝议所忌，出知陈州，忧惧而终。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷290
+endeavors:
+- id: guji-狄青-endeavor-1
+  name_zh: 军旅征战与西北御边
+  phases:
+  - key: brewing
+    name_zh: 应募从军
+    labels:
+      zh:
+      - 骑御 NT直
+    start_date: '1027'
+    is_circa: true
+  - key: breakthrough
+    name_zh: 西北御夏
+    labels:
+      zh:
+      - 与西夏战
+    start_date: '1038'
+    highlight_event_id: guji-狄青-event-yush边-02
+  - key: climax
+    name_zh: 夜袭昆仑关平侬智高
+    labels:
+      zh:
+      - 皇祐四年
+    start_date: '1053-01-18'
+    highlight_event_id: guji-狄青-event-kunlun-03
+  - key: closure
+    name_zh: 罢枢密出知陈州
+    labels:
+      zh:
+      - 嘉祐
+    start_date: '1056'
+    highlight_event_id: guji-狄青-event-death-05
+  decisions:
+  - date: '1038-01-01'
+    title_zh: 从军西北抵御西夏
+    rationale: 元昊叛，自请效死于边，累获战功
+  - date: '1052-01-01'
+    title_zh: 请缨南征侬智高
+    rationale: 侬智高陷邕州，久无功，自请行
+  - date: '1056-01-01'
+    title_zh: 罢枢密使出知陈州
+    rationale: 为文臣所忌，京师雨发水，以避嫌自请外任
+events:
+- id: guji-狄青-event-birth
+  type: birth
+  date: '1008'
+  year_of: '1008'
+  raw_date: 约1008年
+  name_zh: 狄青出生
+  description: 狄青，字汉臣，汾州西河人
+- id: guji-狄青-event-runbing-01
+  type: endeavor
+  date: '1027'
+  year_of: '1027'
+  raw_date: 约天圣年间
+  name_zh: 应募入行伍
+  description: 善骑射，为骑御马直，后选为散直，隶属延州军籍
+- id: guji-狄青-event-yush边-02
+  type: endeavor
+  date: '1038'
+  year_of: '1038'
+  raw_date: 宝元初
+  name_zh: 西北御夏屡建功
+  description: 与西夏战，四年前后大小二十五战，中流矢而仍杀敌，尹洙、范仲淹器之，授予兵法
+- id: guji-狄青-event-kunlun-03
+  type: endeavor
+  date: '1053-01-18'
+  year_of: '1053'
+  raw_date: 皇祐五年正月
+  name_zh: 夜袭昆仑关破侬智高
+  description: 夜渡昆仑关，于归仁铺大破贼众，平定邕州，拜枢密使
+- id: guji-狄青-event-shumi-04
+  type: endeavor
+  date: '1053-01-01'
+  year_of: '1053'
+  raw_date: 皇祐五年
+  name_zh: 拜枢密使
+  description: 以平侬智高之功由彰化军节度使、知延州擢枢密使，为武臣所罕有
+- id: guji-狄青-event-death-05
+  type: death
+  date: '1057'
+  year_of: '1057'
+  raw_date: 嘉祐二年
+  name_zh: 狄青卒于陈州
+  description: 出知陈州，明年二月疽发髭，卒，年四十九，赠中书令、武襄
