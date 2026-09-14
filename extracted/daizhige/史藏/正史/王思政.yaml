@@ -1,0 +1,101 @@
+person:
+  qid: guji-王思政
+  name_zh: 王思政
+  names:
+    zh: 王思政
+    en: Wang Sizheng
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 不详
+    death:
+      date: 0549
+      precision: year
+      is_circa: false
+      raw: 西魏大统十五年（549年）颍川陷后被俘（卒年无明确记载）
+  birth_date: ''
+  death_date: 0549
+  era: 西魏（南北朝）
+  reign_ref: 西魏文帝（元宝炬）大统年间
+  archetype: 镇边守城之将
+  dilemmas:
+  - 侯景举河南六州来附，奉命据守颍川，地处四战之冲，孤悬东魏与南梁之间
+  - 东魏十余万大军围城引水灌城，救援阻绝，守与降两难
+  lesson: 忠于所托，虽孤城绝援犹力拒强敌；然势之不敌，非忠勇所能独支。
+  summary_first_person: 我本西魏开府之将，值侯景以河南来附，太祖命我移镇颍川。东魏遣高岳、慕容绍宗、刘丰生等率十余万众围城，起堰引洧水灌城。太祖遣赵贵来援，而颍川以北尽为陂泽，救兵不得至。大统十五年夏六月，颍川陷。
+  source_urls:
+  - https://zh.wikisource.org/wiki/周書/卷3
+endeavors:
+- id: guji-王思政-endeavor-1
+  name_zh: 移镇颍川
+  start_date: 0547-04
+  end_date: 0547-07
+  description: 西魏大统十三年三月，太祖遣开府李弼援侯景于颍川，东魏将韩轨等遁去；侯景徙镇豫州后，太祖遣开府王思政据颍川，李弼引军而还。
+  phases:
+  - key: breakthrough
+    name_zh: 受命据颍川
+    labels:
+      zh:
+      - 开府
+      - 镇颍川
+    start_date: 0547-04
+    highlight_event_id: guji-王思政-event-ju-yingchuan
+  decisions:
+  - date: 0547-04
+    title_zh: 受太祖之命移据颍川
+    rationale: 侯景请举河南六州来附且徙镇豫州，需以重将控扼颍川要地。
+- id: guji-王思政-endeavor-2
+  name_zh: 颍川守城之战
+  start_date: 0548
+  end_date: 0549-06
+  description: 大统十四年，东魏遣高岳、慕容绍宗、刘丰生等率众十余万围王思政于颍川。十五年太祖遣赵贵督东南诸州兵来援；高岳起堰引洧水灌城，颍川以北皆为陂泽，救兵不得至。夏六月，颍川陷。
+  phases:
+  - key: climax
+    name_zh: 孤城拒敌
+    labels:
+      zh:
+      - 围城
+      - 引水灌城
+    start_date: 0548
+    highlight_event_id: guji-王思政-event-siege
+  - key: closure
+    name_zh: 城陷
+    labels:
+      zh:
+      - 颍川陷落
+    start_date: 0549-06
+    highlight_event_id: guji-王思政-event-yingchuan-fall
+  decisions:
+  - date: 0548
+    title_zh: 坚守孤城不降
+    rationale: 身受重镇之托，虽东魏十余万之众压境，仍力战拒守。
+events:
+- id: guji-王思政-event-ju-yingchuan
+  person_qid: guji-王思政
+  name_zh: 受命移据颍川
+  category: career
+  date: 0547-04
+  year_of: 547
+  is_circa: false
+  raw: 十三年…于是遣开府王思政据颍川，弼引军还
+  description: 西魏大统十三年，太祖宇文泰遣开府王思政据守颍川，以纳侯景所属河南之地。
+- id: guji-王思政-event-siege
+  person_qid: guji-王思政
+  name_zh: 东魏十余万众围颍川
+  category: career
+  date: 0548
+  year_of: 548
+  is_circa: false
+  raw: 是岁，东魏遣其将高岳、慕容绍宗、刘丰生等，率众十余万围王思政于颍川
+  description: 大统十四年，东魏诸将率兵十余万围攻王思政坚守的颍川城。
+- id: guji-王思政-event-yingchuan-fall
+  person_qid: guji-王思政
+  name_zh: 颍川城陷
+  category: career
+  date: 0549-06
+  year_of: 549
+  is_circa: false
+  raw: 十五年春，太祖遣大将军赵贵帅军至穰…夏六月，颍川陷
+  description: 大统十五年，高岳引洧水灌城，颍川以北皆为陂泽，援军不至，夏六月颍川陷落。
