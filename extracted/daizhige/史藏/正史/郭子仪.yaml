@@ -1,0 +1,177 @@
+person:
+  qid: guji-郭子仪
+  name_zh: 郭子仪
+  names:
+    zh: 郭子仪
+    en: Guo Ziyi
+  lifespan:
+    birth:
+      date: 0697
+      precision: year
+      is_circa: true
+      raw: 生年史传约当武后神功前后，本传未载
+    death:
+      date: 0781
+      precision: year
+      is_circa: false
+      raw: 本纪未载其卒年，据史补
+  birth_date: 0697
+  death_date: 0781
+  era: 唐
+  reign_ref: 玄宗·肃宗·代宗三朝
+  archetype: 中兴名将
+  dilemmas:
+  - 安史乱起，受任于危难之间而兵权屡夺屡授
+  - 滏水九节度之溃，负全局之责而无节制诸军之权
+  lesson: 临危受命、功高不矜，胜败皆以国事为先
+  summary_first_person: 我郭子仪以朔方一军起于安史之乱，收河北、复两京，虽屡遭黜陟，终为唐室中兴之柱石。
+  source_urls:
+  - https://zh.wikisource.org/wiki/舊唐書/卷120
+  - https://zh.wikisource.org/wiki/新唐書/卷66
+endeavors:
+- id: guji-郭子仪-endeavor-1
+  name_zh: 讨平安史之乱
+  phases:
+  - key: brewing
+    name_zh: 临危受命
+    labels:
+      zh:
+      - 朔方节度
+      - 起兵讨逆
+    start_date: 755-11
+    highlight_event_id: guji-郭子仪-event-appoint
+  - key: breakthrough
+    name_zh: 河东河北转战
+    labels:
+      zh:
+      - 河曲之捷
+      - 井陉会师
+      - 嘉山大捷
+    start_date: 755-12
+    highlight_event_id: guji-郭子仪-event-jiashan
+  - key: climax
+    name_zh: 收复两京
+    labels:
+      zh:
+      - 副元帅
+      - 回纥借兵
+      - 复京师
+    start_date: 757-04
+    highlight_event_id: guji-郭子仪-event-recover-changan
+  - key: closure
+    name_zh: 相州之溃与再任
+    labels:
+      zh:
+      - 九节度师溃
+      - 东畿元帅
+    start_date: 759-03
+    highlight_event_id: guji-郭子仪-event-fushui-defeat
+  decisions:
+  - date: 756-02
+    title_zh: 出井陉会李光弼
+    rationale: 与河东节度连兵，牵制史思明于河北，断安禄山右臂
+  - date: 759-03
+    title_zh: 领东畿山南东河南诸道元帅屯东京
+    rationale: 滏水师溃之后，收拢败军以保洛阳门户
+events:
+- id: guji-郭子仪-event-birth
+  person_qid: guji-郭子仪
+  type: birth
+  date: 0697
+  year_of: '697'
+  date_precision: year
+  date_is_circa: true
+  place_zh: 华州郑县
+  summary_zh: 郭子仪生（约）
+- id: guji-郭子仪-event-appoint
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 755-12-14
+  year_of: '755'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 九原
+  summary_zh: 安禄山反，以九原郡太守郭子仪为朔方军节度副大使，讨安禄山
+  event_refs:
+  - guji-安禄山-event-rebellion
+- id: guji-郭子仪-event-hequ
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 755-12-25
+  year_of: '755'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 河曲
+  summary_zh: 郭子仪及安禄山将高秀岩战于河曲，败之
+- id: guji-郭子仪-event-jingxing
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 756-02-21
+  year_of: '756'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 常山·井陉
+  summary_zh: 李光弼克常山郡，郭子仪出井陉会光弼，及史思明战，败之
+- id: guji-郭子仪-event-jiashan
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 756-06-16
+  year_of: '756'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 嘉山
+  summary_zh: 郭子仪、李光弼及史思明战于嘉山，败之
+- id: guji-郭子仪-event-deputy-marshal
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 757-04-15
+  year_of: '757'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 凤翔
+  summary_zh: 郭子仪为关内、河东副元帅
+- id: guji-郭子仪-event-qingqu-defeat
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 757-05-29
+  year_of: '757'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 清渠
+  summary_zh: 子仪及安庆绪将安守忠战于清渠，败绩
+- id: guji-郭子仪-event-recover-changan
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 757-09-28
+  year_of: '757'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 长安
+  summary_zh: 郭子仪副广平王俶率朔方、安西、回纥诸军，复京师
+- id: guji-郭子仪-event-huishang
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 756-12-25
+  year_of: '756'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 河上
+  summary_zh: 郭子仪率回纥及安禄山战于河上，败之
+- id: guji-郭子仪-event-fushui-defeat
+  person_qid: guji-郭子仪
+  type: endeavor
+  date: 759-03-18
+  year_of: '759'
+  date_precision: day
+  date_is_circa: true
+  place_zh: 滏水
+  summary_zh: 九节度之师溃于滏水，郭子仪屯东京，旋为东畿、山南东、河南等道节度防御兵马元帅
+- id: guji-郭子仪-event-death
+  person_qid: guji-郭子仪
+  type: death
+  date: 0781
+  year_of: '781'
+  date_precision: year
+  date_is_circa: false
+  place_zh: 长安
+  summary_zh: 郭子仪卒（本纪未详载，据史补）

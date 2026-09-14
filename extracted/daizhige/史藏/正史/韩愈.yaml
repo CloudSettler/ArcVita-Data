@@ -1,0 +1,99 @@
+person:
+  qid: guji-韩愈
+  name_zh: 韩愈
+  names:
+    zh: 韩愈
+    en: Han Yu
+  lifespan:
+    birth:
+      date: 0668
+      precision: year
+      is_circa: true
+      raw: 大历三年（768年）
+    death:
+      date: '0824-12-25'
+      precision: day
+      is_circa: false
+      raw: 长庆四年卒
+  birth_date: 0668
+  death_date: 0824
+  era: 唐（元和、长庆年间）
+  reign_ref: 唐宪宗、唐穆宗
+  archetype: 文臣
+  dilemmas:
+  - 谏迎佛骨而遭远贬潮州，忠直与仕途的冲突
+  - 提倡古文复兴儒道，与通行骈俪文风及佛教流行的世风相抗
+  lesson: 顺宗在东宫二十年，天下阴受其赐——仁德居位之久，其惠不可见而实及天下
+  summary_first_person: 我韩愈字退之，倡古文、兴儒道，以《论佛骨表》直谏宪宗迎佛骨，几死而贬潮州；后官至吏部侍郎，卒于长庆四年，世称文起八代之衰。
+  source_urls:
+  - docs/古文/旧唐书本纪.md
+endeavors:
+- id: guji-韩愈-endeavor-1
+  name_zh: 倡导古文运动
+  phases:
+  - key: brewing
+    name_zh: 立志复兴儒道
+    labels:
+      zh:
+      - 文以载道
+      - 排骈俪
+    start_date: 0792
+    highlight_event_id: guji-韩愈-event-guwen-start
+  - key: breakthrough
+    name_zh: 古文振兴
+    labels:
+      zh:
+      - 文起八代之衰
+    start_date: 0805
+    highlight_event_id: guji-韩愈-event-guwen-start
+- id: guji-韩愈-endeavor-2
+  name_zh: 谏迎佛骨与贬谪潮州
+  phases:
+  - key: climax
+    name_zh: 上《论佛骨表》
+    labels:
+      zh:
+      - 直谏
+      - 忠直
+    start_date: 0819
+    highlight_event_id: guji-韩愈-event-fenggu-bian
+  - key: closure
+    name_zh: 量移内地与晚年
+    labels:
+      zh:
+      - 袁州
+      - 国子祭酒
+      - 吏部侍郎
+    start_date: 0819-12
+    highlight_event_id: guji-韩愈-event-death
+  decisions:
+  - date: 0819
+    title_zh: 上表谏迎佛骨
+    rationale: 元和十三年十二月诏迎佛骨于凤翔， XIV 年正月入宫供养；愈以为佛骨乃枯骨秽物，人主不可奉之，虽犯雷霆而必谏。
+events:
+- id: guji-韩愈-event-birth
+  date: 0668
+  year_of: 0668
+  type: birth
+  title_zh: 韩愈出生
+  description: 韩愈生于大历三年（768年），河南河阳人，郡望昌黎。
+- id: guji-韩愈-event-guwen-start
+  date: 0792
+  year_of: 0792
+  type: endeavor
+  endeavor_id: guji-韩愈-endeavor-1
+  title_zh: 登进士第，倡古文之学
+  description: 贞元八年韩愈登进士第，此后倡为古文，力反骈俪，与柳宗元共兴古文运动，欲复三代两汉之文与孔孟之道。
+- id: guji-韩愈-event-fenggu-bian
+  date: 0819
+  year_of: 0819
+  type: endeavor
+  endeavor_id: guji-韩愈-endeavor-2
+  title_zh: 谏迎佛骨，贬潮州刺史
+  description: 元和十三年十二月宪宗迎佛骨于凤翔，明年正月迎入大内供养；韩愈上《论佛骨表》极谏，宪宗怒，几处死，赖裴度等救，贬为潮州刺史。文中"昔韩愈言"之语即其史论为世人所重之证。
+- id: guji-韩愈-event-death
+  date: '0824-12-25'
+  year_of: 0824
+  type: death
+  title_zh: 韩愈去世
+  description: 长庆四年十二月，韩愈卒于长安靖安里，官终吏部侍郎，谥曰文，世称韩文公。

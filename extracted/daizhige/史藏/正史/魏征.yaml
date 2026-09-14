@@ -1,0 +1,147 @@
+person:
+  qid: guji-魏征
+  name_zh: 魏征
+  names:
+    zh: 魏征
+    en: Wei Zheng
+  lifespan:
+    birth:
+      date: 0580
+      precision: year
+      is_circa: true
+      raw: 生年史无双证，通常系年为北周大象二年（580）
+  era: 唐代贞观时期
+  reign_ref: 唐太宗贞观
+  archetype: 谏臣 · 礼乐典章主持者
+  dilemmas:
+  - 处于隋末唐初制度草创之际，须因袭隋礼而增损，以成一代定制
+  - 逢太宗锐意兴复，臣下议礼须在古人情与当下仪注之间折衷取舍
+  lesson: 治礼不必尽复古，因时损益、折衷成制，方能垂为一代之法。
+  summary_first_person: 我魏征，贞观年间以秘书监参掌礼乐，与中书令房玄龄率礼官学士，取隋礼增以天子上陵、朝庙、养老、大射、讲武诸仪，定为《吉礼》六十一篇、《军礼》二十篇等，世称《贞观礼》。后世高宗虽增为《显庆礼》，然上元三年诏复用《贞观礼》，与显庆兼行，吾所勘定者，终为唐礼之本。
+endeavors:
+- id: guji-魏征-endeavor-1
+  name_zh: 修定《贞观礼》
+  summary_zh: 太宗时，魏征与房玄龄及礼官学士因隋礼增损，撰成吉、宾、军、嘉、凶五礼，是为《贞观礼》，高宗后仍复用之。
+  phases:
+  - key: brewing
+    name_zh: 因隋立本
+    labels:
+      zh:
+      - 唐初用隋礼
+    start_date: 0618
+    highlight_event_id: guji-魏征-event-ritem_basis
+  - key: breakthrough
+    name_zh: 增定诸仪
+    labels:
+      zh:
+      - 增天子上陵、朝庙、养老、大射等仪
+    start_date: '0627'
+    highlight_event_id: guji-魏征-event-ritem_edit
+  - key: climax
+    name_zh: 五礼成书
+    labels:
+      zh:
+      - 《吉礼》六十一篇、《军礼》二十篇等
+    start_date: '0631'
+    is_circa: true
+    highlight_event_id: guji-魏征-event-ritem_done
+  - key: closure
+    name_zh: 复用贞观礼
+    labels:
+      zh:
+      - 上元三年诏复用《贞观礼》
+    start_date: '0674'
+    highlight_event_id: guji-魏征-event-ritem_restore
+  decisions:
+  - date: 407
+    title_zh: 因隋礼而增损，不弃旧章
+    rationale: 三代以下礼乐为虚名，欲成唐制，莫若即隋礼之具文而增以时须之仪。
+- id: guji-魏征-endeavor-2
+  name_zh: 贞观谏诤与辅政
+  summary_zh: 以秘书监预闻朝政，直言极谏，助太宗致贞观之治。
+  phases:
+  - key: brewing
+    name_zh: 入朝 任秘书监
+    labels:
+      zh:
+      - 秘书监
+    start_date: '0627'
+    is_circa: true
+    highlight_event_id: guji-魏征-event-office
+  - key: climax
+    name_zh: 直言进谏
+    labels:
+      zh:
+      - 谏臣楷模
+    start_date: '0630'
+    is_circa: true
+    highlight_event_id: guji-魏征-event_admonish
+  decisions:
+  - date: 408
+    title_zh: 以谏诤事主，不以逢迎固位
+    rationale: 主上慨然思得非常之材，臣当以直言补其阙失，益于治而不益于乱。
+events:
+- id: guji-魏征-event-birth
+  year_of: 580
+  date: 0580
+  date_precision: year
+  is_circa: true
+  type: birth
+  title_zh: 魏征生
+  summary_zh: 魏征生于隋前之世，后仕唐。
+- id: guji-魏征-event-ritem_basis
+  year_of: 618
+  date: 0618-06-18
+  date_precision: year
+  is_circa: true
+  type: context
+  title_zh: 唐初即用隋礼
+  summary_zh: 唐初承隋之礼，为后来增定张本。
+- id: guji-魏征-event-office
+  year_of: 627
+  date: 407
+  date_precision: year
+  is_circa: true
+  type: appointment
+  title_zh: 魏征为秘书监
+  summary_zh: 太宗时魏征任秘书监，与中书令房玄龄同预典章。
+- id: guji-魏征-event-ritem_edit
+  year_of: 627
+  date: 407
+  date_precision: year
+  is_circa: true
+  type: undertaking
+  title_zh: 与修贞观五礼
+  summary_zh: 魏征与房玄龄及礼官学士因隋礼，增天子上陵、朝庙、养老、大射、讲武、读时令、纳皇后、皇太子入学、太常行陵、合朔、陈兵太社诸仪。
+- id: guji-魏征-event-ritem_done
+  year_of: 631
+  date: 409
+  date_precision: year
+  is_circa: true
+  type: completion
+  title_zh: 《贞观礼》成
+  summary_zh: 定为《吉礼》六十一篇、《宾礼》四篇、《军礼》二十篇、《嘉礼》四十二篇、《凶礼》十一篇，是为《贞观礼》。
+- id: guji-魏征-event_admonish
+  year_of: 630
+  date: 408
+  date_precision: year
+  is_circa: true
+  type: achievement
+  title_zh: 贞观直言极谏
+  summary_zh: 魏征以谏诤著称，太宗赖其贤佐，唐祚得以复兴。
+- id: guji-魏征-event-ritem_restore
+  year_of: 674
+  date: 444
+  date_precision: year
+  is_circa: true
+  type: legacy
+  title_zh: 诏复用《贞观礼》
+  summary_zh: 上元三年诏复用《贞观礼》，终高宗世贞观、显庆二礼兼行，魏征所定者为本。
+- id: guji-魏征-event-death
+  year_of: 643
+  date: 419
+  date_precision: year
+  is_circa: true
+  type: death
+  title_zh: 魏征卒
+  summary_zh: 贞观十七年魏征卒，年六十余，谥文贞。

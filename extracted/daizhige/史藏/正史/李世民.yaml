@@ -1,0 +1,189 @@
+person:
+  qid: guji-李世民
+  name_zh: 李世民
+  names:
+    zh: 李世民
+    en: Li Shimin
+  lifespan:
+    birth:
+      date: '-599'
+      precision: year
+      is_circa: true
+      raw: 隋开皇十七年（约599年）
+    death:
+      date: 649-07-10
+      precision: day
+      is_circa: false
+      raw: 贞观二十三年五月（649年）
+  birth_date: '-599'
+  death_date: 649-07-10
+  era: 唐初（武德—贞观）
+  reign_ref: 贞观（626—649）
+  archetype: 创业守成之君
+  dilemmas:
+  - 天人感应灾异之戒与励精图治之间如何自处
+  - 政变夺位带来的合法性压力
+  lesson: 灾祥之变，人君以修德应之，胜于缘饰符瑞。
+  summary_first_person: 我李世民，以贞观之治名垂青史。史册五行志中频见我朝灾异：陇右山摧、凉州石文、讹言惊扰、连年大旱，我或遣使祭告，或开坊慰谕，皆以修德答天谴自励。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐书/卷34
+endeavors:
+- id: guji-李世民-endeavor-1
+  name_zh: 经略四方，共建唐业
+  phases:
+  - key: brewing
+    name_zh: 起兵太原
+    labels:
+      zh:
+      - 晋阳起兵
+      - 削平群雄
+    start_date: '617'
+    highlight_event_id: guji-李世民-event-wude-mountain-sound
+  - key: breakthrough
+    name_zh: 玄武门之变
+    labels:
+      zh:
+      - 夺嗣
+      - 即位
+    start_date: '626'
+  - key: climax
+    name_zh: 贞观之治
+    labels:
+      zh:
+      - 纳谏
+      - 修德应灾
+    start_date: '627'
+    highlight_event_id: guji-李世民-event-liangzhou-stone
+  - key: closure
+    name_zh: 晚岁征辽与身后
+    labels:
+      zh:
+      - 亲征高丽
+      - 崩于含风殿
+    start_date: '645'
+    highlight_event_id: guji-李世民-event-death
+  decisions:
+  - date: 626-07-02
+    title_zh: 玄武门定策，受禅即位
+    rationale: 以非常之举定储位，随后改元贞观，开创治世。
+  - date: '643'
+    title_zh: 查祥瑞而存寅惧，遣使祭凉州瑞石
+    rationale: 石文有“李世民”字，太宗以“弥增寅惧”应之，不敢自矜天命。
+  - date: 643-07
+    title_zh: 处置“枨枨杀人”讹言
+    rationale: 太宗恶之，令通夜开诸坊门，宣旨慰谕，以安民心而不以刑威压之。
+- id: guji-李世民-endeavor-2
+  name_zh: 修德应灾，以政弭异
+  phases:
+  - key: brewing
+    name_zh: 频岁水旱之警
+    labels:
+      zh:
+      - 山东大旱
+      - 关东大水
+    start_date: '627'
+    highlight_event_id: guji-李世民-event-shandong-drought
+  - key: breakthrough
+    name_zh: 山摧之占与自省
+    labels:
+      zh:
+      - 陇右山摧
+      - 畏天修德
+    start_date: '634'
+    highlight_event_id: guji-李世民-event-longyou-landslide
+  - key: climax
+    name_zh: 瑞石之警与寅惧
+    labels:
+      zh:
+      - 凉州石文
+      - 遣使祭告
+    start_date: '643'
+    highlight_event_id: guji-李世民-event-liangzhou-stone
+  - key: closure
+    name_zh: 贞观后期
+    labels:
+      zh:
+      - 剑南关东旱
+      - 陕绛蒲夔州旱
+    start_date: '645'
+    highlight_event_id: guji-李世民-event-guandong-flood
+  decisions:
+  - date: '634'
+    title_zh: 闻陇右山摧而思自上而陨之象
+    rationale: 《五行传》以山摧为人君失道之象，故益修政自警。
+  - date: '628'
+    title_zh: 比年水旱而勤于政事
+    rationale: 自太上皇传位，比年水旱，故励精图治以答天谴。
+events:
+- id: guji-李世民-event-birth
+  title_zh: 李世民生于武功
+  date: '-599'
+  year_of: -599
+  type: birth
+  place: 武功
+  description: 李世民出生，后世称其生年约为隋开皇十七年末（599或598年）。
+  source_refs:
+  - 端午节古文五行志
+- id: guji-李世民-event-shandong-drought
+  title_zh: 贞观元年山东大旱
+  date: '627'
+  year_of: 627
+  type: disaster
+  place: 山东
+  description: 贞观元年夏，山东大旱；二年春、三年春夏复旱，太宗励精图治以应之。
+  source_refs:
+  - 新唐书·五行志·常旸
+- id: guji-李世民-event-guandong-flood
+  title_zh: 贞观十一年谷洛溢入洛阳宫
+  date: 641-07
+  year_of: 641
+  type: disaster
+  place: 洛阳
+  description: 贞观十一年七月癸未，黄气际天，大雨，谷水溢入洛阳宫深四尺，坏左掖门，洛水漂六百余家。
+  source_refs:
+  - 新唐书·五行志·水不润下
+- id: guji-李世民-event-longyou-landslide
+  title_zh: 贞观八年陇右山摧
+  date: 634-08
+  year_of: 634
+  type: anomaly
+  place: 陇右
+  description: 贞观八年七月，陇右山摧。《五行传》以为“山者高峻，自上而陨之象也”，时论以人君修德应之。
+  source_refs:
+  - 新唐书·五行志·山摧
+- id: guji-李世民-event-liangzhou-stone
+  title_zh: 凉州昌松鸿池谷瑞石有文，太宗遣使祭之
+  date: 643-08
+  year_of: 643
+  type: anomaly
+  place: 凉州昌松县鸿池谷
+  description: 贞观十七年八月，石有青质白文，含“李世民”“太子李治”等字。太宗遣使祭之曰“天有成命，表瑞贞石……弥增寅惧”。
+  source_refs:
+  - 新唐书·五行志·金不从革
+- id: guji-李世民-event-chengcheng-rumor
+  title_zh: 讹言枨枨杀人祭天狗，太宗开坊慰谕
+  date: 643-07
+  year_of: 643
+  type: social
+  place: 京师
+  description: 贞观十七年七月民讹言官遣枨枨取人心肝祭天狗，举夜惊扰。太宗恶之，令通夜开诸坊门，宣旨慰谕，月余乃止。
+  source_refs:
+  - 新唐书·五行志·讹言
+- id: guji-李世民-event-wude-mountain-sound
+  title_zh: 武德二年太行山圣人崖有声
+  date: '619'
+  year_of: 619
+  type: anomaly
+  place: 太行山
+  description: 武德二年三月，太行山圣人崖有声，占曰有寇至，时唐方经略天下。
+  source_refs:
+  - 新唐书·五行志·山鸣
+- id: guji-李世民-event-death
+  title_zh: 李世民崩于含风殿
+  date: 649-07-10
+  year_of: 649
+  type: death
+  place: 终南山翠微宫含风殿
+  description: 贞观二十三年五月，唐太宗李世民崩，太子李治继位，是为高宗。
+  source_refs:
+  - 端午所传古文及相关史传

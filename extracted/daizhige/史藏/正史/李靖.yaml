@@ -1,0 +1,150 @@
+person:
+  qid: guji-李靖
+  name_zh: 李靖
+  names:
+    zh: 李靖
+    en: Li Jing
+  lifespan:
+    birth:
+      date: '571'
+      precision: year
+      is_circa: true
+      raw: 未详于原文
+  birth_date: 约571年（原文未载，据史补）
+  death_date: ''
+  era: 隋末唐初
+  reign_ref: 唐高祖武德、唐太宗贞观
+  archetype: 军事统帅
+  dilemmas:
+  - 出将入相，功高震主之疑
+  - 年老出征与致仕之择
+  lesson: 兵贵神速，持重而不失战机，功成而能谦退。
+  summary_first_person: 我是李靖，唐之名将。贞观三年代突厥，四年破颉利可汗于阴山，献俘于朝；其后再总诸道兵西平吐谷浑。历兵部、中书，八年至尚书右仆射，以功名终。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐书
+endeavors:
+- id: guji-李靖-endeavor-1
+  name_zh: 平定东突厥之役
+  phases:
+  - key: brewing
+    name_zh: 受命备边
+    labels:
+      zh:
+      - 备御薛延陀
+      - 迁检校中书令
+    start_date: 0622-02
+    highlight_event_id: guji-李靖-event-beixueyanchuoni
+  - key: breakthrough
+    name_zh: 定襄出师
+    labels:
+      zh:
+      - 定襄道行军大总管
+      - 伐突厥
+    start_date: 0623-08
+    highlight_event_id: guji-李靖-event-dingxiangdao
+  - key: climax
+    name_zh: 阴山破颉利
+    labels:
+      zh:
+      - 阴山之战
+      - 俘颉利可汗
+    start_date: 0624-02
+    highlight_event_id: guji-李靖-event-yinshan
+  - key: closure
+    name_zh: 论功入相
+    labels:
+      zh:
+      - 尚书右仆射
+    start_date: 0624-08
+    highlight_event_id: guji-李靖-event-pushe
+  decisions:
+  - date: '0623-08-01'
+    title_zh: 受任定襄道行军大总管伐突厥
+    rationale: 突厥扰边，乘其内乱衰弱，一举深入破敌。
+- id: guji-李靖-endeavor-2
+  name_zh: 平吐谷浑之役
+  phases:
+  - key: brewing
+    name_zh: 吐谷浑寇边
+    labels:
+      zh:
+      - 寇凉州
+      - 执赵德楷
+    start_date: '0631'
+    highlight_event_id: guji-李靖-event-tuyuhun-ku
+  - key: breakthrough
+    name_zh: 拜西海道行军大总管
+    labels:
+      zh:
+      - 特进
+      - 统六总管兵
+    start_date: 0632-12
+    highlight_event_id: guji-李靖-event-xihaidao
+  - key: climax
+    name_zh: 击破吐谷浑
+    labels:
+      zh:
+      - 青海之战
+      - 大破其众
+    start_date: 0633-05
+    highlight_event_id: guji-李靖-event-po-tuyuhun
+  decisions:
+  - date: '0632-12-01'
+    title_zh: 以特进年老请行
+    rationale: 虽已解相职，仍请率军西讨，以靖边患。
+events:
+- id: guji-李靖-event-birth
+  date: '0571'
+  year_of: 571
+  type: birth
+  title_zh: 李靖生（约）
+- id: guji-李靖-event-beixueyanchuoni
+  date: 0622-02
+  year_of: 622
+  type: endeavor
+  title_zh: 贞观二年壬戌，李靖为关内道行军大总管，以备薛延陀
+- id: guji-李靖-event-jianjiaozhongshuling
+  date: 0622-02
+  year_of: 622
+  type: career
+  title_zh: 刑部尚书李靖检校中书令
+- id: guji-李靖-event-dingxiangdao
+  date: 0623-08
+  year_of: 623
+  type: endeavor
+  title_zh: 贞观三年丁亥，李靖为定襄道行军大总管，以伐突厥
+- id: guji-李靖-event-yinshan
+  date: 0624-02
+  year_of: 624
+  type: endeavor
+  title_zh: 贞观四年甲辰，李靖及突厥战于阴山，败之
+- id: guji-李靖-event-fuxielikehan
+  date: 0624-03
+  year_of: 624
+  type: endeavor
+  title_zh: 三月甲午，李靖俘突厥颉利可汗以献
+- id: guji-李靖-event-pushe
+  date: 0624-08
+  year_of: 624
+  type: career
+  title_zh: 八月甲寅，李靖为尚书右仆射
+- id: guji-李靖-event-ba
+  date: 0630-11
+  year_of: 630
+  type: career
+  title_zh: 十一月辛未，李靖罢（仆射任满解职）
+- id: guji-李靖-event-tuyuhun-ku
+  date: 0631-11
+  year_of: 631
+  type: context
+  title_zh: 十一月己丑，吐谷浑寇凉州
+- id: guji-李靖-event-xihaidao
+  date: 0632-12
+  year_of: 632
+  type: endeavors
+  title_zh: 十二月辛丑，特进李靖为西海道行军大总管，以伐吐谷浑
+- id: guji-李靖-event-po-tuyuhun
+  date: 0633-05
+  year_of: 633
+  type: endeavor
+  title_zh: 九年五月壬子，李靖及吐谷浑战，败之
