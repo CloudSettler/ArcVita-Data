@@ -1,0 +1,106 @@
+person:
+  qid: guji-余子俊
+  name_zh: 余子俊
+  names:
+    zh: 余子俊
+    en: Yu Zijun
+  lifespan:
+    birth:
+      date: '1429'
+      precision: year
+      is_circa: true
+      raw: 约1429年
+    death:
+      date: '1489'
+      precision: year
+      is_circa: false
+      raw: 弘治二年
+  birth_date: '1429'
+  death_date: '1489'
+  era: 明代成化至弘治年间
+  reign_ref: 成化、弘治
+  archetype: 边防重臣与谏诤之臣
+  dilemmas:
+  - 边患频仍与财政困窘之间，需修边墙以守而非远征以劳
+  - 奏牍直言或触忤权贵、动摇仕途
+  lesson: 谋国者当以实事捍边安民，虽节费筑防之举毁誉参半，久乃见功
+  summary_first_person: 我是明代名臣余子俊，历官成化、弘治两朝，以督修延绥边墙、经略边防著称，所上奏疏恳切直言，多关乎兵食边计，其后奏议被辑入《御选明臣奏议》以垂法戒。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/余子俊
+endeavors:
+- id: guji-余子俊-endeavor-1
+  name_zh: 经略边防、督修边墙
+  phases:
+  - key: brewing
+    name_zh: 出仕历官
+    labels:
+      zh: 历官地方
+    start_date: '1454'
+  - key: breakthrough
+    name_zh: 建议修筑延绥边墙
+    labels:
+      zh: 筑边防卫
+    start_date: '1471'
+    highlight_event_id: guji-余子俊-event-wall
+  - key: climax
+    name_zh: 总督军务经略西北
+    labels:
+      zh: 总督边务
+    start_date: '1475'
+  - key: closure
+    name_zh: 弘治初再任兵部
+    labels:
+      zh: 晚年任兵部
+    start_date: '1488'
+  decisions:
+  - date: '1471'
+    title_zh: 上疏建议修筑延绥边墙
+    rationale: 以墩墙守边代替远道调兵，节费而久安
+  - date: '1488'
+    title_zh: 受命再任兵部尚书
+    rationale: 弘治初元，朝廷倚重其边防经验
+- id: guji-余子俊-endeavor-2
+  name_zh: 奏议陈言、辑入《御选明臣奏议》
+  phases:
+  - key: brewing
+    name_zh: 任内屡上奏疏
+    labels:
+      zh: 陈言边务
+    start_date: '1470'
+    highlight_event_id: guji-余子俊-event-memorial
+  - key: breakthrough
+    name_zh: 奏疏入选御选名臣奏议
+    labels:
+      zh: 名臣奏议
+    start_date: '1782'
+  decisions:
+  - date: '1470'
+    title_zh: 上《请严捕近京逃贼疏》
+    rationale: 京畿盗贼逃逸滋扰，需严捕以安近地
+events:
+- id: guji-余子俊-event-birth
+  event_type: birth
+  name_zh: 余子俊出生
+  date: '1429'
+  year_of: 1429
+  date_precision: circa_year
+- id: guji-余子俊-event-deaths
+  event_type: death
+  name_zh: 余子俊去世
+  date: '1489'
+  year_of: 1489
+  date_precision: year
+- id: guji-余子俊-event-wall
+  event_type: endeavor
+  name_zh: 上疏建议修筑延绥边墙
+  date: '1471'
+  year_of: 1471
+  date_precision: year
+  related_endeavor: guji-余子俊-endeavor-1
+- id: guji-余子俊-event-memorial
+  event_type: endeavor
+  name_zh: 上《请严捕近京逃贼疏》，后被辑入《御选明臣奏议》卷六
+  date: '1470'
+  year_of: 1470
+  date_precision: circa_year
+  related_endeavor: guji-余子俊-endeavor-2
