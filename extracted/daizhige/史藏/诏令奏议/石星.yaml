@@ -1,0 +1,168 @@
+person:
+  qid: guji-shixing
+  name_zh: 石星
+  names:
+    zh: 石星
+    en: Shi Xing
+  lifespan:
+    birth:
+      date: 1537
+      precision: year
+      is_circa: true
+      raw: 约嘉靖十六年
+    death:
+      date: 1599
+      precision: year
+      is_circa: true
+      raw: 万历二十七年（约）
+  birth_date: 1537
+  death_date: 1599
+  era: 明万历
+  reign_ref: 明神宗万历
+  archetype: 力主对日封贡议和的兵部尚书
+  dilemmas:
+  - 主张封贡羁縻以息兵，还是闭关谢使、一意战守
+  - 用沈惟敬等密计与倭议和，终致欺罔误国之讥
+  lesson: 以羁縻侥幸退敌而不修战守之实，纵有息兵之心，终酿久远之祸
+  summary_first_person: 我是石星，万历朝任兵部尚书。东倭犯顺、朝鲜乞援之时，我力主对日请封请贡，欲以册封羁縻退敌，与宋应昌、顾养谦、沈惟敬等筹划其事。言官逯中立等连疏弹劾，斥我为倭款误国，请皇上收回许封成命、将我罢斥治罪。其后和议败坏，我以首事之罪下狱，卒于狱中。
+endeavors:
+- id: guji-shixing-endeavor-1
+  name_zh: 主持对日封贡议和
+  labels:
+    zh:
+    - 本兵
+    - 封贡议和
+    - 万历朝鲜之役
+  roles:
+  - 明朝兵部尚书（本兵）
+  phases:
+  - key: brewing
+    name_zh: 倭患初起，议封议贡之说起
+    labels:
+      zh:
+      - 东倭未靖
+      - 请封请贡
+    start_date: 1592
+    highlight_event_id: guji-shixing-event-advocate-fenggong
+  - key: breakthrough
+    name_zh: 力主封贡，遣使筹议
+    labels:
+      zh:
+      - 力主封贡
+      - 密计通倭
+    start_date: 1593
+    highlight_event_id: guji-shixing-event-advocate-fenggong
+  - key: climax
+    name_zh: 言官交章弹劾，倭款之争激化
+    labels:
+      zh:
+      - 言官弹劾
+      - 倭款误国
+    start_date: 1593
+    highlight_event_id: guji-shixing-event-censure-luzhongli
+  - key: closure
+    name_zh: 和议败坏，以首事之罪得罪
+    labels:
+      zh:
+      - 下狱
+      - 欺罔误国
+    start_date: 1597
+    highlight_event_id: guji-shixing-event-imprisoned
+  decisions:
+  - date: 1592
+    title_zh: 力主对日请封请贡
+    rationale: 以册封羁縻退倭，冀息兵省饷，而未深虑倭情狙诈、贻患将来
+  - date: 1593
+    title_zh: 用沈惟敬等密计通倭，请封易而为请贡，进而议开市和亲
+    rationale: 依赖通使密计以求了事目前，而不曰选将、练兵、沿海修备
+- id: guji-shixing-endeavor-2
+  name_zh: 万历朝兵部任内经略边务
+  labels:
+    zh:
+    - 兵部尚书
+    - 本兵
+  roles:
+  - 明朝兵部尚书
+  phases:
+  - key: brewing
+    name_zh: 位列本兵，总揽军政
+    labels:
+      zh:
+      - 兵部尚书
+      - 边备
+    start_date: 1589
+    highlight_event_id: guji-shixing-event-advocate-fenggong
+  - key: climax
+    name_zh: 当倭警与西事之冲，边务备御受责
+    labels:
+      zh:
+      - 边务废弛
+      - 羁縻之议
+    start_date: 1592
+    highlight_event_id: guji-shixing-event-censure-luzhongli
+  - key: closure
+    name_zh: 议和败坏，身败名裂
+    labels:
+      zh:
+      - 下狱论罪
+    start_date: 1597
+    highlight_event_id: guji-shixing-event-imprisoned
+  decisions:
+  - date: 1593
+    title_zh: 催促朝鲜表文，冀以封典了事
+    rationale: 以为空言可以畏敌、表文可以自守，为苟且目前之谋
+events:
+- id: guji-shixing-event-birth
+  person_qid: guji-shixing
+  name_zh: 石星生（约）
+  date: 1537
+  year_of: 1537
+  date_precision: year
+  is_circa: true
+  type: birth
+  description: 石星约生于嘉靖年间。
+- id: guji-shixing-event-advocate-fenggong
+  person_qid: guji-shixing
+  endeavor_ids:
+  - guji-shixing-endeavor-1
+  - guji-shixing-endeavor-2
+  name_zh: 以本兵力主对日封贡议和
+  date: 1592
+  year_of: 1592
+  date_precision: year
+  is_circa: true
+  type: endeavor
+  description: 东倭犯顺、盘据朝鲜，兵部尚书石星力主请封请贡之说，与宋应昌、顾养谦、刘黄裳、沈惟敬等筹划通倭册封之策，请封易而为请贡，请贡易而为开市。
+- id: guji-shixing-event-censure-luzhongli
+  person_qid: guji-shixing
+  endeavor_ids:
+  - guji-shixing-endeavor-1
+  - guji-shixing-endeavor-2
+  name_zh: 逯中立上《论东倭疏》弹劾石星主款误国
+  date: 1593
+  year_of: 1593
+  date_precision: year
+  is_circa: true
+  type: censure
+  description: 谏垣逯中立上疏谓"东征诸臣误本兵而本兵因以误国"，指石星力主倭款、排盈庭公论、沮战守长策，请皇上收回许封成命，明谕尚书石星与总督顾养谦闭关谢使、一意防御。
+- id: guji-shixing-event-imprisoned
+  person_qid: guji-shixing
+  endeavor_ids:
+  - guji-shixing-endeavor-1
+  - guji-shixing-endeavor-2
+  name_zh: 封贡议败，石星以首事之罪得罪（约）
+  date: 1597
+  year_of: 1597
+  date_precision: year
+  is_circa: true
+  type: censure
+  description: 倭款败坏、倭酋复叛，朝议谓"异时追尤首事"，主款之石星以欺罔误国被罪下狱，卒于狱中（约万历二十七年）。
+- id: guji-shixing-event-death
+  person_qid: guji-shixing
+  name_zh: 石星卒（约）
+  date: 1599
+  year_of: 1599
+  date_precision: year
+  is_circa: true
+  type: death
+  description: 石星约于万历二十七年卒，以主款误国、身败名裂终。
