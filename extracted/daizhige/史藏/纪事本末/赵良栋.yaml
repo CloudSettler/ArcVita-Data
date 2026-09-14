@@ -1,0 +1,110 @@
+person:
+  qid: guji-赵良栋
+  name_zh: 赵良栋
+  names:
+    zh: 赵良栋
+    en: Zhao Liangdong
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 卒年不详
+  birth_date: ''
+  death_date: ''
+  era: 清代，康熙朝三藩之乱时期
+  reign_ref: 康熙
+  archetype: 边镇干将：以精明历练、才略过人著称，由总兵临危受命擢升提督
+  lesson: 真才实学终会为知遇者所荐，临危受命更见担当
+  summary_first_person: 我本任天津总兵官，将军侯张勇深知我随其征剿著有功绩、精明历练，力疏请调。康熙十五年宁夏兵变、提督陈福遇害，朝廷遂将宁夏员缺改为提督，以我升补，命兼程速赴。抵任之日，我与副都统恰塔、员外郎拉笃佑共议一切军务机宜，共守这一三边要地。
+  source_urls:
+  - 平定三逆方略卷二十二
+endeavors:
+- id: guji-赵良栋-endeavor-1
+  name_zh: 随张勇征剿，仕至天津总兵官
+  phases:
+  - key: brewing
+    name_zh: 随征立功
+    labels:
+      zh:
+      - 从军征剿
+      - 着有功绩
+    start_date: ''
+    highlight_event_id: guji-赵良栋-event-appointment-tianjin
+  - key: breakthrough
+    name_zh: 知遇之荐
+    labels:
+      zh:
+      - 张勇疏请调补
+    start_date: '1676'
+    highlight_event_id: guji-赵良栋-event-zhangyong-recommend
+  decisions:
+  - date: '1676'
+    title_zh: 受张勇之请，愿赴边路兼程赴宁
+    rationale: 张勇称我精明历练、才略过人，荐补宁夏总兵官；形势所需，慨然赴任
+- id: guji-赵良栋-endeavor-2
+  name_zh: 出任宁夏提督，安定要地
+  phases:
+  - key: breakthrough
+    name_zh: 临危受命擢提督
+    labels:
+      zh:
+      - 改总兵缺为提督
+      - 兼程速赴
+    start_date: '1676'
+    highlight_event_id: guji-赵良栋-event-promote-ningxia-tidu
+  - key: climax
+    name_zh: 共议军机，协守宁夏
+    labels:
+      zh:
+      - 与恰塔等共议军务
+    start_date: 1676-02
+    highlight_event_id: guji-赵良栋-event-co-deliberate
+  decisions:
+  - date: '1676'
+    title_zh: 兼程由边路速赴宁夏
+    rationale: 宁夏兵变之后民心惊惶，三边要地军机紧要，不容迟滞
+events:
+- id: guji-赵良栋-event-birth
+  type: birth
+  date: ''
+  year_of: 出生年份不详
+  summary: 赵良栋生年史无明文。
+- id: guji-赵良栋-event-death
+  type: death
+  date: ''
+  year_of: 卒年不详（本篇文献未载）
+  summary: 赵良栋卒年不在本篇文献所载范围内。
+- id: guji-赵良栋-event-appointment-tianjin
+  type: office
+  date: ''
+  year_of: 康熙十五年（1676）前
+  summary: 任天津总兵官，扼守津门海口重地。
+  endeavor_id: guji-赵良栋-endeavor-1
+  phase: brewing
+- id: guji-赵良栋-event-zhangyong-recommend
+  type: recommendation
+  date: '1676'
+  year_of: 1676
+  summary: 将军侯张勇先曾请调我赴秦，后又密奏：我随其征剿著有功绩，精明历练、才略过人，请调补宁夏总兵官，令由边路兼程速赴。
+  endeavor_id: guji-赵良栋-endeavor-1
+  phase: breakthrough
+- id: guji-赵良栋-event-promote-ningxia-tidu
+  type: appointment
+  date: '1676-02-04'
+  year_of: 康熙十五年正月戊申（1676年2月上旬）
+  summary: 宁夏提督陈福为乱兵所害后，朝廷议定以我升补新改设的宁夏提督，命兼程速赴。
+  endeavor_id: guji-赵良栋-endeavor-2
+  phase: breakthrough
+- id: guji-赵良栋-event-co-deliberate
+  type: military
+  date: 1676-02
+  year_of: 康熙十五年二月庚申（1676年2月下旬）
+  summary: 朝廷谕兵部：我抵宁夏之日，一切军务机宜由副都统恰塔、员外郎拉笃佑等与我共议而行，以安军民之心。
+  endeavor_id: guji-赵良栋-endeavor-2
+  phase: climax

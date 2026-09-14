@@ -1,0 +1,147 @@
+person:
+  qid: guji-吴三桂
+  name_zh: 吴三桂
+  names:
+    zh: 吴三桂
+    en: Wu Sangui
+  lifespan:
+    birth:
+      date: '1612'
+      precision: year
+      is_circa: true
+      raw: 约1612年生（传记未载，史载约天命前后）
+    death:
+      date: '1678'
+      precision: year
+      is_circa: false
+      raw: 康熙十七年卒（伏冥诛）
+  birth_date: '1612'
+  death_date: '1678'
+  era: 明末清初
+  reign_ref:
+  - 崇祯
+  - 顺治
+  - 康熙
+  archetype: 逆藩
+  dilemmas:
+  - 明臣降清
+  - 反清称帝
+  lesson: 恩宠既极而骄恣蓄逆，终致身败名裂
+  summary_first_person: 我本以父荫为明边将，镇守山海关；闯贼陷京，我引清兵入关，受封平西王，随征西南，进封亲王留镇云南。然我蓄异志、括田置私、练兵买硝，及康熙十二年朝廷议撤藩，我乃举兵反，自称周王，直窥湖广。八年战乱后我病死，孙世璠困守昆明亦败亡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/平定三逆方略
+endeavors:
+- id: guji-吴三桂-endeavor-1
+  name_zh: 出关降清与西南征镇
+  phases:
+  - key: brewing
+    name_zh: 镇守山海关
+    labels:
+      zh:
+      - 明辽东边将
+      - 封平西伯
+    start_date: '1640'
+  - key: breakthrough
+    name_zh: 引清兵入关受封平西王
+    labels:
+      zh:
+      - 迎降多尔衮
+      - 随军追剿流贼
+    start_date: '1644'
+    highlight_event_id: guji-吴三桂-event-投降-1644
+  - key: climax
+    name_zh: 平云南进封亲王留镇
+    labels:
+      zh:
+      - 擒桂王
+      - 进缅甸
+    start_date: '1659'
+  - key: closure
+    name_zh: 留镇云南骄恣蓄逆
+    labels:
+      zh:
+      - 自选官弁
+      - 括沐氏庄田
+      - 阴购硝黄
+    start_date: '1662'
+- id: guji-吴三桂-endeavor-2
+  name_zh: 举兵反叛与败亡
+  phases:
+  - key: brewing
+    name_zh: 阳请撤藩实谋举兵
+    labels:
+      zh:
+      - 疏请撤兵
+      - 密谋数迁行期
+    start_date: 1673-07
+  - key: breakthrough
+    name_zh: 云南起兵自称周王
+    labels:
+      zh:
+      - 天下都招讨兵马大元帅
+      - 杀巡抚朱国治
+    start_date: '1673-11-21'
+    highlight_event_id: guji-吴三桂-event-起兵-1673
+  - key: climax
+    name_zh: 称帝衡州兵败病死
+    labels:
+      zh:
+      - 窥湖广
+      - 伏冥诛
+    start_date: '1678'
+    highlight_event_id: guji-吴三桂-event-死-1678
+  decisions:
+  - date: '1673-11-21'
+    title_zh: 杀巡抚朱国治举兵反
+    rationale: 朝廷允撤藩、哲勒肯趣行，虑谋泄遂先发
+  - date: '1674'
+    title_zh: 以甲寅为周王元年建号
+    rationale: 亮出处所、笼络党羽
+events:
+- id: guji-吴三桂-event-birth
+  type: birth
+  date: '1612'
+  year_of: 1612
+  note: 传记未载，据通史约1612年
+- id: guji-吴三桂-event-投降-1644
+  type: career
+  date: '1644'
+  year_of: 1644
+  title_zh: 闻爱妾被据忿还山海，迎降多尔衮，封平西王
+  description: 流贼陷京，父襄降贼以书招之；行至宝邸闻贼据其爱妾，旋山海关，密请清师，睿亲王多尔衮师次翁后，迎降受封。
+- id: guji-吴三桂-event-镇滇-1659
+  type: career
+  date: '1659'
+  year_of: 1659
+  title_zh: 随大兵平云南、进缅甸，叙功封平西亲王留镇滇
+  description: 叙功封平西亲王，后奏请文武官弁自选置，益骄蹇纵恣。
+- id: guji-吴三桂-event-请撤-1673
+  type: career
+  date: 1673-07
+  year_of: 1673
+  title_zh: 疏请撤兵移藩
+  description: 康熙十二年七月庚午，闻尚可喜乞归获允，不自安具疏请撤；朝廷议准，命率所属官兵家口搬移。
+- id: guji-吴三桂-event-起兵-1673
+  type: career
+  date: '1673-11-21'
+  year_of: 1673
+  title_zh: 勒兵反叛，杀云南巡抚朱国治
+  description: 康熙十二年十一月，以谋久事泄，遂勒兵反，执杀朱国治，久留哲勒肯等；僭称天下都招讨兵马大元帅。
+- id: guji-吴三桂-event-称周-1674
+  type: career
+  date: '1674'
+  year_of: 1674
+  title_zh: 以明年甲寅为周王元年
+  description: 僭建年号，贵州提督李本深叛应之，云贵总督甘文焜自刎。
+- id: guji-吴三桂-event-死-1678
+  type: death
+  date: '1678'
+  year_of: 1678
+  title_zh: 伏冥诛（病死）
+  description: 兵败穷蹙，未及清军平滇而死于昆明。
+- id: guji-吴三桂-event-灭孙-1681
+  type: career
+  date: 1681-10
+  year_of: 1681
+  title_zh: 孙世璠困守昆明败亡，藩除
+  description: 康熙二十年十月大兵攻围云南省城，世璠自杀，献给馘京师；三逆悉平。
