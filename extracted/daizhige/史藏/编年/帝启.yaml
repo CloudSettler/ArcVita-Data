@@ -1,0 +1,133 @@
+person:
+  qid: guji-di-qi
+  name_zh: 帝启
+  names:
+    zh: 帝启
+    en: Qi of Xia
+  lifespan:
+    birth:
+      date: -2100
+      precision: year
+      is_circa: true
+      raw: 生年无考
+    death:
+      date: -1990
+      precision: year
+      is_circa: true
+  birth_date: 约 -2100
+  death_date: 约 -1990
+  era: 夏朝（初世）
+  reign_ref: 元年癸亥即位于夏邑，在位十六年
+  archetype: 世袭王权开创者
+  dilemmas:
+  - 伯益辅政惯例与父死子继新制的冲突
+  - 有扈氏不服，需以武力确立王权
+  - 亲子武观西河叛乱，骨肉与国法两难
+  lesson: 制度的初立往往不靠人心自然归附，而靠一场摊牌式的战争与对叛乱者的惩处来确立惯例。
+  summary_first_person: 我是大禹之子启。禹崩，三年丧毕，天下不从伯益而归我，我便即位于夏邑，大飨诸侯于钧台，开启父死子继之局。费侯伯益出就其国；有扈氏不服，我帅师伐之，大战于甘而服天下。其后我放武观于西河，及武观叛，命彭伯寿征西河而受其来归。在位十六年而陟，夏之家天下自此始。
+  source_urls:
+  - 古文出处：《竹书纪年》（王国维辑校本）夏纪·帝启
+endeavors:
+- id: guji-di-qi-endeavor-1
+  name_zh: 受命继统与钧台大飨
+  labels:
+    zh: 开国立统
+  phases:
+  - key: brewing
+    name_zh: 三年之丧
+    labels:
+      zh: 守丧等待
+    start_date: -1992
+  - key: climax
+    name_zh: 即位夏邑
+    labels:
+      zh: 正式即位
+    start_date: -1990
+    highlight_event_id: guji-di-qi-event-accession
+  decisions:
+  - date: -1990
+    title_zh: 即夏后位于夏邑
+    rationale: 天下归启，诸侯朝见，顺势承继父业，确立子继之制。
+- id: guji-di-qi-endeavor-2
+  name_zh: 甘之战平有扈
+  labels:
+    zh: 武服诸侯
+  phases:
+  - key: breakthrough
+    name_zh: 帅师伐有扈
+    labels:
+      zh: 亲征立威
+    start_date: -1989
+    highlight_event_id: guji-di-qi-event-gan-battle
+  decisions:
+  - date: -1989
+    title_zh: 帅师伐有扈，大战于甘
+    rationale: 有扈氏不奉新王之命，欲以一战定诸侯向背。
+- id: guji-di-qi-endeavor-3
+  name_zh: 西河平武观之叛
+  labels:
+    zh: 内安宗室
+  phases:
+  - key: closure
+    name_zh: 彭伯寿征西河
+    labels:
+      zh: 讨叛抚归
+    start_date: -1976
+    highlight_event_id: guji-di-qi-event-wuguan-revolt
+  decisions:
+  - date: -1975
+    title_zh: 命彭伯寿帅师征西河
+    rationale: 季子武观据西河叛，须以王师儆效尤，又许其来归存骨肉体面。
+events:
+- id: guji-di-qi-event-birth
+  date: 约-2100
+  year_of: -2100
+  event: birth
+  name_zh: 帝启生
+  summary_zh: 生年史无明文，约当禹之壮年，母系及生地竹书未详。
+- id: guji-di-qi-event-accession
+  date: -1990
+  year_of: -1990
+  name_zh: 即位于夏邑，大飨诸侯于钧台
+  summary_zh: 元年癸亥，帝即位于夏邑，于钧台大飨诸侯，诸侯复从帝归于冀都，大飨于璇台。
+- id: guji-di-qi-event-yi-goes-state
+  date: -1989
+  year_of: -1989
+  name_zh: 费侯伯益出就国
+  summary_zh: 二年，禅让旧臣费侯伯益离朝廷出就封国，子继之制落定。
+- id: guji-di-qi-event-gan-battle
+  date: -1989
+  year_of: -1989
+  name_zh: 王帅师伐有扈，大战于甘
+  summary_zh: 王亲帅六师伐有扈（在始平鄠县），大战于甘，有扈氏败服。
+- id: guji-di-qi-event-yi-death
+  date: -1985
+  year_of: -1985
+  name_zh: 伯益薨，祠之
+  summary_zh: 六年，伯益薨，帝为之立祠。
+- id: guji-di-qi-event-mengtu-ba
+  date: -1983
+  year_of: -1983
+  name_zh: 帝使孟涂如巴莅讼
+  summary_zh: 八年，遣孟涂至巴地主持听讼之事。
+- id: guji-di-qi-event-dance-jiushao
+  date: -1981
+  year_of: -1981
+  name_zh: 巡狩舞九韶于大穆之野
+  summary_zh: 十年，帝巡狩，于大穆之野舞《九韶》，示礼乐于四方。
+- id: guji-di-qi-event-wuguan-exile
+  date: -1980
+  year_of: -1980
+  name_zh: 放武观于西河
+  summary_zh: 十一年，放王季子武观于西河（观国，今顿丘卫县）。
+- id: guji-di-qi-event-wuguan-revolt
+  date: -1976
+  year_of: -1976
+  name_zh: 武观以西河叛，彭伯寿征而归之
+  summary_zh: 十五年，武观以西河叛，彭伯寿帅师征西河，武观来归。
+- id: guji-di-qi-event-death
+  date: -1975
+  year_of: -1975
+  event: death
+  name_zh: 帝启陟
+  summary_zh: 十六年，帝陟。夏后继位之局由此传于太康。
