@@ -1,0 +1,153 @@
+person:
+  qid: guji-韩琦
+  name_zh: 韩琦
+  names:
+    zh: 韩琦
+    en: Han Qi
+  lifespan:
+    birth:
+      date: '1008'
+      precision: year
+      is_circa: true
+      raw: '1008'
+    death:
+      date: '1075'
+      precision: year
+      is_circa: true
+      raw: '1075'
+  birth_date: '1008'
+  death_date: '1075'
+  era: 北宋
+  reign_ref: 宋仁宗、宋英宗、宋神宗
+  archetype: 宰相重臣·定策元老
+  dilemmas:
+  - 英宗与濮安懿王的名分之争：忠于一体之礼与尊崇生父之间左右为难，"濮议"聚讼纷纭
+  - 英宗初立、两宫疑隙之际，居中调停，既要保护新君又要安抚慈寿（曹太后）垂帘之势
+  lesson: 处非常之变，以定策安社稷为先，不在一时毁誉；边事则务实体，筑城练兵而不务侥幸
+  summary_first_person: 我韩琦相三朝，立二帝。庆历与范仲淹同御西夏、共条新政；嘉祐定策迎立英宗；濮议之际虽遭物议，然扶危定倾，自谓无愧于社稷。在西边则筑甘谷等城，以实边备。
+  source_urls:
+  - https://example.org/guji/huangsong-tongjian-changbian-jishibennmo
+endeavors:
+- id: guji-韩琦-endeavor-1
+  person_id: guji-韩琦
+  name_zh: 经略陕西·防御西夏
+  phases:
+  - key: brewing
+    name_zh: 陕西安抚
+    labels:
+      zh: 西边备御
+    start_date: '1040'
+    highlight_event_id: guji-韩琦-event-xibian
+  - key: breakthrough
+    name_zh: 与范仲淹并掌兵事
+    labels:
+      zh: 韩范
+    start_date: '1041'
+    highlight_event_id: guji-韩琦-event-xibian
+  - key: climax
+    name_zh: 筑甘谷城
+    labels:
+      zh: 筑城实边
+    start_date: '1068'
+    highlight_event_id: guji-韩琦-event-gangu
+  - key: closure
+    name_zh: 卒于相位
+    labels:
+      zh: 魏公谢世
+    start_date: '1075'
+    highlight_event_id: guji-韩琦-event-death
+  decisions:
+  - date: '1068'
+    title_zh: 筑甘谷城
+    rationale: 据要害拓边，城成则秦州声援相接，蕃部可附，边备自实
+- id: guji-韩琦-endeavor-2
+  person_id: guji-韩琦
+  name_zh: 定策立英宗与濮议
+  phases:
+  - key: brewing
+    name_zh: 建储之议
+    labels:
+      zh: 请立皇嗣
+    start_date: '1056'
+    highlight_event_id: guji-韩琦-event-celi
+  - key: breakthrough
+    name_zh: 拥立英宗即位
+    labels:
+      zh: 定策元勋
+    start_date: '1063'
+    highlight_event_id: guji-韩琦-event-celi
+  - key: climax
+    name_zh: 濮安懿王名分之议
+    labels:
+      zh: 濮议
+    start_date: '1065'
+    highlight_event_id: guji-韩琦-event-puyi
+  - key: closure
+    name_zh: 罢相出判大名
+    labels:
+      zh: 引退
+    start_date: '1067'
+    highlight_event_id: guji-韩琦-event-puyi
+  decisions:
+  - date: '1063'
+    title_zh: 英宗即位之际居中定变
+    rationale: 新帝疾作，光献垂帘；琦以定策自任，调护两宫，俟帝疾愈而后归政
+  - date: '1065'
+    title_zh: 议崇濮安懿王典礼
+    rationale: 以"不忍"之义主张立亲庙，以为人子尽孝、于统无嫌；遂为台谏所攻
+events:
+- id: guji-韩琦-event-birth
+  event_type: birth
+  date: '1008'
+  year_of: 1008
+  person_ids:
+  - guji-韩琦
+  description: 韩琦生于相州安阳
+  source_refs:
+  - 卷第八十一
+- id: guji-韩琦-event-xibian
+  event_type: endeavor
+  date: '1040'
+  year_of: 1040
+  person_ids:
+  - guji-韩琦
+  description: 西夏用兵，韩琦出为陕西安抚使，与范仲淹并称"韩范"，同事边防
+  source_refs:
+  - 卷第八十三
+- id: guji-韩琦-event-celi
+  event_type: endeavor
+  date: 1063-04
+  year_of: 1063
+  person_ids:
+  - guji-韩琦
+  description: 仁宗崩，韩琦与同志定策，奉英宗即位，成册立之局
+  source_refs:
+  - 卷第五十一
+  - 卷第五十二
+- id: guji-韩琦-event-puyi
+  event_type: endeavor
+  date: '1065'
+  year_of: 1065
+  person_ids:
+  - guji-韩琦
+  description: 英宗朝议崇濮安懿王典礼，韩琦主之，言路交攻，是为"濮议"
+  source_refs:
+  - 卷第五十五
+- id: guji-韩琦-event-gangu
+  event_type: endeavor
+  date: '1068'
+  year_of: 1068
+  person_ids:
+  - guji-韩琦
+  description: 韩琦经略陕西，筑甘谷城，以广边备、安蕃部
+  source_refs:
+  - 卷第八十三·韩琦筑甘谷城
+- id: guji-韩琦-event-death
+  event_type: death
+  date: '1075'
+  year_of: 1075
+  person_ids:
+  - guji-韩琦
+  description: 韩琦卒，历相仁宗、英宗、神宗三朝
+  source_refs:
+  - 卷第八十三
