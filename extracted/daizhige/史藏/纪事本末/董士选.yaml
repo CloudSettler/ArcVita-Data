@@ -1,0 +1,95 @@
+person:
+  qid: guji-董士选
+  name_zh: 董士选
+  names:
+    zh: 董士选
+    en: Dong Shixuan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+    death:
+      precision: unknown
+      is_circa: true
+  era: 元世祖至元、成宗元贞年间
+  reign_ref: 元世祖至元、元成宗元贞
+  archetype: 儒雅干练、功成不伐的行省主政官
+  dilemmas:
+  - 贼势盛而诸将观望不进，身为一介文臣是否亲身赴险督讨
+  - 平贼之功与肃贪之责孰先孰后，如何处置贪官污吏
+  lesson: 临危挺身以定乱，功成不居以养德。
+  summary_first_person: 我是董士选。赣州刘六十聚众万余、建立名号时，诸将观望不进，我以江南行省左丞之身亲自请往，驻兵兴国、依法处置激乱之人与奸民，不数日擒获贼首、余党尽散。事后我只奏请黜退数名赃吏，绝口不提破贼之事，时人称我不伐。
+endeavors:
+- id: guji-董士选-endeavor-1
+  name_zh: 平定赣州刘六十之乱
+  phases:
+  - key: brewing
+    name_zh: 受命请行
+    labels:
+      zh: 自请赴难
+    start_date: 1296-10
+    highlight_event_id: guji-董士选-event-endeavor-1-start
+  - key: breakthrough
+    name_zh: 进兵兴国
+    labels:
+      zh: 分兵守法、惩乱诛奸
+    start_date: 1296-11
+    highlight_event_id: guji-董士选-event-endeavor-1-victory
+  - key: climax
+    name_zh: 擒贼散党
+    labels:
+      zh: 贼首就擒
+    start_date: 1296-11
+    highlight_event_id: guji-董士选-event-endeavor-1-victory
+  - key: closure
+    name_zh: 奏黜赃吏
+    labels:
+      zh: 不伐其功
+    start_date: 1296-12
+    highlight_event_id: guji-董士选-event-endeavor-1-report
+  decisions:
+  - date: 1296-10
+    title_zh: 孤身请往平乱
+    rationale: 朝廷遣将讨刘六十，诸将观望不进致贼势益盛，遂自请督兵前往。
+  - date: 1296-12
+    title_zh: 只奏黜赃吏而不言破贼之功
+    rationale: 以为安民在吏治，乱源在贪腐，故但请黜赃吏数人，略不及破贼事。
+events:
+- id: guji-董士选-event-birth
+  type: birth
+  title_zh: 董士选生
+  participants:
+  - guji-董士选
+  outcome: 史籍未载其生年
+- id: guji-董士选-event-death
+  type: death
+  title_zh: 董士选卒
+  participants:
+  - guji-董士选
+  outcome: 史籍未载其卒年
+- id: guji-董士选-event-endeavor-1-start
+  date: 1296-10
+  year_of: 1296
+  type: endeavor-start
+  title_zh: 请兵自往，进至兴国
+  participants:
+  - guji-董士选
+  - 刘六十
+  outcome: 以江南行省左丞身份请自往讨贼，进驻兴国，距贼营百里。
+- id: guji-董士选-event-endeavor-1-victory
+  date: 1296-11
+  year_of: 1296
+  type: endeavor-milestone
+  title_zh: 命将分守、惩乱诛奸，刘六十就擒
+  participants:
+  - guji-董士选
+  - 刘六十
+  outcome: 分兵守地，置激乱之人于法，诛为囊橐之奸民，民争出自効，不数日刘六十就擒，余党悉散。
+- id: guji-董士选-event-endeavor-1-report
+  date: 1296-12
+  year_of: 1296
+  type: endeavor-closure
+  title_zh: 遣使奏闻，但请黜赃吏数人
+  participants:
+  - guji-董士选
+  outcome: 事平遣使奏闻，略不及破贼事，时称其不伐。

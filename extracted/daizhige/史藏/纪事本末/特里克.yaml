@@ -1,0 +1,116 @@
+person:
+  qid: guji-特里克
+  name_zh: 特里克
+  names:
+    zh: 特里克
+    en: Terike
+  lifespan:
+    birth:
+      date: '-1230'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约至元初在世
+    death:
+      date: '1300'
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 约1230年（生年不详）
+  death_date: 约1300年（卒年不详）
+  era: 元世祖至元年间
+  reign_ref: 元世祖忽必烈
+  archetype: 辞命使者/边事谏臣
+  dilemmas:
+  - 奉密旨直造海都境视虚实，违命则诛、从命则身陷叛王营垒
+  - 海都日召宗亲宴饮伺隙谋害，言辞进退间须以辩论全身并护国体
+  lesson: 临危直言、持节不辱，以雄辨与胆识化险为夷，并为朝廷定“坚垒勿追”之策。
+  summary_first_person: 我本为平阳马步改达噜噶齐，因应对称旨，奉世祖密旨出使叛王海都。入境直进，虽面临谋害而厉声斥之，海都嘉我雄辨，赠皮服而归。归后我进言海都兵繁而锐，宜坚垒待之、去则勿追，帝深然之，以金饰所受皮服命朝会服之以示褒。
+endeavors:
+- id: guji-特里克-endeavor-1
+  name_zh: 出使海都
+  phases:
+  - key: brewing
+    name_zh: 廷议择使
+    labels:
+      zh: 使臣人选
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-summon
+  - key: breakthrough
+    name_zh: 入境议事
+    labels:
+      zh: 持节入境
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-envoy
+  - key: climax
+    name_zh: 斥变全节
+    labels:
+      zh: 宴间斥敌
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-defiance
+  - key: closure
+    name_zh: 献策坚垒
+    labels:
+      zh: 归朝献策
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-strategy
+  decisions:
+  - date: '1270'
+    title_zh: 违副使之议，直造海都境视其虚实
+    rationale: 亲承密旨，违则当诛，故不惧险直进。
+  - date: '1270'
+    title_zh: 向世祖进言坚垒勿追之策
+    rationale: 海都兵繁而锐，不宜速战，坚垒自守则无虞。
+- id: guji-特里克-endeavor-2
+  name_zh: 佐定北边方略
+  phases:
+  - key: brewing
+    name_zh: 备顾问
+    labels:
+      zh: 应对称旨
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-summon
+  - key: climax
+    name_zh: 受金饰皮服之褒
+    labels:
+      zh: 龙恩嘉奖
+    start_date: '1270'
+    highlight_event_id: guji-特里克-event-strategy
+  decisions:
+  - date: '1270'
+    title_zh: 于巴图蒙克特黙王所具告使命
+    rationale: 依旨先与诸王计事，而后行使，沟通宗室以资外应。
+events:
+- id: guji-特里克-event-birth
+  date: '-1230'
+  year_of: 生年不详（推测）
+  type: birth
+  description: 特里克生年史无明文，约至元前任平阳马步改达噜噶齐。
+- id: guji-特里克-event-summon
+  date: '1270'
+  year_of: 至元初
+  type: endeavor
+  endeavor_id: guji-特里克-endeavor-1
+  description: 廷议遣使海都，左右以特里克对，遂被召见，应对称旨，帝嘉其辨慧，命为使并遣二人副之。
+- id: guji-特里克-event-envoy
+  date: '1270'
+  year_of: 至元初
+  type: endeavor
+  endeavor_id: guji-特里克-endeavor-1
+  description: 特里克违背副使持重之议，直造海都境以视虚实，随即与诸王议事，转至海都处。
+- id: guji-特里克-event-defiance
+  date: '1270'
+  year_of: 至元初
+  type: endeavor
+  endeavor_id: guji-特里克-endeavor-1
+  description: 海都日召宗亲宴饮，伺隙谋害；特里克厉声斥之曰“且食毋令语言脱口相摭为罪”，海都愕然称其直，酒半求衣，海都嘉其雄辨增三袭皮服，厚赠遣行。
+- id: guji-特里克-event-strategy
+  date: '1270'
+  year_of: 至元初
+  type: endeavor
+  endeavor_id: guji-特里克-endeavor-1
+  description: 还朝悉以事闻，进言海都兵锐不宜速战，来坚垒待之、去勿追；帝深然之，勅所受皮服全饰以金，命朝会服之以示褒宠。
+- id: guji-特里克-event-death
+  date: '1300'
+  year_of: 卒年不详（推测）
+  type: death
+  description: 史书未载其卒年，事迹仅见于至元初使海都之事。
