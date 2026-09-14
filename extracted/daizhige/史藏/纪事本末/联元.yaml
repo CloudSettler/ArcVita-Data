@@ -1,0 +1,106 @@
+person:
+  qid: guji-lianyuan
+  name_zh: 联元
+  names:
+    zh: 联元
+    en: Lian Yuan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1900-08-11
+      precision: day
+      is_circa: false
+      raw: 光绪二十六年七月十七日
+  birth_date: ''
+  death_date: 1900-08-11
+  era: 清末光绪年间
+  reign_ref: 光绪
+  archetype: 直言敢谏之臣
+  dilemmas:
+  - 主和直言而触怒当权守旧派
+  - 奉命赴使馆宣谕，进退两难
+  lesson: 直言救国者往往以生命为代价
+  summary_first_person: 我以内阁学士身份力陈不可轻启战端，反对围攻使馆，与许景澄、袁昶同持异议，庚子之乱中因忤载漪、刚毅等守旧王大臣之意，被诬以莫须有之罪弃市，天下冤之。
+  source_urls:
+  - 拳变纪略（继昌）
+endeavors:
+- id: guji-lianyuan-endeavor-1
+  name_zh: 力谏反对宣战围攻使馆
+  phases:
+  - key: brewing
+    name_zh: 总署议事，力陈利害
+    labels:
+      zh: 总署议事
+    start_date: 1900-06-16
+    highlight_event_id: guji-lianyuan-event-protest
+  - key: climax
+    name_zh: 宣谕使馆
+    labels:
+      zh: 赴使馆宣谕
+    start_date: 1900-06-17
+    highlight_event_id: guji-lianyuan-event-edict
+  - key: closure
+    name_zh: 被诬弃市
+    labels:
+      zh: 弃市
+    start_date: 1900-08-11
+    highlight_event_id: guji-lianyuan-event-death
+  decisions:
+  - date: 1900-06-16
+    title_zh: 与许景澄、袁昶力陈开战之害
+    rationale: 见宣战将招致列强合力犯京，百万生灵涂炭
+- id: guji-lianyuan-endeavor-2
+  name_zh: 朝臣任职与主张停战议和
+  phases:
+  - key: brewing
+    name_zh: 任内阁学士
+    labels:
+      zh: 内阁学士
+    start_date: 1900-06-16
+    highlight_event_id: guji-lianyuan-event-protest
+  - key: climax
+    name_zh: 主停战速和
+    labels:
+      zh: 主停战
+    start_date: 1900-06-17
+    highlight_event_id: guji-lianyuan-event-edict
+  - key: closure
+    name_zh: 为直论殉身
+    labels:
+      zh: 殉难
+    start_date: 1900-08-11
+    highlight_event_id: guji-lianyuan-event-death
+  decisions:
+  - date: 1900-06-17
+    title_zh: 奉命赴使馆宣谕而不避祸
+    rationale: 奉懿旨与荣禄、立山、许景澄同往，虽知险仍行
+events:
+- id: guji-lianyuan-event-birth
+  date: ''
+  type: birth
+  name_zh: 联元出生
+  detail_zh: 生平籍里不详，仕清官至内阁学士
+- id: guji-lianyuan-event-protest
+  date: 1900-06-16
+  year_of: 1900
+  type: endeavor
+  endeavor_ref: guji-lianyuan-endeavor-1
+  name_zh: 力陈利害反对宣战
+  detail_zh: 吏部侍郎许景澄、内阁学士联元、太常寺卿袁昶力陈利害，帝挽许景澄袖哭，太后怒叱
+- id: guji-lianyuan-event-edict
+  date: 1900-06-17
+  year_of: 1900
+  type: endeavor
+  endeavor_ref: guji-lianyuan-endeavor-1
+  name_zh: 奉旨赴使馆宣谕
+  detail_zh: 太后命荣禄、立山、许景澄、联元赴使馆宣谕，各使复照会称未奉彼朝命不敢出京
+- id: guji-lianyuan-event-death
+  date: 1900-08-11
+  year_of: 1900
+  type: death
+  name_zh: 联元弃市
+  detail_zh: 降旨立山、徐用仪、联元皆弃市，罪名莫须有，天下冤之

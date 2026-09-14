@@ -1,0 +1,132 @@
+person:
+  qid: guji-荣禄
+  name_zh: 荣禄
+  names:
+    zh: 荣禄
+    en: Ronglu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 清末光绪年间
+  reign_ref: 光绪
+  archetype: 权臣与军事统帅
+  dilemmas:
+  - 主剿义和团而枢臣刚毅、启秀、赵舒翘力主解散，屡上章请剿却被旨责以不得孟浪从事
+  - 宣战后奉命与立山、许景澄、联元赴使馆宣谕，夹在朝廷战和两难之间
+  - 西巡时留武卫中军驻守京城，自言虎狼之士不能制
+  lesson: 乱世中枢臣纵有先见之明，若不能左右朝议，亦难挽狂澜。
+  summary_first_person: 我荣禄在庚子事变中屡次上章请剿义和团而不获采纳，宣战后参与对使馆宣谕，随扈西巡，目睹朝议误国、拳匪殃民而无可奈何。
+  source_urls:
+  - https://example.org/guji/quanbian-jilve
+endeavors:
+- id: guji-荣禄-endeavor-1
+  name_zh: 庚子事变与军机枢要
+  labels:
+    zh:
+    - 义和团
+    - 军机大臣
+    - 宣战与议和
+  phases:
+  - key: brewing
+    name_zh: 请剿拳匪
+    labels:
+      zh:
+      - 上章请剿
+    start_date: 1900-05
+    highlight_event_id: guji-荣禄-event-qingjiao
+  - key: breakthrough
+    name_zh: 宣战前后的枢廷应对
+    labels:
+      zh:
+      - 赴使馆宣谕
+      - 宣战之旨
+    start_date: 1900-06
+    highlight_event_id: guji-荣禄-event-xuanyu
+  - key: climax
+    name_zh: 围攻使馆与京师陷落
+    labels:
+      zh:
+      - 攻使馆
+      - 城陷随扈
+    start_date: 1900-07
+    highlight_event_id: guji-荣禄-event-suxun
+  - key: closure
+    name_zh: 西巡随扈
+    labels:
+      zh:
+      - 随扈西巡
+    start_date: 1900-08
+    highlight_event_id: guji-荣禄-event-xixun
+  decisions:
+  - date: 1900-06
+    title_zh: 销假后力主朝廷剿匪
+    rationale: 以为拳匪乃乱民不可恃，遽纵将酿大祸
+  - date: 1900-08
+    title_zh: 城陷之际掩闭景运门、乾清门保护宫禁
+    rationale: 疑敌兵已入禁内，先护宫廷要门
+- id: guji-荣禄-endeavor-2
+  name_zh: 武卫军统领之任
+  labels:
+    zh:
+    - 武卫军
+    - 京畿防务
+  phases:
+  - key: brewing
+    name_zh: 统武卫中军
+    labels:
+      zh:
+      - 武卫中军
+    start_date: 1898
+    highlight_event_id: guji-荣禄-event-wuwei
+  - key: climax
+    name_zh: 西巡留军驻守
+    labels:
+      zh:
+      - 留守京师
+    start_date: 1900-08
+    highlight_event_id: guji-荣禄-event-suxun
+  decisions:
+  - date: 1900-08
+    title_zh: 留武卫中军驻守京城
+    rationale: 随扈西巡后尚需兵力暂守都城
+events:
+- id: guji-荣禄-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  summary: 生日不详，原文未载。
+- id: guji-荣禄-event-death
+  event_type: death
+  date: ''
+  year_of: ''
+  summary: 卒年不详，原文未载。
+- id: guji-荣禄-event-qingjiao
+  event_type: endeavor
+  date: 1900-05
+  year_of: 1900
+  summary: 义和团事起，荣禄适在假中，七上章请剿，旨责以不得孟浪从事。
+- id: guji-荣禄-event-xuanyu
+  event_type: endeavor
+  date: 1900-06
+  year_of: 1900
+  summary: 朝廷欲令各使出京，太后命荣禄与立山、许景澄、联元赴使馆宣谕。
+- id: guji-荣禄-event-wuwei
+  event_type: endeavor
+  date: 1898
+  year_of: 1898
+  summary: 荣禄统武卫军，庚子间武卫中军驻京师。
+- id: guji-荣禄-event-suxun
+  event_type: endeavor
+  date: 1900-08-15
+  year_of: 1900
+  summary: 城陷之际荣禄策马带小队赶赴宁寿宫护驾，随即随扈西巡。
+- id: guji-荣禄-event-xixun
+  event_type: endeavor
+  date: 1900-08-16
+  year_of: 1900
+  summary: 定议西巡，端邸、荣相等随扈西行。

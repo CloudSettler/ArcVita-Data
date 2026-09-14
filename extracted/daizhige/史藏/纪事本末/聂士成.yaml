@@ -1,0 +1,108 @@
+person:
+  qid: guji-nie-shicheng
+  name_zh: 聂士成
+  names:
+    zh: 聂士成
+    en: Nie Shicheng
+  lifespan:
+    birth:
+      date: '1836'
+      precision: year
+      is_circa: true
+      raw: 约1836年
+    death:
+      date: '1900'
+      precision: year
+      is_circa: false
+      raw: 光绪二十六年（1900年）战殁于天津
+  birth_date: 约1836年
+  death_date: 1900年
+  era: 清朝晚期（光绪年间）
+  reign_ref: 光绪
+  archetype: 忠勇殉国的武将
+  dilemmas:
+  - 奉命弹压义和团却遭朝中主抚派掣肘，进退两难
+  - 护路与剿拳并举，腹背受敌，部众多溃散
+  lesson: 忠于职守者往往在内忧外患的夹缝中殒身，是非功过留待后人评说。
+  summary_first_person: 我是聂士成，光绪二十六年奉命率队弹压义和团、保护铁路。拳众与我军结仇，属下多溃散。其后天津战事起，我率军攻打紫竹林租界，力战阵亡，以身殉国。
+  source_urls:
+  - https://zh.wikisource.org/wiki/拳變紀略
+endeavors:
+- id: guji-nie-shicheng-endeavor-1
+  name_zh: 弹压义和团，保护路工
+  labels:
+    zh: 护路剿拳
+  phases:
+  - key: brewing
+    name_zh: 奉命弹压
+    labels:
+      zh: 奉命弹压
+    start_date: 1900-06
+    highlight_event_id: guji-nie-shicheng-event-suppression
+  - key: breakthrough
+    name_zh: 与拳众结仇
+    labels:
+      zh: 与拳众结仇
+    start_date: 1900-06
+    highlight_event_id: guji-nie-shicheng-event-clash
+  decisions:
+  - date: 1900-06
+    title_zh: 率队赴直隶弹压义和团、保护电杆铁路
+    rationale: 都中拳匪猖獗，毁电杆拆铁路，朝廷命其派队弹压，保护路工。
+- id: guji-nie-shicheng-endeavor-2
+  name_zh: 天津御侮，力战殉国
+  labels:
+    zh: 天津之战
+  phases:
+  - key: climax
+    name_zh: 攻紫竹林
+    labels:
+      zh: 攻紫竹林
+    start_date: 1900-07
+    highlight_event_id: guji-nie-shicheng-event-battle-tianjin
+  - key: closure
+    name_zh: 阵亡殉国
+    labels:
+      zh: 阵亡殉国
+    start_date: 1900-07
+    highlight_event_id: guji-nie-shicheng-event-death
+  decisions:
+  - date: 1900-07
+    title_zh: 率军进攻紫竹林租界
+    rationale: 津郡战事危急，身为提督当以御外侮为任，虽军多溃散仍力战不退。
+events:
+- id: guji-nie-shicheng-event-birth
+  date: '1836'
+  year_of: 1836
+  type: birth
+  name_zh: 聂士成出生（约）
+  labels:
+    zh: 出生
+- id: guji-nie-shicheng-event-suppression
+  date: 1900-06
+  year_of: 1900
+  type: endeavor
+  name_zh: 奉命派队弹压义和团，保护路工
+  labels:
+    zh: 弹压拳匪
+- id: guji-nie-shicheng-event-clash
+  date: 1900-06
+  year_of: 1900
+  type: endeavor
+  name_zh: 聂军与拳众相互杀伤，结仇，聂避居督署，军多溃
+  labels:
+    zh: 军民相仇
+- id: guji-nie-shicheng-event-battle-tianjin
+  date: 1900-07
+  year_of: 1900
+  type: endeavor
+  name_zh: 率军进攻天津紫竹林租界
+  labels:
+    zh: 攻紫竹林
+- id: guji-nie-shicheng-event-death
+  date: 1900-07
+  year_of: 1900
+  type: death
+  name_zh: 攻紫竹林时阵亡殉国
+  labels:
+    zh: 阵亡
