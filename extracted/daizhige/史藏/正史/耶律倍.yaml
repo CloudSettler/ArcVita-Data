@@ -1,0 +1,141 @@
+person:
+  qid: guji-耶律倍
+  name_zh: 耶律倍
+  names:
+    zh: 耶律倍
+    en: Yelü Bei
+  lifespan:
+    birth:
+      date: 899
+      precision: year
+      is_circa: true
+      raw: 约唐末生（辽史本传未详, 约阿保机长子）
+    death:
+      date: 937
+      precision: year
+      raw: 后唐末遇害
+  birth_date: 899
+  death_date: 937
+  era: 辽初（契丹—后唐之际）
+  reign_ref: 辽太祖耶律阿保机在位期间（907-926）
+  archetype: 让位之读书人皇王
+  dilemmas:
+  - 身为皇太子却为母后所疏，位与才难以两全
+  - 弃国投后唐以保性命与文化志趣
+  lesson: 长于文明而短于权斗，让位未必得全。
+  summary_first_person: 我是耶律倍，辽太祖长子，神册元年被立为皇太子。我通汉学、建孔庙之议，也奉兵略地。然母后属意弟尧骨，我遂让位，奔后唐避祸，终不得善终。
+  source_urls:
+  - https://zh.wikisource.org/wiki/遼史/卷001
+  - https://zh.wikisource.org/wiki/遼史/卷002
+endeavors:
+- id: guji-耶律倍-endeavor-1
+  name_zh: 立储与典军
+  labels:
+    zh:
+    - 皇太子
+    - 先锋统军
+  phases:
+  - key: brewing
+    name_zh: 立为皇太子
+    labels:
+      zh:
+      - 立储
+    start_date: 916
+    highlight_event_id: guji-耶律倍-event-1
+  - key: breakthrough
+    name_zh: 统先锋破乌古
+    labels:
+      zh:
+      - 破乌古
+    start_date: 925
+    highlight_event_id: guji-耶律倍-event-2
+  - key: climax
+    name_zh: 率师略地定州
+    labels:
+      zh:
+      - 南略定州
+    start_date: 926
+    highlight_event_id: guji-耶律倍-event-3
+  - key: closure
+    name_zh: 让位避祸
+    labels:
+      zh:
+      - 让位
+    start_date: 927
+  decisions:
+  - date: 916
+    title_zh: 受立皇太子
+    rationale: 太祖神册元年三月，立子倍为皇太子。
+  - date: 927
+    title_zh: 让位于弟尧骨
+    rationale: 母后应天皇后属意太宗尧骨，倍让位以避祸。
+- id: guji-耶律倍-endeavor-2
+  name_zh: 崇儒兴学
+  labels:
+    zh:
+    - 崇儒
+    - 建孔子庙
+  phases:
+  - key: brewing
+    name_zh: 助建孔庙
+    labels:
+      zh:
+      - 孔子庙
+    start_date: 918
+    highlight_event_id: guji-耶律倍-event-4
+  - key: breakthrough
+    name_zh: 谒庙行礼
+    labels:
+      zh:
+      - 分谒寺观
+    start_date: 925
+    highlight_event_id: guji-耶律倍-event-5
+  decisions:
+  - date: 918
+    title_zh: 建孔子庙
+    rationale: 神册三年五月诏建孔子庙、佛寺、道观，倍与有倡议之功。
+events:
+- id: guji-耶律倍-event-birth
+  date: 899
+  year_of: 899
+  title_zh: 耶律倍生
+  type: birth
+  actors:
+  - guji-耶律倍
+- id: guji-耶律倍-event-1
+  date: 916
+  year_of: 916
+  title_zh: 神册元年三月，立子倍为皇太子
+  type: appointment
+  source: 辽史·太祖纪上
+- id: guji-耶律倍-event-2
+  date: 925-10
+  year_of: 925
+  title_zh: 命皇太子将先锋军击破乌古部，俘获甚众
+  type: military
+  source: 辽史·太祖纪上（天赞四年冬十月丙午）
+- id: guji-耶律倍-event-3
+  date: 926-12
+  year_of: 926
+  title_zh: 皇太子率王郁略地定州
+  type: military
+  source: 辽史·太祖纪下（天赞五年十二月）
+- id: guji-耶律倍-event-4
+  date: 918-05
+  year_of: 918
+  title_zh: 诏建孔子庙、佛寺、道观
+  type: culture
+  source: 辽史·太祖纪上（神册三年五月乙亥）
+- id: guji-耶律倍-event-5
+  date: 925-08
+  year_of: 925
+  title_zh: 太祖谒孔子庙，命皇后、皇太子分谒寺观
+  type: ritual
+  source: 辽史·太祖纪下（天赞四年秋八月丁酉）
+- id: guji-耶律倍-event-death
+  date: 937
+  year_of: 937
+  title_zh: 耶律倍卒（后唐之际遇害）
+  type: death
+  actors:
+  - guji-耶律倍

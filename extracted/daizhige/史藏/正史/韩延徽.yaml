@@ -1,0 +1,201 @@
+person:
+  qid: guji-韩延徽
+  name_zh: 韩延徽
+  names:
+    zh: 韩延徽
+    en: Han Yanhui
+  lifespan:
+    birth:
+      date: 0882
+      precision: year
+      is_circa: true
+      raw: 据《辽史》本传卒年七十八逆推，约生于唐中和年间
+    death:
+      date: 0959
+      precision: year
+      is_circa: false
+      raw: 辽应历九年（959）卒，年七十八
+  birth_date: 0882
+  death_date: 0959
+  era: 唐末五代—辽初（契丹开国时期）
+  reign_ref: 历辽太祖、太宗、世宗、穆宗四朝；本卷所系事在太祖天显元年
+  archetype: 仕于北族王朝的汉地辅弼谋臣
+  dilemmas:
+  - 节与命——奉使契丹被拘，不拜则困辱、拜则失臣节
+  - 孝与忠——潜归后唐以怀乡，终又返辽以全知遇
+  - 华与夷——以汉地衣冠之臣佐契丹开基，济世之功与故国之思难两全
+  lesson: 在两难中先守其大者，才略终有施展之地；恩义与故土可以并存，唯须自择而自承。
+  summary_first_person: 吾字藏明，幽州安次人。初佐刘守光，奉使契丹见留，不拜而牧马，后以筹策见知，立参军事，攻党项、室韦多出吾谋。吾请树城郭、分市里以居汉民，定配偶、教垦艺，降人遂安。中间亡归后唐，复自念忘亲非孝、弃君非忠，毅然北还，太祖赐名匣列。天显元年从征渤海，与康默记同攻长岭府。其后历仕四朝，官至南面重臣，应历九年以寿终，年七十八。
+  source_urls:
+  - https://zh.wikisource.org/wiki/遼史/卷002
+  - https://zh.wikisource.org/wiki/遼史/卷075
+endeavors:
+- id: guji-韩延徽-endeavor-1
+  name_zh: 佐太祖经略，创置安辑汉民之制
+  phases:
+  - key: brewing
+    name_zh: 奉使被留
+    labels:
+      zh:
+      - 出使契丹
+      - 牧马之辱
+    start_date: 0911
+    highlight_event_id: guji-韩延徽-event-detained
+  - key: breakthrough
+    name_zh: 参谋军事
+    labels:
+      zh:
+      - 立命参军事
+      - 攻党项室韦运筹居多
+    start_date: 0912
+    highlight_event_id: guji-韩延徽-event-junshi
+  - key: climax
+    name_zh: 创汉城之制
+    labels:
+      zh:
+      - 树城郭分市里
+      - 定配偶教垦艺
+    start_date: 0916
+    highlight_event_id: guji-韩延徽-event-hancheng
+  - key: closure
+    name_zh: 复归赐名
+    labels:
+      zh:
+      - 匣列
+      - 君臣相得
+    start_date: 0922
+    highlight_event_id: guji-韩延徽-event-return-liao
+  decisions:
+  - date: 0911
+    title_zh: 不屈守节
+    rationale: 触怒太祖而甘受牧马之辱，以人臣之礼自持，终因才略见用
+  - date: 0916
+    title_zh: 请树城郭分市里以居汉民
+    rationale: 使降户定居耕织、定配偶，逃亡者少，契丹坐收耕织之利
+  - date: 0921
+    title_zh: 赋诗怀乡，亡归后唐
+    rationale: 慨然怀其乡里，孝亲之思难抑
+  - date: 0922
+    title_zh: 复返契丹
+    rationale: 自谓忘亲非孝、弃君非忠，念太祖知遇而毅然北还
+- id: guji-韩延徽-endeavor-2
+  name_zh: 从征渤海，位列四朝元辅
+  phases:
+  - key: brewing
+    name_zh: 随驾东征
+    labels:
+      zh:
+      - 左仆射
+      - 平渤海之役
+    start_date: 0925-12
+    highlight_event_id: guji-韩延徽-event-changling
+  - key: climax
+    name_zh: 兵指长岭
+    labels:
+      zh:
+      - 与康默记同将
+      - 攻长岭府
+    start_date: 0926-03
+    highlight_event_id: guji-韩延徽-event-changling
+  - key: closure
+    name_zh: 底定东陲
+    labels:
+      zh:
+      - 长岭府下
+      - 历仕四朝
+    start_date: 0926-08
+    highlight_event_id: guji-韩延徽-event-changling-fall
+  decisions:
+  - date: 0926
+    title_zh: 受命与康默记共攻长岭府
+    rationale: 渤海既降复叛，须并力略定诸府，以竟东征一统之功
+events:
+- id: guji-韩延徽-event-birth
+  type: birth
+  title_zh: 生于幽州安次
+  date: 0882
+  date_precision: year
+  is_circa: true
+  year_of: 882
+  description_zh: 字藏明，幽州安次人；据本传卒年七十八逆推，约生于唐末中和年间
+- id: guji-韩延徽-event-detained
+  type: milestone
+  title_zh: 奉使契丹，不拜被留
+  date: 0911
+  date_precision: year
+  is_circa: true
+  year_of: 911
+  endeavor_id: guji-韩延徽-endeavor-1
+  description_zh: 佐刘守光时奉使契丹，太祖怒其不屈而留之，命牧马于野；后召与语合上意
+  source_ref: 遼史卷七十五韩延徽传
+- id: guji-韩延徽-event-junshi
+  type: milestone
+  title_zh: 立命参军事，运筹诸部
+  date: 0912
+  date_precision: year
+  is_circa: true
+  year_of: 912
+  endeavor_id: guji-韩延徽-endeavor-1
+  description_zh: 以对策合太祖之意，立参军事；攻党项、室韦、服诸部落，筹画多出其手
+  source_ref: 遼史卷七十五韩延徽传
+- id: guji-韩延徽-event-hancheng
+  type: institution
+  title_zh: 请树城郭、分市里以居汉降之民
+  date: 0916
+  date_precision: year
+  is_circa: true
+  year_of: 916
+  endeavor_id: guji-韩延徽-endeavor-1
+  description_zh: 为汉人降户定配偶、教垦艺，民安其业而逃亡者少，遂为辽初汉制之基
+  source_ref: 遼史卷七十五韩延徽传
+- id: guji-韩延徽-event-escape
+  type: milestone
+  title_zh: 怀乡赋诗，亡归后唐
+  date: 0921
+  date_precision: year
+  is_circa: true
+  year_of: 921
+  endeavor_id: guji-韩延徽-endeavor-1
+  description_zh: 居之久，慨然怀其乡里，赋诗见意，遂潜归后唐
+  source_ref: 遼史卷七十五韩延徽传
+- id: guji-韩延徽-event-return-liao
+  type: milestone
+  title_zh: 复返契丹，太祖赐名匣列
+  date: 0922
+  date_precision: year
+  is_circa: true
+  year_of: 922
+  endeavor_id: guji-韩延徽-endeavor-1
+  description_zh: 自言忘亲非孝、弃君非忠，臣心在陛下；太祖大悦，赐名匣列，使参决中外事
+  source_ref: 遼史卷七十五韩延徽传
+- id: guji-韩延徽-event-changling
+  type: campaign
+  title_zh: 与康默记奉命攻长岭府
+  date: 0926-03
+  date_raw: 天显元年三月戊午
+  date_precision: month
+  is_circa: false
+  year_of: 926
+  endeavor_id: guji-韩延徽-endeavor-2
+  description_zh: 太祖亲征渤海，遣夷离毕康默记、左仆射韩延徽攻长岭府，本卷原文所系
+  source_ref: 遼史卷二太祖下
+- id: guji-韩延徽-event-changling-fall
+  type: campaign
+  title_zh: 长岭府克下
+  date: 0926-08
+  date_raw: 天显元年八月辛卯
+  date_precision: month
+  is_circa: false
+  year_of: 926
+  endeavor_id: guji-韩延徽-endeavor-2
+  description_zh: 太祖崩后，康默记等卒攻下长岭府，东征诸府略定
+  source_ref: 遼史卷二太祖下
+- id: guji-韩延徽-event-death
+  type: death
+  title_zh: 卒于相位，年七十八
+  date: 0959
+  date_precision: year
+  is_circa: false
+  year_of: 959
+  description_zh: 应历九年卒；历太祖、太宗、世宗、穆宗四朝，为辽初汉臣之冠
+  source_ref: 遼史卷七十五韩延徽传
