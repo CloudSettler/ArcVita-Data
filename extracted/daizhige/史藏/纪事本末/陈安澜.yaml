@@ -1,0 +1,97 @@
+person:
+  qid: guji-陈安澜
+  name_zh: 陈安澜
+  names:
+    zh: 陈安澜
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 清 咸丰年间
+  reign_ref: 咸丰
+  archetype: 地方团练士绅
+  dilemmas:
+  - 奉牒办团却遭会党仇视，求官兵而郡县不应，只能倾家自保
+  - 团练被诬为激变之源，忠而见谤
+  lesson: 在官府讳贼纵贼之际，士绅团练举家之力御寇，虽终不免焚劫，然其坚守可见乱世民间自救之难。
+  summary_first_person: 我是林洋垟富民陈安澜，奉县牒督办江南岸团练。会党金子蓉、陈丙式等忌我练团，拔旗树贼帜仇视于我。我诉于郡，郡遣罗敦樛获贼党郑步高，赵起遂纠众二千聚钱仓。我再请官兵助团，郡县皆不应。咸丰十年六月二十六日，贼劫焚林洋垟，陈氏谢氏被焚数千人。我复诉于郡，力请剿贼，又谋倾赀募台州船三十艘，令武举游飞鹏督行，与温氏团约水陆夹攻。十六日台船薄钱仓，贼仓猝四散，惜温氏误期，夹攻不成，贼反攻雷渎，温氏死难。其后高梁材等竟以激变坐罪陈氏，我忠而见谤，此时局之大悲也。
+endeavors:
+- id: guji-陈安澜-endeavor-1
+  name_zh: 受牒督办江南岸团练
+  phases:
+  - key: brewing
+    name_zh: 奉牒团练
+    labels:
+      zh:
+      - 士绅
+      - 团练
+    start_date: 1860-01-01
+    highlight_event_id: guji-陈安澜-event-organize
+  - key: climax
+    name_zh: 遭贼仇视与焚劫
+    labels:
+      zh:
+      - 冲突
+    start_date: 1860-06-26
+  decisions:
+  - date: 1860-01-01
+    title_zh: 奉县牒承办江南岸团练
+    rationale: 咸丰十年会党蔓延，奉官命团练自保乡里
+- id: guji-陈安澜-endeavor-2
+  name_zh: 募船夹攻金钱会
+  phases:
+  - key: breakthrough
+    name_zh: 倾赀募台船
+    labels:
+      zh:
+      - 御贼
+      - 募勇
+    start_date: 1860-08-09
+    highlight_event_id: guji-陈安澜-event-naval
+  - key: closure
+    name_zh: 夹攻功败垂成
+    labels:
+      zh:
+      - 挫折
+    start_date: 1860-08-16
+  decisions:
+  - date: 1860-08-09
+    title_zh: 倾赀募台州船三十艘水陆夹攻
+    rationale: 官府不肯拨兵，贼约期大举，惟有自力御贼
+events:
+- id: guji-陈安澜-event-organize
+  date: 1860-01-01
+  year_of: 1860
+  type: endeavor_start
+  title_zh: 陈安澜奉县牒团练江南岸，遭会党金子蓉、陈丙式等仇视拔旗
+  description: 贡生陈安澜受县牒团江南岸，林洋垟会党金子蓉、陈丙式等不利团练，纠党拔团练旗、树贼帜。
+  entities_hit:
+  - guji-陈安澜
+- id: guji-陈安澜-event-appeal
+  date: 1860-06-01
+  year_of: 1860
+  type: petition
+  title_zh: 陈安澜诉贼于郡并请求拨兵，郡县俱不省
+  description: 安澜诉金子蓉等仇团于郡，郡遣县丞罗敦樛获郑步高；又请官兵助民团，郡县皆不省。
+  entities_hit:
+  - guji-陈安澜
+- id: guji-陈安澜-event-burned
+  date: 1860-06-26
+  year_of: 1860
+  type: conflict
+  title_zh: 金钱会赵起纠众劫焚林洋垟，陈氏谢氏被焚
+  description: 赵起纠党二千余人，以六月二十六日劫林洋垟，焚陈氏及谢氏数千人，建旗鼓往来平阳城，官不敢问。
+  entities_hit:
+  - guji-陈安澜
+- id: guji-陈安澜-event-naval
+  date: 1860-08-16
+  year_of: 1860
+  type: battle
+  title_zh: 陈安澜募台州船三十艘薄钱仓，贼众仓猝四散
+  description: 安澜惧贼大举，倾赀募台州船三十艘，令武举游飞鹏督行，与温氏团约水陆夹攻。十六日船至钱仓，贼仓猝四散，勇上岸焚贼屋；惜温氏误期，夹攻不成。
+  entities_hit:
+  - guji-陈安澜
+  - 游飞鹏
+  - 赵起
