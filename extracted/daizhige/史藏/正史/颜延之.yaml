@@ -1,0 +1,90 @@
+person:
+  qid: guji-颜延之
+  name_zh: 颜延之
+  names:
+    zh: 颜延之
+    en: Yan Yanzhi
+  lifespan:
+    birth:
+      date: 0384
+      precision: year
+      is_circa: true
+      raw: 约东晋太元九年
+    death:
+      date: '0456'
+      precision: year
+      is_circa: true
+      raw: 约宋孝建三年
+  birth_date: 约384年
+  death_date: 约456年
+  era: 东晋末年至南朝宋（刘宋）
+  reign_ref: 宋文帝元嘉、宋孝武帝孝建年间
+  archetype: 文章礼乐之臣
+  dilemmas:
+  - 所撰郊祀哥诗须合古雅之体，而旧典散亡、音韵无识
+  - 时议郊庙乐制纷纭，同异之间须与朝议相权衡
+  lesson: 乱世典乐散逸之际，文人以辞章续礼乐之脉
+  summary_first_person: 我是颜延之，刘宋文帝元嘉二十二年南郊始设登哥，诏我以御史中丞之职造哥诗，以文辞承续郊祀雅乐。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋書/卷19·樂一
+endeavors:
+- id: guji-颜延之-endeavor-1
+  name_zh: 造郊祀登哥诗
+  phases:
+  - key: brewing
+    name_zh: 典乐渐备
+    labels:
+      zh:
+      - 元嘉修乐
+    start_date: '0436'
+    highlight_event_id: guji-颜延之-event-1
+  - key: climax
+    name_zh: 奉诏造哥
+    labels:
+      zh:
+      - 南郊登哥
+    start_date: '0445'
+    highlight_event_id: guji-颜延之-event-2
+  - key: closure
+    name_zh: 礼乐定制
+    labels:
+      zh:
+      - 孝建议乐
+    start_date: '0455'
+    highlight_event_id: guji-颜延之-event-3
+  decisions:
+  - date: '0445'
+    title_zh: 受诏撰南郊登哥诗
+    rationale: 元嘉二十二年南郊始设登哥，庙舞犹阙，奉诏以雅正之辞/config被之金石。
+  - date: '0455'
+    title_zh: 参与郊庙乐制之议
+    rationale: 孝建二年有司奏郊庙宜设备乐，内外博议，朝中乐议正定《凯容》《宣烈》之制。
+events:
+- id: guji-颜延之-event-birth
+  date: 0384
+  year_of: 384
+  type: birth
+  summary_zh: 颜延之生，约东晋太元年间。
+- id: guji-颜延之-event-death
+  date: '0456'
+  year_of: 456
+  type: death
+  summary_zh: 颜延之卒，约刘宋孝建三年。
+- id: guji-颜延之-event-1
+  date: '0436'
+  year_of: 436
+  type: endeavor
+  endeavor_id: guji-颜延之-endeavor-1
+  summary_zh: 元嘉年间太乐令更调金石、修备雅乐，为郊祀设乐奠定基础。
+- id: guji-颜延之-event-2
+  date: 0445-09
+  year_of: 445
+  type: endeavor
+  endeavor_id: guji-颜延之-endeavor-1
+  summary_zh: 元嘉二十二年南郊始设登哥，诏御史中丞颜延之造哥诗，庙舞犹阙。
+- id: guji-颜延之-event-3
+  date: '0455-09-15'
+  year_of: 455
+  type: endeavor
+  endeavor_id: guji-颜延之-endeavor-1
+  summary_zh: 孝建二年朝议郊庙备乐， hairs定《凯容》《宣烈》之舞及迎送神《肆夏》之仪，颜延之所造郊祀歌辞得以施行。

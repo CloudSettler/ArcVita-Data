@@ -1,0 +1,111 @@
+person:
+  qid: guji-沈庆之
+  name_zh: 沈庆之
+  names:
+    zh: 沈庆之
+    en: Shen Qingzhi
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 南朝宋
+  reign_ref: 宋文帝元嘉、孝武帝孝建
+  archetype: 名将
+  dilemmas:
+  - 边镇武将与中央权争之间的.position 取舍
+  lesson: 以军功起家，审时度势，归顺勤王则功勋卓著。
+  summary_first_person: 我沈庆之，以太子步兵校尉率军讨伐缘江诸蛮，后逢元凶弑逆，佐孝武帝即位，官至领军将军、镇北大将军，孝建年间大破叛将鲁爽，终位开府仪同三司。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋書/卷6
+endeavors:
+- id: guji-沈庆之-endeavor-1
+  name_zh: 讨伐缘江诸蛮
+  phases:
+  - key: brewing
+    name_zh: 受遣征蛮
+    labels:
+      zh:
+      - 太子步兵校尉
+    start_date: __元嘉年间
+    highlight_event_id: guji-沈庆之-event-1
+  - key: climax
+    name_zh: 总统众军
+    labels:
+      zh:
+      - 统军伐蛮
+    start_date: 449
+    highlight_event_id: guji-沈庆之-event-1
+  decisions:
+  - date: 449
+    title_zh: 奉命讨蛮
+    rationale: 太祖遣其讨缘江蛮寇，佐武陵王总统众军。
+- id: guji-沈庆之-endeavor-2
+  name_zh: 佐命勤王与平叛
+  phases:
+  - key: breakthrough
+    name_zh: 归义勤王
+    labels:
+      zh:
+      - 领军将军
+    start_date: 453
+    highlight_event_id: guji-沈庆之-event-2
+  - key: climax
+    name_zh: 平定鲁爽之叛
+    labels:
+      zh:
+      - 镇北将军
+    start_date: 454
+    highlight_event_id: guji-沈庆之-event-3
+  - key: closure
+    name_zh: 位极开府
+    labels:
+      zh:
+      - 左光禄大夫
+    start_date: 455
+    highlight_event_id: guji-沈庆之-event-4
+  decisions:
+  - date: 453
+    title_zh: 佐孝武帝讨元凶
+    rationale: 元凶弑逆，随刘骏举义入讨，功迁领军将军。
+  - date: 454
+    title_zh: 讨平鲁爽
+    rationale: 鲁爽等举兵反，庆之于历阳小岘大破之，斩爽。
+events:
+- id: guji-沈庆之-event-birth
+  type: birth
+  date: ''
+  year_of: 386
+  is_circa: true
+  summary: 生年不详。
+- id: guji-沈庆之-event-1
+  type: endeavor
+  date: 449
+  year_of: 449
+  endeavor_id: guji-沈庆之-endeavor-1
+  summary: 太祖遣太子步兵校尉沈庆之等讨缘江蛮，使武陵王刘骏总统众军。
+- id: guji-沈庆之-event-2
+  type: appointment
+  date: 453-05
+  year_of: 453
+  summary: 孝武帝即位后，以征虏将军沈庆之为领军将军。
+- id: guji-沈庆之-event-3
+  type: battle
+  date: 454-04
+  year_of: 454
+  endeavor_id: guji-沈庆之-endeavor-2
+  summary: 镇军将军、南兖州刺史沈庆之大破鲁爽于历阳之小岘，斩爽；旋进号镇北大将军。
+- id: guji-沈庆之-event-4
+  type: appointment
+  date: 455-02
+  year_of: 455
+  summary: 孝建二年，以镇北大将军、南兖州刺史沈庆之为左光禄大夫、开府仪同三司。
+- id: guji-沈庆之-event-death
+  type: death
+  date: ''
+  year_of: 465
+  is_circa: true
+  summary: 卒年据史载推约，本文未及。
