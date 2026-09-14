@@ -1,0 +1,98 @@
+person:
+  qid: guji-邹阳
+  name_zh: 邹阳
+  names:
+    zh: 邹阳
+    en: Zou Yang
+  lifespan:
+    birth:
+      date: -128
+      precision: decade
+      is_circa: true
+      raw: 汉文帝前后，生年不详
+  birth_date: '-0200'
+  death_date: ''
+  era: 西汉
+  reign_ref:
+  - 汉文帝
+  - 汉景帝
+  archetype: 辩士与忠谏之臣
+  dilemmas:
+  - - 进言以诚而不以口给
+  - - 知止与全身
+  lesson: 知心以说，尽忠款诚，胜于口辩之才
+  summary_first_person: 我本是齐人，游于梁孝王门下。因遭谗被下狱，我于狱中上书陈情，以辞喻理而获释。梁王欲为不平之事时，我又借规劝王长君而感悟梁王，使祸端不发。世人谓我能以言悟人，然我所恃者，知心与至诚而已。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷083
+endeavors:
+- id: guji-邹阳-endeavor-1
+  name_zh: 游梁为客
+  phases:
+  - key: brewing
+    name_zh: 客游 梁 孝王门下
+    labels:
+      zh:
+      - 文学侍从
+      - 梁园之客
+    start_date: -112
+  - key: breakthrough
+    name_zh: 狱中上书自明
+    labels:
+      zh:
+      - 下狱
+      - 上书陈情
+      - 白冤获释
+    start_date: -109
+    highlight_event_id: guji-邹阳-event-imprisonment
+  - key: climax
+    name_zh: 谏悟梁王以弭祸
+    labels:
+      zh:
+      - 悟长君
+      - 谏止阴谋
+      - 存梁全忠
+    start_date: -104
+    highlight_event_id: guji-邹阳-event-admonish
+  - key: closure
+    name_zh: 名存汉世说苑
+    labels:
+      zh:
+      - 文传后世
+      - 与枚乘并称
+    start_date: -101
+  decisions:
+  - date: -109
+    title_zh: 于狱中上书梁王自陈
+    rationale: 以辞婉理直之文剖白心迹，不作谄媚乞怜语，卒使梁王感悟而释之
+  - date: -104
+    title_zh: 从中为长君画策以悟梁王
+    rationale: 知梁王将有非分之举，遂借王长君之关系进言，以人伦利害讽喻，使梁王止而不为
+events:
+- id: guji-邹阳-event-imprisonment
+  date: -109
+  year_of: -155
+  type: career
+  person_id: guji-邹阳
+  name_zh: 遭谗下狱于梁
+  description: 邹阳在梁孝王门下遭人谗毁而下狱，狱中上书自陈忠悃，援史为喻，梁王读之感悟，出而释之，待为上客。
+- id: guji-邹阳-event-admonish
+  date: -104
+  year_of: -150
+  type: career
+  person_id: guji-邹阳
+  name_zh: 悟梁王 弭祸谏言
+  description: 梁王谋议不轨之际，邹阳借为王长君画策之机进言，以利害大义感悟梁王，使其罢议。世人称为"邹阳悟长君"，以其知心之术为说客典范。
+- id: guji-邹阳-event-birth
+  date: -128
+  year_of: 200
+  type: birth
+  person_id: guji-邹阳
+  name_zh: 邹阳出生
+  description: 邹阳，西汉齐人，史家推其约生于汉文帝前后。
+- id: guji-邹阳-event-death
+  date: -96
+  year_of: -140
+  type: death
+  person_id: guji-邹阳
+  name_zh: 邹阳卒（约）
+  description: 邹阳卒年史无明载，约在汉武帝初期，其狱中上书之文传于后世，与枚乘、严忌并称为梁园名士。
