@@ -1,0 +1,188 @@
+person:
+  qid: guji-kongbin
+  name_zh: 孔斌
+  names:
+    zh: 孔斌
+    en: Kong Bin
+  lifespan:
+    birth:
+      date: -176
+      precision: decade
+      is_circa: true
+      raw: 生年不详，约战国末期
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，约秦末
+  birth_date: 约前3世纪
+  death_date: 约秦末
+  era: 战国末期至秦
+  reign_ref: 魏安釐王在位期间仕魏为相
+  archetype: 乱世守道之宗室贤臣
+  dilemmas:
+  - 道义理想与魏王不能纳谏的现实的冲突
+  - 出仕济世与退隐全节的抉择
+  lesson: 士可仕则尽忠直言，不可仕则守道退隐
+  summary_first_person: 我是孔斌，字子顺，孔子六世孙。魏安釐王时我入魏为相，欲以尧舜之道匡正魏政，然王不得贤臣辅我，我谏多不用，遂称疾致仕。秦将攻魏时，我应该王之问直言秦虎狼不可与盟；魏亡后，我退居守志，不肯仕秦，与陈涉之世诸事相始终。
+  source_urls:
+  - https://ctext.org/kongcongzi/zh
+endeavors:
+- id: guji-kongbin-endeavor-1
+  person_qid: guji-kongbin
+  name_zh: 出仕魏国为相
+  labels:
+    zh:
+    - 相魏
+    - 陈谏
+  phases:
+  - key: brewing
+    name_zh: 受聘入魏
+    labels:
+      zh:
+      - 应聘
+      - 谒见魏王
+    start_date: -176
+    highlight_event_id: guji-kongbin-event-2
+  - key: breakthrough
+    name_zh: 为相陈义
+    labels:
+      zh:
+      - 举贤
+      - 直谏
+    start_date: -0259
+    highlight_event_id: guji-kongbin-event-3
+  - key: climax
+    name_zh: 谏而不听
+    labels:
+      zh:
+      - 议谏
+      - 王不听
+    start_date: -0258
+    highlight_event_id: guji-kongbin-event-4
+  - key: closure
+    name_zh: 称疾去相位
+    labels:
+      zh:
+      - 致仕
+    start_date: -175
+    highlight_event_id: guji-kongbin-event-5
+  decisions:
+  - date: -176
+    title_zh: 应魏王之聘入魏为相
+    rationale: 欲借此施展尧舜之道，以礼义匡正天下
+  - date: -175
+    title_zh: 谏言不用，称疾辞相
+    rationale: 王不能用贤臣之言，道不行，故退以全志
+- id: guji-kongbin-endeavor-2
+  person_qid: guji-kongbin
+  name_zh: 秦并天下后守道不仕
+  labels:
+    zh:
+    - 守节
+    - 拒仕
+  phases:
+  - key: brewing
+    name_zh: 秦兵临魏
+    labels:
+      zh:
+      - 议秦
+    start_date: -150
+    highlight_event_id: guji-kongbin-event-6
+  - key: climax
+    name_zh: 魏亡守志
+    labels:
+      zh:
+      - 不仕秦
+    start_date: -149
+    highlight_event_id: guji-kongbin-event-7
+  - key: closure
+    name_zh: 晚年归隐著述
+    labels:
+      zh:
+      - 传道
+    start_date: -136
+    highlight_event_id: guji-kongbin-event-8
+  decisions:
+  - date: -149
+    title_zh: 秦破魏后不肯仕秦
+    rationale: 守先人之道，不肯臣服虎狼之秦
+events:
+- id: guji-kongbin-event-1
+  person_qid: guji-kongbin
+  type: birth
+  name_zh: 孔斌生
+  date: -176
+  year_of: -176
+  is_circa: true
+  description_zh: 孔斌（子顺）生，为孔子六世孙，魏相孔顺之后。
+- id: guji-kongbin-event-2
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-1
+  name_zh: 魏王遣使聘请孔斌
+  date: -176
+  year_of: -176
+  is_circa: true
+  description_zh: 魏安釐王以孔斌为孔子之后、贤而有德，遣使者持金币聘之为相。
+- id: guji-kongbin-event-3
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-1
+  name_zh: 孔斌为相，整饬朝政
+  date: -0259
+  year_of: -0259
+  is_circa: true
+  description_zh: 孔斌相魏，黜嬖幸、举贤才，欲以礼义兴魏，然所举者多为嬖臣所阻。
+- id: guji-kongbin-event-4
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-1
+  name_zh: 建言不用
+  date: -0258
+  year_of: -0258
+  is_circa: true
+  description_zh: 孔斌屡谏于魏王，言咊纵约、用贤之道，然王与嬖臣不用其言，谋不见从。
+- id: guji-kongbin-event-5
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-1
+  name_zh: 称疾致仕
+  date: -175
+  year_of: -175
+  is_circa: true
+  description_zh: 孔斌见志不能行，喟然叹曰“吾道不行”，遂称病辞去相位，退居于寝。
+- id: guji-kongbin-event-6
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-2
+  name_zh: 论秦虎狼不可亲
+  date: -150
+  year_of: -150
+  is_circa: true
+  description_zh: 秦兵日迫，魏人或议与秦和，孔斌直言秦为虎狼之国，不可与之盟好。
+- id: guji-kongbin-event-7
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-2
+  name_zh: 魏亡不仕秦
+  date: -149
+  year_of: -149
+  is_circa: true
+  description_zh: 秦灭魏，孔斌不仕于秦，退而守其家学.
+- id: guji-kongbin-event-8
+  person_qid: guji-kongbin
+  type: endeavor
+  endeavor_id: guji-kongbin-endeavor-2
+  name_zh: 游居陈 wodłow．留
+  date: -136
+  year_of: -136
+  is_circa: true
+  description_zh: 秦末天下乱，孔斌游居陈下，传道授学，其后事迹不见于经传。
+- id: guji-kongbin-event-9
+  person_qid: guji-kongbin
+  type: death
+  name_zh: 孔斌卒
+  date: -0208
+  year_of: -0208
+  is_circa: true
+  description_zh: 孔斌卒于陈下，年岁不详。
