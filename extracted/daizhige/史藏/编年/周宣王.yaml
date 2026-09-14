@@ -1,0 +1,164 @@
+person:
+  qid: guji-周宣王
+  name_zh: 周宣王
+  names:
+    zh: 周宣王
+    en: King Xuan of Zhou
+  lifespan:
+    birth:
+      date: -827
+      precision: year
+      is_circa: true
+      raw: 宣王元年甲戌春正月王即位
+  birth_date: -827
+  death_date: -782
+  era: 西周
+  reign_ref: 宣王元年甲戌至四十六年（约前827—前782）在位四十六年
+  archetype: 中兴之主
+  dilemmas:
+  - 厉王流彘之后拨乱中兴，复文武成康之政，然晚年师败于戎、诸侯不睦
+  - 废长立少导致鲁国内乱（立鲁世子戏，致使伯御弑君）
+  - 丧南国之师后料民于太原，违仲山甫之谏
+  lesson: 宣王承厉王之烈，内有拨乱之志，遇灾而惧，中兴周室；然大旱祈禳、偏听杀杜伯、千亩之败，皆见王德渐衰、盛极难继之戒。
+  summary_first_person: 厉王死于彘后，周公召公立我为王。即位之初，二相辅政，修文武成康之遗风，复田赋、作戎车，命尹吉甫北伐玁狁、方叔南征荆蛮、召穆公平淮夷，诸侯复宗周，女有中兴之名。然我晚岁师败于千亩、杀杜伯招祟，料民违谏，王政终衰。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=960781 竹书统笺卷九
+endeavors:
+- id: guji-周宣王-endeavor-1
+  name_zh: 拨乱中兴与四方征伐
+  phases:
+  - key: brewing
+    name_zh: 即位辅政
+    labels:
+      zh: 二相辅政
+    start_date: -827
+    highlight_event_id: guji-周宣王-event-accession
+  - key: breakthrough
+    name_zh: 北伐南征
+    labels:
+      zh: 六年征伐
+    start_date: -822
+    highlight_event_id: guji-周宣王-event-yinjinfu-xianyun
+  - key: climax
+    name_zh: 会诸侯东都
+    labels:
+      zh: 复会诸侯
+    start_date: -815
+    highlight_event_id: guji-周宣王-event-duhou-assembly
+  - key: closure
+    name_zh: 千亩之败与晚衰
+    labels:
+      zh: 王师败绩
+    start_date: -793
+    highlight_event_id: guji-周宣王-event-qianmu-defeat
+  decisions:
+  - date: -827
+    title_zh: 复田赋作戎车
+    rationale: 厉王奔彘后田赋废弛，宣王即位修政法文武成康之遗风而复之
+  - date: -791
+    title_zh: 立鲁世子戏
+    rationale: 樊仲山甫谏立少致乱而不听，卒致伯御弑君，周室自是 多不睦
+- id: guji-周宣王-endeavor-2
+  name_zh: 遇灾修省与封赏诸侯
+  phases:
+  - key: brewing
+    name_zh: 大旱祷于郊庙
+    labels:
+      zh: 遇灾而惧
+    start_date: -803
+    highlight_event_id: guji-周宣王-event-drought
+  - key: breakthrough
+    name_zh: 建国亲诸侯
+    labels:
+      zh: 锡命嘉赏
+    start_date: -801
+    highlight_event_id: guji-周宣王-event-shenbo
+  - key: closure
+    name_zh: 不借千亩料民
+    labels:
+      zh: 弃农讲武
+    start_date: -797
+    highlight_event_id: guji-周宣王-event-liaomin
+  decisions:
+  - date: -797
+    title_zh: 初不借千亩
+    rationale: 周语称宣王即位不借千亩，虢文公谏不可，王弗听
+  - date: -788
+    title_zh: 料民于太原
+    rationale: 丧南国之师，欲料 民 而知多少，仲山甫谏民不可料，王卒料之
+events:
+- id: guji-周宣王-event-birth
+  date: -827
+  year_of: -827
+  event_type: birth
+  name_zh: 周公召公立太子靖为王
+  description: 共伯和归国，周定公召穆公立厉王太子靖为王，是为宣王，正月即位
+- id: guji-周宣王-event-accession
+  date: -827
+  year_of: -827
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 宣王元年即位，二相辅政
+  description: 春正月王即位，周定公召穆公辅政，复田赋作戎车
+- id: guji-周宣王-event-yinjinfu-xianyun
+  date: -822
+  year_of: -822
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 尹吉甫伐玁狁至于太原
+  description: 五年夏六月尹吉甫帅师伐玁狁至于太原；秋八月方叔伐荆蛮，六年召穆公伐淮夷、王亲伐徐戎
+- id: guji-周宣王-event-shenbo
+  date: -801
+  year_of: -801
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-2
+  name_zh: 王锡申伯命并命仲山甫城齐
+  description: 七年王锡申伯命式是南邦，命樊侯仲山甫城齐（迁临淄）
+- id: guji-周宣王-event-duhou-assembly
+  date: -815
+  year_of: -815
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 王会诸侯于东都遂狩于甫
+  description: 九年王会诸侯于东都，复文武之竟土，因田猎而选车徒
+- id: guji-周宣王-event-drought
+  date: -803
+  year_of: -803
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-2
+  name_zh: 大旱祷于郊庙遂雨
+  description: 二十五年大旱，王祷于郊庙，宣王遇灾而惧，作云汉之诗
+- id: guji-周宣王-event-liaomin
+  date: -788
+  year_of: -788
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-2
+  name_zh: 料民于太原
+  description: 四十年宣王既丧南国之师乃料民于太原，仲山甫谏而不听
+- id: guji-周宣王-event-shabo-itini
+  date: -793
+  year_of: -793
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 王师伐太原之戎不克
+  description: 三十三年王师伐太原之戎不克，自是王师数败
+- id: guji-周宣王-event-du-bo-execution
+  date: -785
+  year_of: -785
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 王杀大夫杜伯
+  description: 四十三年信女鸠之谮杀大夫杜伯，左儒争之不得而死，杜伯子隰叔奔晋
+- id: guji-周宣王-event-qianmu-defeat
+  date: -789
+  year_of: -789
+  event_type: event
+  endeavor_id: guji-周宣王-endeavor-1
+  name_zh: 千亩之战王师败绩
+  description: 三十九年王师伐姜戎战于千亩，王师败逋
+- id: guji-周宣王-event-death
+  date: -782
+  year_of: -782
+  event_type: death
+  name_zh: 王陟
+  description: 四十六年宣王崩于镐（周语云杜伯射王于镐），子幽王宫涅立

@@ -1,0 +1,183 @@
+person:
+  qid: guji-周武王
+  name_zh: 周武王
+  names:
+    zh: 周武王
+    en: King Wu of Zhou
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 商末周初
+  reign_ref: 周武王元年（商帝辛四十二年）
+  archetype: 开国之君
+  dilemmas:
+  - 以臣伐君，是否伐纣
+  - 克商后如何处置殷遗与武庚
+  lesson: 顺天应人、慎待时机，伐罪吊民而后天下归心
+  summary_first_person: 我是周武王姬发，文王之子。我受命继志，会八百诸侯于盟津而不轻发，待纣杀比干、囚箕子，方始伐殷，战于牧野，亲禽纣于南单之台。克商之后，我立武庚以守殷祀，命三监以监殷民，大封诸侯，迁九鼎于洛，作大武之乐，遂定天下，都于镐。
+endeavors:
+- id: guji-周武王-endeavor-1
+  name_zh: 伐纣克商
+  phases:
+  - key: brewing
+    name_zh: 观兵盟津
+    labels:
+      zh:
+      - 会盟诸侯
+      - 观衅而退
+    start_date: -1057
+    highlight_event_id: guji-周武王-event-mengjin
+  - key: breakthrough
+    name_zh: 牧野之战
+    labels:
+      zh:
+      - 甲子誓师
+      - 败纣于坶野
+    start_date: -1046
+    highlight_event_id: guji-周武王-event-muye
+  - key: climax
+    name_zh: 定鼎安殷
+    labels:
+      zh:
+      - 立武庚
+      - 命监殷
+    start_date: -1046
+    highlight_event_id: guji-周武王-event-jianyin
+  - key: closure
+    name_zh: 大封诸侯
+    labels:
+      zh:
+      - 封邦建国
+      - 迁九鼎
+    start_date: -1045
+    highlight_event_id: guji-周武王-event-fenghou
+  decisions:
+  - date: -1057
+    title: 渡盟津而还
+    rationale: 诸侯佥同而纣未可伐，示弱以俟时
+  - date: -1046
+    title: 始伐殷
+    rationale: 纣杀比干、囚箕子，微子出奔，天命人心俱去
+  - date: -1046
+    title: 立武庚禄父
+    rationale: 以奉殷先祀勿绝，安抚殷遗
+- id: guji-周武王-endeavor-2
+  name_zh: 制礼作乐与封建
+  phases:
+  - key: brewing
+    name_zh: 受丹书之戒
+    labels:
+      zh:
+      - 问道吕尚
+      - 席端为戒
+    start_date: -1059
+    highlight_event_id: guji-周武王-event-danshu
+  - key: breakthrough
+    name_zh: 作大武乐
+    labels:
+      zh:
+      - 祀于周庙
+      - 六成告武成
+    start_date: -1045
+    highlight_event_id: guji-周武王-event-dawu
+  - key: climax
+    name_zh: 大封诸侯
+    labels:
+      zh:
+      - 褒封先圣之后
+      - 师尚父首封于齐
+    start_date: -1045
+    highlight_event_id: guji-周武王-event-fenghou
+  - key: closure
+    name_zh: 巡狩迁鼎
+    labels:
+      zh:
+      - 初狩方岳
+      - 迁九鼎于洛
+    start_date: -1043
+    highlight_event_id: guji-周武王-event-jiuding
+  decisions:
+  - date: -1045
+    title: 大封诸侯
+    rationale: 褒封神农黄帝尧舜禹之后，功臣谋士以次受封，广树屏藩
+  - date: -1043
+    title: 迁九鼎于洛
+    rationale: 定天下之象，示周之有天下的确据
+events:
+- id: guji-周武王-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  title: 周武王生
+  detail: 竹书未载其生年，云季歴十三世之后而生发，文王既没，太子发代立。
+- id: guji-周武王-event-danshu
+  date: -1059
+  year_of: 帝辛四十二年
+  type: endeavor
+  title: 西伯发受丹书于吕尚
+  detail: 武王践阼，问道于师尚父，受丹书之言，敬胜怠者吉，退而为戒书于席四端。
+- id: guji-周武王-event-mengjin
+  date: -1057
+  year_of: 帝辛五十一年
+  type: endeavor
+  title: 周师渡盟津而还
+  detail: 冬十一月戊子，周师渡盟津，八百诸侯不期而会，咸曰纣可伐，武王不从，乃还。
+- id: guji-周武王-event-qilizi
+  date: -1056
+  year_of: 帝辛五十二年
+  type: event
+  title: 囚箕子、杀比干
+  detail: 王囚箕子，杀王子比干，微子出奔，殷之贤人尽去。
+- id: guji-周武王-event-faqin
+  date: -1046
+  year_of: 武王十一年（帝辛五十二年）
+  type: endeavor
+  title: 周始伐殷
+  detail: 五十二年庚寅，周始伐殷，秋师次于鲜原，冬十二月有事于上帝，庸蜀髳微卢彭濮从周师伐殷。
+- id: guji-周武王-event-muye
+  date: -1046
+  year_of: 武王十二年辛卯
+  type: endeavor
+  title: 败纣于牧野，亲禽纣
+  detail: 王率西夷诸侯伐殷，败之于坶野，王亲禽纣于南单之台，遂分天之明。
+- id: guji-周武王-event-lixuwgen
+  date: -1046
+  year_of: 武王十二年
+  type: event
+  title: 立武庚、命监殷
+  detail: 立受子禄父是为武庚，以守殷祀；分殷畿内为邶鄘卫，命管叔蔡叔霍叔监殷民。
+- id: guji-周武王-event-dawu
+  date: -1045
+  year_of: 武王十二年夏四月
+  type: endeavor
+  title: 祀太庙作大武乐
+  detail: 夏四月王归于丰，飨于太庙，作大武乐，以象克商之功成。
+- id: guji-周武王-event-fenghou
+  date: -1045
+  year_of: 武王十三年
+  type: endeavor
+  title: 大封诸侯
+  detail: 荐殷于太庙，遂大封诸侯，封师尚父于齐、周公于鲁、召公于燕，兄弟之国十五，姬姓之国四十。
+- id: guji-周武王-event-jinTeng
+  date: -1044
+  year_of: 武王十四年
+  type: event
+  title: 王有疾，周公祷于坛墠作金縢
+  detail: 王有疾弗豫，周文公植璧秉珪，告太王王季文王，请以旦代某之身，作金縢。
+- id: guji-周武王-event-jiuding
+  date: -1043
+  year_of: 武王十五年冬
+  type: endeavor
+  title: 初狩方岳，迁九鼎于洛
+  detail: 初狩方岳，诰于沬邑；冬迁九鼎于洛邑，示周受天命而有天下。
+- id: guji-周武王-event-death
+  date: ''
+  year_of: ''
+  type: death
+  title: 周武王崩
+  detail: 竹书统笺所引未载武王崩年与寿数。

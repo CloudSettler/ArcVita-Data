@@ -1,0 +1,126 @@
+person:
+  qid: guji-傅说
+  name_zh: 傅说
+  names:
+    zh: 傅说
+    en: Fu Yue
+  lifespan:
+    birth:
+      date: -1270
+      precision: year
+      is_circa: true
+      raw: 约殷武丁时期，生年不详，约前13世纪
+    death:
+      date: -1200
+      precision: year
+      is_circa: true
+  birth_date: -1270
+  death_date: -1200
+  era: 商代殷墟时期
+  reign_ref: 武丁（卷六：武丁【元丁未在位五十九年】）
+  archetype: 贤相
+  dilemmas:
+  - 身为版筑刑徒，能否以布衣之身佐王治国
+  - 得遇明主之前隐姓埋名于傅岩，守节待时还是出仕避祸
+  lesson: 贤才不问出身，主圣则臣直，遇合而后大业成。
+  summary_first_person: 我本是傅岩之间服刑筑墙的胥靡，因武丁梦得圣而得名，举为相，佐王修政行德，殷国大治，成商之中兴。
+  source_urls:
+  - https://www.ctext.org/wiki.pl?if=gb&chapter=429095&remap=gb
+endeavors:
+- id: guji-傅说-endeavor-1
+  title_zh: 傅岩版筑，藏器待时
+  phases:
+  - key: brewing
+    name_zh: 胥靡筑城
+    labels:
+      zh:
+      - 坎坷
+      - 待时
+    start_date: -1255
+    highlight_event_id: guji-傅说-event-2
+  decisions:
+  - date: -1255
+    title_zh: 隐于傅岩，操版筑之业
+    rationale: 世乱无主，宁为刑徒守拙，以待明主。
+- id: guji-傅说-endeavor-2
+  title_zh: 为相佐武丁，成殷中兴
+  phases:
+  - key: breakthrough
+    name_zh: 梦得举相
+    labels:
+      zh:
+      - 遇合
+      - 荣升
+    start_date: -1250
+    highlight_event_id: guji-傅说-event-3
+  - key: climax
+    name_zh: 辅政致治
+    labels:
+      zh:
+      - 中兴
+      - 知遇
+    start_date: -1249
+    highlight_event_id: guji-傅说-event-4
+  - key: closure
+    name_zh: 卒于相位
+    labels:
+      zh:
+      - 善终
+    start_date: -1205
+    highlight_event_id: guji-傅说-event-death
+  decisions:
+  - date: -1250
+    title_zh: 应武丁之征，出为宰相
+    rationale: 主圣梦求，历象 consultar百官而验，可谓遇明主，遂出仕尽忠。
+  - date: -1249
+    title_zh: 陈《说命》之言，谏王纳诲
+    rationale: 以"非知之艰，行之惟艰"警醒君心，辅弼修德。
+events:
+- id: guji-傅说-event-birth
+  event_type: birth
+  date: -1270
+  year_of: -1270
+  date_raw: 约殷武丁之前，生年无考
+  labels:
+    zh:
+    - 生辰
+  description_zh: 傅说生，生年史无明文，约为商代晚期。
+- id: guji-傅说-event-2
+  event_type: endeavor
+  date: -1255
+  year_of: -1255
+  date_raw: 武丁初年，隐于傅岩
+  labels:
+    zh:
+    - 坎坷
+    - 藏锋
+  description_zh: 傅说为胥靡，在虞、虢之界傅岩险隘之地操版筑以供食，身怀经世之才而隐于刑徒筑城之间。
+- id: guji-傅说-event-3
+  event_type: endeavor
+  date: -1250
+  year_of: -1250
+  date_raw: 武丁梦得圣
+  labels:
+    zh:
+    - 遇合
+    - 荣升
+  description_zh: 武丁恭默思道，梦帝赉良弼，以梦象求解，百官莫得，访诸傅岩而得傅说，举以为相。
+- id: guji-傅说-event-4
+  event_type: endeavor
+  date: -1245
+  year_of: -1245
+  date_raw: 武丁之世
+  labels:
+    zh:
+    - 中兴
+    - 知遇
+  description_zh: 傅说为相，朝夕纳诲，佐武丁修政行德，殷国大治，武丁在位五十九年，成殷道中兴之局。
+- id: guji-傅说-event-death
+  event_type: death
+  date: -1200
+  year_of: -1200
+  date_raw: 约武丁末年，卒年无考
+  labels:
+    zh:
+    - 终年
+  description_zh: 傅说卒于相位，卒年史无明文，后世傅说为殷之贤相典范。
