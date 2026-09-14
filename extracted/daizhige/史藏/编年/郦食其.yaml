@@ -1,0 +1,116 @@
+person:
+  qid: guji-郦食其
+  name_zh: 郦食其
+  names:
+    zh: 郦食其
+    en: Li Yiji
+  era: 秦末汉初
+  reign_ref: 汉王刘邦（汉元年—汉四年）
+  archetype: 辩士谋臣
+  dilemmas:
+  - 说齐已下而韩信袭齐，被疑卖己，遭烹杀
+  lesson: 游说之功可抵数十万兵，然无实力背书则功成身危
+  summary_first_person: 我是郦食其，楚汉之际著名的说客。楚汉相争时我向汉王献策，力主急取荥阳、据敖仓之粟，塞成皋之险，以形制之势定天下所归。其后燕赵已定，惟齐未下，我自请奉诏说齐王田广与相国田横，使齐七十馀城不战而下，为汉东藩。不料韩信乘我方说降齐国之机，袭破齐历下军；田广田横以为我卖己，遂烹杀了我。我以一介儒生之口，下齐七十馀城，终以身殉。
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      date: -203
+      precision: month
+      is_circa: false
+      raw: 汉四年冬十月（前203）被田广烹杀
+  birth_date: ''
+  death_date: '-203'
+endeavors:
+- id: guji-郦食其-endeavor-1
+  name_zh: 献策据敖仓定形制之势
+  labels:
+    zh:
+    - 谋略
+    - 楚汉相争
+  phases:
+  - key: brewing
+    name_zh: 楚汉相距荥阳成皋，汉数困
+    labels:
+      zh:
+      - 困境
+    start_date: -204
+    highlight_event_id: guji-郦食其-event-aocang
+  - key: breakthrough
+    name_zh: 进言收取荥阳据敖仓之粟
+    labels:
+      zh:
+      - 献策
+    start_date: -204-08
+    highlight_event_id: guji-郦食其-event-aocang
+  - key: closure
+    name_zh: 汉王从其计，谋取敖仓
+    labels:
+      zh:
+      - 成效
+    start_date: -204-08
+    highlight_event_id: guji-郦食其-event-aocang
+  decisions:
+  - date: -204-08
+    title_zh: 说汉王急复进兵收取荥阳、据敖庾之粟
+    rationale: 敖仓天下转输已久，藏粟甚多；据敖仓、塞成皋、杜太行之道，示诸侯形制之势，则天下知所归
+- id: guji-郦食其-endeavor-2
+  name_zh: 说降齐国为汉东藩
+  labels:
+    zh:
+    - 游说
+    - 外交
+  phases:
+  - key: brewing
+    name_zh: 燕赵已定，惟齐未下
+    labels:
+      zh:
+      - 形势
+    start_date: -204-08
+    highlight_event_id: guji-郦食其-event-shuoqi
+  - key: climax
+    name_zh: 自请奉行明诏说齐王广及相国横
+    labels:
+      zh:
+      - 出使
+    start_date: -204-08
+    highlight_event_id: guji-郦食其-event-shuoqi
+  - key: closure
+    name_zh: 韩信袭齐，田广以为卖己而烹之
+    labels:
+      zh:
+      - 殉身
+    start_date: -203-10
+    highlight_event_id: guji-郦食其-event-death
+  decisions:
+  - date: -204-08
+    title_zh: 请奉明诏说齐王田广使为汉称东藩
+    rationale: 田广据千里之齐、军二十万于历下，齐人多变诈，虽遣数十万师未可以岁月破；以口舌下之为上策
+events:
+- id: guji-郦食其-event-aocang
+  date: -204-08
+  year_of: -204
+  title_zh: 说汉王急取荥阳，据敖仓之粟，塞成皋之险
+  description: 汉数困于荥阳成皋，欲捐成皋东屯巩雒。郦食其进言敖仓藏粟甚多，急复进兵收取荥阳、据敖庾之粟、塞成皋之险、杜太行之道、距飞狐之口、守白马之津，以示诸侯形制之势，则天下知所归。汉王从之，乃谋取敖仓。
+  participants:
+  - guji-郦食其
+  location_zh: 荥阳·敖仓
+- id: guji-郦食其-event-shuoqi
+  date: -204-08
+  year_of: -204
+  title_zh: 奉诏使说齐王田广及相国田横
+  description: 郦食其又说汉王：方今燕赵已定，惟齐未下；田广据千里之齐，将二十万众军历下，齐人多变诈，虽数十万师未可岁月破，请奉明诏说齐王使为汉称东藩。王曰善，乃使食其说齐王广及相国横。
+  participants:
+  - guji-郦食其
+  location_zh: 历下·临淄
+- id: guji-郦食其-event-death
+  date: -203-10
+  year_of: -203
+  title_zh: 韩信袭破齐历下军，郦食其被田广烹杀
+  description: 四年冬十月，韩信袭破齐历下军，入临菑。齐王田广、相国田横以为郦食其卖己，遂烹杀之；田广东走高密，田横走博。
+  participants:
+  - guji-郦食其
+  location_zh: 临菑
