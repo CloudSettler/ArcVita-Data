@@ -1,0 +1,113 @@
+person:
+  qid: guji-鄂尔泰
+  name_zh: 鄂尔泰
+  names:
+    zh: 鄂尔泰
+    en: Ortai
+  lifespan:
+    birth:
+      date: 1677-05-05
+      precision: year
+      is_circa: true
+      raw: 康熙十六年
+    death:
+      date: 1745
+      precision: year
+      is_circa: false
+      raw: 乾隆十年
+  birth_date: 1677-05-05
+  death_date: 1745
+  era: 清代康熙、雍正、乾隆三朝
+  reign_ref: 雍正
+  archetype: 改土归流的名臣能吏
+  dilemmas:
+  - 改土归流：以激烈手段废除西南土司世袭统治，求长远治理而冒当下之乱
+  - 理财亏空：藩库归补款项之责与因公动支之间的权衡
+  lesson: 治事须循名责实、据实无隐，方能成久安之政
+  summary_first_person: 我鄂尔泰出仕三朝，蒙雍正帝知遇，任云贵总督推行改土归流，废土司设郡县，后入阁拜相，主持国会典章，以实在勤恳为立身之本。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史稿/卷288
+endeavors:
+- id: guji-鄂尔泰-endeavor-1
+  key: brewing
+  name_zh: 早期仕途与知遇
+  labels:
+    zh: 早期仕途与知遇
+  start_date: 1700-01-01
+  highlight_event_id: guji-鄂尔泰-event-breakthrough
+  decisions:
+  - date: 1725-01-01
+    title_zh: 受雍正知遇出任封疆
+    rationale: 以务实敢言之才获破格擢用，由内廷词臣转任地方督抚
+- id: guji-鄂尔泰-endeavor-2
+  key: breakthrough
+  name_zh: 西南改土归流
+  labels:
+    zh: 西南改土归流
+  start_date: 1726-01-01
+  highlight_event_id: guji-鄂尔泰-event-climax
+  decisions:
+  - date: 1726-05-01
+    title_zh: 奏请改土归流
+    rationale: 土司世袭虐民、劫掠相邻，非废世袭设流官不能久安
+  - date: 1730-01-01
+    title_zh: 平定乌蒙诸乱
+    rationale: 改流激起土目反抗，以果断用兵巩固流官治理
+- id: guji-鄂尔泰-endeavor-3
+  key: climax
+  name_zh: 入阁辅政
+  labels:
+    zh: 入阁辅政
+  start_date: 1730-01-01
+  highlight_event_id: guji-鄂尔泰-event-closure
+  decisions:
+  - date: 1732-01-01
+    title_zh: 参预军机、经略西北
+    rationale: 通筹军政钱粮，协助雍正、乾隆部署西北用兵
+- id: guji-鄂尔泰-endeavor-4
+  key: closure
+  name_zh: 乾隆朝领班军机与身后风波
+  labels:
+    zh: 死后追论
+  start_date: 1736-01-01
+  decisions:
+  - date: 1745-01-01
+    title_zh: 病逝于任
+    rationale: 位至大学士军机大臣，谥文端，配享太庙
+events:
+- id: guji-鄂尔泰-event-birth
+  date: 1677-05-05
+  year_of: 1677
+  type: birth
+  title_zh: 鄂尔泰生于满洲镶蓝旗西林觉罗氏之家
+  description: 出身官宦世家，康熙十六年生。
+- id: guji-鄂尔泰-event-breakthrough
+  date: 1725-03-15
+  year_of: 1725
+  type: appointment
+  title_zh: 迁云南布政使，开始主政西南
+  description: 雍正三年擢云南布政使，旋profess升总督，得雍正常密谕倚任，与田文镜、李卫并称三大模范督抚。
+  related_endeavors:
+  - guji-鄂尔泰-endeavor-1
+  - guji-鄂尔泰-endeavor-2
+- id: guji-鄂尔泰-event-climax
+  date: 1730-11-01
+  year_of: 1730
+  type: policy
+  title_zh: 改土归流大功告成
+  description: 先后平定乌蒙、镇沅等处土司叛乱，西南三省废土司、设府州县、编户籍、兴学校，雍正特授一等伯。
+- id: guji-鄂尔泰-event-death
+  date: 1745-04-24
+  year_of: 1745
+  type: death
+  title_zh: 鄂尔泰病逝
+  description: 乾隆十年卒于大学士任，谥文端，配享太庙；乾隆二十年坐胡中藻案撤出贤良祠。
+- id: guji-鄂尔泰-event-closure
+  date: 1745-04-24
+  year_of: 1745
+  type: memorial
+  title_zh: 一等襄勤伯
+  label_zh: 配享太庙
+  related_endeavors:
+  - guji-鄂尔泰-endeavor-4
+  date_note: 卒后恤典

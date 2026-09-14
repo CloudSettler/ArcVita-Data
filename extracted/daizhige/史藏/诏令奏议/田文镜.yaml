@@ -1,0 +1,98 @@
+person:
+  qid: guji-范时绎
+  name_zh: 范时绎
+  names:
+    zh: 范时绎
+    en: Fan Shiyi
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      precision: unknown
+      is_circa: false
+  era: 清雍正年间
+  reign_ref: 雍正
+  archetype: 署理封疆的武职总督
+  dilemmas:
+  - 署理两江重任而自认吏治非其所长，武职出身临民情不谙
+  - 盘查藩库发现欵归补银两限期归补与奏销期限冲突
+  - 预拟有秋遽尔入奏却逢秋成阴雨，遭皇帝斥责训诫
+  lesson: 以安静详审为务，一事毕复办一事，慎字最要，迟速有时
+  summary_first_person: 我本是武职出身，蒙皇上特恩署理江南江西总督印务。到任之初细访前任操守、盘查两江藩库，据实奏闻淮关监督庆元与勒追亏空之潘尚智私相授银一案，屡蒙朱批砥砺，教我以诚格天、安静详审经理地方。
+endeavors:
+- id: guji-范时绎-endeavor-1
+  key: brewing
+  name_zh: 署理两江总督印务
+  labels:
+    zh: 署理两江
+  start_date: 1726-07
+  phases:
+  - key: brewing
+    name_zh: 抵任之初查库勘灾
+    labels:
+      zh: 抵任查库
+    start_date: 1726-08-15
+    highlight_event_id: guji-范时绎-event-check-treasury
+  - key: breakthrough
+    name_zh: 据实纠察与奏销整顿
+    labels:
+      zh: 据实纠察
+    start_date: 1726-08-28
+    highlight_event_id: guji-范时绎-event-qingyuan-case
+  - key: climax
+    name_zh: 承办钦案与河道闸坝
+    labels:
+      zh: 钦案河工
+    start_date: 1727-02-13
+    highlight_event_id: guji-范时绎-event-tongzhou-sluice
+  - key: closure
+    name_zh: 缉拿逃犯与颂瑞自省
+    labels:
+      zh: 缉拿颂瑞
+    start_date: 1727-04-08
+    highlight_event_id: guji-范时绎-event-manhunt
+events:
+- id: guji-范时绎-event-birth
+  type: birth
+  desc: 生年史无明文
+- id: guji-范时绎-event-death
+  type: death
+  desc: 卒年史无明文
+- id: guji-范时绎-event-report-crops
+  date: 1726-08-15
+  year_of: 雍正四年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 奏报两江禾苗长发、早禾收成八九十分，恭慰圣怀
+- id: guji-范时绎-event-check-treasury
+  date: 1726-08-15
+  year_of: 雍正四年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 会同江苏抚臣张楷盘查江蘓布政司库银一百四十八万八千余两，查出欵归补银三万五千余两，严饬布政使漆绍文限于奏销前归补
+- id: guji-范时绎-event-qingyuan-case
+  date: 1726-08-28
+  year_of: 雍正四年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 据实奏闻淮关监督庆元家人康二与淮徐道潘尚智之子争夺一万一千两银包一案，请旨交部审讯
+- id: guji-范时绎-event-shipsettlement
+  date: 1726-12-06
+  year_of: 雍正四年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 奏请修造天津战船浮用银三万六千余两着落督修督抚并承修各官照数分赔，不许公捐弥补
+- id: guji-范时理赔-nonsense
+- id: guji-范时绎-event-tongzhou-sluice
+  date: 1727-03-24
+  year_of: 雍正五年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 会同江苏抚臣陈时夏亲赴通州勘明观音坝、盐仓坝、唐家坝三处水口，奏请修筑唐家坝闸座以时启闭并绘图呈览
+- id: guji-范时绎-event-manhunt
+  date: 1727-04-08
+  year_of: 雍正五年
+  type: endeavor
+  endeavor_id: guji-范时绎-endeavor-1
+  desc: 接奉密谕，严饬属员悬赏设人缉拿潜逃奸恶董起弼等，务期不使漏网
