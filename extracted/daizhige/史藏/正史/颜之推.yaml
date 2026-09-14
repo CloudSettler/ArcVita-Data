@@ -1,0 +1,108 @@
+person:
+  qid: guji-颜之推
+  name_zh: 颜之推
+  names:
+    zh: 颜之推
+    en: Yan Zhitui
+  lifespan:
+    birth:
+      date: 345
+      precision: year
+      is_circa: true
+      raw: 约五三一年
+    death:
+      date: 0591
+      precision: year
+      is_circa: true
+      raw: 约五九一年
+  birth_date: 约531年
+  death_date: 约591年
+  era: 南北朝至隋初
+  reign_ref: 北齐后主隆化至北周建德、隋开皇年间
+  archetype: 忧愤士人·历仕三朝的学者
+  dilemmas:
+  - 家国倾覆之际，仕齐、仕周、仕隋，忠节与时势难以两全
+  - 劝幼主朝廷南投陈国，谋存社稷而终不得济
+  lesson: 乱世之中，学问与持守是最可依托的传家之业
+  summary_first_person: 我历仕梁、齐、周、隋四朝，身经国破家迁。北齐将亡时，我任黄门侍郎，与薛道衡、陈德信劝太上皇往河外募兵，不济则南投陈国，惜计未成而国已灭。后半生以著述自守，教育子孙，唯愿耕读之业、文墨之训传之久远。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北齐书/卷8
+endeavors:
+- id: guji-颜之推-endeavor-1
+  name_zh: 仕齐为官
+  start_date: 368
+  phases:
+  - key: brewing
+    name_zh: 入齐居官
+    labels:
+      zh: 仕进北齐
+    start_date: 368
+  - key: breakthrough
+    name_zh: 与闻机要
+    labels:
+      zh: 黄门侍郎·参预国谋
+    start_date: 383
+    highlight_event_id: guji-颜之推-event-advice
+  - key: closure
+    name_zh: 国亡被迁
+    labels:
+      zh: 齐亡入周
+    start_date: 383
+  decisions:
+  - date: 0577-01
+    title_zh: 劝太上皇往河外募兵、谋南投陈国
+    rationale: 周师渐逼，邺都不守，欲为朝廷另谋存续之路
+- id: guji-颜之推-endeavor-2
+  name_zh: 著述传家
+  start_date: 383
+  phases:
+  - key: brewing
+    name_zh: 侨居治学
+    labels:
+      zh: 流寓治学
+    start_date: 383
+  - key: breakthrough
+    name_zh: 观览时变
+    labels:
+      zh: 历周入隋·体察南北风物
+    start_date: 0581
+  - key: closure
+    name_zh: 晚年著书
+    labels:
+      zh: 撰文垂训子孙
+    start_date: 0589
+  decisions:
+  - date: 0581-02
+    title_zh: 入仕于隋而不忘旧国之痛
+    rationale: 顺应时势保全家族，同时以笔墨寄存故国记忆与家训
+events:
+- id: guji-颜之推-event-birth
+  type: birth
+  date: 345
+  year_of: 531
+  precision: year
+  is_circa: true
+  name_zh: 颜之推生（约）
+  description_zh: 颜之推约于是年诞生，后历仕南北朝多家王朝。
+- id: guji-颜之推-event-advice
+  type: political_advice
+  date: 0577-01
+  year_of: 577
+  precision: month
+  name_zh: 与薛道衡、陈德信劝奔河外
+  description_zh: 北齐幼主承光初，黄门侍郎颜之推与中书侍郎薛道衡、侍中陈德信等劝太上皇帝往河外募兵，更为经略，若不济则南投陈国，太上皇从之；未几周师至，齐亡。
+- id: guji-颜之推-event-witness-fall
+  type: fall_of_dynasty
+  date: 0577-01
+  year_of: 577
+  precision: month
+  name_zh: 亲历北齐覆亡
+  description_zh: 周军逼近邺城，幼主东走，太上皇携后妃逃青州，终为周将尉迟纲所获，颜之推随朝廷覆亡而失所依。
+- id: guji-颜之推-event-death
+  type: death
+  date: 0591
+  year_of: 591
+  precision: year
+  is_circa: true
+  name_zh: 颜之推卒（约）
+  description_zh: 颜之推约于隋开皇年间去世，以著述家训传世。
