@@ -1,0 +1,144 @@
+person:
+  qid: guji-杨坚
+  name_zh: 杨坚
+  names:
+    zh: 杨坚
+    en: Yang Jian
+  lifespan:
+    birth:
+      date: '541'
+      precision: year
+      is_circa: false
+      raw: 开皇元年（时人载其纵横创业，生年史传为西魏大统七年）
+    death:
+      date: '604'
+      precision: year
+      is_circa: false
+  birth_date: '541'
+  death_date: '604'
+  era: 隋
+  reign_ref: 开皇、仁寿
+  archetype: 开国之君
+  dilemmas:
+  - 律法当一与亲子犯法的父子之情
+  - 储君之择与诸子争位之乱
+  lesson: 法可屈于情则国纲堕，家不齐则天下乱
+  summary_first_person: 我杨坚，以父道训子而家法不立，以君道绳臣而疑忌日深。废勇立广，幽秀囚谅，诸子无一善终，开逆乱之源，长觊觎之望。
+  source_urls:
+  - https://zh.wikisource.org/wiki/隋書/卷45
+endeavors:
+- id: guji-杨坚-endeavor-1
+  name_zh: 代周立隋
+  phases:
+  - key: brewing
+    name_zh: 备位丞相
+    labels:
+      zh:
+      - 辅政
+      - 树恩
+    start_date: '580'
+  - key: breakthrough
+    name_zh: 受禅建隋
+    labels:
+      zh:
+      - 受禅
+      - 立国
+    start_date: '581'
+    highlight_event_id: guji-杨坚-event-enthronement
+  - key: climax
+    name_zh: 开皇之治
+    labels:
+      zh:
+      - 定鼎
+      - 兴法
+    start_date: '581'
+    highlight_event_id: guji-杨坚-event-law-refusal
+  decisions:
+  - date: '581'
+    title_zh: 代周称帝改元开皇
+    rationale: 乘丞相辅政之势，受周禅而践阼，建立隋室
+  - date: '597'
+    title_zh: 不许别制天子儿律
+    rationale: 秦王俊违法，臣请曲法，坚执周公诛管蔡之义，不亏国法
+- id: guji-杨坚-endeavor-2
+  name_zh: 整肃诸子治家
+  phases:
+  - key: brewing
+    name_zh: 分封同姓
+    labels:
+      zh:
+      - 封藩
+      - 镇守
+    start_date: '581'
+  - key: climax
+    name_zh: 罪废储藩
+    labels:
+      zh:
+      - 废勇
+      - 罪秀
+    start_date: '600'
+    highlight_event_id: guji-杨坚-event-xiu-demoted
+  - key: closure
+    name_zh: 身后乱源
+    labels:
+      zh:
+      - 易储
+      - 乱起
+    start_date: '604'
+  decisions:
+  - date: '600'
+    title_zh: 废黜太子杨勇立晋王广
+    rationale: 听谗言间之，一朝易储，史臣谓开逆乱之源
+  - date: '602'
+    title_zh: 废蜀王杨秀为庶人
+    rationale: 以杨素所发偶人檄文坐其魇镇诅咒，废为庶人幽于内侍省
+events:
+- id: guji-杨坚-event-birth
+  date: '541'
+  year_of: 541
+  title_zh: 杨坚出生
+  labels:
+    zh:
+    - 出生
+- id: guji-杨坚-event-enthronement
+  date: '581'
+  year_of: 581
+  title_zh: 受禅践阼建隋
+  labels:
+    zh:
+    - 受禅
+    - 建国
+- id: guji-杨坚-event-law-refusal
+  date: '597'
+  year_of: 597
+  title_zh: 拒免秦王俊罪不亏法
+  labels:
+    zh:
+    - 执法
+    - 拒子
+  summary_zh: 秦王俊奢纵违制，杨素请宽宥，坚曰不别制天子儿律，卒不许
+- id: guji-杨坚-event-yong-demoted
+  date: '600'
+  year_of: 600
+  title_zh: 废太子杨勇立杨广为储
+  labels:
+    zh:
+    - 易储
+  summary_zh: 太子勇以谗毁废，晋王广立为皇太子
+- id: guji-杨坚-event-xiu-demoted
+  date: '602'
+  year_of: 602
+  title_zh: 蜀王杨秀坐魇镇废为庶人
+  labels:
+    zh:
+    - 废黜
+    - 幽禁
+  summary_zh: 太子广阴求其罪，发偶人檄文，坚数其十罪，废为庶人幽内侍省
+- id: guji-杨坚-event-death
+  date: '604'
+  year_of: 604
+  title_zh: 杨坚驾崩仁寿宫
+  labels:
+    zh:
+    - 逝世
+  summary_zh: 高祖崩，炀帝即位，杨谅寻举兵反

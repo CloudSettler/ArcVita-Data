@@ -1,0 +1,183 @@
+person:
+  qid: guji-杨广
+  name_zh: 杨广
+  names:
+    zh: 杨广
+    en: Yang Guang
+  lifespan:
+    birth:
+      date: '569'
+      precision: year
+      is_circa: true
+      raw: 隋文帝杨坚次子，生于北周末年
+    death:
+      date: '618'
+      precision: year
+      is_circa: false
+  birth_date: '569'
+  death_date: '618'
+  era: 隋
+  reign_ref: 大业（605—618）
+  archetype: 雄才大略而役民过度之帝
+  dilemmas:
+  - 建大河功在千秋与劳民伤财致天下溃叛两难
+  - 巡幸江都以避关中乱局与弃宗庙根本两难
+  lesson: 大业之成毁，往往系于民力之竭与不竭
+  summary_first_person: 我是杨广，隋文帝次子，开皇年间以晋王统军平陈，继立为皇太子，仁寿四年即位，改元大业。我开凿大运河贯通南北，营建东都洛阳，亲征吐谷浑、三征高句丽，开通西域驰道。然徭役无度、民不堪命，各方起事蜂起，我避居江都，大业十四年为部下所弑，隋祚随之倾覆。
+  source_urls:
+  - https://zh.wikisource.org/wiki/隋書/卷三
+  - https://zh.wikisource.org/wiki/隋書/卷四
+endeavors:
+- id: guji-杨广-endeavor-1
+  name_zh: 平陈与夺储
+  phases:
+  - key: brewing
+    name_zh: 出镇淮南
+    labels:
+      zh:
+      - 军功
+      - 藩王
+    start_date: '588'
+  - key: breakthrough
+    name_zh: 统军平陈
+    labels:
+      zh:
+      - 军事
+    start_date: '589'
+    highlight_event_id: guji-杨广-event-平陈
+  - key: climax
+    name_zh: 立为皇太子
+    labels:
+      zh:
+      - 权力
+    start_date: '600'
+    highlight_event_id: guji-杨广-event-立储
+  - key: closure
+    name_zh: 即帝位
+    labels:
+      zh:
+      - 登基
+    start_date: '604'
+    highlight_event_id: guji-杨广-event-即位
+  decisions:
+  - date: '589'
+    title_zh: 以元帅身份节制诸军渡江灭陈
+    rationale: 借伐国之功树威望，为日后夺储奠基
+  - date: '600'
+    title_zh: 谨守孝俭之节，谋易储位
+    rationale: 乘杨勇失宠之机，得文帝与独孤皇后之心
+- id: guji-杨广-endeavor-2
+  name_zh: 营建与开拓
+  phases:
+  - key: brewing
+    name_zh: 营建东都
+    labels:
+      zh:
+      - 工程
+    start_date: '605'
+  - key: breakthrough
+    name_zh: 开凿大运河
+    labels:
+      zh:
+      - 工程
+      - 交通
+    start_date: '605'
+    highlight_event_id: guji-杨广-event-开河
+  - key: climax
+    name_zh: 西巡与征辽
+    labels:
+      zh:
+      - 军事
+      - 巡幸
+    start_date: '609'
+    highlight_event_id: guji-杨广-event-征辽
+  - key: closure
+    name_zh: 避乱江都
+    labels:
+      zh:
+      - 衰亡
+    start_date: '616'
+    highlight_event_id: guji-杨广-event-江都
+  decisions:
+  - date: '605'
+    title_zh: 营建东都并开通济渠
+    rationale: 镇抚山东、江南，漕运天下以固帝业
+  - date: '612'
+    title_zh: 亲率大军首征高句丽
+    rationale: 欲臣服东夷、成不世之功，而不恤民力
+  - date: '616'
+    title_zh: 南幸江都
+    rationale: 中原盗贼蜂起，关中危殆，欲据江南以自保
+events:
+- id: guji-杨广-event-birth
+  date: '569'
+  year_of: 569
+  type: birth
+  title_zh: 杨广生
+  description_zh: 杨坚次子杨广出生，后封晋王。
+  people:
+  - guji-杨广
+  place: 长安（一说并州）
+- id: guji-杨广-event-平陈
+  date: '589'
+  year_of: 589
+  type: endeavor
+  title_zh: 统军平陈
+  description_zh: 杨广以行军元帅节度诸军渡江，破建康，俘陈后主，南北复归一统。
+  people:
+  - guji-杨广
+  place: 建康
+- id: guji-杨广-event-立储
+  date: '600'
+  year_of: 600
+  type: endeavor
+  title_zh: 立为皇太子
+  description_zh: 文帝废杨勇，立杨广为皇太子。
+  people:
+  - guji-杨广
+  place: 大兴城
+- id: guji-杨广-event-即位
+  date: '604'
+  year_of: 604
+  type: endeavor
+  title_zh: 即皇帝位
+  description_zh: 文帝崩，杨广即位，明年改元大业。
+  people:
+  - guji-杨广
+  place: 大兴城
+- id: guji-杨广-event-开河
+  date: '605'
+  year_of: 605
+  type: endeavor
+  title_zh: 开通济渠、营建东都
+  description_zh: 征发百万民夫营洛阳、开运河，通江南漕运，役使民力自此日盛。
+  people:
+  - guji-杨广
+  place: 洛阳
+- id: guji-杨广-event-征辽
+  date: '612'
+  year_of: 612
+  type: endeavor
+  title_zh: 首征高句丽
+  description_zh: 亲率百万大军征辽东，无功而返，天下骚动。
+  people:
+  - guji-杨广
+  place: 辽东
+- id: guji-杨广-event-江都
+  date: '616'
+  year_of: 616
+  type: endeavor
+  title_zh: 幸江都
+  description_zh: 各地起事日炽，炀帝南幸江都，渐失中原。
+  people:
+  - guji-杨广
+  place: 江都
+- id: guji-杨广-event-death
+  date: '618'
+  year_of: 618
+  type: death
+  title_zh: 江都之变，炀帝被弑
+  description_zh: 宇文化及等煽动骁果军变，弑炀帝于江都宫，隋室遂亡。
+  people:
+  - guji-杨广
+  place: 江都
