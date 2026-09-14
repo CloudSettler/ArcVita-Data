@@ -1,0 +1,108 @@
+person:
+  qid: guji-张世杰
+  name_zh: 张世杰
+  names:
+    zh: 张世杰
+    en: Zhang Shijie
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      date: 1279
+      precision: year
+      is_circa: false
+      raw: '1279'
+  death_date: '1279'
+  era: 宋末元初
+  reign_ref: 宋端宗景炎、宋帝昺祥兴
+  archetype: 忠节殉国之将
+  dilemmas:
+  - 厓山决战中断维夺港而去，未与宋主同溺，义利之际未能决断
+  - 泉州留蒲寿庚否，酿其后之乱
+  lesson: 忠臣末路，成败利钝之间最见心术；瓣香之祝，大风覆舟，天曲全其忠。
+  summary_first_person: 我张世杰，宋末大将。临安将破，我与苏刘义等挟益王昰、广王昺出嘉会门渡浙江而遁；后奉益王即位于福州，拜枢密副使，聚兵福建图兴复。泉州我不用蒲寿庚之言，掠其海舶，寿庚怒而作乱。帝昺仄居厓山，我布一字阵奉主居中为死计，然卒断维夺港而去，未与君同溺。杨太后既葬，我将之安南，飓风覆舟而死，人谓瓣香之祝、大风覆舟，天所以曲全我之忠。
+endeavors:
+- id: guji-张世杰-endeavor-1
+  name_zh: 挟二王出奔与拥立兴复
+  phases:
+  - key: brewing
+    name_zh: 出encia嘉会门
+    labels:
+      zh:
+      - 出奔渡浙
+    start_date: 1276-01-29
+    highlight_event_id: guji-张世杰-event-escape
+  - key: breakthrough
+    name_zh: 福州拥立
+    labels:
+      zh:
+      - 景炎建元
+    start_date: 1276-05
+    highlight_event_id: guji-张世杰-event-fuzhou
+  - key: climax
+    name_zh: 聚兵福建图兴复
+    labels:
+      zh:
+      - 攻江西
+      - 处置泉州
+    start_date: 1276-07
+    highlight_event_id: guji-张世杰-event-quanzhou
+  - key: closure
+    name_zh: 厓山殉国
+    labels:
+      zh:
+      - 大风覆舟
+    start_date: 1279
+    highlight_event_id: guji-张世杰-event-yaishan
+  decisions:
+  - date: 1276-01-29
+    title_zh: 挟益王、广王出嘉会门渡浙江
+    rationale: 效靖康之鉴，不固守危城，觊建炎、绍兴中兴之福。
+  - date: 1276
+    title_zh: 不纳蒲寿庚请驻跸泉州，后纵之归、掠其海舶
+    rationale: 不以海舶自随，致寿庚怒杀宗室淮兵而降元。
+  - date: 1279
+    title_zh: 厓山布一字阵而后断维夺港
+    rationale: 奉宋主居阵中为死计，然未与君同溺，欲存赵氏之嗣自逭一朝夕。
+events:
+- id: guji-张世杰-event-escape
+  person_id: guji-张世杰
+  event_type: political_crisis_response
+  title_zh: 张世杰等以益王昰、广王昺出奔
+  description: 巴延军次皋亭山宋主奉玺以降之翌日，世杰与苏刘义等挟二王出嘉会门，渡浙江遁去；巴延遣阿喽罕、董文炳、范文虎追之不及。
+  start_date: 1276-01-29
+  year_of: 1276
+  date_precision: day
+- id: guji-张世杰-event-fuzhou
+  person_id: guji-张世杰
+  event_type: career_event
+  title_zh: 益王即位福州，世杰拜枢密副使
+  description: 世杰自定海与陈宜中、陆秀夫、苏刘义会于江心寺，奉益王昰即皇帝位，改元景炎，以世杰为枢密副使。
+  start_date: 1276-05
+  year_of: 1276
+  date_precision: day
+- id: guji-张世杰-event-attack-jiangxi
+  person_id: guji-张世杰
+  event_type: career_event
+  title_zh: 与陈宜中等聚兵福建攻江西
+  description: 时世杰与陈宜中等聚兵福建攻江西，元江西都元帅逊都岱奏乞援兵。
+  start_date: 1276
+  year_of: 1276
+  date_precision: month
+- id: guji-张世杰-event-quanzhou
+  person_id: guji-张世杰
+  event_type: career_event
+  title_zh: 泉州颇用寿庚之请、掠其海舶，奉宋主趋潮
+  description: 宋主舟泊泉州港，蒲寿庚请驻跸，张世杰不可；既而舟不足，掠其舟而没其赀，寿庚怒杀宗室及士大夫与淮兵在泉者，世杰遂奉宋主趋潮。
+  start_date: 1276-11
+  year_of: 1276
+  date_precision: month
+- id: guji-张世杰-event-yaishan
+  person_id: guji-张世杰
+  event_type: death
+  title_zh: 厓山断维夺港，后大风覆舟而死
+  description: 世杰于厓山布一字阵奉宋主居其间为死计，卒断维夺港而去，不与其君同溺；既葬杨太后，将之安南，瓣香之祝，大风覆舟而亡。
+  start_date: 1279
+  year_of: 1279
+  date_precision: year
