@@ -1,0 +1,148 @@
+person:
+  qid: guji-张骞
+  name_zh: 张骞
+  names:
+    zh: 张骞
+    en: Zhang Qian
+  lifespan:
+    birth:
+      date: -195
+      precision: year
+      is_circa: true
+      raw: 约西汉建元年间以前生，生年不详
+    death:
+      date: -114
+      precision: year
+      is_circa: true
+      raw: 约元鼎三年卒
+  birth_date: -195
+  death_date: -114
+  era: 西汉
+  reign_ref: 汉武帝
+  archetype: 凿空西域的外交探险家
+  dilemmas:
+  - 身陷匈奴十余年，持汉节不失，去留之间忠于使命
+  - 联络大月氏共击匈奴的战略目标落空，如何转化外交成果
+  lesson: 凿空西域，虽使命未竟而通途自开
+  summary_first_person: 我张骞奉汉武帝之命出使西域，两度被匈奴扣留而持节不屈，终通大宛、大月氏、乌孙诸国，开丝绸之路之先声，以博望侯名垂青史。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書/卷061
+endeavors:
+- id: guji-张骞-endeavor-1
+  name_zh: 首次出使西域
+  phases:
+  - key: brewing
+    name_zh: 应募出使
+    labels:
+      zh:
+      - 建元
+      - 应募
+    start_date: -139
+    highlight_event_id: guji-张骞-event-embassy-1
+  - key: breakthrough
+    name_zh: 凿空通行
+    labels:
+      zh:
+      - 途经大宛
+      - 抵大月氏
+    start_date: -129
+    highlight_event_id: guji-张骞-event-dayuezhi
+  - key: closure
+    name_zh: 归汉复命
+    labels:
+      zh:
+      - 元朔三年归汉
+    start_date: -126
+    highlight_event_id: guji-张骞-event-return-1
+  decisions:
+  - date: -139
+    title_zh: 应募出使大月氏，谋夹击匈奴
+    rationale: 汉武帝欲联大月氏断匈奴右臂，骞以郎应募，勇担使命。
+  - date: -129
+    title_zh: 自匈奴脱亡，西行数千里抵大宛
+    rationale: 虽被扣十余年，乘隙逃亡，不忘使命，继续西进。
+- id: guji-张骞-endeavor-2
+  name_zh: 再度出使与乌孙通好
+  phases:
+  - key: brewing
+    name_zh: 复谋西使
+    labels:
+      zh:
+      - 出主意
+      - 拜中郎将
+    start_date: -123
+    highlight_event_id: guji-张骞-event-embassy-2
+  - key: climax
+    name_zh: 通乌孙及诸国
+    labels:
+      zh:
+      - 乌孙和亲
+      - 分遣副使
+    start_date: -119
+    highlight_event_id: guji-张骞-event-wusun
+  - key: closure
+    name_zh: 封博望侯
+    labels:
+      zh:
+      - 博望侯
+    start_date: -123
+    highlight_event_id: guji-张骞-event-marquis
+  decisions:
+  - date: -119
+    title_zh: 建议厚赂乌孙，遣公主和亲以断匈奴右臂
+    rationale: 乌孙东归故地，可牵制匈奴，并为西域诸国之招徕。
+events:
+- id: guji-张骞-event-birth
+  date: -195
+  year_of: -195
+  type: birth
+  name_zh: 张骞生
+  description: 张骞生于汉中城固（生年史无明文，约为西汉前期）。
+- id: guji-张骞-event-embassy-1
+  date: -139
+  year_of: -139
+  type: endeavor
+  name_zh: 建元中应募出使西域
+  description: 张骞以郎应募，率百余人自长安出发，欲联大月氏共击匈奴。
+- id: guji-张骞-event-capture
+  date: -138
+  year_of: -139
+  type: endeavor
+  name_zh: 途中为匈奴所俘
+  description: 取道匈奴时被扣留十余年，娶妻生子，然持汉节不失。
+- id: guji-张骞-event-dayuezhi
+  date: -129
+  year_of: -129
+  type: endeavor
+  name_zh: 抵大月氏、大宛，考察西域
+  description: 经大宛、康居至大月氏，月氏已乐居无意攻匈奴，使命未竟而获西域山川物产之详。
+- id: guji-张骞-event-return-1
+  date: -126
+  year_of: -126
+  type: endeavor
+  name_zh: 辗转归汉复命
+  description: 自西域取南道归汉，时从者仅堂邑父在，拜为太中大夫，凿空之功自此始。
+- id: guji-张骞-event-marquis
+  date: -123
+  year_of: -123
+  type: honor
+  name_zh: 以从卫青击匈奴功封博望侯
+  description: 元朔六年张骞以校尉从大将军卫青出征有功，封博望侯。
+- id: guji-张骞-event-embassy-2
+  date: -119
+  year_of: -119
+  type: endeavor
+  name_zh: 二使西域通乌孙
+  description: 拜中郎将，将三百人赍金币帛出使乌孙，并分遣副使使大宛、康居、大夏诸国。
+- id: guji-张骞-event-wusun
+  date: -116
+  year_of: -116
+  type: endeavor
+  name_zh: 乌孙遣使报谢，西域道通
+  description: 乌孙发译道送骞归汉并献马，西域诸国始通于汉，丝绸之路渐开。
+- id: guji-张骞-event-death
+  date: -114
+  year_of: -114
+  type: death
+  name_zh: 张骞卒
+  description: 张骞去世（约元鼎三年），后其事迹载于《汉书·张骞李广利传》（卷六十一）。

@@ -1,0 +1,114 @@
+person:
+  qid: guji-王莽
+  name_zh: 王莽
+  names:
+    zh: 王莽
+    en: Wang Mang
+  lifespan:
+    birth:
+      date: -45
+      precision: year
+      is_circa: true
+      raw: 约汉宣帝年间生
+    death:
+      date: 23
+      precision: year
+      raw: 地皇四年（更始年间）被杀
+  birth_date: -45
+  death_date: 23
+  era: 西汉末—新朝
+  reign_ref: 新朝皇帝（始建国—地皇）
+  archetype: 篡汉自立 / 托古改制者
+  dilemmas:
+  - 欲复古礼改制而天下大乱
+  - 以谦恭得声誉，终以篡位失人心
+  lesson: 托古改制若无实力与民心相济，虽得政权亦难持久
+  summary_first_person: 我以外戚之位起家，谦恭下士、广获声誉，终于代汉建立新朝，推行改制，然而新政扰民、四方起兵，终致身死国灭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書/卷099上
+endeavors:
+- id: guji-王莽-endeavor-1
+  key: brewing
+  name_zh: 起于外戚，篡汉立新
+  labels:
+    zh:
+    - 新都侯
+    - 大司马
+    - 摄皇帝
+    - 代汉建新
+  phases:
+  - key: brewing
+    name_zh: 外戚起家，谦恭树誉
+    labels:
+      zh:
+      - 黄门郎
+      - 新都侯
+    start_date: -8
+  - key: breakthrough
+    name_zh: 居摄辅政，独揽大权
+    labels:
+      zh:
+      - 大司马
+      - 安汉公
+      - 摄皇帝
+    start_date: 1
+    highlight_event_id: guji-王莽-event-new-dynasty
+  - key: climax
+    name_zh: 代汉建新，托古改制
+    labels:
+      zh:
+      - 始建国
+      - 王田私属
+      - 五均六筦
+    start_date: 9
+    highlight_event_id: guji-王莽-event-new-dynasty
+  - key: closure
+    name_zh: 改制失败，败亡身死
+    labels:
+      zh:
+      - 绿林赤眉
+      - 昆阳之战
+      - 地皇
+    start_date: 17
+    highlight_event_id: guji-王莽-event-death
+  decisions:
+  - date: 8
+    title_zh: 受禅代汉，建立新朝
+    rationale: 借符命谶纬与朝野拥戴之势，废汉自立。
+  - date: 9
+    title_zh: 颁行王田私属之制
+    rationale: 效法井田复古，欲均田抑兼并，然触动豪强，法不得行。
+  - date: 23
+    title_zh: 身死渐台，新朝覆灭
+    rationale: 长安陷落，欲效周公故事自解而无济，终为乱军所杀。
+events:
+- id: guji-王莽-event-birth
+  date: -45
+  year_of: '-45'
+  type: birth
+  title_zh: 王莽生于魏郡元城（约）
+- id: guji-王莽-event-office
+  date: -8
+  year_of: '-8'
+  type: career
+  title_zh: 继王根为大司马辅政
+- id: guji-王莽-event-new-dynasty
+  date: 9-01-10
+  year_of: '9'
+  type: political
+  title_zh: 代汉建新，即皇帝位，改元始建国
+- id: guji-王莽-event-reform
+  date: 9
+  year_of: '9'
+  type: reform
+  title_zh: 推行王田私属与货币改制
+- id: guji-王莽-event-collapse
+  date: 23
+  year_of: '23'
+  type: military
+  title_zh: 昆阳之战大败，绿林军逼近长安
+- id: guji-王莽-event-death
+  date: 23-10-06
+  year_of: '23'
+  type: death
+  title_zh: 长安城破，王莽死于渐台，新朝亡

@@ -1,0 +1,152 @@
+person:
+  qid: guji-贾谊
+  name_zh: 贾谊
+  names:
+    zh: 贾谊
+    en: Jia Yi
+  lifespan:
+    birth:
+      date: -200
+      precision: year
+      is_circa: true
+      raw: 汉文帝时生，约公元前200年
+    death:
+      date: -168
+      precision: year
+      is_circa: true
+      raw: 汉文帝前十一年，约公元前168年，年三十三
+  era: 西汉
+  reign_ref: 汉文帝
+  archetype: 怀才不遇的青年政论家
+  dilemmas:
+  - 少年得志而遭功臣权贵排挤
+  - 政治安主张超出文帝时代所能承受
+  - 梁怀王坠马，自伤傅职无状，郁郁早逝
+  lesson: 才高而时不能用，忧愤成疾，早逝
+  summary_first_person: 我是洛阳贾谊，十八岁即以诵诗书属文称于郡中，文帝召为博士， youngest 逾冠而迁太中大夫，欲改法度，为绛灌之属所毁，出为长沙王太傅，渡湘水吊屈原，作《鵩鸟赋》，后为梁怀王太傅，怀王坠马死，我自伤为傅无状，哭泣岁余亦死，年三十三。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書/卷048
+endeavors:
+- id: guji-贾谊-endeavor-1
+  name_zh: 早年入仕与改制之议
+  phases:
+  - key: brewing
+    name_zh: 洛阳才俊
+    labels:
+      zh:
+      - 以能诵诗书属文称于郡中
+    start_date: -183
+  - key: breakthrough
+    name_zh: 召为博士
+    labels:
+      zh:
+      - 文帝召延为博士
+      - 年二十余，最为少
+    start_date: -180
+    highlight_event_id: guji-贾谊-event-appointment
+  - key: climax
+    name_zh: 太中大夫改制议
+    labels:
+      zh:
+      - 改正朔，易服色，法制度，定官名，兴礼乐
+    start_date: -179
+  - key: closure
+    name_zh: 遭绛灌之毁出为长沙太傅
+    labels:
+      zh:
+      - 绛侯、灌婴、东阳侯、冯敬之属尽害之
+    start_date: -177
+  decisions:
+  - date: -179
+    title_zh: 议改法度定官名兴礼乐
+    rationale: 以为汉兴二十余年，天下和洽，宜当改正朔，易服色制度，定官名，兴礼乐，乃悉草具其事仪法
+  - date: -177
+    title_zh: 出为长沙王太傅
+    rationale: 天子议以为贾生任公卿之位，绛灌之属毁之，文帝亦疏之，不用其议，乃出为长沙王太傅
+- id: guji-贾谊-endeavor-2
+  name_zh: 宣室之问与梁怀王傅
+  phases:
+  - key: breakthrough
+    name_zh: 宣室问鬼神
+    labels:
+      zh:
+      - 文帝思贾谊，征之至宣室问鬼神之本
+    start_date: -174
+  - key: climax
+    name_zh: 为梁怀王太傅上治安策
+    labels:
+      zh:
+      - 上疏陈政事，即《治安策》，言众建诸侯而少其力
+    start_date: -173
+    highlight_event_id: guji-贾谊-event-xuanzhi
+  - key: closure
+    name_zh: 怀王坠马自伤而死
+    labels:
+      zh:
+      - 怀王上马坠死，贾谊自伤傅无状，哭泣岁余亦死
+    start_date: -169
+    highlight_event_id: guji-贾谊-event-death
+  decisions:
+  - date: -174
+    title_zh: 宣室仅问鬼神不问苍生
+    rationale: 文帝方受釐坐宣室，因感鬼神事而问鬼神之本；贾谊具道所以然之故，至夜半帝前席
+  - date: -173
+    title_zh: 上治安策，主张众建诸侯以少其力
+    rationale: 以为诸侯强则难制，欲天下之治安，莫若众建诸侯而少其力，力少则易使以义，国小则无邪心
+events:
+- id: guji-贾谊-event-birth
+  date: -200
+  year_of: -200
+  person_id: guji-贾谊
+  type: birth
+  name_zh: 贾谊生于洛阳
+  description:
+  - 生于洛阳，年少即以能诵诗书属文称于郡中
+- id: guji-贾谊-event-appointment
+  date: -180
+  year_of: -180
+  person_id: guji-贾谊
+  type: career
+  name_zh: 文帝召为博士
+  description:
+  - 文帝初立，闻吴公荐贾谊，召以为博士，时年二十余，最为少
+- id: guji-贾谊-event-promotion
+  date: -179
+  year_of: -179
+  person_id: guji-贾谊
+  type: career
+  name_zh: 超迁太中大夫
+  description:
+  - 一岁中至太中大夫，草具改正朔、易服色、法制度、定官名、兴礼乐之仪法
+- id: guji-贾谊-event-changsha
+  date: -177
+  year_of: -177
+  person_id: guji-贾谊
+  type: exile
+  name_zh: 出为长沙王太傅
+  description:
+  - 为绛灌等所毁，文帝疏之，出为长沙王太傅；渡湘水吊屈原，作《吊屈原赋》；居长沙三年，作《鵩鸟赋》
+- id: guji-贾谊-event-xuanzhi
+  date: -174
+  year_of: -174
+  person_id: guji-贾谊
+  type: audience
+  name_zh: 宣室见文帝
+  description:
+  - 征见宣室，帝问鬼神之本，至夜半前席；后拜梁怀王太傅
+- id: guji-贾谊-event-anze
+  date: -173
+  year_of: -173
+  person_id: guji-贾谊
+  type: writing
+  name_zh: 上《治安策》
+  description:
+  - 数上疏陈政事，言可痛惜者一、可为流涕者二、可为长太息者六，主张众建诸侯而少其力
+- id: guji-贾谊-event-death
+  date: -166
+  year_of: -166
+  person_id: guji-贾谊
+  type: death
+  name_zh: 梁怀王坠马后病卒
+  description:
+  - 梁怀王揖上马坠死，贾谊自伤为傅无状，哭泣岁余亦死，年三十三
