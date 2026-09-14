@@ -1,0 +1,111 @@
+person:
+  qid: guji-王铎
+  name_zh: 王铎
+  names:
+    zh: 王铎
+    en: Wang Duo
+  lifespan:
+    birth:
+      date: '1592'
+      precision: year
+      is_circa: true
+      raw: 明万历二十年
+    death:
+      date: '1652'
+      precision: year
+      is_circa: false
+  birth_date: '1592'
+  death_date: '1652'
+  era: 明末清初
+  reign_ref:
+    zh: 天启、崇祯、顺治
+    en: Tianqi, Chongzhen, Shunzhi
+  archetype: 贰臣书法家
+  dilemmas:
+  - 明亡之际降清，仕节与存身两难
+  - 身居礼部尚书而国破，翰墨自遣
+  lesson: 乱世才士，节亏而艺传
+  summary_first_person: 我王铎，明天启二年进士，官至礼部尚书；国变后降清，授礼部侍郎，以书名传世。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史列傳
+endeavors:
+- id: guji-王铎-endeavor-1
+  key_event: 仕明
+  phases:
+  - key: brewing
+    name_zh: 科举入仕
+    labels:
+      zh: 进士及第
+    start_date: '1622'
+    highlight_event_id: guji-王铎-event-jinshi
+  - key: climax
+    name_zh: 官至礼部尚书
+    labels:
+      zh: 明礼部尚书
+    start_date: ~1644
+    highlight_event_id: guji-王铎-event-shangshu
+  decisions:
+  - date: '1622'
+    title_zh: 中天启二年进士
+    rationale: 由科举入仕途
+  - date: '1645'
+    title_zh: 降清
+    rationale: 南京陷落后随众出降，保留性命与官职
+- id: guji-王铎-endeavor-2
+  key_event: 书法
+  phases:
+  - key: brewing
+    name_zh: 早年学书
+    labels:
+      zh: 临池功深
+    start_date: '1610'
+    highlight_event_id: guji-王铎-event-shufa
+  - key: closure
+    name_zh: 清初书名大成
+    labels:
+      zh: 一日临帖一日应索
+    start_date: '1646'
+    highlight_event_id: guji-王铎-event-shufa
+  decisions:
+  - date: '1646'
+    title_zh: 授清礼部右侍郎
+    rationale: 降清后仍任文职
+events:
+- id: guji-王铎-event-birth
+  event_type: birth
+  date: '1592'
+  year_of: 1592
+  name_zh: 王铎出生
+  place: 河南孟津
+- id: guji-王铎-event-jinshi
+  event_type: endeavor
+  date: '1622'
+  year_of: 1622
+  name_zh: 中天启二年进士
+  endeavor_id: guji-王铎-endeavor-1
+- id: guji-王铎-event-shangshu
+  event_type: endeavor
+  date: '1644'
+  year_of: 1644
+  name_zh: 官至明礼部尚书
+  endeavor_id: guji-王铎-endeavor-1
+  is_circa: true
+- id: guji-王铎-event-降清
+  event_type: endeavor
+  date: '1645'
+  year_of: 1645
+  name_zh: 南京陷落后降清
+  endeavor_id: guji-王铎-endeavor-1
+- id: guji-王铎-event-shufa
+  event_type: endeavor
+  date: '1646'
+  year_of: 1646
+  name_zh: 清初以行草书名重于世
+  endeavor_id: guji-王铎-endeavor-2
+  is_circa: true
+- id: guji-王铎-event-death
+  event_type: death
+  date: '1652'
+  year_of: 1652
+  name_zh: 王铎去世
+  place: 河南孟津

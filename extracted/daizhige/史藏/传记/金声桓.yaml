@@ -1,0 +1,127 @@
+person:
+  qid: guji-金声桓
+  name_zh: 金声桓
+  names:
+    zh: 金声桓
+    en: Jin Shenghuan
+  lifespan:
+    birth:
+      date: ''
+      precision: ''
+      is_circa: true
+      raw: 明末（生年不详）
+    death:
+      date: '1649'
+      precision: year
+      is_circa: false
+      raw: 清顺治六年（1649）
+  birth_date: ''
+  death_date: '1649'
+  era: 明末清初
+  reign_ref: 明崇祯、清顺治
+  archetype: 武将·降将复叛
+  dilemmas:
+  - 降清求富贵与故国忠义之间的抉择
+  - 功高赏薄，愤而举兵反正
+  lesson: 依违于两大势力之间的武将，终难自全，覆亡于朝秦暮楚。
+  summary_first_person: 我本明将，降清后以功取江西，然刻核凌侮终使我愤而反正归明，兵败南昌，身死城破。
+  source_urls:
+  - 清史列传·卷八十·逆臣传（金声桓）
+endeavors:
+- id: guji-金声桓-endeavor-1
+  name_zh: 降清与平定江西
+  phases:
+  - key: brewing
+    name_zh: 明末从军
+    labels:
+      zh: 明将佐左良玉
+    start_date: ''
+    highlight_event_id: guji-金声桓-event-join-ming
+  - key: breakthrough
+    name_zh: 降清取南昌
+    labels:
+      zh: 顺治二年降清
+    start_date: '1645'
+    highlight_event_id: guji-金声桓-event-surrender
+  - key: climax
+    name_zh: 平定江西
+    labels:
+      zh: 定江西诸郡
+    start_date: '1645'
+    highlight_event_id: guji-金声桓-event-conquer-jiangxi
+  decisions:
+  - date: '1645'
+    title_zh: 率部降清
+    rationale: 左良玉死后随其子梦庚降清，欲以军功博取功名。
+- id: guji-金声桓-endeavor-2
+  name_zh: 反清归明与南昌之围
+  phases:
+  - key: brewing
+    name_zh: 嫌隙渐生
+    labels:
+      zh: 功高遭抑
+    start_date: '1647'
+    highlight_event_id: guji-金声桓-event-grudge
+  - key: breakthrough
+    name_zh: 江西反正
+    labels:
+      zh: 顺治五年举兵归明
+    start_date: '1648'
+    highlight_event_id: guji-金声桓-event-rebellion
+  - key: climax
+    name_zh: 固守南昌
+    labels:
+      zh: 谭泰围城
+    start_date: '1648'
+    highlight_event_id: guji-金声桓-event-nanchang-siege
+  - key: closure
+    name_zh: 城破身死
+    labels:
+      zh: 顺治六年城陷
+    start_date: '1649'
+    highlight_event_id: guji-金声桓-event-death
+  decisions:
+  - date: '1648'
+    title_zh: 举兵反正，奉永历正朔
+    rationale: 因清廷宠本兵不宠将，、巡抚掣肘诛部将，愤而反清归明。
+events:
+- id: guji-金声桓-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  summary_zh: 生年不详，辽东人，明末为总兵左良玉部将。
+- id: guji-金声桓-event-join-ming
+  event_type: endeavor-start
+  date: ''
+  year_of: 1643
+  summary_zh: 隶左良玉麾下为将，随军驻武昌。
+- id: guji-金声桓-event-surrender
+  event_type: decision
+  date: '1645'
+  year_of: 1645
+  summary_zh: 顺治二年，随左梦庚降清，移师江西。
+- id: guji-金声桓-event-conquer-jiangxi
+  event_type: achievement
+  date: '1645'
+  year_of: 1645
+  summary_zh: 自请进兵，连克南昌等江西诸郡，实以己力定江西，授总兵，镇南昌。
+- id: guji-金声桓-event-grudge
+  event_type: turning-point
+  date: '1647'
+  year_of: 1647
+  summary_zh: 巡抚董学成、按察使成大业凌侮掣肘，诛其部将王得仁之谋事者，嫌怨日深。
+- id: guji-金声桓-event-rebellion
+  event_type: decision
+  date: '1648'
+  year_of: 1648
+  summary_zh: 顺治五年正月，与王得仁举兵反正，杀巡抚以下官，奉南明永历年号。
+- id: guji-金声桓-event-nanchang-siege
+  event_type: conflict
+  date: '1648'
+  year_of: 1648
+  summary_zh: 反正后遣兵攻略州郡，旋遭清定时征南大将军谭泰等围攻南昌，久困孤城。
+- id: guji-金声桓-event-death
+  event_type: death
+  date: '1649'
+  year_of: 1649
+  summary_zh: 顺治六年正月，南昌城破，声桓身中矢投水死。（或城陷自尽）

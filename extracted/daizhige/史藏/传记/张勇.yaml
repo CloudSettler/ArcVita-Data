@@ -1,0 +1,100 @@
+person:
+  qid: guji-张勇
+  name_zh: 张勇
+  names:
+    zh: 张勇
+    en: Zhang Yong
+  lifespan:
+    birth:
+      date: '1616'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约明万历年间
+    death:
+      date: '1684'
+      precision: year
+      is_circa: true
+      raw: 康熙年间卒
+  birth_date: 约1616
+  death_date: 约1684
+  era: 明末清初
+  reign_ref: 清顺治、康熙年间
+  archetype: 武将·降清将领
+  dilemmas:
+  - 明清鼎革之际的效忠抉择
+  - 三藩之乱中的立场抉择
+  lesson: 乱世武臣以战功与忠诚自处
+  summary_first_person: 我张勇，明末清初武将，降清后于陕西、甘肃一带任职，三藩之乱时守御有功。
+endeavors:
+- id: guji-张勇-endeavor-1
+  name_zh: 归附清朝与镇守西北
+  phases:
+  - key: brewing
+    name_zh: 弃明归清
+    labels:
+      zh:
+      - 降清
+      - 顺治年间
+    start_date: 约1645
+  - key: breakthrough
+    name_zh: 征战立功
+    labels:
+      zh:
+      - 剿抚
+      - 军功
+    start_date: 约1648
+  - key: climax
+    name_zh: 镇守陕甘
+    labels:
+      zh:
+      - 提督
+      - 甘肃
+    start_date: 约1660
+  - key: closure
+    name_zh: 平三藩岁月
+    labels:
+      zh:
+      - 三藩之乱
+      - 防守
+    start_date: '1673'
+  decisions:
+  - date: 约1645
+    title_zh: 率部归附清廷
+    rationale: 明室倾颓，择强主以全功名
+  - date: '1673'
+    title_zh: 三藩乱起，坚守甘州
+    rationale: 不附吴三桂，效忠清廷
+events:
+- id: guji-张勇-event-birth
+  year_of: 1616
+  date: 约1616
+  type: birth
+  name_zh: 张勇出生
+  detail: 生年史无明文，约当明万历末年
+- id: guji-张勇-event-attach-qing
+  year_of: 1645
+  date: 约1645
+  type: endeavor
+  endeavor_id: guji-张勇-endeavor-1
+  name_zh: 归附清朝
+  detail: 清军定西北，张勇率部投诚，隶清军籍
+- id: guji-张勇-event-northwest-service
+  year_of: 1660
+  date: 约1660
+  type: endeavor
+  endeavor_id: guji-张勇-endeavor-1
+  name_zh: 镇守陕甘
+  detail: 屡从征讨，累迁至甘肃提督，镇守边地
+- id: guji-张勇-event-revolt-defense
+  year_of: 1674
+  date: 约1674
+  type: endeavor
+  endeavor_id: guji-张勇-endeavor-1
+  name_zh: 三藩乱中坚守甘肃
+  detail: 王辅臣叛应吴三桂，张勇力守不附，助平西北
+- id: guji-张勇-event-death
+  year_of: 1684
+  date: 约1684
+  type: death
+  name_zh: 张勇卒
+  detail: 卒年约当康熙中前期，详待考
