@@ -1,0 +1,129 @@
+person:
+  qid: guji-王通
+  name_zh: 王通
+  names:
+    zh: 王通
+    en: Wang Tong
+  lifespan:
+    birth:
+      date: 0584
+      precision: year
+      is_circa: true
+      raw: 隋世学者，生年史无详载，约当开皇年间
+  birth_date: 0584
+  era: 隋
+  reign_ref: 隋文帝开皇
+  archetype: scholar
+  dilemmas:
+  - 妄以圣人自居而标榜著述正统，与本传所疑伪托之节操之间的张力
+  - 欲以《元经》继《春秋》褒贬之业，然书直书杨坚辅政，被讥为悖乱其世
+  lesson: 著述欲代圣人立言，须以真学术与真品行立信；依托造作，纵流传久远，终为考据者所纠
+  summary_first_person: 我名王通，世称文中子，生当隋世。旧题我撰《元经》十卷，起晋太熙元年、终隋开皇之年，以继《春秋》正帝位、明天命之归；门人薛收受经，为作传解。然吾生隋世而直书杨坚辅政，后人讥我悖乱；宋以来更有晁公武、陈振孙诸家疑此书实出阮逸伪托，河汾王氏诸书中说以外皆唐志所无。书之真伪聚讼至今，然吾以讲学河汾、以经史明王道自任之志，仍见于序传笔法之间。
+  source_urls:
+  - https://zh.wikisource.org/wiki/四库全书总目/元经
+endeavors:
+- id: guji-王通-endeavor-1
+  name_zh: 讲学河汾
+  labels:
+    zh:
+    - 儒学讲授
+    - 河汾门下
+  phases:
+  - key: brewing
+    name_zh: 习经立志
+    labels:
+      zh:
+      - 治学
+    start_date: '0600'
+    highlight_event_id: guji-王通-event-lecture
+  - key: breakthrough
+    name_zh: 设教授徒
+    labels:
+      zh:
+      - 讲学
+    start_date: '0603'
+    highlight_event_id: guji-王通-event-lecture
+  - key: closure
+    name_zh: 薛收受经
+    labels:
+      zh:
+      - 传业
+    start_date: '0610'
+    highlight_event_id: guji-王通-event-xueshou
+  decisions:
+  - date: '0610'
+    title_zh: 命门人薛收为《元经》作传
+    rationale: 自谦才不足以究潭奥，故使亲受经者发明师训，传解并行
+- id: guji-王通-endeavor-2
+  name_zh: 续经著述（旧题撰《元经》）
+  labels:
+    zh:
+    - 史经编纂
+    - 续春秋笔法
+  phases:
+  - key: brewing
+    name_zh: 拟经立义
+    labels:
+      zh:
+      - 撰述
+    start_date: '0605'
+    highlight_event_id: guji-王通-event-yuanjing
+  - key: breakthrough
+    name_zh: 元经成书
+    labels:
+      zh:
+      - 成书
+    start_date: 0609
+    highlight_event_id: guji-王通-event-yuanjing
+  - key: climax
+    name_zh: 明微旨褒贬
+    labels:
+      zh:
+      - 笔削
+    start_date: '0610'
+    highlight_event_id: guji-王通-event-yuanjing
+  - key: closure
+    name_zh: 依托之辨
+    labels:
+      zh:
+      - 聚讼
+    start_date: '1044'
+    highlight_event_id: guji-王通-event-dispute
+  decisions:
+  - date: 0609
+    title_zh: 《元经》起晋太熙元年为其首
+    rationale: 帝衰于太熙，故首此振起，以明天命未改、帝位必正
+  - date: 0609
+    title_zh: 直书杨坚辅政于周大定元年
+    rationale: 抗帝以尊中国，征天命以正帝位；然生隋世直书当代之变，致后世讥其悖乱
+events:
+- id: guji-王通-event-birth
+  date: 0584
+  year_of: 584
+  type: birth
+  name_zh: 王通生
+  description: 旧史无详载，约生于隋初开皇间，河东龙门王氏
+- id: guji-王通-event-yuanjing
+  date: 0609
+  year_of: 609
+  type: endeavor-start
+  name_zh: 旧题王通撰《元经》成，起晋太熙元年，终隋开皇九年
+  description: 元经十卷旧题隋王通撰，始晋太熙元年（290），终隋开皇九年（589），凡九卷称为通之原书；序称夫子以元经为天下之书，征天命以正帝位
+- id: guji-王通-event-xueshou
+  date: '0610'
+  year_of: 610
+  type: collaboration
+  name_zh: 薛收受经于王通，撰元经传解并续末一卷
+  description: 薛收自序称收受经于夫子，輙为传解发明师训；其书末一卷自隋开皇十年迄唐武德元年，唐薛收续并作传
+- id: guji-王通-event-dispute
+  date: '1044'
+  year_of: 1044
+  type: commentary
+  name_zh: 宋人疑《元经》为阮逸伪托之作
+  description: 晁公武疑阮逸依托为之；陈振孙谓河汾王氏诸书自中说以外皆唐艺文志所无，传出阮逸或云皆伪作；据太兴四年书字例，作于隋世之书不宜如此
+- id: guji-王通-event-death
+  date: '0617'
+  year_of: 617
+  type: death
+  name_zh: 王通卒
+  description: 大业末卒于河汾讲学之地，世称文中子；生卒年约略无确据

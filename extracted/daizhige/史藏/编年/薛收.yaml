@@ -1,0 +1,134 @@
+person:
+  qid: guji-薛收
+  name_zh: 薛收
+  names:
+    zh: 薛收
+    en: Xue Shou
+  lifespan:
+    birth:
+      date: 0592
+      precision: year
+      is_circa: true
+      raw: 约隋开皇年间生
+    death:
+      date: '0624'
+      precision: year
+      is_circa: false
+      raw: 唐武德年间卒
+  birth_date: 约592年
+  death_date: 约624年（唐武德年间）
+  era: 隋末唐初
+  reign_ref: 隋开皇、唐武德
+  archetype: 续经传学的儒门弟子
+  dilemmas:
+  - 师著元经以续春秋，续笔与作传如何发明师训而不僭越
+  - 隋世避乱与出仕唐廷之间的出处抉择
+  lesson: 受经而有守，述而不作，以传解经使师学得以传世。
+  summary_first_person: 我薛收受经于文中子王通，夫子作元经以续春秋之法，我续其末卷并为传解，发明师训一二，冀使后王后儒常存常述。
+  source_urls:
+  - https://zh.wikisource.org/wiki/四库全书总目/元经
+endeavors:
+- id: guji-薛收-endeavor-1
+  name_zh: 受经河汾
+  labels:
+    zh:
+    - 从学
+    - 儒学
+  phases:
+  - key: brewing
+    name_zh: 从王通受经
+    labels:
+      zh:
+      - 河汾门下
+    start_date: '0610'
+    highlight_event_id: guji-薛收-event-1
+  - key: breakthrough
+    name_zh: 续元经并作传
+    labels:
+      zh:
+      - 续经
+      - 作传
+    start_date: '0615'
+  - key: climax
+    name_zh: 传解行世
+    labels:
+      zh:
+      - 著述
+    start_date: '0617'
+    highlight_event_id: guji-薛收-event-2
+  - key: closure
+    name_zh: 遗编流传
+    labels:
+      zh:
+      - 流传
+    start_date: '0624'
+  decisions:
+  - date: '0610'
+    title_zh: 就学王通门下
+    rationale: 慕文中子续经之志，愿受经究其潭奥。
+  - date: '0615'
+    title_zh: 续元经末卷并撰传
+    rationale: 夫子之书起晋太熙讫隋开皇九年，我续开皇十年以后之事，辄为传解以发明师训。
+- id: guji-薛收-endeavor-2
+  name_zh: 出仕唐廷
+  labels:
+    zh:
+    - 仕唐
+  phases:
+  - key: brewing
+    name_zh: 归唐效力
+    labels:
+      zh:
+      - 佐命
+    start_date: '0617'
+  - key: climax
+    name_zh: 武德文翰
+    labels:
+      zh:
+      - 文学侍从
+    start_date: '0620'
+    highlight_event_id: guji-薛收-event-3
+  - key: closure
+    name_zh: 功业犹未竟而卒
+    labels:
+      zh:
+      - 早逝
+    start_date: '0624'
+  decisions:
+  - date: '0617'
+    title_zh: 出仕李唐
+    rationale: 隋祚将倾，择明主而事，以文学参佐霸府。
+events:
+- id: guji-薛收-event-birth
+  name_zh: 薛收出生
+  date: 约0592
+  year_of: 592
+  type: birth
+  description: 生于隋世，河东薛氏之后。
+- id: guji-薛收-event-death
+  name_zh: 薛收去世
+  date: '0624'
+  year_of: 624
+  type: death
+  description: 唐武德年间卒，其续经传解由此行世。
+- id: guji-薛收-event-1
+  name_zh: 从王通受经
+  date: 约0610
+  year_of: 610
+  type: endeavor
+  endeavor_id: guji-薛收-endeavor-1
+  description: 受经于文中子王通门下（自序云'收受经于夫子'）。
+- id: guji-薛收-event-2
+  name_zh: 续元经并撰传解
+  date: 约0615
+  year_of: 615
+  type: endeavor
+  endeavor_id: guji-薛收-endeavor-1
+  description: 续元经末一卷（隋开皇十年迄唐武德元年）并作传，自序称'辄为传解，发明师训之一二云'。
+- id: guji-薛收-event-3
+  name_zh: 武德年间以文翰佐唐
+  date: 约0620
+  year_of: 620
+  type: endeavor
+  endeavor_id: guji-薛收-endeavor-2
+  description: 唐初以文学侍从见用，与元经所续迄于武德元年相呼应。
