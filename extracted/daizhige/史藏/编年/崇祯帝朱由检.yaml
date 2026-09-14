@@ -1,0 +1,152 @@
+person:
+  qid: guji-朱由检
+  name_zh: 朱由检
+  names:
+    zh: 朱由检、崇祯帝、明庄烈愍皇帝
+    en: Zhu Youjian
+  lifespan:
+    birth:
+      date: 1610-12
+      precision: month
+      is_circa: false
+      raw: 明万历三十八年（一六一○）十二月生
+    death:
+      date: 1644-03
+      precision: month
+      is_circa: false
+      raw: 崇祯十七年殉国
+  birth_date: 1610-12
+  death_date: 1644-03
+  era: 明末（万历—崇祯）
+  reign_ref: 崇祯（1628—1644）
+  archetype: 亡国之君·励精图治而刚愎多疑
+  dilemmas:
+  - 求治太急而人事偾败，内帑空虚与流贼内乱交迫
+  - 果于诛赏，多疑易置将相，终致国事不可为
+  lesson: 志在拨乱而无用人之量与持久之策，急切与猜疑反加速倾覆
+  summary_first_person: 我承神宗、熹宗之敝，慨然有拨乱之志，诛客魏、撤镇守内臣；然求治太急、果于诛赏，先后易置宰相近五十人，终至流贼破京，以身殉国。
+endeavors:
+- id: guji-朱由检-endeavor-1
+  key: 复位.tbl не
+  name_zh: 登基拨乱
+  labels:
+    zh:
+    - 即位
+    - 诛除阉党
+  start_date: 1627
+  highlight_event_id: guji-朱由检-event-accession
+  phases:
+  - key: brewing
+    name_zh: 信王时期
+    labels:
+      zh:
+      - 封信王
+    start_date: 1622
+    highlight_event_id: guji-朱由检-event-prince
+  - key: breakthrough
+    name_zh: 御极更化
+    labels:
+      zh:
+      - 诛客氏魏忠贤
+      - 撤各边镇守内臣
+    start_date: 1627
+    highlight_event_id: guji-朱由检-event-accession
+  - key: climax
+    name_zh: 求治太急
+    labels:
+      zh:
+      - 易置宰相近五十人
+      - 督师失机弃市者相望
+    start_date: 1629
+    highlight_event_id: guji-朱由检-event-ministers
+  - key: closure
+    name_zh: 城破殉国
+    labels:
+      zh:
+      - 帝后殉国
+    start_date: 1644
+    highlight_event_id: guji-朱由检-event-fall
+  decisions:
+  - date: 1627
+    title_zh: 诛客魏、撤各边镇守内臣
+    rationale: 承神熹之敝，慨然有拨乱之志，天下想望治平
+  - date: 1644
+    title_zh: 复命内臣监军
+    rationale: 以廷臣为不足用，然国事愈不可为
+- id: guji-朱由检-endeavor-2
+  name_zh: 辽东军务经营
+  labels:
+    zh:
+    - 辽事
+    - 剿寇
+  start_date: 1629
+  highlight_event_id: guji-朱由检-event-liaodong
+  phases:
+  - key: brewing
+    name_zh: 裁革边赏
+    labels:
+      zh:
+      - 革广宁诸部赏
+    start_date: 1628
+    highlight_event_id: guji-朱由检-event-liaodong
+  - key: breakthrough
+    name_zh: 杀毛文龙后辽事愈坏
+    labels:
+      zh:
+      - 杀毛文龙
+    start_date: 1629
+    highlight_event_id: guji-朱由检-event-liaodong
+  - key: climax
+    name_zh: 用周延儒、温体仁、杨嗣昌
+    labels:
+      zh:
+      - 用事最久
+    start_date: 1635
+    highlight_event_id: guji-朱由检-event-ministers
+  - key: closure
+    name_zh: 内乱终成
+    labels:
+      zh:
+      - 流贼破京
+    start_date: 1644
+    highlight_event_id: guji-朱由检-event-fall
+  decisions:
+  - date: 1628
+    title_zh: 革广宁诸部赏
+    rationale: 求治太急，欲省饷整边，而辽左事愈坏
+events:
+- id: guji-朱由检-event-birth
+  date: 1610-12
+  year_of: 1610
+  type: birth
+  name_zh: 朱由检生于万历三十八年十二月
+- id: guji-朱由检-event-prince
+  date: 1622
+  year_of: 1622
+  type: title
+  name_zh: 天启二年封信王
+- id: guji-朱由检-event-accession
+  date: 1627
+  year_of: 1627
+  type: accession
+  name_zh: 明熹宗崩，朱由检即位，册周氏为皇后，明年改元崇祯
+- id: guji-朱由检-event-liaodong
+  date: 1629
+  year_of: 1629
+  type: military
+  name_zh: 革广宁诸部赏、杀毛文龙，辽左事愈坏
+- id: guji-朱由检-event-ministers
+  date: 1635
+  year_of: 1635
+  type: politics
+  name_zh: 周延儒、温体仁、杨嗣昌用事最久，帝先后易置宰相近五十人
+- id: guji-朱由检-event-fall
+  date: 1644-03
+  year_of: 1644
+  type: death
+  name_zh: 崇祯十七年甲申三 місяц月城破，帝后殉国
+- id: guji-朱由检-event-reign-end
+  date: 1644
+  year_of: 1644
+  type: reign_end
+  name_zh: 清顺治元年明亡，小腆纪年始以庄烈帝纪年
