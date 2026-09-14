@@ -1,0 +1,133 @@
+person:
+  qid: guji-明珠
+  name_zh: 明珠
+  names:
+    zh: 明珠
+    en: Mingju
+  lifespan:
+    birth:
+      date: '1635'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约天聪年间
+    death:
+      date: '1708'
+      precision: year
+      is_circa: true
+      raw: 康熙四十七年卒（约）
+  birth_date: '1635'
+  death_date: '1708'
+  era: 清代康熙年间
+  reign_ref: 康熙
+  archetype: 权臣
+  dilemmas:
+  - 恩宠与法纪之间，康熙念其平定三藩之劳而不即暴示罪状，然终因植党营私被罢斥
+  - 权势熏灼与言路弹劾之间，被郭琇露章胪欵抨击而无力钳制言路
+  lesson: 权位再高，若徇利太深、结交太广、不恪守官箴，终难保全恩礼
+  summary_first_person: 我明珠在康熙年间身为大学士，柄用有年，曾于平定三藩时赞理军务有劳，然竟不克自终，渐至植党营私、市恩通赂，为郭琇疏劾，立予罢斥，后又遭削职，虽量为录用仅授内大臣。
+  source_urls:
+  - https://www.zhihu.com/question/none
+endeavors:
+- id: guji-明珠-endeavor-1
+  name_zh: 赞理军务，助平三藩
+  phases:
+  - key: brewing
+    name_zh: 入阁柄用
+    labels:
+      zh: 柄用有年
+    start_date: '1673'
+    highlight_event_id: guji-明珠-event-career-1
+  - key: climax
+    name_zh: 平定三藩赞理军务
+    labels:
+      zh: 襄办讨平吴逆
+    start_date: '1674'
+    highlight_event_id: guji-明珠-event-career-2
+  - key: closure
+    name_zh: 以劳见保全
+    labels:
+      zh: 恩礼保全之念
+    start_date: '1681'
+    highlight_event_id: guji-明珠-event-career-2
+  decisions:
+  - date: '1674'
+    title_zh: 于用兵之时襄办军务
+    rationale: 康熙念其讨平吴逆曾有劳绩，故虽积弊而不即加罪
+- id: guji-明珠-endeavor-2
+  name_zh: 植党营私与罢斥
+  phases:
+  - key: brewing
+    name_zh: 擅权结党市恩通赂
+    labels:
+      zh: 势焰熏灼
+    start_date: '1677'
+    highlight_event_id: guji-明珠-event-career-3
+  - key: climax
+    name_zh: 郭琇特纠大臣疏劾
+    labels:
+      zh: 物议沸腾
+    start_date: '1688-02-06'
+    highlight_event_id: guji-明珠-event-career-3
+  - key: closure
+    name_zh: 罢斥后量用仅授内大臣
+    labels:
+      zh: 立子罢斥
+    start_date: '1688-02-11'
+    highlight_event_id: guji-明珠-event-career-4
+  decisions:
+  - date: '1688-02-11'
+    title_zh: 革去大学士
+    rationale: 因郭琇枚劾背公结党纳贿营私，康熙免其发明勒德洪明珠革去大学士，交领侍卫内大臣酌用
+events:
+- id: guji-明珠-event-birth
+  date: '1635'
+  year_of: '1635'
+  type: birth
+  title_zh: 明珠约生于此时
+  description: 生年史无明文，约为后金天聪年间满洲贵族之后
+- id: guji-明珠-event-death
+  date: '1708'
+  year_of: '1708'
+  type: death
+  title_zh: 明珠约卒于康熙四十七年
+  description: 罢斥后二十余年不复再加委任，身后约此年殁
+- id: guji-明珠-event-career-1
+  date: '1677'
+  year_of: '1677'
+  type: endeavor_event
+  endeavor_id: guji-明珠-endeavor-1
+  phase: brewing
+  title_zh: 身为大学士柄用有年
+  description: 阁中票拟俱由明珠指麾轻重任意余国柱承其风指，权势渐盛
+- id: guji-明珠-event-career-2
+  date: '1678'
+  year_of: '1678'
+  type: endeavor_event
+  endeavor_id: guji-明珠-endeavor-1
+  phase: climax
+  title_zh: 于平定三藩时赞理军务
+  description: 三藩之乱期间襄办讨平吴逆之劳，此为日后康熙曲予矜全之由
+- id: guji-明珠-event-career-3
+  date: '1688-02-06'
+  year_of: '1688'
+  type: endeavor_event
+  endeavor_id: guji-明珠-endeavor-2
+  phase: climax
+  title_zh: 郭琇上特纠大臣疏枚劾明珠
+  description: 康熙二十七年二月初六日郭琇胪列明珠背公营私实迹，指其要结群心挟取货贿、连结党羽，物议沸腾
+- id: guji-明珠-event-career-4
+  date: '1688-02-11'
+  year_of: '1688'
+  type: endeavor_event
+  endeavor_id: guji-明珠-endeavor-2
+  phase: closure
+  title_zh: 革去大学士交领侍卫内大臣酌用
+  description: 康熙二十七年二月十一日谕吏部革去明珠大学士之职，念其军劳不即暴示罪状，立予罢斥
+- id: guji-明珠-event-career-5
+  date: '1689'
+  year_of: '1689'
+  type: endeavor_event
+  endeavor_id: guji-明珠-endeavor-2
+  phase: closure
+  title_zh: 量为录用仅授内大臣
+  description: 后虽量为录用，仅授内大臣之职，距其身殁二十余年不复再加委任
