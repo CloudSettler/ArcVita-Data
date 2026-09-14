@@ -1,0 +1,132 @@
+person:
+  qid: guji-郑成功
+  name_zh: 郑成功
+  names:
+    zh: 郑成功
+    en: Zheng Chenggong
+  lifespan:
+    birth:
+      date: '1624-08-27'
+      precision: day
+      is_circa: false
+      raw: 天启四年
+    death:
+      date: '1662-06-23'
+      precision: day
+      is_circa: false
+      raw: 康熙元年
+  birth_date: '1624-08-27'
+  death_date: '1662-06-23'
+  era: 明末清初
+  reign_ref:
+  - 顺治
+  archetype: 抗清名将
+  dilemmas:
+  - 忠于明室与维系家族（父郑芝龙降清）之间的取舍
+  - 抗清复明与经营台湾根据地之间的战略抉择
+  lesson: 在故国倾覆之际，坚守信念、另辟根基，以孤军延续一方基业。
+  summary_first_person: 我本名郑森，为故明之将。清军南下后，我拒不从父降清，据东南沿海抗清多年。清廷先后遣总兵官王邦俊、浙闽总督陈锦等征讨我军；我转战潮州、漳州等地，后收复台湾，以为抗清复明之基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史稿/卷5
+endeavors:
+- id: guji-郑成功-endeavor-1
+  name_zh: 东南沿海抗清
+  labels:
+    zh:
+    - 抗清复明
+    - 转战闽粤
+  phases:
+  - key: brewing
+    name_zh: 起兵海上
+    labels:
+      zh:
+      - 招集旧部
+    start_date: '1646'
+    highlight_event_id: guji-郑成功-event-chaozhou
+  - key: breakthrough
+    name_zh: 转战潮漳
+    labels:
+      zh:
+      - 寇潮州
+      - 迎战清军
+    start_date: 1649-10
+    highlight_event_id: guji-郑成功-event-chaozhou
+  - key: climax
+    name_zh: 清廷大举征讨
+    labels:
+      zh:
+      - 陈锦来袭
+    start_date: 1652-07
+    highlight_event_id: guji-郑成功-event-chenjin
+  - key: closure
+    name_zh: 收复台湾
+    labels:
+      zh:
+      - 驱逐荷兰
+      - 开辟根据地
+    start_date: '1661'
+  decisions:
+  - date: 1649-10
+    title_zh: 出兵潮州
+    rationale: 抗清势力南移，欲取潮州为进据闽粤沿海之资。
+  - date: 1652-07
+    title_zh: 拒清招抚、迎战陈锦
+    rationale: 清廷遣浙闽总督陈锦督师来征，惟有据守海疆力战自保。
+- id: guji-郑成功-endeavor-2
+  name_zh: 经营台湾
+  labels:
+    zh:
+    - 收复台湾
+    - 屯垦建制
+  phases:
+  - key: brewing
+    name_zh: 谋取台澎
+    labels:
+      zh:
+      - 图略台湾
+    start_date: '1660'
+  - key: breakthrough
+    name_zh: 渡海东征
+    labels:
+      zh:
+      - 鹿耳门登陆
+    start_date: 1661-04
+  - key: climax
+    name_zh: 围降荷兰、建承天府
+    labels:
+      zh:
+      - 开府设治
+    start_date: 1662-02
+  decisions:
+  - date: '1661'
+    title_zh: 决意东征台湾
+    rationale: 南京之败后，须取台湾为久驻抗清之根基。
+events:
+- id: guji-郑成功-event-birth
+  name_zh: 郑成功出生
+  date: '1624-08-27'
+  year_of: 1624
+  type: birth
+  description: 郑成功生于日本平户，后为南明名将。
+- id: guji-郑成功-event-chaozhou
+  name_zh: 郑成功兵犯潮州，为王邦俊所败
+  date: 1649-10
+  year_of: 1649
+  type: endeavor
+  endeavor_id: guji-郑成功-endeavor-1
+  description: 顺治六年九月甲寅，故明将郑成功寇潮州，总兵官王邦俊击走之。
+  source: 清史稿·世祖本纪一
+- id: guji-郑成功-event-chenjin
+  name_zh: 清廷命陈锦征郑成功，陈锦至漳州遇害
+  date: 1652-07
+  year_of: 1652
+  type: endeavor
+  endeavor_id: guji-郑成功-endeavor-1
+  description: 顺治九年七月丙子，浙闽总督陈锦征郑成功，至漳州，为其下所杀。
+  source: 清史稿·世祖本纪二
+- id: guji-郑成功-event-death
+  name_zh: 郑成功病逝台湾
+  date: '1662-06-23'
+  year_of: 1662
+  type: death
+  description: 郑成功于收复台湾后不久病逝，年三十八。

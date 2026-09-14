@@ -1,0 +1,164 @@
+person:
+  qid: guji-nuerhaci
+  name_zh: 努尔哈齐（清太祖）
+  names:
+    zh: 努尔哈齐
+    en: Nurhaci
+  lifespan:
+    birth:
+      date: '1559'
+      precision: year
+      is_circa: false
+      raw: 明嘉靖三十八年（己未）
+    death:
+      date: '1626-09-30'
+      precision: day
+      is_circa: false
+      raw: 天命十一年八月庚戌（1626年），崩于爱鸡堡，年六十有八
+  birth_date: '1559'
+  death_date: '1626-09-30'
+  era: 明朝末年至后金天命年间
+  reign_ref: 天命（1616—1626）
+  archetype: 开国创业之君
+  dilemmas:
+  - 祖父与父亲死于明兵之难，复仇与依附明朝之间的抉择
+  - 对明朝称臣入贡与自立建国称汗之间的两难
+  - 长子褚英暴伉失众，授政与处死之间的痛楚
+  lesson: 蒙难艰贞，忍辱蓄势，以十三甲起家而终成大业。
+  summary_first_person: 我以十三副遗甲起兵，先报祖仇，继并建州，破九部之师于古勒，灭哈达、辉发、乌拉、叶赫。以七大恨告天伐明，萨尔浒一战破其三路，遂取辽沈、广宁，迁都沈阳，建国号金，建元天命，用兵三十余年而成帝业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/清史稿/卷1
+endeavors:
+- id: guji-nuerhaci-endeavor-1
+  name_zh: 起兵统一建州女真
+  phases:
+  - key: brewing
+    name_zh: 蒙难蓄志
+    labels:
+      zh: 十三甲起家、结盟纳贤
+    start_date: '1583'
+    highlight_event_id: guji-nuerhaci-event-raise-army
+  - key: breakthrough
+    name_zh: 报仇起兵
+    labels:
+      zh: 讨尼堪外兰、克图伦城
+    start_date: 1583-05
+    highlight_event_id: guji-nuerhaci-event-raise-army
+  - key: climax
+    name_zh: 兼并诸部
+    labels:
+      zh: 破九部联军、灭哈达辉发乌拉
+    start_date: 1593-09
+    highlight_event_id: guji-nuerhaci-event-nine-tribes
+  - key: closure
+    name_zh: 一统建州
+    labels:
+      zh: 尽收长白诸路、建州奠定霸业
+    start_date: '1591'
+    highlight_event_id: guji-nuerhaci-event-nineteen
+  decisions:
+  - date: 1593-09
+    title_zh: 破九部之师，先败前军乘胜逐北
+    rationale: 乌合之众其志不一，败其前军则军必反走。
+  - date: 1599-09
+    title_zh: 乘哈达内乱伐哈达
+    rationale: 哈达送质乞援复私于叶赫，师出有名。
+- id: guji-nuerhaci-endeavor-2
+  name_zh: 建国称汗伐明
+  phases:
+  - key: brewing
+    name_zh: 定制立国
+    labels:
+      zh: 釐定兵制、创制国书、置理政大臣
+    start_date: 1599-02
+    highlight_event_id: guji-nuerhaci-event-guo-shu
+  - key: breakthrough
+    name_zh: 称汗建元
+    labels:
+      zh: 即位建元天命、定国号金
+    start_date: '1616'
+    highlight_event_id: guji-nuerhaci-event-throne
+  - key: climax
+    name_zh: 七大恨伐明与萨尔浒大捷
+    labels:
+      zh: 破明四路大军、克沈阳辽阳
+    start_date: '1618'
+    highlight_event_id: guji-nuerhaci-event-sarhu
+  - key: closure
+    name_zh: 定都沈阳宁远受挫
+    labels:
+      zh: 迁都盛京、宁远撤军、崩于爱鸡堡
+    start_date: 1626-02
+    highlight_event_id: guji-nuerhaci-event-death
+  decisions:
+  - date: '1618'
+    title_zh: 以七大恨告天伐明
+    rationale: 明人助叶赫、杀吾祖父、侵夺所属，兴师有名。
+  - date: 1619-03
+    title_zh: 萨尔浒先破北路杜松军
+    rationale: 明兵由南来者诱我南，北必有重兵，宜先破之。
+  - date: 1625-03
+    title_zh: 迁都沈阳
+    rationale: 凡五迁乃定都，规模更远。
+events:
+- id: guji-nuerhaci-event-birth
+  date: '1559'
+  year_of: '1559'
+  type: birth
+  name_zh: 努尔哈齐生于明嘉靖三十八年
+- id: guji-nuerhaci-event-raise-army
+  date: 1583-05
+  year_of: '1583'
+  type: endeavor
+  name_zh: 以十三副遗甲起兵讨尼堪外兰，克图伦城
+- id: guji-nuerhaci-event-nine-tribes
+  date: 1593-09
+  year_of: '1593'
+  type: endeavor
+  name_zh: 古勒山之战大破叶赫等九部三万联军
+- id: guji-nuerhaci-event-nineteen
+  date: '1617'
+  year_of: '1617'
+  type: endeavor
+  name_zh: 征东海萨哈连部，渡黑龙江取诸路
+- id: guji-nuerhaci-event-guo-shu
+  date: '1595'
+  year_of: '1595'
+  type: endeavor
+  name_zh: 始制国书
+- id: guji-nuerhaci-event-throne
+  date: '1616'
+  year_of: '1616'
+  type: milestone
+  name_zh: 即汗位，建元天命，定国号曰金
+- id: guji-nuerhaci-event-qida-hen-start
+  date: '1618'
+  year_of: '1618'
+  type: endeavor
+  name_zh: 以七大恨告天，伐明克抚顺，降李永芳
+- id: guji-nuerhaci-event-sarhu
+  date: '1619-04-14'
+  year_of: '1619'
+  type: endeavor
+  name_zh: 萨尔浒之战四日之内连破明三路大军
+- id: guji-nuerhaci-event-shenyang-liaoyang
+  date: '1621-03-18'
+  year_of: '1621'
+  type: endeavor
+  name_zh: 攻克沈阳、辽阳，袁应泰自焚死
+- id: guji-nuerhaci-event-capital-shengjing
+  date: 1625-03
+  year_of: '1625'
+  type: milestone
+  name_zh: 迁都沈阳，定为盛京
+- id: guji-nuerhaci-event-ningyuan
+  date: 1626-02
+  year_of: '1626'
+  type: endeavor
+  name_zh: 攻宁远为袁崇焕所挫，撤军回沈
+  note: 朕用兵以来未有抗颜行者，袁崇焕何人乃能尔耶。
+- id: guji-nuerhaci-event-death
+  date: '1626-09-30'
+  year_of: '1626'
+  type: death
+  name_zh: 崩于爱鸡堡，在位十一年，年六十有八，葬福陵
