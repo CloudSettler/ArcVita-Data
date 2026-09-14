@@ -1,0 +1,134 @@
+person:
+  qid: guji-张煌言
+  name_zh: 张煌言
+  names:
+    zh: 张煌言
+    en: Zhang Huangyan
+  lifespan:
+    birth:
+      date: '1620'
+      precision: year
+      is_circa: true
+      raw: 生年史无明载，约天启年间
+    death:
+      date: '1664'
+      precision: year
+      is_circa: false
+      raw: 康熙初年抗清失败后就义
+  birth_date: '1620'
+  death_date: '1664'
+  era: 南明（永历）至清初
+  reign_ref: 永明王永历年号（永历）
+  archetype:
+  - 孤忠抗清的儒将
+  dilemmas:
+  - 依傍郑成功水师而兵力单薄，屡战屡败仍不肯归顺新朝
+  - 复国大势已去，忠义与存身之间的抉择
+  lesson: 依人成事者，须自审其力；势尽而不夺其志，是为孤忠。
+  summary_first_person: 我张煌言以兵部职衔从海上会师，随延平王破瓜州、取镇江、薄金陵；金陵一败，兵散势孤，我心犹在故国。
+  source_urls:
+  - https://example.org/guji/郑成功之乱
+endeavors:
+- id: guji-张煌言-endeavor-1
+  name_zh: 会师郑成功北伐金陵
+  phases:
+  - key: brewing
+    name_zh: 从军海上
+    labels:
+      zh:
+      - 南明兵部
+    start_date: '1645'
+  - key: breakthrough
+    name_zh: 破瓜州夺镇江
+    labels:
+      zh:
+      - 会水师断滚江龙
+    start_date: 1659-07
+    highlight_event_id: guji-张煌言-event-1
+  - key: climax
+    name_zh: 进薄金陵
+    labels:
+      zh:
+      - 随师围金陵
+    start_date: 1659-08
+    highlight_event_id: guji-张煌言-event-2
+  - key: closure
+    name_zh: 兵败溃散
+    labels:
+      zh:
+      - 金陵之败
+    start_date: 1659-09
+    highlight_event_id: guji-张煌言-event-3
+  decisions:
+  - date: 1659-07
+    title_zh: 候滚江龙既断，进据瓜州上流
+    rationale: 焚夺满洲木城，扼瓜州门户，为大军渡江开路
+- id: guji-张煌言-endeavor-2
+  name_zh: 海上孤军守节
+  phases:
+  - key: brewing
+    name_zh: 依附两岛
+    labels:
+      zh:
+      - 依郑氏水师
+    start_date: '1650'
+  - key: closure
+    name_zh: 势穷而志不改
+    labels:
+      zh:
+      - 孤忠守节
+    start_date: '1664'
+  decisions:
+  - date: '1664'
+    title_zh: 不降清廷，终以死节
+    rationale: 郑氏既平，复国无望，宁死不事二朝
+events:
+- id: guji-张煌言-event-birth
+  date: '1620'
+  event_type: birth
+  summary_zh: 张煌言约生于天启年间
+  entities:
+  - guji-张煌言
+  sources:
+  - https://example.org/guji/郑成功之乱
+- id: guji-张煌言-event-1
+  date: 1659-07
+  event_type: endeavor
+  year_of: '1659'
+  summary_zh: 与水师提督罗蕴章候滚江龙既断，进据瓜州上流，焚夺满洲木城，助成功破瓜州
+  entities:
+  - guji-张煌言
+  related_entities:
+  - guji-郑成功
+  sources:
+  - https://example.org/guji/郑成功之乱
+- id: guji-张煌言-event-2
+  date: 1659-08
+  event_type: endeavor
+  year_of: '1659'
+  summary_zh: 以伪兵部职衔随郑成功大军渡江，进薄金陵
+  entities:
+  - guji-张煌言
+  related_entities:
+  - guji-郑成功
+  sources:
+  - https://example.org/guji/郑成功之乱
+- id: guji-张煌言-event-3
+  date: 1659-09
+  event_type: endeavor
+  year_of: '1659'
+  summary_zh: 金陵一役郑成功大败，诸将溃走，北伐之役终败
+  entities:
+  - guji-张煌言
+  related_entities:
+  - guji-郑成功
+  sources:
+  - https://example.org/guji/郑成功之乱
+- id: guji-张煌言-event-death
+  date: '1664'
+  event_type: death
+  summary_zh: 康熙初年抗清势穷，不屈而死
+  entities:
+  - guji-张煌言
+  sources:
+  - https://example.org/guji/郑成功之乱
