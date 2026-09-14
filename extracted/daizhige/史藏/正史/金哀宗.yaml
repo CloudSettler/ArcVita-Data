@@ -1,0 +1,149 @@
+person:
+  qid: guji-金哀宗
+  name_zh: 金哀宗
+  names:
+    zh: 金哀宗
+    en: Emperor Aizong of Jin
+  lifespan:
+    birth:
+      date: '1198'
+      precision: year
+      is_circa: false
+      raw: 金章宗泰和八年（1198年）
+    death:
+      date: '1234-02-09'
+      precision: day
+      is_circa: false
+  birth_date: '1198'
+  death_date: '1234-02-09'
+  era: 金末年
+  reign_ref: 金朝第九位皇帝，年号正大、开兴、天兴，1234年蔡州城破前传位完颜承麟后自缢
+  archetype: 末代救亡之君
+  dilemmas:
+  - 蒙古大军压境，欲与南宋修好却两线受敌
+  - 都城不守，迁蔡州以避兵锋，然大势已去
+  - 守绪急于传位以图破局，反成亡国之君
+  lesson: 内政修明可延国祚，然强邻环伺、独木难支，守成亦需天下之势。
+  summary_first_person: 我是完颜守绪，即金哀宗。即位后力争与宋、夏修好，专意抗蒙，然国势已颓。汴京不守，我辗转迁蔡州。宋蒙合围之下，我传位于东面元帅完颜承麟，自缢于幽兰轩，金遂亡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/金史/卷18
+endeavors:
+- id: guji-金哀宗-endeavor-1
+  name_zh: 励精图治抗蒙
+  phases:
+  - key: brewing
+    name_zh: 即位改制
+    labels:
+      zh:
+      - 正大改制
+    start_date: '1224-01-14'
+    highlight_event_id: guji-金哀宗-event-accession
+  - key: breakthrough
+    name_zh: 西线暂安
+    labels:
+      zh:
+      - 大昌原之捷
+    start_date: '1228'
+    highlight_event_id: guji-金哀宗-event-dachangyuan
+  - key: climax
+    name_zh: 三峰山惨败
+    labels:
+      zh:
+      - 三峰山之战
+    start_date: 1232-02
+    highlight_event_id: guji-金哀宗-event-santaoshan
+  - key: closure
+    name_zh: 迁蔡亡国
+    labels:
+      zh:
+      - 蔡州之围
+    start_date: 1233-06
+    highlight_event_id: guji-金哀宗-event-caizhou
+  decisions:
+  - date: '1224'
+    title_zh: 与宋夏议和
+    rationale: 专力御蒙，避免多面受敌
+  - date: '1232-01-01'
+    title_zh: 弃汴出逃
+    rationale: 汴京围困粮尽，决意出奔以图再举
+- id: guji-金哀宗-endeavor-2
+  name_zh: 末路传位殉国
+  phases:
+  - key: climax
+    name_zh: 欲亲征突围
+    labels:
+      zh:
+      - 谋取昌州
+    start_date: '1234-02-01'
+    highlight_event_id: guji-金哀宗-event-abdicate
+  - key: closure
+    name_zh: 幽兰轩自缢
+    labels:
+      zh:
+      - 身死国灭
+    start_date: '1234-02-09'
+    highlight_event_id: guji-金哀宗-event-death
+  decisions:
+  - date: '1234-02-08'
+    title_zh: 传位完颜承麟
+    rationale: 己身不堪策马突围，冀承麟以武略得脱，国统不绝
+events:
+- id: guji-金哀宗-event-birth
+  date: '1198'
+  year_of: 1198
+  type: birth
+  person_qid: guji-金哀宗
+  name_zh: 出生
+  detail: 完颜守绪生于金章宗泰和八年，为金宣宗第三子。
+- id: guji-金哀宗-event-accession
+  date: '1224-01-14'
+  year_of: 1224
+  type: endeavor
+  person_qid: guji-金哀宗
+  endeavor_id: guji-金哀宗-endeavor-1
+  phase_key: brewing
+  name_zh: 即皇帝位
+  detail: 宣宗驾崩，守绪继位于柩前，改元正大。
+- id: guji-金哀宗-event-dachangyuan
+  date: '1228'
+  year_of: 1228
+  type: endeavor
+  person_qid: guji-金哀宗
+  endeavor_id: guji-金哀宗-endeavor-1
+  phase_key: breakthrough
+  name_zh: 大昌原之战
+  detail: 完颜陈和尚率四百骑击破蒙古军，金军取得罕见大捷。
+- id: guji-金哀宗-event-santaoshan
+  date: 1232-02
+  year_of: 1232
+  type: endeavor
+  person_qid: guji-金哀宗
+  endeavor_id: guji-金哀宗-endeavor-1
+  phase_key: climax
+  name_zh: 三峰山之战
+  detail: 金军主力败于托雷军，完颜合达、陈和尚等名将殉难，金国精锐尽失。
+- id: guji-金哀宗-event-caizhou
+  date: 1233-06
+  year_of: 1233
+  type: endeavor
+  person_qid: guji-金哀宗
+  endeavor_id: guji-金哀宗-endeavor-1
+  phase_key: closure
+  name_zh: 迁都蔡州
+  detail: 归德出走，幸蔡州，宋蒙合兵来攻。
+- id: guji-金哀宗-event-abdicate
+  date: '1234-02-08'
+  year_of: 1234
+  type: endeavor
+  person_qid: guji-金哀宗
+  endeavor_id: guji-金哀宗-endeavor-2
+  phase_key: climax
+  name_zh: 传位完颜承麟
+  detail: 蔡州城将破，传位于东面元帅承麟，次日承麟即位。
+- id: guji-金哀宗-event-death
+  date: '1234-02-09'
+  year_of: 1234
+  type: death
+  person_qid: guji-金哀宗
+  name_zh: 自缢殉国
+  detail: 蔡州城破，自缢于幽兰轩，金亡。
