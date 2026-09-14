@@ -1,0 +1,104 @@
+person:
+  qid: guji-tanghe
+  name_zh: 汤和
+  names:
+    zh: 汤和
+    en: Tang He
+  lifespan:
+    birth:
+      date: '1326'
+      precision: year
+      is_circa: true
+      raw: 元天历年间
+    death:
+      date: '1395'
+      precision: year
+      is_circa: false
+      raw: 明洪武二十八年
+  birth_date: '1326'
+  death_date: '1395'
+  era: 元末明初
+  reign_ref:
+  - 元至正
+  - 明洪武
+  archetype: 开国功臣
+  dilemmas:
+  - 在郭子兴部诸将跋扈不听命之际，独慎守军纪，效忠朱元璋
+  lesson: 功高而不骄，谨听号令者终得善始善终
+  summary_first_person: 我汤和与明太祖同里，至正十三年从太祖于濠梁起兵，后在攻和阳之战中夺西门桥先登破城。诸将多恃功骄纵，惟我听命惟谨，遂为太祖所深信，终为开国名将。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史纪事本末/卷一
+endeavors:
+- id: guji-tanghe-endeavor-1
+  key: 从征濠滁
+  name_zh: 随太祖起兵濠梁
+  labels:
+    zh:
+    - 从军起兵
+  start_date: '1353'
+  decisions:
+  - date: '1353'
+    title_zh: 归附朱元璋濠梁募兵
+    rationale: 太祖归乡里募兵得七百人，与徐达等同往归附
+  phases:
+  - key: brewing
+    name_zh: 乡里应募
+    labels:
+      zh:
+      - 同里相从
+    start_date: '1353'
+- id: guji-tanghe-endeavor-2
+  key: 攻拔和阳
+  name_zh: 和阳之战夺桥先登
+  labels:
+    zh:
+    - 夺桥登城
+  start_date: '1355'
+  decisions:
+  - date: '1355'
+    title_zh: 夺小西门桥先登
+    rationale: 遇元兵于小西门，率将士夺桥而登，遂据和阳
+  phases:
+  - key: breakthrough
+    name_zh: 夺桥破城
+    labels:
+      zh:
+      - 先登之功
+    start_date: '1355'
+    highlight_event_id: guji-tanghe-event-bridge
+events:
+- id: guji-tanghe-event-birth
+  date: '1326'
+  year_of: 1326
+  type: birth
+  title_zh: 汤和生于濠州（约）
+  participants:
+  - guji-tanghe
+- id: guji-tanghe-event-join
+  date: '1353'
+  year_of: 1353
+  type: endeavor
+  title_zh: 与徐达等同往归附朱元璋
+  participants:
+  - guji-tanghe
+- id: guji-tanghe-event-bridge
+  date: '1355'
+  year_of: 1355
+  type: endeavor
+  title_zh: 攻和阳夺小西门桥先登
+  participants:
+  - guji-tanghe
+- id: guji-tanghe-event-obedience
+  date: '1355'
+  year_of: 1355
+  type: endeavor
+  title_zh: 太祖总和阳兵，诸将跋扈，惟汤和听命惟谨
+  participants:
+  - guji-tanghe
+- id: guji-tanghe-event-death
+  date: '1395'
+  year_of: 1395
+  type: death
+  title_zh: 汤和卒（据史补）
+  participants:
+  - guji-tanghe

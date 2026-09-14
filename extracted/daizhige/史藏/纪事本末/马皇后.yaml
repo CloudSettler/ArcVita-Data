@@ -1,0 +1,100 @@
+person:
+  qid: guji-马皇后
+  name_zh: 马皇后
+  names:
+    zh: 马皇后、高皇后、马公女
+    en: Empress Ma
+  lifespan:
+    birth:
+      date: '1332'
+      precision: year
+      is_circa: true
+      raw: 约元至顺年间
+    death:
+      date: '1382'
+      precision: year
+      is_circa: false
+      raw: 洪武十五年
+  birth_date: '1332'
+  death_date: '1382'
+  era: 元末明初
+  reign_ref: 洪武
+  archetype: 贤后
+  dilemmas:
+  - 义父郭子兴与朱元璋之间嫌隙渐生时，身处两家夹缝如何保全夫婿
+  - 养女身份与_Real_ 姓氏隐蔽之间，如何在权力中心自处
+  lesson: 内助有德，以柔济刚；患难之中倾其所有以济义，方为持家安国之本
+  summary_first_person: 我是马氏，宿州马公之女，郭子兴抚养我如己女，嫁与朱元璋为妻。濠州军中嫌隙四起时，我倾尽所有馈子兴妻张氏，使疑衅渐释，护其周全。后夫起兵渡江成帝业，我立为中宫皇后。
+endeavors:
+- id: guji-马皇后-endeavor-1
+  name_zh: 辅佐朱元璋起兵定业
+  phases:
+  - key: brewing
+    name_zh: 归嫁宗氏
+    labels:
+      zh:
+      - 濠州联姻
+    start_date: 1352-03-15
+    highlight_event_id: guji-马皇后-event-marriage
+  - key: breakthrough
+    name_zh: 解疑保夫
+    labels:
+      zh:
+      - 愤释疑衅
+    start_date: 1355-01-01
+    highlight_event_id: guji-马皇后-event-mediation
+  - key: climax
+    name_zh: 正位中宫
+    labels:
+      zh:
+      - 母仪天下
+    start_date: '1368'
+    highlight_event_id: guji-马皇后-event-empress
+  - key: closure
+    name_zh: 崩逝长秋
+    labels:
+      zh:
+      - 洪武十五年崩
+    start_date: '1382'
+    highlight_event_id: guji-马皇后-event-death
+  decisions:
+  - date: 1355-01-01
+    title_zh: 悉所有遗子兴妻张氏
+    rationale: 子兴惑谗言疑太祖，欲借张氏之喜以释嫌隙，保全夫婿
+  - date: '1368'
+    title_zh: 母仪天下，仍尚节俭
+    rationale: 虽正位中宫，不忘贫贱时本色，以德佐治
+events:
+- id: guji-马皇后-event-birth
+  date: '1332'
+  year_of: 1332
+  title_zh: 马氏生于宿州马公之家，后为郭子兴所抚养
+  type: birth
+  person_id: guji-马皇后
+- id: guji-马皇后-event-marriage
+  date: 1352-03-15
+  year_of: 1352
+  title_zh: 郭子兴以马氏妻朱元璋，即后世所称高皇后
+  type: endeavor
+  endeavor_id: guji-马皇后-endeavor-1
+  person_id: guji-马皇后
+- id: guji-马皇后-event-mediation
+  date: 1355-01-01
+  year_of: 1355
+  title_zh: 濠州有谮太祖者，马皇后悉所有遗子兴妻张氏，张氏喜，疑衅渐释
+  type: endeavor
+  endeavor_id: guji-马皇后-endeavor-1
+  person_id: guji-马皇后
+- id: guji-马皇后-event-empress
+  date: '1368'
+  year_of: 1368
+  title_zh: 朱元璋即帝位，册马氏为中宫皇后
+  type: endeavor
+  endeavor_id: guji-马皇后-endeavor-1
+  person_id: guji-马皇后
+- id: guji-马皇后-event-death
+  date: '1382'
+  year_of: 1382
+  title_zh: 马皇后崩，谥高皇后
+  type: death
+  person_id: guji-马皇后
