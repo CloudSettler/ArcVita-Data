@@ -1,0 +1,96 @@
+person:
+  qid: guji-华佗
+  name_zh: 华佗
+  names:
+    zh: 华佗
+    en: Hua Tuo
+  lifespan:
+    birth:
+      date: 约145
+      precision: year
+      is_circa: true
+      raw: 约东汉桓帝时
+    death:
+      date: 约208
+      precision: year
+      is_circa: true
+      raw: 约建安十三年前
+  birth_date: 约145
+  death_date: 约208
+  era: 东汉末年
+  reign_ref: 汉献帝建安年间
+  archetype: 神医
+  dilemmas:
+  - 技术济世与仕途功名的抉择
+  - 行医自由与权臣强召的冲突
+  lesson: 医者以仁心仁术济人，虽身殁而道术传于后世
+  summary_first_person: 我是东汉末年的方技名家华佗，以医术名世，与弟子吴普、樊阿同载于《三国志·魏书·方伎传》。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷29
+endeavors:
+- id: guji-华佗-endeavor-1
+  name_zh: 行医济世
+  phases:
+  - key: brewing
+    name_zh: 游学徐土
+    labels:
+      zh:
+      - 游学
+      - 兼通数经
+    start_date: 约160
+  - key: breakthrough
+    name_zh: 精方药针灸
+    labels:
+      zh:
+      - 方药
+      - 针灸
+    start_date: 约170
+    highlight_event_id: guji-华佗-event-endeavor-1
+  - key: climax
+    name_zh: 创制五禽戏
+    labels:
+      zh:
+      - 五禽戏
+      - 养生
+    start_date: 约200
+    highlight_event_id: guji-华佗-event-endeavor-2
+  - key: closure
+    name_zh: 身殁术传
+    labels:
+      zh:
+      - 狱中焚书
+      - 弟子传术
+    start_date: 约208
+    highlight_event_id: guji-华佗-event-death
+  decisions:
+  - date: 约200
+    title_zh: 拒绝为官、以医为业
+    rationale: 耻以医见业，然志在济世救人
+  - date: 约205
+    title_zh: 传授吴普五禽戏导引之法
+    rationale: 人体欲得劳动，但不当使极耳，导引可延年
+events:
+- id: guji-华佗-event-birth
+  event_type: birth
+  date: 约145
+  year_of: 145
+  name_zh: 华佗出生
+  description: 华佗生于沛国谯县一带（一说），东汉末年人
+- id: guji-华佗-event-endeavor-1
+  event_type: endeavor
+  date: 约170
+  year_of: 170
+  name_zh: 精通方药针灸而名扬
+  description: 华佗游学徐土，兼通数经，晓养性之术，精方药针灸，疗疾多奇验，载于《三国志·魏书·方伎传》
+- id: guji-华佗-event-endeavor-2
+  event_type: endeavor
+  date: 约200
+  year_of: 200
+  name_zh: 创五禽戏授弟子吴普
+  description: 华佗创五禽戏导引之术，授弟子吴普，普施行之年九十余而耳目聪明、齿牙完坚
+- id: guji-华佗-event-death
+  event_type: death
+  date: 约208
+  year_of: 208
+  name_zh: 华佗去世
+  description: 相传华佗因不肯久事权门为曹操所怒而死于狱中，其医术由弟子吴普、樊阿相传

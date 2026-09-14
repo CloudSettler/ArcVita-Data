@@ -1,0 +1,111 @@
+person:
+  qid: guji-鲁肃
+  name_zh: 鲁肃
+  names:
+    zh: 鲁肃
+    en: Lu Su
+  lifespan:
+    birth:
+      date: '0172'
+      precision: year
+      is_circa: true
+      raw: 约生于东汉建宁年间
+    death:
+      date: '0217'
+      precision: year
+      is_circa: false
+      raw: 建安二十二年卒
+  birth_date: '0172'
+  death_date: '0217'
+  era: 东汉末至三国吴
+  reign_ref: 吴主权（孙权）时期
+  archetype: strategist
+  dilemmas:
+  - 在汉室倾颓之际选择依附孙权，成就偏霸之业
+  - 主张借荆州与刘备结盟，与周瑜等强硬派意见相左
+  lesson: 联盟共存、着眼大局的方略，胜于一时之争
+  summary_first_person: 我鲁肃，字子敬，临淮东城人，见汉室将倾，乃指囷赠粮与周瑜，归附孙权，进榻上之策，力主联刘抗曹，赞划赤壁之胜，后代周瑜领兵，周旋荆州，卒于任上。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷54
+endeavors:
+- id: guji-鲁肃-endeavor-1
+  key: brewing
+  name_zh: 佐吴创业
+  labels:
+    zh: 指囷赠粮·榻上策
+  start_date: 0198
+  highlight_event_id: guji-鲁肃-event-grain
+  decisions:
+  - date: '0200'
+    title_zh: 携属归附孙权
+    rationale: 见权有帝王之资，遂定君臣之分
+- id: guji-鲁肃-endeavor-2
+  key: breakthrough
+  name_zh: 赞画赤壁
+  labels:
+    zh: 联刘抗曹
+  start_date: 0208
+  highlight_event_id: guji-鲁肃-event-chibi
+  decisions:
+  - date: 0208
+    title_zh: 劝孙权决计抗曹，使结好刘备
+    rationale: 曹操势大，唯联合刘备共拒之方可图存
+- id: guji-鲁肃-endeavor-3
+  key: climax
+  name_zh: 代瑜镇荆州
+  labels:
+    zh: 领兵维盟
+  start_date: '0210'
+  highlight_event_id: guji-鲁肃-event-succeed
+  decisions:
+  - date: '0210'
+    title_zh: 代周瑜镇陆口，主张借荆州与刘备
+    rationale: 以荆州借刘，使共拒曹操，成鼎足之势
+- id: guji-鲁肃-endeavor-4
+  key: closure
+  name_zh: 抚军善终
+  labels:
+    zh: 卒于任
+  start_date: '0217'
+  highlight_event_id: guji-鲁肃-event-death
+  decisions:
+  - date: '0217'
+    title_zh: 拜汉昌太守、偏将军，寻卒
+    rationale: 恪尽职守，维持孙刘之盟至终
+events:
+- id: guji-鲁肃-event-birth
+  date: '0172'
+  year_of: 172
+  type: birth
+  title_zh: 鲁肃生（约）
+  summary: 鲁肃约于此年生于临淮东城。
+- id: guji-鲁肃-event-grain
+  date: 0198
+  year_of: 198
+  type: career
+  title_zh: 指囷赠粮于周瑜
+  summary: 周瑜求粮，鲁肃家有两囷米各三千斛，乃指一囷赠之，遂与瑜相交。
+- id: guji-鲁肃-event-loaces
+  date: '0200'
+  year_of: 200
+  type: career
+  title_zh: 进榻上之策
+  summary: 鲁肃与孙权合榻对饮，进言鼎足江东、以图天下之策。
+- id: guji-鲁肃-event-chibi
+  date: 0208
+  year_of: 208
+  type: career
+  title_zh: 联刘抗曹，赤壁破敌
+  summary: 鲁肃劝孙权召回周瑜决计抗曹，并赴当阳迎刘备，协力赤壁大破曹军。
+- id: guji-鲁肃-event-succeed
+  date: '0210'
+  year_of: 210
+  type: career
+  title_zh: 代周瑜领兵镇陆口
+  summary: 周瑜卒，鲁肃代领其众，拜偏将军、汉昌太守，主张借荆州与刘备以共御曹操。
+- id: guji-鲁肃-event-death
+  date: '0217'
+  year_of: 217
+  type: death
+  title_zh: 鲁肃卒
+  summary: 鲁肃卒于任上，年四十六，孙权为之举哀。

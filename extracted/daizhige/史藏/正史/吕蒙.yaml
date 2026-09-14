@@ -1,0 +1,113 @@
+person:
+  qid: guji-吕蒙
+  name_zh: 吕蒙
+  names:
+    zh: 吕蒙
+    en: Lü Meng
+  lifespan:
+    birth:
+      date: 0178
+      precision: year
+      is_circa: true
+      raw: 约178
+    death:
+      date: 0219
+      precision: year
+      is_circa: false
+      raw: 建安二十四年（219）
+  birth_date: 约178
+  death_date: '219'
+  era: 东汉末／三国吴
+  reign_ref: 孙权时期
+  archetype: strategist_general
+  dilemmas:
+  - 带病袭取荆州之后如何处置关羽及其旧部
+  - 外盟（吴蜀）与国家实利（荆州）之间的两难
+  lesson: 士别三日当刮目相待；白衣渡江示以谋略而非武勇
+  summary_first_person: 我吕蒙早年以勇猛知名，蒙孙权劝学，发愤读书，见识日进，鲁肃见我叹称非复吴下阿蒙。后来我设计袭取荆州，白衣渡江，使士仁、糜芳不战而降，擒杀关羽，为吴夺回荆州，然功成而身病卒。
+  source_urls:
+  - https://ctext.org/book-of-han/
+endeavors:
+- id: guji-吕蒙-endeavor-1
+  name_zh: 佐孙氏征战江东
+  labels:
+    zh: 从军功业
+  phases:
+  - key: brewing
+    name_zh: 早年从征
+    labels:
+      zh: 少为孙策将随权定业
+    start_date: '0200'
+    highlight_event_id: guji-吕蒙-event-career-1
+  - key: breakthrough
+    name_zh: 劝学进业
+    labels:
+      zh: 孙权劝学笃志就学
+    start_date: 0208
+    highlight_event_id: guji-吕蒙-event-career-2
+  - key: climax
+    name_zh: 白衣渡江袭荆州
+    labels:
+      zh: 伏精兵于舟中使白衣摇橹作商贾服潜师密发
+    start_date: 0219
+    highlight_event_id: guji-吕蒙-event-career-3
+  - key: closure
+    name_zh: 功成病死
+    labels:
+      zh: 定荆州后病卒
+    start_date: 0219
+    highlight_event_id: guji-吕蒙-event-death
+  decisions:
+  - date: 0208
+    title_zh: 受孙权劝学，发愤读书
+    rationale: 以为为将须通经史大义，遂笃志不倦，见识日进
+  - date: 0219
+    title_zh: 定计袭取荆州、招降士仁糜芳
+    rationale: 知关羽北伐襄樊、后方空虚，且羽素轻士仁糜芳，潜师密发可不战而定
+- id: guji-吕蒙-endeavor-2
+  name_zh: 谋取荆吴之略
+  labels:
+    zh: 战略谋划
+  phases:
+  - key: brewing
+    name_zh: 与鲁肃论防关
+    labels:
+      zh: 陈画五策肃拊其背
+    start_date: '0210'
+    highlight_event_id: guji-吕蒙-event-career-2
+  - key: climax
+    name_zh: 藏兵奉书麻痹关羽
+    labels:
+      zh: 伪称病笃代以陆逊
+    start_date: 0219
+    highlight_event_id: guji-吕蒙-event-career-3
+  decisions:
+  - date: 0219
+    title_zh: 称疾而以陆逊代守，示弱于关羽
+    rationale: 使羽撤后方之兵北赴樊城，为潜师溯江西上创造条件
+events:
+- id: guji-吕蒙-event-birth
+  type: birth
+  date: 0178
+  year_of: 178
+  description: 吕蒙生，汝南富陂人
+- id: guji-吕蒙-event-career-1
+  type: career
+  date: '0200'
+  year_of: 200
+  description: 吕蒙少依孙策部曲，随孙权征伐，以战功进用
+- id: guji-吕蒙-event-career-2
+  type: career
+  date: '0210'
+  year_of: 210
+  description: 鲁肃过蒙论议，蒙画策五条，肃叹曰非复吴下阿蒙；吕蒙传云其谋略自此益著
+- id: guji-吕蒙-event-career-3
+  type: career
+  date: 0219
+  year_of: 219
+  description: 关羽围樊之际，吕蒙称病还建业，伏精兵于舟𦩷𦪇之中，使白衣摇橹作商贾服，潜师溯江西上，遂到南郡，士仁、糜芳皆降，尽虏羽士众妻子
+- id: guji-吕蒙-event-death
+  type: death
+  date: 0219
+  year_of: 219
+  description: 取荆州后功成疾发而卒，孙权哀痛之

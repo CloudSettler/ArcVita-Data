@@ -1,0 +1,101 @@
+person:
+  qid: guji-张辽
+  name_zh: 张辽
+  names:
+    zh: 张辽
+    en: Zhang Liao
+  lifespan:
+    birth:
+      date: 0169
+      precision: year
+      is_circa: true
+      raw: 生年不详，约汉灵帝建宁年间
+    death:
+      date: '0222'
+      precision: year
+      is_circa: false
+  birth_date: 0169
+  death_date: '0222'
+  era: 东汉末至三国曹魏
+  reign_ref: 汉灵帝、汉献帝、魏文帝
+  archetype: 名将
+  dilemmas:
+  - 降将身份如何赢得主君信任
+  - 忠于新主与旧主恩义之间的抉择
+  lesson: 勇而有谋，临阵决机，能以少胜多者成大事
+  summary_first_person: 我张辽字文远，本姓聂，雁门马邑人。初事丁原、董卓、吕布，吕布败亡后归降曹操，拜中郎将。我随曹公征伐，北征乌桓于白狼山斩单于蹋顿，守合肥破孙权十万之众，威震逍遥津，以少胜多名扬江东。后拜征东将军，曹丕即位进为前将军，病中还吴防备，卒于江都，谥曰刚侯。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷17
+endeavors:
+- id: guji-张辽-endeavor-1
+  key: military
+  name_zh: 辗转诸主与归曹
+  phases:
+  - key: brewing
+    name_zh: 并州从戎
+    labels:
+      zh:
+      - 并州从军
+      - 事丁原董卓吕布
+    start_date: 0184
+    highlight_event_id: guji-张辽-event-join-caocao
+  - key: breakthrough
+    name_zh: 北征乌桓
+    labels:
+      zh:
+      - 白狼山之战
+      - 斩蹋顿
+    start_date: '0207'
+    highlight_event_id: guji-张辽-event-bailangshan
+  - key: climax
+    name_zh: 据守合肥
+    labels:
+      zh:
+      - 合肥之守
+      - 威震逍遥津
+    start_date: '0215'
+    highlight_event_id: guji-张辽-event-xiaoyaojin
+  - key: closure
+    name_zh: 魏臣暮年
+    labels:
+      zh:
+      - 拜前将军
+      - 病笃还吴
+    start_date: '0220'
+    highlight_event_id: guji-张辽-event-death
+  decisions:
+  - date: 0199
+    title_zh: 吕布败亡后归降曹操
+    rationale: 随势择木，曹公授中郎将关内侯，遂为之效力终身
+  - date: '0207'
+    title_zh: 请战白狼山
+    rationale: 兵贵神速，趁敌未整突击乌桓，斩单于蹋顿
+  - date: '0215'
+    title_zh: 教募敢从之士八百人出击
+    rationale: 敌众我寡，守不如攻，先挫其锐以安军心
+events:
+- id: guji-张辽-event-birth
+  event_type: birth
+  date: 0169
+  year_of: 169
+  summary: 张辽约生于此年，雁门马邑人，本姓聂氏，为避怨变姓张
+- id: guji-张辽-event-join-caocao
+  event_type: endeavor
+  date: 0199
+  year_of: 199
+  summary: 吕布败于下邳被杀，张辽率众降曹操，拜中郎将，赐爵关内侯
+- id: guji-张辽-event-bailangshan
+  event_type: endeavor
+  date: '0207'
+  year_of: 207
+  summary: 随曹操北征乌桓，于白狼山率先锋突击，斩单于蹋顿，大破虏众
+- id: guji-张辽-event-xiaoyaojin
+  event_type: endeavor
+  date: 0215-08
+  year_of: 215
+  summary: 守合肥，率八百勇士突袭孙权十万大军，追击至逍遥津，几获孙权，威震江东
+- id: guji-张辽-event-death
+  event_type: death
+  date: '0222'
+  year_of: 222
+  summary: 官至前将军，病笃仍于江都防吴，卒于军中，谥曰刚侯

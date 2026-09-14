@@ -1,0 +1,100 @@
+person:
+  qid: guji-邓艾
+  name_zh: 邓艾
+  names:
+    zh: 邓艾
+    en: Deng Ai
+  lifespan:
+    birth:
+      date: ~0197
+      precision: year
+      is_circa: true
+      raw: 约魏初
+    death:
+      date: 180
+      precision: year
+      is_circa: false
+      raw: 咸熙元年（264年）
+  birth_date: ~0197
+  death_date: 180
+  era: 三国·曹魏
+  reign_ref: 魏文帝至魏元帝、司马昭执政时期
+  archetype: 出身寒微而以军功灭蜀的魏国名将（ premature 功高被谗之典型）
+  dilemmas:
+  - 穷若空谷之寒士，與其忍辱待年，不如奋身立功
+  - 灭蜀大功既成，居功自擅而遭钟会陷构，何自处
+  lesson: 功成而不居，方能善始善终；恃功而行，祸常随之
+  summary_first_person: 我邓艾出身寒微，以屯田之策与淮南陇西军功起家，后偷渡阴平、一举灭蜀，却因擅权被钟会等诬构，与子同死，功成而身殒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷28
+endeavors:
+- id: guji-邓艾-endeavor-1
+  key_field: 军政生涯
+  phases:
+  - key: brewing
+    name_zh: 屯田积谷
+    labels:
+      zh: 颍川屯田、上计吏出身
+    start_date: ~0230
+    highlight_event_id: guji-邓艾-event-shangji
+  - key: breakthrough
+    name_zh: 陇西御蜀
+    labels:
+      zh: 洮西补败、拒姜维
+    start_date: 173
+    highlight_event_id: guji-邓艾-event-jidu
+  - key: climax
+    name_zh: 灭蜀之役
+    labels:
+      zh: 偷渡阴平、迫降刘禅
+    start_date: 179
+    highlight_event_id: guji-邓艾-event-disease-march
+  - key: closure
+    name_zh: 覆亡之祸
+    labels:
+      zh: 钟会构陷、槛车被收
+    start_date: 180
+    highlight_event_id: guji-邓艾-event-death
+  decisions:
+  - date: ~0235
+    title_zh: 上《济河论》建策屯田淮南
+    rationale: 以开漕渠、广积谷为核心，谓可兼攻吴而省军食，遂为魏淮南经略之本。
+  - date: 179
+    title_zh: 自阴平由邪径出剑阁之西
+    rationale: 判断剑阁蜀军坚守难攻，冒险偷渡七百里无人之地，直捣涪城、成都。
+events:
+- id: guji-邓艾-event-birth
+  event_type: birth
+  date: ~0197
+  year_of: 197
+  summary: 邓艾生于义阳棘阳，约魏初（存疑）。
+- id: guji-邓艾-event-shangji
+  event_type: career
+  date: ~0235
+  year_of: 235
+  summary: 口吃而才略过人，作上计吏见司马懿，被辟掾属，上《济河论》议淮南屯田。
+- id: guji-邓艾-event-jidu
+  event_type: career
+  date: 173
+  year_of: 255
+  summary: 洮西之败后，艾提拊吏士、抚循陇右，臨危拒姜维于长城，迁安西将军、假节。
+- id: guji-邓艾-event-disease-march
+  event_type: career
+  date: 0263-10
+  year_of: 263
+  summary: 陵灭蜀之役，邓艾自阴平凿山通道、裹毡推转而下，破诸葛瞻于绵竹，进逼成都。
+- id: guji-邓艾-event-shudicao
+  event_type: career
+  date: 0263-11
+  year_of: 263
+  summary: 刘禅奉玺绶出降，蜀汉亡；邓艾以天子节授权承制，拜刘禅骠骑将军，松检吏卒无所掊克。
+- id: guji-邓艾-event-capture
+  event_type: career
+  date: 0264-01
+  year_of: 264
+  summary: 钟会与卫瓘等证艾有反状，艾被槛车徵收，仰天叹“忠臣至此，何其冤哉”。三健步截留于绵竹。
+- id: guji-邓艾-event-death
+  event_type: death
+  date: 180
+  year_of: 264
+  summary: 卫瓘遣田续追艾于绵竹，杀艾父子；洛阳诸子在徙边途中殁或见害；后知青封其孙为郎中。
