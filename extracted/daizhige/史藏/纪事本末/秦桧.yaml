@@ -1,0 +1,137 @@
+person:
+  qid: guji-秦桧
+  name_zh: 秦桧
+  names:
+    zh: 秦桧
+    en: Qin Hui
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 北宋末—南宋初（靖康年间）
+  reign_ref: 宋钦宗靖康元年至靖康二年（1126—1127）
+  archetype: 争议政士
+  dilemmas:
+  - 主战与主和之争中的立场抉择
+  - 靖康之难中忠于宋室还是屈从金人的生死抉择
+  lesson: 靖康之变中秦桧曾主守议、抗金人立异姓之议而被执北去，其后遭遇则预示其日后的政治转向，皆见乱世之中人心之变。
+  summary_first_person: 我秦桧在靖康年间反对割让三镇，主张守议；京城陷落后，金人废二帝立张邦昌，我与御史马伸、吴给共上议状，愿复嗣君以安四方，并论邦昌蠹国乱政之罪，金人恼怒将我执去。北行时二帝被掳，众随行官员皆徙韩州，独我不与徙，依附达兰（挞懒）而居，达兰亦厚待我。
+endeavors:
+- id: guji-秦桧-endeavor-1
+  name_zh: 靖康抗辩主守
+  phases:
+  - key: brewing
+    name_zh: 主守议反对割地
+    labels:
+      zh: 主守议
+    start_date: 1126-11
+    highlight_event_id: guji-秦桧-event-defense-debate
+  - key: breakthrough
+    name_zh: 上议状抗金立异姓
+    labels:
+      zh: 议状复嗣君
+    start_date: 1127-02
+    highlight_event_id: guji-秦桧-event-memorial
+  - key: climax
+    name_zh: 被金人执掳北去
+    labels:
+      zh: 被执北行
+    start_date: 1127-04
+    highlight_event_id: guji-秦桧-event-abducted
+  - key: closure
+    name_zh: 留金依达兰居
+    labels:
+      zh: 依达兰厚待
+    start_date: 1127-05
+    highlight_event_id: guji-秦桧-event-stay-with-talan
+  decisions:
+  - date: 1126-11
+    title_zh: 主三镇不当割
+    rationale: 金人无信，割亦来，不割亦来，故主守议。
+  - date: 1127-02
+    title_zh: 与马伸、吴给共为议状愿复嗣君
+    rationale: 身为诤臣不容坐视，愿复赵氏嗣君以安四方，并论张邦昌蠹国乱政当诛。
+- id: guji-秦桧-endeavor-2
+  name_zh: 北行随扈与留金
+  phases:
+  - key: brewing
+    name_zh: 随二帝北狩
+    labels:
+      zh: 从二帝北去
+    start_date: 1127-04
+    highlight_event_id: guji-秦桧-event-abducted
+  - key: breakthrough
+    name_zh: 不与群臣徙韩州
+    labels:
+      zh: 独留依达兰
+    start_date: 1127-05
+    highlight_event_id: guji-秦桧-event-stay-with-talan
+  decisions:
+  - date: 1127-05
+    title_zh: 依附达兰而居
+    rationale: 金人徙众官于韩州，独秦桧不与徙，因依达兰以居，达兰厚待之。
+events:
+- id: guji-秦桧-event-defense-debate
+  title_zh: 议三镇存弃时主守议
+  date: 1126-11
+  year_of: 1126
+  description: 金人分道南侵，朝廷集议三镇存弃，何㮚、梅执礼、吕好问、洪刍、秦桧等皆主守议，而唐恪、耿南仲等力主割地。
+  participants:
+  - 秦桧
+  - 何㮚
+  - 梅执礼
+  - 吕好问
+  - 唐恪
+  - 耿南仲
+  related_person_ids:
+  - guji-秦桧
+  endeavor_refs:
+  - guji-秦桧-endeavor-1
+- id: guji-秦桧-event-memorial
+  title_zh: 上议状愿复嗣君论张邦昌之罪
+  date: 1127-02
+  year_of: 1127
+  description: 金人令推立异姓，王时雍集百官议立张邦昌，御史马伸与吴给约中丞秦桧共为议状，愿复嗣君以安四方，且论邦昌当上皇时蠹国乱政以致社稷倾危，金人怒执桧去。
+  participants:
+  - 秦桧
+  - 马伸
+  - 吴给
+  - 王时雍
+  - 张邦昌
+  related_person_ids:
+  - guji-秦桧
+  endeavor_refs:
+  - guji-秦桧-endeavor-1
+- id: guji-秦桧-event-abducted
+  title_zh: 随二帝北去
+  date: 1127-04
+  year_of: 1127
+  description: 靖康二年夏四月，金人以二帝及后妃太子宗戚三千人北去，尼玛哈以帝后太子妃嫔宗室及何㮚、孙傅、张叔夜、陈过庭、司马朴、秦桧等由郑州去。
+  participants:
+  - 秦桧
+  - 宋钦宗
+  - 何㮚
+  - 孙傅
+  - 张叔夜
+  related_person_ids:
+  - guji-秦桧
+  endeavor_refs:
+  - guji-秦桧-endeavor-1
+  - guji-秦桧-endeavor-2
+- id: guji-秦桧-event-stay-with-talan
+  title_zh: 不与徙韩州依达兰而居
+  date: 1127-05
+  year_of: 1127
+  description: 金主封二帝为昏德公、重昏侯，徙之韩州，尽空其城，命晋康郡王等九百余人同处；惟秦桧不与徙，依达兰以居，达兰亦厚待之。
+  participants:
+  - 秦桧
+  - 达兰
+  related_person_ids:
+  - guji-秦桧
+  endeavor_refs:
+  - guji-秦桧-endeavor-2
