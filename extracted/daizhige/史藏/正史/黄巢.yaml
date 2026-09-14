@@ -1,0 +1,205 @@
+person:
+  qid: guji-黄巢
+  name_zh: 黄巢
+  names:
+    zh: 黄巢
+    en: Huang Chao
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详，曹州冤朐人
+    death:
+      date: '884'
+      precision: year
+      is_circa: false
+  birth_date: ''
+  death_date: '884'
+  era: 唐末
+  reign_ref: 唐僖宗 乾符、广明、中和年间
+  archetype: 叛乱者
+  dilemmas:
+  - 科举失利与仕进无门
+  - 降抚反复与求节钺不得
+  lesson: 失去体制出口的民间武力，终将以暴力改写秩序，也最终被秩序围剿
+  summary_first_person: 我是曹州冤朐人黄巢，曾聚众攻郓、沂，与王仙芝合兵纵横江淮；仙芝败死，我众十万掠淮南、入闽中、陷广州，后渡淮北上，自号率土大将军，攻陷东都，破潼关入长安，僭号大齐，改元金统，终为诸道之师所败。
+  source_urls:
+  - https://zh.wikisource.org/wiki/舊唐書/卷19下
+endeavors:
+- id: guji-黄巢-endeavor-1
+  name_zh: 草军起事
+  phases:
+  - key: brewing
+    name_zh: 聚众起兵
+    labels:
+      zh:
+      - 草贼
+      - 冤朐
+    start_date: 875-06
+    highlight_event_id: guji-黄巢-event-yunzhou
+  - key: breakthrough
+    name_zh: 合流扩张
+    labels:
+      zh:
+      - 与王仙芝合
+      - 南掠
+    start_date: 876-08
+    highlight_event_id: guji-黄巢-event-chaoshan
+  - key: climax
+    name_zh: 转战岭南
+    labels:
+      zh:
+      - 陷广州
+      - 大掠岭南
+    start_date: 877-04
+    highlight_event_id: guji-黄巢-event-guangzhou
+  decisions:
+  - date: 876-08
+    title_zh: 趋颍蔡与王仙芝合
+    rationale: 聚万人攻陷郓、沂后，势力尚孤，遂自沂、海趋颍、蔡，入查牙山与王仙芝合兵
+  - date: 877-05
+    title_zh: 围广州求天平节钺
+    rationale: 兵围广州，致书李岩、崔璆求保荐，乞天平节钺，欲以降换节，被削无果
+- id: guji-黄巢-endeavor-2
+  name_zh: 北渡称帝
+  phases:
+  - key: breakthrough
+    name_zh: 渡淮北上
+    labels:
+      zh:
+      - 率土大将军
+      - 不剽财货
+    start_date: 878-10
+    highlight_event_id: guji-黄巢-event-duhuai
+  - key: climax
+    name_zh: 入长安建国
+    labels:
+      zh:
+      - 僭号大齐
+      - 金统
+    start_date: 878-12
+    highlight_event_id: guji-黄巢-event-daqi
+  - key: closure
+    name_zh: 诸道反攻
+    labels:
+      zh:
+      - 郑畋起兵
+      - 克用南下
+    start_date: 881-03
+    highlight_event_id: guji-黄巢-event-longwei
+  decisions:
+  - date: 878-10
+    title_zh: 悉众渡淮
+    rationale: 溵水诸军自乱皆散，遂乘机悉众渡淮，整众而北，驻兵为用
+  - date: 878-12
+    title_zh: 僭号大齐称帝
+    rationale: 破潼关入据大内，留朝官降者署职，建号以定名分
+events:
+- id: guji-黄巢-event-birth
+  date_type: birth
+  date: ''
+  year_of: 820
+  precision: unknown
+  is_circa: true
+  title_zh: 黄巢生
+  desc_zh: 曹州冤朐人生年不详
+- id: guji-黄巢-event-yunzhou
+  date_type: endeavor
+  date: 875-06
+  year_of: 875
+  precision: year
+  title_zh: 聚万人攻陷郓州
+  desc_zh: 冤朐贼黄巢聚万人攻郓州，陷之，逐节度使薛崇
+- id: guji-黄巢-event-yizhou
+  date_type: endeavor
+  date: 875-05
+  year_of: 875
+  precision: year
+  title_zh: 陷沂州
+  desc_zh: 黄巢贼陷沂州
+- id: guji-黄巢-event-hewu
+  date_type: endeavor
+  date: 875-07
+  year_of: 875
+  precision: year
+  title_zh: 与王仙芝合兵
+  desc_zh: 黄巢自沂、海率众数万趋颍、蔡，入查牙山，与王仙芝合
+- id: guji-黄巢-event-xinzhou-qu
+  date_type: endeavor
+  date: 876-03
+  year_of: 876
+  precision: year
+  title_zh: 二攻江西
+  desc_zh: 黄巢之众再攻江西，陷虔、吉、饶、信等州
+- id: guji-黄巢-event-fujian
+  date_type: endeavor
+  date: 876-03
+  year_of: 876
+  precision: year
+  title_zh: 开山五百里入闽
+  desc_zh: 自宣州渡江、由浙东欲趋福建，以无舟船乃开山洞五百里，由陆趋建州，遂陷闽中诸州
+- id: guji-黄巢-event-guiguan
+  date_type: endeavor
+  date: 877-04
+  year_of: 877
+  precision: year
+  title_zh: 陷桂管
+  desc_zh: 黄巢陷桂管
+- id: guji-黄巢-event-guangzhou
+  date_type: endeavor
+  date: 877-04
+  year_of: 877
+  precision: year
+  title_zh: 围陷广州
+  desc_zh: 贼围广州，乞节钺不得，陷广州，大掠岭南郡邑
+- id: guji-黄巢-event-huainan
+  date_type: endeavor
+  date: 877-08
+  year_of: 877
+  precision: year
+  title_zh: 渡江寇淮南败张璘
+  desc_zh: 黄巢之众渡江寇淮南，信州疫，以金啖张璘乞保命，诸道兵被遣还后与高骈绝，请战败璘
+- id: guji-黄巢-event-duhuai
+  date_type: endeavor
+  date: 878-10
+  year_of: 878
+  precision: year
+  title_zh: 自号率土大将军渡淮
+  desc_zh: 贼悉众渡淮，黄巢自号率土大将军，自淮已北整众而行，不剽财货，惟驱丁壮为兵
+- id: guji-黄巢-event-dongdu
+  date_type: endeavor
+  date: 878-11-22
+  year_of: 878
+  precision: day
+  title_zh: 攻陷东都
+  desc_zh: 贼陷东都，留守刘允章率分司官属迎谒，贼供顿而去，坊市晏然
+- id: guji-黄巢-event-dongguan
+  date_type: endeavor
+  date: 878-12
+  year_of: 878
+  precision: year
+  title_zh: 据潼关
+  desc_zh: 贼攻潼关，守关诸将望风自溃，贼据潼关
+- id: guji-黄巢-event-daqi
+  date_type: endeavor
+  date: 878-12-13
+  year_of: 878
+  precision: day
+  title_zh: 入长安僭号大齐
+  desc_zh: 黄巢据大内，僭号大齐，称年号金统，悉陈文物，据丹凤门伪赦
+- id: guji-黄巢-event-longwei
+  date_type: endeavor
+  date: 881-03
+  year_of: 881
+  precision: year
+  title_zh: 寇凤翔败于龙尾陂
+  desc_zh: 黄巢遣林言、尚让率众数万寇凤翔，郑畋率师逆击，大败贼众于龙尾陂
+- id: guji-黄巢-event-death
+  date_type: death
+  date: '884'
+  year_of: 884
+  precision: year
+  is_circa: false
+  title_zh: 黄巢败亡
+  desc_zh: 中和年间诸道反攻，黄巢势力败亡

@@ -1,0 +1,138 @@
+person:
+  qid: guji-玄奘
+  name_zh: 玄奘
+  names:
+    zh: 玄奘
+    en: Xuanzang
+  lifespan:
+    birth:
+      date: '602'
+      precision: year
+      is_circa: true
+      raw: 隋仁寿二年前后（约602年）
+    death:
+      date: '664'
+      precision: year
+      is_circa: false
+      raw: 麟德元年（664年）
+  birth_date: '602'
+  death_date: 664-03-07
+  era: 唐
+  reign_ref: 唐高宗显庆年间
+  archetype: 求法高僧与译经宗师
+  dilemmas:
+  - 西行求法逾禁出关与信仰使命的抉择
+  - 归国后婉拒朝廷供养专意译经
+  lesson: 以十七年孤征与余生译业，践行求真不辍的信念。
+  summary_first_person: 我是玄奘，历十七年西行天竺求法，携经而归，奉诏于慈恩寺译经传法，蒙高宗御制碑文，以天竺法仪迎之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/舊唐書/卷5
+endeavors:
+- id: guji-玄奘-endeavor-1
+  name_zh: 西行求法
+  description: 贞观初孤身西行天竺，遍访名师，学法于那烂陀寺，携经像而归。
+  phases:
+  - key: brewing
+    name_zh: 立志求法
+    labels:
+      zh:
+      - 发愿西行
+    start_date: '626'
+  - key: breakthrough
+    name_zh: 西行天竺
+    labels:
+      zh:
+      - 逾关出国
+      - 那烂陀求学
+    start_date: '629'
+    highlight_event_id: guji-玄奘-event-west-return
+  - key: climax
+    name_zh: 学成归国
+    labels:
+      zh:
+      - 携经东归
+      - 太宗接见
+    start_date: '645'
+    highlight_event_id: guji-玄奘-event-west-return
+  - key: closure
+    name_zh: 译经传法
+    labels:
+      zh:
+      - 慈恩译场
+    start_date: '646'
+  decisions:
+  - date: '629'
+    title_zh: 冒禁出关西行
+    rationale: 经论歧异，誓往天竺求取真本。
+  - date: '645'
+    title_zh: 归国谢绝俗务，专任译经
+    rationale: 以译经弘法为终生之业。
+- id: guji-玄奘-endeavor-2
+  name_zh: 慈恩寺译业
+  description: 居慈恩寺主持译场，译诸经论，并建塔藏经，显庆元年迎御制碑文。
+  phases:
+  - key: brewing
+    name_zh: 入住慈恩
+    labels:
+      zh:
+      - 慈恩寺译场初立
+    start_date: '648'
+  - key: breakthrough
+    name_zh: 译经渐成
+    labels:
+      zh:
+      - 译众经论
+    start_date: '652'
+    highlight_event_id: guji-玄奘-event-stele
+  - key: climax
+    name_zh: 御碑之荣
+    labels:
+      zh:
+      - 迎高宗御制碑文
+    start_date: '656'
+    highlight_event_id: guji-玄奘-event-stele
+  decisions:
+  - date: '652'
+    title_zh: 修慈恩寺塔以藏经像
+    rationale: 恐所携经像散失，建塔护持。
+events:
+- id: guji-玄奘-event-birth
+  event_type: birth
+  name_zh: 玄奘出生
+  date: '602'
+  year_of: 602
+  date_precision: year
+  location: 洛州缑氏（今河南偃师）
+  description: 约隋仁寿二年生，俗姓陈，名祎。
+- id: guji-玄奘-event-west-start
+  event_type: endeavor
+  name_zh: 启程西行天竺
+  date: '629'
+  year_of: 629
+  date_precision: year
+  location: 凉州以西关塞
+  description: 贞观初冒禁出关，历西域诸国行天竺求法。
+- id: guji-玄奘-event-west-return
+  event_type: endeavor
+  name_zh: 携经归国，太宗接见
+  date: '645'
+  year_of: 645
+  date_precision: year
+  location: 长安
+  description: 贞观十九年自天竺携经像归长安，太宗迎劳，敕住弘福寺译经。
+- id: guji-玄奘-event-stele
+  event_type: endeavor
+  name_zh: 御安福门迎御制慈恩寺碑文
+  date: 656-04-11
+  year_of: 656
+  date_precision: day
+  location: 安福门至慈恩寺
+  description: 显庆元年四月戊申，高宗御安福门观帝迎御制并书慈恩寺碑文，导从以天竺法仪，其徒甚盛。
+- id: guji-玄奘-event-death
+  event_type: death
+  name_zh: 玄奘圆寂
+  date: 664-03-07
+  year_of: 664
+  date_precision: day
+  location: 宜君山玉华宫
+  description: 麟德元年二月卒于玉华宫译场，僧俗哀恸。
