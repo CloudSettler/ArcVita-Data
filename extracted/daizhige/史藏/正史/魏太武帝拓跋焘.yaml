@@ -1,0 +1,145 @@
+person:
+  qid: guji-拓跋焘
+  name_zh: 魏太武帝拓跋焘
+  names:
+    zh: 拓跋焘、魏太武帝、太武皇帝
+    en: Tuoba Tao (Emperor Taiwu of Northern Wei)
+  lifespan:
+    birth:
+      date: 0408
+      precision: year
+      is_circa: false
+      raw: 略以公元四〇八年生（北魏明元帝时期）
+    death:
+      date: 298
+      precision: year
+      is_circa: false
+  birth_date: 0408
+  death_date: '0452'
+  era: 南北朝·北魏
+  reign_ref: 北魏太武帝，年号始光、神麚、延和、太延、太平真君、正平
+  archetype: 统一北方的雄略之君
+  dilemmas:
+  - 灭佛弘法与固本强兵之争（太武灭佛）
+  - 南征统一天下与国力支撑之权衡
+  - 信任崔浩与鲜卑贵族之矛盾（国史之狱）
+  lesson: 刚毅果断可成统一大业，然用法过峻、猜忍好杀，终 致身死国疑之祸。
+  summary_first_person: 我拓跋焘，明元帝长子，年十五立为太子，即位后屡破柔然，灭夏、北燕、北凉，统一北方 ；又以国史之狱诛崔浩，晚年为宗爱所弑。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北史/卷002
+endeavors:
+- id: guji-拓跋焘-endeavor-1
+  name_zh: 统一北方之战
+  phases:
+  - key: brewing
+    name_zh: 即位整军
+    labels:
+      zh: 即位、御柔然
+    start_date: 276
+    highlight_event_id: guji-拓跋焘-event-start-reign
+  - key: breakthrough
+    name_zh: 灭夏破柔然
+    labels:
+      zh: 神麚西讨
+    start_date: 279
+    highlight_event_id: guji-拓跋焘-event-conquer-xia
+  - key: climax
+    name_zh: 平北燕北凉
+    labels:
+      zh: 太延混一
+    start_date: 286
+    highlight_event_id: guji-拓跋焘-event-conquer-liangzhou
+  - key: closure
+    name_zh: 威震漠南
+    labels:
+      zh: 太平真君
+    start_date: 288
+  decisions:
+  - date: 279
+    title_zh: 西伐赫连昌，攻克统万
+    rationale: 趁夏国内乱以弱克强，据形胜之地。
+  - date: 0439
+    title_zh: 亲征北凉沮渠牧犍
+    rationale: 完成北方统一，打通西域贡道。
+- id: guji-拓跋焘-endeavor-2
+  name_zh: 文治与崇道灭佛
+  phases:
+  - key: brewing
+    name_zh: 任用崔浩
+    labels:
+      zh: 礼遇儒士
+    start_date: 276
+  - key: breakthrough
+    name_zh: 采纳寇谦之道教
+    labels:
+      zh: 崇天师道
+    start_date: 281
+  - key: climax
+    name_zh: 太武灭佛
+    labels:
+      zh: 太平真君灭法
+    start_date: 294
+    highlight_event_id: guji-拓跋焘-event-persecute-buddhism
+  - key: closure
+    name_zh: 国史之狱
+    labels:
+      zh: 诛崔浩
+    start_date: 296
+  decisions:
+  - date: 294
+    title_zh: 下诏废佛，焚毁寺院经像
+    rationale: 沙门匿兵器涉谋反，且欲崇道教以固华夏之统。
+  - date: 296
+    title_zh: 诛崔浩，夷其族
+    rationale: 国史直书拓跋先世之事，忤鲜卑贵族。
+events:
+- id: guji-拓跋焘-event-birth
+  date: 0408
+  year_of: 408
+  type: birth
+  name_zh: 拓跋焘出生
+- id: guji-拓跋焘-event-crown-prince
+  date: 274
+  year_of: 422
+  type: appointment
+  name_zh: 立为皇太子，监国
+- id: guji-拓跋焘-event-start-reign
+  date: 275
+  year_of: 423
+  type: accession
+  name_zh: 即皇帝位，改元始光
+- id: guji-拓跋焘-event-conquer-xia
+  date: 279
+  year_of: 427
+  type: military
+  name_zh: 攻克夏国统万城
+- id: guji-拓跋焘-event-defeat-ruanruan
+  date: 0429
+  year_of: 429
+  type: military
+  name_zh: 大破柔然，收高车诸部
+- id: guji-拓跋焘-event-conquer-northern-yan
+  date: 286
+  year_of: 436
+  type: military
+  name_zh: 灭北燕，冯氏奔高句丽
+- id: guji-拓跋焘-event-conquer-liangzhou
+  date: 0439
+  year_of: 439
+  type: military
+  name_zh: 平北凉，统一北方
+- id: guji-拓跋焘-event-persecute-buddhism
+  date: 294
+  year_of: 446
+  type: policy
+  name_zh: 太武灭佛，毁经像寺塔
+- id: guji-拓跋焘-event-execute-cuihao
+  date: 296
+  year_of: 452-06
+  type: execution
+  name_zh: 国史之狱，诛崔浩
+- id: guji-拓跋焘-event-death
+  date: 0452-03-11
+  year_of: 452
+  type: death
+  name_zh: 为中常侍宗爱所弑于永安宫

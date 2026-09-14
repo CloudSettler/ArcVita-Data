@@ -1,0 +1,115 @@
+person:
+  qid: guji-su-chuo
+  name_zh: 苏绰
+  names:
+    zh: 苏绰
+    en: Su Chuo
+  lifespan:
+    birth:
+      date: 0498
+      precision: year
+      is_circa: true
+      raw: 约498年（史载未详，据卒年推）
+    death:
+      date: '0546'
+      precision: year
+      is_circa: true
+      raw: 西魏大统十二年
+  birth_date: 0498
+  death_date: '0546'
+  era: 西魏
+  reign_ref: 西魏文帝大统年间
+  archetype: 制度创制之能臣
+  dilemmas:
+  - 在战乱动荡中草创新制，法令繁严与宽政惠民之间须权衡
+  - 辅佐权臣宇文泰制定典章，忠勤任事而鞠躬尽瘁
+  lesson: 循名责实、损益古制以适时用，方能于乱世中奠定制度之本
+  summary_first_person: 我苏绰在西魏文帝大统年间任尚书，奉命将太祖前后所上二十四条及十二条新制损益裁定，总为五卷颁行天下，成为中兴永式；又与卢辩依《周礼》改制，创六官之典，为宇文周官制之基，惜乎积劳早逝。
+  source_urls:
+  - https://zh.wikisource.org/wiki/周書/卷02_帝紀第二
+endeavors:
+- id: guji-su-chuo-endeavor-1
+  name_zh: 损益新制，总为五卷
+  phases:
+  - key: brewing
+    name_zh: 佐行新政
+    labels:
+      zh:
+      - 法制
+      - 尚书
+    start_date: '0536'
+    highlight_event_id: guji-su-chuo-event-1
+  - key: breakthrough
+    name_zh: 损益十二条制
+    labels:
+      zh:
+      - 颁行天下
+    start_date: '0546'
+    highlight_event_id: guji-su-chuo-event-1
+  - key: closure
+    name_zh: 永式既立
+    labels:
+      zh:
+      - 中兴永式
+    start_date: '0546'
+  decisions:
+  - date: '0546'
+    title_zh: 损益新制总为五卷班于天下
+    rationale: 魏帝以太祖前后所上二十四条及十二条新制为中兴永式，命绰损益裁定，以成一代之法
+- id: guji-su-chuo-endeavor-2
+  name_zh: 与卢辩依周制改创六官
+  phases:
+  - key: brewing
+    name_zh: 改创其事
+    labels:
+      zh:
+      - 依周制
+      - 官制革新
+    start_date: '0537'
+    highlight_event_id: guji-su-chuo-event-2
+  - key: breakthrough
+    name_zh: 置六卿官
+    labels:
+      zh:
+      - 六卿
+    start_date: '0537'
+  - key: closure
+    name_zh: 典制未竟而卒
+    labels:
+      zh:
+      - 撰次未成
+    start_date: '0546'
+    highlight_event_id: guji-su-chuo-event-3
+  decisions:
+  - date: '0537'
+    title_zh: 依周制改创官制
+    rationale: 帝以汉、魏官繁，思革前弊，故令苏绰、卢辩依《周礼》改制
+events:
+- id: guji-su-chuo-event-birth
+  date: 0498
+  year_of: 498
+  type: birth
+  name_zh: 苏绰生
+- id: guji-su-chuo-event-death
+  date: '0546'
+  year_of: 546
+  type: death
+  name_zh: 苏绰卒
+- id: guji-su-chuo-event-1
+  date: 0546-07
+  year_of: 546
+  type: endeavor
+  name_zh: 魏帝命尚书苏绰损益二十四条及十二条新制，总为五卷班于天下
+  source_text_ref: 周书·文帝纪下：十年七月……命尚书苏绰更损益之，总为五卷，班于天下
+- id: guji-su-chuo-event-2
+  date: '0537'
+  year_of: 537
+  type: endeavor
+  name_zh: 苏绰与卢辩依周制改创官制，寻置六卿官
+  source_text_ref: 周书·文帝纪下：大统中，乃令苏绰、卢辩依周制改创其事，寻亦置六卿官
+- id: guji-su-chuo-event-3
+  date: '0546'
+  year_of: 546
+  type: endeavor
+  name_zh: 苏绰卒，六官典制撰次未成
+  source_text_ref: 周书·文帝纪下：为撰次未成，众务犹归台阁

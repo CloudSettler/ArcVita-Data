@@ -1,0 +1,117 @@
+person:
+  qid: guji-拓跋珪
+  name_zh: 魏道武帝拓跋珪
+  names:
+    zh: 拓跋珪
+    en: Tuoba Gui
+  lifespan:
+    birth:
+      date: '0371-08-02'
+      precision: day
+      is_circa: false
+      raw: 建国三十四年七月七日生帝于参合陂北
+    death:
+      date: '0409-11-06'
+      precision: day
+      is_circa: false
+      raw: 天赐六年十月帝崩于天安殿
+  birth_date: '0371-08-02'
+  death_date: '0409-11-06'
+  era: 北魏
+  reign_ref: 登国元年（386年）即代王位，后称魏王、皇帝
+  archetype: 开国之君
+  dilemmas:
+  - 复兴代国还是依附后燕强大势力
+  - 中原汉制与鲜卑旧俗的取舍
+  lesson: 拓跋珪以非常之志与隐忍之谋，趁乱复国、破强敌、建魏业，然峻法多疑终致身殒。
+  summary_first_person: 吾拓跋珪，昭成皇帝之孙也。昔国破家亡，吾隐忍于独孤、贺兰之间，后乘苻氏之乱复国于牛川， 即代王位，改称魏王。吾北破高车、蠕蠕，南破慕容宝于参合陂，遂定中原，建天子旌旗，
+    迁都平城，初置百官台省。然吾性多猜忌，晚年诛戮大臣，终为清河王绍所弑，崩于天安殿。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北史/卷一
+endeavors:
+- id: guji-tuobaogui-restate
+  name_zh: 复国建魏
+  description: 道武帝拓跋珪于代国灭亡后，乘淝水之战苻坚败亡、北方大乱之际，在牛川即代王位， 次年改称魏王，重建北魏政权。
+  phases:
+  - key: brewing
+    name_zh: 流亡与隐忍
+    dates: 376-385
+    description: 代国为苻坚所灭后，拓跋珪先后流寓独孤部、贺兰部，苟全性命于乱世，暗中结交旧臣，等待复国时机。
+  - key: breakthrough
+    name_zh: 牛川即位
+    dates: 386-391
+    description: 登国元年正月，珪于牛川即代王位，旋改称魏王。随后击败刘显、窟咄，讨平库莫奚、高车诸部， 稳固政权根基。
+  - key: climax
+    name_zh: 参合陂之战与定中原
+    dates: 395-399
+    description: 拓跋珪大破后燕太子慕容宝于参合陂，坑杀降卒数万；继而下并州、围中山，尽取后燕河北之地， 于登国十一年称皇帝，建天子旌旗。
+  - key: closure
+    name_zh: 迁都平城与后期统治
+    dates: 398-409
+    description: 天兴元年定都平城（今大同），置百官、立台省，规范礼制。晚年性情暴戾，朝臣人人自危， 天赐六年为清河王拓跋绍所弑。
+  decisions:
+  - date: 386-01
+    title: 牛川即代王位
+    rationale: 因淝水之战后前秦瓦解，旧部离散，拓跋珪借贺兰部等推戴，于牛川即位复国，后改称魏王。
+  - date: 395-12
+    title: 击破慕容宝于参合陂
+    rationale: 后燕侵逼五原，拓跋珪诱敌深入，乘慕容宝烧船夜遁之机济河追击，大破燕军并坑杀降卒， 消除最强外患。
+  - date: 398-01
+    title: 迁都平城
+    rationale: 拓跋珪平定中原后，为控扼南北、经营汉地，定都平城并大规模营建宫室、设立台省百官。
+  related_events:
+  - guji-tuobaogui-event-reign
+  - guji-tuobaogui-event-canhepo
+  - guji-tuobaogui-event-capital-pingcheng
+  - guji-tuobaogui-event-death
+events:
+- id: guji-tuobaogui-event-birth
+  event_type: birth
+  person: guji-tuobaogui
+  date: '0371-08-02'
+  year_of: 371
+  epoch_name: 前燕/代国时期
+  date_precision: day
+  source_ref: 北史·魏本纪第一：代王什翼犍建国三十四年七月七日（附会改写为公历371年8月2日）
+  quote: 代王什翼犍建国三十四年七月七日，代王世子（献明太子）寔为路人高车所杀；同日，寔遗腹子珪生于参合陂北。
+  confidence: 0.82
+- id: guji-tuobaogui-event-reign
+  event_type: political
+  person: guji-tuobaogui
+  date: '0386-01-28'
+  year_of: 386
+  epoch_name: 北魏登国元年
+  date_precision: day
+  source_ref: 北史·魏本纪第一：登国元年春正月戊申，珪即代王位于牛川，改元登国
+  quote: 登国元年春正月戊申，代王珪即位于牛川，改元登国；二月，幸定襄之盛乐。
+  confidence: 0.83
+- id: guji-tuobaogui-event-canhepo
+  event_type: battle
+  person: guji-tuobaogui
+  date: 0395-12
+  year_of: 395
+  epoch_name: 北魏登国十年
+  date_precision: month
+  source_ref: 北史·魏本纪第一：登国十年冬十月，珪大破慕容宝于参合陂
+  quote: 慕容宝率军侵魏，珪与之相持于五原，断其归路，乘其烧船夜遁之机济河追击，大破燕军于参合陂， 坑杀降卒数万，惟燕臣贾彝、贾闰、晁崇等数人得免。
+  confidence: 0.9
+- id: guji-tuobaogui-event-capital-pingcheng
+  event_type: political
+  person: guji-tuobaogui
+  date: 0398
+  year_of: 398
+  epoch_name: 北魏天兴元年
+  date_precision: year
+  source_ref: 北史·魏本纪第一：天兴元年，珪定都平城，营宫室，建宗庙，立社稷
+  quote: 道武帝珪既定中原，以平城为京邑，营建宫室、宗庙、社稷，改元天兴，北魏自此立国建制。
+  confidence: 0.85
+- id: guji-tuobaogui-event-death
+  event_type: death
+  person: guji-tuobaogui
+  date: '0409-11-06'
+  year_of: 409
+  epoch_name: 北魏天赐六年
+  date_precision: day
+  source_ref: 北史·魏本纪第一：天赐六年十月，珪为清河王拓跋绍所弑，崩于天安殿
+  quote: 天赐六年十月戊辰（后改写为公历409年11月6日），清河王拓跋绍作乱入宫，道武帝珪崩于天安殿， 年三十九。
+  confidence: 0.8
