@@ -1,0 +1,86 @@
+person:
+  qid: guji-周瑜
+  name_zh: 周瑜
+  names:
+    zh: 周瑜
+  lifespan:
+    birth:
+      date: '175'
+      precision: year
+      is_circa: true
+      raw: 约175年
+    death:
+      date: '210'
+      precision: year
+      is_circa: true
+      raw: 约210年
+  birth_date: 175-01-01
+  death_date: 210-01-01
+  era: 东汉末 / 三国·吴
+  reign_ref: 汉献帝/吴主权（孙权）时期
+  archetype: 儒将·谋略统帅
+  dilemmas: -身处孙氏创业之世，须在强敌环伺中定江东大略；壮年而卒，志业未竟。
+  lesson: 赤壁一炬，以弱胜强；精英简能，不惑于众议。
+  summary_first_person: 我乃吴之名将周瑜，见于《三国志·吴书》卷五十四，与鲁肃、吕蒙同卷。史载我佐孙氏决策江东，火攻赤壁而破曹操，惜天不假年。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷54
+endeavors:
+- id: guji-周瑜-endeavor-1
+  name_zh: 佐定江东·赤壁破曹
+  phases:
+  - key: brewing
+    name_zh: 早年从孙策平江东
+    labels:
+      zh:
+      - 建威中郎将
+    start_date: '195'
+  - key: breakthrough
+    name_zh: 决策抗曹
+    labels:
+      zh:
+      - 力排众议
+    start_date: '208'
+    highlight_event_id: guji-周瑜-event-chibi
+  - key: climax
+    name_zh: 赤壁火攻破曹
+    labels:
+      zh:
+      - 火攻
+    start_date: 208-11
+    highlight_event_id: guji-周瑜-event-chibi
+  - key: closure
+    name_zh: 取南郡，病卒于巴丘
+    labels:
+      zh:
+      - 南郡太守
+    start_date: '209'
+  decisions:
+  - date: '208'
+    title_zh: 力主抗曹操
+    rationale: 曹操虽托汉相之名，实为汉贼，瑜请得精兵数万进屯夏口，保为将军破之。
+  - date: '210'
+    title_zh: 取蜀之谋未行而卒
+    rationale: 欲与奋威俱进取蜀，得蜀并张鲁，还与马超结援，据襄阳以蹙操，北方可图。
+events:
+- id: guji-周瑜-event-birth
+  date: '175'
+  year_of: 175
+  type: birth
+  summary: 周瑜生，庐江舒人。
+- id: guji-周瑜-event-chibi
+  date: 208-11
+  year_of: 208
+  type: endeavor
+  endeavor_id: guji-周瑜-endeavor-1
+  summary: 建安十三年，与刘备联军于赤壁，用黄盖火攻之计，大破曹操军，遂定三分之势。
+- id: guji-周瑜-event-nanjun
+  date: '209'
+  year_of: 209
+  type: endeavor
+  endeavor_id: guji-周瑜-endeavor-1
+  summary: 围攻南郡经岁，走曹仁，拜偏将军领南郡太守，屯江陵。
+- id: guji-周瑜-event-death
+  date: '210'
+  year_of: 210
+  type: death
+  summary: 建安十五年，周瑜病卒于巴丘，年三十六，时年约在建安十五年为三十六岁（生卒约175–210）。

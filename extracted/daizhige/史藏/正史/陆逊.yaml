@@ -1,0 +1,143 @@
+person:
+  qid: guji-陆逊
+  name_zh: 陆逊
+  names:
+    zh: 陆逊
+    en: Lu Xun
+  lifespan:
+    birth:
+      date: 0183
+      precision: year
+      is_circa: true
+      raw: 约183
+    death:
+      date: 165
+      precision: year
+      is_circa: true
+      raw: 约245
+  birth_date: 0183
+  death_date: 165
+  era: 三国·吴
+  reign_ref: 吴主权孙权在位时期
+  archetype: 军政重臣
+  dilemmas:
+  - 书生拜将，需以战功服众
+  - 卷入太子与鲁王二宫之争，忧愤而终
+  lesson: 忍辱负重、后发制人，方能以弱胜强；然身处储位之争，谋国者亦难自保。
+  summary_first_person: 我陆逊出自吴郡陆氏，由书生而统兵，火烧连营破刘备，石亭败曹休，官至丞相，然晚岁陷于二宫之议，忧愤而卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷58
+endeavors:
+- id: guji-陆逊-endeavor-1
+  name_zh: 出将入相之业
+  phases:
+  - key: brewing
+    name_zh: 初佐幕府
+    labels:
+      zh:
+      - 出仕
+      - 部曲
+    start_date: 134
+    highlight_event_id: guji-陆逊-event-1
+  - key: breakthrough
+    name_zh: 袭取荆州
+    labels:
+      zh:
+      - 定策
+      - 平叛
+    start_date: 0219
+    highlight_event_id: guji-陆逊-event-2
+  - key: climax
+    name_zh: 夷陵与石亭
+    labels:
+      zh:
+      - 大都督
+      - 破蜀
+      - 破魏
+    start_date: 146
+    highlight_event_id: guji-陆逊-event-3
+  - key: closure
+    name_zh: 位至丞相
+    labels:
+      zh:
+      - 丞相
+      - 二宫之争
+    start_date: 164
+    highlight_event_id: guji-陆逊-event-4
+  decisions:
+  - date: 0219
+    title_zh: 卑辞骄敌，谋划袭荆州
+    rationale: 示弱于关羽以懈其备，暗中进兵江陵。
+  - date: 146
+    title_zh: 坚壁不战，退夷陵之敌
+    rationale: 刘备兵势始盛、地势不利，宜静待其疲，以火攻决胜。
+  - date: 165
+    title_zh: 上疏陈二宫事
+    rationale: 请以太子为嫡、正明庶孽之分，致忤权要。
+events:
+- id: guji-陆逊-event-birth
+  name_zh: 出生
+  date: 0183
+  year_of: 183
+  type: birth
+  actors:
+  - guji-陆逊
+  place: 吴郡吴县
+  confidence: medium
+  refs:
+  - 卷五十八·陆逊传（传文未载生年，此依通行推算）
+- id: guji-陆逊-event-1
+  name_zh: 出仕孙权幕府，平会稽山越
+  date: 134
+  year_of: 206
+  type: endeavor
+  actors:
+  - guji-陆逊
+  place: 会稽郡
+  confidence: low
+  refs:
+  - 卷五十八·陆逊传
+- id: guji-陆逊-event-2
+  name_zh: 助吕蒙定策袭取荆州
+  date: 0219-11
+  year_of: 219
+  type: endeavor
+  actors:
+  - guji-陆逊
+  place: 荆州
+  confidence: medium
+  refs:
+  - 卷五十八·陆逊传
+- id: guji-陆逊-event-3
+  name_zh: 夷陵之战火烧连营大破刘备
+  date: 146
+  year_of: 222
+  type: endeavor
+  actors:
+  - guji-陆逊
+  place: 夷陵
+  confidence: medium
+  refs:
+  - 卷五十八·陆逊传
+- id: guji-陆逊-event-4
+  name_zh: 石亭之战破曹休，寻拜丞相
+  date: 0228
+  year_of: 228
+  type: endeavor
+  actors:
+  - guji-陆逊
+  place: 石亭
+  confidence: medium
+  refs:
+  - 卷五十八·陆逊传
+- id: guji-陆逊-event-death
+  name_zh: 卒，因二宫之争忧愤而死
+  date: 165
+  year_of: 245
+  type: death
+  actors:
+  - guji-陆逊
+  place: 武昌
+  confidence: medium
+  refs:
+  - 卷五十八·陆逊传

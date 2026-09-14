@@ -1,0 +1,111 @@
+person:
+  qid: guji-贾诩
+  name_zh: 贾诩
+  names:
+    zh: 贾诩
+    en: Jia Xu
+  lifespan:
+    birth:
+      date: '0147'
+      precision: year
+      is_circa: true
+      raw: 约147年
+    death:
+      date: '0223-08-11'
+      precision: day
+      is_circa: false
+      raw: 黄初四年（223年）
+  birth_date: '0147'
+  death_date: '0223-08-11'
+  era: 东汉末年至三国曹魏
+  reign_ref: 汉献帝；魏文帝曹丕
+  archetype: 谋士
+  dilemmas:
+  - 明哲保身与献策立功之间的权衡
+  - 事多主（董卓、张绣、曹操）所带来的忠义争议
+  lesson: 谋之以慎，言之以时，策无遗算而自全其身
+  summary_first_person: 我是贾诩，字文和。我历仕董卓、张绣，后归曹操。官渡之战前，我劝张绣率众降曹，使其得封列侯；战事相持之际，我与荀攸力劝曹操奇袭乌巢，终破袁绍。我算无遗策，然常自敛藏，以全其身，晚位至太尉。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國志/卷01
+endeavors:
+- id: guji-贾诩-endeavor-1
+  name_zh: 佐张绣以谋略抗曹
+  phases:
+  - key: brewing
+    name_zh: 献策宛城
+    labels:
+      zh:
+      - 谋划
+      - 张绣军师
+    start_date: 0197
+  - key: breakthrough
+    name_zh: 劝张绣归曹
+    labels:
+      zh:
+      - 归降
+      - 招抚
+    start_date: 0199-11
+    highlight_event_id: guji-贾诩-event-surrender-zhangxiu
+  decisions:
+  - date: 0199-11
+    title_zh: 劝张绣率众降曹操
+    rationale: 判断袁绍不能容人、曹操能以大义收众，降曹可取富贵而安天下之势
+- id: guji-贾诩-endeavor-2
+  name_zh: 官渡之战辅曹操破袁绍
+  phases:
+  - key: breakthrough
+    name_zh: 力主袭击乌巢
+    labels:
+      zh:
+      - 谋略
+      - 官渡
+    start_date: 0200-10
+    highlight_event_id: guji-贾诩-event-wuchao
+  - key: closure
+    name_zh: 从征河北
+    labels:
+      zh:
+      - 参谋
+    start_date: '0204'
+  decisions:
+  - date: 0200-10
+    title_zh: 与荀攸共劝曹操奇袭乌巢
+    rationale: 曹操左右皆疑，唯二人断言奇袭必胜，遂破袁绍粮屯而定官渡之局
+events:
+- id: guji-贾诩-event-birth
+  event_type: birth
+  date: '0147'
+  year_of: 147
+  name_zh: 贾诩出生（约）
+  description_zh: 贾诩约生于汉桓帝时期，凉州姑臧人。
+  participants:
+  - guji-贾诩
+- id: guji-贾诩-event-surrender-zhangxiu
+  event_type: endeavor
+  date: 0199-11
+  year_of: 199
+  name_zh: 劝张绣降曹，绣封列侯
+  description_zh: 建安四年冬十一月，贾诩劝张绣率众降曹操，张绣封列侯，贾诩归曹。
+  participants:
+  - guji-贾诩
+  - 张绣
+  - 曹操
+- id: guji-贾诩-event-wuchao
+  event_type: endeavor
+  date: 0200-10
+  year_of: 200
+  name_zh: 官渡之战劝曹操袭乌巢
+  description_zh: 许攸来奔献计，左右皆疑，荀攸、贾诩劝公，曹操乃夜袭乌巢，大破淳于琼，袁绍军溃。
+  participants:
+  - guji-贾诩
+  - 曹操
+  - 荀攸
+  - 袁绍
+- id: guji-贾诩-event-death
+  event_type: death
+  date: '0223-08-11'
+  year_of: 223
+  name_zh: 贾诩去世
+  description_zh: 贾诩于黄初四年去世，官至太尉，谥肃侯。
+  participants:
+  - guji-贾诩

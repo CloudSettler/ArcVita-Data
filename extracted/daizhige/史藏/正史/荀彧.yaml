@@ -1,0 +1,94 @@
+person:
+  qid: guji-荀彧
+  name_zh: 荀彧
+  names:
+    zh: 荀彧
+    en: Xun Yu
+  lifespan:
+    birth:
+      date: '163'
+      precision: year
+      is_circa: true
+      raw: 颍川颍阴人，生年史无明文，约生于汉桓帝延熹年间
+    death:
+      date: '212'
+      precision: year
+      is_circa: false
+      raw: 建安十七年卒
+  birth_date: '163'
+  death_date: '212'
+  era: 东汉末
+  reign_ref: 汉献帝
+  archetype: 王佐之才·谋国谋身的战略家
+  dilemmas:
+  - 忠于汉室与辅佐曹操之间难以两全
+  - 反对曹操进爵魏公而遭疏远忧卒
+  lesson: 王佐之才亦难逃理想与现实冲突的困局
+  summary_first_player: ''
+  summary_first_person: 我荀彧，以王佐之才辅佐曹操平定北方，典选举、定规谋，然心终向汉室，终因阻魏公之议而忧卒。
+  source_urls:
+  - https://www.zh.wikisource.org/wiki/三國志/卷10
+endeavors:
+- id: guji-荀彧-endeavor-1
+  name_zh: 弃袁归曹与计谋定北方
+  phases:
+  - key: brewing
+    name_zh: 颍川避乱与初投曹操
+    labels:
+      zh: 弃绍归曹
+    start_date: '191'
+    highlight_event_id: guji-荀彧-event-join-caocao
+  - key: breakthrough
+    name_zh: 居中持重，谋迎天子、官渡拒绍
+    labels:
+      zh: 迎奉天子
+    start_date: '196'
+    highlight_event_id: guji-荀彧-event-underscore-guandu
+  - key: climax
+    name_zh: 参掌军国，知人举贤
+    labels:
+      zh: 王佐之任
+    start_date: '200'
+    highlight_event_id: guji-荀彧-event-curfew-career
+  - key: closure
+    name_zh: 谏阻魏公之议，忧惧而卒
+    labels:
+      zh: 忧卒寿阳
+    start_date: '212'
+    highlight_event_id: guji-荀彧-event-death
+  decisions:
+  - date: '191'
+    title_zh: 弃袁绍而投曹操
+    rationale: 度绍终不能成大事，曹操有雄略可辅以匡汉
+  - date: '196'
+    title_zh: 劝曹操迎奉献帝都许
+    rationale: 奉天子以令不臣，大顺、大略、大德三者具备
+  - date: '212'
+    title_zh: 反对曹操进爵魏公
+    rationale: 秉忠贞之诚，守退让之实，以礼义匡正曹操
+events:
+- id: guji-荀彧-event-birth
+  type: birth
+  date: '163'
+  year_of: 163
+  summary: 荀彧生于颍川颍阴，荀绲之子。
+- id: guji-荀彧-event-join-caocao
+  type: career
+  date: '191'
+  year_of: 191
+  summary: 荀彧离袁绍而归曹操，操称之为“吾之子房”。
+- id: guji-荀彧-event-underscore-guandu
+  type: career
+  date: '196'
+  year_of: 196
+  summary: 建言迎献帝都许，曹操遂奉行天子之政。
+- id: guji-荀彧-event-curfew-career
+  type: career
+  date: '200'
+  year_of: 200
+  summary: 官渡之战，荀彧居许都持重，力劝曹操坚守以待变，卒破袁绍。
+- id: guji-荀彧-event-death
+  type: death
+  date: '212'
+  year_of: 212
+  summary: 建安十七年，因反对曹操进爵魏公，忧惧而卒于寿春。
