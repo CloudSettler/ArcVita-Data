@@ -1,0 +1,141 @@
+person:
+  qid: guji-范睢
+  name_zh: 范睢
+  names:
+    zh: 范睢
+    en: Fan Ju
+  lifespan:
+    birth:
+      date: -3世纪前叶
+      precision: decade
+      is_circa: true
+      raw: 生年不详，战国魏人
+    death:
+      date: -255
+      precision: year
+      is_circa: true
+      raw: 卒于秦昭王时期
+  birth_date: 前3世纪？魏国
+  death_date: 约前255年，秦
+  era: 战国
+  reign_ref: 秦昭襄王
+  archetype: 远交近攻的谋略策士
+  dilemmas:
+  - 受辱于魏须贾、魏齐之侧，佯死得脱，化名张禄入秦
+  - 位极秦相，然荐郑安平败，惧罪渐退
+  lesson: 忍辱而后谋国，功成而能急流思退
+  summary_first_person: 我本是魏国须贾门下客卿，因遭诬陷被魏齐拷打弃于厕中，佯死得脱后化名张禄随王稽入秦。我以远交近攻之策说秦昭王，废宣太后、逐穰侯，终为秦相，助秦大破赵于长平。然恩人郑安平降赵，我惧累而荐蔡泽自代，得免于祸。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷079
+endeavors:
+- id: guji-范睢-endeavor-1
+  key: 入秦拜相
+  name_zh: 化名入秦与说秦昭王
+  labels:
+    zh: 游说入相
+  start_date: -271
+  phases:
+  - key: brewing
+    name_zh: 蒙辱出魏
+    labels:
+      zh: 蒙辱出魏
+    start_date: -271
+  - key: breakthrough
+    name_zh: 上书说秦王
+    labels:
+      zh: 上书说秦王
+    start_date: -270
+  - key: climax
+    name_zh: 远交近攻
+    labels:
+      zh: 远交近攻
+    start_date: -268
+    highlight_event_id: guji-范睢-event-distance-strategy
+  - key: closure
+    name_zh: 为相封侯
+    labels:
+      zh: 为相封侯
+    start_date: -268
+  decisions:
+  - date: -270
+    title_zh: 上书自荐于秦昭王
+    rationale: 稽诛无日，先自陈以动王心
+  - date: -266
+    title_zh: 建言废太后、逐穰侯等四贵
+    rationale: 集权于秦王，巩固相位
+- id: guji-范睢-endeavor-2
+  key: 秦国功业
+  name_zh: 远交近攻与廪台之辱的报复
+  labels:
+    zh: 远交近攻与快恩仇
+  start_date: -268
+  phases:
+  - key: brewing
+    name_zh: 恩怨分明
+    labels:
+      zh: 恩怨分明
+    start_date: -266
+  - key: breakthrough
+    name_zh: 折辱须贾
+    labels:
+      zh: 折辱须贾
+    start_date: -266
+    highlight_event_id: guji-范睢-event-hu-jia-humiliation
+  - key: climax
+    name_zh: 迫使魏齐自尽
+    labels:
+      zh: 迫使魏齐自尽
+    start_date: -265
+  - key: closure
+    name_zh: 急流勇退
+    labels:
+      zh: 急流勇退
+    start_date: -257
+  decisions:
+  - date: -266
+    title_zh: 赦免须贾而不杀
+    rationale: 念其赠绨袍尚有故人之心
+  - date: -257
+    title_zh: 荐蔡泽自代相位
+    rationale: 恩主郑安平降赵，惧罪且知进退盈亏之理
+events:
+- id: guji-范睢-event-birth
+  date: -281
+  year_of: -281
+  precision: decade
+  is_circa: true
+  title_zh: 范睢生于魏
+- id: guji-范睢-event-betrayal
+  date: -271
+  year_of: -271
+  title_zh: 遭须贾诬陷、魏齐笞辱，佯死得脱
+- id: guji-范睢-event-enter-qin
+  date: -270
+  year_of: -270
+  title_zh: 化名张禄随王稽入秦
+- id: guji-范睢-event-distance-strategy
+  date: -268
+  year_of: -268
+  title_zh: 向秦昭王献远交近攻之策
+- id: guji-范睢-event-hu-jia-humiliation
+  date: -266
+  year_of: -266
+  title_zh: 微行会须贾，赠绨袍感旧，遣其归魏
+- id: guji-范睢-event-phase-change
+  date: -266
+  year_of: -266
+  title_zh: 建言秦王废太后、逐穰侯，遂代之为秦相，封应侯
+- id: guji-范睢-event-wei-qi-death
+  date: -265
+  year_of: -265
+  title_zh: 迫魏齐出逃，魏齐自尽
+- id: guji-范睢-event-recommend-cai-ze
+  date: -257
+  year_of: -257
+  title_zh: 因郑安平降赵惧罪，荐蔡泽代相，谢病归
+- id: guji-范睢-event-death
+  date: -255
+  year_of: -255
+  precision: year
+  is_circa: true
+  title_zh: 范睢卒

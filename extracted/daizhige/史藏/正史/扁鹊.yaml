@@ -1,0 +1,103 @@
+person:
+  qid: guji-bianque
+  name_zh: 扁鹊
+  names:
+    zh: 扁鹊
+    en: Bian Que
+  lifespan:
+    birth:
+      date: -407
+      precision: year
+      is_circa: true
+      raw: 约公元前407年
+    death:
+      date: -310
+      precision: year
+      is_circa: true
+  birth_date: 约公元前407年
+  death_date: 约公元前310年
+  era: 战国
+  reign_ref: ''
+  archetype: 神医
+  dilemmas:
+  - 讳疾忌医者不可救，医者三易之道的取舍
+  - 医术精而遭权贵嫉妒残害之危
+  lesson: 信医者生，讳疾者亡；良医当随俗为变，不拘一术
+  summary_first_person: 我名秦越人，世人以良医之称叫我扁鹊。我得长桑君禁方，能视见垣一方人，以此视病尽见五脏症结，行医列国，随俗为变，卒遭秦太医令李醯妒杀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷105
+endeavors:
+- id: guji-bianque-endeavor-1
+  key: medical
+  name_zh: 行医列国
+  phases:
+  - key: brewing
+    name_zh: 得长桑君禁方
+    labels:
+      zh: 学医受术
+    start_date: -407
+    highlight_event_id: guji-bianque-event-apprentice
+  - key: breakthrough
+    name_zh: 起死虢太子
+    labels:
+      zh: 虢太子尸厥
+    start_date: -387
+    highlight_event_id: guji-bianque-event-guo
+  - key: climax
+    name_zh: 齐侯之诊与随俗为变
+    labels:
+      zh: 三易之道
+    start_date: -357
+    highlight_event_id: guji-bianque-event-huan
+  - key: closure
+    name_zh: 遭妒遇害
+    labels:
+      zh: 李醯使人杀之
+    start_date: -310
+    highlight_event_id: guji-bianque-event-death
+  decisions:
+  - date: -387
+    title_zh: 以砭石针灸起虢太子尸厥
+    rationale: 见虢太子气未绝，断为尸蹶，力主可治
+  - date: -353
+    title_zh: 拒言桓侯疾而当医
+    rationale: 疾居腠理尚可治，恐桓侯讳疾，故直言将去
+  - date: -310
+    title_zh: 入秦冒死行医
+    rationale: 医者本分，虽知李醯嫉恨仍不改行医之志
+events:
+- id: guji-bianque-event-birth
+  type: birth
+  date: -407
+  year_of: 公元前407年
+  content: 扁鹊（秦越人）约于此年间生，勃海郡郑人也。
+- id: guji-bianque-event-apprentice
+  type: milestone
+  date: -403
+  year_of: 约公元前403年
+  content: 舍客长桑君过，扁鹊独奇之，常谨遇之；长桑君出上药并禁方书，饮以上池之水，视见垣一方人，自此为医。
+- id: guji-bianque-event-jin
+  type: career
+  date: -397
+  year_of: 约公元前397年
+  content: 过虢、行至晋，为赵简子按脉，言其血脉治，简子寤而酬之。
+- id: guji-bianque-event-guo
+  type: career
+  date: -387
+  year_of: 约公元前387年
+  content: 路过虢，闻虢太子死未半日，自荐视之，断为尸蹶，使弟子子阳厉针砥石、子豹为方熨，太子遂复生，天下尽以扁鹊为能生死人。
+- id: guji-bianque-event-huan
+  type: career
+  date: -353
+  year_of: 约公元前353年
+  content: 见齐桓侯（一作蔡桓公），四见而疾由腠理至骨髓，桓侯不以为然，扁鹊去，桓侯后病发而死。
+- id: guji-bianque-event-departments
+  type: career
+  date: -330
+  year_of: 约公元前330年
+  content: 周游列国，随俗为变：在赵为带下医，过雒阳为耳目痹医，入咸阳为小儿医。
+- id: guji-bianque-event-death
+  type: death
+  date: -310
+  year_of: 约公元前310年
+  content: 入秦，秦太医令李醯自知伎不如扁鹊，使人刺杀之，扁鹊卒于途。

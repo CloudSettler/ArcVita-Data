@@ -1,0 +1,122 @@
+person:
+  qid: guji-张仪
+  name_zh: 张仪
+  names:
+    zh: 张仪
+    en: Zhang Yi
+  lifespan:
+    birth:
+      date: ~-356
+      precision: year
+      is_circa: true
+      raw: 生年不详，约战国中期
+    death:
+      date: ~-309
+      precision: year
+      is_circa: true
+      raw: 卒于秦武王元年前后
+  birth_date: ~-356
+  death_date: ~-309
+  era: 战国
+  reign_ref: 秦惠文王、秦武王
+  archetype: 纵横家／外交策士
+  dilemmas:
+  - 以诈术相秦，_objective 求功名与道义之间的取舍
+  lesson: 凭舌辩与权变纵横捭阖，瓦解合纵、连横强秦，然以诈欺成名，亦以诡道见讥于后世。
+  summary_first_person: 我张仪，魏国人也，学游说之术于鬼谷先生。曾因被疑盗璧而遭笞辱，然不以小辱废志。后入秦，说惠文王，拜为客卿，继而为相。我以连横之策游说诸国，散六国之合纵：使楚绝齐盟，欺怀王以商於六百里之地；说韩、魏、齐、赵、燕以事秦，令山东之势自溃。秦武王立，我不见容，出奔魏，为魏相一岁而卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷070
+endeavors:
+- id: guji-张仪-endeavor-1
+  name_zh: 相秦用事
+  labels:
+    zh: 入秦为相
+  phases:
+  - key: brewing
+    name_zh: 游学及楚受辱
+    labels:
+      zh: 游学
+    start_date: ~-340
+    highlight_event_id: guji-张仪-event-bianru
+  - key: breakthrough
+    name_zh: 说秦惠王拜客卿
+    labels:
+      zh: 入秦
+    start_date: ~-328
+    highlight_event_id: guji-张仪-event-xiang
+  - key: climax
+    name_zh: 连横破合纵
+    labels:
+      zh: 连横
+    start_date: ~-313
+    highlight_event_id: guji-张仪-event-chu
+  - key: closure
+    name_zh: 出奔魏相而卒
+    labels:
+      zh: 晚岁
+    start_date: ~-310
+    highlight_event_id: guji-张仪-event-wei
+  decisions:
+  - date: ~-328
+    title_zh: 入秦求仕
+    rationale: 楚以盗璧之疑笞辱仪，仪以为口舌存亡所系，遂西入秦以谋功名。
+  - date: ~-313
+    title_zh: 使楚欺怀王绝齐
+    rationale: 齐楚为纵亲，秦欲破之，乃许商於之地六百里诱楚绝齐，使合纵自解。
+- id: guji-张仪-endeavor-2
+  name_zh: 游说诸侯
+  labels:
+    zh: 遍说六国
+  phases:
+  - key: brewing
+    name_zh: 说魏事秦为中枢
+    labels:
+      zh: 首说魏
+    start_date: ~-322
+    highlight_event_id: guji-张仪-event-shuowei
+  - key: climax
+    name_zh: 遍说韩魏齐赵燕
+    labels:
+      zh: 连横之游
+    start_date: ~-311
+    highlight_event_id: guji-张仪-event-chu
+  decisions:
+  - date: ~-311
+    title_zh: 力为秦连横六国
+    rationale: 借秦威势，以利诱威服之说动诸国君，使背纵约而西事秦。
+events:
+- id: guji-张仪-event-birth
+  event_type: birth
+  date: ~-356
+  year_of: ~-356
+  description: 张仪生，魏国安邑人，后学于鬼谷先生，习纵横之术。
+- id: guji-张仪-event-bianru
+  event_type: incident
+  date: ~-340
+  year_of: ~-340
+  description: 从相楚，楚相亡璧，疑张仪盗之，执笞数百，仪不服，释之。仪曰：视吾舌尚在不？
+- id: guji-张仪-event-xiang
+  event_type: appointment
+  date: ~-328
+  year_of: ~-328
+  description: 秦惠文王以为客卿，与谋伐诸侯；后为相，居秦而摄魏相之政。
+- id: guji-张仪-event-shuowei
+  event_type: diplomatic_mission
+  date: ~-322
+  year_of: ~-322
+  description: 张仪相魏，欲令魏先事秦而以为诸侯之倡，魏不肯，秦伐取曲沃、平周，复厚遇魏。
+- id: guji-张仪-event-chu
+  event_type: diplomatic_mission
+  date: ~-313
+  year_of: ~-313
+  description: 使楚，许楚怀王商於六百里地以诱其绝齐；楚绝齐而秦不予地，怀王大怒兴兵伐秦，兵败丹阳、蓝田。
+- id: guji-张仪-event-shuoliuhuo
+  event_type: diplomatic_mission
+  date: ~-311
+  year_of: ~-311
+  description: 说韩、齐、赵、燕诸王以连横事秦，六国之约皆散，秦封仪武信君。
+- id: guji-张仪-event-wei
+  event_type: aftermath
+  date: ~-310
+  year_of: ~-310
+  description: 秦武王素恶张仪，仪惧诛，因间言之魏，为魏相，期岁而卒于魏。

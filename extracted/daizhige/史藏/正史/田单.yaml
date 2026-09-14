@@ -1,0 +1,179 @@
+person:
+  qid: guji-田单
+  name_zh: 田单
+  names:
+    zh: 田单
+    en: Tian Dan
+  lifespan:
+    birth:
+      date: -291
+      precision: year
+      is_circa: true
+      raw: 生年不详，约战国后期
+    death:
+      date: -265
+      precision: year
+      is_circa: true
+      raw: 莒城任相后数年卒，年不详
+  birth_date: 约 -291
+  death_date: 约 -265
+  era: 战国
+  reign_ref: 齐湣王、齐襄王时期
+  archetype: 孤城复国的智谋名将
+  dilemmas:
+  - 守即墨孤城而死战，还是出降而保全性命
+  - 用阴谋诡计惑敌取胜是否合乎兵道正道
+  lesson: 火牛奇计出奇制胜，危局中智谋与民心可扭转乾坤
+  summary_first_person: 我本是齐国临淄市掾小吏，燕破齐时遁走安平，教族人改车轴缚铁笼得脱。后守即墨孤城，众推为将。我扬言天命助齐，深得士心，又行反间使燕王易将去乐毅，乃以火牛阵夜破燕军，连收七十余城，迎齐王入莒，复齐之国，功封安平君。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷082
+endeavors:
+- id: guji-田单-endeavor-1
+  name_zh: 即墨守城与火牛破燕
+  phases:
+  - key: brewing
+    name_zh: 遁走安平
+    labels:
+      zh: 避乱东逃
+    start_date: -284
+    highlight_event_id: guji-田单-event-escape
+  - key: breakthrough
+    name_zh: 即墨聚心
+    labels:
+      zh: 孤城拒燕
+    start_date: -284
+    highlight_event_id: guji-田单-event-defend
+  - key: climax
+    name_zh: 火牛夜袭
+    labels:
+      zh: 反间火牛
+    start_date: -279
+    highlight_event_id: guji-田单-event-fire-oxen
+  - key: closure
+    name_zh: 收复齐地
+    labels:
+      zh: 复国封君
+    start_date: -279
+    highlight_event_id: guji-田单-event-restore
+  decisions:
+  - date: -284
+    title_zh: 令族人截断车轴、包以铁笼
+    rationale: 恐齐人争长推折车轴而不得脱，先为远虑以保族众脱险
+  - date: -280
+    title_zh: 行反间使燕以骑劫代乐毅
+    rationale: 乐毅善用兵、得燕人心，去之则燕军易破
+  - date: -279
+    title_zh: 火牛阵夜出突袭燕营
+    rationale: 巧收城中千余牛为奇兵，虽阴谋诡计，兵者诡道，出奇制胜
+- id: guji-田单-endeavor-2
+  name_zh: 复国为相与 misc 遗略
+  phases:
+  - key: brewing
+    name_zh: 迎立齐襄王
+    labels:
+      zh: 立王于莒
+    start_date: -283
+    highlight_event_id: guji-田单-event-restore
+  - key: breakthrough
+    name_zh: 封安平君为相
+    labels:
+      zh: 安平君
+    start_date: -279
+    highlight_event_id: guji-田单-event-xiangguo
+  - key: climax
+    name_zh: 攻狄 debate
+    labels:
+      zh: 过淄攻狄
+    start_date: -266
+    highlight_event_id: guji-田单-event-di
+  - key: closure
+    name_zh: 卒于齐
+    labels:
+      zh: 终老于齐
+    start_date: -265
+  decisions:
+  - date: -279
+    title_zh: 迎襄王于莒而自为齐相
+    rationale: 齐国既复，须立君以安社稷
+  - date: -266
+    title_zh: 纳鲁仲连之言复攻狄
+    rationale: 上无将军之心，士卒无死敌之志；闻言幡然厉气，遂下狄城
+events:
+- id: guji-田单-event-birth
+  person_qid: guji-田单
+  name_zh: 田单出生
+  date: -291
+  year_of: -291
+  precision: year
+  is_circa: true
+  type: birth
+  description: 田单生年正史无载，约生于战国齐威王末年，为临淄市掾（市场小吏）之后。
+- id: guji-田单-event-escape
+  person_qid: guji-田单
+  name_zh: 安平逃亡
+  date: -284
+  year_of: -284
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  description: 燕将乐毅破齐临淄，田单先令族人将车轴截断并包铁笼，齐人争路车轴尽断为燕所虏，唯田单一族得以逃脱东保即墨。
+- id: guji-田单-event-defend
+  person_qid: guji-田单
+  name_zh: 即墨被推为将
+  date: -283
+  year_of: -283
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  description: 即墨大夫战死，城中共推田单为将，立城拒燕；田单与士卒同甘苦，坐则编贲、起则操版筑，自取妻妾编于行伍，深得军心。
+- id: guji-田单-event-fire-oxen
+  person_qid: guji-田单
+  name_zh: 火牛阵夜破燕军
+  date: -279
+  year_of: -279
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  description: 田单以反间使燕换将骑劫，又收城中千余牛，角缚兵刃、尾束灌脂苇草，夜凿城纵牛，壮士五千随出，燕军大骇败走，齐人杀其将骑劫。
+- id: guji-田单-event-restore
+  person_qid: guji-田单
+  name_zh: 收复七十余城迎立襄王
+  date: -279
+  year_of: -279
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  description: 火牛大胜之后田单乘胜追亡，所过城邑皆叛燕归齐，收复七十余城，迎齐襄王于莒，入临淄听政。
+- id: guji-田单-event-xiangguo
+  person_qid: guji-田单
+  name_zh: 封安平君拜为齐相
+  date: -279
+  year_of: -279
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-2
+  description: 齐襄王封田单为安平君，后拜之以为相，主齐政。
+- id: guji-田单-event-di
+  person_qid: guji-田单
+  name_zh: 过淄攻狄不下与终克
+  date: -266
+  year_of: -266
+  precision: year
+  is_circa: true
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-2
+  description: 田单攻狄三月不克，鲁仲连谓其有生之乐无死之心；田单闻言立具卒乘、厉气循城，亲当矢石，遂克狄城。
+- id: guji-田单-event-death
+  person_qid: guji-田单
+  name_zh: 田单卒
+  date: -265
+  year_of: -265
+  precision: year
+  is_circa: true
+  type: death
+  description: 田单卒年不详，为相之后事迹无闻，约卒于齐襄王后期；一说迁赵为将。
