@@ -1,0 +1,90 @@
+person:
+  qid: guji-fan-kuai
+  name_zh: 樊哙
+  names:
+    zh: 樊哙
+    en: Fan Kuai
+  lifespan:
+    birth:
+      date: -242
+      precision: year
+      is_circa: true
+      raw: 生年不详，约战国末期
+    death:
+      date: -189
+      precision: year
+      is_circa: true
+      raw: 孝惠六年卒，约公元前189年
+  era: 秦末汉初
+  reign_ref: 汉高祖、汉惠帝
+  archetype: 忠勇武将
+  dilemmas:
+  - 直言进谏之危与社稷之安的取舍
+  - 吕氏专权下外戚姻亲与刘氏宗社的冲突
+  lesson: 忠勇直言，危难关头挺身而出，方为大将本色
+  summary_first_person: 我樊哙本以屠狗为业，随高祖起于丰沛，鸿门宴上带剑拥盾直入军门责让项羽，护主脱险；后从征天下，封舞阳侯；吕后时匈奴嫚书相辱，我请以十万众横行于匈奴，反为季布所斥。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/樊哙
+endeavors:
+- id: guji-fan-kuai-endeavor-1
+  name_zh: 从刘邦起事，鸿门救主，封侯定汉
+  phases:
+  - key: brewing
+    name_zh: 随沛公起兵
+    labels:
+      zh: 秦末从征
+    start_date: -209
+  - key: breakthrough
+    name_zh: 鸿门拥盾直入
+    labels:
+      zh: 护主危局
+    start_date: -206
+    highlight_event_id: guji-fan-kuai-event-hongmen
+  - key: climax
+    name_zh: 从定天下，屡立战功
+    labels:
+      zh: 楚汉相争
+    start_date: -206
+  - key: closure
+    name_zh: 封舞阳侯， pods 吕后之世
+    labels:
+      zh: 功高位重
+    start_date: -201
+  decisions:
+  - date: -206
+    title_zh: 鸿门带剑拥盾闯军门面责项羽
+    rationale: 沛公危在旦夕，宁冒死闯营卫主脱身
+  - date: -195
+    title_zh: 以十万众横行匈奴之议
+    rationale: 冒顿嫚书辱吕后，欲发兵雪耻，然为季布面折
+events:
+- id: guji-fan-kuai-event-birth
+  event_type: birth
+  date: -242
+  year_of: -242
+  description_zh: 樊哙约生于战国末年，沛县人，以屠狗为业
+- id: guji-fan-kuai-event-join
+  event_type: endeavor
+  date: -209
+  year_of: -209
+  description_zh: 秦二世元年，随刘邦于沛县起兵反秦，以舍人从攻胡陵、方与诸地
+- id: guji-fan-kuai-event-hongmen
+  event_type: breakthrough
+  date: -206
+  year_of: -206
+  description_zh: 鸿门宴上，樊哙带剑拥盾直入军门，头发上指，面责项羽，护卫刘邦如厕脱身
+- id: guji-fan-kuai-event-marquis
+  event_type: honor
+  date: -201
+  year_of: -201
+  description_zh: 以战功及护驾之劳封舞阳侯，其后从高祖讨韩王信、陈豨等
+- id: guji-fan-kuai-event-xiongnu
+  event_type: endeavor
+  date: -195
+  year_of: -195
+  description_zh: 冒顿单于嫚书吕后，樊哙请以十万众横行匈奴，季布斥曰'哙可斩也'，语见御制读季布传所议
+- id: guji-fan-kuai-event-death
+  event_type: death
+  date: -189
+  year_of: -189
+  description_zh: 孝惠六年，樊哙卒，谥武侯

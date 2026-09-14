@@ -1,0 +1,80 @@
+person:
+  qid: guji-蔡泽
+  name_zh: 蔡泽
+  names:
+    zh: 蔡泽
+    en: Cai Ze
+  lifespan:
+    birth:
+      is_circa: true
+      raw: 战国末期
+    death:
+      is_circa: true
+      raw: 战国末期
+  era: 战国末期
+  archetype: 战国纵横说客、审时知止的功成身退者
+  dilemmas:
+  - 说客以口取相，得势易、保身难
+  - 功名之进与全身之退的抉择
+  lesson: 知止全身，功成急退者得数十；贪恋权位者鲜有善终
+  summary_first_person: 闻应侯得两帝王之师而不解，遂西入秦，以雄谈数范雎盛极思退，说之而代为秦相，然为相数月即谢病归，以知止全身免于倾覆之祸。
+endeavors:
+- id: guji-蔡泽-endeavor-1
+  name_zh: 西游说秦、代范雎为相
+  desc: 以游说之士入秦，以知止之论说服应侯范雎退位，遂继任秦相。
+  phases:
+  - key: brewing
+    name_zh: 持粱刺齿肥之志
+    labels:
+      zh: 有志游说
+  - key: breakthrough
+    name_zh: 雄谈悟应侯
+    labels:
+      zh: 说范雎
+    highlight_event_id: guji-蔡泽-event-说服范雎
+  - key: climax
+    name_zh: 拜相代秦
+    labels:
+      zh: 为秦相
+    highlight_event_id: guji-蔡泽-event-代相
+  - key: closure
+    name_zh: 数月而退
+    labels:
+      zh: 知止得归
+    highlight_event_id: guji-蔡泽-event-罢相
+  decisions:
+  - title_zh: 西行入秦说应侯
+    rationale: 范雎虽势力显极，然久居相位必有危殆，泽以知止全身之说取而代之
+  - title_zh: 为相数月即退
+    rationale: 知权位不可久恃，全身而退，异于势利之徒
+events:
+- id: guji-蔡泽-event-说服范雎
+  year_of: -256
+  date_raw: 战国末期
+  date_precision: circa
+  type: political
+  desc: 蔡泽至秦，以雄谈开说应侯范雎，明盛极必衰、知止全身之理，范雎称善而谢病归相印。
+  provenance: 御制咏史（范叔因王稽）采用其事
+  actor: guji-蔡泽
+  related_persons:
+  - guji-范雎
+- id: guji-蔡泽-event-代相
+  year_of: -255
+  date_raw: 战国末期
+  date_precision: circa
+  type: appointment
+  desc: 范雎让相位，蔡泽拜为秦相。
+  provenance: 御制咏史：罢相遂代之
+  actor: guji-蔡泽
+  related_persons:
+  - guji-范雎
+- id: guji-蔡泽-event-罢相
+  year_of: -254
+  date_raw: 战国末期
+  date_precision: circa
+  type: political
+  desc: 为秦相数月即去位，以知止全身。
+  provenance: 御制咏史：数月退何速
+  actor: guji-蔡泽
+  related_persons:
+  - guji-范雎
