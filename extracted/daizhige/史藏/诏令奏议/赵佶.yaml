@@ -1,0 +1,135 @@
+person:
+  qid: guji-赵佶
+  name_zh: 赵佶
+  names:
+    zh: 赵佶
+    en: Zhao Ji
+  lifespan:
+    birth:
+      date: '1082'
+      precision: year
+      is_circa: true
+      raw: 元丰五年（约1082年）
+    death:
+      date: '1135'
+      precision: year
+      is_circa: false
+  birth_date: '1082'
+  death_date: '1135'
+  era: 北宋
+  reign_ref: 元符三年（1100年）即位，年号建中靖国、崇宁、大观、政和、重和、宣和
+  archetype: 艺术家型皇帝
+  dilemmas:
+  - 治国与个人艺术志趣之间的失衡
+  - 承继神宗哲宗变法遗业与朝政用人之争
+  lesson: 艺术天赋并不能替代勤勉治国，奢靡与用人失察终致社稷倾覆。
+  summary_first_person: 我是宋徽宗赵佶，元符三年继兄长哲宗之位即皇帝位，颁赦天下，率循元丰、绍圣之谋；然我以书画自娱，委任非人，终在宣和末年内禅逊位，社稷倾覆，客死五国城。
+  source_urls:
+  - 《宋大诏令集》卷第一帝统一
+  - 《宋大诏令集》卷第二帝统二
+endeavors:
+- id: guji-赵佶-endeavor-1
+  name_zh: 即位与承祧
+  phases:
+  - key: brewing
+    name_zh: 藩邸蓄望
+    labels:
+      zh: 藩王时期
+    start_date: '1097'
+  - key: climax
+    name_zh: 即位大赦
+    labels:
+      zh: 元符三年正月即位
+    start_date: 1100-02
+    highlight_event_id: guji-赵佶-event-accession
+  decisions:
+  - date: 1100-02
+    title_zh: 即皇帝位并大赦天下
+    rationale: 哲宗驾崩无嗣，以先帝末命嗣累圣丕图，颁赦以安天下。
+- id: guji-赵佶-endeavor-2
+  name_zh: 改元纪政
+  phases:
+  - key: brewing
+    name_zh: 建中靖国
+    labels:
+      zh: 调和新旧之政
+    start_date: '1101'
+  - key: breakthrough
+    name_zh: 崇宁大观
+    labels:
+      zh: 绍述新法
+    start_date: '1102'
+  - key: closure
+    name_zh: 宣和收尾
+    labels:
+      zh: 重和、宣和之际
+    start_date: '1118'
+  decisions:
+  - date: '1101'
+    title_zh: 改元建中靖国
+    rationale: 年号取"建中"意在中正调停，姑息纷争，暂求朝局安定。
+  - date: '1118'
+    title_zh: 己酉朔旦冬至改重和元年
+    rationale: 借朔旦冬至祥瑞改元以彰休命，旋又改宣和。
+- id: guji-赵佶-endeavor-3
+  name_zh: 宣和内禅
+  phases:
+  - key: climax
+    name_zh: 传位太子
+    labels:
+      zh: 内禅逊位
+    start_date: 1125-12
+    highlight_event_id: guji-赵佶-event-abdication
+  - key: closure
+    name_zh: 靖康蒙尘
+    labels:
+      zh: 北狩五国城
+    start_date: '1127'
+  decisions:
+  - date: 1125-12
+    title_zh: 宣和传位诏，内禅于太子桓
+    rationale: 金兵南下，迫于危局禅位太子以图自逸，实弃艰责予嗣君。
+events:
+- id: guji-赵佶-event-birth
+  person_id: guji-赵佶
+  type: birth
+  date: '1082'
+  date_is_circa: true
+  year_of: 1082
+  title_zh: 赵佶生
+  description_zh: 神宗之子，约生于元丰五年。
+- id: guji-赵佶-event-accession
+  person_id: guji-赵佶
+  type: endeavor-event
+  date: 1100-02
+  year_of: 1100
+  title_zh: 徽宗即位赦
+  description_zh: 元符三年正月庚辰即皇帝位，颁赦天下，誓率循元丰诒谋、绍圣遗训。
+- id: guji-赵佶-event-erdings
+  person_id: guji-赵佶
+  type: endeavor-event
+  date: '1101'
+  year_of: 1101
+  title_zh: 改元建中靖国
+  description_zh: 御札改建中靖国元年，布新之政自此始。
+- id: guji-赵佶-event-tiangming
+  person_id: guji-赵佶
+  type: endeavor-event
+  date: '1119'
+  year_of: 1119
+  title_zh: 宰臣章惇等奏天宁节及改元重和、宣和
+  description_zh: 己酉朔旦冬至改重和元年，旋改宣和元年，历数自新。
+- id: guji-赵佶-event-abdication
+  person_id: guji-赵佶
+  type: endeavor-event
+  date: 1125-12
+  year_of: 1125
+  title_zh: 宣和传位诏
+  description_zh: 金军压境，徽宗下传位诏内禅，太子桓即位，是为钦宗。
+- id: guji-赵佶-event-death
+  person_id: guji-赵佶
+  type: death
+  date: '1135'
+  year_of: 1135
+  title_zh: 赵佶卒
+  description_zh: 靖康北狩后囚于五国城，薨于异域。
