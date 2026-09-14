@@ -1,0 +1,259 @@
+person:
+  qid: guji-章邯
+  name_zh: 章邯
+  names:
+    zh: 章邯
+    en: Zhang Han
+  lifespan:
+    birth:
+      precision: unknown
+      raw: 不详
+    death:
+      date: -205
+      precision: year
+      is_circa: true
+      raw: 汉二年（前205年），废丘城破，自刭死（据《史记》补）
+  death_date: -205
+  era: 秦末楚汉之际（前209—前205）
+  reign_ref: 秦二世时为秦将；降楚后受封西楚雍王
+  archetype: 末世戡乱名将·降王
+  dilemmas:
+  - 战而胜，赵高必疾妒其功；战不胜，不免于死——庙堂之上进退皆诛
+  - 还兵与诸侯从约、分王其地南面称孤，还是身伏斧质、妻子为僇
+  - 二十万旧部夜坑新安，己身独存——降王之位与秦人旧望难两全
+  lesson: 战场上的常胜，换不来庙堂的安全；大厦将倾之际，名将真正的胜负不在阵前，而在猜忌与抉择之间。
+  summary_first_person: 我章邯，陈涉起而山东皆反，以仓促成军之师迫走陈王、杀齐王田儋、夜衔枚大破项梁于定陶，又渡河围赵王于钜鹿，几以一身撑住将倾的秦室。然赵高用事，二世见让，长史欣留司马门三日不得见——战胜亦诛，不胜亦诛。我与项羽盟于洹水南殷虚上，受封雍王。新安一夜，二十万旧部尽坑，独我与司马欣、董翳得入秦。汉王还定三秦，我困守废丘，城破自刭，以此终局。
+endeavors:
+- id: guji-章邯-endeavor-1
+  person_id: guji-章邯
+  name_zh: 为秦戡乱：迫陈涉、灭田儋、破项梁、围钜鹿
+  summary_zh: 自受命出关至棘原相持，章邯以一军系秦室存亡，胜则遭忌，终困于庙堂。
+  phases:
+  - key: brewing
+    name_zh: 受命出关，戡定关东
+    labels:
+      zh:
+      - 秦将
+      - 戡乱
+    start_date: -209
+    highlight_event_id: guji-章邯-event-pursue-chensheng
+  - key: breakthrough
+    name_zh: 扫平魏齐，兵锋全盛
+    labels:
+      zh:
+      - 杀田儋
+      - 栗之捷
+    start_date: -208
+    highlight_event_id: guji-章邯-event-kill-tiandan
+  - key: climax
+    name_zh: 定陶夜袭枭项梁，渡河围钜鹿
+    labels:
+      zh:
+      - 定陶之战
+      - 钜鹿之围
+    start_date: -208
+    highlight_event_id: guji-章邯-event-dingtao
+  - key: closure
+    name_zh: 棘原相持，庙堂见疑
+    labels:
+      zh:
+      - 漳南相持
+      - 二世见让
+    start_date: -207
+    highlight_event_id: guji-章邯-event-xin-plead
+  decisions:
+  - date: -208
+    title_zh: 定陶既捷，释楚渡河击赵
+    rationale: 以为楚地兵不足忧，移锋北上大破赵军，令王离、涉间围钜鹿而己军其南筑甬道输粟，欲先灭赵以慑诸侯。
+  - date: -207
+    title_zh: 遣长史司马欣入咸阳请事
+    rationale: 秦军数却，二世使人让章邯；章邯恐，使欣请事以自明，遂知赵高壅蔽、进退皆诛之势。
+- id: guji-章邯-endeavor-2
+  person_id: guji-章邯
+  name_zh: 降楚封雍：洹水之盟至废丘之殁
+  summary_zh: 内不容于赵高，遂盟楚受封雍王；旧部坑于新安，地失于三秦，终困死废丘。
+  phases:
+  - key: brewing
+    name_zh: 约降于楚，盟于洹水
+    labels:
+      zh:
+      - 洹水之盟
+      - 雍王
+    start_date: -207
+    highlight_event_id: guji-章邯-event-surrender
+  - key: breakthrough
+    name_zh: 就国关中，王咸阳以西
+    labels:
+      zh:
+      - 都废丘
+    start_date: -206
+    highlight_event_id: guji-章邯-event-king-yong
+  - key: climax
+    name_zh: 新安之痛，三秦之失
+    labels:
+      zh:
+      - 新安坑卒
+      - 汉定三秦
+    start_date: -206
+    highlight_event_id: guji-章邯-event-xinan
+  - key: closure
+    name_zh: 困守废丘
+    labels:
+      zh:
+      - 废丘之围
+    start_date: -205
+    highlight_event_id: guji-章邯-event-death
+  decisions:
+  - date: -207
+    title_zh: 纳陈余书议，阴使始成约降于楚
+    rationale: 有功亦诛、无功亦诛，天之亡秦无愚智皆知之；还兵与诸侯从约共攻秦、分王其地南面称孤，孰与身伏斧质、妻子为僇。
+  - date: -206
+    title_zh: 受雍王之封，都废丘镇秦故地
+    rationale: 降将之身别无选择；项王三分关中、王秦降将以距塞汉王道，章邯得故壤以自处。
+events:
+- id: guji-章邯-event-birth
+  person_id: guji-章邯
+  type: birth
+  title_zh: 章邯生
+  date_precision: unknown
+  description_zh: 生年不详，史失其载；事迹始见于秦二世末年，时为秦将。
+- id: guji-章邯-event-pursue-chensheng
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 迫走陈王，兵锋东出
+  date: -208
+  date_precision: year
+  is_circa: true
+  year_of: -208
+  description_zh: 陈王胜败走，秦兵将章邯又且至；广陵召平闻陈王败、章邯将至，渡江矫陈王令拜项梁为楚上柱国，山东为之震动。
+- id: guji-章邯-event-kill-tiandan
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 杀齐王田儋于临菑
+  date: -208
+  date_precision: year
+  is_circa: true
+  year_of: -208
+  description_zh: 章邯击杀齐王田儋于临菑，田假复自立为齐王，田荣走保东阿。
+- id: guji-章邯-event-donge
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 追围田荣于东阿，为项梁所破
+  date: -208
+  date_precision: year
+  is_circa: true
+  year_of: -208
+  description_zh: 章邯追围田荣于东阿；项梁引兵与齐田荣、司马龙且来救，大破秦军于东阿。
+- id: guji-章邯-event-lizhi
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 军至栗，破项梁别将
+  date: -208
+  date_precision: year
+  is_circa: true
+  year_of: -208
+  description_zh: 章邯军至栗，项梁使别将朱鸡石、余樊君与战，余樊君死，朱鸡石败走胡陵；项梁入薛诛朱鸡石。
+- id: guji-章邯-event-dingtao
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 夜衔枚大破楚军于定陶，项梁死
+  date: -208
+  date_precision: year
+  is_circa: true
+  year_of: -208
+  description_zh: 秦悉起兵益章邯，夜衔枚击楚军，大破之于定陶，项梁死；楚军既破，沛公与项羽引兵而东。
+- id: guji-章邯-event-julu-siege
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 渡河击赵，围钜鹿筑甬道
+  date: -207
+  date_precision: year
+  is_circa: true
+  year_of: -207
+  description_zh: 章邯以为楚地兵不足忧，乃渡河北击赵，大破之；令王离、涉间围钜鹿，己军其南，筑甬道而输之粟。
+- id: guji-章邯-event-julu-defeat
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 甬道被绝，王离军覆于钜鹿
+  date: -207
+  date_precision: year
+  is_circa: true
+  year_of: -207
+  description_zh: 项羽杀宋义为上将军，悉兵渡河，九战绝其甬道，大破秦军，杀苏角、虏王离，涉间自烧死；章邯退保棘原，与项羽军漳南相持未战。
+- id: guji-章邯-event-xin-plead
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-1
+  title_zh: 二世见让，长史欣叩司马门不得见
+  date: -207
+  date_precision: year
+  is_circa: true
+  year_of: -207
+  description_zh: 秦军数却，二世使人让章邯；章邯恐，使长史司马欣请事咸阳，留司马门三日，赵高不见。欣还军报曰：赵高用事于中，战胜疾妒其功，战不胜不免于死，愿将军熟计之。
+- id: guji-章邯-event-chenyu-letter
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-2
+  title_zh: 陈余遗书，举白起、蒙恬之诫
+  date: -207
+  date_precision: year
+  is_circa: true
+  year_of: -207
+  description_zh: 陈余遗章邯书：白起、蒙恬功多而竟赐死；将军为秦将三岁，所失已十万数，有功亦诛、无功亦诛，天之亡秦无愚智皆知之，何不还兵与诸侯从约共攻秦、分王其地南面称孤。
+- id: guji-章邯-event-surrender
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-2
+  title_zh: 盟于洹水南殷虚上，受封雍王
+  date: -207
+  date_precision: year
+  is_circa: true
+  year_of: -207
+  description_zh: 章邯狐疑，阴使始成使项羽欲约未成；楚军再破秦军于三户、污水之上。章邯使人见项羽欲约，项羽以粮少听其约，与期盟洹水南殷虚上；已盟，章邯见项羽流涕为言赵高，项羽立章邯为雍王，置楚军中。
+- id: guji-章邯-event-xinan
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-2
+  title_zh: 新安夜坑秦卒二十余万
+  date: -206
+  date_precision: year
+  is_circa: true
+  year_of: -206
+  description_zh: 诸侯吏卒乘胜奴虏折辱秦吏卒，秦吏卒窃言心不服；项羽召英布、蒲将军计，夜击坑秦卒二十余万人于新安城南，独与章邯、司马欣、董翳入秦。
+- id: guji-章邯-event-king-yong
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-2
+  title_zh: 立为雍王，王咸阳以西，都废丘
+  date: -206
+  date_precision: year
+  is_circa: true
+  year_of: -206
+  description_zh: 项羽三分关中、王秦降将以距塞汉王道；立章邯为雍王，王咸阳以西，都废丘。汉元年四月，诸侯罢戏下各就国。
+- id: guji-章邯-event-sanqin
+  person_id: guji-章邯
+  type: endeavor
+  endeavor_id: guji-章邯-endeavor-2
+  title_zh: 汉王还定三秦，困守废丘
+  date: -205
+  date_precision: year
+  is_circa: true
+  year_of: -205
+  description_zh: 汉王还定三秦，雍地尽失，章邯困守废丘孤城。
+- id: guji-章邯-event-death
+  person_id: guji-章邯
+  type: death
+  title_zh: 废丘城破，自刭死
+  date: -205
+  date_precision: year
+  is_circa: true
+  year_of: -205
+  description_zh: 汉二年，废丘城破，章邯自刭死。
+  note_zh: 选段止于彭城之战，未及章邯之终；卒年卒地据《史记》所载补录。
