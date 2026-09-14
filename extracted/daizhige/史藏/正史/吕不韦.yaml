@@ -1,0 +1,147 @@
+person:
+  qid: guji-吕不韦
+  name_zh: 吕不韦
+  names:
+    zh: 吕不韦
+    en: Lü Buwei
+  lifespan:
+    birth:
+      date: -292
+      precision: circa
+      is_circa: true
+      raw: 约战国末期生于卫国濮阳
+    death:
+      date: -235
+      death_date: -235
+  birth_date: -292
+  death_date: -235
+  era: 战国末期至秦王政年间
+  reign_ref: 秦庄襄王、秦始皇（秦王政）时期
+  archetype: 权臣与商人政治家
+  dilemmas:
+  - 奇货可居的豪赌：以千金投资落魄王孙子楚，冒家门覆灭之险以求立国之利
+  - 权位与身家的两难：功高震主，献《吕氏春秋》欲以文载身，终难自免于秦王政之忌
+  lesson: 奇货可居者，以柔道经营权势；然倚人成事者，终难自保其身
+  summary_first_person: 我本阳翟大贾，见子楚而叹为奇货可居，倾家贷之，使归于秦，终立为庄襄王，我以相国封文信侯，食十万户。太子政立，尊我为相国，号称仲父。我集门客著《吕氏春秋》，悬之咸阳市门，有能增损一字者予千金。后因嫪毐之乱牵连，秦王政免我相职，遣就国，又赐书责让，我恐诛，遂饮鸩而死。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷085
+endeavors:
+- id: guji-吕不韦-endeavor-1
+  name_zh: 奇货可居，扶立子楚
+  phases:
+  - key: brewing
+    name_zh: 贾邯郸遇子楚
+    labels_zh: 经商、识人
+    start_date: -265
+    highlight_event_id: guji-吕不韦-event-1
+  - key: breakthrough
+    name_zh: 千金营谋，游说华阳夫人
+    labels_zh: 投资、游说
+    start_date: -260
+    highlight_event_id: guji-吕不韦-event-2
+  - key: climax
+    name_zh: 子楚归秦嗣位
+    labels_zh: 立嗣
+    start_date: -250
+    highlight_event_id: guji-吕不韦-event-3
+  - key: closure
+    name_zh: 庄襄王立，拜相封侯
+    labels_zh: 得势
+    start_date: -250
+    highlight_event_id: guji-吕不韦-event-3
+  decisions:
+  - date: -265
+    title_zh: 视子楚为奇货可居
+    rationale: 见秦质子子楚困于邯郸，以为楚国中嫡嗣之所争，可挟以成大事，遂曰此奇货可居
+  - date: -260
+    title_zh: 破家为子楚结宾客
+    rationale: 以五百金与子楚进用结宾，复以五百金购奇物玩好西游秦，说华阳夫人立子楚为适嗣
+- id: guji-吕不韦-endeavor-2
+  name_zh: 相秦著书，号曰吕氏春秋
+  phases:
+  - key: brewing
+    name_zh: 为相秉政
+    labels_zh: 执政
+    start_date: -250
+    highlight_event_id: guji-吕不韦-event-3
+  - key: breakthrough
+    name_zh: 招致门客三千，使人人著所闻
+    labels_zh: 养士、编纂
+    start_date: -245
+    highlight_event_id: guji-吕不韦-event-4
+  - key: climax
+    name_zh: 悬书咸阳市门，一字千金
+    labels_zh: 成书
+    start_date: -239
+    highlight_event_id: guji-吕不韦-event-4
+  - key: closure
+    name_zh: 免相就国，恐诛饮鸩
+    labels_zh: 败亡
+    start_date: -237
+    highlight_event_id: guji-吕不韦-event-5
+  decisions:
+  - date: -239
+    title_zh: 布咸阳市门悬《吕氏春秋》
+    rationale: 自度绌于当时人士，欲以文求不磨之名，悬千金于市门以征增损一字者
+  - date: -235
+    title_zh: 饮鸩自尽
+    rationale: 秦王政赐书责让并欲徙蜀，恐诛，遂饮鸩死
+events:
+- id: guji-吕不韦-event-birth
+  event_type: birth
+  date: -292
+  year_of: -292
+  title_zh: 吕不韦生于卫国濮阳
+  description_zh: 吕不韦，阳翟大贾人也，约生于战国末期
+  related_entities:
+  - guji-吕不韦
+- id: guji-吕不韦-event-1
+  event_type: endeavor_milestone
+  date: -265
+  year_of: -265
+  title_zh: 贾于邯郸，见子楚而怜之
+  description_zh: 吕不韦贾于邯郸，见秦质子子楚可怜，曰此奇货可居，遂往见之
+  related_entities:
+  - guji-吕不韦
+- id: guji-吕不韦-event-2
+  event_type: endeavor_milestone
+  date: -260
+  year_of: -260
+  title_zh: 千金营谋，说华阳夫人立子楚为嗣
+  description_zh: 以五百金与子楚为进用结宾之费，复以五百金买奇物玩好，西游秦，求见华阳夫人姊，使说夫人立子楚为适嗣
+  related_entities:
+  - guji-吕不韦
+  - guji-子楚
+- id: guji-吕不韦-event-3
+  event_type: endeavor_milestone
+  date: -250
+  year_of: -250
+  title_zh: 子楚立为庄襄王，吕不韦为相国封文信侯
+  description_zh: 庄襄王元年，以吕不韦为丞相，封文信侯，食河南洛阳十万户
+  related_entities:
+  - guji-吕不韦
+  - guji-子楚
+- id: guji-吕不韦-event-4
+  event_type: endeavor_milestone
+  date: -239
+  year_of: -239
+  title_zh: 编成《吕氏春秋》，悬之咸阳市门，一字千金
+  description_zh: 吕不韦使门客人人著所闻，集论以为八览、六论、十二纪，二十余万言，号曰吕氏春秋，布咸阳市门，悬千金其上，延诸侯游士宾客有能增损一字者予千金
+  related_entities:
+  - guji-吕不韦
+- id: guji-吕不韦-event-5
+  event_type: endeavor_milestone
+  date: -235
+  year_of: -235
+  title_zh: 免相就国，王赐书责让，饮鸩而死
+  description_zh: 秦王政免吕不韦相国之职，令就国河南，后赐书曰君何功于秦，徙蜀，吕不韦恐诛，乃饮酖而死
+  related_entities:
+  - guji-吕不韦
+- id: guji-吕不韦-event-death
+  event_type: death
+  date: -235
+  year_of: -235
+  title_zh: 吕不韦饮鸩而死
+  description_zh: 吕不韦自度稍侵，恐诛，乃饮鸩死，秦王政十二年
+  related_entities:
+  - guji-吕不韦

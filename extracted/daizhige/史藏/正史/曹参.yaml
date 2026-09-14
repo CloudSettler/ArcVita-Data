@@ -1,0 +1,122 @@
+person:
+  qid: guji-caocan
+  name_zh: 曹参
+  names:
+    zh: 曹参
+    en: Cao Can
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 秦末汉初
+  reign_ref: 汉高祖、汉惠帝时期
+  archetype: 萧规曹随的贤相
+  dilemmas:
+  - 身为秦吏而欲背秦起事，恐沛子弟不听
+  - 事若不成，恐秦族灭其家，故让沛公之位于刘季
+  lesson: 知时让贤、谨守成法，可成大功
+  summary_first_person: 我曹参本是沛县狱掾，秦末与萧何同为县吏。陈胜起事后，我们劝沛令召刘季，沛令反悔闭城，我与萧何逾城投奔刘季。众人推我为沛公，我以自爱恐事不就而让于刘季。此后随沛公起兵，为汉攻城略地，终为汉相。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷008
+endeavors:
+- id: guji-caocan-endeavor-1
+  name_zh: 沛县起事与佐汉
+  phases:
+  - key: brewing
+    name_zh: 为秦吏暗中谋变
+    labels:
+      zh:
+      - 沛县狱掾
+      - 与萧何同僚
+    start_date: -209-08
+    highlight_event_id: guji-caocan-event-counsel
+  - key: breakthrough
+    name_zh: 逾城保刘季
+    labels:
+      zh:
+      - 奔附刘季
+      - 举沛公
+    start_date: -209-09
+    highlight_event_id: guji-caocan-event-flee
+  - key: climax
+    name_zh: 佐汉灭秦平楚
+    labels:
+      zh:
+      - 随军征战
+      - 功居前列
+    start_date: -208
+    highlight_event_id: guji-caocan-event-recruit
+  - key: closure
+    name_zh: 身登相位
+    labels:
+      zh:
+      - 汉相
+    start_date: -194
+  decisions:
+  - date: -209-08
+    title_zh: 劝沛令召亡命者以应陈涉
+    rationale: 身为秦吏背秦，恐率沛子弟不听，故召诸亡在外者以劫众
+  - date: -209-09
+    title_zh: 与萧何逾城投奔刘季
+    rationale: 沛令后悔闭城欲诛萧、曹，为保命且成大事
+  - date: -209-09
+    title_zh: 让沛公之位于刘季
+    rationale: 自觉为文吏，恐事不就而后秦种族其家，尽让刘季
+events:
+- id: guji-caocan-event-counsel
+  person_id: guji-caocan
+  date: -209-08
+  year_of: -209
+  date_precision: month
+  type: decision
+  name_zh: 陈胜起事，曹参与萧何劝沛令召刘季
+  detail: 秦二世元年秋，陈胜起于蕲，沛令欲以沛应之，掾、主吏萧何、曹参建议召诸亡在外者可得数百人，因劫众。乃令樊哙召刘季。
+- id: guji-caocan-event-flee
+  person_id: guji-caocan
+  date: -209-09
+  year_of: -209
+  date_precision: month
+  type: escape
+  name_zh: 沛令反悔，曹参逾城保刘季
+  detail: 沛令后悔恐其有变，闭城城守，欲诛萧、曹。萧、曹恐，逾城保刘季，刘季以书射城上谕沛父老，父老杀沛令迎刘季。
+- id: guji-caocan-event-recruit
+  person_id: guji-caocan
+  date: -209-09
+  year_of: -209
+  date_precision: month
+  type: military
+  name_zh: 曹参等收沛子弟二三千人
+  detail: 立刘季为沛公后，少年豪吏如萧、曹、樊哙等皆为收沛子弟二三千人，攻胡陵、方与，还守丰。
+- id: guji-caocan-event-yield
+  person_id: guji-caocan
+  date: -209-09
+  year_of: -209
+  date_precision: month
+  type: decision
+  name_zh: 曹参等文吏自爱让位
+  detail: 众欲立曹参为沛令，萧、曹等皆文吏，自爱，恐事不就，后秦种族其家，尽让刘季，乃立刘季为沛公。
+- id: guji-caocan-event-birth
+  person_id: guji-caocan
+  date: ''
+  year_of: ''
+  date_precision: unknown
+  type: birth
+  name_zh: 曹参出生
+  detail: 生年不详，沛人，与萧何同为沛县吏。
+- id: guji-caocan-event-death
+  person_id: guji-caocan
+  date: -190
+  year_of: -190
+  date_precision: year
+  type: death
+  name_zh: 曹参去世
+  detail: 曹参为汉相三年，惠帝五年卒，谥懿侯。

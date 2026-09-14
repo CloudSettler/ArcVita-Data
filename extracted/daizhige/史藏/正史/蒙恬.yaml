@@ -1,0 +1,144 @@
+person:
+  qid: guji-蒙恬
+  name_zh: 蒙恬
+  names:
+    zh: 蒙恬
+    en: Meng Tian
+  lifespan:
+    birth:
+      date: -250
+      precision: year
+      is_circa: true
+      raw: 生年不详，约秦庄襄王年间
+    death:
+      date: -210
+      precision: year
+      is_circa: false
+      raw: 秦始皇三十七年（前210年），被赐死于阳周
+  birth_date: -250
+  death_date: -210
+  era: 秦
+  reign_ref: 秦始皇（嬴政）
+  archetype: 忠信武将
+  dilemmas:
+  - 修万里长城与驰道劳民而功在社稷，功过难以自明
+  - 拥兵三十万守边，扶苏被赐死之际，明知有诈却须在忠君与守义之间抉择
+  lesson: 忠信而不察上意之诈，地脉之说难逃杀身之祸；谨守臣节终致冤死，令人叹惋。
+  summary_first_person: 我蒙恬本是齐国人，先世自祖父蒙骜起三代仕秦为将。我因家世得信于秦，率军攻齐大败齐军，拜为内史。秦国统一天下后，我奉命率三十万之众北逐戎狄，收复河南之地，修筑长城，起临洮至辽东，延袤万余里，又渡河据阳山，往来北方十余年，威震匈奴。秦始皇甚尊宠我，信重我弟蒙毅。我还奉命修直道，自九原至甘泉，堑山堙谷千八百里，然道未成。始皇三十七年，始皇崩于沙丘，赵高、李斯、胡亥矫诏赐扶苏与我一死。扶苏自杀，我疑诏有诈，请复诉，被囚于阳周。胡亥即位后，赵高进谗，终使我吞药自杀。我自言筑长城绝地脉，或因此得罪于天，然我之忠，天地可鉴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷088
+endeavors:
+- id: guji-蒙恬-endeavor-1
+  title_zh: 伐齐与统一功业
+  phases:
+  - key: brewing
+    name_zh: 家世仕秦
+    labels:
+      zh: 将门之后
+    start_date: -249
+  - key: breakthrough
+    name_zh: 攻齐破敌
+    labels:
+      zh: 拜内史
+    start_date: -221
+    highlight_event_id: guji-蒙恬-event-ji-fa-qi
+  decisions:
+  - date: -221
+    title_zh: 率军伐齐
+    rationale: 蒙恬因家世得为秦将，秦已并天下之势已成，遂率军攻齐，大破之，以功拜内史。
+- id: guji-蒙恬-endeavor-2
+  title_zh: 北逐匈奴与修筑长城
+  phases:
+  - key: brewing
+    name_zh: 受命北征
+    labels:
+      zh: 将三十万众
+    start_date: -215
+  - key: breakthrough
+    name_zh: 却匈奴筑长城
+    labels:
+      zh: 威震匈奴
+    start_date: -214
+    highlight_event_id: guji-蒙恬-event-build-great-wall
+  - key: climax
+    name_zh: 守边十余年
+    labels:
+      zh: 上郡屯兵
+    start_date: -212
+  decisions:
+  - date: -215
+    title_zh: 率三十万之众北逐戎狄
+    rationale: 秦并天下后，匈奴屡扰北边，始皇命蒙恬率军北击，收河南地。
+  - date: -214
+    title_zh: 修筑万里长城
+    rationale: 为御匈奴，因地形用险制塞，起临洮至辽东，延袤万余里。
+  - date: -212
+    title_zh: 修建直道
+    rationale: 自九原抵甘泉，堑山堙谷千八百里，以便南北交通调动兵力。
+- id: guji-蒙恬-endeavor-3
+  title_zh: 忠谏守义与冤死
+  phases:
+  - key: brewing
+    name_zh: 沙丘之变
+    labels:
+      zh: 疑诏不自杀
+    start_date: -210
+  - key: closure
+    name_zh: 囚死阳周
+    labels:
+      zh: 吞药自尽
+    start_date: -210
+    highlight_event_id: guji-蒙恬-event-death
+  decisions:
+  - date: -210
+    title_zh: 请复诉而不即死
+    rationale: 亲受诏命而疑其中有诈，愿复请对质，忠于社稷而坚守臣节。
+events:
+- id: guji-蒙恬-event-birth
+  event_type: person_birth
+  date: -250
+  date_precision: year
+  year_of: -250
+  title_zh: 蒙恬出生
+  description_zh: 蒙恬约生于秦庄襄王年间，齐人之后，先祖蒙骜自齐入秦为将，父蒙武亦为秦将。
+  location: 齐（今山东境内）
+- id: guji-蒙恬-event-ji-fa-qi
+  event_type: career_event
+  date: -221
+  date_precision: year
+  year_of: -221
+  title_zh: 蒙恬率军伐齐，拜为内史
+  description_zh: 蒙恬以家世为秦将，率军攻齐，大破齐军，以功拜为内史，时秦已并天下。
+  location: 齐（今山东境内）
+- id: guji-蒙恬-event-north-campaign
+  event_type: career_event
+  date: -215
+  date_precision: year
+  year_of: -215
+  title_zh: 蒙恬率三十万之众北逐戎狄
+  description_zh: 始皇命蒙恬率军北击匈奴，收复河南之地，渡河取高阙、阳山、北假，筑亭障以逐戎人。
+  location: 河南地、阴山一带
+- id: guji-蒙恬-event-build-great-wall
+  event_type: career_event
+  date: -214
+  date_precision: year
+  year_of: -214
+  title_zh: 蒙恬修筑万里长城
+  description_zh: 蒙恬因地形，用制险塞，起临洮至辽东，延袤万余里，又渡河据阳山，逶蛇而北，威震匈奴。
+  location: 临洮至辽东
+- id: guji-蒙恬-event-shaqiu
+  event_type: career_event
+  date: -210-07
+  date_precision: month
+  year_of: -210
+  title_zh: 沙丘之变，蒙恬疑诏不自杀
+  description_zh: 始皇崩于沙丘，赵高、李斯、胡亥矫诏赐扶苏、蒙恬死。扶苏自杀，蒙恬疑诏有诈，请复诉，被囚于阳周。
+  location: 沙丘、阳周
+- id: guji-蒙恬-event-death
+  event_type: person_death
+  date: -210
+  date_precision: year
+  year_of: -210
+  title_zh: 蒙恬吞药自杀
+  description_zh: 胡亥即位后，赵高为专权进谗，蒙恬终被逼吞药自杀于阳周，自言筑长城绝地脉，慨叹忠而被诛。
+  location: 阳周（今陕西子长附近）
