@@ -1,0 +1,142 @@
+person:
+  qid: guji-韩侂胄
+  name_zh: 韩侂胄
+  names:
+    zh: 韩侂胄
+    en: Han Tuozhou
+  lifespan:
+    birth:
+      date: 1152
+      precision: year
+      is_circa: true
+      raw: 史文未载，约生于南宋绍兴年间
+    death:
+      date: 1207-11
+      precision: month
+      is_circa: true
+      raw: 开禧三年十一月为夏震收捕，诛于玉津园
+  birth_date: 1152
+  death_date: 1207-11
+  era: 南宋
+  reign_ref: 宋宁宗朝
+  archetype: 主战权相
+  dilemmas:
+  - 欲乘金国之衰北伐恢复中原，然宋军力不逮，孟浪挑金则师出必危
+  - 以椒房之亲窃权用事，为史弥远等政敌所图，进退皆系性命
+  lesson: 孟浪挑金固匪宜，窃权专擅终殒身；轻启战端者，必为战局所噬
+  summary_first_person: 我以定策之功骤掌朝政，专权用事十余年；力主北伐以复中原，然开禧师出无功，金人反攻。史弥远建除侂胄之议，夏震以禁军收我于途、守我府门，遂殒于玉津园。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/韩侂胄
+  - https://zh.wikipedia.org/wiki/两朝纲目备要
+endeavors:
+- id: guji-韩侂胄-endeavor-1
+  name_zh: 柄国专权与庆元党禁
+  desc_zh: 以外戚定策之功进用，排挤赵汝愚独揽朝政，兴伪学之禁压抑道学，后期弛禁以聚主战人望。
+  phases:
+  - key: brewing
+    name_zh: 定策拥立
+    labels:
+      zh: 与赵汝愚同定策拥立宁宗，以外戚之亲骤进
+    start_date: 1194
+  - key: breakthrough
+    name_zh: 排挤同僚
+    labels:
+      zh: 赵汝愚罢相出朝，侂胄自此窃权用事
+    start_date: 1195
+    highlight_event_id: guji-韩侂胄-event-zhuanquan
+  - key: climax
+    name_zh: 庆元党禁
+    labels:
+      zh: 斥道学为伪学，兴庆元党禁以清异己
+    start_date: 1196
+    highlight_event_id: guji-韩侂胄-event-dangjin
+  - key: closure
+    name_zh: 弛禁谋战
+    labels:
+      zh: 嘉泰年间弛学禁、起用主战之臣，权柄独运
+    start_date: 1202
+  decisions:
+  - date: 1195
+    title_zh: 构陷罢逐赵汝愚
+    rationale: 以定策首功自居，不容汝愚居首辅轧己，遂逐之而专擅朝政
+  - date: 1196
+    title_zh: 兴庆元党禁
+    rationale: 视道学名流为汝愚党援，籍伪学以清其势，然亦自绝于清议
+  - date: 1202
+    title_zh: 嘉泰弛禁
+    rationale: 北伐须收人望，弛伪学之禁，起用主战之士以备恢复
+- id: guji-韩侂胄-endeavor-2
+  name_zh: 开禧北伐
+  desc_zh: 锐意恢复中原，开禧二年下诏伐金，旋遭金军反攻而兵败，身死而和议起。
+  phases:
+  - key: brewing
+    name_zh: 锐意恢复
+    labels:
+      zh: 追封岳飞、起用主战，宣谕京湖两淮、部署四川
+    start_date: 1204
+  - key: breakthrough
+    name_zh: 诏下伐金
+    labels:
+      zh: 开禧二年丙寅下诏北伐，多路出师
+    start_date: 1206-05
+    highlight_event_id: guji-韩侂胄-event-beifa
+  - key: climax
+    name_zh: 兵败反噬
+    labels:
+      zh: 师出无功，金人大举反攻，四川吴曦之变局势益危
+    start_date: 1206-11
+    highlight_event_id: guji-韩侂胄-event-shibai
+  - key: closure
+    name_zh: 诛身议和
+    labels:
+      zh: 史弥远建除侂胄之议，夏震以禁军收捕，殒于玉津园
+    start_date: 1207-11
+    highlight_event_id: guji-韩侂胄-event-death
+  decisions:
+  - date: 1206-05
+    title_zh: 断然下诏北伐
+    rationale: 闻金国势衰谓有机可乘，欲恢复中原以固权位，然孟浪挑金，识者以为匪宜
+  - date: 1206
+    title_zh: 分路宣谕部署军事
+    rationale: 薛叔似宣谕京湖、程松吴曦同赴四川、邓友龙宣谕两淮，皆在开禧二年丙寅，以备多路进讨
+events:
+- id: guji-韩侂胄-event-birth
+  date: 1152
+  year_of: 1152
+  precision: year
+  is_circa: true
+  title_zh: 韩侂胄生
+  desc_zh: 出身相州韩氏名门，北宋名相韩琦之曾孙，后以椒房之亲起家。
+- id: guji-韩侂胄-event-zhuanquan
+  date: 1195
+  year_of: 1195
+  title_zh: 赵汝愚罢相，侂胄专权
+  desc_zh: 庆元元年排挤右相赵汝愚出朝，自此窃权用事，朝政一决于己。
+  endeavor_id: guji-韩侂胄-endeavor-1
+- id: guji-韩侂胄-event-dangjin
+  date: 1196
+  year_of: 1196
+  title_zh: 兴庆元党禁
+  desc_zh: 斥道学为伪学，兴党禁以禁锢赵汝愚、朱熹等一时名流。
+  endeavor_id: guji-韩侂胄-endeavor-1
+- id: guji-韩侂胄-event-beifa
+  date: 1206-05
+  year_of: 1206
+  precision: month
+  title_zh: 开禧北伐诏下
+  desc_zh: 开禧二年丙寅下诏伐金；遣薛叔似宣谕京湖、程松吴曦同赴四川、邓友龙宣谕两淮，多路出师，孟浪挑金。
+  endeavor_id: guji-韩侂胄-endeavor-2
+- id: guji-韩侂胄-event-shibai
+  date: 1207
+  year_of: 1207
+  title_zh: 北伐失利，金人反攻
+  desc_zh: 师出无功，金军大举反攻，四川吴曦之变后局势益危，宋廷转而谋和。
+  endeavor_id: guji-韩侂胄-endeavor-2
+- id: guji-韩侂胄-event-death
+  date: 1207-11
+  year_of: 1207
+  precision: month
+  is_circa: true
+  title_zh: 收捕诛身于玉津园
+  desc_zh: 除侂胄之议建于史弥远；收侂胄时命殿前司中军统制夏震选兵三百防押，别选兵二百守其府门，遂诛之。史家谓侂胄虽窃权实臣分耳，有罪执而诛之不过擒治家奴，何致多烦禁旅俨如敌国。
+  endeavor_id: guji-韩侂胄-endeavor-2
