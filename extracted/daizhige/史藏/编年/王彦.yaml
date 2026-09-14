@@ -1,0 +1,165 @@
+person:
+  qid: guji-王彦
+  name_zh: 王彦
+  names:
+    zh: 王彦
+    en: Wang Yan
+  lifespan:
+    birth:
+      date: '1090'
+      precision: year
+      is_circa: true
+      raw: 约生于北宋元祐前后，史未详载
+    death:
+      date: '1139'
+      precision: year
+      is_circa: false
+      raw: 南宋绍兴九年（1139）卒，本传未详
+  birth_date: 约1090
+  death_date: '1139'
+  era: 两宋之际（北宋末至南宋建炎）
+  reign_ref: 宋高宗建炎
+  archetype: 抗金统兵将领
+  dilemmas:
+  - 驭将过严则失猛士，岳飞见疑而去自为一军
+  - 招抚司骤得擢用，都统制任重而根基未固
+  lesson: 用才者须能容才，驭众者不可多疑，疑则骁将离心而去。
+  summary_first_person: 我是王彦，河内人，初为清河尉。直龙图阁张所招抚河东时，我投身其军中，张所奇我的才干，不数月便擢我为都统制。我以效力之人岳飞为军将，与他共统部伍。然相处既久，岳飞见疑于我，乃去而自为一军，至是降于东京留守杜充。
+  source_urls:
+  - https://zh.wikisource.org/wiki/中興小紀/卷四
+endeavors:
+- id: guji-王彦-endeavor-1
+  name_zh: 投军招抚司·骤擢都统制
+  labels:
+    zh:
+    - 军旅进身
+    - 抗金
+  start_date: '1127'
+  phases:
+  - key: brewing
+    name_zh: 清河尉投军
+    labels:
+      zh:
+      - 弃尉从军
+    start_date: '1127'
+  - key: breakthrough
+    name_zh: 张所奇其才
+    labels:
+      zh:
+      - 见赏
+    start_date: '1127'
+    highlight_event_id: guji-王彦-event-join
+  - key: climax
+    name_zh: 不数月擢都统制
+    labels:
+      zh:
+      - 骤擢统军
+    start_date: '1127'
+    highlight_event_id: guji-王彦-event-promotion
+  - key: closure
+    name_zh: 统制诸军当方面之任
+    labels:
+      zh:
+      - 统军镇守
+    start_date: '1128'
+  decisions:
+  - date: '1127'
+    title_zh: 投张所军中自效
+    rationale: 张所招抚河东，彦以前清河尉往投，欲以军功自见。
+  - date: '1127'
+    title_zh: 受擢都统制
+    rationale: 才干见奇于张所，不数月骤擢，遂膺统军之任。
+- id: guji-王彦-endeavor-2
+  name_zh: 驭将统军·岳飞去留
+  labels:
+    zh:
+    - 治军用人
+    - 将帅相疑
+  start_date: '1127'
+  phases:
+  - key: brewing
+    name_zh: 罗致效力之士
+    labels:
+      zh:
+      - 纳士
+    start_date: '1127'
+  - key: breakthrough
+    name_zh: 以岳飞为军将
+    labels:
+      zh:
+      - 拔骁将
+    start_date: '1127'
+    highlight_event_id: guji-王彦-event-yuefei-app
+  - key: climax
+    name_zh: 共统部伍御金
+    labels:
+      zh:
+      - 同军共事
+    start_date: '1128'
+  - key: closure
+    name_zh: 飞见疑而去
+    labels:
+      zh:
+      - 将才离散
+    start_date: '1128'
+    highlight_event_id: guji-王彦-event-yuefei-leave
+  decisions:
+  - date: '1127'
+    title_zh: 以效力人岳飞为军将
+    rationale: 岳飞勇鸷可用，彦拔为军将，冀共御金兵。
+  - date: '1128'
+    title_zh: 疑岳飞而严驭之
+    rationale: 治军持重驭下过严，久之飞见疑于彦，乃去自为一军，终降东京留守杜充。
+events:
+- id: guji-王彦-event-birth
+  type: birth
+  title_zh: 王彦生于河内
+  date: '1090'
+  year_of: 1090
+  is_circa: true
+  person_qid: guji-王彦
+  description: 王彦，河内人，生年史未详载，据行历推约在北宋元祐前后。
+- id: guji-王彦-event-join
+  type: career
+  title_zh: 前清河尉王彦投张所招抚军中
+  date: '1127'
+  year_of: 1127
+  is_circa: true
+  person_qid: guji-王彦
+  endeavor_id: guji-王彦-endeavor-1
+  description: 直龙图阁张所招抚河东，前清河尉王彦投其军中，所奇其才。
+- id: guji-王彦-event-promotion
+  type: appointment
+  title_zh: 不数月擢都统制
+  date: '1127'
+  year_of: 1127
+  is_circa: true
+  person_qid: guji-王彦
+  endeavor_id: guji-王彦-endeavor-1
+  description: 张所奇王彦之才，不数月擢为都统制。
+- id: guji-王彦-event-yuefei-app
+  type: appointment
+  title_zh: 以效力人岳飞为军将
+  date: '1127'
+  year_of: 1127
+  is_circa: true
+  person_qid: guji-王彦
+  endeavor_id: guji-王彦-endeavor-2
+  description: 彦以效力之人岳飞为军将；岳飞，安阳人也。
+- id: guji-王彦-event-yuefei-leave
+  type: departure
+  title_zh: 岳飞见疑离去，自为一军
+  date: '1128'
+  year_of: 1128
+  is_circa: true
+  person_qid: guji-王彦
+  endeavor_id: guji-王彦-endeavor-2
+  description: 久之，飞见疑于彦，乃去自为一军；至是飞降于东京留守杜充。
+- id: guji-王彦-event-death
+  type: death
+  title_zh: 王彦卒
+  date: '1139'
+  year_of: 1139
+  is_circa: false
+  person_qid: guji-王彦
+  description: 王彦卒，正史载于绍兴九年（1139），本文未详其卒年。

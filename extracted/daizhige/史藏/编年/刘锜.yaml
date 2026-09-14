@@ -1,0 +1,180 @@
+person:
+  qid: guji-liu-qi
+  name_zh: 刘锜
+  names:
+    zh: 刘锜
+    en: Liu Qi
+  lifespan:
+    birth:
+      date: 1098
+      precision: year
+      is_circa: true
+      raw: 约北宋绍圣五年前后（1098年）
+    death:
+      date: 1162
+      precision: year
+      is_circa: false
+      raw: 南宋绍兴三十二年（1162年）
+  birth_date: 1098
+  death_date: 1162
+  era: 两宋之际
+  reign_ref: 宋高宗（建炎四年至绍兴初）
+  archetype: 抗金名将
+  dilemmas:
+  - 富平之战胜负未分而环庆军惊溃，独力难支诸军俱退
+  - 环州、渭州两线受敌，留兵捍慕洧则渭州孤危，亲援渭州则环州之围未解
+  - 张中孚兄弟、赵彬等旧部相继叛降金人，孤军退屯瓦亭进退失据
+  lesson: 主帅昧于知人、军心离散之际，一将骁勇不足挽回全局
+  summary_first_person: 我是刘锜，将门刘仲武之子，官泾原经略使兼知渭州。富平会战，我身率将士杀敌颇众，胜负未分之际环庆军惊遁，诸军俱退，陕西人情大震。其后慕洧据庆阳叛攻环州，我奉张浚之檄往解其围；金人以轻兵乘虚破渭州，我留张中孚、李彦琪捍洧，亲率精锐驰援，而城已陷，只得退屯瓦亭。未几中孚兄弟送款降金，赵彬劫军以叛，五路相继沦没。
+  source_urls:
+  - https://zh.wikisource.org/wiki/中興小紀/卷10
+  - https://zh.wikipedia.org/wiki/刘锜
+endeavors:
+- id: guji-liu-qi-endeavor-1
+  name_zh: 富平会战
+  role_zh: 泾原经略使，率泾原军参战
+  summary_zh: 建炎四年九月，张浚决治兵移檄问罪，合五路兵四十万约日会于耀州；癸亥金将罗索拥兵骤至薄营，刘锜身率将士杀敌颇众，胜负未分，而敌铁骑出不意直击环庆军，赵哲先遁，诸军皆退，陕西人情大震。
+  phases:
+  - key: brewing
+    name_zh: 合兵耀州
+    labels:
+      zh: 集结
+    start_date: 1130-09
+    highlight_event_id: guji-liu-qi-event-fuping-muster
+  - key: breakthrough
+    name_zh: 富平力战
+    labels:
+      zh: 血战
+    start_date: 1130-09-24
+    highlight_event_id: guji-liu-qi-event-fuping-battle
+  - key: climax
+    name_zh: 环庆惊溃诸军俱退
+    labels:
+      zh: 溃败
+    start_date: 1130-09-24
+    highlight_event_id: guji-liu-qi-event-fuping-battle
+  - key: closure
+    name_zh: 陕西大震
+    labels:
+      zh: 收束
+    start_date: 1130-10
+    highlight_event_id: guji-liu-qi-event-wating-retreat
+  decisions:
+  - date: 1130-09
+    title_zh: 奉檄率泾原兵会于耀州
+    rationale: 张浚合五路兵约日会战，锜与刘锡、孙渥、赵哲各率所部与焉
+  - date: 1130-09-24
+    title_zh: 身先士卒力战金军
+    rationale: 罗索拥兵骤至薄营，锜身率将士杀敌颇众，虽胜负未分仍力战不退
+- id: guji-liu-qi-endeavor-2
+  name_zh: 解环州之围与渭州之失
+  role_zh: 泾原经略使兼知渭州
+  summary_zh: 富平败后慕洧以庆阳叛攻环州，张浚檄刘锜以兵解围；锜至环州与洧相拒，金轻兵破渭州，锜留张中孚、李彦琪捍洧，亲率精锐赴援而城已陷，退屯瓦亭，中孚兄弟降金，赵彬劫军以叛，五路相继悉陷。
+  phases:
+  - key: brewing
+    name_zh: 慕洧叛攻环州
+    labels:
+      zh: 叛乱起
+    start_date: 1130-11
+    highlight_event_id: guji-liu-qi-event-huanzhou-relief
+  - key: breakthrough
+    name_zh: 至环州与洧相拒
+    labels:
+      zh: 解围
+    start_date: 1130-11
+    highlight_event_id: guji-liu-qi-event-huanzhou-relief
+  - key: climax
+    name_zh: 驰援渭州而城已陷
+    labels:
+      zh: 驰援
+    start_date: 1130-11
+    highlight_event_id: guji-liu-qi-event-weizhou-fall
+  - key: closure
+    name_zh: 退屯瓦亭部将叛降
+    labels:
+      zh: 孤军退屯
+    start_date: 1130-11
+    highlight_event_id: guji-liu-qi-event-wating-retreat
+  decisions:
+  - date: 1130-11
+    title_zh: 奉檄自渭州赴环州解围
+    rationale: 慕洧以庆阳叛、进攻环州，张浚檄令以兵解围，锜即引兵至环州与之相拒
+  - date: 1130-11
+    title_zh: 留兵捍洧亲率精锐援渭州
+    rationale: 金以轻兵破渭州次潘原县，渭州为其兼知之本州，遂留张中孚、李彦琪捍慕洧而自率精锐赴援
+events:
+- id: guji-liu-qi-event-birth
+  person_id: guji-liu-qi
+  type: life
+  title_zh: 刘锜生
+  date: 1098
+  precision: year
+  is_circa: true
+  raw: 约北宋绍圣五年（1098年）
+  year_of: 1098
+  description_zh: 刘锜生于北宋德顺军，将门之后，与兄刘锡同为刘仲武之子（《中兴小纪》：锡、锜，仲武子也）。
+- id: guji-liu-qi-event-fuping-muster
+  person_id: guji-liu-qi
+  type: military
+  title_zh: 五路合兵耀州
+  date: 1130-09
+  precision: month
+  is_circa: false
+  raw: 建炎四年九月
+  year_of: 1130
+  endeavor_id: guji-liu-qi-endeavor-1
+  description_zh: 宣抚处置使张浚以刘锡为都统制，与泾原经略使刘锜、秦凤经略使孙渥、环庆经略使赵哲各率所部会于耀州，合兵四十万，约日与金战。
+- id: guji-liu-qi-event-fuping-battle
+  person_id: guji-liu-qi
+  type: battle
+  title_zh: 富平之战身先士卒
+  date: 1130-09-24
+  precision: day
+  is_circa: false
+  raw: 建炎四年九月癸亥
+  year_of: 1130
+  endeavor_id: guji-liu-qi-endeavor-1
+  description_zh: 金将罗索拥兵骤至，舆柴囊土借淖平行进薄宋营。刘锜身率将士杀敌颇众，胜负未分；而金铁骑出不意直击环庆军，赵哲离部先遁，诸军皆退，敌乘胜而前，陕西人情大震。
+- id: guji-liu-qi-event-huanzhou-relief
+  person_id: guji-liu-qi
+  type: military
+  title_zh: 引兵解环州之围
+  date: 1130-11
+  precision: month
+  is_circa: true
+  raw: 建炎四年冬（约）
+  year_of: 1130
+  endeavor_id: guji-liu-qi-endeavor-2
+  description_zh: 统制官慕洧惧诛，以庆阳城叛并进攻环州。张浚檄泾原经略使兼知渭州刘锜以兵解围，锜至环州与慕洧相拒。
+- id: guji-liu-qi-event-weizhou-fall
+  person_id: guji-liu-qi
+  type: military
+  title_zh: 渭州陷落驰援不及
+  date: 1130-11
+  precision: month
+  is_circa: true
+  raw: 建炎四年冬（约）
+  year_of: 1130
+  endeavor_id: guji-liu-qi-endeavor-2
+  description_zh: 金人以轻兵破渭州，次潘原县。刘锜留统制官张中孚、李彦琪捍慕洧，亲率精锐赴渭州，而城已陷。
+- id: guji-liu-qi-event-wating-retreat
+  person_id: guji-liu-qi
+  type: military
+  title_zh: 退屯瓦亭部众离散
+  date: 1130-11
+  precision: month
+  is_circa: true
+  raw: 建炎四年冬（约）
+  year_of: 1130
+  endeavor_id: guji-liu-qi-endeavor-2
+  description_zh: 刘锜退屯瓦亭。张中孚与弟中彦送款降金，李彦琪遁归古原州；锜至花石峡，统制官赵彬又劫其军与金帛降金，诸叛将皆起用于金，五路相继悉陷。
+- id: guji-liu-qi-event-death
+  person_id: guji-liu-qi
+  type: life
+  title_zh: 刘锜卒
+  date: 1162
+  precision: year
+  is_circa: false
+  raw: 南宋绍兴三十二年（1162年）
+  year_of: 1162
+  description_zh: 南宋抗金名将刘锜去世。
