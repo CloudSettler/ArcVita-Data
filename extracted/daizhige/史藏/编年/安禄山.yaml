@@ -1,0 +1,132 @@
+person:
+  qid: guji-安禄山
+  name_zh: 安禄山
+  names:
+    zh: 安禄山
+    en: An Lushan
+  lifespan:
+    birth:
+      date: '0703'
+      precision: year
+      is_circa: true
+      raw: 约唐长安三年（703年）
+    death:
+      date: '0757-01-29'
+      precision: day
+      is_circa: false
+      raw: 唐至德二载正月（757年）
+  birth_date: '0703'
+  death_date: '0757-01-29'
+  era: 唐
+  reign_ref: 唐玄宗、安史伪燕圣武帝
+  archetype: 叛乱枭雄
+  dilemmas:
+  - 身受玄宗殊宠而拥兵谋反，忠与叛之抉择
+  - 起兵后目盲病笃，猜忌苛暴，父子相残
+  lesson: 恩宠无度、兵权过重，终致尾大不掉，身死国乱
+  summary_first_person: 我本营州杂胡，以骁勇善战、巧媚事上得玄宗宠信，身兼三镇节度使，终举兵反唐，陷两京，僭号大燕，旋为亲子所杀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑/卷二百一十六
+endeavors:
+- id: guji-安禄山-endeavor-1
+  name_zh: 事唐得宠
+  phases:
+  - key: brewing
+    name_zh: 边将起家
+    labels:
+      zh:
+      - 发迹
+      - 边将
+    start_date: '0736'
+  - key: breakthrough
+    name_zh: 骤登节度
+    labels:
+      zh:
+      - 兼三镇
+      - 得宠
+    start_date: '0742'
+    highlight_event_id: guji-安禄山-event-reigned
+  - key: climax
+    name_zh: 权倾天下
+    labels:
+      zh:
+      - 宠遇
+      - 拜相
+    start_date: '0751'
+  decisions:
+  - date: '0742'
+    title_zh: 受任平卢节度使
+    rationale: 以军功与巧媚结主，进据方镇
+  - date: '0745'
+    title_zh: 请为杨贵妃养儿
+    rationale: 自托腹心以固玄宗之宠
+- id: guji-安禄山-endeavor-2
+  name_zh: 举兵叛唐
+  phases:
+  - key: brewing
+    name_zh: 蓄谋结党
+    labels:
+      zh:
+      - 同罗曳落河
+      - 招纳亡命
+    start_date: '0754'
+  - key: breakthrough
+    name_zh: 范阳起兵
+    labels:
+      zh:
+      - 以讨杨国忠为名
+    start_date: '0755-12-16'
+    highlight_event_id: guji-安禄山-event-revolt
+  - key: climax
+    name_zh: 陷东京僭号
+    labels:
+      zh:
+      - 称帝大燕
+    start_date: '0756'
+    highlight_event_id: guji-安禄山-event-usurp
+  - key: closure
+    name_zh: 病笃被弑
+    labels:
+      zh:
+      - 目盲
+      - 庆绪弑父
+    start_date: '0757-01-29'
+    highlight_event_id: guji-安禄山-event-death
+  decisions:
+  - date: '0755-12-16'
+    title_zh: 以讨杨国忠为名反于范阳
+    rationale: 恃兵强而玄宗不疑，遂决意称兵
+  - date: '0756'
+    title_zh: 僭号大燕圣武
+    rationale: 既下东京，遂即皇帝位以正僭逆之名
+events:
+- id: guji-安禄山-event-birth
+  event_type: birth
+  date: '0703'
+  year_of: 703
+  title_zh: 安禄山约生于营州柳城
+  description: 营州柳城杂胡，本姓康，冒姓安氏
+- id: guji-安禄山-event-reigned
+  event_type: endeavor
+  date: '0742'
+  year_of: 742
+  title_zh: 天宝元年受任平卢节度使
+  description: 自是累迁，兼平卢、范阳、河东三镇节度使，宠遇日隆
+- id: guji-安禄山-event-revolt
+  event_type: endeavor
+  date: '0755-12-16'
+  year_of: 755
+  title_zh: 天宝十四载反于范阳
+  description: 以讨杨国忠为名，发所部兵十五万南下，安史之乱起
+- id: guji-安禄山-event-usurp
+  event_type: endeavor
+  date: '0756-02-05'
+  year_of: 756
+  title_zh: 僭号称帝
+  description: 攻陷东京洛阳后，称雄武皇帝，国号大燕，建元圣武
+- id: guji-安禄山-event-death
+  event_type: death
+  date: '0757-01-29'
+  year_of: 757
+  title_zh: 为其子安庆绪所弑
+  description: 目盲病笃，性情苛暴，严庄与安庆绪、李猪儿共杀之
