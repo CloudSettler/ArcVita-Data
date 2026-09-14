@@ -1,0 +1,172 @@
+person:
+  qid: guji-晋悼公
+  name_zh: 晋悼公
+  names:
+    zh: 晋悼公
+    en: Duke Dao of Jin
+  lifespan:
+    birth:
+      date: -0586
+      precision: year
+      is_circa: true
+      raw: 约公元前586年
+    death:
+      date: -0558
+      precision: year
+      is_circa: false
+      raw: 公元前558年
+  birth_date: -0586
+  death_date: -0558
+  era: 春秋
+  reign_ref: 公元前573年—前558年在位
+  archetype: 中兴之君
+  dilemmas:
+  - 厉公被弑后国内卿族坐大、政局动荡，年少即位须先安内
+  - 楚国势盛、中原诸侯背离，晋须复伯而避免与楚直接决战
+  - 需兼顾攘楚与安抚戎狄，避免两线受敌
+  lesson: 先修内政、善用谋略（联吴制楚、魏绛和戎、三驾疲楚），以德与力并施方能不战而复霸。
+  summary_first_person: 我年少自周归晋即位，整饬内政、任用贤臣，令魏绛和戎、三驾疲楚，使晋国霸业在我手中复兴，诸侯复归于晋。
+  source_urls:
+  - https://ctext.org/leftzhuan-jishibenshuai
+endeavors:
+- id: guji-晋悼公-endeavor-1
+  name_zh: 复兴晋国霸业
+  phases:
+  - key: brewing
+    name_zh: 归国即位
+    labels:
+      zh:
+      - 即位
+      - 安内
+    start_date: '-0573'
+    highlight_event_id: guji-晋悼公-event-accession
+  - key: breakthrough
+    name_zh: 内修政理
+    labels:
+      zh:
+      - 任贤
+      - 和戎
+    start_date: '-0572'
+    highlight_event_id: guji-晋悼公-event-he-rong
+  - key: climax
+    name_zh: 三驾疲楚
+    labels:
+      zh:
+      - 复霸
+      - 服郑
+    start_date: '-0564'
+    highlight_event_id: guji-晋悼公-event-san-jia
+  - key: closure
+    name_zh: 会盟诸侯
+    labels:
+      zh:
+      - 主盟
+    start_date: -0559
+    highlight_event_id: guji-晋悼公-event-meng-qi
+  decisions:
+  - date: '-0573'
+    title_zh: 即位后逐不臣者七人，任用魏绛、韩厥等贤臣
+    rationale: 厉公之乱后整肃朝纲，以贤能治国先安内政
+  - date: -0569
+    title_zh: 采纳魏绛之议和戎狄
+    rationale: 与戎修好可专力对楚，得戎狄之利而无征伐之劳
+  - date: '-0564'
+    title_zh: 行三驾疲楚之策，连胜而不与楚决战
+    rationale: 楚强不可猝克，以劳逸之势分其力，使郑自服
+- id: guji-晋悼公-endeavor-2
+  name_zh: 联吴制楚
+  phases:
+  - key: brewing
+    name_zh: 通吴
+    labels:
+      zh:
+      - 联吴
+    start_date: '-0572'
+    highlight_event_id: guji-晋悼公-event-tong-wu
+  - key: climax
+    name_zh: 会盟于戚
+    labels:
+      zh:
+      - 盟吴
+      - 牵制楚国
+    start_date: '-0563'
+    highlight_event_id: guji-晋悼公-event-qi-meng
+  decisions:
+  - date: '-0572'
+    title_zh: 使巫臣之子通使于吴，教吴车战
+    rationale: 承巫臣联吴之策，使吴掎楚之后，楚不得专意北方
+events:
+- id: guji-晋悼公-event-birth
+  date: -0586
+  year_of: -586
+  labels:
+    zh:
+    - 出生
+  description_zh: 晋悼公（姬周，一名周）约生于此年，晋厉公之侄。
+- id: guji-晋悼公-event-accession
+  date: '-0573'
+  year_of: -573
+  labels:
+    zh:
+    - 即位
+    - 事业·brewing
+  description_zh: 晋栾书、中行偃弑厉公，迎公子周自周归晋立之，是为悼公，时年约十四岁。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-he-rong
+  date: -0569
+  year_of: -569
+  labels:
+    zh:
+    - 魏绛和戎
+    - 事业·breakthrough
+  description_zh: 魏绛力陈和戎五利，悼公使魏绛盟诸戎，晋西北得以安定，专务中原。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-tong-wu
+  date: '-0572'
+  year_of: -572
+  labels:
+    zh:
+    - 通吴
+    - 事业·brewing
+  description_zh: 悼公即位初，遣使通吴，延续联吴制楚方略。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-qi-meng
+  date: '-0563'
+  year_of: -563
+  labels:
+    zh:
+    - 戚之会
+    - 事业·climax
+  description_zh: 悼公会诸侯于戚，吴人参与会盟，共同图楚。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-san-jia
+  date: '-0564'
+  year_of: -564
+  labels:
+    zh:
+    - 三驾疲楚
+    - 事业·climax
+  description_zh: 悼公用三驾分疲楚军之策，晋师三出，楚不能争，郑服，晋霸复兴。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-meng-qi
+  date: -0559
+  year_of: -559
+  labels:
+    zh:
+    - 会盟主伯
+    - 事业·closure
+  description_zh: 悼公复主诸侯之盟，中原诸侯复宗晋，悼公复霸功成。
+  related_person_ids:
+  - guji-晋悼公
+- id: guji-晋悼公-event-death
+  date: -0558
+  year_of: -558
+  labels:
+    zh:
+    - 去世
+  description_zh: 晋悼公卒，在位十六年，晋复霸之业由其奠定。
