@@ -1,0 +1,150 @@
+person:
+  qid: guji-轩辕
+  name_zh: 黄帝
+  names:
+    zh: 黄帝
+    en: Yellow Emperor
+  lifespan:
+    birth:
+      date: '-2711'
+      precision: year
+      is_circa: true
+      raw: 约公元前27世纪
+    death:
+      date: '-2599'
+      precision: year
+      is_circa: true
+  birth_date: 约-2711
+  death_date: 约-2599
+  era: 上古五帝时代
+  reign_ref: 约公元前27世纪在位
+  archetype: 创制文明、奠定华夏的圣王
+  dilemmas:
+  - 面对炎裔德衰、部族相侵的乱局，须以兵威定乱又须垂文立制
+  - 战胜东夷劲敌后，须建立万邦屏藩并定鼎安民
+  lesson: 诛强暴以绝祸，建制度以安民，文明肇始在於定纷止争而非穷兵
+  summary_first_person: 我轩辕氏生於炎裔德衰之世，见生民阽危，乃铸五兵，诛铜额、灭蚩尤於涿鹿之野，涤荡飞沙乱气。定鼎以後，我垂文鼓弦，巡狩定瑞，建屏万邦，为华夏神明之胄开创基业，使後世百十有七后皆得所凭依。
+  source_urls:
+  - https://zh.wikisource.org/wiki/黃書/原極
+  - https://zh.wikisource.org/wiki/黃書/古儀
+endeavors:
+- id: guji-轩辕-endeavor-1
+  name_zh: 铸兵定乱，涿鹿弭刃
+  phases:
+  - key: brewing
+    name_zh: 炎裔德衰，闵阽危而起
+    labels:
+      zh:
+      - 乱世奋起
+    start_date: '-2711'
+    highlight_event_id: guji-轩辕-event-rise
+  - key: breakthrough
+    name_zh: 铸五兵，诛铜额
+    labels:
+      zh:
+      - 治兵
+    start_date: '-2700'
+    highlight_event_id: guji-轩辕-event-rise
+  - key: climax
+    name_zh: 弭刃涿鹿之野
+    labels:
+      zh:
+      - 底定天下
+    start_date: '-2697'
+    highlight_event_id: guji-轩辕-event-zhuolu
+  decisions:
+  - date: '-2700'
+    title_zh: 铸五兵讨不义
+    rationale: 世乱兵兴，义兵乃所以止兵，非此不能绝祸
+- id: guji-轩辕-endeavor-2
+  name_zh: 垂文建屏，开创华夏家法
+  phases:
+  - key: brewing
+    name_zh: 定鼎之後思所以垂后
+    labels:
+      zh:
+      - 立制
+    start_date: '-2696'
+    highlight_event_id: guji-轩辕-event-dinging
+  - key: breakthrough
+    name_zh: 巡瑞定鼎，来鹇梦弼
+    labels:
+      zh:
+      - 定鼎
+    start_date: '-2695'
+    highlight_event_id: guji-轩辕-event-dinging
+  - key: climax
+    name_zh: 建屏万邦，神明之胄登天位
+    labels:
+      zh:
+      - 万邦屏藩
+    start_date: '-2690'
+    highlight_event_id: guji-轩辕-event-jianping
+  - key: closure
+    name_zh: 家法传流云昆，群氓凭依
+    labels:
+      zh:
+      - 垂范后世
+    start_date: '-2680'
+    highlight_event_id: guji-轩辕-event-jianping
+  decisions:
+  - date: '-2690'
+    title_zh: 建屏万邦、树屏中区
+    rationale: 以屏藩闲摈殊类，使衣冠之伦自相统役，奠维措命，长远子孙
+events:
+- id: guji-轩辕-event-birth
+  date: '-2711'
+  year_of: -2711
+  title_zh: 黄帝轩辕氏生
+  person_id: guji-轩辕
+  labels:
+    zh:
+    - 出生
+- id: guji-轩辕-event-rise
+  date: '-2700'
+  year_of: -2700
+  title_zh: 炎裔德衰，轩辕肇纪，铸五兵
+  person_id: guji-轩辕
+  endeavor_id: guji-轩辕-endeavor-1
+  labels:
+    zh:
+    - 军事
+    - 肇兴
+- id: guji-轩辕-event-zhuolu
+  date: '-2697'
+  year_of: -2697
+  title_zh: 诛铜额，弭刃於涿鹿之野
+  person_id: guji-轩辕
+  endeavor_id: guji-轩辕-endeavor-1
+  labels:
+    zh:
+    - 军事
+    - 涿鹿之战
+- id: guji-轩辕-event-dinging
+  date: '-2695'
+  year_of: -2695
+  title_zh: 巡瑞定鼎，垂文鼓弦
+  person_id: guji-轩辕
+  endeavor_id: guji-轩辕-endeavor-2
+  labels:
+    zh:
+    - 制度
+    - 定鼎
+- id: guji-轩辕-event-jianping
+  date: '-2690'
+  year_of: -2690
+  title_zh: 建屏万邦，为华夏立家法
+  person_id: guji-轩辕
+  endeavor_id: guji-轩辕-endeavor-2
+  labels:
+    zh:
+    - 制度
+    - 封建屏藩
+- id: guji-轩辕-event-death
+  date: '-2599'
+  year_of: -2599
+  title_zh: 黄帝崩
+  person_id: guji-轩辕
+  labels:
+    zh:
+    - 身故
