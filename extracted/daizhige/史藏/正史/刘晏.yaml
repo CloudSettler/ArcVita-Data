@@ -1,0 +1,119 @@
+person:
+  qid: guji-刘晏
+  name_zh: 刘晏
+  names:
+    zh: 刘晏
+    en: Liu Yan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 0782-08
+      precision: month
+      is_circa: false
+      raw: 建中元年七月丙寅（"杀忠州刺史刘晏"）
+  death_date: 0782-08
+  era: 唐代宗、唐德宗时期
+  reign_ref: 代宗广德至德宗建中
+  archetype: 财计能臣
+  dilemmas:
+  - 位至宰相而久任财赋之职，功高遭忌
+  - 忠州之贬赐死，功业与政治倾轧之冲突
+  lesson: 治财有道而免祸无术，能臣常困于政争
+  summary_first_person: 我刘晏，历经肃宗、代宗两朝，广德元年正月以京兆尹擢为吏部尚书、同中书门下平章事。当年吐蕃陷京师、代宗幸陕后，我曾奉命宣慰上都。广德二年正月与李岘同时罢相。此后久掌财赋，以榷税、漕运之功著称当世。至德宗建中元年七月，以忠州刺史之身遇害，终为朝局倾轧所陷。
+  source_urls:
+  - https://zh.wikisource.org/wiki/舊唐書/卷7
+endeavors:
+- id: guji-刘晏-endeavor-1
+  name_zh: 拜相（吏部尚书、同中书门下平章事）
+  phases:
+  - key: brew
+    name_zh: 仕途累积
+    labels:
+      zh: 递迁至京兆尹
+    highlight_event_id: guji-刘晏-event-appointment
+  - key: climax
+    name_zh: 入相宣慰
+    labels:
+      zh: 拜相兼宣慰上都
+    start_date: 0763-02
+    highlight_event_id: guji-刘晏-event-comfort
+  - key: closure
+    name_zh: 罢相
+    labels:
+      zh: 与李岘同罢
+    start_date: 0764-02
+    highlight_event_id: guji-刘晏-event-dismissal
+  decisions:
+  - date: '0763-01-29'
+    title: 受任吏部尚书、同中书门下平章事
+    rationale: 代宗广德元年正月癸未，以京兆尹入相
+- id: guji-刘晏-endeavor-2
+  name_zh: 财赋漕运之任与末端之祸
+  phases:
+  - key: brewing
+    name_zh: 理财积功
+    labels:
+      zh: 领度支盐铁
+    highlight_event_id: guji-刘晏-event-appointment
+  - key: closure
+    name_zh: 贬忠州遇害
+    labels:
+      zh: 忠州之死
+    start_date: 0782-08
+    highlight_event_id: guji-刘晏-event-death
+  decisions:
+  - title: 久任财赋
+    rationale: 以善理财闻于代宗朝
+  - date: 0782-08
+    title: 忠州刺史任上遇害
+    rationale: 建中元年德宗赐死（史称"杀忠州刺史刘晏"）
+events:
+- id: guji-刘晏-event-birth
+  event_type: birth
+  person_qid: guji-刘宴
+  date_precision: unknown
+  description: 刘晏生年，史无明文
+- id: guji-刘晏-event-appointment
+  event_type: endeavor_milestone
+  person_qid: guji-刘晏
+  date: '0763-01-29'
+  date_precision: day
+  year_of: 763
+  place: 长安
+  description: 京兆尹刘晏为吏部尚书、同中书门下平章事（广德元年正月癸未）
+  sources:
+  - 旧唐书·代宗纪
+- id: guji-刘晏-event-comfort
+  event_type: endeavor_milestone
+  person_qid: guji-刘晏
+  date: '0763-12-25'
+  date_precision: day
+  year_of: 763
+  place: 长安
+  description: 刘晏宣慰上都（广德元年十二月辛未，代宗自陕州还京前后）
+  sources:
+  - 旧唐书·代宗纪
+- id: guji-刘晏-event-dismissal
+  event_type: endeavor_milestone
+  person_qid: guji-刘晏
+  date: 0764-02
+  date_precision: month
+  year_of: 764
+  place: 长安
+  description: 广德二年正月癸亥，刘晏、李岘罢相
+  sources:
+  - 旧唐书·代宗纪
+- id: guji-刘晏-event-death
+  event_type: death
+  person_qid: guji-刘晏
+  date: 0782-08
+  date_precision: month
+  is_circa: false
+  year_of: 782
+  place: 忠州
+  description: 忠州刺史刘晏遇害（建中元年七月丙寅"杀忠州刺史刘晏"）
+  sources:
+  - 旧唐书·德宗纪

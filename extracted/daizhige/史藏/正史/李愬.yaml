@@ -1,0 +1,111 @@
+person:
+  qid: guji-李愬
+  name_zh: 李愬
+  names:
+    zh: 李愬
+    en: Li Su
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年史无明载（约唐代宗时）
+    death:
+      date: 0821
+      precision: year
+      is_circa: false
+      raw: 长庆元年卒
+  death_date: 0821
+  era: 唐宪宗元和年间
+  reign_ref: 唐宪宗
+  archetype: 沉勇多谋的名将
+  dilemmas:
+  - 雪夜奇袭蔡州：孤军深入险地，成败悬于一线，守成则无功，冒险则或全军覆没
+  - 与诸将帅并受节 制，须谦下纳降、得降卒之心方能制胜
+  lesson: 善用降将与情报、以雪夜之"险"出敌不意，是奇谋制胜的典范；功成而克敌后谦退不伐。
+  summary_first_person: 我李愬以唐邓随节度使讨淮西吴元济，先礼降将李祐，练兵蓄锐，元和十二年十月雪夜自张柴村疾趋蔡州，一举擒元济，淮西遂平。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐書/卷007
+endeavors:
+- id: guji-李愬-endeavor-1
+  name_zh: 平定淮西之役（讨吴元济）
+  phases:
+  - key: brewing
+    name_zh: 出镇唐邓
+    labels:
+      zh:
+      - 受命讨贼
+      - 抚降纳士
+    start_date: '0816-01-01'
+    highlight_event_id: guji-李愬-event-ji-ayashan
+  - key: breakthrough
+    name_zh: 连破贼军
+    labels:
+      zh:
+      - 嵖岈山之捷
+      - 张柴吴房之战
+    start_date: '0817-04-01'
+    highlight_event_id: guji-李愬-event-zhangchai
+  - key: climax
+    name_zh: 雪夜袭蔡州
+    labels:
+      zh:
+      - 奇兵疾趋
+      - 擒吴元济
+    start_date: '0817-10-15'
+    highlight_event_id: guji-李愬-event-caizhou
+  - key: closure
+    name_zh: 淮西平定
+    labels:
+      zh:
+      - 吴元济伏诛
+      - 藩镇效顺
+    start_date: '0817-11-01'
+    highlight_event_id: guji-李愬-event-yuanji-executed
+  decisions:
+  - date: 0816
+    title_zh: 受任唐邓隋节度使，临危受讨淮西
+    rationale: 淮西吴元济自元和九年抗命，朝廷兵久无功，愬以谦下蓄锐之策治军。
+events:
+- id: guji-李愬-event-birth
+  year_of: 773
+  date: ~0773
+  precision: circa
+  type: birth
+  description_zh: 李愬生年史无明载，约生于唐代宗年间。
+- id: guji-李愬-event-ji-ayashan
+  year_of: 817
+  date: '0817-04-11'
+  precision: day
+  type: military_event
+  description_zh: 元和十二年四月辛卯，唐邓隋节度使李愬及吴元济战于嵖岈山，败之。
+- id: guji-李愬-event-zhangchai
+  year_of: 817
+  date: '0817-05-01'
+  precision: month
+  type: military_event
+  description_zh: 五月，李愬又败吴元济于张柴。
+- id: guji-李愬-event-wufang
+  year_of: 817
+  date: '0817-09-24'
+  precision: day
+  type: military_event
+  description_zh: 九月甲寅，李愬及吴元济战于吴房，败之。
+- id: guji-李愬-event-caizhou
+  year_of: 817
+  date: '0817-10-16'
+  precision: day
+  type: military_event
+  description_zh: 十月癸酉，李愬雪夜奇袭击破蔡州，擒吴元济，淮西平。
+- id: guji-李愬-event-yuanji-executed
+  year_of: 817
+  date: '0817-11-18'
+  precision: day
+  type: aftermath_event
+  description_zh: 十一月丙戌，吴元济伏诛，李愬之功告成，强藩悍将皆欲悔过效顺。
+- id: guji-李愬-event-death
+  year_of: 821
+  date: 0821
+  precision: year
+  type: death
+  description_zh: 李愬卒于长庆元年（据史载）。
