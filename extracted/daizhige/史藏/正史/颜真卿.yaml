@@ -1,0 +1,104 @@
+person:
+  qid: guji-颜真卿
+  name_zh: 颜真卿
+  names:
+    zh: 颜真卿
+    en: Yan Zhenqing
+  lifespan:
+    birth:
+      date: 0709
+      precision: year
+      is_circa: true
+      raw: 约709年（京兆长安人）
+    death:
+      date: 0785
+      precision: year
+      is_circa: false
+      raw: 兴元元年（784/785）为李希烈所害
+  birth_date: 0709
+  death_date: 0785
+  era: 唐代
+  reign_ref:
+  - 唐玄宗
+  - 唐肃宗
+  - 唐代宗
+  - 唐德宗
+  archetype: 忠臣书家
+  dilemmas:
+  - 安史乱起，孤守平原抗贼，忠义与存亡之间
+  - 卢杞当政，遣使李希烈叛军，入险境不可辞
+  lesson: 以笔立骨、以死殉节，书法与忠烈同为后世之法
+  summary_first_person: 我颜真卿，以平原太守举兵讨安禄山，一生历仕四朝，书法雄浑称颜体，最终不辱使命，死于叛臣之手。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/颜真卿
+endeavors:
+- id: guji-颜真卿-endeavor-1
+  name_zh: 仕宦与忠烈之业
+  phases:
+  - key: brewing
+    name_zh: 起复平原
+    labels:
+      zh: 起复平原
+    start_date: '0750'
+  - key: breakthrough
+    name_zh: 举兵讨禄山
+    labels:
+      zh: 举兵讨禄山
+    start_date: '0755'
+    highlight_event_id: guji-颜真卿-event-pingyuan-revolt
+  - key: climax
+    name_zh: 肃宗朝与御史直声
+    labels:
+      zh: 御史直声
+    start_date: '0757'
+  - key: closure
+    name_zh: 陷入叛军殉节
+    labels:
+      zh: 殉节李希烈
+    start_date: 0783
+    highlight_event_id: guji-颜真卿-event-death
+  decisions:
+  - date: 0755-12
+    title_zh: 以平原郡兵讨安禄山
+    rationale: 郡陷河北而平原独举义兵，联卢全诚等共抗贼势
+  - date: 0756-03
+    title_zh: 进克魏郡
+    rationale: 会合贺兰进明等军，破贼将袁知泰以复失地
+  - date: 0783
+    title_zh: 不辞宣慰李希烈之行
+    rationale: 君命不可违，明知必死于叛将之手而不避
+events:
+- id: guji-颜真卿-event-birth
+  type: birth
+  date: 0709
+  year_of: 709
+  date_precision: year
+  note: 约生于709年
+- id: guji-颜真卿-event-pingyuan-revolt
+  type: military_action
+  date: 0755-12
+  year_of: 755
+  date_precision: month
+  title_zh: 平原太守颜真卿以兵讨安禄山
+  source: 旧唐书·玄宗纪：是月，平原郡太守颜真卿、饶阳郡太守卢全诚、司马李正以兵讨安禄山
+- id: guji-颜真卿-event-wei-conquest
+  type: military_action
+  date: 0756-03
+  year_of: 756
+  date_precision: month
+  title_zh: 颜真卿克魏郡
+  source: 旧唐书·玄宗纪：三月，颜真卿克魏郡。史思明寇饶阳、平原
+- id: guji-颜真卿-event-tangyi-battle
+  type: military_action
+  date: 0756-06
+  year_of: 756
+  date_precision: month
+  title_zh: 堂邑之战
+  source: 旧唐书·玄宗纪：六月癸未，颜真卿及安禄山将袁知泰战于堂邑，败之（此系《旧唐书》纪文，与颜氏实际胜捷记载互异）
+- id: guji-颜真卿-event-death
+  type: death
+  date: 0785
+  year_of: 785
+  date_precision: year
+  title_zh: 死于李希烈之难
+  note: 兴元–贞元之际，宣慰叛军不屈而遇害

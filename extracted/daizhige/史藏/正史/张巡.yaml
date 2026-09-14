@@ -1,0 +1,99 @@
+person:
+  qid: guji-张巡
+  name_zh: 张巡
+  names:
+    zh: 张巡
+    en: Zhang Xun
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 757-10
+      precision: month
+      is_circa: false
+      raw: 至德二载十月癸丑
+  birth_date: ''
+  death_date: 757-10
+  era: 唐代
+  reign_ref: 唐玄宗、唐肃宗
+  archetype: 忠烈守城名臣
+  dilemmas:
+  - 守孤城睢阳，食尽粮绝，存城与存民两难
+  - 以寡敌众，坚守与突围求生之抉择
+  lesson: 忠臣守土，虽城破身死而遮蔽江淮，气节千古。
+  summary_first_person: 我是张巡，安史之乱中起兵讨贼，先守雍丘，后与许远共守睢阳，屡挫叛军尹子奇，粮尽援绝，城陷而死之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐書/卷005
+endeavors:
+- id: guji-张巡-endeavor-1
+  name_zh: 起兵讨安禄山
+  phases:
+  - key: brewing
+    name_zh: 起兵讨贼
+    labels:
+      zh: 真源起兵
+    start_date: 756-12
+    highlight_event_id: guji-张巡-event-rise
+  - key: breakthrough
+    name_zh: 雍丘拒敌
+    labels:
+      zh: 雍丘之战
+    start_date: 757-02
+    highlight_event_id: guji-张巡-event-yongqiu
+  decisions:
+  - date: 756-12
+    title_zh: 起兵讨安禄山
+    rationale: 安禄山反，陷河北诸郡，真源令张巡以兵讨之。
+- id: guji-张巡-endeavor-2
+  name_zh: 死守睢阳
+  phases:
+  - key: climax
+    name_zh: 睢阳守城
+    labels:
+      zh: 睢阳保卫战
+    start_date: 757-01
+    highlight_event_id: guji-张巡-event-suiyang-win
+  - key: closure
+    name_zh: 城陷殉国
+    labels:
+      zh: 睢阳陷落
+    start_date: 757-10
+    highlight_event_id: guji-张巡-event-death
+  decisions:
+  - date: 757-01
+    title_zh: 固守睢阳
+    rationale: 尹子奇寇睢阳郡，巡与许远协力守城，以蔽江淮。
+events:
+- id: guji-张巡-event-birth
+  type: birth
+  date: ''
+  year_of: 0
+  details: 生卒早岁不详，唐真源令。
+- id: guji-张巡-event-rise
+  type: endeavor
+  date: 756-12
+  year_of: 756
+  details: 十五载十二月丁丑，真源令张巡以兵讨安禄山。
+- id: guji-张巡-event-yongqiu
+  type: endeavor
+  date: 757-03
+  year_of: 757
+  details: 十五载三月乙卯，张巡及安禄山将令狐潮战于雍丘，败之；后又败翟伯玉于白沙埚。
+- id: guji-张巡-event-suiyang-win
+  type: endeavor
+  date: 757-01
+  year_of: 757
+  details: 至德二载正月乙亥，安庆绪将尹子奇寇睢阳郡，张巡败之。
+- id: guji-张巡-event-suiyang-fall
+  type: endeavor
+  date: 757-10
+  year_of: 757
+  details: 至德二载十月癸丑，安庆绪陷睢阳，太守许远及张巡、姚訚、南霁云皆死之。
+- id: guji-张巡-event-death
+  type: death
+  date: 757-10
+  year_of: 757
+  details: 至德二载十月癸丑，睢阳城陷，张巡死之，忠烈殉国。

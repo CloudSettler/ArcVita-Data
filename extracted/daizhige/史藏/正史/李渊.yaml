@@ -1,0 +1,235 @@
+person:
+  qid: guji-李渊
+  name_zh: 李渊
+  names:
+    zh: 李渊
+    en: Li Yuan
+  lifespan:
+    birth:
+      date: '566'
+      precision: year
+      is_circa: true
+      raw: 北周天和元年（约566年）
+    death:
+      date: 635-06-25
+      precision: day
+      is_circa: false
+      raw: 贞观九年（635年）
+  birth_date: '566'
+  death_date: 635-06-25
+  era: 隋末唐初
+  reign_ref: 唐高祖，武德元年（618年）至武德九年（626年）在位
+  archetype: 开国之君
+  dilemmas:
+  - 隋室旧臣与起兵反隋之间的忠义抉择
+  - 建都长安后群雄割据、四方未定的统一困局
+  - 立储之争中太子李建成与秦王李世民的平衡难题
+  lesson: 顺势而起、据关中以制天下的初创之力，亦难逃家事与国事交缠的困局
+  summary_first_person: 我李渊出身关陇贵胄，仕隋而镇太原。天下大乱之际，我起兵晋阳，誓师于号令堂，定鼎长安，受禅称帝，开创大唐，年号武德。在位九年间翦平群雄，后传位太宗，称太上皇以终老。
+  source_urls:
+  - https://zh.wikisource.org/wiki/舊唐書/卷1
+  - https://zh.wikisource.org/wiki/新唐書/卷1
+endeavors:
+- id: guji-李渊-endeavor-1
+  name_zh: 起兵建唐
+  phases:
+  - key: brewing
+    name_zh: 太原留守
+    labels:
+      zh:
+      - 蓄势
+      - 观变
+    start_date: '617'
+    highlight_event_id: guji-李渊-event-jinyang-uprising
+  - key: breakthrough
+    name_zh: 晋阳誓师入关
+    labels:
+      zh:
+      - 起兵
+      - 西取长安
+    start_date: 617-07
+    highlight_event_id: guji-李渊-event-taiyuan-swar
+  - key: climax
+    name_zh: 受禅称帝
+    labels:
+      zh:
+      - 建唐
+      - 定鼎
+    start_date: 618-06-18
+    highlight_event_id: guji-李渊-event-founding-tang
+  - key: closure
+    name_zh: 统一天下
+    labels:
+      zh:
+      - 翦灭群雄
+    start_date: '620'
+    highlight_event_id: guji-李渊-event-unification
+  decisions:
+  - date: 617-07
+    title_zh: 晋阳起兵
+    rationale: 隋炀失政、天下鼎沸，以太原甲兵之利顺时而动，直取关中
+  - date: 617-11
+    title_zh: 攻克长安拥立代王
+    rationale: 拥傀儡以收人心，避免僭号过早招致群起之攻
+  - date: 618-06-18
+    title_zh: 受隋禅即皇帝位
+    rationale: 隋恭帝禅位，时机成熟，建国曰唐，改元武德
+- id: guji-李渊-endeavor-2
+  name_zh: 奠定唐制与传位
+  phases:
+  - key: brewing
+    name_zh: 武德修政
+    labels:
+      zh:
+      - 定制
+      - 均田租庸
+    start_date: '618'
+    highlight_event_id: guji-李渊-event-founding-tang
+  - key: breakthrough
+    name_zh: 翦平薛李窦王
+    labels:
+      zh:
+      - 平定四方
+    start_date: '619'
+    highlight_event_id: guji-李渊-event-unification
+  - key: climax
+    name_zh: 玄武门之变
+    labels:
+      zh:
+      - 宫廷变局
+    start_date: 626-07-02
+    highlight_event_id: guji-李渊-event-xuanwumen
+  - key: closure
+    name_zh: 传位称太上皇
+    labels:
+      zh:
+      - 禅位
+      - 太安宫
+    start_date: 626-09-04
+    highlight_event_id: guji-李渊-event-abdication
+  decisions:
+  - date: '620'
+    title_zh: 命李世民东征王世充窦建德
+    rationale: 中原两雄相持，遣秦王一举而下，可定天下之半
+  - date: 626-09-04
+    title_zh: 禅位李世民
+    rationale: 玄武门变后形势已定，顺势传位以安社稷
+events:
+- id: guji-李渊-event-birth
+  event_type: birth
+  date: '566'
+  year_of: 566
+  date_precision: year
+  date_is_circa: true
+  name_zh: 李渊出生
+  description_zh: 李渊生于北周上层官宦之家，出自关陇陇西李氏，袭爵唐国公。
+  location: 长安
+  participants:
+  - guji-李渊
+- id: guji-李渊-event-jinyang-uprising
+  event_type: appointment
+  date: '617'
+  year_of: 617
+  date_precision: year
+  date_is_circa: false
+  name_zh: 出任太原留守
+  description_zh: 隋炀帝命李渊为太原留守，据北都重镇，握有强兵，为其后起兵奠定根基。
+  location: 太原晋阳
+  participants:
+  - guji-李渊
+- id: guji-李渊-event-taiyuan-swar
+  event_type: military_campaign
+  date: 617-07
+  year_of: 617
+  date_precision: month
+  date_is_circa: false
+  name_zh: 晋阳起兵誓师
+  description_zh: 李渊于晋阳誓义师，南下攻霍邑、渡河东进，直指关中，晋阳宫西南之号令堂传为其誓师之所。
+  location: 晋阳
+  participants:
+  - guji-李渊
+  - guji-李世民
+  - guji-李建成
+  relates_to:
+  - guji-李渊-endeavor-1
+- id: guji-李渊-event-chang-an
+  event_type: conquest
+  date: 617-11
+  year_of: 617
+  date_precision: month
+  date_is_circa: false
+  name_zh: 攻克长安
+  description_zh: 李渊军攻入长安，立代王杨侑为帝，自掌大政，控制关中。
+  location: 长安
+  participants:
+  - guji-李渊
+  relates_to:
+  - guji-李渊-endeavor-1
+- id: guji-李渊-event-founding-tang
+  event_type: founding
+  date: 618-06-18
+  year_of: 618
+  date_precision: day
+  date_is_circa: false
+  name_zh: 受禅称帝建唐
+  description_zh: 隋恭帝禅位，李渊即皇帝位，国号唐，建元武德，定都长安，大唐王朝由此开端。
+  location: 长安
+  participants:
+  - guji-李渊
+  relates_to:
+  - guji-李渊-endeavor-1
+  - guji-李渊-endeavor-2
+- id: guji-李渊-event-unification
+  event_type: military_campaign
+  date: '621'
+  year_of: 621
+  date_precision: year
+  date_is_circa: true
+  name_zh: 平定中原群雄
+  description_zh: 武德年间先后翦灭薛仁杲、李轨、刘武周，武德四年秦王李世民败窦建德、降王世充，天下大势渐归于一。
+  location: 中原
+  participants:
+  - guji-李渊
+  - guji-李世民
+  relates_to:
+  - guji-李渊-endeavor-2
+- id: guji-李渊-event-xuanwumen
+  event_type: political_event
+  date: 626-07-02
+  year_of: 626
+  date_precision: day
+  date_is_circa: false
+  name_zh: 玄武门之变
+  description_zh: 秦王李世民于玄武门伏杀太子李建成、齐王李元吉，李渊被迫承认既成事实，立李世民为太子。
+  location: 长安太极宫玄武门
+  participants:
+  - guji-李渊
+  - guji-李世民
+  - guji-李建成
+  relates_to:
+  - guji-李渊-endeavor-2
+- id: guji-李渊-event-abdication
+  event_type: abdication
+  date: 626-09-04
+  year_of: 626
+  date_precision: day
+  date_is_circa: false
+  name_zh: 传位称太上皇
+  description_zh: 李渊传位于李世民，自为太上皇，退居大安宫，至贞观九年崩。
+  location: 长安
+  participants:
+  - guji-李渊
+  - guji-李世民
+  relates_to:
+  - guji-李渊-endeavor-2
+- id: guji-李渊-event-death
+  event_type: death
+  date: 635-06-25
+  year_of: 635
+  date_precision: day
+  date_is_circa: false
+  name_zh: 李渊去世
+  description_zh: 太上皇李渊崩于垂拱前殿，庙号高祖，葬献陵。
+  location: 长安大安宫
+  participants:
+  - guji-李渊

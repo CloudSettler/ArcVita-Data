@@ -1,0 +1,118 @@
+person:
+  qid: guji-武则天
+  name_zh: 武则天
+  names:
+    zh: 武曌、武则天、则天皇后
+    en: Wu Zetian
+  lifespan:
+    birth:
+      date: '0624'
+      precision: year
+      is_circa: true
+      raw: 武德七年（据两唐书推算）
+    death:
+      date: '0705-11-16'
+      precision: day
+      is_circa: false
+      raw: 神龙元年十一月壬寅，崩于上阳宫
+  birth_date: '0624'
+  death_date: '0705-11-16'
+  era: 唐·武周
+  reign_ref: 天授—神龙（690-705 在位，号圣神皇帝）
+  archetype: 后妃-turned-女皇
+  dilemmas:
+  - 以女主临朝，网罗已立、宗室得罪者众
+  - 立子还是立侄，传位于武氏或李氏的两难
+  - 酷吏政治与为政求才的矛盾
+  lesson: 权移女主而社稷复归李氏，人谋与天命相持之局
+  summary_first_person: 我以才人入宫，再为皇后，参决朝政，终至革唐建周，自称圣神皇帝；晚年虽还政于子，却以无字之碑留身后之评。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐书/卷004（则天皇后本纪）
+endeavors:
+- id: guji-武则天-endeavor-1
+  phases:
+  - key: brewing
+    name_zh: 入宫为才人
+    labels:
+      zh: 太宗才人
+    start_date: '0637'
+  - key: breakthrough
+    name_zh: 立为皇后
+    labels:
+      zh: 永徽六年，废王立武
+    start_date: '0655'
+    highlight_event_id: guji-武则天-event-huanghou
+  - key: climax
+    name_zh: 临朝称制与建周
+    labels:
+      zh: 天授革命
+    start_date: 0684
+    highlight_event_id: guji-武则天-event-chengdi
+  - key: closure
+    name_zh: 神龙政变退位
+    labels:
+      zh: 还政李氏
+    start_date: '0705'
+  decisions:
+  - date: '0655'
+    title_zh: 力排众议，废王皇后而立武后
+    rationale: 借高宗信重，惩元老顾命之掣肘
+  - date: 0690
+    title_zh: 革唐命，改国号为周
+    rationale: 以女主之身名正言顺称帝
+  - date: 0698
+    title_zh: 召还庐陵王，立为皇太子
+    rationale: 天下思唐，臣狄仁杰等谏立子以顺人心
+events:
+- id: guji-武则天-event-birth
+  date: '0624'
+  year_of: '0624'
+  title_zh: 生于并州文水武氏
+  type: birth
+- id: guji-武则天-event-cairen
+  date: '0637'
+  year_of: '0637'
+  title_zh: 年十四，太宗闻其美，召入宫为才人
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-huanghou
+  date: 0655-11
+  year_of: '0655'
+  title_zh: 高宗废王皇后，立武氏为皇后
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-canzheng
+  date: '0660'
+  year_of: '0660'
+  title_zh: 高宗风疾，委政于后，二圣临朝
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-linchao
+  date: 0684-02
+  year_of: 0684
+  title_zh: 中宗被废，睿宗立，太后临朝称制
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-chengdi
+  date: '0690-10-16'
+  year_of: 0690
+  title_zh: 称圣神皇帝，改国号为周，改元天授
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-lihuangtaizi
+  date: 0698
+  year_of: 0698
+  title_zh: 立庐陵王李显为皇太子
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-shenlong
+  date: '0705-02-20'
+  year_of: '0705'
+  title_zh: 张柬之等神龙政变，则天传位中宗，徙居上阳宫
+  type: endeavor
+  endeavor_id: guji-武则天-endeavor-1
+- id: guji-武则天-event-death
+  date: '0705-11-16'
+  year_of: '0705'
+  title_zh: 崩于洛阳上阳宫，去帝号，称则天大圣皇后
+  type: death

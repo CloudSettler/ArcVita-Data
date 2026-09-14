@@ -1,0 +1,210 @@
+person:
+  qid: guji-li-longji
+  name_zh: 李隆基
+  names:
+    zh: 李隆基
+    en: Li Longji
+  lifespan:
+    birth:
+      date: 685-09-08
+      precision: day
+      is_circa: false
+      raw: 垂拱元年秋八月，生于洛阳
+    death:
+      date: 762-05-03
+      precision: day
+      is_circa: false
+      raw: 宝应元年建巳月，崩于太庆宫
+  birth_date: 685-09-08
+  death_date: 762-05-03
+  era: 唐
+  reign_ref: 先天、开元、天宝（唐玄宗，712—756 在位）
+  archetype: 盛世之君·由明转怠的中兴与倾覆者
+  dilemmas:
+  - 励精图治与晚年怠政奢逸的对比困境
+  - 信任边将（安禄山）致藩镇坐大的权衡失误
+  - 马嵬之变中皇权与军心的两难抉择
+  lesson: 开元盛世成于用人纳谏，天宝之祸始于怠政信谗。
+  summary_first_person: 我李隆基，起于唐隆政变诛韦氏而立，开元年间任姚崇、宋璟，致海内殷盛；晚年宠杨妃、信李林甫与安禄山，终致安史之乱，幸蜀让位，郁郁而终于上皇之位。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新唐书/卷5
+endeavors:
+- id: guji-li-longji-endeavor-1
+  name_zh: 平定内乱·登基称帝
+  phases:
+  - key: brewing
+    name_zh: 潜邸蓄势
+    labels:
+    - 政变起家
+    start_date: '710'
+    highlight_event_id: guji-li-longji-event-tanglong
+    decisions:
+    - date: 710-07-21
+      title_zh: 发动唐隆政变诛韦后
+      rationale: 韦后欲效武后临朝，先发制人以安李唐社稷。
+  - key: breakthrough
+    name_zh: 即位除太平之患
+    labels:
+    - 先天政变
+    start_date: '712'
+    highlight_event_id: guji-li-longji-event-xiantian
+  - key: closure
+    name_zh: 定鼎开元
+    labels:
+    - 政权巩固
+    start_date: 713-09
+    highlight_event_id: guji-li-longji-event-kaiyuan
+- id: guji-li-longji-endeavor-2
+  name_zh: 开元之治
+  phases:
+  - key: brewing
+    name_zh: 任相图治
+    labels:
+    - 姚崇宋璟
+    start_date: '713'
+    highlight_event_id: guji-li-longji-event-kaiyuan
+    decisions:
+    - date: 713-12
+      title_zh: 用姚崇为相，厉行十事要说
+      rationale: 广纳谏言，整顿吏治，革除武后以来的积弊。
+  - key: climax
+    name_zh: 海内殷盛
+    labels:
+    - 开元盛世
+    start_date: '725'
+    highlight_event_id: guji-li-longji-event-fengshan
+    decisions:
+    - date: '735'
+      title_zh: 编《开元礼》，定一代典制
+      rationale: 以礼乐文治确立盛唐法度。
+  - key: closure
+    name_zh: 志骄意满
+    labels:
+    - 转向奢逸
+    start_date: '740'
+    highlight_event_id: guji-li-longji-event-linfu
+    decisions:
+    - date: 736-01
+      title_zh: 罢张九龄，任李林甫为相
+      rationale: 厌于直言极谏，渐信巧宦，埋下祸根。
+- id: guji-li-longji-endeavor-3
+  name_zh: 天宝之乱·幸蜀让位
+  phases:
+  - key: brewing
+    name_zh: 边将坐大
+    labels:
+    - 安史之乱
+    start_date: '741'
+    highlight_event_id: guji-li-longji-event-linfu
+    decisions:
+    - date: '742'
+      title_zh: 改元天宝，政事渐委权相
+      rationale: 恃太平日久，倦于万机而耽于宴乐。
+    - date: '751'
+      title_zh: 宠信安禄山，兼领三镇节度使
+      rationale: 误信胡将忠顺，致其拥兵自重。
+  - key: climax
+    name_zh: 乱起奔蜀
+    labels:
+    - 马嵬之变
+    start_date: 755-12
+    highlight_event_id: guji-li-longji-event-ansi
+    decisions:
+    - date: 756-07
+      title_zh: 幸蜀退位，肃宗即位于灵武
+      rationale: 乱军迫近，禅位以安军心民心。
+  - key: closure
+    name_zh: 上皇失权
+    labels:
+    - 太上皇
+    start_date: '756'
+    highlight_event_id: guji-li-longji-event-death
+events:
+- id: guji-li-longji-event-birth
+  person_qid: guji-li-longji
+  type: birth
+  date: 685-09-08
+  year_of: 685
+  place: 洛阳
+  version_label: 出生
+  summary: 李隆基生于洛阳，为睿宗第三子，垂拱元年。
+- id: guji-li-longji-event-tanglong
+  person_qid: guji-li-longji
+  type: political
+  date: 710-07-21
+  year_of: 710
+  place: 长安
+  version_label: 唐隆政变
+  summary: 与太平公主合谋，诛韦后及安乐公主，拥其父睿宗复位，立为太子。
+- id: guji-li-longji-event-jihuang
+  person_qid: guji-li-longji
+  type: succession
+  date: 712-09
+  year_of: 712
+  place: 长安
+  version_label: 受禅即位
+  summary: 睿宗传位于三郎隆基，即皇帝位，是为玄宗。
+- id: guji-li-longji-event-xiantian
+  person_qid: guji-li-longji
+  type: political
+  date: 713-07
+  year_of: 713
+  place: 长安
+  version_label: 先天政变
+  summary: 诛太平公主党羽，收兵权，始得亲政，改元开元。
+- id: guji-li-longji-event-kaiyuan
+  person_qid: guji-li-longji
+  type: political
+  date: 713-12
+  year_of: 713
+  place: 长安
+  version_label: 开元新政
+  summary: 任姚崇为相，罢冗官、抑权幸、修法度，开元之治自此始。
+- id: guji-li-longji-event-fengshan
+  person_qid: guji-li-longji
+  type: ritual
+  date: 725-11
+  year_of: 725
+  place: 泰山
+  version_label: 封禅泰山
+  summary: 率百官封禅泰山，宣示开元盛世功成。
+- id: guji-li-longji-event-linfu
+  person_qid: guji-li-longji
+  type: political
+  date: 736-01
+  year_of: 736
+  place: 长安
+  version_label: 李林甫拜相
+  summary: 罢张九龄，以李林甫为相，朝政由明转蔽，边将渐重。
+- id: guji-li-longji-event-anshi
+  person_qid: guji-li-longji
+  type: war
+  date: 755-12
+  year_of: 755
+  place: 范阳
+  version_label: 安史之乱起
+  summary: 安禄山以讨杨国忠为名起兵范阳，旋陷洛阳，两京震动。
+- id: guji-li-longji-event-mawei
+  person_qid: guji-li-longji
+  type: political
+  date: 756-07-15
+  year_of: 756
+  place: 马嵬驿
+  version_label: 马嵬之变
+  summary: 幸蜀途中禁军哗变，诛杨国忠、缢杨贵妃，帝仓皇入蜀。
+- id: guji-li-longji-event-abdicate
+  person_qid: guji-li-longji
+  type: succession
+  date: 756-08-12
+  year_of: 756
+  place: 灵武
+  version_label: 禅位肃宗
+  summary: 肃宗即位于灵武，遥尊玄宗为太上皇。
+- id: guji-li-longji-event-death
+  person_qid: guji-li-longji
+  type: death
+  date: 762-05-03
+  year_of: 762
+  place: 长安太庆宫
+  version_label: 崩逝
+  summary: 上皇忧郁崩于太庆宫，年七十八，葬泰陵。
