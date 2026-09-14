@@ -1,0 +1,148 @@
+person:
+  qid: guji-窦婴
+  name_zh: 窦婴
+  names:
+    zh: 窦婴
+    en: Dou Ying
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+    death:
+      date: -131
+      precision: year
+      is_circa: false
+  birth_date: ''
+  death_date: -131
+  era: 西汉
+  reign_ref: 汉景帝、汉武帝
+  archetype: 外戚名将
+  dilemmas:
+  - 忠于朝廷与依恃太后宠信之间的取舍
+  - 直言敢谏与明哲保身的冲突
+  lesson: 恃功与刚直而无权谋者，终为权势倾轧所吞
+  summary_first_person: 我是窦婴，汉文帝皇后窦氏堂侄。七国之乱时我以大将军守荥阳，因功封魏其侯。武帝初我任丞相，后因直言忤旨去职。因灌夫之事与田蚡结怨，终被弃市于渭城，功名尽付东流。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷107
+endeavors:
+- id: guji-窦婴-endeavor-1
+  name_zh: 平定七国之乱
+  phases:
+  - key: brewing
+    name_zh: 起任将职
+    labels:
+      zh: 吴楚Seven Kings作乱前夕受任
+    start_date: -154
+  - key: breakthrough
+    name_zh: 屯守荥阳
+    labels:
+      zh: 大将军守荥阳，监齐赵兵
+    start_date: -154
+    highlight_event_id: guji-窦婴-event-ping-qi
+  - key: climax
+    name_zh: 封侯受赏
+    labels:
+      zh: 以功封魏其侯
+    start_date: -154
+  - key: closure
+    name_zh: 名震朝野
+    labels:
+      zh: 天下士人多归附之
+    start_date: -150
+  decisions:
+  - date: -154
+    title_zh: 受任大将军，坚守荥阳
+    rationale: 吴楚七国反，景帝以婴为韩故将之后，任其握兵镇守荥阳要冲
+- id: guji-窦婴-endeavor-2
+  name_zh: 武帝朝柄政
+  phases:
+  - key: brewing
+    name_zh: 建元入相
+    labels:
+      zh: 建元元年为丞相
+    start_date: -140
+  - key: breakthrough
+    name_zh: 尊崇儒术
+    labels:
+      zh: 与田蚡俱好儒术，推轂名士
+    start_date: -140
+  - key: climax
+    name_zh: 忤旨去位
+    labels:
+      zh: 直谏忤太后与帝，罢相
+    start_date: -139
+    highlight_event_id: guji-窦婴-event-simian
+  - key: closure
+    name_zh: 弃市而死
+    labels:
+      zh: 灌夫骂座案牵连，被弃市
+    start_date: -131
+  decisions:
+  - date: -139
+    title_zh: 弃官保身
+    rationale: 因直言使景帝不悦，遂称病去职，矜持自守
+events:
+- id: guji-窦婴-event-birth
+  name_zh: 窦婴出生
+  date: ''
+  date_text: 生年不详
+  precision: unknown
+  year_of: ''
+  category: life
+  description: 窦婴，魏其侯，窦太后从兄子。生年不详，长期在观津为外戚子弟。
+  source_refs:
+  - 史记卷一百七
+- id: guji-窦婴-event-ping-qi
+  name_zh: 以大将军守荥阳，平七国之乱有功
+  date: -154
+  date_text: 前一五四年
+  precision: year
+  year_of: -154
+  category: military
+  description: 吴楚七国反，窦婴为大将军屯荥阳，监齐赵兵，吴楚破后以功封魏其侯。
+  source_refs:
+  - 史记卷一百七
+- id: guji-窦婴-event-pu chancellor
+  name_zh: 拜相封魏其侯后的柄政与失势前奏
+  date: -140
+  date_text: 约建元年间
+  precision: year
+  is_circa: true
+  year_of: -140
+  category: political
+  description: 汉武帝即位，窦婴为丞相，与好儒之名并推贤士；后因直言犯主，为田蚡所代。
+  source_refs:
+  - 史记卷一百七
+- id: guji-窦婴-event-simian
+  name_zh: 罢相失位
+  date: -139
+  date_text: 约建元二年后
+  precision: year
+  is_circa: true
+  year_of: -139
+  category: political
+  description: 窦太后恶其言，婴以病免，失权，宾客稍去，唯灌夫尚相随。
+  source_refs:
+  - 史记卷一百七
+- id: guji-窦婴-event-guanfu
+  name_zh: 灌夫骂座、婴蚡交恶
+  date: -133
+  date_text: 元光四年前后
+  precision: year
+  is_circa: true
+  year_of: -133
+  category: political
+  description: 灌夫于田蚡婚宴使酒骂座，窦婴为护灌夫与田蚡构讼，时事态激化。
+  source_refs:
+  - 史记卷一百七
+- id: guji-窦婴-event-death
+  name_zh: 弃市而死
+  date: -131
+  date_text: 元光四年末/五年初，约前131年
+  precision: year
+  year_of: -131
+  category: death
+  description: 窦婴与田蚡相讼不直，坐灌夫案弃市渭城，魏其侯国除。
+  source_refs:
+  - 史记卷一百七

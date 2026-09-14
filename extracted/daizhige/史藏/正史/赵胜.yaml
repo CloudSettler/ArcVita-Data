@@ -1,0 +1,101 @@
+person:
+  qid: guji-赵胜
+  name_zh: 赵胜
+  names:
+    zh: 赵胜
+    en: Zhao Sheng
+  lifespan:
+    birth:
+      date: -0308
+      precision: year
+      is_circa: true
+      raw: 不详，约战国赵惠文王时期
+    death:
+      date: -169
+      precision: year
+      is_circa: false
+      raw: 孝成王十四年卒
+  birth_date: -0308
+  death_date: -169
+  era: 战国
+  reign_ref: 赵惠文王、赵孝成王
+  archetype: 贵族政治家
+  dilemmas:
+  - 冯亭献上党十七城，受地则招秦祸，不受则失大利
+  - 邯郸被围，须亲赴楚国求救以存赵
+  lesson: 利不可骛于无故之外患，毛遂自荐显于盘国之会
+  summary_first_person: 我乃赵国公子，号平原君，三为赵相，喜宾客，食客数千。新王初立、秦军急攻之际，我奉命受上党之地，终酿长平之祸；邯郸围困时，我赴楚乞师，赖毛遂定纵，得以却秦存赵，孝成王十四年卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷043
+endeavors:
+- id: guji-赵胜-endeavor-1
+  name_zh: 相赵辅国
+  phases:
+  - key: brewing
+    name_zh: 初相赵国
+    labels:
+      zh:
+      - 宗室封君
+    start_date: -0298
+    highlight_event_id: guji-赵胜-event-xiang-zhao
+  - key: breakthrough
+    name_zh: 授受上党
+    labels:
+      zh:
+      - 受地上党
+      - 利害之争
+    start_date: -178
+    highlight_event_id: guji-赵胜-event-shangdang
+  - key: climax
+    name_zh: 邯郸解围
+    labels:
+      zh:
+      - 毛遂定纵
+      - 楚魏来救
+    start_date: -0259
+    highlight_event_id: guji-赵胜-event-shichu
+  - key: closure
+    name_zh: 晚年卒
+    labels:
+      zh:
+      - 荣终相位
+    start_date: -169
+    highlight_event_id: guji-赵胜-event-death
+  decisions:
+  - date: -178
+    title_zh: 劝王受上党十七城
+    rationale: 发百万之军逾岁不得一城，今坐受城市邑十七，此大利不可失
+  - date: -0258
+    title_zh: 亲赴楚请救，携毛遂定合纵
+    rationale: 秦围邯郸，赵国危殆，须合楚魏之力方能解围
+events:
+- id: guji-赵胜-event-birth
+  event_type: birth
+  date: -0308
+  year_of: -308
+  date_precision: circa
+  summary: 赵胜出生，赵惠文王之弟，后封平原君。
+- id: guji-赵胜-event-xiang-zhao
+  event_type: appointment
+  date: -0298
+  year_of: -298
+  date_precision: circa
+  summary: 平原君赵胜为赵相，惠文王之弟，封于东武城。
+- id: guji-赵胜-event-shangdang
+  event_type: decision
+  date: -178
+  year_of: -262
+  date_precision: year
+  summary: 上党守冯亭以十七城入赵，平原君与赵禹劝孝成王受地，遂受之，引致秦赵相争。
+- id: guji-赵胜-event-shichu
+  event_type: mission
+  date: -0258
+  year_of: -258
+  date_precision: year
+  summary: 秦围邯郸，平原君如楚请救，毛遂定纵于楚王之前；还楚来救，魏公子无忌亦来，邯郸围解。
+- id: guji-赵胜-event-death
+  event_type: death
+  date: -169
+  year_of: -251
+  date_precision: year
+  summary: 平原君赵胜卒，时孝成王十四年。

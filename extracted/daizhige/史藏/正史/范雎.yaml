@@ -1,0 +1,209 @@
+person:
+  qid: guji-fanju
+  name_zh: 范雎
+  names:
+    zh: 范雎、张禄、应侯、范叔
+    en: Fan Ju
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详，魏国人
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，约秦昭王末年
+  birth_date: ''
+  death_date: ''
+  era: 战国
+  reign_ref: 秦昭王
+  archetype: 纵横辩士
+  dilemmas:
+  - 遭须贾诬陷、魏齐笞辱，佯死脱身后化名张禄入秦，恩怨分明的抉择
+  - 说昭王废太后逐穰侯，收秦王之权，需冒身死之险
+  - 韩魏之交、远交近攻的战略权衡
+  - 于己有恩的王稽、郑安平任用之私与官场公义之两难
+  lesson: 一饭之德必偿，睚眦之怨必报；当言则言，虽死不避
+  summary_first_person: 我本魏国寒士，因出使齐国受赏而遭须贾诬陷、魏齐毒打，佯死得脱。由王稽、郑安平之助入秦，化名张禄游说昭王，献远交近攻之策，又说秦王亲政、废太后逐四贵，终拜相封应侯。得志之日，须贾
+    subsequenter 使秦，我宴而辱之；魏齐亡走，我坚持必报其仇。散家财报穷厄，一饭之恩亦必偿。
+endeavors:
+- id: guji-fanju-endeavor-1
+  name_zh: 脱辱入秦、游说取相
+  phases:
+  - key: brewing
+    name_zh: 潦倒受辱
+    labels:
+      zh:
+      - 从须贾使齐
+      - 遭魏齐笞辱
+    start_date: -283
+    highlight_event_id: guji-fanju-event-accused
+  - key: breakthrough
+    name_zh: 化名西行
+    labels:
+      zh:
+      - 郑安平匿之
+      - 王稽载入秦
+    start_date: -278
+    highlight_event_id: guji-fanju-event-enter-qin
+  - key: climax
+    name_zh: 得见昭王、上书论政
+    labels:
+      zh:
+      - 说远交近攻
+      - 谏收王权
+    start_date: -271
+    highlight_event_id: guji-fanju-event-advice-far-near
+  - key: closure
+    name_zh: 拜相封侯
+    labels:
+      zh:
+      - 废太后逐穰侯
+      - 封应侯
+    start_date: -266
+    highlight_event_id: guji-fanju-event-become-chancellor
+  decisions:
+  - date: -277
+    title_zh: 佯死改姓，随郑安平伏匿
+    rationale: 魏齐悔而求杀，改名张禄以避祸存身
+  - date: -271
+    title_zh: 匿于车中避穰侯搜查
+    rationale: 穰侯恶纳诸侯客人，事未成不敢先出
+  - date: -271
+    title_zh: 先言外事后言内事，试探昭王
+    rationale: 左右窃听，恐言内事见疑，观秦王俯仰而进言
+- id: guji-fanju-endeavor-2
+  name_zh: 为相主政、报仇树威
+  phases:
+  - key: brewing
+    name_zh: 微行辱须贾
+    labels:
+      zh:
+      - 敝衣见须贾
+      - 宴而席下马食之
+    start_date: -266
+    highlight_event_id: guji-fanju-event-humiliate-xujia
+  - key: breakthrough
+    name_zh: 迫魏齐亡走
+    labels:
+      zh:
+      - 令持魏齐头
+      - 魏齐匿平原君所
+    start_date: -265
+    highlight_event_id: guji-fanju-event-demand-weiqi
+  - key: climax
+    name_zh: 报恩荐贤
+    labels:
+      zh:
+      - 荐王稽为河东守
+      - 任郑安平为将军
+    start_date: -266
+    highlight_event_id: guji-fanju-event-reward-wangji
+  - key: closure
+    name_zh: 散财报德
+    labels:
+      zh:
+      - 散家财物
+      - 一饭之德必偿
+    start_date: -265
+    highlight_event_id: guji-fanju-event-repay-kinds
+  decisions:
+  - date: -266
+    title_zh: 释须贾不杀
+    rationale: 绨袍恋恋有故人之意，其罪虽有三而得免死
+  - date: -265
+    title_zh: 详为好书邀平原君入秦
+    rationale: 欲为范雎必报其仇魏齐，使人归取其头
+events:
+- id: guji-fanju-event-birth
+  date: -290
+  date_precision: decade
+  year_of: -290
+  title_zh: 范雎生于魏国
+  labels:
+    zh:
+    - 出生
+  note: 生年史无明文，约在战国中期魏国
+- id: guji-fanju-event-accused
+  date: -283
+  date_precision: circa
+  year_of: -283
+  title_zh: 须贾诬告，魏齐笞辱范雎
+  labels:
+    zh:
+    - 受辱
+  highlight: true
+  note: 范雎从须贾使齐，齐王赐金牛酒，须贾疑其持魏国阴事告齐；魏齐使舍人笞击折胁折齿，置厕中溺之，雎佯死得出
+- id: guji-fanju-event-enter-qin
+  date: -271
+  date_precision: circa
+  year_of: -271
+  title_zh: 化名张禄随王稽入秦
+  labels:
+    zh:
+    - 入秦
+  highlight: true
+  note: 郑安平荐之于谒者王稽，夜与俱见，约于三亭之南，王稽载入咸阳
+- id: guji-fanju-event-advice-far-near
+  date: -271
+  date_precision: circa
+  year_of: -271
+  title_zh: 说秦昭王远交近攻
+  labels:
+    zh:
+    - 献策
+  highlight: true
+  note: 范雎得见于离宫，指穰侯越韩魏而伐纲寿非计，劝王固秦之威，乃拜客卿谋兵事
+- id: guji-fanju-event-become-chancellor
+  date: -266
+  year_of: -266
+  title_zh: 拜为秦相，封应侯
+  labels:
+    zh:
+    - 拜相
+  highlight: true
+  note: 说昭王废太后、逐穰侯高陵华阳泾阳君于关外；当是时秦昭王四十一年，封范雎于应，号为应侯
+- id: guji-fanju-event-humiliate-xujia
+  date: -265
+  date_precision: circa
+  year_of: -265
+  title_zh: 微行见须贾，绨袍之会
+  labels:
+    zh:
+    - 弄权报复
+  note: 范雎敝衣间步见使秦的须贾，须贾赐绨袍；雎盛供具设宴，坐须贾于堂下置莝豆使黥徒马食之，令其告魏王急持魏齐头来
+- id: guji-fanju-event-demand-weiqi
+  date: -265
+  date_precision: circa
+  year_of: -265
+  title_zh: 索魏齐之头，魏齐亡走赵
+  labels:
+    zh:
+    - 报仇
+  note: 魏齐恐亡走赵，匿平原君所；昭王为范雎邀平原君入秦，固请取魏齐头来
+- id: guji-fanju-event-reward-wangji
+  date: -266
+  date_precision: circa
+  year_of: -266
+  title_zh: 荐王稽、郑安平以报其恩
+  labels:
+    zh:
+    - 报恩
+  note: 昭王拜王稽为河东守、郑安平为将军，范雎于是散家财物报所尝困厄者，一饭之德必偿
+- id: guji-fanju-event-repay-kinds
+  date: -265
+  date_precision: circa
+  year_of: -265
+  title_zh: 散家财报穷厄之恩
+  labels:
+    zh:
+    - 散财报德
+- id: guji-fanju-event-death
+  date: -255
+  date_precision: circa
+  year_of: -255
+  title_zh: 范雎卒
+  labels:
+    zh:
+    - 去世
+  note: 卒年不详，约在秦昭王末年 competencia</arg_value>冷藏

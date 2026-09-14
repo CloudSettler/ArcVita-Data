@@ -1,0 +1,144 @@
+person:
+  qid: guji-晏婴
+  name_zh: 晏婴
+  names:
+    zh: 晏婴
+    en: Yan Ying
+  lifespan:
+    birth:
+      date: -600
+      precision: year
+      is_circa: true
+      raw: 生年不详，约齐惠公、顷公之世
+    death:
+      date: -500
+      precision: year
+      is_circa: false
+      raw: 景公四十八年（前500年）夹谷之会后卒
+  birth_date: -600
+  death_date: -500
+  era: 春秋
+  reign_ref: 齐灵公、齐庄公、齐景公之世
+  archetype: 忠谏之相
+  dilemmas:
+  - 崔杼弑君之际，君死于私欲而臣是否当殉难
+  - 景公奢侈厚赋，谏则忤君，不谏则害民
+  - 田氏以私德收民心，预知政将归田而无力回天
+  lesson: 君为社稷死则死之，为社稷亡则亡之；若为己而死，非其私昵谁敢任之
+  summary_first_person: 我晏婴历事灵公、庄公、景公三朝。崔杼弑庄公时，我不从君于私死，枕尸而哭三踊而出，崔杼以我为民望而舍之。二相要盟，我誓唯从忠于君利社稷者。景公时彗星见而群臣祈祷禳灾，我笑而直谏：君高台深池、赋敛无度、刑罚不胜，民怨以万数，一人何能禳之。我亦使晋，与叔向私语，预言齐政终归田氏。我死之岁，景公会鲁侯于夹谷。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷032
+endeavors:
+- id: guji-晏婴-endeavor-1
+  name_zh: 弱冠起家，事齐三朝，辅政齐景公
+  phases:
+  - key: brewing
+    name_zh: 入仕事君
+    labels:
+      zh: 事灵公
+    start_date: -570
+    highlight_event_id: guji-晏婴-event-service
+  - key: breakthrough
+    name_zh: 崔杼之难不苟死
+    labels:
+      zh: 社稷之臣
+    start_date: -548
+    highlight_event_id: guji-晏婴-event-cui-zhu
+  - key: climax
+    name_zh: 相景公直谏匡政
+    labels:
+      zh: 谏弹星笑
+    start_date: -534
+    highlight_event_id: guji-晏婴-event-comet
+  - key: closure
+    name_zh: 卒于齐景公之世
+    labels:
+      zh: 去世
+    start_date: -500
+    highlight_event_id: guji-晏婴-event-death
+  decisions:
+  - date: -548
+    title_zh: 不殉庄公私死之难，唯从社稷公义
+    rationale: 君以私欲取祸，臣当从公义而非私昵；枕尸哭踊而得存，崔杼以其为民望舍之
+  - date: -548
+    title_zh: 拒与崔庆之盟
+    rationale: 婴所不唯忠于君利社稷者是从，不肯与不义之盟，庆封欲杀之而崔杼止之
+  - date: -522
+    title_zh: 笑止群臣禳彗星之祷，谏修德政
+    rationale: 民苦怨万数，神不可祝而来亦可禳而去，一人禳之安能胜众口
+- id: guji-晏婴-endeavor-2
+  name_zh: 出使邻邦，问礼察政，与叔向论齐之将归田氏
+  phases:
+  - key: brewing
+    name_zh: 使晋通好
+    labels:
+      zh: 问礼于鲁
+    start_date: -541
+    highlight_event_id: guji-晏婴-event-lu
+  - key: climax
+    name_zh: 私语叔向预言田氏代齐
+    labels:
+      zh: 齐政归田
+    start_date: -531
+    highlight_event_id: guji-晏婴-event-shu-xiang
+  decisions:
+  - date: -531
+    title_zh: 密告叔向齐政将归田氏
+    rationale: 田氏虽无大德，以公权施私德于民，民爱之，齐政终归于田
+events:
+- id: guji-晏婴-event-birth
+  type: birth
+  date: -384
+  year_of: -600
+  title_zh: 晏婴约生于春秋齐地
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-service
+  type: career
+  date: -376
+  year_of: -570
+  title_zh: 入仕于齐，历事灵公、庄公、景公
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-cui-zhu
+  type: career
+  date: -0548-05
+  year_of: -548
+  title_zh: 崔杼弑庄公，晏婴止于门外，言君为社稷死则死之，入而枕尸哭三踊而出
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-refuse-oath
+  type: career
+  date: -0548
+  year_of: -548
+  title_zh: 崔杼、庆封拉盟国人，晏子不与不义之盟，得免于死
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-lu
+  type: career
+  date: -0526-07
+  year_of: -526
+  title_zh: 景公二十六年猎鲁郊入鲁，与晏婴俱问鲁礼
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-comet
+  type: career
+  date: -338
+  year_of: -522
+  title_zh: 彗星见，景公忧而群臣泣，晏子笑并谏使修德罢祷禳
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-shu-xiang
+  type: career
+  date: -0531-07
+  year_of: -531
+  title_zh: 景公九年使晋，与叔向私语，预言齐政卒归田氏
+  actors:
+  - guji-晏婴
+- id: guji-晏婴-event-death
+  type: death
+  date: -320
+  year_of: -500
+  title_zh: 是岁晏婴卒，其后齐政遂归于田氏
+  actors:
+  - guji-晏婴
