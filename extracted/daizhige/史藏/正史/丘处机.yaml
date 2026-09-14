@@ -1,0 +1,132 @@
+person:
+  qid: guji-丘处机
+  name_zh: 丘处机
+  names:
+    zh: 丘处机
+    en: Qiu Chuji
+  lifespan:
+    birth:
+      date: '1148'
+      precision: year
+      is_circa: true
+      raw: 生年未详，据卒年八十推算
+    death:
+      date: '1227'
+      precision: year
+      is_circa: false
+  birth_date: '1148'
+  death_date: '1227'
+  era: 金末元初
+  reign_ref: 元太祖（成吉思汗）
+  archetype: 宗师型
+  dilemmas:
+  - 金、宋之季俱遣使召之，不赴，而万里赴太祖之召
+  - 面对嗜杀之军政，如何以言止杀救民
+  lesson: 欲一天下者，必在不嗜杀人
+  summary_first_person: 我丘处机，字通密，登州栖霞人，自号长春子。年十九于宁海昆仑山学全真道，与马钰等六人同师王重阳，世称七真人，而我名最著。太祖征西域，遣使赍玺书召我，我以止杀为戒，跋涉万里，四载方达雪山。我告以不嗜杀、敬天爱民、清心寡欲之道，太祖深契其言，赐虎符玺书，称我神仙而不斥其名。后中原兵祸，民罹俘戮，我使其徒持牒购出残民，得复为良者毋虑二三万人。享年八十，改赐宫名长春。
+endeavors:
+- id: guji-丘处机-endeavor-1
+  name_zh: 学道与传扬全真教
+  phases:
+  - key: brewing
+    name_zh: 入道修真
+    labels:
+      zh: 全真七子、龙门祖师
+    start_date: '1166'
+    highlight_event_id: guji-丘处机-event-entry
+  - key: breakthrough
+    name_zh: 名重四方
+    labels:
+      zh: 名显于世、拒金宋之召
+    start_date: '1219'
+    highlight_event_id: guji-丘处机-event-summoned
+  - key: climax
+    name_zh: 万里谒见止杀救民
+    labels:
+      zh: 龙门派、敬天爱民
+    start_date: '1222'
+    highlight_event_id: guji-丘处机-event-meeting
+  - key: closure
+    name_zh: 世纪传承
+    labels:
+      zh: 长春宫、尹志平袭教
+    start_date: '1224'
+    highlight_event_id: guji-丘处机-event-death
+  decisions:
+  - date: '1219'
+    title_zh: 应召万里赴西域军中
+    rationale: 以止杀为戒，欲一天下者必在不嗜杀人
+  - date: '1224'
+    title_zh: 持牒购救被俘残民
+    rationale: 民罹俘戮无所逃命，疼死而得更生者二三万
+- id: guji-丘处机-endeavor-2
+  name_zh: 以奉迎谏劝治理
+  phases:
+  - key: breakthrough
+    name_zh: 进言为治之道
+    labels:
+      zh: 敬天爱民、清心寡欲
+    start_date: '1222'
+    highlight_event_id: guji-丘处机-event-meeting
+  - key: climax
+    name_zh: 谏止畋猎、明孝道治天下
+    labels:
+      zh: 天道好生
+    start_date: '1222'
+    highlight_event_id: guji-丘处机-event-hunting
+events:
+- id: guji-丘处机-event-birth
+  date: '1148'
+  year_of: 1148
+  kind: birth
+  location: 登州栖霞
+- id: guji-丘处机-event-entry
+  date: '1166'
+  year_of: 1166
+  kind: personal-milestone
+  location: 宁海昆仑山
+- id: guji-丘处机-event-summoned
+  date: '1219'
+  year_of: 1219
+  kind: political-event
+  label_zh: 金宋俱遣使召之不赴
+- id: guji-丘处机-event-departure
+  date: '1219'
+  year_of: 1219
+  kind: travel-event
+  location: 抚州
+- id: guji-丘处机-event-meeting
+  date: '1222'
+  year_of: 1222
+  kind: career-milestone
+  location: 雪山
+- id: guji-丘处机-event-thunder
+  date: '1222'
+  year_of: 1222
+  kind: political-event
+  label_zh: 对以雷震天威、宜明孝道治天下
+- id: guji-丘处机-event-hunting
+  date: '1222'
+  year_of: 1222
+  kind: political-milestone
+  location: 东山
+- id: guji-丘处机-event-salvation
+  date: '1224'
+  year_of: 1224
+  kind: social-impact
+  location: 中原
+- id: guji-丘处机-event-solicitude
+  date: '1226'
+  year_of: 1226
+  kind: political-milestone
+  label_zh: 改赐宫名曰长春，遣使劳问
+- id: guji-丘处机-event-death
+  date: '1227'
+  year_of: 1227
+  kind: death
+  label_zh: 六月浴于东溪，越二日卒，年八十
+- id: guji-丘处机-event-honor
+  date: '1309'
+  year_of: 1309
+  kind: posthumous-honor
+  label_zh: 至大二年加赐金印，赠长春全德神化明应真君
