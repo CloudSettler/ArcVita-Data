@@ -1,0 +1,194 @@
+person:
+  qid: guji-朱元璋
+  name_zh: 朱元璋
+  names:
+    zh: 朱元璋
+    en: Zhu Yuanzhang
+  lifespan:
+    birth:
+      date: '1328'
+      precision: year
+      is_circa: true
+      raw: 天历元年（史传未载具体年，据年十七当至正四年推算）
+    death:
+      date: '1398'
+      precision: year
+      is_circa: false
+      raw: 洪武三十一年
+  birth_date: '1328'
+  death_date: '1398'
+  era: 元末明初
+  reign_ref: 洪武
+  archetype: 开国之君
+  dilemmas:
+  - 由游方僧人投身群雄举事，赌上性命换取生存与前途
+  - 受制于郭子兴、韩林儿旧主之礼与自主称雄之势的两难
+  - 面对陈友谅、张士诚两强夹击，先攻谁的战略抉择
+  lesson: 得人心者得天下，以仁驭武则基业可久
+  summary_first_person: 我出身濠州农家，遭大饥而孤，入皇觉寺为僧，后投身红巾，历经百战，先灭陈友谅、再平张士诚、北定中原，终于洪武元年即皇帝位，国号大明，改元洪武。
+endeavors:
+- id: guji-朱元璋-endeavor-1
+  name_zh: 起兵濠州与渡江立基
+  phases:
+  - key: brewing
+    name_zh: 入伍亲兵
+    labels:
+      zh: 投军濠州
+    start_date: 1352-05
+    highlight_event_id: guji-朱元璋-event-join-soldier
+  - key: breakthrough
+    name_zh: 南略定远、渡江取集庆
+    labels:
+      zh: 开拓江左
+    start_date: 1353
+    highlight_event_id: guji-朱元璋-event-take-yingtian
+  - key: climax
+    name_zh: 受奉吴国公、总揽江南
+    labels:
+      zh: 称公建制
+    start_date: 1356-08
+    highlight_event_id: guji-朱元璋-event-wu-guogong
+  - key: closure
+    name_zh: 立足应天，规取两浙
+    labels:
+      zh: 奠基 Metro
+    start_date: 1357
+    highlight_event_id: guji-朱元璋-event-jiangzuo-ping
+  decisions:
+  - date: 1353
+    title_zh: 以兵属他将，独与徐达等南略定远
+    rationale: 彭赵暴横、子兴衰弱，度无足与共事，另辟基业
+  - date: 1355-06
+    title_zh: 断舟缆焚归路，乘胜取太平
+    rationale: 渡江幸捷，若舍而归则江东非吾有
+  - date: 1355-09
+    title_zh: 受韩林儿官爵而不受制，用其年号以令军中
+    rationale: 大丈夫宁能受制于人；然念林儿势盛可倚藉
+- id: guji-朱元璋-endeavor-2
+  name_zh: 统一战争与建明称帝
+  phases:
+  - key: brewing
+    name_zh: 征浙东、延揽人才
+    labels:
+      zh: 礼贤下士
+    start_date: 1358
+    highlight_event_id: guji-朱元璋-event-zhedong-recruit
+  - key: breakthrough
+    name_zh: 鄱阳湖决战灭汉
+    labels:
+      zh: 破陈友谅
+    start_date: 1363
+    highlight_event_id: guji-朱元璋-event-poyang-blitz
+  - key: climax
+    name_zh: 平吴灭陈理，北伐中原
+    labels:
+      zh: 一统天下
+    start_date: 1363-10
+    highlight_event_id: guji-朱元璋-event-pingwu
+  - key: closure
+    name_zh: 即皇帝位，建元洪武
+    labels:
+      zh: 登基建明
+    start_date: 1368-01
+    highlight_event_id: guji-朱元璋-event-throne
+  decisions:
+  - date: 1360-05
+    title_zh: 拒先复太平与自将迎击，诱友谅速来而先破之
+    rationale: 敌居上游舟师十倍，百里趋战兵法所忌；速其来则士诚胆落
+  - date: 1367-10
+    title_zh: 北伐先取山东、次取两河、拔潼关，再进元都
+    rationale: 悬军深入危道；撤屏蔽、破藩篱、扼户槛，则元都势孤不战自克
+  - date: 1367-08
+    title_zh: 平江之战先攻湖州披其羽翼
+    rationale: 直捣平江则湖州、杭州悉力赴援难胜
+events:
+- id: guji-朱元璋-event-birth
+  entity_ref: guji-朱元璋
+  event_type: birth
+  date: '1328'
+  year_of: 1328
+  precision: year
+  is_circa: true
+  name_zh: 生于濠州钟离
+  description_zh: 太祖生于濠州钟离，父硃世珍，母陈氏，行四。及产红光满室，邻里惊以为火。
+- id: guji-朱元璋-event-join-soldier
+  entity_ref: guji-朱元璋
+  event_type: career
+  date: 1352-05
+  year_of: 1352
+  precision: month_day
+  is_circa: false
+  name_zh: 入濠投郭子兴为亲兵
+  description_zh: 至正十二年闰三月，卜之吉，遂入濠见郭子兴；子兴奇其状貌，留为亲兵，每战辄胜。
+- id: guji-朱元璋-event-take-yingtian
+  entity_ref: guji-朱元璋
+  event_type: career
+  date: 1356-03
+  year_of: 1356
+  precision: month_day
+  is_circa: false
+  name_zh: 攻克集庆，改应天府
+  description_zh: 三月庚寅再败元兵于蒋山，入城谕官吏父老除乱安民，改集庆路为应天府，辟夏煜、孙炎、杨宪等。
+- id: guji-朱元璋-event-wu-guogong
+  entity_ref: guji-朱元璋
+  event_type: career
+  date: 1356-08
+  year_of: 1356
+  precision: month
+  is_circa: false
+  name_zh: 受奉吴国公，置江南行中书省
+  description_zh: 秋七月己卯，诸将奉太祖为吴国公，置江南行中书省，自总省事。
+- id: guji-朱元璋-event-zhedong-recruit
+  entity_ref: guji-朱元璋
+  event_type: career
+  date: 1360-03
+  year_of: 1360
+  precision: month
+  is_circa: false
+  name_zh: 征刘基、宋濂至应天
+  description_zh: 三月戊子，征刘基、宋濂、章溢、叶琛至，后置礼贤馆，礼用贤士。
+- id: guji-朱元璋-event-poyang-blitz
+  entity_ref: guji-朱元璋
+  event_type: battle
+  date: 1363-08
+  year_of: 1363
+  precision: month_day
+  is_circa: false
+  name_zh: 鄱阳湖大破陈友谅
+  description_zh: 二十三年秋，友谅兵号六十万酈巨舟为阵，太祖亲督军，纵火焚舟，八月至泾江遮击，友谅中流矢死。
+- id: guji-朱元璋-event-king-wu
+  entity_ref: guji-朱元璋
+  event_type: career
+  date: 1364-01
+  year_of: 1364
+  precision: month_day
+  is_circa: false
+  name_zh: 即吴王位
+  description_zh: 二十四年正月丙寅朔，李善长等率群臣劝进，乃即吴王位，建百官，立子标为世子。
+- id: guji-朱元璋-event-pingwu
+  entity_ref: guji-朱元璋-endeavor/event
+  event_type: major
+  date: 1367-10
+  year_of: 1367
+  precision: month_day
+  is_circa: false
+  name_zh: 徐达克平江执张士诚，吴地平
+  description_zh: 九月辛巳，徐达克平江，执士诚，吴地平；论平吴功，封李善长宣国公、徐达信国公、常遇春鄂国公。
+- id: guji-朱元璋-event-throne
+  entity_ref: guji-朱元璋
+  event_type: enthronement
+  date: 1368-01
+  year_of: 1368
+  precision: month_day
+  is_circa: false
+  name_zh: 即皇帝位，国号大明，建元洪武
+  description_zh: 洪武元年春正月乙亥，祀天地于南郊，即皇帝位；定有天下之号曰明，建元洪武，立马氏为皇后、子标为皇太子。
+- id: guji-朱元璋-event-death
+  entity_ref: guji-朱元璋
+  event_type: death
+  date: '1398'
+  year_of: 1398
+  precision: year
+  is_circa: false
+  name_zh: 崩于洪武三十一年
+  description_zh: 在位三十一年，庙号太祖，谥开天行道肇纪立极大圣至神仁文义武俊德成功高皇帝。

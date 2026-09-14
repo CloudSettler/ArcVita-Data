@@ -1,0 +1,149 @@
+person:
+  qid: guji-刘基
+  name_zh: 刘基
+  names:
+    zh: 刘基
+    en: Liu Ji
+  lifespan:
+    birth:
+      date: '1311-07-01'
+      precision: year
+      is_circa: true
+      raw: 刘基（字伯温），生于元至大四年
+    death:
+      date: '1375-05-16'
+      precision: year
+      is_circa: true
+      raw: 卒于明洪武八年
+  birth_date: '1311-07-01'
+  death_date: '1375-05-16'
+  era: 元末明初
+  reign_ref: 洪武
+  archetype: 谋臣/开国功臣
+  dilemmas:
+  - 出仕辅佐新朝与保全自身之间的进退抉择
+  - 战略直谏（如谏止安丰之行）与君主独断之间的张力
+  lesson: 谋国之臣当以远虑直言为务，然功高之际亦需知进退。
+  summary_first_person: 我刘基，字伯温，元末明初浙东名士，与宋濂、章溢、叶琛同征至应天，为朱元璋运筹帷幄。我曾谏止太祖亲救安丰，其后太祖追悔，称若非我先破陈友谅，大事难定。洪武初我任御史中丞，曾致仕，旋奉诏还朝。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷1
+  - https://zh.wikisource.org/wiki/明史/卷2
+endeavors:
+- id: guji-刘基-endeavor-1
+  name_zh: 应征入仕，辅佐平定天下
+  description: 至正二十年刘基与宋濂、章溢、叶琛应征至应天，为朱元璋谋主，参与决策。
+  phases:
+  - key: brewing
+    name_zh: 隐居待时
+    labels:
+      zh: 浙东名士
+    start_date: ~1350
+  - key: breakthrough
+    name_zh: 应征至应天
+    labels:
+      zh: 桃园四杰之征
+    start_date: 1360-03
+    highlight_event_id: guji-刘基-event-recruit
+  - key: climax
+    name_zh: 参赞军机
+    labels:
+      zh: 运筹帷幄
+    start_date: 1360-05
+    highlight_event_id: guji-刘基-event-remonstrance
+  - key: closure
+    name_zh: 佐定明政
+    labels:
+      zh: 御史中丞
+    start_date: '1368'
+    highlight_event_id: guji-刘基-event-appoint
+- id: guji-刘基-endeavor-2
+  name_zh: 谏止安丰之行
+  description: 太祖自将救安丰时，刘基进谏不听；事后证明友谅果乘虚攻洪都，太祖追悔并肯定刘基远虑。
+  phases:
+  - key: brewing
+    name_zh: 察势预判
+    labels:
+      zh: 谏言
+    start_date: 1363-03
+  - key: breakthrough
+    name_zh: 力谏不听
+    labels:
+      zh: 谏止安丰
+    start_date: 1363-03
+    highlight_event_id: guji-刘基-event-remonstrance
+  - key: climax
+    name_zh: 鄱阳湖决胜
+    labels:
+      zh: 友谅败亡
+    start_date: 1363-08
+  - key: closure
+    name_zh: 悔悟追认
+    labels:
+      zh: 太祖自省
+    start_date: 1363-09
+  decisions:
+  - date: 1363-03
+    title_zh: 谏止太祖亲救安丰
+    rationale: 判断陈友谅必乘虚直捣应天，救安丰将致根本动摇。
+  - date: 1360-05
+    title_zh: 策划诱陈友谅速来而先破之
+    rationale: 二寇若合围，首尾受敌，惟速其来先破友谅，可使士诚胆落。
+events:
+- id: guji-刘基-event-recruit
+  person: guji-刘基
+  title_zh: 应征至应天
+  date: 1360-03
+  year_of: 1360
+  era_ref: 至正二十年
+  tags:
+  - 征贤
+  - 出仕
+  description: 至正二十年三月戊子，太祖征刘基、宋濂、章溢、叶琛至应天。
+  sources:
+  - 明史·太祖本纪一
+- id: guji-刘基-event-remonstrance
+  person: guji-刘基
+  title_zh: 谏止太祖救安丰
+  date: 1363-03
+  year_of: 1363
+  era_ref: 至正二十三年
+  tags:
+  - 直谏
+  - 军略
+  description: 太祖自将救安丰，刘基谏而不听；后太祖自称不当有安丰之行，友谅果乘虚攻洪都。
+  sources:
+  - 明史·太祖本纪一
+- id: guji-刘基-event-appoint
+  person: guji-刘基
+  title_zh: 任御史中丞
+  date: '1368-01-23'
+  year_of: 1368
+  era_ref: 洪武元年
+  tags:
+  - 仕宦
+  - 明朝开国
+  description: 洪武元年即位建元后，刘基任职御史台，官至御史中丞。
+  sources:
+  - 明史·太祖本纪二
+- id: guji-刘基-event-retire
+  person: guji-刘基
+  title_zh: 御史中丞刘基致仕
+  date: '1368-08-27'
+  year_of: 1368
+  era_ref: 洪武元年八月丁丑
+  tags:
+  - 致仕
+  description: 洪武元年八月丁丑前后，御史中丞刘基上表致仕。
+  sources:
+  - 明史·太祖本纪二
+- id: guji-刘基-event-recall
+  person: guji-刘基
+  title_zh: 诏刘基还朝
+  date: '1368-11-27'
+  year_of: 1368
+  era_ref: 洪武元年十一月癸亥
+  tags:
+  - 复起
+  description: 洪武元年十一月癸亥，太祖诏刘基还。
+  sources:
+  - 明史·太祖本纪二
