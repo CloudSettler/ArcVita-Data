@@ -1,0 +1,92 @@
+person:
+  qid: guji-周兴嗣
+  name_zh: 周兴嗣
+  names:
+    zh: 周兴嗣
+    en: Zhou Xingsi
+  lifespan:
+    birth:
+      date: ~0469
+      precision: year
+      is_circa: true
+      raw: 约南朝宋泰始年间
+    death:
+      date: ~0521
+      precision: year
+      is_circa: true
+      raw: 约梁普通年间
+  birth_date: ~0469
+  death_date: ~0521
+  era: 南朝齐梁之际
+  reign_ref: 齐明帝、梁武帝在位期间
+  archetype: 文吏幕僚与守土之臣
+  dilemmas:
+  - 叛党攻郡之际，以微弱兵力立坞拒战，战力不敌，面临死守还是弃郡的抉择
+  lesson: 知不敌而谋保全，弃地不弃节，留身以图后效
+  summary_first_person: 我周兴嗣曾任吴兴郡丞，天监九年山贼吴承伯余党与叛吏鲍叙合流攻入新安，我奉太守王览之命于锦沙立坞拒战。兵力不敌，遂弃郡退保会稽。其后台军平定山寇，郡事复定。
+  source_urls:
+  - https://zh.wikisource.org/wiki/梁書/卷15
+endeavors:
+- id: guji-周兴嗣-endeavor-1
+  name_zh: 佐治吴兴
+  phases:
+  - key: brewing
+    name_zh: 出任郡丞
+    labels:
+      zh: 郡佐文吏
+    start_date: ~0500
+  - key: breakthrough
+    name_zh: 锦沙拒战
+    labels:
+      zh: 御寇守土
+    start_date: ~0510-07
+    highlight_event_id: guji-周兴嗣-event-jinsha
+  - key: closure
+    name_zh: 郡境复定
+    labels:
+      zh: 台军平寇
+    start_date: ~0510-10
+  decisions:
+  - date: ~0510-07
+    title_zh: 于锦沙立坞拒战
+    rationale: 山贼与叛吏合势攻郡，郡丞受命于险地，以坞垒自守为先
+  - date: ~0510-08
+    title_zh: 不敌而弃郡奔会稽
+    rationale: 战力悬殊，硬守则身死郡灭，退保以存根本
+events:
+- id: guji-周兴嗣-event-birth
+  type: birth
+  date: ~0469
+  year_of: 469
+  date_precision: circa-year
+  description: 周兴嗣约生于南朝宋末年
+- id: guji-周兴嗣-event-officer
+  type: career
+  date: ~0500
+  year_of: 500
+  date_precision: circa-year
+  description: 出仕为吴兴郡丞，佐太守王览治郡
+- id: guji-周兴嗣-event-jinsha
+  type: endeavor
+  date: ~0510-07
+  year_of: 510
+  date_precision: circa-month
+  description: 山贼吴承伯余党破宣城入新安，叛吏鲍叙等攻没黟、歙诸县进兵击览；王览遣郡丞周兴嗣于锦沙立坞拒战
+- id: guji-周兴嗣-event-retreat
+  type: endeavor
+  date: ~0510-08
+  year_of: 510
+  date_precision: circa-month
+  description: 锦沙拒战不敌，王览遂弃郡奔会稽
+- id: guji-周兴嗣-event-calm
+  type: endeavor
+  date: ~0510-10
+  year_of: 510
+  date_precision: circa-month
+  description: 台军平定山寇，王览复还郡，周兴嗣佐守复安
+- id: guji-周兴嗣-event-death
+  type: death
+  date: ~0521
+  year_of: 521
+  date_precision: circa-year
+  description: 周兴嗣约卒于梁武帝普通年间
