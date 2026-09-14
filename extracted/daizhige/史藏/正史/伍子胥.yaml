@@ -1,0 +1,128 @@
+person:
+  qid: guji-伍子胥
+  name_zh: 伍子胥
+  names:
+    zh: 伍子胥（伍员，字子胥）
+    en: Wu Zixu
+  lifespan:
+    birth:
+      date: -559
+      precision: year
+      is_circa: true
+      raw: 约生于春秋楚国之世（据传约前559年）
+    death:
+      date: -484
+      precision: year
+      is_circa: false
+      raw: 吴王夫差赐死（约前484年）
+  birth_date: 约前559年
+  death_date: 前484年
+  era: 春秋时期
+  reign_ref: 事楚平王、吴王僚、吴王阖闾、吴王夫差
+  archetype: 忠谏而冤死的复仇谋臣
+  dilemmas:
+  - 弃孝从仇：父兄为楚平王所杀，出走他国借兵复仇，背负忠孝两难之责
+  - 死谏与身退：预见越国为吴腹心之患，明知直言触怒夫差而仍不忍离国
+  lesson: 直言逆耳，忠臣不避死亡而终为谗言所害；复仇之志可成，而人心之防难守。
+  summary_first_person: 我本楚国忠良之后，父兄无辜被戮，我历尽艰辛逃亡吴国，助阖闾夺位并西破强楚，掘平王之墓鞭尸雪恨。后辅佐夫差，屡谏越患，惜夫差信伯嚭之言，终赐我属镂之剑自尽。我死之日，求悬吾目于东门，以观越军入吴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷066
+endeavors:
+- id: guji-伍子胥-endeavor-1
+  name_zh: 亡楚奔吴
+  phases:
+  - key: brewing
+    name_zh: 父兄蒙难
+    labels:
+      zh: 楚国蒙冤、仓皇出逃
+    start_date: -522
+    highlight_event_id: guji-伍子胥-event-exile
+  - key: breakthrough
+    name_zh: 佐阖闾夺位
+    labels:
+      zh: 进专诸荐公子光、助阖闾刺王僚
+    start_date: -515
+    highlight_event_id: guji-伍子胥-event-heluming
+  decisions:
+  - date: -522
+    title_zh: 弃楚奔宋吴
+    rationale: 父兄为楚平王所杀，誓以他国之力复仇，遂亡命出逃，历宋郑而入吴。
+- id: guji-伍子胥-endeavor-2
+  name_zh: 兴吴破楚
+  phases:
+  - key: brewing
+    name_zh: 相土筑城治兵
+    labels:
+      zh: 修吴都、教战强兵
+    start_date: -514
+    highlight_event_id: guji-伍子胥-event-heluming
+  - key: climax
+    name_zh: 西破强楚
+    labels:
+      zh: 五战入郢、掘墓鞭尸
+    start_date: -506
+    highlight_event_id: guji-伍子胥-event-ying
+  decisions:
+  - date: -506
+    title_zh: 力主长驱入郢
+    rationale: 楚军屡败士气瓦解，谏吴王乘胜深入，遂破郢都，报父兄之仇。
+- id: guji-伍子胥-endeavor-3
+  name_zh: 死谏除越
+  phases:
+  - key: breakthrough
+    name_zh: 屡谏夫差
+    labels:
+      zh: 力谏灭越、警告勾践之患
+    start_date: -494
+    highlight_event_id: guji-伍子胥-event-warnyue
+  - key: closure
+    name_zh: 赐死属镂
+    labels:
+      zh: 谗臣构陷、悬目东门
+    start_date: -484
+    highlight_event_id: guji-伍子胥-event-death
+  decisions:
+  - date: -484
+    title_zh: 托子于齐、留身死谏
+    rationale: 预见吴国将亡，遣子于齐以存血脉，而己不忍弃国，终遭赐死。
+events:
+- id: guji-伍子胥-event-birth
+  date: -559
+  year_of: -559
+  type: birth
+  title_zh: 伍子胥约生于楚国
+  description: 伍员生于楚国世臣之家，其父伍奢为楚国大夫。
+- id: guji-伍子胥-event-exile
+  date: -522
+  year_of: -522
+  type: endeavor
+  endeavor_id: guji-伍子胥-endeavor-1
+  title_zh: 父兄被害，亡命出奔
+  description: 楚平王听信费无忌谗言，杀伍奢与伍尚；伍子胥出逃，辗转宋郑，历尽艰危入吴。
+- id: guji-伍子胥-event-heluming
+  date: -515
+  year_of: -515
+  type: endeavor
+  endeavor_id: guji-伍子胥-endeavor-1
+  title_zh: 进专诸助阖闾弑王僚夺位
+  description: 伍子胥荐勇士专诸于公子光，专诸以鱼肠之剑刺杀吴王僚，阖闾自立，任子胥为行人而谋国事。
+- id: guji-伍子胥-event-ying
+  date: -506
+  year_of: -506
+  type: endeavor
+  endeavor_id: guji-伍子胥-endeavor-2
+  title_zh: 随吴军五战入郢，掘墓鞭尸报父仇
+  description: 吴会同唐蔡大破楚军，五战而至郢都；子胥掘楚平王墓，鞭尸三百以雪父兄之恨。
+- id: guji-伍子胥-event-warnyue
+  date: -494
+  year_of: -494
+  type: endeavor
+  endeavor_id: guji-伍子胥-endeavor-3
+  title_zh: 谏夫差勿许越和，警告勾践为心腹之患
+  description: 夫差败越后许越求和北上争霸，子胥力言越乃吴腹心之疾，宜先灭越，夫差不听。
+- id: guji-伍子胥-event-death
+  date: -484
+  year_of: -484
+  type: death
+  title_zh: 被谗赐属镂之剑自刎
+  description: 伯嚭谗子胥将通齐，夫差赐属镂剑命其自尽；子胥临死求悬目于东门以观越军入吴，吴人悯之。

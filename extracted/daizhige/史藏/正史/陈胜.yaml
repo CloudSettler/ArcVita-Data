@@ -1,0 +1,83 @@
+person:
+  qid: guji-陈胜
+  name_zh: 陈胜
+  names:
+    zh: 陈胜
+    en: Chen Sheng
+  archetype: 反秦首义者
+  dilemmas:
+  - 以数百戍卒之众对抗拥有百万之师的秦帝国，成败悬殊
+  - 起义建立张楚后，须在短时间内整合山东豪俊与六国旧势力
+  lesson: 仁义不施而攻守之势异也——一夫作难而七庙堕，民心向背决定存亡
+  summary_first_person: 我本是迁徙戍边的瓮牖绳枢之子，才能不过中人，无仲尼墨翟之贤、陶朱猗顿之富。二世元年七月，我以戍卒散乱之众数百人，在大泽乡奋臂大呼，不用弓戟之兵，以鉏耰白梃揭竿而起，天下云集响应。我自立为楚王，号张楚，居陈遣诸将徇地，山东郡县少年皆杀其守尉令丞以应我。然秦将章邯击破周章军，诸王并立不肯相助，我终败亡，被杀于城父。我揭开了亡秦的序幕。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷006
+endeavors:
+- id: guji-陈胜-endeavor-1
+  name_zh: 大泽乡起义反秦
+  phases:
+  - key: brewing
+    name_zh: 苦秦蓄志
+    labels:
+      zh: 戍卒之身
+    start_date: -215
+  - key: breakthrough
+    name_zh: 奋臂大呼
+    labels:
+      zh: 大泽起义
+    start_date: -209-07
+    highlight_event_id: guji-陈胜-event-uprising
+  - key: climax
+    name_zh: 号令山东
+    labels:
+      zh: 西征入关
+    start_date: -209-08
+    highlight_event_id: guji-陈胜-event-zhouzhang
+  - key: closure
+    name_zh: 兵败身死
+    labels:
+      zh: 城父之败
+    start_date: -209-12
+    highlight_event_id: guji-陈胜-event-death
+  decisions:
+  - date: -209-07
+    title_zh: 举义反秦，号为张楚
+    rationale: 苦秦吏久矣，山东郡县少年皆愿相立为侯王，合从西乡伐秦
+  - date: -209-08
+    title_zh: 自立为楚王，遣周章西征
+    rationale: 居陈，遣诸将徇地，以张楚名义号召天下伐秦
+events:
+- id: guji-陈胜-event-birth
+  type: birth
+  description_zh: 陈胜，瓮牖绳枢之子，甿隶之人、迁徙之徒，才能不及中人，生年不详
+  source_ref: 《史记·秦始皇本纪》附贾谊《过秦论》
+- id: guji-陈胜-event-uprising
+  type: event
+  date: -209-07
+  year_of: -209
+  description_zh: 二世皇帝元年七月，戍卒陈胜等反于故荆地，为大泽乡（文中作"奋臂"处）起义，号为张楚
+  source_ref: 《史记·秦始皇本纪》：七月，戍卒陈胜等反故荆地，为张楚
+- id: guji-陈胜-event-king
+  type: event
+  date: -209-07
+  year_of: -209
+  description_zh: 陈胜自立为楚王，居陈，遣诸将徇地；山东郡县少年杀其守尉令丞以应陈涉
+  source_ref: 《史记·秦始皇本纪》：胜自立为楚王，居陈，遣诸将徇地
+- id: guji-陈胜-event-zhouzhang
+  type: event
+  date: -209-12
+  year_of: -209
+  description_zh: 陈涉所遣周章等将西至戏，兵数十万，直逼咸阳，震惊二世
+  source_ref: 《史记·秦始皇本纪》：二年冬，陈涉所遣周章等将西至戏，兵数十万
+- id: guji-陈胜-event-defeat
+  type: event
+  date: -209-12
+  year_of: -209
+  description_zh: 二世大赦天下，使章邯将郦山之徒击破周章军；稍后章邯部下杀陈胜于城父
+  source_ref: 《史记·秦始皇本纪》：击破周章军而走……杀陈胜城父
+- id: guji-陈胜-event-death
+  type: death
+  date: -209-12
+  year_of: -209
+  description_zh: 陈胜（陈涉）失败，被杀于城父，起义历时约半年而败亡
+  source_ref: 《史记·秦始皇本纪》：杀陈胜城父

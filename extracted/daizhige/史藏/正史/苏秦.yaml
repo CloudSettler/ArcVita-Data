@@ -1,0 +1,96 @@
+person:
+  qid: guji-苏秦
+  name_zh: 苏秦
+  names:
+    zh: 苏秦
+    en: Su Qin
+  lifespan:
+    birth:
+      date: -340
+      precision: circa
+      is_circa: true
+      raw: 约公元前340年
+    death:
+      date: -284
+      precision: circa
+      is_circa: true
+      raw: 约公元前284年（被刺身亡）
+  birth_date: -340
+  death_date: -284
+  era: 战国
+  reign_ref: 燕文侯、燕易王、赵肃侯时期
+  archetype: 纵横家/合纵谋士
+  dilemmas:
+  - 初出游说失败、家人讥笑，是否继续苦读 Batter 悬梁刺股
+  - 身佩六国相印而周旋于互相攻伐的各国之间，如何维持合纵而不失信于任一国
+  lesson: 处逆境而不弃，深入揣摩时势与人心，方能以言辞打动天下
+  summary_first_person: 我是苏秦，早年游说碰壁、妻不下机嫂不为炊，我发愤读书、引锥刺股，终于以合纵之策说动燕赵，身佩六国相印，使秦兵十五年不敢窥函谷关。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷069
+endeavors:
+- id: guji-苏秦-endeavor-1
+  key: 合纵抗秦
+  name_zh: 游说六国合纵抗秦
+  phases:
+  - key: brewing
+    name_zh: 苦读锥刺股
+    labels:
+      zh: 困顿苦学
+    start_date: -330
+    highlight_event_id: guji-苏秦-event-xuexi
+  - key: breakthrough
+    name_zh: 说燕赵得志
+    labels:
+      zh: 初佩相印
+    start_date: -314
+    highlight_event_id: guji-苏秦-event-shuoyan
+  - key: climax
+    name_zh: 身佩六国相印
+    labels:
+      zh: 合纵功成
+    start_date: -288
+    highlight_event_id: guji-苏秦-event-liuyin
+  - key: closure
+    name_zh: 齐遇刺身亡
+    labels:
+      zh: 车裂于齐
+    start_date: -284
+    highlight_event_id: guji-苏秦-event-death
+  decisions:
+  - date: -330
+    title_zh: 发愤苦读太公阴符
+    rationale: 游说失败归家受辱，认定未能精通说君之术，遂闭门读书一年
+  - date: -284
+    title_zh: 自请使齐反间
+    rationale: 为燕国削弱齐国，虽身死而间得以成
+events:
+- id: guji-苏秦-event-birth
+  date: -340
+  year_of: -340
+  type: birth
+  title_zh: 苏秦出生
+  description: 苏秦生于东周洛阳，据传约公元前340年前后。
+- id: guji-苏秦-event-xuexi
+  date: -330
+  year_of: -330
+  type: endeavor
+  title_zh: 锥刺股发愤读书
+  description: 苏秦游说秦惠王失败、归家受家人冷遇，于是闭门读太公阴符之谋，读书欲睡时引锥自刺其股，血流至足。
+- id: guji-苏秦-event-shuoyan
+  date: -314
+  year_of: -314
+  type: endeavor
+  title_zh: 说燕文侯合纵
+  description: 苏秦游说燕文侯，陈说燕国恃赵之利，燕文侯大悦，资以车马金帛，使说赵。
+- id: guji-苏秦-event-liuyin
+  date: -288
+  year_of: -288
+  type: endeavor
+  title_zh: 身佩六国相印
+  description: 苏秦先后说 韩、魏、齐、楚诸国，约纵成功，为纵约长，并相六国，秦兵不敢东向函谷关十五年。
+- id: guji-苏秦-event-death
+  date: -284
+  year_of: -284
+  type: death
+  title_zh: 死于齐国
+  description: 苏秦为燕反间于齐，齐大夫与之争宠使人刺之，苏秦临死献计诛刺客，齐以车裂之法捕得凶手，苏秦身亡。

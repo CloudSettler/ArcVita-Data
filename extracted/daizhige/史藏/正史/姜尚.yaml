@@ -1,0 +1,151 @@
+person:
+  qid: guji-jiangshang
+  name_zh: 姜尚
+  names:
+    zh: 姜尚、吕尚、太公望、姜子牙、齐太公
+    en: Jiang Shang
+  lifespan:
+    birth:
+      date: '-1150'
+      precision: year
+      is_circa: true
+      raw: 约商末
+    death:
+      date: '-1015'
+      precision: year
+      is_circa: true
+      raw: 约周康王六年卒于周
+  birth_date: 约-1150
+  death_date: 约-1015
+  era: 商末周初
+  reign_ref: 周文王至周康王时期；封于齐
+  archetype: 开国谋臣与方国分封始祖
+  dilemmas:
+  - 年老穷困垂钓渭滨，静待明主，去就用世
+  - 辅周定天下后受封东夷之地的齐国，面对土著势力
+  - 封齐五月而报政，.TypesRule选择因俗简礼而非迎风立教
+  lesson: 大器晚成，审时度势，韬光养晦而后一击定鼎
+  summary_first_person: 我姜尚年七十犹钓于渭滨，遇文王而得展其志；翦商定周，首功受封于齐；治齐因俗简礼，通鱼盐之利，国以大兴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記/卷032
+endeavors:
+- id: guji-jiangshang-endeavor-1
+  name_zh: 佐周翦商与开国
+  phases:
+  - key: brewing
+    name_zh: 渭滨垂钓待文王
+    labels:
+      zh:
+      - 韬晦
+      - 待时
+    start_date: 约-1075
+    highlight_event_id: guji-jiangshang-event-meet-wenwang
+  - key: breakthrough
+    name_zh: 谋商文武所出
+    labels:
+      zh:
+      - 谋略
+      - 翦商
+    start_date: 约-1056
+    highlight_event_id: guji-jiangshang-event-climax-herds
+  - key: climax
+    name_zh: 武王克商
+    labels:
+      zh:
+      - 牧野
+      - 定鼎
+    start_date: 约-1046
+    highlight_event_id: guji-jiangshang-event-climax-herds
+  - key: closure
+    name_zh: 受封齐国
+    labels:
+      zh:
+      - 开国
+    start_date: 约-1045
+    highlight_event_id: guji-jiangshang-event-feng-qi
+  decisions:
+  - date: 约-1074
+    title_zh: 老而归附文王于渭水之阳
+    rationale: 察周之兴，择贤主而委身
+  - date: 约-1046
+    title_zh: 牧野之战劝师决战
+    rationale: 时机已至，会诸侯于牧野，先登陷阵
+- id: guji-jiangshang-endeavor-2
+  name_zh: 开国治齐通商鱼盐
+  phases:
+  - key: breakthrough
+    name:之首就国 semanticNote: 半月返周报政
+    labels:
+      zh:
+      - 因俗简礼
+    start_date: 约-1045
+    highlight_event_id: guji-jiangshang-event-feng-qi
+  - key: closure
+    name_zh: 兴国通鱼盐之利
+    labels:
+      zh:
+      - 民归国富
+    start_date: 约-1044
+    highlight_event_id: guji-jiangshang-event-qi-sheng
+  decisions:
+  - date: 约-1045
+    title_zh: 因俗为治、简其礼从其俗
+    rationale: 东夷旧地未化，强变则乱，因其俗则和
+extra_note: 旧兼容字段 birth_date/death_date 已给；Events 详细列表.events 行
+events:
+- id: guji-jiangshang-event-birth
+  type: birth
+  person: guji-jiangshang
+  date: -1150
+  year_of: -1150
+  precision: circa
+  place_zh: 约商末吕地
+  desc_zh: 姜尚生，先祖尝为四岳，佐禹平水土，后世不显，至尚微贱。
+- id: guji-jiangshang-event-meet-wenwang
+  type: endeavor
+  person: guji-jiangshang
+  date: 约-1074
+  year_of: -1074
+  precision: circa
+  place_zh: 渭水之滨磻
+  desc_zh: 年老垂钓渭滨，文王出猎遇之，与语大悦，曰吾太公望子久矣，故号太公望，载与俱归立为师。
+- id: guji-jiangshang-event-counsel-shang
+  type: endeavor
+  person: guji-jiangshang
+  date: 约-1056
+  year_of: -1056
+  precision: circa
+  place_zh: 周
+  desc_zh: 文王崩后佐武王，多兵权与奇计，谋商政事，天下三分其归周者二。
+- id: guji-jiangshang-event-climax-herds
+  type: endeavor
+  person: guji-jiangshang
+  date: -1046
+  year_of: -1046
+  precision: year
+  place_zh: 牧野
+  desc_zh: 武王伐纣，牧野之战，姜师尚父先登，掌师振奋，甲锐如其矛，撮而不辨，遂克殷。
+- id: guji-jiangshang-event-feng-qi
+  type: endeavor
+  person: guji-jiangshang
+  date: 约-1045
+  year_of: -1045
+  precision: circa
+  place_zh: 营丘
+  desc_zh: 武王克商，封师尚父于齐营丘，下道之东，民多向从，迎则并来相攻。
+- id: guji-jiangshang-event-qi-sheng
+  type: endeavor
+  person: guji-jiangshang
+  date: 约-1044
+  year_of: -1044
+  precision: circa
+  place_zh: 齐
+  desc_zh: 修政因其俗，简其礼，通鱼盐之利，则人民多归齐，齐为大国。
+- id: guji-jiangshang-event-death
+  type: death
+  person: guji-jiangshang
+  date: -1015
+  year_of: -1015
+  precision: circa
+  place_zh: 周
+  desc_zh: 太公之卒，传本时盖百有余年，卒于周，葬于周。
