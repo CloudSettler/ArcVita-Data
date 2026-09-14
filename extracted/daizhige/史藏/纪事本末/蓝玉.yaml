@@ -1,0 +1,178 @@
+person:
+  qid: guji-lanyu
+  name_zh: 蓝玉
+  names:
+    zh: 蓝玉
+    en: Lan Yu
+  lifespan:
+    birth:
+      date: 1340
+      precision: year
+      is_circa: true
+      raw: 生年不详，约元末（据史补）
+    death:
+      date: 1393
+      precision: year
+      is_circa: false
+      raw: 洪武二十六年（1393年，据史补）
+  birth_date: 1340
+  death_date: 1393
+  era: 明朝洪武年间
+  reign_ref: 明太祖洪武
+  archetype: 明初开国名将
+  dilemmas:
+  - 战功日盛而恃功骄纵，功高震主与全身自保难以两全
+  - 北元残虏为边患，远征则劳师靡费民苦其劳，坐守则边警不息
+  lesson: 名将善战而未必善守，恃功不法则树大招风，纵有捣破虏庭之勋亦不免族诛之祸
+  summary_first_person: 吾蓝玉，明初宿将。洪武十四年以征南副将军从傅友德、沐英率三十万众平云南，白石江一战生擒达里麻，继而入云南、下大理，滇南底定；后从冯胜降纳哈出，复为大将军出塞，捕鱼儿海一役捣破北元主庭，威震漠北。然功高而骄，洪武二十六年坐罪被诛，煊赫功业，毁于一旦。
+endeavors:
+- id: guji-lanyu-endeavor-1
+  name_zh: 南征云南（1381—1383）
+  description_zh: 洪武十四年九月，太祖以云南未附、执杀信使，命傅友德为征南将军，沐英、蓝玉为左右副将军，率师三十万往征；蓝玉与沐英会师曲靖，白石江大破达里麻，梁王自尽，遂克云南，次年二月攻克大理，十六年云南平，班师还京
+  phases:
+  - key: brewing
+    name_zh: 受命拜将
+    labels:
+      zh: 征南副将军
+    start_date: 1381-09
+    highlight_event_id: guji-lanyu-event-appoint-yunnan
+  - key: breakthrough
+    name_zh: 白石江之战
+    labels:
+      zh: 擒达里麻
+    start_date: 1381-12
+    highlight_event_id: guji-lanyu-event-baishijiang
+  - key: climax
+    name_zh: 克云南下大理
+    labels:
+      zh: 滇南底定
+    start_date: 1382-01
+    highlight_event_id: guji-lanyu-event-dali
+  - key: closure
+    name_zh: 班师献俘
+    labels:
+      zh: 云南平
+    start_date: 1383-02
+    highlight_event_id: guji-lanyu-event-banshi
+  decisions:
+  - date: 1381-09
+    title_zh: 以副将军统军自辰沅入普定，进取曲靖
+    rationale: 云南僻在遐荒，太祖授以进取之略，曲靖为云南襟喉，出奇制胜正在于此
+  - date: 1382-02
+    title_zh: 率兵由洱水东趋上关，与沐英犄角攻大理
+    rationale: 大理倚点苍山洱海为固，下关险要，分道夹击腹背并进，遂破段世擒之
+- id: guji-lanyu-endeavor-2
+  name_zh: 北征大漠（1387—1388）
+  description_zh: 洪武二十年纳哈出寇辽东，蓝玉以副将军随冯胜往讨，追降其众；洪武二十一年拜大将军率师出塞，袭破北元主庭于捕鱼儿海，获其后妃王公，北元之势遂衰（此役本卷未及，据史补）
+  phases:
+  - key: brewing
+    name_zh: 副将军征辽东
+    labels:
+      zh: 讨纳哈出
+    start_date: 1387-01
+    highlight_event_id: guji-lanyu-event-naghachu
+  - key: breakthrough
+    name_zh: 降纳哈出
+    labels:
+      zh: 金山之捷
+    start_date: 1387-07
+    highlight_event_id: guji-lanyu-event-naghachu
+  - key: climax
+    name_zh: 捕鱼儿海大捷
+    labels:
+      zh: 捣破虏庭
+    start_date: 1388-04
+    highlight_event_id: guji-lanyu-event-buir-lake
+  - key: closure
+    name_zh: 功高遭忌
+    labels:
+      zh: 身死案发
+    start_date: 1393
+    highlight_event_id: guji-lanyu-event-death
+  decisions:
+  - date: 1387-01
+    title_zh: 以副将军从冯胜讨纳哈出
+    rationale: 纳哈出踞金山屡寇辽东，为肘腋之患，命将往征务除边警
+  - date: 1388-03
+    title_zh: 拜大将军率师十五万出塞，轻兵兼程趋捕鱼儿海
+    rationale: 残虏未灭为边患，乘北元不备捣其巢穴，期能一劳永逸（据史补）
+events:
+- id: guji-lanyu-event-birth
+  type: birth
+  date: 1340
+  date_precision: year
+  date_is_circa: true
+  year_of: 1340
+  title_zh: 蓝玉生
+  description_zh: 蓝玉约生于元末，定远人，骁勇善战有胆略，开平王常遇春妻弟（据史补）
+- id: guji-lanyu-event-appoint-yunnan
+  type: appointment
+  endeavor_id: guji-lanyu-endeavor-1
+  date: 1381-09
+  date_precision: month
+  date_is_circa: false
+  year_of: 1381
+  title_zh: 拜征南副将军，率师三十万征云南
+  description_zh: 洪武十四年九月，太祖以云南未附又执信使纳逋逃，命傅友德为征南将军，沐英、蓝玉为左右副将军，陈桓胡海费聚皆属焉，临行亲饯于龙江
+- id: guji-lanyu-event-baishijiang
+  type: battle
+  endeavor_id: guji-lanyu-endeavor-1
+  date: 1381-12
+  date_precision: month
+  date_is_circa: false
+  year_of: 1381
+  title_zh: 白石江之战大破达里麻
+  description_zh: 会大雾四塞，冲雾抵白石江，沐英遣一军泝上流潜渡出其阵后，鸣铜角树帜为疑兵，达里麻阵乱撤兵还御，大军济江纵铁骑冲其中坚，生擒达里麻，俘甲士二万马万匹，横尸十余里，遂克曲靖
+- id: guji-lanyu-event-kunming
+  type: capture
+  endeavor_id: guji-lanyu-endeavor-1
+  date: 1382-01
+  date_precision: month
+  date_is_circa: true
+  year_of: 1382
+  title_zh: 与沐英进取云南，梁王自尽，克昆明
+  description_zh: 达里麻兵败被擒，梁王大惧走滇池岛中，先缢其妃，自饮药不死投水死之；蓝玉与沐英进至板桥，故元右丞观音保举城降，整兵入城秋毫不犯，收梁王金印并官府符信册籍
+- id: guji-lanyu-event-dali
+  type: battle
+  endeavor_id: guji-lanyu-endeavor-1
+  date: 1382-02
+  date_precision: month
+  date_is_circa: false
+  year_of: 1382
+  title_zh: 攻克大理擒段世
+  description_zh: 大理城倚点苍山洱海为固，土酋段世以五万众扼下关；蓝玉与王弼率兵由洱水东趋上关，沐英缀下关为犄角，胡海由石门间道绕出点苍山后，腹背夹击遂克大理，擒段世，胁从者悉纵遣之
+- id: guji-lanyu-event-banshi
+  type: demobilization
+  endeavor_id: guji-lanyu-endeavor-1
+  date: 1383-02
+  date_precision: month
+  date_is_circa: false
+  year_of: 1383
+  title_zh: 云南平，班师还京
+  description_zh: 洪武十六年二月，云南底定，太祖遣耿炳文往谕傅友德班师，留沐英镇云南；麓川缅甸车里八百媳妇等国皆遣使内附
+- id: guji-lanyu-event-naghachu
+  type: battle
+  endeavor_id: guji-lanyu-endeavor-2
+  date: 1387-07
+  date_precision: month
+  date_is_circa: true
+  year_of: 1387
+  title_zh: 副将军从冯胜追降纳哈出
+  description_zh: 洪武二十年纳哈出寇辽东，命冯胜帅师讨之，蓝玉以副将军从征；纳哈出遁走，闰六月冯胜追破其众，降其军，旋师城大宁（蓝玉副将军职据史补）
+- id: guji-lanyu-event-buir-lake
+  type: battle
+  endeavor_id: guji-lanyu-endeavor-2
+  date: 1388-04
+  date_precision: month
+  date_is_circa: true
+  year_of: 1388
+  title_zh: 捕鱼儿海大捷，捣破北元主庭
+  description_zh: 洪武二十一年蓝玉为大将军率师出塞，闻北元主脱古思帖木儿驻捕鱼儿海，间道兼程掩袭，大破之，获其子地保奴及后妃公主王公等，北元之势遂衰（此役本卷未及，据史补）
+- id: guji-lanyu-event-death
+  type: death
+  date: 1393
+  date_precision: year
+  date_is_circa: false
+  year_of: 1393
+  title_zh: 坐蓝玉案被诛
+  description_zh: 洪武二十六年以谋反罪被诛，株连功臣宿将一万五千余人，史称蓝玉案（据史补）

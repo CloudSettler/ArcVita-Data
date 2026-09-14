@@ -1,0 +1,130 @@
+person:
+  qid: guji-muying
+  name_zh: 沐英
+  names:
+    zh: 沐英
+    en: Mu Ying
+  lifespan:
+    birth:
+      date: '1345'
+      precision: year
+      is_circa: true
+      raw: 定远人沐英八岁遭兵乱
+  birth_date: '1345'
+  death_date: ''
+  era: 元末明初
+  reign_ref: 朱元璋（明太祖）起兵至称帝时期
+  archetype: 幼孤见抚的开国养子名将
+  dilemmas:
+  - 八岁遭兵乱、父母双亡、无所依傍的乱世孤儿，何以为生
+  - 被义军主帅收养赐姓，身为人子又身为将士，忠与孝如何两全
+  lesson: 孤幼无依之人得遇仁主庇育，知恩奋进，亦可成长为柱石之才
+  summary_first_person: 我本是定远一个八岁便遭兵乱、失去父母的孤儿，幸得主上怜我孤苦，与高皇后一同抚育我为子，赐我朱姓，军中称我为“沐舍”。他们择师教我，把我从流离无依的孩童培养成能执兵效力之人。后来天下大定，论及开国诸将，我的名字竟得以与徐达、常遇春、李文忠诸公并列，谓可匹敌古之名将——我这一生，全始于那位在兵荒马乱中俯身收留我的义父。
+endeavors:
+- id: guji-muying-endeavor-1
+  name_zh: 幼孤见抚·育为义子
+  phases:
+  - key: brewing
+    name_zh: 乱世失怙
+    labels:
+      zh: 兵乱孤儿
+    start_date: '1352'
+    highlight_event_id: guji-muying-event-orphaned
+  - key: breakthrough
+    name_zh: 见抚为子
+    labels:
+      zh: 收养赐姓
+    start_date: '1355'
+    highlight_event_id: guji-muying-event-adoption
+  - key: climax
+    name_zh: 择师教养
+    labels:
+      zh: 育为子嗣
+    start_date: '1355'
+    highlight_event_id: guji-muying-event-adoption
+  decisions:
+  - date: '1355'
+    title_zh: 上与高皇后收养沐英并赐朱姓
+    rationale: 上怜其八岁失父母、无所依，与高皇后抚之如己子，与李文忠同育，赐姓朱氏，择师教之，军中称“沐舍”
+- id: guji-muying-endeavor-2
+  name_zh: 自养子至开国名将
+  phases:
+  - key: brewing
+    name_zh: 幕府成长
+    labels:
+      zh: 宿卫养育
+    start_date: '1355'
+    highlight_event_id: guji-muying-event-adoption
+  - key: breakthrough
+    name_zh: 随军效力
+    labels:
+      zh: 将略见用
+    start_date: '1363'
+    highlight_event_id: guji-muying-event-general
+  - key: climax
+    name_zh: 功臣之列
+    labels:
+      zh: 名将与信匹
+    start_date: '1368'
+    highlight_event_id: guji-muying-event-general
+  - key: closure
+    name_zh: 入论功臣
+    labels:
+      zh: 载于鸿猷
+    start_date: '1368'
+    highlight_event_id: guji-muying-event-general
+  decisions:
+  - date: '1368'
+    title_zh: 以沐英与徐达、常遇春、李文忠等同列名将之评
+    rationale: 论曰沐英等皆智勇天锡，可与韩信匹而不难于黥布彭越之功，见倚为一代柱石
+events:
+- id: guji-muying-event-birth
+  person_qid: guji-muying
+  type: birth
+  title_zh: 沐英生于定远
+  date: '1345'
+  year_of: 1345
+  date_is_circa: true
+  description: 沐英为定远人，据“八岁遭兵乱”逆推约生于元至正初年
+- id: guji-muying-event-orphaned
+  person_qid: guji-muying
+  type: life_event
+  title_zh: 八岁遭兵乱失父母
+  date: '1352'
+  year_of: 1352
+  date_is_circa: true
+  description: 先是定远人沐英八岁遭兵乱，失父母，无所依
+- id: guji-muying-event-adoption
+  person_qid: guji-muying
+  type: endeavor_event
+  title_zh: 上与高皇后抚育沐英为子并赐朱姓
+  date: '1355'
+  year_of: 1355
+  date_is_circa: true
+  endeavor_id: guji-muying-endeavor-1
+  description: 上怜其孤，与高皇后抚之，至是并李文忠等皆育为子，赐文忠、英姓朱氏，择师教之，军中称文忠“保舍”、英“沐舍”
+- id: guji-muying-event-general
+  person_qid: guji-muying
+  type: endeavor_event
+  title_zh: 论开国功臣列沐英于名将之选
+  date: '1368'
+  year_of: 1368
+  date_is_circa: true
+  endeavor_id: guji-muying-endeavor-2
+  description: 论曰圣祖诸将如徐达、常遇春、傅友德、李文忠、汤和、邓愈、廖永忠、沐英、吴良皆可与韩信匹，赞成一代之大业
+- id: guji-muying-event-death
+  person_qid: guji-muying
+  type: death
+  title_zh: 沐英卒
+  date: '1392'
+  year_of: 1392
+  date_is_circa: true
+  description: 本篇传记未载其卒年卒事，兹从史传通说补记，谨识
+- id: guji-muying-event-context-taizu-jiangling
+  person_qid: guji-muying
+  type: context_event
+  title_zh: 太祖延揽群英、褒显忠烈之世
+  date: '1355'
+  year_of: 1355
+  date_is_circa: true
+  description: 是时上驻滁州、和阳，四方豪杰来归，收养孤幼、育才用贤，遂启混一之业
