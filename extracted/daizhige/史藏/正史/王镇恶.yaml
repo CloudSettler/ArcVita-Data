@@ -1,0 +1,118 @@
+person:
+  qid: guji-王镇恶
+  name_zh: 王镇恶
+  names:
+    zh: 王镇恶
+    en: Wang Zhen'e
+  lifespan:
+    birth:
+      date: '0373'
+      precision: year
+      is_circa: true
+      raw: 史传不详，据行迹推约生于晋代前期
+    death:
+      date: 0418
+      precision: year
+      is_circa: false
+      raw: 义熙十四年，沈田子杀安西司马王镇恶
+  birth_date: '0373'
+  death_date: 0418
+  era: 东晋
+  reign_ref: 晋安帝、晋恭帝时期
+  archetype: 开路奇将（前锋猛将，以奇袭与舟师破敌著称）
+  dilemmas:
+  - 奉刘裕密令奇袭江陵，须在刘毅称疾蓄势、宠信渐固之际先发制人
+  - 北伐关中深入敌境，攻克长安后孤悬北方，与诸将不和、主帅南归
+  lesson: 兵贵神速，奇袭可定一方；然孤军悬远、将帅相疑，功成亦难自保。
+  summary_first_person: 我王镇恶，是刘裕麾下先锋之将。义熙八年他遣我与蒯恩前袭江陵，一战擒诛刘毅；十二年北伐，我率舟师自河入渭，直取长安，擒获姚泓，功冠诸军。然义熙十四年，安西中兵参军沈田子杀我于关中，时人惜之。
+endeavors:
+- id: guji-王镇恶-endeavor-1
+  name_zh: 奇袭江陵讨刘毅
+  phases:
+  - key: brewing
+    name_zh: 受命潜师
+    labels:
+      zh: 密议·选将
+    start_date: 0412-10
+    highlight_event_id: guji-王镇恶-event-xiling-tao
+  - key: breakthrough
+    name_zh: 前袭江陵
+    labels:
+      zh: 奇袭·克城
+    start_date: 0412-10
+    highlight_event_id: guji-王镇恶-event-xiling-tao
+  - key: closure
+    name_zh: 刘毅伏诛
+    labels:
+      zh: 荆州平
+    start_date: 0412-11
+    highlight_event_id: guji-王镇恶-event-xiling-tao
+  decisions:
+  - date: 0412-10
+    title_zh: 领兵前袭江陵
+    rationale: 刘毅镇荆襄心怀异志，刘裕命王镇恶、蒯恩率军潜进，出其不意先攻其穴。
+- id: guji-王镇恶-endeavor-2
+  name_zh: 北伐关中灭后秦
+  phases:
+  - key: brewing
+    name_zh: 舟师出发
+    labels:
+      zh: 入河·沿河西上
+    start_date: 0417-03
+    highlight_event_id: guji-王镇恶-event-changan
+  - key: breakthrough
+    name_zh: 浮渭入关
+    labels:
+      zh: 王镇恶舟师自河浮渭
+    start_date: 0417-07
+    highlight_event_id: guji-王镇恶-event-changan
+  - key: climax
+    name_zh: 克长安擒姚泓
+    labels:
+      zh: 攻克长安
+    start_date: 0417-08
+    highlight_event_id: guji-王镇恶-event-changan
+  - key: closure
+    name_zh: 关中之死
+    labels:
+      zh: 沈田子杀镇恶
+    start_date: 0418
+    highlight_event_id: guji-王镇恶-event-death
+  decisions:
+  - date: 0417-07
+    title_zh: 率舟师自河入渭直趋长安
+    rationale: 舍陆走水，出敌不意，径捣后秦都城，方能一举克长安、禽姚泓。
+events:
+- id: guji-王镇恶-event-birth
+  type: birth
+  date: '0373'
+  year_of: 373
+  date_precision: year
+  summary_zh: 王镇恶出生（约），后为东晋名将。
+- id: guji-王镇恶-event-xiling-tao
+  type: endeavor
+  endeavor_id: guji-王镇恶-endeavor-1
+  date: '0412-10-15'
+  year_of: 412
+  date_precision: month
+  summary_zh: 义熙八年壬午，刘裕发建邺，遣参军王镇恶、龙骧将军蒯恩前袭江陵，克之，刘毅及党与皆伏诛。
+- id: guji-王镇恶-event-fuwei
+  type: endeavor
+  endeavor_id: guji-王镇恶-endeavor-2
+  date: '0417-07-20'
+  year_of: 417
+  date_precision: month
+  summary_zh: 义熙十三年七月，刘裕大军至陕，龙骧将军王镇恶舟师自河浮渭，直趋关中腹地。
+- id: guji-王镇恶-event-changan
+  type: endeavor
+  endeavor_id: guji-王镇恶-endeavor-2
+  date: '0417-08-15'
+  year_of: 417
+  date_precision: month
+  summary_zh: 八月，扶风太守沈田子大破姚泓军于蓝田，王镇恶克长安，禽姚泓，关中平。
+- id: guji-王镇恶-event-death
+  type: death
+  date: 0418
+  year_of: 418
+  date_precision: year
+  summary_zh: 义熙十四年，安西中兵参军沈田子杀安西司马王镇恶，诸将复杀安西长史王修，关中大乱。

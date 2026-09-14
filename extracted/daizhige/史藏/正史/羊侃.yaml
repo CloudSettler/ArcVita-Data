@@ -1,0 +1,87 @@
+person:
+  qid: guji-羊侃
+  name_zh: 羊侃
+  names:
+    zh: 羊侃
+    en: Yang Kan
+  lifespan:
+    birth:
+      date: '496'
+      precision: year
+      is_circa: true
+      raw: 约496年
+    death:
+      date: '549'
+      precision: year
+      is_circa: false
+      raw: 太清三年卒
+  birth_date: '496'
+  death_date: '549'
+  era: 南朝梁
+  reign_ref: 梁武帝
+  archetype: 忠勇武将
+  dilemmas:
+  - 家在北方而忠于南朝
+  - 侯景之乱中力守孤城
+  lesson: 忠诚与勇武可胜于一时权势，但难以独挽倾颓之局
+  summary_first_person: 我是羊侃，泰山人，本出北魏而归梁，武帝倚为爪牙。侯景叛乱围攻台城之时，我任守城之任，力拒凶锋，卒于困守之中，未能亲见城之不守。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/羊侃
+endeavors:
+- id: guji-羊侃-endeavor-1
+  name_zh: 归梁仕进
+  phases:
+  - key: brewing
+    name_zh: 北方出身
+    labels:
+      zh:
+      - 北朝出身
+    start_date: 约'520'
+    highlight_event_id: guji-羊侃-event-join-liang
+  - key: breakthrough
+    name_zh: 受武帝重用
+    labels:
+      zh:
+      - 军中宿将
+    start_date: '530'
+    highlight_event_id: guji-羊侃-event-guard-command
+  - key: closure
+    name_zh: 守卫台城
+    labels:
+      zh:
+      - 侯景之乱
+    start_date: '548'
+    highlight_event_id: guji-羊侃-event-defense
+  decisions:
+  - date: '520'
+    title_zh: 奔魏归梁
+    rationale: 慕江南衣冠文物，率部南投萧梁
+  - date: '548'
+    title_zh: 坚守台城
+    rationale: 侯景叛逆围城，以宿将之职力任城守
+events:
+- id: guji-羊侃-event-birth
+  event_type: birth
+  date: '496'
+  year_of: 496
+  description_zh: 羊侃约于此年出生，泰山人
+- id: guji-羊侃-event-join-liang
+  event_type: endeavor
+  date: '520'
+  year_of: 520
+  description_zh: 自北魏南归，投效梁朝
+- id: guji-羊侃-event-guard-command
+  event_type: endeavor
+  date: '530'
+  year_of: 530
+  description_zh: 为梁武帝所倚重，位至领军，仪仗权势与朱异相埒
+- id: guji-羊侃-event-defense
+  event_type: endeavor
+  date: '548'
+  year_of: 548
+  description_zh: 侯景举兵反，围攻建康，羊侃担纲台城守御
+- id: guji-羊侃-event-death
+  event_type: death
+  date: '549'
+  year_of: 549
+  description_zh: 太清三年，卒于守城期间，未几台城陷落

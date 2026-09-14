@@ -1,0 +1,123 @@
+person:
+  qid: guji-江淹
+  name_zh: 江淹
+  names:
+    zh: 江淹
+    en: Jiang Yan
+  lifespan:
+    birth:
+      date: '444'
+      precision: year
+      is_circa: true
+      raw: 约444年
+    death:
+      date: '505'
+      precision: year
+      is_circa: true
+  birth_date: 约444年
+  death_date: 505年
+  era: 南朝宋、齐、梁
+  reign_ref: 齐高帝建元、武帝永明年间
+  archetype: 文臣·学者型官僚
+  dilemmas:
+  - 才华横溢却需在宋齐易代动荡中谨守去处
+  - 早年困于下僚、遭贬，后期位高而文思衰减之惑
+  lesson: 才学需遇时方展，处乱世而持守，方成一代文宗
+  summary_first_person: 我江淹，历仕宋、齐、梁三朝，以文章著称，曾奉诏为高帝撰次文集，官至金紫光禄大夫封醴陵伯，世人传我「江郎才尽」，然一生以笔立身，见證易代风雲。
+  source_urls:
+  - https://zh.wikisource.org/wiki/南齊書/卷1
+endeavors:
+- id: guji-江淹-endeavor-1
+  name_zh: 仕宋历职与贬黜
+  phases:
+  - key: brewing
+    name_zh: 初入仕途
+    labels:
+      zh: 起家南徐州从事
+    start_date: 309
+  - key: breakthrough
+    name_zh: 以文显名
+    labels:
+      zh: 撰文章名世、尚书驾部郎
+    start_date: '070'
+    highlight_event_id: guji-江淹-event-career-1
+  - key: climax
+    name_zh: 建平王免官
+    labels:
+      zh: 贬建安吴兴令
+    start_date: 314
+    highlight_event_id: guji-江淹-event-career-2
+  - key: closure
+    name_zh: 复起归齐
+    labels:
+      zh: 齐高帝掌书记
+    start_date: 319
+  decisions:
+  - date: 314
+    title_zh: 因忤建平王刘景素遭贬
+    rationale: 直言触怒权贵，被贬为建安吴兴令
+- id: guji-江淹-endeavor-2
+  name_zh: 佐齐创业与文翰之任
+  phases:
+  - key: brewing
+    name_zh: 归附萧道成
+    labels:
+      zh: 为齐王府记室参军事
+    start_date: 0477-01-01
+  - key: breakthrough
+    name_zh: 撰次高帝文集
+    labels:
+      zh: 诏中书侍郎江淹撰次之
+    start_date: 0482
+    highlight_event_id: guji-江淹-event-career-3
+  - key: climax
+    name_zh: 位至极品
+    labels:
+      zh: 官至金紫光禄大夫、封醴陵伯
+    start_date: 090
+  - key: closure
+    name_zh: 才尽之叹
+    labels:
+      zh: 晚岁文思衰退
+    start_date: 095
+  decisions:
+  - date: 322
+    title_zh: 尽还前俸以自明
+    rationale: 梁受禅后托言才尽，敛退保身以终老
+events:
+- id: guji-江淹-event-birth
+  date: -444-01-01
+  type: birth
+  title_zh: 江淹出生
+  description_zh: 江淹约生于刘宋年间，宋州济阳考城人。
+  year_of: -444
+- id: guji-江淹-event-death
+  date: 505-01-01
+  type: death
+  title_zh: 江淹去世
+  description_zh: 江淹于梁天监四年卒，年六十二，赠金紫光禄大夫，谥宪伯。
+  year_of: 505
+- id: guji-江淹-event-career-1
+  date: '0470-01-01'
+  type: career
+  title_zh: 以书谒建平王刘景素并显文名
+  description_zh: 年二十馀，撰成《恨赋》《别赋》，文采倾动一时，入刘景素幕府。
+  year_of: 470
+- id: guji-江淹-event-career-2
+  date: 472-01-01
+  type: career
+  title_zh: 忤建平王被贬建安吴兴令
+  description_zh: 因直言进谏忤刘景素，被贬为建安吴兴令，历三年而返。
+  year_of: 472
+- id: guji-江淹-event-career-3
+  date: 482-01-01
+  type: career
+  title_zh: 诏撰次齐高帝文集
+  description_zh: 《南齐书·高帝纪》载「所著文，诏中书侍郎江淹撰次之」，受命编次高帝萧道成遗文。
+  year_of: 482
+- id: guji-江淹-event-career-4
+  date: '0502-05-01'
+  type: career
+  title_zh: 梁受禅后致仕封伯
+  description_zh: 梁武帝受禅，江淹托言「江郎才尽」，敛还俸禄，以金紫光禄大夫致仕，封醴陵伯。
+  year_of: 502
