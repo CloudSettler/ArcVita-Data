@@ -1,0 +1,157 @@
+person:
+  qid: guji-张孟谈
+  name_zh: 张孟谈
+  names:
+    zh: 张孟谈
+    en: Zhang Mengtan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，约活动于晋阳之战前后
+  era: 春秋末期晋国六卿之世
+  reign_ref: 仕赵襄子无恤
+  archetype: 危局说客·离间存赵之谋臣
+  dilemmas:
+  - 晋阳被围灌、城不浸者三版之际，潜出城说韩魏敌盟，谋泄则祸立至
+  - 以一身任泄谋之险，换韩魏二主之心，成则存赵，败则身死国灭
+  lesson: 唇亡齿寒——使利害相共者结为一，则必亡之局可转
+  summary_first_person: 吾赵氏之臣张孟谈也。智伯帅韩魏围晋阳、决水灌城，城不浸者三版，沈灶产蛙而民无叛意。襄子使吾潜出见韩康子、魏桓子，吾以唇亡齿寒晓之：赵亡则韩魏为之次。二子恐事未遂而谋泄祸立至，吾曰谋出二主之口、入臣之耳，何伤也。二子乃阴与吾约定期日而遣之还。襄子夜决水反灌智军，韩魏翼击，大败智伯，遂杀之而尽灭智氏。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑/卷001
+  - https://zh.wikisource.org/wiki/通鑑紀事本末/卷第一
+endeavors:
+- id: guji-张孟谈-endeavor-1
+  name_zh: 晋阳潜出·说韩魏反智
+  role_zh: 赵襄子密使·说客
+  phases:
+  - key: brewing
+    name_zh: 智伯索地攻赵
+    labels:
+      zh:
+      - 求蔡皋狼之地
+      - 襄子弗与
+    start_date: 约-455
+    highlight_event_id: guji-张孟谈-event-siege
+  - key: breakthrough
+    name_zh: 三家围灌晋阳
+    labels:
+      zh:
+      - 决水灌城
+      - 沈灶产蛙
+      - 民无叛意
+    start_date: 约-454
+    highlight_event_id: guji-张孟谈-event-siege
+  - key: climax
+    name_zh: 潜出说二子
+    labels:
+      zh:
+      - 唇亡齿寒
+      - 谋出二主之口
+      - 入臣之耳
+    start_date: 约-453
+    highlight_event_id: guji-张孟谈-event-persuade
+  - key: closure
+    name_zh: 阴约期日而还
+    labels:
+      zh:
+      - 二子阴与张孟谈约
+      - 为之期日而遣之
+    start_date: 约-453
+    highlight_event_id: guji-张孟谈-event-persuade
+  decisions:
+  - date: 约-453
+    title_zh: 请潜出城说韩魏
+    rationale: 晋阳将破，唯离间智氏之盟、结韩魏为援可救赵氏
+  - date: 约-453
+    title_zh: 以一身任盟秘之责
+    rationale: 谋出二主之口、入臣之耳，何伤也——自任泄谋之险以安二子之心
+- id: guji-张孟谈-endeavor-2
+  name_zh: 约成灭智
+  role_zh: 内应外合之谋臣
+  phases:
+  - key: brewing
+    name_zh: 三主之约既成
+    labels:
+      zh:
+      - 阴约为之期日
+      - 遣之归晋阳
+    start_date: 约-453
+    highlight_event_id: guji-张孟谈-event-flood
+  - key: breakthrough
+    name_zh: 夜决水反灌
+    labels:
+      zh:
+      - 杀守堤之吏
+      - 决水灌智伯军
+    start_date: -453
+    highlight_event_id: guji-张孟谈-event-flood
+  - key: climax
+    name_zh: 三家合击
+    labels:
+      zh:
+      - 韩魏翼而击之
+      - 襄子将卒犯其前
+    start_date: -453
+    highlight_event_id: guji-张孟谈-event-flood
+  - key: closure
+    name_zh: 大败智伯之众
+    labels:
+      zh:
+      - 遂杀智伯
+      - 尽灭智氏之族
+    start_date: -453
+    highlight_event_id: guji-张孟谈-event-flood
+  decisions:
+  - date: -453
+    title_zh: 与韩魏定期日，内外并起
+    rationale: 智伯以水灌晋阳而自谓知水可以亡人国，反约期使襄子夜决堤、韩魏夹击，一战而三家定
+events:
+- id: guji-张孟谈-event-birth
+  type: birth
+  precision: unknown
+  is_circa: true
+  raw: 不详
+  person: guji-张孟谈
+  description_zh: 张孟谈生年史无明文
+- id: guji-张孟谈-event-death
+  type: death
+  precision: unknown
+  is_circa: true
+  raw: 不详
+  person: guji-张孟谈
+  description_zh: 卒年不详，晋阳灭智之后事迹于本篇无考
+- id: guji-张孟谈-event-siege
+  type: endeavor
+  date: 约-454
+  precision: year
+  is_circa: true
+  raw: 周贞定王年间
+  year_of: -454
+  person: guji-张孟谈
+  endeavor_id: guji-张孟谈-endeavor-1
+  description_zh: 智伯怒襄子弗与蔡皋狼之地，帅韩魏之甲攻赵；三家以国人围晋阳而灌之，城不浸者三版，沈灶产蛙，民无叛意
+- id: guji-张孟谈-event-persuade
+  type: endeavor
+  date: 约-453
+  precision: year
+  is_circa: true
+  raw: 晋阳围城中
+  year_of: -453
+  person: guji-张孟谈
+  endeavor_id: guji-张孟谈-endeavor-1
+  description_zh: 张孟谈奉襄子命潜出，见韩康子、魏桓子，陈唇亡齿寒之理：赵亡则韩魏为之次；又以谋出二主之口入臣之耳何伤安其心，二子乃阴与约定期日而遣之
+- id: guji-张孟谈-event-flood
+  type: endeavor
+  date: -453
+  precision: year
+  is_circa: false
+  raw: 周贞定王十六年
+  year_of: -453
+  person: guji-张孟谈
+  endeavor_id: guji-张孟谈-endeavor-2
+  description_zh: 襄子夜使人杀守堤之吏而决水灌智伯军；智军救水而乱，韩魏翼而击之，襄子将卒犯其前，大败智伯之众，遂杀智伯、尽灭智氏之族，惟辅果在，张孟谈之约竟成

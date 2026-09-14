@@ -1,0 +1,171 @@
+person:
+  qid: guji-zhaojianzi
+  name_zh: 赵简子
+  names:
+    zh: 赵简子（赵鞅）
+    en: Zhao Jianzi
+  lifespan:
+    birth:
+      date: 约-550
+      precision: year
+      is_circa: true
+      raw: 生年不详，约当春秋晚期
+    death:
+      date: 约-476
+      precision: year
+      is_circa: true
+      raw: 约公元前476年（一说前475年）
+  birth_date: 约-550
+  death_date: 约-476
+  era: 春秋末期
+  reign_ref: 晋国卿大夫·赵氏宗主
+  archetype: 深谋固本的宗族奠基者
+  dilemmas:
+  - 传位当守立长之常序，还是破例立贤以固宗族
+  - 治晋阳当竭取如茧丝，还是宽民经营为退守之保障
+  lesson: 谋远者图之于微——识人于未显，固本于未危，则子孙危难必有所归。
+  summary_first_person: 我赵鞅执晋政而主赵氏，尝书训戒之辞于二简以试二子，三年后伯鲁失简忘辞，无恤诵习出简于袖中，遂立无恤为后；复命尹铎治晋阳，问以茧丝抑保障，我必曰保障，且嘱无恤晋国有难必以为归，为赵氏留下百年之基。
+endeavors:
+- id: guji-zhaojianzi-endeavor-1
+  name_zh: 主政赵氏、试贤立嗣
+  description_zh: 赵鞅以卿大夫之身主赵氏之政，置后而不知所立，遂以训戒之简历三年考验二子，终传位于贤者无恤，定赵氏传承之基。
+  phases:
+  - key: brewing
+    name_zh: 继为赵氏宗主
+    labels:
+      zh: 承统仕晋
+    start_date: 约-519
+    highlight_event_id: guji-zhaojianzi-event-succeed-clan
+  - key: breakthrough
+    name_zh: 书简试子
+    labels:
+      zh: 以简验识
+    start_date: 约-493
+    highlight_event_id: guji-zhaojianzi-event-slip-test
+  - key: climax
+    name_zh: 立无恤为后
+    labels:
+      zh: 立贤定祧
+    start_date: 约-490
+    highlight_event_id: guji-zhaojianzi-event-heir-confirmed
+  - key: closure
+    name_zh: 卒后襄子继立
+    labels:
+      zh: 遗绪相承
+    start_date: 约-476
+    highlight_event_id: guji-zhaojianzi-event-death
+  decisions:
+  - date: 约-493
+    title_zh: 书训戒之辞于二简以试二子
+    rationale: 将置后而不知所立，故以三年诵识之验，观二子心性之谨与记识之笃。
+  - date: 约-490
+    title_zh: 以无恤为贤立以为后
+    rationale: 伯鲁不能举其辞且失其简，无恤诵辞甚习、出简于袖中而奏之，知其贤可承宗。
+- id: guji-zhaojianzi-endeavor-2
+  name_zh: 经略晋阳根本之地
+  description_zh: 简子使尹铎治晋阳，定保障而非茧丝之策，损户宽民以固其地，更遗训无恤危难必以晋阳为归，其后襄子果据晋阳抗智伯而灭之。
+  phases:
+  - key: brewing
+    name_zh: 命尹铎出治晋阳
+    labels:
+      zh: 择吏守土
+    start_date: 约-490
+    highlight_event_id: guji-zhaojianzi-event-jinyang-appoint
+  - key: breakthrough
+    name_zh: 定保障之策
+    labels:
+      zh: 宽民固本
+    start_date: 约-490
+    highlight_event_id: guji-zhaojianzi-event-jinyang-policy
+  - key: climax
+    name_zh: 遗训必以晋阳为归
+    labels:
+      zh: 预嘱退路
+    start_date: 约-476
+    highlight_event_id: guji-zhaojianzi-event-admonish-wuxu
+  - key: closure
+    name_zh: 襄子走晋阳以拒智伯
+    labels:
+      zh: 遗策应验
+    start_date: 约-455
+    highlight_event_id: guji-zhaojianzi-event-jinyang-refuge
+  decisions:
+  - date: 约-490
+    title_zh: 答尹铎曰保障哉
+    rationale: 茧丝竭民则地虚，保障宽民则地固，晋阳当为赵氏危时之所依。
+  - date: 约-476
+    title_zh: 嘱无恤勿以尹铎为少、勿以晋阳为远
+    rationale: 晋阳经略既成，民必和附，国难之际可恃以为归。
+events:
+- id: guji-zhaojianzi-event-birth
+  type: birth
+  title_zh: 赵简子（赵鞅）出生
+  date: 约-550
+  year_of: -550
+  is_circa: true
+  description_zh: 赵鞅生于晋国赵氏世家，生年史无明文，约当春秋晚期。
+  endeavor_id: guji-zhaojianzi-endeavor-1
+- id: guji-zhaojianzi-event-succeed-clan
+  type: milestone
+  title_zh: 继立为赵氏宗主，出仕晋国
+  date: 约-519
+  year_of: -519
+  is_circa: true
+  description_zh: 赵鞅约于晋顷公之世继为赵氏宗主，位列晋卿，渐预国政。
+  endeavor_id: guji-zhaojianzi-endeavor-1
+- id: guji-zhaojianzi-event-slip-test
+  type: milestone
+  title_zh: 书训戒之辞于二简以试二子
+  date: 约-493
+  year_of: -493
+  is_circa: true
+  description_zh: 简子将置后而不知所立，乃书训戒之辞于二简，以授长子伯鲁与幼子无恤，令曰谨识之，期以三年而后问。
+  endeavor_id: guji-zhaojianzi-endeavor-1
+- id: guji-zhaojianzi-event-heir-confirmed
+  type: milestone
+  title_zh: 以无恤为贤，立以为后
+  date: 约-490
+  year_of: -490
+  is_circa: true
+  description_zh: 三年而问，伯鲁不能举其辞，求其简已失之；无恤诵其辞甚习，求其简出诸袖中而奏之，简子遂立无恤为后，是为后来之赵襄子。
+  endeavor_id: guji-zhaojianzi-endeavor-1
+- id: guji-zhaojianzi-event-jinyang-appoint
+  type: milestone
+  title_zh: 使尹铎为晋阳
+  date: 约-490
+  year_of: -490
+  is_circa: true
+  description_zh: 简子使尹铎治晋阳，尹铎请曰以为茧丝乎抑为保障乎，简子曰保障哉。
+  endeavor_id: guji-zhaojianzi-endeavor-2
+- id: guji-zhaojianzi-event-jinyang-policy
+  type: milestone
+  title_zh: 尹铎损其户数，晋阳成保障
+  date: 约-490
+  year_of: -490
+  is_circa: true
+  description_zh: 尹铎奉行保障之命，损其户数以宽民力，晋阳民和政固，渐为赵氏根本。
+  endeavor_id: guji-zhaojianzi-endeavor-2
+- id: guji-zhaojianzi-event-admonish-wuxu
+  type: milestone
+  title_zh: 遗训无恤，晋国有难必以晋阳为归
+  date: 约-476
+  year_of: -476
+  is_circa: true
+  description_zh: 简子谓无恤曰，晋国有难，而无以尹铎为少，无以晋阳为远，必以为归，预为赵氏指明退守之途。
+  endeavor_id: guji-zhaojianzi-endeavor-2
+- id: guji-zhaojianzi-event-death
+  type: death
+  title_zh: 赵简子去世，无恤继立
+  date: 约-476
+  year_of: -476
+  is_circa: true
+  description_zh: 简子卒，子无恤继立为赵氏之主，是为赵襄子，赵氏由此渐盛，终与韩魏三家分晋。
+  endeavor_id: guji-zhaojianzi-endeavor-1
+- id: guji-zhaojianzi-event-jinyang-refuge
+  type: legacy
+  title_zh: 襄子走晋阳以拒智伯，遗策应验
+  date: 约-455
+  year_of: -455
+  is_circa: true
+  description_zh: 智伯帅韩魏之甲攻赵，襄子念晋阳为先主所属、尹铎所宽，民必和矣，乃走晋阳，凭先人之备卒灭智氏。
+  endeavor_id: guji-zhaojianzi-endeavor-2
