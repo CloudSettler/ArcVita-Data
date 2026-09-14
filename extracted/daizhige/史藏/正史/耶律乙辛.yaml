@@ -1,0 +1,132 @@
+person:
+  qid: guji-耶律乙辛
+  name_zh: 耶律乙辛
+  names:
+    zh: 耶律乙辛
+  era: 辽（道宗朝）
+  archetype: 权臣
+  dilemmas:
+  - 在重元之乱中率宿卫平叛，以身家性命站队皇权
+  - 由忠于朝廷的功臣逐步专权，走上党同伐异之路
+  lesson: 平乱之功可致显位，权柄无制则生祸乱
+  summary_first_person: 我耶律乙幸起于枢密副使，清宁五年除南院枢密使，七年知北院枢密使事。九年重元父子犯行宫，我与许王仁先等率宿卫士卒御之，涅鲁古被射杀，重元亡入大漠自杀，我遂以定乱之功复为南院枢密使，权势日盛。
+  source_urls:
+  - https://zh.wikisource.org/wiki/遼史/卷21
+  - https://zh.wikisource.org/wiki/遼史/卷22
+endeavors:
+- id: guji-耶律乙辛-endeavor-1
+  name_zh: 入仕枢密院
+  labels:
+    zh: 仕进掌兵
+  phases:
+  - key: brewing
+    name_zh: 起居枢密副使
+    labels:
+      zh: 枢密副使时期
+    highlight_event_id: guji-耶律乙辛-event-1
+    start_date: 1059-01-01
+  - key: breakthrough
+    name_zh: 迁南院枢密使
+    labels:
+      zh: 执掌南院
+    highlight_event_id: guji-耶律乙辛-event-1
+    start_date: 1059-06-01
+  decisions:
+  - date: 1059-06-01
+    title_zh: 出任南院枢密使
+    rationale: 由枢密副使超擢，执掌南面军政机务
+  - date: 1061-03-01
+    title_zh: 知北院枢密使事
+    rationale: 兼预北院枢密，权柄益专
+- id: guji-耶律乙辛-endeavor-2
+  name_zh: 平定重元之乱
+  labels:
+    zh: 定乱勤王
+  phases:
+  - key: brewing
+    name_zh: 重元父子谋逆
+    labels:
+      zh: 叛起行宫
+    highlight_event_id: guji-耶律乙辛-event-3
+    start_date: 1063-07-01
+  - key: breakthrough
+    name_zh: 率宿卫御叛
+    labels:
+      zh: 勤王定乱
+    highlight_event_id: guji-耶律乙辛-event-3
+    start_date: 1063-07-20
+  - key: climax
+    name_zh: 叛党溃灭
+    labels:
+      zh: 逆党伏诛
+    highlight_event_id: guji-耶律乙辛-event-4
+    start_date: 1063-07-23
+  - key: closure
+    name_zh: 以功复掌南院
+    labels:
+      zh: 封赏加官
+    highlight_event_id: guji-耶律乙辛-event-5
+    start_date: 1063-07-24
+  decisions:
+  - date: 1063-07-20
+    title_zh: 率宿卫士卒数千人御重元叛军
+    rationale: 与许王仁先等同勤王，拒逆犯行宫
+  - date: 1063-07-24
+    title_zh: 受定乱功，复为南院枢密使
+    rationale: 平叛功成，复南院枢密使之职，号令愈重
+events:
+- id: guji-耶律乙辛-event-1
+  person_qid: guji-耶律乙辛
+  type: 任命
+  title_zh: 以枢密副使耶律乙辛为南院枢密使
+  date: '1059-06-01'
+  year_of: 1059
+  era_alias_yer: 清宁五年
+  start_date: '1059-06-01'
+  end_date: '1059-06-01'
+  related_endeavor_ids:
+  - guji-耶律乙辛-endeavor-1
+- id: guji-耶律乙辛-event-2
+  person_qid: guji-耶律乙辛
+  type: 任命
+  title_zh: 以耶律乙辛知北院枢密使事
+  date: '1061-03-01'
+  year_of: 1061
+  era_alias_yer: 清宁七年
+  start_date: '1061-03-01'
+  end_date: '1061-03-01'
+  related_endeavor_ids:
+  - guji-耶律乙辛-endeavor-1
+- id: guji-耶律乙辛-event-3
+  person_qid: guji-耶律乙辛
+  type: 军事行动
+  title_zh: 重元父子犯行宫，耶律乙辛与仁先等率宿卫士卒御之，违法被杀
+  date: 1063-07-20
+  year_of: 1063
+  era_alias_yer: 清宁九年七月
+  start_date: 1063-07-20
+  end_date: 1063-07-20
+  related_endeavor_ids:
+  - guji-耶律乙辛-endeavor-2
+- id: guji-耶律乙辛-event-4
+  person_qid: guji-耶律乙辛
+  type: 军事结果
+  title_zh: 重元亡入大漠自杀，叛党族诛
+  date: 1063-07-23
+  year_of: 1063
+  era_alias_yer: 清宁九年七月己未、庚申
+  start_date: 1063-07-23
+  end_date: 1063-07-23
+  related_endeavor_ids:
+  - guji-耶律乙辛-endeavor-2
+- id: guji-耶律乙辛-event-5
+  person_qid: guji-耶律乙辛
+  type: 封赏
+  title_zh: 以定乱功复为南院枢密使
+  date: 1063-07-24
+  year_of: 1063
+  era_alias_yer: 清宁九年七月壬戌
+  start_date: 1063-07-24
+  end_date: 1063-07-24
+  related_endeavor_ids:
+  - guji-耶律乙辛-endeavor-2
