@@ -1,0 +1,164 @@
+person:
+  qid: guji-zhouyi
+  name_zh: 周怡
+  names:
+    zh: 周怡
+    en: Zhou Yi
+  lifespan:
+    birth:
+      date: '1506'
+      precision: 数字
+      is_circa: true
+      raw: 生年不详，约在正德年间
+    death:
+      date: '1569'
+      precision: 数字
+      is_circa: true
+      raw: 卒年不详，隆庆初复起后以卒
+  birth_date: '1506'
+  death_date: '1569'
+  era: 明
+  reign_ref:
+  - 嘉靖
+  - 隆庆
+  archetype: 忠直谏臣
+  dilemmas:
+  - 直言极谏触怒权贵与个人安危的冲突
+  - 出狱复起后再次上疏获罪仍不改其志
+  lesson: 百折不改其志，劲直忠亮，虽困踣颠连而直道自持
+  summary_first_person: 我周怡字顺之，号都峰，改号讷溪，太平人。嘉靖戊戌进士，初居吏垣，因直言忤严嵩被廷杖下锦衣狱三年，出狱不久复被逮又二年始释。隆庆初召为太常寺少卿，又因疏忤中官外调。平生触犯权幸至再至三，其志百折不改。
+  source_urls:
+  - https://www.example.com/siku/neixi-zoushu
+endeavors:
+- id: guji-zhouyi-endeavor-1
+  name_zh: 吏科给事中言事生涯
+  phases:
+  - key: brewing
+    name_zh: 登第入谏垣
+    labels:
+      zh:
+      - 吏科给事中
+    start_date: '1538'
+  - key: breakthrough
+    name_zh: 弹劾督抚大臣
+    labels:
+      zh:
+      - 论劾
+      - 振风纪
+    start_date: 1542-12
+    highlight_event_id: guji-zhouyi-event-memorial-1
+  - key: climax
+    name_zh: 忤严嵩廷杖下狱
+    labels:
+      zh:
+      - 廷杖
+      - 锦衣狱
+    start_date: '1543'
+    highlight_event_id: guji-zhouyi-event-imprisonment
+  - key: closure
+    name_zh: 出狱复逮又获释
+    labels:
+      zh:
+      - 复逮
+      - 释狱
+    start_date: '1546'
+  decisions:
+  - date: 1542-12
+    title: 纠劾两广督抚大臣徇情滥举
+    rationale: 抚按举劾徇情市恩，苟且欺罔，风纪不可不振
+  - date: '1543'
+    title: 上疏论严嵩奸回请圣明辨絶
+    rationale: 辅臣奸憸专恣，防微杜渐以正朝纲
+- id: guji-zhouyi-endeavor-2
+  name_zh: 太常寺少卿与晚节
+  phases:
+  - key: brewing
+    name_zh: 召为太常寺少卿
+    labels:
+      zh:
+      - 太常寺少卿
+    start_date: '1567'
+    highlight_event_id: guji-zhouyi-event-taichang
+  - key: breakthrough
+    name_zh: 上疏忤中官外调
+    labels:
+      zh:
+      - 忤中官
+      - 外调
+    start_date: 1567-06
+  - key: closure
+    name_zh: 迁司业复任太常卒官
+    labels:
+      zh:
+      - 司业
+      - 卒
+    start_date: '1568'
+  decisions:
+  - date: 1567-06
+    title: 上疏忤中官愿受外调
+    rationale: 直言表里如一，不以中官之贵而屈其论
+events:
+- id: guji-zhouyi-event-birth
+  event_type: 出生
+  date: '1506'
+  date_precision: 约
+  year_of: 1506
+  persons:
+  - guji-zhouyi
+  description: 周怡生，字顺之，号都峰，改号讷溪，太平人，生年约在正德年间
+- id: guji-zhouyi-event-jinshi
+  event_type: 进士及第
+  date: '1538'
+  date_precision: 年
+  year_of: 1538
+  persons:
+  - guji-zhouyi
+  description: 嘉靖戊戌科的进士，进入仕途
+- id: guji-zhouyi-event-memorial-1
+  event_type: 上疏
+  date: 1542-12
+  date_precision: 月
+  year_of: 1542
+  persons:
+  - guji-zhouyi
+  description: 吏科给事中，以督抚大臣罔上不忠等，请谕责以振风纪
+- id: guji-zhouyi-event-memorial-2
+  event_type: 上疏
+  date: 1542-12
+  date_precision: 月
+  year_of: 1542
+  persons:
+  - guji-zhouyi
+  description: 日食之变，请诏求直言通行中外修省
+- id: guji-zhouyi-event-imprisonment
+  event_type: 下狱
+  date: '1543'
+  date_precision: 年
+  year_of: 1543
+  persons:
+  - guji-zhouyi
+  description: 以言论忤严嵩，廷杖，下锦衣狱三年
+- id: guji-zhouyi-event-release первом
+  event_type: 出狱
+  date: '1546'
+  date_precision: 年
+  year_of: 1546
+  persons:
+  - guji-zhouyi
+  description: 世宗感箕仙之言，与杨爵刘魁同出狱；寻以熊浃劾箕仙诬妄，复逮入狱又二年始释
+- id: guji-zhouyi-event-taichang
+  event_type: 出仕任职
+  date: '1567'
+  date_precision: 年
+  year_of: 1567
+  persons:
+  - guji-zhouyi
+  description: 隆庆初召为太常寺少卿；又上疏忤中官，外调山东按察司佥事，稍迁司业，仍为太常寺少卿
+- id: guji-zhouyi-event-death
+  event_type: 去世
+  date: '1569'
+  date_precision: 约
+  year_of: 1569
+  persons:
+  - guji-zhouyi
+  description: 复任太常寺少卿，以卒，卒年不详
