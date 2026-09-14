@@ -1,0 +1,131 @@
+person:
+  qid: guji-周德威
+  name_zh: 周德威
+  names:
+    zh: 周德威
+    en: Zhou Dewei
+  lifespan:
+    birth:
+      date: 约-850
+      precision: decade
+      is_circa: true
+      raw: 不详
+    death:
+      date: 917-12
+      precision: month
+      is_circa: false
+      raw: 十五年十二月战于胡柳，死之
+  birth_date: 约-850
+  death_date: 917-12
+  era: 唐末五代
+  reign_ref: 唐僖宗至后梁末年；历事晋王李克用、李存勖
+  archetype: 名将 / 军前宿将
+  dilemmas:
+  - 新君新立、梁军懈怠之际，是守丧持重还是乘隙出击
+  - 深入攻燕与南面梁军压力之间的战略权衡
+  lesson: 宿将持重，亦有殒身之势；乘敌之懈者胜，临锋浪战者殆。
+  summary_first_person: 我周德威，晋之宿将也。一生从李克用父子转战，青山口尝败绩，洞涡却挫梁锋。梁围潞州，我军乱柳，会大丧而还军太原，因劝新王乘懈出兵，遂破夹城。后随庄宗转战河朔，屡当敌冲，终于胡柳之役，殁于王事。
+  source_urls:
+  - https://zh.wikisource.org/wiki/新五代史/唐本纪第五
+endeavors:
+- id: guji-周德威-endeavor-1
+  name_zh: 佐李克用抗击后梁
+  phases:
+  - key: brewing
+    name_zh: 出青山口
+    labels:
+      zh: 初战梁军
+    start_date: '898'
+    highlight_event_id: guji-周德威-event-qingshankou
+  - key: breakthrough
+    name_zh: 洞涡之捷
+    labels:
+      zh: 败氏叔琮
+    start_date: '902'
+    highlight_event_id: guji-周德威-event-dongwo
+  decisions:
+  - date: '902'
+    title_zh: 出御入寇梁军
+    rationale: 梁军破承天、辽州，兵至榆次，晋境危殆，遂迎击于洞涡。
+- id: guji-周德威-endeavor-2
+  name_zh: 佐李存勖灭梁之役
+  phases:
+  - key: climax
+    name_zh: 救潞州与破夹城之谋
+    labels:
+      zh: 乱柳屯军
+    start_date: '910'
+    highlight_event_id: guji-周德威-event-luanliu
+  - key: closure
+    name_zh: 胡柳殒身
+    labels:
+      zh: 血战殉国
+    start_date: 917-12
+    highlight_event_id: guji-周德威-event-huliu
+  decisions:
+  - date: '908'
+    title_zh: 闻丧还军太原
+    rationale: 先王之丧、叔父之难告至，遂自乱柳还军太原，梁夹城兵因懈。
+events:
+- id: guji-周德威-event-birth
+  event_type: birth
+  date: 约-850
+  year_of: -850
+  summary: 周德威生年史无明文，约唐末之际生人。
+  related_persons:
+  - guji-周德威
+- id: guji-周德威-event-qingshankou
+  event_type: defeat_battle
+  date: '898'
+  year_of: 898
+  summary: 光化元年，克用遣周德威出青山口，遇葛从周于张公桥，德威大败。
+  related_persons:
+  - guji-周德威
+  related_places:
+  - 青山口
+  - 张公桥
+- id: guji-周德威-event-dongwo
+  event_type: victory_battle
+  date: '902'
+  year_of: 902
+  summary: 天复二年，梁遣氏叔琮攻破承天军，又破辽州，至于榆次，周德威败之于洞涡。
+  related_persons:
+  - guji-周德威
+  related_places:
+  - 洞涡
+- id: guji-周德威-event-luanliu
+  event_type: military_campaign
+  date: '910'
+  year_of: 910
+  summary: 梁兵十万攻潞州，围以夹城，遣周德威救潞州，军于乱柳；及克用疾，德威以丧事自乱柳还军太原。
+  related_persons:
+  - guji-周德威
+  related_places:
+  - 乱柳
+  - 太原
+- id: guji-周德威-event-jiaocheng
+  event_type: victory_battle
+  date: '908'
+  year_of: 908
+  summary: 李存勖乘梁军懈怠出兵趋上党，天大雾，攻破夹城，梁军大败；德威还军太原与闻其谋。
+  related_persons:
+  - guji-周德威
+  - guji-李存勖
+  related_places:
+  - 上党
+- id: guji-周德威-event-huliu
+  event_type: death_in_battle
+  date: 917-12
+  year_of: 917
+  summary: 十五年十二月，晋军进至临濮，与梁军战于胡柳，晋军大败，周德威死之。
+  related_persons:
+  - guji-周德威
+  related_places:
+  - 胡柳
+- id: guji-周德威-event-death
+  event_type: death
+  date: 917-12
+  year_of: 917
+  summary: 周德威殁于胡柳之役。
+  related_persons:
+  - guji-周德威

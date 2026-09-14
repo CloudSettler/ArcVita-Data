@@ -1,0 +1,175 @@
+person:
+  qid: guji-钱镠
+  name_zh: 钱镠
+  names:
+    zh: 钱镠
+  archetype: 割据军阀
+  dilemmas:
+  - 忠于中原王朝与保境安民之间的权衡
+  lesson: 乱世中保境安民、审慎事大，可以成就一方安定
+  summary_first_person: 我是钱镠，唐末起于临安，为吴越国的开创者，终其一生奉中原正朔，保境安民，使两浙免于兵祸。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/钱镠
+  lifespan:
+    birth:
+      date: 0852
+      precision: year
+      is_circa: true
+      raw: 唐大中六年
+    death:
+      date: 0932
+      precision: year
+      is_circa: false
+      raw: 后唐长兴三年
+  birth_date: 0852
+  death_date: 0932
+  era: 唐末五代
+  reign_ref: 吴越太祖
+endeavors:
+- id: guji-钱镠-endeavor-1
+  name_zh: 起兵临安，平定两浙
+  phases:
+  - key: brewing
+    name_zh: 石镜镇将起家
+    labels:
+      zh:
+      - 董昌部将
+      - 平黄巢余党
+    start_date: 0875
+    highlight_event_id: guji-钱镠-event-jueqi
+  - key: breakthrough
+    name_zh: 破刘汉宏、执董昌
+    labels:
+      zh:
+      - 取杭州
+      - 平董昌
+    start_date: 0880
+    highlight_event_id: guji-钱镠-event-dongchang
+  - key: climax
+    name_zh: 立国吴越
+    labels:
+      zh:
+      - 后梁封吴越王
+    start_date: 0907
+    highlight_event_id: guji-钱镠-event-fengwang
+  - key: closure
+    name_zh: 保境安民而终
+    labels:
+      zh:
+      - 善终
+      - 传位于子
+    start_date: 0932
+    highlight_event_id: guji-钱镠-event-death
+  decisions:
+  - date: 0882
+    title_zh: 拒董昌裂土之诱
+    rationale: 乱世之中，与其分地苟合，不如奉朝廷以取威名
+  - date: 0896
+    title_zh: 讨伐叛唐称帝的董昌
+    rationale: 奉朝廷之命诛除僭乱，既忠义又可并两浙之力
+- id: guji-钱镠-endeavor-2
+  name_zh: 事大保境，建设吴越
+  phases:
+  - key: brewing
+    name_zh: 依附唐朝与后梁
+    labels:
+      zh:
+      - 纳贡称藩
+    start_date: 0897
+    highlight_event_id: guji-钱镠-event-shina
+  - key: breakthrough
+    name_zh: 受梁封吴越王
+    labels:
+      zh:
+      - 封王建制
+    start_date: 0907
+    highlight_event_id: guji-钱镠-event-fengwang
+  - key: climax
+    name_zh: 筑海塘、兴水利
+    labels:
+      zh:
+      - 捍海石塘
+      - 保境息民
+    start_date: 0910
+    highlight_event_id: guji-钱镠-event-haitang
+  - key: closure
+    name_zh: 遗嘱奉事中原
+    labels:
+      zh:
+      - 临终嘱子孙善事中国
+    start_date: 0932
+    highlight_event_id: guji-钱镠-event-death
+  decisions:
+  - date: 0907
+    title_zh: 接受后梁册封
+    rationale: 事大以自保，借中原王朝之名保障吴越一隅安宁
+  - date: 0932
+    title_zh: 遗命子孙善事中原
+    rationale: 以小事大，方可保境安民，传祚久远
+events:
+- id: guji-钱镠-event-birth
+  event_type: birth
+  date: 0852
+  year_of: 0852
+  note: 钱镠生于杭州临安
+- id: guji-钱镠-event-jueqi
+  event_type: endeavor
+  endeavors:
+  - guji-钱镠-endeavor-1
+  date: 0875
+  year_of: 0875
+  name_zh: 投石镜镇将董昌为偏将
+  labels:
+    zh:
+    - 起家行伍
+- id: guji-钱镠-event-dongchang
+  event_type: endeavor
+  endeavors:
+  - guji-钱镠-endeavor-1
+  date: 0896-08
+  year_of: 0896
+  name_zh: 攻破越州，擒斩称帝的董昌
+  labels:
+    zh:
+    - 平定董昌
+    - 得封镇海镇东节度使
+- id: guji-钱镠-event-shina
+  event_type: endeavor
+  endeavors:
+  - guji-钱镠-endeavor-2
+  date: 0897
+  year_of: 0897
+  name_zh: 受唐封为镇海镇东军节度使，兼领两浙
+  labels:
+    zh:
+    - 奉唐事大
+- id: guji-钱镠-event-fengwang
+  event_type: endeavor
+  endeavors:
+  - guji-钱镠-endeavor-1
+  - guji-钱镠-endeavor-2
+  date: 0907-05
+  year_of: 0907
+  name_zh: 后梁封钱镠为吴越王
+  labels:
+    zh:
+    - 开国
+- id: guji-钱镠-event-haitang
+  event_type: endeavor
+  endeavors:
+  - guji-钱镠-endeavor-2
+  date: 0910
+  year_of: 0910
+  name_zh: 修筑捍海石塘，治理杭州水利
+  labels:
+    zh:
+    - 兴修水利
+    - 泽被地方
+- id: guji-钱镠-event-death
+  event_type: death
+  endeavors:
+  - guji-钱镠-endeavor-1
+  - guji-钱镠-endeavor-2
+  date: 0932
+  year_of: 0932
+  note: 钱镠薨，年八十一，遗命善事中原，传位于子元瓘
