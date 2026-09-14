@@ -1,0 +1,91 @@
+person:
+  qid: guji-陈东
+  name_zh: 陈东
+  names:
+    zh: 陈东
+    en: Chen Dong
+  lifespan:
+    birth:
+      date: '1086'
+      precision: year
+      is_circa: true
+      raw: 约宋元祐间
+    death:
+      date: '1127'
+      precision: year
+      is_circa: false
+      raw: ''
+  birth_date: '1086'
+  death_date: '1127'
+  era: 北宋末（靖康年间）
+  reign_ref: 宋钦宗靖康
+  archetype: 太学生上书伏阙的忠直言事者
+  dilemmas:
+  - 布衣直言宰相之过，罪当万死，仍冒死进言
+  - 任贤与去邪、社稷存亡与个人安危之间的抉择
+  lesson: 奋不顾身、死生以之者，社稷之臣也
+  summary_first_person: 我是太学生陈东，靖康元年金人围城之际，我与同学伏阙上书，言任贤勿贰、去谗勿疑，请复用李纲而斥李邦彦、白时中等社稷之贼，以安中外之心、保祖宗疆土。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=靖康要録
+endeavors:
+- id: guji-陈东-endeavor-1
+  name_zh: 伏阙上书救李纲
+  phases:
+  - key: breakthrough
+    name_zh: 伏阙上书
+    labels:
+      zh: 靖康危机、太学清议
+    start_date: '1126-02-05'
+    highlight_event_id: guji-陈东-event-shangshu-1
+  - key: climax
+    name_zh: 力陈七失与社稷之论
+    labels:
+      zh: 直言极谏、公论震朝
+    start_date: '1126-02-05'
+    highlight_event_id: guji-陈东-event-shangshu-1
+  decisions:
+  - date: '1126-02-05'
+    title_zh: 领太学生等伏阙上书
+    rationale: 李纲因用兵小挫被罢，邦彦等譛谤忌嫉，臣等以为社稷存亡在陛下用纲与否，故冒死直言请复纲旧职、斥邦彦等。
+- id: guji-陈东-endeavor-2
+  name_zh: 太学清议与公论之名
+  phases:
+  - key: brewing
+    name_zh: 学中备见朝事
+    labels:
+      zh: 太学生、布衣论政
+    start_date: 1126-01
+    highlight_event_id: guji-陈东-event-shangshu-1
+  - key: closure
+    name_zh: 上书待罪
+    labels:
+      zh: 俯伏待罪
+    start_date: '1126-02-05'
+    highlight_event_id: guji-陈东-event-shangshu-1
+  decisions:
+  - date: '1126-02-05'
+    title_zh: 自陈罪当万死而犹上章
+    rationale: 臣等布衣之贱论及宰相罪当万死，但生灵之命与社稷存亡系于陛下一用一舍，不敢默然。
+events:
+- id: guji-陈东-event-birth
+  date: '1086'
+  year_of: 1086
+  type: birth
+  description: 陈东约生于此年（据史传推断，原文未载）。
+- id: guji-陈东-event-death
+  date: '1127'
+  year_of: 1127
+  type: death
+  description: 陈东卒（原文未载，据史传推断）。
+- id: guji-陈东-event-shangshu-1
+  date: '1126-02-05'
+  year_of: 1126
+  type: endeavor
+  endeavor_id: guji-陈东-endeavor-1
+  description: 靖康元年二月五日，太学生陈东等伏阙上书，谓李纲为社稷之臣而李邦彦、白时中、张邦昌之徒为社稷之贼，请陛下任贤勿贰、去谗勿疑，复李纲旧职，罢邦彦等，以安中外之心。
+- id: guji-陈东-event-qingyi-1
+  date: 1126-02
+  year_of: 1126
+  type: endeavor
+  endeavor_id: guji-陈东-endeavor-2
+  description: 陈东以太学诸生身份备见朝廷用人之私，谓宰相前期召见祭酒、司业以收台谏私恩，众心不平，遂与同学同上公论之章。
