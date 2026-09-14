@@ -1,0 +1,90 @@
+person:
+  qid: guji-郑玄
+  name_zh: 郑玄
+  names:
+    zh: 郑玄
+    en: Zheng Xuan
+  lifespan:
+    birth:
+      date: '127'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '127'
+  era: 东汉
+  reign_ref: 汉明帝永平年间（提及于《后汉书·显宗孝明帝纪》注引）
+  archetype: 经学注疏家
+  dilemmas:
+  - 注仪礼以训诂字义，求古礼本真而不改经文
+  lesson: 治学之道，在以训诂明经义，使古礼可通于世
+  summary_first_person: 我郑玄，东汉经学之士，遍注群经。此文所及，是我注《仪礼》时释"酳"字——谓其如盥洗洁口，故音胤。吾之为注，务求以古义明经，使礼制可循。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷2
+endeavors:
+- id: guji-郑玄-endeavor-1
+  name_zh: 遍注群经
+  phases:
+  - key: brewing
+    name_zh: 博通经籍
+    labels:
+      zh:
+      - 游学
+      - 通经
+    start_date: '100'
+  - key: breakthrough
+    name_zh: 注经成学
+    labels:
+      zh:
+      - 训诂
+      - 融汇古今
+    start_date: '150'
+    highlight_event_id: guji-郑玄-event-1
+  decisions:
+  - date: '150'
+    title_zh: 以训诂注经，不改经文
+    rationale: 求经义本真，存古礼之旧
+- id: guji-郑玄-endeavor-2
+  name_zh: 撰礼经之注
+  phases:
+  - key: brewing
+    name_zh: 究礼之学
+    labels:
+      zh:
+      - 癖经礼
+    start_date: '120'
+  - key: climax
+    name_zh: 注仪礼
+    labels:
+      zh:
+      - 释酳字
+    start_date: '160'
+    highlight_event_id: guji-郑玄-event-1
+  decisions:
+  - date: '160'
+    title_zh: 注仪礼释"酳"
+    rationale: 字义不明则礼事不明，故以音训释之
+events:
+- id: guji-郑玄-event-birth
+  date: '127'
+  year_of: 127
+  type: birth
+  place_zh: 北海高密
+  label_zh: 生
+- id: guji-郑玄-event-death
+  date: '200'
+  year_of: 200
+  type: death
+  place_zh: 元城
+  label_zh: 卒
+- id: guji-郑玄-event-1
+  date: '160'
+  year_of: 160
+  type: career
+  place_zh: 东汉
+  label_zh: 注《仪礼》，释"酳"者，盥也，所以洁口，音胤
+- id: guji-郑玄-event-2
+  date: '170'
+  year_of: 170
+  type: career
+  place_zh: 东汉
+  label_zh: 遍注群经，成一家之学

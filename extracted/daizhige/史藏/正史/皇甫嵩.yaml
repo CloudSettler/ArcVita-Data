@@ -1,0 +1,138 @@
+person:
+  qid: guji-皇甫嵩
+  name_zh: 皇甫嵩
+  names:
+    zh: 皇甫嵩
+    en: Huangfu Song
+  lifespan:
+    birth:
+      date: 约146
+      precision: year
+      is_circa: true
+      raw: 灵帝前后生，卒于兴平二年，时年约七十（推算）
+    death:
+      date: 195
+      precision: year
+      is_circa: false
+      raw: 兴平二年卒
+  birth_date: 约146
+  death_date: 约195
+  era: 东汉末年
+  reign_ref: 汉灵帝·汉献帝
+  archetype: 持重名将
+  dilemmas:
+  - 弃权谋 MenuPage
+  lesson: 功高不居，持重守正，然不能匡乱救时
+  summary_first_person: 我皇甫嵩以忠义智勇平定黄巾之乱，威震天下，然处汉末衰世，持重有余而匡时不足，终为国家之柱而未能扶倾。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷71
+endeavors:
+- id: guji-皇甫嵩-endeavor-1
+  name_zh: 平定黄巾之乱
+  goals:
+  - 消灭黄巾主力
+  - 再造汉室威仪
+  start_date: 184
+  phases:
+  - key: brewing
+    name_zh: 长社初胜
+    labels:
+      zh: 长社大捷
+    start_date: 184
+    highlight_event_id: guji-皇甫嵩-event-changshe
+  - key: breakthrough
+    name_zh: 广宗决战
+    labels:
+      zh: 广宗破张梁
+    start_date: 184
+    highlight_event_id: guji-皇甫嵩-event-guangzong
+  - key: closure
+    name_zh: 下曲阳之役
+    labels:
+      zh: 阵斩张宝
+    start_date: 184
+    highlight_event_id: guji-皇甫嵩-event-xiaquyang
+  decisions:
+  - date: 184
+    title_zh: 长社遣使求援并火攻黄巾
+    rationale: 以少胜多，须借火势与援军协同
+  - date: 184
+    title_zh: 拒阎忠劝进而尽忠汉室
+    rationale: 自度功高震主而守臣节
+- id: guji-皇甫嵩-endeavor-2
+  name_zh: 仕历三公与抑抑于董卓
+  goals:
+  - 位登太尉
+  - 忍辱以全社稷
+  start_date: 189
+  phases:
+  - key: brewing
+    name_zh: 灵帝末拜太尉
+    labels:
+      zh: 登三公之位
+    start_date: 189
+    highlight_event_id: guji-皇甫嵩-event-taiwei
+  - key: breakthrough
+    name_zh: 忤董卓遭贬
+    labels:
+      zh: 遭董卓排陷
+    start_date: 189
+    highlight_event_id: guji-皇甫嵩-event-dongzhuo
+  - key: closure
+    name_zh: 复起为太尉与谢世
+    labels:
+      zh: 晚节复起
+    start_date: 194
+    highlight_event_id: guji-皇甫嵩-event-latecareer
+  decisions:
+  - date: 189
+    title_zh: 上书申孔融之议以斥董卓
+    rationale: 持守臣节，不肯阿附
+  - date: 192
+    title_zh: 诛董卓后复起任太尉
+    rationale: 乱平而朝廷复召之
+events:
+- id: guji-皇甫嵩-event-birth
+  type: person_birth
+  date: 约146
+  description_zh: 皇甫嵩生于安定朝那，为度辽将军皇甫规之侄
+- id: guji-皇甫嵩-event-changshe
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-1
+  date: 184
+  title_zh: 长社大破黄巾波才部
+  description_zh: 遇风急，嵩敕军束苴乘城，纵火大呼，与曹操、朱儁合击，大破贼众
+- id: guji-皇甫嵩-event-guangzong
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-1
+  date: 184-10
+  title_zh: 广宗阵斩张梁
+  description_zh: 皇甫嵩大战广宗，破黄巾精锐数万，斩首三万，张梁败死
+- id: guji-皇甫嵩-event-xiaquyang
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-1
+  date: 184-11
+  title_zh: 下曲阳击溃张宝
+  description_zh: 与巨鹿太守郭典合兵，大破黄巾，斩张宝于下曲阳，收降十余万
+- id: guji-皇甫嵩-event-taiwei
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-2
+  date: 189
+  title_zh: 拜太尉
+  description_zh: 功高望重，灵帝死后初仕献帝朝为太尉录尚书事
+- id: guji-皇甫嵩-event-dongzhuo
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-2
+  date: 189
+  title_zh: 忤董卓遭诬陷
+  description_zh: 义 referred 兵而不附，董卓柄国后诬以罪，几被诛，赖子寿请救得免
+- id: guji-皇甫嵩-event-latecareer
+  type: endeavor_event
+  endeavor_id: guji-皇甫嵩-endeavor-2
+  date: 194
+  title_zh: 复起为太尉录尚书事
+  description_zh: 兴平初国家再召，登三公之位，翌年卒，谥曰坚侯
+- id: guji-皇甫嵩-event-death
+  type: person_death
+  date: 195
+  description_zh: 皇甫嵩卒，时年约七十，谥曰坚侯

@@ -1,0 +1,88 @@
+person:
+  qid: guji-王充
+  name_zh: 王充
+  names:
+    zh: 王充
+    en: Wang Chong
+  lifespan:
+    birth:
+      date: '27'
+      precision: year
+      is_circa: true
+      raw: 建武三年（约公元27年）
+    death:
+      date: 约97
+      precision: year
+      is_circa: true
+  birth_date: 约27年
+  death_date: 约97年
+  era: 东汉
+  reign_ref: 汉光武帝至汉和帝时期
+  archetype: 批判性思想家
+  dilemmas:
+  - 家贫无书，游洛阳书肆阅读而不辍
+  - 疾虚妄，不慕权贵，终身仕途不显
+  lesson: 疾虚妄、求实录，独立思考，不随流俗
+  summary_first_person: 出身寒门的我以市肆读书自学成才，著《论衡》八十五篇，批判天人感应与世俗迷信，主张实事疾虚，虽沉沦下僚而思想传世。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷49
+endeavors:
+- id: guji-王充-endeavor-1
+  name_zh: 著《论衡》
+  phases:
+  - key: brewing
+    name_zh: 早年求学
+    labels:
+      zh: 游学洛阳
+    start_date: '42'
+    highlight_event_id: guji-王充-event-study
+  - key: breakthrough
+    name_zh: 闭门著述
+    labels:
+      zh: 著论衡
+    start_date: 约60
+    highlight_event_id: guji-王充-event-lunheng
+  - key: climax
+    name_zh: 章帝闻名
+    labels:
+      zh: 特诏公车
+    start_date: 约80
+    highlight_event_id: guji-王充-event-summon
+  - key: closure
+    name_zh: 归乡终老
+    labels:
+      zh: 董老终年
+    start_date: 约90
+  decisions:
+  - date: 约60
+    title_zh: 归乡闭门著书
+    rationale: 仕途不显，遂专心著《论衡》以疾虚妄
+events:
+- id: guji-王充-event-birth
+  type: birth
+  date: 约27
+  year_of: 27
+  name_zh: 王充生于会稽上虞
+- id: guji-王充-event-study
+  type: endeavor
+  date: 约42
+  year_of: 42
+  name_zh: 之洛阳受业太学，师事班彪
+  detail: 家贫无书，游洛阳书肆，阅所卖书，一见辄能诵忆
+- id: guji-王充-event-lunheng
+  type: endeavor
+  date: 约70
+  year_of: 70
+  name_zh: 撰成《论衡》
+  detail: 闭门潜思，绝庆吊之礼，著《论衡》八十五篇，释物类同异，正时俗嫌疑
+- id: guji-王充-event-summon
+  type: endeavor
+  date: 约80
+  year_of: 80
+  name_zh: 章帝特诏公车征
+  detail: 《论衡》流传，学者蔡邕、王朗见而叹服，章帝特诏公车，病不行
+- id: guji-王充-event-death
+  type: death
+  date: 约97
+  year_of: 97
+  name_zh: 王充卒于家
