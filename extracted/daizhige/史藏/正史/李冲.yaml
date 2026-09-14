@@ -1,0 +1,121 @@
+person:
+  qid: guji-李冲
+  name_zh: 李冲
+  names:
+    zh: 李冲
+    en: Li Chong
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 498
+      precision: year
+      is_circa: true
+      raw: 约太和二十二年（498年）卒
+  death_date: '498'
+  era: 北魏（太和年间）
+  reign_ref: 北魏孝文帝元宏在位时期（471–499）
+  archetype: 佐命改制之臣
+  dilemmas:
+  - 迁都洛阳之际，营建新都与维系旧都平城局势的重任并担，需在一国两都之间权衡调度
+  - 南伐名义下实谋迁都，臣下既要顺从君意，又须抚定众心
+  lesson: 制度之成，赖良佐之醇谨日新；聚沙成塔，功在不舍。
+  summary_first_person: 我李冲，得太和年间孝文帝委信，与司空穆亮、将作大匠董爵共经始洛京，参预迁都大计，佐成一代变法之基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/魏書/卷7下
+endeavors:
+- id: guji-李冲-endeavor-1
+  name_zh: 经始洛京
+  phases:
+  - key: brewing
+    name_zh: 受诏营洛
+    labels:
+      zh: 受诏营洛
+    start_date: 493-11-01
+    highlight_event_id: guji-李冲-event-zhao-jingluo
+  - key: climax
+    name_zh: 营缮洛京
+    labels:
+      zh: 营缮洛京
+    start_date: 494-01-01
+    highlight_event_id: guji-李冲-event-jingying
+  - key: closure
+    name_zh: 迁洛功成
+    labels:
+      zh: 迁洛功成
+    start_date: 495-09-01
+    highlight_event_id: guji-李冲-event-qianluo
+  decisions:
+  - date: 493-11-01
+    title_zh: 奉诏与穆亮、董爵经始洛京
+    rationale: 孝文帝以迁都大计定于滑台，需重臣督建新都，李冲受尚书之任与司空同领其事
+- id: guji-李冲-endeavor-2
+  name_zh: 参定迁都
+  phases:
+  - key: brewing
+    name_zh: 随驾南伐
+    labels:
+      zh: 随驾南伐
+    start_date: 493-09-01
+    highlight_event_id: guji-李冲-event-south
+  - key: breakthrough
+    name_zh: 参定迁都之计
+    labels:
+      zh: 参定迁都之计
+    start_date: 493-11-01
+    highlight_event_id: guji-李冲-event-dingji
+  decisions:
+  - date: 493-11-01
+    title_zh: 赞定迁都之计
+    rationale: 帝借南伐之名驻洛阳而定迁都之谋，李冲在朝机构中承其规划，佐行迁移之略
+events:
+- id: guji-李冲-event-birth
+  type: birth
+  description: 生年史无明文
+- id: guji-李冲-event-south
+  date: 493-09-15
+  year_of: 493
+  type: endeavor
+  endeavor_id: guji-李冲-endeavor-2
+  labels:
+    zh: 帝发京师南伐，李冲居朝预政
+  description: 太和十七年九月己丑，孝文帝车驾发京师号称南伐，实谋迁都，尚书李冲留守参机务
+- id: guji-李冲-event-dingji
+  date: 493-11-01
+  year_of: 493
+  type: endeavor
+  endeavor_id: guji-李冲-endeavor-2
+  labels:
+    zh: 群臣马前请停南伐，帝定迁都之计
+  description: 太和十七年十月丁丑，群臣稽颡马前请停南伐，帝乃止，仍定迁都之计，李冲预其谋画
+- id: guji-李冲-event-zhao-jingluo
+  date: 493-11-01
+  year_of: 493
+  type: endeavor
+  endeavor_id: guji-李冲-endeavor-1
+  labels:
+    zh: 受诏与穆亮、董爵经始洛京
+  description: 太和十七年冬十月戊寅朔，帝幸金墉城，诏征司空穆亮与尚书李冲、将作大匠董爵经始洛京
+- id: guji-李冲-event-jingying
+  date: 494-01-01
+  year_of: 494
+  type: endeavor
+  endeavor_id: guji-李冲-endeavor-1
+  labels:
+    zh: 营缮洛京
+  description: 李冲董督洛京营建，经画宫城基址；至太和十九年，金墉宫成，六宫及文武尽迁洛阳
+- id: guji-李冲-event-qianluo
+  date: 495-01-01
+  year_of: 495
+  type: endeavor
+  endeavor_id: guji-李冲-endeavor-1
+  labels:
+    zh: 迁都洛阳功成
+  description: 太和十八年十月辛亥，车驾发平城，奉迁神主；十九年九月，六宫及文武尽迁洛阳，李冲经始洛京之功告成
+- id: guji-李冲-event-death
+  date: 498
+  year_of: 498
+  type: death
+  description: 约于太和二十二年（498年）卒，史文未载卒日
