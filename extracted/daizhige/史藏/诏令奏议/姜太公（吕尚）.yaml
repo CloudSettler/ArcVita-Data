@@ -1,0 +1,105 @@
+person:
+  qid: guji-吕尚
+  name_zh: 吕尚
+  names:
+    zh: 姜太公（吕尚、师尚父）
+    en: Jiang Ziya (Lü Shang)
+  lifespan:
+    birth:
+      date: 约-1150
+      precision: year
+      is_circa: true
+      raw: 生年无考，约商末
+    death:
+      date: 约-1035
+      precision: year
+      is_circa: true
+      raw: 卒年无考，约西周初
+  birth_date: 约-1150
+  death_date: 约-1035
+  era: 商末周初
+  reign_ref: 周武王之世
+  archetype: 帝师·开国谋臣
+  dilemmas:
+  - 年老隐居，何时出山佐命之择机之难
+  - 辅佐新朝，如何以敬胜怠、以义胜欲而致万世之治
+  lesson: 敬胜怠者吉，怠胜敬者灭；义胜欲者从，欲胜义者凶。
+  summary_first_person: 我为周之师尚父，武王践阼三日即召我问治道。我奉丹书而告之曰：敬胜怠者吉，怠胜敬者灭；义胜欲者从，欲胜义者凶。凡事不强则枉，弗敬则不正；枉者灭废，敬者万世。王闻言惕然恐惧，是知敬慎者可以为万世之基。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=歴代名臣奏議
+endeavors:
+- id: guji-吕尚-endeavor-1
+  name_zh: 佐周灭商、肇基王业
+  phases:
+  - key: brewing
+    name_zh: 隐居待时，垂钓渭滨
+    labels:
+      zh:
+      - 韬晦
+      - 待命
+    start_date: 约-1060
+    highlight_event_id: guji-吕尚-event-shangwen
+  - key: breakthrough
+    name_zh: 辅佐武王克商
+    labels:
+      zh:
+      - 佐命
+    start_date: 约-1046
+    highlight_event_id: guji-吕尚-event-shangwen
+  - key: climax
+    name_zh: 为师尚父，奉丹书进戒
+    labels:
+      zh:
+      - 帝师
+    start_date: 约-1043
+    highlight_event_id: guji-吕尚-event-danshu
+  - key: closure
+    name_zh: 封于齐，启东方之封
+    labels:
+      zh:
+      - 开国
+    start_date: 约-1040
+  decisions:
+  - date: 约-1043
+    title_zh: 武王践阼三日，应召以丹书之道进戒
+    rationale: 以敬义之义警新君怠傲之心，示吉凶之权衡。
+  - date: 约-1040
+    title_zh: 受封于齐，经营东方
+    rationale: 以功臣建邦，屏藩周室，通鱼盐之利。
+events:
+- id: guji-吕尚-event-birth
+  date: 约-1150
+  year_of: -1150
+  event_type: birth
+  title_zh: 吕尚生于商末
+  desc_zh: 生年无可确考，约当商代晚期。
+- id: guji-吕尚-event-danshu
+  date: 约-1043
+  year_of: -1043
+  event_type: career
+  title_zh: 武王践阼三日，师尚父奉丹书进言
+  desc_zh: 帝王之道存乎丹书；斋三日，端冕奉书而入，道敬怠义欲之训，王惕若恐惧。
+  source_refs:
+  - guji-吕尚-endeavor-1
+- id: guji-吕尚-event-shangwen
+  date: 约-1046
+  year_of: -1046
+  event_type: career
+  title_zh: 佐武王克商立面王业
+  desc_zh: 为师尚父，辅佐武王讨商，武王伐纣而定天下。
+  source_refs:
+  - guji-吕尚-endeavor-1
+- id: guji-吕尚-event-fengqi
+  date: 约-1040
+  year_of: -1040
+  event_type: career
+  title_zh: 受封于齐
+  desc_zh: 以佐命之功封于齐，为周室东方屏藩。
+  source_refs:
+  - guji-吕尚-endeavor-1
+- id: guji-吕尚-event-death
+  date: 约-1035
+  year_of: -1035
+  event_type: death
+  title_zh: 吕尚卒
+  desc_zh: 卒年无确考，传说享年甚高，约当西周初。
