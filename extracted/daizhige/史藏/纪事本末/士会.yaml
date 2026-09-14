@@ -1,0 +1,105 @@
+person:
+  qid: guji-士会
+  name_zh: 士会
+  names:
+    zh: 士会、随会、随季、范会
+    en: Shi Hui
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 春秋时期
+  reign_ref: 晋文公、晋襄公、晋灵公、晋成公之世
+  archetype: 贤而有耻、柔而不犯的谋臣
+  dilemmas:
+  - 奉命赴秦迎公子雍而晋改立灵公，随先蔑奔秦去留两难
+  - 在秦受重用而晋患其才，归晋则须冒背秦被戮之险
+  lesson: 贱而有耻，柔而不犯，其知足使；识时明礼，方可全身而济国
+  summary_first_person: 我士会曾奉晋命赴秦迎公子雍，因晋立灵公而流亡于秦，为秦所用谋晋；后晋人患我之才，使魏寿余伪叛诱我归晋，我履足于朝暗通其意，终返晋复职，为晋政之重臣。
+endeavors:
+- id: guji-士会-endeavor-1
+  name_zh: 迎雍与流秦
+  phases:
+  - key: brewing
+    name_zh: 受命如秦
+    labels:
+      zh:
+      - 迎公子雍
+    start_date: -621
+  - key: climax
+    name_zh: 避难于秦
+    labels:
+      zh:
+      - 令狐之役
+      - 奔秦
+    start_date: -620
+  decisions:
+  - date: -621
+    title_zh: 与先蔑如秦逆公子雍
+    rationale: 赵孟欲立长君公子雍，以固事顺立爱结旧四德纾难
+  - date: -620
+    title_zh: 从先蔑奔秦
+    rationale: 背先蔑而立灵公，使命不成，遂随先蔑出亡
+- id: guji-士会-endeavor-2
+  name_zh: 归晋与执政
+  phases:
+  - key: breakthrough
+    name_zh: 河曲显谋
+    labels:
+      zh:
+      - 河曲之战
+    start_date: -615
+  - key: climax
+    name_zh: 魏诱归晋
+    labels:
+      zh:
+      - 履士会之足
+      - 复位于晋
+    start_date: -614
+    highlight_event_id: guji-士会-event-return
+  decisions:
+  - date: -615
+    title_zh: 为秦画谋挑晋赵穿出战
+    rationale: 知臾骈欲老秦师，使轻者肆焉以诱赵穿出而求战
+  - date: -614
+    title_zh: 应魏寿余之诱归晋
+    rationale: 贾季在狄我在秦，晋难且至；且我无罪能而贱而有耻，晋必见复，履足于朝以定其谋
+events:
+- id: guji-士会-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  summary_zh: 生卒年不详，约活动于晋文公至晋景公之世。
+- id: guji-士会-event-mission-qin
+  date: -621
+  year_of: -621
+  type: endeavor_event
+  title_zh: 与先蔑如秦逆公子雍
+  summary_zh: 晋襄公卒，晋人欲立公子雍，遣先蔑、士会如秦迎之；贾季亦使召公子乐于陈，为赵孟所杀。
+- id: guji-士会-event-linghu-exile
+  date: -620
+  year_of: -620
+  type: endeavor_event
+  title_zh: 令狐之役败秦师，士会从先蔑奔秦
+  summary_zh: 穆嬴日抱大子啼于朝，赵宣子畏偪乃背先蔑立灵公以御秦师，败秦于令狐；先蔑奔秦，士会从之。
+- id: guji-士会-event-hequ-counsel
+  date: -615
+  year_of: -615
+  type: endeavor_event
+  title_zh: 秦伯河曲问计于士会
+  summary_zh: 秦晋战于河曲，秦伯以璧祈战，问战策于士会；对以晋赵氏新出臾骈为谋、赵穿好勇而狂，使轻者肆焉可诱之战，秦师遂掩晋上军。
+- id: guji-士会-event-return
+  date: -614
+  year_of: -614
+  type: endeavor_event
+  title_zh: 魏寿余诱归，士会返晋
+  summary_zh: 晋六卿相于诸浮议随会在秦之患，卻成子称其贱而有耻、柔而不犯、其知足使且无罪；乃使魏寿余伪以魏叛诱士会，秦伯许其行，履士会之足于朝，既济而魏人噪还，秦人归其帑，士会归晋。
+- id: guji-士会-event-death
+  date: ''
+  year_of: ''
+  type: death
+  summary_zh: 卒年不详，后世称范武子。

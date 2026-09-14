@@ -1,0 +1,87 @@
+person:
+  qid: guji-向戌
+  name_zh: 向戌
+  names:
+    zh: 向戌
+    en: Xiang Xu
+  lifespan:
+    birth:
+      date: -600
+      precision: year
+      is_circa: true
+      raw: 约公元前600年
+    death:
+      date: -530
+      precision: year
+      is_circa: true
+      raw: 约公元前530年
+  birth_date: -600
+  death_date: -530
+  era: 春秋
+  reign_ref: 宋平公、宋元公之世
+  archetype: 弭兵之盟的宋国左师，春秋后期以和平外交著称
+  dilemmas:
+  - 两次弭兵之间晋楚争强，小国夹缝求生存
+  - 弭兵会盟中楚人衷甲，性命与信义两难
+  lesson: 以一场会盟止息诸侯之兵，彰显小国大夫的外交智慧
+  summary_first_person: 我向戌是春秋宋国的左师，痛于诸侯争霸连年用兵，遂奔走于晋楚之间，于鲁襄公二十七年主持弭兵之会，使晋楚及诸侯歃血息兵，为乱世争得十余年的安宁。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/向戌
+endeavors:
+- id: guji-向戌-endeavor-1
+  name_zh: 弭兵之盟
+  phases:
+  - key: brewing
+    name_zh: 忧天下之兵
+    labels:
+      zh: 谋弭兵
+    start_date: -547
+    highlight_event_id: guji-向戌-event-breakthrough
+  - key: breakthrough
+    name_zh: 促成弭兵
+    labels:
+      zh: 弭兵会盟
+    start_date: -546
+    highlight_event_id: guji-向戌-event-breakthrough
+  - key: climax
+    name_zh: 晋楚争歃
+    labels:
+      zh: 争歃为盟
+    start_date: -546
+    highlight_event_id: guji-向戌-event-breakthrough
+  - key: closure
+    name_zh: 弭兵之效
+    labels:
+      zh: 诸侯息兵
+    start_date: -545
+    highlight_event_id: guji-向戌-event-closure
+  decisions:
+  - date: -546
+    title_zh: 遍请晋楚及诸侯，发起弭兵之会
+    rationale: 诸侯苦于晋楚争霸不休，欲以停战会盟息天下之兵
+  - date: -546
+    title_zh: 力促晋楚之 allow 先歃血的争端平息
+    rationale: 借宋为东道，调停两国强弱之重新排序，终定歃血之序
+events:
+- id: guji-向戌-event-birth
+  date: -600
+  year_of: -600
+  title_zh: 向戌约生于此年前后
+  type: birth
+- id: guji-向戌-event-breakthrough
+  date: -546-07
+  year_of: -546
+  title_zh: 向戌弭诸侯之兵，会盟于宋
+  type: endeavor
+  detail: 鲁襄公二十七年，向戌约合晋楚及诸侯于宋，弭兵之盟成，诸侯息兵
+- id: guji-向戌-event-closure
+  date: -545
+  year_of: -545
+  title_zh: 弭兵之后诸侯朝聘相安
+  type: endeavor
+  detail: 会盟后晋楚各分霸权，中原十余年无大战，弭兵之效显现
+- id: guji-向戌-event-death
+  date: -530
+  year_of: -530
+  title_zh: 向戌约卒于此年前后
+  type: death
