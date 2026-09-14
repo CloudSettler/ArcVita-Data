@@ -1,0 +1,175 @@
+person:
+  qid: guji-陈子龙
+  name_zh: 陈子龙
+  names:
+    zh: 陈子龙
+    en: Chen Zilong
+  lifespan:
+    birth:
+      date: 1608
+      precision: year
+      is_circa: true
+      raw: 1608年
+    death:
+      date: 1647
+      precision: year
+      is_circa: true
+      raw: 1647年
+  birth_date: 1608
+  death_date: 1647
+  era: 明末清初
+  reign_ref: 弘光
+  archetype: 忠谏言官·殉节志士
+  dilemmas:
+  - 国破君亡欲复仇雪耻，而朝议泄沓、忠言屡上屡不听
+  - 深知水师海舟为保江淮根本，然庙堂惟议守江，志不得伸
+  lesson: 危局中清醒与担当可贵，但若庙堂讳疾忌医，再切的谏言也会被清歌漏舟、痛饮焚屋的惰性吞没；忧患意识必须化为及时行动。
+  summary_first_person: 我乃给事中陈子龙。京师陷、先帝崩，我即与长乐知县夏允彝、中书舍人宋征璧以私财募士海滨，欲驾海舟入援；入朝后又屡疏劝陛下卧薪尝胆，速阅京营、大集舟师于京口芜湖，联络河北山东义旗，出师三路以讨逆。然入国门再旬，人情泄沓无异平时，清歌漏舟之中、痛饮焚屋之下，我言终不见听。
+endeavors:
+- id: guji-陈子龙-endeavor-1
+  name_zh: 海滨募士·海舟入援之谋
+  labels:
+    zh:
+    - 私财募士
+    - 海舟勤王
+    - 请建水师
+  phases:
+  - key: brewing
+    name_zh: 贼陷忻代、逼京师，奋起谋勤王
+    labels:
+      zh:
+      - 赴国难
+    start_date: 1644-04
+    highlight_event_id: guji-陈子龙-event-recruit-seaside
+  - key: breakthrough
+    name_zh: 与夏允彝、宋征璧以私财募士海滨，以海舟入援
+    labels:
+      zh:
+      - 私财募士
+      - 海舟入援
+    start_date: 1644-05
+    highlight_event_id: guji-陈子龙-event-recruit-seaside
+  - key: climax
+    name_zh: 上疏请募水军，倡必保江淮为根本
+    labels:
+      zh:
+      - 请募水军
+      - 保江淮根本
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-memorial-water-army
+  - key: closure
+    name_zh: 策不见用，募兵之议遂寝
+    labels:
+      zh:
+      - 不听
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-rejected
+  decisions:
+  - date: 1644-05
+    title_zh: 与夏允彝、宋征璧散私财募士海滨
+    rationale: 贼陷忻代、逼京师，及先帝崩益思复仇；水师不可迟、海舟尤不可缺，义不容缓
+  - date: 1644-07
+    title_zh: 请江南诸郡共为门户共募水军
+    rationale: 必保江淮为根本；使江南诸郡共为门户，则万人亦不难致
+- id: guji-陈子龙-endeavor-2
+  name_zh: 屡疏警朝·复仇雪耻之谏
+  labels:
+    zh:
+    - 卧薪尝胆
+    - 联络义旗
+    - 亲统六师
+  phases:
+  - key: brewing
+    name_zh: 入国门再旬，见人情泄沓无异平时
+    labels:
+      zh:
+      - 忧愤
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-memorial-awaken
+  - key: breakthrough
+    name_zh: 疏请卧薪尝胆，收三齐之城、燕赵悲歌之士
+    labels:
+      zh:
+      - 卧薪尝胆
+      - 收河北山东义旗
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-memorial-awaken
+  - key: climax
+    name_zh: 请大集舟师京口芜湖、三路出师讨逆
+    labels:
+      zh:
+      - 大集舟师
+      - 三路出师
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-memorial-navy-rally
+  - key: closure
+    name_zh: 疏入皆不听，忠言俱寝
+    labels:
+      zh:
+      - 不听
+    start_date: 1644-07
+    highlight_event_id: guji-陈子龙-event-rejected
+  decisions:
+  - date: 1644-07
+    title_zh: 疏请朝廷接纳河北山东义旗、出师讨逆
+    rationale: 义旗云集、拭目望南都，其心不忘明；朝廷外置之，则失三齐扼守之城、燕赵悲歌之士
+  - date: 1644-07
+    title_zh: 抗言「清歌漏舟、痛饮焚屋」之非
+    rationale: 入国门再旬而人情泄沓无异平时，不痛加针砭则无以醒庙堂偏安之心
+events:
+- id: guji-陈子龙-event-birth
+  type: birth
+  date: 1608
+  year_of: 1608
+  precision: year
+  title_zh: 陈子龙生
+  description: 陈子龙生于明末，后以文学气节知名，官至给事中（据史载，本篇未载其生年）。
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-recruit-seaside
+  type: endeavor
+  date: 1644-05
+  year_of: 1644
+  title_zh: 与夏允彝、宋征璧以私财募士海滨，以海舟入援
+  description: 贼陷忻代、逼京师，陈子龙即与长乐知县夏允彝、中书舍人宋征璧以私财募士海滨，以海舟入援；及先帝崩，益思复仇。
+  endeavor_id: guji-陈子龙-endeavor-1
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-memorial-water-army
+  type: endeavor
+  date: 1644-07
+  year_of: 1644
+  title_zh: 上疏请募水军，倡必保江淮为根本
+  description: 给事中陈子龙请募水军，言然必保江淮为根本，则水师不可迟、海舟尤不可缺；使江南诸郡共为门户，万人亦不难致。
+  endeavor_id: guji-陈子龙-endeavor-1
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-memorial-awaken
+  type: endeavor
+  date: 1644-07
+  year_of: 1644
+  title_zh: 疏请卧薪尝胆，收河北山东义旗
+  description: 疏言陛下当卧薪尝胆、旰食宵衣，诸臣亦以报仇雪耻为事；河北、山东义旗云集，拭目以望南都，朝廷不当外置之，宜收三齐扼守之城、燕赵悲歌之士。
+  endeavor_id: guji-陈子龙-endeavor-2
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-memorial-navy-rally
+  type: endeavor
+  date: 1644-07
+  year_of: 1644
+  title_zh: 疏请大集舟师京口芜湖、三路出师讨逆
+  description: 伏望速阅京营、弭节江口，大集舟师京口芜湖，相视险固，使天下晓然于亲统六师之意；一军自河洛出潼关、一军攻武关出广汉，而巴蜀燕晋之师济之，则逆首可致。
+  endeavor_id: guji-陈子龙-endeavor-2
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-rejected
+  type: setback
+  date: 1644-07
+  year_of: 1644
+  title_zh: 谏言不听，讥朝臣清歌漏舟、痛饮焚屋
+  description: 陈子龙言臣入国门再旬，人情泄沓无异平时；清歌漏舟之中、痛饮焚屋之下，臣不知其可也。疏上，朝廷皆不听。
+  endeavor_id: guji-陈子龙-endeavor-2
+  person_id: guji-陈子龙
+- id: guji-陈子龙-event-death
+  type: death
+  date: 1647
+  year_of: 1647
+  precision: year
+  title_zh: 陈子龙殉节死
+  description: 清兵南下后投身抗清，事泄被执，投水殉节（据史载，本篇未载）。
+  person_id: guji-陈子龙

@@ -1,0 +1,179 @@
+person:
+  qid: guji-yuanjixian
+  name_zh: 袁继咸
+  names:
+    zh: 袁继咸
+    en: Yuan Jixian
+  lifespan:
+    birth:
+      date: '1593'
+      precision: year
+      is_circa: true
+      raw: 约明万历二十一年（1593）生，本卷未载，据通行传记补注
+    death:
+      date: '1646'
+      precision: year
+      is_circa: true
+      raw: 清顺治三年（1646），兵祸后据史载被执北上、不屈殉节（本卷预言九江之变而文末阙如，据史补注）
+  birth_date: '1593'
+  death_date: '1646'
+  era: 明末·南明弘光
+  reign_ref: 崇祯（1628–1644）、弘光（1644–1645）
+  archetype: 直言敢谏、守节殉国之封疆督师
+  dilemmas:
+  - 直言极谏以肃纲纪，则触权臣马士英之忌；缄默保位，则坐视朝纲崩坏
+  - 预判左良玉之兵必变而请重督抚之权，朝廷不省；言验之日即身陷漩涡之时
+  - 兵变之中身陷敌手，降则失臣节，守节则蹈死地
+  lesson: 纲纪不振则忠言不纳、祸乱立至；危亡之际，气节乃臣子最后的城防。
+  summary_first_person: 吾袁继咸，以江西总督提兵入援，会福王监国，止吾兵于道。吾谏新君以纲纪为先，请为澶渊之行以振天下之气；又陈金陵咽喉在浔阳、襄樊必设镇宿兵、收巴蜀黔滇之货利诸策，且借宋高用舍之失以讥切时政，语皆洞切，而马士英以为刺己，恶之。吾遗书朝士，力言左兵不可不备、宜重督抚之权以示维制，惜乎不省，九江之变卒如其言。上游兵动，吾陷身其间，终以不屈殉国。忠言不用于先，守节见于后，此吾之所以自处也。
+endeavors:
+- id: guji-yuanjixian-endeavor-1
+  name_zh: 直言谏诤弘光朝政
+  description: 自止兵入援至遗书预警，以纲纪、亲征、用人为三大主题，直言极谏而贾祸于权臣。
+  phases:
+  - key: brewing
+    name_zh: 提兵入援而诏止于道
+    labels:
+      zh: 受命勤王
+    start_date: '1644'
+    highlight_event_id: guji-yuanjixian-event-aid-stopped
+  - key: breakthrough
+    name_zh: 谏澶渊之行，请帝亲征
+    labels:
+      zh: 首疏极谏
+    start_date: 1644-05
+    highlight_event_id: guji-yuanjixian-event-chanyuan
+  - key: climax
+    name_zh: 陈金陵大计，借宋史讥切时政
+    labels:
+      zh: 语洞切而触忌
+    start_date: 1644-05
+    highlight_event_id: guji-yuanjixian-event-strategy
+  - key: closure
+    name_zh: 言不用而其言旋验，身预其祸
+    labels:
+      zh: 谶成身危
+    start_date: '1645'
+    highlight_event_id: guji-yuanjixian-event-jiujiang
+  decisions:
+  - date: 1644-05
+    title_zh: 谏请澶渊之行（请帝亲征）
+    rationale: 以恩泽收人心者必以纲纪肃众志、益君德，刚毅为先，不可使太阿倒持；且虑春冬之间淮上不能无事。
+  - date: 1644-05
+    title_zh: 力主襄阳必设镇宿兵、通商辑民
+    rationale: 金陵咽喉在浔阳、襄樊为之门；守襄樊则可自宛洛图关中，守淮南江北则可图河南河北，收巴蜀黔滇货利以实根本，事不可不早。
+- id: guji-yuanjixian-endeavor-2
+  name_zh: 出镇九江与上游防左之谋
+  description: 以九江总督扼金陵上游，屡言左良玉兵骄不可不备，请重督抚之权以维制；谏不获用，终罹九江之变。
+  phases:
+  - key: brewing
+    name_zh: 出镇浔阳，为金陵上游屏障
+    labels:
+      zh: 受任九江
+    start_date: 1644-05
+    highlight_event_id: guji-yuanjixian-event-governor-jiujiang
+  - key: breakthrough
+    name_zh: 遗书朝士，预警左兵
+    labels:
+      zh: 先见之明
+    start_date: 1644-05
+    highlight_event_id: guji-yuanjixian-event-zuobing-letter
+  - key: climax
+    name_zh: 士英不省，九江之变卒作
+    labels:
+      zh: 言验祸至
+    start_date: '1645'
+    highlight_event_id: guji-yuanjixian-event-jiujiang
+  - key: closure
+    name_zh: 被执不屈，守节殉难
+    labels:
+      zh: 以死全节
+    start_date: '1646'
+    highlight_event_id: guji-yuanjixian-event-death
+  decisions:
+  - date: '1644'
+    title_zh: 受任九江总督，出镇上游
+    rationale: 金陵恃大江，咽喉在浔阳；上游不守则江南不保，须重臣宿镇。
+  - date: 1644-05
+    title_zh: 遗书言左兵不可不备，请重督抚之权
+    rationale: 左良玉兵骄，督抚权轻则无以维制；重其权而后可示弹压、防变于未萌。
+events:
+- id: guji-yuanjixian-event-birth
+  type: birth
+  date: '1593'
+  precision: year
+  is_circa: true
+  year_of: 1593
+  raw: 约明万历二十一年（1593）
+  title_zh: 袁继咸生
+  description: 生年本卷未载，据通行传记约在明万历年间。
+- id: guji-yuanjixian-event-aid-stopped
+  type: political
+  date: 1644-05
+  precision: month
+  is_circa: true
+  year_of: 1644
+  raw: 崇祯十七年五月，福王监国于南京
+  title_zh: 诏止江西总督袁继咸兵入援
+  description: 五月庚寅福王监国南京，止江西总督袁继咸兵入援；继咸遂留镇上游。
+  endeavor_id: guji-yuanjixian-endeavor-1
+- id: guji-yuanjixian-event-governor-jiujiang
+  type: appointment
+  date: 1644-05
+  precision: month
+  is_circa: true
+  year_of: 1644
+  raw: 崇祯十七年五月，本卷称九江总督袁继咸
+  title_zh: 出镇九江，扼金陵上游咽喉
+  description: 本卷以九江总督称之，知其出镇浔阳，为金陵上游之屏障。
+  endeavor_id: guji-yuanjixian-endeavor-2
+- id: guji-yuanjixian-event-chanyuan
+  type: memorial
+  date: 1644-05
+  precision: month
+  is_circa: true
+  year_of: 1644
+  raw: 崇祯十七年五月，弘光初立
+  title_zh: 谏『澶渊之行』，请奉六龙亲征
+  description: 上言陛下即位虽以恩泽收人心，尤必以纲纪肃众志、益君德，以刚毅为先，不可使太阿倒持；虑春冬之间淮上不能无事，请奉六龙为澶渊之行。宏光帝难之，姜曰广言不可无此心。
+  endeavor_id: guji-yuanjixian-endeavor-1
+- id: guji-yuanjixian-event-strategy
+  type: memorial
+  date: 1644-05
+  precision: month
+  is_circa: true
+  year_of: 1644
+  raw: 崇祯十七年五月
+  title_zh: 陈金陵大计，讥切南渡用舍
+  description: 言金陵咽喉在浔阳、襄樊为之门，襄阳古今所争必设镇宿兵、聚粮修城，宜选吏辑民通商，收巴蜀黔滇之货利；又谓宋高不用李纲、赵鼎而用汪、黄、秦、汤致偏安，若早用刘宗周、吴甡、黄道周、杨廷麟诸人何至今日。语皆洞切，马士英谓刺己，恶之。
+  endeavor_id: guji-yuanjixian-endeavor-1
+- id: guji-yuanjixian-event-zuobing-letter
+  type: political
+  date: 1644-05
+  precision: month
+  is_circa: true
+  year_of: 1644
+  raw: 崇祯十七年五月
+  title_zh: 遗书朝士预警左兵
+  description: 遗书朝士言左兵不可不备，宜重督抚之权以示维制；马士英不省，其后卒有九江之变。
+  endeavor_id: guji-yuanjixian-endeavor-2
+- id: guji-yuanjixian-event-jiujiang
+  type: military
+  date: '1645'
+  precision: year
+  is_circa: true
+  year_of: 1645
+  raw: 弘光元年（1645），本卷预告『卒至九江之变（详下）』
+  title_zh: 九江之变起，预警成谶
+  description: 左良玉部以清君侧为名东下，上游兵动，九江变作；本卷于此仅存预告而文末阙如，继咸身陷兵祸，据史载其后被执北上。
+  endeavor_id: guji-yuanjixian-endeavor-2
+- id: guji-yuanjixian-event-death
+  type: death
+  date: '1646'
+  precision: year
+  is_circa: true
+  year_of: 1646
+  raw: 清顺治三年（1646）殉节
+  title_zh: 被执不屈，守节殉难
+  description: 本卷未见详文；据史载，九江兵败后继咸被执北上，拒降不仕，不屈殉节。
+  endeavor_id: guji-yuanjixian-endeavor-2
