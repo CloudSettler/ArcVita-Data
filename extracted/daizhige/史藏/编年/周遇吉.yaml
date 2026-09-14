@@ -1,0 +1,122 @@
+person:
+  qid: guji-周遇吉
+  name_zh: 周遇吉
+  names:
+    zh: 周遇吉
+    en: Zhou Yuji
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1644
+      precision: year
+      is_circa: false
+      raw: 崇祯十七年（1644），李自成破宁武关时力战死之
+  birth_date: ''
+  death_date: 1644
+  era: 明末（崇祯年间）
+  reign_ref: 崇祯
+  archetype: 殉国武将
+  dilemmas:
+  - 山关尽破、孤城援绝，是战死以全忠节，还是降贼求生
+  lesson: 孤城力拒、骂贼殉节，虽败犹挫敌胆；忠武之名，千载凛然
+  summary_first_person: 我周遇吉以总兵驻代州，凭城固守；粮尽退守宁武关。闯贼大军压境，我发大炮杀贼万计，设伏诱敌复杀数千。城破之日，我徒步巷战，手刃数十人，身中集矢如猬，被执骂贼而死；妻刘氏率妇女登屋射贼，阖家俱焚，城中士民无一降者。
+endeavors:
+- id: guji-周遇吉-endeavor-1
+  key: guji-zhouyuji-jinzhong
+  name_zh: 拒守代州、退保宁武
+  phases:
+  - key: brewing
+    name_zh: 驻守代州
+    labels:
+      zh: 据城力拒
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-dai-zhou
+  - key: climax
+    name_zh: 血战宁武
+    labels:
+      zh: 炮毙万贼、姬伏巷战
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-ningwu-death
+  - key: closure
+    name_zh: 殉国褒谥
+    labels:
+      zh: 赐谥忠武
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-ningwu-death
+  decisions:
+  - date: 1644
+    title_zh: 食尽退守宁武关
+    rationale: 代州粮尽援绝，退保宁武以扼贼东进之路
+  - date: 1644
+    title_zh: 拒不投降、死守孤城
+    rationale: 贼呼五日不降即屠，遇吉力拒不降，宁死守节
+- id: guji-周遇吉-endeavor-2
+  key: guji-zhouyuji-hanshancheng
+  name_zh: 宁武巷战殉国
+  phases:
+  - key: breakthrough
+    name_zh: 炮击贼军
+    labels:
+      zh: 大炮杀贼万人
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-ningwu-battle
+  - key: climax
+    name_zh: 巷战骂贼
+    labels:
+      zh: 手杀数十人、骂贼死
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-ningwu-death
+  - key: closure
+    name_zh: 阖家死义
+    labels:
+      zh: 妻刘氏率妇女登屋射贼，阖家俱死
+    start_date: 1644
+    highlight_event_id: guji-周遇吉-event-family-death
+  decisions:
+  - date: 1644
+    title_zh: 设伏诱贼入城
+    rationale: 发炮杀伤后复设伏诱敌，城中反杀数千， maximally 挫贼锋锐
+  - date: 1644
+    title_zh: 被执骂贼而死
+    rationale: 身陷敌手不屈，以死明志，全臣节
+events:
+- id: guji-周遇吉-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  name_zh: 周遇吉生
+  summary: 史无明确生年记载
+- id: guji-周遇吉-event-dai-zhou
+  date: 1644-02
+  year_of: 1644
+  type: endeavor
+  name_zh: 进攻代州，周遇吉力拒
+  summary: 李自成陷太原后进攻代州，总兵周遇吉凭城固守，食尽乃退保宁武
+- id: guji-周遇吉-event-ningwu-battle
+  date: 1644-02
+  year_of: 1644
+  type: endeavor
+  name_zh: 宁武关发炮杀贼、设伏诱敌
+  summary: 贼大呼五日不降即屠；遇吉发大炮杀贼万人，设伏城中诱贼入，复杀数千
+- id: guji-周遇吉-event-ningwu-death
+  date: 1644-02
+  year_of: 1644
+  type: death
+  name_zh: 宁武关陷，周遇吉巷战力战死之
+  summary: 城毁复完者再，自成悉力攻破；遇吉巷战徒步跳荡，手杀数十人，矢集如猬毛，被执骂贼死，本朝赐谥忠武
+- id: guji-周遇吉-event-family-death
+  date: 1644-02
+  year_of: 1644
+  type: endeavor
+  name_zh: 妻刘氏率妇女登屋射贼，阖家俱死
+  summary: 遇吉妻刘氏率妇女登屋射贼，贼纵火焚之，合家俱死；城中士民无降者
+- id: guji-周遇吉-event-posthumous
+  date: 1644
+  year_of: 1644
+  type: endeavor
+  name_zh: 得谥「忠武」
+  summary: 本朝追谥周遇吉为「忠武」，旌其殉节之功
