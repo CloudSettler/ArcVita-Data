@@ -1,0 +1,116 @@
+person_narrative: 唐蒙是西汉武帝时的将领与使者，最早推动了汉朝对西南夷的经营。
+model: 唐蒙，西汉武帝时期官员，曾任番阳令，后拜中郎将，是汉通西南夷的开拓者。因在南越见蜀产蒟酱经夜郎转运，遂留心西南通路，上书建言以巴蜀之富通夜郎制南越，得武帝采纳。率兵入夜郎，厚赐夜郎侯多同，约为置吏，使其子为令，汉据此设犍为郡并发卒数万治道通牂牁江。其谋虽开创了汉朝经营西南之局，但工程耗费巨大，士卒多病故逃亡，巴蜀惊恐，武帝曾遣司马相如前往责谕安抚。
+person:
+  qid: guji-唐蒙
+  name_zh: 唐蒙
+  names:
+    zh: 唐蒙
+    en: Tang Meng
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 不详，西汉武帝时期活动
+  era: 西汉·汉武帝时期
+  reign_ref: 汉武帝（刘彻）
+  archetype: 开边之策士（拓境谋臣）
+  dilemmas:
+  - 通夷拓境、立功封疆与兴役劳民、士卒物故、巴蜀骚动之间的张力
+  lesson: 开边之功当以民力为本，谋国者不可徒逞奇策而疲敝百姓。
+  summary_first_person: 我唐蒙为番阳令时，奉命晓谕南越，席上尝蜀产蒟酱，追问其源，得知夜郎可通牂牁江。归而献策，请以巴蜀之富强通夜郎以制南越，武帝许之，拜我为中郎将。我率士卒辎重入夜郎，厚赐夜郎侯多同，喻以威德，约为置吏，其子为令，遂建犍为郡并开僰道至牂牁江之道。然道险士卒多病故逃亡，诛之则巴蜀大惊，武帝遣司马相如责我等而谕安其民。我首倡西南夷之通，功过同在，为后世所评说。
+  source_urls:
+  - 四库全书·滇考·汉通西南夷置郡县
+endeavors:
+- id: guji-唐蒙-endeavor-1
+  name_zh: 开通西南夷
+  phases:
+  - key: brewing
+    name_zh: 番阳令任上奉使南越
+    labels:
+      zh: 发现蒟酱之秘
+    start_date: -136
+  - key: breakthrough
+    name_zh: 上书献策制越
+    labels:
+      zh: 上书请通夜郎
+    start_date: -135
+    highlight_event_id: guji-唐蒙-event-strategy
+  - key: climbing
+    name_zh: 出使夜郎
+    labels:
+      zh: 拜中郎将入夜郎
+    start_date: -135
+    highlight_event_id: guji-唐蒙-event-yelang-mission
+  - key: climax
+    name_zh: 设犍为郡、治道通牂牁
+    labels:
+      zh: 发卒治道
+    start_date: -135
+    highlight_event_id: guji-唐蒙-event-road
+  - key: closure
+    name_zh: 司马相如责蒙、民怨渐平
+    labels:
+      zh: 相如奉使责谕
+    start_date: -134
+  decisions:
+  - date: -135
+    title_zh: 上书建言以巴蜀之富强通夜郎以制南越
+    rationale: 得知夜郎有精兵且牂牁江可行船，浮船出其不意，可制南越一奇。
+  - date: -135
+    title_zh: 厚赐夜郎侯多同，约为置吏
+    rationale: 道路险远，许以缯帛财物，使其贪慕而听汉约束，置吏而使其子为令。
+  - date: -135
+    title_zh: 发巴蜀士卒数万治道自僰道至牂牁江
+    rationale: 欲通西南夷道置郡县，然士卒多物故逃亡，用军兴法诛之，致巴蜀民惊恐。
+events:
+- id: guji-唐蒙-event-birth
+  title_zh: 唐蒙出生
+  date_precision: unknown
+  description: 生年不详，为西汉武帝时期番阳令。
+  label_zh: 不详
+- id: guji-唐蒙-event-death
+  title_zh: 唐蒙去世
+  date_precision: unknown
+  description: 卒年不详。
+  label_zh: 不详
+- id: guji-唐蒙-event-discover-sauce
+  title_zh: 奉使南越见蜀蒟酱
+  date: -135
+  date_precision: circa
+  year_of: -135
+  place: 南越
+  description: 建元六年王恢击东越后，遣唐蒙风指晓南越。南越食蒙蜀蒟酱，蒙问所从来，曰道西北牂牁，蒙因留意西南通道。
+  label_zh: 发现蒟酱之秘
+- id: guji-唐蒙-event-strategy
+  title_zh: 上书建言通夜郎以制南越
+  date: -135
+  date_precision: circa
+  year_of: -135
+  place: 长安
+  description: 蒙归至长安问蜀贾人，得知夜郎临牂牁江通船，遂上书言以汉之强、巴蜀之饶，通夜郎道为置吏，浮船牂牁江出其不意以制越，帝许之。
+  label_zh: 出主意
+- id: guji-唐蒙-event-yelang-mission
+  title_zh: 拜中郎将出使夜郎
+  date: -135
+  date_precision: circa
+  year_of: -135
+  place: 夜郎
+  description: 蒙拜为中郎将，将千人、食重万余人，从巴筰关入，见夜郎侯多同，厚赐喻以威德，约为置吏，使其子为令。
+  highlight: 为出使夜郎之核心事件
+  label_zh: 出使
+- id: guji-唐蒙-event-buildqianwei
+  title_zh: 设犍为郡并发卒数万修治夜郎道
+  date: -135
+  date_precision: circa
+  year_of: -135
+  place: 巴蜀·僰道至牂牁江
+  description: 夜郎旁小邑皆听蒙约，遂置犍为郡。发巴蜀卒数万人治道自僰道直指牂牁江， Corking民困于工役责致士卒物故逃亡。
+  label_zh: 兴役
+- id: guji-唐蒙-event-shamed
+  title_zh: 武帝遣司马相如责唐蒙
+  date: -134
+  date_precision: circa
+  year_of: -134
+  place: 巴蜀
+  description: 卒多物故逃亡，蒙用军兴法诛之，巴蜀民大惊恐，武帝使司马相如责蒙等，因谕告巴蜀民以非上意。
+  label_zh: 受责
