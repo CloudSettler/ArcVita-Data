@@ -1,0 +1,105 @@
+person:
+  qid: guji-左宗棠
+  name_zh: 左宗棠
+  names:
+    zh: 左宗棠
+    en: Zuo Zongtang
+  lifespan:
+    birth:
+      date: '1812-11-10'
+      precision: day
+      is_circa: false
+      raw: 清嘉庆十七年
+    death:
+      date: '1885-11-18'
+      precision: day
+      is_circa: false
+      raw: 光绪十一年
+  birth_date: '1812-11-10'
+  death_date: '1885-11-18'
+  era: 清代（咸丰—光绪）
+  reign_ref: 咸丰、同治
+  archetype: 湘军统帅与疆臣
+  dilemmas:
+  - 佐幕湖南与自领一军之间的角色抉择
+  - 襄办曾国藩军务与独当一面督办浙江军务
+  lesson: 临危受命，由襄办而独任方面，以治军干略起家
+  summary_first_person: 我是左宗棠，咸丰年间由曾国藩奏调襄办军务，被擢四品京堂，旋奉命督办浙江军务，克复德兴、婺源，败贼于景德镇、乐平，以三品京卿渐任方面。
+  source_urls:
+  - ' 清史稿·文宗本纪'
+endeavors:
+- id: guji-左宗棠-endeavor-1
+  name_zh: 襄办湘军与规浙军务
+  phases:
+  - key: brewing
+    name_zh: 入参戎幕
+    labels:
+      zh: 佐幕
+    start_date: '1852-01-01'
+    highlight_event_id: guji-左宗棠-event-appointment
+  - key: breakthrough
+    name_zh: 擢授京堂
+    labels:
+      zh: 授职
+    start_date: '1860-06-01'
+    highlight_event_id: guji-左宗棠-event-appointment
+  - key: climax
+    name_zh: 督办浙江
+    labels:
+      zh: 领军
+    start_date: '1860-10-01'
+    highlight_event_id: guji-左宗棠-event-zhejiang
+  - key: closure
+    name_zh: 屡奏克复
+    labels:
+      zh: 战功
+    start_date: '1860-12-01'
+    highlight_event_id: guji-左宗棠-event-victory
+  decisions:
+  - date: '1860-06-01'
+    title_zh: 受擢四品京堂，襄办曾国藩军务
+    rationale: 江南大营溃败，两江总督何桂清褫职，曾国藩署两江总督，亟需干才襄办军务
+  - date: '1860-10-01'
+    title_zh: 奉命督办浙江军务
+    rationale: 浙江全省糜烂，朝廷命其专任方面之责
+events:
+- id: guji-左宗棠-event-birth
+  date: '1812-11-10'
+  year_of: 1812
+  type: birth
+  description_zh: 左宗棠生于清嘉庆十七年
+- id: guji-左宗棠-event-death
+  date: '1885-11-18'
+  year_of: 1885
+  type: death
+  description_zh: 左宗棠卒
+- id: guji-左宗棠-event-appointment
+  date: '1860-06-01'
+  year_of: 1860
+  type: endeavor_milestone
+  endeavor_id: guji-左宗棠-endeavor-1
+  description_zh: 咸丰十年四月癸未，擢兵部郎中左宗棠四品京堂，襄办曾国藩军务
+- id: guji-左宗棠-event-zhejiang
+  date: '1860-10-01'
+  year_of: 1860
+  type: endeavor_milestone
+  endeavor_id: guji-左宗棠-endeavor-1
+  description_zh: 咸丰十年九月甲辰，命左宗棠督办浙江军务
+- id: guji-左宗棠-event-victory
+  date: '1860-12-01'
+  year_of: 1860
+  type: endeavor_battle
+  endeavor_id: guji-左宗棠-endeavor-1
+  description_zh: 十二月丙子，左宗棠奏督军克复江西德兴、安徽婺源，予三品京卿
+- id: guji-左宗棠-event-jingdezhen
+  date: '1861-02-01'
+  year_of: 1861
+  type: endeavor_battle
+  endeavor_id: guji-左宗棠-endeavor-1
+  description_zh: 咸丰十一年二月庚午，曾国藩奏左宗棠败贼于景德镇；四月乙亥复败贼于乐平
+- id: guji-左宗棠-event-raozhou
+  date: '1861-01-01'
+  year_of: 1861
+  type: endeavor_battle
+  endeavor_id: guji-左宗棠-endeavor-1
+  description_zh: 咸丰十一年正月癸卯，左宗棠兵复饶州暨都梁
