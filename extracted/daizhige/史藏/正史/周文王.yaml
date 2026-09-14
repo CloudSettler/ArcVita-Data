@@ -1,0 +1,107 @@
+person:
+  qid: guji-周文王
+  name_zh: 周文王
+  names:
+    zh: 周文王（姬昌、西伯昌）
+    en: King Wen of Zhou (Ji Chang)
+  lifespan:
+    birth:
+      date: -1152
+      precision: year
+      is_circa: true
+      raw: 约商末生于周原岐下
+    death:
+      date: -1056
+      precision: year
+      is_circa: true
+      raw: 西伯崩，葬毕原
+  birth_date: -1152
+  death_date: -1056
+  era: 商末周先
+  reign_ref: 西伯／受命称王
+  archetype: carer
+  dilemmas:
+  - 忍辱事纣以救周基
+  - 以德让地与武力扩张之间的取舍
+  lesson: 积善累德、笃仁敬老，方能众望所归
+  summary_first_person: 我姬昌继后稷、公刘、古公、公季之业，笃仁敬老慈少，礼贤下士，虽被囚羑里而推演八卦为六十四卦，受命称王，伐犬戎、密须、耆、邘、崇而作丰邑，为周之兴起奠定基业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記·周本紀
+endeavors:
+- id: guji-周文王-endeavor-1
+  name_zh: 兴周基业
+  phases:
+  - key: brewing
+    name_zh: 嗣立西伯
+    labels:
+      zh: 继业养贤
+    start_date: -1101
+    highlight_event_id: guji-周文王-event-succession
+  - key: breakthrough
+    name_zh: 囚羑里演易
+    labels:
+      zh: 忍辱演易
+    start_date: -1144
+    highlight_event_id: guji-周文王-event-imprisoned
+  - key: climax
+    name_zh: 受命征伐
+    labels:
+      zh: 受命称王
+    start_date: -1059
+    highlight_event_id: guji-周文王-event-mandate
+  - key: closure
+    name_zh: 迁都作丰
+    labels:
+      zh: 作丰而崩
+    start_date: -1057
+    highlight_event_id: guji-周文王-event-feng
+  decisions:
+  - date: -1058
+    title_zh: 献洛西之地请去炮烙之刑
+    rationale: 以德收天下之心，减轻纣之暴政
+  - date: -1057
+    title_zh: 伐崇侯虎而作丰邑
+    rationale: 除谮己之敌，自岐下徙都丰以为灭商之基
+events:
+- id: guji-周文王-event-birth
+  person: guji-周文王
+  type: birth
+  date: -1152
+  year_of: -1152
+  summary: 季歴娶太任生昌，有圣瑞，古公曰我世当有兴者其在昌乎
+- id: guji-周文王-event-succession
+  person: guji-周文王
+  type: endeavor
+  date: -1101
+  year_of: -1101
+  summary: 公季卒，子昌立，是为西伯，遵后稷公刘之业，则古公公季之法
+- id: guji-周文王-event-imprisoned
+  person: guji-周文王
+  type: endeavor
+  date: -1144
+  year_of: -1144
+  summary: 崇侯虎谮西伯于纣，帝纣乃囚西伯于羑里，益易之八卦为六十四卦；闳夭求美女文马献纣得赦
+- id: guji-周文王-event-mandate
+  person: guji-周文王
+  type: endeavor
+  date: -1059
+  year_of: -1059
+  summary: 虞芮之讼因西伯之德而俱让而去，诸侯以为受命之君，称王断虞芮之讼
+- id: guji-周文王-event-conquests
+  person: guji-周文王
+  type: endeavor
+  date: -1058
+  year_of: -1058
+  summary: 伐犬戎、密须、败耆国、伐邘、伐崇侯虎，连年扩张西土
+- id: guji-周文王-event-feng
+  person: guji-周文王
+  type: endeavor
+  date: -1057
+  year_of: -1057
+  summary: 既伐崇，作丰邑，自岐下而徙都丰
+- id: guji-周文王-event-death
+  person: guji-周文王
+  type: death
+  date: -1056
+  year_of: -1056
+  summary: 西伯即位五十年崩，太子发立，谥为文王，葬于毕原

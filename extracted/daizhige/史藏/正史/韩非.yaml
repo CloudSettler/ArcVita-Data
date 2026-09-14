@@ -1,0 +1,105 @@
+person:
+  qid: guji-hanfei
+  name_zh: 韩非
+  names:
+    zh: 韩非
+    en: Han Fei
+  lifespan:
+    birth:
+      date: -280
+      precision: year
+      is_circa: true
+      raw: 约战国末期
+    death:
+      date: -233
+      precision: year
+      is_circa: false
+      raw: 秦王政十四年前后
+  birth_date: -280
+  death_date: -233
+  era: 战国末期
+  reign_ref: 秦王政在位时期
+  archetype: 法家思想家
+  dilemmas:
+  - 身为韩国公子而学说见用于秦
+  - 著书明法术而终为同门李斯所构
+  lesson: 著书立说可传后世，然法术之学不见用于故国，反致杀身
+  summary_first_person: 我为韩国宗室公子，口吃不能道说而善著书，与李斯同事荀卿，作孤愤、五蠹等篇，秦王读而慕之；既出使于秦，为李斯、姚贾所害，死于云阳狱中，而法家之学由是益显。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記正義
+endeavors:
+- id: guji-hanfei-endeavor-1
+  name_zh: 仕韩与著书
+  phases:
+  - key: brewing
+    name_zh: 学于荀卿
+    labels:
+      zh:
+      - 求学
+    start_date: -260
+    highlight_event_id: guji-hanfei-event-study
+  - key: breakthrough
+    name_zh: 著孤愤五蠹
+    labels:
+      zh:
+      - 著书
+    start_date: -240
+    highlight_event_id: guji-hanfei-event-writing
+  decisions:
+  - date: -240
+    title_zh: 屡谏韩王不用而退而著书
+    rationale_zh: 韩王不能用其法术之说，故发愤著书十余万言以明意
+- id: guji-hanfei-endeavor-2
+  name_zh: 使秦遇害
+  phases:
+  - key: climax
+    name_zh: 出使秦国
+    labels:
+      zh:
+      - 使秦
+    start_date: -234
+    highlight_event_id: guji-hanfei-event-envoy
+  - key: closure
+    name_zh: 下狱而死
+    labels:
+      zh:
+      - 遇害
+    start_date: -233
+    highlight_event_id: guji-hanfei-event-death
+  decisions:
+  - date: -234
+    title_zh: 自请为韩使于秦
+    rationale_zh: 秦王攻韩，韩王乃遣非使秦以缓兵
+events:
+- id: guji-hanfei-event-birth
+  event_type: birth
+  date: -280
+  year_of: -280
+  title_zh: 韩非约生于战国末年
+  description_zh: 韩之诸公子也，与李斯俱事荀卿，斯自以为不如非。
+- id: guji-hanfei-event-study
+  event_type: endeavor
+  date: -260
+  year_of: -260
+  title_zh: 与李斯同师荀卿
+  description_zh: 非见韩之削弱，数以书谏韩王，韩王不能用。
+  participants:
+  - guji-hanfei
+- id: guji-hanfei-event-writing
+  event_type: endeavor
+  date: -240
+  year_of: -240
+  title_zh: 作孤愤五蠹内外储说等篇
+  description_zh: 疾治国不务修明其法制，悲廉直不容于邪枉之臣，故作孤愤、五蠹、内外储、说林、说难十余万言。
+- id: guji-hanfei-event-envoy
+  event_type: endeavor
+  date: -234
+  year_of: -234
+  title_zh: 韩王遣非使秦
+  description_zh: 秦王见孤愤五蠹之书曰得见此人与之游死不恨矣，急攻韩；韩王始不用非，及急乃遣非使秦。
+- id: guji-hanfei-event-death
+  event_type: death
+  date: -233
+  year_of: -233
+  title_zh: 李斯姚贾毁之，非下狱死
+  description_zh: 李斯、姚贾害之，毁之曰非终为韩不为秦；秦王以为然，下吏治非，李斯使人遗非药使自杀，遂死云阳狱中。

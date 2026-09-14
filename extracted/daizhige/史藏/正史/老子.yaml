@@ -1,0 +1,104 @@
+person:
+  qid: guji-老子
+  name_zh: 老子
+  names:
+    zh: 老子
+    en: Laozi
+  lifespan:
+    birth:
+      date: -571
+      precision: year
+      is_circa: true
+      raw: 约公元前571年
+    death:
+      date: -471
+      precision: year
+      is_circa: true
+      raw: 约公元前471年
+  birth_date: 约公元前571年
+  death_date: 约公元前471年
+  era: 春秋时期
+  reign_ref: 周朝
+  archetype: 思想家
+  dilemmas:
+  - 出关隐去与留下五千言之间的抉择
+  - 守藏室之史的现实职务与道家理想之间的张力
+  lesson: 无为而治，大道至简
+  summary_first_person: 我为周守藏室之史，见周之衰，遂去关著书上下篇言道德之意，莫知所终。
+  source_urls:
+  - https://ctext.org/shiji/laozi-hanfei-zhuan
+endeavors:
+- id: guji-老子-endeavor-1
+  name_zh: 任职周室与著述道德经
+  phases:
+  - key: brewing
+    name_zh: 治学守藏
+    labels:
+      zh:
+      - 求道
+      - 仕周
+    start_date: -560
+  - key: breakthrough
+    name_zh: 著书上下篇
+    labels:
+      zh:
+      - 道德经
+    start_date: -485
+    highlight_event_id: guji-老子-event-writing
+  - key: closure
+    name_zh: 出关隐去
+    labels:
+      zh:
+      - 莫知所终
+    start_date: -480
+    highlight_event_id: guji-老子-event-departure
+  decisions:
+  - date: -485
+    title_zh: 应关令尹喜之请著书
+    rationale: 见周之衰，去周西行，被迫留言以传道
+- id: guji-老子-endeavor-2
+  name_zh: 创立道家学说
+  phases:
+  - key: brewing
+    name_zh: 观天地之变
+    labels:
+      zh:
+      - 思索
+    start_date: -540
+  - key: climax
+    name_zh: 无为而治之教
+    labels:
+      zh:
+      - 道家
+    start_date: -490
+    highlight_event_id: guji-老子-event-writing
+  decisions:
+  - date: -490
+    title_zh: 取法自然立无为教
+    rationale: 深察世事纷争，主张清静自正
+events:
+- id: guji-老子-event-birth
+  type: birth
+  date: -571
+  year_of: -571
+  summary: 老子约生于春秋末期，楚国苦县厉乡曲仁里人（一说陈国相人）。
+- id: guji-老子-event-service
+  type: endeavor
+  date: -538
+  year_of: -538
+  summary: 任周守藏室之史，掌管王室典籍，得以博览群书。
+- id: guji-老子-event-writing
+  type: endeavor
+  date: -485
+  year_of: -485
+  summary: 西出函谷关，应关令尹喜之请，著《道德经》上下篇五千余言。
+- id: guji-老子-event-departure
+  type: endeavor
+  date: -480
+  year_of: -480
+  summary: 著书既毕，出关而去，莫知其所终。
+- id: guji-老子-event-death
+  type: death
+  date: -471
+  year_of: -471
+  summary: 老子卒年不详，约在战国初年离世，世莫知其然否。

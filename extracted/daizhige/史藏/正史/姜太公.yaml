@@ -1,0 +1,177 @@
+person:
+  qid: guji-姜太公
+  name_zh: 姜太公
+  names:
+    zh: 姜太公、吕尚、太公望、齐太公
+    en: Jiang Taigong (Lü Shang)
+  lifespan:
+    birth:
+      date: -1128
+      precision: year
+      is_circa: true
+      raw: 约商末，生年不详
+    death:
+      date: -1015
+      precision: year
+      is_circa: true
+      raw: 约周康王时卒，享年盖百余岁
+  era: 商末周初
+  reign_ref: 周文王、周武王、成王、康王
+  archetype: 开国辅臣 / 军师鼻祖
+  dilemmas:
+  - 年老穷困，钓于渭滨以待时机，贤而未遇
+  - 佐周伐商，代天行罚与助纣为虐之抉择
+  - 封于齐enf，就国偏远海滨之齐，经营新邦
+  lesson: 大器晚成，待时而动；佐命开邦，治齐因俗简礼，通渔盐之利，遂成大国。
+  summary_first_person: 我吕尚年老犹垂钓渭滨，终为文王所遇，号为太公望；佐武王伐纣灭商，首封营丘建立齐国，因俗简礼、通鱼盐之利，齐国由此富强，我亦为周师兼冢宰，辅成康之世，为一个军事家、政治家与齐国开国之祖。
+  birth_date: 约前1128年（商末，生年不详）
+  death_date: 约前1015年
+  source_urls:
+  - https://zh.wikipedia.org/wiki/姜太公
+  - https://www.ctext.org/book-of-documents
+endeavors:
+- id: guji-姜太公-endeavor-1
+  name_zh: 渭滨待遇与佐周灭商
+  phases:
+  - key: brewing
+    name_zh: 穷困垂钓
+    labels:
+      zh: 屠牛卖食、钓于渭滨
+    start_date: -1130
+    highlight_event_id: guji-姜太公-event-wenwang-yu
+  - key: breakthrough
+    name_zh: 文王载归
+    labels:
+      zh: 太公望、师尚父
+    start_date: -1056
+    highlight_event_id: guji-姜太公-event-wenwang-yu
+  - key: climax
+    name_zh: 牧野灭商
+    labels:
+      zh: 佐武王伐纣、鹰扬牧野
+    start_date: -1046
+    highlight_event_id: guji-姜太公-event-faqin
+  decisions:
+  - date: -1056
+    title_zh: 就见文王，同载而归
+    rationale: 文王曰吾太公望子久矣，故号太公望，立为师。
+  - date: -1046
+    title_zh: 佐武王牧野决战
+    rationale: 纣杀比干、囚箕子，太公强劝武王，遂伐纣。
+- id: guji-姜太公-endeavor-2
+  name_zh: 封齐建国与治齐强国
+  phases:
+  - key: brewing
+    name_zh: 东就国迟
+    labels:
+      zh: 夜衣而行，犁明至国
+    start_date: -1045
+    highlight_event_id: guji-姜太公-event-jianguo
+  - key: breakthrough
+    name_zh: 莱人来争营丘
+    labels:
+      zh: 击退莱侯，定都营丘
+    start_date: -1045
+    highlight_event_id: guji-姜太公-event-jianguo
+  - key: climax
+    name_zh: 通商渔盐富国
+    labels:
+      zh: 通鱼盐、极技巧、人民多归齐
+    start_date: -1044
+    highlight_event_id: guji-姜太公-event-fuguo
+  - key: closure
+    name_zh: 平叛受命征伐
+    labels:
+      zh: 五侯九伯实得征之
+    start_date: -1040
+    highlight_event_id: guji-姜太公-event-zhengfa
+  decisions:
+  - date: -1045
+    title_zh: 闻莱人来争，夜衣而行
+    rationale: 争国不可迟，犁明至营丘击退莱侯。
+  - date: -1044
+    title_zh: 政治因俗简礼，通渔盐之利
+    rationale: 因其俗，简其礼，通商工之业，便鱼盐之利，齐由此富强。
+events:
+- id: guji-姜太公-event-birth
+  date: -1128
+  year_of: -1128
+  year: -1128
+  title_zh: 姜太公（吕尚）出生
+  detail_zh: 约生于商末，具体年份不详，推测约为前1128年。
+  label_zh: 出生
+  location_zh: 东夷或吕地
+  event_type: birth
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-bozhong
+  date: -1100
+  year_of: -1100
+  title_zh: 穷困屠牛、卖食于市，年老仍不遇
+  detail_zh: 尝屠牛于朝歌，卖食于孟津，穷困年老，隐于渭滨垂钓。
+  label_zh: 早年行藏
+  location_zh: 朝歌、孟津、渭滨
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-wenwang-yu
+  date: -1056
+  year_of: -1056
+  title_zh: 文王出猎渭滨遇太公
+  detail_zh: 文王将出猎，卜之曰所获非龙非彲非虎非罴，所获霸王之辅；果遇太公于渭之阳，与语大悦，同载而归，立为师，号太公望。
+  label_zh: 君臣相遇
+  location_zh: 渭水之滨
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-faqin
+  date: -1046
+  year_of: -1046
+  title_zh: 佐武王牧野伐纣，灭商建周
+  detail_zh: 武王以师尚父为帅，牧野之战大破纣军，纣走登鹿台自焚，商亡周立。
+  label_zh: 牧野之战
+  location_zh: 牧野
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+  - 周武王
+- id: guji-姜太公-event-jianguo
+  date: -1045
+  year_of: -1045
+  title_zh: 首封封齐，就国营丘
+  detail_zh: 武王首封太公于齐营丘，莱侯来伐争营丘，太公夜衣而行，犁明至国，击退莱人，遂定。
+  label_zh: 开国封齐
+  location_zh: 齐国营丘
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-fuguo
+  date: -1044
+  year_of: -1044
+  title_zh: 治齐因俗简礼、通鱼盐，齐渐富强
+  detail_zh: 太公至国，因其俗，简其礼，通商工之业，便鱼盐之利，人民多归齐，齐为大国。
+  label_zh: 治国有成
+  location_zh: 齐国
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-zhengfa
+  date: -1040
+  year_of: -1040
+  title_zh: 成王命齐得征伐五侯九伯
+  detail_zh: 周成王时管蔡作乱、淮夷叛周，成王使召康公命太公曰东至海、西至河、南至穆陵、北至无棣，五侯九伯实得征之，齐由此得专征伐，为大国。
+  label_zh: 受命征伐
+  location_zh: 齐国
+  event_type: career
+  persons_involved:
+  - guji-姜太公
+- id: guji-姜太公-event-death
+  date: -1015
+  year_of: -1015
+  title_zh: 姜太公卒
+  detail_zh: 约死于周康王六年（一说康王时期），享年盖百余岁，葬于周。其子丁公吕伋继立。
+  label_zh: 卒
+  location_zh: 齐国（葬于周）
+  event_type: death
+  persons_involved:
+  - guji-姜太公

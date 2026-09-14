@@ -1,0 +1,142 @@
+person:
+  qid: guji-郑庄公
+  name_zh: 郑庄公
+  names:
+    zh: 郑庄公
+    en: Duke Zhuang of Zheng
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详（周桓王尚在位时已卒，事见桓王二十三年前）
+  birth_date: ''
+  death_date: ''
+  era: 春秋
+  reign_ref: 郑国国君（春秋初期）
+  archetype: 挟天子以令诸侯的强藩之君
+  dilemmas:
+  - 周桓王于其朝见时无礼，郑怨而与鲁易许田，体现对王室尊卑与本国利益的抉择
+  - 桓王率师伐郑，郑军射伤王肩，胜而未敢穷追，须权衡胜王与名义
+  lesson: 王权衰微时，强藩以实力 dispute 天子之礼，虽胜犹存顾忌，礼与力之冲突终启春秋争霸之局
+  summary_first_person: 我郑庄公朝见周桓王而遭无礼之遇，遂怨而与鲁互换许田；桓王亲率诸侯伐我，我军射王中肩，王师败归，周室之威自此益衰。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+endeavors:
+- id: guji-郑庄公-endeavor-1
+  name_zh: 朝王受挫与许田之易
+  phases:
+  - key: brewing
+    name_zh: 朝王不礼
+    labels:
+      zh:
+      - 朝见
+      - 受辱
+    start_date: -717-01-01
+    highlight_event_id: guji-郑庄公-event-001
+  - key: breakthrough
+    name_zh: 怨而易田
+    labels:
+      zh:
+      - 换地
+      - 利益
+    start_date: -715-01-01
+    highlight_event_id: guji-郑庄公-event-002
+  decisions:
+  - date: -715-01-01
+    title_zh: 与鲁易许田
+    rationale: 郑怨桓王不礼，欲以祊田易天子用以事泰山之许田，各从本国所近之宜
+- id: guji-郑庄公-endeavor-2
+  name_zh: 抗王师射桓王
+  phases:
+  - key: climax
+    name_zh: 繻葛之役
+    labels:
+      zh:
+      - 伐郑
+      - 射王
+    start_date: -707-01-01
+    highlight_event_id: guji-郑庄公-event-003
+  - key: closure
+    name_zh: 胜而不追
+    labels:
+      zh:
+      - 收兵
+    start_date: -707-01-01
+    highlight_event_id: guji-郑庄公-event-004
+  decisions:
+  - date: -707-01-01
+    title_zh: 拒王师而战
+    rationale: 桓王亲率师伐郑，郑不束手，迎战而射伤桓王
+events:
+- id: guji-郑庄公-event-birth
+  person_id: guji-郑庄公
+  type: birth
+  date: ''
+  year_of: ''
+  precision: unknown
+  is_circa: true
+  title_zh: 郑庄公生
+  description: 生年史无明文
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+- id: guji-郑庄公-event-001
+  person_id: guji-郑庄公
+  type: endeavor
+  date: -717-01-01
+  year_of: -717
+  precision: year
+  is_circa: true
+  title_zh: 郑庄公朝周桓王，桓王不礼
+  description: 桓王三年，郑庄公来朝，王不礼之，郑由此生怨
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+- id: guji-郑庄公-event-002
+  person_id: guji-郑庄公
+  type: endeavor
+  date: -715-01-01
+  year_of: -715
+  precision: year
+  is_circa: true
+  title_zh: 郑与鲁易许田
+  description: 桓王五年，郑怨，与鲁交换许田；许田为天子用事泰山之田
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+- id: guji-郑庄公-event-003
+  person_id: guji-郑庄公
+  type: endeavor
+  date: -707-01-01
+  year_of: -707
+  precision: year
+  is_circa: true
+  title_zh: 周桓王伐郑，郑射伤桓王
+  description: 桓王十三年伐郑，郑军射伤桓王，王去而归
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+- id: guji-郑庄公-event-004
+  person_id: guji-郑庄公
+  type: endeavor
+  date: -707-01-01
+  year_of: -707
+  precision: year
+  is_circa: true
+  title_zh: 郑胜王师而收兵
+  description: 射王中肩之后郑不再追击，战事遂止
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
+- id: guji-郑庄公-event-death
+  person_id: guji-郑庄公
+  type: death
+  date: ''
+  year_of: ''
+  precision: unknown
+  is_circa: true
+  title_zh: 郑庄公卒
+  description: 卒年具体干支无明文，事在周桓王之世
+  source_urls:
+  - https://zh.wikisource.org/wiki/史记/卷004
