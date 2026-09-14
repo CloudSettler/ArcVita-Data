@@ -1,0 +1,136 @@
+person:
+  qid: guji-左丘明
+  name_zh: 左丘明
+  names:
+    zh: 左丘明
+    en: Zuo Qiuming
+  lifespan:
+    birth:
+      date: -556
+      precision: year
+      is_circa: true
+      raw: 春秋末期鲁国太史，生年不详，相传约与孔子同时或稍前
+    death:
+      date: -451
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 约前556年（不详，一说略早于孔子）
+  death_date: 约前451年（不详）
+  era: 春秋末期
+  archetype: 史官 / 经传撰者
+  dilemmas:
+  - 双目失明后仍口述著史，如何在不便目视的晚年完成浩繁的编年与国语之撰
+  - 传《春秋》应以解经为体，抑或广记诸国言行而自成《国语》一书，两条路径如何兼顾
+  - 身为鲁国太史，面临存史职责与政治风险的冲突，直书与避祸之间如何取舍
+  lesson: 以口述与笔录相结合的方式传经存史，说明著述之志可克服身体与制度之限。
+  summary_first_person: 我是春秋末期鲁国太史左丘明，世代为史官，相传与孔子同时。孔子作《春秋》，我惧弟子各执异辞、失其真意，于是为之作传，合三十篇，世称《左氏传》；又撰《国语》，上起周穆王，下迄敬王，记诸侯之事，凡二十一篇。晚年失明，犹口述成书，使经义与史事得以并存。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/左丘明
+endeavors:
+- id: guji-左丘明-endeavor-1
+  name_zh: 撰《左氏春秋传》
+  phases:
+  - key: brewing
+    name_zh: 世为太史，熟谙鲁史
+    labels:
+      zh:
+      - 家学渊源
+      - 鲁国太史
+    start_date: -540
+  - key: breakthrough
+    name_zh: 惧弟子异辞，作传解经
+    labels:
+      zh:
+      - 左氏传
+      - 春秋之传
+    start_date: -480
+    highlight_event_id: guji-左丘明-event-leftzhuan
+  - key: climax
+    name_zh: 编年记事，具论本末
+    labels:
+      zh:
+      - 三十篇
+      - 成书
+    start_date: -470
+  - key: closure
+    name_zh: 传经后世，列为经
+    labels:
+      zh:
+      - 春秋左传
+      - 古文经学之源
+    start_date: -450
+  decisions:
+  - date: -480
+    title_zh: 决意为《春秋》作传，合三十篇
+    rationale: 孔子作《春秋》托之鲁史，恐弟子异辞失真，故作传以明经义。
+- id: guji-左丘明-endeavor-2
+  name_zh: 撰《国语》
+  phases:
+  - key: brewing
+    name_zh: 采列国言行史料
+    labels:
+      zh:
+      - 采列国旧闻
+    start_date: -478
+  - key: breakthrough
+    name_zh: 分国记言，编次成书
+    labels:
+      zh:
+      - 国语
+      - 分国记言
+    start_date: -472
+    highlight_event_id: guji-左丘明-event-guoyu
+  - key: climax
+    name_zh: 记周鲁齐晋郑楚吴越八国事
+    labels:
+      zh:
+      - 二十一篇
+    start_date: -460
+  - key: closure
+    name_zh: 与《左传》并行，为千古国别史之祖
+    labels:
+      zh:
+      - 国别史之祖
+    start_date: -450
+  decisions:
+  - date: -472
+    title_zh: 决定以国别体撰《国语》，上起周穆王下迄敬王
+    rationale: 拟解经之传外别存列国言行，故分国记言，凡二十一篇。
+events:
+- id: guji-左丘明-event-birth
+  date: -556
+  year_of: -556
+  type: birth
+  title_zh: 左丘明出生（约）
+  summary_zh: 相传为春秋末期鲁国太史司马氏之后，生年不详，约略定于前556年。
+- id: guji-左丘明-event-zuoshi
+  date: -526
+  year_of: -526
+  type: career
+  title_zh: 世为鲁国太史
+  summary_zh: 左丘明出史官世家，任鲁国太史，掌记时事，职掌典册。
+- id: guji-左丘明-event-leftzhuan
+  date: -480
+  year_of: -480
+  type: endeavor_launch
+  title_zh: 惧弟子异辞，决意作《左氏传》以解《春秋》
+  summary_zh: 相传孔子作《春秋》，丘明虑弟子异辞，为作传合三十篇，是《春秋左传》之源。
+- id: guji-左丘明-event-guoyu
+  date: -472
+  year_of: -472
+  type: endeavor_launch
+  title_zh: 撰《国语》，分国记言
+  summary_zh: 上起周穆王，下迄敬王，其诸侯之事起鲁庄公迄春秋末，凡二十一篇。
+- id: guji-左丘明-event-blind
+  date: -465
+  year_of: -465
+  type: adversity
+  title_zh: 相传晚年失明，口述著书
+  summary_zh: 相传双目失明后，仍口述史事，赖弟子笔录成传成编。
+- id: guji-左丘明-event-death
+  date: -451
+  year_of: -451
+  type: death
+  title_zh: 左丘明去世（约）
+  summary_zh: 卒年不详，相传晚年归隐，约卒于前451年前后，墓葬之说多异。

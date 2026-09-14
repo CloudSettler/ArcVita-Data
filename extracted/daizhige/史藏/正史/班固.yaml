@@ -1,0 +1,95 @@
+person:
+  qid: guji-班固
+  name_zh: 班固
+  names:
+    zh: 班固
+    en: Ban Gu
+  lifespan:
+    birth:
+      date: '32'
+      precision: year
+      is_circa: true
+      raw: 后汉初期
+    death:
+      date: '92'
+      precision: year
+      is_circa: true
+  birth_date: 约32年
+  death_date: 约92年
+  era: 东汉
+  reign_ref: 汉明帝
+  archetype: 史学家
+  dilemmas:
+  - 承父业续写汉史与私修国史之嫌的张力
+  lesson: 继承父志，勒成一家，成《汉书》断代史之首
+  summary_first_person: 我字孟坚，扶风人。父班彪续《太史公书》，我在此基础上撰《汉书》，作《司马迁传》评其采书与得失，明帝时仕至中护军。
+  source_urls:
+  - https://ctext.org/
+endeavors:
+- id: guji-班固-endeavor-1
+  name_zh: 续修《史记》之余
+  phases:
+  - key: brewing
+    name_zh: 承父班彪之业
+    labels:
+      zh: 续太史公书
+    start_date: 约54年
+  - key: breakthrough
+    name_zh: 私撰汉史
+    labels:
+      zh: 撰《汉书》
+    start_date: 约58年
+  - key: climax
+    name_zh: 奉诏修史
+    labels:
+      zh: 明帝时仕至中护军
+    start_date: 约62年
+  decisions:
+  - date: 约62年
+    title_zh: 在班彪《史记后传》基础上撰《汉书》
+    rationale: 承父遗业，断代为史，勒成一家之言
+- id: guji-班固-endeavor-2
+  name_zh: 史评与著述
+  phases:
+  - key: breakthrough
+    name_zh: 作《司马迁传》
+    labels:
+      zh: 评迁采书与得失
+    start_date: 约70年
+  decisions:
+  - date: 约70年
+    title_zh: 于《汉书·司马迁传》评《史记》所采之书兼论得失
+    rationale: 辨章学术，考镜源流，为后世史评范式
+events:
+- id: guji-班固-event-birth
+  event_type_id: birth
+  date: '32'
+  date_precision: year
+  year_of: 32
+  date_is_circa: true
+  description: 估计之出生年份
+- id: guji-班固-event-death
+  event_type_id: death
+  date: '92'
+  date_precision: year
+  year_of: 92
+  date_is_circa: true
+  description: 估计之卒年
+- id: guji-班固-event-hanshu
+  event_type_id: achievement
+  date: '62'
+  date_precision: circa
+  year_of: 62
+  date_is_circa: true
+  description: 承父班彪之业撰《汉书》，作《司马迁传》评其采《左氏》《国语》《世本》《战国策》《楚汉春秋》等书并论得失
+  endeavor_ids:
+  - guji-班固-endeavor-1
+- id: guji-班固-event-official
+  event_type_id: career
+  date: '70'
+  date_precision: circa
+  year_of: 70
+  date_is_circa: true
+  description: 后汉明帝时仕至中护军
+  endeavor_ids:
+  - guji-班固-endeavor-2

@@ -1,0 +1,100 @@
+person:
+  qid: guji-liuxiang
+  name_zh: 刘向
+  names:
+    zh: 刘向
+    en: Liu Xiang
+  lifespan:
+    birth:
+      date: -77
+      precision: year
+      is_circa: true
+      raw: 约公元前77年
+    death:
+      date: -6
+      precision: year
+      is_circa: true
+      raw: 约公元前6年
+  birth_date: 约公元前77年
+  death_date: 约公元前6年
+  era: 西汉
+  reign_ref: 汉宣帝至汉哀帝年间
+  archetype: 校书学者
+  dilemmas:
+  - 欲尽录旧说以存古义，又须删其游辞以取要实
+  lesson: 典籍散佚之际，唯有勤于校雠整理，方能令古学不坠。
+  summary_first_person: 我一生校理群书，撰《别录》，定《战国策》三十三篇之名，为后世经籍之学开先路。
+  source_urls:
+  - https://zh.wikisource.org/wiki/史記索隱
+endeavors:
+- id: guji-liuxiang-endeavor-1
+  name_zh: 校订《世本》《战国策》
+  labels:
+    zh:
+    - 校雠
+    - 编订典籍
+  phases:
+  - key: brewing
+    name_zh: 校理群书
+    labels:
+      zh:
+      - 天禄阁校书
+    start_date: -26
+  - key: breakthrough
+    name_zh: 撰成《别录》
+    labels:
+      zh:
+      - 撮其指意
+    start_date: -26
+  - key: closure
+    name_zh: 定名《战国策》
+    labels:
+      zh:
+      - 定其书名
+    start_date: -25
+  decisions:
+  - date: -26
+    title_zh: 撰《别录》以撮群书指意
+    rationale: 群书繁多，须别标书目、撮举大旨，俾读者知其源流。
+  - date: -25
+    title_zh: 定《战国策》三十三篇之名
+    rationale: 中秘书所藏多称《国策》《国事》《短长》诸名，宜删重去复，定为一书而正其名。
+events:
+- id: guji-liuxiang-event-birth
+  date: '-77'
+  year_of: -77
+  title_zh: 刘向约为楚元王交之后，生于西汉
+  event_type: birth
+  related_entities:
+  - 楚元王世家
+- id: guji-liuxiang-event-biezhu
+  date: -26-01-01
+  year_of: -26
+  title_zh: 奉诏校中秘书，撰《别录》，谓“《世本》，古史官明于古事者之所记也”——论《世本》《战国策》诸书源流
+  event_type: endeavor_event
+  endeavor_id: guji-liuxiang-endeavor-1
+  phase_key: breakthrough
+  description: 典校中秘书籍，于每一书后辄条其篇目，撮其指意，录而奏之，成《别录》；其中论及《世本》为古史官所记、录黄帝已来帝王诸侯系谥名号，又言“《战国策》，六国时纵横之说也”，撰为三十三篇而定其名。
+  related_entities:
+  - 战国策
+  - 世本
+  - 长安
+- id: guji-liuxiang-event-sanzhao
+  date: -25-01-01
+  year_of: -25
+  title_zh: 引“刘向《别录》云：孔子见鲁哀公问政，比三朝，退而为此纪”——《别录》论《黄帝三朝》七篇并入《大戴礼记》
+  event_type: endeavor_event
+  endeavor_id: guji-liuxiang-endeavor-1
+  phase_key: closure
+  description: 《别录》考语为后世史书注家所引，如司马贞《史记索隐》注《五帝本纪》引之，以明《三朝》七篇之传授，其学术影响远及唐世。
+  related_entities:
+  - 大戴礼记
+  - 史记索隐
+- id: guji-liuxiang-event-death
+  date: '-6'
+  year_of: -6
+  title_zh: 刘向约卒，其说为扬雄、班固所称
+  event_type: death
+  related_entities:
+  - 扬雄
+  - 班固
