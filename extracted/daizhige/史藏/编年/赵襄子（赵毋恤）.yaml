@@ -1,0 +1,115 @@
+person:
+  qid: guji-赵襄子
+  name_zh: 赵襄子
+  names:
+    zh: 赵襄子（赵毋恤）
+    en: Zhao Xiangzi (Zhao Wuxu)
+  lifespan:
+    birth:
+      date: -0487
+      precision: approximate
+      is_circa: true
+      raw: 生年不详，约战国初期
+    death:
+      date: '-0425'
+      precision: approximate
+      is_circa: true
+      raw: 卒年不详
+  birth_date: -0487
+  death_date: '-0425'
+  era: 春秋战国之际
+  reign_ref: 晋国赵氏宗主
+  archetype: 沉毅忍辱、以退为进的守成开拓者
+  dilemmas:
+  - 面对智伯索地，宁被围攻而不割让祖业
+  - 弃长子近城与邯郸富邑，选择民心所归的晋阳
+  lesson: 城郭之固不如民心之和，忍一时之辱方能成千秋之业
+  summary_first_person: 我乃赵简子幼子毋恤，以诵简得立为后。智伯索地于我，我不与，遂奔晋阳，坚守孤城，民无叛意。终联合韩魏灭智氏，三分晋国，赵氏由大夫而列于诸侯。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑/卷第一
+endeavors:
+- id: guji-赵襄子-endeavor-1
+  name_zh: 得立为后
+  phases:
+  - key: brewing
+    name_zh: 受简受训
+    labels:
+      zh: 训戒之辞
+    start_date: -0480
+  - key: breakthrough
+    name_zh: 袖简诵辞
+    labels:
+      zh: 出简于袖
+    start_date: '-0477'
+    highlight_event_id: guji-赵襄子-event-successor
+  decisions:
+  - date: '-0477'
+    title_zh: 三年不忘父训，诵辞献简
+    rationale: 以恭谨笃实赢得父亲赵简子信任，得立为继承人
+- id: guji-赵襄子-endeavor-2
+  name_zh: 抗智氏与三分晋国
+  phases:
+  - key: brewing
+    name_zh: 拒绝索地
+    labels:
+      zh: 弗与皋狼之地
+    start_date: '-0455'
+    highlight_event_id: guji-赵襄子-event-refuse
+  - key: breakthrough
+    name_zh: 走保晋阳
+    labels:
+      zh: 晋阳被围
+    start_date: '-0455'
+    highlight_event_id: guji-赵襄子-event-jinyang
+  - key: climax
+    name_zh: 联韩魏灭智氏
+    labels:
+      zh: 三家灭智
+    start_date: '-0453'
+    highlight_event_id: guji-赵襄子-event-zhishi
+  - key: closure
+    name_zh: 列为诸侯基业
+    labels:
+      zh: 三家分晋
+    start_date: '-0403'
+  decisions:
+  - date: '-0455'
+    title_zh: 拒以蔡、皋狼之地与智伯
+    rationale: 宁折不屈，不愿割让先主之业以助长智伯骄横
+  - date: '-0455'
+    title_zh: 弃长子、邯郸而走晋阳
+    rationale: 长子城厚而民疲，邯郸仓实而民困，唯晋阳尹铎宽政，民必和矣
+  - date: '-0453'
+    title_zh: 联合韩魏反攻智氏
+    rationale: 借韩魏对智伯之惧与隙，待其骄而图之
+events:
+- id: guji-赵襄子-event-birth
+  date: -0487
+  year_of: -0487
+  type: birth
+  summary: 赵襄子（毋恤）约生于此时，赵简子之子，母为婢妾，地位卑微
+- id: guji-赵襄子-event-successor
+  date: '-0477'
+  year_of: '-0477'
+  type: career
+  summary: 简子三年后考问训辞，毋恤诵习如流，且出简于袖中，遂被立为后
+- id: guji-赵襄子-event-refuse
+  date: '-0455'
+  year_of: '-0455'
+  type: career
+  summary: 智伯索蔡、皋狼之地，襄子弗与，智伯怒，遂帅韩魏之甲攻赵
+- id: guji-赵襄子-event-jinyang
+  date: '-0455'
+  year_of: '-0455'
+  type: career
+  summary: 襄子奔保晋阳，三家围而灌之，城不浸者三版，沈灶产蛙，民无叛意
+- id: guji-赵襄子-event-zhishi
+  date: '-0453'
+  year_of: '-0453'
+  type: career
+  summary: 襄子潜结韩魏，反灭智氏，三分其地，赵氏坐大
+- id: guji-赵襄子-event-death
+  date: '-0425'
+  year_of: '-0425'
+  type: death
+  summary: 赵襄子卒，卒年不详，一说在位三十三年后去世
