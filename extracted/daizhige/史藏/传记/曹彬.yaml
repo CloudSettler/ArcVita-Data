@@ -1,0 +1,90 @@
+person:
+  qid: guji-caobin
+  name_zh: 曹彬
+  names:
+    zh: 曹彬
+    en: Cao Bin
+  lifespan:
+    birth:
+      date: 0931
+      precision: year
+      is_circa: true
+      raw: 九三一年前后（古籍未载，系年据通行考订）
+    death:
+      date: 0999
+      precision: year
+      is_circa: true
+  birth_date: 约 931 年
+  death_date: 约 999 年
+  era: 北宋初
+  reign_ref: 宋太祖
+  archetype: 器量宽厚的开国功臣名将
+  dilemmas:
+  - 平江南大功在身，受赏抑而不隆，以全功名始终
+  lesson: 功高不伐、临让不骄，方得君心而保始终
+  summary_first_person: 吾曹彬也，尝奉太祖之命下江南，平定僭乱。方僧道谓欲以使相宠我之时，太祖以汾晋、幽蓟之难未弭为言，吾遂让而不居，以俟后功。
+  source_urls:
+  - https://zh.wikisource.org/wiki/名臣碑传琬琰之集
+endeavors:
+- id: guji-caobin-endeavor-1
+  name_zh: 下江南之役
+  phases:
+  - key: brewing
+    name_zh: 受命南征
+    labels:
+      zh:
+      - 受命
+    start_date: '0974-01-01'
+    highlight_event_id: guji-caobin-event-jiangnan-march
+  - key: breakthrough
+    name_zh: 克江南
+    labels:
+      zh:
+      - 平南唐
+    start_date: '0975-01-01'
+    highlight_event_id: guji-caobin-event-jiangnan-fall
+  - key: closure
+    name_zh: 辞使相之宠
+    labels:
+      zh:
+      - 功成不居
+    start_date: '0976-01-01'
+    highlight_event_id: guji-caobin-event-decline-expectant
+  decisions:
+  - date: '0974-01-01'
+    title_zh: 奉太祖命进军江南
+    rationale: 奉诏讨江南僭伪之国
+  - date: '0976-01-01'
+    title_zh: 谢太祖欲拜使相
+    rationale: 太祖以汾晋之师、幽蓟之难未平，欲留功以atarea 后图，吾遂退让
+events:
+- id: guji-caobin-event-birth
+  event_type: birth
+  date: 0931
+  year_of: 931
+  precision: circa
+  summary: 约 931 年生（本卷古籍未载其生年，据通行说法系年）
+- id: guji-caobin-event-death
+  event_type: death
+  date: 0999
+  year_of: 999
+  precision: circa
+  summary: 约 999 年卒（本卷古籍未载其卒年，据通行说法系年）
+- id: guji-caobin-event-jiangnan-march
+  event_type: endeavor_event
+  category: military_campaign
+  date: '0974-01-01'
+  year_of: 974
+  summary: 曹彬受命于宋太祖，率师南下，经略江南
+- id: guji-caobin-event-jiangnan-fall
+  event_type: endeavor_event
+  category: military_victory
+  date: '0975-01-01'
+  year_of: 975
+  summary: 曹彬下江南，江南国主出降，南方僭乱平定
+- id: guji-caobin-event-decline-expectant
+  event_type: endeavor_event
+  category: political_decision
+  date: '0976-01-01'
+  year_of: 976
+  summary: 太祖欲以使相宠曹彬，谓西有汾晋之师、北有幽蓟之难，若遽拜使相则谁复为朕立功，曹彬遂辞而不居，以俟后功
