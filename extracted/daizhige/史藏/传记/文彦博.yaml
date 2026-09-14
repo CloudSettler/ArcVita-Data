@@ -1,0 +1,215 @@
+person:
+  qid: guji-富弼
+  name_zh: 富弼
+  names:
+    zh: 富弼
+    en: Fu Bi
+  lifespan:
+    birth:
+      date: 1004
+      precision: year
+      is_circa: false
+      raw: 景德元年生
+    death:
+      date: 1083-08
+      precision: month
+      is_circa: false
+      raw: 元丰六年闰六月丙申薨于洛阳私第，享年八十
+  birth_date: '1004'
+  death_date: 1083-06
+  era: 北宋
+  reign_ref: 仁宗、英宗、神宗三朝
+  archetype: 社稷之臣
+  dilemmas:
+  - 出使契丹挺身赴险与遭同僚飞语中伤
+  - 政敌荐己使辽欲因事加罪与仍不辱使命
+  - 青苗新法既行与持之不行遭劾罢政
+  - 起复夺情之礼与平世不可用金革变礼
+  lesson: 大勇不形于色，救灾必出于至诚；辨君子小人乃天子之职。
+  summary_first_person: 我生于景德盟契丹之岁，使契丹折虏廷之口，历佐仁宗英宗神宗，为相守格法附公议，京东救灾活五十余万人，终以司空致仕，谥文忠，配享神宗庙庭。
+  source_urls:
+  - https://example.org/guji/mingchen-beizhuan-wanyan/shang-juan5
+endeavors:
+- id: guji-富弼-endeavor-1
+  name_zh: 使辽折冲与庆历参政
+  phases:
+  - key: brewing
+    name_zh: 知谏院直言
+    labels:
+      zh:
+      - 谏诤
+      - 边防
+    start_date: 1040
+    highlight_event_id: guji-富弼-event-misc1
+  - key: breakthrough
+    name_zh: 奉使契丹
+    labels:
+      zh:
+      - 折冲樽俎
+    start_date: 1042
+    highlight_event_id: guji-富弼-event-celiao
+  - key: climax
+    name_zh: 庆历更化
+    labels:
+      zh:
+      - 条上时务
+    start_date: 1043-07
+    highlight_event_id: guji-富弼-event-zhengwei
+  - key: closure
+    name_zh: 罢出避谤
+    labels:
+      zh:
+      - 宣抚河北
+    start_date: 1045
+    highlight_event_id: guji-富弼-event-misc2
+  decisions:
+  - date: 1042
+    title_zh: 慨然请使契丹
+    rationale: 增岁币非本志，朝廷方讨元昊未暇与敌角，不敢以死争，亦不受赏。
+  - date: 1043-03
+    title_zh: 受枢密副使
+    rationale: 主张宰相兼枢密，以边事系国安危；愿陛下思契丹轻侮中原之耻，坐薪尝胆。
+- id: guji-富弼-endeavor-2
+  name_zh: 京东救灾与 кроме为相
+  phases:
+  - key: brewing
+    name_zh: 知郓青诸州
+    labels:
+      zh:
+      - 安抚
+      - 救灾
+    start_date: 1046
+    highlight_event_id: guji-富弼-event-jiuzai
+  - key: breakthrough
+    name_zh: 青州赈济法
+    labels:
+      zh:
+      - 简便周至
+    start_date: 1050
+    highlight_event_id: guji-富弼-event-jiuzai
+  - key: climax
+    name_zh: 至和嘉祐为相
+    labels:
+      zh:
+      - 宽恤民力
+    start_date: 1055
+    highlight_event_id: guji-富弼-event-xiang
+  - key: closure
+    name_zh: 判亳格新法以疾致仕
+    labels:
+      zh:
+      - 持法不行
+      - 司空致仕
+    start_date: 1071
+    highlight_event_id: guji-富弼-event-death
+  decisions:
+  - date: 1050
+    title_zh: 青州赈济流民
+    rationale: 前此救灾聚民城中煮粥，名为救之而实杀之；故择丰稔五州劝民出粟，分处流民，授山林河海之利。
+  - date: '1071'
+    title_zh: 持青苗法不行
+    rationale: 法行则财聚于上人散于下，富民不愿请，愿请者皆贫民，后不可复得。
+  - date: 1079
+    title_zh: 上手诏论河东地界
+    rationale: 熙河诸郡皆不足守而河东地界决不可许。
+events:
+- id: guji-富弼-event-birth
+  type: birth
+  date: 1004
+  date_precision: year
+  year_of: 1004
+  name_zh: 富弼生于景德元年
+  place_zh: 河南（洛阳）
+- id: guji-富弼-event-celiao
+  type: endeavor
+  date: 1042
+  date_precision: year
+  year_of: 1042
+  name_zh: 奉使契丹不辱命
+  description_zh: 契丹求割地，公慨然请行，单车入不测之虏廷，诘其君臣折其口而服其心；还辞枢密副使之赏，谓增岁币非臣本志。
+  work_id: guji-富弼-endeavor-1
+- id: guji-富弼-event-zhengwei
+  type: endeavor
+  date: 1043-07
+  date_precision: month
+  year_of: 1043
+  name_zh: 拜枢密副使与范仲淹各上当世之务
+  description_zh: 仁宗开天章阁责成条具，公主北事，又自上河北安边十三策。
+  work_id: guji-富弼-endeavor-1
+- id: guji-富弼-event-qidan-juece
+  type: decision
+  date: 1044-12
+  date_precision: month
+  year_of: 1044
+  name_zh: 沮册使待辽使
+  description_zh: 诏册元昊为夏国主，使将行而止之以俟辽使；曰若辽使未至而行则事自我出，既至则恩归契丹。
+- id: guji-富弼-event-misc1
+  type: endeavor
+  date: '1041'
+  date_precision: year
+  year_of: 1041
+  name_zh: 谏夏守赟王守忠等任用
+  description_zh: 历言用守赟为天下笑，守忠为钤辖与唐中官监军无异，诏罢守忠；又谏城潼关为弃关西之地。
+  work_id: guji-富弼-endeavor-1
+- id: guji-富弼-event-misc2
+  type: endeavor
+  date: 1045
+  date_precision: year
+  year_of: 1045
+  name_zh: 保州贼平求宣抚河北以避飞语
+  description_zh: 小人怨公不已，大臣以飞语谗公，上虽不信，公惧，自请为河北宣抚使；还除资政殿学士知郓州。
+  work_id: guji-富弼-endeavor-1
+- id: guji-富弼-event-jiuzai
+  type: endeavor
+  date: 1050
+  date_precision: year
+  year_of: 1050
+  name_zh: 青州赈济活五十余万人
+  description_zh: 河朔大水民流京东，劝民出粟十五万斛，随所在贮之；明年麦大熟，流民受粮而归，活五十余万人，募为兵者万余；上遣使劳之，拜礼部侍郎，辞不受。
+  work_id: guji-富弼-endeavor-2
+- id: guji-富弼-event-xiang
+  type: endeavor
+  date: 1055
+  date_precision: year
+  year_of: 1055
+  name_zh: 至和二年拜同中书门下平章事
+  description_zh: 与文彦博并命，士大夫相庆于朝；为相守格法行故事附以公议，宽恤民力，弛茶禁通商贾，省刑罚。
+  work_id: guji-富弼-endeavor-2
+- id: guji-富弼-event-dingsang
+  type: endeavor
+  date: 1061
+  date_precision: year
+  year_of: 1061
+  name_zh: 丁母忧五辞起复
+  description_zh: 执政遇丧皆起复，公谓金革变礼不可用于平世，仁宗五遣使起之，卒不从命，天下称焉。
+  work_id: guji-富弼-endeavor-2
+- id: guji-富弼-event-yanbi
+  type: endeavor
+  date: 1067
+  date_precision: year
+  year_of: 1067
+  name_zh: 未见上前论灾异上书数千言
+  description_zh: 闻有言灾异皆天数者，叹此必奸臣导上以无所畏，即上书引春秋洪范以明其决不然；又以九事为戒，愿二十年口不言兵。
+  work_id: guji-富弼-endeavor-2
+- id: guji-富弼-event-lizhen
+  type: endeavor
+  date: 1068
+  date_precision: year
+  year_of: 1068
+  name_zh: 判汝州归洛养疾
+  description_zh: 提举常平赵济劾公格新法，除左仆射判汝州；公言新法臣所不晓，不可以复治郡，愿归洛养疾。
+  work_id: guji-富弼-endeavor-2
+- id: guji-富弼-event-death
+  type: death
+  date: 1083-06-l lookout
+  date_precision: month
+  year_of: 1083
+  name_zh: 薨于洛阳，享年八十
+  description_zh: 元丰六年闰六月丙申薨于洛阳私第之正寝；手封遗表使其子上之；赠太尉，谥文忠，葬河南府金谷乡南张里。
+- id: guji-富弼-event-peixiang
+  type: honor
+  date: 1086-06
+  date_precision: month
+  year_of: 1086
+  name_zh: 配享神宗皇帝庙庭
+  description_zh: 元祐元年六月诏以公配享神宗庙庭；明年追论立储定策之勋，进司徒封韩国公，墓碑御篆“显忠尚德”，苏轼撰文。

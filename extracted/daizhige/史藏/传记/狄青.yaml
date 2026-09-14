@@ -1,0 +1,72 @@
+person:
+  qid: guji-狄青
+  name_zh: 狄青
+  names:
+    zh: 狄青
+    en: Di Qing
+  lifespan:
+    birth:
+      date: '1008'
+      precision: year
+      is_circa: true
+      raw: 生年不详
+  birth_date: '1008'
+  era: 北宋仁宗朝
+  reign_ref: 宋仁宗
+  archetype: 武将名臣
+  dilemmas:
+  - 出身行伍，遭朝臣质疑难以专任其谋
+  - 功高位重，赏赐过当恐难以复加
+  lesson: 沉勇有谋，以严明节制之军破敌立功
+  summary_first_person: 我狄青起于行伍，枢密副使之任屡立战功。侬智高叛乱时，庞籍荐我为大将，我节制岭南诸军，破贼于归仁，平定邕州，后官至枢密使。
+  source_urls:
+  - 名臣碑传琬琰之集
+endeavors:
+- id: guji-狄青-endeavor-1
+  key: military_career
+  name_zh: 行伍起家与陕西御边
+  phases:
+  - key: brewing
+    name_zh: 西边用兵
+    labels:
+      zh:
+      - 陕西从军
+    start_date: 1040
+    highlight_event_id: guji-狄青-event-west-war
+  - key: breakthrough
+    name_zh: 岭南平叛
+    labels:
+      zh:
+      - 平侬智高
+    start_date: 1052
+    highlight_event_id: guji-狄青-event-guinren
+  decisions:
+  - date: 1052
+    title_zh: 受命宣抚荆湖南北路，经制广南盗贼公事
+    rationale: 庞籍以庞麾下沈勇有谋虑荐之，可属南方之事
+events:
+- id: guji-狄青-event-west-war
+  date: 1040
+  year_of: 1040
+  type: endeavor
+  title_zh: 西边用兵随军征战
+  summary: 昔在庞籍麾下，以沈勇有谋虑著称
+- id: guji-狄青-event-appointment
+  date: 1052
+  year_of: 1052
+  type: endeavor
+  title_zh: 拜宣徽使，宣抚荆湖南北路，经制广南盗贼公事
+  summary: 仁宗采纳庞籍之荐，命狄青专征岭南，诏岭南一皆受青节制
+- id: guji-狄青-event-guinren
+  date: 1053
+  year_of: 1053
+  type: endeavor
+  title_zh: 归仁之战大破侬智高
+  summary: 斩不用命之将，军中畏服，破贼于归仁，智高走入海，邕州平
+- id: guji-狄青-event-death
+  date: 1057
+  year_of: 1057
+  type: death
+  title_zh: 卒
+  is_circa: true
+  summary: 生前曾任枢密副使、枢密使
