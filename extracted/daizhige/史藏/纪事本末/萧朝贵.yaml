@@ -1,0 +1,95 @@
+person:
+  qid: guji-xiaochaogui
+  name_zh: 萧朝贵
+  names:
+    zh: 萧朝贵
+    en: Xiao Chaogui
+  archetype: 太平天国西王、早期核心军事领袖
+  era: 清道光、咸丰之际
+  dilemmas:
+  - 身为西王而须冲锋陷阵，以身犯险换取攻城之势
+  lesson: 勇于先战者，往往以身殉锋
+  summary_first_person: 我以天兄代言之身位居西王，从广西起兵，转战湘境，围攻长沙时亲往前敌，中炮炮而死。
+endeavors:
+- id: guji-xiaochaogui-endeavor-1
+  name_zh: 从广西起兵至攻克州县
+  labels:
+    zh:
+    - 起义
+    - 转战
+  phases:
+  - key: brewing
+    name_zh: 广西举义
+    labels:
+      zh: 广西举义
+  - key: breakthrough
+    name_zh: 入湘破城
+    labels:
+      zh: 入湘破城
+    highlight_event_id: guji-xiaochaogui-event-taling
+  decisions:
+  - title_zh: 统领前队由湘南北上
+    rationale: 为太平军主力开路，直逼省会长沙
+- id: guji-xiaochaogui-endeavor-2
+  name_zh: 围攻长沙
+  labels:
+    zh:
+    - 攻城
+    - 殉难
+  phases:
+  - key: climax
+    name_zh: 进攻长沙
+    labels:
+      zh: 进攻长沙
+    highlight_event_id: guji-xiaochaogui-event-death
+  - key: closure
+    name_zh: 阵亡于城外
+    labels:
+      zh: 阵亡于城外
+  decisions:
+  - title_zh: 亲至城外接仗
+    rationale: 身先士卒督战，(期) 图速破省城
+events:
+- id: guji-xiaochaogui-event-birth
+  event_type: birth
+  date_raw: ''
+  date_precision: year
+  is_circa: true
+  name_zh: 出生
+  description_zh: 萧朝贵生年，史称约清道光初年
+- id: guji-xiaochaogui-event-death
+  event_type: death
+  date: 1852-09
+  date_raw: 八月中与贼接仗
+  year_of: 1852
+  date_precision: month
+  is_circa: true
+  name_zh: 长沙城外中(炮)身死
+  description_zh: 伪西王城外接仗，为我方炮所伤，的系身死
+- id: guji-xiaochaogui-event-taling
+  event_type: other
+  date: 1852-09
+  date_raw: 八月十五日破茶陵
+  year_of: 1852
+  date_precision: month
+  is_circa: true
+  name_zh: 随军破茶陵署知县刘旭被执
+  description_zh: 逆首伪太平王大股自郴州起身，十五日破茶陵
+- id: guji-xiaochaogui-event-changsha-siege
+  event_type: other
+  date: '1852-09-22'
+  date_raw: 廿二日至廿八日陆续全到
+  year_of: 1852
+  date_precision: day
+  is_circa: true
+  name_zh: 会师围攻长沙
+  description_zh: 太平军陆续抵长沙城外，悉踞南城外未成之土城，连营十里
+- id: guji-xiaochaogui-event-changsha-abandon
+  event_type: other
+  date: '1852-10-29'
+  date_raw: 十月十九日，亥刻全军由河西起身窜宁乡
+  year_of: 1852
+  date_precision: day
+  is_circa: true
+  name_zh: 长沙解围，全军北窜宁乡
+  description_zh: 贼久扑无功，先驱妇女行，全军由河西起身窜宁乡，长沙围解

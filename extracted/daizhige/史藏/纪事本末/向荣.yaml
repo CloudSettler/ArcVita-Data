@@ -1,0 +1,168 @@
+person:
+  qid: guji-向荣
+  name_zh: 向荣
+  names:
+    zh:
+    - 向荣
+    - 向提军
+    en:
+    - Xiang Rong
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1856
+      precision: year
+      is_circa: false
+      raw: 卒年据史补
+  birth_date: ''
+  death_date: '1856'
+  era: 清代（咸丰年间）
+  reign_ref: 咸丰帝
+  archetype: 武将统帅
+  dilemmas:
+  - 守城兵力不足与各路援军调度
+  - 长沙围解后追击时机与防堵配置
+  lesson: 奋勇直前有余，谋略布置不足，则胜势亦可转为僵局
+  summary_first_person: 我以提督之职驰援长沙，移炮击贼、扎营锁围，贼久扑无功而去；然追击之中彼此不利，岳州终为贼所赚开，我知兵事之难尽在调度。
+  source_urls:
+  - https://example.org/guji/yuefei-fan-hunan-jilüe
+endeavors:
+- id: guji-向荣-endeavor-1
+  name_zh: 长沙守城战
+  phases:
+  - key: brewing
+    name_zh: 驰援湖南
+    labels:
+      zh:
+      - 援湘
+    start_date: '1852'
+    highlight_event_id: guji-向荣-event-arrival
+  - key: breakthrough
+    name_zh: 南城布防
+    labels:
+      zh:
+      - 移炮
+      - 施放红衣炮
+    start_date: '1852'
+    highlight_event_id: guji-向荣-event-arrival
+  - key: climax
+    name_zh: 锁围贼巢
+    labels:
+      zh:
+      - 连营迭帐
+    start_date: 1852-09
+    highlight_event_id: guji-向荣-event-blockade
+  - key: closure
+    name_zh: 追击溃贼
+    labels:
+      zh:
+      - 兰溪追战
+    start_date: 1852-11
+    highlight_event_id: guji-向荣-event-lanxi
+  decisions:
+  - date: 1852-09
+    title_zh: 移吴三桂红衣炮于南城施放
+    rationale: 贼昼夜攻扑、万分危急，以重炮 Attack 贼锋，使攻城稍缓
+  - date: 1852-09
+    title_zh: 近贼巢扎营锁围
+    rationale: 贼全股踞南城外未成土城，连营十里，须与之相持锁围，使不敢出扰
+- id: guji-向荣-endeavor-2
+  name_zh: 长沙解后追剿
+  phases:
+  - key: brewing
+    name_zh: 追及兰溪
+    labels:
+      zh:
+      - 三日连战
+    start_date: 1852-11
+    highlight_event_id: guji-向荣-event-lanxi
+  - key: breakthrough
+    name_zh: 防堵北窜
+    labels:
+      zh:
+      - 岳州失守之后防
+    start_date: 1852-11
+    highlight_event_id: guji-向荣-event-lanxi
+  - key: climax
+    name_zh: 与诸军相持
+    labels:
+      zh:
+      - 会剿
+    start_date: 1852-12
+  - name_zh: 相持不战
+    key: closure
+    labels:
+      zh:
+      - 相持
+    start_date: 1852-10
+  decisions:
+  - date: 1852-11-23
+    title_zh: 兰溪追及连战三日
+    rationale: 贼破宁乡、益阳北窜，须急追以挫其锋，然彼此不利
+events:
+- id: guji-向荣-event-birth
+  type: birth
+  entity_id: guji-向荣
+  date: '1788'
+  date_raw: ''
+  year_of: 1788
+  date_status: approximate
+  location: ''
+  description: 向荣生年，史料未详，据通行记载权拟
+  participants:
+  - guji-向荣
+- id: guji-向荣-event-death
+  type: death
+  entity_id: guji-向荣
+  date: '1856'
+  date_raw: ''
+  year_of: 1856
+  date_status: approximate
+  location: ''
+  description: 向荣卒年，据史补记
+  participants:
+  - guji-向荣
+- id: guji-向荣-event-arrival
+  type: endeavor_event
+  entity_id: guji-向荣
+  date: '1852-09-28'
+  date_raw: 八月十五日前后
+  year_of: 1852
+  date_status: approximate
+  location: 长沙
+  description: 十五日向提军到长沙，移伪国吴三桂红衣炮三座及三等炮大炮四座，在南城施放，贼攻稍缓
+  participants:
+  - guji-向荣
+  related_event_ids:
+  - guji-向荣-event-blockade
+- id: guji-向荣-event-blockade
+  type: endeavor_event
+  entity_id: guji-向荣
+  date: 1852-09
+  date_raw: 八月廿二至廿八日陆续全到之后
+  year_of: 1852
+  date_status: approximate
+  location: 长沙南城外
+  description: 我兵亦到，近贼巢扎营锁围，由天心阁绕黄土岭抵河边，连营迭帐十四五里，贼不敢出扰
+  participants:
+  - guji-向荣
+  related_event_ids:
+  - guji-向荣-event-arrival
+  - guji-向荣-event-lanxi
+- id: guji-向荣-event-lanxi
+  type: endeavor_event
+  entity_id: guji-向荣
+  date: 1852-11-23
+  date_raw: 廿三日
+  year_of: 1852
+  date_status: year_only
+  location: 兰溪
+  description: 向提军于廿三日追及之于兰溪，三日连战，彼此不利；贼遂由湘阴、岳州北窜
+  participants:
+  - guji-向荣
+  related_event_ids:
+  - guji-向荣-event-blockade

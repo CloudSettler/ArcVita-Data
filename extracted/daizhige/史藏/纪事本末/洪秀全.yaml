@@ -1,0 +1,110 @@
+person:
+  qid: guji-洪秀全
+  name_zh: 洪秀全
+  names:
+    zh: 洪秀全
+    en: Hong Xiuquan
+  lifespan:
+    birth:
+      date: '1814'
+      precision: year
+      is_circa: true
+      raw: 己卯生
+    death:
+      date: '1864'
+      precision: year
+      is_circa: false
+      raw: ''
+  birth_date: '1814'
+  death_date: '1864'
+  era: 清朝咸丰年间
+  reign_ref: 咸丰
+  archetype: 太平天国起义领袖
+  dilemmas:
+  - 以宗教结社聚众起事，妻女宫禁与民约并行，令严而民不怨
+  - 一度围攻长沙不下，遭地道屡挫，权衡攻守与流向北窜
+  lesson: 借信仰与铁令凝众，虽能席卷数省，然围坚城失利即更张其势，成败存乎机会与统御
+  summary_first_person: 我是洪秀全，广东人，自号太平天德王，率众围长沙、破岳州，用分截之法与官兵周旋，所造天条书以敬天为第一义，深知文墨，御众极严。
+  source_urls:
+  - httsource://guji.example.org/chaofei-ouwen
+endeavors:
+- id: guji-洪秀全-endeavor-1
+  name_zh: 起事聚众与称王立制
+  phases:
+  - key: brewing
+    name_zh: 结众拜相
+    labels:
+      zh:
+      - 拜上帝会
+    start_date: '1851-01-01'
+    highlight_event_id: guji-洪秀全-event-1
+  - key: breakthrough
+    name_zh: 破长沙围与下岳州
+    labels:
+      zh:
+      - 攻城
+      - 北窜
+    start_date: '1852-09-01'
+    highlight_event_id: guji-洪秀全-event-3
+  - key: climax
+    name_zh: 掠湖江南进
+    labels:
+      zh:
+      - 进扰湖北河南
+    start_date: '1852-12-01'
+    highlight_event_id: guji-洪秀全-event-4
+  - key: closure
+    name_zh: 兵败势去
+    labels:
+      zh:
+      - 围解
+    start_date: '1852-10-20'
+    highlight_event_id: guji-洪秀全-event-5
+  decisions:
+  - date: '1852-09-01'
+    title_zh: 自郴州起大股北上围长沙
+    rationale: 裹胁四府土匪数万人，连营十里，谋破省城
+  - date: '1852-10-19'
+    title_zh: 弃长沙围全军渡河西窜宁乡
+    rationale: 久扑无功，地道三次仅成且被堵，粮尽而粮掠已足，决计北窜
+events:
+- id: guji-洪秀全-event-birth
+  type: birth
+  date: '1814'
+  year_of: 1814
+  description: 洪秀全生于广东，己卯生
+- id: guji-洪秀全-event-death
+  type: death
+  date: '1864'
+  year_of: 1864
+  description: 太平天国败亡，洪秀全卒
+- id: guji-洪秀全-event-1
+  type: endeavor
+  date: '1851-01-01'
+  year_of: 1851
+  description: 在广西聚众起事，长发众三千余名，自号太平天德王，设东王杨秀清、西王萧朝贵、南王冯云山、北王韦政、翼王石达开诸伪王
+  endeavor_id: guji-洪秀全-endeavor-1
+- id: guji-洪秀全-event-2
+  type: endeavor
+  date: '1852-08-15'
+  year_of: 1852
+  description: 大股自郴州起身，十五日破茶陵，署知县刘旭被执
+  endeavor_id: guji-洪秀全-endeavor-1
+- id: guji-洪秀全-event-3
+  type: endeavor
+  date: '1852-09-29'
+  year_of: 1852
+  description: 于长沙南门右侧用地道火药轰陷城墙七丈有余，蜂拥奔进，被镇筸游兵堵杀未果
+  endeavor_id: guji-洪秀全-endeavor-1
+- id: guji-洪秀全-event-4
+  type: endeavor
+  date: '1852-10-19'
+  year_of: 1852
+  description: 亥刻全军由河西起身窜宁乡，长沙围解；遂破益阳、下岳州，赚开岳州城不血刃而入
+  endeavor_id: guji-洪秀全-endeavor-1
+- id: guji-洪秀全-event-5
+  type: endeavor
+  date: '1852-11-01'
+  year_of: 1852
+  description: 劫去岳州军饷银十数万，决计北窜，掠人助军势，有扰河南或由江南进扰之说
+  endeavor_id: guji-洪秀全-endeavor-1
