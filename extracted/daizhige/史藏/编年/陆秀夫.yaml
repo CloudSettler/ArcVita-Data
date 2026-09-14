@@ -1,0 +1,110 @@
+person:
+  qid: guji-陆秀夫
+  name_zh: 陆秀夫
+  names:
+    zh: 陆秀夫
+    en: Lu Xiufu
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: true
+      raw: ''
+  era: 宋末
+  reign_ref: '[宋]端宗景炎、[宋]帝昺祥兴'
+  archetype: 忠节殉国之臣
+  dilemmas:
+  - 社稷将倾，奉二王出奔海上，于存续宋统与势不可为之间抉择
+  - 厓山之败，负帝赴海殉国，以死全节
+  lesson: 国亡君在，人臣当以死奉社稷，虽知不可为而为之
+  summary_first_person: 我是陆秀夫，宋末之臣。临安陷后，我与苏刘义等闻二王在温州，以兵来会，共奉益王昰入闽兴复。景炎元年，益王即位于福州，我任佥书院事。后厓山之役，宋室终不能支，我以死殉国，不负赵氏。
+endeavors:
+- id: guji-陆秀夫-endeavor-1
+  key: brewing
+  name_zh: 追随二王，起兵兴复
+  labels:
+    zh:
+    - 兴复宋室
+    - 奉王出奔
+  start_date: 1276-02
+  phases:
+  - key: brewing
+    name_zh: 会兵温州
+    labels:
+      zh:
+      - 闻二王在温州以兵来会
+    start_date: 1276-02
+    highlight_event_id: guji-陆秀夫-event-join
+  - key: climax
+    name_zh: 福州立朝
+    labels:
+      zh:
+      - 佥书院事
+    start_date: 1276-05
+    highlight_event_id: guji-陆秀夫-event-office
+  decisions:
+  - date: 1276-02
+    title_zh: 与苏刘义等以兵会二王于温州
+    rationale: 临安既陷，二王出奔，秀夫往赴以图兴复宋室
+- id: guji-陆秀夫-endeavor-2
+  key: climax
+  name_zh: 厓山辅弼，殉国死节
+  labels:
+    zh:
+    - 海上行朝
+    - 殉国
+  start_date: 1276-05
+  phases:
+  - key: climax
+    name_zh: 佐立二王
+    labels:
+      zh:
+      - 景炎立国
+      - 祥兴继统
+    start_date: 1276-05
+    highlight_event_id: guji-陆秀夫-event-office
+  - key: closure
+    name_zh: 厓山殉国
+    labels:
+      zh:
+      - 负帝赴海
+      - 以死全节
+    start_date: '1279'
+    highlight_event_id: guji-陆秀夫-event-death
+  decisions:
+  - date: '1279'
+    title_zh: 厓山败亡之际殉国死节
+    rationale: 君死国亡，人臣之义无以复生，惟以死报赵氏
+events:
+- id: guji-陆秀夫-event-birth
+  type: birth
+  title_zh: 陆秀夫生（史无明文，约生于南宋）
+  participants:
+  - guji-陆秀夫
+- id: guji-陆秀夫-event-join
+  date: 1276-02
+  year_of: 1276
+  type: endeavor
+  title_zh: 陆秀夫与苏刘义等闻二王在温州，以兵来会
+  description: 陈宜中等以益王昰如福州起兵兴复，陆秀夫、苏刘义等闻二王在温州以兵来会，共议兴复
+  participants:
+  - guji-陆秀夫
+- id: guji-陆秀夫-event-office
+  date: 1276-05
+  year_of: 1276
+  type: appointment
+  title_zh: 益王即位于福州，陆秀夫任佥书院事
+  description: 景炎元年五月，宋益王昰即皇帝位于福州，以陆秀夫佥书院事
+  participants:
+  - guji-陆秀夫
+- id: guji-陆秀夫-event-death
+  date: '1279'
+  year_of: 1279
+  type: death
+  title_zh: 厓山之败，陆秀夫以死殉国
+  description: 厓山之役宋军败绩，秀夫以死殉国（史文以评语提及厓山，未详述其殉难细节）
+  participants:
+  - guji-陆秀夫

@@ -1,0 +1,94 @@
+person:
+  qid: guji-李芾
+  name_zh: 李芾
+  names:
+    zh: 李芾
+    en: Li Fu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      date: 1276-01
+      precision: month
+      is_circa: false
+      raw: 元至元十三年春二月丁卯朔前除夕（1276年初）
+  era: 南宋末
+  reign_ref: 宋端宗景炎元年 / 元世祖至元十三年
+  archetype: 节烈守臣
+  dilemmas:
+  - 家眷与城ӏa：城将陷， rejects逃亡，须决生死
+  - 家眷与守节：令沈忠尽杀家人而后杀己，以死殉城免受辱
+  - 死节与劝说：面对元军招降，誓死不屈与慷慨登陴分守
+  lesson: 忠义殉城，宁举家死节不为降虏
+  summary_first_person: 我是宋潭州安抚使李芾，元兵围潭州时我慷慨登陴、分兵守城，勉励军民以忠义死战。城将陷时，我坐熊湘阁，遗金命帐下沈忠尽杀我的家人而后杀我，忠泣许之。我引颈受刃，忠纵火焚吾居，还家杀其妻孥，复至火所大恸，遂自刭而死。幕后僚陈亿孙、顔应焱皆死，潭民闻之多举家自尽。
+  source_urls:
+  - source: 钦定四库全书·元史续编
+    passage: 世祖皇帝至元十三年春二月丁卯朔 阿尔哈雅克宋潭州安抚使李芾死之
+endeavors:
+- id: guji-李芾-endeavor-1
+  title_zh: 死守潭州抗元
+  summary_zh: 任宋潭州安抚使，率军民死守孤城，城破殉节。
+  phases:
+  - key: brewing
+    name_zh: 慷慨登陴
+    labels:
+      zh: 备守御贼
+    start_date: '1275'
+    highlight_event_id: guji-李芾-event-1
+  - key: climax
+    name_zh: 死战守堞
+    labels:
+      zh: 尽忠死战
+    start_date: 1275-12
+    highlight_event_id: guji-李芾-event-1
+  decisions:
+  - date: '1275'
+    title_zh: 团结保伍、勉以忠义死守
+    rationale: 老幼皆出结保伍相助，人皆殊死战
+- id: guji-李芾-endeavor-2
+  title_zh: 熊湘阁殉节
+  summary_zh: 城陷前令沈忠杀家人而后杀己，引颈受刃，忠焚吾居自刭。
+  phases:
+  - key: closure
+    name_zh: 殉节
+    labels:
+      zh: 引颈受刭
+    start_date: 1276-01
+    highlight_event_id: guji-李芾-event-2
+  decisions:
+  - date: 1276-01
+    title_zh: 遗金命沈忠尽杀家人后杀己
+    rationale: 宁死于家义，不受元辱，以全节义
+events:
+- id: guji-李芾-event-birth
+  type: birth
+  date: ''
+  raw: 生年不详
+  summary: 李芾生年史无明载。
+- id: guji-李芾-event-1
+  type: endeavor
+  date: 1275-12
+  year_of: 1275
+  summary: 宋潭州安抚使李芾慷慨登陴，与诸将分守潭州，老幼结保伍助守，元兵蚁附而上。
+  entities:
+  - guji-李芾
+- id: guji-李芾-event-2
+  type: death
+  date: 1276-01
+  year_of: 1276
+  summary: 城将陷，李芾坐熊湘阁，命沈忠尽杀家人后杀己；芾引颈受刃，忠焚其居后自刭；陈亿孙、顔应焱皆死。
+  entities:
+  - guji-李芾
+  - 沈忠
+  - 阿尔哈雅
+- id: guji-李芾-event-3
+  type: other
+  date: 1276-02
+  year_of: 1276
+  summary: 至元十三年春二月丁卯朔，阿尔哈雅克宋潭州，安抚使李芾死节，湖南州县皆降；元旦刘孝忠以城降。
+  entities:
+  - guji-李芾
+  - 阿尔哈雅
