@@ -1,0 +1,131 @@
+person:
+  qid: guji-钱肃乐
+  name_zh: 钱肃乐
+  names:
+    zh: 钱肃乐
+    en: Qian Sule
+  lifespan:
+    birth:
+      date: '1606'
+      precision: year
+      is_circa: true
+      raw: 约1606年
+    death:
+      date: '1648'
+      precision: year
+      is_circa: true
+      raw: 约1648年
+  birth_date: '1606'
+  death_date: '1648'
+  era: 明末清初
+  reign_ref: 南明监国鲁元年前后
+  archetype: 义兵倡导者
+  dilemmas:
+  - 国破君亡之际，降清守官与毁家纾难举义之间的抉择
+  - 江上诸营战守不齐、将帅不和时如何维系义师
+  lesson: 书生临危揭竿，以孤忠殉国，志在光复而不计成败。
+  summary_first_person: 我是钱肃乐，原任刑部员外郎。乙酉国变，我在宁波率乡绅士民起兵，迎王之仁拜为大帅，与冯元飀、沈宸荃同举义旗。我曾统义兵至西兴汛守，亲冒矢石、桴鼓率先，又奉命移防沥海，力撑浙东一隅，忠悃不渝。
+  source_urls:
+  - docs/YAML_STANDARD.md
+endeavors:
+- id: guji-钱肃乐-endeavor-1
+  name_zh: 宁波起义
+  phases:
+  - key: brewing
+    name_zh: 密谋联络
+    labels:
+      zh:
+      - 乡绅密谋
+    start_date: '1645'
+  - key: breakthrough
+    name_zh: 甬上举义
+    labels:
+      zh:
+      - 率士民起兵
+      - 迎王之仁为帅
+    start_date: '1645'
+    highlight_event_id: guji-钱肃乐-event-raise-army
+  decisions:
+  - date: 1645-08
+    title_zh: 率乡绅士民举义，迎王之仁于演武场拜为大帅
+    rationale: 国变之后，聚义兵以图抗清光复，借王之仁兵威壮大声势。
+- id: guji-钱肃乐-endeavor-2
+  name_zh: 江上汛守
+  phases:
+  - key: brewing
+    name_zh: 领兵赴防
+    labels:
+      zh:
+      - 至西兴汛守
+    start_date: 1645-08
+  - key: climax
+    name_zh: 江干血战
+    labels:
+      zh:
+      - 亲冒矢石
+      - 前锋用火击敌
+    start_date: 1645-09
+    highlight_event_id: guji-钱肃乐-event-fight
+  - key: closure
+    name_zh: 东守移镇
+    labels:
+      zh:
+      - 移防沥海
+    start_date: 1646-01
+  decisions:
+  - date: 1645-09
+    title_zh: 加佥都御史，与诸营上下协防沿江
+    rationale: 义旅新集，按地分汛为守，共保浙东江防。
+  - date: 1646-01
+    title_zh: 移兵沥海，议东守御敌
+    rationale: 北兵谋东渡，遵塘报议东守，移镇拒海上来之敌。
+events:
+- id: guji-钱肃乐-event-birth
+  date: '1606'
+  year_of: '1606'
+  type: birth
+  title_zh: 钱肃乐生于浙江宁波（约）
+  principle_participants:
+  - guji-钱肃乐
+- id: guji-钱肃乐-event-raise-army
+  date: 1645-08
+  year_of: '1645'
+  type: endeavor
+  title_zh: 宁波率乡绅士民起义，迎王之仁拜为大帅
+  principle_participants:
+  - guji-钱肃乐
+  - guji-王之仁
+  detail: 同冯元飀、沈宸荃起于慈，促迫谢三宾捐万金为首倡，浙东义声四布。
+- id: guji-钱肃乐-event-defense-xixing
+  date: 1645-09
+  year_of: '1645'
+  type: endeavor
+  title_zh: 统义兵至西兴汛守，加佥都御史
+  principle_participants:
+  - guji-钱肃乐
+  - guji-冯元飀
+  - guji-沈宸荃
+  detail: 与章正宸、沈宸荃等上下协防沿江，参与会师西陵定防汛之议。
+- id: guji-钱肃乐-event-fight
+  date: '1645-09-13'
+  year_of: '1645'
+  type: battle
+  title_zh: 江干之战亲冒矢石，前锋火器击敌
+  principle_participants:
+  - guji-钱肃乐
+  detail: 北兵大至，肃乐桴鼓率先；十四日前锋钟鼎新等以火击死北穿绯衣者，副将吕宗忠直抵北营伤北数千。
+- id: guji-钱肃乐-event-move-lihai
+  date: 1646-01
+  year_of: '1646'
+  type: endeavor
+  title_zh: 移镇沥海，从事东守之议
+  principle_participants:
+  - guji-钱肃乐
+  detail: 因北兵将以千艘浮海东来，议东守，孙嘉绩移临山、于颍移三江、肃乐移沥海、沈宸荃移观海。
+- id: guji-钱肃乐-event-death
+  date: '1648'
+  year_of: '1648'
+  type: death
+  title_zh: 钱肃乐卒（约）
+  principle_participants:
+  - guji-钱肃乐
