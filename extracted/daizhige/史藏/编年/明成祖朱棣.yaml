@@ -1,0 +1,108 @@
+person:
+  qid: guji-朱棣
+  name_zh: 朱棣
+  names:
+    zh: 朱棣
+    en: Zhu Di
+  lifespan:
+    birth:
+      date: '1360-05-02'
+      precision: year
+      is_circa: true
+      raw: 未详（文中无确切生年）
+    death:
+      date: '1424'
+      precision: year
+      is_circa: true
+      raw: 未详（据史常识补）
+  birth_date: '1360-05-02'
+  death_date: '1424'
+  era: 明初
+  reign_ref: 永乐
+  archetype: 以藩王起兵夺位而创盛世之雄主
+  dilemmas:
+  - 靖难夺位与叔侄纲常之大义冲突
+  - 追索建文帝下落与安抚人心之两难
+  lesson: 大义难讳而功业自立，史笔褒贬并存
+  summary_first_person: 我本燕王，以金川门之役入金陵得天下，开北都基业，然骨肉相残之讥亦随之。
+endeavors:
+- id: guji-朱棣-endeavor-1
+  name_zh: 起居燕国与靖难夺位
+  phases:
+  - key: brewing
+    name_zh: 就藩燕国
+    labels:
+      zh:
+      - 藩王
+      - 北疆
+    start_date: '1380'
+    highlight_event_id: guji-朱棣-event-fief
+  - key: breakthrough
+    name_zh: 靖难起兵至入金川门
+    labels:
+      zh:
+      - 靖难之役
+      - 夺位
+    start_date: '1399'
+    highlight_event_id: guji-朱棣-event-jingnan
+  decisions:
+  - date: '1399'
+    title_zh: 举兵靖难
+    rationale: 以清君侧为名起兵，图取大位
+- id: guji-朱棣-endeavor-2
+  name_zh: 缉访建文遗迹与审定逊国传闻
+  phases:
+  - key: climax
+    name_zh: 密遣使者访求建文帝
+    labels:
+      zh:
+      - 缁衣传闻
+      - 胡濙出访
+    start_date: '1402'
+    highlight_event_id: guji-朱棣-event-search
+  - key: closure
+    name_zh: 迟迟不决之心事
+    labels:
+      zh:
+      - 逊国之谜
+    start_date: '1416'
+    highlight_event_id: guji-朱棣-event-search-end
+  decisions:
+  - date: '1402'
+    title_zh: 遣人四出访求建文帝踪迹
+    rationale: 登位后建文帝下落不明，须防复辟隐患
+events:
+- id: guji-朱棣-event-birth
+  date: '1360-05-02'
+  year_of: 1360
+  type: birth
+  title_zh: 朱棣生（据史常识补）
+- id: guji-朱棣-event-fief
+  date: '1380'
+  year_of: 1380
+  type: endeavor
+  title_zh: 就藩北平，为燕王，帝车遥指北
+  description: 文中诗云「燕国帝车遥指北」，指其封燕之地为王业之基。
+- id: guji-朱棣-event-jingnan
+  date: '1402-07-13'
+  year_of: 1402
+  type: endeavor
+  title_zh: 金川门之变，燕师入金陵
+  description: 文云「金川门外血波横，大义奚称旦辅成」，谓靖难之役终以入南京夺位；并讥齐泰黄子澄谋疎而气节犹存。
+- id: guji-朱棣-event-search
+  date: '1402'
+  year_of: 1402
+  type: endeavor
+  title_zh: 登位后访求建文帝下落
+  description: 文云「缁衣不辨真兮伪」，暗指成祖疑建文帝逊去，遣胡濙等巡行天下以访张邋遢（张三丰）为名察其踪迹。
+- id: guji-朱棣-event-search-end
+  date: '1423'
+  year_of: 1423
+  type: endeavor
+  title_zh: 胡濙还朝密奏，其疑始释
+  description: 相传胡濙访建文多年还朝夜对，成祖心始安（据史常识补，以应「缁衣不辨真伪」之咏）。
+- id: guji-朱棣-event-death
+  date: '1424'
+  year_of: 1424
+  type: death
+  title_zh: 朱棣卒（据史常识补）
