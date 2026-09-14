@@ -1,0 +1,144 @@
+person:
+  qid: guji-李之芳
+  name_zh: 李之芳
+  names:
+    zh: 李之芳
+    en: Li Zhifang
+  title: 清康熙年间兵部尚书、总督浙江
+  lifespan:
+    birth:
+      date: '1622'
+      precision: year
+      is_circa: true
+      raw: 约1622年
+    death:
+      date: '1694-11-18'
+      precision: day
+      is_circa: false
+      raw: 康熙三十三年十月
+  birth_date: '1622'
+  death_date: '1694-11-18'
+  era: 清
+  reign_ref: 康熙
+  archetype: military-governor
+  dilemmas:
+  - 三藩叛乱，浙江兵力不足，需在固守与求援之间权衡
+  - 战乱之际既要剿贼，又须安民、招抚、赈济，军政两难
+  lesson: 临危受命，运筹调度，终以福建之功定东南
+  summary_first_person: 我在康熙十二年出任浙江总督，適逢三藩之乱起，闽变猝发，我统筹堵御、督师衢州，历经数年苦战，连复仙霞诸关，平定浙闽乱局，并招抚难民、蠲免钱粮以安地方。
+endeavors:
+- id: guji-李之芳-endeavor-1
+  name_zh: 督浙理政
+  labels:
+    zh: 督浙
+  phases:
+  - key: brewing
+    name_zh: 到任督浙
+    labels:
+      zh: 督浙理政
+    start_date: 1673-11
+    highlight_event_id: guji-李之芳-event-takeoffice
+  - key: climax
+    name_zh: 筹防整军
+    labels:
+      zh: 海防军备
+    start_date: 1673-12
+    highlight_event_id: guji-李之芳-event-warships
+  decisions:
+  - date: 1673-12
+    title_zh: 请修战船
+    rationale: 沿海防御需战船整备，以防海疆不虞
+  - date: 1674-01
+    title_zh: 咨提督酌议通省增兵
+    rationale: 闽变前夕预为增兵设防，未雨绸缪
+- id: guji-李之芳-endeavor-2
+  name_zh: 督师平叛
+  labels:
+    zh: 督师
+  phases:
+  - key: brewing
+    name_zh: 飞报闽变
+    labels:
+      zh: 应变
+    start_date: 1674-03
+    highlight_event_id: guji-李之芳-event-minbian
+  - key: breakthrough
+    name_zh: 金衢苦战
+    labels:
+      zh: 浙东转战
+    start_date: 1674-06
+    highlight_event_id: guji-李之芳-event-dajie
+  - key: climax
+    name_zh: 夺取仙霞
+    labels:
+      zh: 仙霞大捷
+    start_date: 1676-08
+    highlight_event_id: guji-李之芳-event-xianxia
+  - key: closure
+    name_zh: 招抚安民
+    labels:
+      zh: 安民赈济
+    start_date: 1676-11
+    highlight_event_id: guji-李之芳-event-juanmian
+  decisions:
+  - date: 1674-04
+    title_zh: 咨覆提督调守分水仙霞二关
+    rationale: 闽逆欲犯浙，须扼守仙霞天险
+  - date: 1676-05
+    title_zh: 启王请调邻省官兵
+    rationale: 贼势未衰，须会合邻省兵力夹击
+events:
+- id: guji-李之芳-event-birth
+  event_type: birth
+  date: '1622'
+  year_of: 1622
+  date_precision: year
+  summary_zh: 李之芳约生于是年
+- id: guji-李之芳-event-takeoffice
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-1
+  date: 1673-11
+  year_of: 1673
+  date_precision: month
+  summary_zh: 康熙十二年十月，总督浙江到任，上恭报到任日期疏
+- id: guji-李之芳-event-warships
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-1
+  date: 1673-12
+  year_of: 1673
+  date_precision: month
+  summary_zh: 康熙十二年十二月，奏请修造战船，整饬海防
+- id: guji-李之芳-event-minbian
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-2
+  date: 1674-03
+  year_of: 1674
+  date_precision: month
+  summary_zh: 康熙十三年三月，耿精忠叛于闽，飞报闽变，调度诸军堵御仙霞、分水诸关
+- id: guji-李之芳-event-dajie
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-2
+  date: 1674-11
+  year_of: 1674
+  date_precision: month
+  summary_zh: 康熙十三年十一月，金华十二里庄、衢州沟溪前墓山连获大捷
+- id: guji-李之芳-event-xianxia
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-2
+  date: 1676-08
+  year_of: 1676
+  date_precision: month
+  summary_zh: 康熙十五年秋，大溪滩获捷、复江山，随即连夺仙霞三关，大破闽逆
+- id: guji-李之芳-event-juanmian
+  event_type: endeavor
+  endeavor_id: guji-李之芳-endeavor-2
+  date: 1676-11
+  year_of: 1676
+  date_precision: month
+  summary_zh: 康熙十五年十一月，上请蠲免被兵地方钱粮第一疏，招抚伪总兵冯公辅等投诚
+- id: guji-李之芳-event-death
+  event_type: death
+  date: '1694-11-18'
+  year_of: 1694
+  date_precision: day
+  summary_zh: 康熙三十三年十月，李之芳卒
