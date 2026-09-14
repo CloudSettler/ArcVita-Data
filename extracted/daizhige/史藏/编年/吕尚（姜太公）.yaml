@@ -1,0 +1,125 @@
+person:
+  qid: guji-吕尚
+  name_zh: 吕尚（姜太公）
+  names:
+    zh: 吕尚
+    en: Lü Shang
+  lifespan:
+    birth:
+      date: '-1150'
+      precision: year
+      is_circa: true
+      raw: 生卒年不详
+    death:
+      date: '-1010'
+      precision: year
+      is_circa: true
+      raw: 生卒年不详
+  birth_date: 约公元前1150年
+  death_date: 约公元前1010年
+  era: 商末周初
+  reign_ref: 周文王、周武王时期
+  archetype: 开国谋臣
+  dilemmas:
+  - 年老未遇明主，隐居渭水滨垂钓以待时机
+  - 辅佐翦商大业须隐忍蓄势二十年
+  - 受封建齐，面对东夷新附之地之治理
+  lesson: 韬光养晦，待时而动；大器晚成者可以兴邦。
+  summary_first_person: 我本是商末长于谋略而困顿不得志之人，垂钓渭水以候天命。周文王访贤于渭滨，与我语而大悦，号曰太公望，迎我为师。我佐文王修德备武，翦商羽翼；又佐武王于牧野之战灭商。受封于齐营丘，通鱼盐之利，因俗简礼，齐国由是大兴。我一生以蹈略著称，为周初开国与齐国始封之祖。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/姜太公
+endeavors:
+- id: guji-吕尚-endeavor-1
+  name_zh: 辅周翦商
+  phases:
+  - key: brewing
+    name_zh: 隐居渭滨
+    labels:
+      zh: 垂钓待时
+    start_date: 约-1075
+    highlight_event_id: guji-吕尚-event-fishing
+  - key: breakthrough
+    name_zh: 遇文王为师
+    labels:
+      zh: 太公望
+    start_date: 约-1060
+    highlight_event_id: guji-吕尚-event-wenwang
+  - key: climax
+    name_zh: 牧野灭商
+    labels:
+      zh: 伐纣功成
+    start_date: -1046
+    highlight_event_id: guji-吕尚-event-muye
+  decisions:
+  - date: 约-1060
+    title_zh: 应文王之聘出山
+    rationale: 以年纪之长与韬略之深，择明主文王而事，将毕生谋略用于兴周翦商大业。
+  - date: -1046
+    title_zh: 佐武王克商于牧野
+    rationale: 商纣暴虐失道，时机成熟，决意伐纣以成周业。
+- id: guji-吕尚-endeavor-2
+  name_zh: 受封建齐
+  phases:
+  - key: brewing
+    name_zh: 受封营丘
+    labels:
+      zh: 始封齐侯
+    start_date: 约-1045
+    highlight_event_id: guji-吕尚-event-qi
+  - key: breakthrough
+    name_zh: 通商简礼治齐
+    labels:
+      zh: 因俗简礼
+    start_date: 约-1044
+  - key: closure
+    name_zh: 齐国立基传承
+    labels:
+      zh: 泽被后世
+    start_date: 约-1030
+  decisions:
+  - date: 约-1044
+    title_zh: 修政因俗简礼，通鱼盐之利
+    rationale: 东夷之地民俗各异，宜从俗而治； IHttp通渔盐以富国，使齐成东方大国。
+events:
+- id: guji-吕尚-event-birth
+  date: 约-1150
+  year_of: -1150
+  type: birth
+  title_zh: 吕尚出生
+  description: 吕尚（姜太公）约生于商末，姜姓吕氏，后世多称姜子牙、太公望。
+- id: guji-吕尚-event-fishing
+  date: 约-1075
+  year_of: -1075
+  type: endeavor
+  title_zh: 垂钓于渭水之滨
+  description: 吕尚年老未遇，隐居渭滨垂钓，等待明主，时人语曰“太公钓于渭阳”。
+- id: guji-吕尚-event-wenwang
+  date: 约-1060
+  year_of: -1060
+  type: endeavor
+  title_zh: 文王渭滨遇得太公望
+  description: 周文出猎于渭阳，遇 吕尚，与之语而大悦，曰“吾太公望子久矣”，因号太公望，载归立为师。
+- id: guji-吕尚-event-muye
+  date: -1046
+  year_of: -1046
+  type: endeavor
+  title_zh: 佐武王伐纣，战于牧野
+  description: 吕尚为周师，佐武王誓于牧野，克灭殷商，周朝肇建。
+- id: guji-吕尚-event-qi
+  date: 约-1045
+  year_of: -1045
+  type: endeavor
+  title_zh: 受封建齐于营丘
+  description: 周初封功臣谋士，吕尚受封于齐之营丘，为齐国始封君。
+- id: guji-吕尚-event-qizhi
+  date: 约-1044
+  year_of: -1044
+  type: endeavor
+  title_zh: 治齐通利，国势大兴
+  description: 吕尚治齐，修政因俗简礼，通鱼盐之利，人民多归齐，齐为大国。
+- id: guji-吕尚-event-death
+  date: 约-1010
+  year_of: -1010
+  type: death
+  title_zh: 吕尚卒
+  description: 吕尚高龄而寿终，后世尊为兵家鼻祖、韬略之圣。
