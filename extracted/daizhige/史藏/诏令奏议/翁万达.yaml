@@ -1,0 +1,132 @@
+person:
+  qid: guji-翁万达
+  name_zh: 翁万达
+  names:
+    zh: 翁万达
+    en: Weng Wanda
+  lifespan:
+    birth:
+      date: 1498
+      precision: year
+      is_circa: true
+      raw: 明弘治年间
+    death:
+      date: 1552
+      precision: year
+      is_circa: true
+      raw: 明嘉靖三十一年
+  birth_date: 1498
+  death_date: 1552
+  era: 明代
+  reign_ref: 明嘉靖（世宗朱厚熜）
+  archetype: 边务重臣
+  dilemmas:
+  - 安南莫登庸僭逆，朝廷议征，然兵粮两缺，竭两广之力犹欠兵十七万、米百余万石，进退两难
+  - 黎宁存殁难辨，向导未集，天兵若直入恐老师匮饷，招抚与征剿须相机酌处
+  lesson: 兴师远伐必先审势量力，兵粮筹划务集众思、计出万全
+  summary_first_person: 我翁万达在嘉靖间以副使参与两广征剿安南莫登庸的会议筹划，与三司诸臣核算兵马粮饷、审验安南文书、访探虚实，力主出奇审势、万全而后动。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=安南奏议
+endeavors:
+- id: guji-翁万达-endeavor-1
+  name_zh: 参议征剿安南
+  phases:
+  - key: brewing
+    name_zh: 奉旨会议征剿
+    labels:
+      zh:
+      - 嘉靖敕谕
+      - 三司会议
+    start_date: 1537-12-28
+    highlight_event_id: guji-翁万达-event-annam-plan
+  - key: breakthrough
+    name_zh: 筹画兵粮水陆方略
+    labels:
+      zh:
+      - 汉土官兵
+      - 舟师战船
+    start_date: 1538
+    highlight_event_id: guji-翁万达-event-annam-plan
+  - key: climax
+    name_zh: 审验黎氏文书探虚实
+    labels:
+      zh:
+      - 译审郑惟憭
+      - 验万胜侯书
+    start_date: 1538
+    highlight_event_id: guji-翁万达-event-annam-verdict
+  - key: closure
+    name_zh: 呈报从长区画
+    labels:
+      zh:
+      - 奏请施行
+    start_date: 1538
+  decisions:
+  - date: 1538
+    title_zh: 与三司会议分哨进兵并筹粮机宜
+    rationale: 征剿安南国家大事，兵马粮草诸宜周思预计，故议定水陆三哨进兵、籴米积贮、雇募舟师诸策
+  - date: 1538
+    title_zh: 复审安南谕书辨其真伪
+    rationale: 谕书体格失当、迹涉可疑，须会同译审郑惟憭，根究黎宁存殁实情，以防误信向导
+- id: guji-翁万达-endeavor-2
+  name_zh: 两广边备防御
+  phases:
+  - key: brewing
+    name_zh: 整搠汉土官兵
+    labels:
+      zh:
+      - 修甲备器
+      - 边境设策
+    start_date: 1537
+    highlight_event_id: guji-翁万达-event-defense-prep
+  - key: breakthrough
+    name_zh: 屯压边隘联络声势
+    labels:
+      zh:
+      - 龙州凭祥
+      - 归顺防守
+    start_date: 1538
+    highlight_event_id: guji-翁万达-event-defense-prep
+  - key: climax
+    name_zh: 招徕间谍采探虚实
+    labels:
+      zh:
+      - 设策投间
+      - 招徕向导
+    start_date: 1538
+  - key: closure
+    name_zh: 待报刻期以待启行
+    labels:
+      zh:
+      - 申明纪律
+    start_date: 1538
+  decisions:
+  - date: 1537
+    title_zh: 摘调土兵屯压龙州凭祥
+    rationale: 归顺州逼近交趾，须自行防守并联络声势，随即备御以伺战机
+events:
+- id: guji-翁万达-event-birth
+  event_type: birth
+  date: 1498
+  year_of: 1498
+  summary: 翁万达生，明弘治年间
+- id: guji-翁万达-event-death
+  event_type: death
+  date: 1552
+  year_of: 1552
+  summary: 翁万达卒，明嘉靖间
+- id: guji-翁万达-event-annam-plan
+  event_type: endeavor
+  date: 1537-12-28
+  year_of: 1537
+  summary: 翁万达以广西按察司副使身份会同两广三司会议，奉敕筹画水陆进兵征剿安南莫登庸，核算官兵约三十万、粮米一百六十二万石、用银七十三万七千两
+- id: guji-翁万达-event-annam-verdict
+  event_type: endeavor
+  date: 1538
+  year_of: 1538
+  summary: 翁万达参与吊取郑惟憭隔别译审，辨安南万胜侯谕书真伪，考究黎宁存殁，主张声罪致讨必先激发黎氏旧臣为向导、挫贼锋锐而后进兵
+- id: guji-翁万达-event-defense-prep
+  event_type: endeavor
+  date: 1538
+  year_of: 1538
+  summary: 翁万达参与整搠汉土官兵、修锋利器械衣甲，摘调田州镇安目兵屯压龙州凭祥，赴边境设策投间招徕向导、探听虚实
