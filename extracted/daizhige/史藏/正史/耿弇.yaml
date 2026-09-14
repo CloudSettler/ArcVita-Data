@@ -1,0 +1,120 @@
+person:
+  qid: guji-耿弇
+  name_zh: 耿弇
+  names:
+    zh: 耿弇
+    en: Geng Yan
+  lifespan:
+    birth:
+      date: '0003'
+      precision: year
+      is_circa: true
+      raw: 约建武前，生于上谷昌平
+    death:
+      date: 0058
+      precision: year
+      is_circa: true
+      raw: 永平元年卒
+  birth_date: '0003'
+  death_date: 0058
+  era: 东汉初年
+  reign_ref: 光武帝刘秀
+  archetype: 云台名将·平齐功臣
+  dilemmas:
+  - 归附刘秀时更始势盛，须在乱世中择主而事
+  - 讨齐之策忤抗拒众议，胜负悬于千里孤军
+  lesson: 明于料敌、决于机先，方能以少胜众
+  summary_first_person: 我耿弇，年二十一投明主于河北，以突骑纵横燕赵，曾率兵平定张步、定齐地，为光武削平东方之乱，云台之上，名列功臣。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷19
+endeavors:
+- id: guji-耿弇-endeavor-1
+  name_zh: 从河北起兵到平定齐地
+  categories_zh:
+  - 军事
+  - 开国平乱
+  phases:
+  - key: brewing
+    name_zh: 投效光武
+    labels_zh:
+    - 更始之乱
+    - 上谷归汉
+    start_date: '0023'
+    highlight_event_id: guji-耿弇-event-follow
+  - key: breakthrough
+    name_zh: 燕赵转战
+    labels_zh:
+    - 讨王郎
+    - 破铜马
+    start_date: '0024'
+    highlight_event_id: guji-耿弇-event-shunshui
+  - key: climax
+    name_zh: 平定齐地
+    labels_zh:
+    - 讨张步
+    - 临淄大捷
+    start_date: 0029
+    highlight_event_id: guji-耿弇-event-linzi
+  - key: closure
+    name_zh: 功成名就
+    labels_zh:
+    - 云台功臣
+    start_date: '0037'
+    highlight_event_id: guji-耿弇-event-yuntai
+  decisions:
+  - date: '0023'
+    title_zh: 弃更始而从刘秀
+    rationale_zh: 见更始政乱，刘秀略地河北有雄略，遂北上投效，并说父耿况举郡归汉
+  - date: 0029
+    title_zh: 请命率军讨张步
+    rationale_zh: 自请平定齐地，以进讨方略说服光武，请以偏师深入
+  - date: 0029
+    title_zh: 佯攻巨里而声东击西
+    rationale_zh: 围巨里以诱费邑来救，设伏大破之，斩邑首以慑敌
+events:
+- id: guji-耿弇-event-birth
+  type_zh: 生辰
+  category_zh: 出生
+  date: '0003'
+  year_of: 3
+  description_zh: 耿弇约于此年生于上谷昌平，父耿况为王莽所任命之上谷太守
+  location_zh: 上谷郡昌平
+- id: guji-耿弇-event-follow
+  type_zh: 事业
+  category_zh: 归附明主
+  date: '0023'
+  year_of: 19
+  description_zh: 耿弇年二十一，随父属吏入朝至宋子，投效刘秀，并以突骑相助，劝定河北
+  location_zh: 宋子
+  related_endeavor_id: guji-耿弇-endeavor-1
+- id: guji-耿弇-event-shunshui
+  type_zh: 事业
+  category_zh: 战功
+  date: '0025'
+  year_of: 21
+  description_zh: 光武北击尤来、大抢、五幡于元氏，追至右北平，战于顺水北失利；耿弇频射却追贼，救光武于危难
+  location_zh: 顺水北岸
+  related_endeavor_id: guji-耿弇-endeavor-1
+- id: guji-耿弇-event-linzi
+  type_zh: 事业
+  category_zh: 决定性战役
+  date: 0029
+  year_of: 0029
+  description_zh: 建武五年，耿弇率军渡河攻齐，破祝阿、临淄，败张步于临淄城下，光武亲至劳军，赞其志竟得伸
+  location_zh: 临淄
+  related_endeavor_id: guji-耿弇-endeavor-1
+- id: guji-耿弇-event-yuntai
+  type_zh: 事业
+  category_zh: 恩荣
+  date: '0037'
+  year_of: 31
+  description_zh: 平齐之后还京，上大将军印绶，以列侯奉朝请；后入云台二十八将之列
+  location_zh: 洛阳
+  related_endeavor_id: guji-耿弇-endeavor-1
+- id: guji-耿弇-event-death
+  type_zh: 卒年
+  category_zh: 去世
+  date: 0058
+  year_of: 0058
+  description_zh: 永平元年，耿弇去世，谥为愍侯
+  location_zh: 洛阳

@@ -1,0 +1,123 @@
+person:
+  qid: guji-陈蕃
+  name_zh: 陈蕃
+  names:
+    zh: 陈蕃
+    en: Chen Fan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      date: 0168-10
+      precision: month
+      is_circa: false
+      raw: 建宁元年九月辛亥
+  death_date: 0168-10
+  era: 东汉
+  reign_ref: 汉桓帝、汉灵帝
+  archetype: 东汉忠直之臣，位列三公，以抗直敢谏、谋诛宦官闻名，最终矫诏被害，夷其族。
+  dilemmas:
+  - 直言谏诤与宦官专权之间的对抗
+  - 辅政大臣谋诛宦官失败，身死族灭
+  lesson: 忠直抗争虽败，其气节为后世所称。
+  summary_first_person: 我在桓帝朝由太中大夫拜太尉，旋以直道见免；灵帝初受顾命，以太傅录尚书事，与大将军窦武共谋诛除宦官，事败，为中常侍曹节矫诏所诛，宗族夷灭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷八
+endeavors:
+- id: guji-陈蕃-endeavor-1
+  name_zh: 桓帝朝历职三公
+  phases:
+  - key: breakthrough
+    name_zh: 拜太尉
+    labels:
+      zh:
+      - 三公
+      - 直臣
+    start_date: 0164-08
+    highlight_event_id: guji-陈蕃-event-taiwei
+  - key: closure
+    name_zh: 免太尉
+    labels:
+      zh:
+      - 罢免
+    start_date: 0166-09
+    highlight_event_id: guji-陈蕃-event-taiwei-mian
+  decisions:
+  - date: 0164-08
+    title_zh: 受任太尉，居三公之位
+    rationale: 以太中大夫进拜太尉，执掌军政中枢。
+  - date: 0166-09
+    title_zh: 甘草直去位
+    rationale: 延熹九年免太尉，直道不容于朝。
+- id: guji-陈蕃-endeavor-2
+  name_zh: 灵帝朝顾命辅政与谋诛宦官
+  phases:
+  - key: breakthrough
+    name_zh: 拜太傅录尚书事
+    labels:
+      zh:
+      - 顾命
+      - 辅政
+    start_date: 0168-02
+    highlight_event_id: guji-陈蕃-event-taifu
+  - key: climax
+    name_zh: 谋诛宦官
+    labels:
+      zh:
+      - 除患
+      - 政争
+    start_date: 0168-02
+    highlight_event_id: guji-陈蕃-event-death
+  - key: closure
+    name_zh: 遇害
+    labels:
+      zh:
+      - 身死
+      - 族灭
+    start_date: 0168-10
+    highlight_event_id: guji-陈蕃-event-death
+  decisions:
+  - date: 0168-02
+    title_zh: 与窦武、胡广参录尚书事
+    rationale: 受窦太后顾命，以前太尉为太傅，辅佐幼主。
+  - date: 0168-09
+    title_zh: 与窦武共谋诛宦官
+    rationale: 疾宦官专权，与大将军窦武定策清除阉党，事泄被诛。
+events:
+- id: guji-陈蕃-event-taiwei
+  date: 0164-08
+  year_of: 116
+  type: appointment
+  title_zh: 秋七月，太中大夫陈蕃为太尉
+  description: 延熹七年秋七月，由太中大夫拜太尉。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷八
+  endeavor_id: guji-陈蕃-endeavor-1
+- id: guji-陈蕃-event-taiwei-mian
+  date: 0166-09
+  year_of: 118
+  type: dismissal
+  title_zh: 太尉陈蕃免
+  description: 延熹九年秋，太尉陈蕃免官。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷八
+  endeavor_id: guji-陈蕃-endeavor-1
+- id: guji-陈蕃-event-taifu
+  date: 0168-02
+  year_of: 0168
+  type: appointment
+  title_zh: 以前太尉陈蕃为太傅，参录尚书事
+  description: 建宁元年正月，灵帝即位，以前太尉陈蕃为太傅，与窦武及司徒胡广参录尚书事。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷八
+  endeavor_id: guji-陈蕃-endeavor-2
+- id: guji-陈蕃-event-death
+  date: 0168-10
+  year_of: 0168
+  type: death
+  title_zh: 中常侍曹节矫诏诛太傅陈蕃
+  description: 建宁元年九月辛亥，曹节矫诏诛太傅陈蕃、大将军窦武等，皆夷其族。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷八
+  endeavor_id: guji-陈蕃-endeavor-2
