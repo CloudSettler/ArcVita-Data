@@ -1,0 +1,110 @@
+person:
+  qid: guji-董卓
+  name_zh: 董卓
+  names:
+    zh: 董卓
+    en: Dong Zhuo
+  lifespan:
+    birth:
+      date: '135'
+      precision: year
+      is_circa: true
+      raw: 约东汉顺帝时
+    death:
+      date: 192-05-22
+      precision: day
+    birth_date: '135'
+    death_date: 192-05-22
+  era: 东汉末
+  reign_ref: 汉灵帝、汉少帝、汉献帝
+  archetype: 权臣·枭雄
+  dilemmas:
+  - 废立天子以专朝权，还是奉迎汉室以全名节
+  - 挟天子迁都长安以避关东兵锋，还是坚守洛阳力战诸侯
+  lesson: 凶暴专权虽得势于一时，终失人心而族灭身死
+  summary_first_person: 我董卓以西凉兵起家，逢乱入京废立天子，挟帝迁都而暴虐无道，终为王允、吕布所杀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷102
+endeavors:
+- id: guji-董卓-endeavor-1
+  name_zh: 凉州起兵
+  labels:
+    zh: 凉州起家
+  phases:
+  - key: brewing
+    name_zh: 并州凉州征战
+    labels:
+      zh: 州兵将校
+    start_date: '167'
+    highlight_event_id: guji-董卓-event-1
+  decisions:
+  - date: '184'
+    title_zh: 出讨黄巾
+    rationale: 以军功积累威名与兵权
+- id: guji-董卓-endeavor-2
+  name_zh: 入京专权
+  labels:
+    zh: 废立迁都
+  phases:
+  - key: breakthrough
+    name_zh: 入洛阳
+    labels:
+      zh: 引兵入京
+    start_date: '189'
+    highlight_event_id: guji-董卓-event-2
+  - key: climax
+    name_zh: 废帝迁都
+    labels:
+      zh: 权倾朝野
+    start_date: 189-09
+    highlight_event_id: guji-董卓-event-3
+  - key: closure
+    name_zh: 身死族灭
+    labels:
+      zh: 遇刺身亡
+    start_date: 192-05
+    highlight_event_id: guji-董卓-event-4
+  decisions:
+  - date: 189-09-28
+    title_zh: 废少帝立献帝
+    rationale: 改易天子以专断朝政
+  - date: '190'
+    title_zh: 迁都长安焚洛阳
+    rationale: 避关东联军兵锋，挟天子西迁
+events:
+- id: guji-董卓-event-birth
+  date: '135'
+  precision: year
+  year_of: 135
+  type: birth
+  title_zh: 董卓生
+- id: guji-董卓-event-death
+  date: 192-05-22
+  precision: day
+  year_of: 192
+  type: death
+  title_zh: 董卓为吕布所杀
+- id: guji-董卓-event-1
+  date: '184'
+  precision: year
+  year_of: 184
+  type: deed
+  title_zh: 以并州将出讨黄巾始显军功
+- id: guji-董卓-event-2
+  date: '189'
+  precision: year
+  year_of: 189
+  type: deed
+  title_zh: 乘何进被杀引兵入洛阳专朝政
+- id: guji-董卓-event-3
+  date: 189-09-28
+  precision: day
+  year_of: 189
+  type: deed
+  title_zh: 废少帝刘辩立陈留王刘协为献帝
+- id: guji-董卓-event-4
+  date: 192-05-22
+  precision: day
+  year_of: 192
+  type: deed
+  title_zh: 为王允吕布所诛

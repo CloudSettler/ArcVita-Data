@@ -1,0 +1,98 @@
+person:
+  qid: guji-班昭
+  name_zh: 班昭
+  names:
+    zh: 班昭
+    en: Ban Zhao
+  lifespan:
+    birth:
+      date: 37
+      precision: year
+      is_circa: true
+      raw: 约公元45年
+    death:
+      date: 80
+      precision: year
+      is_circa: true
+      raw: 约公元120年
+  birth_date: 约公元45年
+  death_date: 约公元120年
+  era: 东汉
+  reign_ref: 汉和帝、汉安帝时代
+  archetype: 才女史家・宫廷师友
+  dilemmas:
+  - 以女子之身厕身政事，进退须权衡名分与实务
+  - 直言犹惧取祸，沉默则有负所学与家风
+  lesson: 学问与守礼并行，方能于乱世宫廷中存身而济事
+  summary_first_person: 我是班昭，续成兄长班固之《汉书》，两度于宫中教授后妃与诸生，人称曹大家。邓太后当国之际，遇到疑难常向我垂问；其兄邓骘遭母丧乞归，太后不许，问于我，我陈说礼义，太后乃许其守丧，阖门辞事。我以经史之学_LEGULONG佐朝政之名论，不逾闺阈而影响庙堂，是我一生所守。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷10上
+endeavors:
+- id: guji-班昭-endeavor-1
+  name_zh: 续成《汉书》
+  phases:
+  - key: brewing
+    name_zh: 受家学熏陶
+    labels:
+      zh: 承班氏家学
+    start_date: '0055'
+  - key: breakthrough
+    name_zh: 奉诏续史
+    labels:
+      zh: 补撰汉书
+    start_date: 0092
+    highlight_event_id: guji-班昭-event-x1
+  - key: closure
+    name_zh: 书成传世
+    labels:
+      zh: 八表马续完成
+    start_date: '0111'
+- id: guji-班昭-endeavor-2
+  name_zh: 侍讲宫廷与参议政事
+  phases:
+  - key: brewing
+    name_zh: 入宫授学
+    labels:
+      zh: 妃嫔与皇后师
+    start_date: '0102'
+  - key: climax
+    name_zh: 为太后顾问
+    labels:
+      zh: 邓太后垂问
+    start_date: '0106'
+    highlight_event_id: guji-班昭-event-x2
+  - key: closure
+    name_zh: 晚年著《女诫》
+    labels:
+      zh: 训诫女儿
+    start_date: '0115'
+  decisions:
+  - date: '0106'
+    title_zh: 议许邓骘母忧解职
+    rationale: 骘遭母丧上书乞身，太后不许而问于昭；昭陈母子之义与礼制，谓宜听其完孝，太后乃许之，故骘得以阖门辞事。
+  - date: '0115'
+    title_zh: 撰《女诫》以训诸女
+    rationale: 以卑弱、敬慎、专心诸篇自警并诫女，立女子守分修德之则。
+events:
+- id: guji-班昭-event-birth
+  date: '0045'
+  year_of: 45
+  type: birth
+  summary: 班昭生于扶风安陵班氏，父班彪、兄班固皆以史学名家。
+- id: guji-班昭-event-death
+  date: '0120'
+  year_of: 120
+  type: death
+  summary: 约于邓太后临朝末年病卒，太后素服举哀，使人为之制服行丧。
+- id: guji-班昭-event-x1
+  date: 0092
+  year_of: 92
+  type: endeavor
+  endeavor_id: guji-班昭-endeavor-1
+  summary: 班固卒后《汉书》八表及天文志未成，和帝诏昭就东观藏书阁续成之。
+- id: guji-班昭-event-x2
+  date: '0106'
+  year_of: 106
+  type: endeavor
+  endeavor_id: guji-班昭-endeavor-2
+  summary: 邓太后兄大将军邓骘以母忧上书乞身，太后不许，问于班昭；昭申说礼义，太后乃许骘解官守丧，阖门辞事。

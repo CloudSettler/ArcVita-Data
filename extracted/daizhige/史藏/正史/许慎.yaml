@@ -1,0 +1,126 @@
+person:
+  qid: guji-许慎
+  name_zh: 许慎
+  names:
+    zh: 许慎
+    en: Xu Shen
+  lifespan:
+    birth:
+      date: 0058
+      precision: year
+      is_circa: true
+      raw: 约东汉明帝时期
+    death:
+      date: 0148
+      precision: year
+      is_circa: true
+      raw: 约东汉桓帝时期
+  birth_date: 0058
+  death_date: 0148
+  era: 东汉
+  reign_ref: 汉明帝至汉桓帝
+  archetype: 经学家·文字学家
+  lesson: 治学以文字为本，穷经必先正字，方使古义不失。
+  summary_first_person: 我许慎，汝南召陵人，人称五经无双许叔重。我博通经籍，撰《说文解字》，以六书之理剖析篆文，为后世文字训诂之学立下根基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/後漢書/卷109下
+endeavors:
+- id: guji-许慎-endeavor-1
+  name_zh: 撰著《说文解字》
+  phases:
+  - key: brewing
+    name_zh: 治经蓄学
+    labels:
+      zh: 博通五经
+    start_date: 0080
+    highlight_event_id: guji-许慎-event-scholarship
+  - key: breakthrough
+    name_zh: 发凡起例
+    labels:
+      zh: 创立六书体例
+    start_date: '0100'
+    highlight_event_id: guji-许慎-event-shuowen-initial
+  - key: climax
+    name_zh: 首献其书
+    labels:
+      zh: 献书朝廷
+    start_date: '0121'
+    highlight_event_id: guji-许慎-event-shuowen-present
+  - key: closure
+    name_zh: 定稿流传
+    labels:
+      zh: 书成流传后世
+    start_date: '0121'
+  decisions:
+  - date: '0100'
+    title: 以六书统摄九千三百五十余字
+    rationale: 恐俗儒妄说文字、穿凿附会，故据形系联，分别部居，始一终亥，正明经典文字之本源。
+  - date: '0121'
+    title: 遣子许冲献书朝廷
+    rationale: 书成未及亲奏而病笃，命子许冲赍诣阙上进，使《说文解字》得布于世。
+- id: guji-许慎-endeavor-2
+  name_zh: 校书东观与经学讲授
+  phases:
+  - key: brewing
+    name_zh: 郡功曹入仕
+    labels:
+      zh: 举孝廉
+    start_date: 0085
+  - key: breakthrough
+    name_zh: 校雠秘籍
+    labels:
+      zh: 校书东观
+    start_date: '0100'
+    highlight_event_id: guji-许慎-event-dongguan
+  - key: closure
+    name_zh: 教授乡里
+    labels:
+      zh: 称疾归里授业
+    start_date: '0120'
+  decisions:
+  - date: '0100'
+    title: 就贾逵受古学
+    rationale: 从古文经学大师贾逵问学，遂通古文经传，确立以古文说经之立场。
+events:
+- id: guji-许慎-event-birth
+  person_qid: guji-许慎
+  type: birth
+  date: 0058
+  year_of: 58
+  title: 许慎生于汝南召陵
+  description: 许慎字叔重，汝南召陵人，出身郡县，性淳笃，少博学经籍。
+- id: guji-许慎-event-scholarship
+  person_qid: guji-许慎
+  type: scholarship
+  date: 0090
+  year_of: 90
+  title: 师从贾逵习古文经学
+  description: 受古学于贾逵，博通五经，时人语曰“五经无双许叔重”。
+- id: guji-许慎-event-dongguan
+  person_qid: guji-许慎
+  type: official_career
+  date: '0100'
+  year_of: 100
+  title: 校书东观
+  description: 除郡功曹，举孝廉，再迁除洨长，入东观校书秘籍。
+- id: guji-许慎-event-shuowen-initial
+  person_qid: guji-许慎
+  type: writing
+  date: '0100-01-01'
+  year_of: 100
+  title: 《说文解字》初成
+  description: 撰成《说文解字》初稿，分别部居，据形系联，凡十四篇，叙目一篇。
+- id: guji-许慎-event-shuowen-present
+  person_qid: guji-许慎
+  type: writing
+  date: '0121'
+  year_of: 121
+  title: 遣子许冲献《说文解字》于朝廷
+  description: 病遣其子许冲上《说文解字》于汉安帝，书始布于世。
+- id: guji-许慎-event-death
+  person_qid: guji-许慎
+  type: death
+  date: 0148
+  year_of: 148
+  title: 许慎卒
+  description: 许慎卒，所撰《说文解字》为后世文字学不祧之祖。
