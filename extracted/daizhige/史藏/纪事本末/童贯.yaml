@@ -1,0 +1,165 @@
+person:
+  qid: guji-童贯
+  name_zh: 童贯
+  names:
+    zh: 童贯
+    en: Tong Guan
+  lifespan:
+    birth:
+      date: '1054'
+      precision: year
+      is_circa: true
+      raw: 约1054年（史载）
+    death:
+      date: '1126'
+      precision: year
+      is_circa: false
+      raw: 靖康初被诛（本卷未载，采通行记载）
+  birth_date: 约1054年
+  death_date: 1126年
+  era: 北宋徽宗政和—宣和年间
+  reign_ref: 宋徽宗赵佶（政和、宣和）
+  archetype: 权宦枢臣
+  dilemmas:
+  - 守宋辽百年盟誓还是联金夹攻取燕云
+  - 奉密旨觇辽，却在边事与外交往来中渐开兵衅
+  lesson: 轻弃百年盟约、侥幸开边，虽位极枢密，终致祸变涂炭生灵
+  summary_first_person: 我以太师领枢密院，总西北边事；政和元年副郑允中使辽，奉密旨觇其国。马植来归、登州奏报女真之势，我皆与蔡京力主之，遣使浮海通女真，议夹攻灭辽，遂开宋金海上之盟，天下祸变自是而始。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三朝北盟会编/卷一
+endeavors:
+- id: guji-童贯-endeavor-1
+  name_zh: 奉使辽国与觇国密旨
+  phases:
+  - key: brewing
+    name_zh: 副使北上
+    labels:
+      zh:
+      - 外交使团
+      - 节度使为副
+    start_date: '1111'
+    highlight_event_id: guji-童贯-event-shiliao
+  - key: breakthrough
+    name_zh: 密觇其国
+    labels:
+      zh:
+      - 奉密旨
+      - 结纳马植
+    start_date: '1111'
+    highlight_event_id: guji-童贯-event-mazhi
+  decisions:
+  - date: '1111'
+    title_zh: 副郑允中奉使北廷，奉密旨觇辽
+    rationale: 辽主欲见以索取玉帛奇玩，朝廷乘机侦察其国情虚实
+- id: guji-童贯-endeavor-2
+  name_zh: 主谋海上之盟、联金图燕
+  phases:
+  - key: brewing
+    name_zh: 收纳归明人
+    labels:
+      zh:
+      - 纳马植（李良嗣）
+      - 力主图燕
+    start_date: '1111'
+    highlight_event_id: guji-童贯-event-mazhi
+  - key: breakthrough
+    name_zh: 遣使泛海
+    labels:
+      zh:
+      - 市马为名
+      - 通好女真
+    start_date: '1117-08-03'
+    highlight_event_id: guji-童贯-event-haishi
+  - key: climax
+    name_zh: 夹攻灭辽之议
+    labels:
+      zh:
+      - 宣抚措置
+      - 遣马政使金
+    start_date: '1118-04-27'
+    highlight_event_id: guji-童贯-event-mazheng
+  - key: closure
+    name_zh: 北议遇阻与复议
+    labels:
+      zh:
+      - 邓洵武力争
+      - 宣和竟出师
+    start_date: '1118'
+    highlight_event_id: guji-童贯-event-juann
+  decisions:
+  - date: '1117-07-04'
+    title_zh: 与蔡京同奏请以市马为名遣人浮海探问女真
+    rationale: 高药师等漂至登州具言女真侵辽之实，可借访虚实通好女真
+  - date: '1118-04-27'
+    title_zh: 与王师中选马政、呼延庆使女真军前议事
+    rationale: 通好女真、讲买马旧好，议夹攻灭辽相应举兵
+  - date: '1118'
+    title_zh: 说邓洵武勿阻北伐之议
+    rationale: 知蔡京与己图燕之意，劝枢密"商量得十来年里不要相拗官家"，恐为他人所夺
+events:
+- id: guji-童贯-event-birth
+  date: '1054'
+  year_of: 1054
+  type: birth
+  title_zh: 童贯约生于此年（本卷未载，补通行记载）
+  participants:
+  - guji-童贯
+- id: guji-童贯-event-shiliao
+  date: '1111'
+  year_of: 1111
+  type: endeavor
+  endeavor_id: guji-童贯-endeavor-1
+  title_zh: 政和元年副郑允中奉使辽国
+  summary_zh: 童贯以节度使为奉使副，非故事也；辽主天祚欲见之，所赍珍玩甚厚，中外浸侈自此始。
+  participants:
+  - guji-童贯
+  - guji-郑允中
+- id: guji-童贯-event-mazhi
+  date: '1112'
+  year_of: 1112
+  type: endeavor
+  endeavor_id: guji-童贯-endeavor-2
+  title_zh: 燕人马植潜见童贯，约其来归
+  summary_zh: 马植知契丹必亡，说贯以边事；植自藏於童贯家，後赐姓李名良嗣，京贯力主之以图取燕。
+  participants:
+  - guji-童贯
+  - guji-马植
+- id: guji-童贯-event-haishi
+  date: '1117-07-04'
+  year_of: 1117
+  type: endeavor
+  endeavor_id: guji-童贯-endeavor-2
+  title_zh: 与蔡京同奏，诏以市马为名遣使探问女真
+  summary_zh: 登州奏辽人高药师等漂至，具言女真侵辽；京贯佥议奏可，王师中募人泛海，其後通好女真议夹攻灭辽，国家祸变自是而始。
+  participants:
+  - guji-童贯
+  - guji-蔡京
+  - guji-王师中
+- id: guji-童贯-event-mazheng
+  date: '1118-04-27'
+  year_of: 1118
+  type: endeavor
+  endeavor_id: guji-童贯-endeavor-2
+  title_zh: 遣马政、呼延庆同高药师过海至女真军前
+  summary_zh: 童贯与王师中选马政可委、呼延庆善外国语，同将校七人兵级八十人赴女真军前议事。
+  participants:
+  - guji-童贯
+  - guji-马政
+  - guji-呼延庆
+- id: guji-童贯-event-juann
+  date: '1118'
+  year_of: 1118
+  type: endeavor
+  endeavor_id: guji-童贯-endeavor-2
+  title_zh: 枢密院说邓洵武，力排守盟之议
+  summary_zh: 邓洵武约贯到枢密院具陈利害，贯反说之曰官家方有意於北事，恐为他人所夺；洵武知京贯之意。
+  participants:
+  - guji-童贯
+  - guji-邓洵武
+- id: guji-童贯-event-death
+  date: '1126'
+  year_of: 1126
+  type: death
+  title_zh: 童贯死（靖康初伏诛，本卷未载，补通行记载）
+  participants:
+  - guji-童贯

@@ -1,0 +1,103 @@
+person:
+  qid: guji-cai-jing
+  name_zh: 蔡京
+  names:
+    zh: 蔡京
+  era: 北宋末
+  reign_ref: 政和、宣和年间
+  archetype: 权相主谋联金灭辽
+  dilemmas:
+  - 是否放弃宋辽百年盟约、联合女真夹攻辽国以取燕云
+  - 面对郑居中、邓洵武等守盟派的重臣谏阻，如何坚持北伐之议
+  lesson: 弃百年盟约而启边衅，虽一时得志，终致国家祸变涂炭生灵。
+  summary_first_person: 我是蔡京，徽宗朝领三省事、位为首台。政和年间，我力主接纳辽叛臣李良嗣（赵良嗣），与童贯共倡联金攻辽、恢复燕云之策，并兴香茶盐矾诸法、置和籴以充兵费。郑居中当面责我背约造事端，邓洵武屡陈利害折我之议，一度使北议暂停；然辽衰之后王黼复倡兼弱攻昧之说，卒致宣和出师，天下祸变自吾辈启之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三朝北盟会编/卷一
+endeavors:
+- id: guji-cai-jing-endeavor-1
+  name_zh: 力主联金灭辽、图取燕云
+  phases:
+  - key: brewing
+    name_zh: 接纳李良嗣并力主其归明
+    labels:
+      zh: 力主收留
+    start_date: 1115-04-10
+    highlight_event_id: guji-cai-jing-event-1
+  - key: breakthrough
+    name_zh: 与童贯佥议遣使泛海通好女真
+    labels:
+      zh: 市马探问
+    start_date: 1117-08-01
+    highlight_event_id: guji-cai-jing-event-2
+  - key: climax
+    name_zh: 朝堂驳郑居中守盟之议，坚称上意已决
+    labels:
+      zh: 力排众议
+    start_date: 1118-01-01
+    highlight_event_id: guji-cai-jing-event-3
+  decisions:
+  - date: 1115-04-10
+    title_zh: 与童贯同奏收留辽叛臣李良嗣
+    rationale: 以自古招徕为盛德，且辽国用兵、军民不附，良嗣归明故当收留
+  - date: 1117-08-01
+    title_zh: 请以市马为名遣使访女真
+    rationale: 遵国初故事，借市马之名探问女真事体虚实，为联金预作铺垫
+- id: guji-cai-jing-endeavor-2
+  name_zh: 为国兴利、备兵兴支用
+  phases:
+  - key: brewing
+    name_zh: 推行香茶盐矾等法、立递年租额
+    labels:
+      zh: 财政兴利
+    start_date: 1115-01-01
+    highlight_event_id: guji-cai-jing-event-4
+  - key: climax
+    name_zh: 行和籴均籴对籴衔籴以备军食
+    labels:
+      zh: 和籴备军
+    start_date: 1116-01-01
+  decisions:
+  - date: 1115-01-01
+    title_zh: 行香茶盐矾等法并州县立租额
+    rationale: 朝廷既有意于燕云，须备战兴支用，以最殿考守令赏罚
+events:
+- id: guji-cai-jing-event-birth
+  event_type: birth
+  date: -1046
+  year_of: -1046
+  note: 生年史传未详，仅存占位
+- id: guji-cai-jing-event-death
+  event_type: death
+  date: 1126
+  year_of: 1126
+  note: 卒年本卷未载，据通史补
+- id: guji-cai-jing-event-1
+  event_type: endeavor
+  date: 1115-04-10
+  year_of: 1115
+  name_zh: 政和五年与童贯同奏收留李良嗣
+  detail: 和诜奏李良嗣蜡书愿归明，上令太师蔡京、太尉童贯共议可否，庚辰京与贯奏乞收留，良嗣遂于四月一日夜入境
+- id: guji-cai-jing-event-2
+  event_type: endeavor
+  date: 1117-08-01
+  year_of: 1117
+  name_zh: 政和七年佥议遣使泛海探问女真
+  detail: 登州奏辽人高药师等漂至，上命中使押诣蔡京第，令与童贯佥议；京贯同奏以市马为名令人访其虚实，上可之
+- id: guji-cai-jing-event-3
+  event_type: clash
+  date: 1118
+  year_of: 1118
+  name_zh: 朝堂与郑居中争执罢遣女真使事
+  detail: 太宰郑居中责蔡京不守两国盟约辄造事端，京答以上厌岁币、上意已决岂可沮，居中作色而起
+- id: guji-cai-jing-event-4
+  event_type: endeavor
+  date: 1115
+  year_of: 1115
+  name_zh: 为国兴利以备兵兴支用
+  detail: 行香茶盐矾等法，州县立递年租额，以最殿考赏罚；又行和籴均籴对籴衔籴以备军食，民力遂罢
+- id: guji-cai-jing-event-5
+  event_type: clash
+  date: 1119
+  year_of: 1119
+  name_zh: 邓洵武上乞守誓罢兵，北议一度寝
+  detail: 邓洵武屡折蔡京谋起燕兵之议，并出赵普谏疏进读，上大悟语京曰北事难做则休，祖宗盟誓违之不祥，京色变其议遂寝
