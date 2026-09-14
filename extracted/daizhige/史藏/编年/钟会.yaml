@@ -1,0 +1,102 @@
+person:
+  qid: guji-zhong-hui
+  name_zh: 钟会
+  names:
+    zh: 钟会
+    en: Zhong Hui
+  lifespan:
+    birth:
+      date: '225'
+      precision: year
+      is_circa: true
+      raw: 颍川长社人
+    death:
+      date: 264-03-03
+      precision: year
+      is_circa: false
+      raw: 以谋反伏诛于成都
+  birth_date: '225'
+  death_date: '264'
+  era: 三国·魏
+  reign_ref: 魏文帝至魏元帝
+  archetype: 才士叛将
+  dilemmas:
+  - 出身名门兼掌机要，功成之后不甘久居人下
+  - 受司马昭之命伐蜀，降后竟谋自立
+  lesson: 才略过人而志欲难驯，终因轻举冒进身败名裂
+  summary_first_person: 我钟会出身颍川世族，早年以玄学名士身份得司马氏倚重，参与淮南军政。景元年间我统十余万大军伐蜀，定汉中、降刘禅于成都，然功成之际与姜维合谋据蜀自立，众军哗变，身死于乱刃之下。
+  source_urls:
+  - https://www.kaogu.cn/
+endeavors:
+- id: guji-zhong-hui-endeavor-1
+  name_zh: 伐蜀之役
+  labels:
+    zh: 军事事业
+  phases:
+  - key: brewing
+    name_zh: 参赞机务
+    labels:
+      zh: 谋主时期
+    start_date: '255'
+    highlight_event_id: guji-zhong-hui-event-mouzhu
+  - key: breakthrough
+    name_zh: 大军入蜀
+    labels:
+      zh: 伐蜀
+    start_date: '263'
+    highlight_event_id: guji-zhong-hui-event-fashu
+  - key: climax
+    name_zh: 据蜀图谋
+    labels:
+      zh: 成都之变
+    start_date: '264'
+    highlight_event_id: guji-zhong-hui-event-chengdu
+  - key: closure
+    name_zh: 败亡
+    labels:
+      zh: 兵变身死
+    start_date: '264'
+    highlight_event_id: guji-zhong-hui-event-death
+  decisions:
+  - date: '263'
+    title_zh: 领兵伐蜀，克定汉中
+    rationale: 受司马昭之命为主帅，欲以军功建立威望
+  - date: '264'
+    title_zh: 与姜维合谋据蜀自立
+    rationale: 既有灭国之功，遂生割据之志
+events:
+- id: guji-zhong-hui-event-birth
+  date: '225'
+  year_of: 225
+  type: birth
+  title_zh: 钟会生于颍川长社
+  participants:
+  - guji-zhong-hui
+- id: guji-zhong-hui-event-mouzhu
+  date: '255'
+  year_of: 255
+  type: endeavor
+  title_zh: 为司马昭谋主，参与淮南军政
+  participants:
+  - guji-zhong-hui
+- id: guji-zhong-hui-event-fashu
+  date: '263'
+  year_of: 263
+  type: endeavor
+  title_zh: 统大军伐蜀，克定汉中
+  participants:
+  - guji-zhong-hui
+- id: guji-zhong-hui-event-chengdu
+  date: '264'
+  year_of: 264
+  type: endeavor
+  title_zh: 在成都与姜维合图自立
+  participants:
+  - guji-zhong-hui
+- id: guji-zhong-hui-event-death
+  date: 264-03-03
+  year_of: 264
+  type: death
+  title_zh: 部众兵变，钟会死于成都
+  participants:
+  - guji-zhong-hui
