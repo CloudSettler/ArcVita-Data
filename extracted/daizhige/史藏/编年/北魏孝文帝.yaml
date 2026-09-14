@@ -1,0 +1,92 @@
+person:
+  qid: guji-北魏孝文帝
+  name_zh: 北魏孝文帝
+  names:
+    zh: 北魏孝文帝
+    en: Emperor Xiaowen of Northern Wei
+  lifespan:
+    birth:
+      date: '0467'
+      precision: year
+      is_circa: true
+      raw: 皇兴元年生
+    death:
+      date: 0499
+      precision: year
+      is_circa: false
+  birth_date: '0467'
+  death_date: 0499
+  era: 南北朝·北魏
+  reign_ref: 太和（477—499）
+  archetype: reformer-sovereign
+  dilemmas:
+  - 迁都洛阳以图汉化，恐鲜卑旧贵离心
+  - 全面汉化与保留鲜卑旧俗之间的取舍
+  lesson: 改革者须以决断与教化并行方能推动文化转型
+  summary_first_person: 我是北魏孝文帝，我力排众议迁都洛阳，推行汉化改革，改姓易服，兴太学，欲使鲜卑与华夏融为一体，虽早逝而志业已立。
+  source_urls:
+  - https://zh.wikisource.org/wiki/資治通鑑
+endeavors:
+- id: guji-北魏孝文帝-endeavor-1
+  key: 汉化改革
+  name_zh: 太和改制
+  labels:
+    zh: 太和改制
+  phases:
+  - key: brewing
+    name_zh: 亲政前铺垫
+    labels:
+      zh: 太和初政
+    start_date: '0477'
+  - key: breakthrough
+    name_zh: 迁都洛阳
+    labels:
+      zh: 迁都洛阳
+    start_date: 0494
+    highlight_event_id: guji-北魏孝文帝-event-relocation
+  - key: climax
+    name_zh: 全面汉化
+    labels:
+      zh: 断北语改姓氏
+    start_date: 0495
+  - key: closure
+    name_zh: 南征与身故
+    labels:
+      zh: 南征病逝
+    start_date: 0499
+  decisions:
+  - date: 0494
+    title_zh: 定计迁都洛阳
+    rationale: 便于经略中原并推进汉化
+  - date: 0495
+    title_zh: 禁胡服胡语、改拓跋为元
+    rationale: 消除胡汉隔阂，异天下一家
+  - date: 0499
+    title_zh: 亲率大军南征
+    rationale: 欲统一南北，抱病出征
+events:
+- id: guji-北魏孝文帝-event-birth
+  event_type: birth
+  date: '0467'
+  year_of: 467
+  title_zh: 生于北魏皇室
+- id: guji-北魏孝文帝-event-reign-start
+  event_type: endeavor
+  date: '0477'
+  year_of: 477
+  title_zh: 改元太和，开启太和改制
+- id: guji-北魏孝文帝-event-relocation
+  event_type: endeavor
+  date: 0494
+  year_of: 494
+  title_zh: 迁都洛阳
+- id: guji-北魏孝文帝-event-sinicization
+  event_type: endeavor
+  date: 0495
+  year_of: 495
+  title_zh: 推行汉化，改元氏、禁北语
+- id: guji-北魏孝文帝-event-death
+  event_type: death
+  date: 0499
+  year_of: 499
+  title_zh: 南征途中病逝于谷塘原
