@@ -1,0 +1,137 @@
+person:
+  qid: guji-金日磾
+  name_zh: 金日磾
+  names:
+    zh: 金日磾
+    en: Jin Midi
+  lifespan:
+    birth:
+      date: -134
+      precision: year
+      is_circa: true
+      raw: 生年史无明载（约武帝时期）
+    death:
+      date: -86
+      precision: year
+      is_circa: false
+  birth_date: -134
+  death_date: -86
+  era: 西汉武帝、昭帝时期
+  reign_ref: 汉武帝、汉昭帝
+  archetype: 忠谨降臣／顾命辅政大臣
+  dilemmas:
+  - 以匈奴休屠王太子之身仕汉，何以自处并取信于汉廷
+  - 霍光让贤时辞让辅政首席，恐匈奴轻汉
+  - 察觉莽何罗兄弟谋反，隐忍不发、静待时机
+  lesson: 忠谨自持、临危果决者虽出于异族亦可为汉室柱石
+  summary_first_person: 我是匈奴休屠王太子，归汉后为武帝所信，任侍中驸马都尉。我察觉莽何罗兄弟谋反，趁其袖刃入殿之机将其抱住擒缚，救主于卧榻之侧。武帝临终托孤，霍光让位于我，我以“臣外国人，将令匈奴轻汉”坚辞，遂受遗诏与霍光等辅佐少主，拜车骑将军，辅政岁余病薨，谥敬侯。
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+endeavors:
+- id: guji-金日磾-endeavor-1
+  name_zh: 入汉为臣，宿卫忠谨
+  phases:
+  - key: brewing
+    name_zh: 归汉入仕
+    labels:
+      zh: 归汉
+    start_date: '-121'
+    highlight_event_id: guji-金日磾-event-1
+  - key: breakthrough
+    name_zh: 得信武帝
+    labels:
+      zh: 宿卫
+    start_date: about '-110'
+    highlight_event_id: guji-金日磾-event-2
+  - key: climax
+    name_zh: 擒缚莽何罗
+    labels:
+      zh: 救驾
+    start_date: -91
+    highlight_event_id: guji-金日磾-event-3
+  - key: closure
+    name_zh: 顾命辅政
+    labels:
+      zh: 托孤
+    start_date: -87
+    highlight_event_id: guji-金日磾-event-4
+  decisions:
+  - date: '-121'
+    title_zh: 降汉入仕
+    rationale: 父休屠王为昆邪王所杀，随众降汉，没入官奴后得武帝赏识
+  - date: -87
+    title_zh: 辞让辅政首席
+    rationale: 自认“臣外国人，将令匈奴轻汉”，让霍光居首，避免汉朝威信受损
+- id: guji-金日磾-endeavor-2
+  name_zh: 镇压莽何罗谋反与昭帝辅政
+  phases:
+  - key: brewing
+    name_zh: 阴察逆谋
+    labels:
+      zh: 察变
+    start_date: -91
+    highlight_event_id: guji-金日磾-event-3
+  - key: climax
+    name_zh: 殿上擒贼
+    labels:
+      zh: 擒缚
+    start_date: -91
+    highlight_event_id: guji-金日磾-event-3
+  - key: closure
+    name_zh: 辅政善终
+    labels:
+      zh: 辅政
+    start_date: -86
+    highlight_event_id: guji-金日磾-event-4
+  decisions:
+  - date: -91
+    title_zh: 隐忍不发、静候擒之
+    rationale: 视莽何罗志意非常而阴察其动静，不先发以免无据，终在殿上手搏逆贼
+events:
+- id: guji-金日磾-event-birth
+  date: '-134'
+  year_of: -134
+  type: birth
+  title_zh: 金日磾生（约）
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+- id: guji-金日磾-event-death
+  date: -86
+  year_of: -86
+  type: death
+  title_zh: 金日磾薨，谥敬侯
+  description_zh: 辅政岁余病困，卧受印绶，一日薨，送葬茂陵
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+- id: guji-金日磾-event-1
+  date: '-121'
+  year_of: -121
+  type: endeavor
+  title_zh: 随休屠部降汉
+  description_zh: 昆邪王杀休屠王并降汉，日磾没入官为奴，后得武帝赏识入仕
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+- id: guji-金日磾-event-2
+  date: '-110'
+  year_of: -110
+  type: astute
+  title_zh: 仕侍中驸马都尉，宿卫甚谨
+  description_zh: 以忠谨得信于武帝，与霍光、上官桀并为心腹
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+- id: guji-金日磾-event-3
+  date: -91
+  year_of: -91
+  type: endeavor
+  title_zh: 殿上擒缚莽何罗
+  description_zh: 后元元年，莽何罗袖白刃入宫行刺，日磾识其逆谋，抱而擒缚之
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
+- id: guji-金日磾-event-4
+  date: -87
+  year_of: -87
+  type: endeavor
+  title_zh: 受遗诏辅少主，拜车骑将军
+  description_zh: 武帝卧床拜霍光为大司马大将军、日磾为车骑将军、上官桀为左将军，俱受遗诏辅昭帝
+  source_urls:
+  - https://zh.wikisource.org/wiki/前汉纪
