@@ -1,0 +1,110 @@
+person:
+  qid: guji-xuxuan
+  name_zh: 徐铉
+  names:
+    zh: 徐铉
+    en: Xu Xuan
+  lifespan:
+    birth:
+      date: '916'
+      precision: year
+      is_circa: true
+      raw: 生年约后梁贞明年间
+    death:
+      date: '991'
+      precision: year
+      is_circa: false
+      raw: 死于宋淳化二年
+  birth_date: '916'
+  death_date: '991'
+  era: 五代末至宋初
+  reign_ref: 南唐后主李煜、宋太祖赵匡胤
+  archetype: 弱国之辩臣
+  dilemmas:
+  - 国势已去，欲以辞令缓宋师而保全江南
+  - 事奉旧主与面对新朝威严之间的进退
+  lesson: 卧榻之侧不容他人鼾睡，辞辩难挽积弱之亡
+  summary_first_person: 我徐铉奉后主之命两度出使汴京，以江南事宋如子事父为辞，恳求缓师；太祖按剑叱我，谓卧榻之侧岂容他人鼾睡，辩词终无所用，随李煜归宋。
+  source_urls:
+  - https://zh.wikisource.org/wiki/御制书通鉴续编宋主答徐铉事
+endeavors:
+- id: guji-xuxuan-endeavor-1
+  name_zh: 缓师之辩
+  phases:
+  - key: brewing
+    name_zh: 君命在肩
+    labels:
+      zh:
+      - 使宋
+      - 称臣卑辞
+    start_date: '975'
+    highlight_event_id: guji-xuxuan-event-envoy-1
+  - key: climax
+    name_zh: 汴廷论辩
+    labels:
+      zh:
+      - 事父之喻
+      - 按剑叱责
+    start_date: '975'
+    highlight_event_id: guji-xuxuan-event-envoy-2
+  - key: closure
+    name_zh: 辩词无效
+    labels:
+      zh:
+      - 缓师不成
+      - 卧榻之喻
+    start_date: '975'
+    highlight_event_id: guji-xuxuan-event-envoy-2
+  decisions:
+  - date: '975'
+    title_zh: 卑辞乞缓兵
+    rationale: 国祚危殆，欲以论辩动宋主，事宋如事父，冀存两家之礼
+- id: guji-xuxuan-endeavor-2
+  name_zh: 旧主归命
+  phases:
+  - key: brewing
+    name_zh: 随主出降
+    labels:
+      zh:
+      - 金陵陷落
+      - 从亡
+    start_date: '975'
+    highlight_event_id: guji-xuxuan-event-surrender
+  - key: closure
+    name_zh: 入仕宋廷
+    labels:
+      zh:
+      - 归宋
+      - 晚节
+    start_date: '975'
+    highlight_event_id: guji-xuxuan-event-surrender
+  decisions:
+  - date: '975'
+    title_zh: 随李煜归宋
+    rationale: 金陵不守，旧国已亡，随其主北面称臣以终君臣之义
+events:
+- id: guji-xuxuan-event-birth
+  year_of: 916
+  date: '916'
+  name_zh: 徐铉约生于此年
+  detail: 徐铉，字鼎臣，仕南唐，以文学知名。
+- id: guji-xuxuan-event-envoy-1
+  year_of: 975
+  date: '975'
+  name_zh: 徐铉奉命使宋
+  detail: 宋师伐江南，徐铉奉李煜之命，卑辞使宋，乞求缓师。
+- id: guji-xuxuan-event-envoy-2
+  year_of: 975
+  date: '975'
+  name_zh: 汴廷论辩被叱
+  detail: 徐铉以江南事宋如子事父为喻论辩，宋太祖按剑叱之，谓卧榻之侧岂容他人鼾睡，缓师之请不得。
+- id: guji-xuxuan-event-surrender
+  year_of: 975
+  date: '975'
+  name_zh: 随李煜归宋
+  detail: 金陵陷落，徐铉随后主李煜北面归宋， identifies 宋曹彬禁暴不杀，海内一时底定。
+- id: guji-xuxuan-event-death
+  year_of: 991
+  date: '991'
+  name_zh: 卒
+  detail: 徐铉卒于宋淳化二年。
