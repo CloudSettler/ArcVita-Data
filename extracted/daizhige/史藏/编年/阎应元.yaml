@@ -1,0 +1,178 @@
+person:
+  qid: guji-阎应元
+  name_zh: 阎应元
+  names:
+    zh: 阎应元
+    en: Yan Yingyuan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      date: '1645'
+      precision: year
+      is_circa: false
+      raw: 顺治二年（1645）江阴城破后被杀
+  birth_date: ''
+  death_date: '1645'
+  era: 明末清初
+  reign_ref: 弘光·鲁监国年间
+  archetype: 孤城忠烈
+  dilemmas:
+  - 降可保富贵，守则必死：面对刘良佐劝降，坚守故国之义
+  - 以一典史之微职，担起守城大任
+  lesson: 位卑未敢忘忧国；我一典史耳，犹不忘故国
+  summary_first_person: 我是阎应元，字丽亨，顺天通州人。崇祯中任江阴典史，曾手射海盗立功。剃发令下，江阴士民起义守城，陈明遇推我为主。我入城盟众、治军械、分堡坚守，拒清军十万围攻八十余日，屡出奇计破敌，骂退劝降的刘良佐。城破被执，不屈而死。
+endeavors:
+- id: guji-阎应元-endeavor-1
+  name_zh: 江阴抗清守城
+  labels:
+    zh:
+    - 守城
+    - 忠义
+    - 抗清
+  phases:
+  - key: brewing
+    name_zh: 典史御盗与寓居江阴
+    labels:
+      zh:
+      - 御海盗
+      - 迁职
+    start_date: '1640'
+    highlight_event_id: guji-阎应元-event-defense-pirates
+  - key: breakthrough
+    name_zh: 慨然入主守城
+    labels:
+      zh:
+      - 起义
+      - 盟誓
+    start_date: 1645-08
+    highlight_event_id: guji-阎应元-event-enter-city
+  - key: climax
+    name_zh: 孤城拒十万之师
+    labels:
+      zh:
+      - 守城
+      - 出奇制胜
+    start_date: 1645-09
+    highlight_event_id: guji-阎应元-event-siege
+  - key: closure
+    name_zh: 城破殉节
+    labels:
+      zh:
+      - 殉国
+    start_date: 1645-10
+    highlight_event_id: guji-阎应元-event-death
+  decisions:
+  - date: 1645-08
+    title_zh: 应陈明遇之邀率家丁十四人夜驰入城主守
+    rationale: 明遇自认智勇不及，推应元可属大事；应元以忠义为任，毅然入城
+  - date: 1645-08
+    title_zh: 料尺籍、治楼橹，分四门堡守，劝输巨室以杂物充饷
+    rationale: 立守城制度，使户出一男子登陴，昼夜轮换，聚粟帛以持久
+  - date: 1645-09
+    title_zh: 拒刘良佐遥语劝降
+    rationale: 宁死不忘故国，义不受降
+- id: guji-阎应元-endeavor-2
+  name_zh: 早年捕盗缉海寇
+  labels:
+    zh:
+    - 治安
+    - 武略
+  phases:
+  - key: brewing
+    name_zh: 任江阴典史练乡兵
+    labels:
+      zh:
+      - 练兵
+    start_date: '1640'
+    highlight_event_id: guji-阎应元-event-defense-pirates
+  - key: closure
+    name_zh: 以功迁英德主簿未赴
+    labels:
+      zh:
+      - 迁职
+    start_date: '1643'
+    highlight_event_id: guji-阎应元-event-promotion
+  decisions:
+  - date: '1642'
+    title_zh: 率乡兵拒战海盗顾三麻子，手射三人应弦倒
+    rationale: 海盗乘潮犯黄田港，率乡兵力战御之
+events:
+- id: guji-阎应元-event-birth
+  year_of: ''
+  date: ''
+  precision: unknown
+  is_circa: false
+  name_zh: 阎应元出生
+  description_zh: 生年不详，顺天通州人，字丽亨
+  principal_parties:
+  - 阎应元
+  location: 顺天通州
+- id: guji-阎应元-event-defense-pirates
+  year_of: 崇祯中
+  date: '1640'
+  precision: year
+  is_circa: true
+  name_zh: 率乡兵拒海盗顾三麻子
+  description_zh: 海盗顾三麻子以百艘乘潮至黄田港，应元率乡兵拒战，手射三人应弦而倒
+  principal_parties:
+  - 阎应元
+  - 顾三麻子
+  location: 江阴黄田港
+  related_to:
+  - guji-阎应元-endeavor-2
+- id: guji-阎应元-event-promotion
+  year_of: 崇祯末
+  date: '1643'
+  precision: year
+  is_circa: true
+  name_zh: 以功加都司衔迁广东英德主簿
+  description_zh: 以御盗功加都司衔，迁广东英德主簿，道阻未赴，寓江阴砂山'
+  principal_parties:
+  - 阎应元
+  location: 江阴
+  related_to:
+  - guji-阎应元-endeavor-2
+- id: guji-阎应元-event-enter-city
+  year_of: '1645'
+  date: 1645-08
+  precision: month
+  is_circa: false
+  name_zh: 夜驰入城主持江阴守城
+  description_zh: 陈明遇自称不及阎公智勇，驰迎应元；应元率家丁十四人夜驰入城，与士民盟誓困守
+  principal_parties:
+  - 阎应元
+  - 陈明遇
+  location: 江阴
+  related_to:
+  - guji-阎应元-endeavor-1
+- id: guji-阎应元-event-siege
+  year_of: '1645'
+  date: 1645-09
+  precision: month
+  is_circa: false
+  name_zh: 孤城抗清军十万围攻
+  description_zh: 清军薄城者约十万，列营数百，围十重；应元以炮石、火攻、铁挝、毒弩、束藁借矢等奇计屡创敌军，夜遣壮士缒城纵火，敌死伤万计移营
+  principal_parties:
+  - 阎应元
+  - 清军
+  - 刘良佐
+  location: 江阴
+  related_to:
+  - guji-阎应元-endeavor-1
+- id: guji-阎应元-event-death
+  year_of: '1645'
+  date: 1645-10
+  precision: month
+  is_circa: false
+  name_zh: 江阴城破殉节
+  description_zh: 守城八十余日后城破，应元被执，不屈而死
+  principal_parties:
+  - 阎应元
+  - 清军
+  location: 江阴
+  related_to:
+  - guji-阎应元-endeavor-1
