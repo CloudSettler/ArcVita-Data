@@ -1,0 +1,102 @@
+person:
+  qid: guji-宗泽
+  name_zh: 宗泽
+  names:
+    zh: 宗泽
+    en: Zong Ze
+  lifespan:
+    birth:
+      date: '1060'
+      precision: year
+      is_circa: true
+      raw: 宋嘉祐年间生（约1060）
+    death:
+      date: '1128'
+      precision: year
+      is_circa: false
+  birth_date: '1060'
+  death_date: '1128'
+  era: 北宋末至南宋初
+  reign_ref: 宋钦宗靖康、宋高宗建炎
+  archetype: 抗金名将与东京留守
+  dilemmas:
+  - 主战与朝廷主和之间的抉择
+  - 年近七旬仍受命危难之际
+  lesson: 临终三呼过河，忠愤不泯
+  summary_first_person: 我宗泽字汝霖，婺州义乌人。元祐六年进士，历仕州县有政声。靖康之难后，我年近七旬毅然出仕抗金，任东京留守，留守开封、整军经武，联络义兵，屡败金人，前后二十余次上疏请高宗还都北伐，皆不获报。建炎二年，我忧愤成疾，临终无一语及家事，连呼三声过河而逝，遗恨终天。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷360
+endeavors:
+- id: guji-宗泽-endeavor-1
+  name_zh: 抗金守汴
+  phases:
+  - key: brewing
+    name_zh: 历任州县
+    labels:
+      zh: 政声初起
+    start_date: '1091'
+    highlight_event_id: guji-宗泽-event-office
+  - key: breakthrough
+    name_zh: 出镇磁州
+    labels:
+      zh: 临危受命
+    start_date: '1126'
+    highlight_event_id: guji-宗泽-event-cizhou
+  - key: climax
+    name_zh: 东京留守
+    labels:
+      zh: 留守开封
+    start_date: '1127'
+    highlight_event_id: guji-宗泽-event-defend
+  - key: closure
+    name_zh: 忧愤病逝
+    labels:
+      zh: 三呼过河
+    start_date: '1128'
+    highlight_event_id: guji-宗泽-event-death
+  decisions:
+  - date: '1127'
+    title_zh: 受任东京留守留守开封
+    rationale: 金兵之后汴京残破，泽自请治兵缮城，抚集义兵以固根本
+  - date: '1127'
+    title_zh: 联结河北义兵共图恢复
+    rationale: 王彦、马扩等义军可用，收纳以壮声势
+  - date: '1128'
+    title_zh: 累疏请高宗还汴北伐
+    rationale: 二十余上疏力主还都，不被采纳，忧愤成疾
+events:
+- id: guji-宗泽-event-birth
+  date: '1060'
+  year_of: 1060
+  type: birth
+  desc_zh: 宗泽生于婺州义乌（约1060）
+- id: guji-宗泽-event-jinshi
+  date: '1091'
+  year_of: 1091
+  type: office
+  desc_zh: 元祐六年登进士第，步入仕途
+- id: guji-宗泽-event-office
+  date: '1091-01-01'
+  year_of: 1091
+  type: office
+  desc_zh: 历任馆陶尉、龙游令、赵城丞、莱州掖县令等职，所至有政绩
+- id: guji-宗泽-event-cizhou
+  date: '1126-01-01'
+  year_of: 1126
+  type: military
+  desc_zh: 靖康元年出知磁州，修缮城池、招募义勇，挫败金兵；康王赵构使其经营开封
+- id: guji-宗泽-event-defend
+  date: '1127-01-01'
+  year_of: 1127
+  type: military
+  desc_zh: 建炎元年任东京留守、知开封府，抚定残破汴京，屡败来犯金军，声威大震
+- id: guji-宗泽-event-appeal
+  date: '1128-01-01'
+  year_of: 1128
+  type: political
+  desc_zh: 前后二十余次上疏乞高宗还都开封、北伐中原，均未获采纳
+- id: guji-宗泽-event-death
+  date: '1128-07-01'
+  year_of: 1128
+  type: death
+  desc_zh: 建炎二年忧愤成疾，背上发疽而卒，临终三呼过河，无一语及家事

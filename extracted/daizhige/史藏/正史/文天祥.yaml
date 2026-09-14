@@ -1,0 +1,238 @@
+person:
+  qid: guji-文天祥
+  name_zh: 文天祥
+  names:
+    zh: 文天祥
+    en: Wen Tianxiang
+  lifespan:
+    birth:
+      date: '1236-06-06'
+      precision: day
+      is_circa: false
+      raw: 宋端平三年五月二日（1236年）
+    death:
+      date: 1283-01-09
+      precision: day
+      is_circa: false
+      raw: 元至元十九年十二月初九（1283年1月9日）
+  birth_date: '1236-06-06'
+  death_date: 1283-01-09
+  era: 南宋 / 宋末元初
+  reign_ref: 宋理宗至宋末三帝、元世祖至元年间
+  archetype: 民族英雄 / 忠臣殉国
+  dilemmas:
+  - 降元保全性命 versus 守节殉国
+  - 出仕勤王屡败 versus 明知不可为而为之
+  lesson: 人生自古谁无死，留取丹心照汗青；以身殉节，气节重于生死。
+  summary_first_person: 我乃南宋文天祥，宝祐四年状元及第。元兵渡江，我散家财、起义军勤王，出使元营被拘，脱险后再度举兵，兵败五坡岭被俘。囚于燕京三年，元世祖屡劝不降，终从容就义，作《正气歌》以明志。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷418
+  - https://zh.wikipedia.org/wiki/文天祥
+endeavors:
+- id: guji-文天祥-endeavor-1
+  key_theme: 科举入仕与直言论政
+  phases:
+  - key: brewing
+    name_zh: 读书应举
+    labels:
+      zh:
+      - 白鹭洲书院
+      - 二十举进士
+    start_date: '1253'
+    highlight_event_id: guji-文天祥-event-zhuangyuan
+  - key: breakthrough
+    name_zh: 状元及第
+    labels:
+      zh:
+      - 状元
+      - 宝祐四年
+    start_date: '1256'
+    highlight_event_id: guji-文天祥-event-zhuangyuan
+  - key: climax
+    name_zh: 直言废斥
+    labels:
+      zh:
+      - 上书乞斩董宋臣
+      - 讥斥贾似道
+    start_date: '1259'
+    highlight_event_id: guji-文天祥-event-yanlun
+  - key: closure
+    name_zh: 起复湖南
+    labels:
+      zh:
+      - 知赣州
+      - 湖南提刑
+    start_date: '1273'
+    highlight_event_id: guji-文天祥-event-ganzhou
+  decisions:
+  - date: '1259'
+    title_zh: 上书乞斩宦官董宋臣
+    rationale: 蒙古南侵，宦官劝迁都，天祥直言斥之，虽未采纳而忤权贵。
+  - date: '1273'
+    title_zh: 应诏起知赣州
+    rationale: 辞不获命，再次出仕，为日后勤王奠基础。
+- id: guji-文天祥-endeavor-2
+  key_theme: 起兵勤王与抗元殉国
+  phases:
+  - key: brewing
+    name_zh: 举措义兵
+    labels:
+      zh:
+      - 散家财为军资
+      - 万元吉聚兵
+    start_date: '1275'
+    highlight_event_id: guji-文天祥-event-qinwang
+  - key: breakthrough
+    name_zh: 出使元营
+    labels:
+      zh:
+      - 面斥伯颜
+      - 被拘北行
+    start_date: '1276'
+    highlight_event_id: guji-文天祥-event-chushi
+  - key: climax
+    name_zh: 再举兵败
+    labels:
+      zh:
+      - 开府南剑州
+      - 五坡岭被执
+    start_date: '1277'
+    highlight_event_id: guji-文天祥-event-beifu
+  - key: closure
+    name_zh: 囚死燕京
+    labels:
+      zh:
+      - 正气歌
+      - 柴市就义
+    start_date: '1279'
+    highlight_event_id: guji-文天祥-event-jiuyi
+  decisions:
+  - date: '1275'
+    title_zh: 应诏勤王、散尽家财
+    rationale: 元军渡江，诏天下勤王，天祥尽捐家赀为军费，率万人入卫临安。
+  - date: '1276'
+    title_zh: 出使元营抗辩不屈
+    rationale: 以右丞相身份赴伯颜军前谈判，力争国体，被扣留后于镇江脱逃。
+  - date: 1278-12
+    title_zh: 五坡岭被俘不降
+    rationale: 兵败被执，欲服脑〔毒〕自尽未死，绝食抗元，后作《正气歌》。
+  - date: '1283-01-09'
+    title_zh: 从容就义于柴市
+    rationale: 囚三年，元廷许以宰相之位劝降，终不降，向南再拜而死。
+events:
+- id: guji-文天祥-event-birth
+  person_qid: guji-文天祥
+  type: birth
+  date: '1236-06-06'
+  year_of: '1236'
+  date_precision: day
+  place: 吉州庐陵
+  summary_zh: 文天祥生于吉州庐陵富川，字宋瑞，又字履善。
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-zhuangyuan
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: 1256-05
+  year_of: '1256'
+  date_precision: month
+  place: 临安
+  summary_zh: 宝祐四年，年二十岁举进士第一（状元），理宗亲擢第一，考官王应麟称其文『古谊若龟鉴』。
+  event: breakthrough
+  endeavor_ref: guji-文天祥-endeavor-1
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-yanlun
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: 1259-11
+  year_of: '1259'
+  date_precision: month
+  place: 临安
+  summary_zh: 蒙古军渡江，宦官董宋臣劝帝迁都，天祥上书乞斩宋臣以安人心，不报，因直言忤权贵而屡遭外斥。
+  event: climax
+  endeavor_ref: guji-文天祥-endeavor-1
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-ganzhou
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: '1273'
+  year_of: '1273'
+  date_precision: year
+  place: 赣州
+  summary_zh: 出知赣州，条陈民间疾苦及宦扰民之情，政声卓著。
+  event: closure
+  endeavor_ref: guji-文天祥-endeavor-1
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-qinwang
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: 1275-01
+  year_of: '1275'
+  date_precision: month
+  place: 赣州
+  summary_zh: 德祐元年元军东下，诏天下勤王，天祥捧诏涕泣，散家财为军费，聚兵万人入卫临安。
+  event: breakthrough
+  endeavor_ref: guji-文天祥-endeavor-2
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-chushi
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: 1276-02
+  year_of: '1276'
+  date_precision: month
+  place: 皋亭山元营
+  summary_zh: 以右丞相兼枢密使出使元营，面斥伯颜，被拘留押解北上，于镇江脱险，历尽艰险浮海归闽。
+  event: breakthrough
+  endeavor_ref: guji-文天祥-endeavor-2
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-beifu
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: '1278-12-20'
+  year_of: '1278'
+  date_precision: day
+  place: 五坡岭（广东海丰）
+  summary_zh: 福王驻兵南剑、开府聚兵再举，景炎三年兵败五坡岭被张弘范部执，衣带诏藏《过零丁洋》诗。
+  event: climax
+  endeavor_ref: guji-文天祥-endeavor-2
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-zhengqige
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: '1281'
+  year_of: '1281'
+  date_precision: year
+  place: 燕京囚所
+  summary_zh: 囚于燕京土牢三年，作《正气歌》，元廷屡以高位诱降皆不从。
+  event: closure
+  endeavor_ref: guji-文天祥-endeavor-2
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-jiuyi
+  person_qid: guji-文天祥
+  type: endeavor_event
+  date: 1283-01-09
+  year_of: '1283'
+  date_precision: day
+  place: 燕京柴市
+  summary_zh: 至元十九年十二月初九，从容就义于柴市，衣带中留绝笔赞文：『孔曰成仁，孟曰取义……读圣贤书，所学何事』。
+  event: closure
+  endeavor_ref: guji-文天祥-endeavor-2
+  source_refs:
+  - 宋史卷418
+- id: guji-文天祥-event-death
+  person_qid: guji-文天祥
+  type: death
+  date: 1283-01-09
+  year_of: '1283'
+  date_precision: day
+  place: 燕京柴市
+  summary_zh: 文天祥殉节而死，年四十七，妻欧阳氏收其衣带遗书，载其正气于世。
+  source_refs:
+  - 宋史卷418

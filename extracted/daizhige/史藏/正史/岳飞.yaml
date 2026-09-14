@@ -1,0 +1,129 @@
+person:
+  qid: guji-岳飞
+  name_zh: 岳飞
+  names:
+    zh: 岳飞
+    en: Yue Fei
+  lifespan:
+    birth:
+      date: '1103'
+      precision: year
+      is_circa: false
+      raw: 宋崇宁二年（1103年）
+    death:
+      date: '1142-01-27'
+      precision: day
+      is_circa: false
+      raw: 绍兴十一年十二月廿九（1142年1月27日）
+  birth_date: '1103'
+  death_date: '1142-01-27'
+  era: 南宋
+  reign_ref: 宋高宗绍兴年间
+  archetype: 精忠名将
+  dilemmas:
+  - 迎回二圣与保全自身权位之间的冲突
+  - 忠君与北伐恢复中原大业的取舍
+  lesson: 精忠报国而遭冤杀的悲剧名将
+  summary_first_person: 我岳飞，生于相州汤阴，少怀报国之志。靖康之难后投军抗金，屡建战功，率岳家军北伐，郾城大捷，直指朱仙镇。然被十二道金牌召回，终遭秦桧以「莫须有」罪名冤杀于风波亭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷365
+endeavors:
+- id: guji-岳飞-endeavor-1
+  name_zh: 抗金复国北伐
+  phases:
+  - key: brewing
+    name_zh: 投军抗金
+    labels:
+      zh: 靖康从军
+    start_date: '1122'
+    highlight_event_id: guji-岳飞-event-jun
+  - key: breakthrough
+    name_zh: 收复建康
+    labels:
+      zh: 岳家军立威
+    start_date: '1130'
+    highlight_event_id: guji-岳飞-event-jiankang
+  - key: climax
+    name_zh: 郾城朱仙镇大捷
+    labels:
+      zh: 北伐巅峰
+    start_date: '1140'
+    highlight_event_id: guji-岳飞-event-yancheng
+  - key: closure
+    name_zh: 班师蒙冤
+    labels:
+      zh: 冤死风波亭
+    start_date: '1141'
+    highlight_event_id: guji-岳飞-event-banshi
+  decisions:
+  - date: 1140-07
+    title_zh: 拒绝班师继续北进
+    rationale: 中原人心可用，金兵士气崩溃，欲直捣黄龙
+- id: guji-岳飞-endeavor-2
+  name_zh: 治军整肃岳家军
+  phases:
+  - key: brewing
+    name_zh: 练兵立制
+    labels:
+      zh: 冻死不拆屋
+    start_date: '1129'
+    highlight_event_id: guji-岳飞-event-xiaojun
+  - key: breakthrough
+    name_zh: 军威大盛
+    labels:
+      zh: 撼山易撼岳家军难
+    start_date: '1134'
+    highlight_event_id: guji-岳飞-event-xiangyang
+  decisions:
+  - date: 1134-05
+    title_zh: 首次北伐收复襄阳六郡
+    rationale: 襄阳乃中原门户，据之以图恢复
+events:
+- id: guji-岳飞-event-birth
+  type: birth
+  date: '1103'
+  year_of: 1103
+  name_zh: 岳飞出生
+  summary: 岳飞生于相州汤阴县，相传出生时有大禽若鹄飞鸣其上，故名飞。
+- id: guji-岳飞-event-jun
+  type: career
+  date: '1122'
+  year_of: 1122
+  name_zh: 应募从军
+  summary: 岳飞初次应募投军，开始军旅生涯，宣和四年从军征伐。
+- id: guji-岳飞-event-jiankang
+  type: career
+  date: '1130'
+  year_of: 1130
+  name_zh: 收复建康
+  summary: 岳飞率军于建康城南屡败金军，收复建康，崭露头角。
+- id: guji-岳飞-event-xiaojun
+  type: career
+  date: '1129'
+  year_of: 1129
+  name_zh: 治军严明
+  summary: 岳飞治军号令严明，冻死不拆屋，饿死不掳掠，岳家军之名始著。
+- id: guji-岳飞-event-xiangyang
+  type: career
+  date: 1134-05
+  year_of: 1134
+  name_zh: 收复襄阳六郡
+  summary: 岳飞首次北伐，收复郢州、随州、襄阳、唐州、邓州、信阳六郡。
+- id: guji-岳飞-event-yancheng
+  type: career
+  date: 1140-07
+  year_of: 1140
+  name_zh: 郾城大捷
+  summary: 郾城之战大破金兀术拐子马，进至朱仙镇，距汴京仅四十五里。
+- id: guji-岳飞-event-banshi
+  type: career
+  date: 1140-09
+  year_of: 1140
+  name_zh: 十二道金牌班师
+  summary: 一日奉十二道金字牌，被迫班师，仰天悲叹十年之功废于一旦。
+- id: guji-岳飞-event-death
+  type: death
+  date: '1142-01-27'
+  year_of: 1142
+  name_zh: 冤死风波亭
+  summary: 以「莫须有」罪名被赐死于大理寺，时年三十九岁，天下冤之。
