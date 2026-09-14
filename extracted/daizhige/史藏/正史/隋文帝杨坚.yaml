@@ -1,0 +1,104 @@
+person:
+  qid: guji-杨坚
+  name_zh: 杨坚
+  names:
+    zh: 杨坚
+    en: Yang Jian
+  lifespan:
+    birth:
+      date: 353
+      precision: year
+      is_circa: false
+      raw: 生于西魏大统七年
+    death:
+      date: 388
+      precision: year
+      is_circa: false
+  birth_date: 353
+  death_date: 388
+  era: 南北朝至隋
+  reign_ref: 隋 开皇、仁寿
+  archetype: 开国之君
+  dilemmas:
+  - 权臣辅政与代周自立之间的忠誠困境
+  - 统一南北后储位与晚年的猜忌心理
+  lesson: 以制度与节俭立国，然猜忌失察可危及基业
+  summary_first_person: 我杨坚受周禅让建立隋朝，开皇年间平定南陈，混一天下，励精图治，然晚年行事渐苛，传位于炀帝而基业不久即倾。
+  source_urls:
+  - https://zh.wikisource.org/wiki/北史/卷11
+endeavors:
+- id: guji-杨坚-endeavor-1
+  name_zh: 代周建隋
+  phases:
+  - key: brewing
+    name_zh: 勋戚辅政
+    labels:
+      zh: 北周重臣
+    start_date: 0580
+    highlight_event_id: guji-杨坚-event-appointment
+  - key: breakthrough
+    name_zh: 受禅开国
+    labels:
+      zh: 开皇建元
+    start_date: 0581
+    highlight_event_id: guji-杨坚-event-usurp
+  decisions:
+  - date: 0581
+    title_zh: 接受禅让称帝
+    rationale: 以外戚重臣之势代周自立，改元开皇，国号大隋
+- id: guji-杨坚-endeavor-2
+  name_zh: 统一天下
+  phases:
+  - key: brewing
+    name_zh: 经营内政
+    labels:
+      zh: 开皇新政
+    start_date: 0581
+    highlight_event_id: guji-杨坚-event-reform
+  - key: breakthrough
+    name_zh: 平陈混一
+    labels:
+      zh: 灭南陈
+    start_date: 0587
+    highlight_event_id: guji-杨坚-event-conquer
+  - key: closure
+    name_zh: 仁寿之治
+    labels:
+      zh: 晚年施政
+    start_date: 385
+    highlight_event_id: guji-杨坚-event-death
+  decisions:
+  - date: 0589
+    title_zh: 遣将渡江灭陈
+    rationale: 乘江南政局不稳，以晋王杨广总帅大军完成南北统一
+events:
+- id: guji-杨坚-event-birth
+  date: 353
+  year_of: 541
+  type: birth
+  name_zh: 杨坚出生于陕西
+- id: guji-杨坚-event-appointment
+  date: 0580
+  year_of: 580
+  type: endeavor
+  name_zh: 以外戚总揽北周朝政
+- id: guji-杨坚-event-usurp
+  date: 0581
+  year_of: 581
+  type: endeavor
+  name_zh: 受周静帝禅让称帝建立隋朝
+- id: guji-杨坚-event-reform
+  date: 0584
+  year_of: 584
+  type: endeavor
+  name_zh: 开皇年间确立三省六部制并整顿赋税均田
+- id: guji-杨坚-event-conquer
+  date: 0589
+  year_of: 589
+  type: endeavor
+  name_zh: 灭南陈统一南北
+- id: guji-杨坚-event-death
+  date: 388
+  year_of: 604
+  type: death
+  name_zh: 崩于仁寿宫

@@ -1,0 +1,154 @@
+person:
+  qid: guji-郦道元
+  name_zh: 郦道元
+  names:
+    zh: 郦道元
+    en: Li Daoyuan
+  lifespan:
+    birth:
+      date: '470'
+      precision: year
+      is_circa: true
+      raw: 约470年
+    death:
+      date: '527'
+      precision: year
+      is_circa: false
+      raw: 孝昌三年（527年）
+  birth_date: '470'
+  death_date: '527'
+  era: 北魏
+  reign_ref: 北魏孝文帝、宣武帝、孝明帝之世
+  archetype: 学者型官员
+  dilemmas:
+  - 执法纠弹权贵而屡遭权臣排抑
+  - 欲精核山川水道，然宦游南北之际难得闲暇实地遍访
+  lesson: 以实地考察修正经传讹误，虽仕途险恶而学术之志不移
+  summary_first_person: 我名郦道元，北魏范阳涿人。我仕宦于朝，曾任御史中尉，敢于纠弹不顾情面，故为当权者所忌。我生平最爱山水地理，遍历北地，考察水道，撰《水经注》四十卷，以补《水经》简略之失。后奉使关中，为萧宝夤所害，死于阴盘驿。后人称我为我朝最精博的地理学家。
+  source_urls:
+  - https://zh.wikisource.org/wiki/魏書
+endeavors:
+- id: guji-郦道元-endeavor-1
+  name_zh: 仕宦纠弹
+  phases:
+  - key: brewing
+    name_zh: 入仕台省
+    labels:
+      zh: 易水亭相度基建论文
+    start_date: '492'
+    highlight_event_id: guji-郦道元-event-en-1
+  - key: breakthrough
+    name_zh: 执法中尉
+    labels:
+      zh: 中尉纠弹
+    start_date: '512'
+    highlight_event_id: guji-郦道元-event-en-2
+  - key: climax
+    name_zh: 出使关中
+    labels:
+      zh: 关中遇害
+    start_date: '527'
+    highlight_event_id: guji-郦道元-event-en-4
+  - key: closure
+    name_zh: 身后论定
+    labels:
+      zh: 身后追论
+    start_date: '528'
+    highlight_event_id: guji-郦道元-event-death
+  decisions:
+  - date: '512'
+    title_zh: 就任御史中尉，不畏权贵严肃纠弹
+    rationale: 以宪台为职，弹纠不避强御，虽元顺等亦举而奏之
+  - date: '527'
+    title_zh: 奉使关中IGNORE
+    rationale: 朝廷遣使，明知处境危殆仍奉命西行
+- id: guji-郦道元-endeavor-2
+  name_zh: 撰水经注
+  phases:
+  - key: brewing
+    name_zh: 少年游历蓄志
+    labels:
+      zh: 蓄志
+    start_date: '480'
+    highlight_event_id: guji-郦道元-event-en-3
+  - key: breakthrough
+    name_zh: 宦游考察
+    labels:
+      zh: 睹山川记水道
+    start_date: '492'
+    highlight_event_id: guji-郦道元-event-en-3
+  - key: climax
+    name_zh: 成书水经注
+    labels:
+      zh: 注水经四十卷
+    start_date: '512'
+    highlight_event_id: guji-郦道元-event-en-3
+  - key: closure
+    name_zh: 书成垂世
+    labels:
+      zh: 传世
+    start_date: '527'
+    highlight_event_id: guji-郦道元-event-death
+  decisions:
+  - date: '512'
+    title_zh: 收集考订图志，为《水经》作注
+    rationale: 《水经》原文简略，须博采山川都市、城邑故实详注之
+  - date: '525'
+    title_zh: 定稿《水经注》四十卷
+    rationale: 记天下水道一千二百余条，述源流经过与故事
+events:
+- id: guji-郦道元-event-birth
+  event_type_id: birth
+  date: '470'
+  is_circa: true
+  year_of: 470
+  place: 范阳涿县
+  title_zh: 郦道元生于范阳
+  description: 郦道元生于范阳涿县官宦之家，父郦范仕魏至青州刺史。
+- id: guji-郦道元-event-death
+  event_type_id: death
+  date: '527'
+  is_circa: false
+  year_of: 527
+  place: 阴盘驿
+  title_zh: 郦道元死于关中阴盘驿
+  description: 孝昌三年奉使关中，为萧宝夤遣兵围于阴盘驿，缺水困毙，遇害。
+  preceding_event_ids:
+  - guji-郦道元-event-en-4
+- id: guji-郦道元-event-en-1
+  event_type_id: career_milestone
+  date: '492'
+  is_circa: true
+  year_of: 492
+  place: 洛阳
+  title_zh: 入仕为尚书郎
+  description: 郦道元以尚书郎入仕，此后累迁，历治冀州、鲁阳等地。
+- id: guji-郦道元-event-en-2
+  event_type_id: career_milestone
+  date: '512'
+  is_circa: true
+  year_of: 512
+  place: 洛阳
+  title_zh: 就任御史中尉
+  description: 郦道元为御史中尉，严肃纠弹，在职时曾举奏不肯送名于台的尚书省官员，号为严厉。后此奏在元子思上疏争礼制时被引为前例。
+  related_entity_ids:
+  - guji-元子思
+- id: guji-郦道元-event-en-3
+  event_type_id: creation
+  date: '512'
+  is_circa: true
+  year_of: 512
+  place: 洛阳
+  title_zh: 撰成《水经注》四十卷
+  description: 郦道元博采图志、亲历山川，为《水经》作注，成书四十卷，详记水道一千二百余条，兼及城邑、风物、故实，为此后千年地理学之经典。
+- id: guji-郦道元-event-en-4
+  event_type_id: career_milestone
+  date: '527'
+  is_circa: false
+  year_of: 527
+  place: 关中
+  title_zh: 奉使关中，为萧宝夤所害
+  description: 郦道元奉命西使，萧宝夤虑其探知关中虚实，遣兵围阴盘驿，郦道元与弟、子俱遇害。
+  preceding_event_ids:
+  - guji-郦道元-event-en-1
+  - guji-郦道元-event-en-2
