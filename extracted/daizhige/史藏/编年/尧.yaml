@@ -1,0 +1,136 @@
+person:
+  qid: guji-尧
+  name_zh: 尧
+  names:
+    zh: 帝尧
+    en: Yao
+  lifespan:
+    birth:
+      date: 约-2360
+      precision: year
+      is_circa: true
+      raw: 传说时代，元丙子即位前
+    death:
+      date: 约-2260
+      precision: year
+      is_circa: true
+      raw: 在位一百年后陟，纪年元丙子推算
+  birth_date: 约-2360
+  death_date: 约-2260
+  era: 上古五帝时期
+  reign_ref: 帝尧元丙子，在位一百年
+  archetype: 圣王
+  dilemmas:
+  - 禅让：传位于贤者舜而非嗣子丹朱
+  - 洪水：命鲧治水而九年功不成
+  lesson: 至公无私、以天下为公，为后世禅让典范
+  summary_first_person: 我名尧，帝喾之后，元丙子即天子位，在位一百年。我命羲和历象日月星辰，敬授民时；遭洪水之患，询四岳求治水者，用鲧而九年无功；晚年以天下授舜，禅让而去。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=竹书统笺卷二
+endeavors:
+- id: guji-尧-endeavor-1
+  name_zh: 即位立政
+  phases:
+  - key: brewing
+    name_zh: 受命即位
+    labels:
+      zh:
+      - 元丙子
+      - 天子即位
+    start_date: 约-2360
+    highlight_event_id: guji-尧-event-ascend
+  - key: breakthrough
+    name_zh: 制定历法
+    labels:
+      zh:
+      - 羲和
+      - 敬授民时
+    start_date: 约-2355
+    highlight_event_id: guji-尧-event-calendar
+  decisions:
+  - date: 约-2360
+    title_zh: 即天子位，都于平阳
+    rationale: 继帝喾、帝挚之后承继帝位，以丙子为元年
+  - date: 约-2355
+    title_zh: 命羲和历象日月星辰
+    rationale: 敬授民时，定四时成岁，以利农事
+- id: guji-尧-endeavor-2
+  name_zh: 禅让授舜
+  phases:
+  - key: brewing
+    name_zh: 询访贤才
+    labels:
+      zh:
+      - 四岳
+      - 访贤
+    start_date: 约-2300
+    highlight_event_id: guji-尧-event-flood
+  - key: climax
+    name_zh: 举舜授政
+    labels:
+      zh:
+      - 禅让
+      - 授舜
+    start_date: 约-2280
+    highlight_event_id: guji-尧-event-abdicate
+  - key: closure
+    name_zh: 崩于在位百年
+    labels:
+      zh:
+      - 陟
+      - 百年
+    start_date: 约-2261
+    highlight_event_id: guji-尧-event-death
+  decisions:
+  - date: 约-2330
+    title_zh: 用鲧治水
+    rationale: 四岳荐鲧，尧虽疑其方命圮族，姑试用之，九年功不成
+  - date: 约-2280
+    title_zh: 举舜于侧微，试以二女
+    rationale: 舜孝友闻于天下，尧历试诸难，以为贤可传
+  - date: 约-2260
+    title_zh: 终以天下授舜
+    rationale: 传贤不传子，至公之心，开后世禅让之典范
+events:
+- id: guji-尧-event-birth
+  date: 约-2360
+  year_of: -2360
+  type: birth
+  title_zh: 帝尧生
+  description_zh: 帝喾之子，生于传说时代，是为陶唐氏
+- id: guji-尧-event-ascend
+  date: 约-2360
+  year_of: -2360
+  type: political
+  title_zh: 帝尧即天子位，元丙子
+  description_zh: 竹书纪年载帝尧元丙子，在位一百年
+- id: guji-尧-event-calendar
+  date: 约-2355
+  year_of: -2355
+  type: achievement
+  title_zh: 命羲和定历授时
+  description_zh: 历象日月星辰，敬授人时，四时成岁
+- id: guji-尧-event-flood
+  date: 约-2330
+  year_of: -2330
+  type: crisis
+  title_zh: 洪水滔天，命鲧治水
+  description_zh: 尧询四岳求能平水土者，用鲧，九年而功不成
+- id: guji-尧-event-abdicate
+  date: 约-2280
+  year_of: -2280
+  type: political
+  title_zh: 举舜试政
+  description_zh: 尧以二女妻舜，历试诸难，后使舜摄行天子之政
+- id: guji-尧-event-abdicate-final
+  date: 约-2261
+  year_of: -2261
+  type: political
+  title_zh: 终禅位于舜
+  description_zh: 在位既久，以天下授舜，不传丹朱
+- id: guji-尧-event-death
+  date: 约-2260
+  year_of: -2260
+  type: death
+  title_zh: 帝尧陟
+  description_zh: 在位一百年而崩，天下归舜
