@@ -1,0 +1,112 @@
+person:
+  qid: guji-种师道
+  name_zh: 种师道
+  names:
+    zh: 种师道
+    en: Zhong Shidao
+  lifespan:
+    birth:
+      date: '1051'
+      precision: year
+      is_circa: true
+      raw: 约北宋皇祐年间
+    death:
+      date: '1122'
+      precision: year
+      is_circa: false
+      raw: 靖康前一年卒（据《宋史》本传）
+  birth_date: '1051'
+  death_date: '1122'
+  era: 北宋
+  reign_ref: 宋徽宗宣和年间
+  archetype: 边将宿卫
+  dilemmas:
+  - 权臣童贯隐败冒功，主将进退受制于监军
+  - 夏人屡寇边，战守之策须权衡将士存亡与朝命
+  lesson: 名将持重，然身处宦官专兵之世，胜败功罪皆不由己。
+  summary_first_person: 我是种师道，宣和元年以都统制与刘延庆、刘仲武等出萧关伐夏，夏人弃永和、割踏两城而遁，我师追至鸣沙，无所见而还。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷335
+endeavors:
+- id: guji-种师道-endeavor-1
+  name_zh: 出萧关伐夏
+  phases:
+  - key: brewing
+    name_zh: 西边宿将
+    labels:
+      zh:
+      - 持重御边
+    start_date: '1114'
+  - key: breakthrough
+    name_zh: 都统制出萧关
+    labels:
+      zh:
+      - 伐夏
+      - 拓边
+    start_date: '1119'
+    highlight_event_id: guji-种师道-event-2
+  - key: closure
+    name_zh: 师及鸣沙而还
+    labels:
+      zh:
+      - 无功而返
+    start_date: '1119'
+  decisions:
+  - date: '1119'
+    title_zh: 以都统制率刘延庆、刘仲武出萧关
+    rationale: 童贯遣诸将伐夏以报统安之败，师道受命将兵深入西界。
+- id: guji-种师道-endeavor-2
+  name_zh: 屡御西夏边患
+  phases:
+  - key: brewing
+    name_zh: 古骨龙、仁多泉旧败夏人
+    labels:
+      zh:
+      - 名将威名
+    start_date: '1110'
+    is_circa: true
+  - key: climax
+    name_zh: 夏人寇边随贯入西界
+    labels:
+      zh:
+      - 守边御戎
+    start_date: '1119'
+  decisions:
+  - date: '1119'
+    title_zh: 从童贯以鄜延环庆兵入西界
+    rationale: 夏人寇边，朝廷命贯率师御之，师道与刘仲武、刘延庆同为将率。
+events:
+- id: guji-种师道-event-birth
+  date: '1051'
+  year_of: '1051'
+  category: birth
+  title_zh: 种师道生（约）
+  description: 生年约在北宋皇祐年间。
+  participants:
+  - guji-种师道
+- id: guji-种师道-event-2
+  date: '1119'
+  year_of: '1119'
+  category: endeavor
+  title_zh: 与刘延庆、刘仲武出萧关，夏人弃永和、割踏两城而遁
+  description: 师道以都统制与殿前刘延庆、步军刘仲武出萧关伐夏，夏人弃二城而遁，师及鸣沙，无所见而还。
+  participants:
+  - guji-种师道
+  place: 萧关至鸣沙一线
+- id: guji-种师道-event-3
+  date: 1119-04
+  year_of: '1119'
+  category: endeavor
+  title_zh: 童贯以鄜延环庆兵入西界，大破夏人，平其三城
+  description: 夏人寇边，贯率师入西界大破夏人，师道与刘仲武、刘延庆将兵与会，又破之于震武。
+  participants:
+  - guji-种师道
+  place: 西夏边境
+- id: guji-种师道-event-death
+  date: '1122'
+  year_of: '1122'
+  category: death
+  title_zh: 种师道卒
+  description: 北宋末名将种师道去世，次年金兵南下，人思其言。
+  participants:
+  - guji-种师道
