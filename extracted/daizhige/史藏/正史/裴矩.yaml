@@ -1,0 +1,87 @@
+person:
+  qid: guji-裴矩
+  name_zh: 裴矩
+  names:
+    zh: 裴矩
+    en: Pei Ju
+  lifespan:
+    birth:
+      date: '547'
+      precision: year
+      is_circa: true
+      raw: 约生于西魏大统年间
+    death:
+      date: '627'
+      precision: year
+      is_circa: true
+      raw: 约卒于唐贞观元年
+  birth_date: '547'
+  death_date: '627'
+  era: 隋唐之际
+  reign_ref: 隋炀帝大业年间
+  archetype: 边務经略之臣
+  dilemmas:
+  - 以利啖诱西域诸蕃入朝，致州郡疲于送迎、糜费万万，功业与民弊两难
+  lesson: 通西域、撰图记，开边通商之功与劳民糜费之弊并存于一身
+  summary_first_person: 我裴矩奉炀帝之命往张掖监诸商胡互市，以利啖之，劝令入朝，自此西域诸蕃往来相继；我采其山川风俗撰为图记以述西域之道里，然所经州郡疲于送迎、糜费以万万计，通远之功与劳民之责皆在于我。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/裴矩
+endeavors:
+- id: guji-裴矩-endeavor-1
+  name_zh: 经略西域、监张掖互市
+  phases:
+  - key: brewing
+    name_zh: 奉命出张掖
+    labels:
+      zh:
+      - 西域
+      - 互市
+    start_date: '605'
+    highlight_event_id: guji-裴矩-event-trade
+  - key: breakthrough
+    name_zh: 啖利劝朝
+    labels:
+      zh:
+      - 诸蕃入朝
+    start_date: '607'
+    highlight_event_id: guji-裴矩-event-trade
+  - key: climax
+    name_zh: 诸蕃相继往来
+    labels:
+      zh:
+      - 糜费
+      - 送迎
+    start_date: '609'
+    highlight_event_id: guji-裴矩-event-cost
+  - key: closure
+    name_zh: 图记传世
+    labels:
+      zh:
+      - 西域图记
+    start_date: '610'
+  decisions:
+  - date: '605'
+    title_zh: 往张掖监诸商胡互市
+    rationale: 炀帝以西域多诸宝物，令裴矩往张掖监互市，经略西陲
+  - date: '607'
+    title_zh: 啖之以利，劝令诸蕃入朝
+    rationale: 以厚利诱西域商胡，劝其入朝贡使，以通中国之路
+events:
+- id: guji-裴矩-event-birth
+  date: '547'
+  year_of: 547
+  title_zh: 裴矩约生于西魏之世
+- id: guji-裴矩-event-trade
+  date: '605'
+  year_of: 605
+  title_zh: 炀帝令裴矩往张掖监诸商胡互市
+  description_zh: 又以西域多诸宝物，令裴矩往张掖，监诸商胡互市
+- id: guji-裴矩-event-cost
+  date: '609'
+  year_of: 609
+  title_zh: 西域诸蕃往来相继，州郡疲于送迎
+  description_zh: 自是西域诸蕃，往来相继，所经州郡，疲于送迎，糜费以万万计
+- id: guji-裴矩-event-death
+  date: '627'
+  year_of: 627
+  title_zh: 裴矩约卒于唐贞观初

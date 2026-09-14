@@ -1,0 +1,164 @@
+person:
+  qid: guji-李密
+  name_zh: 李密
+  names:
+    zh: 李密
+    en: Li Mi
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 隋末唐初
+  reign_ref: 隋末瓦岗之乱（大业十二年至义宁年间）
+  archetype: 乱世起兵的豪杰
+  dilemmas:
+  - 以叛军之身欲成帝王之业，坚守洛口还是扩张中原两难
+  - 盟友翟让旧部与自立权威之间的内部整合困境
+  lesson: 乘势而起的豪杰若不能稳固内部人心与根本，声势虽盛终难持久。
+  summary_first_person: 大业十三年，我与翟让攻陷兴洛仓，开仓赈济群盗，众至数十万，遂自号魏公改元。又下回洛仓、黎阳仓，河南诸郡相继归附，王世充亦为我所败。然声势虽隆，根基未固，终为乱世棋局中匆匆一霸。
+  source_urls:
+  - https://zh.wikisource.org/wiki/隋書
+endeavors:
+- id: guji-李密-endeavor-1
+  name_zh: 瓦岗起兵与据仓称雄
+  phases:
+  - key: brewing
+    name_zh: 依附瓦岗
+    labels:
+      zh:
+      - 投身草泽
+      - 积蓄势力
+    highlight_event_id: guji-李密-event-1
+  - key: breakthrough
+    name_zh: 陷兴洛仓
+    labels:
+      zh:
+      - 开仓振盗
+      - 众至数十万
+    start_date: '0617'
+    highlight_event_id: guji-李密-event-1
+  - key: climax
+    name_zh: 称魏公开仓赈饥
+    labels:
+      zh:
+      - 自号魏公
+      - 河南诸郡皆陷
+    start_date: 0617-02
+    highlight_event_id: guji-李密-event-2
+  - key: closure
+    name_zh: 势衰内溃
+    labels:
+      zh:
+      - 内部离心
+      - 终归败亡
+    start_date: 0618
+    highlight_event_id: guji-李密-event-4
+  decisions:
+  - date: 0617-02
+    title_zh: 自号魏公，称元年，开仓以赈群盗
+    rationale: 以粮聚众，借饥民之势壮大声威，河南诸郡遂相率来附。
+  - date: 0617-09
+    title_zh: 收纳元宝藏、裴仁基等降众，攻取黎阳仓
+    rationale: 广纳隋朝叛臣降将，扩大根据地粮仓，稳固中原势力。
+- id: guji-李密-endeavor-2
+  name_zh: 中原争霸与对抗王世充
+  phases:
+  - key: brewing
+    name_zh: 布局河南
+    labels:
+      zh:
+      - 连陷仓城
+      - 威逼东都
+    start_date: 0617-04
+    highlight_event_id: guji-李密-event-3
+  - key: climax
+    name_zh: 大破王世充
+    labels:
+      zh:
+      - 河内之胜
+      - 隋将多死
+    start_date: 0618-01
+    highlight_event_id: guji-李密-event-4
+  - key: closure
+    name_zh: 势穷投唐
+    labels:
+      zh:
+      - 归顺大唐
+      - 旋即离散
+    start_date: 0618-05
+    highlight_event_id: guji-李密-event-4
+  decisions:
+  - date: 0617-04
+    title_zh: 率军东进，连陷回洛东仓与黎阳仓
+    rationale: 粮仓乃兵民命脉，据仓可以制东都之四面，胁迫中原。
+  - date: 0618-01
+    title_zh: 击破王世充于河内
+    rationale: 摧毁东都隋军主力，震慑拥隋势力，巩固瓦岗霸业。
+events:
+- id: guji-李密-event-birth
+  type: birth
+  actors:
+  - guji-李密
+  place_zh: 京兆长安
+  summary_zh: 李密生年，史传略之，云其杨玄感旧党，后亡命瓦岗。
+- id: guji-李密-event-1
+  type: battle
+  date: '0617-02-13'
+  year_of: 617
+  actors:
+  - guji-李密
+  - 翟让
+  - 刘长恭
+  - 房崱
+  place_zh: 兴洛仓（洛口仓）
+  summary_zh: 大业十三年二月庚寅，贼帅李密、翟让等陷兴洛仓。越王侗遣刘长恭、房崱击之，反为所败，死者十五六。
+  participants:
+  - guji-李密-endeavor-1
+- id: guji-李密-event-2
+  type: political_event
+  date: '0617-02-19'
+  year_of: 617
+  actors:
+  - guji-李密
+  place_zh: 兴洛仓
+  summary_zh: 庚子，李密自号魏公，称元年，开仓以振群盗，众至数十万，河南诸郡相继皆陷。
+  participants:
+  - guji-李密-endeavor-1
+- id: guji-李密-event-3
+  type: battle
+  date: '0617-04-19'
+  year_of: 617
+  actors:
+  - guji-李密
+  - 元宝藏
+  - 李文相
+  place_zh: 回洛东仓、黎阳仓
+  summary_zh: 癸巳，李密陷回洛东仓。后元宝藏以武阳郡叛归李密，与李文相攻陷黎阳仓，裴仁基等亦以众叛归。
+  participants:
+  - guji-李密-endeavor-2
+- id: guji-李密-event-4
+  type: battle
+  date: '0618-01-29'
+  year_of: 618
+  actors:
+  - guji-李密
+  - 王世充
+  - 孟善谊
+  - 王辩
+  - 独孤武都
+  place_zh: 河内
+  summary_zh: 义宁二年正月壬戌，将军王世充为李密所败，孟善谊、王辩、杨威、刘长恭等皆死之，独孤武都降于李密。
+  participants:
+  - guji-李密-endeavor-2
+- id: guji-李密-event-death
+  type: death
+  year_of: 619
+  actors:
+  - guji-李密
+  place_zh: 陆浑
+  summary_zh: 李密降唐后叛走出关，武德二年冬为唐军所诛。

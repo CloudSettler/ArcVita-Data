@@ -1,0 +1,86 @@
+person:
+  qid: guji-麦铁杖
+  name_zh: 麦铁杖
+  names:
+    zh: 麦铁杖
+    en: Mai Tiezhang
+  lifespan:
+    birth:
+      date: 352
+      precision: year
+      is_circa: true
+      raw: 生年不详，约南朝陈时
+    death:
+      date: 612-03-29
+      precision: day
+      is_circa: true
+      raw: 大业八年三月戊戌，死于辽水之役
+  birth_date: 约0540
+  death_date: 612-03-29
+  era: 南陈至隋
+  reign_ref: 隋炀帝大业
+  archetype: 骁勇战将
+  dilemmas:
+  - 一介武夫出身卑微，凭勇力与时势跻身隋朝柱国之列
+  - 年事已高仍请为先锋，终殒身于辽东战场
+  lesson: 出身草莽而能以忠勇自砺，以生命践行武人之诺
+  summary_first_person: 我本是草泽中的勇力之士，入隋后凭战功累迁至右屯卫大将军。大业八年天子亲征高丽，我自请为前锋，渡辽水时力战死节，以身殉国。
+  source_urls:
+  - https://zh.wikisource.org/wiki/隋書/帝紀第四
+endeavors:
+- id: guji-麦铁杖-endeavor-1
+  name_zh: 从草泽骁勇至隋朝大将军
+  phases:
+  - key: brewing
+    name_zh: 草泽历仕
+    labels:
+      zh:
+      - 勇力
+      - 禁军宿卫
+    start_date: 约0570
+  - key: breakthrough
+    name_zh: 隋朝军功累迁
+    labels:
+      zh:
+      - 战功
+      - 加官进爵
+    start_date: 约0589
+  - key: climax
+    name_zh: 出任右屯卫大将军
+    labels:
+      zh:
+      - 柱国之任
+      - 从征高丽
+    start_date: 约0610
+    highlight_event_id: guji-麦铁杖-event-campaign
+  - key: closure
+    name_zh: 辽水殉国
+    labels:
+      zh:
+      - 死节
+      - 追荣
+    start_date: 612-03
+    highlight_event_id: guji-麦铁杖-event-death
+  decisions:
+  - date: 约0611
+    title_zh: 自请随驾征伐高丽
+    rationale: 国家有事辽东，身为大将军义不容辞，愿为诸军先锋
+events:
+- id: guji-麦铁杖-event-birth
+  type: birth
+  person: guji-麦铁杖
+  date: 约0540
+  year_of: 540
+  summary: 生年不详，约生于南朝陈时草泽之间。
+- id: guji-麦铁杖-event-campaign
+  type: career
+  person: guji-麦铁杖
+  date: 612-01
+  year_of: 612
+  summary: 大业八年正月，隋军大会于涿郡，麦铁杖以右屯卫大将军随驾出征高丽。
+- id: guji-麦铁杖-event-death
+  type: death
+  person: guji-麦铁杖
+  date: 612-03-29
+  year_of: 612
+  summary: 三月戊戌，大军临辽水桥为高丽所拒不果济，麦铁杖与武贲郎将钱士雄、孟金叉等皆力战死之。
