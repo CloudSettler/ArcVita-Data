@@ -1,0 +1,102 @@
+person:
+  qid: guji-王猛
+  name_zh: 王猛
+  names:
+    zh: 王猛
+    en: Wang Meng
+  lifespan:
+    birth:
+      date: '0325'
+      precision: year
+      is_circa: true
+      raw: 约325年（文中未载，据史通行说法）
+    death:
+      date: '0375'
+      precision: year
+      is_circa: true
+      raw: 约375年（文中未载，据史通行说法）
+  birth_date: '0325'
+  death_date: '0375'
+  era: 东晋十六国
+  reign_ref: 前秦苻坚
+  archetype: 辅国名相
+  dilemmas:
+  - 出身寒微而辅佐氐族政权，须在胡汉之间建功立威
+  - 既要南抗东晋、又须东灭前燕，战略取舍两难
+  lesson: 明君贤相相得，方成混一之业；功名 []);
+  summary_first_person: 我王猛辅佐苻坚，先拒东晋、再图凉州，终破前燕，克上党、潞川大捷、拔邺城，尽收燕地，为关中一统奠定基业。
+endeavors:
+- id: guji-王猛-endeavor-1
+  name_zh: 佐秦征伐与灭燕之业
+  phases:
+  - key: brewing
+    name_zh: 出仕前秦
+    labels:
+      zh:
+      - 佐命苻坚
+  - key: breakthrough
+    name_zh: 南攻南阳
+    labels:
+      zh:
+      - 攻南乡
+      - 退于新野
+    highlight_event_id: guji-王猛-event-nanxiang
+  - key: climax
+    name_zh: 灭燕大战
+    labels:
+      zh:
+      - 陷上党
+      - 潞川大捷
+      - 克邺获暐
+    highlight_event_id: guji-王猛-event-ye
+  - key: closure
+    name_zh: 定鼎关东
+    labels:
+      zh:
+      - 尽有其地
+  decisions:
+  - title_zh: 助苻坚先图关东、暂避凉州之锋
+    rationale: 太和二年寇凉州为张天锡所拒败绩，遂转锋东向前燕
+events:
+- id: guji-王猛-event-birth
+  person_qid: guji-王猛
+  type: birth
+  year_of: 325
+  title_zh: 王猛（约）出生
+  description: 文中未载生年，据史通行说法约生于325年。
+- id: guji-王猛-event-nanxiang
+  person_qid: guji-王猛
+  type: endeavor
+  year_of: 372
+  title_zh: 王猛与杨安攻南乡
+  description: 太和元年冬十月辛丑，苻坚将王猛、杨安攻南乡，荆州刺史桓豁救之，师次新野而猛、安退军。
+- id: guji-王猛-event-liangzhou
+  person_qid: guji-王猛
+  type: endeavor
+  year_of: 373
+  title_zh: 王猛寇凉州败绩
+  description: 太和二年夏，王猛进攻凉州，张天锡拒之，王猛师败绩。
+- id: guji-王猛-event-shangdang
+  person_qid: guji-王猛
+  type: endeavor
+  year_of: 376
+  title_zh: 王猛伐前燕陷上党
+  description: 太和五年九月，王猛伐慕容暐，陷其上党。
+- id: guji-王猛-event-luchuan
+  person_qid: guji-王猛
+  type: endeavor
+  year_of: 376
+  title_zh: 潞川大破慕容评
+  description: 太和五年冬十月，王猛大破慕容暐将慕容评于潞川，燕军主力溃灭。
+- id: guji-王猛-event-ye
+  person_qid: guji-王猛
+  type: endeavor
+  year_of: 376
+  title_zh: 克邺灭燕
+  description: 太和五年十一月，王猛攻克邺城，擒获慕容暐，前燕故土尽入前秦。
+- id: guji-王猛-event-death
+  person_qid: guji-王猛
+  type: death
+  year_of: 375
+  title_zh: 王猛（约）去世
+  description: 文中未载卒年，据史通行说法约卒于375年。

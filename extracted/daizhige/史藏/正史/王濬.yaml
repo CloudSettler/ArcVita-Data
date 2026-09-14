@@ -1,0 +1,138 @@
+person:
+  qid: guji-王濬
+  name_zh: 王濬
+  names:
+    zh: 王濬
+    en: Wang Jun
+  lifespan:
+    birth:
+      date: '206'
+      precision: year
+      is_circa: true
+      raw: 约206年
+    death:
+      date: 286-01-18
+      precision: day
+      is_circa: false
+  birth_date: 约206年
+  death_date: 太康六年十二月（286年初）
+  era: 西晋
+  reign_ref: 晋武帝司马炎
+  archetype: 平吴名将
+  dilemmas:
+  - 灭吴后居功遭王浑一党构陷，如何自处
+  - 年逾七旬仍欲进兵攻胡，受诏止之
+  lesson: 直捣建鄴、受降孙皓，然功高位逼，唯有谨守以终
+  summary_first_person: 我王濬出身弘农，历任羊祜麾下，造楼船于益州，顺流破吴铁锁，率先至建鄴受孙皓之降，促成天下一统。晚年虽遭谗谤，仍因功名而得保全。
+  source_urls:
+  - https://zh.wikisource.org/wiki/晉書/卷042
+endeavors:
+- id: guji-王濬-endeavor-1
+  name_zh: 益州造船，筹备伐吴
+  phases:
+  - key: brewing
+    name_zh: 治益州，备舟师
+    labels:
+      zh:
+      - 益州刺史
+      - 大修舟舰
+    start_date: '272'
+    highlight_event_id: guji-王濬-event-shipbuilding
+  - key: breakthrough
+    name_zh: 顺流灭吴
+    labels:
+      zh:
+      - 破铁锁
+      - 烧铁锥
+    start_date: 279-11
+    highlight_event_id: guji-王濬-event-conquest
+  - key: climax
+    name_zh: 先至建鄴受降
+    labels:
+      zh:
+      - 受孙皓降
+      - 吴亡
+    start_date: 280-03
+    highlight_event_id: guji-王濬-event-surrender
+  - key: closure
+    name_zh: 抚军凯旋，功成名就
+    labels:
+      zh:
+      - 封襄阳县侯
+      - 遭谗自辩
+    start_date: '280'
+  decisions:
+  - date: '278'
+    title_zh: 上疏请速伐吴
+    rationale: 孙皓荒淫，宜并力水陆，迟则生变
+  - date: 279-11
+    title_zh: 不待王浑，挥师直下
+    rationale: 军机贵速，顺流之势不可失
+- id: guji-王濬-endeavor-2
+  name_zh: 晚年镇军与自保
+  phases:
+  - key: climax
+    name_zh: 论功遭忌
+    labels:
+      zh:
+      - 王浑争功
+      - 有司弹劾
+    start_date: '280'
+    highlight_event_id: guji-王濬-event-jealousy
+  - key: closure
+    name_zh: 转抚军，开府仪同三司
+    labels:
+      zh:
+      - 抚军大将军
+      - 特进
+    start_date: '282'
+  decisions:
+  - date: '280'
+    title_zh: 拒缚送自身赴廷尉之议
+    rationale: 吾奉命伐吴，进讨无罪，不就械
+  - date: '282'
+    title_zh: 迁镇涿州，戒勿轻用武
+    rationale: 遭谗既久，谨身远祸以终
+events:
+- id: guji-王濬-event-birth
+  type: birth
+  date: '206'
+  year_of: 206
+  name_zh: 王濬出生（约）
+  description_zh: 王濬生于弘农湖县，世家为二千石。
+- id: guji-王濬-event-shipbuilding
+  type: career
+  date: '272'
+  year_of: 272
+  name_zh: 益州大造楼船
+  description_zh: 王濬为益州刺史，受羊祜、张华支持，大作舟舰，木柹蔽江而下。
+- id: guji-王濬-event-conquest
+  type: career
+  date: 279-11
+  year_of: 279
+  name_zh: 奉诏举兵伐吴
+  description_zh: 晋大举伐吴，王濬率巴蜀之众顺流而下，破吴人铁锁横江之防。
+- id: guji-王濬-event-surrender
+  type: career
+  date: 280-03
+  year_of: 280
+  name_zh: 先至建鄴受孙皓之降
+  description_zh: 王濬楼船先至建鄴，吴主孙皓面缚舆榇而降，吴亡，天下一统。
+- id: guji-王濬-event-jealousy
+  type: career
+  date: '280'
+  year_of: 280
+  name_zh: 王浑构陷争功
+  description_zh: 王浑怨濬不待己，与有司共诬濬违诏擅受降，濬上表自陈，赖武帝保全。
+- id: guji-王濬-event-promotion
+  type: career
+  date: '282'
+  year_of: 282
+  name_zh: 迁抚军大将军
+  description_zh: 征为抚军大将军，后开府仪同三司，加特进。
+- id: guji-王濬-event-death
+  type: death
+  date: 286-01-18
+  year_of: 286
+  name_zh: 王濬去世
+  description_zh: 太康六年十二月，王濬薨，谥曰武。

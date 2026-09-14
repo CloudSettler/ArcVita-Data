@@ -1,0 +1,116 @@
+person:
+  qid: guji-陶渊明
+  name_zh: 陶渊明
+  names:
+    zh: 陶渊明
+    en: Tao Yuanming
+  lifespan:
+    birth:
+      date: '365'
+      precision: year
+      is_circa: true
+      raw: 约东晋兴宁三年
+    death:
+      date: '427'
+      precision: year
+      is_circa: true
+  birth_date: '365'
+  death_date: '427'
+  era: 东晋末至刘宋初
+  reign_ref: 晋安帝、宋文帝
+  archetype: 隐逸诗人
+  dilemmas:
+  - 仕与隐的抉择：为生计出仕，还是守志归田
+  - 不为五斗米折腰的气节与家人温饱之难
+  lesson: 不为五斗米折腰，守拙归园田，方得人生本真
+  summary_first_person: 我陶渊明，厌倦官场egn浮沉，五十九岁归去来兮，种菊东篱，诗酒自娱，终成隐逸诗人之宗。
+  source_urls:
+  - https://zh.wikisource.org/wiki/晋书/卷094
+endeavors:
+- id: guji-陶渊明-endeavor-1
+  key: brewing
+  name_zh: 出仕怀志
+  labels:
+    zh:
+    - 出仕
+    - 求索
+  start_date: '393'
+  highlight_event_id: guji-陶渊明-event-2
+  decisions:
+  - date: '393'
+    title_zh: 出为江州祭酒
+    rationale: 家贫亲老，含羞出仕以资生计
+  - date: 405-08
+    title_zh: 就任彭泽县令
+    rationale: 亲老家贫，勉强为官八十余日
+- id: guji-陶渊明-endeavor-2
+  key: breakthrough
+  name_zh: 挂冠归隐
+  labels:
+    zh:
+    - 归隐
+    - 折腰之叹
+  start_date: 405-11
+  highlight_event_id: guji-陶渊明-event-3
+  decisions:
+  - date: 405-11
+    title_zh: 不为五斗米折腰，辞官归田
+    rationale: 郡遣督邮索礼，耻为五斗米折腰向乡里小人
+- id: guji-陶渊明-endeavor-3
+  key: climax
+  name_zh: 田园诗成
+  labels:
+    zh:
+    - 田园诗
+    - 《归去来兮辞》
+    - 《桃花源记》
+  start_date: 405-11
+  highlight_event_id: guji-陶渊明-event-4
+  decisions:
+  - date: '417'
+    title_zh: 作《桃花源记》
+    rationale: 寄托乱世中对理想世界的向往
+- id: guji-陶渊明-endeavor-4
+  key: closure
+  name_zh: 晚年著述
+  labels:
+    zh:
+    - 归园田居
+    - 饮酒诗
+  start_date: '420'
+  highlight_event_id: guji-陶渊明-event-death
+  decisions:
+  - date: '420'
+    title_zh: 入宋后自号五柳先生，隐居不仕
+    rationale: 坚守隐志，晋宋易代不出为官
+events:
+- id: guji-陶渊明-event-birth
+  type: birth
+  date: '365'
+  year_of: 365
+  description_zh: 陶渊明约生于东晋兴宁三年（一说更早），浔阳柴桑人。
+- id: guji-陶渊明-event-2
+  type: endeavor
+  date: '393'
+  year_of: 393
+  description_zh: 因家贫出仕江州祭酒，不堪吏职，不久自解归家。
+- id: guji-陶渊明-event-3
+  type: endeavor
+  date: 405-11
+  year_of: 405
+  description_zh: 任彭泽令八十余日，不为五斗米折腰，赋《归去来兮辞》辞官归隐。
+- id: guji-陶渊明-event-4
+  type: endeavor
+  date: '407'
+  year_of: 407
+  description_zh: 陶渊明退居田园，作《归园田居》等田园诗，开田园诗派之先河。
+- id: guji-陶渊明-event-5
+  type: endeavor
+  date: '417'
+  year_of: 417
+  description_zh: 约作《桃花源记》，虚构避世乐土，为传世名篇。
+- id: guji-陶渊明-event-death
+  type: death
+  date: '427'
+  year_of: 427
+  description_zh: 陶渊明约卒于宋元嘉四年，谥号靖节先生。
