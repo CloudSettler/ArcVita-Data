@@ -1,0 +1,103 @@
+person:
+  qid: guji-王罴
+  name_zh: 王罴
+  names:
+    zh: 王罴
+    en: Wang Pi
+  lifespan:
+    birth:
+      date: ~0510
+      precision: year
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: ~0541
+      precision: year
+      is_circa: true
+      raw: 卒年约在大统间
+  birth_date: ~0510
+  death_date: ~0541
+  era: 南北朝·西魏
+  reign_ref: 西魏文帝（元宝炬）大统年间
+  archetype: 忠谨坚守的方面之任（州刺史／守将）
+  dilemmas:
+  - 敌众我寡之际，是背城决战，还是据城力守以待援
+  - 强邻压境、主帅远出之时，如何独任方面、确保关中门户不失
+  lesson: 众寡悬殊之时，恃城严守、挫敌锐气，亦足以定一方之安危。
+  summary_first_person: 我本仕于魏末，为宇文太祖所知。太祖与诸将议拒高欢，命我率甲士一万先据华州，以为关中西面之屏。大统元年，东魏将司马子如自蒲津来寇华州，我督兵击走之。三年，高欢亲率大军度河逼华州，我严兵固守，敌知不可攻，乃涉洛而西，遂有沙苑之败。我守华州，正所以为太祖东拒之藩篱也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/周書/卷2_(帝紀第二·文帝下)
+endeavors:
+- id: guji-王罴-endeavor-1
+  name_zh: 据守华州、屏捍关中
+  phases:
+  - key: brewing
+    name_zh: 受命先据华州
+    labels:
+      zh:
+      - 受命
+      - 先据华州
+    start_date: ~0534
+    highlight_event_id: guji-王罴-event-1
+  - key: breakthrough
+    name_zh: 击退司马子如之寇
+    labels:
+      zh:
+      - 却敌
+      - 击走子如
+    start_date: 0537-01
+    highlight_event_id: guji-王罴-event-2
+  - key: climax
+    name_zh: 严守拒高欢大军
+    labels:
+      zh:
+      - 严守
+      - 城不可攻
+    start_date: 0537-10
+    highlight_event_id: guji-王罴-event-3
+  - key: closure
+    name_zh: 继任刺史屏藩一方
+    labels:
+      zh:
+      - 方面之任
+      - 屏捍关中
+    start_date: 0538
+decisions:
+- date: ~0534
+  title_zh: 奉命率甲士一万先据华州
+  rationale: 华州当高欢西来之冲，先据之则敌进有内顾之忧，太祖决策自定
+- date: 0537-01
+  title_zh: 东魏司马子如寇华州，出兵击走之
+  rationale: 子如回军自蒲津寇华州，华州为关中门户，不容失，故主动出击
+- date: 0537-10
+  title_zh: 高欢大军度河逼华州，严兵固守不战
+  rationale: 敌众我寡，众寡不敌，恃城严守使敌知不可攻、锐挫气沮，为太祖聚兵击之赢得时机
+events:
+- id: guji-王罴-event-birth
+  type: birth
+  date: ~0510
+  year_of: 510
+  title_zh: 王罴生（生年不详，姑系于此）
+- id: guji-王罴-event-1
+  type: endeavor
+  date: ~0534
+  year_of: 534
+  title_zh: 太祖（宇文泰）与诸将议拒高欢，命王罴率甲士一万先据华州
+  detail: 太祖谓「欢若西来，王罴足得抗拒」，众咸称善
+- id: guji-王罴-event-2
+  type: endeavor
+  date: 0537-01
+  year_of: 537
+  title_zh: 大统元年正月，东魏将司马子如自蒲津寇华州，刺史王罴击走之
+  detail: 太祖军霸上，子如回军自蒲津寇华州，为罴所败
+- id: guji-王罴-event-3
+  type: endeavor
+  date: 0537-10
+  year_of: 537
+  title_zh: 齐神武（高欢）度河逼华州，王罴严守，敌知不可攻乃涉洛而西
+  detail: 高欢攻华州不下，遂军于许原西，继而有沙苑之战
+- id: guji-王罴-event-death
+  type: death
+  date: ~0541
+  year_of: 541
+  title_zh: 王罴卒（卒年不详，大统间）

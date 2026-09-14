@@ -1,0 +1,144 @@
+person:
+  qid: guji-于谨
+  name_zh: 于谨
+  names:
+    zh: 于谨
+    en: Yu Jin
+  lifespan:
+    birth:
+      date: '493'
+      precision: year
+      is_circa: true
+      raw: 约493年
+    death:
+      date: '568'
+      precision: year
+      is_circa: false
+      raw: 天和三年卒，享年六十六
+  birth_date: '493'
+  death_date: '568'
+  era: 北魏末—西魏—北周
+  reign_ref:
+  - 北魏孝武帝
+  - 西魏文帝
+  - 北周武帝
+  archetype: 功高不矜的开国辅臣
+  dilemmas:
+  - 战功卓著又位极人臣，如何在权臣宇文泰之下保持谦退自守
+  - 领兵灭梁擒杀梁元帝，功业与俘民为奴的历史责任
+  lesson: 益国利民，功成而不骄，方为立身长久之道
+  summary_first_person: 我于谨历仕北魏、西魏、北周三朝，屡为前锋随宇文泰征战，取杨氏壁、破窦泰、战沙苑、攻柏谷坞，最后奉命讨伐江陵、擒杀梁元帝，立萧察为附庸。虽功勋隆盛，我常以恭谨自持，愿以谋略佐定关中基业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/周書/卷2
+endeavors:
+- id: guji-于谨-endeavor-1
+  name_zh: 佐宇文泰西征东讨
+  phases:
+  - key: brewing
+    name_zh: 随军东伐取地
+    labels:
+      zh:
+      - 徇地
+      - 攻城
+    start_date: '537'
+    highlight_event_id: guji-于谨-event-pan-dou
+  - key: breakthrough
+    name_zh: 沙苑与弘农之役
+    labels:
+      zh:
+      - 大破东魏
+      - 俘斩数万
+    start_date: '537'
+    highlight_event_id: guji-于谨-event-shayuan
+  - key: climax
+    name_zh: 灭梁江陵之战
+    labels:
+      zh:
+      - 柱国统帅
+      - 克江陵
+    start_date: '554'
+    highlight_event_id: guji-于谨-event-jiangling
+  - key: closure
+    name_zh: 讨平稽胡与晚节
+    labels:
+      zh:
+      - 平叛
+      - 位登太师
+    start_date: '548'
+    highlight_event_id: guji-于谨-event-jihu
+  decisions:
+  - date: '532'
+    title_zh: 归附宇文泰
+    rationale: 认定宇文泰有匡济之才，愿倾心辅佐以定关陇基业
+  - date: '554'
+    title_zh: 领兵讨梁元帝萧绎
+    rationale: 萧绎连结北齐、言辞悖慢，奉命率步骑五万伐之
+- id: guji-于谨-endeavor-2
+  name_zh: 建谋略军功于西魏立国
+  phases:
+  - key: brewing
+    name_zh: 镇抚关中
+    labels:
+      zh:
+      - 征讨叛乱
+    start_date: '536'
+    highlight_event_id: guji-于谨-event-pan-dou
+  - key: climax
+    name_zh: 沙苑献策陷阵
+    labels:
+      zh:
+      - 偃戈伏击
+    start_date: '537'
+    highlight_event_id: guji-于谨-event-shayuan
+  - key: closure
+    name_zh: 功封燕国公
+    labels:
+      zh:
+      - 进爵增邑
+    start_date: '557'
+    highlight_event_id: guji-于谨-event-shayuan
+  decisions:
+  - date: '537'
+    title_zh: 居军前徇地
+    rationale: 自请为前锋，攻取盘豆、弘农以开东进之路
+events:
+- id: guji-于谨-event-birth
+  type: birth
+  date: '493'
+  year_of: 493
+  summary: 于谨约生于北魏孝文帝时期
+- id: guji-于谨-event-pan-dou
+  type: endeavor
+  date: 537-07
+  year_of: 537
+  summary: 大统三年，于谨居军前徇地至盘豆，急攻高叔礼，克其栅，获戍卒一千，送叔礼于长安
+- id: guji-于谨-event-shayuan
+  type: endeavor
+  date: 537-10
+  year_of: 537
+  summary: 沙苑之战，于谨等六军与东魏军合战，配合李弼铁骑横击，大破齐神武军，前后虏卒七万
+- id: guji-于谨-event-yangshi
+  type: endeavor
+  date: 538-06
+  year_of: 538
+  summary: 大统四年六月，遣仪同于谨取杨氏壁
+- id: guji-于谨-event-baigu
+  type: endeavor
+  date: '543'
+  year_of: 543
+  summary: 邙山之战前，于谨奉命攻柏谷坞，拔之
+- id: guji-于谨-event-jiangling
+  type: endeavor
+  date: 554-11
+  year_of: 554
+  summary: 恭帝元年，于谨与宇文护、杨忠、韦孝宽率步骑五万讨江陵，列营围守，辛亥攻破城池，擒杀梁元帝萧绎，立萧察为梁主
+- id: guji-于谨-event-jihu
+  type: endeavor
+  date: 548-03
+  year_of: 548
+  summary: 大统七年三月，稽胡帅、夏州刺史刘平伏据上郡叛，遣于谨讨平之
+- id: guji-于谨-event-death
+  type: death
+  date: '568'
+  year_of: 568
+  summary: 北周天和三年，于谨薨，位至太师、燕国公

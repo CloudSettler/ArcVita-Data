@@ -1,0 +1,167 @@
+person:
+  qid: guji-宇文护
+  name_zh: 宇文护
+  names:
+    zh: 宇文护
+    en: Yuwen Hu
+  lifespan:
+    birth:
+      date: '513'
+      precision: year
+      is_circa: true
+      raw: 约513年（生年史无明文，据享年推补）
+    death:
+      date: 572-04
+      precision: month
+      is_circa: false
+      raw: 建德元年（572年）被高祖（周武帝）诛杀，身首横分
+  birth_date: '513'
+  death_date: '572'
+  era: 西魏—北周
+  reign_ref: 历仕西魏文帝、北周孝闵帝、明帝、武帝之世
+  archetype: 权臣
+  dilemmas:
+  - 受太祖顾托而诸子冲幼：掌权安国与威福自专之间的抉择
+  - 「寡于学术，昵近群小」：忠贞礼让与「人臣无君之心」的分野
+  lesson: 受顾托者失之以礼让忠贞，虽「变魏为周，俾危获乂」之功，终不免身首横分、妻孥为戮——晋公护之谓也
+  summary_first_person: 我宇文护，早预周室艰难，受太祖顾托，辅诸冲幼之主，卒能变魏为周。然我威福在己，征伐自出，废弑二帝而无悔，终为高祖所诛，身死家灭，史臣谓不亦宜乎。
+  source_urls:
+  - 《周书·卷十一·列传第三》（晋荡公护传附论，见本卷列传第四、第五相关文字）
+endeavors:
+- id: guji-宇文护-endeavor-1
+  name_zh: 辅政变周
+  phases:
+  - key: brewing
+    name_zh: 太祖倚任
+    labels:
+      zh:
+      - 西魏
+      - 顾命
+    start_date: '556'
+    highlight_event_id: guji-宇文护-event-tuo-gu
+  - key: breakthrough
+    name_zh: 变魏为周
+    labels:
+      zh:
+      - 禅代
+      - 立国
+    start_date: '557'
+    highlight_event_id: guji-宇文护-event-jian-zhou
+  - key: climax
+    name_zh: 执政专权
+    labels:
+      zh:
+      - 废立
+      - 威福在己
+    start_date: '557'
+    highlight_event_id: guji-宇文护-event-zheng
+  - key: closure
+    name_zh: 身诛族灭
+    labels:
+      zh:
+      - 被诛
+      - 除名
+    start_date: '572'
+    highlight_event_id: guji-宇文护-event-zhu
+  decisions:
+  - date: '557'
+    title_zh: 废孝闵帝、立世宗
+    rationale: 诸子冲幼、群公怀等夷之志，以废立固权；「威福在己，征伐自出」，有君人之实而无君人之名
+  - date: '560'
+    title_zh: 弑明帝（世宗）
+    rationale: 世宗明察，护惮其英明，遂进毒弑之（史臣所谓「废弑至逆也，行之而无悔」）
+- id: guji-宇文护-endeavor-2
+  name_zh: 东伐与黔腹心
+  phases:
+  - key: brewing
+    name_zh: 委任爪牙
+    labels:
+      zh:
+      - 腹心
+      - 荐引
+    start_date: '557'
+    highlight_event_id: guji-宇文护-event-wei-ren
+  - key: climax
+    name_zh: 东伐洛阳
+    labels:
+      zh:
+      - 东伐
+      - 邙山
+    start_date: '564'
+    highlight_event_id: guji-宇文护-event-dong-fa
+  - key: closure
+    name_zh: 树倒猢散
+    labels:
+      zh:
+      - 除名
+    start_date: '572'
+    highlight_event_id: guji-宇文护-event-zhu
+  decisions:
+  - date: 559前
+    title_zh: 征柳庆、令狐整所荐之叱罗协入朝，引与同宿，深寄托之
+    rationale: 司会柳庆、司宪令狐整并辞不堪，俱荐协；护欲委腹心于协，「以为得协之晚」，即授军司马，委以兵事
+  - date: '564'
+    title_zh: 遣尉迟迥为先锋、宇文宪等军邙山，将兵东伐
+    rationale: 「寇贼充斥，戎马交驰……岂得坐观屠灭」；然东伐不利，齐兵奄出军后，诸军恇骇退散
+events:
+- id: guji-宇文护-event-birth
+  date: '513'
+  year_of: 513
+  type: birth
+  title_zh: 宇文护生
+  description: 生年史无明文，系太祖之兄子，早预周室艰难。
+  persons:
+  - guji-宇文护
+- id: guji-宇文护-event-tuo-gu
+  date: '556'
+  year_of: 556
+  type: endeavor_event
+  title_zh: 受太祖顾托
+  description: 太祖崩殂，诸子冲幼，诸公怀等夷之志，护寔预艰难、受顾托之重。
+  persons:
+  - guji-宇文护
+- id: guji-宇文护-event-jian-zhou
+  date: '557'
+  year_of: 557
+  type: endeavor_event
+  title_zh: 变魏为周
+  description: 卒能变魏为周，俾危获乂，孝闵帝践阼，护执政秉权。
+  persons:
+  - guji-宇文护
+- id: guji-宇文护-event-zheng
+  date: '557'
+  year_of: 557
+  type: endeavor_event
+  title_zh: 威福在己，废弑相继
+  description: 执政专权，「昵近群小，威福在己，征伐自出」，有「人臣无君之心」，先后废孝闵帝、弑世宗。
+  persons:
+  - guji-宇文护
+- id: guji-宇文护-event-wei-ren
+  date: '559'
+  year_of: 559
+  is_circa: true
+  type: endeavor_event
+  title_zh: 引叱罗协为腹心
+  description: 护遂征协入朝，引与同宿，深寄托之；协誓以躯命自效，护「以为得协之晚」，即授军司马，委以兵事，寻转治御正、授护府长史。
+  persons:
+  - guji-宇文护
+  - guji-叱罗协
+- id: guji-宇文护-event-dong-fa
+  date: 564-10
+  year_of: 564
+  is_circa: true
+  type: endeavor_event
+  title_zh: 东伐围洛阳，邙山兵警
+  description: 晋公护东伐，以尉迟迥为先锋围洛阳；宪与达奚武、王雄等军于邙山，齐兵数万奄出军后，诸军恇骇退散，宪亲自督励，众心乃安。
+  persons:
+  - guji-宇文护
+  - guji-宇文宪
+- id: guji-宇文护-event-zhu
+  date: 572-04
+  year_of: 572
+  type: death
+  title_zh: 高祖诛晋公护
+  description: 高祖谓宇文宪曰：「冢宰无君凌上，将图不轨，吾所以诛之，以安社稷。」护身首横分，妻孥为戮；党附者叱罗协、冯迁、边平等皆除名，高祖命宪往护第收兵符及诸簿书。
+  persons:
+  - guji-宇文护
+  - guji-宇文宪
