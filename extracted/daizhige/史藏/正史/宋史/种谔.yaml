@@ -1,0 +1,134 @@
+person:
+  qid: guji-种谔
+  name_zh: 种谔
+  names:
+    zh: 种谔
+    en: Zhong E
+  lifespan:
+    birth:
+      date: '1026'
+      precision: year
+      is_circa: true
+      raw: 生年不详（卒年五十七，约生于天圣年间）
+    death:
+      date: '1083'
+      precision: year
+      is_circa: true
+      raw: 疽发背卒，年五十七，约元丰末
+  birth_date: 约1026年
+  death_date: 约1083年
+  era: 北宋
+  reign_ref: 宋仁宗至神宗朝
+  archetype: 激进开边的边将
+  dilemmas:
+  - 专断“不待报”出师取绥州建功却遭贬，事后获帝追悔复官，功罪之间如何自处
+  - 力主先取横山覆夏巢穴，而朝议改筑永乐，谋略不售反致大祸
+  - 擅诛军吏威驭士卒，敢战数胜而“诈诞残忍”之评为身后毁誉所系
+  lesson: 建功之勇不足以保其名，谋国之远亦需其时；刚愎专行虽能取尺寸之胜，终难辞党同竞胜之祸。
+  summary_first_person: 我以父任入仕，知青涧城，不待诏命诱降嵬名山，一举取绥州，虽遭贬谪而神宗悔悟复我官。此后从韩绛城啰兀、随李宪收洮州，又上言夏主被囚可乘间捣其巢穴，得帝壮之委以西讨。米脂之役我大破夏军八万，进图横山，方策未竟而徐禧改城永乐，祸发之际我未能赴救。我善驭士卒、临敌出奇，然性诈诞残忍，识者谓我不死边事不已，功罪盖棺，任人论说。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷335
+endeavors:
+- id: guji-种谔-endeavor-1
+  name_zh: 先开绥州
+  phases:
+  - key: brewing
+    name_zh: 荐知青涧
+    labels:
+      zh:
+      - 知青涧城
+      - 纳令㖫内附
+    start_date: '1067'
+  - key: breakthrough
+    name_zh: 诱取绥州
+    labels:
+      zh:
+      - 诱降嵬名山
+      - 不待报出师
+    start_date: '1067'
+    highlight_event_id: guji-种谔-event-suizhou
+  - key: climax
+    name_zh: 击退四万众遂城绥州
+    labels:
+      zh:
+      - 怀远拒敌
+      - 遂城绥州
+    start_date: '1067'
+  - key: closure
+    name_zh: 下吏贬谪与复官
+    labels:
+      zh:
+      - 贬秩四等
+      - 神宗复官
+    start_date: '1068'
+  decisions:
+  - date: '1067'
+    title_zh: 力请纳夏酋令㖫内附
+    rationale: 陆诜恐生事欲弗纳，谔曰必欲令㖫当以景询来易，遂止其索。
+  - date: '1067'
+    title_zh: 不待报悉起所部兵长驱围名山帐
+    rationale: 云弟夷山先降乘机诱之，谔知机不可失，先斩后奏取绥州。
+- id: guji-种谔-endeavor-2
+  name_zh: 两举西征与取横山之谋
+  phases:
+  - key: brewing
+    name_zh: 从韩绛宣抚陕西
+    labels:
+      zh:
+      - 鄜延钤辖
+      - 城啰兀
+    start_date: '1073'
+  - key: breakthrough
+    name_zh: 米脂大捷
+    labels:
+      zh:
+      - 破八万援军于无定川
+      - 降令介讹遇
+    start_date: '1082'
+    highlight_event_id: guji-种谔-event-mizhi
+  - key: climax
+    name_zh: 谋据横山
+    labels:
+      zh:
+      - 遣子朴上策
+      - 建言自银州始
+    start_date: '1082'
+  - key: closure
+    name_zh: 永乐之祸与病卒
+    labels:
+      zh:
+      - 永乐受围观望不救
+      - 疽发背卒
+    start_date: '1082'
+  decisions:
+  - date: '1082'
+    title_zh: 上言夏主秉常为其母所囚可急捣其巢穴
+    rationale: 面奏“夏国无人，秉常孺子，臣往持其臂以来耳”，促成神宗决意西讨。
+  - date: '1082'
+    title_zh: 建言先城银州以囊括横山
+    rationale: 横山多马宜稼、有盐铁之利，其势居高可俯视兴灵直覆巢穴。
+events:
+- id: guji-种谔-event-birth
+  date: '1026'
+  year_of: 1026
+  type: birth
+  title_zh: 种谔约生于此年
+  summary_zh: 父种世衡，兄种古、弟种谊皆有将材，关中号曰三种。
+- id: guji-种谔-event-suizhou
+  date: '1067'
+  year_of: 1067
+  type: endeavor
+  title_zh: 诱降嵬名山取绥州
+  summary_zh: 得酋领三百、户万五千、兵万人，敌四万坌集怀远，谔开门出战追击二十里，遂城绥州。
+- id: guji-种谔-event-mizhi
+  date: '1082'
+  year_of: 1082
+  type: endeavor
+  title_zh: 无定川大破夏军
+  summary_zh: 夏兵八万来援，谔设伏断其首尾大破之，降守将令介讹遇，捷书闻帝大喜罢中正。
+- id: guji-种谔-event-death
+  date: '1083'
+  year_of: 1083
+  type: death
+  title_zh: 疽发背卒
+  summary_zh: 永乐之祸后帝就命知延州，旋以疽发背卒，年五十七。
