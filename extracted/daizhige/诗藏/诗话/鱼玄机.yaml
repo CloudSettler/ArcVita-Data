@@ -1,0 +1,107 @@
+person:
+  qid: guji-鱼玄机
+  name_zh: 鱼玄机
+  names:
+    zh: 鱼玄机
+    en: Yu Xuanji
+  lifespan:
+    birth:
+      date: '844'
+      precision: year
+      is_circa: true
+      raw: 约唐会昌四年
+    death:
+      date: '871'
+      precision: year
+      is_circa: true
+      raw: 约唐咸通十二年
+  birth_date: 约公元844年
+  death_date: 约公元871年
+  era: 晚唐
+  reign_ref: 唐懿宗咸通年间
+  archetype: 唐代女冠诗人
+  dilemmas:
+  - 身为女子而负诗才，欲以文学立身而仕途无门
+  - 出身寒微、沦为妾侍后被弃，只得入道观栖身
+  lesson: 才情不因性别而减色，然乱世之中女子持才自守犹属不易
+  summary_first_person: 我是晚唐女诗人鱼玄机，名列《诗女史纂》卷之九，与李冶等并称诗女。我幼有诗才，及笄后为补阙李亿妾，后被弃，遂入咸宜观为女道士。我以诗名动士林，与温庭筠等文人唱和，留下「易求无价宝，难得有心郎」之句，惜身世坎坷，结局悲凉。
+  source_urls:
+  - http://www.cadal.zju.edu.cn/Index.action
+endeavors:
+- id: guji-鱼玄机-endeavor-1
+  name_zh: 诗名初显与唱和交游
+  phases:
+  - key: brewing
+    name_zh: 幼年学诗
+    labels:
+      zh:
+      - 幼慧
+      - 学诗
+    start_date: 0855
+    highlight_event_id: guji-鱼玄机-event-poetry-start
+  - key: breakthrough
+    name_zh: 与士人唱和
+    labels:
+      zh:
+      - 交游
+      - 唱和
+    start_date: 0860
+    highlight_event_id: guji-鱼玄机-event-changhe
+  decisions:
+  - date: 0860
+    title_zh: 以诗才结交文士
+    rationale: 身为女子无由科举立身，乃以诗歌唱和于士林之间求闻达
+- id: guji-鱼玄机-endeavor-2
+  name_zh: 入道与著述
+  phases:
+  - key: climax
+    name_zh: 入咸宜观为女冠
+    labels:
+      zh:
+      - 女道士
+      - 咸宜观
+    start_date: 0866
+    highlight_event_id: guji-鱼玄机-event-daoguan
+  - key: closure
+    name_zh: 诗篇传世
+    labels:
+      zh:
+      - 诗集
+      - 传世
+    start_date: 0871
+    highlight_event_id: guji-鱼玄机-event-death
+  decisions:
+  - date: 0866
+    title_zh: 被弃后入道观栖身
+    rationale: 婚姻无依，入观既可安身，亦可延续诗作与交游
+events:
+- id: guji-鱼玄机-event-birth
+  date: 0844
+  year_of: 844
+  type: birth
+  name_zh: 鱼玄机出生
+  description: 约于唐会昌年间出生，长安人，幼有诗才。
+- id: guji-鱼玄机-event-poetry-start
+  date: 0855
+  year_of: 855
+  type: endeavor_milestone
+  name_zh: 少年即以诗闻名
+  description: 少女时代诗作已为士人所知，与温庭筠等有往还。
+- id: guji-鱼玄机-event-changhe
+  date: 0860
+  year_of: 860
+  type: endeavor_milestone
+  name_zh: 与士林唱和
+  description: 作诗与当时文人唱和，诗名渐盛于世。
+- id: guji-鱼玄机-event-daoguan
+  date: 0866
+  year_of: 866
+  type: career_event
+  name_zh: 入咸宜观为女道士
+  description: 为李亿妾后被弃，遂入长安咸宜观为女冠，继续作诗交游。
+- id: guji-鱼玄机-event-death
+  date: 0871
+  year_of: 871
+  type: death
+  name_zh: 鱼玄机去世
+  description: 约于咸通末年去世，生平诗篇由后人辑录传世，《诗女史纂》卷九录其事。
