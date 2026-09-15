@@ -1,0 +1,128 @@
+person:
+  qid: guji-沈括
+  name_zh: 沈括
+  names:
+    zh: 沈括
+    en: Shen Kuo
+  lifespan:
+    birth:
+      date: '1031'
+      precision: year
+      is_circa: true
+      raw: 约1031年（北宋天圣年间）
+    death:
+      date: '1095'
+      precision: year
+      is_circa: false
+  birth_date: '1031'
+  death_date: '1095'
+  era: 北宋
+  reign_ref: 熙宁（宋神宗年号，1068–1077）
+  archetype: 学者型官员与科学家
+  dilemmas:
+  - 于熙宁历法改革中主持新历，须在瞬息万变的天象观测与传统历算成说之间取舍
+  - 撰《熙宁奉元历》诸书，须在朝廷颁历之政与个人实测之学之间权衡
+  lesson: 观天制历，推步有据；著书立成，学以传世。
+  summary_first_person: 我是沈括，北宋学者。熙宁年间我主持修订历法，撰成《熙宁奉元历》一部，并著历经三卷、《立成》十四卷、《备草》六卷、《比较交蚀》六卷，皆载于《宋史·艺文志》历算类。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷207
+endeavors:
+- id: guji-沈括-endeavor-1
+  name_zh: 修撰熙宁奉元历
+  description_zh: 熙宁年间主持历法改革，编修《奉元历》并撰历经、立成、备草、比较交蚀等书。
+  phases:
+  - key: brewing
+    name_zh: 研习历算
+    labels:
+      zh:
+      - 历算之学
+    start_date: '1068'
+  - key: breakthrough
+    name_zh: 主持新历
+    labels:
+      zh:
+      - 奉元历
+    start_date: '1075'
+    highlight_event_id: guji-沈括-event-work-1
+  - key: climax
+    name_zh: 撰历经立成
+    labels:
+      zh:
+      - 著述
+    start_date: '1076'
+    highlight_event_id: guji-沈括-event-work-2
+  - key: closure
+    name_zh: 书成颁行
+    labels:
+      zh:
+      - 颁历
+    start_date: '1078'
+  decisions:
+  - date: '1075'
+    title_zh: 主持修订奉元历
+    rationale_zh: 旧历推步渐疏，需据实测重新造历，以正朔望交蚀之期。
+  - date: '1076'
+    title_zh: 撰立成与备草诸卷
+    rationale_zh: 历经之外另立立成数表并备草推验，使后人可考据校核。
+- id: guji-沈括-endeavor-2
+  name_zh: 比较交蚀考校
+  description_zh: 撰《比较交蚀》六卷，以日食月食实测考校诸历得失。
+  phases:
+  - key: brewing
+    name_zh: 收集记录
+    labels:
+      zh:
+      - 观测
+    start_date: '1070'
+  - key: breakthrough
+    name_zh: 比较考校
+    labels:
+      zh:
+      - 考校
+    start_date: '1077'
+    highlight_event_id: guji-沈括-event-work-2
+  - key: closure
+    name_zh: 成书
+    labels:
+      zh:
+      - 成书
+    start_date: '1078'
+  decisions:
+  - date: '1077'
+    title_zh: 以交蚀实测比较新旧历
+    rationale_zh: 交蚀为验历最切实证，比较新旧推步异同方知历法疏密。
+events:
+- id: guji-沈括-event-birth
+  event_type: birth
+  date: '1031'
+  year_of: 1031
+  date_precision: year
+  is_circa: true
+  name_zh: 沈括出生
+  description_zh: 沈括约生于北宋天圣年间。
+- id: guji-沈括-event-work-1
+  event_type: work_creation
+  date: '1075'
+  year_of: 1075
+  date_precision: year
+  is_circa: false
+  name_zh: 撰《熙宁奉元历》一部
+  description_zh: 《宋史·艺文志》历算类著录“沈括《熙宁奉元历》一部”，熙宁年间修成新历。
+  source_ref: 宋史卷二百零七·历算
+- id: guji-沈括-event-work-2
+  event_type: work_creation
+  date: '1076'
+  year_of: 1076
+  date_precision: year
+  is_circa: false
+  name_zh: 撰《熙宁奉元历经》三卷及《立成》《备草》《比较交蚀》
+  description_zh: 艺文志续著录历经三卷、《立成》十四卷、《备草》六卷、《比较交蚀》六卷。
+  source_ref: 宋史卷二百零七·历算
+- id: guji-沈括-event-death
+  event_type: death
+  date: '1095'
+  year_of: 1095
+  date_precision: year
+  is_circa: false
+  name_zh: 沈括去世
+  description_zh: 沈括卒于北宋绍圣二年。

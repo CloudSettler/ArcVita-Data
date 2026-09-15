@@ -1,0 +1,139 @@
+person:
+  qid: guji-僧一行
+  name_zh: 僧一行
+  names:
+    zh: 僧一行
+    en: Yi Xing
+  lifespan:
+    birth:
+      date: 0683
+      precision: year
+      is_circa: true
+      raw: 约唐弘道元年前后
+    death:
+      date: '0727'
+      precision: year
+      is_circa: false
+  birth_date: 0683
+  death_date: '0727'
+  era: 唐代
+  reign_ref: 唐开元年间
+  archetype: 历算家·佛教僧侣
+  dilemmas:
+  - 出世修行与奉诏入世制历之间的张力
+  - 《开元大衍历议》与《心机算术括》并存，历法推步与算术著述如何兼精
+  lesson: 以佛法之精思入历算之实学，僧身亦能正天下之历。
+  summary_first_person: 俗名张遂，出家为僧，法号一行。唐开元年间奉诏修历，撰《开元大衍历议》十三卷，又著《心机算术括》一卷、《大衍历经》与《大衍历立成》《大衍议》诸书，为有唐一代历算之宗。《宋史·艺文志》历算类著录吾书多种，足见后世传习之盛。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷207
+endeavors:
+- id: guji-僧一行-endeavor-1
+  name_zh: 修撰《开元大衍历》
+  labels:
+    zh:
+    - 历法
+    - 天文
+  phases:
+  - key: brewing
+    name_zh: 受诏制历
+    labels:
+      zh:
+      - 奉诏修历
+    start_date: '0721'
+    highlight_event_id: guji-僧一行-event-x3
+  - key: breakthrough
+    name_zh: 推步立法
+    labels:
+      zh:
+      - 大衍历议
+    start_date: '0725'
+    highlight_event_id: guji-僧一行-event-x4
+  - key: closure
+    name_zh: 历成而逝
+    labels:
+      zh:
+      - 历成
+    start_date: '0727'
+    highlight_event_id: guji-僧一行-event-death
+  decisions:
+  - date: '0721'
+    title_zh: 奉唐玄宗之诏主持新历修撰
+    rationale: 旧历疏阔，日月食推验多误，须考究天文数据重立新历。
+  - date: '0727'
+    title_zh: 草成《大衍历经》《大衍历立成》《大衍历议》
+    rationale: 历术体系大备，奏上朝廷，颁为开元历法。
+- id: guji-僧一行-endeavor-2
+  name_zh: 著述历算之学
+  labels:
+    zh:
+    - 算学
+    - 著书
+  phases:
+  - key: brewing
+    name_zh: 研习算经
+    labels:
+      zh:
+      - 精研历算
+    start_date: '0700'
+    highlight_event_id: guji-僧一行-event-x1
+  - key: climax
+    name_zh: 撰成算书
+    labels:
+      zh:
+      - 心机算术括
+    start_date: '0720'
+    highlight_event_id: guji-僧一行-event-x2
+  decisions:
+  - date: '0720'
+    title_zh: 著《心机算术括》一卷
+    rationale: 将历法推步所用算术法门括而述之，以广其传。
+events:
+- id: guji-僧一行-event-birth
+  date: 0683
+  year_of: 683
+  title_zh: 约生于唐代
+  labels:
+    zh:
+    - 出生
+- id: guji-僧一行-event-x1
+  date: '0700'
+  is_circa: true
+  year_of: 700
+  title_zh: 出家为僧，潜心算历之学
+  labels:
+    zh:
+    - 修行
+    - 治学
+- id: guji-僧一行-event-x2
+  date: '0720'
+  is_circa: true
+  year_of: 720
+  title_zh: 撰《心机算术括》一卷
+  labels:
+    zh:
+    - 著述
+- id: guji-僧一行-event-x3
+  date: '0721'
+  is_circa: true
+  year_of: 721
+  title_zh: 受诏主持修撰《开元大衍历》
+  labels:
+    zh:
+    - 奉诏
+    - 制历
+- id: guji-僧一行-event-x4
+  date: '0725'
+  is_circa: true
+  year_of: 725
+  title_zh: 草定《开元大衍历议》十三卷
+  labels:
+    zh:
+    - 著述
+    - 历法
+- id: guji-僧一行-event-death
+  date: '0727'
+  year_of: 727
+  title_zh: 卒，历成未久
+  labels:
+    zh:
+    - 去世
