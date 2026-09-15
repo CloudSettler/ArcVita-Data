@@ -1,0 +1,120 @@
+person:
+  qid: guji-刘宏
+  name_zh: 刘宏（汉灵帝）
+  names:
+    zh: 刘宏、汉灵帝、孝灵皇帝
+    en: Liu Hong (Emperor Ling of Han)
+  lifespan:
+    birth:
+      date: '156'
+      precision: year
+      is_circa: true
+      raw: 生年史传未详，约在熹平之前，姑系于永寿二年前后
+    death:
+      date: '189'
+      precision: year
+      is_circa: false
+  birth_date: 约公元156年
+  death_date: 公元189年
+  era: 东汉
+  reign_ref: 东汉灵帝（168年—189年在位）
+  archetype: 尚文好书的帝王
+  dilemmas:
+  - 尺牍辞赋与鸿都门学是否合乎经术取士的正统
+  lesson: 帝王雅好书艺，亦能以课试聚才，然鸿都门学之设，士论颇有訾议
+  summary_first_person: 我讳宏，肃宗元孙也。好学善书，自作皇羲篇五十章，始置鸿都门学生，敕州郡举召能为尺牍辞赋及工书鸟篆者课试至千人。熹平中诏诸儒正五经文字，命蔡邕等书刻石立于太学。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=2063
+endeavors:
+- id: guji-刘宏-endeavor-1
+  name_zh: 好学善书，自作皇羲篇
+  phases:
+  - key: brewing
+    name_zh: 践祚之前
+    labels:
+      zh:
+      - 好学
+    start_date: 约丙午
+    highlight_event_id: guji-刘宏-event-birth
+  - key: breakthrough
+    name_zh: 善书立篇
+    labels:
+      zh:
+      - 善书
+      - 皇羲篇五十章
+    start_date: 约170年前后
+    highlight_event_id: guji-刘宏-event-huangxi
+- id: guji-刘宏-endeavor-2
+  name_zh: 置鸿都门学，课试工书之士
+  phases:
+  - key: breakthrough
+    name_zh: 始置鸿都门学生
+    labels:
+      zh:
+      - 鸿都门学
+      - 尺牍辞赋
+      - 工书鸟篆
+    start_date: 约178年
+    highlight_event_id: guji-刘宏-event-hongdu
+  - key: climax
+    name_zh: 课试至千人
+    labels:
+      zh:
+      - 州郡举召
+    start_date: 约178年后
+    highlight_event_id: guji-刘宏-event-hongdu
+  decisions:
+  - date: 约178年
+    title_zh: 敕州郡举召能为尺牍辞赋及工书鸟篆者
+    rationale: 以书艺辞赋取士，聚才千人以备近侍，故设鸿都门学生课试之
+- id: guji-刘宏-endeavor-3
+  name_zh: 正五经文字，刻石太学
+  phases:
+  - key: breakthrough
+    name_zh: 诏诸儒正五经文字
+    labels:
+      zh:
+      - 熹平石经
+      - 太学刻石
+    start_date: 175年熹平中
+    highlight_event_id: guji-刘宏-event-xiping
+  decisions:
+  - date: 熹平中（约175年）
+    title_zh: 诏诸儒正五经文字，命蔡邕等书刻石立于太学
+    rationale: 经籍文字传写多误，命诸儒校正经文，蔡邕书丹刻石，以垂永久
+events:
+- id: guji-刘宏-event-birth
+  date: '156'
+  year_of: 156
+  label_zh: 生（生于宗室，肃宗之元孙）
+  kind: lifecycle
+  desc_zh: 孝灵皇帝讳宏，肃宗元孙也。生年史无明文，约系于此。
+  source: 书小史卷一·纪
+- id: guji-刘宏-event-huangxi
+  date: 约168年至175年间
+  year_of: 170
+  label_zh: 自作皇羲篇五十章
+  kind: achievement
+  desc_zh: 帝好学善书，自作《皇羲篇》五十章。
+  source: 书小史卷一·纪
+- id: guji-刘宏-event-hongdu
+  date: 约178年
+  year_of: 178
+  label_zh: 始置鸿都门学生，课试千人
+  kind: 章程/政制改革
+  desc_zh: 始置鸿都门学生，敕州郡举召能为尺牍辞赋及工书鸟篆者相课试，至千人。
+  source: 书小史卷一·纪
+- id: guji-刘宏-event-xiping
+  date: 约175年（熹平中）
+  year_of: 175
+  label_zh: 诏诸儒正五经文字，命蔡邕等刻石太学
+  kind: achievement
+  desc_zh: 熹平中诏诸儒正五经文字，命蔡邕等书刻石立于太学，世称熹平石经。
+  source: 书小史卷一·纪
+- id: guji-刘宏-event-death
+  date: '189'
+  year_of: 189
+  label_zh: 卒（中平六年驾崩）
+  kind: lifecycle
+  desc_zh: 死年史传记为公元189年，在位21年后崩。
+  source: 史传通说
