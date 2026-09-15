@@ -1,0 +1,88 @@
+person:
+  qid: guji-dongming
+  name_zh: 东明
+  names:
+    zh: 东明
+    en: Dongmyeong
+  lifespan:
+    birth:
+      date: -0058
+      precision: year
+      is_circa: true
+      raw: 约公元前五十八年（据通行传说推定）
+    death:
+      date: -0019
+      precision: year
+      is_circa: true
+      raw: 约公元前十九年（据通行传说推定）
+  birth_date: -0058
+  death_date: -0019
+  era: 汉代东北亚
+  reign_ref: 高句丽始祖
+  archetype: 开国君主
+  dilemmas:
+  - 文献仅记其立国之年，身世与治迹语焉不详
+  lesson: 于群雄并起之际自立为国，开高句丽之基业
+  summary_first_person: 我是东明，高句丽之始祖。史载新罗赫居世居西干二十一年，即汉宣帝五凤之后二十一年，我立国建号，开创高句丽。
+  source_urls:
+  - https://db.itkc.or.kr/ (三国史记卷第一 新罗本纪一)
+endeavors:
+- id: guji-dongming-endeavor-1
+  key: 建国高句丽
+  name_zh: 立国高句丽
+  labels:
+    zh:
+    - 开国
+    - 建元
+  phases:
+  - key: brewing
+    name_zh: 蕴蓄国力
+    labels:
+      zh:
+      - 潜龙勿用
+    start_date: -0058
+    highlight_event_id: guji-dongming-event-founding
+  - key: breakthrough
+    name_zh: 即位建国
+    labels:
+      zh:
+      - 开邦立国
+    start_date: -31
+    highlight_event_id: guji-dongming-event-founding
+  - key: climax
+    name_zh: 经略一方
+    labels:
+      zh:
+      - 拓土绥民
+    start_date: -31
+    highlight_event_id: guji-dongming-event-founding
+  - key: closure
+    name_zh: 崩逝传国
+    labels:
+      zh:
+      - 始祖升遐
+    start_date: -0019
+    highlight_event_id: guji-dongming-event-death
+  decisions:
+  - date: -31
+    title_zh: 即位为高句丽始祖
+    rationale: 当新罗赫居世居西干二十一年，立而称王，建国 shred 基业
+events:
+- id: guji-dongming-event-birth
+  date: -0058
+  year_of: -58
+  type: birth
+  title_zh: 东明生
+  desc_zh: 出生之年史无明文，据通行传说约在公元前五十八年前后。
+- id: guji-dongming-event-founding
+  date: -31
+  year_of: -37
+  type: career
+  title_zh: 高句丽始祖东明立
+  desc_zh: 三国史记新罗本纪载，赫居世居西干二十一年，筑京城号曰金城，是岁高句丽始祖东明立。
+- id: guji-dongming-event-death
+  date: -0019
+  year_of: -19
+  type: death
+  title_zh: 东明卒
+  desc_zh: 卒年史无明文，据通行传说约在公元前十九年前后。
