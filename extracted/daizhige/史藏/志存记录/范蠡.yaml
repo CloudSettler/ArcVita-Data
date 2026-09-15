@@ -1,0 +1,131 @@
+person:
+  qid: guji-fanli
+  name_zh: 范蠡
+  names:
+    zh: 范蠡
+    en: Fan Li
+  lifespan:
+    birth:
+      date: -536
+      precision: year
+      is_circa: true
+      raw: 约春秋末期生
+    death:
+      date: -448
+      precision: year
+      is_circa: true
+  birth_date: 约公元前536年
+  death_date: 约公元前448年
+  era: 春秋末期
+  reign_ref: 越王勾践之世
+  archetype: 谋国能臣·功成不居
+  dilemmas:
+  - 国仇未雪与民生凋敝之间，如何择时兴师伐吴
+  - 深受重用之际，是否直言审备之策以定军心
+  lesson: 伐国之道，审备为先；知进知退，方能持盈保身。
+  summary_first_person: 我范蠡事越王勾践，吴王北会黄池之时，我奉命与舌庸率师沿海溯淮，绝吴归路，败吴太子于姑熊夷，遂使越师袭入吴郛。及吴王还国，大夫种倡谋，勾践遍问五大夫，我进对以“审备则可以战”，王称其巧。夫战者，知为始，仁次之，勇次之，而守御审密、不可攻入，乃胜敌之本。我以谋略佐越，终倾强吴。
+  source_urls:
+  - https://zh.wikisource.org/wiki/國語/吳語
+endeavors:
+- id: guji-fanli-endeavor-1
+  name_zh: 佐越图吴·断吴归路
+  phases:
+  - key: brewing
+    name_zh: 潜佐勾践
+    labels:
+      zh:
+      - 忍辱图强
+      - 深谋远虑
+    start_date: -490
+  - key: breakthrough
+    name_zh: 黄池断路
+    labels:
+      zh:
+      - 沿海溯淮
+      - 绝吴王归路
+    start_date: -482
+    highlight_event_id: guji-fanli-event-cut-route
+  - key: climax
+    name_zh: 袭吴入郛
+    labels:
+      zh:
+      - 败王子友
+      - 焚姑苏
+    start_date: -482
+  decisions:
+  - date: -482
+    title_zh: 奉命率师沿海溯淮以绝吴路
+    rationale: 乘吴王夫差北上黄池与晋争长、国内空虚之机，断其归道，使吴首尾不能相顾。
+  - date: -482
+    title_zh: 与舌庸并进，败吴太子友于姑熊夷
+    rationale: 先挫吴之储贰与郊甸之师，为越王中军溯江袭吴、入郛焚姑苏扫清障碍。
+- id: guji-fanli-endeavor-2
+  name_zh: 献策定战·审备之道
+  phases:
+  - key: brewing
+    name_zh: 观吴之弊
+    labels:
+      zh:
+      - 天占既兆
+      - 人事又见
+    start_date: -482
+  - key: breakthrough
+    name_zh: 廷对审备
+    labels:
+      zh:
+      - 审备则可以战
+      - 王称其巧
+    start_date: -478
+    highlight_event_id: guji-fanli-event-counsel
+  - key: closure
+    name_zh: 谋成吴亡
+    labels:
+      zh:
+      - 笠泽三战三北
+      - 越师围吴宫
+    start_date: -478
+  decisions:
+  - date: -478
+    title_zh: 进对“审备则可以战”
+    rationale: 申包胥言战以知为先，我知守御之备审密不可攻入，方为可战之基，故以审备对，王曰巧。
+  - date: -478
+    title_zh: 赞成大戒兴师，防夺吴利
+    rationale: 吴民既罢、大荒荐饥、囷鹿空虚，天与人征皆见，不可失其悛改之机，当起师以防夺其利。
+events:
+- id: guji-fanli-event-birth
+  person_id: guji-fanli
+  type: birth
+  date: -536
+  year_of: -536
+  is_circa: true
+  title_zh: 范蠡生于春秋末期
+  description: 范蠡生于楚地，后仕越，为越王勾践股肱之臣。
+- id: guji-fanli-event-cut-route
+  person_id: guji-fanli
+  type: endeavor
+  date: -482
+  year_of: -482
+  title_zh: 范蠡率师沿海溯淮以绝吴路
+  description: 吴王夫差北会晋定公于黄池，越王勾践命范蠡与舌庸率师沿海泝淮以绝吴王归路，败吴太子友于姑熊夷；越王乃率中军泝江袭吴，入其郛，焚其姑苏，徙其大舟。
+- id: guji-fanli-event-counsel
+  person_id: guji-fanli
+  type: endeavor
+  date: -478
+  year_of: -478
+  title_zh: 范蠡廷对献“审备则可以战”之策
+  description: 越王勾践访五大夫问战，大夫蠡进对曰“审备则可以战”，王曰巧，谓其守御之备审密不可攻入，遂定大戒兴师伐吴之计。
+- id: guji-fanli-event-lize-victory
+  person_id: guji-fanli
+  type: endeavor
+  date: -478
+  year_of: -478
+  title_zh: 越师笠泽大破吴师
+  description: 越王中分其师为左右军，夜半衔枚涉江鸣鼓以惑吴师，中军潜涉袭攻，吴师大北，三战三北，越师遂入吴国，围吴王宫于姑苏。
+- id: guji-fanli-event-death
+  person_id: guji-fanli
+  type: death
+  date: -448
+  year_of: -448
+  is_circa: true
+  title_zh: 范蠡卒
+  description: 相传范蠡功成之后泛舟五湖，后卒，约在战国初年。

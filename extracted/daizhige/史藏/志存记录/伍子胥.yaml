@@ -1,0 +1,120 @@
+person:
+  qid: guji-伍子胥
+  name_zh: 伍子胥
+  names:
+    zh: 伍子胥
+    en: Wu Zixu
+  lifespan:
+    birth:
+      date: '-555'
+      precision: year
+      is_circa: true
+      raw: 约春秋楚国人
+    death:
+      date: '-484'
+      precision: year
+      is_circa: false
+  birth_date: '-555'
+  death_date: '-484'
+  era: 春秋
+  reign_ref: 吴王夫差时期
+  archetype: 忠谏蒙冤之臣
+  dilemmas:
+  - 直言进谏忤逆君意与保全自身之间的冲突
+  - 复父兄之仇与事奉他国之义的抉择
+  lesson: 忠言逆耳，犯颜直谏者常遭疏斥，然其忠贞之名终垂后世
+  summary_first_person: 我本楚人，因父兄被害亡命吴国，助吴王阖闾破楚入郢以雪我仇；后辅佐夫差，屡谏防越而被赐死，尸沉江中。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/伍子胥
+endeavors:
+- id: guji-伍子胥-endeavor-1
+  name_zh: 亡楚奔吴
+  phases:
+  - key: brewing
+    name_zh: 蒙难出逃
+    labels:
+      zh:
+      - 出奔
+      - 避祸
+    start_date: '-522'
+    highlight_event_id: guji-伍子胥-event-2
+  decisions:
+  - date: '-522'
+    title_zh: 弃楚奔吴
+    rationale: 父兄为楚平王所杀，誓报此仇，遂辗转奔吴
+- id: guji-伍子胥-endeavor-2
+  name_zh: 相吴争霸
+  phases:
+  - key: breakthrough
+    name_zh: 助阖闾图强
+    labels:
+      zh:
+      - 助吴
+      - 举荐孙武
+    start_date: '-514'
+    highlight_event_id: guji-伍子胥-event-3
+  - key: climax
+    name_zh: 谏夫差御越
+    labels:
+      zh:
+      - 直谏
+      - 忤旨
+    start_date: '-494'
+    highlight_event_id: guji-伍子胥-event-4
+  - key: closure
+    name_zh: 赐死沉江
+    labels:
+      zh:
+      - 冤死
+    start_date: '-484'
+    highlight_event_id: guji-伍子胥-event-5
+  decisions:
+  - date: '-494'
+    title_zh: 力谏灭越
+    rationale: 认定勾践为吴腹心之患，屡次进谏夫差不听
+  - date: '-484'
+    title_zh: 托孤于属镂之剑
+    rationale: 料吴必亡于越，遗命悬目东门以观越兵入吴
+events:
+- id: guji-伍子胥-event-birth
+  date: '-555'
+  year_of: -555
+  event_type: birth
+  name_zh: 伍子胥生于楚国
+  participants:
+  - guji-伍子胥
+- id: guji-伍子胥-event-death
+  date: '-484'
+  year_of: -484
+  event_type: death
+  name_zh: 被夫差赐属镂之剑自刎，尸投于江
+  participants:
+  - guji-伍子胥
+- id: guji-伍子胥-event-2
+  date: '-522'
+  year_of: -522
+  event_type: endeavor
+  name_zh: 父兄被杀，只身出逃奔吴
+  participants:
+  - guji-伍子胥
+- id: guji-伍子胥-event-3
+  date: '-506'
+  year_of: -506
+  event_type: endeavor
+  name_zh: 佐吴破楚入郢，掘楚平王墓鞭尸报父兄之仇
+  participants:
+  - guji-伍子胥
+- id: guji-伍子胥-event-4
+  date: '-494'
+  year_of: -494
+  event_type: endeavor
+  name_zh: 谏夫差勿许越和，夫差不听而宠信太宰嚭
+  participants:
+  - guji-伍子胥
+- id: guji-伍子胥-event-5
+  date: '-484'
+  year_of: -484
+  event_type: endeavor
+  name_zh: 因谗被赐死，遗言悬目东门观越入吴
+  participants:
+  - guji-伍子胥
