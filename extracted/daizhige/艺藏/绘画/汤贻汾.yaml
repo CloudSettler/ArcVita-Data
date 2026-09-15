@@ -1,0 +1,112 @@
+person:
+  qid: guji-汤贻汾
+  name_zh: 汤贻汾
+  names:
+    zh: 汤贻汾
+    en: Tang Yifen
+  lifespan:
+    birth:
+      date: '1778'
+      precision: year
+      is_circa: true
+      raw: 乾隆年间生
+    death:
+      date: '1853'
+      precision: year
+      is_circa: true
+      raw: 咸丰三年卒
+  birth_date: '1778'
+  death_date: '1853'
+  era: 清代嘉庆、道光、咸丰年间
+  reign_ref: 嘉庆、道光
+  archetype: 书画名家
+  dilemmas:
+  - 欲订正笪重光《画筌》分则注释，时遭水灾流离应当赈务，编纂之事中辍多年
+  - 以钞本多伪，同人多劝付梓而迟迟不敢刊行
+  lesson: 剖裁先哲文字面 pundit 虽难，为便于后学寻绎，标目分则、附录愚论，终成《画筌析览》
+  summary_first_person: 我是汤贻汾，号雨生。我研读笪江上先生《画筌》，虑其章段连翩、论说互杂，遂积十年之功标目分则、删冗订正，并请谢澧浦校正付梓，又访冯墨初、与仲振履相助，终使此篇永垂于后。
+endeavors:
+- id: guji-汤贻汾-endeavor-1
+  name_zh: 编纂《画筌析览》
+  phases:
+  - key: brewing
+    name_zh: 积年研读
+    labels:
+      zh: 初读笪重光《画筌》
+    start_date: 1804
+  - key: breakthrough
+    name_zh: 分则注释
+    labels:
+      zh: 拟划段落，分十则作注
+    start_date: 1810
+  - key: climax
+    name_zh: 订正付梓
+    labels:
+      zh: 请谢澧浦校正，录评语刊行
+    start_date: 1813-12-20
+    highlight_event_id: guji-汤贻汾-event-book-2
+  - key: closure
+    name_zh: 序成流布
+    labels:
+      zh: 仲振履作序，书成传世
+    start_date: 1813-09-03
+  decisions:
+  - date: 1804
+    title_zh: 拟分划《画筌》段落并注
+    rationale_zh: 冯墨初示《书筌》，论法精当简要而论未条分，欲使初学了然
+  - date: 1805
+    title_zh: 编纂中辍
+    rationale_zh: 时遭北水骤至，邑侯属主赈事，戊辰复捧檄南来，此事久废
+  - date: 1813
+    title_zh: 付梓谢澧浦订正
+    rationale_zh: 编卷已十载，同人多劝付梓，因钞本多伪，属画友谢澧浦以桐华馆刊本校正
+  - date: 1813
+    title_zh: 择录王石谷、恽正叔评语
+    rationale_zh: 鲁亥既正，并录评语之精当者什之五六
+- id: guji-汤贻汾-endeavor-2
+  name_zh: 仕宦为官
+  phases:
+  - key: brewing
+    name_zh: 三江任职
+    labels:
+      zh: 任三江都司
+    start_date: 1805
+  - key: climax
+    name_zh: 摄齐昌都尉
+    labels:
+      zh: 摄齐昌都尉事
+    start_date: 1813
+    highlight_event_id: guji-汤贻汾-event-official-2
+  decisions:
+  - date: 1805
+    title_zh: 分笪氏原文为十则
+    rationale_zh: 任三江时因问业者随事指陈，分目为十则，每则为之注
+  - date: 1808
+    title_zh: 主赈灾事
+    rationale_zh: 北水骤至，流离满野，邑侯属主赈事
+events:
+- id: guji-汤贻汾-event-birth
+  event_type: birth
+  date: '1778'
+  year_of: 1778
+  summary_zh: 汤贻汾出生于清乾隆年间
+- id: guji-汤贻汾-event-official-1
+  event_type: career_milestone
+  date: '1808'
+  year_of: 1808
+  summary_zh: 邑侯属主赈事，因水灾流离，编纂《画筌析览》之事中辍
+- id: guji-汤贻汾-event-official-2
+  event_type: career_milestone
+  date: '1813'
+  year_of: 1813
+  summary_zh: 癸酉雨生摄齐昌都尉事，与仲振履同官
+- id: guji-汤贻汾-event-book-1
+  event_type: work_completed
+  date: 1813-09-03
+  year_of: 1813
+  summary_zh: 嘉庆癸酉重九日撰《画筌析览》自序，称分十则注成
+- id: guji-汤贻汾-event-book-2
+  event_type: work_published
+  date: 1813-12-20
+  year_of: 1813
+  summary_zh: 癸酉十二月望日所作自序二，载谢澧浦订正、采录王石谷恽正叔评语后梓行

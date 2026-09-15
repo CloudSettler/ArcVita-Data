@@ -1,0 +1,82 @@
+person:
+  qid: guji-笪重光
+  name_zh: 笪重光
+  names:
+    zh: 笪重光
+    en: Da Chongguang
+  lifespan:
+    birth:
+      date: 1623-01-01
+      precision: year
+      is_circa: true
+      raw: 约天启年间生，未详
+    death:
+      date: 1692-01-01
+      precision: year
+      is_circa: true
+  birth_date: 约1623
+  death_date: 约1692
+  era: 清初
+  reign_ref: 顺治
+  archetype: 山水画理论家
+  dilemmas:
+  - 身入仕途而心向艺林，画禅与功名难以两全
+  lesson: 言情理确、深入画禅者，其言说可垂之后世
+  summary_first_person: 我笪重光，丹徒人，字在辛，自号江上外史。顺治壬辰成进士，官至佥都御史。我深思画理，撰《画筌》一篇，言情理确，为艺林所珍。后人汤贻汾分其目为十则而析览之，使拙篇得与《书谱》并传。
+  source_urls:
+  - https://zh.wikisource.org/wiki/画筌析览
+endeavors:
+- id: guji-笪重光-endeavor-1
+  key: breakthrough
+  name_zh: 成进士入仕
+  labels:
+    zh:
+    - 科举
+    - 仕途
+  start_date: 1652-01-01
+  decisions:
+  - date: 1652-01-01
+    title_zh: 顺治壬辰应举成进士
+    rationale: 以科举入仕，正途进身
+- id: guji-笪重光-endeavor-2
+  key: climax
+  name_zh: 撰著《画筌》
+  labels:
+    zh:
+    - 绘画理论
+    - 著述
+  start_date: 1652-01-01
+  highlight_event_id: guji-笪重光-event-shuhuarong
+  decisions:
+  - date: 1652-01-01
+    title_zh: 深入画禅，撰《画筌》十则伦要
+    rationale: 考察历代名家生平，摅所见而辑成篇，论山水树石钩皴染点诸法
+events:
+- id: guji-笪重光-event-birth
+  date: 约1623
+  year_of: 1623
+  title_zh: 笪重光生于丹徒
+  type: birth
+  actor_id: guji-笪重光
+- id: guji-笪重光-event-jinshi
+  date: 1652-01-01
+  year_of: 1652
+  title_zh: 顺治壬辰科中进士
+  type: endeavor
+  actor_id: guji-笪重光
+  endeavor_id: guji-笪重光-endeavor-1
+  description: 顺治壬辰成进士，后官至佥都御史
+- id: guji-笪重光-event-shuhuarong
+  date: 1655-01-01
+  year_of: 1655
+  title_zh: 撰成《画筌》
+  type: endeavor
+  actor_id: guji-笪重光
+  endeavor_id: guji-笪重光-endeavor-2
+  description: 论山水画理，言情理确，久为艺林所珍，后经汤贻汾析为十则
+- id: guji-笪重光-event-death
+  date: 约1692
+  year_of: 1692
+  title_zh: 笪重光卒
+  type: death
+  actor_id: guji-笪重光
