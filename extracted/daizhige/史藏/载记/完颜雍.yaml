@@ -1,0 +1,128 @@
+person:
+  qid: guji-完颜雍
+  name_zh: 完颜雍
+  names:
+    zh: 完颜雍
+    en: Wanyan Yong
+  lifespan:
+    birth:
+      date: '1123'
+      precision: year
+      is_circa: true
+      raw: 金世宗完颜雍，生于天辅年间
+    death:
+      date: '1189'
+      precision: year
+  birth_date: '1123'
+  death_date: '1189'
+  era: 金代
+  reign_ref: 金世宗，年号大定
+  archetype: 中兴之主
+  dilemmas:
+  - 在海陵王暴政下隐忍自保，伺机而动，需权衡忠节与存身
+  - 即位后面临南北并用、稳定内政与对宋和战的两难
+  lesson: 蹈晦待时而后发，施仁政、惜赦宥，方成大定之治
+  summary_first_person: 我完颜雍，金室宗室之才，先在海陵王治下韬晦自全，后于辽阳即位为帝。即位数年间虽降三赦，务以宽仁治世，改元大定，偃武修文，使金国得享中兴之治。
+  source_urls:
+  - https://zh.wikisource.org/wiki/大金國志
+endeavors:
+- id: guji-完颜雍-endeavor-1
+  name_zh: 韬晦蓄势与即位
+  phases:
+  - key: brewing
+    name_zh: 宗室韬晦
+    labels:
+      zh:
+      - 隐忍自保
+    start_date: '1150'
+    highlight_event_id: guji-完颜雍-event-taohui
+  - key: climax
+    name_zh: 辽阳即位
+    labels:
+      zh:
+      - 自立为帝
+    start_date: '1161'
+    highlight_event_id: guji-完颜雍-event-usurp
+  - key: closure
+    name_zh: 稳固帝位
+    labels:
+      zh:
+      - 平定局势
+    start_date: '1162'
+  decisions:
+  - date: '1161'
+    title_zh: 于辽阳称帝
+    rationale: 海陵王南伐暴虐，众心离怨，遂乘机即位以安社稷
+- id: guji-完颜雍-endeavor-2
+  name_zh: 大定之治
+  phases:
+  - key: brewing
+    name_zh: 改元大定
+    labels:
+      zh:
+      - 宽仁治国
+    start_date: '1161'
+    highlight_event_id: guji-完颜雍-event-dading
+  - key: breakthrough
+    name_zh: 惜赦施仁
+    labels:
+      zh:
+      - 赦宥宽刑
+    start_date: '1162'
+    highlight_event_id: guji-完颜雍-event-she
+  - key: climax
+    name_zh: 中兴盛世
+    labels:
+      zh:
+      - 世宗致治
+    start_date: '1163'
+  - key: closure
+    name_zh: 享年长久
+    labels:
+      zh:
+      - 小尧舜之誉
+    start_date: '1189'
+  decisions:
+  - date: '1161'
+    title_zh: 改元大定
+    rationale: 以「大定」为年号，示平定天下、恢复秩序之志
+  - date: '1162'
+    title_zh: 数年间降三赦
+    rationale: 反海陵「更不议赦」之苛，以赦宥收拢人心，示国家宽仁
+events:
+- id: guji-完颜雍-event-birth
+  name_zh: 完颜雍出生于金源内地
+  year_of: 1123
+  date: '1123'
+  type: birth
+- id: guji-完颜雍-event-taohui
+  name_zh: 海陵王立，完颜雍韬晦自保
+  year_of: 1150
+  date: '1150'
+  type: endeavor
+  endeavor_id: guji-完颜雍-endeavor-1
+- id: guji-完颜雍-event-usurp
+  name_zh: 完颜雍于海陵南伐之际即位于辽阳，是为世宗
+  year_of: 1161
+  date: 1161-10
+  type: endeavor
+  endeavor_id: guji-完颜雍-endeavor-1
+  highlight: true
+- id: guji-完颜雍-event-dading
+  name_zh: 世宗改元大定
+  year_of: 1161
+  date: '1161'
+  type: endeavor
+  endeavor_id: guji-完颜雍-endeavor-2
+- id: guji-完颜雍-event-she
+  name_zh: 世宗即位数年间已降三赦，一反海陵不赦之制
+  year_of: 1162
+  date: '1162'
+  type: endeavor
+  endeavor_id: guji-完颜雍-endeavor-2
+  highlight: true
+- id: guji-完颜雍-event-death
+  name_zh: 金世宗完颜雍卒
+  year_of: 1189
+  date: 1189-01
+  type: death
