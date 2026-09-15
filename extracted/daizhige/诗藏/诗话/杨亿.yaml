@@ -1,0 +1,188 @@
+person:
+  qid: guji-杨亿
+  name_zh: 杨亿
+  names:
+    zh: 杨亿
+    en: Yang Yi
+  lifespan:
+    birth:
+      date: 0974
+      precision: year
+      is_circa: true
+      raw: 杨亿生于宋太祖开宝七年（974年）
+    death:
+      date: '1020'
+      precision: year
+      is_circa: true
+      raw: 杨亿卒于宋真宗天禧四年（1020年）
+  birth_date: 0974
+  death_date: '1020'
+  era: 北宋
+  reign_ref: 宋太宗、宋真宗朝
+  archetype: 西昆体诗宗与骈俪文豪
+  dilemmas:
+  - 西昆典故繁密，虽才雄笔力有余，然后学效之而语僻难晓，致诗风遭老辈訾议
+  - 唱和之作骤开风气，一时争效，而学者之弊反归咎于倡导者
+  lesson: 雄文博学、笔力有余故无施不可；然流派之盛，学者承其形骸而失其神采，非宗师之过。
+  summary_first_person: 我是杨亿，字大年。与钱惟演、刘筠诸公唱和，《西昆集》既出，时人争相仿效，诗体为之一变。我先辈多怪我用典太多、语僻难晓，殊不知那只是学人的弊病，我雄文博学，笔力有余，用典不用典故都能成为佳句。
+  source_urls:
+  - https://zh.wikisource.org/wiki/六一詩話
+endeavors:
+- id: guji-杨亿-endeavor-1
+  key: 西昆唱和
+  name_zh: 西昆体开创
+  labels:
+    zh:
+    - 西昆酬唱
+    - 诗体一变
+    - 唱和钱刘
+  phases:
+  - key: brewing
+    name_zh: 翰苑初显
+    labels:
+      zh:
+      - 少年才俊
+      - 入直秘阁
+    start_date: 0983
+    highlight_event_id: guji-杨亿-event-child-prodigy
+  - key: breakthrough
+    name_zh: 唱和成集
+    labels:
+      zh:
+      - 西昆酬唱集
+      - 争效昆体
+    start_date: '1005'
+    highlight_event_id: guji-杨亿-event-kun-changhe
+  - key: climax
+    name_zh: 典丽雄博
+    labels:
+      zh:
+      - 用典雄博
+      - 风雅一变
+    start_date: '1008'
+    highlight_event_id: guji-杨亿-event-kun-dominance
+  - key: closure
+    name_zh: 兴替之议
+    labels:
+      zh:
+      - 后学僻涩
+      - 风尚所归
+    start_date: '1015'
+    highlight_event_id: guji-杨亿-event-kun-criticism
+  decisions:
+  - date: '1005'
+    title_zh: 与钱惟演、刘筠等馆阁唱和，编成《西昆酬唱集》
+    rationale: 因秘阁吟咏之会，汇成一集，遂开一派诗风
+  - date: '1020'
+    title_zh: 以雄文博学自任，无施而不可，不以僻涩自限
+    rationale: 笔力有余，用故事与白描皆成佳句，非区区风云草木可困
+- id: guji-杨亿-endeavor-2
+  key: 诗话影响与后世论定
+  name_zh: 昆体流风与得失之辩
+  labels:
+    zh:
+    - 昆体盛行
+    - 唐贤集废
+    - 倡导者与流弊
+  phases:
+  - key: brewing
+    name_zh: 吴体滥觞
+    labels:
+      zh:
+      - 学者争效
+    start_date: '1005'
+    highlight_event_id: guji-杨亿-event-kun-changhe
+  - key: breakthrough
+    name_zh: 昆体流行
+    labels:
+      zh:
+      - 风雅一变
+    start_date: '1008'
+    highlight_event_id: guji-杨亿-event-kun-dominance
+  - key: climax
+    name_zh: 文集之厄
+    labels:
+      zh:
+      - 唐贤诗集几废不行
+    start_date: '1010'
+    highlight_event_id: guji-杨亿-event-kun-dominance
+  - key: closure
+    name_zh: 兴替流变
+    labels:
+      zh:
+      - 后人评骘
+    start_date: '1050'
+    highlight_event_id: guji-杨亿-event-kun-criticism
+  decisions:
+  - date: '1005'
+    title_zh: 坚持以典雅繁密文风领唱馆阁
+    rationale: 雄文博学，笔力有余，高其格调以变五代卑弱之风
+events:
+- id: guji-杨亿-event-birth
+  date: 0974
+  year_of: 974
+  type: birth
+  name_zh: 杨亿出生
+  detail: 杨亿生于宋开宝年间，早慧能文，后为北宋西昆体代表人物。
+- id: guji-杨亿-event-child-prodigy
+  date: 0983
+  year_of: 983
+  type: achievement
+  name_zh: 少年显名入翰苑
+  detail: 杨亿幼有才名，年甫十一太宗召试，授秘书省正字，此后入直馆阁，以骈俪文体与诗才名重一时。
+- id: guji-杨亿-event-capture-1
+  date: '1005'
+  year_of: 1005
+  type: milestone
+  name_zh: 馆阁唱和昆体初成
+  detail: 杨亿与钱惟演、刘筠诸公于馆阁唱和，《西昆集》既出，时人争相仿效，诗体为之一变。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-1
+- id: guji-杨亿-event-kun-changhe
+  date: '1005'
+  year_of: 1005
+  type: milestone
+  name_zh: 西昆酬唱集成书
+  detail: 杨亿与钱惟演、刘筠等西昆酬唱辑为《西昆酬唱集》，成为昆体之宗。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-1
+  - guji-杨亿-endeavor-2
+- id: guji-杨亿-event-capture-2
+  date: '1010'
+  year_of: 1010
+  type: milestone
+  name_zh: 昆体风行唐贤集废
+  detail: 自杨、刘唱和《西昆集》行，风雅一变，谓之昆体，繇是唐贤诸诗集几废而不行。时人竞效其体。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-1
+  - guji-杨亿-endeavor-2
+- id: guji-杨亿-event-kun-dominance
+  date: '1010'
+  year_of: 1010
+  type: milestone
+  name_zh: 昆体盛行文风一变
+  detail: 昆体风行，当时文方盛之际，陈从易独以醇儒古学与之并峙，可见昆体笼罩一时文坛。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-2
+- id: guji-杨亿-event-capture-3
+  date: '1015'
+  year_of: 1015
+  type: evaluation
+  name_zh: 昆体遭陈从易等议论
+  detail: 昆体盛行之际，议者谓其用故事多至语僻难晓；六一诗话则辨其为学者之弊，非倡者之过——如子仪《新蝉》句虽用故事亦无害为佳句。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-2
+- id: guji-杨亿-event-kun-criticism
+  date: '1015'
+  year_of: 1015
+  type: evaluation
+  name_zh: 昆体得失之论
+  detail: 后世评其诗体，既计其开一代风雅之功，亦括其学人效颦之病。
+  endeavors_permitted_for:
+  - guji-杨亿-endeavor-2
+- id: guji-杨亿-event-death
+  date: '1020'
+  year_of: 1020
+  type: death
+  name_zh: 杨亿去世
+  detail: 杨亿卒，享年四十七，其昆体余风则流衍于天圣、景佑之际而未歇。
