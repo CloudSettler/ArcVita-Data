@@ -1,0 +1,86 @@
+person:
+  qid: guji-临淮老妓
+  name_zh: 临淮老妓
+  names:
+    zh: 临淮老妓
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: true
+      raw: ''
+  era: 明末清初
+  reign_ref: 崇祯、顺治
+  archetype: 义妓侠女
+  dilemmas:
+  - 身陷乐籍而抱忠义，国破之际舍身涉险
+  lesson: 位卑者亦可存大义，危难之际挺身任事
+  summary_first_person: 我本临淮歌妓，尝在戚畹府中执侍，后为东平侯刘泽清府中女教师。甲申京师失守，侯欲侦两宫音息而众将无一人肯行，我奋然请往，持匕首易装，间关数千里，穿贼垒而还。
+endeavors:
+- id: guji-临淮老妓-endeavor-1
+  name_zh: 侍奉戚畹与东平侯府
+  labels:
+    zh:
+    - 乐籍侍婢
+    - 女教师
+  phases:
+  - key: brewing
+    name_zh: 净持戚畹府中
+    labels:
+      zh:
+      - 戚畹府净持
+    highlight_event_id: guji-临淮老妓-event-service
+  - key: breakthrough
+    name_zh: 为东平侯女教师
+    labels:
+      zh:
+      - 侯府女教师
+  decisions:
+  - title_zh: 应东平侯之聘为女教师
+    rationale: 以身份技艺转事侯门
+- id: guji-临淮老妓-endeavor-2
+  name_zh: 甲申冒险侦两宫音息
+  labels:
+    zh:
+    - 忠义壮举
+  start_date: 1644-04-01
+  phases:
+  - key: climax
+    name_zh: 穿贼垒探宫闱
+    labels:
+      zh:
+      - 甲申之变
+    start_date: 1644-04-01
+    highlight_event_id: guji-临淮老妓-event-mission
+  - key: closure
+    name_zh: 数千里生还复命
+    labels:
+      zh:
+      - 凯旋复命
+    highlight_event_id: guji-临淮老妓-event-return
+  decisions:
+  - date: 1644-04-01
+    title_zh: 挺身请行侦报两宫音息
+    rationale: 众将皆惧不肯行，自以身久给事戚畹邸中，义不容辞
+events:
+- id: guji-临淮老妓-event-birth
+  type: birth
+  summary_zh: 生年不详，临淮人
+- id: guji-临淮老妓-event-death
+  type: death
+  summary_zh: 卒年不详
+- id: guji-临淮老妓-event-service
+  type: career
+  summary_zh: 为某戚畹府中净持，后为东平侯刘泽清女教师
+- id: guji-临淮老妓-event-mission
+  type: endeavor
+  date: 1644-04-01
+  year_of: 1644
+  summary_zh: 甲申京都失守，众将无一人肯行，奋然请往，易服持匕首，间关数千里
+- id: guji-临淮老妓-event-return
+  type: endeavor
+  year_of: 1644
+  summary_zh: 穿贼垒而还，侦得两宫音息复命

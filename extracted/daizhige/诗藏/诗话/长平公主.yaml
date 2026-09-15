@@ -1,0 +1,108 @@
+person:
+  qid: guji-长平公主
+  name_zh: 长平公主
+  names:
+    zh: 长平公主
+    en: Princess Changping
+  lifespan:
+    birth:
+      date: '1630'
+      precision: year
+      is_circa: true
+      raw: 明思宗女，生年不详，约崇祯年间
+    death:
+      date: '1646'
+      precision: year
+      is_circa: false
+      raw: 顺治初寻薨
+  birth_date: '1630'
+  death_date: '1646'
+  era: 明末清初
+  reign_ref: 崇祯、顺治
+  archetype: 亡国公主
+  dilemmas:
+  - 国破家亡，身负重伤而幸存，去留两难
+  - 出仕新朝之恩与故国之思之间的伦理纠葛
+  lesson: 甲申之变中剑伤复苏，上书请为尼而不得，终赐婚周世显，青春早逝，映照鼎革之际宗室女性的命运悲剧。
+  summary_first_person: 我是明思宗与周皇后之女，甲申之变中父皇挥剑击伤我颊与腕，五日后复苏。顺治二年我上书愿削发为尼，诏不许，复嫁都尉周世显，不久便薨逝了。
+endeavors:
+- id: guji-长平公主-endeavor-1
+  name_zh: 甲申之难中的生死劫
+  phases:
+  - key: brewing
+    name_zh: 深宫岁月
+    labels:
+      zh: 宫中成长
+    start_date: '1630'
+  - key: breakthrough
+    name_zh: 甲申剑伤
+    labels:
+      zh: 御剑亲裁
+    start_date: '1644'
+    highlight_event_id: guji-长平公主-event-armorincident
+  - key: climax
+    name_zh: 越五复苏
+    labels:
+      zh: 死而复生
+    start_date: '1644-03-25'
+  decisions:
+  - date: '1645'
+    title_zh: 上书清帝愿投身佛门
+    rationale: 几死臣妾，愿髡缁空王以度余生，然诏不许。
+- id: guji-长平公主-endeavor-2
+  name_zh: 赐婚与晚岁
+  phases:
+  - key: brewing
+    name_zh: 议婚周氏
+    labels:
+      zh: 昔议降周世显
+    start_date: '1643'
+  - key: breakthrough
+    name_zh: 诏求故剑
+    labels:
+      zh: 复完婚约
+    start_date: '1645'
+    highlight_event_id: guji-长平公主-event-marriage
+  - key: closure
+    name_zh: 寻薨安葬
+    labels:
+      zh: 葬彰义门赐庄
+    start_date: '1646'
+  decisions:
+  - date: '1645'
+    title_zh: 接受赐婚仍嫁周世显
+    rationale: 先是议降周世显，诏仍馆我周君，践行故约。
+events:
+- id: guji-长平公主-event-birth
+  date: '1630'
+  year_of: 1630
+  type: birth
+  name_zh: 长平公主出生
+  summary_zh: 明思宗女，周皇后所生，名徽（足字旁），约生于崇祯年间。
+- id: guji-长平公主-event-armorincident
+  date: 1644-03-19
+  year_of: 1644
+  type: endeavor_event
+  endeavor_id: guji-长平公主-endeavor-1
+  name_zh: 甲申之变御剑亲裁
+  summary_zh: 李自成入燕京之际，思宗御剑击伤公主颊与腕，越五宵旦而复苏。
+- id: guji-长平公主-event-petition
+  date: '1645'
+  year_of: 1645
+  type: endeavor_event
+  endeavor_id: guji-长平公主-endeavor-1
+  name_zh: 上书顺治帝
+  summary_zh: 顺治二年公主上书今皇帝，甚有音旨，愿髡缁空王，庶申罔极。
+- id: guji-长平公主-event-marriage
+  date: '1645'
+  year_of: 1645
+  type: endeavor_event
+  endeavor_id: guji-长平公主-endeavor-2
+  name_zh: 诏嫁周世显
+  summary_zh: 诏求故剑，仍如先前之议，与都尉周世显成婚。
+- id: guji-长平公主-event-death
+  date: '1646'
+  year_of: 1646
+  type: death
+  name_zh: 长平公主薨逝
+  summary_zh: 婚后不久薨，葬于彰义门之赐庄，礼也。

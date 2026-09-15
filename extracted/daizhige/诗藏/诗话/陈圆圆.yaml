@@ -1,0 +1,115 @@
+person:
+  qid: guji-陈圆圆
+  name_zh: 陈圆圆
+  names:
+    zh: 陈圆圆
+    en: Chen Yuanyuan
+  lifespan:
+    birth:
+      date: ~1623
+      precision: year
+      is_circa: true
+      raw: 明末
+    death:
+      date: ~1695
+      precision: year
+      is_circa: true
+      raw: 清初
+  birth_date: ~1623
+  death_date: ~1695
+  era: 明末清初
+  reign_ref: 崇祯 / 明清鼎革之际
+  archetype: 乱世名妓与命运漂泊者
+  dilemmas:
+  - 身为歌妓，姿容才艺冠绝一时，却身不由己，被权贵豪强辗转劫夺
+  - 甲申之乱中被刘宗敏所掠，陷于李自成军与吴三桂家室之间的政治漩涡
+  lesson: 乱世之中，个人际遇常系于时局权势之手；色艺虽能名动一时，却难自主命运。
+  summary_first_person: 我名陈圆圆，字畹芬，姑苏戾家女也。色艺擅一时，蕙心纨质，澹秀天然。崇祯末，为戚畹武安侯劫置别室；李自成之乱，又被贼帅刘宗敏所掠。及王师入燕京，竟归某王宫中为次妃，飘零终老于西南。
+  source_urls:
+  - https://zh.wikisource.org/wiki/妇人集
+endeavors:
+- id: guji-陈圆圆-endeavor-1
+  name_zh: 姑苏歌妓生涯
+  phases:
+  - key: brewing
+    name_zh: 吴中习艺
+    labels:
+      zh:
+      - 色艺双绝
+      - 名动姑苏
+    start_date: ~1640
+    highlight_event_id: guji-陈圆圆-event-tianxiang
+  decisions:
+  - date: ~1640
+    title_zh: 以艺籍入梨园，声名渐起
+    rationale: 色艺擅一时，为吴中清客文士所推许，叶襄诗有“酒垆寻卞赛，花底出圆圆”之句
+- id: guji-陈圆圆-endeavor-2
+  name_zh: 被劫与乱世辗转
+  phases:
+  - key: breakthrough
+    name_zh: 戚畹劫夺
+    labels:
+      zh:
+      - 身不由己
+    start_date: ~1643
+    highlight_event_id: guji-陈圆圆-event-wuanhou
+  - key: climax
+    name_zh: 甲申之劫
+    labels:
+      zh:
+      - 刘宗敏所掠
+      - 甲申之变
+    start_date: 1644
+    highlight_event_id: guji-陈圆圆-event-zongmin
+  - key: closure
+    name_zh: 随王入滇
+    labels:
+      zh:
+      - 次妃岁月
+    start_date: 1644-06
+    highlight_event_id: guji-陈圆圆-event-wangfei
+  decisions:
+  - date: ~1643
+    title_zh: 被武安侯劫置别室
+    rationale: 侯武人也，圆圆若有不自得者，无力自主，只得隐忍
+  - date: 1644
+    title_zh: 乱中随势辗转，终归王宫为次妃
+    rationale: 我兵入燕京后，时局既定，为依托庇护终得归宿
+events:
+- id: guji-陈圆圆-event-birth
+  date: ~1623
+  title_zh: 生于江南（姑苏歌妓）
+  description: 姑苏戾家女子也，色艺擅一时，字畹芬。
+  category: birth
+- id: guji-陈圆圆-event-tianxiang
+  date: ~1640
+  title_zh: 吴中声名鹊起
+  description: 叶襄《赠姜垓百韵诗》有云：酒垆寻卞赛，花底出圆圆。其名与金陵名妓卞赛并称。
+  category: endeavor
+  endeavor_id: guji-陈圆圆-endeavor-1
+- id: guji-陈圆圆-event-wuanhou
+  date: ~1643
+  year_of: 崇祯末年
+  title_zh: 为戚畹武安侯劫置别室
+  description: 武安侯武人也，圆圆虽有艳名，身居别室，若有不自得者。
+  category: endeavor
+  endeavor_id: guji-陈圆圆-endeavor-2
+- id: guji-陈圆圆-event-zongmin
+  date: 1644
+  year_of: 崇祯十七年
+  title_zh: 李自成之乱中被贼帅刘宗敏所掠
+  description: 甲申之变，李自成入燕京，圆圆为贼帅刘宗敏所掠，身陷乱军。
+  category: endeavor
+  endeavor_id: guji-陈圆圆-endeavor-2
+- id: guji-陈圆圆-event-wangfei
+  date: 1644-06
+  year_of: 甲申后
+  title_zh: 我兵入燕京，归某王宫中为次妃
+  description: 王师入燕京后，圆圆归某王（吴三桂）宫中为次妃，自此随行西南。
+  category: endeavor
+  endeavor_id: guji-陈圆圆-endeavor-2
+- id: guji-陈圆圆-event-death
+  date: ~1695
+  title_zh: 卒于西南，年约七十
+  description: 随吴氏入滇之后，晚景不详，卒年无确考。
+  category: death
