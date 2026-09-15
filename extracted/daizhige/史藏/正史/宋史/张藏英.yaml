@@ -1,0 +1,161 @@
+person:
+  qid: guji-张藏英
+  name_zh: 张藏英
+  names:
+    zh: 张藏英
+  lifespan:
+    birth:
+      date: 893
+      precision: year
+      is_circa: true
+      raw: 卒于962年，年六十九，逆推约生于893年
+    death:
+      date: 962
+      precision: year
+      is_circa: false
+  birth_date: 893
+  death_date: 962
+  era: 五代末至宋初
+  reign_ref: 后周广顺三年至宋建隆三年
+  archetype: 孝烈边将
+  dilemmas:
+  - 杀孙居道报父母之仇后自诣官首服，面临私刑与国法之两难
+  - 仕契丹领榷盐之职后率七千余口航海归周，承受周祖疑虑之风险
+  lesson: 复仇之勇可成孝名，归义之心可开新局；藏英以血偿亲仇、以城御北虏，皆见其忠孝兼全。
+  summary_first_person: 我乃涿州范阳张藏英，唐相张嘉贞之后。族灭于孙居道之手，我年十七独免，后手刃仇人刳心以祭父母，燕蓟间称我为报讐张孝子。契丹用我为卢䑓军使，广顺三年我率亲属部曲七千余口航海归周。世宗用我置砦李晏口、募劲兵御契丹，破高牟翰、退姚内斌，征瓦桥关为先锋。宋初迁瀛州团练使，建隆三年卒于治所，年六十九。
+endeavors:
+- id: guji-张藏英-endeavor-1
+  name_zh: 复仇雪恨
+  phases:
+  - key: brewing
+    name_zh: 举族遇害，孤身逃免
+    labels:
+      zh: 家难之始
+    start_date: 893
+  - key: breakthrough
+    name_zh: 豳市刺仇，初执不遂
+    labels:
+      zh: 初刺居道
+    start_date: 925
+  - key: climax
+    name_zh: 关南擒居道，刳心祭亲
+    labels:
+      zh: 擒而祭之
+    start_date: 936
+    highlight_event_id: guji-张藏英-event-revenge
+  - key: closure
+    name_zh: 诣官首服获释，号报讐张孝子
+    labels:
+      zh: 义名远播
+    start_date: 936
+  decisions:
+  - date: 925
+    title_zh: 豳市场逢居道，拔刀刺之
+    rationale: 逢杀亲仇人于市，虽为吏所执，节帅赵德钧壮而释之
+  - date: 936
+    title_zh: 求为关南都巡检使以近仇人
+    rationale: 闻居道避地关南，故意求此职以图报复
+- id: guji-张藏英-endeavor-2
+  name_zh: 归周御边
+  phases:
+  - key: brewing
+    name_zh: 仕契丹为卢䑓军使兼榷盐制置使
+    labels:
+      zh: 契丹任职
+    start_date: 930
+  - key: breakthrough
+    name_zh: 率部众七千余口航海归周
+    labels:
+      zh: 航海归义
+    start_date: 953
+    highlight_event_id: guji-张藏英-event-defect
+  - key: climax
+    name_zh: 筑城李晏口，屡破契丹
+    labels:
+      zh: 备边立功
+    start_date: 955
+  - key: closure
+    name_zh: 宋初为瀛州团练使，卒于治所
+    labels:
+      zh: 终老边任
+    start_date: 960
+  decisions:
+  - date: 953
+    title_zh: 率内外亲属及煮盐户七千余口航海归周
+    rationale: 弃契丹之职，举家南归以归于周
+  - date: 955
+    title_zh: 请于深州李晏口置砦并愿为主将
+    rationale: 对便殿陈备边之策，世宗悉从之
+  - date: 955
+    title_zh: 筑城李晏口，募得劲兵数千
+    rationale: 得便宜讨击之权，招募境上亡命以隶军
+events:
+- id: guji-张藏英-event-birth
+  type: birth
+  date: 893
+  year_of: 893
+  summary: 张藏英约生于893年，涿州范阳人，自称唐相张嘉贞之后。
+- id: guji-张藏英-event-family-massacre
+  type: career
+  date: 909
+  year_of: 909
+  summary: 唐末，举族为贼孙居道所害，藏英年十七仅以身免。
+- id: guji-张藏英-event-stab-market
+  type: career
+  date: 925
+  year_of: 925
+  summary: 逢孙居道于豳市场，引佩刀刺之不死，为吏所执，节帅赵德钧壮之释而不问。
+- id: guji-张藏英-event-revenge
+  type: career
+  date: 936
+  year_of: 936
+  summary: 佪阳关南擒孙居道，缚于父母灵位前鞭而脔其肉，刳心以祭，诣官首服获释，号报讐张孝子。
+- id: guji-张藏英-event-qidan-service
+  type: career
+  date: 930
+  year_of: 930
+  is_circa: true
+  summary: 契丹用张藏英为卢䑓军使兼榷盐制置使，领坊州刺史。
+- id: guji-张藏英-event-defect
+  type: career
+  date: 953
+  year_of: 953
+  summary: 后周广顺三年，率内外亲属及所部兵千余人、煮盐户七千余口、牛马万计、舟数百艘航海归周，至沧州为刺史李晖以闻。
+- id: guji-张藏英-event-defendant-prefect
+  type: career
+  date: 954
+  year_of: 954
+  summary: 世宗即位，授德州刺史，旋召归对便殿，询以备边之策。
+- id: guji-张藏英-event-fort-liyan
+  type: career
+  date: 955
+  year_of: 955
+  is_circa: true
+  summary: 领缘边招收都指挥使，筑城李晏口，累月募得劲兵数千人。
+- id: guji-张藏英-event-relief-wangyanchao
+  type: career
+  date: 955
+  year_of: 955
+  summary: 王彦超巡边为契丹所围，藏英率新募兵驰往击之，转战十余里，契丹解去。
+- id: guji-张藏英-event-defeat-gaomohan
+  type: career
+  date: 956
+  year_of: 956
+  is_circa: true
+  summary: 契丹将高牟翰以精骑数千扰边，藏英逆击于胡卢河北，自旦至晡杀伤甚众，契丹遁去。
+- id: guji-张藏英-event-defeat-yaoneibin
+  type: career
+  date: 958
+  year_of: 958
+  is_circa: true
+  summary: 巡乐寿时契丹骁将姚内斌以精骑二千列阵，藏英率麾下自辰及申殊死战，内斌解去，世宗降玺书褒美。
+- id: guji-张藏英-event-waqiao-vanguard
+  type: career
+  date: 959
+  year_of: 959
+  summary: 征瓦桥关，为先锋都指挥使，败契丹骑数百于关北，下固安县，改关南排阵使。
+- id: guji-张藏英-event-death
+  type: death
+  date: 962
+  year_of: 962
+  summary: 宋建隆三年，卒于瀛州治所，年六十九。
