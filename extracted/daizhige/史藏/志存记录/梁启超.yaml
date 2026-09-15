@@ -1,0 +1,134 @@
+person:
+  id: guji-liangqichao
+  name_zh: 梁启超
+  names:
+    zh: 梁启超
+    en: Liang Qichao
+  lifespan:
+    birth:
+      date: 1873-02-23
+      precision: day
+      is_circa: false
+      raw: 同治十二年正月二十六
+    death:
+      date: 1929-01-19
+      precision: day
+      is_circa: false
+      raw: 民国十八年
+  birth_date: 1873-02-23
+  death_date: 1929-01-19
+  era: 清末民初
+  reign_ref: 光绪
+  archetype: 维新运动宣传家与政论家
+  dilemmas:
+  - 追随康有为变法：既须借师门声势号召举人，又须独立开创舆论阵地以自立
+  - 上书屡被大臣压置：言路不通时，是继续伏阙陈情，还是转向报刊鼓吹
+  lesson: 当庙堂言路壅塞之时，开创报刊舆论亦可唤醒天下，变法之火由笔端而燃。
+  summary_first_person: 我乃康有为门下奔走号召之徒。乙未会试之际，闻中日议和索求过巨，我日夕奔走，连署上书论国事；其后于上海创《时务报》，以鼓吹变法为业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戊壬录
+endeavors:
+- id: guji-liangqichao-endeavor-1
+  name_zh: 公车上书连署号召
+  description: 乙未之春会试期间，闻中日议和，愤日本要索过巨，日夕奔走号召各省举人连署上书论国事。
+  phases:
+  - key: brewing
+    name_zh: 师从康有为
+    labels:
+      zh:
+      - 万木草堂受业
+      - 布衣上书之风
+    start_date: 1890
+  - key: breakthrough
+    name_zh: 连署上书
+    labels:
+      zh:
+      - 公车上书
+      - 都察院麇集
+    start_date: 1895-05
+    highlight_event_id: guji-liangqichao-event-gongche
+  - key: climax
+    name_zh: 松筠庵大议
+    labels:
+      zh:
+      - 千三百人合议
+      - 推康有为领袖
+    start_date: 1895-05
+  - key: closure
+    name_zh: 和议成公车散
+    labels:
+      zh:
+      - 拒和未成
+      - 转向舆论
+    start_date: 1895-06
+  decisions:
+  - date: 1895-05
+    title: 倡议连署上书拒和
+    rationale: 闻中日议和，日本要索过巨，愤而日夕奔走号召，广东湖南两省举人同日先上，他省从之。
+- id: guji-liangqichao-endeavor-2
+  name_zh: 创办时务报鼓吹变法
+  description: 康有为立强学会于北京、设分会于上海之后，梁启超于上海创《时务报》，以报刊鼓吹变法。
+  phases:
+  - key: brewing
+    name_zh: 强学会风潮之后
+    labels:
+      zh:
+      - 强学会立
+      - 望变法于政府甚难
+    start_date: 1895-09
+  - key: breakthrough
+    name_zh: 上海创时务报
+    labels:
+      zh:
+      - 报馆舆论
+      - 鼓吹变法
+    start_date: 1896-08
+    highlight_event_id: guji-liangqichao-event-shiwubao
+  - key: climax
+    name_zh: 主笔政名动天下
+    labels:
+      zh:
+      - 时务文体
+      - 士林争诵
+    start_date: 1896-08
+  - key: closure
+    name_zh: 舆论阵地既成
+    labels:
+      zh:
+      - 维新声势大张
+    start_date: 1898-06
+  decisions:
+  - date: 1896-08
+    title: 赴上海创办时务报
+    rationale: 康有为之师知望变法于政府甚难，乃退而立会办报；梁启超承其意于上海创报，以鼓吹变法。
+events:
+- id: guji-liangqichao-event-birth
+  event_type: birth
+  date: 1873-02-23
+  year_of: 1873
+  date_is_circa: false
+  title: 梁启超生于广东
+  description: 梁启超生于广东新会，后师从康有为，为其门下高足。
+- id: guji-liangqichao-event-gongche
+  event_type: endeavor
+  date: 1895-05
+  year_of: 1895
+  date_is_circa: true
+  title: 乙未公车上书连署号召
+  description: 会试期间闻中日议和，愤日本要索过巨，日夕奔走号召，各省举人连署麇集都察院，几无虚日，复合千三百人大议于松筠庵，上书大意一曰拒和，二曰迁都，三曰变法。
+  endeavor_id: guji-liangqichao-endeavor-1
+- id: guji-liangqichao-event-shiwubao
+  event_type: endeavor
+  date: 1896-08
+  year_of: 1896
+  date_is_circa: true
+  title: 于上海创《时务报》
+  description: 康有为主持强学会后，梁启超于上海创《时务报》，以鼓吹变法，为维新运动张目。
+  endeavor_id: guji-liangqichao-endeavor-2
+- id: guji-liangqichao-event-death
+  event_type: death
+  date: 1929-01-19
+  year_of: 1929
+  date_is_circa: false
+  title: 梁启超逝世
+  description: 维新宣传家、政论家梁启超卒，年五十有六。
