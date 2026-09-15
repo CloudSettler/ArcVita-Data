@@ -1,0 +1,103 @@
+person:
+  qid: guji-张彦远
+  names:
+    zh: 张彦远
+    en: Zhang Yanyuan
+  lifespan:
+    birth:
+      date: 0815
+      precision: year
+      is_circa: true
+      raw: 约815年（唐宪宗元和年间）
+    death:
+      date: 0877
+      precision: year
+      is_circa: true
+  birth_date: 0815
+  death_date: 0877
+  era: 唐
+  reign_ref: 唐宪宗至唐僖宗时期
+  summary_first_person: 我出身收藏世家，高祖河东公以来家传法书名画，惜经宪宗访求进献与长庆豳州散失，传家十无一二。我自幼习熟知见，虽竟不能学一字，然收藏鉴识有一日之长，遂采自古论书百篇勒为十卷，名《法书要录》，又撰《历代名画记》十卷，以为书画之事毕矣。
+  dilemmas:
+  - 家传珍迹屡遭进献散失，欲守先世收藏而不可得
+  - 自幼浸淫书画却自愧不能书一字，转而以撰录鉴识传世
+  lesson: 不能善书者亦可为书画之知音，编纂鉴识之功可传千古。
+endeavors:
+- id: guji-张彦远-endeavor-1
+  name_zh: 撰《法书要录》
+  phases:
+  - key: brewing
+    name_zh: 家学薰陶
+    labels:
+      zh: 幼习见闻
+    start_date: 0830
+    highlight_event_id: guji-张彦远-event-family
+  - key: breakthrough
+    name_zh: 采掇编次
+    labels:
+      zh: 辑录百篇
+    start_date: 0845
+    highlight_event_id: guji-张彦远-event-compilation
+  - key: climax
+    name_zh: 勒成十卷
+    labels:
+      zh: 成书法书要录
+    start_date: 0847
+    highlight_event_id: guji-张彦远-event-compilation
+  decisions:
+  - date: 0845
+    title_zh: 决意采掇自古论书百篇编为十卷
+    rationale: 自幼至长习熟知见，收藏鉴识有一日之长，遂以此传家学。
+- id: guji-张彦远-endeavor-2
+  name_zh: 撰《历代名画记》
+  phases:
+  - key: breakthrough
+    name_zh: 别撰画史
+    labels:
+      zh: 兼撰画记
+    start_date: 0847
+    highlight_event_id: guji-张彦远-event-painting-record
+  - key: climax
+    name_zh: 书画二书并成
+    labels:
+      zh: 书画之事毕矣
+    start_date: 0847
+    highlight_event_id: guji-张彦远-event-painting-record
+  decisions:
+  - date: 0847
+    title_zh: 于《法书要录》外别撰《历代名画记》
+    rationale: 意在书画兼备，使好事者得二书则书画之事毕矣。
+events:
+- id: guji-张彦远-event-birth
+  type: birth
+  date: 0815
+  year_of: 815
+  is_circa: true
+  summary: 张彦远约生于唐元和年间，出身河东张氏收藏世家。
+- id: guji-张彦远-event-death
+  type: death
+  date: 0877
+  year_of: 877
+  is_circa: true
+  summary: 张彦远约于唐乾符年间去世。
+- id: guji-张彦远-event-family
+  type: endeavor
+  endeavor_id: guji-张彦远-endeavor-1
+  date: 0830
+  year_of: 830
+  is_circa: true
+  summary: 自幼至长习熟知见家传法书名画；此前元和十三年（818）宪宗累访珍迹，家藏皆进献，长庆初又于豳州散失，传家十无一二。
+- id: guji-张彦远-event-compilation
+  type: endeavor
+  endeavor_id: guji-张彦远-endeavor-1
+  date: 0847
+  year_of: 847
+  is_circa: true
+  summary: 采掇自古论书凡百篇，勒为十卷，成《法书要录》，自序述家世收藏之始末。
+- id: guji-张彦远-event-painting-record
+  type: endeavor
+  endeavor_id: guji-张彦远-endeavor-2
+  date: 0847
+  year_of: 847
+  is_circa: true
+  summary: 别撰《历代名画记》十卷，与《法书要录》并称，谓得二书则书画之事毕矣。
