@@ -1,0 +1,123 @@
+person:
+  qid: guji-liuyan
+  name_zh: 刘晏
+  names:
+    zh: 刘晏
+    en: Liu Yan
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 唐
+  reign_ref: 乾元、至德年间（唐肃宗朝）
+  archetype: 理财名臣
+  dilemmas:
+  - 以利国之权，行爱民之政
+  - 官收盐而任商运，需兼顾国课与民食
+  lesson: 盐法利在整而不在散，官收商运可使国用民食两全
+  summary_first_person: 我于唐乾元间任转运使，改盐法置吏与亭户收盐转鬻，任商运之所之，岁获盐利至六百万缗，故言鹾政者首推于我。
+  source_urls:
+  - https://example.org/guji/huai-yan-ji-lue
+endeavors:
+- id: guji-liuyan-endeavor-1
+  name_zh: 变法理财
+  phases:
+  - key: brewing
+    name_zh: 受任转运
+    labels:
+      zh:
+      - 唐代宗时理财
+    start_date: 0758
+    highlight_event_id: guji-liuyan-event-appointment
+  - key: breakthrough
+    name_zh: 改革盐法
+    labels:
+      zh:
+      - 官收商运
+    start_date: 0758
+    highlight_event_id: guji-liuyan-event-salt-reform
+  - key: climax
+    name_zh: 盐利大兴
+    labels:
+      zh:
+      - 岁获盐利六百万缗
+    start_date: '0765'
+    highlight_event_id: guji-liuyan-event-revenue
+  - key: closure
+    name_zh: 鹾政垂范
+    labels:
+      zh:
+      - 后世言鹾政首推刘晏
+    start_date: 0780
+    highlight_event_id: guji-liuyan-event-legacy
+  decisions:
+  - date: 0758
+    title_zh: 变盐法，置盐院籍亭户
+    rationale: 就山海井灶近利之地设官收盐，免杂徭以安灶户，再任商人转运
+  - date: 0758
+    title_zh: 收盐转鬻，任商所之
+    rationale: 官府只收盐而听商自由运销，以平市价且广国课
+events:
+- id: guji-liuyan-event-birth
+  event_type: birth
+  person_qid: guji-liuyan
+  name_zh: 刘晏出生
+  date: ''
+  date_precision: unknown
+  year_of: ''
+  location_zh: ''
+  description: 生年不详，史书未载于本篇。
+- id: guji-liuyan-event-death
+  event_type: death
+  person_qid: guji-liuyan
+  name_zh: 刘晏去世
+  date: ''
+  date_precision: unknown
+  year_of: ''
+  location_zh: ''
+  description: 卒年不详，本篇未载。
+- id: guji-liuyan-event-appointment
+  event_type: endeavor
+  person_qid: guji-liuyan
+  name_zh: 任盐铁转运使
+  date: 0758
+  date_precision: year
+  year_of: 758
+  location_zh: 唐
+  description: 乾元初，朝廷起用刘晏主掌盐政漕运。
+- id: guji-liuyan-event-salt-reform
+  event_type: endeavor
+  person_qid: guji-liuyan
+  name_zh: 改革盐法创商运之制
+  date: '0760'
+  date_precision: circa_year
+  year_of: 760
+  location_zh: 唐
+  description: 至德年间（文中作至德十四年），刘晏为转运使，置吏及亭户，收盐转鬻，任商所之，此为商运之始。
+- id: guji-liuyan-event-revenue
+  event_type: endeavor
+  person_qid: guji-liuyan
+  name_zh: 岁获盐利六百万缗
+  date: '0765'
+  date_precision: circa_year
+  year_of: 765
+  location_zh: 唐
+  description: 盐法行后岁入大增，达六百万缗，以利国之权行爱民之政。
+- id: guji-liuyan-event-legacy
+  event_type: endeavor
+  person_qid: guji-liuyan
+  name_zh: 鹾政首推刘晏
+  date: 0780
+  date_precision: circa_year
+  year_of: 780
+  location_zh: 后世
+  description: 后世论榷盐之政，首推刘晏为商运之制之开创者。
