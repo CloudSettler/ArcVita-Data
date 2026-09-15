@@ -1,0 +1,113 @@
+person:
+  qid: guji-洪秀全
+  name_zh: 洪秀全
+  names:
+    zh: 洪秀全
+    en: Hong Xiuquan
+  lifespan:
+    birth:
+      date: '1814-01-01'
+      precision: year
+      is_circa: true
+      raw: 嘉庆年间
+    death:
+      date: '1864-06-01'
+      precision: month
+      is_circa: true
+      raw: 同治三年五月（约）
+  birth_date: '1814-01-01'
+  death_date: '1864-06-01'
+  era: 清末
+  reign_ref: 咸丰
+  archetype: 起義領袖
+  dilemmas:
+  - 以宗教形式動員底層民眾，與傳統秩序激烈衝突
+  - 長期圍攻堅城，兵糧與補給之困
+  lesson: 草根起事雖能席捲一時，然缺乏穩固治理，終難持久
+  summary_first_person: 我洪秀全以拜上帝會聚眾起義，稱太平王，咸豐二年率軍攻陷湖南道州、江華諸處，兵鋒直指武昌，連舟為浮橋，掘地道轟城，終破武昌。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=6127
+endeavors:
+- id: guji-洪秀全-endeavor-1
+  key: brewing
+  name_zh: 起兵建號
+  labels:
+  - 起義
+  - 太平天國
+  start_date: '1851-01-11'
+  highlight_event_id: guji-洪秀全-event-uprising
+  decisions:
+  - date: '1851-01-11'
+    title_zh: 金田起義
+    rationale: 會眾既聚，遂舉兵抗清
+- id: guji-洪秀全-endeavor-2
+  key: breakthrough
+  name_zh: 進攻兩湖與武昌
+  labels:
+  - 攻城
+  - 戰略擴張
+  start_date: '1852-05-01'
+  highlight_event_id: guji-洪秀全-event-wuchang-siege
+  decisions:
+  - date: '1852-12-04'
+    title_zh: 藉地道火藥轟塌文昌門
+    rationale: 昼夜圍攻未克，乃掘地道以破城
+  - date: '1852-12-29'
+    title_zh: 連舟為浮橋渡江
+    rationale: 江路阻隔，聚舟連橋以通兩岸兵馬
+  phases:
+  - key: brewing
+    name_zh: 攻湖南諸州
+    labels:
+    - 道州
+    - 江華
+    start_date: '1852-06-01'
+    highlight_event_id: guji-洪秀全-event-hunan-campaign
+  - key: breakthrough
+    name_zh: 圍攻武昌
+    labels:
+    - 武昌
+    - 地道攻城
+    start_date: '1852-12-13'
+    highlight_event_id: guji-洪秀全-event-wuchang-siege
+events:
+- id: guji-洪秀全-event-birth
+  date: '1814-01-01'
+  year_of: 1814
+  type: birth
+  title_zh: 洪秀全出生
+  description_zh: 洪秀全生於廣東花縣，日期約略。
+- id: guji-洪秀全-event-uprising
+  date: '1851-01-11'
+  year_of: 1851
+  type: endeavor
+  endeavor_id: guji-洪秀全-endeavor-1
+  title_zh: 金田起義
+  description_zh: 洪秀全於廣西金田村聚眾起事，建號太平天國。
+- id: guji-洪秀全-event-hunan-campaign
+  date: '1852-06-01'
+  year_of: 1852
+  type: endeavor
+  endeavor_id: guji-洪秀全-endeavor-2
+  title_zh: 攻陷道州、江華
+  description_zh: 咸豦二年五月，洪秀全攻陷湖南道州、江華等處，分遣賊黨散布偽示，武昌城內外所在多有之。
+- id: guji-洪秀全-event-wuchang-siege
+  date: '1852-12-13'
+  year_of: 1852
+  type: endeavor
+  endeavor_id: guji-洪秀全-endeavor-2
+  title_zh: 進圍武昌
+  description_zh: 賊大隊自陸路至，踞城東缽盂山、洪山、小龜山、紫金山，圍文昌、望山、保安、中和、賓陽、忠孝、武勝等門。
+- id: guji-洪秀全-event-wuchang-fall
+  date: '1853-01-12'
+  year_of: 1853
+  type: endeavor
+  endeavor_id: guji-洪秀全-endeavor-2
+  title_zh: 地道轟城，武昌陷落
+  description_zh: 咸豦二年十二月初四日黎旦，賊於文昌門地道以櫃盛火藥轟裂，城門頹二十餘丈，賊乘梯攻入，城遂陷。
+- id: guji-洪秀全-event-death
+  date: '1864-06-01'
+  year_of: 1864
+  type: death
+  title_zh: 洪秀全去世
+  description_zh: 天京陷落前夕，洪秀全病逝於南京，日期約略。
