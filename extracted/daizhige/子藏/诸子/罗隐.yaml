@@ -1,0 +1,133 @@
+person:
+  qid: guji-罗隐
+  name_zh: 罗隐
+  names:
+    zh: 罗隐
+    en: Luo Yin
+  lifespan:
+    birth:
+      date: 0833
+      precision: year
+      is_circa: true
+      raw: 约833年
+    death:
+      date: 0909
+      precision: year
+      is_circa: true
+      raw: 约909年
+  birth_date: 约833年
+  death_date: 约909年
+  era: 唐末五代
+  reign_ref: 唐末·吴越钱镠
+  archetype: 怀才不遇的务实文臣
+  dilemmas:
+  - 十次应举不第，是否坚持科举正途
+  - 朱温篡唐以谏议大夫相召，出仕新朝还是另投钱镠
+  lesson: 怀才不遇不可执于一名，转向可以施展所学的平台，亦可自成一家
+  summary_first_person: 我本名罗横，新城人，十次应试不中第，遂改名罗隐。朱温篡唐后以谏议大夫召我，我不应命，转而归吴越钱镠，先后任钱塘令、掌书记、节度判官、给事中等职。我撰有谗书、淮海寓言与两同书，两同书十篇上卷终以老氏之言、下卷终以孔子之言，会通儒道。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=两同书
+endeavors:
+- id: guji-罗隐-endeavor-1
+  name_zh: 屡试科举与改名
+  phases:
+  - key: brewing
+    name_zh: 应举不第
+    labels:
+      zh: 十举不中
+    start_date: 0859
+    highlight_event_id: guji-罗隐-event-guide
+  - key: breakthrough
+    name_zh: 改名罗隐
+    labels:
+      zh: 更名
+    start_date: 0869
+    highlight_event_id: guji-罗隐-event-rename
+  decisions:
+  - date: 0869
+    title_zh: 本名罗横，因十举不中第而更名罗隐
+    rationale: 屡试不第，愤而改名，转以著述讽世
+- id: guji-罗隐-endeavor-2
+  name_zh: 仕吴越钱镠
+  phases:
+  - key: breakthrough
+    name_zh: 出仕钱塘令
+    labels:
+      zh: 归钱镠
+    start_date: 0888
+    highlight_event_id: guji-罗隐-event-qiantang
+  - key: climax
+    name_zh: 幕府掌书记至给事中
+    labels:
+      zh: 掌书记·谏议
+    start_date: 0900
+    highlight_event_id: guji-罗隐-event-climax
+  - key: closure
+    name_zh: 著两同书终老吴越
+    labels:
+      zh: 著述终老
+    start_date: 0905
+    highlight_event_id: guji-罗隐-event-death
+  decisions:
+  - date: 0907
+    title_zh: 朱温篡唐以谏议大夫相召而不应
+    rationale: 不背唐出仕篡逆，选择效忠吴越地方政权
+- id: guji-罗隐-endeavor-3
+  name_zh: 撰《两同书》
+  phases:
+  - key: brewing
+    name_zh: 会通老氏孔子之言
+    labels:
+      zh: 杂学著述
+    start_date: 0900
+    highlight_event_id: guji-罗隐-event-book
+  - key: closure
+    name_zh: 十篇成书传世
+    labels:
+      zh: 成书
+    start_date: 0907
+    highlight_event_id: guji-罗隐-event-book
+  decisions:
+  - date: 0900
+    title_zh: 以老子修身之说为内、孔子治世之道为外撰两同书十篇
+    rationale: 会通儒道二家，故名两同，取晋人将无同之义
+events:
+- id: guji-罗隐-event-birth
+  date: 0833
+  year_of: 833
+  title_zh: 罗隐生于新城（约）
+- id: guji-罗隐-event-guide
+  date: 0859
+  year_of: 859
+  title_zh: 屡次应举不第
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-rename
+  date: 0869
+  year_of: 869
+  title_zh: 十举不中第，本名横更名隐
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-qiantang
+  date: 0888
+  year_of: 888
+  title_zh: 归钱镠，为钱塘令
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-climax
+  date: 0900
+  year_of: 900
+  title_zh: 任镇海军掌书记、节度判官、盐铁发运副使，迁谏议大夫、给事中
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-decline
+  date: 0907
+  year_of: 907
+  title_zh: 朱温篡唐，以谏议大夫相召，罗隐不应
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-book
+  date: 0907
+  year_of: 907
+  title_zh: 依托著作佐郎、司勋郎中之职撰成两同书十篇
+  person_ref: guji-罗隐
+- id: guji-罗隐-event-death
+  date: 0909
+  year_of: 909
+  title_zh: 罗隐卒于吴越（约）
+  person_ref: guji-罗隐
