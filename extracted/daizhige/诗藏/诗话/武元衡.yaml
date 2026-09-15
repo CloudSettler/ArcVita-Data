@@ -1,0 +1,146 @@
+person:
+  qid: guji-武元衡
+  name_zh: 武元衡
+  names:
+    zh: 武元衡
+    en: Wu Yuanheng
+  lifespan:
+    birth:
+      date: 0758
+      precision: year
+      is_circa: true
+      raw: 唐代的758年（约）
+    death:
+      date: 0815-06
+      precision: month
+      is_circa: false
+      raw: 元和十年六月遇刺身亡
+  birth_date: 0758
+  death_date: 0815-06
+  era: 唐
+  reign_ref: 唐宪宗元和年间
+  archetype: 宰相诗人
+  dilemmas:
+  - 身为宰相主持讨伐淮西藩镇，遭藩镇仇视，最终遇刺于上朝途中
+  - 诗风清丽为时人所重，却被列入张为《诗人主客图》所标六主之列
+  lesson: 秉公执政虽以身殉，诗名与气节并传后世
+  summary_first_person: 我武元衡，唐代宰相，亦以诗著称。宪宗朝佐主讨伐不臣藩镇，决意不挠，元和十年六月于靖安里遇刺身亡。张为《诗人主客图》以我标为一派之主，与我并峙者白居易、孟云卿、李益、鲍溶、孟郊诸人。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/武元衡
+endeavors:
+- id: guji-武元衡-endeavor-1
+  name_zh: 仕宦为相
+  phases:
+  - key: brewing
+    name_zh: 进士入仕
+    labels:
+      zh:
+      - 进士及第
+      - 历官台省
+    start_date: 0783
+    highlight_event_id: guji-武元衡-event-jinshi
+  - key: breakthrough
+    name_zh: 入相辅政
+    labels:
+      zh:
+      - 拜相
+      - 佐宪宗
+    start_date: 0807
+    highlight_event_id: guji-武元衡-event-xiangxiang
+  - key: climax
+    name_zh: 力主讨藩
+    labels:
+      zh:
+      - 平淮西之议
+    start_date: 0814
+    highlight_event_id: guji-武元衡-event-taofan
+  - key: closure
+    name_zh: 遇刺殉国
+    labels:
+      zh:
+      - 靖安里之变
+    start_date: 0815-06
+    highlight_event_id: guji-武元衡-event-death
+  decisions:
+  - date: 0814
+    title_zh: 坚持讨伐淮西吴元济
+    rationale: 以藩镇跋扈为国之大患，力主以兵威正朝廷纲纪
+  - date: 0815-06
+    title_zh: 不因恐吓辍朝
+    rationale: 御史中丞裴度遇袭击后仍照例上朝，不向藩镇刺客低头
+- id: guji-武元衡-endeavor-2
+  name_zh: 诗歌创作与诗坛地位
+  phases:
+  - key: brewing
+    name_zh: 工诗清丽
+    labels:
+      zh:
+      - 五言律诗见长
+    start_date: 0780
+  - key: breakthrough
+    name_zh: 与诸诗人唱和
+    labels:
+      zh:
+      - 与裴度、刘禹锡等交游唱和
+    start_date: 0800
+  - key: closure
+    name_zh: 列为主客图之主
+    labels:
+      zh:
+      - 广大教化一脉标目之主
+    start_date: 0850
+    highlight_event_id: guji-武元衡-event-zhuke
+  decisions:
+  - date: 0850
+    title_zh: 被《诗人主客图》标为一主
+    rationale: 张为论唐诗派，以武元衡与白居易等六人皆有标目，为一图之主
+events:
+- id: guji-武元衡-event-birth
+  date: 0758
+  year_of: 758
+  title_zh: 出生
+  description: 武元衡生，字伯苍，缑山人，唐代诗人、宰相。
+  endeavor_refs:
+  - guji-武元衡-endeavor-1
+- id: guji-武元衡-event-jinshi
+  date: 0783
+  year_of: 783
+  title_zh: 进士及第
+  description: 武元衡登进士第，步入仕途，历任监察御史、华原县令等职。
+  endeavor_refs:
+  - guji-武元衡-endeavor-1
+- id: guji-武元衡-event-xiangxiang
+  date: 0807
+  year_of: 807
+  title_zh: 拜相辅政
+  description: 元和二年武元衡拜门下侍郎、平章事，辅佐宪宗。
+  endeavor_refs:
+  - guji-武元衡-endeavor-1
+- id: guji-武元衡-event-taofan
+  date: 0814
+  year_of: 814
+  title_zh: 力主讨伐淮西
+  description: 淮西吴元济叛，武元衡居相位力主用兵讨伐，为藩镇所忌恨。
+  endeavor_refs:
+  - guji-武元衡-endeavor-1
+- id: guji-武元衡-event-death
+  date: 0815-06
+  year_of: 815
+  title_zh: 遇刺身亡
+  description: 元和十年六月，武元衡于上朝途中在靖安里遇刺身亡，天下震撼。
+  endeavor_refs:
+  - guji-武元衡-endeavor-1
+- id: guji-武元衡-event-poetry
+  date: 0800
+  year_of: 800
+  title_zh: 以诗鸣世
+  description: 其诗工于五律，情深词丽，与朝士唱和有名于时。
+  endeavor_refs:
+  - guji-武元衡-endeavor-2
+- id: guji-武元衡-event-zhuke
+  date: 0850
+  year_of: 850
+  title_zh: 列入《诗人主客图》
+  description: 唐张为撰《诗人主客图》一卷，武元衡与白居易、孟云卿、李益、鲍溶、孟郊并标为主。
+  endeavor_refs:
+  - guji-武元衡-endeavor-2
