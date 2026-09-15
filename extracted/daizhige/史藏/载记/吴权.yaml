@@ -1,0 +1,114 @@
+person:
+  qid: guji-吴权
+  name_zh: 吴权
+  names:
+    zh: 吴权
+    en: Ngo Quyen
+  lifespan:
+    birth:
+      date: 0893
+      precision: year
+      is_circa: true
+      raw: 生年不详，约唐末
+    death:
+      date: 0944
+      precision: year
+      is_circa: false
+      raw: 卒于五代后晋开运初
+  birth_date: 0893
+  death_date: 0944
+  era: 五代十国时期
+  reign_ref: 自立为王，据交州
+  archetype: 割据开国之君
+  dilemmas:
+  - 面对南汉强邻，是称臣纳贡还是举兵自立
+  - 白藤江之战前，须以诱敌深入之险策破优势水师
+  lesson: 以弱胜强须依地利与谋略，白藤设伏遂开安南自主之局
+  summary_first_person: 我本杨廷艺之将，因地制宜，于白藤江设伏竖桩，大破南汉水军，遂据交州自立为王，虽在位短暂，然为安南脱离中国郡县、走向自主之始。
+  source_urls:
+  - https://zh.wikisource.org/wiki/越史略
+endeavors:
+- id: guji-吴权-endeavor-1
+  name_zh: 起兵抗南汉
+  phases:
+  - key: brewing
+    name_zh: 蓄势交州
+    labels:
+      zh:
+      - 割据
+      - 兵变
+    start_date: 0937
+    highlight_event_id: guji-吴权-event-1
+  - key: breakthrough
+    name_zh: 白藤江大捷
+    labels:
+      zh:
+      - 以弱胜强
+      - 水战
+    start_date: 0938
+    highlight_event_id: guji-吴权-event-2
+  - key: climax
+    name_zh: 称王建政
+    labels:
+      zh:
+      - 自立
+      - 建制
+    start_date: 0939
+    highlight_event_id: guji-吴权-event-3
+  - key: closure
+    name_zh: 卒于王位
+    labels:
+      zh:
+      - 病卒
+    start_date: 0944
+    highlight_event_id: guji-吴权-event-death
+  decisions:
+  - date: 0938
+    title_zh: 白藤江沉桩设伏
+    rationale: 知南汉水军势大，遂于江中植铁桩，潮退时陷敌舟，以地利破之
+  - date: 0939
+    title_zh: 自立为王，都古螺
+    rationale: 既败南汉，境内无人可制，遂称王，置百官，定都邑
+events:
+- id: guji-吴权-event-birth
+  person_id: guji-吴权
+  type: birth
+  date: 0893
+  year_of: 893
+  date_precision: year
+  summary: 吴权生，约当唐末，交州爱州人。
+- id: guji-吴权-event-1
+  person_id: guji-吴权
+  type: endeavor
+  date: 0937
+  year_of: 937
+  date_precision: year
+  summary: 交州矫公羡杀杨廷艺自立，吴权时为廷艺旧将，愤而起兵讨伐，谋取州治。
+- id: guji-吴权-event-2
+  person_id: guji-吴权
+  type: endeavor
+  date: 0938
+  year_of: 938
+  date_precision: year
+  summary: 南汉主遣刘弘操率舟师来救公羡，吴权于白藤江口植大杙、设伏诱敌，乘潮退以舟师攻之，弘操败死，南汉军大溃。
+- id: guji-吴权-event-3
+  person_id: guji-吴权
+  type: endeavor
+  date: 0939
+  year_of: 939
+  date_precision: year
+  summary: 白藤捷后，吴权称王，置百官、定朝仪，都于古螺，安南始自立为国。
+- id: guji-吴权-event-4
+  person_id: guji-吴权
+  type: endeavor
+  date: 0940
+  year_of: 940
+  date_precision: year
+  summary: 权遣使通好南汉，以外交固自立之局，南汉终不复南侵。
+- id: guji-吴权-event-death
+  person_id: guji-吴权
+  type: death
+  date: 0944
+  year_of: 944
+  date_precision: year
+  summary: 吴权卒于王位，在位六年，杨后兄弟争继，其子昌岌昌文后相继立。

@@ -1,0 +1,109 @@
+person:
+  qid: guji-征侧
+  name_zh: 征侧
+  names:
+    zh: 征侧
+    en: Zheng Ce
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      date: 43
+      precision: year
+      is_circa: false
+      raw: 建武十九年
+  birth_date: ''
+  death_date: 43
+  era: 东汉
+  reign_ref: 光武帝建武年间
+  archetype: 起义领袖
+  dilemmas:
+  - 身为雒将之女、土官之妻，面对太守苏定「绳之以法」，是隐忍还是举兵反抗
+  - 起兵略定六十五城、自立为王后，还要面对汉朝大军压境的存亡抉择
+  lesson: 一介女子因怨愤而举兵，能席卷六十五城、称王一方，可见民心向背与边吏苛政之力量；然无持久之备，终难敌帝国之师。
+  summary_first_person: 我是麊泠县人征侧，雒将之女，嫁与诗索。太守苏定以法绳我，我愤而起兵，与妹征贰举峰州之众，九真、日南皆应，略定南外六十五城，自立为王，都麊泠。建武十七年，汉拜马援为伏波将军来击，十八年战于浪泊，我不敌退保禁溪，十九年困极出走，为马援所杀。汉人遂立铜柱为界，分封溪、望海二县。
+endeavors:
+- id: guji-征侧-endeavor-1
+  name_zh: 起兵反抗苏定
+  phases:
+  - key: brewing
+    name_zh: 怨愤蓄势
+    labels:
+      zh:
+      - 雒将之女
+      - 诗索之妻
+      - 遭太守苏定绳法
+    start_date: 40
+    highlight_event_id: guji-征侧-event-revolt
+  - key: breakthrough
+    name_zh: 攻陷郡县
+    labels:
+      zh:
+      - 举峰州兵
+      - 九真日南响应
+      - 略定六十五城
+    start_date: 40
+    highlight_event_id: guji-征侧-event-revolt
+  - key: climax
+    name_zh: 自立为王
+    labels:
+      zh:
+      - 自立为王
+      - 都麊泠
+    start_date: 40
+    highlight_event_id: guji-征侧-event-revolt
+  - key: closure
+    name_zh: 兵败亡身
+    labels:
+      zh:
+      - 马援征讨
+      - 浪泊战败
+      - 禁溪困守
+    start_date: 41
+    highlight_event_id: guji-征侧-event-death
+  decisions:
+  - date: 40
+    title_zh: 与妹征贰起峰州兵
+    rationale: 太守苏定绳之以法，侧怒，遂举兵攻陷郡县以报复边吏
+  - date: 40
+    title_zh: 自立为王，都麊泠
+    rationale: 略定汉南外六十五城，乃据首县建号称王
+events:
+- id: guji-征侧-event-birth
+  date: ''
+  year_of: 40
+  type: birth
+  title_zh: 出生
+  detail_zh: 生于麊泠县，雒将之女（出生年不详，此以兴兵之年为纪）
+  participants:
+  - guji-征侧
+- id: guji-征侧-event-revolt
+  date: 40
+  year_of: 40
+  type: endeavor
+  title_zh: 起兵陷郡县，自立为王
+  detail_zh: 建武十六年，与其妹征贰起峰州兵，攻陷郡县，九真日南皆应，略定汉南外六十五城，自立为王，都麊泠
+  participants:
+  - guji-征侧
+  - 征贰
+- id: guji-征侧-event-defeat
+  date: 42
+  year_of: 42
+  type: endeavor
+  title_zh: 浪泊战败于马援
+  detail_zh: 汉拜马援为伏波将军，缘海而进，随山刋道千余里，至浪泊与侧战，侧不能支，退保禁溪
+  participants:
+  - guji-征侧
+  - 马援
+- id: guji-征侧-event-death
+  date: 43
+  year_of: 43
+  type: death
+  title_zh: 为马援所杀
+  detail_zh: 建武十九年，侧益困出走，为马援所杀；汉追击余党，立铜柱为界，分其地为封溪、望海二县
+  participants:
+  - guji-征侧
+  - 马援
