@@ -1,0 +1,192 @@
+person:
+  qid: guji-薛包
+  name_zh: 薛包
+  names:
+    zh: 薛包、薛孟尝
+    en: Xue Bao
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 东汉安帝前后
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 建光年间后
+  birth_date: ''
+  death_date: ''
+  era: 东汉
+  reign_ref: 汉安帝建光年间（121–122）
+  archetype: 孝友让财之士
+  dilemmas:
+  - 父听后妻之谮憎恨驱逐，孝亲与保全自身相冲突
+  - 弟子求分财异居，让产与保家业相冲突
+  - 朝廷特征拜侍中，仕宦与恬虚隐退相冲突
+  lesson: 至孝感亲，让财成德；宠辱不惊，恬退自守。
+  summary_first_person: 我薛包好学笃行，母丧以孝闻。父为后妻所惑而逐我，我泣不忍去，被殴杖后乃庐于舍外、里门，晨昏洒扫省视不废，积岁余父母惭而迎还。服丧六年哀逾常制。后与弟子分财，我取老弱奴婢、荒顿田庐、朽败器物，弟子破产我复赈给。建光中被特征拜侍中，我性恬虚，称疾以死自乞，蒙诏赐告归。
+endeavors:
+- id: guji-薛包-endeavor-1
+  name_zh: 孝行感亲
+  phases:
+  - key: brewing
+    name_zh: 丧母至孝
+    labels:
+      zh: 孝闻乡里
+    start_date: ''
+  - key: climax
+    name_zh: 被逐庐养
+    labels:
+      zh: 号泣不离、庐舍外里门
+    start_date: ''
+    highlight_event_id: guji-薛包-event-exile
+  - key: closure
+    name_zh: 父母惭还
+    labels:
+      zh: 积岁而归、服丧六年
+    start_date: ''
+    highlight_event_id: guji-薛包-event-return
+  decisions:
+  - date: ''
+    title_zh: 庐于舍外、里门，晨昏洒扫不废
+    rationale: 父怒屡逐，不得已而退居，然孝心不肯远离
+- id: guji-薛包-endeavor-2
+  name_zh: 让产赈济
+  phases:
+  - key: brewing
+    name_zh: 弟子求分财
+    labels:
+      zh: 中分其财
+    start_date: ''
+    highlight_event_id: guji-薛包-event-divide
+  - key: climax
+    name_zh: 取其朽败
+    labels:
+      zh: 引老奴、取荒田败器
+    start_date: ''
+    highlight_event_id: guji-薛包-event-divide
+  - key: closure
+    name_zh: 赈还破产
+    labels:
+      zh: 弟子数破其产，还复赈给
+    start_date: ''
+    highlight_event_id: guji-薛包-event-aid
+  decisions:
+  - date: ''
+    title_zh: 分财时略显其让
+    rationale: 与弟子共事久者不忍使，荒顿田庐为少时所恋，身口所安者乃旧器，皆自托于情以成让德
+- id: guji-薛包-endeavor-3
+  name_zh: 征召辞官
+  phases:
+  - key: brewing
+    name_zh: 公车特征
+    labels:
+      zh: 建光中征至
+    start_date: ''
+    highlight_event_id: guji-薛包-event-summon
+  - key: climax
+    name_zh: 拜侍中
+    labels:
+      zh: 朝廷嘉孝行
+    start_date: ''
+    highlight_event_id: guji-薛包-event-officer
+  - key: closure
+    name_zh: 称疾告归
+    labels:
+      zh: 以死自乞、诏赐告归
+    start_date: ''
+    highlight_event_id: guji-薛包-event-retire
+  decisions:
+  - date: ''
+    title_zh: 称疾不起，以死自乞
+    rationale: 性恬虚，不慕荣宦，愿归养余生
+events:
+- id: guji-薛包-event-birth
+  date: ''
+  year_of: 0
+  type: 出生
+  description: 薛包生于汝南，字孟尝，好学笃行。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-mother-death
+  date: ''
+  year_of: -20
+  type: 丧亲
+  description: 丧母，以至孝闻。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-exile
+  date: ''
+  year_of: 0
+  type: 家庭变故
+  description: 父娶后妻而憎包，分出之；包日夜号泣不去，至被殴杖，不得已庐于舍外。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-lumen
+  date: ''
+  year_of: 1
+  type: 家事省视
+  description: 父怒又逐之，乃庐于里门，昏晨不废洒扫省视。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-return
+  date: ''
+  year_of: 2
+  type: 和解
+  description: 积岁余，父母惭而还之，复与同居；后行六年服，丧过乎哀。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-divide
+  date: ''
+  year_of: 8
+  type: 分财
+  description: 弟子求分财异居，包中分其财：奴婢引其老者，田庐取其荒顿者，器物取其朽败者。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-aid
+  date: ''
+  year_of: 10
+  type: 赈济
+  description: 弟子数破其产，包还复赈给。
+  participants:
+  - guji-薛包
+  place: 汝南
+- id: guji-薛包-event-summon
+  date: 121
+  year_of: 121
+  type: 征召
+  description: 建光中，公车特征至。
+  participants:
+  - guji-薛包
+  place: 洛阳
+- id: guji-薛包-event-officer
+  date: 121
+  year_of: 121
+  type: 授官
+  description: 至京拜侍中。
+  participants:
+  - guji-薛包
+  place: 洛阳
+- id: guji-薛包-event-retire
+  date: 122
+  year_of: 122
+  type: 辞官
+  description: 包性恬虚，称疾不起，以死自乞，有诏赐告归。
+  participants:
+  - guji-薛包
+  place: 洛阳
+- id: guji-薛包-event-death
+  date: ''
+  year_of: 124
+  type: 去世
+  description: 卒年不详，以孝德终于家。
+  participants:
+  - guji-薛包
+  place: 汝南
