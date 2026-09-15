@@ -1,0 +1,111 @@
+person:
+  qid: guji-吕望
+  name_zh: 吕望
+  names:
+    zh: 吕望
+    en: Lü Wang
+  lifespan:
+    birth:
+      date: '-1150'
+      precision: year
+      is_circa: true
+      raw: 约商末（trad. approx.）
+    death:
+      date: '-1015'
+      precision: year
+      is_circa: true
+  birth_date: '-1150'
+  death_date: '-1015'
+  era: 商末周初
+  reign_ref: 西伯昌／周文王、周武王
+  archetype: 无为而兼济的隐士谋臣
+  dilemmas:
+  - 独善其身（钓于渭滨、持无为）与拯民救世的兼济之志
+  - 无为之德与出仕辅佐有为之王（文王"有为"之业）
+  lesson: 可藏则藏，可行则行；应物立事而旷乎无情
+  summary_first_person: 我吕望钓于渭滨，守无为之德。文王畋猎得我，载我同归；知其实忧于生民，遂率之兴周，为帝王之师。
+  source_urls:
+  - 无能子·文王说第一
+endeavors:
+- id: guji-吕望-endeavor-1
+  name_zh: 渭滨之钓与归周
+  phases:
+  - key: brewing
+    name_zh: 隐钓渭滨
+    labels:
+      zh: 无为自守
+    start_date: '-1160'
+  - key: breakthrough
+    name_zh: 西伯遇望
+    labels:
+      zh: 出仕归周
+    start_date: '-1150'
+    highlight_event_id: guji-吕望-event-meet
+  - key: climax
+    name_zh: 率与兴周
+    labels:
+      zh: 辅周建业
+    start_date: '-1140'
+    highlight_event_id: guji-吕望-event-help-zhou
+  - key: closure
+    name_zh: 佐武王伐纣
+    labels:
+      zh: 兼济天下
+    start_date: '-1100'
+    highlight_event_id: guji-吕望-event-wu-wang
+  decisions:
+  - date: '-1150'
+    title_zh: 许西伯同载而归
+    rationale: 殷政自荒、生民自荼，然城郭屋舍已成不必坏、生民已形不必杀，予将拯之矣
+  - date: '-1140'
+    title_zh: 率与西伯兴周
+    rationale: 闻西伯实于忧民，不利于得殷天下
+events:
+- id: guji-吕望-event-birth
+  event_type: birth
+  date: -1150-01-01
+  year_of: '-1150'
+  title_zh: 吕望约生于商末
+  description: 生当殷政荒乱之世，隐于渭滨为渔者。
+  participants:
+  - guji-吕望
+  location: 渭滨
+- id: guji-吕望-event-meet
+  event_type: career
+  date: -1150-01-01
+  year_of: '-1150'
+  title_zh: 渭滨遇西伯，箕踞笑答，许同载而归
+  description: 西伯将畋，筮得"非熊非罴，天遗尔师"，遂得望；望垂钓不辍，笑问其来，见其忧民，乃许同载而归。
+  participants:
+  - guji-吕望
+  - guji-周文王
+  location: 渭滨
+- id: guji-吕望-event-help-zhou
+  event_type: career
+  date: -1140-01-01
+  year_of: '-1140'
+  title_zh: 率与之兴周
+  description: 吕望知西伯实于忧民、不利于得殷天下，于是率与之兴周。
+  participants:
+  - guji-吕望
+  - guji-周文王
+  location: 周
+- id: guji-吕望-event-wu-wang
+  event_type: career
+  date: -1046-01-01
+  year_of: '-1046'
+  title_zh: 周革殷命、武王伐纣
+  description: 文王殁后，武王伐纣灭殷，吕望为兴周之业所辅之师。
+  participants:
+  - guji-吕望
+  - guji-周武王
+  location: 殷都
+- id: guji-吕望-event-death
+  event_type: death
+  date: -1015-01-01
+  year_of: '-1015'
+  title_zh: 吕望约卒
+  description: 辅佐文王、武王兴周灭殷，功成而为周之师。
+  participants:
+  - guji-吕望
+  location: 周
