@@ -1,0 +1,182 @@
+person:
+  qid: guji-张玉
+  name_zh: 张玉
+  names:
+    zh: 张玉
+    en: Zhang Yu
+  lifespan:
+    birth:
+      date: '-1343'
+      precision: circa
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: '1400-12-26'
+      precision: day
+      is_circa: false
+      raw: 建文二年十二月二十六日（东昌之战阵殁）
+  birth_date: '-1343'
+  death_date: '1400-12-26'
+  era: 明初
+  reign_ref: 明太祖洪武／明太宗（燕王）靖难起兵时期
+  archetype: 靖难第一功臣、燕军帷幄统帅
+  dilemmas:
+  - 君臣伦理：朝廷削藩加兵亲藩，燕王起兵名分为“靖难”，张玉须抉择死忠建文还是辅佐燕王
+  - 小挫与大局：小河之败诸将请旋师，而张玉力主以宗社为重、整兵前进（此处叙述重在朱能与燕王，张玉本人以谋略决进止）
+  - 忠烈抉择：东昌之战不知燕王所在，突入敌阵力战被创而殁
+  lesson: 谋定而后动、以得人心为本；临危不夺其志，虽殒身而功业垂于青史
+  summary_first_person: 我本洪武旧将，累从征伐至黑松林、野人处，官至北平都指挥同知。建文初朝廷加兵亲藩，燕王举靖难之师，帷幄谋画悉以委我。我先定北平九门，取蓟州、遵化、密云、永平，献计擒潘忠、杨松于漠州，真定一役识耿炳文军无纪律而大破之，又请先袭大宁、捣李景隆之营，白沟河以逸待劳再破其百万之众，乘胜围济南、克沧州。东昌决战时燕王被围数匝，我突入敌阵求解，杀百数十人，被创而殁于十二月二十六日。后追封都督同知，再追封河间忠武王，imy子孙张辅亦以功封信安伯、进成国公。
+  source_urls:
+  - https://example.org/guji/jingnan-gongchen-lu
+endeavors:
+- id: guji-张玉-endeavor-1
+  name_zh: 洪武宿将·北疆征战
+  phases:
+  - key: brewing
+    name_zh: 平燕山护卫起家
+    labels:
+      zh: 累功迁擢
+    start_date: '1390'
+    highlight_event_id: guji-张玉-event-appointment
+  - key: breakthrough
+    name_zh: 黑松林大漠追虏
+    labels:
+      zh: 骁勇宿将
+    start_date: '1393'
+    highlight_event_id: guji-张玉-event-heisonglin
+  decisions:
+  - date: '1394'
+    title_zh: 从征野人处、升北平都指挥同知
+    rationale: 北疆屡立战功，遂为燕藩倚重的宿将
+- id: guji-张玉-endeavor-2
+  name_zh: 靖难帷幄首谋
+  phases:
+  - key: breakthrough
+    name_zh: 夺九门定北平
+    labels:
+      zh: 帷幄首功
+    start_date: 1399-07
+    highlight_event_id: guji-张玉-event-beiping-nine-gates
+  - key: climax
+    name_zh: 白沟河大捷与攻略山东
+    labels:
+      zh: 破炳文、败景隆
+    start_date: 1400-04
+    highlight_event_id: guji-张玉-event-baigouhe
+  - key: closure
+    name_zh: 东昌力战殉身
+    labels:
+      zh: 追封河间忠武王
+    start_date: 1400-12
+    highlight_event_id: guji-张玉-event-dongchang-death
+  decisions:
+  - date: 1399-07
+    title_zh: 首用己策夺北平九门
+    rationale: 事急之时正色决可否，先定根本再图南下
+  - date: '1399'
+    title_zh: 先讨蓟州马宣
+    rationale: “不先定蓟州将为后患，蓟平余不足平”
+  - date: 1399-09
+    title_zh: 献计先擒漠州潘忠、杨松
+    rationale: 敌阨吾南路，宜先擒之
+  - date: 1399-09
+    title_zh: 力主径趋真定破耿炳文
+    rationale: “彼虽众然新集未齐，我军乘胜可一鼓破之”
+  - date: '1399'
+    title_zh: 请移军袭大宁、先攻景隆营再归援
+    rationale: 免后顾之忧；径捣其营与城中内外夹击
+  - date: '1400'
+    title_zh: 驰驻白沟河以逸待劳
+    rationale: “兵贵神速，先事者胜”
+events:
+- id: guji-张玉-event-birth
+  date: '-1343'
+  year_of: -1343
+  title_zh: 张玉出生（生年不详，约推定）
+  event_type: birth
+  principal: guji-张玉
+  place: 不详
+- id: guji-张玉-event-appointment
+  date: '1390'
+  year_of: 1390
+  title_zh: 洪武末调燕山右护卫指挥佥事
+  event_type: appointment
+  principal: guji-张玉
+  place: 北平
+- id: guji-张玉-event-heisonglin
+  date: '1393'
+  year_of: 1393
+  title_zh: 癸酉追虏至黑松林
+  event_type: military-campaign
+  principal: guji-张玉
+  place: 黑松林
+- id: guji-张玉-event-yeeren
+  date: '1394'
+  year_of: 1394
+  title_zh: 甲戌征野人处，升北平都指挥同知
+  event_type: promotion
+  principal: guji-张玉
+  place: 北疆
+- id: guji-张玉-event-beiping-nine-gates
+  date: 1399-07
+  year_of: 1399
+  title_zh: 靖难师起，帷幄谋画委玉，首用王策夺北平九门，三日城内外悉定
+  event_type: military-campaign
+  principal: guji-张玉
+  place: 北平
+- id: guji-张玉-event-jizhou
+  date: '1399'
+  year_of: 1399
+  title_zh: 讨蓟州执杀马宣，夜摧遵化、抚军民，移师永平密云望风输款
+  event_type: military-campaign
+  principal: guji-张玉
+  place: 蓟州、遵化、永平、密云
+- id: guji-张玉-event-mozhou
+  date: 1399-08~09
+  year_of: 1399
+  title_zh: 献计先发，取涿州雄县，生擒漠州潘忠、杨松
+  event_type: military-campaign
+  principal: guji-张玉
+  place: 漠州
+- id: guji-张玉-event-zhending
+  date: '1399'
+  year_of: 1399
+  title_zh: 觇耿炳文军无纪律，力主径趋真定，大破之，斩首三万余级
+  event_type: battle
+  principal: guji-张玉
+  place: 真定
+- id: guji-张玉-event-daning-jinglong
+  date: 1399-10~12
+  year_of: 1399
+  title_zh: 袭大宁拔城；旋师请先攻李景隆营，郑村坝大战三日内外夹攻，景隆大败遁去
+  event_type: battle
+  principal: guji-张玉
+  place: 大宁、北平
+- id: guji-张玉-event-baigouhe
+  date: 1400-04
+  year_of: 1400
+  title_zh: 驰驻白沟河以逸待劳，大破李景隆号称百万之众，乘胜围济南
+  event_type: battle
+  principal: guji-张玉
+  place: 白沟河
+- id: guji-张玉-event-cangzhou
+  date: 1400-10
+  year_of: 1400
+  title_zh: 还攻沧州获大将徐凯，进攻东昌
+  event_type: military-campaign
+  principal: guji-张玉
+  place: 沧州
+- id: guji-张玉-event-dongchang-death
+  date: '1400-12-26'
+  year_of: 1400
+  title_zh: 东昌决战，燕王被围数匝，张玉突入敌阵力战，连杀百数十人，被创而殁
+  event_type: death
+  principal: guji-张玉
+  place: 东昌
+- id: guji-张玉-event-posthumous
+  date: '1400'
+  year_of: 1400
+  title_zh: 追封都督同知，后追封河间忠武王（复追封英国公，谥忠显/忠武）
+  event_type: posthumous-honor
+  principal: guji-张玉
+  place: 京师
