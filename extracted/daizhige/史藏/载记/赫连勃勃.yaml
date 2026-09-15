@@ -1,0 +1,166 @@
+person:
+  qid: guji-赫连勃勃
+  name_zh: 赫连勃勃
+  names:
+    zh: 赫连勃勃
+    en: Helian Bobo
+  lifespan:
+    birth:
+      date: '381'
+      precision: year
+      is_circa: true
+      raw: 约公元381年
+    death:
+      date: '425'
+      precision: year
+      is_circa: false
+      raw: 公元425年
+  birth_date: '381'
+  death_date: '425'
+  era: 十六国时期
+  reign_ref: 大夏天王（407年僭称）
+  archetype: 叛主立国之枭雄
+  dilemmas:
+  - 依附后秦得以掌兵，却因姚兴与北魏通好而决意叛秦自立，忠义与雄图相冲突
+  - 屡以游击掠战立足岭北，需在削夺后秦边镇与避免决战之间权衡
+  lesson: 乘势而起者，须以兵威与权谲并济；然弑主背盟之业，终以暴立而难以久安。
+  summary_first_person: 我本匈奴铁弗之裔，为后秦安北将军，因姚兴与魏通好而愤然诛高平公没奕干，收其众数万，改姓赫连，僭称大夏天王。此后我转战岭北，袭破齐难、逼死姚详、屡掠平凉陇右，又于龙尾堡之战遭挫而复振，终使后秦疲于奔命，为日后大夏立国奠定基业。
+endeavors:
+- id: guji-赫连勃勃-endeavor-1
+  name_zh: 叛秦立国
+  phases:
+  - key: brewing
+    name_zh: 忿而谋叛
+    labels:
+      zh:
+      - 忿秦通魏
+      - 诛没奕干
+    start_date: '406'
+    highlight_event_id: guji-赫连勃勃-event-rebel
+  - key: breakthrough
+    name_zh: 改姓称制
+    labels:
+      zh:
+      - 改姓赫连
+      - 僭称大夏天王
+    start_date: '407'
+    highlight_event_id: guji-赫连勃勃-event-founding
+  decisions:
+  - date: '406'
+    title_zh: 忿后秦与魏交好而决意叛秦
+    rationale: 姚兴起初许婚复绝婚，又与魏通和赎还狄伯支，勃勃认为秦恩已绝，遂杀高平公没奕干以叛。
+  - date: '407'
+    title_zh: 改姓赫连、僭称大夏天王
+    rationale: 既已收没奕干之众数万，侵岭北诸镇，遂改姓赫连氏，建国称制以自树。
+- id: guji-赫连勃勃-endeavor-2
+  name_zh: 岭北争霸
+  phases:
+  - key: brewing
+    name_zh: 游击岭北
+    labels:
+      zh:
+      - 邀掠社仑马
+      - 侵掠诸镇
+    start_date: '407'
+    highlight_event_id: guji-赫连勃勃-event-rebel
+  - key: breakthrough
+    name_zh: 大破秦军
+    labels:
+      zh:
+      - 袭破齐难
+      - 执杀姚详
+    start_date: '409'
+    highlight_event_id: guji-赫连勃勃-event-qinan
+  - key: climax
+    name_zh: 陇右攻略
+    labels:
+      zh:
+      - 攻平凉
+      - 陷定阳白崖堡
+    start_date: '411'
+    highlight_event_id: guji-赫连勃勃-event-longyou
+  - key: closure
+    name_zh: 与秦相持
+    labels:
+      zh:
+      - 龙尾堡受挫
+      - 退保河曲
+    start_date: '416'
+    highlight_event_id: guji-赫连勃勃-event-wucheng
+  decisions:
+  - date: '409'
+    title_zh: 潜师袭击齐难纵兵野掠之军
+    rationale: 闻秦兵将至，退保河曲，待左仆射齐难纵兵野掠，乘隙潜师掩击，斩首七千，擒齐难。
+  - date: '412'
+    title_zh: 屡攻平凉、陇右诸堡而掠户内徙
+    rationale: 以游骑抄掠平凉杂胡、定阳、白崖堡、清水等地，虏户万余以实部众，避秦主力而不决战。
+  - date: '408'
+    title_zh: 闻秦大军将至则退保河曲
+    rationale: 避后秦中军广平公弼等三万步骑之锋，以空间换时机，伺其将骄卒怠而后击之。
+events:
+- id: guji-赫连勃勃-event-birth
+  date: 0381
+  year_of: 381
+  title_zh: 赫连勃勃出生
+  description: 勃勃出生于铁弗匈奴刘氏之家，约生于四世纪末，生年史无明文。
+- id: guji-赫连勃勃-event-death
+  date: '0425'
+  year_of: 425
+  title_zh: 赫连勃勃去世
+  description: 大夏创立者赫连勃勃卒，本篇所据《十六国春秋》后秦录各卷载其事迹至姚兴之世而止。
+- id: guji-赫连勃勃-event-rebel
+  date: '0407'
+  year_of: 407
+  title_zh: 杀没奕干以叛，收众数万
+  description: 勃勃忿姚兴与北魏交好，杀高平公没奕干以叛，收其众数万，邀留柔然社仑所献八千匹马，侵掠岭北诸镇。
+  endeavors:
+  - guji-赫连勃勃-endeavor-1
+- id: guji-赫连勃勃-event-founding
+  date: '0407'
+  year_of: 407
+  title_zh: 改姓赫连，僭称大夏天王
+  description: 叛秦之后，勃勃改姓赫连氏，僭称大夏天王，立国建号。
+  endeavors:
+  - guji-赫连勃勃-endeavor-1
+- id: guji-赫连勃勃-event-qinan
+  date: 0409
+  year_of: 409
+  title_zh: 潜师袭破秦将齐难
+  description: 弘始十年夏，勃勃闻秦兵将至退保河曲；左仆射齐难纵兵野掠，勃勃潜师袭击，斩首七千余人，追至木城擒齐难，复虏将士万三千人。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
+- id: guji-赫连勃勃-event-pingliang
+  date: '0410'
+  year_of: 410
+  title_zh: 帅骑二万攻掠平凉
+  description: 弘始十一年夏四月，勃勃帅骑二万攻掠平凉杂胡七千余户，进屯依力川，又击败来救之秦将姚强。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
+- id: guji-赫连勃勃-event-wucheng
+  date: '0410'
+  year_of: 410
+  title_zh: 乘虚袭姚兴于贰城，伏兵禽姚榆生
+  description: 弘始十一年秋，姚兴自将讨勃勃至贰城，诸军未集而勃勃率骑乘虚奄至；伏兵夹击，禽秦别将姚榆生，因姚文宗等死战而退。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
+- id: guji-赫连勃勃-event-longyou
+  date: '0412'
+  year_of: 412
+  title_zh: 攻陷定阳、白崖堡，寇陇右
+  description: 弘始十二年，勃勃遣胡金纂万余骑攻平凉败绩被擒；又遣兄子罗提陷定阳，坑将士四千余人，执姚广都；寇陇右，陷白崖堡，虏一万六千户而去。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
+- id: guji-赫连勃勃-event-longwei
+  date: '0415'
+  year_of: 415
+  title_zh: 破杏城，执杀秦将姚详
+  description: 弘始十三年二月，勃勃逼杏城，秦安远将军姚详粮尽矢竭南奔，至大苏被勃勃平北将军鹿奕干要击，众溃，姚详被执而死。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
+- id: guji-赫连勃勃-event-luowei
+  date: '0416'
+  year_of: 416
+  title_zh: 龙尾堡之战遭挫
+  description: 弘始十七年秋，勃勃遣赫建入平凉，进兵新平，为广平公姚弼大破于龙尾堡，赫建被擒送长安；勃勃攻石堡彭双方积年不克，闻建败引师而去。
+  endeavors:
+  - guji-赫连勃勃-endeavor-2
