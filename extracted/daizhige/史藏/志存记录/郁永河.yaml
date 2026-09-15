@@ -1,0 +1,92 @@
+person:
+  qid: guji-郁永河
+  name_zh: 郁永河
+  names:
+    zh: 郁永河
+    en: Yu Yonghe
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 清代康熙年间
+  reign_ref: 康熙
+  archetype: 远游采硫的旅行纪行者
+  dilemmas:
+  - 奉命赴台采硫，需渡黑水沟之险
+  - 性耽远游与仕途/安全之间的取舍
+  lesson: 不避险阻、亲历目览，方得一地之真概
+  summary_first_person: 我于康熙年间游历八闽，丙子冬榕城药库灾后，奉命赴台湾采硫，丁丑春自福州启程，渡海历鹿耳门、台郡，撰《裨海纪游》以纪台地山川风土之概。
+endeavors:
+- id: guji-郁永河-endeavor-1
+  key: brewing
+  name_zh: 游历八闽
+  labels:
+    zh:
+    - 闽地漫游
+    - 徧行八闽
+  start_date: 1691
+  phases:
+  - key: brewing
+    name_zh: 入闽游历
+    labels:
+      zh:
+      - 八闽之辙迹
+    start_date: 1691
+    highlight_event_id: guji-郁永河-event-fujian-tour
+  decisions:
+  - date: 1691
+    title: 自辛未春入闽
+    rationale: 性耽远游，遍历建宁、延津、榕城及兴泉漳诸属邑
+  - date: 1692
+    title: 再返榕城留居署中
+    rationale: 累年游历，八闽之辙迹已历六
+- id: guji-郁永河-endeavor-2
+  key: breakthrough
+  name_zh: 渡海采硫
+  labels:
+    zh:
+    - 台湾采硫
+    - 裨海纪游
+  start_date: 1697
+  phases:
+  - key: breakthrough
+    name_zh: 奉命东渡
+    labels:
+      zh:
+      - 采硫台湾
+    start_date: 1697
+    highlight_event_id: guji-郁永河-event-cross-strait
+  decisions:
+  - date: 1696
+    title: 决意赴台采硫
+    rationale: 榕城药库灾，奉旨责偿，台湾鸡笼、淡水产石硫磺，欣然曰吾事济矣
+  - date: 1697
+    title: 丁丑春王戒装启行
+    rationale: 会台湾已入版图，欲一览其概，遂成此行
+events:
+- id: guji-郁永河-event-birth
+  event_type: birth
+  summary: 生年不详
+- id: guji-郁永河-event-death
+  event_type: death
+  summary: 卒年不详
+- id: guji-郁永河-event-fujian-tour
+  event_type: endeavor_start
+  date: 1691
+  year_of: 1691
+  summary: 辛未春入闽，由建宁、延津以迄榕城，历兴泉漳诸属邑，遍游八闽
+- id: guji-郁永河-event-cross-strait
+  event_type: breakthrough
+  date: 1697-01-24
+  year_of: 1697
+  summary: 丁丑正月，自福州南门启程赴台采硫
+- id: guji-郁永河-event-taiwan-arrival
+  event_type: endeavor_event
+  date: 1697-03-25
+  year_of: 1697
+  summary: 渡黑水沟、经澎湖抵鹿耳门，迁回至台郡安平、赤嵌城下登岸
