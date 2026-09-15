@@ -1,0 +1,89 @@
+person:
+  qid: guji-张志和
+  name_zh: 张志和
+  names:
+    zh: 张志和
+    en: Zhang Zhihe
+  lifespan:
+    birth:
+      date: '0730'
+      precision: year
+      is_circa: true
+      raw: 约730年
+    death:
+      date: '0774'
+      precision: year
+      is_circa: true
+      raw: 约774年
+  birth_date: 约0730
+  death_date: 约0774
+  era: 唐
+  reign_ref: 唐代宗大历年间
+  archetype: 烟波钓徒/隐逸词人
+  dilemmas:
+  - 仕与隐：无心任运、放浪江湖，其兄松龄惧其不返而作诗唤归
+  lesson: 无心任运，斜风细雨不须归；渔父之咏开出千古隐逸词家风调
+  summary_first_person: 我号元真子，作渔父词五首传于江湖，「西塞山前白鹭飞，桃花流水鳜鱼肥」与「斜风细雨不须归」句，无心任运，浑然天成。黄鲁直尝以鹧鸪天续我遗事，览者谓其有心避患，与我之神理迥别。
+endeavors:
+- id: guji-张志和-endeavor-1
+  name_zh: 作渔父词
+  phases:
+  - key: breakthrough
+    name_zh: 西塞山前垂钓咏怀
+    labels:
+      zh:
+      - 隐逸
+      - 词
+    start_date: '0770'
+    highlight_event_id: guji-张志和-event-yufu
+  decisions:
+  - date: '0770'
+    title_zh: 隐居江湖作渔父词
+    rationale: 弃官放浪烟波，以渔父自况，无心任运
+- id: guji-张志和-endeavor-2
+  name_zh: 求访集录歌诗
+  phases:
+  - key: closure
+    name_zh: 宪宗访求江湖不得
+    labels:
+      zh:
+      - 身后
+    start_date: 0806
+    highlight_event_id: guji-张志和-event-xianzong
+  decisions:
+  - date: 0806
+    title_zh: 朝廷令集其歌诗上之
+    rationale: 宪宗画像访之江湖不得，因令收集其歌诗献上
+events:
+- id: guji-张志和-event-birth
+  person_id: guji-张志和
+  type: birth
+  date: '0730'
+  year_of: 730
+  summary: 张志和生，约于开元年间
+- id: guji-张志和-event-yufu
+  person_id: guji-张志和
+  type: endeavor
+  endeavor_id: guji-张志和-endeavor-1
+  date: '0770'
+  year_of: 770
+  summary: 作渔父词「西塞山连白鹭飞」，有「斜风细雨不须归」之句，无心任运，开渔父家风
+- id: guji-张志和-event-siblings
+  person_id: guji-张志和
+  type: life
+  date: '0770-01-01'
+  year_of: 770
+  summary: 其兄松龄惧其放浪而不返，和其渔父词云「狂风浪起且须还」
+- id: guji-张志和-event-xianzong
+  person_id: guji-张志和
+  type: endeavor
+  endeavor_id: guji-张志和-endeavor-2
+  date: '0806-01-01'
+  year_of: 806
+  summary: 宪宗画像访之江湖不得，因令集其歌诗上之
+- id: guji-张志和-event-death
+  person_id: guji-张志和
+  type: death
+  date: '0774'
+  year_of: 774
+  summary: 张志和卒，约于大历年间，身后词名不灭
