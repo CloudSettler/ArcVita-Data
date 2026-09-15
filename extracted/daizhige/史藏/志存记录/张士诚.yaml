@@ -1,0 +1,150 @@
+person:
+  qid: guji-zhangshicheng
+  name_zh: 张士诚
+  names:
+    zh: 张士诚
+    en: Zhang Shicheng
+  lifespan:
+    birth:
+      date: ''
+      precision: year
+      is_circa: true
+      raw: 泰州白驹场人，生年不详
+    death:
+      date: ''
+      precision: year
+      is_circa: false
+      raw: 兵败被俘，不屈而死
+  birth_date: ''
+  death_date: ''
+  era: 元末（至正年间）
+  reign_ref: 大周天佑、吴王
+  archetype: 起于盐贩、据吴称王而终亡于战乱的一方豪杰
+  dilemmas:
+  - 降元与自立之间的反复摇摆
+  - 信谗而失忠臣，漕贡断绝招致孤立
+  lesson: 起于草莽可乘一时之势，然骄侈失谋、反复无常者终难久立
+  summary_first_person: 我本泰州白驹场贩盐之人，因不堪富家与弓兵欺辱，与诸弟及李伯升等十八人起兵。乘势陷泰州、据高邮，自称诚王，国号大周，建元天佑。后来渡江取吴中富庶之地，改平江为隆平府，据浙右二千余里。我曾一度受元太尉之封而实不奉命，又自立为吴王。终因骄侈待下、诸将离心，为朱元璋大军所攻，失泰州、高邮、淮东，最后覆亡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/皇朝平吳錄
+endeavors:
+- id: guji-zhangshicheng-endeavor-1
+  name_zh: 起兵盐场
+  labels:
+    zh:
+    - 盐徒起事
+    - 据泰州高邮
+  start_date: 1353
+  end_date: 1357
+  phases:
+  - key: brewing
+    name_zh: 起兵初期
+    labels:
+      zh:
+      - 聚众十八人起事
+    start_date: 1353
+    highlight_event_id: guji-zhangshicheng-event-revolt
+  - key: breakthrough
+    name_zh: 攻陷泰州与据高邮
+    labels:
+      zh:
+      - 称诚王建国大周
+    start_date: 1354
+    highlight_event_id: guji-zhangshicheng-event-king
+  decisions:
+  - date: 1353
+    title_zh: 杀丘义并举兵起事
+    rationale: 不堪富家凌侮与弓兵窘辱，自度不可已，乃谋起兵
+  - date: 1354
+    title_zh: 自称诚王
+    rationale: 兵势既振，据高邮，遂建国称王
+- id: guji-zhangshicheng-endeavor-2
+  name_zh: 渡江取吴
+  labels:
+    zh:
+    - 据平江
+    - 拓地浙右
+  start_date: 1357
+  end_date: 1367
+  phases:
+  - key: brewing
+    name_zh: 渡江入吴
+    labels:
+      zh:
+      - 自通州入福山港
+    start_date: 1357
+    highlight_event_id: guji-zhangshicheng-event-cross-river
+  - key: climax
+    name_zh: 称吴王与与明军对峙
+    labels:
+      zh:
+      - 自立为吴王
+      - 渐失淮东
+    start_date: 1363
+    highlight_event_id: guji-zhangshicheng-event-wu-king
+  - key: closure
+    name_zh: 覆亡
+    labels:
+      zh:
+      - 为朱元璋大军所灭
+    start_date: 1365
+    highlight_event_id: guji-zhangshicheng-event-fall
+  decisions:
+  - date: 1357
+    title_zh: 渡江取吴中
+    rationale: 谓惟吴中富庶，可以建国
+  - date: 1363
+    title_zh: 自立为吴王
+    rationale: 令部属自颂功德求王爵未得，遂自立，治宫室立官属
+  - date: 1364
+    title_zh: 逐达识帖睦迩
+    rationale: 士信使人勒其去职，方面大权悉归张氏
+events:
+- id: guji-zhangshicheng-event-birth
+  date: ''
+  year_of: ''
+  type: birth
+  title_zh: 生于泰州白驹场
+  description: 小字九四，泰之白驹场民，与弟士义、士德、士信并以贩盐为业。
+  participants:
+  - guji-zhangshicheng
+- id: guji-zhangshicheng-event-revolt
+  date: 1353
+  year_of: 1353
+  type: endeavor-start
+  title_zh: 起兵泰州
+  description: 至正十三年正月，与诸弟及壮士李伯升等十八人杀弓兵丘义，纵火焚其居，起兵谋反。
+  participants:
+  - guji-zhangshicheng
+- id: guji-zhangshicheng-event-king
+  date: 1354
+  year_of: 1354
+  type: endeavor-start
+  title_zh: 自称诚王
+  description: 至正十四年正月，自称诚王，国号大周，建元天佑。
+  participants:
+  - guji-zhangshicheng
+- id: guji-zhangshicheng-event-cross-river
+  date: 1357-02
+  year_of: 1357
+  type: endeavor-start
+  title_zh: 渡江入吴
+  description: 以淮东大饥，谓惟吴中富庶可以建国，留兵守高邮，由通州渡江入福山港，遂陷常熟，兵入平江娄、齐二门。
+  participants:
+  - guji-zhangshicheng
+- id: guji-zhangshicheng-event-wu-king
+  date: 1363
+  year_of: 1363
+  type: endeavor-start
+  title_zh: 自立为吴王
+  description: 至正二十三年，令部属自颂功德求王爵不报，遂自立为吴王，治宫室，立官属。
+  participants:
+  - guji-zhangshicheng
+- id: guji-zhangshicheng-event-fall
+  date: 1367
+  year_of: 1367
+  type: death
+  title_zh: 兵败覆亡
+  description: 朱元璋命徐达、常遇春等率军先取淮东剪其羽翼，继攻泰州、高邮，士诚屡败，终至覆亡。
+  participants:
+  - guji-zhangshicheng
