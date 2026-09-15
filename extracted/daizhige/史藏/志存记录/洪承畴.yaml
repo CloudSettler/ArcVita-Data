@@ -1,0 +1,129 @@
+person:
+  qid: guji-洪承畴
+  name_zh: 洪承畴
+  names:
+    zh: 洪承畴
+    en: Hong Chengchou
+  lifespan:
+    birth:
+      date: '1593'
+      precision: year
+      is_circa: true
+      raw: 万历二十一年（约）
+    death:
+      date: '1665'
+      precision: year
+      is_circa: true
+      raw: 康熙四年（约）
+  birth_date: '1593'
+  death_date: '1665'
+  era: 明末清初
+  reign_ref: 崇祯年间
+  archetype: 乱世能臣
+  dilemmas:
+  - 流寇剿抚不定之际，独主剿御有方，却遭杨嗣昌在枢部忌其才绩
+  - 每逐贼奔驰往还数千里，母在官舍而过门不入，忠孝两难
+  - 松杏败后由秦督改督蓟辽，进退皆系于朝局倾轧
+  lesson: 当剿抚纷争、诸督抚前后数十辈或谴或死之际，唯有廉勇精韬钤、能与士卒同效死者可堪平乱，然才高仍不免为权臣所忌
+  summary_first_person: 我以陕西巡抚进五省总督，率曹文诏、曹变蛟、左良玉、贺人龙等破贼于宁塞、西安、延北、西濠、庄浪，斩贼渠神一魁、招降中斗星，逐贼数千里过门不入，士卒争为效死；后与卢象升临潼议事，贼旦暮可平，然杨嗣昌、温体仁忌功掣肘，终改督蓟辽。
+endeavors:
+- id: guji-洪承畴-endeavor-1
+  name_zh: 经略陕西、进五省总督剿贼
+  key: suppress_bandits
+  phases:
+  - key: brewing
+    name_zh: 秦抚任上剿御有方
+    labels:
+      zh: 严剿流寇
+    start_date: '1630'
+    highlight_event_id: guji-洪承畴-event-ningzai
+  - key: breakthrough
+    name_zh: 自秦抚进五省总督
+    labels:
+      zh: 五省总督
+    start_date: '1634'
+    highlight_event_id: guji-洪承畴-event-promotion
+  - key: climax
+    name_zh: 破贼数处、与卢象升会商秦关
+    labels:
+      zh: 剿贼大捷
+    start_date: '1635'
+    highlight_event_id: guji-洪承畴-event-lintong
+  - key: closure
+    name_zh: 改督蓟辽
+    labels:
+      zh: 移镇蓟辽
+    start_date: '1642'
+    highlight_event_id: guji-洪承畴-event-jiliao
+  decisions:
+  - date: '1634'
+    title_zh: 独主剿御、不事姑息招抚
+    rationale: 时贼大伙在秦、剿抚未定，诸督抚前后数十辈或谴或死，承畴以廉勇精韬钤率诸将破贼斩渠，遂自秦抚进五省总督
+  - date: '1634'
+    title_zh: 逐贼往还数千里、过门不入
+    rationale: 母在官舍而不入家门，以示与士卒同劳苦，士卒感其义、争为效死
+- id: guji-洪承畴-endeavor-2
+  name_zh: 移督蓟辽、周旋边局
+  key: jiliao_governorship
+  phases:
+  - key: brewing
+    name_zh: 温体仁忌功、临潼与卢象升议平贼之策
+    labels:
+      zh: 秦关会商
+    start_date: '1636'
+    highlight_event_id: guji-洪承畴-event-lintong
+  - key: breakthrough
+    name_zh: 卢象升死松杏、承畴改督蓟辽
+    labels:
+      zh: 改督蓟辽
+    start_date: '1642'
+    highlight_event_id: guji-洪承畴-event-jiliao
+  - key: closure
+    name_zh: 中原贼势蔓延、明祚倾颓
+    labels:
+      zh: 大局难挽
+    start_date: '1643'
+  decisions:
+  - date: '1636'
+    title_zh: 随地严兵阻贼于临潼、邠州、渭南等处
+    rationale: 秦中之贼方炽、豫中之贼又来，与卢象升合力使贼如釜鱼阱兽、旦暮可平
+  - date: '1642'
+    title_zh: 受命改督蓟辽
+    rationale: 象升死松杏之后朝局更动，承畴寻亦改督蓟辽，才功为权臣所忌、进退不由己
+events:
+- id: guji-洪承畴-event-birth
+  type: birth
+  date: '1593'
+  year_of: 1593
+  date_is_circa: true
+  description: 洪承畴生，后为明末陕西巡抚、五省总督
+- id: guji-洪承畴-event-ningzai
+  type: career
+  date: '1633'
+  year_of: 1633
+  date_is_circa: true
+  description: 承畴率总兵曹文诏、曹变蛟、左良玉、贺人龙等破贼于宁塞、西安、延北、西濠、庄浪，斩贼渠神一魁，招降中斗星
+- id: guji-洪承畴-event-promotion
+  type: career
+  date: '1634'
+  year_of: 1634
+  date_is_circa: true
+  description: 时诸督抚或谴或死不可胜计，惟秦督洪承畴剿御有方，遂自秦抚进五省总督
+- id: guji-洪承畴-event-lintong
+  type: career
+  date: 1636-06
+  year_of: 1636
+  date_is_circa: true
+  description: 丙子夏六月，卢象升疾走秦关与承畴议事，承畴随地严兵阻贼于临潼、邠州、渭南、韩城、华州等处，象升屡获奇胜，贼旦暮可平
+- id: guji-洪承畴-event-jiliao
+  type: career
+  date: '1642'
+  year_of: 1642
+  date_is_circa: true
+  description: 卢象升死后，承畴寻亦由五省总督改督蓟辽
+- id: guji-洪承畴-event-death
+  type: death
+  date: '1665'
+  year_of: 1665
+  date_is_circa: true
+  description: 洪承畴卒
