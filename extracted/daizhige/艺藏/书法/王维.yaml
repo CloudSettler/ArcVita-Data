@@ -1,0 +1,137 @@
+person:
+  qid: guji-王维
+  name_zh: 王维
+  names:
+    zh: 王维
+    en: Wang Wei
+  lifespan:
+    birth:
+      date: '-701'
+      precision: year
+      is_circa: true
+      raw: 约701年
+    death:
+      date: '761'
+      precision: year
+      is_circa: false
+      raw: 上元二年
+  birth_date: 约701年
+  death_date: 761年
+  era: 唐
+  reign_ref: 武则天至唐肃宗时期
+  archetype: 诗人书画家
+  dilemmas:
+  - 陷于仕隐之间的两难，半官半隐于辋川
+  - 安史乱中被迫受伪职，乱平后几获罪
+  lesson: 诗中有画，画中有诗，于繁华与寂静之间寻得心灵的安顿
+  summary_first_person: 我是王维，字摩诘，官至尚书右丞。我工诗善画，精通音律与书法，开创水墨山水一派，晚年隐居辋川，人称诗佛。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/王维
+endeavors:
+- id: guji-王维-endeavor-1
+  name_zh: 诗歌创作与山水诗风
+  phases:
+  - key: brewing
+    name_zh: 早年游历与应举
+    labels:
+      zh:
+      - 少年成名
+      - 诗歌初成
+    start_date: '715'
+    highlight_event_id: guji-王维-event-2
+  - key: breakthrough
+    name_zh: 辋川隐居与诗画成熟
+    labels:
+      zh:
+      - 辋川诗
+      - 诗中有画
+    start_date: '741'
+    highlight_event_id: guji-王维-event-3
+  - key: climax
+    name_zh: 安史之乱后的沉静之作
+    labels:
+      zh:
+      - 晚年诗境
+      - 禅意
+    start_date: '757'
+    highlight_event_id: guji-王维-event-4
+  - key: closure
+    name_zh: 晚年薪水之奉与归心
+    labels:
+      zh:
+      - 尚书右丞
+      - 晚年
+    start_date: '759'
+  decisions:
+  - date: '741'
+    title_zh: 购得宋之问蓝田辋川别墅，半官半隐
+    rationale: 借山水田园寄怀，融合禅意与诗画艺术
+  - date: 757-09
+    title_zh: 陷贼后献《凝碧池》诗自明心迹
+    rationale: 借诗表明忠于唐室之心，得免重罪
+- id: guji-王维-endeavor-2
+  name_zh: 书画艺术与《辋川图》
+  phases:
+  - key: brewing
+    name_zh: 早年习画与书法
+    labels:
+      zh:
+      - 工草隶
+      - 善画
+    start_date: '715'
+  - key: breakthrough
+    name_zh: 创水墨山水，作《辋川图》
+    labels:
+      zh:
+      - 水墨山水
+      - 辋川图
+    start_date: '745'
+    highlight_event_id: guji-王维-event-3
+  - key: climax
+    name_zh: 后世推为南宗画之祖
+    labels:
+      zh:
+      - 南宗画祖
+      - 影响深远
+    start_date: '750'
+  decisions:
+  - date: '745'
+    title_zh: 摒弃青绿设色，专意水墨渲淡
+    rationale: 以水墨表现萧散简远的意境，开文人画先河
+events:
+- id: guji-王维-event-birth
+  date: '-701'
+  year_of: '-701'
+  title_zh: 王维生于蒲州（一说太原祁县）
+  kind: birth
+- id: guji-王维-event-1
+  date: '721'
+  year_of: '721'
+  title_zh: 进士及第，调任太乐丞
+  kind: career
+  description: 开元十九年状元及第（一说进士），初仕太乐丞
+- id: guji-王维-event-2
+  date: 721-09
+  year_of: '721'
+  title_zh: 因伶人舞黄狮子事贬济州司仓参军
+  kind: setback
+- id: guji-王维-event-3
+  date: '741'
+  year_of: '741'
+  title_zh: 隐居辋川，与裴迪唱和，成《辋川集》，作《辋川图》
+  kind: creation
+- id: guji-王维-event-4
+  date: 756-08
+  year_of: '756'
+  title_zh: 安史乱中被叛军所获，拘于菩提寺，赋凝碧池诗
+  kind: crisis
+- id: guji-王维-event-5
+  date: 757-10
+  year_of: '757'
+  title_zh: 两京收复后因凝碧诗及弟王缙求情获宥，后官至尚书右丞
+  kind: career
+- id: guji-王维-event-death
+  date: '761'
+  year_of: '761'
+  title_zh: 王维卒于长安，临终作书辞亲友，葬辋川
+  kind: death
