@@ -1,0 +1,94 @@
+person:
+  qid: guji-倪瓒
+  name_zh: 倪瓒
+  names:
+    zh: 倪瓒
+    en: Ni Zan
+  lifespan:
+    birth:
+      date: '1301'
+      precision: year
+      is_circa: true
+      raw: 元镇，号云林
+    death:
+      date: '1374'
+      precision: year
+      is_circa: true
+  birth_date: '1301'
+  death_date: '1374'
+  era: 元末明初
+  reign_ref: 元至正年间
+  archetype: 隐逸书画家
+  dilemmas:
+  - 富家出身而弃产隐逸，以笔墨寄其孤高之志
+  lesson: 非人玩物物玩人，清雅之士以书画寄怀，得失皆有可叹
+  summary_first_person: 我倪瓒字元镇，人称云林先生。至正五年春，素先生来访林下，我赋诗并写惠山图以记同游之乐；壬子年九月，又为潘翁仲辉写松亭山色图并赋七言题于其上。世传吾戏墨在江东人家，以有无为清俗，然物往人移，图卷流离，唯有青松自迟暮。
+  source_urls:
+  - https://example.org/guji/source
+endeavors:
+- id: guji-倪瓒-endeavor-1
+  name_zh: 松亭山色图之创作与流传
+  phases:
+  - key: breakthrough
+    name_zh: 为潘翁仲辉写图
+    labels:
+      zh:
+      - 书画
+    start_date: 1372-09-19
+    highlight_event_id: guji-倪瓒-event-painting-songting
+  - key: climax
+    name_zh: 图入苏贵游家
+    labels:
+      zh:
+      - 藏鉴
+    highlight_event_id: guji-倪瓒-event-painting-songting
+  decisions:
+  - date: 1372-09-19
+    title: 为潘翁仲辉写松亭山色图并赋诗
+    rationale: 以昭所得，寓清杂之思与得失之叹
+- id: guji-倪瓒-endeavor-2
+  name_zh: 惠山图创作
+  phases:
+  - key: brewing
+    name_zh: 素先生来访赋诗
+    labels:
+      zh:
+      - 交游
+    start_date: 1345-03-08
+    highlight_event_id: guji-倪瓒-event-huishan
+  - key: climax
+    name_zh: 画讫题诗其上
+    labels:
+      zh:
+      - 书画
+    start_date: 1345-03-08
+    highlight_event_id: guji-倪瓒-event-huishan
+  decisions:
+  - date: 1345-03-08
+    title: 雨后共游惠山，绘图并题诗
+    rationale: 素先生之请，且张外史陈先生见之必大笑，故以戏笔记游
+events:
+- id: guji-倪瓒-event-birth
+  title: 倪瓒出生
+  date: '1301'
+  year_of: 1301
+  type: birth
+  description: 元镇生于无锡富家，后号云林
+- id: guji-倪瓒-event-death
+  title: 倪瓒去世
+  date: '1374'
+  year_of: 1374
+  type: death
+  description: 云林先生卒，其戏墨清名流传后世
+- id: guji-倪瓒-event-huishan
+  title: 与素先生游惠山并作惠山图
+  date: 1345-03-08
+  year_of: 1345
+  type: achievement
+  description: 至正五年三月八日玄素先生来林下，瓒赋诗，雨后共行林下，见惠山，先生命瓒写之，画讫因书诗于上
+- id: guji-倪瓒-event-painting-songting
+  title: 为潘翁仲辉写松亭山色图并赋七言
+  date: 1372-09-19
+  year_of: 1372
+  type: achievement
+  description: 壬子九月十九日写松亭山色图并赋七言题其右方，落款瓒；图后为淮阳赵文美所得，长洲沈周次韵题跋寓得失之叹
