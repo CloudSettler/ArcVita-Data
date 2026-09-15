@@ -1,0 +1,140 @@
+person:
+  qid: guji-伊藤博文
+  name_zh: 伊藤博文
+  names:
+    zh: 伊藤博文
+    en: Ito Hirobumi
+  lifespan:
+    birth:
+      date: 1841-10-16
+      precision: day
+      is_circa: false
+      raw: 天保十二年
+    death:
+      date: 1909-10-26
+      precision: day
+      is_circa: false
+  birth_date: 1841-10-16
+  death_date: 1909-10-26
+  era: 日本明治时期
+  reign_ref: 明治天皇在位期间
+  archetype: 外交强权谈判者
+  dilemmas:
+  - 以“全权”礼仪问题为名拒绝张荫桓、邵友濂，实则挟战胜之势索取更大让步
+  - 在马关谈判中对年迈的李鸿章坚持苛刻条款，但于停战质压问题上有所回旋
+  - 私下向伍廷芳暗示愿与李鸿章议和，试探清廷意向而不露底牌
+  lesson: 谈判中“全权”名分与实质权力之争，往往是大国压制弱国的先手棋
+  summary_first_person: 我以日本内阁总理大臣之身为全权大臣，先在广岛以“敕书全权不足”拒却张荫桓、邵友濂之议和使团，又私下向伍廷芳示意惟李鸿章堪任此事。及李鸿章衔命至马关，我于春帆楼与之互校敕书、往复议约，先以停战条件索大沽、天津、山海关为质，后于条款中割地、赔款诸端坚持不让，终成定议。
+endeavors:
+- id: guji-伊藤博文-endeavor-1
+  name_zh: 以全权大臣身份主持对清议和
+  phases:
+  - key: brewing
+    name_zh: 受命为全权
+    labels:
+      zh:
+      - 明治议和
+      - 全权大臣
+    start_date: '1895-01-06'
+    highlight_event_id: guji-伊藤博文-event-guangdao-refusal
+  - key: breakthrough
+    name_zh: 广岛拒使
+    labels:
+      zh:
+      - 广岛
+      - 拒绝开议
+    start_date: '1895-01-06'
+    highlight_event_id: guji-伊藤博文-event-guangdao-refusal
+  - key: climax
+    name_zh: 马关谈判
+    labels:
+      zh:
+      - 马关
+      - 春帆楼
+      - 议和
+    start_date: '1895-03-20'
+    highlight_event_id: guji-伊藤博文-event-makai-meeting
+  - key: closure
+    name_zh: 递约定议
+    labels:
+      zh:
+      - 和约
+      - 条款
+    start_date: '1895-04-01'
+    highlight_event_id: guji-伊藤博文-event-treaty-closure
+  decisions:
+  - date: '1895-01-08'
+    title_zh: 以清使全权不足为由绝张荫桓、邵友濂之议
+    rationale: 指清国敕书未载便宜行事全权，无立草约签名捺印之权，断不开议，免劳往返
+  - date: 1895-02
+    title_zh: 私下向伍廷芳暗示惟李鸿章堪任议和
+    rationale: 探清廷虚实，促成以威望素着之重臣衔全权来议，取 弃，割膏腴、偿巨款
+  - date: '1895-03-21'
+    title_zh: 停战谈判中坚持以大沽、天津、山海关为质
+    rationale: 挟战胜之势以驻兵为质，保障军队继续进攻直隶之选择权
+  - date: '1895-04-15'
+    title_zh: 递尽头约稿，限四日答复，称但允不允两言而决
+    rationale: 于割地减宽甸、赔款减至二万万两等处微让，而大局坚持，逼清方速允
+events:
+- id: guji-伊藤博文-event-birth
+  event_type: birth
+  date: 1841-10-16
+  year_of: 1841
+  date_precision: day
+  name_zh: 伊藤博文出生于日本长州
+  description_zh: 幼年生于长州藩，后为明治维新元勋
+- id: guji-伊藤博文-event-death
+  event_type: death
+  date: 1909-10-26
+  year_of: 1909
+  date_precision: day
+  name_zh: 伊藤博文逝世
+  description_zh: 卒于中国哈尔滨
+- id: guji-伊藤博文-event-guangdao-refusal
+  event_type: endeavor_event
+  endeavored:
+    quest_id: guji-伊藤博文-endeavor-1
+    phase_key: breakthrough
+  role_name_zh: 日方全权大臣
+  date: 1895-01-08
+  year_of: 1895
+  date_precision: day
+  location: 广岛
+  name_zh: 广岛会议拒却清国使臣
+  description_zh: 伊藤博文与陆奥宗光为日方全权大臣，互校敕书于广岛县厅后，以清使全权不足、非列国议款通例为由，致书拒绝张荫桓、邵友濂开议
+- id: guji-伊藤博文-event-secret-talk
+  event_type: endeavor_event
+  endeavored:
+    quest_id: guji-伊藤博文-endeavor-1
+    phase_key: breakthrough
+  role_name_zh: 内阁总理大臣
+  date: 1895-01-15
+  year_of: 1895
+  date_precision: month
+  location: 广岛
+  name_zh: 私语伍廷芳属意李鸿章
+  description_zh: 议和期间伊藤私谓伍廷芳，恭邸不能来华，中堂（李鸿章）大可主持和议，且须合例之敕书
+- id: guji-伊藤博文-event-makai-meeting
+  event_type: endeavor_event
+  endeavored:
+    quest_id: guji-伊藤博文-endeavor-1
+    phase_key: climax
+  role_name_zh: 日方全权大臣
+  date: 1895-03-24
+  year_of: 1895
+  date_precision: day
+  location: 马关春帆楼
+  name_zh: 与李鸿章会春帆楼，覆文以大沽、天津、山海关停战为质
+  description_zh: 第一次会议互戡敕书后，李付停战节略，伊博文覆文要以三处为质、驻倭兵乃停战，反复诘难执愈坚
+- id: guji-伊藤博文-event-treaty-closure
+  event_type: endeavor_event
+  endeavored:
+    quest_id: guji-伊藤博文-endeavor-1
+    phase_key: closure
+  role_name_zh: 日方全权大臣
+  date: 1895-04-15
+  year_of: 1895
+  date_precision: day
+  location: 马关春帆楼
+  name_zh: 面致尽头约稿
+  description_zh: 李鸿章伤愈后复会议，博文面致尽头约稿，谓中国但允、不允两言而决：割地减宽甸、赔款减至库平银二万万两等，限四日答复
