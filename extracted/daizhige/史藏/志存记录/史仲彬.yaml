@@ -1,0 +1,179 @@
+person:
+  qid: guji-史仲彬
+  name_zh: 史仲彬
+  names:
+    zh: 史仲彬
+    en: Shi Zhongbin
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  era: 明
+  reign_ref: 建文
+  archetype: 忠臣
+  dilemmas:
+  - 忠建文与新朝之择
+  - 藏匿逊帝与家族安危
+  lesson: 忠义不因位卑而减
+  summary_first_person: 我以明经起家，官翰林院侍书、徐王府宾辅。建文朝我曾谏更定官制、请均江浙赋役。金川门破后，我从建文帝出亡，三赴云南护卫故主，虽削籍罹难而不渝。
+  source_urls:
+  - 致身录（明）史仲彬
+endeavors:
+- id: guji-史仲彬-endeavor-1
+  name_zh: 出仕建文朝
+  phases:
+  - key: brewing
+    name_zh: 应诏入京
+    labels:
+      zh:
+      - 应诏
+      - 明经
+    start_date: 1398-11
+    highlight_event_id: guji-史仲彬-event-1
+  - key: breakthrough
+    name_zh: 参与更制
+    labels:
+      zh:
+      - 谏疏
+      - 均赋
+    start_date: 1399-04
+    highlight_event_id: guji-史仲彬-event-2
+  - key: climax
+    name_zh: 坚守都城
+    labels:
+      zh:
+      - 勤王
+      - 诛奸
+    start_date: 1402-03
+    highlight_event_id: guji-史仲彬-event-3
+  - key: closure
+    name_zh: 削籍还乡
+    labels:
+      zh:
+      - 追夺敕命
+    start_date: 1402-08
+  decisions:
+  - date: 1399-07
+    title_zh: 廷斥尹昌隆并荐徐辉祖
+    rationale: 以募兵讨燕为急务，正人臣之义
+  - date: 1402-06
+    title_zh: 请诛徐增寿
+    rationale: 徐增寿谋降燕军，请帝手刃之
+- id: guji-史仲彬-endeavor-2
+  name_zh: 随扈逊帝三赴云南
+  phases:
+  - key: brewing
+    name_zh: 奉师居黄溪
+    labels:
+      zh:
+      - 水月观
+    start_date: 1402-08
+    highlight_event_id: guji-史仲彬-event-4
+  - key: breakthrough
+    name_zh: 初往襄阳谒师
+    labels:
+      zh:
+      - 会盟
+    start_date: 1403-01
+  - key: climax
+    name_zh: 远赴白龙山庵
+    labels:
+      zh:
+      - 供养故主
+    start_date: 1407-08
+    highlight_event_id: guji-史仲彬-event-5
+  - key: closure
+    name_zh: 遵嘱不再复往
+    labels:
+      zh:
+      - 师嘱
+    start_date: 1408-03
+  decisions:
+  - date: 1402-08
+    title_zh: 屋建文帝于吴江黄溪家中
+    rationale: 师不宜往依西平侯，东南名胜皆可为家
+  - date: 1407-03
+    title_zh: 携食物入云南谒师
+    rationale: 知师所嗜，不远万里供其衣食
+  - date: 1424-08
+    title_zh: 洪熙改元后奉师南来
+    rationale: 革除之禁稍宽，可往来而全师
+events:
+- id: guji-史仲彬-event-birth
+  person_id: guji-史仲彬
+  type: birth
+  type_label_zh: 出生
+  location_zh: 吴江
+  summary_zh: 生年不详，吴江人。
+  related_entities:
+  - 吴江
+- id: guji-史仲彬-event-1
+  person_id: guji-史仲彬
+  type: appointment
+  type_label_zh: 任命
+  date: '1398-11-18'
+  year_of: 1398
+  era_ref: 建文元年
+  location_zh: 京师
+  summary_zh: 陛见，试《四书》疑一道，钦授翰林院侍书。
+  related_entities:
+  - 翰林院
+  - 建文帝
+- id: guji-史仲彬-event-2
+  person_id: guji-史仲彬
+  type: proposal
+  type_label_zh: 上疏
+  date: 1400-03
+  year_of: 1400
+  era_ref: 建文二年
+  location_zh: 京师
+  summary_zh: 上疏均江浙赋役，苏松准各处起科，诏从之。
+  related_entities:
+  - 江浙
+- id: guji-史仲彬-event-3
+  person_id: guji-史仲彬
+  type: council
+  type_label_zh: 廷议
+  date: 1402-06
+  year_of: 1402
+  era_ref: 建文四年
+  location_zh: 京师
+  summary_zh: 燕兵渡江，廷议避难，彬独主从方孝孺坚守之策；并与魏冕请诛徐增寿。
+  related_entities:
+  - 方孝孺
+  - 魏冕
+  - 徐增寿
+- id: guji-史仲彬-event-4
+  person_id: guji-史仲彬
+  type: asylum
+  type_label_zh: 藏匿
+  date: 1402-08
+  year_of: 1402
+  era_ref: 建文四年
+  location_zh: 吴江黄溪
+  summary_zh: 迎建文帝居家中清远轩，后改题水月观，师亲篆文。
+  related_entities:
+  - 建文帝
+  - 水月观
+- id: guji-史仲彬-event-5
+  person_id: guji-史仲彬
+  type: journey
+  type_label_zh: 谒师
+  date: '1407-07-18'
+  year_of: 1407
+  era_ref: 丁亥
+  location_zh: 云南白龙山
+  summary_zh: 与程济等至白龙山庵谒师，献金华火肉等六味，师喜曰不尝此已三年矣。
+  related_entities:
+  - 程济
+  - 白龙山庵
+- id: guji-史仲彬-event-death
+  person_id: guji-史仲彬
+  type: death
+  type_label_zh: 去世
+  summary_zh: 卒年不详。
