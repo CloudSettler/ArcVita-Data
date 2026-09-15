@@ -1,0 +1,138 @@
+person:
+  qid: guji-潘阆
+  name_zh: 潘阆
+  names:
+    zh: 潘阆（字逍遥）
+    en: Pan Lang
+  lifespan:
+    birth:
+      date: -0950
+      precision: decade
+      is_circa: true
+      raw: 生年不详，约五代末
+    death:
+      date: -1009
+      precision: year
+      is_circa: true
+    raw: 约950年－约1009年
+  birth_date: 约950年
+  death_date: 约1009年
+  era: 北宋初
+  reign_ref: 宋太宗、宋真宗时期
+  archetype: 狂逸诗人/谪臣
+  dilemmas:
+  - 忠于故主秦王与避祸全身的抉择
+  - 辞官守拙与仕途功名的取舍
+  lesson: 忠于所事、不阿时好，虽被谪而诗名不失
+  summary_first_person: 我是潘阆，字逍遥，钱塘人。我曾为秦王记室参军，秦王获罪后我剃发为僧逃出京城，后来太宗怒解，再入京受四门助教，我却以老懒不任朝谒为由封还敕命。此后遭人攻讦，被编置信上，途中题诗犹自称记室旧衔，可谓忠于所事。我工唐风，"渔浦风波恶，钱塘灯火微"为人称道，与钱易、许洞等一时名士为友，晚年杭城建先贤祠本欲祀我，却被黜去。
+  source_urls:
+  - local://guji/传记文本
+endeavors:
+- id: guji-潘阆-endeavor-1
+  name_zh: 佐幕秦王府与亡命藏身
+  phases:
+  - key: brewing
+    name_zh: 居钱塘以诗鸣世
+    labels:
+      zh:
+      - 诗人
+      - 唐风
+    start_date: -0970
+    highlight_event_id: guji-潘阆-event-poem-praised
+  - key: breakthrough
+    name_zh: 任秦王记室参军
+    labels:
+      zh:
+      - 佐幕
+      - 记室参军
+    start_date: -0979
+    highlight_event_id: guji-潘阆-event-flee
+  - key: closure
+    name_zh: 编置信上路吟
+    labels:
+      zh:
+      - 谪臣
+      - 题诗
+    start_date: -0985
+    highlight_event_id: guji-潘闅-event-exile
+  decisions:
+  - date: -0984
+    title_zh: 自髡其发、易缁衣出南薰门
+    rationale: 秦王坐罪，捕阆急，为避祸而剃发扮僧逃亡
+  - date: -0990
+    title_zh: 封还四门助教敕命
+    rationale: 以老懒不任朝谒为辞，不乐仕宦朝谒之繁琐
+- id: guji-潘阆-endeavor-2
+  name_zh: 诗名与交游传世
+  phases:
+  - key: brewing
+    name_zh: 与钱易许洞结友
+    labels:
+      zh:
+      - 交游
+      - 名士
+    start_date: -0975
+    highlight_event_id: guji-潘阆-event-poem-praised
+  - key: climax
+    name_zh: 诗联见称于世
+    labels:
+      zh:
+      - 诗名
+      - 前辈气味
+    start_date: -0995
+    highlight_event_id: guji-潘阆-event-poem-praised
+  - key: closure
+    name_zh: 先贤祠议祀而被黜
+    labels:
+      zh:
+      - 评议
+      - 黜祀
+    start_date: '-1208'
+    highlight_event_id: guji-潘阆-event-shrine
+  decisions:
+  - date: -0975
+    title_zh: 取友钱易、许洞等一时名士
+    rationale: 以诗相往来，取友之盛足见其品格
+events:
+- id: guji-潘阆-event-birth
+  date: -0950
+  year_of: -950
+  label: 生于钱塘
+  type: birth
+  detail: 潘阆，字逍遥，钱塘人，所居之里即今武学前潘阆巷，巷内三将军庙有阆祠堂。
+- id: guji-潘阆-event-poem-praised
+  date: -0970
+  year_of: -970
+  label: 归自富春有佳句
+  type: achievement
+  detail: 归自富春，有"渔浦风波恶，钱塘灯火微"之句，人多称之；另有"夜凉疑有雨，院静似无僧"为陆放翁所称。
+- id: guji-潘阆-event-flee
+  date: -0984
+  year_of: -984
+  label: 秦王坐罪，髤发亡命
+  type: flight
+  detail: 为秦王记室参军，秦王坐罪被诛，捕阆急，阆自髤其发，易缁衣出南薰门。后太宗意渐解，再入京。
+- id: guji-潘阆-event-decline-office
+  date: -0990
+  year_of: -990
+  label: 封还敕命辞四门助教
+  type: decision
+  detail: 再入京，敕受四门助教，阆以老懒不任朝谒为辞，自封还敕命，时文法犹疏简若此。
+- id: guji-潘阆-event-exile
+  date: -0995
+  year_of: -995
+  label: 编置信上，题诗石井
+  type: exile
+  detail: 论者谓阆终秦党，语多怨望，遂编置信上。道旁勺石井泉，题诗柱上云"皆疑渴杀老 könyu"，犹称记室旧衔，忠于所事。苏黄门见之，以为有前辈气味，不在石曼卿苏子美下。
+- id: guji-潘阆-event-shrine
+  date: '-1208'
+  year_of: -1208
+  label: 杭议祀先贤而黜阆
+  type: commemoration
+  detail: 嘉定间，杭守建先贤祠于西湖，欲祀阆于列，有风不宜者，遂黜阆。事见叶靖逸《四朝闻见录》。
+- id: guji-潘阆-event-death
+  date: '-1009'
+  year_of: -1009
+  label: 卒
+  type: death
+  detail: 卒年不详，约北宋真宗朝间谢世；沈存中《笔谈》载其有诗名，与钱易许洞为友。
