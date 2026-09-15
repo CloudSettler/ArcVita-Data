@@ -1,0 +1,95 @@
+person:
+  qid: guji-赵佶
+  name_zh: 宋徽宗赵佶
+  names:
+    zh: 宋徽宗赵佶
+    en: Emperor Huizong of Song (Zhao Ji)
+  lifespan:
+    birth:
+      date: '1082'
+      precision: year
+      is_circa: true
+      raw: 元丰五年（约）
+    death:
+      date: '1135'
+      precision: year
+      is_circa: false
+      raw: 绍兴五年
+  birth_date: '1082'
+  death_date: '1135'
+  era: 北宋
+  reign_ref: 宣和年间
+  archetype: 帝王艺术家
+  dilemmas:
+  - 治国理政与醉心翰墨书画之间的张力
+  lesson: 艺术造诣可至极致，然身系社稷者不可独好艺术而忘政事
+  summary_first_person: 我赵佶贵为天子而醉心笔翰，置书学设官考校，宣示御书千文、十体书、洛神赋与御画于秘省，笔势劲逸得薛稷法，意度天成，不袭前作，宸章奎画散在人间皆为秘宝。
+endeavors:
+- id: guji-赵佶-endeavor-1
+  name_zh: 置书画学崇宁书画学敕令
+  phases:
+  - key: brewing
+    name_zh: 议置书学
+    labels:
+      zh: 依先王置学设官
+    start_date: 1104-06
+    highlight_event_id: guji-赵佶-event-enact
+  - key: breakthrough
+    name_zh: 特置书艺所
+    labels:
+      zh: 措置书艺所
+    start_date: 1136-01
+    highlight_event_id: guji-赵佶-event-shuyisuo
+  decisions:
+  - date: 1104-06
+    title_zh: 依先王置学设官之制置书学并附图画校试
+    rationale: 书学之用于世久矣，欲考选拣拔使人人自奋
+  - date: 1136-01
+    title_zh: 以御前告命使能者书之并特置书艺所
+    rationale: 朕欲教习前代书法，所颁告命不敢前代，时书学已罢故特置是局
+- id: guji-赵佶-endeavor-2
+  name_zh: 宣和幸秘书省宣示御书御画
+  phases:
+  - key: climax
+    name_zh: 秘书省宣示宸翰
+    labels:
+      zh: 分赉御书御画
+    start_date: 1122-03
+    highlight_event_id: guji-赵佶-event-mishu
+  decisions:
+  - date: 1122-03
+    title_zh: 幸秘书省宣示御书并恩许分赉宰臣
+    rationale: 使群臣得瞻宸章奎画
+events:
+- id: guji-赵佶-event-birth
+  event_type: birth
+  date: '1082'
+  year_of: 1082
+  description: 赵佶生
+- id: guji-赵佶-event-enact
+  event_type: endeavor
+  endeavor_id: guji-赵佶-endeavor-1
+  date: 1104-06
+  year_of: 1104
+  description: 崇宁三年六月壬子，都省言欲依先王置学设官之制，书画一体令附书学为之校试，成崇宁书画学敕令格式一部从之
+- id: guji-赵佶-event-shuyisuo
+  event_type: endeavor
+  endeavor_id: guji-赵佶-endeavor-1
+  date: 1136-01
+  year_of: 1136
+  description: 宣和六年正月己未，诏提举措置书艺所，以杜从古、徐兢、米友仁等措置管局，生徒五百人为额，篆法锺鼎李斯，真法欧虞褚薛，草法王羲之颜柳
+- id: guji-赵佶-event-mishu
+  event_type: endeavor
+  endeavor_id: guji-赵佶-endeavor-2
+  date: 1122-03
+  year_of: 1122
+  description: 宣和四年三月幸秘书省，宣示御书千文、十体书、洛神赋、行草近诗并御画，恩许分赉宰臣
+- id: guji-赵佶-event-biyan
+  event_type: endeavor
+  endeavor_id: guji-赵佶-endeavor-2
+  description: 所书州郡学大成殿榜及玉隆万寿宫神功妙济真君殿榜皆笔势劲逸，说者谓宸翰得薛稷法，意度天成不袭前作
+- id: guji-赵佶-event-death
+  event_type: death
+  date: '1135'
+  year_of: 1135
+  description: 绍兴五年赵佶卒🀀🀁
