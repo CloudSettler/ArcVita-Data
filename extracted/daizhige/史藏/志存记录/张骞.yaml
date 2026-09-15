@@ -1,0 +1,123 @@
+person:
+  qid: guji-张骞
+  name_zh: 张骞
+  names:
+    zh: 张骞
+    en: Zhang Qian
+  lifespan:
+    birth:
+      date: 约-164
+      precision: year
+      is_circa: true
+      raw: 约前164年
+    death:
+      date: 前-114
+      precision: year
+      is_circa: false
+      raw: 前114年
+  birth_date: 约-164
+  death_date: -114
+  era: 西汉
+  reign_ref: 汉武帝
+  archetype: 凿空西域的外交探险家
+  dilemmas:
+  - 联络大月氏共击匈奴，却身陷匈奴十余年，持节不失
+  - 欲通蜀身毒国道近便，然道为匈奴所隔，属臣力谏开西南夷道
+  lesson: 坚守使命、历经艰险而不改其志，方能凿空万里、拓交流之路
+  summary_first_person: 我张骞奉汉武帝之命出使西域，虽为匈奴所困十余年，然持汉节不失。自大夏还朝，我言身毒国即天竺，去蜀不远，通蜀身毒道既近又无害，遂再奉命通滇，为昆明之属开路，册张仁果为滇主，为汉家经营西南、西域奠定基础。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/张骞
+endeavors:
+- id: guji-张骞-endeavor-1
+  name_zh: 出使西域（凿空之旅）
+  phases:
+  - key: brewing
+    name_zh: 受命出使
+    labels:
+      zh:
+      - 外交
+      - 联合抗匈
+    start_date: -139
+    highlight_event_id: guji-张骞-event-mission-west
+  - key: breakthrough
+    name_zh: 凿空西域
+    labels:
+      zh:
+      - 大夏
+      - 大月氏
+    start_date: -126
+    highlight_event_id: guji-张骞-event-return
+  decisions:
+  - date: -139
+    title_zh: 应募出使大月氏
+    rationale: 汉欲联合大月氏共击匈奴，骞以郎应募，持节西行
+  - date: -126
+    title_zh: 自大夏归汉复命
+    rationale: 途中为匈奴所拘十余年，终得脱归，具言西域诸国风情
+- id: guji-张骞-endeavor-2
+  name_zh: 建言通蜀身毒道、经略西南
+  phases:
+  - key: brewing
+    name_zh: 上言通蜀身毒道
+    labels:
+      zh:
+      - 西南夷
+      - 身毒国
+    start_date: -122
+    highlight_event_id: guji-张骞-event-propose-road
+  - key: climax
+    name_zh: 奉命再遣通滇
+    labels:
+      zh:
+      - 益州
+      - 昆明
+    start_date: -122
+    highlight_event_id: guji-张骞-event-yunnan-mission
+  decisions:
+  - date: -122
+    title_zh: 建言打通蜀身毒国道
+    rationale: 大夏慕中国，患匈奴隔其道；诚通蜀身毒国道使近又无害，故言于武帝
+  - date: -122
+    title_zh: 再奉命通滇为益州
+    rationale: 帝再遣骞，道通滇为益州，亦曰昆明，册张仁果为滇主，通商贾用贝
+events:
+- id: guji-张骞-event-birth
+  date: 约-164
+  year_of: -164
+  type: birth
+  title_zh: 张骞出生
+  description_zh: 张骞生于西汉，约汉文帝后期，后为汉中郡城固人。
+- id: guji-张骞-event-mission-west
+  date: -139
+  year_of: -139
+  type: endeavor_start
+  endeavor_id: guji-张骞-endeavor-1
+  title_zh: 奉汉武帝之命出使西域
+  description_zh: 张骞持节出使大月氏，欲联西域共击匈奴，途中为匈奴所拘。
+- id: guji-张骞-event-return
+  date: -126
+  year_of: -126
+  type: milestone
+  endeavor_id: guji-张骞-endeavor-1
+  title_zh: 自大夏使还，述西域诸国
+  description_zh: 张骞自大夏归还长安，向汉武帝详陈大夏、身毒及西域诸国之情，史称凿空。
+- id: guji-张骞-event-propose-road
+  date: -122
+  year_of: -122
+  type: statement
+  endeavor_id: guji-张骞-endeavor-2
+  title_zh: 建言通蜀身毒国道
+  description_zh: 张骞谓帝言：大夏在汉西南，慕中国，患匈奴隔其道；身毒国乃天竺国也，去蜀不远，诚通蜀身毒国道使近又无害。
+- id: guji-张骞-event-yunnan-mission
+  date: -122
+  year_of: -122
+  type: milestone
+  endeavor_id: guji-张骞-endeavor-2
+  title_zh: 帝再遣骞道通滇为益州
+  description_zh: 汉武帝再遣张骞经略西南，道通滇为益州（亦曰昆明），册张仁果为滇主，通商贾贸易用贝。
+- id: guji-张骞-event-death
+  date: -114
+  year_of: -114
+  type: death
+  title_zh: 张骞去世
+  description_zh: 张骞卒于前114年，其凿空西域之功为汉通西南、西域奠定基础。
