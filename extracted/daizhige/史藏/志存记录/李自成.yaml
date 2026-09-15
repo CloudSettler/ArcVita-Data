@@ -1,0 +1,122 @@
+person:
+  qid: guji-李自成
+  name_zh: 李自成
+  names:
+    zh: 李自成
+    en: Li Zicheng
+  lifespan:
+    birth:
+      date: '1606'
+      precision: year
+      is_circa: true
+      raw: 相传万历三十四年生（古文未载，据史补）
+    death:
+      date: '1645'
+      precision: year
+      is_circa: true
+      raw: 乙酉年后败亡（古文称“贼败”）
+  birth_date: '1606'
+  death_date: '1645'
+  era: 明末清初
+  reign_ref: 大顺永昌
+  archetype: 流民起事的闯王
+  dilemmas:
+  - 以流寇之势攻城略地，能否转型为守成之主
+  - 逼死明主入据燕都后，如何应对关外新朝与降官人心
+  lesson: 破国易，立国难；无制度与人望之基，虽入京师五日建官，终不能久。
+  summary_first_person: 吾本陕之米脂双泉人，奋起陇亩，众号闯贼。甲申之春，如期破燕都，改元永昌，设官建制，然坐拥京师不过旬月，旋即败亡。掘我祖茔者、骂我逆贼者，皆载于《三冈识略》，成败之迹，后人可鉴焉。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三冈识略
+endeavors:
+- id: guji-李自成-endeavor-1
+  name_zh: 起事转战
+  labels:
+    zh: 流寇起事、转战中原
+  phases:
+  - key: brewing
+    name_zh: 起事于陕
+    labels:
+      zh: 陕北起兵
+    start_date: '1629'
+    highlight_event_id: guji-李自成-event-1
+  - key: breakthrough
+    name_zh: 围汴破州
+    labels:
+      zh: 转战中原
+    start_date: '1640'
+    highlight_event_id: guji-李自成-event-2
+  - key: climax
+    name_zh: 入都建制
+    labels:
+      zh: 破京建顺
+    start_date: '1644'
+    highlight_event_id: guji-李自成-event-3
+  - key: closure
+    name_zh: 兵败身亡
+    labels:
+      zh: 败亡
+    start_date: '1644'
+    highlight_event_id: guji-李自成-event-5
+  decisions:
+  - date: '1644'
+    title_zh: 限期三月十八日抵燕都
+    rationale: 移檄远近，声言“主非甚暗，孤立而炀蔽恒多；臣尽行私，比党而公忠绝少”，且如期破京师。
+  - date: '1644'
+    title_zh: 建元永昌、改定官制
+    rationale: 入都五日即设伪官，改印为符券契章，六部曰六政府，官服以云为级，皆出伪相牛金星所定。
+- id: guji-李自成-endeavor-2
+  name_zh: 大顺政权建设
+  labels:
+    zh: 建制永昌
+  phases:
+  - key: brewing
+    name_zh: 草创营伍
+    labels:
+      zh: 逐鹿四方
+    start_date: '1635'
+  - key: climax
+    name_zh: 定制燕都
+    labels:
+      zh: 伪官四等
+    start_date: '1644'
+    highlight_event_id: guji-李自成-event-4
+  decisions:
+  - date: '1644'
+    title_zh: 用降臣周钟草檄献策
+    rationale: 逆臣周钟为草檄文，复献下江南之策；贼败后钟潜归南都，终戮于市。
+events:
+- id: guji-李自成-event-birth
+  date: '1606'
+  year_of: 1606
+  title_zh: 李自成生于陕西米脂双泉
+  detail: 陕之米脂县双泉人，祖海，父守忠。
+- id: guji-李自成-event-1
+  date: '1629'
+  year_of: 1629
+  title_zh: 起事为“闯贼”
+  detail: 明末寇盗蜂起，李自成聚众起于陕北，时人谓之闯贼，比之献贼尤炽。
+- id: guji-李自成-event-2
+  date: '1642'
+  year_of: 1642
+  title_zh: 流寇围汴梁
+  detail: 围汴梁，城中固守，力攻三次俱不能克，用“阴门阵”嫚骂，城上以“阳门阵”应之。
+- id: guji-李自成-event-3
+  date: '1644-03-18'
+  year_of: 1644
+  title_zh: 如期破京师
+  detail: 先移檄远近，限三月十八日抵燕都，既而如期破京师，宫阙不守，思陵自缢。
+- id: guji-李自成-event-4
+  date: 1644-03
+  year_of: 1644
+  title_zh: 入都建设伪官
+  detail: 入都五日，改印曰符券契章凡四等，更定官名，六部曰六政府，巡抚曰节度使，官服以云为级，伪相牛金星所定。
+- id: guji-李自成-event-5
+  date: '1644'
+  year_of: 1644
+  title_zh: 兵败西走
+  detail: 贼败，所建大顺政权瓦解，伪官周钟等潜归南都被戮。
+- id: guji-李自成-event-death
+  date: '1645'
+  year_of: 1645
+  title_zh: 李自成败亡身死
+  detail: 古文载“贼败”，其势遂灭；史传通称乙酉年死于九宫山。
