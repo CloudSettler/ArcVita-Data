@@ -1,0 +1,79 @@
+person:
+  qid: guji-武后
+  name_zh: 武后
+  names:
+    zh: 武后
+    en: Wu Hou
+  lifespan:
+    birth:
+      date: '0624'
+      precision: year
+      is_circa: true
+      raw: 约624年
+    death:
+      date: '0705'
+      precision: year
+      is_circa: false
+  birth_date: '0624'
+  death_date: '0705'
+  era: 唐代
+  reign_ref: 武周
+  archetype: 女主 · 文坛倡导者
+  dilemmas:
+  - 以诗赋取士与笼络文臣之间如何平衡
+  lesson: 奖掖诗文，能于群臣竞赋中识拔真才
+  summary_first_person: 我是武后，曾游龙门集群臣赋诗，先成者赐锦袍。东方虬诗成得袍未安，宋之问后成而文理兼美，众皆称善，我遂夺袍改赐之，可见我重才惜文。
+endeavors:
+- id: guji-武后-endeavor-1
+  name_zh: 龙门赋诗夺锦
+  phases:
+  - key: brewing
+    name_zh: 游龙门命赋诗
+    labels:
+      zh:
+      - 宫廷雅集
+      - 文学倡导
+    start_date: 0690
+    highlight_event_id: guji-武后-event-longmen
+  - key: climax
+    name_zh: 夺锦袍赐宋之问
+    labels:
+      zh:
+      - 识才
+      - 赏赐
+    start_date: 0690
+    highlight_event_id: guji-武后-event-duojin
+  - key: closure
+    name_zh: 诗会传为佳话
+    labels:
+      zh:
+      - 文坛佳话
+    start_date: 0690
+    highlight_event_id: guji-武后-event-longmen
+  decisions:
+  - date: 0690
+    title_zh: 夺东方虬锦袍改赐宋之问
+    rationale: 宋之问诗后成而文理兼美，左右莫不称善，故以袍归之
+events:
+- id: guji-武后-event-birth
+  date: '0624'
+  year_of: 624
+  type: birth
+  summary: 武后生，约624年。
+- id: guji-武后-event-longmen
+  date: 0690
+  year_of: 690
+  type: endeavor
+  endeavor_id: guji-武后-endeavor-1
+  summary: 武后游龙门，命群臣赋诗，先成者赐锦袍；左史东方虬诗成受赐。
+- id: guji-武后-event-duojin
+  date: 0690
+  year_of: 690
+  type: endeavor
+  endeavor_id: guji-武后-endeavor-1
+  summary: 宋之问诗后成，文理兼美，左右称善；武后就夺东方虬锦袍衣之，宋诗咏龙门山水 rode 之盛。
+- id: guji-武后-event-death
+  date: '0705'
+  year_of: 705
+  type: death
+  summary: 武后卒于705年。
