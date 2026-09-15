@@ -1,0 +1,121 @@
+person:
+  qid: guji-真德秀
+  name_zh: 真德秀
+  names:
+    zh: 真德秀
+    en: Zhen Dexiu
+  lifespan:
+    birth:
+      date: '1178'
+      precision: year
+      is_circa: true
+      raw: 南宋淳熙五年
+    death:
+      date: '1235'
+      precision: year
+      is_circa: false
+      raw: 端平二年
+  birth_date: '1178'
+  death_date: '1235'
+  era: 南宋
+  reign_ref: 嘉定、绍定、端平年间
+  archetype: 理学名臣·州郡长官
+  dilemmas:
+  - 州县官吏借税赋与科买盘剥民生，须在朝廷 волон额与宽恤之间取舍
+  - 属下官吏贪墨成习，长吏须先正己而后正人
+  lesson: 律己以廉、抚民以仁、存心以公、莅事以勤
+  summary_first_person: 我以理学名臣出知泉州、潭州，撰政训诫同僚以廉仁公勤四事，力革预借重催、科罚下乡诸害，奖孝悌、清狱讼、薄赋敛，惟期湖湘泉南之民蒙休。
+  source_urls:
+  - https://zh.wikisource.org/wiki/西山政训
+endeavors:
+- id: guji-真德秀-endeavor-1
+  name_zh: 知泉州兴利除弊
+  labels:
+    zh: 泉州政绩·清赋禁扰
+  phases:
+  - key: brewing
+    name_zh: 首任泉州，诏谕养士恤民
+    labels:
+      zh: 到任访民·崇风教
+    start_date: '1217'
+    highlight_event_id: guji-真德秀-event-quanzhou
+  - key: climax
+    name_zh: 清狱犴、平赋税、禁苛扰诸约束
+    labels:
+      zh: 除十害·革预借催科
+    start_date: '1218'
+    highlight_event_id: guji-真德秀-event-xianjie
+  - key: closure
+    name_zh: 再抚泉南，重申四事之勉
+    labels:
+      zh: 再起知泉·完训成书
+    start_date: '1231'
+  decisions:
+  - date: ca. 1218
+    title: 严禁预借税租与重叠催科
+    rationale: 民户因重复追催至于破家荡产、鬻妻卖子，必期尽绝其弊
+  - date: ca. 1218
+    title: 整顿县学，钩考学田养士
+    rationale: 学田多为豪民公吏侵占，失朝廷育材待用之本意
+- id: guji-真德秀-endeavor-2
+  name_zh: 知潭州发布西山政训
+  labels:
+    zh: 长沙谕僚·四事去十害
+  phases:
+  - key: brewing
+    name_zh: 帅长沙，谕官僚以廉仁公勤
+    labels:
+      zh: 四事自勉·十害当去
+    start_date: '1232'
+    highlight_event_id: guji-真德秀-event-zhengxun
+  - key: climax
+    name_zh: 崇风教奖孝行，正名分厚风俗
+    literals:
+      zh: 立坊表孝·和会骨肉之讼
+    start_date: ca. 1232
+  - key: closure
+    name_zh: 虚心纳谏，集众思广忠益
+    labels:
+      zh: 一道利病·愿闻其详
+    start_date: ca. 1233
+  decisions:
+  - date: ca. 1232
+    title: 与同僚约以四事自勉
+    rationale: 正己之道未至、爱人之意不孚，虽有教告而民未必从
+  - date: ca. 1232
+    title: 听讼以正名分厚风俗为先
+    rationale: 骨肉之讼面加开谕往往幡然而改，可革偷薄之俗
+events:
+- id: guji-真德秀-event-birth
+  type: birth
+  date: '1178'
+  year_of: 1178
+  date_precision: year
+  description: 真德秀生于南宋福建路建州浦城，世称西山先生。
+- id: guji-真德秀-event-quanzhou
+  type: career
+  date: '1217'
+  year_of: 1217
+  date_precision: year
+  event_class: government
+  description: 嘉定十年任泉州知州，到任以五事谕民，孝悌为先，奖孝行立寿母坊、懿孝坊。
+- id: guji-真德秀-event-zhengxun
+  type: career
+  date: ca. 1232
+  year_of: 1232
+  date_precision: circa
+  event_class: government
+  description: 帅长沙日谕官僚，撰西山政训，以律己以廉、抚民以仁、存心以公、莅事以勤四事自勉，为民去十害。
+- id: guji-真德秀-event-xianjie
+  type: career
+  date: ca. 1218
+  year_of: 1218
+  date_precision: circa
+  event_class: policy
+  description: 颁行约束：清狱犴、平赋税、禁苛扰，革预借重催、科罚取财、纵吏下乡低价买物诸弊。
+- id: guji-真德秀-event-death
+  type: death
+  date: '1235'
+  year_of: 1235
+  date_precision: year
+  description: 端平二年卒于位，追封浦城伯，后从祀孔庙。
