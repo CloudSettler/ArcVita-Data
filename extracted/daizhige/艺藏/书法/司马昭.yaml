@@ -1,0 +1,120 @@
+person:
+  qid: guji-司马昭
+  name_zh: 司马昭
+  names:
+    zh: 司马昭
+    en: Sima Zhao
+  lifespan:
+    birth:
+      date: '211'
+      precision: year
+      is_circa: true
+      raw: 约211年
+    death:
+      date: 265-09-06
+      precision: day
+      is_circa: false
+  birth_date: 约太和五年（211年）
+  death_date: 魏咸熙二年八月（265年9月）
+  era: 三国·魏
+  reign_ref: 魏明帝至魏元帝时期
+  archetype: 权臣书法家
+  dilemmas:
+  - 身为权相而翰墨见称，武功与书艺并驰
+  - 位极人臣而终身称臣，禅代之业留待子孙
+  lesson: 权位一时，艺名千古；文皇帝之手迹亦入书家品流。
+  summary_first_person: 我司马昭，字子上，河内温县人，晋宣帝司马懿次子。我官至魏相国、录尚书事，封晋文王，甘露年间平定淮南之叛，景元年间遣钟会、邓艾灭蜀。世人评我「量蕴文儒，才苞古人」，谓我笔迹高子
+    上之雄神，可与兄长司马师之瑰迹并称。我子司马炎受禅建晋，追尊我为文皇帝。
+  source_urls:
+  - https://zh.wikisource.org/wiki/述书赋
+endeavors:
+- id: guji-司马昭-endeavor-1
+  name_zh: 仕魏掌政
+  phases:
+  - key: brewing
+    name_zh: 入仕历练
+    labels:
+      zh: 任散骑常侍、议郎
+    start_date: '240'
+    highlight_event_id: guji-司马昭-event-1
+  - key: breakthrough
+    name_zh: 继兄辅政
+    labels:
+      zh: 晋丞相、录尚书事
+    start_date: '255'
+    highlight_event_id: guji-司马昭-event-2
+  - key: climax
+    name_zh: 平蜀定业
+    labels:
+      zh: 灭蜀汉、封晋王
+    start_date: '263'
+    highlight_event_id: guji-司马昭-event-3
+  - key: closure
+    name_zh: 身后追尊
+    labels:
+      zh: 追尊文皇帝
+    start_date: '265'
+    highlight_event_id: guji-司马昭-event-death
+  decisions:
+  - date: '258'
+    title_zh: 讨平淮南诸葛诞之叛后专断魏政
+    rationale: 三叛既平，司马氏代魏之势已成，遂加九锡、进爵晋公。
+  - date: '263'
+    title_zh: 遣钟会、邓艾、诸葛绪三路伐蜀
+    rationale: 蜀汉连年北伐耗损国力，乘隙一举兼并，立不世之功。
+- id: guji-司马昭-endeavor-2
+  name_zh: 翰墨书法
+  phases:
+  - key: brewing
+    name_zh: 承家学钟繇
+    labels:
+      zh: 师法钟、卫，工于笔翰
+    start_date: '230'
+    highlight_event_id: guji-司马昭-event-4
+  - key: breakthrough
+    name_zh: 雄神之评
+    labels:
+      zh: 「高子上之雄神」入品流
+    start_date: '740'
+    highlight_event_id: guji-司马昭-event-4
+  decisions:
+  - date: '250'
+    title_zh: 以文儒之量寄于笔墨
+    rationale: 寄词达礼、任道怀仁，书迹遂为唐人窦臮《述书赋》所录，与王羲之诸贤同列品流。
+events:
+- id: guji-司马昭-event-birth
+  date: '211'
+  year_of: '211'
+  type: birth
+  title_zh: 司马昭出生
+  description: 河内温县人，宣帝司马懿次子，母张春华，字子上。
+- id: guji-司马昭-event-1
+  date: '240'
+  year_of: '240'
+  type: career
+  title_zh: 历官洛阳，预军国之谋
+  description: 正始年间为散骑常侍，随父司马懿征讨，渐掌机要。
+- id: guji-司马昭-event-2
+  date: '255'
+  year_of: '255'
+  type: political
+  title_zh: 继兄司马师辅政，为大将军
+  description: 嘉平七年司马师卒于许昌，昭继为大将军、录尚书事，总揽朝政。
+- id: guji-司马昭-event-3
+  date: 263-11
+  year_of: '263'
+  type: military
+  title_zh: 遣军灭蜀，进封晋公
+  description: 邓艾入成都，刘禅出降，蜀汉亡；昭以殊功进位相国、封晋公，后进爵晋王。
+- id: guji-司马昭-event-4
+  date: '740'
+  year_of: '740'
+  type: legacy
+  title_zh: 《述书赋》评其书迹
+  description: 唐窦臮《述书赋》列司马昭为魏五书家之一，评曰「高子上之雄神」「量蕴文儒，才苞古人」「如睛郊驷马，维岳降神」，注称其「终魏相国、录尚书事，封文王，追尊文皇帝」。
+- id: guji-司马昭-event-death
+  date: 265-09-06
+  year_of: '265'
+  type: death
+  title_zh: 司马昭卒，其子司马炎代魏建晋
+  description: 昭卒于洛阳，谥文王；同年八月其子炎受禅，追尊昭为文皇帝，庙号太祖。
