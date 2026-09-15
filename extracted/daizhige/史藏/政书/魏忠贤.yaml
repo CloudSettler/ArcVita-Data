@@ -1,0 +1,114 @@
+person:
+  qid: guji-魏忠贤
+  name_zh: 魏忠贤
+  names:
+    zh: 魏忠贤
+    en: Wei Zhongxian
+  lifespan:
+    birth:
+      date: '1568'
+      precision: year
+      is_circa: true
+      raw: 生年史料未详，姑系于隆庆前后
+    death:
+      date: '1627'
+      precision: year
+      is_circa: false
+      raw: 崇祯初被诛（正文未载，系于天启末崇祯初）
+  birth_date: '1568'
+  death_date: '1627'
+  era: 明末
+  reign_ref: 天启
+  archetype: 权阉
+  dilemmas:
+  - 内廷近侍之身而窃国柄，威福自专
+  - 附势者众，身后沦为前代乱亡之鉴
+  lesson: 宠任貂珰则干纲不振，权移宦寺终致社稷为墟
+  summary_first_person: 我本宫中寺人，因得司礼监秉笔之职，生杀予夺任所欲为，天启年间擅政，拆山石、浚宫河、改直房，威福自专如具固有；然明之败亡实由我辈肆横，遂为千古殷鉴。
+  source_urls:
+  - https://cta.wikisource.org/wiki/明宮史
+endeavors:
+- id: guji-魏忠贤-endeavor-1
+  name_zh: 司礼监秉笔擅政
+  phases:
+  - key: brewing
+    name_zh: 入掌司礼监
+    labels:
+      zh: 内廷秉笔
+    start_date: '1620'
+    highlight_event_id: guji-魏忠贤-event-1
+  - key: climax
+    name_zh: 专权天启
+    labels:
+      zh: 威福自专
+    start_date: '1621'
+    highlight_event_id: guji-魏忠贤-event-2
+  - key: closure
+    name_zh: 崇祯初败亡
+    labels:
+      zh: 身败名裂
+    start_date: '1627'
+  decisions:
+  - date: '1621'
+    title_zh: 以司礼监秉笔之职任事
+    rationale: 明季寺人所为，得司礼监秉笔则生杀予夺任所欲为
+  - date: '1626'
+    title_zh: 拆毁太液池旧砌山石
+    rationale: 擅政无忌，视禁苑古迹如私产
+- id: guji-魏忠贤-endeavor-2
+  name_zh: 营建改造内廷
+  phases:
+  - key: breakthrough
+    name_zh: 改建养心殿侧直房
+    labels:
+      zh: 移膳房为直房
+    start_date: '1625'
+    highlight_event_id: guji-魏忠贤-event-3
+  - key: climax
+    name_zh: 勒令疏通紫禁城内河
+    labels:
+      zh: 借水防火
+    start_date: '1624'
+    highlight_event_id: guji-魏忠贤-event-4
+  decisions:
+  - date: '1625'
+    title_zh: 移膳房于怡神殿
+    rationale: 便于秉笔随堂众住之河边直房扩展占用
+  - date: '1624'
+    title_zh: 疏浚宫中故河
+    rationale: 神庙久不临御河遂壅塞，恐回禄之变无水可赖
+events:
+- id: guji-魏忠贤-event-birth
+  date: '1568'
+  year_of: 1568
+  type: birth
+  title_zh: 出生（约）
+- id: guji-魏忠贤-event-death
+  date: '1627'
+  year_of: 1627
+  type: death
+  title_zh: 死亡
+- id: guji-魏忠贤-event-1
+  date: '1620'
+  year_of: 1620
+  type: career
+  title_zh: 得司礼监秉笔之权
+  detail_zh: 如王振刘瑾之流俱以司礼监秉笔生杀予夺任所欲为
+- id: guji-魏忠贤-event-2
+  date: '1621'
+  year_of: 1621
+  type: career
+  title_zh: 天启年间擅政
+  detail_zh: 天启年间魏忠贤擅政，又將太液池舊砌山石俱拆毀
+- id: guji-魏忠贤-event-3
+  date: '1625'
+  year_of: 1625
+  type: career
+  title_zh: 移膳房改直房
+  detail_zh: 魏忠賢移膳房於怡神殿，將養心殿后房改为秉笔直房
+- id: guji-魏忠贤-event-4
+  date: '1624'
+  year_of: 1624
+  type: career
+  title_zh: 勒令疏通内河
+  detail_zh: 神庙久不临御河遂壅塞，魏忠賢专政时勒令疏通
