@@ -1,0 +1,137 @@
+person:
+  qid: guji-异牟寻
+  name_zh: 异牟寻
+  names:
+    zh: 异牟寻
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详（唐代宗大历十四年嗣立）
+    death:
+      date: 0799
+      precision: year
+      is_circa: true
+  death_date: 0799
+  era: 唐（南诏）
+  reign_ref: 唐代宗大历十四年（779）嗣南诏王位，至唐德宗贞元十五年前卒
+  archetype: 雄踞一方的君主，判吐蕃归唐、重定边势的谋略之主
+  dilemmas:
+  - 臣属吐蕃由此屡遭征调之苦，与归唐可能引发吐蕃报复之间的权衡
+  - 韦皋设计转达归化之诚至吐蕃，反令吐蕃生疑，归附志向愈坚
+  lesson: 弃暗投明、审时度势，可于一念之间改变数十年边局
+  summary_first_person: 我异牟寻嗣立南诏，曾连吐蕃入寇而败于李晟，后经郑回晓以大义，得韦皋招抚，遂上表请绝吐蕃、复臣于唐，亲率数万人大破吐蕃，遣弟献图纳贡并请复号南诏，受唐册封黄金印。方士老人言宴使者时出玄宗所赐器物，告以尽忠皇唐，我答“敢不敬使者之命”。
+endeavors:
+- id: guji-异牟寻-endeavor-1
+  name_zh: 嗣立改号与僭制立祠
+  phases:
+  - key: brewing
+    name_zh: 嗣立迁居
+    labels:
+      zh:
+      - 继位
+      - 徙都
+    start_date: 0779
+    highlight_event_id: guji-异牟寻-event-succession
+  - key: breakthrough
+    name_zh: 连吐蕃入寇改号大理
+    labels:
+      zh:
+      - 联蕃败唐
+      - 改国号
+    start_date: 0779
+    highlight_event_id: guji-异牟寻-event-defeat-li-sheng
+  decisions:
+  - date: 0779
+    title_zh: 改城苴咩、改国号曰大理、自称日东王
+    rationale: 既败于唐将李晟，惧而迁城改号，重立五岳四渎官制
+- id: guji-异牟寻-endeavor-2
+  name_zh: 归唐破蕃复号南诏
+  phases:
+  - key: brewing
+    name_zh: 郑回说义、韦皋招抚
+    labels:
+      zh:
+      - 内附之谋
+    start_date: 0787
+    highlight_event_id: guji-异牟寻-event-zheng-hui-persuasion
+  - key: breakthrough
+    name_zh: 上表绝蕃复臣于唐
+    labels:
+      zh:
+      - 归唐
+    start_date: 0793
+    highlight_event_id: guji-异牟寻-event-court-rejoin
+  - key: climax
+    name_zh: 自将袭蕃大破之
+    labels:
+      zh:
+      - 击破吐蕃
+    start_date: 0794
+    highlight_event_id: guji-异牟寻-event-defeat-tubo
+  - key: closure
+    name_zh: 献图纳贡受册封
+    labels:
+      zh:
+      - 复号南诏
+    start_date: 0794
+    highlight_event_id: guji-异牟寻-event-tributary-investiture
+  decisions:
+  - date: 0787
+    title_zh: 听郑回说以大义，许复归唐
+    rationale: 吐蕃征调无度，_CLASSIC_唐招抚群蛮，方士方士言_verbatim_旧国旧俗终以大义归唐为上策
+events:
+- id: guji-异牟寻-event-birth
+  type: birth
+  place: 南诏（生年不详）
+  actor: guji-异牟寻
+  description: 异牟寻生年史无明载，为阁罗凤之孙、凤伽异之子。
+- id: guji-异牟寻-event-succession
+  type: succession
+  date: 0779
+  year_of: 779
+  place: 南诏史城
+  actor: guji-异牟寻
+  description: 唐代宗大历十四年嗣立南诏王位，有智数、善抚众，居史城（今喜州）。
+- id: guji-异牟寻-event-defeat-li-sheng
+  type: military-event
+  date: 0779
+  year_of: 779
+  place: 南诏边境
+  actor: guji-异牟寻
+  description: 连兵吐蕃入寇，为唐神策都将李晟击破；异牟寻惧，改城苴咩（今大理），改国号曰大理，自称日东王。
+- id: guji-异牟寻-event-zheng-hui-persuasion
+  type: political-event
+  date: 0787
+  year_of: 787
+  place: 南诏苴咩
+  actor: guji-异牟寻
+  description: 唐德宗贞元三年，清平官郑回说以大义令复归唐，异牟寻然之；会西川节度使韦皋招抚群蛮，异牟寻因求内附。
+- id: guji-异牟寻-event-court-rejoin
+  type: political-event
+  date: 0793
+  year_of: 793
+  place: 长安方向·西川
+  actor: guji-异牟寻
+  description: 贞元九年上表请绝吐蕃、复臣于唐。
+- id: guji-异牟寻-event-defeat-tubo
+  type: military-event
+  date: 0794
+  year_of: 794
+  place: 吐蕃方向
+  actor: guji-异牟寻
+  description: 贞元十年，自将数万人袭吐蕃，大破之。
+- id: guji-异牟寻-event-tributary-investiture
+  type: diplomatic-event
+  date: 0794
+  year_of: 794
+  place: 苴咩
+  actor: guji-异牟寻
+  description: 遣其弟献图纳贡并献吐蕃所颁金印，请复号南诏；唐遣使册封，赐银窠、黄金印，异牟寻北面跪受，宴使指南诏老人言出玄宗所赐器物，誓尽忠皇唐。
+- id: guji-异牟寻-event-death
+  type: death
+  date: 0799
+  year_of: 799
+  place: 南诏
+  actor: guji-异牟寻
+  description: 死，伪谥孝恒（孝恒），改元二（见龙、上元），子寻阁劝嗣，寻阁劝于唐德宗贞元十五年立，故约卒于799年前后。
