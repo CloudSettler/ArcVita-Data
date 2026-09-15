@@ -1,0 +1,101 @@
+person:
+  qid: guji-杨业
+  name_zh: 杨业
+  names:
+    zh: 杨业
+    en: Yang Ye
+  lifespan:
+    birth:
+      date: '923'
+      precision: year
+      is_circa: true
+      raw: 约923年（史无明文，据通行说法）
+    death:
+      date: '986'
+      precision: year
+      is_circa: false
+      raw: 雍熙三年（986）
+  birth_date: '923'
+  death_date: '986'
+  era: 北宋
+  reign_ref: 宋太宗雍熙年间
+  archetype: 忠烈边将
+  dilemmas:
+  - 护送迁民而孤军遇敌，战守进退两难，终苦战被禽，守节而死
+  lesson: 孤军受命，力竭不降，以死殉节，追赠太尉，忠烈传世。
+  summary_first_person: 我杨业，云州观察使，雍熙北伐中为潘美副将出雁门，连克寰、朔、应诸州；及曹彬败绩，契丹十万众复陷寰州，我奉命护送迁民，苦战力尽被禽，守节而死，赠太尉、大同军节度使。
+endeavors:
+- id: guji-杨业-endeavor-1
+  name_zh: 雍熙北伐西路战役
+  labels:
+    zh:
+    - 北伐
+    - 守边
+  phases:
+  - key: brewing
+    name_zh: 受命出征
+    labels:
+      zh:
+      - 受任
+    start_date: 986-02
+    highlight_event_id: guji-杨业-event-appoint
+  - key: breakthrough
+    name_zh: 连克州城
+    labels:
+      zh:
+      - 克寰朔应
+    start_date: 986-03
+    highlight_event_id: guji-杨业-event-capture
+  - key: climax
+    name_zh: 力战殉节
+    labels:
+      zh:
+      - 护民
+      - 殉国
+    start_date: 986-05
+    highlight_event_id: guji-杨业-event-death
+  - key: closure
+    name_zh: 追赠褒恤
+    labels:
+      zh:
+      - 赠太尉
+    start_date: 986-08
+    highlight_event_id: guji-杨业-event-posthumous
+  decisions:
+  - date: 986-02
+    title_zh: 以云州观察使为潘美副将出雁门
+    rationale: 宋廷北伐取燕蓟故地，西路以潘美为都部署、杨业副之。
+  - date: 986-05
+    title_zh: 护送云应寰朔四州迁民
+    rationale: 大军败退，奉命徙吏民内附，虽知势孤而担当其任。
+events:
+- id: guji-杨业-event-birth
+  date: 0923
+  year_of: 923
+  type: birth
+  title_zh: 杨业生（约）
+- id: guji-杨业-event-appoint
+  date: 986-02
+  year_of: 986
+  type: endeavor
+  title_zh: 授云州观察使，为西路副将出雁门
+- id: guji-杨业-event-capture
+  date: 986-03
+  year_of: 986
+  type: endeavor
+  title_zh: 从潘美西陉入，追至寰州克之，围朔州降其守将
+- id: guji-杨业-event-yingzhou
+  date: 986-04
+  year_of: 986
+  type: endeavor
+  title_zh: 师至应州，守将以城降；潘美克云州
+- id: guji-杨业-event-death
+  date: 986-05
+  year_of: 986
+  type: endeavor
+  title_zh: 护送迁民遇契丹十万众，苦战力尽被禽，守节而死
+- id: guji-杨业-event-posthumous
+  date: 986-08
+  year_of: 986
+  type: honor
+  title_zh: 赠太尉、大同军节度使
