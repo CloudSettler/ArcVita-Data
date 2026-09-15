@@ -1,0 +1,101 @@
+person:
+  qid: guji-程邈
+  name_zh: 程邈
+  names:
+    zh: 程邈、程元岑
+    en: Cheng Miao
+  lifespan:
+    birth:
+      date: -260
+      precision: year
+      is_circa: true
+      raw: 秦时人，生年不详，约推前3世纪中叶
+    death:
+      date: -200
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 约前260年
+  death_date: 约前200年
+  era: 秦
+  reign_ref: 秦始皇
+  archetype: 狱吏型文字改革家 / 苦难中成就事业的功TimesHero
+  dilemmas:
+  - 身陷囹圄而志不改，以十年覃思化困厄为学问
+  - 改篆为隶违背古法常规，须冒险上奏以求认可
+  lesson: 十年幽系不废覃思，将繁琐化为简易，方成垂世之体
+  summary_first_person: 我程邈字元岑，下邽人，初为衙县狱吏，得罪被幽系于云阳狱中，覃思十年，变篆为隶，得三千字奏于始皇，蒙释罪并任御史，遂为隶书之祖。
+  source_urls:
+  - https://zh.wikisource.org/wiki/書史會要/卷一
+endeavors:
+- id: guji-程邈-endeavor-1
+  name_zh: 狱中覃思变篆为隶
+  phases:
+  - key: brewing
+    name_zh: 起为衙县狱吏
+    labels:
+      zh: 任职狱吏
+    start_date: -240
+    highlight_event_id: guji-程邈-event-office
+  - key: breakthrough
+    name_zh: 云阳幽系覃思
+    labels:
+      zh: 幽系覃思
+    start_date: -230
+    highlight_event_id: guji-程邈-event-imprison
+  - key: climax
+    name_zh: 变篆为隶得三千字
+    labels:
+      zh: 变篆为隶
+    start_date: -222
+    highlight_event_id: guji-程邈-event-present
+  - key: closure
+    name_zh: 释罪拜御史
+    labels:
+      zh: 拜御史
+    start_date: -221
+    highlight_event_id: guji-程邈-event-appoint
+  decisions:
+  - date: -230
+    title_zh: 于云阳狱中潜心研究文字
+    rationale: 身虽幽系，覃思十年，欲减省篆书之繁难以便文书之用
+  - date: -222
+    title_zh: 变篆为隶得三千字上奏始皇
+    rationale: 以文牍繁多难以用篆，遂减小篆为便用之法，作隶书三千字献之
+events:
+- id: guji-程邈-event-birth
+  event_type: birth
+  date: -260
+  year_of: -260
+  name_zh: 程邈生（约年）
+  description: 程邈，字元岑，下邽人，约生于此时
+- id: guji-程邈-event-office
+  event_type: endeavor
+  date: -240
+  year_of: -240
+  name_zh: 起为衙县狱吏
+  description: 程邈始为衙县狱吏，任文牍刑狱之事
+- id: guji-程邈-event-imprison
+  event_type: endeavor
+  date: -230
+  year_of: -230
+  name_zh: 得罪幽系云阳狱
+  description: 程邈得罪，被幽系于云阳狱，自此覃思十年
+- id: guji-程邈-event-present
+  event_type: endeavor
+  date: -222
+  year_of: -222
+  name_zh: 变篆为隶得三千字奏之
+  description: 程邈变篆为隶，得三千字，上奏始皇，即后世所称隶书之创始
+- id: guji-程邈-event-appoint
+  event_type: endeavor
+  date: -221
+  year_of: -221
+  name_zh: 始皇释其罪用为御史
+  description: 始皇嘉其功，释其罪并用为御史，隶书行于官府刑狱之间
+- id: guji-程邈-event-death
+  event_type: death
+  date: -200
+  year_of: -200
+  name_zh: 程邈卒（约年）
+  description: 程邈约卒于此时，后世尊为隶书之祖
