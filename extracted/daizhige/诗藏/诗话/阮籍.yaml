@@ -1,0 +1,116 @@
+person:
+  qid: guji-阮籍
+  name_zh: 阮籍
+  names:
+    zh: 阮籍
+    en: Ruan Ji
+  lifespan:
+    birth:
+      date: 210
+      precision: year
+      is_circa: true
+      raw: 约210年
+    death:
+      date: 263
+      precision: year
+      is_circa: true
+  birth_date: 210
+  death_date: 263
+  era: 三国·曹魏
+  reign_ref: 魏晋之际
+  archetype: 乱世狂士 / 咏怀诗人
+  dilemmas:
+  - 易代之际身处曹魏与司马氏权斗夹缝，以酣饮佯狂自保而不失其志
+  - 内心感慨之词渊放难求，不敢直言其志
+  lesson: 在森严时局中，以诗寄托幽思，言在耳目之内而情寄八荒之表
+  summary_first_person: 我阮籍，身处魏晋易代之际，位列晋步兵校尉。我作《咏怀》诸篇，源出《小雅》，不事雕虫之功，却能陶性灵、发幽思。世人评我诗洋洋乎会于《风》《雅》，厥旨渊放、归趣难求，连颜延年注解也怯言其志。
+  source_urls:
+  - https://zh.wikisource.org/wiki/詩品
+endeavors:
+- id: guji-阮籍-endeavor-1
+  name_zh: 创作《咏怀诗》
+  phases:
+  - key: brewing
+    name_zh: 感于乱世、蓄积幽思
+    labels:
+      zh: 蓄思
+    start_date: 240
+    highlight_event_id: guji-阮籍-event-write-yonghuai
+  - key: breakthrough
+    name_zh: 《咏怀》之作成
+    labels:
+      zh: 成篇
+    start_date: 250
+    highlight_event_id: guji-阮籍-event-write-yonghuai
+  - key: climax
+    name_zh: 陶性灵、发幽思，会于《风》《雅》
+    labels:
+      zh: 传世
+    start_date: 255
+    highlight_event_id: guji-阮籍-event-ranked-shangpht
+  - key: closure
+    name_zh: 其旨渊放归趣难求，注家怯言其志
+    labels:
+      zh: 难解
+    start_date: 263
+    highlight_event_id: guji-阮籍-event-death
+  decisions:
+  - date: 250
+    title_zh: 以五言《咏怀》寄托感慨
+    rationale: 世事难得直言，故言在耳目之内、情寄八荒之表，歸趣难求以自晦
+- id: guji-阮籍-endeavor-2
+  name_zh: 仕于曹魏、为步兵校尉
+  phases:
+  - key: brewing
+    name_zh: 出仕魏朝
+    labels:
+      zh: 出仕
+    start_date: 240
+    highlight_event_id: guji-阮籍-event-write-yonghuai
+  - key: breakthrough
+    name_zh: 任职步兵，世称阮步兵
+    labels:
+      zh: 步兵
+    start_date: 248
+    highlight_event_id: guji-阮籍-event-write-yonghuai
+  - key: climax
+    name_zh: 与嵇康等并为竹林名士，处魏晋之际
+    labels:
+      zh: 名士
+    start_date: 250
+    highlight_event_id: guji-阮籍-event-ranked-shangpht
+  - key: closure
+    name_zh: 卒于魏晋易代之际
+    labels:
+      zh: 终老
+    start_date: 263
+    highlight_event_id: guji-阮籍-event-death
+  decisions:
+  - date: 248
+    title_zh: 求为步兵校尉
+    rationale: 兵厨有酒可藏，遂求为此官，以酣饮自晦处方 inspection 间
+events:
+- id: guji-阮籍-event-birth
+  date: 210
+  year_of: 210
+  type: birth
+  title_zh: 阮籍生
+  description_zh: 阮籍生于建安年间，字嗣宗，陈留尉氏人，瑀之子。
+- id: guji-阮籍-event-write-yonghuai
+  date: 250
+  year_of: 250
+  type: career
+  title_zh: 创作《咏怀》之作
+  description_zh: 钟嵘《诗品》评：「《咏怀》之作，可以陶性灵，发幽思。言在耳目之内，情寄八荒之表。洋洋乎会于《风》《雅》……厥旨渊放，归趣难求。」源出于《小雅》，无雕虫之功。
+- id: guji-阮籍-event-ranked-shangpht
+  date: 500
+  year_of: 500
+  type: recognition
+  title_zh: 《诗品》列阮籍于上品
+  description_zh: 钟嵘《诗品》卷上列「晋步兵阮籍」，评其诗颇多感慨之词，渊放难求，与陈思、公幹并列上品。
+- id: guji-阮籍-event-death
+  date: 263
+  year_of: 263
+  type: death
+  title_zh: 阮籍卒
+  description_zh: 阮籍卒于魏景元四年，享年约五十四，处魏晋易代之际。
