@@ -1,0 +1,107 @@
+person:
+  qid: guji-li-gao
+  name_zh: 李暠
+  names:
+    zh: 李暠
+    en: Li Gao
+  lifespan:
+    birth:
+      date: '351'
+      precision: year
+      is_circa: true
+      raw: '351'
+    death:
+      date: '417'
+      precision: year
+      is_circa: false
+      raw: '417'
+  birth_date: '351'
+  death_date: '417'
+  era: 十六国·西凉
+  reign_ref: 西凉太祖武昭王
+  archetype: 开国之君·文治守边
+  dilemmas:
+  - 乱世之中据守河西，周旋于北凉蒙逊强邻之间
+  - 迁都酒泉以避北凉兵锋
+  lesson: 弱国恃文德与柔道自守，然终难敌强邻之逼迫。
+  summary_first_person: 我李暠，字玄盛，陇西成纪人，汉将军李广之后。世乱之际，我据敦煌、酒泉之地，建立西凉，称凉公，修文崇儒，保境安民，与北凉蒙逊争衡累年，卒以身殁国促为憾。
+endeavors:
+- id: guji-li-gao-endeavor-1
+  name_zh: 建立西凉
+  phases:
+  - key: brewing
+    name_zh: 都督凉兴以西诸军事
+    labels:
+      zh: 起兵敦煌
+    start_date: '397'
+    highlight_event_id: guji-li-gao-event-guen-fan
+  - key: breakthrough
+    name_zh: 称凉公建西凉
+    labels:
+      zh: 开国称制
+    start_date: '400'
+    highlight_event_id: guji-li-gao-event-founding
+  - key: climax
+    name_zh: 迁都酒泉
+    labels:
+      zh: 迁都图存
+    start_date: '405'
+  - key: closure
+    name_zh: 卒于酒泉
+    labels:
+      zh: 赍志而殁
+    start_date: '417'
+    highlight_event_id: guji-li-gao-event-death
+  decisions:
+  - date: '400'
+    title_zh: 称凉公，建年号庚子
+    rationale: 六郡之众推为盟主，遂据敦煌自立
+  - date: '405'
+    title_zh: 徙都酒泉
+    rationale: 移都近逼北凉，以备蒙逊，积谷戍边
+- id: guji-li-gao-endeavor-2
+  name_zh: 崇文修政
+  phases:
+  - key: brewing
+    name_zh: 广开言路，兴办学校
+    labels:
+      zh: 文教立国
+    start_date: '400'
+  - key: climax
+    name_zh: 写诸葛亮训诫以勖诸子
+    labels:
+      zh: 手令诫子
+    start_date: '417'
+  decisions:
+  - date: '417'
+    title_zh: 遗令尹氏与诸子协和
+    rationale: 深忧诸子不睦为蒙逊所乘，力劝兄弟一心
+events:
+- id: guji-li-gao-event-birth
+  event_type: birth
+  date: '351'
+  year_of: 351
+  summary: 李暠生于陇西成纪，汉将军李广之后，世为西州著姓。
+  participants:
+  - guji-li-gao
+- id: guji-li-gao-event-founding
+  event_type: political
+  date: '400'
+  year_of: 400
+  summary: 群下推李暠为凉公，领秦凉二州牧，建元庚子，西凉立国。
+  participants:
+  - guji-li-gao
+- id: guji-li-gao-event-move-capital
+  event_type: political
+  date: '405'
+  year_of: 405
+  summary: 李暠徙都酒泉，以逼北凉之冲，并遣使奉表于晋。
+  participants:
+  - guji-li-gao
+- id: guji-li-gao-event-death
+  event_type: death
+  date: '417'
+  year_of: 417
+  summary: 李暠卒于酒泉，谥武昭王，庙号太祖，子李歆嗣位。
+  participants:
+  - guji-li-gao

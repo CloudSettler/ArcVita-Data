@@ -1,0 +1,196 @@
+person:
+  qid: guji-姚兴
+  name_zh: 姚兴
+  names:
+    zh: 姚兴
+  lifespan:
+    birth:
+      date: '366'
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: 416-12
+      precision: month
+      is_circa: false
+      raw: 义熙十二年十二月丁未，兴疾甚…薨于殿，年五十三
+  birth_date: '0366'
+  death_date: 0416-12
+  era: 东晋十六国·后秦
+  reign_ref: 后秦第二位皇帝，年号皇初、弘始
+  archetype: 守成之君
+  dilemmas:
+  - 面对弟弟广平公姚弼两次潜谋作乱，身为兄长与君主，如何在亲情与国法之间取舍
+  - 其父姚苌缢杀苻坚夺位，兴需在承认前朝血债与稳固政权合法性之间权衡
+  - 明言"攻克割据"之后，地方上的叛乱迭起，兴需征伐还是抚绥？
+  lesson: 天下可以马上得之，不可马上治之——兴因广纳佛学与文教得一时之治，却也因姑息姚弼之乱埋下祸根
+  summary_first_person: 我是姚兴，字子略，后秦武昭皇帝姚苌之少子。父皇驾崩时我秘不发丧，后于槐里即位，改元皇初。我先后击败苻登、攻取洛阳、降服吕隆，迎鸠摩罗什入长安讲经，弘始年间文教昌盛，与魏通和、四方称藩。然朕晚年体弱多病，胞弟广平公姚弼两次图谋作乱，朕虽怒而收之，终不忍致其死地，直至病势危殆时才责令自尽。朕在位十六年，谥文桓皇帝，庙号高祖。
+  source_urls:
+  - https://zh.wikisource.org/wiki/十六国春秋/卷五
+endeavors:
+- id: guji-姚兴-endeavor-1
+  name_zh: 即位安邦与扫平苻登
+  phases:
+  - key: brewing
+    name_zh: 秘不发丧
+    labels:
+      zh:
+      - 权变
+      - 稳局
+    start_date: '0416'
+  - key: brewing
+    name_zh: 潜修阵法
+    labels:
+      zh:
+      - 立志
+    start_date: 0393
+  decisions:
+  - date: 0393
+    title_zh: 秘不发丧，稳定朝局
+    rationale: 父皇姚苌驾崩于军中，外有苻登强敌，秘丧可防止敌国趁机而入，稳定军心
+- id: guji-姚兴-endeavor-2
+  name_zh: 兴儒崇佛，文教治世
+  phases:
+  - key: brewing
+    name_zh: 迎鸠摩罗什
+    labels:
+      zh:
+      - 崇佛
+      - 译经
+    start_date: '0401'
+  - key: breakthrough
+    name_zh: 逍遥园听经
+    labels:
+      zh:
+      - 文教
+    start_date: '0402'
+- id: guki-姚兴-endeavor-3
+  name_zh: 平定姚弼之乱
+  phases:
+  - key: brewing
+    name_zh: 姚弼潜谋
+    labels:
+      zh:
+      - 家变
+    start_date: '0411'
+  - key: climax
+    name_zh: 赐死姚弼
+    labels:
+      zh:
+      - 忍痛
+    start_date: '0416'
+  decisions:
+  - date: '0411'
+    title_zh: 免姚弼尚书令而不诛
+    rationale: 以弼文武兼才，未忍致法，念骨肉之情从轻处置，然此姑息终酿后患
+- ignition_probe: false
+events:
+- id: guji-姚兴-event-birth
+  date: '0366-01-01'
+  year_of: '0366'
+  date_hint: 生于约366年
+  person: 姚兴
+  type: birth
+  description_zh: 姚兴出生，姚苌之少子，字子略
+  persons:
+  - 姚兴
+- id: guji-姚兴-event-succession
+  date: '0394-01-01'
+  year_of: 0394
+  date_hint: 皇初元年，发丧行服，即位于槐里
+  person: 姚兴
+  type: political
+  description_zh: 姚苌薨后秘不发丧，至皇初元年始发丧行服，即皇帝位于槐里，大赦改元
+  persons:
+  - 姚兴
+  - 姚苌
+  entity_refs:
+  - 后秦
+- id: guji-姚兴-event-defeat-fudeng
+  date: '0394-07-01'
+  year_of: 0394
+  date_hint: 七月如泾阳，与苻登战于山南
+  person: 姚兴
+  type: military
+  description_zh: 姚兴率军讨伐苻登，大破苻登，斩苻登，灭前秦残余势力
+  persons:
+  - 姚兴
+  - 苻登
+  entity_refs:
+  - 后秦
+  - 前秦
+- id: guji-姚兴-event-conquer-luoyang
+  date: '0399-10-01'
+  year_of: 0399
+  date_hint: 弘始元年冬十月，克洛阳
+  person: 姚兴
+  type: military
+  description_zh: 弘始元年冬十月，后秦军攻克洛阳，以东平公姚绍督山东诸军事、豫州牧，镇洛阳
+  persons:
+  - 姚兴
+  - 姚绍
+  entity_refs:
+  - 后秦
+  - 洛阳
+- id: guji-姚兴-event-liangzhou
+  date: '0403-09-01'
+  year_of: '0403'
+  date_hint: 弘始四年九月，吕隆奉表请降
+  person: 姚兴
+  type: military
+  description_zh: 命陇西王姚硕德率步骑六万伐吕隆于凉州，大破凉军，吕隆奉表请降，后秦势力西抵河西
+  persons:
+  - 姚兴
+  - 姚硕德
+  - 吕隆
+  entity_refs:
+  - 后秦
+  - 凉州
+- id: guji-姚兴-event-kumarajiva
+  date: '0401-11-01'
+  year_of: '0401'
+  date_hint: 弘始三年十一月，鸠摩罗什至长安
+  person: 姚兴
+  type: cultural
+  description_zh: 鸠摩罗什抵达长安，姚兴尊为国师；弘始七年正月，兴如逍遥园，引诸沙门听什说佛经，译经事业大兴
+  persons:
+  - 姚兴
+  - 鸠摩罗什
+  entity_refs:
+  - 后秦
+  - 佛教
+- id: guji-姚兴-event-yao-bi-1
+  date: '0411-05-01'
+  year_of: '0411'
+  date_hint: 弘始十六年五月
+  person: 姚兴
+  type: political
+  description_zh: 广平公姚弼潜谋作乱，招集数千人持兵于第；兴疾愈升殿，念弼文武兼才未忍致法，免其尚书令，以公就第
+  persons:
+  - 姚兴
+  - 姚弼
+  entity_refs:
+  - 后秦
+- id: guji-姚兴-event-yao-bi-2
+  date: '0416-12-01'
+  year_of: '0416'
+  date_hint: 弘始十七年十二月
+  person: 姚兴
+  type: political
+  description_zh: 姚弼再集兵于第，弼党攻端门纵火；兴力疾临前殿，赐弼死，乱平
+  persons:
+  - 姚兴
+  - 姚弼
+  entity_refs:
+  - 后秦
+- id: guji-姚兴-event-death
+  date: '0416-12-01'
+  year_of: '0416'
+  date_hint: 弘始十七年十二月丁未
+  person: 姚兴
+  type: death
+  description_zh: 丁未，姚兴薨于前殿，年五十三，谥文桓皇帝，庙号高祖，墓曰偶陵
+  persons:
+  - 姚兴
+  entity_refs:
+  - 后秦

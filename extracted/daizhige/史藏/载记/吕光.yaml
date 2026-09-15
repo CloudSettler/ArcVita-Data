@@ -1,0 +1,81 @@
+person:
+  qid: guji-吕光
+  name_zh: 吕光
+  names:
+    zh: 吕光
+    en: Lü Guang
+  lifespan:
+    birth:
+      date: ''
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      is_circa: false
+      raw: ''
+  era: 十六国·前秦至后凉
+  reign_ref: 前秦苻丕太平元年（386年）
+  archetype: 军事枭雄
+  dilemmas:
+  - 远征西域功成之际，中原主君苻坚败亡，班师之后何所依归
+  - 受前秦任命于危难之世，既要承制一方又须面对诸燕诸秦纷争
+  lesson: 乱世之中，功业可以自西徼东来，然名位终须在群雄角力中自定。
+  summary_first_person: 我本是苻坚麾下的安西将军，奉命远征西域。坚败于淝水、终为姚苌所害之后，我率得胜之师自西域还，于太平元年九月归来中原。苻丕随后拜我为车骑将军、梁州牧、酒泉公，我的基业由此而立。
+  source_urls:
+  - https://zh.wikisource.org/wiki/十六國春秋
+endeavors:
+- id: guji-吕光-endeavor-1
+  name_zh: 西征西域与东还立业
+  phases:
+  - key: brewing
+    name_zh: 受命安西
+    labels:
+      zh:
+      - 前秦将领
+      - 远征
+    start_date: ''
+    highlight_event_id: guji-吕光-event-return
+  - key: breakthrough
+    name_zh: 还师
+    labels:
+      zh:
+      - 西域凯旋
+    start_date: '386'
+    highlight_event_id: guji-吕光-event-return
+  - key: climax
+    name_zh: 受封梁州
+    labels:
+      zh:
+      - 车骑将军
+      - 酒泉公
+    start_date: '387'
+    highlight_event_id: guji-吕光-event-appointment
+  - key: closure
+    name_zh: 割据一方
+    labels:
+      zh:
+      - 河西霸主
+    start_date: '387'
+    highlight_event_id: guji-吕光-event-appointment
+  decisions:
+  - date: '386'
+    title_zh: 自西域还师东归
+    rationale: 苻坚败亡、长安危逼，携西域战胜之众东返，图谋自立之基。
+  - date: '387'
+    title_zh: 受苻丕所授车骑将军、梁州牧、酒泉公之职
+    rationale: 承认前秦苻丕正朔，借其名位号令河西。
+events:
+- id: guji-吕光-event-return
+  person_qid: guji-吕光
+  year_of: 386
+  date: 386-09
+  title_zh: 安西吕光自西域还师
+  description_zh: 前秦苻丕太平元年九月，安西将军吕光自西域率师东还。
+  endeavor_id: guji-吕光-endeavor-1
+- id: guji-吕光-event-appointment
+  person_qid: guji-吕光
+  year_of: 387
+  date: 387-02
+  title_zh: 苻丕以吕光为车骑将军、梁州牧、酒泉公
+  description_zh: 太平二年正月，苻丕拜吕光为车骑将军、梁州牧、封酒泉公。
+  endeavor_id: guji-吕光-endeavor-1
