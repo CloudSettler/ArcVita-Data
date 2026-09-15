@@ -1,0 +1,130 @@
+person:
+  qid: guji-皇太极
+  name_zh: 皇太极
+  names:
+    zh: 皇太极
+    en: Hong Taiji
+  lifespan:
+    birth:
+      date: '1592-11-28'
+      precision: day
+      is_circa: false
+      raw: 明万历二十年十月十三
+    death:
+      date: '1643-09-21'
+  birth_date: '1592-11-28'
+  death_date: '1643-09-21'
+  era: 明末清初
+  reign_ref: 后金天聪、清崇德
+  archetype: 创业之主的改革者与征服者
+  dilemmas:
+  - 汗权与四大贝勒共治之制衡
+  - 改国号称帝与承继祖业之间的取义
+  lesson: 兼收并蓄、改制度而后能成大业
+  summary_first_person: 我承努尔哈赤之业，设八旗、改文馆为内三院、西征朝鲜蒙古、屡破明师，于崇德元年改国号曰清，登基称帝。
+endeavors:
+- id: guji-皇太极-endeavor-1
+  name_zh: 继承汗位与整饬八旗
+  phases:
+  - key: brewing
+    name_zh: 承父业掌正白旗
+    labels:
+      zh:
+      - 继位
+    start_date: '1626-10-20'
+  - key: breakthrough
+    name_zh: 设馆译书、编旗志之源
+    labels:
+      zh:
+      - 制度建设
+    start_date: '1629'
+  - key: climax
+    name_zh: 南面独坐、削弱共议王大臣
+    labels:
+      zh:
+      - 集权
+    start_date: '1632'
+  - key: closure
+    name_zh: 五年三入塞、确立八旗驻防基调
+    labels:
+      zh:
+      - 军政
+    start_date: '1636'
+  decisions:
+  - date: '1627'
+    title_zh: 备御八旗、增编蒙古汉军之旗
+    rationale: 融合汉蒙古军力，以八旗之制一统军政。
+  - date: '1629'
+    title_zh: 设文馆、命儒臣翻译汉籍
+    rationale: 明兴衰之故，效汉法以治国。
+  - date: '1636-05-14'
+    title_zh: 改国号曰清、即皇帝位于盛京
+    rationale: 定号汉朝仪，称帝而与明分庭抗礼。
+- id: guji-皇太极-endeavor-2
+  name_zh: 松锦决战与明朝征伐
+  phases:
+  - key: brewing
+    name_zh: 反间计去袁崇焕
+    labels:
+      zh:
+      - 离间
+    start_date: '1629'
+  - key: breakthrough
+    name_zh: 两次入塞直逼北京
+    labels:
+      zh:
+      - 进攻
+    start_date: '1636'
+  - key: climax
+    name_zh: 松山降洪承畴、锦州破祖大寿
+    labels:
+      zh:
+      - 松锦大捷
+    start_date: '1641'
+  - key: closure
+    name_zh: 清军之势足与明争天下
+    labels:
+      zh:
+      - 奠基
+    start_date: '1642'
+  decisions:
+  - date: '1636'
+    title_zh: 十二月亲征朝鲜、迫其降附
+    rationale: 断明藩篱，专力西方。
+  - date: '1641'
+    title_zh: 围困锦州、决战松山
+    rationale: 取形胜之地，��明军不得入关。
+events:
+- id: guji-皇太极-event-birth
+  date: '1592-11-28'
+  year_of: 1592
+  type: birth
+  title_zh: 生于费阿拉城
+- id: guji-皇太极-event-ascension
+  date: '1626-10-20'
+  year_of: 1626
+  type: milestone
+  title_zh: 继后金汗位于沈阳
+  endeavor_id: guji-皇太极-endeavor-1
+- id: guji-皇太极-event-edict
+  date: '1618'
+  year_of: 1618
+  type: context
+  title_zh: 努尔哈赤天命三年勅谕，为《八旗通志》勅谕之始
+- id: guji-皇太极-event-reign-change
+  date: '1636-05-14'
+  year_of: 1636
+  type: milestone
+  title_zh: 改国号曰清、称帝于盛京
+  endeavor_id: guji-皇太极-endeavor-1
+- id: guji-皇太极-event-ning-jinzhou
+  date: '1641'
+  year_of: 1641
+  type: battle
+  title_zh: 松锦之战大败明军
+  endeavor_id: guji-皇太极-endeavor-2
+- id: guji-皇太极-event-death
+  date: '1643-09-21'
+  year_of: 1643
+  type: death
+  title_zh: 崩于盛京清宁宫
