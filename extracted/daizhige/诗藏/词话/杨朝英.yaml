@@ -1,0 +1,85 @@
+person:
+  qid: guji-杨朝英
+  name_zh: 杨朝英
+  names:
+    zh: 杨朝英
+    en: Yang Zhaoying
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 元代前期，生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 元代前期，卒年不详
+  birth_date: ''
+  death_date: ''
+  era: 元代
+  reign_ref: 元代前期
+  archetype: 曲选编纂家
+  dilemmas:
+  - 散曲被视为小道，编者如何以选本提升其文学地位
+  lesson: 亡佚之声可赖选本存续，一人选定百年词坛之面目
+  summary_first_person: 我是澹斋杨朝英，元代散曲家兼编选者。我辑元人散曲为《阳春白雪》，请贯云石作序，又编《太平乐府》，使百家词曲赖以传世。
+endeavors:
+- id: guji-杨朝英-endeavor-1
+  name_zh: 编选《阳春白雪》
+  labels:
+    zh: 文献编纂
+  phases:
+  - key: brewing
+    name_zh: 广搜词曲
+    labels:
+      zh: 搜集期
+    start_date: '1300'
+    highlight_event_id: guji-杨朝英-event-select-begin
+  - key: breakthrough
+    name_zh: 成书征序
+    labels:
+      zh: 成书期
+    start_date: '1324'
+    highlight_event_id: guji-杨朝英-event-preface
+  decisions:
+  - date: '1324'
+    title_zh: 徵贯云石为序
+    rationale: 请名士酸斋作引，借重其评骘以奠定选本体例与声价
+- id: guji-杨朝英-endeavor-2
+  name_zh: 编《太平乐府》存续曲学
+  labels:
+    zh: 曲学承传
+  phases:
+  - key: climax
+    name_zh: 续辑乐府新声
+    labels:
+      zh: 续编期
+    start_date: '1351'
+events:
+- id: guji-杨朝英-event-birth
+  event_type: birth
+  date: '1270'
+  year_of: 1270
+  precision: circa
+  summary: 约生于元代前期，籍里生平不详，号澹斋
+- id: guji-杨朝英-event-select-begin
+  event_type: endeavor
+  date: '1310'
+  year_of: 1310
+  precision: circa
+  summary: 广搜诸家小令套数，着手选辑《阳春白雪》
+  endeavor_id: guji-杨朝英-endeavor-1
+- id: guji-杨朝英-event-preface
+  event_type: endeavor
+  date: '1324'
+  year_of: 1324
+  precision: circa
+  summary: 选成《阳春白雪》，徵贯云石（酸斋）作序，序中评卢挚、冯海粟、关汉卿诸家
+  endeavor_id: guji-杨朝英-endeavor-1
+- id: guji-杨朝英-event-death
+  event_type: death
+  date: '1350'
+  year_of: 1350
+  precision: circa
+  summary: 约卒于元代中期，卒年不详
