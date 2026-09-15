@@ -1,0 +1,132 @@
+person:
+  qid: guji-锺会
+  name_zh: 锺会
+  names:
+    zh: 锺会
+    en: Zhong Hui
+  lifespan:
+    birth:
+      date: 225
+      precision: year
+      is_circa: true
+      raw: '225'
+    death:
+      date: 264
+      precision: year
+      is_circa: false
+  birth_date: '225'
+  death_date: '264'
+  era: 三国魏
+  reign_ref: ''
+  archetype: 书家名将
+  dilemmas:
+  - 功名心炽而心术不正，虽才艺出众终致败亡
+  lesson: 才艺可传世，德行定成败
+  summary_first_person: 我锺会，字士季，魏太傅锺繇之子。书承家学，真书、章草、草书皆入妙品，时人称吾书有十二意，意外巧妙，绝伦多奇。然吾志在功名，率众入蜀而败亡，书名遂为其人而累。
+  source_urls:
+  - docs/YAML_STANDARD.md
+endeavors:
+- id: guji-锺会-endeavor-1
+  name_zh: 书法研习承家学
+  labels:
+    zh:
+    - 书法
+    - 锺氏家学
+  phases:
+  - key: brewing
+    name_zh: 幼承家法
+    labels:
+      zh:
+      - 承其父锺繇笔法
+  - key: breakthrough
+    name_zh: 四体并妙
+    labels:
+      zh:
+      - 真书
+      - 章草
+      - 草书
+      - 行书
+  decisions:
+  - date: 240-01-01
+    title: 承父锺繇书法而上追古人
+    rationale: 家学渊源，兼采众体以成己艺
+- id: guji-锺会-endeavor-2
+  name_zh: 佐魏征蜀掌兵事
+  labels:
+    zh:
+    - 军政
+    - 伐蜀
+  phases:
+  - key: brewing
+    name_zh: 出仕魏廷
+    labels:
+      zh:
+      - 司马氏幕府
+  - key: climb
+    name_zh: 参赞军机
+    labels:
+      zh:
+      - 谋主
+  - key: climax
+    name_zh: 统兵入蜀
+    labels:
+      zh:
+      - 伐蜀
+      - 益州
+  - key: closure
+    name_zh: 兵败身死
+    labels:
+      zh:
+      - 成都之乱
+  decisions:
+  - date: 263-01-01
+    title: 力主伐蜀并统军进取
+    rationale: 欲借平蜀之功立身扬名
+  - date: 264-01-01
+    title: 欲据益州自立
+    rationale: 功高自恃，心术不正
+events:
+- id: guji-锺会-event-birth
+  date: '225'
+  precision: year
+  is_circa: true
+  year_of: '225'
+  name_zh: 锺会出生
+  description: 锺会生于魏，太傅锺繇之子。
+  kind: birth
+  subjects:
+  - guji-锺会
+- id: guji-锺会-event-calligraphy-acclaim
+  date: 0250-01-01
+  precision: year
+  is_circa: true
+  year_of: '250'
+  name_zh: 书艺获评妙品
+  description: 张怀瓘评其真第五、章草第六、草第七，并行四体俱妙品；庾肩吾列上下品；李嗣真列上中品；梁武帝称其书有十二意，意外巧妙，绝伦多奇；小锺有正书洛神赋传世。
+  kind: endeavor
+  subjects:
+  - guji-锺会
+  related_endeavor_ids:
+  - guji-锺会-endeavor-1
+- id: guji-锺会-event-shu-campaign
+  date: 0263-01-01
+  precision: year
+  is_circa: false
+  year_of: '263'
+  name_zh: 统兵伐蜀
+  description: 会统大军入蜀，蜀平后权柄自任。
+  kind: endeavor
+  subjects:
+  - guji-锺会
+  related_endeavor_ids:
+  - guji-锺会-endeavor-2
+- id: guji-锺会-event-death
+  date: 0264-01-01
+  precision: year
+  is_circa: false
+  year_of: '264'
+  name_zh: 锺会死于成都之乱
+  description: 据蜀谋自立失败，死于乱军。
+  kind: death
+  subjects:
+  - guji-锺会
