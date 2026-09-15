@@ -1,0 +1,169 @@
+person:
+  qid: guji-吴乔
+  name_zh: 吴乔
+  names:
+    zh: 吴乔
+    en: Wu Qiao
+  lifespan:
+    birth:
+      date: '1611'
+      precision: uncertain
+      is_circa: true
+      raw: 约生于明万历末年（生年不详）
+    death:
+      date: '1695'
+      precision: uncertain
+      is_circa: true
+      raw: 约卒于清康熙年间（卒年不详）
+  birth_date: '1611'
+  death_date: '1695'
+  era: 明末清初
+  reign_ref: 清康熙年间著《围炉诗话》
+  archetype: 诗论家 / 遗民诗人
+  dilemmas:
+  - 年近四十方悟唐诗比兴之义，自觉少时为俗学所误五十年，悔晚而衰病无可进
+  lesson: 雅学大费工力而真实，俗学悦众目而虚伪；学诗当求诗意所在，不可专重好句、冒盛唐之名
+  summary_first_person: 我吴乔，明末清初人，生平作诗千余首，至将近四十岁才悟得唐诗比兴之义，又二十年方知汉魏晋宋之高妙。半生为俗学所误，故著《围炉诗话》痛论诗道，斥明人"瞎盛唐"有词无意之弊，欲使英年有志节者早自觉悟，毋若我愦愦一生。
+  source_urls:
+  - https://zh.wikisource.org/wiki/围炉诗话
+endeavors:
+- id: guji-吴乔-endeavor-1
+  name_zh: 撰著《围炉诗话》
+  fields:
+    zh: 诗学理论
+  phases:
+  - key: brewing
+    name_zh: 治诗体悟
+    labels:
+      zh: 早悟诗道
+    start_date: ~1650-01-01
+    highlight_event_id: guji-吴乔-event-awaken
+  - key: breakthrough
+    name_zh: 诗学成熟
+    labels:
+      zh: 精研汉魏
+    start_date: ~1670-01-01
+    highlight_event_id: guji-吴乔-event-hanwei
+  - key: climax
+    name_zh: 撰写诗话
+    labels:
+      zh: 围炉论诗
+    start_date: ~1690-01-01
+    highlight_event_id: guji-吴乔-event-book
+  - key: closure
+    name_zh: 晚年悔悟寄语
+    labels:
+      zh: 悔无所及
+    start_date: ~1694-01-01
+    highlight_event_id: guji-吴乔-event-regret
+  decisions:
+  - date: ~1690-01-01
+    title_zh: 决意著书警醒后学
+    rationale: 悔自身五十年为俗学所误，欲使英年有志节者早自觉悟
+- id: guji-吴乔-endeavor-2
+  name_zh: 作诗千余首
+  fields:
+    zh: 诗歌创作
+  phases:
+  - key: brewing
+    name_zh: 少年俗学
+    labels:
+      zh: 为俗所误
+    start_date: ~1625-01-01
+    highlight_event_id: guji-吴乔-event-youth
+  - key: climax
+    name_zh: 生平千余篇
+    labels:
+      zh: 积诗成集
+    start_date: ~1680-01-01
+    highlight_event_id: guji-吴乔-event-poems
+  decisions:
+  - date: ~1680-01-01
+    title_zh: 弃俗学而抱诗道
+    rationale: 视俗学如粪秽之不可向迩，方可见古先作者之意
+events:
+- id: guji-吴乔-event-birth
+  title: 出生
+  date: ~1611-01-01
+  year_of: 1611
+  tags:
+  - birth
+  summary: 吴乔约生于明末，本名殳，字修龄，生年史无明文。
+  details:
+  - 约活动于明万历至清康熙间
+- id: guji-吴乔-event-death
+  title: 去世
+  date: ~1695-01-01
+  year_of: 1695
+  tags:
+  - death
+  summary: 卒年不详，约于清康熙中后期去世。
+  details:
+  - 著《围炉诗话》行世
+- id: guji-吴乔-event-youth
+  title: 少年为俗学所误
+  date: ~1625-01-01
+  year_of: 1625
+  tags:
+  - 事业
+  event_type: career_start
+  endeavor: guji-吴乔-endeavor-2
+  summary: 我少年时为俗学所误导者十年，习于有词无意之诗。
+  details:
+  - 原文：‘不佞少时为俗学所误者十年’
+- id: guji-吴乔-event-awaken
+  title: 年近四十悟唐诗比兴之义
+  date: ~1650-01-01
+  year_of: 1650
+  tags:
+  - 事业
+  event_type: breakthrough
+  endeavor: guji-吴乔-endeavor-1
+  summary: 将至四十，始见唐诗比兴之义，此为诗学一生之转折。
+  details:
+  - 原文：‘将至四十，始见唐诗比兴之义’
+- id: guji-吴乔-event-hanwei
+  title: 又二十年方知汉魏高妙
+  date: ~1670-01-01
+  year_of: 1670
+  tags:
+  - 事业
+  event_type: breakthrough
+  endeavor: guji-吴乔-endeavor-1
+  summary: 又二十年，方知汉、魏、晋、宋之高妙，而精气销亡，不能构思矣。
+  details:
+  - 自述目见者易远，足践者必近
+- id: guji-吴乔-event-poems
+  title: 平生积诗千余篇
+  date: ~1680-01-01
+  year_of: 1680
+  tags:
+  - 事业
+  event_type: achievement
+  endeavor: guji-吴乔-endeavor-2
+  summary: 生平作诗千有余篇，答客问其与此中议论之离合。
+  details:
+  - 原文：‘丈丈生平诗千有馀篇’
+- id: guji-吴乔-event-book
+  title: 著《围炉诗话》
+  date: ~1690-01-01
+  year_of: 1690
+  tags:
+  - 事业
+  event_type: achievement
+  endeavor: guji-吴乔-endeavor-1
+  summary: 围炉论诗，痛论诗道变复大端，斥明人瞎盛唐之弊，立"意喻之米，诗则酿酒"之喻。
+  details:
+  - 主张诗道惟变与复，非二道
+  - 论诗以意为主，景为宾
+- id: guji-吴乔-event-regret
+  title: 晚年自悔警世
+  date: ~1694-01-01
+  year_of: 1694
+  tags:
+  - 事业
+  event_type: personal
+  endeavor: guji-吴乔-endeavor-1
+  summary: 自谓"正大高古之诗，有来生在"，欲使英年有志节者早自觉悟，毋若乔之愦愦一生。
+  details:
+  - 衰病无可进，悔无所及
