@@ -1,0 +1,139 @@
+person:
+  qid: guji-公输班
+  name_zh: 公输班
+  names:
+    zh: 公输班（公输般、鲁班）
+    en: Gongshu Ban (Lu Ban)
+  lifespan:
+    birth:
+      date: -507
+      precision: decade
+      is_circa: true
+      raw: 约春秋末年
+    death:
+      date: -444
+      precision: decade
+      is_circa: true
+  birth_date: 约前507年
+  death_date: 约前444年
+  era: 春秋末期至战国初期
+  reign_ref: 鲁国
+  archetype: 巧匠
+  dilemmas:
+  - 技艺为攻战服务还是止战为民（为楚造云梯将攻宋，与墨子相争）
+  - 巧技眩人耳目与器用利于民生之间的取舍
+  lesson: 巧匠之技当以义为度，器物之利须归于人而不用于攻伐。
+  summary_first_person: 我是公输班，人称鲁班， Buzz以木工之巧名闻天下，尝为楚造云梯之械以攻宋。墨子不远千里而来，以义折我，使楚罢兵。后世传我锯、刨、曲尺诸般器制，然我深知：法
+    sacrificing于规矩，而行术者必度于仁义。
+  source_urls:
+  - https://zh.wikisource.org/wiki/墨子閒詁/卷十三#公输第五十
+endeavors:
+- id: guji-公输班-endeavor-1
+  subject_id: guji-公输班
+  key: brewing
+  name_zh: 学艺传巧
+  labels:
+    zh:
+    - 工匠
+    - 规矩法度
+  phases:
+  - key: brewing
+    name_zh: 成名于鲁
+    labels:
+      zh:
+      - 木工
+      - 器具发明
+    start_date: -490
+  - key: breakthrough
+    name_zh: 为楚造械
+    labels:
+      zh:
+      - 攻城器械
+      - 云梯
+    start_date: -447
+    highlight_event_id: guji-公输班-event-ladder
+  - key: climax
+    name_zh: 与墨子论义
+    labels:
+      zh:
+      - 攻守之辩
+      - 止楚攻宋
+    start_date: -445
+    highlight_event_id: guji-公输班-event-debate
+  - key: closure
+    name_zh: 技归于民用
+    labels:
+      zh:
+      - 民器
+      - 后世匠家之祖
+    start_date: -450
+  decisions:
+  - date: -447
+    title_zh: 受楚之命造云梯
+    rationale: 世人聘我为巧，我以技巧为职，遂为楚制攻宋之械，未虑其非义。
+  - date: -445
+    title_zh: 与墨子理化后止攻
+    rationale: 墨子以义责我，攻守推演不胜，知杀之无益而攻不可成，遂谏楚罢兵。
+- id: guji-公输班-endeavor-2
+  subject_id: guji-公输班
+  key: breakthrough
+  name_zh: 器物创制
+  labels:
+    zh:
+    - 发明
+    - 百工之祖
+  phases:
+  - key: breakthrough
+    name_zh: 制规矩绳墨与诸器
+    labels:
+      zh:
+      - 规矩
+      - 锯刨
+    start_date: -480
+    highlight_event_id: guji-公输班-event-tools
+  decisions:
+  - date: -480
+    title_zh: 立规矱之法以授百工
+    rationale: 百工为方以矩，为圆以规，有法所度，巧者能中，不巧者放依从事犹逾己。
+events:
+- id: guji-公输班-event-birth
+  subject_id: guji-公输班
+  type: birth
+  date: -507
+  year_of: -507
+  date_precision: decade_approximate
+  place: 鲁国
+- id: guji-公输班-event-tools
+  subject_id: guji-公输班
+  type: endeavor_milestone
+  date: -480
+  year_of: -480
+  date_precision: decade_approximate
+  place: 鲁国
+  title_zh: 创制规矩绳墨诸巧器
+  description_zh: 传为锯、刨、曲尺（矩）、墨斗等木工具之创制者，以规矩法度立百工之则，后果为《墨子》法仪篇引为百工有法之证。
+- id: guji-公输班-event-ladder
+  subject_id: guji-公输班
+  type: endeavor_milestone
+  date: -446
+  year_of: -446
+  date_precision: year_approximate
+  place: 楚国 郢
+  title_zh: 为楚造云梯将攻宋
+  description_zh: 公输子为楚造云梯之械，成，将以攻宋，事见于《墨子·公输》。
+- id: guji-公输班-event-debate
+  subject_id: guji-公输班
+  type: endeavor_milestone
+  date: -445
+  year_of: -445
+  date_precision: year_approximate
+  place: 楚国 郢
+  title_zh: 与墨子攻守相拒而服义
+  description_zh: 墨子解带为城，以牒为械，九距公输班之攻术而有余；公输班欲杀之，墨子告以弟子守具已备，遂止攻宋。
+- id: guji-公输班-event-death
+  subject_id: guji-公输班
+  type: death
+  date: -444
+  year_of: -444
+  date_precision: decade_approximate
+  place: 楚国（一说鲁国）
