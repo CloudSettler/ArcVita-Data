@@ -1,0 +1,126 @@
+person:
+  qid: guji-织田信长
+  name_zh: 织田信长
+  names:
+    zh: 织田信长
+    en: Oda Nobunaga
+  lifespan:
+    birth:
+      date: '1534'
+      precision: year
+      is_circa: true
+      raw: 生于战国之世（据传为天文三年）
+    death:
+      date: '1582'
+      precision: year
+      is_circa: false
+      raw: 天正十年为明智光秀所杀
+  birth_date: '1534'
+  death_date: '1582'
+  era: 日本战国时代至安土时代
+  reign_ref: 正亲町天皇时期
+  archetype: 革新霸主
+  dilemmas:
+  - 尊奉足利义昭为将军又因失睦而幽之，代足利氏出令
+  - 宠任明智光秀，事败垂成，猝为所杀
+  lesson: 以不世出之略定二百余年分据之国，然事业败于垂成之刻。
+  summary_first_person: 我出身尾张织田氏之家臣门第，以雷霆之势平定近畿，挟足利义昭入京，代将军出令，位至右大臣。我破今川、斋藤、朝仓、淺井、武田诸氏，蠲赋弛役，置所司代于安土，定关东法制，开二世未定之局。惜来日无多，竟为明智光秀所弑，功败垂成，深为可惜。
+endeavors:
+- id: guji-织田信长-endeavor-1
+  name_zh: 尾张崛起与破敌成名
+  phases:
+  - key: brewing
+    name_zh: 继承家督屡攻邻国
+    labels:
+      zh:
+      - 崛起
+      - 织田氏
+    start_date: '1550'
+    highlight_event_id: guji-织田信长-event-breakthrough
+  - key: breakthrough
+    name_zh: 败斋藤、击今川，威名大著
+    labels:
+      zh:
+      - 成名战
+      - 美浓
+      - 骏河
+    start_date: '1560'
+    highlight_event_id: guji-织田信长-event-breakthrough
+  - key: climax
+    name_zh: 挟义昭西上，护京师修皇宫
+    labels:
+      zh:
+      - 入京
+      - 拥戴将军
+    start_date: '1568'
+    highlight_event_id: guji-织田信长-event-climax
+  decisions:
+  - date: '1568'
+    title_zh: 以兵三万挟足利义昭西上入京
+    rationale: 三好氏弃京师去，借拥立将军取得号令大义，留秀吉护卫京师。
+  - date: '1573'
+    title_zh: 幽禁足利义昭，代足利氏出令
+    rationale: 义昭与信长失睦并谋伐信长，义昭走安艺，诏削其宫爵。
+- id: guji-织田信长-endeavor-2
+  name_zh: 统一天下之略与安土规制
+  phases:
+  - key: breakthrough
+    name_zh: 破朝仓、浅井，近畿悉平
+    labels:
+      zh:
+      - 近畿平定
+    start_date: '1570'
+    highlight_event_id: guji-织田信长-event-azuchi
+  - key: climax
+    name_zh: 徙治安土，定关东法制十五条
+    labels:
+      zh:
+      - 安土
+      - 法制
+    start_date: '1576'
+    highlight_event_id: guji-织田信长-event-azuchi
+  - key: closure
+    name_zh: 伐武田氏，割甲斐信浓予有功诸将
+    labels:
+      zh:
+      - 武田征伐
+    start_date: '1582'
+    highlight_event_id: guji-织田信长-event-death
+  decisions:
+  - date: '1576'
+    title_zh: 置所司代，徙治安土，蠲地子钱、弛徭役
+    rationale: 代将军出令，立安土为政治中枢，定关东法制十五条，颇有规模。
+  - date: '1582'
+    title_zh: 亲将兵十二万伐武田氏
+    rationale: 擒获武田胜赖父子，割甲斐、信浓、骏河、上野与有功诸将。
+events:
+- id: guji-织田信长-event-birth
+  date: '1534'
+  year_of: '1534'
+  title_zh: 织田信长生于尾张
+  type: birth
+  description: 织田氏世为斯波氏重臣，信长起于家臣门第。
+- id: guji-织田信长-event-breakthrough
+  date: '1560'
+  year_of: '1560'
+  title_zh: 击今川氏于骏河
+  type: endeavor
+  description: 败斋藤氏于美浓，击今川氏于骏河，威名大著。
+- id: guji-织田信长-event-climax
+  date: '1568'
+  year_of: '1568'
+  title_zh: 挟足利义昭西上入京
+  type: endeavor
+  description: 以兵三万挟义昭为将军，三好氏弃京师去，信长留秀吉护卫京师，修治皇宫而东归。
+- id: guji-织田信长-event-azuchi
+  date: '1576'
+  year_of: '1576'
+  title_zh: 徙治安土，代将军出令
+  type: endeavor
+  description: 位右大臣，蠲地子钱，弛徭役，置所司代，定关东法制十五条，颇有规模。
+- id: guji-织田信长-event-death
+  date: '1582'
+  year_of: '1582'
+  title_zh: 猝为明智光秀所杀
+  type: death
+  description: 惜宠任明智光秀，突如其来为其所杀，事败垂成，史称深为可惜。

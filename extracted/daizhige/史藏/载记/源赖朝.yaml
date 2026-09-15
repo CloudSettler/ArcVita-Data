@@ -1,0 +1,137 @@
+person:
+  qid: guji-源赖朝
+  name_zh: 源赖朝
+  names:
+    zh: 源赖朝
+    en: Minamoto no Yoritomo
+  lifespan:
+    birth:
+      date: 1147
+      precision: year
+      is_circa: true
+      raw: 生年文中未详，据史通说
+    death:
+      date: 1199
+      precision: year
+      is_circa: false
+      raw: 建久十年（文中称赖朝薨于法皇之前后）
+  birth_date: 1147
+  death_date: 1199
+  era: 平安末期至镰仓初期
+  reign_ref: 镰仓开府，首代征夷大将军
+  archetype: 开国武将
+  dilemmas:
+  - 家族被平氏诛戮殆尽，孤身免死流放伊豆，隐忍待时
+  - 既奉以仁王讨平令旗自立，又须对付朝廷与义仲、义经等源氏内部的倾轧
+  - 功业既成，骨肉相残，借北条之手除弟义经诸兄
+  lesson: 俭以自奉、以养民为本，方能于多事之日成就大业
+  summary_first_person: 我源赖朝，平治之乱后赖清盛之母之怜免死，流于伊豆。以仁王令下，我起兵开府镰仓，与弟范赖、义经先灭义仲，再于坛浦灭平氏，遂请诸国置守护、庄园置地头，兵马之权归于我手，拜征夷大将军。我于多事之秋犹蠲逋租、量力收赋，以养民为本，故能一草一木莫不从风，成建久大业。后追讨义经、行家，尽平诸国，自是朝廷拥虚器，大权独在将军。
+endeavors:
+- id: guji-源赖朝-endeavor-1
+  name_zh: 开府镰仓
+  phases:
+  - key: brewing
+    name_zh: 流放伊豆
+    labels:
+      zh: 忍辱待时
+    start_date: '1160'
+    highlight_event_id: guji-源赖朝-event-exile
+  - key: breakthrough
+    name_zh: 起兵开府
+    labels:
+      zh: 奉令举兵
+    start_date: '1180'
+    highlight_event_id: guji-源赖朝-event-rise
+  - key: climax
+    name_zh: 灭平氏定天下
+    labels:
+      zh: 坛浦大捷
+    start_date: '1185'
+    highlight_event_id: guji-源赖朝-event-tannoura
+  - key: closure
+    name_zh: 建立幕府
+    labels:
+      zh: 权归将军
+    start_date: '1192'
+    highlight_event_id: guji-源赖朝-event-shogun
+  decisions:
+  - date: '1180'
+    title_zh: 奉以仁王令起兵开府镰仓
+    rationale: 源氏所在响应，东海东山道多属之，据关东为根本
+  - date: '1185'
+    title_zh: 分遣范赖、义经追讨平氏
+    rationale: 平氏挟安德帝西走，不灭则基业不固
+- id: guji-源赖朝-endeavor-2
+  name_zh: 立幕府养民之政
+  phases:
+  - key: breakthrough
+    name_zh: 置守护地头
+    labels:
+      zh: 掌兵赋之权
+    start_date: '1185'
+    highlight_event_id: guji-源赖朝-event-shugo
+  - key: climax
+    name_zh: 拜征夷大将军
+    labels:
+      zh: 大权独揽
+    start_date: '1192'
+    highlight_event_id: guji-源赖朝-event-shogun
+  - key: closure
+    name_zh: 蠲租养民
+    labels:
+      zh: 知为政之本
+    start_date: '1190'
+    highlight_event_id: guji-源赖朝-event-taxcut
+  decisions:
+  - date: '1185'
+    title_zh: 奏请诸国置守护、庄园置地头
+    rationale: 掌兵马逮捕之权，加赋税充兵粮，以政所文书行事
+  - date: '1180'
+    title_zh: 奏蠲所领九国逋租，请诸国仿行
+    rationale: 兵兴以来民不暇农，量力收赋以苏民力
+events:
+- id: guji-源赖朝-event-birth
+  type: birth
+  date: 1147
+  year_of: 1147
+  description: 生于源氏之家，父源义朝
+- id: guji-源赖朝-event-exile
+  type: exile
+  date: '1160'
+  year_of: 1160
+  description: 平治之乱后，父义朝被杀，诸兄皆被诛，独赖朝免死，流于伊豆
+- id: guji-源赖朝-event-rise
+  type: military
+  date: '1180'
+  year_of: 1180
+  description: 以仁王下令讨平氏，赖朝奉令起兵，开府镰仓，东海东山道多属之
+- id: guji-源赖朝-event-shugo
+  type: political
+  date: '1185'
+  year_of: 1185
+  description: 奏请诸国置守护、庄园置地头，别置公文所，兵马之权忽归赖朝
+- id: guji-源赖朝-event-tannoura
+  type: battle
+  date: 1185-04-25
+  year_of: 1185
+  description: 遣弟义经等于坛浦再败平氏，平氏挟安德帝投海，遂灭平氏
+- id: guji-源赖朝-event-shogun
+  type: appointment
+  date: '1192'
+  year_of: 1192
+  description: 被任为征夷大将军，开镰仓幕府，大权独在将军
+- id: guji-源赖朝-event-yoshitsune
+  type: military
+  date: '1189'
+  year_of: 1189
+  description: 义经匿于藤原泰衡家，泰衡袭杀义经；赖朝又以庇乱人为名击平陆奥出羽，诸国慑服
+- id: guji-源赖朝-event-taxcut
+  type: policy
+  date: '1190'
+  year_of: 1190
+  description: 奏蠲九国逋租、量力收赋税、旌平贺义信惠政，以养民为本
+- id: guji-源赖朝-event-death
+  type: death
+  date: 1199
+  year_of: 1199
+  description: 赖朝薨，子赖家嗣为将军

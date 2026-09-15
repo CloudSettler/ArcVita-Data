@@ -1,0 +1,126 @@
+person:
+  qid: guji-丰臣秀吉
+  name_zh: 丰臣秀吉
+  names:
+    zh: 丰臣秀吉
+    en: Toyotomi Hideyoshi
+  lifespan:
+    birth:
+      date: '1537'
+      precision: year
+      is_circa: true
+      raw: 起于人奴，生年不详
+    death:
+      date: '1598'
+      precision: year
+      is_circa: false
+      raw: 薨于伏见城
+  birth_date: '1537'
+  death_date: '1598'
+  era: 战国时代至安土桃山时代
+  reign_ref: 关白、太政大臣，赐姓丰臣氏
+  archetype: 出身卑微而以兵力平定海内的天下人
+  dilemmas:
+  - 出身寒微与名分缺失之间的挣扎，由人奴至关白需假借织田氏与朝廷权威
+  - 田制变更、重税殃民与天下太平之间的矛盾
+  - 出兵朝鲜师出无名，内外疲困
+  lesson: 起于微贱者若惟以权谋兵力争衡而不恤民本，业虽成而难以为继
+  summary_first_person: 我本为人奴，曾盗主家黄金买刀剑，改名木下藤吉谒见织田信长，因机智渐得宠任，将兵立功。信长既平近畿，我奉命西攻毛利氏；本能寺之变后我讨灭明智光秀，为其复仇，次第削平柴田胜家等旧臣，又降长宗我部、岛津、北条、伊达诸氏，海内遂平。我拜关白、赐丰臣姓，筑大坂城与聚乐第，奉戴王室，然变更田制、重税殃民，又兴兵朝鲜，师出无名，终薨于伏见城，遗命五大老辅幼子秀赖。
+  source_urls:
+  - source_text: 国统志三（本段古文）
+endeavors:
+- id: guji-丰臣秀吉-endeavor-1
+  name_zh: 出身微贱与织田家崛起
+  phases:
+  - key: brewing
+    name_zh: 为奴与初谒信长
+    labels:
+      zh: 人奴出身、伪名谒主
+    start_date: '1550'
+  decisions:
+  - date: '1550'
+    title_zh: 盗主金六两买刀剑，伪姓名木下藤吉谒信长乞为奴
+    rationale: 微贱无由进身，遂舍主自荐
+  - date: '1570'
+    title_zh: 受信长宠任，试以事多机智，使将兵
+    rationale: 因机智见赏，得脱奴籍领兵
+- id: guji-丰臣秀吉-endeavor-2
+  name_zh: 统一海内
+  phases:
+  - key: breakthrough
+    name_zh: 平定近畿与继织田之业
+    labels:
+      zh: 讨灭光秀、削平旧臣
+    start_date: '1582'
+    highlight_event_id: guji-丰臣秀吉-event-breakthrough
+  - key: climax
+    name_zh: 拜关白赐丰臣姓、西征北伐平群雄
+    labels:
+      zh: 降岛津北伐东伐、筑大坂城聚乐第
+    start_date: '1586'
+    highlight_event_id: guji-丰臣秀吉-event-climax
+  decisions:
+  - date: '1582'
+    title_zh: 归而讨明智光秀，枭其首
+    rationale: 信长为光秀所杀，讨贼既可复仇又可收继业之名
+  - date: '1587'
+    title_zh: 以兵十五万大举西伐降岛津义久
+    rationale: 萨摩势张不听招谕，以兵威定西海
+  - date: '1590'
+    title_zh: 以兵十五万大举东伐，杀北条氏政，关东平
+    rationale: 北条氏政不奉召入觐，故讨之
+  - date: '1598'
+    title_zh: 后阳成天皇嗣位前奏请养子秀次为关白，自称太政大臣称大阁
+    rationale: 平定海内后固权位、奉戴王室
+- id: guji-丰臣秀吉-endeavor-3
+  name_zh: 征伐朝鲜与身后之局
+  phases:
+  - key: closure
+    name_zh: 用兵朝鲜
+    labels:
+      zh: 师出无名、薨于军
+    start_date: '1592'
+    highlight_event_id: guji-丰臣秀吉-event-closure
+  decisions:
+  - date: '1592'
+    title_zh: 兴兵朝鲜
+    rationale: 文本称师出无名，恃兵力之盛而妄动
+  - date: '1598'
+    title_zh: 遗命德川家康等五大老辅嗣子秀赖
+    rationale: 幼子难以自立，托孤于重臣
+events:
+- id: guji-丰臣秀吉-event-birth
+  event_type: birth
+  date: '1537'
+  year_of: 1537
+  title_zh: 丰臣秀吉生（约）
+  description_zh: 家微，起于人奴，生年不见于史文
+  person_id: guji-丰臣秀吉
+- id: guji-丰臣秀吉-event-breakthrough
+  event_type: endeavor
+  date: '1582'
+  year_of: 1582
+  title_zh: 讨灭明智光秀，继掌织田氏之业
+  description_zh: 信长为光秀所弑，秀吉自备中归而讨光秀，枭其首，次第削平柴田胜家、泷川一盛、信孝等
+  person_id: guji-丰臣秀吉
+- id: guji-丰臣秀吉-event-climax
+  event_type: endeavor
+  date: '1586'
+  year_of: 1586
+  title_zh: 拜关白、赐姓丰臣，筑大坂城
+  description_zh: 秀吉诛光秀后筑大坂城，自奏请为关白，置五奉行议国事；既拜关白赐丰臣氏，城大坂徙居之，后筑第吉野名曰聚乐，帝与上皇幸其第留饮五日
+  person_id: guji-丰臣秀吉
+- id: guji-丰臣秀吉-event-closure
+  event_type: endeavor
+  date: '1592'
+  year_of: 1592
+  title_zh: 兴兵朝鲜，师出无名
+  description_zh: 既平海内，变更田制重税殃民，又用兵朝鲜，内外疲困
+  person_id: guji-丰臣秀吉
+- id: guji-丰臣秀吉-event-death
+  event_type: death
+  date: '1598'
+  year_of: 1598
+  title_zh: 丰臣秀吉薨于伏见城
+  description_zh: 亲督兵征朝鲜，卒薨于伏见城，遗命家康等五大老辅秀赖
+  person_id: guji-丰臣秀吉
