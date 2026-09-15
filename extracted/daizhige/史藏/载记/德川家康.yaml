@@ -1,0 +1,141 @@
+person:
+  qid: guji-德川家康
+  name_zh: 德川家康
+  names:
+    zh: 德川家康
+    en: Tokugawa Ieyasu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 日本战国末期至江户初期
+  reign_ref: 江户幕府征夷大将军
+  archetype: 隐忍开国之雄
+  dilemmas:
+  - 忍辱事秀吉以求存，还是举兵争天下
+  - 辅丰臣遗孤秀赖，还是取而代之成就德川氏基业
+  lesson: 隐忍蓄势、审时度势，方能以少力成大业
+  summary_first_person: 我起于参河，败于长湫而能与秀吉和，虚心媚事，亲为整履，受托遗孤。后于关原大破石田三成，居骏府以制大坂，终灭丰臣氏，任征夷大将军，开府江户，定法制、封诸侯、开长崎通商，奠定江户幕府二百余年太平之基。
+endeavors:
+- id: guji-德川家康-endeavor-1
+  name_zh: 隐忍事秀吉
+  phases:
+  - key: brewing
+    name_zh: 起于参河
+    labels:
+      zh:
+      - 出身
+    start_date: ''
+    highlight_event_id: guji-德川家康-event-struggle-tokugawa
+  - key: breakthrough
+    name_zh: 败和媚吉
+    labels:
+      zh:
+      - 隐忍
+    start_date: ''
+    highlight_event_id: guji-德川家康-event-defeat-longqiu
+  decisions:
+  - date: ''
+    title_zh: 与秀吉讲和
+    rationale: 大败后隐忍求和，保存实力
+  - date: ''
+    title_zh: 受命为五大老之首辅秀赖
+    rationale: 奉秀吉遗命决大事，居伏见城代视国事
+- id: guji-德川家康-endeavor-2
+  name_zh: 掌权立幕
+  phases:
+  - key: breakthrough
+    name_zh: 关原决战
+    labels:
+      zh:
+      - 决战
+    start_date: ''
+    highlight_event_id: guji-德川家康-event-battle-sekigahara
+  - key: climax
+    name_zh: 开府江户
+    labels:
+      zh:
+      - 建幕
+    start_date: ''
+    highlight_event_id: guji-德川家康-event-shogun-edo
+  - key: closure
+    name_zh: 灭丰臣定太平
+    labels:
+      zh:
+      - 定鼎
+    start_date: ''
+    highlight_event_id: guji-德川家康-event-fall-osaka
+  decisions:
+  - date: ''
+    title_zh: 自将伐上杉景胜
+    rationale: 景胜拒命、数家康十大罪，遂引军讨之
+  - date: ''
+    title_zh: 以钟铭语涉咒诅为由举兵攻大坂
+    rationale: 剪除丰臣氏隐患，一统天下
+events:
+- id: guji-德川家康-event-birth
+  date: ''
+  type: birth
+  title_zh: 德川家康生（古文未载其年）
+  description: 起于参河。
+- id: guji-德川家康-event-struggle-tokugawa
+  date: ''
+  year_of: 1584
+  type: endeavor
+  title_zh: 与丰臣秀吉战，大败于长湫
+  description: 独德川氏尝与秀吉战，大败于长湫，隐忍与和。
+  participants:
+  - guji-德川家康
+  - guji-丰臣秀吉
+- id: guji-德川家康-event-defeat-longqiu
+  date: ''
+  year_of: 1584
+  type: endeavor
+  title_zh: 败后与和，秀吉许共定天下
+  description: 秀吉与之和，曰吾将与之定天下以救亿万生灵；家康谬为恭敬，媚事秀吉，尝于朝会亲为整履，秀吉卒时握手托遗孤。
+  participants:
+  - guji-德川家康
+  - guji-丰臣秀吉
+- id: guji-德川家康-event-battle-sekigahara
+  date: ''
+  year_of: 1600
+  type: battle
+  title_zh: 关原之战大破石田三成
+  description: 家康方攻景胜，闻三成举兵，引军还，遂与三成战于关原，大破之，捕斩三成，削毛利辉元八国，流浮田秀家于八丈岛。
+  participants:
+  - guji-德川家康
+  - guji-石田三成
+- id: guji-德川家康-event-shogun-edo
+  date: ''
+  year_of: 1603
+  type: endeavor
+  title_zh: 任征夷大将军，开府江户
+  description: 令德川家康等五大老辅嗣子秀赖，家康任征夷大将军，开府江户，大封诸侯，行赏立制，课诸侯筑江户、骏府，命诸侯妻子住江户，间一岁交代就国，禁西诸侯造战舰，开长崎港通商。
+  participants:
+  - guji-德川家康
+- id: guji-德川家康-event-fall-osaka
+  date: ''
+  year_of: 1615
+  type: endeavor
+  title_zh: 攻破大坂，灭丰臣氏
+  description: 家康以钟铭语涉咒诅为名举兵攻大坂，城破，秀赖母子不知所终，庶子捕斩于六条碛，丰臣氏遂亡。
+  participants:
+  - guji-德川家康
+  - guji-丰臣秀赖
+- id: guji-德川家康-event-death
+  date: ''
+  year_of: 1616
+  type: death
+  title_zh: 家康定法制后寻薨
+  description: 家康定文臣法五章、廷式十七章、武员式十二章，置老中，定幕府及列国制度，灭丰臣氏，寻薨。
+  participants:
+  - guji-德川家康

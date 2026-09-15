@@ -1,0 +1,103 @@
+person:
+  qid: guji-源光国
+  name_zh: 源光国
+  names:
+    zh: 源光国
+    en: Tokugawa Mitsukuni
+  lifespan:
+    birth:
+      date: 1628-07-11
+      precision: day
+      is_circa: false
+      raw: 宽永五年六月十日
+    death:
+      date: 1701-01-14
+      precision: day
+      is_circa: false
+  birth_date: 1628-07-11
+  death_date: 1701-01-14
+  era: 日本江户时代
+  reign_ref: 水户藩第二代藩主
+  archetype: 史家藩主 / 修史立国体之儒
+  dilemmas:
+  - 著史欲尊国体，却须裁断神代传说、徐福泰伯传讹等涉外附会之说
+  - 身为德川一门之长，修《大日本史》尊王抑幕，于将军权威有微妙张力
+  lesson: 考史以正名，削附会而存国体；断代立例，学问重在辨别讹传。
+  summary_first_person: 我是水户藩主源光国，延揽学者纂修《大日本史》，断自神武肇基。当世或言日本为吴泰伯、徐福之后，我驳斥道“谓泰伯后，是以我为附庸国也”，遂削之不书，以正国体、明史例。
+endeavors:
+- id: guji-源光国-endeavor-1
+  name_zh: 纂修《大日本史》
+  phases:
+  - key: brewing
+    name_zh: 开设彰考馆、网罗史料
+    labels:
+      zh:
+      - 修史
+      - 彰考馆
+    start_date: '1657'
+  - key: breakthrough
+    name_zh: 立断代起例，断自神武
+    labels:
+      zh:
+      - 起例
+    start_date: 约-660
+    highlight_event_id: guji-源光国-event-daiban-shishi
+  - key: climax
+    name_zh: 驳《日本通鉴》泰伯后之说
+    labels:
+      zh:
+      - 驳议
+      - 正国体
+    start_date: '1672'
+    highlight_event_id: guji-源光国-event-tai-bo-bo-yi
+  - key: closure
+    name_zh: 纂修持续，至后世成书
+    labels:
+      zh:
+      - 遗业
+    start_date: '1700'
+  decisions:
+  - date: '1657'
+    title_zh: 开设彰考馆，广集史籍，着手编修国史
+    rationale: 采诸国纪传之长，成一代信史
+  - date: '1672'
+    title_zh: 驳宽文中《日本通鉴》泰伯后之说，毅然削之
+    rationale: 谓泰伯后，是以我为附庸国也；史笔不可徇讹传而损国体
+events:
+- id: guji-源光国-event-birth
+  date: 1628-07-11
+  year_of: 1628
+  title_zh: 德川（源）光国生于水户德川家
+  type: birth
+  participants:
+  - guji-源光国
+- id: guji-源光国-event-daiban-shishi
+  date: 约-660
+  year_of: -660
+  title_zh: 源光国作《大日本史》，断自神武肇基
+  type: endeavor-milestone
+  participants:
+  - guji-源光国
+  description: 与赖襄《日本政纪》均断自神武，学者多宗之；以神代荒诞等诸缙绅难言之例，于史体应尔。
+- id: guji-源光国-event-kuan-wen-tong-jian
+  date: '1672-12-07'
+  year_of: 1672
+  title_zh: 就宽文中所作《日本通鉴》再申驳议
+  type: endeavor-milestone
+  participants:
+  - guji-源光国
+  description: 驳议日本称吴泰伯后之说：谓泰伯后，是以我为附庸国也，遂削之。
+- id: guji-源光国-event-tai-bo-bo-yi
+  date: '1672'
+  year_of: 1672
+  title_zh: 批驳《日本通鉴》，削泰伯后之附会
+  type: endeavor-milestone
+  participants:
+  - guji-源光国
+- id: guji-源光国-event-death
+  date: 1701-01-14
+  year_of: 1701
+  title_zh: 源光国逝世
+  type: death
+  participants:
+  - guji-源光国
