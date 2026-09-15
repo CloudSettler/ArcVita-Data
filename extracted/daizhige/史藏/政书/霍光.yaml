@@ -1,0 +1,139 @@
+person:
+  qid: guji-霍光
+  name_zh: 霍光
+  names:
+    zh: 霍光
+    en: Huo Guang
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      date: -68
+      precision: year
+      is_circa: false
+      raw: 立三岁而光薨（宣帝地节二年）
+  birth_date: ''
+  death_date: -68
+  era: 西汉
+  reign_ref: 汉武帝、汉昭帝、汉废帝昌邑王、汉宣帝
+  archetype: 受遗诏辅政的权臣大司马大将军
+  dilemmas:
+  - 昌邑王淫乱失道：废立君主以安宗庙，还是姑息保位
+  - 夫人显毒杀许皇后：隐忍家丑护家族荣宠，还是依法举发
+  lesson: 受先帝之托辅幼主，功在定策安邦；然家贵而骄，族灭于权萌，警戒权不可久恃
+  summary_first_person: 我霍光以侍中奉车都尉受武帝遗诏，辅立幼主昭帝，行大司马事；昭帝崩，我迎立昌邑王，以其淫乱奏太后废之，又迎立武帝曾孙病已为宣帝。我女儿亦入宫为皇后，然夫人显阴使女医毒杀许皇后，我竟未及纠举。我薨后，霍氏谋反族灭，权极而祸随之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢書
+endeavors:
+- id: guji-霍光-endeavor-1
+  name_zh: 受遗辅政
+  phases:
+  - key: brewing
+    name_zh: 武帝朝宿卫
+    labels:
+      zh:
+      - 侍中
+      - 奉车都尉
+    start_date: ''
+  - key: breakthrough
+    name_zh: 受遗诏辅昭帝
+    labels:
+      zh:
+      - 大司马大将军
+      - 托孤重臣
+    start_date: -87
+    highlight_event_id: guji-霍光-event-zhaodi-assist
+  - key: climax
+    name_zh: 废昌邑立宣帝
+    labels:
+      zh:
+      - 废立定策
+    start_date: -74
+    highlight_event_id: guji-霍光-event-li-xuandi
+  - key: closure
+    name_zh: 薨与族诛
+    labels:
+      zh:
+      - 身后覆族
+    start_date: -68
+    highlight_event_id: guji-霍光-event-death
+  decisions:
+  - date: -74
+    title_zh: 奏请太后废昌邑王贺
+    rationale: 王淫乱失道，不可以奉宗庙，光率群臣定议废之
+  - date: -74
+    title_zh: 议立武帝曾孙病已为帝
+    rationale: 曾孙操行节俭，慈仁爱人，可以嗣孝昭皇帝后
+- id: guji-霍光-endeavor-2
+  name_zh: 霍氏荣宠与覆亡
+  phases:
+  - key: brewing
+    name_zh: 纳女入宫为后
+    labels:
+      zh:
+      - 外戚
+    start_date: -73
+    highlight_event_id: guji-霍光-event-daughter-queen
+  - key: breakthrough
+    name_zh: 夫人显毒杀许后
+    labels:
+      zh:
+      - 内隐之罪
+    start_date: -72
+    highlight_event_id: guji-霍光-event-xu-hou-poison
+  - key: climax
+    name_zh: 身后霍氏谋反族灭
+    labels:
+      zh:
+      - 覆族
+    start_date: ''
+  decisions:
+  - date: -73
+    title_zh: 纳其女为宣帝皇后
+    rationale: 夫人显欲贵其小女，劝光纳女入宫，立为皇后
+events:
+- id: guji-霍光-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  title_zh: 出生
+  description: 霍光生年不详，为霍去病之弟，仕武帝为侍中奉车都尉
+- id: guji-霍光-event-zhaodi-assist
+  event_type: endeavor
+  date: -87
+  year_of: 武帝后元二年
+  title_zh: 受武帝遗诏辅立昭帝
+  description: 以侍中奉车都尉为大司马大将军，受遗诏，辅八岁少主昭帝；明日武帝崩，太子即位
+- id: guji-霍光-event-depose-changyi
+  event_type: endeavor
+  date: -74
+  year_of: 元平元年
+  title_zh: 奏废昌邑王贺
+  description: 昭帝崩无嗣，光请皇后召昌邑王即位；六月癸巳，光奏王贺淫乱请废，太后诏曰可
+- id: guji-霍光-event-li-xuandi
+  event_type: endeavor
+  date: -74
+  year_of: 元平元年
+  title_zh: 迎立宣帝
+  description: 光奏议立武帝曾孙病已，可嗣孝昭皇帝后；庚申，入未央宫，先封阳武侯，群臣奉上玺绶即皇帝位
+- id: guji-霍光-event-daughter-queen
+  event_type: endeavor
+  date: -73
+  year_of: 宣帝本始元年
+  title_zh: 女入宫立为霍皇后
+  description: 夫人显劝光纳其女于宣帝，果立为皇后
+- id: guji-霍光-event-xu-hou-poison
+  event_type: endeavor
+  date: -72
+  year_of: 本始二年
+  title_zh: 夫人显使女医毒杀许皇后
+  description: 许皇后当娠，显使女医淳于衍以附子合大丸饮皇后，皇后遂崩；谥恭哀皇后
+- id: guji-霍光-event-death
+  event_type: death
+  date: -68
+  year_of: 宣帝地节二年
+  title_zh: 薨
+  description: 立为皇后三岁而光薨；其后霍氏谋反事发，显及诸婿兄弟皆诛灭，霍皇后废处昭台宫
