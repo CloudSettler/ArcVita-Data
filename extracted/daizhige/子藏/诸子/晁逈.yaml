@@ -1,0 +1,167 @@
+person:
+  id: guji-chao-jiong
+  name_zh: 晁逈
+  names:
+    zh: 晁逈
+    en: Chao Jiong
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      date: ''
+      precision: year
+      is_circa: true
+      raw: 卒諡文元
+  birth_date: ''
+  death_date: ''
+  era: 北宋初
+  reign_ref:
+  - 太平兴国
+  - 至道
+  - 天禧
+  - 景祐
+  archetype: 学者 / 文臣
+  dilemmas:
+  - 儒释兼融：著书主于勉人为善，而不免兼入于释氏
+  - 出世与处世间的取舍：既历两制、逮事三朝，又晚年潜心内典
+  lesson: 身老浸衰理之常也，心老浸高道使然也；年老而修善，犹胜终不改其前过。
+  summary_first_person: 我字明远，澶州清丰人，自父始徙家彭门。太平兴国五年登进士第，至道末擢右正言、直史馆、知制诰，旋为翰林学士加承旨。天禧中判西京留司御史台，以太子太保致仕。晚年居于昭德坊，著《昭德新编》，取东鲁之书文而雅、西域之书质而备之意，作指迷五说，酌中而作。卒谥文元。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=6427
+endeavors:
+- id: guji-chao-jiong-endeavor-1
+  name_zh: 仕宦两制、逮事三朝
+  phases:
+  - key: brewing
+    name_zh: 登第入仕
+    labels:
+      zh: 科举入仕
+    start_date: 0980
+    highlight_event_id: guji-chao-jiong-event-jinshi
+  - key: breakthrough
+    name_zh: 擢右正言知制诰
+    labels:
+      zh: 词臣清要
+    start_date: 0995
+    highlight_event_id: guji-chao-jiong-event-zhiyan
+  - key: climax
+    name_zh: 翰林学士加承旨
+    labels:
+      zh: 翰苑承旨
+    start_date: 0996
+    highlight_event_id: guji-chao-jiong-event-hanlin
+  - key: closure
+    name_zh: 判西京留司御史台、致仕
+    labels:
+      zh: 致仕
+    start_date: '1017'
+    highlight_event_id: guji-chao-jiong-event-zhishi
+  decisions:
+  - date: '1017'
+    title_zh: 以太子太保致仕
+    rationale: 自谓历两制、逮事三朝，进退以礼，荣愿满足。
+- id: guji-chao-jiong-endeavor-2
+  name_zh: 撰著《昭德新编》
+  phases:
+  - key: brewing
+    name_zh: 老而好学，闲居观书
+    labels:
+      zh: 积学
+    start_date: '1017'
+    highlight_event_id: guji-chao-jiong-event-xinxin
+  - key: breakthrough
+    name_zh: 成《新新理说》
+    labels:
+      zh: 立言
+    start_date: '1025'
+    highlight_event_id: guji-chao-jiong-event-xinxin
+  - key: climax
+    name_zh: 著指迷五说，成《昭德新编》
+    labels:
+      zh: 酌中而作
+    start_date: '1025'
+    highlight_event_id: guji-chao-jiong-event-wumishuo
+  - key: closure
+    name_zh: 自为冠引，托序布传
+    labels:
+      zh: 流布
+    start_date: '1036'
+    highlight_event_id: guji-chao-jiong-event-xuyu
+  decisions:
+  - date: '1025'
+    title_zh: 作指迷五说，取儒释二家酌中而作
+    rationale: 东鲁之书文而雅，西域之书质而备，故五说酌中而作。
+events:
+- id: guji-chao-jiong-event-birth
+  title_zh: 出生
+  date: 0951
+  year_of: 951
+  precision: circa
+  event_type: birth
+  description: 生年不见本传，约生于五代末。
+- id: guji-chao-jiong-event-jinshi
+  title_zh: 太平兴国五年登进士第
+  date: 0980
+  year_of: 980
+  precision: year
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-1
+  description: 太平兴国五年进士。
+- id: guji-chao-jiong-event-zhiyan
+  title_zh: 至道末擢右正言、直史馆、知制诰
+  date: 0995
+  year_of: 995
+  precision: year
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-1
+  description: 至道末任右正言、直史馆、知制诰。
+- id: guji-chao-jiong-event-hanlin
+  title_zh: 旋为翰林学士，加承旨
+  date: 0996
+  year_of: 996
+  precision: circa
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-1
+  description: 知制诰之后旋为翰林学士，加承旨。
+- id: guji-chao-jiong-event-zhishi
+  title_zh: 天禧中判西京留司御史台，以太子太保致仕
+  date: '1017'
+  year_of: 1017
+  precision: year
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-1
+  description: 天禧中判西京留司御史台，以太子太保致仕，退居杜门。
+- id: guji-chao-jiong-event-xinxin
+  title_zh: 晚年著《新新理说》百六十七条
+  date: '1025'
+  year_of: 1025
+  precision: circa
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-2
+  description: 引年退居，开书帙、发辞句，杂录得新意一百六十七条，目曰新新理说。
+- id: guji-chao-jiong-event-wumishuo
+  title_zh: 著指迷五说成《昭德新编》
+  date: '1025'
+  year_of: 1025
+  precision: circa
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-2
+  description: 晚年所作，因居昭德坊故以名书；下卷指迷五说，取儒释之书酌中而作。
+- id: guji-chao-jiong-event-xuyu
+  title_zh: 李遵勖为序布传
+  date: '1036'
+  year_of: 1036
+  precision: year
+  event_type: endeavor
+  endeavor_id: guji-chao-jiong-endeavor-2
+  description: 景祐三年七月，李遵勖受托为《昭德新编》别叙，布施华椠。
+- id: guji-chao-jiong-event-death
+  title_zh: 卒，谥文元
+  date: ''
+  year_of: 0
+  precision: unknown
+  event_type: death
+  description: 以太子太保致仕，卒，谥文元。
