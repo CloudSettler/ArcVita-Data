@@ -1,0 +1,106 @@
+person:
+  qid: guji-鬼谷子
+  name_zh: 鬼谷子
+  names:
+    zh: 鬼谷子
+    en: Guiguzi
+  archetype: 纵横家鼻祖·谋略宗师
+  dilemmas:
+  - 谋略之术可兴邦亦可倾国，传道与否的道德拷问
+  - 隐居避世与弟子出山济世的进退抉择
+  lesson: 捭阖有道，知人先知己；深隐待时，因事为制
+  summary_first_person: 我隐居于鬼谷，观阴阳开阖之道，著《鬼谷子》十三篇，以捭阖、揣摩、飞箝之术教苏秦、张仪诸徒，使纵横游说之学行于天下。我主张圣人不泥常道，世可治则抵而塞之，不可治则抵而得之，深隐以待其时。
+  era: 战国
+  reign_ref: 相传活动于战国中期
+  source_urls:
+  - https://zh.wikisource.org/wiki/鬼谷子
+endeavors:
+- id: guji-鬼谷子-endeavor-1
+  name_zh: 隐居鬼谷 著书立说
+  phases:
+  - key: brewing
+    name_zh: 潜修道术
+    labels:
+      zh: 深隐待时
+    start_date: -256
+  - key: breakthrough
+    name_zh: 著《鬼谷子》
+    labels:
+      zh: 捭阖揣摩
+    start_date: -0380
+    highlight_event_id: guji-鬼谷子-event-composition
+  - key: climax
+    name_zh: 术成道显
+    labels:
+      zh: 纵横之道
+    start_date: -248
+  - key: closure
+    name_zh: 归隐终老
+    labels:
+      zh: 莫知所终
+    start_date: -208
+  decisions:
+  - date: -0380
+    title_zh: 潜心著述捭阖揣摩之术
+    rationale: 观天下纷错、上无明主，遂深隐鬼谷，将纵横谋略之道著为篇章，以俟后世
+  - date: -208
+    title_zh: 功成不居，退隐不出
+    rationale: 世无可抵则深隐待时，不为诸侯强征所动，守神于天地
+- id: guji-鬼谷子-endeavor-2
+  name_zh: 授徒传道 纵横天下
+  phases:
+  - key: brewing
+    name_zh: 择徒授学
+    labels:
+      zh: 因材施教
+    start_date: -240
+  - key: breakthrough
+    name_zh: 弟子出山
+    labels:
+      zh: 合纵连横
+    start_date: -224
+    highlight_event_id: guji-鬼谷子-event-disciples
+  - key: climax
+    name_zh: 术行天下
+    labels:
+      zh: 纵横捭阖
+    start_date: -216
+  - key: closure
+    name_zh: 学传后世
+    labels:
+      zh: 道术不灭
+    start_date: -200
+  decisions:
+  - date: -240
+    title_zh: 收苏秦张仪为徒，授纵横之学
+    rationale: 材质不惠不能用兵，忠实无实不能知人；察其材能知睿可教，遂倾囊相授
+  - date: -224
+    title_zh: 遣弟子下山游说诸侯
+    rationale: 时有可抵则为之谋，命其以捭阖揣摩之术纵横于列国之间
+events:
+- id: guji-鬼谷子-event-birth
+  type: birth
+  date: -0390
+  year_of: -390
+  date_precision: approximate
+  note: 生卒年不详，相传为战国时期楚人或魏人
+- id: guji-鬼谷子-event-composition
+  type: career
+  date: -0380
+  year_of: -380
+  date_precision: approximate
+  title_zh: 撰写《鬼谷子》，作捭阖、反应、内楗、抵戏诸篇
+  description: 系统阐述捭阖阴阳之道、揣摩测深之法、飞箝忤合之术，为纵横家奠定理论根基
+- id: guji-鬼谷子-event-disciples
+  type: career
+  date: -224
+  year_of: -340
+  date_precision: approximate
+  title_zh: 苏秦张仪出山，以纵横之术游说诸侯
+  description: 弟子各持一术，苏秦倡合纵，张仪主连横，天下局势为师门之学所左右
+- id: guji-鬼谷子-event-death
+  type: death
+  date: -208
+  year_of: -320
+  date_precision: approximate
+  note: 卒年不详，相传仙去或莫知所终
