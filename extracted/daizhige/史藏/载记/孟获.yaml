@@ -1,0 +1,82 @@
+person:
+  qid: guji-孟获
+  name_zh: 孟获
+  names:
+    zh: 孟获
+    en: Meng Huo
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 三国时期
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+  birth_date: ''
+  death_date: ''
+  era: 三国·蜀汉
+  reign_ref: 蜀汉建兴三年（225年）
+  archetype: 南中豪帅
+  dilemmas:
+  - 叛蜀附吴，据南中对抗诸葛亮南征
+  - 被擒后归附，其部众后续事迹不显
+  lesson: 攻心为上，七擒而后心服
+  summary_first_person: 我孟获，为益州耆帅雍闿之后南中之豪，建兴三年诸葛亮南征至白崖，杀雍闿而擒我，南中遂平。
+  source_urls:
+  - https://example.org/guji/zengding-nanzhao-yeshi
+endeavors:
+- id: guji-孟获-endeavor-1
+  name_zh: 雍闿之乱与南中叛乱
+  phases:
+  - key: brewing
+    name_zh: 附吴叛蜀
+    labels:
+      zh: 联吴据南中
+    start_date: '0223'
+    highlight_event_id: guji-孟获-event-1
+  - key: climax
+    name_zh: 对抗南征
+    labels:
+      zh: 南中之战
+    start_date: '0225'
+    highlight_event_id: guji-孟获-event-2
+  decisions:
+  - date: '0223'
+    title_zh: 随雍闿归东吴
+    rationale: 借东吴之势，据南中自立
+- id: guji-孟获-endeavor-2
+  name_zh: 被擒归附
+  phases:
+  - key: closure
+    name_zh: 诸葛亮擒孟获
+    labels:
+      zh: 七擒归心
+    start_date: '0225'
+    highlight_event_id: guji-孟获-event-2
+  decisions:
+  - date: '0225'
+    title_zh: 降蜀
+    rationale: 兵败被擒，心服而归附
+events:
+- id: guji-孟获-event-birth
+  type: birth
+  date: ''
+  year_of: ''
+  description: 孟获生年不详，三国时期南中豪帅
+- id: guji-孟获-event-1
+  type: affiliation
+  date: '0223'
+  year_of: 223
+  description: 益州耆帅雍闿假鬼术杀建宁太守王昂，归东吴；孟获与其同据南中
+- id: guji-孟获-event-2
+  type: capture
+  date: '0225'
+  year_of: 225
+  description: 蜀汉建兴三年，诸葛武侯南征至白崖，杀雍闿，擒孟获，遂封龙佑那为酋长、号建宁国
+- id: guji-孟获-event-death
+  type: death
+  date: ''
+  year_of: ''
+  description: 孟获卒年不详
