@@ -1,0 +1,147 @@
+person:
+  qid: guji-余靖
+  name_zh: 余靖
+  names:
+    zh: 余靖
+    en: Yu Jing
+  lifespan:
+    birth:
+      date: '1000'
+      precision: year
+      is_circa: true
+      raw: 约1000年
+    death:
+      date: '1064'
+      precision: year
+      is_circa: true
+      raw: 约1064年
+  birth_date: '1000'
+  death_date: '1064'
+  era: 北宋
+  reign_ref: 宋仁宗朝
+  archetype: 外交使臣·能诗通胡语之尚书
+  dilemmas:
+  - 出使契丹需通夷语，士大夫或耻学胡语，余靖以胡语作诗反成两朝亲善之媒
+  lesson: 通其语方能通其心，使节以胡语诗近夷情，成两朝和好之功。
+  summary_first_person: 我余靖以尚书出使契丹，席间以胡语赋诗，契丹人爱之，再往而情益亲。虏人举大杯请我诵诗，我应声而道，虏大笑，遂成醉觞尽欢。时人称我此诗为真胡语，胜于汉译夷诗。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋诗话辑佚
+endeavors:
+- id: guji-余靖-endeavor-1
+  name_zh: 出使契丹
+  labels:
+    zh: 胡语诗外交
+  phases:
+  - key: brewing
+    name_zh: 使虏初往
+    labels:
+      zh: 契丹爱其诗
+    start_date: '1040'
+    highlight_event_id: guji-余靖-event-envoy-1
+  - key: breakthrough
+    name_zh: 再往修好
+    labels:
+      zh: 情益亲厚
+    start_date: '1041'
+    highlight_event_id: guji-余靖-event-envoy-2
+  - key: climax
+    name_zh: 醉觞赋诗
+    labels:
+      zh: 应声道胡语
+    start_date: '1041'
+    highlight_event_id: guji-余靖-event-poem
+  - key: closure
+    name_zh: 诗话传世
+    labels:
+      zh: 见录《中山诗话》
+    start_date: '1080'
+    highlight_event_id: guji-余靖-event-legacy
+  decisions:
+  - date: '1041'
+    title_zh: 以胡语作诗酬对
+    rationale: 虏人举杯相邀，能道此诗则炊酒相待，余靖应声全诵胡语诗，虏大笑，两国使情愈亲。
+- id: guji-余靖-endeavor-2
+  name_zh: 仕宋为官
+  labels:
+    zh: 历官尚书
+  phases:
+  - key: brewing
+    name_zh: 举士入仕
+    labels:
+      zh: 入宋廷
+    start_date: '1024'
+    highlight_event_id: guji-余靖-event-career
+  - key: climax
+    name_zh: 官至尚书
+    labels:
+      zh: 位至尚书
+    start_date: '1040'
+    highlight_event_id: guji-余靖-event-career
+  decisions:
+  - date: '1040'
+    title_zh: 受命使辽
+    rationale: 朝廷与契丹通好，选能诗通语者充使，余靖以尚书衔奉使。
+events:
+- id: guji-余靖-event-birth
+  person_id: guji-余靖
+  type: birth
+  date: '1000'
+  year_of: 1000
+  title_zh: 余靖生
+  detail: 约生于北宋真宗年间。
+  source_refs:
+  - 宋史·余靖传（据通行资料）
+- id: guji-余靖-event-career
+  person_id: guji-余靖
+  type: endeavor
+  date: '1040'
+  year_of: 1040
+  title_zh: 以尚书衔出使契丹
+  detail: 余靖尚书使虏，为契丹所重。
+  source_refs:
+  - 宋诗话辑佚·诗史卷五
+- id: guji-余靖-event-envoy-1
+  person_id: guji-余靖
+  type: endeavor
+  date: '1040'
+  year_of: 1040
+  title_zh: 初使契丹，为胡诗
+  detail: 余靖使虏为胡语诗，契丹爱之。
+  source_refs:
+  - 宋诗话辑佚·五《余靖胡语诗》
+- id: guji-余靖-event-envoy-2
+  person_id: guji-余靖
+  type: endeavor
+  date: '1041'
+  year_of: 1041
+  title_zh: 再使契丹，情益亲
+  detail: 再往使契丹，胡虏待之愈亲。
+  source_refs:
+  - 宋诗话辑佚·五《余靖胡语诗》
+- id: guji-余靖-event-poem
+  person_id: guji-余靖
+  type: endeavor
+  date: '1041'
+  year_of: 1041
+  title_zh: 席间应声诵胡语诗
+  detail: 虏举大杯谓余曰"能道此，余为卿炊"，余诵"夜筵设罗臣拜洗，两朝厥荷情干勤"之句，虏大笑，遂为醉觞。
+  source_refs:
+  - 宋诗话辑佚·五《余靖胡语诗》（出《中山诗话》）
+- id: guji-余靖-event-legacy
+  person_id: guji-余靖
+  type: legacy
+  date: '1080'
+  year_of: 1080
+  title_zh: 胡语诗入《中山诗话》
+  detail: 此事见录于《中山诗话》，后蔡居厚《诗史》引之，论其真胡语胜于夷人诗汉译。
+  source_refs:
+  - 宋诗话辑佚·案语
+- id: guji-余靖-event-death
+  person_id: guji-余靖
+  type: death
+  date: '1064'
+  year_of: 1064
+  title_zh: 余靖卒
+  detail: 约卒于北宋英宗年间。
+  source_refs:
+  - 宋史·余靖传（据通行资料）
