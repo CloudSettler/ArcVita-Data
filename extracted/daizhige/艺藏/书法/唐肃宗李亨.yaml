@@ -1,0 +1,121 @@
+person:
+  qid: guji-李亨
+  name_zh: 李亨
+  names:
+    zh: 李亨
+    en: Li Heng
+  lifespan:
+    birth:
+      date: '711'
+      precision: year
+      is_circa: true
+      raw: 开元前出生，明皇第三子
+    death:
+      date: '762'
+      precision: year
+  birth_date: '711'
+  death_date: '762'
+  era: 唐
+  reign_ref: 唐肃宗
+  archetype: 中兴之君
+  dilemmas:
+  - 明皇幸蜀，父老遮道留太子讨贼，忠孝与社稷难以两全
+  - 以天下元帅提孤军抗衡渔阳之众，成败未可知
+  lesson: 善将将而能御豪杰，方能削平祸乱、再造唐室
+  summary_first_person: 我是明皇第三子李亨，天性仁孝，好学不倦，开元二十五年被立为太子。安史乱起，明皇幸蜀，父老遮道乞留我平贼，我遂以天下元帅提孤军抗衡渔阳之众，终使海岳一清，宗庙如故，再造唐室。即位之明年，我遣韦见素迎上皇自蜀还京，使父皇感悟自慰。郭子仪、李光弼皆天下豪杰，功名中兴第一，皆因我善将将而能御之。我早岁承明皇选贺知章等佳士侍读之教，又承父皇行书、八分、章草之家法，故行书气韵可与能字者争衡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宣和书譜/卷一
+endeavors:
+- id: guji-李亨-endeavor-1
+  name_zh: 立储与东宫教养
+  phases:
+  - key: brewing
+    name_zh: 蒙养东宫
+    labels:
+      zh:
+      - 侍读佳士
+      - 过庭之训
+    start_date: 457
+    highlight_event_id: guji-李亨-event-рой-prince
+  - key: breakthrough
+    name_zh: 得立太子
+    labels:
+      zh:
+      - 储副之位
+    start_date: 479
+    highlight_event_id: guji-李亨-event-рой-prince
+  decisions:
+  - date: 479
+    title_zh: 开元二十五年立为太子
+    rationale: 天性仁孝，明皇酷爱，与诸子异
+- id: guji-李亨-endeavor-2
+  name_zh: 削平祸乱，再造唐室
+  phases:
+  - key: brewing
+    name_zh: 马嵬分兵
+    labels:
+      zh:
+      - 父老遮道
+    start_date: 494
+    highlight_event_id: guji-李亨-event-royal-command
+  - key: breakthrough
+    name_zh: 即位讨贼
+    labels:
+      zh:
+      - 孤军抗衡
+      - 海岳一清
+    start_date: 494
+    highlight_event_id: guji-李亨-event-royal-command
+  - key: climax
+    name_zh: 善将将御豪杰
+    labels:
+      zh:
+      - 郭子仪
+      - 李光弼
+    start_date: 495
+    highlight_event_id: guji-李亨-event-guo-li
+  - key: closure
+    name_zh: 迎上皇还京
+    labels:
+      zh:
+      - 盛德成功
+    start_date: 495
+    highlight_event_id: guji-李亨-event-wei-jiansu
+  decisions:
+  - date: 494
+    title_zh: 留镇平贼，以天下元帅提孤军
+    rationale: 父老遮道乞留，人心所归，慨然当主器之托
+  - date: 495
+    title_zh: 遣韦见素迎上皇自蜀还京
+    rationale: 会使明皇感悟，自谓吾始得为天子父，成其孝养之美
+events:
+- id: guji-李亨-event-birth
+  date: '711'
+  year_of: 出生
+  kind: birth
+  summary_zh: 明皇第三子李亨生，天性仁孝，好学不倦。
+- id: guji-李亨-event-рой-prince
+  date: '737'
+  year_of: 开元二十五年
+  kind: succession
+  summary_zh: 开元二十五年，明皇酷爱异于诸子，立亨为太子，早岁选贺知章等佳士侍读左右，气味渐摩，行书有家法。
+- id: guji-李亨-event-royal-command
+  date: '756'
+  year_of: 马嵬之变
+  kind: military-command
+  summary_zh: 明皇幸蜀，父老遮道乞留太子平贼，亨遂以天下元帅提孤军抗衡渔阳卷地之众，即位讨贼。
+- id: guji-李亨-event-guo-li
+  date: 0757-09
+  year_of: 收复两京
+  kind: military-victory
+  summary_zh: 用郭子仪、李光弼等天下豪杰，雷驱电扫，终使海岳一清，宗庙如故，削平祸乱，再造唐室。
+- id: guji-李亨-event-wei-jiansu
+  date: '0757'
+  year_of: 即位之明年
+  kind: reconciliation
+  summary_zh: 遣韦见素迎上皇自蜀还京，明皇感悟，自谓吾始得为天子父，其盛德成功为一时之美。
+- id: guji-李亨-event-death
+  date: '762'
+  year_of: 卒
+  kind: death
+  summary_zh: 唐肃宗李亨卒，其行书御府所藏七件传世。

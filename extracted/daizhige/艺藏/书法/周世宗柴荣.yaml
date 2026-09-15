@@ -1,0 +1,152 @@
+person:
+  qid: guji-柴荣
+  name_zh: 周世宗柴荣
+  names:
+    zh: 周世宗柴荣
+    en: Chai Rong (Emperor Shizong of Later Zhou)
+  lifespan:
+    birth:
+      date: 0921
+      precision: year
+      is_circa: true
+      raw: 邢州尧山，生年史载约后梁龙德前后
+    death:
+      date: 0959
+      precision: year
+      is_circa: false
+  birth_date: 0921
+  death_date: '959'
+  era: 五代十国·后周
+  reign_ref: 显德（955-959）
+  archetype: 英武有为的开创之主，兼擅书法
+  dilemmas:
+  - 继明在御而命短，壮志未雪燕云
+  - 因任旧臣绍述前烈与自创新局之间的平衡
+  lesson: 英杰之主能克家，神武之略自见于笔端
+  summary_first_person: 我本是太祖圣穆皇后之侄，丱岁事君后以孝谨闻，蒙太祖爱之，及长委以主器之重。继位后摧高平之阵、还秦凤之封，江北燕南取之如拾芥，惜天不假年，志未竟而殁。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宣和書譜
+endeavors:
+- id: guji-柴荣-endeavor-1
+  title_zh: 主器绍统，绍述前烈
+  span:
+    start: 0950
+    end: 0959
+  labels:
+    zh:
+    - 军政
+    - 基业
+  phases:
+  - key: brewing
+    name_zh: 孝谨闻于太祖
+    labels:
+      zh:
+      - 入嗣
+    start_date: 0930
+    highlight_event_id: guji-柴荣-event-adopt
+  - key: breakthrough
+    name_zh: 高平摧阵
+    labels:
+      zh:
+      - 军功
+    start_date: 0954
+    highlight_event_id: guji-柴荣-event-gaoping
+  - key: climax
+    name_zh: 开疆拓土
+    labels:
+      zh:
+      - 征伐
+    start_date: 0955
+    highlight_event_id: guji-柴荣-event-qinfeng
+  - key: closure
+    name_zh: 志未竟而殁
+    labels:
+      zh:
+      - 早逝
+    start_date: 0959
+    highlight_event_id: guji-柴荣-event-death
+  decisions:
+  - date: 0950
+    title_zh: 因任旧臣，相与绍述前烈
+    rationale: 增大太祖基构，以旧臣共识稳固新基。
+  - date: 0954
+    title_zh: 亲摧高平之阵
+    rationale: 以神武之略挫勍敌之气，立国威。
+- id: guji-柴荣-endeavor-2
+  title_zh: 翰墨神武，气发笔端
+  span:
+    start: 0954
+    end: 959-12-31
+  labels:
+    zh:
+    - 书法
+    - 文化
+  phases:
+  - key: brewing
+    name_zh: 英武之略氤氲盘礴
+    labels:
+      zh:
+      - 书风
+    start_date: 0954
+    highlight_event_id: guji-柴荣-event-zhao
+  - key: breakthrough
+    name_zh: 行书自成运用
+    labels:
+      zh:
+      - 造诣
+    start_date: '956'
+    highlight_event_id: guji-柴荣-event-zhao
+  - key: closure
+    name_zh: 赐张昭诏传世
+    labels:
+      zh:
+      - 遗墨
+    start_date: '958'
+    highlight_event_id: guji-柴荣-event-zhao
+  decisions:
+  - date: 0958
+    title_zh: 以行书《赐张昭诏》示运用之妙
+    rationale: 自谓运用处过人远甚，以翰墨见神武。
+events:
+- id: guji-柴荣-event-birth
+  person_qid: guji-柴荣
+  type: birth
+  date: 0921
+  year_of: 921
+  title_zh: 柴荣生（约）
+  description_zh: 太祖圣穆柴后之侄，丱岁即事君后，以孝谨闻。
+- id: guji-柴荣-event-adopt
+  person_qid: guji-柴荣
+  type: endeavor
+  date: 0935
+  year_of: 935
+  title_zh: 太祖爱之，委以主器之重
+  description_zh: 及长，郭威委以主器之重，柴荣乃克负荷。
+- id: guji-柴荣-event-gaoping
+  person_qid: guji-柴荣
+  type: endeavor
+  date: 0954
+  year_of: 954
+  title_zh: 摧高平之阵
+  description_zh: 高平一战挫勍敌之气，显英武神略。
+- id: guji-柴荣-event-qinfeng
+  person_qid: guji-柴荣
+  type: endeavor
+  date: 0955
+  year_of: 955
+  title_zh: 还秦凤之封，开疆拓土
+  description_zh: 收复秦凤之地，继而江北燕南取之如拾芥。
+- id: guji-柴荣-event-zhao
+  person_qid: guji-柴荣
+  type: endeavor
+  date: 0958
+  year_of: 958
+  title_zh: 行书《赐张昭诏》
+  description_zh: 观其赐张昭诏，有行书法，神武之略氤氲盘礴发于笔端，运用处自己过人远甚。
+- id: guji-柴荣-event-death
+  person_qid: guji-柴荣
+  type: death
+  date: 0959
+  year_of: 959
+  title_zh: 周世宗崩
+  description_zh: 英杰之主，志未竟而殁，御府所藏行书《赐张昭诏》传世。
