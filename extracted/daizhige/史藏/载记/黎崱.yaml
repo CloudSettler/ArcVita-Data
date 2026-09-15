@@ -1,0 +1,134 @@
+person:
+  qid: guji-黎崱
+  name_zh: 黎崱
+  names:
+    zh: 黎崱
+    en: Le Ke
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      precision: unknown
+      is_circa: false
+      raw: 卒年不详
+  era: 元代（原安南国人，入元后仕于中国）
+  reign_ref: 元世祖至元年间
+  archetype: 遗民史家 / 入降士人
+  dilemmas:
+  - 身为安南人却随陈键出降元朝，故国与出处之间的忠节困境
+  - 陈键志不伸而名泯，撰《安南志略》以伸其志、存安南史实于中土
+  lesson: 身历易代与故国之变，乃以著述存一方史事，供参稽互考，使亡者之名不泯。
+  summary_first_person: 我本安南爱州人，阮敷之后，幼为黎琫养子，九岁试童科，仕至侍郎。至元中随主帅陈键出降，键殁于军，我入元授奉议大夫，居汉阳。因痛陈键之志不伸，乃撰《安南志略》二十卷，以存安南事实、致其意。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=6760
+endeavors:
+- id: guji-黎崱-endeavor-1
+  name_zh: 仕安南与降元之行
+  phases:
+  - key: brewing
+    name_zh: 童科入仕
+    labels:
+      zh:
+      - 幼学
+      - 童科
+    highlight_event_id: guji-黎崱-event-ke
+  - key: breakthrough
+    name_zh: 仕至侍郎
+    labels:
+      zh:
+      - 侍郎
+      - 静海军节度使幕
+    highlight_event_id: guji-黎崱-event-shilang
+  - key: climax
+    name_zh: 随陈键出降
+    labels:
+      zh:
+      - 至元伐安南
+      - 出降
+    highlight_event_id: guji-黎崱-event-jiang
+  - key: closure
+    name_zh: 入朝授官居汉阳
+    labels:
+      zh:
+      - 奉议大夫
+      - 居汉阳
+    highlight_event_id: guji-黎崱-event-guan
+  decisions:
+  - title_zh: 随陈键率众出降元朝
+    rationale: 至元中元世祖伐安南，主帅陈键出降，崱在幕中随之。
+- id: guji-黎崱-endeavor-2
+  name_zh: 撰《安南志略》
+  phases:
+  - key: brewing
+    name_zh: 居汉阳
+    labels:
+      zh:
+      - 授官
+      - 侨居
+    highlight_event_id: guji-黎崱-event-guan
+  - key: climax
+    name_zh: 撰志以致其意
+    labels:
+      zh:
+      - 撰安南志略
+      - 存安南史实
+    highlight_event_id: guji-黎崱-event-zhuan
+  - key: closure
+    name_zh: 志成传世
+    labels:
+      zh:
+      - 证史氏之讹
+      - 参稽互考
+    highlight_event_id: guji-黎崱-event-zhuan
+  decisions:
+  - title_zh: 因陈键志不伸而名泺，撰《安南志略》以致其意
+    rationale: 为其主陈键伸志存名，兼以安南文字通于中国，详叙安南山川人物以备参稽互考之助。
+events:
+- id: guji-黎崱-event-birth
+  type: birth
+  title_zh: 出生
+  description_zh: 黎崱生年不详；字景高，号东山，东晋交州刺史阮敷之后，世居爱州，幼与黎琫为子，因从其姓。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-ke
+  year_of: 九岁
+  type: career
+  title_zh: 九岁试童科
+  description_zh: 年九岁举安南童子科。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-shilang
+  type: career
+  title_zh: 仕其国至侍郎
+  description_zh: 仕安南国至侍郎，后迁左静海军节度使陈键幕。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-jiang
+  year_of: 至元中
+  type: event
+  title_zh: 至元中随陈键出降
+  description_zh: 元世祖伐安南，陈键率崱等出降，其国邀击之，键殁于军。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-guan
+  year_of: 元
+  type: career
+  title_zh: 入朝授奉议大夫，居于汉阳
+  description_zh: 黎崱入元朝，授奉议大夫之官，居于汉阳。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-zhuan
+  year_of: 元
+  type: writing
+  title_zh: 撰《安南志略》二十卷
+  description_zh: 以陈键志不伸而名泯，乃撰《安南志略》以致其意；所纪安南事实与《元史》列传多异同，可证史氏之讹、补其脱漏，叙述详赡可为参稽互考之助。
+  persons:
+  - guji-黎崱
+- id: guji-黎崱-event-death
+  type: death
+  title_zh: 卒
+  description_zh: 黎崱卒年不详。
+  persons:
+  - guji-黎崱
