@@ -1,0 +1,182 @@
+person:
+  qid: guji-朱元璋
+  name_zh: 朱元璋
+  names:
+    zh: 朱元璋
+    en: Zhu Yuanzhang
+  lifespan:
+    birth:
+      date: 1328-09-28
+      precision: day
+      is_circa: false
+      raw: 元天历元年九月丁丑
+    death:
+      date: 1398-06-24
+      precision: day
+      is_circa: false
+      raw: 洪武三十一年闰五月乙酉崩于西宫，年七十一
+  birth_date: 1328-09-28
+  death_date: 1398-06-24
+  era: 元末明初
+  reign_ref: 洪武
+  archetype: 开国之君
+  dilemmas:
+  - 由贫僧而起义，忠义与求生两难
+  - 称帝前的谦让权衡：群臣劝进而恐蹈陈友谅覆辙
+  - 建国后废相与功臣处置：集权之安与骨肉之残
+  lesson: 出身微贱不碍成大业，然创业易、守成难，得天下者在人心与纲纪。
+  summary_first_person: 我元璋，濠州钟离人，起自皇觉寺一僧，投郭子兴于行伍，取滁和、渡江、克金陵，扫平群雄，即皇帝位于应天，建元洪武，创大一统之明。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史
+endeavors:
+- id: guji-朱元璋-endeavor-1
+  name_zh: 起兵濠梁，削平群雄
+  phases:
+  - key: brewing
+    name_zh: 投军与聚众
+    labels:
+      zh:
+      - 濠州投郭子兴
+      - 招集义旅
+    start_date: 1352
+    highlight_event_id: guji-朱元璋-event-join-guozixing
+  - key: breakthrough
+    name_zh: 渡江克金陵
+    labels:
+      zh:
+      - 采石渡江
+      - 攻克集庆
+    start_date: 1355
+    highlight_event_id: guji-朱元璋-event-cross-river
+  - key: climax
+    name_zh: 建号称帝与驱逐元廷
+    labels:
+      zh:
+      - 立吴王
+      - 北伐灭元
+    start_date: 1364
+    highlight_event_id: guji-朱元璋-event-wuwang
+  - key: closure
+    name_zh: 洪武治世
+    labels:
+      zh:
+      - 建元洪武
+      - 废丞相立纲纪
+    start_date: 1368
+    highlight_event_id: guji-朱元璋-event-throne
+  decisions:
+  - date: 1352
+    title_zh: 弃僧从军，投郭子兴
+    rationale: 天下大乱，诸兄皆亡，寄身缁流无以自保，遂淮兵大起时掠入行伍求存。
+  - date: 1368
+    title_zh: 即皇帝位，建元洪武
+    rationale: 群雄削除殆尽，远近归心，1950吴元年李善长等屡请正大位以承天命，遂应群臣推戴。
+  - date: 1380
+    title_zh: 废中书省，罢丞相
+    rationale: 十三年罢中书省，惩胡惟庸之专，收权于上，以杜权臣乱政。
+- id: guji-朱元璋-endeavor-2
+  name_zh: 重建礼制与追崇祖考
+  phases:
+  - key: brewing
+    name_zh: 访求宗族
+    labels:
+      zh:
+      - 取句容访朱巷
+    start_date: 1357
+    highlight_event_id: guji-朱元璋-event-visit-jurong
+  - key: climax
+    name_zh: 洪武元年追尊四祖
+    labels:
+      zh:
+      - 追尊德祖懿祖熙祖仁祖
+      - 修正典章
+    start_date: 1368
+    highlight_event_id: guji-朱元璋-event-honor-ancestors
+  decisions:
+  - date: 1368
+    title_zh: 追尊四代祖考为帝
+    rationale: 即位之初尽人子追远之礼，定帝系昭穆以固国本。
+  - date: 1367
+    title_zh: 却旗卫夸辞，命去'皇帝万岁'字
+    rationale: 自谓此夸大之词非古制，惧蹈陈友谅骄恣速亡之辙。
+events:
+- id: guji-朱元璋-event-birth
+  date: 1328-09-28
+  year_of: 1328
+  type: birth
+  title_zh: 生于濠州钟离
+  detail_zh: 仁祖第四子，母淳皇后陈氏，以元天历元年九月丁丑生。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-join-guozixing
+  date: 1352
+  year_of: 1352
+  type: endeavor
+  title_zh: 至正十二年投郭子兴于濠州
+  detail_zh: 弃皇觉寺僧籍，从郭子兴起兵，招集义旅，兵力渐众。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-cross-river
+  date: 1357
+  year_of: 1357
+  type: endeavor
+  title_zh: 帅师渡江，取滁和并谋金陵
+  detail_zh: 龙凤年间招集义旅取滁和，后渡江驻兵太平，明年克金陵。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-visit-jurong
+  date: 1357
+  year_of: 1357
+  type: endeavor
+  title_zh: 访求故乡宗族于句容朱巷
+  detail_zh: 为念先考常言世为朱巷人，调兵取句容，族父兄昆弟四十余人至，始叙长幼之礼。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-wuwang
+  date: 1364-01-01
+  year_of: 1364
+  type: endeavor
+  title_zh: 立为吴王
+  detail_zh: 至正二十四年正月丙寅朔，立为吴王。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-throne
+  date: 1368-01-23
+  year_of: 1368
+  type: endeavor
+  title_zh: 即皇帝位，建元洪武
+  detail_zh: 洪武元年正月乙亥，即皇帝位，建元洪武。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-abolish-chancellor
+  date: 1380
+  year_of: 1380
+  type: endeavor
+  title_zh: 罢中书省，废丞相制
+  detail_zh: 洪武十三年罢中书省，丞相四人李善长、徐达、汪广洋、胡惟庸之职自此永废。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-honor-ancestors
+  date: 1368-01-23
+  year_of: 1368
+  type: endeavor
+  title_zh: 洪武元年正月乙亥追尊德祖、懿祖、熙祖、仁祖四代祖考为帝
+  detail_zh: 追尊伯六公为德祖元皇帝、四九公为懿祖恒皇帝、初一公为熙祖裕皇帝、世珍为仁祖淳皇帝。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-dedication-decline-flag
+  date: 1367-12-25
+  year_of: 1367
+  type: endeavor
+  title_zh: 吴元年命去旗卫'皇帝万岁'夸辞
+  detail_zh: 以群臣推戴不已，祭告上帝神只；见仗内旗有'天下太平皇帝万岁'字，命去之。
+  related_persons:
+  - guji-朱元璋
+- id: guji-朱元璋-event-death
+  date: 1398-06-24
+  year_of: 1398
+  type: death
+  title_zh: 崩于西宫，年七十一，葬孝陵
+  detail_zh: 洪武三十一年闰五月乙酉崩，辛卯葬孝陵，谥高皇帝，庙号太祖。
+  related_persons:
+  - guji-朱元璋

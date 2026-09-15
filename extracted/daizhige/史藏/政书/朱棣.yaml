@@ -1,0 +1,116 @@
+person:
+  qid: guji-朱棣
+  name_zh: 朱棣
+  names:
+    zh: 朱棣
+    en: Zhu Di
+  lifespan:
+    birth:
+      date: '1360-05-02'
+      precision: day
+      is_circa: false
+      raw: 元至正二十年四月癸酉生
+    death:
+      date: '1424-08-12'
+      precision: day
+      is_circa: false
+      raw: 永乐二十二年七月辛卯，崩于榆木川，年六十五
+  birth_date: '1360-05-02'
+  death_date: '1424-08-12'
+  era: 明代
+  reign_ref: 永乐（1402-1424）
+  archetype: 靖难夺位的雄主皇帝
+  dilemmas:
+  - 藩王起兵夺位与忠孝伦常的冲突
+  - 篡逆之名与治世之功的历史评价
+  lesson: 以武夺位者，仍须以文治守成方能赢得身后之名
+  summary_first_person: 我是明太祖第四子朱棣，初封燕王镇守北平。建文帝削藩，我举兵靖难，四年而入京师即位，改元永乐。在位期间命修典章、遣使四方，最终崩于北征途中榆木川，庙号初为太宗，嘉靖时改成祖。
+endeavors:
+- id: guji-朱棣-endeavor-1
+  name_zh: 镇守北平
+  phases:
+  - key: brewing
+    name_zh: 受封燕王
+    labels:
+      zh:
+      - 藩王
+    start_date: '1370-04-25'
+    highlight_event_id: guji-朱棣-event-fengyan-wang
+  - key: breakthrough
+    name_zh: 之藩北平
+    labels:
+      zh:
+      - 守边
+    start_date: '1380-04-07'
+    highlight_event_id: guji-朱棣-event-zhifan-beiping
+  decisions:
+  - date: '1380-04-07'
+    title_zh: 就藩北平
+    rationale: 承担北边防御之责，培植自身势力根基
+- id: guji-朱棣-endeavor-2
+  name_zh: 靖难之役与夺位
+  phases:
+  - key: brewing
+    name_zh: 削藩之迫
+    labels:
+      zh:
+      - 夺位
+    start_date: '1399-07-24'
+    highlight_event_id: guji-朱棣-event-jingnan-qibing
+  - key: climax
+    name_zh: 举兵靖难
+    labels:
+      zh:
+      - 起兵
+    start_date: '1399-07-24'
+    highlight_event_id: guji-朱棣-event-jingnan-qibing
+  - key: closure
+    name_zh: 陷京师即位
+    labels:
+      zh:
+      - 登基
+    start_date: '1402-07-05'
+    highlight_event_id: guji-朱棣-event-xian-jingshi
+  decisions:
+  - date: '1399-07-24'
+    title_zh: 起兵靖难
+    rationale: 建文削藩势不可免，以清君侧为名绝地反击
+  - date: '1402-07-05'
+    title_zh: 即皇帝位改元永乐
+    rationale: 京师已陷，即位以定政局
+events:
+- id: guji-朱棣-event-birth
+  date: '1360-05-02'
+  year_of: '1360'
+  title_zh: 出生
+  description: 太祖第四子，母曰孝慈马皇后，生于元至正二十年四月癸酉。
+- id: guji-朱棣-event-fengyan-wang
+  date: '1370-04-25'
+  year_of: '1370'
+  title_zh: 封燕王
+  description: 洪武三年四月乙丑，封为燕王。
+- id: guji-朱棣-event-zhifan-beiping
+  date: '1380-04-07'
+  year_of: '1380'
+  title_zh: 之藩北平
+  description: 洪武十三年三月壬寅，前往北平封地。
+- id: guji-朱棣-event-jingnan-qibing
+  date: '1399-07-24'
+  year_of: '1399'
+  title_zh: 举兵靖难
+  description: 建文元年七月癸酉，以清君侧为名起兵反。
+- id: guji-朱棣-event-xian-jingshi
+  date: '1402-07-05'
+  year_of: '1402'
+  title_zh: 陷京师
+  description: 建文四年六月乙丑，燕兵攻陷京师，宫中火起。
+- id: guji-朱棣-event-jiwei
+  date: '1402-07-09'
+  year_of: '1402'
+  title_zh: 即皇帝位改元永乐
+  description: 建文四年六月己巳，自立为皇帝，改元永乐。
+- id: guji-朱棣-event-death
+  date: '1424-08-12'
+  year_of: '1424'
+  title_zh: 崩于榆木川
+  description: 永乐二十二年七月辛卯，崩于榆木川，年六十五；九月上尊谥，庙号太宗，十二月葬长陵，嘉靖时改庙号成祖。
