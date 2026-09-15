@@ -1,0 +1,187 @@
+person:
+  qid: guji-李泌
+  name_zh: 李泌
+  names:
+    zh: 李泌
+    en: Li Bi
+  lifespan:
+    birth:
+      date: '0722'
+      precision: year
+      is_circa: true
+      raw: 未详，据开元中童子召对推约
+    death:
+      date: 0789
+      precision: year
+      is_circa: true
+      raw: 未详
+  birth_date: '0722'
+  death_date: 0789
+  era: 唐
+  reign_ref: 开元中
+  archetype: 谋臣·神童
+  dilemmas:
+  - 方圆动静之辩：童子御前仓促应对，须以略求详、以义智胜棋喻
+  - 才显于外而善视于家：蒙帝王赏识，进退在赐与不赐之间
+  lesson: 敏捷之才贵在化有形为无形——以行义、用智、骋才、得意应方圆动静，胜于拘泥物象
+  summary_first_person: 我字长源，七岁能为文。开元中天子召能言佛、道、孔子者相答难禁中，员俶以臣荐，帝驰召。张说请赋方、员、动、静，我以行义、用智、骋才、得意对之，说起贺帝得奇童，帝赐束帛而敕其家善视我。
+  source_urls:
+  - 全唐诗话续编·卷上·李泌
+endeavors:
+- id: guji-李泌-endeavor-1
+  name_zh: 神童显名·禁中答难
+  labels:
+    zh:
+    - 早慧
+    - 御前对策
+  phases:
+  - key: brewing
+    name_zh: 七岁属文
+    labels:
+      zh:
+      - 早慧
+      - 能文
+    start_date: 0729
+  - key: breakthrough
+    name_zh: 驰召入禁
+    labels:
+      zh:
+      - 召对
+      - 员俶之荐
+    start_date: 0728
+    highlight_event_id: guji-李泌-event-zhaozhao
+  - key: climax
+    name_zh: 方圆动静之对
+    labels:
+      zh:
+      - 张说试才
+      - 奇童
+    start_date: 0728
+    highlight_event_id: guji-李泌-event-duida
+  - key: closure
+    name_zh: 赐帛敕家
+    labels:
+      zh:
+      - 束帛之赐
+      - 善视其家
+    start_date: 0728
+    highlight_event_id: guji-李泌-event-cibo
+  decisions:
+  - date: 0728
+    title_zh: 应召入禁中
+    rationale: 员俶跪奏臣舅子李泌，帝异之驰召，童子不敢不奉诏应命
+  - date: 0728
+    title_zh: 请闻其略而后对
+    rationale: 张说请赋方、员、动、静，泌逡巡请闻其略，先审题再应，故答能过之
+- id: guji-李泌-endeavor-2
+  name_zh: 历事四朝·佐政安社稷
+  labels:
+    zh:
+    - 谋臣
+    - 宰辅
+  phases:
+  - key: brewing
+    name_zh: 玄宗识拔于童蒙
+    labels:
+      zh:
+      - 帝眷
+    start_date: 0728
+    highlight_event_id: guji-李泌-event-cibo
+  - key: breakthrough
+    name_zh: 历仕肃代两朝参预谋议
+    labels:
+      zh:
+      - 佐命
+      - 谋议
+    start_date: '0756'
+  - key: climax
+    name_zh: 德宗朝拜相辅政
+    labels:
+      zh:
+      - 拜相
+      - 经纬
+    start_date: 0787
+    highlight_event_id: guji-李泌-event-baixiang
+  - key: closure
+    name_zh: 薨于相位
+    labels:
+      zh:
+      - 卒
+    start_date: 0789
+    highlight_event_id: guji-李泌-event-death
+  decisions:
+  - date: '0756'
+    title_zh: 出佐肃宗灵武
+    rationale: 安史之乱起，以布衣参谋议，以王佐之才自任
+  - date: 0787
+    title_zh: 受拜宰相
+    rationale: 德宗倚为腹心，遂居相位以经纬国事
+events:
+- id: guji-李泌-event-birth
+  person_id: guji-李泌
+  type: birth
+  date: '0722'
+  year_of: '0722'
+  is_circa: true
+  name_zh: 李泌生
+  description_zh: 泌字长源，生年史无明文，约当开元前后。
+  source_zh: 全唐诗话续编·卷上·李泌（生年据传文推补）
+- id: guji-李泌-event-shuwen
+  person_id: guji-李泌
+  type: endeavor
+  date: 0729
+  year_of: 0729
+  is_circa: true
+  endeavor_id: guji-李泌-endeavor-1
+  name_zh: 七岁能为文
+  description_zh: 泌七岁已能属文，早慧称于乡里。
+  source_zh: 史载：泌字长源，七岁能为文。
+- id: guji-李泌-event-zhaozhao
+  person_id: guji-李泌
+  type: endeavor
+  date: 0728
+  year_of: 0728
+  is_circa: true
+  endeavor_id: guji-李泌-endeavor-1
+  name_zh: 帝驰召泌入禁中
+  description_zh: 开元中悉召能言佛、道、孔子者相答难禁中。员俶九岁升堂，词辨注射，坐人皆屈。帝异之，问童子有类若者乎，俶跪奏臣舅子李泌，帝驰召之。
+  source_zh: 全唐诗话续编·卷上·李泌
+- id: guji-李泌-event-duida
+  person_id: guji-李泌
+  type: endeavor
+  date: 0728
+  year_of: 0728
+  is_circa: true
+  endeavor_id: guji-李泌-endeavor-1
+  name_zh: 方圆动静之对
+  description_zh: 帝方与张说弈，命说试其能。说请赋方、员、动、静，举棋为喻：方若棋局，员若棋子，动若棋生，静若棋死。泌即答曰：方若行义，圆若用智，动若骋才，静若得意。说起贺帝得奇童。
+  source_zh: 全唐诗话续编·卷上·李泌
+- id: guji-李泌-event-cibo
+  person_id: guji-李泌
+  type: endeavor
+  date: 0728
+  year_of: 0728
+  is_circa: true
+  endeavor_id: guji-李泌-endeavor-1
+  name_zh: 帝赐束帛敕善视其家
+  description_zh: 帝大悦曰：是子精神，腰大于身。赐束帛，敕其家善视之。
+  source_zh: 全唐诗话续编·卷上·李泌
+- id: guji-李泌-event-baixiang
+  person_id: guji-李泌
+  type: endeavor
+  date: 0787
+  year_of: 0787
+  is_circa: true
+  endeavor_id: guji-李泌-endeavor-2
+  name_zh: 德宗朝拜相
+  description_zh: 泌历事玄、肃、代、德四朝，贞元三年拜相，佐政安社稷。
+  source_zh: 传文未载，据唐史通识补
+- id: guji-李泌-event-death
+  person_id: guji-李泌
+  type: death
+  date: 0789
+  year_of: 0789
+  is_circa: true
+  name_zh: 李泌卒
+  description_zh: 泌薨于相位，卒年史传所系约在贞元五年。
+  source_zh: 传文未载，据唐史通识补
