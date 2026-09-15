@@ -1,0 +1,171 @@
+person:
+  qid: guji-顾炎武
+  name_zh: 顾炎武
+  names:
+    zh: 顾炎武
+    en: Gu Yanwu
+  lifespan:
+    birth:
+      date: '1613'
+      precision: year
+      is_circa: true
+      raw: 明万历四十一年
+    death:
+      date: '1682'
+      precision: year
+      is_circa: false
+      raw: 康熙二十一年
+  birth_date: '1613'
+  death_date: '1682'
+  era: 明末清初
+  reign_ref: 明万历、崇祯；清顺治、康熙
+  archetype: 遗民学者·经世致用之宗师
+  dilemmas:
+  - 鼎革之际，仕新朝以行道，抑守遗民之节？
+  - 为救友抗辩官府，致己身幽絷半年，值不值？
+  lesson: 世间“淫奔”“纳贿”皆行于夜，正人君子不夜行——立身以严，治财以勤，学问以广师
+  summary_first_person: 明亡之后，我孤身北游，所到之处置产蓄财，故羁旅一生而不困乏；济南受诬入狱，我援旧牍自辩得以昭雪；晚岁被延上座，三爵即起还寓，夜饮则严拒之，盖君子不夜行也。
+endeavors:
+- id: guji-顾炎武-endeavor-1
+  name_zh: 北游羁旅·经营生计
+  phases:
+  - key: brewing
+    name_zh: 鼎革北走
+    labels:
+      zh:
+      - 易代流亡
+      - 弃旧产
+    start_date: '1644'
+  - key: breakthrough
+    name_zh: 置庄治财
+    labels:
+      zh:
+      - 买媵置产
+      - 善于治财
+    start_date: '1650'
+    highlight_event_id: guji-顾炎武-event-3
+  - key: climax
+    name_zh: 累贷助人
+    labels:
+      zh:
+      - 借数千金
+      - 不取偿
+    start_date: '1660'
+  decisions:
+  - date: '1644'
+    title_zh: 独身北走
+    rationale: 鼎革之后不仕新朝，远游故居以全节
+  - date: '1650'
+    title_zh: 所至置产而不二年后弃去
+    rationale: 校雠考索既毕，即弃不顾，以免留恋一方
+- id: guji-顾炎武-endeavor-2
+  name_zh: 狱事·济南抗辩
+  phases:
+  - key: brewing
+    name_zh: 姜元衡诬控
+    labels:
+      zh:
+      - 黄培案牵连
+      - 讪谤之讦
+    start_date: '1667'
+  - key: climax
+    name_zh: 出都赴济南
+    labels:
+      zh:
+      - 入狱半年
+      - 援旧牍自辩
+    start_date: 1668-02
+    highlight_event_id: guji-顾炎武-event-4
+  - key: closure
+    name_zh: 得释赋诗
+    labels:
+      zh:
+      - 株连尽释
+      - 赋诗六章纪事
+    start_date: 1668-09
+  decisions:
+  - date: 1668-02
+    title_zh: 闻讯即出都抵济南
+    rationale: 为主风波及，与其避祸，不如直面自辩
+- id: guji-顾炎武-endeavor-3
+  name_zh: 交游讲学·立身严峻
+  phases:
+  - key: brewing
+    name_zh: 二曲讲学相会
+    labels:
+      zh:
+      - 访李二曲
+      - 谈宴极欢
+    start_date: '1670'
+  - key: climax
+    name_zh: 都下拒夜饮
+    labels:
+      zh:
+      - 三爵即起
+      - 怒斥夜饮
+    start_date: '1676'
+    highlight_event_id: guji-顾炎武-event-5
+  - key: closure
+    name_zh: 作广师篇
+    labels:
+      zh:
+      - 历数己不如人
+      - 谦德垂范
+    start_date: '1670'
+  decisions:
+  - date: '1676'
+    title_zh: 三爵毕即起还寓，拒学士夜饮之请
+    rationale: 夜行者惟淫奔腾贿之属，正人君子不以夜行
+events:
+- id: guji-顾炎武-event-birth
+  date: '1613'
+  year_of: '1613'
+  type: birth
+  title_zh: 顾炎武生于昆山
+- id: guji-顾炎武-event-1
+  date: '1644'
+  year_of: '1644'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-1
+  title_zh: 鼎革后独身北走
+  detail: 明亡之后，独身北上，凡所至之地辄买媵婢、置庄产，不一二年即弃去，终已不顾
+- id: guji-顾炎武-event-3
+  date: '1650'
+  year_of: '1650'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-1
+  title_zh: 善治财产，羁旅不困乏
+  detail: 善于治财，一生羁旅曾无困乏；东海两学士宦未显时常从假贷累数千金，亦不取偿
+- id: guji-顾炎武-event-4
+  date: 1668-02
+  year_of: '1668'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-2
+  title_zh: 黄培案波及，赴济南被幽絷
+  detail: 康熙七年二月闻姜元衡诬控于京师，即出都抵济南，幽絷半年
+- id: guji-顾炎武-event-6
+  date: 1668-09
+  year_of: '1668'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-2
+  title_zh: 援沈天甫故牍自辩得释
+  detail: 谓姜元衡所控之书即沈天甫等伪造《忠节录》陷人之书，事旋解，株连二十余人均得开释；赋诗六章纪其事
+- id: guji-顾炎武-event-7
+  date: '1670'
+  year_of: '1670'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-3
+  title_zh: 访二曲于关中
+  detail: 与惠周惕同至，二曲倒屣迎之，谈宴极欢，一时瞻望者骈肩累迹
+- id: guji-顾炎武-event-5
+  date: '1676'
+  year_of: '1676'
+  type: endeavor
+  endeavor_id: guji-顾炎武-endeavor-3
+  title_zh: 都下赴宴，三爵拒夜饮
+  detail: 康熙丙辰在都下，两学士设宴延之上座；三爵既毕即起还寓，闻夜饮之请怒曰：淫奔腾贿皆于夜行之，岂有正人君子而夜行者乎
+- id: guji-顾炎武-event-death
+  date: '1682'
+  year_of: '1682'
+  type: death
+  title_zh: 顾炎武卒
