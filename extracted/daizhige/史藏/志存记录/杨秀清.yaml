@@ -1,0 +1,123 @@
+person:
+  qid: guji-杨秀清
+  name_zh: 杨秀清
+  names:
+    zh: 杨秀清
+    en: Yang Xiuqing
+  lifespan:
+    birth:
+      date: '1823'
+      precision: year
+      is_circa: true
+      raw: 约道光初年（生于桂平县平隘山）
+    death:
+      date: '1856'
+      precision: year
+      is_circa: true
+      raw: 丙辰六年天京事变中为北王韦昌辉所杀
+  birth_date: '1823'
+  death_date: '1856'
+  era: 清末·太平天国
+  reign_ref: 太平天国东王
+  archetype: 布衣将相之权臣——起于烧炭，总揽军政，威权震主而身死内讧
+  dilemmas:
+  - 才干过人而出身微贱，权柄尽握而功高震主
+  - 军令严整带来胜利，威逼太过招致北翼积怨
+  - 欲逼天王封万岁以固权，反促杀身之祸
+  lesson: 才能可使人自烧炭夫跃居一国之枢，然威权无度、不知所忌，终致同室操戈、身败族灭
+  summary_first_person: 我杨秀清本是桂平平隘山种山烧炭之人，自拜上帝之后，天意化作此身，件件可悉。天王信用，一国之事概交与我，我军令严整、赏罚分明。自金田起义，移营永安，破武昌，下江南，七日破南京凤仪门，遂定都天京，东王佐政，立法安民，事事严整。然我威风张扬，不知所忌，一朝之大，是首一人，权太重，竟逼天王封我万岁。北王韦昌辉与翼王石达开积怨于心，密议杀我，一朝身死，亲属属员尽被诛戮。悔哉，威逼大过，祸自内生。
+endeavors:
+- id: guji-杨秀清-endeavor-1
+  name_zh: 从烧炭夫到金田举义
+  phases:
+  - key: brewing
+    name_zh: 拜上帝会中崭露头角
+    labels:
+      zh:
+      - 烧炭为业
+      - 拜上帝
+    start_date: '1845'
+    highlight_event_id: guji-杨秀清-event-jintian
+  - key: breakthrough
+    name_zh: 金田起义与转战广西
+    labels:
+      zh:
+      - 金田起义
+      - 永安建制
+    start_date: 1850-07
+    highlight_event_id: guji-杨秀清-event-jintian
+  - key: climax
+    name_zh: 挥师两湖、定都天京
+    labels:
+      zh:
+      - 破武昌
+      - 克南京
+    start_date: 1852-12
+    highlight_event_id: guji-杨秀清-event-jiangnan
+  - key: closure
+    name_zh: 东王佐政与覆亡
+    labels:
+      zh:
+      - 佐政天京
+      - 天京事变
+    start_date: 1853-03
+    highlight_event_id: guji-杨秀清-event-death
+  decisions:
+  - date: 1853-02
+    title_zh: 采纳老水手之谏，舍河南而定都金陵
+    rationale: 河南河水小而无粮，敌困不能救解；南京乃帝王之家，城高池深，民富食足，有长江之险、舟只万千，遂移天王驾入南京，改为天京
+  - date: 1850-07
+    title_zh: 受天王信用，总揽一国军政
+    rationale: 自拜上帝之后件件可悉，天王信用，一国之事概交与他，军令严整，赏罚分明
+  - date: 1851-04
+    title_zh: 传令由牛角瑶山小路出马岭，围攻桂林
+    rationale: 自杀胜乌帅之后，避清军招平、平乐大路，出奇制胜，虽围桂林月余未下，仍得以转攻全州、道州，招众扩军
+events:
+- id: guji-杨秀清-event-birth
+  type: birth
+  date: '1823'
+  is_circa: true
+  year_of: 1823
+  title_zh: 杨秀清约生于道光初年
+  description: 东王杨秀清住在桂平县平隘山，在家种山烧炭为业，并不知机
+  endeavor_id: guji-杨秀清-endeavor-1
+- id: guji-杨秀清-event-jintian
+  type: endeavor
+  date: 1850-07
+  is_circa: true
+  year_of: 1850
+  title_zh: 金田花洲、六川、博白、白沙石同日起义，东王与众王合心举义
+  description: 道光三十年六月金田起义，东王在金田山人村与北王、翼王、天官丞相共举大事，后发人马赴花洲接天王到金田会集
+  endeavor_id: guji-杨秀清-endeavor-1
+- id: guji-杨秀清-event-wuchang
+  type: endeavor
+  date: 1853-01
+  is_circa: true
+  year_of: 1853
+  title_zh: 东王掌令攻破武昌
+  description: 一攻破汉阳，得汉口，困武昌，然后开道破城，此是东王掌令，李开芳、林凤祥、罗大纲掌兵，攻打二十余日而破武昌
+  endeavor_id: guji-杨秀清-endeavor-1
+- id: guji-杨秀清-event-jiangnan
+  type: endeavor
+  date: 1853-03
+  is_circa: true
+  year_of: 1853
+  title_zh: 克南京、定都天京，东王佐政
+  description: 将南京四面围困，七日破凤仪门开道破城而进，遂移天王驾入南京改为天京；开立军伍，整立营规，东王佐政，事事严整，立法安民
+  endeavor_id: guji-杨秀清-endeavor-1
+- id: guji-杨秀清-event-power
+  type: endeavor
+  date: '1856'
+  is_circa: true
+  year_of: 1856
+  title_zh: 威逼天王封万岁，北翼积怨
+  description: 东王为天王信任，权太重，要逼天王封其万岁；北王韦昌辉与翼王石达开、秦日昌积怨于心，口顺而心怒
+  endeavor_id: guji-杨秀清-endeavor-2
+- id: guji-杨秀清-event-death
+  type: death
+  date: '1856'
+  is_circa: true
+  year_of: 1856
+  title_zh: 天京事变，东王为北王所杀
+  description: 北王韦昌辉与翼王石达开二人密议，将东王杀害；不料北王更将东王统下亲戚、属员、文武大小男妇尽行杀净
+  endeavor_id: guji-杨秀清-endeavor-2
