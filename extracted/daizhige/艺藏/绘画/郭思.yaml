@@ -1,0 +1,111 @@
+person:
+  qid: guji-郭思
+  name_zh: 郭思
+  names:
+    zh: 郭思
+    en: Guo Si
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 生年不详，北宋后期人
+    death:
+      precision: unknown
+      is_circa: false
+  era: 北宋
+  reign_ref: 元丰五年进士；仕至徽猷阁待制
+  archetype: 官员文人·画论纂述者
+  dilemmas:
+  - 仕宦之业与承传父艺纂集画学之志如何兼顾
+  - 述父之词与自抒己见如何在一编之中相区分
+  lesson: 随闻随记、收拾纂集，不成失坠，方能使家学传于后世、贻之同好
+  summary_first_person: 我是郭思，字得之，河南温县人，画家郭熙之子。我丱角时侍先子游泉石，每闻画山水之说，旋即笔记；元丰五年登进士第，官至徽猷阁待制、秦凤路经略安抚使。我将平日所记收拾纂集为《林泉高致集》，又先纂《山水诀纂》，以述先子平生讲论，用贻同好。
+  source_urls:
+  - https://zh.wikisource.org/wiki/林泉高致集
+endeavors:
+- id: guji-郭思-endeavor-1
+  key themes: 纂集父说、编定画学著作
+  name_zh: 纂集《林泉高致集》
+  phases:
+  - key: brewing
+    name_zh: 丱角侍学
+    labels:
+      zh: 幼年随父闻说笔记
+    highlight_event_id: guji-郭思-event-study
+  - key: breakthrough
+    name_zh: 初纂《山水诀纂》
+    labels:
+      zh: 述父画法先成小编
+    highlight_event_id: guji-郭思-event-shanshui-zhuan
+  - key: climax
+    name_zh: 增益成编
+    labels:
+      zh: 增益为《林泉高致集》，自序其书
+    highlight_event_id: guji-郭思-event-linquan
+  - key: closure
+    name_zh: 刊行流布
+    labels:
+      zh: 其书已行，两存于世
+    start_date: 1110
+    highlight_event_id: guji-郭思-event-print
+  decisions:
+  - title_zh: 决意随闻旋记、收拾纂集
+    rationale: 先子每落笔必言画山水有法，岂得草草；恐其说不失坠，故笔记纂集以贻同好
+  - date: 1110
+    title_zh: 大观四年镂版广之《山水诀纂》
+    rationale: 好事者喜传其文，王纬得之最先，故刊版流布
+- id: guji-郭思-endeavor-2
+  key themes: 科举仕宦
+  name_zh: 登第入仕
+  phases:
+  - key: brewing
+    name_zh: 业科举
+    labels:
+      zh: 攻举业以待时
+  - key: breakthrough
+    name_zh: 元丰五年登进士第
+    labels:
+      zh: 进士及第
+    start_date: 1082
+    highlight_event_id: guji-郭思-event-jinshi
+  - key: climax
+    name_zh: 仕至显列
+    labels:
+      zh: 官至徽猷阁待制、秦凤路经略安抚使
+  decisions:
+  - date: 1082
+    title_zh: 就试登第
+    rationale: 以进士出身立身仕进
+events:
+- id: guji-郭思-event-birth
+  type: birth
+  title_zh: 郭思生（生年不详）
+  description: 字得之，河内向，画家郭熙之子。
+- id: guji-郭思-event-study
+  type: endeavor
+  title_zh: 丱角侍先子游泉石，每闻一说旋即笔记
+  description: 幼年随父郭熙游观泉石，闻画山水有法之说，即笔记之，积数十百条。
+- id: guji-郭思-event-jinshi
+  date: 1082
+  year_of: 1082
+  type: career
+  title_zh: 元丰五年登进士第
+  description: 郭思于元丰五年（1082）登进士第。
+- id: guji-郭思-event-shanshui-zhuan
+  type: endeavor
+  title_zh: 纂《山水诀纂》一卷
+  description: 述其父郭熙平日所说山水画法，前有王纬序，好事者喜传其文。
+- id: guji-郭思-event-linquan
+  type: endeavor
+  title_zh: 增益为《林泉高致集》并作原序
+  description: 于先纂编基础上增益为《林泉高致集》，书首有思所作序，追述其父遗迹事实。
+- id: guji-郭思-event-print
+  date: 1110
+  year_of: 1110
+  type: endeavor
+  title_zh: 大观四年镂版刊行《山水诀纂》
+  description: 大观四年（1110），签书河南府判官厅公事王纬序之，镂版广其书。
+- id: guji-郭思-event-death
+  type: death
+  title_zh: 郭思卒（卒年不详）
+  description: 卒年不详，仕至徽猷阁待制、秦凤路经略安抚使。
