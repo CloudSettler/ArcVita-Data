@@ -1,0 +1,109 @@
+person:
+  qid: guji-虞允文
+  name_zh: 虞允文
+  names:
+    zh: 虞允文
+    en: Yu Yunwen
+  lifespan:
+    birth:
+      date: '1110'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1110'
+  era: 南宋
+  reign_ref: 绍兴
+  archetype: 文臣督军、临危统帅
+  dilemmas:
+  - 词臣本不当遣，然因谙军事被命参谋军事，赴江淮督战
+  - 旧将王权已罢、新将李显忠未至，是否以朝廷参谋之身督军死战
+  lesson: 临危不退，以东.spi文臣之身激励溃军，遂成采石大捷
+  summary_first_person: 我是虞允文，本为词臣，因谙军事奉命参谋江淮军马。金主完颜亮大兵临采石，旧将王权已罢、新将未至，我不肯引退，犒军誓师，率诸将布阵逆战，遂有采石大捷，又追射敌舟、焚其余船，敌兵自溃，完颜亮为部下所杀。
+  source_urls:
+  - 九华集卷二十五·绍兴采石大战始末
+endeavors:
+- id: guji-虞允文-endeavor-1
+  name_zh: 采石督师抗金
+  phases:
+  - key: brewing
+    name_zh: 奉命督视
+    labels:
+      zh:
+      - 参谋军事
+    start_date: '1161-10-19'
+    highlight_event_id: guji-虞允文-event-canshi
+  - key: breakthrough
+    name_zh: 采石大捷
+    labels:
+      zh:
+      - 犒军誓师
+      - 大破金兵
+    start_date: '1161-11-08'
+    highlight_event_id: guji-虞允文-event-caishi-battle
+  - key: climax
+    name_zh: 焚舟追击
+    labels:
+      zh:
+      - 守杨林河口
+    start_date: '1161-11-09'
+    highlight_event_id: guji-虞允文-event-yanglin
+  - key: closure
+    name_zh: 移军京口与奏事
+    labels:
+      zh:
+      - 措置瓜州
+    start_date: '1161-11-23'
+    highlight_event_id: guji-虞允文-event-guazhou
+  decisions:
+  - date: '1161-11-08'
+    title_zh: 不退而犒军督战
+    rationale: 朝廷差遣在此，事败至此当进不当退，遂誓师激励诸军死战
+  - date: '1161-11-08'
+    title_zh: 归师勿遏
+    rationale: 诸将欲断敌归路，允文以我军少、明日无以为继，仅以强弩袭其后
+  - date: '1161-11-09'
+    title_zh: 守杨林河口焚敌余舟
+    rationale: 前此失策放敌船出，今命盛新驻船江心，无令一船得出岸
+events:
+- id: guji-虞允文-event-birth
+  date: '1110'
+  year_of: 1110
+  event_type: birth
+  title_zh: 虞允文生（约）
+- id: guji-虞允文-event-canshi
+  date: '1161-10-19'
+  year_of: 1161
+  event_type: endeavor
+  endeavor_id: guji-虞允文-endeavor-1
+  phase_key: brewing
+  title_zh: 奉命参谋军事，随叶义问督视江淮军马
+  description: 十九日上命叶枢密义问督视江淮军马，因命虞侯参谋军事，二十二日出临安。
+- id: guji-虞允文-event-caishi-battle
+  date: '1161-11-08'
+  year_of: 1161
+  event_type: endeavor
+  endeavor_id: guji-虞允文-endeavor-1
+  phase_key: breakthrough
+  title_zh: 采石之战大破金兵
+  description: 王权已罢、李显忠未至，允文犒军誓师，与张振、王琪、时俊等列阵待敌，时俊先登，斩敌过半，江中敌死以万数，计岸上尸二千七百余。
+- id: guji-虞允文-event-yanglin
+  date: '1161-11-09'
+  year_of: 1161
+  event_type: endeavor
+  endeavor_id: guji-虞允文-endeavor-1
+  phase_key: climax
+  title_zh: 守杨林河口，焚敌舟一百八十余，完颜亮遁
+  description: 命盛新引船驻江心，齐力射敌，敌自焚余舟，官军亦以火船焚其余舟一百八十余只，亮陆遁去。
+- id: guji-虞允文-event-guazhou
+  date: '1161-11-23'
+  year_of: 1161
+  event_type: endeavor
+  endeavor_id: guji-虞允文-endeavor-1
+  phase_key: closure
+  title_zh: 移军京口、措置瓜州
+  description: 与李显忠商量移时俊军于马家渡，分李捧军一万六千人、戈船百艘来会京口习水战，后同杨存中、成闵渡江至瓜州措置。
+- id: guji-虞允文-event-death
+  era: 南宋
+  event_type: death
+  title_zh: 卒
+  description: 不详
