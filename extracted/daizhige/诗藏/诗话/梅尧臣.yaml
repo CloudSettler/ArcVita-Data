@@ -1,0 +1,143 @@
+person:
+  qid: guji-mei-yao-chen
+  name_zh: 梅尧臣
+  names:
+    zh: 梅尧臣、梅圣俞
+    en: Mei Yaochen
+  lifespan:
+    birth:
+      date: '1002'
+      precision: year
+      is_circa: false
+      raw: 北宋圣俞生年（据史载享年五十九，卒于嘉祐五年）
+    death:
+      date: '1060'
+      precision: year
+      is_circa: false
+      raw: 嘉祐五年病卒
+  birth_date: '1002'
+  death_date: '1060'
+  era: 北宋
+  reign_ref: 仁宗朝
+  archetype: 苦吟诗人
+  dilemmas:
+  - 以闲远古淡为诗风而一生仕宦不显，官止都官
+  - 诗名重天下、传落夷狄，而身世困穷
+  lesson: 状难写之景如在目前，含不尽之意见于言外，真味久愈在。
+  summary_first_person: 我梅圣俞平生苦于吟咏，以深远闲淡为意，作诗三十年而不求闻达。席间顷刻赋成《河豚鱼》遂为绝唱，诗名远播异域，然仕途止于都官，一言之谑竟成谶语，卒后世人但称梅都官诗。
+  source_urls:
+  - https://zh.wikisource.org/wiki/六一诗话
+endeavors:
+- id: guji-mei-yao-chen-endeavor-1
+  name_zh: 苦吟成家，与苏舜钦齐名
+  phases:
+  - key: brewing
+    name_zh: 探索诗风
+    labels:
+      zh:
+      - 构思极艰
+      - 闲远古淡
+    start_date: '1026'
+    highlight_event_id: guji-mei-yao-chen-event-hetun
+  - key: breakthrough
+    name_zh: 席上赋河豚诗
+    labels:
+      zh:
+      - 绝唱
+      - 笔力雄赡
+    start_date: '1040'
+    highlight_event_id: guji-mei-yao-chen-event-hetun
+  - key: climax
+    name_zh: 诗名重天下
+    labels:
+      zh:
+      - 传落夷狄
+      - 与子美齐名
+    start_date: '1045'
+    highlight_event_id: guji-mei-yao-chen-event-chunxue
+  - key: closure
+    name_zh: 晚年官至都官，卒后欧阳修序其诗为《宛陵集》
+    labels:
+      zh:
+      - 梅都官
+      - 宛陵集
+    start_date: '1058'
+    highlight_event_id: guji-mei-yao-chen-event-death
+  decisions:
+  - date: '1040'
+    title_zh: 于樽俎之间顷刻赋《河豚鱼》诗
+    rationale: 破题两句道尽河豚好处，突破平生构思极艰之苦吟常态
+  - date: '1055'
+    title_zh: 与欧阳修论诗，提出状难写之景、含不尽之意之诗论
+    rationale: 举贾岛、姚合、严维、温庭筠句为例，阐明意新语工之旨
+- id: guji-mei-yao-chen-endeavor-2
+  name_zh: 欧阳修编集传承
+  phases:
+  - key: brewing
+    name_zh: 与永叔交游论诗
+    labels:
+      zh:
+      - 六一诗话
+      - 知音
+    start_date: '1045'
+    highlight_event_id: guji-mei-yao-chen-event-lunshi
+  - key: climax
+    name_zh: 诗被苏轼所见重，蛮布弓衣织其《春雪》诗
+    labels:
+      zh:
+      - 名重天下
+    start_date: '1055'
+    highlight_event_id: guji-mei-yao-chen-event-chunxue
+  - key: closure
+    name_zh: 卒后欧阳修序其诗为《宛陵集》
+    labels:
+      zh:
+      - 宛陵集
+      - 梅都官诗
+    start_date: '1060'
+    highlight_event_id: guji-mei-yao-chen-event-death
+  decisions:
+  - date: '1060'
+    title_zh: 接受欧阳修为其诗序《宛陵集》
+    rationale: 知己相契，以传后世
+events:
+- id: guji-mei-yao-chen-event-birth
+  date: '1002'
+  year_of: 1002
+  type: birth
+  title_zh: 梅尧臣生
+  description: 北宋诗人梅尧臣（字圣俞，宣城宛陵人）生。
+- id: guji-mei-yao-chen-event-hetun
+  date: '1040'
+  year_of: 1040
+  type: endeavor
+  endeavor_id: guji-mei-yao-chen-endeavor-1
+  title_zh: 范希文席上赋《河豚鱼》诗
+  description: 梅圣俞于范仲淹席上赋「春洲生荻芽，春岸飞杨花」，笔力雄赡，顷刻而成，遂为绝唱。
+- id: guji-mei-yao-chen-event-lunshi
+  date: '1055'
+  year_of: 1055
+  type: endeavor
+  endeavor_id: guji-mei-yao-chen-endeavor-2
+  title_zh: 与欧阳修论诗
+  description: 圣俞谓诗必意新语工，状难写之景如在目前，含不尽之意见于言外，并举严维、温庭筠诸句为证。
+- id: guji-mei-yao-chen-event-chunxue
+  date: '1056'
+  year_of: 1056
+  type: endeavor
+  endeavor_id: guji-mei-yao-chen-endeavor-2
+  title_zh: 《春雪》诗织于蛮布弓衣
+  description: 苏轼于淯井监得西南夷人所卖蛮布弓衣，织成梅圣俞《春雪》诗，因欧阳修尤知圣俞而以见遗，其名重天下如此。
+- id: guji-mei-yao-chen-event-duoguan
+  date: '1058'
+  year_of: 1058
+  type: endeavor
+  endeavor_id: guji-mei-yao-chen-endeavor-1
+  title_zh: 官至都官，刘原父戏言「梅都官」
+  description: 晚年官亦至都官，会饮欧阳修家，刘原父戏曰昔有郑都官今有梅都官，圣俞颇不乐。
+- id: guji-mei-yao-chen-event-death
+  date: '1060'
+  year_of: 1060
+  type: death
+  title_zh: 梅尧臣病卒
+  description: 未几病卒，欧阳修为其诗集作序，是为《宛陵集》，后人但称之梅都官诗。

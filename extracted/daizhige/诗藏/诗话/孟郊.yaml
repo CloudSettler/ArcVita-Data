@@ -1,0 +1,90 @@
+person:
+  qid: guji-孟郊
+  name_zh: 孟郊
+  names:
+    zh: 孟郊
+    en: Meng Jiao
+  lifespan:
+    birth:
+      date: '751'
+      precision: year
+      is_circa: true
+      raw: 天宝十载前后生
+    death:
+      date: '814'
+      precision: year
+      is_circa: true
+      raw: 元和九年卒
+  birth_date: '751'
+  death_date: '814'
+  era: 唐代
+  reign_ref: 德宗、宪宗朝
+  archetype: 苦吟诗人（穷苦之句的践行者）
+  dilemmas:
+  - 以诗穷至死，终生困顿而自喜为穷苦之句
+  - 家贫物尽，「都无一物」而仍执意吟咏
+  lesson: 非身备尝其苦，不能道其句；真诗出于真实处境
+  summary_first_person: 我孟郊一生以苦吟著称，仕途穷蹇，平生尤自喜作穷苦之句。如《移居》云「借车载家具，家具少于车」，见我家之空无一物；又《谢人惠炭》云「暖得曲身成直身」，人谓非我身备尝其苦，不能道此句。我与贾岛同以诗穷至死，后世遂以「郊寒」称我。
+  source_urls:
+  - https://zh.wikisource.org/wiki/六一詩話
+endeavors:
+- id: guji-孟郊-endeavor-1
+  name_zh: 苦吟为诗
+  phases:
+  - key: brewing
+    name_zh: 早年困学
+    labels:
+      zh:
+      - 家贫
+      - 苦吟
+    start_date: '0751'
+    highlight_event_id: guji-孟郊-event-2
+  - key: breakthrough
+    name_zh: 穷苦之句成体
+    labels:
+      zh:
+      - 苦吟
+      - 郊寒
+    start_date: 0786
+    highlight_event_id: guji-孟郊-event-3
+  - key: climax
+    name_zh: 与贾岛并称
+    labels:
+      zh:
+      - 郊寒岛瘦
+    start_date: 0800
+    highlight_event_id: guji-孟郊-event-3
+  - key: closure
+    name_zh: 以诗穷至死
+    labels:
+      zh:
+      - 穷困
+    start_date: 0814
+    highlight_event_id: guji-孟郊-event-death
+  decisions:
+  - date: '0751'
+    title_zh: 专意为穷苦之句
+    rationale: 平生尤自喜为穷苦之句，以身之所历入诗
+events:
+- id: guji-孟郊-event-birth
+  date: '0751'
+  year_of: 751
+  type: birth
+  summary_zh: 孟郊生，唐代诗人。
+- id: guji-孟郊-event-2
+  date: 0786
+  year_of: 786
+  type: endeavor
+  endeavor_id: guji-孟郊-endeavor-1
+  summary_zh: 屡试方得一第，仕途穷蹇，家无余财，苦吟日深。
+- id: guji-孟郊-event-3
+  date: 0800
+  year_of: 800
+  type: endeavor
+  endeavor_id: guji-孟郊-endeavor-1
+  summary_zh: 作《移居》诗「借车载家具，家具少于车」，《谢人惠炭》「暖得曲身成直身」，时人谓非身备尝之不能道，遂以穷苦之句名世。
+- id: guji-孟郊-event-death
+  date: 0814
+  year_of: 814
+  type: death
+  summary_zh: 孟郊卒，与贾岛皆以诗穷至死；欧阳修《六一诗话》记其「孟郊、贾岛皆以诗穷至死」。
