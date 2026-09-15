@@ -1,0 +1,113 @@
+person:
+  qid: guji-陈寿
+  name_zh: 陈寿
+  names:
+    zh: 陈寿
+    en: Chen Shou
+  lifespan:
+    birth:
+      date: '233'
+      precision: year
+      is_circa: true
+      raw: 少受学于谯周（生年据习惯说法推定）
+    death:
+      date: '297'
+      precision: year
+      is_circa: true
+      raw: 寿遂卒洛下
+  birth_date: '233'
+  death_date: '297'
+  era: 西晋
+  reign_ref: 蜀汉至晋武帝、惠帝时期
+  archetype: 史学家·文学家
+  dilemmas:
+  - 既要真实记录三国史事，又须避忌权臣之意（如《魏志》失荀勖之意而外放）
+  - 遵继母遗令不附葬父，遭时人讥议，孝行与礼俗相冲突
+  lesson: 直笔著史，虽位望不充其才，而《三国志》遂成不朽
+  summary_first_person: 我是陈寿，字承祚，巴西安汉人。少师事谯周，精研《尚书》、《三传》与《史记》、《汉书》。入晋后撰《益部耆旧传》，复鸠合三国史事，著魏、吴、蜀《三国志》六十五篇，为世所重。
+endeavors:
+- id: guji-陈寿-endeavor-1
+  name_zh: 撰《益部耆旧传》
+  labels:
+    zh:
+    - 蜀地文献整理
+  phases:
+  - key: breakthrough
+    name_zh: 并巴汉撰传
+    labels:
+      zh:
+      - 撰传
+    start_date: '265'
+    highlight_event_id: guji-陈寿-event-yiqiuchuan
+  decisions:
+  - date: '265'
+    title: 以前人《耆旧传》不足经远，并巴、汉撰《益部耆旧传》十篇
+    rationale: 认为郑伯邑等所撰不能传之久远，故扩而广之
+- id: guji-陈寿-endeavor-2
+  name_zh: 著《三国志》
+  labels:
+    zh:
+    - 史学著作
+  phases:
+  - key: brewing
+    name_zh: 鸠合三国史
+    labels:
+      zh:
+      - 资料搜集
+    start_date: '280'
+    highlight_event_id: guji-陈寿-event-sanguozhi
+  - key: climax
+    name_zh: 著成六十五篇
+    labels:
+      zh:
+      - 成书
+    start_date: '285'
+    highlight_event_id: guji-陈寿-event-sanguozhi
+  - key: closure
+    name_zh: 名重当世
+    labels:
+      zh:
+      - 声誉
+    start_date: '290'
+    highlight_event_id: guji-陈寿-event-zuozhuolang
+  decisions:
+  - date: '280'
+    title: 吴平后鸠合国史，著魏、吴、蜀三书六十五篇
+    rationale: 三国统一之后，史料可兼收并蓄，乃综撰三书
+events:
+- id: guji-陈寿-event-birth
+  type: birth
+  date: '233'
+  year_of: 233
+  person_qid: guji-陈寿
+  summary: 陈寿生于巴西安汉。
+- id: guji-陈寿-event-shizhou
+  type: career
+  date: '250'
+  year_of: 250
+  person_qid: guji-陈寿
+  summary: 应州命，任卫将军主簿，历东观、秘书郎，散骑、黄门侍郎。
+- id: guji-陈寿-event-yiqiuchuan
+  type: career
+  date: '265'
+  year_of: 265
+  person_qid: guji-陈寿
+  summary: 撰《益部耆旧传》十篇，散骑常侍文立表呈，武帝善之。
+- id: guji-陈寿-event-sanguozhi
+  type: career
+  date: '280'
+  year_of: 280
+  person_qid: guji-陈寿
+  summary: 吴平后鸠合三国史，著魏、吴、蜀三书六十五篇，号《三国志》。
+- id: guji-陈寿-event-zuozhenlang
+  type: career
+  date: '290'
+  year_of: 290
+  person_qid: guji-陈寿
+  summary: 荀勖、张华深爱其《古国志》，以班固、史迁不足方；后杜预表为散骑侍郎。
+- id: guji-陈寿-event-death
+  type: death
+  date: '297'
+  year_of: 297
+  person_qid: guji-陈寿
+  summary: 卒于洛阳，位望不充其才，当时冤之。

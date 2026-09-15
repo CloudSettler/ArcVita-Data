@@ -1,0 +1,97 @@
+person:
+  qid: guji-simacuo
+  name_zh: 司马错
+  names:
+    zh: 司马错
+    en: Sima Cuo
+  lifespan:
+    birth:
+      date: -0359
+      precision: year
+      is_circa: true
+      raw: 生年不详，约活动于秦惠文王时期
+    death:
+      date: -199
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约秦昭襄王初年
+  birth_date: -0359
+  death_date: -199
+  era: 战国
+  reign_ref: 秦惠文王、秦昭襄王
+  archetype: 战国秦国名将与战略家
+  dilemmas:
+  - 伐蜀与伐韩之争：主张借伐蜀广国富民，而非急於中原争利
+  lesson: 欲成大事，先固根本；得蜀则得楚，战略眼光胜于一时之利
+  summary_first_person: 我司马错是战国秦国将领。周慎王五年，蜀王伐苴侯，苴侯奔巴，巴求救于秦，我奉秦惠文王之命与张仪率军救苴、巴，趁机伐蜀灭之，为秦拓地置郡。其后我又自巴涪水取楚商于之地，置黔中郡，为秦日后东进南拓奠定根基。
+  source_urls:
+  - https://zh.wikisource.org/wiki/華陽國志
+endeavors:
+- id: guji-simacuo-endeavor-1
+  name_zh: 伐蜀定巴
+  labels:
+    zh:
+    - 灭蜀
+    - 拓地
+    - 平乱
+  phases:
+  - key: breakthrough
+    name_zh: 救苴伐蜀
+    labels:
+      zh:
+      - 奉命出征
+    start_date: -206
+    highlight_event_id: guji-simacuo-event-shu-conquest
+  decisions:
+  - date: -206
+    title_zh: 建议伐蜀
+    rationale: 蜀乱可乘，取其地足以广国富民，不必急争中原
+- id: guji-simacuo-endeavor-2
+  name_zh: 南取黔中
+  labels:
+    zh:
+    - 攻楚
+    - 开郡
+  phases:
+  - key: climax
+    name_zh: 自巴涪水取商于
+    labels:
+      zh:
+      - 置黔中郡
+    start_date: -201
+    highlight_event_id: guji-simacuo-event-qianzhong
+  decisions:
+  - date: -201
+    title_zh: 自涪水攻楚
+    rationale: 借巴蜀新定之利，顺水而下取楚商于地，断楚西南臂膀
+events:
+- id: guji-simacuo-event-birth
+  date: -0359
+  year_of: -359
+  title_zh: 司马错生（生年不详，约当此期）
+  type: birth
+  persons:
+  - guji-simacuo
+- id: guji-simacuo-event-shu-conquest
+  date: -206
+  year_of: -316
+  title_zh: 与张仪率师救苴、巴，伐蜀灭之
+  type: military
+  persons:
+  - guji-simacuo
+  description: 周慎王五年，蜀王伐苴侯，苴侯奔巴，巴求救于秦。秦惠文王遣张仪、司马错救苴、巴，遂伐蜀灭之，置巴、蜀郡。
+- id: guji-simacuo-event-qianzhong
+  date: -201
+  year_of: -311
+  title_zh: 自巴涪水取楚商于地，置黔中郡
+  type: military
+  persons:
+  - guji-simacuo
+  description: 灭蜀之后，司马错率军由巴地涪水南下，攻取楚国商于之地，秦因置黔中郡。
+- id: guji-simacuo-event-death
+  date: -199
+  year_of: -307
+  title_zh: 司马错卒（卒年不详，约当此期）
+  type: death
+  persons:
+  - guji-simacuo
