@@ -1,0 +1,120 @@
+person:
+  qid: guji-唐庚
+  name_zh: 唐庚
+  names:
+    zh: 唐庚、唐子西、眉山唐先生
+    en: Tang Geng
+  lifespan:
+    birth:
+      date: '1071'
+      precision: year
+      is_circa: true
+      raw: 约熙宁年间；宣和后卒时年五十一
+    death:
+      date: '1121'
+      precision: year
+      is_circa: true
+      raw: 政和、宣和间北归还朝，道卒于凤翔，年五十一
+  birth_date: 约1071年（据卒时年五十一推算）
+  death_date: 约1121年（道卒于凤翔，年五十一）
+  era: 北宋
+  reign_ref: 宣和、绍兴
+  archetype: 文学家·诗论家
+  dilemmas:
+  - 南迁贬谪与不忘著述之间的取舍
+  - 学古（司马迁、杜甫）与自成一家的张力
+  lesson: 作文学司马迁，作诗学杜甫；诗律伤严，近寡恩，一字不可放过。
+  summary_first_person: 我眉山唐庚，字子西，以诗文论著称，尝南迁惠州，作《南征赋》曲尽迁谪情状。平生论诗论文，以为作文当学司马迁，作诗当学杜甫，一字疵病必深求而去之。晚年力请宫祠归老，北还道卒于凤翔，年五十一。
+  source_urls:
+  - https://zh.wikisource.org/wiki/唐子西文录
+endeavors:
+- id: guji-唐庚-endeavor-1
+  name_zh: 诗文创作与南迁著述
+  labels:
+    zh:
+    - 诗文
+    - 赋
+    - 贬谪
+  phases:
+  - key: brewing
+    name_zh: 初谒东坡，志于学文
+    labels:
+      zh:
+      - 求学
+    start_date: '1088'
+    highlight_event_id: guji-唐庚-event-dongpo
+  - key: climax
+    name_zh: 南迁岭外，诗赋自见
+    labels:
+      zh:
+      - 惠州
+      - 南征赋
+    start_date: '1110'
+    highlight_event_id: guji-唐庚-event-nanzheng
+  - key: closure
+    name_zh: 北还请祠，绝笔留别
+    labels:
+      zh:
+      - 宫祠
+      - 绝笔
+    start_date: '1120'
+    highlight_event_id: guji-唐庚-event-death
+  decisions:
+  - date: 约1120年
+    title_zh: 力请宫祠，谋归老锦江滨
+    rationale: 白头独立鸳行觉异伦，往事已空，愿归老锦江，故力请宫祠。
+  - date: 约1110年
+    title_zh: 南迁途中作《南征赋》
+    rationale: 曲尽南迁时情状，以赋纪行自遣。
+- id: guji-唐庚-endeavor-2
+  name_zh: 诗论文论传授（唐子西文录）
+  labels:
+    zh:
+    - 诗论
+    - 文论
+  phases:
+  - key: brewing
+    name_zh: 平居收拾诗材，深研杜苏
+    labels:
+      zh:
+      - 诗材
+    start_date: '1090'
+    highlight_event_id: guji-唐庚-event-dongpo
+  - key: climax
+    name_zh: 宣和年间居景德僧舍论诗，强者记之
+    labels:
+      zh:
+      - 论文
+      - 文录
+    start_date: '1119'
+    highlight_event_id: guji-唐庚-event-jingde
+  decisions:
+  - date: 约1119年
+    title_zh: 于城东景德僧舍日与学者论诗文
+    rationale: 强行父、关注等从之游，闻所未闻，退而记其论文之语。
+events:
+- id: guji-唐庚-event-birth
+  date: 约1071
+  year_of: 1071
+  title_zh: 唐庚出生于眉山
+  description_zh: 眉山人，后以文论知名，世称唐子西。
+- id: guji-唐庚-event-dongpo
+  date: 约1088
+  year_of: 1088
+  title_zh: 年十八谒苏轼于京师
+  description_zh: 东坡赴定武过京师，馆于城外园中，唐庚谒之。东坡问观何书、有甚好亭子名，唐庚茫然失对，始悟前辈观书用意。
+- id: guji-唐庚-event-nanzheng
+  date: 约1110
+  year_of: 1110
+  title_zh: 南迁惠州，作《南征赋》及惠州诸诗
+  description_zh: 南迁途中作《南征赋》，自谓曲尽南迁情状；又有「雨在时时黑，春归处处青」等闲中所得句。
+- id: guji-唐庚-event-jingde
+  date: 1119-09-13
+  year_of: 1119
+  title_zh: 居汴京景德僧舍论诗，强行父记之
+  description_zh: 宣和元年己亥，与关注等同寓城东景德僧舍，日从之游，行父记其论文之语，后成《唐子西文录》三十五条。
+- id: guji-唐庚-event-death
+  date: 约1121
+  year_of: 1121
+  title_zh: 得请宫祠归泸南，道卒于凤翔
+  description_zh: 北归还朝后得请宫祠归泸南，道卒于凤翔，年五十一。留别诗「渐谋归老锦江滨」盖绝笔。
