@@ -1,0 +1,135 @@
+person:
+  qid: guji-陈日照
+  name_zh: 陈日照
+  names:
+    zh: 陈日照
+    en: Tran Nhat Chao
+  lifespan:
+    birth:
+      date: '1218'
+      precision: year
+      is_circa: true
+      raw: 故福州长乐人，生年不详
+    death:
+      date: '1277'
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: '1218'
+  death_date: '1277'
+  era: 南宋至宋元之际
+  reign_ref: 安南国王
+  archetype: 落拓布衣跃升为王
+  dilemmas:
+  - 里人身份与安南国统之争
+  - 面对元军迫降的国祚存亡
+  lesson: 乱世落魄者亦能凭才貌与机遇登临异国至尊
+  summary_first_person: 我本是福州长乐人谢升卿，读书识字、姿容俊美而落拓不羁，因杀人变名逃入安南，应试居首，为王女所悦而招为婚，遂执掌国政，受封安南国王；当元军轻兵压境招降时，我未显屈服之状，终虽宫庙被焚、避匿海岛，然保住了陈氏之统，后奏请宋廷传位于子威晃。
+  source_urls:
+  - https://zh.wikisource.org/wiki/安南傳_(王世貞)
+endeavors:
+- id: guji-陈日照-endeavor-1
+  name_zh: 落魄入安南
+  phases:
+  - key: brewing
+    name_zh: 变名逃亡
+    labels:
+      zh: 杀人变姓名
+    start_date: '1237'
+    highlight_event_id: guji-陈日照-event-flee
+  - key: breakthrough
+    name_zh: 应试居首
+    labels:
+      zh: 见国相应试居首
+    start_date: '1238'
+    highlight_event_id: guji-陈日照-event-exam
+  - key: climax
+    name_zh: 娶王女执政
+    labels:
+      zh: 因归之有安南政
+    start_date: '1238'
+    highlight_event_id: guji-陈日照-event-marriage
+  decisions:
+  - date: '1237'
+    title_zh: 变姓名入安南
+    rationale: 杀人避祸，寻求新生
+- id: guji-陈日照-endeavor-2
+  name_zh: 抗元保国
+  phases:
+  - key: brewing
+    name_zh: 拒不显屈
+    labels:
+      zh: 未见强大状，下使狱
+    start_date: '1253'
+    highlight_event_id: guji-陈日照-event-refuse
+  - key: climax
+    name_zh: 避匿海岛
+    labels:
+      zh: 跳匿海岛
+    start_date: '1257'
+    highlight_event_id: guji-陈日照-event-hide
+  - key: closure
+    name_zh: 传位请封
+    labels:
+      zh: 奏宋请传位子威晃
+    start_date: '1258'
+    highlight_event_id: guji-陈日照-event-abdicate
+  decisions:
+  - date: '1257'
+    title_zh: 避匿海岛以避元锋
+    rationale: 兵力不敌元军精骑，保存国统
+  - date: '1258'
+    title_zh: 奏宋传位威晃
+    rationale: 连遭兵燹，不得意而传位
+events:
+- id: guji-陈日照-event-birth
+  date: '1218'
+  year_of: 1218
+  type: birth
+  description: 陈日照（谢升卿）约生于福州长乐
+- id: guji-陈日照-event-flee
+  date: '1237'
+  year_of: 1237
+  type: career
+  endeavor_id: guji-陈日照-endeavor-1
+  description: 识书美姿貌而落拓不事家人产，杀人变姓名，亡入安南
+- id: guji-陈日照-event-exam
+  date: '1238'
+  year_of: 1238
+  type: career
+  endeavor_id: guji-陈日照-endeavor-1
+  description: 见安南国相，应试而居首
+- id: guji-陈日照-event-marriage
+  date: '1238'
+  year_of: 1238
+  type: career
+  endeavor_id: guji-陈日照-endeavor-1
+  description: 王女自窗隙窥而悦之，因归之，遂握有安南政
+- id: guji-陈日照-event-king
+  date: '1246'
+  year_of: 1246
+  type: career
+  description: 受封为安南国王
+- id: guji-陈日照-event-refuse
+  date: '1253'
+  year_of: 1253
+  type: career
+  endeavor_id: guji-陈日照-endeavor-2
+  description: 元已破蜀，轻兵下大理遣使招降，日照未见强大状，使者下狱
+- id: guji-陈日照-event-hide
+  date: '1257'
+  year_of: 1257
+  type: career
+  endeavor_id: guji-陈日照-endeavor-2
+  description: 元将率精骑大破守兵围国都，宫庙焚毁、赀藏发尽，日照跳匿海岛
+- id: guji-陈日照-event-abdicate
+  date: '1258'
+  year_of: 1258
+  type: career
+  endeavor_id: guji-陈日照-endeavor-2
+  description: 元兵退还后不得意，奏于宋请传位于子威晃，宋授威晃国王而尊日照为大王
+- id: guji-陈日照-event-death
+  date: '1277'
+  year_of: 1277
+  type: death
+  description: 陈日照退为太上王后卒，卒年不详

@@ -1,0 +1,173 @@
+person:
+  qid: guji-黎桓
+  name_zh: 黎桓
+  names:
+    zh: 黎桓
+    en: Le Huan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: year
+      is_circa: true
+      raw: 真宗立后寻卒（约11世纪初）
+  era: 五代末至北宋初期，安南（交趾）
+  reign_ref: 丁朝末年至前黎朝；受宋封安南都护、交趾郡王，真宗时进封南平王
+  archetype: 权臣篡立、以兵威与朝贡双重策略自立于中夏与南越之间的藩镇枭雄
+  dilemmas:
+  - 佯为臣服中国以换取册封，同时暗蓄兵势、保障自立
+  - 少主丁璇尚幼，擅权废锢与名分礼法之间的抉择
+  lesson: 以恭顺朝贡掩其枭雄之实，弱邻之权臣可借天朝名器自固其位
+  summary_first_person: 我本丁氏牙将，因少主环幼弱，遂锢而擅权，代为节度使。宋太宗怒而遣舟师步骑来讨，其军皆败，我因而岁遣使谢罪求封，卒得宋授安南都护、进封交趾郡王。我阳为服中国，实则兵伐邻郡、剽民居廪食子女。真宗立，进封我为南平王，寻卒。
+endeavors:
+- id: guji-黎桓-endeavor-1
+  name_zh: 擅权代立
+  phases:
+  - key: brewing
+    name_zh: 结权于丁朝
+    labels:
+      zh:
+      - 牙将
+      - 专兵
+    highlight_event_id: guji-黎桓-event-1
+  - key: breakthrough
+    name_zh: 锢璇夺节
+    labels:
+      zh:
+      - 擅权
+      - 代为节度使
+    start_date: 约-986
+    highlight_event_id: guji-黎桓-event-2
+  - key: climax
+    name_zh: 拒宋讨而求封
+    labels:
+      zh:
+      - 宋师败归
+      - 谢罪求封
+    start_date: 约-981
+    highlight_event_id: guji-黎桓-event-3
+  - key: closure
+    name_zh: 受封南平王
+    labels:
+      zh:
+      - 进封南平王
+      - 寻卒
+    start_date: 约-995
+    highlight_event_id: guji-黎桓-event-4
+  decisions:
+  - date: 约-986
+    title_zh: 锢丁璇而代为节度使
+    rationale: 部领老死、琏亦亡，璇嗣尚幼，遂擅权蚕食其族而自立
+  - date: 约-981
+    title_zh: 岁遣使谢罪求封
+    rationale: 宋师虽败归而我上春秋高、稍厌兵，遂以恭顺换册封以固其位
+- id: guji-黎桓-endeavor-2
+  name_zh: 抗宋掠边
+  phases:
+  - key: brewing
+    name_zh: 阴蓄兵势
+    labels:
+      zh:
+      - 练兵
+      - 觇宋
+    start_date: 约-986
+    highlight_event_id: guji-黎桓-event-2
+  - key: breakthrough
+    name_zh: 败宋两道之师
+    labels:
+      zh:
+      - 步骑自邕入
+      - 舟师自广入
+    start_date: 约-981
+    highlight_event_id: guji-黎桓-event-3
+  - key: climax
+    name_zh: 阳服而阴寇
+    labels:
+      zh:
+      - 寇盗剽掠
+      - 诏切责
+    start_date: 约-990
+    highlight_event_id: guji-黎桓-event-4
+  - key: closure
+    name_zh: 谢罪终老
+    labels:
+      zh:
+      - 进封南平王
+    start_date: 约-995
+    highlight_event_id: guji-黎桓-event-4
+  decisions:
+  - date: 约-990
+    title_zh: 阳为服中国而阴寇郡邑
+    rationale: 借朝贡之名蔽天朝耳目，实则掠占城、剽民居以广资力
+events:
+- id: guji-黎桓-event-birth
+  event_type: birth
+  title_zh: 黎桓出生（生年不详）
+  description_zh: 史不载其生年，起于牙将。
+  person_ids:
+  - guji-黎桓
+  source_refs:
+  - 安南传一·王世贞
+- id: guji-黎桓-event-1
+  event_type: career
+  date: 约-979
+  year_of: -979
+  title_zh: 为丁氏牙将，权位渐隆
+  description_zh: 部领自称大胜王，传位子琏；桓为其牙将，权势渐盛。
+  person_ids:
+  - guji-黎桓
+  related_person_ids:
+  - guji-丁部领
+  - guji-丁琏
+  source_refs:
+  - 安南传一·王世贞
+- id: guji-黎桓-event-2
+  event_type: career
+  date: 约-979
+  year_of: -979
+  title_zh: 锢少主丁璇，代为节度使
+  description_zh: 部领老死、琏亦死，弟璇嗣尚幼，桓擅权废锢璇，蚕食其族而代为节度使。
+  person_ids:
+  - guji-黎桓
+  related_person_ids:
+  - guji-丁璇
+  source_refs:
+  - 安南传一·王世贞
+- id: guji-黎桓-event-3
+  event_type: career
+  date: 约-981
+  year_of: -981
+  title_zh: 宋太宗发兵讨桓，两道皆败归
+  description_zh: 太宗怒其擅权，发兵步骑自邕州入、舟师自广州入，进其境而皆败归，坐军法抵罪。
+  person_ids:
+  - guji-黎桓
+  related_person_ids:
+  - guji-宋太宗
+  source_refs:
+  - 安南传一·王世贞
+- id: guji-黎桓-event-4
+  event_type: career
+  date: 约-985
+  title_zh: 岁使谢罪求封，宋授安南都护、进封交趾郡王
+  description_zh: 桓岁遣使谢罪求封，宋上春秋高稍厌兵，贡物盛，许之，授安南都护，进封交趾郡王；其后虽佯服中国，仍寇郡邑剽民居；真宗立，进封南平王，寻卒。
+  person_ids:
+  - guji-黎桓
+  related_person_ids:
+  - guji-宋太宗
+  - guji-宋真宗
+  source_refs:
+  - 安南传一·王世贞
+- id: guji-黎桓-event-death
+  event_type: death
+  date: 约-1005
+  title_zh: 黎桓卒
+  description_zh: 真宗立后桓进封南平王，寻卒，子龙钺立，未封而为其弟龙廷所杀。
+  person_ids:
+  - guji-黎桓
+  related_person_ids:
+  - guji-龙钺
+  - guji-龙廷
+  source_refs:
+  - 安南传一·王世贞
