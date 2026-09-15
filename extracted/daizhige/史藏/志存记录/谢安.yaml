@@ -1,0 +1,123 @@
+person:
+  qid: guji-谢安
+  name_zh: 谢安
+  names:
+    zh: 谢安
+    en: Xie An
+  lifespan:
+    birth:
+      date: '320'
+      precision: approximate
+      is_circa: true
+      raw: 年四十起家应务（生于东晋初年，约太兴年间）
+    death:
+      date: '385'
+      precision: year
+      is_circa: false
+      raw: 孝武帝太元年间卒
+  birth_date: '320'
+  death_date: '385'
+  era: 东晋
+  reign_ref: 穆帝、哀帝、海西公、简文帝、孝武帝
+  archetype: 隐逸高士转济世宰辅
+  dilemmas:
+  - 隐居山水屡辞征召与世乱需匡济之间的取舍
+  - 桓温权倾朝野、废立威胁之下如何保全皇室
+  - 前秦大举南寇、京师大震时如何镇定御敌
+  - 遭谮毁、帝渐疏忌之际如何自处
+  lesson: 矫情镇物、雅量担当，处危局而夷然不改其度
+  summary_first_person: 我早年优游会稽山水，屡辞征召；年四十方应桓温之请出仕，志在匡济。桓温专朝废立，我从容周旋；苻坚大举入寇，列阵肥水，我与玄围棋自若，闻捷报而了无喜色——小儿辈遂已破贼。人皆叹我雅量镇物。
+  source_urls:
+  - 檀道鸾《续晋阳秋》佚文（见《世说》诸注、《御览》《占经》引）
+endeavors:
+- id: guji-谢安-endeavor-1
+  name_zh: 高卧东山与出仕济世
+  phases:
+  - key: brewing
+    name_zh: 家居会稽上虞
+    labels:
+      zh: 隐逸山林
+    start_date: '-0345'
+    highlight_event_id: guji-谢安-event-seclusion
+  - key: breakthrough
+    name_zh: 应征出山
+    labels:
+      zh: 出仕
+    start_date: '0360'
+    highlight_event_id: guji-谢安-event-appoint
+  decisions:
+  - date: '0360'
+    title: 年四十应桓温征辟为征西司马
+    rationale: 世道未夷，志存匡济，遂起家应务
+- id: guji-谢安-endeavor-2
+  name_zh: 辅政御敌与肥水破贼
+  phases:
+  - key: breakthrough
+    name_zh: 辅政期间总录中书
+    labels:
+      zh: 执政
+    start_date: '0373'
+    highlight_event_id: guji-谢安-event-zhongshu
+  - key: climax
+    name_zh: 拒苻坚于肥水
+    labels:
+      zh: 肥水之战
+    start_date: 0383
+    highlight_event_id: guji-谢安-event-feishui
+  - key: closure
+    name_zh: 遭谗疏忌
+    labels:
+      zh: 功高见忌
+    start_date: 0383
+    highlight_event_id: guji-谢安-event-bijian
+  decisions:
+  - date: 0383
+    title: 命谢石、谢玄、桓伊等拒秦
+    rationale: 苻坚大举入寇，京师大震，夷然无惧，从容处分讨御之方
+events:
+- id: guji-谢安-event-birth
+  name_zh: 谢安生
+  date: '-0320'
+  year_of: -320
+  type: birth
+- id: guji-谢安-event-seclusion
+  name_zh: 家于会稽上虞，游山林，六七年间征召不至
+  date: '-0345'
+  year_of: -345
+  type: career
+  detail: 虽弹奏相属，继以禁锢，而晏然不屑，优游山水，以敷文析理自娱
+- id: guji-谢安-event-appoint
+  name_zh: 桓温以谢安为征西司马
+  date: '0360'
+  year_of: 360
+  type: career
+  detail: 桓温钦其盛名，讽朝廷请为司马；年四十起家应务
+- id: guji-谢安-event-zhongshu
+  name_zh: 诏谢安总中书
+  date: '0373'
+  year_of: 373
+  type: career
+  detail: 桓温卒后，谢安辅政，虽期功之惨不废妓乐，王坦之苦谏
+- id: guji-谢安-event-lingyangzhou
+  name_zh: 徙谢安领扬州刺史
+  date: '0376'
+  year_of: 376
+  type: career
+  detail: 安以袁宏为东阳郡，冶亭赠扇送行
+- id: guji-谢安-event-feishui
+  name_zh: 大破秦兵于肥水
+  date: 0383-11
+  year_of: 383
+  type: career
+  detail: 遣谢石、谢玄、桓伊等距苻坚；安方对客围棋，闻捷书了无喜色，云小儿辈遂已破贼
+- id: guji-谢安-event-bijian
+  name_zh: 王国宝谮安于道子，帝稍疏忌之
+  date: 0383
+  year_of: 383
+  type: career
+  detail: 求进之徒多毁短安，帝渐疏忌
+- id: guji-谢安-event-death
+  name_zh: 谢安卒
+  date: '385'
+  year_of: 385
+  type: death

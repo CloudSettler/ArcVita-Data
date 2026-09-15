@@ -1,0 +1,118 @@
+person:
+  qid: guji-桓温
+  name_zh: 桓温
+  names:
+    zh: 桓温
+    en: Huan Wen
+  lifespan:
+    birth:
+      date: '0312'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约西晋末东晋初
+    death:
+      date: 0373-07
+      precision: month
+      is_circa: false
+      raw: 孝武帝宁康元年七月卒
+  birth_date: '0312'
+  death_date: 0373-07
+  era: 东晋
+  reign_ref: 穆帝、哀帝、海西公、简文帝、孝武帝
+  archetype: 权臣枭雄
+  dilemmas:
+  - 北伐建功以成威望与忠于晋室之间的张力
+  - 废立之谋与臣节之守的抉择
+  lesson: 以雄武专朝、任兼将相，威权既盛则不臣之心难掩；枋头一败，民望既去，遂行废立以自固。
+  summary_first_person: 我以明帝婿、平蜀之勋起家，继掌荆楚，北伐关中、中原而枋头败归；威震朝廷，终行废立之事，专权至死。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/桓温
+endeavors:
+- id: guji-桓温-endeavor-1
+  name_zh: 平定蜀地
+  phases:
+  - key: brewing
+    name_zh: 受荐代庾翼镇荆州
+    labels:
+      zh: 出镇方藩
+    start_date: '0345'
+  - key: breakthrough
+    name_zh: 伐蜀克成都
+    labels:
+      zh: 灭成汉
+    start_date: '0346'
+    highlight_event_id: guji-桓温-event-3
+  - key: climax
+    name_zh: 威震朝廷加征西大将军
+    labels:
+      zh: 功高震主
+    start_date: '0347'
+- id: guji-桓温-endeavor-2
+  name_zh: 北伐与专朝
+  phases:
+  - key: brewing
+    name_zh: 伐秦进军灞上识王猛
+    labels:
+      zh: 北伐关中
+    start_date: '0354'
+    highlight_event_id: guji-桓温-event-4
+  - key: breakthrough
+    name_zh: 免殷浩独揽朝权
+    labels:
+      zh: 排除政敌
+    start_date: '0356'
+  - key: climax
+    name_zh: 枋头败绩行废立
+    labels:
+      zh: 废帝立简文
+    start_date: 0371-11
+    highlight_event_id: guji-桓温-event-5
+  - key: closure
+    name_zh: 入朝大陈兵卫及卒
+    labels:
+      zh: 兼权至终
+    start_date: '0373'
+    highlight_event_id: guji-桓温-event-death
+events:
+- id: guji-桓温-event-birth
+  type: birth
+  date: '0312'
+  year_of: 312
+  name_zh: 桓温出生
+  description: 桓温约于此年生，后尚明帝女南康长公主。
+- id: guji-桓温-event-1
+  type: other
+  date: '0345'
+  year_of: 345
+  name_zh: 何充荐桓温代庾翼镇荆州
+  description: 庾翼卒后，何充荐桓温代之；翼曾谓温有雄才，勿以常婿畜之。
+- id: guji-桓温-event-3
+  type: military
+  date: '0347'
+  year_of: 347
+  name_zh: 伐蜀克成都，李势降
+  description: 温伐蜀至彭模，留孙盛守辎重，直指成都克之，李势降；既灭蜀，威震朝廷，加征西大将军。
+- id: guji-桓温-event-4
+  type: military
+  date: '0354'
+  year_of: 354
+  name_zh: 伐秦进军灞上
+  description: 温进军灞上，咸阳王猛扪虱面谈当世之事，温察而奇之。
+- id: guji-桓温-event-5
+  type: political
+  date: 0371-11
+  year_of: 371
+  name_zh: 废海西公立会稽王昱
+  description: 温以雄武专朝，因郗超说以废立，平旦率众入朝堂，分兵屯宫门，呈草于太后，废帝弈为东海王，立会稽王昱为简文帝。
+- id: guji-桓温-event-6
+  type: political
+  date: 0373-02
+  year_of: 373
+  name_zh: 入朝大陈兵卫
+  description: 二月温来朝，大陈兵卫，延见朝士；郗超卧帐中听其言，谢安笑曰郗生可谓入幕之宾。
+- id: guji-桓温-event-death
+  type: death
+  date: 0373-07
+  year_of: 373
+  name_zh: 桓温卒
+  description: 七月，大司马桓温卒。
