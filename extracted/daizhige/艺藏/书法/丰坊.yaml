@@ -1,0 +1,130 @@
+person:
+  qid: guji-丰坊
+  name_zh: 丰坊
+  names:
+    zh: 丰坊
+    en: Feng Fang
+  lifespan:
+    birth:
+      date: '1492'
+      precision: year
+      is_circa: true
+      raw: 明弘治年间
+    death:
+      date: ~1563
+      precision: year
+      is_circa: true
+      raw: 明嘉靖末年
+  birth_date: '1492'
+  death_date: ~1563
+  era: 明代中后期
+  reign_ref: 嘉靖
+  archetype: 书学家·鉴藏家
+  dilemmas:
+  - 家藏碑帖丰厚却仕途蹇塞，寄情书学考据
+  - 取法乎上与时尚流俗之争
+  lesson: 取法乎上，仅得乎中；学书必精六书，通篆籀乃得古法
+  summary_first_person: 我丰坊，鄞县人，晚号南禺外史，工书法，藏碑帖甚富。今作《书诀》，历数双钩悬腕、让左侧右、虚掌实指、意前笔后之要诀，考金石文字、六书之法，论笔墨纸砚之制，欲以正本清源，使学者知师法古人之贵，不入浊俗之流。
+endeavors:
+- id: guji-丰坊-endeavor-1
+  name_zh: 撰著《书诀》
+  phases:
+  - key: brewing
+    name_zh: 早岁习书临帖
+    labels:
+      zh:
+      - 家学
+      - 临帖
+    start_date: '1500'
+  - key: breakthrough
+    name_zh: 考金石文字与六书
+    labels:
+      zh:
+      - 六书
+      - 考据
+    start_date: '1540'
+    highlight_event_id: guji-丰坊-event-1
+  - key: climax
+    name_zh: 成书《书诀》
+    labels:
+      zh:
+      - 书学理论
+    start_date: '1545'
+    highlight_event_id: guji-丰坊-event-2
+  - key: closure
+    name_zh: 藏帖题跋传世
+    labels:
+      zh:
+      - 收藏
+      - 传承
+    start_date: '1550'
+  decisions:
+  - date: '1545'
+    title_zh: 著《书诀》以正笔法源流
+    rationale: 时人趋尚流俗，古法无馀，故详论执笔运腕、篆籀六书、纸笔墨砚之制，以绍前贤
+- id: guji-丰坊-endeavor-2
+  name_zh: 鉴藏碑帖法书
+  phases:
+  - key: brewing
+    name_zh: 承先世收藏之绪
+    labels:
+      zh:
+      - 家藏
+    start_date: '1510'
+  - key: climax
+    name_zh: 遍鉴三代秦汉金石
+    labels:
+      zh:
+      - 金石
+      - 鉴赏
+    start_date: '1535'
+    highlight_event_id: guji-丰坊-event-3
+  - key: closure
+    name_zh: 属刻神品诸藏
+    labels:
+      zh:
+      - 传世
+    start_date: '1555'
+  decisions:
+  - date: '1535'
+    title_zh: 举列钟鼎款识碑刻谱系
+    rationale: 古大家之书必通篆籀，故历举三皇至明之器铭石刻，明其源流真赝
+events:
+- id: guji-丰坊-event-birth
+  date: '1492'
+  year_of: 1492
+  title_zh: 丰坊生于鄞县
+  type: birth
+  related_persons:
+  - guji-丰坊
+- id: guji-丰坊-event-1
+  date: '1540'
+  year_of: 1540
+  title_zh: 深研六书，著书海溯原
+  type: endeavor-milestone
+  summary_zh: 治古文奇字大篆之学，考许慎以来诸家之失，力主以古文为本
+  related_persons:
+  - guji-丰坊
+- id: guji-丰坊-event-2
+  date: '1545-01-01'
+  year_of: 1545
+  title_zh: 撰成《书诀》
+  type: work
+  summary_zh: 系统总结执笔运腕之法、篆籀谱系与笔墨纸砚之制
+  related_persons:
+  - guji-丰坊
+- id: guji-丰坊-event-3
+  date: '1535-01-01'
+  year_of: 1535
+  title_zh: 历考三代秦汉唐宋金石铭刻
+  type: endeavor-milestone
+  summary_zh: 举列诸器铭石经石刻，分神品妙品，辨其时代笔法
+  related_persons:
+  - guji-丰坊
+- id: guji-丰坊-event-death
+  date: ~1563
+  year_of: 1563
+  title_zh: 丰坊卒
+  type: death
+  related_persons:
+  - guji-丰坊
