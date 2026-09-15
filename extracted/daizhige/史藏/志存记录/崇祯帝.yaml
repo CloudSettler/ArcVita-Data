@@ -1,0 +1,156 @@
+person:
+  qid: guji-崇祯帝
+  name_zh: 崇祯帝
+  names:
+    zh: 崇祯帝
+    en: Chongzhen Emperor
+  lifespan:
+    birth:
+      date: '1611-02-06'
+      precision: day
+      is_circa: false
+      raw: 万历三十八年十二月二十四日
+    death:
+      date: '1644-04-25'
+      precision: day
+      is_circa: false
+      raw: 崇祯十七年三月十九日
+  birth_date: '1611-02-06'
+  death_date: '1644-04-25'
+  era: 明末
+  reign_ref: 崇祯（1628—1644）
+  archetype: 勤政多疑的亡国之君
+  dilemmas:
+  - 内忧流寇与外患后金两线作战，兵力财用两绌
+  - 勤政求治与猜忌滥杀将帅之间的矛盾
+  - 南迁避祸与天子守国门体统之间的抉择
+  lesson: 勤政不能替代正确的用人与战略，猜忌与朝令夕改足以倾覆江山
+  summary_first_person: 我朱由检以藩王入继大统，即位之初翦除魏忠贤阉党，宵衣旰食十七年，欲扶将倾之大厦；然性多疑而用人屡易，内有流寇燎原，外有建州逼关，终至甲申三月，李自成破京师，我自缢于煤山，以身殉社稷。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/崇祯帝
+  - https://ctext.org/library.pl?if=gb&res=5940
+endeavors:
+- id: guji-崇祯帝-endeavor-1
+  name_zh: 翦除阉党、锐意新政
+  phases:
+  - key: brewing
+    name_zh: 信王观政
+    labels:
+      zh:
+      - 藩王入继
+      - 隐忍蓄势
+    start_date: 1627-08
+    highlight_event_id: guji-崇祯帝-event-enthronement
+  - key: breakthrough
+    name_zh: 定阉党之罪
+    labels:
+      zh:
+      - 诛魏忠贤
+      - 整肃朝纲
+    start_date: 1627-11
+    highlight_event_id: guji-崇祯帝-event-purge-wei
+  - key: climax
+    name_zh: 更新政务
+    labels:
+      zh:
+      - 平反东林
+      - 整顿吏治
+    start_date: 1628-01
+    highlight_event_id: guji-崇祯帝-event-purge-wei
+  - key: closure
+    name_zh: 新政受挫
+    labels:
+      zh:
+      - 党争复起
+    start_date: 1630-01
+    highlight_event_id: guji-崇祯帝-event-execution-yuan
+  decisions:
+  - date: 1627-11
+    title_zh: 贬斥魏忠贤，定阉党逆案
+    rationale: 信王旧知阉党威福震主，即位后先稳后发，借朝臣弹劾一举翦除权阉，收还政柄。
+  - date: 1628-01
+    title_zh: 改元崇祯，起用袁崇焕督师蓟辽
+    rationale: 辽事糜烂，欲以知兵之臣收拾关外残局，赐尚方剑许其便宜行事。
+- id: guji-崇祯帝-endeavor-2
+  name_zh: 救亡图存、抵御流寇与建州
+  phases:
+  - key: brewing
+    name_zh: 两线用兵
+    labels:
+      zh:
+      - 辽东防务
+      - 流寇蔓延
+    start_date: 1628-01
+    highlight_event_id: guji-崇祯帝-event-enthronement
+  - key: breakthrough
+    name_zh: 中原围剿
+    labels:
+      zh:
+      - 洪承畴
+      - 卢象升
+    start_date: 1635-01
+    highlight_event_id: guji-崇祯帝-event-execution-yuan
+  - key: climax
+    name_zh: 战局溃败
+    labels:
+      zh:
+      - 松锦之败
+      - 流寇坐大
+    start_date: 1640-01
+    highlight_event_id: guji-崇祯帝-event-fall-beijing
+  - key: closure
+    name_zh: 京师陷落
+    labels:
+      zh:
+      - 甲申之变
+      - 煤山殉国
+    start_date: '1644-03-01'
+    highlight_event_id: guji-崇祯帝-event-suicide-meishan
+  decisions:
+  - date: 1630-09
+    title_zh: 磔杀袁崇焕
+    rationale: 皇太极兵薄京师，反间流言与朝臣交构，我疑其通敌专擅，遂弃长城自坏。
+  - date: 1644-03
+    title_zh: 犹豫不决，终未南迁
+    rationale: 李自成兵逼宣大，廷臣争持体统，我徘徊于守国门与避锋之间，坐失转移之机。
+events:
+- id: guji-崇祯帝-event-birth
+  date: '1611-02-06'
+  year_of: 1611
+  type: birth
+  title_zh: 崇祯帝朱由检生
+  description_zh: 朱由检生于万历三十八年十二月二十四日，为光宗第五子，后封信王。
+- id: guji-崇祯帝-event-enthronement
+  date: '1627-10-02'
+  year_of: 1627
+  type: endeavor
+  endeavor_id: guji-崇祯帝-endeavor-1
+  title_zh: 即皇帝位于天启七年八月
+  description_zh: 天启帝崩，无嗣，朱由检以兄终弟及入继大统，改明年为崇祯元年。
+- id: guji-崇祯帝-event-purge-wei
+  date: 1627-11
+  year_of: 1627
+  type: endeavor
+  endeavor_id: guji-崇祯帝-endeavor-1
+  title_zh: 贬魏忠贤凤阳守陵，阉党始溃
+  description_zh: 即位数月后籍没权阉，魏忠贤道死，继而钦定逆案，朝政为之一新。
+- id: guji-崇祯帝-event-execution-yuan
+  date: '1630-09-22'
+  year_of: 1630
+  type: endeavor
+  endeavor_id: guji-崇祯帝-endeavor-2
+  title_zh: 磔杀督师袁崇焕
+  description_zh: 后金兵入塞薄京师，我中反间之计，坐袁崇焕通敌之罪，磔于市，辽东长城自坏。
+- id: guji-崇祯帝-event-fall-beijing
+  date: '1644-04-24'
+  year_of: 1644
+  type: endeavor
+  endeavor_id: guji-崇祯帝-endeavor-2
+  title_zh: 李自成破京师
+  description_zh: 崇祯十七年三月十八日夜，闯军攻入外城，外廷诸臣星散，社稷倾颓在即。
+- id: guji-崇祯帝-event-suicide-meishan
+  date: '1644-04-25'
+  year_of: 1644
+  type: death
+  title_zh: 崇祯帝自缢于煤山
+  description_zh: 三月十九日拂晓，我遗诏于衣襟，与太监王承恩登煤山自缢殉国，明亡。
