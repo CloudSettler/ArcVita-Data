@@ -1,0 +1,99 @@
+person:
+  qid: guji-魏庆之
+  name_zh: 魏庆之
+  names:
+    zh: 魏庆之
+    en: Wei Qingzhi
+  lifespan:
+    birth:
+      date: '1200'
+      precision: year
+      is_circa: true
+      raw: 约南宋中期
+    death:
+      precision: unknown
+  birth_date: 约1200年（推测）
+  death_date: ''
+  era: 南宋
+  reign_ref: 淳佑（宋理宗年号）
+  archetype: 诗论编纂家 / 隐逸文人
+  dilemmas:
+  - 有才而不屑科第，选择隐居种菊、以吟咏自适，放弃仕进之路
+  - 面对浩繁诗话，如何在贪多务得与有益于诗之间取舍编次
+  lesson: 博观约取、科别其条，方能于浩瀚诗评中提炼有益诗道之精义
+  summary_first_person: 我名魏庆之，字醇甫，别号菊庄。有才而不屑科第，惟种菊千丛，日与骚人逸士觞咏其间。我以医方喻诗评，博观约取，编《诗人玉屑》以是有益于诗道，得游受斋、黄升诸公嘉赏。
+  source_urls:
+  - guji://shirenyuxie/xu
+endeavors:
+- id: guji-魏庆之-endeavor-1
+  name_zh: 隐居种菊与吟咏交游
+  phases:
+  - key: brewing
+    name_zh: 营菊庄
+    labels:
+      zh: 种菊隐居
+    start_date: '1230'
+    highlight_event_id: guji-魏庆之-event-chrysanthemum
+  decisions:
+  - date: '1230'
+    title_zh: 不屑科第，种菊千丛
+    rationale: 有才而有志于诗道，弃仕进之途，与骚人逸士觞咏自适，以菊明志
+- id: guji-魏庆之-endeavor-2
+  name_zh: 编纂《诗人玉屑》
+  phases:
+  - key: brewing
+    name_zh: 博观诗话
+    labels:
+      zh: 博观约取
+    start_date: '1235'
+    highlight_event_id: guji-魏庆之-event-compile
+  - key: climax
+    name_zh: 成编刊行
+    labels:
+      zh: 玉屑成书
+    start_date: '1244'
+    highlight_event_id: guji-魏庆之-event-book-done
+  decisions:
+  - date: '1235'
+    title_zh: 别为是编，科别其条
+    rationale: 旧编诗话贪多务得、不泛则冗，故出新意，自诗话以来至于近世评论，博观约取，分门别类，庶有益于诗
+  - date: '1244'
+    title_zh: 尽择其精，附诸名胜品题
+    rationale: 后取三百篇、骚、选而下及宋朝诸公之诗，凡名胜品题之有补于诗道者，择其精而录之
+events:
+- id: guji-魏庆之-event-birth
+  kind: life
+  date: '1200'
+  year_of: 1200
+  label:
+    zh: 魏庆之出生（约）
+  detail: 约生于南宋中期，名庆之，字醇甫
+  source_urls:
+  - guji://shirenyuxie/xu
+- id: guji-魏庆之-event-chrysanthemum
+  kind: endeavor
+  date: '1230'
+  year_of: 1230
+  label:
+    zh: 种菊千丛，觞咏其间
+  detail: 有才而不屑科第，惟种菊千丛，日与骚人逸士觞咏；阁学游受斋赋诗嘉之，有'种菊幽探计何早，想应苦吟被花恼'之句
+  source_urls:
+  - guji://shirenyuxie/xu
+- id: guji-魏庆之-event-compile
+  kind: endeavor
+  date: '1235'
+  year_of: 1235
+  label:
+    zh: 起意编纂《诗人玉屑》
+  detail: 以医方喻诗评，遍观诗话诸编，不满于《总龟》驳杂、《苕溪丛话》贪多务得，遂出新意，别为是编，科别其条
+  source_urls:
+  - guji://shirenyuxie/xu
+- id: guji-魏庆之-event-book-done
+  kind: endeavor
+  date: '1244'
+  year_of: 1244
+  label:
+    zh: 《诗人玉屑》编成
+  detail: 淳佑甲辰（1244年）长至日，玉林黄升作序，称其为'诗家之良医师'，谓其格律可准而式、鉴裁可研而核
+  source_urls:
+  - guji://shirenyuxie/xu
