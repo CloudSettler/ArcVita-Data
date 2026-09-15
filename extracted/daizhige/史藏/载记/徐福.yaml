@@ -1,0 +1,103 @@
+person:
+  qid: guji-xufu
+  name_zh: 徐福
+  names:
+    zh: 徐福
+    en: Xu Fu
+  lifespan:
+    birth:
+      date: -255
+      precision: year
+      is_circa: true
+      raw: 秦代方士，生年不详，约当战国末
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，传说东渡居日本熊野
+  birth_date: 约-255
+  death_date: 不详
+  era: 战国末至秦
+  reign_ref: 秦始皇
+  archetype: 方士与航海探险者
+  dilemmas:
+  - 求仙之请实为避祸渡海，志不在小
+  - 上书求童男女渡海，成则无大利，败则诛
+  lesson: 假求仙之名，行殖民拓海之实，识时势者能转虚言为实功
+  summary_first_person: 我乃秦时方士徐福，因齐地滨海久传海上三神山之说，遂上书始皇，请遣童男童女三千人入海求仙，终率船队东渡，相传居日本熊野浦，纪伊国有徐福祠，熊野山有徐福墓，即其遗迹。
+  source_urls:
+  - https://zh.wikisource.org/wiki/日本国志
+endeavors:
+- id: guji-xufu-endeavor-1
+  name_zh: 治学方术
+  phases:
+  - key: brewing
+    name_zh: 习方士之术
+    labels:
+      zh:
+      - 齐地方士
+    start_date: 约-240
+    highlight_event_id: guji-xufu-event-study
+  - key: breakthrough
+    name_zh: 上书请渡海
+    labels:
+      zh:
+      - 求仙
+    start_date: -219
+    highlight_event_id: guji-xufu-event-petition
+  - key: climax
+    name_zh: 率童男女东渡
+    labels:
+      zh:
+      - 东渡
+    start_date: -219
+    highlight_event_id: guji-xufu-event-voyage
+  - key: closure
+    name_zh: 定居东瀛
+    labels:
+      zh:
+      - 居熊野
+    start_date: 约-210
+    highlight_event_id: guji-xufu-event-settle
+  decisions:
+  - date: -219
+    title_zh: 上书始皇请男女渡海求仙
+    rationale: 燕齐遣使求仙，白银宫阙、员峤方壶盖即日本地，君房习闻其说，故有男女渡海之请，其志固不在小
+events:
+- id: guji-xufu-event-birth
+  event_type: birth
+  date: 约-255
+  year_of: -255
+  name_zh: 徐福约生于战国末齐地
+  description: 生年不详，为滨海齐地方士，习闻海上三神山之说
+- id: guji-xufu-event-study
+  event_type: endeavor
+  date: 约-240
+  year_of: -240
+  name_zh: 修习方术
+  description: 习方士之术，熟闻燕齐遣使求仙、白银宫阙员峤方壶之说
+- id: guji-xufu-event-petition
+  event_type: endeavor
+  date: -219
+  year_of: -219
+  name_zh: 上书请遣童男女入海求仙
+  description: 因始皇好神仙，上书请率童男女渡海求蓬莱仙药，遂得请
+- id: guji-xufu-event-voyage
+  event_type: endeavor
+  date: -219
+  year_of: -219
+  name_zh: 率三千童男女东渡
+  description: 率童男女三千人渡海，相传至日本熊野浦
+- id: guji-xufu-event-settle
+  event_type: endeavor
+  date: 约-210
+  year_of: -210
+  name_zh: 相传定居日本熊野
+  description: 相传孝灵时徐福率童男女三千人来居熊野浦；纪伊国有徐福祠，熊野山有徐福墓；《三国志》《后汉书》倭国传载其事
+- id: guji-xufu-event-death
+  event_type: death
+  date: 约-210
+  is_circa: true
+  year_of: -210
+  name_zh: 卒年不详，传葬熊野山
+  description: 卒年史无明文，日本传熊野山有徐福墓，或即其葬地

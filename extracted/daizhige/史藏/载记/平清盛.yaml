@@ -1,0 +1,157 @@
+person:
+  qid: guji-平清盛
+  name_zh: 平清盛
+  names:
+    zh: 平清盛
+    en: Taira no Kiyomori
+  lifespan:
+    birth:
+      date: '1118'
+      precision: year
+      is_circa: true
+      raw: 约生于平安后期（古文未载，据史通说）
+    death:
+      date: '1181'
+      precision: year
+  birth_date: '1118-01-01'
+  death_date: '1181-01-01'
+  era: 平安时代后期
+  reign_ref: 保元之乱、平治之乱及平氏专权时期
+  archetype: 武家权臣
+  dilemmas:
+  - 保元之乱中，叔父平忠政从崇德上皇，清盛选择从后白河天皇，遂弑叔父
+  - 平治之乱中，义朝之子赖朝当诛，其母乞怜，放免流之伊豆
+  - 权势极盛时与后白河法皇相争，其子重盛固谏幽禁法皇之事
+  lesson: 外戚专权、刑赏自专，威福过盛则举国兵马半属敌家，终并为源氏所灭
+  summary_first_person: 我以平氏之兵，保元间从后白河帝攻白河殿，平治间又讨信赖、义朝，遂尽诛义朝诸子而进官爵。立我妹之子为太子，升太政大臣，同姓为公卿者十六人，威福过于藤原氏。我幽法皇、贬诸藤原、独决朝政，又立外孙安德帝。及以仁王下令、源氏响应，我遣兵东讨不胜，遗戒子弟力讨赖朝而寻薨。
+endeavors:
+- id: guji-平清盛-endeavor-1
+  name_zh: 保元平治之役崛起
+  phases:
+  - key: brewing
+    name_zh: 保元之乱从帝功
+    labels:
+      zh:
+      - 保元之乱
+    start_date: '1156-07-11'
+    highlight_event_id: guji-平清盛-event-bao元年攻白河殿
+  - key: breakthrough
+    name_zh: 平治之乱匡复
+    labels:
+      zh:
+      - 平治之乱
+    start_date: '1159-12-01'
+    highlight_event_id: guji-平清盛-event-heiji讨贼
+  - key: climax
+    name_zh: 平氏专权
+    labels:
+      zh:
+      - 外戚摄政
+      - 太政大臣
+    start_date: '1167-01-01'
+    highlight_event_id: guji-平清盛-event-升太政大臣
+  - key: closure
+    name_zh: 与源氏相争而殁
+    labels:
+      zh:
+      - 源平合战
+    start_date: '1180-01-01'
+    highlight_event_id: guji-平清盛-event-东讨不胜寻薨
+  decisions:
+  - date: '1159-12-01'
+    title_zh: 归六波罗第决议讨贼
+    rationale: 途中闻变欲避，与子重盛决议归第，潜使人调事，帝敕平氏讨贼
+  - date: '1167-01-01'
+    title_zh: 接受从一位太政大臣
+    rationale: 后白河纳平清盛妹生宪仁立为太子，平氏始以外戚摄政
+  - date: '1179-01-01'
+    title_zh: 幽法皇于鸟羽并贬诸藤原氏官爵
+    rationale: 法皇游宴自如，与成亲共议图灭平氏事泄，清盛积怒遂专恣
+- id: guji-平清盛-endeavor-2
+  name_zh: 平氏一门荣枯
+  phases:
+  - key: brewing
+    name_zh: 以外戚进位
+    labels:
+      zh:
+      - 立中宫
+    start_date: '1160-01-01'
+    highlight_event_id: guji-平清盛-event-heiji讨贼
+  - key: climax
+    name_zh: 同姓十六人列公卿
+    labels:
+      zh:
+      - 采地半海内
+    start_date: '1168-01-01'
+    highlight_event_id: guji-平清盛-event-升太政大臣
+  - key: closure
+    name_zh: 遗戒讨赖朝
+    labels:
+      zh:
+      - 寿永行衰
+    start_date: '1180-06-01'
+    highlight_event_id: guji-平清盛-event-东讨不胜寻薨
+  decisions:
+  - date: '1160-01-01'
+    title_zh: 纳源义朝婢三人免其死
+    rationale: 其母殊色，清盛纳之，因亦得免；赖朝则由清盛之母为尼者悯之
+  - date: '1180-01-01'
+    title_zh: 遣追讨使东击源氏
+    rationale: 以仁王下令东国发源氏，源氏所在响应
+events:
+- id: guji-平清盛-event-birth
+  type: birth
+  date: '1118-01-01'
+  year_of: '1118'
+  era_zh: 平安时代
+  summary_zh: 平清盛约生于此年（古文本卷仅溯于保元之乱）
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-bao元年攻白河殿
+  type: endeavor
+  date: '1156-07-11'
+  year_of: '1156'
+  era_zh: 保元元年
+  summary_zh: 帝遣源义朝、平清盛等攻白河殿，义朝请火攻之，上皇大败，遂流崇德上皇于赞岐，是为保元之乱
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-heiji讨贼
+  type: endeavor
+  date: '1159-12-01'
+  year_of: '1159'
+  era_zh: 平治之乱
+  summary_zh: 帝逃出平清盛第，平氏以兵迎入其第，清盛途闻变与子重盛决议讨贼，诱贼出大内，信赖、义朝皆诛死，义朝诸子尽为平氏所捕杀，惟赖朝免死流于伊豆
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-升太政大臣
+  type: endeavor
+  date: '1167-01-01'
+  year_of: '1167'
+  era_zh: 六条末年
+  summary_zh: 寻升清盛从一位太政大臣，平氏始以外戚摄政；清盛专恣，同姓为公卿者十六人，得升殿者十余人，为卫府国司者六十余人，其采地半海内，威福过于藤原氏
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-幽法皇
+  type: endeavor
+  date: '1179-01-01'
+  year_of: '1179'
+  era_zh: 治承末年
+  summary_zh: 重盛卒未数日，清盛即遣宗盛率兵幽法皇于鸟羽，前因重盛固谏而止；又讽高仓帝让位于太子言仁，遂立安德帝，清盛决事
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-东讨不胜寻薨
+  type: endeavor
+  date: '1180-01-01'
+  year_of: '1180'
+  era_zh: 治承四年
+  summary_zh: 以仁王下令东国讨平氏败死，源赖朝、源义仲各奉令起兵，清盛大惊，遣追讨使东击之不胜，及是薨，遗戒子弟力讨赖朝
+  participants:
+  - guji-平清盛
+- id: guji-平清盛-event-death
+  type: death
+  date: '1181-01-01'
+  year_of: '1181'
+  era_zh: 治承五年
+  summary_zh: 清盛寻薨，遗戒子弟力讨赖朝；其专权之盛，举国之兵半属平氏，卒为源氏所灭于坛浦
+  participants:
+  - guji-平清盛
