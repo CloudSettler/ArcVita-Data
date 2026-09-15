@@ -1,0 +1,101 @@
+person:
+  qid: guji-范镇
+  name_zh: 范镇
+  names:
+    zh: 范镇
+    en: Fan Zhen
+  lifespan:
+    birth:
+      date: '1007'
+      precision: year
+      is_circa: true
+      raw: 约北宋真宗景德年间
+    death:
+      date: '1088'
+      precision: year
+      is_circa: true
+      raw: 约北宋哲宗元祐年间
+  birth_date: '1007'
+  death_date: '1088'
+  era: 北宋
+  reign_ref: 仁宗—哲宗朝
+  archetype: 雅士诗人
+  dilemmas:
+  - 晚年致仕，去留之间：一朝思乡，径行入蜀，散财亲旧而不恋禄位
+  - 为诗不趋夸耀，自言「不学乡人夸驷马，未饶吾祖泛扁舟」
+  lesson: 功成身退，还乡散财、遍游山水，将性情寄于诗与远行之中。
+  summary_first_person: 我范镇，字景仁，喜为诗。六十三岁那年致仕，一朝思念乡里，径行入蜀。我绕道梓州访故人李才元大临，归至成都，日与乡人乐饮，把钱财散给贫苦的亲旧，又游峨眉、青城，下巫峡、出荆门，往来近一年方还京师。旅途中作诗二百五篇，其中一联「不学乡人夸驷马，未饶吾祖泛扁舟」，正是我的自况。
+  source_urls:
+  - 温公续诗话
+endeavors:
+- id: guji-范镇-endeavor-1
+  name_zh: 致仕归蜀之游
+  phases:
+  - key: brewing
+    name_zh: 致仕去朝
+    labels:
+      zh: 年六十三致仕
+    start_date: '1069'
+    highlight_event_id: guji-范镇-event-retire
+  - key: breakthrough
+    name_zh: 思乡入蜀
+    labels:
+      zh: 径行入蜀，枉道过梓州访李大临
+    start_date: '1069'
+    highlight_event_id: guji-范镇-event-visit-lidalin
+  - key: climax
+    name_zh: 成都乐饮、散财远游
+    labels:
+      zh: 散财亲旧，游峨眉青城，下巫峡出荆门
+    start_date: '1069'
+    highlight_event_id: guji-范镇-event-tour
+  - key: closure
+    name_zh: 归京
+    labels:
+      zh: 凡期岁乃还京师，在道作诗二百五篇
+    start_date: '1070'
+    highlight_event_id: guji-范镇-event-return
+  decisions:
+  - date: '1069'
+    title_zh: 朝致仕即径行入蜀
+    rationale: 一朝思乡里，不待安排，径行归蜀
+  - date: '1069'
+    title_zh: 散财于亲旧之贫者
+    rationale: 归至成都，日与乡人乐饮，以财物济贫亲旧
+events:
+- id: guji-范镇-event-birth
+  date: '1007'
+  year_of: 1007
+  title_zh: 范镇出生
+  content: 约生于北宋真宗景德年间。
+  type: birth
+- id: guji-范镇-event-retire
+  date: '1069'
+  year_of: 1069
+  title_zh: 年六十三致仕
+  content: 喜为诗，年六十三致仕。
+  type: career
+- id: guji-范镇-event-visit-lidalin
+  date: '1069'
+  year_of: 1069
+  title_zh: 枉道过梓州访李大临
+  content: 一朝思乡里，遂径行入蜀。故人李才元大临知梓州，景仁枉道过之。
+  type: career
+- id: guji-范镇-event-tour
+  date: '1069'
+  year_of: 1069
+  title_zh: 成都乐饮散财，游峨眉青城，下巫峡出荆门
+  content: 归至成都，日与乡人乐饮，散财于亲旧之贫者，遂游峨眉青城山，下巫峡、出荆门。
+  type: career
+- id: guji-范镇-event-return
+  date: '1070'
+  year_of: 1070
+  title_zh: 期岁还京师，道中作诗二百五篇
+  content: 凡期岁乃还京师。在道作诗凡二百五篇，其一联云：「不学乡人夸驷马，未饶吾祖泛扁舟。」
+  type: career
+- id: guji-范镇-event-death
+  date: '1088'
+  year_of: 1088
+  title_zh: 范镇去世
+  content: 约卒于北宋哲宗元祐年间。
+  type: death
