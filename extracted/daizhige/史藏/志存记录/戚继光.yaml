@@ -1,0 +1,156 @@
+person:
+  qid: guji-戚继光
+  name_zh: 戚继光
+  names:
+    zh: 戚继光
+    en: Qi Jiguang
+  lifespan:
+    birth:
+      date: 1528-11-12
+      precision: day
+      is_circa: false
+      raw: 出生于嘉靖七年（1528）
+    death:
+      date: 1588-01-05
+      precision: day
+      is_circa: false
+      raw: 卒于万历十五年岁末（1588）
+  birth_date: 1528-11-12
+  death_date: 1588-01-05
+  era: 明代嘉靖、隆庆、万历年间
+  reign_ref: 嘉靖、隆庆、万历
+  archetype: 荡倭名将
+  dilemmas:
+  - 倭患荼毒十数年，武备久弛，须力挽颓局
+  - 官兵屡败，需入浙募兵、整训新力方能御敌
+  lesson: 面对武备废弛、倭寇猖獗的危局，唯有整军经武、智勇并用方能荡平祸乱
+  summary_first_person: 我戚继光于嘉靖年间奉檄提兵入闽，破贼于福清、连江马鼻，会攻平海复兴化城，又大败倭于仙游，尽歼海坛余寇，终平闽海十余年倭患。
+  source_urls:
+  - 福州倭患始末记
+endeavors:
+- id: guji-戚继光-endeavor-1
+  name_zh: 提兵入闽荡平倭患
+  labels:
+    zh:
+    - 抗倭
+    - 军事征讨
+  phases:
+  - key: brewing
+    name_zh: 受檄入闽
+    labels:
+      zh:
+      - 奉命
+    start_date: 1562-04
+    highlight_event_id: guji-戚继光-event-fuqing
+  - key: breakthrough
+    name_zh: 马鼻破倭与平海合击
+    labels:
+      zh:
+      - 大捷
+    start_date: 1563-04
+    highlight_event_id: guji-戚继光-event-mabei
+  - key: climax
+    name_zh: 仙游大败倭寇
+    labels:
+      zh:
+      - 决战
+    start_date: 1563-11
+    highlight_event_id: guji-戚继光-event-xianyou
+  - key: closure
+    name_zh: 尽歼余倭
+    labels:
+      zh:
+      - 剿灭
+    start_date: 1564
+    highlight_event_id: guji-戚继光-event-haitan
+  decisions:
+  - date: 1562-04
+    title_zh: 奉胡宗宪檄率都司戴冲霄、把总胡守仁入闽剿倭
+    rationale: 闽省告急，倭大举犯福建，须驰援破贼
+  - date: 1563-04
+    title_zh: 自浙募兵后以总兵衔赴闽、破倭于连江马鼻百丈岩
+    rationale: 时入浙募兵，兵精而后可与倭决战
+  - date: 1563-11
+    title_zh: 檄各卫所设疑兵防守，自与监军汪道昆屯兴化进击仙游
+    rationale: 倭复犯连江东岱堡及沿海各地，须设防疑兵并集中兵力进击
+events:
+- id: guji-戚继光-event-birth
+  entity_id: guji-戚继光
+  type: birth
+  title_zh: 戚继光出生
+  date: 1528-11-12
+  year_of: 1528
+  location_zh: 山东
+  description_zh: 明嘉靖七年，戚继光生于世袭武官之家。
+  source_refs:
+  - 通用生平记载
+- id: guji-戚继光-event-death
+  entity_id: guji-戚继光
+  type: death
+  title_zh: 戚继光逝世
+  date: 1588-01-05
+  year_of: 1588
+  location_zh: 山东登州
+  description_zh: 万历十五年，戚继光卒。
+  source_refs:
+  - 通用生平记载
+- id: guji-戚继光-event-fuqing
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 嘉靖四十一年率兵入闽破贼于福清
+  date: 1562-04
+  year_of: 1562
+  location_zh: 福建福清
+  description_zh: 倭大举犯福建，巡抚游震得告急，浙督胡宗宪檄参将戚继光率都司戴冲霄、把总胡守仁剿之，破贼于福清，余党走兴化，闽宿寇几尽。
+  source_refs:
+  - 福州倭患始末记
+- id: guji-戚继光-event-mabei
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 破倭于连江马鼻百丈岩
+  date: 1563-04
+  year_of: 1563
+  location_zh: 福建连江马鼻
+  description_zh: 嘉靖四十二年四月，总兵戚继光至自浙（时入浙募兵），破倭于连江马鼻之百丈岩。
+  source_refs:
+  - 福州倭患始末记
+- id: guji-戚继光-event-pinghai
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 合攻平海复兴化城
+  date: 1563-04
+  year_of: 1563
+  location_zh: 福建平海
+  description_zh: 巡抚谭纶自将中军，总兵刘显、俞大猷将左右，合攻贼于平海；继光复以中军薄战，左右军继之，因风纵火，贼尽糜巢中，复兴化城。随后趋福州合击倭支党于长乐破之，倭悉遁去。
+  source_refs:
+  - 福州倭患始末记
+- id: guji-戚继光-event-xianyou
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 仙游大败倭寇
+  date: 1563-11
+  year_of: 1563
+  location_zh: 福建仙游
+  description_zh: 嘉靖四十二年十一月，倭复犯连江东岱堡并扰莆田、晋江等地，戚继光檄各卫所设疑兵防守，自与监军汪道昆屯兴化，进击之于仙游，大败之。
+  source_refs:
+  - 福州倭患始末记
+- id: guji-戚继光-event-haitan
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 尽歼海坛余倭
+  date: 1564-05
+  year_of: 1564
+  location_zh: 福建海坛（今平潭）
+  description_zh: 嘉靖四十三年贼续犯福清，戚继光尽擒斩之；五月尽歼屯海坛余倭。
+  source_refs:
+  - 福州倭患始末记
+- id: guji-戚继光-event-biwei
+  entity_id: guji-戚继光
+  type: endeavor
+  title_zh: 嘉靖四十四年分遣击倭于小埕诸港
+  date: 1565-04
+  year_of: 1565
+  location_zh: 福建小埕、福安、宁德
+  description_zh: 倭分港入寇，戚继光分遣击之，倭败遁入福安、宁德，昼伏夜行，间多饿毙；官兵搜山剿捕，无免者。论曰：微戚继光荡平之，其有宁宇耶？
+  source_refs:
+  - 福州倭患始末记
