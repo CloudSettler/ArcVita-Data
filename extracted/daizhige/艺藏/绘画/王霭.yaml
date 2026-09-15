@@ -1,0 +1,136 @@
+person:
+  qid: guji-王霭
+  name_zh: 王霭
+  names:
+    zh: 王霭
+    en: Wang Ai
+  era: 五代末至北宋初
+  archetype: 宫廷画家
+  reign_ref: 后梁、后晋、宋太祖
+  dilemmas:
+  - 战乱被掠北去，失自由而技艺不废
+  - 奉命微服潜写敌国重臣形貌，忠于职守而涉险
+  lesson: 平静坚定、多方求变，写真与佛像皆臻其妙
+  summary_first_person: 我是王霭，京师人，幼有志节，静默而留心图画，尤长写真，追学吴道子之笔，于佛像人物能尽其妙。历梁晋为翰林待诏，石晋末被耶律德光掠归北地；宋兴放还，复为待诏。艺祖欲图江南，命我微服往钟陵，潜写宋齐丘、韩熙载、林仁肇等形状以闻，受赏加等。我又奉诏于定力院写宣祖及太后御容，画大殿西壁水月观音，于景德寺九曜院后西壁画弥勒下生像。末年与孙梦卿对画开宝寺文殊阁东西两壁，梦卿以东壁让之，尊我声迹。所画毗楼勒义天王、金枪道菩萨，笔力精迈，思虑殚竭，评者谓可列神品中。
+endeavors:
+- id: guji-王霭-endeavor-1
+  name_zh: 师法吴生，精研写真
+  phases:
+  - key: brewing
+    name_zh: 幼志图画
+    labels:
+      zh: 早期学艺
+    start_date: 0900
+  - key: breakthrough
+    name_zh: 翰林供奉
+    labels:
+      zh: 后梁待诏
+    start_date: 0910
+    highlight_event_id: guji-王霭-event-capture
+  - key: climax
+    name_zh: 奉旨写真
+    labels:
+      zh: 宋初重任
+    start_date: 0960
+    highlight_event_id: guji-王霭-event-zhongling
+  - key: closure
+    name_zh: 开宝寺对画
+    labels:
+      zh: 晚年壁画
+    start_date: 0970
+    highlight_event_id: guji-王霭-event-kaibao
+  decisions:
+  - date: 0910
+    title_zh: 留心图画，追学吴生之笔
+    rationale: 幼有志节，颇静默，尤长于写真，于佛像人物能尽其妙
+  - date: 0960
+    title_zh: 受命微服往钟陵潜写宋齐丘、韩熙载、林仁肇等形状
+    rationale: 艺祖以江南未归，有意吊伐，霭忠勤奉命，因潜写上报，受赏加等
+- id: guji-王霭-endeavor-2
+  name_zh: 壁画佛道圣像
+  phases:
+  - key: brewing
+    name_zh: 定力院写御容
+    labels:
+      zh: 奉诏写真
+    start_date: 0960
+  - key: breakthrough
+    name_zh: 观音弥勒诸像
+    labels:
+      zh: 大壁创作
+    start_date: 0965
+  - key: climax
+    name_zh: 开宝寺文殊阁
+    labels:
+      zh: 对画天王
+    start_date: 0970
+    highlight_event_id: guji-王霭-event-kaibao
+  - key: closure
+    name_zh: 声迹所寄
+    labels:
+      zh: 来世之誉
+    start_date: 0975
+  decisions:
+  - date: 0965
+    title_zh: 画定力院大殿西壁水月观音及景德寺弥勒下生像
+    rationale: 奉诏写真之余，以大壁创作彰显笔力
+  - date: 0970
+    title_zh: 与孙梦卿对画开宝寺文殊阁东西两壁
+    rationale: 梦卿以东壁让之，尊霭声迹;所画天王高丈余，笔力精迈
+events:
+- id: guji-王霭-event-birth
+  type: birth
+  date: 0900
+  precision: circa
+  is_circa: true
+  raw: 生年不载
+  year_of: 900
+  summary_zh: 王霭约生于唐末，京师人
+- id: guji-王霭-event-capture
+  type: capture
+  date: 0947
+  precision: circa
+  is_circa: true
+  raw: 石晋末，耶律德光犯阙
+  year_of: 947
+  summary_zh: 耶律德光犯阙，王霭与焦著、王仁寿被掠归北地
+- id: guji-王霭-event-return
+  type: return
+  date: 0960
+  precision: circa
+  is_circa: true
+  raw: 契丹亡，宋有天下
+  year_of: 960
+  summary_zh: 宋有天下，放霭还国，复为翰林待诏
+- id: guji-王霭-event-zhongling
+  type: mission
+  date: 0962
+  precision: circa
+  is_circa: true
+  raw: 艺祖有意吊伐江南
+  year_of: 962
+  summary_zh: 奉命微服往钟陵，潜写宋齐丘、韩熙载、林仁肇等形状以闻，受赏加等
+- id: guji-王霭-event-yurong
+  type: commission
+  date: 0965
+  precision: circa
+  is_circa: true
+  raw: 奉诏于定力院写宣祖及太后御容
+  year_of: 965
+  summary_zh: 奉诏于定力院写宣祖及太后御容，并画水月观音、弥勒下生像
+- id: guji-王霭-event-kaibao
+  type: artwork
+  date: 0970
+  precision: circa
+  is_circa: true
+  raw: 开宝年间
+  year_of: 970
+  summary_zh: 与孙梦卿对画开宝寺文殊阁两壁，画毗楼勒义天王及金枪道菩萨，笔力精迈
+- id: guji-王霭-event-death
+  type: death
+  date: 0980
+  precision: circa
+  is_circa: true
+  raw: 卒年不载
+  year_of: 980
+  summary_zh: 王霭约卒于宋初，评者谓其画可列神品中
