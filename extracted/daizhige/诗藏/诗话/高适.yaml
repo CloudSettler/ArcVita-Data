@@ -1,0 +1,132 @@
+person:
+  qid: guji-gaoshi
+  name_zh: 高适
+  names:
+    zh: 高适
+    en: Gao Shi
+  lifespan:
+    birth:
+      date: '704'
+      precision: year
+      is_circa: true
+      raw: 约704年
+    death:
+      date: '765'
+      precision: year
+      is_circa: false
+  birth_date: 约704年
+  death_date: 765年
+  era: 盛唐
+  reign_ref: 唐玄宗、唐肃宗、唐代宗
+  archetype: 边塞诗人·诗人节帅
+  dilemmas:
+  - 早年潦倒不遇，中年方入仕，诗名与官运两途的取舍
+  - 由布衣诗人转为镇守一方的节度使，文臣而临军政实务
+  lesson: 大器晚成——五十岁前仕途蹭蹬而不废诗笔，终以阅历与志节兼得诗名功业。
+  summary_first_person: 我高适字达夫，早年贫贱漫游梁宋，以边塞诗与岑参齐名，世称“高岑”。后投笔从戎，佐哥舒翰守潼关，、淮南、剑南节度使，封渤海县侯，是有唐诗人中位至节镇者。
+  source_urls:
+  - source: 全唐诗话续编（清·孙涛）卷下目录
+event_refs:
+- guji-gaoshi-event-shizhao
+- guji-gaoshi-event-jiedushi-wannian
+endeavors:
+- id: guji-gaoshi-endeavor-1
+  name_zh: 边塞诗创作
+  phases:
+  - key: brewing
+    name_zh: 梁宋漫游
+    labels:
+      zh: 初期漫游
+    start_date: '730'
+    highlight_event_id: guji-gaoshi-event-you-liangsong
+  - key: breakthrough
+    name_zh: 边塞从军
+    labels:
+      zh: 蓟门边塞
+    start_date: '738'
+    highlight_event_id: guji-gaoshi-event-beisai
+  - key: climax
+    name_zh: 诗名并世
+    labels:
+      zh: 高岑并称
+    start_date: '752'
+    highlight_event_id: guji-gaoshi-event-goryu
+  decisions:
+  - date: '738'
+    title_zh: 北游燕赵，投身边幕
+    rationale: 不仕而贫，遂北走蓟门，冀以军功边事立身，笔下巴蜀燕代之景遂开边塞一派。
+- id: guji-gaoshi-endeavor-2
+  name_zh: 佐幕与镇守
+  phases:
+  - key: brewing
+    name_zh: 应制科入仕
+    labels:
+      zh: 中年释褐
+    start_date: '749'
+    highlight_event_id: guji-gaoshi-event-shizhao
+  - key: breakthrough
+    name_zh: 佐哥舒翰
+    labels:
+      zh: 河西入幕
+    start_date: '754'
+    highlight_event_id: guji-gaoshi-event-reshi
+  - key: climax
+    name_zh: 出任节度使
+    labels:
+      zh: 淮南剑南
+    start_date: '756'
+    highlight_event_id: guji-gaoshi-event-jiedushi
+  - key: closure
+    name_zh: 晚岁封侯
+    labels:
+      zh: 渤海县侯
+    start_date: '763'
+    highlight_event_id: guji-gaoshi-event-jiedushi-wannian
+  decisions:
+  - date: '749'
+    title_zh: 举有道科，授封丘尉
+    rationale: 年近五十始释褐，虽官微而步入仕途，为后日军幕之阶。
+  - date: '756'
+    title_zh: 建言玄宗诸王分镇之策
+    rationale: 潼关败后上疏论形势，力陈分镇之弊，拜谏议大夫，遂获肃宗信任。
+events:
+- id: guji-gaoshi-event-birth
+  type: 出生
+  date: '704'
+  year_of: 704
+  description: 高适生于约704年，渤海蓨人。
+- id: guji-gaoshi-event-you-liangsong
+  type: 事业事件
+  date: '730'
+  year_of: 730
+  description: 早岁家贫，客游梁宋间，以耕钓自给，与李白、杜甫同游梁园。
+- id: guji-gaoshi-event-beisai
+  type: 事业事件
+  date: '738'
+  year_of: 738
+  description: 北游燕赵，亲历边塞，作〈燕歌行〉、〈塞上〉等，奠定边塞诗宗匠地位。
+- id: guji-gaoshi-event-shizhao
+  type: 事业事件
+  date: '749'
+  year_of: 749
+  description: 经宋州刺史张九皋荐举，举有道科，授封丘县尉。
+- id: guji-gaoshi-event-reshi
+  type: 事业事件
+  date: '754'
+  year_of: 754
+  description: 入河西节度使哥舒翰幕为掌书记，安史乱起，佐翰守潼关。
+- id: guji-gaoshi-event-jiedushi
+  type: 事业事件
+  date: '756'
+  year_of: 756
+  description: 玄宗奔蜀，间道追及河池，上《陈潼关败亡形势疏》；肃宗奇之，擢谏议大夫，寻授淮南节度使，讨永王璘。
+- id: guji-gaoshi-event-goryu
+  type: 事业事件
+  date: '752'
+  year_of: 752
+  description: 与岑参、王昌龄等以边塞诗名世，与岑参并称“高岑”。
+- id: guji-gaoshi-event-jiedushi-wannian
+  type: 事业事件
+  date: '763'
+  year_of: 763
+  description: 出为剑南西川节度使，后还朝为刑部侍郎，转散骑常侍，封渤海县侯，永泰元年卒，谥忠。
