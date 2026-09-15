@@ -1,0 +1,115 @@
+person:
+  qid: guji-韩幹
+  name_zh: 韩幹
+  names:
+    zh: 韩幹
+    en: Han Gan
+  lifespan:
+    birth:
+      date: ~0706
+      precision: approximate
+      is_circa: true
+      raw: 唐代京兆人，生年不详
+    death:
+      date: ~0783
+      precision: approximate
+      is_circa: true
+      raw: 卒年不详
+  birth_date: ~0706
+  death_date: ~0783
+  era: 唐代
+  reign_ref: 唐明皇天宝年间
+  archetype: 宫廷画马大师，神品下画家
+  dilemmas:
+  - 奉诏师从陈闳学画马却不肯师法陈闳，宁以内厩真马为师，冒犯圣意而有独到之见
+  lesson: 师法造化而非拘泥师门，直面实物方得神韵，遂成画马一代宗师。
+  summary_first_person: 我韩幹乃京兆人，天宝年间被明皇召入宫廷供奉。皇帝命我师从陈闳画马，我却自言内厩骏马即是我师。开元之后四海清平，西域名马纷至，我尽写其状，飞黄、照夜、浮云、五花皆入我图，遂与陈闳先后辉映，位居神品。
+endeavors:
+- id: guji-韩幹-endeavor-1
+  name_zh: 天宝入供奉，师内厩之马
+  labels:
+    zh:
+    - 宫廷供奉
+    - 画马
+  phases:
+  - key: breakthrough
+    name_zh: 应召入供奉
+    labels:
+      zh:
+      - 宫廷画师
+    start_date: 482
+    highlight_event_id: guji-韩幹-event-summon
+  - key: brewing
+    name_zh: 自立师法
+    labels:
+      zh:
+      - 师法自然
+    start_date: 482
+    highlight_event_id: guji-韩幹-event-defend-teacher
+  decisions:
+  - date: 482
+    title_zh: 不师陈闳，以内厩真马为师
+    rationale: 陛下厩中之马皆我之师，师法实物方可尽骏马之神态。
+- id: guji-韩幹-endeavor-2
+  name_zh: 尽写内厩名马，位居神品
+  labels:
+    zh:
+    - 画马神品
+    - 壁画
+  phases:
+  - key: climax
+    name_zh: 图飞黄照夜之奇
+    labels:
+      zh:
+      - 神品画马
+    start_date: 493
+    highlight_event_id: guji-韩幹-event-masterpiece
+  - key: closure
+    name_zh: 寺观壁画传世
+    labels:
+      zh:
+      - 壁画
+      - 佛教人物
+    start_date: 498
+    highlight_event_id: guji-韩幹-event-temple-walls
+  decisions:
+  - date: 493
+    title_zh: 承写内厩西域名马
+    rationale: 继陈闳之后写渥洼騕褭之形，状飞黄之质，图喷玉之奇，故宜居神品。
+events:
+- id: guji-韩幹-event-birth
+  event_type: birth
+  date: ~0706
+  year_of: 706
+  title_zh: 韩幹生于京兆
+  description: 京兆人，生年不详，后以丹青名世。
+- id: guji-韩幹-event-death
+  event_type: death
+  date: ~0783
+  year_of: 783
+  title_zh: 韩幹卒
+  description: 卒年不详，画高僧、鞍马、菩萨、鬼神等并传于世。
+- id: guji-韩幹-event-summon
+  event_type: endeavor
+  date: 482
+  year_of: 742
+  title_zh: 明皇天宝中召入供奉
+  description: 唐明皇天宝年间，韩幹被召入宫廷为供奉画家。
+- id: guji-韩幹-event-defend-teacher
+  event_type: endeavor
+  date: 482
+  year_of: 742
+  title_zh: 自陈以内厩之马为师
+  description: 上令师陈闳画马，帝怪其不同而诘之，奏称臣自有师，陛下内厩之马皆臣之师，上甚异之。
+- id: guji-韩幹-event-masterpiece
+  event_type: endeavor
+  date: 493
+  year_of: 755
+  title_zh: 尽写内厩飞黄照夜诸骏
+  description: 开元后四海清平，外国名马重驿累至，明皇择良马与中国之骏同颁，令尽写之，韩幹继陈闳之后写渥洼騕褭之形，遂居神品之列。
+- id: guji-韩幹-event-temple-walls
+  event_type: endeavor
+  date: 498
+  year_of: 762
+  title_zh: 画宝应寺资圣寺壁及写真传世
+  description: 画宝应寺三门神、西院北方天王、佛殿菩萨及净土壁、资圣寺北门二十四圣，皆奇踪；画高僧、鞍马、菩萨、鬼神等并传于世。
