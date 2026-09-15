@@ -1,0 +1,103 @@
+person:
+  qid: guji-卫恒
+  names:
+    zh: 卫恒
+    en: Wei Heng
+  name_zh: 卫恒
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 不详
+  era: 西晋
+  reign_ref: 晋惠帝时期
+  archetype: 书法家·书论家
+  dilemmas:
+  - 身居权要而潜心书艺，仕途显贵与书法理论研究难以两全，终因卷入宫廷政争而殒命
+  lesson: 以"尚象"审美总结古体书势，为魏晋书法理论奠基；然而依附权门者，祸福难料
+  summary_first_person: 我是西晋卫恒，河东安邑人，官至尚书郎、黄门侍郎。我承家学而善书，撰《四体书势》，综述古文、篆、隶、草四体之源流并系以赞辞，为魏晋书论"尚象"一脉的重要著作。惜乎卷入政争，为楚王司马玮所害，年未竟其业。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/卫恒
+endeavors:
+- id: guji-卫恒-endeavor-1
+  name_zh: 撰《四体书势》
+  labels:
+    zh: 书论著作
+  phases:
+  - key: brewing
+    name_zh: 家学渊源
+    labels:
+      zh: 承卫氏书学
+    start_date: '0260'
+  - key: breakthrough
+    name_zh: 综述四体
+    labels:
+      zh: 撰四体书势
+    start_date: 0280
+    highlight_event_id: guji-卫恒-event-endeavor-1
+  - key: climax
+    name_zh: 书论传世
+    labels:
+      zh: 影响后世
+    start_date: 0285
+  - key: closure
+    name_zh: 身死业存
+    labels:
+      zh: 遇害
+    start_date: 0291
+    highlight_event_id: guji-卫恒-event-death
+  decisions:
+  - date: 0280
+    title_zh: 决意撰述《四体书势》
+    rationale: 祖父卫觊、父卫瓘皆善书，家藏古法，遂综述四种书体源流并系赞辞，以述书艺之美
+- id: guji-卫恒-endeavor-2
+  name_zh: 仕宦西晋朝廷
+  labels:
+    zh: 出仕
+  phases:
+  - key: brewing
+    name_zh: 以门才入仕
+    labels:
+      zh: 起家为官
+    start_date: '0270'
+  - key: breakthrough
+    name_zh: 官至黄门侍郎
+    labels:
+      zh: 职居枢要
+    start_date: 0285
+    highlight_event_id: guji-卫恒-event-endeavor-2
+  - key: closure
+    name_zh: 政争遇害
+    labels:
+      zh: 卷入政变
+    start_date: 0291
+    highlight_event_id: guji-卫恒-event-death
+  decisions:
+  - date: 0285
+    title_zh: 出任黄门侍郎
+    rationale: 以才学与门第居禁近之职，兼参机要
+events:
+- id: guji-卫恒-event-birth
+  year_of: 259
+  date: 0259
+  type: birth
+  title_zh: 卫恒生（约）
+  detail: 卫恒生于西晋之前的曹魏末年，河东安邑人，生年史无确载，约在公元二五九年前后
+- id: guji-卫恒-event-endeavor-1
+  year_of: 280
+  date: 0280
+  type: endeavor
+  title_zh: 撰成《四体书势》
+  detail: 综述古文、篆、隶、草四体书势源流，全文系以韵文赞辞，与成公绥《隶书体》、索靖《草书状》等同属西晋"尚象"书论代表
+- id: guji-卫恒-event-endeavor-2
+  year_of: 285
+  date: 0285
+  type: endeavor
+  title_zh: 官至黄门侍郎
+  detail: 卫恒仕西晋，累官至太子庶子、尚书郎、黄门侍郎等职，居禁近参与机要
+- id: guji-卫恒-event-death
+  year_of: 291
+  date: 0291
+  type: death
+  title_zh: 为楚王司马玮所害
+  detail: 元康元年，贾后使楚王司马玮矫诏诛辅政大臣，卫恒与其父卫瓘同为政变所害
