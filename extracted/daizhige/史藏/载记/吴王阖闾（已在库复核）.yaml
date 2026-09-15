@@ -1,0 +1,98 @@
+person:
+  qid: guji-he-lv
+  name_zh: 吴王阖闾
+  names:
+    zh: 吴王阖闾
+    en: King Helü of Wu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: -496
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约前496年
+  birth_date: ''
+  death_date: -496
+  era: 春秋末期
+  reign_ref: 吴王（约前514年—前496年在位）
+  archetype: 春秋霸主·强吴之君
+  dilemmas:
+  - 复仇起兵与兴国安邦之权衡
+  - 用贤得士与王权专断之平衡
+  lesson: 汤武虽圣，不能与犬争利；用贤任能，则弱可转强、小可成大
+  summary_first_person: 我乃春秋末吴王阖闾，以伍子胥、孙武之谋，西破强楚，南威越人，大霸于东南，筑吴都城郭，卒于与越之战。
+  source_urls:
+  - https://example.org/guji/yuejueshu
+endeavors:
+- id: guji-he-lv-endeavor-1
+  name_zh: 即位为吴王
+  labels:
+    zh: 即位
+  phases:
+  - key: brewing
+    name_zh: 得子胥之教
+    labels:
+      zh: 谋位得贤
+    highlight_event_id: guji-he-lv-event-recruit-wuzixu
+- id: guji-he-lv-endeavor-2
+  name_zh: 大霸吴国
+  labels:
+    zh: 称霸
+  phases:
+  - key: breakthrough
+    name_zh: 西破强楚
+    labels:
+      zh: 伐楚
+    highlight_event_id: guji-he-lv-event-defeat-chu
+  - key: climax
+    name_zh: 兴筑吴都
+    labels:
+      zh: 营都
+    start_date: -514
+    highlight_event_id: guji-he-lv-event-build-city
+  - key: closure
+    name_zh: 攻越身亡
+    labels:
+      zh: 坠李伤指而卒
+    highlight_event_id: guji-he-lv-event-death
+events:
+- id: guji-he-lv-event-birth
+  title_zh: 吴王阖闾出生
+  date: ''
+  year_of: -560
+  precision: circa
+  desc_zh: 生年不详，约活动于春秋末期
+- id: guji-he-lv-event-recruit-wuzixu
+  title_zh: 引用楚亡臣伍子胥
+  date: -514
+  year_of: -514
+  precision: year
+  desc_zh: 伍子胥奔吴，阖闾下阶迎唁，召上殿与语三日三夜，倾心听其教，号为谋主。
+- id: guji-he-lv-event-build-city
+  title_zh: 筑吴大城
+  date: -514
+  year_of: -514
+  precision: circa
+  desc_zh: 阖闾所造吴大城，周四十七里二百一十步二尺，陆门八水门八，徙治胥山。
+- id: guji-he-lv-event-defeat-chu
+  title_zh: 救蔡伐楚十五战十五胜
+  date: -506
+  year_of: -506
+  precision: year
+  desc_zh: 楚将伐蔡，子胥言之阖闾，即遣子胥救蔡而伐荆，十五战十五胜，一度破楚入郢。
+- id: guji-he-lv-event-death
+  title_zh: 与越交战伤指而卒
+  date: -496
+  year_of: -496
+  precision: year
+  desc_zh: 与越王勾践战于槜李，伤将指，卒；葬于阊门外虎丘。
+- id: guji-he-lv-event-burial
+  title_zh: 葬于虎丘
+  date: -496
+  year_of: -496
+  precision: year
+  desc_zh: 下池广六十步，铜椁三重，十万人筑治之，葬三日白虎居上，故名虎丘。
