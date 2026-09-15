@@ -1,0 +1,111 @@
+person:
+  qid: guji-冯班
+  name_zh: 冯班
+  names:
+    zh: 冯班
+    en: Feng Ban
+  lifespan:
+    birth:
+      date: '1602'
+      precision: year
+      is_circa: true
+      raw: 明万历三十年前后
+    death:
+      date: '1671'
+      precision: year
+      is_circa: true
+      raw: 清康熙十年前后
+  birth_date: '1602'
+  death_date: '1671'
+  era: 明末清初
+  reign_ref: 万历、崇祯、顺治、康熙
+  archetype: 书学家·诗论家
+  dilemmas:
+  - 尊古法与时流新意的取舍：既言"变古法须有胜古人处"，又力斥后生耻言模仿古人
+  - 碑刻与真迹之辨：间架可看石碑，用笔非真迹不可
+  lesson: 书法无他秘，只有用笔与结字；本领者将军也，心意者副将也。
+  summary_first_person: 我一生究心书法，谓用笔与结字为二要，结字晋人用理、唐人用法、宋人用意；力排"奴书"之论，为赵松雪辩护，教人先学间架、次学用笔，须看真迹与碑刻两不相废。
+  source_urls:
+  - https://zh.wikisource.org/wiki/钝吟书要
+endeavors:
+- id: guji-冯班-endeavor-1
+  name_zh: 钻研历代书法源流
+  phases:
+  - key: brewing
+    name_zh: 早年习书
+    labels:
+      zh: 少年学书
+    start_date: '1612'
+  - key: breakthrough
+    name_zh: 悟欧法与兰亭
+    labels:
+      zh: 源流之悟
+    start_date: '1640'
+    highlight_event_id: guji-冯班-event-1
+  - key: climax
+    name_zh: 品评晋唐宋书
+    labels:
+      zh: 品鉴诸家
+    start_date: '1650'
+    highlight_event_id: guji-冯班-event-2
+  - key: closure
+    name_zh: 晚年授书法要
+    labels:
+      zh: 论定笔法
+    start_date: '1660'
+- id: guji-冯班-endeavor-2
+  name_zh: 著书立说与课徒传法
+  phases:
+  - key: brewing
+    name_zh: 积学蓄闻
+    labels:
+      zh: 积学
+    start_date: '1620'
+  - key: breakthrough
+    name_zh: 著钝吟书要
+    labels:
+      zh: 著述
+    start_date: '1655'
+    highlight_event_id: guji-冯班-event-3
+  - key: climax
+    name_zh: 与无咎论书诸札
+    labels:
+      zh: 答问传法
+    start_date: '1660'
+  - key: closure
+    name_zh: 法要传世
+    labels:
+      zh: 传世
+    start_date: '1668'
+events:
+- id: guji-冯班-event-birth
+  type: birth
+  date: '1602'
+  year_of: 1602
+  title: 冯班生于常熟
+- id: guji-冯班-event-1
+  type: endeavor
+  date: '1640'
+  year_of: 1640
+  endeavor_id: guji-冯班-endeavor-1
+  title: 见欧阳信本行书真迹及皇甫君碑
+  detail: 始悟定武兰亭全是欧法，驳姜白石不解此理
+- id: guji-冯班-event-2
+  type: endeavor
+  date: '1650'
+  year_of: 1650
+  endeavor_id: guji-冯班-endeavor-1
+  title: 论定晋理、唐法、宋意之辨
+  detail: 独排"奴书"之论，为赵松雪辩护，谓松雪乃守家法之子孙，晋唐旧法于今扫地之叹
+- id: guji-冯班-event-3
+  type: endeavor
+  date: '1655'
+  year_of: 1655
+  endeavor_id: guji-冯班-endeavor-2
+  title: 撰钝吟书要
+  detail: 定"用笔与结字"二要之论，教童子每日十字、百日解自作书之法
+- id: guji-冯班-event-death
+  type: death
+  date: '1671'
+  year_of: 1671
+  title: 冯班卒
