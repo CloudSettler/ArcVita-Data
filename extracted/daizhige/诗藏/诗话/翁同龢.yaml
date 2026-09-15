@@ -1,0 +1,107 @@
+person:
+  qid: guji-翁同龢
+  name_zh: 翁同龢
+  names:
+    zh: 翁同龢、虞山相国、松禅老人
+    en: Weng Tonghe
+  lifespan:
+    birth:
+      date: '1830'
+      precision: year
+      is_circa: true
+      raw: 清道光十年（据通行生卒）'
+    death:
+      date: '1904'
+      precision: year
+      is_circa: true
+      raw: 卒年据史传补
+  birth_date: '1830'
+  death_date: '1904'
+  era: 晚清
+  reign_ref: 光绪
+  archetype: 帝师文臣·戊戌被放之诗人
+  dilemmas:
+  - 引荐康梁变法而遭太后一党忌恨，戊戌被逐
+  - 欲行新政又须保全帝门师生之谊
+  lesson: 党论方酷之时，闭门空谷，绩《易》言诗，以忍隐守其寸衷
+  summary_first_person: 我是翁同龢，世称虞山相国，晚号松禅老人。戊戌被放后归隐瓶庐，为诗益工，然忌者犹众，畏讥避谤，情见乎词。我以帝师之尊遭逐，闲门著《易》、吟咏自遣，唯寸衷尚有鬼神知。
+endeavors:
+- id: guji-翁同龢-enterprise-1
+  name_zh: 朝堂辅政与帝师生涯
+  labels:
+    zh: 帝师、枢廷
+  phases:
+  - key: breakthrough
+    name_zh: 入参机务
+    labels:
+      zh: 枢廷
+    start_date: '1865'
+    highlight_event_id: guji-翁同龢-event-shi-du-jiang-su
+  - key: climax
+    name_zh: 甲午乙未间当国
+    labels:
+      zh: 主战、荐才
+    start_date: '1894'
+    highlight_event_id: guji-翁同龢-event-xu-gong
+  - key: closure
+    name_zh: 戊戌被放
+    labels:
+      zh: 罢官归里
+    start_date: '1898'
+    highlight_event_id: guji-翁同龢-event-wu-xu
+  decisions:
+  - date: '1898'
+    title_zh: 力荐康有为之才而遭逐
+    rationale: 帝方图变法，特此引荐维新之才
+- id: guji-翁同龢-enterprise-2
+  name_zh: 瓶庐隐居与诗歌著述
+  labels:
+    zh: 诗文、隐逸
+  phases:
+  - key: closure
+    name_zh: 归隐常熟为诗益工
+    labels:
+      zh: 瓶庐、著述
+    start_date: '1898'
+    highlight_event_id: guji-翁同龢-event-gui-yin
+  decisions:
+  - date: '1898'
+    title_zh: 闭门空谷，绩《易》更言诗
+    rationale: 党论方酷，畏讥避谤，故敛迹著述以终
+events:
+- id: guji-翁同龢-event-birth
+  type: birth
+  date: '1830'
+  year_of: 1830
+  principals: guji-翁同龢
+  summary: 翁同龢生（生年据通行传记补）。
+- id: guji-翁同龢-event-shi-du-jiang-su
+  type: office
+  date: '1876'
+  year_of: 1876
+  principals: guji-翁同龢
+  summary: 以帝师、枢臣之位侍讲左右，为朝野倚重（年代据通行年谱补）。
+- id: guji-翁同龢-event-xu-gong
+  type: recommendation
+  date: '1898-01-01'
+  year_of: 1898
+  principals: guji-翁同龢
+  summary: 光绪间当国，戊戌被逐，诗云「老韩合传谁能辨，刘李同官莫漫疑」，正指其被放前后党人猜疑之事。
+- id: guji-翁同龢-event-wu-xu
+  type: dismissal
+  date: '1898-06-15'
+  year_of: 1898
+  principals: guji-翁同龢
+  summary: 戊戌被放，政局骤变，归里后畏讥避谤，情见乎词。
+- id: guji-翁同龢-event-gui-yin
+  type: writing
+  date: '1898-01-01'
+  year_of: 1898
+  principals: guji-翁同龢
+  summary: 归隐瓶庐后为诗益工，所著有《瓶庐诗稿》；「此去闭门空谷里，会须绩《易》更言诗」，即指戊戌归隐事。
+- id: guji-翁同龢-event-death
+  type: death
+  date: '1904'
+  year_of: 1904
+  principals: guji-翁同龢
+  summary: 翁同龢卒（卒年据通行传记补）。
