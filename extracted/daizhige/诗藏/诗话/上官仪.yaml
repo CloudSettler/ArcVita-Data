@@ -1,0 +1,131 @@
+person:
+  qid: guji-上官仪
+  name_zh: 上官仪
+  names:
+    zh: 上官仪
+    en: Shangguan Yi
+  lifespan:
+    birth:
+      date: ~608
+      precision: year
+      is_circa: true
+      raw: 约608年（唐初）
+    death:
+      date: 665-01-03
+      precision: day
+      is_circa: false
+      raw: 麟德元年十二月（665年初）
+  birth_date: ~608
+  death_date: 665-01-03
+  era: 唐（初唐）
+  reign_ref: 唐高宗麟德年间
+  archetype: 宫廷诗人与诗文法度理论家
+  dilemmas:
+  - 位居宰辅而卷入废后之议，文才与政治处境难以两全
+  - 撰诗法论著以立格律规范，其人生却终结于政治倾轧
+  lesson: 面对权力倾轧，仅凭才学与法度不足以自保；立言可以久远，立身须审于时势。
+  summary_first_person: 我是上官仪，初唐宫廷诗人。我总结诗中对属、句式与声病之法，撰《笔札华梁》，后人因我的诗风而称“上官体”；我官至宰相，却因奏废皇后而遭构陷下狱死去。
+  source_urls:
+  - https://zh.wikisource.org/wiki/筆札華梁
+endeavors:
+- id: guji-上官仪-endeavor-1
+  key_start_date: ~630
+  name_zh: 撰《笔札华梁》论诗法
+  phases:
+  - key: brewing
+    name_zh: 研习骈俪对属之法
+    labels:
+      zh: 八阶属对、文病Categories
+    start_date: ~630
+  - key: breakthrough
+    name_zh: 立“八阶”分类
+    labels:
+      zh: 咏物、赠物、述志、写心等八阶
+    start_date: ~640
+    highlight_event_id: guji-上官仪-event-debut
+  - key: climax
+    name_zh: 定对属与声病之则
+    labels:
+      zh: 属对九种、七种言句例、文病八种
+    start_date: ~650
+    highlight_event_id: guji-上官仪-event-canon
+  - key: closure
+    name_zh: 法度成书传世
+    labels:
+      zh: 《笔札华梁》传抄流布
+    start_date: ~660
+  decisions:
+  - date: ~640
+    title: 以“八阶”统摄诗体作法
+    rationale: 将应制赠答诸作归纳为咏物、赠物、述志、写心、返酬、赞毁、援寡、和诗八类，使学者有序可循。
+  - date: ~650
+    title: 系统标注属对九种与文病八种
+    rationale: 日的对、隔句对、双拟对、联绵对等各举诗例，并条列平头、上尾、蜂腰、鹤膝诸病，以便作文避忌。
+- id: guji-上官仪-endeavor-2
+  key_start_date: ~655
+  name_zh: 官至宰相与“上官体”之显
+  phases:
+  - key: brewing
+    name_zh: 以文词显于宫廷
+    labels:
+      zh: 应制供奉诗文
+    start_date: ~640
+  - key: breakthrough
+    name_zh: 诗风成立，称“上官体”
+    labels:
+      zh: 绮错婉媚之风
+    start_date: ~655
+    highlight_event_id: guji-上官仪-event-style
+  - key: climax
+    name_zh: 位至宰相
+    labels:
+      zh: 西台侍郎同东西台三品
+    start_date: ~662
+    highlight_event_id: guji-上官仪-event-chancellor
+  - key: closure
+    name_zh: 奏废后而遇祸
+    labels:
+      zh: 下狱死
+    start_date: ~664
+    highlight_event_id: guji-上官仪-event-downfall
+  decisions:
+  - date: ~664
+    title: 奏请废黜皇后武氏
+    rationale: 以为皇后专恣，出于忠愤与职分而上言，遂招致杀身之祸。
+events:
+- id: guji-上官仪-event-birth
+  type: birth
+  date: ~608
+  year_of: 608
+  title: 生于唐初
+  description: 约生于隋末唐初，后以文词知名。
+- id: guji-上官仪-event-debut
+  type: writing
+  date: ~640
+  year_of: 640
+  title: 撰《笔札华梁》始立“八阶”
+  description: 于《笔札华梁》中首列咏物、赠物、述志、写心、返酬、赞毁、援寡、和诗八阶，并各系诗例。
+- id: guji-上官仪-event-canon
+  type: writing
+  date: ~650
+  year_of: 650
+  title: 条列属对九种、七种言句例与文病
+  description: 论日的对、隔句对、双拟对、联绵对、异类对、双声对、叠韵对、回文对、同类对，并述一言至七言句例与平头、上尾、蜂腰、鹤膝、大韵、小韵、傍纽、正纽八病。
+- id: guji-上官仪-event-style
+  type: literary_style
+  date: ~655
+  year_of: 655
+  title: 诗风绮错婉媚，时称“上官体”
+  description: 其应制诗格律工稳、隶事绮丽，士人多仿效，号“上官体”。
+- id: guji-上官仪-event-chancellor
+  type: appointment
+  date: ~662
+  year_of: 662
+  title: 拜相，预朝政
+  description: 于龙朔、麟德之际迁西台侍郎、同东西台三品，位居宰辅。
+- id: guji-上官仪-event-downfall
+  type: death
+  date: 665-01-03
+  year_of: 665
+  title: 因奏废后事发，下狱死
+  description: 麟德元年，因曾奏请废黜武后，为人所构，与其子上官庭芝同下狱死。
