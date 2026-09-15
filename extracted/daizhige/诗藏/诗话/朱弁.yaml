@@ -1,0 +1,118 @@
+person:
+  qid: guji-朱弁
+  name_zh: 朱弁
+  names:
+    zh: 朱弁
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      precision: unknown
+      is_circa: false
+  era: 两宋之际（北宋末至南宋初）
+  reign_ref: 建炎、绍兴
+  archetype: 使节学者
+  dilemmas:
+  - 使金被留十七年，守节与归国两难
+  - 身陷北方而著作散落，湮没不彰
+  lesson: 羁留绝域而秉节不渝，风月之谈犹记故国
+  summary_first_person: 我朱弁于建炎元年奉使入金，被留十七年方还。居金时追思往昔曲洧风月之谈，纂次成《风月堂诗话》二卷留贻子孙。
+endeavors:
+- id: guji-朱弁-endeavor-1
+  name_zh: 奉使入金
+  phases:
+  - key: brewing
+    name_zh: 受命出使
+    labels:
+      zh: 出使
+    start_date: 1127
+    highlight_event_id: guji-朱弁-event-envoy
+  - key: climax
+    name_zh: 羁留十七年
+    labels:
+      zh: 羁留守节
+    start_date: 1127
+    highlight_event_id: guji-朱弁-event-detained
+  - key: closure
+    name_zh: 得归故国
+    labels:
+      zh: 南归
+    start_date: 1144
+    highlight_event_id: guji-朱弁-event-return
+  decisions:
+  - date: 1127
+    title_zh: 建炎元年奉使入金
+    rationale: 临危受命出使北方，虽遭羁留而不屈节
+- id: guji-朱弁-endeavor-2
+  name_zh: 撰《风月堂诗话》
+  phases:
+  - key: brewing
+    name_zh: 金中追思旧游
+    labels:
+      zh: 追忆
+    start_date: 1140
+    highlight_event_id: guji-朱弁-event-write
+  - key: breakthrough
+    name_zh: 纂次成书二卷
+    labels:
+      zh: 成书
+    start_date: 1140
+    highlight_event_id: guji-朱弁-event-write
+  - key: closure
+    name_zh: 归贻子孙
+    labels:
+      zh: 留传
+    start_date: 1140
+    highlight_event_id: guji-朱弁-event-legacy
+  decisions:
+  - date: 1140
+    title_zh: 绍兴十年作自序，于金中成《风月堂诗话》
+    rationale: 风月之谈十仅省四五，恐遂湮没，故纂次为二卷归诒子孙
+  - date: 1140
+    title_zh: 自序仅题庚申甲子，不着绍兴纪年
+    rationale: 身在敌国，序稿留燕京，传写者削去敌国之号
+events:
+- id: guji-朱弁-event-envoy
+  person_id: guji-朱弁
+  type: career
+  date: 1127
+  year_of: 1127
+  title_zh: 建炎元年奉使入金
+  detail_zh: 弁以建炎元年使金。
+- id: guji-朱弁-event-detained
+  person_id: guji-朱弁
+  type: career
+  date: 1127
+  year_of: 1127
+  title_zh: 使金被留，羁绊累河
+  detail_zh: 予复以使事羁绊累河，阅历星纪，留金十七年乃还。
+- id: guji-朱弁-event-write
+  person_id: guji-朱弁
+  type: career
+  date: 1140-03/1140-05≈
+  year_of: 1140
+  title_zh: 于金中撰《风月堂诗话》并作自序
+  detail_zh: 庚申（绍兴十年）闰月作序，追思曩游，纂次风月之谈为二卷。
+- id: guji-朱弁-event-return
+  person_id: guji-朱弁
+  type: career
+  date: 1144
+  year_of: 1144
+  title_zh: 留金十七年乃还
+  detail_zh: 建炎元年使金，留十七年乃还。
+- id: guji-朱弁-event-legacy
+  person_id: guji-朱弁
+  type: legacy
+  date: 1272
+  year_of: 1272
+  title_zh: 《风月堂诗话》稿传至江左
+  detail_zh: 咸淳壬申月观道人跋称得于永城人朱伯玉家，盖北方所传之本。
+- id: guji-朱弁-event-birth
+  person_id: guji-朱弁
+  type: birth
+  title_zh: 生
+- id: guji-朱弁-event-death
+  person_id: guji-朱弁
+  type: death
+  title_zh: 卒
