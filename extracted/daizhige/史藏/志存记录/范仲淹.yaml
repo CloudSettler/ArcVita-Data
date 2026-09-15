@@ -1,0 +1,160 @@
+person:
+  qid: guji-fan-zhongyan
+  name_zh: 范仲淹
+  names:
+    zh: 范仲淹
+    en: Fan Zhongyan
+  lifespan:
+    birth:
+      date: 0989
+      precision: year
+      is_circa: false
+      raw: 宋端拱二年
+    death:
+      date: '1052'
+      precision: year
+      is_circa: false
+      raw: 宋皇祐四年
+  birth_date: 0989
+  death_date: '1052'
+  era: 北宋
+  reign_ref: 宋仁宗
+  archetype: 政治家·救荒能吏
+  dilemmas:
+  - 先赈后奏之专擅与灾民旦夕之命孰先
+  - 纵民竞渡兴游宴以振荒、悖于常法而合于救时
+  lesson: 救荒贵在权宜得当、便宜从事，宁任专擅之谤，不失活民之机
+  summary_first_person: 我知杭州值大饥，不待报而纵民竞渡、兴工役、发仓廪，使贫者得食、力者得佣，以宴游之声势聚四方之财而散之于民，权宜救荒，苍生幸甚。
+endeavors:
+- id: guji-fan-zhongyan-endeavor-1
+  name_zh: 知杭州权宜救荒
+  summary_zh: 皇祐间知杭州，值大饥，纵民竞渡、兴工役、发仓储，不待报而便宜从事，以工代赈、以兴作聚民，全活甚众，与汲黯矫诏开赈同列救荒权宜之典范。
+  phases:
+  - key: brewing
+    name_zh: 临郡察荒
+    labels:
+      zh:
+      - 权知杭州
+      - 岁饥在望
+    start_date: '1049'
+    highlight_event_id: guji-fan-zhongyan-event-hangzhou-famine
+  - key: breakthrough
+    name_zh: 纵民竞渡
+    labels:
+      zh:
+      - 便宜从事
+      - 以宴兴市
+    start_date: '1050'
+    highlight_event_id: guji-fan-zhongyan-event-boat-races
+  - key: climax
+    name_zh: 发廪兴工
+    labels:
+      zh:
+      - 发仓赈贷
+      - 以工代赈
+    start_date: '1050'
+    highlight_event_id: guji-fan-zhongyan-event-work-relief
+  - key: closure
+    name_zh: 民得安辑
+    labels:
+      zh:
+      - 饥而不害
+    start_date: '1051'
+  decisions:
+  - date: '1050'
+    title_zh: 不待报而纵民竞渡
+    rationale_zh: 饥民命在旦夕，非权宜从事曷克有济，纵竞渡以聚游观之众，令贫民得饮食作役之利
+  - date: '1050'
+    title_zh: 兴土木发仓廪以赈饥
+    rationale_zh: 使工匠贫民各得佣食，官仓出陈易新，散财于民而市籴自通
+- id: guji-fan-zhongyan-endeavor-2
+  name_zh: 创设范氏义庄济族
+  summary_zh: 晚年于苏州置义田赡养宗族，设规条以经管积贮、任怨任劳、秉公筹办，开宋代义庄之制，为乡党相赒相救之良法。
+  phases:
+  - key: brewing
+    name_zh: 念族之贫
+    labels:
+      zh:
+      - 显达思济
+    start_date: '1045'
+  - key: breakthrough
+    name_zh: 置义田立规条
+    labels:
+      zh:
+      - 购田千亩
+      - 赡给宗族
+    start_date: '1049'
+    highlight_event_id: guji-fan-zhongyan-event-charitable-estate
+  - key: climax
+    name_zh: 议单共守
+    labels:
+      zh:
+      - 五人执单
+      - 岁终算账
+    start_date: '1050'
+  - key: closure
+    name_zh: 规条垂范
+    labels:
+      zh:
+      - 后世踵行
+    start_date: '1051'
+  decisions:
+  - date: '1049'
+    title_zh: 以俸赐所得置苏州义田
+    rationale_zh: 积阴德于冥冥之中为子孙久长之计，先族人之急而后己室之奉
+  - date: '1050'
+    title_zh: 议定义庄经管规条
+    rationale_zh: 公项易致侵吞，全赖经管之人任怨任劳、秉公筹办，故立领票收放、岁终核算之法
+events:
+- id: guji-fan-zhongyan-event-birth
+  person_id: guji-fan-zhongyan
+  type: birth
+  title_zh: 范仲淹生于宋端拱二年
+  date: 0989
+  year_of: 989
+  date_precision: year
+  place_zh: 苏州吴县
+- id: guji-fan-zhongyan-event-charitable-estate
+  person_id: guji-fan-zhongyan
+  type: endeavor
+  endeavor_id: guji-fan-zhongyan-endeavor-2
+  title_zh: 于苏州购置义田、创设范氏义庄
+  date: '1049'
+  year_of: 1049
+  date_precision: year
+  summary_zh: 置义田以赡宗族，立规条、执议单，岁收稻日算账，济贫睦族开一代义庄之制
+- id: guji-fan-zhongyan-event-hangzhou-famine
+  person_id: guji-fan-zhongyan
+  type: endeavor
+  endeavor_id: guji-fan-zhongyan-endeavor-1
+  title_zh: 知杭州值岁大饥
+  date: '1050'
+  year_of: 1050
+  date_precision: year
+  summary_zh: 杭州饥馑，米价腾贵，民多艰食，范仲淹决意便宜救荒
+- id: guji-fan-zhongyan-event-boat-races
+  person_id: guji-fan-zhongyan
+  type: endeavor
+  endeavor_id: guji-fan-zhongyan-endeavor-1
+  title_zh: 纵民竞渡以兴救荒之机
+  date: '1050'
+  year_of: 1050
+  date_precision: year
+  summary_zh: 值大饥不待报而纵民竞渡，召集富民宴游湖上，使贫民得以佣作就食，四方闻风毕至，市井自振
+- id: guji-fan-zhongyan-event-work-relief
+  person_id: guji-fan-zhongyan
+  type: endeavor
+  endeavor_id: guji-fan-zhongyan-endeavor-1
+  title_zh: 发仓廪兴工役以工代赈
+  date: '1050'
+  year_of: 1050
+  date_precision: year
+  summary_zh: 发常平仓粟赈贷，并日课工匠兴葺公私庐舍桥梁，饥民力食两得其所
+- id: guji-fan-zhongyan-event-death
+  person_id: guji-fan-zhongyan
+  type: death
+  title_zh: 范仲淹卒于宋皇祐四年
+  date: '1052'
+  year_of: 1052
+  date_precision: year
+  place_zh: 徐州
