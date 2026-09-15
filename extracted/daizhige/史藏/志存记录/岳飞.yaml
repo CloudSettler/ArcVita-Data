@@ -1,0 +1,142 @@
+person:
+  qid: guji-yuefei
+  name_zh: 岳飞
+  names:
+    zh: 岳飞
+    en: Yue Fei
+  lifespan:
+    birth:
+      date: 1103-03-24
+      precision: day
+      is_circa: false
+      raw: 宋崇宁二年二月十五日
+    death:
+      date: 1142-01-27
+      precision: day
+      is_circa: false
+      raw: 绍兴十一年十二月廿九日遇害
+  birth_date: 1103-03-24
+  death_date: 1142-01-27
+  era: 南宋
+  reign_ref: 宋高宗绍兴年间
+  archetype: 精忠报国的抗金名将
+  dilemmas:
+  - - 忠于君主与坚持北伐收复失土之间的张力
+  - - 战功日隆而遭朝廷猜忌、被迫班师的两难
+  - - 手握重兵却无意卷入和议政治的抉择
+  lesson: 精忠殉国者未必见容于当世，然气节长存青史
+  summary_first_person: 我岳飞行伍出身，以恢复中原为志，累建战功，官至枢密副使，然绍兴十一年因和议之局被解除兵柄，旋以莫须有之狱冤死，身后追封鄂王，谥武穆。
+  source_urls:
+  - https://zh.wikisource.org/wiki/梁溪漫志
+endeavors:
+- id: guji-yuefei-endeavor-1
+  name_zh: 抗金征战
+  labels:
+    zh:
+    - 抗金
+    - 北伐
+    - 军事
+  start_date: 1122
+  highlight_event_id: guji-yuefei-event-shaoyou-zhaotao
+  phases:
+  - key: brewing
+    name_zh: 从军初起
+    labels:
+      zh:
+      - 应募从军
+      - 真定敢战士
+    start_date: 1122
+  - key: breakthrough
+    name_zh: 屡破金军
+    labels:
+      zh:
+      - 收复建康
+      - 平定襄汉
+    start_date: 1130
+    highlight_event_id: guji-yuefei-event-shoufu-jiankang
+  - key: climax
+    name_zh: 北伐中原
+    labels:
+      zh:
+      - 郾城大捷
+      - 朱仙镇
+    start_date: 1140
+    highlight_event_id: guji-yuefei-event-yancheng
+  - key: closure
+    name_zh: 班师罢兵
+    labels:
+      zh:
+      - 十二道金牌
+      - 枢密副使
+    start_date: 1141
+    highlight_event_id: guji-yuefei-event-shumifu
+  decisions:
+  - date: 1140-07
+    title_zh: 郾城大捷后拒绝冒进、待命朝廷
+    rationale: 孤军深入恐乏粮援，奉诏班师以全臣节
+  - date: 1141-04
+    title_zh: 接受枢密副使之除、交出兵权
+    rationale: 朝廷罢宣抚司、明升暗降，飞不得已就任以避祸
+- id: guji-yuefei-endeavor-2
+  name_zh: 忠节与身后声名
+  labels:
+    zh:
+    - 狱案
+    - 平反
+    - 谥号
+  start_date: 1142
+  highlight_event_id: guji-yuefei-event-death
+  phases:
+  - key: closure
+    name_zh: 冤狱与昭雪
+    labels:
+      zh:
+      - 莫须有
+      - 追谥武穆
+    start_date: 1142
+    highlight_event_id: guji-yuefei-event-death
+  decisions:
+  - date: 1142-01
+    title_zh: 拒绝屈打成招、自书供状
+    rationale: 尽忠报国、无愧天日，宁死不诬服
+events:
+- id: guji-yuefei-event-birth
+  date: 1103-03-24
+  year_of: 1103
+  type: birth
+  title_zh: 岳飞生于相州汤阴
+  detail_zh: 崇宁二年二月十五日生于相州汤阴县永和乡
+- id: guji-yuefei-event-shaoyou-zhaotao
+  date: 1122
+  year_of: 1122
+  type: endeavor
+  endeavor_id: guji-yuefei-endeavor-1
+  title_zh: 应募从军
+  detail_zh: 宣和四年投真定府路宣抚司效用，初露头角
+- id: guji-yuefei-event-shoufu-jiankang
+  date: 1130-05
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-yuefei-endeavor-1
+  title_zh: 收复建康
+  detail_zh: 建炎四年率部击败金军、收复建康府，声名大振
+- id: guji-yuefei-event-yancheng
+  date: 1140-07
+  year_of: 1140
+  type: endeavor
+  endeavor_id: guji-yuefei-endeavor-1
+  title_zh: 郾城大捷
+  detail_zh: 绍兴十年大破金军于郾城，进军朱仙镇、直指汴京，旋奉诏班师
+- id: guji-yuefei-event-shumifu
+  date: 1141
+  year_of: 1141
+  type: endeavor
+  endeavor_id: guji-yuefei-endeavor-1
+  title_zh: 除枢密副使
+  detail_zh: 据梁溪漫志载，绍兴十一年除岳武穆（飞）为枢密副使，自是久不除授，兵柄遂解
+- id: guji-yuefei-event-death
+  date: 1142-01-27
+  year_of: 1142
+  type: death
+  title_zh: 蒙冤遇害于大理寺
+  detail_zh: 绍兴十一年岁末以莫须有之狱被害于临安大理寺，年仅三十九
