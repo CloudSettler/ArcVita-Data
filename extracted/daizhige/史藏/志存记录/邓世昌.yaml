@@ -1,0 +1,103 @@
+person:
+  qid: guji-邓世昌
+  name_zh: 邓世昌
+  names:
+    zh: 邓世昌
+    en: Deng Shichang
+  lifespan:
+    birth:
+      date: '1849'
+      precision: year
+      is_circa: true
+      raw: 生年未见原文，据史载约1849年
+    death:
+      date: '1894-09-17'
+      precision: day
+      is_circa: false
+      raw: 光绪二十年八月十八日
+  birth_date: '1849'
+  death_date: '1894-09-17'
+  era: 晚清
+  reign_ref: 光绪
+  archetype: 殉国海军管带
+  dilemmas:
+  - 敌舰快炮利，致远骤受重伤，欲冲锋陷敌而船沉
+  - 遇救出水后，阖船俱没，义不独生
+  lesson: 忠勇性成，义不独生，以死殉国
+  summary_first_person: 我以北洋海军致远舰管带，在大东沟海战中率先冲锋，欲攻阵击毁敌船，舰受重伤沉没，我遇救出水后以阖船俱没、义不独生，奋掷自沉殉国。
+endeavors:
+- id: guji-邓世昌-endeavor-1
+  key: brewing
+  name_zh: 置身北洋海军
+  labels:
+    zh:
+    - 北洋海军
+    - 致远管带
+  start_date: 1880
+  highlight_event_id: guji-邓世昌-event-battle-prep
+  decisions:
+  - date: 1887
+    title_zh: 出任致远舰管带
+    rationale: 致远、靖远二船定造时号称一点钟行十八海里，为北洋可用快船，邓以官阶较崇、才略任管带
+- id: guji-邓世昌-endeavor-2
+  key: climax
+  name_zh: 大东沟海战冲锋
+  labels:
+    zh:
+    - 黄海海战
+    - 冲锋殉国
+  start_date: 1894-09-17
+  highlight_event_id: guji-邓世昌-event-battle-death
+  decisions:
+  - date: 1894-09-17
+    title_zh: 率致远率先冲锋
+    rationale: 华军阵势被冲，致远划出圈外两面受击，正欲冲锋陷敌
+  - date: 1894-09-17
+    title_zh: 遇救后义不独生，奋掷自沉
+    rationale: 首先攻阵击毁敌船，遇救出水，自以阖船俱没，义不独生
+- id: guji-邓世昌-endeavor-3
+  key: closure
+  name_zh: 身后褒恤
+  labels:
+    zh:
+    - 从优议恤
+    - 拟请予谥
+  start_date: 1894-09-18
+  highlight_event_id: guji-邓世昌-event-posthumous
+  decisions:
+  - date: 1894-09-18
+    title_zh: 李鸿章奏请照提督例从优议恤
+    rationale: 争先猛进，死事最烈，忠勇性成，一时称叹
+events:
+- id: guji-邓世昌-event-birth
+  date: '1849'
+  year_of: 1849
+  type: birth
+  title_zh: 邓世昌出生（约年，据史载补）
+- id: guji-邓世昌-event-battle-prep
+  date: 1894-09-17
+  year_of: 1894
+  type: endeavor
+  title_zh: 随北洋舰队护运铭军八营至大东沟，列阵备敌
+  description: 八月十八日午初，遥见西南黑烟丛起，各舰起锚迎敌，列两翼阵式，致远在十舰之列。
+- id: guji-邓世昌-event-battle-death
+  date: 1894-09-17
+  year_of: 1894
+  type: endeavor
+  title_zh: 大东沟海战中致远沉没，邓世昌及全舰二百五十人阵亡
+  description: 致远骤受重伤，管带邓世昌正欲冲锋陷敌，乃猝为敌雷所中，转舵入队，随即沉没。邓世昌及大副陈金揆以次全舰员勇二百五十人均阵亡。
+  participants:
+  - 邓世昌
+  - 陈金揆
+- id: guji-邓世昌-event-death
+  date: 1894-09-17
+  year_of: 1894
+  type: death
+  title_zh: 邓世昌殉国
+  description: 战后李鸿章奏称其首先攻阵击毁敌船，遇救出水，自以阖船俱没，义不独生，奋掷自沉，忠勇性成，一时称叹。
+- id: guji-邓世昌-event-posthumous
+  date: 1894-09-18
+  year_of: 1894
+  type: honor
+  title_zh: 李鸿章奏请照提督例从优议恤并拟请予谥
+  description: 致远管带邓世昌，经远管带林永升，大副陈金揆，争先猛进，死事最烈。请将邓世昌、林永升照提督例从优议恤，且以官阶较崇，拟请予谥。
