@@ -1,0 +1,98 @@
+person:
+  qid: guji-shen-zongqian
+  name_zh: 沈宗骞
+  names:
+    zh: 沈宗骞
+    en: Shen Zongqian
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 清代
+  reign_ref: 乾隆
+  archetype: swashbuckler
+  dilemmas:
+  - 正法失传与俗学泛滥，正邪之辨难以定夺
+  - 天资之偏需以学力补足，资质与修养两难
+  lesson: 为学当始于法度、中于补救、终于温养，以学济质，方能归于中正
+  summary_first_person: 我吴兴人氏，为学画跋涉卅年，痛俗学之误人，遂举不合古法者痛加绳削、合于古法者畅为引伸，撰《芥舟学画编》四卷以述正法。
+  source_urls:
+  - https://zh.wikisource.org/wiki/芥舟学画編
+endeavors:
+- id: guji-shen-zongqian-endeavor-1
+  name_zh: 绘画与画学著述
+  phases:
+  - key: brewing
+    name_zh: 徘徊歧路
+    labels:
+      zh:
+      - 求道无门
+    highlight_event_id: guji-shen-zongqian-event-study
+  - key: breakthrough
+    name_zh: 观摩研求
+    labels:
+      zh:
+      - 寻源溯流
+    highlight_event_id: guji-shen-zongqian-event-study
+  - key: climax
+    name_zh: 撰述学画编
+    labels:
+      zh:
+      - 著书立说
+    start_date: 1781
+    highlight_event_id: guji-shen-zongqian-event-write
+  - key: closure
+    name_zh: 自道所得
+    labels:
+      zh:
+      - 守先代规矩
+    start_date: 1781
+    highlight_event_id: guji-shen-zongqian-event-write
+  decisions:
+  - date: 1781-03
+    title_zh: 撰《芥舟学画编》四卷
+    rationale: 痛感正法日替、俗学日张，故举凡不合古人之法者痛加绳削，分门别目述为四卷
+- id: guji-shen-zongqian-endeavor-2
+  name_zh: 鉴藏与画理探究
+  phases:
+  - key: brewing
+    name_zh: 从鉴藏家纵观遗迹
+    labels:
+      zh:
+      - 研求探索
+    highlight_event_id: guji-shen-zongqian-event-study
+  - key: breakthrough
+    name_zh: 于笔墨道理洞然开朗
+    labels:
+      zh:
+      - 因触而开
+    highlight_event_id: guji-shen-zongqian-event-study
+  decisions:
+  - title_zh: 从鉴藏家纵观前辈遗迹
+    rationale: 余生也晚，问道无由，欲识正法须以古人为师
+events:
+- id: guji-shen-zongqian-event-birth
+  type: birth
+  person: guji-shen-zongqian
+  summary: 沈宗骞生于吴兴，山水清远之地
+- id: guji-shen-zongqian-event-death
+  type: death
+  person: guji-shen-zongqian
+  summary: 卒年不详
+- id: guji-shen-zongqian-event-study
+  type: career
+  person: guji-shen-zongqian
+  endeavor: guji-shen-zongqian-endeavor-1
+  summary: 年渐长，从鉴藏家纵观前辈遗迹及诸法家所摹临，研求探索，寻源溯流，历卅年而于笔墨道理洞然
+- id: guji-shen-zongqian-event-write
+  type: career
+  date: 1781
+  year_of: 1781
+  person: guji-shen-zongqian
+  endeavor: guji-shen-zongqian-endeavor-1
+  summary: 乾隆四十六年辛丑春三月，于冰壶阁自序《芥舟学画编》四卷，分宗派、用笔、用墨、布置诸门
