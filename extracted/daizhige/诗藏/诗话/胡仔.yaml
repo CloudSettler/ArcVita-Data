@@ -1,0 +1,143 @@
+person:
+  qid: guji-胡仔
+  name_zh: 胡仔
+  names:
+    zh: 胡仔
+    en: Hu Zai
+  lifespan:
+    birth:
+      date: '1110'
+      precision: year
+      is_circa: true
+      raw: 约北宋末（生年不详，约政和年间）
+    death:
+      date: '1170'
+      precision: year
+      is_circa: true
+      raw: 约乾道年间卒（卒年不详，乾道前后）
+  birth_date: 约政和年间（约1110年）
+  death_date: 约乾道年间（约1170年）
+  era: 南宋
+  reign_ref: 绍兴
+  archetype: 诗话编纂家
+  dilemmas:
+  - 阮阅《诗总》编成于宣和癸卯，因元祐文章遭禁而尽遗元祐诸公诗话，胡仔须决定补其阙而不犯重复之弊
+  - 诗话分门编纂（如阮氏）与以年代人物先后次序编排之间，须择一体例，并在体例取舍中自陈己见
+  lesson: 论诗不宜杂立门目强分畛域，当以史实与诗人年代为经，辨证求是，方能去取谨严、为后世所资。
+  summary_first_person: 我胡仔，字元任，徽州绩溪人，舜陟之子。以父荫入仕，历迪功郎、两浙转运司干办公事，官至奉议郎、知常州晋陵县。绍兴间卜居湖州，自号苕溪渔隐。因读阮阅《诗总》，憾其成于元祐文章禁绝之时，遗落诸公诗话，遂以年代人物先后为序，增纂采集，别其去取，附以辨证，成《苕溪渔隐丛话》前後两集，与《诗总》相辅而行，为诗话之渊薮。
+endeavors:
+- id: guji-胡仔-endeavor-1
+  name_zh: 撰《苕溪渔隐丛话》
+  labels:
+    zh: 文献编纂、诗学批评
+  phases:
+  - key: brewing
+    name_zh: 闻知《诗总》
+    labels:
+      zh: 绍兴丙辰侍亲岭右，道遇湘中闻阮阅编《诗总》详备而不暇借观
+    start_date: '1136'
+    highlight_event_id: guji-胡仔-event-hear-about-shizong
+  - key: breakthrough
+    name_zh: 居苕水得读
+    labels:
+      zh: 十三年后居苕水，从洪庆远、宗子彦章获传此集而读之
+    start_date: '1150'
+    highlight_event_id: guji-胡仔-event-read-shizong
+  - key: climax
+    name_zh: 纂集丛话
+    labels:
+      zh: 取元祐以来诸公诗话及史传小说可发明诗句者纂为一集，以年代为序，附以己意辨证
+    start_date: '1150'
+    highlight_event_id: guji-胡仔-event-compose-conghua
+  - key: closure
+    name_zh: 定序成书流传
+    labels:
+      zh: 自序明'诗不可分门纂集'之旨，书成与《诗总》相辅而行
+    start_date: '1148'
+    highlight_event_id: guji-胡仔-event-write-preface
+  decisions:
+  - date: '1150'
+    title_zh: 以年代人物先后为编纂体例
+    rationale_zh: 认为诗不可以分门纂集，如以'神圣工巧'分类诗句者遭半山老人诘难之故事所证；以年代为经则古今诗话不待捡寻而毕陈。
+  - date: '1150'
+    title_zh: 凡阮阅《诗总》所有者不复纂集
+    rationale_zh: 庶免重复，专取元祐以来诸公诗话及可发明诗句、增益见闻之事实，间为折衷并以旧闻附益。
+- id: guji-胡仔-endeavor-2
+  name_zh: 住宦与卜居
+  labels:
+    zh: 仕途、隐居
+  phases:
+  - key: brewing
+    name_zh: 以荫入仕
+    labels:
+      zh: 以父荫授迪功郎、两浙转运司干办公事
+    start_date: '1130'
+    highlight_event_id: guji-胡仔-event-yin-office
+  - key: climax
+    name_zh: 侍亲岭右
+    labels:
+      zh: 绍兴丙辰余侍亲赴官岭右，道遇湘中
+    start_date: '1136'
+    highlight_event_id: guji-胡仔-event-accompany-parent-lingnan
+  - key: closure
+    name_zh: 知晋陵后卜居湖州
+    labels:
+      zh: 官至奉议郎知常州晋陵县，后卜居湖州，自号苕溪渔隐
+    start_date: '1150'
+    highlight_event_id: guji-胡仔-event-retire-huzhou
+  decisions:
+  - date: '1150'
+    title_zh: 卜居湖州自号苕溪渔隐
+    rationale_zh: 弃官退居苕上，以便居间著述纂集诗话。
+events:
+- id: guji-胡仔-event-birth
+  type: birth
+  date: '1110'
+  year_of: '1110'
+  is_circa: true
+  summary_zh: 胡仔生，绩溪人，胡舜陟之子（生年不详，约此）。
+- id: guji-胡仔-event-yin-office
+  type: event
+  date: '1130'
+  year_of: '1130'
+  is_circa: true
+  summary_zh: 以父荫授迪功郎、两浙转运司干办公事。
+- id: guji-胡仔-event-accompany-parent-lingnan
+  type: event
+  date: '1136'
+  year_of: '1136'
+  summary_zh: 绍兴丙辰，侍亲赴官岭右，道经湘中，闻阮阅《诗总》之名。
+- id: guji-胡仔-event-hear-about-shizong
+  type: event
+  date: '1136'
+  year_of: '1136'
+  summary_zh: 闻知舒城阮阅昔守郴江编《诗总》颇为详备，行役匆匆未暇借观。
+- id: guji-胡仔-event-read-shizong
+  type: event
+  date: '1150'
+  year_of: '1150'
+  is_circa: true
+  summary_zh: 居苕水，友生洪庆远从宗子彦章处获传《诗总》集，取读之，见其遗漏元祐诸公诗话。
+- id: guji-胡仔-event-write-preface
+  type: event
+  date: '1148'
+  year_of: '1148'
+  summary_zh: 戊辰春三月上巳，撰《苕溪渔隐丛话》前集自序，阐明以年代先后纂集之旨。绍兴甲寅陈奉议已刊于万卷堂。
+- id: guji-胡仔-event-compose-conghua
+  type: event
+  date: '1148'
+  year_of: '1148'
+  is_circa: true
+  summary_zh: 纂集元祐以来诸公诗话及史传小说事实，附以辨证，成《苕溪渔隐丛话》前集六十卷、後集四十卷。
+- id: guji-胡仔-event-retire-huzhou
+  type: event
+  date: '1150'
+  year_of: '1150'
+  is_circa: true
+  summary_zh: 官至奉议郎知常州晋陵县后，卜居湖州，自号苕溪渔隐。
+- id: guji-胡仔-event-death
+  type: death
+  date: '1170'
+  year_of: '1170'
+  is_circa: true
+  summary_zh: 胡仔卒（卒年不详，约乾道间）。
