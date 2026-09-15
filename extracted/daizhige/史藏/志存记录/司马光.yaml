@@ -1,0 +1,84 @@
+person:
+  qid: guji-司马光
+  name_zh: 司马光
+  names:
+    zh: 司马光
+    en: Sima Guang
+  lifespan:
+    birth:
+      date: '1019'
+      precision: year
+      is_circa: false
+      raw: '1019'
+  birth_date: '1019'
+  era: 北宋
+  reign_ref: 宋仁宗至宋哲宗朝
+  archetype: 史学家与政治家
+  dilemmas:
+  - 编纂浩博之《资治通鉴》难以遍读，如何使稽古者易于检寻
+  - 史家求全与读者求简之间的取舍
+  lesson: 采摭菁华、区分事类，浩博之书方能传世可读
+  summary_first_person: 我耗尽毕生精力编成《资治通鉴》，自言精力尽于此书，为的是让后世为政者鉴古知今。
+  source_urls:
+  - 四库全书·史部·史钞类·通鉴总类提要
+endeavors:
+- id: guji-司马光-endeavor-1
+  name_zh: 编纂资治通鉴
+  phases:
+  - key: brewing
+    name_zh: 发凡起例
+    labels:
+      zh: 编史之志
+    start_date: '1066'
+    highlight_event_id: guji-司马光-event-1
+  - key: breakthrough
+    name_zh: 历年修纂
+    labels:
+      zh: 通鉴成书
+    start_date: '1067'
+    highlight_event_id: guji-司马光-event-2
+  - key: climax
+    name_zh: 书成奏进
+    labels:
+      zh: 神宗赐名
+    start_date: '1084'
+    highlight_event_id: guji-司马光-event-2
+  - key: closure
+    name_zh: 身后流传
+    labels:
+      zh: 节本与总类
+    start_date: '1208'
+    highlight_event_id: guji-司马光-event-3
+  decisions:
+  - date: '1066'
+    title_zh: 立意编年通史，以资治国之鉴
+    rationale: 鉴于前世史籍浩繁，人主难以遍览，故删削冗长，举撮机要。
+  - date: '1084'
+    title_zh: 自言精力尽于此书
+    rationale: 以毕生心血贯注一书，务求不刊之典。
+events:
+- id: guji-司马光-event-birth
+  type: birth
+  date: '1019'
+  year_of: 1019
+  description: 司马光生于宋真宗天禧三年。
+- id: guji-司马光-event-death
+  type: death
+  date: '1086'
+  year_of: 1086
+  description: 司马光卒，赠太师、温国公，谥文正。
+- id: guji-司马光-event-1
+  type: endeavor
+  date: '1066'
+  year_of: 1066
+  description: 进《通志》八卷于宋英宗，命置局续修，遂开局编纂编年通史。
+- id: guji-司马光-event-2
+  type: endeavor
+  date: '1084'
+  year_of: 1084
+  description: 《资治通鉴》二百九十四卷书成奏进，上起战国，下终五代，一千三百余年事，宋神宗赐名并作序。
+- id: guji-司马光-event-3
+  type: endeavor
+  date: '1208'
+  year_of: 1208
+  description: 嘉定元年沈枢编《通鉴总类》成，楼钥作序，称司马公自言精力尽于此书，而士大夫鲜有能遍读者。
