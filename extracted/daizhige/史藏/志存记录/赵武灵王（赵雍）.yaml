@@ -1,0 +1,156 @@
+person:
+  qid: guji-赵雍
+  name_zh: 赵雍
+  names:
+    zh: 赵雍
+    en: Zhao Yong (King Wuling of Zhao)
+  lifespan:
+    birth:
+      date: -340
+      precision: year
+      is_circa: true
+      raw: 约公元前340年
+    death:
+      date: -295
+      precision: year
+      is_circa: false
+      raw: 公元前295年
+  birth_date: -340
+  death_date: -295
+  era: 战国
+  reign_ref: 赵武灵王（前325—前299在位，后自称主父）
+  archetype: 锐意变法的改革君主
+  dilemmas:
+  - 胡服骑射违背华夏衣冠传统，遭宗室贵族之怨，仍坚持强兵
+  - 立幼子赵何为王而自号主父，致长子赵章之乱，终困死于沙丘宫
+  lesson: 欲成非常之功者，须任非常之谤；然继嗣之乱可倾社稷，传位之谋不可不慎
+  summary_first_person: 我赵雍继肃侯而立，当五国相王、秦楚争强之世。我深感赵屡败于胡人，遂力排众议，教民胡服骑射，拓地千里，北至燕代，西至云中九原，灭中山，诈为使者入秦以窥虚实。我立少子何为王，自号主父，专意军事，欲从云中直南袭秦。惜乎沙丘之变，困于离宫三月而卒，谥武灵王。
+  source_urls:
+  - 贵州威宁赵氏家谱
+endeavors:
+- id: guji-赵雍-endeavor-1
+  name_zh: 胡服骑射强赵
+  phases:
+  - key: brewing
+    name_zh: 谋略定策
+    labels:
+      zh:
+      - 观察胡骑
+      - 力排非议
+    start_date: -320
+    highlight_event_id: guji-赵雍-event-1
+  - key: breakthrough
+    name_zh: 推行胡服骑射
+    labels:
+      zh:
+      - 改服易俗
+      - 训练骑兵
+    start_date: -307
+    highlight_event_id: guji-赵雍-event-1
+  - key: climax
+    name_zh: 开疆拓土
+    labels:
+      zh:
+      - 略胡地中山
+      - 攘地千里
+    start_date: -306
+    highlight_event_id: guji-赵雍-event-2
+  - key: closure
+    name_zh: 主父专军
+    labels:
+      zh:
+      - 灭中山
+      - 窥秦虚实
+    start_date: -299
+    highlight_event_id: guji-赵雍-event-3
+  decisions:
+  - date: -307
+    title_zh: 令百姓胡服骑射
+    rationale: 有高世之功者，负遗俗之累；虽驱世以笑我，胡地中山吾必有之
+  - date: -299
+    title_zh: 立王子赵何为王，自号主父
+    rationale: 欲专意军国大事，以太子何继政而己任攻伐
+- id: guji-赵雍-endeavor-2
+  name_zh: 北略中山胡地
+  phases:
+  - key: brewing
+    name_zh: 稳固国本
+    labels:
+      zh:
+      - 五国相王
+      - 整军经武
+    start_date: -324
+    highlight_event_id: guji-赵雍-event-1
+  - key: breakthrough
+    name_zh: 略地宁葭榆中
+    labels:
+      zh:
+      - 西略胡地
+      - 北至燕代
+    start_date: -306
+    highlight_event_id: guji-赵雍-event-2
+  - key: climax
+    name_zh: 屡攻灭中山
+    labels:
+      zh:
+      - 三攻中山
+      - 攘地云中九原
+    start_date: -305
+    highlight_event_id: guji-赵雍-event-2
+  - key: closure
+    name_zh: 灭中山而终
+    labels:
+      zh:
+      - 中山亡
+      - 沙丘之困
+    start_date: -301
+    highlight_event_id: guji-赵雍-event-4
+  decisions:
+  - date: -305
+    title_zh: 攻中山、略胡地
+    rationale: 逐水草而居之胡人不足畏，中山腹心之疾必先除
+events:
+- id: guji-赵雍-event-birth
+  date: -340
+  year_of: -340
+  type: birth
+  title_zh: 赵雍出生
+  summary_zh: 赵语之子赵雍生于赵国宗室，约当战国中期。
+- id: guji-赵雍-event-1
+  date: -307
+  year_of: -307
+  type: endeavor
+  endeavor_id: guji-赵雍-endeavor-1
+  phase_key: breakthrough
+  title_zh: 推行胡服骑射
+  summary_zh: 赵雍不听遗俗之累与骜民之怨，教百姓胡服骑射，建中原第一支骑射之军。
+- id: guji-赵雍-event-2
+  date: -306
+  year_of: -306
+  type: endeavor
+  endeavor_id: guji-赵雍-endeavor-2
+  phase_key: breakthrough
+  title_zh: 略胡地至榆中
+  summary_zh: 王北略中山之地至宁葭，西略胡地至榆中，攘地北至燕代，西至云中九原。
+- id: guji-赵雍-event-3
+  date: -299
+  year_of: -299
+  type: endeavor
+  endeavor_id: guji-赵雍-endeavor-1
+  phase_key: closure
+  title_zh: 立惠文王，自称主父
+  summary_zh: 立王子赵何为王（惠文王），自号主父，随后诈为使者入秦观秦昭王之为人。
+- id: guji-赵雍-event-4
+  date: -295
+  year_of: -295
+  type: endeavor
+  endeavor_id: guji-赵雍-endeavor-2
+  phase_key: closure
+  title_zh: 灭中山，卒于沙丘宫
+  summary_zh: 主父灭中山，同年因章之乱困于沙丘离宫，三月余饿死，谥武灵王。
+- id: guji-赵雍-event-death
+  date: -295
+  year_of: -295
+  type: death
+  title_zh: 赵雍卒于沙丘
+  summary_zh: 中年卒于沙丘异宫，谥武灵王，后人比之太上皇。

@@ -1,0 +1,146 @@
+person:
+  qid: guji-zhaoxiangzi
+  name_zh: 赵襄子（赵无恤）
+  names:
+    zh: 赵襄子、赵无恤、赵孟
+    en: Zhao Xiangzi (Wuxu of Zhao)
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: -425
+      precision: year
+      is_circa: true
+      raw: 在位三十三年，卒，谥襄子
+  death_date: -425
+  era: 春秋末期至战国初期
+  reign_ref: 赵氏宗主（赵国基业奠基人，未称侯）
+  archetype: 忍辱奠基的深谋宗主
+  dilemmas:
+  - 婢女所生之庶子，如何在嫡兄伯鲁在世时获得立嗣资格
+  - 晋阳被围、城中易子而食之际，是否冒险离间韩魏以破智氏
+  - 得国之后，为报兄伯鲁不得立之憾，不立己子而传位于伯鲁之孙
+  lesson: 成大事者识势能忍、谋定后动，并以不逾兄嗣之约见其信义
+  summary_first_person: 我本简子幼子，母为婢女，因三年谨记父之训诫于竹简而得立为后。四卿相攻，智伯引汾水灌晋阳，城中悬釜而炊、易子而食，我夜遣张孟谈私会韩魏，终灭智氏、三分晋国。我感兄伯鲁不得立，不立己子，立其孙浣为嗣，赵氏基业自此奠定，后世至烈侯赵籍始列为诸侯。
+endeavors:
+- id: guji-zhaoxiangzi-endeavor-1
+  name_zh: 得立为嗣
+  phases:
+  - key: brewing
+    name_zh: 受训识简
+    labels:
+      zh:
+      - 庶子
+      - 竹简记训
+    highlight_event_id: guji-zhaoxiangzi-event-succession
+  decisions:
+  - title_zh: 谨记父训、竹简常随
+    rationale: 三年后简子问训，伯鲁不能举其词且已失简，无恤诵词甚习并出简于袖中，遂得立为后
+- id: guji-zhaoxiangzi-endeavor-2
+  name_zh: 晋阳之战与三分晋国
+  phases:
+  - key: breakthrough
+    name_zh: 奔保晋阳
+    labels:
+      zh:
+      - 固守
+      - 水灌晋阳
+    start_date: -455
+    highlight_event_id: guji-zhaoxiangzi-event-jinyang-siege
+  - key: climax
+    name_zh: 策反韩魏灭智氏
+    labels:
+      zh:
+      - 离间
+      - 三家灭智
+    start_date: -453
+    highlight_event_id: guji-zhaoxiangzi-event-defeat-zhibo
+  - key: closure
+    name_zh: 分晋定基
+    labels:
+      zh:
+      - 三分晋国
+      - 传位侄孙
+    start_date: -453
+    highlight_event_id: guji-zhaoxiangzi-event-heir-designation
+  decisions:
+  - date: -455
+    title_zh: 弃城奔保晋阳
+    rationale: 智伯与韩康子、魏桓子共攻无恤，无恤惧，奔保守御最强之晋阳
+  - date: -453
+    title_zh: 夜遣张孟谈私会韩魏
+    rationale: 城不没者三版、悬釜而炊、易子而食，危急之际离间韩魏，三国合谋灭智氏
+  - title_zh: 不立己子，立伯鲁之孙浣为嗣
+    rationale: 襄子以为兄伯鲁不得立，必欲传位伯鲁之后；代成君赵周先死，乃立其子浣为太子
+events:
+- id: guji-zhaoxiangzi-event-succession
+  person_qid: guji-zhaoxiangzi
+  title_zh: 以谨守父训得立为后
+  date:
+    precision: unknown
+  type: career
+  description: 简子将置后，书训诫之词于二简授二子；三年问之，伯鲁不能举词且失其简，无恤诵词甚习，出简于袖中，遂立无恤为后
+- id: guji-zhaoxiangzi-event-death-dai
+  person_qid: guji-zhaoxiangzi
+  title_zh: 灭代封兄之子赵周为代成君
+  date:
+    year_of: -457
+    precision: year
+  year_of: -457
+  type: career
+  description: 立三年，灭代，以其兄伯鲁之子赵周为代成君
+- id: guji-zhaoxiangzi-event-father-death
+  person_qid: guji-zhaoxiangzi
+  title_zh: 父赵简子赵鞅卒
+  date:
+    year_of: -476
+    precision: year
+  year_of: -476
+  type: family
+  description: 晋出公十七年（一说定公三十七年后），赵鞅卒，谥简子，无恤代立
+- id: guji-zhaoxiangzi-event-jinyang-siege
+  person_qid: guji-zhaoxiangzi
+  title_zh: 智伯围晋阳引水灌城
+  date:
+    year_of: -455
+    precision: year
+    is_circa: true
+  year_of: -455
+  type: career
+  description: 智伯率韩魏攻无恤，无恤奔保晋阳；智伯引汾水灌城，城不没者三版，城中悬釜而炊，易子而食
+- id: guji-zhaoxiangzi-event-defeat-zhibo
+  person_qid: guji-zhaoxiangzi
+  title_zh: 三国灭智氏
+  date:
+    year_of: -453
+    precision: year
+    is_circa: true
+  year_of: -453
+  type: career
+  description: 无恤夜使张孟谈私会韩魏，韩魏合谋反攻智氏，三月丙戌三国灭智，赵襄子与韩魏三分晋国
+- id: guji-zhaoxiangzi-event-heir-designation
+  person_qid: guji-zhaoxiangzi
+  title_zh: 立伯鲁之孙赵浣为太子
+  date:
+    precision: unknown
+  type: career
+  description: 襄子以兄伯鲁不得立，不肯立己子；代成君赵周先死，乃立其子赵浣为太子
+- id: guji-zhaoxiangzi-event-birth
+  person_qid: guji-zhaoxiangzi
+  title_zh: 出生
+  date:
+    precision: unknown
+  type: birth
+  description: 赵简子鞅之幼子，婢女所生，又名赵孟；生年史料未载
+- id: guji-zhaoxiangzi-event-death
+  person_qid: guji-zhaoxiangzi
+  title_zh: 卒，谥襄子
+  date:
+    year_of: -425
+    precision: year
+    is_circa: true
+  year_of: -425
+  type: death
+  description: 在位三十三年卒，谥襄子；其后侄孙赵浣（献子）继立，至赵籍为烈侯始列为诸侯

@@ -1,0 +1,156 @@
+person:
+  qid: guji-赵佗
+  name_zh: 赵佗
+  names:
+    zh:
+    - 赵佗
+    - 南越武王
+    - 南越武帝
+    - 佗公
+    en:
+    - Zhao Tuo
+    - Emperor Wu of Nanyue
+  lifespan:
+    birth:
+      date: -240
+      precision: decade
+      is_circa: true
+      raw: 约战国末年真定人（生年史无明载）
+    death:
+      date: -137
+      precision: year
+      is_circa: false
+      raw: 汉武帝建元四年前后病故（文中文称陀公病故传职与孙赵胡）
+  birth_date: -240（约）
+  death_date: -137（约）
+  era: 秦末汉初
+  reign_ref: 南越武王／南越武帝，汉高祖时封南粤王
+  archetype: 割据岭南的开疆藩王
+  dilemmas:
+  - 中原正统与岭南自立之间的名分抉择：臣汉称藩还是 Off 自立为帝
+  - 先主任嚣遗命“绝关自备”与汉廷关市禁令的冲突
+  lesson: 顺势经营，能屈能伸——乱世中审时度势，可王者亦可再称藩。
+  summary_first_person: 我本真定人，秦时任南海龙川令。天下乱起，南海尉任嚣临终托我行尉事，我依其遗策绝关自守，遂定扬粤、桂林、南海诸郡，自立为南越武王。汉高祖正位，封我为南粤王，我称臣奉贡；吕后用事禁我关市，我愤而称帝；汉文帝以德化人，遣陆贾劝说，我乃去帝号复为藩王，岁时奉祀，遣子入侍。我治岭南数千里，招贤纳士，待民以宽，和集百越，终以藩王之礼得终天年，传位于孙赵胡。
+endeavors:
+- id: guji-赵佗-endeavor-1
+  name_zh: 南征戍越•龙川令
+  phases:
+  - key: brewing
+    name_zh: 秦并天下后奔粤任职
+    labels:
+      zh:
+      - 仕秦
+      - 龙川令
+    start_date: -214
+    highlight_event_id: guji-赵佗-event-appointment
+  - key: breakthrough
+    name_zh: 代行南海尉事
+    labels:
+      zh:
+      - 任嚣托付
+      - 绝关自备
+    start_date: -208
+    highlight_event_id: guji-赵佗-event-successor
+  decisions:
+  - date: -208
+    title_zh: 遵任嚣遗命，绝道聚兵自守
+    rationale: 秦二世时天下大乱，绝新道自备，以保岭南一方。
+- id: guji-赵佗-endeavor-2
+  name_zh: 立国称制•南越王业
+  phases:
+  - key: breakthrough
+    name_zh: 自立为南越武王
+    labels:
+      zh:
+      - 建国
+      - 称王
+    start_date: -204
+    highlight_event_id: guji-赵佗-event-king
+  - key: climax
+    name_zh: 受封南粤王与僭号称帝
+    labels:
+      zh:
+      - 臣汉
+      - 称帝
+      - 抗吕后
+    start_date: -196
+    highlight_event_id: guji-赵佗-event-han-title
+  - key: closure
+    name_zh: 去帝号复为藩王及身后传承
+    labels:
+      zh:
+      - 称藩
+      - 传位赵胡
+    start_date: -179
+    highlight_event_id: guji-赵佗-event-def帝号
+  decisions:
+  - date: -183
+    title_zh: 因吕后禁关市而自立为帝
+    rationale: 汉廷禁粤关市、别异蛮夷，遂抗命称制，以保国脉。
+  - date: -179
+    title_zh: 应陆贾之劝，取缔帝号称藩
+    rationale: 文帝以德化人，修亲冢、宠其昆弟，乃去黄屋左纛，复为藩臣。
+events:
+- id: guji-赵佗-event-appointment
+  person_qid: guji-赵佗
+  title_zh: 秦并六国后佗奔粤为龙川令
+  date: -214
+  precision: year
+  year_of: -214
+  is_circa: true
+  type: 任职
+  summary: 是时秦并天下，赵佗为龙川令，为日后行尉事立基。
+- id: guji-赵佗-event-successor
+  person_qid: guji-赵佗
+  title_zh: 南海尉任嚣病将死，赵佗行尉事
+  date: -208
+  precision: year
+  year_of: -208
+  is_circa: true
+  type: 事业
+  summary: 任嚣临终面谕招贤纳士、待民以宽，佗公揖玺行尉事，绝关自备。
+- id: guji-赵佗-event-king
+  person_qid: guji-赵佗
+  title_zh: 因自立为南越武王
+  date: -204
+  precision: year
+  year_of: -204
+  is_circa: true
+  type: 建国
+  summary: 教以绝关自备，击并桂林、象郡，自立为南越武王。
+- id: guji-赵佗-event-han_title
+  person_qid: guji-赵佗
+  title_zh: 汉高祖封赵佗为南粤王
+  date: -196
+  precision: year
+  year_of: -196
+  is_circa: true
+  type: 册封
+  summary: 汉高祖正位，遣使封佗为南粤王，赵佗受封称臣。
+- id: guji-赵佗-event-emperor
+  person_qid: guji-赵佗
+  title_zh: 高后禁关市，佗自立为帝（南越武帝）
+  date: -183
+  precision: year
+  year_of: -183
+  is_circa: false
+  type: 称帝
+  summary: 诸吕用事，禁粤关市，佗公大怒，遂自尊为南越武帝。
+- id: guji-赵佗-event-def帝号
+  person_qid: guji-赵佗
+  title_zh: 陆贾再使南越，佗去帝号称藩
+  date: -179
+  precision: year
+  year_of: -179
+  is_circa: true
+  type: 归附
+  summary: 汉文帝即位以德化人，使陆贾劝佗取缔帝号，佗去帝制、岁时奉祀，复为藩王。
+- id: guji-赵佗-event-death
+  person_qid: guji-赵佗
+  title_zh: 佗公病故，传职与孙赵胡
+  date: -137
+  precision: year
+  year_of: -137
+  is_circa: true
+  type: 去世
+  summary: 陀公病故，传职与孙赵胡，是为南越文王。
