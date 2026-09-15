@@ -1,0 +1,138 @@
+person:
+  qid: guji-李靖
+  name_zh: 李靖
+  names:
+    zh: 李靖
+    en: Li Jing
+  lifespan:
+    birth:
+      date: '571'
+      precision: year
+      is_circa: true
+      raw: 约571年
+    death:
+      date: '649'
+      precision: year
+      is_circa: false
+      raw: 贞观二十三年
+  birth_date: '571'
+  death_date: '649'
+  era: 隋末唐初
+  reign_ref: 唐高祖、唐太宗
+  archetype: 军事家·出将入相
+  dilemmas:
+  - 曾上书告发李渊将反，唐兴后几遭诛，幸得太宗营救得免
+  - 拒绝参与太宗诛除兄弟之谋，宁守臣节不预萧墙之变
+  - 教侯君集兵法有所保留，被诬将反，反指其有异心
+  lesson: 兵贵奇胜，功高不居；明进退之节，故能出将入相而善终。
+  summary_first_person: 我本隋吏，曾上书言李渊将反；唐兴被执，赖太宗救免。其后从赵郡王南征，平萧铣、定扬越、破突厥，位至仆射。太宗谋于社稷之变，我不预谋，帝由是益重我。晚年征辽病不能从，君集求尽我术，我知其将反。
+endeavors:
+- id: guji-李靖-endeavor-1
+  key: military
+  name_zh: 南定萧铣与平突厥
+  labels:
+    zh: 军功·灭突厥
+  phases:
+  - key: brewing
+    name_zh: 白衣从军
+    labels:
+      zh: 白衣从征
+    start_date: '617'
+    highlight_event_id: guji-李靖-event-capture
+  - key: breakthrough
+    name_zh: 平定江南
+    labels:
+      zh: 擒萧铣·静巴汉
+    start_date: '620'
+    highlight_event_id: guji-李靖-event-pingxiaoxian
+  - key: climax
+    name_zh: 灭突厥
+    labels:
+      zh: 斥境大漠
+    start_date: '630'
+    highlight_event_id: guji-李靖-event-dingtu
+  decisions:
+  - date: 626-09
+    title_zh: 献策倾府库赂求和，潜军邀突厥归路
+    rationale: 渭水之盟危局，诸军未至，以和缓敌而伏兵邀其退路，虏弃老弱而遁，获马数万。
+- id: guji-李靖-endeavor-2
+  key: court
+  name_zh: 出将入相与明哲保身
+  labels:
+    zh: 位至端揆
+  phases:
+  - key: breakthrough
+    name_zh: 位至仆射
+    labels:
+      zh: 官居端揆
+    start_date: '630'
+    highlight_event_id: guji-李靖-event-fengsun
+  - key: closure
+    name_zh: 辞谋避祸
+    labels:
+      zh: 不预萧墙
+    start_date: '626'
+    highlight_event_id: guji-李靖-event-cijue
+  decisions:
+  - date: '626'
+    title_zh: 辞太宗诛萧墙之谋
+    rationale: 以社稷为重，不预兄弟骨肉之争，帝由是珍之。
+  - date: '645'
+    title_zh: 病辞征辽之役
+    rationale: 犬马之疾日增，恐死于道路仰累陛下；及帝以司马懿讽之，乃请舆病行，至相州病笃不能进。
+events:
+- id: guji-李靖-event-birth
+  event_type: birth
+  date: '571'
+  year_of: 571
+  description: 李靖约生于此年。
+- id: guji-李靖-event-shangshu
+  event_type: career
+  date: '617'
+  year_of: 617
+  description: 隋大业中，上书言李渊终不为人臣，请速除之。
+- id: guji-李靖-event-capture
+  event_type: career
+  date: '617'
+  year_of: 617
+  description: 京师平，与骨仪、卫文升俱收；太宗虑囚见靖与语，固请于高祖而免之。
+- id: guji-李靖-event-cijue
+  event_type: career
+  date: '626'
+  year_of: 626
+  description: 太宗将诛萧墙之恶，谋于卫公李靖，靖辞；帝以是珍之。
+- id: guji-李靖-event-pingxiaoxian
+  event_type: career
+  date: '621'
+  year_of: 621
+  description: 始以白衣从赵郡王南征，静巴汉，擒萧铣，荡一扬越，师不留行，皆靖之力。
+- id: guji-李靖-event-weishui
+  event_type: career
+  date: 626-09
+  year_of: 626
+  description: 武德末年突厥至渭水桥，控弦四十万；靖请倾府库赂以求和，潜军邀其归路，虏弃老弱而遁，获马数万匹。
+- id: guji-李靖-event-dingtu
+  event_type: career
+  date: '630'
+  year_of: 630
+  description: 灭突厥，斥境至于大漠，谓太宗曰'陛下五十年后，当忧北边'。
+- id: guji-李靖-event-fengsun
+  event_type: career
+  date: '630'
+  year_of: 630
+  description: 后竟至端揆，拜尚书仆射；曾过华山庙祈告位宦，闻神呼'李仆射好去'。
+- id: guji-李靖-event-jiaojunji
+  event_type: career
+  date: '635'
+  year_of: 635
+  description: 太宗令卫公教侯君集兵法；君集言李靖将反，微隐之处不示臣；靖谓君集求尽臣术，是将有他心。
+- id: guji-李靖-event-zhengbianci
+  event_type: career
+  date: '645'
+  year_of: 645
+  description: 太宗将征辽，靖病不能从；帝临其第执手与别，以司马懿讽之，靖请舆病行，至相州病笃不能进。
+- id: guji-李靖-event-death
+  event_type: death
+  date: '649'
+  year_of: 649
+  description: 李靖卒，谥景武，后图形凌烟阁。
