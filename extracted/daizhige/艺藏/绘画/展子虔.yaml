@@ -1,0 +1,138 @@
+person:
+  qid: guji-展子虔
+  name_zh: 展子虔
+  names:
+    zh: 展子虔
+    en: Zhan Ziqian
+  lifespan:
+    birth:
+      date: 545
+      precision: year
+      is_circa: true
+      raw: 生年不详，约北齐之前
+    death:
+      date: 618
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约隋末
+  birth_date: 约公元545年
+  death_date: 约公元618年
+  era: 南北朝至隋
+  reign_ref: 隋朝
+  archetype: 画家
+  dilemmas:
+  - 历仕北齐、北周、隋三朝，政权更迭之际如何维系艺术生命与仕途身份
+  - 画名与官职之间的取舍，虽为朝散大夫，却以丹青传世
+  lesson: 咫尺之内可写千里之势，精湛技艺能超越时代与朝代的更替。
+  summary_first_person: 我展子虔历北齐、北周、隋三朝，隋时官拜朝散大夫。我尤擅台阁与山水，写江山远近之势，能于咫尺之间见千里之趣。僧琮评我触物留情，所画备皆绝妙，与董伯仁并称"董展"，然台阁之妙一时无人能窥其奥。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宣和畫譜
+endeavors:
+- id: guji-展子虔-endeavor-1
+  name_zh: 三朝绘事
+  phases:
+  - key: brewing
+    name_zh: 历仕北齐北周
+    labels:
+      zh:
+      - 北齐
+      - 北周
+      - 积学
+    start_date: 550
+    highlight_event_id: guji-展子虔-event-era
+  - key: breakthrough
+    name_zh: 入隋得官
+    labels:
+      zh:
+      - 隋朝
+      - 朝散大夫
+    start_date: 581
+    highlight_event_id: guji-展子虔-event-sui-official
+  - key: climax
+    name_zh: 台阁山水之妙
+    labels:
+      zh:
+      - 台阁
+      - 江山远近
+      - 咫尺千里
+    start_date: 590
+    highlight_event_id: guji-展子虔-event-painting-praise
+  - key: closure
+    name_zh: 名传御府
+    labels:
+      zh:
+      - 御府所藏
+    start_date: 618
+    highlight_event_id: guji-展子虔-event-legacy
+  decisions:
+  - date: 581
+    title_zh: 仕隋受朝散大夫
+    rationale: 隋代周而立，展子虔历仕三朝，入隋继续以画艺受职于朝。
+  - date: 590
+    title_zh: 专精台阁与山水远近之势
+    rationale: 所画台阁之妙，董展同辈不能窥其奥；写江山远近尤工，故咫尺有千里趣。
+- id: guji-展子虔-endeavor-2
+  name_zh: 与董伯仁并称董展
+  phases:
+  - key: brewing
+    name_zh: 与董展齐名
+    labels:
+      zh:
+      - 董展
+      - 并世名家
+    start_date: 570
+    highlight_event_id: guji-展子虔-event-dongzhan
+  - key: climax
+    name_zh: 各擅胜场
+    labels:
+      zh:
+      - 展得其骏
+    start_date: 590
+    highlight_event_id: guji-展子虔-event-dongzhan
+  decisions:
+  - date: 590
+    title_zh: 以台阁之妙超出董伯仁
+    rationale: 时评谓董造其微、展得其骏，展于台阁则胜董，董于车马则胜展，如诗家之李杜。
+events:
+- id: guji-展子虔-event-birth
+  event_type: birth
+  date: 545
+  year_of: 545
+  date_precision: circa
+  summary: 展子虔约生于六世纪中叶，生年史无明载（推断）。
+- id: guji-展子虔-event-death
+  event_type: death
+  date: 618
+  year_of: 618
+  date_precision: circa
+  summary: 展子虔约卒于隋末，卒年史无明载（推断）。
+- id: guji-展子虔-event-era
+  event_type: career
+  date: 550
+  year_of: 550
+  date_precision: circa
+  summary: 历仕北齐、北周，绘事精进而为时所称。
+- id: guji-展子虔-event-sui-official
+  event_type: career
+  date: 581
+  year_of: 581
+  date_precision: year
+  summary: 入隋为朝散大夫，以丹青名家。
+- id: guji-展子虔-event-painting-praise
+  event_type: achievement
+  date: 590
+  year_of: 590
+  date_precision: circa
+  summary: 僧琮评曰"子虔触物留情，备皆绝妙"，其写江山远近之势尤工，咫尺有千里之趣。
+- id: guji-展子虔-event-dongzhan
+  event_type: recognition
+  date: 590
+  year_of: 590
+  date_precision: circa
+  summary: 与董伯仁并称"董展"，一时画台阁者如董展亦不能窥其妙。
+- id: guji-展子虔-event-legacy
+  event_type: legacy
+  date: 1120
+  year_of: 1120
+  date_precision: year
+  summary: 宋宣和御府藏其画二十幅，含北极巡海图、北齐后主幸晋阳图等。

@@ -1,0 +1,137 @@
+person:
+  qid: guji-吴道玄
+  name_zh: 吴道玄
+  names:
+    zh: 吴道玄
+    en: Wu Daoxuan
+  lifespan:
+    birth:
+      date: 0680
+      precision: year
+      is_circa: true
+      raw: 唐开元前后活跃，生年不详，约当高宗、武后之际
+    death:
+      date: 0759
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约当肃宗乾元前后
+  birth_date: 约680
+  death_date: 约759
+  era: 唐
+  reign_ref: 唐玄宗开元年间
+  archetype: 画圣
+  dilemmas:
+  - 供奉内廷，非有诏不得画，技艺才华受宫廷职分所限
+  - 每一挥毫必须酣饮，以气为主而不拘绳墨
+  lesson: 技进乎道，以气为主，落笔风生可为天下壮观
+  summary_first_person: 我名道玄，字道子，阳翟人。少年孤贫，客游洛阳，学书不成而改工画，未及成年便臻妙境。明皇召我入供奉，更名道玄，于是我名振天下。我师法张僧繇而变态纵横，顾恺之之前绝、僧繇之后绝，我兼而有之。裴旻将军舞剑助我画气，我解衣磅礴，落笔风生；画圆光转臂运墨，一笔而成，观者惊动坊邑。世人谓有唐之盛，文至韩愈、诗至杜甫、书至颜真卿、画至吴道玄，天下能事毕矣。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/吴道子
+endeavors:
+- id: guji-吴道玄-endeavor-1
+  name_zh: 学艺洛阳，弃书工画
+  phases:
+  - key: brewing
+    name_zh: 早年孤贫学书不成
+    labels:
+      zh:
+      - 客游洛阳
+      - 学书张颠贺知章
+      - 因工画
+    start_date: '0700'
+    highlight_event_id: guji-吴道玄-event-apprentice
+  - key: breakthrough
+    name_zh: 未冠深造妙处
+    labels:
+      zh:
+      - 悟之于性
+      - 师法张僧繇
+    start_date: '0705'
+  decisions:
+  - date: '0702'
+    title_zh: 弃书法而专攻绘画
+    rationale: 学书于张颠、贺知章不成，遂因工画，未冠而深造妙处
+- id: guji-吴道玄-endeavor-2
+  name_zh: 供奉宫廷，名振天下
+  phases:
+  - key: breakthrough
+    name_zh: 召入供奉，更名道玄
+    labels:
+      zh:
+      - 兖州瑕丘尉
+      - 内教博士
+      - 非有诏不得画
+    start_date: '0713'
+    highlight_event_id: guji-吴道玄-event-summon
+  - key: climax
+    name_zh: 天宫寺观剑气作画
+    labels:
+      zh:
+      - 裴旻舞剑
+      - 解衣磅礴
+      - 落笔风生
+    start_date: '0720'
+    highlight_event_id: guji-吴道玄-event-peimin
+  - key: closure
+    name_zh: 官止宁王友
+    labels:
+      zh:
+      - 地狱变相
+      - 名冠古今
+    start_date: '0740'
+  decisions:
+  - date: '0713'
+    title_zh: 应召入宫供奉
+    rationale: 明皇闻其画名，召入供奉，更名道玄，名声由此振于天下
+  - date: '0720'
+    title_zh: 受裴旻之请画鬼神于天宫寺
+    rationale: 裴旻居母丧请画以资冥福，道子观其舞剑，用其气以壮画思
+events:
+- id: guji-吴道玄-event-birth
+  person_qid: guji-吴道玄
+  type: birth
+  title_zh: 吴道玄生于阳翟
+  date: 0680
+  year_of: 约680
+  precision: circa
+  description_zh: 吴道玄字道子，阳翟人，旧名道子，少孤贫。
+- id: guji-吴道玄-event-apprentice
+  person_qid: guji-吴道玄
+  type: endeavor
+  title_zh: 客游洛阳弃书工画
+  date: '0702'
+  year_of: 约702
+  precision: circa
+  description_zh: 学书于张颠、贺知章不成，因工画，未冠深造妙处。
+- id: guji-吴道玄-event-summon
+  person_qid: guji-吴道玄
+  type: endeavor
+  title_zh: 明皇召入供奉
+  date: '0713'
+  year_of: 约713
+  precision: circa
+  description_zh: 初为兖州瑕丘尉，明皇闻其名召入供奉，更名道玄，复以道子为字，名振天下；为内教博士，非有诏不得画。
+- id: guji-吴道玄-event-peimin
+  person_qid: guji-吴道玄
+  type: endeavor
+  title_zh: 天宫寺观裴旻舞剑而作画
+  date: '0720'
+  year_of: 约720
+  precision: circa
+  description_zh: 开元中裴旻居母丧请画鬼神于天宫寺资母福。道子使旻去缞服军装驰马舞剑，观者数千百人骇栗；道子解衣磅礴，用其气以壮画思，落笔风生，为天下壮观。
+- id: guji-吴道玄-event-hell
+  person_qid: guji-吴道玄
+  type: endeavor
+  title_zh: 作地狱变相名闻天下
+  date: '0730'
+  year_of: 约730
+  precision: circa
+  description_zh: 世所共传而知者惟地狱变相，观其命意得阴隲阳授之理，或以金胄杂于桎梏，议者谓唐画至吴道玄而天下能事毕。
+- id: guji-吴道玄-event-death
+  person_qid: guji-吴道玄
+  type: death
+  title_zh: 吴道玄去世
+  date: 0759
+  year_of: 约759
+  precision: circa
+  description_zh: 卒年不详，官止宁王友，御府所藏其画凡九十有三。
