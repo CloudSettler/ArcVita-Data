@@ -1,0 +1,136 @@
+person:
+  qid: guji-墨子
+  name_zh: 墨子
+  names:
+    zh: 墨子
+    en: Mozi
+  lifespan:
+    birth:
+      date: -470
+      precision: decade
+      is_circa: true
+      raw: 约公元前470年
+    death:
+      date: -390
+      precision: decade
+      is_circa: true
+      raw: 约公元前390年
+  birth_date: 约公元前470年
+  death_date: 约公元前390年
+  era: 战国初期
+  reign_ref: 战国初期，先后于鲁、宋等地活动，止楚攻宋为其著名事迹
+  archetype: 思想家·工匠学派宗师
+  dilemmas:
+  - 兼爱与现实等级秩序的张力
+  - 节用非乐与礼乐传统的冲突
+  lesson: 染于苍则苍，染于黄则黄；成败系于所染与所法
+  summary_first_person: 我是墨子，主张兼爱、非攻、尚贤、节用。我见染丝而叹，知人所受熏染决定成败；我谓天下从事者不可无法仪，莫若法天之兼爱无私。国之七患、君之五奢，皆因不节不备而生，我以此教导弟子，欲天下之治而恶其乱。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/墨子
+endeavors:
+- id: guji-墨子-endeavor-1
+  name_zh: 创立墨家学说，倡导兼爱尚贤
+  phases:
+  - key: brewing
+    name_zh: 求学问道
+    labels:
+      zh:
+      - 游学
+    start_date: -455
+  - key: breakthrough
+    name_zh: 提出兼爱非攻
+    labels:
+      zh:
+      - 思想
+    start_date: -440
+    highlight_event_id: guji-墨子-event-1
+  - key: climax
+    name_zh: 建立墨家团体
+    labels:
+      zh:
+      - 组织
+    start_date: -430
+    highlight_event_id: guji-墨子-event-2
+  - key: closure
+    name_zh: 传道授业
+    labels:
+      zh:
+      - 教学
+    start_date: -410
+  decisions:
+  - date: -440
+    title_zh: 主张尚贤事能
+    rationale: 国有贤良之士众则国家之治厚，故政之本在尚贤
+  - date: -430
+    title_zh: 力倡节用节葬
+    rationale: 俭节则昌，淫佚则亡，凡费财劳力不加利者不为
+- id: guji-墨子-endeavor-2
+  name_zh: 著述《墨子》七十一篇，垂范后世
+  phases:
+  - key: brewing
+    name_zh: 讲学论辩
+    labels:
+      zh:
+      - 论辩
+    start_date: -445
+  - key: breakthrough
+    name_zh: 与程繁三辩
+    labels:
+      zh:
+      - 非乐
+    start_date: -435
+    highlight_event_id: guji-墨子-event-3
+  - key: climax
+    name_zh: 定《墨子》要篇
+    labels:
+      zh:
+      - 著述
+    start_date: -400
+  - key: closure
+    name_zh: 弟子传其学
+    labels:
+      zh:
+      - 传承
+    start_date: -395
+  decisions:
+  - date: -435
+    title_zh: 主张圣王不为乐
+    rationale: 其乐逾繁者其治逾寡，乐非所以治天下
+  - date: -400
+    title_zh: 撰《所染》《法仪》《七患》诸篇
+    rationale: 以染丝为喻警世，法天兼爱，示国备之要
+events:
+- id: guji-墨子-event-birth
+  type: person.birth
+  person_qid: guji-墨子
+  date: -470
+  year_of: -470
+- id: guji-墨子-event-1
+  type: endeavor.breakthrough
+  endeavor_id: guji-墨子-endeavor-1
+  person_qid: guji-墨子
+  date: -440
+  year_of: -440
+  title_zh: 见染丝而叹，悟所染之道
+  description: 子墨子言见染丝者而叹：染于苍则苍，染于黄则黄，故染不可不慎，非独染丝然，国亦有染，士亦有染。
+- id: guji-墨子-event-2
+  type: endeavor.climax
+  endeavor_id: guji-墨子-endeavor-1
+  person_qid: guji-墨子
+  date: -430
+  year_of: -430
+  title_zh: 聚徒讲学，立墨家之法仪
+  description: 谓天下从事者不可无法仪，百工为方以矩为圆以规，治天下者莫若法天，天欲人之相爱相利。
+- id: guji-墨子-event-3
+  type: endeavor.breakthrough
+  endeavor_id: guji-墨子-endeavor-2
+  person_qid: guji-墨子
+  date: -435
+  year_of: -435
+  title_zh: 与程繁辩乐
+  description: 程繁问圣王不为乐，墨子答以尧舜汤武之乐愈繁而治愈寡，乐非所以治天下。
+- id: guji-墨子-event-death
+  type: person.death
+  person_qid: guji-墨子
+  date: -390
+  year_of: -390
