@@ -1,0 +1,133 @@
+person:
+  qid: guji-尸佼
+  name_zh: 尸佼
+  names:
+    zh: 尸佼
+    en: Shi Jiao
+  lifespan:
+    birth:
+      date: -390
+      precision: decade
+      is_circa: true
+      raw: 约战国前期
+    death:
+      date: -330
+      precision: decade
+      is_circa: true
+      raw: 约战国中期
+  birth_date: 约-390
+  death_date: 约-330
+  era: 战国
+  reign_ref: 秦孝公时期
+  archetype: 杂家学者 / 谋士
+  dilemmas:
+  - 依附商鞅变法建功与商君被刑后恐遭株连而逃亡的生存抉择
+  - 著述杂糅道德仁义与九州地理、不循孔氏之术的学派归属难题
+  - 里籍晋人抑或鲁人，史籍记载相异难定
+  lesson: 学不倦以治己，教不厌以治人；积学如积土成岳，终究有所生发
+  summary_first_person: 我是尸佼，或为晋人，或云鲁人，曾为秦相卫鞅之客，商君谋事画计、立法理民，未尝不与我共规。商君被刑后，我恐遭并诛，逃亡入蜀。我著书二十篇、六万余言，十九篇陈道德仁义之纪，一篇言九州险阻、水泉所起。后世称我书为《尸子》，虽原本散佚，而诸子征引，犹见精华。
+  source_urls:
+  - https://zh.wikisource.org/wiki/尸子
+endeavors:
+- id: guji-尸佼-endeavor-1
+  name_zh: 佐商鞅谋政立法
+  phases:
+  - key: brewing
+    name_zh: 入秦为客
+    labels:
+      zh:
+      - 游仕
+      - 客卿
+    start_date: 约-360
+  - key: breakthrough
+    name_zh: 参谋变法
+    labels:
+      zh:
+      - 立法理民
+      - 图谋画计
+    start_date: 约-356
+    highlight_event_id: guji-尸佼-event-legislation
+  - key: climax
+    name_zh: 商君当国
+    labels:
+      zh:
+      - 权谋鼎盛
+    start_date: 约-350
+  - key: closure
+    name_zh: 恐诛亡蜀
+    labels:
+      zh:
+      - 逃亡
+    start_date: -338
+    highlight_event_id: guji-尸佼-event-flee
+  decisions:
+  - date: -338
+    title_zh: 商君被刑后亡逃入蜀
+    rationale: 恐商君之死株连宾客，亡命避祸以保其身与著述
+- id: guji-尸佼-endeavor-2
+  name_zh: 撰著《尸子》二十篇
+  phases:
+  - key: brewing
+    name_zh: 蓄学立志
+    labels:
+      zh:
+      - 治学
+    start_date: 约-370
+  - key: breakthrough
+    name_zh: 陈道德仁义之纪
+    labels:
+      zh:
+      - 著书
+      - 杂家兼总
+    start_date: 约-350
+    highlight_event_id: guji-尸佼-event-writings
+  - key: climax
+    name_zh: 六万余言成书
+    labels:
+      zh:
+      - 书成二十篇
+    start_date: 约-340
+  - key: closure
+    name_zh: 书散佚见引于诸书
+    labels:
+      zh:
+      - 佚文传世
+    start_date: 前2世纪
+  decisions:
+  - date: 约-345
+    title_zh: 不循孔氏之术、兼总杂术而著书
+    rationale: 不专守先王之法与儒家之术，博采众说以立一家之言
+events:
+- id: guji-尸佼-event-birth
+  date: 约-390
+  year_of: -390
+  type: birth
+  title_zh: 尸佼生（约，里籍或晋或鲁）
+- id: guji-尸佼-event-legislation
+  date: 约-356
+  year_of: -356
+  type: endeavor
+  endeavor_id: guji-尸佼-endeavor-1
+  title_zh: 为秦相卫鞅客，参与谋事画计、立法理民
+- id: guji-尸佼-event-writings
+  date: 约-345
+  year_of: -345
+  type: endeavor
+  endeavor_id: guji-尸佼-endeavor-2
+  title_zh: 撰《尸子》，十九篇陈道德仁义，一篇言九州险阻水泉
+- id: guji-尸佼-event-junshi-death
+  date: -338
+  year_of: -338
+  type: related
+  title_zh: 商君卫鞅被刑
+- id: guji-尸佼-event-flee
+  date: -338
+  year_of: -338
+  type: endeavor
+  endeavor_id: guji-尸佼-endeavor-1
+  title_zh: 恐并诛，亡逃入蜀
+- id: guji-尸佼-event-death
+  date: 约-330
+  year_of: -330
+  type: death
+  title_zh: 尸佼卒（约）
