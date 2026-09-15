@@ -1,0 +1,182 @@
+person:
+  qid: guji-jiadao
+  name_zh: 贾岛
+  names:
+    zh: 贾岛
+    en: Jia Dao
+  lifespan:
+    birth:
+      date: 0779
+      precision: year
+      is_circa: true
+      raw: 约唐代宗大历年间
+    death:
+      date: 0843
+      precision: year
+      is_circa: true
+      raw: 约会昌年间，终于传舍
+  birth_date: 约779
+  death_date: 约843
+  era: 唐
+  reign_ref: 约历德宗至武宗数朝
+  archetype: 苦吟诗人
+  dilemmas:
+  - 为僧守清规与午后出寺吟咏之拘束：洛阳令禁僧午后出寺，叹“不如牛与羊，犹得日暮归”
+  - 还俗应举与屡试不第：弃浮图求功名，却久困场屋，以《病蝉》刺公卿，被奏为“十恶”遭逐
+  - 怨愤题诗与仕进之路：下第见裴度起池台，题“破却千家作一池”讥之，执政恶其不逊
+  lesson: 两句三年得，一吟双泪流；僻涩之格能矫浮艳，然傲骨刺时，终以诗名而困于宦途
+  summary_first_person: 我本是范阳浮图子，法名无本，独变格入僻以矫元白之艳。韩愈惜我才，教我为文，劝我还俗应举。然我久不第，吟《病蝉》刺公卿，被奏为“十恶”而遭逐。晚岁方授遂州长江簿，迁普州司仓，至老无子，啖牛肉得疾，终于传舍。
+endeavors:
+- id: guji-jiadao-endeavor-1
+  name_zh: 苦吟铸诗，矫艳入僻
+  phases:
+  - key: brewing
+    name_zh: 为僧无本，独变格入僻
+    labels:
+      zh: 出家苦吟
+    start_date: 约0795
+    highlight_event_id: guji-jiadao-event-monk
+  - key: breakthrough
+    name_zh: 洛阳遇韩愈，还俗振名
+    labels:
+      zh: 韩愈激赏
+    start_date: 约0809
+    highlight_event_id: guji-jiadao-event-hanyu
+  - key: climax
+    name_zh: 推敲苦吟，警句传世
+    labels:
+      zh: 诗有警句
+    start_date: 约0820
+    highlight_event_id: guji-jiadao-event-poems
+  - key: closure
+    name_zh: 迁普州司仓，诗随过海船
+    labels:
+      zh: 晚岁司仓
+    start_date: 约0842
+    highlight_event_id: guji-jiadao-event-death
+  decisions:
+  - date: 约0809
+    title_zh: 弃浮图、还俗应举
+    rationale: 韩愈惜其才，教为文并劝其反俗应举，遂去僧籍，由是振名
+  - date: 约0823
+    title_zh: 下第题诗讥裴度起池
+    rationale: 怨愤执政恶之故不在选，题“破却千家作一池”以刺，然皆恶其不逊，仕途愈蹇
+- id: guji-jiadao-endeavor-2
+  name_zh: 仕途蹭蹬，晚授微官
+  phases:
+  - key: brewing
+    name_zh: 久困场屋，屡试不第
+    labels:
+      zh: 久不第
+    start_date: 约0815
+    highlight_event_id: guji-jiadao-event-bingchan
+  - key: climax
+    name_zh: 奏为十恶，逐出举场
+    labels:
+      zh: 十恶之目
+    start_date: 约0825
+    highlight_event_id: guji-jiadao-event-exile
+  - key: closure
+    name_zh: 授长江簿，迁普州司仓
+    labels:
+      zh: 长江主簿
+    start_date: 约0838
+    highlight_event_id: guji-jiadao-event-changjiang
+  decisions:
+  - date: 约0820
+    title_zh: 吟《病蝉》以刺公卿
+    rationale: 久不第而怨愤，借病蝉自况折翼酸吟，直刺公卿，遂遭忌恨
+  - date: 约0838
+    title_zh: 之任东川，献《感恩诗》
+    rationale: 守者厚礼之，献诗谢恩，虽贬谪之身，仍以卑辞全宦途末路
+events:
+- id: guji-jiadao-event-birth
+  person_id: guji-jiadao
+  type: birth
+  date: 约0779
+  year_of: 779
+  date_precision: year
+  is_circa: true
+  title_zh: 贾岛生于范阳
+  summary_zh: 岛，字浪仙，一作阆仙，范阳人。
+- id: guji-jiadao-event-monk
+  person_id: guji-jiadao
+  type: endeavor
+  date: 约0795
+  year_of: 795
+  date_precision: year
+  is_circa: true
+  title_zh: 初为浮图，法名无本
+  summary_zh: 初为浮图，名无本，能诗，独变格入僻，以矫艳于元白。
+- id: guji-jiadao-event-monk-restriction
+  person_id: guji-jiadao
+  type: anecdote
+  date: 约0805
+  year_of: 805
+  date_precision: year
+  is_circa: true
+  title_zh: 僧午后不得出寺
+  summary_zh: 为僧时，洛阳令不许僧午后出寺，岛有诗云：“不如牛与羊，犹得日暮归。”
+- id: guji-jiadao-event-hanyu
+  person_id: guji-jiadao
+  type: endeavor
+  date: 约0809
+  year_of: 809
+  date_precision: year
+  is_circa: true
+  title_zh: 来洛阳，韩愈教为文，还俗应举
+  summary_zh: 韩愈惜其才，俾反俗应举，贻诗“天恐文章中断绝，再生贾岛在人间”，由是振名。
+- id: guji-jiadao-event-bingchan
+  person_id: guji-jiadao
+  type: endeavor
+  date: 约0820
+  year_of: 820
+  date_precision: year
+  is_circa: true
+  title_zh: 久不第，吟《病蝉》刺公卿
+  summary_zh: 岛久不第，吟《病蝉》之句以刺公卿：“病蝉飞不得，向我掌中行。”
+- id: guji-jiadao-event-peidu-poem
+  person_id: guji-jiadao
+  type: anecdote
+  date: 约0823
+  year_of: 823
+  date_precision: year
+  is_circa: true
+  title_zh: 下第题诗讥晋公裴度起池
+  summary_zh: 裴度立第兴化里，凿池种竹，岛方下第，怨愤题诗“破却千家作一池，不栽桃李种蔷薇”，皆恶其不逊。
+- id: guji-jiadao-event-exile
+  person_id: guji-jiadao
+  type: endeavor
+  date: 约0825
+  year_of: 825
+  date_precision: year
+  is_circa: true
+  title_zh: 奏为“十恶”，逐出举场
+  summary_zh: 或奏岛与平曾等为“十恶”，逐之，功名之路遂绝。
+- id: guji-jiadao-event-changjiang
+  person_id: guji-jiadao
+  type: office
+  date: 约0838
+  year_of: 838
+  date_precision: year
+  is_circa: true
+  title_zh: 授遂州长江主簿
+  summary_zh: 初之任，届东川，守者厚礼之，岛献《感恩诗》；文称大中末授此职。
+- id: guji-jiadao-event-puzhou
+  person_id: guji-jiadao
+  type: office
+  date: 约0842
+  year_of: 842
+  date_precision: year
+  is_circa: true
+  title_zh: 自长江迁普州司仓
+  summary_zh: 自长江迁普州司仓，方干自镜湖寄诗慰问：“莫问吟诗苦，年年芳草平。”
+- id: guji-jiadao-event-death
+  person_id: guji-jiadao
+  type: death
+  date: 约0843
+  year_of: 843
+  date_precision: year
+  is_circa: true
+  title_zh: 啖牛肉得疾，终于传舍
+  summary_zh: 岛至老无子，因啖牛肉得疾，终于传舍。

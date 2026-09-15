@@ -1,0 +1,91 @@
+person:
+  qid: guji-李贺
+  name_zh: 李贺
+  names:
+    zh: 李贺
+    en: Li He
+  lifespan:
+    birth:
+      date: 0790
+      precision: year
+      is_circa: true
+      raw: 约790年
+    death:
+      date: 0817
+      precision: year
+      is_circa: false
+      raw: 817年（年二十七）
+  birth_date: 约790年
+  death_date: 817年
+  era: 唐代·元和年间
+  reign_ref: 唐宪宗元和
+  archetype: 浪漫主义鬼才诗人
+  dilemmas:
+  - 才华绝世而早逝，未能“少加以理”以奴仆命《骚》
+  - 诗风虚荒幻诞，虽为《骚》之苗裔而理有所不及
+  lesson: 艺术上的极致想象可超越时代，但生命短促使天才的完整面貌终究成谜
+  summary_first_person: 我字长吉，生于唐元和之前，以歌诗惊世。韩吏部亦颇道我诗。我的辞句如鲸呿鳌掷、牛鬼蛇神，为《骚》之苗裔。惜乎天不假年，二十七岁而卒，世人皆叹：使我未死，稍加理致，可奴仆命《骚》也。
+endeavors:
+- id: guji-李贺-endeavor-1
+  name_zh: 歌诗创作
+  labels:
+    zh: 诗歌创作
+  phases:
+  - key: brewing
+    name_zh: 早期学诗
+    labels:
+      zh: 早年习诗
+    start_date: 约0800
+  - key: breakthrough
+    name_zh: 元和成名
+    labels:
+      zh: 元和扬名
+    start_date: 约0807
+    highlight_event_id: guji-李贺-event-hanyu-praise
+  - key: climax
+    name_zh: 鬼才风格成熟
+    labels:
+      zh: 幻诞诗风
+    start_date: 约0810
+    highlight_event_id: guji-李贺-event-jintong
+  - key: closure
+    name_zh: 早逝与集序流传
+    labels:
+      zh: 身后声名
+    start_date: 0817
+    highlight_event_id: guji-李贺-event-dumu-preface
+  decisions:
+  - date: 约0810
+    title_zh: 深叹恨古今未尝经道者，采寻前事入诗
+    rationale: 不循笔墨畦径，求取情状于离绝寻常之处，以成虚荒幻诞之奇境
+events:
+- id: guji-李贺-event-birth
+  date: 约0790
+  year_of: 790
+  type: birth
+  title_zh: 李贺出生
+  detail: 李贺字长吉，约生于唐德宗贞元年间
+- id: guji-李贺-event-hanyu-praise
+  date: 约0807
+  year_of: 807
+  type: endeavor
+  title_zh: 韩愈称道其歌诗
+  detail: 元和中，韩吏部亦颇道其歌诗，李贺诗名渐起
+- id: guji-李贺-event-jintong
+  date: 约0810
+  year_of: 810
+  type: endeavor
+  title_zh: 作《金铜仙人辞汉歌》等奇诡名篇
+  detail: 采寻前事，离绝远去笔墨畦径之间，深叹恨古今未尝经道者，成虚荒幻诞之体
+- id: guji-李贺-event-death
+  date: 0817
+  year_of: 817
+  type: death
+  title_zh: 李贺去世
+  detail: 贺生二十七年死矣，世皆曰：使贺且未死，少加以理，奴仆命《骚》可也
+- id: guji-李贺-event-dumu-preface
+  date: 约0831
+  year_of: 831
+  type: endeavor
+  title_zh: 杜牧为李贺文集作序
+  detail: 杜牧之序其文集，评其为《骚》之苗裔，理虽不及，词或过之

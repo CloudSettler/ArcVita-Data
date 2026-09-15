@@ -1,0 +1,132 @@
+person:
+  qid: guji-chenziang
+  name_zh: 陈子昂
+  names:
+    zh: 陈子昂
+    en: Chen Zi'ang
+  lifespan:
+    birth:
+      date: 661
+      precision: year
+      is_circa: true
+      raw: 约唐龙朔年间生
+    death:
+      date: 702
+      precision: year
+      is_circa: true
+      raw: 约长安二年卒
+  birth_date: 661
+  death_date: 702
+  era: 初唐·武周
+  reign_ref: 武则天临朝称制至武周时期
+  archetype: 以非常之举自售其才的孤傲文士
+  dilemmas:
+  - 才华满腹而不为人知：是默默等候赏识，还是以惊世骇俗之举博取声名
+  - 入幕建安王府：是屈从武氏权贵之辟，还是借机施展济世之志
+  lesson: 声名不至，则自造声势；一掷千金、一摔百金，舍其末而扬其本，方使文章一日溢都。
+  summary_first_person: 我蜀人陈子昂，初入京师，碌碌尘土，无人识我。遇有卖胡琴者索价百万，众人传视不辨，我独以千缗买之，邀众人明日集于宣阳里。酒肴既具，我捧琴而叹：此乃贱工之役，岂宜留心！举琴碎之，而以文百轴遍赠会者，一日之内，声华溢都。其后建安王武攸宜辟我为书记，始得展其怀抱。
+endeavors:
+- id: guji-chenziang-endeavor-1
+  name_zh: 摔琴扬名于京师
+  phases:
+  - key: brewing
+    name_zh: 初入京师
+    labels:
+      zh: 初入京毂
+    start_date: 682
+  - key: breakthrough
+    name_zh: 千金市琴
+    labels:
+      zh: 千缗购胡琴
+    start_date: 682
+    highlight_event_id: guji-chenziang-event-buyqin
+  - key: climax
+    name_zh: 宣阳里摔琴赠文
+    labels:
+      zh: 摔琴赠文轴
+    start_date: 682
+    highlight_event_id: guji-chenziang-event-smashqin
+  - key: closure
+    name_zh: 声华溢都
+    labels:
+      zh: 一日名动长安
+    start_date: 682
+  decisions:
+  - date: 682
+    title_zh: 以千缗重价买下无名胡琴
+    rationale: 胡琴价百万而豪贵无辨者，以千缗市之可耸动众听，为次日聚人铺路
+  - date: 682
+    title_zh: 酒宴毕摔碎胡琴、遍赠文轴
+    rationale: 琴为贱工之役，不足留心；借众人既聚之势，以文章自荐，收一日扬名之效
+- id: guji-chenziang-endeavor-2
+  name_zh: 入建安王府掌书记
+  phases:
+  - key: brewing
+    name_zh: 声名既立
+    labels:
+      zh: 声华溢都之后
+    start_date: 696
+  - key: breakthrough
+    name_zh: 受辟为书记
+    labels:
+      zh: 建安王武攸宜辟为书记
+    start_date: 696
+    highlight_event_id: guji-chenziang-event-recruit
+  - key: climax
+    name_zh: 幕府效力
+    labels:
+      zh: 参掌文翰军书
+    start_date: 696
+  - key: closure
+    name_zh: 离幕归里
+    labels:
+      zh: 后辞官还乡
+    start_date: 700
+  decisions:
+  - date: 696
+    title_zh: 应建安王武攸宜之辟入幕
+    rationale: 既已名动京师，借辟命入王府掌书记，可由文翰进而图谋用世之志
+events:
+- id: guji-chenziang-event-birth
+  person_qid: guji-chenziang
+  type: birth
+  title_zh: 陈子昂生于蜀中
+  date: 661
+  year_of: 661
+  is_circa: true
+  description: 陈子昂生于梓州射洪，蜀人。
+- id: guji-chenziang-event-buyqin
+  person_qid: guji-chenziang
+  type: endeavor
+  title_zh: 千缗市胡琴
+  date: 682
+  year_of: 682
+  is_circa: true
+  endeavor_id: guji-chenziang-endeavor-1
+  description: 初入京，不为人知，遇卖胡琴者索价百万，豪贵传视无辨者，子昂突出，顾左右以千缗市之，众惊问，答曰余善此乐。
+- id: guji-chenziang-event-smashqin
+  person_qid: guji-chenziang
+  type: endeavor
+  title_zh: 宣阳里摔琴赠文
+  date: 682
+  year_of: 682
+  is_circa: true
+  endeavor_id: guji-chenziang-endeavor-1
+  description: 如期集于宣阳里，酒肴毕具，捧琴语曰：蜀人陈子昂有文百轴，驰走京毂，碌碌尘土，不为人知，此乐贱工之役，岂宜留心？举而碎之，以文轴遍赠会者，一日之内，声华溢都。
+- id: guji-chenziang-event-recruit
+  person_qid: guji-chenziang
+  type: endeavor
+  title_zh: 建安王武攸宜辟为书记
+  date: 696
+  year_of: 696
+  is_circa: true
+  endeavor_id: guji-chenziang-endeavor-2
+  description: 摔琴扬名之后，时武攸宜为建安王，辟陈子昂为书记。
+- id: guji-chenziang-event-death
+  person_qid: guji-chenziang
+  type: death
+  title_zh: 陈子昂卒
+  date: 702
+  year_of: 702
+  is_circa: true
+  description: 陈子昂卒，一代文宗陨落。
