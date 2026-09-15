@@ -1,0 +1,123 @@
+person:
+  qid: guji-完颜阿骨打
+  name_zh: 完颜阿骨打
+  names:
+    zh: 完颜阿骨打
+    en: Wanyan Aguda
+  lifespan:
+    birth:
+      date: '1068'
+      precision: year
+      is_circa: false
+      raw: 咸雍四年岁在戊申
+    death:
+      date: '1123'
+      is_circa: true
+  birth_date: '1068'
+  death_date: '1123'
+  era: 辽末金初
+  reign_ref: 金太祖，谥大圣武元皇帝
+  archetype: 开国之君
+  dilemmas:
+  - 以千骑之众起兵抗辽，众寡悬殊，战或降皆悬于一线
+  - 辽道宗恕其拔刀之罪纵归，后起兵灭辽，恩义与兴亡相悖
+  lesson: 众寡不在兵而在势，势不在力而在人心之愤与将帅之决。
+  summary_first_person: 我是完颜阿骨打，世祖第二子，生于咸雍四年戊申。昔年随悟室入朝于辽，因双陆忿争拔刀欲剚辽贵，道宗以示信远人不忍杀我。后因辽使索求无度、海东青之扰，女真积怨，我以千骑起兵，借五百甲首破宁江州，连挫辽师数十万众，兵锋直入黄龙府五十余州。天祚欲封我为王，我遣使邀十事，欲为兄弟之国并尚其主之女，其怒而囚使。辽祚遂倾，我谥大圣武元皇帝，庙号太祖，弟吴乞买继立为太宗。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/完颜阿骨打
+endeavors:
+- id: guji-完颜阿骨打-endeavor-1
+  name_zh: 起兵反辽与灭辽之业
+  phases:
+  - key: brewing
+    name_zh: 忿起于朝
+    labels:
+      zh:
+      - 入辽质愤
+      - 积怨待机
+    start_date: '1100'
+    highlight_event_id: guji-完颜阿骨打-event-court-blade
+  - key: breakthrough
+    name_zh: 破宁江州
+    labels:
+      zh:
+      - 首义抗辽
+      - 以少胜多
+    start_date: 1114-09
+    highlight_event_id: guji-完颜阿骨打-event-ningjiang
+  - key: climax
+    name_zh: 连败辽师
+    labels:
+      zh:
+      - 三千破数十万
+      - 兵逼中京
+    start_date: '1115'
+    highlight_event_id: guji-完颜阿骨打-event-huanglongfu
+  - key: closure
+    name_zh: 遗业归弟
+    labels:
+      zh:
+      - 遣使争国体
+      - 太祖升遐
+    start_date: '1120'
+    highlight_event_id: guji-完颜阿骨打-event-death
+  decisions:
+  - date: 1114-09
+    title_zh: 决意起兵，以五百甲首攻破宁江州
+    rationale: 辽之银牌天使恃势强索妇人、强取方物，女真积忿；兼得叛辽辽亲甲首五百，遂以千骑首义。
+  - date: '1115'
+    title_zh: 采纳粘罕、悟室、娄宿之议，以死拒辽不降
+    rationale: 我杀辽人已多，降必见剿，胜兵虽止三千，惟死战可求一生。
+  - date: '1120'
+    title_zh: 留辽使而遣使邀十事，请册为兄弟之国并尚主
+    rationale: 天祚遣使立我为国王，我欲以对等之礼定国体，不居其册封之下。
+events:
+- id: guji-完颜阿骨打-event-birth
+  date: '1068'
+  year_of: 1068
+  type: birth
+  title_zh: 生于咸雍四年戊申
+  detail_zh: 女真世祖核里颇之孙、世祖第二子旻生，即完颜阿骨打。
+- id: guji-完颜阿骨打-event-court-blade
+  date: '1100'
+  is_circa: true
+  year_of: 1100
+  type: endeavor
+  endeavor_id: guji-完颜阿骨打-endeavor-1
+  phase_key: brewing
+  title_zh: 道宗末年入朝，双陆忿争拔刀欲剚辽贵人
+  detail_zh: 阿骨打以悟室从行，与辽贵人双陆，贵人投琼不胜妄行马，阿骨打愤甚拔小佩刀欲剚之，悟室握鞘仅止其柄而杙其胸。道宗以示信远人不听群臣诛杀之劝，纵之归国。
+- id: guji-完颜阿骨打-event-ningjiang
+  date: 1114-09
+  is_circa: true
+  year_of: 1114
+  type: endeavor
+  endeavor_id: guji-完颜阿骨打-endeavor-1
+  phase_key: breakthrough
+  title_zh: 起兵首破宁江州
+  detail_zh: 女真才起千骑，用先前擒获叛辽辽亲所得甲首五百攻破宁江州；辽众五万御之不胜，复倍遣亦败。
+- id: guji-完颜阿骨打-event-huanglongfu
+  date: '1115'
+  is_circa: true
+  year_of: 1115
+  type: endeavor
+  endeavor_id: guji-完颜阿骨打-endeavor-1
+  phase_key: climax
+  title_zh: 以三千之众连败辽师，乘胜入黄龙府五十余州
+  detail_zh: 胜兵仅三千，依粘罕、悟室、娄宿之议以死拒辽，连败辽师，器甲益备；辽内乱，余都姑以前军十万降，女真乘胜入黄龙府五十余州，浸逼中京。
+- id: guji-完颜阿骨打-event-envoys
+  date: '1120'
+  is_circa: true
+  year_of: 1120
+  type: endeavor
+  endeavor_id: guji-完颜阿骨打-endeavor-1
+  phase_key: closure
+  title_zh: 遣使邀十事，请为兄弟之国并尚主
+  detail_zh: 天祚遣使立阿骨打为国王，阿骨打留之，遣人邀请十事，欲册帝为兄弟国及尚主；天祚怒曰小夷乃欲偶吾女，囚其使不报。
+- id: guji-完颜阿骨打-event-death
+  date: '1123'
+  is_circa: true
+  year_of: 1123
+  type: death
+  title_zh: 卒，谥大圣武元皇帝，庙号太祖
+  detail_zh: 阿骨打且死，属其子固碖善待悟室。弟吴乞买继立，更名晟，谥文烈皇帝，号太宗。
