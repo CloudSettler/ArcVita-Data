@@ -1,0 +1,103 @@
+person:
+  qid: guji-卫满
+  name_zh: 卫满
+  names:
+    zh: 卫满
+    en: Wi Man
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 燕人，生年不详
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  era: 汉初
+  reign_ref: 自称朝鲜王
+  archetype: 流亡豪杰窃据王权
+  dilemmas:
+  - 避地朝鲜求存，却以兵威夺故主之国
+  - 服属汉朝称外臣以固位，复侵并旁小邑以拓土
+  lesson: 乘乱而入他邦，以力取之者，子孙亦以力失之
+  summary_first_person: 我原是燕人，趁中原大乱避地朝鲜，击破朝鲜王准而自立为王，得汉许为外臣后，以兵威财物役使邻近小邑，秽貊、高句骊、沃沮、真番、辰国皆服属于我。
+  source_urls:
+  - ' gettext="咸宾录·东夷志卷二·朝鲜"'
+endeavors:
+- id: guji-卫满-endeavor-1
+  name_zh: 避地朝鲜与夺国自立
+  phases:
+  - key: brewing
+    name_zh: 燕人流亡
+    labels:
+      zh: 流亡避地
+    start_date: -195
+    highlight_event_id: guji-卫满-event-exile
+  - key: breakthrough
+    name_zh: 击破朝鲜王准
+    labels:
+      zh: 夺国称王
+    start_date: -194
+    highlight_event_id: guji-卫满-event-usurp
+  decisions:
+  - date: -194
+    title_zh: 击破朝鲜王准而自称朝鲜王
+    rationale: 乘秦汉之际中原大乱、朝鲜空虚，聚流民以兵威夺其国
+- id: guji-卫满-endeavor-2
+  name_zh: 外臣之约与拓土服众
+  phases:
+  - key: climax
+    name_zh: 受汉外臣之封
+    labels:
+      zh: 外臣保塞
+    start_date: -191
+    highlight_event_id: guji-卫满-event-vassal
+  - key: closure
+    name_zh: 兵威财物侵旁小邑
+    labels:
+      zh: 服属诸部
+    start_date: -187
+    highlight_event_id: guji-卫满-event-expand
+  decisions:
+  - date: -191
+    title_zh: 约为外臣，保塞外蛮夷
+    rationale: 会孝惠、高后之世，借汉朝册封取得合法性，遂得以兵威财物侵旁小邑
+events:
+- id: guji-卫满-event-birth
+  type: birth
+  person_id: guji-卫满
+  title_zh: 卫满生于燕地（年月不详）
+- id: guji-卫满-event-exile
+  type: endeavor
+  person_id: guji-卫满
+  endeavor_id: guji-卫满-endeavor-1
+  date: -195
+  year_of: -195
+  title_zh: 燕人卫满避地朝鲜
+- id: guji-卫满-event-usurp
+  type: endeavor
+  person_id: guji-卫满
+  endeavor_id: guji-卫满-endeavor-1
+  date: -194
+  year_of: -194
+  title_zh: 击破朝鲜侯准（时已称王），自称朝鲜王
+- id: guji-卫满-event-vassal
+  type: endeavor
+  person_id: guji-卫满
+  endeavor_id: guji-卫满-endeavor-2
+  date: -191
+  year_of: -191
+  title_zh: 孝惠、高后时辽东太守奏约，许满为外臣保塞外蛮夷
+- id: guji-卫满-event-expand
+  type: endeavor
+  person_id: guji-卫满
+  endeavor_id: guji-卫满-endeavor-2
+  date: -187
+  year_of: -187
+  title_zh: 以兵威财物侵旁小邑，秽貊、高句骊、沃沮、真番、辰国皆服属
+- id: guji-卫满-event-death
+  type: death
+  person_id: guji-卫满
+  title_zh: 卫满卒，王位传子至孙右渠（卒年史未详）
+source_urls:
+- ' gettext="咸宾录·东夷志卷二·朝鲜"'

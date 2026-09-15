@@ -1,0 +1,145 @@
+person:
+  qid: guji-李勣
+  name_zh: 李勣
+  names:
+    zh: 李勣
+    en: Li Ji
+  lifespan:
+    birth:
+      date: '594'
+      precision: year
+      is_circa: true
+      raw: 年八十矣（贞观十九年前后逆推）
+    death:
+      date: '669'
+      precision: year
+      is_circa: true
+      raw: 文中未明载
+  era: 唐初
+  reign_ref: 唐太宗、唐高宗
+  archetype: 开国名将·灭国统帅
+  dilemmas:
+  - 劝太宗亲征高丽，君主亲冒矢石与帅臣分功之间的权衡
+  - 受高宗密托废立（文中虽未直书，剿灭高丽权柄一身系之，功高震主之危）
+  lesson: 老成持重、临事而决，方成灭国之功
+  summary_first_person: 我李勣以八十之年受高宗节度诸将，围平壤、执高藏，收五部百七十六城，遂灭高丽，置安东都护府。
+endeavors:
+- id: guji-李勣-endeavor-1
+  key: brewing
+  name_zh: 劝太宗亲征高丽
+  labels:
+    zh:
+    - 定策东征
+  start_date: '645'
+  decisions:
+  - date: '645'
+    title_zh: 劝上讨高丽
+    rationale: 盖苏文弑君专国，侵新罗，逆节已彰，宜一举定辽东
+  phases:
+  - key: brewing
+    name_zh: 力赞东征
+    labels:
+      zh:
+      - 定策
+    start_date: '645'
+    highlight_event_id: guji-李勣-event-1
+- id: guji-李勣-endeavor-2
+  key: breakthrough
+  name_zh: 贞观十九年辽东之役
+  labels:
+    zh:
+    - 拔牟城
+    - 围辽东城
+    - 攻安市
+  start_date: '645'
+  decisions:
+  - date: '645'
+    title_zh: 会师焚辽东城
+    rationale: 乘南风纵火，因势攻城
+  phases:
+  - key: breakthrough
+    name_zh: 辽东破城
+    labels:
+      zh:
+      - 拔辽东城
+    start_date: '645'
+    highlight_event_id: guji-李勣-event-2
+  - key: climax
+    name_zh: 驻跸山大捷
+    labels:
+      zh:
+      - 破延寿惠真十五万众
+    start_date: '645'
+    highlight_event_id: guji-李勣-event-3
+- id: guji-李勣-endeavor-3
+  key: climax
+  name_zh: 高宗朝灭高丽
+  labels:
+    zh:
+    - 节度诸将
+    - 围平壤
+    - 执高藏
+  start_date: '667'
+  decisions:
+  - date: '666'
+    title_zh: 受诏节度契苾何力薛仁贵等讨高丽
+    rationale: 男生内衅、净土请降，高丽内乱可乘
+  phases:
+  - key: climax
+    name_zh: 平壤受降
+    labels:
+      zh:
+      - 执藏男建
+      - 收五部百七十六城
+    start_date: '668'
+    highlight_event_id: guji-李勣-event-4
+  - key: closure
+    name_zh: 献俘昭陵
+    labels:
+      zh:
+      - 凯还献俘
+    start_date: '668'
+    highlight_event_id: guji-李勣-event-5
+events:
+- id: guji-李勣-event-birth
+  date: '594'
+  date_precision: year
+  year_of: '594'
+  title_zh: 李勣生（据文中"年八十"逆推）
+  summary: 文中言灭高丽时年八十
+- id: guji-李勣-event-1
+  date: '645'
+  date_precision: year
+  year_of: '645'
+  title_zh: 劝太宗讨高丽
+  summary: 会李勣劝上讨之，帝意遂决，遣张亮、李勣、李道宗、契苾何力等往征。
+- id: guji-李勣-event-2
+  date: '645'
+  date_precision: year
+  year_of: '645'
+  title_zh: 拔牟城、设盖州
+  summary: 李勣攻牟城拔之，以其地为盖州。
+- id: guji-李勣-event-3
+  date: '645'
+  date_precision: year
+  year_of: '645'
+  title_zh: 围辽东城及驻跸山大破高延寿高惠真
+  summary: 乘南风纵火溃辽东城，以其地为辽州；又大破高延寿高惠真十五万援军，命勒石纪功。
+- id: guji-李勣-event-4
+  date: '668'
+  date_precision: year
+  year_of: '668'
+  title_zh: 围平壤执高藏
+  summary: 李勣围平壤，男产树素幡降，浮屠信诚内应，遂执高藏、男建，收五部百七十六城户六十九万。
+- id: guji-李勣-event-5
+  date: '668'
+  date_precision: year
+  year_of: '668'
+  title_zh: 便道献俘昭陵凯还
+  summary: 诏李勣便道献俘昭陵，凯而还；高宗赦之，剖其地为都督府九州四十二县，复置安东都护府。
+- id: guji-李勣-event-death
+  date: '669'
+  date_precision: circa
+  year_of: '669'
+  title_zh: 李勣卒（文中未明载，约灭高丽后不久）
+  summary: 正史载其卒于总章二年
