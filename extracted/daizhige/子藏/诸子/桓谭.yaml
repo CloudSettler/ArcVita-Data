@@ -1,0 +1,84 @@
+person:
+  qid: guji-桓谭
+  name_zh: 桓谭
+  names:
+    zh: 桓谭
+  lifespan:
+    birth:
+      date: '-23'
+      precision: year
+      is_circa: true
+      raw: 约西汉末年生
+    death:
+      date: '56'
+      precision: year
+      is_circa: true
+      raw: 约东汉初年卒
+  birth_date: 约-23
+  death_date: 约56
+  era: 两汉之际
+  reign_ref: 汉光武帝时期
+  archetype: 反图谶的思想先驱
+  dilemmas:
+  - 攻击图谶之荒谬而未能从根本上击破天人感应说的原理
+  lesson: 疑惑于虚妄之说者，虽未能尽破其根，亦为后人辟路。
+  summary_first_person: 我是桓谭，与郑兴、尹敏同辈，在光武之世攻击图谶的荒谬，倡言非虚，为后来王充以自然主义反驳天人感应开了先声。
+endeavors:
+- id: guji-桓谭-endeavor-1
+  name_zh: 批判图谶
+  phases:
+  - key: breakthrough
+    name_zh: 申疑图谶
+    labels:
+      zh: 疑谶非圣
+    start_date: '25'
+    highlight_event_id: guji-桓谭-event-criticism
+  - key: closure
+    name_zh: 见抑于光武
+    labels:
+      zh: 谠言见斥
+    start_date: '40'
+  decisions:
+  - date: 约25
+    title_zh: 与郑兴、尹敏同攻图谶之妄
+    rationale: 以儒教披巫祝图谶外衣，天人说太过神秘虚妄，故与之抗辩。
+- id: guji-桓谭-endeavor-2
+  name_zh: 著述立说
+  phases:
+  - key: brewing
+    name_zh: 治学两汉之际
+    labels:
+      zh: 潜心经艺
+    start_date: '-10'
+    highlight_event_id: guji-桓谭-event-thought
+  - key: climax
+    name_zh: 思想影响后世
+    labels:
+      zh: 启发仲任
+    start_date: '25'
+events:
+- id: guji-桓谭-event-birth
+  type: birth
+  date: 约-23
+  year_of: -23
+  description: 桓谭约生于西汉末年。
+- id: guji-桓谭-event-thought
+  type: endeavor
+  date: 约-10
+  year_of: -10
+  description: 桓谭治学于两汉之际，博学多通，不依附图谶之说。
+- id: guji-桓谭-event-criticism
+  type: endeavor
+  date: 约25
+  year_of: 25
+  description: 桓谭与郑兴、尹敏一班人对图谶发起小小反动，攻击其荒谬。
+- id: guji-桓谭-event-criticism
+  type: endeavor
+  date: 约56
+  year_of: 56
+  description: 桓谭因谠言非谶为光武帝所抑，其反图谶立场为王充《论衡》以自然主义攻击天人感应说之先导。
+- id: guji-桓谭-event-death
+  type: death
+  date: 约56
+  year_of: 56
+  description: 桓谭约卒于东汉初年。

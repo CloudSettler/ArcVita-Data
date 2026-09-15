@@ -1,0 +1,74 @@
+person:
+  qid: guji-cai-yong
+  name_zh: 蔡邕
+  names:
+    zh: 蔡邕
+    en: Cai Yong
+  lifespan:
+    birth:
+      date: '132'
+      precision: year
+      is_circa: true
+      raw: 约汉顺帝阳嘉元年
+    death:
+      date: '192'
+      precision: year
+      is_circa: false
+  birth_date: 约132
+  death_date: '192'
+  era: 东汉
+  reign_ref: 汉献帝时期
+  archetype: scholar-bibliophile
+  dilemmas:
+  - 得王充《论衡》百篇全稿而秘不示人，致书稿流传受限
+  - 身处汉末乱世，才学盖世而命运多舛
+  lesson: 孤本有幸遇通人，伯喈一顾， abandoning 则湮灭无闻
+  summary_first_person: 我是蔡邕，字伯喈。我得到了王充《论衡》的百篇全稿，并将其带入中原，使这部奇书得以流传后世；若非我之保存，此书恐已烟烬火灭。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/蔡邕
+endeavors:
+- id: guji-cai-yong-endeavor-1
+  title: 发现并保存《论衡》
+  description: 据《抱朴子》及袁山松书所载，《论衡》最初传世由蔡邕所得，其本后为今本八十五篇之根源。
+  phases:
+  - key: brewing
+    name_zh: 蔡邕入吴得书
+    labels:
+      zh:
+      - 得百篇全稿
+    start_date: 约190
+    highlight_event_id: guji-cai-yong-event-lunheng-acquired
+  - key: breakthrough
+    name_zh: 携书流传
+    labels:
+      zh:
+      - 私藏研读
+    start_date: 约192
+    highlight_event_id: guji-cai-yong-event-lunheng-preserved
+  decisions:
+  - date: 约190
+    title: 秘藏《论衡》而归
+    rationale: 视为奇书，密玩以为谈助，不示外人，然书稿赖此得存。
+events:
+- id: guji-cai-yong-event-birth
+  type: birth
+  date: 约132
+  year_of: 132
+  description: 蔡邕出生，约在东汉阳嘉年间。
+- id: guji-cai-yong-event-lunheng-acquired
+  type: endeavor
+  endeavor_id: guji-cai-yong-endeavor-1
+  date: 约190
+  year_of: 190
+  description: 入吴（会稽一带），得王充《论衡》百篇全稿。
+- id: guji-cai-yong-event-lunheng-preserved
+  type: endeavor
+  endeavor_id: guji-cai-yong-endeavor-1
+  date: 约192
+  year_of: 192
+  description: 携《论衡》归，书中数卷被人取走，余八十五篇，成为后世流传之祖本；史通称'论衡之未遇伯喈，逝将烟烬火灭'。
+- id: guji-cai-yong-event-death
+  type: death
+  date: '192'
+  year_of: 192
+  description: 蔡邕卒于汉献帝初平三年，因董卓之案牵连而死。
