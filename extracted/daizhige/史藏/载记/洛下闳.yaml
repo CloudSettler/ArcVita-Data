@@ -1,0 +1,86 @@
+person:
+  qid: guji-洛下闳
+  name_zh: 洛下闳
+  names:
+    zh: 洛下闳
+    en: Luoxia Hong
+  lifespan:
+    birth:
+      date: -156
+      precision: decade
+      is_circa: true
+      raw: 西汉景帝前后，约前二世纪中叶，巴郡阆中人
+    death:
+      date: -87
+      precision: decade
+      is_circa: true
+  birth_date: 约-156
+  death_date: 约-87
+  era: 西汉
+  reign_ref: 汉武帝
+  archetype: 历算天文学家
+  dilemmas:
+  - 民间历法精算之士应诏入朝，能否将巴蜀之学与太史署官方历制相融合
+  - 历成之后受官不受赏，宁归隐乡里以守其德操
+  lesson: 术业专精而不慕荣利，其历法行用千古，是为不朽
+  summary_first_person: 我洛下闳，巴郡阆中人，精于天文历算。汉武帝太初年间，应诏与唐都、司马迁等同造《太初历》，运算转历，创八十一分法，并作浑天仪以测天象。历成，我辞官不受，归隐而德播于世，时人称巴有此贤者。
+  source_urls:
+  - https://zh.wikisource.org/wiki/華陽國志
+endeavors:
+- id: guji-洛下闳-endeavor-1
+  name_zh: 治天文历算之学
+  phases:
+  - key: brewing
+    name_zh: 早年修习天算于阆中
+    labels:
+      zh: 少而好学
+    start_date: -140
+  - key: breakthrough
+    name_zh: 应诏入京参与造历
+    labels:
+      zh: 应诏运算
+    start_date: -104
+    highlight_event_id: guji-洛下闳-event-taichu
+  - key: climax
+    name_zh: 与司马迁、唐都等定《太初历》
+    labels:
+      zh: 太初改历
+    start_date: -104
+    highlight_event_id: guji-洛下闳-event-taichu
+  - key: closure
+    name_zh: 辞官归乡，德操播名
+    labels:
+      zh: 功成不居
+    start_date: -103
+  decisions:
+  - date: -104
+    title_zh: 应汉武帝之诏入京参与太初改历
+    rationale: 以巴蜀民间历算之所长，济汉廷改正朔之所需
+  - date: -103
+    title_zh: 历成而辞谢官爵归隐
+    rationale: 德操仁义之士，不慕富贵，令问令望足矣
+events:
+- id: guji-洛下闳-event-birth
+  type: birth
+  date: -156
+  year_of: -156
+  title_zh: 洛下闳生于巴郡阆中
+  detail: 西汉巴郡阆中人，其地人杰地灵，与任文公等同郡名贤并称。
+- id: guji-洛下闳-event-taichu
+  type: endeavor
+  date: -104-05
+  year_of: -104
+  title_zh: 与唐都、司马迁等共造《太初历》
+  detail: 汉武帝太初元年，洛下闳应诏运算转历，创八十一分律历，与唐都等测定二十八宿、推算气朔，遂颁行《太初历》。
+- id: guji-洛下闳-event-armillary
+  type: endeavor
+  date: -104
+  year_of: -104
+  title_zh: 制作浑天仪以测天象
+  detail: 于改历之际制造浑天仪，确立浑天说之观测基础，为后世天文仪器之先导。
+- id: guji-洛下闳-event-death
+  type: death
+  date: -87
+  year_of: -87
+  title_zh: 洛下闳卒
+  detail: 史载其历成辞官归隐，寿终乡里，名载《华阳国志》，与冯绲、范目等并称巴地英伟。

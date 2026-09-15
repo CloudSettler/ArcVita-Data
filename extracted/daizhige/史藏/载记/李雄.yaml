@@ -1,0 +1,171 @@
+person:
+  qid: guji-李雄
+  name_zh: 李雄
+  names:
+    zh: 李雄
+    en: Li Xiong
+  lifespan:
+    birth:
+      date: '274'
+      precision: year
+      is_circa: true
+      raw: 晋时生年无确载，约生于泰始年间
+    death:
+      date: '334'
+      precision: year
+      is_circa: false
+  birth_date: 约274
+  death_date: '334'
+  era: 两晋之际（十六国成汉开国君主）
+  reign_ref: 李雄称成都王、后称帝，国号大成
+  archetype: 起于流民之乱的开国之君
+  dilemmas:
+  - 六郡流民与蜀土土著之间如何立国治蜀
+  - 称王者奉晋正朔还是自建帝号的两难
+  lesson: 起自微贱者应天顺人，宽简得众可以立国于乱世。
+  summary_first_person: 我李雄本宕渠伍卒、略阳流民出身，乘晋乱与流人之势入据成都，先称成都王，后即帝位，建立成汉，轻徭薄赋，广纳流亡，遂王巴蜀。
+  source_urls:
+  - https://zh.wikisource.org/wiki/華陽國志
+endeavors:
+- id: guji-李雄-endeavor-1
+  name_zh: 起兵据蜀
+  phases:
+  - key: brewing
+    name_zh: 流民入蜀
+    labels:
+      zh:
+      - 流民
+      - 起兵
+    start_date: '301'
+    highlight_event_id: guji-李雄-event-uprising
+  - key: breakthrough
+    name_zh: 攻克成都
+    labels:
+      zh:
+      - 据成都
+    start_date: '304'
+    highlight_event_id: guji-李雄-event-chengdu
+  - key: climax
+    name_zh: 称王建制
+    labels:
+      zh:
+      - 称王
+      - 建元
+    start_date: 304-10
+    highlight_event_id: guji-李雄-event-king
+  - key: closure
+    name_zh: 称帝即位
+    labels:
+      zh:
+      - 称帝
+    start_date: '306'
+    highlight_event_id: guji-李雄-event-emperor
+  decisions:
+  - date: 304-10
+    title_zh: 称成都王，建元建兴
+    rationale: 依蜀地形势先王后帝，步步立国。
+  - date: '306'
+    title_zh: 即皇帝位，国号大成
+    rationale: 据蜀既固，正位号以统巴蜀。
+- id: guji-李雄-endeavor-2
+  name_zh: 经略巴汉与氐乱处置
+  phases:
+  - key: brewing
+    name_zh: 复置宕渠郡
+    labels:
+      zh:
+      - 政区
+      - 宕渠
+    start_date: '304'
+    highlight_event_id: guji-李雄-event-dangqu
+  - key: climax
+    name_zh: 南连氐帅
+    labels:
+      zh:
+      - 武都
+      - 氐
+      - 结好
+    start_date: '312'
+    highlight_event_id: guji-李雄-event-di-alliance
+  - key: closure
+    name_zh: 北抗强赵
+    labels:
+      zh:
+      - 刘曜
+      - 拒敌
+    start_date: '320'
+    highlight_event_id: guji-李雄-event-resist-zhao
+  decisions:
+  - date: '304'
+    title_zh: 复置宕渠郡
+    rationale: 长老谶言出于宕渠，且郡地要冲，宜复旧制固巴土。
+  - date: 约320
+    title_zh: 纳氐王杨难敌、杨坚头来附
+    rationale: 武都氐部遭刘曜攻逼南奔，收之以为屏蔽。
+  - date: 约321
+    title_zh: 阴平不救、遣稚含攻氐
+    rationale: 罗演失郡、杨稚请征，遣兵伐氐以振威巴蜀。
+events:
+- id: guji-李雄-event-birth
+  date: '274'
+  year_of: '274'
+  type: birth
+  name_zh: 李雄生（约）
+  description: 李雄生于晋初，李特之子，出自宕渠流寓略阳之族。
+  location_zh: 略阳
+- id: guji-李雄-event-uprising
+  date: '301'
+  year_of: '301'
+  type: endeavor
+  name_zh: 随李特起兵于蜀
+  description: 六郡流民推李特为主起兵，李雄在昆弟中任事，后破罗尚。
+  location_zh: 益州绵竹一带
+- id: guji-李雄-event-chengdu
+  date: '304'
+  year_of: '304'
+  type: endeavor
+  name_zh: 攻克成都
+  description: 李雄袭破成都，逐益州刺史罗尚，遂有其地。
+  location_zh: 成都
+- id: guji-李雄-event-king
+  date: 304-10
+  year_of: '304'
+  type: endeavor
+  name_zh: 称成都王
+  description: 李雄称成都王，建元建兴，除晋法，约法七章，赋役宽简。
+  location_zh: 成都
+- id: guji-李雄-event-emperor
+  date: '306'
+  year_of: '306'
+  type: endeavor
+  name_zh: 即帝位建大成
+  description: 李雄即皇帝位，国号大成，改元晏平，成汉开国。
+  location_zh: 成都
+- id: guji-李雄-event-dangqu
+  date: '304'
+  year_of: '304'
+  type: endeavor
+  name_zh: 复置宕渠郡
+  description: 永兴元年李雄复置宕渠郡，遂为郡不改，以应宕渠长人谶征。
+  location_zh: 宕渠
+- id: guji-李雄-event-di-alliance
+  date: '312'
+  year_of: 约312
+  type: endeavor
+  name_zh: 纳杨难敌坚头来附
+  description: 武都氐王杨难敌、杨坚为刘曜所攻，南奔李雄至晋寿，遣子为质并厚赂雄兄子晋寿守将稚，雄纳之，氐部还武都。
+  location_zh: 晋寿
+- id: guji-李雄-event-resist-zhao
+  date: '321'
+  year_of: 约321
+  type: endeavor
+  name_zh: 遣兵攻氐败还
+  description: 氐攻走阴平太守罗演，雄使李含、李稚将数千人深入武街城，尽为氐所破杀，遂与杨氏对峙。
+  location_zh: 武都下辨
+- id: guji-李雄-event-death
+  date: '334'
+  year_of: '334'
+  type: death
+  name_zh: 李雄卒
+  description: 李雄死，谥武帝，庙号太宗，兄子李班嗣位。
+  location_zh: 成都
