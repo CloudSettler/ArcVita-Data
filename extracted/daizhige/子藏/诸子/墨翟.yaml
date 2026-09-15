@@ -1,0 +1,139 @@
+person:
+  qid: guji-mo-di
+  name_zh: 墨翟
+  names:
+    zh: 墨子
+    en: Mo Di
+  lifespan:
+    birth:
+      date: -468
+      precision: year
+      is_circa: true
+      raw: 约公元前468年
+    death:
+      date: -376
+      precision: year
+      is_circa: true
+      raw: 约公元前376年
+  birth_date: -468
+  death_date: -376
+  era: 战国初期
+  reign_ref: ''
+  archetype: 思想家·学者
+  dilemmas:
+  - 墨家学说兼爱非攻，然战国争战不休，其道难行于世
+  - 《吕氏春秋》采诸子之长而于墨翟之言'不取其非儒明鬼者'，儒墨相非之张力贯穿其学
+  lesson: 兼爱非攻，摩顶放踵利天下而为之
+  summary_first_person: 我名墨翟，世称墨子，战国初鲁人。我倡兼爱、非攻、尚贤、明鬼，率弟子行义于列国，为墨家开山之祖。《吕氏春秋》集百家之言，采墨家之说的醇正者，而不取我非儒明鬼之论，可见儒墨之辨自古并存于世。
+  source_urls:
+  - https://ctext.org/lvshi-chunqiu
+endeavors:
+- id: guji-mo-di-endeavor-1
+  name_zh: 创立并传布墨家学说
+  phases:
+  - key: brewing
+    name_zh: 学儒而弃儒
+    labels:
+      zh:
+      - 思想形成
+      - 早期
+    start_date: -450
+  - key: breakthrough
+    name_zh: 倡兼爱非攻
+    labels:
+      zh:
+      - 学说确立
+      - 峰值早期
+    start_date: -440
+  - key: climax
+    name_zh: 率徒行义列国
+    labels:
+      zh:
+      - 实践高峰
+    start_date: -430
+  - key: closure
+    name_zh: 学派传承
+    labels:
+      zh:
+      - 晚年
+      - 传承
+    start_date: -390
+  decisions:
+  - date: -450
+    title_zh: 弃儒立墨，自创一派
+    rationale: 儒家礼乐繁缛，故另立兼爱节用之道，与儒并为显学
+- id: guji-mo-di-endeavor-2
+  name_zh: 著《墨子》七十一篇，立论传世
+  phases:
+  - key: brewing
+    name_zh: 讲学授徒
+    labels:
+      zh:
+      - 著述积累
+    start_date: -440
+  - key: breakthrough
+    name_zh: 成书传世
+    labels:
+      zh:
+      - 著述高峰
+    start_date: -420
+  - key: climax
+    name_zh: 墨学为显学
+    labels:
+      zh:
+      - 影响鼎盛
+    start_date: -400
+  - key: closure
+    name_zh: 后学演进
+    labels:
+      zh:
+      - 身后流传
+    start_date: -380
+  decisions:
+  - date: -420
+    title_zh: 明鬼而非儒，守墨者之义
+    rationale: 尊天明鬼以劝善，虽与儒异，持论不苟
+events:
+- id: guji-mo-di-event-birth
+  name_zh: 墨翟出生
+  event_type: birth
+  date: -468
+  year_of: -468
+  is_circa: true
+  location_zh: 鲁国（一说宋国）
+- id: guji-mo-di-event-start-school
+  name_zh: 创立墨家学派，倡兼爱非攻
+  event_type: endeavor
+  endeavor_id: guji-mo-di-endeavor-1
+  date: -440
+  year_of: -440
+  is_circa: true
+  labels:
+    zh:
+    - 思想建立
+    - 高光点
+- id: guji-mo-di-event-writing
+  name_zh: 著《墨子》书立说
+  event_type: endeavor
+  endeavor_id: guji-mo-di-endeavor-2
+  date: -420
+  year_of: -420
+  is_circa: true
+  labels:
+    zh:
+    - 著述
+- id: guji-mo-di-event-cited-in-lvshi
+  name_zh: 学说为后世采择——《吕氏春秋》参取墨家醇正之言
+  event_type: endeavor
+  endeavor_id: guji-mo-di-endeavor-2
+  date: -239
+  year_of: -239
+  description_zh: 《吕氏春秋》以儒为主、参以道家墨家，于墨翟之言不取其非儒明鬼者，其持论颇为不苟
+  is_circa: false
+- id: guji-mo-di-event-death
+  name_zh: 墨翟去世
+  event_type: death
+  date: -376
+  year_of: -376
+  is_circa: true
+  location_zh: 鲁国
