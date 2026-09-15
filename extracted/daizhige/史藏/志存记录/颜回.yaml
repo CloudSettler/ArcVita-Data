@@ -1,0 +1,91 @@
+person:
+  qid: guji-颜回
+  name_zh: 颜回
+  names:
+    zh: 颜回
+    en: Yan Hui
+  lifespan:
+    birth:
+      date: -521
+      precision: year
+      is_circa: true
+      raw: 前521年（约）
+    death:
+      date: -481
+      precision: year
+      is_circa: true
+      raw: 前481年（约）
+  birth_date: -521
+  death_date: -481
+  era: 春秋末期
+  reign_ref: 鲁国
+  archetype: 德行弟子·复圣
+  dilemmas:
+  - 居陋巷箪食瓢饮而不改其乐，穷困与守道并存
+  - 英年早逝，道业未及大展
+  lesson: 贫而好学、安贫乐道，以德行垂范后世
+  summary_first_person: 我名颜回，字子渊，鲁国人，孔门七十二贤之首，以德行著称。我居于陋巷，箪食瓢饮，人不忍其忧而我不改其乐。可惜天不假年，早早离世，孔子痛惜曰『天丧予』。后世尊我为『复圣』，颜氏子孙绵延七十馀代，皆奉我为始祖。
+endeavors:
+- id: guji-颜回-endeavor-1
+  key: brewing
+  name_zh: 从学孔子
+  labels:
+    zh:
+    - 求学期
+  start_date: -521
+  phases:
+  - key: brewing
+    name_zh: 从学孔子
+    labels:
+      zh:
+      - 求学期
+    start_date: -521
+    highlight_event_id: guji-颜回-event-study
+  decisions:
+  - date: -521
+    title: 师从孔子
+    rationale: 少孔子三十岁，入孔门学习德行之学
+- id: guji-颜回-endeavor-2
+  key: breakthrough
+  name_zh: 安贫乐道
+  labels:
+    zh:
+    - 德行期
+  start_date: -500-01-01
+  phases:
+  - key: breakthrough
+    name_zh: 安贫乐道·箪食瓢饮
+    labels:
+      zh:
+      - 德行期
+    start_date: -500-01-01
+    highlight_event_id: guji-颜回-event-virtue
+  decisions:
+  - date: -500-01-01
+    title: 陋巷不改其乐
+    rationale: 一箪食一瓢饮在陋巷，人不堪其忧，回也不改其乐
+events:
+- id: guji-颜回-event-birth
+  date: -521
+  year_of: -521
+  type: birth
+  title: 颜回出生
+  description: 颜回生于鲁国，字子渊，约少孔子三十岁。
+- id: guji-颜回-event-study
+  date: -521
+  year_of: -521
+  type: endeavor
+  title: 从学孔子
+  description: 颜回入孔门，为孔子最得意的德行科弟子。
+- id: guji-颜回-event-virtue
+  date: -500-01-01
+  year_of: -500
+  type: endeavor
+  title: 箪食瓢饮不改其乐
+  description: 居陋巷，一箪食、一瓢饮，人不堪其忧，回也不改其乐，孔子屡赞其贤。
+- id: guji-颜回-event-death
+  date: -481
+  year_of: -481
+  type: death
+  title: 颜回去世
+  description: 颜回早逝，孔子恸哭曰『噫！天丧予！天丧予！』后世追尊为『复圣』。
