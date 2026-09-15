@@ -1,0 +1,126 @@
+person:
+  qid: guji-傅山
+  name_zh: 傅山
+  names:
+    zh: 傅山
+    en: Fu Shan
+  lifespan:
+    birth:
+      date: '1607'
+      precision: year
+      is_circa: true
+      raw: 明万历三十五年（约1607年）
+    death:
+      date: '1684'
+      precision: year
+      is_circa: true
+  birth_date: '1607'
+  death_date: '1684'
+  era: 明末清初
+  reign_ref: 明万历至清康熙年间
+  archetype: 遗民书法家
+  dilemmas:
+  - 出仕新朝与守节遗民身份之间的抉择
+  - 以医隐世而书名日盛的处世矛盾
+  lesson: 宁拙毋巧，书如其人，气节与笔力相表里
+  summary_first_person: 我是傅山，明亡之后我不仕新朝，以行医著述自养。世人谓我书胜于画，我则主张作字先作人，拙朴直率方见本色。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=416370
+endeavors:
+- id: guji-傅山-endeavor-1
+  name_zh: 书法艺术之路
+  phases:
+  - key: brewing
+    name_zh: 少年习书
+    labels:
+      zh:
+      - 师法晋唐
+      - 篆隶真草兼修
+    start_date: '1620'
+    highlight_event_id: guji-傅山-event-2
+  - key: breakthrough
+    name_zh: 书名渐起
+    labels:
+      zh:
+      - 行草独步
+      - 宁拙毋巧
+    start_date: '1640'
+    highlight_event_id: guji-傅山-event-2
+  - key: climax
+    name_zh: 遗民书宗
+    labels:
+      zh:
+      - 清初书坛重镇
+      - 书胜于画见称于世
+    start_date: '1650'
+    highlight_event_id: guji-傅山-event-2
+  - key: closure
+    name_zh: 晚年书论定型
+    labels:
+      zh:
+      - 作字先作人
+    start_date: '1680'
+    highlight_event_id: guji-傅山-event-3
+  decisions:
+  - date: '1644'
+    title_zh: 明亡后拒绝出仕清朝
+    rationale: 以遗民自守，保全气节
+  - date: '1650'
+    title_zh: 致力于篆隶与行草的融合创新
+    rationale: 力矫甜俗馆阁之弊，主张拙朴自然
+- id: guji-傅山-endeavor-2
+  name_zh: 行医著述与隐逸生活
+  phases:
+  - key: brewing
+    name_zh: 弃举业治学
+    labels:
+      zh:
+      - 通经史诸子
+      - 兼攻医学
+    start_date: '1630'
+    highlight_event_id: guji-傅山-event-2
+  - key: breakthrough
+    name_zh: 装病拒试
+    labels:
+      zh:
+      - 以病辞博学鸿词科
+    start_date: '1679'
+    highlight_event_id: guji-傅山-event-3
+  - key: climax
+    name_zh: 医名与书名并重
+    labels:
+      zh:
+      - 悬壶自给
+    start_date: '1680'
+    highlight_event_id: guji-傅山-event-3
+  decisions:
+  - date: '1679'
+    title_zh: 力辞清廷博学鸿词科征召
+    rationale: 不肯以遗民之身受新朝官职
+events:
+- id: guji-傅山-event-birth
+  date: '1607'
+  year_of: 1607
+  type: birth
+  title_zh: 傅山出生
+  detail: 生于山西阳曲（今太原），明末清初书法家、医学家，字青主。
+- id: guji-傅山-event-2
+  date: '1644'
+  year_of: 1644
+  type: endeavor
+  endeavor_id: guji-傅山-endeavor-1
+  title_zh: 明亡守节，立志不仕新朝
+  detail: 甲申之变后傅山披缁为道士，隐居不仕，潜心书法医药。
+- id: guji-傅山-event-3
+  date: '1679'
+  year_of: 1679
+  type: endeavor
+  endeavor_id: guji-傅山-endeavor-2
+  title_zh: 辞博学鸿儒科征召
+  detail: 康熙年间清廷开博学鸿词科征召名士，傅山以病力辞，终不赴。
+- id: guji-傅山-event-death
+  date: '1684'
+  year_of: 1684
+  type: death
+  title_zh: 傅山去世
+  detail: 卒于康熙二十三年，书名画名俱传后世，《皇清书史》以书胜于画者著录于编。

@@ -1,0 +1,87 @@
+person:
+  qid: guji-郑燮
+  name_zh: 郑燮
+  names:
+    zh: 郑燮
+    en: Zheng Xie
+  lifespan:
+    birth:
+      date: '1693'
+      precision: year
+      is_circa: true
+      raw: 约康熙三十二年
+    death:
+      date: '1766'
+      precision: year
+      is_circa: false
+  birth_date: '1693'
+  death_date: '1766'
+  era: 清代
+  reign_ref: 康熙/雍正/乾隆
+  archetype: 书画家·文人
+  dilemmas:
+  - 以书画自给而不趋奉流俗
+  lesson: 艺事贵独创，不染流习
+  summary_first_person: 我郑燮以诗书画三绝名世，虽本篇仅载我论江昱书迹之句，然我一生独创六分半书之风自知之。
+  source_urls:
+  - docs/YAML_STANDARD.md
+endeavors:
+- id: guji-郑燮-endeavor-1
+  name_zh: 书学与板桥体
+  phases:
+  - key: brewing
+    name_zh: 早年学书
+    labels:
+      zh:
+      - 习古
+    start_date: '1705'
+  - key: breakthrough
+    name_zh: 自创六分半书
+    labels:
+      zh:
+      - 独创
+    start_date: '1730'
+    highlight_event_id: guji-郑燮-event-1
+  decisions:
+  - date: '1730'
+    title_zh: 融真隶杂揉成板桥体
+    rationale: 不肯随 赵、董 习气，以隶入行草自成一格
+- id: guji-郑燮-endeavor-2
+  name_zh: 诗文交游
+  phases:
+  - key: climax
+    name_zh: 扬州论书题咏
+    labels:
+      zh:
+      - 交游
+    start_date: '1735'
+    highlight_event_id: guji-郑燮-event-2
+  decisions:
+  - date: '1735'
+    title_zh: 作诗品评扬州书人江昱
+    rationale: 以'神骨清欧阳体质褚性情'之句自见其书学见识
+events:
+- id: guji-郑燮-event-birth
+  date: '1693'
+  year_of: 1693
+  type: birth
+  person_qid: guji-郑燮
+- id: guji-郑燮-event-death
+  date: '1766'
+  year_of: 1766
+  type: death
+  person_qid: guji-郑燮
+- id: guji-郑燮-event-1
+  date: '1730'
+  year_of: 1730
+  type: endeavor
+  person_qid: guji-郑燮
+  title_zh: 创六分半书
+  description_zh: 郑燮以隶法杂入行楷，独创板桥体书风。
+- id: guji-郑燮-event-2
+  date: '1735'
+  year_of: 1735
+  type: endeavor
+  person_qid: guji-郑燮
+  title_zh: 诗评江昱书迹
+  description_zh: 《板桥诗抄》载郑燮诗云'扬州江七无书名，余独爱其神骨清欧阳体质褚性情'，体现其书学品鉴立场。
