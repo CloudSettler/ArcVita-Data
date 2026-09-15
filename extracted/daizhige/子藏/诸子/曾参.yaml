@@ -1,0 +1,115 @@
+person:
+  qid: guji-曾参
+  name_zh: 曾参
+  names:
+    zh: 曾参
+    en: Zeng Shen
+  lifespan:
+    birth:
+      date: -505
+      precision: year
+      is_circa: true
+      raw: 春秋末期
+    death:
+      date: -435
+      precision: year
+      is_circa: true
+      raw: 春秋战国之际
+  birth_date: -505
+  death_date: -435
+  era: 春秋末期
+  reign_ref: 鲁国
+  archetype: 儒家孝行者与经传撰述者
+  dilemmas:
+  - 曾子所撰之书是否出自其本人之手，抑或后人辑录（如《大孝篇》及乐正子春事，疑出后人所辑）
+  - 传本篇卷残缺，汉志十八篇而今传十篇，真貌难考
+  lesson: 有德者必有言，日省其身而近于道
+  summary_first_person: 我名参，鲁人，孔门弟子。世传《曾子》一书，自《修身》至《天圆》凡十篇，分为二卷，其文明白皎洁、敷腴谆笃。我谨守孝道，一日三省吾身，君子爱日以勤学，庶几不失孔子之教。
+endeavors:
+- id: guji-曾参-endeavor-1
+  name_zh: 撰述与传授儒学
+  phases:
+  - key: brewing
+    name_zh: 师事孔子
+    labels:
+      zh:
+      - 孔门弟子
+    start_date: -505
+    highlight_event_id: guji-曾参-event-2
+  - key: breakthrough
+    name_zh: 著《曾子》
+    labels:
+      zh:
+      - 撰述
+    start_date: -470
+    highlight_event_id: guji-曾参-event-3
+  - key: closure
+    name_zh: 学传后世
+    labels:
+      zh:
+      - 传经
+    start_date: -440
+    highlight_event_id: guji-曾参-event-4
+  decisions:
+  - date: -470
+    title_zh: 撰《曾子》十篇
+    rationale: 本于德行孝道，记修身治学之要，以明孔子之教
+- id: guji-曾参-endeavor-2
+  name_zh: 以孝立身与日省功夫
+  phases:
+  - key: brewing
+    name_zh: 一日三省
+    labels:
+      zh:
+      - 修身
+    start_date: -490
+    highlight_event_id: guji-曾参-event-2
+  - key: climax
+    name_zh: 孝行著于世
+    labels:
+      zh:
+      - 孝道
+    start_date: -460
+    highlight_event_id: guji-曾参-event-3
+  decisions:
+  - date: -480
+    title_zh: 谨守三省自治之功
+    rationale: 君子爱日，自治以诚，不敢一日懈怠
+events:
+- id: guji-曾参-event-birth
+  person_qid: guji-曾参
+  type: birth
+  date: -505
+  year_of: -505
+  place: 鲁
+  title_zh: 曾参生于鲁国
+  description: 孔子弟子曾参，鲁人也，约生于春秋末期。
+- id: guji-曾参-event-death
+  person_qid: guji-曾参
+  type: death
+  date: -435
+  year_of: -435
+  place: 鲁
+  title_zh: 曾参卒
+  description: 曾参卒于鲁，其学与其书传于后世。
+- id: guji-曾参-event-2
+  person_qid: guji-曾参
+  type: endeavor
+  date: -485
+  year_of: -485
+  title_zh: 师从孔子
+  description: 曾参为孔子弟子，谨记师教，'七十而从心'乃进学之序，'七十免过'乃勉人之辞，立言迥然不同而周氏不察讥之，过矣。
+- id: guji-曾参-event-3
+  person_qid: guji-曾参
+  type: endeavor
+  date: -470
+  year_of: -470
+  title_zh: 撰《曾子》书
+  description: 撰《曾子》十八篇（汉志所载），今传十篇分为二卷，与唐志合；其书明白皎洁若列星之丽天，敷腴谆笃若万卉之含泽；一日三省，君子爱日，皆见其中。
+- id: guji-曾参-event-4
+  person_qid: guji-曾参
+  type: endeavor
+  date: -435
+  year_of: -435
+  title_zh: 《曾子》之书备见于《大戴礼》
+  description: 《曾子》之书已备见于《大戴礼》中，汉志云十八篇而亡其八篇；或谓《大孝篇》及乐正子春事为后人所辑，非曾子所自著。
