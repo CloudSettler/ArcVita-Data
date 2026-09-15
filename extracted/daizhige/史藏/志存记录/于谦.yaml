@@ -1,0 +1,145 @@
+person:
+  qid: guji-于谦
+  name_zh: 于谦
+  names:
+    zh: 于谦
+    en: Yu Qian
+  lifespan:
+    birth:
+      date: '1398'
+      precision: year
+      is_circa: true
+      raw: 洪武年间生（古文本未载，据史补）
+    death:
+      date: 1457-01
+      precision: month
+      is_circa: true
+      raw: 天顺元年正月，与王文、范广同被执杀
+  birth_date: '1398'
+  death_date: 1457-01
+  era: 明代
+  reign_ref: 正统·景泰·天顺
+  archetype: 社稷之臣·救时宰相
+  dilemmas:
+  - 土木之变后英宗被俘，拥立郕王即位以安社稷，须冒迎立外藩之嫌、担擅立之名
+  - 也先挟太上皇帝叩关索迎，出迎恐堕其诈，不出则恐伤上皇；坚拒出迎并督师凭城决战
+  - 夺门之变后，以无实之“迎外藩”罪被杀，功在社稷而身死非命
+  lesson: 社稷为重，不以一身利害易其守；危疑之际，挺身任事，虽死不悔
+  summary_first_person: 土木败绩之后，我以兵部尚书之力请郕王即位，以绝也先挟持之谋；及其拥上皇至城下索我出迎，我知其诈而不出，督率总兵分营凭城与战，连战二三日虏骑乃遁。然天顺改元，曹吉祥、石亨辈迎上皇复位，假“迎外藩”为名执而杀我，实无此事。功之所在，祸亦随之，我固无憾于社稷。
+endeavors:
+- id: guji-于谦-endeavor-1
+  name_zh: 力保社稷·北京保卫战
+  phases:
+  - key: brewing
+    name_zh: 请郕王即位以弭祸乱
+    labels:
+      zh:
+      - 社稷大计
+      - 危疑定策
+    start_date: '1449-08-29'
+    highlight_event_id: guji-于谦-event-1449-qingli
+  - key: breakthrough
+    name_zh: 拒也先索迎，凭城督战
+    labels:
+      zh:
+      - 却敌安邦
+      - 兵部尚书
+    start_date: '1449-10-10'
+    highlight_event_id: guji-于谦-event-1449-defense
+  - key: closure
+    name_zh: 夺门之变中遇害
+    labels:
+      zh:
+      - 身死非命
+    start_date: 1457-01
+    highlight_event_id: guji-于谦-event-1457-death
+  decisions:
+  - date: '1449-08-29'
+    title_zh: 与王直、陈循等以宗庙社稷大计力请郕王即位
+    rationale: 土木败绩，人心危疑，思得长君以弭祸乱，故伏阙力请，不得已而为此变通之举
+  - date: '1449-10-10'
+    title_zh: 拒也先索大臣出迎，督率总兵分营凭城与战
+    rationale: 知也先挟太上皇帝入关为诈，出迎必堕其计；凭城固战，连战二三日，虏势沮而遁去
+- id: guji-于谦-endeavor-2
+  name_zh: 景泰朝辅政
+  phases:
+  - key: brewing
+    name_zh: 以兵部尚书赞画防御
+    labels:
+      zh:
+      - 内外赞画
+      - 勤劳王事
+    start_date: 1449-10
+    highlight_event_id: guji-于谦-event-1449-defense
+  - key: climax
+    name_zh: 景泰数年敬礼大臣、宽恤民下之局中任事
+    labels:
+      zh:
+      - 辅弼之臣
+    start_date: '1450'
+    highlight_event_id: guji-于谦-event-1449-qingli
+  - key: closure
+    name_zh: 天顺改元被黜杀，名随功没
+    labels:
+      zh:
+      - 功成身殒
+    start_date: 1457-01
+    highlight_event_id: guji-于谦-event-1457-death
+  decisions:
+  - date: 1449-10
+    title_zh: 以内外赞画防御为己任，与陈循协力居多
+    rationale: 虏骑剽掠、势亦张大，居阁者未明而入、抵暮而出，防御之事赖于谦之力为多
+events:
+- id: guji-于谦-event-birth
+  year_of: 1398
+  date: '1398'
+  precision: year
+  is_circa: true
+  title_zh: 于谦生
+  description_zh: 古文本未载其生年，据史补为洪武末年生
+- id: guji-于谦-event-1449-qingli
+  year_of: 1449
+  date: '1449-08-29'
+  precision: day
+  is_circa: false
+  title_zh: 伏阙力请郕王即位
+  description_zh: 正统十四年八月二十九日，土木败绩之后，文武百官具本伏文华门请郕王即位，王再三辞让，尚书王直、于谦、陈循等咸以宗庙社稷大计为言，力请不退，会太后命亦下，乃许以九月初六日即位
+  endeavor_ids:
+  - guji-于谦-endeavor-1
+  - guji-于谦-endeavor-2
+- id: guji-于谦-event-1449-refuse
+  year_of: 1449
+  date: '1449-10-10'
+  precision: day
+  is_circa: false
+  title_zh: 拒也先索迎之诈
+  description_zh: 十月初十日，虏酋也先合众拥太上皇帝入关，直造城下，索大臣王直、于谦出迎，众知其诈不出，乃遣王复、王荣充大臣出迎
+  endeavor_ids:
+  - guji-于谦-endeavor-1
+- id: guji-于谦-event-1449-defense
+  year_of: 1449
+  date: '1449-10-12'
+  precision: day
+  is_circa: true
+  title_zh: 督师凭城力战却虏
+  description_zh: 兵部尚书于谦督率总兵分营凭城与战，互有杀伤，连战二三日虏不退；陈循请调各省精骑入卫并榜谕悬赏，至十四、五日也先果先遁去，内外赞画防御，于谦之力居多
+  endeavor_ids:
+  - guji-于谦-endeavor-1
+  - guji-于谦-endeavor-2
+- id: guji-于谦-event-1457-death
+  year_of: 1457
+  date: 1457-01
+  precision: month
+  is_circa: true
+  title_zh: 夺门之变中被执杀
+  description_zh: 天顺元年正月，太监曹吉祥、武清侯石亨等密谋迎太上皇于南城复位，执于谦、王文、范广杀之，罪其迎外藩也，然实无此事，时诸人欲张己功，假此以为名
+  endeavor_ids:
+  - guji-于谦-endeavor-1
+  - guji-于谦-endeavor-2
+- id: guji-于谦-event-death
+  year_of: 1457
+  date: 1457-01
+  precision: month
+  is_circa: true
+  title_zh: 于谦卒
+  description_zh: 于天顺元年正月夺门之变中与王文、范广同被杀
