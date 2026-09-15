@@ -1,0 +1,98 @@
+person:
+  qid: guji-方苞
+  name_zh: 方苞
+  names:
+    zh: 方苞
+    en: Fang Bao
+  lifespan:
+    birth:
+      date: '1668'
+      precision: year
+      is_circa: true
+      raw: 康熙七年
+    death:
+      date: '1749'
+      precision: year
+      is_circa: true
+  birth_date: '1668'
+  death_date: '1749'
+  era: 清代康熙、雍正、乾隆年间
+  reign_ref: 康熙/雍正/乾隆
+  archetype: 文宗学者
+  dilemmas:
+  - 戴名世《南山集》案牵连下狱，身陷生死与义节两难
+  - 奉敕编书与坚守古文义法之间的取舍
+  lesson: 言有物而言有序，文章以义法为宗，逆境中仍以文传世。
+  summary_first_person: 我方苞，字灵皋，号望溪，桐城人。因《南山集》案牵连下狱，蒙赦後以白衣入直南书房，累官至礼部侍郎。我倡古文义法，开桐城派之先，诗文兼擅，晚岁笃守家传杜诗之法。
+endeavors:
+- id: guji-方苞-endeavor-1
+  name_zh: 下狱与入直内廷
+  phases:
+  - key: brewing
+    name_zh: 早岁为学
+    labels:
+      zh:
+      - 举业
+      - 古文
+    start_date: '1690'
+    highlight_event_id: guji-方苞-event-prison
+  - key: climax
+    name_zh: 南书房行走
+    labels:
+      zh:
+      - 文学侍从
+    start_date: '1712'
+    highlight_event_id: guji-方苞-event-nanshufang
+  decisions:
+  - date: '1711'
+    title: 戴名世案中不改初衷
+    rationale: 因《南山集》序获罪下狱，狱中仍论文章之学。
+- id: guji-方苞-endeavor-2
+  name_zh: 开创桐城古文义法
+  phases:
+  - key: breakthrough
+    name_zh: 提出义法
+    labels:
+      zh:
+      - 义法
+      - 古文
+    start_date: '1720'
+    highlight_event_id: guji-方苞-event-yifa
+  - key: closure
+    name_zh: 老而弥笃
+    labels:
+      zh:
+      - 批杜
+      - 守家传诗法
+    start_date: '1740'
+    highlight_event_id: guji-方苞-event-yifa
+  decisions:
+  - date: '1720'
+    title: 立'言有物、言有序'之义法
+    rationale: 以经术为根柢，区别排句与律句，文必贯冒自然。
+events:
+- id: guji-方苞-event-birth
+  date: '1668'
+  year_of: 1668
+  type: birth
+  summary: 方苞生于江南桐城。
+- id: guji-方苞-event-death
+  date: '1749'
+  year_of: 1749
+  type: death
+  summary: 方苞卒，享年八十二。
+- id: guji-方苞-event-prison
+  date: '1711'
+  year_of: 1711
+  type: trial
+  summary: 因戴名世《南山集》案牵连下狱。
+- id: guji-方苞-event-nanshufang
+  date: '1712'
+  year_of: 1712
+  type: appointment
+  summary: 蒙赦後以白衣入直南书房，奉敕校勘群籍。
+- id: guji-方苞-event-yifa
+  date: '1720'
+  year_of: 1720
+  type: literary_work
+  summary: 标举古文义法，与望溪文、宜田诗并为门内之望，开桐城派之先声。
