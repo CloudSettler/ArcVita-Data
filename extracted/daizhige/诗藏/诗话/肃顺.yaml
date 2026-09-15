@@ -1,0 +1,160 @@
+person:
+  qid: guji-肃顺
+  name_zh: 肃顺
+  names:
+    zh: 肃顺
+    en: Sushun
+  lifespan:
+    birth:
+      date: '1816'
+      precision: year
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: '1861'
+      precision: year
+      is_circa: false
+      raw: 辛酉政变后被诛
+  birth_date: '1816'
+  death_date: '1861'
+  era: 清咸丰朝
+  reign_ref: 咸丰
+  archetype: 强力权臣
+  dilemmas:
+  - 主张严刑杀大臣以塞天变，与保全宰执重臣之体统相冲突
+  - 顾命辅政与两宫太后权力之争，终致身死
+  lesson: 以严峻立威者，往往因权势凌人而在政变中倾覆。
+  summary_first_person: 我以宗室重臣佐文宗，力主严办戊午科场案，杀大学士柏葰以整饬吏治；文宗升遐后受顾命，权倾一时，然辛酉之变中为两宫所诛。
+  source_urls:
+  - https://example.org/guji/sushun
+endeavors:
+- id: guji-肃顺-endeavor-1
+  name_zh: 主持戊午科场案
+  phases:
+  - key: brewing
+    name_zh: 结怨主考
+    labels:
+      zh:
+      - 监察
+      - 科场
+    start_date: '1858-08-01'
+    highlight_event_id: guji-肃顺-event-censor-report
+  - key: climax
+    name_zh: 严讯置典
+    labels:
+      zh:
+      - 会讯
+      - 兴狱
+    start_date: '1858-10-01'
+    highlight_event_id: guji-肃顺-event-verdict
+  - key: closure
+    name_zh: 监斩柏葰
+    labels:
+      zh:
+      - 行刑
+    start_date: '1859-02-01'
+    highlight_event_id: guji-肃顺-event-execution
+  decisions:
+  - date: '1858-08-01'
+    title_zh: 藉御史奏参发难查办科场
+    rationale: 甲榜发后谣诼纷起，孟传金奏第七名平龄素系优伶不谙文理，遂乘机倾主考柏葰。
+  - date: '1859-02-01'
+    title_zh: 建言必杀大臣以塞天变
+    rationale: 是年彗星长亘天，以为非杀大臣不足以回天象，力北路。
+- id: guji-肃顺-endeavor-2
+  name_zh: 顾命辅政与失势
+  phases:
+  - key: brewing
+    name_zh: 受顾命
+    labels:
+      zh:
+      - 顾命
+      - 辅政
+    start_date: '1861-08-22'
+    highlight_event_id: guji-肃顺-event-regency
+  - key: climax
+    name_zh: 两宫夺权
+    labels:
+      zh:
+      - 政变
+    start_date: '1861-11-01'
+    highlight_event_id: guji-肃顺-event-coup
+  - key: closure
+    name_zh: 就戮菜市
+    labels:
+      zh:
+      - 伏诛
+    start_date: '1861-11-01'
+    highlight_event_id: guji-肃顺-event-death
+  decisions:
+  - date: '1861-08-22'
+    title_zh: 假传诏命以内辅政
+    rationale: 文宗升遐后，与载垣、端华等以顾命大臣自居，权倾朝野。
+events:
+- id: guji-肃顺-event-birth
+  kind: birth
+  date: '1816'
+  year_of: 1816
+  title_zh: 肃顺约于此年生
+  participants:
+  - guji-肃顺
+- id: guji-肃顺-event-censor-report
+  kind: career
+  date: '1858-09-18'
+  year_of: 1858
+  title_zh: 御史孟传金奏参平龄，科场案发
+  participants:
+  - guji-肃顺
+  - guji-柏葰
+  location: 北京
+  detail: 御史奏第七名举人平龄素系优伶不谙文理，请推治；肃顺等乘机耸动查办本科技举人朱墨卷。
+- id: guji-肃顺-event-verdict
+  kind: career
+  date: '1859-02-01'
+  year_of: 1859
+  title_zh: 勤政殿宣旨，柏葰弃市
+  participants:
+  - guji-肃顺
+  - guji-柏葰
+  - guji-载垣
+  location: 北京勤政殿
+  detail: 会讯王大臣请结柏葰与罗鸿绎等一案，上御勤政殿，柏葰与浦安、鸿绎、鹤龄同日弃西市。
+- id: guji-肃顺-event-execution
+  kind: career
+  date: '1859-02-01'
+  year_of: 1859
+  title_zh: 肃顺监视行刑，与柏葰菜市诀别
+  participants:
+  - guji-肃顺
+  - guji-柏葰
+  location: 北京菜市口
+  detail: 肃顺与刑部尚书赵光监视行刑，抵菜市与柏葰携手寒暄数语，出会同宣旨，意气飞扬。
+- id: guji-肃顺-event-regency
+  kind: career
+  date: '1861-08-22'
+  year_of: 1861
+  title_zh: 文宗升遐，肃顺等同受顾命
+  participants:
+  - guji-肃顺
+  - guji-载垣
+  - guji-端华
+  location: 热河
+  detail: 端、肃等顾命辅政诸事，一时权倾朝野。
+- id: guji-肃顺-event-coup
+  kind: career
+  date: '1861-11-01'
+  year_of: 1861
+  title_zh: 两宫政变，肃顺被执
+  participants:
+  - guji-肃顺
+  location: 北京
+  detail: 俄两宫内断，雷霆骤惊，肃顺伏诛之局始于此。
+- id: guji-肃顺-event-death
+  kind: death
+  date: '1861-11-01'
+  year_of: 1861
+  title_zh: 肃顺大辟就戳
+  participants:
+  - guji-肃顺
+  location: 北京菜市口
+  detail: 辛酉政变后肃顺以大辟论罪，赵尚书监斩。
