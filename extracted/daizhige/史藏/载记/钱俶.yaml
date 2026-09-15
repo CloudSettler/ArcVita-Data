@@ -1,0 +1,167 @@
+person:
+  qid: guji-钱俶
+  name_zh: 钱俶
+  names:
+    zh: 钱俶
+    en: Qian Chu
+  lifespan:
+    birth:
+      date: '929'
+      precision: year
+      is_circa: true
+      raw: '929'
+    death:
+      date: '988'
+      precision: year
+      is_circa: false
+  birth_date: '929'
+  death_date: '988'
+  era: 五代十国·吴越
+  reign_ref: 吴越国王（948—978 在位，忠懿王）
+  archetype: 末代纳土归顺之君
+  dilemmas:
+  - 位居一方而宋一统大势已成，是保境自守还是纳土归宋
+  - 助宋讨伐南唐与唇亡齿寒之间的两难
+  lesson: 识时势、保生民，舍王位而全宗族，纳土归宋终得善终。
+  summary_first_person: 我为吴越国王钱俶，尊奉中原，助宋平江南，终以所部十三州一军八十六县纳土归宋。
+  source_urls:
+  - https://zh.wikisource.org/wiki/十国春秋/卷081
+  - https://zh.wikisource.org/wiki/十国春秋/卷082
+endeavors:
+- id: guji-钱俶-endeavor-1
+  name_zh: 尊宋纳贡、保境奉朝
+  phases:
+  - key: brewing
+    name_zh: 遣使入贡
+    labels:
+      zh: 贡奉不绝
+    start_date: '960'
+    highlight_event_id: guji-钱俶-event-tribute-song
+  - key: breakthrough
+    name_zh: 加官进爵
+    labels:
+      zh: 屡受封赏
+    start_date: '963'
+    highlight_event_id: guji-钱俶-event-titled-wuyue-king
+  - key: climax
+    name_zh: 纳土归宋
+    labels:
+      zh: 献地称臣
+    start_date: 978-05
+    highlight_event_id: guji-钱俶-event-land-surrender
+  - key: closure
+    name_zh: 徙封淮海、宿卫京师
+    labels:
+      zh: 举家留京
+    start_date: 978-05
+    highlight_event_id: guji-钱俶-event-huaihai-king
+  decisions:
+  - date: 961-10
+    title_zh: 命弟信入贡于宋
+    rationale: 宋既革命，贡奉有加，以固两国之好。
+  - date: 978-05
+    title_zh: 决策上表献土
+    rationale: 丞相崔仁冀劝纳土不然祸且立至，遂献十三州一军八十六县，庶免覆亡之祸。
+- id: guji-钱俶-endeavor-2
+  name_zh: 助宋平江南（伐南唐）
+  phases:
+  - key: brewing
+    name_zh: 密表请师期
+    labels:
+      zh: 阴附宋廷
+    start_date: 974-09
+    highlight_event_id: guji-钱俶-event-request-war-date
+  - key: breakthrough
+    name_zh: 授招讨制置使
+    labels:
+      zh: 亲率五万众
+    start_date: 974-10
+    highlight_event_id: guji-钱俶-event-attack-changzhou
+  - key: climax
+    name_zh: 拔常州、平润州
+    labels:
+      zh: 屡克敌城
+    start_date: 975-04
+    highlight_event_id: guji-钱俶-event-battle-changzhou
+  - key: closure
+    name_zh: 金陵平、奉表称贺
+    labels:
+      zh: 请觐入朝
+    start_date: 975-11
+    highlight_event_id: guji-钱俶-event-jinling-peace
+  decisions:
+  - date: 974-07
+    title_zh: 奉宋诏出师伐江南
+    rationale: 宋帝谕以将讨江南，许唇亡齿寒之言不可惑，遂练兵助讨。
+  - date: 975-04
+    title_zh: 许常州禹万诚纳款
+    rationale: 知常州军州事遣使请降，从其请，遂拔常州。
+events:
+- id: guji-钱俶-event-birth
+  date: '929'
+  date_precision: year
+  year_of: 929-01-01
+  event_type: birth
+  short_summary: 钱俶生。
+- id: guji-钱俶-event-tribute-song
+  date: 960-11
+  date_precision: month
+  year_of: 960-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-1
+  short_summary: 自宋革命，王命弟衢州刺史信入贡，贡奉有加常数。
+- id: guji-钱俶-event-titled-wuyue-king
+  date: 968-03
+  date_precision: month
+  year_of: 968-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-1
+  short_summary: 宋封王为吴越国王，加食邑一千户实封一百户。
+- id: guji-钱俶-event-request-war-date
+  date: 974-09
+  date_precision: month
+  year_of: 974-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-2
+  short_summary: 遣掌书记黄彝简入贡，密表谢并请师期，愿助宋讨江南。
+- id: guji-钱俶-event-attack-changzhou
+  date: 974-10
+  date_precision: month
+  year_of: 974-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-2
+  short_summary: 授东南面招讨制置使，亲率五万余人自国城出发攻常州，丁德裕为先锋。
+- id: guji-钱俶-event-battle-changzhou
+  date: 975-04
+  date_precision: month
+  year_of: 975-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-2
+  short_summary: 复亲攻常州牙城，许禹万诚纳款，遂拔常州。
+- id: guji-钱俶-event-jinling-peace
+  date: 975-11
+  date_precision: month
+  year_of: 975-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-2
+  short_summary: 江南平，王奉表称贺且请入觐；十二月宋诏许王入觐。
+- id: guji-钱俶-event-land-surrender
+  date: 978-05
+  date_precision: month
+  year_of: 978-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-1
+  short_summary: 决策纳土，上表献所部十三州一军八十六县、户五十五万六百八十、兵十一万五千三十六于宋。
+- id: guji-钱俶-event-huaihai-king
+  date: 978-05
+  date_precision: month
+  year_of: 978-01-01
+  event_type: endeavor_event
+  endeavor_ref: guji-钱俶-endeavor-1
+  short_summary: 宋改封王为淮海国王，赐礼贤宅为永业，举家宿卫京师。
+- id: guji-钱俶-event-death
+  date: '988'
+  date_precision: year
+  year_of: 988-01-01
+  event_type: death
+  short_summary: 钱俶卒。
