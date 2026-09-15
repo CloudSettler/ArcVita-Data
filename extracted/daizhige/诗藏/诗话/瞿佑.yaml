@@ -1,0 +1,127 @@
+person:
+  qid: guji-瞿佑
+  name_zh: 瞿佑
+  names:
+    zh: 瞿佑
+    en: Qu You
+  lifespan:
+    birth:
+      date: '1347'
+      precision: year
+      is_circa: true
+      raw: 字宗吉，号存斋，明初在世，洪武间已任职教席
+    death:
+      date: '1433'
+      precision: year
+      is_circa: true
+      raw: 卒年史无明文，约永乐末宣德初
+  birth_date: '1347'
+  death_date: '1433'
+  era: 明
+  reign_ref: 洪武—洪熙
+  archetype: 文人学者
+  dilemmas:
+  - 宦途清秩与谪居塞外的逆境
+  - 困苦抑郁中以评诗吟咏自遣还是废弃吟事
+  lesson: 以诚诵诗，夷险不易其心，穷而后工，老而弥笃
+  summary_first_person: 我以明经入仕，历仁和、临安、宜阳三邑庠训导，升国子助教，复任籓府长史，后谪居塞外。困约之中吟咏不废，晚年归休故里，录师友言论与触景吟咏，成《归田诗话》百二十条，析为三卷，以诚得古人作诗之要。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/瞿佑
+endeavors:
+- id: guji-瞿佑-endeavor-1
+  name_zh: 历任教职与籓府长史
+  description: 以明经荐，筮仕仁和、临安、宜阳三邑庠训导，升国子助教，复升籓府长史，克胜辅导之任。
+  phases:
+  - key: brewing
+    name_zh: 明经入仕
+    labels:
+      zh:
+      - 教职
+    start_date: '1371'
+  - key: climax
+    name_zh: 亲籓长史
+    labels:
+      zh:
+      - 辅导
+    start_date: '1391'
+  decisions:
+  - date: '1371'
+    title: 应明经荐，任教邑庠
+    rationale: 以经学得荐，授三邑庠训导，清秩温燅旧学
+- id: guji-瞿佑-endeavor-2
+  name_zh: 著《归田诗话》
+  description: 谪居塞外及晚年归里期间，录师友谈论、宦游见闻及触景吟咏，得百二十条，析为上中下三卷，洪熙乙巳中秋自序。
+  phases:
+  - key: brewing
+    name_zh: 追念少日吟事
+    labels:
+      zh:
+      - 笔录
+    start_date: '1420'
+  - key: breakthrough
+    name_zh: 笔录成编
+    labels:
+      zh:
+      - 诗话
+    start_date: '1425'
+    highlight_event_id: guji-瞿佑-event-selfpreface
+  - key: closure
+    name_zh: 侄辈锓梓
+    labels:
+      zh:
+      - 刻书传世
+    start_date: '1466'
+    highlight_event_id: guji-瞿佑-event- carving
+events:
+- id: guji-瞿佑-event-birth
+  date: '1347'
+  year_of: 1347
+  type: birth
+  title: 瞿佑生
+  description: 钱塘人，生长多贤之里，后字宗吉，号存斋。
+  participants:
+  - guji-瞿佑
+- id: guji-瞿佑-event-teaching
+  date: '1371'
+  year_of: 1371
+  type: endeavor
+  title: 参临安教职
+  description: 洪武间任职临安教席，岁终行乡饮酒礼，选诸生习歌《鹿鸣》等篇，俨然有古风。
+  participants:
+  - guji-瞿佑
+- id: guji-瞿佑-event-exile
+  date: '1405'
+  year_of: 1405
+  type: endeavor
+  title: 谪居塞外，吟咏不废
+  description: 覆患难，谪塞垣，羁穷困约之中吟咏不废；太师英国张公延为西宾，甚加礼貌。
+  participants:
+  - guji-瞿佑
+- id: guji-瞿佑-event-selfpreface
+  date: '1425-09-08'
+  year_of: 1425
+  type: creation
+  title: 自序《归田诗话》
+  description: 洪熙乙巳中秋日自序，置几案间时加披览，宛然如见长上而接师友。
+  participants:
+  - guji-瞿佑
+  related_endeavor_ids:
+  - guji-瞿佑-endeavor-2
+- id: guji-瞿佑-event-carving
+  date: '1466'
+  year_of: 1466
+  type: publication
+  title: 侄德恭等谋刻梓以传
+  description: 成化间其侄德恭暨弟德定、德润共图锓梓，柯潜、木讷等为之序。
+  participants:
+  - guji-瞿佑
+  related_endeavor_ids:
+  - guji-瞿佑-endeavor-2
+- id: guji-瞿佑-event-death
+  date: '1433'
+  year_of: 1433
+  type: death
+  title: 瞿佑卒
+  description: 卒年约在宣德间；成化初诸序皆称先生为已故之翁。
+  participants:
+  - guji-瞿佑
