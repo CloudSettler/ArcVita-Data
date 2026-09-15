@@ -1,0 +1,130 @@
+person:
+  qid: guji-韩世忠
+  name_zh: 韩世忠
+  names:
+    zh: 韩世忠
+    en: Han Shizhong
+  lifespan:
+    birth:
+      date: '1089'
+      precision: year
+      is_circa: true
+      raw: 生年史传未详于本卷
+    death:
+      date: '1151'
+      precision: year
+      is_circa: true
+      raw: 本卷未载，据通行传记约卒于绍兴二十一年
+  birth_date: '1089'
+  death_date: '1151'
+  era: 南宋
+  reign_ref: 宋高宗（建炎、绍兴）
+  archetype: 抗金名将
+  dilemmas:
+  - 黄天荡之战兵力于金军悬殊，虽先胜终因火攻败绩，进退两难
+  - 戍守江淮与赴行在听命之间的军政权衡
+  lesson: 据险截击、以寡御众，虽败犹彰忠勇，然孤军难支大局。
+  summary_first_person: 建炎四年金人北撤，我屯焦山寺并驻军扬子江截其归路，屡败兀术；再战江中遇火攻败绩。虽经罢黜，旋蒙起复，授检校少师、武成感德军节度使。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷26
+endeavors:
+- id: guji-韩世忠-endeavor-1
+  name_zh: 镇江截击金军归路
+  labels:
+    zh:
+    - 抗金
+    - 阻击战
+  phases:
+  - key: brewing
+    name_zh: 电镇江焦山
+    labels:
+      zh:
+      - 布防
+    start_date: 1130-03
+    highlight_event_id: guji-韩世忠-event-1
+  - key: climax
+    name_zh: 扬子江要击兀术
+    labels:
+      zh:
+      - 截击
+    start_date: 1130-04
+    highlight_event_id: guji-韩世忠-event-2
+  - key: closure
+    name_zh: 江中再战失利
+    labels:
+      zh:
+      - 败绩
+    start_date: 1130-04
+    highlight_event_id: guji-韩世忠-event-3
+  decisions:
+  - date: 1130-03
+    title_zh: 屯焦山寺邀击金人
+    rationale: 金兵自平江北退，镇江为归路要冲，据险截击。
+  - date: 1130-04
+    title_zh: 驻军扬子江要金人归路
+    rationale: 兀术欲渡江北归，扼守江面可断其退路。
+- id: guji-韩世忠-endeavor-2
+  name_zh: 起复与节度使授任
+  labels:
+    zh:
+    - 仕途
+  phases:
+  - key: brewing
+    name_zh: 奉召赴行在
+    labels:
+      zh:
+      - 听命
+    start_date: 1130-06
+    highlight_event_id: guji-韩世忠-event-4
+  - key: breakthrough
+    name_zh: 授检校少师、节度使
+    labels:
+      zh:
+      - 加官
+    start_date: 1130-08
+    highlight_event_id: guji-韩世忠-event-5
+  decisions:
+  - date: 1130-07
+    title_zh: 与张俊并罢
+    rationale: 朝廷裁抑诸将权柄，与张俊同时罢任。
+events:
+- id: guji-韩世忠-event-birth
+  date: '1089'
+  year_of: 1089
+  type: birth
+  title_zh: 韩世忠约生于此年（推估）
+- id: guji-韩世忠-event-1
+  date: 1130-03
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-韩世忠-endeavor-1
+  title_zh: 丁巳，金人至镇江府，世忠屯焦山寺邀击之
+- id: guji-韩世忠-event-2
+  date: 1130-04
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-韩世忠-endeavor-1
+  title_zh: 驻军扬子江，要金人归路，屡败之，兀术引军走建康
+- id: guji-韩世忠-event-3
+  date: 1130-04
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-韩世忠-endeavor-1
+  title_zh: 与兀术再战江中，金人乘风纵火，世忠败绩
+- id: guji-韩世忠-event-4
+  date: 1130-06
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-韩世忠-endeavor-2
+  title_zh: 庚寅，召韩世忠率兵赴行在
+- id: guji-韩世忠-event-5
+  date: 1130-08
+  year_of: 1130
+  type: endeavor
+  endeavor_id: guji-韩世忠-endeavor-2
+  title_zh: 以韩世忠为检校少师、武成感德军节度使
+- id: guji-韩世忠-event-death
+  date: '1151'
+  year_of: 1151
+  type: death
+  title_zh: 韩世忠约卒于此年（推估）
