@@ -1,0 +1,133 @@
+person:
+  qid: guji-吴可读
+  name_zh: 吴可读
+  names:
+    zh: 吴可读
+    en: Wu Kedu
+  lifespan:
+    birth:
+      date: 1812
+      precision: year
+      is_circa: true
+      raw: 古文未载，据传约生于嘉庆年间
+    death:
+      date: 1879-04-25
+      precision: day
+      is_circa: false
+      raw: 光绪五年闰三月五日夜
+  birth_date: 1812
+  death_date: 1879-04-25
+  era: 清末（同治、光绪年间）
+  reign_ref: 同治、光绪
+  archetype: 以死直言的忠谏之臣（尸谏者）
+  dilemmas:
+  - 言职与本分：已被罪降调之臣，是否仍当越职言事
+  - 私身与公义：迟死以待朝廷大事完毕，抑或即刻引决
+  - 守家法与定大统：请降懿旨预定大统，恐涉建储之忌
+  lesson: 「惧，吾私也；死，吾公也」——以先皇帝所赐余年，践平生未尽之言，虽官微而言系国本。
+  summary_first_person: 我本甘肃皋兰一介小臣，尝以御史直言请诛成禄而落职。蒙先皇帝起用为吏部主事，五六年间，环顾在廷诸臣，无人再念穆宗立嗣大计。今逢大行皇帝奉安山陵，恐事久渐忘，遂随赴惠陵襄礼，还至蓟州马伸桥三义庙，饮毒毕命，遗疏泣请两宫皇太后预定大统之归，为穆宗留一嗣子之信。
+endeavors:
+- id: guji-吴可读-endeavor-1
+  name_zh: 御史直谏与贬黜起复
+  labels:
+    zh: 言官岁月
+  phases:
+  - key: brewing
+    name_zh: 任御史直言
+    labels:
+      zh: 直言敢谏
+    start_date: 1855
+    highlight_event_id: guji-吴可读-event-impeach
+  - key: closure
+    name_zh: 落职后再起
+    labels:
+      zh: 废员起用
+    start_date: 1862
+    highlight_event_id: guji-吴可读-event-reinstate
+  decisions:
+  - date: 1860
+    title_zh: 上疏请诛乌鲁木齐提督成禄
+    rationale: 言事忿激，自甘或斩或囚，卒以言过戆直落职
+  - date: 1862
+    title_zh: 应召以主事起复，选授吏部
+    rationale: 蒙穆宗登极恩旨，查办废员内奉旨特用
+- id: guji-吴可读-endeavor-2
+  name_zh: 尸谏请定大统
+  labels:
+    zh: 尸谏惠陵
+  phases:
+  - key: brewing
+    name_zh: 留折有待
+    labels:
+      zh: 拟疏未上
+    start_date: 1875
+    highlight_event_id: guji-吴可读-event-burial
+  - key: climax
+    name_zh: 惠陵襄礼
+    labels:
+      zh: 随葬赴礼
+    start_date: 1879-04-18
+    highlight_event_id: guji-吴可读-event-burial
+  - key: closure
+    name_zh: 蓟州殉谏
+    labels:
+      zh: 饮毒尸谏
+    start_date: 1879-04-25
+    highlight_event_id: guji-吴可读-event-death
+  decisions:
+  - date: 1879-04
+    title_zh: 面求吏部堂官宝鋆，添派随赴惠陵襄礼
+    rationale: 虑大统授受之间多变故，鉴宋太宗、明景帝故事，思以尸谏坚为穆宗立后之信
+  - date: 1879-04-25
+    title_zh: 于蓟州马伸桥三义庙饮毒自尽，遗疏请长官代奏
+    rationale: 恐朝廷大事未竣扰乱宸听，故迟至今日；甘心以死，自践前日心中所言
+events:
+- id: guji-吴可读-event-birth
+  date: 1812
+  year_of: 1812
+  precision: year
+  is_circa: true
+  raw: 古文未载
+  title_zh: 吴可读生于甘肃皋兰
+- id: guji-吴可读-event-impeach
+  date: 1860
+  year_of: 1860
+  precision: year
+  is_circa: true
+  raw: 先以御史请诛乌鲁木齐提督成禄
+  title_zh: 以御史疏请诛成禄，言过戆直落职
+- id: guji-吴可读-event-reinstate
+  date: 1862
+  year_of: 1862
+  precision: year
+  is_circa: true
+  raw: 穆宗登极，起废员用主事
+  title_zh: 穆宗登极后起复，选授吏部主事
+- id: guji-吴可读-event-burial
+  date: 1879-04-18
+  year_of: 1879
+  precision: day
+  is_circa: true
+  raw: 光绪五年三月庚午，大葬穆宗于惠陵
+  title_zh: 随赴惠陵襄礼
+- id: guji-吴可读-event-death
+  date: 1879-04-25
+  year_of: 1879
+  precision: day
+  is_circa: false
+  raw: 闰三月五日夜间，饮毒毕命
+  title_zh: 蓟州马伸桥三义庙饮毒尸谏
+- id: guji-吴可读-event-memorial
+  date: 1879-05
+  year_of: 1879
+  precision: month
+  is_circa: true
+  raw: 遗疏由吏部代奏，朝野惊愕
+  title_zh: 遗疏上达，诏命王大臣等会同妥议
+- id: guji-吴可读-event-death-record
+  date: 1879
+  year_of: 1879
+  precision: year
+  is_circa: false
+  raw: 遗命葬于蓟州，谓出蓟州一步即葬死所
+  title_zh: 遗命葬蓟州，并遗书诫子
