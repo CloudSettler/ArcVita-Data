@@ -1,0 +1,153 @@
+person:
+  qid: guji-周遇吉
+  name_zh: 周遇吉
+  names:
+    zh: 周遇吉
+    en: Zhou Yuji
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1644-02
+      precision: month
+      is_circa: true
+      raw: 甲申二月（宁武陷时死之）
+  birth_date: ''
+  death_date: 1644-02
+  era: 明末
+  reign_ref: 崇祯
+  archetype: 死节武将
+  dilemmas:
+  - 孤城宁武，援兵不至，战守皆无生路，忠义与存身不可两全
+  - 熊通奉命说降，斩使之则断朝廷沟通，留之则助贼劝降
+  lesson: 以寡敌众，死守孤城，虽败犹令敌胆寒，忠义之名胜于苟全之身
+  summary_first_person: 我周遇吉，锦州卫人，号萃庵，镇守山西总兵官。李自成破太原后势如破竹，我以宁武一关力抗。贼传檄五日不下且屠，我昼夜练兵，以战为守，设伏诱敌，杀贼数万。火药既尽，援兵不至，城陷被执，骂不绝口，遭磔而死（或云自刎）。夫人刘氏率妇女登屋而射，城破后阖城尽屠，无一受屈者。贼叹曰：周总兵真好汉，若再有此一镇，我主安得到此！后赠太保，谥忠武。
+  source_urls:
+  - https://zh.wikisource.org/wiki/甲申传信录
+endeavors:
+- id: guji-周遇吉-endeavor-1
+  name_zh: 镇守山西
+  phases:
+  - key: brewing
+    name_zh: 镇守山西总兵
+    labels:
+      zh:
+      - 边将
+    start_date: ''
+    highlight_event_id: guji-周遇吉-event-daily-training
+  - key: breakthrough
+    name_zh: 请兵抗贼
+    labels:
+      zh:
+      - 请援
+    start_date: 1644-02-12
+    highlight_event_id: guji-周遇吉-event-kill-xiongtong
+  - key: climax
+    name_zh: 死守宁武
+    labels:
+      zh:
+      - 孤城血战
+    start_date: 1644-02-15
+    highlight_event_id: guji-周遇吉-event-ningwu-fall
+  - key: closure
+    name_zh: 身后被恤
+    labels:
+      zh:
+      - 赠谥
+    start_date: 1644-04
+    highlight_event_id: guji-周遇吉-event-posthumous
+  decisions:
+  - date: 1644-02-12
+    title_zh: 怒斩说降叛使熊通
+    rationale: 尔领兵不能御贼，反为贼作说客；我受朝廷厚恩，肯效叛逆乎
+  - date: 1644-02-15起
+    title_zh: 以战为守，昼夜御敌
+    rationale: 贼势破竹，援兵不至，惟死守待变
+  - date: 1644-02
+    title_zh: 密令伏兵，开门诱敌
+    rationale: 城中火药将尽，以奇谋杀贼精锐、伤其骁将
+- id: guji-周遇吉-endeavor-2
+  name_zh: 宁武保卫战
+  phases:
+  - key: brewing
+    name_zh: 贼薄宁武
+    labels:
+      zh:
+      - 兵临城下
+    start_date: 1644-02-15
+    highlight_event_id: guji-周遇吉-event-ningwu-siege
+  - key: breakthrough
+    name_zh: 歼贼中坚
+    labels:
+      zh:
+      - 以战为守
+    start_date: 1644-02-16
+    highlight_event_id: guji-周遇吉-event-ambush
+  - key: climax
+    name_zh: 巷战身死
+    labels:
+      zh:
+      - 力斗殉国
+    start_date: 1644-02-24
+    highlight_event_id: guji-周遇吉-event-ningwu-fall
+  - key: closure
+    name_zh: 贼悼其勇
+    labels:
+      zh:
+      - 敬其忠义
+    start_date: 1644-03
+    highlight_event_id: guji-周遇吉-event-posthumous
+  decisions:
+  - date: 1644-02
+    title_zh: 白日列兵城外，夜则登陴击炮
+    rationale: 兵寡势孤，攻守相济，杀贼无算
+events:
+- id: guji-周遇吉-event-birth
+  type: birth
+  date: ''
+  year_of: ''
+  summary: 生年不详，锦州卫人。
+- id: guji-周遇吉-event-daily-training
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-1
+  date: 1644-01
+  year_of: 1644
+  summary: 昼夜练兵，选壮勇数十人，激以忠义，备战宁武。
+- id: guji-周遇吉-event-kill-xiongtong
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-1
+  date: 1644-02-12
+  year_of: 1644
+  summary: 叛将陈尚志令熊通归镇说降；周遇吉怒斥，立斩之，令杨志荣传首京师并请救兵。
+- id: guji-周遇吉-event-ningwu-siege
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-2
+  date: 1644-02-15
+  year_of: 1644
+  summary: 贼薄宁武关，传檄五日不下且屠。
+- id: guji-周遇吉-event-ambush
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-2
+  date: 1644-02-18
+  year_of: 1644
+  summary: 密令健兵伏巷，开门诱贼万余入城，闸门伏兵四起，杀之无噍类，伤其四骁将。
+- id: guji-周遇吉-event-ningwu-fall
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-2
+  date: 1644-02-24
+  year_of: 1644
+  summary: 贼以去帽为识分主客，众寡悬殊，城陷；周遇吉挥短刀力斗，伤重被执，骂不绝口，遭磔而死（或曰自刎）；夫人刘氏率妇女登屋而射，纵火焚尽。
+- id: guji-周遇吉-event-posthumous
+  type: endeavor
+  endeavor_id: guji-周遇吉-endeavor-1
+  date: 1644-04
+  year_of: 1644
+  summary: 杨志荣出揭备陈颠末，陈宏范上其事；赠太保，谥忠武。贼谓杀我数万人，若再有此一镇则不得至此。
+- id: guji-周遇吉-event-death
+  type: death
+  date: 1644-02-24
+  year_of: 1644
+  summary: 宁武城陷，被执骂贼，磔死（或曰自刎）。
