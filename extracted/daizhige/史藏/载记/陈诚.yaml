@@ -1,0 +1,87 @@
+person:
+  qid: guji-陈诚
+  name_zh: 陈诚
+  names:
+    zh: 陈诚
+    en: Chen Cheng
+  lifespan:
+    birth:
+      date: '0000'
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: '0000'
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 生卒年不详
+  death_date: 生卒年不详
+  era: 明代洪武至永乐年间
+  reign_ref: 明太祖、明成祖
+  archetype: 干练不屈的外交使臣
+  dilemmas:
+  - 面对安南日焜抗命不还思明府侵地，是否主张兴兵征讨
+  - 安南馈赠黄金白银沉檀香以示"赆礼"，受则类陆贾之贾利，却则辱或失礼
+  lesson: 持节不挠，明辨疆界，以理折冲而不受重贿
+  summary_first_person: 我是明朝行人陈诚。洪武三十年，我奉诏与吕让前往安南，谕令国王日焜归还所侵思明府丘温等五县之地。日焜抗命不从，驰书巧辨，又以黄金白金沉檀香馈赠，假托"陆贾受赆"为例。我据理斥之，指出尉佗以弹丸之地抗汉乃贾祸，陆贾受重赂乃贾利，坚决却其金香，复命于朝。天子召群臣议征讨，卒以"蛮夷相争"而止。我以一介行人，在大
+    blir山重压之下不辱使命、不受贿赂，为外交使臣之楷模。
+endeavors:
+- id: guji-陈诚-endeavor-1
+  key: 出使安南谕还侵地
+  name_zh: 谕还安南侵地之旅
+  labels:
+    zh:
+    - 外交
+    - 洪武末年
+  phases:
+  - key: brewing
+    name_zh: 受命谕地
+    labels:
+      zh:
+      - 受命
+    start_date: 1397-01
+    highlight_event_id: guji-陈诚-event-mission
+  - key: climax
+    name_zh: 却贿辩论
+    labels:
+      zh:
+      - 折冲
+    start_date: '1397'
+    highlight_event_id: guji-陈诚-event-refuse-gift
+  - key: closure
+    name_zh: 还朝议兵
+    labels:
+      zh:
+      - 复命
+    start_date: '1397'
+    highlight_event_id: guji-陈诚-event-return-court
+  decisions:
+  - date: '1397'
+    title_zh: 却黄金白金沉檀香之馈
+    rationale: 以尉佗抗汉为贾祸、陆贾受赂为贾利为喻，明拒不受以全使节之节
+  - date: '1397'
+    title_zh: 贻书日焜使者，援古证今析利害
+    rationale: 欲使日焜自知理屈，以避免兵兴
+events:
+- id: guji-陈诚-event-mission
+  date: 1397-01
+  year_of: '1397'
+  title_zh: 与行人吕让奉诏谕安南日焜归还思明府侵地
+  summary: 明太祖遣行人陈诚、吕让谕安南还地，久不决，日焜抗命。
+  person_ids:
+  - guji-陈诚
+- id: guji-陈诚-event-refuse-gift
+  date: '1397'
+  year_of: '1397'
+  title_zh: 却安南黄金二锭白金四锭沉檀香百斤之馈
+  summary: 日焜馈赆以陆贾受赆为辞，诚以尉佗贾祸、陆贾贾利责之，不肯受。
+  person_ids:
+  - guji-陈诚
+- id: guji-陈诚-event-return-court
+  date: '1397'
+  year_of: '1397'
+  title_zh: 与吕让还朝复命，天子召群臣议讨安南
+  summary: 日焜抗命不还地，群臣议当讨，上以蛮夷相争古有之，毋动。
+  person_ids:
+  - guji-陈诚
