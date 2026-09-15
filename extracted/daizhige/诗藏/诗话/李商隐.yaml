@@ -1,0 +1,150 @@
+person:
+  qid: guji-李商隐
+  name_zh: 李商隐
+  names:
+    zh: 李商隐
+    en: Li Shangyin
+  lifespan:
+    birth:
+      date: 0813
+      precision: year
+      is_circa: true
+      raw: 约813年（元和八年前后）
+    death:
+      date: 0858
+      precision: year
+      is_circa: true
+      raw: 约858年（大中末年）
+  birth_date: 0813
+  death_date: 0858
+  era: 晚唐
+  reign_ref: 唐宪宗至唐宣宗年间
+  archetype: 命途多舛的天才诗人
+  dilemmas:
+  - 深于寄托的诗心与晦涩难解的际遇之间的张力
+  - 才名远播而仕途淹蹇，寄人幕府以终老
+  lesson: 措词寓意深妙者，往往以一生沉沦换来千古诗名；文字可以传世，命运未必酬才。
+  summary_first_person: 我字义山，号玉溪生。少年客游，于逆旅席间即席赋《木兰花》诗，四座惊叹，方知我名。世人酷爱我“可怜半夜虚前席，不问苍生问鬼神”之句，叹我措词寓意深妙。然我一生困于牛李党争之间，沉沦幕府，以清峭感怆之诗自见，身后诗名冠绝晚唐。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/李商隐
+endeavors:
+- id: guji-李商隐-endeavor-1
+  name_zh: 诗歌创作与“玉溪体”的形成
+  labels:
+    zh:
+    - 诗歌
+    - 玉溪生诗
+    - 晚唐诗坛
+  phases:
+  - key: brewing
+    name_zh: 少年游学与初露诗才
+    labels:
+      zh:
+      - 逆旅赋诗
+    start_date: 0830
+    highlight_event_id: guji-李商隐-event-mulan
+  - key: breakthrough
+    name_zh: 措词深妙，名句传世
+    labels:
+      zh:
+      - 咏史诗
+      - 无题诗
+    start_date: 0837
+    highlight_event_id: guji-李商隐-event-jia-sheng
+  - key: climax
+    name_zh: 清峭感怆，自成一体
+    labels:
+      zh:
+      - 玉溪体
+    start_date: 0847
+    highlight_event_id: guji-李商隐-event-yuxi-style
+  - key: closure
+    name_zh: 沉沦幕府，诗名永传
+    labels:
+      zh:
+      - 幕府生涯
+    start_date: 0855
+    highlight_event_id: guji-李商隐-event-death
+  decisions:
+  - date: 0838
+    title_zh: 以咏史寄慨，作《贾生》诗
+    rationale: 借贾谊“不问苍生问鬼神”之叹，讽喻君王不恤民瘼，措意深为后人所不及。
+  - date: 0850
+    title_zh: 依人幕府，以诗自见
+    rationale: 仕途既蹇，遂专注诗艺，成清峭感怆一体，为唐彦谦等后进所慕。
+- id: guji-李商隐-endeavor-2
+  name_zh: 士林交游与诗名传播
+  labels:
+    zh:
+    - 交游
+    - 诗名流传
+  phases:
+  - key: brewing
+    name_zh: 席间惊座，声名初起
+    labels:
+      zh:
+      - 逆旅会客
+    start_date: 0830
+    highlight_event_id: guji-李商隐-event-mulan
+  - key: breakthrough
+    name_zh: 为当世名公所激赏
+    labels:
+      zh:
+      - 陈恕酷爱
+      - 钱若水称叹
+    start_date: 0847
+    highlight_event_id: guji-李商隐-event-praise
+  - key: closure
+    name_zh: 身后影响深远，慕者成派
+    labels:
+      zh:
+      - 西昆余绪
+    start_date: 0858
+    highlight_event_id: guji-李商隐-event-death
+  decisions:
+  - date: 0830
+    title_zh: 客游四方，广交文士
+    rationale: 少年出游以历练诗笔，虽席客不识，即席之作终使声名鹊起。
+events:
+- id: guji-李商隐-event-birth
+  event_type: birth
+  date: 0813
+  year_of: 813
+  is_circa: true
+  name_zh: 李商隐出生
+  description: 李商隐生约813年，晚唐荥阳人，字义山。
+- id: guji-李商隐-event-mulan
+  event_type: endeavor
+  date: 0830
+  year_of: 830
+  is_circa: true
+  name_zh: 逆旅即席赋《木兰花》诗
+  description: 义山少游投宿逆旅，主人会客召与同坐，不知其为义山。酒酣席客赋《木兰花诗》，义山后就，吟“洞庭波冷晓侵云，日日征帆送远人。几度木兰舟上望，不知元是此花身”，坐客览之大惊，方知其为义山。
+- id: guji-李商隐-event-jia-sheng
+  event_type: endeavor
+  date: 0838
+  year_of: 838
+  is_circa: true
+  name_zh: 咏《贾生》成千古名句
+  description: 义山作《贾生》诗，“可怜半夜虚前席，不问苍生问鬼神”两句，邓帅钱若水举以示人，叹曰“措意如此，后人何以企及”。
+- id: guji-李商隐-event-praise
+  event_type: endeavor
+  date: 0847
+  year_of: 847
+  is_circa: true
+  name_zh: 诗为陈恕酷爱，名公叹赏
+  description: 杨大年称义山诗，陈恕酷爱其“珠箔轻明覆玉墀”一绝，叹曰“古人措词寓意，如此深妙，令人感慨不已”。
+- id: guji-李商隐-event-yuxi-style
+  event_type: endeavor
+  date: 0850
+  year_of: 850
+  is_circa: true
+  name_zh: 玉溪体为后进所慕
+  description: 鹿门先生唐彦谦为诗纂，慕玉溪，得其清峭感怆，盖其一体也，然警绝之句亦多有。
+- id: guji-李商隐-event-death
+  event_type: death
+  date: 0858
+  year_of: 858
+  is_circa: true
+  name_zh: 李商隐去世
+  description: 李商隐卒约858年，一生沉沦幕府，而诗名冠绝晚唐，为后世传诵不衰。
