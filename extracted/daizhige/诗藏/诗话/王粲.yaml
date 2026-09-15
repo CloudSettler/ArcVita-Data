@@ -1,0 +1,154 @@
+person:
+  qid: guji-王粲
+  name_zh: 王粲
+  names:
+    zh: 王粲
+    en: Wang Can
+  lifespan:
+    birth:
+      date: '0177'
+      precision: year
+      is_circa: true
+      raw: '177'
+    death:
+      date: '0217'
+      precision: year
+      is_circa: false
+      raw: '217'
+  birth_date: '0177'
+  death_date: '0217'
+  era: 东汉末 / 建安
+  reign_ref: 汉献帝
+  archetype: 建安文学代表 · 七子之冠冕
+  dilemmas:
+  - 乱世流寓荆州，怀才不遇，登楼赋诗以寄乡关之思
+  - 依刘表而不见用，终择归附曹操，弃旧主而就新朝
+  lesson: 才不得用则郁，遇明主则发；文章不朽，可以稍慰生逢乱世之悲。
+  summary_first_person: 我王粲，字仲宣，生于汉末乱离之中。少年避难荆州，依刘表十五年而不见重用，登当阳城楼，作《登楼赋》，抒怀乡与不遇之悲。后归曹操，拜丞相掾，赐爵关内侯，魏国初建为侍中。我博闻强识，属文举笔便成，与曹植并称“曹王”，为建安七子之首。建安二十二年，随军征吴，道中病疫而卒，年四十一。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/王粲
+endeavors:
+- id: guji-王粲-endeavor-1
+  name_zh: 流寓荆襄 · 登楼怀土
+  phases:
+  - key: brewing
+    name_zh: 少有异才 · 避乱南下
+    labels:
+      zh:
+      - 初平离乱
+      - 西京失序
+    start_date: 0190
+    highlight_event_id: guji-王粲-event-move-jingzhou
+  - key: breakthrough
+    name_zh: 依刘不用 · 登楼作赋
+    labels:
+      zh:
+      - 羁旅荆州
+      - 怀才不遇
+    start_date: '0203'
+    highlight_event_id: guji-王粲-event-climb-tower
+  - key: closure
+    name_zh: 归曹遇合 · 弃暗投明
+    labels:
+      zh:
+      - 择主而事
+      - 北归许都
+    start_date: 0208
+    highlight_event_id: guji-王粲-event-join-cao
+  decisions:
+  - date: '0208-09-01'
+    title_zh: 劝刘琮举州归降曹操
+    rationale: 刘表既亡，琮暗弱不足守，说服其举荆州附曹，以免百姓罹兵祸，亦为我谋一生路。
+  - date: '0208-10-01'
+    title_zh: 弃刘归曹，北返效力
+    rationale: 客居荆州十五年而无所建树，曹操雄才、能用人，故毅然北归。
+- id: guji-王粲-endeavor-2
+  name_zh: 文章立身 · 建安风骨
+  phases:
+  - key: brewing
+    name_zh: 弱冠属文 · 蔡邕倒屣
+    labels:
+      zh:
+      - 才思敏捷
+      - 一鸣惊人
+    start_date: 0193
+    highlight_event_id: guji-王粲-event-cai-yong
+  - key: climax
+    name_zh: 侍中典籍 · 七子之冠
+    labels:
+      zh:
+      - 曹王并称
+      - 章表隽异
+    start_date: '0213'
+    highlight_event_id: guji-王粲-event-shizhong
+  - key: closure
+    name_zh: 从征病殁 · 文章千古
+    labels:
+      zh:
+      - 建安之殇
+      - 遗文传世
+    start_date: '0217'
+    highlight_event_id: guji-王粲-event-death
+  decisions:
+  - date: '0213-01-01'
+    title_zh: 受任魏国侍中，主典文章制度
+    rationale: 魏国初建，典章文物多出我手；以博物多识，兴造制度，不辱斯文。
+  - date: '0217-01-01'
+    title_zh: 随曹操东征孙权，抱病从军
+    rationale: 王事鞅掌，义不得辞；虽体弱遘疫，犹随军以尽臣职。
+events:
+- id: guji-王粲-event-birth
+  date: '0177'
+  year_of: '177'
+  title_zh: 生于山阳高平世族之家
+  type: birth
+  person: guji-王粲
+  description: 出身三公之门，曾祖王龚、祖王畅皆有重名。
+- id: guji-王粲-event-cai-yong
+  date: 0193
+  year_of: '193'
+  title_zh: 长安谒蔡邕，倒屣相迎
+  type: endeavor
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-2
+  description: 年十七随西迁至长安，左中郎将蔡邕见而奇之，闻粲在门，倒屣迎之，曰“此王公孙也，有异才，吾不如也”。
+- id: guji-王粲-event-move-jingzhou
+  date: 0192
+  year_of: '192'
+  title_zh: 避董卓之乱，南下依荆州刘表
+  type: endeavor
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-1
+  description: 世乱流离，投奔刘表；表以粲貌寝而体弱，弗之重用。
+- id: guji-王粲-event-climb-tower
+  date: '0203'
+  year_of: '203'
+  title_zh: 登当阳城楼，作《登楼赋》
+  type: endeavor
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-1
+  description: 滞留荆州怀才不遇，登楼四望，赋曰“虽信美而非吾土兮，曾何足以少留”，千古传诵。
+- id: guji-王粲-event-join-cao
+  date: '0208-10-01'
+  year_of: '208'
+  title_zh: 荆州归曹，辟为丞相掾
+  type: endeavor
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-1
+  description: 说刘琮降曹操，操以粲为丞相掾，赐爵关内侯，自此遇合于新主。
+- id: guji-王粲-event-shizhong
+  date: '0213-01-01'
+  year_of: '213'
+  title_zh: 魏国既建，拜侍中
+  type: endeavor
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-2
+  description: 主典文章制度，博物多识，问无不对；时旧仪废弛，兴造制度皆粲所定。
+- id: guji-王粲-event-death
+  date: '0217-02-01'
+  year_of: '217'
+  title_zh: 建安二十二年，从征吴中病疫而卒
+  type: death
+  person: guji-王粲
+  endeavor: guji-王粲-endeavor-2
+  description: 随曹操东征孙权，遇大疫，卒于道，年四十一；曹植为诔，魏文亲自临其丧。

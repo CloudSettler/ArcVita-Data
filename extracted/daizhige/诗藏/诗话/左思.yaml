@@ -1,0 +1,140 @@
+person:
+  qid: guji-左思
+  name_zh: 左思
+  names:
+    zh: 左思
+    en: Zuo Si
+  lifespan:
+    birth:
+      date: 约250
+      precision: year
+      is_circa: true
+      raw: 约250年（西晋）
+    death:
+      date: 约305
+      precision: year
+      is_circa: true
+      raw: 约305年（西晋末）
+  birth_date: 约250
+  death_date: 约305
+  era: 西晋
+  reign_ref: 晋武帝至晋惠帝时期
+  archetype: 寒门苦学的大赋诗人
+  dilemmas:
+  - 貌寝口讷而出身寒门，欲以文章在重门第的世族社会立足
+  - 潜心十年构思《三都赋》，须忍旁人讥笑并遍访山川风物以徵实
+  - 卷入贾谧“二十四友”交游圈，名成之后出处两难
+  lesson: 构思十年，门庭藩溷皆著笔纸，遇得一句即疏之——大器晚成者以勤补拙，以实徵文
+  summary_first_person: 我左思字太冲，临淄人。貌寝口讷而不好交游，唯以著文为事。为赋《三都》，构思十年，门庭藩溷皆置笔纸，偶得一句便即疏录。赋成之初，陆机曾抚掌笑我，及其成文，竞相传写，洛阳为之纸贵。我又作《咏史》八首，借古人杯酒浇自己块垒，“济济京城内，赫赫王侯居……寂寂扬子宅，门无卿相舆”，以扬雄自况，开咏史一体之正声。后世诗话如《对床夜语》犹举我与鲍照、江淹咏史之作并论，谓三诗一轨。
+  source_urls:
+  - 对床夜语·卷一（宋·范晞文撰）
+endeavors:
+- id: guji-左思-endeavor-1
+  name_zh: 创作《三都赋》
+  labels:
+    zh: 辞赋
+  phases:
+  - key: brewing
+    name_zh: 构思十年
+    labels:
+      zh: 苦构思
+    start_date: 约280
+    highlight_event_id: guji-左思-event-sandufu-begin
+  - key: breakthrough
+    name_zh: 赋成纸贵
+    labels:
+      zh: 洛阳纸贵
+    start_date: 约291
+    highlight_event_id: guji-左思-event-sandufu-done
+  - key: climax
+    name_zh: 名动京师
+    labels:
+      zh: 名动京师
+    start_date: 约292
+    highlight_event_id: guji-左思-event-sandufu-done
+  - key: closure
+    name_zh: 皇甫谧作序推重
+    labels:
+      zh: 序定
+    start_date: 约292
+    highlight_event_id: guji-左思-event-sandufu-done
+  decisions:
+  - date: 约280
+    title_zh: 决意为魏蜀吴三都作赋
+    rationale: 平吴之后闻见既广，欲徵实以赋三都，兼驳世族轻寒门之见
+  - date: 约291
+    title_zh: 携赋请教于皇甫谧、张华诸名流
+    rationale: 初成之时不为世所重，须借耆宿品题而后大行
+- id: guji-左思-endeavor-2
+  name_zh: 创作《咏史》八首
+  labels:
+    zh: 诗歌
+  phases:
+  - key: brewing
+    name_zh: 郁郁不得志
+    labels:
+      zh: 郁郁
+    start_date: 约290
+    highlight_event_id: guji-左思-event-yongshi
+  - key: breakthrough
+    name_zh: 咏史成体
+    labels:
+      zh: 开咏史体
+    start_date: 约295
+    highlight_event_id: guji-左思-event-yongshi
+  - key: climax
+    name_zh: 与鲍照江淹咏史同轨传世
+    labels:
+      zh: 同轨传世
+    start_date: 约450
+    highlight_event_id: guji-左思-event-yongshi
+  - key: closure
+    name_zh: 后世诗话定评
+    labels:
+      zh: 诗话定评
+    start_date: 约1260
+    highlight_event_id: guji-左思-event-yongshi-hualu
+  decisions:
+  - date: 约290
+    title_zh: 以扬雄自况托古讽今
+    rationale: 见“朝集金张馆，暮宿许史庐”与“寂寂扬子宅，门无卿相舆”之对照，借史咏怀以明出处
+events:
+- id: guji-左思-event-birth
+  date: 约250
+  year_of: 250
+  type: birth
+  title_zh: 左思生于临淄
+  description_zh: 齐国临淄人，字太冲，貌寝口讷而辞藻壮丽，不好交游，惟以闲居为事。
+- id: guji-左思-event-sandufu-begin
+  date: 约280
+  year_of: 280
+  type: endeavor
+  endeavor_id: guji-左思-endeavor-1
+  title_zh: 始构思《三都赋》
+  description_zh: 闻平吴之讯，遂构《三都赋》，构思十年，门庭藩溷皆著笔纸，遇得一句即便疏之。自以所见不博，求为秘书郎，遍阅图籍，访山川风物以徵实。
+- id: guji-左思-event-sandufu-done
+  date: 约291
+  year_of: 291
+  type: endeavor
+  endeavor_id: guji-左思-endeavor-1
+  title_zh: 《三都赋》成而洛阳纸贵
+  description_zh: 赋成之初，陆机抚掌而笑；及皇甫谧为序、张华称善，豪贵之家竞相传写，洛阳为之纸贵。
+- id: guji-左思-event-yongshi
+  date: 约295
+  year_of: 295
+  type: endeavor
+  endeavor_id: guji-左思-endeavor-2
+  title_zh: 作《咏史》八首
+  description_zh: “济济京城内，赫赫王侯居。冠盖荫四术，朱轮竟长衢。朝集金张馆，暮宿许史庐。南邻击钟磬，北里吹笙竽。寂寂扬子宅，门无卿相舆。”托古咏怀，开咏史一体。
+- id: guji-左思-event-yongshi-hualu
+  date: 约1260
+  year_of: 1260
+  type: legacy
+  title_zh: 《对床夜语》举其咏史与鲍照江淹并论
+  description_zh: 宋范晞文《对床夜语》载左太冲《咏史》诗，谓与鲍明远、江文通咏史之作“三诗一轨”，定为后世诗话定评。
+- id: guji-左思-event-death
+  date: 约305
+  year_of: 305
+  type: death
+  title_zh: 左思卒
+  description_zh: 齐王冏命为记室督，辞疾不就，后退居，以疾终于家。
