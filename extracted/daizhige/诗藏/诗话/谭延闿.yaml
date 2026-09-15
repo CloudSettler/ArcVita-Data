@@ -1,0 +1,113 @@
+person:
+  qid: guji-谭延闿
+  name_zh: 谭延闿
+  names:
+    zh: 谭延闿
+    en: Tan Yankai
+  lifespan:
+    birth:
+      date: '1880'
+      precision: year
+      is_circa: true
+      raw: 幼有神童之称，中光绪甲辰会元时年约二十余
+    death:
+      date: '1930'
+      precision: year
+      is_circa: true
+  birth_date: '1880'
+  death_date: '1930'
+  era: 晚清—民国
+  reign_ref: 光绪甲辰（1904）
+  archetype: scholar-official
+  dilemmas:
+  - 科举魁首与经世之学的取舍
+  - 满清科举出身转入民国仕途的身份转换
+  lesson: 神童之才须辅以经世务实，方能超越辞章之末技
+  summary_first_person: 我谭延闿幼有神童之称，从先父读书五年，所学益进。光绪甲辰中会元，朝考第一，得馆选，终满清之世湖南会元仅我一人。辞章本我所长，然我独喜言经世之学。
+  source_urls:
+  - 褒碧斋诗话·民国·陈锐
+endeavors:
+- id: guji-谭延闿-endeavor-1
+  key: brewing
+  name_zh: 从学进业
+  labels:
+    zh:
+    - 神童
+    - 从先子读书
+  start_date: '1885'
+  phases:
+  - key: brewing
+    name_zh: 从学五年
+    labels:
+      zh:
+      - 五官并用
+      - 所学益进
+    start_date: '1885'
+    highlight_event_id: guji-谭延闿-event-zaoheng
+  decisions:
+  - date: '1885'
+    title: 从先子读书五年
+    rationale: 幼有神童之称，五官并用，专意向学
+- id: guji-谭延闿-endeavor-2
+  key: breakthrough
+  name_zh: 科举夺魁与经世之学
+  labels:
+    zh:
+    - 会元
+    - 朝考第一
+  start_date: '1904'
+  phases:
+  - key: breakthrough
+    name_zh: 甲辰会元
+    labels:
+      zh:
+      - 湖南会元
+      - 馆选
+    start_date: '1904'
+    highlight_event_id: guji-谭延闿-event-huiyuan
+  - key: climax
+    name_zh: 喜言经世
+    labels:
+      zh:
+      - 经世之学
+      - 显微镜诗
+    start_date: '1905'
+    highlight_event_id: guji-谭延闿-event-jingshi
+  decisions:
+  - date: '1904'
+    title: 应会试中会元
+    rationale: 终满清之世湖南会元仅一人
+  - date: '1905'
+    title: 独喜言经世之学
+    rationale: 辞章虽为其所长，仍专意经世实学
+events:
+- id: guji-谭延闿-event-zaoheng
+  date: '1885'
+  year_of: 1885
+  title: 从先子读书五年
+  summary: 幼有神童之称，五官并用，从先子读书五年，所学益进。
+  category: education
+  endeavor_ids:
+  - guji-谭延闿-endeavor-1
+- id: guji-谭延闿-event-huiyuan
+  date: '1904'
+  year_of: 1904
+  title: 中光绪甲辰会元并朝考第一
+  summary: 中光绪甲辰会元，朝考第一，得馆选；终满清之世湖南会元仅谭一人。
+  category: examination
+  endeavor_ids:
+  - guji-谭延闿-endeavor-2
+- id: guji-谭延闿-event-jingshi
+  date: '1905'
+  year_of: 1905
+  title: 喜言经世之学，作《显微镜诗》
+  summary: 在广州时曾作《显微镜诗》，格调略仿唐贤；陈锐略为润色存于日记。
+  category: scholarship
+  endeavor_ids:
+  - guji-谭延闿-endeavor-2
+- id: guji-谭延闿-event-death
+  date: '1930'
+  year_of: 1930
+  title: 卒
+  summary: 谭延闿逝世，享年约五十。
+  category: death
