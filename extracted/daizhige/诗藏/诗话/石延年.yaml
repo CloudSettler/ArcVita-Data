@@ -1,0 +1,139 @@
+person:
+  qid: guji-石延年
+  name_zh: 石延年
+  names:
+    zh: 石延年、石曼卿
+    en: Shi Yannian
+  lifespan:
+    birth:
+      date: 0994
+      precision: year
+      is_circa: true
+      raw: 约994年（生年史无明文，据通行考证）
+    death:
+      date: '1041'
+      precision: year
+      is_circa: true
+      raw: 约1041年
+  birth_date: 0994
+  death_date: '1041'
+  era: 北宋
+  reign_ref: 宋仁宗时期
+  archetype: poet-wit
+  dilemmas:
+  - 诗才豪放与仕途不显之间的张力
+  - 在危难时局中以诙谐警句进言，须兼顾切合时宜与不卑权贵
+  lesson: 以诗才与急智立身，虽无高位而声名不减于当世
+  summary_first_person: 我石延年，字曼卿，以诗名世。章献太后崩时，群臣挽歌数百，我一句「震出坤柔变，干成太极虚」首出群作，既切时宜，又不卑长乐宫。李长吉「天若有情天亦老」人称奇绝无对，我对以「月如无恨月常圆」，时人以为勍敌。又尝赠诗隐士韩退，有「醉狂玄鹤舞，闲卧白驴号」之句，为人传诵。
+  source_urls:
+  - https://zh.wikisource.org/wiki/溫公續詩話
+endeavors:
+- id: guji-石延年-endeavor-1
+  key: poet
+  name_zh: 以诗鸣世
+  labels:
+    zh: 诗歌创作与酬对
+  start_date: '1020'
+  phases:
+  - key: brewing
+    name_zh: 早年学诗
+    labels:
+      zh: 早年砺艺
+    start_date: '1010'
+  - key: breakthrough
+    name_zh: 挽歌首出
+    labels:
+      zh: 挽歌得名
+    start_date: '1033'
+    highlight_event_id: guji-石延年-event-lengew
+  - key: climax
+    name_zh: 名对流传
+    labels:
+      zh: 对句勍敌
+    start_date: '1038'
+    highlight_event_id: guji-石延年-event-duiju
+  - key: closure
+    name_zh: 诗名续响
+    labels:
+      zh: 诗话留名
+    start_date: '1040'
+  decisions:
+  - date: '1033'
+    title_zh: 献挽歌直咏时局
+    rationale: 章献太后上仙、仁宗始亲万几，我以一联既切合时宜又不卑长乐，遂首出群臣数百首
+  - date: '1038'
+    title_zh: 对句敌长吉奇绝
+    rationale: '"天若有情天亦老"号称无对，我以"月如无恨月常圆"应之，人以勍敌称'
+- id: guji-石延年-endeavor-2
+  key: friendship
+  name_zh: 交游题赠
+  labels:
+    zh: 与处士隐者酬唱
+  start_date: '1030'
+  phases:
+  - key: brewing
+    name_zh: 结交方外
+    labels:
+      zh: 交游浪迹
+    start_date: '1025'
+  - key: climax
+    name_zh: 赠诗韩退
+    labels:
+      zh: 赠句传诵
+    start_date: '1030'
+    highlight_event_id: guji-石延年-event-zengshi
+  - key: closure
+    name_zh: 酬唱成话
+    labels:
+      zh: 诗话存录
+    start_date: '1035'
+  decisions:
+  - date: '1030'
+    title_zh: 赠诗放诞处士韩退
+    rationale: 韩退跨白驴、醉则鹤舞，放诞不拘，我以「醉狂玄鹤舞，闲卧白驴号」状其风神
+events:
+- id: guji-石延年-event-birth
+  type: birth
+  date: 0994
+  year_of: 994
+  date_precision: year
+  is_circa: true
+  description: 石延年（字曼卿）生
+  source_refs:
+  - 溫公續詩話
+- id: guji-石延年-event-zengshi
+  type: poem-gift
+  date: '1030'
+  year_of: 1030
+  date_precision: year
+  is_circa: true
+  description: 赠诗处士韩退：「醉狂玄鹤舞，闲卧白驴号」，为时所称
+  source_refs:
+  - 溫公續詩話
+- id: guji-石延年-event-lengew
+  type: poem-event
+  date: '1033'
+  year_of: 1033
+  date_precision: year
+  is_circa: true
+  description: 章献太后上仙，群臣进挽歌数百首，我联「震出坤柔变，干成太极虚」首出，称切合时宜而不卑长乐
+  source_refs:
+  - 溫公續詩話
+- id: guji-石延年-event-duiju
+  type: poem-event
+  date: '1038'
+  year_of: 1038
+  date_precision: year
+  is_circa: true
+  description: 对李长吉「天若有情天亦老」，对以「月如无恨月常圆」，人以为勍敌
+  source_refs:
+  - 溫公續詩話
+- id: guji-石延年-event-death
+  type: death
+  date: '1041'
+  year_of: 1041
+  date_precision: year
+  is_circa: true
+  description: 石延年卒，司马光续诗话犹记其联句
+  source_refs:
+  - 溫公續詩話
