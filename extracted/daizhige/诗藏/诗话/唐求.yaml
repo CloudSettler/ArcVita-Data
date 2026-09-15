@@ -1,0 +1,109 @@
+person:
+  id: guji-tang-qiu
+  name_zh: 唐求
+  names:
+    zh: 唐求
+    en: Tang Qiu
+  lifespan:
+    birth:
+      date: 0830
+      precision: year
+      is_circa: true
+      raw: 唐末蜀州人，生年无考
+    death:
+      date: 0905
+      precision: year
+      is_circa: true
+      raw: 唐末五代之际，卒年无考
+  birth_date: 约唐文宗大和年间
+  death_date: 约唐末
+  era: 唐末
+  reign_ref: 唐僖宗、昭宗年间
+  archetype: 隐逸诗人
+  dilemmas:
+  - 求道与求名之间的抉择：诗成不示人，一瓢投江听天由命
+  lesson: 苦心之作可托于天命，藏与不藏终待知音
+  summary_first_person: 我是唐末蜀州的唐求，放旷疏逸，方外之人。每有所得之诗，即捻藁为丸投入大瓢；临病垂死，投瓢于江，任其浮沉，以验世有知我苦心者否。
+  source_urls:
+  - https://example.org/guji/shi-hua-zonggui
+endeavors:
+- id: guji-tang-qiu-endeavor-1
+  name_zh: 隐居吟咏
+  phases:
+  - key: brewing
+    name_zh: 放旷求道
+    labels:
+      zh: 方外之人
+    start_date: 0860
+  - key: breakthrough
+    name_zh: 诗瓢藏稿
+    labels:
+      zh: 吟诗得句捻藁投瓢
+    start_date: 0880
+    highlight_event_id: guji-tang-qiu-event-poetry-gourd
+  - key: closure
+    name_zh: 投瓢辞世
+    labels:
+      zh: 卧病投瓢于江
+    start_date: 0900
+    highlight_event_id: guji-tang-qiu-event-gourd-river
+  decisions:
+  - date: 0880
+    title_zh: 以诗瓢蓄一生苦吟
+    rationale: 吟诗有所得即捻藁为丸投瓢，不轻示人，唯待知音
+- id: guji-tang-qiu-endeavor-2
+  name_zh: 山水题咏
+  phases:
+  - key: breakthrough
+    name_zh: 题咏青城山中隐逸
+    labels:
+      zh: 《题青城山范贤观》《题郑处士隐居》
+    start_date: 0880
+    highlight_event_id: guji-tang-qiu-event-qingcheng-poem
+  - key: climax
+    name_zh: 身后得传
+    labels:
+      zh: 瓢至新渠江有识者得之
+    start_date: 0905
+    highlight_event_id: guji-tang-qiu-event-gourd-river
+  decisions:
+  - date: 0890
+    title_zh: 遍题名山道观以寄道心
+    rationale: 恋山人事少，怜客道心多，以诗纪山居之趣
+events:
+- id: guji-tang-qiu-event-birth
+  type: birth
+  date: 0830
+  year_of: 830
+  date_precision: circa
+  description: 唐求约生于唐末蜀州（今四川崇州），生年无确考。
+- id: guji-tang-qiu-event-poetry-gourd
+  type: endeavor
+  endeavor_id: guji-tang-qiu-endeavor-1
+  date: 0880
+  year_of: 880
+  date_precision: circa
+  name_zh: 吟诗纳藁投瓢
+  description: 放旷疏逸，作诗有所得即捻藁为丸，投入随身之大瓢中，积年不辍。
+- id: guji-tang-qiu-event-qingcheng-poem
+  type: endeavor
+  endeavor_id: guji-tang-qiu-endeavor-2
+  date: 0885
+  year_of: 885
+  date_precision: circa
+  name_zh: 题咏青城山
+  description: 作《题青城山范贤观》：数里缘山不厌难，为寻真诀问黄冠，又题郑处士隐居、赠行如上人诸诗。
+- id: guji-tang-qiu-event-gourd-river
+  type: endeavor
+  endeavor_id: guji-tang-qiu-endeavor-1
+  date: 0905
+  year_of: 905
+  date_precision: circa
+  name_zh: 卧病投瓢于江
+  description: 后卧病，投瓢于江曰：兹瓢苟不沉没，得之者方知吾苦心耳。瓢至新渠江，有识者曰此唐山人诗瓢也，接得十才二三。
+- id: guji-tang-qiu-event-death
+  type: death
+  date: 0905
+  year_of: 905
+  date_precision: circa
+  description: 唐求约于唐末去世，卒年无确考，后世因其诗瓢故事称唐山人。
