@@ -1,0 +1,201 @@
+person:
+  qid: guji-程本
+  name_zh: 程本
+  names:
+    zh: 程本、子华子、程子
+    en: Cheng Ben (Zihuazi)
+  lifespan:
+    birth:
+      date: -550
+      precision: decade
+      is_circa: true
+      raw: 春秋晋顷公之世
+    death:
+      date: -470
+      precision: decade
+      is_circa: true
+      raw: 赵襄子初立时已老
+  birth_date: -550
+  death_date: -470
+  era: 春秋末期
+  reign_ref: 晋顷公、晋出公；赵简子、赵襄子
+  archetype: 隐士贤哲
+  dilemmas:
+  - 赵简子以爵执圭相聘而简子诛杀窦犊、舜华，仕与不仕
+  - 不肯苟容于诸侯而以道德仁义自守
+  lesson: 存诚养操，不苟于售；士有所不为，然后能无不为
+  summary_first_person: 我是晋人程本，字子华。我博学通坟典丘索，不肯苟容诸侯，聚徒著书，自号程子。孔子遇我于郯，称我天下贤士。赵简子以爵禄相聘，然其杀窦犊舜华，吾深以为戒，遂去晋之齐，馆于晏氏，更题书为《子华子》。简子卒，襄子立，我反晋不复仕，以道德为指归，经纪以仁义，终老于家。
+  source_urls:
+  - https://zh.wikisource.org/wiki/子华子
+endeavors:
+- id: guji-程本-endeavor-1
+  key_label: 著书讲学
+  phases:
+  - key: brewing
+    name_zh: 六卿专政时聚徒讲学
+    labels:
+      zh:
+      - 晋政在六卿
+      - 学贯坟典
+    start_date: -520
+    highlight_event_id: guji-程本-event-encounter-confucius
+  - key: breakthrough
+    name_zh: 名称闻于诸侯
+    labels:
+      zh:
+      - 遇孔子于郯
+      - 倾盖而语
+    start_date: -505
+    highlight_event_id: guji-程本-event-encounter-confucius
+  - key: climax
+    name_zh: 辞赵之聘而之齐
+    labels:
+      zh:
+      - 反币不仕
+      - 逡巡不肯起
+    start_date: -498
+    highlight_event_id: guji-程本-event-refuse-zhaojinzi
+  - key: closure
+    name_zh: 归晋不复仕而卒
+    labels:
+      zh:
+      - 老而归晋
+      - 书称子华子
+    start_date: -476
+    highlight_event_id: guji-程本-event-return-jin
+  decisions:
+  - date: -498
+    title_zh: 反赵简子聘币，拒爵执圭之位
+    rationale: 简子杀窦犊与舜华，同于孔子临河之操；为人所处者不得安其所自处，惧胁以兵而决然去之
+  - date: -495
+    title_zh: 弃赵之齐，馆于晏氏并更题其书曰子华子
+    rationale: 避兵祸，齐景公不能用，遂借晏氏之馆以传其书
+- id: guji-程本-endeavor-2
+  key_label: 论道议政
+  phases:
+  - key: brewing
+    name_zh: 答阳城胥渠问太初之道
+    labels:
+      zh:
+      - 太初三气
+      - 中和玄同
+    start_date: -510
+    highlight_event_id: guji-程本-event-dialogue-taichu
+  - key: breakthrough
+    name_zh: 见郯子论礼而肃驾而归
+    labels:
+      zh:
+      - 疑郯子言礼
+      - 异乎吾所闻
+    start_date: -505
+    highlight_event_id: guji-程本-event-encounter-confucius
+  - key: climax
+    name_zh: 论晏子直而不阿、谏虎会以箴简子
+    labels:
+      zh:
+      - 晏子辞赏
+      - 虎会问
+    start_date: -492
+    highlight_event_id: guji-程本-event-dialogue-yanzi
+  - key: closure
+    name_zh: 见齐景公论为国之道
+    labels:
+      zh:
+      - 国不足为
+      - 因而不为
+    start_date: -490
+    highlight_event_id: guji-程本-event-dialogue-kingjing
+  decisions:
+  - date: -505
+    title_zh: 诣郯子问礼，闻其言而遽归
+    rationale: 以郯子言礼徒摇而暴之，异乎吾所闻，不愿苟同
+  - date: -490
+    title_zh: 对齐景公言国不足为、事不足治
+    rationale: 以道为治，去想去意、静虚以待，认为有为愿治之心反致重塞之祸
+events:
+- id: guji-程本-event-birth
+  person_id: guji-程本
+  type: birth
+  date: -550
+  year_of: -550
+  date_precision: decade
+  location_id: 晋
+  summary_zh: 程本生于晋，时晋顷公失政，政在六卿。
+- id: guji-程本-event-encounter-confucius
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 遇孔子于途
+    - 倾盖之交
+  date: -505
+  year_of: -505
+  date_precision: year
+  location_id: 郯
+  summary_zh: 子华子自郯反，途遇孔子，倾盖而语终日，相得甚欢；孔子命子路取束帛相赠，称程子天下之贤士。
+- id: guji-程本-event-refuse-zhaojinzi
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 反币不仕
+    - 去而之齐
+  date: -498
+  year_of: -498
+  date_precision: year
+  location_id: 晋
+  summary_zh: 赵简子遣使奉纁币聘以为爵执圭，时简子已杀窦犊及舜华，子华子逡巡不肯起；简子怒将胁之以兵，子华子遂去而之齐，馆于晏氏，更题其书曰子华子。
+- id: guji-程本-event-dialogue-taichu
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 阳城胥渠问
+    - 太初三气
+  date: -510
+  year_of: -510
+  date_precision: decade
+  location_id: 晋
+  summary_zh: 阳城胥渠因北宫子以见子华子，问太初万化之由；子华子论太初三气、中和大同之道，并申全生为上、迫生不如死之义。
+- id: guji-程本-event-dialogue-kingjing
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 见齐景公
+    - 因而不为
+  date: -490
+  year_of: -490
+  date_precision: year
+  location_id: 齐
+  summary_zh: 子华子见齐景公，公问所以为国；子华子对以国不足为、事不足治，主张以道为治、责而不诏、循名核实。
+- id: guji-程本-event-dialogue-yanzi
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 晏子辞赏
+  date: -492
+  year_of: -492
+  date_precision: year
+  location_id: 齐
+  summary_zh: 晏子治阿先获罪后得赏而辞，子华子闻之叹曰晏子可谓直而不阿者矣，其辞受可以训。
+- id: guji-程本-event-return-jin
+  person_id: guji-程本
+  type: endeavor
+  labels:
+    zh:
+    - 反于晋不复仕
+  date: -476
+  year_of: -476
+  date_precision: decade
+  location_id: 晋
+  summary_zh: 简子卒、襄子立，子华子反于晋，时已老矣，遂不复仕。
+- id: guji-程本-event-death
+  person_id: guji-程本
+  type: death
+  date: -470
+  year_of: -470
+  date_precision: decade
+  location_id: 晋
+  summary_zh: 子华子以老终，门人弟子共相缀集纪其所闻，编为其书。
