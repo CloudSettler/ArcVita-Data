@@ -1,0 +1,103 @@
+person:
+  qid: guji-卫瓘
+  name_zh: 卫瓘
+  names:
+    zh: 卫瓘
+    en: Wei Guan
+  lifespan:
+    birth:
+      date: '0220'
+      precision: year
+      is_circa: true
+      raw: 约220年
+    death:
+      date: 0291
+      precision: year
+      is_circa: false
+      raw: 291年
+  birth_date: 约220年
+  death_date: 291年
+  era: 三国魏至西晋
+  reign_ref: 西晋武帝时期
+  archetype: 书法家 · 政要
+  dilemmas:
+  - 身居台辅高位而潜心笔墨，政事与书艺之间的取舍
+  - 采张芝草法并参以父书，继承与变创之间的抉择
+  lesson: 融会诸家而自出新意，方成一家之妙
+  summary_first_person: 我名卫瓘，字伯玉，卫觊之子。幼年为魏尚书郎，后仕晋官至司空。我善书法，与索靖齐名，时人称我们为"一台二妙"。我采张芝的草法，参以先父之书，更为草稿，世人评说"伯玉得筋"，又谓我有楷法而书风骨力独运。
+endeavors:
+- id: guji-卫瓘-endeavor-1
+  name_zh: 仕途台辅
+  phases:
+  - key: brewing
+    name_zh: 入仕魏朝
+    labels:
+      zh: 尚书郎
+    start_date: '0240'
+  - key: climax
+    name_zh: 位至晋司空
+    labels:
+      zh: 司空
+    start_date: 0280
+    highlight_event_id: guji-卫瓘-event-career-2
+  decisions:
+  - date: '0240'
+    title_zh: 幼年为魏尚书郎
+    rationale: 出身书学世家，以才学入仕，开启台阁之途
+  - date: 0280
+    title_zh: 仕晋官至司空
+    rationale: 历仕两朝，位居三公，与索靖同台并称
+- id: guji-卫瓘-endeavor-2
+  name_zh: 书艺创革
+  phases:
+  - key: brewing
+    name_zh: 承家学门风
+    labels:
+      zh: 家学
+    start_date: '0230'
+  - key: breakthrough
+    name_zh: 更为草稿
+    labels:
+      zh: 草稿体
+    start_date: '0270'
+    highlight_event_id: guji-卫瓘-event-career-3
+  - key: closure
+    name_zh: 一台二妙
+    labels:
+      zh: 与索靖齐名
+    start_date: 0280
+  decisions:
+  - date: '0270'
+    title_zh: 采张芝草法，参以父书，更为草稿
+    rationale: 不泥古法，融张芝草法与先父笔意，自创新体
+events:
+- id: guji-卫瓘-event-birth
+  date: '0220'
+  year_of: 220
+  type: birth
+  title_zh: 卫瓘出生
+  description_zh: 卫瓘约于此时出生，字伯玉，魏太尉卫觊之子。
+- id: guji-卫瓘-event-career-1
+  date: '0240'
+  year_of: 240
+  type: endeavor
+  title_zh: 幼为魏尚书郎
+  description_zh: 卫瓘年轻时即担任魏国尚书郎，步入仕途。
+- id: guji-卫瓘-event-career-2
+  date: 0280
+  year_of: 280
+  type: endeavor
+  title_zh: 官至晋司空，与索靖并称一台二妙
+  description_zh: 卫瓘仕晋为司空，与尚书郎索靖俱善书法，时人谓之"一台二妙"。
+- id: guji-卫瓘-event-career-3
+  date: '0270'
+  year_of: 270
+  type: endeavor
+  title_zh: 采张芝草法更为草稿
+  description_zh: 卫瓘采张芝草法，取父书参之，更为草稿，世人评"伯玉得筋"。
+- id: guji-卫瓘-event-death
+  date: 0291
+  year_of: 291
+  type: death
+  title_zh: 卫瓘去世
+  description_zh: 卫瓘卒，其子卫恒（巨山）亦善书，世云"伯玉得筋，巨山得骨"。
