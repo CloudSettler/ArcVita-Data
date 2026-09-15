@@ -1,0 +1,171 @@
+person:
+  qid: guji-沈万山
+  name_zh: 沈万山
+  names:
+    zh: 沈万山
+    en: Shen Wanshan
+  lifespan:
+    birth:
+      date: 约1300
+      precision: decade
+      is_circa: true
+      raw: 元末，家贫无产，以渔为生
+    death:
+      date: 约1380
+      precision: decade
+      is_circa: true
+      raw: 明太祖时以茅山石筑苏州街，被疑谋逆收杀
+  era: 元末明初
+  reign_ref: 元至正、明洪武
+  archetype: 传奇巨富商人
+  dilemmas:
+  - 富可敌国而遭帝王猜忌，恃富对半筑城反招祸
+  - 藏宝秘而不言以求自保，终究财富招致杀身抄家
+  lesson: 财富可以骤至，亦可骤失；富过于主而不知敛藏，终为祸端。
+  summary_first_person: 我本吴县渔家贫子，因水底拾得乌鸦石、又传得北斗马蹄金而暴富，转贸于豪商之间致金数百万，衣食用度拟于王者，筑绣垣宝海之楼以自娱。太祖克金陵后，我愿对半出资助筑外城，先完工三日，帝虽酌酒慰我而心实不悦。后我以茅山石筑苏州街，帝疑我有逆谋，遂收杀之，尽抄家财入官。
+  source_urls:
+  - 《云蕉馆纪谈》·明·孔迩述
+endeavors:
+- id: guji-沈万山-endeavor-1
+  name_zh: 由渔转商致富
+  labels:
+    zh: 经商起家
+  phases:
+  - key: brewing
+    name_zh: 吴淞三泖捕鱼
+    labels:
+      zh: 贫渔为生
+    start_date: 约1310
+  - key: breakthrough
+    name_zh: 水底拾乌鸦石
+    labels:
+      zh: 拾宝致富
+    start_date: 约1340
+    highlight_event_id: guji-沈万山-event-stones
+  - key: climax
+    name_zh: 变为海贾遍走豪富间
+    labels:
+      zh: 展转贸易
+    start_date: 约1345
+    highlight_event_id: guji-沈万山-event-trade
+  decisions:
+  - date: 约1340
+    title_zh: 秘藏乌鸦石，变身为海贾
+    rationale: 得识者言一枚得钱数万，遂秘而不言，弃渔从商以求巨富。
+- id: guji-沈万山-endeavor-2
+  name_zh: 营建绣垣园林
+  labels:
+    zh: 营造园林
+  phases:
+  - key: brewing
+    name_zh: 置田凿渠种秫供酒
+    labels:
+      zh: 置产供酿
+    start_date: 约1355
+  - key: climax
+    name_zh: 筑七百二十步三层绣垣、宝海楼
+    labels:
+      zh: 极一时之奢侈
+    start_date: 约1360
+    highlight_event_id: guji-沈万山-event-garden
+  decisions:
+  - date: 约1355
+    title_zh: 以后园筑垣植花、起楼蓄珍
+    rationale: 既富之后衣食用度拟于王者，欲以园林之胜自娱显富。
+- id: guji-沈万山-endeavor-3
+  name_zh: 助筑金陵外城
+  labels:
+    zh: 对半筑城
+  phases:
+  - key: breakthrough
+    name_zh: 请与太祖对半而筑
+    labels:
+      zh: 恃富助工
+    start_date: 约1366
+  - key: climax
+    name_zh: 同时举工先完三日
+    labels:
+      zh: 先完三日
+    start_date: 约1366
+    highlight_event_id: guji-沈万山-event-wall
+  decisions:
+  - date: 约1366
+    title_zh: 愿与圣祖对半而筑金陵外城
+    rationale: 太祖欲广外城建都而库府虚乏，我恃其实愿分任其费。
+- id: guji-沈万山-endeavor-4
+  name_zh: 筑苏州街与九里石塘
+  labels:
+    zh: 筑街造桥
+  phases:
+  - key: brewing
+    name_zh: 筑苏州九里石塘、造铜桥
+    labels:
+      zh: 修塘造桥
+    start_date: 约1370
+  - key: closure
+    name_zh: 以茅山石为心筑苏州街，招致收杀
+    labels:
+      zh: 祸由此起
+    start_date: 约1380
+    highlight_event_id: guji-沈万山-event-death
+  decisions:
+  - date: 约1380
+    title_zh: 以茅山石为心筑苏州街
+    rationale: 藉雄资营建街市，然石心之制被上疑为谋逆之心，遂罹杀身之祸。
+events:
+- id: guji-沈万山-event-birth
+  date: 约1300
+  year_of: 1300
+  title_zh: 沈万山生于苏州吴县
+  type: birth
+  description: 苏州吴县人也，家贫无产，以渔为生。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-1
+- id: guji-沈万山-event-stones
+  date: 约1340
+  year_of: 1340
+  title_zh: 洗碗坠水，捞得乌鸦石
+  type: endeavor
+  description: 常于吴淞三泖间撒网捕鱼，一日洗碗碗坠水中，摸之累累如石弹，拾得光泽迥常之乌鸦石，一枚得钱数万。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-1
+- id: guji-沈万山-event-trade
+  date: 约1345
+  year_of: 1345
+  title_zh: 弃渔为海贾，转展贸易致金数百万
+  type: endeavor
+  description: 遍走徽、池、宁、太、常、镇豪富间转展贸易，致金数百万，因以显富。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-1
+- id: guji-沈万山-event-garden
+  date: 约1360
+  year_of: 1360
+  title_zh: 筑绣垣三层，起宝海之楼
+  type: endeavor
+  description: 后园筑垣周回七百二十步，垣上起三层植四时之花，号曰绣垣；垣内起四通八达之楼，中楼号曰宝海，诸珍异皆在焉。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-2
+- id: guji-沈万山-event-wall
+  date: 约1366
+  year_of: 1366
+  title_zh: 与太祖对半筑金陵外城，先完三日
+  type: endeavor
+  description: 太祖既克金陵欲广其外城，万山恃其富愿对半而筑，同时举工先完三日，太祖酌酒慰之曰白衣天子素封卿，然心实不悦。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-3
+- id: guji-沈万山-event-marriage
+  date: 约1370
+  year_of: 1370
+  title_zh: 收扳环女为子妇，共筑赛公桥
+  type: endeavor
+  description: 昔就门环产女者应梦而还其金银，山遂收其女为子妇并养其父母；新妇与山赛造桥，先成而规度精致，号曰赛公桥，在秀水县北境平望。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-4
+- id: guji-沈万山-event-death
+  date: 约1380
+  year_of: 1380
+  title_zh: 被疑谋逆收杀，家财尽抄入官
+  type: death
+  description: 万山筑苏州街以茅山石为心，上谓其有谋心将为逆，遂收杀之，血流出尽白，以兵围其家，尽抄其家财入官。
+  related_person: guji-沈万山
+  related_endeavor: guji-沈万山-endeavor-4
