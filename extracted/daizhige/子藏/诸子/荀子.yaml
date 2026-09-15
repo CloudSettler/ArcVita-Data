@@ -1,0 +1,108 @@
+person:
+  qid: guji-荀子
+  name_zh: 荀子
+  names:
+    zh: 荀子
+    en: Xunzi
+  lifespan:
+    birth:
+      date: -203
+      precision: year
+      is_circa: true
+      raw: 约公元前313年
+    death:
+      date: -0238
+      precision: year
+      is_circa: true
+      raw: 约公元前238年
+  birth_date: -203
+  death_date: -0238
+  era: 战国末期
+  reign_ref: 战国末期，历赵、齐、楚诸国
+  archetype: 思想家与学派宗师
+  dilemmas:
+  - 主张性恶却志在化性起伪，教化的根基与出路何在
+  - 隆礼重法与战国纷争现实之间的张力
+  - 三为稷下学宫祭酒而终遭谗言流亡
+  lesson: 学不可以已，锲而不舍，金石可镂
+  summary_first_person: 我名荀况，世称荀子。我不信生而知之，只信积学至于圣人，故作《劝学》开篇言学不可以已。我以为人性本恶，其善者伪也，唯礼义师法可以化性。我曾三为齐国稷下祭酒，掌兰陵而终老于著书，将儒家的礼与法衔接，传《荀子》三十二篇于后世。
+  source_urls:
+  - https://zh.wikisource.org/wiki/荀子
+endeavors:
+- id: guji-荀子-endeavor-1
+  name_zh: 立学稷下
+  phases:
+  - key: brewing
+    name_zh: 游学赵齐
+    labels:
+      zh: 负笈求学
+    start_date: -0290
+  - key: breakthrough
+    name_zh: 稷下祭酒
+    labels:
+      zh: 三为祭酒
+    start_date: -181
+    highlight_event_id: guji-荀子-event-jixia
+  decisions:
+  - date: -181
+    title_zh: 应齐国稷下学宫之召
+    rationale: 稷下为天下学人汇聚之地，可宣教化、正礼义、与百家争鸣
+- id: guji-荀子-endeavor-2
+  name_zh: 著书兰陵
+  phases:
+  - key: climax
+    name_zh: 令兰陵
+    labels:
+      zh: 春申君任以为兰陵令
+    start_date: -173
+    highlight_event_id: guji-荀子-event-lanling
+  - key: closure
+    name_zh: 著书终老
+    labels:
+      zh: 发愤著书
+    start_date: -0238
+    highlight_event_id: guji-荀子-event-zhushu
+  decisions:
+  - date: -0238
+    title_zh: 废居兰陵，发愤著书
+    rationale: 春申君死而荀子废，不再出仕，以著书明道、传法后学为归宿
+events:
+- id: guji-荀子-event-birth
+  type: birth
+  date: -203
+  year_of: -313
+  title_zh: 荀子约生于赵国
+  description: 荀况约于战国中期生于赵国，后名闻天下，世称荀子。
+- id: guji-荀子-event-jixia
+  type: endeavor
+  date: -181
+  year_of: -265
+  title_zh: 三为稷下学宫祭酒
+  description: 荀子游学于齐，在稷下学宫最为老师，三为祭酒， Silver为掌管学宫之尊。
+  endeavor_id: guji-荀子-endeavor-1
+  labels:
+    zh: 祭酒
+- id: guji-荀子-event-lanling
+  type: endeavor
+  date: -173
+  year_of: -255
+  title_zh: 楚春申君以为兰陵令
+  description: 荀子适楚，春申君任其为兰陵令，治政化民有方。
+  endeavor_id: guji-荀子-endeavor-2
+  labels:
+    zh: 施政
+- id: guji-荀子-event-zhushu
+  type: endeavor
+  date: -0238
+  year_of: -238
+  title_zh: 废居兰陵，著书数万言
+  description: 春申君死而荀子废，因发愤著《荀子》三十二篇传于后世，其中《劝学》开宗明义。
+  endeavor_id: guji-荀子-endeavor-2
+  labels:
+    zh: 劝学
+- id: guji-荀子-event-death
+  type: death
+  date: -0238
+  year_of: -238
+  title_zh: 荀子约卒于兰陵
+  description: 荀子终老于兰陵，其学传李斯、韩非等，影响深远。
