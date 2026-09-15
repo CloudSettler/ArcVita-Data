@@ -1,0 +1,85 @@
+person:
+  qid: guji-钱江
+  name_zh: 钱江
+  names:
+    zh: 钱江、东平
+    en: Qian Jiang
+  era: 清末（太平天国时期）
+  reign_ref: 太平天国
+  archetype: 幕僚策士
+  dilemmas:
+  - 投诚清廷后旧日功业成禁区，吟咏自况亦须隐晦
+  lesson: 书生亦有杀贼胆，运筹须择势而栖
+  summary_first_person: 我钱江，字东平，尝作《兴王策》上干洪秀全，太平天国授我大司马之职；后又与王韬上书李秀成，时人并称太平两大文字。世人曾见我《东平诗》一卷，皆投诚之后所作，中有自赠一联"名妓爱才情似海，书生杀贼胆如天"，气概大概如此。
+endeavors:
+- id: guji-钱江-endeavor-1
+  name_zh: 献策太平天国
+  labels:
+    zh:
+    - 谋略
+    - 著策
+    - 投效
+  phases:
+  - key: brewing
+    name_zh: 作兴王策
+    labels:
+      zh:
+      - 著述
+      - 献策
+    start_date: '1851'
+  - key: breakthrough
+    name_zh: 干进授职
+    labels:
+      zh:
+      - 面陈
+      - 授官
+    start_date: '1851'
+    highlight_event_id: guji-钱江-event-juejin
+  - key: climax
+    name_zh: 上书李秀成
+    labels:
+      zh:
+      - 外交
+      - 谋画
+    start_date: '1860'
+    highlight_event_id: guji-钱江-event-shangshu
+  - key: closure
+    name_zh: 投诚后寄情吟咏
+    labels:
+      zh:
+      - 诗文
+      - 自况
+    start_date: '1862'
+    highlight_event_id: guji-钱江-event-shiji
+  decisions:
+  - date: '1851'
+    title_zh: 以《兴王策》干洪秀全
+    rationale: 观天下大势，欲以书生之策佐新起之政
+  - date: '1862'
+    title_zh: 投诚后自作《东平诗》一卷
+    rationale: 既有反正之意，吟咏自遣，兼寄旧时襟抱
+events:
+- id: guji-钱江-event-juejin
+  date: '1851'
+  year_of: 1851
+  date_precision: year
+  title_zh: 以《兴王策》干洪秀全，授大司马
+  description: 钱江以其兴王方略面干太平天国天王洪秀全，获授大司马之职。
+  category: 事业
+  endeavor_id: guji-钱江-endeavor-1
+- id: guji-钱江-event-shangshu
+  date: '1860'
+  year_of: 1860
+  date_precision: year
+  title_zh: 与王韬同上书李秀成
+  description: 钱江与王畹（即王韬）上书忠王李秀成，时人并称太平两大文字。
+  category: 事业
+  endeavor_id: guji-钱江-endeavor-1
+- id: guji-钱江-event-shiji
+  date: '1862'
+  year_of: 1862
+  date_precision: year
+  title_zh: 投诚后作《东平诗》，中有"名妓爱才情似海，书生杀贼胆如天"之联
+  description: 钱江投诚以后作诗一卷，世传《东平诗》，有自赠一联见其气概。
+  category: 著述
+  endeavor_id: guji-钱江-endeavor-1
