@@ -1,0 +1,137 @@
+person:
+  qid: guji-朱成功
+  name_zh: 朱成功
+  names:
+    zh: 朱成功
+    en: Zhu Chenggong
+  lifespan:
+    birth:
+      date: '1624'
+      precision: year
+      is_circa: true
+      raw: 天启四年生于日本平户
+    death:
+      date: '1662'
+      precision: year
+      is_circa: false
+  birth_date: '1624'
+  death_date: '1662'
+  era: 明末清初
+  reign_ref: 永历
+  archetype: 孤忠抗清的海上军事统帅
+  dilemmas:
+  - 忠于明室与大清招抚之诱的抉择
+  - 拥立唐王联宗与自立旗帜之间的权衡
+  lesson: 以海上之力独撑残明，虽父降己不降，成败皆见孤臣之节。
+  summary_first_person: 我本名郑成功，蒙赐国姓朱，起兵海上，奉永历年号，力抗清师，终不能复中原而殁。
+  source_urls:
+  - https://example.org/guji/xinanjishi
+endeavors:
+- id: guji-朱成功-endeavor-1
+  name_zh: 起兵海上奉明抗清
+  phases:
+  - key: brewing
+    name_zh: 起于烈屿
+    labels:
+      zh: 起兵
+    start_date: 1646-12
+    highlight_event_id: guji-朱成功-event-liyu
+  - key: breakthrough
+    name_zh: 闽海奉永历年号
+    labels:
+      zh: 奉正朔
+    start_date: 1650-08
+    highlight_event_id: guji-朱成功-event-shijing
+  - key: climax
+    name_zh: 东南转战克复州县
+    labels:
+      zh: 转战东南
+    start_date: '1652'
+    highlight_event_id: guji-朱成功-event-haicheng
+  - key: closure
+    name_zh: 兵势渐衰经营厦门
+    labels:
+      zh: 经营海上
+    start_date: 1655-05
+    highlight_event_id: guji-朱成功-event-siming
+  decisions:
+  - date: 1646-12
+    title_zh: 起兵烈屿
+    rationale: 隆武陷汀州后以海上之力继奉明统。
+  - date: 1650-08
+    title_zh: 遣陈士京入朝奉永历年号
+    rationale: 闽海始奉年号，正名抗清。
+  - date: 1655-05
+    title_zh: 改厦门中左所为思明州
+    rationale: 建立海上根据地，自为经营。
+- id: guji-朱成功-endeavor-2
+  name_zh: 屡拒清廷招抚
+  decisions:
+  - date: 1654-04
+    title_zh: 拒割漳泉惠潮之抚
+    rationale: 大清以四府相招，不降。
+events:
+- id: guji-朱成功-event-birth
+  date: '1624'
+  year_of: '1624'
+  name_zh: 朱成功生
+  type: birth
+- id: guji-朱成功-event-liyu
+  date: 1646-12
+  year_of: '1646'
+  name_zh: 朱成功起于烈屿
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-quanzhou
+  date: 1647-08
+  year_of: '1647'
+  name_zh: 朱成功与郑鸿逵围泉州
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-shijing
+  date: 1650-08
+  year_of: '1650'
+  name_zh: 遣光禄卿陈士京入朝，闽海始奉永历年号
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-changtai
+  date: 1653-01
+  year_of: '1653'
+  name_zh: 退大清陈锦兵于长泰
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-haicheng
+  date: 1653-06
+  year_of: '1653'
+  name_zh: 败金砺于海澄
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-zhangzhou
+  date: 1653-12
+  year_of: '1653'
+  name_zh: 复漳州
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-jieyang
+  date: 1655-09
+  year_of: '1655'
+  name_zh: 复揭阳、澄海、普宁
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-siming
+  date: 1655-05
+  year_of: '1655'
+  name_zh: 改厦门中左所为思明州
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-fuzhou
+  date: 1655-07
+  year_of: '1655'
+  name_zh: 攻福州，获大将张福
+  type: endeavor
+  related_endeavor_id: guji-朱成功-endeavor-1
+- id: guji-朱成功-event-death
+  date: '1662'
+  year_of: '1662'
+  name_zh: 朱成功卒
+  type: death
