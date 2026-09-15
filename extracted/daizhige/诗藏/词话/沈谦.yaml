@@ -1,0 +1,90 @@
+person:
+  qid: guji-沈谦
+  name_zh: 沈谦
+  names:
+    zh: 沈谦
+    en: Shen Qian
+  lifespan:
+    birth:
+      date: '1620'
+      precision: year
+      is_circa: true
+      raw: 生年不详，约明天启年间
+    death:
+      date: '1670'
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约清康熙初年
+  birth_date: 约1620
+  death_date: 约1670
+  era: 清初
+  reign_ref: 清顺治、康熙年间
+  archetype: 词论家
+  dilemmas:
+  - 词上不可似诗，下不可似曲，须自立体制，贵在自运
+  - 白描不可近俗，修饰不得太文，生香真色在离即之间
+  - 学周柳得其情、学苏辛得其气，当以离处为合
+  lesson: 立意贵新，设色贵雅，构局贵变，言情贵含蓄，词贵于移情
+  summary_first_person: 我沈谦，清初论词之人，撰《填词杂说》，论词承诗启曲，贵在移情，小令中调长调各有作法，评骘唐宋诸家得失，兼自述少时和唐宋词三百阕之事，以为作词要不亢不卑、言情贵含蓄。
+  source_urls:
+    -源': https://zh.wikisource.org/wiki/填词杂说
+endeavors:
+- id: guji-沈谦-endeavor-1
+  name_zh: 填词创作
+  labels:
+    zh: 词创作
+  start_date: 约1635
+  summary: 少时和唐宋词三百阕，独不敢次李清照寻寻觅觅一篇。
+  phases:
+  - key: brewing
+    name_zh: 少时和词
+    labels:
+      zh: 学词阶段
+    start_date: 约1635
+    highlight_event_id: guji-沈谦-event-heci
+  decisions:
+  - date: 约1635
+    title_zh: 少时和唐宋词三百阕
+    rationale: 以为学词必先遍和古人之作，独不敢次寻寻觅觅一篇，恐为妇人所笑。
+- id: guji-沈谦-endeavor-2
+  name_zh: 撰《填词杂说》
+  labels:
+    zh: 词学理论
+  start_date: 约1660
+  summary: 论词承诗启曲，评骘诸家，提出小调中调长调作法与作词要诀。
+  phases:
+  - key: breakthrough
+    name_zh: 论词成书
+    labels:
+      zh: 著述
+    start_date: 约1660
+    highlight_event_id: guji-沈谦-event-writings
+  decisions:
+  - date: 约1660
+    title_zh: 提出各调作法与作词要诀
+    rationale: 以小调要言短意长，中调要骨肉停匀，长调要操纵自如；立意贵新，设色贵雅，构局贵变，言情贵含蓄。
+events:
+- id: guji-沈谦-event-birth
+  type: birth
+  date: 约1620
+  year_of: 1620
+  summary: 沈谦约生于明天启年间。
+- id: guji-沈谦-event-heci
+  type: endeavor_event
+  date: 约1635
+  year_of: 1635
+  endeavor_id: guji-沈谦-endeavor-1
+  phase_key: brewing
+  summary: 少时和唐宋词三百阕，独不敢次李清照寻寻觅觅一篇。
+- id: guji-沈谦-event-writings
+  type: endeavor_event
+  date: 约1660
+  year_of: 1660
+  endeavor_id: guji-沈谦-endeavor-2
+  phase_key: breakthrough
+  summary: 撰成《填词杂说》，系统论词体作法与言情之道。
+- id: guji-沈谦-event-death
+  type: death
+  date: 约1670
+  year_of: 1670
+  summary: 沈谦约卒于清康熙初年。
