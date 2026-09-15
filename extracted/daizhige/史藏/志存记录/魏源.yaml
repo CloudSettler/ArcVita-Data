@@ -1,0 +1,128 @@
+person:
+  qid: guji-魏源
+  name_zh: 魏源
+  names:
+    zh: 魏源
+    en: Wei Yuan
+  lifespan:
+    birth:
+      date: 1794
+      precision: year
+      is_circa: true
+      raw: 乾隆五十九年（约1794）
+    death:
+      date: 1857
+      precision: year
+      is_circa: true
+      raw: 咸丰七年（约1857）
+  birth_date: 1794
+  death_date: 1857
+  era: 清代道光、咸丰年间
+  reign_ref: 清仁宗嘉庆／清宣宗道光／清文宗咸丰
+  archetype: 经世学者·启蒙思想家
+  dilemmas:
+  - 身处科举与经世之学的夹缝，屡试不第，却以幕僚与著述济世
+  - 目睹海禁败坏与西力东侵，须在守旧学风与师夷长技之间权衡取舍
+  lesson: 师夷长技以制夷，睁眼看世界，以实学救时弊
+  summary_first_person: 我是魏源，字默深。我一生科名不显，长期为人作幕，却遍研经世之学，辑《皇朝经世文编》、撰《海国图志》，首倡“师夷长技以制夷”，愿以一介书生之力唤醒国人睁眼看世界。
+  source_urls:
+  - 续碑传集·魏默深先生传（姚永朴）
+endeavors:
+- id: guji-魏源-endeavor-1
+  name_zh: 编纂经世之学
+  phases:
+  - key: brewing
+    name_zh: 求学励志
+    labels:
+      zh: 少年苦学，究心经术
+    start_date: 1810
+  - key: breakthrough
+    name_zh: 编辑《皇朝经世文编》
+    labels:
+      zh: 辑经世文编
+    start_date: 1825
+    highlight_event_id: guji-魏源-event-endeavor-2
+  - key: climax
+    name_zh: 幕府参政
+    labels:
+      zh: 参佐幕府，熟谙时务
+    start_date: 1830
+  decisions:
+  - date: 1825
+    title_zh: 辑《皇朝经世文编》
+    rationale: 欲以当世实用之文矫正空疏学风，开创经世实学之风。
+- id: guji-魏源-endeavor-2
+  name_zh: 撰《海国图志》
+  phases:
+  - key: brewing
+    name_zh: 留心夷务
+    labels:
+      zh: 关注海疆与西方情势
+    start_date: 1840
+  - key: breakthrough
+    name_zh: 受林则徐嘱托
+    labels:
+      zh: 据四洲志增补
+    start_date: 1841
+  - key: climax
+    name_zh: 成书《海国图志》
+    labels:
+      zh: 倡师夷长技以制夷
+    start_date: 1842
+    highlight_event_id: guji-魏源-event-endeavor-3
+  - key: closure
+    name_zh: 屡次增订
+    labels:
+      zh: 增补百卷，修订终成
+    start_date: 1852
+  decisions:
+  - date: 1842
+    title_zh: 纂成《海国图志》五十卷
+    rationale: 鸦片战争惨败，痛感不悉夷情之误，故系统介绍海外各国并倡师夷长技以制夷。
+events:
+- id: guji-魏源-event-birth
+  person_qid: guji-魏源
+  type: birth
+  date: 1794
+  year_of: 1794
+  title_zh: 魏源出生
+  desc: 魏源生于湖南邵阳，字默深。
+- id: guji-魏源-event-death
+  person_qid: guji-魏源
+  type: death
+  date: 1857
+  year_of: 1857
+  title_zh: 魏源去世
+  desc: 魏源卒，享年约六十四岁。
+- id: guji-魏源-event-endeavor-1
+  person_qid: guji-魏源
+  type: endeavor
+  date: 1810
+  year_of: 1810
+  title_zh: 少年苦学，究心经世之学
+  desc: 魏源早年究心经术与时务，为其后编纂经世文编奠定学问根基。
+  endeavor_id: guji-魏源-endeavor-1
+- id: guji-魏源-event-endeavor-2
+  person_qid: guji-魏源
+  type: endeavor
+  date: 1825
+  year_of: 1825
+  title_zh: 辑成《皇朝经世文编》
+  desc: 魏源辑当世实用之文为《皇朝经世文编》，一时学者风动，开经世实学之风。
+  endeavor_id: guji-魏源-endeavor-1
+- id: guji-魏源-event-endeavor-3
+  person_qid: guji-魏源
+  type: endeavor
+  date: 1842
+  year_of: 1842
+  title_zh: 纂成《海国图志》五十卷
+  desc: 魏源受林则徐嘱托，据《四洲志》增补成《海国图志》，首倡“师夷长技以制夷”。
+  endeavor_id: guji-魏源-endeavor-2
+- id: guji-魏源-event-endeavor-4
+  person_qid: guji-魏源
+  type: endeavor
+  date: 1852
+  year_of: 1852
+  title_zh: 增订《海国图志》为百卷本
+  desc: 魏源屡次增订《海国图志》至百卷，蔚为大观，影响后世维新思潮。
+  endeavor_id: guji-魏源-endeavor-2
