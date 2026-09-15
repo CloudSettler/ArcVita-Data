@@ -1,0 +1,135 @@
+person:
+  qid: guji-罗明坚
+  name_zh: 罗明坚
+  names:
+    zh: 罗明坚
+    en: Michele Ruggieri
+  lifespan:
+    birth:
+      date: 1543
+      precision: year
+      is_circa: true
+      raw: 生于1543年
+    death:
+      date: 1607
+      precision: year
+      raw: 1607年卒于萨莱诺
+  birth_date: 1543
+  death_date: 1607
+  era: 明代万历年间
+  reign_ref: 万历
+  archetype: 西学东渐的先驱传教士
+  dilemmas:
+  - 身为西国之人，如何在中华礼俗与天主教义之间传教立足
+  - 天主义理精微难以阐发，如何以中文著述使士人接受
+  lesson: 跨文化沟通需要以对方的语言和问答形式阐明道理
+  summary_first_person: 我生于意大利，泛海三载来到明朝，先居澳门，后留住广州、肇庆，著《天主圣教实录》，译成唐字，欲明天主根因，救拔灵魂。
+endeavors:
+- id: guji-罗明坚-endeavor-1
+  name_zh: 东来传教
+  phases:
+  - key: brewing
+    name_zh: 泛海东来
+    labels:
+      zh:
+      - 渡海
+      - 澳门
+    start_date: '1579'
+    highlight_event_id: guji-罗明坚-event-arrival
+  - key: breakthrough
+    name_zh: 居留内地
+    labels:
+      zh:
+      - 广州
+      - 肇庆
+      - 桂林
+    start_date: '1580'
+    highlight_event_id: guji-罗明坚-event-preaching
+  - key: climax
+    name_zh: 著述实录
+    labels:
+      zh:
+      - 天主圣教实录
+    start_date: '1584-09-21'
+    highlight_event_id: guji-罗明坚-event-writing
+  - key: closure
+    name_zh: 归老欧洲
+    labels:
+      zh:
+      - 萨莱诺
+    start_date: '1607'
+    highlight_event_id: guji-罗明坚-event-death
+  decisions:
+  - date: '1579'
+    title_zh: 不惮风波泛海三载赴澳门
+    rationale: 闻中华盛治，欲奉祀天主、传布教义
+  - date: '1584-09-21'
+    title_zh: 著《天主圣教实录》译成唐字
+    rationale: 报答中国给地柔远之恩，以天主行实救拔灵魂升天堂免堕地狱
+- id: guji-罗明坚-endeavor-2
+  name_zh: 中文护教文献开创
+  phases:
+  - key: brewing
+    name_zh: 学习中文
+    labels:
+      zh:
+      - 译成唐字
+    start_date: '1579'
+    highlight_event_id: guji-罗明坚-event-arrival
+  - key: breakthrough
+    name_zh: 撰写首部护教文献
+    labels:
+      zh:
+      - 明末第一部天主教护教文献
+    start_date: '1584-09-21'
+    highlight_event_id: guji-罗明坚-event-writing
+  decisions:
+  - date: '1584-09-21'
+    title_zh: 以二人问答形式撰述
+    rationale: 天主义理精微难以阐发，故作二人问答于是篇
+events:
+- id: guji-罗明坚-event-birth
+  date: '1543'
+  year_of: 1543
+  title_zh: 罗明坚生于意大利
+  labels:
+    zh:
+    - 出生
+    - 意大利
+- id: guji-罗明坚-event-arrival
+  date: '1579'
+  year_of: 1579
+  title_zh: 泛海三载到达澳门
+  labels:
+    zh:
+    - 澳门
+    - 传教
+  endeavor_id: guji-罗明坚-endeavor-1
+- id: guji-罗明坚-event-preaching
+  date: '1580'
+  year_of: 1580
+  title_zh: 在广州、肇庆、桂林留住传教
+  labels:
+    zh:
+    - 广州
+    - 肇庆
+    - 桂林
+  endeavor_id: guji-罗明坚-endeavor-1
+- id: guji-罗明坚-event-writing
+  date: '1584-09-21'
+  year_of: 1584
+  title_zh: 撰《天主圣教实录》序成
+  labels:
+    zh:
+    - 著述
+    - 天主圣教实录
+  endeavor_id: guji-罗明坚-endeavor-2
+- id: guji-罗明坚-event-death
+  date: '1607'
+  year_of: 1607
+  title_zh: 卒于萨莱诺
+  labels:
+    zh:
+    - 去世
+    - 萨莱诺
+  endeavor_id: guji-罗明坚-endeavor-1
