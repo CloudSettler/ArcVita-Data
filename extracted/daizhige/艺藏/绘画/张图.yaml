@@ -1,0 +1,88 @@
+person:
+  qid: guji-张图
+  name_zh: 张图
+  names:
+    zh: 张图
+    en: Zhang Tu
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 生年不详
+    death:
+      precision: unknown
+      is_circa: false
+      raw: 卒年不详
+  era: 五代·后梁
+  reign_ref: 后梁龙德年间
+  archetype: 画家
+  dilemmas:
+  - 无师授而自成一体，面对自负的名家跋异，是隐忍还是当场较艺
+  lesson: 艺高者不假朽约、不事虚让，以笔墨实力服人
+  summary_first_person: 我张图，字仲谋，河南洛阳人。曾为朱梁太祖掌行军资粮簿籍，时人呼我"张将军"。我少年颖悟好丹青，泼墨山水皆不由师授，亦不法今古，自成一体，尤长大像。梁龙德年间，洛阳广爱寺募画三门两壁，处士跋异自负绝笔，我长揖请为赞贰，遭其讥诮。我即就西壁不假朽约，搦管挥写，倏忽成折腰报事师并三鬼，跋异惊服引退，我遂专其功，又于东壁画水神一座，视之如生。
+endeavors:
+- id: guji-张图-endeavor-1
+  name_zh: 掌行军资粮簿籍
+  phases:
+  - key: brewing
+    name_zh: 佐朱梁藩镇
+    labels:
+      zh:
+      - 幕职
+      - 张将军
+    highlight_event_id: guji-张图-event-service
+  decisions:
+  - title_zh: 为梁太祖掌行军资粮簿籍
+    rationale: 在藩镇任职掌军资簿籍，功勤见称，故得军中"张将军"之名
+- id: guji-张图-endeavor-2
+  name_zh: 泼墨丹青自成一体
+  phases:
+  - key: brewing
+    name_zh: 少年颖悟好丹青
+    labels:
+      zh:
+      - 不由师授
+  - key: breakthrough
+    name_zh: 广爱寺挥写壁像
+    labels:
+      zh:
+      - 不假朽约
+      - 神笔
+    start_date: 936-11-19
+    highlight_event_id: guji-张图-event-competition
+  - key: climax
+    name_zh: 东壁画水神
+    labels:
+      zh:
+      - 意思高远
+      - 视之如生
+    start_date: 936-11-19
+    highlight_event_id: guji-张图-event-watergod
+  decisions:
+  - date: 936-11-19
+    title_zh: 于广爱寺投朽木于地，就西壁径自挥写
+    rationale: 不满跋异自负之语，弃朽木起稿之法，径以神笔挥写以证实力
+  - title_zh: 不伪让，专其功
+    rationale: 面对跋异谢退，不假辞让，独擅二壁功绩
+  - title_zh: 画作《十王地藏》一轴
+    rationale: 慈悲善护之相精妙，为时人宝藏
+events:
+- id: guji-张图-event-birth
+  title_zh: 张图生于河南洛阳
+  summary_zh: 文献未载其生年，仅知其为河南洛阳人，少颖悟，好丹青。
+- id: guji-张图-event-service
+  year_of: -4
+  title_zh: 张图掌行军资粮簿籍，时人呼为张将军
+  summary_zh: 朱梁太祖在藩镇之日，张图执掌行军资粮簿籍，故时人称之为张将军。
+- id: guji-张图-event-competition
+  date: 936-11-19
+  year_of: 936
+  title_zh: 广爱寺题壁折服跋异
+  summary_zh: 梁龙德中，洛阳广爱寺沙门义暄邀四方奇笔画三门两壁，处士跋异自恃绝笔应募。张图请为赞贰遭讥，遂投朽木于地，就西壁不假朽约，搦管挥写，倏忽成折腰报事师及从者三鬼，跋异惊服而退，张图遂专其功。
+- id: guji-张图-event-watergod
+  year_of: 936
+  title_zh: 东壁画水神一座
+  summary_zh: 张图于广爱寺东壁画水神一座，直视西壁报事师，意思高远，视之如生，与西壁并存焉。
+- id: guji-张图-event-death
+  title_zh: 张图卒
+  summary_zh: 文献未载其卒年，可列神品。
