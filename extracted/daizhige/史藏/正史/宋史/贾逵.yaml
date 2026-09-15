@@ -1,0 +1,148 @@
+person:
+  qid: guji-贾逵
+  name_zh: 贾逵
+  names:
+    zh: 贾逵
+    en: Jia Kui
+  lifespan:
+    birth:
+      date: '1012'
+      precision: year
+      is_circa: true
+      raw: 卒年年六十九，元丰初卒
+    death:
+      date: '1080'
+      precision: year
+      is_circa: true
+  birth_date: 约1012年
+  death_date: 约1080年
+  era: 北宋
+  reign_ref: 英宗／神宗
+  archetype: 边将/武将
+  dilemmas:
+  - 归仁驿之战: 违狄青"不待令而举者斩"之令，擅自引军据高，胜则功、败则斩
+  - 邕州城破后受命入城搜括公私遗坠，坚辞不受以免同僚匿宝之弊
+  lesson: 临机决断与廉洁自守——兵法"先据高者胜"胜于坐待军令，财宝面前独守其身
+  summary_first_person: 我贾逵，真定槁城人，少孤而以巧计迎母奉养。自拱圣卒伍至殿前班副都知，随狄青征侬智高，归仁驿之战我违令据高，仗剑驰下断贼为二，遂破侘智高；事后诣青请罪，青反拊背劳谢。历秦凤、并代、鄜延诸路，伐木却羌酋，聚熟户为二十七堡以御寇，铸铁钥以正禁城启闭。神宗时拜建武军节度使、殿前都指挥使，并请不俟郊赦而赐三世官以尽念亲之志。数月而卒，赠侍中，谥武恪。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷349
+endeavors:
+- id: guji-贾逵-endeavor-1
+  name_zh: 征讨侬智高与早期军旅
+  phases:
+  - key: brewing
+    name_zh: 行伍出身
+    labels:
+      zh: 拱圣卒至殿前班副都知
+    start_date: 约1035
+    highlight_event_id: guji-贾逵-event-career-attendant
+  - key: breakthrough
+    name_zh: 归仁驿之战
+    labels:
+      zh: 破侬智高
+    start_date: 1053
+    highlight_event_id: guji-贾逵-event-guiren
+  decisions:
+  - date: 1053
+    title_zh: 违令引军据高山
+    rationale: 所部兵数困易衄，兵法先据高者胜；若坐待军令，恐贼乘胜先登，事不可为
+  - date: 1055
+    title_zh: 辞受邕州搜括之命
+    rationale: 将校多以搜城故匿窃金宝，独逵无所犯，固辞以自守
+- id: guji-贾逵-endeavor-2
+  name_zh: 经略西北边防
+  phases:
+  - key: brewing
+    name_zh: 秦凤采木退羌
+    labels:
+      zh: 连三中的酋拜伏
+    start_date: 约1060
+  - key: breakthrough
+    name_zh: 迁并代聚熟户为堡
+    labels:
+      zh: 二十七堡息寇患
+    start_date: 约1065
+    highlight_event_id: guji-贾逵-event-fort-build
+  - key: climax
+    name_zh: 复总鄜延兵筑伏龙山保障
+    labels:
+      zh: 请筑保障与城相望
+    start_date: 约1070
+    highlight_event_id: guji-贾逵-event-fulongshan
+  - key: closure
+    name_zh: 拜殿前都指挥使
+    labels:
+      zh: 建武军节度使
+    start_date: 1078
+    highlight_event_id: guji-贾逵-event-dianqian
+  decisions:
+  - date: 约1065
+    title_zh: 差度远近聚熟户为二十七堡
+    rationale: 熟户散处边关苦于寇略，聚堡次第相望则害息
+  - date: 约1058
+    title_zh: 卡塞主治麟府军马并狄道防务整顿
+    rationale: 按纳种豪以射练兵，激励边丁皆成劲兵
+events:
+- id: guji-贾逵-event-birth
+  date: '1012'
+  year_of: 1012
+  type: birth
+  place: 真定槁城
+  note_zh: 少孤，厚赂继父，迎母奉养
+- id: guji-贾逵-event-career-attendant
+  date: 约1035
+  year_of: 1035
+  type: career
+  title_zh: 隶拱圣为卒至殿前班副都知换西染院副使
+  place_zh: 京师
+- id: guji-贾逵-event-guiren
+  date: 1053
+  year_of: 1053
+  type: endeavor
+  title_zh: 从狄青征侬智高，归仁驿之战仗剑驰下断贼为二
+  place_zh: 归仁驿
+  highlight: true
+  note_zh: 不待令引军据高，贼溃后诣青请罪，青拊背劳谢
+- id: guji-贾逵-event-qiang-chief
+  date: 约1058
+  year_of: 1058
+  type: endeavor
+  title_zh: 秦山伐木遇羌酋，画地立约连三中的酋拜伏
+  place_zh: 秦山／西夏错壤
+- id: guji-贾逵-event-fort-build
+  date: 约1065
+  year_of: 1065
+  type: endeavor
+  title_zh: 徙并代主管麟府军马，聚熟户为二十七堡
+  place_zh: 并代路
+- id: guji-贾逵-event-flood
+  date: 约1065
+  year_of: 1065
+  type: endeavor
+  title_zh: 都城西南水暴溢，奉英宗命督护囊土塞门
+  place_zh: 开封安上门
+- id: guji-贾逵-event-fulongshan
+  date: 约1070
+  year_of: 1070
+  type: endeavor
+  title_zh: 相伏龙山九州台之间请筑保障与延州夹河两城相望
+  place_zh: 延州
+- id: guji-贾逵-event-sui-shu
+  date: 约1072
+  year_of: 1072
+  type: memorial
+  title_zh: 上言种谔妄兴边事自为功，请朝廷察之
+  place_zh: 延州
+- id: guji-贾逵-event-dianqian
+  date: 1078
+  year_of: 1078
+  type: career
+  title_zh: 元丰初拜建武军节度使、殿前都指挥使
+  place_zh: 京师
+  note_zh: 请不俟郊赦赐三世官，神宗特许
+- id: guji-贾逵-event-death
+  date: 约1080
+  year_of: 1080
+  type: death
+  place: 京师
+  note_zh: 数月而卒，年六十九，赠侍中，谥武恪
