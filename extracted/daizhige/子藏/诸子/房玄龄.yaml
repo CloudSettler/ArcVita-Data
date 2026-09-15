@@ -1,0 +1,97 @@
+person:
+  qid: guji-房玄龄
+  name_zh: 房玄龄
+  names:
+    zh: 房玄龄
+    en: Fang Xuanling
+  lifespan:
+    birth:
+      date: 0579
+      precision: year
+      is_circa: true
+      raw: 约579年
+    death:
+      date: 0648
+      precision: year
+      is_circa: true
+  birth_date: 约579年
+  death_date: 648年
+  era: 隋末唐初
+  reign_ref: 隋文帝、隋炀帝、唐太宗时期
+  archetype: 问政求道的儒生辅臣
+  dilemmas:
+  - 立功立言之间如何量力而行
+  - 事君无私与化人正心之道如何践履
+  lesson: 好成者败之本也，愿广者狭之道也，立功立言必也量力乎。
+  summary_first_person: 我早年在河汾问学于文中子，请教事君、使人、化人之道与郡县之治，领受无私无偏、正心之旨；后来出仕唐廷，以量力立功立言自警，成为一代贤相。
+  source_urls:
+  - https://zh.wikisource.org/wiki/文中子中之說
+endeavors:
+- id: guji-房玄龄-endeavor-1
+  key: brewing
+  name_zh: 河汾问学
+  labels:
+    zh:
+    - 师从文中子
+  start_date: '0600'
+  highlight_event_id: guji-房玄龄-event-quest-1
+  decisions:
+  - date: '0600'
+    title_zh: 问事君、使人、化人之道于文中子
+    rationale: 求为政之本，得无私、无偏、正心三要。
+  - date: '0601'
+    title_zh: 问郡县之治与霍光废立之义
+    rationale: 考历代治乱，明大臣废昏举明以康天下之理。
+- id: guji-房玄龄-endeavor-2
+  key: breakthrough
+  name_zh: 出仕立功
+  labels:
+    zh:
+    - 辅佐唐室
+  start_date: '0617'
+  highlight_event_id: guji-房玄龄-event-serving
+  decisions:
+  - date: '0617'
+    title_zh: 出仕唐朝，以量力自警
+    rationale: 文中子戒以好成者败之本、愿广者狭之道，故立功立言必量力。
+events:
+- id: guji-房玄龄-event-birth
+  date: 0579
+  year_of: 579
+  type: birth
+  title_zh: 房玄龄生（约）
+  description: 房玄龄约生于此年，齐州临淄人。
+- id: guji-房玄龄-event-quest-1
+  date: '0600'
+  year_of: 600
+  type: endeavor
+  endeavor_id: guji-房玄龄-endeavor-1
+  title_zh: 房玄龄问事君之道于文中子
+  description: 于河汾问事君、使人之道，文中子答以无私、无偏；又问化人之道与礼乐，子曰正其心，王道盛则礼乐从而兴。
+- id: guji-房玄龄-event-quest-2
+  date: '0601'
+  year_of: 601
+  type: endeavor
+  endeavor_id: guji-房玄龄-endeavor-1
+  title_zh: 房玄龄问郡县之治与霍光废立
+  description: 问郡县之治，子历数宗周、皇汉而疑魏晋以下；又引《尚书》问霍光废帝举帝，子答古之大臣废昏举明所以康天下。
+- id: guji-房玄龄-event-advise
+  date: '0604'
+  year_of: 604
+  type: endeavor
+  endeavor_id: guji-房玄龄-endeavor-1
+  title_zh: 房玄龄问立功立言
+  description: 玄龄问立功立言何如，文中子曰必也量力乎，并戒好成者败之本、愿广者狭之道。
+- id: guji-房玄龄-event-serving
+  date: '0617'
+  year_of: 617
+  type: endeavor
+  endeavor_id: guji-房玄龄-endeavor-2
+  title_zh: 房玄龄出仕辅佐唐室
+  description: 隋末离河汾之学，出仕唐廷，后为太宗重臣，践行事君无私、使人不偏之教。
+- id: guji-房玄龄-event-death
+  date: 0648
+  year_of: 648
+  type: death
+  title_zh: 房玄龄卒
+  description: 房玄龄卒，谥文昭。
