@@ -1,0 +1,113 @@
+person:
+  qid: guji-wen-zhong
+  name_zh: 文种
+  names:
+    zh: 文种
+    en: Wen Zhong
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详（春秋末期）
+  birth_date: ''
+  death_date: ''
+  era: 春秋末期
+  reign_ref: 越王句践时
+  archetype: 贤臣谋士
+  dilemmas:
+  - 明于霸兆而择主，舍楚地之常途，东游入越仕句践，成败未可知
+  lesson: 贤者相与谋道，审时度势，择兴邦之主而往仕，方能施展抱负
+  summary_first_person: 我与范蠡相见，共谋天下之道，以为东南有霸兆，不如往仕。我们相约东游，入越而止，此后辅佐越王，谋复兴大业。
+  source_urls:
+  - https://ctext.org/yue-jue-shu/zh
+endeavors:
+- id: guji-wen-zhong-endeavor-1
+  key_label: 佐越兴邦
+  name_zh: 与范蠡谋道东游，入越择主
+  phases:
+  - key: brewing
+    name_zh: 相遇谋道
+    labels:
+      zh: 种蠡相遇
+    start_date: '-0502'
+  - key: breakthrough
+    name_zh: 东游入越
+    labels:
+      zh: 入越而止
+    start_date: '-0500'
+    highlight_event_id: guji-wen-zhong-event-enter-yue
+  - key: climax
+    name_zh: 佐越图霸
+    labels:
+      zh: 佐越
+    start_date: -0496
+  decisions:
+  - date: '-0500'
+    title_zh: 与蠡相约东游入越
+    rationale: 东南有霸兆，不如往仕，贤者当择可成之邦
+- id: guji-wen-zhong-endeavor-2
+  key_label: 越国称霸
+  name_zh: 辅佐句践，转败为成，终霸诸侯
+  phases:
+  - key: brewing
+    name_zh: 句践屈吴之世
+    labels:
+      zh: 属刍莝养马
+    start_date: -0494
+  - key: breakthrough
+    name_zh: 反邦焦思
+    labels:
+      zh: 克己自责任用贤人
+    start_date: -0490
+  - key: climax
+    name_zh: 越伐疆吴行霸
+    labels:
+      zh: 兴越称霸
+    start_date: -0482
+    highlight_event_id: guji-wen-zhong-event-yue-hegemony
+  - key: closure
+    name_zh: 霸业归成
+    labels:
+      zh: 越专其功
+    start_date: '-0473'
+  decisions:
+  - date: -0490
+    title_zh: 佐句践任贤转治
+    rationale: 转死为生，以败为成，须举贤图治
+events:
+- id: guji-wen-zhong-event-birth
+  event_type: birth
+  date: ''
+  year_of: ''
+  date_raw: 生年不详
+  precision: unknown
+  summary: 文种生于春秋末期，生年不详。
+- id: guji-wen-zhong-event-meet-li
+  event_type: endeavor
+  date: '-0502'
+  year_of: -502
+  date_raw: 约句践即位前
+  precision: circa
+  summary: 种见蠡之时，相与谋道东南有霸兆，不如往仕。
+- id: guji-wen-zhong-event-enter-yue
+  event_type: endeavor
+  date: '-0500'
+  year_of: -500
+  date_raw: 约东游之时
+  precision: circa
+  summary: 与范蠡相要东游，入越而止，归于越国。
+- id: guji-wen-zhong-event-yue-hegemony
+  event_type: endeavor
+  date: '-0473'
+  year_of: -473
+  date_raw: 句践灭吴之世
+  precision: circa
+  summary: 越伐疆吴，行霸诸侯，越专其功，贤臣之谋有所成。
+- id: guji-wen-zhong-event-death
+  event_type: death
+  date: ''
+  year_of: ''
+  date_raw: 卒年不详（本卷未载）
+  precision: unknown
+  summary: 卒年此文未详载，后世传其与范蠡并佐句践成霸业。
