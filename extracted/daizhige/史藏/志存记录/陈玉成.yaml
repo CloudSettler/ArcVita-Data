@@ -1,0 +1,121 @@
+person:
+  qid: guji-陈玉成
+  name_zh: 陈玉成
+  names:
+    zh: 陈玉成
+    en: Chen Yucheng
+  lifespan:
+    birth:
+      date: 1837
+      precision: year
+      is_circa: true
+      raw: 死时廿八岁（1862年倒推，约1834–1837年间，取约值）
+    death:
+      date: 1862
+      precision: year
+      is_circa: false
+      raw: 同治元年，解送京都途中，于河南延津县正法
+  birth_date: 约1837年
+  death_date: 1862年
+  era: 清末太平天国时期
+  reign_ref: 太平天国（洪秀全）；清朝咸丰、同治年间
+  archetype: 太平天国青年统帅／开国元勋
+  dilemmas:
+  - 庐州被围，孤城独守是否北上投寿州苗沛霖
+  - 忠臣名节与身家性命不能两全
+  lesson: 本总裁只可杀，不可辱——气节重于生死
+  summary_first_person: 我是太平天国英王陈玉成，十五岁破武昌，三洗湖北、九下江南，麾下号称百廿四万；庐州粮尽势穷，误信苗沛霖赴寿州被执，宁死不降，被解往河南延津正法，年二十八。
+endeavors:
+- id: guji-陈玉成-endeavor-1
+  name_zh: 起兵征战
+  phases:
+  - key: brewing
+    name_zh: 早年从军
+    labels:
+      zh: 十五岁破武昌
+    start_date: '1852'
+    highlight_event_id: guji-陈玉成-event-breakthrough
+  - key: breakthrough
+    name_zh: 三洗湖北、九下江南
+    labels:
+      zh: 名震江南
+    start_date: '1856'
+    highlight_event_id: guji-陈玉成-event-climax
+  - key: climax
+    name_zh: 封英王、统军庐州
+    labels:
+      zh: 英王禄千岁
+    start_date: 1859
+    highlight_event_id: guji-陈玉成-event-climax
+  - key: closure
+    name_zh: 庐州被围与寿州被擒
+    labels:
+      zh: 兵败身亡
+    start_date: '1862'
+    highlight_event_id: guji-陈玉成-event-closure
+  decisions:
+  - date: 1862
+    title_zh: 决意赴寿州投苗沛霖
+    rationale: 苗允帮四旗人攻打汴京，符其“得汴京可独当一面”之志；众议反对，直言本总裁自用兵以来战必胜攻必取，绝不复议
+  - date: 1862-04
+    title_zh: 弃守庐州北走
+    rationale: 孤城独守兵家大忌，粮草不给，出北门衔枚疾走，为他日地步破营开路
+- id: guji-陈玉成-endeavor-2
+  name_zh: 信义与气节
+  phases:
+  - key: brewing
+    name_zh: 敬重读书人、爱百姓
+    labels:
+      zh: 三样好处
+    start_date: '1856'
+    highlight_event_id: guji-陈玉成-event-breakthrough
+  - key: closure
+    name_zh: 骂贼全节
+    labels:
+      zh: 只可杀不可辱
+    start_date: 1862-05
+    highlight_event_id: guji-陈玉成-event-closure
+  decisions:
+  - date: 1861
+    title_zh: 不面擒获的李钦差并奏全其节
+    rationale: servings称忠肝义胆不易才，奏明天王“忠臣也，亦节士也，宜全其节”
+  - date: 1862
+    title_zh: 拒降胜保
+    rationale: 当众大骂胜保为第一误国庸臣，自认开国元勋，怎配跪之
+events:
+- id: guji-陈玉成-event-birth
+  date: 约1837
+  year_of: 1837
+  type: birth
+  title_zh: 陈玉成出生
+  description: 生年无确载，据死时廿八岁推算
+- id: guji-陈玉成-event-breakthrough
+  date: '1852'
+  year_of: 1852
+  type: endeavor
+  title_zh: 十五岁破武昌省
+  description: 英王十五岁破武昌省，自此以骁勇成名
+- id: guji-陈玉成-event-climax
+  date: 1859
+  year_of: 1859
+  type: endeavor
+  title_zh: 封英王，进兵大江南北
+  description: 受封钦命文衡正总裁天朝九门御林忠勇羽林军英王禄千岁，统带一百廿四万；破湖北、九江、江西、江苏、安徽州县一百五十余处
+- id: guji-陈玉成-event-defeat
+  date: '1861'
+  year_of: 1861
+  type: setback
+  title_zh: 二狼河之战大败
+  description: 骄气过甚直期踏平多鲍杜三军五十五营，先锋接连败北，点名清数共少人七十余万，英王从此短气
+- id: guji-陈玉成-event-closure
+  date: 1862-05
+  year_of: 1862
+  type: steadfastness
+  title_zh: 寿州被擒，拒降死节
+  description: 苗沛霖设计诱执英王，解交胜保；英王骂胜保而拒跪，奏请解送京都，行至河南延津县由僧王作主正法，时年廿八
+- id: guji-陈玉成-event-death
+  date: 1862
+  year_of: 1862
+  type: death
+  title_zh: 陈玉成于河南延津县就义
+  description: 僧王奏称果解到京必大伤国体，遂就地正法，头级解进京
