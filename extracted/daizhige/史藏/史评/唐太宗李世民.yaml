@@ -1,0 +1,193 @@
+person:
+  qid: guji-李世民
+  name_zh: 李世民
+  names:
+    zh: 李世民
+    en: Li Shimin
+  lifespan:
+    birth:
+      date: '599'
+      precision: year
+      is_circa: true
+      raw: 隋开皇年间生
+    death:
+      date: '649'
+      precision: year
+      is_circa: false
+      raw: 贞观二十三年崩
+  birth_date: '599'
+  death_date: '649'
+  era: 隋末唐初
+  reign_ref: 唐太宗，武德九年八月即位
+  archetype: 拨乱之主
+  dilemmas:
+  - 晋阳起兵前 '胁父臣虏'：恐高祖不听而设谋迫其起兵，又称臣突厥以求援，济世之志与行正之义难以两全
+  - 与太子建成兄弟相争，功高而位居藩王，终以兵变杀兄屠弟而得储位
+  lesson: 拨乱之才与济世之志须以义佐之；创业之不正，子孙则而象之，影响必应
+  summary_first_person: 我太宗李世民，隋大业末知隋必亡，阴结豪杰，谋动太原义兵，戮佞人高德儒以明赏罚。武德中功盖天下，为太子建成所忌，屡遭倾轧。武德九年六月，我于玄武门诛建成、元吉，立为皇太子，总决军国庶事，八月受高祖传位，遂启贞观之治。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=5924
+endeavors:
+- id: guji-李世民-endeavor-1
+  key: 晋阳起兵与统一战争
+  name_zh: 晋阳起兵与翦灭群雄
+  phases:
+  - key: brewing
+    name_zh: 阴结豪杰
+    labels:
+      zh:
+      - 知隋必亡
+      - 谋举大事
+    start_date: '617'
+    highlight_event_id: guji-李世民-event-1
+  - key: breakthrough
+    name_zh: 西河首捷
+    labels:
+      zh:
+      - 军法严明
+      - 诛佞立威
+    start_date: 617-07
+    highlight_event_id: guji-李世民-event-2
+  - key: climax
+    name_zh: 功盖天下
+    labels:
+      zh:
+      - 中外归心
+    start_date: '621'
+    highlight_event_id: guji-李世民-event-3
+  - key: closure
+    name_zh: 玄武门承统
+    labels:
+      zh:
+      - 兄弟阋墙
+      - 受禅即位
+    start_date: '626'
+    highlight_event_id: guji-李世民-event-4
+  decisions:
+  - date: '617'
+    title_zh: 谋迫高祖起兵，遣刘文静联突厥
+    rationale: 知隋必亡，惧父不听，借裴寂以动高祖；倚突厥为援，权以济事而启不正之端
+  - date: '617'
+    title_zh: 公开处斩指鸟为鸾的佞臣高德儒
+    rationale: 「兴义兵正为诛佞人耳」，不戮一人以明好恶
+  - date: 626-07-02
+    title_zh: 先发制人诛建成元吉
+    rationale: 建成擅募长林兵、结党构陷，功高势迫，遂举玄武门之变
+- id: guji-李世民-endeavor-2
+  key: 东宫与监国理政
+  name_zh: 军国庶事处决与贞观开创
+  phases:
+  - key: brewing
+    name_zh: 平洛郑取山东
+    labels:
+      zh:
+      - 结纳山东豪杰
+    start_date: '622'
+    highlight_event_id: guji-李世民-event-3
+  - key: breakthrough
+    name_zh: 皇太子总决庶政
+    labels:
+      zh:
+      - 无大小悉委处决
+    start_date: 626-07
+    highlight_event_id: guji-李世民-event-4
+  - key: climax
+    name_zh: 即位开贞观之治
+    labels:
+      zh:
+      - 监前代以为元龟
+    start_date: 626-09
+    highlight_event_id: guji-李世民-event-5
+  - key: closure
+    name_zh: 以女妻诸夷酋之失
+    labels:
+      zh:
+      - 启唐世和蕃之弊
+    start_date: '630'
+    highlight_event_id: ''
+  decisions:
+  - date: 626-08
+    title_zh: 受高祖传位即皇帝位
+    rationale: 诏军国庶事无大小悉委太子处决，八月高祖传位
+  - date: '627'
+    title_zh: 亲许新兴公主下嫁薛延陀等和蕃之策
+    rationale: 以女分妻诸夷酋长以威四夷，范祖禹讥其不足示威、适足取侮
+events:
+- id: guji-李世民-event-birth
+  event_type: birth
+  date: '599'
+  year_of: 599
+  date_precision: year
+  is_circa: true
+  name_zh: 李世民出生
+  description: 生于武功别馆，四库本载书生见之曰「年几冠必能济世安民」
+  participants:
+  - guji-李世民
+- id: guji-李世民-event-1
+  event_type: endeavor
+  date: '617'
+  year_of: 617
+  date_precision: year
+  is_circa: false
+  name_zh: 晋阳谋划起兵
+  description: 大业十三年，李世民知隋必亡，阴结豪杰谋举大事，惧高祖不听，与晋阳宫副监裴寂谋，向高祖白其事
+  participants:
+  - guji-李世民
+  - guji-李渊
+  - guji-裴寂
+- id: guji-李世民-event-2
+  event_type: endeavor
+  date: 617-07
+  year_of: 617
+  date_precision: month
+  is_circa: false
+  name_zh: 攻克西河郡，斩高德儒
+  description: 高祖使建成、世民将兵击西河郡攻下之，世民数郡丞高德儒「指野鸟为鸾以欺人主」之罪而斩之，自余不戮一人，秋毫无犯
+  participants:
+  - guji-李世民
+  - guji-高德儒
+- id: guji-李世民-event-3
+  event_type: endeavor
+  date: '622'
+  year_of: 622
+  date_precision: year
+  is_circa: false
+  name_zh: 功盖天下，遭太子倾轧
+  description: 武德五年，建成、元吉共倾秦王世民，王珪、魏征劝太子自击刘黑闼以立威结豪杰，世民功盖天下、中外归心
+  participants:
+  - guji-李世民
+  - guji-李建成
+  - guji-李元吉
+- id: guji-李世民-event-4
+  event_type: endeavor
+  date: 626-07-02
+  year_of: 626
+  date_precision: day
+  is_circa: false
+  name_zh: 玄武门之变
+  description: 武德九年六月，秦王世民杀皇太子建成、齐王元吉，旋立为皇太子，诏军国庶事无大小悉委太子处决
+  participants:
+  - guji-李世民
+  - guji-李建成
+  - guji-李元吉
+- id: guji-李世民-event-5
+  event_type: endeavor
+  date: 626-09
+  year_of: 626
+  date_precision: month
+  is_circa: false
+  name_zh: 受禅即位，唐太宗践阼
+  description: 武德九年八月，高祖传位于太子世民，太宗即皇帝位，监于前代以为元龟
+  participants:
+  - guji-李世民
+  - guji-李渊
+- id: guji-李世民-event-death
+  event_type: death
+  date: '649'
+  year_of: 649
+  date_precision: year
+  is_circa: true
+  name_zh: 唐太宗崩
+  description: 贞观二十三年太宗崩，唐世人主无正家之法、戎狄多猾夏之乱，后世论者追论其起兵不正之弊
+  participants:
+  - guji-李世民

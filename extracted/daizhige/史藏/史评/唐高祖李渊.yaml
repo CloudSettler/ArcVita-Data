@@ -1,0 +1,124 @@
+person:
+  qid: guji-李渊
+  name_zh: 李渊
+  names:
+    zh: 李渊
+    en: Li Yuan
+  lifespan:
+    birth:
+      date: '566'
+      precision: year
+      is_circa: true
+      raw: 隋唐之际
+    death:
+      date: '635'
+      precision: year
+      is_circa: true
+      raw: 太上皇
+  birth_date: '566'
+  death_date: '635'
+  era: 隋末唐初
+  reign_ref: 武德（618-626）
+  archetype: 开国之君
+  dilemmas:
+  - 起兵反隋：以不正之谋胁迫之举大业，被范祖禹讥其纳侮突厥、受宫女之计
+  - 立储之争：立长建成抑或有功之世民，终酿玄武门之祸
+  - 诛降之疑：萧铣无罪而降、完府库归唐，高祖却斩之，被讥为淫刑
+  lesson: 创业之始所行不正，则子孙效之，戎狄猾夏、家法不立皆由此始；取舍之际当以至诚，不可欺天罔人。
+  summary_first_person: 我李渊，隋大业十三年为太原留守。因知天下将乱之机，起兵晋阳，称臣突厥以为助，招降李密之傲而卑辞骄之，乘虚入关。武德元年受隋恭帝禅让即位，改九锡殊礼归之有司，首辟言路纳孙伏伽之谏，定均田租庸调之法，录隋之子孙最为忠厚。然建成元吉与世民相倾，武德九年世民杀太子齐王，我传位于太子，禅位而终。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=唐鉴
+endeavors:
+- id: guji-李渊-endeavor-1
+  name_zh: 晋阳起兵与建唐
+  phases:
+  - key: brewing
+    name_zh: 阴结豪杰
+    labels:
+      zh: 太原密谋
+    start_date: '617'
+    highlight_event_id: guji-李渊-event-uprising
+  - key: breakthrough
+    name_zh: 入关受禅
+    labels:
+      zh: 称帝建唐
+    start_date: '618'
+    highlight_event_id: guji-李渊-event-enthroned
+  - key: climax
+    name_zh: 削平四方
+    labels:
+      zh: 统一战争
+    start_date: '620'
+    highlight_event_id: guji-李渊-event-xiaoxian
+  - key: closure
+    name_zh: 传位太子
+    labels:
+      zh: 玄武门后禅位
+    start_date: '626'
+    highlight_event_id: guji-李渊-event-abdicate
+  decisions:
+  - date: '617'
+    title_zh: 卑辞推奨以骄李密
+    rationale: 州密妄自尊大，遽绝之则更生一敌，不如卑辞推奉以骄其志，乘虚席卷入关。
+  - date: 618-05
+    title_zh: 却九锡殊礼而受禅
+    rationale: 自加宠锡乃谄谀者所为，历魏晋之迹为欺天罔人；但改丞相府为相国府，九锡殊礼归之有司。
+  - date: 618-05
+    title_zh: 录用隋之子孙
+    rationale: 隋蔡王智积等子孙量才选用，不诛前代亲族，自汉以来最为忠厚。
+events:
+- id: guji-李渊-event-birth
+  date: '566'
+  year_of: '566'
+  type: birth
+  person: guji-李渊
+  title_zh: 李渊生
+- id: guji-李渊-event-uprising
+  date: 617-05
+  year_of: '617'
+  type: endeavor
+  person: guji-李渊
+  title_zh: 太原起兵
+  summary: 高祖以诈杀副留守王威、高君雅，起兵晋阳，遣刘文静使突厥约连和。
+- id: guji-李渊-event-xiumi-letter
+  date: '617'
+  year_of: '617'
+  type: decision
+  person: guji-李渊
+  title_zh: 致书李密卑辞推奉
+  summary: 复书称天生烝民必有司牧，愿附容于唐，李密得书甚喜，高祖得以乘虚入关。
+- id: guji-李渊-event-enthroned
+  date: 618-05
+  year_of: '618'
+  type: endeavor
+  person: guji-李渊
+  title_zh: 即皇帝位建唐
+  summary: 隋恭帝禅让，唐王即皇帝位，奉隋帝为酅国公，改元武德。
+- id: guji-李渊-event-fuga
+  date: '618'
+  year_of: '618'
+  type: endeavor
+  person: guji-李渊
+  title_zh: 纳孙伏伽之谏定租庸调
+  summary: 首辟言路，擢孙伏伽为治书御史；初定均田租庸调法，三岁造户籍。
+- id: guji-李渊-event-xiaoxian
+  date: 621-10
+  year_of: '621'
+  type: endeavor
+  person: guji-李渊
+  title_zh: 平江陵斩萧铣
+  summary: 赵郡王孝恭、李靖围江陵，萧铣降而数其罪斩于都市，范祖禹讥其为淫刑。
+- id: guji-李渊-event-abdicate
+  date: 626-08
+  year_of: '626'
+  type: endeavor
+  person: guji-李渊
+  title_zh: 传位于李世民
+  summary: 六月秦王世民杀皇太子建成、齐王元吉，八月高祖传位于太子。
+- id: guji-李渊-event-death
+  date: '635'
+  year_of: '635'
+  type: death
+  person: guji-李渊
+  title_zh: 李渊卒
+  summary: 太上皇李渊崩。

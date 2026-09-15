@@ -1,0 +1,146 @@
+person:
+  qid: guji-李隆基
+  name_zh: 李隆基
+  names:
+    en: Li Longji
+  lifespan:
+    birth:
+      date: 685
+      precision: year
+      is_circa: false
+      raw: 垂拱元年
+    death:
+      date: 762
+      precision: year
+      is_circa: false
+      raw: 宝应元年
+  birth_date: 685
+  death_date: 762
+  era: 唐
+  reign_ref: 先天、开元、天宝
+  archetype: 治乱一身的盛唐君主
+  dilemmas:
+  - 早年助父平定韦后之乱、位非嫡长而依功得立
+  - 晚年怠政崇道、宠信佞臣致安史之乱
+  lesson: 明皇崇老子而扇方士之说，虽开元致治，然怠于正家与言路，终兆天宝之乱
+  summary_first_person: 我李隆基，即唐明皇。史臣谓我祖高宗、明皇扇崇老之风，跻老子于上帝；我以开元之治显于前，以天宝之乱败于后，功过俱在唐鉴论断之中。
+  source_urls:
+  - https://ctext.org/text.pl?node=唐鉴
+endeavors:
+- id: guji-李隆基-endeavor-1
+  name_zh: 开元致治
+  labels:
+    zh:
+    - 拨乱
+    - 致治
+  phases:
+  - key: brewing
+    name_zh: 平韦后之乱
+    labels:
+      zh:
+      - 举兵
+      - 铲除韦党
+    start_date: 710-07
+    highlight_event_id: guji-李隆基-event-climax-1
+  - key: breakthrough
+    name_zh: 开元改革
+    labels:
+      zh:
+      - 任贤
+      - 整饬
+    start_date: 713
+    highlight_event_id: guji-李隆基-event-breakthrough-1
+  - key: climax
+    name_zh: 盛世极盛
+    labels:
+      zh:
+      - 极盛
+    start_date: 725
+    highlight_event_id: guji-李隆基-event-climax-1
+  - key: closure
+    name_zh: 天宝失驭
+    labels:
+      zh:
+      - 怠政
+      - 乱兆
+    start_date: 742
+    highlight_event_id: guji-李隆基-event-closure-1
+  decisions:
+  - date: 713
+    title_zh: 改元开元、亲革弊政
+    rationale: 承拨乱之功，遴选贤辅，确立太宗贞观之法度以为治本
+  - date: 742
+    title_zh: 改元天宝、渐宠佞幸
+    rationale: 承平日久，志得意满，渐弃言路而生乱阶
+- id: guji-李隆基-endeavor-2
+  name_zh: 崇道尊老
+  labels:
+    zh:
+    - 崇道
+    - 祀老子
+  phases:
+  - key: brewing
+    name_zh: 承高宗遗风
+    labels:
+      zh:
+      - 因袭
+    start_date: 666
+    highlight_event_id: guji-李隆基-event-climax-1
+  - key: climax
+    name_zh: 跻老子于上帝
+    labels:
+      zh:
+      - 祀典
+      - 方士诡诞
+    start_date: 730
+    highlight_event_id: guji-李隆基-event-climax-1
+  decisions:
+  - date: 730
+    title_zh: 尊崇老子、用方士之说升祀
+    rationale: 自托李耳之后以神道设教，然史臣讥其卑天诬祖、悖道甚矣
+events:
+- id: guji-李隆基-event-birth
+  person_qid: guji-李隆基
+  type: birth
+  date: 685
+  year_of: 685
+  title_zh: 李隆基生于东都洛阳
+  description: 唐睿宗之子，生于垂拱元年
+  source_refs:
+  - 唐鉴·历纪
+- id: guji-李隆基-event-climax-1
+  person_qid: guji-李隆基
+  type: endeavor
+  date: 726
+  year_of: 726
+  title_zh: 明皇扇崇老之风、跻老子于上帝
+  description: 唐鉴论曰：高祖启其原，高宗、明皇扇其风，又用方士诡诞之说，跻老子于上帝，卑天诬祖，悖道甚矣
+  source_refs:
+  - 唐鉴卷一·羊角山老君条臣祖禹曰
+- id: guji-李隆基-event-breakthrough-1
+  person_qid: guji-李隆基
+  type: endeavor
+  date: 713
+  year_of: 713
+  title_zh: 即位改元开元、励精图治
+  description: 承拨乱之志，开言路、任贤臣，唐鉴称其前期庶政可观
+  source_refs:
+  - 唐鉴·玄宗纪要
+- id: guji-李隆基-event-closure-1
+  person_qid: guji-李隆基
+  type: endeavor
+  date: 755
+  year_of: 755
+  title_zh: 天宝末年失驭、暴房地乱起
+  description: 怠政宠佞，租庸调法坏而为两税，唐室由盛转衰
+  source_refs:
+  - 唐鉴卷二·均田租庸调条
+- id: guji-李隆基-event-death
+  person_qid: guji-李隆基
+  type: death
+  date: 762
+  year_of: 762
+  title_zh: 明皇崩于西内
+  description: 宝应元年，安史乱后忧愤而崩
+  source_refs:
+  - 唐鉴·历纪
