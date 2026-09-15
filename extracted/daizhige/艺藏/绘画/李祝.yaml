@@ -1,0 +1,77 @@
+person:
+  qid: guji-李祝
+  name_zh: 李祝
+  names:
+    zh: 李祝
+    en: Li Zhu
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 不知何处人，生年不详
+    death:
+      date: 0905
+      precision: year
+      is_circa: true
+      raw: 唐亡之际（约天祐年间），被李克用溺杀于中流
+  death_date: 0905
+  era: 唐末五代
+  reign_ref: 昭宗乾宁、天祐年间
+  archetype: 乱世避祸的画家
+  dilemmas:
+  - 才具经略却逢唐祚陵季，退藏不仕，以丹青自污避祸
+  - 画艺冠绝反遭忌：因知晋王李克用“异图”之密而见害
+  lesson: 才高不能避世之险，技进乎道亦难逃乱世杀机
+  summary_first_person: 我李祝与韩求齐名，皆有经略之才，生逢唐末乱世，不肯出仕，以丹青自晦。我们在陕郊画龙兴寺回廊列壁二百余堵，画摄摩腾、竺法兰及神像九子母，宛有生态，天下画流云集而莫不鼠伏。然因画中辞多不顺，被指知晋王异图之密，李克用借宴饮中流，将我与韩求俱溺杀之。画名冠绝天下，竟以水葬收场，君子闻之太息焉。
+  source_urls:
+  - guji://五代名画补遗/人物门第一
+endeavors:
+- id: guji-李祝-endeavor-1
+  title_zh: 退隐不仕，以丹青自晦
+  phases:
+  - key: brewing
+    name_zh: 遭逢乱世
+    labels:
+      zh:
+      - 唐祚陵季
+      - 退藏不仕
+    start_date: 0895
+    highlight_event_id: guji-李祝-event-retire
+  - key: breakthrough
+    name_zh: 对手画壁
+    labels:
+      zh:
+      - 陕郊龙兴寺
+      - 神笔天下第一
+    start_date: 0904
+    highlight_event_id: guji-李祝-event-painting
+  decisions:
+  - date: 0895
+    title_zh: 退藏不仕，以丹青自污
+    rationale: 属唐祚陵季，深知时事险恶，选择以绘事自晦而游晋唐间
+  - date: 0904
+    title_zh: 应命往陕郊画龙兴寺壁
+    rationale: 克用命往陕郊画龙兴寺回廊列壁，欲借以羁縻其踪迹
+events:
+- id: guji-李祝-event-birth
+  type: birth
+  name_zh: 李祝生年不详
+  body: 不知何处人，生年不可考。
+- id: guji-李祝-event-retire
+  event_date: 0895
+  year_of: 0895
+  type: career
+  name_zh: 退藏不仕，以丹青自污
+  body: 属唐祚陵季，遂退藏不仕，以丹青自污，而好游晋唐间。
+- id: guji-李祝-event-painting
+  event_date: 0904
+  year_of: 0904
+  type: career
+  name_zh: 对手画摄摩腾竺法兰及诸神像于龙兴寺壁
+  body: 命往陕郊画龙兴寺回廊列壁二百余堵，与韩求对手画摄摩腾竺法兰以经来大各八尺，三门上神数十身皆高二丈，又画九子母及罗乂变像，宛有步武之态，天下画流云集，莫不鼠伏。
+- id: guji-李祝-event-death
+  event_date: 0905
+  year_of: 0905
+  type: death
+  name_zh: 为李克用溺杀于中流
+  body: 克用闻画人谗言，虑事泄，矫称按察至陕郊，设宴慰劳，逮济中流，求祝俱醉，克用皆溺之。君子太息曰：怀异志，杀善人，死无日矣。
