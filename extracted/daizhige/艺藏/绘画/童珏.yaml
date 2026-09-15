@@ -1,0 +1,92 @@
+person:
+  qid: guji-童珏
+  name_zh: 童珏
+  names:
+    zh: 童珏
+    en: Tong Jue
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 未载
+    death:
+      date: 维阳志馆卒，年月未载
+  era: 清代
+  reign_ref: 乾隆年间（据同篇余集登乾隆丙戌科推断）
+  archetype: 孤高画士
+  dilemmas:
+  - 郡守劝试置榜首，是否出仕
+  - 数千里受聘修省志与隐逸自适之间的取舍
+  lesson: 不求闻达而艺自传，画就题诗，万幅梅花万首诗
+  summary_first_person: 我名珏，字璞岩，号二树，会稽名士。博闻强记，工书善画，尤长于梅，画成必题咏，自署"万幅梅花万首诗"。年二十余不应童子试，郡守特置榜首亦托病不出。后应豫省抚军之聘修省志，志毕复受江左抚军之聘，卒于维阳志馆。
+endeavors:
+- id: guji-童珏-endeavor-1
+  name_zh: 画梅与题咏生涯
+  phases:
+  - key: brewing
+    name_zh: 少年力学，不逐科名
+    labels:
+      zh: 不应童子试
+    highlight_event_id: guji-童珏-event-refuse-exam
+  - key: breakthrough
+    name_zh: 画梅得宋人杨无咎法
+    labels:
+      zh: 得梅之神韵
+    highlight_event_id: guji-童珏-event-plum-style
+  - key: climax
+    name_zh: 万幅梅花万首诗
+    labels:
+      zh: 墨迹遍天下
+    highlight_event_id: guji-童珏-event-thousand-works
+  decisions:
+  - title_zh: 托病不出，不赴学使按临
+    rationale: 性高洁，不求闻达，宁与里中耆旧饮酒赋诗
+- id: guji-童珏-endeavor-2
+  name_zh: 应聘修志
+  phases:
+  - key: brewing
+    name_zh: 豫省抚军走书币聘修省志
+    labels:
+      zh: 千里受聘
+    highlight_event_id: guji-童珏-event-yu-zhi
+  - key: climax
+    name_zh: 豫志毕，复就江左抚军之聘
+    labels:
+      zh: 再膺修聘
+    highlight_event_id: guji-童珏-event-jiangzuo
+  - key: closure
+    name_zh: 卒于维阳志馆
+    labels:
+      zh: 以馆终老
+    highlight_event_id: guji-童珏-event-death
+  decisions:
+  - title_zh: 解维将发犹写暗香疏影偿夙逋
+    rationale: 重然诺，虽登舟在即仍以画偿旧约
+  - title_zh: 豫志毕复就江左抚军之聘
+    rationale: 为文名与笔墨所重，继受新聘
+events:
+- id: guji-童珏-event-birth
+  type: birth
+  description: 童珏生于会稽，年月未载
+- id: guji-童珏-event-refuse-exam
+  year_of: 二十余岁
+  type: career
+  description: 年二十余未尝应童子试；郡守倩人劝使就试，特置榜首，及学使按临，仍托病不出
+- id: guji-童珏-event-plum-style
+  type: career
+  description: 画梅学宋人杨无咎，花蕊不繁，枝干屈蟠，微见横斜之致，得梅之神韵
+- id: guji-童珏-event-thousand-works
+  year_of: 求之辄应，数十年间
+  type: career
+  description: 无论巨帧尺幅，求之辄应，墨迹遍天下，画竟必题咏刻印，署'万幅梅花万首诗'，诗不盗袭前人不雷同己作
+- id: guji-童珏-event-yu-zhi
+  type: career
+  description: 豫省抚军数千里外走书币聘修省志，解维将发犹抒纸篷窗写'暗香疏影'以偿夙逋
+- id: guji-童珏-event-jiangzuo
+  year_of: 豫志毕
+  type: career
+  description: 复就江左抚军之聘，入志馆修志
+- id: guji-童珏-event-death
+  year_of: 应江左之聘后未几
+  type: death
+  description: 卒于维阳志馆
