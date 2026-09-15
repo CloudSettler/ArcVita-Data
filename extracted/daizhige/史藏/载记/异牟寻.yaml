@@ -1,0 +1,200 @@
+person:
+  qid: guji-异牟寻
+  name_zh: 异牟寻
+  names:
+    zh: 异牟寻
+    en: Yi Mou Xun
+  lifespan:
+    birth:
+      date: 0749
+      precision: year
+      is_circa: true
+      raw: 大历十三年（778）即位时年二十四岁，逆推约生于天宝十三载（754）
+    death:
+      date: 0808-07
+      precision: month
+      is_circa: false
+      raw: 唐宪宗戊子元和三年七月卒
+  birth_date: '0754'
+  death_date: 0808-07
+  era: 唐代宗—唐宪宗时期南诏君主
+  reign_ref: 大历十三年（778）即位，改元见龙、上元，元和三年（808）卒
+  archetype: 弃暗投明、复归中原的边地之君
+  dilemmas:
+  - 苦吐蕃征求无厌，又惧唐不容，进退两难
+  - 韦皋遣使致书，吐蕃疑之，索南诏大臣为质
+  - 点苍山夜盟时吐蕃使者尚在其境，杀之则绝归路，不杀则事泄
+  lesson: 唯有审时度势、认祖归宗，方能以文化认同化干戈为玉帛
+  summary_first_person: 我本南诏王孙，继立为君，先附吐蕃而受其苦役。书生郑回劝我归唐，韦皋致书相招，我遂与唐使夜盟于点苍山下，斩吐蕃使者，弃赞普钟之号。后奉诏袭吐蕃，破神川铁桥，献捷纳贡，天子册我云南王，赐贞元金印。我遣子弟入蜀就学，进奉圣乐，岁贡方物，与唐世修盟好，终保云南安宁三十年。
+  source_urls:
+  - guji://nanzhaoyeshi/yimouxun
+endeavors:
+- id: guji-异牟寻-endeavor-1
+  name_zh: 即位改元与经营疆域
+  labels_zh:
+  - 南诏国政
+  phases:
+  - key: brewing
+    name_zh: 继立为君，迁居史城
+    labels_zh:
+    - 继位
+    start_date: 0778
+    events:
+    - guji-异牟寻-event-accession
+    - guji-异牟寻-event-move-dali
+  - key: breakthrough
+    name_zh: 改号大理国，封岳渎
+    labels_zh:
+    - 建制
+    start_date: 0784
+    events:
+    - guji-异牟寻-event-dali-title
+  decisions:
+  - date: 0784
+    title_zh: 迁居史城，改号大理国，自称日东王
+    rationale: 整合蒙氏基业，正名定位，兼祀四渎五岳以固疆域认同
+- id: guji-异牟寻-endeavor-2
+  name_zh: 背蕃归唐，重续南诏与唐盟好
+  labels_zh:
+  - 外交转向
+  - 唐诏会盟
+  phases:
+  - key: brewing
+    name_zh: 郑回进言，韦皋招抚
+    labels_zh:
+    - 内议
+    start_date: 0787
+    events:
+    - guji-异牟寻-event-zhenghui-advise
+  - key: breakthrough
+    name_zh: 点苍山会盟，斩蕃使去僭号
+    labels_zh:
+    - 归唐
+    start_date: 0790
+    events:
+    - guji-异牟寻-event-cangshan-alliance
+  - key: climax
+    name_zh: 袭吐蕃破神川，受册南诏王
+    labels_zh:
+    - 战功册封
+    start_date: 0793
+    events:
+    - guji-异牟寻-event-shenchuan-victory
+    - guji-异牟寻-event-yuanzeng-seal
+  - key: closure
+    name_zh: 遣子入质就学，岁贡方物
+    labels_zh:
+    - 通好
+    start_date: 0798
+    events:
+    - guji-异牟寻-event-hostage-study
+  decisions:
+  - date: 0787
+    title_zh: 听郑回之议，决计归唐，谢绝吐蕃征兵
+    rationale: 吐蕃征求无厌，李泌劝德宗招云南以断吐蕃右臂，归唐利大于弊
+  - date: 0790
+    title_zh: 夜迎崔佐时，斩吐蕃使者，盟于点苍山下
+    rationale: 天朝大使不可衣夷衣，既已决计归唐，须明断而绝蕃望
+  - date: 0793
+    title_zh: 借应征之名，将数万人暗袭吐蕃，神川断铁桥
+    rationale: 阳示寡弱以骄敌，一举破蕃，以战功换唐册封与信任
+events:
+- id: guji-异牟寻-event-birth
+  date: '0754'
+  year_of: '0754'
+  title_zh: 异牟寻生（约天宝十三载，据即位时年二十四逆推）
+  kind: birth
+  actors:
+  - guji-异牟寻
+  location_zh: 南诏
+  summary: 异牟寻约生于唐天宝年间，阁罗凤之孙，凤伽异之子。
+- id: guji-异牟寻-event-accession
+  date: 0778
+  year_of: 0778
+  title_zh: 异牟寻即位，年二十四岁，明年改元见龙
+  kind: political
+  actors:
+  - guji-异牟寻
+  location_zh: 南诏
+  summary: 代宗大历十三年阁罗凤卒，异牟寻继立，封云南王，后自称南诏王，追赠其父为悼惠王，伪谥廪孝桓王。
+- id: guji-异牟寻-event-move-dali
+  date: 0784
+  year_of: 0784
+  title_zh: 迁居史城，改号大理国，自称日东王
+  kind: political
+  actors:
+  - guji-异牟寻
+  location_zh: 大厘城
+  summary: 兴元元年牟寻迁大厘城，改号大理国，封五岳四渎，立三皇庙，设九爽三托，划定疆界八分之地。
+- id: guji-异牟寻-event-dali-title
+  date: 0784
+  year_of: 0784
+  title_zh: 封五岳四渎，建神祠
+  kind: cultural
+  actors:
+  - guji-异牟寻
+  location_zh: 南诏
+  summary: 以点苍山为中岳，乌龙、蒙乐、高黎贡、雪山为东西南北岳，金沙、兰沧等江为四渎，各建神祠，立三皇庙。
+- id: guji-异牟寻-event-zhenghui-advise
+  date: 0787
+  year_of: 0787
+  title_zh: 郑回说寻归唐，寻决计背蕃
+  kind: political
+  actors:
+  - guji-异牟寻
+  - 郑回
+  - 韦皋
+  location_zh: 大理城
+  summary: 牟寻居大理城，命子弟师事郑回；因苦吐蕃征求无厌，郑回因韦皋招抚之势劝其归唐，寻然之，蕃使征兵则谢绝。
+- id: guji-异牟寻-event-cangshan-alliance
+  date: 0790
+  year_of: 0790
+  title_zh: 夜迎崔佐时于点苍山下会盟，斩蕃使去僭号
+  kind: diplomatic
+  actors:
+  - guji-异牟寻
+  - 崔佐时
+  - 韦皋
+  location_zh: 点苍山
+  summary: 韦皋遣崔佐时报聘，寻令蕃使更衣避之，夜迎唐使；佐时宣诏，令斩蕃使、去所立之号，寻遂与盟于点苍山下。
+- id: guji-异牟寻-event-shenchuan-victory
+  date: 0793
+  year_of: 0793
+  title_zh: 以三千应蕃而阴将数万，神川破吐蕃，断铁桥取十六城
+  kind: military
+  actors:
+  - guji-异牟寻
+  - 凑罗栋
+  - 尹仇宽
+  location_zh: 神川铁桥
+  summary: 吐蕃征兵，寻阳示寡弱以兵三千应，自将数万踵后，正月袭蕃，断铁桥，取十六城，俘五王，降众十余万。
+- id: guji-异牟寻-event-yuanzeng-seal
+  date: 0794
+  year_of: 0794
+  title_zh: 袁滋持节册封南诏王，王北面跪受贞元金印
+  kind: diplomatic
+  actors:
+  - guji-异牟寻
+  - 袁滋
+  - 韦皋
+  location_zh: 南诏
+  summary: 寻遣弟献捷并献地图、纳贡及蕃印，请复号南诏；唐以袁滋为册使，赐贞元册南诏印，王北面跪受，宴使出龟兹乐二乐工。
+- id: guji-异牟寻-event-hostage-study
+  date: 0798
+  year_of: 0798
+  title_zh: 请质子弟于朝，就学成都
+  kind: cultural
+  actors:
+  - guji-异牟寻
+  - 韦皋
+  location_zh: 成都
+  summary: 贞元十四年请以大臣子弟质于朝，韦皋初却，固请，乃尽舍成都遣就学，此后比年贡方物，唐帝深礼之。
+- id: guji-异牟寻-event-die
+  date: 0808-07
+  year_of: 0808
+  title_zh: 异牟寻卒，在位三十年，子寻阁劝立
+  kind: death
+  actors:
+  - guji-异牟寻
+  location_zh: 南诏
+  summary: 元和三年七月卒，唐遣使祭吊，追谥孝桓王；在位三十年，子寻阁劝嗣位，蒙氏三世事唐唯谨之局得以延续。

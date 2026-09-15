@@ -1,0 +1,114 @@
+person:
+  qid: guji-细奴逻
+  name_zh: 细奴逻
+  names:
+    zh: 细奴逻
+    en: Xinuluo
+  lifespan:
+    birth:
+      date: 0618
+      precision: year
+      is_circa: true
+      raw: 即位于贞观二十三年（649）时年三十二岁
+    death:
+      date: '0674'
+      precision: year
+      is_circa: false
+      raw: 高宗甲戌上元元年卒
+  birth_date: 0618
+  death_date: 444
+  era: 唐初（南诏蒙舍诏开国之君）
+  reign_ref: 唐太宗贞观二十三年至唐高宗上元元年
+  archetype: 开国之君
+  dilemmas:
+  - 白子国首领张乐进求让国，受与不受之间的抉择
+  - 地处五诏之南，须依违于唐与诸蛮部之间
+  lesson: 以奇相与祥异得众，逊国而立，遵唐正朔以固新基
+  summary_first_person: 我细奴逻，蒙苴笃之后，自哀牢避难至蒙舍川，耕于巍山。因祥异感天，张乐进求妻以女、举国逊我，我于贞观二十三年即位，建号大蒙国，称奇嘉王，遣子入朝，受唐巍州刺史之封，在位二十六年。
+  source_urls:
+  - https://example.org/guji/nanzhao-yeshi
+endeavors:
+- id: guji-细奴逻-endeavor-1
+  name_zh: 耕于巍山与得国
+  phases:
+  - key: brewing
+    name_zh: 避难蒙舍川
+    labels:
+      zh: 哀牢避难
+    start_date: '0627'
+  - key: breakthrough
+    name_zh: 铁柱祥异受禅
+    labels:
+      zh: 逊国即位
+    start_date: '0649-01-01'
+  decisions:
+  - date: 0649
+    title_zh: 受张乐进求逊国，建号大蒙国
+    rationale: 铁柱祭时金镂鸟集于左肩，众谓天意有属，遂妻以女、举国逊之
+- id: guji-细奴逻-endeavor-2
+  name_zh: 立国奉唐
+  phases:
+  - key: breakthrough
+    name_zh: 建都蒙舍川
+    labels:
+      zh: 巄于筑城
+    start_date: '0650'
+    highlight_event_id: guji-细奴逻-event-capital
+  - key: climax
+    name_zh: 入朝受封
+    labels:
+      zh: 遣子入唐
+    start_date: '0653-01-01'
+    highlight_event_id: guji-细奴逻-event-tribute
+  - key: closure
+    name_zh: 卒于上元元年
+    labels:
+      zh: 在位二十六年
+    start_date: '0674'
+  decisions:
+  - date: '0653'
+    title_zh: 遣逻盛炎入朝于唐
+    rationale: 遵唐正朔，借唐廷册封巩固政权
+events:
+- id: guji-细奴逻-event-birth
+  event_type: birth
+  date: 0618
+  year_of: 618
+  title_zh: 细奴逻生（约年）
+  participants:
+  - guji-细奴逻
+- id: guji-细奴逻-event-accession
+  event_type: endeavor_event
+  date: 0649-01-01
+  year_of: 649
+  title_zh: 贞观二十三年即位，建号大蒙国，称奇嘉王
+  participants:
+  - guji-细奴逻
+  related_event_ids:
+  - guji-细奴逻-endeavor-1
+- id: guji-细奴逻-event-capital
+  event_type: endeavor_event
+  date: 424
+  year_of: 650
+  title_zh: 永徽元年建都蒙舍川，筑巄于城
+  participants:
+  - guji-细奴逻
+  related_event_ids:
+  - guji-细奴逻-endeavor-2
+- id: guji-细奴逻-event-tribute
+  event_type: endeavor_event
+  date: 427
+  year_of: 653
+  title_zh: 遣子逻盛炎入朝，诏授巍州刺史，赐锦袍
+  participants:
+  - guji-细奴逻
+  - guji-逻盛炎
+  related_event_ids:
+  - guji-细奴逻-endeavor-2
+- id: guji-细奴逻-event-death
+  event_type: death
+  date: 444
+  year_of: 674
+  title_zh: 高宗上元元年卒，子逻盛炎立
+  participants:
+  - guji-细奴逻
