@@ -1,0 +1,253 @@
+person:
+  qid: guji-徐温
+  name_zh: 徐温
+  names:
+    zh: 徐温
+    en: Xu Wen
+  lifespan:
+    birth:
+      date: 0862
+      precision: year
+      is_circa: true
+      raw: 生年不详，约晚唐
+    death:
+      date: 0927-11
+      precision: month
+      is_circa: false
+      raw: 义祖晚有气疾……将殂之夕，气暴作……而绝
+  birth_date: 约0862
+  death_date: 0927
+  era: 晚唐五代十国・吴国权臣，追尊义祖
+  reign_ref: 吴国大丞相／都统，封齐王；死后烈祖追上尊号义祖
+  archetype: 沉毅枭雄・权臣养父
+  dilemmas:
+  - 养子知诰（烈祖）终威胁亲子知询之位，忍而不除
+  - 废弑君主以专吴政，与维护杨氏名义之间的张力
+  - 诛张颢夺权后面对武王勋旧不服， 李遇之反即其果
+  lesson: 权柄可以夺于一时， 名位与人心须以名分与忍让徐图， 然夺位之局终反噬其子孙。
+  summary_first_person: 我是徐温， 吴武王的裨将出身， 以刚毅寡言著称， 人目为徐嗔。我与张颢先弑景王， 后又诛颢专淮南军政， 平李遇以慑诸将， 出镇建康而令亲子知训留扬州， 知训败后我举养子知诰居中任事。我权虽重而名位卑，
+    遂请建国封齐王、自为都统；唐庄宗来诏， 我以敌国之礼拒之。我深知知诰终为己害， 然彼事我以孝， 终不忍除。晚年苦气疾， 一夕暴发而殂。
+  source_urls:
+  - https://zh.wikisource.org/wiki/江南别录
+endeavors:
+- id: guji-徐温-endeavor-1
+  name_zh: 从裨将到专吴军政
+  phases:
+  - key: brewing
+    name_zh: 黑云长剑裨将
+    labels:
+      zh:
+      - 淮南劲兵
+      - 累功迁右职
+    start_date: 0900
+    highlight_event_id: guji-徐温-event-join
+  - key: breakthrough
+    name_zh: 弑景王・诛张颢
+    labels:
+      zh:
+      - 与颢共弑渥
+      - 用严可求锺泰章谋诛颢
+    start_date: 0908
+    highlight_event_id: guji-徐温-event-kill-zhang-hao
+  - key: climax
+    name_zh: 专军政・平李遇・出镇建康
+    labels:
+      zh:
+      - 自为淮南行军司马
+      - 李遇灭而诸将屏气
+    start_date: 0908
+    highlight_event_id: guji-徐温-event-ping-liyu
+  - key: closure
+    name_zh: 建国封齐王・以敌国礼拒唐
+    labels:
+      zh:
+      - 请建国改号
+      - 封齐王自为都统
+    start_date: 0919
+    highlight_event_id: guji-徐温-event-qiwang
+  decisions:
+  - date: 0908
+    title_zh: 诛张颢自专军政
+    rationale: 颢既弑君又欲背约自立并害己， 遂用严可求、锺泰章之谋先发诛之。
+  - date: 0914
+    title_zh: 出镇建康， 以亲子知训代知淮南
+    rationale: 坐镇上流握强兵， 而留知训居中以 control 朝局。
+  - date: 0919
+    title_zh: 请建国改号自称都统封齐王
+    rationale: 权柄虽重而名数犹卑， 须以名分固其实。
+- id: guji-徐温-endeavor-2
+  name_zh: 养烈祖・传承困局
+  phases:
+  - key: brewing
+    name_zh: 幼养知诰
+    labels:
+      zh:
+      - 自幼畜之
+      - 烈祖奉义祖以孝闻
+    start_date: 0895
+    highlight_event_id: guji-徐温-event-adopt
+  - key: breakthrough
+    name_zh: 知训败后留知诰辅政
+    labels:
+      zh:
+      - 己子弗克负荷
+      - 用烈祖犹愈于他人
+    start_date: 0918
+    highlight_event_id: guji-徐温-event-keep-zhigao
+  - key: climax
+    name_zh: 徐玠劝除知诰而不忍
+    labels:
+      zh:
+      - 深以为不宜
+      - 以大政委焉
+    start_date: 0925
+    highlight_event_id: guji-徐温-event-spare-zhigao
+  - key: closure
+    name_zh: 病殂・知询旋败
+    labels:
+      zh:
+      - 气疾暴作而绝
+      - 知询被夺兵权
+    start_date: 0927
+    highlight_event_id: guji-徐温-event-death
+  decisions:
+  - date: 0918
+    title_zh: 留知诰居中辅政
+    rationale: 亲子知训骄暴败死， 知询尚少， 知诰勤孝可信， 因委大政。
+  - date: 0925
+    title_zh: 拒徐玠除知诰之谋
+    rationale: 知诰自幼所畜、侍养勤谨， 陈夫人亦言负之非人理， 不忍加害。
+events:
+- id: guji-徐温-event-adopt
+  person_qid: guji-徐温
+  title_zh: 收养徐知诰（烈祖）
+  summary_zh: 於孤幼时收养知诰， 后奉养以孝闻。
+  date: 0895
+  year_of: 0895
+  precision: year
+  is_circa: true
+  primary: false
+  tags:
+  - 家庭
+  linked_entity_qids:
+  - guji-徐知诰
+- id: guji-徐温-event-birth
+  person_qid: guji-徐温
+  title_zh: 徐温出生（约）
+  summary_zh: 生年史无明文， 约当唐咸通年间。
+  date: 0862
+  year_of: 0862
+  precision: year
+  is_circa: true
+  primary: true
+  tags:
+  - 出生
+- id: guji-徐温-event-join
+  person_qid: guji-徐温
+  title_zh: 为黑云长剑裨将累功迁右职
+  summary_zh: 吴武王时， 与张颢同为衙内列校。
+  date: 0900
+  year_of: 0900
+  precision: year
+  is_circa: true
+  primary: false
+  tags:
+  - 行伍
+  linked_entity_qids:
+  - guji-杨行密
+- id: guji-徐温-event-kill-jingwang
+  person_qid: guji-徐温
+  title_zh: 与张颢弑吴景王杨渥
+  summary_zh: 先哭谏不听， 后与颢拥兵入府， 月余杀景王， 声言暴卒， 立杨隆演。
+  date: 0908
+  year_of: 0908
+  precision: year
+  is_circa: true
+  primary: true
+  tags:
+  - 政变
+  linked_entity_qids:
+  - guji-杨渥
+  - guji-张颢
+- id: guji-徐温-event-kill-zhang-hao
+  person_qid: guji-徐温
+  title_zh: 用严可求锺泰章谋诛张颢
+  summary_zh: 颢欲背约自立并害徐温；温先发制人诛颢， 自为淮南行军司马专军政。
+  date: 0908-06
+  year_of: 0908
+  precision: month
+  is_circa: true
+  primary: true
+  tags:
+  - 政变
+  - 夺权
+  linked_entity_qids:
+  - guji-张颢
+  - guji-严可求
+- id: guji-徐温-event-ping-liyu
+  person_qid: guji-徐温
+  title_zh: 灭李遇， 诸将屏气
+  summary_zh: 宣州李遇不服起兵， 兵败良贱百口皆死， 自是勋旧诸将屏息。
+  date: 0911
+  year_of: 0911
+  precision: year
+  is_circa: true
+  primary: true
+  tags:
+  - 平叛
+  linked_entity_qids:
+  - guji-李遇
+- id: guji-徐温-event-keep-zhigao
+  person_qid: guji-徐温
+  title_zh: 知训败后， 命知诰代掌政
+  summary_zh: 朱瑾之乱知训死， 烈祖自京口入扬州镇定内外， 徐温因留其辅政。
+  date: 0918
+  year_of: 0918
+  precision: year
+  is_circa: true
+  primary: true
+  tags:
+  - 交权
+  linked_entity_qids:
+  - guji-徐知诰
+  - guji-徐知训
+- id: guji-徐温-event-qiwang
+  person_qid: guji-徐温
+  title_zh: 请建国改号， 封齐王自为都统
+  summary_zh: 权重而名数犹卑， 遂请杨氏建国改号， 自为都统， 封齐王， 制度如国主。
+  date: 0919
+  year_of: 0919
+  precision: year
+  is_circa: true
+  primary: true
+  tags:
+  - 政体
+  - 封爵
+  linked_entity_qids:
+  - guji-杨隆演
+- id: guji-徐温-event-refuse-tang-envoy
+  person_qid: guji-徐温
+  title_zh: 拒唐庄宗诏命， 以敌国礼通书
+  summary_zh: 庄宗克梁遣使赍诏， 温曰若敌国之书乃可；庄宗遂用敌国之礼寄书吴主。
+  date: 0924
+  year_of: 0924
+  precision: year
+  is_circa: true
+  primary: false
+  tags:
+  - 外交
+  linked_entity_qids:
+  - guji-李存勖
+- id: guji-徐温-event-death
+  person_qid: guji-徐温
+  title_zh: 气疾暴作而殂
+  summary_zh: 晚岁气疾数发， 殂夕气暴作， 进药无效而绝；知询翌日起为副都统。
+  date: '0927-11-13'
+  year_of: 0927
+  precision: day
+  is_circa: true
+  primary: true
+  tags:
+  - 逝世
+  linked_entity_qids:
+  - guji-徐知询

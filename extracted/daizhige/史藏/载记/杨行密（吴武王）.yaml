@@ -1,0 +1,104 @@
+person:
+  qid: guji-杨行密
+  name_zh: 杨行密
+  names:
+    zh: 杨行密
+    en: Yang Xingmi
+  lifespan:
+    birth:
+      date: 0852
+      precision: year
+      is_circa: true
+      raw: 史载约唐大中六年
+    death:
+      date: 0905
+      precision: year
+      is_circa: false
+  birth_date: 0852
+  death_date: 0905
+  era: 唐末五代
+  reign_ref: 吴国王（吴武王，吴国奠基者）
+  archetype: 创业雄主
+  dilemmas:
+  - 疾亟之际，虑诸子年少难以控御诸将，军政传承悬于一线
+  lesson: 创基业者亲犯矢石，然身后权力交接之难，甚于征战。
+  summary_first_person: 我杨行密，唐末起于淮南，亲冒矢石创立基业，麾下劲兵数万号黑云长剑，被尊为吴王。临终之际，面对传子抑或托贤之问，终以嫡嗣为国之根本，身后诸将政争果如所虑。
+endeavors:
+- id: guji-杨行密-endeavor-1
+  name_zh: 缔造淮南基业
+  phases:
+  - key: brewing
+    name_zh: 起兵淮南
+    labels:
+      zh:
+      - 创业
+    start_date: 0880
+  - key: breakthrough
+    name_zh: 统一江淮
+    labels:
+      zh:
+      - 兵威
+    start_date: 0892
+    highlight_event_id: guji-杨行密-event-1
+  - key: climax
+    name_zh: 受封吴王
+    labels:
+      zh:
+      - 称王
+    start_date: 0902
+  - key: closure
+    name_zh: 临终托后
+    labels:
+      zh:
+      - 传承
+    start_date: 0905
+    highlight_event_id: guji-杨行密-event-death
+  decisions:
+  - date: 0905
+    title_zh: 病笃议后事，坚持杨氏承业
+    rationale: 判官周隐建议授军政于刘威以待诸子长，武王不答；谋士张颢、徐温劝其传于杨氏子孙，武王曰「尔能如是，吾死且瞑目矣」，坚持以血胤承业。
+- id: guji-杨行密-endeavor-2
+  name_zh: 练治黑云长剑军
+  phases:
+  - key: brewing
+    name_zh: 组建精兵
+    labels:
+      zh:
+      - 治军
+    start_date: 0890
+    highlight_event_id: guji-杨行密-event-1
+  - key: breakthrough
+    name_zh: 尚功迁将
+    labels:
+      zh:
+      - 用人
+    start_date: 0895
+events:
+- id: guji-杨行密-event-birth
+  person_id: guji-杨行密
+  type: birth
+  date: 0852
+  year_of: 852
+  title_zh: 出生
+  description: 史载约生于唐大中年间。
+- id: guji-杨行密-event-1
+  person_id: guji-杨行密
+  type: endeavor
+  date: 0892
+  year_of: 892
+  title_zh: 统军淮南，号黑云长剑
+  description: 吴武王时，淮南劲兵数万，号黑云长剑；徐温为其裨将，累以功迁右职。
+- id: guji-杨行密-event-2
+  person_id: guji-杨行密
+  type: endeavor
+  date: 0905
+  year_of: 905
+  title_zh: 疾亟召左右议后事，诸子嗣位定局
+  description: 判官周隐建议以军政授刘威，徐温、张颢力主传于杨氏，武王许之，为身后吴国政局埋下伏笔。
+- id: guji-杨行密-event-death
+  person_id: guji-杨行密
+  type: death
+  date: 0905
+  year_of: 905
+  title_zh: 卒，子渥嗣立
+  description: 武王卒，子杨渥嗣立，是为景王（原文称景王）。
