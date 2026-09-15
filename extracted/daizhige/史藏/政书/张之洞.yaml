@@ -1,0 +1,126 @@
+person:
+  qid: guji-张之洞
+  name_zh: 张之洞
+  names:
+    zh: 张之洞
+    en: Zhang Zhidong
+  lifespan:
+    birth:
+      date: '1837'
+      precision: year
+      is_circa: true
+      raw: 道光十七年
+    death:
+      date: '1909'
+      precision: year
+      is_circa: false
+  birth_date: '1837'
+  death_date: '1909'
+  era: 清末
+  reign_ref: 光绪 / 宣统
+  archetype: 洋务派教育家改革者
+  dilemmas:
+  - 中学与西学并存、以中学为本的取舍难题
+  - 师资匮乏与普及教育急需之间的矛盾
+  lesson: 中体西用，兴学储才而固国本
+  summary_first_person: 我张之洞与张百熙、荣庆同奏定学堂章程，以忠孝为本、以艺能为用，倡办师范、实业各学堂，主张读经存教而不废西学，为清末新学制立规模。
+  source_urls:
+  - https://zh.wikisource.org/wiki/奏定学堂章程
+endeavors:
+- id: guji-张之洞-endeavor-1
+  name_zh: 主持奏定学堂章程
+  labels:
+    zh:
+    - 教育改革
+    - 癸卯学制
+  start_date: '1903'
+  phases:
+  - key: brewing
+    name_zh: 督鄂兴学积验
+    labels:
+      zh:
+      - 湖北学堂章程先定
+    start_date: '1890'
+    highlight_event_id: guji-张之洞-event-hubei-chapter
+  - key: breakthrough
+    name_zh: 会同修订学堂章程
+    labels:
+      zh:
+      - 癸卯学制
+    start_date: '1903'
+    highlight_event_id: guji-张之洞-event-zhangcheng
+  - key: climax
+    name_zh: 通令全国遵行新章
+    labels:
+      zh:
+      - 京外画一
+    start_date: 1904-01
+    highlight_event_id: guji-张之洞-event-zunxing
+  - key: closure
+    name_zh: 学制影响延续
+    labels:
+      zh:
+      - 近代学制奠基
+    start_date: '1904'
+    highlight_event_id: guji-张之洞-event-yingxiang
+  decisions:
+  - date: '1903'
+    title_zh: 会同张百熙、荣庆奏定学堂章程
+    rationale: 前章尚有未备，体察近日情形斟酌修改，条目详密、课程完备，令京外画一
+  - date: '1903'
+    title_zh: 主张首先急办师范学堂
+    rationale: 学堂必须有师，师范为各项学堂之本源、兴学入手之第一义
+  - date: '1903'
+    title_zh: 中小学堂坚持读经以存圣教
+    rationale: 经书即中国之宗教，不读经则三纲五常废绝、中国不能立国，然择切要之经分配课程不妨碍西学
+events:
+- id: guji-张之洞-event-birth
+  date: '1837'
+  year_of: 1837
+  type: birth
+  title_zh: 张之洞生
+  person_ids:
+  - guji-张之洞
+- id: guji-张之洞-event-death
+  date: '1909'
+  year_of: 1909
+  type: death
+  title_zh: 张之洞卒
+  person_ids:
+  - guji-张之洞
+- id: guji-张之洞-event-hubei-chapter
+  date: '1890'
+  year_of: 1890
+  type: endeavor_event
+  title_zh: 督鄂期间先定湖北学堂章程
+  person_ids:
+  - guji-张之洞
+  endeavor_ids:
+  - guji-张之洞-endeavor-1
+- id: guji-张之洞-event-zhangcheng
+  date: '1903-11-26'
+  year_of: 1903
+  type: endeavor_event
+  title_zh: 光绪二十九年十一月二十六日会同奏定学堂章程学务纲要
+  person_ids:
+  - guji-张之洞
+  endeavor_ids:
+  - guji-张之洞-endeavor-1
+- id: guji-张之洞-event-zunxing
+  date: 1904-01
+  year_of: 1904
+  type: endeavor_event
+  title_zh: 癸卯学制颁行，京外各学堂俱照新章以归画一
+  person_ids:
+  - guji-张之洞
+  endeavor_ids:
+  - guji-张之洞-endeavor-1
+- id: guji-张之洞-event-yingxiang
+  date: '1904'
+  year_of: 1904
+  type: endeavor_event
+  title_zh: 新学制奠定中国近代教育制度基础
+  person_ids:
+  - guji-张之洞
+  endeavor_ids:
+  - guji-张之洞-endeavor-1
