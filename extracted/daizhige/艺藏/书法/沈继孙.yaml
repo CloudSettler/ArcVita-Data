@@ -1,0 +1,126 @@
+person:
+  qid: guji-沈继孙
+  name_zh: 沈继孙
+  names:
+    zh: 沈继孙
+    en: Shen Jisun
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 洪武时人，生年不可考
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不可考
+  birth_date: ''
+  death_date: ''
+  era: 明代洪武时期
+  reign_ref: 明太祖洪武
+  archetype: 工艺技术家
+  dilemmas:
+  - 师戒不扬其姓名，恐乡里同业者知之或怨，与著书传法之志相冲突
+  - 墨谱诸家文具无凭，须以身历手试之实录纠其妄撰
+  lesson: 身所历、手所试，方为可信可从之实录；古法具存，切于实用者胜于徒为戏玩。
+  summary_first_person: 我姑苏人沈继孙，先受教于三衢墨师，又得一僧墨诀，遂录成一卷《墨法集要》，凡图二十有一，各有说，自浸油至试墨，叙次详核，为近代造墨家所祖。
+  source_urls:
+  - guji://mofajiyuan/original
+endeavors:
+- id: guji-沈继孙-endeavor-1
+  name_zh: 学墨与制墨
+  labels:
+    zh: 制墨
+  phases:
+  - key: brewing
+    name_zh: 初制试药
+    labels:
+      zh: 初制试药
+    start_date: 1368
+    highlight_event_id: guji-沈继孙-event-study
+  - key: breakthrough
+    name_zh: 得三衢墨师之法
+    labels:
+      zh: 得师墨诀
+    start_date: 1368
+    highlight_event_id: guji-沈继孙-event-breakthrough
+  - key: climax
+    name_zh: 从僧得墨诀
+    labels:
+      zh: 得僧墨诀
+    start_date: 1398
+    highlight_event_id: guji-沈继孙-event-monk
+  decisions:
+  - date: 1368
+    title_zh: 弃诸药，惟胶烟细和熟杵之
+    rationale: 用药愈多而墨愈下，遵三衢墨师之法得色黑而光之墨
+- id: guji-沈继孙-endeavor-2
+  name_zh: 著《墨法集要》
+  labels:
+    zh: 著述
+  phases:
+  - key: breakthrough
+    name_zh: 并录师法成书
+    labels:
+      zh: 录法成书
+    start_date: 1398
+    highlight_event_id: guji-沈继孙-event-book
+  - key: closure
+    name_zh: 自序立春题名
+    labels:
+      zh: 自序成编
+    start_date: 1398
+    highlight_event_id: guji-沈继孙-event-preface
+  decisions:
+  - date: 1398
+    title_zh: 录墨法成书，以实录为旨
+    rationale: 墨谱诸家多杂取墨工之言，非身历手试，文具不足凭，故录亲试之法
+events:
+- id: guji-沈继孙-event-birth
+  type: birth
+  date: 1350
+  year_of: 1350
+  precision: circa
+  description: 沈继孙约生于元末，籍姑苏（吴门），生年不可考
+- id: guji-沈继孙-event-study
+  type: endeavor
+  endeavor_ref: guji-沈继孙-endeavor-1
+  date: 1368
+  year_of: 1368
+  precision: circa
+  description: 洪武之初，初制墨时诸方并试之，用药愈多而墨愈下
+- id: guji-沈继孙-event-breakthrough
+  type: endeavor
+  endeavor_ref: guji-沈继孙-endeavor-1
+  date: 1368
+  year_of: 1368
+  precision: circa
+  description: 受教于三衢墨师，并去药，惟胶烟细和熟杵之，墨成色黑而光，如小儿目睛；师戒不扬其姓名
+- id: guji-沈继孙-event-monk
+  type: endeavor
+  endeavor_ref: guji-沈继孙-endeavor-1
+  date: 1398
+  year_of: 1398
+  precision: circa
+  description: 后又从一僧得墨诀，思念师之德，追忆师之言，遂并录之
+- id: guji-沈继孙-event-book
+  type: endeavor
+  endeavor_ref: guji-沈继孙-endeavor-2
+  date: 1398
+  year_of: 1398
+  precision: circa
+  description: 撰成《墨法集要》一卷，凡为图二十有一，图各有说，叙次详核，为近代造墨家所祖
+- id: guji-沈继孙-event-preface
+  type: endeavor
+  endeavor_ref: guji-沈继孙-endeavor-2
+  date: 1398-02-04
+  year_of: 1398
+  precision: day
+  description: 洪武戊寅岁立春日，吴门沈继孙自序《墨法集要》，客请以实录名之
+- id: guji-沈继孙-event-death
+  type: death
+  date: ''
+  year_of: ''
+  precision: unknown
+  description: 卒年不可考
