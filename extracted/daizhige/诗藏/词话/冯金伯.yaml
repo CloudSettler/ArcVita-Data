@@ -1,0 +1,69 @@
+person:
+  qid: guji-冯金伯
+  name_zh: 冯金伯
+  names:
+    zh: 冯金伯
+    en: Feng Jinbo
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+    death:
+      precision: unknown
+      is_circa: true
+  era: 清代嘉庆年间
+  reign_ref: 嘉庆
+  archetype: 学者型编纂家
+  dilemmas:
+  - 著述乃辑录前人之作，如何在传承古人言与个人 信 之辩中自处
+  lesson: 汇编前人之学而不掠美，注引有序，方为传世之功
+  summary_first_person: 我是海曲冯金伯，读吴江徐虹亭《词苑丛谈》而惜其序次错综，遂于甲子入秋后枯坐小舟之中着手重编，历逾年而脱稿，删增厘订，引书必注，纂成《词苑萃编》。
+endeavors:
+- id: guji-冯金伯-endeavor-1
+  name_zh: 重编《词苑萃编》
+  phases:
+  - key: brewing
+    name_zh: 萌志重编
+    start_date: '1804'
+    highlight_event_id: guji-冯金伯-event-start
+  - key: climax
+    name_zh: 增删整理
+    start_date: '1804'
+    highlight_event_id: guji-冯金伯-event-compile
+  - key: closure
+    name_zh: 脱稿成编
+    start_date: '1806'
+    highlight_event_id: guji-冯金伯-event-done
+  decisions:
+  - date: '1804'
+    title_zh: 决意重新排纂徐虹亭《词苑丛谈》
+    rationale: 惜原书序次错综，屡欲重加排篡，甲子入秋枯坐小舟萧然无事，思了此愿
+  - date: '1805'
+    title_zh: 定例调整部类：体制下增旨趣部，品藻外增指摘部，音韵移于纪事后，外编改馀编
+    rationale: 一以溯渊源穷阃奥，一以见欣赏之情寓别裁之意，神仙鬼怪多散见纪事门故改馀编
+  highlight_event_id: guji-冯金伯-event-done
+events:
+- id: guji-冯金伯-event-start
+  endeavor_id: guji-冯金伯-endeavor-1
+  date: '1804'
+  precision: year
+  year_of: 1804
+  kind: endeavor_event
+  name_zh: 甲子入秋后动手整理原书
+  detail_zh: 家中书籍未及捆载，先就案头所有补缀整理，删十之一，增十之三四
+- id: guji-冯金伯-event-compile
+  endeavor_id: guji-冯金伯-endeavor-1
+  date: '1805-10-02'
+  precision: day
+  year_of: 1805
+  kind: endeavor_event
+  name_zh: 手自缮写，重订体例
+  detail_zh: 嘉庆十年乙丑中秋后一日识语，述体制增旨趣、指摘两部等编纂旨趣
+- id: guji-冯金伯-event-done
+  endeavor_id: guji-冯金伯-endeavor-1
+  date: '1806'
+  precision: year
+  year_of: 1806
+  kind: endeavor_event
+  name_zh: 《词苑萃编》脱稿
+  detail_zh: 逾年而脱稿，引书必注，隶事有序，俾观者快然有当于心，庶为徐氏功臣
