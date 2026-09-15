@@ -1,0 +1,65 @@
+person:
+  qid: guji-潘佑
+  name_zh: 潘佑
+  names:
+    zh: 潘佑
+    en: Pan You
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      precision: unknown
+      is_circa: false
+      raw: ''
+  era: 五代十国 · 南唐
+  reign_ref: ''
+  archetype: 南唐文臣 · 以忠节声华著称
+  dilemmas:
+  - 原文仅列名，未详其仕履与言行，事迹待考
+  lesson: 名列忠节之传，虽文本简略，其声华炳耀一时，可见南唐文物之盛
+  summary_first_person: 我是潘佑，南唐之臣。陆游《南唐书》原序中称我与张延翰、刘仁赡、韩熙载、孙忌、徐锴之徒，文武才业、忠节声华炳耀一时，不可掩也。惜所据文本仅存其名，行事本末未载，俟考。
+endeavors:
+- id: guji-潘佑-endeavor-1
+  key: serving-southern-tang
+  name_zh: 仕南唐
+  labels:
+    zh: 南唐文武才业 · 忠节声华
+  phases:
+  - key: climax
+    name_zh: 炳耀一时
+    labels:
+      zh: 忠节声华
+    highlight_event_id: guji-潘佑-event-praise
+  decisions:
+  - title_zh: 仕于南唐
+    rationale: 原文未详其进退之由，仅知其为南唐贤臣之一
+- id: guji-潘佑-endeavor-2
+  key: historical-remembrance
+  name_zh: 见称于史
+  labels:
+    zh: 陆游《南唐书》列为忠节名臣
+  phases:
+  - key: closure
+    name_zh: 名垂书传
+    labels:
+      zh: 书名见称
+    highlight_event_id: guji-潘佑-event-praise
+  decisions:
+  - title_zh: 与刘仁赡韩熙载等同列
+    rationale: 赵世延序称其忠节声华不可掩，故与诸贤并举
+events:
+- id: guji-潘佑-event-birth
+  category: birth
+  title_zh: 潘佑生（生年不详）
+  summary_zh: 原文未载其生年，事迹待考。
+- id: guji-潘佑-event-praise
+  category: endeavor
+  endeavor_id: guji-潘佑-endeavor-1
+  title_zh: 与贤才硕辅同见称于《南唐书》
+  summary_zh: 陆游《南唐书》赵世延序云："张延翰刘仁赡潘佑韩熈载孙忌徐锴之徒文武才业忠节声华炳耀一时有不可揜"。
+- id: guji-潘佑-event-death
+  category: death
+  title_zh: 潘佑卒（卒年不详）
+  summary_zh: 原文未载其卒年。

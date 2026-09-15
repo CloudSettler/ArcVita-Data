@@ -1,0 +1,94 @@
+person:
+  qid: guji-林仁肇
+  name_zh: 林仁肇
+  names:
+    zh: 林仁肇
+    en: Lin Renzhao
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: year
+      is_circa: true
+      raw: 开宝中为宋反间而死，约开宝年间
+  death_date: 约开宝年间
+  era: 五代十国·南唐
+  reign_ref: 南唐元宗、后主时期
+  archetype: 忠良名将（反间计受害者）
+  dilemmas:
+  - 国势危殆而遭敌国反间，忠不见信
+  lesson: 大将不死于敌手而死于谗间，用人不疑乃存亡之枢。
+  summary_first_person: 我是南唐名将林仁肇，陆游论南唐之亡，叹若我不以反间计死，金陵未必遽陷。
+  source_urls:
+  - 《陆氏南唐书·卷九·论曰》
+endeavors:
+- id: guji-林仁肇-endeavor-1
+  name_zh: 南唐大将之任
+  phases:
+  - key: brewing
+    name_zh: 镇守外援之望
+    labels:
+      zh: 周师淮南之役后为南唐重将
+    start_date: 约958
+    highlight_event_id: guji-林仁肇-event-endeavor-1
+  - key: climax
+    name_zh: 为宋反间所杀
+    labels:
+      zh: 金陵被围前后遭反间死于谗
+    start_date: 约973
+    highlight_event_id: guji-林仁肇-event-endeavor-2
+  decisions:
+  - date: 约958
+    title_zh: 受守备外援之重任
+    rationale: 通论称"使林仁肇不以间死"，知其素为南唐外援之托。
+- id: guji-林仁肇-endeavor-2
+  name_zh: 死于反间与身后之名
+  phases:
+  - key: closure
+    name_zh: 陆游论史致惜
+    labels:
+      zh: 《南唐书》论曰林仁肇不以间死则江南未遽亡
+    start_date: 约1200
+    highlight_event_id: guji-林仁肇-event-endeavor-3
+  decisions:
+  - date: 约973
+    title_zh: 不辨自明而终见疑
+    rationale: 敌行反间，南唐不能用之无间，遂致大将冤死。
+events:
+- id: guji-林仁肇-event-birth
+  person_qid: guji-林仁肇
+  type: birth
+  title_zh: 林仁肇生（不载其详）
+  date: 约0
+  year_of: 约900
+  description: 生年籍贯史无明文，知为南唐名将。
+- id: guji-林仁肇-event-death
+  person_qid: guji-林仁肇
+  type: death
+  title_zh: 为宋反间所害而死
+  date: 约973
+  year_of: 约973
+  description: 陆游《南唐书》论曰"使林仁肇不以间死"，知其死于宋人行反间之后，死于金陵陷落之先。
+- id: guji-林仁肇-event-endeavor-1
+  person_qid: guji-林仁肇
+  type: endeavor_event
+  title_zh: 受任为南唐外援重将
+  date: 约958
+  year_of: 约958
+  description: 南唐失淮南后，林仁肇为江北战守之望，与皇甫继勋、朱令赟等同当存亡之寄。
+- id: guji-林仁肇-event-endeavor-2
+  person_qid: guji-林仁肇
+  type: endeavor_event
+  title_zh: 遭宋反间计，见疑而死
+  date: 约973
+  year_of: 约973
+  description: 宋师谋金陵，先以间杀仁肇，自此外援无良将。
+- id: guji-林仁肇-event-endeavor-3
+  person_qid: guji-林仁肇
+  type: endeavor_event
+  title_zh: 陆游史论致惜
+  date: 约1200
+  year_of: 约1200
+  description: 陆游论曰：使林仁肇不以间死，卢绛得当攻守之任，江南虽弱未必遽亡，曹彬成功独乘其任人乖剌而已。
