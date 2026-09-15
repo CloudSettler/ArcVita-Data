@@ -1,0 +1,144 @@
+person:
+  qid: guji-杜如晦
+  name_zh: 杜如晦
+  names:
+    zh: 杜如晦
+    en: Du Ruhui
+  lifespan:
+    birth:
+      date: '585'
+      precision: year
+      is_circa: true
+      raw: 隋开皇年间
+    death:
+      date: '630'
+      precision: year
+      is_circa: true
+      raw: 唐贞观四年
+  birth_date: '585'
+  death_date: '630'
+  era: 隋末唐初
+  reign_ref: 唐太宗贞观
+  archetype: 创业名相
+  dilemmas:
+  - 名称：择主；情境：隋末群雄并起、天下崩乱，须辨真主而佐之
+  - 名称： inventor："礼乐未备"，情境：辅政施行王道而典制未兴
+  lesson: 识时运者逢明王，果断谋断方能成大业
+  summary_first_person: 我早年观时运之变，识得真主，遂舍旧朝而佐秦王；玄武门之变果断定策，入相贞观，与房玄龄共掌朝政，人以"房谋杜断"称之，期_emperor以王道育万民，如天地之化育。
+  source_urls:
+  - https://zh.wikisource.org/wiki/文中子中说/卷一
+endeavors:
+- id: guji-杜如晦-endeavor-1
+  name_zh: 佐定天下
+  labels:
+    zh:
+    - 创业
+    - 择主
+  start_date: '617'
+  phases:
+  - key: brewing
+    name_zh: 观时而动
+    labels:
+      zh:
+      - 观察
+    start_date: '617'
+    highlight_event_id: guji-杜如晦-event-join
+  - key: breakthrough
+    name_zh: 定策玄武门
+    labels:
+      zh:
+      - 决断
+    start_date: '626'
+    highlight_event_id: guji-杜如晦-event-xuanwumen
+  - key: climax
+    name_zh: 贞观辅政
+    labels:
+      zh:
+      - 为相
+    start_date: '627'
+    highlight_event_id: guji-杜如晦-event-chancellor
+  - key: closure
+    name_zh: 壮年而逝
+    labels:
+      zh:
+      - 终局
+    start_date: '630'
+    highlight_event_id: guji-杜如晦-event-death
+  decisions:
+  - date: '617'
+    title_zh: 弃隋投唐，效命秦王李世民
+    rationale: 察唐公父子有拨乱之志，识真主而委身
+  - date: '626'
+    title_zh: 力赞玄武门之计
+    rationale: 储位之争已成，先发者存，果断从王
+- id: guji-杜如晦-endeavor-2
+  name_zh: 建章立制
+  labels:
+    zh:
+    - 制度
+    - 相业
+  start_date: '627'
+  phases:
+  - key: brewing
+    name_zh: 参预机务
+    labels:
+      zh:
+      - 参政
+    start_date: '627'
+    highlight_event_id: guji-杜如晦-event-chancellor
+  - key: breakthrough
+    name_zh: 与房玄龄共判台衡
+    labels:
+      zh:
+      - 同辅
+    start_date: '628'
+    highlight_event_id: guji-杜如晦-event-chancellor
+  - key: climax
+    name_zh: 以"断"配房之"谋"
+    labels:
+      zh:
+      - 谋断
+    start_date: '629'
+    highlight_event_id: guji-杜如晦-event-chancellor
+  - key: closure
+    name_zh: 病终相位
+    labels:
+      zh:
+      - 病逝
+    start_date: '630'
+    highlight_event_id: guji-杜如晦-event-death
+  decisions:
+  - date: '627'
+    title_zh: 就任尚书右丞（earlier 兵曹参军 гривexfiltration），与房玄龄共掌选
+    rationale: 以吏治选授为先，佐成贞观之治
+events:
+- id: guji-杜如晦-event-birth
+  date: '585'
+  year_of: 585
+  type: birth
+  name_zh: 生于京兆杜氏
+  description: 出身关中望族，少聪悟好谈文史
+- id: guji-杜如晦-event-join
+  date: '617'
+  year_of: 617
+  type: endeavor
+  name_zh: 投效秦王府
+  description: 隋大业末应考功，识李世民之器，入为其王府兵曹参军，渐掌腹心之任
+- id: guji-杜如晦-event-xuanwumen
+  date: 626-07-02
+  year_of: 626
+  type: endeavor
+  name_zh: 参定玄武门之谋
+  description: 与房玄龄潜入秦王府共决大计，事成，以功进秩
+- id: guji-杜如晦-event-chancellor
+  date: '627'
+  year_of: 627
+  type: endeavor
+  name_zh: 拜相辅政
+  description: 贞观初迁尚书右仆射（先为右丞），与房玄龄同掌朝政，世称"房谋杜断"
+- id: guji-杜如晦-event-death
+  date: '630'
+  year_of: 630
+  type: death
+  name_zh: 病逝
+  description: 贞观四年病笃而卒，太宗深痛惜之，后图形凌烟阁
