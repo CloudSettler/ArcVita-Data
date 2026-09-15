@@ -1,0 +1,126 @@
+person:
+  qid: guji-yanghu
+  name_zh: 羊祜
+  names:
+    zh: 羊祜
+    en: Yang Hu
+  lifespan:
+    birth:
+      date: '221'
+      precision: year
+      is_circa: true
+      raw: 约魏黄初二年（221）
+    death:
+      date: 278-12
+      precision: month
+      is_circa: true
+      raw: 咸宁四年冬（278）
+  birth_date: '221'
+  death_date: 278-12
+  era: 西晋
+  reign_ref: 晋武帝司马炎（泰始、咸宁年间）
+  archetype: 儒将·以德怀远的方面之臣
+  dilemmas:
+  - 西陵失利：泰始八年吴拔西陵，羊祜救之不及，归自江陵，遂改弦更张
+  - 不附权贵：攻江陵之议中不肯阿附，招致王戎等权贵之怨
+  lesson: 兵败之后不恃武力，务修德信，以信义怀柔敌国，终收不战之功
+  summary_first_person: 我羊祜出镇荆襄，西陵一战救援不及而归，自此不务侥幸攻取，而修德信以怀吴人。陆抗遗我酒，我饮之不疑；抗有疾，我馈之药，彼亦推心服之。我不附权贵，敢以盛名处大位而败俗伤化者必为王衍之语直告于人。身后吴人闻之无不堕泪，平吴之日，朝廷追念我功，封我夫人夏侯氏为万岁乡君。
+  source_urls:
+  - https://zh.wikisource.org/wiki/晉陽秋_(輯本)
+endeavors:
+- id: guji-yanghu-endeavor-1
+  name_zh: 出镇荆襄·修德怀吴
+  phases:
+  - key: brewing
+    name_zh: 受任方面，经略荆州
+    labels:
+      zh:
+      - 出镇
+      - 经略
+    start_date: '270'
+    highlight_event_id: guji-yanghu-event-xiling
+  - key: breakthrough
+    name_zh: 西陵失利，转修德信
+    labels:
+      zh:
+      - 西陵之败
+      - 务修德信
+    start_date: '272'
+    highlight_event_id: guji-yanghu-event-xiling
+  - key: climax
+    name_zh: 与陆抗推侨札之好，信义相交
+    labels:
+      zh:
+      - 饮酒不疑
+      - 馈药推心
+    start_date: '272'
+    highlight_event_id: guji-yanghu-event-lukang
+  - key: closure
+    name_zh: 身后追念，平吴之基
+    labels:
+      zh:
+      - 遗策平吴
+      - 追封夫人
+    start_date: 278-12
+    highlight_event_id: guji-yanghu-event-xiahou
+  decisions:
+  - date: '272'
+    title_zh: 西陵救之不及后，务修德信以怀吴人
+    rationale: 兵锋不利则易以攻为怀，以德信收吴人之心，为异日平吴张本
+  - date: '272'
+    title_zh: 不附权贵，直评王衍
+    rationale: 谓此人必以盛名处当世大位，然败俗伤化者必此人也，不因权势而讳言
+  - date: '273'
+    title_zh: 饮陆抗所遗之酒不疑，馈药与之
+    rationale: 与吴将陆抗推侨、札之好，以推心示信，时人以为华元、子反复见于今
+events:
+- id: guji-yanghu-event-birth
+  year_of: '221'
+  date: '221'
+  date_precision: year
+  is_circa: true
+  title_zh: 羊祜生
+  description_zh: 羊祜约生于魏黄初年间，泰山南城人，出身名门，后为晋重臣。
+  type: birth
+- id: guji-yanghu-event-xiling
+  year_of: '272'
+  date: '272'
+  date_precision: year
+  title_zh: 吴拔西陵，羊祜救之不及，归自江陵
+  description_zh: 泰始八年，吴攻拔西陵，羊祜救援不及，自江陵而归，遂改务修德信以怀吴人。
+  type: endeavor
+  endeavor_id: guji-yanghu-endeavor-1
+- id: guji-yanghu-event-lukang
+  year_of: '273'
+  date: '273'
+  date_precision: year
+  is_circa: true
+  title_zh: 与陆抗推侨札之好
+  description_zh: 吴陆抗遗祜酒，祜饮之不疑；抗有疾，祜馈之药，抗亦推心服之，于时以为华元、子反复见于今。
+  type: endeavor
+  endeavor_id: guji-yanghu-endeavor-1
+- id: guji-yanghu-event-wangyan
+  year_of: '272'
+  date: '272'
+  date_precision: year
+  is_circa: true
+  title_zh: 直评少年王衍，谓其败俗伤化
+  description_zh: 王夷甫年十七，见从舅羊祜申陈事状，辞甚俊伟，祜不然之，谓宾客曰此人必以盛名处当世大位，然败俗伤化者必此人也。
+  type: endeavor
+  endeavor_id: guji-yanghu-endeavor-1
+- id: guji-yanghu-event-xiahou
+  year_of: '280'
+  date: '280'
+  date_precision: year
+  title_zh: 封羊祜夫人夏侯氏为万岁乡君
+  description_zh: 太康元年平吴，论功行赏，封羊祜夫人夏侯氏为万岁乡君；孙盛论曰妇人之封，六国乱政。
+  type: endeavor
+  endeavor_id: guji-yanghu-endeavor-1
+- id: guji-yanghu-event-death
+  year_of: '278'
+  date: 278-12
+  date_precision: month
+  is_circa: true
+  title_zh: 羊祜卒
+  description_zh: 咸宁四年冬，羊祜卒于荆州任上，遗策以杜预继任，二年之后晋遂平吴。
+  type: death
