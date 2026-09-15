@@ -1,0 +1,146 @@
+person:
+  qid: guji-米芾
+  name_zh: 米芾
+  names:
+    zh: 米芾
+    en: Mi Fu
+  lifespan:
+    birth:
+      date: '1051'
+      precision: year
+      is_circa: true
+      raw: 北宋皇祐年间生
+    death:
+      date: '1107'
+      precision: year
+      is_circa: false
+  birth_date: '1051'
+  death_date: '1107'
+  era: 北宋
+  reign_ref: 元祐、元符、崇宁年间
+  archetype: 鉴藏家、书家
+  dilemmas:
+  - 名迹借出久不归还，如沈存中借禇书兰亭未还
+  - 宗室仲爰擅取桓公破羌帖，装裱剪损古跋，痛惜
+  - 公权误连右军帖为子敬，鉴真与误判间反复辨析
+  lesson: 能书者未必能鉴：鉴别须以目历、印跋、纸墨为据，不欺于俗目。
+  summary_first_person: 余平生目历法书名画，区别无疑，集曰《书史》以指南识者；中年典衣易帖、掷枣轴以护古物，虽屡遭失帖之痛，犹以鉴定真伪为终身之业。
+  source_urls:
+  - https://zh.wikisource.org/wiki/書史
+endeavors:
+- id: guji-米芾-endeavor-1
+  key: brewing
+  name_zh: 少年临帖、初事鉴藏
+  labels:
+    zh:
+    - 临习鲁公
+    - 目历名迹
+  start_date: '1065'
+  highlight_event_id: guji-米芾-event-1
+  phases:
+  - key: brewing
+    name_zh: 少年临帖
+    labels:
+      zh:
+      - 少时临争坐位帖
+    start_date: '1065'
+    highlight_event_id: guji-米芾-event-1
+  decisions:
+  - date: '1065'
+    title_zh: 少时临颜真卿争坐位帖
+    rationale: 喜爱颜书天真罄露之处，以临本为习书之基
+  - date: '1075'
+    title_zh: 以直二十千购晋贤帖
+    rationale: 见王羲之来戏帖珍品欲归，即以其直取之
+- id: guji-米芾-endeavor-2
+  key: breakthrough
+  name_zh: 收藏名迹、鉴定真伪
+  labels:
+    zh:
+    - 鉴别晋唐法书
+    - 判伪作
+  start_date: '1075'
+  highlight_event_id: guji-米芾-event-2
+  phases:
+  - key: breakthrough
+    name_zh: 中年广收名迹
+    labels:
+      zh:
+      - 典衣取帖
+      - 辨钟绍京、智永之异
+    start_date: '1075'
+    highlight_event_id: guji-米芾-event-2
+  - key: climax
+    name_zh: 鉴藏生涯高峰
+    labels:
+      zh:
+      - 议易送梨帖
+      - 观晋贤十四帖
+    start_date: '1090'
+    highlight_event_id: guji-米芾-event-3
+  - key: closure
+    name_zh: 集撰《书史》
+    labels:
+      zh:
+      - 白首阅书
+      - 立鉴定指南
+    start_date: '1100'
+    highlight_event_id: guji-米芾-event-4
+  decisions:
+  - date: '1085'
+    title_zh: 典衣增直取回右军桓公破羌帖
+    rationale: 苏之纯家许见归，宗室仲爰力取，宁可典衣增直也不失名帖
+  - date: '1090-01-15'
+    title_zh: 以书画诸宝议易刘季孙王献之送梨帖
+    rationale: 以欧阳询真迹二帖、王维雪图六幅、砚山等易之，重其晋人真物
+  - date: '1100'
+    title_zh: 著《书史》
+    rationale: 平生目历区别无疑，集为指南识者、不防俗目
+events:
+- id: guji-米芾-event-birth
+  event_type: birth
+  date: '1051'
+  year_of: 1051
+  description: 米芾生于北宋
+- id: guji-米芾-event-death
+  event_type: death
+  date: '1107'
+  year_of: 1107
+  description: 米芾卒
+- id: guji-米芾-event-1
+  event_type: practice
+  date: '1065'
+  year_of: 1065
+  description: 少时临颜真卿《争坐位帖》一本，二十年后犹记其笔气
+  entities:
+  - 颜真卿争坐位帖
+- id: guji-米芾-event-2
+  event_type: acquisition
+  date: '1085'
+  year_of: 1085
+  description: 典衣增直自宗室仲爰处取回王羲之桓公破羌帖，而工装背剪损古跋尾，痛惜
+  entities:
+  - 王羲之桓公破羌帖
+- id: guji-米芾-event-3
+  event_type: negotiation
+  date: '1090'
+  year_of: 1090
+  description: 与刘季孙议以欧阳询真迹二帖、王维雪图六幅易王献之送梨帖，王诜借砚山不还致幸未成，刘氏后卒
+  entities:
+  - 王献之送梨帖
+  - 砚山
+- id: guji-米芾-event-4
+  event_type: writing
+  date: '1100'
+  year_of: 1100
+  description: 阅书白首后撰《书史》，集平生目历以区别法书真伪
+  entities:
+  - 书史
+- id: guji-米芾-event-5
+  event_type: appraisal
+  date: '1080'
+  year_of: 1080
+  description: 于李玮家同王涣之饮于园池，竟日阅书画，出晋贤十四帖，裂掷枣木大轴于池中保护古帖
+  entities:
+  - 晋贤十四帖
+  - 李玮
