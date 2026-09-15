@@ -1,0 +1,158 @@
+person:
+  qid: guji-罗岩
+  name_zh: 罗岩
+  names:
+    zh: 罗岩
+    en: Luo Yan
+  lifespan:
+    birth:
+      date: 1668
+      precision: approximate
+      is_circa: true
+      raw: 康熙年间生，卒年七十七，据丁卯元日诗"六十八"逆推约生于康熙初年
+    death:
+      date: 1745
+      precision: approximate
+      is_circa: true
+      raw: 卒年七十有七，逆推约在乾隆十年前后
+  birth_date: 约1668
+  death_date: 约1745
+  era: 清
+  reign_ref: 康熙、雍正、乾隆年间
+  archetype: 孝子诗人画家
+  dilemmas:
+  - 代父受戍，逆宪令抗长吏，以身任狱而置生死于度外
+  - 赦归途中恐被人首告，滞留金陵多年而思亲不得归
+  lesson: 行其心之所安，忠孝不由时运所能夺
+  summary_first_person: 我罗岩，字友山，一字品山，鄞之西成里人。少负豪气，能诗善画。父絅文公被里民冒名牵入截米之狱，我长跪代父就逮，慷慨对簿，五毒参并而意气自如，遂戍沈阳。塞外周览山川，遍交豪杰，雪中拔刀割彘肩而歌猛虎词。久戍思亲，滞金陵学指画竹。赦归时父犹健在，得以孺慕终养。卒年七十七。
+  source_urls:
+  - https://example.org/guji/xianchenghua
+endeavors:
+- id: guji-罗岩-endeavor-1
+  name_zh: 代父戍边与塞外生涯
+  labels:
+    zh:
+    - 孝行
+    - 戍边
+  phases:
+  - key: brewing
+    name_zh: 里变牵狱
+    labels:
+      zh:
+      - 西成桥截米案
+    start_date: 约1700
+    highlight_event_id: guji-罗岩-event-emergency
+  - key: breakthrough
+    name_zh: 慷慨对簿代父就逮
+    labels:
+      zh:
+      - 孝行显名
+    start_date: 约1700
+    highlight_event_id: guji-罗岩-event-punishment
+  - key: climax
+    name_zh: 戍沈阳遍交豪杰
+    labels:
+      zh:
+      - 塞外壮游
+    start_date: 约1701
+    highlight_event_id: guji-罗岩-event-frontier
+  - key: closure
+    name_zh: 得赦旋里父子团聚
+    labels:
+      zh:
+      - 归省养亲
+    start_date: 约1715
+    highlight_event_id: guji-罗岩-event-return
+  decisions:
+  - date: 约1700
+    title_zh: 长跪请以身代父就逮
+    rationale: 大人老矣，逆宪令而抗长吏罪且不测，儿请以身代
+  - date: 约1712
+    title_zh: 赦归半途闻有嫌者欲首告，滞留金陵
+    rationale: 恐罪复起，不忍连累老父
+- id: guji-罗岩-endeavor-2
+  name_zh: 诗画艺术
+  labels:
+    zh:
+    - 诗
+    - 画
+  phases:
+  - key: brewing
+    name_zh: 早年能诗善画
+    labels:
+      zh:
+      - 家学诗画
+    start_date: 约1690
+    highlight_event_id: guji-罗岩-event-writing
+  - key: breakthrough
+    name_zh: 金陵学指画之法
+    labels:
+      zh:
+      - 指画
+    start_date: 约1712
+    highlight_event_id: guji-罗岩-event-art
+  - key: climax
+    name_zh: 归里后诗画兼通六法
+    labels:
+      zh:
+      - 诗入宋人之室
+    start_date: 约1716
+    highlight_event_id: guji-罗岩-event-writing
+  - key: closure
+    name_zh: 现成话诗稿付诸梓
+    labels:
+      zh:
+      - 遗集刊行
+    start_date: 1933
+    highlight_event_id: guji-罗岩-event-writing
+  decisions:
+  - date: 约1712
+    title_zh: 从人习指画之法
+    rationale: 本善画竹，遇人授以指画，艺益大进
+events:
+- id: guji-罗岩-event-birth
+  date: 约1668
+  year_of: 1668
+  title_zh: 罗岩约生于康熙初年
+  kind: birth
+- id: guji-罗岩-event-emergency
+  date: 约1700
+  year_of: 1700
+  title_zh: 浙东大饥，运米官舟夜泊西成桥下，里民截留沈米，变起仓卒，官牒冒用罗氏父子之名
+  kind: incident
+  endeavor_id: guji-罗岩-endeavor-1
+- id: guji-罗岩-event-punishment
+  date: 约1700
+  year_of: 1700
+  title_zh: 代父就逮，慷慨对簿受五毒而意气自如，狱成戍沈阳，罗孝子之名闻天下
+  kind: achievement
+  endeavor_id: guji-罗岩-endeavor-1
+- id: guji-罗岩-event-frontier
+  date: 约1704
+  year_of: 1704
+  title_zh: 雪中戴笠跨白骡数百里至盖州，拔佩刀割彘肩与客同啖而歌猛虎词，声振长城
+  kind: anecdote
+  endeavor_id: guji-罗岩-endeavor-1
+- id: guji-罗岩-event-art
+  date: 约1712
+  year_of: 1712
+  title_zh: 滞留金陵期间遇人授以指画之法，画竹艺益大进
+  kind: achievement
+  endeavor_id: guji-罗岩-endeavor-2
+- id: guji-罗岩-event-return
+  date: 约1715
+  year_of: 1715
+  title_zh: 得赦旋里，父子团聚如初，怡怡色养
+  kind: milestone
+  endeavor_id: guji-罗岩-endeavor-1
+- id: guji-罗岩-event-writing
+  date: 约1716
+  year_of: 1716
+  title_zh: 归里后作诗尚达意，时入宋人之室，著现成话等集藏于家
+  kind: publication
+  endeavor_id: guji-罗岩-endeavor-2
+- id: guji-罗岩-event-death
+  date: 约1745
+  year_of: 1745
+  title_zh: 罗岩卒，年七十七
+  kind: death
