@@ -1,0 +1,136 @@
+person:
+  qid: guji-大仁秀
+  name_zh: 大仁秀
+  names:
+    zh: 大仁秀
+    en: Dae Inseol
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 史失其生年
+    death:
+      date: 0830
+      precision: year
+      is_circa: false
+      raw: 太和四年（旧唐书作五年）王薨
+  birth_date: ''
+  death_date: 0830
+  era: 唐代渤海国
+  reign_ref: 唐宪宗元和十三年（818年）即位，改元建兴，历穆宗、敬宗至文宗太和年间
+  archetype: 中兴开疆之君
+  dilemmas:
+  - 简王幼薨、国统旁落，以从父之身份权知国务，须在内忧中稳固君位
+  - 身处唐、契丹两强之间，既受唐册封称藩，又欲北略诸部扩展疆土
+  lesson: 承继衰乱之局，专事经营，南征北略而开大境宇，终使渤海复称海东盛国
+  summary_first_person: 我乃渤海宣王大仁秀，简王从父、高王弟野勃之四世孙。简王薨后我权知国务，元和十三年受唐册封为忽汗州都督渤海郡王。我南征新罗、北略诸部，开大境宇，改元建兴，数遣使朝唐通聘，使渤海之业中兴。
+  source_urls:
+  - 本地文本《渤海考·君考·宣王》
+endeavors:
+- id: guji-大仁秀-endeavor-1
+  name_zh: 即位受册与建国经营
+  phases:
+  - key: brewing
+    name_zh: 权知国务
+    labels:
+      zh:
+      - 权知国务
+      - 国统旁落
+    start_date: 0817
+  - key: breakthrough
+    name_zh: 受唐册封
+    labels:
+      zh:
+      - 册封
+      - 建兴改元
+    start_date: 0818-01
+    highlight_event_id: guji-大仁秀-event-investiture
+  - key: climax
+    name_zh: 开疆建兴
+    labels:
+      zh:
+      - 南征新罗
+      - 北略诸部
+    start_date: 0819
+    highlight_event_id: guji-大仁秀-event-expansion
+  - key: closure
+    name_zh: 薨逝
+    labels:
+      zh:
+      - 太和之薨
+    start_date: 0830
+  decisions:
+  - date: 0818-05
+    title_zh: 受唐册封为渤海国王并改元建兴
+    rationale: 借唐朝册封确立君位正统，兼修朝贡以固邦交
+- id: guji-大仁秀-endeavor-2
+  name_zh: 事唐朝贡
+  phases:
+  - key: brewing
+    name_zh: 告丧遣使
+    labels:
+      zh:
+      - 告丧于唐
+    start_date: 0818-01
+    highlight_event_id: guji-大仁秀-event-mourning-envoy
+  - key: breakthrough
+    name_zh: 岁岁朝唐
+    labels:
+      zh:
+      - 朝贡
+      - 金紫光禄大夫
+    start_date: 0820
+    highlight_event_id: guji-大仁秀-event-tribute-yuanhe
+  - key: climax
+    name_zh: 长庆宝历通聘
+    labels:
+      zh:
+      - 十六朝唐
+    start_date: 0822
+  - key: closure
+    name_zh: 太和末聘
+    labels:
+      zh:
+      - 太和四朝
+    start_date: 0827
+  decisions:
+  - date: 0820-12
+    title_zh: 岁内再遣使朝唐
+    rationale: 以频繁朝贡维系唐渤宗藩关系，得唐加官厚遇
+events:
+- id: guji-大仁秀-event-investiture
+  year_of: 818
+  date: 0818-05
+  name_zh: 唐册大仁秀为忽汗州都督渤海郡王
+  description: 元和十三年五月，唐册王银青光禄大夫检校秘书监忽汗州都督渤海国王
+  endeavor_ids:
+  - guji-大仁秀-endeavor-1
+- id: guji-大仁秀-event-mourning-envoy
+  year_of: 818
+  date: '0818-01-01'
+  name_zh: 遣使告丧于唐
+  description: 元和十三年正月乙巳，简王薨后，宣王权知国务，遣使告丧于唐
+  endeavor_ids:
+  - guji-大仁秀-endeavor-2
+- id: guji-大仁秀-event-expansion
+  year_of: 819
+  date: 0819
+  name_zh: 南征北略开大境宇
+  description: 王南征新罗、北略诸部，开大境宇，渤海疆域自此大盛
+  endeavor_ids:
+  - guji-大仁秀-endeavor-1
+- id: guji-大仁秀-event-tribute-yuanhe
+  year_of: 820
+  date: 0820-12
+  name_zh: 元和 stringify加官遣使
+  description: 十五年闰正月、十二月遣使朝唐，唐加王金紫光禄大夫检校司空；元和中凡十六朝唐
+  endeavor_ids:
+  - guji-大仁秀-endeavor-2
+- id: guji-大仁秀-event-death
+  year_of: 830
+  date: 0830
+  name_zh: 宣王薨
+  description: 唐文宗太和四年（旧唐书作五年），宣王大仁秀薨，其后孙大彝震嗣立
+  endeavor_ids:
+  - guji-大仁秀-endeavor-1
