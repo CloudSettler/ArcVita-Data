@@ -1,0 +1,95 @@
+person:
+  qid: guji-刘卲
+  name_zh: 刘卲
+  names:
+    zh: 刘卲
+    en: Liu Shao
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 三国时人，生年不详
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详，活动于曹魏黄初至正始年间
+  era: 三国·曹魏
+  reign_ref: 黄初中官散骑常侍，正始中赐爵关内侯
+  archetype: 思想家·人才学著作撰写者
+  dilemmas:
+  - 名字传写歧异：他本或作刘劭、刘邵，宋庠据魏志考订从卲（训高、美），与字孔才义符
+  - 偏材之性不可移转：虽教之以学、训之以恕，材成而失随之，学不入道、恕不周物
+  lesson: 知人诚智，则众材得其序而庶绩之业兴；观人察质，必先察其平淡而后求其聪明。
+  summary_first_person: 我刘卲，字孔才，邯郸人，曹魏之臣。黄初中官散骑常侍，正始中赐爵关内侯。我依圣训志序人物，撰《人物志》十二篇，首尾完具，论辨人才，以外见之符验内藏之器，分别流品，研析疑似，其学虽出于名家，其理则不乖于儒。
+  source_urls:
+  - https://www.example.com/sikuquanshu/renwuzhi
+endeavors:
+- id: guji-刘卲-endeavor-1
+  name_zh: 仕魏为官
+  phases:
+  - key: brewing
+    name_zh: 黄初受任
+    labels:
+      zh: 出仕曹魏
+    start_date: '221'
+    highlight_event_id: guji-刘卲-event-appoint
+  - key: climax
+    name_zh: 正始封爵
+    labels:
+      zh: 赐爵关内侯
+    start_date: '240'
+    highlight_event_id: guji-刘卲-event-enfeoff
+  - key: closure
+    name_zh: 身后上的定评
+    labels:
+      zh: 事迹具三国魏志
+    start_date: '249'
+  decisions:
+  - date: '221'
+    title_zh: 出仕曹魏，就任散骑常侍
+    rationale: 黄初年时应命入仕，官散骑常侍，侍从规谏，为立身之阶。
+- id: guji-刘卲-endeavor-2
+  name_zh: 撰著《人物志》
+  phases:
+  - key: brewing
+    name_zh: 效圣训而志序人物
+    labels:
+      zh: 立意著书
+    start_date: '220'
+  - key: breakthrough
+    name_zh: 论辨人才，分别流品
+    labels:
+      zh: 成书十二篇
+    start_date: '240'
+    highlight_event_id: guji-刘卲-event-compose
+  - key: closure
+    name_zh: 著录名家，流传后世
+    labels:
+      zh: 隋志以下皆著录
+    start_date: '250'
+  decisions:
+  - date: '240'
+    title_zh: 撰《人物志》十二篇以论辨人才
+    rationale: 知人诚智则众材得其序，故依圣训察人物之情性，以外见之符验内藏之器，分别流品，研析疑似，庶以补缀遗忘。
+events:
+- id: guji-刘卲-event-birth
+  title_zh: 刘卲生于邯郸
+  type: birth
+- id: guji-刘卲-event-appoint
+  date: '0221'
+  year_of: 145
+  title_zh: 黄初中官散骑常侍
+  type: career
+- id: guji-刘卲-event-enfeoff
+  date: '0240'
+  year_of: 160
+  title_zh: 正始中赐爵关内侯
+  type: honor
+- id: guji-刘卲-event-compose
+  date: '0240'
+  year_of: 160
+  title_zh: 撰《人物志》十二篇，序九徴体别等目
+  type: milestone
+- id: guji-刘卲-event-death
+  title_zh: 刘卲卒，事迹具三国魏志
+  type: death

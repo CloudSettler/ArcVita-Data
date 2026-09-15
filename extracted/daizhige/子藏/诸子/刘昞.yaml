@@ -1,0 +1,90 @@
+person:
+  qid: guji-刘昞
+  name_zh: 刘昞
+  names:
+    zh: 刘昞
+    en: Liu Bing
+  lifespan:
+    birth:
+      date: '0370'
+      precision: year
+      is_circa: true
+      raw: 约十六国前期
+    death:
+      date: '0440'
+      precision: year
+      is_circa: true
+      raw: 约北魏太武帝时
+  era: 十六国—北魏（凉州）
+  reign_ref: 李暠 / 沮渠牧犍 / 魏太武帝
+  archetype: 儒林注家
+  lesson: 历事三主而不辍其学，以注述贯通经义人物之理
+  summary_first_person: 我是敦煌人刘昞，字延明，历事凉魏三主，以儒林祭酒之官为《人物志》作注，文词简古，惟疏通大意而不涉训诂。
+endeavors:
+- id: guji-刘昞-endeavor-1
+  phases:
+  - key: brewing
+    name_zh: 授官西凉
+    labels:
+      zh: 儒林祭酒
+    start_date: '0400'
+    highlight_event_id: guji-刘昞-event-appointment
+  - key: breakthrough
+    name_zh: 注《人物志》
+    labels:
+      zh: 疏通大意
+    start_date: '0420'
+    highlight_event_id: guji-刘昞-event-annotation
+  - key: closure
+    name_zh: 入魏任职
+    labels:
+      zh: 从事中郎
+    start_date: 0439
+    highlight_event_id: guji-刘昞-event-wei-office
+  decisions:
+  - date: '0420'
+    title_zh: 决意为魏刘卲《人物志》作注
+    rationale: 不涉训诂而惟疏通大意，以文词简古承魏晋之遗风
+  - date: 0439
+    title_zh: 受北魏之命任乐平王从事中郎
+    rationale: 凉亡入魏，历事三主，以旧学佐新朝
+events:
+- id: guji-刘昞-event-birth
+  date: '0370'
+  year_of: 370
+  type: birth
+  title_zh: 刘昞约生于十六国前期
+  location: 敦煌
+- id: guji-刘昞-event-appointment
+  date: '0400'
+  year_of: 400
+  type: endeavor
+  title_zh: 李暠时授儒林祭酒之官
+  description: 旧本名上结衔题凉儒林祭酒，盖李暠时尝授是官
+  location: 西凉
+- id: guji-刘昞-event-annotation
+  date: '0420'
+  year_of: 420
+  type: endeavor
+  title_zh: 为《人物志》作注
+  description: 注不涉训诂，惟疏通大意而文词简古，犹有魏晋之遗
+  location: 凉州
+- id: guji-刘昞-event-secretariat
+  date: '0432'
+  year_of: 432
+  type: endeavor
+  title_zh: 沮渠牧犍以昞为秘书郎，専管注记
+  description: 十六国春秋称沮渠牧犍平酒泉以昞为秘书郎
+  location: 北凉
+- id: guji-刘昞-event-wei-office
+  date: 0439
+  year_of: 439
+  type: endeavor
+  title_zh: 魏太武帝以昞为乐平王从事中郎
+  description: 历事三主，凉平后入魏仍受任用
+  location: 北魏
+- id: guji-刘昞-event-death
+  date: '0440'
+  year_of: 440
+  type: death
+  title_zh: 刘昞约卒于北魏太武帝时
