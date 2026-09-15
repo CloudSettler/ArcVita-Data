@@ -1,0 +1,130 @@
+person:
+  qid: guji-袁崇焕
+  name_zh: 袁崇焕
+  names:
+    zh: 袁崇焕
+    en: Yuan Chonghuan
+  lifespan:
+    birth:
+      date: 1584
+      precision: year
+      is_circa: true
+      raw: 万历年间（据通行考证）
+    death:
+      date: 1630-09
+      precision: month
+      is_circa: false
+      raw: 崇祯三年八月，磔于市
+  birth_date: 1584
+  death_date: 1630-09
+  era: 明末
+  reign_ref: 明熹宗、明思宗（庄烈帝，崇祯）
+  archetype: 边关督师·忠而见疑的辽东统帅
+  dilemmas:
+  - 擅杀大将毛文龙以整肃军政，却授政敌以口实
+  - 率师勤王解京师之围，反遭魏忠贤余党构陷下狱
+  - 守辽方略未及竟功，而身先磔于西市，天下冤之
+  lesson: 忠而见疑、功高被谤，则边将之才终不能救危局
+  summary_first_person: 我以东莞一书生起于辽东，随孙承宗筑宁远重镇，数立边功；熹宗朝为魏忠贤所忌而罢。崇祯元年蒙起复，经略辽东、镇守山海关，二年杀皮岛大将毛文龙以肃军纪。及大清兵入龙井关逼京师，我率祖大寿疾驰勤王，不料忠贤余党高捷、史堡疏诬我擅杀大将与纳款内应，词连钱龙锡，帝遂执我下狱。崇祯三年八月，我竟遭磔刑，家籍，兄弟妻子流三千里。崇焕无罪，天下冤之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/明史/卷259
+endeavors:
+- id: guji-袁崇焕-endeavor-1
+  key: 辽东守御
+  name_zh: 监军辽东与经营宁远
+  phases:
+  - key: brewing
+    name_zh: 附承宗幕
+    labels:
+      zh:
+      - 监军
+      - 辽东
+    start_date: 1622
+    highlight_event_id: guji-袁崇焕-event-jianjun
+  - key: breakthrough
+    name_zh: 筑宁远重镇数立边功
+    labels:
+      zh:
+      - 宁远
+      - 筑城
+    start_date: 1626
+    highlight_event_id: guji-袁崇焕-event-ningyuan
+  - key: climax
+    name_zh: 起复经略辽东
+    labels:
+      zh:
+      - 督师
+      - 山海关
+    start_date: 1628
+    highlight_event_id: guji-袁崇焕-event-jinglue
+  - key: closure
+    name_zh: 构陷下狱与磔死
+    labels:
+      zh:
+      - 下狱
+      - 磔刑
+    start_date: 1629
+    highlight_event_id: guji-袁崇焕-event-death
+  decisions:
+  - date: 1629
+    title_zh: 杀皮岛大将毛文龙
+    rationale: 以金易辽阳、广宁二卫既有成约，又不受节制，遂以整肃军政断然诛之，然此举为政敌构陷埋下口实
+  - date: 1629
+    title_zh: 弃守御而率兵入卫京师
+    rationale: 大清兵分道入龙井关直逼京师，宁远之守不及中原，惟有疾驰勤王以卫社稷
+events:
+- id: guji-袁崇焕-event-birth
+  year_of: 1584
+  date: 1584
+  date_precision: year
+  title_zh: 袁崇焕生
+  summary: 广东东莞人，字元素，后以兵事才干见知于孙承宗
+  type: birth
+- id: guji-袁崇焕-event-jianjun
+  year_of: 1622
+  date: 1622
+  date_precision: year
+  title_zh: 以东莞袁崇焕元素为监军
+  summary: 熹宗时孙承宗督师辽东，用袁崇焕为监军，数立边功
+  type: endeavor
+  endeavor_id: guji-袁崇焕-endeavor-1
+- id: guji-袁崇焕-event-ningyuan
+  year_of: 1626
+  date: 1626
+  date_precision: year
+  title_zh: 与孙承宗筑宁远为重镇
+  summary: 先是袁应泰丧辽阳、王化贞丧广宁，赖孙承宗、袁崇焕筑宁远为重镇以扼敌
+  type: endeavor
+  endeavor_id: guji-袁崇焕-endeavor-1
+- id: guji-袁崇焕-event-jinglue
+  year_of: 1628
+  date: 1628
+  date_precision: year
+  title_zh: 崇祯元年起崇焕经略辽东，镇山海关
+  summary: 魏忠贤既败，庄烈帝起复袁崇焕，经略辽东，镇守山海关，天下望治
+  type: endeavor
+  endeavor_id: guji-袁崇焕-endeavor-1
+- id: guji-袁崇焕-event-sha-maowenlong
+  year_of: 1629
+  date: 1629
+  date_precision: year
+  title_zh: 杀辽东皮岛大将毛文龙
+  summary: 崇焕以文龙通敌有约、不受节制而杀之，忠贤党高捷、史堡遂借此疏诬其纳款为内应
+  type: endeavor
+  endeavor_id: guji-袁崇焕-endeavor-1
+- id: guji-袁崇焕-event-qinwang
+  year_of: 1629
+  date: 1629
+  date_precision: year
+  title_zh: 率祖大寿以兵勤王
+  summary: 大清兵分道入龙井关至京师，崇焕率将祖大寿疾驰入卫，而诬疏上闻，帝执龙锡、崇焕皆下狱，祖大寿恐，引兵遁去
+  type: endeavor
+  endeavor_id: guji-袁崇焕-endeavor-1
+- id: guji-袁崇焕-event-death
+  year_of: 1630
+  date: 1630-09
+  date_precision: month
+  title_zh: 八月，磔崇焕于市，籍其家
+  summary: 崇祯三年八月，磔袁崇焕，籍其家，兄弟妻子皆流三千里；崇焕无罪，天下冤之
+  type: death
+  endeavor_id: guji-袁崇焕-endeavor-1
