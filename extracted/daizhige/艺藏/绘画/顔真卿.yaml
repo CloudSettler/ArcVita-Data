@@ -1,0 +1,99 @@
+person:
+  qid: guji-颜真卿
+  name_zh: 颜真卿
+  names:
+    zh: 颜真卿
+    en: Yan Zhenqing
+  lifespan:
+    birth:
+      date: '709'
+      precision: year
+      is_circa: true
+      raw: 生于唐中宗景龙年间
+    death:
+      date: '785'
+      precision: year
+      is_circa: false
+      raw: 卒于唐德宗贞元初
+  birth_date: '709'
+  death_date: '785'
+  era: 唐代
+  reign_ref: 唐玄宗至唐德宗时期
+  archetype: 书法宗师·忠烈名臣
+  dilemmas:
+  - 身处唐季书风日趋姿媚之时，独守古籍雄厚之法，力挽颓俗
+  - 兼擅楷行草而欲承先秦科斗籀隶之遗意，复古与创新难两全
+  lesson: 含宏光大，以书载道，气象可以仪表衰俗
+  summary_first_person: 我乃琅邪临沂人颜真卿，字清臣，师古五世从孙，仕唐官至尚书右丞，封鲁郡公，赠太师。我善楷书行草，蔚然雄厚，独具先秦科斗籀隶之遗意，被后世推为书统之宗，与蔡邕、张芝、钟繇、王羲之诸贤并列于书法
+    thirteen 作者之列。
+  source_urls:
+  - https:// antiquarians/衍极卷上
+endeavors:
+- id: guji-颜真卿-endeavor-1
+  name_zh: 书法研习与师承
+  phases:
+  - key: brewing
+    name_zh: 受法于张旭一脉
+    labels:
+      zh:
+      - 师法传承
+      - 书法初成
+    start_date: '0735'
+    highlight_event_id: guji-颜真卿-event-1
+  decisions:
+  - date: '0745'
+    title: 拜师张旭，得褚遂良余论笔法
+    rationale: 陆彦远传张旭，旭受褚遂良余论，遂以授颜真卿，得书道正宗
+- id: guji-颜真卿-endeavor-2
+  name_zh: 独树一帜，重振书统
+  phases:
+  - key: breakthrough
+    name_zh: 蔚然雄厚，继往开来
+    labels:
+      zh:
+      - 书法大成
+      - 一变唐风
+    start_date: '0755'
+    highlight_event_id: guji-颜真卿-event-2
+  decisions:
+  - date: '0760'
+    title: 力矫姿媚时弊，守先秦古法
+    rationale: 晋唐以降书风日趋姿媚，至徐沈辈濒于扫地，鲁公独雅有先秦科斗籀隶之遗意
+  - date: 0780
+    title: 含宏光大，为书统之宗
+    rationale: 气象足以仪表衰俗，遂为后世楷模
+  closure:
+    date: 0785
+    note: 卒后追赠太师，书名与忠节并传
+events:
+- id: guji-颜真卿-event-birth
+  date: 0709
+  year_of: 709
+  type: birth
+  description: 颜真卿生于琅邪临沂，为颜师古五世从孙
+- id: guji-颜真卿-event-1
+  date: '0735'
+  year_of: 735
+  type: career
+  endeavor_id: guji-颜真卿-endeavor-1
+  phases_key: brewing
+  description: 得褚遂良余论于一脉笔法之传，师事张旭，承汉魏蔡邕以来书法正宗
+- id: guji-颜真卿-event-2
+  date: '0755'
+  year_of: 755
+  type: career
+  endeavor_id: guji-颜真卿-endeavor-2
+  phases_key: breakthrough
+  description: 书风蔚然雄厚，一变晋唐姿媚之习，独存先秦科斗籀隶遗意
+- id: guji-颜真卿-event-3
+  date: 0780
+  year_of: 780
+  type: career
+  endeavor_id: guji-颜真卿-endeavor-2
+  phases_key: climax
+  description: 被推为书统之宗，与王羲之、张旭等并列书法十三作者
+- id: guji-颜真卿-event-4
+  date: 0785
+  year_of: 785
+  type: death
+  description: 颜真卿卒，追赠太师，世称颜鲁公
