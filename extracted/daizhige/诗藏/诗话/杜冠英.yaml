@@ -1,0 +1,71 @@
+person:
+  qid: guji-杜冠英
+  name_zh: 杜冠英
+  names:
+    zh: 杜冠英
+  lifespan:
+    birth:
+      precision: 未知
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: 未知
+      is_circa: true
+      raw: 卒年不详
+  era: 清代
+  reign_ref: 光绪（中法之役时期）
+  archetype: 御侮守土的循吏良将
+  dilemmas:
+  - 敌舰压境，守土用炮与和战大计之间的抉择
+  - 立功之后朝廷赏罚不一，功臣未获通显，仕途困顿
+  lesson: 保家卫国之功或在身后，不为闻达所系，守土者自尽其责
+  summary_first_person: 我杜冠英在光绪朝中法之役时任宁波知府，与参将吴杰施发巨炮击中进犯招宝山之敌舰，时论并有歼其大将孤拔之说。朝廷旌功，我得画像紫光阁之荣；然事后未闻通显，功名止于守土一役而已。
+endeavors:
+- id: guji-杜冠英-endeavor-1
+  name_zh: 宁波任官与中法海防
+  phases:
+  - key: brewing
+    name_zh: 出仕宁波
+    labels:
+      zh:
+      - 中法之役前任宁波知府
+    highlight_event_id: guji-杜冠英-event-defense
+  - key: climax
+    name_zh: 击退法舰
+    labels:
+      zh:
+      - 中法之役
+    start_date: '1884-01-01'
+    highlight_event_id: guji-杜冠英-event-defense
+  - key: closure
+    name_zh: 事后无闻
+    labels:
+      zh:
+      - 得旨旌功却未通显
+    start_date: '1885-06-09'
+    highlight_event_id: guji-杜冠英-event-honor
+  decisions:
+  - date: '1884-01-01'
+    title_zh: 与参将吴杰施巨炮御敌
+    rationale: 法舰来犯招宝山，守土有责，遂并肩施炮击中敌舰
+events:
+- id: guji-杜冠英-event-defense
+  title: 中法之役击中犯境敌舰
+  date: '1884-06-01'
+  year_of: 1884
+  era_gregorian: 清光绪十年
+  location: 宁波招宝山
+  description: 宁波知府杜冠英与参将吴杰施巨炮击中来犯敌舰，并有歼其大将孤拔之说。
+  persons:
+  - guji-杜冠英
+  sources: 『宁波招宝山为浙海形胜地，中法之役，敌舰来犯，知府杜冠英、参将吴杰施巨炮击中之』
+- id: guji-杜冠英-event-honor
+  title: 奉旨旌功画像紫光阁
+  date: '1885-06-09'
+  year_of: 1885
+  era_gregorian: 清光绪十一年
+  location: 北京
+  description: 时朝命旌杜冠英、吴杰二臣之功，得画像紫光阁，然杜此后未闻通显。
+  persons:
+  - guji-杜冠英
+  sources: 『当是时，朝命旌二臣功，得画像紫光阁……杜亦未闻通显』

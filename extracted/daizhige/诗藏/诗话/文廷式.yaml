@@ -1,0 +1,100 @@
+person:
+  qid: guji-wentingshi
+  name_zh: 文廷式
+  names:
+    zh: 文廷式、文道希
+    en: Wen Tingshi
+  lifespan:
+    birth:
+      date: '1856'
+      precision: year
+      is_circa: true
+      raw: 生年不详（约咸丰年间）
+    death:
+      date: '1904'
+      precision: year
+      is_circa: true
+      raw: 卒年不详（约光绪末）
+  birth_date: '1856'
+  death_date: '1904'
+  era: 清末（光绪朝）
+  reign_ref: 光绪
+  archetype: 才名籍籍的科举俊彦
+  dilemmas:
+  - 才名极盛而廷试卷中偶有笔误，得失系于权臣一言
+  lesson: 盛名之下，一字之失亦足以倾危前程；幸有知音援引，方能化险为夷
+  summary_first_person: 我文廷式萍乡人，夙负盛名。壬辰科廷对时，误将"闾阎"书作"闾面"，被读卷大臣签出。幸常熟翁叔平协揆力言"闾面"二字确有来历，还称自己曾以闾面对檐牙作对，他人欲争为笔误亦被驳去，我竟得第二人及第。
+endeavors:
+- id: guji-wentingshi-endeavor-1
+  name_zh: 科举登第
+  labels:
+    zh:
+    - 科举
+    - 廷试
+    - 榜眼
+  phases:
+  - key: brewing
+    name_zh: 早负盛名
+    labels:
+      zh:
+      - 文名
+    start_date: '1880'
+    highlight_event_id: guji-wentingshi-event-fame
+  - key: breakthrough
+    name_zh: 壬辰廷对
+    labels:
+      zh:
+      - 廷试
+      - 笔误
+    start_date: '1892'
+    highlight_event_id: guji-wentingshi-event-exam
+  - key: climax
+    name_zh: 翁同龢回护
+    labels:
+      zh:
+      - 回护
+      - 及第
+    start_date: '1892'
+    highlight_event_id: guji-wentingshi-event-defense
+  - key: closure
+    name_zh: 榜眼及第
+    labels:
+      zh:
+      - 第二人及第
+    start_date: '1892'
+    highlight_event_id: guji-wentingshi-event-second
+  decisions:
+  - date: '1892'
+    title: 廷对中误书"闾阎"为"闾面"
+    rationale: 临文偶误， 无法自辩， 唯听凭读卷大臣与当道评断
+events:
+- id: guji-wentingshi-event-birth
+  event_type: birth
+  date: '1856'
+  year_of: '1856'
+  description: 文廷式约生于咸丰年间（生年史无明文， 系年为约数）
+- id: guji-wentingshi-event-fame
+  event_type: endeavor
+  date: '1880'
+  year_of: '1880'
+  description: 文廷式夙负盛名， 早为士林所重
+- id: guji-wentingshi-event-exam
+  event_type: endeavor
+  date: '1892'
+  year_of: '1892'
+  description: 壬辰科廷对， 文廷式误书"闾阎"为"闾面"， 经读卷大臣签出
+- id: guji-wentingshi-event-defense
+  event_type: endeavor
+  date: '1892'
+  year_of: '1892'
+  description: 翁同龢（翁叔平）力言"闾面"二字确有来历， 并称曾以闾面对檐牙， 力排"笔误"之争
+- id: guji-wentingshi-event-second
+  event_type: endeavor
+  date: '1892'
+  year_of: '1892'
+  description: 文廷式竟以第二人及第（榜眼）
+- id: guji-wentingshi-event-death
+  event_type: death
+  date: '1904'
+  year_of: '1904'
+  description: 文廷式约卒于光绪末年（卒年史无明文， 系年为约数）
