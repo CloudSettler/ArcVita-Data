@@ -1,0 +1,113 @@
+person:
+  qid: guji-郑思肖
+  names:
+    zh: 郑思肖
+    en: Zheng Sixiao
+  lifespan:
+    birth:
+      date: '1241'
+      precision: year
+      is_circa: true
+      raw: 约宋淳祐元年
+    death:
+      date: '1318'
+      precision: year
+      is_circa: true
+  birth_date: '1241'
+  death_date: '1318'
+  era: 宋末元初
+  reign_ref: 宋理宗至元仁宗延祐年间
+  archetype: 遗民志士·诗人画家
+  dilemmas:
+  - 宋亡之后是出仕新朝还是守节遗世
+  - 诗画寄怀与隐姓埋名之间的坚守
+  lesson: 坐卧必向南、画兰不画土，以寓故国之思，气节可贯金石
+  summary_first_person: 我是宋末遗民郑思肖，宋亡后隐居吴中，坐卧必向南，画兰不画土地，以示国土沦丧之痛，托诗画以寄忠愤。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/郑思肖
+endeavors:
+- id: guji-郑思肖-endeavor-1
+  key: brewing
+  name_zh: 太学生与宋末仕历
+  labels:
+    zh: 学生·应举
+  start_date: '1258'
+  highlight_event_id: guji-郑思肖-event-join-academy
+  decisions:
+  - date: '1258'
+    title_zh: 应太学试入学
+    rationale: 以儒业自励，置身临安学舍观望国事
+- id: guji-郑思肖-endeavor-2
+  key: breakthrough
+  name_zh: 宋亡守节隐吴
+  labels:
+    zh: 遗民·改名
+  start_date: '1279'
+  highlight_event_id: guji-郑思肖-event-song-fall
+  decisions:
+  - date: '1279'
+    title_zh: 宋亡后改字忆翁、号所南
+    rationale: 忆翁寓不忘故国，所南示坐卧必向南、不北面事元
+- id: guji-郑思肖-endeavor-3
+  key: climax
+  name_zh: 画兰著书寄愤
+  labels:
+    zh: 诗画·著述
+  start_date: '1306'
+  highlight_event_id: guji-郑思肖-event-orchid
+  decisions:
+  - date: '1306'
+    title_zh: 题《墨兰图》并自署"大宋不利世人"
+    rationale: 画兰不着地，谓"土为蕃人所夺"，以笔墨明节
+- id: guji-郑思肖-endeavor-4
+  key: closure
+  name_zh: 隐居著《心史》终老
+  labels:
+    zh: 著述·终老
+  start_date: '1310'
+  highlight_event_id: guji-郑思肖-event-death
+  decisions:
+  - date: '1310'
+    title_zh: 铁函封《心史》嘱后之知己
+    rationale: 自知身后书不遇于时，托铁函沉井以待后世
+events:
+- id: guji-郑思肖-event-birth
+  type: birth
+  date: '1241'
+  year_of: 1241
+  person_qid: guji-郑思肖
+  summary: 郑思肖生于福州连江，约宋淳祐元年。
+- id: guji-郑思肖-event-join-academy
+  type: endeavor_join
+  date: '1258'
+  year_of: 1258
+  person_qid: guji-郑思肖
+  endeavor_qid: guji-郑思肖-endeavor-1
+  summary: 郑思肖入太学，习举子业。
+- id: guji-郑思肖-event-song-fall
+  type: endeavor_breakthrough
+  date: '1279'
+  year_of: 1279
+  person_qid: guji-郑思肖
+  endeavor_qid: guji-郑思肖-endeavor-2
+  summary: 宋亡，郑思肖隐居吴中，改名忆翁、号所南，终身不仕元。
+- id: guji-郑思肖-event-orchid
+  type: achievement
+  date: '1306'
+  year_of: 1306
+  person_qid: guji-郑思肖
+  endeavor_qid: guji-郑思肖-endeavor-3
+  summary: 作《墨兰图》，画兰不画土，寓故国之思，为后世所重。
+- id: guji-郑思肖-event-hist
+  type: achievement
+  date: '1310'
+  year_of: 1310
+  person_qid: guji-郑思肖
+  endeavor_qid: guji-郑思肖-endeavor-4
+  summary: 著《心史》成，以铁函封之，后于明崇祯年间沉井中被发现，世称《铁函心史》。
+- id: guji-郑思肖-event-death
+  type: death
+  date: '1318'
+  year_of: 1318
+  person_qid: guji-郑思肖
+  summary: 郑思肖约卒于元延祐五年，隐居终老吴中。

@@ -1,0 +1,114 @@
+person:
+  qid: guji-杨慎
+  name_zh: 杨慎
+  names:
+    zh: 杨慎
+    en: Yang Shen
+  lifespan:
+    birth:
+      date: '1488'
+      precision: year
+      is_circa: true
+      raw: 约1488年
+    death:
+      date: '1559'
+      precision: year
+      is_circa: true
+  birth_date: '1488'
+  death_date: '1559'
+  era: 明
+  reign_ref: 明武宗、明世宗朝
+  archetype: 直谏流放的博学状元
+  dilemmas:
+  - 议大礼：坚守礼制立场触怒世宗，遭廷杖谪戍滇南
+  - 戍边数十年：身处贬所仍著述不辍，以学问自处
+  lesson: 面对强权坚持己见虽遭放逐，学问与著述可成就不朽
+  summary_first_person: 我是杨慎，明正德六年高中状元，因大礼议直谏触怒世宗，被廷杖后谪戍云南永昌卫三十余年，流放中博览群书，著述之富为明代之冠。
+  source_urls:
+  - 识小录·卷二·杨状元慎条目（徐树丕笔记）
+endeavors:
+- id: guji-杨慎-endeavor-1
+  name_zh: 科举与翰林生涯
+  phases:
+  - key: brewing
+    name_zh: 早年苦学
+    labels:
+      zh:
+      - 家学渊源
+      - 举业
+    start_date: '1500'
+    highlight_event_id: guji-杨慎-event-zhuangyuan
+  - key: climax
+    name_zh: 状元及第与翰林任职
+    labels:
+      zh:
+      - 状元
+      - 翰林修撰
+    start_date: '1511'
+    highlight_event_id: guji-杨慎-event-zhuangyuan
+  decisions:
+  - date: '1524'
+    title_zh: 两上议大礼疏力谏
+    rationale: 坚守继统继嗣礼制原则，宁获罪不改其志
+- id: guji-杨慎-endeavor-2
+  name_zh: 滇南流放与著述
+  phases:
+  - key: brewing
+    name_zh: 谪戍永昌
+    labels:
+      zh:
+      - 廷杖
+      - 充军
+    start_date: '1524'
+    highlight_event_id: guji-杨慎-event-liufang
+  - key: climax
+    name_zh: 滇中著述讲学
+    labels:
+      zh:
+      - 著书
+      - 考据
+    start_date: '1530'
+    highlight_event_id: guji-杨慎-event-zhushu
+  - key: closure
+    name_zh: 老死戍所
+    labels:
+      zh:
+      - 终老滇南
+    start_date: '1559'
+    highlight_event_id: guji-杨慎-event-death
+  decisions:
+  - date: '1524'
+    title_zh: 受杖后赴滇戍边
+    rationale: 抗旨获罪，被谪云南永昌卫，遂以戍籍之身居滇
+events:
+- id: guji-杨慎-event-birth
+  date: '1488'
+  year_of: '1488'
+  title_zh: 出生
+  type: birth
+  description: 杨慎生于四川新都书香宦门之家（生年据通行传记推定）
+- id: guji-杨慎-event-zhuangyuan
+  date: '1511'
+  year_of: '1511'
+  title_zh: 正德六年状元及第
+  type: career
+  description: 二十四岁殿试第一，授翰林院修撰，时称“杨状元慎”
+- id: guji-杨慎-event-liufang
+  date: '1524'
+  year_of: '1524'
+  title_zh: 大礼议直谏遭廷杖谪戍
+  type: incident
+  description: 因“杨状元慎”条所涉大礼议事件，两上疏抗议，被廷杖后谪戍云南永昌卫
+- id: guji-杨慎-event-zhushu
+  date: '1530'
+  is_circa: true
+  year_of: '1530'
+  title_zh: 流放中潜心著述
+  type: career
+  description: 戍滇期间遍览群书，著述宏富，涉及经史、诗文、考据诸领域，为明代著述最丰者之一
+- id: guji-杨慎-event-death
+  date: '1559'
+  year_of: '1559'
+  title_zh: 卒于戍所
+  type: death
+  description: 七十二岁卒于云南戍地（卒年据通行传记推定）
