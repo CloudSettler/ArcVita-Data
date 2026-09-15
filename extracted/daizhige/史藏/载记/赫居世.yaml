@@ -1,0 +1,112 @@
+person:
+  qid: guji-赫居世
+  name_zh: 赫居世
+  names:
+    zh: 赫居世
+    en: Hyeokgeose
+  lifespan:
+    birth:
+      date: -57
+      precision: year
+      is_circa: true
+      raw: 汉宣帝五凤元年
+    death:
+      date: 4
+      precision: year
+      is_circa: true
+      raw: 在位六十一年后薨
+  birth_date: -57
+  death_date: 4
+  era: 上古朝鲜三国时期（新罗始祖）
+  reign_ref: 汉宣帝五凤元年立，在位六十一年
+  archetype: 开国之君
+  dilemmas:
+  - 出身神异（萝井大卵中所生），传奇起源与史实难以分辨，权近讥其「怪而不常」
+  - 建国之初六部分立、乐浪东沃沮环伺，须以德服人而非以力扩张
+  lesson: 以德立国、劝督农桑、不伐邻丧，虽出身传说而致二圣之名
+  summary_first_person: 我生于萝井林间大卵之中，为六部村人所养，因卵形似瓠而姓朴。他们共立我为君，号居西干，都徐罗伐。我立阏英为妃，人谓二圣。我巡抚六部，劝督农桑，不伐马韩之丧；乐浪来侵，见我民夜户不扃，服其有道而退；东沃沮亦称我为圣人。遣使献马，卞韩以国来降。在位六十一年而薨，太子南解继立。
+  source_urls:
+  - 钦定四库全书·朝鲜史略卷一
+endeavors:
+- id: guji-赫居世-endeavor-1
+  key: brewing
+  name_zh: 神异降生与六村推戴
+  labels:
+    zh:
+    - 萝井大卵
+    - 六部共立
+  start_date: -57
+  highlight_event_id: guji-赫居世-event-build-state
+  decisions:
+  - date: -57
+    title_zh: 以朴为姓，建国号徐罗伐
+    rationale: 所剖卵似瓠，俗以瓠为朴，故以朴为姓；都辰韩地而国号徐罗伐
+- id: guji-赫居世-endeavor-2
+  key: breakthrough
+  name_zh: 立阏英为妃，二圣共治
+  labels:
+    zh:
+    - 阏英井
+    - 二圣
+  start_date: -57
+  highlight_event_id: guji-赫居世-event-marry
+  decisions:
+  - date: -57
+    title_zh: 立阏英为妃
+    rationale: 龙见于阏英井，右脇生女，以井名之，取其神异以固国本
+- id: guji-赫居世-endeavor-3
+  key: climax
+  name_zh: 巡抚劝农，以德服邻
+  labels:
+    zh:
+    - 劝督农桑
+    - 夜户不扃
+  start_date: -50
+  highlight_event_id: guji-赫居世-event-virtue
+  decisions:
+  - date: -50
+    title_zh: 不伐马韩之丧
+    rationale: 使民敬让，以礼义化俗，令邻国畏怀
+- id: guji-赫居世-endeavor-4
+  key: closure
+  name_zh: 卞韩来降，传位南解
+  labels:
+    zh:
+    - 卞韩以国来降
+    - 传位
+  start_date: -10
+  highlight_event_id: guji-赫居世-event-death
+events:
+- id: guji-赫居世-event-birth
+  date: -57
+  year_of: -57
+  title_zh: 赫居世生于萝井大卵
+  detail: 高墟村长苏伐公得大卵于萝井林间，剖之有婴儿，养之岐嶷夙成，六部异之
+  type: birth
+- id: guji-赫居世-event-build-state
+  date: -57
+  year_of: -57
+  title_zh: 六部共立赫居世为君，建国徐罗伐
+  detail: 朝鲜遗民居东海滨分为六村，共立为君，号居西干，都辰韩地，国号徐罗伐，以朴为姓
+  type: endeavor
+  endeavor_id: guji-赫居世-endeavor-1
+- id: guji-赫居世-event-marry
+  date: -57
+  year_of: -57
+  title_zh: 立阏英为妃
+  detail: 龙见于阏英井，右脇生女，老妪养之以井名之；妃能内辅，人谓之二圣
+  type: endeavor
+  endeavor_id: guji-赫居世-endeavor-2
+- id: guji-赫居世-event-virtue
+  date: -50
+  year_of: -50
+  title_zh: 巡抚六部劝督农桑，乐浪退兵
+  detail: 不伐马韩之丧，使民敬让；乐浪来侵，见夜户不扃，服其有道引兵退；东沃沮称为圣人
+  type: endeavor
+  endeavor_id: guji-赫居世-endeavor-3
+- id: guji-赫居世-event-death
+  date: 4
+  year_of: 4
+  title_zh: 赫居世薨，太子南解立
+  detail: 在位六十一年，太子南解立，号次次雄
+  type: death

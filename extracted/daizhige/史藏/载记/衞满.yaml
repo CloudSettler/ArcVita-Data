@@ -1,0 +1,139 @@
+person:
+  qid: guji-衞满
+  name_zh: 衞满
+  names:
+    zh: 衞满
+    en: Wi Man (Wei Man)
+  lifespan:
+    birth:
+      date: '-0245'
+      precision: year
+      is_circa: true
+      raw: 燕人，生年无考
+    death:
+      date: '-0165'
+      precision: year
+      is_circa: true
+      raw: 卒年无考（其孙右渠于汉武帝时被灭）
+  birth_date: '-0245'
+  death_date: '-0165'
+  era: 汉高祖至惠帝时期（战国燕至汉初）
+  reign_ref: 王俭城（今平壤）朝鲜王
+  archetype: 亡命立国者
+  dilemmas:
+  - 亡命之身与称王之志
+  - 承旧国之名与篡逐旧主之实
+  lesson: 以流亡之身诱据故地而自立，可成一时之业，然孙辈不奉正朔终致覆灭。
+  summary_first_person: 我是燕人衞满，汉高祖时因燕王卢绾作乱，亡命渡浿水（今大同江），东入箕子朝鲜。我诱逼箕准，使之浮海南奔，遂据王俭城（今平壤），仍号朝鲜，传国至孙右渠。右渠不奉汉诏，武帝遣师灭之，分其地为四郡。
+  source_urls:
+  - https://ctext.org/
+endeavors:
+- id: guji-衞满-endeavor-1
+  name_zh: 亡命东渡
+  phases:
+  - key: brewing
+    name_zh: 燕乱亡命
+    labels:
+      zh:
+      - 燕人
+      - 卢绾之乱
+    start_date: -0196
+    highlight_event_id: guji-衞满-event-cross-river
+  - key: breakthrough
+    name_zh: 渡浿水入朝鲜
+    labels:
+      zh:
+      - 渡浿水
+      - 亡命
+    start_date: -0195
+    highlight_event_id: guji-衞满-event-cross-river
+  - key: climax
+    name_zh: 据王俭城称王
+    labels:
+      zh:
+      - 诱逐箕准
+      - 号朝鲜
+    start_date: -0194
+    highlight_event_id: guji-衞满-event-seize-throne
+  - key: closure
+    name_zh: 传国至右渠而灭
+    labels:
+      zh:
+      - 右渠不奉诏
+      - 汉灭朝鲜
+    start_date: -0109
+    highlight_event_id: guji-衞满-event-fall
+  decisions:
+  - date: -0195
+    title_zh: 亡命渡浿水东奔朝鲜
+    rationale: 燕王卢绾作乱，国内不可容身，遂渡浿水避祸东土。
+  - date: -0194
+    title_zh: 诱逼箕准，据王俭城而王之
+    rationale: 旧主箕氏子孙骄虐、国势已弱，遂诱逐箕准，据其都城，仍号朝鲜。
+- id: guji-衞满-endeavor-2
+  name_zh: 建立卫氏朝鲜政权
+  phases:
+  - key: brewing
+    name_zh: 立足王俭城
+    labels:
+      zh:
+      - 据王俭城
+      - 统故地之民
+    start_date: -0194
+    highlight_event_id: guji-衞满-event-seize-throne
+  - key: climax
+    name_zh: 传国数世
+    labels:
+      zh:
+      - 传孙右渠
+    start_date: -0180
+    highlight_event_id: guji-衞满-event-succession
+  - key: closure
+    name_zh: 汉武帝灭其国
+    labels:
+      zh:
+      - 四郡
+    start_date: -0109
+    highlight_event_id: guji-衞满-event-fall
+  decisions:
+  - date: -0194
+    title_zh: 仍号朝鲜不止国名
+    rationale: 承箕氏旧号以安故民，收朝鲜之众为己用。
+events:
+- id: guji-衞满-event-birth
+  date: '-0245'
+  year_of: -245
+  name_zh: 卫满生于燕地
+  type: birth
+- id: guji-衞满-event-cross-river
+  date: -0195
+  year_of: -195
+  name_zh: 因卢绾之乱亡命渡浿水
+  type: political_event
+  description: 汉高祖时燕王卢绾乱，卫满亡命东渡浿水（今大同江），入箕子朝鲜之境。
+- id: guji-衞满-event-seize-throne
+  date: -0194
+  year_of: -194
+  name_zh: 诱逼箕准，据王俭城，仍号朝鲜
+  type: political_transition
+  description: 卫满诱逐箕准，箕准浮海南奔韩地金马郡，卫满据王俭城（今平壤）自立为王，仍号朝鲜。
+- id: guji-衞满-event-succession
+  date: -0180
+  year_of: -180
+  name_zh: 传国至孙右渠
+  type: succession
+  description: 卫满卒，国传于其孙右渠。
+- id: guji-衞满-event-fall
+  date: -0108
+  year_of: -108
+  name_zh: 右渠不奉汉诏，武帝遣公孙遂灭之，分置四郡
+  type: state_extinction
+  description: 卫氏朝鲜传至孙右渠，不奉汉诏，汉武帝遣军灭之，分其地为乐浪、临屯、玄菟、真蕃四郡。
+- id: guji-衞满-event-death
+  date: '-0165'
+  precision: year
+  is_circa: true
+  year_of: -165
+  name_zh: 卫满卒
+  type: death
+  description: 史无明文卒年，约卒于汉初，传位于子孙。
