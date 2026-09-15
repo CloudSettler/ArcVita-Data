@@ -1,0 +1,148 @@
+person:
+  qid: guji-孙中山
+  name_zh: 孙中山
+  names:
+    zh: 孙中山
+    en: Sun Yat-sen
+  lifespan:
+    birth:
+      date: 1866-11-12
+      precision: day
+      is_circa: false
+      raw: 同治五年十月初六
+    death:
+      date: 1925-03-12
+      precision: day
+      is_circa: false
+      raw: 民国十四年三月十二日
+  birth_date: 1866-11-12
+  death_date: 1925-03-12
+  era: 晚清至民国初年
+  reign_ref: 光绪、宣统、民国肇建
+  archetype: 革命家·共和建国者
+  dilemmas:
+  - 推翻帝制之急务与培养民力之缓图难以两全
+  - 求列强承认民国与抵御外患瓜分之间的两难
+  lesson: 身可危而志不可夺，聚四万万人为一体方能巩固共和
+  summary_first_person: 我以革命为生平志业，倡三民主义，倾覆满清，缔造民国；国人记我首次演说社会主义于中华，我亦乐见同志如陈国权辈以国民外交固共和之基。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/孫中山
+endeavors:
+- id: guji-孙中山-endeavor-1
+  name_zh: 国民革命与创建民国
+  labels:
+    zh:
+    - 革命
+    - 建国
+  phases:
+  - key: brewing
+    name_zh: 聚志结社
+    labels:
+      zh:
+      - 兴中会
+    start_date: 1894-11-24
+    highlight_event_id: guji-孙中山-event-xingzhonghui
+  - key: breakthrough
+    name_zh: 同盟并举与武昌起义
+    labels:
+      zh:
+      - 同盟会
+      - 辛亥革命
+    start_date: 1911-10-10
+    highlight_event_id: guji-孙中山-event-wuchang
+  - key: climax
+    name_zh: 就任临时大总统
+    labels:
+      zh:
+      - 民国肇建
+    start_date: 1912-01-01
+    highlight_event_id: guji-孙中山-event-zongtong
+  - key: closure
+    name_zh: 抱病北上与赍志以殁
+    labels:
+      zh:
+      - 北上
+      - 逝世
+    start_date: 1924-11-01
+    highlight_event_id: guji-孙中山-event-death
+  decisions:
+  - date: 1905-08-20
+    title_zh: 合并兴中会等团体组建中国同盟会
+    rationale: 革命须有统一之主义与组织，方能并力推翻满清
+  - date: 1912-04-01
+    title_zh: 让位袁世凯以促成清帝退位与南北统一
+    rationale: 共和大局已定，避免内争，倾覆帝制为第一义
+- id: guji-孙中山-endeavor-2
+  name_zh: 社会主义与民生主义之宣讲
+  labels:
+    zh:
+    - 三民主义
+    - 民生主义
+  phases:
+  - key: brewing
+    name_zh: 主义酝酿
+    labels:
+      zh:
+      - 游历考察
+    start_date: 1896-10-01
+  - key: breakthrough
+    name_zh: 首次公开演说社会主义
+    labels:
+      zh:
+      - 演说社会主义
+    start_date: 1906-12-03
+    highlight_event_id: guji-孙中山-event-shehuizhuyi
+  - key: climax
+    name_zh: 演说刊行传播
+    labels:
+      zh:
+      - 印行万册
+    start_date: 1912-10-01
+    highlight_event_id: guji-孙中山-event-yinhang
+  decisions:
+  - date: 1906-12-03
+    title_zh: 公开演说社会主义，阐明民生主义
+    rationale: 我国历史上第一次之举，欲使国人知平均地权、节制资本之要
+events:
+- id: guji-孙中山-event-birth
+  date: 1866-11-12
+  year_of: 1866
+  precision: day
+  title_zh: 孙中山生于广东香山
+- id: guji-孙中山-event-xingzhonghui
+  date: 1894-11-24
+  year_of: 1894
+  precision: day
+  title_zh: 在檀香山创立兴中会
+  endeavor_id: guji-孙中山-endeavor-1
+- id: guji-孙中山-event-shehuizhuyi
+  date: 1906-12-03
+  year_of: 1906
+  precision: day
+  title_zh: 首次公开演说社会主义
+  summary: 时人记为我国历史上第一次演说社会主义之举，后陈国权等集资印成万册，遍赠中外同人
+  endeavor_id: guji-孙中山-endeavor-2
+- id: guji-孙中山-event-wuchang
+  date: 1911-10-10
+  year_of: 1911
+  precision: day
+  title_zh: 武昌起义爆发，革命军光复诸省
+  endeavor_id: guji-孙中山-endeavor-1
+- id: guji-孙中山-event-zongtong
+  date: 1912-01-01
+  year_of: 1912
+  precision: day
+  title_zh: 在南京就任中华民国临时大总统
+  endeavor_id: guji-孙中山-endeavor-1
+- id: guji-孙中山-event-yinhang
+  date: 1912-10-01
+  year_of: 1912
+  precision: month
+  title_zh: 演说社会主义经同志集资印行万册遍赠中外
+  endeavor_id: guji-孙中山-endeavor-2
+- id: guji-孙中山-event-death
+  date: 1925-03-12
+  year_of: 1925
+  precision: day
+  title_zh: 孙中山病逝于北京
+  endeavor_id: guji-孙中山-endeavor-1
