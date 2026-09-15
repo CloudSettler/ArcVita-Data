@@ -1,0 +1,140 @@
+person:
+  qid: guji-和珅
+  name_zh: 和珅
+  names:
+    zh: 和珅
+    en: Hešen
+  lifespan:
+    birth:
+      date: '1750'
+      precision: year
+      is_circa: true
+      raw: 生于乾隆年间，卒时年未六十
+    death:
+      date: '1799-02-22'
+      precision: day
+      is_circa: false
+      raw: 嘉庆四年正月十八日赐自裁
+  birth_date: '1750'
+  death_date: '1799-02-22'
+  era: 清代乾隆、嘉庆年间
+  reign_ref: 乾隆帝、嘉庆帝
+  archetype: 权臣贪官
+  dilemmas:
+  - 位极人臣与贪纵营私
+  - 恩宠正隆与新君清算
+  - 富可敌国与法网难逃
+  lesson: 负国营私、聚敛无度者，纵然权倾一时，终难免身死籍没、为后世戒。
+  summary_first_person: 我和珅性警敏，能强记，以舆前举对《论语朱注》得高宗赏识，不数年跻身大僚，官至总理大臣。当国二十余年，营私聚敛，金银玉器田产号称亿万。嘉庆四年正月，纯庙升遐方数日，御史疏发其罪，我奉旨拿问，旋赐自裁于狱中，廿载枉劳神，百年原是梦。
+  source_urls:
+  - 查抄和珅家产清单（清·佚名）
+endeavors:
+- id: guji-和珅-endeavor-1
+  name_zh: 仕途崛起与当国
+  phases:
+  - key: brewing
+    name_zh: 初官拜唐阿
+    labels:
+      zh: 仪仗勤谨
+    start_date: '1770'
+    highlight_event_id: guji-和珅-event-sashawei
+  - key: breakthrough
+    name_zh: 擢侍卫涉大僚
+    labels:
+      zh: 御前得幸
+    start_date: '1772'
+    highlight_event_id: guji-和珅-event-sashawei
+  - key: climax
+    name_zh: 官至总理大臣
+    labels:
+      zh: 权倾朝野
+    start_date: '1790'
+    highlight_event_id: guji-和珅-event-climax
+  - key: closure
+    name_zh: 嘉庆清算赐死
+    labels:
+      zh: 身败名裂
+    start_date: '1799-02-05'
+    highlight_event_id: guji-和珅-event-arrest
+  decisions:
+  - date: '1772'
+    title_zh: 舆左举对《论语朱注》下文
+    rationale: 高宗驾出，御前大臣无以应对，我提灯舆左谨举下文，遂蒙擢用。
+  - date: '1790'
+    title_zh: 延吴省兰诸公于家讲论今古
+    rationale: 既贵之后延请名士讲论，诗文请彭元瑞、纪昀捉刀润色，以固文望。
+- id: guji-和珅-endeavor-2
+  name_zh: 聚敛家业与查抄
+  phases:
+  - key: brewing
+    name_zh: 当国营私纳贿
+    labels:
+      zh: 潜通信息
+    start_date: '1775'
+    highlight_event_id: guji-和珅-event-wealth
+  - key: climax
+    name_zh: 家产富可敌国
+    labels:
+      zh: 金银山积
+    start_date: '1795'
+    highlight_event_id: guji-和珅-event-wealth
+  - key: closure
+    name_zh: 籍没查抄
+    labels:
+      zh: 抄没充公
+    start_date: '1799-02-12'
+    highlight_event_id: guji-和珅-event-arrest
+  decisions:
+  - date: '1799-02-12'
+    title_zh: 大罪二十宣示中外
+    rationale: 籍没家产，更多人臣不应有之物，直隶总督请依大逆律凌迟，帝以谅暗不忍弃市，改赐自裁。
+- id: guji-和珅-endeavor-3
+  name_zh: 狱中绝命
+  phases:
+  - key: closure
+    name_zh: 元夕狱中赋五律
+    labels:
+      zh: 白练自了
+    start_date: '1799-02-15'
+    highlight_event_id: guji-和珅-event-death
+  decisions:
+  - date: '1799-02-22'
+    title_zh: 引帛自裁
+    rationale: 上以时当谅暗，不忍使大臣弃市，乃令自裁；宠妾长二姑赋七律挽之并自悼。
+events:
+- id: guji-和珅-event-birth
+  date: '1750'
+  year_of: 1750
+  type: birth
+  title_zh: 和珅生
+  description_zh: 和珅生于乾隆年间（生年据卒时年未六十推约）。
+- id: guji-和珅-event-sashawei
+  date: '1772'
+  year_of: 1772
+  type: endeavor
+  title_zh: 舆前提灯举对，擢侍卫
+  description_zh: 高宗驾出，御中默诵《论语朱注》偶不属，垂问无以应，和珅提灯舆左谨举下文以对，即日擢侍卫，不数年涉大僚。
+- id: guji-和珅-event-wealth
+  date: '1795'
+  year_of: 1795
+  type: endeavor
+  title_zh: 聚敛家产富可敌国
+  description_zh: 当国二十余年，营私纳贿，籍没时计正屋七百三十间、田地八千顷、金银库约银五千四百余万两、玉器作价七百万两、古玩作价八百万两，夹墙藏赤金、地窖埋银，家产号称亿万。
+- id: guji-和珅-event-climax
+  date: '1799-02-08'
+  year_of: 1799
+  type: endeavor
+  title_zh: 纯庙升遐时方为总理大臣
+  description_zh: 嘉庆四年正月初四，乾隆帝驾崩，和珅方为总理大臣，意得甚；次日御史广兴疏发其罪。
+- id: guji-和珅-event-arrest
+  date: '1799-02-12'
+  year_of: 1799
+  type: endeavor
+  title_zh: 奉旨拿问下刑部
+  description_zh: 正月初八奉旨拿问，下刑部，并下各直省督抚议罪；籍其家，宣示大罪二十，大学士九卿公拟如胡季堂凌迟之议。
+- id: guji-和珅-event-death
+  date: '1799-02-22'
+  year_of: 1799
+  type: death
+  title_zh: 狱中赐自裁
+  description_zh: 嘉庆帝以时当谅暗，不忍使大臣弃市，令和珅自裁；死时年未六十，宠妾长二姑引帛时赋七律挽之，和珅亦有元夕狱中五律传世。
