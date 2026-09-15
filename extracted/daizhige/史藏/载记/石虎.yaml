@@ -1,0 +1,162 @@
+person:
+  qid: guji-石虎
+  name_zh: 石虎
+  names:
+    zh: 石虎
+    en: Shi Hu
+  lifespan:
+    birth:
+      date: 0295
+      precision: year
+      is_circa: true
+      raw: 生年史无明文，约生于三世纪末
+    death:
+      date: 0349
+      precision: year
+      is_circa: true
+      raw: 本传未载，史载卒于349年
+  birth_date: 0295
+  death_date: 0349
+  era: 十六国·后赵
+  reign_ref: 石勒麾下征伐大将，后为后赵主（本卷所记为其为将时期）
+  archetype: 骁悍勇战的宗室大将，攻城略地、坑杀降卒的枭雄武人
+  dilemmas:
+  - 屡为石勒力战克敌，权势渐盛，与石氏宗族荣辱一系，果于杀伐而无字面上的抉择困局
+  lesson: 兵锋虽锐，恃力坑戮者终不得人心，胜局亦埋祸根
+  summary_first_person: 我石虎将步骑数万自皋关入洛；先于洛西大破刘曜军中山王岳，围石梁断其粮道；高候之战虽为曜所破，至洛西终擒刘曜。其后奉命进击关中，义渠破胤、陷上邽，执太子熙及王公以下三千余人，坑屠各五千余人于洛阳，前赵自此而灭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/十六國春秋/卷07
+  - https://zh.wikisource.org/wiki/十六國春秋/卷08
+endeavors:
+- id: guji-石虎-endeavor-1
+  name_zh: 洛阳之役——伐刘曜、擒曜于洛西
+  phases:
+  - key: brewing
+    name_zh: 奉命西讨
+    labels:
+      zh:
+      - 受命
+      - 出皋关
+    start_date: 0328
+    highlight_event_id: guji-石虎-event-luoyang-entry
+  - key: breakthrough
+    name_zh: 洛西败岳
+    labels:
+      zh:
+      - 洛西之战
+      - 围石梁
+    start_date: 0328
+    highlight_event_id: guji-石虎-event-luoxi
+  - key: climax
+    name_zh: 高候挫衄与洛西大捷
+    labels:
+      zh:
+      - 高候之败
+      - 擒刘曜
+    start_date: 0328-08
+    highlight_event_id: guji-石虎-event-luoxi-final
+  - key: closure
+    name_zh: 破军擒曜
+    labels:
+      zh:
+      - 班师
+      - 卫送襄国
+    start_date: 0329
+  decisions:
+  - date: 0328
+    title_zh: 率步骑四万自皋关入洛，围刘岳于金墉
+    rationale: 石勒遣之赴援石生，解洛阳之围
+  - date: 0328-12
+    title_zh: 与石勒合军，入洛阳城大破曜军
+    rationale: 曜恃胜不抚士卒、饮酒致败，虎与堪、聪分击其前锋中军，一举擒之
+- id: guji-石虎-endeavor-2
+  name_zh: 灭前赵余绪——义渠、上邽之役
+  phases:
+  - key: brewing
+    name_zh: 出兵援长安
+    labels:
+      zh:
+      - 援石生
+      - 拒胤
+    start_date: 0329-08
+    highlight_event_id: guji-石虎-event-yiqu
+  - key: breakthrough
+    name_zh: 义渠大破胤军
+    labels:
+      zh:
+      - 义渠之战
+    start_date: 0329-09
+    highlight_event_id: guji-石虎-event-yiqu
+  - key: climax
+    name_zh: 攻陷上邽
+    labels:
+      zh:
+      - 执太子熙
+      - 坑王公
+    start_date: 0329-09
+    highlight_event_id: guji-石虎-event-shanggui
+  - key: closure
+    name_zh: 徙民襄国，前赵亡
+    labels:
+      zh:
+      - 迁徙大族
+    start_date: 0329
+  decisions:
+  - date: 0329-09
+    title_zh: 乘胜追击，攻围上邽城
+    rationale: 胤败奔上邽，穷追以绝前赵社稷
+events:
+- id: guji-石虎-event-birth
+  date: 0295
+  year_of: 295
+  type: birth
+  name_zh: 石虎约生于三世纪之末
+  detail_zh: 史无明文，生年不详
+- id: guji-石虎-event-luoyang-entry
+  date: 0328
+  year_of: 328
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-1
+  name_zh: 石虎率步骑四万自皋关入洛救石生
+  detail_zh: 勒遣虎率步骑四万入自皋关，岳陈兵以待，战于洛西
+- id: guji-石虎-event-luoxi
+  date: 0328
+  year_of: 328
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-1
+  name_zh: 洛西破中山王岳，围困金墉石梁
+  detail_zh: 岳师败绩，身中流矢退保石梁；虎作堑栅列围，遏绝内外，岳众饥甚杀马以食；呼延谟为虎所杀
+- id: guji-石虎-event-gaohou
+  date: 0328-08
+  year_of: 328
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-1
+  name_zh: 高候之战为刘曜所破，退保朝歌
+  detail_zh: 曜追及于高候，大战破之，斩将军石瞻，枕尸百余里，虎奔朝歌
+- id: guji-石虎-event-luoxi-final
+  date: 0328-12
+  year_of: 328
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-1
+  name_zh: 洛西决战，虎自城北击曜中军，曜被执
+  detail_zh: 勒帅步骑四万入洛阳城，虎引步骑三万自城北而西攻曜中军，石堪等自城西击其前锋，曜军大溃，为堪所执
+- id: guji-石虎-event-yiqu
+  date: 0329-09
+  year_of: 329
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-2
+  name_zh: 义渠之战率骑二万破南阳王胤
+  detail_zh: 勒使虎率骑二万来援，九月战于义渠，大破胤军，死者五千余人；虎乘胜追战，枕尸千里
+- id: guji-石虎-event-shanggui
+  date: 0329-09
+  year_of: 329
+  type: endeavor
+  endeavor_id: guji-石虎-endeavor-2
+  name_zh: 攻围上邽，城溃，执杀前赵宗室王公
+  detail_zh: 攻围上邽，城溃，执太子熙、南阳王胤并将相诸王等三千余人皆杀之，坑屠各五千余人于洛阳
+- id: guji-石虎-event-death
+  date: 0349
+  year_of: 349
+  type: death
+  name_zh: 石虎卒
+  detail_zh: 本传未载其卒，据史载卒于东晋永和五年（349年）

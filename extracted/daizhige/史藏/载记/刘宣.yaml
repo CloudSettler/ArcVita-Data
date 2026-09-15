@@ -1,0 +1,112 @@
+person:
+  qid: guji-刘宣
+  name_zh: 刘宣
+  names:
+    zh: 刘宣
+  era: 十六国 · 前赵（汉）
+  reign_ref: 汉王刘渊、汉帝刘聪之世
+  archetype: 拨乱复国的宗室谋主
+  dilemmas:
+  - 身为晋官而心系故国，劝进刘渊背晋自立，忠义之辨难两全
+  - 主张联鲜卑乌丸为援以复呼韩邪之业，与刘渊拒绝鲜卑、径称汉帝之策相左
+  lesson: 识时知几、进退有据，谋国之忠不以一姓兴亡而易志。
+  summary_first_person: 我是匈奴北部都尉刘宣，见司马氏骨肉相残、吾族降同编户，遂与人密议举刘渊为大单于，倡复呼韩邪之业。渊称汉王、即帝位后，我以丞相佐政，屡进直言，虽其志在建汉高之业而非止于复单于故绪，我仍辅弼始终，为汉政权的缔造尽谋之力。
+endeavors:
+- id: guji-刘宣-endeavor-1
+  name_zh: 密谋拥立刘渊复单于之业
+  phases:
+  - key: brewing
+    name_zh: 对照兴衰，蓄志图复
+    labels:
+      zh: 感愤时事
+    start_date: -110
+  - key: breakthrough
+    name_zh: 与族人窃议，举渊为大单于
+    labels:
+      zh: 起兵离石
+    start_date: 304
+    highlight_event_id: guji-刘宣-event-endeavor-1
+  - key: climax
+    name_zh: 上大单于号，聚众五万都离石
+    labels:
+      zh: 拥立成事
+    start_date: 304
+  - key: closure
+    name_zh: 劝渊勿救鲜卑、宜取晋土
+    labels:
+      zh: 谋定国策
+    start_date: 304
+  decisions:
+  - date: 304
+    title_zh: 推刘渊为大单于，起兵离石
+    rationale: 司马氏骨肉相残，四海鼎沸，天授之时，不可违也
+  - date: 304
+    title_zh: 谏阻渊出兵讨鲜卑乌丸
+    rationale: 鲜卑吾之气类可为援，今天假手于我以灭晋，违天不祥；渊不听而欲称汉以怀民望
+- id: guji-刘宣-endeavor-2
+  name_zh: 佐汉建国，官至丞相
+  phases:
+  - key: brewing
+    name_zh: 渊迁都左国城，胡晋归附
+    labels:
+      zh: 奠基左国
+    start_date: 304
+  - key: breakthrough
+    name_zh: 上尊号，劝进渊称汉王
+    labels:
+      zh: 建元元熙
+    start_date: 304-10
+    highlight_event_id: guji-刘宣-event-endeavor-2
+  - key: climax
+    name_zh: 拜汉丞相，总领朝政
+    labels:
+      zh: 位极人臣
+    start_date: 304-10
+  - key: closure
+    name_zh: 与诸臣劝进渊称帝
+    labels:
+      zh: 再劝尊号
+    start_date: 308-08
+  decisions:
+  - date: 304-10
+    title_zh: 与群臣上尊号劝进
+    rationale: 晋氏多难，人心思汉，宜绍修三祖之业
+  - date: 308-08
+    title_zh: 与六十四人再上尊号劝渊称帝
+    rationale: 渊已据河东，国势渐成，宜正大位以号令天下
+events:
+- id: guji-刘宣-event-birth
+  name_zh: 刘宣出生
+  event_type: birth
+  date: -110
+  year_of: -110
+  precision: circa
+  note: 生年不详，姑以公元前约110年计，成年后任北部都尉、右贤王
+- id: guji-刘宣-event-endeavor-1
+  name_zh: 与族人密议，起兵离石共推刘渊为大单于
+  event_type: endeavor
+  date: 304
+  year_of: 304
+  precision: year
+  note: 宣与刘延年等窃议，谓“复呼韩邪之业此其时矣”，遂起兵于离石共推渊为大单于
+- id: guji-刘宣-event-endeavor-2
+  name_zh: 渊即汉王位，宣拜汉丞相
+  event_type: endeavor
+  date: 304-10
+  year_of: 304
+  precision: month
+  note: 渊于南郊即汉王位，建元元熙，以右贤王宣为丞相
+- id: guji-刘宣-event-endeavor-3
+  name_zh: 与丞相等六十四人上尊号，渊即皇帝位
+  event_type: endeavor
+  date: 308-08
+  year_of: 308
+  precision: month
+  note: 凤凰集于蒲子，丞相宣等上尊号，渊于冬十月即皇帝位，改元永凤
+- id: guji-刘宣-event-endeavor-4
+  name_zh: 谏止渊出兵讨鲜卑乌丸
+  event_type: endeavor
+  date: 304
+  year_of: 304
+  precision: year
+  note: 宣等固谏“鲜卑乌丸我之气类可为援”，渊不从，答以“吾又汉氏之甥……今且可称汉”
