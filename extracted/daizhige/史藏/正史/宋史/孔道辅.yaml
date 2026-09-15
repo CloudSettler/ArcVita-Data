@@ -1,0 +1,139 @@
+person:
+  qid: guji-孔道辅
+  name_zh: 孔道辅
+  names:
+    zh: 孔道辅
+    en: Kong Daofu
+  lifespan:
+    birth:
+      date: '985'
+      precision: year
+      is_circa: true
+      raw: 生年史无明载，据 lethal 推断约在984-985年前后
+    death:
+      date: '1051'
+      precision: year
+      is_circa: false
+      raw: 皇祐三年前卒于韦城，行至韦城发病卒
+  birth_date: '985'
+  death_date: '1051'
+  era: 北宋
+  reign_ref: 宋真宗、宋仁宗
+  archetype: 刚直诤臣
+  dilemmas:
+  - 直言进谏与权贵结怨之间的抉择
+  - 出使契丹时维护朝廷体面与避免开争端的两难
+  - 为程琳辨白反被宰相张士逊出卖
+  lesson: 直道事君虽屡遭贬黜，天下终以直道许之
+  summary_first_person: 我孔道辅乃孔子四十五代孙，性格鲠挺，遇事弹劾无所避。曾笞蛇破迷信、出使契丹斥优人侮圣、率谏官伏阁反对废郭皇后，虽屡遭贬逐仍守正不阿，最终被张士逊所卖，愤惋发病卒于韦城，天下莫不以直道许我。
+  source_urls:
+  - 宋史 卷二百九十七 孔道辅传
+endeavors:
+- id: guji-孔道辅-endeavor-1
+  name_zh: 仕宦立身与击蛇破迷信
+  phases:
+  - key: brewing
+    name_zh: 举进士入仕
+    labels:
+      zh:
+      - 进士及第
+    start_date: '1010'
+    highlight_event_id: guji-孔道辅-event-strike-snake
+  - key: breakthrough
+    name_zh: 击蛇立威
+    labels:
+      zh:
+      - 宁州军事推官
+    start_date: '1012'
+    highlight_event_id: guji-孔道辅-event-strike-snake
+  decisions:
+  - date: '1013'
+    title_zh: 以笏击蛇碎其首
+    rationale: 蛇出天庆观被一郡奉为神，州将欲上其事，道辅径前击蛇破除迷信
+  - date: '1022'
+    title_zh: 上言请修孔庙
+    rationale: 知仙源县主孔子祠事，庙制庳陋请加修崇
+- id: guji-孔道辅-endeavor-2
+  name_zh: 出使契丹捍卫先圣尊严
+  phases:
+  - key: climax
+    name_zh: 契丹怒斥优人
+    labels:
+      zh:
+      - 龙图阁待制
+      - 奉使契丹
+    start_date: '1030'
+    highlight_event_id: guji-孔道辅-event-legacy-envoy
+  decisions:
+  - date: '1030'
+    title_zh: 优人以文宣王为戏时径出
+    rationale: 俳优慢侮先圣而不之禁，乃北朝之过， refuses to apologize
+- id: guji-孔道辅-endeavor-3
+  name_zh: 伏阁谏诤反对废郭皇后
+  phases:
+  - key: climax
+    name_zh: 率十臣伏奏垂拱殿
+    labels:
+      zh:
+      - 右谏议大夫
+      - 权御史中丞
+    start_date: '1033'
+    highlight_event_id: guji-孔道辅-event-abolish-empress
+  decisions:
+  - date: '1033'
+    title_zh: 诣垂拱殿伏奏反对废后
+    rationale: 皇后天下之母，不当轻议绌废；因此被贬出知泰州
+  - date: '1040'
+    title_zh: 为程琳辨白
+    rationale: 受诏鞫冯士元狱，为琳言罪薄不足深治，反被张士逊所卖
+events:
+- id: guji-孔道辅-event-birth
+  date: '985'
+  year_of: '985'
+  type: birth
+  title_zh: 孔道辅出生
+  description_zh: 孔子四十五代孙，初名延鲁，字原鲁
+  participants:
+  - guji-孔道辅
+- id: guji-孔道辅-event-strike-snake
+  date: '1012'
+  year_of: '1012'
+  type: endeavor
+  title_zh: 宁州以笏击蛇
+  description_zh: 蛇出天庆观真武殿，州将率官属欲奠拜之，道辅径前以笏击蛇碎其首，破除一郡迷信，观者莫不叹服
+  participants:
+  - guji-孔道辅
+- id: guji-孔道辅-event-legacy-envoy
+  date: '1030'
+  year_of: '1030'
+  type: endeavor
+  title_zh: 契丹宴席怒斥优人侮圣
+  description_zh: 奉使契丹，宴席上优人以文宣王为戏，道辅艴然径出，正色斥契丹慢侮先圣，拒绝谢罪与饮酒
+  participants:
+  - guji-孔道辅
+- id: guji-孔道辅-event-abolish-empress
+  date: '1033'
+  year_of: '1033'
+  type: endeavor
+  title_zh: 率十臣伏阁谏阻废郭皇后
+  description_zh: 明道二年，郭皇后废，道辅率谏官御史十人诣垂拱殿伏奏，与吕夷简当廷辩论，因此出道辅知泰州
+  participants:
+  - guji-孔道辅
+  - 范仲淹
+- id: guji-孔道辅-event-framed-death
+  date: '1040'
+  year_of: '1040'
+  type: closure
+  title_zh: 被张士逊所卖，愤惋病卒于韦城
+  description_zh: 鞠冯士元狱时为程琳辨白，反被宰相张士逊卖之，出知郓州，时大寒上道，行至韦城发病而卒，天下莫不以直道许之
+  participants:
+  - guji-孔道辅
+  - 张士逊
+- id: guji-孔道辅-event-death
+  date: '1040'
+  year_of: '1040'
+  type: death
+  title_zh: 孔道辅卒
+  description_zh: 行至韦城发病卒，皇祐三年仁宗思其忠，特赠尚书工部侍郎
+  participants:
+  - guji-孔道辅
