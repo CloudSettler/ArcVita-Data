@@ -1,0 +1,103 @@
+person:
+  qid: guji-许将
+  name_zh: 许将
+  names:
+    zh: 许将
+    en: Xu Jiang
+  lifespan:
+    birth:
+      date: '1037'
+      precision: year
+      is_circa: true
+      raw: 约北宋景祐年间
+      era: 北宋
+    death:
+      date: '1110'
+      precision: year
+      is_circa: true
+      raw: 大观四年前后
+      era: 北宋
+  birth_date: '1037'
+  death_date: '1110'
+  era: 北宋
+  reign_ref: 仁宗—徽宗朝
+  archetype: 科举状元出身的北宋文臣
+  dilemmas:
+  - 熙宁变法中受王安石赏识，须在新旧党争间持身
+  - 文章受欧阳修、王珪称重，兼顾经术文章与经世之责
+  lesson: 学问贵在得体，出处贵在有守
+  summary_first_person: 我以进士第一入仕，文章曾为欧阳文忠公、王岐公所称重，历经熙宁、元祐之际，亦为司马温公诸君子所知。
+endeavors:
+- id: guji-许将-endeavor-1
+  name_zh: 由科举状元入仕
+  phases:
+  - key: breakthrough
+    name_zh: 举进士第一
+    labels:
+      zh:
+      - 科举
+      - 起家
+    start_date: '1066'
+    highlight_event_id: guji-许将-event-zhuangyuan
+  - key: brewing
+    name_zh: 少从丁宝臣学文
+    labels:
+      zh:
+      - 求学
+    start_date: ''
+    highlight_event_id: guji-许将-event-zhuangyuan
+  decisions:
+  - date: '1066'
+    title_zh: 应举夺魁，踏入仕途
+    rationale: 以文学经术自任，取科第为经世之门
+- id: guji-许将-endeavor-2
+  name_zh: 熙宁间受王安石荐引
+  phases:
+  - key: climax
+    name_zh: 为荆公所荐而立朝
+    labels:
+      zh:
+      - 仕宦
+      - 党争
+    start_date: '1070'
+    highlight_event_id: guji-许将-event-recommend
+  - key: closure
+    name_zh: 为元祐诸公所知
+    labels:
+      zh:
+      - 清望
+    start_date: '1085'
+    highlight_event_id: guji-许将-event-known
+  decisions:
+  - date: '1070'
+    title_zh: 受王安石荐举而不委曲以谋贵达
+    rationale: 不愿曲学阿世以取显位
+events:
+- id: guji-许将-event-birth
+  date: '1037'
+  year_of: 1037
+  title_zh: 许将生（约景祐年间）
+  type: birth
+- id: guji-许将-event-zhuangyuan
+  date: '1066'
+  year_of: 1066
+  title_zh: 举进士第一
+  type: career
+  detail_zh: 少从丁宝臣学，以文字为欧阳文忠公、王岐公所重，科场夺魁。
+- id: guji-许将-event-recommend
+  date: '1070'
+  year_of: 1070
+  title_zh: 熙宁间为王安石所荐
+  type: career
+  detail_zh: 为荆公荐于朝，然不委曲以求贵达。
+- id: guji-许将-event-known
+  date: '1085'
+  year_of: 1085
+  title_zh: 为司马光、吕诲、吕大防、范纯仁诸公所知
+  type: career
+  detail_zh: 虽出于荆公之门，亦见重于元祐诸贤。
+- id: guji-许将-event-death
+  date: '1110'
+  year_of: 1110
+  title_zh: 许将卒（约大观四年前后）
+  type: death
