@@ -1,0 +1,191 @@
+person:
+  qid: guji-zhaozhen
+  name_zh: 赵祯
+  names:
+    zh: 赵祯
+    en: Zhao Zhen
+  lifespan:
+    birth:
+      date: '1010'
+      precision: year
+      is_circa: true
+      raw: 大中祥符三年
+    death:
+      date: '1063'
+      precision: year
+      is_circa: false
+  birth_date: '1010'
+  death_date: '1063'
+  era: 北宋
+  reign_ref: 宋仁宗，1022—1063年在位，历天圣、明道、景祐、宝元、康定、庆历、皇祐、至和、嘉祐诸年号
+  archetype: 仁德纳谏、俭德爱民之君
+  dilemmas:
+  - 台谏章疏言嫔御太多宜裁减，而从谏则须遣平日嬖爱之梳头夫人
+  - 温成皇后求申张尧佐宣徽使之命，与包拯廷论数百言之不可之间
+  - 郊祀丞相欲上尊号，受虚名则损实美
+  - 京东繁盛之镇增置监临官以收利，恐动漕司岁计反为民患
+  lesson: 人主至诚纳谏、俭德自持、谨惜名器，则风动四方、民日以富；拒谏之嬖幸不可置左右。
+  summary_first_person: 我赵祯在位四十二年，自谓所恃者不过至诚纳谏与俭德而已。台谏章疏常置怀中，霖淫之罚我宁信其有，遂遣三十内人出宫，虽平日嬖爱之梳头夫人劝我拒谏，亦居首遣之。包中丞犯颜切直，唾溅我面，我终罢张尧佐宣徽使之命。我性好服浣濯之衣，破则随补，嫔御进新衣辄推去之。尊号非古，宝元以后二十年群臣毋得复请。京东置官、蜀中秀才、胡宗炎改官诸事，我皆恐为民患、恐寒士沉滞而曲为裁处，惟恐失一寒士而已。
+endeavors:
+- id: guji-zhaozhen-endeavor-1
+  name_zh: 至诚纳谏
+  phases:
+  - key: brewing
+    name_zh: 谏路初开
+    labels:
+      zh:
+      - 宝元却尊号
+    start_date: '1038'
+    highlight_event_id: guji-zhaozhen-event-keep-thrift
+  - key: breakthrough
+    name_zh: 章疏在怀
+    labels:
+      zh:
+      - 遣散内人
+    start_date: '1040'
+    highlight_event_id: guji-zhaozhen-event-expel-consorts
+  - key: climax
+    name_zh: 唾面罢除
+    labels:
+      zh:
+      - 包拯谏止张尧佐
+    start_date: '1050'
+    highlight_event_id: guji-zhaozhen-event-baozheng
+  - key: closure
+    name_zh: 终不受虚名
+    labels:
+      zh:
+      - 嘉祐复却尊号
+    start_date: '1059'
+    highlight_event_id: guji-zhaozhen-event-refuse-title
+  decisions:
+  - date: '1040'
+    title_zh: 遣三十内人出宫并首遣梳头夫人
+    rationale: 台谏言霖淫为阴盛之罚、嫔御太多宜裁减，而梳头夫人劝拒谏，故曰劝我拒谏者岂宜置左右。
+  - date: '1050'
+    title_zh: 罢张尧佐宣徽使之命
+    rationale: 包拯乞对反覆数百言、音吐愤激，廷论不可，卒从之。
+  - date: '1059'
+    title_zh: 嘉祐郊祀却群臣上尊号之请
+    rationale: 采宋祁却尊号甚盛德之议，谓一日受虚名而损实美，与我意正合。
+- id: guji-zhaozhen-endeavor-2
+  name_zh: 俭德爱民惜才
+  phases:
+  - key: brewing
+    name_zh: 化行六宫
+    labels:
+      zh:
+      - 好服浣濯之衣
+    start_date: '1022'
+    highlight_event_id: guji-zhaozhen-event-washed-robes
+  - key: breakthrough
+    name_zh: 慎兴作以纾民
+    labels:
+      zh:
+      - 罢京东增官
+    start_date: '1050'
+    highlight_event_id: guji-zhaozhen-event-jingdong
+  - key: climax
+    name_zh: 曲全寒士
+    labels:
+      zh:
+      - 宽蜀中狂生
+      - 惜胡宗炎改官
+    start_date: '1045'
+    highlight_event_id: guji-zhaozhen-event-shu-scholar
+  - key: closure
+    name_zh: 垂范身后
+    labels:
+      zh:
+      - 命妇以盛饰为耻
+    start_date: '1060'
+    highlight_event_id: guji-zhaozhen-event-death
+  decisions:
+  - date: '1050'
+    title_zh: 止京东路增置监临官之议
+    rationale: 恐动漕司岁计、别生事而为民患，遂止而不行。
+  - date: '1045'
+    title_zh: 赦蜀中献诗狂生并授远小郡司户参军
+    rationale: 此乃老秀才急于仕宦而为之，不足治也。
+  - date: '1055'
+    title_zh: 令胡宗炎更候一任与改合入官
+    rationale: 阅家状知其父胡宿见任翰林学士，叹寒士安得不沉滞，谨惜名器而曲全之。
+events:
+- id: guji-zhaozhen-event-birth
+  person_qid: guji-zhaozhen
+  type: birth
+  date: '1010'
+  year_of: 1010
+  is_circa: true
+  date_raw: 大中祥符三年
+  title_zh: 赵祯生
+  description: 赵祯生于宋室，后为真宗嗣子，即位为仁宗。
+- id: guji-zhaozhen-event-expel-consorts
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-1
+  date: '1040'
+  year_of: 1040
+  is_circa: true
+  date_raw: 仁宗朝，约庆历前后
+  title_zh: 因霖淫台谏章疏遣三十内人出宫
+  description: 帝怀台谏章疏理发，梳头夫人劝勿减嫔御、乞以己为首，帝遂携宫籍过后苑，降指挥自某人以下三十人尽放出宫，首遣其人，曰此人劝我拒谏，岂宜置左右。
+- id: guji-zhaozhen-event-washed-robes
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-2
+  date: '1030'
+  year_of: 1030
+  is_circa: true
+  date_raw: 仁宗朝
+  title_zh: 好服浣濯之衣化行六宫
+  description: 仁宗俭德本于天性，尤好服浣濯之衣，嫔御私易新衣以进，闻其声辄推去之；遇浣濯随破随补，将遍犹不肯易，命妇入见皆以盛饰为耻，风动四方，民日以富。
+- id: guji-zhaozhen-event-shu-scholar
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-2
+  date: '1045'
+  year_of: 1045
+  is_circa: true
+  date_raw: 仁宗时
+  title_zh: 宽宥蜀中献诗老秀才
+  description: 蜀中一举子献诗成都府云把断剑门烧栈阁，成都别是一乾坤，知府械付狱并表上其事；仁宗曰此乃老秀才急于仕宦不足治也，可授司户参军不厘事务，处于远小郡。
+- id: guji-zhaozhen-event-baozheng
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-1
+  date: '1050'
+  year_of: 1050
+  is_circa: true
+  date_raw: 皇祐间
+  title_zh: 包拯犯颜切直罢张尧佐宣徽使
+  description: 上以温成故欲申张尧佐宣徽使之命，已降旨，包拯乞对大陈其不可，反覆数百言，音吐愤激，唾溅帝面；帝卒为罢之，且举袖拭面责温成曰汝岂不知包拯是御史中丞乎。
+- id: guji-zhaozhen-event-jingdong
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-2
+  date: '1050'
+  year_of: 1050
+  is_circa: true
+  date_raw: 昭陵时
+  title_zh: 止京东繁盛镇增置监临官
+  description: 京东路一镇户繁盛为本路之最，大臣建言增置监临官，父老欣然、官司保明闻奏；昭陵思之良久曰恐动漕司岁计，遂别生事因为民患，止而不行。
+- id: guji-zhaozhen-event-refuse-title
+  person_qid: guji-zhaozhen
+  type: endeavor
+  endeavor_id: guji-zhaozhen-endeavor-1
+  date: '1059'
+  year_of: 1059
+  is_circa: false
+  date_raw: 嘉祐四年孟冬袷祭
+  title_zh: 嘉祐郊祀却尊号
+  description: 仁宗尝言尊号非古，自宝元之郊诏群臣毋得以请殆二十年；至嘉祐四年袷祭丞相又欲上尊号，宋祁谓却尊号甚盛德、一日受虚名而损实美，帝曰我意正如是，遂止。
+- id: guji-zhaozhen-event-death
+  person_qid: guji-zhaozhen
+  type: death
+  date: '1063'
+  year_of: 1063
+  is_circa: false
+  date_raw: 嘉祐八年
+  title_zh: 赵祯崩
+  description: 仁宗崩于位，在位四十二年，以纳谏俭德垂范后世，史称昭陵。
