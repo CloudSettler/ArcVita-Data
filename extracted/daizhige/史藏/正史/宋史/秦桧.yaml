@@ -1,0 +1,154 @@
+person:
+  qid: guji-秦桧
+  name_zh: 秦桧
+  names:
+    zh: 秦桧
+    en: Qin Hui
+  lifespan:
+    birth:
+      date: '1090'
+      precision: year
+      is_circa: true
+      raw: 约1090年（据通行传记，古文未载）
+    death:
+      date: '1155'
+      precision: year
+      is_circa: false
+      raw: 据《宋史》本传（古文段落未及）
+  birth_date: '1090'
+  death_date: '1155'
+  era: 南宋
+  reign_ref: 宋高宗绍兴年间
+  archetype: 主和权相
+  dilemmas:
+  - 和议与恢复中原的路线之争
+  - 屈己受书与朝廷体面的矛盾
+  - 主和与诸将主战的军政冲突
+  lesson: 权相专主和议，可以一时定局，却以代价与争议铭刻史册。
+  summary_first_person: 我秦桧于绍兴八年复除尚书右仆射兼枢密使，专主与金和议：自乌陵思谋来聘，至张通古'诏谕江南'之议，我以摄冢宰受书进呈，定割地通好之局。绍兴九年河南地归，我主持交割；十年金人败盟南侵，我奏命刘锜择利班师，又促诸大帅还镇罢兵，终成和局。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷29
+endeavors:
+- id: guji-秦桧-endeavor-1
+  name_zh: 再相主政
+  phases:
+  - key: breakthrough
+    name_zh: 复相
+    labels:
+      zh:
+      - 尚书右仆射
+      - 兼枢密使
+    start_date: 1138-03
+    highlight_event_id: guji-秦桧-event-reappoint
+  decisions:
+  - date: 1138-03
+    title_zh: 复以秦桧为尚书右仆射、同中书门下平章事兼枢密使
+    rationale: 再居相位，得以推行对金和议方略。
+- id: guji-秦桧-endeavor-2
+  name_zh: 主持宋金和议
+  phases:
+  - key: brewing
+    name_zh: 遣使通问
+    labels:
+      zh:
+      - 迎接金使
+    start_date: 1138-05
+    highlight_event_id: guji-秦桧-event-envoys
+  - key: breakthrough
+    name_zh: 受书定和
+    labels:
+      zh:
+      - 摄冢宰受书
+      - 割地通好
+    start_date: 1138-12
+    highlight_event_id: guji-秦桧-event-receive-letter
+  - key: climax
+    name_zh: 交割河南
+    labels:
+      zh:
+      - 王伦受地
+    start_date: 1139-03
+    highlight_event_id: guji-秦桧-event-handover
+  - key: closure
+    name_zh: 败盟后弥缝和局
+    labels:
+      zh:
+      - 班师
+      - 罢兵
+    start_date: 1140-06
+    highlight_event_id: guji-秦桧-event-recall-qi
+  decisions:
+  - date: 1138-12
+    title_zh: 摄冢宰受金国书以进
+    rationale: 帝居谅阴难行吉礼，由我代受国书，避免屈己受册之嫌。
+  - date: 1140-06
+    title_zh: 奏命刘锜择利班师
+    rationale: 顺昌既捷恐启战端，务在和议；锜不奉诏，卒以寡胜众。
+  - date: 1140-09
+    title_zh: 遣使谕韩世忠罢兵，诸大帅皆还镇
+    rationale: 专主和议，收兵权以固和局。
+events:
+- id: guji-秦桧-event-birth
+  date: '1090'
+  year_of: '1090'
+  type: birth
+  title_zh: 秦桧生
+  description: 约生于1090年（据通行传记，古文未载）。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-reappoint
+  date: 1138-03
+  year_of: '1138'
+  type: appointment
+  title_zh: 复除尚书右仆射、同平章事兼枢密使
+  description: 绍兴八年三月壬辰，复以秦桧为尚书右仆射、同中书门下平章事兼枢密使。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-envoys
+  date: 1138-05
+  year_of: '1138'
+  type: diplomatic
+  title_zh: 金使乌陵思谋等来聘
+  description: 五月，金国使乌陵思谋、石庆充与王伦等偕来，和议开端。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-receive-letter
+  date: 1138-12
+  year_of: '1138'
+  type: diplomatic
+  title_zh: 摄冢宰受金国书
+  description: 十二月庚辰，帝居谅阴，命秦桧摄冢宰，受书以进；判定金使'诏谕江南'名不正、疑为封册。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-handover
+  date: 1139-03
+  year_of: '1139'
+  type: diplomatic
+  title_zh: 王伦受地，河南陕西归宋
+  description: 绍兴九年三月丙申，王伦受地于金，得三京及寿春诸州、陕西京西之地，和议成效。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-recall-qi
+  date: 1140-06
+  year_of: '1140'
+  type: political
+  title_zh: 奏命刘锜班师
+  description: 六月壬子顺昌之战前，秦桧奏命锜择利班师，锜不奉诏，战益力，以寡胜众。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-dismiss-generals
+  date: 1140-09
+  year_of: '1140'
+  type: political
+  title_zh: 谕韩世忠罢兵，诸帅还镇
+  description: 九月壬寅，遣李易谕韩世忠罢兵；时秦桧专主和议，诸大帅皆还镇。
+  participants:
+  - guji-秦桧
+- id: guji-秦桧-event-death
+  date: '1155'
+  year_of: '1155'
+  type: death
+  title_zh: 秦桧卒
+  description: 卒于绍兴二十五年（据《宋史》本传，古文段落未及）。
+  participants:
+  - guji-秦桧
