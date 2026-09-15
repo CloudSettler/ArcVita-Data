@@ -1,0 +1,128 @@
+person:
+  qid: guji-li-shanchang
+  name_zh: 李善长
+  names:
+    zh: 李善长
+    en: Li Shanchang
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: 1391
+      precision: year
+      is_circa: false
+      raw: 洪武二十四年以罪赐死
+  death_date: 1391
+  era: 元末明初
+  reign_ref: 明太祖洪武
+  archetype: 开国文臣之首·功高遭忌的宰相
+  dilemmas:
+  - 位居太师、左丞相，位极人臣，却因功高震主卷入胡惟庸党狱
+  - 早年随太祖渡江建功，晚年以罪赐死，功臣与罪臣身份仅一线之隔
+  lesson: 开国元勋虽掌簿书、定规制，然君威之下功名难保，知进退者方能令终
+  summary_first_person: 我李善长以文臣之身随太祖渡江起义，官至太师、中书左丞相，先封宣国公，洪武三年进封韩国公，为开国六公之一。后十七年论功臣次第，我以专掌簿书、听候指示居功臣之列。孰料洪武二十四年竟以罪赐死，子祺尚顺德公主亦不能庇我于末路。
+  source_urls:
+  - 损斋备忘录·纪事（明·梅纯撰）
+endeavors:
+- id: guji-li-shanchang-endeavor-1
+  name_zh: 从太祖渡江·佐命开国
+  phases:
+  - key: brewing
+    name_zh: 随军渡江
+    labels:
+      zh: 乙未从渡·文臣赞画
+    start_date: 1355
+    highlight_event_id: guji-li-shanchang-event-crossing
+  - key: breakthrough
+    name_zh: 位登宰辅
+    labels:
+      zh: 太师左丞相
+    start_date: 1368
+    highlight_event_id: guji-li-shanchang-event-chancellor
+  - key: climax
+    name_zh: 开国封公
+    labels:
+      zh: 宣国公·韩国公
+    start_date: 1370
+    highlight_event_id: guji-li-shanchang-event-duke
+  - key: closure
+    name_zh: 功臣定序
+    labels:
+      zh: 专簿书而听指示
+    start_date: 1387
+    highlight_event_id: guji-li-shanchang-event-ranking
+  decisions:
+  - date: 1355
+    title_zh: 乙未夏六月从太祖高皇帝渡江
+    rationale: 弃元归明，以文臣之身投身草昧，为开国十从渡者之一
+  - date: 1370
+    title_zh: 受封韩国公
+    rationale: 由宣国公改封韩国公，为洪武三年大封功臣六公之一，系国初文臣生受封爵者仅三人之一
+- id: guji-li-shanchang-endeavor-2
+  name_zh: 晚节倾覆·以罪赐死
+  phases:
+  - key: brewing
+    name_zh: 功高任重
+    labels:
+      zh: 总领功臣次第
+    start_date: 1387
+    highlight_event_id: guji-li-shanchang-event-ranking
+  - key: closure
+    name_zh: 以罪赐死
+    labels:
+      zh: 免官赐死·子尚主不获庇
+    start_date: 1391
+    highlight_event_id: guji-li-shanchang-event-death
+  decisions:
+  - date: 1391
+    title_zh: 洪武二十四年以罪赐死
+    rationale: 位极人臣而遭忌，虽子祺尚顺德公主、贵为驸马之家，终不得免
+events:
+- id: guji-li-shanchang-event-crossing
+  person_qid: guji-li-shanchang
+  title_zh: 随太祖高皇帝渡江
+  date: 1355
+  year_of: 1355
+  date_raw: 乙未夏六月
+  kind: endeavor
+  summary: 与徐达、汤和、常遇春等凡十人同从太祖渡江，为开国元从
+- id: guji-li-shanchang-event-chancellor
+  person_qid: guji-li-shanchang
+  title_zh: 官至太师、中书左丞相
+  date: 1368
+  year_of: 1368
+  date_raw: 明开国后
+  kind: endeavor
+  summary: 以文臣位至太师、中书左丞相，初封宣国公
+- id: guji-li-shanchang-event-duke
+  person_qid: guji-li-shanchang
+  title_zh: 洪武三年改封韩国公
+  date: 1370
+  year_of: 1370
+  date_raw: 洪武三年
+  kind: endeavor
+  summary: 大封功臣，与徐达、常茂、李文忠、冯胜、邓愈并列为封公六人；国初文臣生受封爵者三人之一
+- id: guji-li-shanchang-event-ranking
+  person_qid: guji-li-shanchang
+  title_zh: 功臣次第中专簿书而听指示
+  date: 1387
+  year_of: 1387
+  date_raw: 洪武十七年后所定功臣次第
+  kind: endeavor
+  summary: 后十七年重定功臣次第，我以专掌簿书、听候指示独居一类，总领文书机要
+- id: guji-li-shanchang-event-death
+  person_qid: guji-li-shanchang
+  title_zh: 以罪赐死
+  date: 1391
+  year_of: 1391
+  date_raw: 洪武二十四年
+  kind: death
+  summary: 以罪赐死，与汪广洋同以罪诛，国初文臣封爵三人中惟刘基令终；子祺尚顺德公主、授驸马都尉
+- id: guji-li-shanchang-event-birth
+  person_qid: guji-li-shanchang
+  title_zh: 出生
+  date_raw: 生年不详
+  kind: birth
+  summary: 史无明文，生年不详
