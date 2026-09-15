@@ -1,0 +1,131 @@
+person:
+  qid: guji-金庾信
+  name_zh: 金庾信
+  names:
+    zh: 金庾信
+    en: Kim Yu-sin
+  lifespan:
+    birth:
+      date: 0595
+      precision: year
+      is_circa: true
+      raw: 新罗真平王十七年（约595年）
+    death:
+      date: '0673'
+      precision: year
+      is_circa: false
+      raw: 新罗文武王十三年（673年），享年七十九
+  birth_date: 0595
+  death_date: '0673'
+  era: 新罗中古（真平王至文武王时期）
+  reign_ref: 真平王、善德女王、真德女王、太宗武烈王、文武王
+  archetype: 统一三国的中兴名将
+  dilemmas:
+  - 出身金官伽倻王族之后，身事新罗，故国与所事之国忠义如何两全
+  - 唐罗联军之中，既须借唐之力灭百济高句丽，又要保全新罗疆土与自主
+  lesson: 处亡国之后而能以功业再造山河，忠诚与谋略兼备者，方能在乱世中成统一之业。
+  summary_first_person: 我金庾信，金官伽倻末王之裔，少入花郎，领龙华香徒，后佐新罗三代，为帅灭百济、平高句丽，卒成三国一统之功。
+  source_urls:
+  - https://zh.wikisource.org/wiki/三國遺事
+endeavors:
+- id: guji-金庾信-endeavor-1
+  name_zh: 花郎道修行与早年戎旅
+  phases:
+  - key: brewing
+    name_zh: 少年入花郎
+    labels:
+      zh: 花郎道
+    start_date: '0610'
+    highlight_event_id: guji-金庾信-event-hwarang
+  - key: breakthrough
+    name_zh: 崭露头角
+    labels:
+      zh: 早年军功
+    start_date: 0629
+    highlight_event_id: guji-金庾信-event-early-campaign
+  - key: climax
+    name_zh: 历事三朝
+    labels:
+      zh: 辅国重臣
+    start_date: '0647'
+    highlight_event_id: guji-金庾信-event-early-campaign
+  - key: closure
+    name_zh: 位极太大角干
+    labels:
+      zh: 封赏极荣
+    start_date: '0660'
+    highlight_event_id: guji-金庾信-event-hwangsanbeol
+  decisions:
+  - date: '0610'
+    title_zh: 年十五领龙华香徒
+    rationale: 以花郎徒众蓄士养望，为日后将帅之路立根基。
+- id: guji-金庾信-endeavor-2
+  name_zh: 灭百济平高句丽，佐成统一
+  phases:
+  - key: brewing
+    name_zh: 谋伐百济
+    labels:
+      zh: 罗唐结盟
+    start_date: 0648
+    highlight_event_id: guji-金庾信-event-alliance
+  - key: breakthrough
+    name_zh: 黄山伐大捷
+    labels:
+      zh: 灭百济之役
+    start_date: 0660-07
+    highlight_event_id: guji-金庾信-event-hwangsanbeol
+  - key: climax
+    name_zh: 围平壤灭高句丽
+    labels:
+      zh: 统一之业
+    start_date: 0668
+    highlight_event_id: guji-金庾信-event-goguryeo-fall
+  - key: closure
+    name_zh: 功成身殁
+    labels:
+      zh: 晚年荣宠
+    start_date: '0673'
+    highlight_event_id: guji-金庾信-event-death
+  decisions:
+  - date: '0660'
+    title_zh: 受命为元帅，会唐将苏定方征百济
+    rationale: 借唐之力一举灭世仇百济，实新罗百年之计。
+  - date: 0668
+    title_zh: 引大军会唐军围平壤
+    rationale: 百济既亡，乘势灭高句丽，成三国一统。
+events:
+- id: guji-金庾信-event-birth
+  date: 0595
+  year_of: 595
+  title_zh: 金庾信生
+  description: 金官伽倻末王之后，父金舒玄，母文明夫人，生于新罗真平王之世。
+- id: guji-金庾信-event-hwarang
+  date: '0610'
+  year_of: 610
+  title_zh: 年十五为花郎，领龙华香徒
+  description: 少年入花郎道，统龙华香徒，教习门徒，蓄养人望。
+- id: guji-金庾信-event-early-campaign
+  date: 0629
+  year_of: 629
+  title_zh: 早年随军征讨，崭露将才
+  description: 佐攻高句丽娘臂城等役，以奇谋奋勇敢战，军中知名。
+- id: guji-金庾信-event-alliance
+  date: 0648
+  year_of: 648
+  title_zh: 助结罗唐同盟之谋
+  description: 善德、真德之世以后，力主与唐通好结盟，共图百济高句丽。
+- id: guji-金庾信-event-hwangsanbeol
+  date: 0660-07
+  year_of: 660
+  title_zh: 黄山伐之战大破百济
+  description: 为罗唐联军新罗统帅，于黄山伐破百济阶伯军，遂与唐军会师灭百济。
+- id: guji-金庾信-event-goguryeo-fall
+  date: 0668
+  year_of: 668
+  title_zh: 引兵会唐军围平壤，高句丽亡
+  description: 率新罗大军会唐师围平壤城，高句丽降，三国归一。
+- id: guji-金庾信-event-death
+  date: '0673'
+  year_of: 673
+  title_zh: 金庾信卒
+  description: 以太大角干之位薨，享年七十九，新罗追念其统一之功。
