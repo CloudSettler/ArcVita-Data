@@ -1,0 +1,94 @@
+person:
+  qid: guji-陈侃
+  name_zh: 陈侃
+  names:
+    zh: 陈侃
+    en: Chen Kan
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      precision: unknown
+      is_circa: false
+  era: 明嘉靖
+  reign_ref: 嘉靖
+  archetype: 册封使臣·航海记述者
+  dilemmas:
+  - 渡海风险与王命使命的两难
+  - 旧籍记载荒略或有舛漏，需实地核验传闻与目见
+  lesson: 目见者胜于传闻，考实可以正史之谬
+  summary_first_person: 我于嘉靖年间奉使册封琉球，历访其山川、风俗、人物之详，驳群书之谬，撰成琉球「录」，归上于朝，后使多据我所定封舟之式与针路而行。
+endeavors:
+- id: guji-陈侃-endeavor-1
+  name_zh: 奉使册封琉球
+  phases:
+  - key: brewing
+    name_zh: 受命备航
+    labels:
+      zh: 册封筹备
+    start_date: 1533
+  - key: breakthrough
+    name_zh: 渡海使琉
+    labels:
+      zh: 渡海封王
+    start_date: 1534
+    highlight_event_id: guji-陈侃-event-sailing
+  - key: climax
+    name_zh: 考察琉球
+    labels:
+      zh: 山川风俗访录
+    start_date: 1534
+  - key: closure
+    name_zh: 著录上朝
+    labels:
+      zh: 撰录归奏
+    start_date: 1535
+  decisions:
+  - date: 1534
+    title_zh: 题请定封舟之式
+    rationale: 记封舟长带虚梢十七丈等旧制，题请定式，为后世册封舟船之标准。
+- id: guji-陈侃-endeavor-2
+  name_zh: 撰琉球「录」以正群书之谬
+  phases:
+  - key: brewing
+    name_zh: 广搜见闻
+    labels:
+      zh: 访录山川风俗
+    start_date: 1534
+  - key: breakthrough
+    name_zh: 成「纪略」「质异」二卷
+    labels:
+      zh: 驳谬成书
+    start_date: 1535
+    highlight_event_id: guji-陈侃-event-record
+  - key: closure
+    name_zh: 归上于朝
+    labels:
+      zh: 进呈其书
+    start_date: 1535
+  decisions:
+  - date: 1535
+    title_zh: 访其山川风俗人物之详并驳群书之谬
+    rationale: 旧录皆多舛漏，欲以目见考实传信，故撰「纪略」「质异」二卷，末载国语、国字。
+events:
+- id: guji-陈侃-event-birth
+  person: guji-陈侃
+  type: birth
+  summary: 生年不详。
+- id: guji-陈侃-event-sailing
+  person: guji-陈侃
+  type: endeavor
+  date: 1534
+  year_of: 1534
+  summary: 嘉靖甲午（十三年），陈侃奉使册封琉球，渡海前往，舟至叶壁山，小舟四十牵挽八日，始至那霸。
+- id: guji-陈侃-event-record
+  person: guji-陈侃
+  type: endeavor
+  date: 1535
+  year_of: 1535
+  summary: 使归后撰琉球「录」，疏称访其山川、风俗、人物之详，且驳群书之谬，以成「纪略」「质异」二卷，末载国语、国字；归上于朝。今钞本什存二、三矣。
+- id: guji-陈侃-event-death
+  person: guji-陈侃
+  type: death
+  summary: 卒年不详。
