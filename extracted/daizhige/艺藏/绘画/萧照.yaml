@@ -1,0 +1,79 @@
+person:
+  qid: guji-萧照
+  name_zh: 萧照
+  names:
+    zh: 萧照
+    en: Xiao Zhao
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  era: 南宋
+  reign_ref: 靖康至高宗时期
+  archetype: 画家
+  dilemmas:
+  - 靖康之乱中落草为盗，遇名师后弃盗从画
+  lesson: 慕贤弃旧业，追随名师终成画院之才
+  summary_first_person: 世传我是建业人，颇知书，亦善画。靖康中中原兵火，我流入太行山为盗。一日群贼掠到李唐，检其行囊唯粉奁画笔，方知其姓氏。我素闻唐名，即辞群贼，随唐南渡得以亲炙。唐感我生全之恩，尽以所能授我，后我补入画院，笔法潇洒超逸。
+endeavors:
+- id: guji-萧照-endeavor-1
+  name_zh: 南渡从师学画
+  description: 弃盗随李唐南渡，尽得其画学传授
+  phases:
+  - key: brewing
+    name_zh: 太行遇李唐
+    labels:
+      zh:
+      - 靖康流离
+      - 太行为盗
+  - key: breakthrough
+    name_zh: 辞贼随唐南渡
+    labels:
+      zh:
+      - 弃盗从师
+      - 随唐南渡
+  - key: climax
+    name_zh: 尽得师传
+    labels:
+      zh:
+      - 亲炙画艺
+      - 尽授所能
+  - key: closure
+    name_zh: 补入画院
+    labels:
+      zh:
+      - 绍兴画院
+      - 名家成焉
+    start_date: 1141
+  decisions:
+  - title: 辞群贼随李唐南渡
+    rationale: 素闻李唐画名，愿弃旧业以从名师
+  - title: 投身画院
+    rationale: 尽得李唐传授后以艺入仕画院
+events:
+- id: guji-萧照-event-jingkang
+  type: venture_event
+  name_zh: 靖康中流入太行山为盗
+  date: 1126
+  year_of: 1126
+  precision: year
+- id: guji-萧照-event-meeting
+  type: breakthrough_event
+  name_zh: 太行山中遇李唐，辞群贼随其南渡
+  year_of: 1127
+  precision: circa_year
+- id: guji-萧照-event-academy
+  type: venture_event
+  name_zh: 补入绍兴画院
+  year_of: 1141
+  precision: circa_year
+- id: guji-萧照-event-praise
+  type: recognition_event
+  name_zh: 笔法潇洒超逸，高宗题其扇头十四字
+  year_of: 1150
+  precision: circa_year

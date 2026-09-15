@@ -1,0 +1,105 @@
+person:
+  qid: guji-赵伯驹
+  name_zh: 赵伯驹
+  names:
+    zh: 赵伯驹
+    en: Zhao Boju
+  lifespan:
+    birth:
+      date: '1120'
+      precision: year
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: unknown
+  birth_date: 约1120年（生年不详，推测）
+  death_date: 不详（“享寿不永”，卒年未知）
+  era: 南宋
+  reign_ref: 宋高宗建炎至绍兴年间
+  archetype: 宗室画家
+  dilemmas:
+  - 随驾南渡、流寓钱唐，幸免北迁之难，身份困顿而待机遇
+  - 画艺雅洁却因寿短职卑，遗迹传世绝少
+  lesson: 身逢乱世而以才艺自见，一扇之画可动天听；然寿之修短，非才可挽。
+  summary_first_person: 我赵伯驹，字千里，宋太祖七世孙。建炎年间随驾南渡，流寓钱唐。善青绿山水，图写人物雅洁异常。尝与士友画扇，偶为宦官张太尉所见，奏呈高宗。上怜我乃太祖诸孙，幸逃北迁之难，遂并吾弟远召见，每称为王侄。仕至浙东兵马钤辖，惜享寿不永，终于此官，故遗迹于世绝少。
+endeavors:
+- id: guji-赵伯驹-endeavor-1
+  name_zh: 南渡流寓与画艺精进
+  phases:
+  - key: brewing
+    name_zh: 宗室学画
+    labels:
+      zh:
+      - 青绿山水
+      - 图写人物
+    start_date: '1129'
+  - key: breakthrough
+    name_zh: 建炎南渡
+    labels:
+      zh:
+      - 随驾渡江
+      - 流寓钱唐
+    start_date: '1129'
+    highlight_event_id: guji-赵伯驹-event-crossing
+  - key: climax
+    name_zh: 扇画入宫得高宗召见
+    labels:
+      zh:
+      - 宦官进呈
+      - 高宗召见
+    start_date: '1131'
+    highlight_event_id: guji-赵伯驹-event-summon
+  - key: closure
+    name_zh: 仕至浙东兵马钤辖
+    labels:
+      zh:
+      - 享寿不永
+      - 遗迹绝少
+    start_date: '1160'
+    highlight_event_id: guji-赵伯驹-event-death
+  decisions:
+  - date: '1129'
+    title_zh: 随驾南渡流寓钱唐
+    rationale: 建炎之难，随宋室南渡以避金人北迁之祸。
+  - date: '1131'
+    title_zh: 以扇画应高宗征召出仕
+    rationale: 蒙高宗怜为太祖诸孙，与弟偕被召见，遂入仕途。
+events:
+- id: guji-赵伯驹-event-birth
+  person: guji-赵伯驹
+  type: birth
+  date: '1120'
+  year_of: 1120
+  precision: year
+  is_circa: true
+  summary: 赵伯驹生年不详，据其宋太祖七世孙辈分与建炎南渡时已然成人，约生于1120年前后。
+- id: guji-赵伯驹-event-crossing
+  person: guji-赵伯驹
+  type: endeavor
+  date: '1129'
+  year_of: 1129
+  precision: year
+  summary: 建炎年间随驾南渡，流寓钱唐，得免宗室北迁之难。
+- id: guji-赵伯驹-event-summon
+  person: guji-赵伯驹
+  type: endeavor
+  date: '1131'
+  year_of: 1131
+  precision: year
+  is_circa: true
+  summary: 所画扇头偶入张太尉之手，奏呈高宗；帝见大喜，访知其名，遂与其弟赵伯骕一并召见，每称为王侄。
+- id: guji-赵伯驹-event-painting
+  person: guji-赵伯驹
+  type: endeavor
+  date: '1160'
+  year_of: 1160
+  precision: year
+  is_circa: true
+  summary: 善青绿山水，人物雅洁异常；高宗尝亲题其横卷《长江六月图》，评其真有董北苑、王都尉气格。
+- id: guji-赵伯驹-event-death
+  person: guji-赵伯驹
+  type: death
+  date: unknown
+  year_of: ''
+  precision: unknown
+  summary: 仕至浙东兵马钤辖，享寿不永，终于是官，卒年不详，故遗迹传世绝少。
