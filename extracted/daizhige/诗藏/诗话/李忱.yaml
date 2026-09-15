@@ -1,0 +1,93 @@
+person:
+  qid: guji-李忱
+  name_zh: 李忱
+  names:
+    zh: 李忱
+    en: Li Chen
+  lifespan:
+    birth:
+      date: '810'
+      precision: year
+      is_circa: true
+      raw: 唐宣宗微时
+    death:
+      date: '859'
+      precision: year
+      is_circa: true
+  birth_date: '810'
+  death_date: '859'
+  era: 唐代晚期
+  reign_ref: 宣宗
+  archetype: 忍辱负重的中兴之主
+  dilemmas:
+  - 遭武宗忌惮，需遁迹为僧以求自保
+  - 微时隐忍与登基后削平乱局之间的意志考验
+  lesson: 志向可先见于言诗，隐忍蓄志终归大海作波涛
+  summary_first_person: 我李忱微时遭武宗忌惮，遁迹为僧。观瀑布时续黄蘖禅师之句"溪涧岂能留得住，终归大海作波涛"，其后竟践帝位，志先见于此诗。
+endeavors:
+- id: guji-李忱-endeavor-1
+  name_zh: 遁迹为僧
+  phases:
+  - key: brewing
+    name_zh: 微时避祸
+    labels:
+      zh:
+      - 隐忍
+      - 避祸
+    start_date: 约840
+    highlight_event_id: guji-李忱-event-temple
+  decisions:
+  - date: 约840
+    title_zh: 因武宗忌惮遁迹为僧
+    rationale: 避祸全身，暗中蓄志
+- id: guji-李忱-endeavor-2
+  name_zh: 践登帝位
+  phases:
+  - key: breakthrough
+    name_zh: 续诗明志
+    labels:
+      zh:
+      - 诗谶
+      - 明志
+    start_date: 约840
+    highlight_event_id: guji-李忱-event-poem
+  - key: climax
+    name_zh: 登基为帝
+    labels:
+      zh:
+      - 践位
+    start_date: '846'
+    highlight_event_id: guji-李忱-event-reign
+  decisions:
+  - date: '846'
+    title_zh: 践阼即位
+    rationale: 微时之志终得施展
+events:
+- id: guji-李忱-event-birth
+  date: '810'
+  year_of: 810
+  type: birth
+  description: 李忱生于唐代晚期皇室，为宪宗之子。
+- id: guji-李忱-event-temple
+  date: 约840
+  year_of: 840
+  type: endeavor
+  endeavor_id: guji-李忱-endeavor-1
+  description: 因武宗忌之，遁迹为僧，游方在外。
+- id: guji-李忱-event-poem
+  date: 约840
+  year_of: 840
+  type: endeavor
+  endeavor_id: guji-李忱-endeavor-2
+  description: 与黄蘖禅师同观瀑布，续其诗曰"溪涧岂能留得住，终归大海作波涛"，志先见于此。
+- id: guji-李忱-event-reign
+  date: '846'
+  year_of: 846
+  type: endeavor
+  endeavor_id: guji-李忱-endeavor-2
+  description: 宣宗践位，其 микро时之志终偿。
+- id: guji-李忱-event-death
+  date: '859'
+  year_of: 859
+  type: death
+  description: 宣宗以后，接懿僖之时，宇内遂不靖，"作波涛"之语几成诗谶。
