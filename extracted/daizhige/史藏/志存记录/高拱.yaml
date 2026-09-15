@@ -1,0 +1,150 @@
+person:
+  qid: guji-gao-gong
+  name_zh: 高拱
+  names:
+    zh: 高拱
+    en: Gao Gong
+  lifespan:
+    birth:
+      date: '1513'
+      precision: year
+      is_circa: true
+      raw: 正德八年（1513年）
+    death:
+      date: '1578'
+      precision: year
+      is_circa: true
+      raw: 万历六年（1578年）
+  birth_date: '1513'
+  death_date: '1578'
+  era: 明代隆庆年间内阁首辅
+  reign_ref: 隆庆帝（明穆宗朱载坖）
+  archetype: 主政阁臣·边略决策者
+  dilemmas:
+  - 纳降可能激怒俺答引发边患，拒降则失信义失机——最终以厚待把汉那吉为筹码换俺答执献叛人
+  - 封贡互市议者以宋和议、先帝禁马市为辞力阻，须排众议而担主和之讥
+  - 献俘于京明正典刑，还是在边速决以防调包与讹言
+  lesson: 以诚信厚待来降者并执此为挠制之具，化边患为边安；谋国者当力排浮议、任事担当。
+  summary_first_person: 我高拱在隆庆年间主政内阁，当把汉那吉叩关来降之际，力主厚待以为挠制之具，终使俺答执献赵全诸叛人、受封顺义王、贡市互易，为明廷北边赢得数十年之安。
+  source_urls:
+  - https://zh.wikisource.org/wiki/伏戎紀事
+endeavors:
+- id: guji-gao-gong-endavor-1
+  name_zh: 处置把汉那吉归降与俺答封贡
+  phases:
+  - key: brewing
+    name_zh: 撰《伏戎纪事》前之边略擘画
+    labels:
+      zh:
+      - 边防
+      - 督抚协作
+    start_date: '1567'
+    highlight_event_id: guji-gao-gong-event-bahanaji
+  - key: breakthrough
+    name_zh: 决策厚待那吉
+    labels:
+      zh:
+      - 纳降
+      - 挠制之具
+    start_date: '1570-09-19'
+    highlight_event_id: guji-gao-gong-event-bahanaji
+  - key: climax
+    name_zh: 遣还那吉、献俘正法
+    labels:
+      zh:
+      - 遣还
+      - 献俘
+    start_date: '1570-11-13'
+    highlight_event_id: guji-gao-gong-event-zhaoquan
+  - key: closure
+    name_zh: 封贡互市成局
+    labels:
+      zh:
+      - 封贡
+      - 互市
+    start_date: '1571-03-28'
+    highlight_event_id: guji-gao-gong-event-fenggong
+  decisions:
+  - date: '1570-09-19'
+    title_zh: 力主厚待把汉那吉以为挠制之具
+    rationale: 若还之则示弱损威，杀之则绝彼系念徒重其恨；厚其服食供用、结其心，可执此为制虏之具。
+  - date: '1570-11-13'
+    title_zh: 命以三品官仪注遣还那吉
+    rationale: 绯袍金带鼓吹送还，示天朝体面，使俺答感德而求封贡愈切。
+  - date: '1570-12-22'
+    title_zh: 主张槛送赵全等赴京献俘明正典刑
+    rationale: 若在边行刑，讹言必起，将谓以假人欺朝廷；献俘于朝告郊庙而后正法，乃理之正，可号令天下。
+  - date: '1571'
+    title_zh: 排众议定封贡互市之议
+    rationale: 举成祖封忠顺忠义王故事驳宋和议、禁马市之辞，谓虏纳贡称臣是臣伏之，非和也。
+- id: guji-gao-gong-endavor-2
+  name_zh: 撰《伏戎纪事》记边略始末
+  phases:
+  - key: brewing
+    name_zh: 处降之节伏枕而虑
+    labels:
+      zh:
+      - 记事
+    start_date: 1570-09
+    highlight_event_id: guji-gao-gong-event-bahanaji
+  - key: breakthrough
+    name_zh: 亲记决策与廷议始末
+    labels:
+      zh:
+      - 纪事
+    start_date: '1571-03-28'
+    highlight_event_id: guji-gao-gong-event-fenggong
+  - key: closure
+    name_zh: 辑入《边略》以垂后
+    labels:
+      zh:
+      - 边略
+    start_date: '1572'
+    highlight_event_id: guji-gao-gong-event-fenggong
+  decisions:
+  - date: 1570-10
+    title_zh: 题覆保全方逢时并戒谕诸镇将
+    rationale: 虏酋执叛乞降之时正抚臣临机设策之日，秘计难自明，但当要其后效，不可惑沮人言坐失垂成之绩。
+events:
+- id: guji-gao-gong-event-birth
+  event_type: birth
+  date: '1513'
+  year_of: 1513
+  precision: year
+  is_circa: true
+  description_zh: 高拱生于正德年间，河南新郑人。
+- id: guji-gao-gong-event-bahanaji
+  event_type: endeavor
+  endeavor_id: guji-gao-gong-endavor-1
+  date: '1570-09-19'
+  year_of: 1570
+  precision: day
+  description_zh: 隆庆四年九月十九日，俺答之孙把汉那吉率妻奴八人来降，高拱与宣大总督王崇古、大同巡抚方逢时定策厚待之，以为挠制之具。
+- id: guji-gao-gong-event-huanaji
+  event_type: endeavor
+  endeavor_id: guji-gao-gong-endavor-1
+  date: '1570-11-13'
+  year_of: 1570
+  precision: day
+  description_zh: 十一月十三日旨准遣还那吉，仍以三品官仪注绯袍金带鼓吹送归，俺答感泣，执献赵全等叛人并求封贡愈切。
+- id: guji-gao-gong-event-zhaoquan
+  event_type: endeavor
+  endeavor_id: guji-gao-gong-endavor-1
+  date: '1570-12-22'
+  year_of: 1570
+  precision: day
+  description_zh: 十二月二十二日赵全、李自馨等九人槛送京师，高拱于法司狱成前遣官审问虏情，后献俘于朝，磔诸市、枭首传示九边。
+- id: guji-gao-gong-event-fenggong
+  event_type: endeavor
+  endeavor_id: guji-gao-gong-endavor-1
+  date: '1571-03-28'
+  year_of: 1571
+  precision: day
+  description_zh: 隆庆五年三月二十八日，俺答受封顺义王，昆都力哈、黄台吉等六十三员各授官赏，贡市互易成局，北边遂安。
+- id: guji-gao-gong-event-death
+  event_type: death
+  date: '1578'
+  year_of: 1578
+  precision: year
+  is_circa: true
+  description_zh: 高拱于万历六年去世。
