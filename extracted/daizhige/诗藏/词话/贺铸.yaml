@@ -1,0 +1,128 @@
+person:
+  qid: guji-贺铸
+  name_zh: 贺铸
+  names:
+    zh: 贺铸
+    en: He Zhu
+  lifespan:
+    birth:
+      date: '1052'
+      precision: year
+      is_circa: true
+      raw: 约1052年
+    death:
+      date: '1125'
+      precision: year
+      is_circa: true
+  birth_date: '1052'
+  death_date: '1125'
+  era: 北宋
+  reign_ref: 北宋后期
+  archetype: 词人
+  dilemmas:
+  - 出身武职门荫而志在文学，仕途沉沦下僚
+  - 词风兼具刚健与婉丽，时人难以归类
+  lesson: 博采众长而不失本色，方回词如云烟缥缈，天下莫能肖其神
+  summary_first_person: 我贺铸，字方回，北宋词人。陈廷焯评我词"笔墨之妙，真乃一片化工"，谓宋词圣手五家，我与周美成并居其列。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/贺铸
+endeavors:
+- id: guji-贺铸-endeavor-1
+  name_zh: 沉沦下僚仕宦生涯
+  phases:
+  - key: brewing
+    name_zh: 入仕为武职
+    labels:
+      zh: 门荫入仕
+    start_date: '1070'
+    highlight_event_id: guji-贺铸-event-enter-service
+  - key: climax
+    name_zh: 转任文职
+    labels:
+      zh:
+      - 通判
+      - 泗州
+    start_date: '1093'
+    highlight_event_id: guji-贺铸-event-official-transfer
+  - key: closure
+    name_zh: 退居吴下
+    labels:
+      zh: 退隐
+    start_date: '1105'
+  decisions:
+  - date: '1105'
+    title_zh: 退居苏州，自号庆湖遗老
+    rationale: 仕途蹇滞，遂归于湖山之间，校书著述终老
+- id: guji-贺铸-endeavor-2
+  name_zh: 词艺生涯
+  phases:
+  - key: brewing
+    name_zh: 早年倚声学步
+    labels:
+      zh: 习词
+    start_date: '1070'
+  - key: breakthrough
+    name_zh: 青玉案名震词坛
+    labels:
+      zh: 一川烟草，满城风絮
+    start_date: '1100'
+    highlight_event_id: guji-贺铸-event-qingyuanchuang
+  - key: climax
+    name_zh: 以乐府雄于一时
+    labels:
+      zh:
+      - 东山词
+      - 韵致
+    start_date: '1110'
+    highlight_event_id: guji-贺铸-event-dongshan-collection
+  - key: closure
+    name_zh: 词格定型为词坛五家之一
+    labels:
+      zh: 圣于词者
+    start_date: '1120'
+  decisions:
+  - date: '1100'
+    title_zh: 兼取刚健骚雅入词
+    rationale: 昔人谓其幽索如屈宋，悲壮如苏李，故作词不当拘于艳科一格
+events:
+- id: guji-贺铸-event-birth
+  type: birth
+  person_qid: guji-贺铸
+  date: '1052'
+  year_of: 1052
+  place_zh: 卫州
+  description_zh: 贺铸生于卫州，宋太祖孝惠皇后族孙，自言唐贺知章后裔。
+- id: guji-贺铸-event-enter-service
+  type: career_start
+  person_qid: guji-贺铸
+  date: '1070'
+  year_of: 1070
+  description_zh: 贺铸十七岁左右以门荫入仕，初任右班殿直等武职。
+- id: guji-贺铸-event-official-transfer
+  type: office_change
+  person_qid: guji-贺铸
+  date: '1093'
+  year_of: 1093
+  description_zh: 贺铸由李清臣、苏轼等推荐，改换文资，通判泗州。
+- id: guji-贺铸-event-qingyuanchuang
+  type: breakthrough
+  person_qid: guji-贺铸
+  date: '1100'
+  year_of: 1100
+  is_circa: true
+  description_zh: 贺铸作《青玉案·凌波不过横塘路》，"梅子黄时雨"名动天下，人称"贺梅子"。
+- id: guji-贺铸-event-dongshan-collection
+  type: literary_work
+  person_qid: guji-贺铸
+  date: '1110'
+  year_of: 1110
+  is_circa: true
+  description_zh: 贺铸编纂《东山词》（东山寓声乐府），流传后世。
+- id: guji-贺铸-event-death
+  type: death
+  person_qid: guji-贺铸
+  date: '1125'
+  year_of: 1125
+  is_circa: true
+  place_zh: 常州
+  description_zh: 贺铸卒于常州僧舍，年七十四。
