@@ -1,0 +1,215 @@
+person:
+  qid: guji-富弼
+  name_zh: 富弼
+  names:
+    zh: 富弼
+    en: Fu Bi
+  lifespan:
+    birth:
+      date: '1004'
+      precision: year
+      is_circa: true
+      raw: 薨于元丰六年八月，年八十
+    death:
+      date: '1083'
+      precision: year
+      is_circa: false
+      raw: 元丰六年八月薨，年八十
+  birth_date: '1004'
+  death_date: '1083'
+  era: 北宋
+  reign_ref: 仁宗、英宗、神宗
+  archetype: 名相与外交家
+  dilemmas:
+  - 出使契丹议币议地迫在眉睫，欧阳修引颜真卿例请留，弼以“主忧臣辱”慨然请行
+  - 青苗法推行，奉诏则戕民，格诏则获罪，弼持不行终遭弹劾罢政
+  lesson: 使命当以死任之，国事利害知无不言，虽居高位不改直言守正之节。
+  summary_first_person: 我富彦国，使契丹折其求地之谋，相仁宗致天下无事，藏书赈活五十余万人，晚岁抗新法而致仕，遗奏犹论兵民困穷之患。
+endeavors:
+- id: guji-富弼-endeavor-1
+  name_zh: 出使契丹折冲樽俎
+  phases:
+  - key: brewing
+    name_zh: 受命报聘
+    labels:
+      zh: 临危受命
+    start_date: '1042'
+    highlight_event_id: guji-富弼-event-envoy-accept
+  - key: breakthrough
+    name_zh: 廷辩契丹主
+    labels:
+      zh: 舌战折敌
+    start_date: '1042'
+    highlight_event_id: guji-富弼-event-envoy-debate
+  - key: climax
+    name_zh: 争“献”“纳”二字
+    labels:
+      zh: 死拒国书
+    start_date: '1042'
+    highlight_event_id: guji-富弼-event-envoy-word-fight
+  - key: closure
+    name_zh: 增币成盟
+    labels:
+      zh: 和议既成
+    start_date: '1042'
+    highlight_event_id: guji-富弼-event-envoy-conclusion
+  decisions:
+  - date: '1042'
+    title_zh: 叩头请行使契丹
+    rationale: 主忧臣辱，臣不敢爱其死。
+  - date: '1042'
+    title_zh: 驰还易国书而行
+    rationale: 吾为使者而不见国书，脱书词与口传异，吾事败矣。
+- id: guji-富弼-endeavor-2
+  name_zh: 执政安边与救荒
+  phases:
+  - key: brewing
+    name_zh: 入枢预政
+    labels:
+      zh: 拜枢密副使
+    start_date: '1043'
+    highlight_event_id: guji-富弼-event-shumi
+  - key: breakthrough
+    name_zh: 上当世之务
+    labels:
+      zh: 安边十三策
+    start_date: '1043'
+    highlight_event_id: guji-富弼-event-thirteen-strategies
+  - key: climax
+    name_zh: 青州救活流民
+    labels:
+      zh: 活五十余万人
+    start_date: '1047'
+    highlight_event_id: guji-富弼-event-relief
+  - key: closure
+    name_zh: 拜相同文彦博辅政
+    labels:
+      zh: 至和拜相
+    start_date: '1055'
+    highlight_event_id: guji-富弼-event-chancellor
+  decisions:
+  - date: '1047'
+    title_zh: 立简便周尽之法救灾
+    rationale: 聚民城郭为粥反致疾疫，名为救之而实杀之。
+  - date: '1048'
+    title_zh: 密遣张从训平齐州乱兵
+    rationale: 齐非所部，恐事泄变生，度其可用，密付以事。
+- id: guji-富弼-endeavor-3
+  name_zh: 抗新法与致仕遗奏
+  phases:
+  - key: brewing
+    name_zh: 入觐神宗论治道
+    labels:
+      zh: 访以治道
+    start_date: '1068'
+    highlight_event_id: guji-富弼-event-audience-shenzong
+  - key: breakthrough
+    name_zh: 维持青苗于亳州
+    labels:
+      zh: 持不行
+    start_date: '1070'
+    highlight_event_id: guji-富弼-event-refuse-qingmiao
+  - key: climax
+    name_zh: 称疾数十上章求退
+    labels:
+      zh: 致仕
+    start_date: '1070'
+    highlight_event_id: guji-富弼-event-retirement
+  - key: closure
+    name_zh: 手封遗奏论边役新法
+    labels:
+      zh: 临终直言
+    start_date: '1083'
+    highlight_event_id: guji-富弼-event-death
+  decisions:
+  - date: '1070'
+    title_zh: 拒行青苗法
+    rationale: 财聚于上，人散于下。
+  - date: '1070'
+    title_zh: 荐文彦博自代
+    rationale: 帝问谁可代卿，弼以贤对，不以新党阿附取容。
+events:
+- id: guji-富弼-event-birth
+  quest_id: guji-富弼
+  name_zh: 富弼出生
+  date: '1004'
+  year_of: 1004
+  summary: 河南人，母韩氏梦旌旗鹤雁降庭而生弼。
+- id: guji-富弼-event-envoy-accept
+  quest_id: guji-富弼
+  name_zh: 临危受命使契丹
+  date: '1042'
+  year_of: 1042
+  summary: 契丹求关南地，群臣莫敢行，弼叩头曰主忧臣辱，不敢爱其死。
+- id: guji-富弼-event-envoy-debate
+  quest_id: guji-富弼
+  name_zh: 廷辩契丹主罢求地
+  date: '1042'
+  year_of: 1042
+  summary: 论通好利归人主、用兵祸归人主，契丹主大悟首肯。
+- id: guji-富弼-event-envoy-word-fight
+  quest_id: guji-富弼
+  name_zh: 争献纳二字
+  date: '1042'
+  year_of: 1042
+  summary: 契丹欲用献或纳字，弼声色俱厉以死拒之。
+- id: guji-富弼-event-envoy-conclusion
+  quest_id: guji-富弼
+  name_zh: 增岁币和议成
+  date: '1042'
+  year_of: 1042
+  summary: 朝廷竟以纳字与之，弼辞所增官爵不受。
+- id: guji-富弼-event-shumi
+  quest_id: guji-富弼
+  name_zh: 拜枢密副使
+  date: '1043'
+  year_of: 1043
+  summary: 再辞不获，契丹既成好，请帝思轻侮之耻而修政。
+- id: guji-富弼-event-thirteen-strategies
+  quest_id: guji-富弼
+  name_zh: 上当世之务十余条及安边十三策
+  date: '1043'
+  year_of: 1043
+  summary: 以进贤退不肖、止侥幸、去宿弊为本。
+- id: guji-富弼-event-relief
+  quest_id: guji-富弼
+  name_zh: 青州赈济河朔流民
+  date: '1047'
+  year_of: 1047
+  summary: 劝民出粟益以官廪，活五十余万人，天下传以为式。
+- id: guji-富弼-event-chancellor
+  quest_id: guji-富弼
+  name_zh: 拜同中书门下平章事
+  date: '1055'
+  year_of: 1055
+  summary: 与文彦博并命，士大夫相庆于朝。
+- id: guji-富弼-event-audience-shenzong
+  quest_id: guji-富弼
+  name_zh: 神宗内东门问治道
+  date: '1068'
+  year_of: 1068
+  summary: 劝布德行惠，愿二十年口不言兵，帝默然。
+- id: guji-富弼-event-refuse-qingmiao
+  quest_id: guji-富弼
+  name_zh: 亳州格青苗法被劾
+  date: '1070'
+  year_of: 1070
+  summary: 谓财聚于上人散于下，持不行，赵济劾其格诏旨。
+- id: guji-富弼-event-retirement
+  quest_id: guji-富弼
+  name_zh: 请老致仕封韩国公
+  date: '1070'
+  year_of: 1070
+  summary: 加拜司空，进封韩国公致仕，家居犹知无不言。
+- id: guji-富弼-event-honored-posthumously
+  quest_id: guji-富弼
+  name_zh: 嘉其不自言拜司徒
+  date: '1080'
+  year_of: 1080
+  summary: 帝知至和立储事，嘉弼不自言，以为司徒。
+- id: guji-富弼-event-death
+  quest_id: guji-富弼
+  name_zh: 富弼薨
+  date: 1083-08
+  year_of: 1083
+  summary: 年八十，遗奏论永乐之役与保甲之害，赠太尉，谥文忠。
