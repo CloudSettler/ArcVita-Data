@@ -1,0 +1,149 @@
+person:
+  qid: guji-唐太宗
+  name_zh: 唐太宗
+  names:
+    zh: 唐太宗
+    en: Emperor Taizong of Tang
+  lifespan:
+    birth:
+      date: '598'
+      precision: year
+      is_circa: true
+      raw: 生年古籍未载，据史通例约开皇年间
+    death:
+      date: '649'
+      precision: year
+      is_circa: false
+  birth_date: '598'
+  death_date: '649'
+  era: 唐
+  reign_ref: 贞观（627—649）
+  archetype: 明君纳谏型
+  dilemmas:
+  - 草创与守成孰难
+  - 虚己受言与晚年志满渐差之失衡
+  lesson: 能用贤纳谏、先正其身，方可致治；志满则鉴昏
+  summary_first_person: 我以英武之资佐高祖定天下，即位后任用房玄龄、杜如晦、魏征诸贤，虚己受谏，励精图治二十余年，致斗米三钱、外户不闭，号为贞观之治；然魏征没后志满渐差，东征无功，幸能自引咎复碑。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=642006
+endeavors:
+- id: guji-唐太宗-endeavor-1
+  name_zh: 创建唐朝与即位
+  phases:
+  - key: brewing
+    name_zh: 佐高祖起兵
+    labels:
+      zh:
+      - 结纳豪杰
+      - 屈节下士
+    start_date: '617'
+    highlight_event_id: guji-唐太宗-event-1
+  - key: breakthrough
+    name_zh: 受禅定乱
+    labels:
+      zh:
+      - 封秦王
+      - 功业日隆
+    start_date: '618'
+    highlight_event_id: guji-唐太宗-event-2
+  decisions:
+  - date: '626'
+    title_zh: 受立皇太子听政并即皇帝位
+    rationale: 功业日隆，佐定天下之乱
+- id: guji-唐太宗-endeavor-2
+  name_zh: 贞观之治
+  phases:
+  - key: brewing
+    name_zh: 改元贞观定政
+    labels:
+      zh:
+      - 先存百姓
+      - 先正其身
+    start_date: '627'
+    highlight_event_id: guji-唐太宗-event-3
+  - key: breakthrough
+    name_zh: 任贤纳谏
+    labels:
+      zh:
+      - 房杜魏王布列左右
+      - 兼听纳下
+    start_date: '628'
+    highlight_event_id: guji-唐太宗-event-4
+  - key: climax
+    name_zh: 致治富厚
+    labels:
+      zh:
+      - 斗米三钱
+      - 外户不闭
+    start_date: '630'
+    highlight_event_id: guji-唐太宗-event-5
+  - key: closure
+    name_zh: 晚年渐差与自省
+    labels:
+      zh:
+      - 东征无功
+      - 引咎复碑
+    start_date: '645'
+    highlight_event_id: guji-唐太宗-event-6
+  decisions:
+  - date: '630'
+    title_zh: 力排封德彝之议，行仁义之政
+    rationale: 魏郑公进仁义之言，四年之间内安外服
+  - date: 643-02
+    title_zh: 魏征没后引咎复碑厚赐抚其孤
+    rationale: 惩征没明鉴昏之失，念前规不负初心
+events:
+- id: guji-唐太宗-event-birth
+  date: '598'
+  year_of: 598
+  type: birth
+  title_zh: 李世民生（约）
+  description_zh: 陇西成纪人，凉武昭王八世孙，高祖次子；四岁时书生称其龙凤之姿，必能济世安民，因名世民
+- id: guji-唐太宗-event-death
+  date: '649'
+  year_of: 649
+  type: death
+  title_zh: 唐太宗崩
+  description_zh: 在位凡二十三年，为一代贤君
+- id: guji-唐太宗-event-1
+  date: '617'
+  year_of: 617
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-1
+  title_zh: 佐高祖起兵定乱
+  description_zh: 及长聪明英武有大志，能屈节下士，结纳豪杰，佐高祖定天下之乱
+- id: guji-唐太宗-event-2
+  date: '618'
+  year_of: 618
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-1
+  title_zh: 封秦王
+  description_zh: 高祖受隋禅国号唐，明年改元武德，封世民为秦王
+- id: guji-唐太宗-event-3
+  date: 626-09
+  year_of: 626
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-2
+  title_zh: 即皇帝位
+  description_zh: 武德九年立为皇太子听政，是年八月即皇帝位
+- id: guji-唐太宗-event-4
+  date: '627'
+  year_of: 627
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-2
+  title_zh: 改元贞观，首论君道
+  description_zh: 明年改元贞观；谓侍臣为君之道必须先存百姓，安天下必须先正其身
+- id: guji-唐太宗-event-5
+  date: '630'
+  year_of: 630
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-2
+  title_zh: 贞观之治见效
+  description_zh: 用贤纳谏，斗米值三钱，太仓粟腐臭，关东暨岭南开门夜无寇，二十余年间中外称明后
+- id: guji-唐太宗-event-6
+  date: '645'
+  year_of: 645
+  type: endeavor
+  endeavor_id: guji-唐太宗-endeavor-2
+  title_zh: 东征无功而自引咎
+  description_zh: 征没后志满渐差谬，东征无成功，幸能自引咎，复碑念前规，厚赐抚其后，终身无罅漏
