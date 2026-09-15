@@ -1,0 +1,190 @@
+person:
+  qid: guji-朱由检
+  name_zh: 朱由检
+  names:
+    zh: 朱由检（崇祯帝、烈皇帝）
+    en: Zhu Youjian (Chongzhen Emperor)
+  lifespan:
+    birth:
+      date: '1611'
+      precision: year
+      is_circa: true
+      raw: 光宗第五子
+    death:
+      raw: 甲申之变（文本未载卒年细节）
+  birth_date: '1611'
+  death_date: '1644'
+  era: 明末
+  reign_ref: 崇祯（1628-1644）
+  archetype: 勤政多疑的末代君主
+  dilemmas:
+  - 内臣与外廷之信用摇摆：初罢诸太监而复遣内臣监制军饷
+  - 对袁崇焕五年复辽之诺寄望与疑忌并存
+  - 流寇主抚与主剿之间反复
+  lesson: 神明独断可翦除权阉，然猜疑与变更无常亦足以自坏长城。
+  summary_first_person: 我光宗第五子，以信王入继大统，不动声色翦除魏忠贤，定逆案、罢内臣，锐意中兴；然五年平辽之托终成袁崇焕之狱，流寇内溃而国事日非。
+  source_urls:
+  - 石匮书后集·卷第一·烈皇帝本纪
+endeavors:
+- id: guji-朱由检-endeavor-1
+  key: 翦除阉党与定逆案
+  name_zh: 翦除魏忠贤、钦定逆案
+  labels:
+    zh:
+    - 政治整肃
+    - 中兴之始
+  phases:
+  - key: brewing
+    name_zh: 即位承统
+    labels:
+      zh:
+      - 践祚
+    start_date: '1627-08-24'
+    highlight_event_id: guji-朱由检-event-accession
+  - key: breakthrough
+    name_zh: 谪诛魏忠贤
+    labels:
+      zh:
+      - 不动声色
+    start_date: 1627-11
+    highlight_event_id: guji-朱由检-event-wei-zhongxian-death
+  - key: climax
+    name_zh: 钦定逆案
+    labels:
+      zh:
+      - 七等定罪
+    start_date: 1628-03
+  decisions:
+  - date: 1627-10
+    title_zh: 贬魏忠贤凤阳司香、籍没客魏二家
+    rationale: 逆恶窃柄诬陷忠良，先示宽而实置于法
+  - date: '1628-01-20'
+    title_zh: 命定逆案，内臣同恶亦入
+    rationale: 苟非外廷逢迎、内臣同恶，阉祸不至此
+- id: guji-朱由检-endeavor-2
+  key: 平辽图边
+  name_zh: 起用袁崇焕平台召对与己巳之变处置
+  labels:
+    zh:
+    - 辽东战事
+    - 边政
+  phases:
+  - key: brewing
+    name_zh: 平台召对五年平辽
+    labels:
+      zh:
+      - 用人不疑
+    start_date: 1628-07
+    highlight_event_id: guji-朱由检-event-yuan-zhaodui
+  - key: climax
+    name_zh: 己巳危急与崇焕被逮
+    labels:
+      zh:
+      - 疑忌
+      - 满桂面质
+    start_date: 1629-11
+    highlight_event_id: guji-朱由检-event-yuan-arrest
+  - key: closure
+    name_zh: 磔袁崇焕
+    labels:
+      zh:
+      - 自坏长城
+    start_date: 1630-04
+    highlight_event_id: guji-朱由检-event-yuan-lingchi
+  decisions:
+  - date: 1628-07
+    title_zh: 起袁崇焕督师蓟辽，许不吝封侯之赏
+    rationale: 辽左跳梁十载，冀其五年复辽
+  - date: 1630-04
+    title_zh: 磔袁崇焕于市
+    rationale: 满桂尽发其奸状，和议杀帅勾引之罪坐实
+- id: guji-朱由检-endeavor-3
+  key: 内臣反复与财政加派
+  name_zh: 监视内臣之罢而复遣
+  labels:
+    zh:
+    - 阉寺政策
+    - 治术摇摆
+  phases:
+  - key: brewing
+    name_zh: 咨政平台
+    labels:
+      zh:
+      - 留心庶务
+    start_date: 1628-05
+  - key: breakthrough
+    name_zh: 尽彻各边内臣
+    labels:
+      zh:
+      - 一柄两操甚无谓
+    start_date: 1627-11
+    highlight_event_id: guji-朱由检-event-remove-neichen
+  - key: closure
+    name_zh: 复遣内臣监制
+    labels:
+      zh:
+      - 群相壅蔽
+      - 国事日非
+    start_date: 1631-09
+  decisions:
+  - date: 1627-11
+    title_zh: 概罢各边内臣、相度机宜听经督节制
+    rationale: 一柄两操甚无谓，宦官观兵古来有戒
+  - date: 1631-09
+    title_zh: 命张彝宪总理户工钱粮、太监分道监视兵饷
+    rationale: 外臣多不称任使，复以内臣视行营
+events:
+- id: guji-朱由检-event-birth
+  person_id: guji-朱由检
+  type: birth
+  date: '1611'
+  year_of: 1611
+  description: 光宗第五子，母刘才人。
+- id: guji-朱由检-event-信王册封
+  person_id: guji-朱由检
+  type: life
+  date: '1622'
+  year_of: 1622
+  description: 天启二年封信王；四年册周奎女为信王妃，出居王府。
+- id: guji-朱由检-event-accession
+  person_id: guji-朱由检
+  type: accession
+  date: '1627-08-24'
+  year_of: 1627
+  description: 熹宗大渐召见，谕以当为尧舜之君；二十四日践天子位，诏以明年为崇祯元年。
+- id: guji-朱由检-event-wei-zhongxian-death
+  person_id: guji-朱由检
+  type: politics
+  date: 1627-11
+  year_of: 1927
+  description: 谪魏忠贤凤阳司香，忠贤于阜城自经；诏戮尸凌迟、客氏处极刑。
+- id: guji-朱由检-event-remove-neichen
+  person_id: guji-朱由检
+  type: politics
+  date: 1627-11
+  year_of: 1927
+  description: 尽彻各边镇守内臣，谕宦官观兵古来有戒，事权归经督。
+- id: guji-朱由检-event-yuan-zhaodui
+  person_id: guji-朱由检
+  type: politics
+  date: 1628-07
+  year_of: 1928
+  description: 平台召对袁崇焕，许五年灭虏不吝封侯之赏，严谕阁部诸臣应命。
+- id: guji-朱由检-event-yuan-arrest
+  person_id: guji-朱由检
+  type: politics
+  date: 1629-12
+  year_of: 1929
+  description: 北兵薄京师，满桂缒城入见发崇焕奸状，命锦衣卫拿送镇抚司，祖大寿夺关奔宁远。
+- id: guji-朱由检-event-yuan-lingchi
+  person_id: guji-朱由检
+  type: politics
+  date: 1630-04
+  year_of: 1930
+  description: 磔袁崇焕于市，京师百姓争啖其肉。
+- id: guji-朱由检-event-death
+  person_id: guji-朱由检
+  type: death
+  date: '1644'
+  year_of: 1644
+  description: 甲申之变殉国，谥曰烈皇帝（文本仅以庙号本纪存世）。
