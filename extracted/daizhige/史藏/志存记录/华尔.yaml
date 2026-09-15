@@ -1,0 +1,109 @@
+person:
+  qid: guji-华尔
+  name_zh: 华尔
+  names:
+    zh: 华尔
+    en: Frederick Townsend Ward
+  lifespan:
+    birth:
+      date: '1831'
+      precision: year
+      is_circa: true
+      raw: 生年不详，美国人，长于粤
+    death:
+      date: '1862'
+      precision: year
+      is_circa: false
+      raw: 攻慈溪阵亡
+  birth_date: '1831'
+  death_date: '1862'
+  era: 清咸丰末
+  reign_ref: 咸丰
+  archetype: foreign_mercenary_commander
+  dilemmas:
+  - 身为美国人而统领中国军队助剿，功赏与身死异乡
+  - 洋枪队招人混杂，纪律与战功难两全
+  lesson: 异邦之人锐意效命，洋枪练兵自华而始，虽死而松郡士民悼惜。
+  summary_first_person: 我是美国华尔，长于广东，来申江贸易。android
+  source_urls:
+  - 洪杨轶闻·清·佚名·◎华尔
+endeavors:
+- id: guji-华尔-endeavor-1
+  name_zh: 组练长胜军
+  phases:
+  - key: brewing
+    name_zh: 招募编队
+    labels:
+      zh:
+      - 洋枪小队
+    start_date: '1860'
+    highlight_event_id: guji-华尔-event-recruit
+  - key: breakthrough
+    name_zh: 攻城夺邑
+    labels:
+      zh:
+      - 长胜军
+    start_date: '1860'
+    highlight_event_id: guji-华尔-event-victory
+  - key: climax
+    name_zh: 扩充洋枪队
+    labels:
+      zh:
+      - 洋枪队四五千人
+    start_date: '1861'
+    highlight_event_id: guji-华尔-event-pacify
+  - key: closure
+    name_zh: 慈溪之殁
+    labels:
+      zh:
+      - 阵亡
+    start_date: '1862'
+    highlight_event_id: guji-华尔-event-death
+  decisions:
+  - date: '1860'
+    title_zh: 招精壮数百以洋枪布阵法练兵
+    rationale: 沪城危如累卵，各国助剿兵未集，遂自立洋枪小队以保上海。
+  - date: '1861'
+    title_zh: 受守松江之命，广招勤习洋枪队
+    rationale: 贼弃松江，大宪饬守，广募至四五千人，威慑嘉湖青金奉贼窟。
+events:
+- id: guji-华尔-event-birth
+  person_qid: guji-华尔
+  date: '1831'
+  precision: year
+  is_circa: true
+  event_type: birth
+  year_of: 1831
+  summary: 华尔生，美国人，长于粤。
+- id: guji-华尔-event-recruit
+  person_qid: guji-华尔
+  date: '1860'
+  precision: year
+  is_circa: true
+  event_type: endeavor
+  year_of: 1860
+  summary: 招精壮数百人，花布缠头，各执洋枪，教以进退布阵之法，八十人为一排，号长胜军，又呼洋枪小队。
+- id: guji-华尔-event-victory
+  person_qid: guji-华尔
+  date: '1860'
+  precision: year
+  is_circa: true
+  event_type: endeavor
+  year_of: 1860
+  summary: 攻城夺邑，长为诸军冠，贼甚惮之，沪城赖以安。
+- id: guji-华尔-event-pacify
+  person_qid: guji-华尔
+  date: '1861'
+  precision: year
+  is_circa: true
+  event_type: endeavor
+  year_of: 1861
+  summary: 奉饬守松江，广招勤习，洋枪队共得四五千人，贼始终不敢犯，尝分军协击所到必克；清廷授职总戎，镇松江。
+- id: guji-华尔-event-death
+  person_qid: guji-华尔
+  date: '1862'
+  precision: year
+  is_circa: true
+  event_type: death
+  year_of: 1862
+  summary: 攻慈溪阵亡，松郡士民思其战守之绩，无不悼惜；其众后由白齐文统带。
