@@ -1,0 +1,104 @@
+person:
+  qid: guji-李唐
+  name_zh: 李唐
+  names:
+    zh: 李唐、李晞古
+    en: Li Tang
+  lifespan:
+    birth:
+      date: '1049'
+      precision: year
+      is_circa: true
+      raw: 建炎间年近八十
+  birth_date: 约1049年（据建炎间年近八十推算）
+  death_date: 卒年不详（南宋高宗朝仍在世）
+  era: 北宋末至南宋初（徽宗、高宗朝）
+  reign_ref: 宋徽宗、宋高宗（建炎）
+  archetype: 画院待诏·南渡画家
+  dilemmas:
+  - 中原板荡、南渡流寓，年近八十而重入画院谋生
+  - 院画身份与“名下无虚士”的文人评鉴之间的张力
+  lesson: 笔意不凡、自成家数，年高不坠其志，师古而能变（大斧劈皴）
+  summary_first_person: 我李唐，字晞古，河阳三城人。徽宗朝补入画院，靖康乱后南渡至临安，建炎间得太尉邵宏渊荐，授成忠郎、画院待诏，赐金带，时年近八十。我善画人物山水，尤工画牛，山水初法李思训，后自成大斧劈皴一家，高宗雅重之，尝题我长夏江寺卷云“李唐可比唐李思训”。
+  source_urls:
+  - https://www.ctext.org/
+endeavors:
+- id: guji-李唐-endeavor-1
+  key: brewing
+  name_zh: 徽宗朝补入画院
+  labels:
+    zh:
+    - 竹锁桥边卖酒家夺魁
+  start_date: '1102'
+  highlight_event_id: guji-李唐-event-examination
+  decisions:
+  - date: '1102-01-01'
+    title_zh: 以桥头竹外挂一酒帘应“竹锁桥边卖酒家”画题
+    rationale: 不向酒家着工夫而得“锁”字意，徽宗喜之，遂补入画院
+- id: guji-李唐-endeavor-2
+  key: breakthrough
+  name_zh: 靖康乱后南渡临安
+  labels:
+    zh:
+    - 建炎南渡
+  start_date: '1127'
+  highlight_event_id: guji-李唐-event-crossing
+  decisions:
+  - date: '1127-01-01'
+    title_zh: 中原扰攘之际渡江如杭
+    rationale: 夤縁得幸高宗，仍入画院，自创大斧劈皴，南渡以来推为独步
+- id: guji-李唐-endeavor-3
+  key: climax
+  name_zh: 高宗朝画院待诏
+  labels:
+    zh:
+    - 授成忠郎待诏赐金带
+  start_date: '1127'
+  highlight_event_id: guji-李唐-event-appointment
+  decisions:
+  - date: '1130-01-01'
+    title_zh: 接受邵宏渊荐举，受成忠郎、画院待诏、金带
+    rationale: 年近八十犹待诏画院，为高宗御前图画
+- id: guji-李唐-endeavor-4
+  key: closure
+  name_zh: 晚年创作与传名
+  labels:
+    zh:
+    - 晋文公复国图、采薇图等传世
+  start_date: '1130'
+  highlight_event_id: guji-李唐-event-wen
+events:
+- id: guji-李唐-event-birth
+  date: 约-1049
+  year_of: -1049
+  type: birth
+  summary: 李唐生于河阳三城（据建炎间“年近八十”反推，约1049年生，此处以公历计）
+- id: guji-李唐-event-examination
+  date: '1102'
+  year_of: 1102
+  type: endeavor
+  endeavor_ref: guji-李唐-endeavor-1
+  summary: 政和中徽宗立画院，试“竹锁桥边卖酒家”题，李唐于桥头竹外挂一酒帘，得锁字意，补入画院
+- id: guji-李唐-event-crossing
+  date: '1127'
+  year_of: 1127
+  type: endeavor
+  endeavor_ref: guji-李唐-endeavor-2
+  summary: 建炎南渡，中原扰攘，唐遂渡江如杭，夤縁得幸高宗，仍入画院
+- id: guji-李唐-event-appointment
+  date: '1130'
+  year_of: 1130
+  type: endeavor
+  endeavor_ref: guji-李唐-endeavor-3
+  summary: 建炎间太尉邵宏渊荐之，奉诏授成忠郎、画院待诏，赐金带，时年近八十
+- id: guji-李唐-event-wen
+  date: 约1131
+  year_of: 1131
+  type: endeavor
+  endeavor_ref: guji-李唐-endeavor-4
+  summary: 画晋文公复国图，高宗亲书刘商辞于绢留空俾唐图写，并御题长夏江寺卷“李唐可比唐李思训”
+- id: guji-李唐-event-death
+  date: 约1140
+  year_of: 约1140
+  type: death
+  summary: 卒年不详，晚年犹待诏画院，“年近八十犹待诏画院”，传世诸图多为高宗朝所作
