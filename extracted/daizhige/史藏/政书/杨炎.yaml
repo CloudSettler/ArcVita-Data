@@ -1,0 +1,103 @@
+person:
+  qid: guji-杨炎
+  name_zh: 杨炎
+  names:
+    zh: 杨炎
+    en: Yang Yan
+  lifespan:
+    birth:
+      date: '0727'
+      precision: year
+      is_circa: true
+      raw: 约727年（史料未见生年，史家推定）
+    death:
+      date: 0781
+      precision: year
+      is_circa: false
+      raw: 建中二年（781年）赐死
+  birth_date: '0727'
+  death_date: 0781
+  era: 唐
+  reign_ref: 德宗建中年间
+  archetype: 财税改革家
+  dilemmas:
+  - 的两税法在国家急需赋税与地方藩镇 retaining 财权之间的冲突
+  - 个人恩怨（刘晏之死）与朝局倾轧
+  lesson: 制度变革可解一时之困，然立身不谨则功不保身
+  summary_first_person: 我是杨炎，德宗朝宰相。我罢租庸调而行两税法，量出为入，量地制税，为唐后期财赋奠基；然我构陷刘晏，终亦为卢杞所倾，贬崖州而赐死。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/杨炎_(唐朝)
+endeavors:
+- id: guji-杨炎-endeavor-1
+  name_zh: 创行两税法
+  phases:
+  - key: brewing
+    name_zh: 任职计相
+    labels:
+      zh:
+      - 度支
+    start_date: 0780
+  - key: breakthrough
+    name_zh: 建中定税
+    labels:
+      zh:
+      - 两税法
+    start_date: 0780
+    highlight_event_id: guji-杨炎-event-twoleny
+  - key: closure
+    name_zh: 贬死崖州
+    labels:
+      zh:
+      - 罢相
+    start_date: 0781
+    highlight_event_id: guji-杨炎-event-death
+  decisions:
+  - date: '0780-01-01'
+    title_zh: 奏行两税法
+    rationale: 租庸调崩坏，户口失实，故主张量出为入、按赀定税
+- id: guji-杨炎-endeavor-2
+  name_zh: 入相与倾轧
+  phases:
+  - key: breakthrough
+    name_zh: 拜相
+    labels:
+      zh:
+      - 宰相
+    start_date: '0780-02-01'
+  - key: climax
+    name_zh: 构陷刘晏
+    labels:
+      zh:
+      - 排除异己
+    start_date: '0780-11-01'
+  decisions:
+  - date: '0780-11-01'
+    title_zh: 诬奏刘晏致其赐死
+    rationale: 挟私怨与权争，致元勋冤死而己声名亦损
+events:
+- id: guji-杨炎-event-birth
+  date: '0727'
+  year_of: 727
+  type: birth
+  title_zh: 杨炎约生于此年
+- id: guji-杨炎-event-chancellor
+  date: '0780-02-01'
+  year_of: 780
+  type: endeavor
+  title_zh: 以门下侍郎同平章事拜相
+  note: 见《唐会要》卷二德宗宰相三十五人名单，杨炎列李勉之后、卢杞之前
+- id: guji-杨炎-event-twoleny
+  date: '0780-01-01'
+  year_of: 780
+  type: endeavor
+  title_zh: 建中元年奏行两税法
+- id: guji-杨炎-event-dismissal
+  date: '0781-10-01'
+  year_of: 781
+  type: endeavor
+  title_zh: 为卢杞所构，罢相贬崖州
+- id: guji-杨炎-event-death
+  date: '0781-12-01'
+  year_of: 781
+  type: death
+  title_zh: 贬途赐死于崖州
