@@ -1,0 +1,133 @@
+person:
+  qid: guji-申不害
+  name_zh: 申不害
+  names:
+    zh: 申不害
+    en: Shen Buhai
+  lifespan:
+    birth:
+      date: -385
+      precision: year
+      is_circa: true
+      raw: 约公元前385年
+    death:
+      date: -337
+      precision: year
+      is_circa: true
+  birth_date: 约公元前385年
+  death_date: 约公元前337年
+  era: 战国
+  reign_ref: 韩昭侯
+  archetype: 法家术治派思想家
+  dilemmas:
+  - 主张君主以术驭臣、藏于无为，与臣下专权蔽君的现实之间存在永恒张力
+  - 任法任数而不任智，但治国又须依赖君主个人察奸之术，法治与术治难以兼全
+  lesson: 明君如身，臣如手；君操其柄而臣行其事，名正则天下自定
+  summary_first_person: 我是申不害，郑国京邑人，后为韩相。我主张君主明法审令、以术御臣——藏于无事、示天下无为，使臣并进辐凑而莫得专君。名自正而事自定，君设其本，臣操其末，此我术治之要。
+  source_urls:
+  - https://zh.wikisource.org/wiki/申子
+endeavors:
+- id: guji-申不害-endeavor-1
+  name_zh: 相韩修术，内修政教
+  labels:
+    zh:
+    - 法家术治
+    - 国治兵强
+  phases:
+  - key: brewing
+    name_zh: 学本黄老，修术于郑韩之间
+    labels:
+      zh:
+      - 黄老之学
+    start_date: -360
+    highlight_event_id: guji-申不害-event-study
+  - key: breakthrough
+    name_zh: 为韩昭侯相，内修政教外应诸侯
+    labels:
+      zh:
+      - 相韩
+    start_date: -351
+    highlight_event_id: guji-申不害-event-chancellor
+  - key: climax
+    name_zh: 著申子言术，垂名后世
+    labels:
+      zh:
+      - 著述
+    start_date: -345
+    highlight_event_id: guji-申不害-event-writing
+  - key: closure
+    name_zh: 终申子之身，国治兵强
+    labels:
+      zh:
+      - 治绩
+    start_date: -340
+    highlight_event_id: guji-申不害-event-death
+  decisions:
+  - date: -351
+    title_zh: 应韩昭侯之任而出仕为相
+    rationale: 以黄老刑名之术应用于国政，修明法制，使韩国治兵强
+  - date: -345
+    title_zh: 著书立说，阐明君臣术治之道
+    rationale: 主张君设其本、臣操其末，任法不任智、任数不任说，垂教后世
+- id: guji-申不害-endeavor-2
+  name_zh: 创“术”之体系，与商鞅法、慎到势并峙
+  labels:
+    zh:
+    - 术治派
+    - 刑名之学
+  phases:
+  - key: breakthrough
+    name_zh: 挈“循名责实”之术
+    labels:
+      zh:
+      - 循名责实
+    start_date: -350
+    highlight_event_id: guji-申不害-event-writing
+  - key: climax
+    name_zh: 主“因任授官”与“藏于无事”之无为术
+    labels:
+      zh:
+      - 无为之术
+    start_date: -340
+    highlight_event_id: guji-申不害-event-writing
+  decisions:
+  - date: -350
+    title_zh: 确立“术”为治国之柄
+    rationale: 明君如身、臣如手，操契责名，防臣专蔽君，以保君权与国治
+events:
+- id: guji-申不害-event-birth
+  date: -385
+  year_of: -385
+  type: birth
+  title_zh: 申不害生于郑国京邑（约）
+  location_zh: 郑国京邑（今河南荥阳附近）
+- id: guji-申不害-event-study
+  date: -360
+  year_of: -360
+  type: endeavor-start
+  title_zh: 学本黄老，修刑名之术
+  location_zh: 郑
+  related_endeavor: guji-申不害-endeavor-1
+- id: guji-申不害-event-chancellor
+  date: -351
+  year_of: -351
+  type: appointment
+  title_zh: 为韩昭侯相，内修政教、外应诸侯
+  location_zh: 韩国
+  related_endeavor: guji-申不害-endeavor-1
+  detail: 十五年，终申子之身，国治兵强，无侵韩者
+- id: guji-申不害-event-writing
+  date: -345
+  year_of: -345
+  type: publication
+  title_zh: 著《申子》二篇，倡术治、循名责实
+  location_zh: 韩国
+  related_endeavor: guji-申不害-endeavor-2
+  detail: 主张任法不任智、任数不任说，藏于无事、示天下无为
+- id: guji-申不害-event-death
+  date: -337
+  year_of: -337
+  type: death
+  title_zh: 申不害卒于韩（约）
+  location_zh: 韩国
+  related_endeavor: guji-申不害-endeavor-1
