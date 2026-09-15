@@ -1,0 +1,79 @@
+person:
+  qid: guji-张照
+  name_zh: 张照
+  names:
+    zh: 张照
+    en: Zhang Zhao
+  lifespan:
+    birth:
+      date: '1691-01-01'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1691-01-01'
+  death_date: '1745-01-01'
+  era: 清代
+  reign_ref: 康熙、雍正、乾隆
+  archetype: 书家
+  lesson: 书法精绝，后世推为本朝书家第一，其指授传承影响同道。
+  summary_first_person: 我张照，字得天，官至尚书，谥文敏。时人以为国朝书家，自张文敏外，无出其右者，何国宗等皆得我笔法指授。
+endeavors:
+- id: guji-张照-endeavor-1
+  key_hint: brewing
+  name_zh: 书艺修养
+  labels:
+    zh: 临摹古人
+  start_date: '1705-01-01'
+  phases:
+  - key: brewing
+    name_zh: 临摹诸家
+    labels:
+      zh: 临摹宝晋
+    start_date: '1705-01-01'
+  - key: breakthrough
+    name_zh: 自成名家
+    labels:
+      zh: 书法卓绝
+    start_date: '1725-01-01'
+    highlight_event_id: guji-张照-event-1
+  - key: climax
+    name_zh: 指授后学
+    labels:
+      zh: 得天尚书
+    start_date: '1735-01-01'
+    highlight_event_id: guji-张照-event-2
+  decisions:
+  - date: '1725-01-01'
+    title_zh: 以临摹出宝晋自律
+    rationale: 临摹精深，上有诗以赠，时人重其书。
+events:
+- id: guji-张照-event-birth
+  person: guji-张照
+  date: '1691-01-01'
+  date_precision: year
+  year_of: 1691
+  type: birth
+  summary_zh: 张照生（生年据通行记载约当康熙三十年）。
+- id: guji-张照-event-1
+  person: guji-张照
+  date: '1725-01-01'
+  date_precision: year
+  year_of: 1725
+  type: endeavor
+  endeavor_ref: guji-张照-endeavor-1
+  summary_zh: 临摹出宝晋，上有诗赐赠，书名渐显。
+- id: guji-张照-event-2
+  person: guji-张照
+  date: '1735-01-01'
+  date_precision: year
+  year_of: 1735
+  type: endeavor
+  endeavor_ref: guji-张照-endeavor-1
+  summary_zh: 官尚书，人称张得天尚书；何国宗笔法得其指授（见《评书帖》）。
+- id: guji-张照-event-death
+  person: guji-张照
+  date: '1745-01-01'
+  date_precision: year
+  year_of: 1745
+  type: death
+  summary_zh: 张照卒，谥文敏；后世论本朝书家，首推张文敏。
