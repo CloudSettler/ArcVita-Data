@@ -1,0 +1,86 @@
+person:
+  qid: guji-史万岁
+  name_zh: 史万岁
+  names:
+    zh: 史万岁
+    en: Shi Wansui
+  lifespan:
+    birth:
+      date: 0549
+      precision: year
+      is_circa: true
+      raw: 生年不详，约西魏末
+    death:
+      date: '0600'
+      precision: year
+      is_circa: false
+  birth_date: 0549
+  death_date: '0600'
+  era: 隋
+  reign_ref: 隋文帝开皇年间
+  archetype: 名将
+  dilemmas:
+  - 军功见忌于主上，终遭谗杀
+  - 远征南中，遇武侯石刻碑铭，毁碑与否的两难
+  lesson: 功高易震主，.tree 大将之名亦有不可踰越之界
+  summary_first_person: 我史万岁，隋行军总管、太平公。曾南征南宁，破三十余部，至白崖见诸葛亮纪功碑，铭曰"万岁之后胜我者过此"，我命左右踣之，而碑趺复有志云"史万岁不应踣吾碑"，我惊异，复树碑祭拜而去。后世传我之名于此。
+endeavors:
+- id: guji-史万岁-endeavor-1
+  name_zh: 南征南宁诸部
+  phases:
+  - key: brewing
+    name_zh: 受命征讨
+    labels:
+      zh: 奉旨南征
+    start_date: 0597
+  - key: breakthrough
+    name_zh: 西破三十余部
+    labels:
+      zh: 平定爨氏
+    start_date: 0598
+    highlight_event_id: guji-史万岁-event-campaign
+  - key: climax
+    name_zh: 白崖遇碑
+    labels:
+      zh: 踣碑祭拜
+    start_date: 0598
+    highlight_event_id: guji-史万岁-event-stele
+  - key: closure
+    name_zh: 班师
+    labels:
+      zh: 凯旋
+    start_date: 0598
+  decisions:
+  - date: 0598
+    title: 命左右踣武侯纪功碑
+    rationale: 见碑铭"万岁之后胜我者过此"，意气自胜，欲踣此碑
+  - date: 0598
+    title: 复树碑祭拜而去
+    rationale: 趺复有志"史万岁不应踣吾碑"，惊异其验，遂复树碑祭拜
+events:
+- id: guji-史万岁-event-birth
+  date: 0549
+  year_of: 549
+  event_type: birth
+  name_zh: 史万岁生（约）
+  description_zh: 史万岁约生于西魏之际，生年史无明文，以约计。
+- id: guji-史万岁-event-campaign
+  date: 0598
+  year_of: 598
+  event_type: endeavor
+  endeavor_id: guji-史万岁-endeavor-1
+  name_zh: 征南宁夷爨翫，西破三十余部
+  description_zh: 隋时行军总管太平公史万岁征南宁夷爨翫，西破三十余部。
+- id: guji-史万岁-event-stele
+  date: 0598
+  year_of: 598
+  event_type: endeavor
+  endeavor_id: guji-史万岁-endeavor-1
+  name_zh: 白崖见武侯碑，踣而复祭
+  description_zh: 万岁至白崖，见诸葛亮所立铁柱并『南中纪功碑』，铭曰"万岁之后胜我者过此"，命左右踣之；碑趺复有志"史万岁不应踣吾碑"，惊异，复树碑祭拜而去。
+- id: guji-史万岁-event-death
+  date: '0600'
+  year_of: 600
+  event_type: death
+  name_zh: 史万岁卒
+  description_zh: 隋开皇之末，名将史万岁卒（遭忌见杀之年，据史通例约计于600年）。
