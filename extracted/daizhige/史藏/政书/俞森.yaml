@@ -1,0 +1,154 @@
+person:
+  qid: guji-俞森
+  names:
+    zh: 俞森
+    en: Yu Sen
+  name_zh: 俞森
+  era: 清代康熙年间
+  reign_ref: 康熙
+  archetype: 荒政学者
+  lifespan:
+    birth:
+      is_circa: true
+      raw: 生年不详
+      precision: unknown
+    death:
+      is_circa: true
+      raw: 卒年不详
+      precision: unknown
+  dilemmas:
+  - 积储为救荒之本，而官仓常为具文，如何使善法真正施行于民
+  - 救荒之策繁杂，如何辑古人之言使司牧者便于简阅
+  lesson: 救荒无奇策，贵在预为之备；取昔人良规而究其弊，方可以济民瘼
+  summary_first_person: 我是俞森，号存斋，钱塘人。由贡生历官至湖广布政司参议。康熙庚午年，我辑成《荒政丛书》十卷，取董煟、林希元、屠隆、周孔教、钟化民、刘世教、魏禧七家救荒之言，又自作常平、义仓、社仓三考，溯其源、究其弊，愿司牧者便于简阅，以念切民瘼。
+  source_urls:
+  - https://www.example.org/guji/huangzheng Congshu
+endeavors:
+- id: guji-俞森-endeavor-1
+  title: 辑撰《荒政丛书》
+  summary: 辑宋以来七家救荒之言，并自作常平、义仓、社仓三考，成书十卷，刊行于康熙庚午。
+  labels:
+    zh: 文献编纂
+  phases:
+  - key: brewing
+    name_zh: 任河南佥事时撰三考
+    labels:
+      zh: 任职撰述
+    start_date: '1685'
+    highlight_event_id: guji-俞森-event-book-start
+  - key: climax
+    name_zh: 康熙庚午成书并作序
+    labels:
+      zh: 成书刊行
+    start_date: 1690-02
+    highlight_event_id: guji-俞森-event-book-done
+  - key: closure
+    name_zh: 附郧襄赈济事宜及捕蝗集要
+    labels:
+      zh: 续补
+    highlight_event_id: guji-俞森-event-appendix
+  decisions:
+  - date: 1690-02
+    title: 取昔人良规登之梨枣
+    rationale: 皇上忧民之切，中外诸公亟问荒政，故将所藏本刊刻，与各属讲究亟图赈济，以仰承宵旰之意
+- id: guji-俞森-endeavor-2
+  title: 历任救荒济民之官职
+  summary: 由贡生出身，先官河南佥事、巡理河南通省河道，后至湖广布政司参议、分守荆南道，皆切于荒政。
+  labels:
+    zh: 宦游
+  phases:
+  - key: brewing
+    name_zh: 由贡生入仕
+    labels:
+      zh: 入仕
+    start_date: '1670'
+    highlight_event_id: guji-俞森-event-gongsheng
+  - key: breakthrough
+    name_zh: 官河南佥事巡理河道
+    labels:
+      zh: 河南任职
+    start_date: '1685'
+    highlight_event_id: guji-俞森-event-henan
+  - key: climax
+    name_zh: 官至湖广布政司参议，分守荆南道
+    labels:
+      zh: 湖广任职
+    start_date: '1690'
+    highlight_event_id: guji-俞森-event-huguang
+  decisions:
+  - date: 1690-02
+    title: 以巡理河南河道佥事加四级身份作序
+    rationale: 承乏河员亦不敢谓赈济非职所宜尽，欲措置一二以不负子惠元元之素志
+events:
+- id: guji-俞森-event-birth
+  title: 俞森生
+  type: birth
+  date: '1635'
+  year_of: 1635
+  precision: estimated
+  participants:
+  - guji-俞森
+  summary: 钱塘人，号存斋，生年史无明文。
+- id: guji-俞森-event-gongsheng
+  title: 贡生出身入仕
+  type: career
+  date: '1670'
+  year_of: 1670
+  precision: estimated
+  participants:
+  - guji-俞森
+  summary: 俞森由贡生出仕。
+- id: guji-俞森-event-henan
+  title: 官河南佥事，巡理河南通省河道
+  type: career
+  date: '1686'
+  year_of: 1686
+  precision: estimated
+  participants:
+  - guji-俞森
+  summary: 其官河南佥事时所撰常平、义仓、社仓三考，后收入《荒政丛书》。
+- id: guji-俞森-event-book-start
+  title: 撰常平考、义仓考、社仓考
+  type: writing
+  date: '1686'
+  year_of: 1686
+  precision: estimated
+  participants:
+  - guji-俞森
+  summary: 俞森于河南佥事任上撰三考，溯积储之法源而究其弊。
+- id: guji-俞森-event-book-done
+  title: 《荒政丛书》成于康熙庚午并作序
+  type: writing
+  date: 1690-02
+  year_of: 1690
+  precision: year
+  participants:
+  - guji-俞森
+  summary: 辑董煟、林希元、屠隆、周孔教、钟化民、刘世教、魏禧七家之言共十卷，于康熙庚午上元节谨序。
+- id: guji-俞森-event-appendix
+  title: 附郧襄赈济事宜及捕蝗集要
+  type: writing
+  date: '1690'
+  year_of: 1690
+  precision: year
+  participants:
+  - guji-俞森
+  summary: 官分守荆南道时所撰，附于《荒政丛书》卷末。
+- id: guji-俞森-event-huguang
+  title: 历官至湖广布政司参议
+  type: career
+  date: '1690'
+  year_of: 1690
+  precision: year
+  participants:
+  - guji-俞森
+  summary: 《荒政丛书》署湖广布政司参议俞森撰。
+- id: guji-俞森-event-death
+  title: 俞森卒
+  type: death
+  date: '1700'
+  year_of: 1700
+  precision: estimated
+  participants:
+  - guji-俞森
+  summary: 卒年不详，著述行世。
