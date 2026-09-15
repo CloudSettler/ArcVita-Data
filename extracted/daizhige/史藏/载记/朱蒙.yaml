@@ -1,0 +1,97 @@
+person:
+  qid: guji-zhumeng
+  name_zh: 朱蒙
+  names:
+    zh: 朱蒙
+    en: Jumong
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 夫余国诞卵而生
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 朱蒙死 子如栗立
+  era: 汉代夫余至西汉
+  reign_ref: 夫余—讫升骨城高句骊建国
+  archetype: 建国始祖·善射英雄
+  dilemmas:
+  - 夫余王欲杀之 何去何从
+  - 弃其母与马 东走渡河
+  lesson: 善用天赋并果断弃绝险境 方能开国立业
+  summary_first_person: 我本夫余河伯女日影所照而生卵中 再生为男 善射故名朱蒙 遭夫余王猜忌谋杀 乃弃母东走 鱼鳖成桥助我渡河 至讫升骨城建国 号曰高句骊 因以高为氏
+  source_urls:
+  - 咸宾录·东夷志卷二·朝鲜
+endeavors:
+- id: guji-zhumeng-endeavor-1
+  name_zh: 诞生于夫余
+  phases:
+  - key: brewing
+    name_zh: 河伯女生卵
+    labels:
+      zh: -诞生于夫余
+    highlight_event_id: guji-zhumong-event-birth
+  decisions:
+  - title_zh: 减骏马食令瘦 善养驽者令肥
+    rationale: 应对王以肥瘦赐马 留弱马于己
+- id: guji-zhumeng-endeavor-2
+  name_zh: 东走建国高句骊
+  phases:
+  - key: climax
+    name_zh: 东走渡河
+    labels:
+      zh: -东走建国高句骊
+    highlight_event_id: guji-zhumong-event-escape
+  - key: closure
+    name_zh: 居讫升骨城
+    labels:
+      zh: -东走建国高句骊
+  decisions:
+  - title_zh: 弃其母与马达等二人东走
+    rationale: 夫余王谋杀 不得不走的抉择
+events:
+- id: guji-zhumong-event-birth
+  endeavor_id: guji-zhumeng-endeavor-1
+  precision: year
+  is_circa: true
+  title_zh: 夫余河伯女感日影生卵 破卵得一男 字曰朱蒙
+  labels:
+    zh: -诞生朱蒙
+  participants:
+  - 朱蒙
+  summary_zh: 夫余王尝得河伯女 因闲于室为日影所照遂孕 怀大如五升 破而得一男 及长字之曰朱蒙 俚言朱蒙者善射也
+- id: guji-zhumong-event-archery
+  endeavor_id: guji-zhumeng-endeavor-1
+  precision: event
+  is_circa: true
+  title_zh: 含养马术 王狩一矢殪兽甚多
+  labels:
+    zh: -诞生于夫余
+  participants:
+  - 朱蒙
+  summary_zh: 王令养马 朱蒙以肥瘦换马 王狩给微 一矢殪兽甚多 以彰其射艺
+- id: guji-zhumong-event-escape
+  endeavor_id: guji-zhumeng-endeavor-2
+  precision: event
+  is_circa: true
+  title_zh: 东走遇河 鱼鳖成桥 得渡河
+  labels:
+    zh: -东走建国高句骊
+  participants:
+  - 朱蒙
+  - 夫余王
+  summary_zh: 夫余王谋杀之 朱蒙弃母与马达等二人东走 河难济追者又迫 朱蒙自言我日之子河伯外孙 俄而鱼鳖成桥 朱蒙得渡 鱼鳖乃解
+- id: guji-zhumong-event-founding
+  endeavor_id: guji-zhumeng-endeavor-2
+  precision: year
+  is_circa: true
+  title_zh: 至普述水 遇三人 至讫升骨城居焉 号曰高句骊 因以高为氏
+  labels:
+    zh: -东走建国高句骊
+  participants:
+  - 朱蒙
+  - 麻衣人
+  - 衲衣人
+  - 水藻衣人
+  summary_zh: 朱蒙遂至普述水 遇三人同行 至讫升骨城遂居焉 号曰高句骊 因以高为氏 开国之基
