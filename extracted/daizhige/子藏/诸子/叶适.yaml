@@ -1,0 +1,105 @@
+person:
+  qid: guji-叶适
+  name_zh: 叶适
+  names:
+    zh: 叶适
+    en: Ye Shi
+  lifespan:
+    birth:
+      date: '1150-05-26'
+      precision: decade
+      is_circa: true
+      raw: 生卒年古籍未详 reloading，据传约生于绍兴年间
+    death:
+      date: '1223'
+      precision: year
+      is_circa: true
+      raw: 卒于嘉定末年（据宋史儒林传，本文未载）
+  birth_date: '1150'
+  death_date: '1223'
+  era: 南宋
+  reign_ref: 淳熙
+  archetype: 学者
+  dilemmas:
+  - 志在经世济时，而仕途屡经起落
+  - 论学喜出新义，与恪守洛闽之学的时论相左
+  lesson: 考核精博、议论英伟，独见出于深思而不袭陈言
+  summary_first_person: 我叶适，字正则，自号水心居士，永嘉人。淳熙五年登进士第，官至宝文阁学士，谥忠定。我辑录经史百子各为论述，成《习学记言》五十卷，凡经十四卷、诸子七卷、史二十五卷、文鉴四卷。所论喜为新奇，不屑摭拾陈语，虽议者或谓义理未纯，然如考辨子思生卒、斥汉人五行灾异之说，皆确有所见，足以副我雄辨之才。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&chapter=习学记言
+endeavors:
+- id: guji-叶适-endeavor-1
+  name_zh: 科举入仕
+  phases:
+  - key: breakthrough
+    name_zh: 进士登第
+    labels:
+      zh: 登第
+    start_date: '1178'
+    highlight_event_id: guji-叶适-event-jinshi
+  decisions:
+  - date: '1178'
+    title_zh: 淳熙五年应进士举
+    rationale: 以永嘉之学名士身份赴试，登第入仕，开启宦途
+- id: guji-叶适-endeavor-2
+  name_zh: 撰《习学记言》五十卷
+  phases:
+  - key: brewing
+    name_zh: 读书治学
+    labels:
+      zh: 治学
+    start_date: '1178'
+    highlight_event_id: guji-叶适-event-book
+  - key: climax
+    name_zh: 辑录经史百氏为论述
+    labels:
+      zh: 著述
+    start_date: '1210'
+    highlight_event_id: guji-叶适-event-book
+  decisions:
+  - date: '1210'
+    title_zh: 辑录经史百子各为论述，条列成编
+    rationale: 遍观经十四卷、诸子七卷、史二十五卷、文鉴四卷，喜出新奇，不采陈语
+- id: guji-叶适-endeavor-3
+  name_zh: 仕至宝文阁学士
+  phases:
+  - key: closure
+    name_zh: 官至学士、身后得谥
+    labels:
+      zh: 结衔
+    highlight_event_id: guji-叶适-event-office
+  decisions:
+  - date: '1215'
+    title_zh: 累迁至宝文阁学士
+    rationale: 立朝论事有直声，卒得高位，身后谥忠定
+events:
+- id: guji-叶适-event-birth
+  endeavor_id: guji-叶适-endeavor-2
+  year_of: 1150
+  date: '1150-05-26'
+  title_zh: 出生于永嘉（约）
+  summary: 叶适生于温州永嘉，约为绍兴年间。
+- id: guji-叶适-event-jinshi
+  endeavor_id: guji-叶适-endeavor-1
+  year_of: 1178
+  date: '1178'
+  title_zh: 淳熙五年登进士第
+  summary: 淳熙五年（1178）叶适中进士，步入仕途。
+- id: guji-叶适-event-book
+  endeavor_id: guji-叶适-endeavor-2
+  year_of: 1213
+  date: '1213'
+  title_zh: 撰成《习学记言》五十卷
+  summary: 辑录经史百氏，各为论述条列成编：经十四卷、诸子七卷、史二十五卷、文鉴四卷；所论喜为新奇，如疑太极生两仪之语、辩国语非左氏所作、驳汉人洪范五行灾异之说。
+- id: guji-叶适-event-office
+  endeavor_id: guji-叶适-endeavor-3
+  year_of: 1217
+  date: '1217'
+  title_zh: 官至宝文阁学士
+  summary: 官阶终于宝文阁学士，其学行载于《宋史·儒林传》。
+- id: guji-叶适-event-death
+  endeavor_id: guji-叶适-endeavor-3
+  year_of: 1223
+  date: '1223'
+  title_zh: 去世，谥忠定
+  summary: 叶适卒，朝廷赐谥忠定。
