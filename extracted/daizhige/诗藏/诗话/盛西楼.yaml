@@ -1,0 +1,72 @@
+person:
+  qid: guji-盛西楼
+  name_zh: 盛西楼
+  names:
+    zh: 盛西楼
+    en: Sheng Xilou
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+    death:
+      date: '1867'
+      precision: year
+      is_circa: true
+      raw: 回匪之乱，死于城下
+  death_date: 约1867年（咸丰同治回民起义期间）
+  era: 清代晚期
+  reign_ref: 咸丰、同治年间
+  archetype: 殉难书生
+  dilemmas: -乱世坚守孤城，才節俱存而报國无门 - 身为茂才（秀才），立足功名与保全性命之间
+  lesson: 乱世之中，文人之气节可存于诗，虽死而风骨不灭。
+  summary_first_person: 我盛西楼，云南保山人，以茂才居于乡里。生平清才峻节，好为诗。值回民起乱围城，我死于城下。生平题壁诗如《太保山寺题壁》《首阳山怀古》等，倜傥风慨，后由云龙守永昌时犹见于壁，录入《定庵诗话》以传。
+  source_urls:
+  - https://zh.wikisource.org/wiki/定庵诗话
+endeavors:
+- id: guji-盛西楼-endeavor-1
+  name_zh: 保山读书与诗名初立
+  phases:
+  - key: brewing
+    name_zh: 早年攻举业
+    labels:
+      zh:
+      - 茂才
+      - 读书
+    highlight_event_id: guji-盛西楼-event-poem-taibaoshan
+  decisions:
+  - title_zh: 以茂才居保山，以诗自见
+    rationale: 清才峻节，为乡里所称
+- id: guji-盛西楼-endeavor-2
+  name_zh: 乱世守城殉難
+  phases:
+  - key: climax
+    name_zh: 回匪之乱死于城下
+    labels:
+      zh:
+      - 殉难
+      - 守城
+    start_date: '1867'
+    highlight_event_id: guji-盛西楼-event-death
+  decisions:
+  - date: '1867'
+    title_zh: 不去乡，死于城下
+    rationale: 值回乱围城，坚守不避，以身殉之
+events:
+- id: guji-盛西楼-event-birth
+  title_zh: 生
+  description_evidence: 生卒年不详，仅知为保山茂才
+  category: birth
+- id: guji-盛西楼-event-poem-taibaoshan
+  title_zh: 题诗太保山寺
+  description_evidence: 《太保山寺题壁》一律：“莽莽妖氛卷地来……嘱咐梅花且莫开。”又有《首阳山怀古》《都门留别》《春日述怀》诸作。
+  category: achievement
+- id: guji-盛西楼-event-death
+  date: '1867'
+  year_of: 1867
+  title_zh: 回匪之乱，死于城下
+  description_evidence: 保山盛西楼茂才，清才峻节。回匪之乱，死于城下。
+  category: death
+- id: guji-盛西楼-event-afterlife
+  title_zh: 遺诗见于题壁，由云龙录之
+  description_evidence: 余守永昌时，犹见其《太保山寺题壁》一律，录此以见其倜傥风慨。
+  category: legacy
