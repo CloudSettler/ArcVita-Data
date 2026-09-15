@@ -1,0 +1,135 @@
+person:
+  qid: guji-liuji
+  name_zh: 刘基
+  names:
+    zh: 刘基（字伯温，号郁离子）
+    en: Liu Ji (Liu Bowen)
+  lifespan:
+    birth:
+      date: '1311-07-01'
+      precision: day
+      is_circa: true
+      raw: 元至大四年
+      year_of: 1311
+    death:
+      date: '1375-05-16'
+      precision: day
+      is_circa: true
+      raw: 明洪武八年
+      year_of: 1375
+  birth_date: '1311-07-01'
+  death_date: '1375-05-16'
+  era: 元末明初
+  reign_ref:
+  - 元
+  - 明洪武
+  archetype: 谋士·开国功臣·著述家
+  dilemmas:
+  - 道不行于元廷，弃官隐居著书，还是随波苟且
+  - 出仕新朝辅佐大明，还是守节终老山林
+  lesson: 学以开物成务，不获设施则笔之方册以传后世
+  summary_first_person: 我刘基，字伯温，括苍人。元末登进士第，有志尊主庇民，然当国者因循苟且，累建大议而不行，遂弃官屏居青田山中，发愤著《郁离子》。及皇上龙兴，出佐大业，定功行赏，膺五等之爵，为诚意伯。
+  source_urls:
+  - https://zh.wikisource.org/wiki/郁离子
+endeavors:
+- id: guji-liuji-endeavor-1
+  name_zh: 元季仕途与弃官著书
+  phases:
+  - key: brewing
+    name_zh: 登第入仕
+    labels:
+      zh: 元末进士
+    start_date: '1330-01-01'
+  - key: breakthrough
+    name_zh: 参赞军事建言
+    labels:
+      zh: 累建大议
+    start_date: '1348-01-01'
+    highlight_event_id: guji-liuji-event-advice-unchanged
+  - key: climax
+    name_zh: 弃官屏居著书
+    labels:
+      zh: 屏居青田
+    start_date: '1352-01-01'
+    highlight_event_id: guji-liuji-event-writings
+  - key: closure
+    name_zh: 书成传世
+    labels:
+      zh: 郁离子成书
+    start_date: '1360-01-01'
+  decisions:
+  - date: '1352-01-01'
+    title_zh: 弃官去，屏居青田山中
+    rationale: 当国者乐因循而悦苟且，抑而不行其策，遂发愤著书
+- id: guji-liuji-endeavor-2
+  name_zh: 辅翼大明·开国封爵
+  phases:
+  - key: brewing
+    name_zh: 天意有在，出佐新朝
+    labels:
+      zh: 出山辅明
+    start_date: '1360-01-01'
+  - key: breakthrough
+    name_zh: 以宏谟伟略辅翼兴运
+    labels:
+      zh: 运筹帷幄
+    start_date: '1360-01-01'
+    highlight_event_id: guji-liuji-event-assist
+  - key: climax
+    name_zh: 定功行赏，膺五等之爵
+    labels:
+      zh: 封诚意伯
+    start_date: '1370-01-01'
+    highlight_event_id: guji-liuji-event-title
+  - key: closure
+    name_zh: 功成身卒，书传后世
+    labels:
+      zh: 遗泽方册
+    start_date: '1375-01-01'
+  decisions:
+  - date: '1360-01-01'
+    title_zh: 出山辅佐朱元璋
+    rationale: 楚材晋用，元不能用其言，而新朝纳其宏谟伟略
+events:
+- id: guji-liuji-event-birth
+  type: birth
+  date: '1311-07-01'
+  year_of: 1311
+  title_zh: 刘基生于括苍青田
+  description: 公讳基，字伯温，括苍人。
+- id: guji-liuji-event-jinshi
+  type: endeavor
+  date: '1333-01-01'
+  year_of: 1333
+  title_zh: 年二十余登进士第
+  description: 年二十己登进士第，有志于尊主庇民。
+- id: guji-liuji-event-advice-unchanged
+  type: endeavor
+  date: '1348-01-01'
+  year_of: 1348
+  title_zh: 参赞藩阃兵务，累建大议不为用
+  description: 藩阃方务治兵，辟公参赞，累建大议，皆匡时之长策，而当国者抑而不行。
+- id: guji-liuji-event-writings
+  type: endeavor
+  date: '1352-01-01'
+  year_of: 1352
+  title_zh: 屏居青田山中，发愤著《郁离子》
+  description: 弃官去，屏居青田山中，发愤著书。其书总为十卷，十八十八章，一百九十五 či条。
+- id: guji-liuji-event-assist
+  type: endeavor
+  date: '1360-01-01'
+  year_of: 1360
+  title_zh: 出佐维新之朝，辅翼兴运
+  description: 皇上龙兴，卒以宏谟伟略，辅翼兴运。
+- id: guji-liuji-event-title
+  type: endeavor
+  date: '1370-01-01'
+  year_of: 1370
+  title_zh: 定功行赏，封诚意伯
+  description: 及定功行赏，疏土分封，遂膺五等之爵，与元勋大臣丹书铁券联休共美。
+- id: guji-liuji-event-death
+  type: death
+  date: '1375-05-16'
+  year_of: 1375
+  title_zh: 刘基薨
+  description: 今公已薨，其子仲璟惧其散轶，请序以传其书。
