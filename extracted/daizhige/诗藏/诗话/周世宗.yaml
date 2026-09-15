@@ -1,0 +1,89 @@
+person:
+  qid: guji-周世宗
+  name_zh: 周世宗
+  names:
+    zh: 周世宗
+    en: Emperor Shizong of Later Zhou
+  lifespan:
+    birth:
+      date: '921'
+      precision: year
+      is_circa: true
+      raw: 世传柴世宗时烧造所司请其色
+    death:
+      date: '959'
+      precision: year
+      is_circa: false
+      raw: 显德六年崩
+  birth_date: '921'
+  death_date: '959'
+  era: 五代后周
+  reign_ref: 显德年间(954-959)
+  archetype: 英武有大略而善纳直言之君主
+  dilemmas:
+  - 作诗之好与帝王之务不可兼得
+  - 御用珍器之雅趣与天下大计之取舍
+  lesson: 英主识大略，能纳窦俨之谏而弃雕虫之好，为天下者在此不在彼
+  summary_first_person: 朕尝为小诗示窦俨，俨劝朕曰四方僭伪之主皆能诗，求工则废务。朕悟而为帝王大计，遂不复作；惟于柴窑御批定色，留下千古之趣。
+  source_urls:
+  - https://zh.wikisource.org/wiki/五代诗话
+endeavors:
+- id: guji-周世宗-endeavor-1
+  name_zh: 御批柴窑定青天釉色
+  phases:
+  - key: brewing
+    name_zh: 设烧造所
+    labels:
+      zh: 御窑初创
+    start_date: '0540'
+    highlight_event_id: guji-周世宗-event-kiln
+  - key: breakthrough
+    name_zh: 御批定色
+    labels:
+      zh: 雨过青天
+    start_date: '0550'
+    highlight_event_id: guji-周世宗-event-kiln
+  decisions:
+  - date: '0550'
+    title_zh: 御批柴窑釉色
+    rationale: 所司请其色，世宗批云雨过青天云破处这般颜色做将来，遂成千古名色
+- id: guji-周世宗-endeavor-2
+  name_zh: 弃诗从政之决断
+  phases:
+  - key: brewing
+    name_zh: 尝作小诗
+    labels:
+      zh: 吟咏初试
+    start_date: '0540'
+    highlight_event_id: guji-周世宗-event-poetry
+  - key: closure
+    name_zh: 纳谏辍作
+    labels:
+      zh: 不工则为所窥
+    start_date: '0554'
+    highlight_event_id: guji-周世宗-event-poetry
+  decisions:
+  - date: '0554'
+    title_zh: 因窦俨之言遂不复作诗
+    rationale: 俨言求工则废务，不工则为所窥；世宗悟帝王大略，即弃去而不以为忤
+events:
+- id: guji-周世宗-event-birth
+  date: 0921
+  year_of: '921'
+  title_zh: 柴荣生
+  summary: 周世宗约生于后梁龙德年间，后世所纪，约当其时。
+- id: guji-周世宗-event-poetry
+  date: 0954
+  year_of: 0954
+  title_zh: 示诗窦俨，纳谏不复作
+  summary: 杨文公谈苑载，周世宗尝为小诗示窦俨。俨言今四方僭伪主各能为之，若求工则废务，不工则为所窥。世宗遂不复作，识帝王大略。
+- id: guji-周世宗-event-kiln
+  date: 0955
+  year_of: 0955
+  title_zh: 御批柴窑雨过青天色
+  summary: 世传柴世宗时烧造所司请其色，御批云雨过青天云破处这般颜色做将来。柴窰最古，色鲜碧而质莹薄，后世得其碎片与金翠同价。
+- id: guji-周世宗-event-death
+  date: 0959
+  year_of: 0959
+  title_zh: 周世宗崩
+  summary: 世宗在位数年而崩，恭帝柴宗训继立，旋禅于宋。
