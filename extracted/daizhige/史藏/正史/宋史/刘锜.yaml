@@ -1,0 +1,183 @@
+person:
+  qid: guji-liu-qi
+  name_zh: 刘锜
+  names:
+    zh: 刘锜
+    en: Liu Qi
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1162
+      precision: year
+      is_circa: false
+      raw: 绍兴三十二年闰二月
+  birth_date: ''
+  death_date: 1162
+  era: 南宋
+  reign_ref: 宋高宗绍兴年间
+  archetype: 儒将·抗金名将
+  dilemmas:
+  - 顺昌被围时守城死战还是护送老幼南撤
+  - 柘皋之役后与张俊交恶、功赏不均
+  lesson: 以逸待劳、置之死地而后生，忠勇可恃而时运难违
+  summary_first_person: 我刘锜以八字军守顺昌，以少胜多大破兀术铁浮图与拐子马；晚年抱病防江，功败于谗妒，呕血而卒。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷366
+endeavors:
+- id: guji-liu-qi-endeavor-1
+  name_zh: 顺昌大捷
+  phases:
+  - key: brewing
+    name_zh: 整编八字军
+    labels:
+      zh:
+      - 整军
+      - 宿卫
+    start_date: 1136
+  - key: breakthrough
+    name_zh: 决守顺昌
+    labels:
+      zh:
+      - 守城
+      - 决断
+    start_date: 1140-05
+    highlight_event_id: guji-liu-qi-event-shunchang-chengpo
+  - key: climax
+    name_zh: 大破铁浮图
+    labels:
+      zh:
+      - 决战
+      - 以逸待劳
+    start_date: 1140-06
+    highlight_event_id: guji-liu-qi-event-shunchang-jie
+  - key: closure
+    name_zh: 班师失机
+    labels:
+      zh:
+      - 罢兵
+    start_date: 1140-07
+  decisions:
+  - date: 1140-05
+    title_zh: 玫言去者斩，决意守顺昌
+    rationale: 东京虽失，幸全军至顺昌，有城可守，弃之则敌侵两淮震惊江浙。
+  - date: 1140-05
+    title_zh: 凿舟沉之，置家寺中积薪
+    rationale: 示无去意，激励将士死战。
+  - date: 1140-06
+    title_zh: 先击兀术而非韩将军
+    rationale: 兀术一动，余众无能为。
+- id: guji-liu-qi-endeavor-2
+  name_zh: 晚年防江与抱病而终
+  phases:
+  - key: brewing
+    name_zh: 镇荆南
+    labels:
+      zh:
+      - 治郡
+    start_date: 1142
+  - key: climax
+    name_zh: 皂角林之战
+    labels:
+      zh:
+      - 抗金
+      - 制置江淮
+    start_date: 1161-08
+    highlight_event_id: guji-liu-qi-event-zaojiolin
+  - key: closure
+    name_zh: 病卒镇江
+    labels:
+      zh:
+      - 罢兵
+      - 卒
+    start_date: 1162-02
+  decisions:
+  - date: 1142
+    title_zh: 塞黄潭治水患
+    rationale: 建炎间决水御盗致荆衡水患，塞之得膏腴田数千亩，流民自占者几千户。
+  - date: 1161
+    title_zh: 求解兵柄还镇江
+    rationale: 病剧，专用防江。
+events:
+- id: guji-liu-qi-event-birth
+  event_type: birth
+  person_qid: guji-liu-qi
+  date: ''
+  precision: unknown
+  name_zh: 刘锜生
+  description_zh: 德顺军人，泸川军节度使刘仲武第九子，美仪状，善射，声如洪钟。
+- id: guji-liu-qi-event-shouchang-lizhen
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1140-05
+  year_of: 1140
+  precision: month
+  name_zh: 决守顺昌
+  description_zh: 金人败盟来侵，锜与陈规敛兵入城，下令敢言去者斩，凿舟沉之示无去意。
+- id: guji-liu-qi-event-shunchang-chengpo
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1140-06
+  year_of: 1140
+  precision: month
+  name_zh: 顺昌初战破敌
+  description_zh: 葛王褎与龙虎大王合兵三万薄城，锜令开诸门，以羊马垣为阵，用破敌弓神臂弩射敌，破其铁骑数千。
+- id: guji-liu-qi-event-shunchang-jie
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1140-06
+  year_of: 1140
+  precision: month
+  name_zh: 大破铁浮图拐子马
+  description_zh: 兀术以铁浮图、拐子马来攻，锜乘暑敌疲，以锐斧出击，大战自辰至申，兀术铁骑什损七八，拔营北去。
+- id: guji-liu-qi-event-shunchang-shou
+  event_type: award_event
+  person_qid: guji-liu-qi
+  date: 1140-06
+  year_of: 1140
+  precision: month
+  name_zh: 授武泰军节度使
+  description_zh: 顺昌捷闻，帝喜甚，授锜武泰军节度使、侍卫马军都虞候、知顺昌府。
+- id: guji-liu-qi-event-zhegao
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1141
+  year_of: 1141
+  precision: year
+  name_zh: 柘皋之战
+  description_zh: 与张俊、杨沂中会兵，夹石梁河而阵，大败兀术铁骑十万；柘皋之赏锜军独不与。
+- id: guji-liu-qi-event-bamianguan
+  event_type: political_event
+  person_qid: guji-liu-qi
+  date: 1141
+  year_of: 1141
+  precision: year
+  name_zh: 罢宣抚判官
+  description_zh: 张俊、杨沂中言锜战不力，秦桧主其说，罢宣抚判官，知荆南府。
+- id: guji-liu-qi-event-zaojiolin
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1161
+  year_of: 1161
+  precision: year
+  name_zh: 皂角林大捷
+  description_zh: 金万户高景山攻扬州，锜遣员琦拒于皂角林，伏发大败之，斩景山，俘数百人。
+- id: guji-liu-qi-event-guazhou-shibai
+  event_type: endeavor_event
+  person_qid: guji-liu-qi
+  date: 1161-11
+  year_of: 1161
+  precision: month
+  name_zh: 瓜洲之败
+  description_zh: 侄刘汜违命出战先退，李横亦却，失都统制印；锜闻黄帜久不举，愤懑病益甚。
+- id: guji-liu-qi-event-death
+  event_type: death
+  person_qid: guji-liu-qi
+  date: 1162-02
+  year_of: 1162
+  precision: month
+  name_zh: 刘锜卒
+  description_zh: 绍兴三十二年闰二月，发怒呕血数升而卒，赠开府仪同三司，后谥武穆。
