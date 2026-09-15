@@ -1,0 +1,150 @@
+person:
+  qid: guji-苏轼
+  name_zh: 苏轼
+  names:
+    zh: 苏轼
+    en: Su Shi
+  lifespan:
+    birth:
+      date: '1037-01-08'
+      precision: day
+      is_circa: true
+      raw: 景祐三年十二月十九；案卷供状称元丰二年年四十四岁
+    death:
+      date: '1101-08-24'
+      precision: day
+      is_circa: true
+      raw: 建中靖国元年卒于常州
+  birth_date: '1037-01-08'
+  death_date: '1101-08-24'
+  era: 北宋
+  reign_ref: 嘉祐、熙宁、元丰
+  archetype: 因文字获罪的文人直臣·新旧党争中的士大夫
+  dilemmas:
+  - 言事与事君：诗文讥切新法是尽言责还是讪上骂下
+  - 仕与不仕：作《灵壁张氏园亭记》称不必仕不必不仕，被指教人无尊君之义
+  - 守直与避祸：见新法病民，直言则得罪台谏，缄默则负所学
+  lesson: 文字足以鼓动流俗，亦足以罗织成狱；士人处变法之世，直言与自全难两全。
+  summary_first_person: 我苏轼，眉州眉山人，嘉祐二年进士及第，历官凤翔签判、杭州通判、密州、徐州、湖州知州。因谢上表与诗文讥切时事，元丰二年为台谏交章弹劾，七月三日奉旨送御史台根勘，是为乌台诗案。我初讳开运盐河诗，及王诜状送诗赋到官，九月下旬方具实招。
+endeavors:
+- id: guji-苏轼-endeavor-1
+  name_zh: 科举入仕与宦海历官
+  labels:
+    zh: 进士及第·历官州郡
+  phases:
+  - key: brewing
+    name_zh: 登第入馆
+    labels:
+      zh: 进士及第、应中制科
+    start_date: '1057'
+    highlight_event_id: guji-苏轼-event-jinshi
+  - key: breakthrough
+    name_zh: 历任州县
+    labels:
+      zh: 通判杭州、知密州、知徐州
+    start_date: '1071'
+    highlight_event_id: guji-苏轼-event-jinshi
+  - key: climax
+    name_zh: 移知湖州
+    labels:
+      zh: 湖州到任
+    start_date: '1079-04-21'
+    highlight_event_id: guji-苏轼-event-huzhou
+  - key: closure
+    name_zh: 台狱被勘
+    labels:
+      zh: 乌台诗案根勘
+    start_date: '1079-07-03'
+    highlight_event_id: guji-苏轼-event-genkan
+  decisions:
+  - date: '1079-04-21'
+    title_zh: 移知湖州到任
+    rationale: 由徐州移知湖州，谢上表中言愚不识时、难以追陪新进，遂为台谏所摘
+  - date: '1079-09-23'
+    title_zh: 于御史台具实招供
+    rationale: 蒙会问到王诜状，王诜申送到开运盐河诗赋，隐讳不能自持，遂于九月二十三日至二十七日方具实招
+- id: guji-苏轼-endeavor-2
+  name_zh: 乌台诗案
+  labels:
+    zh: 台谏弹劾·御史台根勘
+  phases:
+  - key: brewing
+    name_zh: 谢上表招议
+    labels:
+      zh: 何大正札子进呈
+    start_date: '1079-03-27'
+    highlight_event_id: guji-苏轼-event-hezhang
+  - key: breakthrough
+    name_zh: 台谏交章
+    labels:
+      zh: 舒亶、李定札子进呈
+    start_date: '1079-07-02'
+    highlight_event_id: guji-苏轼-event-shuzhang
+  - key: climax
+    name_zh: 御史台根勘
+    labels:
+      zh: 奉旨根勘闻奏
+    start_date: '1079-07-03'
+    highlight_event_id: guji-苏轼-event-genkan
+  - key: closure
+    name_zh: 具实供状
+    labels:
+      zh: 具招与王诜等往来讥讽文字
+    start_date: '1079-09-23'
+    highlight_event_id: guji-苏轼-event-gongzhuang
+  decisions:
+  - date: '1079-07-02'
+    title_zh: 李定列可废之罪四状
+    rationale: 权御史中丞李定谓轼怙终不悔、言伪而辨、行伪而坚，讪上骂下法所不宥，乞特行典宪
+  - date: '1079-09-23'
+    title_zh: 承认寄王诜讥讽文字
+    rationale: 王诜申送开运盐河诗赋到官，隐讳不实，遂具实招供与王诜往来诗赋文字始末
+events:
+- id: guji-苏轼-event-birth
+  date: '1037-01-08'
+  year_of: 1037
+  title_zh: 苏轼生于眉州眉山
+  description: 案卷供状载本贯眉州眉山县，高祖祜、曾祖杲并不仕，祖序大理评事致仕，父洵霸州文安县主簿。
+  endeavor_id: guji-苏轼-endeavor-1
+- id: guji-苏轼-event-jinshi
+  date: '1057'
+  year_of: 1057
+  title_zh: 嘉祐二年进士及第
+  description: 供状称嘉佑二年进士及第，初任河南府福昌县主簿，未赴任间应中制科，授大理评事凤翔府签判。
+  endeavor_id: guji-苏轼-endeavor-1
+- id: guji-苏轼-event-hezhang
+  date: '1079-03-27'
+  year_of: 1079
+  title_zh: 何大正札子垂拱殿进呈
+  description: 太子中允权监察御史里行何大正劾湖州谢上表语，谓愚弄朝廷、妄自尊大，谤讪讥骂无所不为，并进呈镂板讥讽文字。
+  endeavor_id: guji-苏轼-endeavor-2
+- id: guji-苏轼-event-huzhou
+  date: '1079-04-21'
+  year_of: 1079
+  title_zh: 知湖州到任
+  description: 元丰二年四月二十一日到湖州任，未几谢上表语被台谏摘为讥切时事。
+  endeavor_id: guji-苏轼-endeavor-1
+- id: guji-苏轼-event-shuzhang
+  date: '1079-07-02'
+  year_of: 1079
+  title_zh: 舒亶、李定札子崇政殿进呈
+  description: 舒亶摘赢得儿童语音好、东海若知明主意等句，谓无一不以讥谤为主；李定列轼可废之罪四，乞付有司论如大不恭。
+  endeavor_id: guji-苏轼-endeavor-2
+- id: guji-苏轼-event-genkan
+  date: '1079-07-03'
+  year_of: 1079
+  title_zh: 奉圣旨送御史台根勘
+  description: 元丰二年七月三日进呈，奉圣旨后批四状并册子送御史台根勘闻奏，并降《元丰续添苏子瞻学士钱塘集》印行册子为证。
+  endeavor_id: guji-苏轼-endeavor-2
+- id: guji-苏轼-event-gongzhuang
+  date: '1079-09-23'
+  year_of: 1079
+  title_zh: 御史台具实供状
+  description: 因王诜申送开运盐河诗赋到官，轼自九月二十三日至二十七日方具实招，尽供与王诜往来诗赋及寄张方平、司马光、黄庭坚等讥讽文字始末。
+  endeavor_id: guji-苏轼-endeavor-2
+- id: guji-苏轼-event-death
+  date: '1101-08-24'
+  year_of: 1101
+  title_zh: 苏轼卒
+  description: 北宋元丰诗案后历经贬谪，建中靖国元年卒，年六十六。
+  endeavor_id: guji-苏轼-endeavor-1
