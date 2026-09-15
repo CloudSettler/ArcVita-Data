@@ -1,0 +1,138 @@
+person:
+  qid: guji-尹文
+  name_zh: 尹文
+  names:
+    zh: 尹文
+    en: Yin Wen
+  lifespan:
+    birth:
+      date: -378
+      precision: circa
+      is_circa: true
+      raw: 齐宣王时人
+  birth_date: -378
+  era: 战国
+  reign_ref: 齐宣王
+  archetype: 稷下名家学者
+  dilemmas:
+  - 名与实相乱，世人悦名而丧其实
+  - 学出黄老而出入刑名，遭儒者讥其淆杂
+  lesson: 正名定分，使万事归一，百度皆准于法
+  summary_first_person: 我是战国时齐宣王时期的稷下学者尹文，与宋钘、彭蒙、田骈相友善，学本黄老而近刑名。我主张先正名分，使形名不相乱、上下不相侵，名定则物不竞，分明则私不行。我曾与齐宣王、湣王问答论治道，着《尹文子》一篇，后经仲长氏条次定为上下篇传世。
+endeavors:
+- id: guji-尹文-endeavor-1
+  key: thought
+  name_zh: 游学稷下
+  labels:
+    zh:
+    - 稷下学宫
+    - 名家
+  phases:
+  - key: brewing
+    name_zh: 与稷下诸子同学
+    labels:
+      zh:
+      - 宋钘
+      - 彭蒙
+      - 田骈
+    start_date: -375
+    highlight_event_id: guji-尹文-event-study-jixia
+  - key: breakthrough
+    name_zh: 正名论治
+    labels:
+      zh:
+      - 形名
+      - 治道
+    start_date: -360
+    highlight_event_id: guji-尹文-event-king-xuan-dialogue
+  - key: closure
+    name_zh: 著书传世
+    labels:
+      zh:
+      - 尹文子
+    start_date: -320
+    highlight_event_id: guji-尹文-event-writing
+  decisions:
+  - date: -360
+    title: 主张自处虚静而综核万物之实
+    rationale: 欲自处于虚静而万事万物一一综核其实，其言出入黄老申韩之间
+  - date: -330
+    title: 与湣王问答论见侮不辱
+    rationale: 吕氏春秋载其与湣王问答，宣王时稷下旧人至湣王时犹在
+- id: guji-尹文-endeavor-2
+  key: work
+  name_zh: 撰《尹文子》
+  labels:
+    zh:
+    - 著述
+    - 大道上下篇
+  phases:
+  - key: brewing
+    name_zh: 构思名法之辨
+    labels:
+      zh:
+      - 名有三科
+      - 法有四呈
+    start_date: -350
+    highlight_event_id: guji-尹文-event-writing
+  - key: climax
+    name_zh: 定稿上下篇
+    labels:
+      zh:
+      - 大道上
+      - 大道下
+    start_date: -320
+    highlight_event_id: guji-尹文-event-writing
+  - key: closure
+    name_zh: 魏黄初末经仲长氏条次
+    labels:
+      zh:
+      - 仲长氏
+      - 仲长统序
+    start_date: 220
+    highlight_event_id: guji-尹文-event-redaction
+  decisions:
+  - date: -320
+    title: 以大道名篇
+    rationale: 大道无形称器有名，名者正形者也，以正名分为全书纲领
+events:
+- id: guji-尹文-event-birth
+  date: -378
+  year_of: -378
+  type: birth
+  title: 尹文生于战国之世
+  description: 颜师古注汉书谓尹文为齐宣王时人，盖出于周之尹氏。
+- id: guji-尹文-event-death
+  date: -300
+  year_of: -300
+  type: death
+  title: 尹文卒
+  description: 约卒于湣王之世，其学於黄老申韩之间，为名家者流。
+- id: guji-尹文-event-study-jixia
+  date: -375
+  year_of: -375
+  type: endeavor
+  endeavor_id: guji-尹文-endeavor-1
+  title: 居稷下游学
+  description: 齐宣王时居稷下，与宋钘、彭蒙、田骈同学于公孙龙，公孙龙称之。
+- id: guji-尹文-event-king-xuan-dialogue
+  date: -360
+  year_of: -360
+  type: endeavor
+  endeavor_id: guji-尹文-endeavor-1
+  title: 与齐宣王问答
+  description: 刘向说苑载尹文与宣王问答论士之贤与不肖、见侮不辱之义。
+- id: guji-尹文-event-writing
+  date: -320
+  year_of: -320
+  type: endeavor
+  endeavor_id: guji-尹文-endeavor-2
+  title: 著《尹文子》一篇
+  description: 著书一篇，多所弥纶，大较刑名家也，其学本于黄老。
+- id: guji-尹文-event-redaction
+  date: 222
+  year_of: 222
+  type: legacy
+  endeavor_id: guji-尹文-endeavor-2
+  title: 仲长氏条次定为上下篇
+  description: 魏黄初末山阳仲长氏序称条次撰定为上下篇，题大道上篇大道下篇。

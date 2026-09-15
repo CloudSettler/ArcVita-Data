@@ -1,0 +1,142 @@
+person:
+  qid: guji-慎到
+  name_zh: 慎到
+  names:
+    zh: 慎到
+    en: Shen Dao
+  lifespan:
+    birth:
+      date: -0390
+      precision: decade
+      is_circa: true
+      raw: 战国时期(约公元前四世纪)
+    death:
+      date: -205
+      precision: decade
+      is_circa: true
+  birth_date: -0390
+  death_date: -205
+  era: 战国
+  reign_ref: 约齐宣王、湣王之世
+  archetype: 法家/黄老思想家
+  dilemmas:
+  - 弃知去己：不师智虑、缘不得已，与天下尚贤之举相悖，豪杰笑其为"至死人之理"
+  - 学属之争：庄子列其为道家之流，汉志归入法家，其学出入黄老申韩之间，归属难定
+  lesson: 因物理之当然而立法守之，不求于法之外，上下相安则可清净而治。
+  summary_first_person: 我乃赵人慎到，曾游学稷下。我主张弃知去己，缘物之理而立法定分，使上下各守其法而治，故申韩多称引我之说。
+endeavors:
+- id: guji-慎到-endeavor-1
+  name_zh: 游学稷下
+  phases:
+  - key: brewing
+    name_zh: 负笈稷下
+    labels:
+      zh:
+      - 稷下学宫
+      - 田骈同游
+    start_date: -232
+    highlight_event_id: guji-慎到-event-1
+  - key: breakthrough
+    name_zh: 著《慎子》
+    labels:
+      zh:
+      - 著书立说
+      - 因循任法
+    start_date: -224
+    highlight_event_id: guji-慎到-event-2
+  - key: closure
+    name_zh: 声名流传
+    labels:
+      zh:
+      - 申韩称之
+      - 汉志著录
+    start_date: -192
+    highlight_event_id: guji-慎到-event-3
+  decisions:
+  - date: -232
+    title: 游于稷下，与田骈并称
+    rationale: 赵人南游齐之稷下学宫，与尹文、田骈诸子同期论学，声闻于世。
+  - date: -224
+    title: 舍是与非，缘物立理
+    rationale: 悟"弃知去己、缘不得已"之道，主张推而后行、曳而后往，因物理之当然而各定一法守之。
+- id: guji-慎到-endeavor-2
+  name_zh: 学问流传与后世整理
+  phases:
+  - key: breakthrough
+    name_zh: 诸家引述
+    labels:
+      zh:
+      - 庄子天下篇
+      - 汉书艺文志
+    start_date: -192
+    highlight_event_id: guji-慎到-event-3
+  - key: closure
+    name_zh: 后世编次
+    labels:
+      zh:
+      - 四库著录
+      - 五篇残本
+    start_date: 1776
+    highlight_event_id: guji-慎到-event-4
+  decisions:
+  - date: -192
+    title: 汉志录慎子四十二篇入法家
+    rationale: 班固据刘歆《七略》将《慎子》四十二篇列于法家，以其大旨在因法而治。
+  - date: 1776
+    title: 四库全书重加校录
+    rationale: 慎子原书散佚，明人捃拾残剩重编为五篇，四库馆臣考订其浏阳、名广诸说之误，于乾隆四十六年正月校上。
+events:
+- id: guji-慎到-event-birth
+  person_id: guji-慎到
+  date: -0390
+  year_of: -390
+  precision: decade
+  is_circa: true
+  kind: birth
+  title: 慎到生于赵
+  description: 慎到为赵人，见于《史记》(《四库提要》引陈振孙《书录解题》)；中兴书目误作浏阳人，提要辨其非。
+- id: guji-慎到-event-1
+  person_id: guji-慎到
+  date: -232
+  year_of: -350
+  precision: decade
+  is_circa: true
+  kind: endeavor
+  title: 游学稷下，与田骈并称
+  description: 《庄子·天下篇》以慎到、田骈并称，同为稷下学者；颜师古谓尹文为齐宣王时人，慎到殆亦宣王时稷下旧人。
+- id: guji-慎到-event-2
+  person_id: guji-慎到
+  date: -224
+  year_of: -340
+  precision: decade
+  is_circa: true
+  kind: endeavor
+  title: 著《慎子》倡"因循任法"之旨
+  description: 著书大旨欲因物理之当然，各定一法而守之，不求于法之外，亦不宽于法之中，则上下相安、清净而治；庄子述其"弃知去己而缘不得已"之说。
+- id: guji-慎到-event-3
+  person_id: guji-慎到
+  date: -192
+  year_of: -300
+  precision: decade
+  is_circa: true
+  kind: endeavor
+  title: 道德转刑名，申韩称之
+  description: 其学由道德转出刑名，"法所不行，势必刑以齐之"，故申不害、韩非多称引之(语见《汉书·艺文志》)，汉志录其书四十二篇。
+- id: guji-慎到-event-4
+  person_id: guji-慎到
+  date: 1781-01
+  year_of: 1781
+  precision: month
+  is_circa: false
+  kind: endeavor
+  title: 四库馆臣校录《慎子》
+  description: 乾隆四十六年正月，纪昀等总纂官恭校《慎子》一卷五篇上；考辨"到一名广"之误实为田骈一名广，并指明本为明人捃拾残剰重编。
+- id: guji-慎到-event-death
+  person_id: guji-慎到
+  date: -205
+  year_of: -315
+  precision: decade
+  is_circa: true
+  kind: death
+  title: 慎到卒
+  description: 确切卒年无考，约当齐湣王前后；其学著述经秦火散灭，传世仅残篇。
