@@ -1,0 +1,90 @@
+person:
+  qid: guji-李纯
+  name_zh: 李纯
+  names:
+    zh: 唐宪宗
+    en: Emperor Xianzong of Tang
+  lifespan:
+    birth:
+      date: 0778
+      precision: year
+      is_circa: true
+      raw: 约大历十三年
+    death:
+      date: 0820
+      precision: year
+  birth_date: 0778
+  death_date: 0820
+  era: 唐代中期
+  reign_ref: 元和（806—820）
+  archetype: 中兴之主
+  dilemmas:
+  - 藩镇割据势大，征伐与姑息难以抉择
+  - 晚年信奉方士引发争议
+  lesson: 明赏罚、用贤能则弱唐可振；功成而骄则祸生肘腋
+  summary_first_person: 我承安史之乱后的积弊，以元和之政削平藩镇，重振朝廷威令，然晚年怠于政事，终未竟中兴之业。
+endeavors:
+- id: guji-李纯-endeavor-1
+  key: 元和削藩
+  phases:
+  - key: brewing
+    name_zh: 即位图治
+    labels:
+      zh: 革积弊
+    start_date: 0805
+    highlight_event_id: guji-李纯-event-1
+  - key: breakthrough
+    name_zh: 平定西川与镇冀
+    labels:
+      zh: 讨逆
+    start_date: 0806
+    highlight_event_id: guji-李纯-event-2
+  - key: climax
+    name_zh: 平淮西
+    labels:
+      zh: 中兴
+    start_date: 0815
+    highlight_event_id: guji-李纯-event-3
+  - key: closure
+    name_zh: 中兴渐替
+    labels:
+      zh: 晚节
+    start_date: 0819
+    highlight_event_id: guji-李纯-event-4
+  decisions:
+  - date: 0806
+    title_zh: 发兵讨刘辟
+    rationale: 不容藩镇擅命，立朝廷威令
+  - date: 0817
+    title_zh: 用裴度督师平淮西
+    rationale: 收蔡州则诸镇可慑
+events:
+- id: guji-李纯-event-birth
+  date: 0778
+  year_of: 778
+  type: birth
+  title_zh: 李纯出生
+- id: guji-李纯-event-1
+  date: 0805
+  year_of: 805
+  type: endeavor
+  title_zh: 受禅即皇帝位
+  description_zh: 入奉大统，改元元和，锐意削藩
+- id: guji-李纯-event-2
+  date: 0806
+  year_of: 806
+  type: endeavor
+  title_zh: 平西川刘辟之乱
+  description_zh: 遣高崇文讨平刘辟，藩镇始知朝廷法度
+- id: guji-李纯-event-3
+  date: 0817
+  year_of: 817
+  type: endeavor
+  title_zh: 李愬雪夜入蔡州，平淮西吴元济
+  description_zh: 淮西既平，诸藩震恐，咸愿归命
+- id: guji-李纯-event-4
+  date: 0820
+  year_of: 820
+  type: death
+  title_zh: 崩于大明宫
+  description_zh: 中兴之业由是渐衰
