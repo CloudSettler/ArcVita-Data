@@ -1,0 +1,146 @@
+person:
+  qid: guji-孟浩然
+  name_zh: 孟浩然
+  names:
+    zh: 孟浩然
+    en: Meng Haoran
+  lifespan:
+    birth:
+      date: 0689
+      precision: year
+      is_circa: true
+      raw: 约唐永昌元年（689年）
+    death:
+      date: '0740'
+      precision: year
+      is_circa: true
+      raw: 约唐开元二十八年（740年）
+  birth_date: 0689
+  death_date: '0740'
+  era: 唐
+  reign_ref: 玄宗开元
+  archetype: 山水田园诗人
+  dilemmas:
+  - 求仕与归隐之间的抉择：心慕仕途而终身布衣，终以隐逸诗名传世
+  lesson: 不钩奇抉异、遇景入咏，平淡自然亦能与古人争胜于毫厘之间
+  summary_first_person: 我是孟浩然，襄阳人，一生大多隐居故乡，以山水田园之诗自适。我不刻意雕琢奇句，遇景入咏，如「气蒸云梦泽，波动岳阳城」「微云淡河汉，疏雨滴梧桐」，皆出常境。后世皮日休作《孟亭记》，谓我于李翰林、杜工部之间能不愧，此我平生所安。
+  source_urls:
+  - https://zh.wikisource.org/wiki/唐诗纪事
+  - https://zh.wikisource.org/wiki/孟亭记
+endeavors:
+- id: guji-孟浩然-endeavor-1
+  key: 诗歌创作
+  name_zh: 山水田园诗创作
+  labels:
+    zh:
+    - 隐逸
+    - 五言
+    - 山水田园
+  phases:
+  - key: brewing
+    name_zh: 襄阳隐居与诗名初起
+    labels:
+      zh:
+      - 隐居
+      - 养望
+    start_date: '0710'
+    highlight_event_id: guji-孟浩然-event-retire
+  - key: breakthrough
+    name_zh: 名句传世，诗艺大成
+    labels:
+      zh:
+      - 名句
+      - 咏洞庭
+    start_date: '0733'
+    highlight_event_id: guji-孟浩然-event-dongting
+  - key: climax
+    name_zh: 客愁名篇，风格纯熟
+    labels:
+      zh:
+      - 建德江宿
+      - 客愁
+    start_date: '0730'
+    highlight_event_id: guji-孟浩然-event-jiande
+  - key: closure
+    name_zh: 身后声名，孟亭不朽
+    labels:
+      zh:
+      - 身后
+      - 孟亭记
+    start_date: 0869
+    highlight_event_id: guji-孟浩然-event-mengting
+  decisions:
+  - date: '0710'
+    title_zh: 隐居襄阳，以诗自守
+    rationale: 不慕干进，遇景入咏，以平淡自然之诗自立于开元诗坛
+  - date: '0733'
+    title_zh: 以《望洞庭湖赠张丞相》干谒陈情
+    rationale: 借「气蒸云梦泽，波动岳阳城」之壮景寄托求用之意，而终不改隐逸本色
+- id: guji-孟浩然-endeavor-2
+  key: 声名流传
+  name_zh: 身后诗名与评价
+  labels:
+    zh:
+    - 诗名
+    - 唐音典范
+  phases:
+  - key: brewing
+    name_zh: 开元间诗名播于朝野
+    labels:
+      zh:
+      - 诗名
+    start_date: '0730'
+    highlight_event_id: guji-孟浩然-event-jiande
+  - key: breakthrough
+    name_zh: 皮日休推为李杜之间能不愧者
+    labels:
+      zh:
+      - 孟亭记
+      - 定评
+    start_date: 0869
+    highlight_event_id: guji-孟浩然-event-mengting
+  decisions:
+  - date: 0869
+    title_zh: 皮日休作《孟亭记》定其诗史地位
+    rationale: 谓其作「不钩奇抉异」，于李杜之间能不愧，与北齐萧悫、王融、谢朓名句争胜于毫厘之间
+events:
+- id: guji-孟浩然-event-birth
+  date: 0689
+  year_of: 689
+  type: birth
+  title_zh: 孟浩然生（约）
+  description: 孟浩然生于襄州襄阳（约唐永昌元年），后为盛唐山水田园诗代表人物。
+- id: guji-孟浩然-event-retire
+  date: '0710'
+  year_of: 710
+  type: endeavor
+  endeavor_id: guji-孟浩然-endeavor-1
+  title_zh: 隐居襄阳，诗名渐起
+  description: 孟浩然隐居襄阳，以布衣之身潜心吟咏，开山水田园一路诗风。
+- id: guji-孟浩然-event-dongting
+  date: '0733'
+  year_of: 733
+  type: endeavor
+  endeavor_id: guji-孟浩然-endeavor-1
+  title_zh: 咏洞庭名句「气蒸云梦泽，波动岳阳城」
+  description: 据《孟亭记》所引，孟浩然有「气蒸云梦泽，波动岳阳城」之句，乐府之美王融者不能过。
+- id: guji-孟浩然-event-jiande
+  date: '0731'
+  year_of: 731
+  type: endeavor
+  endeavor_id: guji-孟浩然-endeavor-1
+  title_zh: 作《建德江宿》
+  description: 「移舟泊烟渚，日暮客愁新。野旷天低树，江清月近人。」野旷江清之境，客愁新起，为其羁旅名篇。
+- id: guji-孟浩然-event-death
+  date: '0740'
+  year_of: 740
+  type: death
+  title_zh: 孟浩然卒（约）
+  description: 孟浩然约卒于开元二十八年，终身布衣而诗名满天下。
+- id: guji-孟浩然-event-mengting
+  date: 0869
+  year_of: 869
+  type: endeavor
+  endeavor_id: guji-孟浩然-endeavor-2
+  title_zh: 皮日休作《孟亭记》推许孟浩然
+  description: 皮日休谓明皇世章句之风大得建安体，论者推李翰林、杜工部为尤，介其间能不愧者惟孟先生；其作遇景入咏，不钩奇抉异，与古人争胜于毫厘之间。
