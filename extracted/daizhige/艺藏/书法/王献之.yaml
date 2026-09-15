@@ -1,0 +1,114 @@
+person:
+  qid: guji-王献之
+  name_zh: 王献之
+  names:
+    zh: 王献之
+    en: Wang Xianzhi
+  lifespan:
+    birth:
+      date: '344'
+      precision: year
+      is_circa: false
+      raw: 晋穆帝永和年间
+    death:
+      date: '386'
+      precision: year
+      is_circa: false
+      raw: 晋孝武帝太元十一年
+  birth_date: '344'
+  death_date: '386'
+  era: 东晋
+  reign_ref: 晋穆帝至晋孝武帝
+  archetype: 书圣传人·一笔书开创者
+  dilemmas:
+  - 身为右军之子，书法成就常被置于其父王羲之盛名之下比较
+  - 唐太宗贬抑其书，时人募书伪托以避讳
+  lesson: 天真超逸，不为父名所囿，方成一家之笔。
+  summary_first_person: 我王献之，字子敬，晋太宰中书令也。世称我书法火筯画灰、连属无端末，谓之一笔书，米元章目为子敬天下第一。《秋深》《十二月》《送梨》诸帖流传后世；虽唐太宗力学右军而大骂于我，然天真超逸，岂父可比。
+  source_urls:
+  - https://www.example.com/shushi-mifu
+endeavors:
+- id: guji-王献之-endeavor-1
+  name_zh: 承家学而创一笔书
+  phases:
+  - key: brewing
+    name_zh: 早岁学书于父
+    labels:
+      zh: 家学启蒙
+    start_date: '355'
+  - key: breakthrough
+    name_zh: 稿行之外创一笔书
+    labels:
+      zh: 笔法突破
+    start_date: '370'
+    highlight_event_id: guji-王献之-event-十二月帖
+  - key: climax
+    name_zh: 名重江左
+    labels:
+      zh: 书名鼎盛
+    start_date: '375'
+    highlight_event_id: guji-王献之-event-送梨帖
+  - key: closure
+    name_zh: 病卒于太元之年
+    labels:
+      zh: 晚年
+    start_date: '386'
+    highlight_event_id: guji-王献之-event-death
+  decisions:
+  - date: '370'
+    title_zh: 破字形连属，以一笔书自立门户
+    rationale: 不欲步趋右军，欲以连绵不断之笔别开新境
+  - date: '375'
+    title_zh: 仕至太宰中书令，人称大令
+    rationale: 以清贵之身ưu养书艺，笔愈超逸
+events:
+- id: guji-王献之-event-birth
+  date: '344'
+  year_of: '344'
+  type: birth
+  name_zh: 王献之生于琅玡王氏
+  detail_zh: 王羲之第七子，字子敬，生于会稽山阴
+  participants:
+  - guji-王献之
+  sources:
+  - shi-shu-shu-hua-lei
+- id: guji-王献之-event-十二月帖
+  date: '0370'
+  year_of: '370'
+  type: creation
+  name_zh: 书《十二月帖》
+  detail_zh: 黄麻纸书'十二月割至否中秋不复不得'云云，运笔如火筯画灰，连属无端末，后人谓之'一笔书'，米芾评为天下子敬第一帖，前有褚遂良题'大令十二月帖'
+  participants:
+  - guji-王献之
+  sources:
+  - shi-shu-mi-fu
+- id: guji-王献之-event-送梨帖
+  date: '0375'
+  year_of: '375'
+  type: creation
+  name_zh: 书《送梨帖》
+  detail_zh: 书'今送梨三百颗晚雪殊不能佳'二行十二字，唐太宗书卷首曾临其后，柳公权跋云若珠还合浦，贞观半印缝存
+  participants:
+  - guji-王献之
+  sources:
+  - shi-shu-mi-fu
+- id: guji-王献之-event-唐太宗不收慰问帖
+  date: '0640'
+  year_of: '640'
+  type: reception
+  name_zh: 唐太宗不收《慰问帖》
+  detail_zh: 唐太宗贬抑子敬，不收其《慰问帖》，帖上刮去'不次献之'四字谓之羊欣；米芾论曰太宗力学右军不能至，故大骂子敬，实则子敬天真超逸岂父可比
+  participants:
+  - guji-王献之
+  sources:
+  - shi-shu-mi-fu
+- id: guji-王献之-event-death
+  date: '386'
+  year_of: '386'
+  type: death
+  name_zh: 王献之卒
+  detail_zh: 官至太宰中书令，世称王大令，年四十三而终
+  participants:
+  - guji-王献之
+  sources:
+  - shi-shu-shi-liao
