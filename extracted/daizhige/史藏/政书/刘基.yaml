@@ -1,0 +1,119 @@
+person:
+  qid: guji-liuji
+  name_zh: 刘基
+  names:
+    zh: 刘基
+    en: Liu Ji
+  lifespan:
+    birth:
+      date: '1311-07-01'
+      precision: year
+      is_circa: true
+      raw: 元至大四年
+    death:
+      date: '1375-05-16'
+      precision: year
+      is_circa: true
+      raw: 明洪武八年
+  birth_date: '1311-07-01'
+  death_date: '1375-05-16'
+  era: 元末明初
+  reign_ref: 明洪武
+  archetype: 开国谋臣
+  dilemmas:
+  - 仕元抑或辅明之忠节抉择
+  - 功高遭忌而急流勇退
+  lesson: 经纬天地，修治班制，安民立政；功成而不居，方得善諡。
+  summary_first_person: 我刘基，浙江青田县人，以文成之諡配享佐命之功，明臣諡考谓我取义“修治班制、安民立政”。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=5942
+endeavors:
+- id: guji-liuji-endeavor-1
+  name_zh: 佐明开国
+  phases:
+  - key: brewing
+    name_zh: 隐居青田
+    labels:
+      zh:
+      - 隐逸
+      - 蓄势
+    start_date: '1358-01-01'
+    highlight_event_id: guji-liuji-event-recruit
+  - key: breakthrough
+    name_zh: 应召出山
+    labels:
+      zh:
+      - 谋略
+      - 佐命
+    start_date: '1360-01-01'
+    highlight_event_id: guji-liuji-event-recruit
+  - key: climax
+    name_zh: 运筹帷幄
+    labels:
+      zh:
+      - 平定天下
+    start_date: '1363-01-01'
+    highlight_event_id: guji-liuji-event-campaign
+  - key: closure
+    name_zh: 开国封爵
+    labels:
+      zh:
+      - 封诚意伯
+    start_date: '1370-01-01'
+    highlight_event_id: guji-liuji-event-ennobled
+  decisions:
+  - date: '1360-01-01'
+    title_zh: 应朱元璋之聘出山
+    rationale: 察天下之势，择明主而辅，以济苍生。
+  - date: '1370-01-01'
+    title_zh: 功成受封诚意伯
+    rationale: 授开国诩运守正文臣，得以善其身。
+events:
+- id: guji-liuji-event-birth
+  date: '1311-07-01'
+  year_of: 1311
+  date_precision: year
+  title_zh: 刘基生于浙江青田
+  event_type: birth
+  person_refs:
+  - guji-liuji
+- id: guji-liuji-event-recruit
+  date: '1360-01-01'
+  year_of: 1360
+  date_precision: year
+  title_zh: 应朱元璋聘出山为谋臣
+  event_type: endeavor_start
+  person_refs:
+  - guji-liuji
+- id: guji-liuji-event-campaign
+  date: '1363-01-01'
+  year_of: 1363
+  date_precision: year
+  title_zh: 参赞军机，助定平江诸役
+  event_type: achievement
+  person_refs:
+  - guji-liuji
+- id: guji-liuji-event-ennobled
+  date: '1370-01-01'
+  year_of: 1370
+  date_precision: year
+  title_zh: 封诚意伯
+  event_type: achievement
+  person_refs:
+  - guji-liuji
+- id: guji-liuji-event-posthumous-title
+  date: '1368-09-01'
+  year_of: 1368
+  date_precision: year
+  title_zh: 明初任御史中丞等职，後赠太师
+  event_type: office
+  person_refs:
+  - guji-liuji
+- id: guji-liuji-event-death
+  date: '1375-05-16'
+  year_of: 1375
+  date_precision: year
+  title_zh: 刘基卒
+  event_type: death
+  person_refs:
+  - guji-liuji

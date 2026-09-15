@@ -1,0 +1,131 @@
+person:
+  qid: guji-杨廷和
+  name_zh: 杨廷和
+  names:
+    zh: 杨廷和
+    en: Yang Tinghe
+  lifespan:
+    birth:
+      date: '1459'
+      precision: year
+      is_circa: false
+      raw: 未载于文，据史补
+    death:
+      date: '1529'
+      precision: year
+      is_circa: false
+      raw: 未载于文，据史补
+  birth_date: '1459'
+  death_date: '1529'
+  era: 明代（成化至嘉靖年间）
+  reign_ref: 成化、弘治、正德、嘉靖
+  archetype: 内阁首辅·定策元老
+  dilemmas:
+  - 大礼议之争中坚守礼制而触怒世宗，致仕去国
+  - 武宗无嗣，总揽朝政三十余日择立世宗，身处废立之危
+  lesson: 危身奉上，推贤尽忠，虽功成定策，终以直道见黜
+  summary_first_person: 我杨廷和，四川新都人，历仕三朝，官至内阁大学士。武宗崩后无嗣，我以首辅总揽朝政，迎立兴献王世子，是为世宗。后因大礼议忤旨，致仕归里。隆庆年间，朝廷追谥我“文忠”——危身奉上、推贤尽忠，此朝廷论定我一生之考语。
+  source_urls:
+  - title: 钦定四库全书·明臣谥考卷上·文忠（鲍应鳌撰）
+    url: https://ctext.org/wiki.pl?if=gb&chapter=1
+endeavors:
+- id: guji-杨廷和-endeavor-1
+  name_zh: 阁辅三朝
+  phases:
+  - key: brewing
+    name_zh: 入阁参预机务
+    labels:
+      zh:
+      - 入阁
+      - 东宫师保
+    start_date: '1507'
+  - key: breakthrough
+    name_zh: 正德朝为首辅，当国柄政
+    labels:
+      zh:
+      - 首辅
+      - 匡辅朝政
+    start_date: '1512-05-01'
+  - key: climax
+    name_zh: 武宗崩，总朝政迎立世宗
+    labels:
+      zh:
+      - 定策国老
+      - 总揽朝政
+    start_date: '1521-04-20'
+    highlight_event_id: guji-杨廷和-event-succession
+  - key: closure
+    name_zh: 忤大礼议致仕，隆庆追谥
+    labels:
+      zh:
+      - 致仕归里
+      - 追谥文忠
+    start_date: '1524'
+    highlight_event_id: guji-杨廷和-event-posthumous
+  decisions:
+  - date: '1521-04-20'
+    title_zh: 以遗诏迎立兴献王世子朱厚熜
+    rationale: 武宗无嗣，兄终弟及，首推伦序最近之兴献王世子，以安社稷
+  - date: '1524'
+    title_zh: 于大礼议中坚持继统奉祀之义，失旨乞休
+    rationale: 恪守礼法，不阿世宗追尊本生之意，宁去位不改其守
+- id: guji-杨廷和-endeavor-2
+  name_zh: 裁革冗费、厘正朝纲
+  phases:
+  - key: brewing
+    name_zh: 整肃正德弊政
+    labels:
+      zh:
+      - 裁汰冗员
+      - 革除弊政
+    start_date: '1512'
+  - key: breakthrough
+    name_zh: 武宗南巡后总揽行政，革传奉官、罢威武营
+    labels:
+      zh:
+      - 革传奉
+      - 罢诸弊政
+    start_date: '1521'
+  decisions:
+  - date: '1521'
+    title_zh: 借遗诏罢威武营团练、革皇店、返还边兵
+    rationale: 武宗既崩，亟除累朝秕政以善其终，收人心、正朝纲
+events:
+- id: guji-杨廷和-event-birth
+  type: birth
+  date: '1459'
+  year_of: 1459
+  summary: 杨廷和生于四川新都县。
+- id: guji-杨廷和-event-enter-cabinet
+  type: endeavor
+  date: '1507'
+  year_of: 1507
+  summary: 正德初入阁预机务，其后进为首辅，历仕孝宗、武宗、世宗三朝。
+  related_endeavor_ids:
+  - guji-杨廷和-endeavor-1
+- id: guji-杨廷和-event-succession
+  type: endeavor
+  date: '1521-04-20'
+  year_of: 1521
+  summary: 武宗崩于豹房，杨廷和以首辅总朝政三十余日，颁遗诏定策，迎立兴献王世子朱厚熜即位，是为世宗。
+  related_endeavor_ids:
+  - guji-杨廷和-endeavor-1
+- id: guji-杨廷和-event-retirement
+  type: endeavor
+  date: '1524'
+  year_of: 1524
+  summary: 因大礼议与世宗意旨相左，致仕归里；嘉靖八年卒。
+  related_endeavor_ids:
+  - guji-杨廷和-endeavor-1
+- id: guji-杨廷和-event-posthumous
+  type: death
+  date: '1529'
+  year_of: 1529
+  summary: 卒。隆庆年间追赠太师，追谥“文忠”（释义：危身奉上、推贤尽忠）。
+- id: guji-杨廷和-event-title
+  type: event
+  date: '1567'
+  year_of: 1567
+  summary: 隆庆年间朝廷追谥杨廷和为文忠，载于《明臣谥考》卷上。
+  related_endeavor_ids:
+  - guji-杨廷和-endeavor-1
