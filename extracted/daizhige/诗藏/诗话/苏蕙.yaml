@@ -1,0 +1,89 @@
+person:
+  qid: guji-苏蕙
+  name_zh: 苏蕙
+  names:
+    zh: 苏蕙
+    en: Su Hui
+  lifespan:
+    birth:
+      date: '0330'
+      precision: decade
+      is_circa: true
+      raw: 前秦人，约十六国前期
+    death:
+      precision: unknown
+  birth_date: 约0330
+  era: 十六国·前秦
+  reign_ref: 前秦苻坚时期
+  archetype: 织锦寄情之才女
+  dilemmas:
+  - 夫妻离绝而难以直言
+  - 才情须托于织锦以达远人
+  lesson: 相思与才华可付于经纬，璇玑回环，情义自明
+  summary_first_person: 我名苏蕙，字若兰，前秦女也。夫窦滔被徙流沙，我思之不已，乃织锦为回文璇玑图，纵横反复皆可成诗，凡数百首，寄与夫君，滔感而复好如初。世传璇玑图，遂以我为诗女织锦之宗。
+  source_urls:
+  - http://www.cadal.zju.edu.cn/Index.action
+endeavors:
+- id: guji-苏蕙-endeavor-1
+  name_zh: 织锦璇玑图
+  phases:
+  - key: brewing
+    name_zh: 思念成章
+    labels:
+      zh:
+      - 闺中积思
+    start_date: 约0355
+  - key: breakthrough
+    name_zh: 织撰回文
+    labels:
+      zh:
+      - 织锦
+    start_date: 约0360
+    highlight_event_id: guji-苏蕙-event-xuanji
+  - key: climax
+    name_zh: 寄致窦滔
+    labels:
+      zh:
+      - 夫妇和好
+    start_date: 约0362
+    highlight_event_id: guji-苏蕙-event-fuda
+  - key: closure
+    name_zh: 图传于世
+    labels:
+      zh:
+      - 流播后世
+    start_date: 约0370
+  decisions:
+  - date: 约0360
+    title_zh: 并锦织回文璇玑图
+    rationale: 夫窦滔携宠妻赴任，蕙独处，遂以回文锦图寓情
+  - date: 约0362
+    title_zh: 遣使致图于流沙
+    rationale: 欲感夫心，使离而复合
+events:
+- id: guji-苏蕙-event-birth
+  type: birth
+  date: 约0330
+  year_of: 330
+  date_display: 约330年
+- id: guji-苏蕙-event-xuanji
+  type: endeavor
+  endeavor_id: guji-苏蕙-endeavor-1
+  phase: breakthrough
+  date: 约0360
+  year_of: 360
+  date_display: 约360年
+  title_zh: 织锦作《璇玑图》
+  description: 以五色锦织回文诗图，纵横反复，皆成章句，题诗数百首
+- id: guji-苏蕙-event-fuda
+  type: endeavor
+  endeavor_id: guji-苏蕙-endeavor-1
+  phase: climax
+  date: 约0362
+  year_of: 362
+  date_display: 约362年
+  title_zh: 寄图窦滔，夫妇和好
+  description: 窦滔读璇玑图，感其绝妙，遂送还宠妻，与苏蕙和好如初
+- id: guji-苏蕙-event-death
+  type: death
+  date_display: 卒年不详
