@@ -1,0 +1,123 @@
+person:
+  qid: guji-毛晋
+  name_zh: 毛晋
+  names:
+    zh: 毛晋
+    en: Mao Jin
+  lifespan:
+    birth:
+      date: '1599'
+      precision: year
+      is_circa: true
+      raw: 明万历间
+    death:
+      date: '1659'
+      precision: year
+      is_circa: true
+      raw: 清顺治间
+  birth_date: '1599'
+  death_date: '1659'
+  era: 明末清初
+  reign_ref: 万历／顺治
+  archetype: 藏书家刻书家
+  dilemmas:
+  - 家资尽耗于收书刻书，生计与传古难以两全
+  - 刻本求广传而校雠未必尽精，宋体与写刻之间风气所限
+  lesson: 典坟天下公器，刻书藏书可使经史流播久远，然校雠之功不可废
+  summary_first_person: 我是明末藏书家毛晋，建汲古阁，广收宋元善本，刻《十三经》诸书，以毛刻之名流播于世。
+endeavors:
+- id: guji-毛晋-endeavor-1
+  name_zh: 建汲古阁收书藏书
+  phases:
+  - key: brewing
+    name_zh: 网罗善本
+    labels:
+      zh:
+      - 藏书
+      - 宋元本
+    start_date: '1620'
+    highlight_event_id: guji-毛晋-event-cangshu
+  - key: climax
+    name_zh: 汲古阁名盛
+    labels:
+      zh:
+      - 私家之藏
+      - 板本之学
+    start_date: '1630'
+    highlight_event_id: guji-毛晋-event-jiguge
+  decisions:
+  - date: '1620'
+    title_zh: 弃科举而事收书
+    rationale: 志在流通古籍，广聚宋元旧椠旧钞
+- id: guji-毛晋-endeavor-2
+  name_zh: 汲古阁刻书
+  phases:
+  - key: brewing
+    name_zh: 鸠工刻梓
+    labels:
+      zh:
+      - 刻书
+      - 绣梓
+    start_date: '1627'
+    highlight_event_id: guji-毛晋-event-keshu
+  - key: climax
+    name_zh: 刻十三经
+    labels:
+      zh:
+      - 校刻
+      - 板行
+    start_date: '1640'
+    highlight_event_id: guji-毛晋-event-shisanjing
+  - key: closure
+    name_zh: 毛刻风行
+    labels:
+      zh:
+      - 刊行
+      - 流播
+    start_date: '1650'
+    highlight_event_id: guji-毛晋-event-shisanjing
+  decisions:
+  - date: '1640'
+    title_zh: 发愿刻《十三经》
+    rationale: 俾诸经各有读本，仿冯道刻板之意，惠及士林
+events:
+- id: guji-毛晋-event-birth
+  date: '1599'
+  year_of: 1599
+  type: birth
+  title_zh: 毛晋生
+  summary: 毛晋约生于明万历间。
+- id: guji-毛晋-event-cangshu
+  date: '1620'
+  year_of: 1620
+  type: endeavor
+  endeavor_id: guji-毛晋-endeavor-1
+  title_zh: 广收宋元本旧钞
+  summary: 毛晋倾资收购宋元善本，藏书日富。
+- id: guji-毛晋-event-jiguge
+  date: '1626'
+  year_of: 1626
+  type: endeavor
+  endeavor_id: guji-毛晋-endeavor-1
+  title_zh: 建汲古阁
+  summary: 毛晋于虞山构建汲古阁以贮群书，遂为私家藏书之冠。
+- id: guji-毛晋-event-keshu
+  date: '1627'
+  year_of: 1627
+  type: endeavor
+  endeavor_id: guji-毛晋-endeavor-2
+  title_zh: 汲古阁开雕刻书
+  summary: 毛晋鸠工刻梓，opročit大量古籍，称毛刻本。
+- id: guji-毛晋-event-shisanjing
+  date: '1640'
+  year_of: 1640
+  type: endeavor
+  endeavor_id: guji-毛晋-endeavor-2
+  title_zh: 汲古阁刻《十三经》
+  summary: 毛氏汲古阁刻《十三经》，同刻诸史，流播一时，列为板本之学之要籍。
+- id: guji-毛晋-event-death
+  date: '1659'
+  year_of: 1659
+  type: death
+  title_zh: 毛晋卒
+  summary: 毛晋约卒于清顺治间，汲古阁刻书之名传于后世。
