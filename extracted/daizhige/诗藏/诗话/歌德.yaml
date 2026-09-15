@@ -1,0 +1,100 @@
+person:
+  qid: guji-歌德
+  name_zh: 歌德
+  names:
+    zh: 歌德（文中作"贵推"）
+    en: Johann Wolfgang von Goethe
+  lifespan:
+    birth:
+      date: 1749-08-28
+      precision: day
+      is_circa: false
+      raw: ''
+    death:
+      date: 1832-03-22
+      precision: day
+      is_circa: false
+      raw: ''
+  birth_date: 1749-08-28
+  death_date: 1832-03-22
+  era: 欧洲浪漫主义时期（清代乾隆—道光年间）
+  reign_ref: ''
+  archetype: 文豪诗人
+  dilemmas:
+  - 文学之悲欢是否可以跨越语言，译而求之失其神，撷取其意而出之，孰为上策
+  lesson: 以情人心裁铸诗境，虽隔山海语言，其悲凉动人处仍能使异国读者泫然泣下
+  summary_first_person: 吾贵推（歌德）者，欧洲文豪也。吾作《威特》（《少年维特之烦恼》），写威特为沙娄歌阿明临海哭女之诗，歌唱至第七章，沙娄大恸不可仰，威特掷诗于地，握手相对而哭，已而复歌，竟不能成声。马君武曾译吾《阿明临海哭女诗》九章为中文，谓苍凉悲壮，使读者泫然泣下，是吾诗之神，虽经重译而犹可感人也。
+  source_urls:
+  - 《海天诗话》（胡怀琛，民国）
+endeavors:
+- id: guji-歌德-endeavor-1
+  name_zh: 创作《威特》（少年维特之烦恼）
+  phases:
+  - key: brewing
+    name_zh: 构思时期
+    labels:
+      zh:
+      - 文学
+    start_date: '1773'
+    highlight_event_id: guji-歌德-event-werther
+  - key: breakthrough
+    name_zh: 成书与风靡
+    labels:
+      zh:
+      - 小说
+    start_date: '1774'
+    highlight_event_id: guji-歌德-event-werther
+  decisions:
+  - date: '1774'
+    title_zh: 以书信体小说写威特恋情之悲剧
+    rationale: 借沙娄听歌大恸、威特相对而哭之情境，使情文相生，其书一出，举世传诵
+- id: guji-歌德-endeavor-2
+  name_zh: 《阿明临海哭女诗》写作与传播
+  phases:
+  - key: climax
+    name_zh: 悲歌九章
+    labels:
+      zh:
+      - 诗歌
+    start_date: ''
+    highlight_event_id: guji-歌德-event-amin
+  - key: closure
+    name_zh: 东传中土
+    labels:
+      zh:
+      - 翻译传播
+    start_date: '1914'
+    highlight_event_id: guji-歌德-event-junwu
+  decisions:
+  - date: '1902'
+    title_zh: 马君武选译《阿明临海哭女诗》九章为中文
+    rationale: 苍凉悲壮，取其撷意锻炼、合于吾诗范围，为吟坛创格
+events:
+- id: guji-歌德-event-birth
+  date: 1749-08-28
+  year_of: 1749
+  type: birth
+  summary_zh: 歌德生于欧洲（据史补：一七四九年，文中未详）
+- id: guji-歌德-event-werther
+  date: 1774
+  year_of: 1774
+  type: endeavor
+  endeavor_id: guji-歌德-endeavor-1
+  summary_zh: 著《威特》。书中威特为沙娄歌阿明临海哭女之诗，歌至第七章，沙娄大恸不可仰，威特掷诗于地，握手相对哭，已而复歌，不能成声
+- id: guji-歌德-event-amin
+  date: ''
+  year_of: ''
+  type: endeavor
+  endeavor_id: guji-歌德-endeavor-2
+  summary_zh: 作《阿明临海哭女诗》九章，写老父阿明临海悼亡女，莽莽惊涛激石鸣，末章"阿明死骨无人收"，悲凉彻骨
+- id: guji-歌德-event-junwu
+  date: ''
+  year_of: ''
+  type: endeavor
+  endeavor_id: guji-歌德-endeavor-2
+  summary_zh: 马君武译《阿明临海哭女诗》九章为中文，载《新文学》，苍凉悲壮，中土读者为之泫然泣下
+- id: guji-歌德-event-death
+  date: 1832-03-22
+  year_of: 1832
+  type: death
+  summary_zh: 歌德卒（据史补：一八三二年，文中未详）

@@ -1,0 +1,124 @@
+person:
+  qid: guji-milton
+  name_zh: 弥尔顿
+  names:
+    zh: 弥尔顿
+    en: John Milton
+  lifespan:
+    birth:
+      date: '1608-12-09'
+      precision: day
+      is_circa: false
+      raw: 生年未见于原文，据通行传记为1608年
+    death:
+      date: '1674-11-08'
+      precision: day
+      is_circa: false
+      raw: 卒年未见于原文，据通行传记为1674年
+  birth_date: '1608-12-09'
+  death_date: '1674-11-08'
+  era: 17世纪英国
+  reign_ref: 英王查理一世至查理二世时代
+  archetype: 失明而口授著述的大诗人
+  dilemmas:
+  - 晚年失明，著述须依赖口授他人代笔
+  - 文人多厄，命运多舛而仍坚持创作
+  lesson: 身罹厄运而文心不灭，口授成书，与左丘明同为文人失明著述之典范
+  summary_first_person: 我是英国诗人弥尔顿，晚年双目失明，著作多靠我口授、由女儿代为笔录，情形恰似中国的左丘明。世人文人多遭困厄，中西竟如出一辙，而左丘明尚不及我有一位这样好的女儿。
+  source_urls:
+  - https://zh.wikisource.org/wiki/海天诗话
+endeavors:
+- id: guji-milton-endeavor-1
+  name_zh: 口授著述
+  phases:
+  - key: brewing
+    name_zh: 早期诗文创作
+    labels:
+      zh:
+      - 诗人
+      - 著述
+    start_date: '1630-01-01'
+    highlight_event_id: guji-milton-event-works
+  - key: breakthrough
+    name_zh: 声名渐起
+    labels:
+      zh:
+      - 享誉诗坛
+    start_date: '1640-01-01'
+    highlight_event_id: guji-milton-event-works
+  - key: climax
+    name_zh: 失明后口授著书
+    labels:
+      zh:
+      - 口授
+      - 女儿代笔
+    start_date: '1652-01-01'
+    highlight_event_id: guji-milton-event-blind
+  - key: closure
+    name_zh: 晚年与身后之名
+    labels:
+      zh:
+      - 晚境
+    start_date: '1660-01-01'
+    highlight_event_id: guji-milton-event-blind
+  decisions:
+  - date: '1652-01-01'
+    title_zh: 失明后改以口授方式继续著述
+    rationale: 双目失明仍不甘辍笔，赖女公子手写记录，续成著作
+- id: guji-milton-endeavor-2
+  name_zh: 与中国左丘明的类比传世
+  phases:
+  - key: brewing
+    name_zh: 著述传世
+    labels:
+      zh:
+      - 著作
+    start_date: '1650-01-01'
+    highlight_event_id: guji-milton-event-blind
+  - key: climax
+    name_zh: 东传得知，比于左丘明
+    labels:
+      zh:
+      - 名声东渐
+    start_date: '1914-01-01'
+    highlight_event_id: guji-milton-event-parallel
+  decisions:
+  - date: '1914-01-01'
+    title_zh: 胡怀琛于《海天诗话》中比弥尔顿于左丘明
+    rationale: 文人多厄，中西一辙；邱明犹输弥氏无此好女子
+events:
+- id: guji-milton-event-birth
+  person_id: guji-milton
+  title_zh: 弥尔顿生于英国
+  date: '1608-12-09'
+  year_of: 1608
+  kind: birth
+  summary_zh: 英国诗人弥尔顿诞生。（原文未载生年，据通行传记补）
+- id: guji-milton-event-blind
+  person_id: guji-milton
+  title_zh: 晚年失明，口授著作由女儿笔录
+  date: '1652-01-01'
+  year_of: 1652
+  kind: endeavor
+  summary_zh: 弥尔顿晚年失明，著作多口授其女公子手写，类中国左丘明之盲而著书。
+- id: guji-milton-event-works
+  person_id: guji-milton
+  title_zh: 诗文著述流传于世
+  date: '1650-01-01'
+  year_of: 1650
+  kind: endeavor
+  summary_zh: 弥尔顿以诗文著述名家，后世论者以其境遇印证"文人多厄，中西一辙"。
+- id: guji-milton-event-parallel
+  person_id: guji-milton
+  title_zh: 《海天诗话》记其事并比于左丘明
+  date: '1914-01-01'
+  year_of: 1914
+  kind: recognition
+  summary_zh: 胡怀琛《海天诗话》记弥尔顿失明口授事，谓其类似左丘明，而左丘明犹不如弥氏有此好女子相助。
+- id: guji-milton-event-death
+  person_id: guji-milton
+  title_zh: 弥尔顿卒
+  date: '1674-11-08'
+  year_of: 1674
+  kind: death
+  summary_zh: 英国诗人弥尔顿去世。（原文未载卒年，据通行传记补）
