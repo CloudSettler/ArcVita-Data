@@ -1,0 +1,105 @@
+person:
+  qid: guji-李悝
+  name_zh: 李悝
+  names:
+    zh: 李悝
+    en: Li Kui
+  lifespan:
+    birth:
+      is_circa: true
+      raw: 约战国初期
+    death:
+      is_circa: true
+      raw: 约战国初期
+  birth_date: 约战国初期
+  death_date: 约战国初期
+  era: 战国
+  reign_ref: 魏文侯
+  archetype: 变法家
+  dilemmas:
+  - 谷价甚贵伤民、甚贱伤农，两难如何调剂
+  - 平籴之法须取有余补不足，官府敛散须得民心
+  lesson: 善为国者使民无伤而农益劝，取有余以补不足，行之则国以富强
+  summary_first_person: 我为魏文侯作平籴之法，视年成上中下熟而籴，遇饥馑则发敛而粜，使谷价平而民不散，行之魏国，国以富强。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/李悝
+endeavors:
+- id: guji-李悝-endeavor-1
+  name_zh: 相魏文侯推行变法
+  phases:
+  - key: brewing
+    name_zh: 入仕魏国
+    labels:
+      zh: 出仕魏文侯
+    start_date: '-445'
+    highlight_event_id: guji-李悝-event-1
+  - key: breakthrough
+    name_zh: 创平籴之法
+    labels:
+      zh: 平籴变法
+    start_date: '-430'
+    highlight_event_id: guji-李悝-event-2
+  - key: climax
+    name_zh: 魏国富强
+    labels:
+      zh: 国以富强
+    start_date: '-420'
+    highlight_event_id: guji-李悝-event-3
+  - key: closure
+    name_zh: 法传后世
+    labels:
+      zh: 源流常平
+    start_date: '-403'
+    highlight_event_id: guji-李悝-event-3
+  decisions:
+  - date: '-430'
+    title_zh: 为魏文侯作平籴之法
+    rationale: 籴甚贵伤民，甚贱伤农；善为国者使民无伤而农益劝，故视熟之等级籴粜调剂
+  - date: '-425'
+    title_zh: 大熟上籴三而舍一，中熟籴二，下熟籴一
+    rationale: 使民适足，价平而止，防谷贱伤农
+  - date: '-420'
+    title_zh: 小饥发小熟之敛，中饥发中熟之敛，大饥发大熟之敛而粜之
+    rationale: 取有余而补不足，虽遇饥馑水旱籴不贵而民不散
+events:
+- id: guji-李悝-event-birth
+  type: birth
+  name_zh: 李悝出生
+  date: '-455'
+  date_precision: circa
+  year_of: -455
+  description_zh: 李悝约生于战国初期，后为魏文侯之臣
+- id: guji-李悝-event-1
+  type: endeavor
+  name_zh: 出仕魏文侯
+  date: '-445'
+  date_precision: circa
+  year_of: -445
+  endeavor_refs:
+  - guji-李悝-endeavor-1
+  description_zh: 李悝效力于魏文侯，参与治国
+- id: guji-李悝-event-2
+  type: endeavor
+  name_zh: 为魏文侯作平籴之法
+  date: '-430'
+  date_precision: circa
+  year_of: -430
+  endeavor_refs:
+  - guji-李悝-endeavor-1
+  description_zh: 建言大熟则上籴三而舍一，中熟籴二，下熟籴一；小饥则发小熟之敛，中饥发中熟之敛，大饥发大熟之敛而粜之，使民适足，价平而止
+- id: guji-李悝-event-3
+  type: closure
+  name_zh: 平籴行之魏国国以富强
+  date: '-420'
+  date_precision: circa
+  year_of: -420
+  endeavor_refs:
+  - guji-李悝-endeavor-1
+  description_zh: 平籴法取有余而补不足，虽遇饥馑水旱籴不贵而民不散，行之魏国国以富强；后世李悝之平籴与汉寿昌常平其源相通
+- id: guji-李悝-event-death
+  type: death
+  name_zh: 李悝去世
+  date: '-395'
+  date_precision: circa
+  year_of: -395
+  description_zh: 李悝约卒于魏文侯晚年前后
