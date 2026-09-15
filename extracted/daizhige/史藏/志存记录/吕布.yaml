@@ -1,0 +1,183 @@
+person:
+  qid: guji-吕布
+  name_zh: 吕布
+  names:
+    zh: 吕布
+    en: Lü Bu
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 不详（五原人）
+    death:
+      date: 199-02-07
+      precision: year
+      is_circa: true
+      raw: 建安三年末为曹操所擒，缢杀于下邳（约199年初）
+  death_date: 199-02-07
+  era: 东汉末
+  reign_ref: 汉献帝
+  archetype: 乱世枭将·反复无常之虎将
+  dilemmas:
+  - 杀丁原、董卓两主以求存，威名与信义不能两全
+  - 下邳被围时，自出断粮道还是留城守御，妻言与陈宫、高顺之议相左
+  - 穷途求赦于曹操，求刘备一言相救而不得
+  lesson: 有虓虎之勇而无信义之基，反复事主、驭下不公者，虽勇冠一时终为诸将所叛、身死 feder白门。
+  summary_first_person: 我吕布，五原人也。以骁武事丁原、董卓，手刃国贼董卓而名震天下，然关东诸将无有容我者。转侧于袁绍、袁术、刘备、曹操之间，据徐州与群雄周旋：辕门射戟解刘备之围，虎步淮南讥袁术之大言，亦曾夺备妻儿、与之相攻。终为曹操围于下邳，妻言愁闷不能自决，诸将临急皆叛，缚于白门之上。我谓太祖："卿背妻爱诸将妇，何以为厚？"布默然。大耳儿最叵信，然我之败，岂独人之不信我哉。
+  source_urls:
+  - 《汉末英雄记》（魏）王粲著·吕布条
+endeavors:
+- id: guji-吕布-endeavor-1
+  name_zh: 从军杀卓与转徙关东
+  phases:
+  - key: brewing
+    name_zh: 事丁原董卓
+    labels:
+      zh: 事丁原董卓
+    start_date: 0189
+    highlight_event_id: guji-吕布-event-kill-dongzhuo
+  - key: breakthrough
+    name_zh: 刺杀董卓
+    labels:
+      zh: 刺杀董卓
+    start_date: 192-04-23
+    highlight_event_id: guji-吕布-event-kill-dongzhuo
+  - key: climax
+    name_zh: 长安败走携卓首出武关
+    labels:
+      zh: 长安败走
+    start_date: 192-06-01
+    highlight_event_id: guji-吕布-event-escape-changan
+  - key: closure
+    name_zh: 辗转依袁绍被忌
+    labels:
+      zh: 依袁绍被忌
+    start_date: 0193
+    highlight_event_id: guji-吕布-event-escape-yuanshao
+  decisions:
+  - date: 192-06-01
+    title_zh: 携董卓首级将数百骑出武关
+    rationale: 李傕、郭汜攻围长安城陷，遂东出求生
+  - date: 0193
+    title_zh: 于袁绍帐中鼓筝而潜遁
+    rationale: 察觉袁绍遣壮士阴杀之，以鼓筝惑兵潜逃
+- id: guji-吕布-endeavor-2
+  name_zh: 徐州争衡
+  phases:
+  - key: brewing
+    name_zh: 得袁术书赴下邳夺备徐州
+    labels:
+      zh: 夺下邳
+    start_date: 0196
+    highlight_event_id: guji-吕布-event-take-xiapi
+  - key: breakthrough
+    name_zh: 辕门射戟解备之围
+    labels:
+      zh: 辕门射戟
+    start_date: 0196
+    highlight_event_id: guji-吕布-event-shoot-halberd
+  - key: climax
+    name_zh: 与曹操对峙下邳
+    labels:
+      zh: 下邳被围
+    start_date: 0198
+    highlight_event_id: guji-吕布-event-siege-xiapi
+  - key: closure
+    name_zh: 白门被擒身死
+    labels:
+      zh: 白门之死
+    start_date: 199-02-07
+    highlight_event_id: guji-吕布-event-death
+  decisions:
+  - date: 0196
+    title_zh: 得袁术米二十万斛之许，夜进下邳袭取徐州
+    rationale: 张益德与曹豹相争城中大乱，丹阳兵愿开城相迎
+  - date: 0196
+    title_zh: 辕门射戟调停纪灵与刘备
+    rationale: 性不喜合斗，但喜解斗，一发中戟支遂罢兵
+  - date: 0198
+    title_zh: 以绵缠女夜送袁术求援不得过
+    rationale: 以女婚姻结术为援，然为曹公守兵格射不得过
+  - date: 0198-12
+    title_zh: 欲自将骑断曹操粮道而愁闷不能自决
+    rationale: 妻谏宫顺素不同心，恐一出城有蹉跌
+events:
+- id: guji-吕布-event-birth
+  person: guji-吕布
+  type: birth
+  date: ''
+  date_raw: 不详
+  text: 五原人也，生年史无明文。
+- id: guji-吕布-event-kill-dongzhuo
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-1
+  date: 192-04-23
+  year_of: 192
+  date_raw: 四月二十三日
+  text: 吕布刺杀董卓，以卓头系马鞍东出。
+- id: guji-吕布-event-escape-changan
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-1
+  date: 192-06-01
+  year_of: 192
+  date_raw: 六月一日败走
+  text: 与李傕战败，乃将数百骑以卓头系马鞍走出武关；驻马青巢门外招王允曰"公可以去乎"。
+- id: guji-吕布-event-escape-yuanshao
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-1
+  date: 0193
+  year_of: 193
+  date_raw: 依托袁绍时期（约193）
+  text: 布求还洛，绍假布司隶校尉，外言当遣内欲杀布；布使帐中鼓筝，潜自遁去，夜中兵起而布已亡，遂引去。
+- id: guji-吕布-event-take-xiapi
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-2
+  date: 0196
+  year_of: 196
+  date_raw: 布初入徐州（约建安元年196）
+  text: 得袁术书信大喜，夜进下邳，丹阳兵开门内布兵，大破益德（张飞）兵，获备妻、子、军资及部曲将吏士家口。
+- id: guji-吕布-event-shoot-halberd
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-2
+  date: 0196
+  year_of: 196
+  date_raw: 袁术遣纪灵攻刘备时（约196）
+  text: 纪灵率步骑三万攻备，布请灵等飨饮，令植戟于营门弯弓曰"中者当解兵"，一发中戟支，遂罢兵。
+- id: guji-吕布-event-hao-meng-revolt
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-2
+  date: 196-07-01
+  year_of: 196
+  date_raw: 建安元年六月夜半
+  text: 部将郝萌反，兵入下邳府；布科头袒衣从溷上排壁出诣高顺营，顺讨斩萌首，曹性言陈宫同谋，布以宫大将不问。
+- id: guji-吕布-event-duel-guosi
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-1
+  date: 192-06-15
+  year_of: 192
+  date_raw: 长安城中（约192年六月）
+  text: 布与郭汜独共对战，布以矛刺中汜，汜后骑前救，二人各罢。
+- id: guji-吕布-event-siege-xiapi
+  person: guji-吕布
+  type: endeavor
+  endeavor_id: guji-吕布-endeavor-2
+  date: 198-12
+  year_of: 198
+  date_raw: 建安三年末（约198年12月）
+  text: 曹操围下邳，布欲令陈宫、高顺守城自将骑断曹粮道，得妻言愁闷不能自决，遂为曹公所擒。
+- id: guji-吕布-event-death
+  person: guji-吕布
+  type: death
+  endeavor_id: guji-吕布-endeavor-2
+  date: 199-02-07
+  year_of: 199
+  date_raw: 建安三年末（约199年初）
+  text: 曹公擒吕布，缚之急；备曰"公不见布事丁建阳、董太师乎"，布目备曰"大耳儿最叵信"，遂被缢杀。

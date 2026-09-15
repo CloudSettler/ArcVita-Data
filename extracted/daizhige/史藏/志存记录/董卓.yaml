@@ -1,0 +1,124 @@
+person:
+  qid: guji-董卓
+  name_zh: 董卓
+  names:
+    zh: 董卓
+    en: Dong Zhuo
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 生年不详，临洮人
+    death:
+      date: 192-04-23
+      precision: day
+      is_circa: false
+      raw: 四月二十三日为吕布所杀
+  death_date: 192-04-23
+  era: 东汉末年
+  reign_ref: 汉灵帝、汉少帝、汉献帝时期
+  archetype: 乱世权奸
+  dilemmas:
+  - 废立之权与汉室存续之争
+  - 亲族封赏与民心背离之抉择
+  lesson: 专权暴虐、逆天下而行者，纵积金玉如山，终致身死族灭
+  summary_first_person: 我董卓数讨羌胡，以强兵入洛，行废立、酖弘农王，封亲族、筑郿坞积金玉，逞凶暴虐，终为吕布所刺，尸暴于市，宗族尽灭。
+  source_urls:
+  - https://zh.wikisource.org/wiki/漢末英雄記
+endeavors:
+- id: guji-董卓-endeavor-1
+  name_zh: 讨羌胡征战
+  phases:
+  - key: brewing
+    name_zh: 早年从军
+    labels:
+      zh:
+      - 西州武吏
+    highlight_event_id: guji-董卓-event-campaign-qiang
+  - key: breakthrough
+    name_zh: 屡战羌胡
+    labels:
+      zh:
+      - 前后百余战
+    highlight_event_id: guji-董卓-event-campaign-qiang
+  decisions:
+  - title_zh: 数讨羌胡
+    rationale: 以军功起家， Accumulate 兵权于西州
+- id: guji-董卓-endeavor-2
+  name_zh: 专权废立
+  phases:
+  - key: brewing
+    name_zh: 领兵入洛
+    labels:
+      zh:
+      - 北芒迎驾
+    start_date: 189
+    highlight_event_id: guji-董卓-event-meet-emperor
+  - key: climax
+    name_zh: 废立皇帝
+    labels:
+      zh:
+      - 废少帝立献帝
+    start_date: 189
+    highlight_event_id: guji-董卓-event-depose
+  - key: closure
+    name_zh: 败亡族灭
+    labels:
+      zh:
+      - 身死族灭
+    start_date: 192
+    highlight_event_id: guji-董卓-event-death
+  decisions:
+  - date: 189
+    title_zh: 废少帝立陈留王
+    rationale: 谓刘氏之种不足复遗，以威慑朝臣、树立权势
+  - date: 190
+    title_zh: 遣人酖杀弘农王
+    rationale: 恐关东州郡以其为主举兵讨己
+- id: guji-董卓-endeavor-3
+  name_zh: 筑郿坞与封赏亲族
+  phases:
+  - key: climax
+    name_zh: 郿坞积财
+    labels:
+      zh:
+      - 金银山积
+    highlight_event_id: guji-董卓-event-meiwu
+  decisions:
+  - title_zh: 封孙女白为渭阳君
+    rationale: 尽私恩于亲族，弄金紫以示尊荣
+events:
+- id: guji-董卓-event-birth
+  type: birth
+  summary: 董卓出生，临洮人，父君雅曾任颍川纶氏尉。
+- id: guji-董卓-event-campaign-qiang
+  type: endeavor
+  summary: 董卓数讨羌胡，前后百余战。
+- id: guji-董卓-event-meet-emperor
+  type: endeavor
+  date: 189
+  year_of: 189
+  summary: 董卓将步骑数千于北芒阪下迎少帝与陈留王，辱斥崔烈，自陈留王怀中取王，权势始张。
+- id: guji-董卓-event-depose
+  type: endeavor
+  date: 189
+  year_of: 189
+  summary: 董卓于显阳苑议废立，斥袁绍，遂策废太后及少帝（史侯），另立陈留王为皇帝，太后迁永安宫其夜崩。
+- id: guji-董卓-event-kill-hongnongwang
+  type: endeavor
+  date: 190
+  year_of: 190
+  summary: 董卓闻关东州郡谋举兵，恐以弘农王为主，遣兵迫守致药，弘农王及唐妃皆薨。
+- id: guji-董卓-event-meiwu
+  type: endeavor
+  summary: 董卓于郿城筑坞积金二三千斤、银八九万斤，珠玉锦绮山积；封亲族侯者，孙女白为渭阳君，筑坛授印绶。
+- id: guji-董卓-event-assassination-attempt-warning
+  type: endeavor
+  date: 192
+  year_of: 192
+  summary: 有道士书“吕”字示卓，卓不悟为吕布；入朝时马踬不前，吕布劝行，卓衷甲而入。
+- id: guji-董卓-event-death
+  type: death
+  date: 192-04-23
+  year_of: 192
+  summary: 四月二十三日吕布刺杀董卓；尸暴于市，膏流浸地，守尸吏燃其脐为灯；弟旻、宗族在郿者皆被斫射，母年九十亦被斩；袁氏门生故吏焚董氏尸，后故部曲收灰一棺葬于郿。
