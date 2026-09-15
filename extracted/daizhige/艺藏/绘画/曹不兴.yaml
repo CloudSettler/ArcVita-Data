@@ -1,0 +1,124 @@
+person:
+  qid: guji-曹不兴
+  name_zh: 曹不兴
+  names:
+    zh: 曹不兴
+    en: Cao Buxing
+  lifespan:
+    birth:
+      precision: year
+      is_circa: false
+      raw: ''
+  era: 三国吴
+  reign_ref: 孙权时期，赤乌年间
+  archetype: 画家以误点成蝇、写龙献瑞著称的吴地画圣
+  dilemmas:
+  - 误落墨点于屏风素面，需即兴补救而不损画
+  - 目睹龙出水上，决定落笔写生以献君主
+  lesson: 匠心妙手可化失误为神来之笔；写实功力使画迹历数百年而令人叹服
+  summary_first_person: 我曹不兴乃吴兴人，为孙权画屏风时误落笔点于素上，随手就势画成蝇状，孙权疑以为真而以手弹之。吴中有八绝之称，我忝列其一。赤乌年间我至青溪，见赤龙出于水上，写之献于孙皓，皓送秘府藏之。至宋朝陆探微见此画犹叹其精妙，取龙置于水上，应时蓄水成雾。谢赫虽言我之真迹世代不复可见，然观秘阁所存一龙头，可知我风骨擅名不虚。我又尝画兵符图，极工。
+  source_urls:
+  - https://zh.wikisource.org/wiki/历代名画记
+endeavors:
+- id: guji-曹不兴-endeavor-1
+  name_zh: 侍孙权画屏风
+  phases:
+  - key: brewing
+    name_zh: 入吴为宫廷画工
+    labels:
+      zh:
+      - 吴兴画家
+  - key: breakthrough
+    name_zh: 误点成蝇
+    labels:
+      zh:
+      - 误笔成蝇
+    highlight_event_id: guji-曹不兴-event-endeavor-1
+  - key: climax
+    name_zh: 列名八绝
+    labels:
+      zh:
+      - 吴中八绝
+  - key: closure
+    name_zh: 名迹传世
+    labels:
+      zh:
+      - 谢赫品评
+  decisions:
+  - title_zh: 因误点顺势画蝇遮掩
+    rationale: 落笔已污素面，就势点作蝇状，反成写实妙笔，令孙权疑真而弹之
+- id: guji-曹不兴-endeavor-2
+  name_zh: 青溪写龙献孙皓
+  phases:
+  - key: brewing
+    name_zh: 留意水物异象
+    labels:
+      zh:
+      - 目击赤龙
+  - key: climax
+    name_zh: 写龙献瑞
+    labels:
+      zh:
+      - 献画入秘府
+    start_date: 238-01-01
+    highlight_event_id: guji-曹不兴-event-endeavor-2
+  - key: closure
+    name_zh: 后世应验传诵
+    labels:
+      zh:
+      - 陆探微叹妙
+  decisions:
+  - date: 238-01-01
+    title_zh: 见龙即写并献于君
+    rationale: 赤乌中见青溪赤龙出水，以为祥异，写 图献孙皓，皓送秘府珍藏
+- id: guji-曹不兴-endeavor-3
+  name_zh: 创作兵符图
+  phases:
+  - key: brewing
+    name_zh: 精研工笔
+    labels:
+      zh:
+      - 极工之作
+  - key: breakthrough
+    name_zh: 兵符图成
+    labels:
+      zh:
+      - 极工
+  decisions:
+  - title_zh: 撰画兵符图
+    rationale: 以为兵符图样关系军政，须极尽工精密以传世
+events:
+- id: guji-曹不兴-event-birth
+  type: birth
+  title_zh: 曹不兴生于吴兴（生年不详）
+  description: 吴兴人，生年史无明文。
+  entity_ids:
+  - guji-曹不兴
+- id: guji-曹不兴-event-endeavor-1
+  year_of: 229
+  type: career
+  title_zh: 为孙权画屏风误点成蝇
+  description: 命画屏风，误落笔点素，因就成蝇状，权疑其真，以手弹之，遂列吴中八绝之一。
+  entity_ids:
+  - guji-曹不兴
+- id: guji-曹不兴-event-endeavor-2
+  date: 238-01-01
+  year_of: 238
+  type: career
+  title_zh: 赤乌中于青溪写赤龙献孙皓
+  description: 见赤龙出水上，写以献孙皓，皓送秘府；后世传陆探微取画龙置水上蓄水成雾。
+  entity_ids:
+  - guji-曹不兴
+- id: guji-曹不兴-event-endeavor-3
+  year_of: 250
+  type: creative
+  title_zh: 画兵符图，极工
+  description: 尝画兵符图，时人称其极工。
+  entity_ids:
+  - guji-曹不兴
+- id: guji-曹不兴-event-death
+  type: death
+  title_zh: 曹不兴卒（卒年不详）
+  description: 卒年史无明文，谢赫言其真迹世代不复可见，唯秘阁存一龙头。
+  entity_ids:
+  - guji-曹不兴

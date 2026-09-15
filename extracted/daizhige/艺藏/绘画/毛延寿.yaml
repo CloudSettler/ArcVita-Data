@@ -1,0 +1,93 @@
+person:
+  qid: guji-毛延寿
+  name_zh: 毛延寿
+  names:
+    zh: 毛延寿
+    en: Mao Yanshou
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 西汉元帝时期
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 元帝时因昭君事弃市
+  era: 西汉元帝时期
+  reign_ref: 汉元帝（竞宁前后）
+  archetype: 画工
+  dilemmas:
+  - 宫人竞相贿赂画工以求美图，受贿与否关乎生计与操守
+  - 王昭君不赂画工而被画丑，终致和亲远嫁，画家因此获罪
+  lesson: 苟取不义之财，纵有绝艺亦难自保；去真存伪终致杀身之祸。
+  summary_first_person: 我是杜陵人毛延寿，善画人物，老少美恶皆得其真。元帝后宫既多，使画工图其状以备按图召见，诸宫人竞赂画工求美像，独王嫱不苟求我，我遂为其作丑状。后匈奴求汉美女，帝按图召昭君行，见其貌为第一，甚悔而籍已定，穷究其事，我与诸画工皆弃市。
+endeavors:
+- id: guji-毛延寿-endeavor-1
+  name_zh: 元帝宫廷画师
+  phases:
+  - key: brewing
+    name_zh: 以写真见称
+    labels:
+      zh:
+      - 画人写真
+      - 老少美恶皆得其真
+    highlight_event_id: guji-毛延寿-event-portrait
+  - key: climax
+    name_zh: 图写后宫状貌
+    labels:
+      zh:
+      - 受贿_venta
+    highlight_event_id: guji-毛延寿-event-bribe
+  - key: closure
+    name_zh: 昭君案弃市
+    labels:
+      zh:
+      - 穷其事
+      - 弃市
+    highlight_event_id: guji-毛延寿-event-execution
+  decisions:
+  - title_zh: 为王嫱作丑状
+    rationale: 王昭君不贿赂画工，遂不为其求美，故画其丑貌
+events:
+- id: guji-毛延寿-event-birth
+  event_type: birth
+  title_zh: 毛延寿生于杜陵
+  description: 杜陵人，善画人物，与陈敞、刘白、龚宽同时而人物不及延寿
+  participants:
+  - guji-毛延寿
+  place: 杜陵
+- id: guji-毛延寿-event-portrait
+  event_type: career
+  title_zh: 以写真之技闻名画坛
+  description: 延寿画人老少美恶皆得其真，为元帝朝著名画工
+  participants:
+  - guji-毛延寿
+  place: 长安
+- id: guji-毛延寿-event-bribe
+  event_type: career
+  year_of: ca. 前33
+  title_zh: 图后宫诸宫人状貌
+  description: 元帝后宫既多，使延寿等画工图其状，每披图召见；诸宫人竞赂画工，独王嫱貌丽意不苟求，延寿遂为丑状
+  participants:
+  - guji-毛延寿
+  - 王嫱
+  - 汉元帝
+  place: 长安
+- id: guji-毛延寿-event-execution
+  event_type: career
+  year_of: ca. 前33
+  title_zh: 昭君出塞事发，延寿弃市
+  description: 及匈奴求汉美女，上按图召昭君行，帝见昭君貌第一甚悔之而籍已定，穷其事，画工毛延寿等皆弃市
+  participants:
+  - guji-毛延寿
+  - 王嫱
+  - 汉元帝
+  place: 长安
+- id: guji-毛延寿-event-death
+  event_type: death
+  year_of: ca. 前33
+  title_zh: 弃市而死
+  description: 因昭君和亲图貌失真之事发，被处弃市之刑
+  participants:
+  - guji-毛延寿
+  place: 长安
