@@ -1,0 +1,209 @@
+person:
+  qid: guji-黄子野
+  name_zh: 黄子野
+  names:
+    zh: 黄子野
+    en: Huang Ziye
+  lifespan:
+    birth:
+      date: '0770'
+      precision: decade
+      is_circa: true
+      raw: 唐时侯官人，年十三从父于杭州
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: 约770
+  death_date: ''
+  era: 唐
+  reign_ref: 德宗前后
+  archetype: 义商隐士
+  dilemmas:
+  - 舍财救人与令父丧利之间的孝义冲突
+  - 折节读书与拒仕遁名之间的出处抉择
+  lesson: 义在损己，名遂即逃——救人不为报，闻召而愈遁
+  summary_first_person: 我十三岁随父客居杭州，值王伾覆舟罗刹江，以百金募渔者救之。父归大异，我恐以父之蓄易己名，遂去为人仆赁。主人义我而阴倍其偿，乃得为小贾，所息愈于父业。蓄藏既致，半奉亲甘毳，半振贫友昆弟，遂折节读左氏春秋。客劝仕而不答，悔见知于人，变名焚素，耕于方山。后王伾为散骑常侍遣使见召，我佯诺而夕遁矣。
+  source_urls:
+  - 稗史彚编
+endeavors:
+- id: guji-黄子野-endeavor-1
+  name_zh: 救王伾于罗刹江
+  phases:
+  - key: brewing
+    name_zh: 随父客杭
+    labels:
+      zh:
+      - 商贾之家
+      - 年十三
+    start_date: 约783
+    highlight_event_id: guji-黄子野-event-rochajiang
+  - key: breakthrough
+    name_zh: 慷慨救溺
+    labels:
+      zh:
+      - 解舍中装直百金
+    start_date: 约783
+    highlight_event_id: guji-黄子野-event-rochajiang
+  - key: closure
+    name_zh: 义声之累
+    labels:
+      zh:
+      - 恐令父丧赢
+    start_date: 约783
+    highlight_event_id: guji-黄子野-event-leave
+- id: guji-黄子野-endeavor-2
+  name_zh: 为仆经商以自养
+  phases:
+  - key: brewing
+    name_zh: 执仆赁
+    labels:
+      zh:
+      - 主人义其为人
+  - key: breakthrough
+    name_zh: 为小贾致蓄藏
+    labels:
+      zh:
+      - 所得常愈于父
+    start_date: 约785
+    highlight_event_id: guji-黄子野-event-merchant
+  - key: climax
+    name_zh: 半奉亲半振贫
+    labels:
+      zh:
+      - 昆弟
+      - 甘毳之养
+    start_date: 约790
+    highlight_event_id: guji-黄子野-event-give
+  - key: closure
+    name_zh: 折节读书
+    labels:
+      zh:
+      - 治左氏春秋
+    start_date: 约795
+    highlight_event_id: guji-黄子野-event-study
+  decisions:
+  - date: 约785
+    title_zh: 去父业而自为仆赁小贾
+    rationale: 身得其名乃令父丧赢，非孝也
+- id: guji-黄子野-endeavor-3
+  name_zh: 拒仕遁名耕方山
+  phases:
+  - key: brewing
+    name_zh: 客劝仕不答
+    labels:
+      zh:
+      - 自悔见知于人
+  - key: breakthrough
+    name_zh: 变名焚素耕方山
+    labels:
+      zh:
+      - 遁世
+    start_date: 约800
+    highlight_event_id: guji-黄子野-event-fangshan
+  - key: climax
+    name_zh: 王伾遣使见召
+    labels:
+      zh:
+      - 散骑常侍之召
+      - 扁舟披蓑雪中歌诗
+    start_date: 约805
+    highlight_event_id: guji-黄子野-event-summon
+  - key: closure
+    name_zh: 传舍签约雪霁遁去
+    labels:
+      zh:
+      - 书币封识如故
+    start_date: 约805
+    highlight_event_id: guji-黄子野-event-escape
+  decisions:
+  - date: 约800
+    title_zh: 变姓名焚毫素耕于方山
+    rationale: 悔见知于人，不欲以义博名
+  - date: 约805
+    title_zh: 佯诺使者约旦日会传舍，夕遁
+    rationale: 终不受王伾之征，守隐遁之志
+events:
+- id: guji-黄子野-event-birth
+  type: birth
+  title_zh: 黄子野生于侯官
+  date: 约0770
+  year_of: 770
+  actors:
+  - guji-黄子野
+  place: 唐福州侯官
+- id: guji-黄子野-event-rochajiang
+  type: endeavor_highlight
+  title_zh: 年十三随父于杭州，王伾覆舟罗刹江，子野募渔者救之，予以百金
+  date: 约0783
+  year_of: 783
+  actors:
+  - guji-黄子野
+  - 王伾
+  place: 罗刹江（杭州）
+- id: guji-黄子野-event-leave
+  type: endeavor_highlight
+  title_zh: 父归大异，子野以救伾之事令父丧赢，遂去为人仆赁
+  date: 约0783
+  year_of: 783
+  actors:
+  - guji-黄子野
+  place: 杭州
+- id: guji-黄子野-event-merchant
+  type: endeavor_highlight
+  title_zh: 主人阴倍其偿，遂为小贾，所得常愈于父
+  date: 约0785
+  year_of: 785
+  actors:
+  - guji-黄子野
+  place: 杭州
+- id: guji-黄子野-event-give
+  type: endeavor_highlight
+  title_zh: 以蓄藏之半奉亲甘毳，以半振贫友昆弟
+  date: 约0790
+  year_of: 790
+  actors:
+  - guji-黄子野
+  place: 杭州
+- id: guji-黄子野-event-study
+  type: endeavor_highlight
+  title_zh: 折节读书，治左氏春秋
+  date: 约0795
+  year_of: 795
+  actors:
+  - guji-黄子野
+  place: 杭州
+- id: guji-黄子野-event-fangshan
+  type: endeavor_highlight
+  title_zh: 变姓名焚毫素，耕于方山
+  date: 约0800
+  year_of: 800
+  actors:
+  - guji-黄子野
+  place: 方山
+- id: guji-黄子野-event-summon
+  type: endeavor_highlight
+  title_zh: 王伾为散骑常侍，遣使访于阳岐江上，雪中扣舷歌诗相见
+  date: 约0805
+  year_of: 805
+  actors:
+  - guji-黄子野
+  - 王伾
+  place: 阳岐江
+- id: guji-黄子野-event-escape
+  type: endeavor_highlight
+  title_zh: 约旦日雪霁会于传舍，夕时书币封识如故，子野遁去
+  date: 约0805
+  year_of: 805
+  actors:
+  - guji-黄子野
+  place: 深山中传舍
+- id: guji-黄子野-event-death
+  type: death
+  title_zh: 卒年不详
+  date: ''
+  year_of: 0
+  actors:
+  - guji-黄子野
+  place: ''
