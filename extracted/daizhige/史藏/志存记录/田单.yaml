@@ -1,0 +1,177 @@
+person:
+  qid: guji-田单
+  name_zh: 田单
+  names:
+    zh: 田单
+    en: Tian Dan
+  lifespan:
+    birth:
+      date: -216
+      precision: circa
+      is_circa: true
+      raw: 约公元前四世纪末生，卒年不详
+    death:
+      date: -176
+      precision: circa
+      is_circa: true
+      raw: 约前260年前后卒，一说晚年至赵为将
+  birth_date: -216
+  death_date: -176
+  era: 战国
+  reign_ref: 齐闵王、齐襄王时期
+  archetype: 危局孤城之守将与复国名相
+  dilemmas:
+  - 七十余城尽失、莒即墨仅存之际，是弃城东渡还是以孤城续齐之国祚
+  - 复齐功高之后，功震于主、名盖于王（“闻齐之内有田单，不闻其王”），如何自处于君臣之间
+  - 身为宗室远支、初为市吏小官，临难之际敢不敢挺身任事
+  lesson: 孤城不可以力守，而可以智守；用间、用奇、用人心，则亡国可复；然功成之后名掩其主，亦足为权臣之戒。
+  summary_first_person: 我本临淄市吏，燕师下齐七十余城时独守即墨一孤城；坐与士卒同劳，散饮食以悦众，使妻妾编于行伍之间。我先纵反间令燕以骑劫代乐毅，再夜纵火牛五千冲破燕军，一举收复齐地七十余城，迎襄王于莒而复国，受封安平君为齐相。后世策士言“闻齐之内有田单，不闻其王”，我之擅齐可知；功成而名盖主，是我终不能自解之忧。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戰國策
+endeavors:
+- id: guji-田单-endeavor-1
+  name_zh: 即墨孤城抗燕与火牛复齐
+  phases:
+  - key: brewing
+    name_zh: 安平断轴东走
+    labels:
+      zh: 燕破齐 · 教族人断轴缚铁笼以避兵祸
+    start_date: -0284
+    highlight_event_id: guji-田单-event-anping
+  - key: breakthrough
+    name_zh: 保即墨、坚守孤城
+    labels:
+      zh: 即墨抗燕 · 众推为将，与士卒同劳
+    start_date: -0283
+    highlight_event_id: guji-田单-event-jimo
+  - key: climax
+    name_zh: 反间易将、火牛破燕、收复七十余城
+    labels:
+      zh: 火牛阵 · 夜纵火牛奇袭，一举复齐
+    start_date: -0279
+    highlight_event_id: guji-田单-event-fireox
+  - key: closure
+    name_zh: 迎立襄王、封安平君
+    labels:
+      zh: 复国封君 · 自莒迎齐襄王入临淄
+    start_date: -0279
+    highlight_event_id: guji-田单-event-xiangwang
+  decisions:
+  - date: -0284
+    title_zh: 令宗族尽断车轴末端而傅铁笼
+    rationale: 预见城破必争路奔逃，长轴相击则轮败身困，先为之备者独田单一族得全。
+  - date: -0283
+    title_zh: 受即墨军民之推，出任守将
+    rationale: 城中推智勇可属者，虽市吏出身，敢以孤城自任，与士卒同甘苦以固人心。
+  - date: -0279
+    title_zh: 行反间，使燕以骑劫代乐毅
+    rationale: 乐毅善用兵而深得燕心，齐所畏也；散布流言使燕王自去良将，则燕军可乘。
+  - date: -0279
+    title_zh: 夜纵火牛五千、壮士五千随其后袭燕营
+    rationale: 守不可久，必出奇制胜；集牛千余，角缚利刃，尾束灌脂苇草，夜烧其端，牛怒而奔燕军，燕军大惊大败。
+- id: guji-田单-endeavor-2
+  name_zh: 相齐擅政与身后之名
+  phases:
+  - key: brewing
+    name_zh: 迎王复位、总揽齐政
+    labels:
+      zh: 复国执政 · 迎法章于莒，立为齐襄王
+    start_date: -0279
+    highlight_event_id: guji-田单-event-xiangwang
+  - key: breakthrough
+    name_zh: 擅齐之名闻于诸侯
+    labels:
+      zh: 名盖其主 · 策士谓“闻齐之内有田单，不闻其王”
+    start_date: -184
+    highlight_event_id: guji-田单-event-shanzhang
+  - key: climax
+    name_zh: 安平君威权重于齐
+    labels:
+      zh: 权倾齐国 · 齐国之内惟知安平君
+    start_date: -181
+    highlight_event_id: guji-田单-event-shanzhang
+  - key: closure
+    name_zh: 晚岁出将，终老于外
+    labels:
+      zh: 晚景 · 一说晚年去齐为赵将攻燕
+    start_date: -181
+    highlight_event_id: guji-田单-event-death
+  decisions:
+  - date: -0279
+    title_zh: 自莒迎齐襄王法章入临淄而复位
+    rationale: 齐已复地而国不可无主，迎故太子以正名分，己则受相印居其实权。
+  - date: -184
+    title_zh: 久执齐政而不逊位于王
+    rationale: 复国之功自负，齐国倚重之深，遂致功高震主，为后世权臣之鉴。
+events:
+- id: guji-田单-event-birth
+  person_qid: guji-田单
+  type: birth
+  date: -216
+  year_of: -216
+  is_circa: true
+  title_zh: 田单生
+  detail_zh: 田单，田氏宗室远支，齐临淄市掾小吏出身，生年史无明文，约在战国齐威王、宣王之际。
+- id: guji-田单-event-anping
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  phase_key: brewing
+  date: -0284
+  year_of: -0284
+  title_zh: 燕破齐都，田单断轴东走保安全
+  detail_zh: 乐毅率燕师破齐，下七十余城；田单先令宗族断长车轴末端、傅以铁笼，安平城破争路而走时惟田氏之车得全，遂东保即墨。
+- id: guji-田单-event-jimo
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  phase_key: breakthrough
+  date: -0283
+  year_of: -0283
+  title_zh: 众推为即墨守将，坚壁抗燕
+  detail_zh: 即墨大夫战死，城中共推田单为将；田单坐则织蒉、立则杖锸，与士卒同劳，散饮食飨士，使妻妾编于行伍之间，孤城以固。
+- id: guji-田单-event-fanjian
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  phase_key: climax
+  date: -0279
+  year_of: -0279
+  title_zh: 行反间，燕以骑劫代乐毅
+  detail_zh: 田单宣言畏乐毅而惧其缓攻实欲自立为齐王；燕惠王信之，使骑劫代将，乐毅奔赵，燕军将士由是愤惋不和。
+- id: guji-田单-event-fireox
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-1
+  phase_key: climax
+  date: -0279
+  year_of: -0279
+  title_zh: 火牛阵夜破燕军，收复齐七十余城
+  detail_zh: 田单集牛千余，缯衣画以五彩龙文，角缚兵刃，尾束灌脂苇草，夜凿城数十穴纵牛，壮士五千随其后；牛尾热而怒奔燕营，燕军大溃杀骑劫，齐追亡逐北，所过城邑皆畔燕归田单，七十余城尽复。
+- id: guji-田单-event-xiangwang
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-2
+  phase_key: brewing
+  date: -0279
+  year_of: -0279
+  title_zh: 迎立齐襄王，田单封安平君为齐相
+  detail_zh: 田单自莒迎齐襄王法章入临淄听政，以复齐之功受封安平君，任齐相，总揽国政。
+- id: guji-田单-event-shanzhang
+  person_qid: guji-田单
+  type: endeavor
+  endeavor_id: guji-田单-endeavor-2
+  phase_key: breakthrough
+  date: -184
+  year_of: -184
+  is_circa: true
+  title_zh: 擅齐之名闻于天下
+  detail_zh: 秦相范睢言于秦昭王曰“臣居山东，闻齐之内有田单，不闻其王”，与“闻秦之有太后、穰侯而不闻其王”并举，田单权倾齐国、名盖其主可知。
+- id: guji-田单-event-death
+  person_qid: guji-田单
+  type: death
+  date: -176
+  year_of: -176
+  is_circa: true
+  title_zh: 田单卒
+  detail_zh: 田单卒年不详，约前260年前后；一说晚年离齐为赵将，率赵师攻燕，卒于赵。

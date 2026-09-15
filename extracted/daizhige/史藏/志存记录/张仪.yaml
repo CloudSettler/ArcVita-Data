@@ -1,0 +1,195 @@
+person:
+  qid: guji-张仪
+  name_zh: 张仪
+  names:
+    zh: 张仪
+    en: Zhang Yi
+  lifespan:
+    birth:
+      date: ~-350
+      precision: decade
+      is_circa: true
+      raw: 生年不详，约战国中期
+    death:
+      date: -309
+      precision: year
+      is_circa: false
+      raw: 卒于秦武王元年（前309年），史传附会“出相魏而卒”
+  birth_date: ~-350
+  death_date: -309
+  era: 战国
+  reign_ref: 秦惠文王、秦武王
+  archetype: 纵横家／连横策士
+  dilemmas:
+  - 挟天子以令天下（伐韩临二周）与广地富民（伐蜀）的王业路线之争
+  - 以欺楚之诈促成连横，功成而信义尽失
+  - 与陈轸、樗里疾、公孙衍同朝相忌，忠谋与倾轧难分
+  lesson: 势位可恃而不可恃诈久持——凭口舌与权诈取国者，终亦为时势与人主之疑所转。
+  summary_first_person: 我以连横之策事秦惠文王，与司马错争于朝堂而主伐韩，王卒听错言伐蜀；我以商於六百里之约欺楚绝齐，遂破齐楚之从；又谗陈轸、挤樗里疾，皆纵横之术也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戰國策/卷三
+  - https://zh.wikisource.org/wiki/戰國策/卷四
+endeavors:
+- id: guji-张仪-endeavor-1
+  key: 出仕秦国·推行连横
+  name_zh: 出仕秦国·推行连横
+  phases:
+  - key: brewing
+    name_zh: 入秦为客卿
+    labels:
+      zh: 客卿入秦
+    start_date: ~-328
+    highlight_event_id: guji-张仪-event-enter-qin
+  - key: breakthrough
+    name_zh: 朝堂论战与连横布局
+    labels:
+      zh: 伐蜀之辩·连横欺楚
+    start_date: -316
+    highlight_event_id: guji-张仪-event-shu-debate
+  - key: climax
+    name_zh: 破齐楚之从
+    labels:
+      zh: 商於欺楚·杜陵大破楚师
+    start_date: -313
+    highlight_event_id: guji-张仪-event-deceive-chu
+  - key: closure
+    name_zh: 惠王崩后失势
+    labels:
+      zh: 惠文王薨·公孙衍谋穷张仪
+    start_date: -311
+    highlight_event_id: guji-张仪-event-huiwen-death
+  decisions:
+  - date: -316
+    title_zh: 主张伐韩、临二周以挟天子
+    rationale: “争名者于朝，争利者于市。今三川、周室天下之市朝也”，欲据九鼎、挟天子以成王业，然惠王从司马错之议伐蜀。
+  - date: -313
+    title_zh: 以商於六百里之约诱楚绝齐
+    rationale: 齐楚之交善则秦不得伐齐，故诈许地六百里使楚绝齐，齐楚既破，连横乃成。
+  - date: ~-312
+    title_zh: 谮樗里疾于秦王
+    rationale: 重而使之楚，因令楚王为之请相于秦，反言其“以国事楚王”，遂逐政敌樗里疾。
+  - date: -311
+    title_zh: 欲以汉中与楚为和
+    rationale: 以汉中为“国累”，南边为楚利，欲割以市楚；甘茂谏“地大者固多忧”，其议见疑。
+- id: guji-张仪-endeavor-2
+  key: 善辩外交·为秦使诸侯
+  name_zh: 善辩外交·为秦使诸侯
+  phases:
+  - key: brewing
+    name_zh: 寒泉子荐为使
+    labels:
+      zh: “善我国家，使诸侯，请使客卿张仪”
+    start_date: ~-320
+    highlight_event_id: guji-张仪-event-hanquanzi
+  - key: breakthrough
+    name_zh: 说秦王陈霸王之道
+    labels:
+      zh: 上书陈“三亡”之论
+    start_date: ~-317
+    highlight_event_id: guji-张仪-event-shuo-qinwang
+  - key: climax
+    name_zh: 假兵救魏、联魏制楚
+    labels:
+      zh: 假秦兵以救魏·取皮氏予魏
+    start_date: ~-314
+    highlight_event_id: guji-张仪-event-aid-wei
+  - key: closure
+    name_zh: 政敌环伺·终为所穷
+    labels:
+      zh: 陈轸周旋·公孙衍召三雠
+    start_date: -311
+    highlight_event_id: guji-张仪-event-huiwen-death
+  decisions:
+  - date: ~-314
+    title_zh: 请假秦兵以救魏
+    rationale: 楚攻魏则与魏，以劲之：“魏战胜，复听于秦，必入西河之外；不胜，魏不能守，王必取之。”
+  - date: ~-317
+    title_zh: 说秦王力陈兼天下之策
+    rationale: 以“以乱攻治者亡”三亡之论，劝秦破从约、举赵亡韩、臣荆魏而成伯王之名。
+events:
+- id: guji-张仪-event-birth
+  year_of: -350
+  date: ~-350
+  type: birth
+  title_zh: 张仪约生于战国中期魏国安阳一带
+  description: 生年史无明文，据其惠文王时活跃推约。
+  entity_id: guji-张仪
+- id: guji-张仪-event-hanquanzi
+  year_of: -320
+  date: ~-320
+  type: appointment
+  title_zh: 寒泉子荐张仪使诸侯
+  description: 秦惠王欲使武安子起喻意诸侯，寒泉子曰“善我国家，使诸侯，请使客卿张仪”，王敬受命。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-2
+- id: guji-张仪-event-shuo-qinwang
+  year_of: -317
+  date: ~-317
+  type: speech
+  title_zh: 张仪说秦王陈“三亡”之论
+  description: 张仪见秦惠王，陈“以乱攻治者亡，以邪攻正者亡，以逆攻顺者亡”，请举天下之从、举赵亡韩以成伯王之名。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-2
+- id: guji-张仪-event-enter-qin
+  year_of: -328
+  date: ~-328
+  type: appointment
+  title_zh: 张仪为秦客卿，渐掌国交
+  description: 左成谓甘茂“张子不去秦，张子必高子”，仪得志于秦魏之间。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-shu-debate
+  year_of: -316
+  date: -316
+  type: debate
+  title_zh: 司马错与张仪争论伐蜀伐韩于秦惠王前
+  description: 张仪主张“下兵三川、挟天子以令天下”，司马错主张伐蜀广地富民，惠王曰“善！寡人听子”，卒起兵伐蜀，十月取之，秦益强富厚。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-aid-wei
+  year_of: -314
+  date: ~-314
+  type: diplomatic
+  title_zh: 张仪假秦兵以救魏
+  description: 楚攻魏，仪请与魏以劲之；王用仪言，取皮氏、卒万人、车百乘以与魏，魏果献西河之外。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-2
+- id: guji-张仪-event-deceive-chu
+  year_of: -313
+  date: -313
+  type: diplomatic
+  title_zh: 张仪以商於六百里欺楚绝齐
+  description: 仪南见楚王，许献商於之地方六百里诱楚闭关绝齐；楚既绝齐，仪称病不朝，后曰“从某至某广从六里”。楚王怒而伐秦，秦与齐、韩合，楚兵大败于杜陵。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-slander-chenzhen
+  year_of: -312
+  date: ~-312
+  type: political
+  title_zh: 张仪两度谮陈轸于秦王
+  description: 仪言“轸驰楚秦之间，自为而不为国”，又请逐之；陈轸以“忠且见弃”之对自明，秦王善待之，谗不果行。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-slander-chuli
+  year_of: -311
+  date: ~-311
+  type: political
+  title_zh: 张仪谮樗里疾，樗里疾出走
+  description: 仪重而使之楚，因令楚王为之请相于秦，反言其“彼必以国事楚王”，秦王大怒，樗里疾出走。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-huiwen-death
+  year_of: -311
+  date: -311
+  type: political
+  title_zh: 秦惠王死，公孙衍谋穷张仪
+  description: 惠王崩，武王立；公孙衍欲召甘茂、公孙显、樗里子三张仪之雠而用之，诸侯必见张仪之无秦，仪势遂衰。
+  entity_id: guji-张仪
+  endeavor_id: guji-张仪-endeavor-1
+- id: guji-张仪-event-death
+  year_of: -309
+  date: -309
+  type: death
+  title_zh: 张仪卒
+  description: 出相魏一年而卒（一说），纵横之局由公孙衍、甘茂辈续之。
+  entity_id: guji-张仪

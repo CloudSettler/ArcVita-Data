@@ -1,0 +1,107 @@
+person:
+  qid: guji-鲁仲连
+  name_zh: 鲁仲连
+  names:
+    zh: 鲁仲连
+    en: Lu Zhonglian
+  lifespan:
+    birth:
+      date: -305
+      precision: year
+      is_circa: true
+      raw: 约公元前305年
+    death:
+      date: -245
+      precision: year
+      is_circa: true
+      raw: 约公元前245年
+  birth_date: -305
+  death_date: -245
+  era: 战国
+  reign_ref: 齐国时期（约齐湣王、齐襄王之世）
+  archetype: 策士辩士
+  dilemmas:
+  - 直言规谏当权者，还是曲意逢迎以取富贵
+  - 好士之名与养士之实的落差该如何点破
+  lesson: 真正的好士不在于待古之贤才，而在于以马与色取于今世之同等眼光，取用于今之士
+  summary_first_person: 我鲁仲连，齐之辩士也。见孟尝君自谓好士而士不为尽游，遂以厩马皆衣绣食粟、后宫皆衣缟纻食梁肉为喻，指出色与马皆取于今世，士何必待古，直斥其好士未也。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戰國策/齊四
+endeavors:
+- id: guji-鲁仲连-endeavor-1
+  name_zh: 游学于齐、以辩才闻于世
+  labels:
+    zh: 游士立身
+  phases:
+  - key: brewing
+    name_zh: 游学齐地
+    labels:
+      zh: 游学齐地
+    start_date: -290
+    highlight_event_id: guji-鲁仲连-event-study
+  - key: breakthrough
+    name_zh: 谏孟尝君论好士
+    labels:
+      zh: 谏孟尝君
+    start_date: -285
+    highlight_event_id: guji-鲁仲连-event-advise
+  decisions:
+  - date: -285
+    title_zh: 面谏孟尝君直指其好士之虚
+    rationale: 孟尝君养士而士未为尽游，借口无雍门椒亦、阳得子之才；我以马匹美衣美食皆取今世为喻，断言士不必待古，直陈其病。
+- id: guji-鲁仲连-endeavor-2
+  name_zh: 议政清议、不仕而议论诸侯之政
+  labels:
+    zh: 不仕清议
+  phases:
+  - key: brewing
+    name_zh: 周游列国观政
+    labels:
+      zh: 周游观政
+    start_date: -285
+    highlight_event_id: guji-鲁仲连-event-advise
+  - key: closure
+    name_zh: 终不仕而名重诸侯
+    labels:
+      zh: 终不仕
+    start_date: -250
+    highlight_event_id: guji-鲁仲连-event-death
+  decisions:
+  - date: -250
+    title_zh: 坚不仕于诸侯
+    rationale: 以布衣之身持天下之议，义不居权势之位，故终身不仕而名重。
+events:
+- id: guji-鲁仲连-event-birth
+  person_id: guji-鲁仲连
+  type: birth
+  date: -305
+  year_of: -305
+  date_is_circa: true
+  place: 齐国
+  description: 鲁仲连约生于战国中期齐国。
+- id: guji-鲁仲连-event-study
+  person_id: guji-鲁仲连
+  type: endeavor
+  endeavor_id: guji-鲁仲连-endeavor-1
+  date: -290
+  year_of: -290
+  date_is_circa: true
+  place: 齐国
+  description: 鲁仲连年少时游学于齐，以口辩出奇、不肯仕宦任事而闻名。
+- id: guji-鲁仲连-event-advise
+  person_id: guji-鲁仲连
+  type: endeavor
+  endeavor_id: guji-鲁仲连-endeavor-1
+  date: -285
+  year_of: -285
+  date_is_circa: true
+  place: 齐国·薛
+  description: 鲁仲连谓孟尝君曰君好士也，然君厩马百乘无不被绣衣而食菽粟，后宫十妃皆衣缟纻食梁肉，皆取于今世；色与马取于今世，士何必待古哉，故曰君之好士未也。
+- id: guji-鲁仲连-event-death
+  person_id: guji-鲁仲连
+  type: death
+  date: -245
+  year_of: -245
+  date_is_circa: true
+  place: 齐国
+  description: 鲁仲连约卒于战国末期，终身不仕，以义辩名于诸侯。

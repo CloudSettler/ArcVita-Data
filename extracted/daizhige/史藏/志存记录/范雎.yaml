@@ -1,0 +1,157 @@
+person:
+  qid: guji-fanju
+  name_zh: 范雎
+  names:
+    zh: 范雎
+    en: Fan Ju
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 不详
+    death:
+      date: -255
+      precision: year
+      is_circa: true
+      raw: 约前255年
+  death_date: -255
+  era: 战国
+  reign_ref: 秦昭襄王
+  archetype: 纵横策士·远交近攻的谋略家
+  dilemmas:
+  - 以客卿之身直谏秦昭王，须冒触怒宣太后与穰侯之险
+  - 报魏齐之仇与顾全秦赵大局之间的恩怨权衡
+  - 功成之后激流勇退，让位于蔡泽以保身
+  lesson: 王天下者须明远近之序——远交以孤敌，近攻以广地；谋士亦当知进退有时。
+  summary_first_person: 我范雎，魏人也。早年遭须贾、魏齐构陷，几死，化名张禄入秦。我以远交近攻之策说秦昭襄王，得拜为相，助王逐穰侯、废太后而亲政。长平之战，我用反间计使赵以赵括代廉颇，秦遂大破赵。然我终感谗恩之累，荐蔡泽自代，谢病归相印，得以善终。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戰國策/卷三
+  - https://zh.wikisource.org/wiki/戰國策/卷六
+endeavors:
+- id: guji-fanju-endeavor-1
+  name_zh: 入秦献远交近攻之策
+  labels:
+    zh: 策士入秦
+  phases:
+  - key: brewing
+    name_zh: 王稽入秦得引荐
+    labels:
+      zh: 藏名待时
+    start_date: -272
+    highlight_event_id: guji-fanju-event-meet-king
+  - key: breakthrough
+    name_zh: 说昭王献远交近攻
+    labels:
+      zh: 远交近攻
+    start_date: -269
+    highlight_event_id: guji-fanju-event-meet-king
+  - key: climax
+    name_zh: 拜相逐穰侯，助昭王亲政
+    labels:
+      zh: 拜相固权
+    start_date: -266
+    highlight_event_id: guji-fanju-event-chancellor
+  - key: closure
+    name_zh: 荐蔡泽自代，谢病归相
+    labels:
+      zh: 功成身退
+    start_date: -257
+    highlight_event_id: guji-fanju-event-retire
+  decisions:
+  - date: -269
+    title_zh: 匿名张禄，冒死直谒秦昭王
+    rationale: 秦有太后、穰侯专权之弊，唯有上书直言远近攻取之序，方能取信于王。
+  - date: -266
+    title_zh: 建议昭王收权，逐穰侯魏冉于关外
+    rationale: 穰侯越韩魏而攻齐，非计之善；强内则王权固，近攻则地可得。
+- id: guji-fanju-endeavor-2
+  name_zh: 长平之役设反间计
+  labels:
+    zh: 长平反间
+  phases:
+  - key: brewing
+    name_zh: 秦赵相持于长平
+    labels:
+      zh: 两军相持
+    start_date: -261
+    highlight_event_id: guji-fanju-event-changping
+  - key: breakthrough
+    name_zh: 反间使赵以赵括代廉颇
+    labels:
+      zh: 反间易将
+    start_date: -260
+    highlight_event_id: guji-fanju-event-changping
+  - key: climax
+    name_zh: 白起大破赵军，坑降卒四十余万
+    labels:
+      zh: 长平大捷
+    start_date: -260
+    highlight_event_id: guji-fanju-event-changping
+  - key: closure
+    name_zh: 苏代游说，说秦王许赵割地而罢兵
+    labels:
+      zh: 罢兵议和
+    start_date: -259
+    highlight_event_id: guji-fanju-event-peace
+  decisions:
+  - date: -260
+    title_zh: 阴遣人持金反间于赵
+    rationale: 廉颇坚壁不出，秦师老于外；必使赵易将，方可破敌。
+  - date: -259
+    title_zh: 纳苏代之说，许赵和而罢兵
+    rationale: 既惧白起功高，亦欲存秦力、收赵地，遂听韩赵之请而罢兵。
+events:
+- id: guji-fanju-event-birth
+  person_qid: guji-fanju
+  title_zh: 范雎生于魏国
+  labels:
+    zh: 出生
+  summary: 范雎，魏国人，生年不详。
+- id: guji-fanju-event-meet-king
+  person_qid: guji-fanju
+  title_zh: 上书昭王，献远交近攻之策
+  date: -269
+  year_of: -269
+  labels:
+    zh: 进策
+  summary: 范雎化名张禄，得谒秦昭襄王，言“远交而近攻”，王大悦，用其谋。
+- id: guji-fanju-event-chancellor
+  person_qid: guji-fanju
+  title_zh: 拜为秦相，逐穰侯
+  date: -266
+  year_of: -266
+  labels:
+    zh: 拜相
+  summary: 范雎为秦相，封应侯；昭王废太后，逐穰侯魏冉等于关外，王权始固。
+- id: guji-fanju-event-changping
+  person_qid: guji-fanju
+  title_zh: 长平之战施反间计
+  date: -260
+  year_of: -260
+  labels:
+    zh: 反间
+  summary: 范雎阴使反间于赵，赵以赵括代廉颇，秦将白起遂大破赵军于长平。
+- id: guji-fanju-event-peace
+  person_qid: guji-fanju
+  title_zh: 说秦王许赵割地请和
+  date: -259
+  year_of: -259
+  labels:
+    zh: 议和
+  summary: 苏代为赵说范雎，惧白起功高，范雎乃劝秦王许赵割六城而罢兵。
+- id: guji-fanju-event-retire
+  person_qid: guji-fanju
+  title_zh: 荐蔡泽自代，归相印
+  date: -255
+  year_of: -255
+  labels:
+    zh: 功成身退
+  summary: 范雎感蔡泽之说，谢病归相印，荐蔡泽自代，未几而卒。
+- id: guji-fanju-event-death
+  person_qid: guji-fanju
+  title_zh: 范雎卒
+  date: -255
+  year_of: -255
+  labels:
+    zh: 逝世
+  summary: 范雎约卒于秦王政之前，让位之后得以善终。
