@@ -1,0 +1,95 @@
+person:
+  qid: guji-韩熙载
+  name_zh: 韩熙载
+  names:
+    zh: 韩熙载
+    en: Han Xizai
+  lifespan:
+    birth:
+      date: 0902
+      precision: year
+      is_circa: true
+      raw: 约生于唐末
+  birth_date: 0902
+  era: 五代十国·南唐
+  reign_ref: 南唐元宗李璟、后主李煜在位期间
+  archetype: 直言敢谏的臣僚与文士
+  dilemmas:
+  - 欲以直言匡正君主，却屡因直言招忌而被黜
+  - 身处南唐国势日蹙之局，进谏与自保难以两全
+  lesson: 直言有价——士人风骨可垂后世，然逆君主之欲者常失位去国。
+  summary_first_person: 我是韩熙载，仕于南唐，以文才与直言闻。我曾主持贡举、放进士九人，也曾奏请罚内库钱以资国用，谏后主不宜亲临刑狱。因议宋齐丘之党而遭黜斥，然不悔其直。
+  source_urls:
+  - docs/YAML_STANDARD.md
+endeavors:
+- id: guji-韩熙载-endeavor-1
+  name_zh: 主持贡举取士
+  phases:
+  - key: brewing
+    name_zh: 供职中书
+    labels:
+      zh: 中书侍郎
+    start_date: 0963
+  - key: climax
+    name_zh: 知贡举放进士
+    labels:
+      zh: 知贡举
+    start_date: 0964
+    highlight_event_id: guji-韩熙载-event-keju
+  decisions:
+  - date: 0964
+    title_zh: 知贡举放王崇古等九人
+    rationale: 奉命掌文柄，依程文取舍进士，而徐铉复试五人不就，国主亲黜之。
+- id: guji-韩熙载-endeavor-2
+  name_zh: 直言谏诤与评议权臣
+  phases:
+  - key: brewing
+    name_zh: 立朝敢言
+    labels:
+      zh: 谏官之风
+    start_date: 0963
+  - key: breakthrough
+    name_zh: 议宋齐丘党与
+    labels:
+      zh: 议斥权党
+    start_date: 0958
+    highlight_event_id: guji-韩熙载-event-yilun
+  - key: climax
+    name_zh: 奏谏后主
+    labels:
+      zh: 请罚内库钱
+    start_date: 0963
+    highlight_event_id: guji-韩熙载-event-yanzou
+  decisions:
+  - date: 0958
+    title_zh: 议宋齐丘党与陈觉、冯延鲁之罪
+    rationale: 指斥齐丘党羽用师闽楚丧败误国，因而为齐丘所怒遭黜。
+  - date: 0963
+    title_zh: 奏狱讼非车驾所宜临幸，请罚内库钱三百万
+    rationale: 以制度匡正后宫刑政之失，虽不听，后主亦不之怒。
+events:
+- id: guji-韩熙载-event-birth
+  date: 0902
+  year_of: 902
+  type: birth
+  description_zh: 韩熙载约于唐末出生（史文未详载其生年，系年以approximate）。
+- id: guji-韩熙载-event-yilun
+  date: 0958
+  year_of: 958
+  type: career
+  description_zh: 韩熙载评议宋齐丘党与，齐丘怒而黜之，元宗不悦。出自《南唐书·宋齐丘传》。
+- id: guji-韩熙载-event-keju
+  date: 0964-03
+  year_of: 964
+  type: career
+  description_zh: 乾德二年春，命吏部侍郎修国史韩熙载知贡举，放进士王崇古等九人。
+- id: guji-韩熙载-event-yanzou
+  date: 0963
+  year_of: 963
+  type: career
+  description_zh: 中书侍郎韩熙载奏狱讼有司之事，囚圄非车驾所宜临幸，请罚内库钱三百万以资国用；后主虽不听，亦不怒。
+- id: guji-韩熙载-event-death
+  date: 0970
+  year_of: 970
+  type: death
+  description_zh: 韩熙载约卒于开宝年间，卒年史文未载。
