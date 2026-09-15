@@ -1,0 +1,116 @@
+person:
+  qid: guji-耶律楚材
+  name_zh: 耶律楚材
+  names:
+    zh: 耶律楚材
+    en: Yelü Chucai
+  lifespan:
+    birth:
+      date: '1190'
+      precision: year
+      is_circa: true
+      raw: 约1190年
+    death:
+      date: '1244'
+      precision: year
+      is_circa: false
+  birth_date: '1190'
+  death_date: '1244'
+  era: 蒙古汗国（太祖、太宗朝）
+  reign_ref: 元太祖成吉思汗、元太宗窝阔台
+  archetype: 儒臣谋士 / 制度奠基者
+  dilemmas:
+  - 以书生身份仕于武功征服王朝，如何以文治与仁心约束屠戮
+  - 朝臣主张以丁为户征税，楚材须力排众议坚持中原旧制
+  lesson: 制度与教化是刀兵之后安天下的根本。
+  summary_first_person: 我本是辽宗室，通术数与太玄之学，蒙太祖召于左右。我制庚午元历颁行国内，又借角端之兽力谏班师以全西征生灵。太宗朝我荐贤理税、定计户之赋、奏校士诸路，冀以儒术立国本。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=641606
+endeavors:
+- id: guji-耶律楚材-endeavor-1
+  name_zh: 制历与太祖顾问
+  phases:
+  - key: brewing
+    name_zh: 召备顾问
+    labels:
+      zh: 术数之学得名主
+    start_date: '1218'
+  - key: breakthrough
+    name_zh: 进庚午元历
+    labels:
+      zh: 制历颁行
+    start_date: '1220'
+    highlight_event_id: guji-耶律楚材-event-liji
+- id: guji-耶律楚材-endeavor-2
+  name_zh: 定赋税与兴文教
+  phases:
+  - key: brewing
+    name_zh: 计户定赋之争
+    labels:
+      zh: 力主以户定赋
+    start_date: '1236'
+    highlight_event_id: guji-耶律楚材-event-jihu
+  - key: breakthrough
+    name_zh: 校士诸路
+    labels:
+      zh: 考试儒士免为奴
+    start_date: '1237'
+    highlight_event_id: guji-耶律楚材-event-xiaoshi
+  - key: closure
+    name_zh: 儒者治国根基已立
+    labels:
+      zh: 课税永额、儒籍渐复
+    start_date: '1238'
+events:
+- id: guji-耶律楚材-event-birth
+  name_zh: 耶律楚材出生
+  date: '1190'
+  year_of: 1190
+  labels:
+    zh: 生于辽宗室之家
+- id: guji-耶律楚材-event-liji
+  name_zh: 进庚午元历
+  date: '1220'
+  year_of: 1220
+  labels:
+    zh: 制历颁行国内
+  description: 太祖十五年，楚材以金大明历不应，制庚午元历上之，颁行国内。
+  endeavor_id: guji-耶律楚材-endeavor-1
+- id: guji-耶律楚材-event-jiaoduan
+  name_zh: 角端之谏班师
+  date: '1222'
+  year_of: 1222
+  labels:
+    zh: 谏止西征屠戮
+  description: 太祖十七年，铁门关见角端异兽，楚材对以此兽恶杀，劝上承天心宥数国生命，上即日班师。
+  endeavor_id: guji-耶律楚材-endeavor-1
+- id: guji-耶律楚材-event-jianzhang
+  name_zh: 奏荐张奂征税官
+  date: '1230'
+  year_of: 1230
+  labels:
+    zh: 荐廉访使张奂
+  description: 太宗二年，楚材奏荐张奂为河南路征收课税所长官廉访使，奂至则减元额四之一，公私便之。
+  endeavor_id: guji-耶律楚材-endeavor-2
+- id: guji-耶律楚材-event-jihu
+  name_zh: 计户定赋
+  date: '1236'
+  year_of: 1236
+  labels:
+    zh: 定户数赋税永额
+  description: 太宗八年，群臣欲以丁为户，楚材力争不可，遂定二户出丝一斤、五户出丝一斤之法，朝臣谓太轻，楚材曰将来必有以利进者。
+  endeavor_id: guji-耶律楚材-endeavor-2
+- id: guji-耶律楚材-event-xiaoshi
+  name_zh: 奏校士诸路
+  date: '1237'
+  year_of: 1237
+  labels:
+    zh: 科试儒士
+  description: 太宗九年，楚材奏守成者必用儒臣，乃命刘中、杨奂随郡考试，以经义词赋论分三科，得士四十余人，被俘为奴者就试免奴者四之一。
+  endeavor_id: guji-耶律楚材-endeavor-2
+- id: guji-耶律楚材-event-death
+  name_zh: 耶律楚材去世
+  date: '1244'
+  year_of: 1244
+  labels:
+    zh: 卒于太宗末年

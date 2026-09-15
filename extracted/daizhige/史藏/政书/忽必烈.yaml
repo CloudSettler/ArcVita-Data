@@ -1,0 +1,116 @@
+person:
+  qid: guji-忽必烈
+  name_zh: 忽必烈
+  names:
+    zh: 忽必烈
+    en: Kublai Khan
+  lifespan:
+    birth:
+      date: '1215'
+      precision: year
+      is_circa: true
+      raw: 元太祖十年前后
+    death:
+      expression: 至元三十一年
+      date: '1294'
+  birth_date: '1215'
+  death_date: '1294'
+  era: 元
+  reign_ref: 中统 至元
+  archetype: 创业帝王
+  dilemmas:
+  - 行汉法与守祖制之争
+  - 伐宋止杀之义与统一大业之急
+  lesson: 兼采汉法、任用儒臣，方能在武功之后立文治之基。
+  summary_first_person: 我以皇太弟之身份总治汉地，召姚枢、许衡、刘秉忠诸贤，行仁止杀；即位建元中统，定官制、立中书枢密，终灭宋而混一天下，建号为元。
+endeavors:
+- id: guji-忽必烈-endeavor-1
+  name_zh: 藩邸养贤与总治汉地
+  phases:
+  - key: brewing
+    name_zh: 镇守西京、延揽儒士
+    labels:
+      zh: 藩邸
+    start_date: '1251'
+    highlight_event_id: guji-忽必烈-event-recruit
+  - key: breakthrough
+    name_zh: 征大理止杀
+    labels:
+      zh: 止杀
+    start_date: '1253'
+    highlight_event_id: guji-忽必烈-event-dali
+  decisions:
+  - date: '1251'
+    title_zh: 遣赵璧召隐士姚枢
+    rationale: 姚枢上书数千言陈帝王之道，太弟大奇之。
+  - date: '1253'
+    title_zh: 使姚枢裂帛为旗书止杀之令
+    rationale: 闻曹彬不杀之事，欲效之而保全大理之民。
+- id: guji-忽必烈-endeavor-2
+  name_zh: 即位建元与建立官制
+  phases:
+  - key: climax
+    name_zh: 即位建元中统
+    labels:
+      zh: 开国
+    start_date: '1260'
+    highlight_event_id: guji-忽必烈-event-usurp
+  - key: closure
+    name_zh: 灭宋混一
+    labels:
+      zh: 统一
+    start_date: '1276'
+    highlight_event_id: guji-忽必烈-event-lingnan
+  decisions:
+  - date: '1260'
+    title_zh: 建元中统
+    rationale: 稽列圣之洪规，讲前代之定制，建元表岁示万世之传。
+  - date: '1260'
+    title_zh: 命刘秉忠许衡定官制
+    rationale: 立中书省总政务、枢密院秉兵柄、御史台司黜陟，体统既立。
+events:
+- id: guji-忽必烈-event-birth
+  date: '1215'
+  year_of: 1215
+  type: birth
+  description_zh: 忽必烈生，后为成吉思汗之孙、拖雷第四子。
+- id: guji-忽必烈-event-recruit
+  date: '1251'
+  year_of: 1251
+  type: endeavor
+  description_zh: 受命总治民户事，遣赵璧召姚枢，姚枢上书陈帝王之道与救时之弊三十条。
+- id: guji-忽必烈-event-dali
+  date: '1253'
+  year_of: 1253
+  type: endeavor
+  description_zh: 征大理，从姚枢曹彬不杀之谏，命裂帛为旗书止杀之令，分号街陌，民得相完。
+  era_label: 宪宗朝
+- id: guji-忽必烈-event-usurp
+  date: '1260-05-19'
+  year_of: 1260
+  type: endeavor
+  description_zh: 即皇帝位，下即位诏与建元诏，自庚申年五月十九日建元为中统元年。
+  era_label: 中统元年
+- id: guji-忽必烈-event-institutions
+  date: '1260'
+  year_of: 1260
+  type: endeavor
+  description_zh: 命刘秉忠、许衡定官制，立中书省、枢密院、御史台，置寺监卫府及行省宣慰诸司。
+  era_label: 中统元年
+- id: guji-忽必烈-event-jiankang
+  date: '1276'
+  year_of: 1276
+  type: endeavor
+  description_zh: 遣巴延下临安，谕曰汝能不杀是吾曹彬；宋太后奉上传国玺以降，封宋帝为瀛国公。
+  era_label: 至元十三年
+- id: guji-忽必烈-event-lingnan
+  date: '1279'
+  year_of: 1279
+  type: endeavor
+  description_zh: 命张宏范为蒙古汉军都元帅，追宋帝于厓山，陆秀夫负帝同溺，宋亡。
+  era_label: 祥兴二年
+- id: guji-忽必烈-event-death
+  date: '1294'
+  year_of: 1294
+  type: death
+  description_zh: 忽必烈崩。
