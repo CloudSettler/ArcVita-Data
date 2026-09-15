@@ -1,0 +1,164 @@
+person:
+  qid: guji-欧阳脩
+  name_zh: 欧阳脩
+  names:
+    zh: 欧阳脩
+    en: Ouyang Xiu
+  lifespan:
+    birth:
+      date: '1007-08-06'
+      precision: day
+      is_circa: false
+      raw: 天禧前一年（1007年）
+    death:
+      date: '1072-09-22'
+      precision: day
+      is_circa: false
+      raw: 熙宁五年（1072年）
+  birth_date: '1007-08-06'
+  death_date: '1072-09-22'
+  era: 北宋
+  reign_ref: 宋仁宗、宋英宗、宋神宗时期
+  archetype: 文宗与史家
+  dilemmas:
+  - 政坛改革与文学传统之间的张力
+  - 撰修正史时忠于史实与避忌时讳的矛盾
+  lesson: 文以载道，史以存真
+  summary_first_person: 我是欧阳脩，北宋文学家与史官，倡古文以革骈俪之弊，修《新唐书》《新五代史》，列唐宋八大家之一。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/欧阳修
+endeavors:
+- id: guji-欧阳脩-endeavor-1
+  name_zh: 文学复兴与古文运动
+  phases:
+  - key: brewing
+    name_zh: 早期学习与科举入仕
+    labels:
+      zh:
+      - 寒窗苦读
+      - 进士及第
+    start_date: '1023-01-01'
+    highlight_event_id: guji-欧阳脩-event-keju
+  - key: breakthrough
+    name_zh: 倡导古文革新
+    labels:
+      zh:
+      - 诗文革新
+      - 庆历变革
+    start_date: '1040-01-01'
+    highlight_event_id: guji-欧阳脩-event-guwen
+  - key: climax
+    name_zh: 领袖文坛
+    labels:
+      zh:
+      - 主盟文坛
+      - 嘉祐贡举
+    start_date: '1057-01-01'
+    highlight_event_id: guji-欧阳脩-event-gongju
+  - key: closure
+    name_zh: 晚年退居六一居士
+    labels:
+      zh:
+      - 致仕
+      - 六一居士
+    start_date: '1071-01-01'
+    highlight_event_id: guji-欧阳脩-event-zhishi
+  decisions:
+  - date: '1040-01-01'
+    title_zh: 力倡古文，反对西昆体浮华文风
+    rationale: 以韩愈之文为宗，欲以平实之文载道明理。
+  - date: '1057-01-01'
+    title_zh: 主持嘉祐二年贡举，黜险怪之文
+    rationale: 选取平实晓畅之文，扭转科举文风，提拔苏轼、苏辙、曾巩等后进。
+- id: guji-欧阳脩-endeavor-2
+  name_zh: 修撰史书
+  phases:
+  - key: brewing
+    name_zh: 私撰《新五代史》
+    labels:
+      zh:
+      - 私修正史
+    start_date: '1036-01-01'
+    highlight_event_id: guji-欧阳脩-event-wudai
+  - key: breakthrough
+    name_zh: 奉诏修《新唐书》
+    labels:
+      zh:
+      - 史局编纂
+    start_date: '1045-01-01'
+    highlight_event_id: guji-欧阳脩-event-xintang
+  - key: climax
+    name_zh: 成书进呈
+    labels:
+      zh:
+      - 进呈
+      - 《新唐书》成
+    start_date: '1060-01-01'
+    highlight_event_id: guji-欧阳脩-event-tangcheng
+  - key: closure
+    name_zh: 史书流传与史家定评
+    labels:
+      zh:
+      - 二十四史之列
+    start_date: '1060-12-31'
+    highlight_event_id: guji-欧阳脩-event-tangcheng
+  decisions:
+  - date: '1036-01-01'
+    title_zh: 私撰《新五代史》，以春秋笔法寓褒贬
+    rationale: 借史笔警示当世，明纲常、正名分。
+  - date: '1045-01-01'
+    title_zh: 受命与宋祁等共修《新唐书》
+    rationale: 旧唐书繁冗失体，当重加撰次以垂后世。
+events:
+- id: guji-欧阳脩-event-birth
+  date: '1007-08-06'
+  year_of: 1007
+  title_zh: 欧阳脩出生于绵州
+  type: birth
+- id: guji-欧阳脩-event-keju
+  date: '1030-01-01'
+  year_of: 1030
+  title_zh: 进士及第，踏入仕途
+  type: career
+  endeavor_id: guji-欧阳脩-endeavor-1
+- id: guji-欧阳脩-event-guwen
+  date: '1040-01-01'
+  year_of: 1040
+  title_zh: 力倡古文革新，反对骈俪浮华
+  type: breakthrough
+  endeavor_id: guji-欧阳脩-endeavor-1
+- id: guji-欧阳脩-event-gongju
+  date: '1057-01-01'
+  year_of: 1057
+  title_zh: 主持嘉祐二年贡举，擢苏轼、曾巩等
+  type: climax
+  endeavor_id: guji-欧阳脩-endeavor-1
+- id: guji-欧阳脩-event-wudai
+  date: '1036-01-01'
+  year_of: 1036
+  title_zh: 开始私撰《新五代史》
+  type: career
+  endeavor_id: guji-欧阳脩-endeavor-2
+- id: guji-欧阳脩-event-xintang
+  date: '1045-01-01'
+  year_of: 1045
+  title_zh: 奉诏参修《新唐书》
+  type: breakthrough
+  endeavor_id: guji-欧阳脩-endeavor-2
+- id: guji-欧阳脩-event-tangcheng
+  date: '1060-01-01'
+  year_of: 1060
+  title_zh: 《新唐书》成书进呈
+  type: climax
+  endeavor_id: guji-欧阳脩-endeavor-2
+- id: guji-欧阳脩-event-zhishi
+  date: '1071-01-01'
+  year_of: 1071
+  title_zh: 致仕退居颍州，号六一居士
+  type: closure
+  endeavor_id: guji-欧阳脩-endeavor-1
+- id: guji-欧阳脩-event-death
+  date: '1072-09-22'
+  year_of: 1072
+  title_zh: 欧阳脩卒于颍州
+  type: death
