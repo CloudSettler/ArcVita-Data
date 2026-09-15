@@ -1,0 +1,126 @@
+person:
+  qid: guji-窦婴
+  name_zh: 窦婴
+  names:
+    zh: 窦婴
+    en: Dou Ying
+  lifespan:
+    birth:
+      date: '-158'
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: '-131'
+      precision: year
+      is_circa: false
+      raw: 汉武帝元光年间论婴弃市
+  birth_date: ''
+  death_date: '-131'
+  era: 西汉
+  reign_ref: 汉文帝、汉景帝、汉武帝
+  archetype: 忠直失势之外戚重臣
+  dilemmas:
+  - 势位被夺时是否委曲求全以保身（拒与田蚡之势，不肯献城南田）
+  - 妻子劝阻时是否独自赴死（「终不令灌夫独死，而婴独生」）
+  lesson: 直道而行者虽显赫一时，一朝失势，难敌权幸构陷与宫闱之怒
+  summary_first_person: 我窦婴，字王孙，乃孝文帝窦皇后从兄之子，因功封魏其侯，位至丞相，后免相失势。窦太后崩后我被疏薄，唯与太仆灌夫相知交结。田蚡为丞相，倚仗王太后之势强求我城南田，我不与，灌夫亦助我怒之，二人遂衔恨。及田蚡娶妻，太后诏列侯宗室皆往贺，灌夫使酒忤蚡，被缚论弃市。我不忍灌夫独死，上书具陈其事，与蚡于帝前互言短长。朝臣多直言我直，然太后震怒，田蚡又造作恶语闻上，天子虽知蚡不直，终为太后故论我死。我临刑骂曰：若死有知，必不独死。月余后田蚡遍体痛楚，见我与灌夫共笞之，遂死。
+endeavors:
+- id: guji-窦婴-endeavor-1
+  name_zh: 佐汉封侯拜相
+  phases:
+  - key: brewing
+    name_zh: 外戚起家
+    labels:
+      zh:
+      - 窦皇后从兄子
+    start_date: '-157'
+    highlight_event_id: guji-窦婴-event-1
+  - key: breakthrough
+    name_zh: 封魏其侯
+    labels:
+      zh:
+      - 封侯
+    start_date: '-154'
+  - key: climax
+    name_zh: 位至丞相
+    labels:
+      zh:
+      - 拜相
+    start_date: '-150'
+  - key: closure
+    name_zh: 免相失势
+    labels:
+      zh:
+      - 免相
+      - 太后崩后疏薄
+    start_date: '-135'
+  decisions:
+  - date: '-139'
+    title_zh: 拒绝田蚡求城南田数顷
+    rationale: 老仆虽弃，丞相并贵，宁可以势相夺乎——不肯以势相让
+- id: guji-窦婴-endeavor-2
+  name_zh: 营救灌夫之狱
+  phases:
+  - key: brewing
+    name_zh: 与灌夫结交
+    labels:
+      zh:
+      - 相引荐交结
+      - 恨相知之晚
+    start_date: '-135'
+  - key: breakthrough
+    name_zh: 灌夫使酒忤田蚡遭缚
+    labels:
+      zh:
+      - 骂座不敬
+    start_date: '-133'
+    highlight_event_id: guji-窦婴-event-2
+  - key: climax
+    name_zh: 上书讼冤廷辩
+    labels:
+      zh:
+      - 上事具陈
+      - 朝臣多言婴是
+    start_date: '-132'
+    highlight_event_id: guji-窦婴-event-3
+  - key: closure
+    name_zh: 为太后故论死
+    labels:
+      zh:
+      - 弃市
+    start_date: '-131'
+    highlight_event_id: guji-窦婴-event-4
+  decisions:
+  - date: '-132'
+    title_zh: 强与灌夫俱赴田蚡婚宴
+    rationale: 不忍灌夫独死，欲以己力遮护之
+  - date: '-132'
+    title_zh: 上书具陈灌夫醉饱失言不足诛
+    rationale: 终不令灌夫独死，而婴独生
+events:
+- id: guji-窦婴-event-birth
+  date: '-158'
+  year_of: -158
+  title_zh: 窦婴生（生年不详，约公元前二世纪中）
+  desc: 汉孝文帝窦皇后从兄之子。
+- id: guji-窦婴-event-1
+  date: '-154'
+  year_of: -154
+  title_zh: 封魏其侯
+  desc: 窦婴以功封魏其侯，为汉庭重臣。
+- id: guji-窦婴-event-2
+  date: '-133'
+  year_of: -133
+  title_zh: 灌夫使酒忤田蚡被缚
+  desc: 田蚡娶妻，太后诏列侯宗室往贺，灌夫不肯贺，酒酣言辞不逊，蚡怒缚之，奏其乡里豪横，处弃市。
+- id: guji-窦婴-event-3
+  date: '-132'
+  year_of: -132
+  title_zh: 上书讼灌夫，廷辩互斥
+  desc: 窦婴上事具陈，与田蚡于帝前互相言短长，朝臣多言婴是；王太后怒而不食。
+- id: guji-窦婴-event-death
+  date: '-131'
+  year_of: -131
+  title_zh: 窦婴为太后故论死弃市
+  desc: 天子知蚡不直，特为太后故论婴死；婴临死骂曰若死有知，不独死。月余田蚡病死。
