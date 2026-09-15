@@ -1,0 +1,154 @@
+person:
+  qid: guji-张岱
+  name_zh: 张岱
+  names:
+    zh: 张岱
+    en: Zhang Dai
+  lifespan:
+    birth:
+      date: '1597'
+      precision: year
+      is_circa: true
+      raw: 万历二十五年丁酉（一五九九）
+    death:
+      date: '1684'
+      precision: year
+      is_circa: true
+      raw: 约康熙年间，一说八十八岁（一六八四）
+  birth_date: '1597'
+  death_date: '1684'
+  era: 明末清初
+  reign_ref: 万历、崇祯、顺治、康熙
+  archetype: 明遗民文史学家
+  dilemmas:
+  - 国破家亡后求生著史与殉节气节之间的挣扎（作自挽诗每欲引决，因《石匮书》未成而视息人间）
+  - 繁华旧梦与清贫隐居的落差（昔日纨绔繁华，后布衣蔬食常至断炊）
+  lesson: 能将寂寞与繁华看做没有两样，才能耐寂寞而不热衷，处繁华而不没落。
+  summary_first_person: 我生于绍兴显贵之家，早年极爱繁华；甲申国亡后披发入山，甘做逸民四十年，独守一部《石匮书》，又以《陶庵梦忆》追忆前尘。
+  source_urls:
+  - 左传
+endeavors:
+- id: guji-张岱-endeavor-1
+  name_zh: 石匮书
+  labels:
+    zh: 明史纪传撰述
+  phases:
+  - key: brewing
+    name_zh: 立志修史
+    labels:
+      zh: 明亡后屏居卧龙山，沉淫明一代纪传
+    start_date: '1646'
+    highlight_event_id: guji-张岱-event-shikui-start
+  - key: breakthrough
+    name_zh: 成稿
+    labels:
+      zh: 泚笔四十余载，书写了几五十年才脱稿
+    start_date: ~1670
+    highlight_event_id: guji-张岱-event-shikui-done
+  - key: closure
+    name_zh: 稿本归于谷应泰
+    labels:
+      zh: 以五百金慨然予之，供《明史纪事本末》采择
+    start_date: ~1660
+    highlight_event_id: guji-张岱-event-shikui-sale
+  decisions:
+  - date: '1660'
+    title_zh: 慨然以五百金出让《石匮书》与浙江学使谷应泰
+    rationale: 宁弃稿值以成明史纪事，不与清廷合作求荣
+- id: guji-张岱-endeavor-2
+  name_zh: 陶庵梦忆
+  labels:
+    zh: 忆语体小品文
+  phases:
+  - key: brewing
+    name_zh: 国亡忆旧
+    labels:
+      zh: 忆即书之，持向佛前忏悔
+    start_date: ~1646
+    highlight_event_id: guji-张岱-event-mengyi-start
+  - key: breakthrough
+    name_zh: 成书流传
+    labels:
+      zh: 记繁华旧梦，成晚明小品典范
+    start_date: ~1650
+    highlight_event_id: guji-张岱-event-mengyi-done
+  decisions:
+  - date: '1650'
+    title_zh: 决意著《陶庵梦忆》记亡明繁华
+    rationale: 五十年来总成一梦，欲将虚幻变为实有
+- id: guji-张岱-endeavor-3
+  name_zh: 搜刻徐文长逸稿
+  labels:
+    zh: 文献整理
+  phases:
+  - key: brewing
+    name_zh: 少年搜集佚文
+    labels:
+      zh: 年少时搜集徐文长佚文，求王谑庵删削
+    start_date: ~1615
+    highlight_event_id: guji-张岱-event-xu-collection
+  - key: closure
+    name_zh: 刻《徐文长逸稿二十四卷》
+    labels:
+      zh: 昔人未有以柱对传而刻之文集者，刻之自余始
+    start_date: ~1600
+    highlight_event_id: guji-张岱-event-xu-publish
+  decisions:
+  - date: '1600'
+    title_zh: 搜集并刊刻徐渭逸稿
+    rationale: 不受传统观念束缚，表彰先世之交与文长清明风气
+events:
+- id: guji-张岱-event-birth
+  date: '1597'
+  year_of: 1597
+  type: 事实
+  title_zh: 张岱生于山阴
+  description_zh: 自为墓志铭称生于万历二十五年丁酉，apphire一五九九年（一说约一五九七）。
+- id: guji-张岱-event-shikui-start
+  date: '1646'
+  year_of: 1646
+  type: 事业
+  title_zh: 丙戌后屏居卧龙山始撰《石匮藏书》
+  description_zh: 短檐危壁，沉淫于明一代纪传，以拟郑思肖之铁函心史。
+- id: guji-张岱-event-shikui-done
+  date: '1670'
+  year_of: 1670
+  type: 事业
+  title_zh: 《石匮书》数十载脱稿
+  description_zh: 弟《石匮》一书，泚笔四十余载，脱稿后犹时加删改。
+- id: guji-张岱-event-shikui-sale
+  date: '1660'
+  year_of: 1660
+  type: 事业
+  title_zh: 以五百金让稿与谷应泰
+  description_zh: 顺治年间谷应泰编《明史纪事本末》，购《石匮书》，张岱慨然予之。
+- id: guji-张岱-event-mengyi-start
+  date: '1646'
+  year_of: 1646
+  type: 事业
+  title_zh: 国破家亡后始作《陶庵梦忆》
+  description_zh: 遥思往事，忆即书之，持向佛前一一忏悔。
+- id: guji-张岱-event-mengyi-done
+  date: '1650'
+  year_of: 1650
+  type: 事业
+  title_zh: 《陶庵梦忆》成书
+  description_zh: 追忆昔日繁华靡丽总成一梦，成晚明忆语体名作。
+- id: guji-张岱-event-xu-collection
+  date: '1615'
+  year_of: 1615
+  type: 事业
+  title_zh: 年少时搜集徐文长佚文
+  description_zh: 以所收颇多草率之作，再求王谑庵为之删削。
+- id: guji-张岱-event-xu-publish
+  date: '1600'
+  year_of: 1600
+  type: 事业
+  title_zh: 刊刻《徐文长逸稿》
+  description_zh: 昔人未有以柱对传而刻之文集者，刻之自余始。
+- id: guji-张岱-event-death
+  date: '1684'
+  year_of: 1684
+  type: 事实
+  title_zh: 张岱卒
+  description_zh: 一说活到七十多岁，一说八十八岁（一六八四），后说较为可靠。
