@@ -1,0 +1,138 @@
+person:
+  qid: guji-虞集
+  name_zh: 虞集
+  names:
+    zh: 虞集
+    en: Yu Ji
+  lifespan:
+    birth:
+      date: '1272'
+      precision: year
+      is_circa: true
+      raw: 元代
+    death:
+      date: '1348'
+      precision: year
+      is_circa: true
+  era: 元代
+  reign_ref: 元初至元/文宗奎章阁时期
+  archetype: 文章家、史官、典册撰者
+  dilemmas:
+  - 身仕元朝而熟于金、元掌故，为遗民故国存文献、修史之责
+  - 位处翰林教文要职，须以碑版文字承载一代制度典章
+  lesson: 文章典重可为一代言，碑铭掌故足为史家讨索之资
+  summary_first_person: 我是虞集，元奎章阁学士。元初大典册多出我手，《道园学古录》五十卷收我朝碑铭、制诰与归田杂著。我曾为史官，熟于金、元掌故，所撰《高鲁公神道碑》《曹南王勋德碑》等为《元史》诸传所取为蓝本。诗则清婉，与范德机交好最深。
+  source_urls:
+  - guji://道园学古录/艺林著录
+endeavors:
+- id: guji-虞集-endeavor-1
+  name_zh: 撰修元初大典册
+  labels:
+    zh:
+    - 典册
+    - 制诰
+    - 碑铭
+  phases:
+  - key: brewing
+    name_zh: 初入翰林，习国家故实
+    labels:
+      zh:
+      - 入仕
+      - 翰林
+    start_date: '1290'
+  - key: breakthrough
+    name_zh: 掌撰碑铭哀诔，成为开国纪事之手
+    labels:
+      zh:
+      - 在朝稿
+    start_date: '1314'
+    highlight_event_id: guji-虞集-event-career-1
+  - key: climax
+    name_zh: 供职奎章阁，为一代作家
+    labels:
+      zh:
+      - 奎章阁
+      - 应制
+    start_date: '1330'
+    highlight_event_id: guji-虞集-event-career-2
+  - key: closure
+    name_zh: 归田临川，结集《道园学古录》
+    labels:
+      zh:
+      - 结集
+      - 归田
+    start_date: '1335'
+    highlight_event_id: guji-虞集-event-career-3
+  decisions:
+  - date: '1314'
+    title_zh: 以史官笔法撰开国碑志，详载女真氏族、禁近世守、卫所儒学诸典制
+    rationale: 熟于金、元掌故，使碑版文字足为史家讨索之助
+  - date: '1335'
+    title_zh: 侨寓临川，以诗文杂著分编《归田录》《方外稿》
+    rationale: 收束生平文字，成《道园学古录》五十卷传世
+- id: guji-虞集-endeavor-2
+  name_zh: 与范德机论交唱和
+  labels:
+    zh:
+    - 交游
+    - 唱酬
+  phases:
+  - key: brewing
+    name_zh: 与范椁（德机）订交，诗酒往还
+    labels:
+      zh:
+      - 订交
+    start_date: '1300'
+    highlight_event_id: guji-虞集-event-career-4
+  - key: climax
+    name_zh: 忆旧寄赠，见生死交谊
+    labels:
+      zh:
+      - 追忆
+    start_date: '1335'
+  decisions:
+  - date: '1300'
+    title_zh: 题范德机诗集，与之并称文采风流
+    rationale: 范椁诗有谪仙风调，交契见于道园诗中颇多
+events:
+- id: guji-虞集-event-birth
+  date: '1272'
+  year_of: 1272
+  type: birth
+  title_zh: 虞集生
+  description: 元初文臣、奎章阁学士虞集出生。
+- id: guji-虞集-event-career-1
+  date: '1314'
+  year_of: 1314
+  type: career
+  endeavable_id: guji-虞集-endeavor-1
+  endeavor_id: guji-虞集-endeavor-1
+  title_zh: 撰《高鲁公神道碑》《宣徽院使贾公神道碑》《武卫新建先圣庙堂碑》诸钜制
+  description: 记女真族砦氏之别、禁近之臣世守其事、大都列卫立孔子庙设儒学教授诸典制，足为史家讨索之助。
+- id: guji-虞集-event-career-2
+  date: '1330'
+  year_of: 1330
+  type: career
+  endeavor_id: guji-虞集-endeavor-1
+  title_zh: 累官奎章阁学士，应制册文制诰多出其手
+  description: 史称元初大典册皆出虞集之手，道园为一代作家，元初制度因之可观。
+- id: guji-虞集-event-career-3
+  date: '1341'
+  year_of: 1341
+  type: career
+  endeavor_id: guji-虞集-endeavor-1
+  title_zh: 《道园学古录》五十卷成
+  description: 首在朝稿二十卷，次应制录六卷，次归田录十八卷，次方外稿六卷，元史杨朵儿只、阿剌罕诸传多取其碑文为蓝本。
+- id: guji-虞集-event-career-4
+  date: '1300'
+  year_of: 1300
+  type: career
+  endeavor_id: guji-虞集-endeavor-2
+  title_zh: 与范椁（德机）论交，屡以诗唱题相赠
+  description: 集中如题范德机诗集、舟过清江忆范德机、赋范德机诗后诸篇，称其寒岩古柏两同清。
+- id: guji-虞集-event-death
+  date: '1348'
+  year_of: 1348
+  type: death
+  title_zh: 虞集卒
+  description: 元代文臣虞集去世。
