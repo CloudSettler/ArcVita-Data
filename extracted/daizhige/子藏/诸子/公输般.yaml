@@ -1,0 +1,48 @@
+person:
+  id: guji-公输般
+  name_zh: 公输般
+  names:
+    zh: 公输般
+    en: Gongshu Ban
+  era: 战国
+  reign_ref: 楚国
+  archetype: 工匠
+  dilemmas:
+  - id: guji-公输般-dilemma-1
+    topic: 技为谁用
+    tension: 其高超工艺被用于制造攻城器械助楚攻宋，与"止战"的道义相冲突
+  lesson: 技可与便，不以所为攻城之具逞强
+  summary_first_person: 我公输般为楚造云梯之具以攻宋，然墨子使其徒禽滑厘等三百人守宋城，楚卒不攻，我之攻具乃无所施。
+  endeavors:
+  - id: guji-公输般-endeavor-1
+    name_zh: 为楚造云梯
+    kind: 器械制造
+    phases:
+    - key: brewing
+      name_zh: 受命造具
+      labels:
+        zh: 为楚造云梯
+      highlight_event_id: guji-公输般-event-1
+    - key: climax
+      name_zh: 将以攻宋
+      labels:
+        zh: 楚欲攻宋
+      highlight_event_id: guji-公输般-event-2
+    decisions:
+    - title_zh: 为楚制云梯攻具
+      rationale: 以工艺之力助楚强兵
+  events:
+  - id: guji-公输般-event-birth
+    type: 出生
+    summary: 生卒年不详，战国时著名工匠
+  - id: guji-公输般-event-death
+    type: 去世
+    summary: 生卒年不详
+  - id: guji-公输般-event-1
+    type: 事业
+    summary: 据墨子公输篇，公输般为楚造云梯以攻宋
+    endeavor_ref: guji-公输般-endeavor-1
+  - id: guji-公输般-event-2
+    type: 事业
+    summary: 墨子使弟子禽滑厘等三百人为宋城守，楚卒不攻宋，公输般攻城之具无功而止
+    endeavor_ref: guji-公输般-endeavor-1

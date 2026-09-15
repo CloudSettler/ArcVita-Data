@@ -1,0 +1,85 @@
+person:
+  qid: guji-禽滑厘
+  name_zh: 禽滑厘
+  names:
+    zh: 禽滑厘
+    en: Qin Huali
+  lifespan:
+    birth:
+      date: -470
+      precision: year
+      is_circa: true
+      raw: 战国前期，生年不详
+    death:
+      date: -390
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: -470
+  death_date: -390
+  era: 战国
+  reign_ref: 战国初期
+  archetype: 守城军事学者
+  dilemmas:
+  - 乱世诸侯相攻，小国如何自守
+  - 守城之才虽善而君不用，则犹不可守
+  lesson: 守城须十四事俱备，兼得善守之人与君上专任，方可以持
+  summary_first_person: 我是禽滑厘，墨子弟子。当甲兵四起、大攻小强执弱之世，我求教于老师如何守小国，遍问临、钩、冲、梯等十二种攻法之守御，并率三百人为宋守城，使楚终不攻宋。
+  source_urls:
+  - 墨子城守各篇简注卷一（清 岑仲勉撰）
+endeavors:
+- id: guji-禽滑厘-endeavor-1
+  key: 墨门求学
+  name_zh: 师事墨子
+  labels:
+    zh: 墨门弟子
+  phases:
+  - key: brewing
+    name_zh: 入门问学
+    labels:
+      zh: 问守城之道
+    start_date: -450
+    highlight_event_id: guji-禽滑厘-event-question
+  decisions:
+  - date: -450
+    title_zh: 向墨子问守小国之策
+    rationale: 诸侯交兵，欲为小国求自守之方
+- id: guji-禽滑厘-endeavor-2
+  key: 守御实践
+  name_zh: 为宋守城
+  labels:
+    zh: 止楚攻宋
+  phases:
+  - key: climax
+    name_zh: 率三百人守宋
+    labels:
+      zh: 备城门之守
+    start_date: -440
+    highlight_event_id: guji-禽滑厘-event-defense
+  decisions:
+  - date: -440
+    title_zh: 受墨子派遣率弟子三百人守宋
+    rationale: 公输般为楚造云梯将攻宋，以守备慑止其攻
+events:
+- id: guji-禽滑厘-event-birth
+  type: birth
+  date: -470
+  year_of: -470
+  title_zh: 禽滑厘生（约）
+- id: guji-禽滑厘-event-question
+  type: endeavor
+  date: -450
+  year_of: -450
+  title_zh: 问于子墨子攻城十二法之守御
+  detail: 列临、钩、冲、梯、堙、水、穴、突、空洞、蚁傅、轒辒、轩车十二攻法，问守之柰何
+- id: guji-禽滑厘-event-defense
+  type: endeavor
+  date: -440
+  year_of: -440
+  title_zh: 率弟子三百人为宋守城
+  detail: 公输般为楚造云梯攻宋，墨子使禽滑厘等三百人为宋城守，楚卒不攻宋
+- id: guji-禽滑厘-event-death
+  type: death
+  date: -390
+  year_of: -390
+  title_zh: 禽滑厘卒（约）
