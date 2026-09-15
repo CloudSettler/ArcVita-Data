@@ -1,0 +1,129 @@
+person:
+  qid: guji-郑孝胥
+  name_zh: 郑孝胥
+  names:
+    zh: 郑孝胥
+    en: Zheng Xiaoxu
+  lifespan:
+    birth:
+      date: '1860'
+      precision: year
+      is_circa: true
+      raw: 咸丰十年
+    death:
+      date: '1938'
+      precision: year
+      is_circa: false
+      raw: 民国二十七年
+  birth_date: '1860'
+  death_date: '1938'
+  era: 近代（清末民国）
+  reign_ref: 同治、光绪、宣统、民国
+  archetype: 诗人·书家·附逆政客
+  dilemmas:
+  - 才名与晚节：以诗书负重名，而晚节出仕伪满，为清议所斥
+  - 自托殷顽与受庇倭人：忠于故国之念与依附日本之势相矛盾
+  lesson: 诗虽不朽，人不可废节；以人废言固偏，因言宥人亦当有辨。
+  summary_first_person: 我郑孝胥，字苏戡，号海藏，闽县人。早岁读书福州，有“有人起长夜”之句，故号夜起。工诗善书，为光宣间作手，《海藏楼》一集难可泯灭。然我急功名而昧于去就，晚岁出仕伪满，世人讥我于清室为不忠，于民族为不孝。
+endeavors:
+- id: guji-郑孝胥-endeavor-1
+  name_zh: 海藏楼诗
+  type: 文学事业
+  phases:
+  - key: brewing
+    name_zh: 早岁读书福州
+    labels:
+      zh:
+      - 夜起之号
+    start_date: '1875'
+    highlight_event_id: guji-郑孝胥-event-poem-night
+  - key: breakthrough
+    name_zh: 光宣诗坛作手
+    labels:
+      zh:
+      - 同光体
+      - 闽派
+    start_date: '1890'
+    highlight_event_id: guji-郑孝胥-event-poetry-canon
+  - key: closure
+    name_zh: 《海藏楼》诗集传世
+    labels:
+      zh:
+      - 以人存诗
+    start_date: '1938'
+    highlight_event_id: guji-郑孝胥-event-death
+  decisions:
+  - date: '1900'
+    title_zh: 以同光体领袖自任，与陈宝琛、陈三立等唱和
+    rationale: 光宣之际诗名日盛，加入闽派诗人群体
+- id: guji-郑孝胥-endeavor-2
+  name_zh: 晚节出仕与身后论定
+  type: 政治事业
+  phases:
+  - key: brewing
+    name_zh: 急功名而昧于去就
+    labels:
+      zh:
+      - 去就失据
+    start_date: '1911'
+    highlight_event_id: guji-郑孝胥-event-clique
+  - key: climax
+    name_zh: 出仕伪满，附逆倭人
+    labels:
+      zh:
+      - 受庇倭人
+      - 晚节不终
+    start_date: '1932'
+    highlight_event_id: guji-郑孝胥-event-puppet
+  - key: closure
+    name_zh: 身后清议严于斧钺
+    labels:
+      zh:
+      - 终身为虏
+    start_date: '1938'
+    highlight_event_id: guji-郑孝胥-event-death
+  decisions:
+  - date: '1932'
+    title_zh: 受庇倭人，出仕伪满
+    rationale: 自托殷顽而误判大势，为当代舆论所不容
+events:
+- id: guji-郑孝胥-event-birth
+  date: '1860'
+  year_of: 1860
+  type: birth
+  title_zh: 郑孝胥生于闽县
+  summary: 郑孝胥生于福建闽县，字苏戡，号海藏。出生年份据通说约在咸丰十年。
+- id: guji-郑孝胥-event-poem-night
+  date: '1875'
+  year_of: 1875
+  type: endeavor_milestone
+  endeavor_id: guji-郑孝胥-endeavor-1
+  title_zh: 早岁读书福州，咏“有人起长夜”
+  summary: 海藏早岁读书福州，有诗云“山如旗鼓开，舟自南台下。海日生未生，有人起长夜”，“夜起”之号盖以此也。
+- id: guji-郑孝胥-event-poetry-canon
+  date: '1924'
+  year_of: 1924
+  type: endeavor_milestone
+  endeavor_id: guji-郑孝胥-endeavor-1
+  title_zh: 被列入《光宣诗坛点将录》，配天罡星玉麒麟卢俊义
+  summary: 汪辟疆《光宣诗坛点将录》以郑孝胥配天罡星玉麒麟卢俊义，赞其“若就诗论诗，自是光宣朝作手，《海藏》一集，难可泯灭”。
+- id: guji-郑孝胥-event-clique
+  date: '1920'
+  year_of: 1920
+  type: endeavor_milestone
+  endeavor_id: guji-郑孝胥-endeavor-2
+  title_zh: 苏戡急功名而昧于去就
+  summary: 陈弢庵、张孝谦之尝论及郑孝胥急功名而昧于去就，去就失据已为时人所讥。
+- id: guji-郑孝胥-event-puppet
+  date: '1932'
+  year_of: 1932
+  type: endeavor_milestone
+  endeavor_id: guji-郑孝胥-endeavor-2
+  title_zh: 受庇倭人出仕伪满，章士钊有“后清未必胜宏光”之讥
+  summary: 郑孝胥每以建立后清自诩，受庇倭人，于清室为不忠，于民族为不孝；程穆庵闻其死有“终身为虏”之句，严于斧钺。据通说，郑于1932年出任伪满洲国要职。
+- id: guji-郑孝胥-event-death
+  date: '1938'
+  year_of: 1938
+  type: death
+  title_zh: 郑孝胥卒
+  summary: 郑孝胥卒于民国二十七年，老友作《哀郑重九》诗，称“高名一代海藏楼，晚节千秋质九幽”。

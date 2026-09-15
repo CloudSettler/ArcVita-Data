@@ -1,0 +1,139 @@
+person:
+  qid: guji-李瑞清
+  name_zh: 李瑞清
+  names:
+    zh: 李瑞清
+    en: Li Ruiqing
+  lifespan:
+    birth:
+      date: '1867'
+      precision: year
+      is_circa: true
+      raw: 民国九年卒，年五十四（逆推约1867年生）
+    death:
+      date: '1920'
+      precision: year
+      is_circa: false
+      raw: 民国九年卒
+  birth_date: '1867'
+  death_date: '1920'
+  era: 晚清至民国初
+  reign_ref: 光绪甲午进士（1894年进士）
+  archetype: 遗民书画家／清道人
+  dilemmas:
+  - 清亡之后，守节自处还是出仕新朝
+  - 诗艺高妙却为书名所掩，人不能尽知
+  lesson: 国变山河之际，以笔墨自养，服道士服而节不移，士之自处如是。
+  summary_first_person: 我李瑞清，字梅庵，临川人。清亡后不仕民国，服道士服，往来宁沪间鬻书画自给，自署清道人，儿童走卒皆知有李道士。我诗以五古最高，七绝有东川、龙标格意，惜为书名所掩。
+endeavors:
+- id: guji-李瑞清-endeavor-1
+  name_zh: 科举与仕宦
+  phases:
+  - key: brewing
+    name_zh: 从学应举
+    labels:
+      zh:
+      - 登进
+    start_date: '1867'
+    highlight_event_id: guji-李瑞清-event-jinshi
+  - key: breakthrough
+    name_zh: 甲午成进士
+    labels:
+      zh:
+      - 科第
+    start_date: '1894'
+    highlight_event_id: guji-李瑞清-event-jinshi
+  - key: climax
+    name_zh: 官江宁布政使
+    labels:
+      zh:
+      - 宦绩
+    highlight_event_id: guji-李瑞清-event-office
+  - key: closure
+    name_zh: 逊国弃官
+    labels:
+      zh:
+      - 易代
+    start_date: '1912'
+    highlight_event_id: guji-李瑞清-event-yigming
+  decisions:
+  - date: '1894'
+    title_zh: 应甲午科成进士入仕
+    rationale: 光绪甲午成进士，由此步入仕途。
+  - title_zh: 出任江宁布政使
+    rationale: 官至江宁布政使，为清廷地方要职。
+- id: guji-李瑞清-endeavor-2
+  name_zh: 遗民鬻书画
+  phases:
+  - key: brewing
+    name_zh: 逊国变服
+    labels:
+      zh:
+      - 守节
+    start_date: '1912'
+    highlight_event_id: guji-李瑞清-event-yigming
+  - key: climax
+    name_zh: 清道人鬻艺金陵上海
+    labels:
+      zh:
+      - 书画
+      - 遗民
+    highlight_event_id: guji-李瑞清-event-daoist
+  - key: closure
+    name_zh: 诗名久为人掩
+    labels:
+      zh:
+      - 身后
+    start_date: '1920'
+    highlight_event_id: guji-李瑞清-event-death
+  decisions:
+  - date: '1912'
+    title_zh: 服道士服不仕民国
+    rationale: 于清逊国后，服道士服，自守遗民之节。
+  - title_zh: 鬻书画自给
+    rationale: 往来宁沪间鬻书画自给，署清道人。
+events:
+- id: guji-李瑞清-event-birth
+  date: '1867'
+  year_of: 1867
+  title_zh: 李瑞清出生
+  description: 临川李瑞清生（据卒年五十四逆推，约当1866—1867年间）。
+  persons:
+  - guji-李瑞清
+- id: guji-李瑞清-event-jinshi
+  date: '1894'
+  year_of: 1894
+  title_zh: 光绪甲午成进士
+  description: 李瑞清光绪甲午登进士第，入仕清廷。
+  persons:
+  - guji-李瑞清
+- id: guji-李瑞清-event-office
+  title_zh: 官至江宁布政使
+  description: 李瑞清仕清官至江宁布政使。
+  persons:
+  - guji-李瑞清
+  related_to:
+  - guji-李瑞清-event-jinshi
+- id: guji-李瑞清-event-yigming
+  date: '1912'
+  year_of: 1912
+  title_zh: 清帝逊国，弃官变服
+  description: 清逊国后，李瑞清服道士服，不仕新朝。
+  persons:
+  - guji-李瑞清
+- id: guji-李瑞清-event-daoist
+  title_zh: 自署清道人，鬻书画宁沪间
+  description: 往来金陵上海间鬻书画自给，署清道人，儿童走卒皆知有李道士；诗五古最高，七绝有东川、龙标格意，惜为书名所掩。
+  persons:
+  - guji-李瑞清
+  related_to:
+  - guji-李瑞清-event-yigming
+- id: guji-李瑞清-event-death
+  date: '1920'
+  year_of: 1920
+  title_zh: 李瑞清卒
+  description: 民国九年卒，年五十四。有《清道人遗集》。
+  persons:
+  - guji-李瑞清
+  related_to:
+  - guji-李瑞清-event-daoist
