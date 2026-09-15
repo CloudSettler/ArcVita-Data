@@ -1,0 +1,145 @@
+person:
+  qid: guji-巴蔓子
+  name_zh: 巴蔓子
+  names:
+    zh: 巴蔓子
+    en: Ba Manzi
+  lifespan:
+    birth:
+      date: 约-360
+      precision: year
+      is_circa: true
+      raw: 战国后期
+    death:
+      date: 约-320
+      precision: year
+      is_circa: true
+      raw: 周之季世
+  birth_date: 约-360
+  death_date: 约-320
+  era: 战国
+  reign_ref: 周之季世
+  archetype: 忠信守土的悲情将军
+  dilemmas:
+  - 借楚师平乱而许以三城，事后违约失信与失地保国的两难
+  - 以自刎献头守诺，殉身成全国土与信义
+  lesson: 舍身守信，城可不予而头可谢之，忠义两全
+  summary_first_person: 我为巴国将军，国乱时借楚兵平难，许楚三城。乱平楚索城，我不忍割土，愿以吾头谢楚王，遂自刎授首。楚王以上卿礼葬吾头，巴国亦以上卿礼葬其身。
+  source_urls:
+  - https://zh.wikisource.org/wiki/華陽國志
+endeavors:
+- id: guji-巴蔓子-endeavor-1
+  name_zh: 请师平巴乱
+  phases:
+  - key: brewing
+    name_zh: 巴国有乱
+    labels:
+      zh:
+      - 内乱
+      - 周季世
+    start_date: 约-330
+  - key: breakthrough
+    name_zh: 请师于楚
+    labels:
+      zh:
+      - 外交
+      - 许城为质
+    start_date: 约-329
+    highlight_event_id: guji-巴蔓子-event-plea
+  - key: climax
+    name_zh: 楚师救巴，国乱既宁
+    labels:
+      zh:
+      - 平乱
+    start_date: 约-328
+    highlight_event_id: guji-巴蔓子-event-peace
+  decisions:
+  - date: 约-329
+    title_zh: 向楚王借兵并许以三城
+    rationale: 巴国内乱无力自平，以外交求援为国保命，虽许割城而意在救国
+- id: guji-巴蔓子-endeavor-2
+  name_zh: 拒城授首全信义
+  phases:
+  - key: breakthrough
+    name_zh: 楚使请城
+    labels:
+      zh:
+      - 违约困境
+    start_date: 约-328
+  - key: climax
+    name_zh: 自刎以头谢楚
+    labels:
+      zh:
+      - 殉义
+      - 自刎
+    start_date: 约-328
+    highlight_event_id: guji-巴蔓子-event-death
+  - key: closure
+    name_zh: 楚巴各以上卿礼葬
+    labels:
+      zh:
+      - 礼葬
+      - 千古传颂
+    start_date: 约-328
+  decisions:
+  - date: 约-328
+    title_zh: 拒割三城，自刎献头
+    rationale: 城不可予国土，然许诺不可负，遂以头颅践约：将吾头往谢之，城不可得也
+events:
+- id: guji-巴蔓子-event-birth
+  cat: life
+  title_zh: 巴蔓子生
+  start_date: 约-360
+  year_of: -360
+  where:
+    zh: 巴国
+  actors:
+  - guji-巴蔓子
+- id: guji-巴蔓子-event-plea
+  cat: endeavor
+  title_zh: 巴国内乱，蔓子请师于楚，许以三城
+  start_date: 约-329
+  year_of: -329
+  where:
+    zh: 巴国
+  actors:
+  - guji-巴蔓子
+  notes_zh: 楚王允诺出兵救巴
+- id: guji-巴蔓子-event-peace
+  cat: endeavor
+  title_zh: 楚师救巴，巴国既宁
+  start_date: 约-328
+  year_of: -328
+  where:
+    zh: 巴国
+  actors:
+  - guji-巴蔓子
+- id: guji-巴蔓子-event-demand
+  cat: endeavor
+  title_zh: 楚使向巴索要三城
+  start_date: 约-328
+  year_of: -328
+  where:
+    zh: 巴国
+  actors:
+  - guji-巴蔓子
+- id: guji-巴蔓子-event-death
+  cat: life
+  title_zh: 蔓子自刎，以头授楚使
+  start_date: 约-328
+  year_of: -328
+  where:
+    zh: 巴国
+  actors:
+  - guji-巴蔓子
+  notes_zh: 遗言：藉楚之灵，克弭祸难。诚许楚王城，将吾头往谢之，城不可得也
+- id: guji-巴蔓子-event-burial
+  cat: life
+  title_zh: 楚王以上卿礼葬其头，巴国亦以上卿礼葬其身
+  start_date: 约-328
+  year_of: -328
+  where:
+    zh: 楚国与巴国
+  actors:
+  - guji-巴蔓子
+  notes_zh: 楚王叹曰：使吾得臣若巴蔓子，用城何为

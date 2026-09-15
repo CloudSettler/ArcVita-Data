@@ -1,0 +1,153 @@
+person:
+  qid: guji-文翁
+  name_zh: 文翁
+  names:
+    zh: 文翁
+    en: Wen Weng
+  lifespan:
+    birth:
+      date: -156
+      precision: year
+      is_circa: true
+      raw: 庐江人，汉景帝末年为蜀守，生年不详
+    death:
+      date: -110
+      precision: year
+      is_circa: true
+  birth_date: 约-156
+  death_date: 约-110
+  era: 西汉
+  reign_ref: 汉景帝、汉武帝时人
+  archetype: 兴学劝教的地方良守
+  dilemmas:
+  - 承秦之后学校陵夷，蜀地蛮夷之风与儒化之难
+  - 以官费遣士东游受经，郡财有限与人材培育之取舍
+  lesson: 兴办学校、遣士受经，可移风易俗，使一方文教比于齐鲁
+  summary_first_person: 我是文翁，庐江人。景帝末年我为蜀郡守，见蜀承秦之后学校衰废，便穿湔江口灌田千七百顷以裕民，又立学于成都，选吏弟子就学，遣张叔等十八人东诣博士受七经，学成归来教授。学徒鳞萃，蜀学比于齐鲁，巴、汉亦立文学。景帝嘉之，令天下郡国皆立文学，因我倡其教，蜀为之始也。我曾立文学精舍、讲堂，作石室于城南，后世虽火毁而屡修，蜀之文风由此而兴。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/文翁
+endeavors:
+- id: guji-文翁-endeavor-1
+  name_zh: 治蜀兴农
+  phases:
+  - key: brewing
+    name_zh: 出任蜀守
+    labels:
+      zh:
+      - deport性
+      - 民生
+    start_date: -141
+    highlight_event_id: guji-文翁-event-1
+  - key: breakthrough
+    name_zh: 穿湔江口
+    labels:
+      zh:
+      - 水利
+      - 灌溉
+    start_date: -141
+    highlight_event_id: guji-文翁-event-2
+  decisions:
+  - date: -141
+    title_zh: 穿湔江口溉田
+    rationale: 蜀地承平而民物阜康，兴水利可溉郫、繁田千七百顷，裕民为本
+- id: guji-文翁-endeavor-2
+  name_zh: 立学兴教
+  phases:
+  - key: brewing
+    name_zh: 立石室精舍
+    labels:
+      zh:
+      - 教育
+      - 文治
+    start_date: -141
+    highlight_event_id: guji-文翁-event-3
+  - key: breakthrough
+    name_zh: 遣士东受七经
+    labels:
+      zh:
+      - 求学
+      - 播教
+    start_date: -141
+    highlight_event_id: guji-文翁-event-4
+  - key: climax
+    name_zh: 蜀学比于齐鲁
+    labels:
+      zh:
+      - 文教大盛
+    start_date: -130
+    highlight_event_id: guji-文翁-event-5
+  - key: closure
+    name_zh: 郡国立学推行天下
+    labels:
+      zh:
+      - 诏令推广
+    start_date: -130
+    highlight_event_id: guji-文翁-event-5
+  decisions:
+  - date: -141
+    title_zh: 选吏子弟就学，遣张叔等十八人诣博士受七经
+    rationale: 学校陵夷，俗好文刻，非遣隽士京师受经还教本土，不能变其风
+events:
+- id: guji-文翁-event-birth
+  date: -156
+  date_is_circa: true
+  year_of: -156
+  year_of_is_circa: true
+  title_zh: 文翁约生于庐江
+  type: birth
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-1
+  date: -141
+  date_is_circa: true
+  year_of: -141
+  year_of_is_circa: true
+  title_zh: 景帝末年（约文帝末年至景帝间）以庐江文翁为蜀守
+  type: office
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-2
+  date: -141
+  date_is_circa: true
+  year_of: -141
+  year_of_is_circa: true
+  title_zh: 穿湔江口，溉灌郫、繁田千七百顷
+  type: endeavor
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-3
+  date: -141
+  date_is_circa: true
+  year_of: -141
+  year_of_is_circa: true
+  title_zh: 立学于成都，建文学精舍、讲堂，作石室，选吏子弟就学
+  type: endeavor
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-4
+  date: -141
+  date_is_circa: true
+  year_of: -141
+  year_of_is_circa: true
+  title_zh: 遣隽士张叔等十八人东诣博士受七经
+  type: endeavor
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-5
+  date: -130
+  date_is_circa: true
+  year_of: -130
+  year_of_is_circa: true
+  title_zh: 蜀学比于齐鲁，孝景帝嘉之，令天下郡国皆立文学
+  type: endeavor
+  actor_ids:
+  - guji-文翁
+- id: guji-文翁-event-death
+  date: -110
+  date_is_circa: true
+  year_of: -110
+  year_of_is_circa: true
+  title_zh: 文翁约卒于武帝年间
+  type: death
+  actor_ids:
+  - guji-文翁

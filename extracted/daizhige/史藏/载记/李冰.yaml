@@ -1,0 +1,108 @@
+person:
+  qid: guji-李冰
+  name_zh: 李冰
+  names:
+    zh: 李冰
+    en: Li Bing
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 生年不详，约战国末期
+    death:
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  birth_date: 约战国末期
+  death_date: 不详
+  era: 战国末期秦国
+  reign_ref: 秦孝文王时为蜀守
+  archetype: 治水功臣与地方能吏
+  dilemmas:
+  - 如何驯服岷江水患并兼顾航运、灌溉与民生之利
+  - 面对水神怒传说仍坚持凿崖通正水道
+  lesson: 顺应水脉、因势利导，方能使水旱从人、地利无穷
+  summary_first_person: 我是李冰，秦孝文王时受任蜀守。我知天文地理，号岷山为天彭门，于水上立祀三所。我壅江作堋，穿郫江、检江，引水灌溉三郡，开稻田，使蜀沃野千里，号称“陆海”、“天府”。我又作石犀厌水精，凿平溷崖通正水道，通笮道文井江，导洛水、绵水以灌稻田，穿广都盐井与诸陂池。世人谓蜀水旱从人、不知饥馑，此我心之所安也。
+endeavors:
+- id: guji-李冰-endeavor-1
+  name_zh: 修凿都江堰、治理岷江水系
+  phases:
+  - key: brewing
+    name_zh: 察知天文地理、立祠祭江
+    labels:
+      zh:
+      - 水文勘察
+      - 立祀
+    start_date: -256
+    highlight_event_id: guji-李冰-event-appoint
+  - key: breakthrough
+    name_zh: 壅江作堋、穿二江
+    labels:
+      zh:
+      - 都江堰肇建
+      - 分水行船
+    start_date: -255
+    highlight_event_id: guji-李冰-event-duojiang
+  - key: climax
+    name_zh: 凿溷崖、导诸水
+    labels:
+      zh:
+      - 凿平溷崖
+      - 通笮导洛
+    start_date: -251
+    highlight_event_id: guji-李冰-event-hunyan
+  - key: closure
+    name_zh: 蜀成天府、泽被后世
+    labels:
+      zh:
+      - 天府之国
+      - 陆海
+    start_date: -250
+    highlight_event_id: guji-李冰-event-tianfu
+  decisions:
+  - date: -256
+    title_zh: 受命为蜀守，定天彭门、立祀三所
+    rationale: 知天文地理，借祭江以安民心并勘察水势
+  - date: -255
+    title_zh: 壅江作堋，穿郫江、检江
+    rationale: 分岷江支流双过郡下，以行舟船并灌溉三郡
+  - date: -251
+    title_zh: 发卒凿平溷崖
+    rationale: 沫水触山胁漂疾破害舟船，历代患之，必通正水道
+events:
+- id: guji-李冰-event-birth
+  type: birth
+  description: 李冰生年不详，约战国末期。
+- id: guji-李冰-event-death
+  type: death
+  description: 李冰卒年不详。
+- id: guji-李冰-event-appoint
+  type: career
+  date: -256
+  year_of: -256
+  description: 秦孝文王以李冰为蜀守，冰能知天文地理，谓汶山为天彭门，至湔氐县见两山对如阙，号天彭阙，立祀三所，祭用三牲。
+- id: guji-李冰-event-duojiang
+  type: career
+  date: -255
+  year_of: -255
+  description: 冰乃壅江作堋，穿郫江、检江，别支流双过郡下以行舟船，坐致材木，又溉灌三郡，开稻田，蜀沃野千里，号“陆海”。
+- id: guji-李冰-event-shixi
+  type: career
+  date: -253
+  year_of: -253
+  description: 作石犀五头以厌水精，穿石犀溪于江南，命曰犀牛里；自湔堰上分穿羊摩江，灌江西；于白沙邮作三石人立三水中，与江神要：水竭不至足，盛不没肩。
+- id: guji-李冰-event-hunyan
+  type: career
+  date: -251
+  year_of: -251
+  description: 青衣沫水触山胁溷崖，水脉漂疾破害舟船，冰发卒凿平溷崖，通正水道；又积薪烧崖通僰道故蜀王兵兰，悬崖有赤白五色。
+- id: guji-李冰-event-tianfu
+  type: career
+  date: -250
+  year_of: -250
+  description: 通笮道文井江，导洛通山洛水、绵水皆溉灌稻田；识察水脉，穿广都盐井、诸陂池，水旱从人，不知饥馑，天下谓之“天府”。
+- id: guji-李冰-event-qiao
+  type: career
+  date: -249
+  year_of: -249
+  description: 造七桥于西南两江之上，上应七星，蜀人立里多以桥为名。
