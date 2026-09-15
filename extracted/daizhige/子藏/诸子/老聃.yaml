@@ -1,0 +1,114 @@
+person:
+  qid: guji-laodan
+  name_zh: 老聃
+  names:
+    zh: 老聃
+    en: Lao Dan
+  lifespan:
+    birth:
+      date: 约-571
+      precision: year
+      is_circa: true
+      raw: 相传生于周
+    death:
+      date: 约-471
+      precision: year
+      is_circa: true
+      raw: 相传卒于周
+  birth_date: 约-571
+  death_date: 约-471
+  era: 春秋
+  reign_ref: 周王室
+  archetype: 道家开创者·守藏史
+  dilemmas:
+  - 出关隐去与留书传世之择
+  - 无为之道与乱世求治之张
+  lesson: 天下至柔，驰骋天下之至坚；无为而无不为
+  summary_first_person: 我以柔弱为干、清静为德，言无为而无不为，后骑青牛出关，遗书五千言而去。
+  source_urls:
+  - https://zh.wikisource.org/wiki/淮南子
+endeavors:
+- id: guji-laodan-endeavor-1
+  name_zh: 仕周为守藏史
+  labels:
+    zh:
+    - 周室
+    - 守藏
+  phases:
+  - key: brewing
+    name_zh: 供职周室
+    labels:
+      zh:
+      - 守藏史
+    start_date: 约-550
+  - key: breakthrough
+    name_zh: 见周之衰
+    labels:
+      zh:
+      - 去周
+    start_date: 约-520
+    highlight_event_id: guji-laodan-event-3
+  decisions:
+  - date: 约-516
+    title_zh: 去周西隐
+    rationale: 见周之衰，遂去而隐
+- id: guji-laodan-endeavor-2
+  name_zh: 著《道德经》五千言
+  labels:
+    zh:
+    - 著述
+    - 道家
+  phases:
+  - key: breakthrough
+    name_zh: 关前著书
+    labels:
+      zh:
+      - 五千言
+    start_date: 约-500
+    highlight_event_id: guji-laodan-event-4
+  - key: closure
+    name_zh: 出关莫知所终
+    labels:
+      zh:
+      - 莫知所终
+    start_date: 约-480
+  decisions:
+  - date: 约-500
+    title_zh: 强为著书
+    rationale: 关令尹喜强请，乃著书上下篇言道德之意
+events:
+- id: guji-laodan-event-birth
+  date: 约-571
+  year_of: birth
+  title_zh: 老聃生
+  description: 相传生于春秋楚国苦县
+- id: guji-laodan-event-1
+  date: 约-540
+  year_of: career
+  title_zh: 仕周为守藏史
+  description: 掌周室典籍
+- id: guji-laodan-event-2
+  date: 约-516
+  year_of: career
+  title_zh: 王室之乱后去周
+  description: 见周之衰，遂离周而去
+- id: guji-laodan-event-3
+  date: 约-500
+  year_of: breakthrough
+  title_zh: 出关遇尹喜
+  description: 至关，关令尹喜强请著书
+- id: guji-laodan-event-4
+  date: 约-500
+  year_of: breakthrough
+  title_zh: 著书五千言言道德之意
+  description: 乃著上下篇五千余言，即《道德经》
+- id: guji-laodan-event-5
+  date: 约-480
+  year_of: career
+  title_zh: 出关而隐莫知所终
+  description: 遂出关西去，莫知其所终
+- id: guji-laodan-event-death
+  date: 约-471
+  year_of: death
+  title_zh: 老聃卒
+  description: 相传授道而终
