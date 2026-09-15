@@ -1,0 +1,126 @@
+person:
+  qid: guji-养由基
+  name_zh: 养由基
+  names:
+    zh: 养由基
+    en: Yang Youji
+  lifespan:
+    birth:
+      date: -384
+      precision: year
+      is_circa: true
+      raw: 春秋时期（生年不详）
+    death:
+      date: -320
+      precision: year
+      is_circa: true
+      raw: 卒年不详
+  birth_date: -384
+  death_date: -320
+  era: 春秋时期
+  reign_ref: 楚国
+  archetype: 神射手
+  dilemmas:
+  - 技艺绝伦而锋芒外露，山狙见巧招祸之喻反衬韬光之理
+  lesson: 神射必然见死，技艺炫巧反足致患，藏锋守拙方得全生
+  summary_first_person: 我养由基，春秋楚人以神射闻名，百步穿杨，调弓捻箭则猎物自知必死。刘子引我射山狙之事，说明锋芒毕露者终招其害，出处进退之理于此可见。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=637420
+endeavors:
+- id: guji-养由基-endeavor-1
+  name_zh: 学射成艺
+  phases:
+  - key: brewing
+    name_zh: 崭露头角
+    labels:
+      zh:
+      - 楚国
+      - 射艺
+    start_date: -384
+    highlight_event_id: guji-养由基-event-archery
+  - key: breakthrough
+    name_zh: 神射之名
+    labels:
+      zh:
+      - 百步穿杨
+    start_date: -0580
+    highlight_event_id: guji-养由基-event-named
+  - key: climax
+    name_zh: 楚廷效技
+    labels:
+      zh:
+      - 楚王出猎
+    start_date: -376
+    highlight_event_id: guji-养由基-event-hunt
+  - key: closure
+    name_zh: 典籍留名
+    labels:
+      zh:
+      - 韬光之喻
+    start_date: -360
+    highlight_event_id: guji-养由基-event-legacy
+- id: guji-养由基-endeavor-2
+  name_zh: 佐楚用兵
+  phases:
+  - key: brewing
+    name_zh: 效力楚军
+    labels:
+      zh:
+      - 军旅
+    start_date: -0590
+    highlight_event_id: guji-养由基-event-archery
+  - key: breakthrough
+    name_zh: 以射知名
+    labels:
+      zh:
+      - 战功
+    start_date: -381
+    highlight_event_id: guji-养由基-event-named
+  decisions:
+  - date: -384
+    title_zh: 以射仕楚
+    rationale: 藉百步穿杨之技为楚国所倚重
+  - date: -376
+    title_zh: 应命射狙
+    rationale: 楚王命射山狙，由基调弓捻箭，狙抱树而啼
+events:
+- id: guji-养由基-event-birth
+  date: -384
+  year_of: -600
+  event_type: birth
+  title_zh: 养由基生于楚
+  summary_zh: 春秋时期生年不详，约当春秋中晚期
+- id: guji-养由基-event-archery
+  date: -0590
+  year_of: -590
+  event_type: endeavor
+  endeavor_id: guji-养由基-endeavor-1
+  title_zh: 习射而以神射显于世
+  summary_zh: 以善射著称，号称神射
+- id: guji-养由基-event-named
+  date: -0580
+  year_of: -580
+  event_type: endeavor
+  endeavor_id: guji-养由基-endeavor-1
+  title_zh: 百步穿杨，名闻列国
+  summary_zh: 射艺绝伦，为时人所推重
+- id: guji-养由基-event-hunt
+  date: -376
+  year_of: -570
+  event_type: endeavor
+  endeavor_id: guji-养由基-endeavor-1
+  title_zh: 楚王出猎命射山狙
+  summary_zh: 山狙绕树见巧，左右齐称惟养由基能善射，王令射之；由基调弓捻箭，狙知其神射必见死，抱树而啼
+- id: guji-养由基-event-legacy
+  date: -360
+  year_of: -550
+  event_type: endeavor
+  endeavor_id: guji-养由基-endeavor-1
+  title_zh: 刘子引以为韬光之诫
+  summary_zh: 北齐刘昼《刘子·韬光》以山狙见巧、养由基善射为喻，言出技炫巧者必招其害
+- id: guji-养由基-event-death
+  date: -320
+  year_of: -500
+  event_type: death
+  title_zh: 养由基卒
+  summary_zh: 卒年不详，约当春秋晚期
