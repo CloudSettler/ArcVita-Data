@@ -1,0 +1,103 @@
+person:
+  qid: guji-liujing
+  name_zh: 刘敬
+  names:
+    zh: 刘敬
+    en: Liu Jing
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 生年不详
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 卒年不详
+  birth_date: ''
+  death_date: ''
+  era: 西汉初
+  reign_ref: 汉高祖
+  archetype: 战略谋士
+  dilemmas:
+  - 和亲之议在吕氏泣谏与国势初定之间取舍
+  lesson: 势不可武胜时，以联姻渐臣亦可纾边患
+  summary_first_person: 我刘敬于天下初定之际向高帝献和亲之策，虽长公主之遣未果，而汉与匈奴约为兄弟，边患稍纾。
+endeavors:
+- id: guji-liujing-endeavor-1
+  person_qid: guji-liujing
+  name_zh: 献和亲之策
+  phases:
+  - key: brewing
+    name_zh: 匈奴兵强边患数起
+    labels:
+      zh: 边患观察
+    start_date: -202
+  - key: breakthrough
+    name_zh: 以长公主妻冒顿之议
+    labels:
+      zh: 和亲建策
+    start_date: -200
+    highlight_event_id: guji-liujing-event-proposal
+  - key: closure
+    name_zh: 使敬结和亲约为兄弟
+    labels:
+      zh: 奉使结约
+    start_date: -199
+    highlight_event_id: guji-liujing-event-envoy
+  decisions:
+  - date: -200
+    title_zh: 议以适长公主妻单于
+    rationale: 天下初定士卒罢于兵革，未可以武服匈奴
+- id: guji-liujing-endeavor-2
+  person_qid: guji-liujing-endeavor-2
+  name_zh: 帝廷论势
+  phases:
+  - key: brewing
+    name_zh: 高帝问敬
+    labels:
+      zh: 廷对应对
+    start_date: -200
+  - key: climax
+    name_zh: 主张以渐臣之
+    labels:
+      zh: 渐臣之策
+    start_date: -200
+    highlight_event_id: guji-liujing-event-proposal
+  - key: closure
+    name_zh: 谋事结果为和亲之约
+    labels:
+      zh: 策成效验
+    start_date: -199
+  decisions:
+  - date: -200
+    title_zh: 劝毋战而以礼节谕之
+    rationale: 冒顿在固为子婿，外孙为单于，岂闻外孙与大父亢礼哉
+events:
+- id: guji-liujing-event-birth
+  person_qid: guji-liujing
+  type: birth
+  date: ''
+  year_of: 0
+  label_zh: 生年不详
+- id: guji-liujing-event-proposal
+  person_qid: guji-liujing
+  type: endeavor
+  date: -200
+  year_of: -200
+  label_zh: 向高帝献和亲之策
+  detail: 帝问敬，敬曰未可以武服也，宜以长公主妻单于为阏氏，以渐臣之。
+- id: guji-liujing-event-envoy
+  person_qid: guji-liujing
+  type: endeavor
+  date: -199
+  year_of: -199
+  label_zh: 奉使结和亲之约
+  detail: 吕氏泣谏长公主不遣，使家人子为公主妻单于，使敬结和亲，约为兄弟。
+- id: guji-liujing-event-death
+  person_qid: guji-liujing
+  type: death
+  date: ''
+  year_of: 0
+  label_zh: 卒年不详

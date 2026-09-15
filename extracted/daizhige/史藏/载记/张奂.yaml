@@ -1,0 +1,81 @@
+person:
+  qid: guji-张奂
+  name_zh: 张奂
+  names:
+    zh: 张奂
+    en: Zhang Huan
+  lifespan:
+    birth:
+      date: ~104
+      precision: decade
+      is_circa: true
+      raw: 约东汉安帝时期出生（生年史无明文）
+  birth_date: 约104
+  era: 东汉
+  reign_ref: 桓帝时期
+  archetype: 边将、平叛功臣
+  dilemmas:
+  - 边地叛乱频发，将吏处攻伐与招抚之间
+  lesson: 守边抚叛，恩威并施avar可定一方
+  summary_first_person: 我是张奂，东汉边将。永寿元年，匈奴左薁鞮台耆与且渠伯德等叛乱，抄掠美稷、安定，我以安定属国都尉率兵击破叛众并招降之，安定边地。
+endeavors:
+- id: guji-张奂-endeavor-1
+  key: 边疆平叛
+  name_zh: 平定匈奴薁鞮之叛
+  phases:
+  - key: brewing
+    name_zh: 出任安定属国都尉
+    labels:
+      zh:
+      - 属国都尉
+      - 镇守边地
+    start_date: ~155
+    highlight_event_id: guji-张奂-event-appointment
+  - key: climax
+    name_zh: 击破薁鞮叛众
+    labels:
+      zh:
+      - 击破叛军
+      - 招降纳附
+    start_date: 155
+    highlight_event_id: guji-张奂-event-victory
+  decisions:
+  - date: 155
+    title_zh: 进击美稷叛胡并招降之
+    rationale: 匈奴左薁鞮台耆等叛寇美稷、安定，率兵击破以安边。
+events:
+- id: guji-张奂-event-appointment
+  person_id: guji-张奂
+  date: ~155
+  year_of: 永寿元年前后
+  date_exactness: year_approx
+  title_zh: 出任安定属国都尉
+  summary_zh: 张奂任安定属国都尉，镇守边地。
+  labels:
+    kind:
+    - 任职
+    domain:
+    - 军政
+    - 边防
+- id: guji-张奂-event-victory
+  person_id: guji-张奂
+  date: 155
+  year_of: 永寿元年
+  date_exactness: year
+  title_zh: 击破降服匈奴叛众
+  summary_zh: 永寿元年，匈奴左薁鞮台耆、且渠伯德等叛乱，抄掠美稷；张奂击破叛军并招降之。
+  labels:
+    kind:
+    - 战功
+    domain:
+    - 军事
+    - 边防
+- id: guji-张奂-event-death
+  person_id: guji-张奂
+  year_of: 传世不详
+  date_exactness: unknown
+  title_zh: 卒年不详
+  summary_zh: 传文未载张奂卒年。
+  labels:
+    kind:
+    - 缺载
