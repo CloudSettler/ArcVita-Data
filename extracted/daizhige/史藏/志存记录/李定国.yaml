@@ -1,0 +1,133 @@
+person:
+  qid: guji-李定国
+  name_zh: 李定国
+  names:
+    zh: 李定国
+    en: Li Dingguo
+  lifespan:
+    birth:
+      date: 1621
+      precision: year
+      is_circa: true
+      raw: 约天启元年
+    death:
+      date: 1662-06-27
+      precision: day
+      is_circa: true
+  birth_date: 1621
+  death_date: 1662-06-27
+  era: 明末清初
+  reign_ref: 永历
+  archetype: 悲壮孤忠的抗清统帅
+  dilemmas:
+  - 义父张献忠败亡后，率大西军余部转战西南，面临降清与联明抗清的抉择
+  - 孙可望与永历朝廷内讧，忠义与实力权衡两难
+  - 永历帝遁入缅甸后，孤军苦撑，复兴无望仍不肯降清
+  lesson: 大厦将倾之际，忠诚与担当虽难挽天命，却能立千古气节
+  summary_first_person: 我本张献忠义子，献忠殁后，我联明抗清，受封西宁王，两蹶名王，威震天下；孙可望跋扈内讧，我护永历帝辗转滇黔，及帝蒙难，我忧愤病殁于中缅边境，至死不降。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/李定国
+endeavors:
+- id: guji-李定国-endeavor-1
+  name_zh: 联明抗清
+  phases:
+  - key: brewing
+    name_zh: 整军西南
+    labels:
+      zh: 大西军余部经营滇黔
+    start_date: 1647
+    highlight_event_id: guji-李定国-event-e1
+  - key: breakthrough
+    name_zh: 称雄西南
+    labels:
+      zh: 相继称雄，与孙可望并立
+    start_date: 1649
+    highlight_event_id: guji-李定国-event-e2
+  - key: climax
+    name_zh: 两蹶名王
+    labels:
+      zh: 桂林、衡州大捷
+    start_date: 1652
+    highlight_event_id: guji-李定国-event-e3
+  - key: closure
+    name_zh: 孤忠病殁
+    labels:
+      zh: 永历蒙难后忧愤而终
+    start_date: 1661
+    highlight_event_id: guji-李定国-event-e4
+  decisions:
+  - date: 1647
+    title_zh: 联明抗清
+    rationale: 张献忠死后，率大西军余部与南明永历朝廷联合，以民族大义共御清军
+  - date: 1652
+    title_zh: 出师两粤湘桂
+    rationale: 乘清军空虚，挥师东出，接连大败定南王孔有德、敬谨亲王尼堪
+- id: guji-李定国-endeavor-2
+  name_zh: 护驾永历
+  phases:
+  - key: brewing
+    name_zh: 迎驾安隆
+    labels:
+      zh: 迎永历帝驻跸安隆
+    start_date: 1652
+    highlight_event_id: guji-李定国-event-e5
+  - key: climax
+    name_zh: 转战滇黔
+    labels:
+      zh: 蹂躏于滇、黔、川、广之间
+    start_date: 1653
+    highlight_event_id: guji-李定国-event-e2
+  - key: closure
+    name_zh: 边地殉志
+    labels:
+      zh: 闻永历殉难，忧愤病卒于勐腊
+    start_date: 1662
+    highlight_event_id: guji-李定国-event-e4
+  decisions:
+  - date: 1656
+    title_zh: 迎永历帝入昆明
+    rationale: 孙可望跋扈窥窃神器，迎驾昆明以护卫朝廷，与可望决裂
+  - date: 1659
+    title_zh: 阻敌于磨盘山
+    rationale: 清军入滇穷追，设伏磨盘山血战，力保永历帝西走缅甸
+events:
+- id: guji-李定国-event-birth
+  date: 1621
+  year_of: 1621
+  type: birth
+  title_zh: 李定国约生于此年（陕西榆林人）
+- id: guji-李定国-event-e1
+  date: 1647
+  year_of: 1647
+  type: endeavor
+  endeavor_ref: guji-李定国-endeavor-1
+  title_zh: 张献忠殁后，与孙可望等率大西军余部南下经营云贵
+- id: guji-李定国-event-e2
+  date: 1651
+  year_of: 1651
+  type: endeavor
+  endeavor_ref: guji-李定国-endeavor-2
+  title_zh: 与孙可望相继称雄，蹂躏转战于滇、黔、川、广之间
+- id: guji-李定国-event-e3
+  date: 1652-07
+  year_of: 1652
+  type: endeavor
+  endeavor_ref: guji-李定国-endeavor-1
+  title_zh: 桂林之役攻破桂林，定南王孔有德败死，旋又衡州阵斩敬谨亲王尼堪
+- id: guji-李定国-event-e5
+  date: 1652
+  year_of: 1652
+  type: endeavor
+  endeavor_ref: guji-李定国-endeavor-2
+  title_zh: 迎永历帝驻跸安隆所，护卫朝廷
+- id: guji-李定国-event-e4
+  date: 1662-06-27
+  year_of: 1662
+  type: endeavor
+  endeavor_ref: guji-李定国-endeavor-2
+  title_zh: 闻永历帝为吴三桂所害，忧愤病殁于中缅边境勐腊
+- id: guji-李定国-event-death
+  date: 1662-06-27
+  year_of: 1662
+  type: death
+  title_zh: 李定国病逝，部众其子嗣率众降清或留边
