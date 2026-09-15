@@ -1,0 +1,111 @@
+person:
+  qid: guji-孙叔敖
+  name_zh: 孙叔敖
+  names:
+    zh: 孙叔敖
+    en: Sunshu Ao
+  lifespan:
+    birth:
+      date: -630
+      precision: year
+      is_circa: true
+      raw: 约春秋楚庄王时人
+    death:
+      date: -593
+      precision: year
+      is_circa: true
+      raw: 约楚庄王晚年
+  birth_date: 约公元前630年
+  death_date: 约公元前593年
+  era: 春秋时期
+  reign_ref: 楚庄王
+  archetype: 贤相/治水能臣
+  dilemmas:
+  - 辅佐楚庄王成就霸业与自身谦退不伐之间的取舍
+  lesson: 贤者在位、所染当，则君霸诸侯、功名传于后世
+  summary_first_person: 我孙叔敖为楚庄王所举之贤，助其整顿内政、兴修水利，使楚庄得以霸诸侯、功名传于后世，墨子称我所染当、为五霸之佐。
+endeavors:
+- id: guji-孙叔敖-endeavor-1
+  name_zh: 出仕楚国，辅佐庄王
+  phases:
+  - key: brewing
+    name_zh: 贤名初显
+    labels:
+      zh:
+      - 贤才
+      - 所染当
+    start_date: -610
+    highlight_event_id: guji-孙叔敖-event-serve
+  - key: breakthrough
+    name_zh: 相楚庄王
+    labels:
+      zh:
+      - 举贤
+      - 为相
+    start_date: -605
+    highlight_event_id: guji-孙叔敖-event-serve
+  - key: climax
+    name_zh: 霸业功成
+    labels:
+      zh:
+      - 霸诸侯
+      - 功名传后世
+    start_date: -597
+    highlight_event_id: guji-孙叔敖-event-hegemony
+  decisions:
+  - date: -605
+    title_zh: 应楚庄王之举出仕为相
+    rationale: 庄王所染当、举贤任能，孙叔敖得高爵重禄以成其事
+- id: guji-孙叔敖-endeavor-2
+  name_zh: 治国安民，佐成霸业
+  phases:
+  - key: breakthrough
+    name_zh: 整饬吏治
+    labels:
+      zh:
+      - 治国
+      - 听狱治政
+    start_date: -604
+    highlight_event_id: guji-孙叔敖-event-serve
+  - key: climax
+    name_zh: 兴利安民
+    labels:
+      zh:
+      - 兴修水利
+      - 财用足
+    start_date: -597
+    highlight_event_id: guji-孙叔敖-event-hegemony
+  - key: closure
+    name_zh: 功成身显
+    labels:
+      zh:
+      - 名立功成
+    start_date: -594
+    highlight_event_id: guji-孙叔敖-event-hegemony
+  decisions:
+  - date: -597
+    title_zh: 助庄王败晋于邲，奠定霸业
+    rationale: 贤者治政，使国富民足、兵力强盛，内外诸侯与之
+events:
+- id: guji-孙叔敖-event-birth
+  date: -630
+  year_of: -630
+  title_zh: 孙叔敖生于楚国
+  type: birth
+- id: guji-孙叔敖-event-serve
+  date: -605
+  year_of: -605
+  title_zh: 被楚庄王所举染，出任要职辅政
+  type: career
+  description: 墨子《所染》载"楚庄染于孙叔、沈尹"，孙叔敖以其贤能为庄王所倚重
+- id: guji-孙叔敖-event-hegemony
+  date: -597
+  year_of: -597
+  title_zh: 佐楚庄王霸诸侯，功名传于后世
+  type: career
+  description: 五君所染当，故霸诸侯，孙叔敖为其中之贤佐
+- id: guji-孙叔敖-event-death
+  date: -593
+  year_of: -593
+  title_zh: 孙叔敖卒
+  type: death
