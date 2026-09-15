@@ -1,0 +1,265 @@
+person:
+  qid: guji-侯益
+  name_zh: 侯益
+  names:
+    zh: 侯益
+    en: Hou Yi
+  lifespan:
+    birth:
+      date: 0885
+      precision: year
+      is_circa: true
+      raw: 卒年八十，乾德三年
+    death:
+      date: 0965
+      precision: year
+      is_circa: false
+      raw: 乾德三年卒，年八十
+  birth_date: 0885
+  death_date: 0965
+  era: 五代至宋初
+  reign_ref:
+  - 后唐庄宗
+  - 后唐明宗
+  - 后晋高祖
+  - 后晋少帝
+  - 后汉高祖
+  - 后周太祖
+  - 宋太祖
+  archetype: 五代历仕数朝的武将
+  dilemmas:
+  - 后汉时受契丹官职，惧祸欲归蜀，遣子先降，后入朝自辩
+  - 潞王举兵时称疾不奉诏，知军情必变而避祸
+  - 隐帝时周祖起兵，建议闭关不轻出兵，被慕容彦超讥为懦夫之计
+  lesson: 五代乱世中武将周旋于多政权之间，以机变与贿结权贵保全历经数朝
+  summary_first_person: 我侯益以拳勇起于李克用麾下，历仕唐、晋、汉、周及宋，凡五朝，以先登陷阵与河上擒将立名，以虎牢大破张从宾的汜水之功最著。晋祖以其功拜节度，赐将相乡勋贤里。后惧汉祖见疑几奔蜀，赖厚赂权贵获授开封尹。周末告老致仕，宋初郊祀时位列中书门下，乾德三年卒，年八十。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷254
+endeavors:
+- id: baj-c711016f-0001
+  name_zh: 从军立功：自太原至后唐诸役
+  phases:
+  - key: brewing
+    name_zh: 隶李克用麾下
+    labels:
+      zh: 光化中以拳勇隶麾下
+    start_date: 0898
+    highlight_event_id: guji-侯益-event-first-ascend
+  - key: breakthrough
+    name_zh: 庄宗诸战先登
+    labels:
+      zh: 攻大名、征刘守光、破洺州
+    start_date: 0908
+    highlight_event_id: guji-侯益-event-capture-lijiang
+  - key: climax
+    name_zh: 河上擒梁将
+    labels:
+      zh: 擒李立、李建
+    start_date: 0915
+    highlight_event_id: guji-侯益-event-capture-lijiang
+  - key: closure
+    name_zh: 明宗朝平叛
+    labels:
+      zh: 讨朱守殷、王都
+    start_date: 0926
+    highlight_event_id: guji-侯益-event-ningzhou
+  decisions:
+  - date: 0898
+    title_zh: 以拳勇投效李克用
+    rationale: 李克用据太原，投身行伍以博功名
+- id: baj-c711016f-0002
+  name_zh: 汜水大捷：虎牢破张从宾
+  phases:
+  - key: brewing
+    name_zh: 受晋祖之托
+    labels:
+      zh: 晋祖问"卿能为朕死耶"
+    start_date: 0937
+    highlight_event_id: guji-侯益-event-sishui
+  - key: climax
+    name_zh: 汜水决战
+    labels:
+      zh: 亲鼓破敌万余人
+    start_date: '0937-07-09'
+    highlight_event_id: guji-侯益-event-sishui
+  - key: closure
+    name_zh: 迁镇加赏
+    labels:
+      zh: 拜河阳三城节度，后迁武宁军节度、同平章事
+    start_date: 0937
+    highlight_event_id: guji-侯益-event-huilaogong
+  decisions:
+  - date: 0937
+    title_zh: 请兵五千破贼
+    rationale: 晋祖感宗社危殆，益自请锐卒五千必破从宾
+  - date: 0939-09
+    title_zh: 徐州大火出金粟振济
+    rationale: 徙镇彭门之日遭灾，以私财赈济收人心
+- id: baj-c711016f-0003
+  name_zh: 末世周旋：归蜀疑云与降周入宋
+  phases:
+  - key: brewing
+    name_zh: 汉祖见疑
+    labels:
+      zh: 浚城隍为备，王景崇奉密旨备变
+    start_date: 0947
+    highlight_event_id: guji-侯益-event-shu-plot
+  - key: breakthrough
+    name_zh: 奔朝自辩
+    labels:
+      zh: 贿史弘肇，授开封尹兼中书令，封鲁国公
+    start_date: 0948
+    highlight_event_id: guji-侯益-event-kaifeng
+  - key: climax
+    name_zh: 赤冈与留子陂之战
+    labels:
+      zh: 隐帝御周师，夜谒周祖
+    start_date: 0950
+    highlight_event_id: guji-侯益-event-chigang
+  - key: closure
+    name_zh: 致仕入宋
+    labels:
+      zh: 封楚国公、齐国公，显德元年致仕，宋初郊祀缀中书门下班
+    start_date: 0954
+    highlight_event_id: guji-侯益-event-zhishi
+  decisions:
+  - date: 0947
+    title_zh: 潜通蜀将以求自全
+    rationale: 尝受契丹命，惧汉见疑，遗书蜀将达诚意
+  - date: 0950
+    title_zh: 夜谒周祖
+    rationale: 汉军战不利，士卒无斗志，占候不祥，遂降
+events:
+- id: guji-侯益-event-birth
+  event_type: birth
+  date: 0885
+  year_of: 885
+  date_precision: circa
+  name_zh: 侯益生
+  description_zh: 汾州平遥人，祖父以农为业，卒于乾德三年年八十，上推生于约此年
+- id: guji-侯益-event-first-ascend
+  event_type: career
+  date: 0898
+  year_of: 898
+  date_precision: circa
+  name_zh: 以拳勇隶李克用麾下
+  description_zh: 唐光化中，李克用据太原，益以拳勇隶其麾下
+- id: guji-侯益-event-daming
+  event_type: career
+  date: 0907
+  year_of: 907
+  date_precision: circa
+  name_zh: 从庄宗攻大名先登
+  description_zh: 先登擒军校，擢为马前直副兵马使
+- id: guji-侯益-event-loushang
+  event_type: injury
+  date: 0910
+  year_of: 910
+  date_precision: circa
+  name_zh: 破洺州为机石伤足
+  description_zh: 庄宗亲以药傅其疮，愈后改护卫指挥使
+- id: guji-侯益-event-capture-lijiang
+  event_type: career
+  date: 0915
+  year_of: 915
+  date_precision: circa
+  name_zh: 河上之战擒梁将李立、李建
+  description_zh: 庄宗与梁人战河上，益挺身出斗，擒骁将李立、李建，迁马前直指挥使
+- id: guji-侯益-event-ningzhou
+  event_type: career
+  date: 0929
+  year_of: 929
+  date_precision: year
+  name_zh: 破契丹援军克定州
+  description_zh: 从王晏球攻讨王都，逆击契丹，破其众于唐河北，克城，授宁州刺史
+- id: guji-侯益-event-shangzhou
+  event_type: career
+  date: 0934
+  year_of: 934
+  date_precision: year
+  name_zh: 称疾拒潞王征召，出为商州刺史
+  description_zh: 潞王举兵凤翔，益知军情必变，称疾不奉诏，执政怒，出为商州刺史，旋大破入寇金州之蜀军
+- id: guji-侯益-event-sishui
+  event_type: career
+  date: 0937-07-09
+  year_of: 937
+  date_precision: day
+  name_zh: 汜水大破张从宾
+  description_zh: 益亲鼓，士乘之，大败从宾万余人，击杀殆尽，汜水为之不流，从宾乘马入水溺死，遂拜河阳三城节度
+- id: guji-侯益-event-huilaogong
+  event_type: career
+  date: 0939-07-09
+  year_of: 939
+  date_precision: day
+  name_zh: 迁武宁军节度、同平章事，改乡里为将相乡勋贤里
+  description_zh: 天福四年晋祖追念虎牢之功，以七月九日徙镇彭门、领相印，赐门戟，改乡里名
+- id: guji-侯益-event-qinzhou
+  event_type: career
+  date: 0940
+  year_of: 940
+  date_precision: year
+  name_zh: 徙镇秦州，潜通蜀将
+  description_zh: 为西面都部署，王君怀投蜀请为先锋，益惧，请援于朝又潜遗书于蜀将，少帝疑之，徙河中尹、护国军节度
+- id: guji-侯益-event-khitan-fengxiang
+  event_type: career
+  date: 0947
+  year_of: 947
+  date_precision: year
+  name_zh: 契丹入汴，授凤翔节度
+  description_zh: 益率僚属诣契丹主，自陈不预北伐之谋，契丹授以凤翔节度
+- id: guji-侯益-event-shu-plot
+  event_type: career
+  date: 0947
+  year_of: 947
+  date_precision: year
+  name_zh: 浚城隍为备，与子谋归蜀
+  description_zh: 孟昶遣王处回、吴崇恽赍书招益厚遗之，益遂与其子归蜀，昶令何重建率川兵出大散关以应
+- id: guji-侯益-event-kaifeng
+  event_type: career
+  date: 0948
+  year_of: 948
+  date_precision: year
+  name_zh: 奔入朝自辩，授开封尹兼中书令
+  description_zh: 对隐帝称"欲诱蜀军出关掩杀"，厚赂史弘肇辈言景崇之横，授开封尹兼中书令，俄封鲁国公，王景崇遂据城叛
+- id: guji-侯益-event-bizhence
+  event_type: career
+  date: 0950
+  year_of: 950
+  date_precision: year
+  name_zh: 隐帝朝献闭关之计
+  description_zh: 周祖起兵，益献计不宜轻出，遣其母妻发降以招之，为慕容彦超所沮；又遣守澶州，赤冈战至留子陂
+- id: guji-侯益-event-chigang
+  event_type: career
+  date: 0950
+  year_of: 950
+  date_precision: year
+  name_zh: 留子陂战败，夜谒周祖
+  description_zh: 汉军不利，益见士卒无斗志、占候不祥，与焦继勋等夜谒周祖，周祖慰劳遣还
+- id: guji-侯益-event-fenggong
+  event_type: career
+  date: 0951
+  year_of: 951
+  date_precision: year
+  name_zh: 封楚国公、改太子太师、封齐国公
+  description_zh: 广顺初封楚国公，改太子太师，俄又改封齐国公
+- id: guji-侯益-event-zhishi
+  event_type: retirement
+  date: 0954-11
+  year_of: 954
+  date_precision: month
+  name_zh: 以本官致仕归洛
+  description_zh: 显德元年冬告老致仕，遣使赐茶药钱帛就抚问之
+- id: guji-侯益-event-song-worship
+  event_type: career
+  date: 0963
+  year_of: 963
+  date_precision: year
+  name_zh: 乾德初郊祀，缀中书门下班
+  description_zh: 太祖郊祀，诏其缀中书门下班，礼与丞相等
+- id: guji-侯益-event-death
+  event_type: death
+  date: 0965
+  year_of: 965
+  date_precision: year
+  name_zh: 侯益卒
+  description_zh: 乾德三年卒，年八十，赠中书令；五子仁愿、仁矩、仁宝、仁遇、仁兴
