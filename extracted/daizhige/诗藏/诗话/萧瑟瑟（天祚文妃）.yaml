@@ -1,0 +1,80 @@
+person:
+  qid: guji-萧瑟瑟
+  name_zh: 萧瑟瑟（天祚文妃）
+  names:
+    zh: 萧瑟瑟
+    en: Xiao Sese
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: true
+      raw: 幼选入宫，生年不详
+    death:
+      precision: year
+      is_circa: false
+      raw: '天祚朝为奉先所诬，赐死（约辽末） '
+  era: 辽末（天祚帝时期）
+  reign_ref: 天祚帝
+  archetype: 以诗歌讽谏而遭谗赐死的后宫才女
+  dilemmas:
+  - 目睹金兵内侵、天祚帝畋游不悛、忠良疏斥，欲以诗文谏君与明哲保身之间两难
+  - 作歌讥切权贵，虽得直声，却招致天祚衔恨与萧奉先之诬
+  lesson: 直言讥切可存史鉴，然谏而不纳者，身与国俱危。
+  summary_first_person: '我小字瑟瑟，幼选入宫，天祚朝册为文妃。我聪慧闲雅，工文善诗，见金兵内侵而帝畋游不悛，遂作歌讽谏，又作《咏史诗》讥切权贵。帝见而衔之，后为萧奉先所诬，赐死。 '
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=563207
+endeavors:
+- id: guji-萧瑟瑟-endeavor-1
+  name_zh: 入宫封妃
+  phases:
+  - key: brewing
+    name_zh: 幼选入宫
+    labels:
+      zh: 宫闱才人
+    highlight_event_id: guji-萧瑟瑟-event-appoint
+- id: guji-萧瑟瑟-endeavor-2
+  name_zh: 以诗讽谏
+  phases:
+  - key: brewing
+    name_zh: 作歌忧国
+    labels:
+      zh: 讽谏陈情
+    highlight_event_id: guji-萧瑟瑟-event-song
+  - key: breakthrough
+    name_zh: 作咏史诗
+    labels:
+      zh: 讥切时弊
+    highlight_event_id: guji-萧瑟瑟-event-shishi
+- id: guji-萧瑟瑟-endeavor-3
+  name_zh: 谗言赐死
+  phases:
+  - key: climax
+    name_zh: 奉先诬构
+    labels:
+      zh: 祸起谗言
+    highlight_event_id: guji-萧瑟瑟-event-death
+events:
+- id: guji-萧瑟瑟-event-birth
+  event_type: birth
+  name_zh: 出生（渤海大氏女，一作萧氏，生年不详）
+  description: 《叶志》作渤海大氏女，小字瑟瑟，幼选入宫。
+- id: guji-萧瑟瑟-event-appoint
+  year_of: 1101
+  event_type: appointment
+  name_zh: 天祚帝即位，册为文妃
+  description: 天祚即位，册为文妃。聪慧闲雅，工文墨，善诗歌。
+- id: guji-萧瑟瑟-event-song
+  year_of: 1114
+  event_type: creation
+  name_zh: 作歌讽谏天祚
+  description: 见金兵内侵，而天祚畋游不悛，忠良疏斥，作歌以讽，讥切不避权贵。
+- id: guji-萧瑟瑟-event-shishi
+  year_of: 1116
+  event_type: creation
+  name_zh: 作《咏史诗》讽切权贵
+  description: 作〈咏史诗〉讽切时弊，天祚见而衔之。
+- id: guji-萧瑟瑟-event-death
+  year_of: 1121
+  event_type: death
+  name_zh: 为萧奉先所诬，赐死
+  description: 后为（萧）奉先所诬，赐死。
