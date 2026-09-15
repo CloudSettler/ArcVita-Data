@@ -1,0 +1,133 @@
+person:
+  qid: guji-戴潮春
+  name_zh: 戴潮春
+  names:
+    zh: 戴潮春
+    en: Dai Chaochun
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: 不详
+    death:
+      date: '1864'
+      precision: year
+      is_circa: true
+      raw: 同治末（约1864年，作乱三年后家破身亡）
+  birth_date: ''
+  death_date: '1864'
+  era: 清咸丰—同治年间
+  reign_ref: 咸丰、同治
+  archetype: 叛乱领袖
+  dilemmas:
+  - 借会党保身家以拒官吏勒索，终致尾大不掉、身败名裂
+  - 众党势大而不能制，进退失据
+  lesson: 借结社拒暴而起，终因失控而祸乱一方，防微杜渐之鉴。
+  summary_first_person: 我是戴潮春，小名万生，彰化四张犁巨富之家。因北协夏汝贤勒索，我倡结天地会自保，入会者十余万。同治元年我率会党攻陷彰化城，自称大元帅，扰乱三年，终至家破身亡。
+  source_urls:
+  - https://zh.wikisource.org/wiki/戴施兩案紀略
+endeavors:
+- id: guji-戴潮春-endeavor-1
+  name_zh: 结会立党
+  labels:
+    zh: 天地会、八卦会
+  phases:
+  - key: brewing
+    name_zh: 承兄业结会自保
+    labels:
+      zh: 拒勒索而结会
+    start_date: ''
+    highlight_event_id: guji-戴潮春-event-found-society
+  - key: breakthrough
+    name_zh: 党众十余万声势坐大
+    labels:
+      zh: 官府倚重转而失控
+    start_date: '1861'
+    highlight_event_id: guji-戴潮春-event-found-society
+  decisions:
+  - date: '1861'
+    title_zh: 更结天地会，广纳党羽
+    rationale: 兄死后承其会众，以保身家为名阴拒夏汝贤索贿，富户挟巨赀入会，党羽转相招纳。
+- id: guji-戴潮春-endeavor-2
+  name_zh: 起事陷彰化
+  labels:
+    zh: 戴潮春事件、攻陷彰化县城
+  phases:
+  - key: brewing
+    name_zh: 咸丰十一年冬彰化结会作乱
+    labels:
+      zh: 灾异迭见、党羽抢掠
+    start_date: 1861-12
+    highlight_event_id: guji-戴潮春-event-uprising
+  - key: breakthrough
+    name_zh: 同治元年三月攻陷彰化城
+    labels:
+      zh: 城陷、孔昭慈殉难
+    start_date: '1862-03-17'
+    highlight_event_id: guji-戴潮春-event-fall-of-changhua
+  - key: climax
+    name_zh: 自称大元帅、设官封爵
+    labels:
+      zh: 分封伪职、安民设局
+    start_date: '1862-03-20'
+    highlight_event_id: guji-戴潮春-event-fall-of-changhua
+  - key: closure
+    name_zh: 官军三路进剿、家破身亡
+    labels:
+      zh: 扰乱三载终荡平
+    start_date: '1862'
+    highlight_event_id: guji-戴潮春-event-death
+  decisions:
+  - date: '1862-03-20'
+    title_zh: 入城安民，设官分职
+    rationale: 城陷后骑马入城安民，自称奉天承运天命大元帅，以戴彩龙、郑玉麟等分掌军政，设应天局、宾贤馆。
+  - date: '1862-03-29'
+    title_zh: 许泉人出城，稍弭分类之衅
+    rationale: 因漳泉分类相残，纳叶虎鞭之言，令泉人得逃出白沙坑、鹿港，城中泉人为之一空。
+events:
+- id: guji-戴潮春-event-found-society
+  person_id: guji-戴潮春
+  endeavor_id: guji-戴潮春-endeavor-1
+  title_zh: 结天地会，入会者逾十万
+  date: '1861'
+  year_of: 1861
+  precision: year
+  is_circa: true
+  description: 兄死后承结天地会，富户纳银过香，自号香主，立戴万生禄位于花亭，尊朱一贵、林爽文为先贤；高廷镜令其自备练勇三百名保路，声势甚大。
+- id: guji-戴潮春-event-uprising
+  person_id: guji-戴潮春
+  endeavor_id: guji-戴潮春-endeavor-2
+  title_zh: 咸丰十一年冬彰化结会作乱
+  date: 1861-12
+  year_of: 1861
+  precision: month
+  is_circa: true
+  description: 党羽白日抢掠，潮春已不能制，地方一时摇动，遂正式举事。
+- id: guji-戴潮春-event-attack-changhua
+  person_id: guji-戴潮春
+  endeavor_id: guji-戴潮春-endeavor-2
+  title_zh: 率会党围攻彰化县城
+  date: 1862-03-17
+  year_of: 1862
+  precision: day
+  is_circa: false
+  description: 同治元年三月十七日巳刻，率会党会合林日成攻彰化县，占据八卦山，炮如雨下；同日淡水同知秋曰觐兵败东大墩殉难。
+- id: guji-戴潮春-event-fall-of-changhua
+  person_id: guji-戴潮春
+  endeavor_id: guji-戴潮春-endeavor-2
+  title_zh: 彰化城陷，自称大元帅
+  date: 1862-03-20
+  year_of: 1862
+  precision: day
+  is_circa: false
+  description: 三月二十早卯刻城陷，各官被拘，台湾道孔昭慈仰药死；潮春骑马入城安民，称伪大元帅，分封戴彩龙、郑玉麟等伪职，设应天局。
+- id: guji-戴潮春-event-death
+  person_id: guji-戴潮春
+  endeavor_id: guji-戴潮春-endeavor-2
+  title_zh: 家破身亡，乱事荡平
+  date: '1864'
+  year_of: 1864
+  precision: year
+  is_circa: true
+  description: 作乱三年，官军南、北、中三路进剿，其害烈于林爽文；谶语末句「万民靡所止」竟成自谶，终至家破身亡，始克荡平。
