@@ -1,0 +1,123 @@
+person:
+  qid: guji-李公藴
+  name_zh: 李公藴
+  names:
+    zh: 李公藴
+    en: Ly Cong Uan
+  lifespan:
+    birth:
+      date: 0974
+      precision: year
+      is_circa: true
+      raw: 约北宋开宝年间生
+    death:
+      date: '1028'
+      precision: year
+      is_circa: false
+      raw: 卒，享年五十五（一说）
+  birth_date: 0974
+  death_date: '1028'
+  era: 北宋时期安南（交趾）
+  reign_ref: 顺天（其开国后所建年号）
+  archetype: 开国之君
+  dilemmas:
+  - 前朝黎氏内乱，诸将争立，是否应众推而夺位
+  - 建国之后如何自立国号于宋廷之外而不速遭征讨
+  lesson: 乘时而起、迁都中都、立国改元，遂开三百年基业
+  summary_first_person: 我本黎氏之臣，乘黎朝之衰为众所推，即皇帝位，改元顺天，迁都大罗城，国号大越，后被尊为太祖神武皇帝。
+  source_urls:
+  - https://zh.wikisource.org/wiki/越史略
+endeavors:
+- id: guji-李公藴-endeavor-1
+  name_zh: 得国建制
+  phases:
+  - key: brewing
+    name_zh: 仕黎积望
+    labels:
+      zh: 佐黎掌兵
+    start_date: '1000'
+    highlight_event_id: guji-李公藴-event-rise
+  - key: breakthrough
+    name_zh: 受禅得国
+    labels:
+      zh: 即帝位改元
+    start_date: '1009'
+    highlight_event_id: guji-李公藴-event-enthroned
+  - key: climax
+    name_zh: 迁都立国
+    labels:
+      zh: 徙都大罗、国号大越
+    start_date: '1010'
+    highlight_event_id: guji-李公藴-event-move-capital
+  - key: closure
+    name_zh: 尊为太祖
+    labels:
+      zh: 太祖神武皇帝
+    start_date: '1028'
+    highlight_event_id: guji-李公藴-event-death
+  decisions:
+  - date: '1010'
+    title_zh: 迁都大罗城
+    rationale: 大罗居天下之中， Control得地利，可传万世之业
+  - date: '1010'
+    title_zh: 改元顺天
+    rationale: 开国建号，示承天立极
+- id: guji-李公藴-endeavor-2
+  name_zh: 谥祀传承
+  phases:
+  - key: breakthrough
+    name_zh: 立国传嗣
+    labels:
+      zh: 传位子孙
+    start_date: '1028'
+    highlight_event_id: guji-李公藴-event-death
+  decisions:
+  - date: '1028'
+    title_zh: 尊为太祖神武皇帝
+    rationale: 后世子孙自尊其国，追尊开国之祖
+events:
+- id: guji-李公藴-event-birth
+  date: 0974
+  year_of: 974
+  title_zh: 李公藴生
+  labels:
+    zh: 出生
+  summary: 生于安南，后事黎氏为将。
+  related_endeavor_ids:
+  - guji-李公藴-endeavor-1
+- id: guji-李公藴-event-rise
+  date: '1009'
+  year_of: 1009
+  title_zh: 黎氏衰，众推公藴主国事
+  labels:
+    zh: 得众推戴
+  summary: 《越史略》中卷下卷皆曰阮纪（以李为阮），载自李公藴得国后诸王事迹，纪述特详。黎氏之后，公藴为众所推得国。
+  related_endeavor_ids:
+  - guji-李公藴-endeavor-1
+- id: guji-李公藴-event-enthroned
+  date: '1009'
+  year_of: 1009
+  title_zh: 即帝位，建国改元
+  labels:
+    zh: 开国称帝
+  summary: 李公藴得国即位，开国之后建元顺天。
+  related_endeavor_ids:
+  - guji-李公藴-endeavor-1
+- id: guji-李公藴-event-move-capital
+  date: '1010'
+  year_of: 1010
+  title_zh: 迁都大罗城
+  labels:
+    zh: 迁都建制
+  summary: 迁都大罗城（后称昇龙），立官司、定制度，为李氏三百年基业之本。
+  related_endeavor_ids:
+  - guji-李公藴-endeavor-1
+- id: guji-李公藴-event-death
+  date: '1028'
+  year_of: 1028
+  title_zh: 李公藴薨，后尊为太祖神武皇帝
+  labels:
+    zh: 崩逝追尊
+  summary: 史称陈日尊自帝其国，尊公藴为太祖神武皇帝，国号大越；《越史略》所列自公藴至昊旵八王皆僭帝号。
+  related_endeavor_ids:
+  - guji-李公藴-endeavor-2
