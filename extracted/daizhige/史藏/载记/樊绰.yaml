@@ -1,0 +1,134 @@
+person:
+  qid: guji-樊绰
+  name_zh: 樊绰
+  names:
+    zh: 樊绰
+    en: Fan Chuo
+  lifespan:
+    birth:
+      precision: unknown
+      is_circa: false
+      raw: 生年不详，唐懿宗朝活跃
+    death:
+      precision: unknown
+      is_circa: false
+      raw: 卒年不详，约咸通中后期
+  era: 唐
+  reign_ref: 咸通（860—874）
+  archetype: 边疆著述家
+  dilemmas:
+  - 身陷安南危城战局，以亲历见闻录成《蛮书》，为朝廷谋定南诏之策
+  - 奉使蔡袭麾下书写蛮王誓文，在 EntityState 南诏与唐廷关系反复间力求实录
+  lesson: 亲历边疆，笔录途程山川部落之实，使后人得以考见云南。
+  summary_first_person: 我是樊绰，唐代 - 咸通年间随蔡袭出镇安南，亲历南疆。我惧南蛮攻劫，遂录其城镇川原途程、山川江源、六诏部落与制度风物，撰成《蛮书》十卷，献于朝廷，冀佐经略，永清边患。
+  source_urls:
+  - https://zh.wikisource.org/wiki/蠻書
+endeavors:
+- id: guji-樊绰-endeavor-1
+  name_zh: 从军安南，奉使南疆
+  phases:
+  - key: brewing
+    name_zh: 任职安南经略使幕府
+    labels:
+      zh:
+      - 幕僚
+      - 边职
+    start_date: '858'
+    highlight_event_id: guji-樊绰-event-endeavor1-start
+  - key: breakthrough
+    name_zh: 随蔡袭出镇，亲历边情
+    labels:
+      zh:
+      - 奉使
+      - 侦察边疆
+    start_date: 863-01
+    highlight_event_id: guji-樊绰-event-endeavor1-climax
+  decisions:
+  - date: 863-01
+    title: 奉本使蔡袭意旨，令书吏写蛮王异牟寻誓文
+    rationale: 保存南诏归化誓约原文，以备朝廷考据南诏与唐廷盟誓之据。
+- id: guji-樊绰-endeavor-2
+  name_zh: 撰《蛮书》十卷
+  phases:
+  - key: brewing
+    name_zh: 博采途程馆驿之记
+    labels:
+      zh:
+      - 采集
+      - 行纪
+    start_date: '862'
+    highlight_event_id: guji-樊绰-event-endeavor2-start
+  - key: breakthrough
+    name_zh: 分卷撰述，成云南界内途程、山川江源、六诏诸篇
+    labels:
+      zh:
+      - 著述
+      - 史地
+    start_date: '863'
+    highlight_event_id: guji-樊绰-event-endeavor2-climax
+  - key: climax
+    name_zh: 进书于朝
+    labels:
+      zh:
+      - 献书
+    start_date: '864'
+    highlight_event_id: guji-樊绰-event-endeavor2-closure
+  - key: closure
+    name_zh: 附录誓文及跋语
+    labels:
+      zh:
+      - 附录
+    start_date: 863-01
+    highlight_event_id: guji-樊绰-event-endeavor2-closure
+  decisions:
+  - date: '863'
+    title: 录其城镇川原，尘渎宸扆
+    rationale: 惧南蛮攻劫、凶恶难悛，故详录城镇部落形势，冀朝廷四面征讨有所依据。
+  - date: '863'
+    title: 咸通四年正月书蛮王异牟寻誓文于卷末
+    rationale: 依本使蔡袭之命，将贞元年归化盟誓录写传世，昭示南诏归化之诚。
+events:
+- id: guji-樊绰-event-birth
+  type: birth
+  title: 樊绰生
+  detail: 生年不详，唐代人。
+- id: guji-樊绰-event-death
+  type: death
+  title: 樊绰卒
+  detail: 卒年不详，约在咸通中后期。
+- id: guji-樊绰-event-endeavor1-start
+  type: endeavor
+  date: '858'
+  year_of: 858
+  title: 供职安南，谙熟边疆
+  detail: 出仕安南，从事途程馆驿、蛮汉部落之考察。
+- id: guji-樊绰-event-endeavor1-climax
+  type: endeavor
+  date: 863-01
+  year_of: 863
+  title: 随蔡袭镇安南
+  detail: 咸通四年正月奉本使蔡袭意旨，令书吏写蛮王异牟寻誓文。
+- id: guji-樊绰-event-endeavor2-start
+  type: endeavor
+  date: '862'
+  year_of: 862
+  title: 起意撰《蛮书》
+  detail: 鉴于南诏与吐蕃交侵、安南局势危殆，着手记录云南途程与部落。
+- id: guji-樊绰-event-endeavor2-climax
+  type: endeavor
+  date: '863'
+  year_of: 863
+  title: 撰成《蛮书》十卷
+  detail: 记云南界内途程、山川江源、六诏部落及风物制度。
+- id: guji-樊绰-event-endeavor2-closure
+  type: endeavor
+  date: '864'
+  year_of: 864
+  title: 进《蛮书》于朝
+  detail: 录其城镇川原以尘渎宸扆，冀破南诏蚁聚之众，永清边患。
+- id: guji-樊绰-event-milestone1
+  type: milestone
+  date: 863-01
+  year_of: 863
+  title: 录南诏异牟寻誓文
+  detail: 奉蔡袭之命，将贞元十年南诏归化盟誓录写传世。

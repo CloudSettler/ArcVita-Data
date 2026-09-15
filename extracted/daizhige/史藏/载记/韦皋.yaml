@@ -1,0 +1,86 @@
+person:
+  qid: guji-韦皋
+  name_zh: 韦皋
+  names:
+    zh: 韦皋
+    en: Wei Gao
+  lifespan:
+    birth:
+      date: '745'
+      precision: year
+      is_circa: true
+      raw: 生年不详（约天宝年间）
+  birth_date: 约745
+  death_date: ''
+  era: 唐
+  reign_ref: 贞元年间（唐德宗）
+  archetype: 边疆经略重臣
+  dilemmas:
+  - 南诏私通吐蕃，西川边患难平，须以恩信招徕又不失朝廷体统
+  - 西山诸部首领内受唐赏、外附吐蕃，讨与抚两难
+  lesson: 制边之道在于通道置馆、结好远人，以信义化敌为屏藩。
+  summary_first_person: 我是唐朝剑南西川节度使韦皋。贞元年间，我遣巡官马益开凿石门旧路、设置行馆，重通云南通道；又致书南诏异牟寻，申朝廷之命，促成其归化立盟；并使巂州刺史苏隗诛除两面依附吐蕃的大鬼主梦冲，别立新主，西川南鄙遂安。
+  source_urls:
+  - https://zh.wikisource.org/wiki/蠻書
+endeavors:
+- id: guji-韦皋-endeavor-1
+  name_zh: 经营西川、招抚南诏
+  phases:
+  - key: brewing
+    name_zh: 通使献书
+    labels:
+      zh: 贡献书檄
+    start_date: 贞元年间
+  - key: breakthrough
+    name_zh: 异牟寻归化
+    labels:
+      zh: 苍山会盟
+    start_date: 贞元十年
+    highlight_event_id: guji-韦皋-event-nanzhao-alliance
+  - key: climax
+    name_zh: 直接答书定计
+    labels:
+      zh: 答牟寻书
+    start_date: 贞元九年前后
+    highlight_event_id: guji-韦皋-event-open-shimen
+  - key: closure
+    name_zh: 册命通好
+    labels:
+      zh: 朝廷册封
+    start_date: 贞元十年
+  decisions:
+  - date: 贞元十年
+    title_zh: 遣马益开石门路、置行馆
+    rationale: 南诏归化后禁路不通，吐蕃侵钞隔关，遂重开隋凿石门旧道以通云南。
+  - date: 贞元年间
+    title_zh: 答异牟寻书，申以朝廷之命
+    rationale: 南诏献书求归，皋答书示信，促成三路奉使、苍山立盟。
+events:
+- id: guji-韦皋-event-birth
+  date: '0745'
+  year_of: '745'
+  event_type: birth
+  name_zh: 韦皋出生（生年无确载，据旧说系于约745年）
+- id: guji-韦皋-event-open-shimen
+  date: 0794-07
+  year_of: 贞元十年七月
+  event_type: endeavor
+  name_zh: 遣巡官监察御史马益开凿石门路、置行馆
+  description: 贞元十年七月，西川节度韦皋遣马益重开石门故道，修复隋代偏梁桥阁，置馆通云南北路。
+- id: guji-韦皋-event-make-shuwei-kill-mengchong
+  date: 0791
+  year_of: 贞元七年
+  event_type: endeavor
+  name_zh: 使巂州刺史苏隗杀勿邓大鬼主苴梦冲
+  description: 梦冲内受唐恩赏、外私吐蕃，贞元七年韦皋使苏隗杀之，别立大鬼主以绝吐蕃之援。
+- id: guji-韦皋-event-nanzhao-alliance
+  date: 0794
+  year_of: 贞元十年
+  event_type: endeavor
+  name_zh: 与异牟寻通书，促成南诏归化、苍山会盟
+  description: 异牟寻献书于韦皋，皋答书申朝廷之命；贞元十年三使至阙，崔佐时与盟于玷苍山下，唐遂册异牟寻为云南王。
+- id: guji-韦皋-event-death
+  date: 0805
+  year_of: 永贞元年
+  event_type: death
+  name_zh: 韦皋去世（古文未载，据史补于805年）
