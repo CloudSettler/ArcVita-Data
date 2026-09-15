@@ -1,0 +1,144 @@
+person:
+  qid: guji-张道古
+  name_zh: 张道古
+  names:
+    zh: 张道古
+  lifespan:
+    birth:
+      date: 0855
+      precision: decade
+      is_circa: true
+      raw: 生年未载，约唐宣宗末年
+    death:
+      date: 0909
+      precision: year
+      is_circa: false
+      raw: 前蜀武成二年三月，卒于贬所途中（灌州奏闻）
+  birth_date: 约855年
+  death_date: 909年
+  era: 唐末—前蜀
+  reign_ref: 唐僖宗、唐昭宗、前蜀高祖王建
+  archetype: 直谏孤臣
+  dilemmas:
+  - 明知再谏必贬，仍向王建上诗重述二乱五危七事
+  - 唐室已亡而王建称帝，受召出仕与“唐室谏臣”身份相冲突
+  lesson: 忠于故国者宁伏死不毛之地，不为新朝屈膝
+  summary_first_person: 我本是唐室谏臣，屡上疏直言二乱五危七事，两遭贬黜；王建闻我之名召为判官，及他开国再用我，我自知终必再贬，行至玉垒关便嘱亲故葬我于关东不毛之地，题“唐左补阙张道古”之墓。后来果然再贬茂州，我死在路上，守住了不事二姓的心。
+endeavors:
+- id: guji-张道古-endeavor-1
+  name_zh: 科举入仕与直言上疏
+  phases:
+  - key: brewing
+    name_zh: 举进士
+    labels:
+      zh:
+      - 景福中
+      - 释褐著作郎
+    start_date: 0892
+    highlight_event_id: guji-张道古-event-jinshi
+  - key: breakthrough
+    name_zh: 迁右拾遗上疏
+    labels:
+      zh:
+      - 五危二乱七事
+      - 责授施州司户参军
+    start_date: 0893
+    highlight_event_id: guji-张道古-event-shangshu
+  - key: closure
+    name_zh: 再征左补阙
+    labels:
+      zh:
+      - 由蜀赴阙
+    start_date: 0895
+    highlight_event_id: guji-张道古-event-zhengzhao
+  decisions:
+  - date: 0893
+    title_zh: 上疏言五危二乱七事
+    rationale: 播迁之后，方镇阻兵，身为谏官不能缄默
+- id: guji-张道古-endeavor-2
+  name_zh: 避乱卖卜与再贬身死
+  phases:
+  - key: brewing
+    name_zh: 变姓名卖卜温江
+    labels:
+      zh:
+      - 陈田之乱
+      - 隐姓埋名
+    start_date: 0895
+    highlight_event_id: guji-张道古-event-maibu
+  - key: breakthrough
+    name_zh: 为王建奏署节度判官
+    labels:
+      zh:
+      - 上诗叙二乱五危七事
+    start_date: 0897
+    highlight_event_id: guji-张道古-event-panguan
+  - key: climax
+    name_zh: 玉垒关诀别
+    labels:
+      zh:
+      - 预托后事
+      - 唐左补阙张道古墓
+    start_date: 0909
+    highlight_event_id: guji-张道古-event-yuleiguan
+  - key: closure
+    name_zh: 复贬茂州卒于路
+    labels:
+      zh:
+      - 不为时所容
+      - 死于贬途
+    start_date: 0909
+    highlight_event_id: guji-张道古-event-death
+  decisions:
+  - date: 0897
+    title_zh: 上王建诗重叙二乱五危七事
+    rationale: 谏臣本色，虽知取祸仍直言
+  - date: 0909
+    title_zh: 玉垒关嘱葬关东不毛之地
+    rationale: 自誓不为前蜀之臣，死守唐室谏臣身份
+events:
+- id: guji-张道古-event-birth
+  date: 0855
+  year_of: 855
+  label_zh: 生于临淄
+  desc: 张道古，临淄人，少有文词，慕朱云、梅福之节（约）
+- id: guji-张道古-event-jinshi
+  date: 0892
+  year_of: 892
+  label_zh: 景福中举进士，释褐为著作郎
+  desc: 景福年间举进士，初授著作郎
+- id: guji-张道古-event-shangshu
+  date: 0893
+  year_of: 893
+  label_zh: 迁右拾遗，上疏言五危二乱七事
+  desc: 播迁之后方镇阻兵，道古上疏直言，被责授施州司户参军
+- id: guji-张道古-event-zhengzhao
+  date: 0895
+  year_of: 895
+  label_zh: 以左补阙征，由蜀赴阙
+  desc: 未几以左补阙征，由蜀赴阙
+- id: guji-张道古-event-maibu
+  date: 0898
+  year_of: 898
+  label_zh: 陈田之乱，变姓名卖卜于温江
+  desc: 遭陈、田之乱，变姓名隐于市井卖卜
+- id: guji-张道古-event-panguan
+  date: 0899
+  year_of: 899
+  label_zh: 王建闻其名，奏为节度判官
+  desc: 王建闻其名奏为节度判官；道古又上诗叙二乱五危七事，为同僚所嫉，送茂州安置
+- id: guji-张道古-event-wubu
+  date: 0909
+  year_of: 909
+  label_zh: 王建开国，召为武部郎中
+  desc: 及王建开国，召为武部郎中
+- id: guji-张道古-event-yuleiguan
+  date: 0909-01
+  year_of: 909
+  label_zh: 玉垒关嘱葬
+  desc: 至玉垒关谓所亲曰：吾唐室谏臣，终不能拳跽与鸡犬同食；死之日葬我关东不毛之地，题曰唐左补阙张道古墓
+- id: guji-张道古-event-death
+  date: 0909-03
+  year_of: 909
+  label_zh: 复贬茂州，卒于路
+  desc: 至蜀果不为时所容，复贬茂州，卒于路；三月灌州奏武部郎中张道古卒
