@@ -1,0 +1,88 @@
+person:
+  qid: guji-商山四皓
+  name_zh: 商山四皓
+  names:
+    zh: 商山四皓
+    en: Four Whiteheads of Mount Shang
+  lifespan:
+    birth:
+      is_circa: true
+      raw: 秦末汉初隐士
+  era: 秦末汉初
+  reign_ref: 汉高祖、汉惠帝
+  archetype: 隐士
+  dilemmas:
+  - 避世高名与不应征辟之间的出处抉择
+  - 呂后私赂相请与高祖废嫡之间忠直与权变之辨
+  lesson: 辞天爵非傲君，出山 adjunct 吕氏太子，实为用邪扶正、持危定天下
+  summary_first_person: 我们四人遁迹商山，避时而处，世人疑为傲君受贿；及太子势摇，我们应吕后之请出山辅佐孝惠，实为用邪扶正、正天下之危。
+  source_urls:
+  - https://zh.wikisource.org/wiki/伸蒙子
+endeavors:
+- id: guji-商山四皓-endeavor-1
+  name_zh: 遁迹商山，辞谢天爵
+  phases:
+  - key: brewing
+    name_zh: 避秦乱而隐
+    labels:
+      zh: 隐遁避时
+    start_date: -136
+    highlight_event_id: guji-商山四皓-event-retreat
+  - key: breakthrough
+    name_zh: 高名闻天下
+    labels:
+      zh: 名高后代
+    start_date: -128
+    highlight_event_id: guji-商山四皓-event-fame
+  decisions:
+  - date: -128
+    title_zh: 拒不应汉廷征辟
+    rationale: 辞天爵，非傲君也，守处士之节
+- id: guji-商山四皓-endeavor-2
+  name_zh: 出山辅佐太子，持危扶正
+  phases:
+  - key: climax
+    name_zh: 应吕后请出
+    labels:
+      zh: 用邪扶正
+    start_date: -0197
+    highlight_event_id: guji-商山四皓-event-helper
+  - key: closure
+    name_zh: 太子位定
+    labels:
+      zh: 正天下
+    start_date: -0195
+    highlight_event_id: guji-商山四皓-event-stabilize
+  decisions:
+  - date: -0197
+    title_zh: 徇吕后之谋，出而辅孝惠
+    rationale: 大厦将倾必以欹木扶之；废嫡立庶则汉室危，故忍危而出，用邪扶正
+events:
+- id: guji-商山四皓-event-birth
+  date: -168
+  year_of: 约出生（生年不详，约秦末隐居之时在世）
+  type: birth
+- id: guji-商山四皓-event-retreat
+  date: -136
+  year_of: 约秦末
+  type: endeavor
+  summary: 遁迹商山，避时而处，不仕乱世
+- id: guji-商山四皓-event-fame
+  date: -128
+  year_of: 约汉初
+  type: endeavor
+  summary: 隐名高闻于天下，汉高祖聘之不出，四皓拒之
+- id: guji-商山四皓-event-helper
+  date: -0197
+  year_of: 约汉高祖晚年
+  type: endeavor
+  summary: 吕后用张良之谋，以私赂卑辞迎四皓出山，四皓从孝惠游
+- id: guji-商山四皓-event-stabilize
+  date: -0195
+  year_of: 汉高祖十二年
+  type: endeavor
+  summary: 高祖见太子与四皓游，废嫡之议遂止，太子位得定，天下之危得持
+- id: guji-商山四皓-event-death
+  date: -0180
+  year_of: 卒年不详
+  type: death
