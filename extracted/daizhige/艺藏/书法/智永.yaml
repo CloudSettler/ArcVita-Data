@@ -1,0 +1,105 @@
+person:
+  qid: guji-智永
+  name_zh: 智永
+  names:
+    zh: 智永
+    en: Zhiyong
+  lifespan:
+    birth:
+      date: '0510'
+      precision: year
+      is_circa: true
+      raw: 约470—510年间
+    death:
+      date: '0611'
+      precision: year
+      is_circa: true
+      raw: 约隋大业年间卒
+  birth_date: '0510'
+  death_date: '0611'
+  era: 陈末隋初
+  reign_ref: 隋
+  archetype: 僧人书法家
+  dilemmas:
+  - 书迹珍重于世，求书者众，故以铁限限门、退笔成冢，然真迹为好事者摹拓分散
+  lesson: 精研家法、勤学不辍，书艺可传千载，然真迹一旦散佚，唯摹本与评定眼光可存其神
+  summary_first_person: 俗姓王，为王羲之七世孙，居会稽永欣寺为僧，世称永禅师。我精研祖法，真草千文写本分布浙东诸寺，求书者踏破门限，退笔为冢。米元章所见我有归田赋真迹、千文搨本，纷纷为好事者摹写流传。
+endeavors:
+- id: guji-智永-endeavor-1
+  key_brewing: 书法传习
+  name_zh: 承王家书法、居永欣寺习书
+  phases:
+  - key: brewing
+    name_zh: 承家学
+    labels:
+      zh:
+      - 家学
+      - 王氏笔法
+    start_date: '0530'
+    highlight_event_id: guji-智永-event-career-1
+  decisions:
+  - date: '0560'
+    title_zh: 出家居会稽永欣寺
+    rationale: 依托祖传书法家风，闭门精研真草，自成一家
+- id: guji-智永-endeavor-2
+  key_breakthrough: 书迹流传
+  name_zh: 真草千文与归田赋流传后世
+  phases:
+  - key: breakthrough
+    name_zh: 千文写本分施浙东诸寺
+    labels:
+      zh:
+      - 真草千字文
+      - 铁门限
+    start_date: 0590
+    highlight_event_id: guji-智永-event-career-2
+  - key: climax
+    name_zh: 唐世摹本盛行，真伪纷杂
+    labels:
+      zh:
+      - 摹拓
+      - 鉴藏
+    start_date: '0700'
+    highlight_event_id: guji-智永-event-career-2
+  decisions:
+  - date: 0590
+    title_zh: 以真草千文写本分施诸寺
+    rationale: 使家法广布流传，虽真迹分散而笔法可得
+events:
+- id: guji-智永-event-birth
+  date: 约0510
+  year_of: 510
+  type: birth
+  title_zh: 智永生
+  description: 陈隋之际僧人，传为王羲之七世孙，居会稽永欣寺。
+  participants:
+  - 智永
+  location: 会稽
+- id: guji-智永-event-career-1
+  date: 约0560
+  year_of: 560
+  type: career
+  title_zh: 居永欣寺精研书法，临写退笔盈头，铁限其门
+  description: 求书者众，户限为穿，遂以铁叶裹之；退笔头置大竹簏，聚而瘗之，号退笔冢。
+  participants:
+  - 智永
+  location: 会稽永欣寺
+- id: guji-智永-event-career-2
+  date: 约0590
+  year_of: 590
+  type: career
+  title_zh: 写真草千文数百本，分施浙东诸寺
+  description: 千文写本流布于世；后世又有归田赋真迹见藏，唐人粉蜡纸摹其千文，好事者竞相摹写鉴藏。
+  participants:
+  - 智永
+  - 后世鉴藏家
+  location: 浙东诸寺
+- id: guji-智永-event-death
+  date: 约0611
+  year_of: 611
+  type: death
+  title_zh: 智永卒
+  description: 卒于隋世，书迹千文、归田赋为后世珍藏摹传。
+  participants:
+  - 智永
+  location: 会稽永欣寺
