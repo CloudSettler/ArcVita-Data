@@ -1,0 +1,105 @@
+person:
+  qid: guji-张籍
+  name_zh: 张籍
+  names:
+    zh: 张籍
+    en: Zhang Ji
+  lifespan:
+    birth:
+      date: '767'
+      precision: year
+      is_circa: true
+      raw: 约767年（大历初）
+    death:
+      date: '830'
+      precision: year
+      is_circa: true
+      raw: 约830年（大和年间）
+  birth_date: '767'
+  death_date: '830'
+  era: 唐
+  reign_ref: 贞元至大和年间
+  archetype: 乐府诗人
+  dilemmas:
+  - 韩愈奖掖与元白诗风之间，张籍以乐府讽喻自立门户，既承汉魏旧题之变，又创新题刺美见事
+  - 身处中唐诗体大备之后，须在古律之争中抉择：师古而不泥，因袭与新变并举
+  lesson: 穷苦之言易好——切身之事、讽兴之义，方得诗人之本
+  summary_first_person: 我是张籍，与王建并称，专工乐府。我承杜甫新题乐府之绪，寓意古题，刺美见事，以浅易之语写世态人情，得诗人讽兴之义。
+  source_urls:
+  - https://ctext.org/wiki.pl?if=gb&res=642004
+endeavors:
+- id: guji-张籍-endeavor-1
+  name_zh: 新题乐府创作
+  phases:
+  - key: brewing
+    name_zh: 初习乐府
+    labels:
+      zh: 承杜甫新题之绪
+    start_date: 0790
+  - key: breakthrough
+    name_zh: 新题乐府与大历元和诗风相接
+    labels:
+      zh: 与王建并称
+    start_date: 0805
+  - key: climax
+    name_zh: 与元白同倡讽喻
+    labels:
+      zh: 寓意古题，刺美见事
+    start_date: 0810
+    highlight_event_id: guji-张籍-event-climax-1
+  decisions:
+  - date: 0810
+    title_zh: 不沿袭古题唱和重复，而寓意古题、刺美见事
+    rationale: 元微之所论"后人沿袭古题唱和重复，不如寓意古题刺美见事为得诗人讽兴之义"，张籍王建诸家正是此路之实践者
+- id: guji-张籍-endeavor-2
+  name_zh: 与韩愈门下交游论诗
+  phases:
+  - key: brewing
+    name_zh: 从韩愈游
+    labels:
+      zh: 韩门弟子
+    start_date: 0795
+  - key: climax
+    name_zh: 韩退之赠诗见许
+    labels:
+      zh: 君诗多 attitude，霭霭春空云
+    start_date: 0815
+    highlight_event_id: guji-张籍-event-climax-2
+  decisions:
+  - date: 0815
+    title_zh: 诗尚率意自道、随事纪实
+    rationale: 平生父子兄弟家人邻里间意，愈近而愈难着意；孤臣怨女、僮仆世态，皆可入诗，以纪实称名家
+events:
+- id: guji-张籍-event-birth
+  date: '0767'
+  year_of: '0767'
+  type: birth
+  title_zh: 张籍生（约）
+  description: 张籍约生于唐大历初年，和州乌江人
+- id: guji-张籍-event-death
+  date: 0830
+  year_of: 0830
+  type: death
+  title_zh: 张籍卒（约）
+  description: 张籍约卒于唐大和年间
+- id: guji-张籍-event-career-1
+  date: 0795
+  year_of: 0795
+  type: endeavor_milestone
+  title_zh: 与王建同倡新乐府
+  endeavor_id: guji-张籍-endeavor-1
+  description: 元白张籍王建诸家盛为新题乐府，寓意古题，刺美见事，得诗人讽兴之义
+- id: guji-张籍-event-climax-1
+  date: 0810
+  year_of: 0810
+  type: endeavor_milestone
+  title_zh: 新题乐府创作卓然成家
+  endeavor_id: guji-张籍-endeavor-1
+  description: 张籍与王建齐名，所作乐府浅切峭峻，触及世态人情，后世并称"张王乐府"
+- id: guji-张籍-event-climax-2
+  date: 0815
+  year_of: 0815
+  type: endeavor_milestone
+  title_zh: 韩愈赠诗称许其诗风
+  endeavor_id: guji-张籍-endeavor-2
+  description: 韩退之赠张籍诗云"君诗多态度，霭霭春空云"，见许其风格多变、意态横生
