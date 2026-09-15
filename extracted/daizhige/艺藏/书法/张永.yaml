@@ -1,0 +1,127 @@
+person:
+  qid: guji-张永
+  name_zh: 张永
+  names:
+    zh: 张永
+    en: Zhang Yong
+  lifespan:
+    birth:
+      date: '0400-01-01'
+      precision: year
+      is_circa: true
+      raw: 刘宋时期人，生年不详，约当五世纪初
+    death:
+      date: '0470-01-01'
+      precision: year
+      is_circa: true
+      raw: 卒年不详，约当南朝宋中期
+    birth_date: 约400年
+    death_date: 约470年
+  era: 南北朝·刘宋
+  reign_ref: 宋文帝元嘉年间
+  archetype: 墨人
+  dilemmas:
+  - 出身将门而以巧思文具之艺显名，存在武职与匠艺身份的张力
+  lesson: 欲善其事，必利其器；纸墨自营造，方得称心之具。
+  summary_first_person: 我张永，字景云，吴郡吴人，张裕之子，仕宋官至征西将军。我涉猎书史，能为文章，善隶书，兼有巧思，为文帝所知。纸墨皆出自我亲手营造，帝每得我表启，辄执玩咨嗟，自叹供御者不及。我又奉诏更制御纸，紧洁光丽，耀日夺目；又合秘墨，色如点漆，一点竟纸，美殊前后。
+  source_urls:
+  - https://zh.wikisource.org/wiki/墨史
+endeavors:
+- id: guji-张永-endeavor-1
+  name_zh: 仕宋官至征西将军
+  phases:
+  - key: brewing
+    name_zh: 入仕之初
+    labels:
+      zh: 出仕
+    start_date: '0430-01-01'
+    highlight_event_id: guji-张永-event-1
+  - key: climax
+    name_zh: 位至征西将军
+    labels:
+      zh: 显达
+    start_date: '0450-01-01'
+    highlight_event_id: guji-张永-event-2
+  - key: closure
+    name_zh: 晚岁
+    labels:
+      zh: 名载墨史
+    start_date: '0455-01-01'
+  decisions:
+  - date: 约445年
+    title_zh: 以书史文章隶书见称，为文帝所知
+    rationale: 涉猎书史、善隶书，得君主赏识，奠定仕进之基。
+- id: guji-张永-endeavor-2
+  name_zh: 自营造纸墨
+  phases:
+  - key: brewing
+    name_zh: 研究纸墨
+    labels:
+      zh: 巧思
+    start_date: '0435-01-01'
+    highlight_event_id: guji-张永-event-3
+  - key: breakthrough
+    name_zh: 合秘墨奉诏制御纸
+    labels:
+      zh: 御制
+    start_date: '0440-01-01'
+    highlight_event_id: guji-张永-event-4
+  decisions:
+  - date: 约440年
+    title_zh: 奉诏更制御纸并合秘墨
+    rationale: 供御者不及自制之纸墨，遂奉诏改良，成一代名品。
+events:
+- id: guji-张永-event-birth
+  type: birth
+  date: '0400-01-01'
+  year_of: 400
+  date_precision: circa
+  title_zh: 张永生于吴郡吴
+  description: 吴郡吴人张裕之子，字景云。
+- id: guji-张永-event-death
+  type: death
+  date: '0470-01-01'
+  year_of: 470
+  date_precision: circa
+  title_zh: 张永卒
+  description: 卒年不详，陆友《墨史》列其为刘宋制墨名家。
+- id: guji-张永-event-1
+  type: endeavor
+  endeavor_id: guji-张永-endeavor-1
+  date: '0430-01-01'
+  year_of: 430
+  date_precision: circa
+  title_zh: 涉猎书史，善隶书，为文帝所知
+  description: 永能为文章，又有巧思，益为宋文帝所知遇。
+- id: guji-张永-event-2
+  type: endeavor
+  endeavor_id: guji-张永-endeavor-1
+  date: '0450-01-01'
+  year_of: 450
+  date_precision: circa
+  title_zh: 仕宋至征西将军
+  description: 官至征西将军。
+- id: guji-张永-event-3
+  type: endeavor
+  endeavor_id: guji-张永-endeavor-2
+  date: '0438-01-01'
+  year_of: 438
+  date_precision: circa
+  title_zh: 纸墨皆自营造
+  description: 帝每得永表启，辄执玩咨嗟，自叹供御者了不及也。
+- id: guji-张永-event-4
+  type: endeavor
+  endeavor_id: guji-张永-endeavor-2
+  date: '0441-01-01'
+  year_of: 441
+  date_precision: circa
+  title_zh: 奉诏更制御纸并合秘墨
+  description: 制御纸紧洁光丽，耀日夺目；合秘墨美殊前后，色如点漆，一点竟纸。
+- id: guji-张永-event-legacy
+  type: endeavor
+  endeavor_id: guji-张永-endeavor-2
+  date: '1360-01-01'
+  year_of: 1360
+  date_precision: circa
+  title_zh: 载入元陆友《墨史》
+  description: 陆友于《墨史》卷上刘宋一代独取张永一人，记其制墨造纸之事。
