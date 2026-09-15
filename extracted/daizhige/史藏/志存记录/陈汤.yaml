@@ -1,0 +1,106 @@
+person:
+  qid: guji-陈汤
+  name_zh: 陈汤
+  names:
+    zh: 陈汤
+    en: Chen Tang
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: true
+      raw: ''
+  era: 西汉元帝时期
+  reign_ref: 汉元帝建昭年间
+  archetype: 矫制立功的边塞名将
+  dilemmas:
+  - 矫诏发兵虽有灭国之功，但违背朝廷程序，须自劾请罪
+  - 位卑权轻，胸臆之谋难以施展
+  lesson: 智者见未萌，奇功往往成于非常之举，但须以自劾承担风险
+  summary_first_person: 我是陈汤，为人沉勇有大虑，喜奇功。建昭三年我与甘延寿出使西域，恐朝廷公卿议论迂缓，遂矫制发动城郭诸国及乌孙兵四万余骑，分道越葱岭直指郅支单于城，以缓辞骄敌、夜围攻拔，斩郅支单于之首，获名王贵人五千余级，威震西域，千年之功一朝而成。
+  source_urls:
+  - https://zh.wikisource.org/wiki/阃外春秋
+endeavors:
+- id: guji-陈汤-endeavor-1
+  name_zh: 出使西域并谋划诛郅支单于
+  phases:
+  - key: brewing
+    name_zh: 出使西域观察形势
+    labels:
+      zh: 出使西域
+    start_date: -30
+    highlight_event_id: guji-陈汤-event-envoy
+  - key: breakthrough
+    name_zh: 矫制发兵
+    labels:
+      zh: 矫制发兵
+    start_date: -30
+    highlight_event_id: guji-陈汤-event-usurp
+  - key: climax
+    name_zh: 远征郅支城
+    labels:
+      zh: 斩郅支
+    start_date: -30
+    highlight_event_id: guji-陈汤-event-zhizhi
+  decisions:
+  - date: -30
+    title_zh: 劝甘延寿发兵而主张不奏朝廷
+    rationale: 智者见未萌，朝廷公卿不足与议，矫诏而发可成千载之功
+  - date: -30
+    title_zh: 矫制发城郭诸国兵四万余骑
+    rationale: 甘延寿卧病，机不可失，遂擅自调兵并上疏自劾
+- id: guji-陈汤-endeavor-2
+  name_zh: 威定西域诸国
+  phases:
+  - key: closure
+    name_zh: 携首级珍宝而还
+    labels:
+      zh: 凯旋
+    start_date: -29
+    highlight_event_id: guji-陈汤-event-return
+  decisions:
+  - date: -30
+    title_zh: 至单于城三十里止营，遣使以缓辞骄敌
+    rationale: 称我军疲乏无牛酒之享，使单于不知旨意，犹豫无备
+events:
+- id: guji-陈汤-event-envoy
+  person_qid: guji-陈汤
+  title_zh: 与甘延寿出使西域
+  date: -30
+  date_raw: 元帝建昭二年秋
+  year_of: -30
+  precision: year
+  is_circa: true
+  summary_zh: 陈汤 与甘延寿奉使出西域，沿途登高远望，观察形胜，谋伐郅支。
+- id: guji-陈汤-event-usurp
+  person_qid: guji-陈汤
+  title_zh: 矫制发兵
+  date: -30
+  date_raw: 建昭三年
+  year_of: -30
+  precision: year
+  is_circa: true
+  summary_zh: 趁甘延寿卧病，陈汤矫制征发城郭诸国兵与乌孙兵，胡汉四万余骑，署置官吏，并上疏自劾矫诏之罪。
+- id: guji-陈汤-event-zhizhi
+  person_qid: guji-陈汤
+  title_zh: 攻拔郅支城，斩郅支单于
+  date: -30
+  date_raw: 建昭三年
+  year_of: -30
+  precision: year
+  is_circa: true
+  summary_zh: 分兵葱岭、赤谷两道，鼓行而西，以缓辞骄敌后夜围其城，迟明拔城，斩郅支单于首，获名王贵人五千余级。
+- id: guji-陈汤-event-return
+  person_qid: guji-陈汤
+  title_zh: 携功而还，西方遂平
+  date: -29
+  date_raw: 建昭四年
+  year_of: -29
+  precision: year
+  is_circa: true
+  summary_zh: 获珍宝方物名马、驰牛羊百万计而还，郅支既灭，西域安定。
