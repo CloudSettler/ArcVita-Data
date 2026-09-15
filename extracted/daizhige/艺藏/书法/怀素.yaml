@@ -1,0 +1,105 @@
+person:
+  qid: guji-怀素
+  name_zh: 怀素
+  names:
+    zh: 怀素
+    en: Huai Su
+  lifespan:
+    birth:
+      date: '0725'
+      precision: circa
+      is_circa: true
+      raw: 未详，约唐开元间
+    death:
+      date: 0785
+      precision: circa
+      is_circa: true
+      raw: 未详，约唐贞元初
+  birth_date: '0725'
+  death_date: 0785
+  era: 唐
+  reign_ref: 唐代宗、唐德宗时期
+  archetype: 草书僧人书法家
+  dilemmas:
+  - 出身寒门寄身佛门，而书法之名其譟于世，须在戒律修持与艺术放逸之间自处
+  lesson: 学书须自得于心、积学于外，纵逸而不失其法，方能笔下有凌云之气
+  summary_first_person: 我是一个 transcendent 后世称怀素者，以草书轻逸放达著称；此段书史中，内臣岑宗旦论历代善书者，谓「怀素之间逸，故翩翩如真仙」，即以「闲逸」二字括我笔意。
+  source_urls:
+  - 来源：书史会要卷六（明陶宗仪撰）内臣岑宗旦评语条
+endeavors:
+- id: guji-怀素-endeavor-1
+  name_zh: 以草书驰名，自成闲逸一家
+  labels:
+    zh:
+    - 书法
+    - 草书
+  phases:
+  - key: brewing
+    name_zh: 积学于心，浸淫笔法
+    labels:
+      zh:
+      - 积学扵外
+    start_date: '0740-01-01'
+    highlight_event_id: guji-怀素-event-career-start
+  - key: breakthrough
+    name_zh: 草书闲逸，名动士林
+    labels:
+      zh:
+      - 闲逸如真仙
+    start_date: '0765-01-01'
+    highlight_event_id: guji-怀素-event-career-peak
+  decisions:
+  - date: '0765-01-01'
+    title_zh: 以闲逸为草书本色
+    rationale: 后世岑宗旦评为「怀素之间逸，故翩翩如真仙」，可见其书格在有唐诸家之中独标放逸，与张旭之狂、颜书之淳谨各分一途。
+- id: guji-怀素-endeavor-2
+  name_zh: 书迹流传后世，入历代书法品评
+  labels:
+    zh:
+    - 品评流传
+  phases:
+  - key: closure
+    name_zh: 身后声名，历代评骘
+    labels:
+      zh:
+      - 入书法品评
+    start_date: '1050-01-01'
+    highlight_event_id: guji-怀素-event-career-eval
+  decisions:
+  - date: '1050-01-01'
+    title_zh: 与钟繇、王羲之诸家同列品评
+    rationale: 北宋内臣岑宗旦取汉迄唐善书者十有一人加以评骘，怀素与焉，谓其书闲逸翩翩如真仙，足见其艺在书法史上之位置。
+events:
+- id: guji-怀素-event-birth
+  event_type: birth
+  date: '0725'
+  year_of: 725
+  date_precision: circa
+  description_zh: 怀素约生于唐开元年间，日期未详。
+- id: guji-怀素-event-death
+  event_type: death
+  date: 0785
+  year_of: 785
+  date_precision: circa
+  description_zh: 怀素约卒于唐贞元初年，日期未详。
+- id: guji-怀素-event-career-start
+  event_type: endeavor
+  date: '0740-01-01'
+  year_of: 740
+  date_precision: circa
+  endeavor_id: guji-怀素-endeavor-1
+  description_zh: 潜心练习草书，积学扵外、自得扵心，为日后闲逸书风奠基。
+- id: guji-怀素-event-career-peak
+  event_type: endeavor
+  date: '0765-01-01'
+  year_of: 765
+  date_precision: circa
+  endeavor_id: guji-怀素-endeavor-1
+  description_zh: 以草书闲逸之格驰名，后世评其笔下「翩翩如真仙」。
+- id: guji-怀素-event-career-eval
+  event_type: endeavor
+  date: '1050-01-01'
+  year_of: 1050
+  date_precision: circa
+  endeavor_id: guji-怀素-endeavor-2
+  description_zh: 内臣岑宗旦于自汉迄唐十一善书家之评中列怀素，谓「怀素之间逸，故翩翩如真仙」，其名入《书史会要》所录之书法品评传统。

@@ -1,0 +1,144 @@
+person:
+  qid: guji-欧阳询
+  name_zh: 欧阳询
+  names:
+    zh: 欧阳询
+    en: Ouyang Xun
+  lifespan:
+    birth:
+      date: '557'
+      precision: year
+      is_circa: true
+      raw: 约梁太平二年
+    death:
+      date: '641'
+      precision: year
+      is_circa: false
+      raw: 唐贞观十五年
+  birth_date: 约557年
+  death_date: 641年
+  era: 隋末唐初
+  reign_ref: 唐高祖、唐太宗年间
+  archetype: 书法大家
+  dilemmas:
+  - 字即欧阳纥之子，家逢变故由陈入隋再入唐，历三朝而书名愈盛。
+  - 学王羲之而不泥于王，险劲瘦硬自成一家，须在传统与自创间取舍。
+  lesson: 猛锐长驱、日夜精研，方能在师法前贤之后自成一家，晚年笔力益刚劲。
+  summary_first_person: 我是欧阳询，字信本，潭州临湘人，官至太子率更令、太常少卿，封渤海男。我由隋入唐，博通经史，喜字学，初学王羲之书，后险劲瘦硬自成一家，真行有王献之法，与智永旗鼓相攻而令其夺气。鸡林曾遣使求我书法，名重一时。晚年笔力益刚劲，有执法面折廷争之风，人以金刚瞋目、力士挥拳喻我书，又谓俊逸处如孤峰崛起、四面削成。飞白、隶、行、草入妙，大小篆、章草入能。
+  source_urls:
+  - https://example.org/guji/shushihuainyao
+endeavors:
+- id: guji-欧阳询-endeavor-1
+  name_zh: 书法研习与自成一格
+  phases:
+  - key: brewing
+    name_zh: 经史与字学根基
+    labels:
+      zh:
+      - 该洽经史
+      - 喜字学
+    start_date: '570'
+    highlight_event_id: guji-欧阳询-event-study
+  - key: breakthrough
+    name_zh: 学王羲之而险劲自成
+    labels:
+      zh:
+      - 险劲瘦硬
+      - 自成一家
+    start_date: '590'
+    highlight_event_id: guji-欧阳询-event-style
+  - key: climax
+    name_zh: 名重于世
+    labels:
+      zh:
+      - 鸡林求书
+      - 与智永相攻
+    start_date: '620'
+    highlight_event_id: guji-欧阳询-event-fame
+  - key: closure
+    name_zh: 晚年笔力刚劲
+    labels:
+      zh:
+      - 刚劲如廷争
+    start_date: '635'
+    highlight_event_id: guji-欧阳询-event-late
+  decisions:
+  - date: 618-01-01
+    title_zh: 应唐高祖擢用，入朝任给事中
+    rationale: 由隋入唐之际择明主而事，凭借经史之学获高祖即擢给事中。
+  - date: 600-01-01
+    title_zh: 于王羲之之外独创险劲瘦硬之体
+    rationale: 不肯止步于摹古，故能自成一家，真行兼得王献之法。
+- id: guji-欧阳询-endeavor-2
+  name_zh: 仕途与经史之业
+  phases:
+  - key: brewing
+    name_zh: 博通经史
+    labels:
+      zh:
+      - 该洽经史
+    start_date: '575'
+    highlight_event_id: guji-欧阳询-event-study
+  - key: breakthrough
+    name_zh: 高祖擢给事中
+    labels:
+      zh:
+      - 给事中
+    start_date: '618'
+    highlight_event_id: guji-欧阳询-event-office
+  - key: climax
+    name_zh: 官至太子率更令、太常少卿
+    labels:
+      zh:
+      - 率更令
+      - 太常少卿
+      - 封渤海男
+    start_date: '626'
+    highlight_event_id: guji-欧阳询-event-office
+  decisions:
+  - date: 618-02-01
+    title_zh: 接受高祖即擢给事中之命
+    rationale: 由隋入朝，高祖识其才而即擢，遂专心事唐。
+events:
+- id: guji-欧阳询-event-birth
+  date: 约557
+  year_of: 557
+  type: birth
+  title_zh: 欧阳询生于潭州临湘
+  description: 欧阳纥之子，生于约557年。
+- id: guji-欧阳询-event-study
+  date: 约570
+  year_of: 570
+  type: endeavor
+  title_zh: 博通经史并喜字学
+  description: 该洽经史，喜字学，为日后书法成就奠定根底。
+- id: guji-欧阳询-event-style
+  date: 约595
+  year_of: 595
+  type: endeavor
+  title_zh: 书法险劲瘦硬自成一家
+  description: 学王羲之书后险劲瘦硬自成一家，真行有王献之法；与智永旗鼓相攻，智永为之夺气。
+- id: guji-欧阳询-event-office
+  date: 约618
+  year_of: 618
+  type: endeavor
+  title_zh: 唐高祖即擢给事中
+  description: 由隋入朝，高祖即擢给事中，后官至太子率更令、太常少卿，封渤海男。
+- id: guji-欧阳询-event-fame
+  date: 约625
+  year_of: 625
+  type: endeavor
+  title_zh: 鸡林遣使求书，名重当时
+  description: 鸡林遣使求询书，当时名重如此。
+- id: guji-欧阳询-event-late
+  date: 约635
+  year_of: 635
+  type: endeavor
+  title_zh: 晚年笔力益刚劲
+  description: 晚年笔力益刚劲，有执法面折廷争之风，或比之金刚瞋目、力士挥拳，又谓如孤峰崛起、四面削成。
+- id: guji-欧阳询-event-death
+  date: '641'
+  year_of: 641
+  type: death
+  title_zh: 欧阳询卒
+  description: 卒于唐贞观年间，享年八十余。
