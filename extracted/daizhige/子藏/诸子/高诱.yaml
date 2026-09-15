@@ -1,0 +1,154 @@
+person:
+  qid: guji-高诱
+  name_zh: 高诱
+  names:
+    zh: 高诱
+    en: Gao You
+  lifespan:
+    birth:
+      date: '150'
+      precision: decade
+      is_circa: true
+      raw: 东汉生年不详
+    death:
+      date: '220'
+      precision: decade
+      is_circa: true
+      raw: 东汉卒年不详
+  birth_date: 约150
+  death_date: 约220
+  era: 东汉
+  reign_ref: 汉献帝建安年间
+  archetype: 古籍经师·注释家
+  dilemmas:
+  - 此书经历“小儒以私意改定”，脱误滋生，训解有失本真之虞
+  - 诸说纷纭，须依先师旧训与经史互证，避免注家附会之失
+  lesson: 注书当以训诂简质、驳正引证为务，宁存疑阙而不蹈附会
+  summary_first_person: 我是东汉涿人高诱，承先师旧训注解《吕氏春秋》《淮南子》《战国策》《孝经》，并正《孟子》章句。我为之解凡十七万三千余言，务求训诂简质、引证有据，有纰缪不经者，望后之君子裁断。
+  source_urls:
+  - https://ctext.org/library.pl?if=gb&res=5976
+endeavors:
+- id: guji-高诱-endeavor-1
+  name_zh: 注解《吕氏春秋》
+  labels:
+    zh: 训诂注疏
+  phases:
+  - key: brewing
+    name_zh: 承先师旧训研读吕氏之书
+    labels:
+      zh: 案省寻绎
+    start_date: 约195
+    highlight_event_id: guji-高诱-event-lvshi-start
+  - key: breakthrough
+    name_zh: 逐篇以经史驳正其书引证颠舛之处
+    labels:
+      zh: 驳正考证
+    start_date: 约200
+    highlight_event_id: guji-高诱-event-lvshi-writing
+  - key: climax
+    name_zh: 注毕成书，撰吕氏春秋原序
+    labels:
+      zh: 序言定稿
+    start_date: 约205
+    highlight_event_id: guji-高诱-event-lvshi-preface
+  - key: closure
+    name_zh: 注解传世独行于世
+    labels:
+      zh: 独传后学
+    start_date: 约210
+    highlight_event_id: guji-高诱-event-legacy
+  decisions:
+  - date: 约200
+    title_zh: 以书序为据驳“成汤时谷生于庭”等诸说
+    rationale: 据书序、论语、左传、史记世家诸文逐条驳正，以经证经，不蹈附会
+  - date: 约205
+    title_zh: 为注本作序，自述十七万三千五十四言
+    rationale: 以道德为标的、以忠义为检格，正其脱误，守先师本真
+- id: guji-高诱-endeavor-2
+  name_zh: 注解《淮南子》并正《孟子》章句、作《孝经》解
+  labels:
+    zh: 多经并注
+  phases:
+  - key: brewing
+    name_zh: 治淮南孝经孟子之学
+    labels:
+      zh: 兼治群经
+    start_date: 约190
+    highlight_event_id: guji-高诱-event-huainan-start
+  - key: breakthrough
+    name_zh: 作淮南鸿烈解
+    labels:
+      zh: 淮南作解
+    start_date: 约205
+    highlight_event_id: guji-高诱-event-huainan-writing
+  - key: climax
+    name_zh: 正孟子章句、作孝经解，诸注毕讫
+    labels:
+      zh: 诸注毕讫
+    start_date: 约210
+    highlight_event_id: guji-高诱-event-completion
+  decisions:
+  - date: 约205
+    title_zh: 并注淮南、孟子、孝经诸书
+    rationale: 家有淮南之书，大出诸子之右，故依旧训为之解，以述古儒之旨
+events:
+- id: guji-高诱-event-birth
+  year_of: '150'
+  date: 约150
+  type: birth
+  title_zh: 高诱出生于东汉涿郡
+  summary_zh: 东汉经师高诱生，生年史无明文。
+- id: guji-高诱-event-lvshi-start
+  year_of: '195'
+  date: 约195
+  type: endeavor
+  endeavor_id: guji-高诱-endeavor-1
+  title_zh: 寻绎案省《吕氏春秋》
+  summary_zh: 诱家有吕氏之书，见其“既有脱误，小儒又以私意改定”，恐传义失其本真，遂发愿为之解。
+- id: guji-高诱-event-lvshi-writing
+  year_of: '200'
+  date: 约200
+  type: endeavor
+  endeavor_id: guji-高诱-event-lvshi-writing-write
+  title_zh: 撰《吕氏春秋》训解，驳正引证颠舛
+  summary_zh: 依先师旧训作注，据书序、论语、左传、史记等驳正制乐篇诸条之误，训诂简质，不蹈附会。
+- id: guji-高诱-event-lvshi-preface
+  year_of: '205'
+  date: 约205
+  type: endeavor
+  endeavor_id: guji-高诱-endeavor-1
+  title_zh: 撰《吕氏春秋原序》
+  summary_zh: 序称注凡十七万三千五十四言；论活字本“悬之咸阳市门”事，谓时人非不能增损一字，盖惮相国之势。
+- id: guji-高诱-event-huainan-start
+  year_of: '190'
+  date: 约190
+  type: endeavor
+  endeavor_id: guji-高诱-endeavor-2
+  title_zh: 治《淮南子》《孝经》《孟子》之学
+  summary_zh: 学承卢植一系，研治淮南、孝经、孟子诸书，承先师旧训。
+- id: guji-高诱-event-huainan-writing
+  year_of: '205'
+  date: 约205
+  type: writing
+  endeavor_id: guji-高诱-endeavor-2
+  title_zh: 作《淮南鸿烈解》
+  summary_zh: 于建安年间依旧训注解淮南之书，成《淮南子注》。
+- id: guji-高诱-event-completion
+  year_of: '210'
+  date: 约210
+  type: endeavor
+  endeavor_id: guji-高诱-endeavor-2
+  title_zh: 正《孟子》章句、作《孝经》解，诸注毕讫
+  summary_zh: 诱自序称“正孟子章句，作淮南孝经解毕讫”，一生注疏群经之处告成。
+- id: guji-高诱-event-legacy
+  year_of: '210'
+  date: 约210
+  type: legacy
+  title_zh: 《吕氏春秋》注独传于后
+  summary_zh: 自汉以来注吕氏春秋者惟高诱一家，四库馆臣称其训诂简质、驳证有据，独步千年。
+- id: guji-高诱-event-death
+  year_of: '220'
+  date: 约220
+  type: death
+  title_zh: 高诱卒
+  summary_zh: 卒年史无明文，约在汉末建安之世。
