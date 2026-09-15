@@ -1,0 +1,125 @@
+person:
+  qid: guji-songtaizu
+  name_zh: 宋太祖
+  names:
+    zh: 宋太祖
+    en: Emperor Taizu of Song
+  lifespan:
+    birth:
+      date: '927'
+      precision: year
+      is_circa: false
+      raw: 微时生年不详，一般系于后唐天成二年
+    death:
+      date: '976'
+      precision: year
+  birth_date: '927'
+  death_date: '976'
+  era: 五代末至北宋初
+  reign_ref: 建隆、乾德、开宝
+  archetype: 开国之君
+  dilemmas:
+  - 身居将位而人心归附，代周自立是否为义
+  - 功臣手握重兵，收权则恐伤恩义
+  lesson: 杯酒释兵权，以宽仁驾驭英雄，重惜名器爵位
+  summary_first_person: 我起于微时，受周世宗知遇，屡建战功；陈桥受禅，定万世之基。我以杯酒释兵权，收藩镇之权，制钱谷、收精兵，使天下息兵，又重惜爵位、善待功臣，故宋室得以安平。
+  source_urls:
+  - https://zh.wikisource.org/wiki/邵氏闻见前录
+endeavors:
+- id: guji-songtaizu-endeavor-1
+  name_zh: 初入仕途与受知于世宗
+  phases:
+  - key: brewing
+    name_zh: 游历微时
+    labels:
+      zh:
+      - 微时游历
+    start_date: '947'
+    highlight_event_id: guji-songtaizu-event-roaming-s
+  - key: breakthrough
+    name_zh: 受知柴氏
+    labels:
+      zh:
+      - 入柴荣幕府
+    start_date: '953'
+    highlight_event_id: guji-songtaizu-event-chai-recruit
+  decisions:
+  - date: '953'
+    title_zh: 持僧赠驴与钱币赴澶州投柴太尉
+    rationale: 欲见柴太尉于澶州，无以为资，得长寿寺僧资助遂行
+- id: guji-songtaizu-endeavor-2
+  name_zh: 受禅开国与治定天下
+  phases:
+  - key: climax
+    name_zh: 受禅即位
+    labels:
+      zh:
+      - 代周建宋
+    start_date: '960'
+    highlight_event_id: guji-songtaizu-event-abdication
+  - key: closure
+    name_zh: 息兵安天下
+    labels:
+      zh:
+      - 杯酒释兵权
+      - 定下江南之议
+    start_date: '961'
+    highlight_event_id: guji-songtaizu-event-cup-wine
+  decisions:
+  - date: '960'
+    title_zh: 采纳赵普夺其权、制钱谷、收精兵之策
+    rationale: 节镇太重、君弱臣强，欲息兵定长久之计
+  - date: '968'
+    title_zh: 命曹彬为将、潘美为副征江南
+    rationale: 王全斌平蜀多杀人不可用，欲以恩德来江南，未尝妄戮一人
+events:
+- id: guji-songtaizu-event-birth
+  date: '927'
+  year_of: 927
+  title_zh: 宋太祖出生
+  summary_zh: 太祖生于五代乱世，微时游历关洛之间。
+- id: guji-songtaizu-event-roaming
+  date: '947'
+  year_of: 947
+  title_zh: 微时游潘原、长武，寺僧异其骨相
+  summary_zh: 太祖游渭州潘原县过泾州长武镇，寺僧守严异其骨相，阴使画工图于寺壁。
+- id: guji-songtaizu-event-chai-recruit
+  date: '953'
+  year_of: 953
+  title_zh: 长寿寺僧赠驴助资，投柴太尉于澶州
+  summary_zh: 帝枕长寿寺佛殿柱础昼寝，僧见赤蛇出其鼻中异之，赠驴与钱；柴太尉一见奇之，留幕府。万世之基实肇于澶州之行。
+- id: guji-songtaizu-event-chai-recruit-s
+  date: '953'
+  year_of: 953
+  title_zh: 澶州之行见柴太尉
+  summary_zh: 欲见柴太尉于澶州无以为资，得僧所赠驴与钱币遂行，太尉留之幕府。
+- id: guji-songtaizu-event-abdication
+  date: 960-02-02
+  year_of: 960
+  title_zh: 将士推戴，太祖受禅即位
+  summary_zh: 出军之日京城喧言当立点检为天子，帝默然决之于己，遂受周禅，是为宋太祖。陶谷出怀中禅文，帝由是薄其为人。
+- id: guji-songtaizu-event-cup-wine
+  date: '961'
+  year_of: 961
+  title_zh: 晚朝宴石守信、王审琦，喻以释去兵权
+  summary_zh: 帝屏左右谓诸将：黄袍一旦加身，欲不为不可得；劝其择便好田宅为子孙业，君臣两无猜嫌。明日诸将皆称疾请解军政，许之，慰抚赐赉甚厚。
+- id: guji-songtaizu-event-wang-yanchao
+  date: '960'
+  year_of: 960
+  title_zh: 尽召诸节度入觐，问彦超当日不留之故
+  summary_zh: 王彦超对曰涔蹄之水不足以泽神龙，帝益喜，令其更作永兴节度一任。
+- id: guji-songtaizu-event-snow-night
+  date: '968'
+  year_of: 968
+  title_zh: 大雪夜访赵普，定下江南之议
+  summary_zh: 帝与太宗冒雪至普家，曰一榻之外皆他人家也；普言姑留太原以俟削平诸国，遂定下江南之议，荐曹彬为将。
+- id: guji-songtaizu-event-cao-bin-reward
+  date: '975'
+  year_of: 975
+  title_zh: 曹彬平江南归，密赐钱五十万而不予使相
+  summary_zh: 帝许以使相为赏，及归曰方隅未服者尚多，姑徐之更为吾取太原；彬见钱布满室而叹服。帝重惜爵位如此。
+- id: guji-songtaizu-event-death
+  date: '976'
+  year_of: 976
+  title_zh: 宋太祖驾崩
+  summary_zh: 太祖晏驾，弟晋王即位，是为太宗。
