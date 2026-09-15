@@ -1,0 +1,81 @@
+person:
+  qid: guji-张丑
+  name_zh: 张丑
+  names:
+    zh: 张丑
+    en: Zhang Chou
+  lifespan:
+    birth:
+      date: '1577'
+      precision: year
+      is_circa: true
+      raw: 生年约万历初，本名谦德，字叔益
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 卒年不详
+  birth_date: '1577'
+  death_date: ''
+  era: 明
+  reign_ref: 万历
+  archetype: 书画鉴赏家
+  dilemmas:
+  - 题跋多从文集转录而非亲睹原迹，需在广收与精审之间权衡
+  lesson: 鉴赏贵在订正讹传，如纠《宋史》米芾卒年之误
+  summary_first_person: 我原名谦德，字叔益，后改今名，字青父，号米庵，昆山人。万历乙卯得米芾《宝章待访录》墨迹，名书室曰宝米轩，因以自号；次年丙辰辑成《清河书画舫》十二卷。我家四世收藏，所览卷轴极广，书中多订正前人考证之疏，如考米芾生于皇祐三年、卒于大观元年、年五十七，以纠《宋史》之误。后世收藏家多借我书辨验真伪。
+  source_urls:
+  - https://cht.wikisource.org/wiki/清河书画舫
+endeavors:
+- id: guji-张丑-endeavor-1
+  name_zh: 编纂《清河书画舫》
+  phases:
+  - key: brewing
+    name_zh: 家学收藏积淀
+    labels:
+      zh: 家世收藏
+    start_date: '1560'
+  - key: breakthrough
+    name_zh: 得米芾墨迹、立宝米轩之号
+    labels:
+      zh: 得宝章待访录
+    start_date: '1615'
+    highlight_event_id: guji-张丑-event-mifu
+  - key: climax
+    name_zh: 书成十二卷
+    labels:
+      zh: 书写成书
+    start_date: '1616'
+    highlight_event_id: guji-张丑-event-book
+  decisions:
+  - date: '1615'
+    title_zh: 名书室为宝米轩并以米庵自号
+    rationale: 因得米芾《宝章待访录》墨迹，且书名取黄庭坚"米家书画船"诗句
+  - date: '1616'
+    title_zh: 定书名为《清河书画舫》并编次十二卷
+    rationale: 依朱氏铁网珊瑚之例，详载题识印记，多所订正明代赏鉴考证之疏
+events:
+- id: guji-张丑-event-birth
+  date: ~1577
+  year_of: 1577
+  type: birth
+  title_zh: 张丑约生于万历初，昆山人
+- id: guji-张丑-event-mifu
+  date: '1615'
+  year_of: 1615
+  type: endeavor
+  endeavor_id: guji-张丑-endeavor-1
+  title_zh: 万历乙卯得米芾《宝章待访录》墨迹
+  detail: 名其书室曰宝米轩，故以米庵自号
+- id: guji-张丑-event-book
+  date: '1616'
+  year_of: 1616
+  type: endeavor
+  endeavor_id: guji-张丑-endeavor-1
+  title_zh: 万历丙辰《清河书画舫》十二卷成书
+  detail: 书名取黄庭坚"米家书画船"句；订正《宋史》米芾卒年之误
+- id: guji-张丑-event-death
+  date: ~1643
+  year_of: 1643
+  type: death
+  title_zh: 张丑卒年不详，约崇祯年间
