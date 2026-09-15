@@ -1,0 +1,148 @@
+person:
+  qid: guji-李煜
+  name_zh: 李煜
+  names:
+    zh: 李煜
+    en: Li Yu
+  lifespan:
+    birth:
+      date: '937'
+      precision: year
+      is_circa: true
+      raw: 生年文中未详，一般系于公元937年
+    death:
+      date: '978'
+      precision: year
+      is_circa: true
+      raw: 文中未详卒年
+  birth_date: '937'
+  death_date: '978'
+  era: 五代十国·南唐
+  reign_ref: 南唐后主，建隆二年（961/文中作建隆二年七月二十九日）袭位于金陵
+  archetype: 亡国之君·词人
+  dilemmas:
+  - 文采风流与国政不修之间的矛盾：有辞藻、善笔札、善音律，而尚奢侈
+  - 江南小国与中原王朝强弱之势下的存亡困境
+  lesson: 精于艺文而怠于政事、奢靡无度，终致国破，才情越盛，覆亡之兆越显。
+  summary_first_person: 我本名从嘉，嗣南唐伪位后改名煜。我有文采，善书法，通音律，曾作《念家山破》《振金铃曲》等曲，然生性奢侈，以销金红罗饰壁、白银钉玳瑁押之，又题染肆之榜曰“天水碧”。建隆二年七月二十九日我袭位于金陵，登楼建金鸡肆赦，太祖闻之大怒，幸得进奏使陆昭符以“怪鸟”之对巧言解围。其后皇家荡平江南，种种皆成前兆。
+  source_urls:
+  - https://zh.wikisource.org/wiki/五國故事
+endeavors:
+- id: guji-李煜-endeavor-1
+  name_zh: 嗣位南唐
+  labels:
+    zh:
+    - 政治
+    - 继统
+  phases:
+  - key: brewing
+    name_zh: 藩邸岁月
+    labels:
+      zh:
+      - 皇子
+    start_date: '937'
+  - key: breakthrough
+    name_zh: 袭位金陵
+    labels:
+      zh:
+      - 即位
+    start_date: 961-07-29
+    highlight_event_id: guji-李煜-event-accession
+  - key: climax
+    name_zh: 江南国主时期
+    labels:
+      zh:
+      - 统治
+    start_date: '961'
+  - key: closure
+    name_zh: 国亡北迁
+    labels:
+      zh:
+      - 亡国
+    start_date: '975'
+  decisions:
+  - date: 961-07-29
+    title: 袭伪位于金陵并登楼建金鸡肆赦
+    rationale: 嗣承父位，行赦以安众；然僭用金鸡之仪触怒宋太祖，赖陆昭符辩解得免责。
+  - date: '975'
+    title: 面对宋师荡平而归降
+    rationale: 江南弱而不能抗中原王师，见识者所谓诸多不祥前兆皆应。
+- id: guji-李煜-endeavor-2
+  name_zh: 艺文与音乐创作
+  labels:
+    zh:
+    - 文艺
+    - 音律
+  phases:
+  - key: brewing
+    name_zh: 习艺翰墨
+    labels:
+      zh:
+      - 修养
+    start_date: '937'
+  - key: breakthrough
+    name_zh: 造念家山诸曲
+    labels:
+      zh:
+      - 创作
+    start_date: '960'
+    highlight_event_id: guji-李煜-event-music
+  - key: climax
+    name_zh: 宫中宴乐题榜
+    labels:
+      zh:
+      - 奢侈
+    start_date: '961'
+  - key: closure
+    name_zh: 曲名皆成谶兆
+    labels:
+      zh:
+      - 谶应
+    start_date: '975'
+  decisions:
+  - date: '960'
+    title: 造《念家山》及《振金铃曲》，破言者为《家山破》《金铃破》
+    rationale: 善音律，自制新曲；“破”之名竟谶应日后皇家荡平之祸。
+  - date: '960'
+    title: 于宫中以销金红罗幂壁、白银钉玳瑁押之，建彩画小木亭与爱姬周氏对酌
+    rationale: 尚奢侈，穷极精巧；后世以为其亡国之兆。
+events:
+- id: guji-李煜-event-birth
+  date: '937'
+  year_of: 937
+  title: 李煜出生
+  detail: 景之次子，本名从嘉；文中未详其生年，姑系于一般所考公元937年。
+  tags:
+  - birth
+  - 南唐
+- id: guji-李煜-event-death
+  date: '978'
+  year_of: 978
+  title: 李煜去世
+  detail: 文中未详其卒年，据通行说法系于公元978年。
+  tags:
+  - death
+- id: guji-李煜-event-accession
+  date: 961-07-29
+  year_of: 961
+  title: 李煜建隆二年七月二十九日袭伪位于金陵
+  detail: 嗣南唐国主位，因登楼建金鸡以肆赦，宋太祖闻之大怒；进奏使陆昭符对以“此非金鸡，乃怪鸟耳”，太祖大笑而罢。
+  tags:
+  - 即位
+  - 政治
+- id: guji-李煜-event-music
+  date: '960'
+  year_of: 960
+  title: 造《念家山》《振金铃曲》，破为《家山破》《金铃破》
+  detail: 煜善音律，自制曲破；寻而皇家荡平江南，曲名“破”字皆成前兆。
+  tags:
+  - 音律
+  - 文艺
+- id: guji-李煜-event-luxury
+  date: '961'
+  year_of: 961
+  title: 宫中奢饰并题“天水碧”之榜
+  detail: 尝于宫中以销金红罗幂壁，以白银钉玳瑁押之；又以绿钿刷隔眼、糊以红罗，外种梅花，设彩画小木亭与爱姬周氏对酌；建康染肆之榜多题“天水碧”，寻而皇家荡平，悉前兆也。
+  tags:
+  - 奢侈
+  - 谶兆

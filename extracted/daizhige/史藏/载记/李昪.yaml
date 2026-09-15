@@ -1,0 +1,168 @@
+person:
+  qid: guji-李昪
+  name_zh: 李昪
+  names:
+    zh: 李昪（徐知诰）
+    en: Li Bian
+  lifespan:
+    birth:
+      date: '888'
+      precision: year
+      is_circa: true
+      raw: 微时为杨吴徐温养子，生年史载约在唐末
+    death:
+      date: '943'
+      precision: year
+      is_circa: false
+  birth_date: '888'
+  death_date: '943'
+  era: 五代十国（杨吴—南唐）
+  reign_ref: 南唐先主，升元年间
+  archetype: 隐忍立国的开国之君
+  dilemmas:
+  - 非徐温嫡子，嗣位无分，须外修忠孝、内谋家国
+  - 受禅代杨，既承徐氏之业，又虑杨氏宗族之患
+  lesson: 取国艰难者常志勤俭，然俭于己身未必能保国祚绵长
+  summary_first_person: 我本杨吴孤童，为徐温所养，改名知诰。我外示忠孝恭谨，内则步步为营：代知训镇广陵，绐兄知询入朝而夺其权，终逼杨氏禅位；复国号唐，改姓名李昪。我以勤俭自持，金陵升都不加营缮，然开国之宴即有宋齐丘酗酒之变，我隐忍而已——盖知国祚延远，非独俭素可致。
+  source_urls:
+  - https://zh.wikisource.org/wiki/五國故事
+endeavors:
+- id: guji-李昪-endeavor-1
+  name_zh: 佐吴谋国：自养子至权臣
+  phases:
+  - key: brewing
+    name_zh: 入徐氏门下
+    labels:
+      zh:
+      - 寄养
+      - 忠孝自饰
+    start_date: 0900
+    highlight_event_id: guji-李昪-event-serve
+  - key: breakthrough
+    name_zh: 代知训主广陵政事
+    labels:
+      zh:
+      - 政事之任
+      - 革苛立俭
+    start_date: 0927
+    highlight_event_id: guji-李昪-event-succeed
+  - key: climax
+    name_zh: 夺知询兵柄，总揽吴政
+    labels:
+      zh:
+      - 强干弱枝
+      - 志勤俭
+    start_date: 0930
+    highlight_event_id: guji-李昪-event-restrain-xuzhi
+  - key: closure
+    name_zh: 逼杨氏禅位
+    labels:
+      zh:
+      - 受禅
+      - 迁杨族于泰州
+    start_date: 0937
+    highlight_event_id: guji-李昪-event-abdication
+  decisions:
+  - date: 0927
+    title_zh: 闻变即渡江入广陵执政
+    rationale: 宋齐丘劝以'即今渡江定其事，则政事之任归公'，知诰立从之。
+  - date: 0930
+    title_zh: 以辅相之命绐知询入觐而夺其权
+    rationale: 知询为政暴急、争权不休，恐其为乱，设计剪除。
+  - date: 0937
+    title_zh: 改白沙为迎銮镇，声言迁杨氏于江南，遂逼禅
+    rationale: 移杨氏之祚，先营声势而后受禅，使禅让出于杨氏'自愿入道'之名。
+- id: guji-李昪-endeavor-2
+  name_zh: 建号南唐与身后安排
+  phases:
+  - key: brewing
+    name_zh: 升金陵为都，志勤俭
+    labels:
+      zh:
+      - 宫砌无新树
+      - 女伎音乐一无增加
+    start_date: 0937
+    highlight_event_id: guji-李昪-event-thrift
+  - key: breakthrough
+    name_zh: 改姓名李昪，复国号唐
+    labels:
+      zh:
+      - 认唐裔
+      - 升元改元
+    start_date: 0939
+    highlight_event_id: guji-李昪-event-tang
+  - key: climax
+    name_zh: 疾重欲传位类己之景达
+    labels:
+      zh:
+      - 密书召子
+      - 医官泄谋
+    start_date: 0943
+    highlight_event_id: guji-李昪-event-final
+  - key: closure
+    name_zh: 殂而景即位
+    labels:
+      zh:
+      - 嗣主改元保大
+    start_date: 0943
+    highlight_event_id: guji-李昪-event-death
+  decisions:
+  - date: 0939
+    title_zh: 复本姓名李昪、改国号曰唐
+    rationale: 自以兴盛于江南，托为唐室之裔以正大统之名。
+  - date: 0943
+    title_zh: 密书召成王景达入东都付以后事
+    rationale: 以景达类己欲立之，然书为吴庭绍所泄告于李景，事未成而殂。
+events:
+- id: guji-李昪-event-birth
+  date: '888'
+  year_of: 888
+  type: birth
+  note: 彭城李氏之说托于唐裔，生年史不确。
+- id: guji-李昪-event-serve
+  date: 0900
+  year_of: 900
+  type: endeavor
+  title_zh: 事徐温，每遇温生日献白袍，竭忠孝之礼
+  note: 温称'事在二哥矣'，知诰虑温急取国而己非嫡嗣，故守忠孝之名。
+- id: guji-李昪-event-succeed
+  date: 0927
+  year_of: 927
+  type: endeavor
+  title_zh: 朱瑾手板杀知训，知诰闻变渡江，代知广陵政事
+  note: 宋齐丘进言促成，知诰自此以厚重清俭镇抚时俗。
+- id: guji-李昪-event-restrain-xuzhi
+  date: 0930
+  year_of: 930
+  type: endeavor
+  title_zh: 绐兄徐知询入朝，处之环卫，夺金陵节制之权
+  note: 诈以杨氏将申辅相之命诱之，知询悔而不得反。
+- id: guji-李昪-event-abdication
+  date: 0937
+  year_of: 937
+  type: endeavor
+  title_zh: 逼杨溥禅位，尊之曰'高尚思元崇古让皇帝'，迁于茅山
+  note: 升州为大吴西都、扬州为东都，改白沙为迎銮镇为受禅张本。
+- id: guji-李昪-event-thrift
+  date: 0938
+  year_of: 938
+  type: endeavor
+  title_zh: 金陵升都邑，仍以旧衙署为之，但加鸱尾栏槛
+  note: 宋齐丘挽辞'宫砌无新树，宫衣无组绣，宫乐尽尘埃'皆其实也。
+- id: guji-李昪-event-tang
+  date: 0939
+  year_of: 939
+  type: endeavor
+  title_zh: 改姓名为李昪，复国号曰唐
+  note: 以唐室后裔自居，改元升元。
+- id: guji-李昪-event-final
+  date: 0943
+  year_of: 943
+  type: endeavor
+  title_zh: 疾革，密书召景达欲付后事，医官吴庭绍泄之于李景
+  note: 使人追回其书，俄而殂，景乃即位，改元保大。
+- id: guji-李昪-event-death
+  date: 0943
+  year_of: 943
+  type: death
+  note: 卒于金陵，子景嗣伪位。
