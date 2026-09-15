@@ -1,0 +1,158 @@
+person:
+  qid: guji-田文
+  name_zh: 田文
+  names:
+    zh: 孟尝君
+    en: Lord Mengchang (Tian Wen)
+  lifespan:
+    birth:
+      date: -215
+      precision: year
+      is_circa: true
+      raw: 约?—前294年为齐相之前，生年史无明载
+    death:
+      date: -159
+      precision: year
+      is_circa: true
+      raw: 卒年史无明载
+  birth_date: -0327（约）
+  death_date: -0237（约）
+  era: 战国
+  reign_ref: 齐湣王、魏昭王时期
+  archetype: 权变纵横之臣
+  dilemmas:
+  - 为齐相受重用，而被齐王所弃、被迫奔魏
+  - 身为齐宗室之臣，却联秦赵谋攻齐国故地
+  lesson: 功高见疑，去国事敌，纵横之臣的成败皆系于君王之信疑
+  summary_first_person: 我以薛公之封为齐相，伐楚攻秦、谋残宋取淮北，然齐王弃我而亲秦，我遂奔魏，与奉阳君约为诸侯谋齐，以图报怨。
+  source_urls:
+  - https://zh.wikipedia.org/wiki/孟尝君
+endeavors:
+- id: guji-田文-endeavor-1
+  name_zh: 相齐伐楚攻秦
+  phases:
+  - key: brewing
+    name_zh: 入齐为相
+    labels:
+      zh:
+      - 权臣
+    start_date: -192
+    highlight_event_id: guji-田文-event-appointment-qi
+  - key: breakthrough
+    name_zh: 伐楚攻秦
+    labels:
+      zh:
+      - 兵事
+    start_date: -192
+    highlight_event_id: guji-田文-event-campaigns
+  - key: climax
+    name_zh: 谋残宋取淮北
+    labels:
+      zh:
+      - 扩张
+    start_date: -0289
+    highlight_event_id: guji-田文-event-song-plan
+  - key: closure
+    name_zh: 见弃于齐
+    labels:
+      zh:
+      - 失势
+    start_date: -0287
+    highlight_event_id: guji-田文-event-dismissal
+  decisions:
+  - date: -192
+    title_zh: 相齐而伐楚攻秦
+    rationale: 借齐之强成己之功，九岁伐楚、三年攻秦，欲以残宋取淮北而未成
+- id: guji-田文-endeavor-2
+  name_zh: 奔魏谋齐
+  phases:
+  - key: brewing
+    name_zh: 出奔大梁
+    labels:
+      zh:
+      - 流亡
+    start_date: -0287
+    highlight_event_id: guji-田文-event-dismissal
+  - key: climax
+    name_zh: 约奉阳君共谋齐
+    labels:
+      zh:
+      - 纵横
+    start_date: -0286
+    highlight_event_id: guji-田文-event-xuwei-pact
+  - key: closure
+    name_zh: 与燕赵合势攻齐
+    labels:
+      zh:
+      - 复仇
+    start_date: -0285
+    highlight_event_id: guji-田文-event-attack-qi
+  decisions:
+  - date: -0286
+    title_zh: 与徐为有辞、劝晋国变以谋齐
+    rationale: 薛公未得所欲于晋国，与齐先变以谋晋国；齐王惧而虑从楚赵取秦
+events:
+- id: guji-田文-event-birth
+  event_type: birth
+  date: -215
+  year_of: -327
+  name_zh: 田文出生
+  description: 田文约生于此年，田婴之子，后袭封于薛，称孟尝君。
+  participants:
+  - guji-田文
+- id: guji-田文-event-appointment-qi
+  event_type: career
+  date: -192
+  year_of: -300
+  name_zh: 薛公相齐
+  description: 薛公（田文）为齐相，起初辅佐齐王。
+  participants:
+  - guji-田文
+- id: guji-田文-event-campaigns
+  event_type: political
+  date: -0298
+  year_of: -298
+  name_zh: 相齐伐楚攻秦
+  description: 薛公相齐，伐楚九年，攻秦三年，权倾一时。
+  participants:
+  - guji-田文
+- id: guji-田文-event-song-plan
+  event_type: political
+  date: -0289
+  year_of: -289
+  name_zh: 谋残宋取淮北
+  description: 薛公欲以残宋、取淮北而不得，故与齐生嫌隙。
+  participants:
+  - guji-田文
+- id: guji-田文-event-dismissal
+  event_type: political
+  date: -0287
+  year_of: -287
+  name_zh: 见弃于齐王
+  description: 齐王弃薛公，身断事；薛公失去相位，遂离齐。
+  participants:
+  - guji-田文
+- id: guji-田文-event-xuwei-pact
+  event_type: political
+  date: -0286
+  year_of: -286
+  name_zh: 薛公徐为有辞、劝晋国变以谋齐
+  description: 薛公与徐为有辞，劝晋国变，联赵奉阳君共谋齐；齐王惧，乃虑从楚、反韩哙、又欲从赵取秦。
+  participants:
+  - guji-田文
+- id: guji-田文-event-attack-qi
+  event_type: military
+  date: -0285
+  year_of: -285
+  name_zh: 与诸侯合谋攻齐
+  description: 薛公与燕赵谋合，燕王阴知齐事；薛公劝晋国变、谋齐益疾，为后世伐齐之始。
+  participants:
+  - guji-田文
+- id: guji-田文-event-death
+  event_type: death
+  date: -159
+  year_of: -237
+  name_zh: 田文去世
+  description: 孟尝君约卒于此年。
+  participants:
+  - guji-田文

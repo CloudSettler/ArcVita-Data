@@ -1,0 +1,165 @@
+person:
+  qid: guji-li-dui
+  name_zh: 李兑
+  names:
+    zh: 李兑
+    en: Li Dui
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+  birth_date: ''
+  death_date: ''
+  era: 战国
+  reign_ref: 赵惠文王时
+  archetype: 权相与主父之臣
+  dilemmas:
+  - 专赵国之权与维持合纵攻秦之间的取舍
+  - 以奉阳君之封与诸国外交利益的平衡
+  lesson: 权臣以封邑与盟约交织，终因贪利定封而定天下纵横之局
+  summary_first_person: 我李兑，世称奉阳君，当赵国之政，主合纵之谋。齐欲以陶封我，燕王请毋任苏秦以事，我与周纳言谋齐之语；后齐取宋，梁韩效地而赵不得，梁王北面临朝于邯郸。我主张完三晋之交、合纵攻秦，勿先反而收秦，以定我封于陶。
+  source_urls:
+  - 马王堆帛书《战国纵横家书》
+endeavors:
+- id: guji-li-dui-endeavor-1
+  name_zh: 专赵执政
+  phases:
+  - key: brewing
+    name_zh: 得政于赵
+    labels:
+      zh:
+      - 奉阳君
+    start_date: -0299
+    highlight_event_id: guji-li-dui-event-office
+  - key: breakthrough
+    name_zh: 主合纵之约
+    labels:
+      zh:
+      - 合纵
+      en:
+      - vertical alliance
+    start_date: -0295
+    highlight_event_id: guji-li-dui-event-alliance
+  - key: climax
+    name_zh: 谋封于陶
+    labels:
+      zh:
+      - 定封
+    start_date: -0290
+    highlight_event_id: guji-li-dui-event-fengtao
+  - key: closure
+    name_zh: 权势渐衰
+    labels:
+      zh:
+      - 见疏
+    start_date: -0288
+    highlight_event_id: guji-li-dui-event-decline
+  decisions:
+  - date: -0289
+    title_zh: 谏齐毋与秦复合
+    rationale: 恐齐秦复合为两敌以攻赵，愿王以毋遇喜奉阳君
+  - date: -0288
+    title_zh: 主张完三晋之交攻秦
+    rationale: 与国不先反，先取秦则破三晋而复臣天下，不利于赵
+- id: guji-li-dui-endeavor-2
+  name_zh: 与苏秦周旋
+  phases:
+  - key: brewing
+    name_zh: 止苏秦于赵
+    labels:
+      zh:
+      - 止臣
+    start_date: -0291
+    highlight_event_id: guji-li-dui-event-stop-su-qin
+  - key: breakthrough
+    name_zh: 使周纳告齐
+    labels:
+      zh:
+      - 毋任苏秦
+    start_date: -0290
+    highlight_event_id: guji-li-dui-event-zhouna
+  - key: climax
+    name_zh: 鬻苏秦归罪于燕
+    labels:
+      zh:
+      - 鬻臣
+    start_date: -0289
+    highlight_event_id: guji-li-dui-event-sell-su-qin
+  - key: closure
+    name_zh: 受命而诺
+    labels:
+      zh:
+      - 敬受命
+    start_date: -0288
+    highlight_event_id: guji-li-dui-event-accept
+  decisions:
+  - date: -0290
+    title_zh: 使周纳言燕毋任苏秦
+    rationale: 欲谋齐而先去燕之任臣，以安齐心
+  - date: -0288
+    title_zh: 答苏秦与国不先反之议
+    rationale: 与国先反者虽知不利必怨之，故主完交攻秦
+events:
+- id: guji-li-dui-event-office
+  person_qid: guji-li-dui
+  date: -0299
+  year_of: -299
+  type: appointment
+  name_zh: 李兑以奉阳君当赵国政
+  description_zh: 李兑为赵相，世称奉阳君，执赵国之权。
+- id: guji-li-dui-event-alliance
+  person_qid: guji-li-dui
+  date: -0290
+  year_of: -290
+  type: political_action
+  name_zh: 梁王朝奉阳君于邯郸
+  description_zh: 梁王与成阳君北面而朝奉阳君于邯郸，而赵氏不得所求之地。
+- id: guji-li-dui-event-fengtao
+  person_qid: guji-li-dui
+  date: -0290
+  year_of: -290
+  type: territory
+  name_zh: 齐以陶封奉阳君
+  description_zh: 齐以奉阳君之封，使梁韩皆效地，欲以取赵而赵不得。
+- id: guji-li-dui-event-stop-su-qin
+  person_qid: guji-li-dui
+  date: -0291
+  year_of: -291
+  type: political_action
+  name_zh: 止苏秦于赵
+  description_zh: 奉阳君止苏秦于赵，使不得之齐、之韩梁，苏秦患赵之不出己。
+- id: guji-li-dui-event-zhouna
+  person_qid: guji-li-dui
+  date: -0290
+  year_of: -290
+  type: diplomacy
+  name_zh: 使周纳告齐毋任苏秦
+  description_zh: 奉阳君使周纳告齐王曰燕王请毋任苏秦以事，又言欲谋齐。
+- id: guji-li-dui-event-sell-su-qin
+  person_qid: guji-li-dui
+  date: -0289
+  year_of: -289
+  type: political_action
+  name_zh: 鬻苏秦归罪于燕
+  description_zh: 薛公与奉阳君约攻齐，奉阳君鬻苏秦，归罪于燕，以定其封于齐。
+- id: guji-li-dui-event-accept
+  person_qid: guji-li-dui
+  date: -0288
+  year_of: -288
+  type: diplomacy
+  name_zh: 受苏秦传齐王之命
+  description_zh: 苏秦告以齐王之约，奉阳君悦曰王又使周湿长驷重命兑，兑也敬受命。
+- id: guji-li-dui-event-decline
+  person_qid: guji-li-dui
+  date: -0288
+  year_of: -288
+  type: political_note
+  name_zh: 奉阳君与齐循善以定其封
+  description_zh: 奉阳君所欲，循善齐秦以定其封，此其上计；齐赵循善则燕之大祸。
