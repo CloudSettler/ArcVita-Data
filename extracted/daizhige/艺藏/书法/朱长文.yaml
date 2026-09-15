@@ -1,0 +1,97 @@
+person:
+  qid: guji-朱长文
+  name_zh: 朱长文
+  names:
+    zh: 朱长文
+    en: Zhu Changwen
+  lifespan:
+    birth:
+      date: '1039'
+      precision: year
+      is_circa: true
+      raw: '1039'
+    death:
+      date: '1098'
+      precision: year
+      is_circa: false
+      raw: '1098'
+  birth_date: '1039'
+  death_date: '1098'
+  era: 北宋
+  reign_ref: 宋
+  archetype: 学者型书法理论家
+  dilemmas:
+  - 诸家议论分歧（如徐锴守许氏旧说与李阳冰自创新义之争），须折衷穿凿与遵循旧文之间
+  - 原本十二卷而传世六卷，另附僭增之碑刻条目，考订去取艰难
+  lesson: 综辑古人之书而不没其源头，间附己说以雅正，方能使遗文得传于后
+  summary_first_person: 我是北宋朱长文，专论书学源流，搜辑古人成书编为八门成《墨池编》，间附己说，务求典雅，使前代遗文赖以得传。
+endeavors:
+- id: guji-朱长文-endeavor-1
+  name_zh: 撰《墨池编》
+  labels:
+    zh: 书学著述
+  phases:
+  - key: brewing
+    name_zh: 罗积前代遗文
+    labels:
+      zh: 搜辑
+    highlight_event_id: guji-朱长文-event-1
+  - key: breakthrough
+    name_zh: 编类八门
+    labels:
+      zh: 成书
+    highlight_event_id: guji-朱长文-event-2
+  - key: closure
+    name_zh: 附己说以定论
+    labels:
+      zh: 评说
+  decisions:
+  - title_zh: 分书学为八门（字学、笔法、杂议、品藻、赞述、宝藏、刻碑、器用）
+    rationale: 引古人成书而编类之，搜辑甚博，使前代遗文借以得传于后
+  - title_zh: 于赞述门下自称编此书原为十卷，附器用后勒成两卷，合为十二卷
+    rationale: 因读苏大文房四谱，取其有事禆于书者，赘于墨池编之末
+- id: guji-朱长文-endeavor-2
+  name_zh: 撰《吴郡图经续记》诸书
+  labels:
+    zh: 方志撰述
+  phases:
+  - key: breakthrough
+    name_zh: 别著录于四库
+    labels:
+      zh: 传世
+  decisions:
+  - title_zh: 兼治地志与经史之学
+    rationale: 以郡国图经补文献之阙，与书学相辅
+events:
+- id: guji-朱长文-event-birth
+  type: birth
+  person_id: guji-朱长文
+  date: '1039'
+  year_of: '1039'
+  note: 生年据通行考证，约值北宋仁宗朝
+- id: guji-朱长文-event-death
+  type: death
+  person_id: guji-朱长文
+  date: '1098'
+  year_of: '1098'
+  note: 卒于北宋哲宗朝
+- id: guji-朱长文-event-1
+  type: endeavor
+  person_id: guji-朱长文
+  endeavor_id: guji-朱长文-endeavor-1
+  key: brewing
+  date: '1080'
+  year_of: '1080'
+  is_circa: true
+  title_zh: 广搜前代论书遗文
+  desc: 引古人成书而编类之，搜辑甚博，前代遗文往往借以得传于后
+- id: guji-朱长文-event-2
+  type: endeavor
+  person_id: guji-朱长文
+  endeavor_id: guji-朱长文-endeavor-1
+  key: breakthrough
+  date: '1085'
+  year_of: '1085'
+  is_circa: true
+  title_zh: 编成《墨池编》十二卷（后世并为六卷）
+  desc: 分字学、笔法、杂议、品藻、赞述、宝藏、刻碑、器用八门，每门各析次第，间附己说极典雅；后来《书苑菁华》等继作不能出其范围

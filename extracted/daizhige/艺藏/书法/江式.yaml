@@ -1,0 +1,104 @@
+person:
+  qid: guji-江式
+  name_zh: 江式
+  names:
+    zh: 江式
+    en: Jiang Shi
+  lifespan:
+    birth:
+      date: 议程
+      precision: unknown
+      is_circa: true
+      raw: 生卒年不详（北魏时期人）
+    death:
+      date: ~523
+      precision: year
+      is_circa: true
+      raw: 卒于北魏时期，约延续至其书成之后
+  birth_date: ~470
+  death_date: ~523
+  era: 北魏
+  reign_ref: 北魏世祖太武帝至孝明帝之世
+  archetype: 字学家
+  dilemmas:
+  - 欲正文字而世多俗学鄙习，穿凿虚造，难以厘改
+  - 依祖训编撰古来文字，然私家之力穷于书不全、学不博
+  lesson: 文字为经艺之本、王政之始，须遵修旧文而不穿凿
+  summary_first_person: 我出身陈留江氏，六世祖江琼从卫觊受古篆之法，家风世传斯业。逢皇魏承绪而文字舛讹，我秉持六世之资，以许慎《说文》为本，采诸家字书以类编联，上篆下隶，撰《古今文字》四十篇，上表请敕给书史学士相助，蒙诏许可，兼教八分书，冀使天下文字归于同域。
+  source_urls:
+  - guji-source
+endeavors:
+- id: guji-江式-endeavor-1
+  name_zh: 撰《古今文字》
+  phases:
+  - key: brewing
+    name_zh: 家学传习
+    labels:
+      zh:
+      - 家学
+      - 六世传业
+    start_date: ~470-01-01
+    highlight_event_id: guji-江式-event-2
+  - key: breakthrough
+    name_zh: 上表论书
+    labels:
+      zh:
+      - 呈表
+      - 请求支持
+    start_date: ~500-01-01
+    highlight_event_id: guji-江式-event-1
+  - key: climax
+    name_zh: 撰集古今文字
+    labels:
+      zh:
+      - 撰书
+      - 成家
+    start_date: ~505-01-01
+    highlight_event_id: guji-江式-event-3
+  - key: closure
+    name_zh: 诏许撰书与兼教八分
+    labels:
+      zh:
+      - 成书
+      - 教书
+    start_date: ~510-01-01
+  decisions:
+  - date: ~500-01-01
+    title_zh: 上《论书表》请敕支持
+    rationale: 以许慎《说文》为主编集古今文字，须书史学士相助方能成书
+  - date: ~505-01-01
+    title_zh: 依许氏《说文》为体例
+    rationale: 遵循旧文、不穿凿，将古籀奇字俗隶诸体班于篆下以类编联
+  highlight_event_id: guji-江式-event-3
+events:
+- id: guji-江式-event-1
+  date: ~500
+  year_of: 500
+  type: endeavor
+  title_zh: 上《论书表》，论文字之坏并请编集新书
+  related_ids:
+  - guji-江式-endeavor-1
+- id: guji-江式-event-2
+  date: ~505
+  year_of: 505
+  type: endeavor
+  title_zh: 秉家学撰集《古今文字》，以《说文》为本上篆下隶
+  related_ids:
+  - guji-江式-endeavor-1
+- id: guji-江式-event-3
+  date: ~510
+  year_of: 510
+  type: endeavor
+  title_zh: 蒙诏许可撰书集字，并就太常兼教八分书
+  related_ids:
+  - guji-江式-endeavor-1
+- id: guji-江式-event-birth
+  date: ~470
+  year_of: 470
+  type: birth
+  title_zh: 江式生（约）
+- id: guji-江式-event-death
+  date: ~523
+  year_of: 523
+  type: death
+  title_zh: 江式卒（约）
