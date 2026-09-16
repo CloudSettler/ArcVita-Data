@@ -1,0 +1,113 @@
+person:
+  qid: guji-康有为
+  name_zh: 康有为
+  names:
+    zh: 康有为
+    en: Kang Youwei
+  lifespan:
+    birth:
+      date: 1858-03-19
+      precision: day
+      is_circa: false
+      raw: 咸丰八年二月初五
+    death:
+      date: 1927-03-31
+      precision: day
+      is_circa: false
+      raw: 1927年3月31日
+  birth_date: 1858-03-19
+  death_date: 1927-03-31
+  era: 清末民初
+  reign_ref: 光绪
+  archetype: 变法维新思想家
+  dilemmas:
+  - 保守祖制与效法西法之间主张变法维新
+  - 帝党与后党之争中依附光绪推行新政
+  lesson: 穷则变，变则通，通则久；开新者兴，守旧者灭。
+  summary_first_person: 我康有为，原名祖诒，以变法维新之论上书皇帝，著《变法通议》类文稿，主张开新图强，反对守旧因循。
+  source_urls:
+  - https://example.org/guji/皇朝经世文新编
+endeavors:
+- id: guji-康有为-endeavor-1
+  name_zh: 变法维新运动
+  labels:
+    zh: 变法维新
+  phases:
+  - key: brewing
+    name_zh: 上书言事
+    labels:
+      zh: 上书言事
+    start_date: 1888-01-01
+    highlight_event_id: guji-康有为-event-1
+  - key: climax
+    name_zh: 戊戌变法
+    labels:
+      zh: 戊戌变法
+    start_date: 1898-06-11
+    highlight_event_id: guji-康有为-event-2
+  decisions:
+  - date: 1895-01-01
+    title_zh: 发起公车上书
+    rationale: 甲午战败，割台之痛，联合举人上书拒和、变法图强
+- id: guji-康有为-endeavor-2
+  name_zh: 维新著述与经世文编
+  labels:
+    zh: 维新著述
+  phases:
+  - key: brewing
+    name_zh: 撰变法通议
+    labels:
+      zh: 撰变法通议
+    start_date: 1896-01-01
+    highlight_event_id: guji-康有为-event-3
+  - key: closure
+    name_zh: 文编流布
+    labels:
+      zh: 文编流布
+    start_date: 1898-01-01
+    highlight_event_id: guji-康有为-event-4
+  decisions:
+  - date: 1896-01-01
+    title_zh: 作变法通议以告天下
+    rationale: 引易曰穷则变变则通之义，倡导新民新国之旨
+events:
+- id: guji-康有为-event-birth
+  type: birth
+  date: 1858-03-19
+  year_of: 1858
+  date_precision: day
+  description: 康有为（原名祖诒）生于广东南海。
+- id: guji-康有为-event-death
+  type: death
+  date: 1927-03-31
+  year_of: 1927
+  date_precision: day
+  description: 康有为卒。
+- id: guji-康有为-event-1
+  type: endeavor_event
+  date: 1895-05-02
+  year_of: 1895
+  date_precision: day
+  endeavor_id: guji-康有为-endeavor-1
+  description: 上今上皇帝第一书等，屡次上书言变法，提出强邻环伺之危局当变法自强。
+- id: guji-康有为-event-2
+  type: endeavor_event
+  date: 1898-06-11
+  year_of: 1898
+  date_precision: day
+  endeavor_id: guji-康有为-endeavor-1
+  description: 戊戌变法开始，光绪帝采纳维新主张推行新政。
+- id: guji-康有为-event-3
+  type: endeavor_event
+  date: 1896-01-01
+  year_of: 1896
+  date_precision: year
+  endeavor_id: guji-康有为-endeavor-2
+  description: 撰变法通议，主张开新治国，反对守旧。
+- id: guji-康有为-event-4
+  type: endeavor_event
+  date: 1898-01-01
+  year_of: 1898
+  date_precision: month
+  endeavor_id: guji-康有为-endeavor-2
+  description: 戊戌正月，所上书疏（如上今上皇帝各书、请开清江浦铁路折）被辑入皇朝经世文新编，分列通论、邮运诸卷。
