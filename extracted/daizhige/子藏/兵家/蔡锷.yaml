@@ -1,0 +1,136 @@
+person:
+  qid: guji-蔡锷
+  name_zh: 蔡锷
+  names:
+    zh: 蔡锷
+    en: Cai E
+  lifespan:
+    birth:
+      date: '1882-12-18'
+      precision: day
+      is_circa: false
+      raw: 1882年
+    death:
+      date: '1916-11-08'
+      precision: day
+      is_circa: false
+      raw: 民国五年
+  birth_date: '1882-12-18'
+  death_date: '1916-11-08'
+  era: 清末民国
+  reign_ref: 宣统 / 民国
+  archetype: 军事家 / 护国元勋
+  dilemmas:
+  - 身膺军职，欲救国渡民，然强邻环伺、内乱频仍，以死为归宿，志愿难达万一
+  lesson: 以良心血性驱使行事，耿耿精忠，百折不磨，方可渡同胞于苦海、置国家于坦途
+  summary_first_person: 我松坡一生以救国为目的，以死为归宿。辛亥之春应李公之召参戎职于云南，时片 马交涉方殷、瓜分谣诼忽起，我厉兵秣马，赴机待死。因钟公有嘱，我编《曾胡治兵语 录》以代精神讲话，就曾、胡两公治兵言论分类凑辑、附以按语，冀同袍列校身体力
+    行。后来护国军起，使民国生死肉骨，此皆良心血性二者所驱使也。
+endeavors:
+- id: guji-蔡锷-endeavor-1
+  name_zh: 编纂《曾胡治兵语录》
+  phases:
+  - key: brewing
+    name_zh: 应命受嘱
+    labels:
+      zh:
+      - 受嘱编书
+    start_date: 1911-06
+    highlight_event_id: guji-蔡锷-event-compile
+  - key: breakthrough
+    name_zh: 分类凑辑
+    labels:
+      zh:
+      - 分类辑录，附以按语
+    start_date: 1911-07
+    highlight_event_id: guji-蔡锷-event-compile
+  - key: climax
+    name_zh: 代精神讲话
+    labels:
+      zh:
+      - 训勉同袍
+    start_date: 1911-08
+  - key: closure
+    name_zh: 遗著刊行
+    labels:
+      zh:
+      - 身殁书传
+    start_date: 1917-04
+    highlight_event_id: guji-蔡锷-event-book-publish
+  decisions:
+  - date: 1911-06
+    title_zh: 决意述古而编曾胡治兵语录
+    rationale: 论今不如述古；曾、胡两公其人其事距今仅半世纪，遗型不远，其言论多洞中窍要、深切时弊，故分类凑辑、附以按语，以代精神讲话
+- id: guji-蔡锷-endeavor-2
+  name_zh: 起兵护国
+  phases:
+  - key: brewing
+    name_zh: 志在救国
+    labels:
+      zh:
+      - 以救国为目的
+    start_date: 1911-03
+  - key: breakthrough
+    name_zh: 护国军起
+    labels:
+      zh:
+      - 起义讨逆
+    start_date: 1915-12
+    highlight_event_id: guji-蔡锷-event-huguang
+  - key: climax
+    name_zh: 再造共和
+    labels:
+      zh:
+      - 民国生死肉骨
+    start_date: 1916-01
+  - key: closure
+    name_zh: 赍志而殁
+    labels:
+      zh:
+      - 志愿未达万一
+    start_date: 1916-11
+    highlight_event_id: guji-蔡锷-event-death
+  decisions:
+  - date: 1915-12
+    title_zh: 举护国军以讨窃国者
+    rationale: 身膺军职，非大发志愿、以救国为目的、以死为归宿，不足渡同胞于苦海、置国家于坦途
+events:
+- id: guji-蔡锷-event-birth
+  date: '1882-12-18'
+  year_of: 1882
+  type: birth
+  name_zh: 蔡锷生
+  description: 松坡生于湖南宝庆府邵阳
+- id: guji-蔡锷-event-recruit
+  date: 1911-03
+  year_of: 1911
+  type: endeavor
+  endeavor_id: guji-蔡锷-endeavor-2
+  name_zh: 辛亥之春应召参戎职
+  description: 应合肥李公之召，谬参戎职；时片马问题纠葛方殷，瓜分之谣诼忽起，厉兵秣马，赴机待死
+- id: guji-蔡锷-event-compile
+  date: 1911-07
+  year_of: 1911
+  type: endeavor
+  endeavor_id: guji-蔡锷-endeavor-1
+  name_zh: 宣统三年季夏编成《曾胡治兵语录》
+  description: 统制钟公有嘱编精神讲话之命，就曾、胡治兵言论分类凑辑，附以按语，识于昆明
+- id: guji-蔡锷-event-huguang
+  date: 1915-12
+  year_of: 1915
+  type: endeavor
+  endeavor_id: guji-蔡锷-endeavor-2
+  name_zh: 护国军之起
+  description: 护国军起，仅使民国生死肉骨；如大病方苏，元气已伤
+- id: guji-蔡锷-event-death
+  date: '1916-11-08'
+  year_of: 1916
+  type: death
+  name_zh: 松坡死于国事
+  description: 救国志愿曾未达其万一，赍志以殁
+- id: guji-蔡锷-event-book-publish
+  date: 1917-04
+  year_of: 1917
+  type: endeavor
+  endeavor_id: guji-蔡锷-endeavor-1
+  name_zh: 遗著《曾胡治兵语录》刊行于世
+  description: 松坡既死于国事，越一年，国人刊其遗著行于世；梁启超序之
