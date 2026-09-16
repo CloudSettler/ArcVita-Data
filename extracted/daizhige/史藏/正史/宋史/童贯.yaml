@@ -1,0 +1,220 @@
+person:
+  qid: guji-童贯
+  name_zh: 童贯
+  names:
+    zh: 童贯
+    en: Tong Guan
+  lifespan:
+    birth:
+      date: '1054'
+      precision: year
+      is_circa: true
+      raw: 约1054年（据卒年推知）
+    death:
+      date: '1126'
+      precision: year
+      is_circa: false
+      raw: 靖康初，被诛于南雄
+  birth_date: '1054'
+  death_date: '1126'
+  era: 北宋
+  reign_ref: 徽宗、钦宗
+  archetype: 权阉统帅
+  dilemmas:
+  - 宦官身份与握兵二十年的权位之间的张力
+  - 对西夏、辽、金的军事决策屡遭质疑却隐败冒功
+  lesson: 依恃君宠、隐败饰功的权臣终将身首异处、名誉扫地
+  summary_first_person: 我以宦官之身出李宪之门，因徽宗信任握兵二十年，平方腊、复燕山，封广阳郡王，然金人南侵时弃太原而遁，终被钦宗下诏诛于南雄，枭首都市。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷468
+endeavors:
+- id: guji-童贯-endeavor-1
+  name_zh: 监军西北、经略青唐与对夏战事
+  phases:
+  - key: brewing
+    name_zh: 结蔡京出知兵事
+    labels:
+      zh:
+      - 监军
+      - 西北经略
+    start_date: '1100'
+    highlight_event_id: guji-童贯-event-2
+  - key: breakthrough
+    name_zh: 复四州与积石洮州之捷
+    labels:
+      zh:
+      - 复四州
+      - 加检校司空
+    start_date: '1104'
+    highlight_event_id: guji-童贯-event-3
+  - key: climax
+    name_zh: 逼刘法出塞而败，隐败冒功
+    labels:
+      zh:
+      - 古骨龙
+      - 纳款
+    start_date: '1118'
+    highlight_event_id: guji-童贯-event-4
+  - key: closure
+    name_zh: 军政尽坏，夏人纳款
+    labels:
+      zh:
+      - 军政尽坏
+    start_date: '1120'
+    highlight_event_id: guji-童贯-event-4
+  decisions:
+  - date: '1104'
+    title_zh: 藏匿徽宗停兵手札，坚持出师复四州
+    rationale: 称『上趣成功耳』，赌皇帝必欲成功，遂拥兵冒进并获功
+  - date: '1118'
+    title_zh: 逼大将刘法出塞取朔方
+    rationale: 以君命相胁，求制夏人死命之奇功，致法遇伏而死而隐其败
+- id: guji-童贯-endeavor-2
+  name_zh: 平定方腊起义
+  phases:
+  - key: brewing
+    name_zh: 改任江浙淮南宣抚使
+    labels:
+      zh:
+      - 宣抚使
+    start_date: '1120'
+    highlight_event_id: guji-童贯-event-5
+  - key: breakthrough
+    name_zh: 率禁旅与秦晋蕃汉兵十五万东征
+    labels:
+      zh:
+      - 十五万东征
+    start_date: 1121-01
+    highlight_event_id: guji-童贯-event-5
+  - key: climax
+    name_zh: 清河堰进兵、收复失城
+    labels:
+      zh:
+      - 清河堰
+    start_date: 1121-02
+    highlight_event_id: guji-童贯-event-6
+  - key: closure
+    name_zh: 生擒方腊、余党悉平
+    labels:
+      zh:
+      - 生擒方腊
+      - 进太师
+    start_date: 1121-04
+    highlight_event_id: guji-童贯-event-6
+  decisions:
+  - date: 1121-01
+    title_zh: 作诏罢应奉局以安东南民心
+    rationale: 徽宗谕贯罢应奉局，借革除花石之扰削方腊起事之由
+- id: guji-童贯-endeavor-3
+  name_zh: 平燕之谋与北防金人
+  phases:
+  - key: brewing
+    name_zh: 使辽得马植，造平燕之谋
+    labels:
+      zh:
+      - 平燕之谋
+    start_date: '1111'
+    highlight_event_id: guji-童贯-event-7
+  - key: breakthrough
+    name_zh: 复燕山之功，封广阳郡王
+    labels:
+      zh:
+      - 广阳郡王
+    start_date: '1123'
+    highlight_event_id: guji-童贯-event-7
+  - key: closure
+    name_zh: 金人南侵，弃太原南遁
+    labels:
+      zh:
+      - 弃太原
+      - 南遁
+    start_date: '1126'
+    highlight_event_id: guji-童贯-event-8
+  decisions:
+  - date: '1111'
+    title_zh: 副郑允中使辽并收纳燕人马植
+    rationale: 得燕人马植归荐于朝，遂成联金图燕之策
+  - date: '1126'
+    title_zh: 太原危急时借口『受命宣抚，非守土』南逃
+    rationale: 畏金势气褫，不顾张孝纯之诮，携胜捷军拥上皇南巡，终致利剑加颈
+events:
+- id: guji-童贯-event-birth
+  year_of: '1054'
+  date: '1054'
+  precision: year
+  kind: person-birth
+  summary: 童贯约生于此年，少年出李宪之门，后自给事宫掖。
+  refs:
+  - 新宋史纪传文本（卷四六八宦者传）
+- id: guji-童贯-event-1
+  year_of: '1100'
+  date: '1100'
+  precision: year
+  kind: career-transition
+  summary: 徽宗立，置明金局于杭州，童贯以供奉官主之，始与蔡京游；蔡京进用多赖童贯之力。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-2
+  year_of: '1102'
+  date: '1102'
+  precision: year
+  kind: appointment
+  summary: 蔡京既相，赞策取青唐，力荐童贯尝十使陕右、审五路事宜之能，遂用李宪故事监王厚军。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-3
+  year_of: '1104'
+  date: '1104'
+  precision: year
+  kind: military-victory
+  summary: 童贯匿徽宗停兵手札而出师，师竟出复四州，擢景福殿使、襄州观察使；后讨溪哥臧征，复积石军、洮州，加检校司空。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-4
+  year_of: '1118'
+  date: '1118'
+  precision: year
+  kind: military-campaign
+  summary: 童贯将秦晋锐师深入河陇，薄萧关古骨龙，逼刘法取朔方，法遇伏死；贯隐其败以捷闻，夏人终因辽人进誓表纳款。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-5
+  year_of: '1121'
+  date: 1121-01
+  precision: month
+  kind: military-victory
+  summary: 方腊起事后，童贯改江、浙、淮南宣抚使，率禁旅及秦、晋蕃汉兵十五万东征，正月前锋大破方七佛于秀州。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-6
+  year_of: '1121'
+  date: 1121-04
+  precision: month
+  kind: military-victory
+  summary: 四月，官军生擒方腊及妻孥等于梓桐石穴，余党至宣和四年三月悉平；进贯太师，徙国楚。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-7
+  year_of: '1125'
+  date: '1125'
+  precision: year
+  kind: award
+  summary: 以复燕山功，诏解节钺为真三公，加封徐、豫两国；宣和七年依神宗遗训封广阳郡王，居宦官封王之极。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-8
+  year_of: '1126'
+  date: '1126'
+  precision: year
+  kind: downfall
+  summary: 金人南侵，贯弃太原南遁，钦宗即位后数其十大罪，命监察御史张澂追至南雄斩之，函首赴阙枭于都市。
+  refs:
+  - 宋史卷468
+- id: guji-童贯-event-death
+  year_of: '1126'
+  date: '1126'
+  precision: year
+  kind: person-death
+  summary: 童贯于南雄被诛，既诛函首赴阙，枭于都市。
+  refs:
+  - 宋史卷468
