@@ -1,0 +1,97 @@
+person:
+  qid: guji-张顺
+  name_zh: 张顺
+  names:
+    zh: 张顺
+    en: Zhang Shun
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: '1272'
+      precision: year
+      is_circa: false
+      raw: 咸淳八年（1272年）
+  birth_date: ''
+  death_date: '1272'
+  era: 南宋
+  reign_ref: 宋度宗咸淳年间
+  archetype: 死士之将 / 忠烈民兵都统
+  dilemmas:
+  - 襄阳被围五年、援绝，是否冒险轻舟突围入援，明知有死无生
+  - 出令「此行有死而已」，遣散非本心者，独留三千死士
+  lesson: 知其不可而为之，以一死衔命破重围，虽殁犹为神。
+  summary_first_person: 我张顺，人称「矮张」，襄阳被围五年，我以民兵部将受任都统，率轻舟百艘、死士三千，乘风破浪冲破重围，转战百二十里抵襄城下，身中四枪六箭而死，尸浮逆流直抵浮梁，城中立庙祀我。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷450
+endeavors:
+- id: guji-张顺-endeavor-1
+  name_zh: 清泥河造舟募死士
+  phases:
+  - key: brewing
+    name_zh: 察清泥河源，造轻舟百艘
+    labels:
+      zh:
+      - 筹备
+    start_date: '1271'
+    highlight_event_id: guji-张顺-event-shipbuilding
+  - key: breakthrough
+    name_zh: 重赏募死士三千，与张贵拜都统
+    labels:
+      zh:
+      - 募勇
+    start_date: '1271'
+    highlight_event_id: guji-张顺-event-recruit
+  - key: climax
+    name_zh: 乘汉水涨起矴出江，破门而入
+    labels:
+      zh:
+      - 突围
+    start_date: '1272'
+    highlight_event_id: guji-张顺-event-breakthrough
+  - key: closure
+    name_zh: 殿后战死，浮尸溯流抵浮梁，结冢立庙
+    labels:
+      zh:
+      - 殉国
+    start_date: '1272'
+    highlight_event_id: guji-张顺-event-death
+  decisions:
+  - date: '1271'
+    title_zh: 于清泥河造轻舟百艘，出重赏募死士三千
+    rationale: 襄阳被围五年，西北清泥河源出均房，可由此水路突入；不惜重赏，惟求死士。
+  - date: '1272'
+    title_zh: 受任都统，申令「此行有死而已」，遣散非本心之人
+    rationale: 此行为死命之役，恐中途败事，故先明死志、汰去意志不坚者。
+events:
+- id: guji-张顺-event-shipbuilding
+  year_of: 1271
+  date: '1271'
+  date_precision: year
+  title_zh: 于清泥河造轻舟百艘，三舟联为一舫
+  desc_zh: 张顺知襄阳西北清泥河源于均、房，即其地造轻舟百艘，中舟装载，左右舟虚底掩覆。
+  type: endeavor
+- id: guji-张顺-event-recruit
+  year_of: 1271
+  date: '1271'
+  date_precision: year
+  title_zh: 出重赏募死士三千，张顺受任都统
+  desc_zh: 重赏募得死士三千，求将得张顺与张贵，俗呼顺曰「矮张」，俱智勇，拜为都统，申令「此行有死而已」。
+  type: endeavor
+- id: guji-张顺-event-breakthrough
+  year_of: 1272
+  date: '1272'
+  date_precision: year
+  title_zh: 起矴出江乘风破浪，转战百二十里抵襄城下
+  desc_zh: 汉水方生，夜漏下三刻以红灯为识，贵先登、顺殿后，旤断铁縆攒杙数百，黎明抵襄城下，城中踊跃气百倍。
+  type: endeavor
+- id: guji-张顺-event-death
+  year_of: 1272
+  date: '1272'
+  date_precision: year
+  title_zh: 殿后陈亡，身中四枪六箭，浮尸直抵浮梁
+  desc_zh: 收军独失顺，数日后有浮尸被介胄执弓矢溯流直抵浮梁，视之顺也，身中四枪六箭，怒气勃勃如生，诸军惊以为神，结冢敛葬立庙祀之。
+  type: endeavor

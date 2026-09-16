@@ -1,0 +1,117 @@
+person:
+  qid: guji-张贵
+  name_zh: 张贵
+  names:
+    zh: 张贵
+    en: Zhang Gui
+  lifespan:
+    death:
+      date: ~1272
+      precision: year
+      is_circa: true
+      raw: 襄阳被围期间战死
+  era: 南宋末年（宋元之际）
+  reign_ref: 宋度宗咸淳年间
+  archetype: 死守孤城的忠勇民兵都统
+  dilemmas:
+  - 明知突围必死，仍决意出郢求援、往返死地
+  - 行事泄露后速进冒死与隐匿缓行的抉择
+  lesson: 智勇赴义，虽陷重围犹不屈而死，气节可贯金石
+  summary_first_person: 我张贵，人称“竹园张”，以骁勇智谋为诸将所服。襄阳被围五年，我受命为都统，率死士乘轻舟乘风破浪、断缆破围，冲过北军舟师百余里，抵达襄阳城下，城中闻救，士气百倍。斩缆冒进之后，我欲还郢求援，遣敢死之士伏水锯桩、持蜡书达郢，约得龙尾洲援兵夹击。不意逃卒泄谋、郢军惊退，龙尾洲反为北兵所据。我力战疲困，身被数十枪，被执不降，遂死。敌舁尸至城下示威，守城者皆哭。吕文焕斩降卒，以我与张顺祔葬，立双庙祀之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷450
+endeavors:
+- id: guji-张贵-endeavor-1
+  name_zh: 破围救襄
+  labels:
+    zh:
+    - 军事
+    - 襄阳之围
+  start_date: ~1272
+  highlight_event_id: guji-张贵-event-breakthrough
+  phases:
+  - key: brewing
+    name_zh: 募死士造轻舟
+    labels:
+      zh:
+      - 备战
+    start_date: ~1271
+  - key: breakthrough
+    name_zh: 乘风破浪入襄阳
+    labels:
+      zh:
+      - 突围
+    start_date: ~1272
+    highlight_event_id: guji-张贵-event-breakthrough
+  - key: climax
+    name_zh: 蜡书赴郢求援
+    labels:
+      zh:
+      - 求援
+    start_date: ~1272
+  - key: closure
+    name_zh: 龙尾洲兵败殉国
+    labels:
+      zh:
+      - 殉国
+    start_date: ~1272
+    highlight_event_id: guji-张贵-event-death
+  decisions:
+  - date: ~1272
+    title_zh: 开诚布公告诫死士
+    rationale: 出令“此行有死而已”，恐士卒非本心败事，令不愿者速去。
+  - date: ~1272
+    title_zh: 账下一卒亡去即惊觉事泄，举砲鼓噪连夜发舟
+    rationale: 料逃卒必报北军，置之死地而后生，不能衔枚隐迹，遂乘夜顺流断缆破围冒进。
+  - date: ~1272
+    title_zh: 遣二士伏水持蜡书赴郢求援
+    rationale: 欲还郢再拊襄阳之背，约龙尾洲五千援兵夹击北军。
+events:
+- id: guji-张贵-event-birth
+  year_of: ~1235
+  date: ~1235
+  precision: year
+  is_circa: true
+  raw: 生年不详
+  name_zh: 张贵生
+  desc: 张贵生年史无明载，湖北民兵部将，人称“竹园张”。
+- id: guji-张贵-event-recruit
+  year_of: ~1272
+  date: ~1272
+  precision: year
+  is_circa: true
+  raw: 襄阳被围五年后
+  name_zh: 受命都统，率死士造舟备战
+  desc: 襄阳被围五年，宋人于清泥河造轻舟百艘，重赏募死士三千，得张贵与张顺为都统，俗呼贵为“竹园张”，俱智勇，素为诸将所服。
+- id: guji-张贵-event-breakthrough
+  year_of: ~1272
+  date: ~1272
+  precision: year
+  is_circa: true
+  raw: 汉水方生之夜
+  name_zh: 乘夜破围百二十里抵达襄阳
+  desc: 贵先登、顺殿后，乘夜举砲鼓噪出江，断铁縆攒杙数百，转战百二十里，黎明抵襄城下，城中踊跃气百倍。
+- id: guji-张贵-event-lashu
+  year_of: ~1272
+  date: ~1272
+  precision: year
+  is_circa: true
+  raw: 既抵襄阳后
+  name_zh: 遣死士伏水锯桩，持蜡书赴郢
+  desc: 北兵连锁数十里、列撒星桩，二士遇桩即锯断，竟达郢，许发兵五千驻龙尾洲助夹击。
+- id: guji-张贵-event-ambush
+  year_of: ~1272
+  date: ~1272
+  precision: year
+  is_circa: true
+  raw: 出郢东下之夜
+  name_zh: 龙尾洲中伏，力战被执
+  desc: 东下至勾林滩，望军船举流星火示之，近则皆北兵——郢兵已退屯三十里，北兵据龙尾洲以逸待劳。贵战困，身被数十枪，被执不屈。
+- id: guji-张贵-event-death
+  year_of: ~1272
+  date: ~1272
+  precision: year
+  is_circa: true
+  raw: 龙尾洲败后
+  name_zh: 不屈而死，尸舁至襄阳城下
+  desc: 贵卒不屈，死之。北军命降卒舁尸至襄，令于城下示威，守陴者皆哭。吕文焕斩四卒，以贵祔葬张顺冢，立双庙祀之。
