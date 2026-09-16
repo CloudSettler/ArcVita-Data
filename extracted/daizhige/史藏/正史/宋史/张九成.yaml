@@ -1,0 +1,130 @@
+person:
+  qid: guji-张九成
+  name_zh: 张九成
+  names:
+    zh: 张九成
+    en: Zhang Jiucheng
+  lifespan:
+    birth:
+      date: 1092
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: 1159
+      precision: year
+      is_circa: true
+      raw: 数月后病卒（约绍兴末）
+  birth_date: 1092
+  death_date: 1159
+  era: 南宋
+  reign_ref: 绍兴
+  archetype: 直言敢谏的理学家与孤傲士人
+  dilemmas:
+  - 拒绝权贵引荐而坚守节操，还是借机入仕飞黄腾达
+  - 反对屈膝和议而触怒秦桧遭谪，还是委曲求全保官位
+  lesson: 未有枉己而能直人——立身刚大，不因得丧屈志
+  summary_first_person: 我张九成，字子韶，先世开封人，后徙钱塘。师事杨时，绍兴二年廷对直言，力陈金有必亡、宋有必兴之理，擢置首选。为官恤刑平反，不肯苟取；金人议和之际，我坚决主张敌情多诈、不可轻易苟安，遂遭秦桧忌恨，谪守邵州，又谪居南安军十四年，倚立庭砖读书，双趺隐然。桧死后起知温州，痛陈督粮之弊，乞祠归，数月病卒。谥文忠，封崇国公。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷374
+endeavors:
+- id: guji-张九成-endeavor-1
+  name_zh: 廷对首选与恤刑为官
+  phases:
+  - key: brewing
+    name_zh: 师从杨时与拒权贵
+    labels:
+      zh:
+      - 求学
+      - 拒贿
+    start_date: 1132
+    highlight_event_id: guji-张九成-event-jujue
+  highlight_event_id: guji-张九成-event-tingdui
+  events:
+  - guji-张九成-event-jujue
+  - guji-张九成-event-tingdui
+  - guji-张九成-event-pingfan
+  decisions:
+  - date: 1132
+    title_zh: 廷对直言策论
+    rationale_zh: 考官奉诏直言者置高第，遂力陈刚大之气与中兴之理
+  - date: 1135
+    title_zh: 争冒鹾禁之囚后投檄归
+    rationale_zh: 主上屡下恤刑之诏，不可体察宰相观望之意
+- id: guji-张九成-endeavor-2
+  name_zh: 反对和议与谪居著述
+  phases:
+  - key: breakthrough
+    name_zh: 议和之争
+    labels:
+      zh:
+      - 谏和
+      - 忤桧
+    start_date: 1138
+    highlight_event_id: guji-张九成-event-jinjian
+  - key: closure
+    name_zh: 谪居南安十四年
+    labels:
+      zh:
+      - 贬谪
+      - 著述
+    start_date: 1145
+    highlight_event_id: guji-张九成-event-zheju
+  highlight_event_id: guji-张九成-event-zheju
+  events:
+  - guji-张九成-event-jinjian
+  - guji-张九成-event-zheju
+  - guji-张九成-event-wenzhou
+  decisions:
+  - date: 1138
+    title_zh: 拒秦桧诱成和议
+    rationale_zh: 不可轻易以苟安，未有枉己而能直人
+  - date: 1145
+    title_zh: 南安十四年执书就明
+    rationale_zh: 谪居中不废研学经学，多所训解
+events:
+- id: guji-张九成-event-birth
+  event_type: birth
+  date: 1092
+  year_of: 1092
+  summary_zh: 张九成生（约1092年，先世开封人，徙居钱塘）
+- id: guji-张九成-event-jujue
+  event_type: refusal
+  date: 1132
+  year_of: 1132
+  summary_zh: 权贵遣人致币诱其依附，九成笑拒：王良尚羞与嬖奚乘，吾可为贵游客耶
+- id: guji-张九成-event-tingdui
+  event_type: career_event
+  date: 1132
+  year_of: 1132
+  summary_zh: 绍兴二年廷对直言，陈金有必亡之势、中国有必兴之理，擢置进士首选
+- id: guji-张九成-event-pingfan
+  event_type: career_event
+  date: 1140
+  year_of: 1140
+  summary_zh: 权刑部侍郎时阅大辟成案请覆实，囚果诬服；朝论欲以平反为赏，辞之
+- id: guji-张九成-event-jinjian
+  event_type: political_conflict
+  date: 1138
+  year_of: 1138
+  summary_zh: 金人议和，谓赵鼎金实厌兵而张虚声；拒秦桧诱成和议，上言敌情多诈不可不察
+- id: guji-张九成-event-zheju
+  event_type: exile
+  date: 1145
+  year_of: 1145
+  summary_zh: 秦桧恶其经筵言灾异，谪守邵州；后以与宗杲往还谤讪朝政，谪居南安军十四年
+- id: guji-张九成-event-wenzhou
+  event_type: career_event
+  date: 1156
+  year_of: 1156
+  summary_zh: 桧死后起知温州，移书痛陈户部督粮之弊，持之不果即丐祠归，数月病卒
+- id: guji-张九成-event-honor
+  event_type: award
+  date: 1225
+  year_of: 1225
+  summary_zh: 宝庆初追赠太师，封崇国公，谥文忠
+- id: guji-张九成-event-death
+  event_type: death
+  date: 1159
+  year_of: 1159
+  summary_zh: 乞祠归后数月病卒（约绍兴末，1159年前后）
