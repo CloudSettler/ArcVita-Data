@@ -1,0 +1,207 @@
+person:
+  qid: guji-caijing
+  name_zh: 蔡京
+  names:
+    zh: 蔡京
+    en: Cai Jing
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: 1126
+      precision: year
+      is_circa: false
+      raw: 行至潭州死，年八十
+  birth_date: ''
+  death_date: 1126
+  era: 北宋
+  reign_ref: 熙宁 / 崇宁 / 宣和
+  archetype: 权相
+  dilemmas:
+  - 固位与报刊国孰先：屡罢屡起，蒲伏扣头祈哀以保权位
+  - 「绍述」新旧法之间反复依违，见利忘义
+  lesson: 奸相弄权，倾覆宗社，终谴死道路而为天下所恨
+  summary_first_person: 我蔡京，字元长，兴化仙游人，熙宁三年登进士第，四度当国，倡丰亨豫大之说，竭天下以自奉，名列六贼之首，钦宗时贬死于潭州。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷472
+endeavors:
+- id: guji-caijing-endeavor-1
+  name_zh: 仕宦崛起与熙宁绍述
+  phases:
+  - key: brewing
+    name_zh: 登科入仕
+    labels:
+      zh:
+      - 进士
+      - 钱塘尉
+      - 起居郎
+    start_date: '1070'
+  - key: breakthrough
+    name_zh: 复差役法如约
+    labels:
+      zh:
+      - 司马光秉政
+      - 悉改畿县雇役
+    start_date: '1085'
+    highlight_event_id: guji-caijing-event-yiyue
+  - key: climax
+    name_zh: 绍圣定雇役
+    labels:
+      zh:
+      - 权户部尚书
+      - 取熙宁成法施行
+    start_date: '1094'
+    highlight_event_id: guji-caijing-event-hu-bu
+- id: guji-caijing-endeavor-2
+  name_zh: 四度当国
+  phases:
+  - key: breakthrough
+    name_zh: 崇宁拜相
+    labels:
+      zh:
+      - 右仆射
+      - 左仆射
+      - 讲议司
+    start_date: '1102'
+    highlight_event_id: guji-caijing-event-baixiang
+  - key: climax
+    name_zh: 丰亨豫大与更盐钞法
+    labels:
+      zh:
+      - 改盐钞
+      - 铸当十大钱
+      - 党人碑
+      - 延福宫艮岳
+    start_date: 1102-07
+    highlight_event_id: guji-caijing-event-yanchao
+  - key: closure
+    name_zh: 宣和再罢与贬死
+    labels:
+      zh:
+      - 致仕
+      - 六贼之首
+      - 贬儋州
+      - 死于潭州
+    start_date: '1120'
+    highlight_event_id: guji-caijing-event-death
+  decisions:
+  - date: '1101'
+    title_zh: 结童贯以营复起
+    rationale_zh: 童贯以供奉官访书画于杭，京与游不舍昼夜，凡所画屏幛扇带达禁中，帝由是属意
+  - date: '1102'
+    title_zh: 置讲议司自为提举
+    rationale_zh: 阴托绍述之柄，箝制天子，凡政事之大者皆由讲议司出
+  - date: '1105'
+    title_zh: 更定盐钞法
+    rationale_zh: 旧钞尽废，富商巨贾数十万缗一旦化为流丐
+  - date: '1102'
+    title_zh: 刻元祐党人碑
+    rationale_zh: 司马光等三百九人目为奸党，锢其子孙，不得官京师及近甸
+events:
+- id: guji-caijing-event-birth
+  type: birth
+  year_of: 1047
+  date: ''
+  precision: inferred
+  is_circa: true
+  raw: ''
+  summary_zh: 蔡京生，兴化仙游人（据卒年八十逆推）
+- id: guji-caijing-event-jinshi
+  type: career-start
+  year_of: 1070
+  date: '1070'
+  precision: year
+  is_circa: false
+  raw: 熙宁三年登进士第
+  summary_zh: 登熙宁三年进士第，调钱塘尉、舒州推官
+- id: guji-caijing-event-yiyue
+  type: event
+  year_of: 1086
+  date: '1086'
+  precision: year
+  is_circa: false
+  raw: 元丰末司马光秉政，复差役法，为期五日
+  summary_zh: 五日内悉改畿县雇役无一违者，司马光叹曰使人人奉法如君
+- id: guji-caijing-event-hu-bu
+  type: event
+  year_of: 1094
+  date: '1094'
+  precision: year
+  is_circa: false
+  raw: 绍圣初，入权户部尚书，雇役遂定
+  summary_zh: 谓章惇曰取熙宁成法施行之尔，雇役遂定
+- id: guji-caijing-event-baixiang
+  type: appointment
+  year_of: 1102
+  date: '1102'
+  precision: year
+  is_circa: false
+  raw: 崇宁元年拜尚书右仆射，二年正月进左仆射
+  summary_zh: 崇宁元年拜右仆射，代曾布，制下之日赐坐延和殿
+- id: guji-caijing-event-yanchao
+  type: event
+  year_of: 1102
+  date: 1102-07
+  precision: year
+  is_circa: false
+  raw: 崇宁元年七月改盐钞法
+  summary_zh: 尽更盐钞法，凡旧钞皆弗用，富商巨贾化为流丐，甚者赴水及缢死
+- id: guji-caijing-event-party-stele
+  type: event
+  year_of: 1103
+  date: '1103'
+  precision: year
+  is_circa: true
+  raw: 目曰奸党，刻石文德殿门，自书为大碑，遍班郡国
+  summary_zh: 以司马光为首定元祐、元符奸党两籍三百九人，刻石文德殿门并遍颁郡国
+- id: guji-caijing-event-jisi
+  type: resignation
+  year_of: 1109
+  date: '1109'
+  precision: year
+  is_circa: false
+  raw: 大观三年，台谏交论其恶，遂致仕
+  summary_zh: 大观三年台谏交论其恶，致仕，犹提举修《哲宗实录》
+- id: guji-caijing-event-recall
+  type: appointment
+  year_of: 1112
+  date: '1112'
+  precision: year
+  is_circa: false
+  raw: 政和二年，召还京师，复辅政
+  summary_zh: 政和二年召还复辅政，徙封鲁国，三日一至都堂治事
+- id: guji-caijing-event-retire-xuanhe
+  type: resignation
+  year_of: 1120
+  date: '1120'
+  precision: year
+  is_circa: false
+  raw: 宣和二年，令致仕
+  summary_zh: 宣和二年令致仕
+- id: guji-caijing-event-zaqi
+  type: appointment
+  year_of: 1124
+  date: '1124'
+  precision: year
+  is_circa: false
+  raw: 宣和六年，以朱勔为地，再起领三省
+  summary_zh: 宣和六年再起领三省，四当国，目昏眊，事皆决于季子绦
+- id: guji-caijing-event-final-banish
+  type: demotion
+  year_of: 1126
+  date: '1126'
+  precision: year
+  is_circa: false
+  raw: 钦宗即位，连贬崇信、庆远军节度副使，衡州安置，又徙韶、儋二州
+  summary_zh: 天下罪京为六贼之首，连贬节度副使，安置衡州，又徙韶、儋二州
+- id: guji-caijing-event-death
+  type: death
+  year_of: 1126
+  date: '1126'
+  precision: year
+  is_circa: false
+  raw: 行至潭州死，年八十
+  summary_zh: 行至潭州死，年八十，子攸、翛伏诛，诸子诸孙分徙远恶郡
