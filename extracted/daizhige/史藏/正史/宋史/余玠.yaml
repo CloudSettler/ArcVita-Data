@@ -1,0 +1,150 @@
+person:
+  qid: guji-余玠
+  name_zh: 余玠
+  names:
+    zh: 余玠
+    en: Yu Jie
+  lifespan:
+    birth:
+      date: 约-1199
+      precision: year
+      is_circa: true
+      raw: 生年不详，约庆元前后
+    death:
+      date: 1253
+      precision: year
+      is_circa: false
+      raw: 宝祐元年暴卒
+  birth_date: 约-1199
+  death_date: 1253
+  era: 南宋
+  reign_ref: 理宗嘉熙、淳祐、宝祐年间
+  archetype: 山城防御体系缔造者
+  dilemmas:
+  - 刚直任事与(kernel)朝中谗毁猜疑之冲突
+  - 久假便宜之权而昧于勇退
+  - 整军诛悍将之决断与兵变之险
+  lesson: 集众思、广忠益，用贤者成大功；然功高不退易招祸。
+  summary_first_person: 我余玠以布衣投军，受赵葵知遇而入幕府，屡立战功。淳祐初自许手挈全蜀还本朝，拜四川安抚制置使，大更弊政，筑招贤馆纳冉琎、冉璞兄弟之谋，徙合州城于钓鱼山，因山为垒筑十余城，屯兵聚粮，整军诛王夔，修学养士，薄赋通商，蜀以富实。然久专阃外之权，遭谢方叔等谗构，宝祐元年闻召命愈不自安，一夕暴卒，蜀人悲慕如失父母。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷416
+endeavors:
+- id: guji-余玠-endeavor-1
+  name_zh: 从军入幕、屡立战功
+  phases:
+  - key: brewing
+    name_zh: 白鹿洞诸生流落襄淮
+    labels:
+      zh:
+      - 少年落魄
+      - 好大言
+    start_date: 约-1220
+  - key: breakthrough
+    name_zh: 冒谒赵葵留幕
+    labels:
+      zh:
+      - 作长短句上谒
+    start_date: 约-1230
+  - key: climax
+    name_zh: 汴城河阴战功、援安丰
+    labels:
+      zh:
+      - 授直华文阁
+      - 拜大理少卿
+    start_date: 1239
+    highlight_event_id: guji-余玠-event-anfeng
+  - key: closure
+    name_zh: 进权兵部侍郎、四川宣谕使
+    labels:
+      zh:
+      - 手挈全蜀还本朝
+    start_date: 1242
+  decisions:
+  - date: 约-1230
+    title_zh: 上谒淮东制置使赵葵
+    rationale: 以长短句自荐，冀功名之路。
+- id: guji-余玠-endeavor-2
+  name_zh: 经略四川、筑山城防御体系
+  phases:
+  - key: brewing
+    name_zh: 蜀政紊乱十六年、人心粗定
+    labels:
+      zh:
+      - 授宣抚三人制置使九人终无成绩
+    start_date: 1227
+  - key: breakthrough
+    name_zh: 大更弊政、筑招贤馆、纳冉氏兄弟之谋
+    labels:
+      zh:
+      - 集众思广忠益
+      - 徙城钓鱼山
+    start_date: 1242
+    highlight_event_id: guji-余玠-event-re-built-diaoyu
+  - key: climax
+    name_zh: 筑十余城、调戍军、开屯田、诛王夔
+    labels:
+      zh:
+      - 因山为垒
+      - 蜀以富实
+    start_date: 1243
+  - key: closure
+    name_zh: 遭谗夺志、暴卒
+    labels:
+      zh:
+      - 威名顿挫
+      - 赍志以没
+    start_date: 1253
+  decisions:
+  - date: 1242
+    title_zh: 筑招贤馆集思广益
+    rationale: 仿诸葛孔明用蜀故事，广纳豪杰之言。
+  - date: 约-1243
+    title_zh: 采冉琎、冉璞之策徙合州城于钓鱼山
+    rationale: 蜀口形胜莫若钓鱼山，积粟以守贤于十万师。
+  - date: 约-1244
+    title_zh: 力排众议独任徙城之责
+    rationale: 城成则蜀赖以安，不成玠独坐之。
+  - date: 约-1246
+    title_zh: 夜召王夔计事而诛之
+    rationale: 悍将骄恣劫掠，纵弗诛养成其势，后一举足西蜀危矣。
+events:
+- id: guji-余玠-event-birth
+  date: 约-1199
+  year_of: 约-1199
+  type: birth
+  title_zh: 余玠生
+  description: 字义夫，蕲州人，家贫落魄，少为白鹿洞诸生。
+  participants:
+  - guji-余玠
+- id: guji-余玠-event-anfeng
+  date: 1241
+  year_of: 1241
+  type: endeavor
+  title_zh: 提兵应援安丰
+  description: 淳祐元年玠提兵应援安丰，拜大理少卿，升制置副使。
+  participants:
+  - guji-余玠
+- id: guji-余玠-event-re-built-diaoyu
+  date: 约-1243
+  year_of: 1243
+  type: endeavor
+  title_zh: 徙合州城于钓鱼山
+  description: 用冉琎、冉璞之谋，密奏于朝，命下虽一府喧然以为不可，玠独任其责，卒筑钓鱼等十余城，因山为垒，屯兵聚粮为必守计。
+  participants:
+  - guji-余玠
+- id: guji-余玠-event-vertical-wangkui
+  date: 约-1246
+  year_of: 1246
+  type: endeavor
+  title_zh: 诱诛悍将王夔
+  description: 玠至嘉定阅兵慑服王夜叉，后听杨成之谋，夜召夔计事，潜以成代领其众，夔离营即斩之，肃清军令。
+  participants:
+  - guji-余玠
+- id: guji-余玠-event-death
+  date: 1253
+  year_of: 1253
+  type: death
+  title_zh: 余玠暴卒
+  description: 宝祐元年闻有召命愈不自安，一夕暴下卒，或谓仰药死；帝辍朝，特赠五官，旋以言夺职，六年复之。
+  participants:
+  - guji-余玠
