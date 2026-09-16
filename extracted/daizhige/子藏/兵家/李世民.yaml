@@ -1,0 +1,119 @@
+person:
+  qid: guji-李世民
+  name_zh: 李世民
+  names:
+    zh: 李世民
+    en: Li Shimin
+  lifespan:
+    birth:
+      date: '598'
+      precision: year
+      is_circa: true
+      raw: 隋开皇年间出生
+    death:
+      date: '649'
+      precision: year
+      is_circa: false
+      raw: 贞观二十三年崩
+  birth_date: '598'
+  death_date: '649'
+  era: 唐代
+  reign_ref: 唐太宗（贞观，626-649在位）
+  archetype: 君主·兵法问对者
+  dilemmas:
+  - 用兵之时，想以正兵致胜，又不得不以奇兵出敌不意，实难抉择如何平衡。
+  lesson: 奇正相生，正亦胜，奇亦胜，善用兵者使敌莫测。
+  summary_first_person: 我是大唐天子李世民，常与李靖论兵，探究奇正虚实之变，以兵法经略四方，遂成贞观之治。
+endeavors:
+- id: guji-李世民-endeavor-1
+  name_zh: 起兵创业·霍邑破宋老生
+  labels:
+    zh:
+    - 军事
+    - 开国
+  phases:
+  - key: breakthrough
+    name_zh: 霍邑之战
+    labels:
+      zh:
+      - 首义破敌
+    start_date: '617'
+    highlight_event_id: guji-李世民-event-huoyi
+  decisions:
+  - date: '617'
+    title_zh: 霍邑之战亲率铁骑自南原驰下横突宋老生
+    rationale: 义师初交锋少却，恐败大事，故亲出奇兵击敌。
+- id: guji-李世民-endeavor-2
+  name_zh: 与李靖论兵·究奇正之变
+  labels:
+    zh:
+    - 兵学
+    - 问对
+  phases:
+  - key: brewing
+    name_zh: 与靖论高丽征讨
+    labels:
+      zh:
+      - 谋兵
+    start_date: '645'
+    highlight_event_id: guji-李世民-event-gaoli
+  - key: climax
+    name_zh: 论奇正虚实·作破陈乐舞
+    labels:
+      zh:
+      - 问对
+    start_date: '630'
+    highlight_event_id: guji-李世民-event-qizheng
+  - key: closure
+    name_zh: 北荒悉平·安辑诸部
+    labels:
+      zh:
+      - 安边
+    start_date: '646'
+    highlight_event_id: guji-李世民-event-beihuang
+  decisions:
+  - date: '645'
+    title_zh: 因高丽数侵新罗、不奉诏而欲讨之
+    rationale: 探知盖苏文自恃知兵，违命加兵，须正兵问罪。
+  - date: '630'
+    title_zh: 尊靖为师，命择古陈法悉图以上
+    rationale: 念教阅之法不可忽，欲成有制之兵。
+events:
+- id: guji-李世民-event-birth
+  person: guji-李世民
+  type: birth
+  date: '598'
+  year_of: 598
+  summary_zh: 李世民出生。
+- id: guji-李世民-event-huoyi
+  person: guji-李世民
+  type: endeavor
+  date: '617'
+  year_of: 617
+  summary_zh: 霍邑之战，义师初交锋少却，太宗亲以铁骑自南原驰下横突，宋老生兵断后大溃被擒，以奇为正，暗合孙吴。
+- id: guji-李世民-event-qizheng
+  person: guji-李世民
+  type: endeavor
+  date: '630'
+  year_of: 630
+  is_circa: true
+  summary_zh: 与李靖反复问对，究奇正相变、虚实之形，悟'致人而不致于人'之要，又作《破陈乐舞》以寓八陈四头八尾之制。
+- id: guji-李世民-event-gaoli
+  person: guji-李世民
+  type: endeavor
+  date: '645'
+  year_of: 645
+  summary_zh: 高丽数侵新罗、不奉诏，太宗与靖论讨伐之策，靖请以正兵致敌。
+- id: guji-李世民-event-beihuang
+  person: guji-李世民
+  type: endeavor
+  date: '646'
+  year_of: 646
+  is_circa: true
+  summary_zh: 幸灵州回，北荒悉平，命道宗、李勣等讨薛延陀，又与靖论蕃汉杂处经久之策，置驿六十六处通斥候。
+- id: guji-李世民-event-death
+  person: guji-李世民
+  type: death
+  date: '649'
+  year_of: 649
+  summary_zh: 唐太宗李世民驾崩。
