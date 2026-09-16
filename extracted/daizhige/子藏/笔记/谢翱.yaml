@@ -1,0 +1,129 @@
+person:
+  qid: guji-谢翱
+  name_zh: 谢翱
+  names:
+    zh: 谢翱、谢皋父
+    en: Xie Ao
+  lifespan:
+    birth:
+      date: '1249-01-01'
+      precision: year
+      is_circa: true
+      raw: 不详
+    death:
+      date: '1375-01-01'
+      precision: year
+      is_circa: true
+      raw: 己未年（约1375）秋病卒
+  birth_date: '1249-01-01'
+  death_date: '1375-01-01'
+  era: 宋末元初
+  reign_ref: 宋末元初
+  archetype: 遗民隐士
+  dilemmas:
+  - 生逢易代乱世，贫困而志不得伸，文才与命运相乖
+  - 委家出游讲学养家与潜心著述之间艰难权衡
+  lesson: 处穷困而文心不灭，忧愤郁积亦可化为传世之文
+  summary_first_person: 我名翱，字皋父，延平人。早年治科举之学，有志当世，中年遭兵火，室家散亡，为生计所迫出游，馆于严陵，讲学授徒，卖薪炭易米度日。我曾补唐诗人无传者三十余篇，著家史，访前代故实。甲午岁与邓牧相遇会稽，结为方外友，日夜论辩文章。我一生不得志，郁愤之气皆宣于文，读之使人凄怆。临终犹望邓牧不至，以诗绝笔，葬于钓台。
+  source_urls:
+  - https://zh.wikisource.org/wiki/伯牙琴/謝皋父傳
+endeavors:
+- id: guji-谢翱-endeavor-1
+  name_zh: 治科举之学有志当世
+  labels:
+    zh: 科举、志向
+  phases:
+  - key: brewing
+    name_zh: 早年治举业
+    labels:
+      zh: 举业
+    start_date: '1249-01-01'
+    highlight_event_id: guji-谢翱-event-works
+- id: guji-谢翱-endeavor-2
+  name_zh: 兵火离乱、举家迁移与置产谋生
+  labels:
+    zh: 举业、家业
+  phases:
+  - key: brewing
+    name_zh: 遭兵火室家散亡
+    labels:
+      zh: 离乱
+    start_date: '1276-01-01'
+    highlight_event_id: guji-谢翱-event-wander
+- id: guji-谢翱-endeavor-3
+  name_zh: 严陵讲学与著述
+  labels:
+    zh: 讲学、著述
+  phases:
+  - key: breakthrough
+    name_zh: 授馆讲学
+    labels:
+      zh: 讲学
+    start_date: '1278-01-01'
+    highlight_event_id: guji-谢翱-event-teach
+  - key: climax
+    name_zh: 结交邓牧为方外友，文学相长
+    labels:
+      zh: 交游、文学
+    start_date: '1354-01-01'
+    highlight_event_id: guji-谢翱-event-friend
+events:
+- id: guji-谢翱-event-birth
+  date: '1249-01-01'
+  year_of: 1249
+  type: birth
+  title: 谢翱生于延平
+  description: 谢君名翱，字皋父，延平人，蚤事科举，学有志当世。
+  actors:
+  - guji-谢翱
+- id: guji-谢翱-event-wander
+  date: '1276-01-01'
+  year_of: 1276
+  type: endeavor
+  title: 中遭兵火室家散亡
+  description: 中遭兵火，室家散亡，购得一子，军伍中相与，竭力生产仅自给，属繇役繁兴，不堪迫辱，日益愤懑成疾。
+  actors:
+  - guji-谢翱
+  endeavors:
+  - guji-谢翱-endeavor-2
+- id: guji-谢翱-event-teach
+  date: '1278-01-01'
+  year_of: 1278
+  type: endeavor
+  title: 置家严陵、往来婺杭讲学十四五年
+  description: 委而出游，过严陵故旧馆焉，因娶某氏，往来两州间积十四五年，指授馆下，生粲然进于文学。
+  actors:
+  - guji-谢翱
+  endeavors:
+  - guji-谢翱-endeavor-3
+- id: guji-谢翱-event-works
+  date: '1290-01-01'
+  year_of: 1290
+  type: endeavor
+  title: 著家史、补唐诗人传
+  description: 卒岁少裕则资游江海，访前代故实，著家史，补唐诗人无传者三十余篇，传近世隐逸数篇。
+  actors:
+  - guji-谢翱
+  endeavors:
+  - guji-谢翱-endeavor-1
+- id: guji-谢翱-event-friend
+  date: '1354-01-01'
+  year_of: 1354
+  type: endeavor
+  title: 会稽遇邓牧结方外友
+  description: 岁甲午，与杭人邓牧相遇会稽，结为方外友，日夜论辩文章，后挈家钱塘江上，从游杭之文士。
+  actors:
+  - guji-谢翱
+  - guji-邓牧
+  endeavors:
+  - guji-谢翱-endeavor-3
+- id: guji-谢翱-event-death
+  date: '1375-09-01'
+  year_of: 1375
+  type: death
+  title: 病笃绝笔，葬于钓台
+  description: 己未秋，牧游山水闻君病笃，望牧不至，怀以诗绝笔，葬于钓台前所买之地。
+  actors:
+  - guji-谢翱
+  endeavors:
+  - guji-谢翱-endeavor-3
