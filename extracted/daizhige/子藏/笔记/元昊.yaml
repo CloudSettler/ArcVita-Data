@@ -1,0 +1,136 @@
+person:
+  qid: guji-元昊
+  name_zh: 元昊
+  names:
+    zh: 元昊、拓跋元昊
+    en: Yuanhao (Emperor Jingzong of Western Xia)
+  lifespan:
+    birth:
+      date: '1003'
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: '1048'
+      precision: year
+      is_circa: true
+      raw: ''
+  birth_date: '1003'
+  death_date: '1048'
+  era: 北宋西夏对峙时期
+  reign_ref: 西夏景宗
+  archetype: 叛命称帝的枭雄之主
+  dilemmas:
+  - 父德明志在自守，元昊志在恢拓，弃此策略而举兵侵宋
+  - 称帝求册被拒后，既不欲曲在己而戒兵不侵，终因范雍部属纵掠而决意入寇
+  lesson: 隐忍蓄势与借势扩张，邻敌多怨而恃强自恃者，终难久安
+  summary_first_person: 我拓跋元昊少而好兵，佐父破甘凉，遂得意于征战。父德明死，我并诸蕃、建号自称，遣使求朝廷真册而遭拒绝。范雍守延安屡遣兵纵掠，我因怒举众十万入寇延安，败刘平于前，又连破任福于好水川、葛怀敏于定川，宋廷西北大震。然连年鏖兵，储供殚耗，宋开五路重兵以备我，诸蕃亦多怨我，进退之势，已见其难。
+  source_urls:
+  - https://zh.wikisource.org/wiki/儒林公議
+endeavors:
+- id: guji-元昊-endeavor-1
+  name_zh: 佐父开边，破甘凉诸城
+  phases:
+  - key: brewing
+    name_zh: 少好兵事
+    labels:
+      zh: 好战ových少年
+    start_date: '1015'
+    highlight_event_id: guji-元昊-event-shaoguan
+  - key: breakthrough
+    name_zh: 破甘凉
+    labels:
+      zh: 俘可汗妻孥
+    start_date: '1028'
+    highlight_event_id: guji-元昊-event-ganliang
+  decisions:
+  - date: '1028'
+    title_zh: 将兵攻破甘凉，俘掠而归
+    rationale: 立功于父德明之世，兵势渐盛，自是益喜战
+- id: guji-元昊-endeavor-2
+  name_zh: 叛宋称帝，举兵入寇
+  phases:
+  - key: brewing
+    name_zh: 求册被拒
+    labels:
+      zh: 拒绝真册
+    start_date: '1038'
+    highlight_event_id: guji-元昊-event-qiuce
+  - key: breakout
+    name_zh: 入寇延安
+    labels:
+      zh: 延安之战
+    start_date: '1040'
+    highlight_event_id: guji-元昊-event-yanan
+  - key: climax
+    name_zh: 好水川、定川连捷
+    labels:
+      zh: 连破宋军
+    start_date: '1041'
+    highlight_event_id: guji-元昊-event-haoshui
+  - key: closure
+    name_zh: 势成僵局
+    labels:
+      zh: 宋开五路重兵备之
+    start_date: '1042'
+    highlight_event_id: guji-元昊-event-wulu
+  decisions:
+  - date: '1038'
+    title_zh: 遣使诣阙求朝廷真册
+    rationale: 伪托诸蕃推奉，欲借册命正名称帝
+  - date: '1040'
+    title_zh: 因范雍部属纵掠，并集丑类入寇延安
+    rationale: 借辞兴兵，乘城守未完、兵力尚寡之虚直逼城下
+events:
+- id: guji-元昊-event-birth
+  date: '1003'
+  year_of: 1003
+  title_zh: 元昊出生
+  type: birth
+- id: guji-元昊-event-death
+  date: '1048'
+  year_of: 1048
+  title_zh: 元昊去世
+  type: death
+- id: guji-元昊-event-shaoguan
+  date: '1015'
+  year_of: 1015
+  title_zh: 少好兵事，习于征战
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-1
+- id: guji-元昊-event-ganliang
+  date: '1028'
+  year_of: 1028
+  title_zh: 将兵破甘凉，可汗自焚，俘其妻孥以归
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-1
+- id: guji-元昊-event-qiuce
+  date: '1038'
+  year_of: 1038
+  title_zh: 宝元初遣人诣阙，表言诸蕃推奉，求朝廷真册，被拒绝
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-2
+- id: guji-元昊-event-yanan
+  date: '1040'
+  year_of: 1040
+  title_zh: 并兵入寇延安，大败刘平、石元孙，生絷之
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-2
+- id: guji-元昊-event-haoshui
+  date: '1041'
+  year_of: 1041
+  title_zh: 伏兵四山而发，官军覆没于好水川，任福等将佐五十余人战死
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-2
+- id: guji-元昊-event-dingchuan
+  date: '1042'
+  year_of: 1042
+  title_zh: 陷宋军于定川，葛怀敏举军败覆
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-2
+- id: guji-元昊-event-wulu
+  date: '1043'
+  year_of: 1043
+  title_zh: 宋自麟府至秦陇开五路帅府储重兵以备，元昊连年用兵，中外殚耗，议和声起
+  type: endeavor
+  endeavor_id: guji-元昊-endeavor-2
