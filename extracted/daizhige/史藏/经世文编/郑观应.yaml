@@ -1,0 +1,121 @@
+person:
+  qid: guji-郑观应
+  name_zh: 郑观应
+  names:
+    zh: 郑观应
+    en: Zheng Guanying
+  lifespan:
+    birth:
+      date: '1842'
+      precision: year
+      is_circa: true
+      raw: 约1842年
+    death:
+      date: '1922'
+      precision: year
+      is_circa: false
+      raw: 1922年
+  birth_date: '1842'
+  death_date: '1922'
+  era: 晚清
+  reign_ref: 道光至民国初
+  archetype: 改良思想家 / 洋务实业家
+  dilemmas:
+  - 商战救国与官方体制束缚的矛盾
+  - 维新言论与买办实业身份的两难
+  lesson: 以'商战'思想引领晚清变法舆论，须在体制内外寻求平衡。
+  summary_first_person: 我名郑观应，号陶斋，著有《盛世危言》，力主'商战'与变法自强，并长期参办轮船、电报等洋务实业。
+  source_urls:
+  - https://example.org/guji/huangchao-jingshi-wenbian-wuji
+endeavors:
+- id: guji-郑观应-endeavor-1
+  name_zh: 撰《盛世危言》倡变法
+  phases:
+  - key: brewing
+    name_zh: 留心洋务西学
+    labels:
+      zh:
+      - 思想酝酿
+    start_date: '1860'
+  - key: breakthrough
+    name_zh: 《盛世危言》成书刊行
+    labels:
+      zh:
+      - 著述
+    start_date: '1894'
+    highlight_event_id: guji-郑观应-event-book
+  - key: climax
+    name_zh: 思想影响朝野
+    labels:
+      zh:
+      - 舆论影响
+    start_date: '1895'
+  - key: closure
+    name_zh: 晚年修订续刊
+    labels:
+      zh:
+      - 增订
+    start_date: '1900'
+  decisions:
+  - date: '1894'
+    title_zh: 刊行《盛世危言》
+    rationale: 针对时局力陈富强、议院、商战诸策
+- id: guji-郑观应-endeavor-2
+  name_zh: 经营洋务实业（轮船电报邮政）
+  phases:
+  - key: brewing
+    name_zh: 入太古洋行习商
+    labels:
+      zh:
+      - 买办历练
+    start_date: '1858'
+  - key: breakthrough
+    name_zh: 受聘轮船招商局、电报局
+    labels:
+      zh:
+      - 实业
+    start_date: '1882'
+    highlight_event_id: guji-郑观应-event-business
+  - key: climax
+    name_zh: 总办轮船招商局
+    labels:
+      zh:
+      - 企业管理
+    start_date: '1882'
+  - key: closure
+    name_zh: 晚年退居著述
+    labels:
+      zh:
+      - 退隐
+    start_date: '1909'
+  decisions:
+  - date: '1882'
+    title_zh: 弃买办就洋务，入轮船招商局
+    rationale: 欲以实业实践商战救国之志
+events:
+- id: guji-郑观应-event-birth
+  event_type: birth
+  date: '1842'
+  year_of: 1842
+  name_zh: 郑观应出生
+  description: 生于广东香山
+- id: guji-郑观应-event-book
+  event_type: endeavor
+  date: '1894'
+  year_of: 1894
+  name_zh: 《盛世危言》刊行
+  description: 系统提出商战、设议院、育人才等变法主张，风行朝野
+  endeavor_id: guji-郑观应-endeavor-1
+- id: guji-郑观应-event-business
+  event_type: endeavor
+  date: '1882'
+  year_of: 1882
+  name_zh: 入轮船招商局任帮办
+  description: 由买办转投洋务企业，后兼办电报、邮政诸务
+  endeavor_id: guji-郑观应-endeavor-2
+- id: guji-郑观应-event-death
+  event_type: death
+  date: '1922'
+  year_of: 1922
+  name_zh: 郑观应逝世
+  description: 卒于上海
