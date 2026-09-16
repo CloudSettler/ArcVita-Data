@@ -1,0 +1,168 @@
+person:
+  qid: guji-陈东
+  name_zh: 陈东
+  names:
+    zh: 陈东
+    en: Chen Dong
+  lifespan:
+    birth:
+      date: '1086'
+      precision: year
+      is_circa: true
+      raw: 时年四十有二（建炎元年卒，逆推约生于1086年）
+    death:
+      date: '1127'
+      precision: year
+      is_circa: false
+      raw: 建炎元年与欧阳澈同斩于市
+  birth_date: '1086'
+  death_date: '1127'
+  era: 北宋末至南宋初
+  reign_ref: 宋徽宗、宋钦宗、宋高宗
+  archetype: 太学生伏阙上书、以身殉国的敢言志士
+  lesson: 畏死即不敢言，已言肯逃死乎——以死明志，言责重于生命
+  summary_first_person: 我是陈东，镇江丹阳人，字少阳。我一生五次上书，先请诛蔡京六贼，再率太学生数万伏阙留李纲，最后乞留李纲、罢黄潜善汪伯彦，虽被斩于市而不悔。
+endeavors:
+- id: guji-陈东-endeavor-1
+  name_zh: 伏阙上书诛六贼
+  phases:
+  - key: brewing
+    name_zh: 入太学直言时政
+    labels:
+      zh:
+      - 太学
+      - 直言
+    start_date: '1110'
+    highlight_event_id: guji-陈东-event-ru-taixue
+  - key: breakthrough
+    name_zh: 钦宗即位伏阙上书
+    labels:
+      zh:
+      - 伏阙
+      - 诛六贼
+    start_date: '1125'
+    highlight_event_id: guji-陈东-event-fuque-1
+  - key: climax
+    name_zh: 宣德门率诸生救李纲
+    labels:
+      zh:
+      - 军民
+      - 伏阙
+    start_date: '1126'
+    highlight_event_id: guji-陈东-event-fuque-2
+  - key: closure
+    name_zh: 罢官归里复预乡荐
+    labels:
+      zh:
+      - 归乡
+    start_date: '1126'
+    highlight_event_id: guji-陈东-event-gui-xiang
+  decisions:
+  - date: '1125'
+    title_zh: 率徒伏阙上书请诛六贼
+    rationale: 蔡京等败乱朝政、结怨四邻，须传首四方以谢天下
+  - date: '1126'
+    title_zh: 复率诸生伏宣德门留李纲
+    rationale: 李纲社稷之臣，罢纲则宗社存亡未可知
+- id: guji-陈东-endeavor-2
+  name_zh: 高宗朝乞留李纲而遭杀戮
+  phases:
+  - key: brewing
+    name_zh: 应召赴行在
+    labels:
+      zh:
+      - 应召
+    start_date: '1127'
+    highlight_event_id: guji-陈东-event-zhao-zhi
+  - key: breakthrough
+    name_zh: 上书乞留纲罢潜善
+    labels:
+      zh:
+      - 上书
+    start_date: '1127'
+    highlight_event_id: guji-陈东-event-shangshu-gaozong
+  - key: climax
+    name_zh: 与欧阳澈同斩于市
+    labels:
+      zh:
+      - 殉难
+    start_date: '1127'
+    highlight_event_id: guji-陈东-event-death
+  - key: closure
+    name_zh: 朝廷平反追赠
+    labels:
+      zh:
+      - 昭雪
+    start_date: '1130'
+    highlight_event_id: guji-陈东-event-zhaoxue
+  decisions:
+  - date: '1127'
+    title_zh: 上书乞留李纲、罢黄潜善汪伯彦
+    rationale: 潜善等误国，须速罢之以图恢复
+  - date: '1127'
+    title_zh: 具冠带出，赴死不逃
+    rationale: 我陈东也，畏死即不敢言，已言肯逃死乎
+events:
+- id: guji-陈东-event-birth
+  event_type: birth
+  date: '1086'
+  date_precision: year
+  year_of: 1086
+  description: 陈东生于镇江丹阳
+  location: 镇江丹阳
+- id: guji-陈东-event-ru-taixue
+  event_type: career
+  date: '1110'
+  date_precision: year
+  year_of: 1110
+  description: 以贡入太学，早负隽声，不惧蔡京、王黼权势，无所隐讳
+  location: 东京
+- id: guji-陈东-event-fuque-1
+  event_type: career
+  date: 1125-12
+  date_precision: month
+  year_of: 1125
+  description: 钦宗即位，率其徒伏阙上书，论蔡京、王黼、童贯等六贼之罪，请诛之以谢天下
+  location: 东京
+- id: guji-陈东-event-fuque-2
+  event_type: career
+  date: 1126-02
+  date_precision: month
+  year_of: 1126
+  description: 李邦彦罢李纲、议割三镇，东复率诸生数万军民伏宣德门上书，恳请复李纲旧职；军民舁登闻鼓挝坏之，朝廷亟诏纲入
+  location: 东京宣德门
+- id: guji-陈东-event-gui-xiang
+  event_type: career
+  date: 1126-05
+  date_precision: month
+  year_of: 1126
+  description: 朝廷复东太学录之职，东力辞官以归，前后上书五上；既归，复预乡荐
+  location: 丹阳
+- id: guji-陈东-event-zhao-zhi
+  event_type: career
+  date: 1127-06
+  date_precision: month
+  year_of: 1127
+  description: 高宗即位十日后召陈东至行在
+  location: 应天府
+- id: guji-陈东-event-shangshu-gaozong
+  event_type: career
+  date: 1127-07
+  date_precision: month
+  year_of: 1127
+  description: 会李纲去相，东上书乞留纲而罢黄潜善、汪伯彦，又请亲征还二圣、车驾归京师，皆不报
+  location: 应天府
+- id: guji-陈东-event-death
+  event_type: death
+  date: 1127-08
+  date_precision: month
+  year_of: 1127
+  description: 黄潜善激怒高宗，东与布衣欧阳澈同斩于市，年四十二；四明李猷赎其尸瘗之
+  location: 应天府
+- id: guji-陈东-event-zhaoxue
+  event_type: career
+  date: '1134'
+  date_precision: year
+  year_of: 1134
+  description: 追赠承事郎，绍兴四年并加朝奉郎、秘阁修撰，赏赐其后
+  location: 临安
