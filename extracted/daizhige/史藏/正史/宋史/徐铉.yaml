@@ -1,0 +1,161 @@
+person:
+  qid: guji-徐铉
+  name_zh: 徐铉
+  names:
+    zh: 徐铉
+    en: Xu Xuan
+  lifespan:
+    birth:
+      date: '916'
+      precision: year
+      is_circa: true
+      raw: 十岁能属文，仕吴为校书郎
+    death:
+      date: 991-12
+      precision: month
+      is_circa: true
+      raw: 淳化二年贬静难行军司马后卒，年七十六
+  birth_date: '916'
+  death_date: '991'
+  era: 五代十国至北宋初
+  reign_ref: 南唐烈祖、中主、后主；宋太祖、太宗
+  archetype: 文臣学者
+  dilemmas:
+  - 出使宋营求缓兵，须以社稷为重而不惜一己之使
+  - 国亡仕宋，受太祖斥责时直言称臣当死
+  lesson: 以忠直与学术立身，历三朝而不改其节
+  summary_first_person: 我字鼎臣，扬州广陵人，十岁能文，与韩熙载齐名，称「韩、徐」。我先仕吴，再仕南唐，官至吏部尚书。宋师围金陵，我奉命出使求缓兵，力主不可止援兵东下。金陵陷后随李煜入觐，太祖责我，我直言「国亡罪当死」，太祖叹为忠臣。入宋后直学士院，从征太原，军中书诏出我笔下。我精小学，好李斯小篆，受诏校《说文》，镂板行世。淳化二年遭诬贬静难行军司马，终不御毛褐致冷疾，晨起从容手疏后事而卒，年七十六。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷441
+endeavors:
+- id: guji-徐铉-endeavor-1
+  key: 徐铉-仕南唐
+  phases:
+  - key: brewing
+    name_zh: 仕吴入唐
+    labels:
+      zh: 文名初显
+    start_date: '930'
+    highlight_event_id: guji-徐铉-event-shi-wu
+  - key: breakthrough
+    name_zh: 巡抚楚州
+    labels:
+      zh: 奏罢屯田
+    start_date: '957'
+    highlight_event_id: guji-徐铉-event-xun-fu
+  - key: climax
+    name_zh: 金陵请和
+    labels:
+      zh: 出使缓兵
+    start_date: '974'
+    highlight_event_id: guji-徐铉-event-shi-song
+  - key: closure
+    name_zh: 随煜入觐
+    labels:
+      zh: 忠臣之叹
+    start_date: '975'
+    highlight_event_id: guji-徐铉-event-ru-jin
+  decisions:
+  - date: '974'
+    title_zh: 力劝李煜勿止朱令赟援兵
+    rationale: 「此行未保必能济难，江南所恃者援兵尔，奈何止之！」置一介之使于度外，以社稷为计。
+  - date: '957'
+    title_zh: 捕得贼首不俟报即斩
+    rationale: 巡抚楚州奏罢苛细屯田，急捕罪首，虽坐专杀流舒州而不悔。
+- id: guji-徐铉-endeavor-2
+  key: 徐铉-入宋校书
+  phases:
+  - key: brewing
+    name_zh: 直学士院
+    labels:
+      zh: 太原掌诏
+    start_date: '976'
+    highlight_event_id: guji-徐铉-event-tai-yuan
+  - key: climax
+    name_zh: 校定说文
+    labels:
+      zh: 小学中兴
+    start_date: '986'
+    highlight_event_id: guji-徐铉-event-shuo-wen
+  decisions:
+  - date: '986'
+    title_zh: 与句中正等重校《说文解字》
+    rationale: 以文字为六艺之本，当由古法，务援古以正今，不徇今而违古。
+events:
+- id: guji-徐铉-event-birth
+  date: '916'
+  year_of: 916
+  type: birth
+  name_zh: 徐铉生于扬州广陵
+  description: 字鼎臣，扬州广陵人，十岁能属文。
+- id: guji-徐铉-event-shi-wu
+  date: '935'
+  year_of: 935
+  type: career_start
+  name_zh: 仕吴为校书郎
+  description: 仕吴为校书郎，又仕南唐李氏父子，与韩熙载齐名，江东谓之「韩、徐」。
+  endeavors:
+  - guji-徐铉-endeavor-1
+- id: guji-徐铉-event-bian-tai-zhou
+  date: '953'
+  year_of: 953
+  type: demotion
+  name_zh: 贬泰州司户掾
+  description: 以评汤悦军书檄文援引不当，被汤悦与宋齐丘诬泄机事，坐贬泰州司户掾，俄复旧官。
+  endeavors:
+  - guji-徐铉-endeavor-1
+- id: guji-徐铉-event-xun-fu
+  date: '957'
+  year_of: 957
+  type: mission
+  name_zh: 乘传巡抚楚州奏罢屯田
+  description: 内臣车延规、傅宏营屯田苛细致盗贼群起，命铉巡抚，至楚州奏罢屯田，捕得贼首即斩，坐专杀流舒州。
+  endeavors:
+  - guji-徐铉-endeavor-1
+- id: guji-徐铉-event-shi-song
+  date: 974-11
+  year_of: 974
+  type: mission
+  name_zh: 金陵被围出使汴京求缓兵
+  description: 宋师围金陵，煜遣铉求缓兵；铉劝勿止朱令赟援兵，泣别而行，入见虽未能缓兵而礼遇如常。
+  endeavors:
+  - guji-徐铉-endeavor-1
+- id: guji-徐铉-event-ru-jin
+  date: '975'
+  year_of: 975
+  type: political_event
+  name_zh: 随李煜入觐，太祖叹为忠臣
+  description: 太祖责之声甚厉，铉对以「臣为江南大臣，国亡罪当死」，太祖叹「忠臣也」，命为太子率更令。
+  endeavors:
+  - guji-徐铉-endeavor-1
+- id: guji-徐铉-event-tai-yuan
+  date: '979'
+  year_of: 979
+  type: military_civil
+  name_zh: 从征太原掌军中书诏
+  description: 太平兴国初直学士院，从征太原，军中书诏填委，铉援笔无滞，辞理精当，师还加给事中。
+  endeavors:
+  - guji-徐铉-endeavor-2
+- id: guji-徐铉-event-shuo-wen
+  date: '986'
+  year_of: 986
+  type: scholarship
+  name_zh: 受诏重校《说文解字》
+  description: 与句中正、葛湍、王惟恭等同校《说文》，撰序阐明「文字者六艺之本」，镂板以行于世。
+  endeavors:
+  - guji-徐铉-endeavor-2
+- id: guji-徐铉-event-bian-jing-nan
+  date: '991'
+  year_of: 991
+  type: demotion
+  name_zh: 庐州女僧道安诬告，贬静难行军司马
+  description: 淳化二年，庐州女僧道安诬铉奸私，道安坐不实抵罪，铉亦贬静难行军司马。
+  endeavors:
+  - guji-徐铉-endeavor-2
+- id: guji-徐铉-event-death
+  date: 991-12
+  year_of: 991
+  is_circa: true
+  type: death
+  name_zh: 卒于静难行军司马任，年七十六
+  description: 邠州苦寒终不御毛褐致冷疾；晨起方冠带，遽索笔手疏约束后事，别署「道者，天地之母」，书讫而卒。门人郑文宝护丧至汴，归葬南昌西山。
