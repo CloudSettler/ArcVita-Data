@@ -1,0 +1,130 @@
+person:
+  qid: guji-钱乙
+  name_zh: 钱乙
+  names:
+    zh: 钱乙
+    en: Qian Yi
+  lifespan:
+    birth:
+      date: ''
+      precision: year
+      is_circa: true
+      raw: ''
+    death:
+      date: ''
+      precision: year
+      is_circa: true
+      raw: 年八十二卒
+  birth_date: ''
+  death_date: ''
+  era: 北宋
+  reign_ref: 宋神宗
+  archetype: 良医
+  dilemmas:
+  - 幼年失怙失恃，由姑父吕氏抚养，寻父三十年方归
+  - 身患周痹，自移病于末，带病行医终至挛痹寖剧
+  lesson: 不拘古法、遍览众书而自出新意，方能于儿科针药屡起沉疴
+  summary_first_person: 我本吴越王钱俶支属，父东游海上不归，姑母吕氏养我诲医。我以《颅囟方》名世，以黄土汤愈皇子瘈疭，得太医丞之职，辨正《本草》阙误，不守一师之法，虽偏废而风骨悍坚，年八十二而终。
+endeavors:
+- id: guji-钱乙-endeavor-1
+  name_zh: 学医与寻父
+  labels:
+    zh:
+    - 早岁
+  phases:
+  - key: brewing
+    name_zh: 长于吕氏，习医寻亲
+    labels:
+      zh:
+      - 少年学医
+      - 迎父归养
+    start_date: ''
+    highlight_event_id: guji-钱乙-event-father-return
+  decisions:
+  - date: ''
+    title_zh: 泣请往迹寻父，凡八九反，历三十余年迎父归
+    rationale: 告知家世后感念亲情，欲续天伦以尽孝道
+- id: guji-钱乙-endeavor-2
+  name_zh: 医名于京师
+  labels:
+    zh:
+    - 翰林
+    - 太医
+  phases:
+  - key: breakthrough
+    name_zh: 以《颅囟方》著称入京
+    labels:
+      zh:
+      - 儿科名家
+    start_date: ''
+    highlight_event_id: guji-钱乙-event-hanlin
+  - key: climax
+    name_zh: 黄土汤愈皇子，擢太医丞
+    labels:
+      zh:
+      - 赐金紫
+    start_date: ''
+    highlight_event_id: guji-钱乙-event-taiyicheng
+  decisions:
+  - date: ''
+    title_zh: 进黄土汤治皇子瘈疭
+    rationale: 以土胜水、水位得平则风自止的医理判断
+- id: guji-钱乙-endeavor-3
+  name_zh: 著述与晚年
+  labels:
+    zh:
+    - 本草辨误
+    - 病免归乡
+  phases:
+  - key: closure
+    name_zh: 自疗周痹，召亲诀别
+    labels:
+      zh:
+      - 待尽
+    start_date: ''
+    highlight_event_id: guji-钱乙-event-death
+  decisions:
+  - date: ''
+    title_zh: 自制药日夜饮之，移痹于末
+    rationale: 自诊胃气未绝而病在经脉，可移之使在末
+events:
+- id: guji-钱乙-event-father-return
+  person_qid: guji-钱乙
+  title_zh: 迎父归养，三十年方得团圆
+  date: ''
+  year_of: ''
+  precision: circa
+  location: 郓州
+  description: 父颖东之海上不反，乙泣请往迹寻，凡八九反，积数岁遂迎父以归，时已三十年矣，乡人赋诗咏之。
+- id: guji-钱乙-event-hanlin
+  person_qid: guji-钱乙
+  title_zh: 视长公主女疾，授翰林医学
+  date: ''
+  year_of: ''
+  precision: year
+  location: 京师
+  description: 至京师视长公主女疾，授翰林医学。
+- id: guji-钱乙-event-taiyicheng
+  person_qid: guji-钱乙
+  title_zh: 黄土汤愈皇子，神宗擢太医丞赐金紫
+  date: ''
+  year_of: ''
+  precision: year
+  location: 京师
+  description: 皇子病瘈疭，乙进黄土汤而愈；神宗召问黄土所以愈疾状，对曰以土胜水，帝悦，擢太医丞，赐金紫。
+- id: guji-钱乙-event-decision-retire
+  person_qid: guji-钱乙
+  title_zh: 以病免归，不复出
+  date: ''
+  year_of: ''
+  precision: circa
+  location: 郓州
+  description: 乙本有羸疾，自制药移痹于末，左手足偏废而风骨悍坚如全人，以病免归，不复出。
+- id: guji-钱乙-event-death
+  person_qid: guji-钱乙
+  title_zh: 挛痹寖剧，召亲诀别而卒
+  date: ''
+  year_of: ''
+  precision: year
+  location: 郓州
+  description: 末年挛痹寖剧，召亲戚诀别，易衣待尽，遂卒，年八十二。
