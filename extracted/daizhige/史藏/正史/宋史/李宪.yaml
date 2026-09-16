@@ -1,0 +1,177 @@
+person:
+  qid: guji-李宪
+  name_zh: 李宪
+  names:
+    zh: 李宪
+    en: Li Xian
+  lifespan:
+    birth:
+      date: '1041'
+      precision: year
+      is_circa: true
+      raw: 卒年五十一，约生于庆历年间
+    death:
+      date: '1092'
+      precision: year
+      is_circa: true
+      raw: 卒于绍圣前，年五十一
+  birth_date: '1041'
+  death_date: '1092'
+  era: 北宋
+  reign_ref: 宋神宗熙宁、元丰年间
+  archetype: 宦官统帅
+  dilemmas:
+  - 宦官领兵拓边获功，却被指罔上害民、贻患中国
+  - 五路伐夏失期擅还，以馈饷不接自辩而免诛
+  lesson: 以中人为将，功过相缠，虽能拓地降敌，终难洗欺罔之责。
+  summary_first_person: 我李宪以宦官身份领兵西陲，收复河湟、筑兰州城、屡破羌夏，然灵州之役失期擅还，虽免于诛，终为言者所论，贬死陈州。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷467
+endeavors:
+- id: guji-李宪-endeavor-1
+  name_zh: 经略熙河
+  labels:
+    zh: 拓边、熙河开边
+  phases:
+  - key: brewing
+    name_zh: 视师河湟
+    labels:
+      zh: 奉命视师
+    start_date: '1072'
+    highlight_event_id: guji-李宪-event-shishi
+  - key: breakthrough
+    name_zh: 破踏白降木征
+    labels:
+      zh: 河州大捷
+    start_date: '1073'
+    highlight_event_id: guji-李宪-event-muzheng
+  - key: climax
+    name_zh: 诛冷鸡朴
+    labels:
+      zh: 抚定羌人
+    start_date: '1075'
+    highlight_event_id: guji-李宪-event-ljip
+  - key: closure
+    name_zh: 兼经制财用
+    labels:
+      zh: 裁冗费
+    start_date: '1077'
+    highlight_event_id: guji-李宪-event-caizhi
+  decisions:
+  - date: '1073'
+    title_zh: 晨帐张黄旗誓众
+    rationale: 张天子所赐黄旗，谓帝实临之，激励将士用命破贼。
+  - date: '1075'
+    title_zh: 听木征自效诱平平羌
+    rationale: 羌人天性畏服贵种，纵木征盛装以出，夺其斗志。
+- id: guji-李宪-endeavor-2
+  name_zh: 元丰五路伐夏
+  labels:
+    zh: 伐夏、兰州之战
+  phases:
+  - key: brewing
+    name_zh: 领熙秦军出师
+    labels:
+      zh: 五路兴师
+    start_date: '1081'
+    highlight_event_id: guji-李宪-event-fuchun
+  - key: breakthrough
+    name_zh: 复兰会拒夏大举
+    labels:
+      zh: 兰州围解
+    start_date: '1082'
+    highlight_event_id: guji-李宪-event-lanzhou
+  - key: climax
+    name_zh: 失期擅还遭劾
+    labels:
+      zh: 师老获咎
+    start_date: '1082'
+    highlight_event_id: guji-李宪-event-shanhai
+  - key: closure
+    name_zh: 贬死陈州
+    labels:
+      zh: 贬谪身后
+    start_date: '1090'
+    highlight_event_id: guji-李宪-event-bian
+  decisions:
+  - date: '1081'
+    title_zh: 请建兰州为帅府
+    rationale: 兰州乃西人必争之地，增城守堑壁，楼橹具备以备大举。
+  - date: '1082'
+    title_zh: 以馈饷不接自辩擅还
+    rationale: 未能至灵州会师，恐获罪，遂谋开兰会以邀功弭责。
+events:
+- id: guji-李宪-event-birth
+  date: '1041'
+  year_of: 1041
+  type: birth
+  title_zh: 李宪约生于开封祥符
+- id: guji-李宪-event-huangyou
+  date: '1050'
+  year_of: 1050
+  type: career-start
+  era: 皇祐
+  title_zh: 皇祐中补入内黄门
+  description: 李宪入宫为黄门，稍迁供奉官。
+- id: guji-李宪-event-shishi
+  date: '1072'
+  year_of: 1072
+  type: mission
+  title_zh: 奉命视师河湟
+  description: 王韶上书请复河湟，命宪往视师，与韶进收河州。
+- id: guji-李宪-event-muzheng
+  date: '1073'
+  year_of: 1073
+  type: battle
+  title_zh: 大破踏白贼，木征降
+  description: 张黄旗誓众，通路至河州，破贼堡十余，木征率酋长八十余人诣军门降。
+- id: guji-李宪-event-ljip
+  date: '1075'
+  year_of: 1075
+  type: battle
+  title_zh: 斩冷鸡朴，董毡效顺
+  description: 听木征自效，羌众无斗志，师乘之杀获万计，斩冷鸡朴，董毡遣使奉贽。
+- id: guji-李宪-event-caizhi
+  date: '1077'
+  year_of: 1077
+  type: appointment
+  title_zh: 兼经制财用，裁冗费什六
+  description: 用兵连年度支不继，诏宪兼经制财用，岁运西山巨木给京师营缮。
+- id: guji-李宪-event-fuchun
+  date: '1081'
+  year_of: 1081
+  type: campaign
+  era: 元丰
+  title_zh: 元丰五路出师讨夏
+  description: 宪领熙、秦军至西市新城，复兰州城之，请建为帅府。
+- id: guji-李宪-event-lanzhou
+  date: '1082'
+  year_of: 1082
+  type: defense
+  title_zh: 兰州坚守却敌
+  description: 夏人以步骑号八十万围兰州，十日不克，粮尽引去。
+- id: guji-李宪-event-shanhai
+  date: '1082'
+  year_of: 1082
+  type: censure
+  title_zh: 失期擅还被诘
+  description: 不能至灵州会师，孙固谓期而后至者斩，帝以其犹有功，但诘擅还之由。
+- id: guji-李宪-event-bian
+  date: '1090'
+  year_of: 1090
+  type: demotion
+  title_zh: 贬右千牛卫将军居陈州
+  description: 刘挚论宪贪功生事、避兴灵会师之期、永乐之围逗留不援，贬分司南京居陈州。
+- id: guji-李宪-event-death
+  date: '1092'
+  year_of: 1092
+  type: death
+  title_zh: 卒于陈州
+  description: 卒，年五十一。
+- id: guji-李宪-event-posthumous
+  date: '1094'
+  year_of: 1094
+  type: posthumous-honor
+  era: 绍圣元年
+  title_zh: 赠武泰军节度使
+  description: 赠武泰军节度使，初谥敏恪，改忠敏。
