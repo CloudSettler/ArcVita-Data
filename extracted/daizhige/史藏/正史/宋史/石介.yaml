@@ -1,0 +1,152 @@
+person:
+  qid: guji-石介
+  name_zh: 石介
+  names:
+    zh: 石介
+    en: Shi Jie
+  lifespan:
+    birth:
+      date: '1005'
+      precision: year
+      is_circa: true
+      raw: 约北宋景德二年
+    death:
+      date: '1045'
+      precision: year
+      is_circa: false
+      raw: 庆历五年卒
+  birth_date: '1005'
+  death_date: '1045'
+  era: 北宋
+  reign_ref: 宋仁宗庆历
+  archetype: 刚烈敢言的儒学教育家
+  dilemmas:
+  - 直言指斥时政而招致权奸（夏竦）记恨，身后几被发棺验尸
+  - 乐善疾恶、遇事敢为与明哲保身之间的冲突
+  lesson: 刚直敢言可振士风，然锋芒太露亦易取祸；身后清白需赖友朋与义者相保。
+  summary_first_person: 我是石介，字守道，兖州奉符人，人称徂徕先生。我笃学有志，乐善疾恶，遇事奋然敢为。丁父母忧时我耕于徂徕山下，以《易》教授于家，后入为国子监直讲，太学因我而益盛。我著《怪说》《中国论》痛斥佛老之蠹，又作《庆历圣德诗》歌颂贤臣、指斥大奸夏竦，孙复警告我祸自此始。我未及赴濮州通判之任而卒，死后竟遭诬指诈死北走契丹，众数百人具状力保，方免斵棺之辱。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷432
+endeavors:
+- id: guji-石介-endeavor-1
+  name_zh: 仕途与学官生涯
+  phases:
+  - key: brewing
+    name_zh: 及第与州县佐官
+    labels:
+      zh: 进士及第、历郓州南京推官
+    start_date: '1020'
+    highlight_event_id: guji-石介-event-jinshi
+  - key: breakthrough
+    name_zh: 居丧授徒、讲学徂徕
+    labels:
+      zh: 耕徂徕山、以《易》教授
+    start_date: '1030'
+    highlight_event_id: guji-石介-event-culai
+  - key: climax
+    name_zh: 执教太学、作圣德诗
+    labels:
+      zh: 国子监直讲、《庆历圣德诗》
+    start_date: '1040'
+    highlight_event_id: guji-石介-event-poem
+  - key: closure
+    name_zh: 求出与身后之谤
+    labels:
+      zh: 通判濮州未赴而卒
+    start_date: '1045'
+    highlight_event_id: guji-石介-event-death
+  decisions:
+  - date: '1035'
+    title_zh: 耕徂徕山下葬五世之未葬者，以《易》教授于家
+    rationale: 丁父母忧，尽孝守礼，居家讲学，遂得徂徕先生之名。
+  - date: '1045'
+    title_zh: 自请出为通判濮州
+    rationale: 借马出入大臣之门、颇预政事而招人指目，不自安，故求出。
+- id: guji-石介-endeavor-2
+  name_zh: 文章与学术著述
+  phases:
+  - key: brewing
+    name_zh: 患文章之弊
+    labels:
+      zh: 痛斥佛老骈俪之弊
+    start_date: '1035'
+    highlight_event_id: guji-石介-event-works
+  - key: breakthrough
+    name_zh: 著《怪说》《中国论》《唐鉴》
+    labels:
+      zh: 指切当时、无所讳忌
+    start_date: '1038'
+    highlight_event_id: guji-石介-event-works
+  - key: climax
+    name_zh: 作《庆历圣德诗》
+    labels:
+      zh: 歌颂名臣、指斥大奸
+    start_date: 1043-03
+    highlight_event_id: guji-石介-event-poem
+  - key: closure
+    name_zh: 《徂徕集》行于世
+    labels:
+      zh: 身后著述传世
+    start_date: '1045'
+    highlight_event_id: guji-石介-event-death
+  decisions:
+  - date: 1043-03
+    title_zh: 作《庆历圣德诗》
+    rationale: 见杜衍、韩琦、范仲淹、富弼等贤臣并立、谏官齐聚，以为盛事，歌颂乃其职分；诗中“大奸”实斥夏竦，遂结深怨。
+events:
+- id: guji-石介-event-birth
+  date: '1005'
+  year_of: 1005
+  type: birth
+  title_zh: 石介约生于此年
+  description: 兖州奉符人，字守道。
+  participants:
+  - guji-石介
+- id: guji-石介-event-jinshi
+  date: '1020'
+  year_of: 1020
+  type: career
+  title_zh: 进士及第
+  description: 及第后历郓州、南京推官，后经御史台辟为主簿，因论赦书不当罢为镇南掌书记，又代父为嘉州军事判官。
+  participants:
+  - guji-石介
+- id: guji-石介-event-culai
+  date: '1030'
+  year_of: 1030
+  type: education
+  title_zh: 居丧耕读徂徕，以《易》教授于家
+  description: 丁父母忧，耕徂徕山下，葬五世未葬者七十丧，以《易》授徒，鲁人号“徂徕先生”。
+  participants:
+  - guji-石介
+- id: guji-石介-event-works
+  date: '1038'
+  year_of: 1038
+  type: publication
+  title_zh: 著《怪说》《中国论》《唐鉴》
+  description: 患文章之弊、佛老为蠹，著书言去此三者乃可有为，《唐鉴》戒奸臣、宦官、宫女，指切当时，无所讳忌。
+  participants:
+  - guji-石介
+- id: guji-石介-event-guozijian
+  date: '1040'
+  year_of: 1040
+  type: appointment
+  title_zh: 入为国子监直讲
+  description: 学者从之甚众，太学由此益盛；经杜衍、韩琦荐，擢太子中允、直集贤院。
+  participants:
+  - guji-石介
+- id: guji-石介-event-poem
+  date: 1043-03
+  year_of: 1043
+  type: publication
+  title_zh: 作《庆历圣德诗》
+  description: 庆历三年三月，歌颂杜衍、韩琦、范仲淹、富弼等一时名臣，指斥“大奸”（夏竦）；孙复曰“子祸始于此矣”。
+  participants:
+  - guji-石介
+- id: guji-石介-event-death
+  date: '1045'
+  year_of: 1045
+  type: death
+  title_zh: 未赴濮州通判而卒，身后险遭斵棺
+  description: 自请出为通判濮州，未赴而卒。会孔直温谋反，搜得介书，夏竦诬其诈死北走契丹，请发棺以验；众数百人具军令状力保，乃免斵棺。家贫，富弼、韩琦分俸买田赡其家。有《徂徕集》行于世。
+  participants:
+  - guji-石介
