@@ -1,0 +1,208 @@
+source: 子藏/兵家/太公金匮.md
+category: 子藏/兵家
+verdict: has_candidates
+candidates:
+- name_zh: 吕尚
+  score: 9
+  worth_why: 辅佐武王伐纣、先谋后事 dicho、牧野应天、开立社祭、促丁侯归降使四夷来贡；治国主张赏罚当人心、与殷民共享其财；另有金人三缄其口的传世名场面；功成封齐为一方始祖
+  era: 商末周初
+  dates_known: true
+rejections:
+- name_zh: 唐帝
+  why_not: 仅问答一则无完整做事流
+- name_zh: 夏桀
+  why_not: 仅凿山殒谏及亡国侧写系反面坐标
+- name_zh: 商纣王
+  why_not: 仅盛夏猎民失道事例已为负面衬托
+- name_zh: 武王
+  why_not: 已在库中周武王勿重复
+person:
+  qid: guji-lvshang
+  name_zh: 吕尚
+  names:
+    zh: 吕尚（姜太公、师尚父）
+    en: Jiang Ziya
+  lifespan:
+    birth:
+      date: 约前1150
+      precision: year
+      is_circa: true
+      raw: 生年不可考，活动于商末周初
+    death:
+      date: 约前1046后
+      precision: year
+      is_circa: true
+      raw: 卒年不可考，享年高龄
+  birth_date: 约前1150
+  death_date: 约前1046后
+  era: 商末周初
+  reign_ref: 周文王、周武王之世
+  archetype: 帝王师·开国谋主
+  dilemmas:
+  - 天下失道忠谏者死，隐忍待时还是直谏赴死
+  - 天与不取反受其咎，伐纣时机如何抉择
+  - 新朝初立民吏未安，如何安置殷商遗民
+  lesson: 先谋后事者昌，先事后谋者亡；明者见兆于未萌，智者避危于未形
+  summary_first_person: 我垂钓渭滨而遇文王，佐周灭商；牧野之战我断言雷雨是应天之举，成事在谋不在力；平殷之后我劝武王不问故新、与殷民共财，方得天下早安。
+  source_urls:
+  - 子藏/兵家/太公金匮.md
+endeavors:
+- id: guji-lvshang-endeavor-1
+  name_zh: 遇合文王与佐周灭商
+  labels:
+    zh:
+    - 渭滨得遇
+    - 谋定伐纣
+    - 牧野建功
+  phases:
+  - key: brewing
+    name_zh: 察时待主
+    labels:
+      zh:
+      - 忠谏者死之世
+    start_date: 约前1120
+    highlight_event_id: guji-lvshang-event-jian
+  - key: breakthrough
+    name_zh: 定伐纣之谋
+    labels:
+      zh:
+      - 先谋后事者昌
+    start_date: 约前1048
+    highlight_event_id: guji-lvshang-event-moufa
+  - key: climax
+    name_zh: 牧野决战
+    labels:
+      zh:
+      - 师到牧野
+    start_date: 约前1046
+    highlight_event_id: guji-lvshang-event-muye
+  - key: closure
+    name_zh: 安殷定策
+    labels:
+      zh:
+      - 无故无新如天如地
+    start_date: 约前1045
+    highlight_event_id: guji-lvshang-event-anmin
+  decisions:
+  - date: 约前1048
+    title: 决断伐纣时机
+    rationale: 殷已亡其三人，天与不取反受其咎；知时难得而易失
+  - date: 约前1046
+    title: 坚持出见风雪来客
+    rationale: 雪深丈余而车骑无迹，疑是圣人，不可不见
+- id: guji-lvshang-endeavor-2
+  name_zh: 立教垂训与镇抚四方
+  labels:
+    zh:
+    - 金人铭
+    - 画像射丁侯
+  phases:
+  - key: brewing
+    name_zh: 述五帝之戒
+    labels:
+      zh:
+      - 金人三缄其口
+    start_date: 约前1045
+    highlight_event_id: guji-lvshang-event-jinren
+  - key: climax
+    name_zh: 威服四夷
+    labels:
+      zh:
+      - 三旬射丁侯
+    start_date: 约前1044
+    highlight_event_id: guji-lvshang-event-dinghou
+  - key: closure
+    name_zh: 建社树槐
+    labels:
+      zh:
+      - 立西社
+    start_date: 约前1043
+    highlight_event_id: guji-lvshang-event-she
+  decisions:
+  - date: 约前1045
+    title: 以敬胜怠义胜欲诫武王
+    rationale: 道自微而生祸自微而成，日慎一日寿终无殃
+  - date: 约前1044
+    title: 画丁侯而射之
+    rationale: 丁侯不朝，以神道威慑使其举国为臣虏，四夷闻之皆惧来贡
+events:
+- id: guji-lvshang-event-chushi
+  event_type: endeavor_start
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-1
+  name_zh: 当纣之世愿闻文王之政而归周
+  date: 约前1120
+  year_of: -1120
+  date_precision: circa
+  summary: 纣戮谏者天下失道，吕尚弃暗投明谋事文王。
+- id: guji-lvshang-event-wenwang
+  event_type: other
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-1
+  name_zh: 文王语伯邑考之烹与羑里之囚
+  date: 约前1143
+  year_of: -1143
+  date_precision: circa
+  summary: 文王诉天下失道忠谏者死，为吕尚谋周之背景。
+- id: guji-lvshang-event-moufa
+  event_type: decision
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-1
+  name_zh: 对武王陈先谋后事之论
+  date: 约前1048
+  year_of: -1048
+  date_precision: circa
+  summary: 殷亡其三仁，太公断言可伐：先谋后事者昌，时至不行反受其殃。
+- id: guji-lvshang-event-muye
+  event_type: breakthrough
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-1
+  name_zh: 牧野临阵断雷雨为应天
+  date: 约前1046
+  year_of: -1046
+  date_precision: circa
+  summary: 阵未毕暴风疾雷，太公曰雷电是吾军动应天，军心遂安。
+- id: guji-lvshang-event-anmin
+  event_type: other
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-1
+  name_zh: 平殷后献与民共财之策
+  date: 约前1045
+  year_of: -1045
+  date_precision: circa
+  summary: 无故无新如天如地，得殷之财与殷之民共之，商得贾农得田。
+- id: guji-lvshang-event-jinren
+  event_type: other
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-2
+  name_zh: 述五帝之戒成金人之铭
+  date: 约前1045
+  year_of: -1045
+  date_precision: circa
+  summary: 黄帝金人三缄其口，武王遂书铭随身自诫于冠履剑镜车几。
+- id: guji-lvshang-event-dinghou
+  event_type: other
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-2
+  name_zh: 画像三旬射丁侯
+  date: 约前1044
+  year_of: -1044
+  date_precision: circa
+  summary: 丁侯不朝，尚父画其像按旬射其身，丁侯病剧请降；拔箭以日干循序，四夷闻之各以职来贡。
+- id: guji-lvshang-event-she
+  event_type: other
+  person_id: guji-lvshang
+  endeavor_id: guji-lvshang-endeavor-2
+  name_zh: 设西社祭神定宾礼
+  date: 约前1043
+  year_of: -1043
+  date_precision: circa
+  summary: 树槐王门起西社，祝社曰客有益者入无益者距，岁告水旱除民所苦。
+- id: guji-lvshang-event-death
+  event_type: death
+  person_id: guji-lvshang
+  name_zh: 吕尚故去
+  date: 约前1040
+  year_of: -1040
+  date_precision: circa
+  summary: 卒年史无定说，享年远迈，传为寿逾百岁。
