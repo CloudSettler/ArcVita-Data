@@ -1,0 +1,162 @@
+person:
+  qid: guji-毕再遇
+  name_zh: 毕再遇
+  names:
+    zh: 毕再遇
+    en: Bi Zaiyu
+  lifespan:
+    birth:
+      date: ~1148
+      precision: year
+      is_circa: true
+      raw: 卒年年七十逆推
+    death:
+      date: '1217'
+      precision: year
+      is_circa: false
+      raw: 嘉定十年后卒，年七十（约嘉定六年至十年间致仕后卒）
+  birth_date: ~1148
+  death_date: '1217'
+  era: 南宋
+  reign_ref: 孝宗、宁宗朝
+  archetype: 智勇名将
+  dilemmas:
+  - 誓死灵璧：北伐诸军溃败之际，留军断后御金，宁死北门保全全线退师
+  - 敝城借矢：六合围城矢尽，张伞诱敌射箭，借敌之矢守城
+  lesson: 胜负不常，败不挫气；兵以奇胜，进易退难，为将者当善御全师与人心。
+  summary_first_person: 我以恩补官，武艺绝人，经孝宗召见赐袍钱。开禧北伐，我先取泗州两城、力辞刺史牙牌；灵璧之战断后退敌、焚城安师，威名自此震于金军。此后守盱眙、复盱眙，夜火淮阴敌粮，六合守城借矢二十余万，间出奇兵却十万之敌，遂为名将。晚年顺序为帅，整军轻甲，致仕赠太师，谥忠毅。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷402
+endeavors:
+- id: guji-毕再遇-endeavor-1
+  name_zh: 早岁从军与孝宗知遇
+  phases:
+  - key: brewing
+    name_zh: 恩荫入仕练武
+    labels:
+      zh:
+      - 侍卫马司
+      - 武艺绝人
+    start_date: ~1160
+  - key: breakthrough
+    name_zh: 孝宗召见
+    labels:
+      zh:
+      - 赐战袍金钱
+    start_date: ~1175
+    highlight_event_id: guji-毕再遇-event-xiaozong-call
+  decisions:
+  - date: ~1175
+    title_zh: 应召入见献技
+    rationale: 挽弓步射二石、马射一石五斗，遂得太宗之赏遇
+- id: guji-毕再遇-endeavor-2
+  name_zh: 开禧北伐东线征战
+  phases:
+  - key: brewing
+    name_zh: 受命取泗州
+    labels:
+      zh:
+      - 敢死军前锋
+    start_date: '1206'
+    highlight_event_id: guji-毕再遇-event-sizhou
+  - key: breakthrough
+    name_zh: 泗州先登与灵璧断后
+    labels:
+      zh:
+      - 兵以奇胜
+      - 焚城安行
+    start_date: 1206-05
+    highlight_event_id: guji-毕再遇-event-lingbi
+  - key: climax
+    name_zh: 淮东 Defense 与六合大捷
+    labels:
+      zh:
+      - 夜火淮阴粮
+      - 张盖借矢
+      - 夺野新桥出敌背
+    start_date: 1206-12
+  - key: closure
+    name_zh: 解楚州之围、治军扬州
+    labels:
+      zh:
+      - 骁卫大将军
+      - 更造轻甲
+    start_date: '1207'
+  decisions:
+  - date: 1206-05
+    title_zh: 先期一日袭泗州
+    rationale: 敌已知济师之日，兵以奇胜，当出其不意
+  - date: 1206-05
+    title_zh: 固辞刺史牙牌
+    rationale: 取两城即得刺史，继此何以赏之，不受以示公
+  - date: 1206-05
+    title_zh: 灵璧留军断后并昼焚城
+    rationale: 郭李军溃贼必追蹑，吾当自御；昼焚则烟埃莫睹，诸军可安行
+  - date: '1206'
+    title_zh: 遣许俊夜袭淮阴焚粮
+    rationale: 敌众十倍难力胜，可计破也
+  - date: '1207'
+    title_zh: 移军六合御十万骑
+    rationale: 楚城坚兵多，敌所虑独淮西，六合最要害
+  - date: '1207'
+    title_zh: 分隶扬州北军、改创轻甲
+    rationale: 每队不过数人使不得为变，务便捷不使重迟
+- id: guji-毕再遇-endeavor-3
+  name_zh: 晚年任遇与致仕
+  phases:
+  - key: closure
+    name_zh: 屡辞归田、以节度使致仕
+    labels:
+      zh:
+      - 保康军承宣使
+      - 加太师谥忠毅
+    start_date: '1208'
+    highlight_event_id: guji-毕再遇-event-death
+  decisions:
+  - date: '1208'
+    title_zh: 和议成后累疏乞归
+    rationale: 和好既成，请求归田里，虽不允仍累辞
+  - date: '1214'
+    title_zh: 提举太平兴国宫、十年致仕
+    rationale: 功成名遂，以武信军节度使退让
+events:
+- id: guji-毕再遇-event-birth
+  event_type: birth
+  date: ~1148
+  year_of: '1148'
+  description: 毕再遇生于兖州，父毕进为岳飞旧部、武义大夫；再遇以恩补官
+- id: guji-毕再遇-event-xiaozong-call
+  event_type: career
+  date: ~1175
+  year_of: ~1175
+  description: 孝宗召见，见其武艺绝人大悦，赐战袍、金钱
+- id: guji-毕再遇-event-sizhou
+  event_type: career
+  date: 1206-05
+  year_of: '1206'
+  description: 开禧北伐，先期一日奇袭泗州，先登东城，呼「大宋毕将军在此」降西城，两城皆定
+- id: guji-毕再遇-event-lingbi
+  event_type: career
+  date: 1206-05
+  year_of: '1206'
+  description: 灵璧之战拒班师独留断后，手挥双刀追击三十里，格简斩金将，昼焚灵璧全师而退
+- id: guji-毕再遇-event-huaiyin
+  event_type: career
+  date: 1206-12
+  year_of: '1206'
+  description: 遣许俊夜袭淮阴金军粮营，伏火焚五十余所，生擒乌古伦帅勒等二十三人，复定盱眙
+- id: guji-毕再遇-event-liuhe
+  event_type: career
+  date: '1207'
+  year_of: '1207'
+  description: 六合之战，偃旗鼓伏弩破十万骑；矢尽张青盖诱敌获矢二十余万，临门作乐示闲，终夺野新桥却敌
+- id: guji-毕再遇-event-chuzhou
+  event_type: career
+  date: '1208'
+  year_of: '1208'
+  description: 嘉定元年除左骁卫上将军，遣将挠击解楚州三月之围，兼知扬州、淮东安抚使
+- id: guji-毕再遇-event-death
+  event_type: death
+  date: '1217'
+  year_of: '1217'
+  description: 毕再遇卒，年七十，赠太尉累赠太师，谥忠毅
