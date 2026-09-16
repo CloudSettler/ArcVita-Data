@@ -1,0 +1,81 @@
+person:
+  qid: guji-严复
+  name_zh: 严复
+  names:
+    zh: 严复
+    en: Yan Fu
+  original_name_zh: 严宗光
+  courtesy_names_zh:
+  - 又陵
+  - 几道
+  hometown_zh: 福建侯官
+  lifespan:
+    birth:
+      date: '1854'
+      precision: year
+      is_circa: true
+      raw: 清咸丰年间生
+  birth_date: '1854'
+  era: 清
+  archetype: 思想家·翻译家·启蒙者
+  dilemmas:
+  - 好古忽今与力今胜古之中西之辨
+  - 保国存种与开启民智的两难
+  - 自由理念与传统三纲伦理的冲突
+  lesson: 黜伪崇真、屈私为公，唯通达时务之真人才可救亡图存
+  summary_first_person: 我原名宗光，字又陵，后改名复，字几道，福建侯官人。我感于甲午世变之亟，昌言西学命脉在于学术黜伪崇真、刑政屈私为公，译《天演论》以物竞天择之理警醒国人，冀民智民力之振。
+endeavors:
+- id: guji-严复-endeavor-1
+  name_zh: 昌言西学、论世变
+  labels:
+    zh:
+    - 政论
+    - 启蒙思想
+  phases:
+  - key: brewing
+    name_zh: 痛感世变
+    labels:
+      zh:
+      - 中西之辨
+    highlight_event_id: guji-严复-event-1
+- id: guji-严复-endeavor-2
+  name_zh: 译介《天演论》
+  labels:
+    zh:
+    - 翻译
+    - 进化论
+  phases:
+  - key: breakthrough
+    name_zh: 译述达旨
+    labels:
+      zh:
+      - 物竞天择
+    highlight_event_id: guji-严复-event-2
+  decisions:
+  - date: '1895'
+    title_zh: 译赫胥黎《天演论》并作自序译例
+    rationale: 甲午败绩，欲以物竞天择、适者生存之理警醒国人，奋民力以图自强。
+events:
+- id: guji-严复-event-birth
+  event_type: birth
+  date: '1854'
+  year_of: 1854
+  date_precision: circa_year
+  description_zh: 严复生于福建侯官（约1854年），原名宗光，字又陵。
+  related_entity_id: guji-严复
+- id: guji-严复-event-1
+  event_type: endeavor_milestone
+  date: '1895'
+  year_of: 1895
+  date_precision: year
+  description_zh: 甲午海战连败之后，严复感于世变之亟，作《论世变之亟》《原强》《辟韩》《救亡决论》诸文，指中西命脉在于学术黜伪崇真、刑政屈私为公。
+  related_entity_id: guji-严复
+  endeavor_id: guji-严复-endeavor-1
+- id: guji-严复-event-2
+  event_type: endeavor_milestone
+  date: '1895'
+  year_of: 1895
+  date_precision: year
+  description_zh: 严复着手译述赫胥黎《天演论》，申达尔文物竞天择之旨与斯宾塞群学之说，作自序与译例言，倡天演进化以警世。
+  related_entity_id: guji-严复
+  endeavor_id: guji-严复-endeavor-2
