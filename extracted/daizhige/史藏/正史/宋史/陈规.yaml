@@ -1,0 +1,133 @@
+person:
+  qid: guji-陈规
+  name_zh: 陈规
+  names:
+    zh: 陈规
+    en: Chen Gui
+  archetype: 儒将守城
+  era: 南宋
+  reign_ref: 建炎、绍兴
+  dilemmas:
+  - 李横围城索妓女换退兵，一城与一妇之抉择
+  - 顺昌之战进退皆是死，誓死进而为忠
+  lesson: 死中求生，守城以粮与人心为本
+  summary_first_person: 我是陈规，以文臣之身屡破流盗、拒李横、佐刘锜顺昌大捷，虽有攻守方略传世而位不酬劳。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷377
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: ''
+    death:
+      date: '1160'
+      precision: year
+      is_circa: false
+      raw: 卒年七十，移知庐州兼淮西安抚后疾作而卒
+birth_date: ''
+death_date: '1160'
+endeavors:
+- id: guji-陈规-endeavor-1
+  name_zh: 守德安
+  labels:
+    zh:
+    - 摄守德安
+    - 破流盗
+  phases:
+  - key: brewing
+    name_zh: 摄守起家
+    labels:
+      zh:
+      - 父老请守
+    start_date: '1126'
+  - key: breakthrough
+    name_zh: 连败祝进王在
+    labels:
+      zh:
+      - 砲石鹅车之守
+    start_date: '1127'
+    highlight_event_id: guji-陈规-event-li-buqing
+  - key: climax
+    name_zh: 拒李横七十日
+    labels:
+      zh:
+      - 火枪焚天桥
+    start_date: '1132'
+    highlight_event_id: guji-陈规-event-li-heng
+  - key: closure
+    name_zh: 移守诸州
+    labels:
+      zh:
+      - 知池州庐州
+    start_date: '1133'
+  decisions:
+  - date: '1126'
+    title: 应父老之请摄守德安
+    rationale: 守臣遁去，城不可无主
+  - date: '1132'
+    title: 围城七十日不予妓女退军
+    rationale: 以一妇活一城终不忍从权，坚守气节
+- id: guji-陈规-endeavor-2
+  name_zh: 顺昌协守
+  labels:
+    zh:
+    - 知顺昌
+    - 佐刘锜
+  phases:
+  - key: brewing
+    name_zh: 葺城积粮
+    labels:
+      zh:
+      - 招流亡立保伍
+    start_date: '1140'
+  - key: climax
+    name_zh: 顺昌大捷
+    labels:
+      zh:
+      - 以逸制劳
+    start_date: 1140-06
+    highlight_event_id: guji-陈规-event-shunchang
+  - key: closure
+    name_zh: 移知庐州
+    labels:
+      zh:
+      - 病卒于官
+    start_date: '1160'
+  decisions:
+  - date: '1140'
+    title: 劝刘锜共为死守计
+    rationale: 城中有粟数万斛，死守则可胜
+  - date: '1140'
+    title: 主张潜兵斫营
+    rationale: 敌志屡挫必思出奇，潜兵可使彼昼夜不得休以养我锐
+events:
+- id: guji-陈规-event-birth
+  date: ''
+  year_of: ''
+  title: 陈规出生
+  date_raw: ''
+- id: guji-陈规-event-li-buqing
+  date: '1127'
+  year_of: '1127'
+  title: 守德安连败祝进、王在
+  date_raw: 建炎元年前后
+  description: 祝进、王在以砲石鹅车攻城东，陈规连战败之，二盗引众而去。
+- id: guji-陈规-event-li-heng
+  date: '1132'
+  year_of: '1132'
+  title: 德安拒李横焚天桥
+  date_raw: 绍兴间
+  description: 李横围城七十日，陈规以六十人持火枪出西门焚天桥，火牛助之，横拔砦去。
+- id: guji-陈规-event-shunchang
+  date: 1140-06
+  year_of: '1140'
+  title: 顺昌大捷
+  date_raw: 绍兴十年
+  description: 与刘锜登城区画，征神臂弓拒金兵，主张以逸制劳，更队易器，兀术宵遁。
+- id: guji-陈规-event-death
+  date: '1160'
+  year_of: '1160'
+  title: 陈规卒
+  date_raw: 移知庐州兼淮西安抚后疾作而卒
+  description: 年七十，临终犹分派帅事与郡城之守，赠右正议大夫，后立庙德安赐额贤守，追封忠利侯。
