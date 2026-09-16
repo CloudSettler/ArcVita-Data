@@ -1,0 +1,156 @@
+person:
+  qid: guji-刘珙
+  name_zh: 刘珙
+  names:
+    zh: 刘珙
+    en: Liu Gong
+  lifespan:
+    birth:
+      date: '1122'
+      precision: year
+      is_circa: true
+      raw: '1122'
+    death:
+      date: '1178'
+      precision: year
+      is_circa: false
+      raw: '1178'
+  birth_date: '1122'
+  death_date: '1178'
+  era: 南宋
+  reign_ref: 宋孝宗
+  archetype: 直臣能吏
+  dilemmas:
+  - 直言进谏会触怒君主与权宦，个人仕途与朝政纲纪难以两全
+  - 举贤荐能时需避嫌避私，尤其在与其父旧交张浚相关的任命上
+  lesson: 面对强权（秦桧）与君威皆据理力争，反复进谏而不改初心，方为社稷之臣
+  summary_first_person: 我刘珙，少有奇质，从叔父子翚学，以荫补官而登进士乙科。秦桧欲追谥其父，我拒不赴会，遂遭驱逐；桧死复起。金人犯边，诏檄多出我手。杨存中以私憾授江淮宣抚，我一再缴奏，终寝其命。湖南李金作乱，我遣将讨平之，孝宗赐玺书褒以经纶实才。我力荐汪应辰、张栻之贤，纠察龙大渊、曾觌近习之祸，奏免苛税巨亿。晚年移知建康，值水旱，全活数十万人无一人流离。临终犹草遗奏，以进退近习、召用陈俊卿、张栻为言，其恨在未能为国报雪仇耻。谥曰忠肃。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷386
+endeavors:
+- id: guji-刘珙-endeavor-1
+  name_zh: 仕途立节
+  phases:
+  - key: brewing
+    name_zh: 荫补力学
+    labels:
+      zh: 科学入仕
+    start_date: '1140'
+    highlight_event_id: guji-刘珙-event-jinshi
+  - key: breakthrough
+    name_zh: 抗秦桧
+    labels:
+      zh: 直声初显
+    start_date: '1155'
+    highlight_event_id: guji-刘珙-event-qinhui
+  - key: climax
+    name_zh: 缴奏存中
+    labels:
+      zh: 执奏廷堂
+    start_date: '1162'
+    highlight_event_id: guji-刘珙-event-yangcunzhong
+  - key: closure
+    name_zh: 平盗安民
+    labels:
+      zh: 抚湘定乱
+    start_date: '1170'
+    highlight_event_id: guji-刘珙-event-lijin
+  decisions:
+  - date: '1155'
+    title_zh: 不赴秦桧谥父之会
+    rationale: 宁得罪权相，不阿附曲礼
+  - date: '1162'
+    title_zh: 拒书杨存中录黄
+    rationale: 为国家计，不暇为张公谋，执奏如初使宣抚之命得寝
+- id: guji-刘珙-endeavor-2
+  name_zh: 治郡恤民
+  phases:
+  - key: brewing
+    name_zh: 关心民瘼
+    labels:
+      zh: 蠲赋除弊
+    start_date: '1163'
+    highlight_event_id: guji-刘珙-event-taxrelief
+  - key: breakout
+    name_zh: 建康救荒
+    labels:
+      zh: 平籴振粜
+    start_date: '1175'
+    highlight_event_id: guji-刘珙-event-famine
+  - key: climax
+    name_zh: 临终遗恨
+    labels:
+      zh: 遣奏忧国
+    start_date: '1178'
+    highlight_event_id: guji-刘珙-event-death
+  decisions:
+  - date: '1178'
+    title_zh: 请致仕并上遗奏
+    rationale: 疾革仍以罢黜近习、荐用陈俊卿张栻为言
+events:
+- id: guji-刘珙-event-birth
+  date: '1122'
+  year_of: 1122
+  type: birth
+  title_zh: 刘珙生
+  description: 子羽长子，生有奇质
+- id: guji-刘珙-event-jinshi
+  date: '1147'
+  year_of: 1147
+  type: career
+  title_zh: 登进士乙科
+  description: 监绍兴府都税务，后请祠归、杜门力学
+- id: guji-刘珙-event-qinhui
+  date: '1155'
+  year_of: 1155
+  type: defiance
+  title_zh: 不赴秦桧谥父之会
+  description: 秦桧欲追谥其父，召礼官会问，珙不至，桧怒，风言者逐之
+- id: guji-刘珙-event-draftsmen
+  date: '1162'
+  year_of: 1162
+  type: career
+  title_zh: 金犯边，诏檄多出其手
+  description: 兼权中书舍人，词气激烈，闻者泣下
+- id: guji-刘珙-event-yangcunzhong
+  date: '1162'
+  year_of: 1162
+  type: defiance
+  title_zh: 拒书杨存中宣抚录黄
+  description: 珙不书录黄，执奏如初，存中命乃寝
+- id: guji-刘珙-event-lijin
+  date: '1165'
+  year_of: 1165
+  type: military
+  title_zh: 讨平李金之乱
+  description: 知潭州、湖南安抚使，遣田宝杨钦破贼于莽山，执李金以降，宽各县窜匿者听其自降
+- id: guji-刘珙-event-taxrelief
+  date: '1171'
+  year_of: 1171
+  type: governance
+  title_zh: 奏除福建钞盐岁额等弊政
+  description: 奏除福建钞盐岁额二万万，罢江西和籴及广西折米盐钱，蠲诸路逋负巨亿
+- id: guji-刘珙-event-longdahyuan
+  date: '1170'
+  year_of: 1170
+  type: defiance
+  title_zh: 谏止曾觌复还
+  description: 言此曹若引以自近、与闻机事，非所以光德业、振纪纲，命遂止
+- id: guji-刘珙-event-wangqi
+  date: '1172'
+  year_of: 1172
+  type: defiance
+  title_zh: 诘王琪荐刘甄夫事
+  description: 追琪诘其故，殿中皆惊，以故独罢为端明殿学士奉外祠
+- id: guji-刘珙-event-famine
+  date: '1175'
+  year_of: 1175
+  type: governance
+  title_zh: 建康救荒
+  description: 会水旱，首奏蠲夏税六十万缗、秋苗米十六万六千斛，得商人米三百万斛平价振粜，阖境数十万人无一人捐瘠流徙
+- id: guji-刘珙-event-death
+  date: '1178'
+  year_of: 1178
+  type: death
+  title_zh: 薨
+  description: 年五十七，赠光禄大夫，谥忠肃；遗奏仍以国事为念
