@@ -1,0 +1,113 @@
+person:
+  qid: guji-张巡
+  name_zh: 张巡
+  names:
+    zh: 张巡
+    en: Zhang Xun
+  lifespan:
+    birth:
+      date: 0709
+      precision: year
+      is_circa: true
+      raw: 生年史阙，约合景龙年间
+    death:
+      date: '0757'
+      precision: year
+      is_circa: false
+      raw: 唐至德二载守睢阳城陷遇害
+  birth_date: 0709
+  death_date: '0757'
+  era: 唐
+  reign_ref: 唐玄宗、唐肃宗时人
+  archetype: 忠烈守城名将
+  dilemmas:
+  - 孤城被围、粮尽援绝，是否以死守道殉国
+  - 主辱臣死与保全性命之间的抉择
+  lesson: 主辱臣死，忠信坚贞，守死善道则名光扬于万古
+  summary_first_person: 我张巡守睢阳，被围四十七日，凡一千二百余阵，城孤粮竭仍激励将士、忠勇不移，虽以身殉国，而忠烈之名得以光扬万古。
+endeavors:
+- id: guji-张巡-endeavor-1
+  key: 睢阳守城
+  name_zh: 死守睢阳抗安史叛军
+  labels:
+    zh: 忠烈守城
+  phases:
+  - key: brewing
+    name_zh: 雍丘拒诱
+    labels:
+      zh: 令狐潮劝降不纳
+    start_date: '0756'
+    highlight_event_id: guji-张巡-event-yongqiu
+  - key: breakthrough
+    name_zh: 誓守孤城
+    labels:
+      zh: 被围血战
+    start_date: '0757'
+    highlight_event_id: guji-张巡-event-siege
+  - key: climax
+    name_zh: 城困粮绝
+    labels:
+      zh: 煮纸和茶以食
+    start_date: '0757'
+    highlight_event_id: guji-张巡-event-siege
+  - key: closure
+    name_zh: 以身殉国
+    labels:
+      zh: 城陷遇害、名垂万古
+    start_date: '0757'
+    highlight_event_id: guji-张巡-event-death
+  decisions:
+  - date: '0757'
+    title_zh: 拒令狐潮劝诱之书
+    rationale: 时雍丘令令狐潮以书劝诱，巡不纳，立志遇明君圣主则屈腰、逢豺狼犬羊则展志
+  - date: '0757'
+    title_zh: 城中粮竭仍意自如，坚守以待
+    rationale: 人困食竭，以纸布切煮而食之，时以茶汁和之，而意自如
+- id: guji-张巡-endeavor-2
+  key: 真源治县
+  name_zh: 为真源宰、政尚宽达
+  labels:
+    zh: 明达治县
+  phases:
+  - key: brewing
+    name_zh: 真源宰任上
+    labels:
+      zh: 性明达，不以簿书介意
+    start_date: '0750'
+    is_circa: true
+    highlight_event_id: guji-张巡-event-zhenyuan
+  decisions:
+  - date: '0750'
+    title_zh: 县务悉委豪华南金
+    rationale: 巡性明达，不以簿书介意，故时人语曰"南金口，明府手"，及巡闻之，不以为事
+events:
+- id: guji-张巡-event-birth
+  date: 0709
+  year_of: 709
+  type: birth
+  title_zh: 张巡出生
+  detail_zh: 史载不详，约合景龙年间生
+- id: guji-张巡-event-zhenyuan
+  date: '0750'
+  year_of: 750
+  type: endeavor
+  title_zh: 为真源宰，县务委于南金
+  detail_zh: 性明达，不以簿书介意，时人语曰"南金口，明府手"
+- id: guji-张巡-event-yongqiu
+  date: '0756'
+  year_of: 756
+  type: endeavor
+  title_zh: 雍丘拒令狐潮劝诱
+  detail_zh: 令狐潮以书劝诱，不纳；雷万春中弩面不动，潮疑为木人，乃叹"方知足下军令矣"
+- id: guji-张巡-event-siege
+  date: '0757'
+  year_of: 757
+  type: endeavor
+  title_zh: 死守睢阳，被围四十七日
+  detail_zh: 玄宗已幸蜀，胡羯方炽，城孤势蹙，人困食竭，煮纸以茶汁和之；上《谢加金吾将军表》言被围四十七日凡一千二百余阵
+- id: guji-张巡-event-death
+  date: '0757'
+  year_of: 757
+  type: death
+  title_zh: 睢阳城陷，以身殉国
+  detail_zh: 刘禹锡曰：向若救至身存，不过是一张仆射耳，则张巡、许远之名，焉得以光扬于万古哉
