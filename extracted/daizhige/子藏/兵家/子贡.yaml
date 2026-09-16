@@ -1,0 +1,149 @@
+person:
+  qid: guji-zigong
+  name_zh: 子贡
+  names:
+    zh: 子贡
+    en: Zi Gong
+  lifespan:
+    birth:
+      date: -520
+      precision: circa
+      is_circa: true
+      raw: 约公元前520年
+    death:
+      date: -456
+      precision: circa
+      is_circa: true
+  birth_date: 约公元前520年
+  death_date: 约公元前456年
+  era: 春秋末期
+  reign_ref: 鲁哀公时期
+  archetype: 纵横说客型外交家与生间
+  dilemmas:
+  - 救鲁须游说强齐转兵伐吴，扩张战乱而存母国
+  - 说吴伐齐又须防吴灭越，借勾践之力诱吴王出征
+  - 劝晋备兵待吴，坐观齐吴两败以强晋
+  lesson: 一人之口舌可移四国之兵，说客成功贵在知各国君臣之患而因其势导之
+  summary_first_person: 我是孔门弟子子贡。田常欲伐鲁，夫子命我出行。我以忧在内者攻强之说，使田常转兵伐吴；说吴王救鲁伐齐，又为越王谋报吴之机，更劝晋君修兵以待。吴破齐而败于晋，越遂灭吴而霸。我一出而存鲁、乱齐、破吴、强晋、霸越。
+  source_urls:
+  - 《间书·间论·子贡》引《孔子家语·屈节解》
+endeavors:
+- id: guji-zigong-endeavor-1
+  name_zh: 为孔子出使救鲁
+  phases:
+  - key: brewing
+    name_zh: 请行赴齐
+    labels:
+      zh:
+      - 使齐
+      - 孔门受命
+    start_date: -484
+    highlight_event_id: guji-zigong-event-shuo-tianchang
+  - key: breakthrough
+    name_zh: 说转四国
+    labels:
+      zh:
+      - 游说
+      - 移祸存鲁
+    start_date: -484
+    highlight_event_id: guji-zigong-event-yue-wu
+  - key: climax
+    name_zh: 列国交锋
+    labels:
+      zh:
+      - 艾陵之战
+      - 黄池争强
+      - 越灭吴
+    start_date: -484
+    highlight_event_id: guji-zigong-event-ailing
+  - key: closure
+    name_zh: 功成归鲁
+    labels:
+      zh:
+      - 归鲁
+      - 五国变动
+    start_date: -483
+    highlight_event_id: guji-zigong-event-return-lu
+  decisions:
+  - date: -484
+    title_zh: 自请为使，往说田常
+    rationale_zh: 孔子欲屈节于田常以救鲁，子贡请行
+  - date: -484
+    title_zh: 劝吴王救鲁伐齐而不伐越
+    rationale_zh: 以存亡继绝之名、威晋服诸侯之利说吴王，并请东见越君令其出兵相从
+events:
+- id: guji-zigong-event-birth
+  type: birth
+  date: -520
+  year_of: -520
+  date_precision: 约公元前
+  summary: 子贡约生于春秋末年，卫国人，孔门高弟。
+- id: guji-zigong-event-shuo-tianchang
+  type: endeavor_event
+  date: -484
+  year_of: -484
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 说田常转兵伐吴
+  detail: 子贡至齐说田常，以忧在内者攻强之理，劝其舍易伐之鲁而攻强吴，以孤主制齐。
+  location: 齐
+- id: guji-zigong-event-shuo-wuwang
+  type: endeavor_event
+  date: -484
+  year_of: -484
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 说吴王救鲁伐齐
+  detail: 子贡以救鲁显名、伐齐大利、抚泗上诸侯之利说吴王，吴王畏越，子贡请往见越君。
+  location: 吴
+- id: guji-zigong-event-yue-wu
+  type: endeavor_event
+  date: -484
+  year_of: -484
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 为越王谋报吴之机
+  detail: 子贡告越王吴国内敝民怨、太宰嚭用事，劝其出兵佐吴、卑辞重宝以诱吴王伐齐；越王赠金百镒不受。
+  location: 越
+- id: guji-zigong-event-jin
+  type: endeavor_event
+  date: -484
+  year_of: -484
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 劝晋君修兵备吴
+  detail: 子贡虑吴胜齐必以兵临晋，劝晋君修兵休卒以待之，遂去之鲁。
+  location: 晋
+- id: guji-zigong-event-ailing
+  type: endeavor_event
+  date: -484
+  year_of: -484
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 吴破齐师于艾陵
+  detail: 吴王发九郡之兵与齐战于艾陵，大破齐师，获七将军之兵，其后以兵临晋，与晋相遇黄池，晋人大败吴师。
+  location: 艾陵
+- id: guji-zigong-event-wu-fall
+  type: endeavor_event
+  date: -482
+  year_of: -482
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 越袭吴而霸
+  detail: 越王因吴兵在外涉江袭吴，与吴战于五湖，三战不胜，城门不守，越遂围王宫，杀夫差，三岁东向而霸。
+  location: 吴
+- id: guji-zigong-event-return-lu
+  type: endeavor_event
+  date: -483
+  year_of: -483
+  date_precision: 约公元前
+  endeavor_id: guji-zigong-endeavor-1
+  title_zh: 一出存鲁乱齐破吴强晋霸越
+  detail: 故子贡一出，存鲁、乱齐、破吴、强晋而霸越，其用间即孙子所谓生间。
+  location: 鲁
+- id: guji-zigong-event-death
+  type: death
+  date: -456
+  year_of: -456
+  date_precision: 约公元前
+  summary: 子贡约卒于战国初期。
