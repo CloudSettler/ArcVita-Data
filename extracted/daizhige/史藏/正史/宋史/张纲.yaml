@@ -1,0 +1,201 @@
+person:
+  qid: guji-张纲
+  name_zh: 张纲
+  names:
+    zh: 张纲
+    en: Zhang Gang
+  lifespan:
+    birth:
+      date: 约1083
+      precision: year
+      is_circa: true
+      raw: 卒年八十四，生年未详，据此约推
+    death:
+      date: 约1166
+      precision: year
+      is_circa: true
+      raw: 卒，年八十四
+  birth_date: 约1083
+  death_date: 约1166
+  era: 两宋之际
+  reign_ref: 徽宗·钦宗·高宗·孝宗
+  archetype: 直臣·不附权贵的清正执政
+  dilemmas:
+  - 直言忤权相（蔡京、秦桧）则去位闲处，与坚守臣道之间的取舍
+  - 军将骄横、朝廷威弱时，法度与情势的冲突
+  lesson: 以直行己，以正立朝，以静退高天下
+  summary_first_person: 我以三中首选入仕，论事不肯阿附，虽为蔡京所挤、为秦桧所疏，卧家二十年绝不通问；桧死复起，官至参知政事，摘八十利民事宣布中外，吾自信守者，惟直与正而已。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷390
+endeavors:
+- id: guji-张纲-endeavor-1
+  name_zh: 科第入仕与朝路直言
+  labels:
+    zh:
+    - 太学三首选
+    - 忤蔡京
+  phases:
+  - key: brewing
+    name_zh: 入太学以上舍及第
+    labels:
+      zh:
+      - 科第起家
+    start_date: 约1100
+  - key: breakthrough
+    name_zh: 特除太学正，入对论邪正
+    labels:
+      zh:
+      - 徽宗知遇
+    start_date: 约1102
+    highlight_event_id: guji-张纲-event-duicheng
+  - key: climax
+    name_zh: 力论童贯不可出师而不报
+    labels:
+      zh:
+      - 论兵谏阻
+    start_date: 约1122
+    highlight_event_id: guji-张纲-event-luntongguan
+  - key: closure
+    name_zh: 忤蔡京被挤，主管玉局观
+    labels:
+      zh:
+      - 外任祠禄
+    start_date: 约1105
+  decisions:
+  - date: 约1122
+    title_zh: 力论遣童贯、蔡攸使朔方不可出师
+    rationale: 上不报而后果金渝盟犯阙，见其先识
+- id: guji-张纲-endeavor-2
+  name_zh: 靖康守城与整饬法纪
+  labels:
+    zh:
+    - 分守四壁
+    - 叱按王进
+  phases:
+  - key: brewing
+    name_zh: 出为两浙提刑、移江东
+    labels:
+      zh:
+      - 外任按刑
+    start_date: 约1127
+  - key: breakthrough
+    name_zh: 金犯京阙，命分守四壁，不受登陴迁赏
+    labels:
+      zh:
+      - 主忧臣辱
+    start_date: 约1126
+    highlight_event_id: guji-张纲-event-shoubei
+  - key: climax
+    name_zh: 究竟王进钉手案，叱进阶下按问
+    labels:
+      zh:
+      - 申严军纪
+    start_date: 约1130
+    highlight_event_id: guji-张纲-event-wangjin
+  - key: closure
+    name_zh: 累迁中书舍人、给事中，执驳不合法度之命
+    labels:
+      zh:
+      - 封驳执奏
+    start_date: 约1135
+  decisions:
+  - date: 约1126
+    title_zh: 拒受守城足月迁赏
+    rationale: 主忧臣辱，义当尔，不因此受赏
+  - date: 约1135
+    title_zh: 执议崇宁党籍九十八人为正、驳宗室超转
+    rationale: 崇宁以来官职不循资任致纲纪大坏，方当丕变其俗
+- id: guji-张纲-endeavor-3
+  name_zh: 绝迹秦桧与晚岁执政
+  labels:
+    zh:
+    - 卧家二十年
+    - 参知政事
+  phases:
+  - key: brewing
+    name_zh: 魏矼劾罢，提举太平观，引年致仕
+    labels:
+      zh:
+      - 罢黜闲居
+    start_date: 约1138
+  - key: breakthrough
+    name_zh: 秦桧用事，卧家二十年绝不与通问
+    labels:
+      zh:
+      - 静退守节
+    start_date: 约1142
+    highlight_event_id: guji-张纲-event-bujiaotong
+  - key: climax
+    name_zh: 桧死后起为吏部侍郎，讲《关雎》寓意规戒，进参知政事
+    labels:
+      zh:
+      - 晚年执政
+    start_date: 约1156
+    highlight_event_id: guji-张纲-event-canzheng
+  - key: closure
+    name_zh: 以资政殿学士知婺州，寻致仕，孝宗朝存问赐羊酒
+    labels:
+      zh:
+      - 功成告老
+    start_date: 约1160
+  decisions:
+  - date: 约1156
+    title_zh: 摘切于利民八十事镂版宣布
+    rationale: 惩秦桧苛政，期安黎庶，使人皆昭知上德意
+events:
+- id: guji-张纲-event-birth
+  person_qid: guji-张纲
+  type: birth
+  date: 约1083
+  year_of: 1083
+  name_zh: 张纲生于润州丹阳
+  description: 字彦正，润州丹阳人，生年史无明文，据卒年八十四约推
+- id: guji-张纲-event-duicheng
+  person_qid: guji-张纲
+  type: career
+  date: 约1102
+  year_of: 1102
+  name_zh: 入对论君子小人溷殽之弊
+  description: 徽宗知其三中首选，特除太学正，迁博士，除校书郎；入对言宜以祖考躬行之教为法，上称善
+- id: guji-张纲-event-luntongguan
+  person_qid: guji-张纲
+  type: career
+  date: 约1122
+  year_of: 1122
+  name_zh: 力论童贯、蔡攸不可出师
+  description: 朝议遣童贯、蔡攸使朔方，纲力论不可出师状，不报，其后金渝盟犯京阙
+- id: guji-张纲-event-shoubei
+  person_qid: guji-张纲
+  type: career
+  date: 约1126
+  year_of: 1126
+  name_zh: 金犯京阙，分守四壁辞赏
+  description: 命纲分守四壁，旋解严，诏登陴足月者迁，纲曰主忧臣辱义当尔，卒不自言
+- id: guji-张纲-event-wangjin
+  person_qid: guji-张纲
+  type: career
+  date: 约1130
+  year_of: 1130
+  name_zh: 乘传穷竟王进案，叱将按问
+  description: 池将王进钉曹官手于门，诏纲乘传穷竟；进拥甲骑数百突至，纲叱进阶下按问，罪立具，自是无越法者
+- id: guji-张纲-event-bujiaotong
+  person_qid: guji-张纲
+  type: career
+  date: 约1142
+  year_of: 1142
+  name_zh: 卧家二十年绝不与秦桧通问
+  description: 秦桧用事久，纲引年致仕，卧家二十年绝不与通问；桧死后召为吏部侍郎兼侍读
+- id: guji-张纲-event-canzheng
+  person_qid: guji-张纲
+  type: career
+  date: 约1156
+  year_of: 1156
+  name_zh: 拜参知政事，颁利民八十事
+  description: 权吏部尚书后除参知政事，摘高宗宽恤民力切于利民八十事，乞镂版宣布中外
+- id: guji-张纲-event-death
+  person_qid: guji-张纲
+  type: death
+  date: 约1166
+  year_of: 1166
+  name_zh: 张纲卒，年八十四
+  description: 孝宗登极，召陪祀南郊，以老辞不至，诏州郡恒存问赐羊酒；卒后初谥文定，后特赐谥章简
