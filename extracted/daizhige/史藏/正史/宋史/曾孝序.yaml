@@ -1,0 +1,152 @@
+person:
+  qid: guji-曾孝序
+  name_zh: 曾孝序
+  names:
+    zh: 曾孝序
+    en: Zeng Xiaoxu
+  lifespan:
+    birth:
+      date: '-1049'
+      precision: year
+      is_circa: true
+      raw: 卒年七十九推算
+    death:
+      date: '1127'
+      precision: year
+      is_circa: true
+      raw: 建炎初遇害，年七十九
+  birth_date: '-1049'
+  death_date: '1127'
+  era: 北宋末至南宋初
+  reign_ref: 宋徽宗、宋高宗
+  archetype: 忠直节烈之臣
+  dilemmas:
+  - 直言理财之道，忤蔡京被贬窜岭表，守直与仕途两难
+  - 青州兵变，出据厅事瞋目骂贼，与子俱死，守城与身死不可两全
+  lesson: 民为邦本，直道事君，宁死不辱其节
+  summary_first_person: 我曾孝序，泉州晋江人，以荫入仕，累官环庆路经略安抚使。因论财赋忤蔡京，被劾削籍窜岭表，后复起知潭州、青州。在青州缮城训卒，储粮数年，金人不敢犯。建炎初，乱兵赵晟之部将王定夺门而入，我瞋目骂贼，与子�o俱遇害，年七十九，谥威愍。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷453
+endeavors:
+- id: guji-曾孝序-endeavor-1
+  name_zh: 仕宦与忤蔡京贬谪
+  phases:
+  - key: brewing
+    name_zh: 荫补入仕
+    labels:
+      zh:
+      - 荫补
+      - 盐仓监当
+    start_date: '-1049'
+  - key: breakthrough
+    name_zh: 忤蔡京被劾
+    labels:
+      zh:
+      - 上疏论民力
+      - 削籍窜岭表
+    start_date: '1102'
+    highlight_event_id: guji-曾孝序-event-exile
+  - key: climax
+    name_zh: 复起知潭青
+    labels:
+      zh:
+      - 知潭州
+      - 知青州
+    start_date: '1125'
+  - key: closure
+    name_zh: 青州遇害
+    labels:
+      zh:
+      - 兵变遇害
+      - 谥威愍
+    start_date: '1127'
+    highlight_event_id: guji-曾孝序-event-death
+  decisions:
+  - date: '1102'
+    title_zh: 上疏论结籴俵籴之弊
+    rationale: 民力已殚，民为邦本，一有逃移谁与守邦
+  - date: '1125'
+    title_zh: 青州缮城储粮
+    rationale: 缮修城池、训练士卒、储峙金谷，为备数年使金人不敢犯
+- id: guji-曾孝序-endeavor-2
+  name_zh: 平定道州徭叛
+  phases:
+  - key: brewing
+    name_zh: 徭人据险
+    labels:
+      zh:
+      - 道州徭叛
+    start_date: '1120'
+  - key: climax
+    name_zh: 夜袭破平
+    labels:
+      zh:
+      - 夜遣骁锐攀援
+      - 大兵继进
+    start_date: '1121'
+    highlight_event_id: guji-曾孝序-event-yao-campaign
+  - key: closure
+    name_zh: 迁显谟龙图直学士
+    labels:
+      zh:
+      - 进秩
+    start_date: '1122'
+  decisions:
+  - date: '1121'
+    title_zh: 夜遣骁锐攀崖而攻
+    rationale: 徭人乘高恃险、机毒矢下射，正面不可进，故夜袭险要奇破之
+events:
+- id: guji-曾孝序-event-birth
+  person: guji-曾孝序
+  type: birth
+  date: -1049-01-01
+  year_of: -1049
+  date_precision: year
+  is_circa: true
+  place: 泉州晋江
+  description: 曾孝序生，字逢原，泉州晋江人。
+- id: guji-曾孝序-event-official-start
+  person: guji-曾孝序
+  type: career
+  date: '1070-01-01'
+  year_of: 1070
+  date_precision: year
+  is_circa: true
+  place: 泰州海安
+  description: 以荫补将作监主簿，监泰州海安盐仓，因家泰州。
+- id: guji-曾孝序-event-exile
+  person: guji-曾孝序
+  type: political_event
+  date: '1102-01-01'
+  year_of: 1102
+  date_precision: year
+  is_circa: true
+  place: 京师·岭表
+  description: 上疏言结籴俵籴尽括民财、民力殚矣，蔡京怒，遣御史劾其私事，锻炼无所得，竟以约日出师几误军期削籍窜岭表。
+- id: guji-曾孝序-event-yao-campaign
+  person: guji-曾孝序
+  type: military_event
+  date: '1121-01-01'
+  year_of: 1121
+  date_precision: year
+  is_circa: true
+  place: 道州
+  description: 道州徭人叛，乘高恃险；孝序夜遣骁锐攀援而上，大兵继进，破平之。
+- id: guji-曾孝序-event-qingzhou-defense
+  person: guji-曾孝序
+  type: military_event
+  date: '1125-01-01'
+  year_of: 1125
+  date_precision: year
+  is_circa: true
+  place: 青州
+  description: 迁龙图阁直学士知青州，缮修城池、训练士卒、储峙金谷有数年之备，金人不敢犯。
+- id: guji-曾孝序-event-death
+  person: guji-曾孝序
+  type: death
+  date: '1127-01-01'
+  year_of: 1127
+  date_precision: year
+  is_circa: true
+  place: 青州
+  description: 临朐土兵赵晟乱，将官王定兵败，以言撼败卒夺门斩关而入；孝序出据厅事瞋目骂之，与其子宣教郎𬣙皆遇害，年七十九；后赠五官为光禄大夫，谥威愍。
