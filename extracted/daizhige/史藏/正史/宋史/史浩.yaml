@@ -1,0 +1,222 @@
+person:
+  qid: guji-shi-hao
+  name_zh: 史浩
+  names:
+    zh: 史浩
+    en: Shi Hao
+  lifespan:
+    birth:
+      date: '1106'
+      precision: year
+      is_circa: true
+      raw: 绍熙五年薨，年八十九，逆推
+    death:
+      date: '1194'
+      precision: year
+      is_circa: false
+      raw: 绍熙五年薨，年八十九
+  birth_date: '1106'
+  death_date: '1194'
+  era: 南宋
+  reign_ref: 宋高宗绍兴、宋孝宗隆兴/淳熙、宋光宗绍熙
+  archetype: 宰相·帝王师
+  dilemmas:
+  - 太子不可将兵，当如何劝谏建王不以兵权侥幸
+  - 与张浚主战之争，先备御还是即日恢复
+  - 军民殴斗同罚之议，是为平冤还是逆上意
+  lesson: 守备为先、公而忘私，以德报怨而不以私害公
+  summary_first_person: 我以绍兴十四年进士入仕，屡任王府官，力阻建王将兵而护储嗣之礼；孝宗朝两度拜相，主张先为备御而不轻言用兵；虽有争罢之谪，终以宽厚荐贤、 resid 至太师，薨后追封越王。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷396
+endeavors:
+- id: guji-shi-hao-endeavor-1
+  name_zh: 帝王家教与王府辅弼
+  phases:
+  - key: brewing
+    name_zh: 历州学与太学
+    labels:
+      zh:
+      - 进士入仕
+      - 学官
+    start_date: '1144'
+    highlight_event_id: guji-shi-hao-event-jinshi
+  - key: breakthrough
+    name_zh: 二王择一与建王直讲
+    labels:
+      zh:
+      - 王府教授
+      - 周礼训王
+    start_date: '1155'
+    highlight_event_id: guji-shi-hao-event-zhouli
+  - key: climax
+    name_zh: 谏止太子将兵
+    labels:
+      zh:
+      - 扈跸建康
+      - 供子职
+    start_date: '1161'
+    highlight_event_id: guji-shi-hao-event-jianbing
+  - key: closure
+    name_zh: 太子右庶子与受禅佐命
+    labels:
+      zh:
+      - 翰林学士
+      - 知制诰
+    start_date: '1162'
+    highlight_event_id: guji-shi-hao-event-shouchan
+  decisions:
+  - date: '1161'
+    title_zh: 力言太子不可将兵，草奏请扈跸供子职
+    rationale: 以晋申生、唐肃宗灵武之戒，既全储嗣之体又安高宗之怒
+- id: guji-shi-hao-endeavor-2
+  name_zh: 两度拜相与战和大议
+  phases:
+  - key: brewing
+    name_zh: 参知政事与议应敌定论
+    labels:
+      zh:
+      - 先为备御
+      - 荐陆游尹穑
+    start_date: '1162'
+    highlight_event_id: guji-shi-hao-event-canzheng
+  - key: breakthrough
+    name_zh: 隆兴拜相，平反赵鼎岳飞
+    labels:
+      zh:
+      - 尚书右仆射
+      - 昭雪岳飞
+    start_date: '1163'
+    highlight_event_id: guji-shi-hao-event-baixiang
+  - key: climax
+    name_zh: 与张浚殿上辨恢复
+    labels:
+      zh:
+      - 反对轻战
+      - 请去相职
+    start_date: '1163'
+    highlight_event_id: guji-shi-hao-event-bianlun
+  - key: closure
+    name_zh: 淳熙复相与直谏去位
+    labels:
+      zh:
+      - 再相
+      - 争陆庆童之狱
+    start_date: '1174'
+    highlight_event_id: guji-shi-hao-event-fuxiang
+  decisions:
+  - date: '1163'
+    title_zh: 陈三说不可，反对即日降诏幸建康出师
+    rationale: 帝王之兵当出万全，岂可尝试以图侥幸
+  - date: '1175'
+    title_zh: 争军民同罚，力言陆庆童不可枭首
+    rationale: 民不得其平则言可畏，不可比臣下为秦二世而一其罪
+- id: guji-shi-hao-endeavor-3
+  name_zh: 荐贤与晚节
+  phases:
+  - key: brewing
+    name_zh: 荐陆游、尹穑及后有德报怨之举
+    labels:
+      zh:
+      - 荐人才
+      - 以德报怨
+    start_date: '1162'
+    highlight_event_id: guji-shi-hao-event-luyou
+  - key: climax
+    name_zh: 经筵告归前荐江浙士十五人
+    labels:
+      zh:
+      - 荐陆九渊叶适等
+      - 升擢之旨
+    start_date: '1178'
+    highlight_event_id: guji-shi-hao-event-jianxian
+  - key: closure
+    name_zh: 致仕封魏国公，治第鄞之西湖
+    labels:
+      zh:
+      - 太保致仕
+      - 旧学堂
+    start_date: '1183'
+    highlight_event_id: guji-shi-hao-event-zhishi
+  decisions:
+  - date: '1163'
+    title_zh: 荐陈之茂进职与郡、荐莫济掌内制
+    rationale: 臣不知有怨，不敢以私害公
+events:
+- id: guji-shi-hao-event-birth
+  date: '1106'
+  year_of: 1106
+  category: birth
+  title_zh: 史浩生（据卒年及寿数逆推）
+  description: 字直翁，明州鄞县人
+- id: guji-shi-hao-event-death
+  date: '1194'
+  year_of: 1194
+  category: death
+  title_zh: 薨，年八十九，追封会稽郡王
+  description: 绍熙五年薨，宁宗时赐谥文惠；嘉定十四年追封越王、改谥忠定，配享孝宗庙庭
+- id: guji-shi-hao-event-jinshi
+  date: '1144'
+  year_of: 1144
+  category: career
+  title_zh: 登进士第，调绍兴余姚县尉
+  description: 绍兴十四年登第，后历温州教授，为郡守张九成所器
+- id: guji-shi-hao-event-zhouli
+  date: '1155'
+  year_of: '1155'
+  category: career
+  title_zh: 讲《周礼》训世子饮酒当有节
+  description: 为建王直讲，讲膳夫、酒正之制，王起而谢曰敢不佩斯训
+- id: guji-shi-hao-event-jianbing
+  date: '1161'
+  year_of: 1161
+  category: career
+  title_zh: 谏止建王将兵，草奏请扈跸
+  description: 金主亮犯边，建王抗疏请为前驱，浩力言太子不可将兵，并草请扈跸供子职之奏，高宗怒意顿释
+- id: guji-shi-hao-event-shouchan
+  date: '1162'
+  year_of: 1162
+  category: career
+  title_zh: 立建王为皇太子，除起居郎兼太子右庶子
+  description: 三十二年上还临安；孝宗受禅后迁翰林学士、知制诰
+- id: guji-shi-hao-event-canzheng
+  date: '1162'
+  year_of: '1162'
+  category: career
+  title_zh: 除参知政事，奏先为备御
+  description: 议应敌定论，主张先为备御是谓良规，荐陆游、尹穑并赐出身
+- id: guji-shi-hao-event-baixiang
+  date: '1163'
+  year_of: 1163
+  category: career
+  title_zh: 拜尚书右仆射，首请复赵鼎、岳飞等官爵
+  description: 首言赵鼎、李光无罪，岳飞久冤宜复官爵、禄其子孙，悉从之
+- id: guji-shi-hao-event-bianlun
+  date: '1163'
+  year_of: '1163'
+  category: career
+  title_zh: 与张浚殿上辨论恢复，遂请去位
+  description: 反对即日出兵，主张城瓜洲、采石；出知绍兴，自是不召者十三年
+- id: guji-shi-hao-event-fuxiang
+  date: '1174'
+  year_of: '1174'
+  category: career
+  title_zh: 淳熙五年复为右丞相
+  description: 上曰自叶衡罢虚席以待卿久矣；浩奏蒙恩再相唯尽公道
+- id: guji-shi-hao-event-luyou
+  date: '1162'
+  year_of: '1162'
+  category: recommendation
+  title_zh: 荐枢密院编修官陆游、尹穑
+  description: 召对，并赐出身
+- id: guji-shi-hao-event-jianxian
+  date: '1178'
+  year_of: '1178'
+  category: recommendation
+  title_zh: 荐江浙之士十五人
+  description: 经筵告归前薛叔似、杨简、陆九渊、叶适、袁燮等有旨升擢
+- id: guji-shi-hao-event-zhishi
+  date: '1183'
+  year_of: 1183
+  category: career
+  title_zh: 请老，除太保致仕，封魏国公
+  description: 淳熙十年请老；晚治第鄞之西湖上，建阁奉两朝赐书，光宗御极进太师
