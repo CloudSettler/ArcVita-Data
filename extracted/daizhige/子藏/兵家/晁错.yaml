@@ -1,0 +1,130 @@
+person:
+  qid: guji-chao-cuo
+  name_zh: 晁错
+  names:
+    zh: 晁错
+    en: Chao Cuo
+  lifespan:
+    birth:
+      date: -200
+      precision: year
+      is_circa: true
+      raw: 约汉高帝年间
+    death:
+      date: -154
+      precision: year
+      is_circa: false
+      raw: 汉景帝前元三年
+  birth_date: -200
+  death_date: -154
+  era: 西汉
+  reign_ref: 汉文帝、汉景帝
+  archetype: 谋臣·政论家
+  dilemmas:
+  - 峭直刻深，直言进谏而致杀身之祸
+  - 政策为民长远却触犯既得利益
+  lesson: 良谋足以安边济民，然削夺私利者须兼顾自处之道
+  summary_first_person: 我师从伏生受《尚书》，以书生之辩得幸太子，号曰智囊。我上言兵事、募民实边，对策贤良秩比九卿；后力主削藩，虽谋利万世，终以身殉之。
+  source_urls:
+  - https://zh.wikisource.org/wiki/言兵事書
+endeavors:
+- id: guji-chao-cuo-endeavor-1
+  name_zh: 受《尚书》与侍奉东宫
+  phases:
+  - key: brewing
+    name_zh: 太常遣诣伏生受书
+    labels:
+      zh: 学业
+    start_date: -180
+    highlight_event_id: guji-chao-cuo-event-shou-shu
+  - key: breakthrough
+    name_zh: 上书论术数，太子号智囊
+    labels:
+      zh: 得幸
+    start_date: -177
+    highlight_event_id: guji-chao-cuo-event-zhinang
+  decisions:
+  - date: -180
+    title_zh: 奉诏赴齐从伏生受《尚书》
+    rationale: 天下亡治《尚书》者，独伏生年九十余不可征，错奉命口受而还
+  - date: -177
+    title_zh: 上书言太子当知术数
+    rationale: 人主尊显功名著于万世者，以知术数也，愿择圣人之术可用今世者赐教太子
+- id: guji-chao-cuo-endeavor-2
+  name_zh: 论兵实边
+  phases:
+  - key: brewing
+    name_zh: 上言兵事三章
+    labels:
+      zh: 论兵
+    start_date: -169
+    highlight_event_id: guji-chao-cuo-event-bingshu
+  - key: breakthrough
+    name_zh: 复言守边备塞、劝农力本
+    labels:
+      zh: 实边
+    start_date: -166
+    highlight_event_id: guji-chao-cuo-event-tumin
+  - key: climax
+    name_zh: 举贤良对策，文帝嘉纳
+    labels:
+      zh: 对策
+    start_date: -165
+    highlight_event_id: guji-chao-cuo-event-duice
+  decisions:
+  - date: -169
+    title_zh: 上书言兵事，陈地形、卒服习、器用利之要
+    rationale: 安边境立功名在于良将，宜以中国长技与降胡相为表里，此万全之术
+  - date: -166
+    title_zh: 建议募民徙塞下，置城邑编伍备胡
+    rationale: 远方之卒一岁而更不如选常居者家室田作且以备之；上从其言
+  - date: -165
+    title_zh: 应贤良之选，对诏陈三道之要
+    rationale: 以五帝、三王、五伯明国家大体、人事终始与直言极谏，并以秦事明吏平政宣民宁之义
+events:
+- id: guji-chao-cuo-event-birth
+  type: birth
+  date: -200
+  year_of: -200
+  description: 晁错生，颍川人
+- id: guji-chao-cuo-event-shou-shu
+  type: endeavor
+  date: -180
+  year_of: -180
+  title_zh: 太常遣晁错赴齐受《尚书》于伏生
+  description: 孝文时天下亡治《尚书》者，伏生老不可征，乃遣错往受之
+- id: guji-chao-cuo-event-jiangzhi
+  type: endeavor
+  date: -178
+  year_of: -178
+  title_zh: 还因上书称说，诏以为太子舍人、门大夫、博士
+  description: 错受书还，上书称说，累迁至博士
+- id: guji-chao-cuo-event-zhinang
+  type: endeavor
+  date: -177
+  year_of: -177
+  title_zh: 上书论人主当知术数，拜太子家令，号智囊
+  description: 上善其言，拜错为太子家令；以其辩得幸太子，太子家号曰智囊
+- id: guji-chao-cuo-event-bingshu
+  type: endeavor
+  date: -169
+  year_of: -169
+  title_zh: 上言兵事，文帝赐玺书宠答
+  description: 匈奴数寇边，错上言兵体三章，言有必胜之将、无必胜之民；文帝嘉之，赐玺书宠答焉
+- id: guji-chao-cuo-event-tumin
+  type: endeavor
+  date: -166
+  year_of: -166
+  title_zh: 言守边备塞、劝农力本二事，募民徙塞下
+  description: 建议选常居者家室田作以备胡，高城深堑、调立城邑；上从其言，募民徙塞下
+- id: guji-chao-cuo-event-duice
+  type: endeavor
+  date: -165
+  year_of: -165
+  title_zh: 举贤良对策，文帝亲策之
+  description: 错对以五帝三王五伯之道及秦乱之鉴，文帝由是奇其材，迁中大夫
+- id: guji-chao-cuo-event-death
+  type: death
+  date: -154
+  year_of: -154
+  description: 晁错因削藩之议触怒诸侯，衣朝衣斩于东市
