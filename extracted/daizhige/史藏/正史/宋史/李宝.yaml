@@ -1,0 +1,202 @@
+person:
+  qid: guji-李宝
+  name_zh: 李宝
+  names:
+    zh: 李宝
+    en: Li Bao
+  lifespan:
+    birth:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 未知
+    death:
+      date: ''
+      precision: unknown
+      is_circa: false
+      raw: 未知（卒年不详，南宋绍兴末年后）
+  birth_date: ''
+  death_date: ''
+  era: 南宋
+  reign_ref:
+  - 绍兴
+  - 宋高宗
+  archetype: 水军名将·海上抗金英雄
+  dilemmas:
+  - 大洋风涛中军心欲溃，坚持进军还是退兵；李宝自立「宝心如铁石，不变矣」
+  - 取捷之后金主亮正渡淮，乘胜深入 versus 回军东海以保表里之援
+  lesson: 心如铁石、临危不惧，方能在逆风与强敌之间扭转战局。
+  summary_first_person: 我李宝本是河北人，曾陷于金人，脱身从海道归来。金主亮败盟南侵时，我以三千闽浙弓弩手、百二十艘海舟出海迎战，东莞顺风火攻于唐岛，焚敌数百艘，擒倪询、斩完颜郑家奴，解了钱唐之危，朝廷书「忠勇李宝」表我旗帜，除静海军节度使、沿海制置使。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷370
+endeavors:
+- id: guji-李宝-endeavor-1
+  name_zh: 归宋与备御浙西
+  labels:
+    zh:
+    - 归宋
+    - 海防筹措
+  phases:
+  - key: brewing
+    name_zh: 陷金脱身归宋
+    labels:
+      zh:
+      - 海道来归
+    start_date: ''
+    highlight_event_id: guji-李宝-event-return
+  - key: breakthrough
+    name_zh: 授职御敌
+    labels:
+      zh:
+      - 浙西副总管
+      - 平江驻札
+    start_date: '1161'
+    highlight_event_id: guji-李宝-event-appointment
+  decisions:
+  - date: '1161'
+    title_zh: 以百二十艘海舟、三千弓弩手亟发出海御敌
+    rationale: 金舟将繇海道袭浙江，事急，虽兵非正兵，仍请亟发以先制敌。
+- id: guji-李宝-endeavor-2
+  name_zh: 海州解围与唐岛大捷
+  labels:
+    zh:
+    - 海上决战
+    - 抗金复地
+  phases:
+  - key: breakthrough
+    name_zh: 海州之战解围
+    labels:
+      zh:
+      - 登岸力战
+      - 招纳降附
+    start_date: 1161-08
+    highlight_event_id: guji-李宝-event-haizhou
+  - key: climax
+    name_zh: 唐岛火攻大捷
+    labels:
+      zh:
+      - 火箭环射
+      - 焚敌数百艘
+    start_date: 1161-10
+    highlight_event_id: guji-李宝-event-tangdao
+  - key: closure
+    name_zh: 受赏与奠定水军范式
+    labels:
+      zh:
+      - 静海军节度使
+      - 克敌弓弩为式
+    start_date: 1161-11
+    highlight_event_id: guji-李宝-event-honors
+  decisions:
+  - date: 1161-08
+    title_zh: 冒西北劲风自苏州启行出海
+    rationale: 军士言迎风不利，李宝断然下令「敢沮大计者斩」，认定迟疑误国事。
+  - date: '1161'
+    title_zh: 捷后纳子公佐之谏，还军东海为表里援
+    rationale: 金主亮方济淮、通泰已陷，远胜之机不及近地之守，宜防腹背受敌。
+events:
+- id: guji-李宝-event-birth
+  year_of: ''
+  date: ''
+  title_zh: 出生
+  date_raw: 未知
+  event_type: birth
+  people:
+  - guji-李宝
+  places:
+  - 河北
+  summary_zh: 李宝为河北人，出生详情史无明载。
+- id: guji-李宝-event-death
+  year_of: ''
+  date: ''
+  title_zh: 卒，赠检校少保
+  date_raw: 卒年不详
+  event_type: death
+  people:
+  - guji-李宝
+  summary_zh: 李宝卒，朝廷赠检校少保。
+- id: guji-李宝-event-return
+  year_of: ''
+  date: ''
+  title_zh: 陷金，脱身从海道来归
+  date_raw: 绍兴年间
+  event_type: endeavor
+  people:
+  - guji-李宝
+  places:
+  - 河北
+  - 临安
+  summary_zh: 李宝曾陷于金，后脱身从海道南归宋廷，因召对询以北事历历如数、陛对无惧，受高宗赏识。
+- id: guji-李宝-event-appointment
+  year_of: 1161
+  date: '1161'
+  title_zh: 授浙西路马步军副总管，驻札平江督海舟捍御
+  date_raw: 绍兴三十一年
+  event_type: endeavor
+  people:
+  - guji-李宝
+  - 宋高宗
+  - 苏保衡
+  places:
+  - 平江
+  summary_zh: 金主亮败盟，金造舟欲由海道袭浙江，高宗以李宝必能事，授浙西路马步军副总管，与守臣督海舟捍御。
+- id: guji-李宝-event-departure
+  year_of: 1161
+  date: 1161-08
+  title_zh: 发苏州出海，大洋三日恶风誓师
+  date_raw: 绍兴三十一年八月
+  event_type: endeavor
+  people:
+  - guji-李宝
+  places:
+  - 苏州
+  - 江阴
+  - 东海
+  summary_zh: 李宝先遣子李公佐偕边士宁潜伺敌情，遂发苏州；大洋行三日风甚恶，舟散，李宝酹酒自誓「宝心如铁石，不变矣」，风止舟集。
+- id: guji-李宝-event-haizhou
+  year_of: 1161
+  date: 1161-08
+  title_zh: 解海州之围，声振山东
+  date_raw: 绍兴三十一年八月
+  event_type: battle
+  battle:
+    side: 宋
+    outcome: victory
+  people:
+  - guji-李宝
+  - 魏胜
+  places:
+  - 海州
+  summary_zh: 敌云合围海州，李宝麾兵登岸，握槊前行，将士无不一当十，敌不意引去，魏胜出城迎，声振山东，豪杰争应援。
+- id: guji-李宝-event-tangdao
+  year_of: 1161
+  date: 1161-10
+  title_zh: 唐岛之战：火箭焚敌数百艘
+  date_raw: 绍兴三十一年
+  event_type: battle
+  battle:
+    side: 宋
+    outcome: victory
+  people:
+  - guji-李宝
+  - 李公佐
+  - 完颜郑家奴
+  - 倪询
+  places:
+  - 胶西
+  - 石臼岛
+  - 唐岛
+  summary_zh: 李宝至石臼岛侦得敌舟泊唐岛，借北风疾进，火箭环射烟焰延烧数百艘，俘大汉军三千余人，斩完颜郑家奴等六帅，禽倪询，获符印文书器甲以万计。亮闻胶西之败，召诸酋约三日渡江，遂为内变所杀。
+- id: guji-李宝-event-honors
+  year_of: 1161
+  date: 1161-11
+  title_zh: 除静海军节度使、沿海制置使，旌旗书忠勇李宝
+  date_raw: 绍兴三十一年
+  event_type: honor
+  people:
+  - guji-李宝
+  - 宋高宗
+  - 陈康伯
+  places:
+  - 临安
+  summary_zh: 高宗喜「朕独用李宝，果立功，为天下倡矣」，诏书「忠勇李宝」表其旗帜，除静海军节度使、沿海制置使，赐金器玉带；宰臣取其长枪、克敌弓弩为式制之。
