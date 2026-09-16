@@ -1,0 +1,112 @@
+person:
+  qid: guji-陈亮
+  name_zh: 陈亮
+  names:
+    zh: 陈亮
+    en: Chen Liang
+  lifespan:
+    birth:
+      date: '1143'
+      precision: year
+      is_circa: true
+      raw: 生年不详，据卒年及生平推约
+    death:
+      date: '1194'
+      precision: year
+      is_circa: false
+  birth_date: '1143'
+  death_date: '1194'
+  era: 南宋
+  reign_ref: 淳熙五年诣阙上书
+  archetype:
+  - 布衣政论家
+  - 事功学派思想家
+  dilemmas:
+  - 主和已成朝议，直言复古雠之志恐触怒权贵
+  - 布衣无位，欲以议论动帝王而屡遭沮抑
+  lesson: 议论风生不如以身任事，度外之士常为格令所弃
+  summary_first_person: 我以布衣屡上孝宗皇帝书，力主权战復雠、变通立国本末，虽言辞激切、震惊朝野，终为大臣所沮，一生不改其志。
+  source_urls:
+  - https://zh.wikisource.org/wiki/宋史/卷436
+endeavors:
+- id: guji-陈亮-endeavor-1
+  name_zh: 著《酌古论》与早年立学
+  labels:
+    zh:
+    - 治学
+    - 兵学
+  phases:
+  - key: brewing
+    name_zh: 少喜谈兵
+    start_date: '1160'
+  - key: breakthrough
+    name_zh: 著《酌古论》得周葵赏识
+    start_date: '1163'
+    highlight_event_id: guji-陈亮-event-zhugu-1
+  decisions:
+  - date: '1163'
+    title_zh: 考古人用兵成败，著《酌古论》
+    rationale: 由古人用兵成败推求当世恢复之略
+- id: guji-陈亮-endeavor-2
+  name_zh: 三上孝宗书论恢复
+  labels:
+    zh:
+    - 政论
+    - 主战
+  phases:
+  - key: brewing
+    name_zh: 上《中兴五论》不报
+    start_date: '1163'
+  - key: climax
+    name_zh: 淳熙五年诣阙上书
+    start_date: '1178'
+    highlight_event_id: guji-陈亮-event-shangshu-2
+  - key: closure
+    name_zh: 再上书待命不合
+    start_date: '1178'
+  decisions:
+  - date: '1178'
+    title_zh: 更名同，诣阙上书
+    rationale: 力主与金绝、迁都建业，以发天地正气
+  - date: '1178'
+    title_zh: 逾垣而逃，避见曾觌
+    rationale: 耻于凭借近幸引荐以进身
+events:
+- id: guji-陈亮-event-birth
+  date: '1143'
+  year_of: 1143
+  type: birth
+  title_zh: 陈亮生于婺州永康
+- id: guji-陈亮-event-zhugu-1
+  date: '1163'
+  year_of: 1163
+  type: endeavor
+  endeavor_ref: guji-陈亮-endeavor-1
+  title_zh: 著《酌古论》，郡守周葵奇之，请为上客
+  description_zh: 郡守周葵得《酌古论》，相与论难，曰「他日国士也」，及葵执政，朝士因亮得交一时豪俊。
+- id: guji-陈亮-event-zhongxing-1
+  date: '1163'
+  year_of: 1163
+  type: endeavor
+  endeavor_ref: guji-陈亮-endeavor-2
+  title_zh: 隆兴初上《中兴五论》，不报
+  description_zh: 与金约和，亮独持不可；婺州方以解头荐之，奏入不报，遂退修于家十年。
+- id: guji-陈亮-event-shangshu-2
+  date: '1178'
+  year_of: 1178
+  type: endeavor
+  endeavor_ref: guji-陈亮-endeavor-2
+  title_zh: 淳熙五年更名同，诣阙上书论立国本末与恢复大计
+  description_zh: 直言和议惰人心，请陛下迁都建业、经略荆襄以图中原；孝宗赫然震动，欲榜朝堂励群臣，拟擢用之。
+- id: guji-陈亮-event-tao-3
+  date: '1178'
+  year_of: 1178
+  type: endeavor
+  endeavor_ref: guji-陈亮-endeavor-2
+  title_zh: 耻见曾觌，逾垣而逃，再上书不合
+  description_zh: 大臣恶其直言，有都堂审察之命；亮落落不少贬，待命再诣阙上书，终不见用。
+- id: guji-陈亮-event-death
+  date: '1194'
+  year_of: 1194
+  type: death
+  title_zh: 陈亮卒
