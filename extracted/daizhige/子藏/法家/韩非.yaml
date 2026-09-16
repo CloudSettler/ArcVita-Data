@@ -1,0 +1,131 @@
+person:
+  qid: guji-韩非
+  name_zh: 韩非
+  names:
+    zh: 韩非
+    en: Han Fei
+  lifespan:
+    birth:
+      date: -280
+      precision: year
+      is_circa: true
+      raw: 约公元前280年
+    death:
+      date: -233
+      precision: year
+      is_circa: false
+  birth_date: 约公元前280年
+  death_date: 公元前233年
+  era: 战国末期
+  reign_ref: 秦王政时期
+  archetype: 法家思想家
+  dilemmas:
+  - 屡谏韩王而不用，忠言难达于故国
+  - 入秦之后，存韩之志与事秦之身相冲突，终遭李斯、姚贾构陷
+  lesson: 精于揣摩人情世态者未必能自脱祸患，立言当折衷于理，不可逞私智欺世盗名
+  summary_first_person: 我韩非为韩国宗室，见韩削弱，数以书谏韩王而不用，遂作《孤愤》《五蠹》《内外储》《说林》《说难》十余万言。书传至秦，秦王悦之，然李斯、姚贾害我，下吏治罪，使我自杀于狱中。
+  source_urls:
+  - https://zh.wikisource.org/wiki/韓非子
+endeavors:
+- id: guji-韩非-endeavor-1
+  name_zh: 著书立说
+  phases:
+  - key: brewing
+    name_zh: 忧韩�t谏
+    labels:
+      zh: 谏韩不用
+    start_date: 约-250
+    highlight_event_id: guji-韩非-event-谏韩王
+  - key: breakthrough
+    name_zh: 撰《孤愤》《五蠹》《说难》诸篇
+    labels:
+      zh: 著书十余万言
+    start_date: 约前245年
+    highlight_event_id: guji-韩非-event-著书
+  - key: climax
+    name_zh: 书显于秦
+    labels:
+      zh: 秦王读其书
+    start_date: 约前234年
+    highlight_event_id: guji-韩非-event-秦王悦其书
+  - key: closure
+    name_zh: 囚秦而卒，其徒编次遗稿
+    labels:
+      zh: 死于秦狱
+    start_date: 前233年
+    highlight_event_id: guji-韩非-event-death
+  decisions:
+  - date: 约前245年
+    title_zh: 发愤著《孤愤》《五蠹》《内外储》《说林》《说难》
+    rationale: 悲廉直不容于邪枉之臣，观往者得失之变，托著述以明法术势之治
+  - date: 前233年
+    title_zh: 上书秦王言存韩伐赵之计
+    rationale: 欲以存韩自重，然文饰其说，实为韩谋，招李斯之疑
+- id: guji-韩非-endeavor-2
+  name_zh: 使秦存韩
+  phases:
+  - key: brewing
+    name_zh: 韩王遣非使秦
+    labels:
+      zh: 奉使入秦
+    start_date: 前234年
+    highlight_event_id: guji-韩非-event-使秦
+  - key: breakthrough
+    name_zh: 上《存韩》之议，与李斯相攻
+    labels:
+      zh: 议存韩
+    start_date: 前233年
+    highlight_event_id: guji-韩非-event-议存韩
+  - key: closure
+    name_zh: 李斯使人遗药，令自杀
+    labels:
+      zh: 遇害
+    start_date: 前233年
+    highlight_event_id: guji-韩非-event-death
+  decisions:
+  - date: 前233年
+    title_zh: 陈存韩之策，请勿伐韩而伐赵
+    rationale: 韩事秦三十余年，出则为扞蔽，伐韩则天下明赵氏之计
+events:
+- id: guji-韩非-event-birth
+  type: birth
+  date: -280
+  year_of: -280
+  title_zh: 韩非出生
+  summary_zh: 韩之诸公子，约生于战国末期
+- id: guji-韩非-event-谏韩王
+  type: endeavor
+  date: -250
+  year_of: -250
+  title_zh: 见韩削弱，数以书谏韩王
+  summary_zh: 韩王不能用，悲廉直不容于邪枉之臣
+- id: guji-韩非-event-著书
+  type: endeavor
+  date: -245
+  year_of: -245
+  title_zh: 作《孤愤》《五蠹》《内外储》《说林》《说难》十余万言
+  summary_zh: 著书当在未入秦前，观往者得失之变而作
+- id: guji-韩非-event-秦王悦其书
+  type: endeavor
+  date: -234
+  year_of: -234
+  title_zh: 书传至秦，秦王读《孤愤》《五蠹》而悦之
+  summary_zh: 或传其书至秦，秦王见其书曰得与此人游，死不恨矣
+- id: guji-韩非-event-使秦
+  type: endeavor
+  date: -234
+  year_of: -234
+  title_zh: 韩王遣非使秦
+  summary_zh: 韩非奉使入秦，上《初见秦》《存韩》诸篇
+- id: guji-韩非-event-议存韩
+  type: endeavor
+  date: -233
+  year_of: -233
+  title_zh: 上书言存韩，与李斯议相驳
+  summary_zh: 诏以韩客上书下臣斯议，斯甚以为不然，请往见韩王
+- id: guji-韩非-event-death
+  type: death
+  date: -233
+  year_of: -233
+  title_zh: 李斯、姚贾害之，下吏治非，死于狱中
+  summary_zh: 李斯使人遗之药，使自杀；后秦王悔之，使人赦之，非已死矣
